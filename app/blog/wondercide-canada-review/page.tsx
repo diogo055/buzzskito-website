@@ -23,7 +23,7 @@ const FAQS = [
   },
   {
     question: 'What is Wondercide made of? Is cedar oil safe?',
-    answer: 'Wondercide’s flea and tick products are built around cedarwood oil, plus lemongrass oil and sesame oil in the pet sprays, and a blend of cedarwood, cedar and other essential oils in the Yard + Garden line. In the US these fall under the EPA’s “minimum risk” 25(b) exemption, meaning they are considered low-risk and skip full pesticide registration. Cedar oil works by disrupting octopamine, a neurotransmitter insects have and mammals do not, which is why it is marketed as safe around kids and pets once dry. “Low risk” does not mean “no risk”—the oils are strongly scented, can irritate sensitive skin or airways, and cats in particular are sensitive to concentrated essential oils, so follow the label and let treated surfaces dry.',
+    answer: 'Wondercide’s flea and tick products are built around cedarwood oil, plus lemongrass oil and sesame oil in the pet sprays, and a blend of cedarwood, cedar and other essential oils in the Yard + Garden line. In the US these fall under the EPA’s “minimum risk” 25(b) exemption, which lets them skip full pesticide registration. Cedar oil works by disrupting octopamine, a neurotransmitter insects have and mammals do not, which is the basis for the brand’s pet-and-kid marketing. That exemption is not a clean bill of health—the oils are strongly scented, can irritate sensitive skin or airways, and cats in particular are sensitive to concentrated essential oils, so follow the label and let treated surfaces dry.',
   },
   {
     question: 'Wondercide Flea & Tick Spray vs Yard + Garden — what is the difference?',
@@ -31,11 +31,11 @@ const FAQS = [
   },
   {
     question: 'Does Wondercide actually work on ticks and mosquitoes?',
-    answer: 'It works as a short-term, contact knockdown—not as a long-lasting barrier. Cedar and lemongrass oils do kill and repel ticks, fleas, and mosquitoes on contact, and many pet owners genuinely like the pet spray for spot use. The honest limitation is duration: essential oils are volatile and degrade quickly in sun, heat, and rain, so independent repellent testing consistently shows plant-oil products giving far shorter protection windows than picaridin, DEET, or permethrin. For yard use that means frequent reapplication (often weekly or after every rain) to maintain any effect. It is a reasonable gentle option for people who prioritize a natural formula and accept the reapplication effort—not a set-and-forget tick solution.',
+    answer: 'It works as a short-term, contact knockdown—not as a long-lasting barrier. Cedar and lemongrass oils do kill and repel ticks, fleas, and mosquitoes on contact, and many pet owners genuinely like the pet spray for spot use. The honest limitation is duration: essential oils are volatile and degrade quickly in sun, heat, and rain, so independent repellent testing consistently shows plant-oil products giving far shorter protection windows than picaridin, DEET, or permethrin. For yard use that means frequent reapplication (often weekly or after every rain) to maintain any effect. It is a reasonable option for people who prioritize an essential-oil formula and accept the reapplication effort—not a set-and-forget tick solution.',
   },
   {
     question: 'How often do you have to reapply Wondercide in the yard?',
-    answer: 'Wondercide recommends reapplying the Yard + Garden product roughly every couple of weeks during peak season, but in real Ontario summer conditions—hot sun, humidity, and frequent rain—the practical interval is often closer to weekly, and you should re-treat after any significant rainfall because the oils wash off. This is the core trade-off with essential-oil yard products: they are gentle and fast to break down, which is good for the environment but means the protection window is short. A professional barrier spray, by contrast, uses a residual formula engineered to keep working for 21–30 days per treatment, which is why season programs schedule treatments every few weeks rather than every few days.',
+    answer: 'Wondercide recommends reapplying the Yard + Garden product roughly every couple of weeks during peak season, but in real Ontario summer conditions—hot sun, humidity, and frequent rain—the practical interval is often closer to weekly, and you should re-treat after any significant rainfall because the oils wash off. This is the core trade-off with essential-oil yard products: they break down fast, which means the protection window is short. A professional barrier spray, by contrast, uses a residual formula that wears down over weeks rather than days, which is why season programs schedule treatments every few weeks rather than every few days.',
   },
   {
     question: 'How much does Wondercide cost in Canada?',
@@ -43,7 +43,7 @@ const FAQS = [
   },
   {
     question: 'What is a better alternative to Wondercide for a GTA yard?',
-    answer: 'For ticks and mosquitoes across a whole Ontario yard, the two most proven approaches are permethrin-based tick control and professional barrier spray. Permethrin (used to treat clothing, gear, and—in pro applications—yard perimeters) has strong, well-documented tick knockdown and lasts far longer than cedar oil. Professional barrier spray treats the entire property with a residual formula that keeps working 21–30 days, covers both mosquitoes and ticks, and removes the weekly reapplication chore. Wondercide can still play a role—the pet spray for the dog, the personal spray for a hike—but for the yard itself, a longer-residual option delivers more reliable protection per dollar. See our guide to the best tick repellents for yards in Canada for the full comparison.',
+    answer: 'For ticks and mosquitoes across a whole Ontario yard, the two most proven approaches are permethrin-based tick control and professional barrier spray. Permethrin (used to treat clothing, gear, and—in pro applications—yard perimeters) has strong, well-documented tick knockdown and lasts far longer than cedar oil. Professional barrier spray treats the entire property with a residual formula that wears down over weeks rather than days, covers both mosquitoes and ticks, and removes the weekly reapplication chore. Wondercide can still play a role—the pet spray for the dog, the personal spray for a hike—but for the yard itself, a longer-residual option is the more practical choice per dollar. See our guide to the best tick repellents for yards in Canada for the full comparison.',
   },
 ]
 
@@ -94,7 +94,7 @@ export default function WondercideCanadaReviewPage() {
               <li>In Canada it is sold mostly through Amazon.ca third-party sellers and direct import, not big-box retail.</li>
               <li>The cedar-oil formula kills and repels ticks, fleas, and mosquitoes on contact, but the oils degrade within days.</li>
               <li>Canadian pricing runs roughly $25 for personal spray up to about $130 for yard concentrate (2026 estimates).</li>
-              <li>A yard treatment needs re-spraying about weekly, while a professional barrier spray lasts 21&ndash;30 days per treatment.</li>
+              <li>A yard treatment needs re-spraying about weekly, while a professional barrier spray&rsquo;s residual wears down over weeks rather than days.</li>
               <li>Cats are sensitive to essential oils, so use pet products only as directed and keep them away until dry.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
@@ -110,7 +110,7 @@ export default function WondercideCanadaReviewPage() {
             blurb="Where Wondercide genuinely shines: a gentle, ready-to-use cedar-oil spray for the dog, the cat's bedding, and indoor surfaces. It kills and repels fleas and ticks on contact, and it is the line Wondercide fans actually love. Just treat it as a knockdown for the pet and the person — not a set-and-forget yard barrier."
             search="wondercide flea and tick spray"
             score={7.6}
-            pros={['Gentle, natural cedar-oil formula safe around pets once dry', 'Genuinely kills & repels fleas and ticks on contact', 'Ready-to-use — great for spot-treating the dog, bedding, and couch']}
+            pros={['Cedar-oil formula made for pets, bedding, and furniture', 'Genuinely kills & repels fleas and ticks on contact', 'Ready-to-use — great for spot-treating the dog, bedding, and couch']}
             cons={['Essential oils break down within days — needs frequent reapplication', 'Not a long-residual yard barrier; overwhelmed under heavy pressure']}
           />
         </div>
@@ -156,7 +156,7 @@ export default function WondercideCanadaReviewPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Cedar-oil yard sprays work on contact but fade fast.</strong> Essential oils degrade within days in sun and rain, so a Wondercide yard treatment needs re-spraying weekly to keep working. For long-residual, whole-yard tick and mosquito coverage, <Link href="/tick-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> lasts 21&ndash;30 days per treatment. Wondercide is best used for the <em>pet and the person</em>, not as your only line of yard defence.
+              <strong className="text-amber-900">⚠️ Cedar-oil yard sprays work on contact but fade fast.</strong> Essential oils degrade within days in sun and rain, so a Wondercide yard treatment needs re-spraying weekly to keep working. For long-residual, whole-yard tick and mosquito coverage, <Link href="/tick-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> leaves a residual that wears down over weeks, not days. Wondercide is best used for the <em>pet and the person</em>, not as your only line of yard defence.
             </p>
           </div>
         </div>
@@ -177,7 +177,7 @@ export default function WondercideCanadaReviewPage() {
                   ['Residual / duration', 'Short — oils degrade in days; frequent reapplication needed'],
                   ['Tick effectiveness', 'Contact kill/repel — yes; long-lasting barrier — no'],
                   ['Mosquito effectiveness', 'Contact repel — modest; short protection window'],
-                  ['Pet safety', 'Marketed safe around pets once dry — cats sensitive to essential oils'],
+                  ['Pet use', 'Pet spray is formulated for dogs and cats — follow the label; cats are sensitive to essential oils'],
                   ['Product lines', 'Flea & Tick Spray, Yard + Garden, Personal Repellent'],
                   ['CA price range (2026)', '~$25 (personal) – $130 (yard concentrate)'],
                   ['Best application', 'Pet spot-treatment, indoor surfaces, personal outdoor use'],
@@ -250,24 +250,24 @@ export default function WondercideCanadaReviewPage() {
           <p className="not-prose text-sm text-gray-600 mb-6">Treating a bigger yard? The <strong>Concentrate</strong> is cheaper per gallon than the ready-to-spray bottles, but remember you will re-mix and re-apply often through the season. <BuyLink tag={AMZ_TAG} search="wondercide yard and garden concentrate">Check concentrate price →</BuyLink></p>
 
           <h3>Flea &amp; Tick Spray vs Yard + Garden: which do you need?</h3>
-          <p>They solve different problems and are not interchangeable. The <strong>Flea &amp; Tick Spray</strong> is a ready-to-use bottle formulated to go directly on your dog or cat, their bedding, carpets, and furniture &mdash; it is the product most Wondercide fans actually love, because spot-treating a pet and a couch is exactly what a fast-fading, gentle cedar-oil spray is good at. The <strong>Yard + Garden</strong> line is a different formula meant for the lawn edges, shrubs, mulch, and shaded resting zones where ticks and mosquitoes live outdoors. If your dog keeps bringing ticks inside, start with the pet spray. If you are getting bitten in your own backyard, you want the Yard + Garden &mdash; but go in knowing you will be re-spraying it frequently.</p>
+          <p>They solve different problems and are not interchangeable. The <strong>Flea &amp; Tick Spray</strong> is a ready-to-use bottle formulated to go directly on your dog or cat, their bedding, carpets, and furniture &mdash; it is the product most Wondercide fans actually love, because spot-treating a pet and a couch is exactly what a fast-fading cedar-oil spray is good at. The <strong>Yard + Garden</strong> line is a different formula meant for the lawn edges, shrubs, mulch, and shaded resting zones where ticks and mosquitoes live outdoors. If your dog keeps bringing ticks inside, start with the pet spray. If you are getting bitten in your own backyard, you want the Yard + Garden &mdash; but go in knowing you will be re-spraying it frequently.</p>
 
           <h3>Why Wondercide is hard to buy in Canada</h3>
-          <p>Wondercide has no broad Canadian retail distribution, so most of what you see here is imported. In the US, its essential-oil formulas ride the EPA&rsquo;s 25(b) &ldquo;minimum risk&rdquo; exemption, which lets low-risk botanical pesticides skip full federal registration. Canada&rsquo;s system is different: pest control products are regulated by Health Canada&rsquo;s PMRA, and there is no automatic blanket exemption that mirrors the US 25(b) list. The practical result is that Wondercide yard products are not registered Canadian pesticides, and you buy them as imported goods through <BuyLink tag={AMZ_TAG} search="wondercide">Amazon.ca</BuyLink> third-party sellers or direct from the US site with duties. Always confirm the seller and check the current listing &mdash; stock and legality of specific SKUs can change.</p>
+          <p>Wondercide has no broad Canadian retail distribution, so most of what you see here is imported. In the US, its essential-oil formulas ride the EPA&rsquo;s 25(b) &ldquo;minimum risk&rdquo; exemption, which lets certain botanical pesticides skip full federal registration. Canada&rsquo;s system is different: pest control products are regulated by Health Canada&rsquo;s PMRA, and there is no automatic blanket exemption that mirrors the US 25(b) list. The practical result is that Wondercide yard products are not registered Canadian pesticides, and you buy them as imported goods through <BuyLink tag={AMZ_TAG} search="wondercide">Amazon.ca</BuyLink> third-party sellers or direct from the US site with duties. Always confirm the seller and check the current listing &mdash; stock and legality of specific SKUs can change.</p>
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Does Wondercide actually work? The honest answer.</p>
-            <p className="text-sm text-gray-800 leading-relaxed">Yes &mdash; on <em>contact</em>, and for <em>short</em> windows. Cedar and lemongrass oils genuinely kill and repel ticks, fleas, and mosquitoes when they hit them directly, which is why the pet spray earns loyal fans. The catch is duration: essential oils are volatile and wash off in rain, so repellent research consistently shows plant-oil products protecting for far less time than picaridin, DEET, or permethrin. For a GTA yard that means weekly re-treatment to hold any line. For dependable, whole-yard tick relief, pair or replace it with <Link href="/tick-control">professional barrier spray</Link> &mdash; a residual formula that keeps working 21&ndash;30 days and covers mosquitoes too.</p>
+            <p className="text-sm text-gray-800 leading-relaxed">Yes &mdash; on <em>contact</em>, and for <em>short</em> windows. Cedar and lemongrass oils genuinely kill and repel ticks, fleas, and mosquitoes when they hit them directly, which is why the pet spray earns loyal fans. The catch is duration: essential oils are volatile and wash off in rain, so repellent research consistently shows plant-oil products protecting for far less time than picaridin, DEET, or permethrin. For a GTA yard that means weekly re-treatment to hold any line. For dependable, whole-yard tick relief, pair or replace it with <Link href="/tick-control">professional barrier spray</Link> &mdash; a residual formula that wears down over weeks rather than days and covers mosquitoes too.</p>
           </div>
 
           <h2>How Wondercide Works (and Why That Matters)</h2>
-          <p>Wondercide&rsquo;s active ingredient is cedarwood oil, usually alongside lemongrass and sesame oil. Cedar oil kills and repels insects by interfering with <strong>octopamine</strong>, a neurotransmitter that regulates movement and heart rate in insects, ticks, and fleas. Mammals &mdash; including you, your dog, and your cat &mdash; do not have octopamine receptors, which is the scientific basis for the &ldquo;safe around pets and kids&rdquo; marketing. That mechanism is real and is why the sprays do something when they land on a bug.</p>
+          <p>Wondercide&rsquo;s active ingredient is cedarwood oil, usually alongside lemongrass and sesame oil. Cedar oil kills and repels insects by interfering with <strong>octopamine</strong>, a neurotransmitter that regulates movement and heart rate in insects, ticks, and fleas. Mammals &mdash; including you, your dog, and your cat &mdash; do not have octopamine receptors, which is the scientific basis for the brand&rsquo;s pet-and-kid marketing. That mechanism is real and is why the sprays do something when they land on a bug.</p>
           <p>The limitation is also chemistry. Essential oils are <strong>volatile</strong> by design &mdash; that is what makes them smell strong and what makes them evaporate. In direct summer sun, heat, and Ontario&rsquo;s frequent rain, the active oils dissipate within days, taking their repellency with them. That is fundamentally different from a residual pesticide engineered to bind to leaf surfaces and keep killing for weeks.</p>
           <p>So the useful mental model is: Wondercide is a <em>knockdown</em> product, not a <em>barrier</em> product. It is excellent for &ldquo;there is a tick on my dog right now&rdquo; or &ldquo;spray the picnic blanket before we sit down.&rdquo; It is weak for &ldquo;keep my whole yard tick-free all July&rdquo; unless you are willing to walk the perimeter with a sprayer every week.</p>
 
           <h2>What Wondercide IS Good For</h2>
           <ul>
-            <li><strong>Pet spot-treatment</strong> &mdash; spraying the dog before and after a walk, or the cat&rsquo;s bedding, with a gentle natural formula</li>
+            <li><strong>Pet spot-treatment</strong> &mdash; spraying the dog before and after a walk, or the cat&rsquo;s bedding, with a cedar-oil formula</li>
             <li><strong>Indoor surfaces</strong> &mdash; carpets, furniture, and pet areas during a flea flare-up</li>
             <li><strong>Personal outdoor use</strong> &mdash; the repellent spray on skin/clothing for a hike or a backyard evening</li>
             <li><strong>Chemical-averse households</strong> &mdash; people who specifically want an essential-oil option and accept the reapplication effort</li>
@@ -285,7 +285,7 @@ export default function WondercideCanadaReviewPage() {
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional tick &amp; mosquito barrier spray covers your whole yard from $99 &mdash; a residual treatment that lasts weeks, not days. Backed by 150+ five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional tick &amp; mosquito barrier spray covers your whole yard from $99 &mdash; a residual treatment that wears down over weeks, not days. Backed by 150+ five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -301,12 +301,17 @@ export default function WondercideCanadaReviewPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Wondercide Yard + Garden</strong></td><td className="px-3 py-2">$45–$130 + frequent reapply</td><td className="px-3 py-2">Days (re-spray weekly)</td><td className="px-3 py-2">Contact only</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin</Link></td><td className="px-3 py-2">$20–$60</td><td className="px-3 py-2">Weeks (clothing longer)</td><td className="px-3 py-2">Strong knockdown</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-tick-repellent-yard-canada">Best yard tick repellents</Link></td><td className="px-3 py-2">Varies</td><td className="px-3 py-2">Varies by product</td><td className="px-3 py-2">See comparison</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">From $99 / treatment</td><td className="px-3 py-2">21–30 days residual</td><td className="px-3 py-2">Whole yard + mosquitoes</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">From $99 / treatment</td><td className="px-3 py-2">Weeks (renewed each visit)</td><td className="px-3 py-2">Whole yard + mosquitoes</td></tr>
             </tbody>
           </table>
 
+          <p className="not-prose text-gray-700">The permethrin row in that table is doing something the other three are not, and it is the part most people miss: its yard use and its clothing use are separate jobs. The U.S. Centers for Disease Control and Prevention recommends treating clothing, boots and camping gear with 0.5% permethrin, and is explicit that it goes on fabric and never on skin. A treated pair of hiking trousers and socks covers the person walking the trail edge and the long grass &mdash; which is where most Ontario tick encounters actually happen &mdash; rather than the lawn they came home to. Treated clothing is far more common in the US than here, so check the label and Canadian availability before ordering. <BuyLink tag={AMZ_TAG} search="permethrin clothing spray">Check permethrin clothing and gear treatments on Amazon.ca &rarr;</BuyLink></p>
+
           <h2>The Honest Verdict for Canadian Buyers</h2>
-          <p>If you want a gentle, natural spray for your <strong>pet</strong> and yourself, Wondercide is a genuinely nice product &mdash; buy the Flea &amp; Tick pet spray or the personal repellent and keep them handy. If you are hoping it will keep your <strong>whole yard</strong> tick-free all summer, temper expectations: the cedar-oil formula fades in days and demands weekly reapplication, and it is not officially distributed or PMRA-registered as a yard pesticide in Canada. For dependable, hands-off yard protection against ticks and mosquitoes, a longer-residual approach &mdash; permethrin-based treatment or <Link href="/tick-control">professional barrier spray</Link> &mdash; will outlast and out-cover it. Many GTA households do both: Wondercide on the dog, a residual program on the yard.</p>
+          <p>If you want a cedar-oil spray for your <strong>pet</strong> and yourself, Wondercide is a genuinely nice product &mdash; buy the Flea &amp; Tick pet spray or the personal repellent and keep them handy. If you are hoping it will keep your <strong>whole yard</strong> tick-free all summer, temper expectations: the cedar-oil formula fades in days and demands weekly reapplication, and it is not officially distributed or PMRA-registered as a yard pesticide in Canada. For dependable, hands-off yard protection against ticks and mosquitoes, a longer-residual approach &mdash; permethrin-based treatment or <Link href="/tick-control">professional barrier spray</Link> &mdash; will outlast and out-cover it. Many GTA households do both: Wondercide on the dog, a residual program on the yard.</p>
+
+          <p className="not-prose text-gray-700">If that is the split you land on &mdash; cedar oil on the dog, a residual program on the yard &mdash; the cheapest thing that makes the pet half work better is not a spray at all. A fine-toothed flea comb run through the coat after a walk lifts off ticks that have not yet attached, and it shows you flea dirt long before you ever see a flea. That is the check no spray can do for you. <BuyLink tag={AMZ_TAG} search="flea comb for dogs">Check flea combs on Amazon.ca &rarr;</BuyLink></p>
+          <p className="not-prose text-gray-700">And whatever you end up spraying, plan for the tick you still find attached, because nothing on this page brings that to zero. What matters then is removing it promptly and properly: steady upward pressure with fine-point tweezers or a purpose-made tick hook, gripping right where the mouthparts meet the skin, without twisting, crushing or applying heat to it. Keeping one in the first-aid kit and a spare in the car beats hunting through a drawer with a tick already attached. Our <Link href="/blog/tick-bite-vs-mosquito-bite">tick bite guide</Link> covers what to watch for afterwards. <BuyLink tag={AMZ_TAG} search="tick removal tool">Check tick removal tools on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -331,7 +336,7 @@ export default function WondercideCanadaReviewPage() {
         </div>
       </article>
 
-      <CTASection heading="Cedar Oil for the Dog · Barrier Spray for the Yard" subtext="Get a free quote for licensed tick & mosquito barrier spray. From $99. Lasts weeks, not days. Whole-yard coverage." variant="dark" />
+      <CTASection heading="Cedar Oil for the Dog · Barrier Spray for the Yard" subtext="Get a free quote for licensed tick & mosquito barrier spray. From $99. Whole-yard coverage." variant="dark" />
     </>
   )
 }

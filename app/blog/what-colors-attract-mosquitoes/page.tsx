@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'what-colors-attract-mosquitoes'
 const DATE = '2026-07-16'
@@ -24,7 +25,7 @@ const FAQS = [
   },
   {
     question: 'What color should you wear to avoid mosquito bites?',
-    answer: 'Wear white, khaki, pale green, pale blue, or light grey to be least attractive to mosquitoes visually. The 2022 Nature Communications study found mosquitoes ignored green, blue, purple, and white after detecting CO2, while red, orange, black, and cyan drew them in. So the practical rule is: avoid red, orange, black, and dark saturated colours, and choose light, cool-toned clothing. Colour is only a secondary defence, though — loose, long-sleeved clothing plus a Health Canada-registered repellent like DEET or icaridin does far more to prevent bites than colour choice alone.',
+    answer: 'Wear white, khaki, pale green, pale blue, or light grey to be least attractive to mosquitoes visually. The 2022 Nature Communications study found mosquitoes ignored green, blue, purple, and white after detecting CO2, while red, orange, black, and cyan drew them in. So the practical rule is: avoid red, orange, black, and dark saturated colours, and choose light, cool-toned clothing. Colour is only a secondary defence, though — loose, long-sleeved clothing plus a repellent like DEET or icaridin (look for the PCP registration number on the label) does far more to prevent bites than colour choice alone.',
   },
   {
     question: 'Are mosquitoes attracted to the color red?',
@@ -123,7 +124,7 @@ export default function WhatColorsAttractMosquitoesPage() {
 
           <h2>What color should you wear to avoid mosquitoes?</h2>
           <p>Wear <strong>white, khaki, pale green, pale blue, or light grey</strong> to be least visually attractive to mosquitoes. These map directly onto the colours the 2022 study found mosquitoes ignored, and they double as the coolest, most comfortable choices for an Ontario summer.</p>
-          <p>The full clothing playbook is simple: choose light, cool-toned colours; avoid red, orange, and black; and prioritise <strong>loose, long-sleeved</strong> coverage, because a mosquito cannot bite fabric it cannot reach through. Loose weave matters &mdash; mosquitoes can bite through tight fabric stretched over skin. Add a Health Canada-registered repellent (DEET or icaridin) on any exposed skin, and you have layered the two things that actually move the needle: reduced visibility and active deterrence.</p>
+          <p>The full clothing playbook is simple: choose light, cool-toned colours; avoid red, orange, and black; and prioritise <strong>loose, long-sleeved</strong> coverage, because a mosquito cannot bite fabric it cannot reach through. Loose weave matters &mdash; mosquitoes can bite through tight fabric stretched over skin. Add a repellent with DEET or icaridin (look for the PCP registration number on the label) on any exposed skin, and you have layered the two things that actually move the needle: reduced visibility and active deterrence.</p>
           <p>Fit and thickness do far more work here than shade does. A mosquito&rsquo;s proboscis reaches roughly 2 mm, so a tight, thin garment stays biteable no matter what colour it is &mdash; our companion guide explains <Link href="/blog/can-mosquitoes-bite-through-clothes">why leggings fail and denim wins</Link>.</p>
           <p>Keep the expectation realistic. Colour is the weakest lever of the three main attractant categories. If you are the person who always gets bitten while everyone else is fine, the cause is far more likely your CO2 output, skin chemistry, or even your blood type than your shirt &mdash; we break that down in <Link href="/blog/what-blood-type-do-mosquitoes-bite">what blood type mosquitoes bite most</Link>.</p>
 
@@ -190,11 +191,11 @@ export default function WhatColorsAttractMosquitoesPage() {
 
           <h2>Why Colour Is the Weakest Lever (and What Actually Works)</h2>
           <p>The colour story is fascinating, but it is important to keep it in proportion. A female mosquito finding a host works in stages: she detects a plume of CO2 from up to 10 metres away, then follows body heat and skin odours such as lactic acid, ammonia, and the compounds your skin bacteria produce, and only in the final approach does vision &mdash; colour and contrast &mdash; guide her landing. Colour is the last and weakest link in that chain.</p>
-          <p>That is why changing your shirt from black to white helps a little, but changing your whole environment helps a lot. In a GTA backyard, the highest-impact moves are eliminating standing water where mosquitoes breed (they can complete a life cycle in as little as 8&ndash;10 days in warm weather), using a registered repellent on exposed skin, and treating the yard&rsquo;s resting vegetation with a residual barrier so mosquitoes die before they ever reach you.</p>
+          <p>That is why changing your shirt from black to white helps a little, but changing your whole environment helps a lot. In a GTA backyard, the highest-impact moves are eliminating standing water where mosquitoes breed (they can complete a life cycle in as little as 8&ndash;10 days in warm weather), using a registered repellent on exposed skin, and treating the yard&rsquo;s resting vegetation with a residual barrier where mosquitoes spend the day.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Stop dressing around the problem</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">No shirt colour beats a treated yard. BuzzSkito&rsquo;s professional barrier spray covers your whole property from $99 &mdash; killing mosquitoes on contact and for 21&ndash;30 days after. Backed by 150 five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">No shirt colour beats a treated yard. BuzzSkito&rsquo;s professional barrier spray covers your whole property from $99 &mdash; treating the shaded vegetation where mosquitoes rest, with products applied according to label directions. Backed by 150+ five-star Google reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -202,7 +203,7 @@ export default function WhatColorsAttractMosquitoesPage() {
           </aside>
 
           <h2>The Bottom Line for GTA Backyards</h2>
-          <p>If you take one thing from the 2022 research: mosquitoes hunt <strong>red, orange, black, and cyan</strong> and ignore <strong>green, blue, purple, and white</strong> &mdash; but only after your breath has already given you away. Wear light, cool colours as a small advantage, cover exposed skin, use a Health Canada-registered repellent, and remove standing water. For a yard you can actually enjoy from May through September, pair those habits with a professional <Link href="/mosquito-control">barrier spray program</Link> that reduces the mosquito population itself rather than just how visible you are to it.</p>
+          <p>If you take one thing from the 2022 research: mosquitoes hunt <strong>red, orange, black, and cyan</strong> and ignore <strong>green, blue, purple, and white</strong> &mdash; but only after your breath has already given you away. Wear light, cool colours as a small advantage, cover exposed skin, use a repellent with a PCP registration number, and remove standing water. For a yard you can actually enjoy from May through September, pair those habits with a professional <Link href="/mosquito-control">barrier spray program</Link> that treats the places mosquitoes rest rather than just how visible you are to them.</p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -224,7 +225,7 @@ export default function WhatColorsAttractMosquitoesPage() {
         </div>
       </article>
 
-      <CTASection heading="Wear White, Spray the Yard, Enjoy the Summer" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. Kills mosquitoes and ticks for 21–30 days." variant="dark" />
+      <CTASection heading="Wear White, Spray the Yard, Enjoy the Summer" subtext={`Get a free quote for licensed barrier spray. From $99. Treats mosquitoes and ticks. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

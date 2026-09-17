@@ -484,7 +484,7 @@ export default function BestCentipedeKillerCanadaPage() {
       <CTASection
         variant="light"
         heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="Centipedes we research; mosquitoes and ticks we treat. If your yard in the GTA is unusable in summer, we spray it — 150 five-star reviews and a free re-spray guarantee."
+        subtext="Centipedes we research; mosquitoes and ticks we treat. If your yard in the GTA is unusable in summer, we spray it — 150 five-star reviews and a rain-back guarantee on every plan."
       />
     </>
   )

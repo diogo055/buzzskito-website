@@ -264,7 +264,7 @@ export default function TypesOfTicksIdentificationPage() {
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Found ticks in your yard? We treat where they hide.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Ticks wait in tall grass, leaf litter, and shaded yard edges. BuzzSkito&rsquo;s barrier treatment targets those exact zones across 19+ GTA cities, with single treatments from $99 and licensed, family-safe application.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Ticks wait in tall grass, leaf litter, and shaded yard edges. BuzzSkito&rsquo;s barrier treatment targets those exact zones across 19+ GTA cities, with single treatments from $99 on a standard lot, applied by a licensed operator according to label directions.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -280,11 +280,14 @@ export default function TypesOfTicksIdentificationPage() {
           <h2>Lone Star Tick — Amblyomma americanum</h2>
           <p>Named for the single white dot on the female&rsquo;s back (males have scattered white streaks instead), the lone star tick is reddish-brown, aggressive, and has notably long mouthparts. Historically a southeastern US tick, its range is expanding northward and it now turns up in the northeastern states and, increasingly, parts of Ontario. It is associated with ehrlichiosis, Southern tick-associated rash illness (STARI), and <strong>alpha-gal syndrome</strong> — a delayed red-meat allergy triggered by its bite. It does not spread Lyme.</p>
 
+          <p>Whether that matters in an Ontario backyard is a separate question from whether the species exists on the continent. The lone star tick is not established in Canada, and the specimens logged here each year are mostly carried north by migratory birds. For its actual Canadian status, the delayed 2&ndash;6 hour reaction pattern that makes alpha-gal so easy to miss, and how much GTA residents really need to worry, see our <Link href="/blog/lone-star-tick-alpha-gal-canada" className="text-brand-700 underline">lone star tick and alpha-gal risk guide for Canada</Link>.</p>
+
           <h2>Brown Dog Tick — Rhipicephalus sanguineus</h2>
           <p>The brown dog tick is unusual: it can complete its entire life cycle indoors, which means infestations in homes, kennels, and dog runs across both the US and Canada. It is a uniform reddish-brown, elongated when unfed, roughly 3 mm, swelling to about 12 mm when engorged, with no clear back pattern and a hexagonal base to the mouthparts. It strongly prefers dogs as hosts but will bite people. In some regions it can transmit Rocky Mountain spotted fever.</p>
 
           <h2>Rocky Mountain Wood Tick — Dermacentor andersoni</h2>
           <p>A western counterpart to the American dog tick, the Rocky Mountain wood tick is brown with a grey/white mottled scutum and is found in the western US and Canada (British Columbia, Alberta, Saskatchewan). Adults are about 5 mm unfed. It can transmit Rocky Mountain spotted fever, Colorado tick fever, and — in rare cases — <strong>tick paralysis</strong>, a temporary paralysis caused by a toxin in the tick&rsquo;s saliva that resolves once the tick is removed. Under a hand lens it is hard to separate from the American dog tick; range is the easiest clue.</p>
+          <p>Because range is so often the deciding clue, it helps to know which species are established where you live: <Link href="/blog/are-there-ticks-in-canada" className="text-brand-700 underline">are there ticks in Canada?</Link> works through the answer province by province.</p>
 
           <h2>Not Sure It&rsquo;s Even a Tick?</h2>
           <p>Plenty of harmless bugs get mistaken for ticks — from engorged bed bugs and poppy-seed-sized beetles to spider beetles and even clumps of dirt. Legs are the fastest test: ticks have 8 (6 as larvae) and no wings or antennae. If yours has wings, more than 8 legs, or long antennae, it is not a tick. Compare side-by-side in our <Link href="/blog/bugs-that-look-like-ticks">bugs that look like ticks</Link> photo guide, and see the full visual reference in <Link href="/blog/what-ticks-look-like-ontario">what ticks look like</Link>.</p>

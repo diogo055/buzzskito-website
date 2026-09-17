@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Baby Point | From $99',
   description:
-    'Professional mosquito control in Baby Point, Toronto. Barrier spray near Humber River ravine from $99. Safe for kids & pets. Call (289) 216-5030.',
+    'Professional mosquito control in Baby Point, Toronto. Barrier spray near Humber River ravine from $99. Licensed Ontario operator. Call (289) 216-5030.',
   canonical: '/baby-point-mosquito-control',
 })
 
@@ -27,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'How many treatments does a Baby Point home need per season?',
-    answer: "Baby Point's near-complete ravine encirclement means most properties benefit from the full 5-treatment seasonal program, spaced 21–28 days apart from May through September. The Humber River ravine provides continuous mosquito pressure from multiple directions, making consistent barrier coverage essential. Call (289) 216-5030 for a free property assessment.",
+    answer: "Baby Point's near-complete ravine encirclement means most properties benefit from a full season plan from May through September: Basic (5 sprays, monthly), or Standard (10 sprays, every 2 weeks) for closer spacing. The Humber River ravine provides continuous mosquito pressure from multiple directions, making consistent barrier coverage essential. Call (289) 216-5030 for a free property assessment.",
   },
   {
     question: 'When does mosquito season run in Baby Point?',
@@ -57,21 +59,23 @@ export default function BabyPointMosquitoPage() {
           { label: NEIGHBOURHOOD },
         ]}
         title={<>Mosquito Control in {NEIGHBOURHOOD}, {CITY}</>}
-        subtitle={<>Baby Point is surrounded on three sides by the Humber River ravine — one of Toronto's most productive mosquito breeding corridors. BuzzSkito's barrier spray gives Baby Point families 30-day protection per treatment.</>}
+        subtitle={<>Baby Point is surrounded on three sides by the Humber River ravine — one of Toronto's most productive mosquito breeding corridors. Licensed Ontario pesticide operator, with treatments applied according to label directions.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
+
+      <TypicalPrices service="mosquito" city={NEIGHBOURHOOD} />
 
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
@@ -81,8 +85,8 @@ export default function BabyPointMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies the product according to its label directions to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer. Stay off treated areas until the spray has dried, as the label directs.' },
+              { step: '3', title: 'Repeat Visits & Guarantees', desc: `Treatments repeat on your plan's schedule through the season. ${PROMISES.rainBack} On Standard & Exclusive plans, if mosquitoes come back between scheduled treatments, we re-treat at no charge.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -98,12 +102,22 @@ export default function BabyPointMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Baby Point's Ravine-Enclosed Mosquito Problem</h2>
           <p>Baby Point occupies a dramatic promontory above the <strong>Humber River</strong>, surrounded on three sides by one of Toronto's deepest ravine systems. This unique geography — the same landscape that makes Baby Point architecturally stunning — creates exceptionally intense mosquito pressure. The Humber River's permanent flow, seasonal floodplain pooling, and dense riparian forest produce large mosquito populations that rise from the valley floor into the neighbourhood each evening.</p>
-          <p>The <strong>Humber River ravine</strong> to the west and south, and a tributary ravine to the east, mean that mosquitoes approach Baby Point properties from multiple directions simultaneously. BuzzSkito's barrier spray creates a treated perimeter around your property — targeting the vegetation where mosquitoes rest during the day — providing up to 30 days of protection between treatments regardless of the surrounding ravine pressure.</p>
+          <p>The <strong>Humber River ravine</strong> to the west and south, and a tributary ravine to the east, mean that mosquitoes approach Baby Point properties from multiple directions simultaneously. BuzzSkito's barrier spray creates a treated perimeter around your property — targeting the vegetation where mosquitoes rest during the day — renewed at each scheduled visit through the season.</p>
 
           <h2>Part of Our Etobicoke Mosquito Control Network</h2>
           <p>We serve all of Baby Point and surrounding west Toronto. See our <Link href="/etobicoke-mosquito-control" className="text-brand-700 hover:underline">Etobicoke mosquito control</Link> page for area-wide coverage.</p>
 
 
+        </div>
+      </section>
+
+      {/* Price card sits between prose sections: .prose-brand link styles would override its buttons */}
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" location="price_card_mid" />
+      </div>
+
+      <section className="pb-14 px-4 bg-white">
+        <div className="max-w-4xl mx-auto prose-brand">
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
           <div className="not-prose overflow-x-auto my-6">
@@ -124,10 +138,10 @@ export default function BabyPointMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats the resting surfaces across your property, leaving a residual barrier that is renewed at each scheduled visit. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -136,7 +150,7 @@ export default function BabyPointMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Our tick barrier spray targets the lawn edges, leaf litter and wooded borders where ticks wait: 5 sprays per season, $597 on its own or $497 with any mosquito plan. See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>
@@ -175,6 +189,10 @@ export default function BabyPointMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

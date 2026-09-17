@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { Icon } from '@/components/Icon'
+import { PROMISES } from '@/lib/constants'
 
 /**
  * Services as a sticky scroll story — the mirror of HowItWorksStory. The
@@ -14,6 +15,12 @@ import { Icon } from '@/components/Icon'
  *
  * State is driven by the shared StoryHydrator (`.story-root`/[data-step]);
  * painting is CSS opacity/transform only.
+ *
+ * Claims (Sep 2026): pesticide advertising rules (Health Canada DIR2016-01) bar
+ * "Health Canada approved", untested protection periods and disease-prevention
+ * claims, so the 30-day, Health Canada and Lyme lines were replaced with the
+ * licence, the label line and the rain-back guarantee (which holds on every plan,
+ * unlike the Bite-Free Guarantee).
  */
 
 const SERVICES = [
@@ -26,14 +33,14 @@ const SERVICES = [
     cta: 'Learn About Mosquito Control',
     desc: (
       <>
-        Barrier spray applied to vegetation, shrubs, and shaded areas. Kills mosquitoes on contact. Lasts <strong>up to 30 days</strong> per application. We recommend 5 treatments from May through September.
+        Barrier spray applied to vegetation, shrubs, and the shaded areas where mosquitoes rest during the day. Applied according to the product label by an Ontario-licensed operator. Season plans run from 5 treatments (monthly) to 20+ (weekly), May through September.
       </>
     ),
     bullets: [
-      { icon: 'zap', text: 'Immediate kill-on-contact' },
-      { icon: 'clock', text: '30-day residual protection' },
-      { icon: 'shield-check', text: 'Health Canada–approved formula' },
-      { icon: 'refresh', text: 'Free re-spray if mosquitoes return' },
+      { icon: 'zap', text: 'Targets shaded resting areas' },
+      { icon: 'clock', text: 'Monthly, every-2-weeks or weekly plans' },
+      { icon: 'shield-check', text: PROMISES.labelLine },
+      { icon: 'refresh', text: PROMISES.rainBackShort },
     ],
   },
   {
@@ -45,14 +52,14 @@ const SERVICES = [
     cta: 'Learn About Tick Control',
     desc: (
       <>
-        Targeted tick treatment for lawn edges, garden borders, wooded property lines, and shaded areas. Kills ticks at <strong>all life stages</strong>. Up to <strong>30 days protection</strong> per treatment.
+        Targeted tick treatment for lawn edges, garden borders, wooded property lines, and the shaded, leafy areas where ticks wait for a host. <strong>5 treatments per season</strong>, applied according to the product label.
       </>
     ),
     bullets: [
-      { icon: 'tick', text: 'Kills nymphs, adults & larvae' },
-      { icon: 'clock', text: 'Up to 30-day protection' },
-      { icon: 'shield-check', text: 'Lyme disease prevention' },
-      { icon: 'refresh', text: '5 seasonal treatments recommended' },
+      { icon: 'tick', text: 'Treats lawn edges, leaf litter & fence lines' },
+      { icon: 'clock', text: '$597/season, or $497 with a mosquito plan (plus HST)' },
+      { icon: 'shield-check', text: PROMISES.licence },
+      { icon: 'refresh', text: '5 seasonal treatments' },
     ],
   },
 ] as const

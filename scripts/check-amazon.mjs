@@ -110,6 +110,36 @@ for (const f of files) {
   })
 }
 
+// ─── Disclosure wording ──────────────────────────────────────────────────────
+// Operating Agreement s.5 requires this EXACT sentence, "or any substantially
+// similar statement previously approved by us". Nothing here has been submitted
+// for approval, so only the verbatim sentence is inside the safe harbour.
+//
+// This guard exists because the site ran "As an Amazon Associate, BuzzSkito earns
+// from qualifying purchases." on all 358 pages for months — substantially similar,
+// never approved. It drifted because StickyBuyBar retyped the sentence instead of
+// importing the constant. Any page that carries an Amazon link must carry the
+// exact sentence, and no page may carry a near-miss variant.
+const REQUIRED_DISCLOSURE = 'As an Amazon Associate I earn from qualifying purchases.'
+const NEAR_MISS = /As an Amazon Associate[^.]{0,80}\./g
+
+if (TAG) {
+  for (const f of files) {
+    const src = readFileSync(f, 'utf8')
+    if (!URL_RE.test(src)) continue          // no Amazon link on this page — nothing to disclose
+    URL_RE.lastIndex = 0
+    if (!src.includes(REQUIRED_DISCLOSURE)) {
+      violations.push([f, 0, '(disclosure)', `page carries Amazon links but not the verbatim s.5 sentence "${REQUIRED_DISCLOSURE}"`])
+      continue
+    }
+    for (const m of src.match(NEAR_MISS) || []) {
+      if (m !== REQUIRED_DISCLOSURE) {
+        violations.push([f, 0, m, 'near-miss disclosure variant — s.5 allows only the verbatim sentence unless Amazon pre-approved the wording'])
+      }
+    }
+  }
+}
+
 if (violations.length) {
   console.error(`\n✗ check:amazon FAILED — ${violations.length} violation(s):\n`)
   for (const [f, ln, url, why] of violations.slice(0, 60)) {

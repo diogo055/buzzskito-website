@@ -3,8 +3,10 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Burlington Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
@@ -35,11 +37,11 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
 const FAQS = [
   {
     question: 'How much does mosquito control cost in Burlington?',
-    answer: 'BuzzSkito mosquito control in Burlington starts from $99 per application. Waterfront neighbourhoods and properties near Bronte Creek typically benefit most from the full seasonal package for continuous protection. No contracts. Call (289) 216-5030 for a free Burlington quote.',
+    answer: 'BuzzSkito mosquito control in Burlington starts from $99 per application. Waterfront neighbourhoods and properties near Bronte Creek typically benefit most from a full season plan, with treatments on a schedule from May to September. No contracts. Call (289) 216-5030 for a free Burlington quote.',
   },
   {
     question: 'Who is the best mosquito control company in Burlington?',
-    answer: 'BuzzSkito is the mosquito and tick specialist in the Burlington market, with the lowest entry price (from $99 per single treatment), 150+ five-star Google reviews at a 5.0 average with zero negatives, and the Bite-Free Guarantee — free re-treatment if mosquitoes return inside the protection window. Mosquito Man carries higher review volume across the GTA but operates as a general pest control company covering many pest types. LawnSavers serves Burlington as an add-on to its lawn-care programs. The right pick depends on whether you want specialist depth, the lowest per-visit price, or bundled lawn service.',
+    answer: "Ask every company you call the same five questions before you book. Is the price shown before you book? How many sprays are in a season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); free re-treatment if rain falls within 1 hour of a treatment, on every plan; Ontario Pesticide Operator Licence L-240-2436835197; and the Bite-Free Guarantee on Standard & Exclusive plans. The Burlington company that answers all five clearly, in writing, is the easiest to compare.",
   },
   {
     question: 'Do Burlington mosquito control companies require a contract?',
@@ -47,7 +49,7 @@ const FAQS = [
   },
   {
     question: 'What should I look for in a Burlington mosquito control company?',
-    answer: 'Start with the two things that are non-negotiable in Ontario — a Health Canada–approved product and a licensed pesticide applicator — then judge companies on transparency. A provider that publishes a per-visit price and puts its rain re-treatment policy in writing is easy to compare; one that quotes only after an in-home visit is not. BuzzSkito publishes from $99 per treatment, requires no contract, and backs every visit with the Bite-Free Guarantee.',
+    answer: 'Start with the two things that are non-negotiable in Ontario — a product with a Pest Control Products Act (PCP) number on its label, applied according to that label, and a licensed pesticide applicator — then judge companies on transparency. A provider that publishes a per-visit price and puts its rain re-treatment policy in writing is easy to compare; one that quotes only after an in-home visit is not. BuzzSkito publishes from $99 per treatment, requires no contract, shows its Ontario Pesticide Operator Licence (L-240-2436835197), offers a rain-back guarantee on every plan, and carries the Bite-Free Guarantee on Standard & Exclusive plans.',
   },
   {
     question: 'Why are mosquitoes so bad in Burlington?',
@@ -63,11 +65,11 @@ const FAQS = [
   },
   {
     question: 'How many treatments does a Burlington home need per season?',
-    answer: "We typically recommend 4 treatments from May through September, spaced 21–28 days apart. Properties adjacent to Bronte Creek, Burlington Bay, or the RBG boundary may benefit from 5 treatments given the sustained pressure from these natural features. Our technician will assess your property and recommend accordingly.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Properties adjacent to Bronte Creek, Burlington Bay, or the RBG boundary typically benefit from Standard's two-week spacing given the sustained pressure from these natural features; lower-exposure properties may do well with Basic. Our technician will assess your property and recommend accordingly.",
   },
   {
-    question: "Is BuzzSkito's mosquito spray safe for Burlington's older mature-tree neighbourhoods?",
-    answer: "Yes. Our water-based, Health Canada–approved formula is safe for application around mature trees, established gardens, and native plant landscaping. The product targets resting surfaces — leaf undersides and shrub foliage — not tree trunks or bare soil. After 30 minutes of drying time, the treated area is safe for children, pets, and pollinators.",
+    question: "How do you treat around mature trees and gardens in Burlington?",
+    answer: "Our licensed technician applies the product according to its label directions around mature trees, established gardens, and native plant landscaping. The product targets resting surfaces — leaf undersides and shrub foliage — not tree trunks or bare soil, and we avoid direct application to plants in bloom. The label directs people and pets to stay off treated areas until the spray has dried.",
   },
   {
     question: 'Does BuzzSkito serve all Burlington neighbourhoods?',
@@ -75,7 +77,7 @@ const FAQS = [
   },
   {
     question: 'Does BuzzSkito also provide tick control in Burlington?',
-    answer: "Yes. Burlington's wooded greenbelt corridors, Bronte Creek Provincial Park, and Royal Botanical Gardens are significant blacklegged tick habitat. Many Burlington homeowners bundle mosquito and tick treatments for complete yard protection. See our Burlington tick control service or ask about bundle pricing when you call.",
+    answer: "Yes. Burlington's wooded greenbelt corridors, Bronte Creek Provincial Park, and Royal Botanical Gardens are significant blacklegged tick habitat. Many Burlington homeowners bundle mosquito and tick treatments so one visit covers both pests. See our Burlington tick control service or ask about bundle pricing when you call.",
   },
 ]
 
@@ -97,16 +99,16 @@ export default function BurlingtonMosquitoPage() {
         ]}
         title={<>Burlington Mosquito Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Burlington&apos;s specialist barrier spray for waterfront, Bronte Creek, Tyandaga, and Aldershot properties. Health Canada-approved, safe for kids and pets in 30 minutes, backed by the <strong className="text-amber-400">BuzzSkito Bite-Free Guarantee</strong>.</>}
+        subtitle={<>Burlington&apos;s specialist barrier spray for waterfront, Bronte Creek, Tyandaga, and Aldershot properties. Licensed Ontario pesticide operator, with treatments applied according to label directions.</>}
         image="/spray-backyard.webp"
       />
 
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ Licensed Ontario Pesticide Operator</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -114,7 +116,7 @@ export default function BurlingtonMosquitoPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best mosquito control company in Burlington?">
         <p>
-          <strong>BuzzSkito provides specialist mosquito barrier spray across all Burlington neighbourhoods — Alton Village, Millcroft, The Orchard, Roseland, Downtown Burlington, Shoreacres, Headon Forest, North Burlington, Palmer, Tyandaga, and Aldershot.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>150+ five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Burlington homeowners get reliable barrier spray for waterfront and creek-adjacent properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist mosquito barrier spray across all Burlington neighbourhoods — Alton Village, Millcroft, The Orchard, Roseland, Downtown Burlington, Shoreacres, Headon Forest, North Burlington, Palmer, Tyandaga, and Aldershot.</strong> Treatments are applied according to label directions to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot, with season plans from <strong>$549</strong>. With <strong>150+ five-star Google reviews</strong>, no contracts, a rain-back guarantee on every plan, and the <strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong>, Burlington homeowners get barrier spray for waterfront and creek-adjacent properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -128,15 +130,16 @@ export default function BurlingtonMosquitoPage() {
                 {[
                   ['Service area', 'All Burlington neighbourhoods (Alton Village, Millcroft, The Orchard, Roseland, Downtown Burlington, Shoreacres, Headon Forest, North Burlington, Palmer, Tyandaga, Aldershot)'],
                   ['Specialization', 'Mosquito barrier spray for residential properties'],
-                  ['Pricing', 'From $99 per treatment · seasonal programs available on quote'],
+                  ['Licence', PROMISES.licence],
+                  ['Pricing', 'From $99 per treatment on a standard lot · season plans from $549 (plus HST)'],
                   ['Treatment season', 'May through September (peak: late May–July)'],
-                  ['Protection per visit', 'Up to 30 days residual'],
-                  ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
-                  ['Recommended schedule', '4–5 treatments per season for waterfront and creek-adjacent properties'],
+                  ['Sprays per season', '5 (Basic), 10 (Standard) or 20+ (Exclusive)'],
+                  ['Re-entry', 'Stay off treated areas until the spray has dried, as the label directs'],
+                  ['Recommended schedule', 'Standard (10 sprays, every 2 weeks) for waterfront and creek-adjacent properties; Basic (5 sprays, monthly) for lower-exposure lots'],
                   ['Highest pressure zones', 'Lake Ontario shoreline · Bronte Creek · Tyandaga ravines · Niagara Escarpment edge'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
-                  ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
+                  ['Guarantee', 'Rain-back guarantee on every plan · Bite-Free Guarantee on Standard & Exclusive plans'],
                   ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
                   ['Phone', BUSINESS.phone],
                 ].map(([k, v]) => (
@@ -162,6 +165,8 @@ export default function BurlingtonMosquitoPage() {
         </div>
       </section>
 
+      <TypicalPrices service="mosquito" city={CITY} />
+
       {/* How It Works */}
       <section className="py-14 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -170,8 +175,8 @@ export default function BurlingtonMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your Burlington property — identifying waterfront exposure, creek proximity, and mosquito pressure zones specific to your neighbourhood.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, fence lines, and property perimeters using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the protection window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies barrier spray, following the label directions, to all vegetation, shrub interiors, leaf undersides, fence lines, and property perimeters using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Stay off treated areas until the spray has dried, as the label directs. ${PROMISES.rainBack} Standard & Exclusive plans also carry the Bite-Free Guarantee.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -211,6 +216,8 @@ export default function BurlingtonMosquitoPage() {
             ))}
           </div>
 
+          <CityPriceCard city={CITY} service="mosquito" location="price_card_mid" />
+
           <h2>Mosquito Control Pricing in Burlington</h2>
           <p>BuzzSkito treatments start from $99 per visit — no contracts, no pressure to commit to a full season.</p>
           <div className="not-prose overflow-x-auto my-4">
@@ -224,9 +231,9 @@ export default function BurlingtonMosquitoPage() {
               </thead>
               <tbody>
                 {[
-                  { type: 'Standard lot (under 6,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Burlington townhome or detached' },
-                  { type: 'Mid-size lot (6,000–10,000 sq ft)', price: 'Custom quote', coverage: 'Larger detached, Roseland, Shoreacres' },
-                  { type: 'Large / estate property (10,000+ sq ft)', price: 'Custom quote', coverage: 'Lakeshore estates, large waterfront lots' },
+                  { type: 'Standard lot (under 10,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Burlington townhome or detached' },
+                  { type: 'Larger lot (10,000–100,000 sq ft)', price: 'Priced by lot size', coverage: 'Larger detached, Roseland, Shoreacres' },
+                  { type: 'Estate property (100,000+ sq ft)', price: 'Custom quote', coverage: 'Lakeshore estates, large waterfront lots' },
                 ].map(({ type, price, coverage }) => (
                   <tr key={type} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-2 font-semibold text-brand-800">{type}</td>
@@ -237,44 +244,42 @@ export default function BurlingtonMosquitoPage() {
               </tbody>
             </table>
           </div>
+          <p>Season plans are $549 (5 sprays), $994 (10 sprays) or $2,049 (20+ sprays). Prices are plus HST.</p>
           <p>See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 pricing guide</Link> for a full Ontario breakdown. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> for a free quote.</p>
 
-          <h2>How Burlington Mosquito Control Companies Compare</h2>
-          <p>Burlington homeowners have several professional options. Here is an honest comparison based on publicly available pricing, Google reviews, and Burlington service offerings for the 2026 season.</p>
+          <h2>What to Ask Any Mosquito Control Company in Burlington</h2>
+          <p>Burlington homeowners have several professional options. Ask every company you call the same five questions and compare the answers side by side.</p>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-brand-800 text-white">
-                  <th className="px-4 py-2 text-left">Company</th>
-                  <th className="px-4 py-2 text-left">Single Treatment</th>
-                  <th className="px-4 py-2 text-left">Google Reviews</th>
-                  <th className="px-4 py-2 text-left">Contract Required?</th>
+                  <th className="px-4 py-2 text-left">Question to ask</th>
+                  <th className="px-4 py-2 text-left">BuzzSkito&apos;s answer</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { company: 'BuzzSkito', price: 'From $99', reviews: '150+ · 5.0 average · zero negative', contract: 'No — pay per visit', highlight: true },
-                  { company: 'Mosquito Man', price: '$129+ (varies)', reviews: '900+ across the GTA', contract: 'Often seasonal', highlight: false },
-                  { company: 'LawnSavers', price: '$129+ standalone', reviews: '1,000+ (lawn care primary)', contract: 'Bundled with lawn plans', highlight: false },
-                  { company: 'Mosquito.Buzz', price: 'Custom quote required', reviews: 'Varies by franchise location', contract: 'Seasonal contracts', highlight: false },
-                ].map(({ company, price, reviews, contract, highlight }) => (
-                  <tr key={company} className={highlight ? 'border-b border-gray-200 bg-amber-50' : 'border-b border-gray-200'}>
-                    <td className="px-4 py-2 font-semibold text-brand-800">{company}</td>
-                    <td className={highlight ? 'px-4 py-2 font-extrabold text-brand-700' : 'px-4 py-2 text-gray-600'}>{price}</td>
-                    <td className="px-4 py-2 text-gray-600">{reviews}</td>
-                    <td className={highlight ? 'px-4 py-2 font-semibold text-emerald-700' : 'px-4 py-2 text-amber-700'}>{contract}</td>
+                  { q: 'Is the price shown before you book?', a: 'From $99 on a standard lot' },
+                  { q: 'How many sprays per season?', a: '5, 10 or 20+ (tick: 5)' },
+                  { q: 'What happens if it rains after a treatment?', a: PROMISES.rainBack },
+                  { q: 'Is an Ontario pesticide operator licence number shown?', a: `Yes: ${BUSINESS.licenseNumber}` },
+                  { q: 'Which plans include a guarantee?', a: 'Rain-back on every plan; Bite-Free on Standard & Exclusive' },
+                ].map(({ q, a }) => (
+                  <tr key={q} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-semibold text-brand-800">{q}</td>
+                    <td className="px-4 py-2 text-gray-700">{a}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p>Only BuzzSkito treats mosquitoes and ticks exclusively &mdash; the other three are generalists who add mosquito spray to a wider pest or lawn programme.</p>
+          <p>A company that answers all five questions clearly, in writing, is easy to compare. BuzzSkito treats mosquitoes and ticks only, so ask any generalist pest or lawn company how much of its work is mosquito and tick control.</p>
 
           <h2>How to Choose a Mosquito Control Company in Burlington</h2>
           <ol>
-            <li><strong>Confirm the formulation is Health Canada&ndash;approved.</strong> Only approved barrier products are legal for commercial application in Ontario. Ask before booking.</li>
-            <li><strong>Verify the applicator&apos;s licence.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for any commercial application. Hesitation on this question is your answer.</li>
-            <li><strong>Get the rain guarantee in writing.</strong> If rain falls within an hour of application the product hasn&apos;t cured. A reputable company re-treats at no charge &mdash; ours is the Bite-Free Guarantee.</li>
+            <li><strong>Ask which product will be used.</strong> Every pest control product used in Canada carries a Pest Control Products Act (PCP) number on its label, and it must be applied according to that label. Ask before booking.</li>
+            <li><strong>Verify the applicator&apos;s licence.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for any commercial application. Hesitation on this question is your answer. BuzzSkito&apos;s is {PROMISES.licence}.</li>
+            <li><strong>Get the rain guarantee in writing.</strong> If rain falls within an hour of application the product hasn&apos;t cured. A reputable company re-treats at no charge &mdash; ours is a rain-back guarantee on every plan.</li>
             <li><strong>Read Burlington reviews specifically.</strong> A national franchise can hold strong Toronto ratings and weak Halton ones. Filter reviews to your own city.</li>
             <li><strong>Test their local knowledge.</strong> A technician who can explain how Bronte Creek, the Escarpment slope behind Tyandaga, and the Royal Botanical Gardens boundary each drive pressure differently has actually worked here.</li>
             <li><strong>Compare single-treatment pricing, not package totals.</strong> The per-visit price is the only number that lets you compare providers like for like.</li>
@@ -283,19 +288,19 @@ export default function BurlingtonMosquitoPage() {
 
           <h2>Professional Mosquito Control vs. DIY in Burlington</h2>
           <ul>
-            <li><strong>Consumer foggers provide hours of relief, not 30 days.</strong> Professional barrier spray bonds to leaf surfaces and keeps working for weeks.</li>
+            <li><strong>Consumer foggers provide hours of relief, not a season of scheduled treatments.</strong> Professional barrier spray is applied to the leaf surfaces where mosquitoes rest and renewed on a schedule.</li>
             <li><strong>Mosquitoes rest where foggers can&apos;t reach.</strong> Leaf undersides, shaded shrub interiors, and under deck joists — precision backpack sprayers target these surfaces directly.</li>
-            <li><strong>Burlington&apos;s mosquito sources are beyond your control.</strong> Bronte Creek, Burlington Bay, and the Royal Botanical Gardens will produce mosquitoes every season. Barrier spray stops them from settling on your property.</li>
+            <li><strong>Burlington&apos;s mosquito sources are beyond your control.</strong> Bronte Creek, Burlington Bay, and the Royal Botanical Gardens will produce mosquitoes every season. Barrier spray treats the surfaces where they rest once they reach your property.</li>
             <li><strong>Larvicide tablets don&apos;t solve it.</strong> You can treat your own standing water and still have severe mosquitoes from off-property sources.</li>
           </ul>
 
           <h2>What to Expect on Treatment Day</h2>
           <ol>
-            <li><strong>SMS notification before arrival</strong> — you don&apos;t need to be home.</li>
+            <li><strong>Visit window</strong> — {PROMISES.visitWindow} You don&apos;t need to be home.</li>
             <li><strong>Property walkthrough</strong> — assess waterfront exposure, vegetation density, and risk factors.</li>
             <li><strong>Full barrier application</strong> — all vegetation, fence lines, deck undersides, woodpiles. 25–40 minutes.</li>
             <li><strong>Lawn sign placement</strong> — confirms treatment date and product.</li>
-            <li><strong>30-minute dry time</strong> — then fully safe for kids and pets.</li>
+            <li><strong>Drying time</strong> — keep people and pets off treated areas until the spray has dried, as the product label directs.</li>
             <li><strong>Email confirmation</strong> — treatment log with next visit date.</li>
           </ol>
 
@@ -312,7 +317,7 @@ export default function BurlingtonMosquitoPage() {
           <p>No &mdash; not on residential properties. Halton Region Public Health does targeted larviciding of catch basins for West Nile virus monitoring, and the City of Burlington maintains storm infrastructure. Neither program treats private yards. Yard-level mosquito control is the homeowner&apos;s responsibility.</p>
 
           <h3>How much does Burlington mosquito control cost for a typical lot?</h3>
-          <p>For a standard Burlington residential lot under 6,000 sq ft: from $99 per single treatment. Larger lakefront, Tyandaga, or Aldershot estate properties require a custom quote based on coverage area. No contracts &mdash; book one treatment and decide whether to continue based on results.</p>
+          <p>For a standard Burlington residential lot under 10,000 sq ft: from $99 per single treatment, with season plans from $549 (plus HST). Larger lakefront, Tyandaga, or Aldershot estate properties require a custom quote based on coverage area. No contracts &mdash; book one treatment and decide whether to continue based on results.</p>
 
           <h3>When should I book my first Burlington mosquito treatment?</h3>
           <p>Mid-May for most properties. Burlington&apos;s lakefront and Escarpment-edge microclimates can produce mosquito activity slightly earlier than inland Burlington &mdash; sometimes by early May in warm springs. Booking before peak season (late May–July) ensures the barrier is established before mosquito numbers climb.</p>
@@ -321,30 +326,30 @@ export default function BurlingtonMosquitoPage() {
           <p>Yes &mdash; Burlington Bay&apos;s shoreline vegetation and high lakefront humidity support active mosquito populations through the evening. Spencer Smith Park, LaSalle Park, and Aldershot lakeshore properties experience the most lakefront activity. Wind off the lake helps during the day, but calm evenings create heavy feeding windows.</p>
 
           <h3>How does Bronte Creek affect Burlington west-end mosquitoes?</h3>
-          <p>Bronte Creek forms the western border between Burlington and Oakville and is a continuous mosquito breeding corridor. Burlington properties in the west end (off Walker&apos;s Line, Cumberland Avenue, and along the creek) experience some of the highest mosquito pressure in the city. Barrier spray treats your property &mdash; it doesn&apos;t fix the creek source, but it stops mosquitoes from settling once they arrive.</p>
+          <p>Bronte Creek forms the western border between Burlington and Oakville and is a continuous mosquito breeding corridor. Burlington properties in the west end (off Walker&apos;s Line, Cumberland Avenue, and along the creek) experience some of the highest mosquito pressure in the city. Barrier spray treats your property &mdash; it doesn&apos;t fix the creek source, but it treats the surfaces where mosquitoes rest once they arrive.</p>
 
-          <h3>Will Burlington mosquito spray harm my flower garden?</h3>
-          <p>No &mdash; the product is applied to mosquito resting surfaces (undersides of leaves, shrub interiors) rather than flower blooms. We avoid direct application to actively flowering plants and maintain buffer zones around vegetable gardens. Once dried, the residual is bound to leaf surfaces where bees do not typically forage.</p>
+          <h3>How do mosquito treatments work around a Burlington flower garden?</h3>
+          <p>The product is applied to mosquito resting surfaces (undersides of leaves, shrub interiors) rather than flower blooms, according to its label directions. We avoid direct application to actively flowering plants and maintain buffer zones around vegetable gardens. Point out any beds you want left untreated before the visit.</p>
 
           <h3>Why are Tyandaga and North Burlington especially affected?</h3>
           <p>Tyandaga and North Burlington back onto the Niagara Escarpment, with mature ravines, conservation lands, and the Royal Botanical Gardens nearby. The Escarpment&apos;s sheltered microclimate, dense forest understorey, and abundant standing water in Escarpment seeps create exceptional mosquito breeding and resting habitat that disperses into adjacent residential areas.</p>
 
           <h3>Can mosquitoes breed in my Burlington pool cover?</h3>
-          <p>Yes &mdash; pool covers that collect rainwater are one of the most overlooked breeding sites. Drain cover puddles weekly during peak season, or treat with BTI mosquito dunks (safe for pets, fish, humans). Active chlorinated pools cannot support mosquito breeding &mdash; the chlorine kills larvae.</p>
+          <p>Yes &mdash; pool covers that collect rainwater are one of the most overlooked breeding sites. Drain cover puddles weekly during peak season, or treat with BTI mosquito dunks (follow the label directions). Active chlorinated pools cannot support mosquito breeding &mdash; the chlorine kills larvae.</p>
 
           <h3>Can BuzzSkito treat my Burlington backyard before a wedding?</h3>
-          <p>Yes &mdash; pre-event treatment is a common booking. We recommend the spray 2–4 days before your event. The barrier becomes fully active over 24 hours and continues for up to 30 days. For backyard weddings or large gatherings in Roseland, Aldershot, or Tyandaga, this timing window gives peak protection on the event day.</p>
+          <p>Yes &mdash; pre-event treatment is a common booking. We recommend the spray 2–4 days before your event. Booking a few days ahead leaves room to reschedule if the forecast turns wet. For backyard weddings or large gatherings in Roseland, Aldershot, or Tyandaga, this timing window works well.</p>
 
           <h3>What happens if it rains right after my Burlington treatment?</h3>
-          <p>Once dry (about 30 minutes), the formula bonds to leaf surfaces and becomes rain-resistant. If heavy rain falls within one hour of application &mdash; before the product cures &mdash; we return and re-treat at no charge. This rain-back coverage is part of the BuzzSkito Bite-Free Guarantee.</p>
+          <p>{PROMISES.rainBack} That rain-back guarantee is separate from the Bite-Free Guarantee, which applies to Standard &amp; Exclusive plans.</p>
 
           <h3>Does mosquito spray work against Burlington ticks too?</h3>
-          <p>The same Health Canada-approved formula kills blacklegged ticks on contact, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods and garden bed edges. We offer separate Burlington tick treatment for properties near Bronte Creek, Tyandaga ravines, or the Royal Botanical Gardens &mdash; all confirmed tick habitat. Many Burlington homeowners bundle both.</p>
+          <p>Barrier spray is also used against blacklegged ticks, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods and garden bed edges. We offer separate Burlington tick treatment for properties near Bronte Creek, Tyandaga ravines, or the Royal Botanical Gardens &mdash; all confirmed tick habitat. Many Burlington homeowners bundle both.</p>
 
           {/* Related Guides */}
 
           <h2>Compare Burlington Pest Control Options</h2>
-          <p>Looking at all your Burlington pest control options? See our specialist guide: <Link href="/pest-control-burlington" className="text-brand-700 hover:underline font-semibold">Pest Control in Burlington</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Burlington backyard misery. For head-to-head provider breakdowns see <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito Man</Link>, <Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">BuzzSkito vs LawnSavers</Link>, and <Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito.Buzz</Link>, or the <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">GTA master comparison</Link>.</p>
+          <p>Looking at all your Burlington pest control options? See our specialist guide: <Link href="/pest-control-burlington" className="text-brand-700 hover:underline font-semibold">Pest Control in Burlington</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Burlington backyard misery. For more on weighing providers see <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">compare mosquito control options</Link>, <Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">compare a specialist with a lawn-care add-on</Link>, and <Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">compare a local company with a franchise</Link>, or the <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">GTA master comparison</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
@@ -386,6 +391,10 @@ export default function BurlingtonMosquitoPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="mosquito" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – {CITY} Mosquito Spray</h2>
@@ -405,7 +414,7 @@ export default function BurlingtonMosquitoPage() {
         </div>
       </section>
 
-      <CTASection heading={`Get a Free Mosquito Spray Quote in ${CITY}`} subtext="No contracts. Guaranteed results. Book your Burlington treatment today." />
+      <CTASection heading={`Get a Free Mosquito Spray Quote in ${CITY}`} subtext="No contracts. Rain-back guarantee on every plan. Book your Burlington treatment today." />
     </>
   )
 }

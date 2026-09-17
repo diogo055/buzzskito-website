@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { TICK_BLOGS } from '@/lib/constants'
+import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Caledon Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Caledon tick spray for Oak Ridges Moraine and Forks of the Credit — among Ontario's highest blacklegged tick zones. Health Canada-approved, from $99, BuzzSkito Bite-Free Guarantee. Bolton, Palgrave, Caledon East, Inglewood, Belfountain. Call (289) 216-5030.",
+    "Caledon tick spray for Oak Ridges Moraine and Forks of the Credit — among Ontario's highest blacklegged tick zones. Licensed Ontario operator, from $99, 5 sprays per season. Bolton, Palgrave, Caledon East, Inglewood, Belfountain. Call (289) 216-5030.",
   canonical: '/caledon-tick-spray',
 })
 
@@ -17,7 +19,7 @@ const NEIGHBOURHOODS = ['Bolton','Caledon East','Caledon Village','Palgrave','In
 const FAQS = [
   {
     question: 'How much does tick spray cost in Caledon?',
-    answer: 'Tick spray in Caledon starts from $99 per application. Given Caledon\'s high tick activity near Forks of the Credit Provincial Park, the Bruce Trail, and the Niagara Escarpment, most properties are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, because each application holds up to 30 days of residual and monthly spacing is what removes the gap. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Caledon starts from $99 per application. Given Caledon\'s high tick activity near Forks of the Credit Provincial Park, the Bruce Trail, and the Niagara Escarpment, most properties are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, because monthly spacing keeps the treated zones renewed through the season. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Why does Caledon have some of the highest tick activity in the GTA?',
@@ -25,11 +27,11 @@ const FAQS = [
   },
   {
     question: 'Do I need tick spray even on a rural Caledon property with few neighbours?',
-    answer: 'Rural properties are actually at higher risk, not lower. Agricultural field edges, woodlot margins, creek corridors, and fence rows are exactly where blacklegged ticks concentrate. Deer cross rural Caledon properties daily. If you have a lawn that meets any naturalized area — a woodlot, a meadow, a stream bank — tick spray for that transition zone is essential to reduce your family\'s exposure.',
+    answer: 'Rural properties are actually at higher risk, not lower. Agricultural field edges, woodlot margins, creek corridors, and fence rows are exactly where blacklegged ticks concentrate. Deer cross rural Caledon properties daily. If you have a lawn that meets any naturalized area — a woodlot, a meadow, a stream bank — that transition zone is where tick spray is applied.',
   },
   {
     question: 'Is Forks of the Credit Provincial Park near my Caledon property a tick risk?',
-    answer: 'Yes. Forks of the Credit Provincial Park is documented tick habitat — any property within several kilometres of the park, particularly those with deer-accessible yard space, faces annual tick pressure. The Caledon Trailway also passes through tick-active areas. BuzzSkito recommends properties near the park and trailway run the full seasonal program — five treatments spaced roughly monthly from May through September. Each application leaves up to 30 days of residual, so monthly spacing keeps the barrier continuous through peak nymph season in May, June, and July, and through the adults that stay active into the autumn. Deer moving off the park and trailway reintroduce ticks all season, so the barrier has to be renewed rather than applied once or twice.',
+    answer: 'Yes. Forks of the Credit Provincial Park is documented tick habitat — any property within several kilometres of the park, particularly those with deer-accessible yard space, faces annual tick pressure. The Caledon Trailway also passes through tick-active areas. BuzzSkito recommends properties near the park and trailway run the full seasonal program — five treatments spaced roughly monthly from May through September. Monthly spacing keeps the treated zones renewed through peak nymph season in May, June, and July, and through the adults that stay active into the autumn. Deer moving off the park and trailway reintroduce ticks all season, so the barrier has to be renewed rather than applied once or twice.',
   },
 ]
 
@@ -37,7 +39,7 @@ export default function CaledonTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: '/caledon-tick-spray', city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. 5 sprays per season.`, slug: '/caledon-tick-spray', city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/caledon-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'Caledon' })) }} />
@@ -47,8 +49,9 @@ export default function CaledonTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Caledon sits at the heart of the Oak Ridges Moraine and has among the highest confirmed blacklegged tick activity rates in the GTA. Peel Region Public Health issues tick advisories for Caledon annually. BuzzSkito protects your property from Lyme disease.</>}
+        subtitle={<>Caledon sits at the heart of the Oak Ridges Moraine, with among the highest confirmed blacklegged tick activity rates in the GTA. Licensed Ontario pesticide operator, with tick treatments applied according to label directions.</>}
         image="/spray-front.webp"
+        service="tick"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
 
@@ -56,10 +59,10 @@ export default function CaledonTickPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ Licensed Ontario Pesticide Operator</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ 5 Sprays per Season</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -76,6 +79,8 @@ export default function CaledonTickPage() {
       </section>
 
       
+      <TypicalPrices service="tick" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -84,8 +89,8 @@ export default function CaledonTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — lawn-to-woods transitions, leaf litter, garden bed edges, and fence lines on your property.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies barrier spray, following the label directions, to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Stay off treated areas until the spray has dried, as the label directs. ${PROMISES.rainBack} Tick treatments are renewed roughly monthly, 5 sprays per season.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -120,10 +125,10 @@ export default function CaledonTickPage() {
           <h2>What Our Caledon Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 30 days of tick protection per treatment</li>
-            <li>Kills adult ticks, nymphs, and larvae on contact</li>
-            <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
-            <li>Free reapplication guarantee if ticks return</li>
+            <li>5 sprays per season, roughly monthly from May through September</li>
+            <li>Timed for nymph season (May–July) and the adults active into autumn</li>
+            <li>{PROMISES.labelLine}; stay off treated areas until the spray has dried</li>
+            <li>{PROMISES.rainBack}</li>
           </ul>
 
           <h2>Also Providing Mosquito Control in Caledon</h2>
@@ -131,7 +136,7 @@ export default function CaledonTickPage() {
 
 
           <h2>Compare Caledon Pest Control Options</h2>
-          <p>Caledon has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-caledon" className="text-brand-700 hover:underline font-semibold">Pest Control in Caledon</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company.</p>
+          <p>Caledon has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-caledon" className="text-brand-700 hover:underline font-semibold">Pest Control in Caledon</Link> for why a mosquito and tick specialist is a better fit for tick-zone treatment than a general pest company.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
@@ -150,7 +155,7 @@ export default function CaledonTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'James K.', text: 'We had a tick problem near our garden border. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-              { author: 'Priya R.', text: 'The technician explained exactly what product they were using and why it\u2019s safe for our dog. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
+              { author: 'Priya R.', text: 'The technician explained exactly what product they were using. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
             ].map(({ author, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -169,6 +174,10 @@ export default function CaledonTickPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="tick" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -185,7 +194,7 @@ export default function CaledonTickPage() {
           </div>
         </div>
       </section>
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protect your family from Lyme disease. No contracts, guaranteed results." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Tick-zone treatment for Caledon properties. No contracts, rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

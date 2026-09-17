@@ -312,7 +312,7 @@ export default function RaccoonDeterrentCanadaPage() {
                   ['Permanent den fix', 'Half-inch galvanized hardware cloth, buried L-footer'],
                   ['Relocation law (Ontario)', 'Max 1 km from capture site — longer moves are illegal'],
                   ['Baby season', 'Kits born March–May; immobile for 8–12 weeks'],
-                  ['One-way door safe window', 'Roughly July–February, after confirming vacancy'],
+                  ['One-way door timing', 'Roughly July–February, after confirming vacancy'],
                   ['Weakest tiers', 'Ultrasonic devices, lights, scent granules'],
                   ['Illegal "home remedy"', 'Mothballs outdoors — off-label pesticide use'],
                   ['Lawn digging cause', 'White grubs — treat with nematodes (late Aug–Sep)'],

@@ -402,7 +402,7 @@ export default function PestProductGuidesPage() {
           <aside aria-label="Services BuzzSkito provides" className="rounded-3xl border-2 border-emerald-300 bg-gradient-to-br from-emerald-50 to-white p-6 shadow-sm sm:p-8">
             <p className="mb-2 text-xs font-extrabold uppercase tracking-wider text-emerald-700">The pests we actually treat</p>
             <h2 className="mb-3 text-2xl font-extrabold text-brand-900">Want it handled for you? We treat mosquitoes and ticks.</h2>
-            <p className="mb-5 max-w-2xl text-sm leading-relaxed text-gray-700">Product guides are great for DIY. But for whole-yard mosquito and tick coverage across a full season, BuzzSkito&rsquo;s licensed barrier spray does what no consumer product can — same-day protection with weeks of residual, backed by 150 five-star reviews across 19+ GTA cities.</p>
+            <p className="mb-5 max-w-2xl text-sm leading-relaxed text-gray-700">Product guides are great for DIY. But for whole-yard mosquito and tick coverage across a full season, BuzzSkito&rsquo;s licensed barrier spray is applied according to label directions to the leaves where mosquitoes rest and renewed on your plan&rsquo;s schedule, with a rain-back guarantee on every plan — backed by 150 five-star reviews across 19+ GTA cities.</p>
             <div className="flex flex-wrap gap-3">
               <Link href="/mosquito-control" className="btn-primary-sm">Professional mosquito control →</Link>
               <Link href="/tick-control" className="btn-primary-sm">Professional tick control →</Link>

@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'Do patio mosquito screens or netting work as well as spraying the yard?',
-    answer: 'They solve different problems. A screen or net is a physical barrier — it protects the exact enclosed space (your table, your seating area) perfectly while you are inside it, with zero chemicals. But it does nothing for the rest of the yard, the walk to the shed, the kids on the lawn, or ticks in the grass. Barrier spray treats the whole property’s vegetation so mosquitoes are knocked down before they reach any part of the yard, and it covers ticks, which screens never touch. The strongest setup is both: a screened area for calm evenings at the table, plus professional barrier spray so the entire yard is usable, not just the netted zone.',
+    answer: 'They solve different problems. A screen or net is a physical barrier — it protects the exact enclosed space (your table, your seating area) perfectly while you are inside it, with zero chemicals. But it does nothing for the rest of the yard, the walk to the shed, the kids on the lawn, or ticks in the grass. Barrier spray treats the vegetation across the whole property where mosquitoes rest, reducing the adults in the yard, and it targets ticks where they wait, which screens never touch. The strongest setup is both: a screened area for calm evenings at the table, plus professional barrier spray so the entire yard is usable, not just the netted zone.',
   },
   {
     question: 'What size mesh keeps out mosquitoes and no-see-ums?',
@@ -92,7 +92,7 @@ export default function MosquitoScreensPatioCanadaPage() {
               <li>Clip-on netting curtain kits for pergolas and covered patios run $80–$300; steel-frame screened gazebos $300–$2,000.</li>
               <li>Standard 18×16 insect mesh stops mosquitoes but not no-see-ums — near water, choose no-see-um mesh of roughly 20×20 or finer (about 0.6 mm openings).</li>
               <li>Costco Canada&rsquo;s spring outdoor-living sale (April–May) usually has the best pricing on larger hardtop gazebos.</li>
-              <li>Screens do nothing for ticks; professional barrier spray from $99 treats the whole yard for 21–30 days.</li>
+              <li>Screens do nothing for ticks; professional barrier spray from $99 treats the whole yard and targets ticks where they wait.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
@@ -222,7 +222,7 @@ export default function MosquitoScreensPatioCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">&#9888;&#65039; A screen only protects what it encloses.</strong> Netting is a perfect barrier for your table or seating nook, but it does nothing for the lawn, the pool deck, the walk to the shed — or for ticks in the grass, which screens never touch. For a whole-yard fix, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> treats every surface mosquitoes land on and covers ticks too. Most homeowners screen their main gathering spot and spray the rest.
+              <strong className="text-amber-900">&#9888;&#65039; A screen only protects what it encloses.</strong> Netting is a perfect barrier for your table or seating nook, but it does nothing for the lawn, the pool deck, the walk to the shed — or for ticks in the grass, which screens never touch. For a whole-yard fix, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> treats the vegetation where mosquitoes rest and targets ticks too. Most homeowners screen their main gathering spot and spray the rest.
             </p>
           </div>
         </div>
@@ -313,10 +313,10 @@ export default function MosquitoScreensPatioCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Pop-up screen house</strong></td><td className="px-3 py-2">$120–$250</td><td className="px-3 py-2">The enclosed table only</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Magnetic screen door</strong></td><td className="px-3 py-2">$25–$60</td><td className="px-3 py-2">The doorway (keeps bugs out of the house)</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Screened gazebo</strong></td><td className="px-3 py-2">$300–$2,000</td><td className="px-3 py-2">One permanent seating room</td><td className="px-3 py-2">None</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">The entire yard, same day, 21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">The entire yard, renewed on your plan schedule</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
-          <p>Notice these do not compete — they stack. A screen gives you one perfect chemical-free zone at the table; barrier spray makes the lawn, garden, and <Link href="/pool-backyard-mosquito-control">pool deck</Link> usable and knocks down ticks in the grass. Hosting a backyard event? A screen house over the head table plus a treated yard is exactly how we handle <Link href="/wedding-mosquito-control">backyard weddings and parties</Link>.</p>
+          <p>Notice these do not compete — they stack. A screen gives you one perfect chemical-free zone at the table; barrier spray treats the lawn, garden, and <Link href="/pool-backyard-mosquito-control">pool deck</Link> edges and targets ticks where they wait in the grass. Hosting a backyard event? A screen house over the head table plus a treated yard is exactly how we handle <Link href="/wedding-mosquito-control">backyard weddings and parties</Link>.</p>
 
           <h2>The Smart Stack for a GTA Backyard</h2>
           <ol>
@@ -352,7 +352,7 @@ export default function MosquitoScreensPatioCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Screen the Table &middot; Spray the Yard" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. Covers ticks too." variant="dark" />
+      <CTASection heading="Screen the Table &middot; Spray the Yard" subtext="Get a free quote for licensed mosquito and tick barrier spray. From $99. Rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

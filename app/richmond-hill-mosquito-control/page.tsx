@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Richmond Hill Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Richmond Hill mosquito barrier spray from $99. Health Canada-approved, no contracts, Bite-Free Guarantee. Oak Ridges, Lake Wilcox. (289) 216-5030.",
+    "Richmond Hill mosquito barrier spray from $99. Ontario-licensed, no contracts, rain-back guarantee. Oak Ridges, Lake Wilcox. (289) 216-5030.",
   canonical: '/richmond-hill-mosquito-control',
 })
 
@@ -19,11 +21,11 @@ const NEIGHBOURHOODS = ['Oak Ridges','Jefferson','Bayview Hill','Mill Pond','Lan
 const FAQS = [
   {
     question: 'How much does mosquito control cost in Richmond Hill?',
-    answer: 'BuzzSkito mosquito treatments in Richmond Hill start from $99 per application. Properties near Lake Wilcox, Jefferson Forest, or Mill Pond typically benefit most from the full seasonal program for continuous protection. No contracts — book a single visit or a full season. Call (289) 216-5030 for a free Richmond Hill quote.',
+    answer: 'BuzzSkito mosquito treatments in Richmond Hill start from $99 per application. Properties near Lake Wilcox, Jefferson Forest, or Mill Pond typically benefit most from a full seasonal program with repeat visits through the summer. No contracts — book a single visit or a full season. Call (289) 216-5030 for a free Richmond Hill quote.',
   },
   {
     question: 'Does living near Lake Wilcox mean more mosquitoes?',
-    answer: "Yes. Lake Wilcox in Oak Ridges has extensive shallow marshy margins and weedy shoreline habitat that produces significant numbers of mosquitoes each season, particularly in May and June. Properties within a few blocks of the lake consistently see earlier and heavier mosquito activity. A May treatment timed to the first adult emergence significantly reduces the season-long population on your property.",
+    answer: "Yes. Lake Wilcox in Oak Ridges has extensive shallow marshy margins and weedy shoreline habitat that produces significant numbers of mosquitoes each season, particularly in May and June. Properties within a few blocks of the lake consistently see earlier and heavier mosquito activity. That is why we time the first treatment for those properties to the first adult emergence in May.",
   },
   {
     question: 'Is the Mill Pond area particularly bad for mosquitoes?',
@@ -31,11 +33,11 @@ const FAQS = [
   },
   {
     question: 'When is the best time to start mosquito treatments in Richmond Hill?',
-    answer: "We recommend booking your first treatment in early to mid May. In Richmond Hill, the Oak Ridges Moraine influences local hydrology — snowmelt and spring rains fill moraine recharge ponds and vernal pools along trail corridors, allowing mosquitoes to breed earlier than in lower-lying communities. Getting ahead of the first emergence means far fewer mosquitoes to deal with all season.",
+    answer: "We recommend booking your first treatment in early to mid May. In Richmond Hill, the Oak Ridges Moraine influences local hydrology — snowmelt and spring rains fill moraine recharge ponds and vernal pools along trail corridors, allowing mosquitoes to breed earlier than in lower-lying communities. Starting before the first emergence means the treatment is already on the foliage when adults begin looking for resting spots.",
   },
   {
     question: 'Do I have to sign a contract for mosquito control in Richmond Hill?',
-    answer: 'No. BuzzSkito is no-contract in Richmond Hill — book a single treatment from $99, judge it on the results, and stop there with no cancellation fee. If you want continuous coverage instead, seasonal plans run $549 for five visits, $994 for ten, and $2,049 for weekly service through the May–September season. Call (289) 216-5030 for a free Richmond Hill quote.',
+    answer: 'No. BuzzSkito is no-contract in Richmond Hill — book a single treatment from $99, judge it on the results, and stop there with no cancellation fee. If you want visits through the whole season instead, seasonal plans run $549 for five visits, $994 for ten, and $2,049 for weekly service through the May–September season. Call (289) 216-5030 for a free Richmond Hill quote.',
   },
   {
     question: 'Can I add tick control to my Richmond Hill mosquito treatment?',
@@ -63,7 +65,7 @@ export default function RichmondHillMosquitoPage() {
         ]}
         title={<>{CITY} Mosquito Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>From Lake Wilcox in Oak Ridges to Mill Pond&apos;s creek corridor — BuzzSkito delivers professional mosquito barrier spray across all Richmond Hill neighbourhoods.</>}
+        subtitle={<>From Lake Wilcox in Oak Ridges to Mill Pond&apos;s creek corridor, BuzzSkito delivers professional mosquito barrier spray across all Richmond Hill neighbourhoods. Licensed Ontario pesticide operator; treatments applied according to label directions.</>}
         image="/spray-backyard.webp"
       />
 
@@ -71,10 +73,10 @@ export default function RichmondHillMosquitoPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -84,13 +86,15 @@ export default function RichmondHillMosquitoPage() {
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <div>
             <p className="font-extrabold text-brand-900 text-base">Mosquito Control Pricing in {CITY}</p>
-            <p className="text-gray-600 text-sm mt-0.5">Professional mosquito control service from <strong className="text-brand-700">$99</strong> per treatment · No contracts</p>
+            <p className="text-gray-600 text-sm mt-0.5">Professional mosquito control service from <strong className="text-brand-700">$99</strong> per treatment on a standard lot · No contracts</p>
           </div>
           <Link href="/free-yard-assessment" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
       </section>
 
       
+      <TypicalPrices service="mosquito" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -99,8 +103,8 @@ export default function RichmondHillMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product according to its label directions to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Visits repeat through the season on your plan’s schedule, so the foliage where mosquitoes rest stays treated. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -127,14 +131,16 @@ export default function RichmondHillMosquitoPage() {
           <h2>Our Richmond Hill Mosquito Treatment Process</h2>
           <ul>
             <li><strong>Property walk-through</strong> — We assess moraine drainage, pond proximity, tree canopy, and any standing water unique to your lot.</li>
-            <li><strong>Full-yard barrier application</strong> — Every shrub, hedge, garden bed, and tree understorey treated to eliminate resting and breeding adults.</li>
-            <li><strong>28-day residual coverage</strong> — Health Canada–approved formula protects continuously, safe for kids and pets once dry (30 minutes).</li>
-            <li><strong>Seasonal program</strong> — Five visits May through September, adjusted to local emergence timing on the Moraine.</li>
+            <li><strong>Full-yard barrier application</strong> — Every shrub, hedge, garden bed, and tree understorey treated where adult mosquitoes rest during the day.</li>
+            <li><strong>Label-directed application</strong> — {PROMISES.labelLine}. Stay off treated areas until the spray has dried, as the product label directs.</li>
+            <li><strong>Seasonal program</strong> — Five visits (Basic), 10 (Standard) or 20+ (Exclusive) May through September, adjusted to local emergence timing on the Moraine.</li>
           </ul>
 
           <h2>Also Providing Tick Control in Richmond Hill</h2>
-          <p>The Oak Ridges Moraine is one of Ontario&apos;s highest-density zones for blacklegged tick activity, and that risk extends directly into Richmond Hill&apos;s Oak Ridges and Jefferson neighbourhoods. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Richmond Hill tick spray service</Link> — most homeowners near the Moraine trails bundle both treatments for complete yard protection.</p>
+          <p>The Oak Ridges Moraine is one of Ontario&apos;s highest-density zones for blacklegged tick activity, and that risk extends directly into Richmond Hill&apos;s Oak Ridges and Jefferson neighbourhoods. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Richmond Hill tick spray service</Link> — most homeowners near the Moraine trails bundle both treatments into the same visit.</p>
 
+
+          <CityPriceCard city={CITY} service="mosquito" />
 
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
@@ -156,10 +162,10 @@ export default function RichmondHillMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, leaving a residual on the foliage where mosquitoes rest, renewed on a regular schedule through the season. The difference is coverage and consistency: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -170,10 +176,10 @@ export default function RichmondHillMosquitoPage() {
           <h2>How to Choose a Mosquito Control Company in Richmond Hill</h2>
           <p>Several companies spray for mosquitoes in Richmond Hill, and the things that separate them are rarely on the front page of a website. Before booking anyone — us included — check five things:</p>
           <ol>
-            <li><strong>The formulation.</strong> Only Health Canada&ndash;approved barrier products are legal for commercial application in Ontario. Ask what is going on your property before you book.</li>
-            <li><strong>The applicator&apos;s licence.</strong> Ontario requires a licensed pesticide applicator for commercial application — not just a licensed company, but the person actually holding the sprayer.</li>
-            <li><strong>The guarantee, in writing.</strong> Barrier spray has to dry and bind to the foliage; a downpour straight after an application undercuts it. A reputable company re-treats at no charge. Ours is the BuzzSkito Bite-Free Guarantee.</li>
-            <li><strong>Published pricing.</strong> You should be able to see a number — ours starts at $99 per treatment — without sitting through an in-home estimate to get one.</li>
+            <li><strong>The formulation.</strong> Ask which product will be applied on your property, and how its label directions will be followed, before you book.</li>
+            <li><strong>The applicator&apos;s licence.</strong> Commercial pesticide application in Ontario is licensed. Ask for the licence number and who will apply the product. Ours: {PROMISES.licence}.</li>
+            <li><strong>The guarantee, in writing.</strong> Barrier spray has to dry and bind to the foliage; a downpour straight after an application undercuts it. Ask what happens if it rains. Ours: {PROMISES.rainBack} {PROMISES.biteFreeScope} as well.</li>
+            <li><strong>Published pricing.</strong> You should be able to see a number — ours starts at $99 per treatment on a standard lot — without sitting through an in-home estimate to get one.</li>
             <li><strong>Actual Richmond Hill knowledge.</strong> A technician who can talk about Moraine recharge ponds, the Mill Pond creek corridor, and Lake Wilcox&apos;s marshy margins will find the resting habitat on your lot. One who treats every yard in the GTA identically will not.</li>
           </ol>
           <p>Contract terms are the other thing worth reading closely, since they vary widely between providers. BuzzSkito is no-contract: a single treatment from $99, or a seasonal plan, with no cancellation fees either way.</p>
@@ -216,6 +222,10 @@ export default function RichmondHillMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

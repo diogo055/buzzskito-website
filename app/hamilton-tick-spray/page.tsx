@@ -3,13 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Hamilton Tick Control 2026 · From $99 · Escarpment and Dundas Valley',
   description:
-    'Hamilton tick spray · 150+ five-star reviews. Targets blacklegged ticks near the Escarpment, Dundas Valley & conservation areas. Free re-spray. (289) 216-5030.',
+    'Hamilton tick spray · 150+ five-star reviews. Targets blacklegged ticks near the Escarpment, Dundas Valley & conservation areas. Rain-back guarantee. (289) 216-5030.',
   canonical: '/hamilton-tick-spray',
 })
 
@@ -28,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'How many tick treatments per year does a Hamilton property need?',
-    answer: "Five treatments per season, spread roughly monthly from May through September. Each application holds up to 30 days of residual protection, so monthly visits leave no multi-month gap in the middle of peak nymph season — blacklegged tick nymphs peak from May through July, and because they are poppy-seed sized and easily missed they are the stage that drives most Lyme disease transmission. Adults re-emerge later in the season and stay active into November in mild years, which the August and September visits cover. Deer, mice, and birds moving off the Niagara Escarpment and out of Dundas Valley continuously reintroduce ticks from adjacent woodland, so the barrier has to be renewed rather than applied once. The seasonal tick program is $597 standalone, or $497 added to any mosquito plan.",
+    answer: "Five treatments per season, spread roughly monthly from May through September. Monthly visits keep treatments on schedule through peak nymph season — blacklegged tick nymphs peak from May through July. Adults re-emerge later in the season and stay active into November in mild years, which the August and September visits cover. Deer, mice, and birds moving off the Niagara Escarpment and out of Dundas Valley continuously reintroduce ticks from adjacent woodland, so the barrier has to be renewed rather than applied once. The seasonal tick program is $597 standalone, or $497 added to any mosquito plan. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors.",
   },
   {
     question: 'Why does Hamilton have particularly high tick risk?',
@@ -48,7 +50,7 @@ const FAQS = [
   },
   {
     question: 'How does tick spray work on my Hamilton property?',
-    answer: "We apply a residual barrier treatment to the specific micro-habitats where ticks concentrate: the transition zone between your maintained lawn and any natural vegetation, leaf litter in garden beds, woodpile areas, fence lines, and under decks. Ticks don't broadcast randomly across a property — they aggregate in these specific zones, which is why targeted application is far more effective than broadcast treatment of the entire lawn.",
+    answer: "We apply a residual barrier treatment to the specific micro-habitats where ticks concentrate: the transition zone between your maintained lawn and any natural vegetation, leaf litter in garden beds, woodpile areas, fence lines, and under decks. Ticks don't broadcast randomly across a property — they aggregate in these specific zones, which is why we target those zones rather than broadcasting product across the entire lawn. Products are applied according to label directions by an Ontario-licensed pesticide operator (Licence L-240-2436835197). Keep people and pets off treated areas until the spray has dried, as the product label directs.",
   },
 ]
 
@@ -56,7 +58,7 @@ export default function HamiltonTickSprayPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray in ${CITY}, Ontario. Up to 30-day protection.`, slug: SLUG, city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray in ${CITY}, Ontario. Applied according to label directions.`, slug: SLUG, city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'Hamilton' })) }} />
@@ -66,7 +68,8 @@ export default function HamiltonTickSprayPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>Hamilton Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Hamilton's Dundas Valley, Niagara Escarpment trails, and conservation lands make it one of Southern Ontario's highest tick-risk regions. BuzzSkito protects Hamilton families with professional 30-day tick barrier spray.</>}
+        subtitle={<>Licensed Ontario pesticide operator. Treatments applied according to label directions, targeting the tick zones near Hamilton&apos;s Dundas Valley, Niagara Escarpment trails, and conservation lands.</>}
+        service="tick"
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -74,10 +77,10 @@ export default function HamiltonTickSprayPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ 5 Tick Sprays per Season</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -85,7 +88,7 @@ export default function HamiltonTickSprayPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best tick control company in Hamilton?">
         <p>
-          <strong>BuzzSkito provides specialist tick barrier spray across all Hamilton neighbourhoods — Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, Binbrook, Flamborough.</strong> Treatments use Health Canada-approved formulations applied to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>150+ five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Hamilton families get reliable Lyme disease prevention for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist tick barrier spray across all Hamilton neighbourhoods — Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, Binbrook, Flamborough.</strong> Treatments are applied by an Ontario-licensed pesticide operator, according to label directions, to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is $597 on its own or $497 added to any mosquito plan. With <strong>150+ five-star Google reviews</strong>, no contracts, and a <strong>rain-back guarantee on every plan</strong>, Hamilton families get targeted tick treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -99,17 +102,18 @@ export default function HamiltonTickSprayPage() {
                 {[
                   ['Service area', 'All Hamilton neighbourhoods (Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, Binbrook, Flamborough)'],
                   ['Specialization', 'Blacklegged tick (Ixodes scapularis) and American dog tick barrier spray'],
-                  ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or tick add-on bundle available on quote'],
+                  ['Pricing', 'From $99 per treatment · seasonal tick program (5 sprays) $597 on its own or $497 with any mosquito plan (plus HST)'],
                   ['Treatment season', 'May through September, roughly monthly (nymph peak May–July, adults active again through autumn)'],
-                  ['Protection per visit', 'Up to 30 days residual on tick habitat zones'],
-                  ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
+                  ['Sprays per season', '5 tick sprays, roughly monthly'],
+                  ['Re-entry', 'Stay off treated areas until the spray has dried, as the product label directs'],
+                  ['Licence', PROMISES.licence],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
                   ['Highest tick zones', 'Niagara Escarpment trails · Dundas Valley · Cootes Paradise · Red Hill Valley · Bruce Trail corridor'],
                   ['Lyme disease vector', 'Yes — blacklegged tick populations confirmed by Public Health Ontario'],
                   ['Application zones', 'Lawn-to-woods edge · leaf litter · garden bed perimeters · fence-line vegetation · woodpiles'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
-                  ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
+                  ['Guarantee', PROMISES.rainBack],
                   ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
                   ['Phone', '(289) 216-5030'],
                 ].map(([k, v]) => (
@@ -135,6 +139,8 @@ export default function HamiltonTickSprayPage() {
         </div>
       </section>
 
+      <TypicalPrices service="tick" city="Hamilton" />
+
       {/* How It Works */}
       <section className="py-14 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -143,8 +149,8 @@ export default function HamiltonTickSprayPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — Escarpment trail edges, Dundas Valley exposure, lawn-to-woods transitions, and garden borders on your Hamilton property.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment where it matters.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies barrier spray, according to label directions, to the specific 1-3 metre zones where ticks concentrate — precision treatment where it matters.' },
+              { step: '3', title: 'Five Visits, Rain-Back Guarantee', desc: `We return roughly monthly for 5 tick sprays through the season. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -160,8 +166,10 @@ export default function HamiltonTickSprayPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Hamilton Backyards Are Prime Tick Zones</h2>
           <p>Hamilton has some of Southern Ontario's most significant tick habitat. The <strong>Dundas Valley Conservation Area</strong> — 1,200+ hectares of managed conservation land directly adjacent to Dundas and Ancaster — supports thriving blacklegged tick populations supported by large deer herds. The <strong>Niagara Escarpment</strong> trail corridor running through Ancaster, Westdale, and Stoney Creek creates continuous tick dispersal pathways into adjacent residential neighbourhoods. <strong>Cootes Paradise</strong> and Hamilton Harbour's naturalized shoreline add additional habitat pressure across the city's west end.</p>
-          <p>Hamilton Conservation Authority conducts tick surveillance across managed lands and has documented established blacklegged tick populations in Dundas Valley, Spencer Gorge, and Fifty Point Conservation Area. With increasing Lyme disease case numbers in Ontario, professional tick treatment is an important annual precaution for Hamilton homeowners near these areas.</p>
+          <p>Hamilton Conservation Authority conducts tick surveillance across managed lands and has documented established blacklegged tick populations in Dundas Valley, Spencer Gorge, and Fifty Point Conservation Area. Public Health Ontario reports rising Lyme disease case numbers across the province, and many Hamilton homeowners near these areas add yard tick treatment alongside personal precautions like tick checks.</p>
           <p>Ancaster and Dundas carry the sharpest version of that exposure, since both sit against the Escarpment with deer moving nightly through residential streets. Our guide to <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">tick control in Ancaster and Dundas</Link> covers the streets closest to the conservation boundary and the monthly May-to-September treatment timing that works there.</p>
+
+          <CityPriceCard city="Hamilton" service="tick" />
 
           <h2>Hamilton Neighbourhoods We Serve</h2>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
@@ -171,15 +179,15 @@ export default function HamiltonTickSprayPage() {
           </div>
 
           <h2>Also Providing Mosquito Control in Hamilton</h2>
-          <p>Bundle tick and mosquito treatment for complete protection. See our <Link href="/hamilton-mosquito-control" className="text-brand-700 hover:underline">Hamilton mosquito control service</Link>.</p>
+          <p>Bundle tick and mosquito treatment in the same visit: the tick season is $497 when added to any mosquito plan. See our <Link href="/hamilton-mosquito-control" className="text-brand-700 hover:underline">Hamilton mosquito control service</Link>.</p>
 
 
           <h2>Compare Hamilton Pest Control Options</h2>
-          <p>Hamilton has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-hamilton" className="text-brand-700 hover:underline font-semibold">Pest Control in Hamilton</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/hamilton-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Hamilton</Link>.</p>
+          <p>Hamilton has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-hamilton" className="text-brand-700 hover:underline font-semibold">Pest Control in Hamilton</Link> for why a mosquito and tick specialist is a better fit for tick habitat than a general pest company. See our full mosquito programme for the same property: <Link href="/hamilton-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Hamilton</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
-            <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease Prevention in Ontario</Link></li>
+            <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease &amp; Ticks in Ontario: What to Know</Link></li>
             <li><Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms &amp; What to Do in Ontario</Link></li>
             <li><Link href="/blog/mosquito-tick-control-hamilton-burlington" className="text-brand-700 hover:underline">Hamilton &amp; Burlington Mosquito &amp; Tick Control Guide</Link></li>
           </ul>
@@ -213,6 +221,10 @@ export default function HamiltonTickSprayPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Hamilton" service="tick" location="price_card_faq" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -232,7 +244,7 @@ export default function HamiltonTickSprayPage() {
         </div>
       </section>
 
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Serving all Hamilton areas. Protecting families from Lyme disease." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Serving all Hamilton areas. 5 tick sprays per season, applied according to label directions." variant="dark" />
     </>
   )
 }

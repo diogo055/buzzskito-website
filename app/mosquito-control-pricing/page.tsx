@@ -2,8 +2,10 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS } from '@/lib/constants'
+import { BUSINESS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Pricing Ontario 2026 | From $99',
@@ -15,15 +17,15 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'How much does mosquito control cost per treatment in Ontario?',
-    answer: 'Single professional mosquito barrier spray treatments in Ontario start from $99 for standard residential lots (under 6,000 sq ft). Mid-size properties (6,000-10,000 sq ft) are quoted individually. BuzzSkito offers transparent pricing with no hidden fees — call (289) 216-5030 for a free quote specific to your property.',
+    answer: 'Single professional mosquito barrier spray treatments in Ontario start from $99 for standard residential lots under 10,000 sq ft, plus HST. Larger properties are quoted by lot size. BuzzSkito offers transparent pricing with no hidden fees — call (289) 216-5030 for a free quote specific to your property.',
   },
   {
     question: 'What is included in the BuzzSkito seasonal packages?',
-    answer: "All seasonal packages include: Health Canada-approved barrier spray applied by a licensed technician, full property treatment (all vegetation, shrub interiors, fence lines, structural perimeters), SMS notification before arrival, post-treatment confirmation email with service log, rain-back guarantee on every visit, and no contracts or cancellation fees. The difference between packages is the number of treatments and whether tick control is included.",
+    answer: "All seasonal packages include: barrier spray applied by a licensed technician according to label directions, full property treatment (all vegetation, shrub interiors, fence lines, structural perimeters), a booked visit window, post-treatment confirmation email with service log, rain-back guarantee on every plan, and no contracts or cancellation fees. Standard and Exclusive packages also carry the Bite-Free Guarantee. The difference between packages is the number of treatments and whether tick control is included.",
   },
   {
     question: 'Is the season package worth it vs booking individual treatments?',
-    answer: 'Yes, if you need 3 or more treatments per season (which most GTA properties do). The Basic package ($549 for 5 treatments) works out to $110/treatment vs $99+ per individual treatment. However, the real value is consistent scheduling — gaps between treatments allow mosquito populations to rebuild. Seasonal programs maintain continuous protection from May through September.',
+    answer: 'For most GTA yards, yes. The Basic package ($549 for 5 treatments) works out to $110/treatment vs $99+ per individual treatment. However, the real value is consistent scheduling — gaps between treatments allow mosquito populations to rebuild. Seasonal programs keep treatments on a steady schedule from May through September.',
   },
   {
     question: 'What affects mosquito control pricing?',
@@ -31,7 +33,7 @@ const FAQS = [
   },
   {
     question: 'How does BuzzSkito pricing compare to competitors?',
-    answer: "BuzzSkito's single treatments start from $99 — among the lowest in the GTA market. LawnSavers starts at $129 per treatment. MosquitoMan advertises seasonal programs around $450. BuzzSkito provides the same Health Canada-approved formula and licensed technicians at a competitive price point, with no contracts required and a rain-back guarantee included on every visit.",
+    answer: "The fairest comparison is to ask every company the same five questions. Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); rain within 1 hour of your treatment is re-treated free on every plan; yes, Ontario Pesticide Operator Licence L-240-2436835197; and the Bite-Free Guarantee on Standard and Exclusive plans.",
   },
 ]
 
@@ -56,11 +58,13 @@ export default function MosquitoControlPricingPage() {
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
           <span>&#10003; Transparent Pricing &mdash; No Surprises</span>
           <span>&#10003; No Contracts Required</span>
-          <span>&#10003; Bite-Free Guarantee Included</span>
-          <span>&#10003; Health Canada&ndash;Approved Formula</span>
+          <span>&#10003; {PROMISES.rainBackShort}</span>
+          <span>&#10003; {PROMISES.biteFreeScope}</span>
           <span>&#10003; 5-Star Rated &middot; 150+ Reviews</span>
         </div>
       </section>
+
+      <TypicalPrices service="mosquito" city="Ontario" />
 
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
@@ -69,8 +73,8 @@ export default function MosquitoControlPricingPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product, according to its label directions, to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: 'Rain within 1 hour of your treatment? We come back and re-treat free, on every plan. Standard & Exclusive plans also carry the Bite-Free Guarantee.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -87,7 +91,7 @@ export default function MosquitoControlPricingPage() {
         <div className="max-w-4xl mx-auto prose-brand">
 
           <h2>BuzzSkito Seasonal Packages &mdash; 2026</h2>
-          <p>Season packages are the most cost-effective way to maintain continuous mosquito protection from May through September. Every package includes the same professional treatment &mdash; the difference is frequency and coverage.</p>
+          <p>Season packages are the most cost-effective way to keep mosquito treatments on schedule from May through September. Every package includes the same professional treatment &mdash; the difference is frequency and coverage.</p>
 
           {/* Package comparison */}
           <div className="not-prose grid sm:grid-cols-3 gap-4 my-8">
@@ -97,7 +101,7 @@ export default function MosquitoControlPricingPage() {
                 price: '$549',
                 treatments: '5 treatments',
                 perTreatment: '$110/treatment',
-                features: ['May through September', 'Every 35-40 days', 'Mosquito barrier spray', 'Health Canada-approved formula', 'Rain-back guarantee', 'No contracts'],
+                features: ['May through September', 'Monthly', 'Mosquito barrier spray', 'Applied according to label directions', 'Rain-back guarantee', 'No contracts'],
                 best: 'Lower-pressure properties away from water features',
               },
               {
@@ -105,7 +109,7 @@ export default function MosquitoControlPricingPage() {
                 price: '$994',
                 treatments: '10 treatments',
                 perTreatment: '$99/treatment',
-                features: ['May through September', 'Bi-weekly (every 14 days)', 'Mosquito barrier spray', 'Health Canada-approved formula', 'Rain-back guarantee', 'No contracts', 'Priority scheduling'],
+                features: ['May through September', 'Bi-weekly (every 14 days)', 'Mosquito barrier spray', 'Applied according to label directions', 'Rain-back guarantee', 'Bite-Free Guarantee', 'No contracts', 'Priority scheduling'],
                 best: 'Most GTA suburban properties',
                 popular: true,
               },
@@ -114,7 +118,7 @@ export default function MosquitoControlPricingPage() {
                 price: '$2,049',
                 treatments: '20+ treatments',
                 perTreatment: '$102/treatment',
-                features: ['May through September', 'Weekly (every 7 days)', 'Mosquito + tick barrier spray', 'Health Canada-approved formula', 'Rain-back guarantee', 'No contracts', 'Priority scheduling', 'Tick control included'],
+                features: ['May through September', 'Weekly (every 7 days)', 'Mosquito + tick barrier spray', 'Applied according to label directions', 'Rain-back guarantee', 'Bite-Free Guarantee', 'No contracts', 'Priority scheduling', 'Tick control included'],
                 best: 'High-pressure properties near ravines, water, or conservation areas',
               },
             ].map(({ name, price, treatments, perTreatment, features, best, popular }) => (
@@ -150,10 +154,9 @@ export default function MosquitoControlPricingPage() {
               </thead>
               <tbody>
                 {[
-                  { size: 'Standard lot (under 6,000 sq ft)', price: 'From $99', typical: 'GTA semi-detached or standard detached home' },
-                  { size: 'Mid-size lot (6,000-10,000 sq ft)', price: 'Custom quote', typical: 'Larger detached, corner lots, wider lots' },
-                  { size: 'Large lot (10,000-20,000 sq ft)', price: 'Custom quote', typical: 'Estate properties, acreage' },
-                  { size: 'Rural / farm (20,000+ sq ft)', price: 'Custom quote', typical: 'Hobby farms, rural acreage' },
+                  { size: 'Standard lot (under 10,000 sq ft)', price: 'From $99', typical: 'GTA semi-detached or standard detached home' },
+                  { size: 'Larger lot (10,000–100,000 sq ft)', price: 'Priced by lot size', typical: 'Larger detached, corner lots, estate properties' },
+                  { size: 'Large / rural property (100,000+ sq ft)', price: 'Custom quote', typical: 'Acreage, farm properties, hobby farms' },
                 ].map(({ size, price, typical }) => (
                   <tr key={size} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-3 font-semibold text-brand-800">{size}</td>
@@ -166,15 +169,17 @@ export default function MosquitoControlPricingPage() {
           </div>
           <p className="text-sm text-gray-500 not-prose mb-8">All pricing is property-specific. Call <a href={BUSINESS.phoneHref} className="text-brand-700 underline">{BUSINESS.phone}</a> or use our <Link href="/free-yard-assessment" className="text-brand-700 underline">contact form</Link> for a free, no-obligation quote.</p>
 
+          <CityPriceCard city="Ontario" service="mosquito" location="price_card_mid" />
+
           <h2>What Affects Mosquito Control Cost?</h2>
           <h3>1. Property Size (Lot Size)</h3>
-          <p>The single biggest factor in pricing. Larger lots require more product and more technician time. Most GTA suburban lots fall in the standard category (under 6,000 sq ft). Properties on ravine lots, cul-de-sacs with oversized yards, or rural acreage are quoted individually.</p>
+          <p>The single biggest factor in pricing. Larger lots require more product and more technician time. Most GTA suburban lots fall in the standard category (under 10,000 sq ft). Properties on ravine lots, cul-de-sacs with oversized yards, or rural acreage are quoted individually.</p>
 
           <h3>2. Treatment Frequency</h3>
-          <p>More treatments per season means better coverage but higher total cost. However, per-treatment cost drops substantially with seasonal packages. A single $99 treatment is great for evaluating results, but consistent 7&ndash;30-day scheduling delivers dramatically better seasonal outcomes.</p>
+          <p>More treatments per season means better coverage but higher total cost. However, per-treatment cost drops substantially with seasonal packages. A single $99 treatment is great for evaluating results, but a consistent schedule &mdash; weekly, every 2 weeks, or monthly &mdash; keeps the barrier in place through the season.</p>
 
           <h3>3. Tick Control Add-On</h3>
-          <p>Tick treatment can be added to any mosquito program. The Exclusive package includes tick control in the price. For other packages or single treatments, tick add-on is available at an additional cost. Properties near ravines, conservation areas, or in York Region (where blacklegged tick populations are well-established) benefit most from combined treatment.</p>
+          <p>Tick treatment can be added to any mosquito program. The Exclusive package includes tick control in the price. For other packages, tick control is $497 per season (5 sprays) when added to a mosquito plan, or $597 on its own. Properties near ravines, conservation areas, or in York Region (where blacklegged tick populations are well-established) benefit most from combined treatment.</p>
 
           <h3>4. Vegetation Density</h3>
           <p>Heavily landscaped properties with dense mature shrubs, ornamental grasses, and extensive garden beds require more thorough application to ensure full coverage of all mosquito resting sites. This can affect treatment time and, for very dense properties, pricing.</p>
@@ -207,31 +212,29 @@ export default function MosquitoControlPricingPage() {
               </tbody>
             </table>
           </div>
-          <p>Individual bookings offer the lowest per-treatment cost and maximum flexibility. Seasonal packages offer guaranteed scheduling, priority service dates, and the peace of mind that your property is covered from May through September without you having to remember to rebook.</p>
+          <p>Individual bookings offer the lowest per-treatment cost and maximum flexibility. Seasonal packages offer pre-booked scheduling, priority service dates, and the peace of mind that your property is covered from May through September without you having to remember to rebook.</p>
 
-          <h2>How BuzzSkito Compares to Competitors</h2>
+          <h2>What to Ask Any Mosquito Control Company in Ontario</h2>
+          <p>Before you book any mosquito control company, ask each one the same five questions and compare the answers. Here is how BuzzSkito answers them.</p>
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-brand-800 text-white">
-                  <th className="px-4 py-3 text-left">Company</th>
-                  <th className="px-4 py-3 text-left">Single Treatment</th>
-                  <th className="px-4 py-3 text-left">Seasonal Program</th>
-                  <th className="px-4 py-3 text-left">Contracts</th>
+                  <th className="px-4 py-3 text-left">Question to ask</th>
+                  <th className="px-4 py-3 text-left">BuzzSkito&rsquo;s answer</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { company: 'BuzzSkito', single: 'From $99', seasonal: 'From $549 (5 treatments)', contracts: 'No contracts' },
-                  { company: 'MosquitoMan', single: 'Not published', seasonal: '~$450 seasonal', contracts: 'Seasonal commitment' },
-                  { company: 'LawnSavers', single: 'From $129', seasonal: 'Quote-based', contracts: 'Seasonal programs' },
-                  { company: 'Mosquito.Buzz', single: 'Quote-based', seasonal: 'Quote-based', contracts: 'Seasonal programs' },
-                ].map(({ company, single, seasonal, contracts }) => (
-                  <tr key={company} className="border-b border-gray-200 even:bg-gray-50">
-                    <td className="px-4 py-3 font-semibold text-brand-800">{company}</td>
-                    <td className="px-4 py-3 text-brand-700 font-semibold">{single}</td>
-                    <td className="px-4 py-3 text-gray-600">{seasonal}</td>
-                    <td className="px-4 py-3 text-gray-600">{contracts}</td>
+                  { question: 'Is the price shown before you book?', answer: 'From $99 on a standard lot' },
+                  { question: 'How many sprays per season?', answer: '5, 10 or 20+ (tick: 5)' },
+                  { question: 'What happens if it rains after a treatment?', answer: PROMISES.rainBack },
+                  { question: 'Is an Ontario pesticide operator licence number shown?', answer: `Yes: ${BUSINESS.licenseNumber}` },
+                  { question: 'Which plans include a guarantee?', answer: 'Rain-back on every plan; Bite-Free on Standard & Exclusive' },
+                ].map(({ question, answer }) => (
+                  <tr key={question} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-3 font-semibold text-brand-800">{question}</td>
+                    <td className="px-4 py-3 text-gray-600">{answer}</td>
                   </tr>
                 ))}
               </tbody>
@@ -242,11 +245,11 @@ export default function MosquitoControlPricingPage() {
           <p>Every BuzzSkito treatment &mdash; whether a single visit or part of a seasonal package &mdash; includes:</p>
           <ul>
             <li><strong>Full property barrier application</strong> &mdash; all vegetation, shrubs, garden beds, leaf undersides, fence lines, deck undersides, and structural perimeters</li>
-            <li><strong>Health Canada-registered, water-based formula</strong> &mdash; kills mosquitoes on contact and leaves a 30-day residual barrier</li>
+            <li><strong>Water-based formula, applied according to label directions</strong> &mdash; dries onto treated surfaces as a residual barrier</li>
             <li><strong>Property assessment on first visit</strong> &mdash; identification of standing water sources, high-risk zones, and property-specific factors</li>
-            <li><strong>SMS notification before arrival</strong> &mdash; you don&rsquo;t need to be home</li>
+            <li><strong>A booked visit window</strong> &mdash; never an exact arrival time, and you don&rsquo;t need to be home</li>
             <li><strong>Post-treatment confirmation email</strong> with full treatment log</li>
-            <li><strong>Rain-back guarantee</strong> &mdash; if significant rain falls within one hour, we return and re-treat free</li>
+            <li><strong>Rain-back guarantee</strong> &mdash; if rain falls within 1 hour of your treatment, we return and re-treat free, on every plan</li>
             <li><strong>No contracts, no cancellation fees</strong></li>
           </ul>
 
@@ -254,7 +257,7 @@ export default function MosquitoControlPricingPage() {
           <p>Pricing is property-specific. The fastest way to get an accurate quote is to call us directly or submit your address through our contact form.</p>
           <div className="not-prose bg-amber-50 border border-amber-200 rounded-2xl p-6 my-6">
             <h3 className="text-xl font-extrabold text-brand-900 mb-2">Free, No-Obligation Quote</h3>
-            <p className="text-gray-600 text-sm mb-4">Tell us your address and property size. We&rsquo;ll provide an exact quote &mdash; typically within 24 hours for online requests, or immediately over the phone.</p>
+            <p className="text-gray-600 text-sm mb-4">Tell us your address and property size. We&rsquo;ll provide an exact quote. {PROMISES.response}</p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link href="/free-yard-assessment" className="inline-block bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-3 rounded-full text-sm transition-colors text-center">Request a Quote Online</Link>
               <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center gap-2 border-2 border-brand-700 text-brand-700 hover:bg-brand-700 hover:text-white font-bold px-6 py-3 rounded-full text-sm transition-colors">Call {BUSINESS.phone}</a>
@@ -298,6 +301,10 @@ export default function MosquitoControlPricingPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Ontario" service="mosquito" />
+      </div>
 
       {/* FAQ */}
       <section className="py-10 px-4 bg-brand-50">

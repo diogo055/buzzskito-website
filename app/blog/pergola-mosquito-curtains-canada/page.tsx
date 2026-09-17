@@ -300,6 +300,8 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
 
           <h2>Canadian Weather, Canadian Storage</h2>
           <p>Southern Ontario asks two things of outdoor mesh that a milder climate does not. The first is UV: full sun from May through September embrittles polyester, and a panel that has faded noticeably is a panel that is about to tear at a grommet. The second is winter, and it is the one that costs people money.</p>
+          <p>A tear caught early is a patch; a tear ignored for three weeks is a new panel. Self-adhesive mesh repair patches are the thing to have in the drawer before you need them &mdash; they go over a rip or a pulled grommet in about a minute, they hold through a season, and they cost a tiny fraction of replacing a set because one panel snagged on a chair back.</p>
+          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="mesh screen repair patch self adhesive">Check mesh repair patches on Amazon.ca &rarr;</BuyLink></div>
           <p>Mesh left hanging from October to April takes freeze-thaw cycles, ice loading along the hem, and wind against a frozen panel. It comes back brittle and usually holed. The routine that works:</p>
           <ul>
             <li><strong>Take the panels down after the last warm weekend</strong> &mdash; usually mid-to-late October in the GTA.</li>
@@ -308,11 +310,15 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
             <li><strong>Leave the track or rod up.</strong> The hardware is built to stay outside and re-hanging in May then takes minutes.</li>
           </ul>
           <p>Do that and a decent set of panels gives you several seasons. Leave them up year-round and you will be buying mesh again next spring, which is a bad trade on a $300 set.</p>
+          <p>The container matters more than it sounds. A sealed bin keeps mice out of folded mesh over the winter, which a garbage bag on a garage shelf does not &mdash; a nest chewed into a panel in February is the most annoying way to discover in May that you need new curtains. Label it with the bay each panel came off and next spring&rsquo;s re-hang takes minutes instead of an afternoon of trial and error.</p>
+          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="large storage bin with lid">Check sealed storage bins on Amazon.ca &rarr;</BuyLink></div>
 
           <h2>Where to Buy in Canada</h2>
           <p>Amazon.ca is the practical answer for most of this system, because it lists the whole kit year-round and it is the only channel that reliably carries the small parts &mdash; no-see-um mesh by the panel, ceiling track and glides, magnetic closure strips, hem weight chain &mdash; as separate items rather than as whatever a big-box store decided to stock this season.</p>
           <p>Canadian Tire and Home Depot Canada carry outdoor curtain panels, rods and brackets seasonally, roughly May through July, with selection thinning fast by August. Rona is good for hardware, fixings, and rod stock. One warning that applies across all of them: a great many big-box &ldquo;outdoor curtains&rdquo; are decorative privacy or shade panels in solid fabric or a loose open weave, and neither stops an insect. If the listing does not state a mesh, treat it as a shade curtain, not a mosquito curtain.</p>
           <p>If you would rather have a portable enclosure than a fixed one &mdash; for a cottage, a dock, or a yard with no pergola at all &mdash; our guide to the <Link href="/blog/best-screen-tent-canada">best screen tents and screen houses in Canada</Link> covers the freestanding alternatives.</p>
+          <p>That is also the honest answer for a rental, or for a yard where the eating happens in a different spot each summer: a pop-up screen house goes up over the picnic table in ten minutes, needs no fixings in anyone&rsquo;s beams, and travels to the cottage in the back of the car. It will never feel as solid as mesh hung on a frame, but nothing gets drilled and nothing stays behind.</p>
+          <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="pop up screen house canopy">Check pop-up screen houses on Amazon.ca &rarr;</BuyLink></div>
 
           <h2>The Bottom Line</h2>
           <p>A pergola is the cheapest bug-free room in a Canadian backyard, because the expensive part is already built. Hang mesh panels from a ceiling-mounted track under the beams, two per bay, seal the walk-through seams with magnets, weight every hem, and if the roof is open slats put a canopy over it. Standard 1.2&nbsp;mm mesh for inland GTA yards, no-see-um mesh only for shoreline and marsh-adjacent properties. Take it all down in October. Total cost lands in the $150&ndash;$600 range for a four-bay pergola, which is a small fraction of screening the same structure permanently &mdash; and it buys back the hours between seven and ten in the evening, which is exactly when a pergola was supposed to be useful.</p>

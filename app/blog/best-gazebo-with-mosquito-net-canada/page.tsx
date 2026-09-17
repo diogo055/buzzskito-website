@@ -55,7 +55,7 @@ const FAQS = [
   },
   {
     question: 'Is a screened gazebo enough, or do I still need yard mosquito control?',
-    answer: 'A gazebo protects the spot you sit in; it does nothing for the rest of the property. If your kids play on the lawn, you garden, or you walk the dog around the yard, everyone is exposed the moment they leave the netting — and mosquitoes keep breeding in standing water and resting in shrubs regardless of your gazebo. The complete setup is layered: screened gazebo over the deck for a guaranteed bug-free dining zone, plus a professional barrier spray that coats the surrounding vegetation with a residual that kills mosquitoes and ticks landing on it for 21–30 days. The netting keeps them off the table; the barrier spray clears the whole yard. In the GTA, BuzzSkito does that barrier treatment from $99.',
+    answer: 'A gazebo protects the spot you sit in; it does nothing for the rest of the property. If your kids play on the lawn, you garden, or you walk the dog around the yard, everyone is exposed the moment they leave the netting — and mosquitoes keep breeding in standing water and resting in shrubs regardless of your gazebo. The complete setup is layered: screened gazebo over the deck for a guaranteed bug-free dining zone, plus a professional barrier spray that leaves a residual on the leaves where mosquitoes rest, renewed on the schedule of your plan (every 2 weeks on Standard, monthly on Basic), and targets ticks where they wait. The netting keeps them off the table; the barrier spray treats the rest of the yard. In the GTA, BuzzSkito does that barrier treatment from $99.',
   },
   {
     question: 'Where can I buy a gazebo with mosquito netting in Canada?',
@@ -113,7 +113,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
               <li>Anchor every gazebo (concrete bolts, deck lag screws, or ground augers) &mdash; wind, not rain, is what destroys them.</li>
               <li>Size one footprint larger than your furniture: 10&times;10 fits a 4-seat table, 10&times;12 a 6-seat, 12&times;14+ for entertaining.</li>
               <li>Zippers and the bottom hem are the first things to fail &mdash; look for chunky zippers, reinforced seams, and replaceable screen walls.</li>
-              <li>Netting protects the table, not the yard: a barrier spray on the surrounding vegetation clears the whole property &mdash; in the GTA, BuzzSkito treats from $99.</li>
+              <li>Netting protects the table, not the yard: a barrier spray on the surrounding vegetation treats the whole property &mdash; in the GTA, BuzzSkito treats from $99.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
@@ -220,7 +220,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ A gazebo only protects the footprint it covers.</strong> The moment you step onto the open lawn, you are exposed again &mdash; and mosquitoes keep breeding in standing water and resting in shrubs regardless. Netting keeps them off the deck; <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> clears the whole yard for 21&ndash;30 days and controls ticks too.
+              <strong className="text-amber-900">⚠️ A gazebo only protects the footprint it covers.</strong> The moment you step onto the open lawn, you are exposed again &mdash; and mosquitoes keep breeding in standing water and resting in shrubs regardless. Netting keeps them off the deck; <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> treats the whole yard, with the residual renewed on your plan&rsquo;s schedule, and targets ticks too.
             </p>
           </div>
         </div>
@@ -310,8 +310,8 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
           <p><strong>Winter is a hard rule, not a suggestion.</strong> Soft-top canopies are not rated to carry snow load; one heavy wet snowfall collapses the frame or tears the fabric. Take the canopy and screen walls off before winter &mdash; many owners leave the bare metal frame standing and store the fabric indoors. Hard-tops with a rigid roof are built to stay up, but you still rake off deep accumulation and honour the snow-load rating. On either type, removing the fabric screen walls over winter roughly doubles their lifespan.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Netting keeps them off the deck. We clear the whole yard.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A screened gazebo protects the table you sit at &mdash; but the lawn, the garden, and the walk from the door are still open season. BuzzSkito&rsquo;s professional barrier spray coats the surrounding vegetation with a residual that kills mosquitoes and ticks for 21&ndash;30 days, so the whole property is livable. From $99, backed by 150+ five-star reviews across 19 GTA cities.</p>
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Netting keeps them off the deck. We treat the whole yard.</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A screened gazebo protects the table you sit at &mdash; but the lawn, the garden, and the walk from the door are still open season. BuzzSkito&rsquo;s professional barrier spray leaves a residual on the leaves where mosquitoes rest, renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic), and targets ticks where they wait. From $99, backed by 150+ five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Yard Assessment →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -330,7 +330,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-screen-tent-canada">Pop-up screen tent</Link></td><td className="px-3 py-2">$$</td><td className="px-3 py-2">Sealed but lightweight, semi-portable</td><td className="px-3 py-2">Camping, occasional, budget, moving it around</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-net">Hanging / patio mosquito net</Link></td><td className="px-3 py-2">$</td><td className="px-3 py-2">Covers a bed, table, or single seat</td><td className="px-3 py-2">One spot on a covered porch or pergola</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/thermacell-canada-where-to-buy">Thermacell repellent zone</Link></td><td className="px-3 py-2">$$</td><td className="px-3 py-2">~4.5 m repellent bubble, no barrier</td><td className="px-3 py-2">No structure wanted; portable personal zone</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Seasonal service</td><td className="px-3 py-2"><strong>Whole yard, 21–30 days, + ticks</strong></td><td className="px-3 py-2">You want the entire property usable, not one spot</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Seasonal service</td><td className="px-3 py-2"><strong>Whole yard, renewed on schedule, + ticks</strong></td><td className="px-3 py-2">You want the entire property usable, not one spot</td></tr>
             </tbody>
           </table>
           <p>The pattern is clear: every product in that table protects a <em>spot</em> &mdash; a table, a bed, a 4.5-metre bubble. A gazebo protects the best spot the best, but it is still just the footprint under the canopy. The one option that protects the whole yard is a barrier treatment on the vegetation, which is why the smartest setups layer the two: a screened gazebo for a guaranteed bug-free dining zone, plus a barrier spray so the walk from the door and the kids&rsquo; time on the lawn aren&rsquo;t a gauntlet.</p>
@@ -339,10 +339,10 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
           <p>For a typical Mississauga, Brampton, or Oakville deck, the most effective setup isn&rsquo;t a gazebo alone:</p>
           <ol>
             <li><strong>A screened gazebo over the deck</strong> &mdash; a soft-top 10&times;12 with no-see-um mesh for a guaranteed bug-free dining and lounging zone.</li>
-            <li><strong>Professional barrier spray</strong> &mdash; <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> coats the surrounding shrubs and lawn edges so mosquitoes and ticks are knocked down across the whole yard for 21&ndash;30 days, not just under the netting.</li>
+            <li><strong>Professional barrier spray</strong> &mdash; <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> treats the surrounding shrubs and lawn edges where mosquitoes rest and ticks wait, with the residual renewed on your plan&rsquo;s schedule, so the whole yard is covered, not just the space under the netting.</li>
             <li><strong>Treat standing water and anchor the gazebo properly</strong> &mdash; empty saucers and clogged gutters where mosquitoes breed, and lock the gazebo down against wind so it survives the summer.</li>
           </ol>
-          <p>The netting keeps them off the table; the barrier spray clears the whole yard. If you&rsquo;re in the GTA, a <Link href="/free-yard-assessment">free yard assessment</Link> is the fastest way to find out what your property needs &mdash; from $99 per treatment, backed by 150+ five-star reviews.</p>
+          <p>The netting keeps them off the table; the barrier spray treats the whole yard. If you&rsquo;re in the GTA, a <Link href="/free-yard-assessment">free yard assessment</Link> is the fastest way to find out what your property needs &mdash; from $99 per treatment, backed by 150+ five-star reviews.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
@@ -368,7 +368,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Netting Covers the Table · We Cover the Whole Yard" subtext="Get a free quote for licensed barrier spray. From $99. Kills mosquitoes and ticks across the entire property — 21–30 day residual." variant="dark" />
+      <CTASection heading="Netting Covers the Table · We Cover the Whole Yard" subtext="Get a free quote for licensed barrier spray. From $99. Reduces the adult mosquitoes resting in your yard and targets ticks where they wait. Rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

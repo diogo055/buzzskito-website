@@ -1,14 +1,16 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Thornhill Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Thornhill specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Royal Orchard, Beverley Glen, German Mills, Thornhill Woods. Call (289) 216-5030.",
+    "Thornhill specialist mosquito barrier spray. Ontario-licensed, from $99/treatment, no contracts, rain-back guarantee. Royal Orchard, Beverley Glen, German Mills, Thornhill Woods. Call (289) 216-5030.",
   canonical: '/thornhill-mosquito-control',
 })
 
@@ -23,11 +25,11 @@ const FAQS = [
   },
   {
     question: 'Do the golf courses along Highway 7 affect mosquito activity in Commerce Valley?',
-    answer: "The golf course corridor in Commerce Valley and along Thornhill&apos;s southern boundary creates a specific type of mosquito habitat: large, irrigated turf areas with water hazards, rough-edge vegetation, and decorative ponds. Golf course ponds with standing water and vegetated margins produce adult mosquitoes that drift into adjacent residential streets in Commerce Valley and Beverley Glen, particularly in early morning and evening. The combination of golf course water features and the ravine tributaries nearby makes southern Thornhill one of the more active mosquito zones in the community.",
+    answer: "The golf course corridor in Commerce Valley and along Thornhill’s southern boundary creates a specific type of mosquito habitat: large, irrigated turf areas with water hazards, rough-edge vegetation, and decorative ponds. Golf course ponds with standing water and vegetated margins produce adult mosquitoes that drift into adjacent residential streets in Commerce Valley and Beverley Glen, particularly in early morning and evening. The combination of golf course water features and the ravine tributaries nearby makes southern Thornhill one of the more active mosquito zones in the community.",
   },
   {
     question: 'How does Thornhill\'s position straddling Vaughan and Markham affect mosquito service?',
-    answer: "Thornhill spans the municipal boundary between Vaughan and Markham — it&apos;s the only GTA community that straddles two separate regional municipalities (York Region to the north and south). From a mosquito control standpoint, this doesn&apos;t create any service complexity: BuzzSkito treats all Thornhill properties regardless of which municipality your address falls in. What it does mean is that Thornhill sits between two sets of ravine and creek systems — German Mills Creek to the east and the Don River tributaries to the west — giving the community pressure from both directions.",
+    answer: "Thornhill spans the municipal boundary between Vaughan and Markham — it’s the only GTA community that straddles two separate regional municipalities (York Region to the north and south). From a mosquito control standpoint, this doesn’t create any service complexity: BuzzSkito treats all Thornhill properties regardless of which municipality your address falls in. What it does mean is that Thornhill sits between two sets of ravine and creek systems — German Mills Creek to the east and the Don River tributaries to the west — giving the community pressure from both directions.",
   },
 ]
 
@@ -50,22 +52,24 @@ export default function ThornhillMosquitoPage() {
         ]}
         title={<>{CITY} Mosquito Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>From German Mills Creek ravines in Pomona Mills to the golf course corridors of Commerce Valley — BuzzSkito delivers professional mosquito barrier spray to every Thornhill neighbourhood.</>}
+        subtitle={<>From German Mills Creek ravines in Pomona Mills to the golf course corridors of Commerce Valley, BuzzSkito delivers professional mosquito barrier spray to every Thornhill neighbourhood. Licensed Ontario pesticide operator; treatments applied according to label directions.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
       
+      <TypicalPrices service="mosquito" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -74,8 +78,8 @@ export default function ThornhillMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product according to its label directions to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Visits repeat through the season on your plan’s schedule, so the foliage where mosquitoes rest stays treated. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -103,12 +107,12 @@ export default function ThornhillMosquitoPage() {
           <ul>
             <li><strong>Ravine proximity assessment</strong> — We identify your lot&apos;s relationship to German Mills Creek, Don River tributaries, and any golf course water features nearby.</li>
             <li><strong>Full-yard barrier spray</strong> — All shrubs, hedges, fence lines, ornamental plantings, and tree understorey treated on every visit.</li>
-            <li><strong>28-day residual protection</strong> — Health Canada–approved formula provides continuous coverage between visits; safe for kids and pets after 30 minutes.</li>
-            <li><strong>Seasonal program</strong> — Five visits May through September, timed to German Mills Creek and Don tributary emergence patterns in Thornhill.</li>
+            <li><strong>Label-directed application</strong> — {PROMISES.labelLine}. Stay off treated areas until the spray has dried, as the product label directs.</li>
+            <li><strong>Seasonal program</strong> — Five visits (Basic), 10 (Standard) or 20+ (Exclusive) May through September, timed to German Mills Creek and Don tributary emergence patterns in Thornhill.</li>
           </ul>
 
           <h2>Also Providing Tick Control in Thornhill</h2>
-          <p>Thornhill&apos;s Don River tributary ravines and proximity to the Oak Ridges Moraine create meaningful blacklegged tick exposure risk for homeowners near the ravine corridors. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Thornhill tick spray service</Link> — combining both treatments provides complete yard protection through the season.</p>
+          <p>Thornhill&apos;s Don River tributary ravines and proximity to the Oak Ridges Moraine create meaningful blacklegged tick exposure risk for homeowners near the ravine corridors. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Thornhill tick spray service</Link> — combining both treatments covers both pests in the same visit through the season.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>
@@ -131,10 +135,10 @@ export default function ThornhillMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, leaving a residual on the foliage where mosquitoes rest, renewed on a regular schedule through the season. The difference is coverage and consistency: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -180,6 +184,10 @@ export default function ThornhillMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

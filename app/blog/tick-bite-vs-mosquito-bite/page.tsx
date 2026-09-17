@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -17,7 +18,14 @@ const DATE = '2026-04-07'
 const UPDATED = '2026-07-12'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Bite vs Mosquito Bite: Ticks Stay Attached',
+  // TITLE NOTE (Sep 16 2026): was 'Tick Bite vs Mosquito Bite: Ticks Stay Attached'
+  // (47 chars). Head term 'tick bite vs mosquito bite' kept intact and leading; the
+  // tail now carries the geo token. Honest here rather than welded on — the page is
+  // scoped to Ontario throughout (the Ontario disease-risk table row, West Nile
+  // monitoring by Toronto Public Health and Peel, and a full GTA tick-habitat
+  // section), and 'Lyme' is the fear the searcher actually arrives with. 46 chars;
+  // renders at 58 with the '%s | BuzzSkito' template in app/layout.tsx.
+  title: 'Tick Bite vs Mosquito Bite: Ontario Lyme Signs',
   description:
     'Mosquitoes bite and fly off; a tick stays attached and painless. How to tell which bite you have, remove a tick safely, and spot the Lyme bull’s-eye rash.',
   canonical: `/blog/${SLUG}`,
@@ -52,7 +60,7 @@ const FAQS = [
   },
   {
     question: 'How do I protect my yard from ticks and mosquitoes in Ontario?',
-    answer: "Professional barrier spray is the most effective yard-level protection available for GTA homeowners. BuzzSkito applies a Health Canada–approved formula to the vegetation, shrubs, lawn edges, and fence lines of your property — the micro-habitats where ticks wait for passing hosts and where mosquitoes rest during the day. One treatment provides up to 30 days of protection and kills ticks at all life stages including nymphs (the hardest to see and most dangerous for Lyme transmission). We serve 19 cities across the GTA including Mississauga, Toronto, Brampton, Vaughan, Richmond Hill, Markham, Oakville, Burlington, and Hamilton.",
+    answer: "Professional barrier spray is the most effective yard-level protection available for GTA homeowners. BuzzSkito applies products with a Canadian PCP registration number, according to label directions, to the vegetation, shrubs, lawn edges, and fence lines of your property — the micro-habitats where ticks wait for passing hosts and where mosquitoes rest during the day. Treatments are renewed on a schedule through the season, and the tick program (5 sprays a season) targets the leaf litter and lawn edges where nymphs — the hardest to see and the most dangerous for Lyme transmission — wait for a host. We serve 19 cities across the GTA including Mississauga, Toronto, Brampton, Vaughan, Richmond Hill, Markham, Oakville, Burlington, and Hamilton.",
   },
 ]
 
@@ -87,6 +95,10 @@ export default function TickBiteVsMosquitoBitePage() {
         </div>
       </section>
 
+      <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
+        <BlogPostCTA />
+      </div>
+
       <article className="max-w-3xl mx-auto px-4 py-14 prose-brand">
 
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
@@ -98,7 +110,7 @@ export default function TickBiteVsMosquitoBitePage() {
             <li>The Lyme bull&apos;s-eye rash (erythema migrans) develops 3&ndash;30 days after a bite in about 70&ndash;80% of cases.</li>
             <li>Removing a blacklegged tick within 24 hours of attachment significantly lowers Lyme risk.</li>
             <li>In Ontario, mosquitoes carry a small West Nile risk and blacklegged ticks carry Lyme disease.</li>
-            <li>Professional barrier spray treats resting vegetation and kills ticks at all life stages for up to 30 days.</li>
+            <li>Professional barrier spray treats the vegetation where mosquitoes rest and the lawn edges where ticks wait, re-applied on a schedule.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
         </div>
@@ -106,6 +118,31 @@ export default function TickBiteVsMosquitoBitePage() {
         <AffiliateDisclosure />
 
         <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+
+        {/* "What to do right now" — aftercare module. Sits BELOW the BlogPostCTA quote
+            bar and below <AffiliateDisclosure />, per the service-arm rule: the lead CTA
+            and the disclosure both outrank the first affiliate link. Step 1 is free and
+            needs no product; steps 2 and 3 name the tool for an action the answer above
+            already required. No efficacy, registration, or protection-duration claims. */}
+        <div className="not-prose my-8 rounded-xl border border-amber-200 bg-amber-50 p-5">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700 mb-3">What to do right now</p>
+          <ol className="space-y-3 text-[15px] text-gray-800 leading-relaxed list-decimal pl-5 marker:font-bold marker:text-amber-700">
+            <li>
+              <strong>If something is still attached, take it off now &mdash; this step costs nothing.</strong> Grasp it with fine-tipped tweezers as close to the skin as you can and pull straight up with steady, even pressure. Do not twist, squeeze the body, burn it, or smother it in petroleum jelly. Then wash the area, and note today&apos;s date &mdash; the rash window you are watching for runs 3 to 30 days.
+            </li>
+            <li>
+              <strong>Keep a fine-tip tick tool where you will actually find it.</strong> Household tweezers have a blunt, wide tip that tends to grip the body rather than the mouthparts, which is the hard part on a nymph the size of a poppy seed. A dedicated tool lives in the first-aid kit for the night you need it at 11pm.
+              <span className="mt-2 block"><BuyLink tag={AMZ_TAG} search="tick removal tool fine tip tweezers">Check price on Amazon.ca &rarr;</BuyLink></span>
+            </li>
+            <li>
+              <strong>Keep the tick, dated.</strong> Drop it into a small screw-top vial or zip bag and write the date and the body location on it in permanent marker. If a rash or fever turns up in the next few weeks, the specimen and the date are the two things your doctor will ask about, and neither can be reconstructed later.
+              <span className="mt-2 block"><BuyLink tag={AMZ_TAG} search="small screw top specimen vials permanent marker">Check price on Amazon.ca &rarr;</BuyLink></span>
+            </li>
+          </ol>
+          <p className="mt-4 text-sm text-gray-600 leading-relaxed">
+            If you cannot get it out, or the mouthparts stay behind, go to a walk-in clinic &mdash; GTA clinics do this routinely. This page is general information, not medical advice.
+          </p>
+        </div>
 
         <p>The difference between a tick bite and a mosquito bite comes down to one check you can make immediately: a mosquito is long gone by the time you notice the itchy welt, while a tick is still attached and feeding. Ontario homeowners who spend time outdoors — especially near conservation areas, ravines, or the Oak Ridges Moraine — need that distinction, because while both can cause a red, irritated mark on the skin, the implications are very different. Mosquito bites are usually just itchy nuisances. Tick bites carry a small but real risk of Lyme disease, which is now established throughout the Greater Toronto Area and York Region.</p>
 
@@ -119,6 +156,7 @@ export default function TickBiteVsMosquitoBitePage() {
           priority
         />
         <p>The single most reliable way to distinguish a tick bite from a mosquito bite is whether the insect is still attached. <strong>Mosquitoes bite and immediately fly away.</strong> You may notice the bite minutes later as an itchy welt, but the mosquito is gone. <strong>Ticks attach and feed for hours or days.</strong> If you find an insect embedded in your skin, it is a tick — not a mosquito. This distinction matters because the sooner you remove a tick, the lower the risk of Lyme disease transmission. Removing a tick within 24 hours of attachment significantly reduces infection risk. The other comparison people arrive at in the middle of the night is <Link href="/blog/bed-bug-bites-vs-mosquito-bites" className="text-brand-700 underline">bed bug bites versus mosquito bites</Link>, which turns on pattern, timing and season rather than on whether anything is still attached.</p>
+        <p>The reason the two behave so differently is that only one of them can travel to you. A mosquito flies in, feeds for seconds and leaves; a tick has no wings at all and has to be collected by something brushing past its perch. If you have heard that they drop from trees or leap onto passers-by, <Link href="/blog/can-ticks-fly-jump-swim" className="text-brand-700 underline">can ticks fly, jump, or swim?</Link> works through each of those claims.</p>
 
         <h2>Side-by-Side Symptom Comparison</h2>
         <p>This table compares the two bites symptom by symptom, from the moment of the bite through the following month. Use it to decide whether you&apos;re looking at a harmless mosquito welt or a tick bite that needs watching.</p>
@@ -254,13 +292,16 @@ export default function TickBiteVsMosquitoBitePage() {
           <li><strong>Don River valley</strong> (Toronto, Richmond Hill, Markham)</li>
         </ul>
         <p>York Region Public Health and Toronto Public Health both issue annual tick risk advisories for these areas. BuzzSkito serves all 19 GTA cities where tick and mosquito risk is meaningful. Along the ravine systems listed above, that means <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">Toronto tick spray</Link> for Don and Humber valley properties and <Link href="/etobicoke-tick-spray" className="text-brand-700 hover:underline">Etobicoke tick control</Link> where the lower Humber cuts through the neighbourhood. On the west side, <Link href="/mississauga-tick-spray" className="text-brand-700 hover:underline">tick spray in Mississauga</Link> covers the yards backing onto the Credit River corridor.</p>
+        <p>Toronto in particular is not a low-risk exception to the countryside &mdash; its ravine system runs unbroken wooded habitat through dense residential blocks, and the deer and mice that maintain the tick cycle travel it. <Link href="/blog/toronto-tick-hot-spot-2026" className="text-brand-700 underline">Why Toronto is a tick hot spot in 2026</Link> goes through the corridors and what a ravine-backing yard should plan for.</p>
 
         <h2>How to Protect Your Yard</h2>
         <p>For most GTA homeowners, the highest tick and mosquito exposure happens in their own backyard — not in the woods. Ticks wait on grass blades and vegetation at the edges of your lawn. Mosquitoes rest in shrubs and hedges during the day. Professional barrier spray targets these exact micro-habitats.</p>
-        <p>BuzzSkito applies Health Canada–approved formula to all the surfaces on your property where ticks and mosquitoes rest: lawn edges, under-leaf vegetation, garden beds, fence lines, and shrub borders. One treatment provides up to 30 days of protection and kills ticks at all life stages — including nymphs, which are the size of a poppy seed and responsible for most Lyme disease transmission.</p>
+        <p>BuzzSkito applies products with a Canadian PCP registration number, according to label directions, to the surfaces on your property where ticks and mosquitoes rest: lawn edges, under-leaf vegetation, garden beds, fence lines, and shrub borders. Treatments are renewed on a schedule, and the tick program targets the leaf litter and lawn edges where nymphs &mdash; the size of a poppy seed and responsible for most Lyme disease transmission &mdash; wait for a host.</p>
         <p>If you would rather run that perimeter yourself, the limiting factor is delivery rather than product. Barrier work means wetting the underside of leaves and the full run of a fence line at a steady fine cone, and a one-litre trigger bottle loses pressure and runs dry before you finish one side of an average lot — which is why the do-it-yourself version of this job is done with a <Link href="/blog/backpack-sprayer-canada" className="text-brand-700 hover:underline">backpack sprayer</Link>.</p>
-        <p>The mosquito half of the problem can also be attacked from the opposite direction. Barrier spray treats the shrubs and hedges where mosquitoes rest during the day; a CO&#8322; trap instead puts out carbon dioxide and heat to intercept host-seeking females on their way to you, which is a genuinely different mechanism rather than a second version of the same one — our <Link href="/blog/best-mosquito-trap" className="text-brand-700 hover:underline">comparison of mosquito traps in Canada</Link> covers which designs actually reduce numbers in a suburban yard.</p>
-        <p>On your own skin, a repellent with <strong>DEET</strong>, <strong>picaridin (icaridin)</strong>, or <strong>oil of lemon eucalyptus</strong> deters both mosquitoes (Aedes and Culex) and ticks; clothing can also be treated with <strong>permethrin</strong>. Not sure which active to choose? See our comparison: <Link href="/blog/picaridin-vs-deet" className="text-brand-700 hover:underline">picaridin vs DEET in Canada</Link>. All are registered through <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="text-brand-700 hover:underline">Health Canada&apos;s Pest Management Regulatory Agency</a>.</p>
+        <p>The mosquito half of the problem can also be attacked from the opposite direction. Barrier spray treats the shrubs and hedges where mosquitoes rest during the day; a CO&#8322; trap instead puts out carbon dioxide and heat to intercept host-seeking females on their way to you, which is a genuinely different mechanism rather than a second version of the same one — our <Link href="/blog/best-mosquito-trap" className="text-brand-700 hover:underline">comparison of mosquito traps in Canada</Link> covers which designs actually reduce numbers in a suburban yard. <BuyLink tag={AMZ_TAG} search="outdoor mosquito trap">Check outdoor mosquito traps on Amazon.ca &rarr;</BuyLink></p>
+        <p>On your own skin, a repellent with <strong>DEET</strong>, <strong>picaridin (icaridin)</strong>, or <strong>oil of lemon eucalyptus</strong> deters both mosquitoes (Aedes and Culex) and ticks; factory <strong>permethrin</strong>-treated clothing adds another layer. Not sure which active to choose? See our comparison: <Link href="/blog/picaridin-vs-deet" className="text-brand-700 hover:underline">picaridin vs DEET in Canada</Link>. Look for a Canadian PCP registration number on the label (see <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="text-brand-700 hover:underline">Health Canada&apos;s Pest Management Regulatory Agency</a>).</p>
+        <p>That registration number is the thing to check before you buy, because online marketplaces carry plenty of imported repellents that were never registered here. Once you have it, the choice between the two actives is mostly about what you are wearing and who is wearing it &mdash; follow the label directions, which differ for young children. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check icaridin and DEET repellents on Amazon.ca &rarr;</BuyLink></p>
+        <p>Clothing is the separate layer, and it is worth treating as separate. Repellent on skin does nothing for the trouser cuffs and socks a tick actually climbs first, which is where factory permethrin-treated garments come in: the treatment is bonded into the fabric at manufacture rather than sprayed on at home, so it is a garment purchase, not a pesticide application. In Canada the factory-treated garment is the permitted format, <strong>for ages 16 and over</strong> &mdash; our guide to <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">permethrin in Canada</Link> explains why the spray-on version is not, and <Link href="/blog/bug-protective-clothing-canada" className="text-brand-700 hover:underline">bug-protective clothing in Canada</Link> covers the untreated alternatives for younger children. <BuyLink tag={AMZ_TAG} search="permethrin treated clothing">Check permethrin-treated clothing on Amazon.ca &rarr;</BuyLink></p>
         <p>See our full guides for Ontario tick protection:</p>
         <ul>
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick control for GTA yards</Link></li>
@@ -295,7 +336,7 @@ export default function TickBiteVsMosquitoBitePage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick-Removal Tool Set" search="tick removal tool tweezers" asin="B075DKL3Z6" label="For tick removal" />
 
-      <CTASection heading="Protect Your Yard from Ticks and Mosquitoes" subtext="Professional barrier spray — kills ticks at all life stages. Up to 30 days per treatment." variant="dark" />
+      <CTASection heading="Protect Your Yard from Ticks and Mosquitoes" subtext="Professional barrier spray for the lawn edges where ticks wait and the shrubs where mosquitoes rest. From $99." variant="dark" />
     </>
   )
 }

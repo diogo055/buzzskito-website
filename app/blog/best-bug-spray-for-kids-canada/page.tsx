@@ -9,17 +9,18 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'best-bug-spray-for-kids-canada'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
-const TITLE = 'Best Bug Spray for Kids in Canada: Safe Picks by Age'
-const META_TITLE = 'Best Bug Spray for Kids in Canada: Safe by Age'
+const TITLE = 'Best Bug Spray for Kids in Canada: Picks by Age'
+const META_TITLE = 'Best Bug Spray for Kids in Canada: Picks by Age'
 
 const FAQS = [
   {
     question: 'What is the best bug spray for kids in Canada?',
-    answer: 'For most Canadian children aged 6 months and older, Health Canada\'s preferred choice is a 20% icaridin (picaridin) repellent — brands like Natrapel, PiActive, and Sawyer. Icaridin 20% protects against both mosquitoes and ticks for up to 7–12 hours, has almost no odour, is non-greasy, and won\'t damage plastics, clothing, or sunscreen the way DEET can. If you prefer DEET, choose a low-concentration product (10% or less) rated for children. For babies under 6 months, Health Canada advises using no chemical repellent at all — rely on mosquito netting over the stroller or playpen and lightweight long-sleeved clothing instead.',
+    answer: 'For most Canadian children aged 6 months and older, a strong choice is a 20% icaridin (picaridin) repellent, which Health Canada\'s age rules permit from 6 months — brands like Natrapel, PiActive, and Sawyer. Icaridin 20% protects against both mosquitoes and ticks for up to 7–12 hours, has almost no odour, is non-greasy, and won\'t damage plastics, clothing, or sunscreen the way DEET can. If you prefer DEET, choose a low-concentration product (10% or less) rated for children. For babies under 6 months, Health Canada advises using no chemical repellent at all — rely on mosquito netting over the stroller or playpen and lightweight long-sleeved clothing instead.',
   },
   {
     question: 'What DEET concentration is safe for kids in Canada?',
@@ -31,7 +32,7 @@ const FAQS = [
   },
   {
     question: 'Is picaridin (icaridin) safe for children?',
-    answer: 'Yes — icaridin (the Canadian spelling of picaridin) is widely regarded as the best-tolerated repellent for kids and is Health Canada\'s preferred recommendation for children over 6 months. A 20% icaridin formula works against mosquitoes and ticks, is nearly odourless, feels light on skin, and does not dissolve plastics or synthetic fabrics. Unlike DEET, Health Canada does not cap the number of daily applications for icaridin in children over 6 months, though you should always follow the specific product label. It is the repellent many Canadian paediatricians suggest first for family use.',
+    answer: 'Health Canada\'s repellent guidance allows icaridin (the Canadian spelling of picaridin) on children 6 months and older, and it is widely regarded as the best-tolerated repellent for kids. A 20% icaridin formula works against mosquitoes and ticks, is nearly odourless, feels light on skin, and does not dissolve plastics or synthetic fabrics. Unlike DEET, Health Canada does not cap the number of daily applications for icaridin in children over 6 months, though you should always follow the specific product label. It is the repellent many Canadian paediatricians suggest first for family use.',
   },
   {
     question: 'What are the best DEET-free bug sprays for kids?',
@@ -39,7 +40,7 @@ const FAQS = [
   },
   {
     question: 'How do I protect a baby under 6 months from mosquitoes without spray?',
-    answer: 'Physical barriers are the standard approach. Drape fine-mesh mosquito netting over the stroller, bassinet, playpen, or car seat — inexpensive, reusable, and completely non-toxic. Dress the baby in loose, light-coloured long sleeves and long pants (mosquitoes are drawn to dark colours and can bite through tight fabric). Avoid peak mosquito hours at dawn and dusk, remove standing water around your property so mosquitoes don\'t breed near the house, and keep window and door screens intact. A professionally treated yard removes the pressure at the source so there are far fewer mosquitoes to guard against in the first place.',
+    answer: 'Physical barriers are the standard approach. Drape fine-mesh mosquito netting over the stroller, bassinet, playpen, or car seat — inexpensive, reusable, and uses no repellent at all. Dress the baby in loose, light-coloured long sleeves and long pants (mosquitoes are drawn to dark colours and can bite through tight fabric). Avoid peak mosquito hours at dawn and dusk, remove standing water around your property so mosquitoes don\'t breed near the house, and keep window and door screens intact. A professionally treated yard reduces the number of mosquitoes around the house in the first place.',
   },
   {
     question: 'How do I apply bug spray on a child safely?',
@@ -49,7 +50,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Health Canada age rules for DEET and icaridin, kid-safe picks from 6 months up, DEET-free options, and how to protect a baby too young for any repellent.',
+  description: 'Health Canada age rules for DEET and icaridin, picks by age from 6 months up, DEET-free options, and how to protect a baby too young for any repellent.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -61,7 +62,7 @@ const AMZ_TAG = tagForSlug('best-bug-spray-for-kids-canada')
 export default function BestBugSprayForKidsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A Canadian parent\'s 2026 guide to choosing safe, effective bug spray for kids by age.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A Canadian parent\'s 2026 guide to choosing bug spray for kids by age.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Bug Spray for Kids', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -74,7 +75,7 @@ export default function BestBugSprayForKidsCanadaPage() {
             <span className="text-white">Best Bug Spray for Kids</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Health Canada age limits for DEET and icaridin, the best kid-safe picks, DEET-free options, and how to protect a baby too young for any repellent.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Health Canada age limits for DEET and icaridin, the best picks by age, DEET-free options, and how to protect a baby too young for any repellent.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -86,9 +87,9 @@ export default function BestBugSprayForKidsCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For children 6 months and older, Health Canada&rsquo;s preferred choice is a 20% icaridin (picaridin) repellent &mdash; brands like Natrapel, PiActive, or Sawyer &mdash; which protects against both mosquitoes and ticks for up to 7&ndash;12 hours. For babies under 6 months, use no chemical repellent at all; rely on mosquito netting and light long-sleeved clothing instead.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For children 6 months and older, a strong choice is a 20% icaridin (picaridin) repellent, which Health Canada&rsquo;s age rules permit from 6 months &mdash; brands like Natrapel, PiActive, or Sawyer &mdash; and which protects against both mosquitoes and ticks for up to 7&ndash;12 hours. For babies under 6 months, use no chemical repellent at all; rely on mosquito netting and light long-sleeved clothing instead.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Icaridin 20% protects against mosquitoes and ticks for up to 7&ndash;12 hours and is approved by Health Canada for children 6 months and older.</li>
+              <li>Icaridin 20% protects against mosquitoes and ticks for up to 7&ndash;12 hours and Health Canada&rsquo;s age rules permit it for children 6 months and older.</li>
               <li>Health Canada advises no chemical repellent at all for babies under 6 months.</li>
               <li>For ages 6 months to 2 years, DEET is limited to 10% or less, applied once per day.</li>
               <li>For ages 2 to 12, DEET at 10% or less may be applied up to 3 times per day.</li>
@@ -103,7 +104,7 @@ export default function BestBugSprayForKidsCanadaPage() {
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
           <AwardRow tag={AMZ_TAG}
-            heading="Our Picks — Best Kid-Safe Bug Sprays in Canada"
+            heading="Our Picks — Best Bug Sprays for Kids in Canada"
             awards={[
               {
                 badge: 'Best Overall',
@@ -154,7 +155,7 @@ export default function BestBugSprayForKidsCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>One bottle for the whole family?</strong> The <em>Best Overall</em> icaridin 20% spray is the easiest kid-safe choice for anyone 6 months and up. <strong>Prefer a lotion for younger kids?</strong> The <em>Best Long-Lasting Lotion</em> avoids aerosol overspray. <strong>Want a plant-based option?</strong> The <em>Best DEET-Free</em> PMD spray works for ages 3+. And to cut the bites at the source so you reach for spray far less, a whole-yard <Link href="/mosquito-control">professional barrier spray</Link> keeps mosquitoes and ticks off the property in the first place.
+                <strong>One bottle for the whole family?</strong> The <em>Best Overall</em> icaridin 20% spray is the easiest choice labelled for anyone 6 months and up. <strong>Prefer a lotion for younger kids?</strong> The <em>Best Long-Lasting Lotion</em> avoids aerosol overspray. <strong>Want a plant-based option?</strong> The <em>Best DEET-Free</em> PMD spray works for ages 3+. And to cut the bites at the source so you reach for spray far less, a whole-yard <Link href="/mosquito-control">professional barrier spray</Link> keeps mosquitoes and ticks off the property in the first place.
               </>
             }
           />
@@ -207,21 +208,21 @@ export default function BestBugSprayForKidsCanadaPage() {
 
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-xl font-extrabold text-brand-900 mb-4">Kid-Safe Repellents at a Glance</h2>
+          <h2 className="text-xl font-extrabold text-brand-900 mb-4">Kids&rsquo; Repellents at a Glance</h2>
           <div className="rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
                   ['Best overall for kids', 'Icaridin (picaridin) 20% — mosquitoes + ticks'],
-                  ['Preferred by Health Canada', 'Icaridin for children over 6 months'],
+                  ['Health Canada age rule', 'Icaridin 20% permitted from 6 months'],
                   ['Youngest age for repellent', '6 months (icaridin or ≤10% DEET)'],
                   ['Best DEET-free plant option', 'Oil of lemon eucalyptus (PMD) — 3 yr and up'],
-                  ['Gentlest for toddlers', 'Soybean-oil (Bite Blocker style) — shorter protection'],
+                  ['Soybean-oil option', 'Bite Blocker style — shorter protection'],
                   ['Max DEET for under-12s', '10% (up to 3× per day, ages 2–12)'],
                   ['Ticks covered?', 'Yes — by DEET and icaridin (not citronella)'],
                   ['Under 6 months', 'Netting + clothing only — no chemical repellent'],
                   ['Where to apply', 'Exposed skin only — never face or hands of young kids'],
-                  ['Safe-for-kids yard option', 'Professional barrier spray — kid/pet-safe once dry'],
+                  ['Yard option', 'Professional barrier spray — stay off treated areas until dry, as the label directs'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -237,14 +238,14 @@ export default function BestBugSprayForKidsCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the kid-safe repellents below:</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the kids&rsquo; repellents below:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="natrapel icaridin 20%">Icaridin 20% for kids on Amazon.ca →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="off familycare deet">Low-DEET FamilyCare →</BuyLink>
           </div>
 
-          <h2 id="picks">Best Bug Spray for Kids: Safe Picks Compared</h2>
-          <p>Every product below is registered with Health Canada and appropriate for children of the listed age. Where a plastic or fabric matters (car seats, sunglasses, rain jackets), remember that <strong>icaridin and DEET-free options don&rsquo;t damage synthetics</strong> — DEET does. Prices are 2026 Canadian ranges from Canadian Tire, Home Depot Canada, MEC, and Amazon.ca.</p>
+          <h2 id="picks">Best Bug Spray for Kids: Picks Compared</h2>
+          <p>Every product below carries a Canadian PCP registration number, and the Ages column follows each label&rsquo;s age directions. Where a plastic or fabric matters (car seats, sunglasses, rain jackets), remember that <strong>icaridin and DEET-free options don&rsquo;t damage synthetics</strong> — DEET does. Prices are 2026 Canadian ranges from Canadian Tire, Home Depot Canada, MEC, and Amazon.ca.</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
             <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
@@ -293,7 +294,7 @@ export default function BestBugSprayForKidsCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off botanicals repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-3 font-bold text-brand-800">Bite Blocker <span className="font-normal text-xs text-gray-500">(toddler-gentle)</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Bite Blocker <span className="font-normal text-xs text-gray-500">(plant-based)</span></td>
                   <td className="px-4 py-3 text-gray-700">Soybean oil 2%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+</td>
                   <td className="px-4 py-3 text-gray-700">~2 h</td>
@@ -305,17 +306,21 @@ export default function BestBugSprayForKidsCanadaPage() {
           <p className="not-prose text-xs text-gray-500 mb-6">* Under 2 years, DEET products should be applied no more than once per day. Protection times are approximate and drop with sweat, water, and heat. For ticks specifically, choose DEET or icaridin — the plant-based and soybean options are weaker against ticks.</p>
 
           <h3>Why icaridin 20% is the parent&rsquo;s pick</h3>
-          <p>If you only want to buy one bottle for the whole family, make it icaridin (picaridin) 20%. It matches DEET for mosquito and tick protection, it&rsquo;s the repellent Health Canada highlights for children over 6 months, and it fixes DEET&rsquo;s two everyday annoyances: the smell and the way DEET can cloud sunglasses, soften stroller plastics, and mark synthetic jackets. A 20% icaridin spray gives a child several hours of coverage from one application — enough for a soccer game, a hike, or an evening on the deck.</p>
+          <p>If you only want to buy one bottle for the whole family, make it icaridin (picaridin) 20%. It matches DEET for mosquito and tick protection, Health Canada&rsquo;s age rules permit it for children from 6 months, and it fixes DEET&rsquo;s two everyday annoyances: the smell and the way DEET can cloud sunglasses, soften stroller plastics, and mark synthetic jackets. A 20% icaridin spray gives a child several hours of coverage from one application — enough for a soccer game, a hike, or an evening on the deck.</p>
 
           <h3>When a low-DEET product still makes sense</h3>
-          <p>DEET is not the villain it&rsquo;s sometimes made out to be — it&rsquo;s the most-studied repellent in the world and is safe for kids over 6 months at 10% or less. If you already own a bottle of OFF! FamilyCare, it&rsquo;s perfectly reasonable for a 2-to-12-year-old at up to three light applications a day. Just keep the concentration low, keep it off their hands and face, and don&rsquo;t combine it with sunscreen in a single product.</p>
+          <p>DEET is not the villain it&rsquo;s sometimes made out to be — it&rsquo;s the most-studied repellent in the world, and Health Canada&rsquo;s age rules permit it for kids over 6 months at 10% or less. If you already own a bottle of OFF! FamilyCare, it&rsquo;s perfectly reasonable for a 2-to-12-year-old at up to three light applications a day. Just keep the concentration low, keep it off their hands and face, and don&rsquo;t combine it with sunscreen in a single product.</p>
 
           <h3>DEET-free and plant-based options</h3>
-          <p>Beyond icaridin, oil of lemon eucalyptus (PMD) is the strongest plant-derived choice, but note the Health Canada label: <strong>not for children under 3</strong>. Soybean-oil repellents (Bite Blocker style) are gentle enough for younger toddlers but wear off in about two hours, so you&rsquo;ll reapply often. Citronella products give the shortest, least reliable protection and aren&rsquo;t a good bet where ticks are a concern.</p>
+          <p>Beyond icaridin, oil of lemon eucalyptus (PMD) is the strongest plant-derived choice, but note the Health Canada label: <strong>not for children under 3</strong>. Soybean-oil repellents (Bite Blocker style) are an option for younger toddlers but wear off in about two hours, so you&rsquo;ll reapply often. Citronella products give the shortest, least reliable protection and aren&rsquo;t a good bet where ticks are a concern.</p>
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Protecting a baby under 6 months</p>
-            <p className="text-sm text-gray-800 leading-relaxed">No spray of any kind — DEET, icaridin, or plant-based. Use fine-mesh mosquito netting over the stroller, car seat, bassinet, or playpen; dress the baby in loose, light-coloured long sleeves and pants; and avoid dawn and dusk outings. The most effective step is removing the mosquitoes before they reach the yard — see <Link href="/mosquito-control">professional barrier spray</Link>, which is safe for kids and pets once it has dried.</p>
+            <p className="text-sm text-gray-800 leading-relaxed">No spray of any kind — DEET, icaridin, or plant-based. Use fine-mesh mosquito netting over the stroller, car seat, bassinet, or playpen; dress the baby in loose, light-coloured long sleeves and pants; and avoid dawn and dusk outings. Another step is reducing the mosquitoes in the yard itself — see <Link href="/mosquito-control">professional barrier spray</Link>; kids and pets stay off treated areas until the spray has dried, as the product label directs.</p>
+            <p className="mt-3 text-sm text-gray-800 leading-relaxed">The netting is the whole strategy for this age group, so it is worth buying one that fits your stroller and pram properly rather than a generic square of mesh that gaps at the corners.</p>
+            <div className="mt-3">
+              <BuyLink tag={AMZ_TAG} search="stroller mosquito net">Check stroller mosquito nets on Amazon.ca →</BuyLink>
+            </div>
           </div>
 
           <h2>How to Apply Bug Spray on Kids Safely</h2>
@@ -327,11 +332,15 @@ export default function BestBugSprayForKidsCanadaPage() {
             <li><strong>Wash it off indoors</strong> — soap and water when playtime ends, and wash treated clothing before it&rsquo;s worn again.</li>
             <li><strong>Do a tick check</strong> — after any time in tall grass or wooded areas, check kids (and pets) head to toe.</li>
           </ul>
+          <p className="not-prose text-sm text-gray-600 mb-2">That last bullet is the one that needs a tool rather than a technique. A fine-point tick remover or a tick hook gets a small nymph off a child cleanly; household tweezers usually do not, and a squeezed tick is the outcome you are trying to avoid.</p>
+          <div className="not-prose mb-6">
+            <BuyLink tag={AMZ_TAG} search="tick remover tool">Check tick removal tools on Amazon.ca →</BuyLink>
+          </div>
           <p>Parents usually want to know whether DEET itself is the problem or just the dose. It is the dose — Health Canada holds children aged 2 to 12 to a maximum of 10% while allowing adults up to 30%, and we explain where those age limits come from in <Link href="/blog/is-deet-safe">our plain-language look at DEET safety</Link>.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Fewer bites means less bug spray</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray knocks down mosquitoes and ticks across your whole yard from $99 — safe for kids and pets once dry, backed by 150+ five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats the mosquito zones across your whole yard from $99 (tick treatment is an add-on at $497/season with a mosquito plan), with products applied according to label directions, backed by 150+ five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -339,8 +348,12 @@ export default function BestBugSprayForKidsCanadaPage() {
           </aside>
 
           <h2>Repellent vs a Treated Yard: Use Both</h2>
-          <p>Bug spray protects the child; a treated yard protects the space. Repellent is essential for hikes, cottages, sports, and travel — but reapplying it on a wriggling toddler every couple of hours gets old fast. A whole-yard <Link href="/mosquito-control">barrier treatment</Link> cuts the number of mosquitoes and ticks near the house so your backyard needs far less spray in the first place. The two work together: treat the yard for everyday home use, and keep a bottle of icaridin 20% by the door for everywhere else.</p>
-          <p>Parents in the GTA regularly ask us whether yard treatment itself is safe around children and pets. The short answer is yes, once it has dried — we cover the details in our guide to <Link href="/blog/is-mosquito-spray-safe-kids-pets">whether mosquito spray is safe for kids and pets</Link>.</p>
+          <p>Bug spray protects the child; a treated yard protects the space. Repellent is essential for hikes, cottages, sports, and travel — but reapplying it on a wriggling toddler every couple of hours gets old fast. A whole-yard <Link href="/mosquito-control">barrier treatment</Link> cuts the number of mosquitoes and ticks near the house so your backyard needs less spray in the first place. The two work together: treat the yard for everyday home use, and keep a bottle of icaridin 20% by the door for everywhere else.</p>
+          <p>Parents in the GTA regularly ask us whether yard treatment itself is safe around children and pets. Our answer is to follow the product label: kids and pets stay off treated areas until the spray has dried — we cover the details in our guide to <Link href="/blog/is-mosquito-spray-safe-kids-pets">whether mosquito spray is safe for kids and pets</Link>.</p>
+          <p className="not-prose text-sm text-gray-600 mb-2">For everywhere else, the format matters as much as the active ingredient. Repellent wipes live in a diaper bag or a glovebox without leaking, and they let you do a face-adjacent application by hand with no aerosol anywhere near a child&rsquo;s eyes.</p>
+          <div className="not-prose mb-6">
+            <BuyLink tag={AMZ_TAG} search="insect repellent wipes">Check repellent wipes on Amazon.ca →</BuyLink>
+          </div>
 
           <h2>Related Reading</h2>
           <ul>
@@ -365,7 +378,7 @@ export default function BestBugSprayForKidsCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="A Kid-Safe Backyard Starts at the Source" subtext="Get a free quote for licensed barrier spray. From $99. Safe for kids and pets once dry. 30-day residual." variant="dark" />
+      <CTASection heading="A Backyard With Fewer Bites Starts at the Source" subtext={`Get a free quote for licensed barrier spray. From $99. ${PROMISES.labelLine}.`} variant="dark" />
     </>
   )
 }

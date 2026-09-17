@@ -34,7 +34,7 @@ const FAQS = [
   {
     question: 'When should I book my first mosquito treatment in Toronto?',
     answer:
-      'Book your first professional mosquito barrier spray for mid to late May — ideally the week that overnight lows first consistently exceed 10°C. This timing targets the first generation of adult mosquitoes before they lay eggs, which significantly reduces overall population pressure for the rest of the season. Waiting until mosquitoes are already bothering you (typically June or July) means you are playing catch-up against multiple established generations.',
+      'Book your first professional mosquito barrier spray for mid to late May — ideally the week that overnight lows first consistently exceed 10°C. This timing targets the first generation of adult mosquitoes before they lay eggs, getting ahead of the population build-up for the rest of the season. Waiting until mosquitoes are already bothering you (typically June or July) means you are playing catch-up against multiple established generations.',
   },
   {
     question: 'Does Lake Ontario affect mosquito season timing?',
@@ -79,7 +79,7 @@ export default function MosquitoSeasonToronto2026Page() {
             <li>Lake Ontario delays lakefront emergence by about a week in spring and extends the season by about a week into fall.</li>
             <li>July is Toronto&rsquo;s worst mosquito month; peak season runs late June through late August.</li>
             <li>The season lasts roughly 18&ndash;22 weeks and ends after the first hard frost (below 0&deg;C), typically late September to October.</li>
-            <li>A professional barrier spray lasts 21&ndash;30 days; a 5&ndash;6 treatment program (mid-May to early September) covers the full season.</li>
+            <li>A professional barrier spray&rsquo;s residual wears down within weeks; BuzzSkito season plans run from 5 monthly sprays (Basic) to 10 every two weeks (Standard) to 20+ weekly (Exclusive).</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
@@ -134,7 +134,7 @@ export default function MosquitoSeasonToronto2026Page() {
         <p>Populations ramp up rapidly as temperatures climb and spring rainfall fills breeding sites. All Toronto neighbourhoods see noticeable mosquito activity by mid-June. Evening outdoor activities start to be disrupted. Second treatment should be scheduled for mid to late June.</p>
 
         <h3>July</h3>
-        <p>Peak mosquito month. Multiple generations are active simultaneously, population density is at its annual maximum, and the combination of heat and periodic summer rainfall creates optimal breeding conditions. This is also peak West Nile Virus risk. Treatment intervals should be maintained every 21 days through the peak period.</p>
+        <p>Peak mosquito month. Multiple generations are active simultaneously, population density is at its annual maximum, and the combination of heat and periodic summer rainfall creates optimal breeding conditions. This is also peak West Nile Virus risk. Keep treatments on schedule through the peak period.</p>
 
         <h3>August</h3>
         <p>Mosquito populations remain high but typically decline slightly from July peak levels, especially if August is dry. Evening biting intensity remains strong. Continue regular treatment through August.</p>
@@ -152,7 +152,7 @@ export default function MosquitoSeasonToronto2026Page() {
           <li><strong>Inland properties (North York, Scarborough, Etobicoke):</strong> Third or fourth week of May</li>
           <li><strong>Lakefront properties (The Beaches, Mimico):</strong> Last week of May or first week of June</li>
         </ul>
-        <p>Treating during this window targets the first generation of adult mosquitoes before they lay eggs, which compounds into dramatically lower population pressure throughout the rest of the season. Waiting until July to start treatment means you are fighting multiple established generations rather than preventing them.</p>
+        <p>Treating during this window targets the first generation of adult mosquitoes before they lay eggs, which helps keep population pressure from compounding through the rest of the season. Waiting until July to start treatment means you are fighting multiple established generations rather than preventing them.</p>
         <p>See: <Link href="/blog/when-to-schedule-first-mosquito-treatment-ontario" className="text-brand-700 hover:underline">When to Schedule Your First Mosquito Treatment</Link></p>
 
         <h2>Toronto-Specific Mosquito Species</h2>
@@ -165,7 +165,7 @@ export default function MosquitoSeasonToronto2026Page() {
         </ul>
 
         <h2>How Professional Barrier Spray Works</h2>
-        <p><Link href="/mosquito-control" className="text-brand-700 hover:underline">Professional mosquito barrier spray</Link> is applied to all vegetation, fence lines, shaded areas, and perimeter zones where mosquitoes rest during the day. The Health Canada-approved formula kills mosquitoes on contact and provides residual protection for 21 to 30 days. A seasonal program of 5 to 6 treatments (mid-May through early September) covers the full Toronto mosquito season.</p>
+        <p><Link href="/mosquito-control" className="text-brand-700 hover:underline">Professional mosquito barrier spray</Link> is applied to all vegetation, fence lines, shaded areas, and perimeter zones where mosquitoes rest during the day. Products are applied according to label directions, act on mosquitoes on contact, and leave a temporary residual that wears down over the following weeks. Season plans run from mid-May into September &mdash; Basic is 5 monthly sprays ($549), Standard is 10 sprays every two weeks ($994), and Exclusive is 20+ weekly sprays ($2,049), plus HST.</p>
         <p>BuzzSkito provides mosquito control across all Toronto neighbourhoods. See: <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control services</Link> | <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Pricing</Link> | <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Get a free quote</Link></p>
 
         <h2>Frequently Asked Questions</h2>

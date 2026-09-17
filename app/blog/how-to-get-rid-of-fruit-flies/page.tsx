@@ -32,7 +32,7 @@ const FAQS = [
   },
   {
     question: 'What is the best fruit fly trap in Canada?',
-    answer: 'The TERRO T2502 Fruit Fly Trap is the best ready-made option sold in Canada: an apple-shaped catcher with a food-based liquid lure that draws adults in through angled entry holes they cannot navigate back out of. It is sold with a Canadian label, uses a non-insecticidal lure that is safe on a kitchen counter around food prep, and each trap lasts up to 45 days once opened. We compare it against DIY jars, sticky cards, and UV traps in our full best fruit fly trap in Canada guide.',
+    answer: 'The TERRO T2502 Fruit Fly Trap is the best ready-made option sold in Canada: an apple-shaped catcher with a food-based liquid lure that draws adults in through angled entry holes they cannot navigate back out of. It is sold with a Canadian label, uses a food-based, non-insecticidal lure rather than a pesticide, and each trap lasts up to 45 days once opened. We compare it against DIY jars, sticky cards, and UV traps in our full best fruit fly trap in Canada guide.',
   },
   {
     question: 'Does apple cider vinegar actually work for fruit flies?',
@@ -60,7 +60,7 @@ const FAQS = [
   },
   {
     question: 'Should I use a fogger or spray for fruit flies?',
-    answer: 'No. Total-release foggers and aerosol fly sprays kill the adults in the air at the moment of application, leave residue across your food-prep surfaces, and do nothing about the eggs and larvae in drains and produce — the population rebounds within days from the protected life stages. In Canada, any insecticide sold for indoor flying-insect use must carry a PMRA registration number on a Canadian label, and several US-market fogger and drain-insecticide products sold through cross-border sellers are not registered here. The lure trap plus sanitation approach is safer, legal, and more effective.',
+    answer: 'No. Total-release foggers and aerosol fly sprays kill the adults in the air at the moment of application, leave residue across your food-prep surfaces, and do nothing about the eggs and larvae in drains and produce — the population rebounds within days from the protected life stages. In Canada, any insecticide sold for indoor flying-insect use must carry a PMRA registration number on a Canadian label, and several US-market fogger and drain-insecticide products sold through cross-border sellers are not registered here. The lure trap plus sanitation approach puts no insecticide on your food-prep surfaces, raises no registration question, and works better.',
   },
   {
     question: 'How do I prevent fruit flies from coming back?',
@@ -131,7 +131,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
             search="terro fruit fly trap"
             cta="Check price on Amazon.ca"
             score={8.7}
-            pros={['Canadian-label product with a non-toxic, food-based lure', 'Up to 45 days per trap — covers the whole Aug–Oct spike', 'One-way entry design outperforms open vinegar jars', 'Safe around food prep, kids, and pets']}
+            pros={['Canadian-label product with a food-based, non-insecticidal lure', 'Up to 45 days per trap — covers the whole Aug–Oct spike', 'One-way entry design outperforms open vinegar jars', 'Sealed lure — no insecticide sprayed around food prep']}
             cons={['Catches adults only — does nothing for eggs and larvae at the source', 'Modest cost per season if you run several traps', 'Lure smell is noticeable at very close range']}
           />
         </div>
@@ -264,7 +264,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
           <p>With the source gone, the remaining adults are a dying population — but they can live another two weeks and will spend that time hunting for a new egg-laying site. Trapping shortens the tail dramatically.</p>
           <p>The best ready-made option in Canada is the <strong>TERRO T2502 Fruit Fly Trap</strong> — the little apple-shaped unit sold at most Canadian hardware stores and on Amazon.ca. You snip the tip off the lure bottle, pour it into the apple, and the food-based liquid draws adults in through angled entry holes they cannot navigate back out of. Three things make it the pick over the jar on your counter:</p>
           <ul>
-            <li><strong>It is a Canadian-label product with a non-insecticidal lure.</strong> The attractant is food-based, not a pesticide, so it sits legally and safely on a food-prep counter — no PMRA registration issues, no residue concerns, nothing for a curious toddler or cat to be harmed by.</li>
+            <li><strong>It is a Canadian-label product with a non-insecticidal lure.</strong> The attractant is food-based, not a pesticide, so it can sit legally on a kitchen counter — no PMRA registration issues and no insecticide residue. As with any trap, place it where a curious toddler or cat can&rsquo;t tip it over.</li>
             <li><strong>The one-way geometry out-catches an open jar.</strong> In an open vinegar jar, a meaningful share of flies drink and leave. The TERRO&rsquo;s entry cone design means flies that walk in almost never walk out, so catch accumulates instead of churning.</li>
             <li><strong>45 days per trap.</strong> One two-pack, opened in mid-August, covers the entire Canadian spike season. Place one by the fruit bowl and one by the sink or recycling.</li>
           </ul>
@@ -285,7 +285,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="green gobbler fruit fly goodbye drain gel">Check enzyme drain gel on Amazon.ca →</BuyLink>
           </div>
-          <p>Enzyme drain gels are cleaners, not insecticides, which is exactly why they are the right tool: nothing toxic sits in your sink, and there is no Canadian regulatory problem. That distinction matters because the US market is full of <strong>insecticide drain products and total-release foggers that are not PMRA-registered for sale in Canada</strong> — cross-border listings and grey-market sellers offer US-label foggers and drain treatments that legally cannot be sold here and that you should not use around food surfaces regardless. Health Canada&rsquo;s rule is simple: an insecticide sold in Canada must carry a PCP registration number on a Canadian label. For fruit flies you never need to go near that aisle anyway — sanitation, a lure trap, and an enzyme gel out-perform any spray because sprays only touch the adults flying at that moment.</p>
+          <p>Enzyme drain gels are cleaners, not insecticides, which is exactly why they are the right tool: no insecticide sits in your sink, and there is no Canadian regulatory problem. That distinction matters because the US market is full of <strong>insecticide drain products and total-release foggers that are not PMRA-registered for sale in Canada</strong> — cross-border listings and grey-market sellers offer US-label foggers and drain treatments that legally cannot be sold here and that you should not use around food surfaces regardless. Health Canada&rsquo;s rule is simple: an insecticide sold in Canada must carry a PCP registration number on a Canadian label. For fruit flies you never need to go near that aisle anyway — sanitation, a lure trap, and an enzyme gel out-perform any spray because sprays only touch the adults flying at that moment.</p>
           <p>One diagnostic caveat: fuzzy, moth-like flies resting on the bathroom wall are <strong>drain flies</strong>, not fruit flies. The drain-cleaning protocol above is the same, but fruit fly lure traps will not catch them — identification first, purchase second.</p>
 
           <h2>Not Fruit Flies? Fungus Gnats Get a Different Fix</h2>

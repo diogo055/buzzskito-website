@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
+import { usePathname } from 'next/navigation'
 import { BUSINESS } from '@/lib/constants'
 
 type NavChild = { label: string; href: string; divider?: boolean }
@@ -73,6 +74,8 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [openDropdown, setOpenDropdown] = useState<string | null>(null)
   const [scrolled, setScrolled] = useState(false)
+  // The referral strip is hidden on the quote form so nothing competes with the form fields.
+  const onQuoteForm = usePathname()?.replace(/\/$/, '') === '/free-yard-assessment'
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8)
@@ -94,12 +97,14 @@ export default function Header() {
       </a>
 
       {/* Promo bar — quiet ink strip, amber accent (less carnival, still seen) */}
-      <div className="bg-ink-900 border-b border-white/5 text-center text-xs py-1.5 px-4 font-medium text-brand-200">
-        <svg className="inline-block w-3.5 h-3.5 -mt-0.5 mr-1.5 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-          <path d="M12 2H2v10l9.3 9.3a2 2 0 0 0 2.8 0l7.2-7.2a2 2 0 0 0 0-2.8L12 2z" /><circle cx="7" cy="7" r="1.5" />
-        </svg>
-        Refer a friend — you both get <strong className="text-amber-400">20% off</strong> your first season!
-      </div>
+      {!onQuoteForm && (
+        <div className="bg-ink-900 border-b border-white/5 text-center text-xs py-1.5 px-4 font-medium text-brand-200">
+          <svg className="inline-block w-3.5 h-3.5 -mt-0.5 mr-1.5 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M12 2H2v10l9.3 9.3a2 2 0 0 0 2.8 0l7.2-7.2a2 2 0 0 0 0-2.8L12 2z" /><circle cx="7" cy="7" r="1.5" />
+          </svg>
+          Refer a friend — you both get <strong className="text-amber-400">20% off</strong> your first season!
+        </div>
+      )}
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
@@ -161,8 +166,8 @@ export default function Header() {
             )}
           </nav>
 
-          {/* Right: Phone + CTA + Mobile toggle */}
-          <div className="flex items-center gap-2">
+          {/* Right: Phone + CTA + Mobile toggle (taps counted by LeadClickTracker as "header") */}
+          <div className="flex items-center gap-2" data-lead-location="header">
             <a
               href={BUSINESS.phoneHref}
               className="hidden md:flex items-center gap-1.5 text-sm font-bold text-white"
@@ -239,7 +244,7 @@ export default function Header() {
                 )}
               </div>
             ))}
-            <div className="pt-2 border-t border-white/10">
+            <div className="pt-2 border-t border-white/10" data-lead-location="mobile_menu">
               <a href={BUSINESS.phoneHref} className="flex items-center gap-2 px-3 py-2 text-sm text-brand-300 font-semibold">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>

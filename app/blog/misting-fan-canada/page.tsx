@@ -9,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import AwardRow from '@/components/AwardRow'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'misting-fan-canada'
 const DATE = '2026-07-14'
@@ -27,7 +28,7 @@ const FAQS = [
   },
   {
     question: 'Are misting fans allowed under Health Canada / PMRA rules?',
-    answer: 'Yes. A misting fan that sprays plain water is not a pest control product, so it needs no registration from Health Canada or the PMRA (Pest Management Regulatory Agency). The important caveat: do NOT pour pesticide, essential-oil concentrate, or any repellent chemical into the water tank of a consumer misting fan. The moment you aerosolize a pest control product you are into regulated territory, and most consumer fans are not built (or legally intended) to disperse anything but water. If you want a chemical barrier, that is a job for a licensed applicator using a PMRA-registered product applied to vegetation — not something to improvise through a patio fan.',
+    answer: 'Yes. A misting fan that sprays plain water is not a pest control product, so it needs no registration from Health Canada or the PMRA (Pest Management Regulatory Agency). The important caveat: do NOT pour pesticide, essential-oil concentrate, or any repellent chemical into the water tank of a consumer misting fan. The moment you aerosolize a pest control product you are into regulated territory, and most consumer fans are not built (or legally intended) to disperse anything but water. If you want a chemical barrier, that is a job for a licensed applicator treating vegetation according to the product label directions — not something to improvise through a patio fan.',
   },
   {
     question: 'How much cooling does a misting fan actually give on a hot GTA day?',
@@ -55,7 +56,7 @@ const FAQS = [
   },
   {
     question: 'Misting fan vs bug zapper vs barrier spray — which should I get for my patio?',
-    answer: 'They solve different problems. A misting fan buys you immediate comfort — cooling plus a breeze that keeps mosquitoes off the exact spot where you are sitting — but it does nothing once you leave the airflow. A bug zapper attracts and electrocutes flying insects, but research repeatedly shows zappers kill mostly harmless moths and beetles while barely denting the biting female mosquitoes you care about, and the UV light can even draw more bugs toward your yard. A professional barrier spray treats the vegetation around your whole yard so any mosquito that lands is killed for weeks at a time, and it is the only one of the three that also knocks back ticks. The smart setup for most GTA backyards is a barrier treatment for whole-yard population control, plus a misting fan on the patio for on-demand cooling and close-range deterrence.',
+    answer: 'They solve different problems. A misting fan buys you immediate comfort — cooling plus a breeze that keeps mosquitoes off the exact spot where you are sitting — but it does nothing once you leave the airflow. A bug zapper attracts and electrocutes flying insects, but research repeatedly shows zappers kill mostly harmless moths and beetles while barely denting the biting female mosquitoes you care about, and the UV light can even draw more bugs toward your yard. A professional barrier spray treats the vegetation around your whole yard where mosquitoes rest, killing them on contact, with the residual renewed on your plan\'s schedule, and it is the only one of the three that can also target ticks where they wait. The smart setup for most GTA backyards is a barrier treatment for whole-yard population control, plus a misting fan on the patio for on-demand cooling and close-range deterrence.',
   },
 ]
 
@@ -212,7 +213,7 @@ export default function MistingFanCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Nearby tap and want maximum cooling with minimal fuss?</strong> The <em>Best Overall</em> complete portable fan earns the higher ticket. <strong>Large entertaining area?</strong> The <em>Best for Big Patios</em> commercial fan throws mist the furthest. <strong>Already own a solid pedestal fan?</strong> A <em>Best Budget Upgrade</em> brass-nozzle kit is a low-risk start &mdash; but a fan only deters mosquitoes where its breeze reaches, so for whole-yard control that also handles ticks, pair it with <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Nearby tap and want maximum cooling with minimal fuss?</strong> The <em>Best Overall</em> complete portable fan earns the higher ticket. <strong>Large entertaining area?</strong> The <em>Best for Big Patios</em> commercial fan throws mist the furthest. <strong>Already own a solid pedestal fan?</strong> A <em>Best Budget Upgrade</em> brass-nozzle kit is a low-risk start &mdash; but a fan only deters mosquitoes where its breeze reaches, so for whole-yard treatment that can also target ticks, pair it with <Link href="/mosquito-control">professional barrier spray</Link>.
               </>
             }
           />
@@ -289,17 +290,17 @@ export default function MistingFanCanadaPage() {
               </tr>
               <tr className="border-t border-navy-50">
                 <td className="px-3 py-2"><strong>Professional barrier spray</strong></td>
-                <td className="px-3 py-2">Kills mosquitoes that land on treated leaves for weeks</td>
+                <td className="px-3 py-2">Kills mosquitoes that land on treated leaves; residual renewed on your plan&rsquo;s schedule</td>
                 <td className="px-3 py-2">None</td>
                 <td className="px-3 py-2">Whole yard</td>
-                <td className="px-3 py-2">Yes &mdash; full coverage</td>
+                <td className="px-3 py-2">Yes &mdash; targets ticks where they wait</td>
               </tr>
             </tbody>
           </table>
-          <p>Read that table as a layering guide, not a bracket. The fan owns comfort and close-range deterrence at the table. Barrier spray owns whole-yard population control and is the only line here that also handles ticks. The zapper, frankly, is the one we would skip &mdash; and we explain why in our <Link href="/blog/ultimate-backyard-mosquito-control-guide">ultimate backyard mosquito control guide</Link>.</p>
+          <p>Read that table as a layering guide, not a bracket. The fan owns comfort and close-range deterrence at the table. Barrier spray owns whole-yard treatment and is the only line here that can also target ticks. The zapper, frankly, is the one we would skip &mdash; and we explain why in our <Link href="/blog/ultimate-backyard-mosquito-control-guide">ultimate backyard mosquito control guide</Link>.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">A fan cools the table. We clear the yard.</h3>
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">A fan cools the table. We treat the yard.</h3>
             <p className="text-sm text-gray-700 mb-4 leading-relaxed">A misting fan keeps mosquitoes off the spot where you are sitting. BuzzSkito&rsquo;s licensed barrier spray treats your whole property from $99 &mdash; and our tick program runs $597/season standalone or $497 bundled with any mosquito plan. Backed by 150 five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
@@ -365,7 +366,7 @@ export default function MistingFanCanadaPage() {
         </div>
       </section>
 
-      <CTASection heading="A Misting Fan Cools the Patio. We Clear the Whole Yard." subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection, 30-day residual, mosquitoes and ticks covered." variant="dark" />
+      <CTASection heading="A Misting Fan Cools the Patio. We Treat the Whole Yard." subtext={`Get a free quote for licensed barrier spray. From $99. ${PROMISES.rainBackShort}, with mosquito and tick plans available.`} variant="dark" />
     </>
   )
 }

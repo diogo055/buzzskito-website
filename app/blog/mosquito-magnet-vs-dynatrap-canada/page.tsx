@@ -38,7 +38,7 @@ const FAQS = [
   },
   {
     question: 'Is the Mosquito Magnet worth the higher price?',
-    answer: 'It depends entirely on your property and your goal. On a large rural lot, a cottage, or a home bordering a wetland — where mosquitoes breed nearby and you are committed to running the trap continuously all season — the Mosquito Magnet earns its premium by actually thinning the biting population. On a small suburban lot where neighbours’ yards keep re-seeding mosquitoes faster than any single trap can remove them, the premium is harder to justify, and a whole-yard barrier spray delivers faster, more complete results. Buy the Mosquito Magnet for space and commitment; skip it for a small, shared-boundary yard.',
+    answer: 'It depends entirely on your property and your goal. On a large rural lot, a cottage, or a home bordering a wetland — where mosquitoes breed nearby and you are committed to running the trap continuously all season — the Mosquito Magnet earns its premium by actually thinning the biting population. On a small suburban lot where neighbours’ yards keep re-seeding mosquitoes faster than any single trap can remove them, the premium is harder to justify, and a whole-yard barrier spray is worth pricing out too: instead of working from one spot over weeks, it is applied to the vegetation across the yard and renewed on a schedule. Buy the Mosquito Magnet for space and commitment; skip it for a small, shared-boundary yard.',
   },
   {
     question: 'Can I run both a Mosquito Magnet and a DynaTrap?',
@@ -50,11 +50,11 @@ const FAQS = [
   },
   {
     question: 'How long until either trap makes a difference?',
-    answer: 'Neither trap protects you tonight — that is the single most important expectation to set. Both work by reducing the population over time. A Mosquito Magnet typically needs 4–8 weeks of continuous running before the mosquito population noticeably drops, because you are interrupting a breeding cycle. A DynaTrap starts catching insects immediately but, because it removes fewer mosquitoes, the felt reduction in bites is gentler and slower. For same-day relief on a specific evening, a repellent zone or a professional barrier spray is the faster fix; the trap is a long-game tool.',
+    answer: 'Neither trap protects you tonight — that is the single most important expectation to set. Both work by reducing the population over time. A Mosquito Magnet typically needs 4–8 weeks of continuous running before the mosquito population noticeably drops, because you are interrupting a breeding cycle. A DynaTrap starts catching insects immediately but, because it removes fewer mosquitoes, the felt reduction in bites is gentler and slower. For relief on a specific evening, a personal repellent zone is the faster fix, and a professional barrier spray booked ahead of an event reduces the adult mosquitoes resting in your yard; the trap is a long-game tool.',
   },
   {
     question: 'Do either of these traps control ticks?',
-    answer: 'No. Ticks do not fly and are not drawn to CO₂ plumes or UV light the way mosquitoes and moths are, so neither the Mosquito Magnet nor the DynaTrap does anything for a tick problem. Ticks wait in tall grass and leaf litter and latch onto passing hosts. If ticks are part of your concern — and in much of Ontario they increasingly are — you need a ground-level treatment of the yard perimeter, tall grass, and shaded edges. A professional barrier spray covers both mosquitoes and ticks in one visit, which no trap can claim.',
+    answer: 'No. Ticks do not fly and are not drawn to CO₂ plumes or UV light the way mosquitoes and moths are, so neither the Mosquito Magnet nor the DynaTrap does anything for a tick problem. Ticks wait in tall grass and leaf litter and latch onto passing hosts. If ticks are part of your concern — and in much of Ontario they increasingly are — you need a ground-level treatment of the yard perimeter, tall grass, and shaded edges. A professional barrier spray can target ticks where they wait in the same visit as the mosquito treatment, which no trap can claim.',
   },
   {
     question: 'Which is quieter and lower-maintenance?',
@@ -62,7 +62,7 @@ const FAQS = [
   },
   {
     question: 'For a typical GTA backyard, which should I actually buy?',
-    answer: 'For a standard Mississauga, Brampton, or Oakville suburban lot, honestly neither trap is the most cost-effective first move. On a shared-boundary suburban property, your neighbours’ yards keep re-seeding mosquitoes faster than one trap can remove them, so a whole-yard barrier spray that treats every leaf surface for 21–30 days — and controls ticks at the same time — outperforms trapping for speed and completeness. Reserve the Mosquito Magnet for larger, more isolated properties. If you do want a trap on a suburban deck, the DynaTrap is the lower-cost, lower-hassle option, best treated as a supplement rather than the whole solution.',
+    answer: 'For a standard Mississauga, Brampton, or Oakville suburban lot, honestly neither trap is the most cost-effective first move. On a shared-boundary suburban property, your neighbours’ yards keep re-seeding mosquitoes faster than one trap can remove them, so it is worth comparing a whole-yard barrier spray: rather than working from one spot, it is applied to the leaves where mosquitoes rest across the yard, renewed on a schedule, and can target ticks where they wait at the same time. Reserve the Mosquito Magnet for larger, more isolated properties. If you do want a trap on a suburban deck, the DynaTrap is the lower-cost, lower-hassle option, best treated as a supplement rather than the whole solution.',
   },
 ]
 
@@ -112,7 +112,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
               <li>The DynaTrap DT2000XL is much cheaper and quieter to run &mdash; no propane, just a seasonal bulb.</li>
               <li>Neither trap protects you tonight; both reduce the population over weeks.</li>
               <li>Neither trap controls ticks &mdash; ticks do not fly to CO&#8322; or UV.</li>
-              <li>On a shared-boundary suburban lot, professional barrier spray beats either trap for speed and completeness.</li>
+              <li>On a shared-boundary suburban lot, also consider professional barrier spray: it is applied to the vegetation across the whole yard and renewed on a schedule, rather than working from one spot.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
           </div>
@@ -189,7 +189,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Neither trap protects you tonight.</strong> Both reduce populations over days and weeks. For same-day yard usability or a one-off event, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> works in hours and lasts 21&ndash;30 days &mdash; and it also controls ticks, which no trap does.
+              <strong className="text-amber-900">⚠️ Neither trap protects you tonight.</strong> Both reduce populations over days and weeks. For a one-off event or whole-yard coverage, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> reduces the adult mosquitoes resting in your yard &mdash; and it can target ticks where they wait, which no trap does.
             </p>
           </div>
         </div>
@@ -210,7 +210,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
                   ['Time to real results', '4–8 weeks for the Magnet; slower felt drop for DynaTrap'],
                   ['Tick effectiveness', 'Neither — ticks do not fly to any trap'],
                   ['Health Canada status', 'Both are devices — no PMRA pesticide registration'],
-                  ['Fastest same-day fix', 'Professional barrier spray or a Thermacell zone'],
+                  ['Fastest fix for an evening outside', 'A Thermacell zone, or a professional barrier spray booked ahead'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/2">{k}</td>
@@ -252,10 +252,14 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
           <p>Because it removes breeding females rather than random bystander insects, the population declines over weeks. Independent and CDC-referenced testing supports 70&ndash;90% mosquito population reduction within roughly a one-acre radius after 6&ndash;8 weeks of continuous operation. The Mosquito Magnet line spans several models &mdash; Patriot Plus, Independence, and the top-end Executive &mdash; that mostly differ in coverage, power source, and features. Our full <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada guide</Link> breaks down the models and where to buy them. The trade-off is cost and commitment: this is a premium machine that also demands propane tanks and attractant cartridges every season, and it only delivers if you actually run it around the clock.</p>
           <p><strong>Best for:</strong> cottages, acreage, and homes bordering wetlands or standing water, where mosquitoes breed nearby and you will commit to running the trap all season.</p>
 
+          <p>Budget for the consumables before you buy the machine rather than after. A Mosquito Magnet runs on propane <em>plus</em> an octenol or Lurex attractant cartridge that gets swapped through the season, and a Magnet run without its lure gives up part of the very thing you paid the premium for. <BuyLink tag={AMZ_TAG} search="mosquito magnet octenol attractant">Check Mosquito Magnet attractant refills on Amazon.ca &rarr;</BuyLink></p>
+
           <h2>How the DynaTrap DT2000XL Works</h2>
           <p>The DynaTrap DT2000XL is a UV + fan trap. It uses a warm-glowing ultraviolet fluorescent bulb and a titanium-dioxide-coated surface to attract flying insects, then a whisper-quiet fan pulls them down into a retaining basket where they dehydrate. It runs continuously, covers up to about an acre, and its big selling points are simplicity and silence: there is no propane, no combustion, and no tank to swap &mdash; just a bulb to change roughly once a season and a basket to empty.</p>
           <p>The honest limitation is what it catches. UV light is a powerful draw for phototactic insects &mdash; moths, midges, beetles, craneflies &mdash; but biting mosquitoes are not strongly attracted to light; they are attracted to the CO₂ and warmth of a host. University-based research on UV + fan traps has consistently found that the majority of the catch is non-biting insects, with mosquitoes a minority share. DynaTrap sells an optional lure that nudges the mosquito share upward, and it helps, but it never closes the gap with a real-CO₂ machine. Our standalone <Link href="/blog/dynatrap-canada-review">DynaTrap Canada review</Link> goes deeper on the model line and realistic expectations.</p>
           <p><strong>Best for:</strong> homeowners who want a quiet, cheap-to-run reducer of general flying-insect nuisance around a deck or pool, and who treat mosquito reduction as a bonus rather than the goal.</p>
+
+          <p>The one recurring job is the bulb. UV output fades long before the tube stops visibly glowing, so a DynaTrap that still looks like it is working can be pulling far less than it did in its first season. Most owners change the bulb once a year, at the start of the season, and keep the old one as a spare. <BuyLink tag={AMZ_TAG} search="dynatrap replacement uv bulb">Check DynaTrap replacement bulbs on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Head-to-Head: Effectiveness Against Actual Mosquitoes</h2>
           <p>This is the category that sells the Mosquito Magnet. Because it generates the same CO₂-plus-heat signature a human body does, it competes with <em>you</em> for the attention of host-seeking females and wins often enough to bend the population curve down over a season. The DynaTrap, by contrast, is doing something adjacent to mosquito control: it is removing a large volume of flying insects, some fraction of which are mosquitoes. Both statements can be true &mdash; the DynaTrap is a busy, effective insect catcher &mdash; while the Mosquito Magnet is still the better <em>mosquito</em> trap. If your yardstick is fewer bites specifically, weight the CO₂ machine heavily. If your yardstick is &ldquo;fewer bugs flying around the porch light,&rdquo; the DynaTrap holds its own for a fraction of the running cost.</p>
@@ -265,7 +269,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or skip the trap entirely</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 &mdash; same-day protection that lasts 21&ndash;30 days and controls ticks too. Backed by 150 five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats your whole yard from $99 &mdash; the residual sits on the leaves where mosquitoes rest and is renewed on your plan&rsquo;s schedule, and tick treatment is available too. Rain-back guarantee on every plan. Backed by 150 five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -283,12 +287,16 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
           </ul>
           <p>Read that as a spending map. The Mosquito Magnet is the correct high-ticket buy for a committed owner of a big, isolated property who wants real mosquito reduction. The DynaTrap is the correct buy for someone who wants a quiet, low-cost, low-maintenance flying-insect reducer and is honest with themselves that mosquitoes are only part of the catch. Buying the expensive machine for a small suburban lot &mdash; or buying the cheap one and expecting Magnet-grade mosquito results &mdash; are the two most common ways to be disappointed.</p>
 
+          <p>The tick line in that list is the one buyers skip, and it is where a trap-only plan leaves a hole. Ticks never fly, so nothing a trap emits &mdash; CO₂, UV, heat &mdash; can reach them. They wait at ground level in leaf litter and along the tall grass at a lawn&rsquo;s edge, which is where a ground-level treatment has to be directed instead. <BuyLink tag={AMZ_TAG} search="tick yard spray">Check tick yard treatments on Amazon.ca &rarr;</BuyLink></p>
+
           <h2>A Note on Grey-Market Models and Health Canada</h2>
           <p>Good news on the compliance front: both traps are <strong>devices, not pesticides</strong>, so neither requires PMRA/Health Canada pesticide registration to sell or own in Canada. That keeps them fully legal and frictionless to buy. The one thing worth watching is the consumables &mdash; some US-market octenol and lure cartridges are formulated or labelled for the US market and are not the version sold through Canadian retail. Buy the Canadian-market machine and Canadian-market attractants so your replacement cartridges actually fit and are the intended formulation, and favour listings that ship from within Canada. It is a small point, but it is where grey-market imports cause the most avoidable headaches.</p>
 
           <h2>Which Wins for a GTA Backyard?</h2>
-          <p>For a typical Mississauga, Brampton, or Oakville suburban lot (5,000&ndash;15,000 sq ft), the honest answer is that <em>neither</em> trap is the most cost-effective first move. On a shared-boundary property, your neighbours&rsquo; yards keep re-seeding mosquitoes faster than a single trap can remove them, which is exactly why a whole-yard <Link href="/mosquito-control">barrier spray</Link> &mdash; which coats every leaf surface with a residual that kills mosquitoes on contact for 21&ndash;30 days and controls ticks in the same visit &mdash; outperforms trapping for speed and completeness. Reserve the Mosquito Magnet for larger, more isolated properties where its CO₂ plume has room to work. If you simply want a trap humming on a suburban deck, the DynaTrap is the lower-cost, lower-hassle choice &mdash; just treat it as a supplement, not the whole plan.</p>
+          <p>For a typical Mississauga, Brampton, or Oakville suburban lot (5,000&ndash;15,000 sq ft), the honest answer is that <em>neither</em> trap is the most cost-effective first move. On a shared-boundary property, your neighbours&rsquo; yards keep re-seeding mosquitoes faster than a single trap can remove them, which is why a whole-yard <Link href="/mosquito-control">barrier spray</Link> is worth comparing &mdash; rather than working from one spot over weeks, it leaves a residual on the leaves where mosquitoes rest across the yard, is renewed on a schedule, and can target ticks in the same visit. Reserve the Mosquito Magnet for larger, more isolated properties where its CO₂ plume has room to work. If you simply want a trap humming on a suburban deck, the DynaTrap is the lower-cost, lower-hassle choice &mdash; just treat it as a supplement, not the whole plan.</p>
           <p>The strongest setup for most GTA homeowners is a stack: treat standing water with <Link href="/blog/mosquito-dunks-canada-guide">BTI dunks</Link>, get a <Link href="/free-yard-assessment">professional barrier spray</Link> for whole-yard, tick-inclusive coverage, and keep a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> on the deck for an instant personal repellent zone. Add a Mosquito Magnet on top only if you have the acreage and the commitment to make it pay.</p>
+
+          <p>The Thermacell is the one piece of that stack that does something about tonight rather than about the season, which is why it still belongs on the deck even when a trap is already humming away out in the yard. <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check Thermacell repellers on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
@@ -321,7 +329,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Trap Debate · Get Whole-Yard Coverage" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 30-day residual — and it kills ticks too." variant="dark" />
+      <CTASection heading="Skip the Trap Debate · Get Whole-Yard Coverage" subtext="Get a free quote for licensed barrier spray. From $99. Rain-back guarantee on every plan — and we target ticks too." variant="dark" />
     </>
   )
 }

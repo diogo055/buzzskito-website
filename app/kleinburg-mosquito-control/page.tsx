@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Kleinburg Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Kleinburg specialist mosquito and tick barrier spray for ravine-adjacent estate properties. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Kleinburg Village, Copperwood. Call (289) 216-5030.",
+    "Kleinburg specialist mosquito and tick barrier spray for ravine-adjacent estate properties. Licensed Ontario operator, from $99/treatment, no contracts, rain-back guarantee. Kleinburg Village, Copperwood. Call (289) 216-5030.",
   canonical: '/kleinburg-mosquito-control',
 })
 
@@ -58,6 +60,8 @@ export default function KleinburgMosquitoPage() {
       />
 
       
+      <TypicalPrices service="mosquito" city="Kleinburg" />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -66,8 +70,8 @@ export default function KleinburgMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies barrier spray, according to label directions, to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `${PROMISES.rainBack} Standard and Exclusive plans also carry the Bite-Free Guarantee between scheduled visits.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -84,7 +88,7 @@ export default function KleinburgMosquitoPage() {
           <h2>Why Kleinburg Has Extreme Mosquito Pressure</h2>
           <p>Kleinburg is one of the GTA&apos;s highest-risk locations for mosquitoes and ticks. The village is built directly on the Humber River, with the river&apos;s floodplain wrapping around the community on multiple sides. Unlike suburban GTA areas where conservation land is nearby but not immediately adjacent, Kleinburg properties are often separated from confirmed mosquito and tick habitat by no more than a property line or a fence.</p>
           <p>The Humber River through Kleinburg floods seasonally, creating standing water in the floodplain that persists for weeks after each rainfall — prime mosquito breeding habitat that generates adults continuously throughout the season. The mature deciduous forest canopy along the river valley stays cool and shaded all summer, giving adult mosquitoes the resting environment they need to survive between feeds. Properties along the Nashville Road corridor and Conservation Drive face the most direct annual exposure, but the Humber River&apos;s wildlife corridor means mosquitoes spread well into Kleinburg Village and all surrounding rural properties.</p>
-          <p>For Kleinburg homeowners — whether you have a property in the village, a larger rural estate on the Humber, or an acreage along one of the conservation corridors — professional barrier spray is the most effective way to reclaim your outdoor space. BuzzSkito&apos;s Health Canada–approved formula targets every surface where mosquitoes rest on your property, providing up to 30 days of continuous protection after each treatment.</p>
+          <p>For Kleinburg homeowners — whether you have a property in the village, a larger rural estate on the Humber, or an acreage along one of the conservation corridors — professional barrier spray is a practical way to reclaim your outdoor space. BuzzSkito&apos;s barrier spray, applied according to label directions by an Ontario-licensed operator, targets every surface where mosquitoes rest on your property, and treatments repeat on a set schedule through the season.</p>
 
           <h2>Areas We Serve in and Around Kleinburg</h2>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
@@ -95,9 +99,9 @@ export default function KleinburgMosquitoPage() {
           <h2>Mosquito Treatment Details for Kleinburg Properties</h2>
           <ul>
             <li><strong>Full-yard and perimeter spray</strong> — We treat all vegetation, shrubs, fence lines, garden beds, and natural lot edges where mosquitoes rest. For properties adjacent to the Humber River or conservation land, we pay particular attention to the property&apos;s natural edge where wildlife corridors meet your yard.</li>
-            <li><strong>Up to 30-day protection</strong> — One treatment provides up to 30 days of continuous protection. For most Kleinburg properties, five treatments from May through September delivers season-long coverage.</li>
-            <li><strong>Safe for children and pets</strong> — Health Canada–approved water-based formula. Kids and pets can return to treated areas 30 minutes after the spray dries.</li>
-            <li><strong>Rain-resistance guarantee</strong> — If significant rain falls within one hour of your treatment, we return and re-treat at no charge.</li>
+            <li><strong>Scheduled season-long visits</strong> — Plans run May through September: 5 sprays monthly (Basic), 10 sprays every 2 weeks (Standard) or 20+ weekly sprays (Exclusive). For most Kleinburg properties, a season plan delivers season-long coverage.</li>
+            <li><strong>Label-directed application</strong> — {PROMISES.labelLine}, by an operator holding {PROMISES.licence}. Keep children and pets off treated areas until the spray has dried, as the product label directs.</li>
+            <li><strong>Rain-back guarantee</strong> — If it rains within one hour of your treatment, we return and re-treat at no charge, on every plan. Standard and Exclusive plans also carry the Bite-Free Guarantee.</li>
           </ul>
 
           <h2>Tick Control in Kleinburg</h2>
@@ -106,6 +110,7 @@ export default function KleinburgMosquitoPage() {
           <h2>Serving Vaughan and York Region</h2>
           <p>Kleinburg is part of the City of Vaughan. For mosquito control across greater Vaughan — including Woodbridge, Maple, Concord, and Thornhill — see our <Link href="/vaughan-mosquito-control" className="text-brand-700 hover:underline">Vaughan mosquito control service</Link>.</p>
 
+          <CityPriceCard city="Kleinburg" service="mosquito" />
 
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
@@ -127,10 +132,10 @@ export default function KleinburgMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier on the leaves where mosquitoes rest, renewed on a set schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -174,6 +179,10 @@ export default function KleinburgMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Kleinburg" service="mosquito" location="price_card_faq" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

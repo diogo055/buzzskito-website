@@ -158,7 +158,7 @@ export default function FallYardCleanupLeafBlowerCanadaPage() {
               {
                 badge: 'Buy It With',
                 name: 'Spare High-Capacity Battery & Rapid Charger',
-                why: 'The single upgrade that changes how a cordless blower feels. One pack on the tool and one on a fast charger converts a stop-start afternoon into continuous work &mdash; and a high-capacity pack also runs the blower closer to its rated output for longer.',
+                why: 'The single upgrade that changes how a cordless blower feels. One pack on the tool and one on a fast charger converts a stop-start afternoon into continuous work — and a high-capacity pack also runs the blower closer to its rated output for longer.',
                 search: 'lithium battery and rapid charger for cordless blower',
                 score: 8.0,
                 pros: ['Turns a battery blower into an all-afternoon tool', 'Carries over to every other tool on the platform'],

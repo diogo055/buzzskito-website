@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { TICK_BLOGS } from '@/lib/constants'
+import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Milton Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Milton tick spray for Niagara Escarpment, Crawford Lake, and Halton Greenbelt properties. Health Canada-approved, from $99/treatment, BuzzSkito Bite-Free Guarantee. Old Milton, Beaty, Coates, Hawthorne Village, Scott. Call (289) 216-5030.",
+    "Milton tick spray for Niagara Escarpment, Crawford Lake, and Halton Greenbelt properties. Licensed Ontario operator, from $99/treatment, rain-back guarantee. Old Milton, Beaty, Coates, Hawthorne Village, Scott. Call (289) 216-5030.",
   canonical: '/milton-tick-spray',
 })
 
@@ -17,7 +19,7 @@ const NEIGHBOURHOODS = ['Bronte Meadows','Clarke','Coates','Dempsey','Dorset Par
 const FAQS = [
   {
     question: 'How much does tick spray cost in Milton?',
-    answer: 'Tick spray in Milton starts from $99 for a single application. Properties near Kelso Conservation Area, Rattlesnake Point, or Bronte Creek benefit most from the full season programme: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. Each application leaves up to 30 days of residual, so the monthly cadence closes the multi-month hole a two-visit schedule would leave open across peak nymph season. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Milton starts from $99 for a single application. Properties near Kelso Conservation Area, Rattlesnake Point, or Bronte Creek benefit most from the full season programme: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. The monthly cadence avoids the multi-month gap a two-visit schedule would leave open across peak nymph season. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Are the Niagara Escarpment parks near Milton real tick risks?',
@@ -29,7 +31,7 @@ const FAQS = [
   },
   {
     question: 'When is tick season in Milton?',
-    answer: 'Ticks in Milton are active from early April through November — they do not go dormant in mild fall and spring weather. The peak danger window for nymph ticks (the stage most responsible for Lyme disease transmission) is May through July. Adult ticks are most active in the fall. Halton Region Public Health recommends professional tick control as part of a comprehensive approach to protecting families near the Escarpment corridor.',
+    answer: 'Ticks in Milton are active from early April through November — they do not go dormant in mild fall and spring weather. The peak danger window for nymph ticks (the stage most responsible for Lyme disease transmission) is May through July. Adult ticks are most active in the fall. Halton Region Public Health advises tick checks and other personal precautions for anyone spending time near the Escarpment corridor.',
   },
 ]
 
@@ -37,7 +39,7 @@ export default function MiltonTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: '/milton-tick-spray', city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Applied according to label directions.`, slug: '/milton-tick-spray', city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/milton-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'Milton' })) }} />
@@ -47,7 +49,8 @@ export default function MiltonTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Milton's Niagara Escarpment trail system — Rattlesnake Point, Crawford Lake, and Mount Nemo — is well-documented blacklegged tick habitat. Halton Region recommends tick prevention for adjacent properties. BuzzSkito provides professional protection.</>}
+        subtitle={<>Licensed Ontario pesticide operator. Treatments applied according to label directions, for Milton properties near the Escarpment trail system at Rattlesnake Point, Crawford Lake, and Mount Nemo.</>}
+        service="tick"
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -56,10 +59,10 @@ export default function MiltonTickPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ 5 Tick Sprays per Season</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -76,6 +79,8 @@ export default function MiltonTickPage() {
       </section>
 
       
+      <TypicalPrices service="tick" city="Milton" />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -84,8 +89,8 @@ export default function MiltonTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — lawn-to-woods transitions, leaf litter, garden bed edges, and fence lines on your property.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies barrier spray, according to label directions, to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: 'Five Visits, Rain-Back Guarantee', desc: `We return roughly monthly for 5 tick sprays through the season. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -101,7 +106,7 @@ export default function MiltonTickPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Milton</h2>
           <p>Milton sits at the foot of the Niagara Escarpment, one of Ontario's most biodiverse UNESCO Biosphere Reserve landscapes — and one of its most documented blacklegged tick corridors. Rattlesnake Point Conservation Area, Crawford Lake Conservation Area, and Mount Nemo are all confirmed tick habitat. Halton Region Public Health recommends tick bite prevention for residents and visitors at all three sites. The forested escarpment face and its approach trails create a continuous zone of tick habitat that pushes toward Milton's residential communities.</p>
-          <p>Sixteen Mile Creek valley cuts through Milton and provides a natural wildlife corridor that carries ticks from the escarpment toward neighbourhood edges. Kelso Conservation Area also hosts documented tick activity in its wooded and meadow sections. As Milton has grown rapidly, new subdivisions have been established adjacent to these natural corridors, placing thousands of families in close proximity to tick habitat without necessarily knowing it. Professional barrier spray applied seasonally is the most reliable way to protect your household.</p>
+          <p>Sixteen Mile Creek valley cuts through Milton and provides a natural wildlife corridor that carries ticks from the escarpment toward neighbourhood edges. Kelso Conservation Area also hosts documented tick activity in its wooded and meadow sections. As Milton has grown rapidly, new subdivisions have been established adjacent to these natural corridors, placing thousands of families in close proximity to tick habitat without necessarily knowing it. Professional barrier spray applied through the season targets the yard edges where those ticks end up.</p>
 
           <h2>Tick Hotspots in Milton</h2>
           <ul>
@@ -120,10 +125,10 @@ export default function MiltonTickPage() {
           <h2>What Our Milton Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 30 days of tick protection per treatment</li>
-            <li>Kills adult ticks, nymphs, and larvae on contact</li>
-            <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
-            <li>Free reapplication guarantee if ticks return</li>
+            <li>5 tick sprays per season, roughly monthly from May through September ($597 on its own, or $497 added to any mosquito plan)</li>
+            <li>Applied to the zones where adult ticks, nymphs, and larvae wait for a host</li>
+            <li>{PROMISES.labelLine}; keep children and pets off treated areas until the spray has dried, as the product label directs</li>
+            <li>{PROMISES.rainBack}</li>
           </ul>
 
           <h2>Also Providing Mosquito Control in Milton</h2>
@@ -131,7 +136,7 @@ export default function MiltonTickPage() {
 
 
           <h2>Compare Milton Pest Control Options</h2>
-          <p>Milton has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-milton" className="text-brand-700 hover:underline font-semibold">Pest Control in Milton</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company.</p>
+          <p>Milton has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-milton" className="text-brand-700 hover:underline font-semibold">Pest Control in Milton</Link> for why a mosquito and tick specialist is a better fit for tick habitat than a general pest company.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
@@ -150,7 +155,7 @@ export default function MiltonTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'James K.', text: 'We had a tick problem near our garden border. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-              { author: 'Priya R.', text: 'The technician explained exactly what product they were using and why it\u2019s safe for our dog. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
+              { author: 'Priya R.', text: 'The technician explained exactly what product they were using. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
             ].map(({ author, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -169,6 +174,10 @@ export default function MiltonTickPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Milton" service="tick" location="price_card_faq" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -185,7 +194,7 @@ export default function MiltonTickPage() {
           </div>
         </div>
       </section>
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protect your family from Lyme disease. No contracts, guaranteed results." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="5 tick sprays per season, applied according to label directions. No contracts, rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

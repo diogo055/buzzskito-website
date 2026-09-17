@@ -16,7 +16,7 @@ const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Do Ultrasonic Pest Repellers Work? The Evidence Says No'
 // SERP title only (H1 + schema keep TITLE). Layout appends ' | BuzzSkito' (12 chars) — keep <= 48.
-const SEO_TITLE = 'Ultrasonic Pest Repellers: The Evidence Says No'
+const SEO_TITLE = 'Do Ultrasonic Pest Repellers Work? Canada 2026'
 
 const FAQS = [
   {

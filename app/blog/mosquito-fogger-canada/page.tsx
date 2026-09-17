@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'mosquito-fogger-canada'
 const DATE = '2026-07-12'
@@ -32,11 +33,11 @@ const FAQS = [
   },
   {
     question: 'How long does mosquito fogging last?',
-    answer: 'A single fogging typically keeps a yard noticeably clearer for the rest of that evening and often into the next morning — roughly 6 to 24 hours in practice, depending on wind, humidity, and how much reinvasion pressure your yard gets from surrounding properties. Foggers give strong immediate knockdown but very little residual, because the insecticide is dispersed as a short-lived airborne cloud rather than deposited as a lasting film on foliage. This is the fundamental difference from a professional barrier spray, which coats the underside of leaves and shady resting spots with a residual formula that keeps killing mosquitoes for 21–30 days per treatment. Plan to re-fog before each outdoor event.',
+    answer: 'A single fogging typically keeps a yard noticeably clearer for the rest of that evening and often into the next morning — roughly 6 to 24 hours in practice, depending on wind, humidity, and how much reinvasion pressure your yard gets from surrounding properties. Foggers give strong immediate knockdown but very little residual, because the insecticide is dispersed as a short-lived airborne cloud rather than deposited as a lasting film on foliage. This is the fundamental difference from a professional barrier spray, which coats the underside of leaves and shady resting spots with a residual formula, applied according to label directions and renewed on a schedule because it wears down with time and rain. Plan to re-fog before each outdoor event.',
   },
   {
     question: 'Are mosquito foggers safe for kids, pets, and pollinators?',
-    answer: 'Used correctly they are reasonably safe, but foggers are non-selective and demand respect. Keep children and pets indoors during fogging and until the fog has fully settled and dried — usually about 30 minutes. The bigger concern is pollinators: fog kills any insect it contacts, so never fog blooming flowers or vegetable gardens when bees are active, and fog at dusk or dawn when pollinators are least present. Do not fog on windy days (drift onto neighbours, ponds, or gardens), avoid fogging directly over water features with fish, and wear eye protection and a mask. Because the fog kills beneficial insects too, use it sparingly and targeted rather than blanketing the whole property on a schedule.',
+    answer: 'Foggers are non-selective and demand respect, so follow the product label exactly. Keep children and pets indoors during fogging and until the fog has fully settled and treated surfaces are dry, as the label directs. The bigger concern is pollinators: fog kills any insect it contacts, so never fog blooming flowers or vegetable gardens when bees are active, and fog at dusk or dawn when pollinators are least present. Do not fog on windy days (drift onto neighbours, ponds, or gardens), avoid fogging directly over water features with fish, and wear eye protection and a mask. Because the fog kills beneficial insects too, use it sparingly and targeted rather than blanketing the whole property on a schedule.',
   },
   {
     question: 'Where can I buy a mosquito fogger and fogging liquid in Canada?',
@@ -44,7 +45,7 @@ const FAQS = [
   },
   {
     question: 'Is fogging better than professional barrier spray for mosquitoes?',
-    answer: 'They solve different problems. A DIY fogger gives you fast, on-demand knockdown you control yourself — ideal for clearing the yard 30 minutes before guests arrive. A professional barrier spray gives you weeks of hands-off protection: a licensed technician coats mosquito resting surfaces with a residual product that keeps working for 21–30 days, covers the whole property evenly, and also targets ticks, which foggers barely touch. For a one-off event, a fogger is cheaper and faster. For a summer where you actually want to use your yard without thinking about it, professional barrier spray delivers far more mosquito-free hours per dollar and none of the repeated fogging labour. Many homeowners keep a fogger on hand for spot events and run a seasonal barrier program for baseline control.',
+    answer: 'They solve different problems. A DIY fogger gives you fast, on-demand knockdown you control yourself — ideal for clearing the yard 30 minutes before guests arrive. A professional barrier spray is the season-long approach: a licensed technician applies a residual product to mosquito resting surfaces according to label directions, renews it on a schedule because it wears down with time and rain, covers the whole property, and also targets ticks, which foggers barely touch. For a one-off event, a fogger is cheaper and faster. For a summer where you actually want to use your yard without thinking about it, professional barrier spray delivers far more usable hours per dollar and none of the repeated fogging labour. Many homeowners keep a fogger on hand for spot events and run a seasonal barrier program for baseline control.',
   },
 ]
 
@@ -87,15 +88,15 @@ export default function MosquitoFoggerCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito foggers work for fast, temporary knockdown but not lasting control &mdash; and of the machines sold to homeowners, a propane thermal unit like the <AmazonLink search="black flag propane fogger" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Black Flag</AmazonLink> is the most practical design: cordless, cheap, and it clears adult mosquitoes 20&ndash;30 minutes before guests arrive. The catch is the liquid, not the machine &mdash; Health Canada has cancelled homeowner handheld-fogger use of pyrethrin fogging insecticide, so read the regulatory note below before you buy anything. For weeks of hands-off protection, use a <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito foggers work for fast, temporary knockdown but not lasting control &mdash; and of the machines sold to homeowners, a propane thermal unit like the <AmazonLink search="black flag propane fogger" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Black Flag</AmazonLink> is the most practical design: cordless, cheap, and it clears adult mosquitoes 20&ndash;30 minutes before guests arrive. The catch is the liquid, not the machine &mdash; Health Canada has cancelled homeowner handheld-fogger use of pyrethrin fogging insecticide, so read the regulatory note below before you buy anything. For season-long, hands-off control, use a <Link href="/mosquito-control" className="text-emerald-700 underline">professional barrier spray</Link>.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A fogger disperses pyrethrin/pyrethroid insecticide that kills adult mosquitoes on contact; a yard is noticeably clearer 20&ndash;30 minutes after fogging.</li>
               <li>Fogging leaves almost no residual &mdash; knockdown lasts roughly 6 to 24 hours before mosquitoes drift back.</li>
               <li>Propane thermal foggers cost about $60&ndash;$110; electric ULV cold foggers run $80&ndash;$250.</li>
               <li>Thermal foggers use oil-based fogging insecticide; cold ULV foggers use a diluted water-based concentrate.</li>
               <li><strong>Health Canada&rsquo;s Re-evaluation Decision RVD2023-06 (Pyrethrins, 2 March 2023) cancelled &ldquo;domestic handler applications using handheld and stationary foggers&rdquo; and &ldquo;space spray uses on domestic-class liquid product labels&rdquo;.</strong> Outdoor mosquito fogging remains a commercial-class use with a capped rate.</li>
-              <li>Any pesticide used in Canada must be registered by Health Canada and carry a PCP number; the US fogging liquids do not, and Health Canada does not permit unregistered pesticides to be ordered online and shipped here.</li>
-              <li>Foggers barely touch ticks, which hide low in leaf litter; a barrier spray lasts 21&ndash;30 days and covers ticks.</li>
+              <li>Any pesticide used in Canada must be registered under the Pest Control Products Act and carry a PCP number; the US fogging liquids do not, and Health Canada does not permit unregistered pesticides to be ordered online and shipped here.</li>
+              <li>Foggers barely touch ticks, which hide low in leaf litter; a professional barrier spray leaves a residual that is renewed on a schedule and also treats for ticks.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
             <div className="mt-4">
@@ -168,7 +169,7 @@ export default function MosquitoFoggerCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Foggers give knockdown, not lasting control.</strong> The fog clears adult mosquitoes for an evening but leaves almost no residual, so mosquitoes fly back within a day or two. For weeks of hands-off protection that also handles ticks, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> coats resting surfaces with a 21–30 day residual. Many homeowners keep a fogger for one-off events and run a seasonal program for baseline control.
+              <strong className="text-amber-900">⚠️ Foggers give knockdown, not lasting control.</strong> The fog clears adult mosquitoes for an evening but leaves almost no residual, so mosquitoes fly back within a day or two. For season-long control that also handles ticks, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> puts a residual on resting surfaces and renews it on a schedule. Many homeowners keep a fogger for one-off events and run a seasonal program for baseline control.
             </p>
           </div>
         </div>
@@ -219,7 +220,7 @@ export default function MosquitoFoggerCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Hosting a backyard event?</strong> The <em>Best Overall</em> Black Flag clears the yard 20–30 minutes before guests arrive. <strong>Cottage or campsite?</strong> The <em>Best for Campsites</em> Repel runs anywhere on propane. <strong>Bigger lot?</strong> The <em>Best Large Tank</em> Burgess covers more per fill — but every fogger is knockdown only, so for weeks of hands-off protection that also handles ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Hosting a backyard event?</strong> The <em>Best Overall</em> Black Flag clears the yard 20–30 minutes before guests arrive. <strong>Cottage or campsite?</strong> The <em>Best for Campsites</em> Repel runs anywhere on propane. <strong>Bigger lot?</strong> The <em>Best Large Tank</em> Burgess covers more per fill — but every fogger is knockdown only, so for season-long control that also handles ticks, look at <Link href="/mosquito-control">professional barrier spray</Link>.
               </>
             }
           />
@@ -337,7 +338,7 @@ export default function MosquitoFoggerCanadaPage() {
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Do mosquito foggers actually work? The honest answer.</p>
-            <p className="text-sm text-gray-800 leading-relaxed">Yes &mdash; for <em>tonight</em>. Fog your yard 20&ndash;30 minutes before guests arrive and you will genuinely clear the adult mosquitoes flying at that moment. What foggers cannot do is <em>keep</em> your yard clear: the airborne cloud leaves almost no lasting residue, so the yard is reinfested within a day or two, and ticks &mdash; which stay low in leaf litter &mdash; are barely affected. For real, weeks-long relief, pair a fogger with <Link href="/mosquito-control">professional barrier spray</Link>, which coats resting surfaces with a 21&ndash;30 day residual and also handles ticks.</p>
+            <p className="text-sm text-gray-800 leading-relaxed">Yes &mdash; for <em>tonight</em>. Fog your yard 20&ndash;30 minutes before guests arrive and you will genuinely clear the adult mosquitoes flying at that moment. What foggers cannot do is <em>keep</em> your yard clear: the airborne cloud leaves almost no lasting residue, so the yard is reinfested within a day or two, and ticks &mdash; which stay low in leaf litter &mdash; are barely affected. For relief that lasts the season, pair a fogger with <Link href="/mosquito-control">professional barrier spray</Link>, which puts a residual on resting surfaces, renews it on a schedule, and also handles ticks.</p>
           </div>
 
           <h2 id="when-it-works">When a Fogger Is the Right Tool</h2>
@@ -359,7 +360,7 @@ export default function MosquitoFoggerCanadaPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 &mdash; backed by 150+ five-star reviews and serving 19 GTA cities. Weeks of residual protection, no fogging labour.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 &mdash; backed by 150+ five-star reviews and serving 19 GTA cities. A residual renewed on a schedule through the season, and no fogging labour.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -369,7 +370,7 @@ export default function MosquitoFoggerCanadaPage() {
           <h2 id="safety">Fogger Safety: Use It Sparingly and Smart</h2>
           <p>Because foggers disperse insecticide as a breathable cloud that kills any insect it touches, they demand more care than a targeted spray:</p>
           <ul>
-            <li><strong>Keep people and pets indoors</strong> during fogging and until the fog has fully settled and dried &mdash; usually about 30 minutes.</li>
+            <li><strong>Keep people and pets indoors</strong> during fogging and until the fog has fully settled and treated surfaces are dry, as the product label directs.</li>
             <li><strong>Never fog in wind</strong> &mdash; drift onto neighbouring yards, ponds with fish, and vegetable gardens is both unsafe and wasteful.</li>
             <li><strong>Protect pollinators</strong> &mdash; do not fog blooming flowers or gardens when bees are active; fog at dusk or dawn when pollinators are least present.</li>
             <li><strong>Wear eye protection and a mask</strong>, and keep the fog away from open water, food, and play areas.</li>
@@ -387,7 +388,7 @@ export default function MosquitoFoggerCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Propane fogger</strong></td><td className="px-3 py-2">$60–$110 + liquid</td><td className="px-3 py-2">Hours (per fogging)</td><td className="px-3 py-2">Very limited</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Electric ULV fogger</strong></td><td className="px-3 py-2">$80–$250 + concentrate</td><td className="px-3 py-2">Hours (per fogging)</td><td className="px-3 py-2">Very limited</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin clothing/gear</Link></td><td className="px-3 py-2">$15–$40</td><td className="px-3 py-2">Weeks on fabric</td><td className="px-3 py-2">Yes — on treated fabric</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$99/treatment · $549–$994/season</td><td className="px-3 py-2">21–30 days per treatment</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$99/treatment · $549–$994/season</td><td className="px-3 py-2">Residual renewed on a schedule (monthly to weekly)</td><td className="px-3 py-2">With tick add-on ($497/season)</td></tr>
             </tbody>
           </table>
 
@@ -427,7 +428,7 @@ export default function MosquitoFoggerCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Fog for Tonight · Protect for the Season" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 21–30 day residual." variant="dark" />
+      <CTASection heading="Fog for Tonight · Protect for the Season" subtext={`Get a free quote for licensed barrier spray. From $99 on a standard lot, season plans from $549. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

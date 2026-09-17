@@ -10,6 +10,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const POST = {
   title: 'Black Flies in the GTA 2026: Toronto, Mississauga, and the Cottage-Country Migration Pattern',
@@ -36,11 +37,11 @@ const FAQS = [
   },
   {
     question: 'Does mosquito spray kill black flies?',
-    answer: 'Professional barrier spray controls black flies on your property even though it cannot eliminate them entirely. The same pyrethroid residual that kills mosquitoes resting on vegetation also kills black flies that land on treated shrubs, fence lines, and the underside of leaves. Black flies do not breed in your yard — they emerge from rivers and streams kilometres away — but they rest in your yard between feeding bouts. A properly applied mid-May barrier spray dramatically reduces the lingering population in your treated zone. Over-the-counter sprays from Canadian Tire are not effective against black flies because they lack residual action — the active ingredient evaporates within hours.',
+    answer: 'Professional barrier spray controls black flies on your property even though it cannot eliminate them entirely. The same pyrethroid residual that kills mosquitoes resting on vegetation also kills black flies that land on treated shrubs, fence lines, and the underside of leaves. Black flies do not breed in your yard — they emerge from rivers and streams kilometres away — but they rest in your yard between feeding bouts. A properly applied mid-May barrier spray reduces the lingering population in your treated zone. Over-the-counter sprays from Canadian Tire are not effective against black flies because they lack residual action — the active ingredient evaporates within hours.',
   },
   {
     question: 'Can I keep black flies out of my yard?',
-    answer: 'You cannot keep them entirely out — black flies are strong fliers that travel 5–10 km from breeding streams in search of hosts — but you can dramatically reduce the population that lingers and bites. Combine professional barrier spray on shrubs, fence lines, and ornamental beds (kills landing flies on contact), Thermacells on patios during peak hours (creates a 4-metre repellent zone), elimination of dense rest cover at the property edge, and personal protection (DEET, picaridin, light-coloured clothing). Each layer covers a different part of the problem — the barrier spray treats the rest cover they use between feeding bouts, the Thermacell holds a repellent zone over the seating area, and the repellent protects you personally. None of it touches the breeding source, which is a river kilometres away, so black flies keep arriving during the emergence weeks and the treatment is repeated through that window.',
+    answer: 'You cannot keep them entirely out — black flies are strong fliers that travel 5–10 km from breeding streams in search of hosts — but you can reduce the population that lingers and bites. Combine professional barrier spray on shrubs, fence lines, and ornamental beds (kills landing flies on contact), Thermacells on patios during peak hours (creates a 4-metre repellent zone), elimination of dense rest cover at the property edge, and personal protection (DEET, picaridin, light-coloured clothing). Each layer covers a different part of the problem — the barrier spray treats the rest cover they use between feeding bouts, the Thermacell holds a repellent zone over the seating area, and the repellent protects you personally. None of it touches the breeding source, which is a river kilometres away, so black flies keep arriving during the emergence weeks and the treatment is repeated through that window.',
   },
   {
     question: 'Are black fly bites dangerous?',
@@ -158,14 +159,14 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
         <p>Black fly control is realistic but layered. No single intervention solves the problem; the combination is what works.</p>
 
         <h3>Professional barrier spray (mid-May timing)</h3>
-        <p>The most effective single intervention. A mid-May treatment lays down a 30-day residual on shrubs, fence lines, ornamental beds, and the underside of leaves — exactly the rest sites black flies use between feeding bouts. The flies that arrive in your yard land on treated surfaces, take a lethal dose, and the population pressure in your immediate yard environment collapses. This is the only yard-level treatment that has a measurable effect on black flies, which is why our <Link href="/mosquito-control" className="text-brand-700 underline">seasonal program</Link> bookings spike in early May from homeowners who learned this lesson the hard way last year.</p>
+        <p>The most effective single intervention. A mid-May treatment lays down a residual on shrubs, fence lines, ornamental beds, and the underside of leaves — exactly the rest sites black flies use between feeding bouts. The flies that arrive in your yard land on treated surfaces and contact that residual, which lowers the pressure in your immediate yard environment. This is the only yard-level treatment that has a measurable effect on black flies, which is why our <Link href="/mosquito-control" className="text-brand-700 underline">seasonal program</Link> bookings spike in early May from homeowners who learned this lesson the hard way last year.</p>
 
         <h3>Thermacell during peak hours</h3>
         <AffiliateDisclosure />
         <p>Thermacell units burn an allethrin pad and create a roughly 4-metre repellent cloud. They work on black flies and mosquitoes both. Run them on patios from 9:00 AM to 11:00 AM and from 4:00 PM to 7:00 PM during peak weeks. Effective. Not a substitute for barrier spray, but a useful supplement during outdoor entertaining. The rechargeable Thermacell E90 skips the butane cartridges entirely — a single charge covers a full evening on the patio. <BuyLink tag={AMZ_TAG} search="thermacell e90 rechargeable">Check the Thermacell E90 on Amazon.ca →</BuyLink></p>
 
         <h3>Personal protection</h3>
-        <p>Light-coloured clothing (beige, light grey, white). Long sleeves and pants during peak weeks. A hat with a brim — and a head net if you are gardening near the property edge or hiking the ravines. DEET (25-30% concentration) or picaridin (20%) on exposed skin; picaridin is odourless and won&rsquo;t damage gear the way DEET can. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Check picaridin repellents on Amazon.ca →</BuyLink> For hands-free coverage during the worst weeks, a bug jacket with a built-in mesh hood beats reapplying spray — see our <Link href="/blog/bug-protective-clothing-canada" className="text-brand-700 underline">guide to bug-protective clothing</Link>. <BuyLink tag={AMZ_TAG} search="coghlans bug jacket">Check bug jackets on Amazon.ca →</BuyLink> For longer outdoor sessions, permethrin-treated clothing — apply 0.5% permethrin spray once, lasts six weeks or six washes. This is the single most effective personal protection layer for ravine walkers and gardeners.</p>
+        <p>Light-coloured clothing (beige, light grey, white). Long sleeves and pants during peak weeks. A hat with a brim — and a head net if you are gardening near the property edge or hiking the ravines. DEET (25-30% concentration) or picaridin (20%) on exposed skin; picaridin is odourless and won&rsquo;t damage gear the way DEET can. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Check picaridin repellents on Amazon.ca →</BuyLink> For hands-free coverage during the worst weeks, a bug jacket with a built-in mesh hood beats reapplying spray — see our <Link href="/blog/bug-protective-clothing-canada" className="text-brand-700 underline">guide to bug-protective clothing</Link>. <BuyLink tag={AMZ_TAG} search="coghlans bug jacket">Check bug jackets on Amazon.ca →</BuyLink> For longer outdoor sessions, wear factory permethrin-treated clothing — permethrin sprays are not registered in Canada for consumers to treat their own clothing, so buy the garments already treated. This is the single most effective personal protection layer for ravine walkers and gardeners.</p>
 
         <TopPick tag={AMZ_TAG}
           label="Best Personal Protection"
@@ -195,7 +196,7 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
         <p>In most GTA years, black fly pressure crashes by the third week of June as stream water temperatures climb past the larval comfort zone. By Canada Day, the worst is over. Mosquitoes take over as the dominant biting insect through July and August — which is why our seasonal programs are designed to keep coverage active through the full transition. The <Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 underline">GTA mosquito season timeline</Link> covers what comes next.</p>
 
         <h2>The 2026 wrap</h2>
-        <p>This year is shaping up as a heavier-than-usual black fly season for the GTA, on the heels of a similarly elevated <Link href="/blog/lyme-disease-risk-areas-ontario-2026" className="text-brand-700 underline">tick season</Link>. The pattern of warm springs producing aggressive early-insect waves is becoming more reliable across southern Ontario. The properties getting protected in mid-May see the worst three weeks of black fly pressure compressed and contained. The properties that wait until July have missed the window entirely.</p>
+        <p>This year is shaping up as a heavier-than-usual black fly season for the GTA, on the heels of a similarly elevated <Link href="/blog/lyme-disease-risk-areas-ontario-2026" className="text-brand-700 underline">tick season</Link>. The pattern of warm springs producing aggressive early-insect waves is becoming more reliable across southern Ontario. The properties treated in mid-May have a residual in place before the worst three weeks of black fly pressure arrive. The properties that wait until July have missed the window entirely.</p>
         <p>If your address is in any of the high-pressure zones described above — Credit River corridor in Mississauga, Don Valley in Toronto, 16 Mile Creek in Oakville, RBG-adjacent in Burlington, escarpment foot in Hamilton, Heart Lake in Brampton, Humber corridor in Vaughan — book your first treatment now. The <Link href="/yard-risk-report" className="text-brand-700 underline">free yard risk report</Link> gives you an address-specific pressure score in under 90 seconds.</p>
 
         <h2>Related guides</h2>
@@ -228,7 +229,7 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Permethrin-treated clothing" search="insect shield permethrin treated clothing" label="Best personal protection" />
 
-      <CTASection heading="GTA black fly season is on now — get your yard protected" subtext="Free custom quote based on your address and lot. Sent within 24 hours. Same-week service across the GTA." />
+      <CTASection heading="GTA black fly season is on now — get your yard protected" subtext={`Free custom quote based on your address and lot. ${PROMISES.response} Same-week service across the GTA.`} />
     </>
   )
 }

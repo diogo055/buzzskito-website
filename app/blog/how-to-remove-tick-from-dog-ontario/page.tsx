@@ -9,6 +9,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'how-to-remove-tick-from-dog-ontario'
 const DATE = '2026-04-26'
@@ -133,6 +134,7 @@ export default function HowToRemoveTickFromDogPage() {
 
           <h2>What If the Head Stays Behind?</h2>
           <p>It happens. If a small black dot remains in the skin after you pull the tick body off, leave it alone. The skin will work it out on its own in a few days, like a splinter. Don&rsquo;t dig at it — that causes more inflammation and infection risk than the splinter itself. Watch for signs of infection (redness spreading, pus, heat) and call your vet if anything worsens after 48 hours.</p>
+          <p>For the longer version &mdash; what that fragment actually is, why it is no longer feeding, and the specific signs that turn it from a splinter into a vet call &mdash; see our guide to <Link href="/blog/tick-head-stuck-in-skin" className="text-brand-700 underline">a tick head stuck in the skin</Link>, which covers dogs alongside people.</p>
 
           <h2>When to Call Your Vet</h2>
           <p>Call your veterinarian if any of the following apply:</p>
@@ -145,6 +147,7 @@ export default function HowToRemoveTickFromDogPage() {
             <li>You&rsquo;re in an Ontario tick hotspot (Oak Ridges Moraine, Rouge Park, Bronte Creek, etc.) and want a Lyme test</li>
           </ul>
           <p>Many vets offer a 4DX SNAP test that screens for Lyme, ehrlichiosis, anaplasmosis, and heartworm in 8 minutes. If you&rsquo;re in an Ontario tick hotspot, this is a sensible annual test even without a known bite.</p>
+          <p>Knowing what to watch for over the following weeks matters as much as the removal itself. Our guide to <Link href="/blog/tick-bite-on-dog-symptoms" className="text-brand-700 underline">tick bite symptoms on dogs</Link> lays the timeline out day by day &mdash; the normal bump, the shifting-leg lameness that shows up much later, and which changes mean picking up the phone.</p>
 
           <h2>Where Ticks Hide on Dogs (Where to Check Every Walk)</h2>
           <p>Ticks prefer warm, hidden spots where the skin is thin and they won&rsquo;t be groomed off easily. After every walk in tall grass, woods, or anywhere off the paved path, check these zones:</p>
@@ -171,8 +174,8 @@ export default function HowToRemoveTickFromDogPage() {
             <li><strong>Remove leaf litter</strong> at lawn edges. This is where ticks overwinter.</li>
             <li><strong>Create a 3-foot wood chip or gravel barrier</strong> between your lawn and any wooded area or tall grass.</li>
             <li><strong>Trim shrubs</strong> and clear deer trails or brush piles.</li>
-            <li><strong>Use a vet-prescribed monthly tick preventative</strong> on your dog (oral or topical). Between doses, a dog-safe tick repellent adds a layer of protection before walks in tall grass — see our <Link href="/blog/tick-repellent-for-dogs-ontario">dog tick repellent guide for Ontario</Link>, or <BuyLink tag={AMZ_TAG} search="dog tick repellent">check price on Amazon.ca →</BuyLink></li>
-            <li><strong>Apply professional tick barrier spray</strong> to your yard. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets ticks where they actually live — leaf litter, lawn edges, fence lines — with a Health Canada-registered residual acaricide, repeated through the season. It lowers how often your dog runs into one at home; it does not replace a vet-prescribed preventative or daily tick checks.</li>
+            <li><strong>Use a vet-prescribed monthly tick preventative</strong> on your dog (oral or topical). Between doses, a tick repellent labelled for use on dogs adds a layer of protection before walks in tall grass — see our <Link href="/blog/tick-repellent-for-dogs-ontario">dog tick repellent guide for Ontario</Link>, or <BuyLink tag={AMZ_TAG} search="dog tick repellent">check price on Amazon.ca →</BuyLink></li>
+            <li><strong>Apply professional tick barrier spray</strong> to your yard. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets ticks where they actually live — leaf litter, lawn edges, fence lines — with a registered residual acaricide applied according to label directions, repeated through the season. It lowers how often your dog runs into one at home; it does not replace a vet-prescribed preventative or daily tick checks.</li>
           </ol>
 
           <h2>Related Guides</h2>
@@ -206,7 +209,7 @@ export default function HowToRemoveTickFromDogPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="Found a Tick? Stop Finding More." subtext="Get a free quote for tick barrier spray. 5 sprays per season. Free re-treatment if ticks return." variant="dark" />
+      <CTASection heading="Found a Tick? Treat the Yard Where Ticks Wait." subtext={`Get a free quote for tick barrier spray. 5 sprays per season. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

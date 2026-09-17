@@ -2,19 +2,19 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 const POST = {
   title: 'West Nile Virus Ontario 2026 — GTA Risk',
   slug: 'west-nile-virus-ontario-2026',
   date: '2026-04-14',
-  excerpt: 'Updated 2026 West Nile Virus risk assessment for Ontario homeowners. Transmission data, surveillance results, GTA-specific risk, and how professional mosquito control reduces your exposure.',
+  excerpt: 'Updated 2026 West Nile Virus risk assessment for Ontario homeowners. Transmission data, surveillance results, GTA-specific risk, and where professional mosquito control fits in.',
 }
 
 export const metadata: Metadata = buildMetadata({
   title: 'West Nile Virus Ontario 2026 | GTA Risk',
   description:
-    'West Nile Virus risk in Ontario for 2026. GTA surveillance data, transmission facts, symptoms, and professional mosquito control to protect your family.',
+    'West Nile Virus risk in Ontario for 2026. GTA surveillance data, transmission facts, symptoms, and where professional mosquito control fits in.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -39,7 +39,7 @@ const FAQS = [
   {
     question: 'Does professional mosquito spray protect against West Nile Virus?',
     answer:
-      'Professional barrier spray significantly reduces mosquito populations on your property, which directly reduces the number of potential WNV-carrying mosquitoes you encounter. While no method eliminates 100% of mosquitoes, reducing the biting mosquito density in your immediate environment meaningfully lowers the probability of a WNV-infected bite. Combined with standing water elimination and personal repellent use, professional treatment is the most effective residential mosquito control strategy.',
+      'No yard treatment can promise protection against West Nile Virus, and a barrier spray is not a medical or disease-prevention measure. What it does is treat the shaded vegetation where adult mosquitoes rest on your property and leave a temporary residual there, so mosquitoes landing on those surfaces contact a treated surface. No method removes every mosquito. Public health agencies advise removing standing water and using personal repellent from dusk to dawn; barrier spray works alongside those steps, not in place of them.',
   },
   {
     question: 'When is West Nile Virus season in Ontario?',
@@ -79,7 +79,7 @@ export default function WestNile2026Page() {
             <li>The primary vector is Culex pipiens; humans are dead-end hosts and WNV does not spread person to person.</li>
             <li>Symptoms, when they occur, appear 2 to 14 days after an infected bite; adults over 60 and immunocompromised people are highest risk.</li>
             <li>Culex mosquitoes can breed in as little as a tablespoon of stagnant water, so weekly standing-water removal matters.</li>
-            <li>A seasonal barrier-spray program of 5 to 6 treatments (May&ndash;September) reduces mosquito populations for 21 to 30 days each and covers the WNV window.</li>
+            <li>BuzzSkito season plans run May&ndash;September, from 5 monthly sprays (Basic) to 20+ weekly sprays (Exclusive), so treatments continue through the July&ndash;August WNV peak.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           <p className="mt-1.5 text-xs text-gray-500">Health information for general education, not medical advice. Consult a licensed healthcare provider for diagnosis or treatment.</p>
@@ -164,7 +164,7 @@ export default function WestNile2026Page() {
         <p>See: <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 hover:underline">Hidden Mosquito Breeding Spots in Your GTA Backyard</Link></p>
 
         <h3>Professional Mosquito Barrier Spray</h3>
-        <p><Link href="/mosquito-control" className="text-brand-700 hover:underline">Professional barrier spray</Link> applied to your property&apos;s vegetation, fence lines, and shaded resting areas significantly reduces mosquito populations for 21 to 30 days per application. A seasonal program of 5 to 6 treatments (May through September) maintains consistent protection through the entire WNV risk window.</p>
+        <p><Link href="/mosquito-control" className="text-brand-700 hover:underline">Professional barrier spray</Link> applied to your property&apos;s vegetation, fence lines, and shaded resting areas treats the places adult mosquitoes spend the day and leaves a temporary residual that wears down over the following weeks. Season plans run May through September &mdash; Basic is 5 monthly sprays ($549), Standard is 10 sprays every two weeks ($994), and Exclusive is 20+ weekly sprays ($2,049), plus HST &mdash; so treatments continue through the July&ndash;August WNV peak.</p>
 
         <h3>Personal Protection</h3>
         <ul>
@@ -174,9 +174,9 @@ export default function WestNile2026Page() {
           <li>Consider rescheduling outdoor activities from dusk to earlier in the afternoon during peak WNV season (July-August)</li>
         </ul>
 
-        <h2>Professional Mosquito Control and WNV Risk Reduction</h2>
-        <p>Professional barrier spray does not guarantee zero mosquito bites, but it substantially reduces the number of biting mosquitoes on your property. This directly reduces the probability of encountering a WNV-infected mosquito in your immediate environment — your yard, patio, and outdoor living space.</p>
-        <p>BuzzSkito uses Health Canada-approved formulas applied by licensed technicians. Treatment targets all mosquito resting sites — foliage, fence lines, shaded areas, and perimeter vegetation — creating a treated zone that kills mosquitoes on contact for up to 21 days. Combined with standing water elimination, this approach provides the most comprehensive residential mosquito protection available.</p>
+        <h2>Professional Mosquito Control and WNV Risk</h2>
+        <p>Professional barrier spray does not guarantee zero mosquito bites, and it is not a West Nile prevention measure on its own. It treats the places adult mosquitoes rest around your yard, patio, and outdoor living space, and it belongs alongside the standing-water and personal-protection steps above, not in place of them.</p>
+        <p>BuzzSkito treatments are applied under {PROMISES.licence}. {PROMISES.labelLine}. Treatment targets mosquito resting sites — foliage, fence lines, shaded areas, and perimeter vegetation — and is repeated through the season because the residual wears down. {PROMISES.rainBack}</p>
         <p>See: <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Mosquito control pricing</Link> | <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Get a free quote</Link></p>
 
         <h2>Frequently Asked Questions</h2>
@@ -203,7 +203,7 @@ export default function WestNile2026Page() {
         </ul>
       </article>
 
-      <CTASection heading="Reduce Your West Nile Virus Exposure This Season" subtext="Professional mosquito barrier spray significantly reduces mosquito populations on your property. Free quote for all GTA homeowners." variant="dark" />
+      <CTASection heading="Book Your Mosquito Control Season" subtext={`Mosquito barrier spray applied under ${PROMISES.licence}. Free quote for all GTA homeowners.`} variant="dark" />
     </>
   )
 }

@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Sandalwood | From $99',
   description:
-    'Professional mosquito control in Sandalwood, Brampton. Barrier spray near Claireville Conservation Area from $99. Safe for kids & pets. Call (289) 216-5030.',
+    'Professional mosquito control in Sandalwood, Brampton. Barrier spray near Claireville Conservation Area from $99. Ontario-licensed. Call (289) 216-5030.',
   canonical: '/sandalwood-mosquito-control',
 })
 
@@ -27,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'How many treatments does a Sandalwood property need?',
-    answer: "Sandalwood properties near the Claireville Conservation Area or the West Humber River typically benefit from 4-5 treatments spaced 21-28 days apart from May through September. The conservation area's permanent wetlands make Sandalwood one of the Brampton neighbourhoods where we most commonly recommend the full 5-treatment season program. Call (289) 216-5030 for a free assessment.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Sandalwood properties near the Claireville Conservation Area or the West Humber River typically benefit from Standard's two-week spacing. The conservation area's permanent wetlands make Sandalwood one of the Brampton neighbourhoods where we most commonly recommend the more frequent plans. Call (289) 216-5030 for a free assessment.",
   },
   {
     question: 'When does mosquito season start in Sandalwood?',
@@ -58,20 +60,22 @@ export default function SandalwoodMosquitoPage() {
           { label: NEIGHBOURHOOD },
         ]}
         title={<>Mosquito Control in {NEIGHBOURHOOD}, {CITY}</>}
-        subtitle={<>Sandalwood borders the Claireville Conservation Area and West Humber River — two of Brampton's largest mosquito breeding zones. BuzzSkito's barrier spray gives Sandalwood families up to 30-day protection per treatment.</>}
+        subtitle={<>Sandalwood borders the Claireville Conservation Area and West Humber River — two of Brampton's largest mosquito breeding zones. Licensed Ontario pesticide operator; treatments applied according to label directions.</>}
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada-Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
+
+      <TypicalPrices service="mosquito" city={NEIGHBOURHOOD} />
 
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
@@ -81,8 +85,8 @@ export default function SandalwoodMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product according to its label directions to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Visits repeat through the season on your plan’s schedule, so the foliage where mosquitoes rest stays treated. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -98,7 +102,7 @@ export default function SandalwoodMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Sandalwood's Conservation Area Mosquito Challenge</h2>
           <p>Sandalwood is one of northeast Brampton's most established residential communities, bordered by the <strong>Claireville Conservation Area</strong> — over 800 acres of protected wetland, forest, and meadow habitat. This conservation area is one of the GTA's most significant mosquito breeding zones, containing permanent wetlands, the <strong>West Humber River</strong> corridor, and numerous tributary channels that produce mosquitoes continuously from spring through fall.</p>
-          <p>Because the conservation area is protected, this breeding habitat is permanent and cannot be treated at the source. Mosquitoes produced in these wetlands disperse into adjacent Sandalwood properties each evening, creating consistent pressure throughout the season. BuzzSkito's barrier spray creates a treated perimeter on your property — targeting leaf undersides, shrub interiors, fence lines, and all resting surfaces — providing up to 30 days of protection against the ongoing dispersal from the conservation area.</p>
+          <p>Because the conservation area is protected, this breeding habitat is permanent and cannot be treated at the source. Mosquitoes produced in these wetlands disperse into adjacent Sandalwood properties each evening, creating consistent pressure throughout the season. BuzzSkito's barrier spray creates a treated perimeter on your property — targeting leaf undersides, shrub interiors, fence lines, and all resting surfaces — and because dispersal from the conservation area is ongoing, the treatment is repeated through the season.</p>
 
           <h2>Part of Our Brampton Mosquito Control Network</h2>
           <p>We serve all of Sandalwood and surrounding Brampton. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link> page for city-wide coverage.</p>
@@ -124,10 +128,10 @@ export default function SandalwoodMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, leaving a residual on the foliage where mosquitoes rest, renewed on a regular schedule through the season. The difference is coverage and consistency: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -136,7 +140,7 @@ export default function SandalwoodMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/brampton-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Blacklegged ticks can carry Lyme disease, and our targeted tick barrier spray runs 5 sprays per season, $597 on its own or $497 with any mosquito plan. See our <Link href="/brampton-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>
@@ -175,6 +179,10 @@ export default function SandalwoodMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

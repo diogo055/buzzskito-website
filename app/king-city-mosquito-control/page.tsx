@@ -1,14 +1,16 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'King City Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "King City specialist mosquito and tick barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. King City village, Schomberg, Nobleton, Pottageville. Call (289) 216-5030.",
+    "King City specialist mosquito and tick barrier spray. Licensed Ontario operator, from $99/treatment, no contracts, rain-back guarantee. King City village, Schomberg, Nobleton, Pottageville. Call (289) 216-5030.",
   canonical: '/king-city-mosquito-control',
 })
 
@@ -27,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'Does the Holland Marsh area influence mosquito pressure in King Township?',
-    answer: "The Holland Marsh — a large, low-lying agricultural muck land in the northern part of King Township — is one of the most significant regional mosquito source areas in York Region. The marsh&apos;s flat, wet character and agricultural ditching create extensive standing water that produces large numbers of mosquitoes in spring and early summer. Prevailing southerly winds can carry adults from the marsh into residential communities in Schomberg and northern King Township. This makes early-season treatment — especially a May application — particularly important for northern King Township homeowners.",
+    answer: "The Holland Marsh — a large, low-lying agricultural muck land in the northern part of King Township — is one of the most significant regional mosquito source areas in York Region. The marsh's flat, wet character and agricultural ditching create extensive standing water that produces large numbers of mosquitoes in spring and early summer. Prevailing southerly winds can carry adults from the marsh into residential communities in Schomberg and northern King Township. This makes early-season treatment — especially a May application — particularly important for northern King Township homeowners.",
   },
 ]
 
@@ -57,15 +59,17 @@ export default function KingCityMosquitoPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
       
+      <TypicalPrices service="mosquito" city="King City" />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -74,8 +78,8 @@ export default function KingCityMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies barrier spray, according to label directions, to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `${PROMISES.rainBack} Standard and Exclusive plans also carry the Bite-Free Guarantee between scheduled visits.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -103,13 +107,14 @@ export default function KingCityMosquitoPage() {
           <ul>
             <li><strong>Estate property assessment</strong> — We evaluate ponds, woodlots, riparian features, and low-wet areas specific to your King Township lot.</li>
             <li><strong>Full-yard barrier spray</strong> — All vegetation, shrub borders, ornamental plantings, fence lines, and tree understorey treated on every visit.</li>
-            <li><strong>28-day residual protection</strong> — Health Canada–approved formula provides continuous coverage; safe for children, pets, and horses after a 30-minute dry time.</li>
+            <li><strong>Label-directed residual spray</strong> — {PROMISES.labelLine}, by an operator holding {PROMISES.licence}, with visits repeated monthly, every 2 weeks or weekly depending on your plan. Keep children, pets, and horses off treated areas until the spray has dried, as the product label directs.</li>
             <li><strong>Rural-adapted scheduling</strong> — We accommodate larger lots, gated properties, and multi-building estate complexes throughout King Township.</li>
           </ul>
 
           <h2>Also Providing Tick Control in King City</h2>
           <p>King Township consistently reports among the highest blacklegged tick activity rates in York Region. Forest edges, agricultural hedgerows, and the Oak Ridges Moraine location make tick exposure a serious concern for homeowners and anyone using the property. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">King City tick spray service</Link> — for estate properties, combining both treatments is strongly recommended.</p>
 
+          <CityPriceCard city="King City" service="mosquito" />
 
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
@@ -131,10 +136,10 @@ export default function KingCityMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier on the leaves where mosquitoes rest, renewed on a set schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -180,6 +185,10 @@ export default function KingCityMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="King City" service="mosquito" location="price_card_faq" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

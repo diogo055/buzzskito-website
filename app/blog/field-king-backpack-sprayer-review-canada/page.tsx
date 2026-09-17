@@ -32,7 +32,7 @@ const FAQS = [
   },
   {
     question: 'What can you spray through a Field King backpack sprayer?',
-    answer: 'It is a general-purpose sprayer built for water-based liquids: herbicides for weeds, water-based insecticides and fungicides, liquid fertilizers, and cleaning or disinfecting solutions. The Viton seals resist most common agricultural and garden chemicals, which is a big reason Field King is popular with people who rotate several products. What it is not built for is thick, abrasive, or strongly solvent-based fluids, or anything that would be sprayed hot. Always match the product to the sprayer\'s chemical-compatibility guidance, rinse the tank and lines with clean water after every use, and — this is the Canadian part — only use products that are registered for your intended use with Health Canada\'s PMRA. The sprayer is just the delivery tool; the legality lives with the product in the tank.',
+    answer: 'It is a general-purpose sprayer built for water-based liquids: herbicides for weeds, water-based insecticides and fungicides, liquid fertilizers, and cleaning or disinfecting solutions. The Viton seals resist most common agricultural and garden chemicals, which is a big reason Field King is popular with people who rotate several products. What it is not built for is thick, abrasive, or strongly solvent-based fluids, or anything that would be sprayed hot. Always match the product to the sprayer\'s chemical-compatibility guidance, rinse the tank and lines with clean water after every use, and — this is the Canadian part — only use products that carry a Canadian PCP registration number and are labelled for your intended use. The sprayer is just the delivery tool; the legality lives with the product in the tank.',
   },
   {
     question: 'Does the Field King battery sprayer hold a charge for a whole job?',
@@ -56,7 +56,7 @@ const FAQS = [
   },
   {
     question: 'Can I use a Field King backpack sprayer for mosquito or tick yard treatments?',
-    answer: 'Mechanically, a backpack sprayer can apply a liquid barrier product to vegetation, and pest-control professionals do use powered sprayers for exactly that. But two cautions matter. First, in Canada the product you spray must be registered by Health Canada\'s PMRA for that use, and many effective barrier concentrates are restricted to licensed applicators — using an unregistered or off-label product is illegal regardless of the equipment. Second, coverage and dose consistency are hard to get right by hand, which is why many homeowners hire a licensed service for mosquito and tick barrier work. If you are treating your own yard for general garden pests or weeds with a consumer-registered product, the Field King is a fine tool; for mosquito and tick control specifically, weigh whether a licensed application is the safer, more reliable route.',
+    answer: 'Mechanically, a backpack sprayer can apply a liquid barrier product to vegetation, and pest-control professionals do use powered sprayers for exactly that. But two cautions matter. First, in Canada the product you spray must carry a Canadian PCP registration number and be labelled for that use, and many effective barrier concentrates are restricted to licensed applicators — using an unregistered or off-label product is illegal regardless of the equipment. Second, coverage and dose consistency are hard to get right by hand, which is why many homeowners hire a licensed service for mosquito and tick barrier work. If you are treating your own yard for general garden pests or weeds with a consumer-registered product, the Field King is a fine tool; for mosquito and tick control specifically, weigh whether a licensed application is the more reliable route.',
   },
   {
     question: 'Where can I buy the Field King 190515 in Canada?',
@@ -113,7 +113,7 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
               <li>4-gallon (~15 L) tank covers a typical suburban yard in one fill.</li>
               <li>Rebuildable pump + Viton seals + wide fill port = it lasts where disposable backpacks crack.</li>
               <li>Manual 190328 is the smarter buy for light, occasional spraying; battery 190515 for frequent, large-area work.</li>
-              <li>The sprayer is just the delivery tool &mdash; only spray products registered with Health Canada&rsquo;s PMRA for your use.</li>
+              <li>The sprayer is just the delivery tool &mdash; only spray products with a Canadian PCP registration number, labelled for your use.</li>
               <li>Rinse after every use and drain before winter &mdash; that is what makes a Field King last many seasons.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
@@ -187,7 +187,7 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            A sprayer is equipment, not a pesticide &mdash; the machine needs no PMRA registration. The <em>product you put in it</em> does: only spray liquids registered with Health Canada for your intended use, and follow the label.
+            A sprayer is equipment, not a pesticide &mdash; the machine needs no PMRA registration. The <em>product you put in it</em> does: only spray liquids that carry a Canadian PCP registration number for your intended use, and follow the label.
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -245,7 +245,7 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
 
           <h2>The Verdict: Is the 190515 Worth the Premium?</h2>
           <p>For a regular sprayer, unequivocally yes. The Field King 190515 takes a genuinely good sprayer &mdash; rebuildable, chemical-resistant, well-built &mdash; and removes its one real drawback, the pumping, while quietly improving application quality through constant pressure. If you spray often, cover a real yard, or already know that hand-pumping wears you out, it is the buy-once tool that earns its cost in comfort, consistency, and durability over the disposable alternatives you would otherwise replace repeatedly.</p>
-          <p>The one honest caveat is fit-to-use. If your spraying is genuinely light &mdash; a few pots, one weedy corner, twice a summer &mdash; you do not need the battery, and the manual <strong>190328</strong> is the smarter, cheaper choice that shares all the same build quality. And whichever model you choose, remember the machine is only half the equation: in Canada, the product in the tank must be registered with Health Canada&rsquo;s PMRA for your use. Buy the right sprayer for how much you actually spray, put a legal product in it, rinse it after every job, and you will have a tool that serves you for many seasons.</p>
+          <p>The one honest caveat is fit-to-use. If your spraying is genuinely light &mdash; a few pots, one weedy corner, twice a summer &mdash; you do not need the battery, and the manual <strong>190328</strong> is the smarter, cheaper choice that shares all the same build quality. And whichever model you choose, remember the machine is only half the equation: in Canada, the product in the tank must carry a Canadian PCP registration number and be labelled for your use. Buy the right sprayer for how much you actually spray, put a legal product in it, rinse it after every job, and you will have a tool that serves you for many seasons.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

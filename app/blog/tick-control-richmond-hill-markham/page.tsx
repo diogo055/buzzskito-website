@@ -1,10 +1,15 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { NEW_BLOGS, TICK_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { NEW_BLOGS, TICK_BLOGS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS[1]
+
+const AMZ_TAG = tagForSlug('tick-control-richmond-hill-markham')
 
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Control Richmond Hill & Markham',
@@ -68,7 +73,7 @@ export default function TickControlRichmondHillMarkhamPage() {
             <li>Rouge National Urban Park covers over 79 square kilometres and contains confirmed blacklegged tick populations.</li>
             <li>Blacklegged ticks stay active from April into November — nymphs through spring and summer, adults again in the fall.</li>
             <li>Poppy-seed-sized nymphs are active May through July and cause most Ontario Lyme disease transmission.</li>
-            <li>Five treatments, roughly one a month from May through September, keep the barrier unbroken &mdash; the acaricide residual is temporary and wildlife keeps walking new ticks in from the woodland edge.</li>
+            <li>Five treatments, roughly one a month from May through September, renew the barrier as it fades &mdash; the acaricide residual is temporary and wildlife keeps walking new ticks in from the woodland edge.</li>
             <li>Lyme transmission becomes a real possibility after 24–36 hours of tick attachment.</li>
             <li>Highest-risk areas: Oak Ridges and Jefferson Forest in Richmond Hill; Cornell, Cathedraltown, and Rouge Park in Markham.</li>
           </ul>
@@ -99,7 +104,7 @@ export default function TickControlRichmondHillMarkhamPage() {
 
         <h2>The Lyme Disease Piece: Why Nymphs Are the Real Danger</h2>
         <p>Most Lyme disease transmission in Ontario comes not from adult ticks, which are relatively large and easier to spot, but from nymphs — the second life stage. Nymphs are active May through July and are the size of a poppy seed. They are extremely difficult to feel and easy to miss during a tick check.</p>
-        <p>Both Richmond Hill and Markham fall within Ontario&rsquo;s established Lyme disease risk zone as defined by Public Health Ontario. If a tick is attached for more than 24–36 hours, Lyme disease transmission becomes a real possibility. The best strategy is to reduce your exposure at the source — by treating your yard.</p>
+        <p>Both Richmond Hill and Markham fall within Ontario&rsquo;s established Lyme disease risk zone as defined by Public Health Ontario. If a tick is attached for more than 24–36 hours, Lyme disease transmission becomes a real possibility. Alongside tick checks, one practical step is to cut down the ticks in your own yard by treating it.</p>
 
         <h2>What Treatment Looks Like for These Properties</h2>
         <p>BuzzSkito&rsquo;s tick barrier spray targets the transition zones where ticks concentrate: leaf litter margins at the lawn edge, low ground cover, the base of shrubs, and shaded mulch beds. These are the areas where ticks quest (climb and wait) for passing hosts.</p>
@@ -118,6 +123,10 @@ export default function TickControlRichmondHillMarkhamPage() {
           <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease Prevention in Ontario</Link></li>
         </ul>
 
+        <h2>What to Keep on Hand Between Treatments</h2>
+        <AffiliateDisclosure />
+        <p>A barrier treatment lowers how many ticks are waiting in your own yard. It does not follow you onto the Oak Ridges Trail, into Rouge National Urban Park, or through the Jefferson Forest &mdash; and in York Region those walks are where a large share of ticks get onto people and dogs in the first place. So the other half of the routine is the check when you come back in, and a proper tool for the moment a check finds something. A fine-tipped remover or tick hook grips at the head, right against the skin, and lifts the tick out in one piece rather than leaving mouthparts behind or squeezing the body. That matters most with the poppy-seed-sized nymphs this region produces from May through July, and on a dog, where you are working blind through fur. Keep one at the back door and one in the car. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
+
         <h2>Frequently Asked Questions</h2>
         {FAQS.map((faq) => (
           <details key={faq.question} className="not-prose bg-amber-50 border border-amber-100 rounded-xl mb-3 px-5 py-4 open:pb-5">
@@ -128,8 +137,8 @@ export default function TickControlRichmondHillMarkhamPage() {
       </article>
 
       <CTASection
-        heading="Protect Your Richmond Hill or Markham Property from Ticks"
-        subtext="Get a free tick control quote. No contracts, free re-spray guarantee."
+        heading="Tick Control for Richmond Hill & Markham Properties"
+        subtext={`Get a free tick control quote. No contracts. ${PROMISES.rainBackShort}.`}
         variant="dark"
       />
     </>

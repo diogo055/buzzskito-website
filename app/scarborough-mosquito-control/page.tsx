@@ -1,14 +1,16 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Scarborough Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    'Scarborough mosquito barrier spray from $99, no contracts, Bite-Free Guarantee. Compare providers, pricing, Rouge & Highland Creek risk. (289) 216-5030.',
+    'Scarborough mosquito barrier spray from $99, no contracts, rain-back guarantee. Compare providers, pricing, Rouge & Highland Creek risk. (289) 216-5030.',
   canonical: '/scarborough-mosquito-control',
 })
 
@@ -19,11 +21,11 @@ const NEIGHBOURHOODS = ['Guildwood','West Hill','Highland Creek','Rouge','Malver
 const FAQS = [
   {
     question: 'How much does mosquito control cost in Scarborough?',
-    answer: 'BuzzSkito mosquito control in Scarborough starts from $99 per application. Properties near Highland Creek, the Rouge River, or Rouge National Urban Park typically benefit most from the full seasonal package for continuous protection. No contracts. Call (289) 216-5030 for a free Scarborough quote.',
+    answer: 'BuzzSkito mosquito control in Scarborough starts from $99 per application. Properties near Highland Creek, the Rouge River, or Rouge National Urban Park typically benefit most from the full seasonal package, with repeat visits through the summer. No contracts. Call (289) 216-5030 for a free Scarborough quote.',
   },
   {
     question: 'Who is the best mosquito control company in Scarborough?',
-    answer: "It depends on what you are optimising for. BuzzSkito is the mosquito-and-tick specialist: the lowest entry price in the market (from $99 for a single treatment), 150+ five-star Google reviews at a 5.0 average with zero negatives, no contract, and the Bite-Free Guarantee — free re-treatment if mosquitoes return inside the protection window. Mosquito Man carries a larger cumulative review volume (900+ across the GTA, roughly 4.8 stars) and a longer track record, but works on seasonal programs. LawnSavers serves Scarborough mainly as an add-on to its lawn-care plans. Our honest read: if you want a specialist you can test for a single visit with nothing to cancel, book us; if provider tenure matters more to you than price or flexibility, Mosquito Man is the stronger fit.",
+    answer: `Rather than go by a name, ask every company you are considering the same five questions. Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); ${PROMISES.rainBack} Our licence is ${BUSINESS.licenseNumber}, and the Bite-Free Guarantee applies to Standard & Exclusive plans. A company that answers all five clearly, in writing, gives you a solid baseline to compare against.`,
   },
   {
     question: 'Can I book mosquito control in Scarborough without signing a contract?',
@@ -39,7 +41,7 @@ const FAQS = [
   },
   {
     question: 'How early does mosquito season start in Scarborough?',
-    answer: "In Scarborough's river valley and ravine neighbourhoods, adult mosquitoes can emerge as early as late April in warm years, with the main season typically running from mid-May through mid-September. The Rouge River's warmer, slower-moving water sections warm up faster than the creek systems to the north, triggering early emergence near the park. Booking your first treatment in the first two weeks of May, before peak emergence, is the most effective strategy for east-end Scarborough homeowners.",
+    answer: "In Scarborough's river valley and ravine neighbourhoods, adult mosquitoes can emerge as early as late April in warm years, with the main season typically running from mid-May through mid-September. The Rouge River's warmer, slower-moving water sections warm up faster than the creek systems to the north, triggering early emergence near the park. Booking your first treatment in the first two weeks of May, before peak emergence, is what we recommend for east-end Scarborough homeowners.",
   },
   {
     question: 'Can I bundle tick control with mosquito spray in Scarborough?',
@@ -66,7 +68,7 @@ export default function ScarboroughMosquitoPage() {
         ]}
         title={<>{CITY} Mosquito Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>From the Rouge National Urban Park boundary to Highland Creek valley — BuzzSkito delivers professional mosquito barrier spray to every Scarborough neighbourhood.</>}
+        subtitle={<>From the Rouge National Urban Park boundary to Highland Creek valley, BuzzSkito delivers professional mosquito barrier spray to every Scarborough neighbourhood. Licensed Ontario pesticide operator; treatments applied according to label directions.</>}
         image="/spray-backyard.webp"
       />
 
@@ -74,10 +76,10 @@ export default function ScarboroughMosquitoPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -87,13 +89,15 @@ export default function ScarboroughMosquitoPage() {
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <div>
             <p className="font-extrabold text-brand-900 text-base">Mosquito Control Pricing in {CITY}</p>
-            <p className="text-gray-600 text-sm mt-0.5">Professional mosquito control service from <strong className="text-brand-700">$99</strong> per treatment · No contracts</p>
+            <p className="text-gray-600 text-sm mt-0.5">Professional mosquito control service from <strong className="text-brand-700">$99</strong> per treatment on a standard lot · No contracts</p>
           </div>
           <Link href="/free-yard-assessment" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">Get a Free Quote</Link>
         </div>
       </section>
 
       
+      <TypicalPrices service="mosquito" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -102,8 +106,8 @@ export default function ScarboroughMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product according to its label directions to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Visits repeat through the season on your plan’s schedule, so the foliage where mosquitoes rest stays treated. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -119,7 +123,7 @@ export default function ScarboroughMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Mosquito Pressure Is High in Scarborough</h2>
           <p>Scarborough is home to some of the GTA&apos;s most ecologically rich — and mosquito-productive — landscapes. The eastern portion of the city borders Rouge National Urban Park, Canada&apos;s first national urban park, where the Rouge River winds through wetlands, forested floodplain, and marsh edges that sustain a continuous population of mosquitoes from May through September. The Highland Creek valley, another major ravine system running through the centre of Scarborough, provides additional breeding habitat from Morningside Park and Colonel Danforth Park all the way to the lake. A third, less obvious pressure zone runs along the Lake Ontario shoreline, where the wooded gullies cutting through the Scarborough Bluffs create sheltered microclimates behind Cliffside and Birchcliffe properties.</p>
-          <p>For Scarborough homeowners in these valley-adjacent communities, the challenge isn&apos;t simply managing mosquitoes on a single property — it&apos;s the continuous influx of adults emerging from these nearby natural systems. Professional barrier spray applied to your yard&apos;s vegetation breaks this cycle by eliminating the resting adults that would otherwise spend the day on your hedges, shrubs, and fence lines before feeding at dusk.</p>
+          <p>For Scarborough homeowners in these valley-adjacent communities, the challenge isn&apos;t simply managing mosquitoes on a single property — it&apos;s the continuous influx of adults emerging from these nearby natural systems. Professional barrier spray applied to your yard&apos;s vegetation targets the resting adults that would otherwise spend the day on your hedges, shrubs, and fence lines before feeding at dusk.</p>
 
           <h2>Scarborough Neighbourhoods We Serve</h2>
           <p>BuzzSkito provides mosquito control across all Scarborough communities, including:</p>
@@ -132,13 +136,15 @@ export default function ScarboroughMosquitoPage() {
           <ul>
             <li><strong>Valley proximity assessment</strong> — We identify ravine edges, creek proximity, and standing water that elevate your property&apos;s risk.</li>
             <li><strong>Full-yard barrier spray</strong> — Treatment of all vegetation, shrubs, fence lines, and tree understorey that border your outdoor living areas.</li>
-            <li><strong>28-day residual protection</strong> — Health Canada–approved formula works continuously between visits; safe for kids and pets after 30 minutes.</li>
-            <li><strong>Seasonal program</strong> — Five visits May through September, with timing aligned to Rouge River and Highland Creek emergence cycles.</li>
+            <li><strong>Label-directed application</strong> — {PROMISES.labelLine}. Stay off treated areas until the spray has dried, as the product label directs.</li>
+            <li><strong>Seasonal program</strong> — Five visits (Basic), 10 (Standard) or 20+ (Exclusive) May through September, with timing aligned to Rouge River and Highland Creek emergence cycles.</li>
           </ul>
 
           <h2>Also Providing Tick Control in Scarborough</h2>
-          <p>Scarborough&apos;s Rouge National Urban Park and Highland Creek valley are among the GTA&apos;s most active blacklegged tick habitats. Homeowners near the park boundary or valley edges face meaningful tick risk alongside mosquito pressure. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Scarborough tick spray service</Link> — bundling both treatments provides complete yard protection.</p>
+          <p>Scarborough&apos;s Rouge National Urban Park and Highland Creek valley are among the GTA&apos;s most active blacklegged tick habitats. Homeowners near the park boundary or valley edges face meaningful tick risk alongside mosquito pressure. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Scarborough tick spray service</Link> — bundling both treatments covers both pests in the same visit.</p>
 
+
+          <CityPriceCard city={CITY} service="mosquito" />
 
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
@@ -160,39 +166,38 @@ export default function ScarboroughMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, leaving a residual on the foliage where mosquitoes rest, renewed on a regular schedule through the season. The difference is coverage and consistency: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
-          <h2>Comparing Scarborough Mosquito Control Companies</h2>
-          <p>Scarborough homeowners have several professional options, and we would rather you choose with the numbers in front of you. The comparison below reflects publicly available pricing, Google review counts, and the contract terms each company advertises for the 2026 season.</p>
+          <h2>What to Ask Any Mosquito Control Company in Scarborough</h2>
+          <p>Scarborough homeowners have several professional options. Whoever you call, these five questions separate a clear offer from a vague one. Here is how we answer each of them.</p>
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-brand-800 text-white">
-                  <th className="px-4 py-3 text-left">Company</th>
-                  <th className="px-4 py-3 text-left">Single Treatment</th>
-                  <th className="px-4 py-3 text-left">Reviews (Google)</th>
-                  <th className="px-4 py-3 text-left">Contract Required?</th>
+                  <th className="px-4 py-3 text-left">Question to ask</th>
+                  <th className="px-4 py-3 text-left">BuzzSkito&apos;s answer</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-gray-200 bg-amber-50"><td className="px-4 py-3 font-bold text-brand-900">BuzzSkito <span className="text-xs font-normal">(that&apos;s us)</span></td><td className="px-4 py-3 font-extrabold text-brand-700">From $99</td><td className="px-4 py-3">150+ / 5.0 ★ (zero negative)</td><td className="px-4 py-3 text-emerald-700 font-semibold">No — pay per visit</td></tr>
-                <tr className="border-b border-gray-200"><td className="px-4 py-3 font-semibold">Mosquito Man</td><td className="px-4 py-3">Quote-based</td><td className="px-4 py-3">900+ across the GTA (~4.8 ★)</td><td className="px-4 py-3 text-amber-700">Often seasonal</td></tr>
-                <tr className="border-b border-gray-200 bg-gray-50"><td className="px-4 py-3 font-semibold">LawnSavers</td><td className="px-4 py-3">$129+ standalone</td><td className="px-4 py-3">1,000+ (lawn care primary)</td><td className="px-4 py-3 text-amber-700">Bundled with lawn plans</td></tr>
-                <tr><td className="px-4 py-3 font-semibold">Mosquito.Buzz</td><td className="px-4 py-3">Custom quote required</td><td className="px-4 py-3">Multi-province national franchise</td><td className="px-4 py-3 text-amber-700">Seasonal contracts</td></tr>
+                <tr className="border-b border-gray-200"><td className="px-4 py-3 font-semibold">Is the price shown before you book?</td><td className="px-4 py-3">From $99 on a standard lot</td></tr>
+                <tr className="border-b border-gray-200 bg-gray-50"><td className="px-4 py-3 font-semibold">How many sprays per season?</td><td className="px-4 py-3">5, 10 or 20+ (tick: 5)</td></tr>
+                <tr className="border-b border-gray-200"><td className="px-4 py-3 font-semibold">What happens if it rains after a treatment?</td><td className="px-4 py-3">{PROMISES.rainBack}</td></tr>
+                <tr className="border-b border-gray-200 bg-gray-50"><td className="px-4 py-3 font-semibold">Is an Ontario pesticide operator licence number shown?</td><td className="px-4 py-3">Yes: {BUSINESS.licenseNumber}</td></tr>
+                <tr><td className="px-4 py-3 font-semibold">Which plans include a guarantee?</td><td className="px-4 py-3">Rain-back on every plan; Bite-Free on Standard &amp; Exclusive</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">For the full head-to-head across every GTA city, see <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">Best Mosquito Control Companies in the GTA</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">For more on choosing a provider anywhere in the GTA, see <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">Compare mosquito control options</Link>.</p>
 
           <h2>How to Choose a Mosquito Control Company in Scarborough</h2>
           <ol>
-            <li><strong>Check the formulation.</strong> Only Health Canada–approved barrier products are legal for commercial application in Ontario. Ask before booking.</li>
-            <li><strong>Verify the licence.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for commercial application — the technician who actually shows up should hold one.</li>
-            <li><strong>Get the guarantee in writing.</strong> If rain arrives within roughly an hour of the spray, the product has not cured. A reputable company re-treats at no charge.</li>
+            <li><strong>Check the formulation.</strong> Ask which product will be applied on your property, and how its label directions will be followed, before booking.</li>
+            <li><strong>Verify the licence.</strong> Commercial pesticide application in Ontario is licensed. Ask for the licence number and who will apply the product. Ours: {PROMISES.licence}.</li>
+            <li><strong>Get the guarantee in writing.</strong> Rain soon after a spray can wash product off before it dries, so ask what happens if it rains. Ours: {PROMISES.rainBack}</li>
             <li><strong>Read Scarborough-specific reviews.</strong> A national franchise can have strong reviews in one city and weak ones in the next. Filter for your own.</li>
             <li><strong>Ask about local knowledge.</strong> A technician who can talk about the Rouge River wetlands, the Highland Creek valley, and the bluff gullies knows where the mosquitoes on your lot are actually coming from.</li>
             <li><strong>Compare single-treatment pricing</strong>, not just seasonal package totals. Per-visit price is the honest measure of value.</li>
@@ -242,6 +247,10 @@ export default function ScarboroughMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

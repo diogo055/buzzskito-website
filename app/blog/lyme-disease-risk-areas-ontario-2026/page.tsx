@@ -2,8 +2,12 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
+import StickyBuyBar from '@/components/StickyBuyBar'
 
 const POST = {
   title: 'Lyme Disease Risk Areas Ontario 2026',
@@ -13,6 +17,8 @@ const POST = {
 }
 
 const META_TITLE = 'Lyme Disease Risk Map Ontario 2026: GTA Zones'
+
+const AMZ_TAG = tagForSlug('lyme-disease-risk-areas-ontario-2026')
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
@@ -52,7 +58,7 @@ const FAQS = [
   {
     question: 'Does professional tick spray reduce Lyme disease risk?',
     answer:
-      'It helps, with limits worth stating plainly. Professional tick barrier spray applies a Health Canada-registered residual acaricide to your yard perimeter and the high-risk zones inside it — garden edges, fence lines, shaded areas, wood borders — because that is where blacklegged ticks quest, rather than out in the open lawn. That lowers the number of ticks sitting in those zones, which lowers the odds of an encounter on your own property. It does not eliminate ticks: the residual wears off, and deer, birds and rodents carry new ticks in through the season. Treat it as one layer alongside personal protection and daily tick checks, not as a replacement for them.',
+      'It helps, with limits worth stating plainly. Professional tick barrier spray applies a registered residual acaricide, according to label directions, to your yard perimeter and the high-risk zones inside it — garden edges, fence lines, shaded areas, wood borders — because that is where blacklegged ticks quest, rather than out in the open lawn. That lowers the number of ticks sitting in those zones, which lowers the odds of an encounter on your own property. It does not eliminate ticks: the residual wears off, and deer, birds and rodents carry new ticks in through the season. Treat it as one layer alongside personal protection and daily tick checks, not as a replacement for them.',
   },
 ]
 
@@ -107,6 +113,32 @@ export default function LymeRiskAreas2026Page() {
           <strong>Medical disclaimer:</strong> This article provides general public health information about Lyme disease risk zones in Ontario. Always consult a licensed healthcare provider for medical advice, diagnosis, and treatment. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>
 
+        {/* "What to do right now" — aftercare module. The BlogPostCTA quote bar renders
+            above the <article>, so the service arm keeps the top slot and this module sits
+            under it, as the service-arm rule requires. Disclosure renders immediately above
+            the first affiliate link here. Step 1 is free. No prevention promise, no
+            protection-duration claim, no registration endorsement. */}
+        <AffiliateDisclosure />
+        <div className="not-prose my-8 rounded-xl border border-amber-200 bg-amber-50 p-5">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700 mb-3">What to do right now</p>
+          <ol className="space-y-3 text-[15px] text-gray-800 leading-relaxed list-decimal pl-5 marker:font-bold marker:text-amber-700">
+            <li>
+              <strong>Look up your own address, not your city &mdash; free, two minutes.</strong> Risk areas are drawn from field surveillance, not municipal lines. Check the blacklegged tick layer in Public Health Ontario&apos;s Vector-Borne Disease Tool, then tuck trousers into socks and do a full-body check within two hours of coming in.
+            </li>
+            <li>
+              <strong>Cover the cuffs and socks, because that is what a tick reaches first.</strong> A tick quests at ankle and shin height and climbs; repellent on your arms does nothing about it. Factory permethrin-treated clothing is the format sold for this in Canada &mdash; the treatment is bonded into the fabric at manufacture rather than sprayed on at home, and it is labelled <strong>for ages 16 and over</strong>. Read the garment label before you buy for anyone younger.
+              <span className="mt-2 block"><BuyLink tag={AMZ_TAG} search="permethrin treated clothing">Check price on Amazon.ca &rarr;</BuyLink></span>
+            </li>
+            <li>
+              <strong>Put a repellent in the bag you take to the trail.</strong> Both actives named further down this page &mdash; icaridin (picaridin) and DEET &mdash; are sold in Canada under a Pest Control Products (PCP) registration number printed on the label. Check that the number is there before you buy, since marketplaces carry imported bottles that were never registered here, and then follow the label&apos;s own directions, which differ by age.
+              <span className="mt-2 block"><BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca &rarr;</BuyLink></span>
+            </li>
+          </ol>
+          <p className="mt-4 text-sm text-gray-600 leading-relaxed">
+            None of this is a substitute for the daily tick check, and none of it is medical advice. If you find an attached tick, remove it and watch the site for 3 to 30 days.
+          </p>
+        </div>
+
         <h2>Ontario Lyme Disease Risk: 2026 Overview</h2>
         <p>Lyme disease continues to be one of the fastest-growing infectious diseases in Canada, and 2026 marks another year of geographic expansion. The Public Health Agency of Canada and Ontario Public Health have documented a sustained northward migration of blacklegged tick (<em>Ixodes scapularis</em>) populations, driven by warming winters and expanding deer and rodent habitats. The result: more Ontario communities now fall within confirmed Lyme disease risk zones than at any previous point on record.</p>
         <p>For GTA homeowners, the message is straightforward — Lyme disease risk is no longer confined to provincial parks or rural properties. Urban ravines, suburban conservation areas, and backyard gardens throughout Southern Ontario now harbour established blacklegged tick populations capable of transmitting <em>Borrelia burgdorferi</em>, the bacterium that causes Lyme disease.</p>
@@ -117,19 +149,25 @@ export default function LymeRiskAreas2026Page() {
         <h3>Toronto</h3>
         <p>Toronto Public Health confirms blacklegged tick populations in the Don Valley, Rouge National Urban Park, High Park, Humber River valley, and smaller ravine systems throughout the city. Toronto has reported increasing numbers of locally acquired Lyme disease cases each year. Homeowners in neighbourhoods adjacent to ravines and wooded corridors face the highest risk.</p>
         <p>Exposure is not spread evenly across the city, though. The Don and West Don valley network puts ravine-edge yards on the front line right through the middle of the old suburbs, which is why <Link href="/north-york-tick-spray" className="text-brand-700 hover:underline">tick spray for North York yards</Link> is aimed at the lawn-to-ravine transition rather than the open lawn; the Humber corridor does the same job on the west side, where <Link href="/etobicoke-tick-spray" className="text-brand-700 hover:underline">Etobicoke tick control</Link> concentrates on the same wooded edge.</p>
+        <p>The reason the city keeps turning up on this list at all is structural rather than seasonal: Toronto&rsquo;s ravine network runs continuous wooded habitat deep into residential neighbourhoods, and deer and mice use it as a corridor. <Link href="/blog/toronto-tick-hot-spot-2026" className="text-brand-700 underline">Why Toronto is a tick hot spot in 2026</Link> breaks that down ravine by ravine and explains what it means for a backyard that meets one.</p>
         <p>See: <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">Toronto tick control services</Link></p>
 
         <h3>Mississauga and Peel Region</h3>
         <p>Credit Valley Conservation lands, Rattray Marsh, Erindale Park, and the Credit River corridor are confirmed blacklegged tick habitats. Peel Region public health has documented positive tick submissions from Mississauga, Brampton, and Caledon. New residential developments bordering conservation lands are particularly exposed as wildlife corridors bring ticks into suburban yards.</p>
+        <p>Risk is not evenly spread across the city, either. We mapped it street by street in <Link href="/blog/tick-hot-spots-mississauga-2026" className="text-brand-700 underline">Mississauga tick hot spots by neighbourhood for 2026</Link>, which ranks the areas backing onto the Credit corridor and Rattray Marsh against the drier inland subdivisions.</p>
         <p>See: <Link href="/mississauga-tick-spray" className="text-brand-700 hover:underline">Mississauga tick control</Link> | <Link href="/brampton-tick-spray" className="text-brand-700 hover:underline">Brampton tick control</Link> | <Link href="/caledon-tick-spray" className="text-brand-700 hover:underline">Caledon tick control</Link></p>
 
         <h3>Hamilton and Niagara Escarpment</h3>
         <p>Hamilton has consistently ranked among the highest-risk municipalities in Ontario for Lyme disease. Dundas Valley, Cootes Paradise, the Bruce Trail corridor, and Royal Botanical Gardens are established blacklegged tick zones. The escarpment microclimate — sheltered, moist forest floor with abundant white-footed mice — creates ideal conditions for year-round tick survival.</p>
+        <p>The escarpment shelf carries the same conditions east across the city, where Stoney Creek runs from the Fifty Point shoreline up to the brow with the Red Hill ravine between. We rank that stretch area by area in <Link href="/blog/mosquito-tick-control-stoney-creek" className="text-brand-700 hover:underline">the Stoney Creek mosquito and tick guide</Link>.</p>
+        <p>West of the harbour the same escarpment conditions run through Dundas Valley and the Ancaster woodlots &mdash; that corridor is covered neighbourhood by neighbourhood in <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">our Ancaster, Dundas and Hamilton tick control guide</Link>.</p>
         <p>See: <Link href="/hamilton-tick-spray" className="text-brand-700 hover:underline">Hamilton tick control</Link></p>
 
         <h3>Oakville and Burlington</h3>
         <p>Bronte Creek Provincial Park, Sixteen Mile Creek, Sheldon Creek, and the Lake Ontario shoreline trail systems are confirmed risk zones. Burlington&apos;s proximity to the RBG and Escarpment trails further elevates risk. Halton Region public health actively monitors tick populations and reports positive findings each season.</p>
         <p>Across both Peel and Halton the case mix has shifted from travel-acquired infections toward locally acquired ones. Our breakdown of <Link href="/blog/lyme-disease-cases-mississauga-oakville-2026" className="text-brand-700 hover:underline">Lyme case trends in Mississauga and Oakville</Link> walks through that shift and explains what reported counts leave out.</p>
+        <p>For a neighbourhood-level view of which Halton streets sit closest to those creek and escarpment corridors, see our <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 underline">Oakville and Burlington tick hot spots for 2026</Link>.</p>
+        <p>Risk also moves with the calendar in each town: <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 underline">tick season in Oakville</Link> tracks the nymph peak through the Sixteen Mile and Bronte Creek corridors, while <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 underline">tick season in Burlington</Link> covers the escarpment edge and the RBG lands month by month.</p>
         <p>See: <Link href="/oakville-tick-spray" className="text-brand-700 hover:underline">Oakville tick control</Link> | <Link href="/burlington-tick-spray" className="text-brand-700 hover:underline">Burlington tick control</Link></p>
 
         <h3>York Region (Richmond Hill, Markham, Vaughan)</h3>
@@ -168,12 +206,13 @@ export default function LymeRiskAreas2026Page() {
           <li><strong>Rodent surveillance:</strong> White-footed mouse populations are sampled to measure <em>Borrelia burgdorferi</em> infection rates in the tick host reservoir</li>
         </ul>
         <p>An area is classified as &quot;established risk&quot; when blacklegged ticks are found in consecutive years through active surveillance and at least one tick tests positive for Lyme disease bacteria.</p>
+        <p>That threshold is deliberately low, which is why a risk-area map says nothing about how many ticks in it are actually infected. For the testing rates behind the map, see <Link href="/blog/what-percentage-of-ticks-carry-lyme-ontario" className="text-brand-700 underline">what percentage of Ontario ticks carry Lyme</Link>.</p>
 
         <h2>What GTA Homeowners Should Do in 2026</h2>
-        <p>Given the current risk landscape, GTA homeowners should take a layered approach to Lyme disease prevention:</p>
+        <p>Given the current risk landscape, GTA homeowners should take a layered approach to lowering Lyme disease risk:</p>
 
         <h3>1. Professional Tick Yard Treatment</h3>
-        <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> targets the high-risk perimeter zones where ticks are most concentrated — garden edges, fence lines, shaded areas, stone walls, and the transition between lawn and wooded areas — with a Health Canada-registered residual acaricide. Because the residual is temporary and wildlife keeps reintroducing ticks, it is repeated rather than done once. A full season is five treatments spaced roughly monthly from May through September. The early applications cover the May–July nymph peak, when the ticks driving most Lyme transmission are poppy-seed sized and easily missed on a body check, and the later ones carry the barrier into the start of fall adult activity, which can run into November in mild years. Deer, mice and birds keep walking new ticks in from adjacent woodland the whole time, so the point of monthly repetition is that there is never a multi-month gap in the middle of the season — which is exactly what a two-visit schedule leaves open.</p>
+        <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> targets the high-risk perimeter zones where ticks are most concentrated — garden edges, fence lines, shaded areas, stone walls, and the transition between lawn and wooded areas — with a registered residual acaricide applied according to label directions. Because the residual is temporary and wildlife keeps reintroducing ticks, it is repeated rather than done once. A full season is five treatments spaced roughly monthly from May through September. The early applications cover the May–July nymph peak, when the ticks driving most Lyme transmission are poppy-seed sized and easily missed on a body check, and the later ones carry the barrier into the start of fall adult activity, which can run into November in mild years. Deer, mice and birds keep walking new ticks in from adjacent woodland the whole time, so the point of monthly repetition is that there is never a multi-month gap in the middle of the season — which is exactly what a two-visit schedule leaves open.</p>
 
         <h3>2. Habitat Modification</h3>
         <ul>
@@ -192,10 +231,15 @@ export default function LymeRiskAreas2026Page() {
           <li>Do full-body tick checks within 2 hours of being outdoors</li>
           <li>Shower promptly to wash off unattached ticks</li>
         </ul>
+        <p>On the repellent line specifically, both actives named above are sold in Canada under a Pest Control Products (PCP) registration number printed on the label. Check for that number before you buy &mdash; online marketplaces carry imported repellents that were never registered here, and an unregistered bottle tells you nothing reliable about what is in it. Then follow the label directions for the person actually wearing it, since the directions differ for young children.</p>
+        <AffiliateDisclosure />
+        <p className="not-prose"><BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check icaridin and DEET repellents on Amazon.ca &rarr;</BuyLink></p>
 
         <h3>4. Know the Symptoms</h3>
         <p>Early Lyme disease symptoms include an expanding bull&apos;s-eye rash (erythema migrans), fever, fatigue, headache, and muscle or joint pain. Not everyone develops the rash. If you have had a tick bite and develop any of these symptoms within 3 to 30 days, see a doctor promptly. Early antibiotic treatment is highly effective.</p>
         <p>See: <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms & What to Do in Ontario</Link></p>
+        <p>The practical companion to knowing the symptoms is owning the tool before the night you need it. Grasp an attached tick with a fine-tipped tool as close to the skin as possible and lift straight up with steady pressure &mdash; no twisting, no squeezing the body, nothing smeared over it. Household tweezers have a blunt, wide tip that grips the body rather than the mouthparts, which is exactly the wrong end on a nymph the size of a poppy seed, and the nymphs are the stage most of this page is about. Keep the tool in the first-aid kit, and keep a small screw-top vial with it so the tick can be bagged and dated.</p>
+        <p className="not-prose"><BuyLink tag={AMZ_TAG} search="tick removal tool fine tip tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">
@@ -223,6 +267,7 @@ export default function LymeRiskAreas2026Page() {
       </article>
 
       <CTASection heading="Protect Your Family in Ontario's Expanding Lyme Disease Zone" subtext="Professional tick barrier spray targets the garden edges, fence lines and wood borders where ticks quest. Free quote for all GTA properties." variant="dark" />
+      <StickyBuyBar tag={AMZ_TAG} name="Icaridin insect repellent" search="icaridin insect repellent" label="For tick areas" />
     </>
   )
 }

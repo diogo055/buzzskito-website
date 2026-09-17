@@ -9,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'picaridin-vs-deet'
 const DATE = '2026-05-01'
@@ -22,7 +23,7 @@ const FAQS = [
   },
   {
     question: 'Where to buy picaridin in Canada?',
-    answer: 'Picaridin-based repellents are widely available in Canada at Canadian Tire, Shoppers Drug Mart, Rexall, MEC, Cabela\'s Canada, Atmosphere, and Amazon.ca. The two most-stocked brands are OFF! Defense Insect Repellent II (20% picaridin lotion or spray, ~$8–$14) and Sawyer Picaridin Insect Repellent (20% lotion, ~$12–$18). Specialty outdoor retailers like MEC and Atmosphere also stock the Natrapel 20% picaridin line. Picaridin is approved by Health Canada under multiple PCP registrations and is sold without restriction.',
+    answer: 'Picaridin-based repellents are widely available in Canada at Canadian Tire, Shoppers Drug Mart, Rexall, MEC, Cabela\'s Canada, Atmosphere, and Amazon.ca. The two most-stocked brands are OFF! Defense Insect Repellent II (20% picaridin lotion or spray, ~$8–$14) and Sawyer Picaridin Insect Repellent (20% lotion, ~$12–$18). Specialty outdoor retailers like MEC and Atmosphere also stock the Natrapel 20% picaridin line. Picaridin (icaridin) products are sold in Canada under multiple PCP registration numbers and are available over the counter.',
   },
   {
     question: 'How much do picaridin and DEET cost in Canada?',
@@ -30,15 +31,15 @@ const FAQS = [
   },
   {
     question: 'Is picaridin safe for kids?',
-    answer: 'Yes. Health Canada and the Canadian Paediatric Society approve picaridin 20% for children 6 months and older. For children under 6 months, use physical barriers (mosquito netting on strollers, long sleeves) instead of any chemical repellent. Picaridin is preferred by many parents over DEET because it doesn\'t cause skin reactions in some children, doesn\'t have the strong DEET smell, and won\'t damage plastic toys, sunglasses, or watches that kids touch. Apply once daily — re-apply if heavily sweating or swimming.',
+    answer: 'Picaridin (icaridin) 20% products are labelled for children 6 months and older, and the Canadian Paediatric Society names icaridin as a preferred choice for children. For children under 6 months, use physical barriers (mosquito netting on strollers, long sleeves) instead of any chemical repellent. Picaridin is preferred by many parents over DEET because it doesn\'t cause skin reactions in some children, doesn\'t have the strong DEET smell, and won\'t damage plastic toys, sunglasses, or watches that kids touch. Follow the label for how many applications a day are allowed for your child\'s age.',
   },
   {
     question: 'Is picaridin safe for pets and dogs?',
-    answer: 'Picaridin is safe for occasional incidental contact with dogs (e.g., a dog brushing against a person who has picaridin on their skin). However, do NOT apply picaridin or DEET directly to your dog\'s coat for tick/flea prevention — these are formulated for human use. Dogs need pet-specific tick prevention (oral medications like NexGard or Bravecto, or vet-prescribed topicals). Cats are particularly sensitive — keep cats away from any freshly-applied repellent on humans until it dries (typically 30 minutes). Picaridin is significantly less toxic to cats than permethrin (which is fatal to cats).',
+    answer: 'Picaridin is made for human skin, so incidental contact (e.g., a dog brushing against a person who has picaridin on their skin) is very different from applying it to the animal. Do NOT apply picaridin or DEET directly to your dog\'s coat for tick/flea prevention — these are formulated for human use. Dogs need pet-specific tick prevention (oral medications like NexGard or Bravecto, or vet-prescribed topicals). Cats are particularly sensitive — keep cats away from any freshly-applied repellent on humans until it dries. Picaridin is significantly less toxic to cats than permethrin (which is fatal to cats).',
   },
   {
     question: 'Does picaridin work against ticks?',
-    answer: 'Yes. Picaridin 20% has been shown in field testing to repel blacklegged ticks (the species that transmits Lyme disease in Ontario) for 8 hours per application — comparable to DEET 30%. For maximum tick protection during Ontario hiking, layer picaridin or DEET on exposed skin PLUS permethrin on clothing. Permethrin actually kills ticks that contact treated fabric, while picaridin/DEET only repel those targeting bare skin. The combination prevents tick bites at multiple stages.',
+    answer: 'Yes. Picaridin 20% has been shown in field testing to repel blacklegged ticks (the species that transmits Lyme disease in Ontario) for 8 hours per application — comparable to DEET 30%. For maximum tick protection during Ontario hiking, layer picaridin or DEET on exposed skin PLUS permethrin on clothing. Permethrin actually kills ticks that contact treated fabric, while picaridin/DEET only repel those targeting bare skin. The combination cuts tick bites at more than one point.',
   },
   {
     question: 'How long does picaridin last vs DEET?',
@@ -46,7 +47,7 @@ const FAQS = [
   },
   {
     question: 'Does picaridin damage clothing or sunglasses?',
-    answer: 'No — this is one of picaridin\'s major advantages over DEET. Picaridin is safe on synthetic fabrics, plastics, painted surfaces, sunglasses, watches, and electronics. DEET (especially at 30%+) actively dissolves plastics — it can damage sunglass coatings, melt plastic watch straps, ruin synthetic clothing fibres, and damage rubber and silicone (think hiking gear, water bottles, phone cases). Anyone who hikes with high-end gear, takes photos outdoors, or uses prescription glasses should choose picaridin over DEET for that reason alone.',
+    answer: 'No — this is one of picaridin\'s major advantages over DEET. Picaridin does not damage synthetic fabrics, plastics, painted surfaces, sunglasses, watches, or electronics. DEET (especially at 30%+) actively dissolves plastics — it can damage sunglass coatings, melt plastic watch straps, ruin synthetic clothing fibres, and damage rubber and silicone (think hiking gear, water bottles, phone cases). Anyone who hikes with high-end gear, takes photos outdoors, or uses prescription glasses should choose picaridin over DEET for that reason alone.',
   },
   {
     question: 'Can I use picaridin and DEET together?',
@@ -58,7 +59,7 @@ const FAQS = [
   },
   {
     question: 'What is picaridin?',
-    answer: 'Picaridin is a synthetic insect repellent developed in the 1980s that repels mosquitoes, ticks, and black flies by blocking their ability to smell you — the same mechanism DEET uses. At 20% concentration it delivers 5–8 hours of mosquito protection and up to 8 hours against ticks, matching DEET while staying non-greasy, odourless, and safe on plastics, sunglasses, and synthetic clothing. It is approved by Health Canada and recommended by the World Health Organization for travel to disease-endemic regions. In Canada, picaridin is officially labelled "icaridin" — same molecule, different name.',
+    answer: 'Picaridin is a synthetic insect repellent developed in the 1980s that repels mosquitoes, ticks, and black flies by blocking their ability to smell you — the same mechanism DEET uses. At 20% concentration it delivers 5–8 hours of mosquito protection and up to 8 hours against ticks, matching DEET while staying non-greasy, odourless, and gentle on plastics, sunglasses, and synthetic clothing. It is sold in Canada under PCP registration numbers and recommended by the World Health Organization for travel to disease-endemic regions. In Canada, picaridin is officially labelled "icaridin" — same molecule, different name.',
   },
   {
     question: 'Is icaridin the same as picaridin?',
@@ -66,7 +67,7 @@ const FAQS = [
   },
   {
     question: 'Is picaridin safe?',
-    answer: 'Yes. Picaridin (icaridin) has a strong safety record and is approved by Health Canada, the US EPA, and the World Health Organization. It is registered for adults and children 6 months and older, is less likely than DEET to irritate skin, and does not damage plastics or fabric. As with any repellent, apply only to exposed skin (not under clothing), avoid eyes and mouth, wash it off once indoors, and use physical barriers instead of chemical repellent for infants under 6 months.',
+    answer: 'Picaridin (icaridin) has been in wide use for decades. Products carry Canadian PCP registration numbers and US EPA registrations, and Canadian labels allow use on adults and children 6 months and older. It is less likely than DEET to irritate skin, and does not damage plastics or fabric. As with any repellent, apply only to exposed skin (not under clothing), avoid eyes and mouth, wash it off once indoors, and use physical barriers instead of chemical repellent for infants under 6 months.',
   },
 ]
 
@@ -112,20 +113,20 @@ export default function PicaridinVsDeetPage() {
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Picaridin 20% gives 5&ndash;8 hours of mosquito protection and up to 8 hours against ticks.</li>
               <li>DEET 30% gives 5&ndash;7 hours against mosquitoes and 6&ndash;8 hours against ticks.</li>
-              <li>Both are Health Canada-approved for children 6 months and older.</li>
-              <li>Picaridin is safe on plastics, sunglasses, and synthetic fabrics; DEET 30%+ dissolves them.</li>
+              <li>Canadian label limits allow both on children 6 months and older (DEET at 10% or less for children).</li>
+              <li>Picaridin won&rsquo;t damage plastics, sunglasses, or synthetic fabrics; DEET 30%+ dissolves them.</li>
               <li>A 4&ndash;6 oz bottle costs about $8&ndash;$18 (picaridin) or $7&ndash;$14 (DEET) in Canada.</li>
-              <li>Skin repellent lasts hours; licensed barrier spray covers the whole yard for 21&ndash;30 days from $99.</li>
+              <li>Skin repellent lasts hours; licensed barrier spray treats the whole yard, from $99.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
           <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="Picaridin 20% (Natrapel, OFF! Defense, or Sawyer)"
-            blurb="The winner for most Canadians — the same 5–8 hour mosquito and 8-hour tick protection as DEET 30%, but non-greasy, odourless, and safe on plastics, sunglasses, and synthetic clothing."
+            blurb="The winner for most Canadians — the same 5–8 hour mosquito and 8-hour tick protection as DEET 30%, but non-greasy, odourless, and won’t damage plastics, sunglasses, or synthetic clothing."
             search="natrapel picaridin insect repellent"
             score={9.0}
-            pros={['Matches DEET protection at 20%', 'Non-greasy, odourless, dries fast', 'Safe on plastics, sunglasses, and synthetic fabrics', 'Kid-safe from 6 months (Health Canada)']}
+            pros={['Matches DEET protection at 20%', 'Non-greasy, odourless, dries fast', 'Won’t damage plastics, sunglasses, or synthetic fabrics', 'Labelled for children from 6 months']}
             cons={['DEET slightly better on heavy blackflies', 'Protects skin only — not the whole yard']}
           />
         </div>
@@ -171,7 +172,7 @@ export default function PicaridinVsDeetPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Skin repellents protect YOU — not your yard.</strong> Picaridin and DEET work for 5–8 hours of active outdoor use. For whole-yard mosquito and tick protection that doesn&rsquo;t require re-applying every few hours, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> treats vegetation surfaces with 21–30 day residual coverage.
+              <strong className="text-amber-900">⚠️ Skin repellents protect YOU — not your yard.</strong> Picaridin and DEET work for 5–8 hours of active outdoor use. For whole-yard mosquito and tick treatment that doesn&rsquo;t require re-applying every few hours, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> treats vegetation surfaces and is re-applied on a schedule.
             </p>
           </div>
         </div>
@@ -182,7 +183,7 @@ export default function PicaridinVsDeetPage() {
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Repellent Explainer</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-3">What Is Picaridin (a.k.a. Icaridin in Canada)?</h2>
           <p className="text-base text-gray-800 leading-relaxed mb-4">
-            <strong>Picaridin is a synthetic insect repellent that keeps mosquitoes, ticks, and black flies from biting by blocking their ability to smell you &mdash; as effective as DEET, but non-greasy, odourless, and safe on plastics and clothing.</strong> It was developed in the 1980s, is approved by Health Canada, and is recommended by the World Health Organization for travel to mosquito-borne-disease regions. At 20% concentration it delivers 5&ndash;8 hours of mosquito protection and up to 8 hours against ticks &mdash; the modern go-to for most Canadian outdoor activity.
+            <strong>Picaridin is a synthetic insect repellent that keeps mosquitoes, ticks, and black flies from biting by blocking their ability to smell you &mdash; as effective as DEET, but non-greasy, odourless, and gentle on plastics and clothing.</strong> It was developed in the 1980s, is sold in Canada under PCP registration numbers, and is recommended by the World Health Organization for travel to mosquito-borne-disease regions. At 20% concentration it delivers 5&ndash;8 hours of mosquito protection and up to 8 hours against ticks &mdash; the modern go-to for most Canadian outdoor activity.
           </p>
           <div className="rounded-xl bg-emerald-50 border-l-4 border-emerald-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -214,10 +215,10 @@ export default function PicaridinVsDeetPage() {
                   ['Blackfly protection', 'Good', 'Slightly better'],
                   ['Skin feel', 'Non-greasy, dries fast', 'Slightly greasy'],
                   ['Odour', 'Nearly odourless', 'Distinct chemical smell'],
-                  ['Plastic / synthetic safety', '✓ Safe', '✗ Damages plastics'],
-                  ['Sunglasses safe', '✓ Safe', '✗ Can damage coatings'],
-                  ['Synthetic clothing safe', '✓ Safe', '✗ Damages nylon, spandex'],
-                  ['Kid-safe (6+ months)', '✓ Approved', '✓ Approved (Health Canada)'],
+                  ['Plastic / synthetic compatibility', '✓ No damage', '✗ Damages plastics'],
+                  ['Sunglasses', '✓ No damage', '✗ Can damage coatings'],
+                  ['Synthetic clothing', '✓ No damage', '✗ Damages nylon, spandex'],
+                  ['Children (6+ months)', '✓ Labelled for use', '✓ Max 10% DEET (Health Canada limit)'],
                   ['Years in market', '~30 (1990s)', '~70 (1950s)'],
                   ['Resistance', 'None documented', 'None documented'],
                   ['Price (4-6 oz bottle)', '$8–$18', '$7–$14'],
@@ -243,14 +244,14 @@ export default function PicaridinVsDeetPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <p className="not-prose text-sm text-gray-600 mb-1">Popular Health-Canada-approved options for each (Natrapel/OFF! picaridin, Watkins/OFF! DEET):</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Popular options with Canadian PCP registration numbers for each (Natrapel/OFF! picaridin, Watkins/OFF! DEET):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="natrapel picaridin insect repellent">Check picaridin repellents on Amazon.ca →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="off deep woods deet insect repellent">Check DEET repellents →</BuyLink>
           </div>
 
           <h2>Best Picaridin Repellents in Canada</h2>
-          <p>All three of these are 20% picaridin (often labelled &ldquo;icaridin 20%&rdquo; on Canadian packaging), Health-Canada-approved, and safe for kids 6 months and older. Any one of them gives you the full 5&ndash;8 hours of mosquito protection and up to 8 hours against ticks &mdash; pick the format you like best.</p>
+          <p>All three of these are 20% picaridin (often labelled &ldquo;icaridin 20%&rdquo; on Canadian packaging), sold with Canadian PCP registration numbers, and labelled for kids 6 months and older. Any one of them gives you the full 5&ndash;8 hours of mosquito protection and up to 8 hours against ticks &mdash; pick the format you like best.</p>
           <div className="not-prose grid gap-4 sm:grid-cols-3 my-6">
             <div className="rounded-xl border border-navy-100 bg-white p-4 shadow-sm flex flex-col">
               <p className="font-extrabold text-brand-900">Natrapel 20% Picaridin</p>
@@ -268,12 +269,12 @@ export default function PicaridinVsDeetPage() {
               <BuyLink tag={AMZ_TAG} search="sawyer picaridin insect repellent">Check price on Amazon.ca →</BuyLink>
             </div>
           </div>
-          <p className="text-sm text-gray-600">Skin repellent keeps bites off you for a few hours &mdash; it won&rsquo;t clear your yard. For hands-off, whole-property coverage, layer in <Link href="/mosquito-control">professional barrier spray</Link> with 21&ndash;30 day residual.</p>
+          <p className="text-sm text-gray-600">Skin repellent keeps bites off you for a few hours &mdash; it won&rsquo;t clear your yard. For hands-off, whole-property coverage, layer in <Link href="/mosquito-control">professional barrier spray</Link>, re-applied on a schedule.</p>
 
           <h2>What Each Compound Actually Does</h2>
           <p><strong>DEET</strong> (N,N-Diethyl-meta-toluamide) was developed by the US military in 1946 and registered for civilian use in 1957. It works by interfering with mosquitoes&rsquo; olfactory receptors — they essentially can&rsquo;t smell you when DEET is on your skin. Eight decades of human use have produced extensive safety data; rare side effects include skin irritation in sensitive individuals.</p>
           <p>The questions readers ask next are almost always about safety — Health Canada&rsquo;s 30% adult and 10% child concentration caps, the cancer claims that circulate online, and whether it is acceptable in pregnancy. We work through each of those in <Link href="/blog/is-deet-safe">our DEET safety explainer</Link>.</p>
-          <p><strong>Picaridin</strong> (also called icaridin) was developed in the 1980s and approved by Health Canada in 2010. It works similarly to DEET — disrupting the mosquito&rsquo;s ability to detect human scent compounds (lactic acid, CO₂, octenol). Modern formulations are odourless, non-sticky, and safe on plastics and synthetic fabrics. The World Health Organization recommends picaridin for travel to disease-endemic regions.</p>
+          <p><strong>Picaridin</strong> (also called icaridin) was developed in the 1980s and is now sold in Canada under PCP registration numbers. It works similarly to DEET — disrupting the mosquito&rsquo;s ability to detect human scent compounds (lactic acid, CO₂, octenol). Modern formulations are odourless, non-sticky, and gentle on plastics and synthetic fabrics. The World Health Organization recommends picaridin for travel to disease-endemic regions.</p>
 
           <h2>The Plastic-Damage Problem with DEET</h2>
           <p>If you&rsquo;ve ever applied DEET spray and accidentally got it on your sunglasses, watch, or hiking gear, you may have noticed coatings clouding or plastics turning sticky. DEET is a known plasticizer — it actively breaks down many synthetic materials. Specifically affected:</p>
@@ -292,17 +293,17 @@ export default function PicaridinVsDeetPage() {
           <p>Skin repellent alone is rarely the complete answer. The best protection layers multiple tools that each address a different vector:</p>
           <ol>
             <li><strong>Skin: Picaridin 20% or DEET 30%</strong> — apply to exposed skin before going outdoors</li>
-            <li><strong>Clothing: <Link href="/blog/permethrin-canada-yard-clothing-spray">Sawyer Permethrin</Link></strong> — pre-treat hiking pants, socks, hat (kills ticks on contact)</li>
+            <li><strong>Clothing: <Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin-treated clothing</Link></strong> — factory pre-treated hiking pants, socks, hat (kills ticks on contact)</li>
             <li><strong>Patio: <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link></strong> — 4.5m repellent zone around your seating area</li>
-            <li><strong>Yard vegetation: <Link href="/mosquito-control">Professional barrier spray</Link></strong> — kills mosquitoes and ticks resting on leaves, 21–30 day residual</li>
+            <li><strong>Yard vegetation: <Link href="/mosquito-control">Professional barrier spray</Link></strong> — targets mosquitoes and ticks where they rest, re-applied on a schedule</li>
             <li><strong>Standing water: <Link href="/blog/mosquito-dunks-canada-guide">BTI dunks</Link></strong> — kills larvae before they become biting adults</li>
           </ol>
 
           <h2>For Children and Pets — Safety Reminders</h2>
-          <p><strong>Children 6 months+:</strong> Both picaridin 20% and DEET 30% are approved by Health Canada and the Canadian Paediatric Society. Apply to your hands first, then rub onto the child&rsquo;s exposed skin (not face — apply to your hands, rub on the back of their neck and ears). Avoid hands and around eyes/mouth.</p>
+          <p><strong>Children 6 months+:</strong> Health Canada&rsquo;s label limits allow picaridin (icaridin) 20% and DEET at no more than 10% for this age group, and the Canadian Paediatric Society prefers icaridin. Apply to your hands first, then rub onto the child&rsquo;s exposed skin (not face — apply to your hands, rub on the back of their neck and ears). Avoid hands and around eyes/mouth.</p>
           <p><strong>Children under 6 months:</strong> No chemical repellents. Use mosquito netting on strollers and physical barriers (long sleeves, lightweight pants).</p>
-          <p><strong>Dogs:</strong> Don&rsquo;t apply human repellents directly. Use vet-prescribed oral or topical tick/flea prevention. Picaridin is safer than DEET if accidentally licked, but neither is ideal.</p>
-          <p><strong>Cats:</strong> Keep away from freshly-applied repellent on humans until it dries (30 minutes). NEVER apply permethrin near cats — it&rsquo;s fatal to them.</p>
+          <p><strong>Dogs:</strong> Don&rsquo;t apply human repellents directly. Use vet-prescribed oral or topical tick/flea prevention. Neither is made for animals, so keep pets from licking treated skin.</p>
+          <p><strong>Cats:</strong> Keep away from freshly-applied repellent on humans until it dries. NEVER apply permethrin near cats — it&rsquo;s fatal to them.</p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -330,7 +331,7 @@ export default function PicaridinVsDeetPage() {
         </div>
       </article>
 
-      <CTASection heading="Skin Repellent Protects You · Barrier Spray Protects Your Yard" subtext="Get a free quote for licensed barrier spray. From $99. Health Canada approved. 30-day residual." variant="dark" />
+      <CTASection heading="Skin Repellent Protects You · Barrier Spray Treats Your Yard" subtext={`Get a free quote for licensed barrier spray. From $99. ${PROMISES.labelLine}. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

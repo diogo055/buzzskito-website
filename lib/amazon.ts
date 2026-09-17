@@ -23,8 +23,21 @@ const TAG =
 
 export const AMAZON_ENABLED = TAG.length > 0
 
-/** Amazon-mandated disclosure sentence. Rendered only when AMAZON_ENABLED. */
-export const AMAZON_DISCLOSURE = 'As an Amazon Associate, BuzzSkito earns from qualifying purchases.'
+/**
+ * Amazon-mandated disclosure sentence. Rendered only when AMAZON_ENABLED.
+ *
+ * VERBATIM AND LOAD-BEARING — do not reword. Operating Agreement s.5 requires this
+ * exact sentence "or any substantially similar statement previously approved by us".
+ * The site previously ran "As an Amazon Associate, BuzzSkito earns from qualifying
+ * purchases." — substantially similar, but never submitted for approval, so it sat
+ * outside the safe harbour on all 358 pages. The first person is Amazon's wording,
+ * not a typo; the site's own voice follows in the sentence after it.
+ *
+ * Every surface that discloses MUST import this constant rather than retype the
+ * sentence — StickyBuyBar carried its own hardcoded copy and that is how the two
+ * drifted apart unnoticed.
+ */
+export const AMAZON_DISCLOSURE = 'As an Amazon Associate I earn from qualifying purchases.'
 
 /**
  * Returns a compliant Amazon.ca Special Link, or null when no tag is configured.

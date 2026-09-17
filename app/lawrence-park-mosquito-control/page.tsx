@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Lawrence Park | From $99',
   description:
-    'Professional mosquito control in Lawrence Park, Toronto. Barrier spray near Sherwood Park ravine from $99. Safe for kids & pets. Call (289) 216-5030.',
+    'Professional mosquito control in Lawrence Park, Toronto. Barrier spray near Sherwood Park ravine from $99. Licensed Ontario operator. Call (289) 216-5030.',
   canonical: '/lawrence-park-mosquito-control',
 })
 
@@ -27,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'How many treatments does a Lawrence Park home need per season?',
-    answer: "Lawrence Park properties near Sherwood Park ravine or Burke Brook typically benefit from 4–5 treatments spaced 21–28 days apart from May through September. The deep ravine proximity and dense mature canopy mean mosquitoes have both breeding habitat and daytime resting zones immediately adjacent to residential lots. Call (289) 216-5030 for a free assessment.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Lawrence Park properties near Sherwood Park ravine or Burke Brook typically benefit from Standard's two-week spacing: the deep ravine proximity and dense mature canopy mean mosquitoes have both breeding habitat and daytime resting zones immediately adjacent to residential lots. Call (289) 216-5030 for a free assessment.",
   },
   {
     question: 'When does mosquito season start in Lawrence Park?',
@@ -57,21 +59,23 @@ export default function LawrenceParkMosquitoPage() {
           { label: NEIGHBOURHOOD },
         ]}
         title={<>Mosquito Control in {NEIGHBOURHOOD}, {CITY}</>}
-        subtitle={<>Lawrence Park's deep ravines, Burke Brook, and mature tree canopy create intense mosquito pressure from spring through fall. BuzzSkito's barrier spray gives Lawrence Park families 30-day protection per treatment.</>}
+        subtitle={<>Licensed Ontario pesticide operator. Treatments applied according to label directions, for Lawrence Park homes beside deep ravines, Burke Brook, and mature tree canopy.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
+
+      <TypicalPrices service="mosquito" city="Lawrence Park" />
 
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
@@ -81,8 +85,8 @@ export default function LawrenceParkMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies barrier spray, according to label directions, to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `${PROMISES.rainBack} Standard and Exclusive plans also carry the Bite-Free Guarantee between scheduled visits.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -98,7 +102,7 @@ export default function LawrenceParkMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Lawrence Park's Ravine-Driven Mosquito Problem</h2>
           <p>Lawrence Park is one of Toronto's most prestigious residential neighbourhoods — and one of its most mosquito-affected. The <strong>Sherwood Park ravine</strong> and <strong>Burke Brook</strong> corridor run along the neighbourhood's eastern boundary, sustaining a permanent water system surrounded by dense canopy and naturalized vegetation. This ravine habitat generates consistent, season-long mosquito populations that disperse into adjacent residential properties every evening.</p>
-          <p>The neighbourhood's <strong>mature tree canopy</strong> — among the densest in the city — compounds the problem by providing ideal daytime resting sites for mosquitoes between feeding flights. BuzzSkito's barrier spray targets these resting surfaces across your property, creating a treated zone that eliminates mosquitoes on contact and deters new arrivals for up to 30 days per treatment.</p>
+          <p>The neighbourhood's <strong>mature tree canopy</strong> — among the densest in the city — compounds the problem by providing ideal daytime resting sites for mosquitoes between feeding flights. BuzzSkito's barrier spray targets these resting surfaces across your property, creating a treated zone where mosquitoes rest, renewed on a set schedule (monthly, every two weeks or weekly, depending on your plan) through the season.</p>
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of Lawrence Park and surrounding neighbourhoods. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page, or our page for <Link href="/rosedale-mosquito-control" className="text-brand-700 hover:underline">Rosedale</Link>.</p>
@@ -124,10 +128,10 @@ export default function LawrenceParkMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier on the leaves where mosquitoes rest, renewed on a set schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -136,7 +140,7 @@ export default function LawrenceParkMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Our targeted tick barrier spray covers the lawn edges, leaf litter and fence lines where ticks wait, with 5 sprays per season ($597 on its own, or $497 added to any mosquito plan). See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>
@@ -175,6 +179,10 @@ export default function LawrenceParkMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Lawrence Park" service="mosquito" location="price_card_faq" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

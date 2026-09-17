@@ -2,7 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Commercial Mosquito Control GTA | From $99',
@@ -18,11 +20,11 @@ const FAQS = [
   },
   {
     question: 'How does commercial mosquito treatment differ from residential?',
-    answer: "Commercial properties typically have larger treatment areas, more complex vegetation, higher stakes for guest experience, and specific compliance requirements. BuzzSkito provides customized commercial programs with flexible scheduling (off-hours, early morning, or between events), volume-based pricing, treatment logs for compliance documentation, and the same Health Canada–approved formulas used in residential service.",
+    answer: "Commercial properties typically have larger treatment areas, more complex vegetation, higher stakes for guest experience, and specific compliance requirements. BuzzSkito provides customized commercial programs with flexible scheduling (off-hours, early morning, or between events), volume-based pricing, treatment logs for compliance documentation, and the same products used in residential service, applied according to label directions.",
   },
   {
-    question: "Is BuzzSkito's treatment safe for restaurant patios and food-service areas?",
-    answer: "Yes, with important caveats. We treat all surrounding vegetation, shrubs, fence lines, and perimeter areas. We do not apply near open food, food preparation surfaces, or directly to dining furniture. We recommend scheduling treatment the evening before service or early morning before opening. After the 30-minute dry time, treated vegetation is safe for guests and staff.",
+    question: "How is BuzzSkito's treatment applied around restaurant patios and food-service areas?",
+    answer: "We treat around patios, not in them. We treat surrounding vegetation, shrubs, fence lines, and perimeter areas, and we do not apply near open food, food preparation surfaces, or directly to dining furniture. We recommend scheduling treatment the evening before service or early morning before opening. Keep guests and staff off treated areas until the spray has dried, as the product label directs.",
   },
   {
     question: 'Can BuzzSkito treat before a specific event?',
@@ -57,7 +59,7 @@ export default function CommercialMosquitoPage() {
 
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
+          <span>✓ Licensed Ontario Pesticide Operator</span>
           <span>✓ Flexible Scheduling (Off-Hours Available)</span>
           <span>✓ Treatment Logs for Compliance</span>
           <span>✓ Seasonal Programs Available</span>
@@ -68,15 +70,12 @@ export default function CommercialMosquitoPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
-      
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -84,8 +83,8 @@ export default function CommercialMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies barrier spray, following the label directions, to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Stay off treated areas until the spray has dried, as the label directs. ${PROMISES.rainBack} Standard & Exclusive plans also carry the Bite-Free Guarantee.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -117,7 +116,7 @@ export default function CommercialMosquitoPage() {
           </div>
 
           <h2>Why Commercial Mosquito Control Matters</h2>
-          <p>Mosquito activity on your outdoor property affects guest experience, staff comfort, and revenue. A restaurant patio loses covers when mosquitoes are active. An event venue's reviews mention pest conditions. A golf course loses rounds when players are driven inside by biting insects. Professional barrier spray is one of the most cost-effective investments in outdoor guest experience for GTA businesses — one treatment creates up to 30 days of dramatically improved conditions.</p>
+          <p>Mosquito activity on your outdoor property affects guest experience, staff comfort, and revenue. A restaurant patio loses covers when mosquitoes are active. An event venue's reviews mention pest conditions. A golf course loses rounds when players are driven inside by biting insects. Professional barrier spray is one of the most cost-effective investments in outdoor guest experience for GTA businesses, with treatments scheduled around your operating hours and events.</p>
 
           <h2>Tick Control for Commercial Properties</h2>
           <p>Golf courses, camp properties, school grounds, and any commercial property adjacent to green corridors, ravines, or naturalized areas in the GTA should also consider tick control. Blacklegged ticks carrying Lyme disease are well-established in GTA green corridors. Liability and duty of care considerations make tick control increasingly relevant for commercial and institutional operators. BuzzSkito's combined mosquito and tick treatment addresses both with a single service visit.</p>
@@ -126,7 +125,7 @@ export default function CommercialMosquitoPage() {
           <ul>
             <li>Initial property walkthrough and treatment plan</li>
             <li>Customized scheduling around your operating hours and events</li>
-            <li>Health Canada–approved, water-based formula — safe for use around guests and staff after 30-minute dry time</li>
+            <li>Products applied according to label directions; guests and staff stay off treated areas until the spray has dried</li>
             <li>Detailed treatment logs for compliance documentation</li>
             <li>Priority scheduling for existing commercial accounts</li>
             <li>Flexible season programs or on-demand individual treatments</li>
@@ -161,6 +160,10 @@ export default function CommercialMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
@@ -204,7 +207,7 @@ export default function CommercialMosquitoPage() {
             </Link>
             <Link href="/pool-backyard-mosquito-control" className="block rounded-xl border border-brand-100 bg-brand-50 p-5 hover:border-amber-400 transition">
               <p className="font-extrabold text-brand-900 mb-1">→ Pool &amp; Backyard Properties</p>
-              <p className="text-sm text-gray-700">Pool-safe barrier spray, water-feature larvicide treatment, entertaining-area protection.</p>
+              <p className="text-sm text-gray-700">Barrier spray around pool areas, water-feature larvicide treatment, entertaining-area protection.</p>
             </Link>
           </div>
         </div>

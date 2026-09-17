@@ -10,6 +10,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const POST = {
   title: 'Tick Season in Oakville 2026: When Blacklegged Ticks Are Most Active (and Why Halton Is Now a Risk Zone)',
@@ -39,7 +40,7 @@ const FAQS = [
   },
   {
     question: 'Can my dog catch Lyme disease in Oakville?',
-    answer: 'Yes — Oakville veterinarians have reported a clear upward trend in canine Lyme cases since 2022, and the dogs most at risk are the ones walking trails along 16 Mile Creek, Bronte Creek, Sheldon Creek, the Joshua Creek ravine, and the off-leash areas at Bronte Creek Provincial Park. Even neighbourhood walks in Glen Abbey, Eastlake, or Falgarwood can produce attachments if your route brushes any wooded edge. Keep your dog on year-round tick prevention from a veterinarian, brush them after every walk, and treat your yard professionally so the back-fence transition zone is not a re-infestation source. Most positive canine cases never showed an obvious tick — the nymphs are too small to spot in fur.',
+    answer: 'Yes — Oakville veterinarians have reported a clear upward trend in canine Lyme cases since 2022, and the dogs most at risk are the ones walking trails along 16 Mile Creek, Bronte Creek, Sheldon Creek, the Joshua Creek ravine, and the off-leash areas at Bronte Creek Provincial Park. Even neighbourhood walks in Glen Abbey, Eastlake, or Falgarwood can produce attachments if your route brushes any wooded edge. Keep your dog on year-round tick prevention from a veterinarian, brush them after every walk, and treat your yard professionally so the back-fence transition zone is treated rather than left as a re-infestation source. Most positive canine cases never showed an obvious tick — the nymphs are too small to spot in fur.',
   },
 ]
 
@@ -89,7 +90,7 @@ export default function TickSeasonOakvillePage() {
             <li>The nymph peak runs late May through mid-July; poppy-seed-sized nymphs carry the same Lyme bacteria as adults.</li>
             <li>Blacklegged ticks reactivate above 4&deg;C, reliably by the third week of March &mdash; the active window has grown roughly three weeks since 2020.</li>
             <li>Highest-risk neighbourhoods include West Oak Trails, Palermo, Bronte, Joshua Creek, and Iroquois Ridge North.</li>
-            <li>BuzzSkito&rsquo;s tick season plan is five treatments, roughly monthly from May through September; the Health Canada-approved formula holds up to 30 days of residual, so monthly renewal is what closes the gap.</li>
+            <li>BuzzSkito&rsquo;s tick season plan is five treatments, roughly monthly from May through September; each application&rsquo;s residual wears down within weeks, so monthly renewal is what closes the gap.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
@@ -154,7 +155,7 @@ export default function TickSeasonOakvillePage() {
         <p>Lower-pressure pockets exist — the dense lakefront condo strip in central Oakville, the parts of Trafalgar built on open agricultural land, and treeless older subdivisions in central Oakville. But &ldquo;lower pressure&rdquo; is not &ldquo;no pressure.&rdquo; Halton Region surveillance has produced positive samples from areas no one would have flagged five years ago.</p>
 
         <h2>What Halton Region Public Health recommends</h2>
-        <p>Halton Region Public Health publishes a standard tick-prevention checklist: wear long sleeves and tucked-in pants in wooded areas, use Health Canada-approved repellents containing DEET or icaridin, check yourself, your kids, and your pets after every outdoor exposure, and remove attached ticks promptly with fine-tipped tweezers. They also flag the 24-36 hour window — Lyme transmission typically requires sustained tick attachment, so daily checks meaningfully reduce risk.</p>
+        <p>Halton Region Public Health publishes a standard tick-prevention checklist: wear long sleeves and tucked-in pants in wooded areas, use repellents containing DEET or icaridin (look for the PCP registration number on the label), check yourself, your kids, and your pets after every outdoor exposure, and remove attached ticks promptly with fine-tipped tweezers. They also flag the 24-36 hour window — Lyme transmission typically requires sustained tick attachment, so daily checks meaningfully reduce risk.</p>
         <AffiliateDisclosure />
         <div className="not-prose my-4">
           <BuyLink tag={AMZ_TAG} search="icaridin insect repellent canada">Check icaridin insect repellent on Amazon.ca →</BuyLink>
@@ -169,11 +170,11 @@ export default function TickSeasonOakvillePage() {
 
         <h2>The 2026 Oakville protection plan</h2>
         <ol>
-          <li><strong>Five professional barrier sprays, roughly monthly from May through September.</strong> The season opens in May on the leading edge of the nymph peak and the final visit carries into the September-October adult peak. Applied along the back fence line, garden bed edges, leaf-litter zones, woodpiles, and any lawn-to-forest transition. Health Canada-approved formula, residual protection up to 30 days &mdash; which is exactly why the visits land about a month apart. See <Link href="/oakville-tick-spray" className="text-brand-700 underline">Oakville tick spray pricing</Link>.</li>
+          <li><strong>Five professional barrier sprays, roughly monthly from May through September.</strong> The season opens in May on the leading edge of the nymph peak and the final visit carries into the September-October adult peak. Applied along the back fence line, garden bed edges, leaf-litter zones, woodpiles, and any lawn-to-forest transition. Products applied according to label directions, with a temporary residual &mdash; which is exactly why the visits land about a month apart. See <Link href="/oakville-tick-spray" className="text-brand-700 underline">Oakville tick spray pricing</Link>.</li>
           <li><strong>Why the cadence is monthly.</strong> A late-May visit paired with a September one leaves a multi-month hole straight through the nymph peak &mdash; the window when poppy-seed-sized nymphs drive most Lyme transmission. Deer and white-footed mice keep walking fresh ticks in from Bronte Creek, 16 Mile Creek, and the North Oakville woodlots all season, so the barrier has to be renewed rather than applied once or twice.</li>
           <li><strong>Habitat modification along the ravine edge.</strong> 3-foot wood-chip or gravel buffer, weekly leaf-litter clearing through May-July, mow tight to the buffer line.</li>
           <li><strong>Daily tick checks for the household and pets.</strong> Especially after Bronte Creek Provincial Park, 16 Mile Creek trail walks, off-leash dog parks, and gardening sessions.</li>
-          <li><strong>Permethrin-treated clothing for trail hikers.</strong> 0.5% permethrin spray on hiking pants, socks, and shoes. One treatment lasts 6 weeks or 6 washes. The single most effective personal protection layer.</li>
+          <li><strong>Permethrin-treated clothing for trail hikers.</strong> Buy garments that come factory-treated, such as gaiters, socks, and hiking pants &mdash; in Canada, consumer permethrin sprays for treating your own clothing are not registered.</li>
           <li><strong>Year-round tick prevention for dogs.</strong> Talk to your Oakville veterinarian. Most positive canine cases never showed an obvious tick attachment because nymphs are too small to spot in fur.</li>
         </ol>
         <TopPick tag={AMZ_TAG}
@@ -190,7 +191,7 @@ export default function TickSeasonOakvillePage() {
         </div>
 
         <h2>Same-week Oakville service</h2>
-        <p>BuzzSkito treats every Oakville neighbourhood with same-week service availability throughout the May-October core season. Pricing scales by lot size, the quote is sent within 24 hours of your request, and no on-site visit is needed for the estimate. Dedicated treatment pages for <Link href="/oakville-mosquito-control" className="text-brand-700 underline">Oakville mosquito control</Link>, <Link href="/west-oak-trails-mosquito-control" className="text-brand-700 underline">West Oak Trails</Link>, <Link href="/joshua-creek-mosquito-control" className="text-brand-700 underline">Joshua Creek</Link>, <Link href="/bronte-mosquito-control" className="text-brand-700 underline">Bronte</Link>, and <Link href="/old-oakville-mosquito-control" className="text-brand-700 underline">Old Oakville</Link>.</p>
+        <p>BuzzSkito treats every Oakville neighbourhood with same-week service availability throughout the May–September season. Pricing scales by lot size. {PROMISES.response} Dedicated treatment pages for <Link href="/oakville-mosquito-control" className="text-brand-700 underline">Oakville mosquito control</Link>, <Link href="/west-oak-trails-mosquito-control" className="text-brand-700 underline">West Oak Trails</Link>, <Link href="/joshua-creek-mosquito-control" className="text-brand-700 underline">Joshua Creek</Link>, <Link href="/bronte-mosquito-control" className="text-brand-700 underline">Bronte</Link>, and <Link href="/old-oakville-mosquito-control" className="text-brand-700 underline">Old Oakville</Link>.</p>
 
         <h2>Related guides</h2>
         <ul>
@@ -216,7 +217,7 @@ export default function TickSeasonOakvillePage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Permethrin-Treated Clothing & Gaiters" search="insectguard permethrin gaiters" label="Best personal protection" />
 
-      <CTASection heading="Oakville tick pressure is climbing — get your yard protected" subtext="Free custom quote based on your address and lot. Sent within 24 hours. Same-week service across Oakville including West Oak Trails, Glen Abbey, Joshua Creek, Bronte, and Old Oakville." />
+      <CTASection heading="Oakville tick pressure is climbing — get your yard protected" subtext={`Free custom quote based on your address and lot. ${PROMISES.response} Same-week service across Oakville including West Oak Trails, Glen Abbey, Joshua Creek, Bronte, and Old Oakville.`} />
     </>
   )
 }

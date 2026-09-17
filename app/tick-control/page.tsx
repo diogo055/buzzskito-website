@@ -4,23 +4,25 @@ import CTASection from '@/components/CTASection'
 import BlogCard from '@/components/BlogCard'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { BUSINESS, CITIES, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, CITIES, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'GTA Tick Control 2026 · From $99 · 150+ Five-Star Reviews · Lyme Defence',
+  title: 'GTA Tick Control 2026 · From $99 · 150+ Five-Star Reviews · Licensed',
   description:
-    'GTA tick control specialist. Health Canada-approved barrier spray for Lyme disease prevention, from $99/treatment. BuzzSkito Bite-Free Guarantee. 19+ cities served. Call (289) 216-5030.',
+    'GTA tick control specialist. Licensed barrier spray for the lawn edges and leaf litter where ticks wait, from $99/treatment. Rain-back guarantee on every plan. 19+ cities served. Call (289) 216-5030.',
   canonical: '/tick-control',
 })
 
 const FAQS = [
-  { question: 'How long does tick spray last?', answer: "BuzzSkito's professional tick treatment provides up to 30 days of protection per application. We recommend 5 treatments per season — spaced roughly every 30 days from May through September — for full-season coverage. Our standalone tick plan is $597 (5 sprays), or $497 when bundled with any mosquito plan." },
-  { question: 'Is tick control yard spray safe for children?', answer: 'Yes. Our Health Canada–approved formula is safe for children once it has dried — approximately 30 minutes after application. During that drying window, children should stay off the treated area. After 30 minutes, kids can play on the grass and use the yard normally. The product bonds to leaf surfaces and vegetation where ticks rest — not to grass blades at ground level where children play. We also observe buffer zones around vegetable gardens and sandboxes on every property we treat.' },
-  { question: 'Is tick spray safe for dogs and cats?', answer: 'Yes. Pets can return to the treated yard 30 minutes after application, once the product has fully dried. The formula is applied to vegetation and lawn edges — not directly to pet areas like kennel runs or dog beds. We recommend keeping pets indoors during application and for the 30-minute drying period. After that, there is no exposure risk.' },
+  { question: 'How long does tick spray last?', answer: "The residual a tick treatment leaves on vegetation wears down over a few weeks with rain and new growth, which is why a single visit is not a season. We recommend 5 treatments per season, spaced roughly every 30 days from May through September. Our standalone tick plan is $597 (5 sprays), or $497 when bundled with any mosquito plan, plus HST." },
+  { question: 'What precautions apply for children during a tick yard treatment?', answer: 'Keep children off the treated area until the spray has dried, as the product label directs. Our licensed technician applies the product according to its label directions, to the leaf litter, lawn edges and vegetation where ticks rest, rather than broadcasting it across open lawn where children play. We also observe buffer zones around vegetable gardens and sandboxes on every property we treat, and we can adjust application zones if you have specific concerns.' },
+  { question: 'What precautions apply for dogs and cats during a tick treatment?', answer: 'Keep pets indoors during application and until the spray has dried, as the product label directs. The product is applied to vegetation and lawn edges, not directly to pet areas like kennel runs or dog beds. If you have specific concerns about your pets, tell us before the visit and we can adjust application zones.' },
   { question: 'Is tick control available near me in the GTA?', answer: 'BuzzSkito provides tick control across 19 GTA cities including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Woodbridge, Richmond Hill, Markham, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, and Thornhill. We also cover York Region communities including Kleinburg, Nobleton, and Schomberg. Call (289) 216-5030 to confirm service at your specific address.' },
   { question: 'What tick species are found in Ontario?', answer: 'The primary species in Ontario are the blacklegged tick (deer tick), which transmits Lyme disease, and the American dog tick. Both are active across the GTA and can be found in lawns, gardens, and wooded areas adjacent to conservation lands.' },
-  { question: 'Does tick spray kill ticks at all life stages?', answer: 'Yes. Our professional barrier spray targets adult ticks, nymphs (the smallest and most dangerous stage for Lyme disease transmission), and larvae, providing comprehensive protection across the full tick lifecycle.' },
+  { question: 'Does tick spray target ticks at all life stages?', answer: 'It targets all three: the barrier spray is applied to the zones where adult ticks, nymphs (the smallest stage, and the one most often linked to Lyme disease transmission), and larvae wait for a host. No treatment removes every tick from a yard, because deer, mice and birds keep carrying new ones in, which is why the program is repeated through the season.' },
   { question: 'Where do ticks hide in a yard?', answer: 'Ticks concentrate at lawn edges, under leaf litter, in garden beds, along fence lines, under woodpiles, and in shaded areas bordering woods or tall grass. Our treatment specifically targets these high-risk zones.' },
   { question: 'Which GTA cities have the highest tick risk?', answer: 'The highest tick activity in the GTA is found near the Oak Ridges Moraine (Richmond Hill, Caledon, King City), Rouge National Urban Park (Scarborough, Markham), Humber River valley (Vaughan, Woodbridge, Etobicoke), and Credit River corridor (Mississauga, Georgetown, Halton Hills). York Region communities near the Moraine — including King City, Kleinburg, and Nobleton — are among the highest-risk areas in the GTA. All 19 cities we serve have meaningful tick risk.' },
 ]
@@ -31,7 +33,7 @@ export default function TickControlPage() {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: 'Tick Control', description: 'Professional tick barrier spray service for residential lawns and properties across the Greater Toronto Area. Kills ticks at all life stages.', slug: '/tick-control' })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: 'Tick Control', description: 'Professional tick barrier spray service for residential lawns and properties across the Greater Toronto Area. Targets ticks at all life stages.', slug: '/tick-control' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/tick-control', '2026-07-01')) }} />
@@ -41,21 +43,24 @@ export default function TickControlPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control' }]}
         title={<>Professional Tick Control</>}
         titleAccent={<>for GTA Homes</>}
-        subtitle={<>Barrier spray that kills ticks at all life stages and provides up to 30-day protection. Serving 19 cities across the GTA — from Mississauga to Caledon, Scarborough to King City.</>}
+        subtitle={<>Licensed Ontario pesticide operator. Treatments applied according to label directions, serving 19 cities across the GTA — from Mississauga to Caledon, Scarborough to King City.</>}
+        service="tick"
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       >
         <p className="mt-5 text-brand-300 text-sm">
-          Also offering <Link href="/mosquito-control" className="text-brand-400 underline hover:text-white">mosquito control</Link> — bundle both services for complete yard protection.
+          Also offering <Link href="/mosquito-control" className="text-brand-400 underline hover:text-white">mosquito control</Link> — bundle both services so both pests are covered.
         </p>
       </CityHero>
 
       {/* QUICK ANSWER — AI Overview & ChatGPT bait */}
       <QuickAnswer question="What is the best tick control for GTA yards in 2026?">
         <p>
-          <strong>Professional Health Canada-approved barrier spray applied to leaf litter, lawn-to-woods edges, and fence-line vegetation is the most effective tick control method.</strong> Ontario&rsquo;s blacklegged tick (<em>Ixodes scapularis</em>) — the Lyme disease vector — lives in these specific micro-habitats. BuzzSkito&rsquo;s 5-spray season program runs every ~30 days from May through September, targeting nymphs (highest Lyme risk) and adult ticks. Standalone tick plan: <strong>seasonal pricing on quote</strong>. Bundled with mosquito plan: <strong>seasonal pricing on quote (save $100)</strong>. The treatment puts a Health Canada-registered residual acaricide on the specific zones where ticks quest rather than broadcasting it over open lawn. No treatment eliminates ticks from a property — wildlife carries new ones in all season, which is why the program is repeated rather than done once.
+          <strong>Professional barrier spray, applied by a licensed operator according to label directions to leaf litter, lawn-to-woods edges, and fence-line vegetation, targets the places ticks actually live.</strong> Ontario&rsquo;s blacklegged tick (<em>Ixodes scapularis</em>) — the Lyme disease vector — lives in these specific micro-habitats. BuzzSkito&rsquo;s 5-spray season program runs every ~30 days from May through September, timed around nymph and adult tick activity. Standalone tick plan: <strong>$597 per season</strong>. Bundled with any mosquito plan: <strong>$497 per season (save $100)</strong>, plus HST. The treatment puts a residual acaricide on the specific zones where ticks quest rather than broadcasting it over open lawn. No treatment eliminates ticks from a property — wildlife carries new ones in all season, which is why the program is repeated rather than done once.
         </p>
       </QuickAnswer>
+
+      <TypicalPrices service="tick" city="GTA" />
 
       {/* KEY FACTS — extractable for AI */}
       <section className="py-10 px-4 bg-white border-b border-gray-100">
@@ -70,11 +75,12 @@ export default function TickControlPage() {
                   ['GTA hotspots', 'Oak Ridges Moraine, Rouge Park, Bronte Creek, Don Valley, Dundas Valley'],
                   ['Season', 'May through September annually'],
                   ['Sprays per season', '5 (every ~30 days)'],
-                  ['Standalone price', 'seasonal pricing on quote'],
-                  ['Bundled price', 'seasonal pricing on quote with mosquito plan (saves $100)'],
+                  ['Standalone price', '$597 per season (5 sprays), plus HST'],
+                  ['Bundled price', '$497 per season with any mosquito plan (saves $100), plus HST'],
                   ['What it does', 'Residual acaricide on tick-questing zones; reduces encounters, does not eliminate ticks'],
-                  ['Re-entry time', '30 minutes after spray dries'],
-                  ['Safe for kids/pets', 'Yes, after 30-minute dry time'],
+                  ['Re-entry', 'Stay off treated areas until the spray has dried, as the product label directs'],
+                  ['Licence', PROMISES.licence],
+                  ['Guarantee', PROMISES.rainBackShort],
                   ['Where applied', 'Leaf litter, lawn edges, fence lines, shrub interiors, shaded perimeters'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -100,7 +106,7 @@ export default function TickControlPage() {
               Unlike mosquitoes, ticks don't fly or jump. They wait on grass blades and brush at the edges of your lawn, attaching to passing hosts. This means your backyard — not the woods — is the primary tick risk zone for most GTA homeowners. Properties near conservation areas, river valleys, ravines, and the Oak Ridges Moraine face the highest exposure.
             </p>
             <p>
-              Professional barrier spray is the most effective way to reduce tick populations in your yard. Unlike DIY products, BuzzSkito's treatment targets the specific micro-habitats where ticks concentrate: leaf litter, lawn edges, fence lines, and shaded garden borders.
+              Professional barrier spray is a practical way to reduce tick encounters in your yard. Unlike DIY products, BuzzSkito's treatment targets the specific micro-habitats where ticks concentrate: leaf litter, lawn edges, fence lines, and shaded garden borders.
             </p>
             <p>
               Learn more in our <Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 underline hover:text-brand-500">Ultimate Tick Control Guide for Ontario Homeowners</Link> or read about{' '}
@@ -118,11 +124,11 @@ export default function TickControlPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { icon: '🎯', title: 'High-Risk Zone Targeting', desc: 'Lawn edges, leaf litter, garden beds, fence lines, under decks, woodpiles — all the areas where ticks concentrate.' },
-              { icon: '🔬', title: 'All Life Stages Eliminated', desc: 'Our formula kills adult ticks, nymphs (tiny and hard to spot), and larvae on contact.' },
-              { icon: '🛡️', title: 'Up to 30-Day Protection', desc: 'One treatment keeps your yard protected for up to 30 days — far longer than mosquito treatments.' },
-              { icon: '💧', title: 'Health Canada–Approved', desc: 'Our tick spray is fully approved for residential use in Ontario, safe for gardens, pets, and pollinators after drying.' },
-              { icon: '👶', title: 'Safe After 30 Minutes', desc: 'Kids and pets can return to the yard 30 minutes after the treatment has fully dried.' },
-              { icon: '🔁', title: 'Free Retreatment Guarantee', desc: 'If ticks return within the protection window, we retreat your property at no additional cost.' },
+              { icon: '🔬', title: 'All Life Stages Targeted', desc: 'The spray goes where adult ticks, nymphs (tiny and hard to spot), and larvae wait for a host.' },
+              { icon: '🛡️', title: 'Repeated Every ~30 Days', desc: 'Five visits spaced about a month apart renew the treated zones from May through September, as wildlife keeps bringing new ticks in.' },
+              { icon: '💧', title: 'Licensed Application', desc: `Applied by a licensed operator (${PROMISES.licence}). ${PROMISES.labelLine}.` },
+              { icon: '👶', title: 'Clear Re-Entry Directions', desc: 'Keep kids and pets off treated areas until the spray has dried, as the product label directs.' },
+              { icon: '🔁', title: 'Rain-Back Guarantee', desc: PROMISES.rainBack },
             ].map(({ icon, title, desc }) => (
               <div key={title} className="bg-white rounded-2xl p-6 border border-amber-100 shadow-sm">
                 <div className="text-3xl mb-3" aria-hidden="true">{icon}</div>
@@ -134,12 +140,16 @@ export default function TickControlPage() {
         </div>
       </section>
 
+      <div className="max-w-3xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="tick" />
+      </div>
+
       {/* Seasonal plan */}
       <section aria-labelledby="tick-schedule" className="py-14 px-4 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <p className="kicker mb-3">Seasonal Plan</p>
           <h2 id="tick-schedule" className="h2-display text-brand-900 mb-4">Recommended Tick Treatment Schedule</h2>
-          <p className="text-gray-500 mb-10 max-w-xl mx-auto">Five treatments per season — one every ~30 days from May through September — provide continuous protection during the entire tick activity window in Ontario.</p>
+          <p className="text-gray-500 mb-10 max-w-xl mx-auto">Five treatments per season — one every ~30 days from May through September — are spread across the main tick activity window in Ontario.</p>
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 max-w-3xl mx-auto">
             {[
               { label: 'Spray 1', month: 'Early May', note: 'Spring nymphs emerging — highest Lyme risk' },
@@ -160,11 +170,11 @@ export default function TickControlPage() {
             <p className="text-gray-700 text-sm mt-2">
               <strong>$597</strong> standalone (5 sprays) ·
               <strong className="text-amber-700"> $497</strong> bundled with any mosquito plan
-              <span className="text-gray-500"> (save $100)</span>
+              <span className="text-gray-500"> (save $100) · plus HST</span>
             </p>
           </div>
           <p className="text-gray-500 text-sm mt-6">
-            Bundle with our <Link href="/mosquito-control" className="text-brand-700 underline">mosquito control service</Link> for complete protection in one visit.
+            Bundle with our <Link href="/mosquito-control" className="text-brand-700 underline">mosquito control service</Link> so both pests are treated on the same visit.
           </p>
         </div>
       </section>
@@ -219,6 +229,10 @@ export default function TickControlPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="tick" location="price_card_faq" />
+      </div>
 
       {/* FAQ */}
       <section aria-labelledby="tick-faq" className="py-14 px-4 bg-white">

@@ -1,5 +1,5 @@
 import BuyLink from '@/components/BuyLink'
-import { AMAZON_ENABLED } from '@/lib/amazon'
+import { AMAZON_ENABLED, AMAZON_DISCLOSURE } from '@/lib/amazon'
 import StickyBarShell from '@/components/StickyBarShell'
 
 /**
@@ -42,7 +42,7 @@ export default function StickyBuyBar({
       {/* Disclosure travels WITH the bar so the first affiliate surface a
           mobile reader meets is never undisclosed. */}
       <p className="mx-2 mb-1 text-center text-[10px] leading-tight text-gray-500">
-        As an Amazon Associate, BuzzSkito earns from qualifying purchases.
+        {AMAZON_DISCLOSURE}
       </p>
     </StickyBarShell>
   )

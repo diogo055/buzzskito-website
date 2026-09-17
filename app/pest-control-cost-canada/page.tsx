@@ -45,7 +45,7 @@ const ANCHOR_STATS: AnchorStat[] = [
     source: 'HomeGuide & LawnStarter 2026 + BuzzSkito live pricing',
     sourceUrl: 'https://homeguide.com/costs/mosquito-control-cost',
     asOf: '2026',
-    note: 'North American industry bands run $80–$150 per visit and $350–$1,000 per season. BuzzSkito&rsquo;s own single mosquito treatment starts From $99 CAD for a standard residential lot.',
+    note: 'North American industry bands run $80–$150 per visit and $350–$1,000 per season. BuzzSkito&rsquo;s own single mosquito treatment starts From $99 CAD (plus HST) for a standard residential lot under 10,000 sq ft.',
     gradient: 'from-amber-500 to-yellow-600',
   },
   {
@@ -105,7 +105,7 @@ interface BuzzRow {
 }
 
 const BUZZSKITO_PRICING: BuzzRow[] = [
-  { plan: 'Single mosquito treatment', price: 'From $99', detail: 'Standard residential lot; scales by lot size for larger properties.' },
+  { plan: 'Single mosquito treatment', price: 'From $99', detail: 'Standard residential lot under 10,000 sq ft; scales by lot size for larger properties.' },
   { plan: 'Basic Season — 5 sprays (monthly)', price: '$549', detail: 'Monthly sprays May–September.' },
   { plan: 'Standard Season — 10 sprays (bi-weekly)', price: '$994', detail: 'Most popular plan; bi-weekly sprays May–September.' },
   { plan: 'Exclusive Season — 20+ sprays (weekly)', price: '$2,049', detail: 'Weekly sprays for maximum-pressure properties.' },
@@ -150,7 +150,7 @@ const FAQS = [
   },
   {
     question: 'How much does mosquito control cost?',
-    answer: 'Mosquito control typically costs $80 to $150 per visit and $350 to $1,000 for a full season of recurring sprays (every 3–4 weeks, roughly May to September), per HomeGuide, LawnStarter, and Angi 2026 cost guides — figures originally quoted in USD, with Canadian pricing broadly comparable. As a real Canadian benchmark, BuzzSkito&rsquo;s single mosquito treatment starts From $99 CAD for a standard residential lot and scales with lot size. For a full GTA pricing breakdown, see our dedicated mosquito-control cost page.',
+    answer: 'Mosquito control typically costs $80 to $150 per visit and $350 to $1,000 for a full season of recurring sprays (every 3–4 weeks, roughly May to September), per HomeGuide, LawnStarter, and Angi 2026 cost guides — figures originally quoted in USD, with Canadian pricing broadly comparable. As a real Canadian benchmark, BuzzSkito&rsquo;s single mosquito treatment starts From $99 CAD (plus HST) for a standard residential lot under 10,000 sq ft and scales with lot size. For a full GTA pricing breakdown, see our dedicated mosquito-control cost page.',
   },
   {
     question: 'How much does tick control cost?',
@@ -166,7 +166,7 @@ const FAQS = [
   },
   {
     question: 'Is professional pest control worth the cost?',
-    answer: 'For most homeowners, yes — particularly for pests that are hard to eliminate with retail products or that carry health risks. Mosquitoes and ticks are a clear case: ticks can transmit Lyme disease, and a professional barrier spray reduces yard pressure far more reliably than DIY foggers or candles. Recurring or seasonal plans also lower the per-visit cost by roughly 20–40% versus repeated one-off calls, and acting early avoids the 20–50% cost escalation that comes with letting an infestation establish. The honest answer: published ranges are starting points — get a free on-site quote, compare guarantees, and confirm the company is licensed before you book.',
+    answer: 'For most homeowners, yes — particularly for pests that are hard to control with retail products or that carry health risks. Mosquitoes and ticks are a common case: ticks can transmit Lyme disease, and a licensed barrier treatment is applied to the shaded resting areas and yard edges that foggers and candles don&rsquo;t reach. Recurring or seasonal plans also lower the per-visit cost by roughly 20–40% versus repeated one-off calls, and acting early avoids the 20–50% cost escalation that comes with letting an infestation establish. The honest answer: published ranges are starting points — get a free on-site quote, compare guarantees, and confirm the company is licensed before you book.',
   },
 ]
 
@@ -398,7 +398,7 @@ export default function PestControlCostCanadaPage() {
                   </div>
                 ))}
               </div>
-              <p className="text-[11px] mt-4 italic opacity-80">Single treatment From $99 for a standard residential lot; seasonal plans scale by lot size and frequency. Tick bundle saves $100 versus standalone.</p>
+              <p className="text-[11px] mt-4 italic opacity-80">Single treatment From $99 for a standard residential lot under 10,000 sq ft; seasonal plans scale by lot size and frequency. Tick bundle saves $100 versus standalone. All prices plus HST.</p>
               <div className="mt-5 flex flex-col gap-2 text-sm font-bold">
                 <Link href="/mosquito-control-pricing" className="underline hover:opacity-80">→ See full mosquito control pricing</Link>
                 <Link href="/blog/mosquito-control-cost-ontario" className="underline hover:opacity-80">→ Mosquito control cost in Ontario (guide)</Link>
@@ -507,7 +507,7 @@ export default function PestControlCostCanadaPage() {
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-14 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold mb-3">Get a real number for your property — free</h2>
-          <p className="text-base text-brand-100 mb-7 leading-relaxed">Published ranges are a starting point. The only way to know what mosquito or tick control will cost at your address is a free, no-obligation on-site assessment. BuzzSkito serves Mississauga, Toronto, and 19+ GTA cities — single treatments start From $99.</p>
+          <p className="text-base text-brand-100 mb-7 leading-relaxed">Published ranges are a starting point. The only way to know what mosquito or tick control will cost at your address is a free, no-obligation on-site assessment. BuzzSkito serves Mississauga, Toronto, and 19+ GTA cities — single treatments start From $99 on a standard lot under 10,000 sq ft.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
             <Link href="/free-yard-assessment" className="inline-block bg-amber-400 hover:bg-amber-300 text-brand-950 font-extrabold text-base px-8 py-4 rounded-full shadow-lg transition-all">
               Get a Free Quote →
@@ -516,7 +516,7 @@ export default function PestControlCostCanadaPage() {
               📞 Call {BUSINESS.phone}
             </a>
           </div>
-          <p className="text-xs text-brand-300 mt-5">BuzzSkito Mosquito &amp; Tick Control · Mississauga, ON · serving the GTA · Health Canada-approved · Bite-Free Guarantee</p>
+          <p className="text-xs text-brand-300 mt-5">BuzzSkito Mosquito &amp; Tick Control · Mississauga, ON · serving the GTA · Ontario-licensed · Products applied according to label directions · Rain-back guarantee on every plan</p>
         </div>
       </section>
 

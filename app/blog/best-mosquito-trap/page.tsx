@@ -18,7 +18,7 @@ const META_TITLE = 'Best Mosquito Trap Canada 2026: Propane vs UV'
 const FAQS = [
   {
     question: 'What is the best mosquito trap in Canada in 2026?',
-    answer: 'For genuine mosquito reduction, the best mosquito trap in Canada is a propane CO₂ trap like the Mosquito Magnet Patriot Plus ($399–$549). It burns propane to generate real CO₂, heat, and moisture — the exact cues that host-seeking female mosquitoes hunt for — and independent testing shows 70–90% population reduction over 6–8 weeks of continuous use. UV-plus-fan traps (DynaTrap, bug zappers) cost far less but catch mostly non-biting moths and beetles. CO₂/octenol lure traps such as the Biogents BG-Mosquitaire ($200–$500) are the best mid-priced pick for mosquito-specific catch. For most GTA backyards, though, a professional barrier spray solves a different problem than a trap does: it coats the shaded foliage mosquitoes rest on, so biting drops the same day across the whole yard instead of over weeks within one device radius.',
+    answer: 'For genuine mosquito reduction, the best mosquito trap in Canada is a propane CO₂ trap like the Mosquito Magnet Patriot Plus ($399–$549). It burns propane to generate real CO₂, heat, and moisture — the exact cues that host-seeking female mosquitoes hunt for — and independent testing shows 70–90% population reduction over 6–8 weeks of continuous use. UV-plus-fan traps (DynaTrap, bug zappers) cost far less but catch mostly non-biting moths and beetles. CO₂/octenol lure traps such as the Biogents BG-Mosquitaire ($200–$500) are the best mid-priced pick for mosquito-specific catch. For most GTA backyards, though, a professional barrier spray solves a different problem than a trap does: it treats the shaded foliage where mosquitoes rest across the whole yard, instead of pulling them into one device radius over weeks.',
   },
   {
     question: 'What is the best type of mosquito trap — propane, UV, or CO₂?',
@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'Do outdoor mosquito traps actually work?',
-    answer: 'Some do, some barely. Propane CO₂ traps genuinely reduce mosquito populations over weeks by killing egg-laying females — peer-reviewed and CDC-referenced testing supports 70–90% reduction within a roughly 1-acre radius after 6–8 weeks. UV-light traps and bug zappers "work" in that they catch insects, but University of Florida and Notre Dame studies found 80–95% of their catch is non-biting moths, beetles, and midges — not mosquitoes. No trap protects you tonight; traps reduce populations over time. For same-day relief on a specific evening, a repellent zone (Thermacell) or professional barrier spray is the faster fix.',
+    answer: 'Some do, some barely. Propane CO₂ traps genuinely reduce mosquito populations over weeks by killing egg-laying females — peer-reviewed and CDC-referenced testing supports 70–90% reduction within a roughly 1-acre radius after 6–8 weeks. UV-light traps and bug zappers "work" in that they catch insects, but University of Florida and Notre Dame studies found 80–95% of their catch is non-biting moths, beetles, and midges — not mosquitoes. No trap protects you tonight; traps reduce populations over time. For a specific evening, a personal repellent zone (Thermacell) is the quicker option, while professional barrier spray reduces the adult mosquitoes resting across the whole yard.',
   },
   {
     question: 'What is the best indoor mosquito trap?',
@@ -42,7 +42,7 @@ const FAQS = [
   },
   {
     question: 'Are mosquito traps better than professional barrier spray?',
-    answer: 'They solve different problems. Traps reduce mosquito populations slowly over weeks and are ideal for cottages, rural acreage, and chronic-problem lots near wetlands. Professional barrier spray treats vegetation surfaces with a residual that kills mosquitoes landing on the leaves for 21–30 days, works the same day, covers the whole yard, and — unlike any trap — also controls ticks. For a typical GTA suburban backyard where neighbours\' properties keep re-seeding the mosquito population, barrier spray delivers faster, cheaper, more complete results than a trap. Many cottage owners run both: a trap for long-term pressure and spray for immediate usability.',
+    answer: 'They solve different problems. Traps reduce mosquito populations slowly over weeks and are ideal for cottages, rural acreage, and chronic-problem lots near wetlands. Professional barrier spray treats the leaves where mosquitoes rest with a residual that kills them on contact and is renewed on the plan schedule (every 2 weeks on Standard, monthly on Basic); it covers the whole yard and — unlike any trap — can also target ticks where they wait. For a typical GTA suburban backyard where neighbours\' properties keep re-seeding the mosquito population, barrier spray is the option that covers the whole yard on a schedule, rather than working from one spot. Many cottage owners run both: a trap for long-term pressure and spray for the areas where mosquitoes rest.',
   },
 ]
 
@@ -91,8 +91,8 @@ export default function BestMosquitoTrapCanadaPage() {
               <li>UV + fan traps like DynaTrap catch mostly non-biting moths and beetles &mdash; only about 5% of their catch is mosquitoes.</li>
               <li>CO&#8322;/octenol lure traps sit in the middle of the range on both price and mosquito performance.</li>
               <li>Biting female mosquitoes hunt by the CO&#8322;, heat, and moisture that a propane trap generates.</li>
-              <li>Professional barrier spray costs $99 per treatment and covers the whole yard the same day.</li>
-              <li>Only barrier spray controls both mosquitoes and ticks across the whole property at once.</li>
+              <li>Professional barrier spray starts from $99 per treatment and covers the whole yard in one visit.</li>
+              <li>Only barrier spray targets both mosquitoes where they rest and ticks where they wait.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
             <div className="mt-4">
@@ -125,7 +125,7 @@ export default function BestMosquitoTrapCanadaPage() {
                 search: 'biogents mosquitaire co2 trap',
                 score: 8.4,
                 pros: ['Mosquito-specific catch', 'Cheaper than propane', 'Consistent reviews'],
-                cons: ['Needs CO₂ or octenol refills', 'Slower than barrier spray'],
+                cons: ['Needs CO₂ or octenol refills', 'Covers less area than a whole-yard barrier spray'],
               },
               {
                 badge: 'Best Budget',
@@ -148,7 +148,7 @@ export default function BestMosquitoTrapCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Rural acreage or a cottage near water?</strong> The <em>Best Overall</em> propane trap earns its keep. <strong>Suburban lot on a budget?</strong> The <em>Best Mid-Price</em> CO₂ lure gives real mosquito-specific catch for less. <strong>Just want something cheap on the deck?</strong> Grab the <em>Best Budget</em> DynaTrap — but for same-day, whole-yard relief that also kills ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Rural acreage or a cottage near water?</strong> The <em>Best Overall</em> propane trap earns its keep. <strong>Suburban lot on a budget?</strong> The <em>Best Mid-Price</em> CO₂ lure gives real mosquito-specific catch for less. <strong>Just want something cheap on the deck?</strong> Grab the <em>Best Budget</em> DynaTrap — but for whole-yard treatment that can also target ticks where they wait, look at <Link href="/mosquito-control">professional barrier spray</Link>.
               </>
             }
           />
@@ -210,7 +210,7 @@ export default function BestMosquitoTrapCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ No trap protects you tonight.</strong> Every trap reduces populations over days or weeks. For same-day yard usability or a one-off event (BBQ, wedding, party), <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> works in hours and lasts 21&ndash;30 days &mdash; and it also controls ticks, which no trap does.
+              <strong className="text-amber-900">⚠️ No trap protects you tonight.</strong> Every trap reduces populations over days or weeks. For a one-off event (BBQ, wedding, party) or a whole-yard plan, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> treats the leaves where mosquitoes rest across the whole yard, and on a seasonal plan the residual is renewed on schedule &mdash; it can also target ticks where they wait, which no trap does.
             </p>
           </div>
         </div>
@@ -233,7 +233,7 @@ export default function BestMosquitoTrapCanadaPage() {
                   ['Running cost', '$90–$600/season depending on type'],
                   ['Best Canadian retailers', 'Canadian Tire, Costco, Home Depot, Amazon.ca'],
                   ['When to buy', 'April–May, before peak-season markup'],
-                  ['Fastest same-day fix', 'Professional barrier spray or Thermacell zone'],
+                  ['Alternatives to a trap', 'Professional barrier spray for the whole yard, or a Thermacell zone for the deck'],
                   ['Health Canada status', 'Traps are devices — no PCP pesticide registration'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -292,7 +292,7 @@ export default function BestMosquitoTrapCanadaPage() {
           </aside>
 
           <h2>Traps vs Professional Barrier Spray for GTA Yards</h2>
-          <p>Traps and barrier spray are not really competitors — they solve different problems. A trap slowly thins the mosquito population over weeks and is ideal for large, chronic-problem properties. Barrier spray coats vegetation with a residual that kills mosquitoes on contact for 21&ndash;30 days, works the same day, covers the entire yard, and controls ticks. Here is how the options stack up for a typical GTA property:</p>
+          <p>Traps and barrier spray are not really competitors — they solve different problems. A trap slowly thins the mosquito population over weeks and is ideal for large, chronic-problem properties. Barrier spray coats the leaves where mosquitoes rest with a residual that kills on contact and is renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic); it covers the entire yard and can also target ticks where they wait. Here is how the options stack up for a typical GTA property:</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">First-year cost</th><th className="px-3 py-2 text-left">Mosquito reduction</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -302,18 +302,18 @@ export default function BestMosquitoTrapCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2">CO₂ / octenol lure trap</td><td className="px-3 py-2">$250–$550</td><td className="px-3 py-2">Good (over weeks)</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/dynatrap-canada-review">UV + fan (DynaTrap)</Link></td><td className="px-3 py-2">$290–$380</td><td className="px-3 py-2">Modest (~5% of catch)</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/thermacell-canada-where-to-buy">Thermacell zone</Link></td><td className="px-3 py-2">$80–$150</td><td className="px-3 py-2">70–95% in 4.5m zone</td><td className="px-3 py-2">None</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994</td><td className="px-3 py-2">Whole yard 21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994</td><td className="px-3 py-2">Whole yard, renewed each visit</td><td className="px-3 py-2">Yes — targets where ticks wait</td></tr>
             </tbody>
           </table>
 
           <h2>The Smart Stack for a GTA Backyard</h2>
-          <p>For a typical Mississauga, Brampton, or Oakville backyard (5,000&ndash;15,000 sq ft), the most effective and honest strategy is not a single trap:</p>
+          <p>For a typical Mississauga, Brampton, or Oakville backyard (5,000&ndash;15,000 sq ft), the honest strategy is a layered one, not a single trap:</p>
           <ol>
             <li><strong>Treat standing water</strong> with BTI dunks or bits — kills larvae before they hatch (see our <Link href="/blog/mosquito-dunks-canada-guide">mosquito dunks guide</Link>)</li>
-            <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> for whole-yard, 21&ndash;30-day coverage that also handles ticks</li>
+            <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> for whole-yard treatment renewed on your plan&rsquo;s schedule, with tick treatment available as an add-on</li>
             <li><strong>A Thermacell on the deck</strong> for an instant personal repellent zone while you sit outside</li>
           </ol>
-          <p>Add a propane CO₂ trap on top only if you have rural acreage or a cottage where the multi-week investment genuinely pays off. On a standard suburban lot, your neighbours&rsquo; yards keep re-seeding the mosquito population faster than any trap can thin it — which is exactly why <Link href="/mosquito-control">whole-yard barrier spray</Link> outperforms trapping for most GTA homeowners.</p>
+          <p>Add a propane CO₂ trap on top only if you have rural acreage or a cottage where the multi-week investment genuinely pays off. On a standard suburban lot, your neighbours&rsquo; yards keep re-seeding the mosquito population faster than any trap can thin it — which is why it is worth comparing a <Link href="/mosquito-control">whole-yard barrier spray</Link>: a trap works from one spot over weeks, while the spray is applied to the vegetation across the yard and renewed on a schedule.</p>
           <p>And if what you actually need is a knock-down before one specific evening rather than a slow population drop, that is a job for a handheld fogger and <Link href="/blog/mosquito-fogger-canada">mosquito fogger liquid</Link>, not a trap — it clears the adults flying right now, but leaves almost no residual, so they are back by the next night.</p>
 
           <h2>Related Reading</h2>
@@ -340,7 +340,7 @@ export default function BestMosquitoTrapCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Guesswork · Get Whole-Yard Coverage" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 30-day residual — and it kills ticks too." variant="dark" />
+      <CTASection heading="Skip the Guesswork · Get Whole-Yard Coverage" subtext="Get a free quote for licensed barrier spray. From $99. Rain-back guarantee on every plan — and we treat ticks too." variant="dark" />
     </>
   )
 }

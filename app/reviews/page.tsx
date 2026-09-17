@@ -23,7 +23,7 @@ const FAQS = [
   },
   {
     question: 'How does BuzzSkito have zero negative reviews?',
-    answer: 'Three reasons: (1) the BuzzSkito Bite-Free Guarantee — if pests return inside the protection window, we re-treat at no charge, so customers don\'t feel the need to complain online; (2) we specialize only in mosquitoes and ticks, so we don\'t take on jobs outside our expertise; (3) Mississauga-based and owner-operated — Alex personally oversees every customer relationship and resolves any concern immediately, before it becomes a public review.',
+    answer: 'Three reasons: (1) clear guarantees — rain within 1 hour of a treatment gets a free re-treatment on every plan, and on Standard and Exclusive plans the Bite-Free Guarantee re-treats at no charge if mosquitoes come back between scheduled treatments — so a problem gets fixed rather than posted online; (2) we specialize only in mosquitoes and ticks, so we don\'t take on jobs outside our expertise; (3) Mississauga-based and owner-operated — Alex personally oversees every customer relationship and resolves any concern immediately, before it becomes a public review.',
   },
   {
     question: 'Where can I read all BuzzSkito reviews?',
@@ -34,8 +34,9 @@ const FAQS = [
     answer: 'Yes — after every treatment, customers receive a follow-up email with a link to leave a Google review if they\'re happy with the service. We never offer incentives or compensation for reviews, which would violate Google\'s policies. We simply make it easy for satisfied customers to share their experience.',
   },
   {
-    question: 'How does BuzzSkito compare to Mosquito Man, Mosquito.Buzz, and LawnSavers in reviews?',
-    answer: 'BuzzSkito has 150+ Google reviews at 5.0 stars (zero negative). Mosquito Man has 4,000+ reviews with mixed ratings. Mosquito.Buzz is a national franchise with reviews split across many locations. LawnSavers has 1,000+ reviews mixed across all their lawn-care services. BuzzSkito\'s perfect 5.0 rating comes from focusing exclusively on mosquito and tick control. See our detailed comparisons: BuzzSkito vs Mosquito Man, vs Mosquito.Buzz, vs LawnSavers.',
+    // Competitors are not named anywhere on the site (owner rule), including this FAQ and its FAQPage schema.
+    question: 'How does BuzzSkito compare to other GTA mosquito control companies in reviews?',
+    answer: 'BuzzSkito has 150+ Google reviews at 5.0 stars (zero negative). Larger franchise and lawn-care companies in the GTA often have more reviews in total, but those reviews are spread across many locations or across services other than mosquito and tick control, so the rating tells you less about the mosquito service itself. BuzzSkito\'s 5.0 rating comes from focusing only on mosquito and tick control. Our guide to the best mosquito control companies in the GTA covers what to compare before you book.',
   },
 ]
 
@@ -76,7 +77,7 @@ export default function ReviewsPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What do BuzzSkito customers say?">
         <p>
-          <strong>BuzzSkito has 150+ verified Google reviews with a 5.0-star average and zero negative reviews — one of the highest-rated mosquito and tick control specialists in the GTA.</strong> Customers consistently mention three things: (1) the treatment actually works — mosquitoes and ticks are eliminated within hours of the first spray; (2) responsive scheduling — same-week service across all 19 cities; (3) the BuzzSkito Bite-Free Guarantee — free re-treatment if pests return inside the protection window. Reviews come from homeowners across Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, and surrounding GTA communities. Read every review publicly on Google.
+          <strong>BuzzSkito has 150+ verified Google reviews with a 5.0-star average and zero negative reviews — one of the highest-rated mosquito and tick control specialists in the GTA.</strong> Customers consistently mention three things: (1) the treatment works for them — many say their yard felt usable again after the first visit; (2) responsive scheduling — same-week service across all 19 cities; (3) the guarantees — a free re-treatment if it rains within 1 hour of a visit (every plan), plus the Bite-Free Guarantee on Standard &amp; Exclusive plans. Reviews come from homeowners across Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, and surrounding GTA communities. Read every review publicly on Google.
         </p>
       </QuickAnswer>
 
@@ -110,11 +111,13 @@ export default function ReviewsPage() {
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">What BuzzSkito Customers Mention Most</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { theme: 'It actually works', desc: 'The most common review pattern: mosquito-heavy yards become usable within hours of the first treatment. Ravine-adjacent properties (Rosedale, Forest Hill, Bronte, Tyandaga) see the most dramatic before-and-after difference.' },
+              // Site-authored summaries, not customer quotes. Reworded Sep 2026 to the pesticide advertising
+              // rules (DIR2016-01): no "safe" or "Health Canada-approved", no timed re-entry claim, no
+              // unscoped Bite-Free Guarantee, and no arrival-text promise.
+              { theme: 'It actually works', desc: 'The most common review pattern: customers with mosquito-heavy yards say they could use their yard again after the first treatment. Ravine-adjacent properties (Rosedale, Forest Hill, Bronte, Tyandaga) see the most dramatic before-and-after difference.' },
               { theme: 'Responsive scheduling', desc: 'Same-week service is standard during peak season. Customers mention BuzzSkito scheduling treatments faster than competitors who require weeks of lead time.' },
-              { theme: 'Communication is clear', desc: 'SMS notification before each visit, post-treatment confirmation email with full service log. Customers consistently call out professionalism and clarity.' },
-              { theme: 'Safe for kids and pets', desc: 'Health Canada-approved formula and the 30-minute re-entry window come up regularly. Parents of young kids and pet owners feel confident using their yards normally after treatment.' },
-              { theme: 'Bite-Free Guarantee delivers', desc: 'The few customers who needed a re-spray (typically after rain disrupted the cure window) all confirm BuzzSkito returned promptly at no charge — exactly as promised.' },
+              { theme: 'Communication is clear', desc: 'Visits are booked in a window, never an exact arrival time, and followed by a post-treatment confirmation email with a full service log. Customers consistently call out professionalism and clarity.' },
+              { theme: 'Guarantees are honoured', desc: 'The few customers who needed a re-spray (typically after rain soon after a treatment) say BuzzSkito came back at no charge. Rain within 1 hour of a treatment gets a free re-treatment on every plan; the Bite-Free Guarantee applies on Standard & Exclusive plans.' },
               { theme: 'Owner-operated trust', desc: 'Multiple reviews mention speaking with Alex personally. The owner-operated model — versus a franchise — comes up often as a reason customers chose BuzzSkito.' },
             ].map(({ theme, desc }) => (
               <div key={theme} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
@@ -123,6 +126,9 @@ export default function ReviewsPage() {
               </div>
             ))}
           </div>
+          <p className="mt-6 text-sm text-gray-600 leading-relaxed">
+            Before each visit we explain what to do: keep kids and pets inside during the treatment and stay off treated areas until the spray has dried, as the label directs. Ask the Ontario-licensed technician for the product name and PCP registration number.
+          </p>
         </div>
       </section>
 

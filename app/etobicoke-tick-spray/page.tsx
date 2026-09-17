@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { TICK_BLOGS } from '@/lib/constants'
+import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Etobicoke Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Etobicoke tick spray for Humber River valley and Etobicoke Creek properties. Health Canada-approved, from $99/treatment, BuzzSkito Bite-Free Guarantee. Mimico, The Kingsway, Humber Valley, Long Branch, Islington Village. Call (289) 216-5030.",
+    "Etobicoke tick spray for Humber River valley and Etobicoke Creek properties. Licensed operator, from $99/treatment, rain-back guarantee. Mimico, The Kingsway, Humber Valley, Long Branch, Islington Village. Call (289) 216-5030.",
   canonical: '/etobicoke-tick-spray',
 })
 
@@ -17,7 +19,7 @@ const NEIGHBOURHOODS = ['Mimico','Long Branch','New Toronto','The Kingsway','Hum
 const FAQS = [
   {
     question: 'How much does tick spray cost in Etobicoke?',
-    answer: 'Tick spray in Etobicoke starts from $99 per application. Properties near the Humber River valley, Etobicoke Creek, or Centennial Park are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, because each application holds up to 30 days of residual and monthly spacing is what removes the gap. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Etobicoke starts from $99 per application. Properties near the Humber River valley, Etobicoke Creek, or Centennial Park are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, so the yard is re-treated through the whole tick season. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Where are ticks most active in Etobicoke?',
@@ -25,11 +27,11 @@ const FAQS = [
   },
   {
     question: 'Does Toronto Public Health monitor for ticks in Etobicoke?',
-    answer: 'Yes. Toronto Public Health includes the Humber River valley and several western Etobicoke ravines in its annual tick surveillance and dragging program. Their data confirms established blacklegged tick populations in these areas. They recommend tick checks after any time spent in or near Etobicoke\'s green corridors, and professional yard treatment for adjacent properties.',
+    answer: 'Yes. Toronto Public Health includes the Humber River valley and several western Etobicoke ravines in its annual tick surveillance and dragging program. Their data confirms established blacklegged tick populations in these areas. They recommend tick checks after any time spent in or near Etobicoke\'s green corridors.',
   },
   {
     question: 'My Etobicoke yard doesn\'t back onto the ravine — do I still need tick spray?',
-    answer: 'Ticks don\'t stay in the ravine. Deer, foxes, raccoons, and other wildlife carry ticks throughout Etobicoke neighbourhoods, dropping them in residential yards well beyond the ravine edge. If you live within a few blocks of the Humber River, Mimico Creek, or any wooded park in Etobicoke, professional tick spray is a worthwhile investment for your family\'s protection.',
+    answer: 'Ticks don\'t stay in the ravine. Deer, foxes, raccoons, and other wildlife carry ticks throughout Etobicoke neighbourhoods, dropping them in residential yards well beyond the ravine edge. If you live within a few blocks of the Humber River, Mimico Creek, or any wooded park in Etobicoke, professional tick spray is worth considering for the parts of the yard your family and pets use.',
   },
 ]
 
@@ -37,17 +39,18 @@ export default function EtobicokeTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: '/etobicoke-tick-spray', city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Applied by a licensed Ontario pesticide operator.`, slug: '/etobicoke-tick-spray', city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/etobicoke-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'Etobicoke' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/etobicoke-tick-spray', '2026-07-01')) }} />
 
       <CityHero
+        service="tick"
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>The Humber River valley through Etobicoke is confirmed blacklegged tick habitat. BuzzSkito provides professional tick spray to protect your family from Lyme disease along Toronto's western ravine corridors.</>}
+        subtitle={<>The Humber River valley through Etobicoke is confirmed blacklegged tick habitat along Toronto's western ravine corridors. Licensed Ontario pesticide operator, with tick treatments applied according to label directions.</>}
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -56,10 +59,10 @@ export default function EtobicokeTickPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ 5 Tick Sprays per Season</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -76,6 +79,8 @@ export default function EtobicokeTickPage() {
       </section>
 
       
+      <TypicalPrices service="tick" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -84,8 +89,8 @@ export default function EtobicokeTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — lawn-to-woods transitions, leaf litter, garden bed edges, and fence lines on your property.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies the product according to its label directions to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: 'Five Visits per Season', desc: `Tick treatments repeat about monthly, 5 sprays from May through September. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -101,7 +106,7 @@ export default function EtobicokeTickPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Etobicoke</h2>
           <p>Etobicoke's ravine and river valley network isn't just scenic — it's a confirmed blacklegged tick corridor that runs from Vaughan's Humber River headwaters straight through residential Toronto. Toronto Public Health includes the western ravines, including the Humber River valley and Mimico Creek valley, in its formal tick monitoring zones. Centennial Park's mature forest sections and the James Gardens ravine have both been identified as active tick habitat in recent years.</p>
-          <p>Many Etobicoke homeowners are surprised to learn that their manicured lawns can have ticks — but the risk zone isn't just the ravine edge. Ticks are transported by deer, rabbits, and squirrels throughout the neighbourhood well beyond the visible ravine boundary. The lawn's edge where grass meets garden beds, leaf litter, or shrub borders is exactly where blacklegged ticks quest for hosts. Professional barrier spray applied to these transition zones provides the most effective protection for your family and pets.</p>
+          <p>Many Etobicoke homeowners are surprised to learn that their manicured lawns can have ticks — but the risk zone isn't just the ravine edge. Ticks are transported by deer, rabbits, and squirrels throughout the neighbourhood well beyond the visible ravine boundary. The lawn's edge where grass meets garden beds, leaf litter, or shrub borders is exactly where blacklegged ticks quest for hosts. That is why professional barrier spray is aimed at these transition zones rather than broadcast across the whole lawn.</p>
 
           <h2>Tick Hotspots in Etobicoke</h2>
           <ul>
@@ -117,21 +122,23 @@ export default function EtobicokeTickPage() {
             {NEIGHBOURHOODS.map((n) => <span key={n} className="text-sm bg-amber-50 border border-amber-200 text-amber-700 px-3 py-1.5 rounded-full">{n}</span>)}
           </div>
 
+          <CityPriceCard city={CITY} service="tick" location="price_card_mid" />
+
           <h2>What Our Etobicoke Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 30 days of tick protection per treatment</li>
-            <li>Kills adult ticks, nymphs, and larvae on contact</li>
-            <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
-            <li>Free reapplication guarantee if ticks return</li>
+            <li>5 treatments per season, spaced about monthly from May through September</li>
+            <li>Aimed at the zones where adult ticks and nymphs wait for a host</li>
+            <li>{PROMISES.labelLine}; stay off treated areas until the spray has dried, as the label directs</li>
+            <li>{PROMISES.rainBack}</li>
           </ul>
 
           <h2>Also Providing Mosquito Control in Etobicoke</h2>
-          <p>Many Etobicoke homeowners combine tick and mosquito control in the same visit. See our <Link href="/etobicoke-mosquito-control" className="text-brand-700 hover:underline">Etobicoke mosquito control service</Link>.</p>
+          <p>Many Etobicoke homeowners combine tick and mosquito control in the same visit. See our <Link href="/etobicoke-mosquito-control" className="text-brand-700 hover:underline">Etobicoke mosquito control service</Link>. Outside Etobicoke, our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">Toronto tick spray service</Link> covers the rest of the city.</p>
 
 
           <h2>Compare Etobicoke Pest Control Options</h2>
-          <p>Etobicoke has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-etobicoke" className="text-brand-700 hover:underline font-semibold">Pest Control in Etobicoke</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/etobicoke-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Etobicoke</Link>.</p>
+          <p>Etobicoke has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-etobicoke" className="text-brand-700 hover:underline font-semibold">Pest Control in Etobicoke</Link> for how a mosquito and tick specialist compares with a general pest company. See our full mosquito programme for the same property: <Link href="/etobicoke-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Etobicoke</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
@@ -150,7 +157,7 @@ export default function EtobicokeTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'James K.', text: 'We had a tick problem near our garden border. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-              { author: 'Priya R.', text: 'The technician explained exactly what product they were using and why it\u2019s safe for our dog. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
+              { author: 'Priya R.', text: 'The technician explained exactly what product they were using. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
             ].map(({ author, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -169,6 +176,10 @@ export default function EtobicokeTickPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="tick" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -185,7 +196,7 @@ export default function EtobicokeTickPage() {
           </div>
         </div>
       </section>
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protect your family from Lyme disease. No contracts, guaranteed results." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext={`5 tick sprays per season. No contracts. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

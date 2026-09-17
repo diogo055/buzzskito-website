@@ -19,7 +19,7 @@ const META_TITLE = 'Best Professional Mosquito Trap Canada 2026'
 const FAQS = [
   {
     question: 'What is the best professional mosquito trap in Canada in 2026?',
-    answer: 'For genuine, property-scale mosquito reduction the best professional system in Canada is a commercial propane CO₂ trap in the Mosquito Magnet Pro class. It catalytically burns propane to make real CO₂, heat, and moisture — the exact host cues an egg-laying female hunts — and runs continuously to intercept females before they breed, delivering measurable population knockdown over 4–8 weeks across roughly an acre. Larvicide-dosing stations like In2Care take a different, complementary approach: instead of catching adults they use mosquitoes as delivery vehicles to spread a larvicide back to the water where they breed. Both are professional-grade and both are slow-burn, whole-season tools — neither protects you tonight the way a same-day barrier spray does.',
+    answer: 'For genuine, property-scale mosquito reduction the best professional system in Canada is a commercial propane CO₂ trap in the Mosquito Magnet Pro class. It catalytically burns propane to make real CO₂, heat, and moisture — the exact host cues an egg-laying female hunts — and runs continuously to intercept females before they breed, delivering measurable population knockdown over 4–8 weeks across roughly an acre. Larvicide-dosing stations like In2Care take a different, complementary approach: instead of catching adults they use mosquitoes as delivery vehicles to spread a larvicide back to the water where they breed. Both are professional-grade and both are slow-burn, whole-season tools — neither treats the foliage where adult mosquitoes rest the way a barrier spray does.',
   },
   {
     question: 'What is the difference between a Mosquito Magnet Pro and an In2Care station?',
@@ -27,7 +27,7 @@ const FAQS = [
   },
   {
     question: 'Do professional propane mosquito traps actually work?',
-    answer: 'Yes, within limits, and the limits matter. A commercial propane CO₂ trap does the one thing cheap UV zappers cannot: it generates real carbon dioxide, so it draws in and kills the biting, egg-laying females rather than harmless moths. Run continuously through the season on an appropriately sized property, these traps produce real, measurable population reduction over 4–8 weeks — the effect is cumulative, not instant. They work best on larger rural, acreage, and cottage lots with an on-site breeding source. On a small suburban lot where neighbours constantly re-seed the population, a single trap is fighting a losing math problem, which is why whole-yard barrier spray usually wins for GTA backyards.',
+    answer: 'Yes, within limits, and the limits matter. A commercial propane CO₂ trap does the one thing cheap UV zappers cannot: it generates real carbon dioxide, so it draws in and kills the biting, egg-laying females rather than harmless moths. Run continuously through the season on an appropriately sized property, these traps produce real, measurable population reduction over 4–8 weeks — the effect is cumulative, not instant. They work best on larger rural, acreage, and cottage lots with an on-site breeding source. On a small suburban lot where neighbours constantly re-seed the population, a single trap is fighting a losing math problem. The two cover different ground: a trap works from one spot over weeks, while a whole-yard barrier spray is applied to the vegetation where mosquitoes rest across the yard and renewed on a schedule.',
   },
   {
     question: 'Is In2Care legal and available in Canada?',
@@ -55,7 +55,7 @@ const FAQS = [
   },
   {
     question: 'Will a professional trap protect my yard for a party this weekend?',
-    answer: 'No — and this is the most important expectation to set. Every trapping and autodissemination system works by suppressing the population over weeks, not by clearing the air tonight. If you have a wedding, BBQ, or party in the next few days, a trap will do essentially nothing for that specific evening. For same-day, whole-yard relief you need a professional barrier spray, which coats the vegetation with a residual that kills mosquitoes on contact for 21–30 days and works within hours — or, for a small personal bubble, a Thermacell zone. Buy the trap for the long game; book a spray for the event.',
+    answer: 'No — and this is the most important expectation to set. Every trapping and autodissemination system works by suppressing the population over weeks, not by clearing the air tonight. If you have a wedding, BBQ, or party in the next few days, a trap will do essentially nothing for that specific evening. For whole-yard help with an event, the better fit is a professional barrier spray, which leaves a residual on the leaves where mosquitoes rest and kills them on contact — or, for a small personal bubble, a Thermacell zone. Buy the trap for the long game; book a spray ahead of the event.',
   },
   {
     question: 'Do professional mosquito traps also control ticks?',
@@ -63,7 +63,7 @@ const FAQS = [
   },
   {
     question: 'What is the smartest professional-grade setup for a large GTA property?',
-    answer: 'Stack the tools by life-cycle stage rather than betting everything on one machine. Kill larvae at the source with BTI in every water feature and low spot; suppress the breeding adult population with a correctly placed, continuously run propane CO₂ trap (or an operator-run larvicide-station program on a bigger acreage); and get whole-yard, same-day residual coverage — including ticks — from a professional barrier spray on a seasonal cadence. Add a Thermacell on the patio for instant personal relief. The trap is the long-game population tool; the spray is what makes the yard usable now. On most GTA lots the spray is the anchor and the trap is the supplement, not the other way round.',
+    answer: 'Stack the tools by life-cycle stage rather than betting everything on one machine. Kill larvae at the source with BTI in every water feature and low spot; suppress the breeding adult population with a correctly placed, continuously run propane CO₂ trap (or an operator-run larvicide-station program on a bigger acreage); and get whole-yard residual coverage — including ticks — from a professional barrier spray, renewed on a seasonal schedule. Add a Thermacell on the patio for instant personal relief. The trap is the long-game population tool; the spray is what treats the adults resting in your yard. On most GTA lots the spray is the anchor and the trap is the supplement, not the other way round.',
   },
 ]
 
@@ -94,7 +94,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
             <span className="text-white">Best Professional Mosquito Trap Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Pro-grade propane CO₂ trapping systems and larvicide autodissemination stations, compared for Canadian acreage and estate-size yards &mdash; how each attacks the mosquito life cycle, real coverage and running cost, correct placement, and why a trap works by attrition over weeks while a same-day barrier spray cuts the biting population the afternoon it is applied.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Pro-grade propane CO₂ trapping systems and larvicide autodissemination stations, compared for Canadian acreage and estate-size yards &mdash; how each attacks the mosquito life cycle, real coverage and running cost, correct placement, and why a trap works by attrition over weeks while a barrier spray treats the foliage where adult mosquitoes rest.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -106,13 +106,13 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best professional mosquito trap in Canada is a <strong>commercial propane CO&#8322; system</strong> in the Mosquito Magnet Pro class &mdash; it burns propane to make real CO&#8322;, heat, and moisture, the cues egg-laying females hunt, and knocks the breeding population down over 4&ndash;8 weeks across roughly an acre. <strong>Larvicide autodissemination stations</strong> (In2Care) work the opposite end of the life cycle, using mosquitoes to spread a larvicide back to their own breeding water &mdash; powerful, but a licensed, PMRA-regulated tool, not a consumer box. Both are slow-burn seasonal systems; neither protects you tonight the way a same-day barrier spray does.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best professional mosquito trap in Canada is a <strong>commercial propane CO&#8322; system</strong> in the Mosquito Magnet Pro class &mdash; it burns propane to make real CO&#8322;, heat, and moisture, the cues egg-laying females hunt, and knocks the breeding population down over 4&ndash;8 weeks across roughly an acre. <strong>Larvicide autodissemination stations</strong> (In2Care) work the opposite end of the life cycle, using mosquitoes to spread a larvicide back to their own breeding water &mdash; powerful, but a licensed, PMRA-regulated tool, not a consumer box. Both are slow-burn seasonal systems; neither treats the foliage where adult mosquitoes rest the way a barrier spray does.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Propane CO&#8322; traps catch adult females; larvicide stations poison the larvae in breeding sites you cannot see.</li>
               <li>A single commercial propane trap influences roughly an acre &mdash; big, complex lots need multiple units.</li>
               <li>Results are cumulative over 4&ndash;8 weeks of <em>continuous</em> running; switching a trap off lets numbers rebound.</li>
               <li>In2Care disperses a regulated pesticide, so it is a licensed-operator tool under Health Canada PMRA &mdash; not a grey-market US refill you run yourself.</li>
-              <li>No trap or station controls ticks, and none protects a specific evening &mdash; a barrier spray does both.</li>
+              <li>No trap or station controls ticks or treats the foliage where adult mosquitoes rest &mdash; a barrier spray does both.</li>
               <li>On most GTA lots the spray is the anchor and a pro trap is the supplement, not the reverse.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
@@ -165,7 +165,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Rural acreage or a cottage with an on-site breeding source?</strong> The <em>Best Overall Pro Trap</em> is the machine to run all season. <strong>Chronic problem from breeding sites you can’t find or reach?</strong> The <em>Best Life-Cycle System</em> (In2Care) is the autodissemination answer &mdash; through a licensed operator. <strong>Estate-size lot?</strong> Plan a <em>multi-unit array</em>, not one bigger box. <strong>Mid-size yard wanting a supplement?</strong> The <em>prosumer CO₂ lure</em> trap. For same-day, whole-yard relief that also kills ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Rural acreage or a cottage with an on-site breeding source?</strong> The <em>Best Overall Pro Trap</em> is the machine to run all season. <strong>Chronic problem from breeding sites you can’t find or reach?</strong> The <em>Best Life-Cycle System</em> (In2Care) is the autodissemination answer &mdash; through a licensed operator. <strong>Estate-size lot?</strong> Plan a <em>multi-unit array</em>, not one bigger box. <strong>Mid-size yard wanting a supplement?</strong> The <em>prosumer CO₂ lure</em> trap. For whole-yard treatment that also targets ticks where they wait, the answer is <Link href="/mosquito-control">professional barrier spray</Link>.
               </>
             }
           />
@@ -227,7 +227,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ No trap protects you tonight.</strong> Every system here suppresses the population over weeks. For same-day yard usability or a one-off event, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> works in hours, lasts 21&ndash;30 days, and &mdash; unlike any trap &mdash; also controls ticks.
+              <strong className="text-amber-900">⚠️ No trap protects you tonight.</strong> Every system here suppresses the population over weeks. For a one-off event or a whole season, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> treats the foliage where adult mosquitoes rest (on a plan it is renewed every 2 weeks on Standard, monthly on Basic) and &mdash; unlike any trap &mdash; also controls ticks.
             </p>
           </div>
         </div>
@@ -246,12 +246,12 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
                   ['Time to real results', '4–8 weeks of continuous running'],
                   ['Estate-lot approach', 'Multiple perimeter-placed units, not one bigger box'],
                   ['Tick effectiveness', 'None — ticks do not fly to any trap or station'],
-                  ['Same-day protection', 'None — buy a barrier spray for events'],
+                  ['Effect on a specific evening', 'None — suppression builds over weeks'],
                   ['Running cost driver', 'Propane + attractant (traps); larvicide refills (stations)'],
                   ['DIY-friendly', 'Propane trap yes; larvicide station no (licensed operator)'],
                   ['Health Canada status', 'Traps are devices; larvicide stations are PMRA-regulated'],
                   ['Best supplement', 'Prosumer CO₂ / octenol lure trap'],
-                  ['Whole-yard, same-day + ticks', 'Professional barrier spray'],
+                  ['Whole-yard mosquitoes + ticks', 'Professional barrier spray'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -308,7 +308,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or skip the hardware entirely</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray covers your whole yard the same day &mdash; mosquitoes <em>and</em> ticks &mdash; from $99, backed by 150 five-star reviews across 19 GTA cities. No propane, no refills, no acre-by-acre placement math.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray treats your whole yard &mdash; mosquitoes <em>and</em> ticks &mdash; from $99, with a rain-back guarantee on every plan, backed by 150 five-star reviews across 19 GTA cities. No propane, no refills, no acre-by-acre placement math.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -316,7 +316,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
           </aside>
 
           <h2>Professional Traps vs Barrier Spray for Real GTA Properties</h2>
-          <p>Traps, stations, and barrier spray are not really rivals &mdash; they solve different problems on different timelines. A trap or station slowly suppresses the population over weeks and shines on large, chronic-problem acreage. A professional barrier spray coats vegetation with a residual that kills mosquitoes on contact for 21&ndash;30 days, works the same day, covers the entire yard regardless of shape, and &mdash; uniquely &mdash; controls ticks. Here is how the professional options stack up:</p>
+          <p>Traps, stations, and barrier spray are not really rivals &mdash; they solve different problems on different timelines. A trap or station slowly suppresses the population over weeks and shines on large, chronic-problem acreage. A professional barrier spray leaves a residual on the leaves where mosquitoes rest and kills them on contact, is renewed on the plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic), covers the entire yard regardless of shape, and &mdash; uniquely &mdash; controls ticks. Here is how the professional options stack up:</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Professional option</th><th className="px-3 py-2 text-left">Speed to relief</th><th className="px-3 py-2 text-left">Mosquito effect</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -325,19 +325,24 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-magnet-canada">Commercial propane CO₂ trap</Link></td><td className="px-3 py-2">4–8 weeks</td><td className="px-3 py-2">Population knockdown ~1 acre</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Larvicide station (In2Care)</td><td className="px-3 py-2">Weeks (breeding-site)</td><td className="px-3 py-2">Cuts larvae zone-wide</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/dynatrap-canada-review">UV + fan (DynaTrap)</Link></td><td className="px-3 py-2">Marginal</td><td className="px-3 py-2">~5% of catch is mosquitoes</td><td className="px-3 py-2">None</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Same day</td><td className="px-3 py-2">Whole yard, 21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Treats resting adults directly</td><td className="px-3 py-2">Whole yard, renewed on your plan&rsquo;s schedule</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
+
+          <p>One line in that comparison is easy to underestimate before you own the machine: the consumables are what keep a propane trap in the &ldquo;professional&rdquo; column. The propane is only half of it &mdash; the attractant cartridge (octenol, or a Lurex-type lure) is what makes the plume smell like a host rather than just a warm exhaust, and a clogged or torn retention net quietly strangles the airflow that pulls females in. Both are seasonal purchases, and a trap running on an exhausted lure and last year&rsquo;s net is the single most common reason an owner concludes the machine &ldquo;stopped working.&rdquo; Order the refills with the trap, not in July when you notice the catch has collapsed. <BuyLink tag={AMZ_TAG} search="mosquito trap octenol attractant refill">Check trap attractant refills &amp; nets on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>The Smart Professional Stack for a Large Property</h2>
           <p>If you own the kind of property where professional mosquito hardware makes sense, do not bet everything on one machine. Stack the tools by life-cycle stage:</p>
           <ol>
             <li><strong>Kill larvae at the source</strong> with BTI in every water feature, low spot, and container &mdash; the cheapest, most effective intervention there is.</li>
             <li><strong>Suppress the breeding adults</strong> with a correctly placed, continuously run propane CO₂ trap, or an operator-run larvicide-station program on bigger acreage.</li>
-            <li><strong>Get same-day, whole-yard residual coverage &mdash; including ticks &mdash;</strong> from a <Link href="/mosquito-control">professional barrier spray</Link> on a seasonal cadence. This is what makes the yard usable <em>now</em>.</li>
+            <li><strong>Get whole-yard residual coverage &mdash; including ticks &mdash;</strong> from a <Link href="/mosquito-control">professional barrier spray</Link>, renewed on a seasonal schedule. This is the step that treats the adults resting in your yard.</li>
             <li><strong>Add a Thermacell on the patio</strong> for an instant personal repellent bubble while you sit outside.</li>
           </ol>
           <p>On most GTA lots &mdash; even large ones &mdash; the barrier spray is the anchor and the trap is the supplement, not the reverse, because neighbouring properties keep re-seeding the population faster than any single trap can thin it, and because only the spray closes the tick gap. If you want that handled without the propane, refills, and placement math, <Link href="/free-yard-assessment">book a free yard assessment</Link> and let a licensed technician design the program.</p>
+
+          <p>Step one of that stack is also the cheapest thing on this entire page, and on a rural or cottage lot it is frequently the step that moves the needle most. A Bti dunk or a scoop of Bti granules goes into the water you cannot drain &mdash; the pond edge, the ditch line, the stock trough, the rain barrel, the tarp fold behind the shed &mdash; and kills larvae there before they ever become the adults a trap is trying to catch one at a time. Check the package for the Canadian PCP registration number and re-dose at the interval the label gives, because the effect runs out on a schedule rather than lasting the season. <BuyLink tag={AMZ_TAG} search="bti mosquito dunks granules">Check Bti dunks &amp; granules on Amazon.ca &rarr;</BuyLink></p>
+          <p>Step four is the one that fills the gap the other three leave: the hour you are actually sitting outside tonight, while the trap is still doing its slow work. A heat-activated zone repeller warms a treated mat to hold a defined area around the furniture, with no skin spray and no smoke. It wants calm air, and the mats and fuel are consumables, so treat it as the patio layer rather than a property-scale tool &mdash; which is exactly the role step four assigns it. <BuyLink tag={AMZ_TAG} search="thermacell patio mosquito repeller">Check patio zone repellers on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
@@ -365,7 +370,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Propane · Get Whole-Yard Coverage the Same Day" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 21–30-day residual — and it kills ticks too." variant="dark" />
+      <CTASection heading="Skip the Propane · Get Whole-Yard Coverage" subtext="Get a free quote for licensed barrier spray. From $99. Rain-back guarantee on every plan — and it targets ticks too." variant="dark" />
     </>
   )
 }

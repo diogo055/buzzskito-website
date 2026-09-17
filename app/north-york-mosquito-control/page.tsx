@@ -1,14 +1,16 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'North York Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "North York mosquito barrier spray from $99, no contracts, Bite-Free Guarantee. Compare providers, pricing and how to choose. Call (289) 216-5030.",
+    "North York mosquito barrier spray from $99, no contracts, rain-back guarantee. Compare providers, pricing and how to choose. Call (289) 216-5030.",
   canonical: '/north-york-mosquito-control',
 })
 
@@ -30,7 +32,7 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
 const FAQS = [
   {
     question: 'How much does mosquito control cost in North York?',
-    answer: 'BuzzSkito mosquito control in North York starts from $99 per application. Ravine-adjacent properties near the Don Valley, Serena Gundy Park, or Earl Bales Park typically benefit most from the full 5-treatment program. No contracts — single visits or full seasonal packages available. Call (289) 216-5030 for a free North York quote.',
+    answer: 'BuzzSkito mosquito control in North York starts from $99 per application. Ravine-adjacent properties near the Don Valley, Serena Gundy Park, or Earl Bales Park typically benefit most from a season plan with more frequent visits, such as Standard (10 sprays, every 2 weeks). No contracts — single visits or full seasonal packages available. Call (289) 216-5030 for a free North York quote.',
   },
   {
     question: 'Why do Don Mills and Bayview Village properties have persistent mosquito problems?',
@@ -46,7 +48,7 @@ const FAQS = [
   },
   {
     question: 'Who is the best mosquito control company in North York?',
-    answer: "Honest answer: it depends on what you value. BuzzSkito treats mosquitoes and ticks only — that is the entire business — with 150+ five-star Google reviews (5.0 average), single treatments from $99, no contracts, and the Bite-Free Guarantee. Mosquito Man is a franchise with more total reviews across all of Ontario, but it operates as a general pest control company covering 10+ pest types. LawnSavers makes sense if you already use them for lawn care and want mosquito service bundled in. Mosquito.Buzz is a national franchise that quotes custom. For a ravine-edge North York property, specialist depth and a written re-treat guarantee usually matter more than franchise size.",
+    answer: "Honest answer: it depends on what you value, so ask every company the same five questions. Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); rain within 1 hour of your treatment is re-treated free on every plan; yes, Ontario Pesticide Operator Licence L-240-2436835197; and the Bite-Free Guarantee on Standard and Exclusive plans. BuzzSkito treats mosquitoes and ticks only, with 150+ five-star Google reviews (5.0 average). For a ravine-edge North York property, specialist depth and a written re-treat guarantee usually matter more than company size.",
   },
   {
     question: 'Do North York mosquito control companies offer no-contract service?',
@@ -54,7 +56,7 @@ const FAQS = [
   },
   {
     question: 'Can I bundle tick control with mosquito spray in North York?',
-    answer: "Yes, and most ravine-adjacent North York homeowners do. The Don Valley, Burke Brook, and Sunnybrook Park corridors are blacklegged tick habitat, and the blacklegged tick is the Lyme disease vector in Ontario. Tick control is $597 for the season on its own, or $497 when added to any mosquito plan, and includes five tick treatments timed across the May–September season. Mosquito comfort plus Lyme prevention on the same visit schedule.",
+    answer: "Yes, and most ravine-adjacent North York homeowners do. The Don Valley, Burke Brook, and Sunnybrook Park corridors are blacklegged tick habitat, and the blacklegged tick is the Lyme disease vector in Ontario. Tick control is $597 for the season on its own, or $497 when added to any mosquito plan, and includes five tick treatments timed across the May–September season. Mosquito and tick treatments run on the same visit schedule.",
   },
 ]
 
@@ -85,10 +87,10 @@ export default function NorthYorkMosquitoPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -104,7 +106,8 @@ export default function NorthYorkMosquitoPage() {
         </div>
       </section>
 
-      
+      <TypicalPrices service="mosquito" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -113,8 +116,8 @@ export default function NorthYorkMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product, according to its label directions, to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: 'Rain within 1 hour of your treatment? We come back and re-treat free, on every plan. Standard & Exclusive plans also carry the Bite-Free Guarantee.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -130,7 +133,7 @@ export default function NorthYorkMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Mosquito Pressure Is High in North York</h2>
           <p>North York is threaded by one of Toronto&apos;s most extensive ravine networks. The Don River valley runs along the eastern side of the district, with Wilket Creek and the East Don River feeding through Serena Gundy Park and the Lower Don. Sunnybrook Park — one of the city&apos;s largest ravine parks — extends the valley corridor west through Bayview Village and York Mills, while Burke Brook ravine cuts through the heart of Lawrence Park. The West Don Lands and its tributaries add further standing water habitat in the northwest reaches of the district near Parkwoods and Don Mills.</p>
-          <p>This ravine network is one of North York&apos;s defining assets — but for homeowners, it means a dependable and often intense mosquito season. Adults emerging from ravine-bottom floodplains drift upslope into adjacent neighbourhoods throughout the summer, resting on yard vegetation and feeding at dusk. Professional barrier spray applied to your property&apos;s shrubs, hedges, and garden borders is the most effective way to manage this influx without impacting the ravine ecosystem itself.</p>
+          <p>This ravine network is one of North York&apos;s defining assets — but for homeowners, it means a dependable and often intense mosquito season. Adults emerging from ravine-bottom floodplains drift upslope into adjacent neighbourhoods throughout the summer, resting on yard vegetation and feeding at dusk. Professional barrier spray applied to your property&apos;s shrubs, hedges, and garden borders is the practical way to manage this influx without impacting the ravine ecosystem itself.</p>
 
           <h2>North York Neighbourhoods We Serve</h2>
           <p>BuzzSkito provides mosquito control across all North York communities, including:</p>
@@ -145,14 +148,16 @@ export default function NorthYorkMosquitoPage() {
           <h2>Our North York Mosquito Treatment Process</h2>
           <ul>
             <li><strong>Ravine-edge assessment</strong> — We identify your property&apos;s relationship to the valley, ravine slopes, and any standing water on or adjacent to your lot.</li>
-            <li><strong>Full-yard barrier spray</strong> — All vegetation, hedges, fence lines, and ornamental plantings treated to eliminate resting adults and create a protective barrier.</li>
-            <li><strong>28-day residual coverage</strong> — Health Canada–approved formula continues protecting between visits; safe for children and pets after a 30-minute dry time.</li>
-            <li><strong>Seasonal program</strong> — Five visits May through September, timed to Don River valley and Burke Brook emergence patterns.</li>
+            <li><strong>Full-yard barrier spray</strong> — All vegetation, hedges, fence lines, and ornamental plantings treated where resting adults settle, according to label directions.</li>
+            <li><strong>Residual coverage between visits</strong> — the product dries onto treated surfaces as a residual barrier; keep children and pets off treated areas until the spray has dried, as the label directs.</li>
+            <li><strong>Seasonal program</strong> — Five visits (Basic), 10 (Standard) or 20+ (Exclusive) May through September, timed to Don River valley and Burke Brook emergence patterns.</li>
           </ul>
 
           <h2>Also Providing Tick Control in North York</h2>
-          <p>North York&apos;s ravine network — Don Valley, Serena Gundy Park, and Lawrence Park — provides extensive blacklegged tick habitat in the heart of Toronto. Tick populations have been confirmed along these corridors in recent years. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">North York tick spray service</Link> — bundling both treatments gives your property complete protection.</p>
+          <p>North York&apos;s ravine network — Don Valley, Serena Gundy Park, and Lawrence Park — provides extensive blacklegged tick habitat in the heart of Toronto. Tick populations have been confirmed along these corridors in recent years. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">North York tick spray service</Link> — bundling both treatments puts mosquito and tick visits on the same schedule, with tick control at $497 per season (5 sprays) when added to any mosquito plan.</p>
 
+
+          <CityPriceCard city={CITY} service="mosquito" location="price_card_mid" />
 
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
@@ -174,38 +179,37 @@ export default function NorthYorkMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats the resting surfaces across your whole property, creating a residual barrier that is renewed on a set schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
-          <h2>Comparing North York Mosquito Control Companies</h2>
-          <p>North York homeowners have several professional options. Here is an honest side-by-side based on publicly available pricing, Google reviews, and what each company actually specializes in for the 2026 season.</p>
+          <h2>What to Ask Any Mosquito Control Company in North York</h2>
+          <p>North York homeowners have several professional options. Ask each one the same five questions and compare the answers side by side. Here is how BuzzSkito answers them for the 2026 season.</p>
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-brand-800 text-white">
-                  <th className="px-4 py-3 text-left">Company</th>
-                  <th className="px-4 py-3 text-left">Single Treatment</th>
-                  <th className="px-4 py-3 text-left">Focus</th>
-                  <th className="px-4 py-3 text-left">Contract Required?</th>
+                  <th className="px-4 py-3 text-left">Question to ask</th>
+                  <th className="px-4 py-3 text-left">BuzzSkito&apos;s answer</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-gray-200 bg-amber-50"><td className="px-4 py-3 font-bold text-brand-900">BuzzSkito</td><td className="px-4 py-3 font-extrabold text-brand-700">From $99</td><td className="px-4 py-3">Mosquitoes &amp; ticks only · 150+ five-star reviews</td><td className="px-4 py-3 text-emerald-700 font-semibold">No — pay per visit</td></tr>
-                <tr className="border-b border-gray-200"><td className="px-4 py-3 font-semibold">Mosquito Man</td><td className="px-4 py-3">~$129+ (varies)</td><td className="px-4 py-3">General pest control franchise, 10+ pest types</td><td className="px-4 py-3 text-amber-700">Often seasonal</td></tr>
-                <tr className="border-b border-gray-200 bg-gray-50"><td className="px-4 py-3 font-semibold">LawnSavers</td><td className="px-4 py-3">$129+ standalone</td><td className="px-4 py-3">Lawn care primary, mosquito as add-on</td><td className="px-4 py-3 text-amber-700">Bundled with lawn plans</td></tr>
-                <tr><td className="px-4 py-3 font-semibold">Mosquito.Buzz</td><td className="px-4 py-3">Custom quote required</td><td className="px-4 py-3">National multi-province franchise</td><td className="px-4 py-3 text-amber-700">Seasonal contracts</td></tr>
+                <tr className="border-b border-gray-200"><td className="px-4 py-3 font-semibold">Is the price shown before you book?</td><td className="px-4 py-3">From $99 on a standard lot</td></tr>
+                <tr className="border-b border-gray-200 bg-gray-50"><td className="px-4 py-3 font-semibold">How many sprays per season?</td><td className="px-4 py-3">5, 10 or 20+ (tick: 5)</td></tr>
+                <tr className="border-b border-gray-200"><td className="px-4 py-3 font-semibold">What happens if it rains after a treatment?</td><td className="px-4 py-3">{PROMISES.rainBack}</td></tr>
+                <tr className="border-b border-gray-200 bg-gray-50"><td className="px-4 py-3 font-semibold">Is an Ontario pesticide operator licence number shown?</td><td className="px-4 py-3">Yes: L-240-2436835197</td></tr>
+                <tr><td className="px-4 py-3 font-semibold">Which plans include a guarantee?</td><td className="px-4 py-3">Rain-back on every plan; Bite-Free on Standard &amp; Exclusive</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Competitor figures reflect publicly published information for the 2026 season and can change without notice — confirm directly with each provider. Head-to-head breakdowns: <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">vs Mosquito Man</Link>, <Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">vs LawnSavers</Link>, <Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">vs Mosquito.Buzz</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Get each company&apos;s answers in writing and confirm the details for your own property before you book. More ways to weigh it up: <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">compare mosquito control options</Link>, <Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">compare lawn-care add-on services</Link>, <Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">compare franchise mosquito services</Link>.</p>
 
           <h2>How to Choose a Mosquito Control Company in North York</h2>
           <p>Whichever company you go with, these are the checks worth making before you hand over a credit card:</p>
           <ol>
-            <li><strong>Health Canada–approved formulation.</strong> These are the only barrier sprays legal for commercial application in Ontario. Ask what is going on your yard before you book.</li>
+            <li><strong>A product applied according to its label.</strong> Ask what product is going on your yard before you book, and check that the technician follows the label directions.</li>
             <li><strong>A licensed applicator doing the work.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for commercial application — not just somewhere in the company, but on the technician who shows up.</li>
             <li><strong>A written re-treat guarantee.</strong> If rain falls within about an hour of application, the product has not cured. A reputable company re-sprays at no charge; if they will not put that in writing, keep looking.</li>
             <li><strong>Published pricing.</strong> Companies that require an in-home estimate before naming any number are usually leaving room to price you by your house rather than by your lot.</li>
@@ -257,6 +261,10 @@ export default function NorthYorkMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

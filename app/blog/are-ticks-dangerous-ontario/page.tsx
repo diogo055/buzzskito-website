@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
@@ -78,7 +79,7 @@ const FAQS = [
   {
     question: 'How common is Lyme disease in Ontario?',
     answer:
-      'Lyme disease is now well established across southern Ontario and increasingly common, with the GTA firmly inside the risk zone. Public Health Ontario has documented blacklegged ticks in every GTA municipality, and confirmed case counts have risen year over year. It remains far less common than everyday illnesses, and it is highly preventable with tick checks, prompt removal, and yard treatment. If symptoms like a bull\'s-eye rash or fever appear, see a healthcare provider.',
+      'Lyme disease is now well established across southern Ontario and increasingly common, with the GTA firmly inside the risk zone. Public Health Ontario has documented blacklegged ticks in every GTA municipality, and confirmed case counts have risen year over year. It remains far less common than everyday illnesses, and public health agencies advise lowering the risk with repellent, daily tick checks, and prompt removal of any attached tick. If symptoms like a bull\'s-eye rash or fever appear, see a healthcare provider.',
   },
 ]
 
@@ -125,6 +126,30 @@ export default function AreTicksDangerousPage() {
           <strong>Medical disclaimer:</strong> This article provides general public health information about tick risks in Ontario. Always consult a licensed healthcare provider for medical advice. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>
 
+        {/* Service arm takes the top slot on a GTA-relevant page: quote CTA first, then
+            the affiliate disclosure, then the aftercare module. Order is deliberate. */}
+        <BlogPostCTA />
+        <AffiliateDisclosure />
+        <aside aria-label="What to do right now" className="not-prose my-8 rounded-2xl border border-emerald-200 bg-emerald-50/70 p-5 sm:p-6">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-3">What to do right now</p>
+          <ol className="space-y-5 list-none pl-0 m-0">
+            <li>
+              <p className="font-bold text-brand-900 mb-1">1. If a tick is attached, take it off now &mdash; free, and it is the step that matters most</p>
+              <p className="text-[15px] text-gray-800 leading-relaxed">Grip the tick as close to the skin as you can and pull straight up with slow, steady pressure. Do not twist it, do not burn it, and do not smother it in petroleum jelly &mdash; all three make the tick more likely to regurgitate into the bite. Wash the site, write down today&rsquo;s date and where you were, and watch the bite for 30 days. Removing an attached tick within 24 hours sharply lowers the risk of Lyme transmission, which is why this comes before buying anything.</p>
+            </li>
+            <li>
+              <p className="font-bold text-brand-900 mb-1">2. A fine-tip tick remover for the next one</p>
+              <p className="text-[15px] text-gray-800 leading-relaxed mb-3">Blunt household tweezers squeeze the tick&rsquo;s body and slip off a nymph the size of a poppy seed. A dedicated remover grips at the skin line and lifts the whole tick out, mouthparts included. Cheap enough to keep one by the back door, one in the car, and one in the hiking bag &mdash; which matters, because the one you own is only useful if it is where you are.</p>
+              <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink>
+            </li>
+            <li>
+              <p className="font-bold text-brand-900 mb-1">3. Somewhere to keep the tick you just removed</p>
+              <p className="text-[15px] text-gray-800 leading-relaxed mb-3">Public health guidance is to save the tick for identification, and a sealed sandwich bag in a drawer is where saved ticks quietly become unidentifiable. A small screw-top vial keeps the specimen intact and gives you a surface to write the date and location on with a permanent marker &mdash; the two facts a provider will ask for if symptoms appear weeks later.</p>
+              <BuyLink tag={AMZ_TAG} search="small screw top specimen vials">Check price on Amazon.ca &rarr;</BuyLink>
+            </li>
+          </ol>
+        </aside>
+
         <h2>The Short Answer: Yes, Ticks Are Dangerous in Ontario</h2>
         <p>Ticks in Ontario are not just a nuisance — they are a legitimate health risk. The blacklegged tick (<em>Ixodes scapularis</em>), now established across virtually all of Southern Ontario, can transmit Lyme disease, Anaplasmosis, Babesiosis, and Powassan virus. The number of confirmed Lyme disease cases in Canada has increased more than tenfold over the past decade, and the geographic range of disease-carrying ticks continues to expand northward every year.</p>
         <p>For GTA homeowners, the days of dismissing ticks as a &quot;cottage country problem&quot; are over. The worst areas for ticks in Ontario are not remote &mdash; they are <strong>edge habitats</strong>: ravine slopes, conservation-land trails, escarpment woodlots, and any lot line where mowed grass meets naturalized growth. Toronto ravines, Mississauga conservation areas, Hamilton escarpment trails, and suburban backyards across the region now harbour established blacklegged tick populations.</p>
@@ -143,6 +168,7 @@ export default function AreTicksDangerousPage() {
           <li><strong><em>Borrelia miyamotoi</em></strong> — tick-borne relapsing fever</li>
         </ul>
         <p>See: <Link href="/blog/tick-borne-diseases-ontario-complete-list" className="text-brand-700 hover:underline">Complete List of Tick-Borne Diseases in Ontario</Link></p>
+        <p>Carrying those pathogens is not the same as every blacklegged tick being infected, and the difference is large enough to change how alarmed you should be about a single bite. Our data page on <Link href="/blog/what-percentage-of-ticks-carry-lyme-ontario" className="text-brand-700 underline">what percentage of ticks carry Lyme disease in Ontario</Link> sets out the tested positivity rates by region and life stage.</p>
 
         <h3>American Dog Tick (<em>Dermacentor variabilis</em>) — Lower Risk</h3>
         <p>The American dog tick is the most commonly encountered tick species in Ontario. It is larger and more visible than the blacklegged tick. While it can theoretically transmit Rocky Mountain Spotted Fever and tularemia, these diseases are extremely rare in Ontario. The primary concern with dog ticks is nuisance biting and the potential for allergic reactions at the bite site.</p>
@@ -160,6 +186,7 @@ export default function AreTicksDangerousPage() {
           <li>Infection rates in blacklegged tick populations in established Southern Ontario risk areas range from approximately 20% to 40%</li>
           <li>Cases of Anaplasmosis and Babesiosis, while still uncommon, are being detected with increasing frequency</li>
         </ul>
+        <p>Provincial totals hide a lot of local variation, and the west GTA is one of the places where the local numbers are worth reading on their own. Our breakdown of <Link href="/blog/lyme-disease-cases-mississauga-oakville-2026" className="text-brand-700 underline">Lyme disease cases in Mississauga and Oakville</Link> sets out what the published counts for Peel and Halton actually show, and what they mean for a household near the Credit River or Bronte Creek.</p>
         <p>The risk is not theoretical — people in the GTA are contracting Lyme disease from tick bites acquired in their own backyards, local parks, and neighbourhood trails.</p>
         <p className="text-sm text-gray-500">Sources: <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="text-brand-700 hover:underline">Government of Canada — Lyme disease</a> and <a href="https://www.publichealthontario.ca/" target="_blank" rel="noopener" className="text-brand-700 hover:underline">Public Health Ontario</a>.</p>
 
@@ -183,6 +210,8 @@ export default function AreTicksDangerousPage() {
         </ul>
         <p>The winter point is the one that surprises homeowners most, because a hard frost does not reset the population. Blacklegged ticks wait out the cold in leaf litter beneath an insulating layer of snow, and a single tick lives roughly two to three years across its larva, nymph, and adult stages &mdash; so the ticks on your property in September are largely the same ones that will be questing next May. That multi-year clock, and why a tick carried indoors dies within days while one in the yard survives for seasons, is explained in our guide to <Link href="/blog/how-long-do-ticks-live" className="text-brand-700 hover:underline">how long ticks live</Link>.</p>
 
+        <p>Those factors compounded noticeably this season: activity ran ahead of schedule across Southern Ontario and drew province-wide news coverage. We cover what drove it and the five things to do about it in <Link href="/blog/ontario-tick-surge-2026" className="text-brand-700 underline">the Ontario tick surge of 2026 and its 5-step safety plan</Link>.</p>
+
         <h2>Ticks in Your Own Backyard</h2>
         <p>One of the most important things GTA homeowners need to understand is that tick exposure does not require a hike in a provincial park. Ticks live in:</p>
         <ul>
@@ -197,10 +226,11 @@ export default function AreTicksDangerousPage() {
         <h2>How to Protect Your Family</h2>
 
         <h3>Professional Tick Treatment</h3>
-        <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> is the most effective way to reduce tick populations on your property. Treatment puts a Health Canada-registered residual acaricide on the high-risk perimeter zones — garden edges, fence lines, shaded vegetation, stone walls, and the lawn-to-woods transition — because that is where ticks quest, not the middle of the lawn. It lowers the number of ticks in those zones rather than clearing the property, so it is paired with tick checks. The BuzzSkito tick program is 5 sprays across the May-to-September season — spaced so the questing zones are re-treated as spring nymphs give way to fall adults — at $597 standalone, or $497 when added to any mosquito plan.</p>
+        <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> is the most effective way to reduce tick populations on your property. Treatment puts a residual acaricide, applied according to label directions, on the high-risk perimeter zones — garden edges, fence lines, shaded vegetation, stone walls, and the lawn-to-woods transition — because that is where ticks quest, not the middle of the lawn. It lowers the number of ticks in those zones rather than clearing the property, so it is paired with tick checks. The BuzzSkito tick program is 5 sprays across the May-to-September season — spaced so the questing zones are re-treated as spring nymphs give way to fall adults — at $597 standalone, or $497 when added to any mosquito plan.</p>
         <p>Homeowners who apply their own registered product are aiming at that same narrow band, and it is the shape of the target that decides the equipment. The zone is a low, shaded, roughly one-metre strip of leaf litter, fence line and stone wall that can run the entire boundary of the lot, and it has to be wetted evenly down at ground level rather than misted from standing height. A one-litre trigger bottle holds neither the pressure nor the volume to cover that distance, which is why perimeter work is done with a <Link href="/blog/backpack-sprayer-canada" className="text-brand-700 hover:underline">backpack sprayer</Link>.</p>
 
         <h3>Yard Modifications</h3>
+        <AffiliateDisclosure />
         <ul>
           <li>Remove leaf litter — the most critical overwintering habitat for ticks</li>
           <li>Mow your lawn regularly (under 3 inches)</li>
@@ -208,6 +238,7 @@ export default function AreTicksDangerousPage() {
           <li>Stack firewood in dry, sunny locations away from the house</li>
           <li>Clear brush and overgrown vegetation along fence lines</li>
         </ul>
+        <p className="not-prose text-gray-700">The gravel-or-wood-chip strip is the item on that list most people build once and then quietly lose. It works because a metre of dry, loose, sunlit material dries a questing tick out before it can cross &mdash; it is a desiccation barrier, not a fence &mdash; which means it only does its job while it stays dry and unbroken. Turf creeps back into loose chip within a season or two and the strip closes up without anyone noticing. Setting the lawn side with rigid edging, or laying landscape fabric underneath before the chips go down, is what keeps it a barrier in year three rather than a stripe of mulch. <BuyLink tag={AMZ_TAG} search="landscape edging lawn border">check landscape edging on Amazon.ca &rarr;</BuyLink></p>
 
         <h3>Personal Protection</h3>
         <ul>
@@ -217,6 +248,9 @@ export default function AreTicksDangerousPage() {
           <li>Do full-body tick checks within 2 hours of outdoor activity</li>
           <li>Shower promptly after being outdoors</li>
         </ul>
+        <p className="not-prose text-gray-700">Repellent is the line on that list people most often apply to the wrong half of themselves. Mosquitoes arrive from the air, so arms and neck get the attention &mdash; but ticks climb from the ground up, which makes socks, ankles, boot tops, and the lower leg the part that actually matters. Public health guidance for wooded and grassy areas points to 20&ndash;30% DEET or an icaridin formulation, applied according to the label and reapplied as the label directs rather than by feel. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">compare icaridin and DEET repellents on Amazon.ca &rarr;</BuyLink></p>
+
+        <p className="not-prose text-gray-700">Repellent covers skin; the other half of that list is what you are wearing, because a tick climbs the outside of a trouser leg long before it reaches skin. Tucking trousers into socks closes the gap it climbs through, and light colours make a poppy-seed-sized nymph visible against the fabric while it is still walking rather than after it has attached. For treated fabric, the format sold to Canadian consumers is factory pre-treated permethrin clothing, intended for ages 16 and over &mdash; Health Canada has not approved a consumer spray-on clothing treatment here, and our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">permethrin in Canada guide</Link> sets out why. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h3>Know What to Do After a Tick Bite</h3>
         <p>If you find a tick attached to your skin:</p>
@@ -230,7 +264,6 @@ export default function AreTicksDangerousPage() {
         </ul>
         <p>Often there is no tick to find &mdash; just a mark noticed a day later &mdash; and the 24-hour removal window and 30-day symptom watch above only apply if it was a tick that made it. The quickest tell is behaviour rather than appearance: a mosquito welt rises within minutes and itches immediately, while a tick bite is usually painless at the time and the tick stays attached instead of flying off. Our side-by-side on <Link href="/blog/tick-bite-vs-mosquito-bite" className="text-brand-700 hover:underline">telling a tick bite from a mosquito bite</Link> covers both, including how the bite site looks once the tick is off.</p>
         <p>See: <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 hover:underline">How to Remove a Tick Safely</Link> | <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms &amp; What to Do</Link> | <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">Best Tick-Removal Tools Compared</Link></p>
-        <AffiliateDisclosure />
         <p className="not-prose text-gray-700">A dedicated tick-removal tool grips the head close to the skin more reliably than household tweezers, reducing the chance of leaving mouthparts behind. See how the options compare in our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick-removal tool guide</Link>, or <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">check tick-removal tools on Amazon.ca →</BuyLink></p>
         <TopPick tag={AMZ_TAG}
           label="Our Top Pick — Tick Removal"
@@ -245,10 +278,12 @@ export default function AreTicksDangerousPage() {
         <h2>Protecting Pets</h2>
         <p>Dogs are highly susceptible to tick bites and can contract Lyme disease, Anaplasmosis, and Ehrlichiosis. Every GTA dog that spends time outdoors should be on year-round tick prevention medication prescribed by a veterinarian. Professional yard treatment provides an additional layer of protection by reducing the tick population your pets encounter in their own yard.</p>
         <p>Cats can also be bitten by ticks but are less commonly affected by tick-borne diseases. Consult your veterinarian about feline tick prevention options if your cat goes outdoors.</p>
+        <p className="not-prose text-gray-700">Veterinary medication is the main line of defence, but it works alongside a physical check rather than instead of one &mdash; and a dog&rsquo;s coat hides a poppy-seed-sized nymph completely. A fine-toothed flea-and-tick comb run against the lie of the hair catches unattached ticks before they reach skin, and the places worth combing are predictable: the ears and the fold behind them, the collar line, the armpits and groin, and between the toes. Two minutes in the driveway after a ravine walk is the whole routine. <BuyLink tag={AMZ_TAG} search="flea and tick comb for dogs">check flea and tick combs on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>The Bottom Line</h2>
         <p>Ticks are dangerous in Ontario — and the risk is not decreasing. The geographic range of disease-carrying blacklegged ticks expands every year, infection rates in tick populations are significant, and Lyme disease cases continue to climb. The GTA is firmly within the established risk zone.</p>
-        <p>The good news is that tick-borne disease is highly preventable through a combination of professional yard treatment, habitat modification, personal protection, and prompt tick removal. The key is taking the risk seriously and acting before tick season peaks.</p>
+        <p>The good news is that the everyday steps public health agencies recommend &mdash; repellent, tick checks, and prompt tick removal &mdash; are simple to follow, and habitat modification plus professional yard treatment reduce the number of ticks in the places your family actually spends time. The key is taking the risk seriously and acting before tick season peaks.</p>
+        <p>&ldquo;Dangerous&rdquo; is also worth keeping in proportion, because the question most people are really asking is how bad it can get. Our plain-English guide to <Link href="/blog/can-lyme-disease-kill-you" className="text-brand-700 hover:underline">whether Lyme disease can kill you</Link> works through the prognosis, what treatment does, and which complications are the genuinely urgent ones.</p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">

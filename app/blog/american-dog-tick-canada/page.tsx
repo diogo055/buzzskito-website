@@ -46,7 +46,7 @@ const FAQS = [
   },
   {
     question: 'How do I prevent American dog ticks in my yard?',
-    answer: 'Habitat modification first: keep grass mowed under 4 inches, clear leaf litter from yard edges, create a 3-foot wood chip or gravel barrier between lawn and any tall grass, woods, or trails. For dogs: monthly vet-prescribed preventative + daily tick checks after outdoor walks. For yard-level control, professional barrier spray puts a Health Canada-registered residual acaricide on lawn edges, fence lines, and garden borders — the margins where both American dog ticks and blacklegged ticks actually wait for a host, rather than the open lawn. It is repeated through the season because wildlife keeps carrying new ticks onto the property; no treatment clears a yard permanently.',
+    answer: 'Habitat modification first: keep grass mowed under 4 inches, clear leaf litter from yard edges, create a 3-foot wood chip or gravel barrier between lawn and any tall grass, woods, or trails. For dogs: monthly vet-prescribed preventative + daily tick checks after outdoor walks. For yard-level control, professional barrier spray puts a residual acaricide, applied according to label directions, on lawn edges, fence lines, and garden borders — the margins where both American dog ticks and blacklegged ticks actually wait for a host, rather than the open lawn. It is repeated through the season because wildlife keeps carrying new ticks onto the property; no treatment clears a yard permanently.',
   },
 ]
 
@@ -144,6 +144,8 @@ export default function AmericanDogTickPage() {
           </ol>
           <p>Compare to the <strong>blacklegged tick (deer tick)</strong>: smaller (3 mm), plain reddish-black body, no patterned markings, and the medical concern (Lyme disease vector). See our <Link href="/blog/what-ticks-look-like-ontario">full Ontario tick identification guide</Link> for visual differences.</p>
 
+          <p>A third species sometimes enters the conversation: the <strong>lone star tick</strong>, reddish-brown with a single white dot on the female&rsquo;s back. It is the tick linked to the alpha-gal red-meat allergy, and it is not established in Canada — see our <Link href="/blog/lone-star-tick-alpha-gal-canada" className="text-brand-700 underline">lone star tick and alpha-gal risk guide for Canada</Link> for where it has actually been logged.</p>
+
           <h2>Where They Live in Canada</h2>
           <p>American dog ticks are widespread across southern Canada with highest population density in:</p>
           <ul>
@@ -154,6 +156,7 @@ export default function AmericanDogTickPage() {
             <li>Parts of southern British Columbia (less common)</li>
           </ul>
           <p>Their preferred habitats: grassy fields, meadows, hiking trails with tall grass, yard edges with unmowed vegetation, and brushy areas. They are NOT dense-forest specialists like blacklegged ticks. If your yard borders a meadow, agricultural field, or unkept brush — that&rsquo;s prime American dog tick habitat.</p>
+          <p>For how that range compares with the other species found here, our guide to <Link href="/blog/are-there-ticks-in-canada" className="text-brand-700 underline">where ticks are found in Canada, province by province</Link> maps each one out.</p>
 
           <h2>Disease Risk in Canada — The Honest Numbers</h2>
           <h3>Low risk for humans</h3>
@@ -169,6 +172,7 @@ export default function AmericanDogTickPage() {
             <li><strong>Babesiosis:</strong> A red blood cell parasite causing anemia. Rare but increasing.</li>
             <li><strong>Ehrlichiosis:</strong> Possible but uncommon.</li>
           </ul>
+          <p>Note what is missing from that list: canine Lyme disease, which comes from the blacklegged tick rather than this one despite the &ldquo;dog tick&rdquo; name. If the tick you pulled off was small, plain and dark-legged instead of grey-mottled, <Link href="/blog/can-dogs-get-lyme-disease" className="text-brand-700 underline">can dogs get Lyme disease from ticks?</Link> covers the signs to watch for and how long they take to appear.</p>
 
           <h2>What to Do When You Find One</h2>
           <AffiliateDisclosure />
@@ -194,6 +198,7 @@ export default function AmericanDogTickPage() {
 
           <h3>On a dog</h3>
           <p>Same removal technique. After removal, watch for: lethargy, weakness in rear legs progressing forward (potential tick paralysis), excessive licking at the bite site, fever, swollen lymph nodes. Contact your vet if any appear. See our detailed <Link href="/blog/how-to-remove-tick-from-dog-ontario">tick removal guide for dogs</Link>.</p>
+          <p>The watch period is the part owners tend to cut short. Our guide to <Link href="/blog/tick-bite-on-dog-symptoms" className="text-brand-700 underline">tick bite symptoms on a dog</Link> sets out what the bite site normally does over the first week, which signs belong to the days after a bite and which only show up weeks later.</p>
 
           <h2>Yard Prevention — What Actually Works</h2>
           <p>For yards near grassy fields, meadows, or trails where American dog ticks live:</p>
@@ -204,7 +209,7 @@ export default function AmericanDogTickPage() {
             <li><strong>Discourage rodents</strong> — they&rsquo;re the immature tick&rsquo;s primary host. Don&rsquo;t leave food out, store firewood off the ground.</li>
             <li><strong>Daily tick checks on dogs and yourself</strong> after time in tick habitat.</li>
             <li><strong>Vet-prescribed monthly tick preventative for dogs</strong> (Bravecto, NexGard, Simparica, K9 Advantix II).</li>
-            <li><strong>Professional yard barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> targets ticks at lawn edges, fence lines, and shaded perimeters where they actually live — both American dog ticks and blacklegged ticks. Spread over five applications because the treatment is residual, not permanent. $597 standalone or tick add-on bundle available on quote.</li>
+            <li><strong>Professional yard barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> targets ticks at lawn edges, fence lines, and shaded perimeters where they actually live — both American dog ticks and blacklegged ticks. Spread over five applications because the treatment is residual, not permanent. $597 on its own, or $497 when added to any mosquito plan.</li>
           </ol>
 
           <h2>Related Reading</h2>
@@ -233,7 +238,7 @@ export default function AmericanDogTickPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick-removal tool" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Stop Finding Dog Ticks (And Deer Ticks) in Your Yard" subtext="Professional barrier spray treats the lawn edges and shaded margins where ticks wait. From seasonal pricing on quote." variant="dark" />
+      <CTASection heading="Treat the Yard Edges Where Dog Ticks (And Deer Ticks) Wait" subtext="Professional barrier spray treats the lawn edges and shaded margins where ticks wait. Tick season plans $597, or $497 with a mosquito plan." variant="dark" />
     </>
   )
 }

@@ -178,7 +178,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
           <TopPick tag={AMZ_TAG}
             label="Our Top Pick for Removal"
             name="Fine-Tipped Tick Removal Tool / Pointed Tweezers"
-            blurb="A dedicated tick hook or pointed tick tweezers grips the tick right at the skin so you can pull straight up — the safest way to lift out an embedded tick without crushing the body or leaving the mouthparts behind. Cheap enough to keep one in the house and one in the dog-walk bag."
+            blurb="A dedicated tick hook or pointed tick tweezers grips the tick right at the skin so you can pull straight up — the cleanest way to lift out an embedded tick without crushing the body or leaving the mouthparts behind. Cheap enough to keep one in the house and one in the dog-walk bag."
             search="tick removal tool tweezers"
             score={9.0}
             pros={['Grips at skin level for a clean, straight-up pull', 'Avoids squeezing infected fluid back in', 'Pocket-sized — keep one in your walk bag']}
@@ -192,7 +192,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
           <p>To lower the odds of the next tick even latching on, pair yard treatment with an on-dog repellent — see our guide to the best <Link href="/blog/tick-repellent-for-dogs-ontario">tick repellent for dogs in Ontario</Link>.</p>
 
           <h2>Stop Finding Ticks in the First Place</h2>
-          <p>Once you&rsquo;ve found one tick, you&rsquo;ll likely find more — they don&rsquo;t travel alone. The most efficient solution is reducing the tick population in your yard, which is where dogs spend most of their outdoor time. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets leaf litter, lawn edges, and fence-line zones — the micro-habitats where 95% of yard ticks live. Most customers stop finding ticks within 2 weeks of the first treatment.</p>
+          <p>Once you&rsquo;ve found one tick, you&rsquo;ll likely find more — they don&rsquo;t travel alone. The most efficient solution is reducing the tick population in your yard, which is where dogs spend most of their outdoor time. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets leaf litter, lawn edges, and fence-line zones — the micro-habitats where most yard ticks live, and repeats the treatment through the season as the residual wears down. Keep checking your dog after outdoor time; no yard treatment removes every tick.</p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -220,7 +220,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tweezers" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Tired of Finding Ticks on Your Dog?" subtext="Yard tick barrier spray targets the leaf litter and lawn edges where ticks wait. From seasonal pricing on quote — tick add-on bundle available on quote." variant="dark" />
+      <CTASection heading="Tired of Finding Ticks on Your Dog?" subtext="Yard tick barrier spray targets the leaf litter and lawn edges where ticks wait. Tick seasons from $597, or $497 with a mosquito plan." variant="dark" />
     </>
   )
 }

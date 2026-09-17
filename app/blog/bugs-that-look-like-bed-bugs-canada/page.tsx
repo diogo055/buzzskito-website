@@ -21,7 +21,7 @@ const UPDATED = '2026-07-30'
 // how-to-check-for-bed-bugs-canada, and the tick comparison on tick-vs-bed-bug.
 // Structural sibling of /blog/bugs-that-look-like-ticks.
 const TITLE = 'The 9 Bugs That Look Like Bed Bugs in Canada — and How to Tell Which One You Have'
-const META_TITLE = '9 Bugs That Look Like Bed Bugs: How to Tell'
+const META_TITLE = '9 Bugs That Look Like Bed Bugs in Canada'
 
 const FAQS = [
   {
@@ -126,6 +126,24 @@ export default function BugsThatLookLikeBedBugsCanadaPage() {
           </div>
 
           <SpecialistDisclosure pest="bed bugs" />
+
+          <div className="not-prose my-6 rounded-xl border border-amber-200 bg-amber-50/60 p-5">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700 mb-3">What to do right now</p>
+            <ol className="space-y-4">
+              <li>
+                <p className="text-sm text-gray-800 leading-relaxed"><strong>1. Trap the specimen before it disappears.</strong> Free, and it decides everything that follows: press a strip of clear tape over the insect onto a white index card, write down the room and the exact surface you found it on, and photograph it against the white background. Nine of the look-alikes on this page lead somewhere completely different, so buy no spray, no encasement and no steamer until the card is identified.</p>
+              </li>
+              <li>
+                <p className="text-sm text-gray-800 leading-relaxed mb-2"><strong>2. Put interceptors under the bed legs tonight.</strong> A pitfall cup under each leg turns a subjective question into a physical yes or no, in both directions &mdash; anything travelling between floor and bed falls in and stays there. It is the one device that gives you a real answer whichever way the answer goes.</p>
+                <BuyLink tag={AMZ_TAG} search="climbup bed bug interceptor">Check price on Amazon.ca &rarr;</BuyLink>
+              </li>
+              <li>
+                <p className="text-sm text-gray-800 leading-relaxed mb-2"><strong>3. Get light and magnification onto the seam.</strong> A 2 mm insect in a dark mattress seam is invisible to a phone torch held straight on. A bright beam raked along the seam at a low angle throws the shadows that make both the insect and its fecal spotting show up, and the magnifier is what separates a bristly carpet beetle larva from a smooth bed bug nymph.</p>
+                <BuyLink tag={AMZ_TAG} search="bed bug inspection flashlight magnifier kit">Check price on Amazon.ca &rarr;</BuyLink>
+              </li>
+            </ol>
+            <p className="mt-4 text-xs text-gray-500">Identification first, treatment second. Everything below this box is about telling the nine look-alikes apart.</p>
+          </div>
         </div>
       </section>
 

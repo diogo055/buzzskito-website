@@ -267,7 +267,7 @@ export default function FlowtronBugZapperCanadaPage() {
           <p>Give a new unit a few nights before you judge it. If it is drawing a crowd of moths to a far corner of the yard instead of your patio, that is it working correctly.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Want the mosquitoes actually gone?</h3>
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Want fewer mosquitoes biting?</h3>
             <p className="text-sm text-gray-700 mb-4 leading-relaxed">A zapper handles moths; a barrier spray handles the biting. BuzzSkito treats your whole yard&rsquo;s vegetation from $99 for a single visit — and our tick program runs $597/season standalone or $497 bundled with any mosquito plan. Serving 19 GTA cities with 150 five-star reviews.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
@@ -302,7 +302,7 @@ export default function FlowtronBugZapperCanadaPage() {
           <p>Bought correctly and used correctly, a Flowtron earns its place — it just is not the whole answer. For a typical GTA suburban property, the combination we actually recommend is:</p>
           <ol>
             <li><strong>Flowtron BK-40D with an octenol cartridge</strong>, mounted 9–12 m from the patio, to clear moths, beetles, midges, and some mosquitoes and biting flies.</li>
-            <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> — treating your vegetation so the residual formula kills mosquitoes (and ticks) landing on leaves for up to 30 days.</li>
+            <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> — treating your vegetation with a residual applied according to label directions and re-applied through the season, with tick treatment available as an add-on.</li>
             <li><strong>Source removal</strong> — dump standing water weekly and treat any water you cannot drain, so you are not breeding the next generation on site.</li>
           </ol>
           <p>The zapper takes the nuisance flyers, the barrier spray takes the biters, and source removal shrinks the population feeding both. That is the stack that gets a Canadian backyard genuinely usable in June and July — not any single gadget on its own.</p>
@@ -328,7 +328,7 @@ export default function FlowtronBugZapperCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Zappers Handle Moths. We Handle Mosquitoes." subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 30-day residual. Serving 19 GTA cities." variant="dark" />
+      <CTASection heading="Zappers Handle Moths. We Handle Mosquitoes." subtext="Get a free quote for licensed barrier spray. From $99. Products applied according to label directions. Serving 19 GTA cities." variant="dark" />
     </>
   )
 }

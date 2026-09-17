@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -14,7 +15,7 @@ const SLUG = 'what-eats-ticks-and-mosquitoes'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'What Eats Ticks and Mosquitoes? Predators Ranked (Ontario)'
-const META_TITLE = 'What Eats Ticks and Mosquitoes? Predators Ranked'
+const META_TITLE = 'What Eats Ticks and Mosquitoes? Ontario Guide'
 
 const FAQS = [
   {
@@ -120,6 +121,34 @@ export default function WhatEatsTicksAndMosquitoesPage() {
         </div>
       </section>
 
+      {/* Service arm first (GTA-relevant page), then disclosure, then the aftercare
+          module. No affiliate element above the in-body quote CTA. */}
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <BlogPostCTA />
+          <AffiliateDisclosure />
+          <aside aria-label="What to do right now" className="not-prose my-8 rounded-2xl border border-emerald-200 bg-emerald-50/70 p-5 sm:p-6">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-3">What to do right now</p>
+            <ol className="space-y-5 list-none pl-0 m-0">
+              <li>
+                <p className="font-bold text-brand-900 mb-1">1. Walk the yard with an empty bucket &mdash; free, and it beats every predator on this page</p>
+                <p className="text-[15px] text-gray-800 leading-relaxed">A female mosquito needs about a bottle cap of water to breed. Tip out plant saucers, kids&rsquo; toys, wheelbarrows, tarp folds, the bottom of the recycling bin and the birdbath, and check that the gutter above the back door is actually draining. Do it once a week and you have stopped mosquitoes being produced at all, rather than removing a fraction of the adults after they emerge &mdash; which is the ceiling every predator on this page runs into.</p>
+              </li>
+              <li>
+                <p className="font-bold text-brand-900 mb-1">2. Bti for the water you cannot tip out</p>
+                <p className="text-[15px] text-gray-800 leading-relaxed mb-3">Rain barrels, pond edges, a low spot that stays wet for a week after a storm &mdash; that is where the bucket walk runs out. Bti (<em>Bacillus thuringiensis israelensis</em>) is a larvicide that acts on mosquito larvae in the water rather than on adults in the air. Read the label and follow the directions on it, including the water types it is registered for.</p>
+                <BuyLink tag={AMZ_TAG} search="mosquito dunks bti larvicide">Check price on Amazon.ca &rarr;</BuyLink>
+              </li>
+              <li>
+                <p className="font-bold text-brand-900 mb-1">3. A fan, for the part of the yard you are sitting in tonight</p>
+                <p className="text-[15px] text-gray-800 leading-relaxed mb-3">Mosquitoes are weak fliers and they hunt by tracking the plume of carbon dioxide drifting off you. A moving-air outdoor fan aimed across the seating area does both jobs at once: it scatters the plume, and it makes the approach harder than a mosquito can manage. It is the only item on this list that works the same evening you buy it, and it needs no label, no schedule, and no reapplication.</p>
+                <BuyLink tag={AMZ_TAG} search="outdoor patio fan">Check price on Amazon.ca &rarr;</BuyLink>
+              </li>
+            </ol>
+          </aside>
+        </div>
+      </section>
+
       {/* Predator ranking table */}
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
@@ -196,7 +225,7 @@ export default function WhatEatsTicksAndMosquitoesPage() {
             blurb="If you want to recruit a real predator into your soil, live Steinernema nematodes are the one entry on this list you can order and apply yourself. Watered into shaded lawn edges and leaf-litter borders, they hunt tick larvae and nymphs where they overwinter. Results are patchy and need reapplication, so treat them as a chemical-free supplement to habitat control — not a standalone fix."
             search="beneficial nematodes lawn"
             score={7.2}
-            pros={['Chemical-free, kid- and pet-safe', 'Targets ticks in the soil, where other predators miss', 'Simple to water into the lawn']}
+            pros={['Chemical-free live biological control', 'Targets ticks in the soil, where other predators miss', 'Simple to water into the lawn']}
             cons={['Field results are inconsistent', 'Live product — apply quickly, reapply often', 'Does nothing for adult mosquitoes']}
           />
 
@@ -225,9 +254,10 @@ export default function WhatEatsTicksAndMosquitoesPage() {
             <li><strong>Remove standing water.</strong> This does more than any predator can, because it stops mosquitoes from being produced at all rather than removing a fraction of the adults after they emerge. A female mosquito needs only a bottle cap of water. Empty birdbaths, buckets, toys, and plant saucers weekly, and unclog your gutters. For water you cannot drain, drop in BTI (Bti, a mosquito-specific bacterial larvicide) dunks.</li>
             <li><strong>Deny ticks their habitat.</strong> Mow to 3–4 inches, clear leaf litter at yard edges, and keep a dry wood-chip or gravel strip between lawn and any woods or tall grass — ticks avoid crossing it.</li>
             <li><strong>Invite the good predators.</strong> A clean, stocked or aerated water feature brings dragonflies and frogs; native plantings support birds and beneficial insects.</li>
-            <li><strong>Protect people directly.</strong> Use an approved repellent (DEET, picaridin/icaridin, or oil of lemon eucalyptus), tuck pants into socks in tick country, and treat clothing and footwear with permethrin.</li>
+            <li><strong>Protect people directly.</strong> Use a registered repellent (DEET, picaridin/icaridin, or oil of lemon eucalyptus; look for the PCP number on the label), tuck pants into socks in tick country, and treat clothing and footwear with permethrin.</li>
             <li><strong>Treat the edges.</strong> A professional barrier spray targets the shaded borders and leaf litter where adult mosquitoes rest and ticks quest — the zones predators and habitat work miss. See our guide to the <Link href="/blog/best-tick-repellent-yard-canada">best tick repellent for a Canadian yard</Link>, or let <Link href="/mosquito-control">BuzzSkito&rsquo;s mosquito and tick control</Link> handle it for you.</li>
           </ol>
+          <p className="not-prose text-gray-700">Step four is the one people skip because they already own something half-suitable. Health Canada registers five personal repellent actives, and the two worth knowing for a family are DEET and icaridin (picaridin) &mdash; the Canadian Paediatric Society recommends icaridin as the first choice for children aged six months to twelve years, and it does not soften plastics and synthetic fabrics the way DEET does. Check for the PCP registration number on the label, and apply and reapply as that label directs rather than by feel. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca &rarr;</BuyLink></p>
           <p>Do these together and you get what no predator can deliver on its own: a yard you can actually use from May through September.</p>
 
           <h2>Related Reading</h2>

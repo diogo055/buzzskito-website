@@ -267,7 +267,7 @@ export default function ElectricFlySwatterCanadaPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The racket handles the one that got inside. We handle the yard.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray treats the vegetation where mosquitoes actually rest — from $99 per treatment with 21–30 days of residual control, serving 19 GTA cities. Tick protection adds $497/season to any mosquito plan.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray treats the vegetation where mosquitoes actually rest — from $99 per treatment, re-applied through the season, serving 19 GTA cities. Tick protection adds $497/season to any mosquito plan.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -310,7 +310,7 @@ export default function ElectricFlySwatterCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Rackets Win Battles. Barrier Spray Wins the Season." subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 30-day residual. Serving 19 GTA cities." variant="dark" />
+      <CTASection heading="Rackets Win Battles. Barrier Spray Wins the Season." subtext="Get a free quote for licensed barrier spray. From $99. Products applied according to label directions. Serving 19 GTA cities." variant="dark" />
     </>
   )
 }

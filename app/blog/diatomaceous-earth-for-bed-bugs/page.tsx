@@ -15,7 +15,7 @@ const SLUG = 'diatomaceous-earth-for-bed-bugs'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Diatomaceous Earth for Bed Bugs — Does It Work? (Canada 2026)'
-const META_TITLE = 'Diatomaceous Earth for Bed Bugs: Does It Work?'
+const META_TITLE = 'Diatomaceous Earth for Bed Bugs: Canada Verdict'
 
 const FAQS = [
   {

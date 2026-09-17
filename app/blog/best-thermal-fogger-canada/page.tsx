@@ -39,7 +39,7 @@ const FAQS = [
   },
   {
     question: 'How long does thermal fogging keep mosquitoes away?',
-    answer: 'Thermal fogging gives a fast, dramatic knockdown of the adult mosquitoes present at the moment you fog, but on its own the residual is short — often only hours to a couple of days, because the fine fog settles as a light film that breaks down quickly in sun and dew. That makes it excellent for clearing a yard an hour before an evening event, and weak as a standalone season-long solution. Professional barrier spray, by contrast, deposits a measured residual on leaf surfaces that keeps killing mosquitoes that land for 21–30 days. Many acreage owners fog before events and rely on barrier treatment for lasting control.',
+    answer: 'Thermal fogging gives a fast, dramatic knockdown of the adult mosquitoes present at the moment you fog, but on its own the residual is short — often only hours to a couple of days, because the fine fog settles as a light film that breaks down quickly in sun and dew. That makes it excellent for clearing a yard an hour before an evening event, and weak as a standalone season-long solution. Professional barrier spray, by contrast, leaves a residual on the leaves where mosquitoes rest, and a seasonal plan renews it on schedule — every 2 weeks on Standard, monthly on Basic. Many acreage owners fog before events and rely on a seasonal barrier plan for ongoing control.',
   },
   {
     question: 'Is a propane fogger or a pulse-jet fogger better?',
@@ -55,7 +55,7 @@ const FAQS = [
   },
   {
     question: 'Does thermal fogging kill ticks too?',
-    answer: 'Not meaningfully. Thermal fog is an airborne knockdown aimed at flying and exposed insects, so it hits adult mosquitoes drifting in the treated air but does little for ticks, which sit low in leaf litter, tall grass, and the shaded transition zones at the edge of a lawn where a drifting fog barely reaches. Tick control needs a targeted residual applied to those ground-level harbourage zones. That is a key reason many GTA properties pair — or replace — fogging with a professional barrier-and-tick treatment, which puts product exactly where ticks live and also gives lasting mosquito coverage.',
+    answer: 'Not meaningfully. Thermal fog is an airborne knockdown aimed at flying and exposed insects, so it hits adult mosquitoes drifting in the treated air but does little for ticks, which sit low in leaf litter, tall grass, and the shaded transition zones at the edge of a lawn where a drifting fog barely reaches. Tick control needs a targeted residual applied to those ground-level harbourage zones. That is a key reason many GTA properties pair — or replace — fogging with a professional barrier-and-tick treatment, which puts product exactly where ticks live and also treats the leaves where mosquitoes rest.',
   },
   {
     question: 'Where can I buy a thermal fogger in Canada?',
@@ -63,7 +63,7 @@ const FAQS = [
   },
   {
     question: 'Is a thermal fogger better than professional barrier spray for a GTA backyard?',
-    answer: 'For most suburban GTA yards, no — they solve different problems. A thermal fogger gives you a fast, satisfying same-evening knockdown you control yourself, which is great before a specific event on acreage. Professional barrier spray covers the whole yard with a measured residual that keeps killing mosquitoes for 21–30 days, also targets ticks in their ground-level harbourage, and comes with licensing and liability handled. On a normal lot where neighbours’ properties keep re-seeding mosquitoes, the lasting residual of barrier spray outperforms the short-lived knockdown of a fog. Many acreage owners run both; most suburban homeowners are better served by the spray.',
+    answer: 'They solve different problems. A thermal fogger gives you a fast, satisfying same-evening knockdown you control yourself, which is great before a specific event on acreage. Professional barrier spray covers the whole yard with a residual on the leaves where mosquitoes rest, renewed on the plan schedule (every 2 weeks on Standard, monthly on Basic), also targets ticks in their ground-level harbourage, and comes with licensing and liability handled. On a normal lot where neighbours’ properties keep re-seeding mosquitoes, that difference matters: a barrier residual is renewed on a set schedule, while a fog is a short-lived knockdown. Many acreage owners run both.',
   },
 ]
 
@@ -113,7 +113,7 @@ export default function BestThermalFoggerCanadaPage() {
               <li>Thermal foggers use heat to vaporize oil-based fluid; cold <Link href="/blog/best-ulv-cold-fogger-canada" className="text-emerald-700 underline">ULV foggers</Link> use pressure and water-based fluid.</li>
               <li>The device is legal; the fluid must carry a Canadian PMRA/PCP registration number &mdash; US fogging concentrates are not legal here.</li>
               <li>Fogging is a short-lived knockdown (hours to days), not a season-long residual &mdash; it barely touches ticks.</li>
-              <li>Professional barrier spray covers the whole yard for 21&ndash;30 days from $99 and controls ticks too.</li>
+              <li>Professional barrier spray treats the whole yard from $99, renews the residual on your plan&rsquo;s schedule, and targets ticks too.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
             <div className="mt-4">
@@ -168,7 +168,7 @@ export default function BestThermalFoggerCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Acreage, a cottage, or frequent fogging across a treed lot?</strong> The <em>Best Overall</em> Longray pulse-jet earns its price in fog quality and low per-acre cost. <strong>Normal suburban yard, occasional pre-party knockdown?</strong> The <em>Best for Homeowners</em> Black Flag propane fogger is all you need. <strong>Fog often near an outlet and hate buying cartridges?</strong> Go <em>Electric</em>. <strong>Testing the waters on a small lot?</strong> The <em>Best Budget</em> handheld does the job &mdash; but for whole-yard, 21&ndash;30-day control that also kills ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Acreage, a cottage, or frequent fogging across a treed lot?</strong> The <em>Best Overall</em> Longray pulse-jet earns its price in fog quality and low per-acre cost. <strong>Normal suburban yard, occasional pre-party knockdown?</strong> The <em>Best for Homeowners</em> Black Flag propane fogger is all you need. <strong>Fog often near an outlet and hate buying cartridges?</strong> Go <em>Electric</em>. <strong>Testing the waters on a small lot?</strong> The <em>Best Budget</em> handheld does the job &mdash; but for whole-yard coverage that also targets ticks, look at <Link href="/mosquito-control">professional barrier spray</Link>, applied across the yard and renewed on a schedule.
               </>
             }
           />
@@ -223,7 +223,7 @@ export default function BestThermalFoggerCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ The machine is legal — the fluid is what&rsquo;s regulated.</strong> Any insecticide you fog outdoors in Canada must be <strong>PMRA-registered</strong> and carry a Canadian PCP number on the label. US fogging concentrates are not registered here and are illegal to import or use. Fogging is also a short knockdown, not a residual &mdash; for whole-yard, 21&ndash;30-day control that also kills ticks, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> is the lasting fix.
+              <strong className="text-amber-900">⚠️ The machine is legal — the fluid is what&rsquo;s regulated.</strong> Any insecticide you fog outdoors in Canada must be <strong>PMRA-registered</strong> and carry a Canadian PCP number on the label. US fogging concentrates are not registered here and are illegal to import or use. Fogging is also a short knockdown, not a residual &mdash; for whole-yard control that also targets ticks, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> on a seasonal plan is the better fit.
             </p>
           </div>
         </div>
@@ -247,7 +247,7 @@ export default function BestThermalFoggerCanadaPage() {
                   ['Best conditions', 'Still, dry, windless evening; keep people & pets clear'],
                   ['Best Canadian retailers', 'Canadian Tire, Home Depot, Amazon.ca; pro distributors for Longray'],
                   ['When to buy', 'Spring, before peak-season stock runs low'],
-                  ['Lasting whole-yard fix', 'Professional barrier spray — 21–30-day residual, ticks too'],
+                  ['Season-long whole-yard option', 'Professional barrier spray — residual renewed on schedule, ticks too'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -294,7 +294,7 @@ export default function BestThermalFoggerCanadaPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or skip the machine entirely</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians bring the pro-grade equipment and PMRA-registered product to your door &mdash; whole-yard mosquito &amp; tick coverage from $99, backed by 150+ five-star reviews across 19 GTA cities. No hardware to buy, store, or maintain, and the licensing and liability are ours, not yours.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians bring the pro-grade equipment to your door and apply product according to label directions &mdash; whole-yard mosquito coverage from $99 with tick plans available, backed by 150+ five-star reviews across 19 GTA cities. No hardware to buy, store, or maintain, and the licensing and liability are ours, not yours.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -313,7 +313,7 @@ export default function BestThermalFoggerCanadaPage() {
           <p>Read that as a spending map: put your dollars into the right size and the fog quality your vegetation needs, and treat everything else as secondary. If your property does not justify a pulse-jet and you will only fog occasionally, the cheap propane unit is genuinely the right answer &mdash; do not overspend on capability you will not use.</p>
 
           <h2>Fogging vs Professional Barrier Spray for GTA Yards</h2>
-          <p>Thermal fogging and barrier spray are not really competitors &mdash; they solve different problems. A fogger gives you a fast, dramatic, same-evening knockdown of the adult mosquitoes present right now, which is perfect an hour before an event on a big property. But the residual is short: the fine fog settles as a light film that breaks down in sun and dew within hours to a couple of days. Barrier spray instead deposits a measured residual on leaf surfaces that keeps killing mosquitoes that land for 21&ndash;30 days, covers the whole yard in one visit, and &mdash; crucially &mdash; also targets ticks in their low, shaded harbourage, which drifting fog barely reaches. Here is how the options stack up for a typical GTA property:</p>
+          <p>Thermal fogging and barrier spray are not really competitors &mdash; they solve different problems. A fogger gives you a fast, dramatic, same-evening knockdown of the adult mosquitoes present right now, which is perfect an hour before an event on a big property. But the residual is short: the fine fog settles as a light film that breaks down in sun and dew within hours to a couple of days. Barrier spray instead leaves a residual on the leaf surfaces where mosquitoes rest, renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic), covers the whole yard in one visit, and &mdash; crucially &mdash; also targets ticks in their low, shaded harbourage, which drifting fog barely reaches. Here is how the options stack up for a typical GTA property:</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">First-year cost</th><th className="px-3 py-2 text-left">Mosquito control</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -323,7 +323,7 @@ export default function BestThermalFoggerCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/black-flag-electric-fogger-review-canada">Propane fogger (Black Flag)</Link></td><td className="px-3 py-2">$120–$260</td><td className="px-3 py-2">Knockdown on a small lot</td><td className="px-3 py-2">Minimal</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-ulv-cold-fogger-canada">Cold ULV fogger</Link></td><td className="px-3 py-2">$150–$500</td><td className="px-3 py-2">Knockdown, indoor-friendly</td><td className="px-3 py-2">Minimal</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/backpack-sprayer-canada">Backpack sprayer + residual</Link></td><td className="px-3 py-2">$180–$450</td><td className="px-3 py-2">DIY residual, targeted</td><td className="px-3 py-2">Some — if applied low</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994</td><td className="px-3 py-2">Whole yard 21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994</td><td className="px-3 py-2">Whole yard, renewed on schedule</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
 
@@ -331,10 +331,10 @@ export default function BestThermalFoggerCanadaPage() {
           <p>For a big Caledon, King City, or rural Milton property, the most effective approach is rarely a fogger alone:</p>
           <ol>
             <li><strong>Treat standing water</strong> with BTI dunks or bits to kill larvae before they hatch &mdash; the cheapest, most durable win in mosquito control.</li>
-            <li><strong>Professional barrier spray</strong> &mdash; <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> for whole-yard, 21&ndash;30-day coverage that also handles ticks in their ground-level harbourage.</li>
-            <li><strong>A thermal fogger for event knockdown</strong> &mdash; keep a pulse-jet on hand to clear the air an hour before a wedding, party, or big outdoor evening, on top of the lasting residual.</li>
+            <li><strong>Professional barrier spray</strong> &mdash; <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> for whole-yard coverage, renewed every 2 weeks on the Standard plan, that also handles ticks in their ground-level harbourage.</li>
+            <li><strong>A thermal fogger for event knockdown</strong> &mdash; keep a pulse-jet on hand to clear the air an hour before a wedding, party, or big outdoor evening, on top of the scheduled barrier treatments.</li>
           </ol>
-          <p>On a standard suburban lot, though, a fogger is usually more machine than the problem needs: your neighbours&rsquo; yards re-seed mosquitoes faster than a short-lived fog can keep up, which is exactly why the lasting residual of <Link href="/mosquito-control">whole-yard barrier spray</Link> outperforms fogging for most GTA homeowners. If you are still assembling a kit, our <Link href="/blog/best-pest-control-equipment-canada">pest-control equipment hub</Link> maps out how foggers, sprayers, and traps fit together.</p>
+          <p>On a standard suburban lot, though, a fogger is usually more machine than the problem needs: your neighbours&rsquo; yards re-seed mosquitoes faster than a short-lived fog can keep up, which is why a <Link href="/mosquito-control">whole-yard barrier spray</Link>, renewed on a set schedule, is worth comparing before you buy. If you are still assembling a kit, our <Link href="/blog/best-pest-control-equipment-canada">pest-control equipment hub</Link> maps out how foggers, sprayers, and traps fit together.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
@@ -363,7 +363,7 @@ export default function BestThermalFoggerCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Fogger · Get Whole-Yard Coverage" subtext="Get a free quote for licensed barrier spray with PMRA-registered product. From $99. Same-day yard protection. 21–30-day residual — and it kills ticks too." variant="dark" />
+      <CTASection heading="Skip the Fogger · Get Whole-Yard Coverage" subtext="Get a free quote for licensed barrier spray, applied according to label directions. From $99. Rain-back guarantee on every plan — and it targets ticks too." variant="dark" />
     </>
   )
 }

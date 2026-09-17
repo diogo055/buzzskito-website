@@ -61,7 +61,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Do Cedars Attract Mosquitoes? No, They Hide Them',
+  title: 'Do Cedar Trees Attract Mosquitoes in Ontario?',
   description: 'No — cedar oil mildly repels them. Mosquitoes rest in the cool, damp shade inside a dense cedar hedge, then feed at dusk. Manage the hedge, do not remove it.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
@@ -176,15 +176,18 @@ export default function CedarTreesMosquitoesPage() {
 
         <h3>1. Open up the interior</h3>
         <p>Have your cedars professionally pruned every 2–3 years to remove dead inner branches and create some vertical air movement. This reduces both mosquito habitat and the risk of disease in the cedar itself (cedar leaf blight thrives in the same conditions).</p>
+        <p>Between those prunings, the job that matters for mosquitoes is small and within reach of hand tools: thinning the dead inner growth and cutting back the face of the hedge enough to let light and air through it. You are not shaping the hedge, you are breaking up the still, shaded pocket inside it — which is why long-handled shears do more for this than a hedge trimmer run over the surface. <BuyLink tag={AMZ_TAG} search="long handle hedge shears">Check hedge shears on Amazon.ca &rarr;</BuyLink></p>
 
         <h3>2. Clear the base</h3>
         <p>Remove accumulated needle litter, leaves, and debris from the base of the hedge each spring. This is also a major mosquito (and tick) hiding zone.</p>
+        <p className="not-prose text-gray-700">Needle litter is the step people skip, largely because a leaf blower pushes it around rather than out of the hedge line. A stiff-tined rake pulls the packed layer out from under the first 30&nbsp;cm of the hedge &mdash; the band that stays damp longest and shelters ticks as well as resting mosquitoes. Bag it rather than piling it at the back of the bed, or you have simply moved the habitat. <BuyLink tag={AMZ_TAG} search="garden leaf rake">Check garden rakes on Amazon.ca &rarr;</BuyLink></p>
 
         <h3>3. Improve drainage</h3>
         <p>Make sure the soil at the base of the hedge is not retaining standing water after rainfall. Re-grade or add mulch as needed. Standing water at the base of dense vegetation is a double problem: a breeding source and a resting refuge stacked together.</p>
+        <p>Where the grade cannot be fixed — a low spot that holds water for days after rain, a rain barrel, a forgotten pot saucer tucked in behind the hedge — treat the water instead of chasing the adults. A BTi larvicide (<em>Bacillus thuringiensis israelensis</em>, sold as floating dunks or granules) kills mosquito larvae in water that has to stay put, so that spot stops producing the adults that then rest in the hedge above it. Follow the label for the dose and how often it needs replacing. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check BTi mosquito dunks on Amazon.ca &rarr;</BuyLink></p>
 
         <h3>4. Apply professional barrier spray</h3>
-        <p>This is the highest-leverage step. A properly applied <Link href="/mosquito-control" className="text-brand-700 underline">professional mosquito spray</Link> treats the underside and interior canopy of dense vegetation — exactly the surfaces where mosquitoes rest. The Health Canada–approved residual formula remains active for several weeks, killing mosquitoes that come into contact with the treated foliage. We focus heavily on cedar hedges, ornamental beds, and the lawn-bed transition zone for this reason.</p>
+        <p>This is the highest-leverage step. A properly applied <Link href="/mosquito-control" className="text-brand-700 underline">professional mosquito spray</Link> treats the underside and interior canopy of dense vegetation — exactly the surfaces where mosquitoes rest. The residual product is applied according to label directions and repeated through the season, acting on mosquitoes that come into contact with the treated foliage. We focus heavily on cedar hedges, ornamental beds, and the lawn-bed transition zone for this reason.</p>
 
         <h3>5. Limit other resting habitat too</h3>
         <p>While you are at it, address the rest of the resting micro-environment on the property: trim back overgrown shrubs, clear leaf litter from garden beds, and check our <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 underline">hidden mosquito breeding spots guide</Link> for the standing-water sources that are quietly producing mosquitoes alongside your hedge.</p>
@@ -212,10 +215,12 @@ export default function CedarTreesMosquitoesPage() {
           <li><strong>Rosemary</strong> — aromatic, mild repellent</li>
         </ul>
         <p>These plants are worth growing — they look good, smell good, and contribute marginally to a less-attractive yard. But they will not solve a mosquito problem on their own. The realistic role for mosquito-repelling plants is around outdoor seating areas, where you can brush against the leaves and release the oils, combined with broader barrier spray treatment on the rest of the yard.</p>
+        <p className="not-prose text-gray-700">If you want to try them, the two worth the bed space are the ones sharing the same active compound &mdash; citronella grass and lemongrass &mdash; and they should go in pots you can drag right up against the seating, where a sleeve or a hand will actually brush the leaves. Planted in a bed three metres away they are ornamental and nothing more, which is why so many people conclude the plants &ldquo;do not work&rdquo;. <BuyLink tag={AMZ_TAG} search="citronella plant">Check citronella and lemongrass plants on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>The Big Picture: It Is Not the Plant, It Is the Habitat</h2>
         <p>Cedar trees are not the enemy. They are not attracting mosquitoes any more than a parking garage is attracting cars. What is actually happening is that dense, undisturbed vegetation provides the daytime shelter mosquitoes need to survive between feeding bouts. The plant species barely matters. The structure does.</p>
         <p>Manage the structure — open up dense plantings, clear leaf litter, improve drainage, and treat the underside of resting habitat with a professional barrier spray — and your cedar hedge becomes a feature of your yard rather than a refuge for the insects that ruin your evenings on it.</p>
+        <p className="not-prose text-gray-700">Structure work is seasonal, though, and the mosquitoes resting in the hedge this evening are not waiting for the pruning. That gap gets covered on the person rather than on the yard. Health Canada describes DEET and icaridin as the most effective personal insect repellents available in Canada &mdash; icaridin being the name used here for what the US market calls picaridin. Check the PCP registration number on the label and follow the age directions printed on it. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check icaridin (picaridin) repellents on Amazon.ca &rarr;</BuyLink></p>
         <p>The exception to &ldquo;species barely matters&rdquo; is any plant that physically holds water — a bromeliad cup, a taro leaf, a cut bamboo stem, a pot saucer. Those breed mosquitoes rather than just sheltering them, and we sort the shelter plants from the actual breeders in <Link href="/blog/what-flowers-attract-mosquitoes" className="text-brand-700 underline">this rundown of water-holding garden species</Link>.</p>
 
         <h2>Get Your Yard Treated Properly</h2>

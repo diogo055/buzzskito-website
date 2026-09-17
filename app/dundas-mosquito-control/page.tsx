@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Dundas | From $99',
   description:
-    'Professional mosquito control in Dundas, Hamilton. Barrier spray near Cootes Paradise from $99. Safe for kids & pets. Call (289) 216-5030.',
+    'Professional mosquito control in Dundas, Hamilton. Barrier spray near Cootes Paradise from $99. Licensed operator. Call (289) 216-5030.',
   canonical: '/dundas-mosquito-control',
 })
 
@@ -27,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'How many treatments does a Dundas property need per season?',
-    answer: "Dundas properties typically benefit from 5 treatments spaced 21–28 days apart from May through September. Given the intensity of pressure from Cootes Paradise, Spencer Creek, and the Dundas Valley, we most commonly recommend the full 5-treatment seasonal program for Dundas homes. Properties directly adjacent to any of these three sources may benefit from a sixth mid-season treatment. Call (289) 216-5030 for a free assessment.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Given the intensity of pressure from Cootes Paradise, Spencer Creek, and the Dundas Valley, we most commonly recommend Standard's two-week spacing for Dundas homes; properties directly adjacent to any of these three sources may benefit from Exclusive's weekly visits. Call (289) 216-5030 for a free assessment.",
   },
   {
     question: 'Does Spencer Creek contribute to Dundas mosquito problems?',
@@ -57,21 +59,23 @@ export default function DundasMosquitoPage() {
           { label: NEIGHBOURHOOD },
         ]}
         title={<>Mosquito Control in {NEIGHBOURHOOD}, {CITY}</>}
-        subtitle={<>Dundas faces mosquito pressure from three major sources: Cootes Paradise marsh, Spencer Creek, and the Dundas Valley. BuzzSkito's barrier spray gives Dundas families 30-day protection per treatment.</>}
+        subtitle={<>Licensed Ontario pesticide operator, with treatments applied according to label directions. Dundas faces mosquito pressure from three major sources: Cootes Paradise marsh, Spencer Creek, and the Dundas Valley.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
+
+      <TypicalPrices service="mosquito" city={NEIGHBOURHOOD} />
 
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
@@ -81,8 +85,8 @@ export default function DundasMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies the product according to its label directions to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Repeat Visits & Guarantees', desc: `Treatments repeat on your plan's schedule through the season. ${PROMISES.rainBack} On Standard & Exclusive plans, if mosquitoes come back between scheduled treatments, we re-treat at no charge.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -98,12 +102,14 @@ export default function DundasMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Dundas: Where Three Mosquito Sources Converge</h2>
           <p>Dundas occupies a unique geographic position in the Hamilton area — nestled in a valley where three of southern Ontario's most productive mosquito breeding environments converge. To the north, <strong>Cootes Paradise</strong> — a 600-hectare coastal marsh managed by the Royal Botanical Gardens — produces enormous mosquito populations from its cattail beds, emergent vegetation, and shallow water zones. This is one of the Great Lakes basin's most significant wetlands, and Dundas sits directly in its dispersal range.</p>
-          <p><strong>Spencer Creek</strong> runs through the heart of Dundas, creating a permanent in-town breeding corridor with slow-moving water, backwater pools, and dense riparian vegetation. To the south, the <strong>Dundas Valley Conservation Area</strong> adds over 1,200 hectares of forested escarpment wetlands. BuzzSkito's barrier spray creates a treated zone around your Dundas property, targeting all resting vegetation to provide up to 30 days of protection between treatments — regardless of which source the mosquitoes originate from.</p>
+          <p><strong>Spencer Creek</strong> runs through the heart of Dundas, creating a permanent in-town breeding corridor with slow-moving water, backwater pools, and dense riparian vegetation. To the south, the <strong>Dundas Valley Conservation Area</strong> adds over 1,200 hectares of forested escarpment wetlands. BuzzSkito's barrier spray creates a treated zone around your Dundas property, targeting all resting vegetation where mosquitoes settle, regardless of which source they originate from, and the treatment is repeated on a schedule through the season.</p>
           <p>Mosquitoes are not the only reason the valley matters here. Hamilton Conservation Authority drag surveys have confirmed blacklegged ticks at multiple points in the Dundas Valley, and homes whose rear lot lines touch the conservation boundary sit inside that activity zone — covered in our <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">Escarpment-edge tick control guide for Dundas and Ancaster</Link>.</p>
 
           <h2>Part of Our Hamilton Mosquito Control Network</h2>
           <p>We serve all of Dundas and surrounding Hamilton. See our <Link href="/hamilton-mosquito-control" className="text-brand-700 hover:underline">Hamilton mosquito control</Link> page for city-wide coverage, or our <Link href="/ancaster-mosquito-control" className="text-brand-700 hover:underline">Ancaster</Link> page for adjacent neighbourhood coverage.</p>
 
+
+          <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" location="price_card_mid" />
 
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
@@ -125,10 +131,10 @@ export default function DundasMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats the resting surfaces across your property and leaves a residual on treated foliage, and it is repeated on a schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -137,7 +143,7 @@ export default function DundasMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/hamilton-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Our targeted tick barrier spray treats the lawn edges, leaf litter, and wooded borders where ticks wait for a host, with 5 sprays per season. See our <Link href="/hamilton-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>
@@ -176,6 +182,10 @@ export default function DundasMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

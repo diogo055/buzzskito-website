@@ -8,7 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'mosquito-mistakes-ontario-homeowners-make'
@@ -20,14 +20,14 @@ const FAQS = [
   { question: `Waiting Until July to Start Treatment`, answer: `Most mosquito control failures start with timing, not product choice. By July, mosquito populations are 5–10× larger than they were in May. Starting treatment in May (when populations are tiny) keeps them tiny all season. Starting in July means playing catch-up against an established population that takes weeks to bring under control.` },
   { question: `Trusting Citronella Candles for Full-Yard Protection`, answer: `Citronella candles work in a 2–3 foot bubble around the candle — not for the yard. Multiple research studies confirm this. They're ambiance, not protection. If you want yard-wide mosquito control, you need barrier spray + source elimination, not candles.` },
   { question: `Ignoring Rain Barrels and Birdbaths as Breeding Sites`, answer: `A single uncovered rain barrel or birdbath can produce thousands of mosquitoes per week. Many Ontario homeowners think they've eliminated standing water because the lawn drains well — without realizing their rain barrel and birdbath are pumping out mosquitoes daily. Cover the barrel, change birdbath water weekly, or use BTI dunks.` },
-  { question: `Spraying Grass Instead of Leaf Undersides`, answer: `Mosquitoes don't rest on grass during the day. They rest on shaded undersides of leaves, in shrub interiors, on fence-line vegetation, and on the underside of deck joists. DIY sprays applied to lawns hit nothing. Professional barrier spray applied with backpack sprayers reaches actual resting surfaces — that's why it works and DIY doesn't.` },
-  { question: `Stopping Treatments After One Bad Weekend`, answer: `A single rainy weekend doesn't mean treatments aren't working — it means mosquitoes that were already present took advantage of the humidity spike. Continued treatment through that week eliminates the population. Stopping treatments hands them a week to multiply.` },
-  { question: `Using Consumer Foggers Expecting 30-Day Protection`, answer: `Hardware-store foggers (Black Flag, Cutter, etc.) provide 1–6 hours of relief — they kill mosquitoes flying through the fog at the moment of application. Professional barrier spray bonds to leaf surfaces and provides up to 30 days of residual protection. They're different products. Comparing them by price is comparing a band-aid to a vaccine.` },
+  { question: `Spraying Grass Instead of Leaf Undersides`, answer: `Mosquitoes don't rest on grass during the day. They rest on shaded undersides of leaves, in shrub interiors, on fence-line vegetation, and on the underside of deck joists. DIY sprays applied to lawns hit nothing. Professional barrier spray applied with backpack sprayers is aimed at the actual resting surfaces — the places DIY lawn spraying misses.` },
+  { question: `Stopping Treatments After One Bad Weekend`, answer: `A single rainy weekend doesn't mean treatments aren't working — it means mosquitoes that were already present took advantage of the humidity spike. Continued treatment through that week knocks the population back down. Stopping treatments hands them a week to multiply.` },
+  { question: `Using Consumer Foggers Expecting Weeks of Protection`, answer: `Hardware-store foggers (Black Flag, Cutter, etc.) provide 1–6 hours of relief — they kill mosquitoes flying through the fog at the moment of application. Professional barrier spray is a residual treatment applied to the leaf surfaces where mosquitoes rest, then re-applied on a set schedule through the season. They're different products. Comparing them by price is comparing an umbrella to a roof.` },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: `12 Mosquito Mistakes Ontario Homeowners Make`,
-  description: `The 12 most common mosquito-control mistakes Ontario homeowners make — citronella candles, late-season treatment, ignoring rain barrels, and more. Avoid these for a mosquito-free yard.`,
+  description: `The 12 most common mosquito-control mistakes Ontario homeowners make — citronella candles, late-season treatment, ignoring rain barrels, and more. Avoid these to keep mosquito pressure down all summer.`,
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -38,7 +38,7 @@ const AMZ_TAG = tagForSlug('mosquito-mistakes-ontario-homeowners-make')
 export default function MosquitoMistakesOntarioHomeownersMakePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: `The 12 most common mosquito-control mistakes Ontario homeowners make — citronella candles, late-season treatment, ignoring rain barrels, and more. Avoid these for a mosquito-free yard.`, slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: `The 12 most common mosquito-control mistakes Ontario homeowners make — citronella candles, late-season treatment, ignoring rain barrels, and more. Avoid these to keep mosquito pressure down all summer.`, slug: SLUG, datePublished: DATE })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: TITLE, url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -67,7 +67,7 @@ export default function MosquitoMistakesOntarioHomeownersMakePage() {
               <li>Citronella candles protect only a 2–3 foot bubble around the flame, not the yard.</li>
               <li>A single uncovered rain barrel or birdbath can produce thousands of mosquitoes per week.</li>
               <li>Mosquitoes rest on shaded leaf undersides and fence-line vegetation, not open grass — DIY sprays applied to lawns hit nothing.</li>
-              <li>Consumer foggers give 1–6 hours of relief; professional barrier spray bonds to leaves for up to 30 days.</li>
+              <li>Consumer foggers give 1–6 hours of relief; professional barrier spray is a residual treatment re-applied on a set schedule.</li>
               <li>Ontario mosquito season runs through mid-September — an August cold snap pauses it, it doesn&apos;t end it.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
@@ -102,13 +102,13 @@ export default function MosquitoMistakesOntarioHomeownersMakePage() {
         </div>
 
         <h3>4. Spraying Grass Instead of Leaf Undersides</h3>
-        <p>Mosquitoes don&apos;t rest on grass during the day. They rest on shaded undersides of leaves, in shrub interiors, on fence-line vegetation, and on the underside of deck joists. DIY sprays applied to lawns hit nothing. Professional barrier spray applied with <Link href="/blog/backpack-sprayer-canada" className="text-brand-700 underline">backpack sprayers</Link> reaches actual resting surfaces — that&apos;s why it works and DIY doesn&apos;t.</p>
+        <p>Mosquitoes don&apos;t rest on grass during the day. They rest on shaded undersides of leaves, in shrub interiors, on fence-line vegetation, and on the underside of deck joists. DIY sprays applied to lawns hit nothing. Professional barrier spray applied with <Link href="/blog/backpack-sprayer-canada" className="text-brand-700 underline">backpack sprayers</Link> is aimed at the actual resting surfaces — the places DIY lawn spraying misses.</p>
 
         <h3>5. Stopping Treatments After One Bad Weekend</h3>
-        <p>A single rainy weekend doesn&apos;t mean treatments aren&apos;t working — it means mosquitoes that were already present took advantage of the humidity spike. Continued treatment through that week eliminates the population. Stopping treatments hands them a week to multiply.</p>
+        <p>A single rainy weekend doesn&apos;t mean treatments aren&apos;t working — it means mosquitoes that were already present took advantage of the humidity spike. Continued treatment through that week knocks the population back down. Stopping treatments hands them a week to multiply.</p>
 
-        <h3>6. Using Consumer Foggers Expecting 30-Day Protection</h3>
-        <p>Hardware-store foggers (Black Flag, Cutter, etc.) provide 1–6 hours of relief — they kill mosquitoes flying through the fog at the moment of application. Professional barrier spray bonds to leaf surfaces and provides up to 30 days of residual protection. They&apos;re different products. Comparing them by price is comparing a band-aid to a vaccine.</p>
+        <h3>6. Using Consumer Foggers Expecting Weeks of Protection</h3>
+        <p>Hardware-store foggers (Black Flag, Cutter, etc.) provide 1–6 hours of relief — they kill mosquitoes flying through the fog at the moment of application. Professional barrier spray is a residual treatment applied to the leaf surfaces where mosquitoes rest, then re-applied on a set schedule through the season. They&apos;re different products. Comparing them by price is comparing an umbrella to a roof.</p>
 
         <h3>7. Trusting "Mosquito Plants" as a Standalone Solution</h3>
         <p>Lavender, citronella plants, and basil have mild mosquito-repellent properties. They reduce ambient mosquito pressure within 1–3 metres of the plant — which is genuinely useful near a patio or doorway. They&apos;re not a yard-wide solution. Plants + barrier spray = good. Plants alone = not enough.</p>
@@ -120,7 +120,7 @@ export default function MosquitoMistakesOntarioHomeownersMakePage() {
         <p>General pest control companies cover 10–20 pests. Their technicians rotate between ant jobs, mouse jobs, mosquito jobs, etc. Specialist mosquito-and-tick companies (like BuzzSkito) do nothing else — meaning their technicians know exactly where mosquitoes rest in your specific Ontario neighborhood and exactly where ticks concentrate in your specific lawn-to-woods transition. Specialization compounds.</p>
 
         <h3>10. Not Bundling Tick Control When Near Ravines</h3>
-        <p>Ontario homeowners whose properties back onto ravines, conservation areas, or wooded edges have confirmed blacklegged tick exposure. Treating mosquitoes alone leaves the bigger health risk (Lyme disease) unaddressed. Bundling tick control adds modest cost but addresses both pests simultaneously.</p>
+        <p>Ontario homeowners whose properties back onto ravines, conservation areas, or wooded edges have confirmed blacklegged tick exposure. Treating mosquitoes alone leaves blacklegged ticks, which can carry Lyme disease, untreated. Bundling tick control adds modest cost and covers both pests.</p>
 
         <h3>11. Treating Only the Deck While Leaving Fence-Line Vegetation Untreated</h3>
         <p>Mosquitoes spend the day in fence-line vegetation, shrub interiors, and shaded perimeter areas — then move to the deck at dusk. Treating only the deck means the mosquitoes are still arriving from the perimeter. Full-yard barrier spray treats the resting habitat AND the activity zone.</p>
@@ -159,7 +159,7 @@ export default function MosquitoMistakesOntarioHomeownersMakePage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Thermacell E90 Mosquito Repeller" search="thermacell e90 rechargeable" label="Best patio-zone fix" />
 
-      <CTASection heading="Specialist Mosquito & Tick Control for Ontario" subtext="From $99 per treatment. BuzzSkito Bite-Free Guarantee. 150+ five-star reviews." />
+      <CTASection heading="Specialist Mosquito & Tick Control for Ontario" subtext={`From $99 per treatment. ${PROMISES.biteFreeScope}. 150+ five-star reviews.`} />
     </>
   )
 }

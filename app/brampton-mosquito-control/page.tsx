@@ -3,8 +3,10 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema, itemListSchema } from '@/lib/seo'
-import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Brampton Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
@@ -35,7 +37,7 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Brampton?',
-    answer: "It depends on what matters most to you. BuzzSkito is the lowest-priced option in Brampton (from $99 per treatment), with no contracts and 150+ five-star Google reviews. Mosquito Man has the largest review volume in the GTA (900+) and a longer track record. Mosquito.Buzz is a national franchise, so service depends on the local franchisee. LawnSavers bundles mosquito control with lawn care for existing lawn customers. Compare pricing, reviews, and contract terms side by side before you book.",
+    answer: "It depends on what matters most to you. BuzzSkito is priced from $99 per treatment in Brampton, with no contracts and 150+ five-star Google reviews. Mosquito Man has a large review volume across the GTA and a longer track record. Mosquito.Buzz is a national franchise, so service depends on the local franchisee. LawnSavers bundles mosquito control with lawn care for existing lawn customers. Ask every company you call the same five questions before you book. Is the price shown before you book? How many sprays are in a season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); free re-treatment if rain falls within 1 hour of a treatment, on every plan; Ontario Pesticide Operator Licence L-240-2436835197; and the Bite-Free Guarantee on Standard & Exclusive plans. The Brampton company that answers all five clearly, in writing, is the easiest to compare.",
   },
   {
     question: 'How much does mosquito control cost in Brampton?',
@@ -59,11 +61,11 @@ const FAQS = [
   },
   {
     question: 'How many mosquito treatments does my Brampton home need?',
-    answer: "We recommend 4–5 treatments from May through September, spaced 21–28 days apart, for continuous protection. Properties with stormwater pond views or backing onto Etobicoke Creek, Heart Lake Conservation Area, or any ravine benefit most from the full 5-treatment program. Our technicians will assess your specific exposure and recommend the right schedule for your property.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Properties with stormwater pond views or backing onto Etobicoke Creek, Heart Lake Conservation Area, or any ravine typically benefit from Standard's two-week spacing; lower-exposure lots may do well with Basic. Our technicians will assess your specific exposure and recommend the right plan for your property.",
   },
   {
-    question: "Is BuzzSkito's mosquito spray safe for Brampton families with kids and pets?",
-    answer: "Yes. Our Health Canada–approved, water-based formula is safe for children and pets once dry — approximately 30 minutes after application. We recommend keeping people and pets off treated surfaces during that drying window. After that, your yard is fully safe with the mosquito barrier protection active. Our formula does not harm beneficial insects when applied according to label directions.",
+    question: "What should Brampton families with kids and pets know before a treatment?",
+    answer: "Our licensed technician applies the product according to its label directions. The label directs people and pets to stay off treated areas until the spray has dried, and we remind you of that on the day. If you have questions about a specific child, pet, pond or garden bed, tell us before the visit and we will plan which areas to treat and which to leave untreated.",
   },
   {
     question: 'How quickly can BuzzSkito service my Brampton property?',
@@ -71,7 +73,7 @@ const FAQS = [
   },
   {
     question: 'What is barrier spray and how does it work in Brampton?',
-    answer: "Barrier spray is a residual insecticide applied to all vegetation on your property — shrubs, garden beds, the underside of leaves, fence lines, deck undersides, and shaded areas where mosquitoes rest during the heat of the day. The formula kills mosquitoes on contact and creates a residual deterrent that prevents new mosquitoes from settling on treated vegetation for up to 30 days. It's the most effective yard-level tool available for Brampton homeowners dealing with pond-driven mosquito pressure.",
+    answer: "Barrier spray is a residual insecticide applied to all vegetation on your property — shrubs, garden beds, the underside of leaves, fence lines, deck undersides, and shaded areas where mosquitoes rest during the heat of the day. The product is applied according to its label directions to the surfaces where mosquitoes rest, and treatments are repeated on a schedule through the season because pond-driven pressure keeps arriving. It treats your own yard; it does not treat the municipal ponds or creek corridors nearby.",
   },
   {
     question: 'Does BuzzSkito also provide tick control in Brampton?',
@@ -98,16 +100,16 @@ export default function BramptonMosquitoPage() {
         ]}
         title={<>Brampton Mosquito Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Brampton&apos;s specialist barrier spray for stormwater-pond, ravine, and new-build neighbourhoods. Health Canada-approved, safe for kids and pets in 30 minutes, backed by the <strong className="text-amber-400">BuzzSkito Bite-Free Guarantee</strong>.</>}
+        subtitle={<>Brampton&apos;s specialist barrier spray for stormwater-pond, ravine, and new-build neighbourhoods. Licensed Ontario pesticide operator, with treatments applied according to label directions.</>}
         image="/spray-backyard.webp"
       />
 
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ Licensed Ontario Pesticide Operator</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -115,7 +117,7 @@ export default function BramptonMosquitoPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best mosquito control company in Brampton?">
         <p>
-          <strong>BuzzSkito provides specialist mosquito barrier spray across all Brampton neighbourhoods — Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, and Fletcher&apos;s Meadow.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>150+ five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Brampton homeowners get reliable barrier spray for stormwater-pond and creek-adjacent properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist mosquito barrier spray across all Brampton neighbourhoods — Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, and Fletcher&apos;s Meadow.</strong> Treatments are applied according to label directions to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot, with season plans from <strong>$549</strong>. With <strong>150+ five-star Google reviews</strong>, no contracts, a rain-back guarantee on every plan, and the <strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong>, Brampton homeowners get barrier spray for stormwater-pond and creek-adjacent properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -129,15 +131,16 @@ export default function BramptonMosquitoPage() {
                 {[
                   ['Service area', 'All Brampton neighbourhoods (Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, Fletcher’s Meadow, Heart Lake, Snelgrove, Sandalwood, Bram West)'],
                   ['Specialization', 'Mosquito barrier spray for residential properties'],
-                  ['Pricing', 'From $99 per treatment · seasonal programs available on quote'],
+                  ['Licence', PROMISES.licence],
+                  ['Pricing', 'From $99 per treatment on a standard lot · season plans from $549 (plus HST)'],
                   ['Treatment season', 'May through September (peak: late May–July)'],
-                  ['Protection per visit', 'Up to 30 days residual'],
-                  ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
-                  ['Recommended schedule', '4–5 treatments per season for stormwater-pond and creek-adjacent properties'],
+                  ['Sprays per season', '5 (Basic), 10 (Standard) or 20+ (Exclusive)'],
+                  ['Re-entry', 'Stay off treated areas until the spray has dried, as the label directs'],
+                  ['Recommended schedule', 'Standard (10 sprays, every 2 weeks) for stormwater-pond and creek-adjacent properties; Basic (5 sprays, monthly) for lower-exposure lots'],
                   ['Highest pressure zones', 'Heart Lake · Etobicoke Creek · Professor’s Lake · Chinguacousy Park ponds · stormwater management ponds in new subdivisions'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
-                  ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
+                  ['Guarantee', 'Rain-back guarantee on every plan · Bite-Free Guarantee on Standard & Exclusive plans'],
                   ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
                   ['Phone', BUSINESS.phone],
                 ].map(([k, v]) => (
@@ -163,6 +166,8 @@ export default function BramptonMosquitoPage() {
         </div>
       </section>
 
+      <TypicalPrices service="mosquito" city={CITY} />
+
       {/* How It Works */}
       <section className="py-14 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -171,8 +176,8 @@ export default function BramptonMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your Brampton property — identifying stormwater pond proximity, creek exposure, and mosquito pressure zones specific to your neighbourhood.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, fence lines, and property perimeters using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the protection window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies barrier spray, following the label directions, to all vegetation, shrub interiors, leaf undersides, fence lines, and property perimeters using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Stay off treated areas until the spray has dried, as the label directs. ${PROMISES.rainBack} Standard & Exclusive plans also carry the Bite-Free Guarantee.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -237,6 +242,8 @@ export default function BramptonMosquitoPage() {
             </table>
           </div>
 
+          <CityPriceCard city={CITY} service="mosquito" location="price_card_mid" />
+
           <h2>Mosquito Control Pricing in Brampton</h2>
           <p>BuzzSkito mosquito treatments in Brampton start from $99 per visit — no contracts, no pressure to commit to a full season.</p>
           <div className="not-prose overflow-x-auto my-4">
@@ -250,9 +257,9 @@ export default function BramptonMosquitoPage() {
               </thead>
               <tbody>
                 {[
-                  { type: 'Standard residential lot (under 6,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Brampton detached or semi-detached home' },
-                  { type: 'Mid-size lot (6,000–10,000 sq ft)', price: 'Custom quote', coverage: 'Larger detached, pond-backing, Castlemore properties' },
-                  { type: 'Large / estate property (10,000+ sq ft)', price: 'Custom quote', coverage: 'Vales of Castlemore, rural properties, large corner lots' },
+                  { type: 'Standard residential lot (under 10,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Brampton detached or semi-detached home' },
+                  { type: 'Larger lot (10,000–100,000 sq ft)', price: 'Priced by lot size', coverage: 'Larger detached, pond-backing, Castlemore properties' },
+                  { type: 'Estate property (100,000+ sq ft)', price: 'Custom quote', coverage: 'Vales of Castlemore, rural properties, large corner lots' },
                 ].map(({ type, price, coverage }) => (
                   <tr key={type} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-2 font-semibold text-brand-800">{type}</td>
@@ -263,22 +270,23 @@ export default function BramptonMosquitoPage() {
               </tbody>
             </table>
           </div>
+          <p>Season plans are $549 (5 sprays), $994 (10 sprays) or $2,049 (20+ sprays). Prices are plus HST.</p>
           <p>No contracts and no cancellation fees. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> for a free quote. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for a full Ontario breakdown.</p>
 
           <h2>Professional Mosquito Control vs. DIY in Brampton</h2>
           <p>Hardware stores sell foggers, citronella candles, and consumer sprays. Here&apos;s why they fall short for Brampton&apos;s specific mosquito problem:</p>
           <ul>
-            <li><strong>Consumer foggers provide hours of relief, not 30 days.</strong> Professional residual barrier spray bonds to leaf surfaces and keeps working for weeks.</li>
+            <li><strong>Consumer foggers provide hours of relief, not a season of scheduled treatments.</strong> Professional residual barrier spray is applied to the leaf surfaces where mosquitoes rest and renewed on a schedule.</li>
             <li><strong>Application technique matters more than product.</strong> Mosquitoes rest on leaf undersides, in shaded shrub interiors, and under deck joists — surfaces consumer foggers miss entirely.</li>
-            <li><strong>Brampton&apos;s mosquito sources are beyond your control.</strong> Stormwater management ponds, Heart Lake Conservation Area, and Etobicoke Creek will produce mosquitoes every season regardless of what you do on your lot. Professional barrier spray stops them from settling on your property.</li>
+            <li><strong>Brampton&apos;s mosquito sources are beyond your control.</strong> Stormwater management ponds, Heart Lake Conservation Area, and Etobicoke Creek will produce mosquitoes every season regardless of what you do on your lot. Professional barrier spray treats the surfaces where they rest once they reach your property.</li>
             <li><strong>Larvicide tablets don&apos;t address stormwater ponds.</strong> You can&apos;t legally treat municipal stormwater ponds. The only effective residential strategy is creating a treated barrier on your own property.</li>
           </ul>
 
           <h2>Choosing the Right Mosquito Control Service in Brampton</h2>
           <ul>
-            <li><strong>Health Canada–registered products.</strong> Any product applied must be registered under the Pest Control Products Act and carry a valid PCP registration number — ask for it. BuzzSkito uses only registered, water-based formulas.</li>
-            <li><strong>Licensed applicators.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for all commercial applications.</li>
-            <li><strong>Rain-back guarantee.</strong> Reputable companies re-treat if rain falls within the cure window. Standard at BuzzSkito.</li>
+            <li><strong>A PCP number on the label.</strong> Any pest control product used in Canada carries a Pest Control Products Act (PCP) number on its label — ask which product will be used. BuzzSkito applies products according to label directions.</li>
+            <li><strong>Licensed applicators.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for all commercial applications. BuzzSkito&apos;s is {PROMISES.licence}.</li>
+            <li><strong>Rain-back guarantee.</strong> Reputable companies re-treat if rain falls within the cure window. At BuzzSkito: {PROMISES.rainBack}</li>
             <li><strong>No long-term contracts.</strong> Book a single treatment and evaluate results before committing.</li>
             <li><strong>Local Brampton knowledge.</strong> Companies that understand stormwater pond dynamics and Etobicoke Creek exposure treat more effectively.</li>
             <li><strong>Transparent pricing.</strong> BuzzSkito publishes pricing and quotes over the phone — no mandatory &quot;assessment visit&quot; required first. A company that will not quote over the phone often uses the home visit as a sales pitch.</li>
@@ -286,7 +294,7 @@ export default function BramptonMosquitoPage() {
           </ul>
 
           <h2 id="compare">Brampton Mosquito Control Companies Compared</h2>
-          <p>Brampton homeowners have several professional options. Here is an honest side-by-side based on publicly available pricing, Google reviews, and service offerings as of July 2026.</p>
+          <p>Brampton homeowners have several professional options. Here is an honest side-by-side based on each company&apos;s service model and Brampton coverage. Other companies&apos; prices and review totals change, so check their own sites and Google listings for current figures.</p>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -301,9 +309,9 @@ export default function BramptonMosquitoPage() {
               <tbody>
                 {[
                   { company: 'BuzzSkito', price: 'From $99', reviews: '150+ (5.0★)', contracts: 'No contracts', area: 'All Brampton' },
-                  { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Brampton' },
-                  { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies by franchise', contracts: 'Seasonal', area: 'Franchise' },
-                  { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Brampton' },
+                  { company: 'Mosquito Man', price: 'Varies — check their site', reviews: 'See Google', contracts: 'Seasonal', area: 'All Brampton' },
+                  { company: 'Mosquito.Buzz', price: 'Varies — check their site', reviews: 'Varies by franchise', contracts: 'Seasonal', area: 'Franchise' },
+                  { company: 'LawnSavers', price: 'Varies — check their site', reviews: 'See Google', contracts: 'Seasonal', area: 'Brampton' },
                 ].map(({ company, price, reviews, contracts, area }) => (
                   <tr key={company} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-2 font-semibold text-brand-800">{company}</td>
@@ -316,32 +324,60 @@ export default function BramptonMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500">Pricing reflects publicly available rates as of July 2026. Brampton pricing varies by lot size — larger Castlemore and Heart Lake properties fall on the higher end with every provider.</p>
-          <p>Mosquito Man is one of the longest-running options, with the largest review volume in the GTA. Mosquito.Buzz is a national franchise, so consistency depends on which franchisee covers your area. LawnSavers is primarily a lawn care company offering mosquito control as an add-on for existing lawn customers. BuzzSkito has the lowest published per-treatment price of the four and is the only one that books single visits with no contract — so you can trial one Brampton treatment from $99, judge the result, and decide whether to continue. Head-to-head detail: <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito Man</Link>, <Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">BuzzSkito vs LawnSavers</Link>, and <Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito.Buzz</Link>.</p>
+          <p>Mosquito Man is one of the longest-running options, with a large review volume across the GTA. Mosquito.Buzz is a national franchise, so consistency depends on which franchisee covers your area. LawnSavers is primarily a lawn care company offering mosquito control as an add-on for existing lawn customers. BuzzSkito publishes its per-treatment price and books single visits with no contract — so you can trial one Brampton treatment from $99, judge the result, and decide whether to continue.</p>
+
+          <h2>What to Ask Any Mosquito Control Company in Brampton</h2>
+          <p>Beyond the comparison above, ask every company you call the same five questions and compare the answers side by side.</p>
+          <div className="not-prose overflow-x-auto my-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-2 text-left">Question to ask</th>
+                  <th className="px-4 py-2 text-left">BuzzSkito&apos;s answer</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { q: 'Is the price shown before you book?', a: 'From $99 on a standard lot' },
+                  { q: 'How many sprays per season?', a: '5, 10 or 20+ (tick: 5)' },
+                  { q: 'What happens if it rains after a treatment?', a: PROMISES.rainBack },
+                  { q: 'Is an Ontario pesticide operator licence number shown?', a: `Yes: ${BUSINESS.licenseNumber}` },
+                  { q: 'Which plans include a guarantee?', a: 'Rain-back on every plan; Bite-Free on Standard & Exclusive' },
+                ].map(({ q, a }) => (
+                  <tr key={q} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-semibold text-brand-800">{q}</td>
+                    <td className="px-4 py-2 text-gray-700">{a}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500">Brampton pricing varies by lot size. Larger Castlemore and Heart Lake properties are priced to the yard, and your quote shows the exact price before you pay.</p>
+          <p>A company that answers all five questions clearly, in writing, is easy to compare against the others you call. Head-to-head detail: <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito Man</Link>, <Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">BuzzSkito vs LawnSavers</Link>, and <Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito.Buzz</Link>.</p>
 
           <h2>What to Expect on Your BuzzSkito Treatment Day</h2>
           <ol>
-            <li><strong>SMS notification before arrival</strong> — You&apos;ll receive a text when your technician is on the way. You don&apos;t need to be home.</li>
+            <li><strong>Visit window</strong> — {PROMISES.visitWindow} You don&apos;t need to be home.</li>
             <li><strong>Property walkthrough</strong> — On the first visit, your technician assesses pond proximity, vegetation density, and property-specific risk factors.</li>
             <li><strong>Full barrier application</strong> — Systematic treatment of all vegetation: shrubs, garden beds, leaf undersides, fence lines, deck undersides, woodpiles. A typical Brampton lot takes 25–40 minutes.</li>
             <li><strong>Lawn sign placement</strong> — Confirms the treatment date and product used.</li>
-            <li><strong>30-minute dry time</strong> — Keep children and pets off treated surfaces while the product cures.</li>
+            <li><strong>Drying time</strong> — Keep people and pets off treated areas until the spray has dried, as the product label directs.</li>
             <li><strong>Follow-up email confirmation</strong> — Treatment log with areas treated, product applied, and your next visit date.</li>
           </ol>
 
           <h2>Also Providing Tick Control in Brampton</h2>
-          <p>Brampton's ravines and wooded corridors are also prime tick habitat. Ask about our <Link href="/brampton-tick-spray" className="text-brand-700 hover:underline">Brampton tick control service</Link> — bundle both for complete seasonal protection.</p>
+          <p>Brampton's ravines and wooded corridors are also prime tick habitat. Ask about our <Link href="/brampton-tick-spray" className="text-brand-700 hover:underline">Brampton tick control service</Link> — bundle both so one visit covers both pests.</p>
 
           <h2>Everything Brampton Homeowners Ask About Mosquito Control</h2>
 
           <h3>How do Brampton stormwater ponds affect mosquito populations?</h3>
-          <p>Stormwater management ponds &mdash; built into virtually every new Brampton development since the 2000s &mdash; are engineered to hold rainwater for filtration. They also produce thousands of mosquitoes per pond per season. New subdivisions in Mount Pleasant, Springdale, Vales of Castlemore, and Sandalwood have especially high pond density. Properties within 500 metres of a stormwater pond experience consistent pressure. Barrier spray on your property is the most effective response since the pond itself is municipal land.</p>
+          <p>Stormwater management ponds &mdash; built into virtually every new Brampton development since the 2000s &mdash; are engineered to hold rainwater for filtration. They also produce thousands of mosquitoes per pond per season. New subdivisions in Mount Pleasant, Springdale, Vales of Castlemore, and Sandalwood have especially high pond density. Properties within 500 metres of a stormwater pond experience consistent pressure. Barrier spray on your own property is the practical response, since the pond itself is municipal land.</p>
 
           <h3>Does Peel Region or the City of Brampton spray for mosquitoes?</h3>
           <p>No &mdash; neither treats residential properties. Peel Region Public Health does targeted larviciding (treating standing water in storm sewers) for West Nile surveillance, and the City of Brampton maintains catch basins. Neither program treats private yards. Yard-level mosquito control is the homeowner&apos;s responsibility.</p>
 
           <h3>How much does Brampton mosquito control cost for a typical lot?</h3>
-          <p>For a standard Brampton residential lot under 6,000 sq ft: from $99 per single treatment. Larger Castlemore or Heart Lake estate properties require a custom quote. No contracts &mdash; book one treatment and decide whether to continue.</p>
+          <p>For a standard Brampton residential lot under 10,000 sq ft: from $99 per single treatment, with season plans from $549 (plus HST). Larger Castlemore or Heart Lake estate properties require a custom quote. No contracts &mdash; book one treatment and decide whether to continue.</p>
 
           <h3>Why are Heart Lake and Castlemore especially affected?</h3>
           <p>Heart Lake is adjacent to Heart Lake Conservation Area &mdash; 121 hectares of forest, meadow, and Heart Lake itself. The conservation area sustains large mosquito populations that disperse into adjacent neighbourhoods. Castlemore, in northeast Brampton, borders the Humber River tributary system and rural agricultural land that holds standing water through spring. Both communities face combined creek/conservation and tree-canopy mosquito pressure.</p>
@@ -352,23 +388,23 @@ export default function BramptonMosquitoPage() {
           <h3>Are there mosquitoes near Etobicoke Creek and Professor&apos;s Lake?</h3>
           <p>Yes. Etobicoke Creek runs through south Brampton and creates a continuous mosquito breeding corridor. Professor&apos;s Lake (in north Brampton near Bramalea) supports breeding mosquito populations through summer. Properties in Bramalea, Sandringham, and along the Etobicoke Creek experience consistent pressure.</p>
 
-          <h3>Will Brampton mosquito spray harm my vegetable garden?</h3>
-          <p>No &mdash; with buffer zones. We avoid direct application to vegetable garden beds, herb gardens, and edible plants. Properties commonly have substantial vegetable gardens, and our applicators routinely apply barrier spray to surrounding shrubs and fence-line vegetation while leaving the vegetable area untreated. Once the surrounding spray dries, your garden remains harvestable normally.</p>
+          <h3>How do mosquito treatments work around a Brampton vegetable garden?</h3>
+          <p>We keep the spray off vegetable garden beds, herb gardens, and edible plants. Properties commonly have substantial vegetable gardens, and our applicators apply barrier spray to surrounding shrubs and fence-line vegetation while leaving the vegetable area untreated, following the product label directions. Point out your garden beds before the visit so the technician can plan around them.</p>
 
           <h3>Can mosquitoes breed in my Brampton rain barrel?</h3>
-          <p>Yes &mdash; uncovered rain barrels are one of the most productive backyard breeding sites in Brampton. A single barrel can produce thousands of mosquitoes per week. Solutions: tight-fitting screen on the inlet, BTI mosquito dunks (sold at Canadian Tire and Home Depot &mdash; safe for fish, pets, humans), and emptying every 5–7 days during peak season.</p>
+          <p>Yes &mdash; uncovered rain barrels are one of the most productive backyard breeding sites in Brampton. A single barrel can produce thousands of mosquitoes per week. Solutions: tight-fitting screen on the inlet, BTI mosquito dunks (sold at Canadian Tire and Home Depot &mdash; follow the label directions), and emptying every 5–7 days during peak season.</p>
 
           <h3>Why are mosquitoes worse in some Brampton neighbourhoods than others?</h3>
           <p>Three factors: (1) stormwater pond proximity &mdash; Mount Pleasant, Springdale, and Vales of Castlemore have especially high pond density; (2) creek and ravine adjacency &mdash; Etobicoke Creek-adjacent and Heart Lake-adjacent properties experience the most pressure; (3) tree canopy density &mdash; mature canopy creates ideal daytime resting habitat in older Brampton neighbourhoods.</p>
 
           <h3>Can BuzzSkito treat my Brampton backyard before a wedding or party?</h3>
-          <p>Yes &mdash; pre-event treatment is a common booking. We recommend the spray 2–4 days before your event. The barrier becomes fully active over 24 hours and continues for up to 30 days. For backyard weddings or graduations in Castlemore, Mount Pleasant, or Heart Lake, this timing window gives peak protection on event day.</p>
+          <p>Yes &mdash; pre-event treatment is a common booking. We recommend the spray 2–4 days before your event. Booking a few days ahead leaves room to reschedule if the forecast turns wet. For backyard weddings or graduations in Castlemore, Mount Pleasant, or Heart Lake, this timing window works well.</p>
 
           <h3>What happens if it rains right after my Brampton treatment?</h3>
-          <p>Once dry (about 30 minutes), the formula bonds to leaf surfaces and becomes rain-resistant. If heavy rain falls within one hour of application &mdash; before the product cures &mdash; we return and re-treat at no charge. Part of the BuzzSkito Bite-Free Guarantee.</p>
+          <p>{PROMISES.rainBack} That rain-back guarantee is separate from the Bite-Free Guarantee, which applies to Standard &amp; Exclusive plans.</p>
 
           <h3>Does mosquito spray work against ticks in Brampton too?</h3>
-          <p>The same Health Canada-approved formula kills blacklegged ticks on contact, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods. Heart Lake Conservation Area and Humber River tributaries in Brampton are confirmed blacklegged tick habitat. Many Brampton homeowners bundle our Brampton tick spray with mosquito control.</p>
+          <p>Barrier spray is also used against blacklegged ticks, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods. Heart Lake Conservation Area and Humber River tributaries in Brampton are confirmed blacklegged tick habitat. Many Brampton homeowners bundle our Brampton tick spray with mosquito control.</p>
 
           {/* Related Guides */}
 
@@ -393,7 +429,7 @@ export default function BramptonMosquitoPage() {
           <p className="text-center text-gray-500 text-sm mb-8">From our 150+ five-star Google reviews</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { author: 'Priya R.', location: 'Castlemore', text: 'Called on a Tuesday, they were at my Brampton home by Thursday. The technician explained exactly what product they were using and why it\'s safe for our dog. Couldn\'t be happier with the results.' },
+              { author: 'Priya R.', location: 'Castlemore', text: 'The technician explained exactly what product they were using. Couldn\'t be happier with the results.' },
               { author: 'Raj P.', location: 'Springdale', text: 'Our house backs onto a stormwater pond and mosquitoes were unbearable. After the first BuzzSkito treatment the change was dramatic. We signed up for the full season and haven\'t looked back.' },
               { author: 'Kevin M.', location: 'Heart Lake', text: 'Living near Heart Lake Conservation Area means mosquitoes every year. BuzzSkito is the first thing that actually worked. Professional, on time, and the SMS alerts are a nice touch.' },
               { author: 'Tina S.', location: 'Credit Valley', text: 'Tried citronella candles and store sprays for years. One BuzzSkito treatment did more than everything else combined. Our kids can actually play in the backyard now.' },
@@ -414,6 +450,10 @@ export default function BramptonMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

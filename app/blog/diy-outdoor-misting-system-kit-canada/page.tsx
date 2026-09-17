@@ -43,7 +43,7 @@ const FAQS = [
   },
   {
     question: 'Can I add insecticide or repellent to the misting water?',
-    answer: 'This is where you need to be careful in Canada. Automatic misting systems that spray a pesticide on a timer are a real product category in the US, but in Canada any pesticide applied that way must be a PMRA-registered product used exactly as its label directs — and most of the permethrin- or pyrethrin-based misting concentrates sold to American homeowners are not registered for unattended residential misting here. Pouring a US misting concentrate into a hose-fed cooling kit is a grey-market, off-label use we do not recommend. Keep your DIY kit as a water-only cooling-and-deterrence tool, and leave the actual insecticide application to a licensed applicator using a Health-Canada-registered product, which is both more effective and fully compliant.',
+    answer: 'This is where you need to be careful in Canada. Automatic misting systems that spray a pesticide on a timer are a real product category in the US, but in Canada any pesticide applied that way must be a PMRA-registered product used exactly as its label directs — and most of the permethrin- or pyrethrin-based misting concentrates sold to American homeowners are not registered for unattended residential misting here. Pouring a US misting concentrate into a hose-fed cooling kit is a grey-market, off-label use we do not recommend. Keep your DIY kit as a water-only cooling-and-deterrence tool, and leave the actual insecticide application to a licensed applicator who applies product according to label directions, which keeps it on-label and fully compliant.',
   },
   {
     question: 'Do I have to drain a misting system before winter in Canada?',
@@ -220,7 +220,7 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ A misting kit is comfort, not mosquito control.</strong> It cools your seating zone and pushes mosquitoes off it while running, but it does nothing about the mosquitoes breeding in the yard. For same-day, whole-yard relief that also kills ticks, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> works in hours and lasts 21&ndash;30 days &mdash; use the misting kit for comfort on top.
+              <strong className="text-amber-900">⚠️ A misting kit is comfort, not mosquito control.</strong> It cools your seating zone and pushes mosquitoes off it while running, but it does nothing about the mosquitoes breeding in the yard. For whole-yard mosquito reduction that also targets ticks, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> treats the leaves where mosquitoes rest, with the residual renewed on your plan&rsquo;s schedule &mdash; use the misting kit for comfort on top.
             </p>
           </div>
         </div>
@@ -244,7 +244,7 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
                   ['Winter care', 'Drain fully every fall; store nozzles indoors'],
                   ['Install time', '1–2 hours for a single-zone low-pressure kit'],
                   ['Insecticide in the water', 'Not in Canada — off-label; keep it water-only'],
-                  ['Best same-day mosquito fix', 'Professional barrier spray or a Thermacell zone'],
+                  ['Stronger mosquito options', 'Professional barrier spray or a Thermacell zone'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -294,11 +294,11 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
 
           <h2>The Canadian Compliance Line: Keep It Water-Only</h2>
           <p>There is one place a DIY misting kit can go badly wrong, and it is worth stating plainly. In the United States, &ldquo;mosquito misting systems&rdquo; that automatically spray an insecticide on a timer are a marketed product category, and the concentrates that feed them &mdash; usually permethrin- or pyrethrin-based &mdash; are sold freely to homeowners. In Canada, any pesticide applied through a misting system must be a <strong>PMRA-registered product used exactly as its label directs</strong>, and most of those US misting concentrates are simply not registered for unattended residential misting here. Pouring one into a hose-fed cooling kit is an off-label, grey-market use that we do not recommend and will not link to.</p>
-          <p>Keep your DIY kit as a <strong>water-only</strong> cooling-and-deterrence tool &mdash; that is fully legal, needs no registration, and is what the Aootek and HIRALIY kits are designed for. When you want actual insecticide working for you, have a licensed applicator apply a Health-Canada-registered product to the yard. It is both more effective than a timed mist and fully compliant. This is the same reason we steer readers away from imported US foggers and concentrates throughout our equipment guides.</p>
+          <p>Keep your DIY kit as a <strong>water-only</strong> cooling-and-deterrence tool &mdash; that is fully legal, needs no registration, and is what the Aootek and HIRALIY kits are designed for. When you want actual insecticide working for you, have a licensed applicator treat the yard according to label directions. That keeps the insecticide on-label and fully compliant. This is the same reason we steer readers away from imported US foggers and concentrates throughout our equipment guides.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Cool the patio — we&rsquo;ll clear the yard</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A misting kit makes your seating area comfortable; BuzzSkito&rsquo;s licensed barrier spray removes the mosquitoes from the whole yard, from $99 &mdash; backed by 150+ five-star reviews across 19 GTA cities, and it kills ticks too.</p>
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Cool the patio — we&rsquo;ll treat the yard</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A misting kit makes your seating area comfortable; BuzzSkito&rsquo;s licensed barrier spray reduces the adult mosquitoes resting across the whole yard, from $99 &mdash; backed by 150+ five-star reviews across 19 GTA cities, and it targets ticks too.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -316,18 +316,18 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-professional-mosquito-trap-canada">Mosquito trap</Link></td><td className="px-3 py-2">Slowly thins the population over weeks</td><td className="px-3 py-2">Up to ~1 acre (propane)</td><td className="px-3 py-2">No</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/propane-vs-electric-fogger-canada">Fogger</Link></td><td className="px-3 py-2">Knocks down flying adults before an event</td><td className="px-3 py-2">Treated zone, short window</td><td className="px-3 py-2">No</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/motion-activated-sprinkler-canada">Motion sprinkler</Link></td><td className="px-3 py-2">Startles larger pests off the yard</td><td className="px-3 py-2">Line-of-sight zone</td><td className="px-3 py-2">No</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Residual that kills on contact 21–30 days</td><td className="px-3 py-2">Whole yard</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Residual that kills on contact, renewed on schedule</td><td className="px-3 py-2">Whole yard</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
 
           <h2>The Smart Stack for a GTA Backyard</h2>
           <p>For a typical Mississauga, Brampton, or Oakville patio, the most effective and honest setup layers a couple of these tools rather than betting everything on one:</p>
           <ol>
-            <li><strong>Professional barrier spray</strong> to actually remove the mosquitoes from the yard &mdash; <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> gives whole-yard, 21&ndash;30-day coverage that also handles ticks.</li>
+            <li><strong>Professional barrier spray</strong> to reduce the adult mosquitoes resting in the yard &mdash; <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> gives whole-yard coverage, renewed every 2 weeks on the Standard plan, that also handles ticks.</li>
             <li><strong>A DIY misting kit over the seating area</strong> for cooling comfort and to keep the few stragglers drifting off you while you sit out on a hot evening.</li>
             <li><strong>A Thermacell or repellent zone</strong> for instant personal protection the moment you step outside the mist.</li>
           </ol>
-          <p>Add a <Link href="/blog/mosquito-magnet-canada">propane CO&#8322; trap</Link> or a <Link href="/blog/dynatrap-canada-review">DynaTrap</Link> on top only if you have rural acreage where a slow, multi-week population reduction pays off. On a standard suburban lot, the misting kit keeps the patio pleasant while the <Link href="/mosquito-control">barrier spray</Link> does the real work &mdash; because your neighbours&rsquo; yards keep re-seeding mosquitoes faster than any single device can thin them.</p>
+          <p>Add a <Link href="/blog/mosquito-magnet-canada">propane CO&#8322; trap</Link> or a <Link href="/blog/dynatrap-canada-review">DynaTrap</Link> on top only if you have rural acreage where a slow, multi-week population reduction pays off. On a standard suburban lot, the misting kit keeps the patio pleasant while the <Link href="/mosquito-control">barrier spray</Link> treats the vegetation across the yard on a schedule &mdash; which matters because your neighbours&rsquo; yards keep re-seeding mosquitoes faster than any single device can thin them.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
@@ -354,7 +354,7 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Cool the Patio · Clear the Yard" subtext="A misting kit keeps your seating area comfortable — barrier spray removes the mosquitoes from the whole yard. Get a free quote for licensed treatment. From $99. Kills ticks too." variant="dark" />
+      <CTASection heading="Cool the Patio · Treat the Yard" subtext="A misting kit keeps your seating area comfortable — barrier spray reduces the adult mosquitoes resting in your yard. Get a free quote for licensed treatment. From $99. Rain-back guarantee on every plan — and it targets ticks too." variant="dark" />
     </>
   )
 }

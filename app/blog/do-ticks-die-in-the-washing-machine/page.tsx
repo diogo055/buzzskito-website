@@ -2,13 +2,18 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'do-ticks-die-in-the-washing-machine'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Do Ticks Die in the Washing Machine or Dryer? (What Actually Works)'
-const META_TITLE = 'Do Ticks Die in the Washing Machine? 10-Min Fix'
+// SERP title only (H1 + schema keep TITLE). Layout appends ' | BuzzSkito' (12 chars) — keep <= 48.
+// Geo token is honest here: the Canadian water-heater setpoint (49°C) is the article's core finding.
+const META_TITLE = 'Do Ticks Die in the Washing Machine? Canada'
 
 const FAQS = [
   {
@@ -61,6 +66,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('do-ticks-die-in-the-washing-machine')
 
 export default function DoTicksDieInTheWashingMachinePage() {
   return (
@@ -193,6 +200,10 @@ export default function DoTicksDieInTheWashingMachinePage() {
             <li><strong>Don&rsquo;t forget gear and pets:</strong> backpacks, blankets, and the dog all carry ticks that later crawl onto people.</li>
           </ol>
           <p>The reason the same-day routine matters so much is timing. In Ontario, a blacklegged tick generally has to stay attached for roughly <strong>24 to 36 hours</strong> before it can transmit the bacteria behind Lyme disease, so catching one on your clothing &mdash; before it ever attaches &mdash; removes the risk entirely. If you want the full picture of how long these ticks stay alive and how they hang on, see our guide on <Link href="/blog/how-long-do-ticks-live">how long ticks live</Link>.</p>
+
+          <h3>Keep a removal tool where step four happens</h3>
+          <AffiliateDisclosure />
+          <p>The dryer handles the clothes. Step four &mdash; the shower and the full-body check &mdash; is the step that finds the tick that already made it to skin, and it goes very differently depending on what is in the bathroom drawer. Blunt eyebrow tweezers grab the body, and squeezing the body is the one thing you do not want to do. A fine-tipped remover or a tick hook grips at the head, hard against the skin, and lifts the whole tick out in one piece. It is worth having before you need it rather than after, and worth having two &mdash; one where you shower, one in the car for the trailhead. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Stop Ticks Before They Reach the Laundry</h2>
           <p>Killing ticks in the dryer is a good last line of defence, but the fewer that climb onto you in the first place, the less you have to worry about. Most ticks that end up on clothing came from the yard&rsquo;s own edges &mdash; long grass, leaf litter, wood piles, and shaded borders where ticks quest for a host. Clearing those harbourage zones and treating the perimeter dramatically cuts how many ticks you carry indoors. Our guide on <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">how to keep ticks out of your yard in Ontario</Link> walks through the landscaping and barrier-spray steps that make the biggest difference.</p>

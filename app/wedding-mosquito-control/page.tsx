@@ -2,32 +2,34 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS } from '@/lib/constants'
+import { BUSINESS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Wedding Mosquito Control GTA · Event Spray',
   description:
-    'Mosquito-free weddings & outdoor events in the GTA. BuzzSkito treats venues 24-48 hours before your event. Health Canada-approved. Call (289) 216-5030.',
+    'Mosquito control for weddings & outdoor events in the GTA. BuzzSkito treats venues 24-48 hours before your event. Licensed Ontario operator. Call (289) 216-5030.',
   canonical: '/wedding-mosquito-control',
 })
 
 const FAQS = [
   {
     question: 'How far in advance should I book mosquito treatment before my wedding?',
-    answer: 'We recommend booking at least two weeks before your event date to guarantee availability. The actual treatment is applied 24-48 hours before the event for optimal results. During peak wedding season (June-September), earlier booking is strongly recommended. Call (289) 216-5030 to reserve your date.',
+    answer: 'We recommend booking at least two weeks before your event date to secure availability. The actual treatment is applied 24-48 hours before the event for optimal results. During peak wedding season (June-September), earlier booking is strongly recommended. Call (289) 216-5030 to reserve your date.',
   },
   {
     question: 'What happens if it rains after the treatment but before my event?',
-    answer: "BuzzSkito's rain-back guarantee covers you. If significant rain falls within one hour of application — before the product has fully cured — we return and re-treat at no additional cost. Once the product dries (approximately 30 minutes), it bonds to vegetation and is rain-resistant. If rain is forecast within 24 hours of your event, we'll coordinate timing to ensure maximum protection.",
+    answer: "BuzzSkito's rain-back guarantee covers you. If rain falls within one hour of application — before the product has dried — we return and re-treat at no additional cost. Once the spray has dried on vegetation, it holds up better to rain. If rain is forecast within 24 hours of your event, we'll work out the treatment timing with you.",
   },
   {
-    question: 'Is the treatment safe for wedding guests, children, and pets?',
-    answer: 'Yes. We use a Health Canada-approved, water-based formula that is safe for people and pets once dry — approximately 30 minutes after application. Since we treat 24-48 hours before your event, the product is fully cured well before guests arrive. There is no visible residue or odour by event time.',
+    question: 'What precautions apply for wedding guests, children, and pets?',
+    answer: 'Keep people and pets off treated areas until the spray has dried, as the product label directs. Because we treat 24-48 hours before your event, the spray has time to dry well before guests arrive. Our licensed technician applies the product according to its label directions, to the vegetation, shrub interiors, and fence lines where mosquitoes rest.',
   },
   {
     question: 'How much does event mosquito treatment cost?',
-    answer: "Event treatments start from $99 for standard-size venues. Pricing depends on the size of the outdoor area being treated and the complexity of the landscape. Large estate venues, waterfront properties, and venues with extensive gardens may require a custom quote. Call (289) 216-5030 for a free, no-obligation quote for your specific venue.",
+    answer: "Event treatments start from $99 on a standard lot under 10,000 sq ft, plus HST. Pricing depends on the size of the outdoor area being treated and the complexity of the landscape. Large estate venues, waterfront properties, and venues with extensive gardens may require a custom quote. Call (289) 216-5030 for a free, no-obligation quote for your specific venue.",
   },
   {
     question: 'Can you treat a venue I don\'t own, like a rented estate or park pavilion?',
@@ -53,7 +55,7 @@ export default function WeddingMosquitoControlPage() {
           { label: 'Wedding & Event' },
         ]}
         title={<>Wedding &amp; Outdoor Event Mosquito Control in the GTA</>}
-        subtitle={<>Don&rsquo;t let mosquitoes ruin your big day. BuzzSkito treats your venue 24&ndash;48 hours before your wedding, garden party, or corporate event with Health Canada&ndash;approved barrier spray &mdash; up to 30 days of protection.</>}
+        subtitle={<>Licensed Ontario pesticide operator treating your venue 24&ndash;48 hours before your wedding, garden party, or corporate event. Treatments applied according to label directions.</>}
         image="/spray-pool.webp"
         imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
       />
@@ -61,13 +63,15 @@ export default function WeddingMosquitoControlPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>&#10003; Health Canada&ndash;Approved Formula</span>
+          <span>&#10003; {PROMISES.licence}</span>
           <span>&#10003; Treat 24&ndash;48 Hours Before Your Event</span>
-          <span>&#10003; Bite-Free Guarantee</span>
-          <span>&#10003; Safe for Guests, Kids &amp; Pets</span>
+          <span>&#10003; {PROMISES.rainBackShort}</span>
+          <span>&#10003; {PROMISES.labelLine}</span>
           <span>&#10003; 5-Star Rated &middot; 150+ Reviews</span>
         </div>
       </section>
+
+      <TypicalPrices service="mosquito" city="GTA" />
 
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
@@ -77,8 +81,8 @@ export default function WeddingMosquitoControlPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Book Your Event Date', desc: 'Tell us your event date, venue location, and the outdoor areas you need protected. We recommend booking at least two weeks ahead.' },
-              { step: '2', title: 'Pre-Event Barrier Spray', desc: 'Our licensed technician treats all vegetation, shrub interiors, fence lines, and perimeter areas 24-48 hours before your event using Health Canada-approved formula.' },
-              { step: '3', title: 'Mosquito-Free Celebration', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. Your guests enjoy the outdoors without swatting or spraying themselves.' },
+              { step: '2', title: 'Pre-Event Barrier Spray', desc: 'Our licensed technician treats all vegetation, shrub interiors, fence lines, and perimeter areas 24-48 hours before your event, applying the product according to its label directions.' },
+              { step: '3', title: 'Enjoy Your Celebration', desc: `The spray dries well before guests arrive, and the resting sites around your gathering areas have been treated. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -95,7 +99,7 @@ export default function WeddingMosquitoControlPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why GTA Weddings Need Mosquito Control</h2>
           <p>The Greater Toronto Area is home to some of Ontario&rsquo;s most beautiful outdoor wedding venues &mdash; many of them near the exact water features and ravines that produce heavy mosquito activity from June through September. Venues along the Credit River, Humber River valley, Lake Ontario waterfront, and Niagara Escarpment offer stunning settings, but without professional treatment, guests spend the evening swatting rather than celebrating.</p>
-          <p>A single professional barrier spray applied 24&ndash;48 hours before your event eliminates active mosquito populations and creates a residual barrier across all treated vegetation. The result: dramatically reduced mosquito activity throughout your entire outdoor celebration.</p>
+          <p>A single professional barrier spray applied 24&ndash;48 hours before your event knocks down the mosquitoes resting in treated vegetation and leaves a residual on those surfaces. It will not clear the whole area, because mosquitoes keep arriving from beyond the property line, but it targets the resting sites closest to your guests.</p>
 
           <h2>Common GTA Wedding Venues Near Water &amp; Ravines</h2>
           <p>These types of GTA venues are particularly prone to mosquito pressure and benefit most from pre-event treatment:</p>
@@ -128,16 +132,18 @@ export default function WeddingMosquitoControlPage() {
           <ul>
             <li><strong>2+ weeks before</strong> &mdash; Book your treatment date. Confirm venue access and any restrictions with the property owner.</li>
             <li><strong>24&ndash;48 hours before</strong> &mdash; Our technician arrives and treats all outdoor vegetation, perimeter areas, and gathering zones. Treatment takes 30&ndash;60 minutes depending on venue size.</li>
-            <li><strong>30 minutes after treatment</strong> &mdash; Product is dry and safe for foot traffic. No visible residue, no odour.</li>
-            <li><strong>Event day</strong> &mdash; Your guests enjoy a mosquito-free outdoor celebration. Protection lasts up to 30 days from treatment.</li>
+            <li><strong>After treatment</strong> &mdash; Stay off treated areas until the spray has dried, as the product label directs.</li>
+            <li><strong>Event day</strong> &mdash; The spray has had a day or two to dry, and the resting sites around your gathering areas have been treated.</li>
           </ul>
 
           <h2>Why Not Just Use Citronella Candles or Bug Spray?</h2>
           <p>Citronella candles and personal insect repellent are the most common &ldquo;solutions&rdquo; for outdoor events &mdash; and the least effective. Candles protect a radius of only a few feet and only while burning. Asking wedding guests to apply DEET before a formal event is impractical. Neither approach addresses the source: mosquitoes resting in surrounding vegetation.</p>
           <p>Professional barrier spray treats the actual resting sites &mdash; the undersides of leaves, shrub interiors, and fence lines where adult mosquitoes spend the daylight hours. One treatment knocks down what is resting there and leaves a residual on those surfaces for weeks. It will not clear the area &mdash; mosquitoes keep arriving from beyond the property line &mdash; which is why we time the application close to the event date.</p>
 
+          <CityPriceCard city="GTA" service="mosquito" />
+
           <h2>Pricing for Event Treatments</h2>
-          <p>Event mosquito treatments start from <strong>$99</strong> for standard venues. Final pricing depends on:</p>
+          <p>Event mosquito treatments start from <strong>$99</strong> on a standard lot under 10,000 sq ft, plus HST. Final pricing depends on:</p>
           <ul>
             <li>Size of the outdoor treatment area</li>
             <li>Complexity of landscaping and vegetation</li>
@@ -184,6 +190,10 @@ export default function WeddingMosquitoControlPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" location="price_card_faq" />
+      </div>
+
       {/* FAQ */}
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
@@ -204,7 +214,7 @@ export default function WeddingMosquitoControlPage() {
         </div>
       </section>
 
-      <CTASection heading="Book Mosquito Control for Your Event" subtext="Treat your venue 24-48 hours before the big day. Health Canada-approved, safe for guests. Free quotes." />
+      <CTASection heading="Book Mosquito Control for Your Event" subtext="Treat your venue 24-48 hours before the big day. Licensed Ontario pesticide operator. Free quotes." />
     </>
   )
 }

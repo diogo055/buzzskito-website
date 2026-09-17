@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { TICK_BLOGS } from '@/lib/constants'
+import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Georgetown Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Georgetown tick spray for Credit River edge and Hungry Hollow ravine properties. Health Canada-approved, from $99/treatment, BuzzSkito Bite-Free Guarantee. Glen Williams, Park District, Devereux, Norval, Stewarttown. Call (289) 216-5030.",
+    "Georgetown tick spray for Credit River edge and Hungry Hollow ravine properties. Licensed operator, from $99/treatment, rain-back guarantee. Glen Williams, Park District, Devereux, Norval, Stewarttown. Call (289) 216-5030.",
   canonical: '/georgetown-tick-spray',
 })
 
@@ -17,7 +19,7 @@ const NEIGHBOURHOODS = ['Old Georgetown','Glen Williams','Norval','Stewarttown',
 const FAQS = [
   {
     question: 'How much does tick spray cost in Georgetown?',
-    answer: 'Tick spray in Georgetown starts from $99 per application. Properties near the Credit River valley, Silver Creek Conservation Area, or any wooded area are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, because each application holds up to 30 days of residual and monthly spacing is what removes the gap. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Georgetown starts from $99 per application. Properties near the Credit River valley, Silver Creek Conservation Area, or any wooded area are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, so the yard is re-treated through the whole tick season. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Is the Credit River valley near Georgetown a tick risk?',
@@ -37,17 +39,18 @@ export default function GeorgetownTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: '/georgetown-tick-spray', city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Applied by a licensed Ontario pesticide operator.`, slug: '/georgetown-tick-spray', city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/georgetown-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'Georgetown' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/georgetown-tick-spray', '2026-07-01')) }} />
 
       <CityHero
+        service="tick"
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Georgetown's Credit River valley and Silver Creek Conservation Area are confirmed blacklegged tick habitat throughout the season. The Niagara Escarpment corridor adds further exposure risk. BuzzSkito protects your family from Lyme disease.</>}
+        subtitle={<>Licensed Ontario pesticide operator, with tick treatments applied according to label directions. Georgetown's Credit River valley and Silver Creek Conservation Area are confirmed blacklegged tick habitat, and the Niagara Escarpment corridor adds further exposure.</>}
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -56,10 +59,10 @@ export default function GeorgetownTickPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ 5 Tick Sprays per Season</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -76,6 +79,8 @@ export default function GeorgetownTickPage() {
       </section>
 
       
+      <TypicalPrices service="tick" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -84,8 +89,8 @@ export default function GeorgetownTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — lawn-to-woods transitions, leaf litter, garden bed edges, and fence lines on your property.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies the product according to its label directions to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: 'Five Visits per Season', desc: `Tick treatments repeat about monthly, 5 sprays from May through September. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -101,7 +106,7 @@ export default function GeorgetownTickPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Georgetown</h2>
           <p>Georgetown is surrounded by some of the richest natural habitats in Halton Region — and that makes it one of the higher-risk communities in the western GTA for blacklegged tick exposure. The Credit River valley runs directly through Georgetown and into Glen Williams, creating a continuous forested and riparian corridor that is confirmed blacklegged tick habitat. Halton Region includes Georgetown in its formal tick monitoring program, recognizing the risk this landscape poses to local residents.</p>
-          <p>Silver Creek Conservation Area is another significant local risk zone. Its mixture of forest, meadow, and wetland edges create the kind of varied habitat where tick populations establish and persist. The Niagara Escarpment trail corridor through Halton Hills — including the Limehouse area — provides additional forested movement routes for deer (the primary adult tick host), extending tick exposure beyond the immediate river valley to a broader swath of the community. For Georgetown homeowners, the most effective seasonal protection is the full program — five treatments spaced roughly monthly from May through September. Each application leaves up to 30 days of residual, so monthly spacing keeps the barrier continuous through peak nymph season in May, June, and July, and through the adults that re-emerge and stay active into the autumn.</p>
+          <p>Silver Creek Conservation Area is another significant local risk zone. Its mixture of forest, meadow, and wetland edges create the kind of varied habitat where tick populations establish and persist. The Niagara Escarpment trail corridor through Halton Hills — including the Limehouse area — provides additional forested movement routes for deer (the primary adult tick host), extending tick exposure beyond the immediate river valley to a broader swath of the community. For Georgetown homeowners, we recommend the full program — five treatments spaced roughly monthly from May through September. Monthly spacing keeps the yard on a treatment schedule through peak nymph season in May, June, and July, and into the autumn, when adult ticks re-emerge and stay active.</p>
 
           <h2>Tick Hotspots in Georgetown</h2>
           <ul>
@@ -117,13 +122,15 @@ export default function GeorgetownTickPage() {
             {NEIGHBOURHOODS.map((n) => <span key={n} className="text-sm bg-amber-50 border border-amber-200 text-amber-700 px-3 py-1.5 rounded-full">{n}</span>)}
           </div>
 
+          <CityPriceCard city={CITY} service="tick" location="price_card_mid" />
+
           <h2>What Our Georgetown Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 30 days of tick protection per treatment</li>
-            <li>Kills adult ticks, nymphs, and larvae on contact</li>
-            <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
-            <li>Free reapplication guarantee if ticks return</li>
+            <li>5 treatments per season, spaced about monthly from May through September</li>
+            <li>Aimed at the zones where adult ticks and nymphs wait for a host</li>
+            <li>{PROMISES.labelLine}; stay off treated areas until the spray has dried, as the label directs</li>
+            <li>{PROMISES.rainBack}</li>
           </ul>
 
           <h2>Also Providing Mosquito Control in Georgetown</h2>
@@ -131,7 +138,7 @@ export default function GeorgetownTickPage() {
 
 
           <h2>Compare Georgetown Pest Control Options</h2>
-          <p>Georgetown has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-georgetown" className="text-brand-700 hover:underline font-semibold">Pest Control in Georgetown</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company.</p>
+          <p>Georgetown has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-georgetown" className="text-brand-700 hover:underline font-semibold">Pest Control in Georgetown</Link> for how a mosquito and tick specialist compares with a general pest company.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
@@ -150,7 +157,7 @@ export default function GeorgetownTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'James K.', text: 'We had a tick problem near our garden border. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-              { author: 'Priya R.', text: 'The technician explained exactly what product they were using and why it\u2019s safe for our dog. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
+              { author: 'Priya R.', text: 'The technician explained exactly what product they were using. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
             ].map(({ author, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -169,6 +176,10 @@ export default function GeorgetownTickPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="tick" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -185,7 +196,7 @@ export default function GeorgetownTickPage() {
           </div>
         </div>
       </section>
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protect your family from Lyme disease. No contracts, guaranteed results." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext={`5 tick sprays per season. No contracts. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

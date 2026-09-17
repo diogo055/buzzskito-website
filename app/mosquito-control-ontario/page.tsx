@@ -2,8 +2,10 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, CITIES } from '@/lib/constants'
+import { BUSINESS, CITIES, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Ontario | From $99',
@@ -15,11 +17,11 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'What is professional mosquito control in Ontario?',
-    answer: 'Professional mosquito control in Ontario involves applying a Health Canada–approved residual insecticide to the vegetation on your residential property — shrubs, hedges, garden beds, fence lines, and leaf undersides where mosquitoes rest during the day. The formula kills mosquitoes on contact and provides up to 30 days of continuous protection. Licensed Ontario technicians apply it as a fine mist using backpack precision sprayers. It is safe for children and pets once dry, typically within 30 minutes.',
+    answer: 'Professional mosquito control in Ontario involves a licensed technician applying a residual insecticide, according to its label directions, to the vegetation on your residential property — shrubs, hedges, garden beds, fence lines, and leaf undersides where mosquitoes rest during the day. Licensed Ontario technicians apply it as a fine mist using backpack precision sprayers, and treatments are repeated on a schedule through the season. Keep children and pets off treated areas until the spray has dried, as the product label directs.',
   },
   {
     question: 'Is professional mosquito spray legal and safe in Ontario?',
-    answer: 'Yes. All products BuzzSkito uses are registered with Health Canada under the Pest Control Products Act — the federal regulatory framework governing pesticide safety in Canada. Our technicians are licensed under Ontario\'s Pesticides Act, which requires training and certification for all commercial pesticide applications. Ontario\'s provincial regulations are among the strictest in North America, and the products we use meet all requirements for residential use.',
+    answer: 'Professional mosquito spraying is legal in Ontario when it is done by a licensed operator. Pest control products in Canada are regulated federally under the Pest Control Products Act, and Ontario\'s Pesticides Act requires training and a licence for all commercial pesticide applications. BuzzSkito holds Ontario Pesticide Operator Licence L-240-2436835197, and our technicians apply every product according to its label directions. Keep children and pets off treated areas until the spray has dried, as the label directs.',
   },
   {
     question: 'What Ontario cities does BuzzSkito serve for mosquito and tick control?',
@@ -27,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'When does mosquito season start and end in Ontario?',
-    answer: 'Mosquito season in Ontario typically begins in late April or early May when temperatures consistently exceed 10°C. Peak activity runs from June through August. The season extends into September and sometimes early October in southern Ontario, particularly in years with warm falls. We recommend starting treatments in early May to establish a protective barrier before populations peak, with five seasonal visits (May–September) for continuous coverage.',
+    answer: 'Mosquito season in Ontario typically begins in late April or early May when temperatures consistently exceed 10°C. Peak activity runs from June through August. The season extends into September and sometimes early October in southern Ontario, particularly in years with warm falls. We recommend starting treatments in early May, before populations peak, with season plans of 5, 10, or 20+ visits from May to September.',
   },
   {
     question: 'What is tick season in Ontario?',
@@ -35,7 +37,7 @@ const FAQS = [
   },
   {
     question: 'Does mosquito spray work against ticks in Ontario?',
-    answer: 'Yes. BuzzSkito\'s barrier spray eliminates both mosquitoes and blacklegged ticks in a single treatment. The same active formula that kills mosquitoes on contact is also effective against ticks at all life stages — adults, nymphs, and larvae. Many Ontario homeowners bundle both services for complete yard protection. One visit, one treatment, covers both pests.',
+    answer: 'Tick control is its own application. Ticks wait in different places from mosquitoes — lawn-to-woods edges, leaf litter, and low vegetation along fence lines — so BuzzSkito treats those zones specifically, with 5 tick sprays per season. Tick control is $597 on its own or $497 when added to any mosquito plan, and a bundled tick treatment is done on the same visit as your mosquito spray. Many Ontario homeowners bundle both services.',
   },
   {
     question: 'What Ontario areas have the highest mosquito and tick risk?',
@@ -60,16 +62,15 @@ export default function MosquitoControlOntarioPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Mosquito Control', href: '/mosquito-control' }, { label: 'Ontario' }]}
         title={<>Mosquito &amp; Tick Control</>}
         titleAccent={<>across Ontario</>}
-        subtitle={<>BuzzSkito provides Health Canada–approved mosquito and tick barrier spray across 19 cities in Southern Ontario&apos;s Greater Toronto Area. Licensed technicians, guaranteed results, no contracts.</>}
+        subtitle={<>Licensed Ontario pesticide operator treating yards for mosquitoes and ticks across 19 cities in Southern Ontario&apos;s Greater Toronto Area. Treatments applied according to label directions, no contracts.</>}
         image="/spray-backyard.webp"
       />
 
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
           <span>✓ Ontario Pesticides Act Licensed</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min)</span>
-          <span>✓ Up to 30-Day Protection</span>
+          <span>✓ Mississauga-Based &amp; Owner-Operated</span>
+          <span>✓ 19 GTA Cities</span>
           <span>✓ 150+ Five-Star Reviews</span>
         </div>
       </section>
@@ -77,15 +78,16 @@ export default function MosquitoControlOntarioPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
-      
+      <TypicalPrices service="mosquito" city="Ontario" />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -93,8 +95,8 @@ export default function MosquitoControlOntarioPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product, according to its label directions, to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: 'Rain within 1 hour of your treatment? We come back and re-treat free, on every plan. Standard & Exclusive plans also carry the Bite-Free Guarantee.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -109,8 +111,8 @@ export default function MosquitoControlOntarioPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-5xl mx-auto prose-brand">
           <h2>Professional Mosquito and Tick Control across Southern Ontario</h2>
-          <p>BuzzSkito is a Mississauga-based mosquito and tick control company serving residential homeowners across the Greater Toronto Area and surrounding Southern Ontario communities. We specialize exclusively in barrier spray treatments — a fine residual insecticide mist applied to your property&apos;s vegetation, shrubs, and lawn edges that eliminates mosquitoes and ticks on contact and provides up to 30 days of continuous protection per treatment.</p>
-          <p>Our technicians are licensed under Ontario&apos;s Pesticides Act and all products are registered with Health Canada under the Pest Control Products Act. Every treatment includes a written service log delivered by SMS after each visit.</p>
+          <p>BuzzSkito is a Mississauga-based mosquito and tick control company serving residential homeowners across the Greater Toronto Area and surrounding Southern Ontario communities. We specialize exclusively in barrier spray treatments — a fine residual insecticide mist applied to your property&apos;s vegetation, shrubs, and lawn edges where mosquitoes rest and ticks wait, re-applied on a set schedule through the season.</p>
+          <p>Our technicians are licensed under Ontario&apos;s Pesticides Act (Ontario Pesticide Operator Licence {BUSINESS.licenseNumber}), and every product is applied according to its label directions. Every treatment includes a written service log delivered by SMS after each visit.</p>
 
           <h2>Ontario Mosquito and Tick Season</h2>
           <p>Southern Ontario has one of the longer active pest seasons in Canada due to its temperate climate and significant natural features. Mosquito season runs from early May through late September — five full months when outdoor living is impacted without treatment. Blacklegged ticks (the species that carries Lyme disease) are active from early spring through late fall, with nymph tick season peaking from May through July being the highest-risk period for Lyme disease transmission.</p>
@@ -138,10 +140,10 @@ export default function MosquitoControlOntarioPage() {
           <h2>What&apos;s Included in Every Ontario Treatment</h2>
           <ul>
             <li><strong>Full-yard barrier spray</strong> — All vegetation, shrubs, garden beds, fence lines, and canopy edges treated up to 10 feet high</li>
-            <li><strong>Up to 30-day residual protection</strong> — formula bonds to leaf surfaces and works continuously between visits</li>
-            <li><strong>Health Canada–approved formula</strong> — registered under the Pest Control Products Act, safe for children and pets after 30 minutes</li>
-            <li><strong>Rain-back guarantee</strong> — significant rain within one hour of treatment? We return and re-treat at no cost</li>
-            <li><strong>Free re-spray guarantee</strong> — if pests return within the protection window, we come back at no charge</li>
+            <li><strong>Residual barrier</strong> — the product dries onto leaf surfaces, and scheduled repeat visits keep it in place through the season</li>
+            <li><strong>Label-directed application</strong> — products applied according to label directions; stay off treated areas until the spray has dried</li>
+            <li><strong>Rain-back guarantee</strong> — rain within 1 hour of your treatment? We come back and re-treat free, on every plan</li>
+            <li><strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong> — if mosquitoes come back between scheduled treatments, we re-treat at no charge</li>
             <li><strong>SMS service log</strong> — written documentation delivered after every visit</li>
           </ul>
         </div>
@@ -175,6 +177,10 @@ export default function MosquitoControlOntarioPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Ontario" service="mosquito" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Mosquito &amp; Tick Control in Ontario</h2>
@@ -195,7 +201,7 @@ export default function MosquitoControlOntarioPage() {
         </div>
       </section>
 
-      <CTASection heading="Get a Free Quote for Your Ontario Property" subtext="Serving 19 GTA cities. No contracts, guaranteed results, Health Canada–approved." />
+      <CTASection heading="Get a Free Quote for Your Ontario Property" subtext="Serving 19 GTA cities. No contracts, rain-back guarantee on every plan, licensed Ontario operator." />
     </>
   )
 }

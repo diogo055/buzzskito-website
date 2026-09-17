@@ -1,14 +1,16 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Milton · From $99 · 150+ 5-Star Reviews',
   description:
-    "Milton's mosquito & tick specialist. Barrier spray from $99, 150+ five-star reviews, Bite-Free Guarantee. Serving Milton, Georgetown & Halton Hills.",
+    "Milton's mosquito & tick specialist. Barrier spray from $99, 150+ five-star reviews, rain-back guarantee. Serving Milton, Georgetown & Halton Hills.",
   canonical: '/milton-mosquito-control',
 })
 
@@ -31,11 +33,11 @@ const FAQS = [
   },
   {
     question: 'How much does mosquito control in Milton cost?',
-    answer: "Single treatments start from $99 for a standard Milton lot up to 10,000 sq ft. Most homeowners choose a seasonal program: the Basic Season is $549 for 5 sprays, our most popular Standard Season is $994 for 10 bi-weekly sprays across May through September, and the Exclusive Season is $2,049 for 20+ weekly visits. Larger and rural Milton properties are quoted by lot size (10K–100K sq ft), and every plan is backed by our Bite-Free Guarantee with no contracts or cancellation fees.",
+    answer: "Single treatments start from $99 for a standard Milton lot under 10,000 sq ft. Most homeowners choose a seasonal program: the Basic Season is $549 for 5 sprays, our most popular Standard Season is $994 for 10 bi-weekly sprays across May through September, and the Exclusive Season is $2,049 for 20+ weekly visits. Larger and rural Milton properties are quoted by lot size (10K–100K sq ft), and prices are plus HST. Every plan comes with our rain-back guarantee (rain within 1 hour of a treatment and we re-treat free), Standard and Exclusive plans also carry the Bite-Free Guarantee, and there are no contracts or cancellation fees.",
   },
   {
     question: 'Do you serve Georgetown and Halton Hills as well as Milton?',
-    answer: "Yes. Milton is our home base in Halton Region, and our licensed technician covers neighbouring Georgetown and Halton Hills on the same routes with the same Health Canada-approved barrier spray. If your property sits near the Niagara Escarpment or a conservation trail on the Milton–Halton Hills boundary, we can combine mosquito and tick treatment for full-season coverage.",
+    answer: "Yes. Our licensed technician covers Milton and neighbouring Georgetown and Halton Hills on the same routes, with the same barrier spray applied according to label directions. If your property sits near the Niagara Escarpment or a conservation trail on the Milton–Halton Hills boundary, we can combine mosquito and tick treatment for full-season coverage.",
   },
 ]
 
@@ -65,15 +67,17 @@ export default function MiltonMosquitoPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
       
+      <TypicalPrices service="mosquito" city="Milton" />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -82,8 +86,8 @@ export default function MiltonMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies barrier spray, according to label directions, to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `${PROMISES.rainBack} Standard and Exclusive plans also carry the Bite-Free Guarantee between scheduled visits.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -108,20 +112,21 @@ export default function MiltonMosquitoPage() {
           </div>
 
           <h2>Serving Milton, Georgetown &amp; Halton Hills</h2>
-          <p>BuzzSkito is the mosquito control Milton homeowners trust, and we cover the wider Halton region on the same routes. Whether you&apos;re backing onto a stormwater pond in Hawthorne Village, on a rural lot below the Escarpment, or on a wooded street in neighbouring <Link href="/georgetown-mosquito-control" className="text-brand-700 hover:underline">Georgetown</Link> or <Link href="/halton-hills-mosquito-control" className="text-brand-700 hover:underline">Halton Hills</Link>, the same licensed technician and Health Canada&ndash;approved barrier spray protect your yard. Because Milton, Georgetown, and Halton Hills all border Escarpment and conservation land, this corner of Halton sees higher-than-average mosquito &amp; tick pressure through the summer.</p>
+          <p>BuzzSkito is the mosquito control Milton homeowners trust, and we cover the wider Halton region on the same routes. Whether you&apos;re backing onto a stormwater pond in Hawthorne Village, on a rural lot below the Escarpment, or on a wooded street in neighbouring <Link href="/georgetown-mosquito-control" className="text-brand-700 hover:underline">Georgetown</Link> or <Link href="/halton-hills-mosquito-control" className="text-brand-700 hover:underline">Halton Hills</Link>, the same licensed technician applies the same barrier spray, according to label directions. Because Milton, Georgetown, and Halton Hills all border Escarpment and conservation land, this corner of Halton sees higher-than-average mosquito &amp; tick pressure through the summer.</p>
           <p>For a deeper look at the pest pressure across the area, read our guide to <Link href="/blog/mosquito-control-milton-georgetown" className="text-brand-700 hover:underline">mosquito control in Milton &amp; Georgetown</Link>.</p>
 
           <h2>Our Milton Mosquito Treatment Process</h2>
           <ul>
             <li><strong>Stormwater pond proximity assessment</strong> — We map the distance and orientation of any nearby ponds or creek frontage relative to your yard.</li>
             <li><strong>Full-yard barrier spray</strong> — All vegetation, hedges, ornamental grasses, fence lines, and shrub borders treated on every visit.</li>
-            <li><strong>28-day residual protection</strong> — Health Canada–approved formula works continuously between visits; safe for kids and pets after 30 minutes.</li>
-            <li><strong>Seasonal program</strong> — Five visits May through September, timed to Sixteen Mile Creek and pond-edge emergence patterns.</li>
+            <li><strong>Label-directed residual spray</strong> — {PROMISES.labelLine}, by an operator holding {PROMISES.licence}. Keep kids and pets off treated areas until the spray has dried, as the product label directs.</li>
+            <li><strong>Seasonal program</strong> — 5, 10 or 20+ visits May through September depending on your plan, timed to Sixteen Mile Creek and pond-edge emergence patterns.</li>
           </ul>
 
           <h2>Also Providing Tick Control in Milton</h2>
-          <p>Milton&apos;s proximity to Halton Hills conservation areas and the Niagara Escarpment trail corridors places homeowners at real tick risk, particularly those in western and southern Milton communities. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Milton tick spray service</Link> — combining both treatments provides complete yard protection through the season.</p>
+          <p>Milton&apos;s proximity to Halton Hills conservation areas and the Niagara Escarpment trail corridors places homeowners at real tick risk, particularly those in western and southern Milton communities. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Milton tick spray service</Link> — combining both treatments covers mosquitoes and ticks on the same visit, and the tick season is $497 when added to any mosquito plan.</p>
 
+          <CityPriceCard city="Milton" service="mosquito" />
 
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
@@ -143,10 +148,10 @@ export default function MiltonMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier on the leaves where mosquitoes rest, renewed on a set schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -192,6 +197,10 @@ export default function MiltonMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Milton" service="mosquito" location="price_card_faq" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

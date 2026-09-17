@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import CityPriceCard from '@/components/CityPriceCard'
+import TypicalPrices from '@/components/TypicalPrices'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Pickering | From $99',
   description:
-    'Professional mosquito control in Pickering, Durham Region. Barrier spray near Frenchman\'s Bay from $99. Safe for kids & pets. Call (289) 216-5030.',
+    'Professional mosquito control in Pickering, Durham Region. Barrier spray near Frenchman\'s Bay from $99. Licensed Ontario operator. Call (289) 216-5030.',
   canonical: '/pickering-mosquito-control',
 })
 
@@ -27,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'How many treatments does a Pickering property need?',
-    answer: "Most Pickering properties benefit from 4–5 treatments spaced 21–28 days apart from May through September. Properties near Frenchman's Bay, the Rouge River corridor, or Altona Forest typically benefit from the full 5-treatment program. Interior Pickering properties may be well-served by 3–4 treatments depending on their proximity to water sources. Call (289) 216-5030 for a free assessment.",
+    answer: "Season plans run May through September: Basic is 5 sprays, monthly ($549); Standard is 10 sprays, every 2 weeks ($994, our most popular); Exclusive is 20+ sprays, weekly ($2,049). Prices are for a standard lot under 10,000 sq ft, plus HST. Properties near Frenchman's Bay, the Rouge River corridor, or Altona Forest usually benefit from the more frequent plans. Interior Pickering properties further from water are often well served by the Basic plan. Call (289) 216-5030 for a free assessment.",
   },
   {
     question: 'Does Altona Forest create mosquito problems for nearby homes?',
@@ -57,20 +59,22 @@ export default function PickeringMosquitoPage() {
           { label: NEIGHBOURHOOD },
         ]}
         title={<>Mosquito Control in {NEIGHBOURHOOD}, {CITY}</>}
-        subtitle={<>Pickering's Frenchman's Bay, Rouge River corridor, and Altona Forest create multi-source mosquito pressure from waterfront to forest. BuzzSkito's barrier spray gives Pickering families 30-day protection per treatment.</>}
+        subtitle={<>Licensed Ontario pesticide operator. Treatments applied according to label directions around Pickering's Frenchman's Bay, Rouge River corridor, and Altona Forest.</>}
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ Licensed Ontario Pesticide Operator</span>
+          <span>✓ Applied According to Label Directions</span>
+          <span>✓ Rain-Back Guarantee on Every Plan</span>
+          <span>✓ Bite-Free Guarantee on Standard &amp; Exclusive</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
+      {/* Typical prices */}
+      <TypicalPrices service="mosquito" city={NEIGHBOURHOOD} />
 
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
@@ -80,8 +84,8 @@ export default function PickeringMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies barrier spray according to label directions to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `We return on your plan's schedule. ${PROMISES.rainBack} Standard & Exclusive plans also carry the Bite-Free Guarantee.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -97,7 +101,7 @@ export default function PickeringMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Pickering's Bay, River, and Forest Mosquito Problem</h2>
           <p>Pickering faces mosquito pressure from three distinct natural environments that converge across the community. <strong>Frenchman's Bay</strong> — a large coastal wetland on Lake Ontario's north shore — is one of Durham Region's most productive mosquito breeding sites. The bay's cattail marshes, sheltered shallow water, and emergent vegetation produce large mosquito populations that disperse into south Pickering residential areas throughout the season.</p>
-          <p>The <strong>Rouge River</strong> runs through Pickering's west side, connecting to <strong>Rouge National Urban Park</strong>'s extensive wetlands and forest — one of Canada's largest urban parks and a massive mosquito source. In central Pickering, <strong>Altona Forest</strong> — one of the GTA's largest remaining urban forests — contains mature canopy, seasonal wetlands, and vernal pools that sustain interior mosquito populations. BuzzSkito's barrier spray creates a treated zone around your Pickering property, targeting all resting vegetation to provide up to 30 days of protection between treatments.</p>
+          <p>The <strong>Rouge River</strong> runs through Pickering's west side, connecting to <strong>Rouge National Urban Park</strong>'s extensive wetlands and forest — one of Canada's largest urban parks and a massive mosquito source. In central Pickering, <strong>Altona Forest</strong> — one of the GTA's largest remaining urban forests — contains mature canopy, seasonal wetlands, and vernal pools that sustain interior mosquito populations. BuzzSkito's barrier spray creates a treated zone around your Pickering property, targeting the vegetation where mosquitoes rest and re-applied on your plan's schedule.</p>
 
           <h2>Serving Pickering and Eastern GTA</h2>
           <p>We serve all of Pickering and surrounding communities. See our <Link href="/scarborough-mosquito-control" className="text-brand-700 hover:underline">Scarborough mosquito control</Link> page for western coverage, or our <Link href="/ajax-mosquito-control" className="text-brand-700 hover:underline">Ajax</Link> page for adjacent community coverage.</p>
@@ -123,10 +127,10 @@ export default function PickeringMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier on the surfaces where mosquitoes rest, re-applied on a regular schedule. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -135,7 +139,7 @@ export default function PickeringMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Our targeted tick barrier spray treats the lawn edges, leaf litter, and wooded borders where ticks wait, with 5 sprays per season. See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>
@@ -174,6 +178,10 @@ export default function PickeringMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

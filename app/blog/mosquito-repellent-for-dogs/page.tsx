@@ -9,25 +9,26 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'mosquito-repellent-for-dogs'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
-const TITLE = 'Mosquito Repellent for Dogs Canada 2026 — Vet-Safe Picks + What Not to Use'
-const META_TITLE = 'Mosquito Repellent for Dogs Canada: Vet-Safe'
+const TITLE = 'Mosquito Repellent for Dogs Canada 2026 — Dog-Labelled Picks + What Not to Use'
+const META_TITLE = 'Mosquito Repellent for Dogs Canada: What to Use'
 
 const FAQS = [
   {
     question: 'What is the safest mosquito repellent for dogs in Canada?',
-    answer: 'For most dogs, a vet-recommended spot-on that also repels mosquitoes — such as K9 Advantix II or Vectra 3D — is the safest and most reliable option, because it is dosed by weight and lab-tested on dogs. For a gentler topical, cedarwood-and-lemongrass sprays like Wondercide or Vet\'s Best are labelled safe for dogs and can be reapplied before walks. Whatever you choose, NEVER put human DEET or human-strength picaridin on a dog, and never put any permethrin product on a home with cats. Repellents reduce bites but do NOT prevent heartworm — that still requires a year-round vet-prescribed heartworm preventive like Heartgard or NexGard.',
+    answer: 'For most dogs, a vet-recommended spot-on that also repels mosquitoes — such as K9 Advantix II or Vectra 3D — is the most reliable option, because it is dosed by weight and labelled for use on dogs. For a gentler topical, cedarwood-and-lemongrass sprays like Wondercide or Vet\'s Best are labelled for use on dogs and can be reapplied before walks. Whatever you choose, NEVER put human DEET or human-strength picaridin on a dog, and never put any permethrin product on a home with cats. Repellents reduce bites but do NOT prevent heartworm — that still requires a year-round vet-prescribed heartworm preventive like Heartgard or NexGard.',
   },
   {
     question: 'Can I use DEET bug spray on my dog?',
-    answer: 'No. DEET is not approved for use on dogs and can be toxic to them. Dogs lick their coats, and ingested DEET can cause vomiting, drooling, tremors, difficulty walking, and in larger doses seizures. There is no safe canine dose of human DEET spray — products like OFF! Deep Woods, Watkins, and Ben\'s are formulated for human skin only. If your dog needs mosquito protection, use a product specifically labelled for dogs, or ask your veterinarian for a spot-on that lists mosquito repellency on the label.',
+    answer: 'No. DEET is not labelled for use on dogs and can be toxic to them. Dogs lick their coats, and ingested DEET can cause vomiting, drooling, tremors, difficulty walking, and in larger doses seizures. No human DEET spray is labelled for dogs at any dose — products like OFF! Deep Woods, Watkins, and Ben\'s are formulated for human skin only. If your dog needs mosquito protection, use a product specifically labelled for dogs, or ask your veterinarian for a spot-on that lists mosquito repellency on the label.',
   },
   {
     question: 'Is permethrin safe for dogs?',
-    answer: 'Permethrin is safe and widely used ON DOGS at the correct dose — it is the active ingredient in several dog spot-ons (like K9 Advantix II) and repels and kills mosquitoes, fleas, and ticks. The critical warning is CATS: permethrin is highly toxic and frequently FATAL to cats, even from grooming a treated dog or brushing against them. If you have any cats in the household, do not use a permethrin dog product, or keep the treated dog fully separated until dry and follow your vet\'s guidance. Also never apply concentrated agricultural or clothing permethrin directly to a dog\'s skin — only use products dosed and labelled for dogs.',
+    answer: 'Permethrin is widely used ON DOGS at the dose printed on a dog-labelled product — it is the active ingredient in several dog spot-ons (like K9 Advantix II) and repels and kills mosquitoes, fleas, and ticks. The critical warning is CATS: permethrin is highly toxic and frequently FATAL to cats, even from grooming a treated dog or brushing against them. If you have any cats in the household, do not use a permethrin dog product, or keep the treated dog fully separated until dry and follow your vet\'s guidance. Also never apply concentrated agricultural or clothing permethrin directly to a dog\'s skin — only use products dosed and labelled for dogs.',
   },
   {
     question: 'Can mosquitoes give my dog heartworm?',
@@ -35,7 +36,7 @@ const FAQS = [
   },
   {
     question: 'Do natural mosquito repellents actually work on dogs?',
-    answer: 'Plant-based repellents built on cedarwood oil, lemongrass, geraniol, and similar essential oils (Wondercide, Vet\'s Best, Cedarcide) do provide real but shorter-lived protection — typically a couple of hours before you need to reapply. They are a reasonable choice for a dog that reacts to stronger products, or as a top-up before a walk. Avoid undiluted essential oils and never use tea tree (melaleuca), pennyroyal, or concentrated oils on pets, as several are toxic. Read the label: a product should specifically say it is formulated and safe for dogs, and ideally list the concentration.',
+    answer: 'Plant-based repellents built on cedarwood oil, lemongrass, geraniol, and similar essential oils (Wondercide, Vet\'s Best, Cedarcide) do provide real but shorter-lived protection — typically a couple of hours before you need to reapply. They are a reasonable choice for a dog that reacts to stronger products, or as a top-up before a walk. Avoid undiluted essential oils and never use tea tree (melaleuca), pennyroyal, or concentrated oils on pets, as several are toxic. Read the label: a product should specifically say it is formulated for dogs, and ideally list the concentration.',
   },
   {
     question: 'Where can I buy dog-safe mosquito repellent in Canada?',
@@ -43,13 +44,13 @@ const FAQS = [
   },
   {
     question: 'How else can I protect my dog from mosquitoes at home?',
-    answer: 'Layer your defences. Keep your dog on a vet-prescribed heartworm preventive (non-negotiable), apply a dog-labelled repellent before dawn/dusk outdoor time when mosquitoes are most active, dump standing water in the yard (dishes, toys, saucers, gutters) weekly since that is where mosquitoes breed, and reduce the mosquito population in the yard itself with a professional barrier treatment. BuzzSkito\'s licensed barrier spray targets the shaded resting spots where mosquitoes hide during the day, lowering how many ever reach your dog. It is applied to vegetation, not your pet, and is pet-safe once dry.',
+    answer: 'Layer your defences. Keep your dog on a vet-prescribed heartworm preventive (non-negotiable), apply a dog-labelled repellent before dawn/dusk outdoor time when mosquitoes are most active, dump standing water in the yard (dishes, toys, saucers, gutters) weekly since that is where mosquitoes breed, and reduce the mosquito population in the yard itself with a professional barrier treatment. BuzzSkito\'s licensed barrier spray targets the shaded resting spots where mosquitoes hide during the day, lowering how many ever reach your dog. It is applied to vegetation, not your pet, according to label directions — keep pets off treated areas until the spray has dried.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Vet-safe mosquito repellent for dogs in Canada: safest picks, why never DEET, permethrin is fine on dogs but fatal to cats, how mosquitoes spread heartworm, plus where to buy. Updated 2026.',
+  description: 'Mosquito repellent for dogs in Canada: dog-labelled picks, why never DEET, permethrin on dogs vs its danger to cats, how mosquitoes spread heartworm, plus where to buy. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -61,7 +62,7 @@ const AMZ_TAG = tagForSlug('mosquito-repellent-for-dogs-canada')
 export default function MosquitoRepellentForDogsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A vet-informed 2026 guide to safe mosquito repellent for dogs in Canada, what never to use, and heartworm protection.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A vet-informed 2026 guide to dog-labelled mosquito repellent in Canada, what never to use, and heartworm protection.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Repellent for Dogs Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -74,26 +75,26 @@ export default function MosquitoRepellentForDogsCanadaPage() {
             <span className="text-white">Mosquito Repellent for Dogs</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Which mosquito and bug repellents are actually safe for dogs in Canada, the ones that can poison your pet, why permethrin is fine on dogs but deadly to cats, and how mosquito bites give dogs heartworm.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Which mosquito and bug repellents are actually labelled for dogs in Canada, the ones that can poison your pet, why permethrin is used on dogs but deadly to cats, and how mosquito bites give dogs heartworm.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="K9 Advantix II (dog-safe mosquito + tick spot-on)" search="k9 advantix ii dogs" label="Best for dog-only homes" />
+      <StickyBuyBar tag={AMZ_TAG} name="K9 Advantix II (dog-labelled mosquito + tick spot-on)" search="k9 advantix ii dogs" label="Best for dog-only homes" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The safest mosquito repellents for dogs are dog-labelled products dosed by weight — a vet-recommended spot-on like K9 Advantix II or Vectra 3D, or a gentler cedarwood/lemongrass spray like Wondercide for cat households. Never put human DEET on a dog, and never use permethrin products around cats.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best mosquito repellents for dogs are dog-labelled products dosed by weight — a vet-recommended spot-on like K9 Advantix II or Vectra 3D, or a permethrin-free cedarwood/lemongrass spray like Wondercide for cat households (check its label for use around cats). Never put human DEET on a dog, and never use permethrin products around cats.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>K9 Advantix II costs $55–$95 for a 4-pack in Canada and repels mosquitoes, ticks, and fleas.</li>
               <li>Human DEET spray is toxic to dogs — ingestion from coat-licking can cause vomiting, tremors, and seizures.</li>
-              <li>Permethrin is safe on dogs at the correct label dose but frequently fatal to cats, even from contact with a treated dog.</li>
+              <li>Permethrin is labelled for use on dogs at the correct dose but frequently fatal to cats, even from contact with a treated dog.</li>
               <li>Natural cedarwood/lemongrass sprays (Wondercide $25–$40, Vet&rsquo;s Best $15–$25) need reapplying about every 2 hours.</li>
               <li>Repellents do not prevent heartworm — mosquitoes are the only way dogs get it, so every dog needs a vet-prescribed preventive ($60–$130 per season).</li>
-              <li>Professional yard barrier spray from $99 is applied to vegetation, not the pet, and is pet-safe once dry.</li>
+              <li>Professional yard barrier spray from $99 is applied to vegetation, not the pet; keep pets off treated areas until the spray has dried, as the label directs.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
@@ -103,7 +104,7 @@ export default function MosquitoRepellentForDogsCanadaPage() {
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
           <AwardRow tag={AMZ_TAG}
-            heading="Our Picks — Dog-Safe Mosquito Repellents in Canada"
+            heading="Our Picks — Dog-Labelled Mosquito Repellents in Canada"
             awards={[
               {
                 badge: 'Best for Dog-Only Homes',
@@ -127,10 +128,10 @@ export default function MosquitoRepellentForDogsCanadaPage() {
               {
                 badge: 'Best for Cat Households',
                 name: 'Wondercide (cedar / lemongrass spray)',
-                why: 'A plant-based topical that is safe to use around cats. The go-to when permethrin is off the table, or for a sensitive dog — reapply before dawn/dusk outings.',
+                why: 'A permethrin-free, plant-based topical — check its label for use in homes with cats. The go-to when permethrin is off the table, or for a sensitive dog — reapply before dawn/dusk outings.',
                 search: 'wondercide flea tick mosquito spray',
                 score: 8.3,
-                pros: ['Safe for cat homes', 'Gentle on sensitive dogs', 'Reapply before walks'],
+                pros: ['Permethrin-free', 'Milder option for sensitive dogs', 'Reapply before walks'],
                 cons: ['Shorter-lived — reapply about every 2 hours', 'Milder than a spot-on'],
               },
               {
@@ -139,13 +140,13 @@ export default function MosquitoRepellentForDogsCanadaPage() {
                 why: 'An affordable natural top-up for before-walk protection in cat households. Handy as a quick refresh rather than all-day coverage.',
                 search: 'vets best flea tick dog spray',
                 score: 7.6,
-                pros: ['Budget-friendly', 'Cat-home safe', 'Easy pre-walk top-up'],
+                pros: ['Budget-friendly', 'Permethrin-free', 'Easy pre-walk top-up'],
                 cons: ['Shorter-lived protection', 'Avoid eyes and nose'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>Dogs only, no cats?</strong> The <em>Best for Dog-Only Homes</em> permethrin spot-on gives the strongest mosquito and tick repellency. <strong>Any cat in the house?</strong> Skip permethrin entirely and use the <em>Best for Cat Households</em> cedar/lemongrass spray. Whatever you pick, repellents never replace a vet-prescribed heartworm preventive — and for far fewer mosquitoes reaching your dog at all, <Link href="/mosquito-control">professional yard barrier spray</Link> treats the whole property.
+                <strong>Dogs only, no cats?</strong> The <em>Best for Dog-Only Homes</em> permethrin spot-on gives the strongest mosquito and tick repellency. <strong>Any cat in the house?</strong> Skip permethrin entirely and use the <em>Best for Cat Households</em> cedar/lemongrass spray. Whatever you pick, repellents never replace a vet-prescribed heartworm preventive — and for fewer mosquitoes reaching your dog at all, <Link href="/mosquito-control">professional yard barrier spray</Link> treats the whole property.
               </>
             }
           />
@@ -155,7 +156,7 @@ export default function MosquitoRepellentForDogsCanadaPage() {
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated July 2026</p>
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Dog-Safe Mosquito Repellents: Where to Buy in Canada</h2>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Dog-Labelled Mosquito Repellents: Where to Buy in Canada</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Vet clinics and pet retailers (Ren&rsquo;s Pets, Pet Valu, PetSmart) carry the dog spot-ons; natural cedar and lemongrass sprays are stocked at pet stores and Amazon.ca. Prescription heartworm preventives come only from your veterinarian.
           </p>
@@ -184,19 +185,19 @@ export default function MosquitoRepellentForDogsCanadaPage() {
                     <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vectra 3d dog" block>Check price on Amazon.ca →</BuyLink></td>
                   </tr>
                   <tr className="border-b border-navy-50">
-                    <td className="px-4 py-3 font-bold text-brand-800">Wondercide <span className="font-normal text-xs text-emerald-700">(cat-home safe)</span></td>
+                    <td className="px-4 py-3 font-bold text-brand-800">Wondercide <span className="font-normal text-xs text-emerald-700">(permethrin-free)</span></td>
                     <td className="px-4 py-3 text-gray-700">Cedarwood / lemongrass spray · natural topical</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$25 – $40</td>
                     <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wondercide flea tick mosquito spray" block>Check price on Amazon.ca →</BuyLink></td>
                   </tr>
                   <tr className="border-b border-navy-50">
-                    <td className="px-4 py-3 font-bold text-brand-800">Vet&rsquo;s Best <span className="font-normal text-xs text-emerald-700">(cat-home safe)</span></td>
+                    <td className="px-4 py-3 font-bold text-brand-800">Vet&rsquo;s Best <span className="font-normal text-xs text-emerald-700">(permethrin-free)</span></td>
                     <td className="px-4 py-3 text-gray-700">Peppermint / clove spray · natural topical</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$15 – $25</td>
                     <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vets best flea tick dog spray" block>Check price on Amazon.ca →</BuyLink></td>
                   </tr>
                   <tr className="border-b border-navy-50">
-                    <td className="px-4 py-3 font-bold text-brand-800">Cedarcide <span className="font-normal text-xs text-emerald-700">(cat-home safe)</span></td>
+                    <td className="px-4 py-3 font-bold text-brand-800">Cedarcide <span className="font-normal text-xs text-emerald-700">(permethrin-free)</span></td>
                     <td className="px-4 py-3 text-gray-700">Cedar oil spray · natural topical + yard use</td>
                     <td className="px-4 py-3 font-mono text-gray-800">$30 – $50</td>
                     <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cedarcide dog spray" block>Check price on Amazon.ca →</BuyLink></td>
@@ -230,9 +231,9 @@ export default function MosquitoRepellentForDogsCanadaPage() {
               <tbody>
                 {[
                   ['Never use on dogs', 'Human DEET, human picaridin, tea tree oil, pennyroyal'],
-                  ['Safe on dogs (by weight)', 'Permethrin spot-ons (K9 Advantix II, Vectra 3D)'],
+                  ['Labelled for dogs (by weight)', 'Permethrin spot-ons (K9 Advantix II, Vectra 3D)'],
                   ['Permethrin + cats', 'HIGHLY TOXIC — often fatal to cats. Never in a cat home'],
-                  ['Gentle natural options', 'Cedarwood, lemongrass, geraniol sprays (reapply ~2h)'],
+                  ['Plant-based options', 'Cedarwood, lemongrass, geraniol sprays (reapply ~2h)'],
                   ['What repellents do NOT do', 'They do not prevent heartworm — a single bite can infect'],
                   ['Heartworm protection', 'Vet-prescribed preventive (Heartgard, NexGard, Interceptor)'],
                   ['Mosquito peak activity', 'Dawn and dusk — repel before those outings'],
@@ -254,7 +255,7 @@ export default function MosquitoRepellentForDogsCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the dog-safe options mentioned below:</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the dog-labelled options mentioned below:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="k9 advantix ii dogs">K9 Advantix II price →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="wondercide flea tick mosquito dog">Wondercide spray →</BuyLink>
@@ -265,17 +266,17 @@ export default function MosquitoRepellentForDogsCanadaPage() {
           <h2>What You Should NEVER Use on a Dog</h2>
           <p>The single most common mistake dog owners make is reaching for their own bug spray. Human insect repellents are formulated for human skin, not for an animal that licks its own coat.</p>
           <ul>
-            <li><strong>DEET — never.</strong> DEET (the active ingredient in OFF! Deep Woods, Ben&rsquo;s, Watkins, and most human sprays) is <strong>not approved for dogs and is toxic to them</strong>. Because dogs groom themselves, they ingest whatever is on their fur. Symptoms of DEET poisoning include drooling, vomiting, tremors, wobbliness, and — at higher doses — seizures. There is no &ldquo;safe small amount&rdquo; of human DEET spray for a dog.</li>
+            <li><strong>DEET — never.</strong> DEET (the active ingredient in OFF! Deep Woods, Ben&rsquo;s, Watkins, and most human sprays) is <strong>not approved for dogs and is toxic to them</strong>. Because dogs groom themselves, they ingest whatever is on their fur. Symptoms of DEET poisoning include drooling, vomiting, tremors, wobbliness, and — at higher doses — seizures. No amount of human DEET spray is labelled for use on a dog.</li>
             <li><strong>Human picaridin sprays — no.</strong> Like DEET, these are skin products for people, not dosed or tested for dogs.</li>
             <li><strong>Tea tree (melaleuca), pennyroyal, and concentrated essential oils — no.</strong> Several &ldquo;natural&rdquo; oils are actually toxic to pets. Only use plant-based products specifically diluted and labelled for dogs.</li>
             <li><strong>Any permethrin product if you own a cat — no (see below).</strong></li>
           </ul>
 
           <h2>The Permethrin Rule: Great on Dogs, Deadly to Cats</h2>
-          <p>Permethrin is one of the most effective mosquito and tick repellents available for dogs — it is the active ingredient in popular spot-ons like <strong>K9 Advantix II</strong> and <strong>Vectra 3D</strong>, and used at the correct dog dose it both repels and kills mosquitoes. On dogs, it is well tolerated and vet-recommended.</p>
+          <p>Permethrin is one of the most effective mosquito and tick repellents available for dogs — it is the active ingredient in popular spot-ons like <strong>K9 Advantix II</strong> and <strong>Vectra 3D</strong>, and used at the correct dog dose it both repels and kills mosquitoes. On dogs, used as the label directs, it is widely recommended by veterinarians.</p>
           <p>The life-or-death caveat is <strong>cats</strong>. Cats cannot metabolize permethrin the way dogs can, and exposure is <strong>frequently fatal</strong> — causing tremors, seizures, and death. Cats are poisoned not just by direct application but by <strong>contact</strong>: grooming a recently treated dog, sleeping against one, or brushing past a treated coat. If there is a cat anywhere in your household:</p>
           <ul>
-            <li>The safest choice is to <strong>skip permethrin dog products entirely</strong> and use a cedar/lemongrass spray plus your vet&rsquo;s heartworm preventive.</li>
+            <li>The cautious choice is to <strong>skip permethrin dog products entirely</strong> and use a cedar/lemongrass spray plus your vet&rsquo;s heartworm preventive.</li>
             <li>If your vet still recommends a permethrin spot-on, keep the treated dog <strong>fully separated from all cats until the product is completely dry</strong> (per the label), and never let cats groom the dog.</li>
           </ul>
           <p>And never — for any pet — apply concentrated agricultural or clothing-treatment permethrin directly to skin. Those are not dosed for animals. Only use products formulated and labelled for dogs at the weight band that matches your dog.</p>
@@ -290,10 +291,10 @@ export default function MosquitoRepellentForDogsCanadaPage() {
           <p>This is why mosquito season matters so much for dog owners in the GTA. More mosquitoes around your yard means more bites, and every bite carries heartworm risk. The two-part answer is simple:</p>
           <ol>
             <li><strong>Prevent from the inside:</strong> keep your dog on a vet-prescribed heartworm preventive (Heartgard, NexGard, Interceptor, Advantage Multi, etc.) for the whole mosquito season, as your vet directs.</li>
-            <li><strong>Reduce bites from the outside:</strong> a dog-safe repellent for outings, plus fewer mosquitoes in the yard to begin with.</li>
+            <li><strong>Reduce bites from the outside:</strong> a dog-labelled repellent for outings, plus fewer mosquitoes in the yard to begin with.</li>
           </ol>
 
-          <h2>Dog-Safe Repellent Options, Ranked by Situation</h2>
+          <h2>Dog-Labelled Repellent Options, Ranked by Situation</h2>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Best for</th><th className="px-3 py-2 text-left">Watch-outs</th><th className="px-3 py-2 text-left">Price check</th></tr>
@@ -311,13 +312,13 @@ export default function MosquitoRepellentForDogsCanadaPage() {
           <ul>
             <li><strong>You have dogs only (no cats):</strong> a permethrin spot-on gives the strongest, longest mosquito and tick repellency. Pair it with your vet&rsquo;s heartworm preventive.</li>
             <li><strong>You have cats in the home:</strong> avoid permethrin entirely. Use a cedar/lemongrass spray on the dog before outings, plus the heartworm preventive, plus yard-level control.</li>
-            <li><strong>Sensitive, senior, or puppy dogs:</strong> ask your vet first, and lean toward gentle natural sprays at label strength.</li>
+            <li><strong>Sensitive, senior, or puppy dogs:</strong> ask your vet first, and lean toward milder plant-based sprays used at label strength.</li>
             <li><strong>Heavy mosquito pressure around the yard:</strong> repellents help, but the biggest win is reducing the mosquito population itself — see below.</li>
           </ul>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Fewer mosquitoes in the yard = fewer bites on your dog</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray targets the shaded spots where mosquitoes hide during the day — applied to your vegetation, not your pet, and pet-safe once dry. From $99, backed by 150+ five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray targets the shaded spots where mosquitoes hide during the day — applied to your vegetation, not your pet, according to label directions (keep pets off until it has dried). From $99, backed by 150+ five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -330,7 +331,7 @@ export default function MosquitoRepellentForDogsCanadaPage() {
             <li><strong>Heartworm preventive (non-negotiable):</strong> a vet-prescribed monthly or seasonal preventive protects against the one thing repellents can&rsquo;t guarantee.</li>
             <li><strong>Dog-labelled repellent for outings:</strong> a permethrin spot-on (dogs-only homes) or a cedar/lemongrass spray (cat homes) before dawn/dusk walks and yard time.</li>
             <li><strong>Kill the breeding sites:</strong> mosquitoes breed in standing water. Empty water dishes, toys, plant saucers, tarps, and clogged gutters every few days.</li>
-            <li><strong>Reduce the yard population:</strong> a <Link href="/mosquito-control">professional barrier treatment</Link> lowers how many mosquitoes are ever near your dog, applied to plants (not the pet) and safe once dry.</li>
+            <li><strong>Reduce the yard population:</strong> a <Link href="/mosquito-control">professional barrier treatment</Link> lowers how many mosquitoes are ever near your dog, applied to plants (not the pet); keep pets off treated areas until the spray has dried.</li>
           </ol>
           <p>Do all four and you&rsquo;ve protected your dog from the inside, on the skin, at the water source, and across the whole yard — which is a far stronger position than any single spray on its own.</p>
 
@@ -356,7 +357,7 @@ export default function MosquitoRepellentForDogsCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Protect Your Dog · Fewer Mosquitoes in Your Yard" subtext="Get a free quote for licensed barrier spray. From $99. Pet-safe once dry. 150+ five-star reviews across the GTA." variant="dark" />
+      <CTASection heading="Protect Your Dog · Fewer Mosquitoes in Your Yard" subtext={`Get a free quote for licensed barrier spray. From $99. ${PROMISES.labelLine}. 150+ five-star reviews across the GTA.`} variant="dark" />
     </>
   )
 }

@@ -2,10 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
+import StickyBuyBar from '@/components/StickyBuyBar'
 
 const SLUG = 'tick-bites-that-wont-heal-when-to-worry'
+const AMZ_TAG = tagForSlug('tick-bites-that-wont-heal-when-to-worry')
 const DATE = '2026-04-29'
 const TITLE = 'Tick Bites That Won\'t Heal: When to Worry (Ontario)'
 const META_TITLE = 'Tick Bite Not Healing: When to Worry (Ontario)'
@@ -69,6 +74,27 @@ export default function TickBitesThatWontHealWhenToWorryPage() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <AuthorByline datePublished={DATE} />
 
+        {/* Service arm first: the quote CTA and phone number sit above every affiliate element on this page. */}
+        <aside aria-label="Tick control in the GTA" className="not-prose my-6 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-5 sm:p-6 shadow-sm">
+          <p className="text-lg font-extrabold text-brand-900 mb-2 leading-snug">In the GTA? Treat the yard, not just the bite.</p>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">Ticks wait in the leaf litter along the lawn-to-woods edge and under shrubs &mdash; which is where a tick barrier treatment goes down. A BuzzSkito tick season is 5 applications, May to September.</p>
+          <div className="flex flex-wrap items-center gap-4">
+            <Link href="/tick-control" className="btn-primary-sm">Get a Tick Control Quote &rarr;</Link>
+            <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
+          </div>
+        </aside>
+
+        <AffiliateDisclosure />
+
+        <div className="not-prose my-6 rounded-2xl border border-navy-100 bg-white p-5 shadow-sm">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">What to do right now</p>
+          <ol className="space-y-3 text-[15px] text-gray-800 list-decimal pl-5">
+            <li><strong>If the tick is still attached, get it off now &mdash; this step costs nothing.</strong> Grip it at the skin line, as close to the head as you can reach, and pull straight up. No twisting, no petroleum jelly, no match. Then photograph the bite, note the date, and keep the tick.</li>
+            <li><strong>A fine-tipped tick tool, so the next one comes out whole.</strong> Blunt tweezers are too wide to take hold of the head, so they grip the body and tear the mouthparts off in the skin &mdash; the fragment behind the granuloma at number 4 below. A pointed tool reaches in at the skin line. <BuyLink tag={AMZ_TAG} search="fine tip tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink></li>
+            <li><strong>A small screw-top vial and a permanent marker.</strong> etick.ca needs an intact tick to identify the species and assess the risk, and a crushed one is far harder to work with. Drop it in the vial, write the date and the bite location on the lid, and you are holding the one piece of evidence a doctor cannot reconstruct from memory three weeks later. <BuyLink tag={AMZ_TAG} search="small screw top specimen vials">Check price on Amazon.ca &rarr;</BuyLink></li>
+          </ol>
+        </div>
+
         <h3>1. Bull's-Eye Rash (Erythema Migrans)</h3>
         <p>A red rash with concentric rings — looking like a bull&apos;s-eye or target — is the classic early Lyme disease sign. It typically appears 3–30 days after a tick bite, expands over days, and may be warm but usually not painful or itchy. Roughly 70–80% of Lyme cases show this rash; about 20–30% don&apos;t, so absence of rash doesn&apos;t mean absence of Lyme. See a doctor immediately if you see this pattern.</p>
 
@@ -99,9 +125,16 @@ export default function TickBitesThatWontHealWhenToWorryPage() {
         <h3>10. When in Doubt — Use Ontario's Tick Testing Program</h3>
         <p>Public Health Ontario operates etick.ca — a free tick identification and disease-testing service. Submit a photo of the tick (and the actual tick if you have it) for free identification and assessment of disease risk. Faster and more accurate than guessing. If the tick is identified as a blacklegged tick that has fed (engorged), see a doctor immediately about preventive antibiotics.</p>
 
+        <h2>Getting the Next One Out Cleanly</h2>
+        <p>Two of the problems on this page &mdash; the persistent granuloma at number 4, and the hot, hard bite site at number 3 &mdash; trace back to the same moment, and it is not the bite. It is the removal. Blunt household tweezers are too wide at the tip to grip a tick at the head, so they take hold of the body instead, squeeze it, and tear the mouthparts off in the skin. That retained fragment is what the immune system then walls off into a nodule, or what a secondary infection gets going around.</p>
+        <p>A fine-tipped tick tool or pointed tweezers gets in at the skin line and lifts the whole tick straight out, which also leaves you with an intact specimen &mdash; the thing etick.ca needs to identify the species and assess risk. A crushed tick is much harder to identify and no use for testing. It is worth having one in the house before the evening you need it.</p>
+        <AffiliateDisclosure />
+        <p className="not-prose"><BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Bottom Line</h2>
-        <p>In Ontario in 2026, every persistent tick bite warrants attention. Lyme disease is treatable — and treatment is dramatically more effective when started in the first few weeks. The cost of a false alarm (one doctor visit) is much lower than the cost of late-stage Lyme (months of antibiotics, possible permanent symptoms, lost income). When in doubt, document and see a doctor. And prevent next time with professional tick barrier spray on yard transition zones — Lyme disease prevention starts at the property line.</p>
+        <p>In Ontario in 2026, every persistent tick bite warrants attention. Lyme disease is treatable — and treatment is dramatically more effective when started in the first few weeks. The cost of a false alarm (one doctor visit) is much lower than the cost of late-stage Lyme (months of antibiotics, possible permanent symptoms, lost income). When in doubt, document and see a doctor. And prevent next time with professional tick barrier spray on yard transition zones — the lawn-to-woods edge where ticks wait is where the barrier goes down.</p>
+
+        <p className="not-prose text-gray-700">Before the next walk in long grass, two of the three useful steps cost nothing: tuck trousers into socks so a questing tick has to climb the outside of the fabric, and do a full body check within a couple of hours of coming back inside &mdash; the check is what stops a bite from becoming one of the ten problems listed above. The third is repellent on exposed skin. Icaridin (the Canadian name for picaridin) and DEET are the two actives Canadian public-health guidance points to for personal protection against ticks and mosquitoes; check for the PCP registration number on the bottle and follow the age directions printed on the label. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Related Guides</h2>
         <ul>
@@ -127,7 +160,8 @@ export default function TickBitesThatWontHealWhenToWorryPage() {
 
       </article>
 
-      <CTASection heading="Specialist Mosquito & Tick Control for Ontario" subtext="From $99 per treatment. BuzzSkito Bite-Free Guarantee. 150+ five-star reviews." />
+      <CTASection heading="Specialist Mosquito & Tick Control for Ontario" subtext={`From $99 per treatment. BuzzSkito ${PROMISES.biteFreeScope}. 150+ five-star reviews.`} />
+      <StickyBuyBar tag={AMZ_TAG} name="Tick-removal tool kit" search="tick removal tool tweezers" label="For removal" />
     </>
   )
 }

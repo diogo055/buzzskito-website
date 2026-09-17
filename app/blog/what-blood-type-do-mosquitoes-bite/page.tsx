@@ -5,6 +5,7 @@ import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'what-blood-type-do-mosquitoes-bite'
 const AMZ_TAG = tagForSlug(SLUG)
@@ -39,7 +40,7 @@ const FAQS = [
   },
   {
     question: 'Can I change my blood type to avoid mosquito bites?',
-    answer: 'No. Your ABO blood type is fixed for life and cannot be changed, and even if you could change it, the effect on bites would be minor. The practical levers are the things you can actually control: cover exposed skin, use a Health Canada-registered repellent with DEET or icaridin, avoid dawn and dusk peaks, reduce standing water where mosquitoes breed, and treat your yard. These reduce bites far more than any blood-type factor ever could.',
+    answer: 'No. Your ABO blood type is fixed for life and cannot be changed, and even if you could change it, the effect on bites would be minor. The practical levers are the things you can actually control: cover exposed skin, use a repellent with DEET or icaridin that carries a PCP registration number, avoid dawn and dusk peaks, reduce standing water where mosquitoes breed, and treat your yard. These reduce bites far more than any blood-type factor ever could.',
   },
   {
     question: 'Do mosquitoes bite some people more than others?',
@@ -51,7 +52,7 @@ const FAQS = [
   },
   {
     question: 'What smells or factors repel mosquitoes regardless of blood type?',
-    answer: 'No blood type repels mosquitoes, but several scents and steps do reduce bites for everyone. Health Canada-registered repellents with DEET or icaridin are the most reliable. Some plant compounds like lemon eucalyptus oil (PMD) offer shorter protection. Mosquitoes also tend to avoid certain strong scents, and reducing skin bacteria buildup, wearing light-coloured loose clothing, and eliminating standing water all help far more than worrying about your ABO type.',
+    answer: 'No blood type repels mosquitoes, but several scents and steps do reduce bites for everyone. Repellents with DEET or icaridin that carry a PCP registration number on the label are the most reliable. Some plant compounds like lemon eucalyptus oil (PMD) offer shorter protection. Mosquitoes also tend to avoid certain strong scents, and reducing skin bacteria buildup, wearing light-coloured loose clothing, and eliminating standing water all help far more than worrying about your ABO type.',
   },
   {
     question: 'Does O+ attract mosquitoes?',
@@ -271,7 +272,7 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2">&ldquo;Type A blood repels mosquitoes.&rdquo;</td><td className="px-3 py-2">No blood type repels mosquitoes. Type A was simply landed on slightly less in a couple of studies.</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">&ldquo;Mosquitoes can sense my blood type.&rdquo;</td><td className="px-3 py-2">They cannot detect ABO antigens before biting. They read your breath, heat, and skin chemistry.</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">&ldquo;Blood type is why I get bitten so much.&rdquo;</td><td className="px-3 py-2">Almost certainly not. CO2 output, body heat, and skin bacteria explain the vast majority of it.</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2">&ldquo;Nothing I do will change how much I get bitten.&rdquo;</td><td className="px-3 py-2">False. Repellents, clothing, timing, and yard treatment all cut bites dramatically.</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">&ldquo;Nothing I do will change how much I get bitten.&rdquo;</td><td className="px-3 py-2">False. Repellents, clothing, timing, and yard treatment all change how often you get bitten.</td></tr>
             </tbody>
           </table>
 
@@ -317,11 +318,11 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
           <p>Let&rsquo;s be blunt: <strong>no blood type repels mosquitoes.</strong> You cannot change your ABO type &mdash; it is set at birth for life &mdash; and even if you could, the payoff would be tiny. Anyone selling a &ldquo;blood-type mosquito hack&rdquo; is selling a myth.</p>
           <p>What genuinely reduces bites for every blood type is straightforward:</p>
           <ul>
-            <li><strong>Use a Health Canada-registered repellent</strong> with DEET or icaridin on exposed skin. See our <Link href="/blog/mosquito-repellent-guide-ontario-2026">Ontario mosquito repellent guide</Link> for what works and for how long.</li>
+            <li><strong>Use a repellent with a PCP registration number</strong> containing DEET or icaridin on exposed skin. See our <Link href="/blog/mosquito-repellent-guide-ontario-2026">Ontario mosquito repellent guide</Link> for what works and for how long.</li>
             <li><strong>Cover up</strong> with light-coloured, loose, long sleeves and pants at dawn and dusk when mosquitoes peak.</li>
             <li><strong>Cut the scents that draw them in</strong> and lean on the ones they avoid &mdash; our roundup of <Link href="/blog/smells-mosquitoes-hate">smells mosquitoes hate</Link> covers the evidence.</li>
             <li><strong>Kill breeding sites</strong> &mdash; dump standing water in gutters, planters, and toys every few days so eggs never hatch.</li>
-            <li><strong>Treat your yard.</strong> A professional barrier spray (from $99 per treatment across the GTA) coats the shaded leaf undersides and shrubs where mosquitoes rest, dropping the population you are exposed to in the first place.</li>
+            <li><strong>Treat your yard.</strong> A professional barrier spray (from $99 per treatment across the GTA) coats the shaded leaf undersides and shrubs where mosquitoes rest, so treatment reaches them where they spend the day.</li>
           </ul>
 
           <h2>Repellent labels in the United States and Canada: picaridin, icaridin, EPA and Health Canada</h2>
@@ -350,7 +351,7 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
           <p>Three pieces of CDC application guidance that get left out of most articles on this topic:</p>
           <ul>
             <li><strong>Sunscreen first, repellent second.</strong> Let the sunscreen absorb, then apply repellent over it &mdash; not the other way round, and not a combined product if you can avoid it, since the two need reapplying on different schedules.</li>
-            <li><strong>Pregnancy is not a reason to skip repellent.</strong> The CDC states that EPA-registered insect repellents are safe and effective when used as directed, <strong>including for pregnant and breastfeeding women</strong>. Since higher CO<sub>2</sub> output makes pregnancy a genuine attraction factor (see the table above), this is the practical answer to it.</li>
+            <li><strong>Pregnancy is not a reason to skip repellent.</strong> The CDC recommends EPA-registered insect repellents, used as the label directs, <strong>including for pregnant and breastfeeding women</strong>. Since higher CO<sub>2</sub> output makes pregnancy a genuine attraction factor (see the table above), this is the practical answer to it.</li>
             <li><strong>Follow the label on children.</strong> DEET, picaridin and IR3535 are appropriate from two months of age; OLE and PMD should not be used on children under three.</li>
           </ul>
 
@@ -381,9 +382,13 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
           <p><strong>First: nobody has ever tested the mosquito that bites most North Americans.</strong> Every blood-type experiment in the literature used <em>Aedes</em> or <em>Anopheles</em>. The dominant biter across most of the United States and all of southern Ontario is <em>Culex</em> &mdash; the genus that actually carries West Nile &mdash; and it has never been put through a blood-type preference experiment at all. Any confident sentence about &ldquo;mosquitoes and blood type&rdquo; is really a sentence about two genera out of thousands of species.</p>
           <p><strong>Second: timing advice has to be regional.</strong> Dawn and dusk is the right window for <em>Culex</em>, which is why it is the standard line in Ontario and across the northern United States, and it stands. But <em>Aedes aegypti</em> and <em>Aedes albopictus</em> bite hard in broad daylight. If you are in Florida, Texas, Arizona or southern California, treat midday and mid-afternoon as bite time too and wear repellent through the day, not just at the edges of it.</p>
 
+          <p>Daytime biting changes what you actually reach for, and this is where a skin repellent stops being the whole answer. Nobody reapplies a spray every few hours across a full working Saturday in the yard, which is why the people dealing with <em>Aedes</em> pressure tend to end up with a zone device on the table instead: a heat-activated repeller warms a treated mat to hold a defined area around where you are sitting, with nothing going on your skin. It needs calm air and the mats are a consumable, so it is a patio-and-picnic-table tool rather than a yard-wide one. <BuyLink tag={AMZ_TAG} search="patio mosquito repeller device">Check patio zone repellers on Amazon &rarr;</BuyLink></p>
+
           <h2>Which country has 0 mosquitos?</h2>
           <p><strong>Iceland</strong> is the answer usually given: it has no established mosquito population, because repeated freeze-thaw cycles kill larvae before they can mature. A handful of individual mosquitoes turning up there recently made international news precisely because it was so unusual. <strong>Antarctica</strong> is the only continent with none at all.</p>
           <p>Everywhere else, the honest answer is that there is no escape by geography. Mosquitoes are established on every other continent, in every US state and in every Canadian province. Which is the whole reason this page ends where it does: you cannot outrun them and you cannot change your blood type, so the levers that remain are repellent, clothing, timing, standing water and the yard itself.</p>
+
+          <p>Of the levers on that list, clothing is the one that costs nothing to use again tomorrow. Mosquitoes bite through thin, tight fabric &mdash; leggings and a jersey T-shirt are not the barrier people assume &mdash; so the cover-up that actually works is loose and light-coloured, and at the far end of it is a mesh bug jacket or a head net for the hour at dusk when the yard is at its worst. It is the cheapest thing in this article that works identically for every blood type, every skin chemistry and every CO<sub>2</sub> output. <BuyLink tag={AMZ_TAG} search="mosquito net bug jacket">Check bug jackets &amp; head nets on Amazon &rarr;</BuyLink></p>
 
           <h2>Why this matters in the United States</h2>
           <p>The Ontario picture below has a US counterpart, and the details differ enough to state separately. <strong>West Nile virus is the most common mosquito-borne disease in the continental United States</strong>, and the CDC tracks it &mdash; along with other arboviruses &mdash; through the national ArboNET surveillance system. Most people who are infected never develop symptoms; a small proportion develop serious neurological illness. As in Canada, the way you lower your risk is by lowering your number of bites.</p>
@@ -422,6 +427,8 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
           <h2>The bottom line</h2>
           <p>Could your Type O blood make you a slightly bigger target? Maybe, at the margins &mdash; but the science is weak and the effect, if it exists, is dwarfed by things you can actually influence. You cannot change your blood type. You <em>can</em> change how much CO2, heat, and skin-bacteria scent you broadcast, whether you wear repellent, and whether the yard around you is crawling with mosquitoes in the first place. Focus your energy there, and blood type becomes a footnote.</p>
 
+          <p>The last item in that sentence &mdash; whether the yard around you is producing mosquitoes in the first place &mdash; has a DIY half worth doing whatever else you decide. Every mosquito biting you started in standing water within a few hundred metres, and the containers people forget are consistent: the saucer under a planter, a wheelbarrow left out, a clogged gutter, the fold in a pool cover, a rain barrel. Tip what you can tip weekly; for the water that has to stay, a Bti dunk kills the larvae in it before they hatch into anything that can find you. Check the package for the Canadian PCP registration number and follow the label rate. <BuyLink tag={AMZ_TAG} search="bti mosquito dunks">Check Bti mosquito dunks on Amazon &rarr;</BuyLink></p>
+
           <h2>Related reading</h2>
           <ul>
             <li><Link href="/blog/what-attracts-mosquitoes-to-you">What Attracts Mosquitoes to You?</Link></li>
@@ -446,7 +453,7 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
         </div>
       </article>
 
-      <CTASection heading="Bitten no matter your blood type? Let&rsquo;s fix the yard." subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 30-day residual." variant="dark" />
+      <CTASection heading="Bitten no matter your blood type? Let&rsquo;s fix the yard." subtext={`Get a free quote for licensed barrier spray. From $99. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

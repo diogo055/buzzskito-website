@@ -9,6 +9,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import StickyBuyBar from '@/components/StickyBuyBar'
 
 const SLUG = 'mosquito-larvae-identification'
 const DATE = '2026-04-28'
@@ -34,7 +35,7 @@ const FAQS = [
   },
   {
     question: 'How do you get rid of mosquito larvae?',
-    answer: 'Three options ranked by effectiveness: (1) Drain or empty the water — most effective, kills 100% of larvae instantly. (2) BTI Mosquito Dunks or Bits (Bacillus thuringiensis israelensis) — bacterial larvicide, kills larvae in 24–48 hours, completely safe for fish/pets/humans. Available at Canadian Tire, Home Depot, Rona for $10–$20. (3) Cooking oil or dish soap on the water surface — disrupts the larvae\'s breathing siphon, kills within hours. Use only as last resort and only in non-environmental water (e.g., disposable containers).',
+    answer: 'Three options ranked by effectiveness: (1) Drain or empty the water — most effective, kills 100% of larvae instantly. (2) BTI Mosquito Dunks or Bits (Bacillus thuringiensis israelensis) — bacterial larvicide, kills larvae in 24–48 hours; the U.S. EPA states BTI toxins affect only mosquito, black fly, and fungus gnat larvae. Available at Canadian Tire, Home Depot, Rona for $10–$20. (3) Cooking oil or dish soap on the water surface — disrupts the larvae\'s breathing siphon, kills within hours. Use only as last resort and only in non-environmental water (e.g., disposable containers).',
   },
   {
     question: 'Are mosquito larvae harmful to humans or pets?',
@@ -50,7 +51,7 @@ const FAQS = [
   },
   {
     question: 'What kills mosquito larvae instantly?',
-    answer: 'Draining the water kills 100% of mosquito larvae instantly — they cannot survive out of water for more than a few minutes. For water you can\'t drain, nothing safe works truly "instantly": BTI (Mosquito Dunks/Bits) kills larvae within 24–48 hours and is the safest option for ponds, rain barrels, and ditches. A thin film of dish soap or cooking oil suffocates larvae within hours but should only be used in disposable container water, never ponds. Avoid bleach or gasoline — they contaminate water, harm wildlife, and are illegal to dump in many municipalities.',
+    answer: 'Draining the water kills 100% of mosquito larvae instantly — they cannot survive out of water for more than a few minutes. For water you can\'t drain, no product works truly "instantly": BTI (Mosquito Dunks/Bits) kills larvae within 24–48 hours and is the most targeted option for ponds, rain barrels, and ditches. A thin film of dish soap or cooking oil suffocates larvae within hours but should only be used in disposable container water, never ponds. Avoid bleach or gasoline — they contaminate water, harm wildlife, and are illegal to dump in many municipalities.',
   },
   {
     question: 'Why are there mosquito larvae in my pool?',
@@ -62,7 +63,7 @@ const FAQS = [
   },
   {
     question: 'How do I get rid of mosquito larvae in a rain barrel?',
-    answer: 'Do not dump a rain barrel you want to keep using — treat it instead. Drop one BTI Mosquito Dunk (or a scoop of Mosquito Bits) into the barrel; the Bacillus thuringiensis israelensis kills all mosquito larvae within 24–48 hours and is completely safe for garden plants, pets, and beneficial insects, so the water stays fine to use on your vegetables and flowers. One dunk keeps a barrel larvae-free for about 30 days. Then fit a fine mesh screen over the barrel opening so egg-laying females cannot get back in — screening plus a monthly dunk keeps a rain barrel mosquito-free all season.',
+    answer: 'Do not dump a rain barrel you want to keep using — treat it instead. Drop one BTI Mosquito Dunk (or a scoop of Mosquito Bits) into the barrel; the Bacillus thuringiensis israelensis kills mosquito larvae within 24–48 hours, and the U.S. EPA states its toxins affect only mosquito, black fly, and fungus gnat larvae, so treated barrel water can still go on your vegetables and flowers. One dunk treats a barrel for about 30 days. Then fit a fine mesh screen over the barrel opening so egg-laying females cannot get back in — screening plus a monthly dunk is the most reliable way to stop a rain barrel breeding mosquitoes all season.',
   },
   {
     question: 'How can I tell mosquito larvae apart from other larvae?',
@@ -213,7 +214,7 @@ const HOWTO_SCHEMA = {
     {
       '@type': 'HowToStep',
       name: 'Treat the water you want to keep with BTI',
-      text: 'Drop a BTI dunk or a scoop of BTI bits into a rain barrel, ornamental pond, or drainage ditch. BTI kills larvae within 24 to 48 hours and is harmless to fish, frogs, pets, birds, bees, and people. One dunk covers about 100 square feet of surface for roughly 30 days.',
+      text: 'Drop a BTI dunk or a scoop of BTI bits into a rain barrel, ornamental pond, or drainage ditch. BTI kills larvae within 24 to 48 hours, and the U.S. EPA states its toxins affect only mosquito, black fly, and fungus gnat larvae. One dunk covers about 100 square feet of surface for roughly 30 days.',
     },
     {
       '@type': 'HowToStep',
@@ -273,12 +274,44 @@ export default function MosquitoLarvaePage() {
         </div>
       </section>
 
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <aside aria-label="Professional mosquito control" className="not-prose my-6 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
+            <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Wrigglers in the barrel usually mean breeding sites you have not found yet</h2>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Larvae you can see are the easy part. If you are being bitten in your own yard across a GTA summer, there is almost always water you have not spotted &mdash; a blocked eavestrough, a tarp fold, a low corner that holds a puddle for a week. BuzzSkito walks the property, finds them, and treats the yard from $99. Serving 19 GTA cities, with 150+ five-star Google reviews.</p>
+            <div className="flex flex-wrap items-center gap-4">
+              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
+              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
+            </div>
+          </aside>
+
+          <AffiliateDisclosure />
+          <div className="not-prose my-6 rounded-xl border border-amber-200 bg-amber-50/60 p-5">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700 mb-3">What to do right now</p>
+            <ol className="space-y-4">
+              <li>
+                <p className="text-sm text-gray-800 leading-relaxed"><strong>1. Walk the yard and tip out every container holding water.</strong> Free, takes ten minutes, and does more than anything else on this page: draining kills every larva in that water instantly. Saucers under pots, the kids&rsquo; wading pool, a wheelbarrow, an upturned bin lid, a clogged eavestrough, the fold in a tarp, the tray under the air conditioner. Then put the ones that refill upside down.</p>
+              </li>
+              <li>
+                <p className="text-sm text-gray-800 leading-relaxed mb-2"><strong>2. Treat the water you cannot tip out.</strong> A rain barrel, an ornamental pond, or a drainage ditch is not going anywhere, and that is what a BTI dunk is for &mdash; it goes in the water and works on the larvae rather than on you. Read the label for the water types it is cleared for.</p>
+                <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check price on Amazon.ca &rarr;</BuyLink>
+              </li>
+              <li>
+                <p className="text-sm text-gray-800 leading-relaxed mb-2"><strong>3. Screen the water you are keeping, or you will do this again in three weeks.</strong> An open-topped rain barrel is re-seeded by egg-laying females within days of being cleared. Fine mesh over the inlet and the downspout, held with a bungee or a hose clamp, lets the water in and keeps the females &mdash; and the leaf litter the larvae feed on &mdash; out.</p>
+                <BuyLink tag={AMZ_TAG} search="rain barrel mesh screen">Check price on Amazon.ca &rarr;</BuyLink>
+              </li>
+            </ol>
+            <p className="mt-4 text-xs text-gray-500">Re-walk the yard every seven days through the season &mdash; that is the generation time, not an arbitrary interval.</p>
+          </div>
+        </div>
+      </section>
+
       {/* How to kill — the dominant search intent behind "mosquito larvae" */}
       <section className="bg-white border-b border-gray-100 py-10 px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">How do you kill mosquito larvae in standing water?</h2>
           <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
-            <strong>The fastest way to kill mosquito larvae is to drain the water — this kills 100% of larvae instantly and costs nothing.</strong> If the water cannot be drained (a rain barrel, ornamental pond, or drainage ditch), drop in a BTI larvicide such as Mosquito Dunks or Mosquito Bits. BTI is a naturally occurring soil bacterium that kills mosquito larvae within 24 hours and is harmless to fish, frogs, pets, birds, bees, and people. One dunk treats about 100 square feet of water surface for 30 days, and a pack is one of the cheaper things in the garden aisle at Canadian Tire, Home Depot, or Rona.
+            <strong>The fastest way to kill mosquito larvae is to drain the water — this kills 100% of larvae instantly and costs nothing.</strong> If the water cannot be drained (a rain barrel, ornamental pond, or drainage ditch), drop in a BTI larvicide such as Mosquito Dunks or Mosquito Bits. BTI is a naturally occurring soil bacterium that kills mosquito larvae within 24 hours, and the U.S. EPA states its toxins affect only mosquito, black fly, and fungus gnat larvae. One dunk treats about 100 square feet of water surface for 30 days, and a pack is one of the cheaper things in the garden aisle at Canadian Tire, Home Depot, or Rona.
           </p>
           <AffiliateDisclosure />
           <div className="mb-6 flex flex-wrap items-center gap-3">
@@ -289,11 +322,11 @@ export default function MosquitoLarvaePage() {
           <TopPick tag={AMZ_TAG}
             label="Best for Water You Can't Drain"
             name="Summit BTI Mosquito Dunks"
-            blurb="For a rain barrel, ornamental pond, or drainage ditch you can't empty, a BTI dunk is the standout larvae killer. The Bacillus thuringiensis israelensis targets only mosquito (and blackfly/fungus-gnat) larvae, wiping them out within 24–48 hours while staying harmless to fish, frogs, pets, birds, bees, and people. One dunk keeps roughly 100 sq ft of water surface larvae-free for about 30 days."
+            blurb="For a rain barrel, ornamental pond, or drainage ditch you can't empty, a BTI dunk is the standout larvae killer. The Bacillus thuringiensis israelensis targets only mosquito (and blackfly/fungus-gnat) larvae, wiping them out within 24–48 hours rather than acting on fish, frogs, pets, birds, bees, or people. One dunk treats roughly 100 sq ft of water surface for about 30 days."
             search="summit mosquito dunks"
             asin="B005UTKT0W"
             score={9.0}
-            pros={['Kills larvae in 24–48 hours', 'Safe for fish, pets, and people', 'One dunk lasts ~30 days']}
+            pros={['Kills larvae in 24–48 hours', 'Targets mosquito, black fly and fungus gnat larvae only', 'One dunk lasts ~30 days']}
             cons={['Slower than simply draining the water', 'Not needed for water you can just dump']}
           />
           <div className="rounded-xl border border-gray-200 overflow-x-auto">
@@ -303,17 +336,17 @@ export default function MosquitoLarvaePage() {
                   <th className="px-3 py-2 text-left">Method</th>
                   <th className="px-3 py-2 text-left">Time to kill</th>
                   <th className="px-3 py-2 text-left">Cost</th>
-                  <th className="px-3 py-2 text-left">Safe for fish &amp; pets?</th>
+                  <th className="px-3 py-2 text-left">Fish &amp; pets</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  ['Drain / dump the water', 'Instant', 'Free', 'Yes'],
-                  ['BTI (Mosquito Dunks)', '24–48 hours', '$10–$20 / 30 days', 'Yes — completely'],
-                  ['BTI granules (Mosquito Bits)', '24 hours', '$12–$18', 'Yes — completely'],
-                  ['Add fish (goldfish, koi)', 'Ongoing', '$5–$30', 'Yes'],
-                  ['Dish soap / cooking oil film', 'Hours', 'Free', 'No — last resort only'],
-                  ['Bleach or chlorine', 'Hours', 'Low', 'No — never in ponds'],
+                  ['Drain / dump the water', 'Instant', 'Free', 'No product used'],
+                  ['BTI (Mosquito Dunks)', '24–48 hours', '$10–$20 / 30 days', 'Not a BTI target (U.S. EPA)'],
+                  ['BTI granules (Mosquito Bits)', '24 hours', '$12–$18', 'Not a BTI target (U.S. EPA)'],
+                  ['Add fish (goldfish, koi)', 'Ongoing', '$5–$30', 'The fish are the method'],
+                  ['Dish soap / cooking oil film', 'Hours', 'Free', 'Harms aquatic life — last resort only'],
+                  ['Bleach or chlorine', 'Hours', 'Low', 'Harms aquatic life — never in ponds'],
                 ].map(([m, t, c, s]) => (
                   <tr key={m} className="border-t border-gray-100">
                     <td className="px-3 py-2 font-semibold text-brand-800">{m}</td>
@@ -484,7 +517,7 @@ export default function MosquitoLarvaePage() {
           </p>
           <ul className="text-base text-gray-800 leading-relaxed mb-4 space-y-2 list-disc pl-5">
             <li><strong>Drinking water:</strong> no. Any container open long enough to breed mosquitoes is open to everything else too.</li>
-            <li><strong>Garden and vegetable watering:</strong> fine, including from a rain barrel treated with BTI &mdash; the bacterium targets mosquito, blackfly and fungus-gnat larvae and is not a plant or human toxicant.</li>
+            <li><strong>Garden and vegetable watering:</strong> fine, including from a rain barrel treated with BTI &mdash; the bacterium targets mosquito, blackfly and fungus-gnat larvae rather than plants or people (per the U.S. EPA).</li>
             <li><strong>Birdbaths:</strong> the birds are fine, but refresh every two to three days &mdash; larvae need five or more undisturbed days, so a twice-weekly dump breaks the cycle without any product at all.</li>
             <li><strong>Livestock troughs:</strong> refresh weekly, or use a larvicide whose label explicitly covers animal drinking water. Read the label; not every product is cleared for it.</li>
             <li><strong>Swimming pools:</strong> if there are larvae, the chlorine has lapsed &mdash; shock and filter before anyone swims.</li>
@@ -523,7 +556,7 @@ export default function MosquitoLarvaePage() {
               <tbody>
                 {[
                   ['Plant saucers, toys, buckets, tarps, old tires', 'Tip out onto dry ground, scrub, store upside down', 'Instant, free, and removes the eggs stuck above the waterline'],
-                  ['Rain barrel you actually use', 'One BTI dunk, plus a fine mesh screen over the opening', 'Water stays safe on vegetables; the screen keeps females out'],
+                  ['Rain barrel you actually use', 'One BTI dunk, plus a fine mesh screen over the opening', 'Treated water can still go on vegetables; the screen keeps females out'],
                   ['Ornamental pond', 'Add fish, or BTI if unstocked', 'Goldfish, koi and minnows crop larvae continuously'],
                   ['Birdbath', 'Refresh every 2–3 days', 'Larvae need 5+ undisturbed days — no product required'],
                   ['Green or lapsed swimming pool', 'Shock, run the filter, skim', 'Chlorinated, circulating water cannot support larvae'],
@@ -710,10 +743,11 @@ export default function MosquitoLarvaePage() {
           <h2>How to Get Rid of Mosquito Larvae (Ranked by Effectiveness)</h2>
           <ol>
             <li><strong>Drain the water (best).</strong> Empty the container, fix the drainage, or eliminate the water source. 100% effective, free, instant.</li>
-            <li><strong>BTI Mosquito Dunks or Bits.</strong> Drop in any water you can&rsquo;t drain (rain barrel, ornamental pond, drainage ditch). BTI is a soil bacterium that kills only mosquito larvae — completely safe for fish, frogs, pets, humans, beneficial insects. Sold at Canadian Tire and Home Depot — one of the cheapest fixes on the shelf. Lasts 30 days per dunk. <Link href="/blog/mosquito-dunks-canada-guide">Full Mosquito Dunks Canada guide</Link>, or compare the two formats in <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link> — Bits act faster, Dunks last longer.</li>
+            <li><strong>BTI Mosquito Dunks or Bits.</strong> Drop in any water you can&rsquo;t drain (rain barrel, ornamental pond, drainage ditch). BTI is a soil bacterium, and the U.S. EPA states its toxins affect only mosquito, black fly, and fungus gnat larvae. Sold at Canadian Tire and Home Depot — one of the cheapest fixes on the shelf. Lasts 30 days per dunk. <Link href="/blog/mosquito-dunks-canada-guide">Full Mosquito Dunks Canada guide</Link>, or compare the two formats in <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link> — Bits act faster, Dunks last longer.</li>
             <li><strong>Add fish to ornamental ponds.</strong> Goldfish, koi, and mosquitofish eat larvae aggressively. A stocked pond rarely needs treatment.</li>
             <li><strong>Cooking oil or dish soap (last resort).</strong> A small amount on the water surface disrupts the larvae&rsquo;s breathing siphon. Effective in disposable containers; don&rsquo;t use in environmental water (kills other organisms).</li>
           </ol>
+          <p>There is a quiet fifth step that decides whether you do the first four again in three weeks: <strong>screen the water you keep</strong>. An open-topped rain barrel is re-seeded by egg-laying females within days of being cleared, which is why the barrel you treated in May is full of wrigglers again by June. Fine mesh stretched over the inlet and downspout, held with a bungee or a hose clamp, keeps the females out while the water still goes in &mdash; and it keeps leaf litter out too, which is what feeds the larvae in the first place. <BuyLink tag={AMZ_TAG} search="rain barrel mesh screen">check rain-barrel mesh screens on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Larvicides Available in the United States (All Five CDC Classes)</h2>
           <p>BTI is the option we reach for in Ontario and the one most Canadian garden centres stock, but it is not the only registered larvicide. <strong>In the United States</strong>, the U.S. Centers for Disease Control and Prevention describes <strong>five classes</strong> of mosquito larvicide, and knowing the difference matters because they do not all do the same job &mdash; only one class kills pupae:</p>
@@ -749,10 +783,12 @@ export default function MosquitoLarvaePage() {
           </div>
           <p><strong>The label is the law in both countries.</strong> In the U.S., a larvicide must be registered with the U.S. Environmental Protection Agency and used according to its label instructions &mdash; the EPA registration number on the front of the pack is the thing to look for, and Summit Mosquito Dunks and Bits carry one. <strong>In Canada</strong>, the equivalent is a Health Canada PCP number issued by the Pest Management Regulatory Agency. Same product, different number on the box.</p>
           <p><strong>Where to buy.</strong> In Canada the dunks and bits sit in the garden aisle at Canadian Tire, Home Depot, and Rona for $10&ndash;$20. In the United States the same Summit products are stocked at Home Depot, Lowe&rsquo;s, Walmart, Ace Hardware, and Tractor Supply, and the surface films and IGR briquets above are usually a special-order or online item rather than an end-cap product.</p>
+          <p>The growth-regulator row is the one worth knowing about if your problem water is a catch basin, a cistern, or a pond you top up all season rather than a barrel you can tip over. A methoprene or pyriproxyfen briquet is a sustained-release ring that sits in the water for weeks and stops the larvae under it from ever emerging as adults, which is a different job from a dunk that has to be eaten and a different job again from a film that suffocates what is already at the surface. Read the label for the water types it is cleared for and the replacement interval before you drop one in. <BuyLink tag={AMZ_TAG} search="mosquito larvicide growth regulator briquets">check IGR larvicide briquets on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Does BTI Kill Mosquito Pupae? (No &mdash; and Here Is What Does)</h2>
           <p><strong>BTI does not kill pupae.</strong> It has to be swallowed to work, and pupae &mdash; the comma-shaped &ldquo;tumblers&rdquo; &mdash; do not feed at all. They are a sealed transitional stage lasting one to four days before the adult flies off. The CDC is explicit on this point: <strong>mineral oils and monomolecular surface films are the only larvicide class that also kills pupae</strong>, because they work physically, by blocking the breathing trumpets at the surface, rather than by being eaten.</p>
           <p>So if you look into a rain barrel and see tumblers rolling downward rather than wrigglers darting in an S-shape, the reliable moves are: <strong>dump the water</strong> if you can, or <strong>apply a surface film</strong> if you cannot. A BTI dunk added at that moment is still worth adding &mdash; it will kill the larvae behind the pupae and the next batch of eggs to hatch &mdash; but it will not stop the adults that are already pupating from emerging over the next day or two. This is the one place where &ldquo;treat it with BTI&rdquo; is not sufficient on its own.</p>
+          <p>The awkward part is supply. Dunks and bits sit on the end cap of every garden aisle; the surface films and mineral-oil larvicides that actually handle pupae are usually an order-it item rather than a drive-to-the-store one, on both sides of the border. If you have a pond or a cistern that regularly gets to the tumbler stage before you notice, it is worth having one on the shelf before you need it &mdash; and worth reading the label first, since the water types a film is cleared for are narrower than a dunk&rsquo;s. <BuyLink tag={AMZ_TAG} search="mosquito larvicide surface film">check surface-film larvicides on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>What Eats Mosquito Larvae?</h2>
           <p>Quite a lot does, which is why a healthy pond rarely needs treating and a plastic bucket always does &mdash; the bucket has no predators in it.</p>
@@ -766,6 +802,7 @@ export default function MosquitoLarvaePage() {
             <li><strong>Not birds or bats, at this stage</strong> &mdash; swallows, purple martins, and bats eat flying adults, not aquatic larvae. A bat house does nothing for the barrel.</li>
           </ul>
           <p><strong>One U.S.-specific caution:</strong> before stocking mosquitofish anywhere in the United States, check with your state cooperative extension service or your local mosquito abatement district. <em>Gambusia</em> are distributed free by some districts and treated as a regulated invasive species in others, and the rules are set at state level.</p>
+          <p>If stocking fish is not an option &mdash; a small water feature, a stock tank, a birdbath &mdash; the cheapest substitute for predators is <strong>movement</strong>. Females lay on still water; a surface that is constantly rippling and turning over is a far less attractive place to lay, and larvae that do hatch struggle to hold position at a broken surface film. A small floating solar fountain or a bubbler on an air line does this for a pond or a birdbath without wiring anything, and it keeps the water from going stagnant between refills. <BuyLink tag={AMZ_TAG} search="solar pond fountain pump aerator">check solar fountain and pond aerators on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>The Four Larval Instars &mdash; and How Big Mosquito Larvae Really Get</h2>
           <p>Larvae moult four times, and each stage between moults is called an <strong>instar</strong>. What you scoop out of a barrel is usually a mix of all four:</p>
@@ -777,6 +814,7 @@ export default function MosquitoLarvaePage() {
           </ol>
           <p><strong>On size, in both unit systems.</strong> The 5&ndash;8 mm figure used throughout this guide describes a typical full-grown <em>Culex</em> larva of the sort found in an Ontario rain barrel &mdash; roughly a quarter of an inch. Larger species run bigger: the American Mosquito Control Association puts a fourth-instar larva at up to about <strong>half an inch</strong>, and the Missouri Department of Conservation field guide gives a range of about <strong>1/4 inch to over 1/2 inch</strong> (roughly 6 to 13 mm) across the species found in one U.S. state. So if the wriggler in your bucket looks bigger than a grain of rice, it is still very likely a mosquito larva &mdash; just a larger species or a well-fed fourth instar.</p>
           <p>The instar detail has a practical edge: label guidance for larvicides generally notes they work best on younger larvae, and fourth-instar larvae stop feeding before pupating. Treat when you first see wrigglers, not after you have watched them for a week.</p>
+          <p>Catching a first or second instar is the whole game, and at 1&ndash;3 mm that is genuinely hard to do with the naked eye leaning over a dark barrel. The trick the field people use costs almost nothing: scoop a cupful into a <em>white</em> container so the larvae show as dark specks against the bottom, then look at one through a hand lens. At 5&ndash;10x the breathing siphon is obvious, which is the single feature that separates a mosquito larva from a midge or a mayfly. A lighted pocket loupe lives in the shed and settles the question in ten seconds. <BuyLink tag={AMZ_TAG} search="handheld lighted magnifier loupe">check lighted hand magnifiers on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Free Help in the United States: Mosquito Abatement Districts</h2>
           <p>This is the single most useful thing a U.S. reader can take from this page, and it has no Canadian equivalent. <strong>Mosquito abatement districts</strong> (also called mosquito control districts) are funded local public agencies &mdash; there are hundreds across the United States &mdash; whose job is to survey and treat mosquito breeding water in their jurisdiction. The CDC describes districts as leading large-scale mosquito control in the U.S.</p>
@@ -828,6 +866,7 @@ export default function MosquitoLarvaePage() {
       </article>
 
       <CTASection heading="Drain the Water + Spray the Yard = Mosquito Free" subtext="BuzzSkito barrier spray controls adult mosquitoes flying in from off-property. From $99." variant="dark" />
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (BTI)" search="summit mosquito dunks" label="For standing water" />
     </>
   )
 }

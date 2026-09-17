@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { TICK_BLOGS } from '@/lib/constants'
+import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 const POST = {
   title: 'Tick Treatment Cost Ontario [2026 Pricing]',
@@ -16,7 +16,7 @@ const META_TITLE = 'Tick Treatment Cost Ontario 2026: Real Prices'
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
   description:
-    'How much does professional tick treatment cost in Ontario? Single visit from $99 · 5-spray tick season $597 standalone or $497 bundled with mosquito plan. What changes the price (lot size, ravine proximity), what to avoid, and how BuzzSkito compares to LawnSavers ($129+).',
+    'How much does professional tick treatment cost in Ontario? Single visit from $99 · 5-spray tick season $597 standalone or $497 bundled with mosquito plan. What changes the price (lot size, ravine proximity), what to avoid, and how BuzzSkito compares to other GTA companies.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -26,12 +26,12 @@ const FAQS = [
   {
     question: 'How much does a single tick treatment cost in Ontario?',
     answer:
-      'A single professional tick barrier spray treatment in Ontario typically costs between $99 and $250 for a standard residential lot (up to 10,000 sq ft). The price varies by lot size, amount of treatable perimeter, and whether the property borders wooded or naturalized areas that require more intensive treatment. Most reputable companies include a re-treat guarantee within the coverage window at no additional charge.',
+      `A single professional tick barrier spray treatment in Ontario typically costs between $99 and $250 for a standard residential lot (under 10,000 sq ft). The price varies by lot size, amount of treatable perimeter, and whether the property borders wooded or naturalized areas that require more intensive treatment. Ask each company for its re-treatment terms in writing. At BuzzSkito: ${PROMISES.rainBack}`,
   },
   {
     question: 'Is a seasonal tick treatment package worth the cost?',
     answer:
-      'Yes — for most GTA homeowners a full seasonal package is better value than booking visits one at a time. The BuzzSkito tick season is five treatments spaced roughly a month apart from May through September: $597 standalone, or $497 when added to any mosquito plan (a $100 saving on the same five sprays). Five visits matter because each application leaves about a month of residual activity, so a monthly cadence is what removes the gaps. A two-visit schedule leaves a multi-month hole straight through the May-July blacklegged nymph peak — the period that drives most Lyme transmission, because nymphs are poppy-seed sized and easily missed. Adults re-emerge and stay active through the autumn, into November in mild years, and deer, mice and birds keep reintroducing ticks from adjacent woodland, so the barrier has to be renewed rather than applied once or twice. Single one-off treatments start at $99 if you only need spot coverage.',
+      'Yes — for most GTA homeowners a full seasonal package is better value than booking visits one at a time. The BuzzSkito tick season is five treatments spaced roughly a month apart from May through September: $597 standalone, or $497 when added to any mosquito plan (a $100 saving on the same five sprays). Five visits matter because a residual wears down with time, rain and sun, so a roughly monthly cadence renews the barrier before long gaps open. A two-visit schedule leaves a multi-month hole straight through the May-July blacklegged nymph peak — the period that drives most Lyme transmission, because nymphs are poppy-seed sized and easily missed. Adults re-emerge and stay active through the autumn, into November in mild years, and deer, mice and birds keep reintroducing ticks from adjacent woodland, so the barrier has to be renewed rather than applied once or twice. Single one-off treatments start at $99 if you only need spot coverage.',
   },
   {
     question: 'Does lot size affect the price of tick treatment?',
@@ -41,7 +41,7 @@ const FAQS = [
   {
     question: 'What is the cost difference between tick spray and granular treatment?',
     answer:
-      'Liquid barrier spray (applied by a licensed technician) typically costs $99-$250 per treatment and provides 4-6 weeks of residual protection. Granular tick treatments (which you can purchase and apply yourself) cost $30-$80 per application but provide shorter residual protection (2-3 weeks), require precise application to be effective, and do not come with a professional property assessment. Professional spray is generally more effective and more convenient, but granular treatment can supplement professional service between visits.',
+      'Liquid barrier spray (applied by a licensed technician) typically costs $99-$250 per treatment and is renewed on a schedule across the season. Granular tick treatments (which you can purchase and apply yourself) cost $30-$80 per application, require precise application and reapplication as the label directs, and do not come with a professional property assessment. Professional spray is more convenient and is placed by a licensed applicator, but granular treatment can supplement professional service between visits.',
   },
   {
     question: 'Does BuzzSkito offer free tick treatment quotes?',
@@ -76,12 +76,12 @@ export default function TickTreatmentCostPage() {
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Professional tick treatment in Ontario starts at $99 for a single visit on a standard lot and typically runs $99&ndash;$200 per treatment. Seasonal packages cost less per visit &mdash; BuzzSkito&rsquo;s tick season is $597 standalone or $497 when bundled with any mosquito plan.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-            <li>A single tick barrier spray on a standard residential lot (up to 10,000 sq ft) typically costs $99&ndash;$200 in Ontario.</li>
+            <li>A single tick barrier spray on a standard residential lot (under 10,000 sq ft) typically costs $99&ndash;$200 in Ontario.</li>
             <li>Larger lots (10,000&ndash;20,000 sq ft) run about $150&ndash;$250, and estate or rural properties $200&ndash;$350+.</li>
-            <li>A full tick season is five treatments spaced roughly a month apart, May through September &mdash; each spray&rsquo;s residual runs about that long, so a monthly cadence is what keeps the barrier from lapsing.</li>
+            <li>A full tick season is five treatments spaced roughly a month apart, May through September &mdash; a residual wears down with time, rain and sun, so a monthly cadence renews the barrier before long gaps open.</li>
             <li>BuzzSkito&rsquo;s tick season is $597 standalone or $497 bundled with any mosquito plan, with single treatments from $99.</li>
-            <li>Professional barrier spray gives 4&ndash;6 weeks of residual activity, placed on the shaded edges and leaf litter where ticks quest rather than across the whole lawn.</li>
-            <li>DIY granular treatments cost $30&ndash;$80 but last only 2&ndash;3 weeks and require precise application.</li>
+            <li>Professional barrier spray is placed on the shaded edges and leaf litter where ticks quest rather than across the whole lawn, and applied according to label directions.</li>
+            <li>DIY granular treatments cost $30&ndash;$80 but require precise application and reapplication as the label directs.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
@@ -96,14 +96,14 @@ export default function TickTreatmentCostPage() {
 
         <h3>Single Treatment Pricing</h3>
         <ul>
-          <li><strong>Standard residential lot (up to 10,000 sq ft):</strong> $99 – $200</li>
+          <li><strong>Standard residential lot (under 10,000 sq ft):</strong> $99 – $200</li>
           <li><strong>Large residential lot (10,000 – 20,000 sq ft):</strong> $150 – $250</li>
           <li><strong>Estate or rural property (20,000+ sq ft):</strong> $200 – $350+</li>
           <li><strong>Properties with extensive wood borders:</strong> Add 10 – 25% to base pricing</li>
         </ul>
 
         <h3>Seasonal Package Pricing</h3>
-        <p>A seasonal package prices the whole tick season up front instead of visit by visit. Because a single application holds about a month of residual activity, covering May through September means returning roughly every four weeks &mdash; five treatments across the season. That cadence is the point of the package: it keeps the barrier live through the May-to-July blacklegged nymph peak, when the ticks most responsible for Lyme transmission are poppy-seed sized and easy to miss, and the September application carries its residual into the autumn, when adults re-emerge and stay active into November in mild years. Deer, mice and birds keep walking fresh ticks in from neighbouring woodland all season, so the barrier has to be renewed rather than applied once or twice.</p>
+        <p>A seasonal package prices the whole tick season up front instead of visit by visit. Because a residual wears down with time, rain and sun, covering May through September means returning roughly every four weeks &mdash; five treatments across the season. That cadence is the point of the package: it keeps the barrier live through the May-to-July blacklegged nymph peak, when the ticks most responsible for Lyme transmission are poppy-seed sized and easy to miss, and the September application is timed for the autumn, when adults re-emerge and stay active into November in mild years. Deer, mice and birds keep walking fresh ticks in from neighbouring woodland all season, so the barrier has to be renewed rather than applied once or twice.</p>
         <ul>
           <li><strong>Full tick season, standard lot (5 treatments, May – September):</strong> $597 with BuzzSkito — about $119 a visit, scheduled for you so no month gets skipped</li>
           <li><strong>Tick season added to any mosquito plan:</strong> $497 — the same five sprays, $100 less than booking tick control on its own</li>
@@ -122,6 +122,7 @@ export default function TickTreatmentCostPage() {
 
         <h3>3. Property Location</h3>
         <p>GTA companies may charge slightly different rates based on service area travel distance. Properties in Hamilton, Caledon, or outer York Region may have a small travel surcharge compared to properties in Mississauga or central Toronto, depending on the company&apos;s base of operations.</p>
+        <p>York Region is worth pricing separately for habitat reasons as well as distance, since the Oak Ridges Moraine runs straight through it and puts a lot of lots up against woodland edge. Our page on <Link href="/blog/tick-control-richmond-hill-markham" className="text-brand-700 underline">tick control in Richmond Hill and Markham</Link> covers what those properties typically need.</p>
 
         <h3>4. Number of Treatments</h3>
         <p>One-off visits are priced per visit; a season is priced as a season. Season-long tick protection is five treatments roughly a month apart from May through September, which is what it takes to cover the gaps between residual windows. With BuzzSkito that season is $597 on its own, or $497 &mdash; $100 less for the same five sprays &mdash; when it is added to any mosquito plan.</p>
@@ -133,10 +134,10 @@ export default function TickTreatmentCostPage() {
         <p>A professional tick barrier spray treatment should include:</p>
         <ul>
           <li><strong>Property assessment:</strong> The technician inspects your property to identify tick habitat zones, high-risk areas, and wildlife corridors</li>
-          <li><strong>Targeted application:</strong> Health Canada-approved formula applied to all tick-prone zones — garden borders, fence lines, wood edges, shaded areas, stone walls, deck perimeters, and the lawn-to-woods transition</li>
-          <li><strong>Re-entry notification:</strong> Clear communication about the 30-minute drying window before children and pets can return to treated areas</li>
+          <li><strong>Targeted application:</strong> A registered product (look for the PCP number on the label), applied according to label directions to all tick-prone zones — garden borders, fence lines, wood edges, shaded areas, stone walls, deck perimeters, and the lawn-to-woods transition</li>
+          <li><strong>Re-entry notification:</strong> Clear instructions to keep people and pets off treated areas until the spray has dried, as the product label directs</li>
           <li><strong>Service documentation:</strong> Record of product used, application date, and coverage areas</li>
-          <li><strong>Re-treat guarantee:</strong> Most reputable companies offer a re-treat within the coverage window if the client reports inadequate results</li>
+          <li><strong>Written re-treatment terms:</strong> Ask exactly what triggers a free re-treatment and get it in writing. BuzzSkito&rsquo;s rain-back guarantee is on every plan</li>
         </ul>
 
         <h2>DIY vs. Professional Tick Treatment: Cost Comparison</h2>
@@ -144,7 +145,7 @@ export default function TickTreatmentCostPage() {
 
         <h3>DIY Options</h3>
         <ul>
-          <li><strong>Granular tick treatment (e.g., permethrin-based):</strong> $30 – $80 per application from garden centres. Requires precise application with a spreader, offers 2-3 weeks of residual protection, and may not reach all tick habitat zones</li>
+          <li><strong>Granular tick treatment (e.g., permethrin-based):</strong> $30 – $80 per application from garden centres. Requires precise application with a spreader and reapplication as the label directs, and may not reach all tick habitat zones</li>
           <li><strong>Diatomaceous earth:</strong> $15 – $30 per bag. Limited effectiveness outdoors — washes away with rain and loses efficacy when wet</li>
           <li><strong>Cedar mulch barriers:</strong> $50 – $150 for materials. Provides some deterrent effect but does not eliminate established tick populations</li>
         </ul>
@@ -152,22 +153,22 @@ export default function TickTreatmentCostPage() {
         <h3>Professional Barrier Spray</h3>
         <ul>
           <li><strong>Cost:</strong> $99 – $250 per treatment</li>
-          <li><strong>Residual protection:</strong> 4 – 6 weeks</li>
-          <li><strong>What you get:</strong> A Health Canada-registered residual acaricide on the tick-questing zones — not a guarantee of a tick-free yard</li>
+          <li><strong>Schedule:</strong> Renewed roughly monthly across the season</li>
+          <li><strong>What you get:</strong> A registered residual acaricide (PCP number on the label) on the tick-questing zones — not a guarantee of a tick-free yard</li>
           <li><strong>Application precision:</strong> Licensed technician targets all habitat zones based on professional assessment</li>
-          <li><strong>Guarantee:</strong> Re-treat if results are inadequate</li>
+          <li><strong>Guarantee:</strong> Ask for the terms in writing (BuzzSkito: rain-back guarantee on every plan)</li>
         </ul>
 
-        <p>For most homeowners, the professional option delivers significantly better results for a modest cost premium over DIY — and you do not need to purchase equipment, handle chemicals, or assess tick habitat yourself.</p>
+        <p>For most homeowners, the professional option is the more practical one for a modest cost premium over DIY — you do not need to purchase equipment, handle pesticides, or assess tick habitat yourself.</p>
         <p>See: <Link href="/blog/best-tick-control-yard-treatment" className="text-brand-700 hover:underline">Best Tick Control for Your Yard: Comparison Guide</Link></p>
 
         <h2>Is Tick Treatment Worth the Cost?</h2>
         <p>The value calculation for professional tick treatment comes down to risk and peace of mind:</p>
         <ul>
           <li><strong>Lyme disease treatment costs:</strong> A course of antibiotics for early Lyme disease costs $50-$100 (OHIP-covered doctor visit + prescription). However, late-stage Lyme disease can involve thousands of dollars in medical costs, lost work time, and significant quality-of-life impact</li>
-          <li><strong>Peace of mind:</strong> Knowing your yard is treated and your children and pets can play safely has significant quality-of-life value that is difficult to quantify</li>
+          <li><strong>Peace of mind:</strong> Knowing the tick-prone edges of your yard are treated on a schedule, alongside your own tick checks, has quality-of-life value that is difficult to quantify</li>
           <li><strong>Property enjoyment:</strong> Fear of ticks keeps many GTA families from using their own backyards. A full covered season — $497 alongside a mosquito plan, $597 on its own — to reclaim your outdoor space from May to September is, for most homeowners, a straightforward decision</li>
-          <li><strong>Pet protection supplement:</strong> Professional yard treatment complements veterinary tick prevention medication — together, they provide the most comprehensive protection available</li>
+          <li><strong>Pet tick prevention:</strong> Professional yard treatment works alongside the tick prevention your veterinarian recommends; it does not replace it</li>
         </ul>
 
         <h2>BuzzSkito Tick Treatment Pricing</h2>
@@ -179,13 +180,15 @@ export default function TickTreatmentCostPage() {
           <li>Free, no-obligation quotes by phone at (289) 216-5030 or online</li>
         </ul>
         <p>See: <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Full pricing details</Link> | <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Get a free quote</Link></p>
+        <p>Where your property sits matters as much as how big it is — conservation-adjacent and rural lots are the ones that usually need the full five-treatment season rather than a single spring visit. For what that looks like locally, see our guides to <Link href="/blog/tick-control-vaughan-king-city-woodbridge" className="text-brand-700 hover:underline">tick control in Vaughan, King City and Woodbridge</Link> and <Link href="/blog/tick-prevention-caledon-halton-hills" className="text-brand-700 hover:underline">tick prevention in Caledon and Halton Hills</Link>.</p>
+        <p>The same applies on the Escarpment: lots backing onto Dundas Valley or the Ancaster woodlots sit in the higher-pressure band, which is why <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">tick control in Ancaster, Dundas and Hamilton</Link> is usually quoted as a full season rather than a one-off visit.</p>
 
         <h2>How to Compare Tick Control Companies in Ontario</h2>
         <p>When evaluating quotes from different companies, compare the following:</p>
         <ul>
-          <li><strong>Health Canada-approved products:</strong> Ensure the company uses registered products only</li>
+          <li><strong>Registered products:</strong> Ask for the product name and its PCP registration number</li>
           <li><strong>Licensed technicians:</strong> Ontario requires a provincial pesticide licence for commercial application</li>
-          <li><strong>Re-treat guarantee:</strong> Reputable companies stand behind their work</li>
+          <li><strong>Written guarantee terms:</strong> Ask exactly what the guarantee covers, and on which plans</li>
           <li><strong>Clear pricing:</strong> Avoid companies that quote &quot;from&quot; pricing without specifying what your property will actually cost</li>
           <li><strong>Insurance:</strong> Confirm the company carries liability insurance</li>
           <li><strong>Reviews:</strong> Check Google reviews and ask for references from GTA clients</li>

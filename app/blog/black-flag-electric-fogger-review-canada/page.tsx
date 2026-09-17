@@ -35,7 +35,7 @@ const FAQS = [
   },
   {
     question: 'How long does the fog keep mosquitoes away?',
-    answer: 'Realistically, a few hours — long enough to clear a yard before a barbecue, a wedding in the backyard, or an evening on the patio. Thermal fogging gives a strong same-evening knockdown, but the fine oil droplets do not leave the kind of durable residue that a professional barrier spray does. Expect to re-fog before each event, or every couple of days during peak mosquito season, rather than once a month. If you want 21–30 days of protection from a single application, that is what a licensed barrier spray delivers and a consumer fogger does not.',
+    answer: 'Realistically, a few hours — long enough to clear a yard before a barbecue, a wedding in the backyard, or an evening on the patio. Thermal fogging gives a strong same-evening knockdown, but the fine oil droplets do not leave the kind of durable residue that a professional barrier spray does. Expect to re-fog before each event, or every couple of days during peak mosquito season, rather than once a month. If you want a residual that sits on the leaves where mosquitoes rest and is renewed on a set schedule (every 2 weeks on a Standard plan, monthly on Basic), that is what a licensed barrier spray program is built for and a consumer fogger is not.',
   },
   {
     question: 'How large an area does the Black Flag fogger cover?',
@@ -55,11 +55,11 @@ const FAQS = [
   },
   {
     question: 'Does fogging actually kill mosquitoes, or is it just for show?',
-    answer: 'It genuinely knocks them down — thermal fog delivers insecticide onto the surfaces where adult mosquitoes rest and kills the ones it contacts, which is why it clears a yard so noticeably before an event. What it does not do is prevent re-invasion: mosquitoes from a neighbour’s yard, a nearby ditch, or standing water will drift back in within hours to days, because fog leaves little lasting residue. So fogging is real, but it is a short-term knockdown, not a barrier. The most effective home strategy pairs same-evening fogging for events with source reduction (dumping standing water) and, for durable coverage, a professional barrier treatment.',
+    answer: 'It genuinely knocks them down — thermal fog delivers insecticide onto the surfaces where adult mosquitoes rest and kills the ones it contacts, which is why it clears a yard so noticeably before an event. What it does not do is prevent re-invasion: mosquitoes from a neighbour’s yard, a nearby ditch, or standing water will drift back in within hours to days, because fog leaves little lasting residue. So fogging is real, but it is a short-term knockdown, not a barrier. A sensible home strategy pairs same-evening fogging for events with source reduction (dumping standing water) and, for durable coverage, a professional barrier treatment.',
   },
   {
     question: 'Black Flag fogger vs professional barrier spray — what is the difference?',
-    answer: 'Speed and coverage versus duration and completeness. A consumer fogger gives you an on-demand knockdown you control yourself, event by event, for a low up-front cost. A professional barrier spray coats your vegetation with a residual that keeps killing mosquitoes that land on it for 21–30 days, covers the whole property in one visit, is applied by a licensed technician using PMRA-registered products, and — unlike any fogger — also controls ticks. Many homeowners use both: a seasonal barrier program for baseline protection, and a fogger for that extra knockdown right before a big backyard gathering.',
+    answer: 'Speed and coverage versus duration and completeness. A consumer fogger gives you an on-demand knockdown you control yourself, event by event, for a low up-front cost. A professional barrier spray leaves a residual on the leaves where mosquitoes rest, renewed on the plan’s schedule (every 2 weeks on Standard, monthly on Basic), covers the whole property in one visit, is applied by a licensed technician according to label directions, and — unlike any fogger — also controls ticks. Many homeowners use both: a seasonal barrier program for baseline protection, and a fogger for that extra knockdown right before a big backyard gathering.',
   },
   {
     question: 'What is the correct fogging technique for the best results?',
@@ -94,7 +94,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
             <span className="text-white">Black Flag Electric Fogger Review</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The best-selling backyard mosquito fogger, reviewed honestly for Canada &mdash; how the thermal fog works, what insecticide you can <em>legally</em> use here, how far it really covers, and when a barrier spray beats fogging outright.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best-selling backyard mosquito fogger, reviewed honestly for Canada &mdash; how the thermal fog works, what insecticide you can <em>legally</em> use here, how far it really covers, and how a barrier spray differs from fogging.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -113,7 +113,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
               <li>The fog gives a strong same-evening knockdown but little lasting residue &mdash; re-fog before each event.</li>
               <li>In Canada, the insecticide you put in it must carry a Health Canada PCP (PMRA) registration number &mdash; do not import grey-market US concentrate.</li>
               <li>For acreage, a gas thermal fogger or battery backpack sprayer reaches farther.</li>
-              <li>For 21&ndash;30 days of whole-yard protection &mdash; and tick control &mdash; a licensed barrier spray works differently: it leaves a residual on the foliage mosquitoes rest on, which a fog does not.</li>
+              <li>For whole-yard coverage &mdash; and tick control &mdash; a licensed barrier spray works differently: it leaves a residual on the foliage mosquitoes rest on, renewed on the plan&rsquo;s schedule, which a fog does not.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
           </div>
@@ -189,7 +189,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ A fog is a knockdown, not a barrier.</strong> Fogging clears the yard for an evening, but mosquitoes drift back within hours to days. For same-day <em>and</em> lasting whole-yard coverage that also kills ticks, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> works in hours and lasts 21&ndash;30 days.
+              <strong className="text-amber-900">⚠️ A fog is a knockdown, not a barrier.</strong> Fogging clears the yard for an evening, but mosquitoes drift back within hours to days. For whole-yard coverage that also targets ticks where they wait, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> leaves a residual on the leaves where mosquitoes rest and is renewed on the plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic).
             </p>
           </div>
         </div>
@@ -221,7 +221,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Want the fog without the DIY?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A fogger gives you an evening; BuzzSkito&rsquo;s licensed barrier spray covers your whole yard for 21&ndash;30 days &mdash; and kills ticks too. From $99, backed by 150 five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A fogger gives you an evening; BuzzSkito&rsquo;s licensed barrier spray treats your whole yard on a seasonal schedule &mdash; and targets ticks too. From $99, with a rain-back guarantee on every plan, backed by 150 five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -255,7 +255,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
           <p>And follow the safety basics without exception: keep people and pets (and their toys, food, and water bowls) out of the yard while you fog and until the label&rsquo;s re-entry time has passed; never use an outdoor thermal fogger indoors; and keep the oil-based concentrate well away from open flame.</p>
 
           <h2>Fogger vs Barrier Spray for a GTA Yard</h2>
-          <p>The honest framing is that a fogger and a barrier spray are not really competitors &mdash; they do different jobs, and the smartest homeowners use both. A fogger is an on-demand knockdown you control yourself: cheap up front, instant, and perfect for that evening. A <Link href="/mosquito-control">professional barrier spray</Link> is durable coverage: a licensed technician coats your vegetation with a PMRA-registered residual that keeps killing mosquitoes for 21&ndash;30 days, treats the whole property in one visit, and controls ticks &mdash; something no fogger does.</p>
+          <p>The honest framing is that a fogger and a barrier spray are not really competitors &mdash; they do different jobs, and the smartest homeowners use both. A fogger is an on-demand knockdown you control yourself: cheap up front, instant, and perfect for that evening. A <Link href="/mosquito-control">professional barrier spray</Link> is durable coverage: a licensed technician applies a residual, according to label directions, to the leaves where mosquitoes rest, renews it on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic), treats the whole property in one visit, and controls ticks &mdash; something no fogger does.</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Approach</th><th className="px-3 py-2 text-left">Duration</th><th className="px-3 py-2 text-left">Coverage</th><th className="px-3 py-2 text-left">Ticks?</th></tr>
@@ -264,7 +264,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Black Flag electric fogger</td><td className="px-3 py-2">A few hours per fog</td><td className="px-3 py-2">Backyard within cord reach</td><td className="px-3 py-2">No</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-cordless-fogger-canada">Gas / cordless fogger</Link></td><td className="px-3 py-2">A few hours per fog</td><td className="px-3 py-2">Acreage &amp; large lots</td><td className="px-3 py-2">No</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-battery-backpack-sprayer-canada">Backpack sprayer (liquid)</Link></td><td className="px-3 py-2">Days, product-dependent</td><td className="px-3 py-2">Deliberate barrier, larger yards</td><td className="px-3 py-2">Some products</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">21&ndash;30 days</td><td className="px-3 py-2">Whole property, one visit</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Renewed on your plan&rsquo;s schedule</td><td className="px-3 py-2">Whole property, one visit</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
           <p>For a typical suburban lot where a neighbour&rsquo;s yard keeps re-seeding the mosquito population, a seasonal barrier program gives you the baseline, and the Black Flag fogger is the extra knockdown you reach for right before a big backyard event. That combination &mdash; durable barrier plus on-demand fog &mdash; is how you actually keep a GTA yard usable all summer.</p>
@@ -298,7 +298,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Fog, Get the Barrier" subtext="A fogger buys you an evening. A licensed barrier spray protects the whole yard for 21–30 days — and kills ticks too. From $99. Get a free quote." variant="dark" />
+      <CTASection heading="Skip the Fog, Get the Barrier" subtext="A fogger buys you an evening. A licensed barrier spray treats the whole yard on a seasonal schedule — and targets ticks too. From $99. Rain-back guarantee on every plan. Get a free quote." variant="dark" />
     </>
   )
 }

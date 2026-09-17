@@ -47,7 +47,7 @@ const FAQS = [
   },
   {
     question: 'Can I prevent tick bites on my dog without medication?',
-    answer: 'You can reduce — but not eliminate — tick bite risk through behaviour and environment alone. Keep grass mowed short, avoid tall grass on walks, do daily tick checks, create a 3-foot wood chip barrier between lawn and woods. However, vet-prescribed monthly tick preventatives (Bravecto, NexGard, Simparica, K9 Advantix II) are the gold standard. Most importantly, professional yard tick spray reduces the population in your dog\'s primary environment — your own backyard, where dogs spend the majority of their outdoor time.',
+    answer: 'You can reduce — but not eliminate — tick bite risk through behaviour and environment alone. Keep grass mowed short, avoid tall grass on walks, do daily tick checks, create a 3-foot wood chip barrier between lawn and woods. However, vet-prescribed monthly tick preventatives (Bravecto, NexGard, Simparica, K9 Advantix II) are the gold standard. Alongside those, professional yard tick spray targets ticks in your dog\'s primary environment — your own backyard, where dogs spend the majority of their outdoor time.',
   },
 ]
 
@@ -205,7 +205,7 @@ export default function TickBiteOnDogSymptomsPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="Keep on hand" />
 
-      <CTASection heading="Stop the Next Tick Before It Bites" subtext="Yard tick spray prevents the dog-tick cycle. 5 sprays per season. From $597 — or tick add-on bundle available on quote." variant="dark" />
+      <CTASection heading="Cut Down the Ticks Your Dog Meets at Home" subtext="Yard tick spray targets the leaf litter and lawn edges where dogs pick up ticks. 5 sprays per season: $597 on its own, or $497 added to any mosquito plan." variant="dark" />
     </>
   )
 }

@@ -36,6 +36,8 @@ export default function PressMentionBanner() {
   const pathname = usePathname()
   // Skip on blog routes — keeps article reading flow clean.
   if (pathname?.startsWith('/blog')) return null
+  // Skip on the quote form itself: nothing should sit between the visitor and the form fields.
+  if (pathname?.replace(/\/$/, '') === '/free-yard-assessment') return null
 
   return (
     <aside

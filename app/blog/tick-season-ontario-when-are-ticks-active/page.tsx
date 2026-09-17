@@ -1,10 +1,16 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
+import StickyBuyBar from '@/components/StickyBuyBar'
 
 const POST = TICK_BLOGS.supporting[4]
+
+const AMZ_TAG = tagForSlug('tick-season-ontario-when-are-ticks-active')
 
 export const metadata: Metadata = buildMetadata({
   title: 'When Are Ticks Active in Ontario? | 2026',
@@ -18,11 +24,11 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   { question: 'Are ticks active in winter in Ontario?', answer: 'Surprisingly, yes — blacklegged ticks remain active on days when temperatures exceed 4°C, even in winter. Unlike most Ontario insects, they don\'t die off in cold weather. This is why blacklegged ticks can be encountered on warm February or March days. American dog ticks and most other species do become dormant in winter.' },
   { question: 'What month has the most tick bites in Ontario?', answer: 'May and June see the highest rate of Lyme disease transmission in Ontario due to the emergence of nymph ticks, which are tiny and difficult to detect. Adult tick activity peaks again in September and October. Both windows require vigilance and ideally professional yard treatment.' },
-  { question: 'When should I get my first tick treatment of the season?', answer: 'May is the optimal timing for your first professional tick treatment in the GTA — laying the barrier down before nymphs (the highest-risk life stage) start questing in earnest. That first visit is the opener of a five-treatment season: applications run roughly one a month from May through September, because each one leaves up to 30 days of residual and wildlife keeps carrying fresh ticks in from adjacent woodland. BuzzSkito prices the full five-treatment tick season at $597 standalone, or $497 when added to any mosquito plan.' },
+  { question: 'When should I get my first tick treatment of the season?', answer: 'May is the optimal timing for your first professional tick treatment in the GTA — laying the barrier down before nymphs (the highest-risk life stage) start questing in earnest. That first visit is the opener of a five-treatment season: applications run roughly one a month from May through September, because each one leaves a temporary residual that wears down within weeks and wildlife keeps carrying fresh ticks in from adjacent woodland. BuzzSkito prices the full five-treatment tick season at $597 standalone, or $497 when added to any mosquito plan.' },
   { question: 'When do ticks come out in Ontario?', answer: 'Blacklegged ticks become active any time the temperature rises above roughly 4°C, so across most of Ontario they emerge as early as March or April once the snow melts. The first major surge is the May–June nymph season, the highest-risk window for Lyme disease. Because adults can appear on mild winter days too, treat any above-freezing time outdoors as possible tick weather.' },
   { question: 'When do ticks go away or die off in Ontario?', answer: 'Blacklegged ticks do not truly die off — adults stay active into November and re-emerge on any winter day above about 4°C, sheltering under leaf litter and snow during hard frost rather than dying. American dog ticks and most other species do become dormant for winter. Practically, peak risk winds down after the fall adult surge, but in Ontario vigilance never fully ends.' },
   { question: 'Are ticks active at night?', answer: 'Yes — unlike mosquitoes, ticks do not follow a day-night cycle. They quest for hosts whenever conditions are humid and mild enough, day or night. Ticks wait on grass and low vegetation for a host to brush past rather than actively hunting, so a dusk or nighttime walk through tall grass carries the same risk as a midday one. Always do a tick check after any time outdoors.' },
-  { question: 'When is peak tick season in Ontario?', answer: 'Ontario has two peaks. The highest-risk window is the May–June nymph season, when poppy-seed-sized nymphs emerge and cause most Lyme disease cases. A second peak arrives in September–October as adult blacklegged ticks become active before frost. Both windows call for daily tick checks and, ideally, professional yard treatment across the whole season — five applications spread roughly monthly from May through September, since each one holds for up to 30 days.' },
+  { question: 'When is peak tick season in Ontario?', answer: 'Ontario has two peaks. The highest-risk window is the May–June nymph season, when poppy-seed-sized nymphs emerge and cause most Lyme disease cases. A second peak arrives in September–October as adult blacklegged ticks become active before frost. Both windows call for daily tick checks and, ideally, professional yard treatment across the whole season — five applications spread roughly monthly from May through September, since each one\'s residual wears down within weeks.' },
   { question: 'At what temperature do ticks become inactive?', answer: 'Blacklegged ticks generally go dormant once temperatures fall below about 4°C, which is why they can surprise people on mild winter days above that threshold. Cold does not kill them — they shelter under leaf litter and snow and resume questing whenever it warms up. Sustained hard frost reduces activity, but a single winter thaw can bring adults back out looking for a host.' },
 ]
 
@@ -56,7 +62,7 @@ export default function TickSeasonPage() {
             <li>The May&ndash;June nymph season is the highest-risk window and causes the majority of Ontario Lyme disease cases.</li>
             <li>Adult blacklegged ticks peak again in September&ndash;October and stay active until hard frost, into November.</li>
             <li>American dog ticks and most other species go dormant in winter, but blacklegged ticks never truly die off.</li>
-            <li>BuzzSkito&rsquo;s tick season is five treatments, roughly one a month from May through September &mdash; each delivers up to 30 days of residual, so the barrier never lapses across either peak.</li>
+            <li>BuzzSkito&rsquo;s tick season is five treatments, roughly one a month from May through September &mdash; renewed monthly as each application&rsquo;s residual wears down, so the barrier is kept up across both peaks.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
@@ -64,6 +70,34 @@ export default function TickSeasonPage() {
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Unlike mosquitoes, ticks don't have a clean on/off season. Understanding their year-round activity patterns helps you time protection correctly. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>
+
+        <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
+          <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Timing the five treatments to the two peaks is the whole job</h2>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">If your property backs onto a ravine, woodlot, or fence line in the GTA, that shaded margin is where the ticks in this calendar are actually waiting. BuzzSkito treats those edges across the season &mdash; five treatments, roughly one a month from May through September. Tell us your address and we will tell you when your first visit should land.</p>
+          <div className="flex flex-wrap items-center gap-4">
+            <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
+            <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
+          </div>
+        </aside>
+
+        <AffiliateDisclosure />
+        <div className="not-prose my-6 rounded-xl border border-amber-200 bg-amber-50/60 p-5">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700 mb-3">What to do right now</p>
+          <ol className="space-y-4">
+            <li>
+              <p className="text-sm text-gray-800 leading-relaxed"><strong>1. Do a tick check before you read any further.</strong> Free, and it is the step the calendar exists to prompt. If anyone in the house has been in long grass or along a wooded edge today, check the hairline and behind the ears, the back of the neck, under the arms, the waistband, the backs of the knees, and between the toes. A May or June nymph is the size of a poppy seed, which is exactly why it gets missed.</p>
+            </li>
+            <li>
+              <p className="text-sm text-gray-800 leading-relaxed mb-2"><strong>2. Have a fine-tipped remover in the house before you need it.</strong> Blunt household tweezers take hold of an attached tick&rsquo;s body and crush it &mdash; the one thing every removal guide tells you not to do. A pointed tick tool grips flush at the skin and lifts the whole tick out, mouthparts included.</p>
+              <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink>
+            </li>
+            <li>
+              <p className="text-sm text-gray-800 leading-relaxed mb-2"><strong>3. Comb the dog after walks through both peaks.</strong> A dog is the most common way a tick gets from the ravine edge into the house, and a fine-tooth comb run through the coat after a walk finds the crawlers that have not attached yet &mdash; while they are still easy to deal with.</p>
+              <BuyLink tag={AMZ_TAG} search="fine tooth flea and tick comb for dogs">Check price on Amazon.ca &rarr;</BuyLink>
+            </li>
+          </ol>
+          <p className="mt-4 text-xs text-gray-500">If you find an attached tick, note the date you removed it and watch for a rash, fever, or flu-like symptoms in the following days and weeks &mdash; see a healthcare provider if any appear. General information, not medical advice.</p>
+        </div>
 
         <h2>The Key Distinction: Two Tick Seasons in Ontario</h2>
         <p>Ontario's most dangerous tick — the blacklegged tick — has two distinct peak activity periods, driven by its lifecycle. Two peaks with months of activity in between is exactly why we run <strong>five professional tick treatments per season</strong>, roughly one a month from May through September, rather than a spring-and-fall pair.</p>
@@ -115,8 +149,10 @@ export default function TickSeasonPage() {
           </table>
         </div>
 
+        <p>Treat that calendar as the baseline, not a guarantee. In 2026 activity across Southern Ontario ran roughly two to three weeks ahead of it, which pulled the nymph window forward — the detail is in our write-up of <Link href="/blog/ontario-tick-surge-2026" className="text-brand-700 underline">the 2026 Ontario tick surge and what it changes for families</Link>.</p>
+
         <h2>How a Five-Treatment Season Covers Both Peak Windows</h2>
-        <p>BuzzSkito's recommended tick control program is five treatments spread roughly monthly from May through September. Each application leaves up to 30 days of residual on the vegetation where ticks quest, so a monthly cadence is what keeps the barrier continuous — across both peaks and the active months in between:</p>
+        <p>BuzzSkito's recommended tick control program is five treatments spread roughly monthly from May through September. Each application leaves a temporary residual on the vegetation where ticks quest that wears down within weeks, so a monthly cadence is what keeps the barrier continuous — across both peaks and the active months in between:</p>
         <ul>
           <li><strong>Treatment 1 — May:</strong> The season opener. Lays the barrier down at the property edge as nymphs begin emerging, ahead of Ontario's highest-risk Lyme window.</li>
           <li><strong>Treatment 2 — June:</strong> Nymph peak. Poppy-seed-sized nymphs drive most Lyme transmission precisely because they are so easily missed on skin.</li>
@@ -124,9 +160,17 @@ export default function TickSeasonPage() {
           <li><strong>Treatment 4 — August:</strong> Holds coverage as the first new adults begin emerging, and against ticks carried back in from neighbouring woodland.</li>
           <li><strong>Treatment 5 — September:</strong> Timed to the adult surge, with residual carrying into October as adults stay active toward frost.</li>
         </ul>
-        <p>The reason it is five and not two comes down to residual and re-infestation. Up to 30 days of protection per application means a spring-and-fall pair stops working within a month of each visit, leaving a multi-month hole from early summer onward — including the tail of nymph season, when the poppy-seed-sized nymphs that drive most Lyme transmission are still questing and easily missed. And because deer, mice, and birds keep moving ticks in from adjacent woodland all summer, the barrier has to be renewed rather than applied once or twice. Adults remain active into November in mild years, so keep up daily tick checks after the final visit even while the September residual is still working.</p>
+        <p>The reason it is five and not two comes down to residual and re-infestation. Because each application's residual wears down within weeks, a spring-and-fall pair stops working long before the next visit, leaving a multi-month hole from early summer onward — including the tail of nymph season, when the poppy-seed-sized nymphs that drive most Lyme transmission are still questing and easily missed. And because deer, mice, and birds keep moving ticks in from adjacent woodland all summer, the barrier has to be renewed rather than applied once or twice. Adults remain active into November in mild years, so keep up daily tick checks after the final visit even while the September residual is still working.</p>
         <p>A full five-treatment tick season is <strong>$597</strong> standalone, or <strong>$497</strong> added to any mosquito plan — a $100 saving. A single one-off treatment starts at $99 if you would rather see the results before committing to the season.</p>
         <p>Local calendars shift a little either side of that provincial average. In Oakville, the 16 Mile Creek corridor and Bronte Creek Provincial Park keep ticks active from roughly mid-March into November, which changes when the first treatment should land — the month-by-month version is in <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 hover:underline">the Oakville tick season breakdown</Link>.</p>
+        <p>York Region runs on its own calendar too, because the Oak Ridges Moraine holds cool, damp woodland that keeps ticks questing later into the autumn than an open subdivision lawn does &mdash; <Link href="/blog/tick-control-richmond-hill-markham" className="text-brand-700 hover:underline">tick control in Richmond Hill and Markham</Link> covers how the moraine and the Rouge corridor change the schedule there.</p>
+        <p>North and west of the city the two peaks land harder rather than earlier. The Oak Ridges Moraine through King Township and the moraine-meets-escarpment ground in Caledon carry more contiguous forest and higher deer density than the suburban GTA, which is why those properties are the ones that need every one of the five visits — the local detail is in <Link href="/blog/tick-control-vaughan-king-city-woodbridge" className="text-brand-700 hover:underline">the Vaughan, King City and Woodbridge tick guide</Link> and <Link href="/blog/tick-prevention-caledon-halton-hills" className="text-brand-700 hover:underline">the Caledon and Halton Hills tick prevention guide</Link>.</p>
+        <p>Mississauga runs on its own calendar too, shaped by the Credit River valley and the Rattray Marsh shoreline — see <Link href="/blog/tick-season-mississauga-when-are-ticks-active" className="text-brand-700 underline">when ticks are active in Mississauga, month by month</Link>.</p>
+
+        <h2>What to Have on Hand Through Both Peaks</h2>
+        <p>A calendar is only useful if it changes something, and for most households the change is small: from the May nymph emergence through the October adult surge, a tick check becomes part of coming indoors, and removal has to be possible the moment one turns up. The nymphs are the reason it matters. A poppy-seed-sized nymph is easy to miss and easy to crush with blunt household tweezers &mdash; and crushing an attached, feeding tick is the one thing every removal guide tells you not to do, because it works the tick&rsquo;s gut contents into the bite. A fine-tipped remover grips flush at the skin and lifts the whole tick out, mouthparts included, which is the difference between a non-event and a month of watching a bite site.</p>
+        <AffiliateDisclosure />
+        <p className="not-prose text-gray-700">See how the common types compare in our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">tick-removal tool guide</Link>, or <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">
@@ -152,6 +196,7 @@ export default function TickSeasonPage() {
       </article>
 
       <CTASection heading="Book Your 2026 Tick Control Treatments" subtext="Time your treatments to the peak risk windows. Free quote, no contracts." variant="dark" />
+      <StickyBuyBar tag={AMZ_TAG} name="Tick-removal tool kit" search="tick removal tool tweezers" label="For tick season" />
     </>
   )
 }

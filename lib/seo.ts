@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { BUSINESS, SITE_URL } from './constants'
+import { BUSINESS, PROMISES, SITE_URL } from './constants'
 
 // ── Metadata builder ──────────────────────────────────────────────────────────
 
@@ -95,9 +95,9 @@ export function localBusinessSchema(overrides: {
       '@type': 'OfferCatalog',
       name: 'Mosquito & Tick Control Services',
       itemListElement: [
-        { '@type': 'Offer', name: 'Single Mosquito Treatment', price: '99', priceCurrency: 'CAD', description: 'One-time barrier spray treatment for standard residential lot' },
+        { '@type': 'Offer', name: 'Single Mosquito Treatment', price: '99', priceCurrency: 'CAD', description: 'One-time barrier spray treatment for a standard residential lot under 10,000 sq ft, plus HST' },
         { '@type': 'Offer', name: 'Mosquito Season Programs', priceCurrency: 'CAD', description: 'Seasonal mosquito barrier spray programs (5, 10, 20+ treatment frequencies). Custom-quoted by property size — call (289) 216-5030 for quote.' },
-        { '@type': 'Offer', name: 'Tick Protection Program', priceCurrency: 'CAD', description: 'Seasonal tick barrier spray program. Available standalone or bundled with mosquito plan. Custom-quoted — call (289) 216-5030 for quote.' },
+        { '@type': 'Offer', name: 'Tick Protection Program', priceCurrency: 'CAD', description: 'Seasonal tick barrier spray program (5 treatments per season). Available standalone or bundled with mosquito plan. Custom-quoted — call (289) 216-5030 for quote.' },
       ],
     },
     // sameAs = EXTERNAL profiles only. Self-referential URLs (/reviews,
@@ -110,7 +110,9 @@ export function localBusinessSchema(overrides: {
       BUSINESS.googleReviewUrl,
     ],
     knowsLanguage: 'en-CA',
-    slogan: 'BuzzSkito Bite-Free Guarantee — Mosquito & Tick Specialist for the GTA',
+    // The Bite-Free Guarantee is Standard & Exclusive only, so the sitewide slogan names the guarantee that
+    // holds on every plan.
+    slogan: `Mosquito & Tick Specialist for the GTA — ${PROMISES.rainBackShort}`,
   }
   if (overrides.includeAggregateRating) {
     schema.aggregateRating = {
@@ -196,8 +198,10 @@ export function personSchema() {
       'Mosquito control',
       'Tick control',
       'Barrier spray application',
-      'Lyme disease prevention',
-      'Health Canada-approved pesticides',
+      // Was 'Lyme disease prevention' and 'Health Canada-approved pesticides': DIR2016-01 bars the
+      // "approved" wording and the service must not carry a disease-prevention claim.
+      'Tick bite awareness',
+      'Pesticide label directions',
       'GTA mosquito ecology',
     ],
     homeLocation: {
@@ -214,9 +218,12 @@ export function howToSchema(opts: { service: 'mosquito' | 'tick'; city?: string 
     '@context': 'https://schema.org',
     '@type': 'HowTo',
     name: isTick ? `How Professional Tick Control Works${cityLabel}` : `How Professional Mosquito Control Works${cityLabel}`,
+    // Pesticide advertising rules (Health Canada DIR2016-01) bar "Health Canada-approved" and untested
+    // protection periods, including inside structured data, so the steps state the label line and the
+    // guarantees exactly as PROMISES words them.
     description: isTick
-      ? `Three-step professional tick barrier spray process for residential yards${cityLabel}. Health Canada-approved.`
-      : `Three-step professional mosquito barrier spray process for residential yards${cityLabel}. Health Canada-approved.`,
+      ? `Three-step professional tick barrier spray process for residential yards${cityLabel}. ${PROMISES.labelLine}.`
+      : `Three-step professional mosquito barrier spray process for residential yards${cityLabel}. ${PROMISES.labelLine}.`,
     step: [
       {
         '@type': 'HowToStep',
@@ -231,18 +238,20 @@ export function howToSchema(opts: { service: 'mosquito' | 'tick'; city?: string 
         position: 2,
         name: 'Professional Barrier Spray',
         text: isTick
-          ? 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate using a precision backpack sprayer.'
-          : 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.',
+          ? 'Our Ontario-licensed technician applies the product according to its label directions to the specific 1-3 metre zones where ticks concentrate, using a precision backpack sprayer.'
+          : 'Our Ontario-licensed technician applies the product according to its label directions to vegetation, shrub interiors, leaf undersides, and fence lines, using a precision backpack sprayer.',
       },
       {
         '@type': 'HowToStep',
         position: 3,
-        name: '30-Day Protection Guarantee',
-        text: 'The residual formula kills pests on contact and creates a protective barrier for up to 30 days. If pests return within the protection window, we re-treat at no cost.',
+        name: 'Re-Entry and Rain-Back Guarantee',
+        text: isTick
+          ? `Keep kids and pets inside during the treatment and stay off treated areas until the spray has dried, as the product label directs. ${PROMISES.rainBack}`
+          : `Keep kids and pets inside during the treatment and stay off treated areas until the spray has dried, as the product label directs. ${PROMISES.rainBack} ${BUSINESS.guarantee.description}`,
       },
     ],
     totalTime: 'PT40M',
-    supply: [{ '@type': 'HowToSupply', name: 'Health Canada-approved barrier spray formula' }],
+    supply: [{ '@type': 'HowToSupply', name: 'Barrier spray product, applied according to label directions' }],
     tool: [{ '@type': 'HowToTool', name: 'Professional backpack precision sprayer' }],
   }
 }
@@ -427,13 +436,13 @@ export function organizationSchema() {
       'Mosquito control',
       'Tick control',
       'Barrier spray treatment',
-      'Lyme disease prevention',
+      'Lyme disease public-health guidance',
       'Pest control Ontario',
       'Mosquito barrier spray',
       'Tick yard treatment',
       'Blacklegged tick (Ixodes scapularis)',
       'American dog tick (Dermacentor variabilis)',
-      'West Nile virus prevention',
+      'West Nile virus surveillance in Ontario',
       'BTI (Bacillus thuringiensis israelensis)',
       'Mosquito dunks',
       'Mosquito larvae control',
@@ -441,7 +450,7 @@ export function organizationSchema() {
       'Mosquito repellent plants',
       'Permethrin-based barrier spray',
       'Bifenthrin pest control',
-      'Health Canada-approved pesticides',
+      'Pesticide label directions and PCP registration numbers',
       'GTA mosquito ecology',
       'Toronto ravine mosquito habitat',
       'Don River mosquito breeding',
@@ -455,9 +464,9 @@ export function organizationSchema() {
       'Outdoor event mosquito control',
       'Wedding venue mosquito treatment',
       'Commercial pest control GTA',
-      'Pet-safe mosquito spray',
-      'Child-safe pest control',
-      'Eco-friendly mosquito control',
+      // 'Pet-safe mosquito spray', 'Child-safe pest control' and 'Eco-friendly mosquito control' were removed:
+      // DIR2016-01 bars safety and green claims for pest control products, in structured data as well.
+      'Pesticide re-entry directions for families with kids and pets',
     ],
   }
 }

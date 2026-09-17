@@ -2,8 +2,10 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control York Region · From $99',
@@ -29,7 +31,7 @@ const FAQS = [
   },
   {
     question: 'Which York Region cities have the highest tick risk?',
-    answer: "The highest tick activity in York Region is found near the Oak Ridges Moraine: King City, Kleinburg, Nobleton, and northern Richmond Hill face the most direct annual exposure. Vaughan and Woodbridge are also high-risk due to the Humber River valley and Boyd Conservation Area. York Region Public Health issues annual tick risk advisories for these communities, recommending tick bite prevention measures including professional yard treatment.",
+    answer: "The highest tick activity in York Region is found near the Oak Ridges Moraine: King City, Kleinburg, Nobleton, and northern Richmond Hill face the most direct annual exposure. Vaughan and Woodbridge are also high-risk due to the Humber River valley and Boyd Conservation Area. York Region Public Health issues annual tick risk advisories for these communities, recommending tick bite prevention measures such as insect repellent and tick checks after time outdoors.",
   },
   {
     question: 'Does BuzzSkito serve all York Region communities?',
@@ -37,11 +39,11 @@ const FAQS = [
   },
   {
     question: 'Can I bundle mosquito and tick control in York Region?',
-    answer: "Yes. Many York Region homeowners — especially those near the Oak Ridges Moraine, Humber River valley, or Don River headwaters — bundle mosquito and tick control in a single visit. The same professional barrier spray that eliminates mosquitoes also kills blacklegged ticks at all life stages. Bundling both services means one visit covers your entire yard protection needs from May through September.",
+    answer: "Yes. Many York Region homeowners — especially those near the Oak Ridges Moraine, Humber River valley, or Don River headwaters — bundle mosquito and tick control so both are done on the same visits. Tick control is a different application, aimed at the lawn edges, leaf litter, and fence lines where blacklegged ticks wait. It is 5 sprays per season: $497 when added to any mosquito plan, or $597 on its own, plus HST.",
   },
   {
     question: 'When should York Region homeowners start mosquito and tick treatments?',
-    answer: "For mosquito control, start in early May — mosquitoes begin emerging in York Region once temperatures consistently exceed 10°C, typically in late April or early May. For tick control, the highest-risk period for nymph ticks (the most dangerous stage for Lyme disease transmission) is May through July, with a second adult tick activity peak in September–October. We recommend a first tick treatment in late May or June and a second in August or September.",
+    answer: "For mosquito control, start in early May — mosquitoes begin emerging in York Region once temperatures consistently exceed 10°C, typically in late April or early May. For tick control, the highest-risk period for nymph ticks (the most dangerous stage for Lyme disease transmission) is May through July, with a second adult tick activity peak in September–October. Our tick program is 5 treatments per season, roughly one a month from May through September, so both the nymph peak and late-season adult activity fall inside the treatment schedule.",
   },
 ]
 
@@ -63,22 +65,24 @@ export default function YorkRegionMosquitoPage() {
         ]}
         title={<>Mosquito &amp; Tick Control</>}
         titleAccent={<>Across York Region</>}
-        subtitle={<>The Oak Ridges Moraine, Humber River valley, and Don River headwaters make York Region one of Ontario&apos;s highest-risk areas for both mosquitoes and blacklegged ticks. BuzzSkito serves every York Region community with professional barrier spray.</>}
+        subtitle={<>Licensed Ontario pesticide operator serving every York Region community, where the Oak Ridges Moraine, Humber River valley, and Don River headwaters drive heavy mosquito and blacklegged tick pressure. Treatments applied according to label directions.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
       
+      <TypicalPrices service="mosquito" city="York Region" />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -87,8 +91,8 @@ export default function YorkRegionMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product, according to its label directions, to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: 'Rain within 1 hour of your treatment? We come back and re-treat free, on every plan. Standard & Exclusive plans also carry the Bite-Free Guarantee.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -105,7 +109,7 @@ export default function YorkRegionMosquitoPage() {
           <h2>Why York Region Has Some of Ontario&apos;s Highest Tick and Mosquito Risk</h2>
           <p>York Region sits at the intersection of three major natural systems that drive pest pressure throughout the GTA. The Oak Ridges Moraine — one of Ontario&apos;s most significant ecological features — runs east–west through the northern tier of York Region, providing the forested upland habitat, extensive wetlands, and wildlife corridors that support large deer populations. Deer are the primary host for adult blacklegged ticks, and the Moraine&apos;s deer population carries blacklegged ticks from confirmed tick habitat in King City, Kleinburg, and Richmond Hill into residential neighbourhoods throughout the region every season.</p>
           <p>The Humber River originates in the Oak Ridges Moraine and flows south through Vaughan, Woodbridge, and Kleinburg before continuing through Etobicoke to Lake Ontario. This continuous watershed corridor carries ticks from the Moraine into residential properties throughout Vaughan and provides extensive mosquito breeding habitat in the floodplain. The Don River headwaters originate in Richmond Hill and Markham, providing a second major mosquito source corridor on the eastern side of York Region.</p>
-          <p>York Region Public Health monitors blacklegged ticks annually and issues public risk advisories for the Moraine communities and the Humber-Don corridor. The region&apos;s combination of mature conservation land, urban wildlife, and residential properties creates conditions where professional mosquito and tick control is not just a convenience — it&apos;s a meaningful health decision for families with children and pets who use the yard.</p>
+          <p>York Region Public Health monitors blacklegged ticks annually and issues public risk advisories for the Moraine communities and the Humber-Don corridor. The region&apos;s combination of mature conservation land, urban wildlife, and residential properties creates conditions where many families with children and pets who use the yard choose professional mosquito and tick control.</p>
 
           <h2>York Region Cities We Serve</h2>
           <div className="not-prose grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
@@ -127,11 +131,11 @@ export default function YorkRegionMosquitoPage() {
           <h2>Our York Region Mosquito and Tick Service</h2>
           <ul>
             <li>Professional barrier spray applied to all vegetation, shrubs, fence lines, and canopy edges on your property</li>
-            <li>Up to 30 days of protection per treatment — health Canada–approved formula safe for children and pets after 30-minute dry time</li>
-            <li>Seasonal mosquito program: 5 treatments May through September</li>
-            <li>Tick program: 2 strategic treatments targeting nymph emergence (late May/June) and adult activity (August/September)</li>
-            <li>Bundle both services for complete yard protection in a single visit</li>
-            <li>Free re-spray guarantee — if pests return within the protection window, we come back at no cost</li>
+            <li>{PROMISES.labelLine}, by a licensed operator — stay off treated areas until the spray has dried</li>
+            <li>Season mosquito plans: 5 (monthly), 10 (every 2 weeks) or 20+ (weekly) treatments May through September</li>
+            <li>Tick program: 5 treatments per season, roughly monthly from May through September, covering nymph emergence and adult activity</li>
+            <li>Bundle both services so tick treatment is done on your mosquito visits ($497 tick season with any mosquito plan)</li>
+            <li>{PROMISES.rainBack} Standard &amp; Exclusive plans also carry the Bite-Free Guarantee.</li>
           </ul>
         </div>
       </section>
@@ -157,6 +161,10 @@ export default function YorkRegionMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="York Region" service="mosquito" location="price_card_faq" />
+      </div>
 
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">

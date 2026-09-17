@@ -35,7 +35,7 @@ const FAQS = [
   },
   {
     question: 'How do you stop mosquitoes from breeding in standing water?',
-    answer: 'Follow the "dump it every week" rule: empty, scrub, and refill or overturn any container that holds water at least every 7 days, which breaks the 7–10 day breeding cycle before adults emerge. Cover rain barrels with fine mesh, clean gutters twice a season, drill drainage holes in anything that pools, and store buckets and toys upside down. For water you cannot dump — rain barrels, ornamental ponds, ditches, neglected pools — drop in a BTI mosquito dunk, which kills larvae for about 30 days and is safe for pets, fish, and pollinators.',
+    answer: 'Follow the "dump it every week" rule: empty, scrub, and refill or overturn any container that holds water at least every 7 days, which breaks the 7–10 day breeding cycle before adults emerge. Cover rain barrels with fine mesh, clean gutters twice a season, drill drainage holes in anything that pools, and store buckets and toys upside down. For water you cannot dump — rain barrels, ornamental ponds, ditches, neglected pools — drop in a BTI mosquito dunk, which targets mosquito larvae for about 30 days per dunk; follow the label directions on the pack.',
   },
   {
     question: 'Do mosquitoes lay eggs in moving water?',
@@ -55,7 +55,7 @@ const FAQS = [
   },
   {
     question: 'Do mosquito dunks work in standing water you cannot drain?',
-    answer: 'Yes. Mosquito dunks contain BTI (Bacillus thuringiensis israelensis), a naturally occurring bacterium that kills mosquito larvae within 24–48 hours but is harmless to humans, pets, fish, frogs, birds, and pollinators. One dunk treats up to 100 square feet of water surface for about 30 days, making them the standard solution for rain barrels, ponds, ditches, and neglected pools. Health Canada has approved BTI for residential use, and it is used by mosquito control districts across North America. Dunks kill larvae only — pair them with adult mosquito control for complete coverage.',
+    answer: 'Yes. Mosquito dunks contain BTI (Bacillus thuringiensis israelensis), a naturally occurring bacterium that acts specifically on mosquito larvae, which die within 24–48 hours of eating it. One dunk treats up to 100 square feet of water surface for about 30 days, making them the standard solution for rain barrels, ponds, ditches, and neglected pools. Look for a Canadian PCP registration number on the pack; BTI is also used by mosquito control districts across North America. Dunks kill larvae only — pair them with adult mosquito control for complete coverage.',
   },
   {
     question: 'Will removing standing water get rid of all my mosquitoes?',
@@ -111,7 +111,7 @@ export default function StandingWaterMosquitoesPage() {
               <li>Mosquitoes can breed in as little as <strong>one bottle cap</strong> of water — about a teaspoon (5 mL).</li>
               <li>A single female lays <strong>100–300 eggs</strong> at a time, and they hatch within <strong>24–48 hours</strong> of touching water.</li>
               <li>The most effective step is the <strong>&ldquo;dump it every week&rdquo; rule</strong>: empty and scrub any standing water every 7 days to break the cycle.</li>
-              <li>For water you cannot dump — rain barrels, ponds, ditches — <strong>one BTI mosquito dunk</strong> kills larvae for about 30 days and is safe for pets and fish.</li>
+              <li>For water you cannot dump — rain barrels, ponds, ditches — <strong>one BTI mosquito dunk</strong> targets larvae for about 30 days; follow the label directions.</li>
               <li>Public Health Ontario and the CDC both list <strong>removing standing water</strong> as the first line of defence against West Nile virus.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
@@ -227,16 +227,16 @@ export default function StandingWaterMosquitoesPage() {
           </ol>
 
           <h3>For water you cannot dump: BTI mosquito dunks</h3>
-          <p>Some standing water cannot be emptied — rain barrels you rely on, ornamental ponds with fish, drainage ditches, low areas that stay wet, or a neglected pool waiting to be drained. For these, the standard solution is a <strong>BTI dunk</strong>. BTI (<em>Bacillus thuringiensis israelensis</em>) is a naturally occurring soil bacterium that mosquito larvae eat and die from within 24–48 hours, yet it is harmless to humans, pets, fish, frogs, birds, and pollinators. One dunk treats up to 100 square feet of water surface for about 30 days, and Health Canada has approved BTI for residential use.</p>
+          <p>Some standing water cannot be emptied — rain barrels you rely on, ornamental ponds with fish, drainage ditches, low areas that stay wet, or a neglected pool waiting to be drained. For these, the standard solution is a <strong>BTI dunk</strong>. BTI (<em>Bacillus thuringiensis israelensis</em>) is a naturally occurring soil bacterium that acts specifically on mosquito larvae, which eat it and die within 24–48 hours. One dunk treats up to 100 square feet of water surface for about 30 days; look for a Canadian PCP registration number on the pack and follow its label directions.</p>
 
           <AffiliateDisclosure />
           <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="Summit Mosquito Dunks (BTI)"
-            blurb="The go-to fix for standing water you can't drain — rain barrels, ponds, ditches. One dunk kills larvae for ~30 days across 100 sq ft of water surface, and it's safe for fish, pets, and pollinators."
+            blurb="The go-to fix for standing water you can't drain — rain barrels, ponds, ditches. One dunk kills larvae for ~30 days across 100 sq ft of water surface, and its Bti is specific to mosquito and black fly larvae — follow the label."
             search="summit mosquito dunks"
             score={9.1}
-            pros={['Kills larvae for about 30 days per dunk', 'Safe around fish, pets, and pollinators', 'Health Canada approved for residential use']}
+            pros={['Kills larvae for about 30 days per dunk', 'Bti targets mosquito larvae; follow the label around fish and pets', 'Check the Canadian PCP number on the package']}
             cons={['Targets larvae only — not adult mosquitoes', 'Needs monthly replacement through the season']}
           />
           <p className="not-prose text-sm text-gray-600 mb-2">Drop one in each rain barrel, pond, or low spot that stays wet, and refresh monthly through the season:</p>
@@ -255,7 +255,7 @@ export default function StandingWaterMosquitoesPage() {
           <ol>
             <li><strong>Source reduction</strong> — dump and scrub standing water weekly (removes the mosquitoes your own yard breeds).</li>
             <li><strong>Larvicide</strong> — BTI dunks or bits in any water you cannot drain (kills larvae in place).</li>
-            <li><strong>Barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s professional service</Link> treats the shaded vegetation where adult mosquitoes rest, with a residual barrier that keeps drifting adults out for 21–30 days per treatment.</li>
+            <li><strong>Barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s professional service</Link> treats the shaded vegetation where adult mosquitoes rest, with a residual that is re-applied through the season to meet the adults that drift in.</li>
           </ol>
           <p>Source reduction plus a larvicide handles the mosquitoes you make; barrier spray handles the ones that visit. Together they are what turns a bite-heavy GTA backyard into one you can actually use in July.</p>
 
@@ -284,7 +284,7 @@ export default function StandingWaterMosquitoesPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (BTI)" search="summit mosquito dunks" label="For water you can’t dump" />
 
-      <CTASection heading="Dump the Water · We&rsquo;ll Handle the Rest" subtext="Get a free quote for professional yard barrier spray. From $99. Same-day protection. 150 five-star reviews." variant="dark" />
+      <CTASection heading="Dump the Water · We&rsquo;ll Handle the Rest" subtext="Get a free quote for professional yard barrier spray. From $99. Products applied according to label directions. 150 five-star reviews." variant="dark" />
     </>
   )
 }

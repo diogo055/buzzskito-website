@@ -1,14 +1,16 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Halton Hills Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Halton Hills specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Georgetown, Acton, Glen Williams, Limehouse, Norval. Call (289) 216-5030.",
+    "Halton Hills specialist mosquito barrier spray. Licensed operator, from $99/treatment, no contracts, rain-back guarantee. Georgetown, Acton, Glen Williams, Limehouse, Norval. Call (289) 216-5030.",
   canonical: '/halton-hills-mosquito-control',
 })
 
@@ -35,7 +37,7 @@ const FAQS = [
   },
   {
     question: 'What is the mosquito season length in Halton Hills?',
-    answer: "Halton Hills homeowners near creek and river corridors typically deal with mosquitoes from the first week of May through mid to late September — a full five-month season. Properties in more urban parts of Georgetown and Acton may see a slightly shorter active period, from mid-May to early September. We recommend five seasonal treatments spaced 28 days apart, starting in the first two weeks of May, to maintain continuous coverage through the entire active season.",
+    answer: "Halton Hills homeowners near creek and river corridors typically deal with mosquitoes from the first week of May through mid to late September — a full five-month season. Properties in more urban parts of Georgetown and Acton may see a slightly shorter active period, from mid-May to early September. Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). We start in the first two weeks of May so treatments stay on schedule through the entire active season, and creek- and river-corridor properties often benefit from Standard's two-week spacing.",
   },
 ]
 
@@ -58,22 +60,24 @@ export default function HaltonHillsMosquitoPage() {
         ]}
         title={<>{CITY} Mosquito Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>From Fairy Lake in Acton to the Credit River and Silver Creek corridors — BuzzSkito delivers professional mosquito barrier spray to every Halton Hills community.</>}
+        subtitle={<>Licensed Ontario pesticide operator, with treatments applied according to label directions. From Fairy Lake in Acton to the Credit River and Silver Creek corridors, BuzzSkito serves every Halton Hills community.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
       
+      <TypicalPrices service="mosquito" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -82,8 +86,8 @@ export default function HaltonHillsMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies the product according to its label directions to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Repeat Visits & Guarantees', desc: `Treatments repeat on your plan's schedule through the season. ${PROMISES.rainBack} On Standard & Exclusive plans, if mosquitoes come back between scheduled treatments, we re-treat at no charge.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -115,13 +119,15 @@ export default function HaltonHillsMosquitoPage() {
           <ul>
             <li><strong>Watershed proximity review</strong> — We identify Credit River, Silver Creek, or Fairy Lake adjacency and any standing water on your property.</li>
             <li><strong>Full-yard barrier spray</strong> — All shrubs, hedges, garden beds, fence lines, and tree understorey treated on every visit.</li>
-            <li><strong>28-day residual protection</strong> — Health Canada–approved formula continues protecting between visits; safe for kids and pets after 30 minutes.</li>
-            <li><strong>Seasonal program</strong> — Five visits May through September, timed to Credit River and conservation area emergence patterns across Halton Hills.</li>
+            <li><strong>Label-directed application</strong> — {PROMISES.labelLine}; stay off treated areas until the spray has dried, as the label directs.</li>
+            <li><strong>Seasonal program</strong> — Five visits (Basic), 10 (Standard) or 20+ (Exclusive) May through September, timed to Credit River and conservation area emergence patterns across Halton Hills.</li>
           </ul>
 
           <h2>Also Providing Tick Control in Halton Hills</h2>
-          <p>Halton Hills has among the highest tick risk in the western GTA, with Niagara Escarpment trail systems and Conservation Halton lands throughout the municipality providing extensive blacklegged tick habitat. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Halton Hills tick spray service</Link> — combining both treatments provides complete yard protection through the season.</p>
+          <p>Halton Hills has among the highest tick risk in the western GTA, with Niagara Escarpment trail systems and Conservation Halton lands throughout the municipality providing extensive blacklegged tick habitat. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Halton Hills tick spray service</Link> — tick control is $497 per season (5 sprays) when added to any mosquito plan.</p>
 
+
+          <CityPriceCard city={CITY} service="mosquito" location="price_card_mid" />
 
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
@@ -143,10 +149,10 @@ export default function HaltonHillsMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats the resting surfaces across your property and leaves a residual on treated foliage, and it is repeated on a schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -192,6 +198,10 @@ export default function HaltonHillsMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

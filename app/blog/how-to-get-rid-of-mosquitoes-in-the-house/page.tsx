@@ -1,7 +1,11 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-get-rid-of-mosquitoes-in-the-house'
 const DATE = '2026-07-15'
@@ -19,7 +23,7 @@ const FAQS = [
   },
   {
     question: 'How do you kill mosquitoes inside the house?',
-    answer: 'The most reliable kill is a manual swat with a magazine or an electric bug-racket, done at dusk or dawn when indoor mosquitoes are active. Wait until one lands — usually on a wall or ceiling near a light — and strike. Plug-in indoor traps that use UV light or heat plus a suction fan work overnight to reduce numbers while you sleep. A short blast from a Health Canada (PCP) registered indoor flying-insect spray, used strictly per the label, kills on contact; ventilate the room afterward and keep it away from food, pets and children.',
+    answer: 'The most reliable kill is a manual swat with a magazine or an electric bug-racket, done at dusk or dawn when indoor mosquitoes are active. Wait until one lands — usually on a wall or ceiling near a light — and strike. Plug-in indoor traps that use UV light or heat plus a suction fan work overnight to reduce numbers while you sleep. A short blast from an indoor flying-insect spray with a PCP registration number on the label, used strictly per the label, kills on contact; ventilate the room afterward and keep it away from food, pets and children.',
   },
   {
     question: 'How do I get a mosquito out of my room?',
@@ -27,7 +31,7 @@ const FAQS = [
   },
   {
     question: 'How do I keep mosquitoes away at night while I sleep?',
-    answer: 'Point an oscillating fan at the bed — the airflow physically prevents a mosquito from landing and disperses the carbon dioxide plume it homes in on. A fitted bed net (mosquito net) is the gold standard used worldwide and gives complete physical protection. Keep the bedroom window closed at dusk or make sure the screen has no tears, switch off the lamp you read by once you’re settled, and remove any standing water from the room. A Health Canada approved repellent with DEET or icaridin on exposed skin adds a personal barrier if bites continue.',
+    answer: 'Point an oscillating fan at the bed — the airflow physically prevents a mosquito from landing and disperses the carbon dioxide plume it homes in on. A fitted bed net (mosquito net) is the gold standard used worldwide and gives complete physical protection. Keep the bedroom window closed at dusk or make sure the screen has no tears, switch off the lamp you read by once you’re settled, and remove any standing water from the room. A DEET or icaridin repellent with a PCP registration number on the label, used as the label directs on exposed skin, adds a personal barrier if bites continue.',
   },
   {
     question: 'Where do mosquitoes hide in a room during the day?',
@@ -66,6 +70,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug('how-to-get-rid-of-mosquitoes-in-the-house')
 
 export default function GetRidOfMosquitoesInHousePage() {
   return (
@@ -137,7 +143,7 @@ export default function GetRidOfMosquitoesInHousePage() {
           <ol>
             <li><strong>Manual swat.</strong> The highest-percentage kill in a house. Wait until dusk or dawn when the mosquito is active, watch a bright wall or the ceiling near a light, and strike when it lands with a magazine, a flip-flop, or an electric bug-racket. Patience beats chasing — a resting mosquito is a still target.</li>
             <li><strong>Indoor trap.</strong> A plug-in UV-light or heat-lure trap with a suction fan works overnight to pull numbers down while you sleep, especially in a closed bedroom where nothing else is competing for the mosquito&rsquo;s attention. Our roundup of the <Link href="/blog/best-indoor-fly-mosquito-trap-canada">best indoor fly and mosquito traps in Canada</Link> covers which types actually catch mosquitoes.</li>
-            <li><strong>Registered indoor spray.</strong> A short, targeted burst of a Health Canada (PCP)-registered indoor flying-insect spray kills on contact. Use it strictly per the label, ventilate the room afterward, and keep it away from food-prep surfaces, pets and children. This is a spot tool, not something to fog a bedroom with.</li>
+            <li><strong>Registered indoor spray.</strong> A short, targeted burst of an indoor flying-insect spray with a PCP registration number on the label kills on contact. Use it strictly per the label, ventilate the room afterward, and keep it away from food-prep surfaces, pets and children. This is a spot tool, not something to fog a bedroom with.</li>
           </ol>
           <p><strong>Skip the indoor bug zapper.</strong> Research consistently shows electric UV zappers kill mostly harmless moths and beetles and very few biting mosquitoes — indoors they&rsquo;re noise and light with little payoff.</p>
 
@@ -193,7 +199,7 @@ export default function GetRidOfMosquitoesInHousePage() {
             <li><strong>Close the window at dusk.</strong> Dusk and dawn are peak activity. Keep bedroom windows shut then, or make sure the screen has zero tears. One small hole is an open door.</li>
             <li><strong>Kill the bedside light once you&rsquo;re settled.</strong> Light draws them in from other rooms.</li>
             <li><strong>Remove water from the room</strong> — vases, a humidifier reservoir, a pet&rsquo;s water bowl left overnight.</li>
-            <li><strong>Personal repellent if bites continue.</strong> A Health Canada&ndash;approved repellent with DEET or icaridin on exposed skin adds a barrier. Follow the label for the concentration and re-application, and use age-appropriate products for children per Health Canada guidance.</li>
+            <li><strong>Personal repellent if bites continue.</strong> A repellent with DEET or icaridin (look for the PCP registration number on the label) on exposed skin adds a barrier. Follow the label for the concentration and re-application, and use age-appropriate products for children per Health Canada guidance.</li>
           </ul>
 
           <h2>Find and kill the indoor breeding source</h2>
@@ -239,12 +245,12 @@ export default function GetRidOfMosquitoesInHousePage() {
 
           <h2>The real fix: stop them outside before they get in</h2>
           <p>Every tactic above manages the mosquitoes that already made it indoors. That&rsquo;s essential for a bad night, but it&rsquo;s a losing game if a fresh supply keeps arriving from outside. In most GTA homes, the mosquito in your bedroom flew in from your own yard — from standing water, dense shade and unmanaged breeding sites a few metres from your door.</p>
-          <p>The durable solution is to lower the outdoor population so far fewer ever reach the house. That means eliminating outdoor standing water and, for a real reduction, treating the vegetation around the home so mosquitoes die on contact before they drift indoors. A professional yard <Link href="/mosquito-control">barrier spray from $99</Link> coats the shaded leaf surfaces where mosquitoes rest and keeps working for weeks per treatment — the outdoor half of the equation this indoor guide can&rsquo;t solve on its own.</p>
+          <p>The durable solution is to lower the outdoor population so far fewer ever reach the house. That means eliminating outdoor standing water and, for a real reduction, treating the vegetation around the home so mosquitoes die on contact before they drift indoors. A professional yard <Link href="/mosquito-control">barrier spray from $99</Link> on a standard lot is applied according to label directions to the shaded leaf surfaces where mosquitoes rest — the outdoor half of the equation this indoor guide can&rsquo;t solve on its own.</p>
           <p>For the full outdoor system — water management, barrier treatment, personal protection and the order to do them in — see our <Link href="/blog/ultimate-backyard-mosquito-control-guide">ultimate backyard mosquito control guide</Link>.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-emerald-300 bg-gradient-to-br from-emerald-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Tired of mosquitoes finding their way inside?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray knocks down the outdoor population feeding your indoor problem — whole-yard coverage from $99, backed by 150 five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray knocks down the outdoor population feeding your indoor problem — from $99 on a standard lot, backed by 150+ five-star Google reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -265,11 +271,11 @@ export default function GetRidOfMosquitoesInHousePage() {
                 {[
                   ['Fan on the bed/seating', 'Instant', 'Personal protection tonight'],
                   ['Manual swat at dusk', 'Instant', 'Killing the one in the room'],
-                  ['Bed net', 'Instant', 'Guaranteed sleep protection'],
+                  ['Bed net', 'Instant', 'Physical barrier while you sleep'],
                   ['Remove standing water', '1–2 weeks', 'Stopping indoor breeding'],
                   ['Fix screens / door sweep', 'Same day', 'Stopping new entries'],
                   ['Indoor UV / heat-lure trap', 'Overnight', 'Reducing numbers passively'],
-                  ['Yard barrier spray', 'Same day, weeks of residual', 'Cutting the source outside'],
+                  ['Yard barrier spray', 'Same day, renewed on a schedule', 'Cutting the source outside'],
                 ].map(([method, speed, best]) => (
                   <tr key={method} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50">{method}</td>
@@ -280,6 +286,15 @@ export default function GetRidOfMosquitoesInHousePage() {
               </tbody>
             </table>
           </div>
+
+          <AffiliateDisclosure />
+          <p>Two rows in that table are physical rather than chemical, which is why they work in a nursery, a rented room or a cottage bedroom where you would rather not spray anything at all. The fan you most likely already own. The fitted bed net you most likely do not: it hangs over the bed and simply denies the mosquito access while you sleep &mdash; nothing to reapply, nothing to plug in, and no scent in the room. It is the one purchase in this guide that ends the &ldquo;whine at 3 a.m.&rdquo; problem outright rather than managing it. <BuyLink tag={AMZ_TAG} search="mosquito bed net">Check mosquito bed nets on Amazon.ca &rarr;</BuyLink></p>
+
+          <p><strong>&ldquo;Fix screens / door sweep&rdquo; is the row that stops next week&rsquo;s mosquito.</strong> A torn corner of window screen or a finger-width gap under a side door is the entry route in most GTA houses, and both are a fifteen-minute repair rather than a trade call. A roll of screen patch tape handles the tears; a self-adhesive sweep closes the gap under the door. <BuyLink tag={AMZ_TAG} search="window screen repair patch kit">check screen repair kits on Amazon.ca &rarr;</BuyLink></p>
+
+          <p><strong>For the swat itself</strong>, the handheld electric racket mentioned earlier earns its place over a rolled magazine &mdash; you can take a mosquito out of the air rather than waiting for it to land on a wall you would rather not stain, which matters at 3 a.m. when it is circling and never settling. (This is the handheld racket, not the plug-in zapper the research pans.) <BuyLink tag={AMZ_TAG} search="electric bug racket">check electric bug rackets on Amazon.ca &rarr;</BuyLink></p>
+
+          <p><strong>And for the &ldquo;overnight, passively&rdquo; row</strong>, a plug-in indoor trap using UV light or a heat lure with a suction fan is the one thing on the list that keeps working after you fall asleep &mdash; it is the right tool for a closed bedroom where nothing else is competing for the mosquito&rsquo;s attention, and it is how you stop re-running this whole checklist every night. <BuyLink tag={AMZ_TAG} search="indoor mosquito trap plug in">check indoor mosquito traps on Amazon.ca &rarr;</BuyLink></p>
 
           <p className="text-sm text-gray-500 italic">This article is general information for Ontario homeowners, not medical or pest-control advice for a specific infestation. Always follow the label on any registered insecticide or repellent, and consult Health Canada and Public Health Ontario guidance for the current mosquito-borne disease situation in your area.</p>
 
@@ -307,7 +322,7 @@ export default function GetRidOfMosquitoesInHousePage() {
         </div>
       </article>
 
-      <CTASection heading="Kill Them Outside Before They Get In" subtext="Get a free quote for licensed yard barrier spray. From $99. Same-day protection, weeks of residual. Serving 19 GTA cities." variant="dark" />
+      <CTASection heading="Kill Them Outside Before They Get In" subtext={`Get a free quote for licensed yard barrier spray. From $99 on a standard lot. ${PROMISES.response} Serving 19 GTA cities.`} variant="dark" />
     </>
   )
 }

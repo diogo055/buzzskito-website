@@ -55,7 +55,7 @@ const FAQS = [
   },
   {
     question: 'What kills mosquitoes better than a solar bug zapper?',
-    answer: 'Almost everything designed for mosquitoes. Ranked for Ontario yards: (1) professional barrier spray — residual treatment on vegetation where mosquitoes rest, 21–30 days of control per application, also covers ticks; (2) BTI dunks/bits in any standing water — kills larvae before they fly, about $30 a season; (3) a Thermacell unit on the patio — creates a 4.5m (15 ft) repellent zone, works immediately; (4) CO₂-baited traps (Mosquito Magnet class) for large rural properties — 70–90% population knockdown over 6–8 weeks. A solar zapper ranks below all of these for mosquitoes because it targets the wrong cue (UV light) with the least power of any zapper format.',
+    answer: 'Almost everything designed for mosquitoes. Ranked for Ontario yards: (1) professional barrier spray — a residual on the vegetation where mosquitoes rest, renewed on the schedule of your plan (every 2 weeks on Standard, monthly on Basic), and it targets ticks too; (2) BTI dunks/bits in any standing water — kills larvae before they fly, about $30 a season; (3) a Thermacell unit on the patio — creates a 4.5m (15 ft) repellent zone, works immediately; (4) CO₂-baited traps (Mosquito Magnet class) for large rural properties — 70–90% population knockdown over 6–8 weeks. A solar zapper ranks below all of these for mosquitoes because it targets the wrong cue (UV light) with the least power of any zapper format.',
   },
 ]
 
@@ -259,7 +259,7 @@ export default function BestSolarBugZapperCanadaPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Solar zapper for the moths. Barrier spray for the bites.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray treats the vegetation where mosquitoes actually rest — from $99 for a single treatment with 21–30 days of residual control, serving 19 GTA cities. Tick protection can be added for $497/season on any mosquito plan.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray treats the vegetation where mosquitoes actually rest, and the residual is renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic). Single treatments from $99, serving 19 GTA cities. Tick protection can be added for $497/season on any mosquito plan.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -275,7 +275,7 @@ export default function BestSolarBugZapperCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Solar bug zapper</strong></td><td className="px-3 py-2">$30–60/unit</td><td className="px-3 py-2">Barely — moths &amp; gnats only</td><td className="px-3 py-2">No</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/flowtron-bug-zapper-canada">Plug-in zapper (Flowtron)</Link></td><td className="px-3 py-2">$80–200</td><td className="px-3 py-2">Barely — but far more insects overall</td><td className="px-3 py-2">Yes</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-mosquito-trap">CO₂ mosquito trap</Link></td><td className="px-3 py-2">$250–1,300 + consumables</td><td className="px-3 py-2">Yes — 70–90% over 6–8 weeks</td><td className="px-3 py-2">Varies</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">From $99/treatment</td><td className="px-3 py-2">Yes — same day, 21–30 day residual, covers ticks</td><td className="px-3 py-2">No</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">From $99/treatment</td><td className="px-3 py-2">Yes — residual renewed on your plan schedule, targets ticks too</td><td className="px-3 py-2">No</td></tr>
             </tbody>
           </table>
 
@@ -287,10 +287,13 @@ export default function BestSolarBugZapperCanadaPage() {
             <li><strong>Empty the tray weekly in July.</strong> A caked grid loses voltage arc efficiency and starts to smell after rain.</li>
             <li><strong>Bring it in by Thanksgiving.</strong> Frost is what murders these units. Store indoors at half charge and it will actually survive to next May — most don&rsquo;t because they winter in the garden.</li>
           </ol>
+          <p>Step two is the one that quietly decides whether you like the thing. A dock post or a bunkie corner is exactly where the panel underperforms — shade from the trees, a week of cloud, a September sun angle — and the USB-C port is the escape hatch. A mid-size power bank left in the boat or the cottage drawer turns a half-charged unit back into a full night, which is also how you run it at a campsite with no sun at all: <BuyLink tag={AMZ_TAG} search="portable power bank usb c">check power banks on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>The Bottom Line</h2>
           <p>A $30–60 solar bug zapper is an honest little device as long as you buy it for what it is: cordless path lighting with a side of moth control, perfect for docks, campsites, and off-grid corners no extension cord can reach. Pick a 4,500V dual-charge unit with USB-C backup and an IP rating, skip anything under $25, and don&rsquo;t pay over $70.</p>
           <p>Just don&rsquo;t let the marketing photos sell you a mosquito solution. Zappers of every wattage kill the insects that annoy you, not the ones that bite you. For a GTA backyard you actually want to sit in from May to September, the working stack is BTI dunks in standing water, a repellent zone on the patio, and residual barrier spray on the vegetation — with the solar zapper glowing decoratively down by the fence, doing its modest, cordless best.</p>
+          <p>Two of those three layers you can put in place yourself this week. The first is the cheapest thing in the whole guide: a BTI dunk dropped into the rain barrel, the pond edge, the dock&rsquo;s tire bumper or any tray that holds water for a week kills the larvae before they ever become the mosquitoes the zapper cannot catch. <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">check BTI mosquito dunks on Amazon.ca &rarr;</BuyLink></p>
+          <p>The second is the patio zone. Because a zapper is bait you sit away from, the seating area itself is left unprotected &mdash; and a butane repeller is the device built for precisely that gap, putting a protection zone around the chairs rather than a light show down by the fence. It is also the cottage answer when there is no hydro to run anything else. <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">check patio repellers on Amazon.ca &rarr;</BuyLink></p>
 
           <div className="not-prose my-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="solar bug zapper outdoor 4500V USB-C">Shop 4,500V dual-charge zappers →</BuyLink>
@@ -320,7 +323,7 @@ export default function BestSolarBugZapperCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Solar Zapper for the Dock · Barrier Spray for the Backyard" subtext="Licensed barrier spray from $99 per treatment. Same-day protection, 21–30 day residual, mosquitoes and ticks. Serving 19 GTA cities." variant="dark" />
+      <CTASection heading="Solar Zapper for the Dock · Barrier Spray for the Backyard" subtext="Licensed barrier spray for mosquitoes and ticks, from $99 per treatment. Rain-back guarantee on every plan. Serving 19 GTA cities." variant="dark" />
     </>
   )
 }

@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CityHero from '@/components/CityHero'
 import CTASection from '@/components/CTASection'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Woodbridge Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Woodbridge specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Sonoma Heights, West Woodbridge, East Woodbridge, Pine Valley. Call (289) 216-5030.",
+    "Woodbridge specialist mosquito barrier spray. Licensed Ontario operator, from $99/treatment, no contracts, rain-back guarantee on every plan. Sonoma Heights, West Woodbridge, East Woodbridge, Pine Valley. Call (289) 216-5030.",
   canonical: '/woodbridge-mosquito-control',
 })
 
@@ -30,16 +32,16 @@ const FAQS = [
     answer: "Pine Valley and Weston Downs are positioned near the Black Creek confluence and the Humber River corridor, giving them a similar though slightly less intense mosquito challenge compared to Islington Woods. The mature residential tree canopy throughout Pine Valley — many properties have large oaks and maples that create dense shade — provides excellent adult mosquito resting habitat. The golf course corridors in the area also contribute through their irrigation ponds and rough-edge vegetation. A May start to barrier spray treatment covers the main emergence window effectively.",
   },
   {
-    question: 'Is professional barrier spray safe for my landscaped Woodbridge property?',
-    answer: "Yes. Our Health Canada–approved, water-based barrier spray formula is applied as a fine mist to leaf surfaces on your vegetation and shrubs — it does not harm established trees, ornamental plants, or lawn turf. The product is safe for kids and pets to be on the treated area once the spray has dried, which typically takes 30 minutes under normal conditions. We take care around any pollinator garden areas and avoid spraying directly on open flowers. Our technicians are fully licensed and trained in urban residential applications.",
+    question: 'How is professional barrier spray applied on a landscaped Woodbridge property?',
+    answer: "Our licensed technician applies the barrier spray according to its label directions, as a fine mist to leaf surfaces on your vegetation and shrubs. Keep kids and pets off the treated area until the spray has dried, as the product label directs. We take care around any pollinator garden areas and avoid spraying directly on open flowers. Our technicians are fully licensed and trained in urban residential applications.",
   },
   {
     question: 'How many mosquito treatments does a Woodbridge property need per season?',
-    answer: 'For properties in Woodbridge — particularly those near Boyd Conservation Area, the Humber River, or Black Creek — we recommend 5 treatments from May through September, spaced 21–28 days apart. The proximity to Boyd Conservation Area and the Humber River valley means new mosquitoes are continuously emerging nearby, making consistent re-application important. Properties further from these corridors may be well-protected with 4 treatments.',
+    answer: 'Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Woodbridge properties near Boyd Conservation Area, the Humber River, or Black Creek typically benefit from Standard’s two-week spacing: new mosquitoes are continuously emerging nearby, making consistent re-application important. Properties further from these corridors may be well-served by Basic.',
   },
   {
     question: 'Does BuzzSkito provide tick control in Woodbridge as well?',
-    answer: 'Yes. Boyd Conservation Area and the Humber River valley in Woodbridge are established blacklegged tick habitat. Properties in Islington Woods that back onto the Boyd Conservation Area boundary carry meaningful tick risk throughout the active season (May through October). Many Woodbridge homeowners bundle mosquito and tick treatments — the same visit covers both for complete yard protection.',
+    answer: 'Yes. Boyd Conservation Area and the Humber River valley in Woodbridge are established blacklegged tick habitat. Properties in Islington Woods that back onto the Boyd Conservation Area boundary carry meaningful tick risk throughout the active season (May through October). Many Woodbridge homeowners bundle mosquito and tick treatments — both can be done on the same visit, so both pests are covered.',
   },
 ]
 
@@ -62,11 +64,13 @@ export default function WoodbridgeMosquitoPage() {
         ]}
         title={<>{CITY} Mosquito Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>From Islington Woods backing onto Boyd Conservation Area to Pine Valley&apos;s Black Creek corridor — BuzzSkito delivers professional mosquito barrier spray to every Woodbridge neighbourhood.</>}
+        subtitle={<>Licensed Ontario pesticide operator treating every Woodbridge neighbourhood, from Islington Woods backing onto Boyd Conservation Area to Pine Valley&apos;s Black Creek corridor. Treatments applied according to label directions.</>}
         image="/spray-backyard.webp"
       />
 
       
+      <TypicalPrices service="mosquito" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -75,8 +79,8 @@ export default function WoodbridgeMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product, according to its label directions, to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: 'Rain within 1 hour of your treatment? We come back and re-treat free, on every plan. Standard & Exclusive plans also carry the Bite-Free Guarantee.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -92,7 +96,7 @@ export default function WoodbridgeMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Mosquito Pressure Is High in Woodbridge</h2>
           <p>Woodbridge occupies one of the most mosquito-active positions in Vaughan. The community is wrapped on its western and northern sides by Boyd Conservation Area — the Humber River&apos;s largest conservation park — with the Humber River floodplain running directly adjacent to Islington Woods and Weston Downs. Black Creek, which originates in Maple and flows south through Woodbridge, joins the Humber in this area, adding its own contribution of standing water habitat along the confluence zone near Pine Valley.</p>
-          <p>The mature residential tree canopy that characterizes much of Woodbridge — particularly in Islington Woods and Weston Downs, where homes are often shaded by large oaks, maples, and spruce — amplifies the mosquito problem by providing ideal daytime resting conditions. Adult mosquitoes emerging from the Humber River floodplain drift into these shaded neighbourhoods and spend the day resting on leaf surfaces, fence lines, and hedges until they feed at dusk. Professional barrier spray eliminates these resting adults and keeps new ones from establishing in your yard.</p>
+          <p>The mature residential tree canopy that characterizes much of Woodbridge — particularly in Islington Woods and Weston Downs, where homes are often shaded by large oaks, maples, and spruce — amplifies the mosquito problem by providing ideal daytime resting conditions. Adult mosquitoes emerging from the Humber River floodplain drift into these shaded neighbourhoods and spend the day resting on leaf surfaces, fence lines, and hedges until they feed at dusk. Professional barrier spray targets these resting surfaces, and repeat visits keep the treated zone renewed as new mosquitoes drift in from the valley.</p>
 
           <h2>Woodbridge Neighbourhoods We Serve</h2>
           <p>BuzzSkito provides mosquito control across all Woodbridge communities, including:</p>
@@ -104,13 +108,15 @@ export default function WoodbridgeMosquitoPage() {
           <ul>
             <li><strong>Canopy and valley-edge assessment</strong> — We map your property&apos;s relationship to the Humber River, Boyd Conservation Area, and Black Creek corridor.</li>
             <li><strong>Full-yard barrier spray</strong> — All vegetation, hedges, ornamental plantings, fence lines, and tree understorey treated on every visit.</li>
-            <li><strong>28-day residual protection</strong> — Health Canada–approved formula continues working between visits; safe for kids and pets after a 30-minute dry time.</li>
-            <li><strong>Seasonal program</strong> — Five visits May through September, timed to Humber River and Boyd Conservation Area emergence patterns.</li>
+            <li><strong>Label-directed application</strong> — {PROMISES.labelLine}, by a licensed operator. Stay off treated areas until the spray has dried.</li>
+            <li><strong>Seasonal program</strong> — Five visits (Basic), 10 (Standard) or 20+ (Exclusive) May through September, timed to Humber River and Boyd Conservation Area emergence patterns.</li>
           </ul>
 
           <h2>Also Providing Tick Control in Woodbridge</h2>
-          <p>Boyd Conservation Area and the Humber River valley in Woodbridge are established blacklegged tick habitat — risk is high for properties adjacent to the conservation boundary, particularly in Islington Woods. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Woodbridge tick spray service</Link> — bundling both treatments gives your property complete protection through the season.</p>
+          <p>Boyd Conservation Area and the Humber River valley in Woodbridge are established blacklegged tick habitat — risk is high for properties adjacent to the conservation boundary, particularly in Islington Woods. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Woodbridge tick spray service</Link> — many homeowners bundle both treatments so both pests are covered through the season.</p>
 
+
+          <CityPriceCard city={CITY} service="mosquito" />
 
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
@@ -132,10 +138,10 @@ export default function WoodbridgeMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats the resting surfaces across your whole property, creating a residual barrier that is renewed on a set schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -181,6 +187,10 @@ export default function WoodbridgeMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="mosquito" location="price_card_faq" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

@@ -36,7 +36,7 @@ const FAQS = [
   },
   {
     question: 'Do foggers actually kill mosquitoes, or just knock them down for the evening?',
-    answer: 'A thermal fog does two things. It knocks down the adult mosquitoes flying in the treated air right now, and — depending on the solution you use — it can leave a light residual on the foliage it settles onto that keeps working for a short window afterward. Foggers are a space treatment: their strength is clearing a defined area shortly before you use it, which is why people fog an hour or two before a backyard party. What a consumer fogger does not do is deliver the even, calibrated, weeks-long residual barrier that professional application achieves. Treat a fogger as an event tool and a supplement, not a set-and-forget season-long solution.',
+    answer: 'A thermal fog does two things. It knocks down the adult mosquitoes flying in the treated air right now, and — depending on the solution you use — it can leave a light residual on the foliage it settles onto that keeps working for a short window afterward. Foggers are a space treatment: their strength is clearing a defined area shortly before you use it, which is why people fog an hour or two before a backyard party. What a consumer fogger does not do is deliver the even, calibrated residual barrier that professional application lays down and renews on a set schedule. Treat a fogger as an event tool and a supplement, not a set-and-forget season-long solution.',
   },
   {
     question: 'Which fog solution should I use in Canada — and why does PMRA registration matter?',
@@ -64,7 +64,7 @@ const FAQS = [
   },
   {
     question: 'When should I just hire a professional instead of fogging myself?',
-    answer: 'Fog it yourself when you want fast, occasional knockdown over an area you can safely treat and you are comfortable handling a hot machine and a registered pesticide correctly. Hire a professional when you want season-long, whole-yard coverage that also controls ticks, when your lot is large or complex, when you would rather not store fuel and pesticide or manage re-entry timing, or when you simply want it handled. A single professional barrier treatment starts around $99, covers the entire yard the same day, uses correctly calibrated equipment and registered products, and lasts weeks — which for many GTA homeowners is less total effort than fogging every few evenings all summer.',
+    answer: 'Fog it yourself when you want fast, occasional knockdown over an area you can safely treat and you are comfortable handling a hot machine and a registered pesticide correctly. Hire a professional when you want season-long, whole-yard coverage on a set treatment schedule that also targets ticks, when your lot is large or complex, when you would rather not store fuel and pesticide or manage re-entry timing, or when you simply want it handled. A single professional barrier treatment starts at $99 on a standard lot, covers the entire yard in one visit with correctly calibrated equipment and a licensed application according to label directions, and on a season plan the residual is renewed on schedule (every 2 weeks on Standard, monthly on Basic) — which for many GTA homeowners is less total effort than fogging every few evenings all summer.',
   },
 ]
 
@@ -186,7 +186,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ A fogger is a knockdown tool, not a season pass.</strong> It clears a defined area shortly before you use it, but it will not lay down the even, weeks-long barrier that <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional treatment</Link> achieves &mdash; and it does little for ticks, which sit low in leaf litter.
+              <strong className="text-amber-900">⚠️ A fogger is a knockdown tool, not a season pass.</strong> It clears a defined area shortly before you use it, but it will not lay down the even barrier that <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional treatment</Link> applies and renews on a set schedule &mdash; and it does little for ticks, which sit low in leaf litter.
             </p>
           </div>
         </div>
@@ -228,7 +228,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Big, remote, or awkward lot?</strong> The <em>Best Overall</em> propane Burgess is the fogger to buy. <strong>Small yard by the house on a budget?</strong> The <em>Best Budget</em> Black Flag electric does the same job for less. <strong>Want a barrier that lasts weeks and covers ticks too?</strong> A <Link href="/blog/backpack-sprayer-canada">sprayer</Link> beats both foggers &mdash; or skip the DIY entirely and let <Link href="/mosquito-control">professional barrier spray</Link> handle the whole yard, mosquitoes and ticks, the same day.
+                <strong>Big, remote, or awkward lot?</strong> The <em>Best Overall</em> propane Burgess is the fogger to buy. <strong>Small yard by the house on a budget?</strong> The <em>Best Budget</em> Black Flag electric does the same job for less. <strong>Want a residual barrier that reaches ticks too?</strong> A <Link href="/blog/backpack-sprayer-canada">sprayer</Link> beats both foggers &mdash; or skip the DIY entirely and let <Link href="/mosquito-control">professional barrier spray</Link> handle the whole yard, mosquitoes and ticks.
               </>
             }
           />
@@ -276,7 +276,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
 
           <h2>What a Fogger Does Well — and What It Doesn&rsquo;t</h2>
           <p>Set your expectations correctly and a fogger is a satisfying, effective tool. Its strength is <strong>fast knockdown over a defined area</strong>: fog the yard an hour or two before a barbecue, wedding, or evening on the deck, and you clear the flying mosquitoes from that space right when you need it clear. The visible cloud is genuinely gratifying, and the light residual it leaves on foliage keeps working for a short window.</p>
-          <p>What a consumer fogger does <em>not</em> do is replace a season-long barrier. It is a space treatment, not a calibrated, even, weeks-long residual — that is the domain of professional application or, to a lesser degree, a careful <Link href="/blog/backpack-sprayer-canada">backpack or pump sprayer</Link> laying down a controlled coat on the surfaces that matter. Nor is a fogger a tick tool: ticks sit low in leaf litter, tall grass, and the shaded lawn-to-woods transition, and an overhead drifting fog largely floats past them. If ticks are your real worry, a targeted residual into those low harbourage zones does far more than any fog. For a fuller picture of where an aerosol fog fits against a targeted cold spray, see our <Link href="/blog/thermal-vs-ulv-fogger-canada">thermal vs ULV fogger comparison</Link>.</p>
+          <p>What a consumer fogger does <em>not</em> do is replace a season-long barrier. It is a space treatment, not a calibrated, even residual renewed on a schedule — that is the domain of professional application or, to a lesser degree, a careful <Link href="/blog/backpack-sprayer-canada">backpack or pump sprayer</Link> laying down a controlled coat on the surfaces that matter. Nor is a fogger a tick tool: ticks sit low in leaf litter, tall grass, and the shaded lawn-to-woods transition, and an overhead drifting fog largely floats past them. If ticks are your real worry, a targeted residual into those low harbourage zones does far more than any fog. For a fuller picture of where an aerosol fog fits against a targeted cold spray, see our <Link href="/blog/thermal-vs-ulv-fogger-canada">thermal vs ULV fogger comparison</Link>.</p>
 
           <h2>Foggers vs the Rest of the Mosquito Toolkit</h2>
           <p>A fogger is one option among several, and the honest framing is that it is the fast-knockdown specialist. Here is roughly how it sits against the other common approaches for a GTA backyard:</p>
@@ -289,14 +289,14 @@ export default function PropaneVsElectricFoggerCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/backpack-sprayer-canada">Backpack / pump sprayer</Link></td><td className="px-3 py-2">Controlled residual barrier</td><td className="px-3 py-2">Longer</td><td className="px-3 py-2">Yes, if edges treated</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-magnet-canada">Propane CO₂ trap (Mosquito Magnet)</Link></td><td className="px-3 py-2">Slow population reduction</td><td className="px-3 py-2">Weeks (continuous)</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/motion-activated-sprinkler-canada">Motion-activated sprinkler</Link></td><td className="px-3 py-2">Deters larger yard pests</td><td className="px-3 py-2">Ongoing</td><td className="px-3 py-2">No</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Even whole-yard residual</td><td className="px-3 py-2">21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Even whole-yard residual</td><td className="px-3 py-2">Renewed on your plan schedule</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
           <p>Many committed DIYers own both a fogger and a sprayer: the sprayer lays the durable barrier, the fogger delivers the dramatic pre-event knockdown. If you can buy only one and want lasting mosquito-and-tick coverage, the sprayer is usually more versatile; if you want instant wide-area clearing before guests arrive, the fogger wins.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or skip the fuel, the fog, and the guesswork</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray covers your whole GTA yard from $99 &mdash; correctly calibrated equipment, registered products, 21&ndash;30-day residual, and it controls ticks too. Backed by 150 five-star reviews across 19 cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray covers your whole GTA yard from $99 &mdash; correctly calibrated equipment, a licensed application according to label directions, a residual renewed on your plan&rsquo;s schedule, and it targets ticks too. Backed by 150 five-star reviews across 19 cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -339,7 +339,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Fog · Get Whole-Yard Coverage" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 21–30-day residual — and it kills ticks too." variant="dark" />
+      <CTASection heading="Skip the Fog · Get Whole-Yard Coverage" subtext="Get a free quote for licensed mosquito and tick barrier spray. From $99. Rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

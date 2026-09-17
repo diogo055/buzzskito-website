@@ -98,6 +98,7 @@ export default function WestNilePage() {
         <p>West Nile Virus (WNV) is a mosquito-borne illness that has been present in Ontario since 2001. The virus circulates between birds (the primary reservoir host) and mosquitoes, with humans infected incidentally when bitten by an infected mosquito. <em>Culex</em> mosquito species — particularly <em>Culex pipiens</em> — are the primary WNV vectors in the GTA.</p>
         <p>Ontario public health agencies, including Toronto Public Health and the Peel Region Health Department, conduct annual mosquito surveillance programs, trapping and testing pools of mosquitoes for WNV. Positive pools are confirmed in the GTA every year, with the highest activity typically in July and August.</p>
         <p>Toronto is the clearest illustration of that pattern, since its storm catch basins give <em>Culex</em> the stagnant, organically rich water they prefer right through the dry weeks of summer. Our <Link href="/blog/west-nile-virus-toronto-2026" className="text-brand-700 hover:underline">Toronto West Nile risk guide for 2026</Link> maps how the risk builds and falls across the season.</p>
+        <p>West Nile is not the province&rsquo;s largest vector-borne illness, though. Ontario&rsquo;s reportable-disease figures are dominated by the tick side of the ledger &mdash; <Link href="/blog/lyme-disease-cases-ontario-2026" className="text-brand-700 hover:underline">Lyme disease cases in Ontario</Link> sets out the most recent published counts, which is useful context when you are deciding how much of the yard budget belongs to mosquitoes and how much to ticks.</p>
 
         <h2>Who Is at Risk?</h2>
         <p>Most people (approximately 80%) infected with West Nile Virus experience no symptoms. About 20% develop West Nile Fever — a flu-like illness with fever, headache, body aches, and sometimes rash. Less than 1% of infected people develop severe neurological illness (encephalitis or meningitis).</p>
@@ -125,7 +126,7 @@ export default function WestNilePage() {
         </div>
 
         <h2>How Professional Mosquito Control Reduces WNV Risk</h2>
-        <p>Reducing the population of mosquitoes in and around your property directly reduces your exposure risk. Professional barrier spray eliminates adult mosquitoes — including <em>Culex</em> species that carry WNV — from your yard's vegetation, creating a significant reduction in the mosquito density your family is exposed to during outdoor activities.</p>
+        <p>Reducing the population of mosquitoes in and around your property directly reduces your exposure risk. Professional barrier spray targets the adult mosquitoes resting in your yard's vegetation — including <em>Culex</em> species that carry WNV — creating a significant reduction in the mosquito density your family is exposed to during outdoor activities.</p>
         <p>No mosquito control method eliminates 100% of mosquitoes, but substantially reducing the number of biting mosquitoes in your immediate environment meaningfully reduces the probability of encountering an infected mosquito.</p>
 
         <h2>Related Guides</h2>

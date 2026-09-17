@@ -19,7 +19,7 @@ const META_TITLE = 'Best Mosquito Trap for Acreage Canada 2026'
 const FAQS = [
   {
     question: 'What is the best mosquito trap for acreage in Canada?',
-    answer: 'For a large property, the best mosquito trap in Canada is a propane CO₂ trap such as the Mosquito Magnet Executive. It catalytically burns propane to make real carbon dioxide plus heat and moisture — the exact cues an egg-laying female mosquito hunts for — and covers roughly one acre per unit, cutting the biting population 70–90% over 6–8 weeks of continuous running. On multi-acre lots you run several units, one per acre, positioned upwind of the house between the mosquito breeding source and your living areas. A big UV-plus-fan trap like the DynaTrap XL is the cheaper large-coverage alternative, but it catches far fewer mosquitoes because it uses light rather than CO₂. For same-day, whole-property relief that also controls ticks, a professional barrier spray does something no trap is designed to do: it treats the vegetation mosquitoes rest on and the leaf litter ticks wait in, rather than waiting for the insects to travel to a device.',
+    answer: 'For a large property, the best mosquito trap in Canada is a propane CO₂ trap such as the Mosquito Magnet Executive. It catalytically burns propane to make real carbon dioxide plus heat and moisture — the exact cues an egg-laying female mosquito hunts for — and covers roughly one acre per unit, cutting the biting population 70–90% over 6–8 weeks of continuous running. On multi-acre lots you run several units, one per acre, positioned upwind of the house between the mosquito breeding source and your living areas. A big UV-plus-fan trap like the DynaTrap XL is the cheaper large-coverage alternative, but it catches far fewer mosquitoes because it uses light rather than CO₂. For whole-property relief that also targets ticks, a professional barrier spray does something no trap is designed to do: it treats the vegetation mosquitoes rest on and the leaf litter ticks wait in, rather than waiting for the insects to travel to a device.',
   },
   {
     question: 'How many mosquito traps do I need per acre?',
@@ -43,7 +43,7 @@ const FAQS = [
   },
   {
     question: 'Can a mosquito trap replace professional spraying on acreage?',
-    answer: 'Not on its own, and not quickly. Traps and barrier spray solve different halves of the problem: a trap slowly thins the breeding population across the wider property over weeks, while a barrier spray treats the vegetation around your actual living areas with a residual that kills mosquitoes on contact for 21–30 days and works the same day. On large rural lots the smart pattern is to use both — traps for sustained, whole-property pressure and a targeted spray around the house, patio, play area, and paths so those zones are usable tonight. A trap also does nothing for ticks, which are a serious concern on rural and wooded acreage; only a barrier or perimeter spray controls both mosquitoes and ticks together.',
+    answer: 'Not on its own, and not quickly. Traps and barrier spray solve different halves of the problem: a trap slowly thins the breeding population across the wider property over weeks, while a barrier spray treats the vegetation around your actual living areas with a residual that sits on the leaves where mosquitoes rest and is renewed on the plan schedule (every 2 weeks on Standard, monthly on Basic). On large rural lots the smart pattern is to use both — traps for sustained, whole-property pressure and a targeted spray around the house, patio, play area, and paths so the spaces you actually use are treated directly. A trap also does nothing for ticks, which are a serious concern on rural and wooded acreage; only a barrier or perimeter spray targets both mosquitoes and ticks together.',
   },
   {
     question: 'Are grey-market US mosquito traps a problem in Canada?',
@@ -113,7 +113,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
               <li>Place each trap upwind, in shade, 10&ndash;12 m out, between the pond/treeline/ditch and where people gather.</li>
               <li>Running cost is real: $400&ndash;$600 per trap per season in propane and attractant cartridges.</li>
               <li>DynaTrap XL trades mosquito-specific catch for lower cost and no propane logistics &mdash; good for cottages.</li>
-              <li>No trap works tonight, and none control ticks &mdash; a professional barrier spray does both across the living areas.</li>
+              <li>Traps take weeks, and none control ticks &mdash; a professional barrier spray treats the vegetation around the living areas directly and targets ticks where they wait.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150 five-star Google reviews</p>
           </div>
@@ -165,7 +165,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Chronic-problem rural acreage by a wetland?</strong> The <em>Best for Acreage</em> Mosquito Magnet Executive is the real tool &mdash; and buy one per acre. <strong>Covering several acres on a budget?</strong> Run multiple <em>Best Multi-Unit Value</em> Patriot Plus units instead of one flagship. <strong>Weekend cottage you cannot babysit?</strong> The hands-off <em>Best Big-Coverage Value</em> DynaTrap XL fits. <strong>Want targeted catch without a propane burner?</strong> The <em>CO₂ Lure Alternative</em> splits the difference &mdash; but for same-day, whole-living-area relief that also kills ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Chronic-problem rural acreage by a wetland?</strong> The <em>Best for Acreage</em> Mosquito Magnet Executive is the real tool &mdash; and buy one per acre. <strong>Covering several acres on a budget?</strong> Run multiple <em>Best Multi-Unit Value</em> Patriot Plus units instead of one flagship. <strong>Weekend cottage you cannot babysit?</strong> The hands-off <em>Best Big-Coverage Value</em> DynaTrap XL fits. <strong>Want targeted catch without a propane burner?</strong> The <em>CO₂ Lure Alternative</em> splits the difference &mdash; but for coverage across the whole living area that also targets ticks, look at <Link href="/mosquito-control">professional barrier spray</Link>, applied to the vegetation around the house and renewed on a schedule.
               </>
             }
           />
@@ -220,7 +220,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ No trap protects you tonight, and none kill ticks.</strong> Every trap thins the population over weeks. For same-day usability of your patio, play area, and paths &mdash; and for tick control, which matters on rural and wooded land &mdash; a <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> works in hours and lasts 21&ndash;30 days.
+              <strong className="text-amber-900">⚠️ Traps work over weeks, and none kill ticks.</strong> Every trap thins the population slowly. For your patio, play area, and paths &mdash; and for tick control, which matters on rural and wooded land &mdash; a <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> directly treats the leaves where mosquitoes rest, with the residual renewed on your plan&rsquo;s schedule.
             </p>
           </div>
         </div>
@@ -243,7 +243,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
                   ['Tick effectiveness', 'None — ticks do not fly to any trap'],
                   ['Best low-maintenance pick', 'DynaTrap XL (no propane) for cottages'],
                   ['Foundation step', 'Larvicide standing water (Bti dunks/bits)'],
-                  ['Fastest same-day fix', 'Professional barrier spray or Thermacell zone'],
+                  ['Treat the living areas directly', 'Professional barrier spray or Thermacell zone'],
                   ['Health Canada status', 'Traps are devices — no PCP pesticide registration'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -276,6 +276,10 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
           <p>If your goal is to measurably drop the biting population across a large property, buy a propane CO₂ trap. These are the only consumer traps that generate <strong>real carbon dioxide</strong> &mdash; by catalytically burning propane &mdash; along with the heat and moisture that complete the illusion of a warm-blooded host. A female mosquito hunting a blood meal follows exactly those cues, so the trap intercepts and kills the egg-laying females that would otherwise seed the next generation across your land.</p>
           <p>The Mosquito Magnet line leads the category. The cordless <strong>Executive</strong> is the flagship for acreage because you can place it anywhere on the property without hunting for an outlet, and its self-tuning burner adapts to conditions; the corded <strong>Patriot Plus</strong> is the value entry point when you would rather buy several units to blanket multiple acres. Independent and CDC-referenced testing supports 70&ndash;90% population reduction within roughly a 1-acre radius after 6&ndash;8 weeks of continuous running. The honest catch: a unit is $500&ndash;$1,300, and each one burns through $400&ndash;$600 per season in propane and Octenol or Lurex attractant. On a chronic-problem rural lot that commitment pays off; on a property you rarely use, it will not. Our full <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada guide</Link> compares every model and covers where to buy, and our head-to-head <Link href="/blog/mosquito-magnet-vs-dynatrap-canada">Mosquito Magnet vs DynaTrap comparison</Link> settles the question most acreage buyers actually ask.</p>
           <p><strong>Best for:</strong> rural acreage and cottages bordering wetlands, ponds, or dense treeline, where you will commit to running the trap 24/7 all season and keeping it fed.</p>
+          <p className="not-prose text-sm text-gray-600 mb-2">The attractant cartridge is the consumable that decides whether a propane unit performs &mdash; it is swapped roughly every three weeks and is bought separately from the fuel. Order a season&rsquo;s worth at once; running a trap on a spent cartridge is the most common way acreage owners waste a summer of propane.</p>
+          <div className="not-prose mb-6">
+            <BuyLink tag={AMZ_TAG} search="mosquito trap octenol attractant refill">Check octenol attractant refills →</BuyLink>
+          </div>
 
           <h2>The Big-Coverage Budget Route: DynaTrap XL</h2>
           <p>Not everyone wants to run a propane operation. The <strong>DynaTrap XL</strong> (the DT3050 and DT3600 &ldquo;whole-acre&rdquo; models) is the large-area, low-maintenance alternative: UV light plus a whisper-quiet fan, no propane, no attractant swaps, nothing to service beyond emptying the basket and changing a bulb once a season. It is rated for up to about an acre, and for a weekend cottage where nobody is around to swap propane tanks every three weeks, that hands-off simplicity is worth a lot.</p>
@@ -296,11 +300,11 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
           <p>What you are paying for, in priority order, is: <strong>real CO₂ generation</strong> (the mechanism that actually draws biting females &mdash; this is the whole reason to spend on propane), <strong>enough units to match your acreage</strong> (an underpowered single trap on a big lot is money half-wasted), and <strong>a maintenance habit you will keep</strong> (a trap turned off for a week in July surrenders weeks of progress). Cordless placement and self-tuning burners are genuine conveniences on a large property, but they come after those three.</p>
 
           <h2>Running Cost: The Number Most Buyers Underestimate</h2>
-          <p>The sticker price is the small number. A propane trap burns roughly one 20&nbsp;lb tank every 21 days &mdash; six to eight refills across a May-to-September season &mdash; plus an attractant cartridge swapped every three weeks and the occasional replacement net. That is $400&ndash;$600 per trap, per season, in consumables. On a 3-acre property running three units, budget $1,500&ndash;$2,000 a season on top of the hardware. That figure is exactly why many acreage owners do not try to trap the entire property: they run one or two traps for long-term pressure on the worst zones and use a targeted barrier spray around the areas they actually live in, which is both cheaper and faster for those spaces.</p>
+          <p>The sticker price is the small number. A propane trap burns roughly one 20&nbsp;lb tank every 21 days &mdash; six to eight refills across a May-to-September season &mdash; plus an attractant cartridge swapped every three weeks and the occasional replacement net. That is $400&ndash;$600 per trap, per season, in consumables. On a 3-acre property running three units, budget $1,500&ndash;$2,000 a season on top of the hardware. That figure is exactly why many acreage owners do not try to trap the entire property: they run one or two traps for long-term pressure on the worst zones and use a targeted barrier spray around the areas they actually live in, which is both cheaper and more direct for those spaces.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Big property in the GTA? Let us handle the living areas.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A trap thins the wider property over weeks; BuzzSkito&rsquo;s barrier spray makes your patio, play area, and paths usable the same day &mdash; and it kills ticks, which traps never touch. From $99, backed by 150 five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A trap thins the wider property over weeks; BuzzSkito&rsquo;s barrier spray treats the vegetation around your patio, play area, and paths directly &mdash; and it targets ticks where they wait, which traps never touch. From $99, backed by 150 five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Yard Assessment →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -312,10 +316,18 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
           <ol>
             <li><strong>Source reduction first.</strong> Empty or drain every container, tire, tarp, and clogged gutter, and treat water you cannot remove &mdash; ponds, low spots, rain barrels &mdash; with Bti larvicide (mosquito dunks or bits), which kills larvae before they become biting adults and is harmless to fish, pets, and wildlife.</li>
             <li><strong>CO₂ traps for whole-property pressure.</strong> One propane unit per acre, placed and maintained as above, to thin the egg-laying population over the season.</li>
-            <li><strong>Barrier spray around the living areas.</strong> A residual treatment on the vegetation around the house, patio, play zone, and paths kills mosquitoes on contact for 21&ndash;30 days, works the same day, and &mdash; unlike any trap &mdash; also controls the ticks that thrive on rural and wooded land. See our <Link href="/mosquito-control">mosquito control service</Link> for how the seasonal program works.</li>
+            <li><strong>Barrier spray around the living areas.</strong> A residual treatment on the vegetation around the house, patio, play zone, and paths kills mosquitoes on contact where they rest, is renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic), and &mdash; unlike any trap &mdash; also targets the ticks that thrive on rural and wooded land. See our <Link href="/mosquito-control">mosquito control service</Link> for how the seasonal program works.</li>
             <li><strong>A Thermacell on the deck</strong> for an instant personal repellent bubble while you are actually sitting outside.</li>
           </ol>
-          <p>For the DIY end of that stack, a <Link href="/blog/backpack-sprayer-canada">backpack sprayer</Link> lets you apply your own larvicide and treatments across a big lot, and a <Link href="/blog/best-thermal-fogger-canada">thermal fogger</Link> can knock down adult mosquitoes in a treeline before an event. But the honest bottom line on acreage is that traps handle the slow, wide job and a barrier spray handles the fast, close job &mdash; and together they beat either one alone.</p>
+          <p className="not-prose text-sm text-gray-600 mb-2">Step one is also the cheapest thing on this page. Bti larvicide comes as floating dunks for ponds and rain barrels or as granular bits for low spots and ditches, and on a big lot you will use more of it than you expect.</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="mosquito dunks bti larvicide">Check Bti dunks &amp; bits →</BuyLink>
+          </div>
+          <p className="not-prose text-sm text-gray-600 mb-2">And for step four, the repeller is the one item that changes tonight rather than in six weeks &mdash; a refill pack matters more than the device on a property where people sit out every evening.</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="thermacell patio shield mosquito repeller">Check patio repellers &amp; refills →</BuyLink>
+          </div>
+          <p>For the DIY end of that stack, a <Link href="/blog/backpack-sprayer-canada">backpack sprayer</Link> lets you apply your own larvicide and treatments across a big lot, and a <Link href="/blog/best-thermal-fogger-canada">thermal fogger</Link> can knock down adult mosquitoes in a treeline before an event. But the honest bottom line on acreage is that traps handle the slow, wide job and a barrier spray handles the close, targeted job &mdash; they cover different ground, which is why acreage owners often run both.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
@@ -343,7 +355,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Trap the Property · Spray the Living Areas" subtext="Get a free quote for licensed barrier spray around the spaces you actually use. From $99. Same-day protection. 30-day residual — and it kills ticks too." variant="dark" />
+      <CTASection heading="Trap the Property · Spray the Living Areas" subtext="Get a free quote for licensed barrier spray around the spaces you actually use. From $99. Rain-back guarantee on every plan — and it targets ticks too." variant="dark" />
     </>
   )
 }

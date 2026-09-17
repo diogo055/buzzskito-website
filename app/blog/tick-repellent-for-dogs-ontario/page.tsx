@@ -39,7 +39,7 @@ const FAQS = [
   },
   {
     question: 'Can I use human tick repellent on my dog?',
-    answer: 'No. Never apply human insect repellents to dogs without veterinary direction. DEET is toxic to dogs and can cause vomiting, tremors, and seizures. Permethrin-treated clothing is safe around dogs once dry, but concentrated permethrin products intended for dogs must never be used on cats, where they are frequently fatal. Use only products formulated and dosed for your dog\'s species and weight.',
+    answer: 'No. Never apply human insect repellents to dogs without veterinary direction. DEET is toxic to dogs and can cause vomiting, tremors, and seizures. Dry permethrin-treated clothing is a different matter from concentrated permethrin products, and concentrated permethrin products intended for dogs must never be used on cats, where they are frequently fatal. Use only products formulated and dosed for your dog\'s species and weight.',
   },
   {
     question: 'Does treating my yard help protect my dog from ticks?',
@@ -92,7 +92,7 @@ export default function TickRepellentForDogsPage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-base text-gray-800 leading-relaxed">
-              <strong>The most effective tick protection for a dog in Ontario is a vet-prescribed preventative &mdash; an oral isoxazoline (NexGard, Simparica, Bravecto, Credelio) that kills attached ticks within 8&ndash;24 hours, or a topical (K9 Advantix II) that repels ticks before they bite.</strong> Only topicals genuinely repel; orals kill after attachment. Natural repellents such as cedarwood oil offer brief, partial protection and are not a substitute where blacklegged ticks are established. Because most dogs pick up ticks in their own backyard, the layer owners most often miss is treating the yard itself: ticks wait in lawn edges, leaf litter, and fence lines, and a professional tick barrier spray removes them at the source. BuzzSkito treats yards across the Greater Toronto Area from $99. Always confirm any product with your veterinarian before use.
+              <strong>The most effective tick protection for a dog in Ontario is a vet-prescribed preventative &mdash; an oral isoxazoline (NexGard, Simparica, Bravecto, Credelio) that kills attached ticks within 8&ndash;24 hours, or a topical (K9 Advantix II) that repels ticks before they bite.</strong> Only topicals genuinely repel; orals kill after attachment. Natural repellents such as cedarwood oil offer brief, partial protection and are not a substitute where blacklegged ticks are established. Because most dogs pick up ticks in their own backyard, the layer owners most often miss is treating the yard itself: ticks wait in lawn edges, leaf litter, and fence lines, and a professional tick barrier spray treats those zones directly, repeated through the season. BuzzSkito treats yards across the Greater Toronto Area from $99. Always confirm any product with your veterinarian before use.
             </p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Oral isoxazolines (NexGard, Simparica, Bravecto, Credelio) kill an attached tick within roughly 8 to 24 hours.</li>
@@ -185,9 +185,9 @@ export default function TickRepellentForDogsPage() {
                   {
                     type: 'Yard barrier spray',
                     ex: 'Professional treatment',
-                    mode: 'Removes ticks at source',
-                    speed: 'Same day',
-                    lasts: 'Up to 30 days',
+                    mode: 'Treats ticks at the source',
+                    speed: 'Once applied',
+                    lasts: 'Weeks; renewed each visit',
                     where: <Link href="/tick-control" className="font-semibold text-brand-700 hover:text-brand-500">BuzzSkito tick control →</Link>,
                   },
                 ].map((row) => (
@@ -218,7 +218,7 @@ export default function TickRepellentForDogsPage() {
               <tbody>
                 {[
                   ['DEET (human bug spray)', 'Toxic to dogs — can cause vomiting, tremors, and seizures. Never apply human repellent to a dog.'],
-                  ['Permethrin on cats', 'Safe on dogs at the label dose, but frequently FATAL to cats. Never use a dog product on a cat, or on a dog that lives with and grooms a cat.'],
+                  ['Permethrin on cats', 'Labelled for dogs at the correct dose, but frequently FATAL to cats. Never use a dog product on a cat, or on a dog that lives with and grooms a cat.'],
                   ['Tea tree / pennyroyal / wintergreen oil', 'Essential oils that are toxic to dogs even in small amounts.'],
                   ['Garlic & brewer’s yeast', 'No proven repellent effect, and garlic is toxic to dogs in quantity.'],
                 ].map(([avoid, why]) => (
@@ -302,7 +302,7 @@ export default function TickRepellentForDogsPage() {
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Your dog picks up ticks in your own yard</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Preventatives protect the dog. A tick barrier spray removes the ticks &mdash; from the lawn edges, leaf litter, and fence lines where they actually wait. BuzzSkito protects GTA yards with seasonal tick programs and single treatments from $99, safe for pets once dry.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Preventatives protect the dog. A tick barrier spray treats the yard &mdash; the lawn edges, leaf litter, and fence lines where ticks actually wait. BuzzSkito treats GTA yards with seasonal tick programs and single treatments from $99. Keep pets off treated areas until the spray has dried, as the product label directs.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -314,7 +314,7 @@ export default function TickRepellentForDogsPage() {
           <p>More importantly, <strong>several popular &ldquo;natural&rdquo; ingredients are genuinely dangerous to pets</strong>:</p>
           <ul>
             <li><strong>Tea tree, pennyroyal, undiluted peppermint and wintergreen oils</strong> are toxic to dogs.</li>
-            <li><strong>Permethrin</strong>, safe for dogs at label dose, is <strong>frequently fatal to cats</strong> &mdash; never use a dog product on a cat, or on a dog that grooms with a cat.</li>
+            <li><strong>Permethrin</strong>, labelled for dogs at the correct dose, is <strong>frequently fatal to cats</strong> &mdash; never use a dog product on a cat, or on a dog that grooms with a cat.</li>
             <li><strong>Garlic and brewer&rsquo;s yeast</strong> have no demonstrated efficacy, and garlic is toxic to dogs in quantity.</li>
             <li><strong>DEET</strong>, the human repellent, is toxic to dogs and can cause vomiting, tremors, and seizures.</li>
           </ul>
@@ -324,10 +324,10 @@ export default function TickRepellentForDogsPage() {
           <ol>
             <li><strong>A vet-prescribed preventative</strong>, dosed to your dog&rsquo;s weight and given year-round in most of southern Ontario, since ticks are active any time it is above about 4&deg;C.</li>
             <li><strong>A daily tick check</strong> after outdoor time. Run your fingers over the ears, around the eyes, under the collar, armpits, groin, between the toes, and the base of the tail. Removal within 24 hours dramatically reduces Lyme risk.</li>
-            <li><strong>Yard treatment</strong>, the layer most owners skip. Most dogs meet their ticks in the backyard, not on a hike. <Link href="/tick-control">A professional tick barrier spray</Link> targets the lawn-to-woods edge, leaf litter, fence lines, and shaded borders where ticks quest &mdash; the damp, shaded microhabitat they need to survive, which is why treating there does more than spraying open lawn. It does not end the problem permanently: ticks keep arriving on deer, mice and birds, so the treatment is repeated through the season. It is safe for pets once dry, roughly 30 minutes after application.</li>
+            <li><strong>Yard treatment</strong>, the layer most owners skip. Most dogs meet their ticks in the backyard, not on a hike. <Link href="/tick-control">A professional tick barrier spray</Link> targets the lawn-to-woods edge, leaf litter, fence lines, and shaded borders where ticks quest &mdash; the damp, shaded microhabitat they need to survive, which is why treating there does more than spraying open lawn. It does not end the problem permanently: ticks keep arriving on deer, mice and birds, so the treatment is repeated through the season. Keep pets off treated areas until the spray has dried, as the product label directs.</li>
           </ol>
           <p>Mow to 3&ndash;4 inches, clear leaf litter at the edges each spring and fall, and lay a 3-foot wood-chip strip between lawn and any woods or tall grass. Ticks avoid crossing dry, sunny barriers.</p>
-          <p>Ticks are not the only warm-weather pest your dog faces &mdash; mosquitoes carry heartworm, which is why many of the same yard and product measures overlap. See our companion guide on <Link href="/blog/mosquito-repellent-for-dogs">mosquito repellent for dogs in Canada</Link> for the safe options there.</p>
+          <p>Ticks are not the only warm-weather pest your dog faces &mdash; mosquitoes carry heartworm, which is why many of the same yard and product measures overlap. See our companion guide on <Link href="/blog/mosquito-repellent-for-dogs">mosquito repellent for dogs in Canada</Link> for the options there.</p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -363,7 +363,7 @@ export default function TickRepellentForDogsPage() {
         </div>
       </article>
 
-      <CTASection heading="Protect the Dog. Then Remove the Ticks." subtext="A yard barrier spray takes ticks out of the lawn edges where your dog actually finds them. From $99." variant="dark" />
+      <CTASection heading="Protect the Dog. Then Treat the Yard." subtext="A yard barrier spray treats the lawn edges where your dog actually finds ticks. From $99." variant="dark" />
     </>
   )
 }

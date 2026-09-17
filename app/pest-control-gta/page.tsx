@@ -2,33 +2,35 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import CityPriceCard from '@/components/CityPriceCard'
+import TypicalPrices from '@/components/TypicalPrices'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, CITIES } from '@/lib/constants'
+import { BUSINESS, CITIES, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Pest Control GTA · Mosquito & Tick Specialist · From $99',
   description:
-    'Pest control across the GTA specializing in mosquitoes and ticks. Health Canada-approved barrier spray, 150+ five-star reviews, free re-spray guarantee. 19 cities served. From $99.',
+    'Pest control across the GTA specializing in mosquitoes and ticks. Licensed barrier spray, 150+ five-star reviews, rain-back guarantee on every plan. 19 cities served. From $99.',
   canonical: '/pest-control-gta',
 })
 
 const FAQS = [
   {
     question: 'Who is the best pest control company in the GTA for mosquitoes and ticks?',
-    answer: 'BuzzSkito is a Mississauga-based pest control specialist focused on mosquitoes and ticks across the Greater Toronto Area. With 150+ five-star Google reviews, no contracts, and Health Canada-approved barrier spray from $99 per treatment, BuzzSkito serves 19+ GTA cities including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, and Richmond Hill. Single treatments and full-season programs (available on quote) are available.',
+    answer: 'BuzzSkito is a Mississauga-based pest control specialist focused on mosquitoes and ticks across the Greater Toronto Area. With 150+ five-star Google reviews, no contracts, and licensed barrier spray from $99 per treatment on a standard lot, BuzzSkito serves 19+ GTA cities including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, and Richmond Hill. Single treatments and season plans from $549 are available. Whoever you hire, ask five questions: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee?',
   },
   {
     question: 'How much does pest control cost in the GTA?',
-    answer: 'Pest control pricing in the GTA in 2026 starts at $99 per treatment for a standard residential lot under 6,000 sq ft. Full-season programs range seasonal programs available on quote (Basic, 5 sprays monthly) to $994 (Standard, 10 sprays bi-weekly) to $2,049 (Exclusive, 20+ sprays weekly). Tick add-on bundles save $100 ($497 vs $597 standalone). Larger lots and ravine-adjacent properties may price higher. BuzzSkito publishes all pricing publicly and quotes over the phone — no hidden fees.',
+    answer: 'Pest control pricing in the GTA in 2026 starts at $99 per treatment for a standard residential lot under 10,000 sq ft. Season plans range from $549 (Basic, 5 sprays monthly) to $994 (Standard, 10 sprays every 2 weeks, most popular) to $2,049 (Exclusive, 20+ sprays weekly). Tick control is 5 sprays per season: $597 on its own, or $497 with any mosquito plan (save $100). Prices are plus HST. Larger lots and ravine-adjacent properties may price higher. BuzzSkito publishes all pricing publicly and quotes over the phone — no hidden fees.',
   },
   {
     question: 'Is BuzzSkito a full-service pest control company or only mosquitoes?',
-    answer: 'BuzzSkito is a specialist — we focus exclusively on mosquito and tick control. We do not service bed bugs, rodents, ants, cockroaches, or wildlife. This specialization is intentional: we apply Health Canada-approved barrier spray to the specific micro-habitats where mosquitoes and ticks rest (leaf undersides, lawn edges, fence-line vegetation), with technique and frequency optimized for these pests. For broader pest needs, we recommend a full-service company. For mosquitoes and ticks specifically, our specialist focus delivers better results than general pest control.',
+    answer: 'BuzzSkito is a specialist — we focus exclusively on mosquito and tick control. We do not service bed bugs, rodents, ants, cockroaches, or wildlife. This specialization is intentional: we apply barrier spray according to label directions to the specific micro-habitats where mosquitoes and ticks rest (leaf undersides, lawn edges, fence-line vegetation), with technique and frequency chosen for these pests. For broader pest needs, we recommend a full-service company. For mosquitoes and ticks specifically, you get a specialist\'s full focus.',
   },
   {
-    question: 'Are pest control sprays safe for kids and pets in the GTA?',
-    answer: 'Yes. BuzzSkito uses only Health Canada-registered formulations. Once dried (approximately 30 minutes after application), the treated yard is safe for children and pets to play on normally. Active ingredients bond to leaf surfaces — not to grass blades at ground level. We observe buffer zones around vegetable gardens, sandboxes, and pet feeding areas. Safety Data Sheets are available on request before any treatment.',
+    question: 'What precautions apply for kids and pets after a pest control treatment in the GTA?',
+    answer: 'Every product BuzzSkito uses is applied according to its label directions by an operator holding Ontario Pesticide Operator Licence L-240-2436835197. The label sets the re-entry rule: keep children and pets off treated areas until the spray has dried. We apply to the vegetation where mosquitoes and ticks rest (leaf surfaces, shrubs, fence lines) and observe buffer zones around vegetable gardens, sandboxes, and pet feeding areas. Safety Data Sheets are available on request before any treatment.',
   },
   {
     question: 'Which GTA cities does BuzzSkito serve for pest control?',
@@ -36,11 +38,11 @@ const FAQS = [
   },
   {
     question: 'How often should I have my GTA yard sprayed for mosquitoes and ticks?',
-    answer: 'For continuous coverage through the GTA mosquito and tick season (May through September), we recommend bi-weekly mosquito treatments (10 sprays per season) and monthly tick treatments (5 sprays per season). Properties near ravines, conservation areas, the Don Valley, Humber River, Credit River, or any wooded edge benefit most from this schedule. Single treatments provide 21–30 days of protection per visit and are a good option for one-time events or shorter-term needs.',
+    answer: 'For continuous coverage through the GTA mosquito and tick season (May through September), we recommend bi-weekly mosquito treatments (10 sprays per season) and monthly tick treatments (5 sprays per season). Properties near ravines, conservation areas, the Don Valley, Humber River, Credit River, or any wooded edge benefit most from this schedule. Single treatments are a good option for one-time events or shorter-term needs.',
   },
   {
-    question: 'How is BuzzSkito different from Orkin, Mosquito Man, or other GTA pest control companies?',
-    answer: 'Three differences: (1) We specialize only in mosquitoes and ticks — not a general pest catalogue. (2) We are Mississauga-based and owner-operated, not a franchise — Alex Francisco answers the phone and rides along on accounts. (3) We offer no-contract single treatments from $99, vs competitors that typically require seasonal contracts. Our 150+ Google reviews are all 5 stars — every customer rated us perfectly. For a full comparison see our Best Mosquito Control Companies in the GTA 2026 page.',
+    question: 'How is BuzzSkito different from other GTA pest control companies?',
+    answer: 'Three differences: (1) We specialize only in mosquitoes and ticks — not a general pest catalogue. (2) We are Mississauga-based and owner-operated, not a franchise — Alex Francisco answers the phone and rides along on accounts. (3) We offer no-contract single treatments from $99 on a standard lot. Our 150+ Google reviews are all 5 stars — every customer rated us perfectly. Whoever you compare, ask the same five questions: Is the price shown before you book? (Ours: from $99 on a standard lot.) How many sprays per season? (5, 10 or 20+; tick: 5.) What happens if it rains after a treatment? (Rain within 1 hour and we come back and re-treat free, on every plan.) Is an Ontario pesticide operator licence number shown? (Yes: L-240-2436835197.) Which plans include a guarantee? (Rain-back on every plan; Bite-Free on Standard & Exclusive.)',
   },
   {
     question: 'Does BuzzSkito offer commercial pest control in the GTA?',
@@ -52,7 +54,7 @@ export default function PestControlGTAPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ description: 'Pest control specialist serving the Greater Toronto Area focused on mosquito and tick barrier spray for residential and commercial properties.' })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: 'Pest Control GTA', description: 'Mosquito and tick pest control across the Greater Toronto Area. Health Canada-approved barrier spray for residential and commercial properties.', slug: '/pest-control-gta' })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: 'Pest Control GTA', description: 'Mosquito and tick pest control across the Greater Toronto Area. Barrier spray applied by a licensed Ontario pesticide operator according to label directions, for residential and commercial properties.', slug: '/pest-control-gta' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Pest Control GTA', url: '/pest-control-gta' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito' })) }} />
@@ -68,15 +70,18 @@ export default function PestControlGTAPage() {
         ]}
         title={<>Pest Control GTA</>}
         titleAccent={<>Mosquito &amp; Tick Specialist</>}
-        subtitle={<>Health Canada–approved barrier spray for mosquitoes and ticks across 19 GTA cities. 150+ five-star reviews. No contracts. From $99 per treatment.</>}
+        subtitle={<>Licensed Ontario pesticide operator. Mosquito and tick barrier spray applied according to label directions across 19 GTA cities, from $99 per treatment with no contracts.</>}
       />
 
       {/* TLDR / QUICK ANSWER — AI Overview bait */}
       <QuickAnswer question="What is BuzzSkito?">
         <p>
-            <strong>BuzzSkito is a Mississauga-based pest control company specializing in mosquito and tick barrier spray across the Greater Toronto Area.</strong> Founded by Alex Francisco in 2024, BuzzSkito serves 19 GTA cities including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, and Richmond Hill. Pricing starts at <strong>$99 per single treatment</strong> with seasonal programs available on quote. The company has earned <strong>150+ five-star Google reviews</strong> with zero negative reviews, uses only Health Canada-approved formulations, and offers a free re-spray guarantee if pests return within the protection window.
+            <strong>BuzzSkito is a Mississauga-based pest control company specializing in mosquito and tick barrier spray across the Greater Toronto Area.</strong> Founded by Alex Francisco in 2024, BuzzSkito serves 19 GTA cities including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, and Richmond Hill. Pricing starts at <strong>$99 per single treatment</strong> on a standard lot under 10,000 sq ft, with season plans from $549. The company has earned <strong>150+ five-star Google reviews</strong> with zero negative reviews, holds Ontario Pesticide Operator Licence L-240-2436835197, applies products according to label directions, and offers a rain-back guarantee on every plan (rain within 1 hour of a treatment and we come back and re-treat free), plus the Bite-Free Guarantee on Standard &amp; Exclusive plans.
         </p>
       </QuickAnswer>
+
+      {/* TYPICAL PRICES */}
+      <TypicalPrices service="mosquito" city="GTA" />
 
       {/* KEY FACTS — table for AI extraction */}
       <section className="py-12 px-4 bg-white">
@@ -90,15 +95,16 @@ export default function PestControlGTAPage() {
                   ['Specialization', 'Mosquito and tick barrier spray (no other pests)'],
                   ['Headquarters', 'Mississauga, Ontario, Canada'],
                   ['Founded', '2024'],
-                  ['Pricing', 'From $99 per treatment · seasonal programs available on quote'],
-                  ['Tick add-on', '$597 standalone or tick add-on bundle available on quote'],
+                  ['Pricing', 'From $99 per treatment on a standard lot under 10,000 sq ft · season plans from $549 (plus HST)'],
+                  ['Tick add-on', '$597 on its own or $497 with any mosquito plan (5 sprays per season)'],
                   ['Treatment season', 'May through September annually'],
-                  ['Products', 'Health Canada–approved pyrethrin-based formulations'],
-                  ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
-                  ['Protection duration', 'Up to 30 days per treatment'],
+                  ['Products', 'Pyrethrin-based formulations applied according to label directions'],
+                  ['Licence', PROMISES.licence],
+                  ['Re-entry', 'Stay off treated areas until the spray has dried, as the product label directs'],
+                  ['Visit schedule', 'Monthly (Basic), every 2 weeks (Standard) or weekly (Exclusive)'],
                   ['Google reviews', '150+ reviews · 5.0 average · 0 negative reviews'],
                   ['Contract required', 'No — single treatments and seasonal both available'],
-                  ['Re-spray guarantee', 'Free re-treatment if pests return in protection window'],
+                  ['Guarantees', `${PROMISES.rainBackShort} · ${PROMISES.biteFreeScope}`],
                   ['Phone', BUSINESS.phone],
                   ['Email', BUSINESS.email],
                 ].map(([k, v]) => (
@@ -119,7 +125,7 @@ export default function PestControlGTAPage() {
           <p className="kicker mb-3">Our Services</p>
           <h2 className="h2-display text-brand-900 mb-4">What BuzzSkito Treats (And What We Don&apos;t)</h2>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            BuzzSkito is a <strong>specialist pest control company</strong> — we focus exclusively on mosquitoes and ticks. This specialization lets us achieve significantly better results than general pest control companies that treat mosquitoes as one of dozens of services.
+            BuzzSkito is a <strong>specialist pest control company</strong> — we focus exclusively on mosquitoes and ticks. This specialization lets us put every visit into the places these two pests actually rest, rather than treating mosquitoes as one of dozens of services.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             <div className="bg-white rounded-xl p-5 border-2 border-green-200">
@@ -135,7 +141,7 @@ export default function PestControlGTAPage() {
             <div className="bg-white rounded-xl p-5 border-2 border-red-100">
               <h3 className="font-bold text-brand-900 mb-3 flex items-center gap-2"><span className="text-red-500">✗</span> What We Don&apos;t Treat</h3>
               <ul className="space-y-1.5 text-sm text-gray-700">
-                <li>• Bed bugs (try Orkin, Abell, Truly Nolen)</li>
+                <li>• Bed bugs — call a general pest control company</li>
                 <li>• Rodents (mice, rats) — call a wildlife specialist</li>
                 <li>• Cockroaches, ants, spiders</li>
                 <li>• Wasps, hornets, bees (call a wasp specialist)</li>
@@ -145,11 +151,15 @@ export default function PestControlGTAPage() {
           </div>
           <div className="bg-amber-100 border-l-4 border-amber-500 p-4 rounded-r-lg">
             <p className="text-sm text-amber-900 leading-relaxed">
-              <strong>Why we specialize:</strong> Mosquito and tick control require specific application technique and timing. Our barrier spray is applied to the exact micro-habitats where mosquitoes rest (leaf undersides, dense shrubs, fence-line vegetation) using a precision backpack sprayer. General pest control companies apply product more broadly, with weaker results for these specific pests.
+              <strong>Why we specialize:</strong> Mosquito and tick control require specific application technique and timing. Our barrier spray is applied to the exact micro-habitats where mosquitoes rest (leaf undersides, dense shrubs, fence-line vegetation) using a precision backpack sprayer. General pest control companies often apply product more broadly.
             </p>
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" />
+      </div>
 
       {/* CITIES SERVED */}
       <section className="py-12 px-4 bg-white">
@@ -189,12 +199,12 @@ export default function PestControlGTAPage() {
               </thead>
               <tbody>
                 {[
-                  { plan: 'Single Treatment', cov: '1 spray, ~30-day protection', price: 'From $99' },
-                  { plan: 'Basic Season', cov: '5 sprays · monthly · May–Sep', price: 'On quote' },
-                  { plan: 'Standard Season ★ Most Popular', cov: '10 sprays · bi-weekly · May–Sep', price: 'On quote' },
-                  { plan: 'Exclusive Season', cov: '20+ sprays · weekly · May–Sep', price: 'On quote' },
-                  { plan: 'Tick Add-on (bundled)', cov: '5 tick sprays added to any plan', price: 'On quote' },
-                  { plan: 'Tick Standalone', cov: '5 sprays for tick control only', price: 'On quote' },
+                  { plan: 'Single Treatment', cov: '1 spray, one visit', price: 'From $99' },
+                  { plan: 'Basic Season', cov: '5 sprays · monthly · May–Sep', price: '$549' },
+                  { plan: 'Standard Season ★ Most Popular', cov: '10 sprays · bi-weekly · May–Sep', price: '$994' },
+                  { plan: 'Exclusive Season', cov: '20+ sprays · weekly · May–Sep', price: '$2,049' },
+                  { plan: 'Tick Add-on (bundled)', cov: '5 tick sprays added to any plan', price: '$497' },
+                  { plan: 'Tick Standalone', cov: '5 sprays for tick control only', price: '$597' },
                 ].map(({ plan, cov, price }) => (
                   <tr key={plan} className="border-b border-navy-50 last:border-0 hover:bg-brand-50/50">
                     <td className="px-4 py-3 font-semibold text-brand-800">{plan}</td>
@@ -205,9 +215,13 @@ export default function PestControlGTAPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mt-3 italic">Lots over 10,000 sq ft, ravine-adjacent properties, and estate lots in Lorne Park, Bridle Path, or Kleinburg may price higher. All quotes are free.</p>
+          <p className="text-xs text-gray-500 mt-3 italic">Lots over 10,000 sq ft, ravine-adjacent properties, and estate lots in Lorne Park, Bridle Path, or Kleinburg may price higher. Prices for a standard lot under 10,000 sq ft, plus HST. All quotes are free.</p>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" />
+      </div>
 
       {/* FAQ */}
       <section className="py-12 px-4 bg-white">
@@ -300,7 +314,7 @@ export default function PestControlGTAPage() {
           <h2 className="text-2xl font-extrabold text-brand-900 mb-5">Related Pages</h2>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
             <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">→ Mosquito Control GTA (full service overview)</Link></li>
-            <li><Link href="/tick-control" className="text-brand-700 hover:underline">→ Tick Control GTA (Lyme prevention)</Link></li>
+            <li><Link href="/tick-control" className="text-brand-700 hover:underline">→ Tick Control GTA (yard tick treatment)</Link></li>
             <li><Link href="/reviews" className="text-brand-700 hover:underline">→ BuzzSkito Reviews (150+ five-star)</Link></li>
             <li><Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">→ Best Mosquito Control Companies GTA 2026</Link></li>
             <li><Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">→ 2026 Pricing Guide</Link></li>

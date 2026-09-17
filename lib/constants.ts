@@ -8,6 +8,7 @@ export const BUSINESS = {
   legalName: 'BuzzSkito Mosquito & Tick Control',
   phone: '(289) 216-5030',
   phoneHref: 'tel:+12892165030',
+  smsHref: 'sms:+12892165030',
   email: 'support@buzzskito.ca',
   url: 'https://buzzskito.ca',
   address: {
@@ -26,7 +27,10 @@ export const BUSINESS = {
   hoursDisplay: 'Mon–Fri 8am–6pm · Sat 9am–4pm',
   priceRange: '$$',
   description:
-    'BuzzSkito provides professional mosquito and tick barrier spray services for residential lawns and properties across Mississauga, Brampton, Oakville, Burlington, Toronto, Vaughan, Richmond Hill, Markham, and the GTA. Health Canada–approved formulas, safe for kids and pets after 30 minutes. 100% satisfaction guaranteed.',
+    // Pesticide advertising rules (Health Canada DIR2016-01) bar "Health Canada approved/registered" and
+    // unqualified safety claims, so this sitewide description (it feeds structured data) states only what
+    // the business can show: the licence and label-directed application.
+    'BuzzSkito provides professional mosquito and tick barrier spray services for residential lawns and properties across Mississauga, Brampton, Oakville, Burlington, Toronto, Vaughan, Richmond Hill, Markham, and the GTA. Applied by an Ontario-licensed pesticide operator (Licence L-240-2436835197) according to product label directions.',
   googleReviewUrl: 'https://g.page/r/CYytaw5LxucdEAE/review',
   facebookUrl: 'https://www.facebook.com/458721543988714',
   gaId: 'G-X7RV1EQWD8',
@@ -46,7 +50,9 @@ export const BUSINESS = {
   guarantee: {
     name: 'BuzzSkito Bite-Free Guarantee',
     short: 'Bite-Free Guarantee',
-    description: 'If pests return inside the protection window, we re-treat at no charge. Period.',
+    // The Bite-Free Guarantee applies to Standard and Exclusive season plans only (Basic and single visits
+    // get no free re-sprays). Every mention must carry that scope.
+    description: 'On Standard and Exclusive season plans: if mosquitoes come back between scheduled treatments, we re-treat at no charge.',
   },
   author: {
     name: 'Alex and The Mosquito Team',
@@ -67,6 +73,25 @@ export const PRICING = {
   singleTreatmentFrom: 99,   // one-time barrier spray, standard lot under 10K sq ft
   tickStandaloneFrom: 597,   // tick-only season (5 sprays)
   tickBundleFrom: 497,       // tick season added to any mosquito plan (save $100)
+  basicSeason: 549,          // 5 sprays, monthly, May–Sept
+  standardSeason: 994,       // 10 sprays, every 2 weeks — most popular
+  exclusiveSeason: 2049,     // 20+ sprays, weekly
+  standardLotSqFt: 10000,    // "standard lot" = under 10,000 sq ft; larger lots are quoted to the yard
+} as const
+
+// ── Conversion wording — single source of truth ──────────────────────────────
+// Every quote surface (city pages, quote form, popup, sticky bar, emails) uses these exact lines so the
+// promises can't drift apart across 150+ pages. Owner-confirmed 2026-09-14: rain-back on every plan,
+// $99 on a standard lot. The response line is deliberately conservative: the median quote goes out in
+// about 42 minutes, but some leads wait longer, and a published promise has to hold on a bad week too.
+export const PROMISES = {
+  response: 'Most requests get a price the same day.',
+  rainBack: 'Rain within 1 hour of your treatment? We come back and re-treat free, on every plan.',
+  rainBackShort: 'Rain-back guarantee on every plan',
+  biteFreeScope: 'Bite-Free Guarantee on Standard & Exclusive plans',
+  licence: `Ontario Pesticide Operator Licence ${BUSINESS.licenseNumber}`,
+  labelLine: 'Products applied according to label directions',
+  visitWindow: 'We book a visit window, never an exact arrival time.',
 } as const
 
 export const SITE_URL = 'https://buzzskito.ca'
@@ -240,7 +265,7 @@ export const MOSQUITO_BLOGS = {
   pillar: {
     slug: 'ultimate-backyard-mosquito-control-guide',
     title: 'The Ultimate Backyard Mosquito Control Guide (GTA Edition)',
-    excerpt: 'Everything GTA homeowners need to know about eliminating mosquitoes: biology, prevention, barrier spray, seasonal scheduling, and when to call a pro.',
+    excerpt: 'Everything GTA homeowners need to know about controlling mosquitoes: biology, prevention, barrier spray, seasonal scheduling, and when to call a pro.',
     date: '2026-03-15',
   },
   supporting: [
@@ -265,7 +290,7 @@ export const MOSQUITO_BLOGS = {
     {
       slug: 'west-nile-virus-mosquito-risk-ontario',
       title: 'West Nile Virus & Mosquito Risk in Ontario: What You Need to Know',
-      excerpt: 'West Nile cases by city, transmission risk, symptoms, and how professional mosquito control protects your family in 2026.',
+      excerpt: 'West Nile cases by city, transmission risk, symptoms, and what public health advises for 2026.',
       date: '2026-04-05',
     },
     {
@@ -283,7 +308,7 @@ export const TICK_BLOGS = {
   pillar: {
     slug: 'ultimate-tick-control-guide-ontario',
     title: 'The Ultimate Tick Control Guide for Ontario Homeowners',
-    excerpt: 'Complete guide to tick species in Ontario, Lyme disease risk, yard treatment options, and protecting your family with professional tick spray.',
+    excerpt: 'Complete guide to tick species in Ontario, Lyme disease risk, yard treatment options, and professional tick barrier spray applied according to label directions.',
     date: '2026-03-15',
   },
   supporting: [
@@ -368,14 +393,14 @@ export const NEW_BLOGS = [
   {
     slug: 'is-mosquito-spray-safe-kids-pets',
     title: 'Is Professional Mosquito Spray Safe for Kids and Pets? Your Questions Answered',
-    excerpt: "Health Canada approval, 30-minute re-entry windows, and the real facts about what's in professional mosquito barrier spray — everything GTA parents and pet owners need to know.",
+    excerpt: "PCP registration numbers, label re-entry directions, and the real facts about what's in professional mosquito barrier spray — everything GTA parents and pet owners need to know.",
     date: '2026-04-19',
     category: 'mosquito' as const,
   },
   {
     slug: 'how-to-choose-mosquito-control-company-gta',
     title: 'How to Choose a Mosquito Control Company in the GTA: 8 Questions to Ask',
-    excerpt: "Not all mosquito control companies are equal. Here's exactly what to ask, what to avoid, and why Health Canada approval, licensing, and guarantees matter.",
+    excerpt: "Not all mosquito control companies are equal. Here's exactly what to ask, what to avoid, and why licensing, label compliance, and exact guarantee terms matter.",
     date: '2026-04-20',
     category: 'mosquito' as const,
   },
@@ -448,7 +473,7 @@ export const NEW_BLOGS_3 = [
   {
     slug: 'outdoor-event-mosquito-control-gta',
     title: 'Outdoor Event Mosquito Control in the GTA: Weddings, Parties & Backyard Gatherings',
-    excerpt: "Planning a backyard wedding, graduation party, or outdoor corporate event? Here's how a single pre-event barrier spray keeps mosquitoes away — and what to book, when.",
+    excerpt: "Planning a backyard wedding, graduation party, or outdoor corporate event? Here's how a single pre-event barrier spray targets the mosquitoes resting around your yard — and what to book, when.",
     date: '2026-04-18',
     category: 'mosquito' as const,
   },
@@ -479,7 +504,7 @@ export const NEW_BLOGS_4 = [
   {
     slug: 'mosquito-spray-companies-gta',
     title: 'Mosquito Spray Companies in the GTA: What to Look For Before You Book (2026)',
-    excerpt: 'Not all mosquito spraying companies are the same. Here is what GTA homeowners should check before booking — Health Canada approval, guarantee policies, what lawn spraying actually involves, and red flags to avoid.',
+    excerpt: 'Not all mosquito spraying companies are the same. Here is what GTA homeowners should check before booking — licensing, guarantee policies, what lawn spraying actually involves, and red flags to avoid.',
     date: '2026-05-02',
     category: 'mosquito' as const,
   },
@@ -498,8 +523,8 @@ export const NEW_BLOGS_5 = [
 export const NEW_BLOGS_6 = [
   {
     slug: 'tick-prevention-yard-ontario-safe-for-kids',
-    title: 'Tick Prevention in Your Yard: Ontario Safe-for-Kids Guide (2026)',
-    excerpt: 'How to make your Ontario backyard safe from ticks — yard modifications, DIY measures, and professional barrier spray safe for children and pets. For families across the GTA.',
+    title: 'Tick Prevention in Your Yard: Ontario Guide for Families with Kids (2026)',
+    excerpt: 'How to reduce ticks in your Ontario backyard — yard modifications, DIY measures, and professional barrier spray applied according to label directions. For families across the GTA.',
     date: '2026-04-07',
     category: 'tick' as const,
   },
@@ -617,7 +642,7 @@ export const NEW_BLOGS_10 = [
   {
     slug: 'mosquito-dunks-canada-guide',
     title: 'Mosquito Dunks — Complete Canada Guide (2026)',
-    excerpt: 'Where to buy mosquito dunks in Canada, how BTI works, dunks vs bits, safety. Combine with professional yard spray for total control.',
+    excerpt: 'Where to buy mosquito dunks in Canada, how BTI works, dunks vs bits, safety. Combine with professional yard spray for the adults that fly in.',
     date: '2026-04-28',
     category: 'mosquito' as const,
   },
@@ -738,14 +763,14 @@ export const NEW_BLOGS_12 = [
   {
     slug: 'how-to-get-rid-of-mosquitoes-in-yard-ontario',
     title: 'How to Get Rid of Mosquitoes in Your Yard (Ontario Guide)',
-    excerpt: '12 proven steps to get rid of mosquitoes in your yard — from eliminating standing water to professional barrier spray. Tested in GTA conditions.',
+    excerpt: '12 proven steps to get rid of mosquitoes in your yard — from eliminating standing water to professional barrier spray. Written for GTA yards.',
     date: '2026-04-29',
     category: 'mosquito' as const,
   },
   {
     slug: 'how-to-keep-ticks-out-of-yard-ontario',
     title: 'How to Keep Ticks Out of Your Yard (Ontario)',
-    excerpt: '10 proven steps for keeping ticks out of your yard and preventing Lyme disease, focused on the GTA\'s confirmed blacklegged tick zones.',
+    excerpt: '10 proven steps for keeping ticks out of your yard and cutting tick exposure at home, focused on the GTA\'s confirmed blacklegged tick zones.',
     date: '2026-04-29',
     category: 'tick' as const,
   },
@@ -846,7 +871,7 @@ export const NEW_BLOGS_14 = [
   {
     slug: 'off-deep-woods-deet-bug-spray-canada',
     title: 'OFF Deep Woods & DEET Bug Spray Canada — Which to Buy',
-    excerpt: 'OFF Deep Woods vs FamilyCare, DEET %/duration explained, safe use for kids and pets, and where to buy OFF bug spray in Canada.',
+    excerpt: 'OFF Deep Woods vs FamilyCare, DEET %/duration explained, label rules for kids and pets, and where to buy OFF bug spray in Canada.',
     date: '2026-07-12',
     category: 'mosquito' as const,
   },
@@ -866,8 +891,8 @@ export const NEW_BLOGS_14 = [
   },
   {
     slug: 'mosquito-repellent-for-dogs',
-    title: 'Mosquito Repellent for Dogs in Canada: Vet-Safe Picks',
-    excerpt: 'Safe mosquito repellent for dogs in Canada: vet-approved picks, why never DEET, the permethrin-and-cats warning, and heartworm facts.',
+    title: 'Mosquito Repellent for Dogs in Canada: Dog-Labelled Picks',
+    excerpt: 'Mosquito repellent for dogs in Canada: dog-labelled picks, why never DEET, the permethrin-and-cats warning, and heartworm facts.',
     date: '2026-07-12',
     category: 'mosquito' as const,
   },
@@ -1245,7 +1270,7 @@ export const NEW_BLOGS_18 = [
   {
     slug: 'is-deet-safe',
     title: 'Is DEET Safe? What It Is, Cancer Myths & Health Canada Limits (2026)',
-    excerpt: 'Is DEET safe, or is it bad for you? A calm, Health-Canada- and CDC-backed explainer: what DEET is, the cancer myth, concentration limits, pregnancy and pet safety.',
+    excerpt: 'Is DEET safe, or is it bad for you? A calm explainer citing Health Canada and CDC guidance: what DEET is, the cancer myth, concentration limits, pregnancy and pet safety.',
     date: '2026-07-15',
     category: 'mosquito' as const,
   },
@@ -1518,7 +1543,7 @@ export const NEW_BLOGS_24 = [
   {
     slug: 'bug-zappers-canada-do-they-work',
     title: 'Best Bug Zappers in Canada 2026 (Do They Work?)',
-    excerpt: 'Do bug zappers actually kill mosquitoes? The honest research, the best Canadian models, where to buy, and what works better for a mosquito-free yard.',
+    excerpt: 'Do bug zappers actually kill mosquitoes? The honest research, the best Canadian models, where to buy, and what works better for a yard with fewer mosquitoes.',
     date: '2026-05-01',
     category: 'mosquito' as const,
   },
@@ -1843,7 +1868,7 @@ export const NEW_BLOGS_30 = [
   { slug: "mosquito-magnet-vs-dynatrap-canada", title: "Mosquito Magnet vs DynaTrap Canada 2026 — Which High-End Trap Actually Wins?", excerpt: "Mosquito Magnet vs DynaTrap DT2000XL, compared for Canadian yards: propane CO₂ vs UV + fan, real mosquito reduction, coverage, running cost, and which high-end trap is worth it. Updated 2026.", date: '2026-07-21', category: 'mosquito' as const },
   { slug: "best-mosquito-trap-for-acreage-canada", title: "Best Mosquito Trap for Acreage Canada 2026 — CO₂ Traps for Large Properties", excerpt: "The best mosquito traps for acreage and large properties in Canada: propane CO₂ traps (Mosquito Magnet) vs big UV + fan traps (DynaTrap XL) — coverage per acre, how many you need, placement, running cost, and where they fit alongside barrier spray. Updated 2026.", date: '2026-07-21', category: 'mosquito' as const },
   { slug: "best-electric-fence-for-raccoons-canada", title: "Best Electric Fence for Raccoons Canada 2026 — Energizers, Kits & Wiring That Actually Stop Them", excerpt: "The best electric fences for keeping raccoons out of Canadian gardens: how to size the energizer and joules, plug-in vs battery vs solar, the two-low-wire layout, grounding that actually shocks, and our Zareba, Gallagher, solar, and budget picks. Updated 2026.", date: '2026-07-21', category: 'tick' as const },
-  { slug: "black-flag-electric-fogger-review-canada", title: "Black Flag Electric Fogger Review (Canada 2026) — Is the 190107 Worth It?", excerpt: "An honest Canadian review of the Black Flag 190107 electric fogger: how the thermal fog works, what PMRA-registered insecticide you can legally use here, coverage and technique, corded-electric vs gas and ULV alternatives, and when a barrier spray beats fogging. Updated 2026.", date: '2026-07-21', category: 'mosquito' as const },
+  { slug: "black-flag-electric-fogger-review-canada", title: "Black Flag Electric Fogger Review (Canada 2026) — Is the 190107 Worth It?", excerpt: "An honest Canadian review of the Black Flag 190107 electric fogger: how the thermal fog works, what PMRA-registered insecticide you can legally use here, coverage and technique, corded-electric vs gas and ULV alternatives, and how a barrier spray differs from fogging. Updated 2026.", date: '2026-07-21', category: 'mosquito' as const },
   { slug: "best-cordless-fogger-canada", title: "Best Cordless Fogger Canada 2026 — Battery ULV Foggers, No Cord, Compared", excerpt: "The best cordless (battery) ULV foggers in Canada for 2026: Hudson cordless vs PetraTools battery backpack vs handheld, runtime and droplet size, how to choose by coverage, the PMRA/DIN rule on what you can legally fog, and where to buy. Updated 2026.", date: '2026-07-21', category: 'mosquito' as const },
   { slug: "best-gas-backpack-fogger-canada", title: "Best Gas Backpack Fogger Canada 2026 — Mist Blowers for Acreage Compared", excerpt: "The best gas backpack foggers and mist blowers for Canadian acreage in 2026: mist blower vs fogger vs sprayer, throw distance, engine and tank sizing, convertible dust/granule kits, PMRA compliance, and our Solo and Tomahawk picks.", date: '2026-07-21', category: 'mosquito' as const },
   { slug: "thermal-vs-ulv-fogger-canada", title: "Thermal vs ULV Fogger Canada 2026 — Droplet Size, Use Case & Which to Buy", excerpt: "Thermal vs ULV fogger for Canadian buyers: how droplet size, coverage, indoor vs outdoor use, carrier liquid, and safety differ — a Longray thermal vs PetraTools ULV comparison with a clear pick and PMRA-legal buying advice. Updated 2026.", date: '2026-07-21', category: 'mosquito' as const },

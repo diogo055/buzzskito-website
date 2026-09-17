@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Waterdown | From $99',
   description:
-    'Professional mosquito control in Waterdown, Hamilton. Barrier spray near Grindstone Falls from $99. Safe for kids & pets. Call (289) 216-5030.',
+    'Professional mosquito control in Waterdown, Hamilton. Barrier spray near Grindstone Falls from $99. Licensed Ontario operator. Call (289) 216-5030.',
   canonical: '/waterdown-mosquito-control',
 })
 
@@ -27,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'How many treatments does a Waterdown home need per season?',
-    answer: "Most Waterdown properties benefit from 4–5 treatments spaced 21–28 days apart from May through September. Properties adjacent to Grindstone Falls, Smokey Hollow, or the escarpment ravines typically benefit from the full 5-treatment program due to constant re-pressure from permanent water sources. Call (289) 216-5030 for a free assessment.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Properties adjacent to Grindstone Falls, Smokey Hollow, or the escarpment ravines typically benefit from Standard's two-week spacing due to constant re-pressure from permanent water sources; other Waterdown lots may be well-served by Basic. Call (289) 216-5030 for a free assessment.",
   },
   {
     question: 'When does mosquito season start in Waterdown?',
@@ -57,21 +59,23 @@ export default function WaterdownMosquitoPage() {
           { label: NEIGHBOURHOOD },
         ]}
         title={<>Mosquito Control in {NEIGHBOURHOOD}, {CITY}</>}
-        subtitle={<>Waterdown's escarpment waterfalls, Grindstone Creek headwaters, and Smokey Hollow ravine create persistent mosquito pressure throughout the season. BuzzSkito's barrier spray gives Waterdown families 30-day protection per treatment.</>}
+        subtitle={<>Licensed Ontario pesticide operator treating Waterdown yards near Grindstone Falls, the Grindstone Creek headwaters and Smokey Hollow, where mosquito pressure lasts all season. Treatments applied according to label directions.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
+
+      <TypicalPrices service="mosquito" city={NEIGHBOURHOOD} />
 
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
@@ -81,8 +85,8 @@ export default function WaterdownMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product, according to its label directions, to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: 'Rain within 1 hour of your treatment? We come back and re-treat free, on every plan. Standard & Exclusive plans also carry the Bite-Free Guarantee.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -98,7 +102,7 @@ export default function WaterdownMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Waterdown's Waterfall and Escarpment Mosquito Challenge</h2>
           <p>Waterdown is one of the Hamilton area's fastest-growing communities — and one of its most mosquito-affected, thanks to its dramatic escarpment geography. <strong>Grindstone Falls</strong> drops through the heart of the community, creating a permanent moisture zone with surrounding ravine forest that sustains mosquito populations all season. The <strong>Grindstone Creek</strong> headwaters flow through Waterdown, with seasonal flooding and backwater areas adding breeding habitat after rain events.</p>
-          <p><strong>Smokey Hollow Falls</strong> and the surrounding Smokey Hollow conservation area add another permanent water source on Waterdown's east side. The mist, humidity, and dense canopy around both falls create ideal daytime resting habitat for adult mosquitoes, which then disperse into adjacent residential areas in the evening. BuzzSkito's barrier spray targets all resting vegetation on your Waterdown property, creating a treated buffer that provides up to 30 days of protection between treatments.</p>
+          <p><strong>Smokey Hollow Falls</strong> and the surrounding Smokey Hollow conservation area add another permanent water source on Waterdown's east side. The mist, humidity, and dense canopy around both falls create ideal daytime resting habitat for adult mosquitoes, which then disperse into adjacent residential areas in the evening. BuzzSkito's barrier spray targets all resting vegetation on your Waterdown property, creating a treated buffer that is renewed at each scheduled visit through the season.</p>
 
           <h2>Part of Our Hamilton & Burlington Network</h2>
           <p>We serve all of Waterdown and surrounding communities. See our <Link href="/hamilton-mosquito-control" className="text-brand-700 hover:underline">Hamilton mosquito control</Link> page for Hamilton-wide coverage, or our <Link href="/burlington-mosquito-spray" className="text-brand-700 hover:underline">Burlington mosquito spray</Link> page for Burlington coverage. Also see our <Link href="/flamborough-mosquito-control" className="text-brand-700 hover:underline">Flamborough</Link> page for adjacent rural coverage.</p>
@@ -124,10 +128,10 @@ export default function WaterdownMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats the resting surfaces across your whole property, creating a residual barrier that is renewed on a set schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -136,7 +140,7 @@ export default function WaterdownMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/hamilton-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Our tick barrier spray treats the lawn edges, leaf litter, and fence lines where ticks wait, with 5 sprays per season. See our <Link href="/hamilton-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>
@@ -175,6 +179,10 @@ export default function WaterdownMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" location="price_card_faq" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

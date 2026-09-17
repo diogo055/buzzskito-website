@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { BUSINESS, PRICING, PROMISES } from '@/lib/constants';
 
 /**
  * Cinematic full-bleed photographic hero.
@@ -119,14 +120,16 @@ export default function PhotoHero() {
             <span className="accent-serif text-sheen-once text-amber-400">in Mississauga &amp; the GTA</span>
           </h1>
 
-          {/* Subhead */}
+          {/* Subhead — pesticide advertising rules (Health Canada DIR2016-01) bar "Health Canada approved",
+              blanket safety claims and untested protection periods, so this states only what the business
+              can show: the licence, label-directed application, and the owner-confirmed response line. */}
           <p className="mt-6 max-w-xl text-lg font-light leading-relaxed text-white/90">
-            Professional mosquito &amp; tick control for Mississauga &amp; GTA backyards — Health Canada–approved
-            barrier spray, safe for kids &amp; pets in 30 minutes, with up to 30-day protection per visit.
+            Professional mosquito &amp; tick barrier spray for Mississauga &amp; GTA backyards, applied by an
+            Ontario-licensed operator according to product label directions. {PROMISES.response}
           </p>
 
           {/* CTAs */}
-          <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
+          <div data-lead-location="home_hero" className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
             <Link
               href="/free-yard-assessment"
               className="btn-primary btn-attn press-scale"
@@ -138,7 +141,7 @@ export default function PhotoHero() {
               </svg>
             </Link>
             <a
-              href="tel:+12892165030"
+              href={BUSINESS.phoneHref}
               className="press-scale glass-chip inline-flex items-center justify-center gap-2 rounded-full px-8 py-4 text-lg font-extrabold text-white transition-colors hover:bg-white hover:text-brand-900"
             >
               <svg
@@ -153,7 +156,7 @@ export default function PhotoHero() {
               >
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" />
               </svg>
-              (289) 216-5030
+              {BUSINESS.phone}
             </a>
           </div>
 
@@ -164,11 +167,16 @@ export default function PhotoHero() {
               <span className="font-semibold">150+ five-star reviews</span>
             </span>
             <span className="hidden text-white/25 sm:inline" aria-hidden="true">|</span>
+            {/* The Bite-Free Guarantee covers Standard & Exclusive plans only, so the hero carries the
+                guarantee that holds on every plan. */}
             <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-300">
-              <span aria-hidden="true">✓</span> Bite-Free Guarantee
+              <span aria-hidden="true">✓</span> {PROMISES.rainBackShort}
             </span>
             <span className="hidden text-white/25 sm:inline" aria-hidden="true">|</span>
-            <span className="font-bold text-white">From $99</span>
+            <span>
+              <span className="font-bold text-white">From ${PRICING.singleTreatmentFrom}</span>
+              <span className="text-xs text-white/70"> · standard lot under 10,000 sq ft, plus HST</span>
+            </span>
           </div>
         </div>
       </div>

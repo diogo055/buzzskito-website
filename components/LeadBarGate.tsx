@@ -15,9 +15,23 @@ import { ADJACENT_PEST_ROUTES } from '@/lib/adjacent-pest-routes'
  * Deliberately a MINIMAL gate (adjacent-pest routes only, not all of /blog):
  * mosquito and tick posts genuinely produce service leads, and a lost $994
  * seasonal customer costs more than any affiliate click the bar displaces.
+ *
+ * `except` hides the children on extra exact paths as well. The layout uses it
+ * to drop the bar's "Get price" button on /free-yard-assessment and /contact,
+ * where the visitor is already looking at the form, while Call and Text stay.
+ * usePathname resolves during server rendering too, so the button is absent
+ * from the initial HTML on those pages rather than flashing in and out.
  */
-export default function LeadBarGate({ children }: { children: React.ReactNode }) {
+export default function LeadBarGate({
+  children,
+  except,
+}: {
+  children: React.ReactNode
+  except?: readonly string[]
+}) {
   const pathname = usePathname()
-  if (pathname && ADJACENT_PEST_ROUTES.has(pathname.replace(/\/$/, ''))) return null
+  const path = pathname ? pathname.replace(/\/$/, '') || '/' : ''
+  if (path && ADJACENT_PEST_ROUTES.has(path)) return null
+  if (path && except?.includes(path)) return null
   return <>{children}</>
 }

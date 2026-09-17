@@ -9,12 +9,13 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'laser-mosquito-killer-photon-matrix-review'
 const DATE = '2026-07-12'
 const UPDATED = '2026-09-04'
 const TITLE = 'Laser Mosquito Killer 2026 — Is the Photon Matrix Real? (Honest Review)'
-const META_TITLE = 'Laser Mosquito Killer: Is Photon Matrix Real?'
+const META_TITLE = 'Laser Mosquito Killer Canada: Photon Matrix'
 
 const FAQS = [
   {
@@ -43,7 +44,7 @@ const FAQS = [
   },
   {
     question: 'What actually kills mosquitoes in a Canadian backyard today?',
-    answer: 'Proven, available-now options in order of whole-yard impact: (1) professional barrier spray — a licensed technician treats the vegetation where mosquitoes rest, giving same-day relief and 21–30 days of residual coverage, and it also handles ticks; (2) propane CO₂ traps like the Mosquito Magnet, which cut populations 70–90% over 6–8 weeks; (3) Thermacell, which creates a roughly 20 sq metre repellent bubble around your seating area within minutes; and (4) BTI dunks/bits in any standing water to stop larvae. A speculative backyard laser does none of these things reliably in 2026.',
+    answer: 'Proven, available-now options in order of whole-yard impact: (1) professional barrier spray — a licensed technician treats the vegetation where mosquitoes rest, applied according to label directions and renewed on a schedule through the season, and it also handles ticks; (2) propane CO₂ traps like the Mosquito Magnet, which work gradually over several weeks by catching host-seeking females; (3) Thermacell, which creates a roughly 20 sq metre repellent bubble around your seating area within minutes; and (4) BTI dunks/bits in any standing water to stop larvae. A speculative backyard laser does none of these things reliably in 2026.',
   },
   {
     question: 'Update for September 2026 — can you actually buy a Photon Matrix now, and what does it cost in USD?',
@@ -167,16 +168,41 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
             <li>Canada does not pre-approve laser products, but Health Canada&rsquo;s Radiation Emitting Devices Regulations (SOR/2024-196, in force October 9, 2025) require an IEC 60825-1 hazard class on the label of any laser product sold or imported here. No consumer mosquito laser publishes one.</li>
             <li>Handheld &ldquo;laser mosquito killer&rdquo; wands are prohibited goods in Canada — Health Canada bans the import, manufacture, advertising and sale of Class 3B and Class 4 handheld portable lasers under the Canada Consumer Product Safety Act.</li>
             <li>Lasers do nothing for ticks — ticks do not fly, so an airborne targeting device cannot reach them.</li>
-            <li>Proven alternative: a propane CO₂ trap (Mosquito Magnet) cuts mosquito populations 70–90% over 6 to 8 weeks.</li>
+            <li>Shipping alternative: a propane CO₂ trap (Mosquito Magnet) catches host-seeking females over weeks of continuous running, though field trials disagree on how much it cuts bites on an ordinary lot.</li>
             <li>Proven alternative: a Thermacell creates a roughly 20 sq metre repellent zone within minutes.</li>
-            <li>Professional barrier spray covers the whole yard from $99 with 21–30 days of residual and also kills ticks.</li>
+            <li>Professional barrier spray treats the whole yard from $99 on a standard lot, renewed on a schedule; tick treatment is available as an add-on ($497/season with a mosquito plan).</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+
+          {/* Service arm first: the lead CTA outranks every affiliate element below it. */}
+          <aside aria-label="Professional mosquito control across the GTA" className="not-prose mt-5 rounded-xl border-l-4 border-amber-400 bg-white/70 p-5">
+            <p className="text-sm text-gray-800 leading-relaxed"><strong className="text-brand-900">In the Greater Toronto Area?</strong> A licensed barrier treatment covers the whole yard this week rather than a three-metre cone next year &mdash; 19 GTA cities, from $99 for a single treatment, and it works on ticks as an add-on, which no laser can. <Link href="/free-yard-assessment" className="text-brand-700 underline font-semibold">Get a free yard assessment</Link> or call <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600">(289) 216-5030</a>. Outside the GTA, the three steps below are the ones that work anywhere.</p>
+          </aside>
         </div>
       </section>
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Propane CO₂ Trap" asin="B07QFNSC8Z" search="mosquito magnet patriot plus" label="Proven pick instead" />
+
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="not-prose my-6 rounded-2xl border-2 border-emerald-200 bg-white p-6 sm:p-7 shadow-sm">
+            <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-1 leading-tight">What to do right now, while the laser is still a pre-order</h2>
+            <p className="text-sm text-gray-600 mb-4 leading-relaxed">You came here to find out whether to spend four figures on a device. Here is what changes the mosquito pressure in your yard this weekend instead &mdash; in the order that the effort actually pays off.</p>
+            <ol className="space-y-4 text-[15px] leading-relaxed text-gray-800">
+              <li>
+                <strong className="text-brand-900">1. Walk the yard with an empty bucket &mdash; this one is free and it is the biggest lever.</strong> Mosquitoes breed in standing water, and the water is almost never the pond you are picturing. It is plant saucers, a tipped wheelbarrow, kids&rsquo; toys, a sagging tarp, a clogged gutter, the tray under the air conditioner, a forgotten pail behind the shed. Tip every one of them out and turn them upside down. Each container you empty is a batch of larvae that never becomes an adult that bites you &mdash; and no device, laser or otherwise, does anything about mosquitoes that have not hatched yet.
+              </li>
+              <li>
+                <strong className="text-brand-900">2. BTI dunks for the water you cannot tip out.</strong> <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Check price on Amazon.ca →</BuyLink> Rain barrels, ornamental ponds, a low spot that stays wet for a week after rain. BTI is a naturally occurring soil bacterium that acts on mosquito larvae in the water; you drop it in and follow the label for dose and replacement interval. It acts on the life stage before flight, which puts it upstream of every zapper, trap and laser on the market.
+              </li>
+              <li>
+                <strong className="text-brand-900">3. An outdoor fan aimed low across the seating area.</strong> The unglamorous one that works tonight. Mosquitoes are weak fliers that cannot hold a course in moving air, and a fan pointed low across a patio also disperses the carbon dioxide plume they home in on. No laser class to look up, no interlock to trust, no ship date to chase &mdash; and it covers roughly the area the Photon Matrix claims to cover, using a device that is on a shelf today. <BuyLink tag={AMZ_TAG} search="outdoor oscillating pedestal fan">Check price on Amazon.ca →</BuyLink>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
 
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
@@ -242,7 +268,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           </p>
           <div className="mt-5 rounded-xl bg-rose-50 border-l-4 border-rose-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-rose-900">⚠️ Crowdfunding is not shopping.</strong> Backing a laser mosquito campaign means paying now for a product that may ship late, ship different, or never ship &mdash; and with no published laser hazard class &mdash; the one thing Health Canada&rsquo;s laser regulations require on the label &mdash; it is not something we can recommend pointing at your backyard. For guaranteed relief this season, a <Link href="/blog/best-mosquito-trap" className="text-emerald-700 underline font-semibold">proven trap</Link> or <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> is the safe money.
+              <strong className="text-rose-900">⚠️ Crowdfunding is not shopping.</strong> Backing a laser mosquito campaign means paying now for a product that may ship late, ship different, or never ship &mdash; and with no published laser hazard class &mdash; the one thing Health Canada&rsquo;s laser regulations require on the label &mdash; it is not something we can recommend pointing at your backyard. For relief you can actually get this season, a <Link href="/blog/best-mosquito-trap" className="text-emerald-700 underline font-semibold">proven trap</Link> or <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> is the better bet.
             </p>
           </div>
         </div>
@@ -306,7 +332,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
               <li><strong>Still 3 to 6 metres.</strong> That is a patio corner. Mosquitoes breed and rest across the whole property.</li>
               <li><strong>Still nothing for ticks.</strong> Ticks do not fly, so no airborne targeting device can reach them.</li>
             </ul>
-            <p className="text-sm text-gray-800 leading-relaxed mt-3">Availability moved. The evidence did not. At roughly $988&ndash;$1,088 USD, you are buying a 3-to-6-metre bubble with an unpublished safety class &mdash; while <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">whole-yard barrier treatment</Link> starts from $99 and also handles ticks.</p>
+            <p className="text-sm text-gray-800 leading-relaxed mt-3">Availability moved. The evidence did not. At roughly $988&ndash;$1,088 USD, you are buying a 3-to-6-metre bubble with an unpublished safety class &mdash; while <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">whole-yard barrier treatment</Link> starts from $99, with tick treatment available as an add-on ($497/season with a mosquito plan).</p>
           </div>
         </div>
       </section>
@@ -501,7 +527,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
               {
                 badge: 'Best Budget Buy',
                 name: 'Mosquito Dunks (BTI Larvae Control)',
-                why: 'A few dollars a season to kill larvae in rain barrels, low spots, and clogged gutters before they ever fly — a naturally occurring bacterium harmless to pets, birds, and fish, and quietly one of the highest-value moves you can make.',
+                why: 'A few dollars a season to kill larvae in rain barrels, low spots, and clogged gutters before they ever fly — a naturally occurring bacterium that acts on mosquito larvae rather than on pets, birds, or fish (use it as the label directs), and quietly one of the highest-value moves you can make.',
                 search: 'mosquito dunks bti',
                 score: 8.3,
                 pros: ['$15–$30 covers a whole season', 'Stops the next generation at the source'],
@@ -509,7 +535,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
               },
             ]}
             whichToBuy={<>
-              Want the biggest whole-property dent from a device you can order right now? The <strong>Mosquito Magnet</strong> is the proven pick. If your problem is really the patio at dusk, the <strong>Thermacell</strong> gets you there tonight for a fraction of a laser pledge. Only spending a few dollars? Start with <strong>BTI dunks</strong> in any standing water. And if you want the whole yard handled — ticks included, which no airborne device touches — <Link href="/mosquito-control">professional barrier spray</Link> starts from $99 per treatment.
+              Want the biggest whole-property dent from a device you can order right now? The <strong>Mosquito Magnet</strong> is the proven pick. If your problem is really the patio at dusk, the <strong>Thermacell</strong> gets you there tonight for a fraction of a laser pledge. Only spending a few dollars? Start with <strong>BTI dunks</strong> in any standing water. And if you want the whole yard handled — ticks included, which no airborne device touches — <Link href="/mosquito-control">professional barrier spray</Link> starts from $99 per treatment, with tick treatment as an add-on ($497/season with a mosquito plan).
             </>}
           />
 
@@ -519,7 +545,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Does the laser mosquito killer actually work? The honest answer.</p>
-            <p className="text-sm text-gray-800 leading-relaxed">In a lab, the photonic-fence concept works &mdash; prototypes really can spot and hit a mosquito in flight. In your backyard, in 2026, there is no independently tested, safety-certified, in-stock consumer device that we can point to and say &ldquo;buy this, it works.&rdquo; The demo videos are real footage of prototypes; they are not proof of a shipping product that will clear your yard. For real relief right now, pair a proven trap with <Link href="/mosquito-control">professional barrier spray</Link> &mdash; whole-yard, 21&ndash;30 day residual, and it also handles ticks, which no laser addresses.</p>
+            <p className="text-sm text-gray-800 leading-relaxed">In a lab, the photonic-fence concept works &mdash; prototypes really can spot and hit a mosquito in flight. In your backyard, in 2026, there is no independently tested, safety-certified, in-stock consumer device that we can point to and say &ldquo;buy this, it works.&rdquo; The demo videos are real footage of prototypes; they are not proof of a shipping product that will clear your yard. For real relief right now, pair a proven trap with <Link href="/mosquito-control">professional barrier spray</Link> &mdash; whole-yard, a residual renewed on a schedule, and it also handles ticks, which no laser addresses.</p>
           </div>
 
           <h2>The Photon Matrix: What&rsquo;s Real and What&rsquo;s Marketing</h2>
@@ -538,7 +564,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
 
           <h2>Is It Actually Shipping? (The Crowdfunding Reality)</h2>
           <p>This is where enthusiasm meets economics. Backing a crowdfunding campaign is <strong>not the same as buying a product.</strong> You are pre-paying for something that may arrive late, arrive different from the demo, or never arrive at all &mdash; a well-documented pattern in hardware crowdfunding, especially for ambitious gadgets. Even for campaigns that do deliver, backers in Canada face shipping delays, customs and duty, voltage/plug differences, and little or no local warranty or repair support.</p>
-          <p>So if your goal is a mosquito-free backyard <em>this</em> summer, a pre-order with an uncertain ship date does not solve your problem. If your goal is to be an early-adopter hobbyist who enjoys tinkering with novel tech and can absorb the risk, that is a different (and legitimate) motivation &mdash; just go in with clear eyes about what you are buying.</p>
+          <p>So if your goal is a backyard with fewer mosquitoes <em>this</em> summer, a pre-order with an uncertain ship date does not solve your problem. If your goal is to be an early-adopter hobbyist who enjoys tinkering with novel tech and can absorb the risk, that is a different (and legitimate) motivation &mdash; just go in with clear eyes about what you are buying.</p>
 
           <h2>The Safety Question Nobody Should Skip</h2>
           <p>A laser strong enough to kill an insect mid-flight is not automatically harmless to a human eye or a curious dog at close range. The serious research versions of the photonic fence treated eye safety as a first-order design problem. A mass-market gadget lives or dies on the same question: <strong>how confident are you that the software will never misfire at a child&rsquo;s face, a pet, or a neighbour?</strong></p>
@@ -546,7 +572,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Skip the sci-fi &mdash; let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 &mdash; same-day relief, 21&ndash;30 day residual, backed by 150+ five-star reviews across 19 GTA cities. No pre-order, no lasers, no gamble.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats your whole yard from $99 on a standard lot, with season plans from $549 &mdash; backed by 150+ five-star Google reviews across 19 GTA cities. No pre-order, no lasers, no gamble.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -557,16 +583,16 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <p>While the laser idea matures, here is the honest, boring, effective toolkit that clears mosquitoes from a real Canadian backyard right now. Most homeowners get the best results by combining two or three of these rather than chasing a single silver-bullet gadget.</p>
 
           <h3>1. Propane CO₂ traps (the proven trap)</h3>
-          <p>A <Link href="/blog/best-mosquito-trap">propane CO₂ trap</Link> like the Mosquito Magnet burns propane to make real CO₂, heat, and moisture &mdash; the exact cues a female mosquito hunts &mdash; then vacuums her in. Independent testing shows 70&ndash;90% population reduction over 6&ndash;8 weeks of continuous running. It is a real device you can order today, best suited to larger and cottage properties. Woodstream sells the line into Canada under Canadian model numbers &mdash; the Executive MM3302B and Patriot Plus MM4202B are both listed on the brand&rsquo;s own Canadian site &mdash; and it is carried on Amazon.ca. Which bricks-and-mortar chains have it on the shelf moves through the season, so check the brand&rsquo;s where-to-buy listing before driving anywhere. <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Check Mosquito Magnet price →</BuyLink></p>
+          <p>A <Link href="/blog/best-mosquito-trap">propane CO₂ trap</Link> like the Mosquito Magnet burns propane to make real CO₂, heat, and moisture &mdash; the exact cues a female mosquito hunts &mdash; then vacuums her in. It works over weeks of continuous running, not overnight, and the published field trials disagree on how much it reduces bites: two 2006 studies in the <em>Journal of the American Mosquito Control Association</em> found no meaningful drop in biting pressure, while a third found real reductions with roughly one trap per acre on an isolated property. It is a real device you can order today, best suited to larger and cottage properties. Woodstream sells the line into Canada under Canadian model numbers &mdash; the Executive MM3302B and Patriot Plus MM4202B are both listed on the brand&rsquo;s own Canadian site &mdash; and it is carried on Amazon.ca. Which bricks-and-mortar chains have it on the shelf moves through the season, so check the brand&rsquo;s where-to-buy listing before driving anywhere. <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Check Mosquito Magnet price →</BuyLink></p>
 
           <h3>2. Thermacell (instant patio bubble)</h3>
           <p>For same-evening relief in a seating area, a Thermacell heats a repellent mat to create a roughly 20 sq metre &ldquo;bubble&rdquo; around you within minutes &mdash; no laser, no wiring. It is the closest thing to instant gratification on this list, ideal for a deck, dock, or campsite. Canadian Tire, Home Depot Canada and Costco Canada all carry Thermacell repellers and refills on their own Canadian sites; which individual model is on a given shelf varies through the season. <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Check Thermacell price →</BuyLink></p>
 
           <h3>3. BTI dunks (stop the next generation)</h3>
-          <p>Mosquitoes need standing water to breed. Drop a <strong>BTI dunk or bits</strong> (a naturally occurring bacterium harmless to pets, birds, and fish) into rain barrels, low spots, and clogged gutters and you kill larvae before they ever fly. It is a few dollars a season and quietly one of the highest-value moves you can make. <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Check BTI dunks price →</BuyLink></p>
+          <p>Mosquitoes need standing water to breed. Drop a <strong>BTI dunk or bits</strong> (a naturally occurring bacterium that acts on mosquito larvae; use it as the label directs) into rain barrels, low spots, and clogged gutters and you kill larvae before they ever fly. It is a few dollars a season and quietly one of the highest-value moves you can make. <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Check BTI dunks price →</BuyLink></p>
 
           <h3>4. Professional barrier spray (whole-yard, plus ticks)</h3>
-          <p>The most complete option is a licensed technician treating the shady, leafy vegetation where mosquitoes rest during the day. You get <strong>same-day relief and 21&ndash;30 days of residual coverage across the whole yard</strong> &mdash; and unlike any trap or laser, barrier treatment also knocks down <Link href="/mosquito-control">ticks</Link>, which no airborne device touches. For a typical GTA lot, this is the single most effective line item, starting from $99 per treatment.</p>
+          <p>The most complete option is a licensed technician treating the shady, leafy vegetation where mosquitoes rest during the day. You get <strong>a residual across the whole yard, applied according to label directions and renewed on a schedule</strong> &mdash; and unlike any trap or laser, barrier treatment also knocks down <Link href="/mosquito-control">ticks</Link>, which no airborne device touches. For a typical GTA lot, this is the most complete line item, starting from $99 per treatment on a standard lot.</p>
 
           <h2>Laser Mosquito Killer vs. Proven Solutions</h2>
           <div className="not-prose overflow-x-auto rounded-lg border border-navy-100 my-4">
@@ -576,9 +602,9 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
             </thead>
             <tbody>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Photon Matrix laser</strong></td><td className="px-3 py-2">No — crowdfunded</td><td className="px-3 py-2">Unproven</td><td className="px-3 py-2">None</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet</Link></td><td className="px-3 py-2">Yes</td><td className="px-3 py-2">70–90% (over 6–8 weeks)</td><td className="px-3 py-2">None</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link></td><td className="px-3 py-2">Yes</td><td className="px-3 py-2">70–95% in a ~20m² zone</td><td className="px-3 py-2">None</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Yes</td><td className="px-3 py-2">Whole yard 21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet</Link></td><td className="px-3 py-2">Yes</td><td className="px-3 py-2">Gradual, over several weeks</td><td className="px-3 py-2">None</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link></td><td className="px-3 py-2">Yes</td><td className="px-3 py-2">Repellent zone around a seating area (~20m²)</td><td className="px-3 py-2">None</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Yes</td><td className="px-3 py-2">Whole yard, renewed on a schedule</td><td className="px-3 py-2">Yes, with a tick plan</td></tr>
             </tbody>
           </table>
           </div>
@@ -609,6 +635,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           </table>
           </div>
           <p>Read the range row twice. <strong>Six metres is the maximum, on the more expensive unit, in a 90-degree cone.</strong> A typical suburban lot &mdash; in Texas or in Toronto &mdash; is many times that in every direction, and mosquitoes rest in the shaded vegetation around the edges of it during the day, then drift in from a neighbour&rsquo;s untreated yard at dusk. The device is a patio-corner appliance being sold with yard-scale expectations.</p>
+          <p>If a patio corner is genuinely the area you want covered, it is worth knowing what else fills that same cone for two figures rather than four. An oscillating outdoor fan aimed low across the seating area works on a mosquito&rsquo;s weakest trait &mdash; they are poor fliers and cannot hold a course in moving air &mdash; and it arrives with no laser class to look up, no interlock to trust, and no ship date to chase. <BuyLink tag={AMZ_TAG} search="outdoor oscillating pedestal fan">Check outdoor patio fans on Amazon.ca &rarr;</BuyLink></p>
           <p>The 1 metre-per-second target-speed ceiling deserves a second look too. Mosquitoes are slow flyers, so that ceiling is plausible for the intended target &mdash; but it also tells you what else falls inside the envelope. Commenters on New Atlas&rsquo;s coverage raised exactly this: a system that engages small, slow-flying objects is describing most pollinators as well. The 2007 Intellectual Ventures lab device solved that by identifying mosquitoes on wing-beat frequency, down to species and sex. The published consumer spec is a size-and-speed filter, not a species filter.</p>
           <p>There is a second number in that filter that we published only half of, and the missing half sharpens the point. The spec table above lists a <strong>minimum</strong> target size of about 2 mm. The manufacturer&rsquo;s published target window is <strong>roughly 2 mm to 20 mm</strong> &mdash; and 20 mm is not a mosquito. Twenty millimetres is a honeybee, a hoverfly, a small moth, a bumblebee at the top of the range. A device advertised as a mosquito killer is describing an engagement envelope that comfortably contains most of the beneficial flying insects in a Canadian garden, and it identifies them by size and speed rather than by wingbeat. The 2007 lab system solved that with species-level wing-beat identification precise enough to spare males and target only biting females; a 2 mm-to-20 mm size gate is not that, and the difference is worth knowing before a unit runs unattended next to a pollinator border.</p>
 
@@ -663,7 +690,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <h2 id="does-the-photon-matrix-really-work">Does the photon matrix really work?</h2>
           <p><strong>In demo footage it detects and hits mosquitoes &mdash; that part looks genuine. Whether it clears a yard is unanswered. The claim is up to 30 mosquitoes a second within three to six metres, and nobody independent has tested it. A six-metre bubble is a patio corner, not a property, and it does nothing whatsoever for ticks.</strong></p>
           <p>There is a useful distinction here that applies to every mosquito device ever sold: <em>killing mosquitoes</em> and <em>reducing bites</em> are different achievements. A UV bug zapper kills thousands of insects a night and, as our <Link href="/blog/bug-zappers-canada-do-they-work">bug zapper breakdown</Link> shows, barely dents mosquito numbers because it kills the wrong insects. A laser could kill the right insects and still not reduce bites, if the ones it kills are replaced within hours by more drifting in from the untreated three-quarters of your property. Nobody has published the only measurement that would settle it: bite counts, or trap counts, with the device on versus off.</p>
-          <p>Compare that to what <em>is</em> measured. Propane CO₂ traps have independent testing behind a 70&ndash;90% population reduction over six to eight weeks. Barrier treatment has a measurable residual window of 21 to 30 days across an entire property. Those are the numbers a $988 device is competing against, and it has not brought any of its own.</p>
+          <p>Compare that to the alternatives. Propane CO₂ traps have years of field use behind them, and a barrier treatment is a registered product with a label you can read before anyone sprays, applied across an entire property. That is the standard a $988 device is competing against, and it has not brought any evidence of its own.</p>
 
           <h2 id="how-much-does-the-photon-matrix-laser-cost">How much does the Photon Matrix laser cost?</h2>
           <p><strong>US reporting in 2026 puts it at about $988 USD for the indoor infrared unit and about $1,088 USD for the outdoor blue-laser unit, sold online with a 12-month manufacturer warranty (Tom&rsquo;s Hardware, Fox Business). Earlier Indiegogo pledge tiers were $468 and $629, with $697 and $897 quoted as eventual retail.</strong></p>
@@ -841,6 +868,8 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
             <li><strong>In Canada</strong>, Health Canada and provincial public health units run the equivalent surveillance; Public Health Ontario reports West Nile positive-pool and human-case counts through the season, which we track on our <Link href="/blog/west-nile-virus-ontario-2026">Ontario West Nile page</Link>. Symptoms are the same wherever you are &mdash; see <Link href="/blog/west-nile-virus-symptoms">West Nile symptoms and when to seek care</Link>.</li>
           </ul>
           <p>Worth noting what the CDC actually recommends against that risk, because it is unglamorous and it is not a gadget: <strong>EPA-registered repellents, screens on windows and doors, long sleeves at peak biting hours, and eliminating standing water</strong>. Every one of those is cheaper than $988 and every one of them has evidence behind it.</p>
+          <p>Two of those four are things you buy rather than things you do. On the repellent line, the Canadian equivalent of &ldquo;EPA-registered&rdquo; is a PCP registration number printed on the label &mdash; DEET or icaridin (picaridin) for the conventional actives, or a registered oil of lemon eucalyptus product &mdash; with the concentration, the reapplication interval and the products suitable for children all set by that label rather than by the front of the bottle. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Check DEET and picaridin repellents on Amazon.ca &rarr;</BuyLink></p>
+          <p>Screens are the other one, and they have the longest service life of anything on the CDC&rsquo;s list. A magnetic screen door on a walkout or a garage entry, a patched or replaced window screen, and fine mesh over a gazebo carry on working for years with no battery, no refill, no warranty to service overseas and nothing pointed at anybody. <BuyLink tag={AMZ_TAG} search="magnetic screen door">Check magnetic screen doors on Amazon.ca &rarr;</BuyLink></p>
 
           <h2 id="us-mosquito-abatement-districts">Free Mosquito Control Most Americans Already Have</h2>
           <p>This is the single most useful thing a US reader can take from this page, and it has no Canadian equivalent, which is why it does not appear anywhere else in our writing.</p>
@@ -866,7 +895,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
             <tbody>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Propane CO₂ trap</strong> (Mosquito Magnet)</td><td className="px-3 py-2">Amazon.com, and mainstream home-improvement and outdoor chains &mdash; use Woodstream&rsquo;s own dealer listing for live stock</td><td className="px-3 py-2">Sold into Canada under Canadian model numbers (MM3302B, MM4202B) via the brand&rsquo;s Canadian site, and on Amazon.ca</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Thermacell</strong> patio repellent</td><td className="px-3 py-2">Amazon.com and mainstream mass-market and outdoor chains &mdash; Thermacell publishes a US where-to-buy list</td><td className="px-3 py-2">Canadian Tire, Home Depot Canada and Costco Canada all list Thermacell repellers and refills; also Amazon.ca</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>BTI dunks / bits</strong> (larvae control)</td><td className="px-3 py-2">Amazon.com, home-improvement chains and garden centres</td><td className="px-3 py-2">Registered with Health Canada&rsquo;s PMRA and sold through hardware chains, garden centres and Amazon.ca &mdash; check the PCP number on the pack</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>BTI dunks / bits</strong> (larvae control)</td><td className="px-3 py-2">Amazon.com, home-improvement chains and garden centres</td><td className="px-3 py-2">Sold with a Canadian PCP registration number through hardware chains, garden centres and Amazon.ca &mdash; check the PCP number on the pack</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier treatment</strong></td><td className="px-3 py-2">A licensed applicator in your state &mdash; and check your county abatement district first, it may be free</td><td className="px-3 py-2"><Link href="/free-yard-assessment" className="text-emerald-700 underline font-semibold">BuzzSkito, from $99</Link> across 19 GTA cities</td></tr>
             </tbody>
           </table>
@@ -876,7 +905,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
 
           <h2>The Honest Verdict</h2>
           <p>The laser mosquito killer is one of the more exciting ideas in pest control, and the photonic-fence research behind it is genuinely real. But excitement is not the same as availability. As of 2026, the Photon Matrix and its cousins are crowdfunded pre-orders without independent testing or recognized eye-safety certification, priced above a full season of professional service, covering only a few metres, and doing nothing for ticks. Watch the category with interest &mdash; do not rely on it to keep the bites off you this July.</p>
-          <p>If you want a mosquito-free backyard <em>this</em> summer, put your money where the evidence is: a <Link href="/blog/best-mosquito-trap">proven trap</Link>, a Thermacell on the patio, BTI dunks in the standing water, and <Link href="/mosquito-control">professional barrier spray</Link> for whole-yard, tick-inclusive coverage. When a certified, independently tested laser device finally ships to Canada, we will update this page.</p>
+          <p>If you want a backyard with fewer mosquitoes <em>this</em> summer, put your money where the evidence is: a <Link href="/blog/best-mosquito-trap">proven trap</Link>, a Thermacell on the patio, BTI dunks in the standing water, and <Link href="/mosquito-control">professional barrier spray</Link> for whole-yard, tick-inclusive coverage. When a certified, independently tested laser device finally ships to Canada, we will update this page.</p>
 
           <h3>Verdict update &mdash; September 2026</h3>
           <p>One sentence in the verdict above has aged and the rest has not, so here is the correction rather than a quiet rewrite. <strong>Availability changed.</strong> US outlets now report the Photon Matrix on sale online at roughly $988 to $1,088 USD with a 12-month warranty, so &ldquo;you cannot buy it&rdquo; is no longer the right objection and we have retired it.</p>
@@ -918,7 +947,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
         </div>
       </article>
 
-      <CTASection heading="Real Bites Need Real Solutions · Not a Pre-Order" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 30-day residual." variant="dark" />
+      <CTASection heading="Real Bites Need Real Solutions · Not a Pre-Order" subtext={`Get a free quote for licensed barrier spray. From $99 on a standard lot. ${PROMISES.response}`} variant="dark" />
     </>
   )
 }

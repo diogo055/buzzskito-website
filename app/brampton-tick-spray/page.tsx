@@ -2,14 +2,16 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Brampton Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    'Brampton tick spray · 150+ five-star reviews. 5 sprays per season, 30-day protection. Castlemore, Heart Lake, Mount Pleasant, Bramalea. (289) 216-5030.',
+    'Brampton tick spray · 150+ five-star reviews. 5 sprays per season by a licensed operator. Castlemore, Heart Lake, Mount Pleasant, Bramalea. (289) 216-5030.',
   canonical: '/brampton-tick-spray',
 })
 
@@ -20,7 +22,7 @@ const NEIGHBOURHOODS = ["Mount Pleasant","Gore Meadows","Castlemore","Springdale
 const FAQS = [
   {
     question: 'How much does tick spray cost in Brampton?',
-    answer: 'Tick spray in Brampton starts from $99 per application. Properties near Heart Lake Conservation Area, Humber River tributaries, or any wooded ravine are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, because each application holds up to 30 days of residual and monthly spacing is what removes the gap. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Brampton starts from $99 per application. Properties near Heart Lake Conservation Area, Humber River tributaries, or any wooded ravine are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, because monthly spacing keeps the treated zones renewed through the season. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Are ticks a real problem in Brampton?',
@@ -32,23 +34,23 @@ const FAQS = [
   },
   {
     question: 'When should Brampton homeowners schedule tick treatment?',
-    answer: "Start in May and keep treating roughly monthly through September — five treatments across the season. The May, June, and July applications cover peak blacklegged nymph activity; nymphs drive most Lyme transmission because they're poppy-seed sized and easily missed during tick checks. The August and September applications cover adults, which re-emerge and stay active through the autumn. Monthly spacing matters because each application leaves up to 30 days of residual, so a spring-and-fall pair would leave a multi-month hole straight through peak nymph season — precisely the wrong time to be uncovered. Deer, mice, and birds moving off Heart Lake Conservation Area and the ravine corridors keep reintroducing ticks, so the barrier has to be renewed rather than applied once or twice.",
+    answer: "Start in May and keep treating roughly monthly through September — five treatments across the season. The May, June, and July applications cover peak blacklegged nymph activity. The August and September applications cover adults, which re-emerge and stay active through the autumn. Monthly spacing matters because a spring-and-fall pair would leave a multi-month hole straight through peak nymph season — precisely the wrong time to be uncovered. Deer, mice, and birds moving off Heart Lake Conservation Area and the ravine corridors keep reintroducing ticks, so the barrier has to be renewed rather than applied once or twice. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors.",
   },
   {
     question: 'How does BuzzSkito treat for ticks in Brampton?',
-    answer: "We apply a residual barrier spray to the specific micro-habitats where ticks concentrate on your property: the 1–3 metre transition zone between your lawn and any natural vegetation, garden bed edges, leaf litter areas, woodpiles, fence lines, and under decks. Ticks are not randomly distributed — they aggregate in these specific zones, so targeted treatment is far more effective than broadcast spraying.",
+    answer: "We apply a residual barrier spray to the specific micro-habitats where ticks concentrate on your property: the 1–3 metre transition zone between your lawn and any natural vegetation, garden bed edges, leaf litter areas, woodpiles, fence lines, and under decks. Ticks are not randomly distributed — they aggregate in these specific zones, so treatment is targeted at those zones rather than broadcast across the whole lawn.",
   },
   {
-    question: 'Is tick spray safe for my kids and pets in Brampton?',
-    answer: "Yes. Our Health Canada–approved formula is safe for children and pets once dry, which takes approximately 30 minutes after application. We recommend keeping people and pets off treated areas for that initial drying period. After that, your family can use the yard as normal with full protection active.",
+    question: 'What should my family and pets do after a tick treatment?',
+    answer: "We apply according to the product label directions, to the vegetation and edges where ticks wait rather than open grass or play areas. The label directs people and pets to stay off treated areas until the spray has dried, and we remind you of that on the day.",
   },
   {
     question: 'Does BuzzSkito also provide mosquito control in Brampton?',
-    answer: "Yes. Brampton's stormwater ponds, Etobicoke Creek, and numerous green spaces also create significant mosquito pressure each season. Many Brampton homeowners bundle both mosquito and tick treatments for complete yard protection. See our Brampton mosquito control service for details.",
+    answer: "Yes. Brampton's stormwater ponds, Etobicoke Creek, and numerous green spaces also create significant mosquito pressure each season. Many Brampton homeowners bundle both mosquito and tick treatments so one visit covers both pests. See our Brampton mosquito control service for details.",
   },
   {
     question: 'What is Lyme disease and how real is the risk in Brampton?',
-    answer: "Lyme disease is a bacterial infection transmitted by blacklegged tick bites. Ontario has seen steadily increasing case numbers each year as tick populations expand. Heart Lake Conservation Area and the Humber River corridor in Brampton are both documented tick surveillance areas. Early Lyme symptoms include a bulls-eye rash, fever, fatigue, and joint pain — but up to 30% of cases present without the classic rash, making prevention the safest approach.",
+    answer: "Lyme disease is a bacterial infection transmitted by blacklegged tick bites. Ontario has seen steadily increasing case numbers each year as tick populations expand. Heart Lake Conservation Area and the Humber River corridor in Brampton are both documented tick surveillance areas. Early Lyme symptoms include a bulls-eye rash, fever, fatigue, and joint pain — but up to 30% of cases present without the classic rash, which is why checking yourself, your children and your pets for ticks after time outdoors matters.",
   },
 ]
 
@@ -66,18 +68,19 @@ export default function BramptonTickSprayPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>Brampton Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Brampton's ravines, conservation areas, and greenbelt corridors harbour blacklegged ticks. Protect your family from Lyme disease with BuzzSkito's professional 30-day tick barrier spray.</>}
+        subtitle={<>Brampton's ravines, conservation areas, and greenbelt corridors harbour blacklegged ticks. Licensed Ontario pesticide operator, with tick treatments applied according to label directions.</>}
         image="/spray-front.webp"
+        service="tick"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ Licensed Ontario Pesticide Operator</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ 5 Sprays per Season</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -85,7 +88,7 @@ export default function BramptonTickSprayPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best tick control company in Brampton?">
         <p>
-          <strong>BuzzSkito provides specialist tick barrier spray across all Brampton neighbourhoods — Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, Fletcher&apos;s Meadow, Heart Lake, Snelgrove, Sandalwood, Bram West.</strong> Treatments use Health Canada-approved formulations applied to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>150+ five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Brampton families get reliable Lyme disease prevention for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist tick barrier spray across all Brampton neighbourhoods — Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, Fletcher&apos;s Meadow, Heart Lake, Snelgrove, Sandalwood, Bram West.</strong> Treatments are applied according to label directions to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is <strong>$597</strong> on its own or <strong>$497</strong> with any mosquito plan. With <strong>150+ five-star Google reviews</strong>, no contracts, and a rain-back guarantee on every plan, Brampton families get targeted tick-zone treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -99,17 +102,18 @@ export default function BramptonTickSprayPage() {
                 {[
                   ['Service area', "All Brampton neighbourhoods (Mount Pleasant, Gore Meadows, Castlemore, Springdale, Bramalea, Creditview, Fletcher's Meadow, Heart Lake, Snelgrove, Sandalwood, Bram West)"],
                   ['Specialization', 'Blacklegged tick (Ixodes scapularis) and American dog tick barrier spray'],
-                  ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or tick add-on bundle available on quote'],
+                  ['Licence', PROMISES.licence],
+                  ['Pricing', 'From $99 per treatment · 5-spray tick season $597 standalone or $497 with any mosquito plan (plus HST)'],
                   ['Treatment season', 'May through September, roughly monthly (peak: late April–June nymph activity, then again Sep–Oct adult activity)'],
-                  ['Protection per visit', 'Up to 30 days residual on tick habitat zones'],
-                  ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
+                  ['Sprays per season', '5, roughly monthly from May to September'],
+                  ['Re-entry', 'Stay off treated areas until the spray has dried, as the label directs'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
                   ['Highest tick zones', 'Heart Lake Conservation Area · Etobicoke Creek · Professor’s Lake · ravine corridors'],
                   ['Lyme disease vector', 'Yes — blacklegged tick populations confirmed by Public Health Ontario'],
                   ['Application zones', 'Lawn-to-woods edge · leaf litter · garden bed perimeters · fence-line vegetation · woodpiles'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
-                  ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
+                  ['Guarantee', 'Rain-back guarantee on every plan'],
                   ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
                   ['Phone', '(289) 216-5030'],
                 ].map(([k, v]) => (
@@ -135,6 +139,8 @@ export default function BramptonTickSprayPage() {
         </div>
       </section>
 
+      <TypicalPrices service="tick" city={CITY} />
+
       {/* How It Works */}
       <section className="py-14 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -143,8 +149,8 @@ export default function BramptonTickSprayPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones on your Brampton property — lawn-to-woods transition areas, leaf litter, woodpiles, garden bed edges, and fence lines where ticks concentrate.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks live — not broadcast spraying, but precision treatment where it matters.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a protective barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies barrier spray, following the label directions, to the specific 1-3 metre zones where ticks live — not broadcast spraying, but precision treatment where it matters.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Stay off treated areas until the spray has dried, as the label directs. ${PROMISES.rainBack} Tick treatments are renewed roughly monthly, 5 sprays per season.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -160,7 +166,7 @@ export default function BramptonTickSprayPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Tick Risk in Brampton</h2>
           <p>Brampton's rapid residential expansion has pushed subdivisions right up against conservation lands, ravines, and creek corridors — all of which are prime blacklegged tick habitat. <strong>Heart Lake Conservation Area</strong> is the most significant tick-risk site in the city, with documented surveillance populations and deer movement patterns that distribute ticks throughout adjacent neighbourhoods. The <strong>Etobicoke Creek valley</strong> and Humber River tributaries running through Castlemore, Credit Valley, and northern Brampton create additional corridors where tick exposure is consistently elevated.</p>
-          <p>The key risk period in Brampton is May through July for tick nymphs (the most dangerous stage — tiny, hard to see, and responsible for the majority of Lyme disease transmissions) and October through November for adult ticks. A professionally treated yard dramatically reduces the chance of a tick reaching your family.</p>
+          <p>The key risk period in Brampton is May through July for tick nymphs (the most dangerous stage — tiny, hard to see, and responsible for the majority of Lyme disease transmissions) and October through November for adult ticks. Treating the edges where ticks wait on your own lot is one layer, alongside tick checks after time outdoors.</p>
 
           <h2>High-Risk Brampton Areas</h2>
           <ul>
@@ -186,7 +192,7 @@ export default function BramptonTickSprayPage() {
           </ul>
 
           <h2>Tick Control Treatment Schedule for Brampton</h2>
-          <p>The seasonal program is five treatments, spaced roughly monthly from May through September. Each application leaves up to 30 days of residual, so monthly spacing is what removes the gap between visits.</p>
+          <p>The seasonal program is five treatments, spaced roughly monthly from May through September. Monthly spacing keeps the treated zones renewed, with no long gap between visits.</p>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -214,6 +220,8 @@ export default function BramptonTickSprayPage() {
             </table>
           </div>
 
+          <CityPriceCard city={CITY} service="tick" location="price_card_mid" />
+
           <h2>Tick Spray Pricing in Brampton</h2>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse">
@@ -226,9 +234,9 @@ export default function BramptonTickSprayPage() {
               </thead>
               <tbody>
                 {[
-                  { type: 'Standard lot (under 6,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Brampton detached or semi' },
-                  { type: 'Mid-size lot (6,000–10,000 sq ft)', price: 'Custom quote', coverage: 'Conservation-adjacent, Castlemore properties' },
-                  { type: 'Large / rural property (10,000+ sq ft)', price: 'Custom quote', coverage: 'Acreage, greenbelt-adjacent, Countryside Drive area' },
+                  { type: 'Standard lot (under 10,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Brampton detached or semi' },
+                  { type: 'Larger lot (10,000–100,000 sq ft)', price: 'Priced by lot size', coverage: 'Conservation-adjacent, Castlemore properties' },
+                  { type: 'Large / rural property (100,000+ sq ft)', price: 'Custom quote', coverage: 'Acreage, greenbelt-adjacent, Countryside Drive area' },
                 ].map(({ type, price, coverage }) => (
                   <tr key={type} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-2 font-semibold text-brand-800">{type}</td>
@@ -243,27 +251,27 @@ export default function BramptonTickSprayPage() {
 
           <h2>Professional Tick Spray vs. DIY in Brampton</h2>
           <ul>
-            <li><strong>Store-bought tick repellents protect people, not yards.</strong> DEET and permethrin sprays applied to clothing protect the wearer during a walk. Professional yard spray creates a treated perimeter that kills ticks before they reach your family.</li>
+            <li><strong>Store-bought tick repellents protect people, not yards.</strong> DEET and permethrin sprays applied to clothing protect the wearer during a walk. Professional yard spray treats the perimeter zones where ticks wait for a host.</li>
             <li><strong>Tick tubes target mice, not the yard.</strong> Permethrin-treated cotton tubes work on the rodent pathway. They&apos;re useful as a supplement but don&apos;t address ticks already on your property or arriving via deer movement.</li>
             <li><strong>Precision matters more than product.</strong> Ticks live in specific micro-habitats — the lawn-to-woods transition zone, leaf litter, garden bed edges. Professional treatment targets these zones directly. Consumer foggers miss them entirely.</li>
-            <li><strong>Brampton&apos;s tick sources are beyond your property.</strong> Heart Lake Conservation Area and Etobicoke Creek will produce ticks regardless of what you do on your lot. A treated barrier on your property is the only reliable residential defence.</li>
+            <li><strong>Brampton&apos;s tick sources are beyond your property.</strong> Heart Lake Conservation Area and Etobicoke Creek will produce ticks regardless of what you do on your lot. A treated barrier on the tick zones of your own property is the part you can control.</li>
           </ul>
 
           <h2>What to Expect on Tick Treatment Day</h2>
           <ol>
-            <li><strong>SMS notification before arrival</strong> — you don&apos;t need to be home.</li>
+            <li><strong>Visit window</strong> — {PROMISES.visitWindow} You don&apos;t need to be home.</li>
             <li><strong>Property tick assessment</strong> — your technician identifies transition zones, leaf litter areas, and high-risk perimeters.</li>
             <li><strong>Targeted barrier application</strong> — precision spray to tick habitat zones: lawn edges, garden borders, fence lines, woodpiles, under decks. 20–30 minutes for a typical lot.</li>
-            <li><strong>30-minute dry time</strong> — then fully safe for kids and pets.</li>
+            <li><strong>Drying time</strong> — keep people and pets off treated areas until the spray has dried, as the product label directs.</li>
             <li><strong>Email confirmation</strong> — treatment log with areas treated and next visit date.</li>
           </ol>
 
           <h2>Also Providing Mosquito Control in Brampton</h2>
-          <p>Bundle tick and mosquito control for complete yard protection. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control service</Link>.</p>
+          <p>Bundle tick and mosquito control so one visit covers both pests. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control service</Link>.</p>
 
 
           <h2>Compare Brampton Pest Control Options</h2>
-          <p>Brampton has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-brampton" className="text-brand-700 hover:underline font-semibold">Pest Control in Brampton</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Brampton</Link>.</p>
+          <p>Brampton has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-brampton" className="text-brand-700 hover:underline font-semibold">Pest Control in Brampton</Link> for why a mosquito and tick specialist is a better fit for tick-zone treatment than a general pest company. See our full mosquito programme for the same property: <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Brampton</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
@@ -304,6 +312,10 @@ export default function BramptonTickSprayPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="tick" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -323,7 +335,7 @@ export default function BramptonTickSprayPage() {
         </div>
       </section>
 
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protect your Brampton family from Lyme disease this season. No contracts." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Tick-zone treatment for Brampton properties this season. No contracts." variant="dark" />
     </>
   )
 }

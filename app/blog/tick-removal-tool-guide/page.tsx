@@ -51,7 +51,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Best Tick Removal Tools · Tested 2026',
+  title: 'Best Tick Removal Tools Canada 2026: 5 Ranked',
   description: 'Best tick removal tools tested. Tick Twister vs TickKey vs fine-tipped tweezers vs old wives tales. Step-by-step removal guide for Ontario.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
@@ -261,6 +261,8 @@ export default function TickRemovalToolGuidePage() {
 
           <h2>What If the Mouthparts Stay Behind?</h2>
           <p>It happens with imperfect technique. If a small black dot remains in the skin after the body is removed: <strong>leave it alone</strong>. The skin will work it out on its own in a few days, like a splinter. Don&rsquo;t dig at it — that causes more inflammation and infection risk than the splinter itself. Watch for spreading redness or pus and call your doctor/vet if those appear.</p>
+          <p>If that black dot is still there a week later, or the skin around it is getting angrier rather than calmer, our longer guide to <Link href="/blog/tick-head-stuck-in-skin" className="text-brand-700 underline">a tick head stuck in the skin</Link> walks through what is normal healing, what is a local reaction, and which signs mean it is worth getting looked at.</p>
+          <p>Where nothing was left behind and the bite still refuses to close, the question is a different one &mdash; see <Link href="/blog/tick-bites-that-wont-heal-when-to-worry" className="text-brand-700 underline">tick bites that won&rsquo;t heal and when to worry</Link>.</p>
 
           <h2>Where to Submit the Tick After Removal</h2>
           <ul>
@@ -269,9 +271,10 @@ export default function TickRemovalToolGuidePage() {
             <li><strong>Your vet</strong> — Many vets will identify the species in-clinic, especially for dogs.</li>
           </ul>
           <p>Note: Knowing a tick was a blacklegged species doesn&rsquo;t mean Lyme was transmitted. Only 10–30% of blacklegged ticks in Ontario actually carry Borrelia bacteria. Symptom monitoring is more reliable than tick testing alone.</p>
+          <p>That gap between &ldquo;a blacklegged tick bit me&rdquo; and &ldquo;I have Lyme disease&rdquo; is worth keeping in proportion. <Link href="/blog/lyme-disease-cases-ontario-2026" className="text-brand-700 underline">Lyme disease cases in Ontario</Link> sets out the latest published provincial counts and how quickly they have been rising.</p>
 
           <h2>The Bigger Picture — Stop Finding Ticks</h2>
-          <p>The less often ticks turn up in your yard, the less often you reach for the tool. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> puts a Health Canada-registered residual acaricide on the leaf litter, lawn edges and shaded perimeters where ticks quest, repeated through the season as the residual wears off. Keep a removal tool anyway — no yard treatment eliminates ticks, and you will still pick them up on trails and dog walks, where <Link href="/blog/permethrin-canada-yard-clothing-spray">permethrin-treated clothing</Link> is the layer that stops most of them on the fabric before they ever reach skin. From seasonal pricing on quote (or $497 bundled with mosquito).</p>
+          <p>The less often ticks turn up in your yard, the less often you reach for the tool. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> puts a residual acaricide, applied according to label directions, on the leaf litter, lawn edges and shaded perimeters where ticks quest, repeated through the season as the residual wears off. Keep a removal tool anyway — no yard treatment eliminates ticks, and you will still pick them up on trails and dog walks, where <Link href="/blog/permethrin-canada-yard-clothing-spray">permethrin-treated clothing</Link> is the layer that stops most of them on the fabric before they ever reach skin. A tick season is $597 on its own, or $497 added to any mosquito plan.</p>
           <p>Want a passive DIY layer between treatments? Permethrin tick tubes let mice carry the treatment into their nests, killing larval ticks before they ever quest for a host — see our <Link href="/blog/tick-tubes-canada">guide to tick tubes in Canada</Link>.</p>
 
           <h2>Related Reading</h2>
@@ -298,7 +301,7 @@ export default function TickRemovalToolGuidePage() {
         </div>
       </article>
 
-      <CTASection heading="Stop Finding Ticks in the First Place" subtext="Yard tick barrier spray treats the leaf litter and shaded edges where ticks quest. From seasonal pricing on quote." variant="dark" />
+      <CTASection heading="Stop Finding Ticks in the First Place" subtext="Yard tick barrier spray treats the leaf litter and shaded edges where ticks quest. Tick seasons from $597, or $497 with a mosquito plan." variant="dark" />
     </>
   )
 }

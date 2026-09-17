@@ -130,7 +130,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'Tomcat Heavy-Duty Rat Snap Traps',
-                why: 'Modern press-to-set rat snap traps with the striking power a 300&ndash;500 g Norway rat requires. Cheap enough to run a proper pre-baited line of 6&ndash;12, reusable all season, and no chemicals anywhere near the house.',
+                why: 'Modern press-to-set rat snap traps with the striking power a 300–500 g Norway rat requires. Cheap enough to run a proper pre-baited line of 6–12, reusable all season, and no chemicals anywhere near the house.',
                 search: 'tomcat rat snap trap',
                 score: 9.0,
                 featured: true,
@@ -143,16 +143,16 @@ export default function HowToGetRidOfRatsCanadaPage() {
                 why: 'The New Zealand conservation-grade auto-trap: a CO2-powered striker kills instantly, the body drops clear, and the trap resets itself — up to 24 kills per canister with no rebaiting between them.',
                 search: 'goodnature a24 rat trap',
                 score: 8.6,
-                pros: ['Self-resets — one device replaces a trap line', 'Toxin-free: no secondary poisoning risk to owls, dogs, cats', 'Counter accessory tallies kills you never have to watch'],
+                pros: ['Self-resets — one device replaces a trap line', 'No rodenticide inside, so nothing to pass on to owls, dogs, cats', 'Counter accessory tallies kills you never have to watch'],
                 cons: ['Premium-tier price plus recurring CO2 and lure refills', 'Canadian stock fluctuates — verify availability before planning around it'],
               },
               {
                 badge: 'Best for Monitoring',
                 name: 'Tamper-Resistant Rodent Bait Station',
-                why: 'A lockable, dog- and child-resistant box that legally houses consumer bait blocks — and doubles as a monitoring station with non-toxic blocks to tell you where rats are active before you commit traps.',
+                why: 'A lockable, dog- and child-resistant box that legally houses consumer bait blocks — and doubles as a monitoring station with rodenticide-free blocks to tell you where rats are active before you commit traps.',
                 search: 'rat bait station tamper resistant',
                 score: 7.4,
-                pros: ['Required housing for any legal outdoor baiting', 'Non-toxic monitoring blocks map activity safely', 'Weatherproof for Canadian exterior use'],
+                pros: ['Required housing for any legal outdoor baiting', 'Rodenticide-free monitoring blocks map activity before you bait', 'Weatherproof for Canadian exterior use'],
                 cons: ['Station is sold empty — bait choice is on you, and rules are strict', 'Poisoned rats can die in inaccessible voids'],
               },
               {
@@ -167,7 +167,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Active rats right now?</strong> Start with the <em>Best Overall</em> Tomcat snap traps and run the pre-baiting protocol below &mdash; nothing beats their cost per kill. <strong>Don&rsquo;t want to check and empty traps?</strong> The <em>Best Premium</em> Goodnature A24 automates the whole loop for a premium price. <strong>Not sure where the rats are travelling?</strong> Deploy <em>Best for Monitoring</em> stations with non-toxic blocks first and let the feeding map tell you. <strong>Already winning?</strong> Spend the next dollar on <em>Best Prevention</em> exclusion mesh &mdash; it is the only purchase on this page that makes the others unnecessary next year. Full sealing walkthrough in our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link>.
+                <strong>Active rats right now?</strong> Start with the <em>Best Overall</em> Tomcat snap traps and run the pre-baiting protocol below &mdash; nothing beats their cost per kill. <strong>Don&rsquo;t want to check and empty traps?</strong> The <em>Best Premium</em> Goodnature A24 automates the whole loop for a premium price. <strong>Not sure where the rats are travelling?</strong> Deploy <em>Best for Monitoring</em> stations with rodenticide-free blocks first and let the feeding map tell you. <strong>Already winning?</strong> Spend the next dollar on <em>Best Prevention</em> exclusion mesh &mdash; it is the only purchase on this page that makes the others unnecessary next year. Full sealing walkthrough in our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link>.
               </>
             }
           />
@@ -203,7 +203,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Bait station<br /><span className="font-normal text-xs text-gray-500">Tamper-resistant box</span></td>
-                  <td className="px-4 py-3 text-gray-700">Lockable housing for legal consumer bait blocks &mdash; or non-toxic monitoring blocks to map activity</td>
+                  <td className="px-4 py-3 text-gray-700">Lockable housing for legal consumer bait blocks &mdash; or rodenticide-free monitoring blocks to map activity</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Monitor first, bait last</strong> &mdash; poison is the last resort under Canadian rules</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rat bait station tamper resistant" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
@@ -313,7 +313,7 @@ export default function HowToGetRidOfRatsCanadaPage() {
           </div>
 
           <h2>Bait Stations: Monitor First, Poison Last</h2>
-          <p>Tamper-resistant bait stations — the black lockable boxes you see behind restaurants — have two jobs for a Canadian homeowner, and the less obvious one is more useful. Loaded with <strong>non-toxic monitoring blocks</strong>, a station is an intelligence tool: place a few along fence lines, beside sheds, and near suspected burrows, and gnawed blocks tell you exactly where rats are travelling before you commit traps. That feeding map is worth more than any single kill.</p>
+          <p>Tamper-resistant bait stations — the black lockable boxes you see behind restaurants — have two jobs for a Canadian homeowner, and the less obvious one is more useful. Loaded with <strong>rodenticide-free monitoring blocks</strong>, a station is an intelligence tool: place a few along fence lines, beside sheds, and near suspected burrows, and gnawed blocks tell you exactly where rats are travelling before you commit traps. That feeding map is worth more than any single kill.</p>
           <p>The second job — housing actual rodenticide — comes with rules. Any legal consumer bait in Canada must be deployed in a tamper-resistant station if children, pets, or wildlife could reach it, and the station is the easy part: the hard part is that the bait itself is tightly restricted, which is the next section. Our <Link href="/blog/mouse-bait-station-canada">bait station guide</Link> covers station selection and placement in depth; the short version is buy a station with a key lock and internal rods, anchor it so it cannot be flipped, and treat baiting as the last tool you reach for, not the first.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="rat bait station tamper resistant">Check tamper-resistant stations on Amazon.ca →</BuyLink>

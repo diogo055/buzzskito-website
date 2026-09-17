@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Mount Pleasant | From $99',
   description:
-    'Professional mosquito control in Mount Pleasant, Brampton. Barrier spray near Credit River from $99. Safe for kids & pets. Call (289) 216-5030.',
+    'Professional mosquito control in Mount Pleasant, Brampton. Barrier spray near Credit River from $99. Licensed Ontario operator. Call (289) 216-5030.',
   canonical: '/mount-pleasant-mosquito-control',
 })
 
@@ -27,11 +29,11 @@ const FAQS = [
   },
   {
     question: 'How many treatments does a Mount Pleasant property need?',
-    answer: "Mount Pleasant properties near the Credit River typically benefit from 4-5 treatments spaced 21-28 days apart from May through September. Properties in Mount Pleasant Village farther from the river may be well-served by 3-4 treatments. Call (289) 216-5030 for a free property assessment tailored to your specific Mount Pleasant address.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Mount Pleasant properties near the Credit River typically benefit from Standard's two-week spacing. Properties in Mount Pleasant Village farther from the river may be well-served by Basic. Call (289) 216-5030 for a free property assessment tailored to your specific Mount Pleasant address.",
   },
   {
-    question: 'Is BuzzSkito spray safe for Mount Pleasant Village gardens?',
-    answer: "Yes. Our Health Canada-approved, water-based formula is safe for all established garden plantings, including the newer landscaping common in Mount Pleasant Village. We apply it to the resting surfaces mosquitoes use — leaf undersides and shrub foliage — not to blooms, bare soil, or vegetable gardens. After a 30-minute drying period, the area is fully safe for children and pets.",
+    question: 'How is BuzzSkito spray applied around Mount Pleasant Village gardens?',
+    answer: "Our licensed technician applies a water-based barrier product according to its label directions to established shrubs and the newer landscaping common in Mount Pleasant Village. We apply it to the resting surfaces mosquitoes use — leaf undersides and shrub foliage — not to blooms, bare soil, or vegetable gardens. Keep children and pets off treated areas until the spray has dried, as the product label directs.",
   },
   {
     question: 'Does BuzzSkito serve all of Mount Pleasant in Brampton?',
@@ -58,20 +60,21 @@ export default function MountPleasantMosquitoPage() {
           { label: NEIGHBOURHOOD },
         ]}
         title={<>Mosquito Control in {NEIGHBOURHOOD}, {CITY}</>}
-        subtitle={<>Mount Pleasant's proximity to the Credit River valley creates persistent mosquito pressure throughout the season. BuzzSkito's barrier spray gives Mount Pleasant families up to 30-day protection per treatment.</>}
+        subtitle={<>Mount Pleasant's proximity to the Credit River valley creates persistent mosquito pressure throughout the season. Licensed Ontario pesticide operator. Treatments applied according to label directions.</>}
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada-Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
+      <TypicalPrices service="mosquito" city={NEIGHBOURHOOD} />
 
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
@@ -81,8 +84,8 @@ export default function MountPleasantMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product, according to its label directions, to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: 'Rain within 1 hour of your treatment? We come back and re-treat free, on every plan. Standard & Exclusive plans also carry the Bite-Free Guarantee.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -98,7 +101,7 @@ export default function MountPleasantMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Mount Pleasant's Credit River Mosquito Pressure</h2>
           <p>Mount Pleasant is one of Brampton's most desirable residential communities, combining established neighbourhoods with the newer <strong>Mount Pleasant Village</strong> development. The neighbourhood's western edge borders the <strong>Credit River</strong> valley — one of the GTA's most significant waterway corridors and a major source of seasonal mosquito pressure.</p>
-          <p>The Credit River's protected valley contains permanent water flow, extensive floodplain habitat, and dense riparian forest that produces mosquitoes continuously from spring through fall. This breeding habitat is permanent and untreatable at the source. BuzzSkito's barrier spray creates a treated perimeter on your Mount Pleasant property — targeting leaf undersides, shrub interiors, fence lines, and all resting vegetation — providing up to 30 days of protection against mosquitoes dispersing from the Credit River valley.</p>
+          <p>The Credit River's protected valley contains permanent water flow, extensive floodplain habitat, and dense riparian forest that produces mosquitoes continuously from spring through fall. This breeding habitat is permanent and untreatable at the source. BuzzSkito's barrier spray creates a treated perimeter on your Mount Pleasant property — targeting leaf undersides, shrub interiors, fence lines, and all resting vegetation where mosquitoes dispersing from the Credit River valley settle — and repeat visits through the season keep it in place.</p>
 
           <h2>Part of Our Brampton Mosquito Control Network</h2>
           <p>We serve all of Mount Pleasant and surrounding Brampton. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link> page for city-wide coverage.</p>
@@ -124,10 +127,10 @@ export default function MountPleasantMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats the resting surfaces across your whole property, creating a residual barrier that is renewed on a set schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -136,7 +139,7 @@ export default function MountPleasantMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/brampton-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Our tick barrier spray treats the lawn edges, leaf litter, and fence lines where ticks wait, with 5 sprays per season. See our <Link href="/brampton-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>
@@ -175,6 +178,10 @@ export default function MountPleasantMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

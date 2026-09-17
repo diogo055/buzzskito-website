@@ -2,12 +2,14 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
+import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import StickyBuyBar from '@/components/StickyBuyBar'
 
 const SLUG = 'rat-poison-canada-what-is-legal'
 const DATE = '2026-07-16'
@@ -93,11 +95,13 @@ export default function RatPoisonCanadaLegalPage() {
         </div>
       </section>
 
+      <AffiliateDisclosure />
+
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Most rat poison recommended online is not legal for Canadian consumers. Second-generation anticoagulants (brodifacoum, bromadiolone, difethialone) have been commercial-class only since Health Canada&rsquo;s PMRA re-evaluation took full effect in 2013, and British Columbia has banned most uses outright. The main PMRA-registered consumer option is bromethalin in a ready-to-use tamper-resistant station — the Tomcat Rat Killer disposable station — and even then, traps should come first for most homes.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Most rat poison recommended online is not legal for Canadian consumers. Second-generation anticoagulants (brodifacoum, bromadiolone, difethialone) have been commercial-class only since Health Canada&rsquo;s PMRA re-evaluation took full effect in 2013, and British Columbia has banned most uses outright. The main PMRA-registered consumer option is bromethalin in a ready-to-use tamper-resistant station — the <AmazonLink search="tomcat rat killer disposable station" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Tomcat Rat Killer disposable station</AmazonLink> — and even then, traps should come first for most homes.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Second-generation anticoagulants (brodifacoum, bromadiolone, difethialone) have been commercial-class only in Canada since 2013 — no legal consumer sale in any province.</li>
               <li>BC made its SGAR restrictions permanent on January 21, 2023 — only licensed applicators serving designated essential services can use them.</li>
@@ -109,6 +113,15 @@ export default function RatPoisonCanadaLegalPage() {
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito Pest Product Guides · independent Canadian research</p>
           </div>
           <SpecialistDisclosure pest="rats" />
+
+          <div className="not-prose my-6 rounded-2xl border border-navy-100 bg-white p-5 shadow-sm">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">What to do right now</p>
+            <ol className="space-y-3 text-[15px] text-gray-800 list-decimal pl-5">
+              <li><strong>Read the label before you read the reviews &mdash; this step costs nothing.</strong> Every rodenticide that is legal to use in Canada carries a Canadian registration number on the label: it reads &ldquo;Reg. No. XXXXX P.C.P. Act.&rdquo; No number on the listing, or loose pellets rather than a sealed ready-to-use station, and the product is not legal to use here whoever is willing to ship it. That ten-second check rules out most of what American &ldquo;best rat poison&rdquo; lists recommend.</li>
+              <li><strong>Start with traps rather than bait &mdash; and buy the rat-rated kind.</strong> A mouse trap physically cannot kill a rat. A heavy-duty snap trap kills in seconds, leaves a carcass you can find and count instead of a smell behind drywall, and puts nothing into the food chain for an owl, a hawk or a dog to pick up second-hand. For most Canadian homes that is the entire answer. <BuyLink tag={AMZ_TAG} search="heavy duty rat snap trap">Check price on Amazon.ca &rarr;</BuyLink></li>
+              <li><strong>If you do use bait, the consumer-class format is a sealed station.</strong> What Canadian law leaves homeowners is bromethalin and the first-generation anticoagulants, sold ready-to-use inside a tamper-resistant station rather than as loose bait. Bromethalin has no antidote, so place stations against exterior walls along the runways, keep them where a pet cannot chew the housing, and follow the directions printed on the label. <BuyLink tag={AMZ_TAG} search="tomcat rat killer disposable station">Check price on Amazon.ca &rarr;</BuyLink></li>
+            </ol>
+          </div>
         </div>
       </section>
 
@@ -204,6 +217,9 @@ export default function RatPoisonCanadaLegalPage() {
           <h2>Should You Even Use Poison? Traps First</h2>
           <p>For most Canadian rat and mouse problems, no — a properly deployed trap line beats bait, and it isn&rsquo;t close. Traps kill in seconds instead of days, leave a retrievable carcass instead of a smell behind drywall, carry zero secondary-poisoning risk to owls and pets, and give you the only honest progress metric there is: a body count.</p>
           <p>If bait looked appealing mainly because a trap line demands daily upkeep, there is a middle path worth pricing. A self-resetting CO₂ trap strikes, clears the carcass, and re-arms itself, so it runs unattended for weeks with no rodenticide anywhere in the chain and no secondary poisoning to relay to an owl or a dog. Our <Link href="/blog/goodnature-a24-review-canada">poison-free Goodnature A24 review</Link> covers where that premium is and is not worth paying.</p>
+          <div className="not-prose my-4">
+            <BuyLink tag={AMZ_TAG} search="self resetting rat trap co2">Check self-resetting CO&#8322; traps on Amazon.ca &rarr;</BuyLink>
+          </div>
           <p>The playbook, with the deep-dives linked:</p>
           <ul>
             <li><strong>Rats:</strong> heavy-duty snap traps and smart placement — mouse traps physically cannot kill a rat. Start with the <Link href="/blog/best-rat-trap-canada">best rat trap guide</Link>.</li>
@@ -211,6 +227,11 @@ export default function RatPoisonCanadaLegalPage() {
             <li><strong>Exclusion:</strong> trapping without sealing entry points is a subscription, not a solution — the <Link href="/blog/how-to-get-rid-of-mice-canada">get-rid-of-mice playbook</Link> and <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">winter mouse-proofing guide</Link> cover it step by step.</li>
             <li><strong>Skip the shortcuts:</strong> plug-in ultrasonic devices don&rsquo;t survive contact with the evidence — <Link href="/blog/ultrasonic-pest-repellers-do-they-work">our study-by-study review</Link> explains why.</li>
           </ul>
+          <p className="not-prose text-sm text-gray-600 mb-1">The two trap formats that do the work a bait station can&rsquo;t &mdash; a rat-rated snap trap carries far more strike force than a mouse trap, and an electronic trap lets you empty it without seeing anything:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="heavy duty rat snap trap">Rat snap traps &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="electronic mouse trap">Electronic mouse trap &rarr;</BuyLink>
+          </div>
           <p>Where does poison fit? At the edges: sustained exterior pressure, burrow networks, or structures you can&rsquo;t trap effectively — and at that severity, a licensed professional with legal access to commercial products is usually the better spend than any consumer bait. Our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> breaks down what professional rodent work actually runs.</p>
 
           <h2>Frequently Asked Questions</h2>
@@ -244,6 +265,7 @@ export default function RatPoisonCanadaLegalPage() {
           </div>
         </div>
       </article>
+      <StickyBuyBar tag={AMZ_TAG} name="Heavy-duty rat snap trap" search="heavy duty rat snap trap" label="Traps first" />
     </>
   )
 }

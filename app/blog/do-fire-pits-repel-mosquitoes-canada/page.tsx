@@ -15,7 +15,7 @@ const SLUG = 'do-fire-pits-repel-mosquitoes-canada'
 const DATE = '2026-08-22'
 const UPDATED = '2026-08-22'
 const TITLE = 'Do Fire Pits Keep Mosquitoes Away? The Honest Canadian Answer'
-const META_TITLE = 'Do Fire Pits Keep Mosquitoes Away?'
+const META_TITLE = 'Do Fire Pits Keep Mosquitoes Away in Canada?'
 
 const FAQS = [
   {

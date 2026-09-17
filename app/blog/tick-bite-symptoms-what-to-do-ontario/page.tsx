@@ -8,7 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { NEW_BLOGS_2, TICK_BLOGS } from '@/lib/constants'
+import { NEW_BLOGS_2, TICK_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS_2[2]
@@ -99,7 +99,7 @@ export default function TickBiteSymptomsPage() {
             <li>About 20&ndash;30% of confirmed Ontario Lyme cases never show the bull&apos;s-eye rash.</li>
             <li>Public Health Ontario notes preventive antibiotics are most effective within 72 hours of removing a high-risk tick.</li>
             <li>Pull straight up with fine-tipped tweezers &mdash; do not twist, burn, or squeeze the tick.</li>
-            <li>Professional barrier spray kills ticks at all life stages and lasts up to 30 days per treatment.</li>
+            <li>Professional tick barrier spray targets the lawn edges where ticks wait and is renewed roughly monthly, 5 treatments a season.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
         </div>
@@ -171,11 +171,12 @@ export default function TickBiteSymptomsPage() {
           <li>After removal, thoroughly clean the bite area with rubbing alcohol or soap and water.</li>
           <li>Dispose of the tick by placing it in a sealed bag, submerging it in alcohol, or flushing it down the toilet.</li>
         </ol>
+        <p>Mouthparts do sometimes snap off despite good technique, and the leftover black dot worries people far more than it should. Our guide to <Link href="/blog/tick-head-stuck-in-skin" className="text-brand-700 underline">a tick head stuck in the skin</Link> explains why digging at it is the bigger risk and what a normal few days of healing looks like.</p>
 
         <TopPick tag={AMZ_TAG}
           label="Best Tool for the Job"
           name="Fine-Tipped Tick Removal Tool"
-          blurb="A dedicated tick remover grips right at the skin and lifts the tick straight out — steadier and safer than fingernails or wide household tweezers, so the mouthparts are far less likely to snap off. Cheap, reusable, and worth keeping in every first-aid kit and hiking pack."
+          blurb="A dedicated tick remover grips right at the skin and lifts the tick straight out — steadier and more precise than fingernails or wide household tweezers, so the mouthparts are far less likely to snap off. Cheap, reusable, and worth keeping in every first-aid kit and hiking pack."
           search="tick removal tool tweezers"
           score={8.6}
           pros={['Grips close to the skin', 'Lowers risk of breaking mouthparts', 'Reusable and pocket-sized']}
@@ -210,6 +211,7 @@ export default function TickBiteSymptomsPage() {
           <li>Swollen lymph nodes near the bite area</li>
         </ul>
         <p>Important: not everyone with Lyme disease develops a rash. Approximately 20–30% of confirmed Ontario Lyme cases show no bull&apos;s-eye pattern. If you develop any flu-like symptoms following a tick bite, contact your doctor even without a rash.</p>
+        <p>The bite site itself is the other thing to keep watching. A normal reaction fades within a week or two; if yours is still open, crusting, or spreading, our guide to <Link href="/blog/tick-bites-that-wont-heal-when-to-worry" className="text-brand-700 underline">tick bites that won&apos;t heal and when to worry</Link> lays out which healing patterns are ordinary and which ones warrant a doctor&apos;s visit.</p>
 
         <h3>Symptoms Requiring Emergency Care</h3>
         <p>Go to the emergency room immediately if you develop any of the following:</p>
@@ -222,6 +224,7 @@ export default function TickBiteSymptomsPage() {
           <li>Difficulty walking or extreme weakness</li>
         </ul>
         <p>These can indicate serious conditions including Powassan virus (rare, but present in Ontario) and neurological Lyme disease, both of which progress rapidly.</p>
+        <p>If that list is the reason you are reading this at 2 a.m., our guide to <Link href="/blog/can-lyme-disease-kill-you" className="text-brand-700 hover:underline">whether Lyme disease can kill you</Link> sets out the actual prognosis, how curable early Lyme is, and which complications warrant same-day medical care.</p>
 
         <h2>Step 6: When to See a Doctor</h2>
         <p>Contact your family doctor or a walk-in clinic if:</p>
@@ -243,9 +246,12 @@ export default function TickBiteSymptomsPage() {
           <li>Rattray Marsh, Credit River valley (Mississauga, Georgetown)</li>
           <li>Halton Hills and the Niagara Escarpment corridor</li>
         </ul>
+        <p>Tick activity and human illness do not map onto each other perfectly, so it is worth seeing the reported case counts alongside the habitat. <Link href="/blog/lyme-disease-cases-mississauga-oakville-2026" className="text-brand-700 underline">Lyme disease cases in Mississauga and Oakville</Link> goes through the published numbers for Peel and Halton and what they mean for families living beside those corridors.</p>
+
+        <p>Timing shifted across all of those regions this year: activity ran ahead of a normal season province-wide, which is the subject of our <Link href="/blog/ontario-tick-surge-2026" className="text-brand-700 underline">2026 Ontario tick surge report and 5-step safety plan</Link>.</p>
 
         <h2>Prevention: The Best Strategy</h2>
-        <p>The most effective approach is ensuring ticks never get established in your yard. Professional tick barrier spray from BuzzSkito targets the lawn edges, garden borders, and wooded property lines where ticks concentrate — killing them at all life stages (larvae, nymphs, adults) and providing up to 30 days of residual protection.</p>
+        <p>Daily tick checks and prompt removal come first. At home, cutting down the ticks in your own yard helps as well: professional tick barrier spray from BuzzSkito targets the lawn edges, garden borders, and wooded property lines where ticks concentrate, applied according to label directions and renewed roughly monthly &mdash; 5 treatments a season, $597 on its own or $497 added to a mosquito plan.</p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4 my-6">
@@ -268,9 +274,9 @@ export default function TickBiteSymptomsPage() {
         </ul>
       </article>
 
-      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="For safe removal" />
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="For clean removal" />
 
-      <CTASection heading="Protect Your Yard Before a Tick Bites" subtext="BuzzSkito professional tick spray kills ticks at all life stages. Our tick season program includes 5 treatments for full-season protection." />
+      <CTASection heading="Treat Your Yard Before Peak Tick Season" subtext={`BuzzSkito's tick season program is 5 treatments, May through September: $597 on its own, or $497 added to any mosquito plan. ${PROMISES.labelLine}.`} />
     </>
   )
 }

@@ -9,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'mosquito-net'
 const DATE = '2026-07-12'
@@ -35,7 +36,7 @@ const FAQS = [
   },
   {
     question: 'Are permethrin-treated mosquito nets safe for kids and pets?',
-    answer: 'Permethrin-treated nets and bug shirts are considered safe for adults and children when used as directed — permethrin bonds to the fabric and is not readily absorbed through human skin. Health Canada registers permethrin-treated clothing and gear, and treated bed nets are the global standard for malaria prevention including for infants. The one hard rule: permethrin is highly toxic to cats (and to fish) until it fully dries. Keep cats away from any freshly treated net or garment until it is completely dry, and never apply permethrin spray near aquariums or ponds. For a crib or a baby’s stroller, most Canadian parents simply use an untreated fine-mesh net — the physical barrier is enough and avoids the question entirely.',
+    answer: 'Use permethrin-treated nets and bug shirts only as the product label directs — permethrin bonds to the fabric and is not readily absorbed through human skin. Check the label for a Canadian PCP registration number, and read its directions on who and what the gear can be used around. Treated bed nets are the global standard for malaria prevention. The one hard rule: permethrin is highly toxic to cats (and to fish) until it fully dries. Keep cats away from any freshly treated net or garment until it is completely dry, and never apply permethrin spray near aquariums or ponds. For a crib or a baby’s stroller, most Canadian parents simply use an untreated fine-mesh net — the physical barrier is enough and avoids the question entirely.',
   },
   {
     question: 'What size mosquito net do I need for a hammock or a bed?',
@@ -43,7 +44,7 @@ const FAQS = [
   },
   {
     question: 'Mosquito net vs bug spray vs professional barrier spray — which is best?',
-    answer: 'They solve different problems and work well together. A mosquito net protects one bounded space perfectly (a bed, hammock, stroller, or your head) but nothing beyond it. Repellent (DEET or icaridin) protects your exposed skin for a few hours wherever you go. Professional barrier spray treats the vegetation across your whole yard so mosquitoes that land on the leaves die for 21–30 days — that is what actually lets you use the entire backyard, not just the net-enclosed spot, and it also handles ticks (nets and sprays on skin do not). For a Canadian household the smart stack is a head net and repellent for travel and cottage trips, a bed or stroller net for sleeping, and barrier spray to reclaim the yard at home.',
+    answer: 'They solve different problems and work well together. A mosquito net protects one bounded space perfectly (a bed, hammock, stroller, or your head) but nothing beyond it. Repellent (DEET or icaridin) protects your exposed skin for a few hours wherever you go. Professional barrier spray treats the vegetation across your whole yard where mosquitoes rest, and it is re-applied on a set schedule through the season — that is what actually lets you use the entire backyard, not just the net-enclosed spot, and it also handles ticks (nets and sprays on skin do not). For a Canadian household the smart stack is a head net and repellent for travel and cottage trips, a bed or stroller net for sleeping, and barrier spray to reclaim the yard at home.',
   },
 ]
 
@@ -93,7 +94,7 @@ export default function MosquitoNetCanadaPage() {
               <li>Look for mesh of 156+ holes per square inch (openings of roughly 1.2 mm or smaller); no-see-ums require finer mesh of about 500+ holes per square inch.</li>
               <li>A hammock needs a full-length zip-around net ($30&ndash;$90); a baby stroller needs a fitted elastic-edge net ($10&ndash;$25).</li>
               <li>An intact, tucked-in net is essentially 100% effective for the space it encloses &mdash; and 0% effective beyond it.</li>
-              <li>Nets do nothing for ticks; professional barrier spray from $99 covers the whole yard for 21&ndash;30 days per treatment.</li>
+              <li>Nets do nothing for ticks; professional barrier spray from $99 treats the whole yard; tick treatment is available as an add-on ($497/season with a mosquito plan).</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
@@ -194,7 +195,7 @@ export default function MosquitoNetCanadaPage() {
                   ['Mesh count to look for', '156+ holes per square inch (≤ 1.2 mm openings)'],
                   ['No-see-um / black-fly grade', '≈ 500+ holes per square inch (finer mesh)'],
                   ['Common materials', 'Polyester (durable) or polyethylene (soft, light)'],
-                  ['Treated option', 'Permethrin-treated nets — kills on contact, safe when dry'],
+                  ['Treated option', 'Permethrin-treated nets — kills on contact; follow the label and keep cats away until dry'],
                   ['Effectiveness when intact', 'Essentially 100% for the enclosed space'],
                   ['Main failure modes', 'Holes, untucked gaps, skin pressed against mesh'],
                   ['Tick protection', 'None — ticks crawl up from ground, not through the air'],
@@ -238,18 +239,18 @@ export default function MosquitoNetCanadaPage() {
 
           <h2>Hammock nets and stroller nets</h2>
           <p>A <strong>hammock net</strong> has to run the <em>full length</em> of the hammock and seal or zip underneath. Short &ldquo;cap&rdquo; nets that only cover your upper body are a waste of money &mdash; mosquitoes simply come at your feet and your back where the fabric presses against you. The best designs use a ridge line to suspend the mesh well off your body so nothing can bite through. Budget $30&ndash;$90 depending on length and mesh grade.</p>
-          <p>A <strong>stroller net</strong> is a small universal mesh cover with an elastic edge that stretches over the whole bassinet or seat. It is the safest way to protect a baby too young for repellent &mdash; no chemicals, just a physical barrier. At $10&ndash;$25 it is cheap insurance for stroller walks at dawn and dusk. Make sure it fully encloses the opening with no gap at the handle end, and never leave a sleeping infant unattended under any cover.</p>
+          <p>A <strong>stroller net</strong> is a small universal mesh cover with an elastic edge that stretches over the whole bassinet or seat. It is the go-to way to protect a baby too young for repellent &mdash; no chemicals, just a physical barrier. At $10&ndash;$25 it is cheap insurance for stroller walks at dawn and dusk. Make sure it fully encloses the opening with no gap at the handle end, and never leave a sleeping infant unattended under any cover.</p>
 
           <h2>Patio and deck: pop-up screen rooms</h2>
           <p>If you want to protect a <em>group</em> &mdash; a picnic table, a hot tub, a deck dinner &mdash; a net for one person will not cut it. A <strong>pop-up screen house</strong> or mesh gazebo room ($60&ndash;$200 at Canadian Tire, Home Depot Canada, and Costco) gives you a bug-free enclosed space for the evening. It is bulky and takes a few minutes to set up, but for entertaining it beats spraying everyone with repellent. The trade-off is obvious: you are protecting one tent-sized footprint, not the yard. For the full range of patio enclosure options &mdash; screen houses, screened gazebos, magnetic doors, and clip-on curtains &mdash; see our <Link href="/blog/mosquito-screens-patio-canada">patio mosquito screens guide</Link>.</p>
           <p>Where a pop-up room gets packed away after every dinner, <Link href="/blog/best-gazebo-with-mosquito-net-canada">a proper screened gazebo</Link> stays anchored on the deck for the whole season with zip-around netting walls &mdash; the step up worth making if you eat outside most evenings rather than a few times a summer.</p>
 
           <h2>Permethrin-treated nets: worth it?</h2>
-          <p>Insecticide-treated nets are the reason bed nets are credited with preventing hundreds of millions of malaria cases worldwide &mdash; the permethrin kills mosquitoes that land on the mesh, so even a net with a small hole still protects you. For adults and older kids, treated nets and bug shirts are considered safe (permethrin bonds to the fabric and is not readily absorbed through skin) and are registered for sale in Canada. Two hard rules: <strong>permethrin is highly toxic to cats and fish until it dries</strong>, so keep cats away from freshly treated gear and never apply it near an aquarium or pond. For a crib or a stroller, most Canadian parents just use an untreated fine-mesh net &mdash; the barrier alone is enough. If you are outfitting for hiking or cottage country, our <Link href="/blog/bug-protective-clothing-canada">bug-protective clothing guide</Link> covers permethrin-treated shirts, pants, and full bug suits available in Canada.</p>
+          <p>Insecticide-treated nets are the reason bed nets are credited with preventing hundreds of millions of malaria cases worldwide &mdash; the permethrin acts on mosquitoes that land on the mesh, so a small hole is less of a weak point than it would be in an untreated net. Treated nets and bug shirts should be used exactly as the product label directs (permethrin bonds to the fabric and is not readily absorbed through skin); look for the Canadian PCP registration number on the label. Two hard rules: <strong>permethrin is highly toxic to cats and fish until it dries</strong>, so keep cats away from freshly treated gear and never apply it near an aquarium or pond. For a crib or a stroller, most Canadian parents just use an untreated fine-mesh net &mdash; the barrier alone is enough. If you are outfitting for hiking or cottage country, our <Link href="/blog/bug-protective-clothing-canada">bug-protective clothing guide</Link> covers permethrin-treated shirts, pants, and full bug suits available in Canada.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">A net protects your bed. We protect your whole yard.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Nets are perfect for sleeping and cottage evenings &mdash; but you cannot net an entire backyard. BuzzSkito&rsquo;s professional barrier spray treats your whole property from $99, kills mosquitoes and ticks on contact for 21&ndash;30 days, and is backed by 150+ five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Nets are perfect for sleeping and cottage evenings &mdash; but you cannot net an entire backyard. BuzzSkito&rsquo;s professional barrier spray treats your whole property for mosquitoes from $99 (tick treatment is an add-on at $497/season with a mosquito plan), is applied by an Ontario-licensed operator according to label directions, and is backed by 150+ five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -259,7 +260,7 @@ export default function MosquitoNetCanadaPage() {
           <h2>Where a mosquito net stops helping</h2>
           <p>A net is a barrier around a bounded space, and that is exactly its limit. Here is what a net cannot do:</p>
           <ul>
-            <li><strong>It does not clear your yard.</strong> The moment you step out from under it, you are unprotected. For same-day, whole-yard usability you need <Link href="/mosquito-control">barrier spray on the vegetation</Link>.</li>
+            <li><strong>It does not clear your yard.</strong> The moment you step out from under it, you are unprotected. For whole-yard usability you need <Link href="/mosquito-control">barrier spray on the vegetation</Link>.</li>
             <li><strong>It does nothing for ticks.</strong> Ticks crawl up from grass and leaf litter onto your legs &mdash; they do not fly into a net. Tick protection comes from treated clothing, a yard perimeter treatment, and tucking pants into socks.</li>
             <li><strong>It fails if it is not sealed.</strong> An untucked bed net, a stroller net with a gap, or a hammock net with an open zip is an open door.</li>
             <li><strong>Skin against mesh gets bitten.</strong> Keep the mesh taut and off your body &mdash; a mosquito will happily probe through fabric pressed to your arm.</li>
@@ -273,7 +274,7 @@ export default function MosquitoNetCanadaPage() {
             <tbody>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Mosquito net</strong></td><td className="px-3 py-2">One bounded space (bed, hammock, head)</td><td className="px-3 py-2">$8&ndash;$200</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-repellent-guide-ontario-2026">DEET / icaridin repellent</Link></td><td className="px-3 py-2">Your exposed skin, a few hours</td><td className="px-3 py-2">$8&ndash;$20</td><td className="px-3 py-2">Partial (on skin)</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Your whole yard, 21&ndash;30 days</td><td className="px-3 py-2">From $99 / treatment</td><td className="px-3 py-2">Yes &mdash; full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Your whole yard, re-applied on a schedule</td><td className="px-3 py-2">From $99 / treatment</td><td className="px-3 py-2">With a tick add-on</td></tr>
             </tbody>
           </table>
           <p>They are not competitors &mdash; they are a stack. A head net and repellent for the trail, a bed or stroller net for sleeping, and <Link href="/mosquito-control">barrier spray</Link> to actually reclaim the backyard at home. If you are trying to decide what to put on your skin, our <Link href="/blog/mosquito-repellent-guide-ontario-2026">Ontario mosquito repellent guide</Link> breaks down DEET vs icaridin vs the natural options. Still weighing netting against a professional treatment for the yard itself? Our <Link href="/blog/mosquito-netting-vs-barrier-spray">netting vs barrier spray comparison</Link> runs the full cost-and-coverage math.</p>
@@ -304,7 +305,7 @@ export default function MosquitoNetCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Net the Bed. Spray the Yard." subtext="Get a free quote for licensed barrier spray. From $99. Kills mosquitoes and ticks. 30-day residual." variant="dark" />
+      <CTASection heading="Net the Bed. Spray the Yard." subtext={`Get a free quote for licensed barrier spray. From $99. Treats mosquitoes and ticks. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

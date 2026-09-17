@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { TICK_BLOGS } from '@/lib/constants'
+import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Richmond Hill Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Richmond Hill tick spray for Oak Ridges Moraine — one of Ontario's highest blacklegged tick zones. Health Canada-approved barrier spray, from $99/treatment, BuzzSkito Bite-Free Guarantee. Oak Ridges, Jefferson, Bayview Hill, Mill Pond. Call (289) 216-5030.",
+    "Richmond Hill tick spray for Oak Ridges Moraine — one of Ontario's highest blacklegged tick zones. Ontario-licensed barrier spray, from $99/treatment, rain-back guarantee on every plan. Oak Ridges, Jefferson, Bayview Hill, Mill Pond. Call (289) 216-5030.",
   canonical: '/richmond-hill-tick-spray',
 })
 
@@ -25,11 +27,11 @@ const FAQS = [
   },
   {
     question: 'Are Lyme disease cases actually rising in Richmond Hill?',
-    answer: 'Yes. York Region Public Health data shows a steady increase in confirmed Lyme disease cases across York Region, including Richmond Hill. The primary driver is the expanding blacklegged tick population on and near the Oak Ridges Moraine. Professional tick control for properties adjacent to natural areas significantly reduces family exposure.',
+    answer: 'Yes. York Region Public Health data shows a steady increase in confirmed Lyme disease cases across York Region, including Richmond Hill. The primary driver is the expanding blacklegged tick population on and near the Oak Ridges Moraine. The Public Health Agency of Canada advises checking yourself, your children and your pets for ticks after time outdoors near wooded or grassy areas.',
   },
   {
     question: 'When should I schedule tick spray for my Richmond Hill property?',
-    answer: 'Start in May and stay covered through September. BuzzSkito recommends five treatments per season — roughly one a month — because each application leaves up to 30 days of residual protection, so monthly visits are what close the gap rather than leave one open. The May–July stretch matters most: blacklegged nymphs peak then, and because they are poppy-seed sized they are easily missed, which is why they drive most Lyme disease transmission. The later visits carry the barrier into the autumn, when adult ticks re-emerge and stay active into November in mild years. Properties near the Oak Ridges Moraine or Lake Wilcox should get on the schedule early, because deer, mice, and birds keep reintroducing ticks from the Moraine woodland all season. The seasonal tick program is $597 standalone, or $497 when added to any mosquito plan.',
+    answer: 'Start in May and stay covered through September. BuzzSkito recommends five treatments per season — roughly one a month — because the treated edge zones need renewing through the season, and monthly visits keep them renewed from spring to fall. Monthly visits keep treatments on schedule through the May–July nymph peak, and the later visits continue treatments into the autumn, when adult ticks re-emerge and stay active into November in mild years. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors. Properties near the Oak Ridges Moraine or Lake Wilcox should get on the schedule early, because deer, mice, and birds keep reintroducing ticks from the Moraine woodland all season. The seasonal tick program is $597 standalone, or $497 when added to any mosquito plan.',
   },
 ]
 
@@ -37,7 +39,7 @@ export default function RichmondHillTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: '/richmond-hill-tick-spray', city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Five sprays per season, applied according to label directions.`, slug: '/richmond-hill-tick-spray', city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/richmond-hill-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'Richmond Hill' })) }} />
@@ -47,8 +49,9 @@ export default function RichmondHillTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>The Oak Ridges Moraine running through Richmond Hill is one of Ontario's highest-density blacklegged tick zones. BuzzSkito provides professional tick spray to protect your family from Lyme disease.</>}
+        subtitle={<>The Oak Ridges Moraine running through Richmond Hill is one of Ontario's highest-density blacklegged tick zones. Licensed Ontario pesticide operator; tick treatments applied according to label directions.</>}
         image="/spray-front.webp"
+        service="tick"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
 
@@ -56,10 +59,10 @@ export default function RichmondHillTickPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ 5 Sprays Per Season</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -76,6 +79,8 @@ export default function RichmondHillTickPage() {
       </section>
 
       
+      <TypicalPrices service="tick" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -84,8 +89,8 @@ export default function RichmondHillTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — lawn-to-woods transitions, leaf litter, garden bed edges, and fence lines on your property.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies a barrier product according to its label directions to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: 'Five Sprays Per Season', desc: `Treatments repeat roughly monthly from May through September, so the edge zones stay treated from spring nymphs to autumn adults. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -120,10 +125,10 @@ export default function RichmondHillTickPage() {
           <h2>What Our Richmond Hill Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 30 days of tick protection per treatment</li>
-            <li>Kills adult ticks, nymphs, and larvae on contact</li>
-            <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
-            <li>Free reapplication guarantee if ticks return</li>
+            <li>5 sprays per season, spread roughly monthly from May through September</li>
+            <li>Focused on the edge zones where nymphs and adult ticks quest</li>
+            <li>{PROMISES.labelLine}; stay off treated areas until the spray has dried, as the label directs</li>
+            <li>{PROMISES.rainBack}</li>
           </ul>
 
           <h2>Also Providing Mosquito Control in Richmond Hill</h2>
@@ -131,7 +136,7 @@ export default function RichmondHillTickPage() {
 
 
           <h2>Compare Richmond Hill Pest Control Options</h2>
-          <p>Richmond Hill has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-richmond-hill" className="text-brand-700 hover:underline font-semibold">Pest Control in Richmond Hill</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/richmond-hill-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Richmond Hill</Link>.</p>
+          <p>Richmond Hill has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-richmond-hill" className="text-brand-700 hover:underline font-semibold">Pest Control in Richmond Hill</Link> for how a mosquito and tick specialist treats tick habitat differently from a general pest company. See our full mosquito programme for the same property: <Link href="/richmond-hill-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Richmond Hill</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
@@ -150,7 +155,7 @@ export default function RichmondHillTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'James K.', text: 'We had a tick problem near our garden border. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-              { author: 'Priya R.', text: 'The technician explained exactly what product they were using and why it\u2019s safe for our dog. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
+              { author: 'Priya R.', text: 'The technician explained exactly what product they were using. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
             ].map(({ author, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -169,6 +174,10 @@ export default function RichmondHillTickPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="tick" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -185,7 +194,7 @@ export default function RichmondHillTickPage() {
           </div>
         </div>
       </section>
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protect your family from Lyme disease. No contracts, guaranteed results." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext={`Five tick sprays per season for ${CITY} yards. No contracts. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

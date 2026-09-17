@@ -149,7 +149,7 @@ export default function BestBedBugBoxSpringEncasementCanadaPage() {
               {
                 badge: 'Best Value',
                 name: 'Utopia Bedding Zippered Box-Spring Encasement',
-                why: 'The sensible pick when you are encasing several beds at once or outfitting a rental. A zippered six-sided cover at a friendlier per-unit price &mdash; a lighter fabric than the premium picks, but a genuine sealed encasement, not a fitted cover.',
+                why: 'The sensible pick when you are encasing several beds at once or outfitting a rental. A zippered six-sided cover at a friendlier per-unit price — a lighter fabric than the premium picks, but a genuine sealed encasement, not a fitted cover.',
                 search: 'utopia bedding box spring encasement zippered',
                 score: 8.0,
                 pros: ['Great price for multi-bed jobs', 'Genuine six-sided zippered seal', 'Widely stocked in common sizes'],
@@ -158,7 +158,7 @@ export default function BestBedBugBoxSpringEncasementCanadaPage() {
               {
                 badge: 'Best Budget',
                 name: 'Basic Zippered Box-Spring Cover (Value)',
-                why: 'A wallet-friendly zippered box-spring cover for a one-off, low-pressure situation. Confirm from the listing that it is fully six-sided and bug-rated before buying &mdash; the cheapest tier is where fitted-sheet-style, open-bottom covers hide.',
+                why: 'A wallet-friendly zippered box-spring cover for a one-off, low-pressure situation. Confirm from the listing that it is fully six-sided and bug-rated before buying — the cheapest tier is where fitted-sheet-style, open-bottom covers hide.',
                 search: 'bed bug box spring cover zippered six sided',
                 score: 7.0,
                 pros: ['Lowest cost of entry', 'Fine for a one-off, low-pressure job', 'Zippered closure'],

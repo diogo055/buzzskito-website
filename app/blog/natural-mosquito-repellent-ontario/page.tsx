@@ -9,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'natural-mosquito-repellent-ontario'
 const DATE = '2026-04-26'
@@ -18,7 +19,7 @@ const TITLE = 'Natural Mosquito Repellent — What Actually Works in Ontario'
 const FAQS = [
   {
     question: 'What is the most effective natural mosquito repellent?',
-    answer: 'Two natural ingredients have published, peer-reviewed efficacy data comparable to low-concentration DEET: oil of lemon eucalyptus (OLE, also marketed as PMD) and 2-undecanone (BioUD). Both are Health Canada approved and provide 4–6 hours of skin protection. Citronella, geraniol, and soybean oil products work but with shorter duration (1–2 hours). Most other "natural" sprays — peppermint, lavender, rosemary, neem — provide minimal real-world repellency despite marketing claims.',
+    answer: 'Two natural ingredients have published, peer-reviewed efficacy data comparable to low-concentration DEET: oil of lemon eucalyptus (OLE, also marketed as PMD) and 2-undecanone (BioUD). Both provide around 4–6 hours of skin protection in published trials; OLE/PMD products sold in Canada carry a PCP registration number, while 2-undecanone is not among the personal repellent actives Health Canada lists. Citronella, geraniol, and soybean oil products work but with shorter duration (1–2 hours). Most other "natural" sprays — peppermint, lavender, rosemary, neem — provide minimal real-world repellency despite marketing claims.',
   },
   {
     question: 'Do citronella candles actually work against mosquitoes?',
@@ -34,11 +35,11 @@ const FAQS = [
   },
   {
     question: 'What\'s the best chemical-free way to control mosquitoes in my yard?',
-    answer: 'A four-step approach: (1) Eliminate every source of standing water on your property — even bottle caps. (2) Treat catch-basins and rain barrels with Mosquito Dunks (BTI bacteria — kills larvae, completely safe for pets, kids, fish, and pollinators). (3) Plant cedar mulch around outdoor seating zones — cedar oil is a real, mild repellent. (4) Use a fan on patios — mosquitoes are weak fliers and won\'t cross even a moderate breeze.',
+    answer: 'A four-step approach: (1) Eliminate every source of standing water on your property — even bottle caps. (2) Treat catch-basins and rain barrels with Mosquito Dunks (BTI bacteria — its toxin targets mosquito and black fly larvae; use as the label directs). (3) Plant cedar mulch around outdoor seating zones — cedar oil is a real, mild repellent. (4) Use a fan on patios — mosquitoes are weak fliers and won\'t cross even a moderate breeze.',
   },
   {
     question: 'Is BTI (Bacillus thuringiensis israelensis) safe?',
-    answer: 'Yes. BTI is a naturally occurring soil bacterium that produces a toxin lethal to mosquito and black fly larvae but harmless to all other organisms — humans, pets, fish, frogs, birds, beneficial insects, and pollinators. It\'s sold as Mosquito Dunks (donut-shaped) or Bits (granular) at Canadian Tire, Home Depot, and most garden centres. Drop one dunk into any water that can\'t be drained — old tires, neglected birdbaths, ornamental ponds, rain barrels — and it kills larvae for 30 days. BTI is the gold-standard natural larviciding tool used by mosquito-control districts worldwide.',
+    answer: 'BTI is a naturally occurring soil bacterium that produces a toxin aimed specifically at mosquito and black fly larvae, rather than a broad-spectrum insecticide. Use it exactly as the label directs. It\'s sold as Mosquito Dunks (donut-shaped) or Bits (granular) at Canadian Tire, Home Depot, and most garden centres. Drop one dunk into any water that can\'t be drained — old tires, neglected birdbaths, ornamental ponds, rain barrels — and it kills larvae for 30 days. BTI is the gold-standard natural larviciding tool used by mosquito-control districts worldwide.',
   },
   {
     question: 'Does a fan actually keep mosquitoes away?',
@@ -46,7 +47,7 @@ const FAQS = [
   },
   {
     question: 'When do natural repellents fail?',
-    answer: 'Natural repellents fail in three scenarios: (1) High mosquito pressure — a yard near a ravine, creek, or wetland produces too many mosquitoes for individual repellents to handle. (2) Long durations outside — most natural repellents need re-application every 1–2 hours; a backyard barbecue exposes you to gaps. (3) Multiple species — some Ontario mosquitoes (Aedes vexans, Culex pipiens) are less affected by certain plant oils. For continuous outdoor enjoyment, professional barrier spray is more reliable than personal repellent — it controls the population in your yard, not just on your skin.',
+    answer: 'Natural repellents fail in three scenarios: (1) High mosquito pressure — a yard near a ravine, creek, or wetland produces too many mosquitoes for individual repellents to handle. (2) Long durations outside — most natural repellents need re-application every 1–2 hours; a backyard barbecue exposes you to gaps. (3) Multiple species — some Ontario mosquitoes (Aedes vexans, Culex pipiens) are less affected by certain plant oils. For long evenings at home, professional barrier spray works differently from personal repellent — it targets the population in your yard, not just what lands on your skin.',
   },
   {
     question: 'How do I make a homemade mosquito repellent that actually works?',
@@ -54,7 +55,7 @@ const FAQS = [
   },
   {
     question: 'Does neem oil repel mosquitoes?',
-    answer: 'Neem oil has mild mosquito-repellent properties, but field trials are inconsistent — protection ranges from under an hour to about two hours depending on concentration and formulation, and neem can irritate sensitive skin. It is a reasonable pinch-hitter but not dependable for a full evening outdoors. For reliable plant-based protection, oil of lemon eucalyptus (OLE / PMD) is far stronger and is the only botanical active the CDC and Health Canada rate comparable to low-concentration DEET, giving about 95% protection for 4–6 hours.',
+    answer: 'Neem oil has mild mosquito-repellent properties, but field trials are inconsistent — protection ranges from under an hour to about two hours depending on concentration and formulation, and neem can irritate sensitive skin. It is a reasonable pinch-hitter but not dependable for a full evening outdoors. For reliable plant-based protection, oil of lemon eucalyptus (OLE / PMD) is far stronger and is the only botanical active the CDC rates comparable to low-concentration DEET, giving about 95% protection for 4–6 hours.',
   },
   {
     question: 'Is picaridin a natural mosquito repellent?',
@@ -62,11 +63,11 @@ const FAQS = [
   },
   {
     question: 'Is natural mosquito repellent safe for children and during pregnancy?',
-    answer: 'Health Canada advises that oil of lemon eucalyptus (OLE / PMD) not be used on children under three, while picaridin and low-concentration DEET are considered safe from six months of age when used as directed. Loose essential-oil blends are not tested for these groups, so keep them off infants and broken skin. During pregnancy, registered picaridin and OLE products used as labelled are generally considered appropriate — but confirm with your own healthcare provider.',
+    answer: 'Health Canada advises that oil of lemon eucalyptus (OLE / PMD) not be used on children under three, while picaridin and low-concentration DEET products are labelled for use from six months of age, following the label directions. Loose essential-oil blends are not tested for these groups, so keep them off infants and broken skin. During pregnancy, registered picaridin and OLE products used as labelled are generally considered appropriate — but confirm with your own healthcare provider.',
   },
   {
     question: 'Does peppermint oil repel mosquitoes?',
-    answer: 'Peppermint oil repels mosquitoes only weakly and only very briefly. In field trials, undiluted peppermint essential oil gives roughly 15–30 minutes of partial protection before it evaporates and the effect disappears, so it is one of the weakest options in the essential-oil group. The cooling menthol scent is pleasant and may mask some of the cues mosquitoes use, but it is nowhere near strong enough to protect you for an evening outside. For real plant-based protection, oil of lemon eucalyptus (OLE / PMD) is the only botanical Health Canada rates comparable to low-concentration DEET, lasting 4–6 hours instead of minutes.',
+    answer: 'Peppermint oil repels mosquitoes only weakly and only very briefly. In field trials, undiluted peppermint essential oil gives roughly 15–30 minutes of partial protection before it evaporates and the effect disappears, so it is one of the weakest options in the essential-oil group. The cooling menthol scent is pleasant and may mask some of the cues mosquitoes use, but it is nowhere near strong enough to protect you for an evening outside. For real plant-based protection, oil of lemon eucalyptus (OLE / PMD) is the only botanical the U.S. CDC rates comparable to low-concentration DEET, lasting 4–6 hours instead of minutes.',
   },
   {
     question: 'Does lavender repel mosquitoes?',
@@ -76,7 +77,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Natural Mosquito Repellent: Lemon Eucalyptus',
-  description: 'Oil of lemon eucalyptus: about 95% protection for 4-6 hours, the only botanical Health Canada rates near low-concentration DEET. Candles and bracelets do not.',
+  description: 'Oil of lemon eucalyptus: about 95% protection for 4-6 hours, the only botanical the US CDC rates near low-concentration DEET. Candles and bracelets do not.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -113,13 +114,13 @@ export default function NaturalMosquitoRepellentPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The most effective natural mosquito repellent is oil of lemon eucalyptus (OLE / PMD) — the only plant-derived ingredient Health Canada rates comparable to low-concentration DEET, giving about 95% protection for 4–6 hours. For a whole yard, pair BTI larvicide with a patio fan.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The most effective natural mosquito repellent is oil of lemon eucalyptus (OLE / PMD) — the only plant-derived ingredient the U.S. CDC rates comparable to low-concentration DEET, giving about 95% protection for 4–6 hours. For a whole yard, pair BTI larvicide with a patio fan.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Oil of lemon eucalyptus (OLE / PMD) gives roughly 95% protection for 4–6 hours — the only botanical the CDC and Health Canada rate comparable to low-concentration DEET.</li>
+              <li>Oil of lemon eucalyptus (OLE / PMD) gives roughly 95% protection for 4–6 hours — the only botanical the CDC rates comparable to low-concentration DEET.</li>
               <li>Soybean oil products (like Bite Blocker) provide about 1.5 hours of solid protection.</li>
               <li>Citronella oil protects for only 20–60 minutes before it needs re-applying.</li>
               <li>A patio fan drops mosquito landing rates 60–80% in a 3–5 metre radius — mosquitoes are weak fliers.</li>
-              <li>BTI Mosquito Dunks ($15/season) kill larvae in standing water for 30 days and are harmless to pets, fish, and pollinators.</li>
+              <li>BTI Mosquito Dunks ($15/season) kill larvae in standing water for 30 days, with a toxin that targets mosquito and black fly larvae.</li>
               <li>Homemade essential-oil sprays give 30–60 minutes of weak repellency at best.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
@@ -134,7 +135,7 @@ export default function NaturalMosquitoRepellentPage() {
               {
                 badge: 'Best Overall',
                 name: 'Off! Botanicals (oil of lemon eucalyptus)',
-                why: 'The single plant-derived active Health Canada and the CDC rate on par with low-concentration DEET. Refined PMD gives around 95% protection with a light botanical scent.',
+                why: 'The single plant-derived active the CDC rates on par with low-concentration DEET. Refined PMD gives around 95% protection with a light botanical scent.',
                 search: 'off botanicals lemon eucalyptus',
                 asin: 'B0CWQ3G2RB',
                 score: 9.0,
@@ -148,7 +149,7 @@ export default function NaturalMosquitoRepellentPage() {
                 why: 'Modelled on a black-pepper compound. Odourless, non-greasy, and does not damage gear — the most reliable pick if your goal is "not DEET" rather than strictly botanical.',
                 search: 'picaridin insect repellent 20 percent',
                 score: 8.8,
-                pros: ['8–12 hours of protection', 'Odourless and non-greasy', 'Safe on gear and plastics'],
+                pros: ['8–12 hours of protection', 'Odourless and non-greasy', 'Won’t damage gear or plastics'],
                 cons: ['Synthetic, not botanical', 'Mid-price vs. citronella'],
               },
               {
@@ -163,16 +164,16 @@ export default function NaturalMosquitoRepellentPage() {
               {
                 badge: 'Best Whole-Yard Tool',
                 name: 'Mosquito Dunks (BTI larvicide)',
-                why: 'Budget-friendly BTI bacteria that kills larvae in any standing water for 30 days — harmless to pets, fish, and pollinators. The natural tool most homeowners overlook.',
+                why: 'Budget-friendly BTI bacteria that kills larvae in any standing water for 30 days, with a toxin aimed at mosquito and black fly larvae — use it as the label directs. The natural tool most homeowners overlook.',
                 search: 'mosquito dunks bti',
                 score: 8.6,
-                pros: ['Kills larvae for 30 days', 'Safe for pets, fish, kids', 'Set-and-forget'],
+                pros: ['Kills larvae for 30 days', 'Targets mosquito larvae specifically', 'Set-and-forget'],
                 cons: ['Treats water, not skin', 'Needs every water source'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>Want the strongest botanical?</strong> The <em>Best Overall</em> lemon-eucalyptus (PMD) spray is the only plant active rated near DEET. <strong>Need all-day, sweat-through wear?</strong> The <em>Best Non-DEET</em> picaridin lasts longest. <strong>Fighting a whole yard?</strong> Pair <em>Mosquito Dunks</em> with a patio fan — and for a ravine-backed lot that out-produces any personal repellent, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Want the strongest botanical?</strong> The <em>Best Overall</em> lemon-eucalyptus (PMD) spray is the only plant active rated near DEET. <strong>Need all-day, sweat-through wear?</strong> The <em>Best Non-DEET</em> picaridin lasts longest. <strong>Fighting a whole yard?</strong> Pair <em>Mosquito Dunks</em> with a patio fan — and for a ravine-backed lot that out-produces any personal repellent, the step up is <Link href="/mosquito-control">professional barrier spray</Link>.
               </>
             }
           />
@@ -181,7 +182,7 @@ export default function NaturalMosquitoRepellentPage() {
           <p className="text-sm text-gray-500 mb-3">Updated July 2026</p>
           <p>If you only remember one thing: not all &ldquo;natural&rdquo; repellents are equal. Ranked by published complete-protection time and real-world reliability, these are the best natural mosquito repellents for an Ontario yard:</p>
           <ol>
-            <li><strong>Oil of lemon eucalyptus (OLE / PMD)</strong> — the single plant-derived active the <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">U.S. CDC</a> and Health Canada rate on par with low-concentration DEET. About 95% protection for 4&ndash;6 hours. Refined from <em>Eucalyptus citriodora</em>; the active molecule is PMD.</li>
+            <li><strong>Oil of lemon eucalyptus (OLE / PMD)</strong> — the single plant-derived active the <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">U.S. CDC</a> rates on par with low-concentration DEET. About 95% protection for 4&ndash;6 hours. Refined from <em>Eucalyptus citriodora</em>; the active molecule is PMD.</li>
             <li><strong>Soybean oil</strong> (e.g. Bite Blocker) — the strongest everyday botanical after OLE, giving roughly 1.5 hours of solid protection with a mild scent.</li>
             <li><strong>Citronella oil</strong> — real but brief. Complete protection lasts only about 20&ndash;60 minutes, so plan on frequent re-application for anything longer than a short outing.</li>
             <li><strong>Neem oil</strong> — mild and inconsistent in field trials; a usable pinch-hitter, but not dependable for a full evening outside.</li>
@@ -231,13 +232,13 @@ export default function NaturalMosquitoRepellentPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500">Figures reflect published complete-protection-time trials and vary by concentration and formulation. Only oil of lemon eucalyptus (PMD) is recommended by the <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">CDC</a> and registered by the <a href="https://www.epa.gov/insect-repellents" rel="noopener">U.S. EPA</a> (and Health Canada) as comparable to low-concentration DEET; the others need far more frequent re-application. Sources: <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">CDC &mdash; Mosquitoes</a>, <a href="https://www.epa.gov/insect-repellents" rel="noopener">U.S. EPA &mdash; Insect Repellents</a>.</p>
+          <p className="text-sm text-gray-500">Figures reflect published complete-protection-time trials and vary by concentration and formulation. Only oil of lemon eucalyptus (PMD) is recommended by the <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">CDC</a> and registered by the <a href="https://www.epa.gov/insect-repellents" rel="noopener">U.S. EPA</a> as comparable to low-concentration DEET (PMD products sold in Canada carry a PCP registration number); the others need far more frequent re-application. Sources: <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">CDC &mdash; Mosquitoes</a>, <a href="https://www.epa.gov/insect-repellents" rel="noopener">U.S. EPA &mdash; Insect Repellents</a>.</p>
 
           <h2>The Tier System — What Actually Works</h2>
 
           <h3>🟢 Tier 1: Evidence-backed, comparable to low-concentration DEET</h3>
           <ul>
-            <li><strong>Oil of Lemon Eucalyptus (OLE / PMD)</strong> — extracted from <em>Eucalyptus citriodora</em>. Health Canada approved. 4–6 hours of skin protection in published trials. Found in Off Botanicals, Repel Lemon Eucalyptus, Murphy&rsquo;s Naturals.</li>
+            <li><strong>Oil of Lemon Eucalyptus (OLE / PMD)</strong> — extracted from <em>Eucalyptus citriodora</em>. Products sold in Canada carry a PCP registration number. 4–6 hours of skin protection in published trials. Found in Off Botanicals, Repel Lemon Eucalyptus, Murphy&rsquo;s Naturals.</li>
             <li><strong>2-Undecanone (BioUD)</strong> — derived from wild tomato plants. Comparable to OLE. Less common in Canadian retail.</li>
           </ul>
 
@@ -303,13 +304,13 @@ export default function NaturalMosquitoRepellentPage() {
           <p className="text-sm text-gray-500">OLE / PMD and picaridin are the two picks with published, DEET-comparable efficacy. Citronella and Watkins-style blends smell great and are fine for short outings, but plan on re-applying often.</p>
 
           <h2>The Underrated Tool: Mosquito Dunks (BTI)</h2>
-          <p>This is the most powerful natural mosquito control tool most Ontario homeowners overlook. <strong>Bacillus thuringiensis israelensis (BTI)</strong> is a soil bacterium that produces a toxin lethal to mosquito and black fly larvae — and harmless to everything else: humans, pets, fish, frogs, birds, pollinators, beneficial insects.</p>
+          <p>This is the most powerful natural mosquito control tool most Ontario homeowners overlook. <strong>Bacillus thuringiensis israelensis (BTI)</strong> is a soil bacterium that produces a toxin lethal to mosquito and black fly larvae — and aimed at those larvae specifically rather than acting as a broad-spectrum insecticide.</p>
           <p>BTI is sold as:</p>
           <ul>
             <li><strong>Mosquito Dunks</strong> — donut-shaped, drop one in any water that can&rsquo;t be drained. Each dunk lasts 30 days.</li>
             <li><strong>Mosquito Bits</strong> — granular, sprinkled in standing water. Faster knockdown, so <Link href="/blog/mosquito-bits-canada-vs-dunks">mosquito bits</Link> suit water you refresh often, while a dunk is better for a source you leave alone for a month.</li>
           </ul>
-          <p>Available at Canadian Tire, Home Depot, garden centres. Use in: rain barrels, ornamental ponds, neglected birdbaths, drainage ditches, kiddie pools that can&rsquo;t be emptied, old tires holding water. <strong>One dunk in a rain barrel kills 100% of mosquito larvae for a month.</strong></p>
+          <p>Available at Canadian Tire, Home Depot, garden centres. Use in: rain barrels, ornamental ponds, neglected birdbaths, drainage ditches, kiddie pools that can&rsquo;t be emptied, old tires holding water. <strong>One dunk treats standing water for up to 30 days, per the label.</strong></p>
           <p className="not-prose my-4">Of everything on this page, BTI is the only natural option that <em>removes</em> mosquitoes rather than repelling them for a few hours — and a season&rsquo;s supply costs about the same as one bottle of spray. <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Check Mosquito Dunks (BTI) on Amazon.ca →</BuyLink></p>
 
           <h2>The Underrated Trick: A Patio Fan</h2>
@@ -380,7 +381,7 @@ export default function NaturalMosquitoRepellentPage() {
             <li><strong>Essential oils (about 30 drops total):</strong> 12 drops lemon eucalyptus, 8 drops citronella, 6 drops lavender, 4 drops peppermint.</li>
             <li><strong>Use:</strong> shake before every application and re-apply every 30–60 minutes.</li>
           </ol>
-          <p><strong>Two honest caveats.</strong> First, the &ldquo;oil of lemon eucalyptus&rdquo; essential oil sold for DIY blends is <em>not</em> the same as the refined PMD in registered products like Off Botanicals — the raw oil is weaker and untested for safety, so don&rsquo;t treat your homemade spray as equivalent. Second, patch-test on your forearm first, and never use raw essential-oil sprays on infants under three or on broken skin. If you want dependable, all-day protection without DEET, a store-bought <Link href="/blog/picaridin-vs-deet">picaridin</Link> product is the safer, longer-lasting choice.</p>
+          <p><strong>Two honest caveats.</strong> First, the &ldquo;oil of lemon eucalyptus&rdquo; essential oil sold for DIY blends is <em>not</em> the same as the refined PMD in registered products like Off Botanicals — the raw oil is weaker and untested for safety, so don&rsquo;t treat your homemade spray as equivalent. Second, patch-test on your forearm first, and never use raw essential-oil sprays on infants under three or on broken skin. If you want dependable, all-day protection without DEET, a store-bought <Link href="/blog/picaridin-vs-deet">picaridin</Link> product is the more reliable, longer-lasting choice.</p>
 
           <h2>The Strategy That Actually Works in Ontario</h2>
           <p>For a typical Ontario backyard, layer four natural strategies:</p>
@@ -394,14 +395,14 @@ export default function NaturalMosquitoRepellentPage() {
 
           <h2>When Natural Isn&rsquo;t Enough</h2>
           <p>For most Ontario yards under low-to-moderate mosquito pressure, the strategy above works. But if your property backs onto a ravine, creek, river, conservation area, or stormwater pond, you&rsquo;re fighting an unwinnable battle with personal repellents alone. The mosquito source — adjacent natural habitat — is producing thousands of mosquitoes per night, and personal repellents only protect you when you remember to apply them.</p>
-          <p>For high-pressure GTA yards, professional barrier spray is the most efficient option. <Link href="/mosquito-control">BuzzSkito uses Health Canada-approved formulas</Link> applied to vegetation perimeters and shrub interiors where mosquitoes rest during the day — knocking down what is resting there and holding a residual on those surfaces for 21–30 days per treatment. <Link href="/mosquito-spray-safety">Safe for kids and pets</Link> 30 minutes after drying.</p>
+          <p>For high-pressure GTA yards, professional barrier spray is the option built for that level of pressure. <Link href="/mosquito-control">BuzzSkito&rsquo;s licensed barrier spray</Link> is applied according to label directions to vegetation perimeters and shrub interiors where mosquitoes rest during the day — targeting what is resting there, with a residual that is renewed on a schedule. <Link href="/mosquito-spray-safety">Re-entry guidance</Link>: stay off treated areas until the spray has dried, as the label directs.</p>
 
           <h2>Related Guides</h2>
           <ul>
             <li><Link href="/blog/mosquito-repellent-guide-ontario-2026">2026 Ontario Mosquito Repellent Guide (Every Type Ranked)</Link></li>
             <li><Link href="/blog/picaridin-vs-deet">Picaridin vs DEET in Canada — Which Should You Use?</Link></li>
             <li><Link href="/blog/mosquito-repellent-plants-ontario">10 Mosquito-Repellent Plants for Ontario</Link></li>
-            <li><Link href="/blog/natural-eco-friendly-mosquito-control-ontario">Natural Eco-Friendly Mosquito Control</Link></li>
+            <li><Link href="/blog/natural-eco-friendly-mosquito-control-ontario">Natural Mosquito Control Options in Ontario</Link></li>
             <li><Link href="/blog/hidden-mosquito-breeding-spots-backyard">Hidden Mosquito Breeding Spots</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Mosquito Control Service</Link></li>
             <li><Link href="/mosquito-spray-safety">Is Mosquito Spray Safe for Kids and Pets?</Link></li>
@@ -422,7 +423,7 @@ export default function NaturalMosquitoRepellentPage() {
         </div>
       </article>
 
-      <CTASection heading="Want Your Yard Mosquito-Free Without Spraying Yourself?" subtext="Get a free quote for professional barrier spray. Health Canada-approved. Kids and pets safe after 30 min." variant="dark" />
+      <CTASection heading="Want Fewer Mosquitoes in Your Yard Without Spraying Yourself?" subtext={`Get a free quote for professional barrier spray. ${PROMISES.labelLine}. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

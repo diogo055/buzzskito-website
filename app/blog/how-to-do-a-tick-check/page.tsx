@@ -149,6 +149,7 @@ export default function HowToDoATickCheckPage() {
           <h2>Why the Tick Check Matters So Much</h2>
           <p>A tick check is the last and most reliable line of defence against tick-borne illness. In Ontario the tick that matters most is the blacklegged tick (also called the deer tick), the species that can carry the bacteria responsible for Lyme disease. What makes the check so powerful is timing: a blacklegged tick generally has to stay attached for roughly <strong>24 to 36 hours</strong> before it can transmit anything. A tick you find and remove the same day has almost always not fed long enough to pass on disease. In other words, a two-minute check tonight can prevent months of illness.</p>
           <p>The challenge is size. Adult ticks are about the size of a sesame seed, but the nymphs responsible for most Lyme cases are only as big as a poppy seed. That is why a good tick check is done as much by <strong>touch</strong> as by sight — you are feeling for a tiny bump that was not there this morning.</p>
+          <p>The other half of the problem is direction. A tick cannot fly or jump onto you; it boards at ground level from grass, leaf litter or a low branch and then walks upward looking for thin skin, which is why the sock line and ankles matter as much as the scalp. <Link href="/blog/can-ticks-fly-jump-swim" className="text-brand-700 underline">Can ticks fly, jump, or swim?</Link> goes through how a tick actually reaches a host, and which of the common stories about them are wrong.</p>
 
           <h2>Step-by-Step: The Full-Body Tick Check</h2>
           <p>Do this within two hours of coming inside, ideally right before or during a shower:</p>
@@ -167,10 +168,12 @@ export default function HowToDoATickCheckPage() {
 
           <h2>Checking Dogs and Cats</h2>
           <p>Pets bring ticks indoors, so they need a check too. Slowly run your hands over the whole animal, pressing gently to feel for bumps under the fur. Concentrate on the <strong>ears and inside the ear flaps, around the eyes and muzzle, under the collar, the armpits and groin, between the toes, and under the tail</strong>. Part thick coats to see the skin. Talk to your veterinarian about tick-prevention products made for pets — and never apply human repellents to animals.</p>
+          <p>Once you feel a bump, the next question is what it actually is. Our photo guide to <Link href="/blog/what-does-tick-look-like-on-dog" className="text-brand-700 underline">what a tick looks like on a dog</Link> puts unfed and engorged ticks side by side and covers the lookalikes people mistake them for — skin tags, scabs, and fleas.</p>
+          <p>The reason the pet check earns its place in the routine is that dogs are susceptible to the same infection people are, and the signs arrive late and vaguely &mdash; a shifting lameness weeks or months after a bite rather than a rash. <Link href="/blog/can-dogs-get-lyme-disease" className="text-brand-700 underline">Can dogs get Lyme disease from ticks?</Link> walks through the early signs, the stages, and what your vet can do.</p>
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The best tick check is the one you never need</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Ticks quest from lawn edges, leaf litter, and shaded borders. A seasonal barrier spray removes them where they wait, so far fewer ever reach you. BuzzSkito protects GTA yards with tick programs and single treatments from $99.</p>
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Fewer ticks in the yard, fewer to find on you</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Ticks quest from lawn edges, leaf litter, and shaded borders. A seasonal barrier spray targets them where they wait, so fewer reach you. BuzzSkito treats GTA yards with 5-spray tick season plans and single treatments from $99 on a standard lot.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -179,7 +182,7 @@ export default function HowToDoATickCheckPage() {
 
           <h2>Your After-Hike Routine (In Order)</h2>
           <ol>
-            <li><strong>Before you go:</strong> tuck pants into socks, wear light colours so ticks show up, and treat footwear and pant legs with permethrin. Use a DEET or icaridin (picaridin) repellent on exposed skin.</li>
+            <li><strong>Before you go:</strong> tuck pants into socks, wear light colours so ticks show up, and consider factory permethrin-treated clothing (consumer permethrin sprays for treating your own clothes are not registered for that use in Canada). Use a DEET or icaridin (picaridin) repellent on exposed skin.</li>
             <li><strong>Leaving the trail:</strong> do a quick visual sweep of your lower legs, waistband, and each other in the group.</li>
             <li><strong>Reaching the car:</strong> brush off pants and check the seats — do not carry a hitchhiker home.</li>
             <li><strong>Within two hours home:</strong> clothes in the hot dryer, then a shower and the full-body check above.</li>
@@ -196,6 +199,7 @@ export default function HowToDoATickCheckPage() {
             <li>Watch the bite for 30 days. See a doctor if you develop an expanding (often bull&rsquo;s-eye) rash, fever, fatigue, or joint aches.</li>
           </ol>
           <p>Keeping a proper tool by the door makes removal quick and clean when it counts. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
+          <p>If the body lifts away but a dark speck stays in the skin, those are the mouthparts &mdash; a common outcome, and far less alarming than it looks. See <Link href="/blog/tick-head-stuck-in-skin" className="text-brand-700 underline">what to do when a tick head stays stuck in the skin</Link> for how long it usually takes to clear on its own and which signs are worth a doctor&rsquo;s visit.</p>
 
           <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
@@ -234,7 +238,7 @@ export default function HowToDoATickCheckPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick-Removal Tool" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Fewer Ticks in the Yard Means Fewer Tick Checks" subtext="A seasonal barrier spray removes ticks where they wait — lawn edges, leaf litter, and shaded borders. From $99." variant="dark" />
+      <CTASection heading="Fewer Ticks in the Yard Means Fewer Tick Checks" subtext="A seasonal barrier spray targets ticks where they wait — lawn edges, leaf litter, and shaded borders. From $99 on a standard lot." variant="dark" />
     </>
   )
 }

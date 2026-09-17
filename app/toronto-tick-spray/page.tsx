@@ -3,19 +3,28 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Toronto Tick Control 2026 · From $99 · Lyme Disease Defence',
+  title: 'Toronto Tick Control 2026 · From $99 · Licensed Operator',
   description:
-    'Toronto tick spray · 150+ five-star reviews. Targets blacklegged ticks in ravine yards — High Park, Don Valley, Rosedale. Free re-spray. (289) 216-5030.',
+    'Toronto tick spray · 150+ five-star reviews. Targets blacklegged ticks in ravine yards — High Park, Don Valley, Rosedale. Rain-back guarantee. (289) 216-5030.',
   canonical: '/toronto-tick-spray',
 })
 
 const CITY = 'Toronto'
 const SLUG = '/toronto-tick-spray'
 const NEIGHBOURHOODS = ['High Park','East York','Don Mills','The Beaches','Scarborough','North York','Etobicoke','Leslieville','Rosedale','Forest Hill','Leaside','Willowdale','Lawrence Park']
+
+// Neighbourhoods with their own tick page link to it, so this city page passes visitors and authority down.
+const NEIGHBOURHOOD_LINKS: Record<string, string> = {
+  'North York': '/north-york-tick-spray',
+  Etobicoke: '/etobicoke-tick-spray',
+  Scarborough: '/scarborough-tick-spray',
+}
 
 const FAQS = [
   {
@@ -40,23 +49,23 @@ const FAQS = [
   },
   {
     question: 'How many tick treatments does my Toronto property need?',
-    answer: "Five treatments per season — roughly one a month from May through September. Each application provides up to 30 days of residual protection, so monthly visits keep the barrier continuous instead of leaving a multi-month gap through peak nymph season in May–July, when the poppy-seed-sized nymphs responsible for most Lyme transmission are active. The later visits carry that barrier into the adult tick surge, which runs through autumn and into November in mild years. Repeat applications matter most in Don Valley, Humber Valley, and Scarborough ravine zones, where deer, mice, and birds continually reintroduce ticks from the adjacent woodland. A full season is $597 standalone, or $497 added to any mosquito plan; single treatments start from $99.",
+    answer: "Five treatments per season — roughly one a month from May through September. The residual on treated vegetation wears down over a few weeks, so monthly visits keep the treated zones renewed instead of leaving a multi-month gap through peak nymph season in May–July. The later visits continue treatments into the adult tick surge, which runs through autumn and into November in mild years. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors. Repeat applications matter most in Don Valley, Humber Valley, and Scarborough ravine zones, where deer, mice, and birds continually reintroduce ticks from the adjacent woodland. A full season is $597 standalone, or $497 added to any mosquito plan, plus HST; single treatments start from $99 on a standard lot.",
   },
   {
-    question: 'Is tick spray safe to use in Toronto near ravines and parks?',
-    answer: "Yes. Our Health Canada–approved formula is designed for residential property use. We apply it to your property's vegetation — not to any municipal parkland or ravine. Once the product dries (approximately 30 minutes), it does not leach into nearby waterways or harm wildlife. We maintain buffer zones around any sensitive natural areas at your property edge.",
+    question: 'How is tick spray applied in Toronto near ravines and parks?',
+    answer: "Our licensed technician applies the product according to its label directions, and only to your property's own vegetation — never to municipal parkland or ravine land. We follow the label's directions around water and maintain buffer zones around any sensitive natural areas at your property edge.",
   },
   {
-    question: 'Is tick spray safe for children and pets?',
-    answer: "Yes. Our Health Canada–approved formula is safe for children and pets once dry — approximately 30 minutes after application. During application and while the product is wet, children and pets should stay indoors or away from the yard. Once dry, it does not rub off on skin or clothing and does not off-gas. We observe buffer zones around vegetable gardens and water features on every property we treat.",
+    question: 'What precautions apply for children and pets during a tick treatment?',
+    answer: "Keep children and pets indoors or away from the yard during application and until the spray has dried, as the product label directs. The product is applied to the vegetation, leaf litter and lawn edges where ticks rest, rather than broadcast across open lawn. We observe buffer zones around vegetable gardens and water features on every property we treat, and we can adjust application zones if you have specific concerns.",
   },
   {
-    question: 'Is tick spray safe for a yard where kids play?',
-    answer: "Absolutely. The 30-minute re-entry rule is the only restriction. After that, children can play on the grass, run through the yard, and use the outdoor space normally. The product remains on leaf surfaces and vegetation where ticks rest — not on grass blades at ground level where children play. Toronto parents with ravine-adjacent properties especially benefit from tick treatments, as ravine-edge yards carry the highest exposure risk for children playing outdoors.",
+    question: 'How is tick spray applied in a yard where kids play?',
+    answer: "Keep kids off treated areas until the spray has dried, as the product label directs. The product is applied to the leaf litter, lawn edges and vegetation where ticks rest, rather than broadcast across the open lawn where children play. Toronto parents with ravine-adjacent properties often choose tick treatments because ravine-edge yards carry the highest tick exposure for children playing outdoors.",
   },
   {
     question: 'Does BuzzSkito also provide mosquito control in Toronto?',
-    answer: "Yes. Toronto's Don Valley, Humber River, and extensive ravine system also create significant mosquito pressure each season. Many Toronto homeowners bundle mosquito and tick treatments for complete yard protection. See our Toronto mosquito control service for details, or ask about seasonal bundle pricing when you call.",
+    answer: "Yes. Toronto's Don Valley, Humber River, and extensive ravine system also create significant mosquito pressure each season. Many Toronto homeowners bundle mosquito and tick treatments so both pests are covered. See our Toronto mosquito control service for details, or ask about seasonal bundle pricing when you call.",
   },
 ]
 
@@ -64,7 +73,7 @@ export default function TorontoTickSprayPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: SLUG, city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Targets ticks at all life stages.`, slug: SLUG, city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'Toronto' })) }} />
@@ -74,7 +83,8 @@ export default function TorontoTickSprayPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>Toronto Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Ticks in Toronto aren't just a nuisance — they're a real health risk. Blacklegged ticks carrying Lyme disease are established in Toronto's ravine system and parks. BuzzSkito provides effective professional tick spray for Toronto homeowners.</>}
+        subtitle={<>Licensed Ontario pesticide operator treating the ravine-edge yards where blacklegged ticks are established, from High Park to the Don Valley. Treatments applied according to label directions.</>}
+        service="tick"
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -82,10 +92,10 @@ export default function TorontoTickSprayPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ 5 Sprays per Season</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -93,7 +103,7 @@ export default function TorontoTickSprayPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best tick control company in Toronto?">
         <p>
-          <strong>BuzzSkito provides specialist tick barrier spray across all Toronto neighbourhoods — High Park, East York, Don Mills, The Beaches, Scarborough, North York, Etobicoke, Leslieville, Rosedale, Forest Hill.</strong> Treatments use Health Canada-approved formulations applied to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>150+ five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Toronto families get reliable Lyme disease prevention for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist tick barrier spray across all Toronto neighbourhoods — High Park, East York, Don Mills, The Beaches, Scarborough, North York, Etobicoke, Leslieville, Rosedale, Forest Hill.</strong> Treatments are applied by a licensed Ontario pesticide operator, according to label directions, to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is $597 on its own or $497 added to any mosquito plan (plus HST). With <strong>150+ five-star Google reviews</strong>, no contracts, and a <strong>rain-back guarantee on every plan</strong>, BuzzSkito treats ravine, conservation-area, and wooded-edge properties across the city. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -107,17 +117,17 @@ export default function TorontoTickSprayPage() {
                 {[
                   ['Service area', 'All Toronto neighbourhoods (High Park, East York, Don Mills, The Beaches, Scarborough, North York, Etobicoke, Leslieville, Rosedale, Forest Hill)'],
                   ['Specialization', 'Blacklegged tick (Ixodes scapularis) and American dog tick barrier spray'],
-                  ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or tick add-on bundle available on quote'],
+                  ['Pricing', 'From $99 per treatment · tick season $597 standalone or $497 with any mosquito plan (plus HST)'],
                   ['Treatment season', 'May through September, treated monthly (nymph peak May–July; adult ticks stay active into the autumn)'],
-                  ['Protection per visit', 'Up to 30 days residual on tick habitat zones'],
-                  ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
+                  ['Licence', PROMISES.licence],
+                  ['Re-entry', 'Stay off treated areas until the spray has dried, as the product label directs'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
                   ['Highest tick zones', 'Don Valley · Humber River · High Park · Rouge National Urban Park · Highland Creek'],
                   ['Lyme disease vector', 'Yes — blacklegged tick populations confirmed by Public Health Ontario'],
                   ['Application zones', 'Lawn-to-woods edge · leaf litter · garden bed perimeters · fence-line vegetation · woodpiles'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
-                  ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
+                  ['Guarantee', 'Rain-back on every plan; Bite-Free on Standard & Exclusive'],
                   ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
                   ['Phone', '(289) 216-5030'],
                 ].map(([k, v]) => (
@@ -143,6 +153,8 @@ export default function TorontoTickSprayPage() {
         </div>
       </section>
 
+      <TypicalPrices service="tick" city={CITY} />
+
       {/* How It Works */}
       <section className="py-14 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -151,8 +163,8 @@ export default function TorontoTickSprayPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — ravine edges, lawn-to-woods transitions, leaf litter, woodpiles, and garden bed borders specific to your Toronto property.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies a barrier product, according to its label directions, to the 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Five sprays per season, roughly every 30 days, keep the treated zones renewed. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -199,16 +211,16 @@ export default function TorontoTickSprayPage() {
               </tbody>
             </table>
           </div>
-          <p>The May–July nymph window is the most dangerous period for Lyme disease transmission in Ontario. Nymphs are the size of a poppy seed — often found and removed only after they've been attached long enough to transmit Lyme disease. A late May treatment gets ahead of this window, and the monthly visits that follow hold the barrier through June and July while nymph activity is at its height.</p>
+          <p>The May–July nymph window is the most dangerous period for Lyme disease transmission in Ontario. Nymphs are the size of a poppy seed — often found and removed only after they've been attached long enough to transmit Lyme disease. A late May treatment gets ahead of this window, and the monthly visits that follow keep the treated zones renewed through June and July while nymph activity is at its height.</p>
 
-          <h2>Is Tick Spray Safe for Children and Pets?</h2>
-          <p>This is the most common question we get from Toronto parents — and the answer is yes, with one simple rule: stay off the treated area for 30 minutes while the product dries.</p>
-          <p>The Health Canada–approved formula we use is a synthetic pyrethroid — a class of insecticides derived from the chrysanthemum plant. It's applied to vegetation (leaves, shrubs, fence lines) where ticks rest. Once dry, it does not rub off on skin or clothing and does not off-gas. Children playing on grass and pets running through the yard after the 30-minute drying period are not exposed to meaningful residue.</p>
+          <h2>What Should Children and Pets Do During a Tick Treatment?</h2>
+          <p>This is the most common question we get from Toronto parents, and the answer starts with one simple rule: keep children and pets off the treated area until the spray has dried, as the product label directs.</p>
+          <p>The product we use is a synthetic pyrethroid — a class of insecticides modelled on natural compounds found in chrysanthemum flowers. Our licensed technician applies it according to its label directions, to vegetation (leaves, shrubs, fence lines, leaf litter) where ticks rest, rather than broadcasting it across open lawn where children and pets play.</p>
           <p>At BuzzSkito, we also observe buffer zones around vegetable gardens and avoid direct application to any water features, bird baths, or aquatic areas on your property. Our technician reviews these specifics before every treatment visit.</p>
           <p>For full details, see our <Link href="/blog/is-mosquito-spray-safe-kids-pets" className="text-brand-700 hover:underline">guide to mosquito and tick spray safety for kids and pets</Link>.</p>
 
           <h2>Toronto Tick Treatment Schedule</h2>
-          <p>Our seasonal tick program is five treatments — roughly one a month from May through September. Each application holds for up to 30 days, so monthly visits leave no gap in the barrier during the months blacklegged ticks are active in Toronto:</p>
+          <p>Our seasonal tick program is five treatments — roughly one a month from May through September. The residual on treated vegetation wears down over a few weeks, so monthly visits keep the treated zones renewed during the months blacklegged ticks are active in Toronto:</p>
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -220,7 +232,7 @@ export default function TorontoTickSprayPage() {
               </thead>
               <tbody>
                 {[
-                  { t: 'Treatment 1', timing: 'May', target: 'Nymph emergence — get ahead of the highest Lyme risk window in Ontario' },
+                  { t: 'Treatment 1', timing: 'May', target: 'Nymph emergence — first visit ahead of the peak nymph months' },
                   { t: 'Treatment 2', timing: 'June', target: 'Nymph peak — poppy-seed sized, so most bites go undetected' },
                   { t: 'Treatment 3', timing: 'July', target: 'Late nymph activity, plus ticks carried back in from the Don and Humber ravines' },
                   { t: 'Treatment 4', timing: 'August', target: 'Barrier renewed as the first new adults begin emerging' },
@@ -235,7 +247,7 @@ export default function TorontoTickSprayPage() {
               </tbody>
             </table>
           </div>
-          <p>Each treatment provides up to 30 days of residual protection, and the acaricide residual is temporary — deer, mice, and birds moving in from the ravines reintroduce ticks continuously, which is why the barrier has to be renewed rather than set once. The full five-visit season is $597 standalone, or $497 added to any BuzzSkito mosquito plan. Many Toronto homeowners bundle tick and mosquito treatments — the same visit covers both, since ticks and mosquitoes rest on the same vegetation surfaces. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control service</Link> for bundle pricing details.</p>
+          <p>The acaricide residual is temporary — deer, mice, and birds moving in from the ravines reintroduce ticks continuously, which is why the barrier has to be renewed rather than set once. The full five-visit season is $597 standalone, or $497 added to any BuzzSkito mosquito plan, plus HST. Many Toronto homeowners bundle tick and mosquito treatments — both can be done on the same visit, though ticks and mosquitoes are treated in different zones of the yard. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control service</Link> for bundle pricing details.</p>
 
           <h2>Where Tick Risk Is Highest in Toronto</h2>
           <ul>
@@ -248,10 +260,16 @@ export default function TorontoTickSprayPage() {
 
           <h2>Toronto Neighbourhoods We Serve</h2>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
-            {NEIGHBOURHOODS.map((n) => (
-              <span key={n} className="text-sm bg-amber-50 border border-amber-200 text-amber-700 px-3 py-1.5 rounded-full">{n}</span>
-            ))}
+            {NEIGHBOURHOODS.map((n) =>
+              NEIGHBOURHOOD_LINKS[n] ? (
+                <Link key={n} href={NEIGHBOURHOOD_LINKS[n]} className="text-sm bg-amber-50 border border-amber-200 text-amber-800 px-3 py-1.5 rounded-full hover:bg-amber-100 hover:underline underline-offset-2">{n}</Link>
+              ) : (
+                <span key={n} className="text-sm bg-amber-50 border border-amber-200 text-amber-700 px-3 py-1.5 rounded-full">{n}</span>
+              )
+            )}
           </div>
+
+          <CityPriceCard city={CITY} service="tick" />
 
           <h2>Tick Spray Pricing in Toronto</h2>
           <div className="not-prose overflow-x-auto my-4">
@@ -265,9 +283,9 @@ export default function TorontoTickSprayPage() {
               </thead>
               <tbody>
                 {[
-                  { type: 'Standard lot (under 6,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Toronto semi, townhome, or detached' },
-                  { type: 'Mid-size lot (6,000–10,000 sq ft)', price: 'Custom quote', coverage: 'Ravine-backing, Rosedale, Forest Hill' },
-                  { type: 'Large / estate property (10,000+ sq ft)', price: 'Custom quote', coverage: 'Bridle Path, Lawrence Park, Hoggs Hollow' },
+                  { type: 'Standard lot (under 10,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Toronto semi, townhome, or detached' },
+                  { type: 'Larger lot (10,000–100,000 sq ft)', price: 'Priced by lot size', coverage: 'Ravine-backing, Rosedale, Forest Hill' },
+                  { type: 'Estate property', price: 'Custom quote', coverage: 'Bridle Path, Lawrence Park, Hoggs Hollow' },
                 ].map(({ type, price, coverage }) => (
                   <tr key={type} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-2 font-semibold text-brand-800">{type}</td>
@@ -282,31 +300,31 @@ export default function TorontoTickSprayPage() {
 
           <h2>Professional Tick Spray vs. DIY in Toronto</h2>
           <ul>
-            <li><strong>Store-bought repellents protect people, not yards.</strong> DEET applied to clothing protects during a walk. Professional yard spray creates a treated zone that kills ticks before they reach your family or pets.</li>
+            <li><strong>Store-bought repellents protect people, not yards.</strong> DEET applied to clothing protects during a walk. Professional yard spray treats the zones where ticks wait for a passing host.</li>
             <li><strong>Tick tubes target one pathway, not the whole problem.</strong> Permethrin-treated cotton tubes work via mice — useful as a supplement but don&apos;t address ticks already on your property or arriving via deer.</li>
             <li><strong>Precision targeting is what makes it work.</strong> Ticks live in specific micro-habitats — the lawn-to-ravine transition, leaf litter, garden edges. Professional treatment targets these zones. Consumer products miss them.</li>
-            <li><strong>Toronto&apos;s ravine system is beyond your control.</strong> The Don Valley, Humber River, and Highland Creek will produce ticks every year. A treated barrier on your property is the only reliable residential defence.</li>
+            <li><strong>Toronto&apos;s ravine system is beyond your control.</strong> The Don Valley, Humber River, and Highland Creek will produce ticks every year. A treated barrier on your property is one layer of residential defence, alongside tick checks after time outdoors.</li>
           </ul>
 
           <h2>What to Expect on Tick Treatment Day</h2>
           <ol>
-            <li><strong>SMS notification before arrival</strong> — you don&apos;t need to be home.</li>
+            <li><strong>Visit window</strong> — {PROMISES.visitWindow} You don&apos;t need to be home.</li>
             <li><strong>Property tick assessment</strong> — your technician identifies ravine edges, transition zones, and high-risk perimeters.</li>
             <li><strong>Targeted barrier application</strong> — precision spray to tick habitat: lawn-to-woods edges, garden borders, fence lines, woodpiles, under decks. 20–30 minutes.</li>
-            <li><strong>30-minute dry time</strong> — then fully safe for kids and pets.</li>
+            <li><strong>Dry time</strong> — keep kids and pets off treated areas until the spray has dried, as the product label directs.</li>
             <li><strong>Email confirmation</strong> — treatment log with areas treated and next visit date.</li>
           </ol>
 
           <h2>Also Providing Mosquito Control in Toronto</h2>
-          <p>Bundle tick and mosquito control for complete yard protection. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control service</Link>.</p>
+          <p>Bundle tick and mosquito control so both pests are covered. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control service</Link>.</p>
 
 
           <h2>Compare Toronto Pest Control Options</h2>
-          <p>Toronto has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-toronto" className="text-brand-700 hover:underline font-semibold">Pest Control in Toronto</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Toronto</Link>.</p>
+          <p>Toronto has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-toronto" className="text-brand-700 hover:underline font-semibold">Pest Control in Toronto</Link> for why a mosquito and tick specialist is a better fit for tick-prone ravine yards than a general pest company. See our full mosquito programme for the same property: <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Toronto</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
-            <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease Prevention in Ontario</Link></li>
+            <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease and Ticks in Ontario</Link></li>
             <li><Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms &amp; What to Do in Ontario</Link></li>
             <li><Link href="/blog/what-ticks-look-like-ontario" className="text-brand-700 hover:underline">What Ticks Look Like in Ontario</Link></li>
           </ul>
@@ -343,6 +361,10 @@ export default function TorontoTickSprayPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="tick" location="price_card_faq" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -362,7 +384,7 @@ export default function TorontoTickSprayPage() {
         </div>
       </section>
 
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protect your family from Lyme disease in Toronto. No contracts." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Licensed tick spray for Toronto ravine-edge yards. No contracts." variant="dark" />
     </>
   )
 }

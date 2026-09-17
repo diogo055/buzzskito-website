@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 336" width="880" height="336" role="img" aria-label="Six North American tick species and an adult bed bug drawn at the same scale, with true unfed-adult lengths">
+  <title>North American ticks and an adult bed bug at the same scale</title>
+  <desc>Silhouettes of the blacklegged tick, western blacklegged tick, lone star tick, American dog tick, Gulf Coast tick and brown dog tick, plus an adult bed bug, all drawn twelve times life size on one shared scale. Ticks show eight legs and no antennae; the bed bug shows six legs and a pair of antennae.</desc>
+
+  <defs>
+    <g id="tick-legs">
+      <path d="M -18,-38 C -34,-46 -46,-52 -56,-48" />
+      <path d="M -21,-20 C -38,-24 -50,-28 -58,-22" />
+      <path d="M -21,-2 C -38,-2 -50,-4 -58,4" />
+      <path d="M -18,16 C -34,20 -46,26 -54,34" />
+      <path d="M 18,-38 C 34,-46 46,-52 56,-48" />
+      <path d="M 21,-20 C 38,-24 50,-28 58,-22" />
+      <path d="M 21,-2 C 38,-2 50,-4 58,4" />
+      <path d="M 18,16 C 34,20 46,26 54,34" />
+    </g>
+  </defs>
+
+  <rect width="880" height="336" fill="#ffffff" />
+
+  <text x="24" y="26" font-family="ui-sans-serif, system-ui, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f2a3d">Six ticks that bite people in North America &#8212; and an adult bed bug, all at the same scale</text>
+  <text x="24" y="45" font-family="ui-sans-serif, system-ui, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#4b5563">Silhouettes drawn 12&#215; life size on one shared scale. True unfed-adult length is printed under each. Ticks: 8 legs, no antennae. Bed bug: 6 legs, visible antennae.</text>
+
+  <line x1="24" y1="58" x2="856" y2="58" stroke="#e5e7eb" stroke-width="1" />
+
+  <!-- 1. Blacklegged / deer tick — 3 mm -->
+  <g transform="translate(80,132) scale(0.36)">
+    <g fill="none" stroke="#4a3728" stroke-width="7" stroke-linecap="round"><use href="#tick-legs" /></g>
+    <path d="M -8,-48 L -10,-64 L 0,-71 L 10,-64 L 8,-48 Z" fill="#3a2b20" />
+    <ellipse cx="0" cy="0" rx="22" ry="50" fill="#6b4f3a" />
+    <ellipse cx="0" cy="-24" rx="16" ry="22" fill="#2f231a" />
+  </g>
+  <!-- 2. Western blacklegged tick — 3 mm -->
+  <g transform="translate(200,132) scale(0.36)">
+    <g fill="none" stroke="#4a3728" stroke-width="7" stroke-linecap="round"><use href="#tick-legs" /></g>
+    <path d="M -8,-48 L -10,-64 L 0,-71 L 10,-64 L 8,-48 Z" fill="#3a2b20" />
+    <ellipse cx="0" cy="0" rx="22" ry="50" fill="#6b4f3a" />
+    <ellipse cx="0" cy="-24" rx="16" ry="22" fill="#2f231a" />
+  </g>
+  <!-- 3. Lone star tick — 4 mm, white dot on the female -->
+  <g transform="translate(320,132) scale(0.48)">
+    <g fill="none" stroke="#4a3728" stroke-width="6" stroke-linecap="round"><use href="#tick-legs" /></g>
+    <path d="M -8,-48 L -10,-64 L 0,-71 L 10,-64 L 8,-48 Z" fill="#3a2b20" />
+    <ellipse cx="0" cy="0" rx="22" ry="50" fill="#7a5334" />
+    <ellipse cx="0" cy="-24" rx="16" ry="22" fill="#4a3120" />
+    <circle cx="0" cy="-14" r="8" fill="#f4f1ea" />
+  </g>
+  <!-- 4. American dog tick — 5 mm, mottled scutum -->
+  <g transform="translate(440,132) scale(0.6)">
+    <g fill="none" stroke="#4a3728" stroke-width="5" stroke-linecap="round"><use href="#tick-legs" /></g>
+    <path d="M -8,-48 L -10,-64 L 0,-71 L 10,-64 L 8,-48 Z" fill="#3a2b20" />
+    <ellipse cx="0" cy="0" rx="22" ry="50" fill="#6d4c33" />
+    <ellipse cx="0" cy="-24" rx="17" ry="23" fill="#d9cdb8" />
+    <circle cx="-7" cy="-32" r="5" fill="#5a3f2a" />
+    <circle cx="7" cy="-26" r="4.5" fill="#5a3f2a" />
+    <circle cx="-4" cy="-15" r="4" fill="#5a3f2a" />
+  </g>
+  <!-- 5. Gulf Coast tick — 5 mm -->
+  <g transform="translate(560,132) scale(0.6)">
+    <g fill="none" stroke="#4a3728" stroke-width="5" stroke-linecap="round"><use href="#tick-legs" /></g>
+    <path d="M -8,-48 L -10,-64 L 0,-71 L 10,-64 L 8,-48 Z" fill="#3a2b20" />
+    <ellipse cx="0" cy="0" rx="22" ry="50" fill="#71513a" />
+    <ellipse cx="0" cy="-24" rx="17" ry="23" fill="#c9b79c" />
+    <path d="M -12,-34 L -3,-12 M 12,-34 L 3,-12" stroke="#5a3f2a" stroke-width="4" fill="none" stroke-linecap="round" />
+  </g>
+  <!-- 6. Brown dog tick — 3 mm -->
+  <g transform="translate(680,132) scale(0.36)">
+    <g fill="none" stroke="#5a4130" stroke-width="7" stroke-linecap="round"><use href="#tick-legs" /></g>
+    <path d="M -8,-48 L -10,-64 L 0,-71 L 10,-64 L 8,-48 Z" fill="#4a3423" />
+    <ellipse cx="0" cy="0" rx="22" ry="50" fill="#8a6440" />
+    <ellipse cx="0" cy="-24" rx="16" ry="22" fill="#59402a" />
+  </g>
+  <!-- 7. Adult bed bug — 5 mm, 6 legs + antennae -->
+  <g transform="translate(800,132) scale(0.6)">
+    <g fill="none" stroke="#7a4029" stroke-width="5" stroke-linecap="round">
+      <path d="M -26,-28 C -44,-34 -56,-38 -64,-32" />
+      <path d="M -28,-6 C -46,-6 -58,-8 -66,0" />
+      <path d="M -25,16 C -42,22 -54,28 -60,38" />
+      <path d="M 26,-28 C 44,-34 56,-38 64,-32" />
+      <path d="M 28,-6 C 46,-6 58,-8 66,0" />
+      <path d="M 25,16 C 42,22 54,28 60,38" />
+      <path d="M -8,-54 C -18,-62 -28,-68 -38,-70" />
+      <path d="M 8,-54 C 18,-62 28,-68 38,-70" />
+    </g>
+    <ellipse cx="0" cy="4" rx="30" ry="46" fill="#a3552f" />
+    <ellipse cx="0" cy="-33" rx="25" ry="15" fill="#b9663c" />
+    <ellipse cx="0" cy="-48" rx="10" ry="9" fill="#8a4527" />
+    <g stroke="#7a3d21" stroke-width="2.5" fill="none">
+      <path d="M -27,-8 Q 0,-1 27,-8" />
+      <path d="M -26,6 Q 0,13 26,6" />
+      <path d="M -22,20 Q 0,27 22,20" />
+      <path d="M -16,33 Q 0,39 16,33" />
+    </g>
+  </g>
+
+  <g font-family="ui-sans-serif, system-ui, 'Segoe UI', Helvetica, Arial, sans-serif" text-anchor="middle">
+    <g font-size="11" font-weight="700" fill="#0f2a3d">
+      <text x="80" y="200">Blacklegged</text><text x="80" y="212">(deer) tick</text>
+      <text x="200" y="200">Western</text><text x="200" y="212">blacklegged tick</text>
+      <text x="320" y="200">Lone star tick</text>
+      <text x="440" y="200">American</text><text x="440" y="212">dog tick</text>
+      <text x="560" y="200">Gulf Coast tick</text>
+      <text x="680" y="200">Brown dog tick</text>
+      <text x="800" y="200">Bed bug</text><text x="800" y="212">(adult)</text>
+    </g>
+    <g font-size="9.5" font-style="italic" fill="#6b7280">
+      <text x="80" y="226">Ixodes scapularis</text>
+      <text x="200" y="226">Ixodes pacificus</text>
+      <text x="320" y="226">Amblyomma americanum</text>
+      <text x="440" y="226">Dermacentor variabilis</text>
+      <text x="560" y="226">Amblyomma maculatum</text>
+      <text x="680" y="226">Rhipicephalus sanguineus</text>
+      <text x="800" y="226">Cimex lectularius</text>
+    </g>
+    <g font-size="10.5" font-weight="700" fill="#b45309">
+      <text x="80" y="243">about 3 mm</text>
+      <text x="200" y="243">about 3 mm</text>
+      <text x="320" y="243">about 4 mm</text>
+      <text x="440" y="243">about 5 mm</text>
+      <text x="560" y="243">4&#8211;6 mm</text>
+      <text x="680" y="243">about 3 mm</text>
+      <text x="800" y="243">4&#8211;5 mm</text>
+    </g>
+    <g font-size="9" fill="#4b5563">
+      <text x="80" y="258">Eastern US,</text><text x="80" y="269">southern Ontario</text>
+      <text x="200" y="258">Pacific Coast,</text><text x="200" y="269">coastal BC</text>
+      <text x="320" y="258">South &amp; East US,</text><text x="320" y="269">not established in Canada</text>
+      <text x="440" y="258">East of the Rockies,</text><text x="440" y="269">parts of Canada</text>
+      <text x="560" y="258">Southeast US,</text><text x="560" y="269">focal populations north</text>
+      <text x="680" y="258">Throughout the US;</text><text x="680" y="269">can live indoors</text>
+      <text x="800" y="258">Indoors worldwide:</text><text x="800" y="269">mattress seams, frames</text>
+    </g>
+  </g>
+
+  <line x1="24" y1="288" x2="856" y2="288" stroke="#e5e7eb" stroke-width="1" />
+  <g font-family="ui-sans-serif, system-ui, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <line x1="24" y1="308" x2="84" y2="308" stroke="#0f2a3d" stroke-width="3" stroke-linecap="round" />
+    <line x1="24" y1="303" x2="24" y2="313" stroke="#0f2a3d" stroke-width="2" />
+    <line x1="84" y1="303" x2="84" y2="313" stroke="#0f2a3d" stroke-width="2" />
+    <text x="94" y="312" font-size="10.5" font-weight="700" fill="#0f2a3d">= 5 mm true size</text>
+    <text x="230" y="312" font-size="10.5" fill="#4b5563">The size test fails between an American dog tick and a bed bug &#8212; both are about 5 mm. Count the legs instead: 8 versus 6.</text>
+  </g>
+</svg>

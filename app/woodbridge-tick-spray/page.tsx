@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { TICK_BLOGS } from '@/lib/constants'
+import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Woodbridge Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Woodbridge tick spray for Humber River corridor properties. Health Canada-approved, from $99/treatment, BuzzSkito Bite-Free Guarantee. Sonoma Heights, West Woodbridge, East Woodbridge, Pine Valley, Vellore Village. Call (289) 216-5030.",
+    "Woodbridge tick spray for Humber River corridor properties. Licensed Ontario operator, from $99/treatment, rain-back guarantee on every plan. Sonoma Heights, West Woodbridge, East Woodbridge, Pine Valley, Vellore Village. Call (289) 216-5030.",
   canonical: '/woodbridge-tick-spray',
 })
 
@@ -17,7 +19,7 @@ const NEIGHBOURHOODS = ['Islington Woods','Weston Downs','Pine Valley','Sonoma H
 const FAQS = [
   {
     question: 'How much does tick spray cost in Woodbridge?',
-    answer: 'Tick spray in Woodbridge starts from $99 per application. Properties near Boyd Conservation Area or the Humber River valley benefit most from the full seasonal program — five treatments spread roughly monthly from May through September — at $597 standalone, or $497 when added to any mosquito plan. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Woodbridge starts from $99 per application. Properties near Boyd Conservation Area or the Humber River valley benefit most from the full seasonal program — five treatments spread roughly monthly from May through September — at $597 standalone, or $497 when added to any mosquito plan, plus HST. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Which Woodbridge areas have the highest tick risk?',
@@ -29,7 +31,7 @@ const FAQS = [
   },
   {
     question: 'Can ticks from Boyd Conservation Area reach properties that don\'t directly back onto it?',
-    answer: 'Yes. Deer regularly leave Boyd Conservation Area and move through residential Woodbridge streets and yards, dropping ticks as they travel. A property several streets away from the conservation area boundary can still have ticks introduced by deer, raccoons, or foxes moving through the neighbourhood. Professional barrier spray creates a protective zone around your property that kills ticks before they can reach your family.',
+    answer: 'Yes. Deer regularly leave Boyd Conservation Area and move through residential Woodbridge streets and yards, dropping ticks as they travel. A property several streets away from the conservation area boundary can still have ticks introduced by deer, raccoons, or foxes moving through the neighbourhood. Professional barrier spray treats the lawn edges, leaf litter, and fence lines where those ticks end up waiting for a host, and repeat visits keep that treated zone renewed through the season.',
   },
 ]
 
@@ -37,7 +39,7 @@ export default function WoodbridgeTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: '/woodbridge-tick-spray', city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Targets ticks at all life stages.`, slug: '/woodbridge-tick-spray', city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/woodbridge-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'Woodbridge' })) }} />
@@ -47,7 +49,8 @@ export default function WoodbridgeTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Boyd Conservation Area and the Humber River valley running through Woodbridge are established blacklegged tick habitat. Properties in Islington Woods and Pine Valley face the highest annual tick exposure. BuzzSkito provides professional protection.</>}
+        subtitle={<>Licensed Ontario pesticide operator treating Woodbridge yards beside Boyd Conservation Area and the Humber River valley, where Islington Woods and Pine Valley face the highest tick exposure. Treatments applied according to label directions.</>}
+        service="tick"
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -56,10 +59,10 @@ export default function WoodbridgeTickPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ 5 Sprays per Season</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -76,6 +79,8 @@ export default function WoodbridgeTickPage() {
       </section>
 
       
+      <TypicalPrices service="tick" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -84,8 +89,8 @@ export default function WoodbridgeTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — lawn-to-woods transitions, leaf litter, garden bed edges, and fence lines on your property.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies a barrier product, according to its label directions, to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Five sprays per season, roughly every 30 days, keep the treated zones renewed. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -101,7 +106,7 @@ export default function WoodbridgeTickPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Woodbridge</h2>
           <p>Woodbridge has a unique tick challenge: Boyd Conservation Area sits embedded within the community, not on its fringes. This means large areas of established residential Woodbridge are directly adjacent to confirmed blacklegged tick habitat. York Region Public Health confirms tick presence throughout the Boyd Conservation Area and Humber River valley corridor every season, and properties that back onto either of these natural areas face the most direct annual exposure.</p>
-          <p>The Humber River valley is a continuous wildlife corridor that carries ticks from rural areas north of Vaughan all the way through Woodbridge and into Etobicoke. Islington Woods and Pine Valley neighbourhoods have mature forest canopy and natural lot edges that provide ideal tick habitat right in the backyard. Weston Downs and Sonoma Heights also see wildlife movement from the Humber valley. Professional barrier spray applied to your property's lawn edges, garden borders, and naturalized zones is the most effective way to interrupt tick exposure before it reaches your family.</p>
+          <p>The Humber River valley is a continuous wildlife corridor that carries ticks from rural areas north of Vaughan all the way through Woodbridge and into Etobicoke. Islington Woods and Pine Valley neighbourhoods have mature forest canopy and natural lot edges that provide ideal tick habitat right in the backyard. Weston Downs and Sonoma Heights also see wildlife movement from the Humber valley. Professional barrier spray applied to your property's lawn edges, garden borders, and naturalized zones is a practical way to reduce tick encounters in your own yard.</p>
 
           <h2>Tick Hotspots in Woodbridge</h2>
           <ul>
@@ -120,10 +125,10 @@ export default function WoodbridgeTickPage() {
           <h2>What Our Woodbridge Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 30 days of tick protection per treatment</li>
-            <li>Kills adult ticks, nymphs, and larvae on contact</li>
-            <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
-            <li>Free reapplication guarantee if ticks return</li>
+            <li>5 sprays per season, roughly monthly, renewing the treated zones</li>
+            <li>Targets adult ticks, nymphs, and larvae</li>
+            <li>{PROMISES.labelLine}, by a licensed operator; stay off treated areas until the spray has dried</li>
+            <li>{PROMISES.rainBack}</li>
           </ul>
 
           <h2>Also Providing Mosquito Control in Woodbridge</h2>
@@ -131,7 +136,7 @@ export default function WoodbridgeTickPage() {
 
 
           <h2>Compare Woodbridge Pest Control Options</h2>
-          <p>Woodbridge has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-woodbridge" className="text-brand-700 hover:underline font-semibold">Pest Control in Woodbridge</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company.</p>
+          <p>Woodbridge has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-woodbridge" className="text-brand-700 hover:underline font-semibold">Pest Control in Woodbridge</Link> for why a mosquito and tick specialist is a better fit for conservation-edge yards than a general pest company.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
@@ -150,7 +155,7 @@ export default function WoodbridgeTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'James K.', text: 'We had a tick problem near our garden border. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-              { author: 'Priya R.', text: 'The technician explained exactly what product they were using and why it\u2019s safe for our dog. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
+              { author: 'Priya R.', text: 'The technician explained exactly what product they were using. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
             ].map(({ author, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -169,6 +174,10 @@ export default function WoodbridgeTickPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="tick" location="price_card_faq" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -185,7 +194,7 @@ export default function WoodbridgeTickPage() {
           </div>
         </div>
       </section>
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protect your family from Lyme disease. No contracts, guaranteed results." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Licensed tick spray for Woodbridge conservation-edge yards. No contracts, rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

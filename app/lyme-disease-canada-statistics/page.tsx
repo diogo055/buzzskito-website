@@ -519,7 +519,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
           <blockquote className="relative">
             <span className="absolute -top-6 -left-2 text-7xl text-emerald-300 font-serif leading-none" aria-hidden="true">&ldquo;</span>
             <p className="text-xl sm:text-2xl font-bold text-brand-900 leading-snug relative z-10">
-              An 18-fold jump in reported Lyme cases in a single decade isn&rsquo;t a blip &mdash; it&rsquo;s a blacklegged tick that has moved in and settled down across Canada. And because most infections are never reported, the real number is far higher than the official count. The good news is that yard-level risk is one of the few parts of this you can actually control.
+              An 18-fold jump in reported Lyme cases in a single decade isn&rsquo;t a blip &mdash; it&rsquo;s a blacklegged tick that has moved in and settled down across Canada. And because most infections are never reported, the real number is far higher than the official count. The good news is that the basics public health recommends are simple: check for ticks after time outdoors, remove them promptly, and keep your yard less friendly to ticks.
             </p>
           </blockquote>
           <div className="mt-5 flex items-center gap-3">
@@ -610,9 +610,9 @@ export default function LymeDiseaseCanadaStatisticsPage() {
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">Protect your yard</p>
-          <h2 className="text-2xl sm:text-4xl font-extrabold mb-4">Reduce the tick risk you can actually control</h2>
+          <h2 className="text-2xl sm:text-4xl font-extrabold mb-4">Deal with the ticks in your own yard</h2>
           <p className="text-base text-brand-100 max-w-2xl mx-auto mb-7 leading-relaxed">
-            You can&rsquo;t change the climate, but you can change your own backyard. BuzzSkito&rsquo;s Health Canada-approved tick barrier spray targets the lawn-edge, leaf-litter, and fence-line zones where blacklegged ticks concentrate &mdash; across Mississauga, Toronto, and the wider GTA. Get a free, no-obligation quote.
+            You can&rsquo;t change the climate, but you can change your own backyard. BuzzSkito&rsquo;s tick barrier spray, applied according to label directions, targets the lawn-edge, leaf-litter, and fence-line zones where blacklegged ticks concentrate &mdash; across Mississauga, Toronto, and the wider GTA. Tick plans are 5 sprays per season. Get a free, no-obligation quote.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
             <Link
@@ -656,7 +656,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
             <Link href="/tick-control" className="group rounded-2xl border-2 border-gray-200 hover:border-emerald-300 bg-gradient-to-b from-gray-50 to-white p-5 shadow-sm transition-all">
               <p className="text-xs font-extrabold text-emerald-600 uppercase tracking-wider mb-1">Our service</p>
               <h3 className="text-lg font-extrabold text-brand-900 group-hover:text-emerald-700">Professional Tick Control →</h3>
-              <p className="text-sm text-gray-600 mt-1">Health Canada-approved tick barrier spray for GTA yards. Free quotes, Bite-Free Guarantee.</p>
+              <p className="text-sm text-gray-600 mt-1">Tick barrier spray for GTA yards, 5 sprays per season. Free quotes, rain-back guarantee on every plan.</p>
             </Link>
           </div>
         </div>

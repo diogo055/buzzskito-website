@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { BUSINESS, PRICING, SITE_URL } from '@/lib/constants'
+import { BUSINESS, PRICING, PROMISES, SITE_URL } from '@/lib/constants'
 
 /**
  * SeasonalOffer — a reusable seasonal-deal card + Offer JSON-LD.
@@ -58,7 +58,8 @@ export default function SeasonalOffer({
       '@type': 'Offer',
       name: 'First Mosquito Treatment',
       description:
-        'One-time professional mosquito barrier spray for a standard residential lot (under 10,000 sq ft). Health Canada-approved, protects for up to 30 days.',
+        // DIR2016-01 bars "Health Canada-approved" and untested protection periods, in structured data too.
+        'One-time professional mosquito barrier spray for a standard residential lot (under 10,000 sq ft), plus HST. Applied by an Ontario-licensed operator according to product label directions.',
       price: single,
       priceCurrency: PRICING.currency,
       availability: 'https://schema.org/InStock',
@@ -78,7 +79,7 @@ export default function SeasonalOffer({
       '@type': 'Offer',
       name: 'Tick Season Protection (bundled)',
       description:
-        'Full-season tick barrier spray (5 treatments) when added to any mosquito plan — save $100 versus the standalone tick season.',
+        'Full-season tick barrier spray (5 treatments) when added to any mosquito plan, plus HST — save $100 versus the standalone tick season.',
       price: tickBundle,
       priceCurrency: PRICING.currency,
       availability: 'https://schema.org/InStock',
@@ -121,8 +122,8 @@ export default function SeasonalOffer({
               <span className="text-base font-semibold text-gray-500"> {PRICING.currency}</span>
             </p>
             <p className="mt-2 text-sm leading-relaxed text-gray-600">
-              A one-time barrier spray for a standard lot — kills mosquitoes on contact and keeps
-              your yard protected for up to 30 days.
+              A one-time barrier spray for a standard lot under 10,000 sq ft, applied to the shaded
+              areas where mosquitoes rest, according to the product label.
             </p>
           </div>
 
@@ -133,13 +134,13 @@ export default function SeasonalOffer({
               <span className="text-base font-semibold text-gray-500"> {PRICING.currency}</span>
             </p>
             <p className="mt-2 text-sm leading-relaxed text-gray-600">
-              Full-season tick protection (5 sprays) added to any mosquito plan — save $100 versus
-              booking tick control on its own.
+              Full-season tick treatment (5 sprays) added to any mosquito plan — save $100 versus
+              booking tick control on its own (${PRICING.tickStandaloneFrom}).
             </p>
           </div>
         </div>
 
-        <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
+        <div data-lead-location="seasonal_offer" className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
           <Link href="/free-yard-assessment" className="btn-primary press-scale">
             Get a Free Quote
           </Link>
@@ -153,8 +154,10 @@ export default function SeasonalOffer({
         </div>
 
         <p className="mt-3 text-xs text-gray-500">
-          Backed by the {BUSINESS.guarantee.short}. Prices scale by lot size — your final quote is
-          confirmed before any work begins.
+          {/* The Bite-Free Guarantee is Standard & Exclusive only and this card sells a single visit, so it
+              carries the rain-back guarantee (every plan) and names the Bite-Free scope exactly. */}
+          {PROMISES.rainBack} {PROMISES.biteFreeScope}. Prices are plus HST and scale by lot size — your
+          final quote is confirmed before any work begins. {PROMISES.response}
         </p>
       </div>
     </section>

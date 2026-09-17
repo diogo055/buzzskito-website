@@ -14,7 +14,7 @@ const SLUG = 'do-tiki-torches-repel-mosquitoes'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Do Tiki Torches Repel Mosquitoes? The Honest 2026 Answer'
-const META_TITLE = 'Do Tiki Torches Repel Mosquitoes? 2026 Verdict'
+const META_TITLE = 'Do Tiki Torches Repel Mosquitoes? Canada 2026'
 
 const FAQS = [
   {
@@ -39,7 +39,7 @@ const FAQS = [
   },
   {
     question: 'What actually works better than tiki torches for a backyard?',
-    answer: 'For a hands-off patio zone, a Thermacell device creates a roughly 4.5 m (15 ft) mosquito-free area using a heated repellent mat — about 20 times the coverage of a single citronella torch, and it does not depend on you sitting beside a flame. For personal protection on the move, a DEET or picaridin repellent lasts hours instead of minutes. And to actually reduce the mosquito population across an entire yard, a professional barrier spray coats the shaded vegetation where mosquitoes rest and kills them on contact for 21–30 days, while also covering ticks — something no torch, candle, or coil can do. The realistic GTA stack is barrier spray for the yard, a Thermacell on the deck, and tiki torches purely for the vibe.',
+    answer: 'For a hands-off patio zone, a Thermacell device creates a roughly 4.5 m (15 ft) mosquito-free area using a heated repellent mat — about 20 times the coverage of a single citronella torch, and it does not depend on you sitting beside a flame. For personal protection on the move, a DEET or picaridin repellent lasts hours instead of minutes. And to actually reduce the mosquito population across an entire yard, a professional barrier spray coats the shaded vegetation where mosquitoes rest with a residual that kills them on contact and is renewed on the plan schedule (every 2 weeks on Standard, monthly on Basic), and it can target ticks where they wait too — something no torch, candle, or coil can do. The realistic GTA stack is barrier spray for the yard, a Thermacell on the deck, and tiki torches purely for the vibe.',
   },
   {
     question: 'Do tiki torches attract more mosquitoes with their light?',
@@ -55,7 +55,7 @@ const FAQS = [
   },
   {
     question: 'Do tiki torches repel ticks?',
-    answer: 'No. Ticks do not fly and are not affected by citronella smoke or torch flames at all — they wait in tall grass and leaf litter and latch onto you as you brush past. Nothing about a tiki torch touches the tick problem. If you have children, pets, or long grass and border vegetation, a professional barrier spray that treats the lawn edges, shrubs, and shaded resting areas is the tool that actually knocks down ticks alongside mosquitoes.',
+    answer: 'No. Ticks do not fly and are not affected by citronella smoke or torch flames at all — they wait in tall grass and leaf litter and latch onto you as you brush past. Nothing about a tiki torch touches the tick problem. If you have children, pets, or long grass and border vegetation, a professional barrier spray that treats the lawn edges, shrubs, and shaded resting areas is the tool that targets ticks where they wait, alongside mosquitoes.',
   },
 ]
 
@@ -104,7 +104,7 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
               <li>Still-air testing of citronella sources measures roughly <strong>40–50% fewer bites</strong> right beside them; open-air field studies often find <strong>little to no</strong> measurable reduction.</li>
               <li>Even a light <strong>1–2 km/h</strong> breeze scatters the citronella plume and drops protection to near zero.</li>
               <li>A Thermacell creates a <strong>~4.5 m (15 ft)</strong> repellent zone — about <strong>20×</strong> the coverage of one citronella torch.</li>
-              <li>Professional barrier spray kills mosquitoes on contact across the whole yard for <strong>21–30 days</strong>; torches kill <strong>zero</strong> mosquitoes and repel <strong>zero</strong> ticks.</li>
+              <li>Professional barrier spray reduces the adult mosquitoes resting across the whole yard, renewed at every scheduled visit; torches kill <strong>zero</strong> mosquitoes and repel <strong>zero</strong> ticks.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
@@ -169,6 +169,7 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
           <h2>Are Tiki Torches Effective Against Mosquitoes?</h2>
           <p>Not for anything larger than the air right beside the flame. The core problem is range. For citronella to work, the scent has to physically fill the space between you and an approaching mosquito, at a high enough concentration, at the exact moment it comes in. A torch releases only a thin ribbon of oil vapour, so that concentration is only high enough in a bubble under roughly a metre — and it is easily swept away by even a 1–2 km/h breeze. The instant you lean back, walk to the barbecue, or the wind shifts, the mosquitoes are back on you.</p>
           <p>That is also why lining a patio with torches does not solve the problem. Each torch protects only its own little pocket, so four torches around a 3-metre patio still leave the table and everyone sitting in the middle fully exposed. And because torches do nothing about the shaded shrubs, long grass, and damp corners where mosquitoes actually breed and rest during the day, they cannot lower the number of mosquitoes coming into your yard in the first place.</p>
+          <p>Those damp corners are where a torch has nothing to offer and a few dollars actually buys something. Any container holding water for more than a week &mdash; a rain barrel, a birdbath, a plant saucer, a blocked eavestrough &mdash; is a nursery, and a BTI larvicide tablet dropped into it kills the larvae there before any of them reach your patio as adults. Follow the label for which water types each format is cleared for. <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Check BTI mosquito dunks on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Tiki Torches vs What Actually Works: A Real Comparison</h2>
           <p>Here is how a citronella tiki torch stacks up against the tools that genuinely move the needle in a Canadian backyard:</p>
@@ -215,8 +216,8 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Professional barrier spray</td>
                   <td className="px-4 py-3 text-gray-700">Whole yard</td>
-                  <td className="px-4 py-3 text-gray-700">Kills on contact · 21–30 days</td>
-                  <td className="px-4 py-3 text-gray-700">Yes — full coverage</td>
+                  <td className="px-4 py-3 text-gray-700">Kills on contact · renewed each visit</td>
+                  <td className="px-4 py-3 text-gray-700">Yes — targets where ticks wait</td>
                   <td className="px-4 py-3 font-mono text-gray-800">From $99 / treatment</td>
                 </tr>
               </tbody>
@@ -246,9 +247,10 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
 
           <h3>2. Skin repellent when you are on the move</h3>
           <p>For walking the dog, gardening, or heading down to the fire pit, a <strong>DEET or picaridin</strong> repellent applied to skin delivers 90%+ protection for hours — the opposite of citronella&rsquo;s minutes. Health Canada registers both as effective personal repellents. Our <Link href="/blog/mosquito-repellent-guide-ontario-2026">2026 Ontario mosquito repellent guide</Link> breaks down which concentration to buy for how long you will be out.</p>
+          <p>Concentration is the whole decision, and it is printed on the label beside the PCP registration number that shows the product is registered for sale in Canada &mdash; a lower percentage for an hour on the deck, a higher one for a long evening in a ravine or at the cottage, and a separate line of products labelled for use on children. Buy from the label, not the front of the bottle. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Check DEET and picaridin repellents on Amazon.ca &rarr;</BuyLink></p>
 
           <h3>3. Professional barrier spray for the whole yard</h3>
-          <p>Torches, candles, and Thermacells are all personal, short-range tools. To actually cut the number of mosquitoes in your yard, you have to treat the shaded vegetation where they rest during the day. A <Link href="/mosquito-control">professional barrier spray</Link> coats those leaves and shrubs with a residual formula that kills mosquitoes on contact for <strong>21–30 days</strong> per treatment — and, unlike anything a torch can do, it knocks down ticks too. This is the only item on the list that lowers the population rather than just shielding one chair.</p>
+          <p>Torches, candles, and Thermacells are all personal, short-range tools. To actually cut the number of mosquitoes in your yard, you have to treat the shaded vegetation where they rest during the day. A <Link href="/mosquito-control">professional barrier spray</Link> coats those leaves and shrubs with a residual that kills mosquitoes on contact and is renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic) — and, unlike anything a torch can do, it can target ticks where they wait too. This is the only item on the list that lowers the population rather than just shielding one chair.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
@@ -261,9 +263,10 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
 
           <h2>A Safety Note on Tiki Torches</h2>
           <p>Because tiki torches keep coming up as a &ldquo;natural&rdquo; option, it is worth remembering they are an <strong>open flame sitting on top of a reservoir of flammable oil</strong>. Every summer, wind-blown flames and knocked-over torches cause deck fires and burns across Ontario. Keep torches well away from the house, railings, umbrellas, and overhanging branches; place them on stable, level ground away from foot traffic; never leave a lit torch unattended; and fully extinguish them before you go inside. Store citronella fuel out of reach of children and pets — concentrated citronella oil is toxic to cats and dogs if ingested. On a wooden deck, keep water or an extinguisher within reach.</p>
+          <p>If it is purely the look you are after, the flame is the part you can skip. Flameless solar and LED torches give the same flickering dusk glow on a stake, with no oil reservoir, nothing to extinguish before bed, and nothing a gust can tip over onto decking. They repel exactly as many mosquitoes as a lit oil torch &mdash; none &mdash; but they do it without the open flame. <BuyLink tag={AMZ_TAG} search="solar flickering flame torch lights">Check flameless solar torches on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>The Honest Verdict for Canadian Buyers</h2>
-          <p>Buy tiki torches because they look beautiful at dusk and set the mood on a patio — not because you expect them to keep mosquitoes away. A plain oil torch does nothing to the bugs, and even a citronella torch only helps whoever stands right beside the flame in still air, in a bubble a breeze will erase in seconds. If mosquitoes are genuinely ruining your evenings, the money is far better spent on a <Link href="/blog/thermacell-e90-canada-review">Thermacell</Link> for the deck, a skin repellent for when you are moving, and a <Link href="/mosquito-control">professional barrier spray</Link> for the whole property — then light the torches purely because you like them. For the full picture on the milder end of this category, our <Link href="/blog/citronella-candles-canada-do-they-work">citronella candles verdict</Link> gives the same honest, evidence-based breakdown for candles, coils, and sprays.</p>
+          <p>Buy tiki torches because they look beautiful at dusk and set the mood on a patio — not because you expect them to keep mosquitoes away. A plain oil torch does nothing to the bugs, and even a citronella torch only helps whoever stands right beside the flame in still air, in a bubble a breeze will erase in seconds. If mosquitoes are genuinely ruining your evenings, put the money toward a <Link href="/blog/thermacell-e90-canada-review">Thermacell</Link> for the deck, a skin repellent for when you are moving, and a <Link href="/mosquito-control">professional barrier spray</Link> for the whole property — then light the torches purely because you like them. For the full picture on the milder end of this category, our <Link href="/blog/citronella-candles-canada-do-they-work">citronella candles verdict</Link> gives the same honest, evidence-based breakdown for candles, coils, and sprays.</p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -292,7 +295,7 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Thermacell E90 (rechargeable)" search="thermacell e90 rechargeable" label="Better than torches" />
 
-      <CTASection heading="Torches for Ambiance · Barrier Spray for Actual Mosquitoes" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 21–30 day residual." variant="dark" />
+      <CTASection heading="Torches for Ambiance · Barrier Spray for Actual Mosquitoes" subtext="Get a free quote for licensed barrier spray. From $99. Rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

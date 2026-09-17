@@ -1,7 +1,10 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'lone-star-tick-alpha-gal-canada'
 const DATE = '2026-07-16'
@@ -47,7 +50,7 @@ const FAQS = [
   },
   {
     question: 'How do I avoid tick bites in Ontario to lower alpha-gal risk?',
-    answer: 'The same tick-bite prevention that lowers Lyme disease risk also lowers any alpha-gal risk: wear light-coloured long sleeves and pants tucked into socks in tick habitat, use a Health Canada-approved repellent such as DEET or icaridin, stay on cleared trails, and do a full-body tick check within a couple of hours of coming indoors. At home, keep grass mown, clear leaf litter, and maintain a barrier between lawn and wooded or tall-grass edges. Professional yard barrier spray targeting lawn edges and shaded perimeters reduces the tick population where bites actually happen. If you find a tick, remove it promptly with fine-tipped tweezers and submit a photo to eTick.ca.',
+    answer: 'The same tick-bite prevention that lowers Lyme disease risk also lowers any alpha-gal risk: wear light-coloured long sleeves and pants tucked into socks in tick habitat, use a repellent such as DEET or icaridin with a PCP registration number on the label, stay on cleared trails, and do a full-body tick check within a couple of hours of coming indoors. At home, keep grass mown, clear leaf litter, and maintain a barrier between lawn and wooded or tall-grass edges. Professional yard barrier spray targeting lawn edges and shaded perimeters reduces the tick population where bites actually happen. If you find a tick, remove it promptly with fine-tipped tweezers and submit a photo to eTick.ca.',
   },
   {
     question: 'What should I do if I think I found a lone star tick in Canada?',
@@ -62,6 +65,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
 })
+
+const AMZ_TAG = tagForSlug(SLUG)
 
 export default function LoneStarTickAlphaGalCanadaPage() {
   return (
@@ -203,7 +208,7 @@ export default function LoneStarTickAlphaGalCanadaPage() {
           <p>Whatever the tick species, the prevention playbook is the same, and it also happens to be your best defence against the far more common local threat — Lyme disease from blacklegged ticks.</p>
           <ol>
             <li><strong>Dress for it.</strong> In tick habitat, wear light-coloured long sleeves and long pants tucked into your socks so ticks are easier to spot and slower to reach skin.</li>
-            <li><strong>Use a repellent.</strong> Apply a Health Canada-approved repellent such as DEET or icaridin to exposed skin, following the label.</li>
+            <li><strong>Use a repellent.</strong> Apply a repellent such as DEET or icaridin, with a PCP registration number on the label, to exposed skin, following the label.</li>
             <li><strong>Stay on the trail.</strong> Ticks wait on tall grass and brush at trail edges — walking down the centre of cleared paths keeps you out of their reach.</li>
             <li><strong>Check within two hours.</strong> Do a full-body tick check (and check kids and pets) soon after coming indoors; a shower helps wash off unattached ticks.</li>
             <li><strong>Manage the yard.</strong> Keep grass mown, clear leaf litter, and maintain a barrier between lawn and any wooded or tall-grass edge — the transition zone where ticks concentrate.</li>
@@ -212,7 +217,7 @@ export default function LoneStarTickAlphaGalCanadaPage() {
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Cut the tick population where bites happen</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians treat lawn edges, fence lines, and shaded perimeters — the exact zones where ticks wait — with a Health Canada-registered residual acaricide. Serving 19 GTA cities with 150 five-star reviews.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians treat lawn edges, fence lines, and shaded perimeters — the exact zones where ticks wait — with a registered residual acaricide applied according to label directions. Serving 19 GTA cities with 150 five-star reviews.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/tick-control" className="btn-primary-sm">See Tick Control →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -221,6 +226,9 @@ export default function LoneStarTickAlphaGalCanadaPage() {
 
           <h2>The bottom line for Ontario residents</h2>
           <p>The lone star tick is the cause of alpha-gal syndrome, and alpha-gal syndrome is a genuine, sometimes serious red meat allergy. But the lone star tick is not established in Canada — only occasional individuals turn up, and there is no confirmed breeding population in Ontario as of 2026. Your realistic tick risk in the GTA is Lyme disease from the blacklegged tick, which is exactly why the prevention steps above are worth building into every warm-weather outing. Watch the lone star tick as a slow-moving, climate-linked story; act on the ticks Ontario already has.</p>
+
+          <AffiliateDisclosure />
+          <p className="not-prose text-gray-700 leading-relaxed">Whatever the species turns out to be, step six on that list is the one that decides how the bite goes, and it is far easier with a dedicated remover than with the blunt tweezers in most bathroom drawers. A fine-tipped tick tool grips the mouthparts right at skin level and lifts the tick straight out, so you are less likely to leave the head behind or squeeze the tick&rsquo;s gut contents into the wound &mdash; and the tick comes off intact enough to photograph for an eTick.ca submission, which is exactly what surveillance needs if it ever <em>is</em> a lone star. Worth keeping one by the back door and one in the hiking pack: <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>

@@ -93,7 +93,7 @@ const FAQS = [
   },
   {
     question: 'Does wasp spray really reach 27 feet?',
-    answer: 'Not in your backyard. Printed reach figures are measured under ideal conditions with a full, warm can fired horizontally in still air, so usable reach in a backyard lands well short of the number on the label &mdash; plan on roughly 30 to 40 percent short as a working margin. A can rated for 27 feet is realistically a 16 to 19 foot tool, and a cold can on an autumn evening does worse still because aerosol pressure falls with temperature. Buy for measured reach rather than the marketing number, treat the printed figure as a ceiling you will not hit, and remember the rule that outranks all of it: if you cannot hit the nest from the ground with distance to spare, it is a professional\'s nest, not a taller-ladder problem.',
+    answer: 'Not in your backyard. Printed reach figures are measured under ideal conditions with a full, warm can fired horizontally in still air, so usable reach in a backyard lands well short of the number on the label — plan on roughly 30 to 40 percent short as a working margin. A can rated for 27 feet is realistically a 16 to 19 foot tool, and a cold can on an autumn evening does worse still because aerosol pressure falls with temperature. Buy for measured reach rather than the marketing number, treat the printed figure as a ceiling you will not hit, and remember the rule that outranks all of it: if you cannot hit the nest from the ground with distance to spare, it is a professional\'s nest, not a taller-ladder problem.',
   },
   {
     question: 'Can you spray a wasp nest near an electrical meter or outdoor light?',

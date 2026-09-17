@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Markham Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    'Markham mosquito barrier spray from $99. Health Canada-approved, no contracts, Bite-Free Guarantee, plus how to compare Markham providers. (289) 216-5030.',
+    'Markham mosquito barrier spray from $99. Licensed Ontario operator, no contracts, rain-back guarantee, plus how to compare Markham providers. (289) 216-5030.',
   canonical: '/markham-mosquito-control',
 })
 
@@ -32,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'Who is the best mosquito control company in Markham?',
-    answer: 'Markham homeowners are usually choosing between a mosquito and tick specialist and a general pest or lawn-care company. BuzzSkito treats mosquitoes and ticks only, starts at $99 for a single treatment, holds 150+ five-star Google reviews (5.0 average, zero negatives), and backs every visit with the Bite-Free Guarantee — free re-treatment if pests return inside the protection window. Mosquito Man is a franchise pest-control operation covering many pest types, and LawnSavers sells mosquito service alongside its lawn-care programs. If you want specialist depth and no contract, call (289) 216-5030.',
+    answer: 'Markham homeowners are usually choosing between a mosquito and tick specialist and a general pest or lawn-care company. Whoever you call, ask the same five questions: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito treats mosquitoes and ticks only, and its answers are: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); a free re-treat if it rains within 1 hour, on every plan; Ontario Pesticide Operator Licence L-240-2436835197; and the Bite-Free Guarantee on Standard & Exclusive plans. It also holds 150+ five-star Google reviews (5.0 average). If you want specialist depth and no contract, call (289) 216-5030.',
   },
   {
     question: 'Do I have to sign a contract for mosquito control in Markham?',
@@ -84,10 +86,10 @@ export default function MarkhamMosquitoPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -104,6 +106,8 @@ export default function MarkhamMosquitoPage() {
       </section>
 
       
+      <TypicalPrices service="mosquito" city="Markham" />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -112,8 +116,8 @@ export default function MarkhamMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies barrier spray, according to label directions, to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `${PROMISES.rainBack} Standard and Exclusive plans also carry the Bite-Free Guarantee between scheduled visits.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -145,13 +149,14 @@ export default function MarkhamMosquitoPage() {
           <ul>
             <li><strong>Yard assessment</strong> — We identify creek proximity, tree canopy, standing water, and conditions specific to your Markham lot.</li>
             <li><strong>Vegetation barrier spray</strong> — Full treatment of shrubs, hedges, fence lines, ornamental grasses, and tree understorey.</li>
-            <li><strong>28-day residual protection</strong> — Health Canada–approved formula continues working between visits; safe for kids and pets after a 30-minute dry time.</li>
-            <li><strong>Seasonal program</strong> — Five applications May through September, timed to match Markham&apos;s Rouge River and creek-driven emergence patterns.</li>
+            <li><strong>Label-directed residual spray</strong> — {PROMISES.labelLine}, by an operator holding {PROMISES.licence}. Keep kids and pets off treated areas until the spray has dried, as the product label directs.</li>
+            <li><strong>Seasonal program</strong> — 5, 10 or 20+ applications May through September depending on your plan, timed to match Markham&apos;s Rouge River and creek-driven emergence patterns.</li>
           </ul>
 
           <h2>Also Providing Tick Control in Markham</h2>
-          <p>Markham&apos;s proximity to the Rouge National Urban Park and extensive forest edges along the Rouge River corridor create significant blacklegged tick exposure for homeowners in Cornell and Cathedraltown. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Markham tick spray service</Link> — combining both treatments gives your property complete year-round protection.</p>
+          <p>Markham&apos;s proximity to the Rouge National Urban Park and extensive forest edges along the Rouge River corridor create significant blacklegged tick exposure for homeowners in Cornell and Cathedraltown. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Markham tick spray service</Link> — combining both treatments covers mosquitoes and ticks on the same visit, and the tick season is $497 when added to any mosquito plan.</p>
 
+          <CityPriceCard city="Markham" service="mosquito" />
 
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
@@ -173,10 +178,10 @@ export default function MarkhamMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier on the leaves where mosquitoes rest, renewed on a set schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -185,8 +190,8 @@ export default function MarkhamMosquitoPage() {
           <h2>How to Choose a Mosquito Control Company in Markham</h2>
           <p>Plenty of companies will spray a Markham backyard. These are the checks that separate a professional barrier treatment from a quick pass with a fogger — use them on us as readily as on anyone else.</p>
           <ol>
-            <li><strong>Health Canada–approved product, applied under licence.</strong> Ontario requires a licensed pesticide applicator for any commercial application. Ask which product is going on your yard and who is holding the wand.</li>
-            <li><strong>A re-spray guarantee in writing.</strong> If rain arrives within an hour of application, the product has not cured. A reputable company re-treats at no charge — ours is the Bite-Free Guarantee.</li>
+            <li><strong>Product applied under licence, according to label directions.</strong> Ontario requires a licensed pesticide applicator for any commercial application. Ask which product is going on your yard and who is holding the wand. Ours: {PROMISES.licence}.</li>
+            <li><strong>A re-spray guarantee in writing.</strong> If rain arrives within an hour of application, the product has not cured. A reputable company re-treats at no charge — ours is the rain-back guarantee, on every plan (Standard and Exclusive plans also carry the Bite-Free Guarantee).</li>
             <li><strong>Pricing published before the sales call.</strong> You should be able to see a starting price without booking an in-home estimate first. Ours starts at $99 per treatment on a standard lot.</li>
             <li><strong>Reviews from Markham customers, not brand-wide totals.</strong> A franchise can carry a large national review count and still be new on your street. Filter for your own city before you judge.</li>
             <li><strong>Local knowledge of where the water is.</strong> Ask where the pressure on your street actually comes from. In Markham the honest answers are the Rouge River system, Milner Creek, Swan Lake, and Toogood Pond — a technician who cannot name the nearest one is guessing.</li>
@@ -231,6 +236,10 @@ export default function MarkhamMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Markham" service="mosquito" location="price_card_faq" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

@@ -131,6 +131,22 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
+
+          <div className="not-prose my-6 rounded-2xl border-2 border-emerald-200 bg-white p-6 sm:p-7 shadow-sm">
+            <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-1 leading-tight">What to do tonight</h2>
+            <p className="text-sm text-gray-600 mb-4 leading-relaxed">Three moves tonight. The first is free and does the most.</p>
+            <ol className="space-y-4 text-[15px] leading-relaxed text-gray-800">
+              <li>
+                <strong className="text-brand-900">1. Take away the damp you can reach for nothing.</strong> Run the bathroom fan during every shower and twenty minutes after it, pull stored cardboard off the basement floor, and pour a jug of water down any floor drain nobody has used in months &mdash; a dried-out trap is an open door.
+              </li>
+              <li>
+                <strong className="text-brand-900">2. Two hygrometers &mdash; you cannot manage humidity you are not measuring.</strong> <BuyLink tag={AMZ_TAG} search="digital hygrometer indoor humidity monitor">Check price on Amazon.ca →</BuyLink> Put one in the middle of the basement and one in the worst bathroom, and read them tomorrow. Centipedes need damp harbourage, so this is the number that decides whether you need a dehumidifier at all, what size, and whether the one you already own is actually holding target &mdash; a dehumidifier reports the air at its own intake, which flatters it. Corrugated cardboard sitting on cool concrete is the best harbourage most Canadian basements have, which is why step 1 moves it before you measure.
+              </li>
+              <li>
+                <strong className="text-brand-900">3. Glue boards along the wall-floor junction for one week.</strong> Centipedes patrol those edges, so boards catch them &mdash; but the catch that matters is everything else on the board. Silverfish, roach nymphs, ants, drain flies, carpet-beetle larvae: that is the prey population feeding your centipedes, and it tells you which guide to read next. A week of boards is worth more than a month of guessing. <BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack">Check price on Amazon.ca →</BuyLink>
+              </li>
+            </ol>
+          </div>
           <div className="not-prose rounded-xl border-l-4 border-emerald-500 bg-emerald-50/60 p-5 mb-6">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Already decided to buy something?</p>
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -443,7 +459,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
       <CTASection
         variant="light"
         heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="Centipedes we research; mosquitoes and ticks we treat. If your yard in the GTA is unusable in summer, we spray it — 150 five-star reviews and a free re-spray guarantee."
+        subtext="Centipedes we research; mosquitoes and ticks we treat. If your yard in the GTA is unusable in summer, we spray it — 150+ five-star reviews and a rain-back guarantee on every plan."
       />
     </>
   )

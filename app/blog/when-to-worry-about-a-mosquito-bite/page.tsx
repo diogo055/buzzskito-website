@@ -208,7 +208,7 @@ export default function WhenToWorryMosquitoBitePage() {
 
           <h2>How to keep a normal bite from becoming a problem</h2>
           <p>Prevention of the two real risks &mdash; infection and disease &mdash; comes down to not scratching and not getting bitten in the first place. Keep bites clean with soap and water, cool the itch with a cold compress, keep fingernails short, and cover a bite you cannot stop scratching. Avoid squeezing or popping a swollen bite, which just pushes bacteria in.</p>
-          <p>Reducing bites overall is the upstream fix. Wear a Health Canada-approved repellent (DEET or icaridin), remove standing water where mosquitoes breed, and cut mosquito pressure around your yard. A professional <Link href="/mosquito-control">barrier spray</Link> treats the vegetation where mosquitoes rest and can meaningfully lower how many bites your family gets in the first place &mdash; BuzzSkito&rsquo;s treatments start from $99. Fewer bites means fewer chances for the small number that go wrong.</p>
+          <p>Reducing bites overall is the upstream fix. Wear a repellent with DEET or icaridin (look for the PCP registration number on the label), remove standing water where mosquitoes breed, and deal with the mosquitoes resting around your yard. A professional <Link href="/mosquito-control">barrier spray</Link> treats the vegetation where mosquitoes rest &mdash; BuzzSkito&rsquo;s treatments start from $99. Fewer bites means fewer chances for the small number that go wrong.</p>
 
           <div className="not-prose my-8 rounded-xl border-l-4 border-gray-300 bg-gray-50 p-5">
             <p className="text-sm text-gray-600 leading-relaxed"><strong className="text-gray-800">This is general information, not medical advice.</strong> It cannot diagnose your bite or replace an assessment by a qualified professional. If you are worried about a bite or your symptoms, contact a healthcare provider, call Health Connect Ontario (811), or in an emergency call 911. Sources referenced include the Public Health Agency of Canada (PHAC), Health Canada, Public Health Ontario, and the U.S. Centers for Disease Control and Prevention (CDC).</p>
@@ -237,7 +237,7 @@ export default function WhenToWorryMosquitoBitePage() {
         </div>
       </article>
 
-      <CTASection heading="Fewer bites, fewer worries" subtext="Cut mosquito pressure around your yard with licensed barrier spray. From $99. Serving 19 GTA cities with 150 five-star reviews." variant="dark" />
+      <CTASection heading="Worried about bites? Start with the yard" subtext="Licensed barrier spray for the shaded spots where mosquitoes rest. From $99. Serving 19 GTA cities with 150+ five-star Google reviews." variant="dark" />
     </>
   )
 }

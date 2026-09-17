@@ -60,17 +60,31 @@ export default function StickyRiskCTA() {
   // Restore dismissed state per session (sessionStorage)
   useEffect(() => {
     if (typeof window === 'undefined') return
-    setDismissed(sessionStorage.getItem('risk-cta-dismissed') === '1')
+    try {
+      setDismissed(sessionStorage.getItem('risk-cta-dismissed') === '1')
+    } catch {
+      // storage blocked (private mode): treat as not dismissed
+    }
   }, [pathname])
+
+  const rememberDismissed = () => {
+    try {
+      sessionStorage.setItem('risk-cta-dismissed', '1')
+    } catch {
+      /* ignore */
+    }
+  }
 
   if (!shouldShow || dismissed || !scrolledPast) return null
 
+  // Desktop and tablet only (hidden below sm). On phones the bottom of the screen belongs to the sticky
+  // Call / Text / Get price bar, and a second floating card stacked over it covered the page and the bar.
   return (
-    <div className="fixed bottom-16 sm:bottom-4 inset-x-3 sm:inset-x-auto sm:right-4 sm:left-auto z-40 max-w-md sm:max-w-sm">
+    <div className="hidden sm:block fixed bottom-4 right-4 z-40 max-w-sm">
       <div className="bg-gradient-to-br from-brand-900 via-brand-950 to-emerald-900 text-white rounded-2xl shadow-2xl border border-amber-400/30 p-4 sm:p-5">
         <button
           aria-label="Dismiss"
-          onClick={() => { setDismissed(true); sessionStorage.setItem('risk-cta-dismissed', '1') }}
+          onClick={() => { setDismissed(true); rememberDismissed() }}
           className="absolute top-2 right-2 text-brand-300 hover:text-white text-xl leading-none w-7 h-7 flex items-center justify-center rounded-full hover:bg-brand-800/50"
         >
           ×
@@ -81,11 +95,11 @@ export default function StickyRiskCTA() {
         <Link
           href="/yard-risk-report"
           className="block w-full bg-amber-500 hover:bg-amber-400 text-white text-center font-extrabold px-4 py-2.5 rounded-full text-sm transition-colors shadow-lg"
-          onClick={() => { sessionStorage.setItem('risk-cta-dismissed', '1') }}
+          onClick={rememberDismissed}
         >
           Get My Free Score →
         </Link>
-        <p className="text-[10px] text-brand-300 mt-2 text-center">🔒 No credit card · 150+ five-star reviews</p>
+        <p className="text-[10px] text-brand-300 mt-2 text-center">🔒 No credit card · 150+ five-star Google reviews</p>
       </div>
     </div>
   )

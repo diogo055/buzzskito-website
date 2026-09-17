@@ -98,7 +98,7 @@ export default function MosquitoTrapRunningCostCanadaPage() {
               <li>A 20-watt trap running non-stop May–September uses roughly 73 kWh. Electricity is never the expensive part.</li>
               <li>Refilling a propane cylinder beats exchanging it: exchange cages typically fill to about 15 lb, not 20.</li>
               <li>First-season all-in: about $700–$1,700 propane, $440–$915 lure trap, $120–$455 hybrid.</li>
-              <li>For comparison, a licensed barrier spray is from $99 for a single treatment, $549 or $994 for a full season program — and it is the only option here that also touches ticks.</li>
+              <li>For comparison, a licensed barrier spray is from $99 for a single treatment, $549 or $994 for a full season program — and it is the only option here that can also cover ticks, as an add-on ($497/season with a mosquito plan).</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150 five-star Google reviews</p>
           </div>
@@ -302,7 +302,7 @@ export default function MosquitoTrapRunningCostCanadaPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">One season of propane costs more than a season of spraying.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A propane trap eats $350–$550 a year in tanks and cartridges and works over weeks. BuzzSkito’s licensed barrier spray covers the whole yard within hours and holds 21–30 days — from $99 for a single treatment, $549 for the Basic Season, $994 for 10 bi-weekly treatments. Tick protection is $597/season standalone or $497 bundled, which is five tick sprays no trap of any price can replace. Serving 19+ GTA cities, May–September.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A propane trap eats $350–$550 a year in tanks and cartridges and works over weeks. BuzzSkito’s licensed barrier spray treats the whole yard in one visit, with the residual renewed on a schedule — from $99 for a single treatment, $549 for the Basic Season, $994 for 10 bi-weekly treatments. Tick protection is $597/season standalone or $497 bundled, which is five tick sprays no trap of any price can replace. Serving 19+ GTA cities, May–September.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -311,7 +311,7 @@ export default function MosquitoTrapRunningCostCanadaPage() {
 
           <h2>Break-even: when does a trap pay for itself?</h2>
           <p>Run the numbers over more than one summer and the picture shifts, which is the fair thing to say. Year one on a propane trap is $750 to $1,700 all-in. Year two is only the consumables, so $350 to $550. A lure trap goes from $440–$915 down to $80–$200. Against a $994 Standard Season program, a lure trap crosses over sometime in year two or three, and a propane trap on a big rural property gets there eventually too.</p>
-          <p>Two things keep that from being the whole story. The first is that a trap and a barrier treatment are not doing the same job — one thins a population over weeks in the zone around itself, the other clears a defined yard within hours and holds for a month. The second is ticks. No mosquito trap ever built intercepts a tick, because ticks do not fly to a CO2 plume; they climb vegetation and wait. If your property has a wood line, a long-grass edge or a ravine behind it, the trap budget does nothing about the actual health risk, and that gap does not close in year five.</p>
+          <p>Two things keep that from being the whole story. The first is that a trap and a barrier treatment are not doing the same job — one thins a population over weeks in the zone around itself, the other treats a defined yard in one visit and renews its residual on a schedule. The second is ticks. No mosquito trap ever built intercepts a tick, because ticks do not fly to a CO2 plume; they climb vegetation and wait. If your property has a wood line, a long-grass edge or a ravine behind it, the trap budget does nothing about the actual health risk, and that gap does not close in year five.</p>
 
           <h2>Winter: the cost you can avoid entirely</h2>
           <p>Everything on this page assumes the machine survives to next May, and in Ontario that is a choice rather than a given. Disconnect the propane cylinder and store it outdoors and upright — never in a basement, garage or shed. Empty and dry the catch net so it does not mildew into the bin. Bring the machine and any lure cartridges indoors, because cartridge shelf life is real and a winter in an unheated garage is not kind to it. Pull the outdoor cord and cover in before freeze-up so the connectors are not iced into the lawn in April.</p>

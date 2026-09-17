@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { BUSINESS } from '@/lib/constants'
+import { BUSINESS, PROMISES } from '@/lib/constants'
 
 // Above-the-fold quote CTA designed to sit right after the blog post hero.
 // Different from InlineYardRiskCTA (which routes to the risk score tool —
@@ -17,6 +17,10 @@ export default function BlogPostCTA() {
       <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
         {/* Left: Hook + trust */}
         <div className="flex-1 min-w-0">
+          {/* Trust line uses only owner-confirmed wording: the "As Featured in" press line is owner-confirmed
+              (Toronto Star, CityNews and TorontoToday coverage, May 2026), the 24-hour quote promise became
+              PROMISES.response, and "Health Canada-approved" is barred by the pesticide advertising rules
+              (DIR2016-01), so the licence stands in its place. */}
           <p className="text-[11px] sm:text-xs font-extrabold text-amber-700 uppercase tracking-widest mb-1.5">
             ★ As Featured in Toronto Star · CityNews · TorontoToday
           </p>
@@ -24,12 +28,12 @@ export default function BlogPostCTA() {
             Want this problem solved at YOUR address?
           </h3>
           <p className="text-sm text-gray-700 leading-snug">
-            Free custom quote in under 24 hours · No contracts · 150+ five-star reviews · Health Canada-approved
+            Free custom quote. {PROMISES.response} No contracts · 150+ five-star Google reviews · Ontario-licensed operator
           </p>
         </div>
 
         {/* Right: CTAs stacked on mobile, side-by-side on desktop */}
-        <div className="flex flex-col sm:flex-row gap-2.5 sm:items-center shrink-0">
+        <div data-lead-location="blog_post_cta" className="flex flex-col sm:flex-row gap-2.5 sm:items-center shrink-0">
           <Link
             href="/free-yard-assessment"
             className="inline-flex items-center justify-center bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-6 py-3 rounded-full text-sm sm:text-base shadow-lg transition-colors text-center"

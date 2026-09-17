@@ -3,8 +3,10 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, itemListSchema } from '@/lib/seo'
-import { BUSINESS } from '@/lib/constants'
+import { BUSINESS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Best Mosquito Control Vaughan 2026',
@@ -16,11 +18,11 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Vaughan?',
-    answer: 'BuzzSkito offers the lowest starting price in Vaughan ($99/treatment), no contracts, and a perfect 5.0 rating across 150+ Google reviews. Mosquito Man has more cumulative reviews (900+) but operates on seasonal contracts. LawnSavers is best for existing lawn-care customers wanting a bundled add-on. The right choice depends on whether you prioritize price, flexibility, or bundled services.',
+    answer: `BuzzSkito offers a starting price in Vaughan of $99/treatment, no contracts, and a perfect 5.0 rating across 150+ Google reviews. Mosquito Man has more cumulative reviews but operates on seasonal contracts. LawnSavers is best for existing lawn-care customers wanting a bundled add-on. The right choice depends on whether you prioritize price, flexibility, or bundled services. Whichever you consider, ask any provider five questions before you book: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays (tick: 5); a free re-treat if it rains within 1 hour of a treatment, on every plan; Licence ${BUSINESS.licenseNumber}; and the Bite-Free Guarantee on Standard & Exclusive plans.`,
   },
   {
     question: 'How much does mosquito control cost in Vaughan in 2026?',
-    answer: 'Single treatments in Vaughan range from $99 (BuzzSkito) to $129+ (LawnSavers) per visit. Seasonal programs are custom-quoted by all major providers based on property size and treatment frequency. Vaughan estate properties in Kleinburg, the Bridle Path-adjacent areas, and large Woodbridge lots tend to price higher due to coverage area.',
+    answer: 'BuzzSkito single treatments in Vaughan start at $99 on a standard lot under 10,000 sq ft, and season plans are $549 (5 sprays), $994 (10 sprays) or $2,049 (20+ sprays), plus HST. Other providers, including LawnSavers, price differently (pricing varies — check their site), so ask for a written price before you book. Vaughan estate properties in Kleinburg, the Bridle Path-adjacent areas, and large Woodbridge lots tend to price higher due to coverage area.',
   },
   {
     question: 'Which Vaughan neighbourhoods need the most mosquito control?',
@@ -28,11 +30,11 @@ const FAQS = [
   },
   {
     question: 'Do Vaughan mosquito control companies handle ticks too?',
-    answer: 'Most do. Vaughan tick risk is significant — Kleinburg, Woodbridge, and Maple all sit near established blacklegged tick populations. BuzzSkito offers tick standalone at seasonal pricing on quote (5 sprays) or tick add-on bundle available on quotes. Always confirm your provider tests for tick coverage in your specific neighbourhood.',
+    answer: 'Most do. Vaughan tick risk is significant — Kleinburg, Woodbridge, and Maple all sit near established blacklegged tick populations. BuzzSkito tick control is 5 sprays per season: $597 on its own or $497 with any mosquito plan. Always confirm your provider tests for tick coverage in your specific neighbourhood.',
   },
   {
     question: 'Do any Vaughan mosquito control companies offer no-contract service?',
-    answer: 'BuzzSkito is the primary no-contract option in Vaughan. Most other providers require seasonal commitments with cancellation penalties. Test a single $99 treatment with BuzzSkito before committing to anything longer.',
+    answer: 'BuzzSkito is the primary no-contract option in Vaughan. Most other providers require seasonal commitments with cancellation penalties, so confirm renewal and cancellation terms before you book. Test a single $99 treatment (standard lot, plus HST) with BuzzSkito before committing to anything longer.',
   },
 ]
 
@@ -51,7 +53,7 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
           { label: 'Best Companies Vaughan' },
         ]}
         title={<>Best Mosquito Control Companies in Vaughan — 2026</>}
-        subtitle={<>Honest 2026 comparison of Vaughan mosquito control providers — Woodbridge, Kleinburg, Maple, Thornhill, Concord. Pricing, reviews, and what each company actually offers.</>}
+        subtitle={<>Honest 2026 comparison of Vaughan mosquito control providers — Woodbridge, Kleinburg, Maple, Thornhill, Concord. Pricing, reviews, and what each company actually offers. BuzzSkito is a licensed Ontario pesticide operator, with treatments applied according to label directions.</>}
         image="/spray-pool.webp"
         imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
       />
@@ -67,14 +69,16 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
 
       <QuickAnswer question="Who is the best mosquito control company in Vaughan?">
         <p>
-          <strong>BuzzSkito is the best mosquito control company in Vaughan for 2026, with the lowest starting price ($99/treatment), no contracts, and a perfect 5.0 rating across 150+ Google reviews.</strong> This comparison ranks 4 providers serving Vaughan — BuzzSkito, Mosquito Man, Mosquito.Buzz, and LawnSavers — on pricing, reviews, contracts, and coverage.
+          <strong>BuzzSkito is the best mosquito control company in Vaughan for 2026, with a starting price of $99/treatment, no contracts, and a perfect 5.0 rating across 150+ Google reviews.</strong> This comparison ranks 4 providers serving Vaughan — BuzzSkito, Mosquito Man, Mosquito.Buzz, and LawnSavers — on pricing, reviews, contracts, and coverage. Whichever you choose, ask about price, sprays per season, rain, licensing ({PROMISES.licence} for BuzzSkito), and which plans carry a guarantee.
         </p>
       </QuickAnswer>
+
+      <TypicalPrices service="mosquito" city="Vaughan" />
 
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Vaughan Mosquito Control Companies — Compared</h2>
-          <p>Vaughan homeowners — particularly those in Woodbridge, Kleinburg, Maple, Thornhill, and Concord — have several professional mosquito control options. Here is an honest comparison based on publicly available pricing, Google reviews, and Vaughan service offerings as of July 2026.</p>
+          <p>Vaughan homeowners — particularly those in Woodbridge, Kleinburg, Maple, Thornhill, and Concord — have several professional mosquito control options. Here is an honest comparison based on publicly available information and Vaughan service offerings as of July 2026.</p>
 
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
@@ -90,9 +94,9 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
               <tbody>
                 {[
                   { company: 'BuzzSkito', price: 'From $99', reviews: '150+ (5.0★)', contracts: 'No contracts', area: 'All Vaughan' },
-                  { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Vaughan' },
+                  { company: 'Mosquito Man', price: 'Quote-based', reviews: 'See Google', contracts: 'Seasonal', area: 'All Vaughan' },
                   { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies', contracts: 'Seasonal', area: 'Franchise' },
-                  { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Vaughan' },
+                  { company: 'LawnSavers', price: 'Varies — check their site', reviews: 'See Google', contracts: 'Seasonal', area: 'Vaughan' },
                 ].map(({ company, price, reviews, contracts, area }) => (
                   <tr key={company} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-3 font-semibold text-brand-800">{company}</td>
@@ -105,23 +109,53 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose mb-8">Pricing reflects publicly available rates as of July 2026. Vaughan estate properties (large Kleinburg lots) often price above the base rate.</p>
+          <p className="text-sm text-gray-500 not-prose mb-8">Other companies&rsquo; pricing and Google reviews change over time, so check each company&rsquo;s own site and Google listing for current details.</p>
+
+          <h2>What to Ask Any Mosquito Control Company in Vaughan</h2>
+          <p>Whichever company you consider, here are the questions worth asking any provider before you book, with BuzzSkito&rsquo;s answers.</p>
+
+          <div className="not-prose overflow-x-auto my-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-3 text-left">Ask this</th>
+                  <th className="px-4 py-3 text-left">BuzzSkito&rsquo;s answer</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { q: 'Is the price shown before you book?', a: 'From $99 on a standard lot' },
+                  { q: 'How many sprays per season?', a: '5, 10 or 20+ (tick: 5)' },
+                  { q: 'What happens if it rains after a treatment?', a: PROMISES.rainBack },
+                  { q: 'Is an Ontario pesticide operator licence number shown?', a: `Yes: ${BUSINESS.licenseNumber}` },
+                  { q: 'Which plans include a guarantee?', a: 'Rain-back on every plan; Bite-Free on Standard & Exclusive' },
+                ].map(({ q, a }) => (
+                  <tr key={q} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-3 font-semibold text-brand-800">{q}</td>
+                    <td className="px-4 py-3 text-gray-700">{a}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500 not-prose mb-8">BuzzSkito prices are for a standard lot under 10,000 sq ft, plus HST. Vaughan estate properties (large Kleinburg lots) often price above the base rate.</p>
 
           <h2>1. BuzzSkito (Vaughan coverage: full)</h2>
           <p><Link href="/vaughan-mosquito-control" className="text-brand-700 hover:underline">BuzzSkito serves all Vaughan</Link> — Woodbridge, Kleinburg, Maple, Thornhill, Concord, Patterson, Vellore Village, Sonoma Heights, and Islington Woods.</p>
           <ul>
-            <li><strong>Pricing:</strong> From $99 per single treatment. Seasonal programs (5, 10, 20+ treatments) custom-quoted on request.</li>
+            <li><strong>Pricing:</strong> From $99 per single treatment. Season plans on a standard lot: Basic $549 (5 sprays), Standard $994 (10 sprays, most popular), Exclusive $2,049 (20+ sprays), plus HST.</li>
             <li><strong>Reviews:</strong> 150+ Google reviews, perfect 5.0-star rating.</li>
             <li><strong>Contracts:</strong> No contracts, no cancellation fees.</li>
-            <li><strong>Tick add-on:</strong> Critical for Vaughan estate properties — $597 standalone or $497 bundled (save $100). Kleinburg and Woodbridge see significant tick pressure.</li>
+            <li><strong>Guarantees:</strong> {PROMISES.rainBackShort}; {PROMISES.biteFreeScope}.</li>
+            <li><strong>Tick add-on:</strong> Critical for Vaughan estate properties — $597 standalone or $497 bundled (save $100), 5 sprays per season. Kleinburg and Woodbridge see significant tick pressure.</li>
             <li><strong>Estate-property friendly:</strong> Pricing scales for large Kleinburg and Maple lots.</li>
           </ul>
 
           <h2>2. Mosquito Man (Vaughan coverage: full)</h2>
-          <p>Long-running GTA mosquito control company with the highest review volume in the market.</p>
+          <p>Long-running GTA mosquito control company with a large review volume.</p>
           <ul>
-            <li><strong>Pricing:</strong> Seasonal programs around $450. Per-treatment rates not publicly published.</li>
-            <li><strong>Reviews:</strong> 900+ Google reviews across the GTA.</li>
+            <li><strong>Pricing:</strong> Seasonal programs; pricing varies — check their site. Per-treatment rates not publicly published.</li>
+            <li><strong>Reviews:</strong> Google reviews across the GTA — see Google for the current count.</li>
             <li><strong>Contracts:</strong> Seasonal program model.</li>
             <li><strong>Vaughan service:</strong> Established customer base. No published Vaughan-specific pricing.</li>
           </ul>
@@ -129,29 +163,39 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
           <h2>3. Mosquito.Buzz (Vaughan coverage: franchise)</h2>
           <p>National Canadian franchise — Vaughan service depends on franchisee availability.</p>
           <ul>
-            <li><strong>Pricing:</strong> Quote-based, no published rates.</li>
+            <li><strong>Pricing:</strong> Quote-based; pricing varies — check their site.</li>
             <li><strong>Reviews:</strong> Varies by franchisee.</li>
             <li><strong>Contracts:</strong> Seasonal commitment standard.</li>
+            <li><strong>Licensing:</strong> Ask for the local business&rsquo;s Ontario pesticide operator licence number.</li>
             <li><strong>Best for:</strong> Customers comfortable with franchise consistency variance.</li>
           </ul>
 
           <h2>4. LawnSavers (Vaughan coverage: limited)</h2>
           <p>Lawn care company offering mosquito control as an add-on.</p>
           <ul>
-            <li><strong>Pricing:</strong> From $129/treatment. Bundle pricing for existing lawn customers.</li>
-            <li><strong>Reviews:</strong> 500+ Google reviews across all services combined.</li>
+            <li><strong>Pricing:</strong> Pricing varies — check their site. Bundle pricing for existing lawn customers.</li>
+            <li><strong>Reviews:</strong> Google reviews across all services combined — see Google for the current count.</li>
             <li><strong>Best for:</strong> Vaughan homeowners already using LawnSavers wanting bundled service.</li>
           </ul>
 
+        </div>
+      </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Vaughan" service="mosquito" location="price_card_mid" />
+      </div>
+
+      <section className="pb-14 px-4 bg-white">
+        <div className="max-w-4xl mx-auto prose-brand">
           <h2>What to Verify Before Booking in Vaughan</h2>
           <div className="not-prose grid sm:grid-cols-2 gap-4 mb-8">
             {[
               { title: 'Licensed Applicator', desc: 'Ontario Pesticide Applicator\'s Licence is mandatory. Ask to see it.' },
-              { title: 'Health Canada PCP Registration', desc: 'Every product needs a valid PCP number — confirm before booking.' },
+              { title: 'PCP Registration Number', desc: 'Every product needs a valid PCP number on its label — confirm before booking.' },
               { title: 'Vaughan Coverage Confirmation', desc: 'Confirm they actually service Kleinburg, Maple, Thornhill (or wherever you are) — some "GTA" providers limit Vaughan service.' },
               { title: 'Estate Property Pricing', desc: 'For large Kleinburg or Bridle Path-adjacent lots, confirm pricing tier upfront.' },
               { title: 'Tick Bundle Available', desc: 'Vaughan tick risk is real — bundled tick coverage saves money vs. separate provider.' },
-              { title: 'Re-Treatment Guarantee', desc: 'Free re-spray if mosquitoes return within the protection window.' },
+              { title: 'Re-Treatment Guarantee', desc: 'Ask what happens if rain washes off a treatment or mosquitoes return between visits, and which plans that covers.' },
             ].map(({ title, desc }) => (
               <div key={title} className="bg-brand-50 rounded-xl p-5 border border-brand-100">
                 <h3 className="font-bold text-brand-900 mb-2">{title}</h3>
@@ -160,7 +204,7 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
             ))}
           </div>
 
-          <h2>Try BuzzSkito Risk-Free</h2>
+          <h2>Try BuzzSkito with One Treatment</h2>
           <p>Vaughan homeowners can book a single $99 treatment with BuzzSkito — no contract, no commitment. See the results before deciding on a seasonal plan.</p>
           <p>Call <a href={BUSINESS.phoneHref} className="text-brand-700 hover:underline">{BUSINESS.phone}</a> or use our <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">contact form</Link>.</p>
 
@@ -174,6 +218,10 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
           </ul>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Vaughan" service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
@@ -192,7 +240,7 @@ export default function BestMosquitoControlCompaniesVaughanPage() {
         </div>
       </section>
 
-      <CTASection heading="Bug-Free Vaughan Backyard, Starting at $99" subtext="No contracts. No upsells. Same-week service across Woodbridge, Kleinburg, Maple & Thornhill." variant="dark" />
+      <CTASection heading="Vaughan Mosquito Control, Starting at $99" subtext="No contracts. No upsells. Same-week service across Woodbridge, Kleinburg, Maple & Thornhill." variant="dark" />
     </>
   )
 }

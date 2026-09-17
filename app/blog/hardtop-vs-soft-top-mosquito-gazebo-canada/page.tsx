@@ -122,7 +122,7 @@ export default function HardtopVsSoftTopMosquitoGazeboCanadaPage() {
               {
                 badge: 'Best Value',
                 name: 'Soft-top gazebo with zip-around mosquito netting, 10x12',
-                why: 'A steel or aluminium frame with a fabric canopy and full zip-around mesh. It is up in an afternoon, one person can move it, and it seals a patio table exactly as well as a hardtop does &mdash; because the mesh is doing all the work. The catch is entirely seasonal: the canopy comes off before the snow.',
+                why: 'A steel or aluminium frame with a fabric canopy and full zip-around mesh. It is up in an afternoon, one person can move it, and it seals a patio table exactly as well as a hardtop does — because the mesh is doing all the work. The catch is entirely seasonal: the canopy comes off before the snow.',
                 search: 'soft top gazebo with mosquito netting 10x12',
                 pros: ['A fraction of the hardtop price', 'Afternoon assembly, movable', 'Same mesh performance'],
                 cons: ['Canopy must come down each fall', 'UV shortens fabric life', 'Flexes more in wind'],
@@ -154,7 +154,7 @@ export default function HardtopVsSoftTopMosquitoGazeboCanadaPage() {
               {
                 badge: 'Best Off-Season Buy',
                 name: 'Gazebo winter cover',
-                why: 'For a hardtop frame that stays assembled once the curtains come down, a fitted winter cover keeps ice and grit out of the tracks and off the powder coat. For a soft-top, the equivalent job is simply storing the canopy and mesh dry and indoors &mdash; which costs nothing and buys seasons.',
+                why: 'For a hardtop frame that stays assembled once the curtains come down, a fitted winter cover keeps ice and grit out of the tracks and off the powder coat. For a soft-top, the equivalent job is simply storing the canopy and mesh dry and indoors — which costs nothing and buys seasons.',
                 search: 'gazebo winter cover 10x12',
                 pros: ['Protects tracks, hardware and finish', 'Cheap relative to replacement parts'],
                 cons: ['Must be vented or it traps moisture', 'Sizing has to match the frame, not the roof'],

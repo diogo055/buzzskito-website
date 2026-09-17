@@ -19,7 +19,7 @@ const UPDATED = '2026-07-30'
 // BIOFILM intent — a plumbing-surface problem, not a food problem — and the
 // drain-fly vs fruit-fly vs fungus-gnat vs phorid identification fork.
 const TITLE = 'How to Get Rid of Drain Flies in Canada — The Biofilm Is the Problem, Not the Drain'
-const META_TITLE = 'Get Rid of Drain Flies: Clean the Biofilm'
+const META_TITLE = 'Get Rid of Drain Flies Canada: Clean the Biofilm'
 
 const FAQS = [
   {

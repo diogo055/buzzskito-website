@@ -35,7 +35,7 @@ const FAQS = [
   },
   {
     question: 'How do you prevent West Nile virus?',
-    answer: 'There is no human vaccine for West Nile virus, so prevention means avoiding mosquito bites. Empty and scrub any container holding stagnant water at least weekly, clean clogged gutters, and treat water you cannot drain with a BTI larvicide. Wear long sleeves and use a Health Canada-approved repellent containing DEET or icaridin, especially at dusk and dawn when Culex mosquitoes feed. Repair window and door screens. A professional barrier spray reduces the resting adult mosquito population on your property through the peak August risk window.',
+    answer: 'There is no human vaccine for West Nile virus, so prevention means avoiding mosquito bites. Empty and scrub any container holding stagnant water at least weekly, clean clogged gutters, and treat water you cannot drain with a BTI larvicide. Wear long sleeves and use a repellent containing DEET or icaridin (look for the PCP registration number on the label), especially at dusk and dawn when Culex mosquitoes feed. Repair window and door screens. A professional barrier spray can add a layer by treating the vegetation where adult mosquitoes rest on your property, but it does not replace these steps.',
   },
   {
     question: 'How many West Nile cases are there in Toronto this year?',
@@ -47,7 +47,7 @@ const FAQS = [
   },
   {
     question: 'Does mosquito spraying help with West Nile virus?',
-    answer: 'Yes, as part of a layered approach. Municipal programs larvicide storm catch basins, which is where Culex mosquitoes breed heavily in urban Toronto. On a residential property, a barrier spray applied to shrubs, hedges, fence lines, and shaded vegetation kills adult mosquitoes resting there during the day and suppresses the population for up to 30 days. Combined with eliminating stagnant water and using repellent at dusk, it meaningfully reduces bite exposure during the August peak. BuzzSkito treats yards across Toronto and the GTA from $99.',
+    answer: 'Spraying is a mosquito control tool, not a West Nile prevention measure on its own. Municipal programs larvicide storm catch basins, which is where Culex mosquitoes breed heavily in urban Toronto. On a residential property, a barrier spray applied to shrubs, hedges, fence lines, and shaded vegetation acts on adult mosquitoes resting there during the day and leaves a temporary residual that wears down over the following weeks. It belongs alongside eliminating stagnant water and using repellent at dusk, not in place of them. BuzzSkito treats yards across Toronto and the GTA from $99.',
   },
 ]
 
@@ -89,7 +89,7 @@ export default function WestNileTorontoPage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-base text-gray-800 leading-relaxed">
-              <strong>Yes. West Nile virus has circulated in Toronto every summer since 2001, and human risk peaks in August and early September.</strong> It is spread by <em>Culex</em> mosquitoes, which bite at dusk, night, and dawn and breed in stagnant, organically rich water &mdash; storm catch basins, clogged gutters, old tires, and neglected containers &mdash; not in clean rain puddles. About <strong>80% of infected people have no symptoms</strong>, roughly 20% develop West Nile fever, and fewer than 1% develop serious neuroinvasive disease, with adults over 50 at highest risk. There is no human vaccine, so prevention is bite avoidance: eliminate stagnant water weekly, use a DEET or icaridin repellent at dusk, and reduce the adult mosquito population resting on your property. BuzzSkito treats Toronto and GTA yards with barrier spray from $99.
+              <strong>Yes. West Nile virus has circulated in Toronto every summer since 2001, and human risk peaks in August and early September.</strong> It is spread by <em>Culex</em> mosquitoes, which bite at dusk, night, and dawn and breed in stagnant, organically rich water &mdash; storm catch basins, clogged gutters, old tires, and neglected containers &mdash; not in clean rain puddles. About <strong>80% of infected people have no symptoms</strong>, roughly 20% develop West Nile fever, and fewer than 1% develop serious neuroinvasive disease, with adults over 50 at highest risk. There is no human vaccine, so prevention is bite avoidance: eliminate stagnant water weekly and use a DEET or icaridin repellent at dusk. A barrier spray on the vegetation where adult mosquitoes rest can add a layer alongside those steps, not in place of them; BuzzSkito treats Toronto and GTA yards from $99.
             </p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>West Nile virus has circulated in Toronto every summer since 2001; human risk peaks in August and early September.</li>
@@ -159,8 +159,8 @@ export default function WestNileTorontoPage() {
           <p>This changes your priorities. Dumping the clean puddle on the patio does little. <strong>Scrubbing out the gutter and the old bucket behind the shed does a lot.</strong></p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Cut the adult mosquito population before the August peak</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Barrier spray targets the shaded shrubs, hedges, and fence lines where adult mosquitoes rest during the day &mdash; suppressing the population for up to 30 days through peak West Nile season. Health Canada-approved, safe for kids and pets in 30 minutes. BuzzSkito treats Toronto and the GTA from $99.</p>
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Treat where adult mosquitoes rest before the August peak</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Barrier spray targets the shaded shrubs, hedges, and fence lines where adult mosquitoes rest during the day &mdash; repeated through the season as the residual wears down. Products applied according to label directions; stay off treated areas until the spray has dried. BuzzSkito treats Toronto and the GTA from $99.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/toronto-mosquito-control" className="btn-primary-sm">Toronto Mosquito Control →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -180,19 +180,19 @@ export default function WestNileTorontoPage() {
           <AffiliateDisclosure />
           <ol>
             <li><strong>Kill the stagnant water weekly.</strong> Scrub gutters clear of leaf sludge, tip and scrub birdbaths and buckets, and remove old tires. Scrubbing matters &mdash; mosquito eggs stick to container walls and survive drying.</li>
-            <li><strong>Larvicide what you cannot drain.</strong> A BTI dunk in a rain barrel or ornamental pond kills larvae within 24&ndash;48 hours and is harmless to fish, pets, birds, and people. See our <Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks guide</Link>. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> Granular Mosquito Bits give a faster knockdown using the same Bti active. <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink></li>
-            <li><strong>Cover up at dusk and dawn</strong>, when <em>Culex</em> feeds. Long sleeves, and a Health Canada-approved repellent with <strong>DEET or icaridin</strong>. See our <Link href="/blog/picaridin-vs-deet">icaridin vs DEET comparison</Link>.</li>
+            <li><strong>Larvicide what you cannot drain.</strong> A BTI dunk in a rain barrel or ornamental pond kills larvae within 24&ndash;48 hours; follow the label directions for rain barrels and ponds. See our <Link href="/blog/mosquito-dunks-canada-guide">Mosquito Dunks guide</Link>. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> Granular Mosquito Bits give a faster knockdown using the same Bti active. <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink></li>
+            <li><strong>Cover up at dusk and dawn</strong>, when <em>Culex</em> feeds. Long sleeves, and a repellent with <strong>DEET or icaridin</strong> (look for the PCP registration number on the label). See our <Link href="/blog/picaridin-vs-deet">icaridin vs DEET comparison</Link>.</li>
             <li><strong>Fix screens</strong> on windows and doors.</li>
-            <li><strong>Reduce the resting adult population.</strong> <Link href="/mosquito-control">A professional barrier spray</Link> treats the shaded vegetation, hedge interiors, and fence lines where adult mosquitoes spend the day, with up to 30 days of residual protection through the August peak.</li>
+            <li><strong>Treat where adults rest.</strong> <Link href="/mosquito-control">A professional barrier spray</Link> treats the shaded vegetation, hedge interiors, and fence lines where adult mosquitoes spend the day, repeated through the August peak as the residual wears down. It adds to the steps above; it does not replace them.</li>
           </ol>
 
           <TopPick tag={AMZ_TAG}
             label="Best for the Culex breeding sites you can't drain"
             name="Summit Mosquito Dunks (BTI Larvicide)"
-            blurb="The single most West Nile–specific product a homeowner can use: a floating Bti dunk that kills Culex larvae in the stagnant, organically rich water they breed in — rain barrels, ornamental ponds, clogged low spots. Harmless to fish, pets, birds, and people, and one dunk keeps working for about 30 days."
+            blurb="The single most West Nile–specific product a homeowner can use: a floating Bti dunk that kills Culex larvae in the stagnant, organically rich water they breed in — rain barrels, ornamental ponds, clogged low spots. One dunk keeps working for about 30 days."
             search="summit mosquito dunks"
             score={8.7}
-            pros={['Targets the exact stagnant water Culex prefer', 'Safe around fish, pets, birds, and people', 'One dunk lasts ~30 days']}
+            pros={['Targets the exact stagnant water Culex prefer', 'Floats and releases Bti slowly', 'One dunk lasts ~30 days']}
             cons={['Larvicide only — no effect on adult biters', 'Needs replacing monthly through the season']}
           />
 
@@ -232,7 +232,7 @@ export default function WestNileTorontoPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (Bti larvicide)" search="summit mosquito dunks" label="For water you can't drain" />
 
-      <CTASection heading="Peak West Nile Season Is August. Treat Before It." subtext="Barrier spray suppresses the adult mosquito population for up to 30 days. Toronto & GTA, from $99." variant="dark" />
+      <CTASection heading="Peak Mosquito Season Is Coming. Book Your Yard Treatment." subtext="Barrier spray on the shaded vegetation where adult mosquitoes rest. Toronto & GTA, from $99." variant="dark" />
     </>
   )
 }

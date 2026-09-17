@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { NEW_BLOGS_4 } from '@/lib/constants'
+import { NEW_BLOGS_4, PROMISES } from '@/lib/constants'
 
 const POST = NEW_BLOGS_4[0]
 
@@ -18,31 +18,31 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'What should I look for when hiring a mosquito spray company?',
-    answer: 'The seven most important things to check: (1) Health Canada–approved products — ask for the registration number; (2) liability insurance; (3) a written service guarantee or free re-spray policy; (4) clear re-entry instructions (safe for kids and pets after drying); (5) transparent pricing with no hidden fees; (6) local reviews specific to your city or neighbourhood; (7) whether they treat the right areas — vegetation and shrub undersides, not just open grass.',
+    answer: 'The seven most important things to check: (1) products with a Canadian PCP registration number — ask for it; (2) liability insurance; (3) a written service guarantee that says exactly which plans it covers; (4) clear re-entry instructions (stay off treated areas until the spray has dried, as the label directs); (5) transparent pricing with no hidden fees; (6) local reviews specific to your city or neighbourhood; (7) whether they treat the right areas — vegetation and shrub undersides, not just open grass.',
   },
   {
     question: 'How does professional mosquito lawn spraying work?',
-    answer: "Professional mosquito lawn spraying — also called barrier spray treatment — involves applying a fine residual mist to all vegetation on your property: shrubs, hedges, ornamental grasses, fence lines, and the underside of leaves up to 10 feet high. This is where mosquitoes rest during the day. The product kills mosquitoes on contact and remains active on leaf surfaces for up to 30 days. It is not applied to open grass, flowers, or your vegetable garden.",
+    answer: "Professional mosquito lawn spraying — also called barrier spray treatment — involves applying a fine residual mist to all vegetation on your property: shrubs, hedges, ornamental grasses, fence lines, and the underside of leaves up to 10 feet high. This is where mosquitoes rest during the day. The product kills mosquitoes on contact and leaves a residual on leaf surfaces, which is why treatments are repeated on a schedule through the season. It is not applied to open grass, flowers, or your vegetable garden.",
   },
   {
     question: 'Are mosquito spraying companies in the GTA required to use Health Canada–approved products?',
-    answer: 'Yes. In Canada, all pesticides used for residential pest control must be registered with Health Canada under the Pest Control Products Act. Any company applying products without a registration number is operating illegally. Always ask for the product registration number before booking — a reputable company will provide it without hesitation.',
+    answer: 'Yes. In Canada, all pesticides used for residential pest control must be registered under the federal Pest Control Products Act and carry a PCP registration number. Any company applying products without a registration number is operating illegally. Always ask for the product registration number before booking — a reputable company will provide it without hesitation.',
   },
   {
     question: 'How much does mosquito spraying cost in the GTA?',
-    answer: 'A single professional mosquito treatment for a typical GTA property (5,000–7,500 sq ft) runs $125–$200. A full season program (4–5 treatments from May through September) is typically $500–$800 for most homes. Properties near ravines or with dense landscaping requiring more thorough coverage are at the higher end. Get a written quote before booking — reputable companies price by treated area, not by arbitrary "property size tiers."',
+    answer: 'A single professional mosquito treatment for a typical GTA property (5,000–7,500 sq ft) runs $125–$200. A full season program (4–5 treatments from May through September) is typically $500–$800 for most homes. Properties near ravines or with dense landscaping requiring more thorough coverage are at the higher end. BuzzSkito\'s own prices: a single visit from $99 on a standard lot under 10,000 sq ft, and season plans from $549, plus HST. Get a written quote before booking — reputable companies tell you exactly what the price covers for your yard.',
   },
   {
     question: 'What is the difference between mosquito fogging and barrier spray?',
-    answer: 'Fogging disperses a fine mist into the open air to knock down adult mosquitoes immediately — results last hours to days and the effect dissipates quickly. Barrier spray is applied directly to vegetation surfaces where mosquitoes rest, creating a residual treated zone that lasts up to 30 days. Barrier spray is significantly more effective for season-long property protection. Most reputable residential mosquito companies in the GTA use barrier spray, not fogging.',
+    answer: 'Fogging disperses a fine mist into the open air to knock down adult mosquitoes immediately — results last hours to days and the effect dissipates quickly. Barrier spray is applied directly to vegetation surfaces where mosquitoes rest, creating a residual treated zone that is renewed on a schedule through the season. For season-long property treatment, barrier spray is the approach that fits. Most reputable residential mosquito companies in the GTA use barrier spray, not fogging.',
   },
   {
     question: 'How do I know if a mosquito spray company is reputable?',
-    answer: "Check: (1) Google reviews — specifically look for reviews mentioning results after 2–3 weeks, not just 'the tech was friendly'; (2) how long they have been operating in your specific market; (3) whether they offer a free re-spray guarantee in writing; (4) whether they can name the active ingredient and its Health Canada registration; (5) whether they carry liability insurance. Red flags include: pressure to sign multi-year contracts, inability to answer basic product questions, pricing that seems unusually low.",
+    answer: "Check: (1) Google reviews — specifically look for reviews mentioning results after 2–3 weeks, not just 'the tech was friendly'; (2) how long they have been operating in your specific market; (3) whether their guarantee is in writing and says which plans it covers; (4) whether they can name the active ingredient and its PCP registration number; (5) whether they carry liability insurance. Red flags include: pressure to sign multi-year contracts, inability to answer basic product questions, pricing that seems unusually low.",
   },
   {
     question: 'Can one spray company cover both mosquito and tick control?',
-    answer: 'Yes — and the best companies combine both in a single visit. The same barrier spray that eliminates mosquitoes also kills ticks at all life stages, including the hard-to-see nymph stage responsible for most Lyme disease transmission in Ontario. Bundling mosquito and tick control in one treatment is more cost-effective than separate visits and ensures complete coverage of all vegetation surfaces.',
+    answer: 'Yes — and many companies combine both in a single visit. Tick treatment is a separate application aimed at the leaf litter, long grass and wooded edges where ticks wait, including the hard-to-see nymph stage that is easy to miss on a skin check, but it can be done on the same visit as the mosquito spray. Bundling mosquito and tick control is usually more cost-effective than booking separate visits.',
   },
 ]
 
@@ -70,14 +70,14 @@ export default function MosquitoSprayCompaniesPage() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Before booking a mosquito spray company in the GTA, verify seven things: Health Canada&ndash;registered products (ask for the registration number), liability insurance, a written free re-spray guarantee, a rain-back policy, clear re-entry instructions, local reviews describing actual results, and transparent per-visit pricing.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Before booking a mosquito spray company in the GTA, verify seven things: products with a PCP registration number (ask for it), liability insurance, a written guarantee that says which plans it covers, a rain-back policy, clear re-entry instructions, local reviews describing actual results, and transparent per-visit pricing.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-            <li>Every pesticide used for residential pest control in Canada must be registered with Health Canada under the Pest Control Products Act.</li>
-            <li>Proper barrier spray targets vegetation up to 10 feet high &mdash; where mosquitoes rest &mdash; not open grass, and lasts up to 30 days per treatment.</li>
+            <li>Every pesticide used for residential pest control in Canada must be registered under the federal Pest Control Products Act and carry a PCP registration number.</li>
+            <li>Proper barrier spray targets vegetation up to 10 feet high &mdash; where mosquitoes rest &mdash; not open grass, and is re-applied on a schedule.</li>
             <li>A single treatment for a typical 5,000&ndash;7,500 sq ft GTA property runs $125&ndash;$200; a full 4&ndash;5 treatment season is typically $500&ndash;$800.</li>
-            <li>Treated yards are safe for kids and pets 30 minutes after application with Health Canada&ndash;approved residential formulas.</li>
-            <li>Fogging lasts hours to days; barrier spray lasts up to 30 days &mdash; reputable GTA companies use barrier spray.</li>
-            <li>The same barrier spray also kills ticks at all life stages, so the best companies bundle mosquito and tick control in one visit.</li>
+            <li>Stay off treated areas until the spray has dried, as the product label directs &mdash; a good company tells you this clearly.</li>
+            <li>Fogging lasts hours to days; barrier spray leaves a residual on the vegetation and is re-applied on a schedule &mdash; reputable GTA companies use barrier spray.</li>
+            <li>Tick treatment can be added to the same visit, so many companies bundle mosquito and tick control.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
@@ -88,7 +88,7 @@ export default function MosquitoSprayCompaniesPage() {
 
         <h2>What Professional Mosquito Lawn Spraying Actually Involves</h2>
         <p>When people search for "mosquito spraying companies near me," most assume the service involves spraying the lawn itself — open grass — with a product that kills mosquitoes. That's not what professional barrier spray does, and companies that spray your grass are wasting your money.</p>
-        <p>Mosquitoes don't live in open grass. They rest in <strong>vegetation</strong> — the underside of leaves, shrubs, hedges, ornamental grasses, and fence-line plantings — during the heat of the day. A professional treatment targets every one of those resting surfaces with a residual product that kills mosquitoes on contact and keeps working for up to 30 days after the visit.</p>
+        <p>Mosquitoes don't live in open grass. They rest in <strong>vegetation</strong> — the underside of leaves, shrubs, hedges, ornamental grasses, and fence-line plantings — during the heat of the day. A professional treatment targets every one of those resting surfaces with a residual product that kills mosquitoes on contact and is re-applied on a schedule through the season.</p>
 
         <div className="not-prose overflow-x-auto my-6">
           <table className="w-full text-sm border-collapse">
@@ -117,40 +117,41 @@ export default function MosquitoSprayCompaniesPage() {
 
         <h2>7 Things to Check Before Booking a Mosquito Spray Company</h2>
 
-        <h3>1. Health Canada–Approved Products</h3>
-        <p>In Canada, every pesticide used for residential pest control must be registered with Health Canada under the Pest Control Products Act. Ask for the product's registration number before you book. A reputable company provides this without hesitation. Any company that can't or won't name the product they're using is a red flag.</p>
+        <h3>1. PCP-Registered Products</h3>
+        <p>In Canada, every pesticide used for residential pest control must be registered under the federal Pest Control Products Act. Ask for the product's PCP registration number before you book. A reputable company provides this without hesitation. Any company that can't or won't name the product they're using is a red flag.</p>
 
         <h3>2. Liability Insurance</h3>
         <p>Professional pest control companies carry commercial general liability insurance. Ask for a certificate of insurance before work begins. Companies operating without insurance leave you potentially liable for any property damage or injury claims arising from the treatment.</p>
 
-        <h3>3. A Written Free Re-Spray Guarantee</h3>
-        <p>The best mosquito spraying companies stand behind their work. This means a written commitment to return and re-treat if mosquitoes come back within the protection window — at no additional cost. Get this in writing before you book. "We'll take care of it" is not a guarantee.</p>
+        <h3>3. A Written Guarantee (and Which Plans It Covers)</h3>
+        <p>The best mosquito spraying companies stand behind their work. This means a written commitment that spells out when they come back and re-treat at no additional cost, and which plans that applies to. Get this in writing before you book. "We'll take care of it" is not a guarantee. At BuzzSkito, the Bite-Free Guarantee applies to Standard &amp; Exclusive plans only, and the rain-back guarantee applies on every plan.</p>
 
         <h3>4. Rain-Back Policy</h3>
         <p>Professional residual products need 30–60 minutes to bond to leaf surfaces. A company without a rain-back policy leaves you paying for a treatment that washed off before it cured. Ask specifically: "What do you do if it rains within an hour of my treatment?"</p>
 
         <h3>5. Clear Re-Entry Instructions</h3>
-        <p>Any professional company should clearly communicate when it's safe for children and pets to re-enter the treated area. The standard is 30 minutes after application for Health Canada–approved residential formulas. If a company can't give you a clear answer on this, walk away.</p>
+        <p>Any professional company should clearly communicate when children and pets can go back onto the treated area. The label rule is simple: stay off treated areas until the spray has dried. If a company can't give you a clear answer on this, walk away.</p>
 
         <h3>6. Local Reviews Mentioning Actual Results</h3>
-        <p>Look specifically for reviews that describe results over time — not just "friendly tech" or "on time." Reviews that say things like "we had a party two weeks later and nobody got bitten" tell you the product actually worked. Generic service reviews are useless for evaluating efficacy.</p>
+        <p>Look specifically for reviews that describe results over time — not just "friendly tech" or "on time." Reviews that describe how the yard was two or three weeks after a treatment tell you far more about results than a note about a friendly technician. Generic service reviews are useless for evaluating results.</p>
 
         <h3>7. Transparent Per-Visit Pricing</h3>
         <p>Reputable companies price by treated area. Be cautious of companies that lock you into long multi-year contracts without clear cancellation terms, or that quote you a price without assessing your property. For current pricing in Ontario, see our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control cost guide</Link>.</p>
 
         <h2>Fogging vs. Barrier Spray: What Most GTA Companies Actually Use</h2>
-        <p>Fogging disperses a mist into open air to knock down adult mosquitoes immediately — results last hours to a few days at most. It looks dramatic but provides no lasting protection. Most reputable residential mosquito companies in the GTA use <strong>barrier spray</strong>, not fogging, precisely because it creates residual protection that lasts up to 30 days.</p>
+        <p>Fogging disperses a mist into open air to knock down adult mosquitoes immediately — results last hours to a few days at most. It looks dramatic but provides no lasting protection. Most reputable residential mosquito companies in the GTA use <strong>barrier spray</strong>, not fogging, precisely because it leaves a residual on the vegetation where mosquitoes rest.</p>
         <p>If a company offers "fogging services" and nothing else, they are selling you a temporary fix that needs to be repeated weekly to maintain any effect. That adds up fast and delivers far less value than a proper barrier spray program.</p>
 
         <h2>Mosquito and Tick Control: Why the Best Companies Offer Both</h2>
-        <p>The barrier spray that eliminates mosquitoes also kills ticks at all life stages — including the hard-to-see nymphs responsible for most Lyme disease transmission in Ontario. Companies that provide both in a single visit save you money and ensure complete coverage of your property's vegetation surfaces. See our <Link href="/tick-control" className="text-brand-700 hover:underline">tick control service</Link> for details on what's included.</p>
+        <p>Tick treatment is a separate application aimed at the leaf litter, long grass and wooded edges where ticks wait &mdash; including the hard-to-see nymphs that are easy to miss on a skin check. Companies that provide both in a single visit save you money and a second booking. See our <Link href="/tick-control" className="text-brand-700 hover:underline">tick control service</Link> for details on what's included.</p>
 
         <h2>Why BuzzSkito</h2>
         <ul>
-          <li>Health Canada–registered formula, registration number available on request</li>
-          <li>Free re-spray guarantee — if mosquitoes return within the protection window, we come back at no cost</li>
-          <li>Rain-back guarantee — significant rain within one hour? We return and re-treat</li>
-          <li>Safe for children and pets 30 minutes after application</li>
+          <li>{PROMISES.licence}</li>
+          <li>{PROMISES.labelLine}; PCP registration number available on request</li>
+          <li>{PROMISES.biteFreeScope} — if mosquitoes come back between scheduled treatments, we re-treat at no charge</li>
+          <li>{PROMISES.rainBack}</li>
+          <li>Clear re-entry directions: stay off treated areas until the spray has dried, as the label directs</li>
           <li>150+ five-star Google reviews across the GTA</li>
           <li>Serving 19 cities — Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, and more</li>
         </ul>
@@ -184,7 +185,7 @@ export default function MosquitoSprayCompaniesPage() {
         </div>
       </section>
 
-      <CTASection heading="Get a Quote from a GTA Mosquito Spray Company You Can Trust" subtext="Health Canada–approved formula. Free re-spray guarantee. 150+ five-star reviews." />
+      <CTASection heading="Get a Quote from a GTA Mosquito Spray Company You Can Trust" subtext={`${PROMISES.licence}. ${PROMISES.rainBackShort}. 150+ five-star reviews.`} />
     </>
   )
 }

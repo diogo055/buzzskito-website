@@ -155,7 +155,9 @@ export default function RemoveTickPage() {
           <li>You develop fever, fatigue, headache, or joint pain in the weeks after a tick bite</li>
           <li>The bite site shows signs of infection (increasing redness, swelling, warmth, or discharge)</li>
         </ul>
+        <p>If the bite is simply taking longer than you expected to close up, read <Link href="/blog/tick-bites-that-wont-heal-when-to-worry" className="text-brand-700 underline">what it means when a tick bite won&apos;t heal</Link> &mdash; it separates the slow-but-normal healing timeline from the signs that call for a same-week appointment.</p>
         <p>Lyme disease is the most common tick-borne illness in Ontario, but it is not the only one &mdash; certain tick bites are also linked (per the CDC) to <Link href="/blog/alpha-gal-syndrome" className="text-brand-700 hover:underline">alpha-gal syndrome</Link>, a delayed allergy to red meat, though it remains uncommon in Canada. Lyme disease is highly treatable when caught early, so don&apos;t wait if you&rsquo;re concerned.</p>
+        <p>For a sense of how often that actually happens here rather than in the abstract, <Link href="/blog/lyme-disease-cases-ontario-2026" className="text-brand-700 hover:underline">Lyme disease cases in Ontario</Link> works through the most recent published surveillance figures and how the provincial count has moved over the past decade.</p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">
@@ -186,7 +188,7 @@ export default function RemoveTickPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="Prevent Tick Bites Before They Happen" subtext="Professional yard treatment targets the leaf litter and shaded edges where ticks wait. Free quote available." variant="dark" />
+      <CTASection heading="Treat the Yard Where Ticks Wait" subtext="Professional yard treatment targets the leaf litter and shaded edges where ticks wait. Free quote available." variant="dark" />
     </>
   )
 }

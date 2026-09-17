@@ -233,7 +233,7 @@ export default function WhyDoMosquitoesExistPage() {
         </div>
       </article>
 
-      <CTASection heading="Curious About Mosquitoes? We Handle the Rest." subtext="Get a free quote for licensed mosquito and tick barrier spray across the GTA. From $99. Same-day yard protection. 30-day residual." variant="dark" />
+      <CTASection heading="Curious About Mosquitoes? We Handle the Rest." subtext="Get a free quote for licensed mosquito and tick barrier spray across the GTA. From $99. Rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

@@ -11,8 +11,10 @@ import PressMentionBanner from '@/components/PressMentionBanner'
 import ExitIntentPopup from '@/components/ExitIntentPopup'
 import LeadBarGate from '@/components/LeadBarGate'
 import AffiliateClickTracker from '@/components/AffiliateClickTracker'
+import LeadClickTracker from '@/components/LeadClickTracker'
 import AttributionBeacon from '@/components/AttributionBeacon'
-import { BUSINESS, SITE_URL } from '@/lib/constants'
+import QuoteLink from '@/components/QuoteLink'
+import { BUSINESS, PROMISES, SITE_URL } from '@/lib/constants'
 import { websiteSchema, organizationSchema, personSchema } from '@/lib/seo'
 
 const inter = Inter({
@@ -132,7 +134,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="dns-prefetch" href="//connect.facebook.net" />
         <link rel="dns-prefetch" href="//d3ey4dbjkt2f6s.cloudfront.net" />
       </head>
-      <body className="bg-white text-gray-900 antialiased min-h-screen flex flex-col font-sans pb-16 sm:pb-0">
+      <body className="bg-white text-gray-900 antialiased min-h-screen flex flex-col font-sans pb-24 sm:pb-0">
         <AttributionBeacon />
         <SmoothScroll />
         <Header />
@@ -142,29 +144,51 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </main>
         <StickyRiskCTA />
         <AffiliateClickTracker />
+        <LeadClickTracker />
         <ExitIntentPopup />
         <Footer />
 
         {/* ── Sticky Mobile CTA Bar ──────────────────────────────────── */}
+        {/* Fixed-position and phone-only, with its height reserved by the body's pb-24, so it never shifts
+            page content. Taps are counted by LeadClickTracker through data-lead-location="sticky_bar". The
+            top line carries the rain-back guarantee (every plan) rather than the Bite-Free Guarantee, which
+            only covers Standard & Exclusive and can't be stated unqualified in a line this short. */}
         <LeadBarGate>
-        <div className="fixed bottom-0 left-0 right-0 z-50 bg-ink-950 border-t border-white/10 px-4 pb-3 pt-1.5 sm:hidden" role="complementary" aria-label="Quick actions">
-          <p className="text-center text-[10px] font-semibold text-brand-300 mb-1.5" aria-hidden="true">
-            <span className="text-amber-400">★ 5.0</span> · 150+ Google reviews · Bite-Free Guarantee
+        <div
+          className="fixed bottom-0 left-0 right-0 z-50 bg-ink-950 border-t border-white/10 px-3 pb-3 pt-1.5 sm:hidden"
+          role="complementary"
+          aria-label="Quick actions"
+          data-lead-location="sticky_bar"
+        >
+          <p className="text-center text-[10px] font-semibold text-brand-300 mb-1.5">
+            <span className="text-amber-400"><span aria-hidden="true">★</span> 5.0</span> · 150+ Google reviews · {PROMISES.rainBackShort}
           </p>
-          <div className="flex gap-3">
+          <div className="flex gap-2">
             <a
-              href={`tel:${BUSINESS.phone.replace(/[^+\d]/g, '')}`}
-              className="flex-1 bg-white text-brand-900 font-bold text-sm py-3 rounded-full text-center flex items-center justify-center gap-2"
+              href={BUSINESS.phoneHref}
+              aria-label={`Call BuzzSkito at ${BUSINESS.phone}`}
+              className="flex-1 min-h-[44px] bg-white text-brand-900 font-bold text-sm px-2 rounded-full text-center flex items-center justify-center gap-1.5 press-scale"
             >
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-              Call Now
+              <svg className="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              Call
             </a>
             <a
-              href="/free-yard-assessment"
-              className="flex-1 bg-gradient-to-b from-amber-500 to-amber-600 text-white font-bold text-sm py-3 rounded-full text-center"
+              href={BUSINESS.smsHref}
+              aria-label={`Text BuzzSkito at ${BUSINESS.phone}`}
+              className="flex-1 min-h-[44px] border border-white/25 text-white font-bold text-sm px-2 rounded-full text-center flex items-center justify-center gap-1.5 press-scale"
             >
-              Free Quote
+              <svg className="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/></svg>
+              Text
             </a>
+            {/* Already on the form (or the contact page)? Hide the quote button there; Call and Text stay. */}
+            <LeadBarGate except={['/free-yard-assessment', '/contact']}>
+              <QuoteLink
+                location="sticky_bar"
+                className="flex-1 min-h-[44px] bg-gradient-to-b from-amber-500 to-amber-600 text-white font-bold text-sm px-2 rounded-full text-center flex items-center justify-center press-scale"
+              >
+                Get price
+              </QuoteLink>
+            </LeadBarGate>
           </div>
         </div>
         </LeadBarGate>

@@ -14,7 +14,7 @@ const SLUG = 'mosquito-bite-treatment-relief'
 const DATE = '2026-07-13'
 const UPDATED = '2026-07-13'
 const TITLE = 'Mosquito Bite Treatment: How to Stop the Itch Fast'
-const META_TITLE = 'Mosquito Bite Treatment: Stop the Itch Fast'
+const META_TITLE = 'Mosquito Bite Treatment Canada: Stop Itch Fast'
 
 const FAQS = [
   {
@@ -199,7 +199,7 @@ export default function MosquitoBiteTreatmentReliefPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The best bite treatment is not getting bitten</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Treating bites one by one is a losing battle if your yard is breeding mosquitoes. A professional barrier spray knocks down the adults resting in your shrubs and shade for weeks at a time. BuzzSkito protects GTA yards with single treatments from $99 and seasonal plans.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Treating bites one by one is a losing battle if your yard is breeding mosquitoes. A professional barrier spray knocks down the adults resting in your shrubs and shade, and a season plan renews the residual on schedule. BuzzSkito protects GTA yards with single treatments from $99 and seasonal plans.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/mosquito-control" className="btn-primary-sm">Explore Mosquito Control &rarr;</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -231,7 +231,7 @@ export default function MosquitoBiteTreatmentReliefPage() {
           <p>If most of the bites you are treating sit below the knee, that is not coincidence &mdash; socks and closed shoes are one of the cheapest interventions available, and we explain the ground-level physics behind it in <Link href="/blog/why-do-mosquitoes-bite-my-ankles">why mosquitoes bite ankles and feet</Link>.</p>
 
           <h2>Stop the Bites at the Source</h2>
-          <p>Every bite you treat started with a mosquito that was resting somewhere in your yard &mdash; in tall grass, under shrubs, in the shade of the fence line. You can keep antihistamines on hand, but the real fix is fewer mosquitoes. Dump standing water weekly (even a bottle cap breeds them), keep grass trimmed, and consider a barrier treatment that kills the adults where they hide. <Link href="/mosquito-control">BuzzSkito&rsquo;s professional barrier spray</Link> targets those resting zones and gives you 21&ndash;30 days of relief per treatment, so bite-and-scratch season is a lot shorter.</p>
+          <p>Every bite you treat started with a mosquito that was resting somewhere in your yard &mdash; in tall grass, under shrubs, in the shade of the fence line. You can keep antihistamines on hand, but the real fix is fewer mosquitoes. Dump standing water weekly (even a bottle cap breeds them), keep grass trimmed, and consider a barrier treatment that kills the adults where they hide. <Link href="/mosquito-control">BuzzSkito&rsquo;s professional barrier spray</Link> targets those resting zones, and the residual is renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic), so bite-and-scratch season is a lot shorter.</p>
           <p>For quick prevention on the go, a <BuyLink tag={AMZ_TAG} search="bug bite suction tool">bite suction tool</BuyLink> can pull out some saliva right after a bite and blunt the reaction if you use it immediately, and a good repellent with DEET or picaridin stops bites before they happen.</p>
 
           <h2>Mosquito Bite vs Other Bites</h2>
@@ -268,7 +268,7 @@ export default function MosquitoBiteTreatmentReliefPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="1% Hydrocortisone Anti-Itch Cream" search="hydrocortisone anti itch cream" label="Best for the itch" />
 
-      <CTASection heading="Fewer Bites Beat Any Itch Cream" subtext="A professional barrier spray clears the mosquitoes resting in your yard. From $99, same-day protection, 21–30 day residual." variant="dark" />
+      <CTASection heading="Fewer Bites Beat Any Itch Cream" subtext="A professional barrier spray clears the mosquitoes resting in your yard. From $99, with a rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

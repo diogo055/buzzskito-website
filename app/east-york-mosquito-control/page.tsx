@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control East York | From $99',
   description:
-    'Mosquito control in East York, Toronto. Barrier spray near Taylor Creek from $99. Safe for kids & pets. Call (289) 216-5030.',
+    'Mosquito control in East York, Toronto. Barrier spray near Taylor Creek from $99. Licensed operator. Call (289) 216-5030.',
   canonical: '/east-york-mosquito-control',
 })
 
@@ -31,7 +33,7 @@ const FAQS = [
   },
   {
     question: 'How many treatments does an East York property need per season?',
-    answer: "For properties adjacent to Taylor Creek Park or the Don Valley, we recommend 4–5 treatments from May through September, spaced 21–28 days apart. Interior East York properties with no direct ravine exposure are typically well-protected with 3–4 treatments. Call (289) 216-5030 for a free assessment tailored to your specific address.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). For properties adjacent to Taylor Creek Park or the Don Valley, we typically recommend Standard's two-week spacing; interior East York properties with no direct ravine exposure typically do well with Basic. Call (289) 216-5030 for a free assessment tailored to your specific address.",
   },
   {
     question: 'Does BuzzSkito serve all East York neighbourhoods?',
@@ -57,22 +59,24 @@ export default function EastYorkMosquitoPage() {
           { label: NEIGHBOURHOOD },
         ]}
         title={<>Mosquito Control in {NEIGHBOURHOOD}, Toronto</>}
-        subtitle={<>East York sits between the Don Valley and Taylor Creek Park — two of Toronto's most active mosquito corridors. BuzzSkito provides professional barrier spray so East York families can enjoy their yards all season long.</>}
+        subtitle={<>Licensed Ontario pesticide operator, with treatments applied according to label directions. East York sits between the Don Valley and Taylor Creek Park — two of Toronto's most active mosquito corridors.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
       
+      <TypicalPrices service="mosquito" city={NEIGHBOURHOOD} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -81,8 +85,8 @@ export default function EastYorkMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies the product according to its label directions to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Repeat Visits & Guarantees', desc: `Treatments repeat on your plan's schedule through the season. ${PROMISES.rainBack} On Standard & Exclusive plans, if mosquitoes come back between scheduled treatments, we re-treat at no charge.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -98,11 +102,13 @@ export default function EastYorkMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>East York's Mosquito Corridors</h2>
           <p>East York is bracketed by two significant mosquito source zones. The Don Valley runs along the western border, while Taylor Creek Park — a continuous greenway stretching east to west through the heart of East York — creates a secondary breeding and dispersal corridor that affects properties on both sides of the park trail. Taylor Creek itself provides permanent moving water, adjacent seasonal wet areas, and dense streamside vegetation that sustains mosquito populations from the first warm days of spring through September.</p>
-          <p>BuzzSkito's barrier spray targets the resting vegetation on your East York property — shrubs, fence lines, garden borders, and the underside of lower tree canopy — creating a treated zone that eliminates arriving mosquitoes from these corridors before they reach your patio or play area. A single treatment delivers up to 30 days of residual protection.</p>
+          <p>BuzzSkito's barrier spray targets the resting vegetation on your East York property — shrubs, fence lines, garden borders, and the underside of lower tree canopy — creating a treated zone where mosquitoes arriving from these corridors settle before they reach your patio or play area. New mosquitoes keep arriving, so the treatment is repeated on a schedule through the season.</p>
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of East York and surrounding areas. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page for city-wide coverage, or our pages for <Link href="/leaside-mosquito-control" className="text-brand-700 hover:underline">Leaside</Link> and <Link href="/don-mills-mosquito-control" className="text-brand-700 hover:underline">Don Mills</Link> for adjacent neighbourhood coverage.</p>
 
+
+          <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" location="price_card_mid" />
 
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
@@ -124,10 +130,10 @@ export default function EastYorkMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats the resting surfaces across your property and leaves a residual on treated foliage, and it is repeated on a schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -136,7 +142,7 @@ export default function EastYorkMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Our targeted tick barrier spray treats the lawn edges, leaf litter, and wooded borders where ticks wait for a host, with 5 sprays per season. See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>
@@ -175,6 +181,10 @@ export default function EastYorkMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

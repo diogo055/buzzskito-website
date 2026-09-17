@@ -40,11 +40,11 @@ const FAQS = [
   },
   {
     question: 'DynaTrap vs Mosquito Magnet — which is better?',
-    answer: 'Mosquito Magnet ($400–$1,300, propane-powered, generates real CO₂) is significantly more effective at catching mosquitoes — independent testing shows 70–90% population reduction over 6–8 weeks. DynaTrap ($80–$330, UV light + small fan, optional octenol cartridge) catches mostly non-biting insects with limited mosquito impact. If your goal is mosquito reduction specifically, Mosquito Magnet is the proven option despite higher cost. If you want a lower-cost device that catches some flying insects (and you don\'t mind that most aren\'t mosquitoes), DynaTrap is acceptable but should not be your primary mosquito-control strategy.',
+    answer: 'Mosquito Magnet ($400–$1,300, propane-powered, generates real CO₂) is significantly more effective at catching mosquitoes — independent testing shows it can meaningfully thin local populations over 6–8 weeks. DynaTrap ($80–$330, UV light + small fan, optional octenol cartridge) catches mostly non-biting insects with limited mosquito impact. If your goal is mosquito reduction specifically, Mosquito Magnet is the proven option despite higher cost. If you want a lower-cost device that catches some flying insects (and you don\'t mind that most aren\'t mosquitoes), DynaTrap is acceptable but should not be your primary mosquito-control strategy.',
   },
   {
     question: 'Is DynaTrap safe for kids, pets, and pollinators?',
-    answer: 'DynaTrap doesn\'t use chemicals or insecticides — just UV light and a fan. The device itself is safe for kids and pets. However, the UV light DOES attract beneficial insects including pollinators (moths are key nighttime pollinators, beetles eat aphids). Running a DynaTrap continuously can contribute to local insect biodiversity loss — it kills indiscriminately. The Xerces Society recommends UV traps not be used in habitats where pollinator populations are at risk. For a typical GTA backyard, the impact is minor; for properties bordering conservation areas, consider whether you actually need the device or whether targeted yard barrier spray would be a more selective approach.',
+    answer: 'DynaTrap doesn\'t use chemicals or insecticides — just UV light and a fan. Treat the unit itself like any plug-in outdoor appliance around kids and pets. The UV light DOES attract beneficial insects including pollinators (moths are key nighttime pollinators, beetles eat aphids). Running a DynaTrap continuously can contribute to local insect biodiversity loss — it kills indiscriminately. The Xerces Society recommends UV traps not be used in habitats where pollinator populations are at risk. For a typical GTA backyard, the impact is minor; for properties bordering conservation areas, consider whether you actually need the device or whether targeted yard barrier spray would be a more selective approach.',
   },
   {
     question: 'How long do DynaTrap UV bulbs last?',
@@ -60,7 +60,7 @@ const FAQS = [
   },
   {
     question: 'Are there better alternatives to DynaTrap in Canada?',
-    answer: 'For mosquito-specific reduction: Mosquito Magnet ($400–$1,300) is significantly more effective. For personal patio protection: Thermacell ($35–$220) creates a 4.5m repellent zone around you. For whole-yard mosquito and tick control: professional barrier spray (~$99/treatment, 21–30 day residual) covers the entire property and works on ticks (DynaTrap doesn\'t affect ticks). For larvae control: BTI mosquito dunks ($15/season) handle any standing water. Most Canadian homeowners get better results from a combination of barrier spray + Thermacell + dunks than from DynaTrap. DynaTrap can be useful as a supplemental piece for cottage decks where you also want to catch moths and miscellaneous flying insects.',
+    answer: 'For mosquito-specific reduction: Mosquito Magnet ($400–$1,300) is significantly more effective. For personal patio protection: Thermacell ($35–$220) creates a 4.5m repellent zone around you. For whole-yard mosquito and tick control: professional barrier spray (from $99 per treatment) treats the entire property, and tick treatment can be added (DynaTrap doesn\'t affect ticks). For larvae control: BTI mosquito dunks ($15/season) handle any standing water. Most Canadian homeowners get better results from a combination of barrier spray + Thermacell + dunks than from DynaTrap. DynaTrap can be useful as a supplemental piece for cottage decks where you also want to catch moths and miscellaneous flying insects.',
   },
   {
     question: 'What is the difference between DynaTrap models?',
@@ -217,7 +217,7 @@ export default function DynaTrapCanadaPage() {
               <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Worth it for</p>
               <ul className="text-sm text-gray-700 space-y-1.5 list-disc pl-4">
                 <li>Cottage decks and docks where moths, midges, and mayflies are the nuisance</li>
-                <li>A low-maintenance, chemical-free device that is safe around kids and pets</li>
+                <li>A low-maintenance device that uses no insecticide</li>
                 <li>Supplementing — not replacing — a real mosquito plan</li>
               </ul>
             </div>
@@ -477,7 +477,7 @@ export default function DynaTrapCanadaPage() {
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Do DynaTraps actually work? The honest answer.</p>
-            <p className="text-sm text-gray-800 leading-relaxed">Yes — as <em>flying-insect</em> catchers. As <em>mosquito</em> traps, only marginally. Peer-reviewed testing (University of Florida; Notre Dame) puts mosquitoes at roughly 5% of what a UV trap catches — the other 95% is moths, beetles, and midges. The Atrakta cartridge helps a little; it does not close the gap with CO₂ propane traps. For real mosquito relief in a GTA yard, pair a trap with <Link href="/mosquito-control">professional barrier spray</Link> — whole-yard, 21–30 day residual, and it also handles ticks, which no DynaTrap touches.</p>
+            <p className="text-sm text-gray-800 leading-relaxed">Yes — as <em>flying-insect</em> catchers. As <em>mosquito</em> traps, only marginally. Peer-reviewed testing (University of Florida; Notre Dame) puts mosquitoes at roughly 5% of what a UV trap catches — the other 95% is moths, beetles, and midges. The Atrakta cartridge helps a little; it does not close the gap with CO₂ propane traps. For real mosquito relief in a GTA yard, pair a trap with <Link href="/mosquito-control">professional barrier spray</Link> — whole-yard, re-applied through the season, with tick treatment available as an add-on; ticks are something no DynaTrap touches.</p>
           </div>
 
           <h2>How the DynaTrap Mosquito Trap Works (and Why That Matters)</h2>
@@ -551,6 +551,11 @@ export default function DynaTrapCanadaPage() {
             <li><strong>Not directly under trees</strong> that drop sap or leaves into the fan, and not in a spot that takes the full force of driving rain.</li>
           </ul>
           <p>None of this changes the species mix. It changes whether the unit performs at the top or the bottom of its own modest range — which is worth doing if you already own one.</p>
+          <p className="not-prose text-sm text-gray-600 mb-2">Two of those five placement rules are physical problems, not decisions. Getting a unit 3–6 ft off the ground and 20–40 ft from the patio usually means a shepherd hook or a hanging pole, and a weatherproof outdoor extension cord to reach it — the most common reason a trap ends up sitting on the deck boards is that nobody bought either.</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="shepherd hook plant hanger outdoor">Shepherd hooks &amp; hangers →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="outdoor extension cord weatherproof">Outdoor extension cords →</BuyLink>
+          </div>
 
           <h2 id="leave-it-on">Should I Leave My DynaTrap On All the Time?</h2>
           <p><strong>Yes.</strong> DynaTrap is built for continuous 24/7 operation, and the unit only lowers local flying-insect numbers if it is running through the dawn and dusk windows when the American Mosquito Control Association notes most species are most active. Switching it on only when you step outside draws insects to you at the worst possible moment.</p>
@@ -602,6 +607,10 @@ export default function DynaTrapCanadaPage() {
             </table>
           </div>
           <p>The comparison is asked as an either/or, but the two devices do not really compete — they fail in opposite directions. Thermacell protects a small zone completely and the rest of the property not at all; DynaTrap works across the property and protects nothing in particular. If you are choosing one and the complaint is &ldquo;we get bitten on the deck,&rdquo; buy the Thermacell. If the complaint is &ldquo;there are moths everywhere and the porch light is a disaster,&rdquo; buy the DynaTrap. If the complaint is &ldquo;we cannot use the yard,&rdquo; neither device is the answer — that is a treatment problem, and it is the one case where a <Link href="/mosquito-control">residual barrier treatment</Link> across the whole property is the honest recommendation, because it also covers ticks, which neither device touches. Full details on the repellent side are in our <Link href="/blog/thermacell-canada-where-to-buy">Thermacell guide</Link>.</p>
+          <p className="not-prose text-sm text-gray-600 mb-2">If the complaint really is &ldquo;we get bitten on the deck,&rdquo; this is the row of the table that answers it. Buy the refills at the same time as the unit &mdash; the mats are the running cost and they are what runs out on the evening you need it.</p>
+          <div className="not-prose mb-6">
+            <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller refill">Check patio repellers &amp; refills →</BuyLink>
+          </div>
 
           <h2>What DynaTrap IS Good For</h2>
           <ul>
@@ -615,7 +624,7 @@ export default function DynaTrapCanadaPage() {
           <ul>
             <li><strong>Primary mosquito control</strong> — the catch ratio is too poor</li>
             <li><strong>Tick protection</strong> — ticks don&rsquo;t fly to traps</li>
-            <li><strong>Same-day yard rescue</strong> — even with continuous operation, mosquito reduction is modest; a barrier treatment or DIY <Link href="/blog/mosquito-fogger-canada">fogging for mosquitoes</Link> is what actually clears a yard before an evening outside</li>
+            <li><strong>Same-day yard rescue</strong> — even with continuous operation, mosquito reduction is modest; a barrier treatment or DIY <Link href="/blog/mosquito-fogger-canada">fogging for mosquitoes</Link> is the tool to use before an evening outside</li>
             <li><strong>Properties bordering conservation areas</strong> — kills beneficial insects including pollinators</li>
             <li><strong>Replacing professional yard treatment</strong> — coverage area is too limited per dollar</li>
           </ul>
@@ -636,9 +645,9 @@ export default function DynaTrapCanadaPage() {
             </thead>
             <tbody>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>DynaTrap DT2030</strong></td><td className="px-3 py-2">$290–$380</td><td className="px-3 py-2">Modest</td><td className="px-3 py-2">None</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Patriot</Link></td><td className="px-3 py-2">$850–$1,100</td><td className="px-3 py-2">70–90% (over 6–8 weeks)</td><td className="px-3 py-2">None</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link></td><td className="px-3 py-2">$80–$150</td><td className="px-3 py-2">70–95% in 4.5m zone</td><td className="px-3 py-2">None</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994</td><td className="px-3 py-2">Whole yard 21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Patriot</Link></td><td className="px-3 py-2">$850–$1,100</td><td className="px-3 py-2">Thins the population over 6–8 weeks</td><td className="px-3 py-2">None</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link></td><td className="px-3 py-2">$80–$150</td><td className="px-3 py-2">Repellent zone about 4.5 m</td><td className="px-3 py-2">None</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994</td><td className="px-3 py-2">Whole yard, re-treated through the season</td><td className="px-3 py-2">Yes — tick plan $497 added to a mosquito plan</td></tr>
             </tbody>
           </table>
 
@@ -788,6 +797,10 @@ export default function DynaTrapCanadaPage() {
           </div>
           <p>Read the first row again, because it is the sharpest version of everything on this page. <strong>The mosquito that carries the most common mosquito-borne disease in the continental United States is the one a light trap is worst at catching.</strong> Culex hunts by carbon dioxide and body odour in the dark; a device whose sole long-range signal is ultraviolet light is bidding in a currency Culex does not spend. The trap will still fill with moths. It is not selecting for the genus that matters.</p>
           <p>The practical consequence: if your reason for buying is disease risk rather than nuisance, a UV trap is not the tool. Source reduction (eliminating standing water, since Culex breeds readily in containers and catch basins), personal repellent use, and a residual treatment of the resting vegetation are the interventions that act on the actual vector. In Canada the same logic applies with a narrower species list; in the US it applies with a longer one and a longer season.</p>
+          <p className="not-prose text-sm text-gray-600 mb-2">Source reduction has a product attached to it for the water you cannot tip out &mdash; rain barrels, ornamental ponds, a blocked catch basin, the low corner that holds water for a week after rain. Bti larvicide treats those directly and is the cheapest intervention on this page by a wide margin.</p>
+          <div className="not-prose mb-6">
+            <BuyLink tag={AMZ_TAG} search="mosquito dunks bti larvicide">Check Bti dunks &amp; bits on Amazon.ca →</BuyLink>
+          </div>
 
           <h2 id="us-season-length">When to Run a DynaTrap: US Regional Seasons vs the Canadian May–September Window</h2>
           <p>Elsewhere on this page the operating maths is computed against a <strong>May–September Canadian outdoor season</strong> — an October deep clean and indoor storage over winter. That is correct for Toronto, Ottawa, Calgary and most of the northern US tier. It is badly wrong for Houston, Tampa or Honolulu, and everything downstream of it — bulb life, lure count, running cost — is wrong by the same factor.</p>
@@ -827,7 +840,7 @@ export default function DynaTrapCanadaPage() {
           <p>This is a US-only regulatory point, and it explains something that confuses a lot of buyers: how a device can be sold nationwide as a mosquito trap without anyone having verified that it reduces mosquito bites.</p>
           <p>Under <strong>FIFRA</strong> (the Federal Insecticide, Fungicide, and Rodenticide Act), the EPA draws a line between a <em>pesticide</em> and a <em>pesticide device</em>. A pesticide contains an active ingredient and must be registered with the EPA before sale, which means submitting efficacy and safety data for review. A <strong>device</strong> kills or traps pests by physical or mechanical means — light, suction, electrocution, sound — and contains no active ingredient. Devices are <strong>exempt from EPA product registration</strong>.</p>
           <p>Exempt does not mean unregulated. A device must be produced in an EPA-registered establishment, must bear an EPA establishment number, and the manufacturer must hold data supporting any efficacy claims it makes. Device labelling is also restricted in a specific and revealing way: an exempt device may not link a pest to a particular disease. A label may say it controls mosquitoes; it may not say it controls mosquitoes that transmit West Nile virus.</p>
-          <p>What is absent from that list is any <strong>pre-market EPA review of whether the thing works</strong>. There is no agency sign-off on the efficacy claim. Nobody at the EPA ran a trial. That is not a scandal — it is how the statute is written, and it applies equally to every bug zapper, ultrasonic repeller and suction trap on the US market. But it does mean that a phrase like &ldquo;EPA registered establishment&rdquo; on a box is a statement about the <em>factory</em>, not an endorsement of the product, and it is why the university and AMCA data cited above is the evidence that actually matters. In Canada, a device like this similarly falls outside the Pest Control Products Act registration stream that governs registered insecticides — which is why the Health Canada&ndash;approved products we use professionally, and a UV trap, are not in the same regulatory category at all.</p>
+          <p>What is absent from that list is any <strong>pre-market EPA review of whether the thing works</strong>. There is no agency sign-off on the efficacy claim. Nobody at the EPA ran a trial. That is not a scandal — it is how the statute is written, and it applies equally to every bug zapper, ultrasonic repeller and suction trap on the US market. But it does mean that a phrase like &ldquo;EPA registered establishment&rdquo; on a box is a statement about the <em>factory</em>, not an endorsement of the product, and it is why the university and AMCA data cited above is the evidence that actually matters. In Canada, a device like this similarly falls outside the Pest Control Products Act registration stream that governs registered insecticides — which is why the registered products we apply professionally, which carry PCP numbers, and a UV trap are not in the same regulatory category at all.</p>
 
           <h2 id="us-ticks">Ticks in the United States: The Gap No DynaTrap Touches</h2>
           <p>The tick point is made in Canadian terms above. It lands harder with the US numbers, so here they are.</p>
@@ -839,8 +852,12 @@ export default function DynaTrapCanadaPage() {
           </ul>
           <p>On scale, the <strong>CDC</strong> reports over <strong>89,000 Lyme disease cases</strong> submitted by state health departments in 2023, while other CDC estimation methods based on insurance and laboratory data put the number of people <strong>diagnosed and treated for Lyme disease at approximately 476,000 each year</strong> in the United States. The gap between those two figures is the gap between what gets formally reported and what actually happens in clinics.</p>
           <p>What does work on ticks is treating the environment they live in: the shaded, humid perimeter — leaf litter, the woodland edge, tall grass, ground cover and stone walls — rather than the open lawn, plus a physical barrier of wood chip or gravel between woods and yard, and keeping leaf litter cleared. That is a ground-level, vegetation-level application, which is why <strong>our own tick program is five treatments per season</strong>, timed to the nymph and adult activity peaks rather than sprayed once and forgotten. It is also why a trap and a tick program are not alternatives to one another — they do not overlap at any point.</p>
+          <p className="not-prose text-sm text-gray-600 mb-2">Whatever else you do about ticks, the household item to own is a fine-point tick remover or hook. It costs less than a basket of moths and it is the difference between lifting a nymph out whole and crushing it with kitchen tweezers.</p>
+          <div className="not-prose mb-6">
+            <BuyLink tag={AMZ_TAG} search="tick remover tool">Check tick removal tools on Amazon.ca →</BuyLink>
+          </div>
           <p className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5 text-sm text-gray-800 leading-relaxed">
-            <strong>Where BuzzSkito fits:</strong> we are a licensed mosquito and tick control company serving 19 cities across the Greater Toronto Area — Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton and beyond — with 150+ five-star Google reviews. If you are in the GTA, our <Link href="/mosquito-control">barrier spray program</Link> covers the whole property with a 21&ndash;30 day residual and our tick program runs five treatments a season. If you are reading from the United States, we cannot treat your yard, but everything on this page about what a UV trap does and does not do applies to you exactly as written — and a local licensed applicator can do the same work.
+            <strong>Where BuzzSkito fits:</strong> we are a licensed mosquito and tick control company serving 19 cities across the Greater Toronto Area — Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton and beyond — with 150+ five-star Google reviews. If you are in the GTA, our <Link href="/mosquito-control">barrier spray program</Link> treats the whole property and is re-applied through the season, and our tick program runs five treatments a season. If you are reading from the United States, we cannot treat your yard, but everything on this page about what a UV trap does and does not do applies to you exactly as written — and a local licensed applicator can do the same work.
           </p>
 
           <h2>Related Reading</h2>
@@ -870,7 +887,7 @@ export default function DynaTrapCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Stop Catching Moths · Start Killing Mosquitoes" subtext="Get a free quote for licensed barrier spray. From $99. Health Canada approved. 30-day residual." variant="dark" />
+      <CTASection heading="Stop Catching Moths · Start Killing Mosquitoes" subtext="Get a free quote for licensed barrier spray. From $99. Products applied according to label directions." variant="dark" />
     </>
   )
 }

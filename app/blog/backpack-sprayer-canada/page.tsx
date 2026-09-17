@@ -9,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'backpack-sprayer-canada'
 const DATE = '2026-07-14'
@@ -31,7 +32,7 @@ const FAQS = [
   },
   {
     question: 'What can I legally put in a backpack sprayer in Ontario?',
-    answer: 'Only pesticides registered by Health Canada\'s PMRA that carry a Pest Control Products (PCP) registration number AND are labelled DOMESTIC class. Commercial and Restricted class products are illegal for homeowners — those require a licensed exterminator (that\'s the licence professional companies hold). Ontario\'s cosmetic pesticides ban (O. Reg. 63/09 under the Pesticides Act) adds a second layer: many lawn-and-garden uses are prohibited outright, though health-protection uses such as West Nile virus mosquito control have specific pathways. Practical homeowner options include domestic-class pyrethrin yard sprays, malathion domestic formulations, and lower-risk essential-oil products. Never import US concentrates — they\'re not registered here and CBSA can seize them.',
+    answer: 'Only pesticides that carry a Pest Control Products (PCP) registration number on the label AND are labelled DOMESTIC class. Commercial and Restricted class products are illegal for homeowners — those require a licensed exterminator (that\'s the licence professional companies hold). Ontario\'s cosmetic pesticides ban (O. Reg. 63/09 under the Pesticides Act) adds a second layer: many lawn-and-garden uses are prohibited outright, though health-protection uses such as West Nile virus mosquito control have specific pathways. Practical homeowner options include domestic-class pyrethrin yard sprays, malathion domestic formulations, and essential-oil products that carry a PCP number. Never import US concentrates — they\'re not registered here and CBSA can seize them.',
   },
   {
     question: 'Can I use the same backpack sprayer for herbicide and insecticide?',
@@ -47,7 +48,7 @@ const FAQS = [
   },
   {
     question: 'Do I need a licence to use a backpack sprayer in Ontario?',
-    answer: 'The sprayer itself is just equipment — no licence, registration, or permit needed to own or use one. What determines legality is the product you put in the tank. Domestic-class PMRA-registered products: any homeowner may apply them on their own property, following the label exactly. Commercial-class products (which include the residual barrier products professional mosquito companies apply): you need an Ontario exterminator licence issued under the Pesticides Act, plus the training and insurance that come with it. That licence gap — not the hardware — is the real difference between DIY and professional results.',
+    answer: 'The sprayer itself is just equipment — no licence, registration, or permit needed to own or use one. What determines legality is the product you put in the tank. Domestic-class products with a PCP registration number: any homeowner may apply them on their own property, following the label exactly. Commercial-class products (which include the residual barrier products professional mosquito companies apply): you need an Ontario exterminator licence issued under the Pesticides Act, plus the training and insurance that come with it. That licence gap — not the hardware — is the real difference between DIY and professional results.',
   },
   {
     question: 'Is DIY backpack spraying cheaper than hiring a professional mosquito service?',
@@ -253,12 +254,12 @@ export default function BackpackSprayerCanadaPage() {
           <h2>What You Can Legally Spray in Ontario (Read This Before Buying Product)</h2>
           <p>This is the section most US-based sprayer reviews skip, and it&rsquo;s the one our GTA customers ask about most. The sprayer is unregulated hardware — what goes <em>in</em> it is not.</p>
           <ul>
-            <li><strong>Federal layer (PMRA).</strong> Every pesticide sold or used in Canada must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency and carry a PCP registration number on the label. Products are classed <strong>Domestic</strong>, <strong>Commercial</strong>, or <strong>Restricted</strong>. Homeowners may only buy and use Domestic-class products, and the label is legally binding — rates, sites, and re-entry intervals included.</li>
+            <li><strong>Federal layer (PMRA).</strong> Every pesticide sold or used in Canada must be registered under the federal Pest Control Products Act, which Health Canada&rsquo;s Pest Management Regulatory Agency administers, and carry a PCP registration number on the label. Products are classed <strong>Domestic</strong>, <strong>Commercial</strong>, or <strong>Restricted</strong>. Homeowners may only buy and use Domestic-class products, and the label is legally binding — rates, sites, and re-entry intervals included.</li>
             <li><strong>Ontario layer.</strong> Ontario&rsquo;s cosmetic pesticides ban (O. Reg. 63/09 under the Pesticides Act) prohibits many lawn-and-garden pesticide uses outright, with pathways for health-protection uses such as West Nile virus mosquito control. Commercial-class residual products — the ones professional companies apply — require an Ontario exterminator licence.</li>
             <li><strong>The permethrin gap.</strong> The permethrin yard concentrates that dominate American DIY content are largely <em>not</em> available as domestic-class yard sprays in Canada. Before you fill your cart with a US recipe, read our <Link href="/blog/permethrin-canada-yard-clothing-spray">permethrin in Canada guide</Link> — what&rsquo;s actually registered here, and for which uses, will surprise most readers.</li>
             <li><strong>Never import.</strong> Bringing US concentrates across the border for use here is illegal — unregistered product can be seized at the border, and applying it voids any legal protection if something goes wrong.</li>
           </ul>
-          <p>What homeowners realistically load: domestic-class pyrethrin sprays, malathion domestic formulations, insecticidal soaps, and PMRA-registered lower-risk options (cedar oil and other essential-oil products). For tick work specifically, product choice matters even more than hardware — our <Link href="/blog/best-tick-repellent-yard-canada">best tick repellents for Canadian yards</Link> breaks down what&rsquo;s registered and what actually holds up in Ontario field conditions.</p>
+          <p>What homeowners realistically load: domestic-class pyrethrin sprays, malathion domestic formulations, insecticidal soaps, and essential-oil products such as cedar oil that carry a PCP registration number. For tick work specifically, product choice matters even more than hardware — our <Link href="/blog/best-tick-repellent-yard-canada">best tick repellents for Canadian yards</Link> breaks down what&rsquo;s registered and what actually holds up in Ontario field conditions.</p>
 
           <h2>Nozzle &amp; PSI Guide: Set Up Like a Technician</h2>
           <ul>
@@ -268,6 +269,8 @@ export default function BackpackSprayerCanadaPage() {
             <li><strong>Wind rule.</strong> Above roughly 10–12 km/h of wind, fine droplets leave your property. Spray in early morning or evening calm — which is also when pollinators are least active, and when the label typically directs application anyway.</li>
             <li><strong>Calibrate once.</strong> Fill with plain water, time how long a tank lasts at your working pressure, and pace the yard once. Knowing your unit covers, say, 800 m² per tank turns label rates from guesswork into arithmetic.</li>
           </ul>
+
+          <p>The reason the tick pattern sits low is that a tick cannot fly or jump &mdash; it climbs a grass stem or a low branch and waits there, typically 30&ndash;50 cm off the ground, which is the band your flat fan should be wetting. <Link href="/blog/do-ticks-fly-or-jump" className="text-brand-700 underline">How high ticks climb, and why they cannot fly or jump</Link> covers that questing height in detail.</p>
 
           <h2>Maintenance &amp; Winterizing — the Canadian Edition</h2>
           <p>Most &ldquo;dead&rdquo; backpack sprayers in this country weren&rsquo;t worn out; they were killed by their first winter in the garage. The routine that prevents it:</p>
@@ -321,7 +324,7 @@ export default function BackpackSprayerCanadaPage() {
         </div>
       </section>
 
-      <CTASection heading="Put the Sprayer Down — We&rsquo;ve Got This" subtext="Licensed barrier spray from $99. Commercial-class product, calibrated equipment, 21–30 day residual. Free quote in minutes." variant="dark" />
+      <CTASection heading="Put the Sprayer Down — We&rsquo;ve Got This" subtext={`Licensed barrier spray from $99. Commercial-class product applied according to label directions, with calibrated equipment. ${PROMISES.response}`} variant="dark" />
     </>
   )
 }

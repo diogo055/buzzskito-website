@@ -706,7 +706,7 @@ export default function OntarioLymeTrackerPage() {
             </div>
             <div className="rounded-2xl bg-white p-5 shadow-sm border-l-4 border-amber-500">
               <h3 className="text-lg font-extrabold text-brand-900 mb-2">Cats — different story</h3>
-              <p className="text-sm text-gray-700">Clinical Lyme disease is rarely reported in cats. However, outdoor cats can still carry ticks indoors and bring them into contact with humans and dogs. Do not use dog tick products on cats — several are toxic to them. Ask your veterinarian what is safe.</p>
+              <p className="text-sm text-gray-700">Clinical Lyme disease is rarely reported in cats. However, outdoor cats can still carry ticks indoors and bring them into contact with humans and dogs. Do not use dog tick products on cats — several are toxic to them. Ask your veterinarian which products are suitable for cats.</p>
             </div>
           </div>
           <p className="text-sm text-gray-700 mt-6 italic">If your dog has had a confirmed tick bite or shows symptoms (lameness, joint swelling, lethargy, loss of appetite, fever), contact your veterinarian. Canine Lyme typically responds well to doxycycline when caught early.</p>
@@ -763,7 +763,7 @@ export default function OntarioLymeTrackerPage() {
             <Link href="/tick-control" className="rounded-2xl bg-white/10 backdrop-blur p-6 hover:bg-white/15 transition block">
               <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-2">Step 3 · Pro treatment</p>
               <h3 className="text-lg font-extrabold mb-2">Professional tick barrier spray</h3>
-              <p className="text-sm text-brand-200 mb-3">Health Canada-registered residual product, applied to the yard-edge and leaf-litter zones where ticks sit. Five-spray season program from $497.</p>
+              <p className="text-sm text-brand-200 mb-3">A residual product applied according to label directions, on the yard-edge and leaf-litter zones where ticks sit. Five-spray season program: $597 on its own, or $497 added to a mosquito plan (plus HST).</p>
               <span className="text-amber-400 font-bold text-sm">Tick control plans →</span>
             </Link>
           </div>

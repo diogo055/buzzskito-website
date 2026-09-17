@@ -1,44 +1,46 @@
 import type { Metadata } from 'next'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS } from '@/lib/constants'
+import { BUSINESS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'How Mosquito & Tick Control Works',
   description:
-    'How BuzzSkito\'s mosquito and tick barrier spray works — product, application, what to expect, how long protection lasts. Health Canada-approved.',
+    'How BuzzSkito\'s mosquito and tick barrier spray works — product, application, what to expect, how long protection lasts. Licensed Ontario operator.',
   canonical: '/how-it-works',
 })
 
 const FAQS = [
   {
     question: 'How does barrier spray actually kill mosquitoes?',
-    answer: "Our barrier spray contains a residual active ingredient (pyrethrin-based, Health Canada–approved) that adheres to leaf surfaces and shrub foliage. When a mosquito lands on treated vegetation to rest — which they do throughout the day — contact with the treated surface eliminates them. The formula remains active on surfaces for up to 30 days after a single application, continuously protecting your property throughout that window.",
+    answer: "Our barrier spray contains a residual active ingredient (pyrethrin-based) that dries onto leaf surfaces and shrub foliage. It is designed to act on mosquitoes that land on treated vegetation to rest, which they do throughout the day. How long a treatment keeps working depends on weather and the mosquito pressure around your yard, so treatments repeat on a set schedule through the season. Products are applied according to label directions by an Ontario-licensed pesticide operator.",
   },
   {
     question: 'Why do you spray vegetation instead of the mosquitoes directly?',
-    answer: "Mosquitoes spend the vast majority of their time resting on vegetation — leaf undersides, shrub foliage, fence lines — rather than flying. They only fly actively during the dawn and dusk feeding windows. Spraying resting surfaces targets them where they spend most of their time and delivers residual protection that keeps working for weeks. Spraying the air would only affect mosquitoes actively flying at that moment and would provide no lasting protection.",
+    answer: "Mosquitoes spend the vast majority of their time resting on vegetation — leaf undersides, shrub foliage, fence lines — rather than flying. They only fly actively during the dawn and dusk feeding windows. Spraying resting surfaces targets them where they spend most of their time and leaves a residual on those surfaces between scheduled visits. Spraying the air would only affect mosquitoes actively flying at that moment and would leave nothing on the surfaces where they rest.",
   },
   {
-    question: 'What does BuzzSkito actually spray, and is it safe?',
-    answer: "We use a water-based, Health Canada–approved formula in the pyrethrin/permethrin family — the same class of chemistry used in head lice shampoos, pet flea treatments, and most professional pest control products. The product is applied at low concentrations targeted at insect biology. Once dried (approximately 30 minutes after application), the treated area is safe for children, pets, pollinators, and all other wildlife. We do not apply directly to water features, open blooms, vegetable gardens, or bare soil.",
+    question: 'What does BuzzSkito actually spray, and how is it applied?',
+    answer: "We use a water-based formula in the pyrethrin/permethrin family, applied according to label directions by an Ontario-licensed pesticide operator (Licence L-240-2436835197). The label sets the rate, where the product may go and when people can return. Keep children and pets off treated areas until the spray has dried, as the product label directs. We do not apply directly to water features, open blooms, vegetable gardens, or bare soil.",
   },
   {
     question: 'Do I need to be home during the treatment?',
-    answer: "No. You don't need to be home as long as our technicians have unobstructed access to your outdoor areas. We'll send an SMS notification before arriving, and a follow-up email with the complete treatment log — what was treated, any observations, and your protection window end date. We place a small lawn sign at the front confirming treatment completion.",
+    answer: "No. You don't need to be home as long as our technicians have unobstructed access to your outdoor areas. We'll send an SMS notification before arriving, and a follow-up email with the complete treatment log — what was treated, any observations, and when your next visit is due. We place a small lawn sign at the front confirming treatment completion.",
   },
   {
     question: 'What happens if it rains right after treatment?',
-    answer: "Our formula bonds to leaf surfaces as it dries. If significant rain falls within one hour of application — before the product has fully cured — we return and re-treat your property at no charge. This rain-back guarantee applies to every service visit.",
+    answer: "If it rains within 1 hour of your treatment, we come back and re-treat your property free. This rain-back guarantee comes with every plan.",
   },
   {
     question: 'How long does protection last?',
-    answer: "Each treatment provides up to 30 days of residual protection on treated surfaces. For continuous season-long coverage, we recommend treatments every 21–28 days. Our standard seasonal program runs from May through September — 5 treatments covering the full active mosquito and tick season in Ontario.",
+    answer: "We don't promise a fixed number of days: how long a treatment keeps working depends on weather, rain and the mosquito pressure around your yard. That is why season plans repeat on a set schedule from May through September: Basic is 5 sprays, monthly ($549); Standard is 10 sprays, every 2 weeks ($994, our most popular); and Exclusive is 20+ sprays, weekly ($2,049), all plus HST. Tick control is 5 sprays per season. Rain within 1 hour of your treatment? We come back and re-treat free, on every plan.",
   },
   {
     question: 'Does it work for ticks too?',
-    answer: "Yes. The same barrier spray application that controls mosquitoes also provides effective tick control. We apply to the low vegetation, ground cover, shrub borders, and shaded areas at the base of trees and fence lines where ticks congregate. One treatment addresses both pests. Many GTA homeowners near ravines and green corridors choose our combined mosquito and tick program for complete yard protection.",
+    answer: "Yes. Tick treatment uses barrier spray too, but it goes to different places: the low vegetation, ground cover, shrub borders, and shaded areas at the base of trees and fence lines where ticks congregate. It can be done on the same visit as your mosquito treatment. Tick control is 5 sprays per season: $597 on its own, or $497 added to any mosquito plan. Many GTA homeowners near ravines and green corridors choose the combined mosquito and tick program.",
   },
 ]
 
@@ -62,13 +64,15 @@ export default function HowItWorksPage() {
 
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
-          <span>✓ No Home Visit Required</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
+          <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
+
+      <TypicalPrices service="mosquito" />
 
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
@@ -103,16 +107,16 @@ export default function HowItWorksPage() {
             <div className="flex gap-5">
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500 text-white font-extrabold flex items-center justify-center text-lg">4</div>
               <div>
-                <h3 className="text-xl font-bold text-brand-900 mb-2">30-Minute Dry Time</h3>
-                <p className="text-gray-600">Keep children and pets off treated vegetation for 30 minutes while the product dries. Once dry, treated areas are fully safe. The product is odourless once dry and invisible on treated surfaces.</p>
+                <h3 className="text-xl font-bold text-brand-900 mb-2">Let the Spray Dry</h3>
+                <p className="text-gray-600">Keep children and pets off treated vegetation until the spray has dried, as the product label directs. The product is odourless once dry and invisible on treated surfaces.</p>
               </div>
             </div>
 
             <div className="flex gap-5">
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500 text-white font-extrabold flex items-center justify-center text-lg">5</div>
               <div>
-                <h3 className="text-xl font-bold text-brand-900 mb-2">Up to 30 Days of Protection</h3>
-                <p className="text-gray-600">The residual formula remains active on treated surfaces for up to 30 days. Mosquitoes and ticks that land on treated vegetation are eliminated on contact throughout this window. We recommend reapplication every 21–28 days for continuous seasonal protection.</p>
+                <h3 className="text-xl font-bold text-brand-900 mb-2">Repeat Visits Through the Season</h3>
+                <p className="text-gray-600">The residual formula stays on treated leaf surfaces between visits, and visits repeat on your plan&apos;s schedule: monthly (Basic, 5 sprays), every 2 weeks (Standard, 10 sprays) or weekly (Exclusive, 20+ sprays). {PROMISES.rainBack} {PROMISES.biteFreeScope}.</p>
               </div>
             </div>
 
@@ -120,7 +124,7 @@ export default function HowItWorksPage() {
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500 text-white font-extrabold flex items-center justify-center text-lg">6</div>
               <div>
                 <h3 className="text-xl font-bold text-brand-900 mb-2">Treatment Log + Lawn Sign</h3>
-                <p className="text-gray-600">After each visit, we place a small lawn sign at the front of your property confirming treatment. You receive a follow-up email with your complete treatment log: surfaces treated, technician observations, and your protection window end date.</p>
+                <p className="text-gray-600">After each visit, we place a small lawn sign at the front of your property confirming treatment. You receive a follow-up email with your complete treatment log: surfaces treated, technician observations, and when your next visit is due.</p>
               </div>
             </div>
           </div>
@@ -154,6 +158,10 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" location="price_card_faq" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Common Questions About How It Works</h2>
@@ -173,7 +181,7 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
-      <CTASection heading="Ready to Protect Your Yard?" subtext="Professional mosquito and tick barrier spray — Health Canada approved, safe for kids and pets. No contracts." />
+      <CTASection heading="Ready to Protect Your Yard?" subtext="Professional mosquito and tick barrier spray — applied according to label directions by a licensed Ontario operator. No contracts." />
     </>
   )
 }

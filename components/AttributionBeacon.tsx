@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
-import { getLandingPage, getReferrer } from '@/lib/attribution'
+import { getLandingPage, getReferrer, getUtm } from '@/lib/attribution'
 
 /**
  * Stamps first-touch attribution on the FIRST page of the visit.
@@ -37,6 +37,7 @@ export default function AttributionBeacon() {
     // Both read-or-write a cookie; calling them here is what makes "first touch" true.
     getLandingPage()
     getReferrer()
+    getUtm()
   }, [])
 
   return null

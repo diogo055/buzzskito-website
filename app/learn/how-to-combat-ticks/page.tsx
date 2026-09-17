@@ -3,7 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
-import { SITE_URL } from '@/lib/constants'
+import { SITE_URL, PROMISES } from '@/lib/constants'
 
 const SLUG = 'how-to-combat-ticks'
 const TITLE = 'How to Combat Ticks in Ontario — 10-Step Yard &amp; Family Guide'
@@ -15,16 +15,16 @@ const STEPS: { name: string; text: string }[] = [
   { name: 'Move play areas away from the yard edge', text: 'Position swing sets, sandboxes, and patios toward the centre of the yard and away from the lawn-to-woods transition, where tick density is highest. Distance from the edge dramatically lowers exposure for kids and pets.' },
   { name: 'Discourage tick-carrying wildlife', text: 'Mice and deer ferry ticks into your yard. Secure garbage, remove bird feeders that draw rodents, and use fencing or deer-resistant planting to reduce the animals that restock ticks each season.' },
   { name: 'Dress defensively in tick habitat', text: 'When hiking, gardening, or working near brush, wear long sleeves and light-coloured clothing, tuck pants into socks, and consider permethrin-treated clothing so ticks are repelled before they reach skin.' },
-  { name: 'Use tick repellent on skin and gear', text: 'Apply a Health Canada-approved repellent with DEET or icaridin (picaridin) to exposed skin. For pets, ask your vet about a tick-preventive product, since dogs frequently carry ticks indoors.' },
+  { name: 'Use tick repellent on skin and gear', text: 'Apply a personal insect repellent with DEET or icaridin (picaridin) to exposed skin, following its label (look for the PCP number on the package). For pets, ask your vet about a tick-preventive product, since dogs frequently carry ticks indoors.' },
   { name: 'Do a full-body tick check every time', text: 'After any time outdoors, check the whole body — especially the scalp, behind the ears, underarms, waistband, and behind the knees. Because nymphs are the size of a poppy seed, careful checking is your most important daily habit.' },
   { name: 'Remove any tick promptly and correctly', text: 'Use fine-tipped tweezers to grasp the tick close to the skin and pull straight out with steady pressure — do not twist or crush it. Prompt removal within 24 hours sharply lowers the chance of Lyme transmission.' },
-  { name: 'Apply a professional tick barrier spray', text: 'Have a licensed technician treat the specific 1-3 metre yard-edge zones where ticks concentrate. A residual tick barrier spray kills questing nymphs and adults on contact and is the single most effective yard-level intervention across the season.' },
+  { name: 'Apply a professional tick barrier spray', text: 'Have a licensed technician treat the specific 1-3 metre yard-edge zones where ticks concentrate. The treatment targets the leaf litter, edge vegetation, and ground cover where questing nymphs and adults wait, and it is repeated through the season (5 sprays) because ticks are active at different life stages.' },
 ]
 
 const FAQS = [
   {
     question: 'What is the best way to get rid of ticks in a yard?',
-    answer: 'The best way to get rid of ticks in a yard is to combine habitat reduction — mowing short, clearing leaf litter, and adding a dry woodchip barrier at the yard edge — with a professional tick barrier spray applied to the shaded transition zones where ticks quest. Habitat changes shrink where ticks can live, and the barrier spray kills the ticks that remain, giving families season-long protection.',
+    answer: 'The best way to get rid of ticks in a yard is to combine habitat reduction — mowing short, clearing leaf litter, and adding a dry woodchip barrier at the yard edge — with a professional tick barrier spray applied to the shaded transition zones where ticks quest. Habitat changes shrink where ticks can live, and the barrier spray treats the edge zones where the remaining ticks wait. Keep doing tick checks either way, as public health agencies advise.',
   },
   {
     question: 'Does mowing the lawn reduce ticks?',
@@ -32,7 +32,7 @@ const FAQS = [
   },
   {
     question: 'How do I protect my kids and pets from ticks?',
-    answer: 'Protect kids and pets by moving play areas away from the yard edge, keeping the lawn short, using repellent and (for dogs) a vet-recommended tick preventive, and doing a full-body tick check after every outing — focusing on the scalp, behind the ears, and skin folds. A professional tick barrier spray on the yard-edge zones reduces the ticks they can encounter in the first place.',
+    answer: 'Protect kids and pets by moving play areas away from the yard edge, keeping the lawn short, using repellent and (for dogs) a vet-recommended tick preventive, and doing a full-body tick check after every outing — focusing on the scalp, behind the ears, and skin folds. A professional tick barrier spray treats the yard-edge zones where ticks wait; it adds to these habits rather than replacing them.',
   },
 ]
 
@@ -40,7 +40,7 @@ const howToSchema = {
   '@context': 'https://schema.org',
   '@type': 'HowTo',
   name: 'How to Combat Ticks in Your Ontario Yard',
-  description: 'A 10-step plan to reduce ticks and protect your family in Ontario — habitat reduction, barriers, repellent, tick checks, safe removal, and professional barrier spray.',
+  description: 'A 10-step plan to reduce ticks and protect your family in Ontario — habitat reduction, barriers, repellent, tick checks, prompt removal, and professional barrier spray.',
   totalTime: 'P1D',
   step: STEPS.map((s, i) => ({
     '@type': 'HowToStep',
@@ -55,7 +55,7 @@ const howToSchema = {
   ],
   supply: [
     { '@type': 'HowToSupply', name: 'Woodchips or gravel for a tick barrier' },
-    { '@type': 'HowToSupply', name: 'Health Canada-approved tick barrier spray formula' },
+    { '@type': 'HowToSupply', name: 'Residual tick barrier spray, applied by a licensed operator according to the label' },
     { '@type': 'HowToSupply', name: 'DEET or icaridin repellent' },
   ],
 }
@@ -83,13 +83,13 @@ export default function HowToCombatTicksPage() {
             <span className="text-white">How to Combat Ticks</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">How to Combat Ticks in Ontario — 10-Step Yard &amp; Family Guide</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Ten steps to keep blacklegged ticks — and the Lyme disease they carry — away from your family, from yard-edge barriers to safe tick removal.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Ten steps to cut your family&rsquo;s contact with blacklegged ticks, which can carry Lyme disease — from yard-edge barriers to correct tick removal.</p>
         </div>
       </section>
 
       <QuickAnswer question="How do you combat ticks in a yard?">
         <p>
-          <strong>To combat ticks, keep grass short, clear leaf litter, build a dry woodchip barrier between lawn and woods, use repellent, do a full-body tick check after every outing, and apply a professional tick barrier spray to the yard edges where ticks quest.</strong> Ticks concentrate in the shaded, humid transition between lawn and woods, so shrinking that habitat and treating it directly is the most effective protection. BuzzSkito targets exactly those zones with a Health Canada-approved barrier spray.
+          <strong>To combat ticks, keep grass short, clear leaf litter, build a dry woodchip barrier between lawn and woods, use repellent, do a full-body tick check after every outing, and apply a professional tick barrier spray to the yard edges where ticks quest.</strong> Ticks concentrate in the shaded, humid transition between lawn and woods, so shrinking that habitat and treating it directly is where yard work pays off. BuzzSkito treats exactly those zones, with products applied according to label directions.
         </p>
       </QuickAnswer>
 
@@ -111,10 +111,10 @@ export default function HowToCombatTicksPage() {
           </ol>
 
           <h2>Why This Order Matters</h2>
-          <p>Steps 1 through 5 are <strong>habitat reduction</strong> — they make your yard a place ticks cannot thrive. Ticks live and die by humidity, so a short lawn, cleared leaf litter, and a dry barrier at the woods edge do more than any single product. Steps 6 through 9 are <strong>personal protection</strong>: the clothing, repellent, checks, and safe removal that stop a tick from ever attaching, or catch it before it can transmit disease. Step 10, a professional <Link href="/tick-control">tick barrier spray</Link>, is the one intervention that works independently of tick stage, killing questing nymphs and adults exactly where they concentrate. Read the deeper playbook in <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">how to keep ticks out of your yard</Link> and the <Link href="/blog/ultimate-tick-control-guide-ontario">ultimate tick control guide for Ontario</Link>.</p>
+          <p>Steps 1 through 5 are <strong>habitat reduction</strong> — they make your yard a place ticks cannot thrive. Ticks live and die by humidity, so a short lawn, cleared leaf litter, and a dry barrier at the woods edge do more than any single product. Steps 6 through 9 are <strong>personal protection</strong>: the clothing, repellent, checks, and prompt removal that stop a tick from ever attaching, or catch it before it can transmit disease. Step 10, a professional <Link href="/tick-control">tick barrier spray</Link>, treats the edge zones where questing nymphs and adults concentrate, whatever stage is active that month. Read the deeper playbook in <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">how to keep ticks out of your yard</Link> and the <Link href="/blog/ultimate-tick-control-guide-ontario">ultimate tick control guide for Ontario</Link>.</p>
 
           <h2>Protecting Kids and Pets</h2>
-          <p>Children and dogs are the most common way ticks come indoors, so they deserve extra attention. Move play structures toward the sunny centre of the yard, do a thorough check of kids after outdoor play, and ask your veterinarian about a tick preventive for pets. For a family-safe treatment approach, see <Link href="/blog/tick-prevention-yard-ontario-safe-for-kids">tick prevention safe for kids</Link>, and for the details of catching ticks early, our step-by-step <Link href="/blog/how-to-do-a-tick-check">tick check guide</Link> and <Link href="/blog/how-to-remove-tick-safely">how to remove a tick safely</Link>.</p>
+          <p>Children and dogs are the most common way ticks come indoors, so they deserve extra attention. Move play structures toward the sunny centre of the yard, do a thorough check of kids after outdoor play, and ask your veterinarian about a tick preventive for pets. For yard treatment with kids in mind, see <Link href="/blog/tick-prevention-yard-ontario-safe-for-kids">tick prevention in a family yard</Link>, and for the details of catching ticks early, our step-by-step <Link href="/blog/how-to-do-a-tick-check">tick check guide</Link> and <Link href="/blog/how-to-remove-tick-safely">how to remove a tick safely</Link>.</p>
 
           <h2>Common Mistakes to Avoid</h2>
           <ul>
@@ -126,7 +126,7 @@ export default function HowToCombatTicksPage() {
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Let us handle step 10 for you</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito treats the exact yard-edge zones where ticks quest — 5 sprays per season, Health Canada-approved formula, 150 five-star reviews across the GTA.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito treats the exact yard-edge zones where ticks quest — 5 sprays per season, products applied according to label directions, 150+ five-star reviews across the GTA.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -137,7 +137,7 @@ export default function HowToCombatTicksPage() {
           <ul>
             <li><Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">How to Keep Ticks Out of Your Yard</Link></li>
             <li><Link href="/blog/ultimate-tick-control-guide-ontario">Ultimate Tick Control Guide for Ontario</Link></li>
-            <li><Link href="/blog/tick-prevention-yard-ontario-safe-for-kids">Tick Prevention Safe for Kids</Link></li>
+            <li><Link href="/blog/tick-prevention-yard-ontario-safe-for-kids">Tick Prevention in a Family Yard</Link></li>
             <li><Link href="/blog/how-to-remove-tick-safely">How to Remove a Tick Safely</Link></li>
             <li><Link href="/blog/how-to-do-a-tick-check">How to Do a Tick Check</Link></li>
             <li><Link href="/learn/tick-life-cycle">The Tick Life Cycle Explained</Link></li>
@@ -159,7 +159,7 @@ export default function HowToCombatTicksPage() {
         </div>
       </article>
 
-      <CTASection heading="Keep Ticks Off Your Family" subtext="Get a free quote for licensed tick barrier spray. 5 sprays per season. Health Canada-approved." variant="dark" />
+      <CTASection heading="Take On the Ticks in Your Yard" subtext={`Get a free quote for licensed tick barrier spray: 5 sprays per season, $597 on its own or $497 with a mosquito plan (plus HST). ${PROMISES.response}`} variant="dark" />
     </>
   )
 }

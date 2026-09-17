@@ -39,11 +39,11 @@ const FAQS = [
   },
   {
     question: 'What repellent actually works against no-see-ums?',
-    answer: 'Health Canada registered repellents containing DEET or picaridin (also called icaridin) are effective against biting midges when applied to exposed skin, and oil of lemon eucalyptus is a plant-based option. Because midges target ankles, wrists, and the hairline, cover those areas well. For clothing and gear, permethrin-treated fabric adds a strong barrier. A patio fan and long, light-coloured sleeves at dawn and dusk cut bites further.',
+    answer: 'Repellents containing DEET or picaridin (also called icaridin) that carry a Canadian PCP registration number are effective against biting midges when applied to exposed skin, and oil of lemon eucalyptus is a plant-based option. Because midges target ankles, wrists, and the hairline, cover those areas well. For clothing and gear, permethrin-treated fabric adds a strong barrier. A patio fan and long, light-coloured sleeves at dawn and dusk cut bites further.',
   },
   {
     question: 'How do I get rid of no-see-ums in my yard?',
-    answer: 'Reduce the moist breeding habitat first: fix drainage so water does not pool, clear soggy leaf litter and thick damp mulch, and keep gutters and low spots draining. Run a fan on seating areas because midges cannot fly against moving air. For heavy or recurring pressure near water, a professional barrier treatment applied to shaded vegetation, damp edges, and resting sites knocks down the adult population where it rests during the day.',
+    answer: 'Reduce the moist breeding habitat first: fix drainage so water does not pool, clear soggy leaf litter and thick damp mulch, and keep gutters and low spots draining. Run a fan on seating areas because midges cannot fly against moving air. For heavy or recurring pressure near water, a professional barrier treatment applied to shaded vegetation, damp edges, and resting sites targets the adult population where it rests during the day.',
   },
   {
     question: 'Are no-see-um bites dangerous in Ontario?',
@@ -94,7 +94,7 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
               <li>Standard window screens have openings of about 1.1–1.5 mm; keeping midges out requires no-see-um mesh of roughly 20×20 or finer (about 0.6 mm openings).</li>
               <li>They are worst in Ontario from late May through August, at dawn and dusk on warm, humid, still evenings near water.</li>
               <li>Bites start as a sharp, burning pinprick and swell into itchy clustered welts that can linger for days.</li>
-              <li>Health Canada registered repellents with DEET or picaridin (icaridin) work against biting midges, and a fan grounds them because they are weak fliers.</li>
+              <li>Repellents with DEET or picaridin (icaridin) and a PCP registration number on the label work against biting midges, and a fan grounds them because they are weak fliers.</li>
               <li>Ontario&rsquo;s biting midges are an itchy nuisance rather than significant carriers of human disease.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
@@ -166,7 +166,7 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
 
           <aside aria-label="Professional yard protection" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Midges rest in your yard&rsquo;s damp, shaded edges — we treat exactly those zones</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Biting midges and mosquitoes shelter in the same shaded, humid vegetation during the day. A barrier spray applied to those resting sites knocks the adults down where they wait. BuzzSkito protects GTA yards with seasonal programs and single treatments from $99, backed by 150+ five-star reviews.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Biting midges and mosquitoes shelter in the same shaded, humid vegetation during the day. A barrier spray applied to those resting sites targets the adults where they wait. BuzzSkito treats GTA yards with seasonal programs and single treatments from $99, backed by 150+ five-star reviews.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -187,7 +187,7 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
             <li><strong>Time it.</strong> Avoid still, humid dawn and dusk hours near water when you can, or move to a breezier spot.</li>
             <li><strong>Use a fan.</strong> On a patio or dock, a simple oscillating fan is one of the most effective tools there is — midges can&rsquo;t fly against moving air.</li>
             <li><strong>Cover up.</strong> Long, light-coloured sleeves and pants at dusk reduce exposed skin, especially at the ankles and wrists where midges love to feed.</li>
-            <li><strong>Apply a proven repellent.</strong> Health Canada registered products with <strong>DEET</strong> or <strong>picaridin (icaridin)</strong> work against biting midges; oil of lemon eucalyptus is a plant-based option. Cover ankles, wrists, and the hairline well.</li>
+            <li><strong>Apply a proven repellent.</strong> Products with <strong>DEET</strong> or <strong>picaridin (icaridin)</strong> and a PCP registration number on the label work against biting midges; oil of lemon eucalyptus is a plant-based option. Cover ankles, wrists, and the hairline well.</li>
             <li><strong>Treat clothing and gear.</strong> <strong>Permethrin</strong>-treated fabric adds a strong barrier for repeat exposure at the cottage or on trails.</li>
           </ol>
           <p>Not sure which skin repellent to reach for? Our guide on <Link href="/blog/picaridin-vs-deet">picaridin vs DEET in Canada</Link> breaks down which active fits which situation. To shop current options:</p>
@@ -199,10 +199,10 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
           <TopPick tag={AMZ_TAG}
             label="Best Repellent for No-See-Ums"
             name="Picaridin (Icaridin) Insect Repellent"
-            blurb="For biting midges, a Health Canada registered picaridin (icaridin) repellent is the most practical single pick — it protects the ankles, wrists, and hairline where no-see-ums feed, without DEET's oily feel or plastic-damaging tendencies. Apply to all exposed skin at dawn and dusk near water."
+            blurb="For biting midges, a picaridin (icaridin) repellent with a Canadian PCP registration number on the label is the most practical single pick — it protects the ankles, wrists, and hairline where no-see-ums feed, without DEET's oily feel or plastic-damaging tendencies. Apply to all exposed skin at dawn and dusk near water."
             search="picaridin insect repellent canada"
             score={8.6}
-            pros={['Effective against midges and mosquitoes', 'Non-greasy, low odour, won’t harm gear', 'Safe on exposed skin when label is followed']}
+            pros={['Effective against midges and mosquitoes', 'Non-greasy, low odour, won’t harm gear', 'Labelled for use on exposed skin — follow the directions']}
             cons={['Reapply as the label directs', 'A fan or fine mesh still helps in heavy swarms']}
           />
           <p>A <strong>Thermacell</strong>-style area repeller can also help create a small protected zone on a still patio, working alongside a fan rather than replacing it.</p>
@@ -253,7 +253,7 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="Too Small to See, Big Enough to Ruin the Evening" subtext="Biting midges and mosquitoes rest in the same damp, shaded yard zones. One barrier treatment targets them at the source. From $99." variant="dark" />
+      <CTASection heading="Too Small to See, Big Enough to Ruin the Evening" subtext="Biting midges and mosquitoes rest in the same damp, shaded yard zones. One barrier treatment targets those resting zones. From $99." variant="dark" />
     </>
   )
 }

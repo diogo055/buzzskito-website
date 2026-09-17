@@ -4,24 +4,26 @@ import CTASection from '@/components/CTASection'
 import BlogCard from '@/components/BlogCard'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { BUSINESS, CITIES, MOSQUITO_BLOGS } from '@/lib/constants'
+import { BUSINESS, CITIES, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control GTA · From $99 · 150+ Reviews',
   description:
-    'GTA mosquito control · 150+ five-star reviews. Health Canada-approved barrier spray from $99, no contracts, free re-spray. 19+ cities served. (289) 216-5030.',
+    'GTA mosquito control · 150+ five-star reviews. Licensed barrier spray from $99, no contracts, rain-back guarantee. 19+ cities served. (289) 216-5030.',
   canonical: '/mosquito-control',
 })
 
 const FAQS = [
-  { question: 'How does professional mosquito barrier spray work?', answer: 'BuzzSkito applies a fine residual mist to shrubs, vegetation, and the underside of leaves where mosquitoes rest during the day. The formula kills mosquitoes on contact and remains active for up to 30 days, creating a continuous protective barrier around your property.' },
-  { question: 'How many mosquito treatments do I need per season?', answer: 'We recommend 5 treatments throughout the season — typically May, June, July, August, and September — to maintain continuous 30-day protection during peak mosquito activity in the GTA.' },
-  { question: 'Is the mosquito spray safe for children and pets?', answer: 'Yes. We use Health Canada–approved, water-based barrier spray formulas. Children and pets can safely return to treated areas 30 minutes after application, once the product has dried.' },
-  { question: 'What is the best time of year to start mosquito control in Ontario?', answer: 'Start in early May, as mosquito populations begin building once temperatures consistently exceed 10°C. Early treatment prevents populations from establishing before peak season in June and July.' },
+  { question: 'How does professional mosquito barrier spray work?', answer: 'BuzzSkito applies a fine residual mist to shrubs, vegetation, and the underside of leaves where mosquitoes rest during the day. The product is applied according to its label directions and dries onto those surfaces as a residual barrier, and scheduled repeat visits keep that barrier in place through the season.' },
+  { question: 'How many mosquito treatments do I need per season?', answer: 'We recommend at least 5 treatments through the season — typically May, June, July, August, and September (the Basic plan, $549). Most GTA homes choose the Standard plan, 10 sprays every 2 weeks for $994, for steadier coverage through peak mosquito activity. Prices are for a standard lot under 10,000 sq ft, plus HST.' },
+  { question: 'What precautions apply for children and pets after a mosquito treatment?', answer: 'Our licensed technicians apply water-based barrier products according to their label directions. Keep children and pets off treated areas until the spray has dried, as the product label directs.' },
+  { question: 'What is the best time of year to start mosquito control in Ontario?', answer: 'Start in early May, as mosquito populations begin building once temperatures consistently exceed 10°C. Starting early puts the barrier in place before peak season in June and July.' },
   { question: 'Do you service my city?', answer: 'BuzzSkito serves 19 cities across the GTA including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Richmond Hill, Markham, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, Woodbridge, and Thornhill. See our full service areas page for details.' },
   { question: 'Is there mosquito control near me?', answer: 'If you live anywhere in the Greater Toronto Area, yes — BuzzSkito is a locally owned Mississauga-based mosquito and tick control specialist covering 19 GTA cities and 30+ neighbourhoods. Searching "mosquito control near me" almost certainly puts you inside our service zone, so you get a nearby licensed technician (Ontario licence L-240-2436835197) rather than a national call centre, backed by 150+ five-star reviews and zero negative reviews.' },
-  { question: 'How fast can you come out to spray?', answer: 'Most new bookings are treated within 24 to 48 hours, and during peak season (June and July) we can often fit same-week appointments. Because we are based locally in Mississauga and run a GTA-wide route, there is no long wait for a technician to travel out — call (289) 216-5030 or request a free quote and we will confirm the soonest available slot for your area.' },
+  { question: 'How fast can you come out to spray?', answer: 'Most requests get a price the same day and most new bookings are treated within 24 to 48 hours, and during peak season (June and July) we can often fit same-week appointments. Because we are based locally in Mississauga and run a GTA-wide route, there is no long wait for a technician to travel out — call (289) 216-5030 or request a free quote and we will confirm the soonest available visit window for your area.' },
 ]
 
 export default function MosquitoControlPage() {
@@ -40,20 +42,22 @@ export default function MosquitoControlPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Mosquito Control' }]}
         title={<>Professional Mosquito Control</>}
         titleAccent={<>for GTA Homes</>}
-        subtitle={<>Barrier spray treatments that eliminate mosquitoes in your yard and keep them away for up to 30 days. Serving 19 cities across the Greater Toronto Area.</>}
+        subtitle={<>Licensed Ontario pesticide operator serving 19 cities across the Greater Toronto Area. Barrier spray treatments applied according to label directions.</>}
         image="/spray-backyard.webp"
       >
         <p className="mt-5 text-brand-300 text-sm">
-          Also offering <Link href="/tick-control" className="text-brand-400 underline hover:text-white">tick control</Link> — bundle both services for complete yard protection.
+          Also offering <Link href="/tick-control" className="text-brand-400 underline hover:text-white">tick control</Link> — bundle both services in one visit.
         </p>
       </CityHero>
 
       {/* QUICK ANSWER — AI Overview & ChatGPT bait */}
       <QuickAnswer question="What is the best mosquito control for GTA homes in 2026?">
         <p>
-          <strong>Professional Health Canada-approved barrier spray is the most effective mosquito control method for residential GTA properties.</strong> BuzzSkito applies a residual barrier to vegetation, shrubs, fence lines, and shaded resting zones — the specific micro-habitats where mosquitoes rest during the day. One treatment provides 21–30 days of protection. Recommended schedule for GTA homes: <strong>10 bi-weekly treatments from May through September ($994 for the Standard plan)</strong>, or single treatments from $99. Free re-spray guarantee if mosquitoes return within the protection window. BuzzSkito serves 19 GTA cities with 150+ five-star Google reviews.
+          <strong>For residential GTA properties, BuzzSkito recommends professional barrier spray from a licensed Ontario operator, applied according to label directions.</strong> BuzzSkito applies a residual barrier to vegetation, shrubs, fence lines, and shaded resting zones — the specific micro-habitats where mosquitoes rest during the day. Recommended schedule for GTA homes: <strong>10 bi-weekly treatments from May through September ($994 for the Standard plan)</strong>, or single treatments from $99 on a standard lot. Rain within 1 hour of a treatment is re-treated free on every plan, and Standard &amp; Exclusive plans carry the Bite-Free Guarantee. BuzzSkito serves 19 GTA cities with 150+ five-star Google reviews.
         </p>
       </QuickAnswer>
+
+      <TypicalPrices service="mosquito" city="GTA" />
 
       {/* KEY FACTS — extractable for AI */}
       <section className="py-10 px-4 bg-white border-b border-gray-100">
@@ -65,14 +69,14 @@ export default function MosquitoControlPage() {
                 {[
                   ['Service', 'Mosquito barrier spray (residential & commercial)'],
                   ['Coverage area', '19 GTA cities + 30+ neighbourhoods'],
-                  ['Single treatment price', 'From $99'],
+                  ['Single treatment price', 'From $99 (standard lot under 10,000 sq ft, plus HST)'],
                   ['Standard season', '$994 · 10 sprays bi-weekly · May–Sep'],
-                  ['Protection duration', '21–30 days per treatment'],
-                  ['Re-entry time', '30 minutes after spray dries'],
-                  ['Active ingredients', 'Health Canada–registered pyrethrin formulations'],
-                  ['Safe for kids and pets', 'Yes, after 30-minute dry time'],
+                  ['Sprays per season', '5, 10 or 20+ (tick: 5)'],
+                  ['Re-entry', 'Stay off treated areas until the spray has dried, as the label directs'],
+                  ['Application', PROMISES.labelLine],
+                  ['Licence', PROMISES.licence],
                   ['Tick add-on', '$497 bundled (saves $100 vs $597 standalone)'],
-                  ['Guarantee', 'Free re-spray if mosquitoes return within window'],
+                  ['Guarantee', 'Rain-back on every plan; Bite-Free on Standard & Exclusive'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -106,7 +110,7 @@ export default function MosquitoControlPage() {
             </div>
             <div className="bg-white rounded-2xl p-5 border border-brand-200 text-center">
               <div className="text-brand-700 font-extrabold text-lg mb-1">Booked in 24&ndash;48 hrs</div>
-              <p className="text-gray-600 text-sm">Often same-week in peak season, backed by our Bite-Free Guarantee.</p>
+              <p className="text-gray-600 text-sm">Often same-week in peak season. {PROMISES.response} {PROMISES.rainBackShort}.</p>
             </div>
           </div>
 
@@ -141,15 +145,15 @@ export default function MosquitoControlPage() {
         <div className="max-w-5xl mx-auto">
           <p className="kicker mb-3 text-center">Our Service</p>
           <h2 id="whats-included" className="h2-display text-brand-900 mb-4 text-center">What's Included in Every Mosquito Treatment</h2>
-          <p className="text-center text-gray-500 mb-10 max-w-2xl mx-auto">Each BuzzSkito mosquito control service follows a proven process that delivers immediate results and lasting protection.</p>
+          <p className="text-center text-gray-500 mb-10 max-w-2xl mx-auto">Each BuzzSkito mosquito control service follows the same careful process on every visit.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { icon: '🎯', title: 'Targeted Barrier Application', desc: 'We spray all vegetation, shrubs, hedges, and the underside of leaves up to 10 feet high — wherever mosquitoes rest during the day.' },
-              { icon: '⚡', title: 'Immediate Kill-on-Contact', desc: 'Adult mosquitoes and larvae in treated areas are eliminated on contact within minutes of application.' },
-              { icon: '🛡️', title: 'Up to 30-Day Protection', desc: 'Residual formula continues working for up to 30 days, killing new mosquitoes that enter the treatment zone.' },
-              { icon: '💧', title: 'Rain-Resistant Formula', desc: 'Bonds to surfaces as it dries. Rain within one hour? We reapply at no cost.' },
-              { icon: '👶', title: 'Safe After 30 Minutes', desc: 'Health Canada–approved water-based formula. Kids and pets can return to the yard 30 minutes after application.' },
-              { icon: '🔁', title: 'Free Re-Spray Guarantee', desc: 'Not satisfied? We come back and re-treat at no charge. We stand behind every application we make.' },
+              { icon: '⚡', title: 'Contact Action Where Mosquitoes Rest', desc: 'The product goes on the shaded leaf undersides and shrub interiors where adult mosquitoes rest during the day.' },
+              { icon: '🛡️', title: 'Residual Barrier', desc: 'The product dries onto treated surfaces as a residual barrier, and scheduled repeat visits keep it in place through the season.' },
+              { icon: '💧', title: 'Rain-Back Guarantee', desc: PROMISES.rainBack },
+              { icon: '📋', title: 'Label-Directed Application', desc: 'Products applied according to label directions by a licensed technician. Keep kids and pets off treated areas until the spray has dried.' },
+              { icon: '🔁', title: 'Bite-Free Guarantee (Standard & Exclusive)', desc: BUSINESS.guarantee.description },
             ].map(({ icon, title, desc }) => (
               <div key={title} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="text-3xl mb-3" aria-hidden="true">{icon}</div>
@@ -161,12 +165,16 @@ export default function MosquitoControlPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" location="price_card_mid" />
+      </div>
+
       {/* Seasonal plan */}
       <section aria-labelledby="seasonal-plan" className="py-14 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <p className="kicker mb-3 text-center">Seasonal Plan</p>
           <h2 id="seasonal-plan" className="h2-display text-brand-900 mb-4 text-center">Recommended Seasonal Mosquito Schedule</h2>
-          <p className="text-center text-gray-500 mb-10 max-w-xl mx-auto">Five treatments from May through September keep your property mosquito-free all season with continuous 30-day coverage windows.</p>
+          <p className="text-center text-gray-500 mb-10 max-w-xl mx-auto">Five treatments from May through September, one a month, is our Basic plan ($549). Most GTA homes choose Standard: 10 sprays every 2 weeks ($994).</p>
           <div className="grid grid-cols-5 gap-2 sm:gap-4">
             {['May','June','July','August','September'].map((month, i) => (
               <div key={month} className="bg-white rounded-xl p-4 text-center shadow-sm border border-brand-200">
@@ -230,6 +238,10 @@ export default function MosquitoControlPage() {
         </div>
       </section>
 
+      <div className="max-w-3xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" />
+      </div>
+
       {/* FAQ */}
       <section aria-labelledby="faq" className="py-14 px-4 bg-white">
         <div className="max-w-3xl mx-auto">
@@ -252,7 +264,7 @@ export default function MosquitoControlPage() {
         </div>
       </section>
 
-      <CTASection heading="Ready for a Mosquito-Free Yard?" subtext="Get a free, no-obligation mosquito control quote for your GTA property." />
+      <CTASection heading="Ready to Take Back Your Yard?" subtext="Get a free, no-obligation mosquito control quote for your GTA property." />
     </>
   )
 }

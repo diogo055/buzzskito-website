@@ -152,11 +152,11 @@ const FAQS = [
   },
   {
     question: 'Are mosquitoes dangerous in Canada?',
-    answer: 'Yes, but the danger in Canada is disease transmission and nuisance bites rather than mass mortality. There is no endemic malaria in Canada, so the realistic mosquito risk is West Nile virus. The Public Health Agency of Canada reported 177 domestically-acquired WNV cases in 2024 — 60% (106) of which were neurological — and 1 reported death. That was well above the 2019–2023 five-year average of 82 cases, showing how mosquito-borne disease risk swings from year to year. A professional barrier spray that reduces the adult mosquito population around your home is the most direct way to lower that household exposure.',
+    answer: 'Yes, but the danger in Canada is disease transmission and nuisance bites rather than mass mortality. There is no endemic malaria in Canada, so the realistic mosquito risk is West Nile virus. The Public Health Agency of Canada reported 177 domestically-acquired WNV cases in 2024 — 60% (106) of which were neurological — and 1 reported death. That was well above the 2019–2023 five-year average of 82 cases, showing how mosquito-borne disease risk swings from year to year. Public health agencies advise protecting yourself from bites: use insect repellent as its label directs, cover up at dawn and dusk, and remove standing water where mosquitoes breed.',
   },
   {
     question: 'How many eggs does a mosquito lay?',
-    answer: 'A female mosquito typically lays 50 to 200 eggs per batch and can lay several batches during her life — thousands of eggs in total, according to the Canadian Wildlife Federation. Most species require a blood meal to develop each batch of eggs, which is why females bite. Eggs are usually laid on or near standing water, which is why eliminating standing water around a property is the single most effective DIY mosquito-control step.',
+    answer: 'A female mosquito typically lays 50 to 200 eggs per batch and can lay several batches during her life — thousands of eggs in total, according to the Canadian Wildlife Federation. Most species require a blood meal to develop each batch of eggs, which is why females bite. Eggs are usually laid on or near standing water, which is why removing standing water around a property is one of the most useful DIY mosquito-control steps.',
   },
   {
     question: 'Is malaria the reason mosquitoes are so deadly?',
@@ -306,7 +306,7 @@ export default function DeadliestAnimalInCanadaPage() {
       <section className="bg-gradient-to-br from-rose-50 via-orange-50 to-amber-50 py-14 px-4 border-y-4 border-rose-200">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-extrabold text-brand-900 mb-2">What is the deadliest animal in the world?</h2>
-          <p className="text-base text-gray-700 mb-8 max-w-3xl">The mosquito &mdash; and it is not close. The reason is disease, not bites. A single mosquito is harmless; a mosquito carrying a pathogen is the most efficient killing machine in the animal kingdom.</p>
+          <p className="text-base text-gray-700 mb-8 max-w-3xl">The mosquito &mdash; and it is not close. The reason is disease, not bites. A bite from an uninfected mosquito is mostly a nuisance; a mosquito carrying a pathogen is the most efficient killing machine in the animal kingdom.</p>
 
           <div className="grid lg:grid-cols-2 gap-6">
             <div className="rounded-2xl bg-white p-6 shadow-md border-2 border-gray-200">
@@ -383,7 +383,7 @@ export default function DeadliestAnimalInCanadaPage() {
       <section className="bg-gradient-to-br from-emerald-50 via-teal-50 to-blue-50 py-14 px-4 border-y-4 border-emerald-200">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-extrabold text-brand-900 mb-2">Are mosquitoes dangerous in Canada?</h2>
-          <p className="text-base text-gray-700 mb-8 max-w-3xl">Yes &mdash; through <Link href="/blog/west-nile-virus-mosquito-risk-ontario" className="text-brand-700 hover:underline">West Nile virus</Link>, not malaria. And the risk is not steady: Canadian WNV case counts swing dramatically from year to year, which is exactly why public-health agencies treat each season as unpredictable. In the GTA the 2025 season followed that pattern: Toronto Public Health confirmed WNV-positive mosquitoes in mid-July and a Toronto resident became Canada&rsquo;s first locally-acquired human case of the year, while Peel&rsquo;s first case was a Mississauga resident in September. Shrinking the adult Culex population around the house is the yard-level response &mdash; the job of a <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> or <Link href="/mississauga-mosquito-control" className="text-brand-700 hover:underline">Mississauga mosquito control</Link> barrier treatment.</p>
+          <p className="text-base text-gray-700 mb-8 max-w-3xl">Yes &mdash; through <Link href="/blog/west-nile-virus-mosquito-risk-ontario" className="text-brand-700 hover:underline">West Nile virus</Link>, not malaria. And the risk is not steady: Canadian WNV case counts swing dramatically from year to year, which is exactly why public-health agencies treat each season as unpredictable. In the GTA the 2025 season followed that pattern: Toronto Public Health confirmed WNV-positive mosquitoes in mid-July and a Toronto resident became Canada&rsquo;s first locally-acquired human case of the year, while Peel&rsquo;s first case was a Mississauga resident in September. At the yard level, homeowners can remove the standing water where Culex mosquitoes breed and have the shaded resting areas around the house treated &mdash; what a <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> or <Link href="/mississauga-mosquito-control" className="text-brand-700 hover:underline">Mississauga mosquito control</Link> barrier treatment does. Public health agencies still advise personal protection against bites.</p>
 
           <div className="rounded-2xl border-2 border-emerald-200 bg-white p-6 shadow-sm">
             <h3 className="text-lg font-extrabold text-brand-900 mb-1">West Nile virus &mdash; human cases in Canada (PHAC)</h3>
@@ -475,7 +475,7 @@ export default function DeadliestAnimalInCanadaPage() {
           <blockquote className="relative">
             <span className="absolute -top-6 -left-2 text-7xl text-amber-300 font-serif leading-none" aria-hidden="true">&ldquo;</span>
             <p className="text-xl sm:text-2xl font-extrabold text-brand-900 leading-relaxed pl-6">
-              People worry about sharks and bears, but the deadliest animal on Earth weighs a few milligrams. In Canada it won&rsquo;t give you malaria &mdash; what it can give you is West Nile virus, and the single best defence is shrinking the mosquito population around the homes where families actually live.
+              People worry about sharks and bears, but the deadliest animal on Earth weighs a few milligrams. In Canada it won&rsquo;t give you malaria &mdash; what it can give you is West Nile virus. So take bites seriously: follow public health advice on repellent and clothing, and get rid of the standing water where mosquitoes breed around your home.
             </p>
           </blockquote>
           <p className="text-sm font-bold text-amber-700 mt-5 pl-6">&mdash; Alex, BuzzSkito Mosquito &amp; Tick Control</p>
@@ -506,7 +506,7 @@ export default function DeadliestAnimalInCanadaPage() {
           <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">Protect your yard in the GTA</p>
           <h2 className="text-2xl sm:text-4xl font-extrabold mb-4">The world&rsquo;s deadliest animal is breeding in your backyard</h2>
           <p className="text-base text-brand-100 max-w-2xl mx-auto mb-8 leading-relaxed">
-            You can&rsquo;t change the global statistics &mdash; but you can shrink the mosquito population around your home. BuzzSkito&rsquo;s Health Canada-approved barrier spray cuts adult mosquitoes (and the West Nile virus risk they carry) across yards in Mississauga, Toronto, and the wider GTA. Backed by our Bite-Free Guarantee.
+            You can&rsquo;t change the global statistics &mdash; but you can deal with the mosquitoes around your home. BuzzSkito treats the shaded resting areas where adult mosquitoes spend the day, across yards in Mississauga, Toronto, and the wider GTA. Products applied according to label directions, with a rain-back guarantee on every plan.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
@@ -550,7 +550,7 @@ export default function DeadliestAnimalInCanadaPage() {
             </Link>
             <Link href="/mosquito-control" className="block rounded-2xl bg-white border-2 border-gray-200 hover:border-amber-400 p-6 shadow-sm transition-colors sm:col-span-2">
               <h3 className="text-lg font-extrabold text-brand-900 mb-1">Professional Mosquito Control &rarr;</h3>
-              <p className="text-sm text-gray-600">How BuzzSkito&rsquo;s Health Canada-approved barrier spray reduces the mosquito population around GTA homes.</p>
+              <p className="text-sm text-gray-600">How BuzzSkito&rsquo;s barrier spray treats the mosquito resting areas around GTA homes.</p>
             </Link>
           </div>
         </div>

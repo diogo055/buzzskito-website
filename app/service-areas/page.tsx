@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { Icon } from '@/components/Icon'
 import { buildMetadata, breadcrumbSchema, speakableSchema } from '@/lib/seo'
 import { CITIES } from '@/lib/constants'
@@ -76,6 +78,8 @@ export default function ServiceAreasPage() {
         </div>
       </section>
 
+      <TypicalPrices service="mosquito" city="GTA" />
+
       {/* Extended GTA cities */}
       <section aria-labelledby="extended-cities" className="py-16 px-4 bg-brand-50">
         <div className="max-w-6xl mx-auto">
@@ -109,6 +113,10 @@ export default function ServiceAreasPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" />
+      </div>
 
       {/* All city quick links */}
       <section aria-labelledby="all-links" className="py-12 px-4 bg-white">

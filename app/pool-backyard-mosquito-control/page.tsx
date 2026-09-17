@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import CityPriceCard from '@/components/CityPriceCard'
+import TypicalPrices from '@/components/TypicalPrices'
 import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
@@ -10,8 +12,8 @@ const SLUG = '/pool-backyard-mosquito-control'
 
 const FAQS = [
   {
-    question: 'Is mosquito spray safe to use around a swimming pool?',
-    answer: 'Yes — when applied correctly. BuzzSkito uses Health Canada-approved water-based barrier formulas applied as a fine mist to vegetation surrounding the pool deck (shrubs, garden beds, tree canopy, fence-line plantings). We do not apply product to pool water, the pool deck surface itself, or to any treated water surface. Once the mist dries on vegetation (approximately 30 minutes), it bonds to leaf surfaces and does not leach into pool water during rain. Maintaining a 1-2 metre buffer from the pool edge during application prevents any product drift onto the water.',
+    question: 'How is mosquito spray applied around a swimming pool?',
+    answer: 'BuzzSkito applies a water-based barrier formula according to its label directions, as a fine mist on the vegetation surrounding the pool deck (shrubs, garden beds, tree canopy, fence-line plantings). We do not apply product to pool water, the pool deck surface itself, or any water surface, and we keep a 1-2 metre buffer from the pool edge during application to keep drift off the water. Stay out of treated areas until the spray has dried, as the product label directs.',
   },
   {
     question: 'Why do backyard pools attract more mosquitoes than yards without pools?',
@@ -19,7 +21,7 @@ const FAQS = [
   },
   {
     question: 'Should I treat my pool cover for mosquitoes?',
-    answer: 'Pool covers — particularly mesh safety covers and tarp covers — collect rainwater that becomes prime mosquito breeding habitat within 5-7 days. We recommend either: (1) regularly removing standing water from the cover surface, (2) using pool cover pumps to keep cover water below 1 inch, or (3) treating standing water on covers with Health Canada-approved BTI larvicide which kills mosquito larvae but is safe for the pool water if accidentally introduced (BTI is the same active ingredient used in municipal mosquito control programs over drinking water reservoirs). BuzzSkito treats pool cover water as part of our standard pool property service.',
+    answer: 'Pool covers — particularly mesh safety covers and tarp covers — collect rainwater that becomes prime mosquito breeding habitat within 5-7 days. We recommend either: (1) regularly removing standing water from the cover surface, (2) using pool cover pumps to keep cover water below 1 inch, or (3) treating standing water on covers with a BTI larvicide, applied according to its label directions, which targets mosquito larvae (BTI is the same biological active ingredient used in municipal mosquito control programs). BuzzSkito treats pool cover water as part of our standard pool property service.',
   },
   {
     question: 'Can mosquitoes breed in a properly maintained swimming pool?',
@@ -31,21 +33,21 @@ const FAQS = [
   },
   {
     question: 'How does mosquito control work for a property with a koi pond or fish pond?',
-    answer: "Koi and fish ponds present a unique challenge: ponds with active fish populations don't typically need treatment because fish eat mosquito larvae. However, the pond margins (vegetation, rocks, water plants) and the surrounding garden vegetation provide adult mosquito habitat that needs barrier spray treatment. We use Health Canada-approved formulas safe for fish, and maintain documented 2-metre buffer zones around water surfaces. For ponds without fish that hold standing water (decorative water features without fish, dry creek beds with seasonal pooling), we apply BTI larvicide which is safe for any aquatic ecology but lethal to mosquito larvae.",
+    answer: "Koi and fish ponds present a unique challenge: ponds with active fish populations don't typically need treatment because fish eat mosquito larvae. However, the pond margins (vegetation, rocks, water plants) and the surrounding garden vegetation provide adult mosquito habitat that needs barrier spray treatment. We apply products according to their label directions and maintain documented 2-metre buffer zones around water surfaces. For ponds without fish that hold standing water (decorative water features without fish, dry creek beds with seasonal pooling), we apply a BTI larvicide, which targets mosquito larvae.",
   },
   {
     question: 'How much does pool yard mosquito control cost in the GTA?',
-    answer: 'Pool yard mosquito treatment in the GTA starts from $99 per visit for properties under 10,000 sq ft. Pool properties typically benefit from the full 5-treatment seasonal program ($549) due to the elevated breeding pressure pool environments create. Many pool clients add tick protection as a bundle ($497) for full season coverage of both. No contracts, BuzzSkito Bite-Free Guarantee, free re-treatment if pests return inside the protection window. Call (289) 216-5030 for a free pool property assessment.',
+    answer: 'Pool yard mosquito treatment in the GTA starts from $99 per visit for properties under 10,000 sq ft. Pool properties typically benefit from a season plan due to the elevated breeding pressure pool environments create: Basic (5 sprays, monthly, $549), Standard (10 sprays, every 2 weeks, $994) or Exclusive (20+ sprays, weekly, $2,049). Many pool clients add tick protection as a bundle ($497) for full season coverage of both. No contracts. Every plan carries the rain-back guarantee (rain within 1 hour of your treatment and we come back and re-treat free), and Standard & Exclusive plans add the BuzzSkito Bite-Free Guarantee. Prices are plus HST. Call (289) 216-5030 for a free pool property assessment.',
   },
   {
-    question: 'Is mosquito spray safe for my dog and kids if they go in the pool right after?',
-    answer: "Yes. Once the spray has dried on vegetation (approximately 30 minutes), the property is fully safe for children and dogs to use the pool, deck, and yard normally. The product does not transfer from leaves to swimsuits, towels, or skin. We schedule pool yard applications for early morning (before pool use) to ensure the drying window is complete before the family is using the yard. We do not apply product to pool water, the pool deck, or any surface that direct skin contact occurs on.",
+    question: 'When can my dog and kids use the pool yard after a mosquito treatment?',
+    answer: "Follow the product label: keep children and dogs off treated areas until the spray has dried. We apply to vegetation only, never to pool water, the pool deck, or any surface that direct skin contact occurs on, and we schedule pool yard applications for early morning (before pool use) so the spray has time to dry before the family is using the yard.",
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Pool & Backyard Mosquito Control GTA · From $99 · Pool-Safe Application',
-  description: "Specialist mosquito and tick spray for pool yards across the GTA. Health Canada-approved water-based formula, pool-safe application, BTI larvicide for pond/cover water. 150+ five-star reviews, BuzzSkito Bite-Free Guarantee. Call (289) 216-5030.",
+  title: 'Pool & Backyard Mosquito Control GTA · From $99 · Pool Buffer Zones',
+  description: "Specialist mosquito and tick spray for pool yards across the GTA. Water-based formula kept off pool water, BTI larvicide for pond/cover water. 150+ five-star reviews, rain-back guarantee on every plan. Call (289) 216-5030.",
   canonical: SLUG,
 })
 
@@ -70,27 +72,30 @@ export default function PoolBackyardMosquitoControlPage() {
         ]}
         title={<>Pool &amp; Backyard Mosquito Control GTA</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Specialist mosquito and tick barrier spray for backyards with pools, hot tubs, koi ponds, or water features. Pool-safe water-based formula. BTI larvicide for cover water and ponds. Designed to protect your family without compromising pool chemistry.</>}
+        subtitle={<>Licensed Ontario pesticide operator. Mosquito and tick barrier spray for backyards with pools, hot tubs, koi ponds, or water features, applied according to label directions and kept off the pool water.</>}
       >
-        <p className="mt-6 text-xs font-extrabold text-amber-400 uppercase tracking-widest">Pool-Safe Application · Health Canada Approved · GTA-Wide</p>
+        <p className="mt-6 text-xs font-extrabold text-amber-400 uppercase tracking-widest">Vegetation-Only Application · Licensed Ontario Operator · GTA-Wide</p>
       </CityHero>
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Pool-Safe Water-Based Formula</span>
+          <span>✓ Water-Based Formula, Kept Off Pool Water</span>
           <span>✓ Pool Cover &amp; Pond BTI Larvicide</span>
-          <span>✓ Safe for Kids &amp; Dogs (30 min dry)</span>
-          <span>✓ Health Canada-Approved</span>
+          <span>✓ Applied According to Label Directions</span>
+          <span>✓ Licensed Ontario Pesticide Operator</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
       <QuickAnswer question="Why do pool yards have more mosquitoes than yards without pools?">
         <p>
-          <strong>Pool yards consistently have higher mosquito populations than non-pool yards because of three structural factors: surrounding vegetation (pool landscaping = adult resting habitat), water sources (pool covers, koi ponds, decorative fountains, dog bowls), and microclimate (humidity and heat retention from hardscape).</strong> The pool itself usually isn&rsquo;t the problem — chlorinated, properly maintained pools kill mosquito larvae. The problem is everything around the pool. BuzzSkito&rsquo;s pool yard service treats the surrounding vegetation with Health Canada-approved water-based barrier spray (no contact with pool water), applies BTI larvicide to cover water and any non-fish ponds, and provides 21-30 days of residual protection per visit. Most GTA pool yards benefit from the full 5-treatment seasonal program from May through September.
+          <strong>Pool yards consistently have higher mosquito populations than non-pool yards because of three structural factors: surrounding vegetation (pool landscaping = adult resting habitat), water sources (pool covers, koi ponds, decorative fountains, dog bowls), and microclimate (humidity and heat retention from hardscape).</strong> The pool itself usually isn&rsquo;t the problem — chlorinated, properly maintained pools kill mosquito larvae. The problem is everything around the pool. BuzzSkito&rsquo;s pool yard service treats the surrounding vegetation with a water-based barrier spray applied according to label directions (never onto pool water), applies BTI larvicide to cover water and any non-fish ponds, and returns on your plan&rsquo;s schedule. Most GTA pool yards benefit from the full 5-treatment seasonal program from May through September.
         </p>
       </QuickAnswer>
+
+      {/* TYPICAL PRICES */}
+      <TypicalPrices service="mosquito" city="GTA" />
 
       {/* WHY POOL YARDS ATTRACT MOSQUITOES */}
       <section className="bg-white py-14 px-4">
@@ -105,7 +110,7 @@ export default function PoolBackyardMosquitoControlPage() {
             </div>
             <div className="rounded-2xl border-2 border-blue-200 bg-blue-50/30 p-6">
               <h3 className="text-lg font-extrabold text-brand-900 mb-3">💧 Pool covers</h3>
-              <p className="text-sm text-gray-700">Mesh safety covers and solid tarp covers both collect rainwater. Within 5-7 days of standing water, mosquitoes can complete a full breeding cycle on the surface of your pool cover — without ever touching the pool itself. Cover pumps reduce this risk; BTI larvicide eliminates it entirely.</p>
+              <p className="text-sm text-gray-700">Mesh safety covers and solid tarp covers both collect rainwater. Within 5-7 days of standing water, mosquitoes can complete a full breeding cycle on the surface of your pool cover — without ever touching the pool itself. Cover pumps reduce this risk; BTI larvicide targets the larvae in that water.</p>
             </div>
             <div className="rounded-2xl border-2 border-blue-200 bg-blue-50/30 p-6">
               <h3 className="text-lg font-extrabold text-brand-900 mb-3">🐟 Koi ponds &amp; water features</h3>
@@ -124,8 +129,8 @@ export default function PoolBackyardMosquitoControlPage() {
       {/* HOW WE TREAT POOL YARDS */}
       <section className="bg-gray-50 py-14 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-brand-900 mb-3">How BuzzSkito treats pool yards safely</h2>
-          <p className="text-base text-gray-700 mb-8">Pool-safe application is fundamentally different from standard yard treatment. Three principles guide our pool yard work:</p>
+          <h2 className="text-3xl font-extrabold text-brand-900 mb-3">How BuzzSkito treats pool yards</h2>
+          <p className="text-base text-gray-700 mb-8">Pool yard application is different from standard yard treatment. Three principles guide our pool yard work:</p>
           <ol className="space-y-4">
             <li className="bg-white rounded-xl border border-gray-200 p-5">
               <h3 className="text-lg font-extrabold text-brand-900 mb-1">1. Maintain pool buffer zones</h3>
@@ -133,15 +138,19 @@ export default function PoolBackyardMosquitoControlPage() {
             </li>
             <li className="bg-white rounded-xl border border-gray-200 p-5">
               <h3 className="text-lg font-extrabold text-brand-900 mb-1">2. BTI for cover and pond water</h3>
-              <p className="text-sm text-gray-700">For pool covers with collected rainwater, decorative ponds without fish, and seasonal standing water, we use Bacillus thuringiensis israelensis (BTI) — the same biological larvicide used in municipal mosquito control programs over drinking water reservoirs. BTI is lethal to mosquito larvae but safe for fish, frogs, birds, and human swimming.</p>
+              <p className="text-sm text-gray-700">For pool covers with collected rainwater, decorative ponds without fish, and seasonal standing water, we use Bacillus thuringiensis israelensis (BTI) — the same biological larvicide used in municipal mosquito control programs — applied according to its label directions. BTI targets mosquito larvae.</p>
             </li>
             <li className="bg-white rounded-xl border border-gray-200 p-5">
               <h3 className="text-lg font-extrabold text-brand-900 mb-1">3. Application timing for pool families</h3>
-              <p className="text-sm text-gray-700">We schedule pool yard treatments for early morning (typically 7-10 AM), allowing the 30-minute drying window to complete before peak family pool use. By midday, treatment is fully cured and the yard is completely safe for swimming, sunbathing, and play.</p>
+              <p className="text-sm text-gray-700">We schedule pool yard treatments for early morning (typically 7-10 AM), so the spray has time to dry before peak family pool use. Keep everyone off treated areas until the spray has dried, as the product label directs.</p>
             </li>
           </ol>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" />
+      </div>
 
       {/* PRICING */}
       <section className="bg-white py-14 px-4">
@@ -151,14 +160,13 @@ export default function PoolBackyardMosquitoControlPage() {
           <div className="grid md:grid-cols-3 gap-4 mb-6">
             <div className="rounded-2xl border-2 border-gray-200 p-5">
               <p className="text-xs font-bold text-gray-500 uppercase">Single Treatment</p>
-              <p className="text-3xl font-black text-brand-900 mt-1">$99-$159</p>
-              <p className="text-sm text-gray-600 mt-2">For pool properties under 10,000 sq ft. Includes pool cover BTI treatment if needed. Rain-back guarantee.</p>
+              <p className="text-3xl font-black text-brand-900 mt-1">From $99</p>
+              <p className="text-sm text-gray-600 mt-2">On a standard lot under 10,000 sq ft; larger pool properties are quoted to the yard. Includes pool cover BTI treatment if needed. Rain-back guarantee.</p>
             </div>
             <div className="rounded-2xl border-2 border-amber-400 bg-amber-50/40 p-5 relative">
-              <span className="absolute top-3 right-3 text-[9px] bg-amber-500 text-white font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">Most Popular</span>
-              <p className="text-xs font-bold text-amber-700 uppercase">Mosquito Season Plan</p>
+              <p className="text-xs font-bold text-amber-700 uppercase">Basic Season Plan</p>
               <p className="text-3xl font-black text-brand-900 mt-1">$549</p>
-              <p className="text-sm text-gray-600 mt-2">5 treatments May-September. Bi-weekly during peak season. Best value for the standard pool property.</p>
+              <p className="text-sm text-gray-600 mt-2">5 treatments, monthly, May-September. Want more frequent visits? Standard is $994 for 10 treatments every 2 weeks (our most popular plan).</p>
             </div>
             <div className="rounded-2xl border-2 border-brand-200 p-5">
               <p className="text-xs font-bold text-brand-700 uppercase">Mosquito + Tick Combo</p>
@@ -166,9 +174,13 @@ export default function PoolBackyardMosquitoControlPage() {
               <p className="text-sm text-gray-600 mt-2">5 mosquito + 5 tick treatments. Save $100 vs separate plans. Recommended for pool yards backing onto ravines.</p>
             </div>
           </div>
-          <p className="text-xs text-gray-500 italic">Pricing reflects standard residential pool properties. Estate pool properties (1+ acre lots, multiple water features) are quoted separately — see our <Link href="/estate-property-mosquito-control" className="underline">Estate Property service</Link>.</p>
+          <p className="text-xs text-gray-500 italic">Pricing reflects standard residential pool properties, plus HST. Estate pool properties (1+ acre lots, multiple water features) are quoted separately — see our <Link href="/estate-property-mosquito-control" className="underline">Estate Property service</Link>.</p>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" />
+      </div>
 
       {/* FAQ */}
       <section className="bg-gray-50 py-14 px-4">
@@ -188,7 +200,7 @@ export default function PoolBackyardMosquitoControlPage() {
         </div>
       </section>
 
-      <CTASection heading="Get your pool yard quote" subtext="Free assessment · Pool-safe application · Same-week scheduling" />
+      <CTASection heading="Get your pool yard quote" subtext="Free assessment · Vegetation-only application · Same-week scheduling" />
     </>
   )
 }

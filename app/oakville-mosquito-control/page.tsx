@@ -3,13 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Oakville Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    'Mosquito control in Oakville from $99, no contracts. Compare BuzzSkito vs Mosquito Man & LawnSavers. Glen Abbey, Bronte, Old Oakville. (289) 216-5030.',
+    'Mosquito control in Oakville from $99, no contracts. Compare mosquito control options. Glen Abbey, Bronte, Old Oakville. (289) 216-5030.',
   canonical: '/oakville-mosquito-control',
 })
 
@@ -46,11 +48,11 @@ const TESTIMONIALS = [
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Oakville?',
-    answer: "Four providers realistically serve Oakville: BuzzSkito, Mosquito Man, Mosquito.Buzz, and LawnSavers. BuzzSkito has the lowest published entry price (from $99 per treatment), is the only no-contract option, and holds a 5.0 average across 150+ Google reviews. Mosquito Man has the largest review volume in the GTA (900+) and a longer track record, but sells seasonal programs rather than single visits. Mosquito.Buzz is a national franchise, so Oakville service depends on the local franchisee. LawnSavers suits homeowners already using them for lawn care. If you want to judge on results rather than marketing, a single no-contract treatment is the cheapest way to test any provider.",
+    answer: "Several providers serve Oakville, so ask every one of them the same five questions. Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); rain within 1 hour of your treatment is re-treated free on every plan; yes, Ontario Pesticide Operator Licence L-240-2436835197; and the Bite-Free Guarantee on Standard and Exclusive plans. BuzzSkito also holds a 5.0 average across 150+ Google reviews. If you want to judge on results rather than marketing, a single treatment is the cheapest way to test any provider.",
   },
   {
     question: 'How much does mosquito control cost in Oakville?',
-    answer: 'BuzzSkito mosquito treatments in Oakville start from $99 per application. Properties near Bronte Creek, the Sixteen Mile Creek, or the Lake Ontario waterfront typically need the full seasonal program for continuous protection. No contracts — book a single treatment or the full season. Call (289) 216-5030 for a free Oakville quote.',
+    answer: 'BuzzSkito mosquito treatments in Oakville start from $99 per application. Properties near Bronte Creek, the Sixteen Mile Creek, or the Lake Ontario waterfront typically benefit from a full seasonal program. No contracts — book a single treatment or the full season. Call (289) 216-5030 for a free Oakville quote.',
   },
   {
     question: 'Are no-contract mosquito control plans available in Oakville?',
@@ -66,11 +68,11 @@ const FAQS = [
   },
   {
     question: 'How many mosquito treatments does an Oakville property need per season?',
-    answer: "We typically recommend 4–5 treatments from May through September for Oakville properties, spaced 21–28 days apart. Properties directly adjacent to Bronte Creek, 16 Mile Creek, or any significant wooded ravine may benefit from 5 treatments given the sustained pressure from these natural features. Our technician will assess your specific property and recommend the right schedule based on your exposure.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Properties directly adjacent to Bronte Creek, 16 Mile Creek, or any significant wooded ravine typically benefit from Standard's two-week spacing given the sustained pressure from these natural features; lower-exposure lots may be well-served by Basic. Our technician will assess your specific property and recommend the right plan based on your exposure.",
   },
   {
-    question: "Is barrier spray safe near Oakville's creeks and Bronte Creek Provincial Park?",
-    answer: "Yes. We apply the barrier treatment to your own property's vegetation — not to any parkland, creek, or conservation land. Our Health Canada–approved formula is designed for residential use adjacent to natural features. Once dry (approximately 30 minutes), the product does not leach into waterways. We maintain safe buffer zones around any riparian areas at your property line.",
+    question: "How is barrier spray applied near Oakville's creeks and Bronte Creek Provincial Park?",
+    answer: "We apply the barrier treatment to your own property's vegetation — not to any parkland, creek, or conservation land. Our licensed technicians follow the product label, including its directions for applications near water, and we keep buffer zones around any riparian areas at your property line.",
   },
   {
     question: 'Does BuzzSkito serve all Oakville neighbourhoods?',
@@ -78,19 +80,19 @@ const FAQS = [
   },
   {
     question: 'How does mosquito barrier spray actually work?',
-    answer: "Our technicians use a backpack precision sprayer to apply a residual formula to all vegetation on your property — shrubs, garden beds, the underside of leaves, fence lines, deck undersides, and woodpile areas. These are the sites where adult mosquitoes rest during the heat of the day. The formula kills on contact and provides a residual repellent effect that prevents new mosquitoes from settling on treated vegetation for up to 30 days between visits.",
+    answer: "Our technicians use a backpack precision sprayer to apply a residual formula to all vegetation on your property — shrubs, garden beds, the underside of leaves, fence lines, deck undersides, and woodpile areas. These are the sites where adult mosquitoes rest during the heat of the day. The product is applied according to its label directions and dries onto those surfaces as a residual barrier, renewed at each scheduled visit.",
   },
   {
     question: 'What happens if it rains after my Oakville treatment?',
-    answer: "Our formula bonds to leaf surfaces as it dries. If significant rainfall occurs within one hour of application — before the product has fully cured — we return and re-treat at no charge. This rain-back guarantee applies to all Oakville service visits.",
+    answer: "Our formula bonds to leaf surfaces as it dries. If it rains within 1 hour of your treatment, we come back and re-treat free. This rain-back guarantee applies to all Oakville service visits.",
   },
   {
     question: 'Does BuzzSkito also provide tick control in Oakville?',
-    answer: "Yes. Bronte Creek and Oakville's ravines are significant blacklegged tick habitat. Tick control is $597 for the season (5 sprays) on its own, or $497 when bundled with any mosquito plan — a $100 saving. Many Oakville homeowners bundle both for complete yard protection. See our Oakville tick control service, or ask about bundle pricing when you call.",
+    answer: "Yes. Bronte Creek and Oakville's ravines are significant blacklegged tick habitat. Tick control is $597 for the season (5 sprays) on its own, or $497 when bundled with any mosquito plan — a $100 saving. Many Oakville homeowners bundle both on the same visit. See our Oakville tick control service, or ask about bundle pricing when you call.",
   },
   {
     question: 'Do I need to be home during the mosquito treatment?',
-    answer: "No. As long as our technicians have access to your outdoor areas, you don't need to be home. We send an SMS notification before arriving and a follow-up email with the full treatment log, areas treated, product applied, and your next scheduled visit date.",
+    answer: "No. As long as our technicians have access to your outdoor areas, you don't need to be home. We book a visit window, never an exact arrival time, and send a follow-up email with the full treatment log, areas treated, product applied, and your next scheduled visit date.",
   },
   {
     question: 'When does mosquito season start in Oakville?',
@@ -117,17 +119,17 @@ export default function OakvilleMosquitoPage() {
         ]}
         title={<>Oakville Mosquito Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Oakville&apos;s specialist barrier spray for lakefront, Bronte Creek, and Glen Abbey properties. Health Canada-approved, safe for kids and pets in 30 minutes, backed by the <strong className="text-amber-400">BuzzSkito Bite-Free Guarantee</strong>.</>}
+        subtitle={<>Licensed Ontario pesticide operator treating lakefront, Bronte Creek, and Glen Abbey properties. Treatments applied according to label directions, with a <strong className="text-amber-400">rain-back guarantee on every plan</strong>.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -135,7 +137,7 @@ export default function OakvilleMosquitoPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best mosquito control company in Oakville?">
         <p>
-          <strong>BuzzSkito provides specialist mosquito barrier spray across all Oakville neighbourhoods — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, and North Oakville.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>150+ five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Oakville homeowners get reliable barrier spray for lakefront, creek-adjacent, and ravine-edge properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist mosquito barrier spray across all Oakville neighbourhoods — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, and North Oakville.</strong> Treatments are applied by a licensed Ontario operator, according to label directions, to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot, with season plans from $549. With <strong>150+ five-star Google reviews</strong>, no contracts, a rain-back guarantee on every plan, and the <strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong>, Oakville homeowners get reliable barrier spray for lakefront, creek-adjacent, and ravine-edge properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -149,15 +151,16 @@ export default function OakvilleMosquitoPage() {
                 {[
                   ['Service area', 'All Oakville neighbourhoods (Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, North Oakville, Eastlake, Falgarwood)'],
                   ['Specialization', 'Mosquito barrier spray for residential properties'],
-                  ['Pricing', 'From $99 per treatment · seasonal programs available on quote'],
+                  ['Pricing', 'From $99 per treatment on a standard lot · season plans from $549 (plus HST)'],
                   ['Treatment season', 'May through September (peak: late May–July)'],
-                  ['Protection per visit', 'Up to 30 days residual'],
-                  ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
-                  ['Recommended schedule', '4–5 treatments per season for creek- or lakefront-adjacent properties'],
+                  ['Sprays per season', '5, 10 or 20+ (tick: 5)'],
+                  ['Re-entry', 'Stay off treated areas until the spray has dried, as the label directs'],
+                  ['Recommended schedule', 'Standard (10 sprays, every 2 weeks) for creek- or lakefront-adjacent properties; Basic (5 sprays, monthly) for lower-exposure lots'],
                   ['Highest pressure zones', 'Bronte Creek · 16 Mile Creek · Lake Ontario shoreline · Lions Valley Park'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
-                  ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
+                  ['Guarantee', 'Rain-back on every plan; Bite-Free on Standard & Exclusive'],
+                  ['Licence', PROMISES.licence],
                   ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
                   ['Phone', BUSINESS.phone],
                 ].map(([k, v]) => (
@@ -183,6 +186,8 @@ export default function OakvilleMosquitoPage() {
         </div>
       </section>
 
+      <TypicalPrices service="mosquito" city={CITY} />
+
       {/* How It Works */}
       <section className="py-14 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -191,8 +196,8 @@ export default function OakvilleMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your Oakville property — identifying water features, dense vegetation, and mosquito pressure zones specific to your neighbourhood.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, fence lines, and resting areas using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the protection window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product, according to its label directions, to vegetation, shrub interiors, leaf undersides, fence lines, and resting areas using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: 'Rain within 1 hour of your treatment? We come back and re-treat free, on every plan. Standard & Exclusive plans also carry the Bite-Free Guarantee.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -209,7 +214,7 @@ export default function OakvilleMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Mosquito Pressure Is High in Oakville</h2>
           <p>Oakville is one of the GTA&apos;s most desirable communities — but its picturesque setting along Lake Ontario and Bronte Creek creates persistent mosquito challenges that most homeowners underestimate. <strong>Bronte Creek Provincial Park</strong> — 1,300+ hectares of naturalized land bordering Oakville&apos;s west end — generates significant mosquito populations each season that disperse into adjacent residential properties. The <strong>16 Mile Creek corridor</strong> runs through central Oakville from north to south, and the <strong>Bronte Creek</strong> system cuts through the west side, both sustaining breeding habitat throughout the season.</p>
-          <p>Oakville&apos;s landscape character — mature tree canopy in older neighbourhoods, ornamental rain gardens, and the dense shrub borders common in established properties — provides abundant daytime resting habitat for adult mosquitoes that have bred in nearby water features. Even properties with no standing water on their lot can experience significant mosquito pressure from adjacent natural features. This is why professional barrier spray — which targets the resting habitat directly — is the most effective approach for Oakville homes.</p>
+          <p>Oakville&apos;s landscape character — mature tree canopy in older neighbourhoods, ornamental rain gardens, and the dense shrub borders common in established properties — provides abundant daytime resting habitat for adult mosquitoes that have bred in nearby water features. Even properties with no standing water on their lot can experience significant mosquito pressure from adjacent natural features. This is why professional barrier spray — which targets the resting habitat directly — is the practical approach for Oakville homes.</p>
 
           <h2>Mosquito Pressure Zones by Oakville Neighbourhood</h2>
 
@@ -234,7 +239,7 @@ export default function OakvilleMosquitoPage() {
             <li><strong>Property assessment</strong> — We identify breeding areas, water features, and high-risk vegetation zones specific to your Oakville property and neighbourhood. Bronte properties require different attention than North Oakville or Old Oakville lots.</li>
             <li><strong>Barrier spray application</strong> — Full treatment of all vegetation, shrubs, garden borders, fence lines, deck undersides, and woodpile areas using a backpack precision sprayer. We target the undersides of leaves and shaded shrub interiors where adult mosquitoes actually rest — surfaces that consumer foggers miss entirely.</li>
             <li><strong>Standing water guidance</strong> — We identify any standing water sources on your property contributing to mosquito breeding and advise on elimination or treatment. Common Oakville culprits include ornamental rain gardens, bird baths, clogged eavestroughs, and low-lying garden areas.</li>
-            <li><strong>30-day protection window</strong> — Our residual formula keeps working between visits. We schedule re-application every 21–28 days for continuous season-long coverage.</li>
+            <li><strong>Scheduled re-application</strong> — The residual barrier is renewed at each visit: monthly on the Basic plan, every 2 weeks on Standard, or weekly on Exclusive.</li>
           </ol>
 
           {/* Seasonal Schedule Table */}
@@ -267,6 +272,8 @@ export default function OakvilleMosquitoPage() {
           </div>
 
           {/* Pricing Section */}
+          <CityPriceCard city={CITY} service="mosquito" location="price_card_mid" />
+
           <h2>Mosquito Control Pricing in Oakville</h2>
           <p>Transparent pricing is something many Oakville pest control companies avoid. We don&apos;t. BuzzSkito mosquito treatments start from $99 per visit — no contracts, no pressure to commit to a full season upfront.</p>
           <div className="not-prose overflow-x-auto my-4">
@@ -280,9 +287,9 @@ export default function OakvilleMosquitoPage() {
               </thead>
               <tbody>
                 {[
-                  { type: 'Standard residential lot (under 6,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Oakville semi or detached home' },
-                  { type: 'Mid-size lot (6,000–10,000 sq ft)', price: 'Custom quote', coverage: 'Larger detached, ravine-backing properties, Glen Abbey' },
-                  { type: 'Large / estate property (10,000+ sq ft)', price: 'Custom quote', coverage: 'Old Oakville estates, Lakeshore Road properties' },
+                  { type: 'Standard residential lot (under 10,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Oakville semi or detached home' },
+                  { type: 'Larger lot (10,000–100,000 sq ft)', price: 'Priced by lot size', coverage: 'Larger detached, ravine-backing properties, Glen Abbey' },
+                  { type: 'Estate property (100,000+ sq ft)', price: 'Custom quote', coverage: 'Old Oakville estates, Lakeshore Road properties' },
                 ].map(({ type, price, coverage }) => (
                   <tr key={type} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-2 font-semibold text-brand-800">{type}</td>
@@ -299,9 +306,9 @@ export default function OakvilleMosquitoPage() {
           <h2>Professional Mosquito Control vs. DIY in Oakville</h2>
           <p>Home improvement stores sell mosquito foggers, citronella torches, and consumer-grade sprays. Here&apos;s why they don&apos;t work as well as professional barrier spray — and why Oakville&apos;s specific geography makes professional treatment especially important:</p>
           <ul>
-            <li><strong>Consumer foggers provide hours of relief, not 30 days of protection.</strong> Professional residual barrier spray bonds to leaf surfaces and keeps working between visits. A $15 citronella candle and a professional barrier treatment are not comparable products.</li>
+            <li><strong>Consumer foggers provide hours of relief, not a residual barrier.</strong> Professional residual barrier spray bonds to leaf surfaces and keeps working between visits. A $15 citronella candle and a professional barrier treatment are not comparable products.</li>
             <li><strong>Application technique matters more than product.</strong> Mosquitoes rest on the undersides of leaves, in shaded shrub interiors, and under deck joists. Proper barrier spray requires a backpack precision sprayer and systematic technique to reach those surfaces. Most consumer foggers apply product to open air, missing the actual resting sites.</li>
-            <li><strong>Oakville&apos;s mosquito sources are beyond your control.</strong> Bronte Creek Provincial Park, the 16 Mile Creek corridor, and Lake Ontario&apos;s waterfront will produce mosquitoes every season regardless of what you do on your property. The only effective strategy is creating a treated barrier that stops them from settling on your property after dispersing from those sources.</li>
+            <li><strong>Oakville&apos;s mosquito sources are beyond your control.</strong> Bronte Creek Provincial Park, the 16 Mile Creek corridor, and Lake Ontario&apos;s waterfront will produce mosquitoes every season regardless of what you do on your property. The practical strategy is a treated barrier on the vegetation where they settle after dispersing from those sources.</li>
             <li><strong>Larvicide tablets don&apos;t address your primary exposure.</strong> You can treat every standing water source on your lot and still have a serious mosquito problem because the dominant pressure in Oakville comes from off-property natural features. Professional barrier spray directly addresses the adult mosquitoes that arrive from those sources.</li>
           </ul>
 
@@ -309,62 +316,52 @@ export default function OakvilleMosquitoPage() {
           <h2>Choosing the Right Mosquito Control Service in Oakville</h2>
           <p>Several pest control companies now serve Oakville, and not all are equal. Here&apos;s what to look for when evaluating your options:</p>
           <ul>
-            <li><strong>Health Canada–registered products.</strong> Any product applied to your yard must be registered under the Pest Control Products Act. Ask for the product registration number. BuzzSkito uses only registered, water-based formulas.</li>
+            <li><strong>A product applied according to its label.</strong> Ask what product is going on your yard and check that the technician follows the label directions. BuzzSkito uses water-based formulas applied according to label directions.</li>
             <li><strong>Licensed applicators.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for all commercial applications. Ask to see credentials.</li>
-            <li><strong>Rain-back guarantee.</strong> Any reputable company should offer to re-treat if significant rain falls within the cure window. This is standard at BuzzSkito.</li>
+            <li><strong>Rain-back guarantee.</strong> Any reputable company should offer to re-treat if it rains within 1 hour of a treatment. This is standard on every BuzzSkito plan.</li>
             <li><strong>No long-term contracts.</strong> Legitimate service companies let you book a single treatment and evaluate results before committing to a season. Be cautious of companies requiring 12-month contracts for seasonal outdoor service.</li>
             <li><strong>Local Oakville knowledge.</strong> Companies that understand the Bronte Creek corridor, 16 Mile Creek, and Oakville&apos;s specific neighbourhood geography will treat your property more effectively than generic operators using standard templates.</li>
             <li><strong>Transparent pricing.</strong> A company that won&apos;t quote prices on their website or over the phone until after a &quot;free assessment&quot; visit is using the visit as a sales tool. BuzzSkito publishes pricing and quotes over the phone.</li>
           </ul>
 
           {/* Provider comparison */}
-          <h2 id="compare-oakville-companies">Oakville Mosquito Control Companies Compared</h2>
-          <p>Here is how the providers serving Oakville compare on the things homeowners actually decide on — entry price, review volume, whether you are committed to a full season, and how much of Oakville each one covers. Figures reflect publicly available rates and Google review counts for the 2026 season.</p>
+          <h2 id="compare-oakville-companies">What to Ask Any Mosquito Control Company in Oakville</h2>
+          <p>Several providers serve Oakville. Ask each one the same five questions and compare the answers side by side. Here is how BuzzSkito answers them for the 2026 season.</p>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-brand-800 text-white">
-                  <th className="px-4 py-2 text-left">Company</th>
-                  <th className="px-4 py-2 text-left">Starting Price</th>
-                  <th className="px-4 py-2 text-left">Reviews</th>
-                  <th className="px-4 py-2 text-left">Contracts</th>
-                  <th className="px-4 py-2 text-left">Oakville Coverage</th>
+                  <th className="px-4 py-2 text-left">Question to ask</th>
+                  <th className="px-4 py-2 text-left">BuzzSkito&apos;s answer</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { company: 'BuzzSkito', price: 'From $99', reviews: '150+ (5.0★)', contracts: 'No contracts', area: 'All Oakville' },
-                  { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Oakville' },
-                  { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies by franchisee', contracts: 'Seasonal', area: 'Franchise' },
-                  { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Oakville' },
-                ].map(({ company, price, reviews, contracts, area }) => (
-                  <tr key={company} className="border-b border-gray-200 even:bg-gray-50">
-                    <td className="px-4 py-2 font-semibold text-brand-800">{company}</td>
-                    <td className="px-4 py-2 font-extrabold text-brand-700">{price}</td>
-                    <td className="px-4 py-2 text-gray-600">{reviews}</td>
-                    <td className="px-4 py-2 text-gray-600">{contracts}</td>
-                    <td className="px-4 py-2 text-gray-600">{area}</td>
+                  { question: 'Is the price shown before you book?', answer: 'From $99 on a standard lot' },
+                  { question: 'How many sprays per season?', answer: '5, 10 or 20+ (tick: 5)' },
+                  { question: 'What happens if it rains after a treatment?', answer: PROMISES.rainBack },
+                  { question: 'Is an Ontario pesticide operator licence number shown?', answer: `Yes: ${BUSINESS.licenseNumber}` },
+                  { question: 'Which plans include a guarantee?', answer: 'Rain-back on every plan; Bite-Free on Standard & Exclusive' },
+                ].map(({ question, answer }) => (
+                  <tr key={question} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-semibold text-brand-800">{question}</td>
+                    <td className="px-4 py-2 text-gray-600">{answer}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <ul>
-            <li><strong>BuzzSkito</strong> — the lowest published entry price in Oakville and the only no-contract option, with a 5.0 average across 150+ Google reviews. Full coverage of Bronte, Glen Abbey, Joshua Creek, West Oak Trails, River Oaks, Old Oakville, North Oakville, Eastlake, Falgarwood, and Clearview, plus tick control that can be added to any plan.</li>
-            <li><strong>Mosquito Man</strong> — the largest review volume in the GTA and the longest track record here, but seasonal-program pricing with no per-treatment rate published.</li>
-            <li><strong>Mosquito.Buzz</strong> — a national franchise, so Oakville availability and service quality depend on which franchisee holds the territory. Quote-based, with a seasonal commitment standard.</li>
-            <li><strong>LawnSavers</strong> — primarily a lawn care company offering mosquito control as an add-on. The sensible pick if you already use them for lawn care and want a single invoice.</li>
-          </ul>
-          <p>One caveat that applies to every provider on this list: Old Oakville lakefront estates and the larger Joshua Creek and Glen Abbey lots price above the base rate everywhere. Confirm your lot-size tier before you book, not after the truck arrives.</p>
+          <p>BuzzSkito covers all of Oakville — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, River Oaks, Old Oakville, North Oakville, Eastlake, Falgarwood, and Clearview — plus tick control that can be added to any plan.</p>
+          <p>One caveat that applies to every provider: Old Oakville lakefront estates and the larger Joshua Creek and Glen Abbey lots price above the base rate everywhere. Confirm your lot-size tier before you book, not after the truck arrives.</p>
 
           {/* What to Expect */}
           <h2>What to Expect on Your BuzzSkito Treatment Day</h2>
           <ol>
-            <li><strong>SMS notification before arrival</strong> — You&apos;ll receive a text when your technician is on the way. You do not need to be home.</li>
+            <li><strong>A booked visit window</strong> — We book a visit window, never an exact arrival time. You do not need to be home.</li>
             <li><strong>Property walkthrough</strong> — On the first visit, your technician does a perimeter assessment to note water features, dense vegetation, and any Oakville-specific risk factors before treatment begins.</li>
             <li><strong>Full barrier application</strong> — Systematic treatment of all vegetation: shrubs, garden beds, leaf undersides, fence lines, deck undersides, woodpiles. Treatment of a typical Oakville residential lot takes 25–40 minutes.</li>
             <li><strong>Lawn sign placement</strong> — A small sign is placed confirming the treatment date and product used.</li>
-            <li><strong>30-minute dry time</strong> — Keep children and pets off treated surfaces while the product cures. After 30 minutes, your yard is fully safe and the barrier is active.</li>
+            <li><strong>Drying time</strong> — Keep children and pets off treated areas until the spray has dried, as the product label directs.</li>
             <li><strong>Follow-up email confirmation</strong> — You&apos;ll receive a treatment log with areas treated, product applied, and your next scheduled visit date within 2 hours of the treatment.</li>
           </ol>
 
@@ -380,7 +377,7 @@ export default function OakvilleMosquitoPage() {
 
           {/* Tick Control */}
           <h2>Also Providing Tick Control in Oakville</h2>
-          <p>Bronte Creek and Oakville&apos;s forested ravines are significant blacklegged tick habitat documented by Halton Region Public Health. If your property backs onto any ravine, conservation area, or wooded edge, tick control is an important complement to mosquito spray. See our <Link href="/oakville-tick-spray" className="text-brand-700 hover:underline">Oakville tick control service</Link> — many homeowners bundle both services for complete seasonal yard protection. Tick control is $597 for the season (5 sprays) on its own, or $497 added to any mosquito plan, saving $100.</p>
+          <p>Bronte Creek and Oakville&apos;s forested ravines are significant blacklegged tick habitat documented by Halton Region Public Health. If your property backs onto any ravine, conservation area, or wooded edge, tick control is an important complement to mosquito spray. See our <Link href="/oakville-tick-spray" className="text-brand-700 hover:underline">Oakville tick control service</Link> — many homeowners bundle both services on the same visit. Tick control is $597 for the season (5 sprays) on its own, or $497 added to any mosquito plan, saving $100.</p>
           <p>Tick timing does not line up neatly with mosquito timing, either: blacklegged ticks are out here from roughly mid-March through November, with a nymph peak from late May to July. <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 hover:underline">The Oakville tick season calendar</Link> shows how the two schedules overlap.</p>
 
           <h2>Everything Oakville Homeowners Ask About Mosquito Control</h2>
@@ -392,31 +389,31 @@ export default function OakvilleMosquitoPage() {
           <p>No &mdash; neither Halton Region Public Health nor the Town of Oakville treats private properties. Halton Region performs targeted larviciding (treating standing water in storm sewers and select catch basins) for West Nile virus surveillance, and the Town maintains catch basins. Yard-level mosquito control is the homeowner&apos;s responsibility &mdash; it is not part of any municipal service.</p>
 
           <h3>How much does mosquito control cost for a typical Oakville lot?</h3>
-          <p>For a standard Oakville residential lot under 6,000 sq ft (typical detached or townhome): from $99 per single treatment. Larger Glen Abbey, Old Oakville, or Bronte estate lots require a custom quote based on coverage area. There are no contract requirements &mdash; book a single treatment and decide whether to continue based on results.</p>
+          <p>For a standard Oakville residential lot under 10,000 sq ft (typical detached or townhome): from $99 per single treatment. Larger Glen Abbey, Old Oakville, or Bronte lots are priced by lot size (10,000–100,000 sq ft), and estates beyond that get a custom quote. There are no contract requirements &mdash; book a single treatment and decide whether to continue based on results.</p>
 
           <h3>When should I book my first Oakville mosquito treatment?</h3>
           <p>Mid-May for most properties. Oakville mosquitoes begin emerging when daytime temperatures consistently exceed about 10°C &mdash; typically around the May long weekend. Properties adjacent to Bronte Creek, 16 Mile Creek, Lions Valley Park, or any wooded ravine benefit from an early-May start because populations begin emerging earlier in those microhabitats.</p>
 
           <h3>Will mosquito spray harm fish in Bronte Creek or Lake Ontario?</h3>
-          <p>The Health Canada-approved formula is applied to vegetation surfaces &mdash; never to water. Once dried (about 30 minutes), it bonds to leaves and does not leach into waterways. We maintain buffer zones around shoreline areas and observe label restrictions for water-adjacent applications. Lakefront and creek-adjacent properties in Oakville can be safely treated with appropriate technique.</p>
+          <p>The product is applied to vegetation surfaces &mdash; never to water. We maintain buffer zones around shoreline areas and follow the label&apos;s directions for water-adjacent applications, which is how lakefront and creek-adjacent properties in Oakville are treated.</p>
 
-          <h3>Is mosquito spray safe for my Oakville garden and pollinators?</h3>
-          <p>Yes &mdash; with buffer zones. The product is applied to mosquito resting surfaces (undersides of leaves, shrub interiors) &mdash; not to flower blooms. Once dried, the residual is bound to leaf surfaces where bees do not typically forage. Oakville&apos;s active beekeeper community routinely works alongside professional barrier spray applications without issue. We observe buffer zones around vegetable gardens, sandboxes, and any specific pollinator zones you flag.</p>
+          <h3>How is mosquito spray applied around my Oakville garden and pollinators?</h3>
+          <p>We use buffer zones. The product is applied to mosquito resting surfaces (undersides of leaves, shrub interiors) &mdash; not to flower blooms &mdash; and according to its label directions, including any directions about pollinators. We observe buffer zones around vegetable gardens, sandboxes, and any specific pollinator zones you flag.</p>
 
           <h3>Are there mosquitoes near Lake Ontario&apos;s Oakville waterfront?</h3>
           <p>Yes &mdash; and high humidity along the lakefront extends evening mosquito activity later into the night compared to inland properties. Old Oakville, Eastlake, and lakefront Bronte homes experience steady mosquito pressure all summer. Wind off the lake helps during the day, but calm evening conditions create heavy feeding windows.</p>
 
           <h3>Can mosquitoes breed in my Oakville rain barrel?</h3>
-          <p>Yes &mdash; and rain barrels are one of the most productive backyard breeding sites in Oakville. A single uncovered barrel can produce thousands of mosquitoes per week. Solutions: tight-fitting screen on the inlet, BTI mosquito dunks (sold at Canadian Tire and Home Depot &mdash; safe for fish, pets, and humans), and emptying every 5–7 days during peak season.</p>
+          <p>Yes &mdash; and rain barrels are one of the most productive backyard breeding sites in Oakville. A single uncovered barrel can produce thousands of mosquitoes per week. Solutions: tight-fitting screen on the inlet, BTI mosquito dunks (sold at Canadian Tire and Home Depot &mdash; follow the package directions), and emptying every 5–7 days during peak season.</p>
 
           <h3>Why are mosquitoes worse in some Oakville neighbourhoods than others?</h3>
           <p>Three factors: (1) creek and ravine adjacency &mdash; Bronte, West Oak Trails, and River Oaks ravine-edge properties experience the most pressure; (2) tree canopy density &mdash; mature canopy creates ideal daytime resting habitat, which is why Old Oakville and Eastlake see strong activity; (3) standing water within 3 km &mdash; even non-creek areas like parts of Iroquois Ridge can have local pressure from unmanaged stormwater ponds nearby.</p>
 
           <h3>Can BuzzSkito treat my Oakville backyard before a wedding or party?</h3>
-          <p>Yes &mdash; pre-event treatment is a common reason Oakville customers call. Book the spray 2–4 days before your event. The barrier becomes fully active over 24 hours and continues for up to 30 days. For backyard weddings or graduations in Glen Abbey, Old Oakville, or River Oaks, this timing window provides peak protection on event day.</p>
+          <p>Yes &mdash; pre-event treatment is a common reason Oakville customers call. Book the spray 2–4 days before your event, so the product has fully dried well before guests arrive. For backyard weddings or graduations in Glen Abbey, Old Oakville, or River Oaks, that timing window works well.</p>
 
           <h3>What happens if it rains after my Oakville treatment?</h3>
-          <p>Once dry (about 30 minutes), the active ingredient bonds to leaf surfaces and becomes rain-resistant. Light rain has minimal effect; heavy storms can reduce residual life slightly. If significant rainfall occurs within one hour of application &mdash; before the product cures &mdash; we return and re-treat at no charge. This is part of the BuzzSkito Bite-Free Guarantee.</p>
+          <p>Once dry, the product bonds to leaf surfaces. If rain falls within 1 hour of your treatment, we come back and re-treat free. This rain-back guarantee applies on every plan.</p>
 
           <h3>Can I cancel or change my BuzzSkito Oakville service anytime?</h3>
           <p>Yes &mdash; there are no contracts and no cancellation fees. You can book a single treatment, a partial-season program, or a full-season package, and you can pause, change, or cancel between treatments at any time. We bill per visit, not upfront.</p>
@@ -424,7 +421,7 @@ export default function OakvilleMosquitoPage() {
           {/* Related Guides */}
 
           <h2>Compare Oakville Pest Control Options</h2>
-          <p>Looking at all your Oakville pest control options? See our specialist guide: <Link href="/pest-control-oakville" className="text-brand-700 hover:underline font-semibold">Pest Control in Oakville</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Oakville backyard misery. For a head-to-head on price, reviews, and contracts, see the <a href="#compare-oakville-companies" className="text-brand-700 hover:underline font-semibold">Oakville provider comparison above</a>, or the <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline font-semibold">GTA-wide comparison</Link>.</p>
+          <p>Looking at all your Oakville pest control options? See our specialist guide: <Link href="/pest-control-oakville" className="text-brand-700 hover:underline font-semibold">Pest Control in Oakville</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Oakville backyard misery. For the questions to ask any provider, see the <a href="#compare-oakville-companies" className="text-brand-700 hover:underline font-semibold">Oakville provider checklist above</a>, or the <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline font-semibold">GTA-wide comparison</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
@@ -463,6 +460,10 @@ export default function OakvilleMosquitoPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="mosquito" />
+      </div>
+
       {/* FAQ */}
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
@@ -481,12 +482,12 @@ export default function OakvilleMosquitoPage() {
             ))}
           </div>
           <p className="text-center mt-8 text-sm text-gray-500">
-            Shopping around? See the <a href="#compare-oakville-companies" className="text-brand-700 underline hover:text-brand-500">2026 Oakville provider comparison</a> above — pricing, reviews, contracts side by side.
+            Shopping around? See the <a href="#compare-oakville-companies" className="text-brand-700 underline hover:text-brand-500">questions to ask any Oakville provider</a> above.
           </p>
         </div>
       </section>
 
-      <CTASection heading={`Get a Free Mosquito Control Quote in ${CITY}`} subtext="Protect your Oakville property from mosquitoes this season. No contracts. 100% satisfaction guaranteed." />
+      <CTASection heading={`Get a Free Mosquito Control Quote in ${CITY}`} subtext="Protect your Oakville property from mosquitoes this season. No contracts. Rain-back guarantee on every plan." />
     </>
   )
 }

@@ -3,27 +3,28 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS } from '@/lib/constants'
+import { BUSINESS, PROMISES } from '@/lib/constants'
 
 const SLUG = '/daycare-camp-mosquito-tick-control'
 
 const FAQS = [
   {
-    question: 'Is mosquito and tick spray safe for daycares, summer camps, and schools?',
-    answer: "Yes — when applied by a Pesticides Act-licensed technician using Health Canada-approved formulations, with appropriate scheduling and re-entry protocols. We use water-based barrier formulas registered specifically for residential and institutional outdoor use. After the spray dries (approximately 30 minutes), the treated area is fully safe for children — we recommend treating before opening hours or on weekends to ensure the drying window is complete before any child arrives. Our technicians follow documented buffer zones around playgrounds, vegetable garden plots, sandboxes, and water play features.",
+    question: 'How is mosquito and tick spray applied at daycares, summer camps, and schools?',
+    answer: "A licensed technician applies the product according to its label directions, and children and staff stay off treated areas until the spray has dried, as the product label directs. We recommend treating before opening hours or on weekends so the spray has dried before any child arrives. Our technicians follow documented buffer zones around playgrounds, vegetable garden plots, sandboxes, and water play features.",
   },
   {
     question: 'When should daycares schedule mosquito and tick treatment?',
-    answer: 'The ideal scheduling for childcare facilities is early morning before opening hours (typically 5-7 AM, allowing the 30-minute drying window before children arrive at 7-8 AM) or weekends when the facility is closed. For overnight summer camps, treatments are scheduled when children are off-site (drop-off/pick-up days, scheduled trips, weekly transition periods). BuzzSkito coordinates scheduling directly with the facility administrator to minimize any operational disruption.',
+    answer: 'The ideal scheduling for childcare facilities is early morning before opening hours (typically 5-7 AM, so the spray has dried, as the product label directs, before children arrive at 7-8 AM) or weekends when the facility is closed. For overnight summer camps, treatments are scheduled when children are off-site (drop-off/pick-up days, scheduled trips, weekly transition periods). BuzzSkito coordinates scheduling directly with the facility administrator to minimize any operational disruption.',
   },
   {
     question: 'How do you handle parent communication for daycare mosquito treatments?',
-    answer: 'We provide every daycare and camp client with a parent communication package including: (1) Pre-treatment notice template (English and French) explaining what is being applied, why, and when. (2) Health Canada PCP numbers and product safety data sheets for parents requesting them. (3) Re-entry timing and post-treatment safety guidance. (4) Our direct contact line for parents with specific concerns. Most facilities email this notice to parents 1-2 weeks before treatment season starts and post a treatment-day reminder.',
+    answer: 'We provide every daycare and camp client with a parent communication package including: (1) Pre-treatment notice template (English and French) explaining what is being applied, why, and when. (2) PCP registration numbers and safety data sheets for the products applied, for parents requesting them. (3) Re-entry guidance taken from the product label. (4) Our direct contact line for parents with specific concerns. Most facilities email this notice to parents 1-2 weeks before treatment season starts and post a treatment-day reminder.',
   },
   {
     question: 'Do you provide tick treatment for outdoor camp programs?',
-    answer: 'Yes — and tick treatment is increasingly essential for camps. Public Health Ontario tick surveillance has confirmed established blacklegged tick populations in every Ontario PHU since 2022. Camps with outdoor programming (forest school, nature exploration, hiking trails, sports fields adjacent to natural areas) face genuine tick exposure risk for children. Our tick barrier treatment targets the specific micro-habitats where ticks concentrate (lawn-to-woods transitions, leaf litter, garden bed edges, fence lines around play areas) without affecting open play surfaces children actually use.',
+    answer: 'Yes. Public Health Ontario\'s tick surveillance maps estimated blacklegged tick risk areas across much of southern Ontario. Camps with outdoor programming (forest school, nature exploration, hiking trails, sports fields adjacent to natural areas) face genuine tick exposure risk for children. Our tick barrier treatment targets the specific micro-habitats where ticks concentrate (lawn-to-woods transitions, leaf litter, garden bed edges, fence lines around play areas) without spraying the open play surfaces children actually use.',
   },
   {
     question: 'How much does mosquito and tick treatment cost for a daycare or summer camp?',
@@ -31,26 +32,26 @@ const FAQS = [
   },
   {
     question: 'Are there specific Ontario regulations for pest control at licensed childcare facilities?',
-    answer: "Yes. Licensed childcare facilities in Ontario operate under the Child Care and Early Years Act, which requires safe practices around pesticide application. Specifically: (1) Treatments must be performed by a licensed extermination technician (Class 6 or structural). (2) Re-entry intervals must be strictly observed before children access treated areas. (3) Records of applications must be maintained for ministry review. (4) Parents must be informed in advance per facility communication policies. BuzzSkito's standard daycare protocol meets and exceeds all these requirements, and we provide all documentation needed for regulatory compliance.",
+    answer: "Licensed childcare facilities in Ontario operate under the Child Care and Early Years Act, and pesticide use in Ontario is governed by the Pesticides Act and its regulation. Your licensing requirements and your program advisor are the authority on what applies to your facility. On our side: (1) Treatments are performed under our Ontario Pesticide Operator Licence " + BUSINESS.licenseNumber + ". (2) Children and staff stay off treated areas until the spray has dried, as the product label directs. (3) You receive a written record of every application for your facility records. (4) We provide parent notice templates so families are told in advance.",
   },
   {
     question: 'Can BuzzSkito treat sports fields, playgrounds, and outdoor classrooms at schools?',
-    answer: "Yes. We work with private schools, alternative schools, and forest school programs across the GTA. School treatments are typically scheduled during weekends or PA days to ensure no student exposure during application or drying. We treat surrounding vegetation (perimeter trees, shrub borders, fence-line plantings, ravine-adjacent woodland edges) — not the play surfaces themselves. For schools with outdoor classrooms or forest school programming, tick treatment of forest-edge vegetation is highly recommended given Ontario's confirmed expanding blacklegged tick range.",
+    answer: "Yes. We work with private schools, alternative schools, and forest school programs across the GTA. School treatments are typically scheduled during weekends or PA days so no students are present during application or while the spray dries. We treat surrounding vegetation (perimeter trees, shrub borders, fence-line plantings, ravine-adjacent woodland edges) — not the play surfaces themselves. For schools with outdoor classrooms or forest school programming, tick treatment of forest-edge vegetation is worth considering, as Public Health Ontario reports that blacklegged tick risk areas in Ontario continue to expand.",
   },
   {
     question: 'Do you serve in-home daycares and home-based childcare providers?',
-    answer: "Absolutely. Many GTA in-home daycares operate from suburban backyards that face the same mosquito and tick pressure as any residential property. Home-based daycare providers can use our standard residential service with the same parent-notification support, treatment scheduling around drop-off/pick-up windows, and treatment records suitable for any inquiries from parents or licensing visits. Standard residential pricing applies ($99 single visit, $549 season).",
+    answer: "Absolutely. Many GTA in-home daycares operate from suburban backyards that face the same mosquito and tick pressure as any residential property. Home-based daycare providers can use our standard residential service with the same parent-notification support, treatment scheduling around drop-off/pick-up windows, and treatment records suitable for any inquiries from parents or licensing visits. Standard residential pricing applies (from $99 for a single visit on a standard lot under 10,000 sq ft, season plans from $549, plus HST).",
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Daycare, Camp & School Mosquito + Tick Control GTA · Health Canada Approved',
-  description: "Specialized mosquito and tick barrier spray for daycares, summer camps, schools, and childcare facilities across the GTA. Health Canada-approved, Pesticides Act licensed, parent-notification support, scheduled around children's hours. 150+ five-star reviews.",
+  title: 'Daycare, Camp & School Mosquito + Tick Control GTA · Licensed Operator',
+  description: "Specialized mosquito and tick barrier spray for daycares, summer camps, schools, and childcare facilities across the GTA. Pesticides Act licensed, parent-notification support, scheduled around children's hours. 150+ five-star reviews.",
   canonical: SLUG,
 })
 
 export default function DaycareCampMosquitoTickControlPage() {
-  const lbSchema = localBusinessSchema({ description: 'Mosquito and tick barrier spray service for daycares, summer camps, schools, and childcare facilities across the Greater Toronto Area. Health Canada-approved formulas, parent communication support, scheduled around children\'s hours.' })
+  const lbSchema = localBusinessSchema({ description: 'Mosquito and tick barrier spray service for daycares, summer camps, schools, and childcare facilities across the Greater Toronto Area. Applied by a licensed Ontario pesticide operator according to label directions, with parent communication support, scheduled around children\'s hours.' })
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(lbSchema) }} />
@@ -67,9 +68,10 @@ export default function DaycareCampMosquitoTickControlPage() {
           { label: 'Daycares, Camps & Schools' },
         ]}
         title={<>Daycare, Camp &amp; School Mosquito + Tick Control</>}
-        titleAccent={<>150+ Five-Star Reviews · Health Canada Approved</>}
-        subtitle={<>Specialized mosquito and tick barrier spray for licensed daycares, summer camps, private schools, and childcare facilities across the GTA. Treatments scheduled around children&rsquo;s hours, parent communication templates included, full regulatory compliance documentation provided.</>}
+        titleAccent={<>150+ Five-Star Reviews · Licensed Operator</>}
+        subtitle={<>Licensed Ontario pesticide operator, with treatments applied according to label directions. Mosquito and tick barrier spray for licensed daycares, summer camps, private schools, and childcare facilities across the GTA, scheduled around children&rsquo;s hours, with parent communication templates and written treatment records.</>}
         image="/spray-backyard.webp"
+        service="mosquito"
       >
         <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mt-5">Childcare-Specific Protocols · Parent Communication Support · GTA-Wide</p>
       </CityHero>
@@ -79,16 +81,17 @@ export default function DaycareCampMosquitoTickControlPage() {
           <span>✓ Pesticides Act Licensed Techs</span>
           <span>✓ Pre-Opening Hours Scheduling</span>
           <span>✓ Parent Notification Templates</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ {PROMISES.labelLine}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
-      <QuickAnswer question="Is mosquito and tick spray safe for licensed daycares and summer camps?">
+      <QuickAnswer question="How is mosquito and tick spray applied at licensed daycares and summer camps?">
         <p>
-          <strong>Yes — when applied by a Pesticides Act-licensed technician using Health Canada-approved formulas, treatments are completed before children arrive (typically pre-opening hours or weekends), and the 30-minute drying window is fully observed before any child accesses the treated area.</strong> Licensed Ontario childcare facilities operate under the Child Care and Early Years Act, which requires specific protocols for any pest management activity. BuzzSkito&rsquo;s standard daycare protocol meets and exceeds these requirements, and we provide written documentation of every treatment for facility records and ministry compliance. Our childcare clients across the GTA have completed five seasons of routine treatments without a single child safety incident.
+          <strong>A licensed technician applies the product according to its label directions, treatments are completed before children arrive (typically pre-opening hours or weekends), and children stay off treated areas until the spray has dried, as the product label directs.</strong> Licensed Ontario childcare facilities operate under the Child Care and Early Years Act, and pesticide use is governed by Ontario&rsquo;s Pesticides Act. BuzzSkito provides written documentation of every treatment for your facility records.
         </p>
       </QuickAnswer>
+
 
       {/* WHY DAYCARES NEED THIS */}
       <section className="bg-white py-14 px-4">
@@ -98,7 +101,7 @@ export default function DaycareCampMosquitoTickControlPage() {
 
           <div className="space-y-4">
             <div className="rounded-xl bg-gray-50 border-l-4 border-emerald-500 p-5">
-              <h3 className="text-lg font-extrabold text-brand-900 mb-2">📈 Tick expansion is now confirmed in every Ontario PHU</h3>
+              <h3 className="text-lg font-extrabold text-brand-900 mb-2">📈 Tick risk areas now cover much of southern Ontario</h3>
               <p className="text-sm text-gray-700">Public Health Ontario&rsquo;s blacklegged tick surveillance now records established or emerging risk areas across most of southern Ontario. For childcare facilities with outdoor play space backing onto ravines, conservation lands, or any naturalized green corridor, tick exposure for children is no longer hypothetical. Ontario reported 2,369 confirmed and probable Lyme disease cases in 2024 &mdash; up 27% over 2023, and the most of any province, per the <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline">Public Health Agency of Canada</a>. 2024 is the most recent year published.</p>
             </div>
             <div className="rounded-xl bg-gray-50 border-l-4 border-emerald-500 p-5">
@@ -107,7 +110,7 @@ export default function DaycareCampMosquitoTickControlPage() {
             </div>
             <div className="rounded-xl bg-gray-50 border-l-4 border-emerald-500 p-5">
               <h3 className="text-lg font-extrabold text-brand-900 mb-2">🌳 Forest school programming is mainstream</h3>
-              <p className="text-sm text-gray-700">Ontario&rsquo;s growing forest school and nature-based programming models include extended outdoor time in naturalized environments. While educationally valuable, these programs increase student exposure to ticks, mosquitoes, and biting insects. Treating forest-edge vegetation along program areas is now considered baseline duty of care.</p>
+              <p className="text-sm text-gray-700">Ontario&rsquo;s growing forest school and nature-based programming models include extended outdoor time in naturalized environments. While educationally valuable, these programs increase student exposure to ticks, mosquitoes, and biting insects. Treating forest-edge vegetation along program areas is one way to address the spots where children spend the most outdoor time.</p>
             </div>
           </div>
         </div>
@@ -154,6 +157,10 @@ export default function DaycareCampMosquitoTickControlPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" location="price_card_mid" />
+      </div>
+
       {/* PROTOCOL */}
       <section className="bg-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -164,9 +171,9 @@ export default function DaycareCampMosquitoTickControlPage() {
               { n: 1, t: 'Site assessment & buffer zone documentation', d: 'Initial site walk identifies play areas, sandbox/water play features, vegetable gardens, pollinator zones, and any sensitivity considerations. All buffer zones documented in your treatment plan.' },
               { n: 2, t: 'Parent notification 1-2 weeks before season starts', d: 'We provide template (English and French) covering products applied, scheduling protocol, and parent contact line for questions.' },
               { n: 3, t: 'Pre-treatment notice 48 hours in advance', d: 'Reminder email/notice for parents and staff. Treatment-day signage posted at facility entrances.' },
-              { n: 4, t: 'Treatment scheduled outside operating hours', d: 'Most childcare treatments scheduled 5-7 AM weekdays (before opening) or weekends. The 30-minute drying window completes before children arrive.' },
+              { n: 4, t: 'Treatment scheduled outside operating hours', d: 'Most childcare treatments scheduled 5-7 AM weekdays (before opening) or weekends. The spray has dried, as the product label directs, before children arrive.' },
               { n: 5, t: 'Written treatment record provided', d: 'After every visit: date/time, technician licence number, products with PCP numbers, treated zones, weather conditions. Suitable for facility records and ministry compliance.' },
-              { n: 6, t: 'Direct parent question handling', d: 'Parents with specific concerns can contact our office directly. We respond within 24 hours and document all interactions for the facility record.' },
+              { n: 6, t: 'Direct parent question handling', d: 'Parents with specific concerns can contact our office directly, and we document all interactions for the facility record.' },
             ].map((s) => (
               <li key={s.n} className="flex gap-4 bg-gray-50 rounded-xl border border-gray-200 p-4">
                 <span className="shrink-0 w-10 h-10 rounded-full bg-emerald-600 text-white font-extrabold flex items-center justify-center">{s.n}</span>
@@ -179,6 +186,10 @@ export default function DaycareCampMosquitoTickControlPage() {
           </ol>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" />
+      </div>
 
       {/* FAQ */}
       <section className="bg-gray-50 py-14 px-4">

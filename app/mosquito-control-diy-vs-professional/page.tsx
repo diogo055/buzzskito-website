@@ -2,7 +2,10 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'DIY vs Professional Mosquito Control — Worth It?',
@@ -14,7 +17,7 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'Is professional mosquito control worth the cost?',
-    answer: 'For most GTA properties, yes. A single professional barrier spray treatment (from $99) provides up to 30 days of full-property protection. DIY foggers cost $50-$90 plus refills and provide only 2-4 hours of partial coverage. When you factor in time spent reapplying, limited effectiveness, and safety risks of consumer chemicals, professional treatment is typically more cost-effective per hour of actual protection delivered.',
+    answer: 'For most GTA properties, yes. A single professional barrier spray treatment (from $99 on a standard lot) treats the resting sites across your whole property and leaves a residual barrier. DIY foggers cost $50-$90 plus refills and last only 2-4 hours in the open air. When you factor in time spent reapplying, limited coverage, and the risks of applying consumer chemicals without training, professional treatment is typically the better value for most yards.',
   },
   {
     question: 'Do citronella candles actually work for mosquitoes?',
@@ -26,11 +29,11 @@ const FAQS = [
   },
   {
     question: 'What about natural mosquito repellents like essential oils?',
-    answer: 'Essential oil-based repellents (lemongrass, peppermint, eucalyptus) provide very short-duration protection — typically 30-60 minutes — and only in the immediate area of application. They do not kill mosquitoes or reduce the population. They can be useful as a personal repellent supplement but are not a property-level solution. No essential oil product provides the residual 30-day barrier that professional treatment delivers.',
+    answer: 'Essential oil-based repellents (lemongrass, peppermint, eucalyptus) provide very short-duration protection — typically 30-60 minutes — and only in the immediate area of application. They do not kill mosquitoes or reduce the population. They can be useful as a personal repellent supplement but are not a property-level solution. They do not leave a residual barrier on resting vegetation, which is what professional barrier spray is designed to do.',
   },
   {
     question: 'When does DIY mosquito control actually make sense?',
-    answer: 'DIY approaches make sense in three scenarios: (1) Very low mosquito pressure — if your property is inland, well away from water features, and you only occasionally see mosquitoes, source reduction (eliminating standing water) may be sufficient. (2) Personal repellent for hiking or camping — DEET or picaridin-based personal repellents are effective for individual protection in the wilderness. (3) Supplementing professional treatment — eliminating standing water on your property between professional treatments extends the effectiveness of the barrier spray.',
+    answer: 'DIY approaches make sense in three scenarios: (1) Very low mosquito pressure — if your property is inland, well away from water features, and you only occasionally see mosquitoes, source reduction (eliminating standing water) may be sufficient. (2) Personal repellent for hiking or camping — DEET or picaridin-based personal repellents are effective for individual protection in the wilderness. (3) Supplementing professional treatment — eliminating standing water on your property between professional treatments works alongside the barrier spray.',
   },
 ]
 
@@ -57,10 +60,10 @@ export default function DIYvsProfessionalPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>&#10003; Health Canada&ndash;Approved Formula</span>
-          <span>&#10003; Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>&#10003; Up to 30-Day Protection</span>
-          <span>&#10003; Bite-Free Guarantee</span>
+          <span>&#10003; {PROMISES.licence}</span>
+          <span>&#10003; {PROMISES.labelLine}</span>
+          <span>&#10003; {PROMISES.rainBackShort}</span>
+          <span>&#10003; {PROMISES.biteFreeScope}</span>
           <span>&#10003; 5-Star Rated &middot; 150+ Reviews</span>
         </div>
       </section>
@@ -90,7 +93,7 @@ export default function DIYvsProfessionalPage() {
                   { method: 'Consumer fogger (Home Depot)', cost: '$50-$90 + refills', duration: '2-4 hours', area: 'Open air only', eff: 'Moderate — misses resting sites' },
                   { method: 'DIY yard concentrate spray', cost: '$30-$70/bottle', duration: '1-2 weeks (if applied correctly)', area: 'Wherever you spray', eff: 'Moderate — application skill matters' },
                   { method: 'Mosquito traps (propane/CO2)', cost: '$200-$600 upfront', duration: 'Continuous (while running)', area: '~1 acre radius claim', eff: 'Moderate — catches some, not all' },
-                  { method: 'Professional barrier spray', cost: 'From $99/treatment', duration: 'Up to 30 days', area: 'Full property — all vegetation', eff: 'High — kills + residual barrier' },
+                  { method: 'Professional barrier spray', cost: 'From $99/treatment', duration: 'Residual barrier, renewed each visit', area: 'Full property — all vegetation', eff: 'Targets resting sites + residual barrier' },
                 ].map(({ method, cost, duration, area, eff }) => (
                   <tr key={method} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-3 font-semibold text-gray-800">{method}</td>
@@ -103,7 +106,13 @@ export default function DIYvsProfessionalPage() {
               </tbody>
             </table>
           </div>
+        </div>
+      </section>
 
+      <TypicalPrices service="mosquito" city="GTA" />
+
+      <section className="py-14 px-4 bg-white">
+        <div className="max-w-4xl mx-auto prose-brand">
           <h2>Citronella Candles &amp; Torches</h2>
           <p><strong>Cost:</strong> $20&ndash;$60 per season for a set of candles or tiki torches.</p>
           <p><strong>How they work:</strong> Citronella oil produces a scent that partially masks the CO2 and body odours that attract mosquitoes. The effect is limited to a small radius around each flame.</p>
@@ -136,10 +145,12 @@ export default function DIYvsProfessionalPage() {
           <p><strong>How they work:</strong> Traps emit CO2, heat, and attractants to lure mosquitoes into a collection chamber where they die.</p>
           <p><strong>Reality:</strong> Traps can catch meaningful numbers of mosquitoes over time, but they don&rsquo;t eliminate the breeding population. Studies show mixed results &mdash; some properties see reduction, others don&rsquo;t. They require continuous operation, ongoing cost for fuel and attractants, and they don&rsquo;t address ticks at all. Best used as a supplement to other control methods, not a standalone solution.</p>
 
+          <CityPriceCard city="GTA" service="mosquito" location="price_card_mid" />
+
           <h2>Professional Barrier Spray</h2>
           <p><strong>Cost:</strong> From $99 per treatment at BuzzSkito.</p>
-          <p><strong>How it works:</strong> A licensed technician applies Health Canada-approved formula to all vegetation on your property using a professional backpack sprayer. The product kills mosquitoes on contact where they rest &mdash; undersides of leaves, shrub interiors, fence lines, and structural perimeters &mdash; and leaves a residual barrier for up to 30 days.</p>
-          <p><strong>Reality:</strong> Professional barrier spray is the most effective single approach to mosquito control for residential properties. It targets the places where mosquitoes actually spend their time, provides weeks of residual protection per treatment, and is applied safely by trained, licensed applicators. The per-treatment cost is competitive with a season&rsquo;s worth of DIY supplies, but the results are significantly better.</p>
+          <p><strong>How it works:</strong> A licensed technician applies a barrier product, according to its label directions, to the vegetation on your property using a professional backpack sprayer. The product goes where mosquitoes rest &mdash; undersides of leaves, shrub interiors, fence lines, and structural perimeters &mdash; and leaves a residual barrier that is renewed at each scheduled visit.</p>
+          <p><strong>Reality:</strong> Professional barrier spray is the most complete single approach for residential properties. It targets the places where mosquitoes actually spend their time, leaves a residual barrier between scheduled visits, and is applied according to label directions by trained, licensed applicators. The per-treatment cost is competitive with a season&rsquo;s worth of DIY supplies, without the time, equipment, or guesswork.</p>
 
           {/* Cost comparison table */}
           <h2>Season Cost Comparison</h2>
@@ -150,16 +161,16 @@ export default function DIYvsProfessionalPage() {
                   <th className="px-4 py-3 text-left">Approach</th>
                   <th className="px-4 py-3 text-left">Season Cost (May-Sep)</th>
                   <th className="px-4 py-3 text-left">Your Time</th>
-                  <th className="px-4 py-3 text-left">Days of Protection</th>
+                  <th className="px-4 py-3 text-left">Residual Effect</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { approach: 'Citronella candles (weekly use)', cost: '$60-$120', time: '10+ hours setup/refuel', days: '0 — only works while burning' },
-                  { approach: 'Consumer fogger (weekly use)', cost: '$150-$250', time: '15+ hours of fogging', days: '0 — 2-4 hours per use' },
-                  { approach: 'DIY concentrate (5 applications)', cost: '$100-$200 + sprayer', time: '10-15 hours total', days: '35-70 days (if applied correctly)' },
-                  { approach: 'BuzzSkito Basic (5 treatments)', cost: '$549', time: '0 — we do everything', days: '~90 days of protection' },
-                  { approach: 'BuzzSkito Standard (10 treatments)', cost: '$994', time: '0 — we do everything', days: '~120 days of protection' },
+                  { approach: 'Citronella candles (weekly use)', cost: '$60-$120', time: '10+ hours setup/refuel', days: 'None — only works while burning' },
+                  { approach: 'Consumer fogger (weekly use)', cost: '$150-$250', time: '15+ hours of fogging', days: 'None — 2-4 hours per use' },
+                  { approach: 'DIY concentrate (5 applications)', cost: '$100-$200 + sprayer', time: '10-15 hours total', days: 'Some, if applied correctly' },
+                  { approach: 'BuzzSkito Basic (5 treatments)', cost: '$549', time: '0 — we do everything', days: '5 scheduled visits, monthly' },
+                  { approach: 'BuzzSkito Standard (10 treatments)', cost: '$994', time: '0 — we do everything', days: '10 scheduled visits, every 2 weeks' },
                 ].map(({ approach, cost, time, days }) => (
                   <tr key={approach} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-3 font-semibold text-gray-800">{approach}</td>
@@ -191,16 +202,16 @@ export default function DIYvsProfessionalPage() {
             <li>Source reduction (eliminating standing water) is enough to keep populations low</li>
             <li>You&rsquo;re comfortable with pesticide application safety and follow label directions precisely</li>
           </ul>
-          <p>For GTA properties near the Credit River, Humber Valley, Don Valley, Lake Ontario shoreline, or any stormwater management pond &mdash; DIY approaches typically cannot match the sustained protection that professional barrier spray provides.</p>
+          <p>For GTA properties near the Credit River, Humber Valley, Don Valley, Lake Ontario shoreline, or any stormwater management pond &mdash; DIY approaches on their own are usually not enough to keep up with the pressure.</p>
 
           <h2>The Best Approach: Professional + Source Reduction</h2>
-          <p>The most effective mosquito control combines professional barrier spray with basic DIY source reduction:</p>
+          <p>A strong approach combines professional barrier spray with basic DIY source reduction:</p>
           <ul>
-            <li>Professional barrier spray every 21&ndash;28 days for population knockdown and residual protection</li>
+            <li>Professional barrier spray on a regular schedule &mdash; monthly on the Basic plan, every 2 weeks on Standard</li>
             <li>Eliminate standing water in plant saucers, bird baths, clogged gutters, and pool covers between treatments</li>
             <li>Keep vegetation trimmed to reduce shaded resting habitat</li>
           </ul>
-          <p>This combination provides the best results and extends the effectiveness of each professional treatment.</p>
+          <p>This combination deals with both the resting sites on your property and the standing water where mosquitoes breed.</p>
 
           <h2>Related Pages</h2>
           <ul>
@@ -239,6 +250,10 @@ export default function DIYvsProfessionalPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" />
+      </div>
+
       {/* FAQ */}
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
@@ -259,7 +274,7 @@ export default function DIYvsProfessionalPage() {
         </div>
       </section>
 
-      <CTASection heading="Ready to Skip the DIY?" subtext="Professional mosquito control from $99/treatment. No contracts. Health Canada-approved. Free quotes." />
+      <CTASection heading="Ready to Skip the DIY?" subtext="Professional mosquito control from $99/treatment. No contracts. Licensed Ontario operator. Free quotes." />
     </>
   )
 }

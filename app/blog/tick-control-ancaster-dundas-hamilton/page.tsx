@@ -39,7 +39,7 @@ const FAQS = [
   {
     question: 'Do I need tick treatment if I have a fenced backyard?',
     answer:
-      "A fence does not prevent tick exposure. Ticks are carried onto properties by white-tailed deer, small mammals (mice, chipmunks, squirrels), and birds — all of which easily cross or enter standard residential fencing. Properties backing onto ravines or conservation land in Ancaster and Dundas consistently have tick activity inside fenced yards. Professional perimeter treatment is the most effective way to break the tick exposure cycle on your property.",
+      "A fence does not prevent tick exposure. Ticks are carried onto properties by white-tailed deer, small mammals (mice, chipmunks, squirrels), and birds — all of which easily cross or enter standard residential fencing. Properties backing onto ravines or conservation land in Ancaster and Dundas consistently have tick activity inside fenced yards. Professional perimeter treatment targets the ticks those animals leave along your yard's edges.",
   },
 ]
 
@@ -98,13 +98,13 @@ export default function AncasterDundasTickPage() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Ancaster and Dundas sit at the edge of the Niagara Escarpment &mdash; Ontario&apos;s most active blacklegged tick corridor &mdash; so Escarpment-edge yards carry real, confirmed Lyme risk. Five barrier-spray treatments a season, spaced roughly a month apart from May through September, are the standard protection here &mdash; the residual wears off, and deer keep carrying new ticks back in.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Ancaster and Dundas sit at the edge of the Niagara Escarpment &mdash; Ontario&apos;s most active blacklegged tick corridor &mdash; so Escarpment-edge yards carry real, confirmed Lyme risk. Five barrier-spray treatments a season, spaced roughly a month apart from May through September, are the standard treatment schedule here &mdash; the residual wears off, and deer keep carrying new ticks back in.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>The Hamilton Conservation Authority has confirmed blacklegged ticks in Dundas Valley Conservation Area.</li>
             <li>Infection rates in established GTA-region tick populations typically run 15&ndash;25%.</li>
             <li>Each deer can carry 200&ndash;400 adult ticks during peak season and deposit them in yards.</li>
             <li>Nymphs peak from late May through early July and cause most Lyme cases.</li>
-            <li>Barrier treatment gives up to 30 days of residual tick control per application, so five sprays cover May through September with no gap.</li>
+            <li>The residual from one application lasts weeks, not months, so five sprays are spaced roughly monthly from May through September.</li>
             <li>BuzzSkito serves Ancaster, Dundas, and all Hamilton neighbourhoods; single treatments start at $99.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
@@ -124,6 +124,7 @@ export default function AncasterDundasTickPage() {
         <h3>Ancaster Highland Trail and the Escarpment Brow</h3>
         <p>Ancaster sits at the top of the Escarpment, and the trail network running through the community — including the Bruce Trail and Ancaster Memorial Arts Centre trail — traverses through and adjacent to established residential areas. Properties backing onto the Escarpment face or trail corridors in communities like Ancaster Heights, Scenic Drive-area homes, and the large-lot properties along Sulphur Springs Road and Shaver Road consistently experience tick activity that extends well into maintained backyards.</p>
         <p>Deer regularly move through Ancaster residential properties at night — residents commonly observe them in gardens and along fence lines. Each deer carries 200–400 adult ticks during peak season, and every deer that walks through your property can deposit ticks in your leaf litter, lawn edges, and foundation plantings.</p>
+        <p>The same Escarpment brow runs east across Hamilton and sets up the identical interface above Heritage Green, with the Red Hill ravine cutting down to the lake — we map that half of the city in <Link href="/blog/mosquito-tick-control-stoney-creek" className="text-brand-700 hover:underline">the Stoney Creek mosquito and tick guide</Link>.</p>
 
         <h3>The &ldquo;Interface Zone&rdquo;: Where Tick Encounters Actually Happen</h3>
         <p>A common misconception is that tick exposure requires walking in the woods. In practice, the majority of tick bites acquired by GTA homeowners happen within their own backyards — specifically in the 1–2 metre border zone between maintained lawn and natural vegetation: the edge where grass meets garden beds, fence lines where leaf litter accumulates, foundation plantings, compost areas, and wood piles.</p>
@@ -146,7 +147,7 @@ export default function AncasterDundasTickPage() {
           <li>Wood pile areas and compost borders</li>
           <li>Any area where Escarpment or conservation-area vegetation encroaches onto the property</li>
         </ul>
-        <p>The formula leaves a residual on the treated leaf litter and shaded edges that persists for weeks, not days — but it is not a one-time fix, and it wears off. Five treatments per season, spaced roughly a month apart from May through September, are what hold that barrier continuously. Nymphs are emerging from late May through July, adults come back through the autumn, and deer, mice, and birds re-seed the property from the Escarpment the whole time — so the protection has to be renewed as the residual fades, not applied once and left.</p>
+        <p>The formula leaves a residual on the treated leaf litter and shaded edges that persists for weeks, not days — but it is not a one-time fix, and it wears off. Five treatments per season, spaced roughly a month apart from May through September, are what hold that barrier continuously. Nymphs are emerging from late May through July, adults come back through the autumn, and deer, mice, and birds re-seed the property from the Escarpment the whole time — so the treatment has to be renewed as the residual fades, not applied once and left.</p>
         <p>This is the practical argument against a one-off or twice-yearly visit on an Escarpment-edge lot: two sprays leave a multi-month hole in the middle of the season, and that hole falls squarely over nymph peak — the stretch with the highest Lyme transmission risk and the heaviest backyard use. Monthly coverage closes it.</p>
 
         <h2>Recommended Tick Control Schedule for Ancaster and Dundas</h2>
@@ -180,6 +181,7 @@ export default function AncasterDundasTickPage() {
         </div>
 
         <p>That five-visit schedule is the baseline we recommend for every Escarpment-edge property, not an upgrade. On the highest-pressure lots — directly adjacent to conservation lands, forest edges, or with confirmed deer traffic — the mid-season treatments in July and August are doing as much work as the ones timed to the nymph and adult peaks, because those are the yards being re-seeded with ticks continuously all summer.</p>
+        <p>The same Escarpment corridor runs east past Waterdown and the RBG into Halton, where the timing shifts slightly with the lake. If your property sits on that side, <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 underline">tick season in Burlington</Link> maps the activity months onto the escarpment edge and the lakefront neighbourhoods there.</p>
         <p>Our standalone tick season is $597 for the five treatments, or $497 when bundled with any mosquito plan — a $100 saving, and most Escarpment-edge properties want both. A single one-off treatment starts at $99 if you would rather see the results before committing to the season.</p>
 
         <h2>What to Do After a Tick Bite in Ancaster or Dundas</h2>
@@ -210,7 +212,7 @@ export default function AncasterDundasTickPage() {
 
       <CTASection
         heading="Tick Control for Ancaster & Dundas — Free Quotes Available"
-        subtext="Five treatments per season — roughly one a month, May through September — protect Escarpment-edge properties with no gap in coverage. Call (289) 216-5030."
+        subtext="Five treatments per season — roughly one a month, May through September — for Escarpment-edge properties. $597 for the season, or $497 with a mosquito plan. Call (289) 216-5030."
       />
     </>
   )

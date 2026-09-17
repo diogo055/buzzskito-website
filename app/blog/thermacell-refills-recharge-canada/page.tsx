@@ -9,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import TopPick from '@/components/TopPick'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'thermacell-refills-recharge-canada'
 const DATE = '2026-07-12'
@@ -23,7 +24,7 @@ const FAQS = [
   },
   {
     question: 'How much do Thermacell refills cost per hour in Canada?',
-    answer: 'Roughly $0.35–$0.50 per hour of protection. In Canada (July 2026), an E-Series refill cartridge (40 hours) runs about $15–$20, an Original 60-hour value pack (15 mats + 5 fuel cartridges) about $25–$32, and a 120-hour mega refill about $40–$50. Buying multi-packs lowers the per-hour cost. For comparison, a single professional barrier spray treatment from $99 covers your whole yard for 21–30 days with no cartridges to swap.',
+    answer: 'Roughly $0.35–$0.50 per hour of protection. In Canada (July 2026), an E-Series refill cartridge (40 hours) runs about $15–$20, an Original 60-hour value pack (15 mats + 5 fuel cartridges) about $25–$32, and a 120-hour mega refill about $40–$50. Buying multi-packs lowers the per-hour cost. For comparison, professional barrier spray from $99 per treatment covers your whole yard, re-applied on a schedule, with no cartridges to swap.',
   },
   {
     question: 'Are Thermacell refills interchangeable between models?',
@@ -43,11 +44,11 @@ const FAQS = [
   },
   {
     question: 'What is the active ingredient in Thermacell refills?',
-    answer: 'Thermacell rechargeable refills use metofluthrin, and the Original mat refills use allethrin (d-allethrin) — both are synthetic pyrethroid repellents registered for sale in Canada by Health Canada\'s Pest Management Regulatory Agency (PMRA). The device warms the refill to release a scentless vapour that creates a protection zone of roughly 20 feet (about 6 metres) around the unit. Always follow the label directions printed on the refill package.',
+    answer: 'Thermacell rechargeable refills use metofluthrin, and the Original mat refills use allethrin (d-allethrin) — both are synthetic pyrethroid repellents sold in Canada under PCP registration numbers. The device warms the refill to release a scentless vapour that creates a protection zone of roughly 20 feet (about 6 metres) around the unit. Always follow the label directions printed on the refill package.',
   },
   {
     question: 'Are Thermacell refills safe to use around kids and pets?',
-    answer: 'Used as directed, yes — Thermacell repellents are registered by Health Canada\'s PMRA and are designed for outdoor use. The vapour repels mosquitoes rather than being sprayed on skin. Follow label directions: use outdoors in a well-ventilated area, keep the device out of reach of children, and do not use it in enclosed spaces. Because it creates a fixed zone, it protects a patio or campsite but does not move with you the way a topical repellent does.',
+    answer: 'Only as the label directs. Thermacell refills are registered pest control products: the Canadian package carries a PCP registration number and the directions you are legally required to follow, and they are designed for outdoor use. The vapour repels mosquitoes rather than being sprayed on skin. Follow label directions: use outdoors in a well-ventilated area, keep the device out of reach of children and pets, and do not use it in enclosed spaces. Because it creates a fixed zone, it protects a patio or campsite but does not move with you the way a topical repellent does.',
   },
 ]
 
@@ -98,7 +99,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
               <li>Rechargeable models need no butane &mdash; a full USB charge takes 4&ndash;6 hours.</li>
               <li>The E55 runs about 5.5 hours per charge; the E90 runs about 9 hours.</li>
               <li>Fuel-powered mats last about 4 hours each and a butane cartridge about 12 hours.</li>
-              <li>One device covers only a ~20 ft zone; barrier spray covers the whole yard for 21&ndash;30 days from $99.</li>
+              <li>One device covers only a ~20 ft zone; barrier spray treats the whole yard from $99.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
@@ -148,7 +149,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">One device protects one ~20 ft zone.</strong> A Thermacell defends the patch of patio it sits on &mdash; it does not treat your lawn, your yard edges, or handle ticks. For whole-yard, weeks-long coverage, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> treats every surface mosquitoes land on for 21&ndash;30 days per visit. Many GTA homeowners run both: barrier spray for the yard, a Thermacell on the table.
+              <strong className="text-amber-900">One device protects one ~20 ft zone.</strong> A Thermacell defends the patch of patio it sits on &mdash; it does not treat your lawn, your yard edges, or handle ticks. For whole-yard coverage, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> treats the vegetation where mosquitoes rest and is re-applied on a schedule. Many GTA homeowners run both: barrier spray for the yard, a Thermacell on the table.
             </p>
           </div>
         </div>
@@ -189,7 +190,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Active ingredients (metofluthrin, allethrin) are registered for sale in Canada through <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA)</a>. Always follow the directions on the refill label.
+            Thermacell refills sold in Canada carry a PCP registration number on the label (see <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA)</a>). Always follow the directions on the refill label.
           </p>
         </div>
       </section>
@@ -228,7 +229,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">A Thermacell covers the table. We cover the yard.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats every surface mosquitoes (and ticks) land on across your whole property &mdash; from $99 per treatment, backed by 150+ five-star reviews across 19 GTA cities. Keep the Thermacell for the picnic table.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats the vegetation where mosquitoes rest across your whole property &mdash; from $99 per treatment, with tick treatment as an add-on ($497/season with a mosquito plan), backed by 150+ five-star reviews across 19 GTA cities. Keep the Thermacell for the picnic table.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -251,10 +252,10 @@ export default function ThermacellRefillsRechargeCanadaPage() {
             <tbody>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Thermacell (device)</strong></td><td className="px-3 py-2">~20 ft zone around the unit</td><td className="px-3 py-2">While running (40 hrs/refill)</td><td className="px-3 py-2">No</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-mosquito-repellent-device-canada">Other repellent devices</Link></td><td className="px-3 py-2">Small personal zone</td><td className="px-3 py-2">While running</td><td className="px-3 py-2">No</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Entire yard, surfaces &amp; edges</td><td className="px-3 py-2">21&ndash;30 days per treatment</td><td className="px-3 py-2">Yes &mdash; full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Entire yard, surfaces &amp; edges</td><td className="px-3 py-2">Re-applied on a schedule</td><td className="px-3 py-2">Yes &mdash; with a tick treatment</td></tr>
             </tbody>
           </table>
-          <p>Thermacell is a genuinely good product for what it does: create a mosquito-free bubble around a patio table, a campsite, or a deck chair, on demand, with no spraying on skin. What it cannot do is protect a whole yard, hold up in a breeze, or touch ticks. For that you need residual treatment on the vegetation itself. The smartest GTA setup is a Thermacell for point protection <em>plus</em> a seasonal <Link href="/mosquito-control">BuzzSkito barrier program</Link> ($549 Basic / $994 Standard for the season, or a single treatment from $99) so the yard around the Thermacell is working for you too.</p>
+          <p>Thermacell is a genuinely good product for what it does: create a repellent zone around a patio table, a campsite, or a deck chair, on demand, with no spraying on skin. What it cannot do is protect a whole yard, hold up in a breeze, or touch ticks. For that you need residual treatment on the vegetation itself. The smartest GTA setup is a Thermacell for point protection <em>plus</em> a seasonal <Link href="/mosquito-control">BuzzSkito barrier program</Link> ($549 Basic / $994 Standard for the season, or a single treatment from $99) so the yard around the Thermacell is working for you too.</p>
 
           <h2>Frequently Asked Questions</h2>
           {FAQS.map(({ question, answer }) => (
@@ -274,7 +275,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Thermacell for the Table · Barrier Spray for the Yard" subtext="Get a free quote for licensed whole-yard mosquito & tick control. From $99. Same-day protection, 21–30 day residual." variant="dark" />
+      <CTASection heading="Thermacell for the Table · Barrier Spray for the Yard" subtext={`Get a free quote for licensed whole-yard mosquito & tick control. From $99. ${PROMISES.labelLine}. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

@@ -2,19 +2,21 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Restaurant Patio Mosquito Control | GTA Service',
   description:
-    'Restaurant patio mosquito control for GTA businesses. Regular treatment schedules for patio season May-Sep. Health Canada-approved. Call (289) 216-5030.',
+    'Restaurant patio mosquito control for GTA businesses. Regular treatment schedules for patio season May-Sep. Licensed Ontario operator. Call (289) 216-5030.',
   canonical: '/restaurant-patio-mosquito-control',
 })
 
 const FAQS = [
   {
-    question: 'Is BuzzSkito\'s treatment safe for restaurant patios where food is served?',
-    answer: 'Yes, with standard precautions. We treat all surrounding vegetation, shrubs, fence lines, planters, and perimeter areas — not food preparation surfaces, open food, or dining furniture directly. We recommend scheduling treatment the evening before service or early morning before opening. After the 30-minute dry time, the treated vegetation is completely safe for guests and staff. The product is Health Canada-approved and water-based.',
+    question: 'How is BuzzSkito\'s treatment applied around restaurant patios where food is served?',
+    answer: 'We treat all surrounding vegetation, shrubs, fence lines, planters, and perimeter areas — never food preparation surfaces, open food, or dining furniture. We recommend scheduling treatment the evening before service or early morning before opening, and keeping guests and staff off treated areas until the spray has dried, as the product label directs. The product is water-based and applied according to its label directions by a licensed Ontario pesticide operator.',
   },
   {
     question: 'How often should a restaurant patio be treated for mosquitoes?',
@@ -22,11 +24,11 @@ const FAQS = [
   },
   {
     question: 'Can you treat during off-hours so it doesn\'t affect our restaurant operations?',
-    answer: 'Absolutely. Most restaurant clients schedule treatments for early morning (before 10 AM) or late evening (after closing). The product dries in approximately 30 minutes and has no lingering odour, so even a morning treatment is fully cured before lunch service. We work around your schedule completely.',
+    answer: 'Absolutely. Most restaurant clients schedule treatments for early morning (before 10 AM) or late evening (after closing). The product has no lingering odour, and a morning treatment leaves time for the spray to dry before lunch service; keep staff and guests off treated areas until it has, as the label directs. We work around your schedule completely.',
   },
   {
     question: 'What does restaurant patio mosquito control cost?',
-    answer: 'Commercial patio treatment pricing depends on the size of the outdoor area, complexity of landscaping, and treatment frequency. Single treatments start from $99. Seasonal programs with regular scheduling offer volume-based pricing. Call (289) 216-5030 for a free, no-obligation quote specific to your patio and property.',
+    answer: 'Commercial patio treatment pricing depends on the size of the outdoor area, complexity of landscaping, and treatment frequency. Single treatments start from $99 on a standard lot under 10,000 sq ft, plus HST. Seasonal programs with regular scheduling offer volume-based pricing. Call (289) 216-5030 for a free, no-obligation quote specific to your patio and property.',
   },
   {
     question: 'Do you provide documentation for health department compliance?',
@@ -59,13 +61,15 @@ export default function RestaurantPatioMosquitoControlPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>&#10003; Health Canada&ndash;Approved Formula</span>
+          <span>&#10003; Licensed Ontario Pesticide Operator</span>
           <span>&#10003; Off-Hours Scheduling Available</span>
           <span>&#10003; Treatment Logs for Compliance</span>
           <span>&#10003; No Contracts Required</span>
           <span>&#10003; 5-Star Rated &middot; 150+ Reviews</span>
         </div>
       </section>
+
+      {/* Typical prices */}
 
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
@@ -75,8 +79,8 @@ export default function RestaurantPatioMosquitoControlPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Patio Assessment', desc: 'We evaluate your outdoor dining area, surrounding vegetation, planters, and perimeter to create a tailored treatment plan.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, planters, fence lines, and perimeter areas during your preferred off-hours.' },
-              { step: '3', title: '21-30 Day Protection', desc: 'The barrier kills mosquitoes on contact and repels new ones. We return on a regular schedule to maintain continuous protection throughout patio season.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies barrier spray according to label directions to vegetation, planters, fence lines, and perimeter areas during your preferred off-hours.' },
+              { step: '3', title: 'Regular Re-Treatment', desc: `We return on a regular schedule to renew the barrier on the vegetation around your patio through the season. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -93,7 +97,7 @@ export default function RestaurantPatioMosquitoControlPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Mosquitoes Cost Restaurants Revenue</h2>
           <p>Every restaurant owner with a patio knows the pattern: a table of four sits down, mosquitoes appear within minutes, and the table asks to move inside &mdash; or doesn&rsquo;t come back. During peak patio season (June through August), mosquito activity directly reduces patio covers, shortens dining times, and generates negative reviews mentioning &ldquo;bugs.&rdquo;</p>
-          <p>One professional barrier spray treatment creates up to 30 days of dramatically improved conditions across your entire outdoor dining area. For a restaurant running 50+ covers per night on the patio, the cost of treatment pays for itself with a single additional table that stays outside rather than moving in or leaving.</p>
+          <p>Regular professional barrier spray treatments target the vegetation where mosquitoes rest around your outdoor dining area. For a restaurant running 50+ covers per night on the patio, the cost of treatment pays for itself with a single additional table that stays outside rather than moving in or leaving.</p>
 
           <h2>GTA Patios with the Highest Mosquito Pressure</h2>
           <p>Restaurant patios near these features experience the heaviest mosquito activity and benefit most from regular treatment:</p>
@@ -144,7 +148,7 @@ export default function RestaurantPatioMosquitoControlPage() {
           <p>We do <strong>not</strong> spray dining furniture, food preparation areas, or open food. Treatment is applied exclusively to vegetation and structural perimeter areas.</p>
 
           <h2>Food Safety &amp; Compliance</h2>
-          <p>BuzzSkito uses a Health Canada&ndash;registered, water-based formula. The active ingredient bonds to vegetation surfaces and is not airborne after application. Once dry (approximately 30 minutes), there is no transfer to clothing, skin, or food. We schedule treatments before your operating hours and provide full documentation for health department and insurance compliance.</p>
+          <p>BuzzSkito uses a water-based formula applied according to its label directions by a licensed Ontario pesticide operator (Licence L-240-2436835197). We apply it to vegetation and structural perimeter areas only, and staff and guests should stay off treated areas until the spray has dried, as the label directs. We schedule treatments before your operating hours and provide full documentation for health department and insurance compliance.</p>
 
           <h2>Cities We Serve</h2>
           <p>BuzzSkito provides restaurant patio mosquito control across the GTA:</p>
@@ -200,6 +204,10 @@ export default function RestaurantPatioMosquitoControlPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" />
+      </div>
+
       {/* FAQ */}
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
@@ -220,7 +228,7 @@ export default function RestaurantPatioMosquitoControlPage() {
         </div>
       </section>
 
-      <CTASection heading="Get a Restaurant Patio Quote" subtext="Regular mosquito treatment scheduled around your operating hours. No contracts. Health Canada-approved." />
+      <CTASection heading="Get a Restaurant Patio Quote" subtext="Regular mosquito treatment scheduled around your operating hours. No contracts. Licensed Ontario operator." />
     </>
   )
 }

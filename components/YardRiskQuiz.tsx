@@ -2,7 +2,9 @@
 
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
-import { BUSINESS } from '@/lib/constants'
+import { BUSINESS, PROMISES } from '@/lib/constants'
+import { getGaClientId, getLandingPage, getReferrer, getUtm } from '@/lib/attribution'
+import { track } from '@/lib/track'
 import AddressAutocomplete, { type ParsedAddress } from './AddressAutocomplete'
 import {
   scoreYard,
@@ -83,13 +85,22 @@ export default function YardRiskQuiz() {
           callbackRequested,
           answers,
           result,
+          // First-touch attribution (lead payload contract): the page that brought the visitor, not this quiz.
+          landing_page: getLandingPage(),
+          referrer: getReferrer() || undefined,
+          source_component: 'yard_risk',
+          ...getUtm(),
+          ga_client_id: getGaClientId() || undefined,
         }),
       })
       if (!res.ok) throw new Error('Failed')
+      // Counted only once the Hub has accepted the lead.
+      track('generate_lead', { form_name: 'quiz' })
       setSubmitted(true)
       setStep(TOTAL_STEPS + 1)
     } catch {
-      setError('Something went wrong. Please call (289) 216-5030 — Alex will help you directly.')
+      track('form_error', { form_name: 'quiz' })
+      setError(`Something went wrong. Please call ${BUSINESS.phone} — Alex will help you directly.`)
     } finally {
       setSubmitting(false)
     }
@@ -143,10 +154,11 @@ export default function YardRiskQuiz() {
         <StepShell back={back} title="What&rsquo;s your lot size?" subtitle={parsedAddress?.city ? `Got it — your property in ${parsedAddress.neighbourhood ? `${parsedAddress.neighbourhood}, ` : ''}${parsedAddress.city}.` : ''}>
           <div className="grid grid-cols-2 gap-3">
             {([
-              { id: 'standard', label: 'Standard lot', sub: 'Under 6,000 sq ft · most semis & detached' },
-              { id: 'midsize', label: 'Mid-size', sub: '6,000–10,000 sq ft · larger detached' },
-              { id: 'large', label: 'Large', sub: '10,000–20,000 sq ft · estate / corner lot' },
-              { id: 'acreage', label: 'Acreage / rural', sub: '20,000+ sq ft' },
+              // Buckets match how we price: a standard lot is under 10,000 sq ft (lib/constants PRICING.standardLotSqFt).
+              { id: 'standard', label: 'Standard lot', sub: 'Under 10,000 sq ft · most semis & detached' },
+              { id: 'midsize', label: 'Mid-size', sub: '10,000–20,000 sq ft · larger detached / corner lot' },
+              { id: 'large', label: 'Large', sub: '20,000–43,000 sq ft · estate lot, up to an acre' },
+              { id: 'acreage', label: 'Acreage / rural', sub: '1 acre or more' },
             ] as const).map((o) => (
               <button key={o.id} onClick={() => { setLotSize(o.id); setTimeout(next, 200) }}
                 className={`p-4 rounded-xl border-2 text-left transition-all ${lotSize === o.id ? 'border-brand-600 bg-brand-50 shadow' : 'border-gray-200 bg-white hover:border-gray-300'}`}>
@@ -183,7 +195,7 @@ export default function YardRiskQuiz() {
               { id: 'kids-young', label: 'Kids under 10', sub: 'Highest stakes — every bite matters' },
               { id: 'kids-older', label: 'Kids 10+', sub: 'Active outdoor play' },
               { id: 'pets', label: 'Pets (dogs especially)', sub: 'Tick exposure is the top concern' },
-              { id: 'elderly', label: 'Elderly household members', sub: 'West Nile / Lyme = serious risk' },
+              { id: 'elderly', label: 'Elderly household members', sub: 'Public Health Ontario: older adults face a higher risk of severe West Nile illness' },
               { id: 'no-special', label: 'Adults only — no special concerns', sub: '' },
             ] as const).map((o) => (
               <button key={o.id} onClick={() => { setFamily(o.id); setTimeout(next, 200) }}
@@ -304,8 +316,10 @@ export default function YardRiskQuiz() {
         <ConfirmationStep result={result} name={name} email={email} callbackRequested={callbackRequested} />
       )}
 
-      {/* Out of service area fallback */}
-      {step >= 1 && parsedAddress && !result?.isInServiceArea && parsedAddress.city && (
+      {/* Out of service area fallback — only once a score exists and it says the address is outside the GTA.
+          (It used to test !result?.isInServiceArea, which is true while result is still null, so every
+          in-area visitor was told they were outside the service area until the score was computed.) */}
+      {step >= 1 && parsedAddress?.city && result && !result.isInServiceArea && (
         <div className="mt-6 rounded-2xl bg-amber-50 border border-amber-200 p-5">
           <p className="text-sm text-amber-900">
             <strong>Heads up — {parsedAddress.city} is outside our GTA service area.</strong> You can still complete the quiz to get a free general report by email, but we won&rsquo;t be able to schedule service. <Link href="/" className="underline">Back to home</Link>
@@ -374,11 +388,12 @@ function ScoreRevealStep(props: {
         <p className="text-xs text-gray-600 mt-1">First serious mosquito emergence: ~{result.peakRiskWeeks.daysFromNow === 0 ? 'now' : `${result.peakRiskWeeks.daysFromNow} days from today`}</p>
       </div>
 
-      {/* Social proof */}
+      {/* Social proof — real, checkable numbers only. (This used to show a "properties in your area assessed
+          this week" count, but that number was generated from a hash of the postal code, not from records.) */}
       {result.isInServiceArea && (
         <div className="rounded-xl bg-brand-50 border border-brand-100 p-4 flex items-center gap-3">
-          <span className="text-2xl">🏡</span>
-          <p className="text-sm text-brand-800"><strong>{result.socialProofCount} properties</strong> in your area assessed by BuzzSkito this week.</p>
+          <span className="text-2xl" aria-hidden="true">🏡</span>
+          <p className="text-sm text-brand-800"><strong>150+ five-star Google reviews</strong> · Owner-operated from Mississauga, serving 19 GTA cities.</p>
         </div>
       )}
 
@@ -390,7 +405,7 @@ function ScoreRevealStep(props: {
             <strong className="text-brand-900">Step 1.</strong> Within 60 seconds: a detailed property report lands in your inbox — water sources near your address, peak weeks for your area, tick risk specific to your setup, and 5 things you can fix yourself this weekend.
           </p>
           <p className="text-sm text-gray-700 leading-relaxed mb-2">
-            <strong className="text-brand-900">Step 2.</strong> Within 24 hours: Alex personally reviews your property and sends a custom protection plan with specific pricing. No template quotes — every property is priced individually.
+            <strong className="text-brand-900">Step 2.</strong> Alex personally reviews your property and sends a custom protection plan with specific pricing. {PROMISES.response} No template quotes — every property is priced individually.
           </p>
           {result.tier === 'severe' || result.tier === 'high' ? (
             <p className="text-xs text-amber-700 mt-3 leading-relaxed font-semibold">⚡ Your pressure score is in the top tier — Alex will prioritize your review.</p>
@@ -412,7 +427,7 @@ function ScoreRevealStep(props: {
           {phone && (
             <label className="flex items-center gap-2 text-sm text-brand-100 mt-2 cursor-pointer">
               <input type="checkbox" checked={callbackRequested} onChange={(e) => setCallbackRequested(e.target.checked)} className="w-4 h-4 rounded" />
-              ⚡ <strong>Have Alex personally call me back within 30 minutes</strong> to walk through my yard
+              ⚡ <strong>Have Alex personally call me back</strong> to walk through my yard
             </label>
           )}
           {error && <p className="text-amber-300 text-xs">{error}</p>}
@@ -435,8 +450,8 @@ function ConfirmationStep({ result, name, email, callbackRequested }: { result: 
       <p className="text-gray-600 max-w-md mx-auto">Check <strong>{email}</strong> in the next 60 seconds. Your full custom yard risk report — including your annotated map, peak-weeks calendar, and protection plan — is being delivered now.</p>
       {callbackRequested && (
         <div className="rounded-2xl bg-gradient-to-br from-amber-500 to-orange-500 text-white p-6 max-w-md mx-auto shadow-xl">
-          <p className="text-sm font-bold mb-1">⚡ Priority Callback Confirmed</p>
-          <p className="text-2xl font-extrabold mb-2">Alex will call you within 30 minutes</p>
+          <p className="text-sm font-bold mb-1">⚡ Priority Callback Requested</p>
+          <p className="text-2xl font-extrabold mb-2">Alex will call you back</p>
           <p className="text-sm opacity-90">Score: {result.score}/100 · {result.tierLabel}</p>
         </div>
       )}

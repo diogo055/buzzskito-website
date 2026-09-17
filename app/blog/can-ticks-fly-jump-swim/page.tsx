@@ -15,7 +15,7 @@ const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Can Ticks Fly, Jump, or Swim? (Myths vs Facts, Ontario)'
 // SERP title only (H1 + schema keep TITLE). Layout appends ' | BuzzSkito' (12 chars) — keep <= 48.
-const SEO_TITLE = 'Can Ticks Swim or Drown? Will Washing Kill Them'
+const SEO_TITLE = 'Can Ticks Swim or Drown? Ontario Myths vs Facts'
 
 const FAQS = [
   {
@@ -177,6 +177,7 @@ export default function CanTicksFlyJumpSwimPage() {
 
           <h2>How High Do Ticks Climb, and How Do You Stop Them?</h2>
           <p>In Ontario, ticks quest low. Nymphs usually wait within a few centimetres of the ground to about ankle height; adult blacklegged ticks climb a bit higher, to roughly knee height, on taller grass and brush. None climb to head height to attack. Because ticks board at the lower legs, the classic personal defence works extremely well: <strong>tuck your pants into your socks, wear light colours so ticks are easy to spot, and treat footwear and pant legs with permethrin.</strong> <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check insect shield permethrin treated clothing on Amazon.ca →</BuyLink></p>
+          <p>Gaiters close the gap the tuck leaves open. Since a tick boards at the ankle and climbs, the weak point is the few centimetres where a trouser hem meets a boot &mdash; exactly the seam that works loose twenty minutes into a walk. A pair of over-the-boot gaiters covers it outright, and a light-coloured pair gives you a smooth surface where a crawling tick shows up against the fabric and can be flicked off long before it finds skin. <BuyLink tag={AMZ_TAG} search="hiking gaiters over boot">Check hiking gaiters on Amazon.ca &rarr;</BuyLink></p>
           <p>For the yard itself, because ticks can only reach you from vegetation they have climbed, control is genuinely effective:</p>
           <ol>
             <li><strong>Mow to 3–4 inches.</strong> Short grass gives ticks nowhere to quest and dries out the ground-level humidity they need.</li>
@@ -185,6 +186,7 @@ export default function CanTicksFlyJumpSwimPage() {
             <li><strong>Discourage mice and deer</strong> — mice are the main host for immature ticks. Store firewood off the ground and don&rsquo;t feed wildlife.</li>
             <li><strong>Professional barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s tick barrier treatment</Link> targets the lawn edges, leaf litter, and shaded borders where ticks quest, re-applied through the season as the residual wears off.</li>
           </ol>
+          <p>Steps one and three are where most yards quietly fail, and it is a reach problem rather than a willingness problem. A mower cannot get at the strip that actually matters: the last half-metre against the fence, the skirt of the shed, the base of a retaining wall, and the ragged margin where lawn gives out into brush. That is precisely the band ticks quest from, and left alone it stays tall and humid all season while the open lawn looks immaculate. A string trimmer is the tool that shortens it, and walking the boundary with one every couple of weeks does more for tick pressure than cutting the middle of the yard ever will. <BuyLink tag={AMZ_TAG} search="cordless string trimmer">Check string trimmers on Amazon.ca &rarr;</BuyLink></p>
           <p>Because a questing tick crawls slowly for minutes to hours before it bites, a tick check after time outdoors usually catches it in time. Keep a fine-tipped removal tool handy so you can grip a tick close to the skin and pull straight out. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>
 
           <TopPick tag={AMZ_TAG}

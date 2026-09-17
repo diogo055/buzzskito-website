@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, CITIES, MOSQUITO_BLOGS, PROMISES, TICK_BLOGS } from '@/lib/constants'
 import { AMAZON_ENABLED, AMAZON_DISCLOSURE } from '@/lib/amazon'
 
 export default function Footer() {
@@ -28,7 +28,7 @@ export default function Footer() {
               <span className="font-extrabold text-xl text-white">Buzz<span className="text-amber-400">Skito</span></span>
             </Link>
             <p className="text-sm leading-relaxed mb-5 text-brand-400 max-w-xs">
-              Professional mosquito and tick barrier spray for GTA homeowners. Health Canada–approved. Safe for kids and pets after 30 minutes. Serving 19 cities across the GTA.
+              Professional mosquito and tick barrier spray for GTA homeowners. {PROMISES.labelLine}. Keep kids and pets inside during treatment and off treated areas until the spray has dried. Serving 19 cities across the GTA.
             </p>
             <address className="not-italic text-sm space-y-2 text-brand-300">
               <div className="flex items-center gap-2">
@@ -162,7 +162,8 @@ export default function Footer() {
             <span aria-hidden="true">·</span>
             <span><strong className="text-brand-300">Ontario Pesticide Operator Licence</strong> #{BUSINESS.licenseNumber}</span>
             <span aria-hidden="true">·</span>
-            <span><strong className="text-brand-300">Health Canada</strong>–Approved Formulations</span>
+            {/* Was "Health Canada–Approved Formulations": DIR2016-01 bars that wording, so the label line replaces it. */}
+            <span>{PROMISES.labelLine}</span>
             <span aria-hidden="true">·</span>
             <span><strong className="text-brand-300">5.0 ★</strong> Google Rating · 150+ Reviews · 0 Negative</span>
           </div>

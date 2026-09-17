@@ -2,19 +2,19 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { TICK_BLOGS } from '@/lib/constants'
+import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 const POST = {
   title: 'Spring Tick Season Ontario — When to Treat',
   slug: 'spring-tick-season-ontario',
   date: '2026-04-05',
-  excerpt: 'When does spring tick season start in Ontario? Blacklegged tick emergence timing, when to schedule your first treatment, and how early action prevents Lyme disease risk all season long.',
+  excerpt: 'When does spring tick season start in Ontario? Blacklegged tick emergence timing, when to schedule your first treatment, and why the timing matters through the highest-risk Lyme months.',
 }
 
 export const metadata: Metadata = buildMetadata({
   title: 'Spring Tick Season Ontario | When to Treat',
   description:
-    'Spring tick season Ontario: when ticks emerge, optimal first treatment timing, and how early action reduces Lyme disease risk for GTA homeowners.',
+    'Spring tick season Ontario: when ticks emerge, optimal first treatment timing, and why the Lyme disease risk window matters for GTA homeowners.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -79,12 +79,12 @@ export default function SpringTickSeasonPage() {
             <li>May through July is the highest-risk period for tick-borne disease transmission.</li>
             <li>A blacklegged tick generally needs 24&ndash;36 hours attached to transmit Lyme disease.</li>
             <li>Schedule the first barrier spray in late May, then renew it roughly monthly &mdash; five treatments, May through September.</li>
-            <li>Professional tick barrier spray provides 4&ndash;6 weeks of residual protection per application.</li>
+            <li>Professional tick barrier spray leaves a residual on the treated edges that is renewed roughly monthly.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
         </div>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
-          Spring tick season in Ontario starts earlier than most homeowners expect — and the timing of your first treatment can make or break your season-long protection. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
+          Spring tick season in Ontario starts earlier than most homeowners expect — and the timing of your first treatment can make or break your season-long treatment plan. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>
 
         <h2>Spring Tick Emergence: Earlier Than You Think</h2>
@@ -108,25 +108,27 @@ export default function SpringTickSeasonPage() {
         </ul>
         <p>This is why the nymph emergence window (late May through July) is responsible for the majority of human Lyme disease cases in Ontario.</p>
 
+        <p>In 2026 that window arrived early enough to make the news across the province. For what pushed it forward and the five steps worth taking in response, see <Link href="/blog/ontario-tick-surge-2026" className="text-brand-700 underline">the 2026 Ontario tick surge and 5-step safety plan</Link>.</p>
+
         <h2>When to Schedule Your First Tick Treatment</h2>
         <p>The optimal timing for your first professional tick treatment depends on your goals:</p>
 
         <h3>Late May: The Sweet Spot</h3>
         <p>For most GTA homeowners, late May is the ideal time for the first professional tick barrier spray. This timing achieves two critical objectives simultaneously:</p>
         <ul>
-          <li>Eliminates remaining adult ticks from the spring emergence before they can lay eggs</li>
+          <li>Targets remaining adult ticks from the spring emergence before they can lay eggs</li>
           <li>Targets newly emerged nymphs before they become established in your yard and before peak human exposure begins</li>
         </ul>
         <p>A late May treatment opens the critical June-July nymph activity window — the highest-risk period for Lyme disease transmission — with a fresh barrier in place. What it cannot do on its own is hold that window closed until the season ends.</p>
 
         <h3>Then Monthly: Five Treatments, May Through September</h3>
-        <p>One spray is not a season. Residual protection on the treated edges is measured in weeks, not months, so the barrier has to be renewed roughly every four weeks to stay continuous — five applications in total, spread across May through September.</p>
+        <p>One spray is not a season. The residual on the treated edges is measured in weeks, not months, so the barrier has to be renewed roughly every four weeks to stay continuous — five applications in total, spread across May through September.</p>
         <p>Two things keep happening after that first visit, and both argue for the monthly cadence:</p>
         <ul>
           <li><strong>Nymphs stay active well past the first treatment.</strong> Blacklegged nymphs peak from May through July, and they drive most Lyme transmission because they are poppy-seed sized and routinely missed during tick checks. A schedule with a long gap in it leaves that stretch open — precisely the wrong months of the year to be uncovered.</li>
           <li><strong>Wildlife keeps restocking your yard.</strong> Deer, mice, and birds move continuously between adjacent woodland and your property line, carrying new ticks in behind the treated barrier. The perimeter has to be re-established, not applied once and forgotten.</li>
         </ul>
-        <p>The later applications also carry protection into the fall. Adult blacklegged ticks re-emerge and remain active through November (or later in mild years), so the September treatment goes down while that resurgence is beginning rather than after it.</p>
+        <p>The later applications also carry treatment into the fall. Adult blacklegged ticks re-emerge and remain active through November (or later in mild years), so the September treatment goes down while that resurgence is beginning rather than after it.</p>
 
         <h3>Properties With High Tick Pressure</h3>
         <p>Homeowners whose properties border conservation areas, ravines, woodlots, or the Niagara Escarpment have the least margin for a lapse in coverage — the wildlife corridor runs right up to the lawn edge and pushes fresh ticks across it all summer. On those lots we start the season in early May rather than late, and run the full five-treatment schedule through September so no uncovered stretch opens up between applications.</p>
@@ -155,14 +157,14 @@ export default function SpringTickSeasonPage() {
         </ul>
 
         <h2>How Professional Tick Barrier Spray Works</h2>
-        <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> is applied to the zones where ticks are most concentrated — the transition between lawn and wooded or naturalized areas, garden borders, fence lines, shaded vegetation, stone walls, and wood pile surrounds. The Health Canada-approved formula kills ticks on contact and provides residual protection for 4 to 6 weeks.</p>
+        <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> is applied to the zones where ticks are most concentrated — the transition between lawn and wooded or naturalized areas, garden borders, fence lines, shaded vegetation, stone walls, and wood pile surrounds. The product carries a Canadian PCP registration number, is applied according to label directions, and leaves a residual on the treated surfaces that is renewed roughly monthly.</p>
         <p>Key facts about professional tick treatment:</p>
         <ul>
-          <li>Places a Health Canada-registered residual acaricide on the leaf litter and shaded edges where ticks quest</li>
-          <li>Safe for children and pets after the 30-minute drying window</li>
-          <li>Targets all tick species and all life stages present on the property</li>
-          <li>Applied by licensed Ontario technicians</li>
-          <li>Does not affect pollinators when applied to tick habitat zones (not flowering plants)</li>
+          <li>Places a residual acaricide with a Canadian PCP registration number on the leaf litter and shaded edges where ticks quest</li>
+          <li>Stay off treated areas until the spray has dried, as the product label directs</li>
+          <li>Aimed at the ticks questing in the treated zones</li>
+          <li>Applied under our {PROMISES.licence}</li>
+          <li>Kept off flowering plants, following the label&apos;s pollinator directions</li>
         </ul>
 
         <h2>Spring Tick Season by GTA Location</h2>
@@ -175,9 +177,11 @@ export default function SpringTickSeasonPage() {
           <li><strong>Caledon / Halton Hills:</strong> Rural properties with extensive wood borders see the highest spring tick volumes. See: <Link href="/blog/tick-prevention-caledon-halton-hills" className="text-brand-700 hover:underline">Caledon & Halton Hills tick prevention</Link></li>
         </ul>
         <p>Burlington is worth calling out on its own. Halton Region surveillance has recorded active adult ticks on the Mountainside and Mt. Nemo trails by the second week of March, because the lake buffer and the south-facing escarpment slope warm ahead of the rest of the region. <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 hover:underline">Our Burlington tick season guide</Link> walks through that local calendar month by month.</p>
+        <p>Mississauga gets the same treatment in <Link href="/blog/tick-season-mississauga-when-are-ticks-active" className="text-brand-700 underline">our month-by-month Mississauga tick season guide</Link>, which maps the spring emergence window against the Credit River and Rattray Marsh corridors where the city&rsquo;s tick pressure actually sits.</p>
+        <p>So does Oakville, where the creek valleys rather than the escarpment set the calendar: <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 underline">when ticks are active in Oakville</Link> follows the season along Sixteen Mile Creek, Bronte Creek and the Joshua Creek corridor.</p>
 
         <h2>The Cost of Waiting Too Long</h2>
-        <p>Homeowners who wait until they find a tick on themselves or a family member before booking treatment are already behind. By the time you encounter a tick in your yard, the local population is established and actively feeding. Every week of delay during the nymph emergence window (late May through July) increases your family&apos;s cumulative Lyme disease exposure risk.</p>
+        <p>Homeowners who wait until they find a tick on themselves or a family member before booking treatment are already behind. By the time you encounter a tick in your yard, the local population is established and actively feeding. Every week of delay during the nymph emergence window (late May through July) is a week of the highest-risk period without a treatment in place.</p>
         <p>Early scheduling also ensures you secure your preferred treatment date — professional tick control services in the GTA book up quickly in May as demand surges with warmer weather.</p>
         <p>See: <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Pricing</Link> | <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Contact BuzzSkito</Link></p>
 

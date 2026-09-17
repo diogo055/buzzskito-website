@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -112,9 +113,31 @@ export default function MosquitoSeasonPage() {
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
 
+        <BlogPostCTA />
+
         <p className="text-lg text-gray-600 leading-relaxed not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
           This guide covers the exact mosquito season timeline for each GTA city, what temperature triggers mosquito activity, and how to time your protection. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Backyard Mosquito Control Guide</Link>. Want early-season coverage locked in? <Link href="/free-yard-assessment" className="font-semibold text-brand-700 underline">Book your first treatment with a free yard assessment</Link> &mdash; or see <Link href="/mosquito-control-cost" className="text-brand-700 underline">what GTA mosquito control costs</Link> first.
         </p>
+
+        <AffiliateDisclosure />
+
+        <aside aria-label="What to do right now" className="not-prose my-8 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 sm:p-7">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">What to do right now</p>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">Whatever week you are reading this in, the season has already started somewhere in your yard. Three steps, in order &mdash; the first one costs nothing and does the most work.</p>
+          <ol className="space-y-4 text-[15px] text-gray-800 leading-relaxed list-decimal pl-5 marker:font-extrabold marker:text-emerald-700">
+            <li>
+              <strong>Walk the yard and tip out every container holding water.</strong> Plant saucers, kids&rsquo; toys, the wheelbarrow, folds in a tarp, a blocked gutter, the tray under the rain barrel. Eggs laid in those containers become biting adults within about a week, so this is the one job that lowers the count rather than just hiding you from it &mdash; and it takes ten minutes with nothing but your hands.
+            </li>
+            <li>
+              <strong>Treat the water you cannot tip out.</strong> The rain barrel, a pond, a low corner that stays wet, a catch basin you cannot empty. A BTI larvicide kills the larvae where they are: dunks are the slow-release tablet for water you leave alone for weeks, bits are the granular format for water you top up often. Read the label for the water types the product is cleared for and the dose for the volume you are treating.
+              <span className="mt-3 block"><BuyLink tag={AMZ_TAG} search="mosquito dunks bti rain barrel">Check price on Amazon.ca &rarr;</BuyLink></span>
+            </li>
+            <li>
+              <strong>Cover the chairs for tonight.</strong> A barrier treatment covers the yard; a portable zone repeller covers the table you are actually sitting at this evening, which is the gap between today and your first spray of the year. Same device we go into further down &mdash; no lotion, no citronella smoke, and it moves chair to chair.
+              <span className="mt-3 block"><BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check price on Amazon.ca &rarr;</BuyLink></span>
+            </li>
+          </ol>
+        </aside>
 
         <h2>The Short Answer: GTA Mosquito Season 2026</h2>
         <ul>
@@ -175,6 +198,8 @@ export default function MosquitoSeasonPage() {
 
         <p>Deciding between a Thermacell and other gadgets? Read our full breakdown of the <Link href="/blog/best-mosquito-repellent-device-canada" className="text-brand-700 hover:underline">best mosquito repellent devices in Canada</Link>, and if you&rsquo;ve settled on the brand, our guide to <Link href="/blog/thermacell-canada-where-to-buy" className="text-brand-700 hover:underline">where to buy a Thermacell in Canada</Link> covers models and pricing.</p>
 
+        <p>There is a lower-tech version of the same trick that never needs a refill mat: moving air. Mosquitoes are weak fliers, and an oscillating outdoor fan aimed low across a seating area &mdash; at ankle height, where they approach from &mdash; keeps them off a patio table for as long as it is running. Like the Thermacell it protects the chairs rather than the yard, but on a still, humid July evening it is the fastest thing you can plug in. <BuyLink tag={AMZ_TAG} search="outdoor oscillating pedestal fan">Check outdoor patio fans on Amazon.ca &rarr;</BuyLink></p>
+
         <h2>City-by-City: Which GTA Areas Have the Worst Mosquito Season?</h2>
         <p>Not all GTA locations experience the same mosquito pressure. The most heavily affected areas tend to be:</p>
         <ul>
@@ -185,10 +210,13 @@ export default function MosquitoSeasonPage() {
           <li><strong><Link href="/brampton-mosquito-control" className="text-brand-700">Brampton</Link></strong> — the Etobicoke Creek and Heart Lake corridors hold the shaded, damp cover mosquitoes rest in through the day</li>
           <li><strong><Link href="/markham-mosquito-control" className="text-brand-700">Markham</Link></strong> — Rouge River valley and Milner Creek properties back onto the same kind of ravine habitat</li>
         </ul>
+        <p>If your lot backs onto one of those ravine or creek corridors, pressure never really drops to zero between visits, and a physical barrier around the seating area is the one layer that does not depend on timing at all. A screen house or screened gazebo canopy over the patio table, or a magnetic screen door on the walkout, keeps the evening usable on the nights the yard is at its worst. <BuyLink tag={AMZ_TAG} search="screen house gazebo canopy">Check screen houses on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>The Case for Starting Treatment Early</h2>
         <p>The most common mistake GTA homeowners make is waiting too long to start mosquito treatment. By the time mosquitoes become noticeably bothersome (typically mid-June), populations have already been building for weeks. Starting treatment in the first week of May catches populations before they peak, giving barrier spray the best chance to reduce activity through the entire season.</p>
         <p>The same timing logic applies to the standing water on your property. A BTI larvicide such as <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700 hover:underline">Mosquito Bits</Link> kills mosquito larvae in rain barrels, birdbaths, and clogged gutters before that first generation ever matures into biting adults — far easier than chasing those same mosquitoes around the yard in July.</p>
+        <p>It is also the rare mosquito job whose window opens before the biting does: walking the rain barrels, the birdbath, and the blocked catch basin in late April means dealing with larvae in water you can see rather than adults in a yard you cannot. Bits are the granular format and suit water you top up often; dunks are the slow-release tablet for a barrel or pond you leave alone for a month. Follow the label for the water types each is cleared for. <BuyLink tag={AMZ_TAG} search="mosquito bits bti granules">Check BTI mosquito bits on Amazon.ca &rarr;</BuyLink></p>
+        <p>The layer that covers you before the first treatment of the year &mdash; and in the gap between every treatment after it &mdash; is what goes on your skin at dawn and dusk. In Canada that means a repellent carrying a PCP registration number on the label: DEET or icaridin (picaridin) for the conventional actives, or a registered oil of lemon eucalyptus product for the plant-based route. The label sets the concentration, the reapplication interval, and which products suit children, so choose from the label rather than the front of the bottle. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Check DEET and picaridin repellents on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Recommended 2026 GTA Mosquito Treatment Schedule</h2>
         <div className="not-prose overflow-x-auto my-6">

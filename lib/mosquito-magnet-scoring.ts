@@ -181,17 +181,20 @@ export function scoreMagnet(answers: MagnetAnswers): MagnetResult {
   const diyTips: string[] = []
   if (topDrivers.some((d) => d.driver.includes('Blood type'))) diyTips.push('Blood type isn\'t something you can change — but you CAN counter it with picaridin or DEET 30% applied to skin during outdoor time.')
   if (topDrivers.some((d) => d.driver.includes('exercise'))) diyTips.push('Shower within 30 minutes of outdoor exercise — washing off lactic acid drops your attractiveness back to baseline within 5-10 minutes.')
-  if (topDrivers.some((d) => d.driver.includes('Pregnancy'))) diyTips.push('Pregnancy attractor effect can\'t be reduced — but Health Canada-approved picaridin 20% (safe in pregnancy) provides 5-8 hours of effective skin protection.')
+  // Sep 2026: the old line called picaridin "Health Canada-approved" and "safe in pregnancy". Health Canada's
+  // repellent page says nothing about DEET/icaridin in pregnancy (that guidance is PHAC's travel-medicine
+  // committee, CATMAT), and "approved"/"safe" is barred wording, so this now points to a clinician.
+  if (topDrivers.some((d) => d.driver.includes('Pregnancy'))) diyTips.push('Pregnancy attractor effect can\'t be reduced — ask your doctor, midwife or pharmacist which personal repellent to use while pregnant, and cover up with light, loose clothing at dusk.')
   if (topDrivers.some((d) => d.driver.includes('clothing'))) diyTips.push('Switch evening outdoor wear to light colours — white, beige, light pastels. Removes the visual contrast cue mosquitoes lock onto, though it does not affect the CO2 and heat cues.')
   if (topDrivers.some((d) => d.driver.includes('alcohol'))) diyTips.push('If you\'re drinking outside, double up on repellent application — apply once 30 minutes before drinking and reapply after 90 minutes.')
   if (topDrivers.some((d) => d.driver.includes('dusk'))) diyTips.push('Add a Thermacell device to your patio for the dusk window — creates a 4.5m repellent zone around your seating area.')
   if (topDrivers.some((d) => d.driver.includes('fragrance'))) diyTips.push('Skip floral lotions/perfumes during outdoor evenings — switch to unscented or use eucalyptus-based products which actually repel mosquitoes.')
   // Always include
-  diyTips.push('For active outdoor use: 20% picaridin or 30% DEET — both effective for 5-8 hours, both Health Canada-approved.')
+  diyTips.push('For active outdoor use: a repellent with 20% icaridin (picaridin) or up to 30% DEET for adults. Check for the PCP registration number on the label, and apply and reapply as the label directs.')
 
   // Yard pivot
   const yardPivot = score >= 55
-    ? 'Even with personal repellent, you\'ll still attract mosquitoes from up to 50 metres away. Personal protection is half the equation — the other half is making sure the mosquitoes don\'t exist near you in the first place. The single highest-leverage move for high-magnet people is reducing the mosquito population AROUND your home, so fewer of them are detecting you to begin with.'
+    ? 'Even with personal repellent, you\'ll still attract mosquitoes from up to 50 metres away. Personal protection is half the equation — the other half is cutting down how many mosquitoes are near you in the first place. The single highest-leverage move for high-magnet people is reducing the mosquito population AROUND your home, so fewer of them are detecting you to begin with.'
     : 'Even though you\'re not a major attractor, mosquitoes biting your kids, partner, or guests will still ruin your evenings. The best step for low-magnet people is making sure the people you\'re hosting don\'t get bitten — by reducing the mosquito population around your yard.'
 
   return {

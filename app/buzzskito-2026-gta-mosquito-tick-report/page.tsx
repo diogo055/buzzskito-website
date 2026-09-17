@@ -3,7 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, blogPostingSchema } from '@/lib/seo'
-import { BUSINESS } from '@/lib/constants'
+import { BUSINESS, PROMISES } from '@/lib/constants'
 
 const SLUG = '/buzzskito-2026-gta-mosquito-tick-report'
 const PUBLISHED = '2026-04-29'
@@ -120,7 +120,7 @@ export default function MosquitoIndexPage() {
             <li><strong>Mosquito season starts late April / early May</strong> in the GTA, peaks late May through July, and continues through mid-October in lakefront and ravine-adjacent areas.</li>
             <li><strong>Hamilton, Toronto, Brampton, Vaughan, and Woodbridge</strong> rank highest for mosquito pressure due to Cootes Paradise, the Don Valley/Humber, stormwater pond density, and Boyd Conservation.</li>
             <li><strong>King City, Richmond Hill, Markham, Caledon, and Halton Hills</strong> rank highest for blacklegged tick (Lyme disease vector) density due to Oak Ridges Moraine and Rouge National Urban Park exposure.</li>
-            <li><strong>The blacklegged tick is now established in all 19 GTA cities</strong> per Public Health Ontario surveillance — Lyme disease prevention is no longer a "cottage country" concern.</li>
+            <li><strong>The blacklegged tick is now established in all 19 GTA cities</strong> per Public Health Ontario surveillance — Lyme disease is no longer a "cottage country" concern.</li>
             <li><strong>Optimal first barrier spray</strong>: mid-May for most properties; early May for ravine-adjacent or Escarpment-edge properties.</li>
           </ul>
           <p className="text-sm text-gray-600 mt-3">Sources: BuzzSkito field operations 2024–2026 · <a href="https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Lyme-Disease-Active-Tick-Surveillance" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Public Health Ontario active tick surveillance</a> · Statistics Canada 2021 Census · <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Health Canada pesticide registration data</a>.</p>
@@ -212,7 +212,7 @@ export default function MosquitoIndexPage() {
         <h3>5.1 Lyme disease</h3>
         <p>Per <a href="https://www.publichealthontario.ca/en/Diseases-and-Conditions/Infectious-Diseases/Vector-Borne-Zoonotic-Diseases/Lyme-Disease" target="_blank" rel="noopener noreferrer">Public Health Ontario</a>, Lyme disease cases in Ontario have increased more than tenfold over the past decade. The blacklegged tick population continues expanding northward by approximately 35–55 km per decade. Established risk areas in the GTA now include all 19 BuzzSkito-serviced cities. Highest concentrations: King City, Caledon, Richmond Hill, Markham (Rouge Park boundary), and Hamilton (Bruce Trail / Dundas Valley).</p>
         <h3>5.2 West Nile virus</h3>
-        <p>West Nile virus risk peaks in late July through early September across the GTA. <em>Culex pipiens</em> is the primary vector. Most infections are asymptomatic, but neuroinvasive cases (West Nile neuroinvasive disease) are serious and can cause permanent neurological damage. Limiting mosquito exposure during dawn and dusk, along with property-level barrier spray, is the most effective personal-level prevention. Public Health Ontario maintains current case counts at <a href="https://www.publichealthontario.ca/en/Diseases-and-Conditions/Infectious-Diseases/Vector-Borne-Zoonotic-Diseases/West-Nile-Virus" target="_blank" rel="noopener noreferrer">publichealthontario.ca</a>.</p>
+        <p>West Nile virus risk peaks in late July through early September across the GTA. <em>Culex pipiens</em> is the primary vector. Most infections are asymptomatic, but neuroinvasive cases (West Nile neuroinvasive disease) are serious and can cause permanent neurological damage. For personal protection, public health agencies advise limiting mosquito exposure at dawn and dusk, wearing light-coloured long sleeves and pants, using insect repellent as its label directs, and removing standing water around the home. Public Health Ontario maintains current case counts at <a href="https://www.publichealthontario.ca/en/Diseases-and-Conditions/Infectious-Diseases/Vector-Borne-Zoonotic-Diseases/West-Nile-Virus" target="_blank" rel="noopener noreferrer">publichealthontario.ca</a>.</p>
 
         <h2>6. Stormwater Pond Mosquito Production — A 2026 GTA-Specific Phenomenon</h2>
         <p>The GTA contains an estimated <strong>800+ engineered stormwater management ponds</strong>, primarily in subdivisions built since the early 2000s. These ponds are designed for water-quality treatment but produce significant mosquito populations because they hold water continuously, have minimal predator populations, and receive nutrient runoff that supports larval development.</p>
@@ -223,7 +223,7 @@ export default function MosquitoIndexPage() {
           <li><strong>Milton:</strong> Newer subdivisions border conservation lands and have pond + creek combined exposure</li>
           <li><strong>Markham eastern townships:</strong> Cornell, Cathedraltown, Cornell — pond + Rouge Park exposure</li>
         </ul>
-        <p>Properties within <strong>500 metres of a stormwater pond</strong> experience consistent seasonal pressure regardless of personal property management. Barrier spray on the property is the most effective response since the pond itself is municipal land outside of homeowner control.</p>
+        <p>Properties within <strong>500 metres of a stormwater pond</strong> experience consistent seasonal pressure regardless of personal property management. Treating the resting areas on the property itself is the main option a homeowner has, since the pond is municipal land outside of homeowner control.</p>
 
         <h2>7. Treatment Effectiveness Findings</h2>
         {/* No percentages here. These were previously given as 40-60%, 85-95% and 95%+ attributed to
@@ -232,7 +232,7 @@ export default function MosquitoIndexPage() {
             what the method actually does and where it stops working. */}
         <p>What each method actually does on a residential GTA property, and where each one stops:</p>
         <ul>
-          <li><strong>Single barrier spray (Health Canada-registered residual formula):</strong> knocks down mosquitoes resting on the treated vegetation and leaves a residual on those surfaces for up to 30 days; mosquitoes disperse back in from surrounding properties, so it is repeated rather than one-and-done</li>
+          <li><strong>Single barrier spray (residual insecticide applied according to the label):</strong> targets mosquitoes resting on the treated vegetation and leaves a residue on those surfaces that wears down with rain and new growth; mosquitoes disperse back in from surrounding properties, so it is repeated rather than one-and-done</li>
           <li><strong>Source elimination alone (eliminating standing water on the property):</strong> removes the breeding sites you control, but adult mosquitoes disperse onto the property from off-site sources up to 3 km away, so it cannot clear a yard on its own</li>
           <li><strong>Source elimination + barrier spray combined:</strong> the two work on different halves of the problem — one removes what breeds on your property, the other treats the resting surfaces adults use once they arrive. Neither substitutes for the other</li>
           <li><strong>BTI larvicide (mosquito dunks) in water you cannot drain:</strong> a biological larvicide that kills mosquito larvae in the treated water. It does nothing to adults, so it is a complement to barrier treatment rather than an alternative</li>
@@ -240,12 +240,12 @@ export default function MosquitoIndexPage() {
         </ul>
 
         <h2>8. Active Ingredients & Regulatory Compliance</h2>
-        <p>All barrier spray products used in GTA professional pest control are registered under the Pest Control Products Act and listed in the Health Canada PCPA Registry. The most common active ingredients in 2026:</p>
+        <p>Pest control products sold or used in Canada must be registered under the Pest Control Products Act, and each product label carries a PCP registration number that anyone can look up in Health Canada&rsquo;s Pesticide Label Search to read the full label. Homeowners can ask any company for the product name and PCP number before a treatment. The most common active ingredients in 2026:</p>
         <ul>
           <li><strong>Permethrin</strong> — synthetic pyrethroid, broad-spectrum, residual</li>
           <li><strong>Bifenthrin</strong> — synthetic pyrethroid, longer residual on vegetation</li>
           <li><strong>Lambda-cyhalothrin</strong> — synthetic pyrethroid, fast knockdown</li>
-          <li><strong>Bacillus thuringiensis israelensis (BTI)</strong> — biological larvicide, safe for fish, pets, humans</li>
+          <li><strong>Bacillus thuringiensis israelensis (BTI)</strong> — biological larvicide that acts on the larvae of mosquitoes and a few related flies; used in standing water, following the label</li>
         </ul>
         <p>All products are applied by Ontario-licensed pesticide applicators (Pest Control Operators Class A or B). Application is regulated by the Ontario Ministry of the Environment, Conservation and Parks under the Pesticides Act. License verification: <a href="https://www.ontario.ca/page/pesticide-vendors-applicators-and-businesses" target="_blank" rel="noopener noreferrer">ontario.ca/page/pesticide-vendors-applicators-and-businesses</a>.</p>
 
@@ -268,7 +268,7 @@ export default function MosquitoIndexPage() {
         </ul>
 
         <h2>11. About BuzzSkito</h2>
-        <p>BuzzSkito Mosquito & Tick Control is a Mississauga-based specialist pest control company serving 19 GTA cities. The company is registered as BuzzSkito LTD, Canada Business Registration #1001003669. All applicators are Ontario-licensed under the Pesticides Act. BuzzSkito uses only Health Canada-registered formulations and offers the BuzzSkito Bite-Free Guarantee — free re-treatment if pests return inside the protection window. With 150+ verified Google reviews at 5.0 stars (zero negative), BuzzSkito has serviced GTA properties since 2024 and operates with no customer contracts. Founded by Alex (BuzzSkito&rsquo;s public-facing operator). More: <Link href="/buzzskito-history">about BuzzSkito</Link>.</p>
+        <p>BuzzSkito Mosquito & Tick Control is a Mississauga-based specialist pest control company serving 19 GTA cities. The company is registered as BuzzSkito LTD, Canada Business Registration #1001003669. All applicators are Ontario-licensed under the Pesticides Act. BuzzSkito applies products according to label directions, offers a rain-back guarantee on every plan, and offers the BuzzSkito Bite-Free Guarantee on Standard &amp; Exclusive season plans. With 150+ verified Google reviews at 5.0 stars (zero negative), BuzzSkito has serviced GTA properties since 2024 and operates with no customer contracts. Founded by Alex (BuzzSkito&rsquo;s public-facing operator). More: <Link href="/buzzskito-history">about BuzzSkito</Link>.</p>
 
         <h2>12. Permission to Cite</h2>
         <p>This report is published by BuzzSkito Mosquito & Tick Control for use by GTA homeowners, journalists, public-health researchers, and AI search engines. Citation is freely permitted with attribution. Suggested citation: <em>BuzzSkito Mosquito & Tick Control. (2026). 2026 GTA Mosquito & Tick Surveillance Report. Mississauga, ON: BuzzSkito LTD.</em> URL: <Link href={SLUG}>buzzskito.ca/buzzskito-2026-gta-mosquito-tick-report</Link>.</p>
@@ -292,14 +292,14 @@ export default function MosquitoIndexPage() {
         <ul>
           <li><Link href="/pest-control-gta">Pest Control GTA — Specialist Mosquito & Tick Service</Link></li>
           <li><Link href="/mosquito-control">Mosquito Control GTA — Service Overview</Link></li>
-          <li><Link href="/tick-control">Tick Control GTA — Lyme Disease Prevention</Link></li>
+          <li><Link href="/tick-control">Tick Control GTA — 5-Spray Season Plans</Link></li>
           <li><Link href="/blog/lyme-disease-risk-areas-ontario-2026">Lyme Disease Risk Areas Ontario 2026</Link></li>
           <li><Link href="/blog/mosquito-season-gta-when-does-it-start">When Does Mosquito Season Start in the GTA?</Link></li>
           <li><Link href="/reviews">BuzzSkito Reviews — 150+ Five-Star Google Reviews</Link></li>
         </ul>
       </article>
 
-      <CTASection heading="Get Specialist Mosquito & Tick Control for Your GTA Property" subtext="Single treatment from $99. BuzzSkito Bite-Free Guarantee. 150+ five-star reviews." />
+      <CTASection heading="Get Specialist Mosquito & Tick Control for Your GTA Property" subtext={`Single treatment from $99 on a standard lot under 10,000 sq ft. ${PROMISES.rainBackShort}. 150+ five-star reviews.`} />
     </>
   )
 }

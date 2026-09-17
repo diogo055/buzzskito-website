@@ -10,6 +10,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'mosquito-magnet-canada'
 const DATE = '2026-05-01'
@@ -28,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'Do Mosquito Magnets actually work in Canadian backyards?',
-    answer: 'Yes — but with major caveats. Mosquito Magnets work by burning propane to generate CO₂ (mimicking human breath), heat, and moisture, which attracts female mosquitoes. They\'re then sucked into a net and dehydrated. Independent research and CDC studies confirm 70–90% reduction in mosquito populations within a 1-acre radius after 6–8 weeks of continuous operation. However: they only work over weeks, not days; they require continuous propane (one tank lasts ~3 weeks); they\'re less effective against species that don\'t target humans (like Culex pipiens, the primary West Nile vector); and they don\'t kill ticks or repel mosquitoes from immediate seating areas.',
+    answer: 'Yes — but with major caveats. Mosquito Magnets work by burning propane to generate CO₂ (mimicking human breath), heat, and moisture, which attracts female mosquitoes. They\'re then sucked into a net and dehydrated. Published field trials disagree on how much that cuts bites: two 2006 studies in the Journal of the American Mosquito Control Association found no meaningful drop in biting pressure, while a third found real reductions with roughly one trap per acre on an isolated property. However: they only work over weeks, not days; they require continuous propane (one tank lasts ~3 weeks); they\'re less effective against species that don\'t target humans (like Culex pipiens, the primary West Nile vector); and they don\'t kill ticks or repel mosquitoes from immediate seating areas.',
   },
   {
     question: 'Mosquito Magnet Patriot vs Executive vs Independence — which model?',
@@ -44,7 +45,7 @@ const FAQS = [
   },
   {
     question: 'Is a Mosquito Magnet better than professional barrier spray?',
-    answer: 'They work differently and target different problems. Mosquito Magnet kills female mosquitoes over weeks/months — best for cottage properties, large rural yards, and chronic high-population zones near wetlands. Professional barrier spray treats vegetation surfaces with residual formula that kills any mosquito landing on the leaves for 21–30 days — best for immediate yard usability (you can use the yard same-day after treatment) and for tick control (Mosquito Magnet doesn\'t affect ticks). Most GTA homeowners get better results from professional barrier spray + BTI dunks than from Mosquito Magnet. Cottage country and rural acreage benefit from running both.',
+    answer: 'They work differently and target different problems. Mosquito Magnet kills female mosquitoes over weeks/months — best for cottage properties, large rural yards, and chronic high-population zones near wetlands. Professional barrier spray treats vegetation surfaces with a residual formula, applied according to label directions and renewed on a schedule because it wears down with time and rain — best for yard usability through the season (stay off treated areas until the spray has dried, as the label directs) and for tick control (Mosquito Magnet doesn\'t affect ticks). Most GTA homeowners get better results from professional barrier spray + BTI dunks than from Mosquito Magnet. Cottage country and rural acreage benefit from running both.',
   },
   {
     question: 'Do Mosquito Magnets attract more mosquitoes to my yard?',
@@ -72,7 +73,7 @@ const FAQS = [
   },
   {
     question: 'What is the best device to keep mosquitoes away?',
-    answer: 'Keeping mosquitoes away is a different job from killing them, and a Mosquito Magnet does not do it. For an immediate personal zone, a metofluthrin or allethrin area repellent such as a Thermacell protects roughly a 4.5 m (15 ft) bubble within about 15 minutes. For a whole property, a professional barrier spray treats the shaded vegetation where mosquitoes rest and holds for 21–30 days. On skin, the CDC lists DEET, picaridin, IR3535, oil of lemon eucalyptus, para-menthane-diol and 2-undecanone as effective active ingredients.',
+    answer: 'Keeping mosquitoes away is a different job from killing them, and a Mosquito Magnet does not do it. For an immediate personal zone, a metofluthrin or allethrin area repellent such as a Thermacell protects roughly a 4.5 m (15 ft) bubble within about 15 minutes. For a whole property, a professional barrier spray treats the shaded vegetation where mosquitoes rest, renewed on a schedule through the season. On skin, the CDC lists DEET, picaridin, IR3535, oil of lemon eucalyptus, para-menthane-diol and 2-undecanone as effective active ingredients.',
   },
   {
     question: 'Does anything actually work to keep mosquitoes away?',
@@ -153,11 +154,11 @@ export default function MosquitoMagnetCanadaPage() {
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito Magnets do work — and for most buyers the <AmazonLink search="mosquito magnet patriot plus" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Mosquito Magnet Patriot Plus</AmazonLink> is the model to get, because it treats up to 1 acre at $399–$549 while the pricier Executive only pays off on cottages and rural acreage. For typical GTA suburban backyards, professional barrier spray from $99 per treatment delivers faster, cheaper results; the Magnet earns its cost on 1+ acre rural and cottage properties.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>The Mosquito Magnet Patriot Plus costs $399–$549 in Canada; the top-tier Executive runs $899–$1,299.</li>
-              <li>CDC-cited research shows Mosquito Magnets reduce mosquito populations 70–90% within a 1-acre radius after 6–8 weeks of continuous operation.</li>
+              <li>Mosquito Magnets work over weeks of continuous operation, and field trials disagree on how much they reduce bites on an ordinary suburban lot.</li>
               <li>Propane and attractant consumables add $400–$600 per season, and one propane tank lasts about 21 days.</li>
               <li>Mosquito Magnets do not affect ticks — ticks don&rsquo;t fly to CO₂ traps.</li>
               <li>Costco Canada usually has the best Patriot pricing when in stock, at $399–$499.</li>
-              <li>Professional barrier spray from $99 per treatment protects a yard the same day with 21–30 days of residual.</li>
+              <li>Professional barrier spray starts from $99 per treatment on a standard lot, with the residual renewed on a schedule through the season.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
             <div className="mt-4">
@@ -210,7 +211,7 @@ export default function MosquitoMagnetCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Mosquito Magnet works over weeks, not days.</strong> Population reduction takes 4–8 weeks of continuous operation. For immediate yard usability or to handle a one-time event (BBQ, wedding, party), <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> works in hours and lasts 21–30 days per treatment. Cottage owners and rural acreage often run BOTH for peak protection.
+              <strong className="text-amber-900">⚠️ Mosquito Magnet works over weeks, not days.</strong> Population reduction takes 4–8 weeks of continuous operation. For immediate yard usability or to handle a one-time event (BBQ, wedding, party), <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> starts working the day it is applied and is renewed on a schedule through the season. Cottage owners and rural acreage often run BOTH.
             </p>
           </div>
         </div>
@@ -270,7 +271,7 @@ export default function MosquitoMagnetCanadaPage() {
                   ['Coverage radius', 'Up to 1 acre (40,000 sq ft) for top models'],
                   ['Mosquitoes killed', 'Female biting mosquitoes (males don\'t bite)'],
                   ['Time to peak effectiveness', '4–8 weeks continuous operation'],
-                  ['Population reduction', '70–90% within radius'],
+                  ['Population reduction', 'Disputed; field trials disagree (see below)'],
                   ['Tick effectiveness', 'None — ticks don\'t fly to CO₂ traps'],
                   ['Propane consumption', '~1 tank per 21 days'],
                   ['Attractant cartridge', 'Octenol or Lurex · 21 days each'],
@@ -403,7 +404,7 @@ export default function MosquitoMagnetCanadaPage() {
           <h2>How Mosquito Magnets Actually Work</h2>
           <p>Mosquito Magnets burn propane in a catalytic converter to produce CO₂, heat, and moisture — the three primary cues a female mosquito uses to locate a blood meal. The exhaust plume drifts downwind, attracting mosquitoes from up to 100 metres away. As mosquitoes approach the device, a vacuum fan sucks them into a fine mesh net where they dehydrate and die within hours.</p>
           <p>Adding an Octenol or Lurex attractant cartridge enhances the realism of the cues — these are synthetic versions of human skin compounds that further attract mosquitoes. The cartridges last about 21 days and need replacement throughout the season.</p>
-          <p><strong>Critical understanding:</strong> Mosquito Magnets kill female mosquitoes one at a time, but each female you kill prevents the laying of 100–300 eggs. The compound effect over 4–8 weeks reduces the local population by 70–90%. The device doesn&rsquo;t protect you tonight — it protects your yard 6 weeks from now.</p>
+          <p><strong>Critical understanding:</strong> Mosquito Magnets kill female mosquitoes one at a time, but each female you kill prevents the laying of 100–300 eggs. The compound effect builds over 4–8 weeks, though how far it lowers biting depends on how isolated your property is. The device doesn&rsquo;t help you tonight — any benefit shows up weeks from now.</p>
 
           <h3>Attractant &amp; Replacement Parts</h3>
           <p>Budget for consumables from day one: an Octenol (or Lurex) attractant cartridge lasts about 21 days, so a full May–September season burns through 6–7 cartridges. The fine mesh capture net should also be swapped once or twice a season — a torn or clogged net quietly cuts the trap&rsquo;s capture rate long before you notice. Canadian stock of both runs thin by mid-July, so most owners grab multi-packs in spring rather than scrambling in peak season.</p>
@@ -420,7 +421,7 @@ export default function MosquitoMagnetCanadaPage() {
             <li><strong>Rural acreage</strong> — properties bordering wetlands, swamps, or water features</li>
             <li><strong>Properties where you spend the entire summer</strong> — long-term investment pays off</li>
             <li><strong>Lots with no immediate neighbours</strong> — your trap doesn&rsquo;t get overwhelmed by neighbouring breeding sources</li>
-            <li><strong>Settings where chemical-free is preferred</strong> — no pesticides involved</li>
+            <li><strong>Settings where you want nothing sprayed</strong> — the trap sprays nothing on the yard (though its octenol attractant cartridge is itself a registered pesticide product in the US)</li>
           </ul>
 
           <h2>When Mosquito Magnet Is the Wrong Tool</h2>
@@ -453,7 +454,7 @@ export default function MosquitoMagnetCanadaPage() {
                 <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Mosquito Magnet Patriot</strong></td><td className="px-3 py-2">$850–$1,100</td><td className="px-3 py-2">4–8 weeks</td><td className="px-3 py-2">None</td></tr>
                 <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link></td><td className="px-3 py-2">$80–$150</td><td className="px-3 py-2">Immediate (4.5m only)</td><td className="px-3 py-2">None</td></tr>
                 <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-dunks-canada-guide">BTI dunks/bits</Link></td><td className="px-3 py-2">$30/season</td><td className="px-3 py-2">24 hours (water only)</td><td className="px-3 py-2">None</td></tr>
-                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">Same day · 21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">Same day · renewed on a schedule</td><td className="px-3 py-2">With tick add-on ($497/season)</td></tr>
               </tbody>
             </table>
           </div>
@@ -462,10 +463,11 @@ export default function MosquitoMagnetCanadaPage() {
           <p>For typical GTA suburban properties (5,000–15,000 sq ft), the most effective mosquito + tick strategy is:</p>
           <ol>
             <li><strong>BTI dunks</strong> in any standing water on your property ($15/season)</li>
-            <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> for whole-yard coverage (21–30 days residual, kills both mosquitoes and ticks)</li>
+            <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> for whole-yard coverage (a residual renewed on a schedule; tick treatment can be added for $497/season with a mosquito plan)</li>
             <li><strong>Thermacell on the deck</strong> for personal patio repellent zone</li>
           </ol>
-          <p>This stack costs less than Mosquito Magnet first-year and delivers immediate same-day yard usability. Add a Mosquito Magnet only if you have rural acreage or a cottage where the multi-week investment pays off.</p>
+          <p>This stack costs less than Mosquito Magnet first-year and starts working from the first visit rather than weeks later. Add a Mosquito Magnet only if you have rural acreage or a cottage where the multi-week investment pays off.</p>
+          <p>The first item on that list is the cheapest thing on this entire page and the one most people skip. BTI is a bacterial larvicide that kills mosquito larvae in the water they hatch in, sold as slow-release dunks for a rain barrel or an ornamental pond and as granules for water you top up often. The label names the water types it is registered for, so follow it and re-dose on the interval it gives. <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Check BTI dunks on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Does a Mosquito Magnet Really Work? What the Field Studies Actually Found</h2>
           <p className="not-prose text-[15px] leading-relaxed text-gray-900 font-medium border-l-4 border-emerald-400 bg-emerald-50 pl-4 py-3 rounded-r-lg my-4">It catches mosquitoes reliably. Whether that means fewer bites depends on how isolated your property is. Two 2006 field trials in the <em>Journal of the American Mosquito Control Association</em> found no meaningful drop in biting pressure; a third found real reductions at one trap per acre on an isolated island. Density and neighbours decide it.</p>
@@ -475,7 +477,7 @@ export default function MosquitoMagnetCanadaPage() {
           <p>The <strong>American Mosquito Control Association</strong>, the US professional body, takes the position that acre-wide control claims for single consumer traps are overstated, and warns that a trap can draw more mosquitoes into an area than it is capable of catching. It also notes the practical figures behind the plume: a propane unit releases CO₂ at roughly 350 ml/min, a compressed cylinder around 500 ml/min, with octenol emitted at about 0.5 mg/hour.</p>
           <p><strong>University of Wisconsin&ndash;Madison</strong> extension entomologists reached the blunt version of the same conclusion in their consumer evaluations: the traps they assessed provided no protection from mosquito bites for the people using them.</p>
           <p><strong>How to reconcile all of this honestly.</strong> Catching mosquitoes and protecting people are two different outcomes, and the research separates them cleanly. One trap on a suburban lot ringed by other yards will fill its net every week and change your evening very little, because the surrounding properties replace what you remove faster than you remove it. Several traps on isolated acreage, run continuously from early season, can genuinely suppress the local population — that is the Kline result, and it is exactly the use case where this product makes sense. The trap is not a fraud; it is a tool with a narrow window of properties where it works, and that window is rural, isolated and larger than an acre.</p>
-          <p className="not-prose rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4 my-5 text-[15px] leading-relaxed text-gray-800"><strong className="text-amber-900">On the 70&ndash;90% figure quoted elsewhere in this guide:</strong> that number is repeated widely across retail and review sites, but we have not been able to trace it to a primary CDC publication, and the named field trials above do not support it as a general result. Treat it as a best case for an isolated, multi-trap, full-season deployment — not as what one trap does on an average lot. We would rather flag our own number than let a US reader find it contradicted two search results away.</p>
+          <p className="not-prose rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4 my-5 text-[15px] leading-relaxed text-gray-800"><strong className="text-amber-900">On the 70&ndash;90% figure you will see quoted elsewhere:</strong> that number is repeated widely across retail and review sites, but we have not been able to trace it to a primary CDC publication, and the named field trials above do not support it as a general result. Earlier versions of this guide repeated it; we have taken it out. Treat it as a best case for an isolated, multi-trap, full-season deployment — not as what one trap does on an average lot.</p>
 
           <h2>How Long Does a Mosquito Magnet Last?</h2>
           <p className="not-prose text-[15px] leading-relaxed text-gray-900 font-medium border-l-4 border-emerald-400 bg-emerald-50 pl-4 py-3 rounded-r-lg my-4">Both current models carry a one-year warranty, and reliability is the most common owner complaint. A University of Wisconsin&ndash;Madison extension evaluation reported that all three units it tested were non-functional by the end of the first year. Well-maintained traps do run five or more seasons; the failure point is almost always the catalytic converter or the ignition.</p>
@@ -511,27 +513,29 @@ export default function MosquitoMagnetCanadaPage() {
           <ol>
             <li><strong>BTI larvicide</strong> (dunks or bits) in any standing water — kills larvae before they become biting adults, costs about $30 a season, and works within 24 hours. Nothing else on this list has a better cost-to-effect ratio.</li>
             <li><strong>CO₂-baited traps</strong> — the Mosquito Magnet and the BG-Mosquitaire class. Genuinely attract and kill host-seeking females, but need weeks and, per Kline (2006), density and isolation to move the needle.</li>
-            <li><strong>Residual barrier treatment</strong> — kills mosquitoes that land on treated resting vegetation for 21&ndash;30 days, and unlike every trap on this page it also kills ticks.</li>
+            <li><strong>Residual barrier treatment</strong> — kills mosquitoes that land on treated resting vegetation, renewed on a schedule because the residual wears down, and unlike every trap on this page it also kills ticks.</li>
             <li><strong>Bug zappers</strong> — avoid. Multiple studies have found mosquitoes make up a very small fraction of the catch, the overwhelming majority being harmless and often beneficial insects. A zapper is an effective device for killing the wrong animals.</li>
           </ol>
           <p>The trap-versus-larvicide point is the one most buyers miss: a $970 machine that intercepts adults is competing against a $30 product that prevents them. Do the cheap thing first.</p>
 
           <h2>What Is the Best Device to Keep Mosquitoes Away?</h2>
-          <p className="not-prose text-[15px] leading-relaxed text-gray-900 font-medium border-l-4 border-emerald-400 bg-emerald-50 pl-4 py-3 rounded-r-lg my-4">Not a trap. For an immediate personal zone, a metofluthrin or allethrin area repellent protects roughly a 4.5 m (15 ft) bubble within about fifteen minutes. For a whole yard, a residual barrier spray on resting vegetation holds 21&ndash;30 days. On skin, the CDC names DEET, picaridin, IR3535 and oil of lemon eucalyptus.</p>
+          <p className="not-prose text-[15px] leading-relaxed text-gray-900 font-medium border-l-4 border-emerald-400 bg-emerald-50 pl-4 py-3 rounded-r-lg my-4">Not a trap. For an immediate personal zone, a metofluthrin or allethrin area repellent protects roughly a 4.5 m (15 ft) bubble within about fifteen minutes. For a whole yard, a residual barrier spray on resting vegetation, renewed on a schedule. On skin, the CDC names DEET, picaridin, IR3535 and oil of lemon eucalyptus.</p>
           <p>&ldquo;Kill&rdquo; and &ldquo;keep away&rdquo; are different jobs, and a Mosquito Magnet only does the first. In fact the trap is designed to draw mosquitoes <em>toward</em> a point — which is why placement 9&ndash;12 m (30&ndash;40 ft) from where you sit is not a nicety but the whole point of the installation.</p>
           <p>Matched to the job:</p>
           <ul>
             <li><strong>One patio, right now</strong> — an area repellent such as a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link>. Fast, cheap, and limited to roughly a 4.5 m zone with no wind.</li>
-            <li><strong>Whole property, all season</strong> — residual barrier treatment of shaded vegetation, reapplied every 21&ndash;30 days.</li>
+            <li><strong>Whole property, all season</strong> — residual barrier treatment of shaded vegetation, reapplied on a schedule through the season.</li>
             <li><strong>On your body, anywhere</strong> — the CDC lists DEET, picaridin, IR3535, oil of lemon eucalyptus, para-menthane-diol and 2-undecanone as effective registered active ingredients.</li>
             <li><strong>Clothing and gear</strong> — <Link href="/blog/permethrin-canada-yard-clothing-spray">permethrin-treated fabric</Link>, which also matters for ticks in a way no mosquito device does.</li>
           </ul>
+          <p>Of those four, the skin layer is the one you can act on tonight, and in Canada the decision is made on the label: a PCP registration number, an active ingredient from that list, a concentration matched to how long you will actually be outside, and a separate line of products labelled for use on children. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Check DEET and picaridin repellents on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Does Anything Actually Work to Keep Mosquitoes Away?</h2>
           <p className="not-prose text-[15px] leading-relaxed text-gray-900 font-medium border-l-4 border-emerald-400 bg-emerald-50 pl-4 py-3 rounded-r-lg my-4">Yes — three things with real evidence behind them: registered skin repellents, source reduction with BTI in any water you cannot drain, and residual barrier treatment of the shaded vegetation where mosquitoes rest. What does not work: ultrasonic repellers, wristbands, bug zappers, and citronella candles beyond about a metre in still air.</p>
           <p>The reason this question is asked so often is that the category is full of products that fail. It is worth being explicit about both columns.</p>
           <p><strong>Works:</strong> registered skin repellents applied properly and reapplied on schedule; eliminating standing water, which is the only intervention that prevents mosquitoes rather than reacting to them; BTI in water that cannot be drained; residual barrier treatment of resting vegetation; physical exclusion (screens, fine-mesh netting); and a strong fan on a patio, which sounds like folklore but works because mosquitoes are weak fliers and cannot hold a course in moving air.</p>
           <p><strong>Does not work:</strong> ultrasonic and app-based repellers, which have been tested repeatedly and failed; repellent wristbands and clip-ons, which protect only the few centimetres around themselves; bug zappers; citronella candles at any realistic distance outdoors; and most &ldquo;plant this to repel mosquitoes&rdquo; advice, since the oils in those plants only repel when crushed and applied, not when growing in a border.</p>
+          <p>The fan deserves its own line, because it is the one item on the works list that needs no label and costs pennies to run. Mosquitoes cannot hold a course in moving air, so an oscillating outdoor fan aimed low across a seating area &mdash; ankle height, which is where they come in from &mdash; keeps a patio table usable on a still, humid evening. It protects the chairs rather than the property, which is exactly the job a trap positioned forty feet away cannot do. <BuyLink tag={AMZ_TAG} search="outdoor oscillating pedestal fan">Check outdoor patio fans on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>What Is the Amish Way to Kill Mosquitoes?</h2>
           <p className="not-prose text-[15px] leading-relaxed text-gray-900 font-medium border-l-4 border-emerald-400 bg-emerald-50 pl-4 py-3 rounded-r-lg my-4">It refers to a viral home-made yard spray of Listerine, Epsom salt and stale beer, marketed online as an Amish or Old Order remedy. There is no evidence it works and no traditional basis for the name. University of Georgia extension horticulturist Walter Reeves dismissed the recipe outright, and the chemistry agrees with him.</p>
@@ -544,11 +548,12 @@ export default function MosquitoMagnetCanadaPage() {
           <p>Strip away the folklore and the question underneath is a good one: <em>what actually reduces mosquitoes on a property with no power and no CO₂ trap?</em> On a working farm the answer is unglamorous and highly effective:</p>
           <ul>
             <li><strong>Weekly water discipline</strong> — tip, drain or refresh anything holding water. A mosquito needs 7&ndash;10 days of standing water to complete its cycle, so a weekly reset breaks it entirely.</li>
-            <li><strong>Livestock troughs and rain barrels</strong> — the two biggest breeding reservoirs on any farm, and both are treatable with <Link href="/blog/mosquito-dunks-canada-guide">BTI dunks</Link>, which are harmless to livestock, pets, birds and fish.</li>
+            <li><strong>Livestock troughs and rain barrels</strong> — the two biggest breeding reservoirs on any farm, and both are treatable with <Link href="/blog/mosquito-dunks-canada-guide">BTI dunks</Link>, which the U.S. EPA states affect only mosquito, black fly and fungus gnat larvae; animal watering troughs are a labelled use site.</li>
             <li><strong>Screening</strong> — porches, windows and sleeping areas. Physical exclusion is the oldest and most reliable control there is.</li>
             <li><strong>Vegetation management</strong> — mosquitoes rest through the day in tall grass and dense shade. Cutting it back removes the harbourage rather than the insects.</li>
             <li><strong>Smoke</strong> — genuinely disrupts host-seeking within its plume, which is why it has been used for centuries. It is a local, temporary effect, not property-wide control.</li>
           </ul>
+          <p>Screening is the item on that list that translates straight onto a suburban lot. A magnetic screen door on a walkout or a garage entry, fine mesh over a gazebo or a sleeping porch, and intact window screens are the only mosquito control that carries on working when the propane runs out and nobody is home to notice. <BuyLink tag={AMZ_TAG} search="magnetic screen door">Check magnetic screen doors on Amazon.ca &rarr;</BuyLink></p>
           <p>Notably, a propane trap fits this context better than most — it needs no mains electricity in its cordless form, which is one of the few genuine arguments for the Executive over the corded Patriot Plus.</p>
 
           <h2>US Mosquito Species: Where the Trap Wins and Where It Misses</h2>
@@ -627,9 +632,9 @@ export default function MosquitoMagnetCanadaPage() {
 
           <h2>The Honest Verdict</h2>
           <p>Pulling the research, the costs and the reliability picture together, here is the plain summary this product deserves.</p>
-          <p><strong>What it does well.</strong> It genuinely attracts and kills host-seeking female mosquitoes using the only mechanism with solid evidence behind it. On isolated acreage, run continuously from early season at adequate density, it can measurably reduce the local population — that is the Kline (2006) finding and it is real. It uses no pesticides, which matters to some buyers more than anything else on this page. And it is quiet, unobtrusive and needs attention roughly every three weeks rather than daily.</p>
+          <p><strong>What it does well.</strong> It genuinely attracts and kills host-seeking female mosquitoes using the only mechanism with solid evidence behind it. On isolated acreage, run continuously from early season at adequate density, it can measurably reduce the local population — that is the Kline (2006) finding and it is real. It sprays nothing on your yard (the octenol cartridge is the only registered pesticide in the system), which matters to some buyers more than anything else on this page. And it is quiet, unobtrusive and needs attention roughly every three weeks rather than daily.</p>
           <p><strong>What disappoints people.</strong> Three things, consistently. <em>Reliability</em> — a one-year warranty on a $400&ndash;$970 appliance, with ignition and catalytic converter failures commonly reported in the second and third seasons, and the University of Wisconsin&ndash;Madison evaluation finding all three of its test units non-functional inside a year. <em>Running cost</em> — the consumables are not a footnote; at $355&ndash;$475 a northern US season, buyers who budgeted only for the machine feel misled by year two. <em>Expectation mismatch</em> — people buy it in July expecting relief in August and get neither, because nobody told them the effect is generational and the timeline is weeks.</p>
-          <p><strong>Environmental note.</strong> The trap burns propane continuously for the whole season. Today&rsquo;s Homeowner has benchmarked the resulting CO₂ output at roughly 8% of a typical car&rsquo;s annual emissions — small in absolute terms, but not nothing, and worth weighing if the pesticide-free argument is what attracted you to the device in the first place.</p>
+          <p><strong>Environmental note.</strong> The trap burns propane continuously for the whole season. Today&rsquo;s Homeowner has benchmarked the resulting CO₂ output at roughly 8% of a typical car&rsquo;s annual emissions — small in absolute terms, but not nothing, and worth weighing if the nothing-sprayed argument is what attracted you to the device in the first place.</p>
           <p><strong>Who should buy it.</strong> Owners of isolated rural acreage or lakefront property, with a mosquito problem severe enough to make the yard unusable, who will run it continuously for a full season and accept the consumable cost. That is a real group of people, and for them this is the best consumer device available.</p>
           <p><strong>Who should not.</strong> Anyone on a normal suburban lot. The evidence on that is clear, it comes from named field trials rather than opinion, and it is the honest answer even though it is not the one that sells traps. On a suburban property, <Link href="/blog/mosquito-dunks-canada-guide">BTI in standing water</Link> plus a residual barrier treatment plus an area repellent on the patio will outperform a trap for a fraction of the year-one cost — and unlike any trap, the barrier treatment also covers ticks.</p>
 
@@ -658,7 +663,7 @@ export default function MosquitoMagnetCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Mosquito Magnet for the Cottage · Barrier Spray for the GTA" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 30-day residual." variant="dark" />
+      <CTASection heading="Mosquito Magnet for the Cottage · Barrier Spray for the GTA" subtext={`Get a free quote for licensed barrier spray. From $99 on a standard lot, season plans from $549. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

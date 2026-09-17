@@ -9,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'mosquito-repellent-stickers-patches-canada'
 const DATE = '2026-07-12'
@@ -23,7 +24,7 @@ const FAQS = [
   },
   {
     question: 'Are mosquito repellent stickers safe for babies and toddlers?',
-    answer: 'This is their main appeal. Health Canada advises against using DEET on infants under 6 months, and limits DEET concentration and application frequency for children under 12. Because stickers and patches go on clothing, hats, or the stroller — never on the skin — they sidestep those age restrictions and are a low-risk, DEET-free option for very young babies. The trade-off is honesty about coverage: a patch on a onesie protects a small area near the fabric, so pair it with the real workhorses for infants — mosquito netting over the stroller or carrier, lightweight long sleeves, and avoiding dawn and dusk outings. Keep the sticker out of reach so it can not be peeled off and put in the mouth.',
+    answer: 'This is their main appeal. Health Canada advises against using DEET on infants under 6 months, and limits DEET concentration and application frequency for children under 12. Because stickers and patches go on clothing, hats, or the stroller — never on the skin — they sidestep those skin-application limits and are a DEET-free option parents turn to for very young babies (check the package for any age limits). The trade-off is honesty about coverage: a patch on a onesie protects a small area near the fabric, so pair it with the real workhorses for infants — mosquito netting over the stroller or carrier, lightweight long sleeves, and avoiding dawn and dusk outings. Keep the sticker out of reach so it can not be peeled off and put in the mouth.',
   },
   {
     question: 'Do vitamin B1 (thiamine) mosquito repellent patches work?',
@@ -43,7 +44,7 @@ const FAQS = [
   },
   {
     question: 'Are citronella stickers as effective as DEET or picaridin bug spray?',
-    answer: 'No. A Health Canada-registered skin repellent with DEET or icaridin (picaridin) gives hours of reliable, whole-limb protection because it coats the skin the mosquito would land on. A citronella sticker only scents the air right around the patch and wears off within a few hours. For anyone old enough to use a registered skin repellent — generally age 6 months and up, at the concentration Health Canada allows for their age — a proper spray is far more protective. Stickers earn their place for babies too young for skin repellents, for parents who want a low-worry DEET-free layer, and as a backup when you forgot the spray. See our kid-safe bug spray guide for age-by-age concentration limits.',
+    answer: 'No. A skin repellent with DEET or icaridin (picaridin) that carries a Canadian PCP registration number gives hours of reliable, whole-limb protection because it coats the skin the mosquito would land on. A citronella sticker only scents the air right around the patch and wears off within a few hours. For anyone old enough to use a registered skin repellent — generally age 6 months and up, at the concentration Health Canada allows for their age — a proper spray is far more protective. Stickers earn their place for babies too young for skin repellents, for parents who want a DEET-free layer that stays off the skin, and as a backup when you forgot the spray. See our kids\' bug spray guide for age-by-age concentration limits.',
   },
 ]
 
@@ -93,7 +94,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
               <li>Patches cost roughly $0.25&ndash;$0.50 each, or about $10&ndash;$30 per pack at Canadian retailers.</li>
               <li>Health Canada advises against any DEET on infants under 6 months &mdash; clothing patches sidestep that restriction, which is their main appeal.</li>
               <li>Vitamin B1 (thiamine) patches do not work &mdash; peer-reviewed studies found no measurable repellent effect.</li>
-              <li>Stickers give zero tick protection; professional yard barrier spray from $99 protects the whole play space for 21&ndash;30 days.</li>
+              <li>Stickers give zero tick protection; professional yard barrier spray from $99 treats the whole play space; tick treatment can be added ($497/season with a mosquito plan).</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
@@ -136,7 +137,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
               {
                 badge: 'Best Reusable',
                 name: 'Para’Kito Refillable Clip',
-                why: 'A geraniol pellet clip you recharge instead of throwing away single-use stickers — greener and cheaper over a full season for older kids and adults.',
+                why: 'A geraniol pellet clip you recharge instead of throwing away single-use stickers — less waste and cheaper over a full season for older kids and adults.',
                 search: 'parakito mosquito refill clip',
                 score: 7.8,
                 pros: ['Reusable, less waste', 'Cheaper over time', 'Geraniol refill pellets'],
@@ -145,7 +146,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Baby or toddler?</strong> The <em>Best for Kids</em> BuzzPatch stickers go on the stroller or onesie, DEET-free. <strong>Big family, tight budget?</strong> The <em>Best Budget</em> Cliganic multipack does the same job for less. <strong>Want less waste?</strong> The <em>Best Reusable</em> Para&rsquo;Kito clip recharges all season &mdash; but remember every sticker only protects a small personal zone, so for whole-yard, all-evening coverage that also handles ticks, treat the yard with <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Baby or toddler?</strong> The <em>Best for Kids</em> BuzzPatch stickers go on the stroller or onesie, DEET-free. <strong>Big family, tight budget?</strong> The <em>Best Budget</em> Cliganic multipack does the same job for less. <strong>Want less waste?</strong> The <em>Best Reusable</em> Para&rsquo;Kito clip recharges all season &mdash; but remember every sticker only protects a small personal zone, so for whole-yard treatment that also targets ticks, treat the yard with <Link href="/mosquito-control">professional barrier spray</Link>.
               </>
             }
           />
@@ -191,7 +192,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Stickers protect a small zone, not your whole child.</strong> An essential-oil patch scents the air a few centimetres around itself &mdash; it does not coat exposed skin like a spray does. For dependable coverage, pair patches with stroller netting and long sleeves, or treat the yard itself with <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> so the whole play space is protected, patch or no patch.
+              <strong className="text-amber-900">⚠️ Stickers protect a small zone, not your whole child.</strong> An essential-oil patch scents the air a few centimetres around itself &mdash; it does not coat exposed skin like a spray does. For dependable coverage, pair patches with stroller netting and long sleeves, or treat the yard itself with <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> so the whole play space is treated, patch or no patch.
             </p>
           </div>
         </div>
@@ -281,7 +282,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
               </tbody>
             </table>
           </div>
-          <p className="not-prose text-sm text-gray-600 mb-6">Prefer a wearable that recharges with a swappable pellet instead of single-use stickers? A refillable clip is the greener, cheaper-over-time option &mdash; the same technology behind reusable repellent bands. <BuyLink tag={AMZ_TAG} search="parakito refillable mosquito band">Check refillable band price →</BuyLink></p>
+          <p className="not-prose text-sm text-gray-600 mb-6">Prefer a wearable that recharges with a swappable pellet instead of single-use stickers? A refillable clip is the lower-waste, cheaper-over-time option &mdash; the same technology behind reusable repellent bands. <BuyLink tag={AMZ_TAG} search="parakito refillable mosquito band">Check refillable band price →</BuyLink></p>
 
           <h2>How Repellent Stickers Actually Work</h2>
           <p>A repellent sticker is just a small adhesive pad soaked in volatile plant oils &mdash; most commonly citronella, but also lemongrass, geraniol, and oil of lemon eucalyptus. Once you peel and stick it, the oils slowly evaporate and form a faint scented halo in the air immediately around the patch. Female mosquitoes hunt by following a plume of carbon dioxide, body heat, and skin compounds; the oil scent partly masks and confuses those cues, so mosquitoes are less likely to zero in on the exact spot the patch is protecting.</p>
@@ -289,8 +290,8 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
 
           <h2>Why Parents Love Them Anyway: The DEET-Free Angle</h2>
           <p>The reason patches sell so well has nothing to do with them out-performing bug spray &mdash; they don&rsquo;t. It is that they solve a real problem for the youngest kids. Health Canada advises <strong>against DEET on infants under 6 months</strong>, and caps both the concentration and the number of daily applications for older children. That leaves parents of babies with very few on-skin options.</p>
-          <p>Because a sticker goes on the onesie, the sun hat, or the stroller canopy &mdash; never on skin &mdash; it neatly sidesteps those age restrictions. For a two-month-old, a citronella patch plus a mesh net over the bassinet is a genuinely reasonable, low-risk approach, and far better than dabbing an off-label spray on delicate skin. Just keep the patch where tiny hands can&rsquo;t peel it off and taste it, and don&rsquo;t oversell what one sticker can do.</p>
-          <p>For the honest age-by-age breakdown of what you <em>can</em> safely put on children&rsquo;s skin once they&rsquo;re older, see our guide to the <Link href="/blog/best-bug-spray-for-kids-canada">best bug spray for kids in Canada</Link> and our plain-language answer to <Link href="/blog/is-mosquito-spray-safe-kids-pets">whether mosquito spray is safe for kids and pets</Link>.</p>
+          <p>Because a sticker goes on the onesie, the sun hat, or the stroller canopy &mdash; never on skin &mdash; it neatly sidesteps those age restrictions. For a two-month-old, a citronella patch plus a mesh net over the bassinet is a genuinely reasonable approach, and far better than dabbing an off-label spray on delicate skin. Just keep the patch where tiny hands can&rsquo;t peel it off and taste it, and don&rsquo;t oversell what one sticker can do.</p>
+          <p>For the honest age-by-age breakdown of what the labels <em>do</em> allow on children&rsquo;s skin once they&rsquo;re older, see our guide to the <Link href="/blog/best-bug-spray-for-kids-canada">best bug spray for kids in Canada</Link> and our plain-language answer to <Link href="/blog/is-mosquito-spray-safe-kids-pets">whether mosquito spray is safe for kids and pets</Link>.</p>
 
           <div className="not-prose my-6 rounded-xl bg-rose-50 border-l-4 border-rose-400 p-5">
             <p className="text-sm font-extrabold text-rose-900 mb-1">Skip the vitamin B1 (thiamine) patches</p>
@@ -307,38 +308,38 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
           </ul>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Want the whole yard bite-free for the kids?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats your entire yard from $99 &mdash; so the play area, not just one sticker, is protected. Kid- and pet-friendly application, backed by 150+ five-star reviews across 19 GTA cities.</p>
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Want fewer bites across the whole yard for the kids?</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats your entire yard from $99 &mdash; so the whole play area is treated, not just the spot one sticker covers. Applied by an Ontario-licensed operator according to label directions, backed by 150+ five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
             </div>
           </aside>
 
-          <h2>Stickers vs Other Kid-Safe Options</h2>
-          <p>Stickers are one tool in a bigger kit. Here is how they stack up against the other DEET-free and low-worry approaches Canadian parents reach for:</p>
+          <h2>Stickers vs Other Options for Kids</h2>
+          <p>Stickers are one tool in a bigger kit. Here is how they stack up against the other DEET-free approaches Canadian parents reach for:</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
-              <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Protection</th><th className="px-3 py-2 text-left">Duration</th><th className="px-3 py-2 text-left">Baby-safe?</th></tr>
+              <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Protection</th><th className="px-3 py-2 text-left">Duration</th><th className="px-3 py-2 text-left">Use with babies</th></tr>
             </thead>
             <tbody>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Repellent stickers/patches</strong></td><td className="px-3 py-2">Small zone around patch</td><td className="px-3 py-2">1–3 hrs</td><td className="px-3 py-2">Yes (on fabric)</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Repellent stickers/patches</strong></td><td className="px-3 py-2">Small zone around patch</td><td className="px-3 py-2">1–3 hrs</td><td className="px-3 py-2">On fabric only</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Stroller / crib netting</td><td className="px-3 py-2">Full physical barrier</td><td className="px-3 py-2">All day</td><td className="px-3 py-2">Yes — gold standard</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/citronella-candles-canada-do-they-work">Citronella candles</Link></td><td className="px-3 py-2">Small breeze-dependent zone</td><td className="px-3 py-2">While lit</td><td className="px-3 py-2">Keep flame away</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Icaridin (picaridin) spray</td><td className="px-3 py-2">Whole-limb skin coverage</td><td className="px-3 py-2">5–7 hrs</td><td className="px-3 py-2">6 months+</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Whole yard, everyone in it</td><td className="px-3 py-2">21–30 days</td><td className="px-3 py-2">Yes — dries before re-entry</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Whole yard (treated vegetation)</td><td className="px-3 py-2">Re-applied on a schedule</td><td className="px-3 py-2">Stay off treated areas until dry, per the label</td></tr>
             </tbody>
           </table>
 
           <h2>The Smart Stack for Families</h2>
           <p>Stickers work best as one honest layer, not the whole plan. For a household with young kids, the combination that actually keeps the backyard usable is:</p>
           <ol>
-            <li><strong>Treat the yard</strong> &mdash; <Link href="/mosquito-control">BuzzSkito&rsquo;s barrier spray</Link> knocks down the mosquito population across the whole property for 21–30 days, so the play space starts protected.</li>
+            <li><strong>Treat the yard</strong> &mdash; <Link href="/mosquito-control">BuzzSkito&rsquo;s barrier spray</Link> targets the mosquito population across the whole property on a set schedule, so there are fewer mosquitoes in the play space to begin with.</li>
             <li><strong>Netting for babies</strong> &mdash; a mesh cover on the stroller or playpen is the single most reliable protection for infants.</li>
             <li><strong>Age-appropriate skin repellent</strong> &mdash; once kids are 6 months+, an icaridin or low-concentration DEET spray on exposed skin (see the <Link href="/blog/best-bug-spray-for-kids-canada">kids&rsquo; bug spray guide</Link>).</li>
             <li><strong>Stickers or a refillable clip</strong> &mdash; the convenient DEET-free top-up for outings, or the go-to for babies too young for spray.</li>
           </ol>
-          <p>That stack costs little, keeps the youngest kids off harsh chemicals, and &mdash; unlike a lone sticker &mdash; actually holds up on a July evening in the GTA.</p>
+          <p>That stack costs little, keeps skin products off the youngest kids, and &mdash; unlike a lone sticker &mdash; actually holds up on a July evening in the GTA.</p>
 
           <h2>The Honest Verdict</h2>
           <p>Mosquito repellent stickers and patches are a nice-to-have, not a solve. Buy the citronella and essential-oil versions (skip anything selling vitamin B1), lean on them mainly for babies and toddlers who can&rsquo;t use skin repellents, and always pair them with netting or a treated yard. As a standalone defence for a bite-heavy backyard, they will disappoint &mdash; but as one thoughtful, DEET-free layer, they earn their spot in the diaper bag.</p>
@@ -367,7 +368,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Stickers Cover One Spot · We Cover the Whole Yard" subtext="Get a free quote for kid- and pet-friendly barrier spray. From $99. 150+ five-star reviews. 30-day protection." variant="dark" />
+      <CTASection heading="Stickers Cover One Spot · We Cover the Whole Yard" subtext={`Get a free quote for licensed barrier spray. From $99. 150+ five-star reviews. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

@@ -3,7 +3,10 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, itemListSchema } from '@/lib/seo'
+import { BUSINESS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: `Best Mosquito Control Richmond Hill 2026`,
@@ -14,15 +17,15 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: `Who is the best mosquito control company in Richmond Hill?`,
-    answer: 'BuzzSkito is the GTA-based mosquito and tick specialist with the lowest entry price ($99 single treatment), 150+ perfect five-star Google reviews (zero negatives), and the BuzzSkito Bite-Free Guarantee — free re-treatment if pests return. Mosquito Man has higher review volume across all of Ontario but operates as a general pest control company covering 10+ pest types. LawnSavers serves Richmond Hill as part of their broader lawn-care offering. The right choice depends on whether you prioritize specialist depth, lowest price, or bundled services.',
+    answer: `It depends on what matters most. BuzzSkito is the GTA-based mosquito and tick specialist with a $99 single-treatment entry price and 150+ perfect five-star Google reviews (zero negatives). Mosquito Man has a longer GTA track record. LawnSavers serves Richmond Hill as part of their broader lawn-care offering. Mosquito.Buzz is a national franchise, so service depends on the local operator. The right choice depends on whether you prioritize specialist depth, lowest price, or bundled services. Whichever you consider, ask any provider five questions before you book: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays (tick: 5); a free re-treat if it rains within 1 hour of a treatment, on every plan; Licence ${BUSINESS.licenseNumber}; and the Bite-Free Guarantee on Standard & Exclusive plans. BuzzSkito is a mosquito and tick specialist with 150+ five-star Google reviews.`,
   },
   {
     question: `How much does mosquito control cost in Richmond Hill?`,
-    answer: `Single treatments in Richmond Hill range from $99 (BuzzSkito) to $129+ (LawnSavers and others) per visit. Seasonal programs vary by company and are typically custom-quoted by property size. Properties in Oak Ridges and Jefferson (Moraine core), Mill Pond properties, Lake Wilcox waterfront typically price at the upper end of any company's range due to higher mosquito pressure and more vegetation to treat. BuzzSkito's transparent $99 single-treatment pricing allows Richmond Hill homeowners to test the service before committing to a full season.`,
+    answer: `BuzzSkito single treatments in Richmond Hill start at $99 on a standard lot under 10,000 sq ft, and season plans are $549 (5 sprays), $994 (10 sprays) or $2,049 (20+ sprays), plus HST. Mosquito Man, LawnSavers and Mosquito.Buzz price differently — pricing varies, so check their sites or ask for a written price before you book. Properties in Oak Ridges and Jefferson (Moraine core), Mill Pond properties, Lake Wilcox waterfront typically price at the upper end of any company's range due to higher mosquito pressure and more vegetation to treat. BuzzSkito's transparent $99 single-treatment pricing allows Richmond Hill homeowners to test the service before committing to a full season.`,
   },
   {
     question: `Which Richmond Hill neighbourhoods have the worst mosquito pressure?`,
-    answer: `The highest mosquito pressure in Richmond Hill is concentrated in Oak Ridges and Jefferson (Moraine core), Mill Pond properties, Lake Wilcox waterfront. These zones face direct exposure to Oak Ridges Moraine, Mill Pond, Lake Wilcox, Don River headwaters and benefit most from a full 4–5 treatment seasonal program. Lower-exposure neighbourhoods can typically maintain comfort with 3–4 treatments per season.`,
+    answer: `The highest mosquito pressure in Richmond Hill is concentrated in Oak Ridges and Jefferson (Moraine core), Mill Pond properties, Lake Wilcox waterfront. These zones face direct exposure to Oak Ridges Moraine, Mill Pond, Lake Wilcox, Don River headwaters and benefit most from a full season plan: Basic (5 sprays, monthly) or Standard (10 sprays, every 2 weeks). Lower-exposure neighbourhoods may be comfortable with Basic or a few single treatments.`,
   },
   {
     question: `Do Richmond Hill mosquito control companies offer no-contract service?`,
@@ -30,11 +33,11 @@ const FAQS = [
   },
   {
     question: `Can I bundle tick control with mosquito spray in Richmond Hill?`,
-    answer: `Yes. Properties in Oak Ridges and Jefferson (Moraine core), Mill Pond properties, Lake Wilcox waterfront face confirmed blacklegged tick (Lyme-disease vector) exposure per Public Health Ontario. Many Richmond Hill homeowners bundle mosquito and tick treatments for complete yard protection. BuzzSkito offers tick add-on bundle pricing on quote when added to any mosquito plan, saving over standalone tick pricing. Lyme prevention plus mosquito comfort = full yard protection through the May–September season.`,
+    answer: `Yes. Properties in Oak Ridges and Jefferson (Moraine core), Mill Pond properties, Lake Wilcox waterfront can see blacklegged tick exposure, and blacklegged ticks can carry Lyme disease; Public Health Ontario publishes a yearly map of estimated Lyme disease risk areas. Many Richmond Hill homeowners bundle mosquito and tick treatments so both run on one schedule. BuzzSkito tick control is 5 sprays per season: $497 when added to any mosquito plan, or $597 on its own, through the May–September season.`,
   },
   {
     question: `What should I look for in a Richmond Hill mosquito control company?`,
-    answer: `Five things matter most: (1) Health Canada-approved formulation — non-negotiable; (2) Ontario-licensed pesticide applicator on the technician — required by law; (3) free re-spray or bite-free guarantee — protects you if rain disrupts the cure; (4) transparent pricing published on the website — avoid companies that require an "in-home estimate" before quoting; (5) verified Google reviews from Richmond Hill customers specifically — local pressure is unique. BuzzSkito meets all five.`,
+    answer: `Five things matter most: (1) a registered product with a PCP number on its label — non-negotiable; (2) Ontario-licensed pesticide applicator on the technician — required by law; (3) a written guarantee — ask what happens if it rains soon after a treatment, and which plans are covered; (4) transparent pricing published on the website — avoid companies that require an "in-home estimate" before quoting; (5) verified Google reviews from Richmond Hill customers specifically — local pressure is unique. BuzzSkito meets all five.`,
   },
 ]
 
@@ -53,7 +56,7 @@ export default function BestMosquitoControlRichmondHillPage() {
           { label: 'Best Companies Richmond Hill' },
         ]}
         title={<>Best Mosquito Control Companies in Richmond Hill — 2026</>}
-        subtitle={<>Honest 2026 comparison of mosquito control providers serving Richmond Hill — Oak Ridges, Jefferson, Bayview Hill, Mill Pond, Langstaff, Crosby, North Richvale. Pricing, reviews, contracts.</>}
+        subtitle={<>Honest 2026 comparison of mosquito control providers serving Richmond Hill — Oak Ridges, Jefferson, Bayview Hill, Mill Pond, Langstaff, Crosby, North Richvale. Pricing, reviews, contracts. Licensed Ontario pesticide operator, with treatments applied according to label directions.</>}
         image="/spray-pool.webp"
         imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
       />
@@ -69,14 +72,16 @@ export default function BestMosquitoControlRichmondHillPage() {
 
       <QuickAnswer question="Who has the best mosquito control in Richmond Hill in 2026?">
         <p>
-          <strong>For Richmond Hill homeowners, BuzzSkito wins on price ($99 single treatment, lowest in market), reviews (150+/5.0, zero negative), and specialty (mosquitoes + ticks only — not a generalist).</strong> Mosquito Man wins on review volume across all of Ontario but is a general pest control company. LawnSavers is best if you're already using their lawn-care service. The full comparison below covers pricing, contract terms, Richmond Hill service-area specifics (Oak Ridges Moraine, Mill Pond, Lake Wilcox, Don River headwaters), and the deciding factors for each Richmond Hill neighborhood. Updated July 2026.
+          <strong>The best mosquito control company for a Richmond Hill yard is one that answers five questions clearly before you book, and BuzzSkito publishes its answers: from $99 on a standard lot, 150+ five-star Google reviews, and {PROMISES.licence}.</strong> Mosquito Man has a longer GTA track record. LawnSavers is best if you're already using their lawn-care service. Mosquito.Buzz is a national franchise. Ask any provider about price, sprays per season, rain, licensing, and which plans carry a guarantee. The full comparison below covers pricing, contract terms, those questions, Richmond Hill service-area specifics (Oak Ridges Moraine, Mill Pond, Lake Wilcox, Don River headwaters), and the deciding factors for each Richmond Hill neighborhood. Updated July 2026.
         </p>
       </QuickAnswer>
+
+      <TypicalPrices service="mosquito" city="Richmond Hill" />
 
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Richmond Hill Mosquito Control Companies — Compared</h2>
-          <p>Richmond Hill homeowners have several professional mosquito control options. Here&rsquo;s an honest comparison based on publicly available pricing, Google reviews, and Richmond Hill-specific service offerings as of July 2026.</p>
+          <p>Richmond Hill homeowners have several professional mosquito control options. Here&rsquo;s an honest comparison based on each company&rsquo;s publicly described service model. Competitor pricing and review totals change, so check each company&rsquo;s own site and Google listing for current figures.</p>
 
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
@@ -97,14 +102,14 @@ export default function BestMosquitoControlRichmondHillPage() {
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="px-4 py-2 font-semibold">Mosquito Man</td>
-                  <td className="px-4 py-2">~$129+ (varies)</td>
-                  <td className="px-4 py-2">4,000+ across all locations</td>
+                  <td className="px-4 py-2">Quote-based — check their site</td>
+                  <td className="px-4 py-2">See Google</td>
                   <td className="px-4 py-2 text-amber-700">Often seasonal</td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="px-4 py-2 font-semibold">LawnSavers</td>
-                  <td className="px-4 py-2">$129+ standalone</td>
-                  <td className="px-4 py-2">1,000+ (lawn care primary)</td>
+                  <td className="px-4 py-2">Pricing varies — check their site</td>
+                  <td className="px-4 py-2">See Google (lawn care primary)</td>
                   <td className="px-4 py-2 text-amber-700">Bundled with lawn plans</td>
                 </tr>
                 <tr className="border-b border-gray-200">
@@ -117,27 +122,64 @@ export default function BestMosquitoControlRichmondHillPage() {
             </table>
           </div>
 
+          <h2>What to Ask Any Mosquito Control Company in Richmond Hill</h2>
+          <p>Whichever company you consider, here are the questions worth asking any provider before you book, with BuzzSkito&rsquo;s answers.</p>
+
+          <div className="not-prose overflow-x-auto my-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-2 text-left">Ask this</th>
+                  <th className="px-4 py-2 text-left">BuzzSkito&rsquo;s answer</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { q: 'Is the price shown before you book?', a: 'From $99 on a standard lot' },
+                  { q: 'How many sprays per season?', a: '5, 10 or 20+ (tick: 5)' },
+                  { q: 'What happens if it rains after a treatment?', a: PROMISES.rainBack },
+                  { q: 'Is an Ontario pesticide operator licence number shown?', a: `Yes: ${BUSINESS.licenseNumber}` },
+                  { q: 'Which plans include a guarantee?', a: 'Rain-back on every plan; Bite-Free on Standard & Exclusive' },
+                ].map(({ q, a }) => (
+                  <tr key={q} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-2 font-semibold text-brand-900">{q}</td>
+                    <td className="px-4 py-2 text-gray-700">{a}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
           <h2>Why Richmond Hill is a High-Pressure Mosquito Zone</h2>
-          <p>Richmond Hill&rsquo;s mosquito pressure comes from Oak Ridges Moraine, Mill Pond, Lake Wilcox, Don River headwaters. Properties in Oak Ridges and Jefferson (Moraine core), Mill Pond properties, Lake Wilcox waterfront face the most intense activity — barrier spray on these properties is significantly more impactful than general pest control because the treatment targets the exact resting habitats mosquitoes use during the day.</p>
+          <p>Richmond Hill&rsquo;s mosquito pressure comes from Oak Ridges Moraine, Mill Pond, Lake Wilcox, Don River headwaters. Properties in Oak Ridges and Jefferson (Moraine core), Mill Pond properties, Lake Wilcox waterfront face the most intense activity — barrier spray on these properties focuses on the exact resting habitats mosquitoes use during the day.</p>
 
           <h2>How to Choose a Mosquito Control Company in Richmond Hill</h2>
           <ol>
-            <li><strong>Check the formulation.</strong> Only Health Canada-approved barrier sprays are legal in Ontario. Ask before booking.</li>
+            <li><strong>Check the product.</strong> Every pest control product used in Canada must carry a PCP registration number on its label. Ask which product will be used before booking.</li>
             <li><strong>Verify the applicator&rsquo;s license.</strong> Ontario requires a Pesticide Applicator&rsquo;s License for any commercial application.</li>
             <li><strong>Confirm the guarantee.</strong> If rain hits within 1 hour of spray, the product hasn&rsquo;t cured — a reputable company will re-treat at no charge. Anyone who won&rsquo;t put this in writing is suspect.</li>
             <li><strong>Read recent Richmond Hill-specific Google reviews.</strong> National franchises sometimes have great Toronto reviews and terrible Richmond Hill reviews. Filter for your city.</li>
             <li><strong>Ask about Richmond Hill expertise.</strong> A technician who can describe Oak Ridges Moraine, Mill Pond, Lake Wilcox, Don River headwaters and what mosquito species are dominant in your area knows what they&rsquo;re doing.</li>
             <li><strong>Compare single-treatment pricing</strong>, not just seasonal package totals. Single-treatment pricing reveals real per-visit value.</li>
-            <li><strong>Ask about tick add-on.</strong> Richmond Hill has confirmed blacklegged tick populations. Bundling protects against Lyme disease.</li>
+            <li><strong>Ask about tick add-on.</strong> Richmond Hill has confirmed blacklegged tick populations. Bundling adds 5 tick sprays per season for $497 with any mosquito plan.</li>
           </ol>
 
+        </div>
+      </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Richmond Hill" service="mosquito" location="price_card_mid" />
+      </div>
+
+      <section className="pb-14 px-4 bg-white">
+        <div className="max-w-4xl mx-auto prose-brand">
           <h2>Richmond Hill-Specific Mosquito Pressure Zones</h2>
           <p>The most mosquito-affected Richmond Hill neighborhoods include Oak Ridges, Jefferson, Bayview Hill, Mill Pond, Langstaff, Crosby, North Richvale. Among these, Oak Ridges and Jefferson (Moraine core), Mill Pond properties, Lake Wilcox waterfront typically experience the highest pressure due to direct adjacency to Oak Ridges Moraine, Mill Pond, Lake Wilcox, Don River headwaters.</p>
 
           <h2>BuzzSkito Richmond Hill Service Pages</h2>
           <ul>
             <li><Link href="/richmond-hill-mosquito-control" className="text-brand-700 hover:underline font-semibold">Richmond Hill Mosquito Control</Link> — full service page with pricing, neighborhoods, FAQ</li>
-            <li><Link href="/richmond-hill-tick-spray" className="text-brand-700 hover:underline font-semibold">Richmond Hill Tick Control</Link> — Lyme disease prevention barrier spray</li>
+            <li><Link href="/richmond-hill-tick-spray" className="text-brand-700 hover:underline font-semibold">Richmond Hill Tick Control</Link> — tick barrier spray, 5 sprays per season</li>
             <li><Link href="/pest-control-richmond-hill" className="text-brand-700 hover:underline">Pest Control Richmond Hill</Link> — overview of mosquito + tick specialist services</li>
           </ul>
 
@@ -150,6 +192,10 @@ export default function BestMosquitoControlRichmondHillPage() {
           </ul>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Richmond Hill" service="mosquito" />
+      </div>
 
       <section className="py-12 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

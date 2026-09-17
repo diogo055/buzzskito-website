@@ -1,13 +1,15 @@
-import Link from 'next/link'
 import Image from 'next/image'
-import { BUSINESS, SERVICE_SEASON } from '@/lib/constants'
+import { BUSINESS, PROMISES, SERVICE_SEASON } from '@/lib/constants'
 import GoogleReviews from '@/components/GoogleReviews'
+import QuoteLink from '@/components/QuoteLink'
 import Reveal from '@/components/Reveal'
 
 interface CTASectionProps {
   heading?: string
   subtext?: string
   variant?: 'green' | 'dark' | 'light'
+  /** Optional quote-form preselection. Omitted (blog posts, mixed pages) = the form opens with no service chosen. */
+  service?: 'mosquito' | 'tick' | 'both'
 }
 
 /**
@@ -18,11 +20,13 @@ interface CTASectionProps {
  *
  * The photo is lazy-loaded (far below the fold on every page) inside a
  * fixed-height section — zero LCP/CLS impact. Copy cascades in via Reveal.
+ * Quote / Call / Text taps are counted by LeadClickTracker via data-lead-location.
  */
 export default function CTASection({
   heading = 'Protect Your Family This Season',
-  subtext = 'Get a free, no-obligation quote for mosquito and tick control at your property.',
+  subtext = `Get a free, no-obligation quote for mosquito and tick control at your property. ${PROMISES.response}`,
   variant = 'green',
+  service,
 }: CTASectionProps) {
   const photographic = variant !== 'light'
 
@@ -35,11 +39,11 @@ export default function CTASection({
           <div className="flex justify-center mb-7">
             <GoogleReviews light />
           </div>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/free-yard-assessment" className="btn-primary btn-attn press-scale">
-              Get a Free Quote
+          <div data-lead-location="cta_section" className="flex flex-col sm:flex-row sm:flex-wrap gap-4 justify-center">
+            <QuoteLink service={service} location="cta_section" className="btn-primary btn-attn press-scale">
+              Get my price
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-            </Link>
+            </QuoteLink>
             <a
               href={BUSINESS.phoneHref}
               className="press-scale btn-ghost border-brand-700 text-brand-700 hover:bg-brand-700 hover:text-white"
@@ -50,9 +54,19 @@ export default function CTASection({
               </svg>
               {BUSINESS.phone}
             </a>
+            <a
+              href={BUSINESS.smsHref}
+              className="press-scale btn-ghost border-brand-700 text-brand-700 hover:bg-brand-700 hover:text-white"
+              aria-label={`Text BuzzSkito at ${BUSINESS.phone}`}
+            >
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+              </svg>
+              Text us
+            </a>
           </div>
           <p className="mt-6 text-sm text-brand-700 opacity-75">
-            ✓ No contracts &nbsp;·&nbsp; ✓ Free re-spray guarantee &nbsp;·&nbsp; ✓ {SERVICE_SEASON}
+            ✓ No contracts &nbsp;·&nbsp; ✓ {PROMISES.rainBackShort} &nbsp;·&nbsp; ✓ {SERVICE_SEASON}
           </p>
         </div>
       </section>
@@ -92,11 +106,11 @@ export default function CTASection({
           <GoogleReviews />
         </Reveal>
         <Reveal className="rd-3">
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/free-yard-assessment" className="btn-primary btn-attn press-scale">
-              Get a Free Quote
+          <div data-lead-location="cta_section" className="flex flex-col sm:flex-row sm:flex-wrap gap-4 justify-center">
+            <QuoteLink service={service} location="cta_section" className="btn-primary btn-attn press-scale">
+              Get my price
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-            </Link>
+            </QuoteLink>
             <a
               href={BUSINESS.phoneHref}
               className="press-scale glass-chip inline-flex items-center justify-center gap-2 rounded-full px-8 py-4 text-lg font-bold text-white transition-colors hover:bg-white hover:text-brand-900"
@@ -107,9 +121,19 @@ export default function CTASection({
               </svg>
               {BUSINESS.phone}
             </a>
+            <a
+              href={BUSINESS.smsHref}
+              className="press-scale glass-chip inline-flex items-center justify-center gap-2 rounded-full px-8 py-4 text-lg font-bold text-white transition-colors hover:bg-white hover:text-brand-900"
+              aria-label={`Text BuzzSkito at ${BUSINESS.phone}`}
+            >
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+              </svg>
+              Text us
+            </a>
           </div>
           <p className="mt-6 text-sm text-brand-100 opacity-75">
-            ✓ No contracts &nbsp;·&nbsp; ✓ Free re-spray guarantee &nbsp;·&nbsp; ✓ {SERVICE_SEASON}
+            ✓ No contracts &nbsp;·&nbsp; ✓ {PROMISES.rainBackShort} &nbsp;·&nbsp; ✓ {SERVICE_SEASON}
           </p>
         </Reveal>
       </div>

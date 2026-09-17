@@ -18,9 +18,11 @@ const UPDATED = '2026-07-30'
 // bed bug evidence hunt vs yard work. The deep bed-bug-bite page (/blog/bed-bug-bites)
 // owns "what do bed bug bites look like"; this page owns the comparison and the
 // what-do-I-do-next fork, and is the one bed bug page BuzzSkito can write with real
-// first-party authority, because the mosquito half is the day job. SERP title 40 chars.
+// first-party authority, because the mosquito half is the day job. SERP title 41 chars.
+// The Canada token is honest here rather than welded on: tell 4 IS the Canadian
+// calendar — fresh welts in a Toronto January are not mosquito bites.
 const TITLE = 'Bed Bug Bites vs Mosquito Bites — Five Tells That Separate Them, and What to Do About Each'
-const META_TITLE = 'Bed Bug Bites vs Mosquito Bites: 5 Tells'
+const META_TITLE = 'Bed Bug Bites vs Mosquito Bites in Canada'
 
 const FAQS = [
   {

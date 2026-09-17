@@ -1,14 +1,16 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Georgetown Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Georgetown specialist mosquito barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Glen Williams, Park District, Devereux, Hungry Hollow. Call (289) 216-5030.",
+    "Georgetown specialist mosquito barrier spray. Licensed operator, from $99/treatment, no contracts, rain-back guarantee. Glen Williams, Park District, Devereux, Hungry Hollow. Call (289) 216-5030.",
   canonical: '/georgetown-mosquito-control',
 })
 
@@ -35,7 +37,7 @@ const FAQS = [
   },
   {
     question: 'Is there a difference in mosquito pressure between older Georgetown and newer developments?',
-    answer: "Old Georgetown and Glen Williams, which back onto the Credit River valley and have mature tree canopy and established garden landscapes, typically see the most intense pressure. Newer developments on Georgetown's northern and eastern fringes are further from the river and creek corridors, but they often include engineered stormwater ponds that provide local breeding habitat. In both cases, professional barrier spray is the most effective way to reduce mosquito activity on your property throughout the season.",
+    answer: "Old Georgetown and Glen Williams, which back onto the Credit River valley and have mature tree canopy and established garden landscapes, typically see the most intense pressure. Newer developments on Georgetown's northern and eastern fringes are further from the river and creek corridors, but they often include engineered stormwater ponds that provide local breeding habitat. In both cases, professional barrier spray repeated through the season is a practical way to reduce mosquito activity on your property.",
   },
 ]
 
@@ -58,22 +60,24 @@ export default function GeorgetownMosquitoPage() {
         ]}
         title={<>{CITY} Mosquito Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>From the Credit River valley through Old Georgetown to the Limehouse Conservation Area — BuzzSkito delivers professional mosquito barrier spray across all Georgetown neighbourhoods.</>}
+        subtitle={<>Licensed Ontario pesticide operator, with treatments applied according to label directions. From the Credit River valley through Old Georgetown to the Limehouse Conservation Area, BuzzSkito serves all Georgetown neighbourhoods.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
       
+      <TypicalPrices service="mosquito" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -82,8 +86,8 @@ export default function GeorgetownMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies the product according to its label directions to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Repeat Visits & Guarantees', desc: `Treatments repeat on your plan's schedule through the season. ${PROMISES.rainBack} On Standard & Exclusive plans, if mosquitoes come back between scheduled treatments, we re-treat at no charge.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -115,13 +119,15 @@ export default function GeorgetownMosquitoPage() {
           <ul>
             <li><strong>River and creek proximity review</strong> — We assess your property&apos;s position relative to the Credit River, Silver Creek, and any pond or wetland features.</li>
             <li><strong>Full-yard barrier spray</strong> — Complete treatment of shrubs, hedges, garden borders, fence lines, and tree understorey on every visit.</li>
-            <li><strong>28-day residual protection</strong> — Health Canada–approved formula provides continuous coverage between visits; safe for kids and pets after 30 minutes.</li>
-            <li><strong>Seasonal program</strong> — Five visits May through September, aligned with Credit River corridor mosquito emergence patterns.</li>
+            <li><strong>Label-directed application</strong> — {PROMISES.labelLine}; stay off treated areas until the spray has dried, as the label directs.</li>
+            <li><strong>Seasonal program</strong> — Five visits (Basic), 10 (Standard) or 20+ (Exclusive) May through September, aligned with Credit River corridor mosquito emergence patterns.</li>
           </ul>
 
           <h2>Also Providing Tick Control in Georgetown</h2>
-          <p>Georgetown backs onto Credit River valley and Niagara Escarpment trail systems — confirmed tick habitat areas throughout Halton Hills. Properties near Glen Williams, Limehouse, and the conservation area trails are particularly at risk. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Georgetown tick spray service</Link> — most Halton Hills homeowners bundle both treatments for complete protection.</p>
+          <p>Georgetown backs onto Credit River valley and Niagara Escarpment trail systems — confirmed tick habitat areas throughout Halton Hills. Properties near Glen Williams, Limehouse, and the conservation area trails are particularly at risk. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Georgetown tick spray service</Link> — tick control is $497 per season (5 sprays) when added to any mosquito plan.</p>
 
+
+          <CityPriceCard city={CITY} service="mosquito" location="price_card_mid" />
 
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
@@ -143,10 +149,10 @@ export default function GeorgetownMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats the resting surfaces across your property and leaves a residual on treated foliage, and it is repeated on a schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -192,6 +198,10 @@ export default function GeorgetownMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

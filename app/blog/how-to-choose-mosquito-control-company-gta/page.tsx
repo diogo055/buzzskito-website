@@ -2,14 +2,14 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { NEW_BLOGS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 const POST = NEW_BLOGS[7]
 
 export const metadata: Metadata = buildMetadata({
   title: 'How to Choose Mosquito Control Company',
   description:
-    "What to ask, red flags to avoid, and why Health Canada approval matters when choosing a GTA mosquito control company.",
+    "What to ask, red flags to avoid, and why product registration matters when choosing a GTA mosquito control company.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
@@ -24,7 +24,7 @@ const FAQS = [
   {
     question: "What's the difference between a 'guarantee' and a 're-spray guarantee'?",
     answer:
-      "A general guarantee can mean almost anything — 'we'll fix it if you're not satisfied' with no defined process. A re-spray guarantee is specific: if mosquito activity returns within a defined period after treatment (typically 21–30 days), the company will return and re-treat at no charge. Ask for the specific terms in writing before you book. Reputable companies will provide a clear re-spray policy without hesitation.",
+      `A general guarantee can mean almost anything — 'we'll fix it if you're not satisfied' with no defined process. A re-spray guarantee should be specific: what triggers a free return visit, within what period, and on which plans. Ask for the specific terms in writing before you book. Reputable companies will provide a clear re-spray policy without hesitation. BuzzSkito's, for example: ${PROMISES.rainBack} The Bite-Free Guarantee (a free re-treatment if mosquitoes come back between scheduled visits) applies to Standard & Exclusive plans only.`,
   },
   {
     question: "Is cheaper always worse for mosquito control?",
@@ -34,15 +34,15 @@ const FAQS = [
   {
     question: "Do I need a year-long contract for mosquito control?",
     answer:
-      "No reputable GTA mosquito control company requires a multi-year contract. Legitimate seasonal programs (typically 4–5 treatments from May to September) are common and appropriate — but these should be cancellable if you're not satisfied. Avoid any company that requires a contract extending beyond the current treatment season without a clear, easy cancellation process.",
+      "No reputable GTA mosquito control company requires a multi-year contract. Legitimate seasonal programs (monthly, every two weeks, or weekly from May to September) are common and appropriate — but these should be cancellable if you're not satisfied. Avoid any company that requires a contract extending beyond the current treatment season without a clear, easy cancellation process.",
   },
 ]
 
 const QUESTIONS = [
   {
     num: 1,
-    q: 'Are your products Health Canada–approved?',
-    detail: "In Canada, all commercial pest control products must be registered under the Pest Control Products Act. A company using unregistered products is operating illegally and you have no assurance of safety or efficacy. The correct answer is yes — and they should be able to name the specific product and its PMRA registration number.",
+    q: 'Are your products registered for use in Canada?',
+    detail: "In Canada, all commercial pest control products must be registered under the Pest Control Products Act. A company using unregistered products is operating illegally. The correct answer is yes — and they should be able to name the specific product and its PMRA registration number.",
   },
   {
     num: 2,
@@ -52,7 +52,7 @@ const QUESTIONS = [
   {
     num: 3,
     q: 'What is your re-spray policy if mosquitoes return?',
-    detail: "The honest answer is that no treatment lasts forever — barrier spray typically provides 3–4 weeks of residual protection, after which populations will rebuild. A professional company should offer a specific, documented re-spray guarantee — return and re-treat at no charge if activity rebounds within their stated window.",
+    detail: "The honest answer is that no treatment lasts forever — a barrier spray residual wears down with time, rain and sun, after which populations will rebuild. A professional company should offer a specific, documented re-spray policy — what triggers a free return visit, within what window, and on which plans.",
   },
   {
     num: 4,
@@ -67,7 +67,7 @@ const QUESTIONS = [
   {
     num: 6,
     q: 'How many treatments are included in your program, and what is the schedule?',
-    detail: "Most GTA properties need 4–5 treatments from May through September. A company offering 1–2 treatments as a 'full program' is either applying at very high concentrations (unusual) or setting you up for disappointment. Conversely, a company proposing 8–10 treatments per season may be over-selling. Ask for the specific timing and the rationale for the schedule.",
+    detail: "Season programs in the GTA generally run May through September, from a monthly visit (about 5 treatments) to every two weeks (about 10) or weekly for the heaviest pressure. A company offering 1–2 treatments as a 'full program' is either applying at very high concentrations (unusual) or setting you up for disappointment. Ask for the specific timing and the rationale for the schedule, and how it fits the mosquito pressure on your property.",
   },
   {
     num: 7,
@@ -77,7 +77,7 @@ const QUESTIONS = [
   {
     num: 8,
     q: 'Is there a contract, and how do I cancel if I am not satisfied?',
-    detail: "Seasonal treatment programs are reasonable — you're committing to 4–5 visits over a season. Multi-year contracts with penalties for early cancellation are a red flag. A company confident in their results does not need to lock you in for two years.",
+    detail: "Seasonal treatment programs are reasonable — you're committing to a set number of visits over one season. Multi-year contracts with penalties for early cancellation are a red flag. A company confident in their results does not need to lock you in for two years.",
   },
 ]
 
@@ -106,12 +106,12 @@ export default function HowToChooseMosquitoControlPage() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable not-prose">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To choose a GTA mosquito control company, confirm it holds a valid Ontario Pesticide Operator Licence, uses Health Canada (PMRA)-registered products, and offers a written re-spray guarantee. Ask the eight questions below before you book, and avoid any company that can&rsquo;t name its active ingredient or pressures you to sign a multi-year contract.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To choose a GTA mosquito control company, confirm it holds a valid Ontario Pesticide Operator Licence, uses registered products with a PCP number on the label, and puts its guarantee terms in writing. Ask the eight questions below before you book, and avoid any company that can&rsquo;t name its active ingredient or pressures you to sign a multi-year contract.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>Ontario law requires commercial applicators to hold a Pesticide Operator Licence from the Ministry of the Environment, Conservation and Parks &mdash; ask for the number.</li>
             <li>Every commercial pest control product must be registered under the Pest Control Products Act; ask for its PMRA registration number.</li>
-            <li>A professional re-spray guarantee re-treats at no charge if mosquitoes return within a stated 21&ndash;30 day window.</li>
-            <li>Most GTA properties need 4&ndash;5 treatments from May through September; a &ldquo;1&ndash;2 treatment full program&rdquo; is a red flag.</li>
+            <li>A good guarantee states in writing what triggers a free re-treatment, within what window, and which plans it covers.</li>
+            <li>Season programs run May through September, from monthly to every two weeks or weekly; a &ldquo;1&ndash;2 treatment full program&rdquo; is a red flag.</li>
             <li>Effective barrier spray targets foliage resting sites &mdash; shrub undersides, hedge interiors, and garden edges &mdash; not open lawn or paved surfaces.</li>
             <li>No reputable company requires a multi-year contract; seasonal programs should be easy to cancel.</li>
           </ul>
@@ -144,7 +144,7 @@ export default function HowToChooseMosquitoControlPage() {
         <ul>
           <li><strong>Inability to name their active ingredient.</strong> Any professional knows exactly what they&rsquo;re applying.</li>
           <li><strong>Door-to-door sales pressure to book immediately.</strong> Legitimate companies don&rsquo;t use high-pressure tactics — the season is long enough for you to make a considered decision.</li>
-          <li><strong>No re-spray guarantee.</strong> If the company won&rsquo;t commit to retreating if results are unsatisfactory, they&rsquo;re not confident in their product.</li>
+          <li><strong>No written re-spray terms.</strong> If the company won&rsquo;t say in writing when it re-treats at no charge, you have nothing to hold it to.</li>
           <li><strong>Very low price per treatment with no explanation.</strong> Effective barrier spray has real material and labour costs. A significantly below-market price usually means something is being cut.</li>
           <li><strong>No reviews or unverifiable reviews.</strong> Established companies have verifiable local reviews. If a company has no visible history, proceed carefully.</li>
         </ul>
@@ -172,7 +172,7 @@ export default function HowToChooseMosquitoControlPage() {
 
       <CTASection
         heading="See How BuzzSkito Answers All 8 Questions"
-        subtext="Licensed, Health Canada–approved, re-spray guarantee included. Free quote with no pressure."
+        subtext={`${PROMISES.licence}. ${PROMISES.labelLine}. ${PROMISES.rainBackShort}. Free quote with no pressure.`}
       />
     </>
   )

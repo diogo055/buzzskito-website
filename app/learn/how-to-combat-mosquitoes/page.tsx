@@ -3,7 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
-import { SITE_URL } from '@/lib/constants'
+import { SITE_URL, PROMISES } from '@/lib/constants'
 
 const SLUG = 'how-to-combat-mosquitoes'
 const TITLE = 'How to Combat Mosquitoes in Ontario — 10-Step Backyard Guide'
@@ -11,28 +11,28 @@ const TITLE = 'How to Combat Mosquitoes in Ontario — 10-Step Backyard Guide'
 const STEPS: { name: string; text: string }[] = [
   { name: 'Eliminate standing water weekly', text: 'Once a week, walk your property and empty anything holding water — plant saucers, buckets, tarps, toys, wheelbarrows, and kiddie pools. Mosquito larvae need standing water to develop, and as little as a bottle cap is enough. This single habit removes entire future generations.' },
   { name: 'Clean and unclog eavestroughs', text: 'Clogged gutters hold stagnant water and rotting leaves — a prime Culex breeding site. Clear them in spring and again mid-season so water drains freely and never pools.' },
-  { name: 'Treat water you cannot drain with BTI', text: 'For rain barrels, ponds, and low spots that stay wet, drop in BTI larvicide dunks or bits. BTI is a naturally occurring bacterium that kills mosquito larvae but is safe for pets, birds, and fish.' },
+  { name: 'Treat water you cannot drain with BTI', text: 'For rain barrels, ponds, and low spots that stay wet, drop in BTI larvicide dunks or bits. BTI is a naturally occurring bacterium that targets the larvae of mosquitoes and a few related flies; apply it as the label directs.' },
   { name: 'Cut grass and trim dense vegetation', text: 'Adult mosquitoes rest during the day in tall grass, dense shrubs, and shaded groundcover. Keeping the lawn short and thinning overgrown beds removes the humid resting spots where they shelter from the sun.' },
   { name: 'Improve drainage and grading', text: 'Fill low spots that puddle after rain and redirect downspouts away from the yard. Fixing chronic wet areas removes breeding habitat that no amount of spraying can fully offset.' },
   { name: 'Add mosquito-repelling plants and airflow', text: 'Plant citronella, lemongrass, marigolds, and lavender near seating areas, and run a fan on the patio — mosquitoes are weak fliers and avoid moving air. These reduce landings in the zones where you actually sit.' },
-  { name: 'Use personal repellent when outdoors', text: 'Apply a Health Canada-approved repellent containing DEET or icaridin (picaridin) to exposed skin, and consider permethrin-treated clothing for extended time outside at dawn and dusk when mosquitoes are most active.' },
+  { name: 'Use personal repellent when outdoors', text: 'Apply a personal insect repellent containing DEET or icaridin (picaridin) to exposed skin, following its label (look for the PCP number on the package), and consider permethrin-treated clothing for extended time outside at dawn and dusk when mosquitoes are most active.' },
   { name: 'Screen and protect gathering areas', text: 'Repair window and door screens, and consider screened gazebos or patio netting for high-use areas. A physical barrier keeps mosquitoes off you during peak evening hours.' },
-  { name: 'Apply a professional barrier spray', text: 'Have a licensed technician apply a residual barrier spray to vegetation, shrub interiors, leaf undersides, and fence lines. It kills adult mosquitoes on contact and keeps working for up to 30 days — the highest-impact single step for a whole-yard reduction.' },
+  { name: 'Apply a professional barrier spray', text: 'Have a licensed technician apply a residual barrier spray to vegetation, shrub interiors, leaf undersides, and fence lines. Mosquitoes that land on the treated surfaces contact the product, and because rain and new growth wear the residue down, it is re-applied on a schedule. This is the step that deals with the adults already resting in your yard.' },
   { name: 'Repeat on a schedule all season', text: 'Because the mosquito life cycle resets every 8-14 days, protection has to be ongoing. Combine weekly water dumping with barrier spray re-treatment every 2-4 weeks from May through September to keep the population from rebuilding.' },
 ]
 
 const FAQS = [
   {
     question: 'What is the fastest way to get rid of mosquitoes in a yard?',
-    answer: 'The fastest way to get rid of mosquitoes in a yard is a professional barrier spray, which kills resting adult mosquitoes on contact and keeps working for up to 30 days — you can use the yard the same day it dries. Pair it with dumping all standing water weekly to stop the next generation of larvae. Together these two steps deliver the quickest, longest-lasting relief.',
+    answer: 'The quickest step is a professional barrier spray, which treats the shrubs and shaded vegetation where adult mosquitoes rest; you can use the yard again once the spray has dried, as the label directs. Pair it with dumping all standing water weekly to stop the next generation of larvae. Together these two steps work on both halves of the problem: the adults already there and the ones still in the water.',
   },
   {
     question: 'How do I get rid of mosquitoes naturally?',
-    answer: 'To reduce mosquitoes naturally, eliminate standing water, treat unavoidable water with BTI larvicide (a natural bacterium safe for pets and fish), keep grass short, run a fan in seating areas, and plant citronella, lemongrass, and marigolds. These lower the population without synthetic pesticides, though they work best combined for a noticeable reduction.',
+    answer: 'To reduce mosquitoes naturally, remove standing water, treat unavoidable water with BTI larvicide (a naturally occurring bacterium that targets mosquito larvae), keep grass short, run a fan in seating areas, and plant citronella, lemongrass, and marigolds. These lower the population without synthetic pesticides, though they work best combined for a noticeable reduction.',
   },
   {
     question: 'How often should I spray my yard for mosquitoes?',
-    answer: 'A professional mosquito barrier spray should be reapplied every 2-4 weeks throughout the May-to-September season, because the residual formula lasts up to 30 days and the mosquito life cycle rebuilds in as little as 8-14 days. Bi-weekly treatment offers the most consistent protection during peak June-July mosquito pressure in the GTA.',
+    answer: 'A professional mosquito barrier spray should be reapplied every 2-4 weeks throughout the May-to-September season, because rain and plant growth wear the residue down and the mosquito life cycle rebuilds in as little as 8-14 days. Treatment every 2 weeks (our Standard plan: 10 sprays, May to September) is the most popular schedule for peak June-July mosquito pressure in the GTA.',
   },
 ]
 
@@ -52,7 +52,7 @@ const howToSchema = {
   tool: [{ '@type': 'HowToTool', name: 'Professional backpack precision sprayer' }],
   supply: [
     { '@type': 'HowToSupply', name: 'BTI larvicide (mosquito dunks/bits)' },
-    { '@type': 'HowToSupply', name: 'Health Canada-approved barrier spray formula' },
+    { '@type': 'HowToSupply', name: 'Residual barrier spray, applied by a licensed operator according to the label' },
     { '@type': 'HowToSupply', name: 'DEET or icaridin repellent' },
   ],
 }
@@ -80,13 +80,13 @@ export default function HowToCombatMosquitoesPage() {
             <span className="text-white">How to Combat Mosquitoes</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Ten proven steps to take back your backyard — attacking mosquitoes at every stage of their 8-14 day life cycle, from standing water to resting adults.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Ten practical steps to take back your backyard — attacking mosquitoes at every stage of their 8-14 day life cycle, from standing water to resting adults.</p>
         </div>
       </section>
 
       <QuickAnswer question="How do you combat mosquitoes in a backyard?">
         <p>
-          <strong>To combat mosquitoes, eliminate all standing water weekly, treat water you cannot drain with BTI larvicide, cut grass and dense vegetation, use repellent, and apply a professional barrier spray to kill resting adults for up to 30 days.</strong> The mosquito life cycle rebuilds in 8-14 days, so the key is attacking two stages at once — draining breeding sites and treating vegetation — and repeating all season. BuzzSkito&rsquo;s barrier spray handles the adult-control half of that plan across your whole property.
+          <strong>To combat mosquitoes, eliminate all standing water weekly, treat water you cannot drain with BTI larvicide, cut grass and dense vegetation, use repellent, and apply a professional barrier spray to the vegetation where adults rest.</strong> The mosquito life cycle rebuilds in 8-14 days, so the key is attacking two stages at once — draining breeding sites and treating vegetation — and repeating all season. BuzzSkito&rsquo;s barrier spray handles the adult-control half of that plan across your whole property.
         </p>
       </QuickAnswer>
 
@@ -108,20 +108,20 @@ export default function HowToCombatMosquitoesPage() {
           </ol>
 
           <h2>Why This Order Matters</h2>
-          <p>Steps 1 through 5 are <strong>source reduction</strong> — they stop mosquitoes from being born on your property in the first place. This is the foundation, and it is free. Steps 6 through 8 are <strong>personal and area protection</strong> for the spaces where your family actually gathers. Step 9, professional <Link href="/mosquito-control">barrier spray</Link>, is the force multiplier: it removes the adult mosquitoes already flying and creates a residual shield that keeps working between your weekly water checks. Step 10 ties it together — because nothing you do holds unless it is repeated across the full May-to-September season.</p>
+          <p>Steps 1 through 5 are <strong>source reduction</strong> — they stop mosquitoes from being born on your property in the first place. This is the foundation, and it is free. Steps 6 through 8 are <strong>personal and area protection</strong> for the spaces where your family actually gathers. Step 9, professional <Link href="/mosquito-control">barrier spray</Link>, is the force multiplier: it treats the vegetation where adult mosquitoes rest, leaving a residue on those surfaces between your weekly water checks. Step 10 ties it together — because nothing you do holds unless it is repeated across the full May-to-September season.</p>
           <p>Homeowners who try only one tactic — just spraying, or just dumping water — usually see the problem creep back within two weeks. The layered approach is what produces a yard you can genuinely enjoy at dusk. Go deeper in our <Link href="/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario">how to get rid of mosquitoes in your yard</Link> guide and the comprehensive <Link href="/blog/ultimate-backyard-mosquito-control-guide">ultimate backyard mosquito control guide</Link>.</p>
 
           <h2>Common Mistakes to Avoid</h2>
           <ul>
-            <li><strong>Skipping the weekly water walk.</strong> Barrier spray kills adults, but if larvae keep hatching in a forgotten saucer, you are fighting a losing battle.</li>
-            <li><strong>Relying on bug zappers.</strong> Research shows zappers kill mostly harmless insects and few biting mosquitoes — see <Link href="/blog/bug-zappers-canada-do-they-work">do bug zappers work</Link>.</li>
+            <li><strong>Skipping the weekly water walk.</strong> Barrier spray targets adults, but if larvae keep hatching in a forgotten saucer, you are fighting a losing battle.</li>
+            <li><strong>Relying on bug zappers.</strong> Research shows zappers kill mostly non-biting insects and few biting mosquitoes — see <Link href="/blog/bug-zappers-canada-do-they-work">do bug zappers work</Link>.</li>
             <li><strong>Treating once and stopping.</strong> The 8-14 day cycle means one-and-done never lasts. Consistency beats intensity.</li>
             <li><strong>Ignoring dawn and dusk.</strong> Mosquitoes are most active at these hours — read <Link href="/blog/when-are-mosquitoes-most-active">when mosquitoes are most active</Link> and plan protection accordingly.</li>
           </ul>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Let us handle step 9 for you</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray covers your whole yard from $99 — same-day protection, up to 30-day residual, 150 five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray treats your yard&rsquo;s mosquito resting areas from $99 on a standard lot under 10,000 sq ft, with products applied according to label directions and 150+ five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -153,7 +153,7 @@ export default function HowToCombatMosquitoesPage() {
         </div>
       </article>
 
-      <CTASection heading="Take Back Your Backyard" subtext="Get a free quote for licensed mosquito barrier spray. From $99. Same-day yard protection. 30-day residual." variant="dark" />
+      <CTASection heading="Take Back Your Backyard" subtext={`Get a free quote for licensed mosquito barrier spray. From $99 on a standard lot under 10,000 sq ft. ${PROMISES.response}`} variant="dark" />
     </>
   )
 }

@@ -31,6 +31,9 @@ type Props = {
   onSelect?: (parsed: ParsedAddress) => void
   placeholder?: string
   className?: string
+  /** Inline-validation hooks, so a parent form can mark the field and point at its message. */
+  invalid?: boolean
+  describedBy?: string
 }
 
 let scriptLoadPromise: Promise<void> | null = null
@@ -98,20 +101,51 @@ export default function AddressAutocomplete({
   onSelect,
   placeholder = '123 Maple Street, Mississauga',
   className = '',
+  invalid,
+  describedBy,
 }: Props) {
   const inputRef = useRef<HTMLInputElement>(null)
   const autocompleteRef = useRef<any>(null)
   const [loaded, setLoaded] = useState(false)
-  const [error, setError] = useState(false)
-
+  // The Places listener is attached once, so it reads the latest callbacks through refs rather than the
+  // ones captured when the script finished loading.
+  const onChangeRef = useRef(onChange)
+  const onSelectRef = useRef(onSelect)
   useEffect(() => {
-    if (!GOOGLE_MAPS_KEY) {
-      setError(true)
-      return
+    onChangeRef.current = onChange
+    onSelectRef.current = onSelect
+  })
+
+  // Load the Maps script when the form comes into view, not on mount and not on first keystroke. On the
+  // quote page the field is in the first screen, so it starts right after hydration; on pages where the
+  // form sits far down, visitors who never scroll to it never pay for a ~200 KB script.
+  useEffect(() => {
+    const input = inputRef.current
+    if (!GOOGLE_MAPS_KEY || !input) return
+    let cancelled = false
+    const start = () => {
+      loadGoogleMaps()
+        .then(() => { if (!cancelled) setLoaded(true) })
+        .catch(() => { /* no autocomplete: the field still works as a plain text input */ })
     }
-    loadGoogleMaps()
-      .then(() => setLoaded(true))
-      .catch(() => setError(true))
+    if (typeof IntersectionObserver === 'undefined') {
+      start()
+      return () => { cancelled = true }
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          io.disconnect()
+          start()
+        }
+      },
+      { rootMargin: '200px 0px' },
+    )
+    io.observe(input.form ?? input)
+    return () => {
+      cancelled = true
+      io.disconnect()
+    }
   }, [])
 
   useEffect(() => {
@@ -128,8 +162,8 @@ export default function AddressAutocomplete({
       const place = ac.getPlace()
       if (!place || !place.address_components) return
       const parsed = parsePlaceResult(place)
-      onChange(parsed.formatted || value)
-      onSelect?.(parsed)
+      onChangeRef.current(parsed.formatted || inputRef.current?.value || '')
+      onSelectRef.current?.(parsed)
     })
 
     autocompleteRef.current = ac
@@ -150,8 +184,18 @@ export default function AddressAutocomplete({
       required={required}
       value={value}
       onChange={(e) => onChange(e.target.value)}
+      onKeyDown={(e) => {
+        // Enter picks a suggestion in Google's dropdown; without this it also submits the whole form.
+        if (e.key !== 'Enter') return
+        const open = Array.from(document.querySelectorAll<HTMLElement>('.pac-container')).some(
+          (el) => el.offsetParent !== null && el.querySelector('.pac-item'),
+        )
+        if (open) e.preventDefault()
+      }}
       placeholder={placeholder}
       autoComplete="street-address"
+      aria-invalid={invalid || undefined}
+      aria-describedby={describedBy}
       className={className}
     />
   )

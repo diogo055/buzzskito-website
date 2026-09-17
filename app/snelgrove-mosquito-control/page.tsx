@@ -2,8 +2,10 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Snelgrove | From $99',
@@ -27,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'How many treatments does a Snelgrove property need?',
-    answer: "Snelgrove properties — particularly the larger rural lots common in the area — typically benefit from 4-5 treatments spaced 21-28 days apart from May through September. Larger properties may require extended treatment time due to increased perimeter vegetation. Call (289) 216-5030 for a free property assessment and custom quote for your Snelgrove property.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Snelgrove properties — particularly the larger rural lots common in the area — typically benefit from Standard's two-week spacing. Larger properties may require extended treatment time due to increased perimeter vegetation. Call (289) 216-5030 for a free property assessment and custom quote for your Snelgrove property.",
   },
   {
     question: 'Does BuzzSkito treat larger rural properties in Snelgrove?',
@@ -57,21 +59,23 @@ export default function SnelgroveMosquitoPage() {
           { label: NEIGHBOURHOOD },
         ]}
         title={<>Mosquito Control in {NEIGHBOURHOOD}, {CITY}</>}
-        subtitle={<>Snelgrove's rural character and Etobicoke Creek headwaters create ideal conditions for mosquitoes. BuzzSkito's barrier spray gives Snelgrove families up to 30-day protection per treatment — even on larger lots.</>}
+        subtitle={<>Snelgrove's rural character and Etobicoke Creek headwaters create ideal conditions for mosquitoes. Licensed Ontario pesticide operator serving larger lots too; treatments applied according to label directions.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada-Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
+
+      <TypicalPrices service="mosquito" city={NEIGHBOURHOOD} />
 
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
@@ -81,8 +85,8 @@ export default function SnelgroveMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product according to its label directions to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Visits repeat through the season on your plan’s schedule, so the foliage where mosquitoes rest stays treated. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -98,7 +102,7 @@ export default function SnelgroveMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Snelgrove's Rural Mosquito Environment</h2>
           <p>Snelgrove sits at the <strong>Brampton/Caledon border</strong>, where the urban edge gives way to rural and semi-rural properties. This transition zone creates ideal mosquito habitat: the <strong>Etobicoke Creek headwaters</strong> flow through the area as shallow tributaries and drainage channels, agricultural land includes farm ponds and irrigation features, and the larger rural lots provide extensive mature vegetation for mosquito resting habitat.</p>
-          <p>Unlike urban Brampton neighbourhoods where mosquito pressure comes primarily from creek corridors, Snelgrove's rural character means pressure can come from all directions — neighbouring agricultural fields, roadside drainage ditches, and the headwater tributaries. BuzzSkito's barrier spray is particularly effective in this environment, creating a treated zone around your outdoor living areas that provides up to 30 days of protection regardless of the surrounding pressure sources.</p>
+          <p>Unlike urban Brampton neighbourhoods where mosquito pressure comes primarily from creek corridors, Snelgrove's rural character means pressure can come from all directions — neighbouring agricultural fields, roadside drainage ditches, and the headwater tributaries. BuzzSkito's barrier spray focuses on a treated zone around your outdoor living areas, repeated through the season because pressure keeps arriving from the surrounding sources.</p>
 
           <h2>Part of Our Brampton &amp; Caledon Mosquito Control Network</h2>
           <p>We serve all of Snelgrove and surrounding areas. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link> and <Link href="/caledon-mosquito-control" className="text-brand-700 hover:underline">Caledon mosquito control</Link> pages for broader coverage details.</p>
@@ -124,10 +128,10 @@ export default function SnelgroveMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, leaving a residual on the foliage where mosquitoes rest, renewed on a regular schedule through the season. The difference is coverage and consistency: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -136,7 +140,7 @@ export default function SnelgroveMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/brampton-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Blacklegged ticks can carry Lyme disease, and our targeted tick barrier spray runs 5 sprays per season, $597 on its own or $497 with any mosquito plan. See our <Link href="/brampton-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>
@@ -175,6 +179,10 @@ export default function SnelgroveMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

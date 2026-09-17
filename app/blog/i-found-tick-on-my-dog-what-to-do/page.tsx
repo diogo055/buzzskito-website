@@ -46,7 +46,7 @@ const FAQS = [
   },
   {
     question: 'How do I prevent finding ticks on my dog again?',
-    answer: 'A combined approach works best: (1) Monthly vet-prescribed tick preventative for your dog. (2) Keep your lawn mowed short and clear leaf litter from edges. (3) Avoid tall grass and brushy areas during walks. (4) Daily tick checks after every outdoor walk in tick season. (5) Professional tick barrier spray for your yard — BuzzSkito\'s 5-spray season program puts a Health Canada-registered residual acaricide on the leaf litter, lawn edges and fence lines where ticks wait, repeated through the season. It reduces the odds of an encounter at home; it does not clear a property, so keep doing steps 1 and 4.',
+    answer: 'A combined approach works best: (1) Monthly vet-prescribed tick preventative for your dog. (2) Keep your lawn mowed short and clear leaf litter from edges. (3) Avoid tall grass and brushy areas during walks. (4) Daily tick checks after every outdoor walk in tick season. (5) Professional tick barrier spray for your yard — BuzzSkito\'s 5-spray season program puts a registered residual acaricide, applied according to label directions, on the leaf litter, lawn edges and fence lines where ticks wait, repeated through the season. It reduces the odds of an encounter at home; it does not clear a property, so keep doing steps 1 and 4.',
   },
 ]
 
@@ -123,6 +123,7 @@ export default function IFoundTickOnMyDogPage() {
             <li><strong>Engorged, grape-shaped, grey-blue or olive coloured</strong> → 36+ hours. Lyme transmission window has passed.</li>
           </ul>
           <p>If the tick is engorged, call your vet and mention it. If it&rsquo;s flat and small, you almost certainly caught it in time.</p>
+          <p>Not certain the bump is even a tick? Our photo walkthrough of <Link href="/blog/what-does-tick-look-like-on-dog" className="text-brand-700 underline">what a tick looks like on a dog</Link> shows unfed next to engorged, and how to tell a tick apart from a skin tag, a scab, or a flea.</p>
 
           <h2>Step 3: Remove the Tick</h2>
           <p>See our detailed <Link href="/blog/how-to-remove-tick-from-dog-ontario">step-by-step removal guide</Link> for the exact technique. The short version: tweezers at the head, pull straight up, save the tick in a bag, clean the bite, wash your hands.</p>
@@ -153,6 +154,7 @@ export default function IFoundTickOnMyDogPage() {
           </ul>
           <p>If any of these appear, see your vet and mention the tick. A 4DX SNAP test takes 8 minutes and screens for Lyme, ehrlichiosis, anaplasmosis, and heartworm.</p>
           <p>Worth knowing before that appointment: only a small share of infected dogs ever get sick, and a positive test in a dog with no symptoms is not automatically treated the same way as an ill one. Our guide on <Link href="/blog/can-dogs-get-lyme-disease">whether dogs get Lyme disease from ticks</Link> walks through the signs, the stages, and how vets decide.</p>
+          <p>For the bite site itself &mdash; what the lump should look like in the first days, what counts as normal irritation, and the point at which it stops being normal &mdash; see our guide to <Link href="/blog/tick-bite-on-dog-symptoms" className="text-brand-700 underline">tick bite symptoms on a dog</Link>, which lays the whole watch period out as a timeline.</p>
 
           <h2>Should You Take the Tick to a Vet or Lab?</h2>
           <p>Two free options exist in Ontario:</p>
@@ -165,10 +167,10 @@ export default function IFoundTickOnMyDogPage() {
           <h2>How to Stop Finding More Ticks on Your Dog</h2>
           <p>Finding one tick usually means there are more in your dog&rsquo;s environment. The four-layer prevention strategy:</p>
           <ol>
-            <li><strong>Vet-prescribed monthly preventative</strong> (oral like Bravecto, Simparica, NexGard or topical like K9 Advantix). These kill ticks before they can transmit disease.</li>
+            <li><strong>Vet-prescribed monthly preventative</strong> (oral like Bravecto, Simparica, NexGard or topical like K9 Advantix). Your vet can advise which one suits your dog.</li>
             <li><strong>Daily tick checks</strong> after walks. Ears, armpits, paws, tail base, neck.</li>
             <li><strong>Yard maintenance</strong>: short grass, no leaf litter at lawn edges, 3-foot gravel barrier between lawn and woods.</li>
-            <li><strong>Professional yard tick spray</strong>: <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets the leaf-litter and lawn-edge zones where 95%+ of ticks live. Most customers stop finding ticks within 2 weeks of the first treatment.</li>
+            <li><strong>Professional yard tick spray</strong>: <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets the leaf-litter and lawn-edge zones where ticks wait, repeated through the season. It lowers how often your dog meets a tick at home; it does not replace a vet preventative or daily checks.</li>
           </ol>
           <p>Between vet visits, a topical or spray-on repellent adds a layer of protection for walks in tall grass — see our <Link href="/blog/tick-repellent-for-dogs-ontario">guide to tick repellent for dogs in Ontario</Link> for what to look for and what to avoid. <BuyLink tag={AMZ_TAG} search="dog tick repellent">Check price on Amazon.ca →</BuyLink> Always confirm any new product with your vet before applying it to your dog.</p>
 
@@ -203,7 +205,7 @@ export default function IFoundTickOnMyDogPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="One Tick Today. How Many Tomorrow?" subtext="Most homeowners who find a tick on their dog find another within 2 weeks. Get tick barrier spray for your yard — from $99." variant="dark" />
+      <CTASection heading="One Tick Today. How Many Tomorrow?" subtext="Finding one tick usually means there are more in your dog’s environment. Get tick barrier spray for your yard — from $99 on a standard lot." variant="dark" />
     </>
   )
 }

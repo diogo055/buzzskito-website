@@ -15,7 +15,7 @@ const SLUG = 'how-to-keep-mice-out-of-your-car'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'How to Keep Mice Out of Your Car — Protect the Engine Bay, Wiring & Cabin'
-const META_TITLE = 'How to Keep Mice Out of Your Car: 4 Layers'
+const META_TITLE = 'How to Keep Mice Out of Your Car in Canada'
 
 const FAQS = [
   {
@@ -32,7 +32,7 @@ const FAQS = [
   },
   {
     question: 'What are the signs of mice in a car?',
-    answer: 'Pop the hood and look for droppings (dark grains of rice, 3–6 mm) on the engine cover, battery tray, and in corners of the bay; shredded insulation, leaves, or stuffing gathered into a nest wad; chewed or bare-copper wiring; and grease rub marks along edges mice travel. From the driver&rsquo;s seat, the tell-tales are a check-engine light or misfire after the car sat, a dusty-musty smell from the vents when the fan starts, scratching sounds after parking, and chewed cabin-air filters. Any one of these means mice are visiting; two or more means they have moved in.',
+    answer: 'Pop the hood and look for droppings (dark grains of rice, 3–6 mm) on the engine cover, battery tray, and in corners of the bay; shredded insulation, leaves, or stuffing gathered into a nest wad; chewed or bare-copper wiring; and grease rub marks along edges mice travel. From the driver’s seat, the tell-tales are a check-engine light or misfire after the car sat, a dusty-musty smell from the vents when the fan starts, scratching sounds after parking, and chewed cabin-air filters. Any one of these means mice are visiting; two or more means they have moved in.',
   },
   {
     question: 'Does peppermint oil keep mice out of cars?',
@@ -40,7 +40,7 @@ const FAQS = [
   },
   {
     question: 'Do ultrasonic under-hood rodent repellers work?',
-    answer: 'The honest answer: the ultrasonic part has weak evidence, the strobe-light part has somewhat better logic behind it, and neither is a stand-alone fix. Decades of testing on ultrasonic pest devices show rodents habituate to sound within days, and regulators have repeatedly challenged manufacturers&rsquo; claims. Under-hood units differ from plug-in house gadgets in one meaningful way: the good ones add bright intermittent LED strobes inside a dark engine bay, which attacks the darkness mice are seeking rather than relying on sound alone. Used as one layer on a stored vehicle — alongside tape, traps, and inspections — a battery-powered strobe unit is a reasonable buy. Used alone, expect disappointment.',
+    answer: 'The honest answer: the ultrasonic part has weak evidence, the strobe-light part has somewhat better logic behind it, and neither is a stand-alone fix. Decades of testing on ultrasonic pest devices show rodents habituate to sound within days, and regulators have repeatedly challenged manufacturers’ claims. Under-hood units differ from plug-in house gadgets in one meaningful way: the good ones add bright intermittent LED strobes inside a dark engine bay, which attacks the darkness mice are seeking rather than relying on sound alone. Used as one layer on a stored vehicle — alongside tape, traps, and inspections — a battery-powered strobe unit is a reasonable buy. Used alone, expect disappointment.',
   },
   {
     question: 'What is rodent deterrent tape and does it work?',
@@ -162,6 +162,33 @@ export default function HowToKeepMiceOutOfYourCarPage() {
               </>
             }
           />
+        </div>
+      </section>
+
+      {/* "What to do right now" — aftercare route. Deliberately placed AFTER the picks
+          row so the page's first affiliate link stays where it already was rather than
+          being pushed deeper by this module's free first step. */}
+      <section className="bg-white px-4">
+        <div className="max-w-4xl mx-auto">
+          <aside aria-label="What to do right now" className="not-prose my-6 rounded-2xl border border-emerald-200 bg-emerald-50/70 p-5 sm:p-6">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-3">What to do right now</p>
+            <ol className="space-y-5 list-none pl-0 m-0">
+              <li>
+                <p className="font-bold text-brand-900 mb-1">1. Pop the hood and look &mdash; two minutes, free, and it decides everything below</p>
+                <p className="text-[15px] text-gray-800 leading-relaxed">Take a flashlight to the flat top of the engine cover, the battery tray and the corners of the bay. Droppings like dark grains of rice, a wad of shredded insulation or leaves, or bare copper showing through chewed insulation all mean mice are already visiting. Then empty the cabin of every wrapper and crumb, move any dog food or bird seed away from the parking spot, and if the car has been sitting, drive it twenty minutes. Which of the next two steps you need depends on what you just saw: signs of a tenant means trap first, a clean bay means deter now.</p>
+              </li>
+              <li>
+                <p className="font-bold text-brand-900 mb-1">2. Clean bay? Wrap the wiring you can reach</p>
+                <p className="text-[15px] text-gray-800 leading-relaxed mb-3">Capsaicin harness tape &mdash; the wire-wrap fix Honda made famous &mdash; puts a chili-pepper irritant on the exact surface a mouse gnaws, and unlike a scent spray it does not fade while the car sits. Wear disposable gloves when you apply it; capsaicin does not distinguish between mouse mouths and human eyes. Check the label of the specific product for what the maker is permitted to claim where you live.</p>
+                <BuyLink tag={AMZ_TAG} search="rodent deterrent tape capsaicin wire">Check price on Amazon.ca &rarr;</BuyLink>
+              </li>
+              <li>
+                <p className="font-bold text-brand-900 mb-1">3. Droppings already? Set a trap line along the garage walls tonight</p>
+                <p className="text-[15px] text-gray-800 leading-relaxed mb-3">Deterrents keep a vacancy vacant; they do not evict a settled nest. Mice run wall lines rather than open floor, so snap traps set with the trigger end touching the baseboard every two to three metres &mdash; doubled in the corners nearest each wheel &mdash; intercept them before they climb a tire. Six is a sensible minimum around a stored vehicle, and a fresh line takes most of its catch on the first night or two.</p>
+                <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Check price on Amazon.ca &rarr;</BuyLink>
+              </li>
+            </ol>
+          </aside>
         </div>
       </section>
 
@@ -315,6 +342,10 @@ export default function HowToKeepMiceOutOfYourCarPage() {
           <p>Everything above deters. Traps are the only layer that reduces the number of mice, and for a vehicle in a garage they are the backbone of the defence. The good news is that trapping <em>around</em> a car is easier than trapping a whole house, because mouse behaviour funnels beautifully: mice run wall lines, not open floor, so a mouse heading for your car almost always travels the garage perimeter first and approaches across open concrete only for the final metre.</p>
           <p>Set classic wood snap traps with the trigger end touching the baseboard every 2&ndash;3 metres along the garage walls, doubling up in the corners nearest each wheel, with a pea-sized smear of peanut butter pressed into each trigger. Six traps is a sensible minimum around a stored vehicle; set them all on night one, since a fresh trap line usually takes its biggest catch in the first night or two, before the survivors turn cautious. If activity is clearly inside the cabin, add a trap on a floor mat overnight — and leave yourself a note on the steering wheel so it is gone before you drive. The full placement science, bait notes, and the electronic no-touch option are in our <Link href="/blog/best-mouse-trap-canada">best mouse trap guide</Link>; if the droppings you are finding are over a centimetre long, you have a bigger tenant, and the <Link href="/blog/how-to-get-rid-of-rats-canada">rat playbook</Link> is the right page instead.</p>
           <p>After the traps go quiet — 7 to 10 nights with no catches and no fresh droppings — clean before you deter. Wear disposable gloves, wet droppings and nest material with disinfectant before wiping (never dry-sweep or vacuum them; dust from rodent droppings can carry pathogens), double-bag the debris, and replace the cabin-air filter, which doubles as both nest site and pathogen reservoir. Then apply the tape and strobe layers to keep the vacancy permanent.</p>
+          <p className="not-prose text-gray-700">The cabin-air filter is the part of that cleanup people put off, and it is the one that keeps the smell. It sits in a housing reachable from the fresh-air intake, which is precisely why mice nest in it, and a filter that has held a nest is both the source of the musty draught from the vents and a reservoir you cannot disinfect &mdash; it gets replaced, not cleaned. On most vehicles it is a glovebox-drop job of ten minutes with no tools; look up the filter by your year, make and model rather than by size.</p>
+          <div className="not-prose my-4">
+            <BuyLink tag={AMZ_TAG} search="cabin air filter">Check price on Amazon.ca &rarr;</BuyLink>
+          </div>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Check snap trap multi-packs on Amazon.ca →</BuyLink>
           </div>
@@ -322,6 +353,10 @@ export default function HowToKeepMiceOutOfYourCarPage() {
           <h2>What About Steel Wool and Sealing? (The Honest Limits)</h2>
           <p>Home rodent-proofing gospel says: find every 6 mm gap and seal it with steel wool and sealant. That gospel mostly does not translate to vehicles, and it is worth being clear about why. A car&rsquo;s engine bay is open to the ground by design — it has to breathe, drain, and shed heat — and the cabin connects to it through the fresh-air intake at the base of the windshield, the cabin-filter housing, and a firewall full of deliberate grommet holes. You cannot caulk a car.</p>
           <p>What sealing <em>can</em> do is protect a vehicle in storage: stainless-steel mesh stuffed into the exhaust tips and secured over the fresh-air intake closes the two most inviting tunnels while the car sits. Two rules make it safe: use stainless mesh rather than regular steel wool (which rusts into the exhaust), and make forgetting impossible — a bright tag on the steering wheel and a note taped over the ignition, because starting a car with blocked exhaust is a genuinely expensive mistake. For the house-and-garage side of the same job — which absolutely does reward sealing — our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link> and the <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">winter mouse-proofing playbook</Link> cover materials and technique, and keeping mice out of the garage is, of course, the outermost layer of keeping them out of the car parked in it.</p>
+          <p className="not-prose text-gray-700">One material note decides whether that storage trick helps or costs you money: use <strong>stainless</strong> steel mesh or wool, not the ordinary grade sold in the cleaning aisle. Plain steel wool rusts, and rusting steel wool left in an exhaust tip over a damp winter is a repair rather than a precaution. Stainless holds its shape, stays put in a tailpipe or over a fresh-air intake, and comes out in one piece in spring &mdash; which matters, because the whole plan depends on you remembering to remove it. Tag the steering wheel the moment you push the first piece in.</p>
+          <div className="not-prose my-4">
+            <BuyLink tag={AMZ_TAG} search="stainless steel wool mesh rodent proofing">Check price on Amazon.ca &rarr;</BuyLink>
+          </div>
 
           <h2>The Peppermint Paragraph (Because You Were Going to Ask)</h2>
           <p>Peppermint oil is the most-recommended and least-effective fix in this entire category. The kernel of truth: concentrated peppermint vapour genuinely irritates rodent nasal passages at close range. The problem is dose and time — in an open engine bay the vapour disperses within days, faster outdoors, and a mouse crossing a faded scent gradient toward a warm nest site simply keeps walking. Controlled studies of essential-oil rodent repellents consistently find short-lived, partial effects, never protection. Sachets in a cabin are harmless and make the car smell nice; relying on them to protect a stored vehicle through a winter is how people end up reading the trapping section of this page in April. Spend the peppermint budget on a roll of capsaicin tape instead.</p>

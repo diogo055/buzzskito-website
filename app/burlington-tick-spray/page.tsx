@@ -2,9 +2,11 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Burlington Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
@@ -16,13 +18,13 @@ export const metadata: Metadata = buildMetadata({
 const CITY = 'Burlington'
 const NEIGHBOURHOODS = ['Alton Village','Millcroft','The Orchard','Roseland','Downtown Burlington','Shoreacres','Headon Forest','North Burlington','Palmer','Tyandaga','Brant Hills']
 const FAQS = [
-  { question: 'How much does tick spray cost in Burlington?', answer: 'Tick spray in Burlington starts from $99 per application. Properties near Bronte Creek Provincial Park, the Royal Botanical Gardens, or any conservation land boundary are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, because each application holds up to 30 days of residual and monthly spacing is what removes the gap. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.' },
+  { question: 'How much does tick spray cost in Burlington?', answer: 'Tick spray in Burlington starts from $99 per application. Properties near Bronte Creek Provincial Park, the Royal Botanical Gardens, or any conservation land boundary are best covered by the full seasonal program — five treatments spaced roughly monthly from May through September, because monthly spacing keeps the treated zones renewed through the season. The season program is $597 standalone, or $497 when added to a mosquito plan. No contracts. Call (289) 216-5030.' },
   { question: 'Does the Niagara Escarpment increase tick risk in Burlington?', answer: 'Yes. The Niagara Escarpment and the greenbelt corridors that run through Burlington — including Spencer Creek Valley, Bronte Creek, and the Royal Botanical Gardens — are all established tick habitat. Properties near these areas, particularly in Headon Forest, Tyandaga, and Waterdown, have elevated tick risk.' },
   { question: 'Is tick control worth it in Burlington for families without pets?', answer: 'Absolutely. While pets are a common vector for bringing ticks onto your property, people are equally at risk. Children playing in the backyard, adults gardening, and anyone who spends time in a yard adjacent to naturalized areas is at risk for tick bites and Lyme disease exposure.' },
   { question: 'What tick species are found in Burlington?', answer: 'The blacklegged tick (deer tick) is the primary concern — it transmits Lyme disease and is established along the Escarpment, Bronte Creek, and Royal Botanical Gardens. American dog ticks are also common but rarely carry Lyme. Blacklegged tick nymphs are poppy-seed-sized and responsible for most Lyme transmissions.' },
-  { question: 'How does professional tick spray work?', answer: 'We apply a residual barrier to specific micro-habitats where ticks concentrate: the 1-3 metre transition zone between lawn and natural vegetation, garden bed edges, leaf litter, woodpiles, fence lines, and under decks. The formula kills ticks on contact and provides up to 30 days of protection.' },
-  { question: 'Is tick spray safe for my family and pets?', answer: 'Yes. Our Health Canada-approved formula is safe for children and pets once dry — approximately 30 minutes. We apply to vegetation where ticks rest, not to grass or play areas. After the drying window, your yard is fully safe.' },
-  { question: 'When should Burlington homeowners schedule tick treatment?', answer: 'Start in May and keep treating roughly monthly through September — five treatments across the season. The May, June, and July applications cover peak blacklegged nymph activity; nymphs drive most Lyme transmission because they are poppy-seed sized and easily missed during tick checks. The August and September applications cover adults, which re-emerge and stay active through the autumn. Monthly spacing matters because each application leaves up to 30 days of residual, so a spring-and-fall pair would leave a multi-month hole straight through peak nymph season — precisely the wrong time to be uncovered. Deer, mice, and birds moving off the Niagara Escarpment, Bronte Creek, and the Royal Botanical Gardens keep reintroducing ticks, so the barrier has to be renewed rather than applied once or twice.' },
+  { question: 'How does professional tick spray work?', answer: 'We apply a residual barrier to specific micro-habitats where ticks concentrate: the 1-3 metre transition zone between lawn and natural vegetation, garden bed edges, leaf litter, woodpiles, fence lines, and under decks. Treatments are applied according to the product label and repeated roughly monthly, 5 sprays per season.' },
+  { question: 'What should my family and pets do after a tick treatment?', answer: 'We apply according to the product label directions, to the vegetation and edges where ticks wait rather than open grass or play areas. The label directs people and pets to stay off treated areas until the spray has dried, and we remind you of that on the day.' },
+  { question: 'When should Burlington homeowners schedule tick treatment?', answer: 'Start in May and keep treating roughly monthly through September — five treatments across the season. The May, June, and July applications cover peak blacklegged nymph activity. The August and September applications cover adults, which re-emerge and stay active through the autumn. Monthly spacing matters because a spring-and-fall pair would leave a multi-month hole straight through peak nymph season — precisely the wrong time to be uncovered. Deer, mice, and birds moving off the Niagara Escarpment, Bronte Creek, and the Royal Botanical Gardens keep reintroducing ticks, so the barrier has to be renewed rather than applied once or twice. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors.' },
   { question: 'Does BuzzSkito also do mosquito control in Burlington?', answer: 'Yes. Most Burlington homeowners bundle tick and mosquito control — same visit, same vegetation surfaces. See our Burlington mosquito spray service for details.' },
 ]
 
@@ -30,7 +32,7 @@ export default function BurlingtonTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray in ${CITY}, Ontario. Up to 30-day protection.`, slug: '/burlington-tick-spray', city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray in ${CITY}, Ontario.`, slug: '/burlington-tick-spray', city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/burlington-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'Burlington' })) }} />
@@ -40,18 +42,19 @@ export default function BurlingtonTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>Burlington Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Burlington's Escarpment greenbelt, Bronte Creek, and Royal Botanical Gardens create significant tick habitat throughout the city. BuzzSkito protects Burlington homeowners from Lyme disease with professional 30-day tick barrier spray.</>}
+        subtitle={<>Burlington's Escarpment greenbelt, Bronte Creek, and Royal Botanical Gardens create significant tick habitat throughout the city. Licensed Ontario pesticide operator, with tick treatments applied according to label directions.</>}
         image="/spray-front.webp"
+        service="tick"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ Licensed Ontario Pesticide Operator</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ 5 Sprays per Season</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -59,7 +62,7 @@ export default function BurlingtonTickPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best tick control company in Burlington?">
         <p>
-          <strong>BuzzSkito provides specialist tick barrier spray across all Burlington neighbourhoods — Alton Village, Millcroft, The Orchard, Roseland, Downtown Burlington, Shoreacres, Headon Forest, North Burlington, Palmer, Tyandaga, Aldershot.</strong> Treatments use Health Canada-approved formulations applied to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>150+ five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Burlington families get reliable Lyme disease prevention for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist tick barrier spray across all Burlington neighbourhoods — Alton Village, Millcroft, The Orchard, Roseland, Downtown Burlington, Shoreacres, Headon Forest, North Burlington, Palmer, Tyandaga, Aldershot.</strong> Treatments are applied according to label directions to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is <strong>$597</strong> on its own or <strong>$497</strong> with any mosquito plan. With <strong>150+ five-star Google reviews</strong>, no contracts, and a rain-back guarantee on every plan, Burlington families get targeted tick-zone treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -73,17 +76,18 @@ export default function BurlingtonTickPage() {
                 {[
                   ['Service area', 'All Burlington neighbourhoods (Alton Village, Millcroft, The Orchard, Roseland, Downtown Burlington, Shoreacres, Headon Forest, North Burlington, Palmer, Tyandaga, Aldershot)'],
                   ['Specialization', 'Blacklegged tick (Ixodes scapularis) and American dog tick barrier spray'],
-                  ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or tick add-on bundle available on quote'],
+                  ['Licence', PROMISES.licence],
+                  ['Pricing', 'From $99 per treatment · 5-spray tick season $597 standalone or $497 with any mosquito plan (plus HST)'],
                   ['Treatment season', 'May through September, roughly monthly (peak: late April–June nymph activity, then again Sep–Oct adult activity)'],
-                  ['Protection per visit', 'Up to 30 days residual on tick habitat zones'],
-                  ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
+                  ['Sprays per season', '5, roughly monthly from May to September'],
+                  ['Re-entry', 'Stay off treated areas until the spray has dried, as the label directs'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
                   ['Highest tick zones', 'Bronte Creek · Tyandaga ravines · Niagara Escarpment edge · Burlington greenbelt'],
                   ['Lyme disease vector', 'Yes — blacklegged tick populations confirmed by Public Health Ontario'],
                   ['Application zones', 'Lawn-to-woods edge · leaf litter · garden bed perimeters · fence-line vegetation · woodpiles'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
-                  ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
+                  ['Guarantee', 'Rain-back guarantee on every plan'],
                   ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
                   ['Phone', '(289) 216-5030'],
                 ].map(([k, v]) => (
@@ -109,6 +113,8 @@ export default function BurlingtonTickPage() {
         </div>
       </section>
 
+      <TypicalPrices service="tick" city={CITY} />
+
       {/* How It Works */}
       <section className="py-14 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -117,8 +123,8 @@ export default function BurlingtonTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — Escarpment edges, lawn-to-woods transitions, leaf litter, garden borders, and fence lines on your Burlington property.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies barrier spray, following the label directions, to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Stay off treated areas until the spray has dried, as the label directs. ${PROMISES.rainBack} Tick treatments are renewed roughly monthly, 5 sprays per season.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -152,7 +158,7 @@ export default function BurlingtonTickPage() {
           <p>Aldershot and escarpment-edge Mountainside sit at the very top of that list once you account for the Royal Botanical Gardens and Mt. Nemo corridors. See <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 hover:underline">which Burlington and Oakville neighbourhoods rank highest for ticks in 2026</Link>.</p>
 
           <h2>Tick Treatment Schedule for Burlington</h2>
-          <p>The seasonal program is five treatments, spaced roughly monthly from May through September. Each application leaves up to 30 days of residual, so monthly spacing is what removes the gap between visits.</p>
+          <p>The seasonal program is five treatments, spaced roughly monthly from May through September. Monthly spacing keeps the treated zones renewed, with no long gap between visits.</p>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -182,6 +188,8 @@ export default function BurlingtonTickPage() {
 
           <p>Burlington runs ahead of the regional average at both ends of the year, with adults active any day above 4&deg;C from roughly mid-March into November. <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 hover:underline">Our month-by-month Burlington tick calendar</Link> explains why the escarpment slope and the lake buffer stretch the window.</p>
 
+          <CityPriceCard city={CITY} service="tick" location="price_card_mid" />
+
           <h2>Tick Spray Pricing in Burlington</h2>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse">
@@ -194,9 +202,9 @@ export default function BurlingtonTickPage() {
               </thead>
               <tbody>
                 {[
-                  { type: 'Standard lot (under 6,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Burlington townhome or detached' },
-                  { type: 'Mid-size lot (6,000–10,000 sq ft)', price: 'Custom quote', coverage: 'Escarpment-adjacent, Roseland, Shoreacres' },
-                  { type: 'Large / rural property (10,000+ sq ft)', price: 'Custom quote', coverage: 'Waterdown, RBG-adjacent, large lots' },
+                  { type: 'Standard lot (under 10,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Burlington townhome or detached' },
+                  { type: 'Larger lot (10,000–100,000 sq ft)', price: 'Priced by lot size', coverage: 'Escarpment-adjacent, Roseland, Shoreacres' },
+                  { type: 'Large / rural property (100,000+ sq ft)', price: 'Custom quote', coverage: 'Waterdown, RBG-adjacent, large lots' },
                 ].map(({ type, price, coverage }) => (
                   <tr key={type} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-2 font-semibold text-brand-800">{type}</td>
@@ -210,10 +218,10 @@ export default function BurlingtonTickPage() {
 
           <h2>What to Expect on Tick Treatment Day</h2>
           <ol>
-            <li><strong>SMS notification before arrival</strong> — you don&apos;t need to be home.</li>
+            <li><strong>Visit window</strong> — {PROMISES.visitWindow} You don&apos;t need to be home.</li>
             <li><strong>Property tick assessment</strong> — Escarpment exposure, transition zones, and high-risk perimeters.</li>
             <li><strong>Targeted barrier application</strong> — precision spray to tick habitat zones. 20–30 minutes.</li>
-            <li><strong>30-minute dry time</strong> — then fully safe for kids and pets.</li>
+            <li><strong>Drying time</strong> — keep people and pets off treated areas until the spray has dried, as the product label directs.</li>
             <li><strong>Email confirmation</strong> — treatment log with areas treated and next visit date.</li>
           </ol>
 
@@ -222,7 +230,7 @@ export default function BurlingtonTickPage() {
 
 
           <h2>Compare Burlington Pest Control Options</h2>
-          <p>Burlington has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-burlington" className="text-brand-700 hover:underline font-semibold">Pest Control in Burlington</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/burlington-mosquito-spray" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Burlington</Link>.</p>
+          <p>Burlington has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-burlington" className="text-brand-700 hover:underline font-semibold">Pest Control in Burlington</Link> for why a mosquito and tick specialist is a better fit for tick-zone treatment than a general pest company. See our full mosquito programme for the same property: <Link href="/burlington-mosquito-spray" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Burlington</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
@@ -258,6 +266,10 @@ export default function BurlingtonTickPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="tick" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -274,7 +286,7 @@ export default function BurlingtonTickPage() {
           </div>
         </div>
       </section>
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protecting Burlington families from Lyme disease. No contracts required." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Tick-zone treatment for Burlington properties. No contracts required." variant="dark" />
     </>
   )
 }

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
 
 const POST = {
   title: 'Oakville and Burlington Tick Hot Spots 2026: The Halton Region Neighbourhoods With Highest Risk',
@@ -22,7 +23,7 @@ const FAQS = [
   },
   {
     question: 'Is Bronte safe from ticks?',
-    answer: 'Bronte is not low-risk despite being a lakefront neighbourhood. Bronte Creek runs through the community and into the lake, which means the &ldquo;low-risk lakefront&rdquo; rule that applies to dense Lakeshore Road condo strips does not apply to Bronte. Properties in Bronte Village backing onto Bronte Creek, properties along the creek mouth and harbour edge, and properties in West Bronte abutting park or woodlot all sit inside the elevated-pressure zone. Bronte is also walking distance from Bronte Creek Provincial Park, one of the highest-confirmed tick reservoirs in southwestern Ontario. Treat Bronte as moderate-to-high risk, particularly any property with ravine or creek adjacency.',
+    answer: 'Bronte is not low-risk despite being a lakefront neighbourhood. Bronte Creek runs through the community and into the lake, which means the “low-risk lakefront” rule that applies to dense Lakeshore Road condo strips does not apply to Bronte. Properties in Bronte Village backing onto Bronte Creek, properties along the creek mouth and harbour edge, and properties in West Bronte abutting park or woodlot all sit inside the elevated-pressure zone. Bronte is also walking distance from Bronte Creek Provincial Park, one of the highest-confirmed tick reservoirs in southwestern Ontario. Treat Bronte as moderate-to-high risk, particularly any property with ravine or creek adjacency.',
   },
   {
     question: 'Why are ticks worse near the escarpment in Burlington?',
@@ -30,7 +31,7 @@ const FAQS = [
   },
   {
     question: 'Should I avoid Bronte Creek Provincial Park in summer?',
-    answer: 'You do not need to avoid the park, but you should treat every visit as a high-risk tick exposure and adjust accordingly. Wear long pants tucked into socks, treat clothing with 0.5% permethrin spray (one application lasts 6 weeks or 6 washes), stay on cleared trails rather than walking through grass or leaf litter, and do a thorough tick check on yourself, your kids, and your dog within two hours of leaving the park. Bronte Creek Provincial Park is one of the most consistently positive Halton Region surveillance sites for blacklegged ticks — Ontario Parks posts active warnings at every trailhead. Enjoy the park, but do not pretend it is tick-free, particularly from late May through October.',
+    answer: 'You do not need to avoid the park, but you should treat every visit as a high-risk tick exposure and adjust accordingly. Wear long pants tucked into socks (factory-treated permethrin clothing adds a layer; in Canada, consumer permethrin sprays for treating your own clothing are not registered, so buy garments already treated), stay on cleared trails rather than walking through grass or leaf litter, and do a thorough tick check on yourself, your kids, and your dog within two hours of leaving the park. Bronte Creek Provincial Park is one of the most consistently positive Halton Region surveillance sites for blacklegged ticks — Ontario Parks posts active warnings at every trailhead. Enjoy the park, but do not pretend it is tick-free, particularly from late May through October.',
   },
 ]
 
@@ -77,8 +78,8 @@ export default function TickHotSpotsOakvilleBurlingtonPage() {
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>Bronte Creek Provincial Park is the most consistently positive blacklegged tick surveillance site in Halton Region &mdash; properties within 1.5 km inherit its pressure.</li>
             <li>Royal Botanical Gardens covers nearly 2,400 acres of forest, ravine, and wetland directly against Aldershot.</li>
-            <li>Tier 1&ndash;2 neighbourhoods warrant the full season plan &mdash; five treatments spread roughly monthly from May through September, because each application holds up to 30 days of residual; Tier 3 usually needs one treatment in mid-to-late May.</li>
-            <li>0.5% permethrin clothing spray lasts 6 weeks or 6 washes per application for park and trail visits.</li>
+            <li>Tier 1&ndash;2 neighbourhoods warrant the full season plan &mdash; five treatments spread roughly monthly from May through September, because each application&rsquo;s residual wears down within weeks; Tier 3 usually needs one treatment in mid-to-late May.</li>
+            <li>For park and trail visits, factory-treated permethrin clothing is the route in Canada &mdash; consumer permethrin sprays for treating your own clothing are not registered here.</li>
             <li>Lakefront rule: a ravine or creek touching the lake within 500 metres of your property puts you in a tick travel corridor.</li>
             <li>The free Yard Risk Report scores addresses 1&ndash;100; properties scoring 70+ are strongly recommended for professional treatment.</li>
           </ul>
@@ -117,7 +118,7 @@ export default function TickHotSpotsOakvilleBurlingtonPage() {
 
         <h2>Tier 2: High pressure (five-treatment season plan)</h2>
 
-        <p>Tier 2 runs the same season plan as Tier 1 — five treatments, roughly monthly from May through September. There is no shortened version that holds up here. Each application leaves up to 30 days of residual, so a May-and-September pair would leave a multi-month hole running straight through the May-July window when blacklegged nymphs are peaking, and nymphs are what drive most Lyme transmission because they are poppy-seed sized and easily missed. Adults then re-emerge and stay active through autumn, into November in mild years. On top of that, deer, mice, and birds keep walking fresh ticks in from the woodlot, ravine, or golf-course edge next door, so the barrier has to be renewed rather than applied once or twice. Monthly cadence is what removes the gap. What separates Tier 2 from Tier 1 is the level of pressure on the property, not the number of visits.</p>
+        <p>Tier 2 runs the same season plan as Tier 1 — five treatments, roughly monthly from May through September. There is no shortened version that holds up here. Each application leaves a temporary residual that wears down within weeks, so a May-and-September pair would leave a multi-month hole running straight through the May-July window when blacklegged nymphs are peaking, and nymphs are what drive most Lyme transmission because they are poppy-seed sized and easily missed. Adults then re-emerge and stay active through autumn, into November in mild years. On top of that, deer, mice, and birds keep walking fresh ticks in from the woodlot, ravine, or golf-course edge next door, so the barrier has to be renewed rather than applied once or twice. Monthly cadence is what removes the gap. What separates Tier 2 from Tier 1 is the level of pressure on the property, not the number of visits.</p>
 
         <h3>Bronte + Bronte Village (Oakville)</h3>
         <p>Bronte Creek runs through the community and into the lake. The lakefront-equals-low-risk rule that applies to dense Lakeshore condo strips does not apply here. Properties along the creek, the creek mouth, the harbour edge, and the West Bronte streets backing onto park or woodlot all sit inside the elevated zone. Bronte is also walking distance from Bronte Creek Provincial Park. See <Link href="/bronte-mosquito-control" className="text-brand-700 underline">Bronte service</Link>.</p>
@@ -158,12 +159,13 @@ export default function TickHotSpotsOakvilleBurlingtonPage() {
         <p>The single best heuristic for telling apart low-risk lakefront from high-risk lakefront across Halton is this: <strong>does a ravine, creek, or naturalized green space touch the lake within 500 metres of your property?</strong> If yes, you are in a tick travel corridor — deer and mice move along that corridor between forest and water, and ticks travel with them. If no — your property faces directly onto a manicured lakeshore strip with no ravine connection — your risk is genuinely lower. This is why Old Oakville east lakefront is lower risk while Bronte (where Bronte Creek meets the lake) is higher risk, and why central Burlington lakefront is lower risk while Aldershot lakefront (with ravines feeding from RBG) is higher risk.</p>
 
         <h2>What to do with this ranking</h2>
-        <p>If you live in a Tier 1 or Tier 2 neighbourhood, the season plan — five treatments spread roughly monthly from May through September — is the right level of protection, because up to 30 days of residual per application is what keeps the peak nymph window covered instead of leaving it open. If you live in Tier 3, a single early-season treatment in mid-to-late May covers most of the risk. If you live in Tier 4, monitor through the season and treat if you start seeing ticks — but do not assume immunity. All four tiers benefit from habitat modification (3-foot buffer along any wooded edge, weekly leaf-litter clearing, tight mowing), daily tick checks after outdoor exposure, and permethrin-treated clothing for trail use.</p>
+        <p>If you live in a Tier 1 or Tier 2 neighbourhood, the season plan — five treatments spread roughly monthly from May through September — is the right level of protection, because renewing the residual every month is what keeps the peak nymph window covered instead of leaving it open. If you live in Tier 3, a single early-season treatment in mid-to-late May covers most of the risk. If you live in Tier 4, monitor through the season and treat if you start seeing ticks — but do not assume immunity. All four tiers benefit from habitat modification (3-foot buffer along any wooded edge, weekly leaf-litter clearing, tight mowing), daily tick checks after outdoor exposure, and permethrin-treated clothing for trail use.</p>
+        <p>Where you live sets the tier; the calendar sets the timing. Oakville readers can line the tiers up against the local activity curve in <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 underline">when ticks are active in Oakville</Link>, and Burlington readers get the escarpment-and-lakefront version in <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 underline">tick season in Burlington</Link> — both cover the May-to-July nymph peak and the autumn return of adults.</p>
 
         <p>For the address-specific score, our free <Link href="/yard-risk-report" className="text-brand-700 underline">Yard Risk Report</Link> calculates a 1-100 risk number using neighbourhood pressure, water and forest proximity, lot characteristics, and family-situation factors. Properties scoring 70+ are in the band where professional treatment is strongly recommended.</p>
 
         <h2>Same-week service across Halton</h2>
-        <p>BuzzSkito treats every Oakville and Burlington neighbourhood with same-week service through the May-October core season. See dedicated treatment pages for <Link href="/oakville-tick-spray" className="text-brand-700 underline">Oakville tick spray</Link>, <Link href="/burlington-tick-spray" className="text-brand-700 underline">Burlington tick spray</Link>, <Link href="/north-oakville-mosquito-control" className="text-brand-700 underline">North Oakville</Link>, and <Link href="/burlington-mosquito-spray" className="text-brand-700 underline">Burlington mosquito spray</Link>. Pricing scales by lot size, quote within 24 hours, no on-site visit required.</p>
+        <p>BuzzSkito treats every Oakville and Burlington neighbourhood with same-week service through the May–September season. See dedicated treatment pages for <Link href="/oakville-tick-spray" className="text-brand-700 underline">Oakville tick spray</Link>, <Link href="/burlington-tick-spray" className="text-brand-700 underline">Burlington tick spray</Link>, <Link href="/north-oakville-mosquito-control" className="text-brand-700 underline">North Oakville</Link>, and <Link href="/burlington-mosquito-spray" className="text-brand-700 underline">Burlington mosquito spray</Link>. Pricing scales by lot size. {PROMISES.response}</p>
 
         <h2>Related guides</h2>
         <ul>
@@ -188,7 +190,7 @@ export default function TickHotSpotsOakvilleBurlingtonPage() {
 
       </article>
 
-      <CTASection heading="Halton tick pressure is climbing — find out your address-specific risk" subtext="Free custom quote and risk score based on your Oakville or Burlington address. Sent within 24 hours. Same-week service across every Halton neighbourhood." />
+      <CTASection heading="Halton tick pressure is climbing — find out your address-specific risk" subtext={`Free custom quote and risk score based on your Oakville or Burlington address. ${PROMISES.response} Same-week service across every Halton neighbourhood.`} />
     </>
   )
 }

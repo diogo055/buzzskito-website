@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -15,7 +16,7 @@ const SLUG = 'no-see-um-bites'
 const DATE = '2026-07-19'
 const UPDATED = '2026-07-19'
 const TITLE = 'No-See-Um Bites: What They Look Like, How Long They Last & How to Treat Them'
-const META_TITLE = 'How No-See-Um Bites Look & How Long They Last'
+const META_TITLE = 'No-See-Um Bites in Canada: Look & How Long'
 
 const FAQS = [
   {
@@ -155,6 +156,28 @@ export default function NoSeeUmBitesPage() {
         <p>No-see-ums are so small you often feel the bite long before you ever spot the insect &mdash; which is exactly how they earned the name. This page is a focused bite-identification guide: what a no-see-um bite actually looks like, why it itches so much more than its size suggests, how to tell it apart from mosquito, flea, and chigger bites, how long it lasts, and what genuinely helps. If you want the deeper guide to the insect itself &mdash; the species, breeding habits, and season &mdash; read our companion piece on <Link href="/blog/no-see-ums-biting-midges-ontario">no-see-ums and biting midges</Link>.</p>
 
         <p className="text-sm text-gray-600 italic border-l-4 border-gray-200 pl-4">This is general information, not medical advice. If a bite looks infected, you feel unwell, or you have a severe reaction, contact a healthcare provider. In an emergency, call 911.</p>
+
+        <BlogPostCTA />
+
+        <AffiliateDisclosure />
+
+        <aside aria-label="What to do right now" className="not-prose my-6 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 sm:p-7">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">What to do right now</p>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">If you have just been bitten and the itch is climbing, this is the order that helps. The first step is free and it is the one that matters most. General self-care only &mdash; not medical advice.</p>
+          <ol className="space-y-4 text-[15px] text-gray-800 leading-relaxed list-decimal pl-5 marker:font-extrabold marker:text-emerald-700">
+            <li>
+              <strong>Get out of the swarm, wash, and cool it.</strong> Midges feed in groups and keep feeding, so step indoors or in front of moving air before you deal with anything. Wash the area with soap and cool water, then hold a cold compress or a cloth-wrapped ice pack on it for 10 to 15 minutes. And do not scratch &mdash; broken skin is the main route to a secondary infection and to the darker marks people mistake for scarring.
+            </li>
+            <li>
+              <strong>Take the histamine reaction down with an over-the-counter anti-itch product.</strong> A plain 1% hydrocortisone cream is the standard drugstore option on both sides of the border for an itchy bite, and calamine lotion is the other. Use it as directed on the label, and ask a pharmacist if you are pregnant, treating a young child, or unsure which is right for you.
+              <span className="mt-3 block"><BuyLink tag={AMZ_TAG} search="hydrocortisone anti itch cream 1%">Check price on Amazon.ca &rarr;</BuyLink></span>
+            </li>
+            <li>
+              <strong>Keep something in the bag for the next outing.</strong> The reason a midge cluster gets scratched raw is that the itch peaks a day or two later, usually when you are nowhere near the medicine cabinet. A pocket after-bite relief stick is the version of step two you actually have on you at the dock, the campsite, or the far end of the yard. Follow the label.
+              <span className="mt-3 block"><BuyLink tag={AMZ_TAG} search="after bite itch relief stick">Check price on Amazon.ca &rarr;</BuyLink></span>
+            </li>
+          </ol>
+        </aside>
 
         <h2>What do no-see-um bites look like?</h2>
         <Figure
@@ -305,6 +328,7 @@ export default function NoSeeUmBitesPage() {
           <li><strong>Consider an oral antihistamine if the itch is widespread or keeping you awake.</strong> Mayo Clinic names oral antihistamines as an option for itchy bites; common over-the-counter examples include cetirizine, loratadine, and diphenhydramine. Follow the package directions and ask a pharmacist, especially for children or if you take other medicines.</li>
         </ol>
         <p>Two things speed recovery more than any product: <strong>not scratching</strong>, and <strong>not popping blisters</strong>. Both break the skin, which is the main route to a secondary infection and the main cause of the darker marks people mistake for scarring. Keeping nails short and covering a bad cluster with a loose dressing overnight is more effective than it sounds.</p>
+        <p>Step three is the one that depends entirely on having the thing to hand, which is why a bag of frozen peas is what most people end up using. A reusable gel pack that lives in the freezer &mdash; or the flexible kind that wraps an ankle or a forearm, where clustered midge bites usually land &mdash; is what turns &ldquo;within the first few minutes&rdquo; from advice into something you actually do. <BuyLink tag={AMZ_TAG} search="reusable gel ice pack">check reusable ice packs on Amazon.ca &rarr;</BuyLink></p>
         <p>What about the home remedies you will find everywhere &mdash; aloe vera gel, a colloidal oatmeal bath, witch hazel, a baking-soda paste? They are comfort measures rather than treatments with public-health backing, and the conservative view is that they are fine to try on intact skin. Keep undiluted essential oils and vinegar off broken or scratched skin, where they can irritate rather than soothe. The agency-backed short list stays the same: wash, cool, over-the-counter anti-itch, an oral antihistamine if needed, and leave the bites alone.</p>
         <p className="text-sm text-gray-600 italic border-l-4 border-gray-200 pl-4">Again, this is general information rather than medical advice, and none of the above is dosing guidance. Follow the label, and speak to a pharmacist or healthcare provider if you are pregnant, treating a young child, or unsure.</p>
 
@@ -329,6 +353,7 @@ export default function NoSeeUmBitesPage() {
           </table>
         </div>
         <p>The catch with fine mesh is <strong>reduced airflow</strong> &mdash; the tighter the weave, the stuffier the porch. A practical fix that works with the insect&rsquo;s own weakness: run a fan. Biting midges are feeble fliers and cannot push against moving air, so a breeze on a seating area keeps them off even where the mesh is standard.</p>
+        <p>This is the cheapest countermeasure on the entire page and the one almost nobody buys deliberately. An oscillating outdoor-rated or high-velocity floor fan aimed across the porch seating costs a fraction of rescreening an enclosure, works the same evening, and keeps working on the nights the swarm is heaviest &mdash; the physics does not care how many midges there are. <BuyLink tag={AMZ_TAG} search="high velocity floor fan">check high-velocity fans on Amazon.ca &rarr;</BuyLink></p>
         <p className="not-prose my-4">
           <BuyLink tag={AMZ_TAG} search="no see um mesh screen">Check no-see-um mesh screen on Amazon &rarr;</BuyLink>
         </p>
@@ -348,6 +373,8 @@ export default function NoSeeUmBitesPage() {
         <p className="not-prose my-4">
           <BuyLink tag={AMZ_TAG} search="window screen repair kit">Check window screen repair kits on Amazon &rarr;</BuyLink>
         </p>
+        <p>The second bullet is the one that defeats a perfect mesh job, because a 5 mm gap under a patio or side door is a wide-open road to something 1 to 3 mm long. A self-adhesive door sweep or under-door seal is a fifteen-minute fit with no tools, and it closes the gap the screening never covered. <BuyLink tag={AMZ_TAG} search="under door draft sweep seal">check door sweeps on Amazon.ca &rarr;</BuyLink></p>
+        <p>The fourth bullet is worth acting on the same evening, since a bright white porch light beside the door is doing the recruiting. Swapping it for a warm amber or &ldquo;bug light&rdquo; bulb, and moving the light people gather under away from the doorway, pulls the concentration away from the gap you just sealed. <BuyLink tag={AMZ_TAG} search="yellow bug light bulb outdoor">check amber bug light bulbs on Amazon.ca &rarr;</BuyLink></p>
         <p>Doors are the other half of that job and the half most people leave open. A magnetic screen curtain closes the back or patio door you keep walking through, but the standard fibreglass mesh most of them ship with passes midges exactly the way an ordinary window screen does &mdash; you have to choose the no-see-um weave on purpose. Our guide to <Link href="/blog/best-magnetic-screen-door-canada">magnetic screen doors</Link> covers that mesh decision alongside the two things that actually decide whether a curtain seals &mdash; measuring the frame opening rather than the door slab, and mounting the top hem so it cannot peel away from the trim.</p>
         <p>One useful piece of triage: if you are seeing plenty of tiny flies indoors but nobody is being bitten, they are probably not no-see-ums at all. Fungus gnats breeding in overwatered houseplants and drain flies breeding in a slow sink trap both look like specks in the air, and neither bites people. Biting midges bite &mdash; that is how you know.</p>
 

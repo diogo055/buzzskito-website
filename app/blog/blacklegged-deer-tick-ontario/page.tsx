@@ -202,6 +202,7 @@ export default function BlackleggedDeerTickOntarioPage() {
             <li><strong>Pinery Provincial Park</strong> and the southern Lake Huron shore</li>
           </ul>
           <p>Because their range is a moving target, do not treat &ldquo;my area is not on the map&rdquo; as safety. Ticks are increasingly reported across the wider GTA and Simcoe&ndash;Muskoka region. Check the current <Link href="/ontario-lyme-disease-tracker-2026">Ontario Lyme disease tracker</Link> for the latest risk picture, and remember that Public Health Ontario updates its estimated risk-area maps every year.</p>
+          <p>Toronto is the clearest case of a place that was once assumed to be off the map and is not. The ravine network carries wooded, leaf-littered habitat &mdash; and the deer and white-footed mice that go with it &mdash; straight through the middle of the city, which is why <Link href="/blog/toronto-tick-hot-spot-2026" className="text-brand-700 underline">Toronto now reads as a tick hot spot</Link> rather than a safe urban exception.</p>
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Blacklegged ticks wait at your yard&rsquo;s wooded edges</h3>
@@ -219,6 +220,7 @@ export default function BlackleggedDeerTickOntarioPage() {
           <p>Lyme disease is caused by a corkscrew-shaped bacterium, <em>Borrelia burgdorferi</em>. Blacklegged ticks pick it up as larvae or nymphs when they feed on infected small mammals — white-footed mice are the main reservoir — and can then pass it to the next host they bite. The American dog tick (<em>Dermacentor variabilis</em>), despite being larger and more often noticed in the GTA, feeds on a different host cycle and does <strong>not</strong> transmit Lyme in Ontario. That is why species identification is the single most useful thing you can do after a bite: a dog tick bite carries essentially no Lyme risk, while a blacklegged tick attached for a day or more does. Health Canada&rsquo;s{' '}
           <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener">pest-management guidance</a>{' '}
           and Public Health Ontario both stress prevention and prompt removal over panic.</p>
+          <p>Species is only half the answer, though. Even among blacklegged ticks, only a fraction actually carry the bacterium, and the share differs by region and life stage &mdash; see <Link href="/blog/what-percentage-of-ticks-carry-lyme-ontario" className="text-brand-700 underline">what percentage of ticks carry Lyme disease in Ontario</Link> for the surveillance figures.</p>
 
           <h2>How to Remove a Blacklegged Tick</h2>
           <p>Fast, correct removal is your best defence, because the tick usually needs to feed for <strong>24 to 36 hours</strong> before it can transmit the Lyme bacterium. Here is the method public-health agencies recommend:</p>

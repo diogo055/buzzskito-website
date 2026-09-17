@@ -19,7 +19,7 @@ const META_TITLE = 'Mosquito Magnet vs Professional Spray: Costs'
 const FAQS = [
   {
     question: 'Do Mosquito Magnets actually work?',
-    answer: 'Mosquito Magnet traps work — they capture mosquitoes by mimicking human breath (CO2, octenol). However, they have significant limitations: they cost $400–$1,200 upfront, require monthly $30–$60 of CO2 cartridges and attractant, only protect a 1-acre area max, and need clear line-of-sight from the mosquito source. They do not eliminate the population — they cull a portion of it. For most Ontario backyards, professional barrier spray costs less per season and is dramatically more effective.',
+    answer: 'Mosquito Magnet traps work — they capture mosquitoes by mimicking human breath (CO2, octenol). However, they have significant limitations: they cost $400–$1,200 upfront, require monthly $30–$60 of CO2 cartridges and attractant, only protect a 1-acre area max, and need clear line-of-sight from the mosquito source. They do not eliminate the population — they cull a portion of it. For most Ontario backyards, professional barrier spray usually costs less per season and treats far more of the yard.',
   },
   {
     question: 'How much does a Mosquito Magnet cost?',
@@ -27,11 +27,11 @@ const FAQS = [
   },
   {
     question: 'How does a Mosquito Magnet compare to barrier spray?',
-    answer: 'Mosquito Magnet TRAPS individual adult mosquitoes drawn to it. Professional barrier spray TARGETS where mosquitoes rest (vegetation, shrubs, fence lines) and creates a residual repellent and kill zone. The magnet captures hundreds per night; the spray protects the entire yard for up to 30 days. For 90% of Ontario yards, barrier spray is more effective and dramatically cheaper.',
+    answer: 'Mosquito Magnet TRAPS individual adult mosquitoes drawn to it. Professional barrier spray TARGETS where mosquitoes rest (vegetation, shrubs, fence lines) and puts a residual on those surfaces, applied according to label directions and renewed on a schedule because it wears down. The magnet captures hundreds per night; the spray treats the resting vegetation across the whole yard. For most Ontario yards, barrier spray is the better fit and usually the cheaper one.',
   },
   {
     question: 'Is the BuzzSkito barrier spray safer than a Mosquito Magnet?',
-    answer: 'Both are safe when used correctly. Health Canada approves the barrier spray formulations BuzzSkito uses for residential lawn application; once dried (30 minutes), the yard is safe for kids and pets. Mosquito Magnets use propane gas which carries normal propane fuel safety considerations. Neither is meaningfully more dangerous than the other.',
+    answer: 'They carry different precautions, and the honest answer is to follow each product label rather than rank them. BuzzSkito applies barrier spray products registered for this use in Canada, by an Ontario-licensed operator, according to label directions; keep kids and pets off treated areas until the spray has dried, as the product label directs. Mosquito Magnets run on propane, so the usual propane handling and storage precautions apply, and the attractant cartridges should be handled as their own label directs.',
   },
   {
     question: 'Can I use a Mosquito Magnet AND professional spray together?',
@@ -101,7 +101,7 @@ export default function MosquitoMagnetPage() {
           </div>
 
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Mosquito Magnet traps work — they capture real mosquitoes. But they&rsquo;re expensive, need ongoing supplies, and only cull a portion of your yard&rsquo;s mosquito population. Here&rsquo;s how they compare to professional barrier spray, which controls the population at the source.</p>
+          <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Mosquito Magnet traps work — they capture real mosquitoes. But they&rsquo;re expensive, need ongoing supplies, and only cull a portion of your yard&rsquo;s mosquito population. Here&rsquo;s how they compare to professional barrier spray, which treats the resting vegetation across your whole lot.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Pricing the hardware side of this comparison? Check current Canadian prices on the three most popular trap and repeller options:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -144,7 +144,7 @@ export default function MosquitoMagnetPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Large rural acreage?</strong> The <em>Best Trap Overall</em> propane unit earns its keep. <strong>Want something cheap on the deck?</strong> The <em>Best Budget</em> DynaTrap or a <em>Thermacell</em> zone helps for less &mdash; but for same-day, whole-yard reduction that also controls ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Large rural acreage?</strong> The <em>Best Trap Overall</em> propane unit earns its keep. <strong>Want something cheap on the deck?</strong> The <em>Best Budget</em> DynaTrap or a <em>Thermacell</em> zone helps for less &mdash; but for whole-yard reduction that also controls ticks, look at <Link href="/mosquito-control">professional barrier spray</Link>.
               </>
             }
           />
@@ -196,7 +196,7 @@ export default function MosquitoMagnetPage() {
 
           <h2>Where Professional Spray Wins</h2>
           <ul>
-            <li><strong>Standard suburban / urban Ontario lots.</strong> 0.1–1 acre — barrier spray covers all of it for $99/treatment. A Magnet for the same lot costs more annually.</li>
+            <li><strong>Standard suburban / urban Ontario lots.</strong> 0.1–1 acre — barrier spray covers all of it, from $99 per treatment on a standard lot (under 10,000 sq ft) and priced up with lot size. A Magnet for the same lot costs more annually.</li>
             <li><strong>Properties with mature vegetation.</strong> Shrubs, hedges, garden beds — these are exactly where mosquitoes rest. Barrier spray bonds to these surfaces. Magnets only capture mosquitoes that fly toward the unit.</li>
             <li><strong>Anyone who values their time.</strong> Magnets need monthly propane swaps, attractant cartridge changes, occasional cleaning, and seasonal storage. Professional spray means you do nothing.</li>
             <li><strong>Households that want low-effort control.</strong> Set the season schedule once. Done.</li>

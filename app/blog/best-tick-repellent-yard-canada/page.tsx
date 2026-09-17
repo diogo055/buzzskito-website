@@ -9,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'best-tick-repellent-yard-canada'
 const DATE = '2026-04-26'
@@ -18,7 +19,7 @@ const TITLE = 'Best Tick Repellent for Yards — Canada 2026'
 const FAQS = [
   {
     question: 'What is the best tick repellent for yards in Canada?',
-    answer: 'Health Canada-approved professional barrier spray is the most effective tick yard repellent available — applied to leaf litter, lawn-to-woods edges, fence-line vegetation, and shaded perimeters where ticks live. Consumer DIY products (cedar-oil sprays, garlic sprays, granular pesticides from Home Depot) use lower concentrations and are usually broadcast over the lawn rather than placed in the shaded edge habitat ticks actually occupy. The difference is less about the chemistry than about where it lands and how long it persists — and neither approach eliminates ticks from a property, because wildlife keeps carrying new ones in all season.',
+    answer: 'Professional barrier spray is the most targeted yard tick treatment available — a residual acaricide applied, according to label directions, to leaf litter, lawn-to-woods edges, fence-line vegetation, and shaded perimeters where ticks live. Consumer DIY products (cedar-oil sprays, garlic sprays, granular pesticides from Home Depot) use lower concentrations and are usually broadcast over the lawn rather than placed in the shaded edge habitat ticks actually occupy. The difference is less about the chemistry than about where it lands and how long it persists — and neither approach eliminates ticks from a property, because wildlife keeps carrying new ones in all season.',
   },
   {
     question: 'Does cedar oil really repel ticks?',
@@ -30,7 +31,7 @@ const FAQS = [
   },
   {
     question: 'Are there natural tick repellents that actually work?',
-    answer: 'For yard-scale tick control, the most-effective natural options are: cedar oil (Wondercide, Cedarcide), and proper habitat modification (short grass, leaf litter removal, 3-foot wood chip barrier between lawn and woods). Natural sprays for personal use include oil of lemon eucalyptus (OLE) and 2-undecanone (BioUD). For population-level yard control, professional Health Canada-approved spray is dramatically more effective than any natural option.',
+    answer: 'For yard-scale tick control, the most-effective natural options are: cedar oil (Wondercide, Cedarcide), and proper habitat modification (short grass, leaf litter removal, 3-foot wood chip barrier between lawn and woods). Natural sprays for personal use include oil of lemon eucalyptus (OLE) and 2-undecanone (BioUD). For population-level yard control, professional barrier spray holds a longer residual than any natural option.',
   },
   {
     question: 'How often should I treat my yard for ticks?',
@@ -38,11 +39,11 @@ const FAQS = [
   },
   {
     question: 'What\'s the cheapest way to get rid of ticks in my yard?',
-    answer: 'In order of cost-effectiveness: (1) FREE — habitat modification (mow short, remove leaf litter, create 3-ft mulch barrier between lawn and woods). (2) $15–$30 — cedar mulch in seating areas. (3) $50/year — DIY cedar oil or permethrin-based sprays from Home Depot. (4) seasonal pricing on quote — BuzzSkito professional 5-spray season program (most effective). For yards in active Lyme zones, the professional option is cheap insurance against a $5,000+ Lyme disease treatment.',
+    answer: 'In order of cost-effectiveness: (1) FREE — habitat modification (mow short, remove leaf litter, create 3-ft mulch barrier between lawn and woods). (2) $15–$30 — cedar mulch in seating areas. (3) $50/year — DIY cedar oil or permethrin-based sprays from Home Depot. (4) $597 a season, or $497 when added to a mosquito plan — BuzzSkito professional 5-spray season program. For yards in active Lyme risk areas, it is the option that treats the edge habitat most thoroughly.',
   },
   {
     question: 'Are tick yard sprays safe for kids and pets?',
-    answer: 'Health Canada-approved professional tick spray is safe for kids and pets 30 minutes after drying. The product bonds to leaf surfaces and lawn edges where ticks rest — not to grass blades where children play. BuzzSkito uses pyrethrin-based formulations approved for residential lawn use. Cedar oil and natural alternatives are also safe but provide weaker control. Granular pesticides from Home Depot can be safe but require strict adherence to label instructions and timing.',
+    answer: 'Follow the product label: it sets the re-entry rules, and for professional tick spray that means keeping kids and pets off treated areas until the spray has dried. The product is aimed at the leaf litter and lawn edges where ticks rest, rather than broadcast over the open lawn where children play. BuzzSkito uses pyrethrin-based formulations labelled for residential lawn use and applies them according to label directions. Cedar oil and natural alternatives carry their own label directions and provide weaker control. Granular pesticides from Home Depot require strict adherence to label instructions and timing.',
   },
   {
     question: 'When is the best time to start tick treatment?',
@@ -89,9 +90,9 @@ export default function BestTickRepellentYardPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best tick repellent for Ontario yards is a Health Canada-approved professional barrier spray &mdash; it places a residual acaricide directly on the leaf litter and lawn edges where ticks actually live, and stays active on those surfaces for up to 30 days. The best DIY runner-up is a cedar-oil spray like Wondercide, layered over free habitat fixes.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best tick repellent for Ontario yards is a professional barrier spray &mdash; it places a residual acaricide, applied according to label directions, directly on the leaf litter and lawn edges where ticks actually live, and is re-applied through the season as the residual wears off. The best DIY runner-up is a cedar-oil spray like Wondercide, layered over free habitat fixes.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Professional barrier spray stays active on the treated edges for up to 30 days &mdash; about three times longer than the best consumer products, which is the real gap.</li>
+              <li>Professional barrier spray holds a longer residual on the treated edges than consumer tick sprays, which are typically labelled for re-application after days &mdash; that is the real gap.</li>
               <li>Professional treatment kills adult ticks, nymphs, and larvae on contact, not just adults.</li>
               <li>Permethrin-based granular pesticides carry a synthetic residual down into the lawn and edge zones and hold 4&ndash;6 weeks &mdash; but only where you actually achieved even coverage.</li>
               <li>Cedar-oil sprays like Wondercide repel and kill ticks on contact, but the oil evaporates far faster than a synthetic residual, so they need re-applying every 2 weeks.</li>
@@ -117,7 +118,7 @@ export default function BestTickRepellentYardPage() {
                 search: 'wondercide tick yard spray',
                 score: 8.3,
                 featured: true,
-                pros: ['Real, research-backed cedar-oil repellency', 'Kid- and pet-safe once dry', 'Hose-end coverage of lawn edges'],
+                pros: ['Real, research-backed cedar-oil repellency', 'Follow the label on when kids and pets can return', 'Hose-end coverage of lawn edges'],
                 cons: ['Re-apply every 2 weeks', 'Weaker than professional barrier spray'],
               },
               {
@@ -159,7 +160,7 @@ export default function BestTickRepellentYardPage() {
 
           <h3>🟢 Tier 1: Most effective</h3>
           <ul>
-            <li><strong>Professional Health Canada-approved barrier spray</strong> — A Health Canada-registered residual acaricide applied to leaf litter, lawn edges, fence lines, and shaded perimeters — the zones ticks quest from. ~seasonal pricing on quote for 5-spray program.</li>
+            <li><strong>Professional barrier spray</strong> — A residual acaricide applied according to label directions to leaf litter, lawn edges, fence lines, and shaded perimeters — the zones ticks quest from. $597 for the 5-spray season, or $497 added to a mosquito plan.</li>
           </ul>
 
           <h3>🟡 Tier 2: Effective DIY options</h3>
@@ -207,19 +208,22 @@ export default function BestTickRepellentYardPage() {
           </ol>
           <p>Habitat modification works by removing the conditions ticks need rather than by killing them: ticks dry out in short, sun-exposed turf, they overwinter in the leaf litter you rake away, and a dry wood-chip strip is a barrier they will not cross. It costs nothing and uses no pesticide. Its limit is that it only reshapes your own property — ticks keep arriving on deer, mice, and birds regardless.</p>
 
+          <p>Mowing height and shrub trimming both work for the same physical reason: a tick cannot fly or jump, so it can only wait wherever it managed to climb, and that is usually no more than 30&ndash;50 cm off the ground. <Link href="/blog/do-ticks-fly-or-jump" className="text-brand-700 underline">Do ticks fly or jump? How high they actually climb</Link> sets out the heights involved.</p>
+
           <h2>The Professional Option (Why Most Ontario Homeowners End Up Here)</h2>
-          <p>For Ontario homeowners in confirmed Lyme zones (Oak Ridges Moraine, Rouge Park, Bronte Creek, Dundas Valley, Niagara), professional barrier spray is the most effective and most cost-efficient option:</p>
+          <p>For Ontario homeowners in confirmed Lyme zones (Oak Ridges Moraine, Rouge Park, Bronte Creek, Dundas Valley, Niagara), professional barrier spray is usually the most practical option:</p>
+          <p>The Oak Ridges Moraine end of that list is the one that surprises people, because it runs through ordinary subdivisions rather than parkland &mdash; see <Link href="/blog/tick-control-richmond-hill-markham" className="text-brand-700 underline">tick control in Richmond Hill and Markham</Link> for how the moraine and the Rouge corridor shape what a York Region yard needs.</p>
           <ul>
             <li><strong>Targeted application.</strong> Sprayed where ticks actually live — leaf litter, lawn-to-woods edges, fence lines, shrub interiors. Not just on top of the grass.</li>
-            <li><strong>Health Canada-registered formula.</strong> Pyrethrin-based, residential-approved, kid- and pet-safe after 30-minute dry.</li>
+            <li><strong>Label-directed application.</strong> Pyrethrin-based, labelled for residential use, and applied according to label directions &mdash; stay off treated areas until the spray has dried.</li>
             <li><strong>5-treatment season covers all life stages.</strong> Spring nymphs (highest Lyme risk), summer adults, fall larvae.</li>
-            <li><strong>Re-treatment guarantee.</strong> If ticks return inside the protection window, BuzzSkito retreats at no cost.</li>
-            <li><strong>Bundle savings.</strong> $597 standalone or tick add-on bundle available on quote (save $100).</li>
+            <li><strong>Rain-back guarantee.</strong> {PROMISES.rainBack}</li>
+            <li><strong>Bundle savings.</strong> $597 on its own, or $497 when added to any mosquito plan (save $100).</li>
           </ul>
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/tick-prevention-yard-ontario-safe-for-kids">Tick Prevention in Your Yard — Safe for Kids</Link></li>
+            <li><Link href="/blog/tick-prevention-yard-ontario-safe-for-kids">Tick Prevention in Your Yard — A Guide for Families</Link></li>
             <li><Link href="/blog/lyme-disease-tick-prevention-ontario">Lyme Disease Prevention in Ontario</Link></li>
             <li><Link href="/blog/best-tick-control-yard-treatment">Best Tick Control Yard Treatment</Link></li>
             <li><Link href="/blog/tick-tubes-canada">Tick Tubes in Canada — Do They Actually Work?</Link></li>
@@ -242,7 +246,7 @@ export default function BestTickRepellentYardPage() {
         </div>
       </article>
 
-      <CTASection heading="Stop the Tick Cycle in Your Yard" subtext="Health Canada-approved tick barrier spray. 5 sprays per season. From $597 standalone, $497 bundled with mosquito." variant="dark" />
+      <CTASection heading="Stop the Tick Cycle in Your Yard" subtext="Licensed tick barrier spray. 5 sprays per season. $597 on its own, $497 with a mosquito plan." variant="dark" />
     </>
   )
 }

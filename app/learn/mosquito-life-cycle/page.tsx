@@ -54,7 +54,7 @@ export default function MosquitoLifeCyclePage() {
 
       <QuickAnswer question="What is the mosquito life cycle?">
         <p>
-          <strong>The mosquito life cycle has four stages — egg, larva, pupa, and adult — and completes in just 8-14 days in Ontario summer heat.</strong> A female lays 100-300 eggs on or near standing water; larvae (&ldquo;wrigglers&rdquo;) hatch and feed for 4-10 days, become non-feeding pupae for 2-3 days, then emerge as biting adults. Because the cycle is so fast, BuzzSkito breaks it at two points: dumping standing water to stop larvae, and barrier spray to kill resting adults across your yard.
+          <strong>The mosquito life cycle has four stages — egg, larva, pupa, and adult — and completes in just 8-14 days in Ontario summer heat.</strong> A female lays 100-300 eggs on or near standing water; larvae (&ldquo;wrigglers&rdquo;) hatch and feed for 4-10 days, become non-feeding pupae for 2-3 days, then emerge as biting adults. Because the cycle is so fast, BuzzSkito breaks it at two points: dumping standing water to stop larvae, and barrier spray to reduce the adult mosquitoes resting in your yard.
         </p>
       </QuickAnswer>
 
@@ -94,9 +94,9 @@ export default function MosquitoLifeCyclePage() {
           <p>Because three of the four stages are stuck in water and only adult females bite, an effective mosquito plan attacks the cycle at two points:</p>
           <ul>
             <li><strong>Source reduction (egg, larva, pupa):</strong> Empty or treat standing water weekly. Dumping a plant saucer eliminates an entire generation before it can fly. BTI larvicide dunks kill wrigglers in water you cannot drain, like rain barrels and ponds.</li>
-            <li><strong>Adult control (adult):</strong> Adult mosquitoes spend the daytime resting on the undersides of leaves, in shrubs, and along fence lines. A professional <Link href="/mosquito-control">barrier spray</Link> coats those resting surfaces with a residual formula that kills adults on contact for up to 30 days — knocking down the biting generation while source reduction chokes off the next one.</li>
+            <li><strong>Adult control (adult):</strong> Adult mosquitoes spend the daytime resting on the undersides of leaves, in shrubs, and along fence lines. A professional <Link href="/mosquito-control">barrier spray</Link> coats those resting surfaces with a residual that kills adults on contact, renewed on the plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic) — knocking down the biting generation while source reduction chokes off the next one.</li>
           </ul>
-          <p>Attacking a single stage rarely works for long, because the 8-14 day cycle simply rebuilds. Attacking two stages at once — draining water <em>and</em> treating vegetation — is what produces a genuinely bite-free yard. For the full playbook, see <Link href="/learn/how-to-combat-mosquitoes">how to combat mosquitoes</Link> and our <Link href="/blog/ultimate-backyard-mosquito-control-guide">ultimate backyard mosquito control guide</Link>.</p>
+          <p>Attacking a single stage rarely works for long, because the 8-14 day cycle simply rebuilds. Attacking two stages at once — draining water <em>and</em> treating vegetation — is what actually cuts the bites in a yard. For the full playbook, see <Link href="/learn/how-to-combat-mosquitoes">how to combat mosquitoes</Link> and our <Link href="/blog/ultimate-backyard-mosquito-control-guide">ultimate backyard mosquito control guide</Link>.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Break the cycle in your yard</h3>
@@ -133,7 +133,7 @@ export default function MosquitoLifeCyclePage() {
         </div>
       </article>
 
-      <CTASection heading="Stop Mosquitoes Before They Fly" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 30-day residual." variant="dark" />
+      <CTASection heading="Stop Mosquitoes Before They Fly" subtext="Get a free quote for licensed barrier spray. From $99. Rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

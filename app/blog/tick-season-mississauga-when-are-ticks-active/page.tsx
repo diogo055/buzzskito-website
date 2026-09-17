@@ -2,7 +2,11 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = {
   title: 'Tick Season in Mississauga 2026: When Ticks Are Most Active (and What That Means for Your Yard)',
@@ -26,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'When should I spray my yard in Mississauga?',
-    answer: 'The two highest-leverage spray windows in Mississauga are the third week of May (catching the nymph emergence at the start of its peak) and the third week of August (front-running the adult fall surge). A single mid-May spray places a residual acaricide on the shaded edges and leaf litter for roughly 30 days, after which it wears off. For meaningful season-long protection, the BuzzSkito Standard Season runs 10 biweekly sprays from May through September. Waterfront and ravine-adjacent properties — Lorne Park, Mineola, Erindale, sections of Streetsville and Meadowvale — benefit from an earlier first spray in the last week of April.',
+    answer: 'The two highest-leverage spray windows in Mississauga are the third week of May (catching the nymph emergence at the start of its peak) and the third week of August (front-running the adult fall surge). A single mid-May spray places a residual acaricide on the shaded edges and leaf litter for a few weeks, after which it wears off. For season-long coverage, the BuzzSkito tick season is five treatments, roughly monthly from May through September ($597 on its own, or $497 added to a mosquito plan). Waterfront and ravine-adjacent properties — Lorne Park, Mineola, Erindale, sections of Streetsville and Meadowvale — benefit from an earlier first spray in the last week of April.',
   },
   {
     question: 'Can ticks survive Mississauga winters?',
@@ -44,6 +48,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: POST.date,
 })
+
+const AMZ_TAG = tagForSlug('tick-season-mississauga-when-are-ticks-active')
 
 export default function MississaugaTickSeasonPage() {
   return (
@@ -73,7 +79,7 @@ export default function MississaugaTickSeasonPage() {
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>Blacklegged tick activity begins in late March or early April once temperatures hold above 4&deg;C &mdash; earlier than most homeowners assume.</li>
             <li>The May 20&ndash;June 21 nymph window is the single most likely time to be bitten in Mississauga.</li>
-            <li>A single mid-May barrier spray leaves a residual on the shaded edges and leaf litter for about 30 days, then wears off.</li>
+            <li>A single mid-May barrier spray leaves a residual on the shaded edges and leaf litter for a few weeks, then wears off.</li>
             <li>Peel Public Health surveillance confirmed nymph captures along the Credit River as early as the first week of May in 2026.</li>
             <li>Highest-risk neighbourhoods include Lorne Park, Mineola, Erindale, Streetsville, and Sherwood Forrest &mdash; all near the Credit River or Rattray Marsh.</li>
             <li>Ticks survive winter while ground temperatures stay above about -10&deg;C and resume questing within hours of a 4&ndash;7&deg;C thaw.</li>
@@ -138,14 +144,19 @@ export default function MississaugaTickSeasonPage() {
           <li><strong>Moderate:</strong> Erin Mills (treed sections), Applewood, central Cooksville, the inland blocks of Lakeview</li>
           <li><strong>Lower (but not zero):</strong> Malton, the dense apartment corridors of central Mississauga, fully mown subdivisions with no adjacent greenspace</li>
         </ul>
+        <p>Each of those tiers has a reason behind it — ravine adjacency, creek corridors, host traffic. We go through them park by park in <Link href="/blog/tick-hot-spots-mississauga-2026" className="text-brand-700 underline">Mississauga tick hot spots 2026, ranked by neighbourhood</Link>.</p>
         <p>For a property-specific score, the <Link href="/yard-risk-report" className="text-brand-700 underline">free Yard Risk Report</Link> calculates a 1-100 number for your exact address using local pressure data, water/forest proximity, and lot characteristics.</p>
 
         <h2>What to do this month</h2>
-        <p>The practical playbook for a Mississauga homeowner in 2026 is straightforward. First, get the first barrier spray down before the nymph peak — meaning before May 25, or earlier if your property is ravine-adjacent. Second, repeat biweekly through June and early July. Third, do not cancel mid-summer — keep treatment running through the August adult resurgence. Fourth, do habitat work in parallel: rake leaf litter away from the fence line, install a gravel or wood-chip buffer between lawn and any forest edge, keep grass mown short, and remove brush piles and woodpiles touching the lawn.</p>
+        <p>The practical playbook for a Mississauga homeowner in 2026 is straightforward. First, get the first barrier spray down before the nymph peak — meaning before May 25, or earlier if your property is ravine-adjacent. Second, keep treatments going roughly monthly through June and July &mdash; a BuzzSkito tick season is five treatments from May through September. Third, do not cancel mid-summer — keep treatment running through the August adult resurgence. Fourth, do habitat work in parallel: rake leaf litter away from the fence line, install a gravel or wood-chip buffer between lawn and any forest edge, keep grass mown short, and remove brush piles and woodpiles touching the lawn.</p>
         <p>If your dog uses the Credit River trails, add a vet-prescribed oral tick preventive and do a hand check within an hour of returning home. Pay attention to the ears, between toes, the groin, and the base of the tail.</p>
 
         <h2>Same-week tick service across Mississauga</h2>
-        <p>BuzzSkito covers every Mississauga neighbourhood with same-week service: <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga tick spray</Link>, <Link href="/mississauga-mosquito-control" className="text-brand-700 underline">Mississauga mosquito control</Link>, and combined programs that handle both pests with a single technician visit. Quotes are based on your lot size and ravine/water exposure — no on-site walkthrough required. Most quotes go out within 24 hours and first treatment can usually be scheduled inside seven days.</p>
+        <p>BuzzSkito covers every Mississauga neighbourhood with same-week service: <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga tick spray</Link>, <Link href="/mississauga-mosquito-control" className="text-brand-700 underline">Mississauga mosquito control</Link>, and combined programs that handle both pests with a single technician visit. Quotes are based on your lot size and ravine/water exposure. {PROMISES.response} First treatment can usually be scheduled inside seven days, booked into a visit window.</p>
+
+        <h2>What to keep by the door during the two peaks</h2>
+        <AffiliateDisclosure />
+        <p>Treating the yard reduces the ticks waiting on your own property. It does nothing about the ones your family and your dog collect on the Sawmill Valley Trail, at Erindale Park, or along the Rattray Marsh boardwalk &mdash; and during the May 20 to June 21 nymph window, and again through the August-to-October adult peak, those walks are where a lot of Mississauga bites begin. That makes the check when you get home the habit that actually matters, and the check needs a tool behind it. A fine-tipped remover or tick hook grips at the head, right against the skin, and lifts the tick out in one piece instead of leaving mouthparts behind or squeezing the body. On a poppy-seed-sized nymph, or on a dog where you are working blind through fur, that is the difference between a clean removal and a messy one. Keep one by the back door and one in the glovebox for the trailhead. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Related guides</h2>
         <ul>
@@ -155,7 +166,7 @@ export default function MississaugaTickSeasonPage() {
           <li><Link href="/gta-mosquito-pressure-map" className="text-brand-700 underline">GTA Mosquito + Tick Pressure Map</Link></li>
         </ul>
 
-        <p className="text-sm text-gray-600 mt-8">Stay safe out there.<br/>— Alex &amp; The BuzzSkito Team</p>
+        <p className="text-sm text-gray-600 mt-8">Take care out there.<br/>— Alex &amp; The BuzzSkito Team</p>
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4">
           {FAQS.map(({ question, answer }) => (
@@ -171,7 +182,7 @@ export default function MississaugaTickSeasonPage() {
 
       </article>
 
-      <CTASection heading="Mississauga tick pressure is rising — book your barrier spray now" subtext="Free custom quote based on your address, lot size, and proximity to the Credit River or Lake Ontario. Sent within 24 hours. Same-week service across Mississauga." />
+      <CTASection heading="Mississauga tick pressure is rising — book your barrier spray now" subtext={`Free custom quote based on your address, lot size, and proximity to the Credit River or Lake Ontario. ${PROMISES.response} Same-week service across Mississauga.`} />
     </>
   )
 }

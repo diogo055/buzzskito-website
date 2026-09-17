@@ -43,7 +43,7 @@ const FAQS = [
   },
   {
     question: 'Can cats get Lyme disease from ticks?',
-    answer: 'Cats can pick up ticks and can be infected with the Lyme bacterium in laboratory settings, but naturally occurring clinical Lyme disease in cats is extremely rare and is essentially not seen in everyday veterinary practice. Cats appear far more resistant to developing illness than dogs do. That said, cats — especially those that go outdoors — should still be protected from ticks, because ticks can carry other pathogens and because a tick on your cat can end up in your home. There is no Lyme vaccine for cats. Only use tick-prevention products that are specifically labelled as safe for cats, and check with your veterinarian first, since some dog products are toxic to cats.',
+    answer: 'Cats can pick up ticks and can be infected with the Lyme bacterium in laboratory settings, but naturally occurring clinical Lyme disease in cats is extremely rare and is essentially not seen in everyday veterinary practice. Cats appear far more resistant to developing illness than dogs do. That said, cats — especially those that go outdoors — should still be protected from ticks, because ticks can carry other pathogens and because a tick on your cat can end up in your home. There is no Lyme vaccine for cats. Only use tick-prevention products that are specifically labelled for use on cats, and check with your veterinarian first, since some dog products are toxic to cats.',
   },
   {
     question: 'Is there a Lyme vaccine for dogs in Canada?',
@@ -191,7 +191,7 @@ export default function CanDogsGetLymeDiseasePage() {
 
           <h2>Can cats get Lyme disease from ticks?</h2>
           <p>Cats can carry ticks and can be infected with the Lyme bacterium in laboratory experiments, but <strong>naturally occurring clinical Lyme disease in cats is extremely rare</strong> and is essentially not seen in everyday veterinary practice. Cats appear to be far more resistant to becoming ill than dogs are. So while the honest answer is "technically possible, practically almost never," that does not mean ticks are harmless to cats.</p>
-          <p>Outdoor cats still pick up ticks, and those ticks can carry other pathogens and can end up loose in your home. There is <strong>no Lyme vaccine for cats</strong>. Critically, only use tick-prevention products specifically labelled as safe for cats, and check with your veterinarian first &mdash; some tick products made for dogs (including certain permethrin-based ones) are highly toxic to cats and can be fatal.</p>
+          <p>Outdoor cats still pick up ticks, and those ticks can carry other pathogens and can end up loose in your home. There is <strong>no Lyme vaccine for cats</strong>. Critically, only use tick-prevention products specifically labelled for use on cats, and check with your veterinarian first &mdash; some tick products made for dogs (including certain permethrin-based ones) are highly toxic to cats and can be fatal.</p>
 
           <div className="not-prose my-6 overflow-x-auto">
             <table className="w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">
@@ -241,6 +241,7 @@ export default function CanDogsGetLymeDiseasePage() {
             <li><strong>Ask your veterinarian about the Lyme vaccine,</strong> which is available for dogs in Canada and often recommended for higher-risk lifestyles in southern Ontario.</li>
             <li><strong>Reduce ticks in the yard,</strong> where your dog spends the most unsupervised time.</li>
           </ol>
+          <p>Daily checks only help if you know what you are looking at. Our photo guide to <Link href="/blog/what-does-tick-look-like-on-dog" className="text-brand-700 underline">what a tick looks like on a dog</Link> shows unfed beside engorged and sorts out the lookalikes — skin tags, scabs, and fleas.</p>
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Fewer ticks in the yard, fewer chances to get bitten</h3>

@@ -52,11 +52,11 @@ const FAQS = [
   },
   {
     question: 'Is there a cure or vaccine for Lyme disease?',
-    answer: 'The cure for an active infection is antibiotics prescribed by a doctor, which resolve most cases. As of 2026 there is no widely available human Lyme disease vaccine in Canada, though candidate vaccines have been in clinical trials. Because there is no vaccine you can rely on, prevention — tick-safe clothing, repellents registered by Health Canada, daily tick checks, and yard treatment — is the frontline defence.',
+    answer: 'The cure for an active infection is antibiotics prescribed by a doctor, which resolve most cases. As of 2026 there is no widely available human Lyme disease vaccine in Canada, though candidate vaccines have been in clinical trials. Because there is no vaccine you can rely on, prevention — permethrin-treated clothing, repellents with a Canadian PCP registration number, daily tick checks, and cutting back tick habitat in your yard — is the frontline defence.',
   },
   {
     question: 'How do I lower my family’s Lyme disease risk in Ontario?',
-    answer: 'Reduce tick bites in the places you spend the most time — usually your own yard. Keep grass short, clear leaf litter, and create a barrier between lawn and woodland edges. Wear light-coloured long sleeves and use a Health Canada–registered repellent (DEET, icaridin, or oil of lemon eucalyptus) in tick habitat, do a full-body tick check after being outdoors, and remove any attached tick promptly with fine-tipped tweezers. Professional tick barrier spray targets the lawn edges, leaf litter, and shrub lines where blacklegged ticks wait.',
+    answer: 'Reduce tick bites in the places you spend the most time — usually your own yard. Keep grass short, clear leaf litter, and create a barrier between lawn and woodland edges. Wear light-coloured long sleeves and use a repellent with a Canadian PCP registration number (DEET, icaridin, or oil of lemon eucalyptus) in tick habitat, following its label, do a full-body tick check after being outdoors, and remove any attached tick promptly with fine-tipped tweezers. Professional tick barrier spray targets the lawn edges, leaf litter, and shrub lines where blacklegged ticks wait.',
   },
 ]
 
@@ -260,7 +260,7 @@ export default function CanLymeDiseaseKillYouPage() {
         <ul>
           <li>Do a full-body tick check after time outdoors &mdash; especially the scalp, behind the knees, waistband, and armpits.</li>
           <li>Remove any attached tick promptly with fine-tipped tweezers, pulling straight up with steady pressure.</li>
-          <li>Wear light-coloured long sleeves and use a Health Canada&ndash;registered repellent (DEET, icaridin, or oil of lemon eucalyptus) in tick habitat.</li>
+          <li>Wear light-coloured long sleeves and use a repellent with a Canadian PCP registration number (DEET, icaridin, or oil of lemon eucalyptus) in tick habitat, following its label.</li>
           <li>Keep grass short, clear leaf litter, and treat the lawn edges and shrub lines where blacklegged ticks wait for a host.</li>
         </ul>
         <p>

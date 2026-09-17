@@ -2,7 +2,10 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = {
   title: 'Mississauga Tick Hot Spots 2026: The Neighbourhoods With the Highest Risk',
@@ -30,11 +33,13 @@ const FAQS = [
   },
   {
     question: 'Should I avoid Erindale Park in summer?',
-    answer: 'You don\'t need to avoid it — but you do need to be deliberate. Erindale Park is one of the best green spaces in the GTA and the off-leash area is genuinely valuable. The risk-reduction protocol is: stay on the wide gravel paths and avoid bushwhacking through tall grass or leaf litter, wear long light-coloured pants tucked into socks, treat clothing with 0.5% permethrin spray (one application lasts six weeks), do a full body tick check within an hour of getting home, and check your dog meticulously before they get back in the car. The danger isn\'t the park — it\'s skipping the protocol and treating it like a neutral environment.',
+    answer: 'You don\'t need to avoid it — but you do need to be deliberate. Erindale Park is one of the best green spaces in the GTA and the off-leash area is genuinely valuable. The risk-reduction protocol is: stay on the wide gravel paths and avoid bushwhacking through tall grass or leaf litter, wear long light-coloured pants tucked into socks (factory-treated permethrin clothing adds a layer; in Canada, consumer permethrin sprays for treating your own clothing are not registered, so buy garments already treated), do a full body tick check within an hour of getting home, and check your dog meticulously before they get back in the car. The danger isn\'t the park — it\'s skipping the protocol and treating it like a neutral environment.',
   },
 ]
 
 const META_TITLE = 'Mississauga Tick Hot Spots 2026 by Neighbourhood'
+
+const AMZ_TAG = tagForSlug('tick-hot-spots-mississauga-2026')
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
@@ -134,10 +139,15 @@ export default function MississaugaTickHotSpotsPage() {
         <p>Etobicoke Creek runs along Mississauga\'s eastern boundary and supports a smaller version of the same dynamic. Marie Curtis Park at the mouth, the creek corridor through Applewood, and the upstream woodlots all support local tick populations. Properties adjacent to the creek itself, especially in lower Applewood and Lakeview east of Cawthra, see meaningful pressure.</p>
 
         <h2>Action steps if you\'re in a Tier 1 or Tier 2 zone</h2>
-        <p>The protocol is the same whether you\'re in Lorne Park, Erindale, or Streetsville. First, get the first barrier spray down before May 25 — earlier if your property is directly ravine-adjacent. Second, run biweekly treatment through to mid-July, then through August and September. Third, do the habitat work: leaf-litter cleanup, fence-line buffer, brush pile removal, short grass. Fourth, brief the household — daily tick checks after any outdoor time, including yard time. Fifth, if you have dogs, talk to your vet about a Bravecto / NexGard / Simparica regimen and check thoroughly after every Credit River walk.</p>
+        <p>The protocol is the same whether you&apos;re in Lorne Park, Erindale, or Streetsville. First, get the first barrier spray down before May 25 — earlier if your property is directly ravine-adjacent. Second, keep treatments going roughly monthly through August and September &mdash; a BuzzSkito tick season is five treatments from May through September. Third, do the habitat work: leaf-litter cleanup, fence-line buffer, brush pile removal, short grass. Fourth, brief the household — daily tick checks after any outdoor time, including yard time. Fifth, if you have dogs, talk to your vet about a Bravecto / NexGard / Simparica regimen and check thoroughly after every Credit River walk.</p>
 
         <h2>Same-week tick service across every Mississauga hot spot</h2>
-        <p>BuzzSkito services every neighbourhood on this map with same-week availability. Whether you\'re booking a one-time spray or a full <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga tick spray</Link> season program, the quote process is the same: send your address and lot size, get a written quote within 24 hours, schedule inside 7 days. Combined <Link href="/mississauga-mosquito-control" className="text-brand-700 underline">Mississauga mosquito control</Link> + tick programs save $100 versus standalone.</p>
+        <p>BuzzSkito services every neighbourhood on this map with same-week availability. Whether you&apos;re booking a one-time spray or a full <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga tick spray</Link> season program, the quote process is the same: send your address and lot size, get a written quote within 24 hours, schedule inside 7 days. Combined <Link href="/mississauga-mosquito-control" className="text-brand-700 underline">Mississauga mosquito control</Link> + tick programs save $100 versus standalone.</p>
+
+        <h2>The one thing worth keeping in the car</h2>
+        <p>Step five of that protocol &mdash; check the dog after every Credit River walk &mdash; is the step that fails in practice, and it fails for a logistical reason rather than a lack of intent. The walk ends, the dog goes in the car, the check gets postponed to whenever you next think of it, and by then an unattached tick has had an hour of quiet to find skin. Doing it in the parking lot instead costs two minutes: comb or part the coat at the ears, collar line, armpits and between the toes, and have a fine-tipped remover in the glovebox for the one that has already latched on. A tick found at the Rattray Marsh boardwalk is a non-event. The same tick found on the bedroom floor two days later is a very different conversation.</p>
+        <AffiliateDisclosure />
+        <p className="not-prose text-gray-700">Our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick-removal tool guide</Link> compares the common types, or <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Related guides</h2>
         <ul>
@@ -163,7 +173,7 @@ export default function MississaugaTickHotSpotsPage() {
 
       </article>
 
-      <CTASection heading="Mississauga\'s hot spot zones need a barrier spray program — not a one-off" subtext="Free custom quote based on your address and lot size. Sent within 24 hours. Same-week service across every Mississauga neighbourhood." />
+      <CTASection heading="Mississauga&apos;s hot spot zones need a barrier spray program — not a one-off" subtext="Free custom quote based on your address and lot size. Sent within 24 hours. Same-week service across every Mississauga neighbourhood." />
     </>
   )
 }

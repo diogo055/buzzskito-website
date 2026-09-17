@@ -93,17 +93,17 @@ export default function TickLifeCyclePage() {
           <p>For a fuller month-by-month breakdown, see <Link href="/blog/tick-season-ontario-when-are-ticks-active">tick season in Ontario — when are ticks active</Link>, and check how long each stage can survive between meals in <Link href="/blog/how-long-do-ticks-live">how long do ticks live</Link>.</p>
 
           <h2>How Ticks Find You — and How to Break the Cycle</h2>
-          <p>Ticks do not fly or jump; they &ldquo;quest.&rdquo; A tick climbs to the tip of a grass blade or leaf, holds out its front legs, and waits to grab onto anything that brushes past. That behaviour is the whole reason yard control works: ticks concentrate in predictable zones — the shaded, humid, leaf-littered transition between lawn and woods, garden bed edges, tall grass, and fence lines. Break the cycle by making those zones inhospitable:</p>
+          <p>Ticks do not fly or jump; they &ldquo;quest.&rdquo; A tick climbs to the tip of a grass blade or leaf, holds out its front legs, and waits to grab onto anything that brushes past. That behaviour is why yard control focuses on specific zones: ticks concentrate in predictable zones — the shaded, humid, leaf-littered transition between lawn and woods, garden bed edges, tall grass, and fence lines. Break the cycle by making those zones inhospitable:</p>
           <ul>
             <li><strong>Reduce habitat:</strong> Keep grass short, clear leaf litter, and create a dry woodchip or gravel barrier between lawn and woods to stop ticks from questing at the edge.</li>
-            <li><strong>Treat the edges:</strong> A professional <Link href="/tick-control">tick barrier spray</Link> applied to the specific 1-3 metre transition zones where ticks concentrate kills questing nymphs and adults on contact — the single stage-independent intervention that protects your family all season.</li>
-            <li><strong>Check every time:</strong> Because nymphs are so small, a body check after every outing — plus prompt, safe removal — catches the ticks that slip past the yard barrier.</li>
+            <li><strong>Treat the edges:</strong> A professional <Link href="/tick-control">tick barrier spray</Link> applied to the specific 1-3 metre transition zones where ticks concentrate targets questing nymphs and adults where they wait, and is repeated through the season (5 sprays) as different stages become active.</li>
+            <li><strong>Check every time:</strong> Because nymphs are so small, a body check after every outing — plus prompt, correct removal — catches the ticks that slip past the yard barrier.</li>
           </ul>
           <p>For the complete season-long routine, see <Link href="/learn/how-to-combat-ticks">how to combat ticks</Link> and our <Link href="/blog/ultimate-tick-control-guide-ontario">ultimate tick control guide for Ontario</Link>.</p>
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Protect your yard from ticks</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito treats the exact yard edges where ticks quest — 5 sprays per season, Health Canada-approved formula, 150 five-star reviews.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito treats the exact yard edges where ticks quest — 5 sprays per season, products applied according to label directions, 150+ five-star reviews.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -136,7 +136,7 @@ export default function TickLifeCyclePage() {
         </div>
       </article>
 
-      <CTASection heading="Two-Year Cycle. One Season of Protection." subtext="Get a free quote for licensed tick barrier spray. 5 sprays per season. Health Canada-approved." variant="dark" />
+      <CTASection heading="Two-Year Cycle. A Season-Long Plan." subtext="Get a free quote for licensed tick barrier spray. 5 sprays per season: $597 on its own, or $497 with a mosquito plan (plus HST)." variant="dark" />
     </>
   )
 }

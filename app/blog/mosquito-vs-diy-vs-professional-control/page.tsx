@@ -6,7 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = MOSQUITO_BLOGS.supporting[2]
@@ -15,11 +15,11 @@ const UPDATED = POST.date
 const FAQS = [
   {
     question: 'Does professional mosquito spray actually work?',
-    answer: 'Yes, with a caveat worth stating. Professional barrier spray applied to vegetation and shrubs leaves a residual on those surfaces for up to 30 days per treatment, and it works because adult mosquitoes spend the day resting on shaded leaf undersides and inside shrubs — so treating those surfaces reaches them where they actually are. A citronella candle, by contrast, only masks scent cues within about a metre of the flame and stops working when it goes out. What the spray does not do is clear an area: mosquitoes disperse in from neighbouring properties and ravines, which is why treatment is repeated through the season.',
+    answer: 'Yes, with a caveat worth stating. Professional barrier spray applied to vegetation and shrubs leaves a residual on those surfaces that a seasonal plan renews on schedule (every 2 weeks on Standard, monthly on Basic), and it works because adult mosquitoes spend the day resting on shaded leaf undersides and inside shrubs — so treating those surfaces reaches them where they actually are. A citronella candle, by contrast, only masks scent cues within about a metre of the flame and stops working when it goes out. What the spray does not do is clear an area: mosquitoes disperse in from neighbouring properties and ravines, which is why treatment is repeated through the season.',
   },
   {
     question: 'Is professional mosquito control worth it?',
-    answer: 'For homeowners who want to actually use their backyard during GTA mosquito season, yes. DIY methods — citronella, consumer foggers, DEET — either protect people individually without reducing yard-wide populations, or provide very short-term (1–7 day) reduction. Professional barrier spray treats the whole property for up to 30 days. Professional barrier spray starts from $99 per treatment and delivers continuous protection from May through September.',
+    answer: 'For homeowners who want to actually use their backyard during GTA mosquito season, yes. DIY methods — citronella, consumer foggers, DEET — either protect people individually without reducing yard-wide populations, or provide very short-term (1–7 day) reduction. Professional barrier spray treats the resting surfaces across the whole property. It starts from $99 per treatment, and seasonal plans run from May through September with the residual renewed on schedule — every 2 weeks on Standard, monthly on Basic.',
   },
   {
     question: 'How effective are citronella candles against mosquitoes?',
@@ -27,11 +27,11 @@ const FAQS = [
   },
   {
     question: 'Does DEET spray for yards work the same as professional mosquito spray?',
-    answer: 'DEET is a personal repellent applied to skin and clothing — it protects the person wearing it but does nothing to reduce mosquito populations in your yard. Professional barrier spray is applied to the vegetation where mosquitoes rest, killing them and providing residual protection for up to 30 days. They solve different problems: DEET prevents individual bites; professional spray reduces overall mosquito density in your outdoor space.',
+    answer: 'DEET is a personal repellent applied to skin and clothing — it protects the person wearing it but does nothing to reduce mosquito populations in your yard. Professional barrier spray is applied to the vegetation where mosquitoes rest, killing them on contact and leaving a residual on the leaves that is renewed on the plan schedule. They solve different problems: DEET prevents individual bites; professional spray reduces overall mosquito density in your outdoor space.',
   },
   {
     question: 'How long does professional mosquito spray last compared to store-bought products?',
-    answer: 'Professional barrier spray lasts up to 30 days per application. Consumer yard foggers and hose-end sprays last 1–7 days depending on weather and conditions. The difference comes down to active ingredient concentration, adhesion chemistry that bonds the product to leaf surfaces, and thorough coverage by a trained technician who knows all the resting sites mosquitoes prefer.',
+    answer: 'Rather than promise a number of days, a professional seasonal plan renews the residual on the leaves where mosquitoes rest on a fixed schedule — every 2 weeks on Standard, monthly on Basic — and every plan includes a rain-back guarantee: rain within 1 hour of your treatment and we come back and re-treat free. Consumer yard foggers and hose-end sprays last 1–7 days depending on weather and conditions. The practical difference comes down to that repeat schedule and thorough coverage by a licensed technician who knows the resting sites mosquitoes prefer, with products applied according to label directions.',
   },
 ]
 
@@ -72,10 +72,10 @@ export default function DIYvsProfessionalPage() {
         <div className="not-prose"><AuthorByline datePublished={POST.date} dateModified={UPDATED} /></div>
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Professional barrier spray is the only approach that treats the resting surfaces across an entire Ontario yard — a residual on shaded vegetation lasting up to 30 days per treatment. DIY tools like citronella, foggers, and DEET are useful supplements, not substitutes. Nothing here clears a yard; mosquitoes disperse back in from surrounding properties.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Professional barrier spray treats the resting surfaces across an entire Ontario yard — a residual on the shaded vegetation where mosquitoes rest, renewed on your plan's schedule. DIY tools like citronella, foggers, and DEET are useful supplements, not substitutes. Nothing here clears a yard; mosquitoes disperse back in from surrounding properties.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>Citronella candles reduce mosquito landings by only 11–42%, and only within about 1 metre of the flame.</li>
-            <li>Consumer foggers and hose-end sprays last 1–7 days; professional barrier spray lasts up to 30 days.</li>
+            <li>Consumer foggers and hose-end sprays last 1–7 days; professional barrier spray is renewed on a set schedule — every 2 weeks on Standard, monthly on Basic.</li>
             <li>DEET protects the wearer's skin but does nothing to reduce the yard's mosquito population.</li>
             <li>BTI mosquito dunks kill larvae in standing water for about 30 days and are harmless to pets, birds, and fish.</li>
             <li>A Thermacell creates roughly a 6-metre repellent zone around a seated area — effective for a patio table, useless for a whole yard.</li>
@@ -85,11 +85,11 @@ export default function DIYvsProfessionalPage() {
         </div>
 
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
-          We're a mosquito control company — so take our perspective with that in mind. But the evidence strongly supports professional barrier spray over DIY methods for meaningful, lasting mosquito reduction. Here's an honest breakdown of each approach. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Mosquito Control Guide</Link>.
+          We're a mosquito control company — so take our perspective with that in mind. Here's an honest breakdown of what each approach covers and where it fits. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Mosquito Control Guide</Link>.
         </p>
 
         <h2>Citronella Candles and Torches</h2>
-        <p><strong>Effectiveness: Low.</strong> Citronella products create a localized scent barrier that can marginally reduce mosquitoes near the immediate source — within about 1 metre of the flame. They have no residual effect and provide zero protection when the candle isn't lit. Research consistently shows citronella candles reduce mosquito landings by only 11–42% in the immediate vicinity — and that protection ends the moment the flame does, whereas a barrier treatment leaves a residual on the vegetation for weeks.</p>
+        <p><strong>Effectiveness: Low.</strong> Citronella products create a localized scent barrier that can marginally reduce mosquitoes near the immediate source — within about 1 metre of the flame. They have no residual effect and provide zero protection when the candle isn't lit. Research consistently shows citronella candles reduce mosquito landings by only 11–42% in the immediate vicinity — and that protection ends the moment the flame does, whereas a barrier treatment leaves a residual on the vegetation that a seasonal plan renews on schedule.</p>
         <p><strong>Best use:</strong> As a supplement on a patio table while sitting directly beside it. Not a yard-wide solution.</p>
 
         <h2>DEET and Other Personal Repellents</h2>
@@ -99,10 +99,10 @@ export default function DIYvsProfessionalPage() {
         <h2>Consumer Backyard Foggers and Yard Sprays</h2>
         <p><strong>Effectiveness: Moderate short-term.</strong> Consumer foggers and hose-end sprays can provide 1–7 days of mosquito reduction when properly applied. The limitations are significant:</p>
         <ul>
-          <li>Much lower active ingredient concentrations than professional-grade products</li>
+          <li>Labelled for homeowner use, with the application rate and re-application interval set on each product&rsquo;s label</li>
           <li>Require the homeowner to apply thoroughly and consistently</li>
           <li>No guarantee of proper coverage (missed resting sites reduce effectiveness significantly)</li>
-          <li>Faster breakdown — typically effective for only a few days to a week</li>
+          <li>Short-term by design — typically a few days to a week, with re-application left to the homeowner</li>
           <li>Repeated DIY application adds up in cost and time over a season</li>
         </ul>
 
@@ -118,16 +118,17 @@ export default function DIYvsProfessionalPage() {
         </div>
 
         <h2>Professional Barrier Spray</h2>
-        <p><strong>Effectiveness: High and sustained.</strong> Professional-grade residual insecticides applied by trained technicians provide the most comprehensive, longest-lasting mosquito reduction of any residential option. Key advantages:</p>
+        <p><strong>Coverage: the whole yard, renewed on schedule.</strong> Residual insecticides applied by licensed technicians treat the shaded vegetation where mosquitoes rest across the property. What that involves:</p>
         <ul>
-          <li>Higher active ingredient concentrations — more effective knockdown and longer residual</li>
+          <li>Licensed application — {PROMISES.labelLine.toLowerCase()}</li>
           <li>Technician expertise — thorough coverage of all resting sites, including areas a homeowner typically misses</li>
-          <li>Up to 30 days residual protection per visit</li>
-          <li>Guaranteed results — BuzzSkito retreats at no cost if mosquitoes return within the protection window</li>
+          <li>Residual renewed on your plan's schedule — every 2 weeks on Standard, monthly on Basic</li>
+          <li>{PROMISES.rainBack}</li>
+          <li>{PROMISES.biteFreeScope}: if mosquitoes come back between scheduled treatments, we re-treat at no charge</li>
         </ul>
 
         <h2>The Bottom Line</h2>
-        <p>For homeowners who want to actually use their backyard during GTA mosquito season, professional barrier spray is the only approach that reliably delivers a meaningful reduction in mosquito populations across the entire property. DIY methods are useful supplements — not substitutes.</p>
+        <p>For homeowners who want to actually use their backyard during GTA mosquito season, professional barrier spray is the option here that treats the resting surfaces across the entire property on a set schedule, applied by a licensed technician according to label directions. DIY methods are useful supplements — not substitutes.</p>
 
         <h2>Related Guides</h2>
         <ul>
@@ -158,7 +159,7 @@ export default function DIYvsProfessionalPage() {
         </div>
       </section>
 
-      <CTASection heading="Professional Mosquito Control That Actually Works" subtext="Free quote for your GTA property. No contracts, guaranteed results." />
+      <CTASection heading="Professional Mosquito Control That Actually Works" subtext={`Free quote for your GTA property. No contracts. ${PROMISES.rainBackShort}.`} />
     </>
   )
 }

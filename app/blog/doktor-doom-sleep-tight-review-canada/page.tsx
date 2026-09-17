@@ -14,17 +14,17 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'doktor-doom-sleep-tight-review-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
-const TITLE = 'Doktor Doom Sleep Tight Review Canada 2026 — The PMRA-Registered Mattress Spray, Tested Against the Grey-Market'
+const TITLE = 'Doktor Doom Sleep Tight Review Canada 2026 — The Canadian Mattress Spray With a PCP Number, Tested Against the Grey-Market'
 const META_TITLE = 'Doktor Doom Sleep Tight Review Canada 2026'
 
 const FAQS = [
   {
     question: 'Is Doktor Doom Sleep Tight a good bed bug spray?',
-    answer: 'For a Canadian homeowner who wants a PMRA-registered contact spray they can legally buy and use on and around a bed, Doktor Doom Sleep Tight is one of the better mainstream choices. It is a Canadian-made, Health Canada–registered bed bug product with a fast knockdown formula, and it is labelled for use on mattress seams and bed frames when applied exactly as the label directs. Its real strength is speed on contact — it drops bugs it directly hits quickly. Its honest limit is the same as every liquid spray: it does almost nothing to eggs cemented deep in fabric, and residual sprays do not solve an infestation on their own. Treat it as the contact-kill and spot-treatment layer of a plan that also includes heat and a long-lasting desiccant dust.',
+    answer: 'For a Canadian homeowner who wants a contact spray with a Canadian PCP number that they can legally buy and use on and around a bed, Doktor Doom Sleep Tight is one of the better mainstream choices. It is a Canadian-made bed bug product with a PCP registration number on the can and a fast knockdown formula, and it is labelled for use on mattress seams and bed frames when applied exactly as the label directs. Its real strength is speed on contact — it drops bugs it directly hits quickly. Its honest limit is the same as every liquid spray: it does almost nothing to eggs cemented deep in fabric, and residual sprays do not solve an infestation on their own. Treat it as the contact-kill and spot-treatment layer of a plan that also includes heat and a long-lasting desiccant dust.',
   },
   {
     question: 'Is Doktor Doom Sleep Tight registered with Health Canada / PMRA?',
-    answer: 'Doktor Doom is a Canadian brand and its consumer bed bug products carry a Pest Control Product (PCP) registration number issued by Health Canada\'s Pest Management Regulatory Agency (PMRA). That registration is the single most important reason to prefer it over a US-only product you might find on a grey-market listing. A PCP number means the formula and its label directions were reviewed for the Canadian market — which product is inside the can, at what concentration, for which surfaces, and with what safety directions. Always confirm the PCP number is printed on the actual can you receive, and read and follow the label; the label is the law for any registered pesticide in Canada.',
+    answer: 'Doktor Doom is a Canadian brand and its consumer bed bug products carry a Pest Control Product (PCP) registration number under the Pest Control Products Act. That registration is the single most important reason to prefer it over a US-only product you might find on a grey-market listing. A PCP number ties the can to a specific registered formula and label for the Canadian market — which product is inside the can, at what concentration, for which surfaces, and with what safety directions. Always confirm the PCP number is printed on the actual can you receive, and read and follow the label; the label is the law for any registered pesticide in Canada.',
   },
   {
     question: 'Can you spray Doktor Doom Sleep Tight directly on a mattress?',
@@ -44,7 +44,7 @@ const FAQS = [
   },
   {
     question: 'How is Doktor Doom different from US-only bed bug sprays like the ones sold across the border?',
-    answer: 'The critical difference is legal status in Canada, not marketing. Many popular bed bug sprays are formulated and registered for the US market only; importing or buying them through a grey-market listing means using an unregistered pesticide in Canada, which is not legal and which gives you no assurance the Canadian label directions or the exact formula match. Doktor Doom is made in Canada and carries a Health Canada PCP registration, so you are buying a product reviewed for use here, with directions written for Canadian consumers. When you shop, that PCP number on the can is the thing that separates a compliant purchase from a risky one — prefer the registered Canadian product over a cheaper cross-border listing every time.',
+    answer: 'The critical difference is legal status in Canada, not marketing. Many popular bed bug sprays are formulated and registered for the US market only; importing or buying them through a grey-market listing means using an unregistered pesticide in Canada, which is not legal and which gives you no assurance the Canadian label directions or the exact formula match. Doktor Doom is made in Canada and carries a Canadian PCP registration number, so you are buying a product registered for use here, with directions written for Canadian consumers. When you shop, that PCP number on the can is the thing that separates a compliant purchase from a risky one — prefer the registered Canadian product over a cheaper cross-border listing every time.',
   },
   {
     question: 'How long does Doktor Doom Sleep Tight keep working after it dries?',
@@ -52,7 +52,7 @@ const FAQS = [
   },
   {
     question: 'Is Doktor Doom Sleep Tight safe around kids and pets?',
-    answer: 'It is a registered insecticide, so "safe" means "safe when you follow the label exactly," not "harmless." The label will specify keeping children and pets out of the treated area until surfaces are fully dry, ventilating the room, not applying it to surfaces they will contact directly, and not treating the sleeping surface itself beyond what is permitted. Aerosols also should never be sprayed near open flame or pilot lights. Read the full label before you spray, follow the re-entry and drying directions precisely, and store the can out of reach. If anyone in the home has respiratory sensitivity, favour the non-chemical layers — encasements, heat, and careful vacuuming — and minimise spray use.',
+    answer: 'It is an insecticide, and the label, not the brand, sets the rules around kids and pets. The label will specify keeping children and pets out of the treated area until surfaces are fully dry, ventilating the room, not applying it to surfaces they will contact directly, and not treating the sleeping surface itself beyond what is permitted. Aerosols also should never be sprayed near open flame or pilot lights. Read the full label before you spray, follow the re-entry and drying directions precisely, and store the can out of reach. If anyone in the home has respiratory sensitivity, favour the non-chemical layers — encasements, heat, and careful vacuuming — and minimise spray use.',
   },
   {
     question: 'Do I still need a professional if I use Doktor Doom Sleep Tight?',
@@ -60,7 +60,7 @@ const FAQS = [
   },
   {
     question: 'Where can I buy Doktor Doom Sleep Tight in Canada?',
-    answer: 'As a Canadian brand it turns up at hardware and home-improvement retailers, garden centres, and hydroponics shops, and it is listed on Amazon.ca where availability is the most consistent year-round. Because it is a registered pesticide, some listings and store shelves stock it seasonally, so selection can thin out. Whichever channel you use, confirm you are buying the current Canadian-registered Sleep Tight product with its PCP number on the can — not a look-alike or a US import — and check current availability before you build a plan around it.',
+    answer: 'As a Canadian brand it turns up at hardware and home-improvement retailers, garden centres, and hydroponics shops, and it is listed on Amazon.ca where availability is the most consistent year-round. Because it is a registered pesticide, some listings and store shelves stock it seasonally, so selection can thin out. Whichever channel you use, confirm you are buying the current Canadian Sleep Tight product with its PCP number on the can — not a look-alike or a US import — and check current availability before you build a plan around it.',
   },
   {
     question: 'What should I pair with Doktor Doom Sleep Tight for a complete plan?',
@@ -70,7 +70,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'An independent Canadian review of Doktor Doom Sleep Tight bed bug spray: why its PMRA registration matters, how fast it knocks bugs down, where a contact spray fails (eggs, resistance), and how to build the heat-plus-dust plan around it. Updated 2026.',
+  description: 'An independent Canadian review of Doktor Doom Sleep Tight bed bug spray: why its Canadian PCP number matters, how fast it knocks bugs down, where a contact spray fails (eggs, resistance), and how to build the heat-plus-dust plan around it. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -82,7 +82,7 @@ const AMZ_TAG = tagForSlug('doktor-doom-sleep-tight-review-canada')
 export default function DoktorDoomSleepTightReviewCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian review of Doktor Doom Sleep Tight bed bug spray — PMRA registration, contact-kill speed, the egg and resistance limits of any spray, and the heat-plus-dust plan to build around it.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian review of Doktor Doom Sleep Tight bed bug spray — its Canadian PCP number, contact-kill speed, the egg and resistance limits of any spray, and the heat-plus-dust plan to build around it.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Doktor Doom Sleep Tight Review Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -95,7 +95,7 @@ export default function DoktorDoomSleepTightReviewCanadaPage() {
             <span className="text-white">Doktor Doom Sleep Tight Review</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Doktor Doom Sleep Tight is the PMRA-registered, Canadian-made bed bug spray with a fast knockdown formula &mdash; here is what it does well, where every liquid spray fails (eggs and resistance), and the heat-plus-dust plan that turns a can of spray into an actual result.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Doktor Doom Sleep Tight is the Canadian-made bed bug spray with a PCP registration number and a fast knockdown formula &mdash; here is what it does well, where every liquid spray fails (eggs and resistance), and the heat-plus-dust plan that turns a can of spray into an actual result.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -107,7 +107,7 @@ export default function DoktorDoomSleepTightReviewCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Doktor Doom Sleep Tight is a <strong>Canadian-made, PMRA-registered bed bug spray</strong> built for fast contact knockdown on mattress seams, bed frames, and baseboards. Its edge over grey-market US sprays is that it is <strong>legal to use in Canada</strong> and carries a Health Canada PCP number. Its honest limit is the limit of every spray: it barely touches eggs, and pyrethroid resistance is real. Use it as the fast knockdown layer &mdash; then add heat for the eggs and a desiccant dust for the long, resistance-proof kill.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Doktor Doom Sleep Tight is a <strong>Canadian-made bed bug spray with a PCP registration number</strong>, built for fast contact knockdown on mattress seams, bed frames, and baseboards. Its edge over grey-market US sprays is that it is <strong>legal to use in Canada</strong> and carries a Canadian PCP number. Its honest limit is the limit of every spray: it barely touches eggs, and pyrethroid resistance is real. Use it as the fast knockdown layer &mdash; then add heat for the eggs and a desiccant dust for the long, resistance-proof kill.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Confirm the <strong>PCP registration number</strong> is printed on the can &mdash; that is what separates a legal Canadian product from a US import.</li>
               <li>Spray the <strong>harbourage</strong> &mdash; seams, folds, frame, baseboards &mdash; per the label, never soak the sleeping surface.</li>
@@ -131,7 +131,7 @@ export default function DoktorDoomSleepTightReviewCanadaPage() {
             search="doktor doom sleep tight bed bug"
             score={8.1}
             pros={[
-              'PMRA / Health Canada registered — legal to use in Canada',
+              'Canadian PCP number on the label — legal to use in Canada',
               'Canadian-made, widely stocked, consistent formula',
               'Fast contact knockdown on bugs you directly spray',
               'Labelled for mattress seams, frames, and baseboards',
@@ -168,7 +168,7 @@ export default function DoktorDoomSleepTightReviewCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Doktor Doom Sleep Tight<br /><span className="font-normal text-xs text-gray-500">contact + residual spray</span></td>
                   <td className="px-4 py-3 text-gray-700">Fast knockdown on direct contact; short residual film</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No</strong> &mdash; adults &amp; nymphs only</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Registered</strong> &mdash; PMRA / PCP #</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">PCP #</strong> on the can</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
@@ -196,7 +196,7 @@ export default function DoktorDoomSleepTightReviewCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            In Canada, any product that claims to kill bed bugs is a pesticide and must carry a Health Canada Pest Control Product (PCP) registration number. Doktor Doom Sleep Tight does; an unregistered US import does not, and using one here is not legal &mdash; which is why we never point you to a grey-market listing, only the registered Canadian can.
+            In Canada, any product that claims to kill bed bugs is a pesticide and must carry a Pest Control Product (PCP) registration number. Doktor Doom Sleep Tight does; an unregistered US import does not, and using one here is not legal &mdash; which is why we never point you to a grey-market listing, only the registered Canadian can.
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -211,8 +211,8 @@ export default function DoktorDoomSleepTightReviewCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>Doktor Doom Sleep Tight: What It Is, and Why the &ldquo;Canadian&rdquo; Part Matters</h2>
-          <p>Doktor Doom is a Canadian insecticide brand, and Sleep Tight is its consumer bed bug product &mdash; a spray built to be applied to the seams, folds, and frame of a bed and the baseboards around it. On paper that describes a hundred bed bug sprays. What separates this one, for a Canadian buyer, is not a secret ingredient; it is a registration number. Sleep Tight carries a <strong>Health Canada Pest Control Product (PCP) registration</strong>, which means the formula and its label were reviewed for sale and use in this country. That sounds like paperwork. In practice it is the whole reason to choose it. Sleep Tight is one product in a much wider Canadian range, and <Link href="/blog/doktor-doom-canada-guide" className="text-brand-700 underline">which Doktor Doom product does which job</Link> maps the aerosols, residuals and foggers against the three jobs the brand is wrong for.</p>
-          <p>Here is why. Many of the bed bug sprays you will read about online &mdash; including some of the most-recommended American names &mdash; are registered for the United States only. Buying one through a cross-border or grey-market listing means using an <em>unregistered pesticide</em> in Canada, which is not legal, and it means you have no assurance that what is in the can, at what strength, and with what safety directions, matches anything reviewed for Canadian use. Sleep Tight sidesteps all of that: it is made here, sold here, and labelled here. When people ask us for &ldquo;the best bed bug spray,&rdquo; the honest Canadian-specific answer usually starts with &ldquo;the one you are actually allowed to use,&rdquo; and that shortlist is short.</p>
+          <p>Doktor Doom is a Canadian insecticide brand, and Sleep Tight is its consumer bed bug product &mdash; a spray built to be applied to the seams, folds, and frame of a bed and the baseboards around it. On paper that describes a hundred bed bug sprays. What separates this one, for a Canadian buyer, is not a secret ingredient; it is a registration number. Sleep Tight carries a <strong>Canadian Pest Control Product (PCP) registration number</strong>, which ties that formula and its label to registration for sale and use in this country. That sounds like paperwork. In practice it is the whole reason to choose it. Sleep Tight is one product in a much wider Canadian range, and <Link href="/blog/doktor-doom-canada-guide" className="text-brand-700 underline">which Doktor Doom product does which job</Link> maps the aerosols, residuals and foggers against the three jobs the brand is wrong for.</p>
+          <p>Here is why. Many of the bed bug sprays you will read about online &mdash; including some of the most-recommended American names &mdash; are registered for the United States only. Buying one through a cross-border or grey-market listing means using an <em>unregistered pesticide</em> in Canada, which is not legal, and it means you have no assurance that what is in the can, at what strength, and with what safety directions, matches anything registered for Canadian use. Sleep Tight sidesteps all of that: it is made here, sold here, and labelled here. When people ask us for &ldquo;the best bed bug spray,&rdquo; the honest Canadian-specific answer usually starts with &ldquo;the one you are actually allowed to use,&rdquo; and that shortlist is short.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of Sleep Tight and the layers you build around it:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -239,7 +239,7 @@ export default function DoktorDoomSleepTightReviewCanadaPage() {
           <h2>How to Choose: What You&rsquo;re Actually Paying For in a Bed Bug Spray</h2>
           <p>Bed bug sprays range from a few dollars to premium multi-packs, and the price gap rarely tracks effectiveness the way you would hope. When you are deciding what to buy, prioritise your money and attention in this order:</p>
           <ul>
-            <li><strong>Canadian registration (non-negotiable).</strong> A Health Canada PCP number on the can is the first filter. It is what makes the product legal to use here and gives you a reviewed, consistent formula and label. A cheaper US import that lacks it is not a bargain; it is a liability. This is the one criterion you never compromise.</li>
+            <li><strong>Canadian registration (non-negotiable).</strong> A Canadian PCP number on the can is the first filter. It is what makes the product legal to use here and ties it to a consistent registered formula and label. A cheaper US import that lacks it is not a bargain; it is a liability. This is the one criterion you never compromise.</li>
             <li><strong>The right label for your surfaces (pay attention here).</strong> A spray labelled for mattress seams, frames, and cracks is what you want for a bed. A general crawling-insect spray not labelled for those surfaces is the wrong tool even if it is registered.</li>
             <li><strong>Knockdown speed vs residual length (know the trade-off).</strong> Fast-knockdown sprays like Sleep Tight excel at killing what you hit now; they do not lay down a months-long barrier. If you want persistence, that job belongs to a desiccant dust, not to buying a bigger can of spray.</li>
             <li><strong>Honest expectations about eggs and resistance (free, but priceless).</strong> No spray solves these. Budget from the start for heat and a dust, and you will spend far less overall than the person who buys spray after spray hoping the next can is different.</li>
@@ -256,7 +256,7 @@ export default function DoktorDoomSleepTightReviewCanadaPage() {
           <p>For the full step-by-step version of this stack &mdash; including how many treatment rounds to expect and when to stop &mdash; see our guides on <Link href="/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada">getting rid of bed bugs yourself</Link> and <Link href="/blog/bed-bug-heat-treatment-diy-canada">DIY heat treatment</Link>, and the umbrella <Link href="/blog/bed-bug-control-canada-hub">bed bug control hub</Link> that ties every tool together.</p>
 
           <h2>Is Doktor Doom Sleep Tight Worth It?</h2>
-          <p>For the specific job of &ldquo;a legal, fast-acting contact spray a Canadian can buy and use on a bed,&rdquo; yes &mdash; Sleep Tight is a sensible, honest pick, and the PMRA registration alone makes it a better choice than the tempting grey-market US names. Where it stops being worth it is the moment you expect it to be the whole solution. A can of spray will not clear an established infestation, no spray will, and pouring money into more spray is the classic way people spend a lot and stay itchy. Buy one registered can, use it with discipline on the harbourage, and put the rest of your effort into the heat and dust and monitoring that actually finish the job. Do that, and the spray is a genuinely useful part of a plan that works. Skip the plan, and it is just a reassuring hiss.</p>
+          <p>For the specific job of &ldquo;a legal, fast-acting contact spray a Canadian can buy and use on a bed,&rdquo; yes &mdash; Sleep Tight is a sensible, honest pick, and its Canadian PCP registration alone makes it a better choice than the tempting grey-market US names. Where it stops being worth it is the moment you expect it to be the whole solution. A can of spray will not clear an established infestation, no spray will, and pouring money into more spray is the classic way people spend a lot and stay itchy. Buy one registered can, use it with discipline on the harbourage, and put the rest of your effort into the heat and dust and monitoring that actually finish the job. Do that, and the spray is a genuinely useful part of a plan that works. Skip the plan, and it is just a reassuring hiss.</p>
           <p>If you would rather compare the full device side of the fight &mdash; steamers, heaters, chambers, dusts, and traps in one place &mdash; our <Link href="/blog/best-pest-control-equipment-canada">Canadian pest control equipment hub</Link> lays out every category and where each one fits.</p>
           <p>For the wider chemical picture &mdash; how Sleep Tight compares with every other registered Canadian can, which US products are illegal here, and what actually kills bed bug eggs &mdash; start with our <Link href="/blog/bed-bug-spray-canada">best bed bug spray and killer guide for Canada</Link>.</p>
 

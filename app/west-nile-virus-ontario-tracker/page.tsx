@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { BUSINESS } from '@/lib/constants'
+import { BUSINESS, PROMISES } from '@/lib/constants'
 
 const SLUG = '/west-nile-virus-ontario-tracker'
 
@@ -215,7 +215,7 @@ const FAQS = [
   },
   {
     question: 'How does professional mosquito control reduce West Nile virus risk in my yard?',
-    answer: 'Yard-level mosquito control targets the Culex mosquitoes that transmit West Nile virus by attacking both the adults and their breeding sites. A professional barrier spray treats the shaded vegetation, fence lines and resting areas where adult Culex shelter during the day, while source reduction — eliminating standing water in gutters, containers, bird baths and unused pools — removes the stagnant water Culex need to breed. This complements, and does not replace, municipal catch-basin larviciding and personal protection (repellent, dusk/dawn cover-up). It is a risk-reduction measure, not a medical treatment.',
+    answer: 'Yard-level mosquito control works on the mosquitoes, not on the virus. Source reduction — emptying standing water from gutters, containers, bird baths and unused pools — removes the stagnant water Culex need to breed, and it is the step Ontario public health units advise homeowners to take. A professional barrier spray, applied as the product label directs, is aimed at the shaded vegetation, fence lines and resting areas where adult Culex shelter during the day. No yard treatment can promise to prevent West Nile virus infection, and neither step replaces municipal catch-basin larviciding or personal protection (repellent, covering up at dusk and dawn). It is mosquito control, not a medical treatment.',
   },
   {
     question: 'Is this tracker a substitute for medical advice?',
@@ -530,7 +530,7 @@ export default function WestNileVirusOntarioTrackerPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mt-3 italic">Because Culex breeds in standing water close to homes, removing that water &mdash; and treating the shaded resting areas where adults shelter by day &mdash; is the core of yard-level WNV risk reduction. See the <Link href="/gta-mosquito-pressure-map" className="text-emerald-700 underline font-semibold">GTA mosquito pressure map</Link> for neighbourhood-level context.</p>
+          <p className="text-xs text-gray-500 mt-3 italic">Because Culex breeds in standing water close to homes, removing that water is the first yard-level step public health units recommend; a barrier treatment, where used, is aimed at the shaded resting areas where adults shelter by day. See the <Link href="/gta-mosquito-pressure-map" className="text-emerald-700 underline font-semibold">GTA mosquito pressure map</Link> for neighbourhood-level context.</p>
         </div>
       </section>
 
@@ -621,7 +621,7 @@ export default function WestNileVirusOntarioTrackerPage() {
                 <div><strong className="text-brand-900">Wind-down.</strong> Cooler temperatures end mosquito activity and the season closes. Final case totals are compiled and published by PHO/PHAC the following year.</div>
               </li>
             </ol>
-            <p className="text-xs text-gray-500 mt-5 italic">For BuzzSkito&rsquo;s service-season context, our mosquito barrier-spray program runs May through September &mdash; deliberately spanning the full Culex risk window.</p>
+            <p className="text-xs text-gray-500 mt-5 italic">For BuzzSkito&rsquo;s service-season context, our mosquito barrier-spray season runs May through September. A barrier treatment controls mosquitoes where it is applied; it is not a West Nile virus prevention measure, and the public-health advice above still applies.</p>
           </div>
         </div>
       </section>
@@ -630,7 +630,7 @@ export default function WestNileVirusOntarioTrackerPage() {
       <section className="bg-gradient-to-br from-emerald-900 via-brand-900 to-brand-950 text-white py-14 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <blockquote className="text-2xl sm:text-3xl font-extrabold leading-snug">
-            &ldquo;Most people who catch West Nile virus never feel a thing &mdash; but the one mosquito that carries it, Culex, breeds in the stagnant water sitting in your own backyard. Tip out the standing water, treat the shady spots where they rest, and you&rsquo;ve cut your family&rsquo;s risk before the season even peaks.&rdquo;
+            &ldquo;Most people who catch West Nile virus never feel a thing &mdash; but the mosquito that mainly carries it here, Culex, breeds in the stagnant water sitting in your own backyard. Tip out the standing water every week, before the season peaks, and wear repellent when you&rsquo;re out at dusk.&rdquo;
           </blockquote>
           <p className="mt-6 text-sm text-emerald-300 font-bold uppercase tracking-widest">Alex &middot; BuzzSkito Mosquito &amp; Tick Control</p>
         </div>
@@ -729,9 +729,11 @@ export default function WestNileVirusOntarioTrackerPage() {
       {/* CLOSING CTA */}
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-extrabold mb-3">Cut your yard&rsquo;s West Nile risk this season</h2>
-          <p className="text-base text-brand-100 mb-8 max-w-2xl mx-auto leading-relaxed">The mosquito that carries West Nile virus &mdash; Culex &mdash; breeds in standing water on your own property and rests in shady vegetation by day. BuzzSkito&rsquo;s Health Canada-approved barrier spray targets both, while we help you find and eliminate the breeding sites Culex needs. It is risk reduction, not a medical treatment &mdash; but it is the single most practical thing you can do at the yard level.</p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          {/* Heading and copy reworded Sep 2026: the service must not claim to prevent or cut West Nile
+              risk, and DIR2016-01 bars "Health Canada-approved" and blanket safety claims. */}
+          <h2 className="text-3xl font-extrabold mb-3">Take on the Culex mosquitoes in your yard this season</h2>
+          <p className="text-base text-brand-100 mb-8 max-w-2xl mx-auto leading-relaxed">The mosquito that carries West Nile virus &mdash; Culex &mdash; breeds in standing water on your own property and rests in shady vegetation by day. BuzzSkito&rsquo;s barrier spray is applied to those resting areas by an Ontario-licensed operator, according to the product label, and we help you find the standing water Culex needs to breed. It is mosquito control, not a medical treatment, and it does not replace repellent or the public-health advice on this page.</p>
+          <div data-lead-location="wnv_tracker_cta" className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/free-yard-assessment" className="inline-block bg-amber-400 hover:bg-amber-300 text-brand-950 font-extrabold text-base px-8 py-4 rounded-full shadow-lg transition-all">
               Get a Free Quote →
             </Link>
@@ -739,7 +741,7 @@ export default function WestNileVirusOntarioTrackerPage() {
               Call {BUSINESS.phone}
             </a>
           </div>
-          <p className="text-xs text-brand-300 mt-5">BuzzSkito Mosquito &amp; Tick Control &middot; Mississauga, ON &middot; serving 19+ GTA cities. Health Canada-approved formulas, safe for kids and pets after drying.</p>
+          <p className="text-xs text-brand-300 mt-5">BuzzSkito Mosquito &amp; Tick Control &middot; Mississauga, ON &middot; serving 19+ GTA cities. {PROMISES.licence}. {PROMISES.labelLine}.</p>
           <p className="mt-6 text-xs italic text-brand-300 max-w-2xl mx-auto">
             This page provides educational information aggregated from public sources. It is not medical advice or diagnostic. For suspected symptoms, contact your family doctor, Telehealth Ontario (1-866-797-0000), or seek emergency care.
           </p>
@@ -772,7 +774,7 @@ export default function WestNileVirusOntarioTrackerPage() {
           <div className="grid sm:grid-cols-2 gap-4">
             <Link href="/blog/west-nile-virus-ontario-2026" className="rounded-xl bg-white p-5 border border-gray-200 hover:border-emerald-500 transition block">
               <p className="font-extrabold text-brand-900">West Nile Virus in Ontario 2026 (explainer)</p>
-              <p className="text-xs text-gray-600 mt-1">The plain-language guide: transmission, symptoms, and family protection.</p>
+              <p className="text-xs text-gray-600 mt-1">The plain-language guide: transmission, symptoms, and personal protection.</p>
             </Link>
             <Link href="/blog/west-nile-virus-mosquito-risk-ontario" className="rounded-xl bg-white p-5 border border-gray-200 hover:border-emerald-500 transition block">
               <p className="font-extrabold text-brand-900">West Nile Virus &amp; Mosquito Risk in Ontario</p>
@@ -792,7 +794,7 @@ export default function WestNileVirusOntarioTrackerPage() {
             </Link>
             <Link href="/mosquito-control" className="rounded-xl bg-white p-5 border border-gray-200 hover:border-emerald-500 transition block">
               <p className="font-extrabold text-brand-900">Professional Mosquito Control</p>
-              <p className="text-xs text-gray-600 mt-1">Health Canada-approved barrier spray for GTA yards &mdash; plans &amp; pricing.</p>
+              <p className="text-xs text-gray-600 mt-1">Licensed barrier spray for GTA yards &mdash; plans &amp; pricing.</p>
             </Link>
           </div>
         </div>

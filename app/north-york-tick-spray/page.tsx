@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { TICK_BLOGS } from '@/lib/constants'
+import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'North York Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "North York tick spray for Don Valley West Branch and Black Creek ravine properties. Health Canada-approved, from $99/treatment, BuzzSkito Bite-Free Guarantee. Don Mills, Willowdale, York Mills, Bridle Path, Bayview Village. Call (289) 216-5030.",
+    "North York tick spray for Don Valley West Branch and Black Creek ravine properties. Licensed Ontario operator, from $99/treatment, rain-back guarantee. Don Mills, Willowdale, York Mills, Bridle Path, Bayview Village. Call (289) 216-5030.",
   canonical: '/north-york-tick-spray',
 })
 
@@ -17,7 +19,7 @@ const NEIGHBOURHOODS = ['Don Mills','Willowdale','Lawrence Park','York Mills','B
 const FAQS = [
   {
     question: 'How much does tick spray cost in North York?',
-    answer: 'Tick spray in North York starts from $99 for a single application. Properties near the Don Valley, Serena Gundy Park, or Earl Bales Park benefit most from the full season programme: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. Each application leaves up to 30 days of residual, and ravine wildlife keeps carrying new ticks into backyards all season, so the barrier has to be renewed monthly rather than applied once or twice. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in North York starts from $99 for a single application. Properties near the Don Valley, Serena Gundy Park, or Earl Bales Park benefit most from the full season programme: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. Ravine wildlife keeps carrying new ticks into backyards all season, so the barrier has to be renewed monthly rather than applied once or twice. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Which North York parks and ravines have confirmed tick populations?',
@@ -28,8 +30,8 @@ const FAQS = [
     answer: 'Yes. The Don Valley ravine system cuts through what appears to be a dense urban environment, but it provides continuous wildlife corridors for deer and small mammals that carry ticks. Ticks are regularly found in ravine-adjacent backyards in Bayview Village, Lawrence Park, and York Mills — sometimes far from the visible ravine edge. Don\'t let the urban surroundings create a false sense of security.',
   },
   {
-    question: 'Is BuzzSkito\'s tick spray safe for a North York property with pets and young children?',
-    answer: 'Yes. BuzzSkito uses Health Canada–approved barrier spray formulas. After the spray dries — typically 30 minutes following application — your yard is completely safe for children and pets. We apply the formula to the high-risk zones like lawn edges, leaf litter, and garden borders rather than open play areas, further reducing any unnecessary exposure.',
+    question: 'What precautions apply for pets and young children during a tick treatment on a North York property?',
+    answer: 'BuzzSkito\'s licensed technicians apply barrier products according to their label directions. Keep children and pets off treated areas until the spray has dried, as the product label directs. We apply the product to the high-risk zones like lawn edges, leaf litter, and garden borders rather than open play areas.',
   },
 ]
 
@@ -37,17 +39,18 @@ export default function NorthYorkTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: '/north-york-tick-spray', city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Applied according to label directions.`, slug: '/north-york-tick-spray', city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/north-york-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'North York' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/north-york-tick-spray', '2026-07-01')) }} />
 
       <CityHero
+        service="tick"
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>The Don Valley ravine system — including Serena Gundy Park, Sunnybrook Park, and Wilket Creek — provides extensive blacklegged tick habitat in the heart of Toronto. BuzzSkito protects North York properties from Lyme disease.</>}
+        subtitle={<>Licensed Ontario pesticide operator treating North York yards where the Don Valley ravine system — Serena Gundy Park, Sunnybrook Park, and Wilket Creek — brings blacklegged tick habitat into the heart of Toronto. Treatments applied according to label directions.</>}
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -56,10 +59,10 @@ export default function NorthYorkTickPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ 5 Tick Sprays per Season</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -75,7 +78,8 @@ export default function NorthYorkTickPage() {
         </div>
       </section>
 
-      
+      <TypicalPrices service="tick" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -84,8 +88,8 @@ export default function NorthYorkTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — lawn-to-woods transitions, leaf litter, garden bed edges, and fence lines on your property.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies a barrier product, according to its label directions, to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: 'Rain within 1 hour of your treatment? We come back and re-treat free, on every plan. The barrier is renewed through the season: 5 tick sprays, May to September.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -101,7 +105,7 @@ export default function NorthYorkTickPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in North York</h2>
           <p>North York is home to Toronto's most extensive ravine network. The Don Valley ravine system threads through Willowdale, Don Mills, Lawrence Park, and York Mills, connecting Serena Gundy Park, Sunnybrook Park, and Wilket Creek Park in a continuous green corridor. Toronto Public Health includes these ravines in its tick surveillance program, and blacklegged tick populations are well documented throughout. Homeowners whose properties back onto these ravines face real annual tick exposure — not a theoretical risk, but a documented one.</p>
-          <p>The Don Valley ravines attract abundant wildlife that serve as tick hosts: white-tailed deer, raccoons, and red foxes are common, and each carries ticks that can drop off in ravine-adjacent backyards. Burke Brook ravine in Lawrence Park is particularly notable — it runs through one of Toronto's most sought-after residential neighbourhoods, and tick activity there is confirmed. Because that wildlife keeps reintroducing ticks from the ravine all season, and each application leaves up to 30 days of residual, the barrier has to be renewed rather than applied once or twice. Professional barrier spray on a monthly cadence from May through September — five treatments across the season — is the single most effective tool for protecting North York families from tick-borne Lyme disease.</p>
+          <p>The Don Valley ravines attract abundant wildlife that serve as tick hosts: white-tailed deer, raccoons, and red foxes are common, and each carries ticks that can drop off in ravine-adjacent backyards. Burke Brook ravine in Lawrence Park is particularly notable — it runs through one of Toronto's most sought-after residential neighbourhoods, and tick activity there is confirmed. Because that wildlife keeps reintroducing ticks from the ravine all season, the barrier has to be renewed rather than applied once or twice. Professional barrier spray on a monthly cadence from May through September — five treatments across the season — is how BuzzSkito treats the yard zones where North York ticks wait.</p>
 
           <h2>Tick Hotspots in North York</h2>
           <ul>
@@ -120,18 +124,18 @@ export default function NorthYorkTickPage() {
           <h2>What Our North York Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 30 days of tick protection per treatment</li>
-            <li>Kills adult ticks, nymphs, and larvae on contact</li>
-            <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
-            <li>Free reapplication guarantee if ticks return</li>
+            <li>5 treatments per season, May through September</li>
+            <li>Applied to the zones where adult ticks, nymphs, and larvae wait</li>
+            <li>{PROMISES.labelLine}; stay off treated areas until the spray has dried</li>
+            <li>Rain-back guarantee: {PROMISES.rainBack}</li>
           </ul>
 
           <h2>Also Providing Mosquito Control in North York</h2>
-          <p>Many North York homeowners combine tick and mosquito control in the same visit. See our <Link href="/north-york-mosquito-control" className="text-brand-700 hover:underline">North York mosquito control service</Link>.</p>
+          <p>Many North York homeowners combine tick and mosquito control in the same visit. See our <Link href="/north-york-mosquito-control" className="text-brand-700 hover:underline">North York mosquito control service</Link>. Outside North York, our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">Toronto tick spray service</Link> covers the rest of the city.</p>
 
 
           <h2>Compare North York Pest Control Options</h2>
-          <p>North York has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-north-york" className="text-brand-700 hover:underline font-semibold">Pest Control in North York</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/north-york-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in North York</Link>.</p>
+          <p>North York has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-north-york" className="text-brand-700 hover:underline font-semibold">Pest Control in North York</Link> for why a mosquito and tick specialist is a better fit than a general pest company for ravine-edge yards. See our full mosquito programme for the same property: <Link href="/north-york-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in North York</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
@@ -150,7 +154,7 @@ export default function NorthYorkTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'James K.', text: 'We had a tick problem near our garden border. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-              { author: 'Priya R.', text: 'The technician explained exactly what product they were using and why it\u2019s safe for our dog. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
+              { author: 'Priya R.', text: 'The technician explained exactly what product they were using. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
             ].map(({ author, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -169,6 +173,10 @@ export default function NorthYorkTickPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="tick" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -185,7 +193,7 @@ export default function NorthYorkTickPage() {
           </div>
         </div>
       </section>
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protect your family from Lyme disease. No contracts, guaranteed results." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Tick treatment for ravine-edge North York yards, 5 sprays per season. No contracts, rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

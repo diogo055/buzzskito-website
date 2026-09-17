@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { TICK_BLOGS } from '@/lib/constants'
+import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Markham Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Markham tick spray for Rouge National Urban Park watershed properties. Health Canada-approved, from $99/treatment, BuzzSkito Bite-Free Guarantee. Unionville, Cornell, Berczy Village, Wismer, Cathedraltown. Call (289) 216-5030.",
+    "Markham tick spray for Rouge National Urban Park watershed properties. Licensed Ontario operator, from $99/treatment, rain-back guarantee. Unionville, Cornell, Berczy Village, Wismer, Cathedraltown. Call (289) 216-5030.",
   canonical: '/markham-tick-spray',
 })
 
@@ -17,7 +19,7 @@ const NEIGHBOURHOODS = ['Unionville','Cornell','Milliken Mills','Berczy Village'
 const FAQS = [
   {
     question: 'How much does tick spray cost in Markham?',
-    answer: 'Tick spray in Markham starts from $99 for a single application. Properties near Rouge National Urban Park or any ravine corridor in Markham typically need the full season programme for complete protection: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. Each application leaves up to 30 days of residual, and blacklegged nymphs — the stage that drives most Lyme transmission — peak from May through July, so monthly visits are what keep the barrier continuous instead of leaving a gap in the worst months. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Markham starts from $99 for a single application. Properties near Rouge National Urban Park or any ravine corridor in Markham typically take the full season programme: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. Monthly visits keep treatments on schedule through the May–July nymph peak instead of leaving a gap in those months. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Which Markham neighbourhoods have the highest tick risk?',
@@ -25,7 +27,7 @@ const FAQS = [
   },
   {
     question: 'What makes Rouge National Urban Park different from other tick habitats?',
-    answer: 'Rouge National Urban Park is a federally protected national park with vast forest, meadow, and river valley ecosystems — it is among the largest and most ecologically intact tick habitats in the entire GTA. Unlike small ravines or conservation reserves, Rouge provides deep forest habitat where blacklegged tick populations can thrive with minimal human disturbance. York Region Public Health recommends professional tick control for properties adjacent to its boundaries.',
+    answer: 'Rouge National Urban Park is a federally protected national park with vast forest, meadow, and river valley ecosystems — it is among the largest and most ecologically intact tick habitats in the entire GTA. Unlike small ravines or conservation reserves, Rouge provides deep forest habitat where blacklegged tick populations can thrive with minimal human disturbance. Properties adjacent to its boundaries sit right next to that habitat, and York Region Public Health advises residents to check themselves, children and pets for ticks after time outdoors.',
   },
   {
     question: 'Does BuzzSkito treat commercial properties in Markham?',
@@ -37,7 +39,7 @@ export default function MarkhamTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: '/markham-tick-spray', city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Applied according to label directions.`, slug: '/markham-tick-spray', city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/markham-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'Markham' })) }} />
@@ -47,7 +49,8 @@ export default function MarkhamTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Markham's Rouge National Urban Park boundary and Rouge River valley are significant blacklegged tick habitats. BuzzSkito provides professional tick spray to protect your family from Lyme disease.</>}
+        subtitle={<>Licensed Ontario pesticide operator. Treatments applied according to label directions, for Markham properties near the Rouge National Urban Park boundary and Rouge River valley tick habitat.</>}
+        service="tick"
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -56,10 +59,10 @@ export default function MarkhamTickPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ 5 Tick Sprays per Season</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -76,6 +79,8 @@ export default function MarkhamTickPage() {
       </section>
 
       
+      <TypicalPrices service="tick" city="Markham" />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -84,8 +89,8 @@ export default function MarkhamTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — lawn-to-woods transitions, leaf litter, garden bed edges, and fence lines on your property.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies barrier spray, according to label directions, to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: 'Five Visits, Rain-Back Guarantee', desc: `We return roughly monthly for 5 tick sprays through the season. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -100,7 +105,7 @@ export default function MarkhamTickPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Markham</h2>
-          <p>Markham is unique in the GTA in that it borders a federally protected national park. Rouge National Urban Park stretches from Scarborough into Markham's eastern boundary, creating one of the most significant blacklegged tick habitats in the region. Unlike fragmented urban conservation areas, Rouge provides continuous forest, meadow, and valley ecosystems where tick populations are well established and expanding. York Region Public Health consistently recommends professional tick control for properties near its boundaries.</p>
+          <p>Markham is unique in the GTA in that it borders a federally protected national park. Rouge National Urban Park stretches from Scarborough into Markham's eastern boundary, creating one of the most significant blacklegged tick habitats in the region. Unlike fragmented urban conservation areas, Rouge provides continuous forest, meadow, and valley ecosystems where tick populations are well established and expanding. York Region Public Health tracks tick activity across the region and advises residents to check for ticks after spending time outdoors.</p>
           <p>The Rouge River valley itself acts as a tick corridor that carries populations from the park's interior toward residential neighbourhoods. Toogood Pond in Unionville and its surrounding trail system sit in a lower-lying wooded area that creates classic nymph tick habitat in May and June — precisely when children and pets spend the most time outdoors. Cornell and Cathedraltown properties on the park boundary have some of the highest tick exposure rates of any suburban neighbourhood in York Region.</p>
 
           <h2>Tick Hotspots in Markham</h2>
@@ -120,10 +125,10 @@ export default function MarkhamTickPage() {
           <h2>What Our Markham Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 30 days of tick protection per treatment</li>
-            <li>Kills adult ticks, nymphs, and larvae on contact</li>
-            <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
-            <li>Free reapplication guarantee if ticks return</li>
+            <li>5 tick sprays per season, roughly monthly from May through September ($597 on its own, or $497 added to any mosquito plan)</li>
+            <li>Applied to the zones where adult ticks, nymphs, and larvae wait for a host</li>
+            <li>{PROMISES.labelLine}; keep children and pets off treated areas until the spray has dried, as the product label directs</li>
+            <li>{PROMISES.rainBack}</li>
           </ul>
 
           <h2>Also Providing Mosquito Control in Markham</h2>
@@ -131,7 +136,7 @@ export default function MarkhamTickPage() {
 
 
           <h2>Compare Markham Pest Control Options</h2>
-          <p>Markham has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-markham" className="text-brand-700 hover:underline font-semibold">Pest Control in Markham</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/markham-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Markham</Link>.</p>
+          <p>Markham has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-markham" className="text-brand-700 hover:underline font-semibold">Pest Control in Markham</Link> for why a mosquito and tick specialist is a better fit for tick habitat than a general pest company. See our full mosquito programme for the same property: <Link href="/markham-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Markham</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
@@ -150,7 +155,7 @@ export default function MarkhamTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'James K.', text: 'We had a tick problem near our garden border. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-              { author: 'Priya R.', text: 'The technician explained exactly what product they were using and why it\u2019s safe for our dog. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
+              { author: 'Priya R.', text: 'The technician explained exactly what product they were using. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
             ].map(({ author, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -169,6 +174,10 @@ export default function MarkhamTickPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Markham" service="tick" location="price_card_faq" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -185,7 +194,7 @@ export default function MarkhamTickPage() {
           </div>
         </div>
       </section>
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protect your family from Lyme disease. No contracts, guaranteed results." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="5 tick sprays per season, applied according to label directions. No contracts, rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

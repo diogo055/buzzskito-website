@@ -159,9 +159,11 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
           <p>First, a nymph has already had one blood meal as a larva. If that meal came from an infected mouse, the nymph now carries the Lyme bacterium and can pass it on the next time it bites. Second — and this is the crucial part — a nymph is astonishingly hard to see. At poppy-seed size on skin, in a fold, or hidden in hair, a nymph is easily mistaken for a freckle or a speck of dirt. People routinely go about their day without realizing a nymph is attached, which gives the tick the 24-plus hours it usually needs to transmit Lyme.</p>
           <p>Nymphs are most active in Ontario from late spring through mid-summer — May, June, and July — precisely when people are spending the most time in yards, on trails, and at cottages. That overlap is why nymph season and Lyme season are effectively the same thing.</p>
 
+          <p>In 2026 that overlap started earlier than usual, with activity across Southern Ontario running two to three weeks ahead of a normal year. <Link href="/blog/ontario-tick-surge-2026" className="text-brand-700 underline">Our look at the 2026 Ontario tick surge</Link> explains what moved the nymph window forward and the five steps that follow from it.</p>
+
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Nymphs hide in your lawn edges — we treat exactly those zones</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Blacklegged tick nymphs wait in leaf litter, tall grass, and shaded borders. BuzzSkito&rsquo;s barrier spray puts a Health Canada-registered residual acaricide on those exact zones, repeated through the season as the residual wears off. Single treatments from $99; seasonal tick programs available across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Blacklegged tick nymphs wait in leaf litter, tall grass, and shaded borders. BuzzSkito&rsquo;s barrier spray puts a residual acaricide, applied according to label directions, on those exact zones, repeated through the season as the residual wears off. Single treatments from $99; seasonal tick programs available across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -206,7 +208,7 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
             <li><strong>Clear leaf litter</strong> from yard edges every spring and fall. Damp leaf litter is where blacklegged ticks overwinter and where nymphs stay hydrated.</li>
             <li><strong>Add a 3-foot wood-chip or gravel strip</strong> between your lawn and any woods, ravine, or tall grass. Ticks avoid crossing the dry, sunny barrier.</li>
             <li><strong>Discourage mice.</strong> White-footed mice are the main host that infects larvae and nymphs, so store firewood off the ground and seal food sources.</li>
-            <li><strong>Treat clothing with permethrin</strong> and tuck pants into socks. Nymphs board at ankle-to-knee height, so treated footwear and pant legs stop most bites.</li>
+            <li><strong>Wear factory permethrin-treated clothing</strong> and tuck pants into socks (consumer permethrin sprays for treating your own clothes are not registered for that use in Canada). Nymphs board at ankle-to-knee height, so treated socks and pant legs cover the height where nymphs climb aboard.</li>
             <li><strong>Professional barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s tick barrier treatment</Link> targets the lawn edges, leaf litter, and shaded borders where nymphs quest, re-applied through the season because the residual is temporary.</li>
           </ol>
           <p>For the full checklist, see <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">how to keep ticks out of your yard in Ontario</Link>. Ontario health authorities keep current tick-risk maps and prevention guidance too — the <a href="https://www.publichealthontario.ca/" target="_blank" rel="noopener" className="underline hover:text-brand-700">Public Health Ontario</a> and <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Government of Canada Lyme disease</a> pages are the best sources for local, up-to-date information.</p>
@@ -237,7 +239,7 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Stop Nymphs Where They Wait — Your Yard&rsquo;s Edges" subtext="The poppy-seed-sized nymph causes most Lyme disease. One barrier spray removes ticks at the source. From $99." variant="dark" />
+      <CTASection heading="Treat the Edges Where Nymphs Wait" subtext="The poppy-seed-sized nymph causes most Lyme disease. Barrier spray treats the shaded yard edges where nymphs quest. From $99." variant="dark" />
     </>
   )
 }

@@ -29,12 +29,12 @@ const FAQS = [
   {
     question: 'We have a larger property in Caledon with a woodlot. How do we protect the whole lot?',
     answer:
-      "For rural properties with woodlots, we focus on the transition zone — the 3-metre margin between your maintained lawn and the edge of the woodlot. This is where ticks concentrate, not deep in the forest interior. Treating this border zone with barrier spray dramatically reduces the number of ticks moving from the woodlot into your yard and onto your family and pets. For very large properties, a perimeter approach along all wood edges and fence lines is most effective.",
+      "For rural properties with woodlots, we focus on the transition zone — the 3-metre margin between your maintained lawn and the edge of the woodlot. This is where ticks concentrate, not deep in the forest interior. Treating this border zone with barrier spray puts the product where ticks move from the woodlot toward your lawn, your family, and your pets. For very large properties, a perimeter approach along all wood edges and fence lines is most effective.",
   },
   {
     question: 'How many tick treatments do rural Caledon properties typically need?',
     answer:
-      "Most rural Caledon and Halton Hills properties need 2–3 treatments per season: one in late April or early May (spring nymph emergence), one in July (summer adults and any nymphs still active), and optionally one in September (fall adult-tick season). Properties with very active deer corridors running through or adjacent to them benefit from the third treatment.",
+      "A BuzzSkito tick season is five treatments, roughly one a month from May through September. The early visits cover spring nymph emergence, the midsummer visits cover adults and any nymphs still active, and the September visit carries into the fall adult-tick season. Each application's residual is temporary, and properties with active deer corridors running through or adjacent to them keep receiving fresh ticks all season, which is why the barrier is renewed monthly rather than applied two or three times. A tick season is $597 on its own, or $497 when added to a mosquito plan.",
   },
 ]
 
@@ -67,7 +67,7 @@ export default function TickPreventionCaledonPage() {
             <li>Caledon sits at the western convergence of the Oak Ridges Moraine and the Niagara Escarpment &mdash; two of Ontario&rsquo;s most tick-productive features.</li>
             <li>Spring nymphs (April&ndash;June) are just 1&ndash;2 mm and drive the highest Lyme transmission risk because they are so hard to detect.</li>
             <li>Fall adult ticks (September&ndash;November) can transmit Lyme if attached for more than 24&ndash;36 hours.</li>
-            <li>Most rural Caledon and Halton Hills properties need 2&ndash;3 treatments per season: late April/May, July, and an optional September round.</li>
+            <li>A BuzzSkito tick season for rural Caledon and Halton Hills properties is five treatments, roughly monthly from May through September, covering both the spring nymph and fall adult peaks.</li>
             <li>BuzzSkito treats the 3-metre transition margin between lawn and woodlot, where ticks concentrate &mdash; not the forest interior.</li>
             <li>High-risk pockets include Glen Williams, Georgetown edges, Limehouse, Norval and Silver Creek, Bolton, Caledon East, and Palgrave.</li>
           </ul>
@@ -98,6 +98,8 @@ export default function TickPreventionCaledonPage() {
 
         <h2>The Alton Village Situation: New-Build Meets Escarpment Edge</h2>
         <p>Halton Hills&rsquo; newer Acton-area developments and the Alton Village community in north Burlington (on the Halton Hills boundary) sit at the escarpment edge. These are cases where new residential construction has been built directly adjacent to natural areas. Homeowners here face an unusual combination: the tick risk of a rural escarpment location with the property-care expectations of a suburban neighbourhood. Professional treatment is especially important when natural areas abut manicured lawns.</p>
+
+        <p>That same escarpment edge continues south through the rest of Halton Region, where it meets the Bronte Creek and 16 Mile Creek valleys. We rank the neighbourhoods along it in <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 underline">Oakville and Burlington tick hot spots 2026</Link>.</p>
 
         <h2>What Tick Season Looks Like on Rural Caledon and Halton Hills Properties</h2>
         <p>Blacklegged tick activity follows two distinct peaks in Ontario:</p>

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'is-deet-safe'
 const DATE = '2026-07-15'
@@ -15,11 +16,11 @@ const FAQS = [
   },
   {
     question: 'What is DEET made of?',
-    answer: 'DEET is a single synthetic organic compound — N,N-diethyl-meta-toluamide — a colourless-to-pale-yellow oily liquid manufactured from meta-toluic acid and diethylamine. In a bottle of bug spray, the DEET is dissolved in a carrier (alcohol, water, or a gel/lotion base) at a stated concentration, commonly 5% to 30% in Canada. DEET is not a pesticide that poisons insects; it works by disrupting the receptors mosquitoes and ticks use to smell you, so they cannot locate you to bite.',
+    answer: 'DEET is a single synthetic organic compound — N,N-diethyl-meta-toluamide — a colourless-to-pale-yellow oily liquid manufactured from meta-toluic acid and diethylamine. In a bottle of bug spray, the DEET is dissolved in a carrier (alcohol, water, or a gel/lotion base) at a stated concentration, commonly 5% to 30% in Canada. DEET is not an insecticide that poisons insects (in Canada it is still regulated as a pest control product, which is why it carries a PCP number); it works by disrupting the receptors mosquitoes and ticks use to smell you, so they cannot locate you to bite.',
   },
   {
     question: 'Is DEET bad for you?',
-    answer: 'For the vast majority of people, DEET is not bad for you when used as directed on the label. Health Canada and the U.S. Centers for Disease Control and Prevention (CDC) both endorse DEET as a safe, effective repellent. Reported problems are almost always tied to misuse — swallowing it, spraying it in eyes, applying under clothing, or using it on infants. Rare skin irritation can occur in sensitive people. The far greater everyday risk in Ontario is the mosquito or tick bite DEET prevents, which can transmit West Nile virus or Lyme disease.',
+    answer: 'For the vast majority of people, DEET is not bad for you when used as directed on the label. Health Canada re-evaluated DEET and keeps it registered with age-based limits, and the U.S. Centers for Disease Control and Prevention (CDC) lists it among the repellents it recommends. Reported problems are almost always tied to misuse — swallowing it, spraying it in eyes, applying under clothing, or using it on infants. Rare skin irritation can occur in sensitive people. The far greater everyday risk in Ontario is the mosquito or tick bite DEET helps prevent, which can transmit West Nile virus or Lyme disease.',
   },
   {
     question: 'Does DEET cause cancer?',
@@ -27,15 +28,15 @@ const FAQS = [
   },
   {
     question: 'Why is DEET banned?',
-    answer: 'DEET is not banned in Canada. It is fully registered by Health Canada and sold in pharmacies, hardware stores, and outdoor retailers nationwide. What Health Canada does is cap the concentration sold to consumers — a maximum of 30% for adults and 10% for children aged 2 to 12 — and it removed some very high-concentration products (formerly up to 95–100%) from the consumer market because they offered no extra protection, only longer duration. So the rule is a concentration limit, not a ban. A few individual parks or products worldwide restrict it, but DEET remains legal and recommended across Canada and the U.S.',
+    answer: 'DEET is not banned in Canada. It is fully registered for sale in Canada and sold in pharmacies, hardware stores, and outdoor retailers nationwide. What Health Canada does is cap the concentration sold to consumers — a maximum of 30% for adults and 10% for children aged 2 to 12 — and it removed some very high-concentration products (formerly up to 95–100%) from the consumer market because they offered no extra protection, only longer duration. So the rule is a concentration limit, not a ban. A few individual parks or products worldwide restrict it, but DEET remains legal and recommended across Canada and the U.S.',
   },
   {
     question: 'Is DEET safe for dogs and pets?',
-    answer: 'No — do not apply DEET (or any human insect repellent) to dogs, cats, or other pets. DEET is formulated and approved for human skin only, and pets can ingest it by licking their fur, which may cause vomiting, drooling, tremors, or worse. If your pet needs mosquito, flea, or tick protection, use a product made for animals and prescribed or recommended by your veterinarian. Keep pets away from freshly applied repellent on people until it dries.',
+    answer: 'No — do not apply DEET (or any human insect repellent) to dogs, cats, or other pets. DEET is formulated and labelled for human skin only, and pets can ingest it by licking their fur, which may cause vomiting, drooling, tremors, or worse. If your pet needs mosquito, flea, or tick protection, use a product made for animals and prescribed or recommended by your veterinarian. Keep pets away from freshly applied repellent on people until it dries.',
   },
   {
     question: 'Is DEET safe during pregnancy and breastfeeding?',
-    answer: 'Major health authorities consider DEET acceptable during pregnancy and breastfeeding when used as directed, and studies have not found harm to the baby. Because pregnancy raises the stakes of mosquito-borne illness, the CDC specifically advises pregnant people in areas with mosquito-borne disease to use an approved repellent such as DEET. As always, this is general information — apply to exposed skin only, follow the label, and speak with your own healthcare provider or midwife about your situation.',
+    answer: 'Major health authorities consider DEET acceptable during pregnancy and breastfeeding when used as directed, and studies have not found harm to the baby. Because pregnancy raises the stakes of mosquito-borne illness, the CDC specifically advises pregnant people in areas with mosquito-borne disease to use an EPA-registered repellent such as DEET. As always, this is general information — apply to exposed skin only, follow the label, and speak with your own healthcare provider or midwife about your situation.',
   },
   {
     question: 'What is the maximum DEET concentration allowed for kids in Canada?',
@@ -92,7 +93,7 @@ export default function IsDeetSafePage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
-              DEET is considered safe when used as directed. Health Canada and the U.S. CDC endorse it as a reliable mosquito and tick repellent, with no established link to cancer. Health Canada caps over-the-counter concentrations at 30% for adults and 10% for children aged 2 to 12. Apply only to exposed skin, avoid infants under 6 months, and wash it off once indoors.
+              DEET is registered in Canada for use as the label directs. Health Canada re-evaluated it and keeps it on the market, the U.S. CDC lists it among the mosquito and tick repellents it recommends, and there is no established link to cancer. Health Canada caps over-the-counter concentrations at 30% for adults and 10% for children aged 2 to 12. Apply only to exposed skin, avoid infants under 6 months, and wash it off once indoors.
             </p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Health Canada caps consumer DEET at 30% for adults and children over 12.</li>
@@ -149,7 +150,7 @@ export default function IsDeetSafePage() {
 
           <h2>What is DEET?</h2>
           <p>DEET is the active ingredient in most conventional insect repellents — a synthetic compound that keeps mosquitoes, ticks, and biting flies from landing on and biting you. It has been the benchmark repellent for more than 60 years, and both Health Canada and the U.S. Centers for Disease Control and Prevention (CDC) list it among the ingredients proven to work. Importantly, DEET does not kill insects. It confuses the sensors mosquitoes and ticks use to detect the carbon dioxide, heat, and skin compounds that reveal a nearby host, so they effectively cannot find you.</p>
-          <p>In Canada, DEET is one of a small handful of repellent actives that Health Canada has reviewed and registered as both safe and effective when used as directed. The others include picaridin (icaridin) and oil of lemon eucalyptus. If you want a side-by-side of the two most popular options, our <Link href="/blog/picaridin-vs-deet">picaridin vs DEET comparison</Link> breaks down which one wins for different Canadian activities.</p>
+          <p>In Canada, DEET is one of a small handful of repellent actives that Health Canada has reviewed and registered for use as directed on the label. The others include picaridin (icaridin) and oil of lemon eucalyptus. If you want a side-by-side of the two most popular options, our <Link href="/blog/picaridin-vs-deet">picaridin vs DEET comparison</Link> breaks down which one wins for different Canadian activities.</p>
 
           <h2>What does DEET stand for?</h2>
           <p>DEET stands for <strong>N,N-diethyl-meta-toluamide</strong> — sometimes written N,N-diethyl-3-methylbenzamide. It is simply the abbreviation of a long chemical name, not an acronym for anything descriptive. The compound was developed by the U.S. Army in 1946 to protect soldiers in insect-heavy regions and was released for civilian use in 1957. That long track record is a big reason toxicologists regard it as one of the most thoroughly studied repellents available.</p>
@@ -165,13 +166,13 @@ export default function IsDeetSafePage() {
           <p>There is no established link between DEET and cancer. The U.S. Environmental Protection Agency classifies DEET as &ldquo;not classifiable as to human carcinogenicity,&rdquo; which is regulator language meaning the available evidence does not show it causes cancer. Health Canada, which re-evaluated DEET and keeps it registered for sale, and the CDC, which actively recommends it, have not flagged a cancer risk from normal use. The alarming posts that circulate online linking bug spray to cancer are not backed by the toxicology these agencies reviewed. If you ever have a specific health concern, the right move is to raise it with your own healthcare provider rather than rely on social media.</p>
 
           <h2>Why is DEET banned?</h2>
-          <p>DEET is <strong>not</strong> banned in Canada — this is one of the most persistent myths about it. It is fully registered by Health Canada and sold across the country in pharmacies, hardware stores, grocery chains, and outdoor retailers. What can look like a &ldquo;ban&rdquo; is actually a concentration cap: Health Canada limits consumer DEET to 30% for adults and 10% for children aged 2 to 12, and it phased out the old ultra-high-concentration products (once sold at up to 95–100%) because they added exposure without adding meaningful protection. A handful of individual parks or specialty products elsewhere restrict DEET, but as a rule it remains legal and recommended throughout Canada and the United States.</p>
+          <p>DEET is <strong>not</strong> banned in Canada — this is one of the most persistent myths about it. It is fully registered for sale in Canada and sold across the country in pharmacies, hardware stores, grocery chains, and outdoor retailers. What can look like a &ldquo;ban&rdquo; is actually a concentration cap: Health Canada limits consumer DEET to 30% for adults and 10% for children aged 2 to 12, and it phased out the old ultra-high-concentration products (once sold at up to 95–100%) because they added exposure without adding meaningful protection. A handful of individual parks or specialty products elsewhere restrict DEET, but as a rule it remains legal and recommended throughout Canada and the United States.</p>
 
           <h2>Is DEET safe for dogs and pets?</h2>
-          <p>No — do not put DEET, or any human bug spray, on your dog, cat, or other pets. These products are formulated and approved for human skin only. A pet will lick treated fur and swallow the repellent, which can cause drooling, vomiting, tremors, or more serious effects depending on the amount. If your animal needs protection from mosquitoes, fleas, or ticks, use a product designed for pets and cleared by your veterinarian. It is also good practice to let repellent dry on your own skin before letting a pet nuzzle you.</p>
+          <p>No — do not put DEET, or any human bug spray, on your dog, cat, or other pets. These products are formulated and labelled for human skin only. A pet will lick treated fur and swallow the repellent, which can cause drooling, vomiting, tremors, or more serious effects depending on the amount. If your animal needs protection from mosquitoes, fleas, or ticks, use a product designed for pets and cleared by your veterinarian. It is also good practice to let repellent dry on your own skin before letting a pet nuzzle you.</p>
 
           <h2>Is DEET safe during pregnancy?</h2>
-          <p>Health authorities generally consider DEET acceptable during pregnancy and while breastfeeding when it is used as directed, and studies to date have not found harm to the baby. Because mosquito-borne infections can be especially serious in pregnancy, the CDC specifically advises pregnant people in areas with mosquito-borne disease to use an approved repellent, and DEET is on that list. Apply it only to exposed skin, follow the label, and wash it off indoors. This is general information rather than personal medical advice — talk with your own doctor, midwife, or pharmacist about what is right for you.</p>
+          <p>Health authorities generally consider DEET acceptable during pregnancy and while breastfeeding when it is used as directed, and studies to date have not found harm to the baby. Because mosquito-borne infections can be especially serious in pregnancy, the CDC specifically advises pregnant people in areas with mosquito-borne disease to use an EPA-registered repellent, and DEET is on that list. Apply it only to exposed skin, follow the label, and wash it off indoors. This is general information rather than personal medical advice — talk with your own doctor, midwife, or pharmacist about what is right for you.</p>
 
           <h2>Does DEET expire?</h2>
           <p>DEET the molecule is chemically stable and does not break down easily, so it has a very long shelf life. What actually ages is the product built around it. Aerosol propellant can lose pressure over the years, alcohol carriers slowly evaporate if the cap is not tight, and lotions can separate into layers. Manufacturers usually recommend replacing a bottle after a few years or by any printed date. If your spray has separated, smells off, or no longer sprays a fine even mist, replace it — uneven coverage leaves gaps where mosquitoes and ticks get through.</p>
@@ -185,11 +186,11 @@ export default function IsDeetSafePage() {
               <tr><th className="px-3 py-2 text-left">Claim you hear</th><th className="px-3 py-2 text-left">What the authorities say</th></tr>
             </thead>
             <tbody>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2">&ldquo;DEET causes cancer&rdquo;</td><td className="px-3 py-2">No established link (U.S. EPA: &ldquo;not classifiable&rdquo;; Health Canada &amp; CDC: no cancer risk from normal use)</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">&ldquo;DEET causes cancer&rdquo;</td><td className="px-3 py-2">No established link (U.S. EPA: &ldquo;not classifiable&rdquo;; Health Canada &amp; CDC: no cancer risk identified from normal use)</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">&ldquo;DEET is banned in Canada&rdquo;</td><td className="px-3 py-2">False — registered and sold nationwide; concentration capped at 30% for adults</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">&ldquo;Higher % is stronger&rdquo;</td><td className="px-3 py-2">Higher % lasts longer, not stronger; protection plateaus above ~30%</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">&ldquo;DEET-free means safer&rdquo;</td><td className="px-3 py-2">Not necessarily — just means no DEET; check the alternative active and its %</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2">&ldquo;You can spray it on your dog&rdquo;</td><td className="px-3 py-2">No — human repellent only; use vet-approved products for pets</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">&ldquo;You can spray it on your dog&rdquo;</td><td className="px-3 py-2">No — human repellent only; use vet-recommended products for pets</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">&ldquo;It soaks dangerously into your blood&rdquo;</td><td className="px-3 py-2">Minimal absorption; rapidly metabolized and eliminated under labelled use</td></tr>
             </tbody>
           </table>
@@ -206,11 +207,11 @@ export default function IsDeetSafePage() {
             <li>For infants under 6 months, skip DEET entirely and use a mosquito net over the stroller or crib. Our guide to the <Link href="/blog/best-bug-spray-for-kids-canada">best bug spray for kids in Canada</Link> covers age-appropriate choices.</li>
           </ul>
 
-          <p>Curious how DEET performs in an actual product? Our hands-on <Link href="/blog/off-deep-woods-deet-bug-spray-canada">OFF! Deep Woods DEET review for Canada</Link> looks at concentration, duration, and where it fits.</p>
+          <p>Curious how DEET performs in an actual product? Our <Link href="/blog/off-deep-woods-deet-bug-spray-canada">OFF! Deep Woods DEET review for Canada</Link> looks at concentration, duration, and where it fits.</p>
 
           <aside aria-label="Professional mosquito and tick control" className="not-prose my-8 rounded-2xl border-2 border-emerald-300 bg-gradient-to-br from-emerald-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Repellent protects you — not your yard</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">DEET keeps bites off your skin for a few hours. To knock down the mosquitoes and ticks living in your vegetation so you need less spray on your body, BuzzSkito&rsquo;s licensed barrier spray covers your whole yard from $99, with a dedicated tick program at $597/season (or $497 bundled with a mosquito plan).</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">DEET keeps bites off your skin for a few hours. To knock down the mosquitoes and ticks living in your vegetation so you need less spray on your body, BuzzSkito&rsquo;s licensed barrier spray treats your yard from $99 on a standard lot, with a dedicated 5-spray tick season at $597 (or $497 bundled with a mosquito plan).</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -247,7 +248,7 @@ export default function IsDeetSafePage() {
         </div>
       </article>
 
-      <CTASection heading="Fewer Bites, Less Spray on Your Skin" subtext="Get a free quote for licensed barrier spray. From $99. Health Canada approved. 30-day residual." variant="dark" />
+      <CTASection heading="Fewer Bites, Less Spray on Your Skin" subtext={`Get a free quote for licensed barrier spray. From $99 on a standard lot. ${PROMISES.licence}. ${PROMISES.labelLine}.`} variant="dark" />
     </>
   )
 }

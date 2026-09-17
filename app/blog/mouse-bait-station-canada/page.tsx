@@ -185,6 +185,11 @@ export default function MouseBaitStationCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2">US second-gen anticoagulant baits</td><td className="px-3 py-2"><strong>No — illegal to import/use</strong></td><td className="px-3 py-2">No</td><td className="px-3 py-2">High — persists in carcass for weeks</td><td className="px-3 py-2">Nothing — avoid entirely</td></tr>
             </tbody>
           </table>
+          <p className="not-prose text-sm text-gray-600 mb-1">If that table points you to the trap column &mdash; which for a kitchen or a living room it usually should &mdash; these are the two formats worth pricing:</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Snap traps (multi-pack) &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="electronic mouse trap">Electronic trap (no-touch) &rarr;</BuyLink>
+          </div>
 
           <h2>When Do Bait Stations Beat Traps?</h2>
           <p>Bait stations win in the situations where traps physically or practically fail. Four scenarios justify reaching for a bromethalin station:</p>
@@ -210,6 +215,10 @@ export default function MouseBaitStationCanadaPage() {
             <li><strong>Wear gloves</strong> when placing stations to avoid transferring human scent, and leave stations in place for at least a week before judging — mice are cautious about new objects.</li>
             <li><strong>Pair with exclusion.</strong> Mice pass through gaps as small as 6 mm. Seal entry points with steel wool and sealant, or the stations become a permanent subscription. Our <Link href="/blog/how-to-get-rid-of-mice-canada">full mouse removal guide</Link> walks through the complete sequence.</li>
           </ul>
+          <p className="not-prose text-sm text-gray-600 mb-1">The exclusion half of that last bullet is the part people skip, and it is the step that stops the problem coming back: mice do not gnaw through packed metal fibre the way they gnaw foam or wood, though loose fill can be pulled back out of a gap &mdash; which is why the practice is to pack it and cap it with sealant.</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="stainless steel wool rodent exclusion">Steel wool gap fill &rarr;</BuyLink>
+          </div>
           <p>One thing not to spend money on: ultrasonic plug-in repellers, which have failed controlled testing repeatedly and to which mice habituate within days. <Link href="/blog/ultrasonic-pest-repellers-do-they-work">We reviewed the research here</Link>.</p>
 
           <h2>When Is It Time to Call a Professional?</h2>

@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'citronella-candles-canada-do-they-work'
 const DATE = '2026-07-12'
@@ -41,7 +42,7 @@ const FAQS = [
   },
   {
     question: 'What actually works better than citronella candles for a backyard?',
-    answer: 'For personal, immediate patio protection, a Thermacell device creates a roughly 4.5 m (15 ft) mosquito-free zone using a heated repellent mat — far more effective than a citronella candle and hands-off once lit. For skin protection when you are on the move, a DEET or picaridin repellent lasts hours instead of minutes. And to actually reduce the mosquito population across an entire yard, a professional barrier spray coats the shaded vegetation where mosquitoes rest, killing them on contact for 21–30 days and covering ticks too — something no candle, torch, or coil can do. The realistic stack for a GTA backyard is barrier spray for the whole yard, Thermacell on the deck, and citronella candles purely for ambiance.',
+    answer: 'For personal, immediate patio protection, a Thermacell device creates a roughly 4.5 m (15 ft) mosquito-free zone using a heated repellent mat — far more effective than a citronella candle and hands-off once lit. For skin protection when you are on the move, a DEET or picaridin repellent lasts hours instead of minutes. And to actually reduce the mosquito population across an entire yard, a professional barrier spray coats the shaded vegetation where mosquitoes rest and kills them on contact, with the residual renewed on your plan\'s schedule (every 2 weeks on Standard, monthly on Basic), and a tick treatment targets ticks where they wait — something no candle, torch, or coil can do. The realistic stack for a GTA backyard is barrier spray for the whole yard, Thermacell on the deck, and citronella candles purely for ambiance.',
   },
 ]
 
@@ -90,7 +91,7 @@ export default function CitronellaCandlesCanadaPage() {
               <li>Citronella masks the CO&#8322; and body scent mosquitoes track &mdash; it does not kill them, and it has zero effect on ticks.</li>
               <li>Plant-oil repellents like citronella wear off in 20&ndash;60 minutes, versus hours for DEET or picaridin.</li>
               <li>A season of citronella for a patio costs about $30&ndash;$80 in Canada.</li>
-              <li>A Thermacell creates a ~4.5 m (15 ft) protected zone, and professional barrier spray kills mosquitoes across the whole yard for 21&ndash;30 days.</li>
+              <li>A Thermacell creates a ~4.5 m (15 ft) protected zone, and professional barrier spray reduces the adult mosquitoes resting across the whole yard, with the residual renewed on your plan&rsquo;s schedule.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
@@ -249,7 +250,7 @@ export default function CitronellaCandlesCanadaPage() {
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Do citronella candles actually work? The honest answer.</p>
-            <p className="text-sm text-gray-800 leading-relaxed">Yes — as a <em>mild, short-range</em> repellent. Controlled testing (Journal of the American Mosquito Control Association) puts a citronella candle at roughly 40–50% fewer bites for the person sitting right beside it in still air, with the effect dropping to near-zero within about a metre and in any breeze. It is genuinely better than nothing at your chair, but it will never clear a table, a patio, or a yard. For that, pair a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> zone with <Link href="/mosquito-control">professional barrier spray</Link>, which also handles ticks — something citronella never touches.</p>
+            <p className="text-sm text-gray-800 leading-relaxed">Yes — as a <em>mild, short-range</em> repellent. Controlled testing (Journal of the American Mosquito Control Association) puts a citronella candle at roughly 40–50% fewer bites for the person sitting right beside it in still air, with the effect dropping to near-zero within about a metre and in any breeze. It is genuinely better than nothing at your chair, but it will never clear a table, a patio, or a yard. For the wider space, pair a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> zone with <Link href="/mosquito-control">professional barrier spray</Link>, which can also target ticks — something citronella never touches.</p>
           </div>
 
           <h2>How Citronella Actually Works (and Why Range Is the Problem)</h2>
@@ -295,12 +296,12 @@ export default function CitronellaCandlesCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Citronella candle</strong></td><td className="px-3 py-2">Under 1 m bubble</td><td className="px-3 py-2">~40–50% beside it (still air)</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link></td><td className="px-3 py-2">~4.5 m zone</td><td className="px-3 py-2">70–95% in the zone</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">DEET / picaridin spray</td><td className="px-3 py-2">On skin</td><td className="px-3 py-2">90%+ for hours</td><td className="px-3 py-2">Repels ticks</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Whole yard</td><td className="px-3 py-2">Kills on contact · 21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Whole yard</td><td className="px-3 py-2">Kills on contact · renewed on your plan&rsquo;s schedule</td><td className="px-3 py-2">Yes — targets ticks where they wait</td></tr>
             </tbody>
           </table>
 
           <h2>The Honest Verdict for Canadian Buyers</h2>
-          <p>Buy citronella candles if you want a nice-smelling, softly lit patio and you understand you are getting a small bite reduction only for whoever sits right beside the flame in calm air. Do not buy them expecting to reclaim a mosquito-infested backyard — the range is simply too short and too fragile in wind. If mosquitoes are actually ruining your evenings, the money is far better spent on a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> for the deck and a <Link href="/mosquito-control">professional barrier spray</Link> for the whole property, then light the candles purely because you like them. If you are curious whether living plants do any better than candles, our guide to <Link href="/blog/mosquito-repellent-plants-ontario">mosquito-repellent plants in Ontario</Link> gives the honest, evidence-based answer (spoiler: also modest).</p>
+          <p>Buy citronella candles if you want a nice-smelling, softly lit patio and you understand you are getting a small bite reduction only for whoever sits right beside the flame in calm air. Do not buy them expecting to reclaim a mosquito-infested backyard — the range is simply too short and too fragile in wind. If mosquitoes are actually ruining your evenings, put the money toward a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> for the deck and a <Link href="/mosquito-control">professional barrier spray</Link> for the whole property, then light the candles purely because you like them. If you are curious whether living plants do any better than candles, our guide to <Link href="/blog/mosquito-repellent-plants-ontario">mosquito-repellent plants in Ontario</Link> gives the honest, evidence-based answer (spoiler: also modest).</p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -325,7 +326,7 @@ export default function CitronellaCandlesCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Candles for Ambiance · Barrier Spray for Actual Mosquitoes" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 21–30 day residual." variant="dark" />
+      <CTASection heading="Candles for Ambiance · Barrier Spray for Actual Mosquitoes" subtext={`Get a free quote for licensed barrier spray. From $99. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

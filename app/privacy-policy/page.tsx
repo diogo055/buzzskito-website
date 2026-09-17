@@ -19,7 +19,7 @@ export default function PrivacyPolicyPage() {
         <span className="text-gray-700">Privacy Policy</span>
       </nav>
       <h1 className="text-3xl font-extrabold text-brand-900 mb-4">Privacy Policy</h1>
-      <p className="text-gray-500 text-sm mb-8">Last updated: January 1, 2026</p>
+      <p className="text-gray-500 text-sm mb-8">Last updated: September 15, 2026</p>
       <div className="prose-brand max-w-none">
         <p>BuzzSkito Mosquito &amp; Tick Control (&quot;BuzzSkito&quot;, &quot;we&quot;, &quot;our&quot;) is committed to protecting your privacy. This policy explains what information we collect, how we use it, and your rights regarding your data.</p>
         <h2>Information We Collect</h2>
@@ -30,6 +30,8 @@ export default function PrivacyPolicyPage() {
         <p>We do not sell your personal information. We may share information with service providers who assist us in operating our business, subject to confidentiality agreements.</p>
         <h2>Cookies</h2>
         <p>Our website uses cookies and similar tracking technologies including Google Analytics (G-X7RV1EQWD8) and Facebook Pixel. You may opt out of analytics tracking via your browser settings.</p>
+        <h2>How We Learn Which Pages Help</h2>
+        <p>When you visit our website, we record which page first brought you to the site, the website that sent you there (if any), any campaign tags in the link you followed (for example, a tag showing you came from our Google Business Profile), and an analytics visitor ID. We also count taps on our Call, Text and quote buttons. If you send us a quote request or ask for one of our yard or risk reports, the first page, referring website, campaign tags and analytics visitor ID are stored with your request, so we know which pages help homeowners. Google Analytics never receives your name, email, phone number or address from our forms or button taps. The first page, referring website and campaign tags are kept in three cookies of our own, bz_landing, bz_ref and bz_utm, which last 30 days; the analytics visitor ID is read from the Google Analytics cookie.</p>
         <h2>Contact Us</h2>
         <p>For privacy questions, contact us at <a href={`mailto:${BUSINESS.email}`} className="text-brand-700">{BUSINESS.email}</a> or call <a href={BUSINESS.phoneHref} className="text-brand-700">{BUSINESS.phone}</a>.</p>
       </div>

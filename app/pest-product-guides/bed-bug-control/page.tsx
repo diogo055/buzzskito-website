@@ -195,7 +195,7 @@ const SECTIONS: HubSection[] = [
       {
         href: '/blog/doktor-doom-sleep-tight-review-canada',
         title: 'Doktor Doom Sleep Tight Review',
-        blurb: 'The PMRA-registered mattress spray, tested against the grey market.',
+        blurb: 'The PMRA-registered mattress spray, compared with the grey market.',
       },
       {
         href: '/blog/konk-bed-bug-killer-review-canada',
@@ -231,12 +231,12 @@ const SECTIONS: HubSection[] = [
       {
         href: '/blog/best-natural-bed-bug-spray-canada',
         title: 'Best Natural Bed Bug Spray',
-        blurb: 'Plant-based, non-toxic and PMRA-legal picks.',
+        blurb: 'Plant-based, PMRA-legal picks, and their limits.',
       },
       {
         href: '/blog/best-bed-bug-spray-for-mattress-canada',
         title: 'Best Spray for a Mattress',
-        blurb: 'Mattress-safe, PMRA-registered picks.',
+        blurb: 'PMRA-registered picks labelled for use on mattresses.',
       },
       {
         href: '/blog/best-bed-bug-spray-for-travel-canada',
@@ -319,7 +319,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: TITLE,
-  description: 'Independent Canadian bed bug product research: PMRA-legal sprays, steamers, mattress encasements, interceptor traps, and diatomaceous earth. Every recommendation is Health Canada domestic-class registered or a non-pesticide device — no grey-market US products.',
+  description: 'Independent Canadian bed bug product research: PMRA-legal sprays, steamers, mattress encasements, interceptor traps, and diatomaceous earth. Every recommendation carries a PMRA domestic-class registration or is a non-pesticide device — no grey-market US products.',
   canonical: `/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

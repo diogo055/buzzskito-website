@@ -8,7 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { NEW_BLOGS_3, MOSQUITO_BLOGS } from '@/lib/constants'
+import { NEW_BLOGS_3, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS_3[0]
@@ -27,12 +27,12 @@ const FAQS = [
   {
     question: 'How much does a single mosquito spray treatment cost in Ontario?',
     answer:
-      'A single professional barrier spray treatment in Ontario typically costs between $120 and $200 for a standard residential lot (up to 10,000 sq ft). Larger properties, properties with extensive tree canopy, and those near waterways may cost slightly more. Most companies offer a re-treat guarantee within a set window at no charge.',
+      `A single professional barrier spray treatment in Ontario typically costs between $120 and $200 for a standard residential lot (under 10,000 sq ft); BuzzSkito's single treatment starts at $99 on a standard lot. Larger properties, properties with extensive tree canopy, and those near waterways may cost slightly more. Ask each company for its re-treatment terms in writing. At BuzzSkito: ${PROMISES.rainBack}`,
   },
   {
     question: 'Is a seasonal mosquito control package worth it?',
     answer:
-      'Yes — seasonal packages typically reduce the per-treatment cost by 30–40% compared to booking individual sprays. A five-treatment season package covering May through September delivers consistent protection and costs significantly less per visit than calling reactively when mosquitoes peak in July.',
+      'Yes for most yards — a season package keeps treatments on a schedule from May through September, so there are no long gaps between visits, which one-off sprays booked reactively when mosquitoes peak in July cannot do. BuzzSkito season plans are $549 (5 sprays, monthly), $994 (10 sprays, every 2 weeks, most popular) and $2,049 (20+ sprays, weekly) on a standard lot, plus HST. Standard and Exclusive also include the Bite-Free Guarantee, and every plan includes the rain-back re-treat.',
   },
   {
     question: 'Does lot size affect the price of mosquito spray?',
@@ -42,7 +42,7 @@ const FAQS = [
   {
     question: 'What is included in a professional mosquito treatment?',
     answer:
-      'A professional barrier spray visit includes a property inspection to identify breeding areas, application of Health Canada–approved formula to all foliage, fence lines, shaded areas, and perimeter vegetation, plus a re-entry window notification (typically 30 minutes). BuzzSkito also provides a service log confirming the product used and the date of treatment.',
+      'A professional barrier spray visit includes a property inspection to identify breeding areas, application of a registered formula, according to label directions, to foliage, fence lines, shaded areas, and perimeter vegetation, plus re-entry instructions (stay off treated areas until the spray has dried, as the label directs). BuzzSkito also provides a service log confirming the product used and the date of treatment.',
   },
   {
     question: 'Does BuzzSkito offer free quotes?',
@@ -112,12 +112,12 @@ export default function MosquitoControlCostPage() {
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">In Ontario, professional mosquito control costs about $120&ndash;$200 for a single barrier-spray treatment on a standard lot, while a 5-treatment season package runs roughly $420&ndash;$650 &mdash; cheaper per visit than booking sprays reactively.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>A single one-time barrier-spray treatment on a standard lot (up to 10,000 sq ft) typically costs $120&ndash;$200 in Ontario.</li>
+              <li>A single one-time barrier-spray treatment on a standard lot (under 10,000 sq ft) typically costs $120&ndash;$200 in Ontario; BuzzSkito&rsquo;s starts at $99.</li>
               <li>A 3-treatment mini-season runs about $290&ndash;$430; a 5-treatment full season (May&ndash;September) runs about $420&ndash;$650.</li>
               <li>A combined mosquito + tick package costs roughly $580&ndash;$850 for high-risk properties.</li>
               <li>Estate lots over half an acre are typically priced at $200&ndash;$350 per visit.</li>
-              <li>Seasonal packages cut the per-treatment cost by about 30&ndash;40% versus booking sprays individually.</li>
-              <li>Barrier spray must be reapplied every 21&ndash;30 days to stay effective; BuzzSkito provides free GTA quotes.</li>
+              <li>BuzzSkito season plans: $549 (5 sprays, monthly), $994 (10 sprays, every 2 weeks) or $2,049 (20+ sprays, weekly) on a standard lot, plus HST.</li>
+              <li>Barrier spray residual wears down with time and rain, so treatments are repeated on a schedule; BuzzSkito provides free GTA quotes.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
@@ -174,17 +174,17 @@ export default function MosquitoControlCostPage() {
         <p>Properties near the Credit River, Humber River, Don Valley, Lake Ontario, Bronte Creek, or any backyard pond face higher mosquito pressure and may require more thorough application coverage. Some companies add a small surcharge for waterfront or ravine-adjacent properties because treatment takes longer and may need to be reapplied more frequently.</p>
 
         <h3>3. One-Time vs. Seasonal Package</h3>
-        <p>This is the biggest cost lever. A single treatment booked reactively in July might cost $150–$200. That same treatment, booked as part of a five-visit seasonal package in May, might cost $90–$120 per visit. The economics of barrier spray heavily favour seasonal packages — the formula needs to be reapplied every 21–30 days to stay effective, so a reactive approach ends up more expensive and less effective than scheduling the season upfront.</p>
+        <p>This is the biggest cost lever. A single treatment booked reactively in July might cost $150–$200. That same treatment, booked as part of a five-visit seasonal package in May, might cost $90–$120 per visit. The economics of barrier spray heavily favour seasonal packages — the residual wears down with time and rain, so treatments need to be repeated on a schedule, and a reactive approach ends up more expensive and less effective than scheduling the season upfront.</p>
 
         <h3>4. Combined Mosquito and Tick Treatment</h3>
         <p>Many Ontario homeowners — especially those near conservation areas, ravines, or greenbelt trails — need both mosquito and tick control. Combined packages are almost always cheaper than booking each service separately. If you live near the Niagara Escarpment, Oak Ridges Moraine, or any forested trail system, the combined package is the right starting point.</p>
 
         <h3>5. Company Licensing and Product Quality</h3>
-        <p>Not all mosquito control companies in Ontario operate with a valid pest control license from the Ontario Ministry of the Environment. Licensed companies use Health Canada–approved formulas under Pest Management Regulatory Agency (PMRA) oversight — which costs more to source and apply than unregistered products. When comparing quotes, verify that the company is licensed, uses PMRA-approved products, and will provide a service log documenting what was applied, where, and at what rate.</p>
+        <p>Not all mosquito control companies in Ontario operate with a valid pest control license from the Ontario Ministry of the Environment. Licensed companies use products registered under the Pest Control Products Act, each with a PCP number on the label — which costs more to source and apply than unregistered products. When comparing quotes, verify that the company is licensed, uses registered products, and will provide a service log documenting what was applied, where, and at what rate.</p>
 
         <h2>The Real Cost of Doing Nothing</h2>
         <p>Before dismissing professional mosquito control as an unnecessary expense, consider what you lose without it. In the GTA, properties near waterways and ravines can become genuinely unusable in the evenings from late May through August — a backyard you paid a mortgage for, sitting empty because of pests. The cost of a full five-treatment season is roughly equivalent to one or two outdoor dining experiences you won&apos;t have to skip because of mosquitoes.</p>
-        <p>West Nile virus, while uncommon, is a real risk in Ontario — the City of Toronto runs a dedicated larviciding program every year precisely because mosquito-borne illness is a documented public health concern in this region. Professional control significantly reduces the mosquito population on your property and around the people who matter most to you.</p>
+        <p>West Nile virus, while uncommon, is a real risk in Ontario — the City of Toronto runs a dedicated larviciding program every year precisely because mosquito-borne illness is a documented public health concern in this region. Professional barrier treatment lowers the number of adult mosquitoes resting on your property; for West Nile specifically, Public Health Ontario&rsquo;s advice on repellent, clothing, and standing water still applies.</p>
 
         <h2>DIY vs. Professional: The True Cost Comparison</h2>
         <div className="not-prose overflow-x-auto my-6">
@@ -202,7 +202,7 @@ export default function MosquitoControlCostPage() {
                 { option: 'DEET personal repellent', cost: '$30 – $60', effectiveness: 'Good for person, not yard' },
                 { option: 'DIY backyard fogger (store-bought)', cost: '$80 – $200 + refills', effectiveness: 'Low — no residual, short knockdown' },
                 { option: 'Mosquito dunks (larvicide)', cost: '$20 – $40', effectiveness: 'Good for standing water sources only' },
-                { option: 'Professional barrier spray (5-visit season)', cost: '$420 – $650', effectiveness: 'High — residual protection 21–30 days per visit' },
+                { option: 'Professional barrier spray (5-visit season)', cost: '$420 – $650', effectiveness: 'High — residual on resting vegetation, renewed each visit' },
               ].map(({ option, cost, effectiveness }) => (
                 <tr key={option} className="border-b border-gray-200 even:bg-gray-50">
                   <td className="px-4 py-2 font-medium text-gray-800">{option}</td>
@@ -222,7 +222,7 @@ export default function MosquitoControlCostPage() {
           blurb="The one DIY product that earns its keep: a BTI (Bacillus thuringiensis israelensis) larvicide that kills mosquito larvae in standing water you can't drain — rain barrels, pond edges, low spots — for pennies per week. It won't touch adult mosquitoes resting in foliage, so pair it with barrier spray rather than relying on it alone."
           search="summit mosquito dunks"
           score={8.6}
-          pros={['Targets larvae at the source', 'Safe around pets, fish, and wildlife', 'Long-lasting — each dunk covers weeks']}
+          pros={['Targets larvae at the source', 'Acts on mosquito, black fly and gnat larvae — use as the label directs', 'Long-lasting — each dunk covers weeks']}
           cons={['Only works on standing water', 'Does nothing for adult mosquitoes']}
         />
         <div className="not-prose mb-6">
@@ -264,7 +264,7 @@ export default function MosquitoControlCostPage() {
 
       <CTASection
         heading="Get Your Free Mosquito Control Quote"
-        subtext="Transparent pricing, Health Canada–approved formulas, 100% satisfaction guarantee. Serving the GTA since 2019."
+        subtext={`Transparent pricing from $99 on a standard lot. ${PROMISES.labelLine}. ${PROMISES.rainBackShort}. Serving the GTA since 2019.`}
       />
     </>
   )

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import CityPriceCard from '@/components/CityPriceCard'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
 
@@ -44,7 +45,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Property Management Mosquito & Tick Control GTA · Portfolio Contracts',
-  description: "Volume-priced mosquito and tick barrier spray for GTA property management portfolios. Single point of contact, consolidated invoicing, direct tenant coordination. Health Canada-approved, BuzzSkito Bite-Free Guarantee, 150+ five-star reviews.",
+  description: "Volume-priced mosquito and tick barrier spray for GTA property management portfolios. Single point of contact, consolidated invoicing, direct tenant coordination. Licensed Ontario operator, rain-back guarantee, 150+ five-star reviews.",
   canonical: SLUG,
 })
 
@@ -68,6 +69,7 @@ export default function PropertyManagerMosquitoTickControlPage() {
         ]}
         title={<>Property Management Mosquito + Tick Control</>}
         titleAccent={<>150+ Five-Star Reviews · Volume Portfolio Rates</>}
+        service="mosquito"
         subtitle={<>Volume-priced mosquito and tick barrier spray for GTA property management portfolios. Single point of contact, consolidated invoicing, direct tenant coordination, and integration with your PM software. Designed for the workflow of professional property managers.</>}
       >
         <p className="mt-6 text-xs font-extrabold text-amber-400 uppercase tracking-widest">For Property Management Companies · Portfolio Contracts · Volume Pricing · GTA-Wide</p>
@@ -112,6 +114,10 @@ export default function PropertyManagerMosquitoTickControlPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" />
+      </div>
+
       {/* PORTFOLIO PRICING */}
       <section className="bg-gray-50 py-14 px-4">
         <div className="max-w-5xl mx-auto">
@@ -140,6 +146,8 @@ export default function PropertyManagerMosquitoTickControlPage() {
         </div>
       </section>
 
+      {/* TYPICAL PRICES */}
+
       {/* WORKFLOW */}
       <section className="bg-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -163,6 +171,10 @@ export default function PropertyManagerMosquitoTickControlPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" />
+      </div>
 
       {/* FAQ */}
       <section className="bg-gray-50 py-14 px-4">

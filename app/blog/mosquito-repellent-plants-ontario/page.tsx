@@ -8,7 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
+import { NEW_BLOGS_2, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS_2[0]
@@ -38,7 +38,7 @@ const FAQS = [
   },
   {
     question: 'Should I combine plants with professional mosquito spray?',
-    answer: 'Yes. Plants can help reduce mosquito attraction to your garden while professional barrier spray kills mosquitoes on contact and provides up to 30 days of residual protection across your entire yard. Combined, they are significantly more effective than either alone.',
+    answer: 'Yes. Plants can help reduce mosquito attraction to your garden while professional barrier spray kills mosquitoes on contact where they rest, with the residual on the leaves renewed on your plan\'s schedule (every 2 weeks on Standard, monthly on Basic). Combined, they do more than either does alone.',
   },
   {
     question: 'Is the citronella plant a perennial in Ontario?',
@@ -159,6 +159,7 @@ export default function MosquitoRepellentPlantsPage() {
 
         <h3>6. Marigolds (<em>Tagetes</em>)</h3>
         <p>Widely used as a garden border plant, marigolds emit pyrethrum — a compound also used in commercial insecticides. They are most effective planted densely around property perimeters and near standing water sources. Also deters aphids and whiteflies.</p>
+        <p>Marigolds are also the cheapest plant on this list to establish in quantity, because a dense border wants dozens of them and nursery six-packs add up fast. Start them indoors in April and transplant after the mid-May frost date: <BuyLink tag={AMZ_TAG} search="marigold seeds">check marigold seeds on Amazon.ca &rarr;</BuyLink></p>
 
         <h3>7. Rosemary (<em>Salvia rosmarinus</em>)</h3>
         <p>Contains camphor and α-pinene, which mosquitoes dislike. Rosemary is borderline hardy in Southern Ontario (Zone 6) and does best in sheltered, south-facing locations. Grow in containers if you&apos;re north of the 416. Burning rosemary on the grill can create a short-term repellent smoke effect.</p>
@@ -168,6 +169,7 @@ export default function MosquitoRepellentPlantsPage() {
 
         <h3>9. Peppermint (<em>Mentha × piperita</em>)</h3>
         <p>Menthol and menthone in peppermint are active mosquito deterrents. Grow in containers — peppermint spreads aggressively if planted directly in garden beds. Also useful: diluted peppermint oil applied to skin provides temporary personal repellency.</p>
+        <p>Peppermint, lemon balm and citronella grass all belong in pots rather than loose in a bed, and they want depth — a shallow decorative bowl dries out by noon in July. Deep patio planters are the practical purchase before planting day: <BuyLink tag={AMZ_TAG} search="large outdoor planter pots">check patio planters on Amazon.ca &rarr;</BuyLink></p>
 
         <h3>10. Sage (<em>Salvia officinalis</em>)</h3>
         <p>Burning sage near outdoor fires and firepits creates aromatic smoke that mosquitoes actively avoid. As a living plant, sage provides modest ambient repellency around seating areas. Hardy in most of Southern Ontario with winter mulching.</p>
@@ -189,7 +191,7 @@ export default function MosquitoRepellentPlantsPage() {
 
         <h3>The honest truth: plants alone won&rsquo;t clear a yard</h3>
         <p>Here is the myth worth busting: no citronella plant — geranium or grass — will meaningfully reduce mosquitoes across an Ontario backyard. Peer-reviewed trials of the &ldquo;mosquito plant&rdquo; geranium have repeatedly found no measurable protection. The scent travels only a few centimetres, while mosquitoes home in on the carbon dioxide and body heat you give off from well beyond that. Treat citronella as a pleasant patio plant, not pest control.</p>
-        <p>For protection you can actually feel, pair it with the two things that work at yard scale: eliminate standing water, and put down a <Link href="/mosquito-control">professional barrier spray</Link> that coats the vegetation where mosquitoes rest and keeps working for up to 30 days. Our breakdown of <Link href="/blog/mosquito-vs-diy-vs-professional-control">DIY vs. professional mosquito control</Link> lays out the full comparison, and our guide to <Link href="/blog/natural-mosquito-repellent-ontario">natural mosquito repellents in Ontario</Link> covers the non-chemical options worth trying.</p>
+        <p>For protection you can actually feel, pair it with the two things that work at yard scale: eliminate standing water, and put down a <Link href="/mosquito-control">professional barrier spray</Link> that coats the vegetation where mosquitoes rest and is renewed on your plan&rsquo;s schedule. Our breakdown of <Link href="/blog/mosquito-vs-diy-vs-professional-control">DIY vs. professional mosquito control</Link> lays out the full comparison, and our guide to <Link href="/blog/natural-mosquito-repellent-ontario">natural mosquito repellents in Ontario</Link> covers the non-chemical options worth trying.</p>
         <p>Because plants alone won&rsquo;t hold a patio through a July evening, most Ontario homeowners bridge the gap with a spot device that actually creates a protection zone. A butane-powered repeller such as a Thermacell puts out a 20-foot mosquito-free bubble around your seating in minutes — a genuine upgrade over hoping a potted geranium does the job: <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <TopPick tag={AMZ_TAG}
@@ -216,9 +218,10 @@ export default function MosquitoRepellentPlantsPage() {
         <ol>
           <li><strong>Eliminate standing water</strong> — any container holding water for more than 48 hours is a breeding site</li>
           <li><strong>Plant strategically</strong> — concentrate repellent plants near patios, doorways, and seating areas</li>
-          <li><strong>Professional barrier spray</strong> — kills mosquitoes on contact across your entire yard and provides up to 30 days of residual protection through all vegetation</li>
+          <li><strong>Professional barrier spray</strong> — kills mosquitoes on contact in the vegetation where they rest, with the residual renewed on your plan&apos;s schedule (every 2 weeks on Standard, monthly on Basic)</li>
         </ol>
-        <p>Plants reduce the ambient mosquito population around specific spots. Professional spray eliminates the population across the full property. Together, they provide season-long protection that neither achieves alone.</p>
+        <p>Step one is where most gardens are actually lost, and it is the step people finish only halfway. Drain what you can drain — but for the water that has to stay, like a rain barrel, a pond edge or a low corner that stays wet for days after a storm, a Bti dunk or granule floats in the water and takes out the larvae before they ever reach your patio furniture: <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">check mosquito dunks on Amazon.ca &rarr;</BuyLink></p>
+        <p>Plants reduce the ambient mosquito population around specific spots. Professional spray reduces the adult mosquitoes resting across the full property. Together, they do more than either achieves alone.</p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4 my-6">
@@ -247,7 +250,7 @@ export default function MosquitoRepellentPlantsPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="Combine Plants With Professional Protection" subtext="BuzzSkito barrier spray covers your entire yard — not just the plants. Up to 30-day protection guaranteed." />
+      <CTASection heading="Combine Plants With Professional Protection" subtext={`BuzzSkito barrier spray covers your entire yard — not just the plants. ${PROMISES.rainBack}`} />
     </>
   )
 }

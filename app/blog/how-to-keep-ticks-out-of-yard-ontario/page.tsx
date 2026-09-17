@@ -8,7 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'how-to-keep-ticks-out-of-yard-ontario'
@@ -27,7 +27,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: `How to Keep Ticks Out of Your Yard (Ontario)`,
-  description: `Ontario homeowner's complete guide to keeping ticks out of your yard. 10 proven steps for Lyme disease prevention, with a focus on the GTA's confirmed blacklegged tick zones.`,
+  description: `Ontario homeowner's complete guide to keeping ticks out of your yard. 10 practical steps to cut tick exposure at home, with a focus on the GTA's confirmed blacklegged tick zones.`,
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -38,7 +38,7 @@ const AMZ_TAG = tagForSlug('how-to-keep-ticks-out-of-yard-ontario')
 export default function HowToKeepTicksOutOfYardOntarioPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: `Ontario homeowner's complete guide to keeping ticks out of your yard. 10 proven steps for Lyme disease prevention, with a focus on the GTA's confirmed blacklegged tick zones.`, slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: `Ontario homeowner's complete guide to keeping ticks out of your yard. 10 practical steps to cut tick exposure at home, with a focus on the GTA's confirmed blacklegged tick zones.`, slug: SLUG, datePublished: DATE })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: TITLE, url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -66,9 +66,9 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
               <li>A 3-foot-wide wood-chip or gravel barrier between lawn and woods dries out ticks trying to cross &mdash; the CDC-recommended defence.</li>
               <li>Ticks live in the 1&ndash;3 metre transition zone where lawn meets woods, not in open, mowed lawn.</li>
               <li>Mice are the primary Lyme reservoir, so keep woodpiles, bird feeders, and compost at least 30 feet from play areas.</li>
-              <li>Professional tick barrier spray is applied five times per season &mdash; roughly monthly from May through September, so there is no gap through the May&ndash;July nymph peak and coverage still holds when adults return in autumn; single treatments start at $99.</li>
+              <li>Professional tick barrier spray is applied five times per season &mdash; roughly monthly from May through September, timed to span the May&ndash;July nymph peak and the autumn return of adults; single treatments start at $99 on a standard lot.</li>
               <li>Blacklegged ticks generally need 24&ndash;36 hours attached to transmit Lyme disease bacteria, so daily tick checks matter.</li>
-              <li>Factory permethrin-treated clothing kills ticks on contact and holds its protection for up to 70 wash cycles &mdash; Health Canada has not approved consumer sprays for treating your own clothing (and permethrin never goes on skin).</li>
+              <li>Factory permethrin-treated clothing kills ticks on contact and holds its protection for up to 70 wash cycles &mdash; consumer sprays for treating your own clothing are not registered in Canada (and permethrin never goes on skin).</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
@@ -85,6 +85,7 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
 
         <h3>2. Keep Grass Cut Short (2 inches or less)</h3>
         <p>Ticks need humidity to survive. Tall grass holds humidity at the soil level where ticks live. Mowing to 2 inches or less significantly reduces tick survival on the lawn surface. Combine with edge-zone barrier spray for maximum effect.</p>
+        <p>Height matters for a second reason: grass blades are the launch pad. A tick has no wings and cannot jump, so it climbs vegetation and waits with its front legs out for a leg or a dog to brush past &mdash; take the blades away and you take away the perch. <Link href="/blog/can-ticks-fly-jump-swim" className="text-brand-700 underline">Can ticks fly, jump, or swim?</Link> explains how that questing behaviour works, and why the tree-drop story is a myth.</p>
 
         <h3>3. Remove Leaf Litter Weekly During Active Season</h3>
         <p>Leaf litter is prime tick habitat — it holds humidity, hides ticks from sun, and accumulates in garden bed edges where they thrive. Rake or vacuum leaf litter weekly through spring and fall. Composting leaves on-property is fine — just keep the compost pile away from play areas.</p>
@@ -97,6 +98,7 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
 
         <h3>6. Plant Deer-Resistant Landscaping if You're Near Conservation Land</h3>
         <p>White-tailed deer are the primary host for adult blacklegged ticks. Properties bordering conservation areas, ravines, or rural land that attract deer accumulate more ticks. Replace deer-favorite plants (hostas, daylilies, tulips) with deer-resistant alternatives (lavender, salvia, marigolds, Russian sage).</p>
+        <p>The other question homeowners ask at this point is whether they can let wildlife do the work instead &mdash; opossums, guinea fowl, bats, or a backyard pond full of frogs. Our ranked rundown of <Link href="/blog/what-eats-ticks-and-mosquitoes" className="text-brand-700 underline">what eats ticks and mosquitoes</Link> goes through each predator and how much of a dent it really makes in a suburban yard. Some are worth encouraging; none of them replace the barrier zone and the spray schedule below.</p>
 
         <h3>7. Apply Professional Tick Barrier Spray Five Times Per Season</h3>
         <p>Five applications spread roughly monthly from May through September is what actually holds a barrier. Blacklegged tick nymphs peak from May into July, and nymphs are the stage that drives most Lyme transmission because they are poppy-seed sized and easily missed. Adults then re-emerge and stay active through the autumn, into November in mild years. The acaricide residual is temporary, and deer, mice, and birds continuously reintroduce ticks from adjacent woodland — so a one-off visit, or a spring-and-fall pair, leaves a multi-month hole straight through peak nymph season. Spray must be applied to the specific 1–3 metre transition zones, not broadcast across the lawn. Single treatments start at $99; a full five-treatment tick season is $597, or $497 added to any mosquito plan.</p>
@@ -106,25 +108,28 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
         <p>Pair the body check with the laundry step most people skip: put the clothes you wore straight into a hot dryer <em>before</em> washing them. Ten minutes on high heat kills ticks on dry fabric, while a normal wash on its own often does not &mdash; <Link href="/blog/do-ticks-die-in-the-washing-machine" className="text-brand-700 hover:underline">the post-hike laundry sequence</Link> lays out the temperatures behind it.</p>
 
         <h3>9. Wear Factory Permethrin-Treated Clothing for High-Risk Outdoor Activity</h3>
-        <p>Permethrin kills blacklegged ticks on contact through treated fabric, and it never goes on skin. In Canada the route to that protection is a garment, not a bottle: Health Canada states that permethrin liquids and sprays sold for consumers to treat their <em>own</em> clothing are not approved for use here. So buy the pants, socks, and shirts already treated at the factory rather than spraying gear yourself &mdash; Insect Shield factory-treated clothing holds its protection for up to 70 wash cycles, where a home treatment would need redoing every few washes. Especially valuable for hiking the Bruce Trail, working in conservation-area-adjacent yards, or outdoor events in tick zones.</p>
+        <p>Permethrin kills blacklegged ticks on contact through treated fabric, and it never goes on skin. In Canada the route to that protection is a garment, not a bottle: permethrin liquids and sprays sold for consumers to treat their <em>own</em> clothing are not registered for use here. So buy the pants, socks, and shirts already treated at the factory rather than spraying gear yourself &mdash; Insect Shield factory-treated clothing holds its protection for up to 70 wash cycles, where a home treatment would need redoing every few washes. Especially valuable for hiking the Bruce Trail, working in conservation-area-adjacent yards, or outdoor events in tick zones.</p>
         <TopPick tag={AMZ_TAG}
           label="Our Top Pick for Tick-Zone Clothing"
           name="Insect Shield Permethrin-Treated Clothing"
-          blurb="For anyone working, hiking, or gardening in the lawn-to-woods transition zone, permethrin-treated clothing is the highest-impact personal defence: it kills blacklegged ticks on contact before they ever reach skin. Buy it factory-treated rather than treating your own gear — Health Canada has not approved consumer permethrin sprays for treating your own clothing, and the factory-bonded permethrin lasts far longer anyway."
+          blurb="For anyone working, hiking, or gardening in the lawn-to-woods transition zone, permethrin-treated clothing is the highest-impact personal defence: it kills blacklegged ticks on contact before they ever reach skin. Buy it factory-treated rather than treating your own gear — permethrin sprays sold for consumers to treat their own clothing are not registered for that use in Canada, and the factory-bonded permethrin lasts far longer anyway."
           search="insect shield permethrin treated clothing"
           score={9.0}
           pros={['Kills ticks on contact, not just repels', 'Factory-bonded permethrin lasts up to 70 wash cycles', 'Nothing to mix, spray, or re-apply yourself']}
           cons={['Protects only the garments you buy — boots and packs are not covered', 'Costs more upfront than the same garment untreated']}
         />
         <p><BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Shop permethrin-treated clothing on Amazon.ca &rarr;</BuyLink></p>
-        <p>For which permethrin formats Health Canada approves and which it does not, see our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">permethrin for yard &amp; clothing guide (Canada)</Link>, and compare skin-safe options in our <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellents for the yard in Canada</Link> roundup.</p>
+        <p>For which permethrin formats are registered in Canada and which are not, see our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 hover:underline">permethrin for yard &amp; clothing guide (Canada)</Link>, and compare repellent options in our <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellents for the yard in Canada</Link> roundup.</p>
 
         <h3>10. Know the GTA's High-Risk Zones</h3>
         <p>Public Health Ontario confirms blacklegged tick populations across the GTA. Highest-risk areas: Oak Ridges Moraine (King City, Caledon, Richmond Hill), Rouge National Urban Park (Scarborough, Markham), Niagara Escarpment (Hamilton, Burlington north end), Don Valley and ravine system (Toronto), Bronte Creek Provincial Park (Oakville/Burlington edge), and Boyd Conservation Area (Vaughan/Woodbridge). Properties within 1 km of these areas should run the full five-treatment season on their barrier zones — monthly May through September — rather than a single spring visit.</p>
+        <p>Three of those zones have their own neighbourhood-level breakdowns: <Link href="/blog/tick-control-vaughan-king-city-woodbridge" className="text-brand-700 hover:underline">Boyd Conservation Area and the Vaughan, King City and Woodbridge corridor</Link>, <Link href="/blog/tick-prevention-caledon-halton-hills" className="text-brand-700 hover:underline">the moraine-and-escarpment convergence across Caledon and Halton Hills</Link>, and <Link href="/blog/mosquito-tick-control-stoney-creek" className="text-brand-700 hover:underline">the escarpment shelf above Stoney Creek</Link>.</p>
+        <p>Two more of the corridors on that list are mapped street by street as well: the Credit River and Rattray Marsh side in <Link href="/blog/tick-hot-spots-mississauga-2026" className="text-brand-700 underline">Mississauga tick hot spots 2026</Link>, and the Bronte Creek and RBG side in <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 underline">Oakville and Burlington tick hot spots 2026</Link>.</p>
+        <p>Knowing the zone is half of it; knowing the calendar is the other half, because the work above is only worth doing before the ticks are questing rather than after. Mississauga homeowners can time it from <Link href="/blog/tick-season-mississauga-when-are-ticks-active" className="text-brand-700 underline">the month-by-month Mississauga tick season guide</Link>, and the west end of the Escarpment corridor is covered in <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 underline">our Ancaster, Dundas and Hamilton tick control guide</Link>.</p>
 
 
         <h2>Bottom Line</h2>
-        <p>Tick prevention in Ontario is now a year-round consideration — not just a cottage-country issue. Blacklegged tick populations have established across virtually all of Southern Ontario and continue expanding northward. The combination of physical yard modifications + professional barrier spray + personal vigilance protects against Lyme disease, Anaplasmosis, Babesiosis, and other tick-borne illnesses that are increasing in Ontario every year.</p>
+        <p>Tick prevention in Ontario is now a year-round consideration — not just a cottage-country issue. Blacklegged tick populations have established across virtually all of Southern Ontario and continue expanding northward. The combination of physical yard modifications + professional barrier spray + personal vigilance reduces how often your household runs into ticks, the carriers of Lyme disease, anaplasmosis, babesiosis, and other tick-borne illnesses that are increasing in Ontario. None of it replaces daily tick checks or prompt removal.</p>
 
         <h2>Related Guides</h2>
         <ul>
@@ -152,7 +157,7 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Permethrin-Treated Clothing (Insect Shield)" search="insect shield permethrin treated clothing" label="Best tick-zone clothing" />
 
-      <CTASection heading="Specialist Mosquito & Tick Control for Ontario" subtext="From $99 per treatment. BuzzSkito Bite-Free Guarantee. 150+ five-star reviews." />
+      <CTASection heading="Specialist Mosquito & Tick Control for Ontario" subtext={`From $99 per treatment on a standard lot. ${PROMISES.rainBackShort}. ${PROMISES.biteFreeScope}. 150+ five-star Google reviews.`} />
     </>
   )
 }

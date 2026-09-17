@@ -3,13 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Vaughan Tick Control 2026 · From $99 · Boyd Conservation Specialist',
   description:
-    'Vaughan tick spray · 150+ five-star reviews. Targets blacklegged ticks across Woodbridge, Kleinburg, Maple, Thornhill, Concord. Free re-spray. (289) 216-5030.',
+    'Vaughan tick spray · 150+ five-star reviews. Targets blacklegged ticks across Woodbridge, Kleinburg, Maple, Thornhill, Concord. Rain-back guarantee. (289) 216-5030.',
   canonical: '/vaughan-tick-spray',
 })
 
@@ -18,7 +20,7 @@ const NEIGHBOURHOODS = ['Woodbridge','Kleinburg','Maple','Concord','Thornhill','
 const FAQS = [
   {
     question: 'How much does tick spray cost in Vaughan?',
-    answer: 'Tick spray in Vaughan starts from $99 per application. Properties near Boyd Conservation Area, the Kortright Centre, or the Humber River valley benefit most from the full seasonal program — five treatments spread roughly monthly from May through September — at $597 standalone, or $497 when added to any mosquito plan. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in Vaughan starts from $99 per application. Properties near Boyd Conservation Area, the Kortright Centre, or the Humber River valley benefit most from the full seasonal program — five treatments spread roughly monthly from May through September — at $597 standalone, or $497 when added to any mosquito plan, plus HST. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Where are ticks most common in Vaughan?',
@@ -26,15 +28,15 @@ const FAQS = [
   },
   {
     question: 'Has York Region issued tick warnings for Vaughan?',
-    answer: 'Yes. York Region Public Health issues tick advisories covering Vaughan\'s conservation lands, including Boyd and Kortright. They recommend avoiding tall grass and brush, checking for ticks after outdoor activity, and considering professional yard treatment for properties adjacent to forested or naturalized areas.',
+    answer: 'Yes. York Region Public Health issues tick advisories covering Vaughan\'s conservation lands, including Boyd and Kortright. They recommend avoiding tall grass and brush, checking for ticks after outdoor activity, and using insect repellent, particularly for people living next to forested or naturalized areas.',
   },
   {
     question: 'How many tick treatments does a Vaughan property need per year?',
-    answer: 'BuzzSkito recommends five treatments per season for most Vaughan properties — one roughly every month from May through September. Each application holds up to 30 days of residual protection, so monthly visits leave no gap through the May–July nymph peak, when the poppy-seed-sized nymphs that drive most Lyme disease transmission are questing at lawn edges, and they carry the barrier into the autumn, when adult ticks re-emerge and stay active into November in mild years. Repeat applications matter because the acaricide residual is temporary and deer, mice, and birds continuously reintroduce ticks from the adjacent conservation woodland — an occasional one-off visit cannot hold that barrier. The seasonal tick program is $597 standalone, or $497 added to any mosquito plan.',
+    answer: 'BuzzSkito recommends five treatments per season for most Vaughan properties — one roughly every month from May through September. The residual on treated vegetation wears down over a few weeks, so monthly visits keep the treated zones renewed through the May–July nymph peak and continue into the autumn, when adult ticks re-emerge and stay active into November in mild years. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors. Repeat applications matter because the acaricide residual is temporary and deer, mice, and birds continuously reintroduce ticks from the adjacent conservation woodland — an occasional one-off visit cannot hold that barrier. The seasonal tick program is $597 standalone, or $497 added to any mosquito plan, plus HST.',
   },
   {
-    question: 'Is tick spray safe for my family and pets in Vaughan?',
-    answer: 'Yes. Our Health Canada–approved barrier spray is safe for children and pets once the product has dried — approximately 30 minutes after application. Ontario technicians are licensed under the Pesticides Act and use water-based formulas registered specifically for residential use. After the 30-minute drying window, your yard is fully safe for outdoor activity with complete tick protection active.',
+    question: 'What should my family and pets do after a tick treatment in Vaughan?',
+    answer: 'Keep children and pets off treated areas until the spray has dried, as the product label directs. Ontario technicians are licensed under the Pesticides Act, and BuzzSkito holds Ontario Pesticide Operator Licence L-240-2436835197. Every product is applied according to its label directions, to the lawn edges, leaf litter and fence lines where ticks rest rather than across open lawn. If you have specific concerns about children or pets, tell us before the visit and we can adjust application zones.',
   },
   {
     question: 'What does BuzzSkito actually treat on my Vaughan property for ticks?',
@@ -54,7 +56,7 @@ export default function VaughanTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: '/vaughan-tick-spray', city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Targets ticks at all life stages.`, slug: '/vaughan-tick-spray', city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/vaughan-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'Vaughan' })) }} />
@@ -64,7 +66,8 @@ export default function VaughanTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>Vaughan Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Boyd Conservation Area and the Kortright Centre for Conservation are established blacklegged tick habitats right in Vaughan's backyard. BuzzSkito provides professional tick spray to protect your family from Lyme disease.</>}
+        subtitle={<>Licensed Ontario pesticide operator treating Vaughan yards near Boyd Conservation Area and the Kortright Centre, established blacklegged tick habitat. Treatments applied according to label directions.</>}
+        service="tick"
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -73,10 +76,10 @@ export default function VaughanTickPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ 5 Sprays per Season</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -84,7 +87,7 @@ export default function VaughanTickPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best tick control company in Vaughan?">
         <p>
-          <strong>BuzzSkito provides specialist tick barrier spray across all Vaughan neighbourhoods — Woodbridge, Kleinburg, Maple, Concord, Thornhill, Patterson, Vellore Village, Islington Woods, Sonoma Heights.</strong> Treatments use Health Canada-approved formulations applied to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>150+ five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Vaughan families get reliable Lyme disease prevention for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist tick barrier spray across all Vaughan neighbourhoods — Woodbridge, Kleinburg, Maple, Concord, Thornhill, Patterson, Vellore Village, Islington Woods, Sonoma Heights.</strong> Treatments are applied by a licensed Ontario pesticide operator, according to label directions, to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; the 5-spray tick season is $597 on its own or $497 added to any mosquito plan (plus HST). With <strong>150+ five-star Google reviews</strong>, no contracts, and a <strong>rain-back guarantee on every plan</strong>, BuzzSkito treats ravine, conservation-area, and wooded-edge properties across Vaughan. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -98,17 +101,17 @@ export default function VaughanTickPage() {
                 {[
                   ['Service area', 'All Vaughan neighbourhoods (Woodbridge, Kleinburg, Maple, Concord, Thornhill, Patterson, Vellore Village, Islington Woods, Sonoma Heights)'],
                   ['Specialization', 'Blacklegged tick (Ixodes scapularis) and American dog tick barrier spray'],
-                  ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or tick add-on bundle available on quote'],
+                  ['Pricing', 'From $99 per treatment · tick season $597 standalone or $497 with any mosquito plan (plus HST)'],
                   ['Treatment season', 'May through September (nymph peak May–July, adult activity resuming into autumn)'],
-                  ['Protection per visit', 'Up to 30 days residual on tick habitat zones'],
-                  ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
+                  ['Licence', PROMISES.licence],
+                  ['Re-entry', 'Stay off treated areas until the spray has dried, as the product label directs'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
                   ['Highest tick zones', 'Boyd Conservation Area · Kortright Centre · Humber River valley · Oak Ridges Moraine edge'],
                   ['Lyme disease vector', 'Yes — blacklegged tick populations confirmed by Public Health Ontario'],
                   ['Application zones', 'Lawn-to-woods edge · leaf litter · garden bed perimeters · fence-line vegetation · woodpiles'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
-                  ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
+                  ['Guarantee', 'Rain-back on every plan; Bite-Free on Standard & Exclusive'],
                   ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
                   ['Phone', '(289) 216-5030'],
                 ].map(([k, v]) => (
@@ -135,6 +138,8 @@ export default function VaughanTickPage() {
       </section>
 
       
+      <TypicalPrices service="tick" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -143,8 +148,8 @@ export default function VaughanTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — lawn-to-woods transitions, leaf litter, garden bed edges, and fence lines on your property.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies a barrier product, according to its label directions, to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Five sprays per season, roughly every 30 days, keep the treated zones renewed. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -160,7 +165,7 @@ export default function VaughanTickPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Vaughan</h2>
           <p>Vaughan residents living near Boyd Conservation Area or the Kortright Centre for Conservation are in close proximity to two of York Region's most well-documented blacklegged tick (Ixodes scapularis) habitats. These aren't distant wilderness areas — they are woven into the urban fabric of Woodbridge and Kleinburg, with residential lots backing directly onto forested conservation land. York Region Public Health has issued tick advisories specifically covering these areas, noting increasing Lyme disease case counts across the region.</p>
-          <p>The Humber River corridor that threads through Vaughan creates a continuous green corridor where ticks can move from deep forest to suburban backyards. Estate lots in Kleinburg and Woodbridge with mature oak and maple canopy are particularly high-risk environments. Ticks quest from low vegetation at the lawn's edge — which means your yard, not the trail, is the primary exposure zone. Professional barrier spray applied before and during peak season is the most effective way to reduce that risk at the source.</p>
+          <p>The Humber River corridor that threads through Vaughan creates a continuous green corridor where ticks can move from deep forest to suburban backyards. Estate lots in Kleinburg and Woodbridge with mature oak and maple canopy are particularly high-risk environments. Ticks quest from low vegetation at the lawn's edge — which means your yard, not the trail, is the primary exposure zone. Professional barrier spray applied before and during peak season is a practical way to reduce tick encounters where they start.</p>
 
           <h2>Tick Hotspots in Vaughan</h2>
           <ul>
@@ -171,6 +176,8 @@ export default function VaughanTickPage() {
             <li>Islington Woods naturalized areas and ravine edges</li>
           </ul>
 
+          <CityPriceCard city={CITY} service="tick" />
+
           <h2>Vaughan Neighbourhoods We Serve for Tick Control</h2>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
             {NEIGHBOURHOODS.map((n) => <span key={n} className="text-sm bg-amber-50 border border-amber-200 text-amber-700 px-3 py-1.5 rounded-full">{n}</span>)}
@@ -179,10 +186,10 @@ export default function VaughanTickPage() {
           <h2>What Our Vaughan Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 30 days of tick protection per treatment</li>
-            <li>Kills adult ticks, nymphs, and larvae on contact</li>
-            <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
-            <li>Free reapplication guarantee if ticks return</li>
+            <li>5 sprays per season, roughly monthly, renewing the treated zones</li>
+            <li>Targets adult ticks, nymphs, and larvae</li>
+            <li>{PROMISES.labelLine}, by a licensed operator; stay off treated areas until the spray has dried</li>
+            <li>{PROMISES.rainBack}</li>
           </ul>
 
           <h2>Also Providing Mosquito Control in Vaughan</h2>
@@ -190,7 +197,7 @@ export default function VaughanTickPage() {
 
 
           <h2>Compare Vaughan Pest Control Options</h2>
-          <p>Vaughan has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-vaughan" className="text-brand-700 hover:underline font-semibold">Pest Control in Vaughan</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/vaughan-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Vaughan</Link>.</p>
+          <p>Vaughan has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-vaughan" className="text-brand-700 hover:underline font-semibold">Pest Control in Vaughan</Link> for why a mosquito and tick specialist is a better fit for conservation-edge yards than a general pest company. See our full mosquito programme for the same property: <Link href="/vaughan-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Vaughan</Link>.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
@@ -209,7 +216,7 @@ export default function VaughanTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'James K.', text: 'We had a tick problem near our garden border. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-              { author: 'Priya R.', text: 'The technician explained exactly what product they were using and why it\u2019s safe for our dog. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
+              { author: 'Priya R.', text: 'The technician explained exactly what product they were using. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
             ].map(({ author, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -228,6 +235,10 @@ export default function VaughanTickPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="tick" location="price_card_faq" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -244,7 +255,7 @@ export default function VaughanTickPage() {
           </div>
         </div>
       </section>
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protect your family from Lyme disease. No contracts, guaranteed results." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Licensed tick spray for Vaughan conservation-edge yards. No contracts, rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

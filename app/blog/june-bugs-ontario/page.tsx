@@ -248,7 +248,7 @@ export default function JuneBugsOntarioPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="June Bugs Are Harmless — Mosquitoes and Ticks Aren&rsquo;t" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection across the GTA." variant="dark" />
+      <CTASection heading="June Bugs Are Harmless — Mosquitoes and Ticks Aren&rsquo;t" subtext="Get a free quote for licensed barrier spray across the GTA. From $99. Rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

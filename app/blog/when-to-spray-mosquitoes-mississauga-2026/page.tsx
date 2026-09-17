@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
 
 const POST = {
   title: 'When to Spray for Mosquitoes in Mississauga (2026 Service Calendar)',
@@ -18,7 +19,7 @@ const FAQS = [
   },
   {
     question: 'How often should I spray my Mississauga yard?',
-    answer: 'A single barrier spray lasts roughly 30 days. For a meaningful season-long impact in Mississauga, biweekly (every 14 days) treatment is the standard cadence — that\'s the BuzzSkito Standard Season at 10 sprays for $994. The biweekly cadence keeps active product on the resting vegetation continuously and accounts for the fact that rain, irrigation, and UV gradually break down the residual. Monthly spraying (5 treatments, BuzzSkito Basic Season at $549) works for lower-pressure inland lots. Weekly (20+ treatments, Exclusive Season at $2,049) is reserved for properties with extreme pressure or homeowners who entertain outdoors frequently.',
+    answer: 'A single barrier spray leaves a temporary residual that wears down over the following weeks. For a meaningful season-long impact in Mississauga, biweekly (every 14 days) treatment is the standard cadence — that\'s the BuzzSkito Standard Season at 10 sprays for $994. The biweekly cadence keeps active product on the resting vegetation continuously and accounts for the fact that rain, irrigation, and UV gradually break down the residual. Monthly spraying (5 treatments, BuzzSkito Basic Season at $549) works for lower-pressure inland lots. Weekly (20+ treatments, Exclusive Season at $2,049) is reserved for properties with extreme pressure or homeowners who entertain outdoors frequently.',
   },
   {
     question: 'Is May too early for mosquito spraying in Mississauga?',
@@ -69,10 +70,10 @@ export default function WhenToSprayMississaugaPage() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">In Mississauga, put the first mosquito barrier spray down between May 20 and June 4 &mdash; a week earlier for waterfront and Credit River properties &mdash; then repeat every 14 days, finishing with a mid-to-late-September spray; biweekly cadence is the standard because one treatment lasts about 30 days.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">In Mississauga, put the first mosquito barrier spray down between May 20 and June 4 &mdash; a week earlier for waterfront and Credit River properties &mdash; then repeat every 14 days, finishing with a mid-to-late-September spray; biweekly cadence is the standard because rain, irrigation, and UV break down each treatment&rsquo;s residual.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>The first barrier spray should land between May 20 and June 4; waterfront and Credit River lots start in the second or third week of May.</li>
-            <li>One barrier spray lasts roughly 30 days, so biweekly (every 14 days) is the standard season cadence.</li>
+            <li>Rain, irrigation, and UV break down each spray&rsquo;s residual, so biweekly (every 14 days) is the standard season cadence.</li>
             <li>Mississauga biting pressure peaks twice: mid-June to mid-July, then late July through late August.</li>
             <li>The final spray of the season should go down in mid-to-late September, before the first hard frost (typically mid-to-late October).</li>
             <li>Standard Season is 10 biweekly sprays ($994); Basic Season is 5 monthly sprays ($549) for lower-pressure inland lots.</li>
@@ -138,13 +139,13 @@ export default function WhenToSprayMississaugaPage() {
         <p>Best for: Inland Mississauga properties with no direct ravine or waterfront adjacency, smaller lots, homeowners who do their own weekly standing water elimination diligently, and households that use the yard moderately rather than for daily evening entertaining. Typical fit: Applewood midblock, central Erin Mills, central Cooksville off-ravine streets, Malton, Square One area homes.</p>
 
         <h3>Standard Season — $994 — 10 biweekly sprays (most popular)</h3>
-        <p>Best for: The majority of Mississauga properties. Anyone with mature landscaping, adjacent green space, regular outdoor entertaining, kids/pets in the yard, or who has previously had a mosquito problem they want eliminated rather than managed. Typical fit: Erindale, Streetsville, Credit Valley, Lorne Park, Mineola, Port Credit, Lakeview, Clarkson, Churchill Meadows west edge, north Meadowvale near Aquitaine, ravine-adjacent properties in any neighbourhood.</p>
+        <p>Best for: The majority of Mississauga properties. Anyone with mature landscaping, adjacent green space, regular outdoor entertaining, kids/pets in the yard, or who has previously had a mosquito problem and wants tighter coverage than monthly visits give. Typical fit: Erindale, Streetsville, Credit Valley, Lorne Park, Mineola, Port Credit, Lakeview, Clarkson, Churchill Meadows west edge, north Meadowvale near Aquitaine, ravine-adjacent properties in any neighbourhood.</p>
 
         <h3>Exclusive Season — $2,049 — 20+ weekly sprays</h3>
-        <p>Best for: Extreme-pressure properties (direct ravine adjacency, waterfront lots, large heavily landscaped properties), households entertaining outdoors multiple times per week, properties hosting summer weddings or recurring events, owners who simply want maximum protection and don\'t want to think about mosquitoes again until winter. Typical fit: Mississauga Road estates, large Lorne Park ravine lots, waterfront properties in Port Credit and Clarkson, properties on the Sawmill Valley Trail edge in Streetsville.</p>
+        <p>Best for: Extreme-pressure properties (direct ravine adjacency, waterfront lots, large heavily landscaped properties), households entertaining outdoors multiple times per week, properties hosting summer weddings or recurring events, owners who simply want the most frequent treatment schedule available. Typical fit: Mississauga Road estates, large Lorne Park ravine lots, waterfront properties in Port Credit and Clarkson, properties on the Sawmill Valley Trail edge in Streetsville.</p>
 
         <h2>Same-week service across Mississauga</h2>
-        <p>BuzzSkito services every Mississauga neighbourhood on this calendar with same-week availability. Whether you need a one-time pre-event spray, a Basic Season program, the Standard Season biweekly cadence that most Mississauga homeowners choose, or the Exclusive Season weekly treatment for extreme-pressure properties, the booking process is the same: send your address and lot size, receive a written quote within 24 hours, schedule inside 7 days. Combined <Link href="/mississauga-mosquito-control" className="text-brand-700 underline">Mississauga mosquito control</Link> + <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga tick spray</Link> bundles save $100 versus standalone tick service.</p>
+        <p>BuzzSkito services every Mississauga neighbourhood on this calendar with same-week availability. Whether you need a one-time pre-event spray, a Basic Season program, the Standard Season biweekly cadence that most Mississauga homeowners choose, or the Exclusive Season weekly treatment for extreme-pressure properties, the booking process is the same: send your address and lot size and we send back a written quote. {PROMISES.response} Then we book your visit window, inside 7 days. Combined <Link href="/mississauga-mosquito-control" className="text-brand-700 underline">Mississauga mosquito control</Link> + <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga tick spray</Link> bundles save $100 versus standalone tick service.</p>
 
         <h2>Related guides</h2>
         <ul>
@@ -154,7 +155,7 @@ export default function WhenToSprayMississaugaPage() {
           <li><Link href="/gta-mosquito-pressure-map" className="text-brand-700 underline">GTA Mosquito Pressure Map</Link></li>
         </ul>
 
-        <p className="text-sm text-gray-600 mt-8">Stay safe out there.<br/>— Alex &amp; The BuzzSkito Team</p>
+        <p className="text-sm text-gray-600 mt-8">Take care out there.<br/>— Alex &amp; The BuzzSkito Team</p>
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4">
           {FAQS.map(({ question, answer }) => (
@@ -170,7 +171,7 @@ export default function WhenToSprayMississaugaPage() {
 
       </article>
 
-      <CTASection heading="Book your 2026 Mississauga mosquito spray calendar now" subtext="Free custom quote based on your address, lot size, and neighbourhood pressure profile. Sent within 24 hours. Same-week service across every Mississauga neighbourhood." />
+      <CTASection heading="Book your 2026 Mississauga mosquito spray calendar now" subtext={`Free custom quote based on your address, lot size, and neighbourhood pressure profile. ${PROMISES.response} Same-week service across every Mississauga neighbourhood.`} />
     </>
   )
 }

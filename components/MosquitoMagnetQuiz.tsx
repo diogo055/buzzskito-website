@@ -3,6 +3,8 @@
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
+import { getGaClientId, getLandingPage, getReferrer, getUtm } from '@/lib/attribution'
+import { track } from '@/lib/track'
 import {
   scoreMagnet,
   type MagnetAnswers,
@@ -56,6 +58,8 @@ export default function MosquitoMagnetQuiz() {
     }
     setSubmitting(true)
     setError('')
+    // Stays 'network' unless the Hub answered, so a failed fetch and a rejected request read differently in GA.
+    let errorType = 'network'
     try {
       const res = await fetch(`${HUB_API_URL}/api/mosquito-magnet`, {
         method: 'POST',
@@ -65,13 +69,25 @@ export default function MosquitoMagnetQuiz() {
           email: email.trim().toLowerCase(),
           answers,
           result,
+          // First-touch attribution (lead payload contract): the page that brought the visitor, not this quiz.
+          landing_page: getLandingPage(),
+          referrer: getReferrer() || undefined,
+          source_component: 'mosquito_magnet',
+          ...getUtm(),
+          ga_client_id: getGaClientId() || undefined,
         }),
       })
-      if (!res.ok) throw new Error('Failed')
+      if (!res.ok) {
+        errorType = `http_${res.status}`
+        throw new Error('Failed')
+      }
+      // Counted only once the Hub has accepted the lead.
+      track('generate_lead', { form_name: 'mosquito_magnet' })
       setSubmitted(true)
       setStep(TOTAL_STEPS + 1)
     } catch {
-      setError('Something went wrong. Just call (289) 216-5030 — we\'ll send your report manually.')
+      track('form_error', { form_name: 'mosquito_magnet', error_type: errorType })
+      setError(`Something went wrong. Just call ${BUSINESS.phone} — we'll send your report manually.`)
     } finally {
       setSubmitting(false)
     }

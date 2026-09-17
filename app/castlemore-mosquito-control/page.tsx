@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Castlemore | From $99',
   description:
-    'Mosquito control in Castlemore, Brampton. Professional barrier spray from $99. Safe for kids & pets in 30 min. Call (289) 216-5030.',
+    'Mosquito control in Castlemore, Brampton. Professional barrier spray from $99. Licensed Ontario operator. Call (289) 216-5030.',
   canonical: '/castlemore-mosquito-control',
 })
 
@@ -31,7 +33,7 @@ const FAQS = [
   },
   {
     question: 'How many treatments does a Castlemore home need per season?',
-    answer: "For properties near Claireville Conservation Area or the Humber River, we recommend 4–5 treatments spaced 21–28 days apart from May through September. Properties further from these features may need 3–4 visits. Call (289) 216-5030 for a free assessment at your specific Castlemore address.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). For properties near Claireville Conservation Area or the Humber River, we typically recommend Standard's two-week spacing; properties further from these features may do well with Basic. Call (289) 216-5030 for a free assessment at your specific Castlemore address.",
   },
   {
     question: 'Does BuzzSkito serve all of Castlemore and northeast Brampton?',
@@ -64,15 +66,17 @@ export default function CastlemoreMosquitoPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ Licensed Ontario Pesticide Operator</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
       
+      <TypicalPrices service="mosquito" city={NEIGHBOURHOOD} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -81,8 +85,8 @@ export default function CastlemoreMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies barrier spray, following the label directions, to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Stay off treated areas until the spray has dried, as the label directs. ${PROMISES.rainBack} Standard & Exclusive plans also carry the Bite-Free Guarantee.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -98,7 +102,7 @@ export default function CastlemoreMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Claireville Conservation Area and Castlemore Mosquitoes</h2>
           <p>Claireville Conservation Area — one of the largest conservation areas in the GTA at over 1,500 hectares — borders Castlemore on the east and provides extensive protected habitat that functions as a persistent mosquito source for adjacent residential areas. Claireville Reservoir, the West Humber River corridor, and the large naturalized wetland sections within the conservation area sustain breeding populations throughout the season. Because the conservation area is protected land, the breeding habitat cannot be reduced — making property-level barrier spray the most practical approach for Castlemore homeowners.</p>
-          <p>BuzzSkito treats all resting vegetation on your Castlemore property, with particular attention to the perimeter facing the conservation area or Humber River corridor. A single treatment provides up to 30 days of residual protection on all treated surfaces.</p>
+          <p>BuzzSkito treats all resting vegetation on your Castlemore property, with particular attention to the perimeter facing the conservation area or Humber River corridor. Treatments are repeated on a schedule through the season, because pressure from the conservation area and river corridor keeps arriving.</p>
 
           <h2>Part of Our Brampton Mosquito Control Network</h2>
           <p>We serve all of Castlemore and surrounding Brampton. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link> page for city-wide coverage, or our <Link href="/heart-lake-mosquito-control" className="text-brand-700 hover:underline">Heart Lake</Link> and <Link href="/springdale-mosquito-control" className="text-brand-700 hover:underline">Springdale</Link> pages for adjacent neighbourhood coverage.</p>
@@ -124,10 +128,10 @@ export default function CastlemoreMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier on the leaves and shrubs where mosquitoes rest, renewed on a schedule through the season. The difference is coverage and consistency: DIY products treat the spot you are sitting in; barrier spray treats the resting surfaces across your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -136,7 +140,7 @@ export default function CastlemoreMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/brampton-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Our tick barrier spray targets the lawn edges, leaf litter and fence lines where ticks wait for a host, 5 sprays per season. See our <Link href="/brampton-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>
@@ -175,6 +179,10 @@ export default function CastlemoreMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

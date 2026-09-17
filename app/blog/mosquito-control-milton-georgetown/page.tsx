@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { NEW_BLOGS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 const POST = NEW_BLOGS[5]
 
@@ -34,7 +34,7 @@ const FAQS = [
   {
     question: 'How many treatments do I need in my first year in a new Milton home?',
     answer:
-      "In the first year, when the landscape is least established and water-holding low spots haven't yet been graded out, we typically recommend 4–5 treatments from May through September. Once the landscape matures and drainage improves, some properties drop to 3–4 treatments. Properties near Sixteen Mile Creek or a retention pond usually maintain a 5-treatment program indefinitely.",
+      "In the first year, when the landscape is least established and water-holding low spots haven't yet been graded out, we typically recommend the Standard plan: 10 sprays, every 2 weeks from May through September. Once the landscape matures and drainage improves, some properties move to the Basic plan, 5 sprays once a month. Properties near Sixteen Mile Creek or a retention pond usually stay on Standard year after year, and the most exposed lots choose Exclusive, 20+ sprays weekly.",
   },
 ]
 
@@ -63,11 +63,11 @@ export default function MosquitoControlMiltonGeorgetownPage() {
         <div className="max-w-3xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Milton and Georgetown both have persistent mosquito pressure from permanent breeding habitat &mdash; Milton from Sixteen Mile Creek and its new-subdivision stormwater ponds, Georgetown from the Credit River valley. The most effective fix is a 4&ndash;5 treatment professional barrier-spray program starting the first week of May and running through Labour Day.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Milton and Georgetown both have persistent mosquito pressure from permanent breeding habitat &mdash; Milton from Sixteen Mile Creek and its new-subdivision stormwater ponds, Georgetown from the Credit River valley. The practical fix is a professional barrier-spray plan that starts the first week of May and runs through September: Basic is 5 sprays monthly, Standard is 10 sprays every 2 weeks (our most popular), and Exclusive is 20+ sprays weekly.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A single stormwater management pond can produce thousands of adult mosquitoes per week in peak season &mdash; and Milton now has dozens of them.</li>
               <li>Freshly graded new-build lots hold rainwater in low spots for a week or more after rain, creating instant breeding habitat.</li>
-              <li>First-year new-build homeowners in Milton typically need 4&ndash;5 treatments from May through September.</li>
+              <li>For first-year new-build homes in Milton we typically recommend the Standard plan: 10 sprays, every 2 weeks from May through September.</li>
               <li>Georgetown&rsquo;s pressure comes from the Credit River plus Silver Creek, Black Creek, and Hungry Hollow Creek; evening activity starts in mid-May.</li>
               <li>Waiting until mosquitoes are noticeable (usually mid-June) sacrifices May &mdash; the easiest month to get ahead of the problem.</li>
               <li>Northwest Milton borders the Niagara Escarpment, confirmed blacklegged tick habitat, so combined mosquito and tick treatment is recommended there.</li>
@@ -106,7 +106,7 @@ export default function MosquitoControlMiltonGeorgetownPage() {
         <p>For central and east Milton away from the escarpment edge, mosquito-only treatment is typically sufficient.</p>
 
         <h2>The Right Mosquito Treatment Program for Milton and Georgetown</h2>
-        <p>Both Milton and Georgetown benefit most from a program that starts early — first week of May — before creek-side and pond-side populations begin building. A 4–5 treatment program running through Labour Day provides consistent protection for the whole outdoor season.</p>
+        <p>Both Milton and Georgetown benefit most from a program that starts early — first week of May — before creek-side and pond-side populations begin building. Choose the schedule that fits the lot: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks, our most popular plan), or Exclusive (20+ sprays, weekly) for homes backing onto Sixteen Mile Creek, the Credit River valley, or a stormwater pond. Each runs May through September, keeping the yard on a regular treatment schedule for the whole outdoor season.</p>
         <p>The key for new-build homeowners is not to wait until mosquitoes are already noticeable (usually mid-June) before calling. By then you&rsquo;ve already lost May — the easiest month to get ahead of the problem.</p>
 
         <h2>Related Guides and Services</h2>
@@ -130,7 +130,7 @@ export default function MosquitoControlMiltonGeorgetownPage() {
 
       <CTASection
         heading="Ready to Reclaim Your Milton or Georgetown Backyard?"
-        subtext="Free mosquito control quote for new-build and established properties. No contracts, free re-spray guarantee."
+        subtext={`Free mosquito control quote for new-build and established properties. No contracts. ${PROMISES.rainBackShort}.`}
       />
     </>
   )

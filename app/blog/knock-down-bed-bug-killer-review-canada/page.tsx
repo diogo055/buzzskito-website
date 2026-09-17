@@ -20,7 +20,7 @@ const META_TITLE = 'Knock Down Bed Bug Killer Review Canada 2026'
 const FAQS = [
   {
     question: 'Is Knock Down Bed Bug Killer any good?',
-    answer: 'For what it is — a widely-stocked, PMRA-registered, water-based contact and residual spray a Canadian can pick up at a hardware store and legally use — Knock Down is a competent value pick. It knocks down the bugs it directly wets and leaves a residual film along treated travel routes, and because it is registered for the Canadian market it is a safe, legal purchase rather than a grey-market gamble. Its honest limit is the limit of every liquid spray: it does almost nothing to eggs cemented in fabric, its residual is measured in days to a few weeks rather than months, and pyrethroid resistance is real. Treat it as the affordable, easy-to-find knockdown-and-perimeter layer of a plan that also includes heat for the eggs and a desiccant dust for the long game.',
+    answer: 'For what it is — a widely-stocked, PMRA-registered, water-based contact and residual spray a Canadian can pick up at a hardware store and legally use — Knock Down is a competent value pick. It knocks down the bugs it directly wets and leaves a residual film along treated travel routes, and because it is registered for the Canadian market it is a legal purchase rather than a grey-market gamble. Its honest limit is the limit of every liquid spray: it does almost nothing to eggs cemented in fabric, its residual is measured in days to a few weeks rather than months, and pyrethroid resistance is real. Treat it as the affordable, easy-to-find knockdown-and-perimeter layer of a plan that also includes heat for the eggs and a desiccant dust for the long game.',
   },
   {
     question: 'Is Knock Down Bed Bug Killer registered with Health Canada / PMRA?',
@@ -52,7 +52,7 @@ const FAQS = [
   },
   {
     question: 'Is Knock Down safe around kids and pets?',
-    answer: 'It is a registered insecticide, so "safe" means "safe when you follow the label exactly," not "harmless." The label will direct you to keep children and pets out of the treated area until surfaces are fully dry, to ventilate the room, to avoid applying it to surfaces they contact directly, and to keep it off the sleeping surface beyond what is permitted. Aerosol formats should never be sprayed near open flame or pilot lights. Read the full label before you spray, follow the re-entry and drying directions precisely, and store the container out of reach. If anyone in the home has respiratory sensitivity, favour the non-chemical layers — encasements, heat, and careful vacuuming — and keep spray use to a minimum.',
+    answer: 'It is a registered insecticide, so the honest answer is that it has to be used exactly as the label directs. The label will direct you to keep children and pets out of the treated area until surfaces are fully dry, to ventilate the room, to avoid applying it to surfaces they contact directly, and to keep it off the sleeping surface beyond what is permitted. Aerosol formats should never be sprayed near open flame or pilot lights. Read the full label before you spray, follow the re-entry and drying directions precisely, and store the container out of reach. If anyone in the home has respiratory sensitivity, favour the non-chemical layers — encasements, heat, and careful vacuuming — and keep spray use to a minimum.',
   },
   {
     question: 'Does Knock Down work on fleas too, or just bed bugs?',
@@ -131,7 +131,7 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
             search="knock down bed bug killer spray canada"
             score={7.4}
             pros={[
-              'PMRA / Health Canada registered — legal to use in Canada',
+              'Carries a Canadian PCP registration number — legal to use in Canada',
               'Inexpensive and very widely stocked at Canadian retailers',
               'Water-based contact knockdown on bugs you directly spray',
               'Broad label — many versions cover fleas as well as bed bugs',

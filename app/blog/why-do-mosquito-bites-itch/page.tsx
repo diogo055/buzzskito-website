@@ -3,7 +3,12 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import Figure from '@/components/Figure'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
+import StickyBuyBar from '@/components/StickyBuyBar'
 
 const SLUG = 'why-do-mosquito-bites-itch'
 const DATE = '2026-07-15'
@@ -150,6 +155,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
 })
 
+const AMZ_TAG = tagForSlug('why-do-mosquito-bites-itch')
+
 export default function WhyDoMosquitoBitesItchPage() {
   return (
     <>
@@ -232,6 +239,27 @@ export default function WhyDoMosquitoBitesItchPage() {
       <article className="py-10 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} />
+
+          {/* Service arm first: the quote CTA and phone number sit above every affiliate element on this page. */}
+          <aside aria-label="Professional mosquito control in the GTA" className="not-prose my-6 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-5 sm:p-6 shadow-sm">
+            <p className="text-lg font-extrabold text-brand-900 mb-2 leading-snug">In the GTA? Treat the yard, not just the bite.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Every timeline on this page is a waiting game that starts after you have been bitten. A barrier treatment works on the other end of it &mdash; the adult females resting through the day in shaded shrubs, under decks and along fence lines. BuzzSkito treats GTA yards from $99 for a single visit, with seasonal plans running May to September.</p>
+            <div className="flex flex-wrap items-center gap-4">
+              <Link href="/mosquito-control" className="btn-primary-sm">Get a Mosquito Control Quote &rarr;</Link>
+              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
+            </div>
+          </aside>
+
+          <AffiliateDisclosure />
+
+          <div className="not-prose my-6 rounded-2xl border border-navy-100 bg-white p-5 shadow-sm">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">What to do right now</p>
+            <ol className="space-y-3 text-[15px] text-gray-800 list-decimal pl-5">
+              <li><strong>Cold first, and stop scratching &mdash; this step costs nothing.</strong> Ten minutes of a cold compress constricts the leaky blood vessels and numbs the nerve endings reporting the itch, and it starts working within seconds. Then cover the bite with a plaster, so a sleeping hand cannot reach it at 2am. Not scratching moves the timeline more than anything you can buy.</li>
+              <li><strong>An oral antihistamine, if you are carrying more than one or two bites.</strong> The itch is a histamine reaction, so a tablet works on the whole cluster at once where a cream only reaches the welt you put it on &mdash; which is why it is the better choice after an evening outside rather than a single bite. Follow the directions on the package. <BuyLink tag={AMZ_TAG} search="oral antihistamine tablets">Check price on Amazon.ca &rarr;</BuyLink></li>
+              <li><strong>0.5&ndash;1% hydrocortisone cream for the bite that will not settle.</strong> It calms the inflammation driving the swelling, which is the part a cold compress only pauses. Apply thinly, a few times a day, on unbroken skin only, and follow the directions printed on the label. <BuyLink tag={AMZ_TAG} search="hydrocortisone anti itch cream">Check price on Amazon.ca &rarr;</BuyLink></li>
+            </ol>
+          </div>
 
           <h2>Why do mosquito bites itch?</h2>
           <p>Mosquito bites itch because your immune system reacts to proteins in the mosquito&rsquo;s saliva, not because of the puncture. Mast cells release histamine, which leaks fluid into the skin and fires the nerve endings that signal itch. The U.S. Centers for Disease Control and Prevention (CDC) describes the result as a puffy, reddish bump that turns harder and itchier a day later.</p>
@@ -360,7 +388,7 @@ export default function WhyDoMosquitoBitesItchPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The only bite that never itches is the one you never get</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Understanding the itch is useful; having fewer bites to treat is better. A professional barrier spray knocks down the adult mosquitoes resting in your shrubs, shade, and fence lines for weeks at a time. BuzzSkito protects GTA yards with single treatments from $99 and seasonal plans.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Understanding the itch is useful; having fewer bites to treat is better. A professional barrier spray knocks down the adult mosquitoes resting in your shrubs, shade, and fence lines, and a seasonal plan renews the treatment on schedule (every 2 weeks on Standard, monthly on Basic). BuzzSkito protects GTA yards with single treatments from $99 and seasonal plans.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/mosquito-control" className="btn-primary-sm">Explore Mosquito Control &rarr;</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -374,6 +402,8 @@ export default function WhyDoMosquitoBitesItchPage() {
           <h2>Why does scratching a mosquito bite make it itch more?</h2>
           <p>Scratching releases more histamine into the skin and restarts the exact reaction that caused the itch. It also irritates the nerve endings that report itch to the brain, setting up a self-feeding itch&ndash;scratch cycle. A bite left alone typically stops itching in 2 to 4 days; a bite you keep scratching can stay irritated for a week or more.</p>
           <p>Scratching is also the single biggest cause of the two outcomes people actually mind: infection, when a fingernail breaks the skin surface and lets bacteria in, and a lasting discoloured mark. The U.S. Centers for Disease Control and Prevention (CDC) advises against scratching bites for this reason. A cold compress interrupts the cycle without doing either.</p>
+          <AffiliateDisclosure />
+          <p className="not-prose text-gray-700">Cold only interrupts the cycle if something cold is actually within reach at 11pm. A reusable gel pack kept in the freezer tends to get used for the full ten minutes it needs, where an improvised bag of frozen peas gets put back after two. Wrap it in a cloth rather than resting it directly on the skin. <BuyLink tag={AMZ_TAG} search="reusable cold pack">Check reusable cold packs on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>How long does a mosquito bite stay swollen?</h2>
           <p>A normal mosquito bite stays swollen for about 1 to 3 days and flattens as the histamine clears. A large local allergic reaction &mdash; a hot, firm patch 5 cm (about 2 inches) or wider &mdash; can stay raised for up to two weeks. The swelling is leaked plasma rather than pus, so it settles on its own once the immune reaction fades. Mayo Clinic notes that these larger reactions are most common in young children and in people newly exposed to a mosquito species.</p>
@@ -403,6 +433,7 @@ export default function WhyDoMosquitoBitesItchPage() {
             <li><strong>It is not a mosquito bite.</strong> Bites that persist for weeks, recur nightly, arrive in lines, or cluster where clothing sits tight are usually something else. Compare against <Link href="/blog/bed-bug-bites-vs-mosquito-bites">bed bug bites versus mosquito bites</Link> and <Link href="/blog/chigger-bites">chigger bites</Link> before assuming a mosquito.</li>
           </ul>
           <p>A flat, discoloured, <em>non-itchy</em> mark at the one-week point is a different thing entirely and is not a bite that is lasting &mdash; it is post-inflammatory pigmentation, and it fades on its own over weeks.</p>
+          <p className="not-prose text-gray-700">For the first cause on that list &mdash; the scratched bite that keeps restarting &mdash; the two things that actually shorten it are a 0.5% to 1% hydrocortisone cream to settle the inflammation and a plain adhesive plaster so fingers cannot reach it overnight. Apply the cream thinly, on unbroken skin only, and follow the directions printed on the label. <BuyLink tag={AMZ_TAG} search="hydrocortisone anti itch cream">Check hydrocortisone anti-itch creams on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>How long after a mosquito bite would disease symptoms appear?</h2>
           <p>Mosquito-borne illness does not follow the bite immediately &mdash; there is an incubation period of days to weeks. In Ontario the one to know is <strong>West Nile virus</strong>, which the Public Health Agency of Canada describes as producing symptoms 2 to 14 days after an infected bite, though it also notes that most people infected never develop symptoms at all. Everything else on the list below is travel-acquired in Canada rather than picked up in a GTA backyard.</p>
@@ -492,6 +523,7 @@ export default function WhyDoMosquitoBitesItchPage() {
           </div>
           <p className="text-xs text-gray-500">Typical ranges for otherwise healthy adults; individual reactions vary widely. General educational information, not a diagnosis.</p>
           <p>The single most useful contrast here is the first two rows. Mosquito welts appear on skin that was uncovered outdoors and are essentially finished inside a week; bed bug bites appear on skin that was covered in bed, take longer, and &mdash; crucially &mdash; keep arriving each night because the source is in the room with you. That recurrence, more than the look of any one bite, is what settles it. We put them side by side in <Link href="/blog/bed-bug-bites-vs-mosquito-bites">bed bug bites vs mosquito bites</Link>, and against the bite people most often fear in <Link href="/blog/tick-bite-vs-mosquito-bite">tick bite vs mosquito bite</Link>.</p>
+          <p className="not-prose text-gray-700">If that recurrence test points at bed bugs rather than mosquitoes, the useful first move is not a spray &mdash; it is turning the mattress into something you can actually inspect. A zippered encasement closes the seams and folds where bed bugs shelter, so new evidence shows up on a smooth white surface instead of disappearing into piping. That is why it is normally step one of a treatment rather than a finishing touch. <BuyLink tag={AMZ_TAG} search="bed bug mattress encasement">Check zippered mattress encasements on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Fewer bites to wait out: what Health Canada actually registers</h2>
           <p>Every timeline on this page is a waiting game. The only way to shorten it to zero is to be bitten less. For personal protection in Canada, Health Canada describes <strong>DEET</strong> and <strong>icaridin</strong> as the most effective personal insect repellents available here &mdash; icaridin being the name used in Canada for what the US market calls picaridin. Health Canada also registers other actives for use on skin, including p-menthane-3,8-diol (oil of lemon eucalyptus) and soybean oil, but they give shorter protection per application.</p>
@@ -502,6 +534,8 @@ export default function WhyDoMosquitoBitesItchPage() {
             <li><strong>Cover the skin that gets bitten.</strong> Mosquitoes can and do bite through thin, tight fabric &mdash; the physics of that is in <Link href="/blog/can-mosquitoes-bite-through-clothes">can mosquitoes bite through clothes</Link> &mdash; so loose and long beats thin and tight.</li>
           </ul>
           <p>Repellent protects the person wearing it. Reducing the number of mosquitoes in the yard in the first place is a different job: adult females rest through the day in shaded shrubs, under decks, and along fence lines, and a <Link href="/mosquito-control">barrier treatment</Link> targets them there before they ever reach the patio.</p>
+          <AffiliateDisclosure />
+          <p className="not-prose text-gray-700">If the repellent bottle in the drawer is three summers old and half empty, that is the practical thing to fix before the next warm evening. For most households the choice is between a DEET spray at whatever concentration matches how long you will be outside, and an <strong>icaridin</strong> (picaridin) spray for the same job without the smell and without DEET&rsquo;s habit of crazing plastic sunglasses, watch straps, and phone cases. Check the PCP registration number on the label, and follow the age directions printed on it. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check icaridin (picaridin) repellents on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -531,7 +565,8 @@ export default function WhyDoMosquitoBitesItchPage() {
         </div>
       </article>
 
-      <CTASection heading="Fewer Bites Beat Any Itch Science" subtext="A professional barrier spray clears the mosquitoes resting in your yard. From $99, same-day protection, 21–30 day residual." variant="dark" />
+      <CTASection heading="Fewer Bites Beat Any Itch Science" subtext={`A professional barrier spray clears the mosquitoes resting in your yard. From $99, same-day protection. ${PROMISES.rainBackShort}.`} variant="dark" />
+      <StickyBuyBar tag={AMZ_TAG} name="Anti-itch cream for bites" search="hydrocortisone anti itch cream" label="For the itch" />
     </>
   )
 }

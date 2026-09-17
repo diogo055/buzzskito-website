@@ -43,11 +43,11 @@ const FAQS = [
   },
   {
     question: 'Can I change what I eat to be less attractive to mosquitoes?',
-    answer: 'Mostly no. The popular ideas — eating garlic, taking vitamin B1 (thiamine), or eating bananas making you more attractive — have not held up in controlled testing. There is no reliable food or supplement that turns off mosquito attraction. What actually works is topical: an EPA/Health Canada-registered repellent with DEET or picaridin on skin, permethrin on clothing, and removing the standing water and yard habitat where mosquitoes breed.',
+    answer: 'Mostly no. The popular ideas — eating garlic, taking vitamin B1 (thiamine), or eating bananas making you more attractive — have not held up in controlled testing. There is no reliable food or supplement that turns off mosquito attraction. What actually works is topical: a registered repellent with DEET or picaridin on skin (in Canada, look for the PCP number on the label), permethrin on clothing, and removing the standing water and yard habitat where mosquitoes breed.',
   },
   {
     question: 'What is the single most effective way to stop getting bitten?',
-    answer: 'Combine personal protection with source control. On your body, use a registered repellent (DEET or picaridin) and light-coloured clothing. Around your patio, a Thermacell creates a repellent zone, and tipping out standing water every week removes breeding sites. For whole-yard relief, a professional barrier spray treats the shaded leaf surfaces where mosquitoes rest, cutting the population you are exposed to rather than just masking your scent.',
+    answer: 'Combine personal protection with source control. On your body, use a registered repellent (DEET or picaridin) and light-coloured clothing. Around your patio, a Thermacell creates a repellent zone, and tipping out standing water every week removes breeding sites. For whole-yard relief, a professional barrier spray treats the shaded leaf surfaces where mosquitoes rest, working on the mosquitoes in the yard rather than just masking your scent.',
   },
 ]
 
@@ -190,7 +190,7 @@ export default function WhatAttractsMosquitoesToYouPage() {
             <li><strong>Skip the dusk beer.</strong> Save the drinks for indoors or later, since alcohol measurably raises landings.</li>
             <li><strong>Kill the breeding sites.</strong> Tip out anything holding water — saucers, buckets, clogged gutters, kids&rsquo; toys — every few days. A mosquito can breed in a bottle cap of water.</li>
             <li><strong>Create a patio zone.</strong> A Thermacell or a running fan (mosquitoes are weak fliers) buys you a comfortable seating area.</li>
-            <li><strong>Treat the whole yard.</strong> Repellent hides you; a barrier spray removes the mosquitoes resting on shaded leaves before they ever reach you.</li>
+            <li><strong>Treat the whole yard.</strong> Repellent hides you; a barrier spray treats the shaded leaves where mosquitoes rest, repeated through the season as the residual wears down.</li>
           </ol>
           <p>That last point is worth making specific. Mosquitoes spend the daylight hours resting on cool, shaded foliage, and in a lot of GTA yards the densest shade of that kind is the cedar hedge along the fence line. Cedars do not lure mosquitoes in with scent &mdash; they simply hand them the humid, wind-sheltered daytime harbourage they need, which is why <Link href="/blog/do-cedar-trees-attract-mosquitoes">a cedar hedge hides mosquitoes rather than attracting them</Link> and why it is the first thing a barrier spray should cover.</p>
           <p>Curious how the insect itself works? Our <Link href="/blog/mosquito-facts">mosquito facts guide</Link> covers lifespan, breeding, flight range, and disease risk in plain language.</p>
@@ -207,7 +207,7 @@ export default function WhatAttractsMosquitoesToYouPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">You can&rsquo;t change your genes — but you can change your yard</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">If you are always the one getting eaten, the fastest relief is fewer mosquitoes to begin with. BuzzSkito&rsquo;s licensed barrier spray treats the shaded resting spots and breeding zones across your property, backed by 150+ five-star reviews across 19 GTA cities. Single treatments from $99, seasonal plans from $549. +HST.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">If you are always the one getting eaten, look at the mosquitoes resting in your yard, not just your skin. BuzzSkito&rsquo;s licensed barrier spray treats the shaded resting spots and breeding zones across your property, backed by 150+ five-star reviews across 19 GTA cities. Single treatments from $99, seasonal plans from $549. +HST.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Yard Assessment →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -242,7 +242,7 @@ export default function WhatAttractsMosquitoesToYouPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Picaridin 20% insect repellent" search="picaridin insect repellent" label="Best repellent" />
 
-      <CTASection heading="Stop Being the One Who Always Gets Bitten" subtext="You can't change your blood type — but you can clear the mosquitoes from your yard. Licensed barrier spray from $99. +HST." variant="dark" />
+      <CTASection heading="Stop Being the One Who Always Gets Bitten" subtext="You can't change your blood type — but you can treat the yard where mosquitoes rest. Licensed barrier spray from $99. +HST." variant="dark" />
     </>
   )
 }

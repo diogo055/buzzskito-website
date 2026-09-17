@@ -8,7 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { NEW_BLOGS_2, MOSQUITO_BLOGS } from '@/lib/constants'
+import { NEW_BLOGS_2, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS_2[1]
@@ -79,7 +79,7 @@ export default function HiddenBreedingSpotsPage() {
               <li>Mosquitoes can breed in as little as one teaspoon (about 5 ml) of standing water — a bottle cap is enough.</li>
               <li>Above 21&deg;C, mosquito eggs hatch within 24&ndash;48 hours and larvae become biting adults in as little as 7&ndash;10 days.</li>
               <li>One female mosquito lays 100&ndash;200 eggs per batch and produces multiple batches per season.</li>
-              <li>BTI mosquito dunks ($10&ndash;$20 per pack at Canadian Tire and Home Depot) are labelled to kill mosquito larvae within 24 hours, with one dunk treating about 100 sq ft of water for 30 days — safe for fish, pets, and humans.</li>
+              <li>BTI mosquito dunks ($10&ndash;$20 per pack at Canadian Tire and Home Depot) are labelled to kill mosquito larvae within 24 hours, with one dunk treating about 100 sq ft of water for 30 days — follow the label directions on the pack.</li>
               <li>Mosquitoes can fly up to 3 km, so draining your own containers never reaches the ones bred elsewhere &mdash; treating resting vegetation is what covers those arrivals.</li>
               <li>Properly chlorinated pools cannot support mosquito larvae, but rainwater pooling on the pool cover can.</li>
             </ul>
@@ -99,7 +99,7 @@ export default function HiddenBreedingSpotsPage() {
                   ['Minimum water needed to breed', 'One teaspoon (about 5 ml) — a bottle cap is enough'],
                   ['Egg-to-adult time', '7–14 days at 21–27°C; faster in heat'],
                   ['Eggs per female per batch', '100–200 · multiple batches per season'],
-                  ['Best larvicide for ponds/barrels', 'BTI mosquito dunks (Bacillus thuringiensis israelensis) · safe for fish, pets, humans'],
+                  ['Best larvicide for ponds/barrels', 'BTI mosquito dunks (Bacillus thuringiensis israelensis) · targets mosquito larvae specifically'],
                   ['Where to buy BTI in Canada', 'Canadian Tire, Home Depot, Rona, Lowe\'s · $10–$20 per 6-pack'],
                   ['Dunk coverage', '~100 sq ft of water surface for 30 days per dunk'],
                   ['Chlorinated pool risk', 'No — properly chlorinated pools cannot support larvae'],
@@ -152,7 +152,7 @@ export default function HiddenBreedingSpotsPage() {
         <p>A birdbath not refreshed every 48–72 hours becomes a prime mosquito nursery. Change the water every 2–3 days during peak season. Consider adding a small recirculating pump — moving water cannot support mosquito breeding.</p>
 
         <h3>7. Ornamental Ponds and Water Features</h3>
-        <p>Garden ponds without fish or a recirculating pump are ideal breeding habitat. Add goldfish or mosquito fish (<em>Gambusia affinis</em>) to consume larvae, or treat with BTi mosquito dunks — a bacteria-based larvicide that is safe for wildlife and pets. Slow-release dunks like Summit&apos;s (<BuyLink tag={AMZ_TAG} search="summit mosquito dunks">check price on Amazon.ca &rarr;</BuyLink>) treat roughly 100 sq ft of water surface for 30 days, while the granular form — mosquito bits (<BuyLink tag={AMZ_TAG} search="summit mosquito bits">check price on Amazon.ca &rarr;</BuyLink>) — kills larvae within hours and is handy for bird baths, plant saucers, and rain barrels. For dosing, safety, and where to buy across Canada, see our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 underline">mosquito dunks Canada guide</Link>.</p>
+        <p>Garden ponds without fish or a recirculating pump are ideal breeding habitat. Add goldfish or mosquito fish (<em>Gambusia affinis</em>) to consume larvae, or treat with BTi mosquito dunks — a bacteria-based larvicide that targets mosquito larvae; follow the label directions. Slow-release dunks like Summit&apos;s (<BuyLink tag={AMZ_TAG} search="summit mosquito dunks">check price on Amazon.ca &rarr;</BuyLink>) treat roughly 100 sq ft of water surface for 30 days, while the granular form — mosquito bits (<BuyLink tag={AMZ_TAG} search="summit mosquito bits">check price on Amazon.ca &rarr;</BuyLink>) — kills larvae within hours and is handy for bird baths, plant saucers, and rain barrels. For dosing, safety, and where to buy across Canada, see our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 underline">mosquito dunks Canada guide</Link>.</p>
 
         <TopPick tag={AMZ_TAG}
           label="Best for water you can't drain"
@@ -211,8 +211,8 @@ export default function HiddenBreedingSpotsPage() {
         </div>
 
         <h2>After Source Elimination: Professional Barrier Spray</h2>
-        <p>Removing breeding sites is step one. Step two is treating the adult mosquito population that has already established itself in your vegetation. Professional barrier spray from BuzzSkito kills mosquitoes on contact across all your shrubs, garden edges, tree lines, and lawn perimeter — and the residual formula stays active for up to 30 days.</p>
-        <p>Combined, source elimination and barrier spray is the most effective approach available to GTA homeowners — significantly outperforming either method alone.</p>
+        <p>Removing breeding sites is step one. Step two is treating the adult mosquito population that has already established itself in your vegetation. Professional barrier spray from BuzzSkito treats your shrubs, garden edges, tree lines, and lawn perimeter with a residual applied according to label directions, re-applied through the season.</p>
+        <p>Source elimination and barrier spray work best together, because each covers the gap the other leaves: one removes the mosquitoes your yard breeds, the other treats the resting sites the arrivals use.</p>
         <p>Where homeowners lose ground is usually in the details: an uncovered rain barrel, a pool cover holding rainwater, or a spray aimed at the lawn rather than the shaded foliage where adults rest. Those and nine more are collected in <Link href="/blog/mosquito-mistakes-ontario-homeowners-make" className="text-brand-700 hover:underline">the mistakes Ontario homeowners make with mosquito control</Link>.</p>
 
         <h2>Frequently Asked Questions</h2>
@@ -237,7 +237,7 @@ export default function HiddenBreedingSpotsPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Summit BTI Mosquito Dunks" search="summit mosquito dunks" label="For water you can’t drain" />
 
-      <CTASection heading="Eliminate Breeding Sites — Then Eliminate the Mosquitoes" subtext="BuzzSkito barrier spray kills the adult population across your entire yard. Up to 30-day guaranteed protection." />
+      <CTASection heading="Eliminate Breeding Sites — Then Treat the Resting Sites" subtext={`BuzzSkito barrier spray treats the shaded vegetation where adult mosquitoes rest, across your whole yard. ${PROMISES.rainBack}`} />
     </>
   )
 }

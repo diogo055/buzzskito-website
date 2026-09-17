@@ -27,7 +27,7 @@ export const metadata: Metadata = buildMetadata({
 
 const FAQS = [
   { question: 'Are there ticks in Toronto?', answer: 'Yes. Blacklegged ticks — the Lyme disease vector — are established across the Greater Toronto Area, and Ontario public health surveillance has documented them in every GTA municipality, Toronto included. The ravine network (the Don, Humber, and Rouge valleys) and the conservation lands at the city edges are the highest-pressure habitat, and any backyard that meets a ravine, woodlot, or naturalized area can hold ticks. They are active on any day above 4°C, with a nymph peak in May–June and an adult peak in September–October, so yard treatment targets that lawn-to-wild transition band rather than the open lawn.' },
-  { question: 'What is the most effective way to control ticks in a yard?', answer: 'Professional barrier spray targeting the high-risk zones in your yard — lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles — is the most effective residential tick control method. Combined with habitat modification (leaf removal, mowing, wood-edge barriers), it provides comprehensive protection.' },
+  { question: 'What is the most effective way to control ticks in a yard?', answer: 'Professional barrier spray targeting the high-risk zones in your yard — lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles — is the core of residential tick control. Combined with habitat modification (leaf removal, mowing, wood-edge barriers) and daily tick checks, it gives you a layered plan rather than a single measure.' },
   { question: 'Can I get Lyme disease from ticks in my backyard in Ontario?', answer: 'Yes. Blacklegged ticks (the primary Lyme disease carrier) are established throughout Southern Ontario. Ontario public health agencies have confirmed Lyme-disease-carrying tick populations in Mississauga, Hamilton, Oakville, and across the GTA. Your backyard — particularly if it backs onto wooded or naturalized areas — is a realistic exposure site.' },
   { question: 'How do I know if I have ticks in my yard?', answer: 'The easiest method is a drag cloth test: attach white flannel to a stick and drag it slowly through lawn edges, along fences, and through garden beds. Ticks will cling to the cloth. You can also walk slowly through suspect areas wearing white socks and watch for small dark specks. Alternatively, have BuzzSkito assess your property as part of a free quote.' },
   { question: 'What time of year are ticks most dangerous in Ontario?', answer: 'The blacklegged tick has two peak activity periods in Ontario: spring nymph season (May–June), when tiny nymphs are hardest to spot and transmit Lyme disease most frequently, and fall adult season (September–October). Adult ticks can also be active on warm winter days. See our full seasonal guide.' },
@@ -73,8 +73,8 @@ export default function TickPillarPage() {
             <li>The three-layer approach (habitat, barrier spray, personal protection) works because each layer covers what the other two miss &mdash; none of them clears a property on its own.</li>
             <li>The blacklegged (deer) tick is Canada&rsquo;s primary Lyme vector; poppy-seed-sized nymphs active in May&ndash;June cause the majority of Ontario Lyme cases.</li>
             <li>Field studies find the overwhelming majority of yard ticks within about 3 metres of the lawn-to-wild transition edge.</li>
-            <li>A professional barrier spray kills ticks at all life stages on contact and gives up to 30 days of residual protection per application.</li>
-            <li>Health Canada&ndash;approved formulas are safe for children, pets, and pollinators after a 30-minute drying time.</li>
+            <li>A professional barrier spray acts on ticks at all life stages on contact and leaves a temporary residual, so applications are repeated through the season.</li>
+            <li>Keep people and pets off treated areas until the spray has dried, as the product label directs.</li>
             <li>Adult blacklegged ticks stay active on warm days above 4&deg;C, so activity is possible even in December and March.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
@@ -120,6 +120,8 @@ export default function TickPillarPage() {
 
         <p>In the west end of the GTA that edge is usually a Humber River valley slope or a ravine lot line, which is why <Link href="/etobicoke-tick-spray" className="text-brand-700 underline hover:text-brand-500">Etobicoke tick spray</Link> is aimed at the fence line and the wooded margin rather than the open lawn.</p>
 
+        <p>Toronto proper has more of that edge than almost anywhere else in the province, because the ravine system carries continuous wooded habitat into the middle of residential neighbourhoods rather than stopping at the city limits. <Link href="/blog/toronto-tick-hot-spot-2026" className="text-brand-700 underline hover:text-brand-500">Why Toronto is a tick hot spot in 2026</Link> maps which corridors matter and what a ravine-backing lot should expect.</p>
+
         <p>Read about tick identification: <Link href="/blog/what-ticks-look-like-ontario" className="text-brand-700 underline hover:text-brand-500">How to Identify Ticks in Ontario</Link></p>
 
         <h2>Lyme Disease in Ontario: The Risk Is Real</h2>
@@ -131,9 +133,9 @@ export default function TickPillarPage() {
         <p>BuzzSkito's tick control service applies a residual insecticide barrier to the specific areas where ticks concentrate: lawn edges, leaf litter zones, garden borders, fence lines, and under-deck areas. The treatment:</p>
         <ul>
           <li>Kills ticks at all life stages (larva, nymph, adult) on contact</li>
-          <li>Provides up to 30 days of residual protection per application</li>
+          <li>Leaves a temporary residual that wears down over the following weeks, so applications are repeated through the season</li>
           <li>Is applied by licensed technicians who know exactly where to target for maximum effectiveness</li>
-          <li>Uses Health Canada–approved formulas safe for children, pets, and pollinators after 30-minute drying time</li>
+          <li>Is applied according to label directions &mdash; stay off treated areas until the spray has dried, as the label directs</li>
         </ul>
 
         <p>Compare your options: <Link href="/blog/best-tick-control-yard-treatment" className="text-brand-700 underline hover:text-brand-500">Best Tick Control for Your Yard: Comparison Guide</Link></p>
@@ -161,7 +163,7 @@ export default function TickPillarPage() {
           <li>Control deer access to your property — deer carry adult ticks onto your land</li>
         </ul>
 
-        <p>Beyond habitat work, what you wear into the high-risk zones adds a personal layer of protection. Permethrin belongs on fabric, not skin — it kills ticks on contact with the cloth rather than simply repelling them. In Canada, though, the do-it-yourself version is off the table: Health Canada does not approve permethrin liquids and sprays for consumers to treat their own clothing. The route that is approved is buying the treatment already in the garment — factory-treated clothing, where the permethrin is bonded in at manufacture and lasts up to 70 wash cycles. Treated socks and trouser legs cover the ankles and lower legs a questing tick reaches first, so those are the pieces worth owning before yard work: <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check treated clothing on Amazon.ca →</BuyLink></p>
+        <p>Beyond habitat work, what you wear into the high-risk zones adds a personal layer of protection. Permethrin belongs on fabric, not skin — it kills ticks on contact with the cloth rather than simply repelling them. In Canada, though, the do-it-yourself version is off the table: Health Canada does not approve permethrin liquids and sprays for consumers to treat their own clothing. The route that remains open is buying the treatment already in the garment — factory-treated clothing, where the permethrin is bonded in at manufacture and lasts up to 70 wash cycles. Treated socks and trouser legs cover the ankles and lower legs a questing tick reaches first, so those are the pieces worth owning before yard work: <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check treated clothing on Amazon.ca →</BuyLink></p>
         <p>For the full breakdown, see our guides to <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline hover:text-brand-500">permethrin for yard &amp; clothing in Canada</Link> and the <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 underline hover:text-brand-500">best tick repellents for your yard</Link>.</p>
 
         <h2>Tick Control Product Stack: What Works and What Doesn&apos;t</h2>
@@ -170,10 +172,10 @@ export default function TickPillarPage() {
         <h3>Worth Your Money</h3>
         <ul>
           <li><strong>Factory-treated permethrin clothing:</strong> The single best personal-protection step for anyone working in Zone 1 or Zone 2. The permethrin is bonded into the fabric at manufacture, so it kills ticks on contact and lasts up to 70 wash cycles. Buy the garments already treated — Health Canada does not approve permethrin sprays for consumers to treat their own clothing.</li>
-          <li><strong>Tick tubes:</strong> Biodegradable tubes filled with permethrin-treated cotton that mice carry back to their nests, killing larval ticks at the source. Slow-acting — expect results over a full season, not overnight — but genuinely effective at breaking the Lyme cycle around woodpiles, sheds, and stone walls. Thermacell Tick Control Tubes are the widely available option in Canada: <BuyLink tag={AMZ_TAG} search="thermacell tick control tubes 12 pack">Check price on Amazon.ca →</BuyLink></li>
-          <li><strong>Icaridin (picaridin) or DEET on skin:</strong> Health Canada–approved and proven against ticks, not just mosquitoes. Apply to ankles and lower legs before yard work.</li>
+          <li><strong>Tick tubes:</strong> Biodegradable tubes filled with permethrin-treated cotton that mice carry back to their nests, killing larval ticks at the source. Slow-acting — expect results over a full season, not overnight — but aimed squarely at the mouse nests that keep the tick cycle going around woodpiles, sheds, and stone walls. Thermacell Tick Control Tubes are the widely available option in Canada: <BuyLink tag={AMZ_TAG} search="thermacell tick control tubes 12 pack">Check price on Amazon.ca →</BuyLink></li>
+          <li><strong>Icaridin (picaridin) or DEET on skin:</strong> Check the label for the PCP registration number and for ticks listed alongside mosquitoes. Apply to ankles and lower legs before yard work.</li>
           <li><strong>A proper tick removal tool:</strong> Cheap insurance in the first-aid kit. Clean removal within 24–36 hours of attachment dramatically reduces Lyme transmission risk.</li>
-          <li><strong>Professional residual barrier spray:</strong> The backbone of the plan — 5 targeted treatments across the season keep Zones 1 and 2 hostile to ticks from spring nymph season through fall adult season.</li>
+          <li><strong>Professional residual barrier spray:</strong> The backbone of the plan — 5 targeted treatments across the season keep Zones 1 and 2 treated from spring nymph season through fall adult season.</li>
         </ul>
 
         <h3>Save Your Money</h3>
@@ -226,6 +228,9 @@ export default function TickPillarPage() {
             </Link>
           ))}
         </div>
+        <p>A few parts of the GTA carry enough geography of their own to deserve a closer look. We map the local habitat, the higher-risk neighbourhoods, and the treatment timing in our guides to <Link href="/blog/tick-control-vaughan-king-city-woodbridge" className="text-brand-700 underline">tick control across Vaughan, King City and Woodbridge</Link>, <Link href="/blog/tick-prevention-caledon-halton-hills" className="text-brand-700 underline">tick prevention in Caledon and Halton Hills</Link>, and <Link href="/blog/mosquito-tick-control-stoney-creek" className="text-brand-700 underline">mosquito and tick control in Stoney Creek</Link>.</p>
+        <p>The Escarpment side of Hamilton is its own case again, with Dundas Valley and the Ancaster woodlots pushing tick pressure right up to the property line: <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 underline">tick control in Ancaster, Dundas and Hamilton</Link> covers that corridor.</p>
+        <p>Halton splits the same way between creek valleys and escarpment: <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 underline">when ticks are active in Oakville</Link> follows the Sixteen Mile and Bronte Creek corridors through the season, and <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 underline">tick season in Burlington</Link> does the same along the escarpment edge and the lakefront.</p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">
@@ -253,7 +258,7 @@ export default function TickPillarPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tip tick removal tool set" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Protect Your Family from Ticks This Season" subtext="Get a free tick control quote for your GTA property. No contracts required." variant="dark" />
+      <CTASection heading="Get Your Yard Ready for Tick Season" subtext="Get a free tick control quote for your GTA property. No contracts required." variant="dark" />
     </>
   )
 }

@@ -179,8 +179,32 @@ export default function BugsThatLookLikeTicksPage() {
         <AuthorByline datePublished={DATE} dateModified={UPDATED} />
         <AffiliateDisclosure />
 
+        {/* "What to do right now" — aftercare route. Sits BELOW <BlogPostCTA /> (the
+            in-body quote CTA above the article) so the service arm keeps the top slot.
+            Step 1 is free and needs no product; steps 2-3 each name one tool. */}
+        <aside aria-label="What to do right now" className="not-prose my-8 rounded-2xl border border-emerald-200 bg-emerald-50/70 p-5 sm:p-6">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-3">What to do right now</p>
+          <ol className="space-y-5 list-none pl-0 m-0">
+            <li>
+              <p className="font-bold text-brand-900 mb-1">1. Get it under a bright light and count the legs &mdash; free, and it settles most cases</p>
+              <p className="text-[15px] text-gray-800 leading-relaxed">Eight legs and no antennae means tick. Six legs with visible antennae means it is not one. If the bug is <em>attached to skin</em>, take it off before you identify it: grip as close to the skin as you can, pull straight up with steady pressure, and do not twist, burn it, or smother it in petroleum jelly. Then photograph it next to a coin for scale and note today&rsquo;s date &mdash; those two facts are what a doctor or public health unit will ask for.</p>
+            </li>
+            <li>
+              <p className="font-bold text-brand-900 mb-1">2. A lighted magnifier, because at 1&ndash;2 mm the naked eye is guessing</p>
+              <p className="text-[15px] text-gray-800 leading-relaxed mb-3">Every look-alike on this page sits between 1 mm and 5 mm, and the antennae that rule out a tick in one second are simply too fine to resolve at arm&rsquo;s length. A lighted handheld magnifier (or a clip-on macro lens for a phone camera) is the one piece of kit that works on all seven look-alikes rather than just one.</p>
+              <BuyLink tag={AMZ_TAG} search="lighted handheld magnifying glass">Check price on Amazon.ca &rarr;</BuyLink>
+            </li>
+            <li>
+              <p className="font-bold text-brand-900 mb-1">3. A fine-tip tick remover, if it turns out to be the real thing</p>
+              <p className="text-[15px] text-gray-800 leading-relaxed mb-3">Household tweezers are blunt enough to squeeze a tick&rsquo;s body or leave mouthparts behind on a poppy-seed-sized nymph. A pointed remover grips right at the skin line and lifts the whole tick out. Keep one in the first-aid kit and one in the car for post-hike checks.</p>
+              <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink>
+            </li>
+          </ol>
+        </aside>
+
         <h2>The 30-Second Tick ID Rule</h2>
         <p>Count the legs, then look for antennae. A tick is an arachnid with 8 legs as an adult, no antennae and no wings, while nearly every bug mistaken for one is an insect with 6 legs and obvious antennae. The US Centers for Disease Control and Prevention notes that ticks cannot fly or jump, so anything that flies or hops is not a tick.</p>
+        <p>The movement rule does a lot of work on this page, so it is worth knowing exactly what a tick can and cannot do: <Link href="/blog/can-ticks-fly-jump-swim" className="text-brand-700 underline">can ticks fly, jump, or swim?</Link> goes through each claim in turn and explains how a tick actually reaches a host by waiting on vegetation and grabbing on as you brush past.</p>
         <Figure
           src="/diagrams/bugs-that-look-like-ticks.svg"
           alt="Comparison chart of a blacklegged tick against spider beetle, clover mite and bed bug across leg count, antennae, body shape, colour and true size"
@@ -379,10 +403,14 @@ export default function BugsThatLookLikeTicksPage() {
         </ul>
         <p>Booklice do not bite, do not carry disease, and are simply a sign of humidity. Drying the area out and improving ventilation clears them.</p>
         <p>That humidity signal is worth following, because booklice rarely turn up alone. The same damp basement or bathroom that produces them supports a whole cast of moisture-dependent household insects &mdash; and if what you found came from a storage box or a baseboard rather than off a trouser leg after a hike, it is far more likely one of those. Our companion buying guides cover what each one needs: <Link href="/blog/best-silverfish-traps" className="text-brand-700 underline">which silverfish trap to buy</Link> if the insect is silver and wingless with three tails, and <Link href="/blog/best-centipede-killer-canada" className="text-brand-700 underline">what to buy for house centipedes</Link> if it was fast and long-legged. In both cases the fix is the same humidity work that clears booklice.</p>
+        <p>That humidity work is usually one purchase rather than a project. Booklice, silverfish and house centipedes all depend on damp air, so pulling a basement or storage room down out of the muggy range removes the condition all three are living on &mdash; and unlike a spray, it does not need repeating. Our guide to <Link href="/blog/best-dehumidifier-for-basement-canada" className="text-brand-700 underline">the best basement dehumidifiers in Canada</Link> covers sizing for the damp square footage you actually have. <BuyLink tag={AMZ_TAG} search="basement dehumidifier">Check basement dehumidifiers on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>What Bugs Look Like Ticks on Dogs and Cats?</h2>
         <p>On a dog or cat, the things most often mistaken for ticks are scabs, skin tags, nipples, warts, matted debris and engorged fleas. A tick has 8 legs and a head buried in the skin, while a skin tag or nipple has no legs and slides with the skin when you move it. A flea is dark, flattened side-to-side and jumps.</p>
         <p>The Centers for Disease Control and Prevention states that ticks cannot jump or fly, so anything that hops off your hand is a flea rather than a tick. Flea dirt &mdash; the black specks in the coat &mdash; smears rusty red on a damp paper towel because it is digested blood, whereas a real tick stays a solid body you can lift out whole. Part the fur and check the ears, neck, armpits and between the toes: a tick found on a pet is still a tick, and it should be removed the same way you would remove one from a person.</p>
+        <p>Parting fur with your fingers misses a lot on a thick or long-haired coat, which is why most of these questions start with &ldquo;I felt a bump.&rdquo; A fine-toothed flea comb pulls through the coat at skin level and lifts out crawling ticks, fleas and flea dirt before anything attaches, so it turns a vague hand-check into something you can actually see on the comb. <BuyLink tag={AMZ_TAG} search="flea comb for dogs and cats">Check flea combs on Amazon.ca &rarr;</BuyLink></p>
+
+        <p>That inability to jump is one of the most useful tells in the whole list, because it rules out fleas, springtails and several beetle larvae in a single observation. What a tick does instead &mdash; climb a grass blade and hold out its front legs waiting for a host to brush past &mdash; is covered in <Link href="/blog/do-ticks-fly-or-jump" className="text-brand-700 underline">do ticks fly or jump, and how high they actually climb</Link>.</p>
 
         <h2>Is It a Poppy Seed, a Sesame Seed, or a Tick?</h2>
         <p>Legs and grip settle it. A poppy or sesame seed has no legs, does not move and brushes straight off, while a nymph tick of the same size has 8 legs and holds on. The Centers for Disease Control and Prevention describes blacklegged tick nymphs as roughly poppy-seed sized, under 2 mm across (about 1/16 inch).</p>
@@ -432,6 +460,7 @@ export default function BugsThatLookLikeTicksPage() {
         <h2>How Big Is a Tick Compared to Each Look-Alike?</h2>
         <p>Most tick look-alikes sit between 1 mm and 5 mm, the same band as a real tick, so size alone rarely settles an identification. An unfed adult blacklegged tick is about 3 mm long (roughly 1/8 inch) and an unfed American dog tick is about 5 mm (roughly 3/16 inch). Legs and antennae are the reliable test, not millimetres.</p>
         <p>Here are the sizes as plain figures. A booklouse is about 1 mm long (roughly 1/25 inch). A clover mite is under 1 mm. A blacklegged tick nymph is under 2 mm (about 1/16 inch), which the Centers for Disease Control and Prevention compares to a poppy seed. A spider beetle is 1.5&ndash;4 mm (up to about 1/8 inch). An adult carpet beetle is 2&ndash;4 mm (about 1/8 inch). A pantry weevil is about 3 mm (roughly 1/8 inch). An adult bed bug is about 5 mm (roughly 3/16 inch), the size of an apple seed. An engorged American dog tick can reach 15 mm (over half an inch), which is larger than any of the insect look-alikes on this page.</p>
+        <p>All of which is far easier to judge under magnification than at arm&rsquo;s length. At 1 to 2 mm, six legs versus eight <em>is</em> the identification, and at that size the naked eye is mostly guessing &mdash; the antennae that rule out a tick in one second are simply too fine to resolve. A lighted handheld magnifier, or a clip-on macro lens for a phone camera, settles it properly, and it is the one piece of kit that works on every look-alike on this page rather than just one. <BuyLink tag={AMZ_TAG} search="lighted handheld magnifying glass">Check lighted magnifiers on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Why Misidentification Matters</h2>
         <p>Identification decides the response. The Centers for Disease Control and Prevention states that in most cases a blacklegged tick must stay attached for 36 to 48 hours or more before it can transmit the Lyme disease bacterium, so removing a real tick quickly matters. A 6-legged beetle, bed bug or booklouse carries no tick-borne disease risk at all.</p>
@@ -443,6 +472,7 @@ export default function BugsThatLookLikeTicksPage() {
           <li><strong>Bug found crawling on body or clothing after outdoor activity, with 8 legs and no antennae:</strong> Treat as a tick. Remove and dispose, then check the rest of the body, gear, and pets thoroughly.</li>
           <li><strong>Uncertain identification:</strong> When in doubt, treat as a tick. The cost of caution is low; the cost of missing a true tick is potentially high.</li>
         </ul>
+        <p className="not-prose text-gray-700">Two of those four branches end with &ldquo;save it,&rdquo; and a sealed sandwich bag is where saved ticks go to be forgotten &mdash; they dry out, get crushed in a drawer, and stop being identifiable within days. A small screw-top specimen vial keeps the specimen intact and, crucially, gives you a flat surface to write the date and the place of the bite on. Those two facts are exactly what a healthcare provider or your local public health unit will ask for, and neither is recoverable from memory three weeks later when a rash shows up. <BuyLink tag={AMZ_TAG} search="small screw top specimen vials">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>When Should You See a Doctor After a Tick Bite?</h2>
         <p>See a healthcare provider if a rash or a fever appears in the weeks after a tick bite. The Centers for Disease Control and Prevention advises watching for symptoms for 30 days after removing a tick and contacting a provider if fever or rash develops. A 6-legged insect look-alike carries no Lyme disease risk and needs no tick-related follow-up.</p>
@@ -463,7 +493,7 @@ export default function BugsThatLookLikeTicksPage() {
           <li>Leaf-litter accumulation under shrubs and along fence lines</li>
           <li>Areas where deer, raccoons, and small mammals travel through the yard</li>
         </ul>
-        <p>Professional <Link href="/tick-control" className="text-brand-700 underline">tick control treatment</Link> targets these zones with a Health Canada–approved residual application that kills ticks on contact and remains active for several weeks. For families in higher-risk areas — Vaughan, Richmond Hill, Markham, Caledon, Halton Hills, and the Hamilton escarpment — a structured tick spray schedule across the season is the most effective way to keep population pressure low and reduce the chance of finding any tick at all. If you are in one of those pockets, the local pages spell out the habitat property by property: our <Link href="/caledon-tick-spray" className="text-brand-700 underline">Caledon tick spray service</Link> deals with the Niagara Escarpment and Oak Ridges Moraine lots, while <Link href="/halton-hills-mosquito-control" className="text-brand-700 underline">mosquito and tick control in Halton Hills</Link> covers the Conservation Halton lands that back onto so many properties there.</p>
+        <p>Professional <Link href="/tick-control" className="text-brand-700 underline">tick control treatment</Link> targets these zones with a residual application, applied according to label directions and repeated through the season as the residual wears off. For families in higher-risk areas — Vaughan, Richmond Hill, Markham, Caledon, Halton Hills, and the Hamilton escarpment — a structured tick spray schedule across the season is the most effective way to keep population pressure low and reduce the chance of finding any tick at all. If you are in one of those pockets, the local pages spell out the habitat property by property: our <Link href="/caledon-tick-spray" className="text-brand-700 underline">Caledon tick spray service</Link> deals with the Niagara Escarpment and Oak Ridges Moraine lots, while <Link href="/halton-hills-mosquito-control" className="text-brand-700 underline">mosquito and tick control in Halton Hills</Link> covers the Conservation Halton lands that back onto so many properties there.</p>
 
         <h2>When in Doubt, Get a Professional Eye on It</h2>
         <p>If you cannot identify what you found, photograph it next to a coin for scale and keep it in a sealed bag before disposing of it. A clear photo of the legs and head answers the question almost every time, because 8 legs with no antennae means tick and 6 legs with antennae does not. A yard walk-through then shows which edges and beds are actually holding ticks.</p>

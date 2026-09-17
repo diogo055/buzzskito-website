@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'what-temperature-kills-mosquitoes'
 const DATE = '2026-07-16'
@@ -107,7 +108,7 @@ const FAQS = [
   },
   {
     question: 'What temperature kills mosquito larvae?',
-    answer: 'Mosquito larvae stop developing between about 8°C and 12°C (46–53°F) and die outright once the water they live in freezes solid. The lower developmental threshold measured for Aedes aegypti larvae is roughly 11.8°C (53°F); below that, growth halts and mortality climbs steeply. Backyard container water cools and freezes far faster than a pond, so plant saucers, tarps, tires and clogged gutters shut down before natural water does. Cold is still a slow and unreliable larvicide — draining the water, or treating what you cannot drain with a Bti (Bacillus thuringiensis israelensis) larvicide registered by Health Canada or the US EPA, works in days rather than months.',
+    answer: 'Mosquito larvae stop developing between about 8°C and 12°C (46–53°F) and die outright once the water they live in freezes solid. The lower developmental threshold measured for Aedes aegypti larvae is roughly 11.8°C (53°F); below that, growth halts and mortality climbs steeply. Backyard container water cools and freezes far faster than a pond, so plant saucers, tarps, tires and clogged gutters shut down before natural water does. Cold is still a slow and unreliable larvicide — draining the water, or treating what you cannot drain with a Bti (Bacillus thuringiensis israelensis) larvicide (look for a PCP registration number in Canada or an EPA registration number in the US), works in days rather than months.',
   },
   {
     question: 'What temperature kills mosquito eggs?',
@@ -324,7 +325,7 @@ export default function WhatTemperatureKillsMosquitoesPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Waiting for frost isn&rsquo;t a mosquito plan</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Because eggs and hibernating females survive every Ontario winter, populations rebuild fast each spring. BuzzSkito&rsquo;s licensed barrier spray knocks down adults and treats resting zones all season &mdash; from $99, backed by 150 five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Because eggs and hibernating females survive every Ontario winter, populations rebuild fast each spring. BuzzSkito&rsquo;s licensed barrier spray knocks down adults and treats resting zones all season &mdash; from $99, backed by 150+ five-star Google reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -342,7 +343,7 @@ export default function WhatTemperatureKillsMosquitoesPage() {
 
           <h2>What temperature kills mosquito larvae?</h2>
           <p><strong>Mosquito larvae stop developing between about 8&deg;C and 12&deg;C (46&ndash;53&deg;F), and die outright once the water they live in freezes solid.</strong> The lower developmental threshold measured for <em>Aedes aegypti</em> larvae is roughly 11.8&deg;C (53&deg;F). Below that figure, growth halts and mortality climbs steeply, long before the water itself turns to ice.</p>
-          <p>Container water is the part that matters in a backyard, and it cools faster than anything natural. A plant saucer, a sagging tarp, a tire or a clogged gutter drops below the developmental threshold weeks before a pond does, which is why the breeding sites on your own property shut down first in the fall and restart first in the spring. Cold is still a slow and unreliable larvicide. Draining the water works in minutes; treating what you cannot drain with a <em>Bacillus thuringiensis israelensis</em> (Bti) larvicide &mdash; registered by Health Canada&rsquo;s Pest Management Regulatory Agency and by the US EPA &mdash; works in days.</p>
+          <p>Container water is the part that matters in a backyard, and it cools faster than anything natural. A plant saucer, a sagging tarp, a tire or a clogged gutter drops below the developmental threshold weeks before a pond does, which is why the breeding sites on your own property shut down first in the fall and restart first in the spring. Cold is still a slow and unreliable larvicide. Draining the water works in minutes; treating what you cannot drain with a <em>Bacillus thuringiensis israelensis</em> (Bti) larvicide &mdash; check the label for a PCP registration number in Canada or an EPA registration number in the US &mdash; works in days.</p>
 
           <h2>What temperature kills mosquito eggs?</h2>
           <p><strong>No temperature a Canadian winter produces reliably kills mosquito eggs.</strong> <em>Aedes</em> eggs are desiccation-resistant and freeze-tolerant, and stay viable for months in soil, leaf litter, gutters and on the dry inner walls of containers. They hatch within days once meltwater or spring rain covers them and warms past roughly 10&deg;C (50&deg;F).</p>
@@ -597,7 +598,7 @@ export default function WhatTemperatureKillsMosquitoesPage() {
         </div>
       </article>
 
-      <CTASection heading="Don&rsquo;t wait for frost — get ahead of mosquito season" subtext="Licensed barrier spray for GTA backyards. From $99. Same-day yard protection. 30-day residual." variant="dark" />
+      <CTASection heading="Don&rsquo;t wait for frost — get ahead of mosquito season" subtext={`Licensed barrier spray for GTA backyards. From $99. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

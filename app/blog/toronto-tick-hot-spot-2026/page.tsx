@@ -2,7 +2,11 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = {
   title: 'Why Toronto Is a Tick Hot Spot in 2026 (And What That Means for Your Yard)',
@@ -35,6 +39,8 @@ const FAQS = [
 ]
 
 const META_TITLE = 'Toronto Tick Hot Spots 2026: Why Ravines Matter'
+
+const AMZ_TAG = tagForSlug('toronto-tick-hot-spot-2026')
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
@@ -118,12 +124,14 @@ export default function TorontoTickHotSpotPage() {
         <p>The general rule: <strong>if you can see trees from your back fence, treat your property as elevated risk in 2026.</strong></p>
         <p>The same rule holds west of the city, where Bronte Creek Provincial Park and the Royal Botanical Gardens anchor the pressure instead of the Don Valley. We ranked those neighbourhoods separately in <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 underline">the Oakville and Burlington tick hot spot report</Link>.</p>
 
+        <p>Immediately west, the Credit River plays the role the Don Valley plays here, funnelling hosts and humidity through the middle of the city — see <Link href="/blog/tick-hot-spots-mississauga-2026" className="text-brand-700 underline">the Mississauga tick hot spot neighbourhoods for 2026</Link> for that ranking.</p>
+
         <h2>The 2026 protection plan for Toronto homes</h2>
         <ol>
-          <li><strong>Professional tick barrier spray in late May / early June.</strong> Targets the nymph activity peak. Apply along the back fence line, garden beds, leaf-litter zones, woodpiles, and any transition from lawn to forest. Repeat in mid-August for the fall adult peak.</li>
+          <li><strong>Professional tick barrier spray, five treatments roughly monthly from May through September.</strong> The late May / early June visit targets the nymph activity peak, and the August and September visits cover the fall adult peak. Apply along the back fence line, garden beds, leaf-litter zones, woodpiles, and any transition from lawn to forest.</li>
           <li><strong>Habitat modification on the ravine edge.</strong> If your property borders forest, install a 3-foot gravel or wood-chip buffer. Clear leaf litter from this buffer weekly during May-July. Mow tight; ticks struggle to ambush in short grass.</li>
           <li><strong>Daily tick-check protocol for the household.</strong> After any outdoor activity, even just gardening. Pay special attention to children and dogs — both spend more time in close contact with grass and vegetation.</li>
-          <li><strong>Permethrin-treated clothing for ravine hikers.</strong> If you walk in the Don Valley, Rouge, or any forested ravine, treat your hiking pants/socks with 0.5% permethrin spray. One application lasts 6 weeks or 6 washes. This is the single most effective personal protection layer.</li>
+          <li><strong>Permethrin-treated clothing for ravine hikers.</strong> If you walk in the Don Valley, Rouge, or any forested ravine, wear hiking pants, socks, or gaiters that come factory-treated with permethrin &mdash; in Canada, consumer permethrin sprays for treating your own clothing are not registered. This is the single most effective personal protection layer.</li>
           <li><strong>Know the 24-36 hour rule.</strong> Lyme disease transmission typically requires 24-36 hours of tick attachment. A tick found and removed within 24 hours dramatically reduces — but does not eliminate — risk. Daily checks matter.</li>
         </ol>
 
@@ -131,7 +139,12 @@ export default function TorontoTickHotSpotPage() {
         <p>Toronto Star, CityNews, and TorontoToday all ran tick coverage in May 2026 because the surge is genuine — not media hype. Public attention will move on within weeks. The tick pressure will not. The properties getting treated now will be protected through the peak season; the ones that wait until September will have missed the window.</p>
 
         <h2>Same-week service across Toronto</h2>
-        <p>BuzzSkito treats Toronto properties across every neighbourhood. Same-week service is available throughout the city, including <Link href="/toronto-mosquito-control" className="text-brand-700 underline">Toronto mosquito control</Link>, <Link href="/toronto-tick-spray" className="text-brand-700 underline">Toronto tick spray</Link>, and dedicated <Link href="/north-york-tick-spray" className="text-brand-700 underline">North York</Link>, <Link href="/scarborough-mosquito-control" className="text-brand-700 underline">Scarborough</Link>, and <Link href="/etobicoke-tick-spray" className="text-brand-700 underline">Etobicoke</Link> service. The free quote is based on your lot size and risk profile — no on-site visit needed.</p>
+        <p>BuzzSkito treats Toronto properties across every neighbourhood. Same-week service is available throughout the city, including <Link href="/toronto-mosquito-control" className="text-brand-700 underline">Toronto mosquito control</Link>, <Link href="/toronto-tick-spray" className="text-brand-700 underline">Toronto tick spray</Link>, and dedicated <Link href="/north-york-tick-spray" className="text-brand-700 underline">North York</Link>, <Link href="/scarborough-mosquito-control" className="text-brand-700 underline">Scarborough</Link>, and <Link href="/etobicoke-tick-spray" className="text-brand-700 underline">Etobicoke</Link> service. The free quote is based on your lot size and risk profile &mdash; no on-site visit needed. {PROMISES.response}</p>
+
+        <h2>What to keep by the back door</h2>
+        <p>Steps three and five of that plan &mdash; the daily check, and the 24-36 hour window &mdash; only hold up if removal is not a scramble. The gap between finding a tick and getting it out cleanly is where the avoidable risk sits, and a Sunday evening in June is a bad moment to discover that the only tweezers in the house are blunt cosmetic ones that squeeze the tick&rsquo;s body instead of gripping its head. A fine-tipped tick remover solves a logistics problem more than a medical one: it is small enough to keep one in the kitchen drawer, one in the dog-walking bag, and one in the car, so the check that finds a tick in a Don Valley parking lot can end there instead of at home two hours later.</p>
+        <AffiliateDisclosure />
+        <p className="not-prose text-gray-700">Our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick-removal tool guide</Link> compares the common types, or <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Related guides</h2>
         <ul>

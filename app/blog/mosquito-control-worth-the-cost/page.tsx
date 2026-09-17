@@ -8,14 +8,14 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = {
   title: 'Is Mosquito Control Worth the Cost?',
   slug: 'mosquito-control-worth-the-cost',
   date: '2026-04-01',
-  excerpt: 'Is professional mosquito control worth the money? An honest breakdown of costs vs. benefits — health risk reduction, property enjoyment value, and how it compares to DIY alternatives.',
+  excerpt: 'Is professional mosquito control worth the money? An honest breakdown of costs vs. benefits — the West Nile context, property enjoyment value, and how it compares to DIY alternatives.',
 }
 
 const UPDATED = POST.date
@@ -33,17 +33,17 @@ const FAQS = [
   {
     question: 'Is professional mosquito control worth the money?',
     answer:
-      'For most GTA homeowners, yes. A full-season mosquito control program costs approximately $500-$900 (5-6 treatments) and keeps a residual on the shaded vegetation where adult mosquitoes rest during the day, refreshed before it wears off. The practical result is consistent outdoor usability from May through September — evenings on the patio, weekend barbecues, children playing outside — without the biting, swatting, and retreat indoors that uncontrolled mosquito populations cause. When you consider that a single restaurant dinner for a family costs $100-$200, the per-month cost of season-long mosquito control ($100-$180/month) is a modest investment in outdoor quality of life.',
+      'For most GTA homeowners, yes. A full-season mosquito control program costs approximately $500-$900 (5-6 treatments) and keeps a residual on the shaded vegetation where adult mosquitoes rest during the day, renewed on a schedule because it wears down. The practical aim is more usable outdoor time from May through September — evenings on the patio, weekend barbecues, children playing outside — with less of the biting, swatting, and retreat indoors that uncontrolled mosquito populations cause. When you consider that a single restaurant dinner for a family costs $100-$200, the per-month cost of season-long mosquito control ($100-$180/month) is a modest investment in outdoor quality of life.',
   },
   {
     question: 'How much does a full season of mosquito control cost?',
     answer:
-      'A full-season mosquito barrier spray program in the GTA (5-6 treatments from May through September) typically costs $500-$900 for a standard residential lot under 10,000 sq ft. Seasonal packages offer 20-35% savings compared to individual treatment bookings. Larger properties and those with extensive vegetation or proximity to water pay more. Combined mosquito + tick packages offer additional savings if you need both services.',
+      'A full-season mosquito barrier spray program in the GTA (5-6 treatments from May through September) typically costs $500-$900 for a standard residential lot under 10,000 sq ft. BuzzSkito season plans are $549 (5 sprays, monthly), $994 (10 sprays, every 2 weeks, most popular) and $2,049 (20+ sprays, weekly) on a standard lot, plus HST, and single treatments start at $99. Larger properties and those with extensive vegetation or proximity to water pay more. Combined mosquito + tick packages offer additional savings if you need both services.',
   },
   {
     question: 'Is professional mosquito spray better than DIY?',
     answer:
-      'The difference is mechanical, not magical. Professional treatment applies a Health Canada-registered residual to all of the shaded resting sites across the lot — leaf undersides, shrub interiors, fence-line vegetation — and that residual stays active on those surfaces for 21-30 days per application. DIY foggers provide short-term relief (hours to a day) and do not deliver residual protection. Citronella candles, tiki torches, and ultrasonic devices have minimal proven effectiveness. The one DIY measure that genuinely works — eliminating standing water — should be done in addition to professional treatment, not instead of it.',
+      'The difference is mechanical, not magical. Professional treatment applies a registered residual, according to label directions, to the shaded resting sites across the lot — leaf undersides, shrub interiors, fence-line vegetation — and renews it on a schedule as it wears down with time and rain. DIY foggers provide short-term relief (hours to a day) and do not deliver residual protection. Citronella candles, tiki torches, and ultrasonic devices have minimal proven effectiveness. The one DIY measure that genuinely works — eliminating standing water — should be done in addition to professional treatment, not instead of it.',
   },
   {
     question: 'What are the health risks of NOT having mosquito control?',
@@ -53,7 +53,7 @@ const FAQS = [
   {
     question: 'How many treatments do I need per mosquito season?',
     answer:
-      'Most GTA properties need 5-6 barrier spray treatments per season to maintain consistent protection from May through September. Each treatment provides approximately 21-30 days of residual protection, depending on rainfall and property conditions. Properties near water, ravines, or with heavy vegetation may need the upper end of this range. Some companies offer bi-weekly programs (8-10 treatments) for maximum coverage, though monthly programs are sufficient for most residential properties.',
+      'Most GTA properties need 5-6 barrier spray treatments per season to maintain consistent protection from May through September. The residual wears down with rainfall and property conditions, which is why treatments repeat. Properties near water, ravines, or with heavy vegetation usually suit a more frequent schedule. BuzzSkito offers monthly (Basic, 5 sprays, $549), every-two-weeks (Standard, 10 sprays, $994) and weekly (Exclusive, 20+ sprays, $2,049) plans on a standard lot.',
   },
 ]
 
@@ -88,7 +88,7 @@ export default function MosquitoControlWorthCostPage() {
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes &mdash; for most GTA homeowners professional mosquito control is worth the cost. A full-season program runs about $500&ndash;$900 for 5&ndash;6 treatments and puts a residual on the shaded vegetation where adult mosquitoes rest, repeated through the season because mosquitoes keep flying in from surrounding properties. That works out to roughly $100&ndash;$180 per month for a backyard you can actually use from May through September.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A full-season program (5&ndash;6 treatments, May&ndash;September) costs $500&ndash;$900 for a standard GTA lot; single treatments run $120&ndash;$200.</li>
-              <li>Professional barrier spray treats every shaded resting site across the lot and holds a residual there for 21&ndash;30 days per treatment.</li>
+              <li>Professional barrier spray treats the shaded resting sites across the lot and renews the residual there on a schedule through the season.</li>
               <li>Reclaiming 2&ndash;3 outdoor hours per week over a 20-week season prices the program at roughly $10&ndash;$22 per hour of usable backyard time.</li>
               <li>West Nile Virus has been detected in GTA mosquito populations every year since 2001; about 20% of infections cause West Nile Fever.</li>
               <li>A typical family already spends $200&ndash;$500 per season on DIY products (candles, foggers, zappers) that provide far less protection.</li>
@@ -111,6 +111,7 @@ export default function MosquitoControlWorthCostPage() {
           <li><strong>Single treatment:</strong> $120 – $200 for a standard residential lot (under 10,000 sq ft)</li>
           <li><strong>Full-season package (5-6 treatments, May-September):</strong> $500 – $900</li>
           <li><strong>Per month, season-long:</strong> Approximately $100 – $180/month over a 5-month season</li>
+          <li><strong>BuzzSkito&rsquo;s own prices:</strong> single treatment from $99 on a standard lot; season plans $549 (5 sprays, monthly), $994 (10 sprays, every 2 weeks) or $2,049 (20+ sprays, weekly), plus HST</li>
         </ul>
         <p>For most GTA families, this puts mosquito control in the same monthly cost bracket as a streaming service bundle, a couple of takeout dinners, or a single date night. The question is whether the return justifies this investment.</p>
 
@@ -118,10 +119,10 @@ export default function MosquitoControlWorthCostPage() {
 
         <h3>1. Reclaimed Outdoor Living Space</h3>
         <p>This is the biggest return on investment for most families, and it is often undervalued until you experience the difference. GTA homeowners spend hundreds of thousands of dollars on their homes and backyards — patios, decks, pools, landscaping, outdoor kitchens — yet many retreat indoors from June through August because mosquitoes make their outdoor space unusable after 5 PM.</p>
-        <p>Professional barrier spray restores usability to your outdoor space for the entire season. Evening dinners on the patio, kids playing until dusk, backyard parties without everyone retreating inside — this is what the investment actually buys.</p>
+        <p>Professional barrier spray is aimed at making that outdoor space usable again through the season. Evening dinners on the patio, kids playing until dusk, backyard parties without everyone retreating inside — this is what the investment actually buys.</p>
         <p>Consider the math: if a treated backyard provides even 2-3 additional hours of comfortable outdoor use per week over a 20-week season, that is 40-60 hours of reclaimed outdoor time. At $500-$900 for the season, you are paying roughly $10-$22 per hour of usable outdoor time — less than a movie ticket.</p>
 
-        <h3>2. Health Risk Reduction</h3>
+        <h3>2. Mosquito-Borne Illness: The Public Health Context</h3>
         <p>Mosquitoes in Ontario are not just a nuisance — they are a disease vector. West Nile Virus has been present in GTA mosquito populations every year since 2001 and remains a genuine public health risk:</p>
         <ul>
           <li>Approximately 20% of people infected with WNV develop West Nile Fever</li>
@@ -129,7 +130,7 @@ export default function MosquitoControlWorthCostPage() {
           <li>Adults over 60 and immunocompromised individuals face the highest risk of severe outcomes</li>
           <li>There is no vaccine and no specific treatment for West Nile Virus</li>
         </ul>
-        <p>Professional mosquito control does not eliminate mosquitoes — adults disperse onto a property from off-site sources up to 3 km away, which is why the treatment is repeated rather than one-and-done. What it does is hold a residual on the resting surfaces adults use on your own lot, so fewer of them are biting in the space your family actually occupies — and fewer bites means fewer opportunities for a WNV-infected one. For households with elderly family members or immunocompromised individuals, that matters.</p>
+        <p>Professional mosquito control does not eliminate mosquitoes — adults disperse onto a property from off-site sources up to 3 km away, which is why the treatment is repeated rather than one-and-done. What it does is hold a residual on the resting surfaces adults use on your own lot, so fewer of them are around the space your family actually uses. It is a comfort measure, not a medical one: Public Health Ontario&rsquo;s West Nile advice on repellent, clothing, and standing water applies whether or not your yard is treated.</p>
         <p>See: <Link href="/blog/west-nile-virus-ontario-2026" className="text-brand-700 hover:underline">West Nile Virus Risk Ontario 2026</Link></p>
 
         <h3>3. Reduced Allergic Reactions and Discomfort</h3>
@@ -143,7 +144,7 @@ export default function MosquitoControlWorthCostPage() {
         <p>For families with children who are sensitive to mosquito bites, the reduction in scratching, welts, and discomfort alone can justify the cost.</p>
 
         <h3>4. Event and Entertaining Value</h3>
-        <p>GTA summers are short and precious. If you host even one or two outdoor gatherings per summer — a birthday party, Canada Day barbecue, neighbourhood get-together, or backyard wedding — the value of mosquito control for those events alone approaches the cost of a full-season program. One-time event sprays are available (typically $150-$250), but a seasonal program means every weekend gathering is protected, not just the big events.</p>
+        <p>GTA summers are short and precious. If you host even one or two outdoor gatherings per summer — a birthday party, Canada Day barbecue, neighbourhood get-together, or backyard wedding — the value of mosquito control for those events alone approaches the cost of a full-season program. One-time event sprays are available (typically $150-$250), but a seasonal program keeps treatments on schedule through every weekend of the season, not just the big events.</p>
         <p>See: <Link href="/blog/outdoor-event-mosquito-control-gta" className="text-brand-700 hover:underline">Outdoor Event Mosquito Control in the GTA</Link></p>
 
         <h2>The Cost of NOT Treating: What Are You Paying Anyway?</h2>
@@ -172,8 +173,8 @@ export default function MosquitoControlWorthCostPage() {
         <ul>
           <li><strong>Properties near water or ravines:</strong> These locations have naturally high mosquito populations that DIY methods cannot meaningfully control. See: <Link href="/blog/mosquito-control-near-water-ravines-gta" className="text-brand-700 hover:underline">Mosquito Control Near Water and Ravines</Link></li>
           <li><strong>Families with young children:</strong> Kids are more sensitive to bites, more susceptible to scratching and secondary infections, and spend more time outdoors at ground level where mosquito density is highest</li>
-          <li><strong>Households with elderly or immunocompromised members:</strong> West Nile Virus risk is highest for these groups</li>
-          <li><strong>Homeowners who entertain frequently:</strong> The value of a mosquito-free outdoor gathering space extends to every guest</li>
+          <li><strong>Households with elderly or immunocompromised members who spend evenings outdoors:</strong> these are the groups most at risk of severe West Nile illness, so follow public health advice on repellent and standing water; a treated yard is a comfort layer alongside that, not a substitute</li>
+          <li><strong>Homeowners who entertain frequently:</strong> The value of a gathering space with fewer mosquitoes extends to every guest</li>
           <li><strong>Properties with significant outdoor investment:</strong> If you have built a patio, pool, outdoor kitchen, or garden, professional treatment helps you actually enjoy that investment</li>
         </ul>
 
@@ -189,7 +190,7 @@ export default function MosquitoControlWorthCostPage() {
         <p>To get the most value from professional mosquito control:</p>
         <ul>
           <li><strong>Start early:</strong> Book your first treatment for mid-May to target the first generation of mosquitoes before they breed. This compounds into lower populations all season</li>
-          <li><strong>Eliminate standing water:</strong> No amount of spray can overcome an active mosquito breeding source in your own yard. Remove standing water from birdbaths, gutters, plant saucers, and tarps. For water you cannot drain — rain barrels, pond edges, French drains — a BTi larvicide like Summit Mosquito Bits kills larvae without harming pets, birds, or fish. <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink> See: <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 hover:underline">Hidden Mosquito Breeding Spots</Link></li>
+          <li><strong>Eliminate standing water:</strong> No amount of spray can overcome an active mosquito breeding source in your own yard. Remove standing water from birdbaths, gutters, plant saucers, and tarps. For water you cannot drain — rain barrels, pond edges, French drains — a BTi larvicide like Summit Mosquito Bits kills mosquito larvae; use it as the label directs. <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink> See: <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 hover:underline">Hidden Mosquito Breeding Spots</Link></li>
           <li><strong>Choose a seasonal package:</strong> Consistent monthly treatments maintain protection across the entire season — gaps in coverage allow population recovery</li>
           <li><strong>Bundle tick + mosquito:</strong> If your property also has tick risk (and most GTA properties do), combined packages provide maximum value</li>
         </ul>
@@ -197,18 +198,18 @@ export default function MosquitoControlWorthCostPage() {
         <TopPick tag={AMZ_TAG}
           label="Best DIY Companion"
           name="Summit Mosquito Bits (BTi larvicide)"
-          blurb="The one DIY product that genuinely complements professional treatment. BTi granules kill mosquito larvae in standing water you cannot drain — rain barrels, pond edges, French drains — without harming pets, birds, or fish. Attacks the breeding source that no barrier spray can reach, so populations recover more slowly between visits."
+          blurb="The one DIY product that genuinely complements professional treatment. BTi granules kill mosquito larvae in standing water you cannot drain — rain barrels, pond edges, French drains — and acts on those larvae rather than on pets, birds, or fish; use it where the label directs. Attacks the breeding source that no barrier spray can reach, so populations recover more slowly between visits."
           search="summit mosquito bits"
           score={8.5}
-          pros={['Targets larvae before they hatch', 'Safe around pets, birds, and fish', 'Works on water you cannot drain']}
+          pros={['Targets larvae before they hatch', 'Acts on mosquito larvae, per the label', 'Works on water you cannot drain']}
           cons={['Not a standalone solution for biting adults', 'Needs reapplication through the season']}
         />
 
         <h2>BuzzSkito Pricing</h2>
         <p>BuzzSkito offers transparent, competitive mosquito control pricing for all GTA properties:</p>
         <ul>
-          <li>Single treatments from $120</li>
-          <li>Seasonal packages with per-treatment savings</li>
+          <li>Single treatments from $99 on a standard lot (under 10,000 sq ft)</li>
+          <li>Season plans: $549 (5 sprays, monthly), $994 (10 sprays, every 2 weeks) or $2,049 (20+ sprays, weekly), plus HST</li>
           <li>Combined mosquito + tick packages</li>
           <li>Free, no-obligation quotes</li>
         </ul>
@@ -240,7 +241,7 @@ export default function MosquitoControlWorthCostPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Bits (BTi larvicide)" search="summit mosquito bits" label="Best DIY companion" />
 
-      <CTASection heading="Ready to Reclaim Your Backyard This Summer?" subtext="Professional mosquito barrier spray from $120/treatment. Free quote for all GTA properties — no obligation." variant="dark" />
+      <CTASection heading="Ready to Reclaim Your Backyard This Summer?" subtext={`Professional mosquito barrier spray from $99 per treatment on a standard lot. Free quote for all GTA properties — no obligation. ${PROMISES.response}`} variant="dark" />
     </>
   )
 }

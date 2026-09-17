@@ -169,7 +169,7 @@ export default function RainBarrelMosquitoProofPage() {
               <li><strong>Mesh:</strong> 18x16 fibreglass window screen is fine enough for every Ontario mosquito. Finer mesh clogs with pollen and shingle grit and sheds rain over the side.</li>
               <li><strong>The three real gaps:</strong> the overflow port, the linking port between barrels, and the downspout inlet grate.</li>
               <li><strong>Clamp it.</strong> Hose clamps or a bungee lid ring. Wind lifts draped screen, and lifted screen is an open barrel.</li>
-              <li><strong>Bti dunks</strong> &mdash; one per barrel, replaced monthly May through September. Safe for pets, fish and pollinators.</li>
+              <li><strong>Bti dunks</strong> &mdash; one per barrel, replaced monthly May through September. Bti targets mosquito larvae; follow the label directions.</li>
               <li><strong>Winter:</strong> drain fully and disconnect before the first hard freeze, usually late October in the GTA. Leave the spigot open.</li>
               <li><strong>Cheaper is often right:</strong> if your barrel already has a sound lid, a roll of screen, a few clamps and a pack of dunks fixes it for well under $50.</li>
             </ul>

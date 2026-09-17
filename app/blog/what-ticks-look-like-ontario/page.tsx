@@ -116,8 +116,11 @@ export default function WhatTicksLookLikePage() {
           <li>Currently rare in the GTA; more common in southwestern Ontario</li>
         </ul>
 
+        <p>Because it is the one Ontario tick tied to a food allergy rather than an infection, the lone star tick raises a different set of questions — is it actually established here, and what does an alpha-gal reaction look like? Our <Link href="/blog/lone-star-tick-alpha-gal-canada" className="text-brand-700 underline">lone star tick and alpha-gal syndrome guide for Canada</Link> answers both with the current PHAC and eTick picture.</p>
+
         <h2>Tick Species Comparison Chart</h2>
         <p>Use this at-a-glance table to tell the three ticks apart by colour, size, and — most importantly — whether they can transmit Lyme disease. For a deeper side-by-side, see our <Link href="/blog/deer-tick-vs-dog-tick-canada" className="text-brand-700 underline">deer tick vs dog tick comparison</Link>.</p>
+        <p>These field marks are far harder to read through a coat. If what you are looking at is on a pet, see our photo guide to <Link href="/blog/what-does-tick-look-like-on-dog" className="text-brand-700 underline">what a tick looks like on a dog</Link>, which covers unfed versus engorged and the lookalikes — skin tags, scabs, fleas.</p>
         <div className="not-prose rounded-xl border border-brand-100 overflow-x-auto my-6">
           <table className="min-w-[560px] w-full text-sm">
             <thead>
@@ -211,6 +214,10 @@ export default function WhatTicksLookLikePage() {
         />
         <p>Not sure which style to pick? Our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick-removal tool guide</Link> compares fine-tipped tweezers, hooks, and tick keys so you have the right one before the next bite. Then follow our step-by-step <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 underline">safe tick-removal instructions</Link>.</p>
 
+        <h3>Confirming What You Actually Pulled Off</h3>
+        <p>Identification does not end at removal, and this is where most people get stuck. At 1&ndash;1.5 mm, a nymph is simply too small for the field marks above to be visible &mdash; the solid black scutum that separates a blacklegged tick from a mottled dog tick, and the six-versus-eight leg count that separates a larva from a nymph, both disappear at arm&rsquo;s length. A lighted magnifier or a 10x jeweller&rsquo;s loupe brings both back, and it also lets you hold a phone camera to the lens for a clear photo if your public health unit asks for one. Worth keeping in the same drawer as the tweezers.</p>
+        <p className="not-prose"><BuyLink tag={AMZ_TAG} search="lighted magnifying glass 10x loupe">Check lighted magnifiers on Amazon.ca &rarr;</BuyLink></p>
+
         <h2>Where Ticks Are Found in Ontario Yards</h2>
         <p>Knowing where to look is as important as knowing what to look for. Ticks concentrate at specific microhabitats:</p>
         <ul>
@@ -220,8 +227,12 @@ export default function WhatTicksLookLikePage() {
           <li><strong>Under decks and porches:</strong> Dark, humid zones that ticks use when conditions are dry or hot</li>
           <li><strong>Dense shrubs and ground cover:</strong> Ticks rest in humid vegetation between questing periods</li>
         </ul>
+        <p>Questing is the whole of a tick&rsquo;s travel plan: it climbs a grass blade or a low stem, holds its front legs out, and waits. It does not drop from trees, launch itself, or chase anything &mdash; <Link href="/blog/can-ticks-fly-jump-swim" className="text-brand-700 underline">whether ticks can fly, jump, or swim</Link> sorts the myths from what actually happens, which is why the ankles and lower legs are where most ticks board.</p>
+        <p>The three species above are the Ontario shortlist; the national picture is wider, and <Link href="/blog/are-there-ticks-in-canada" className="text-brand-700 underline">our province-by-province guide to ticks in Canada</Link> covers which ones turn up outside this province.</p>
         <p>If the tick you are trying to identify came off one of those zones, the yard edge is what needs treating &mdash; not the middle of the lawn. That is exactly where a licensed barrier spray is applied: the 1&ndash;3 metre transition band, the leaf litter, and the under-deck edges, across the May-to-September season. We run it throughout the GTA, including <Link href="/mississauga-tick-spray" className="text-brand-700 underline">tick spray in Mississauga</Link> for Credit River and Rattray Marsh properties and <Link href="/brampton-tick-spray" className="text-brand-700 underline">tick control in Brampton</Link> for homes backing onto ravines and creek corridors.</p>
         <p>Knowing those zones also tells you when to gear up. Because a nymph this small is easier to block than to spot, treated clothing is the standard defence before you walk the lawn edge, rake leaf litter, or move a woodpile: a <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">permethrin spray</Link> goes on boots, socks, and pant cuffs — on the fabric, never on skin — so ticks are stopped on the way up.</p>
+        <p>If you would rather not treat garments yourself, the same idea comes ready-made. Factory-treated clothing has permethrin bonded into the fabric at manufacture, so socks, trousers, and gaiters arrive ready to wear with nothing to mix, spray, or hang up to dry. Follow the garment label for washing and replacement, and put the treated items where ticks actually board &mdash; feet, ankles, and lower legs, not the jacket.</p>
+        <p className="not-prose"><BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check permethrin-treated clothing on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">
@@ -250,7 +261,7 @@ export default function WhatTicksLookLikePage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Tick Twister-style removal hook" search="otom tick twister" label="For removal" />
 
-      <CTASection heading="Protect Your Yard from Ticks This Season" subtext="Professional tick spray kills ticks at all life stages. Free quote for your GTA property." variant="dark" />
+      <CTASection heading="Protect Your Yard from Ticks This Season" subtext="Professional tick spray targets ticks at all life stages. Free quote for your GTA property." variant="dark" />
     </>
   )
 }

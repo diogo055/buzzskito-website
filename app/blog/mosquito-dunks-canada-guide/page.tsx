@@ -12,6 +12,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'mosquito-dunks-canada-guide'
 const DATE = '2026-04-28'
@@ -25,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'Are mosquito dunks safe for pets, fish, and humans?',
-    answer: 'Yes. BTI is one of the safest insecticides ever developed — it specifically targets mosquito and black fly larvae and has no effect on humans, pets, fish, frogs, beneficial insects, pollinators, or birds. Health Canada has approved BTI for use in drinking water reservoirs in some provinces. You can safely use mosquito dunks in: rain barrels, ornamental ponds with fish, bird baths, drainage ditches, neglected pools, and any water that cannot be drained. Dogs occasionally chew on dunks — this causes mild stomach upset at most.',
+    answer: 'Follow the label rather than a blanket promise. BTI specifically targets mosquito and black fly larvae: the U.S. Environmental Protection Agency states that BTI toxins affect only the larvae of mosquitoes, black flies, and fungus gnats, and that BTI has no toxicity to people. The Summit label lists use sites including rain barrels, koi ponds and water gardens, birdbaths, roof gutters, unused swimming pools, and animal watering troughs. Store the box out of reach of children and pets — dogs occasionally chew on dunks — and call your veterinarian if a tablet is swallowed.',
   },
   {
     question: 'Where should I put mosquito dunks?',
@@ -37,7 +38,7 @@ const FAQS = [
   },
   {
     question: 'Do mosquito dunks actually work?',
-    answer: 'Yes — BTI dunks are evidence-backed and used by mosquito control districts across North America. Peer-reviewed research consistently shows >90% mortality of mosquito larvae within 24–48 hours of contact. However, dunks only kill larvae in the water you treat. Adult mosquitoes flying in from neighbours\' yards or natural water bodies (creeks, ravines, ponds nearby) are unaffected. For complete yard protection, combine dunks (larvae control) with professional barrier spray (adult control).',
+    answer: 'Yes — BTI dunks are evidence-backed and used by mosquito control districts across North America. Published field research reports high mortality of mosquito larvae within 24–48 hours of contact. However, dunks only kill larvae in the water you treat. Adult mosquitoes flying in from neighbours\' yards or natural water bodies (creeks, ravines, ponds nearby) are unaffected. For yard-wide control, combine dunks (larvae control) with professional barrier spray (adult control).',
   },
   {
     question: 'Mosquito Dunks vs Mosquito Bits — what is the difference?',
@@ -53,7 +54,7 @@ const FAQS = [
   },
   {
     question: 'Are mosquito dunks BTI-only or do they have other ingredients?',
-    answer: 'Mosquito dunks are essentially pure BTI (Bacillus thuringiensis subspecies israelensis) compressed with an inert binder that allows the slow 30-day release. The BTI is the only active ingredient — it specifically targets mosquito and black fly larvae. There are no synthetic chemicals, no pyrethroids, no insecticides beyond the BTI bacterium. This is what makes dunks safe for fish, pets, pollinators, and humans. The Summit Chemical brand sold most widely in Canada is registered with Health Canada under PCP # 18158.',
+    answer: 'Mosquito dunks are essentially pure BTI (Bacillus thuringiensis subspecies israelensis) compressed with an inert binder that allows the slow 30-day release. The BTI is the only active ingredient — it specifically targets mosquito and black fly larvae. There are no pyrethroids or other synthetic insecticides in the tablet. That narrow target list is why dunks are used in ponds and rain barrels; follow the label for use sites. The Summit Chemical brand sold most widely in Canada carries Canadian PCP registration number 18158.',
   },
   {
     question: 'Can I use mosquito dunks in a swimming pool?',
@@ -69,7 +70,7 @@ const FAQS = [
   },
   {
     question: 'What are mosquito dunks made of?',
-    answer: 'Mosquito dunks are made of dried Bacillus thuringiensis israelensis (BTI) — a naturally occurring soil bacterium — compressed with an inert binder into a slow-dissolving donut-shaped tablet. BTI is the only active ingredient; there are no synthetic pesticides, pyrethroids, or added chemicals. As the tablet breaks down in water it releases BTI spores that mosquito and black fly larvae eat. The Summit brand sold across Canada is registered with Health Canada under PCP #18158.',
+    answer: 'Mosquito dunks are made of dried Bacillus thuringiensis israelensis (BTI) — a naturally occurring soil bacterium — compressed with an inert binder into a slow-dissolving donut-shaped tablet. BTI is the only active ingredient; there are no pyrethroids or other synthetic insecticides. As the tablet breaks down in water it releases BTI spores that mosquito and black fly larvae eat. The Summit brand sold across Canada carries Canadian PCP registration number 18158.',
   },
   {
     question: 'Where do you buy mosquito dunks in stores?',
@@ -81,7 +82,7 @@ const FAQS = [
   },
   {
     question: 'Do mosquito dunks kill anything else?',
-    answer: 'Almost nothing. The U.S. Environmental Protection Agency states that BTI toxins affect only the larvae of mosquitoes, black flies, and fungus gnats. Adult mosquitoes, dragonfly nymphs, water beetles, snails, tadpoles, frogs, fish, birds, bees, and earthworms are unaffected, because BTI only becomes active in the specific alkaline gut of those larvae. That narrow spectrum is why the EPA also notes BTI is approved for pest control in organic farming operations.',
+    answer: 'Almost nothing. The U.S. Environmental Protection Agency states that BTI toxins affect only the larvae of mosquitoes, black flies, and fungus gnats. Adult mosquitoes, dragonfly nymphs, water beetles, snails, tadpoles, frogs, fish, birds, bees, and earthworms are not on that list, because BTI only becomes active in the specific alkaline gut of those larvae. That narrow spectrum is why the EPA also notes BTI is approved for pest control in organic farming operations.',
   },
   {
     question: 'What is the difference between mosquito bites and mosquito dunks?',
@@ -93,27 +94,27 @@ const FAQS = [
   },
   {
     question: 'Are mosquito dunks safe for dogs?',
-    answer: 'Yes. BTI acts in the gut of mosquito, black fly, and fungus gnat larvae and has no toxicity to mammals, so a dog drinking from a treated rain barrel, pond, or watering trough is not at risk. Dogs do sometimes fish a floating dunk out and chew it. Treat that as a physical problem rather than a poisoning — mild stomach upset is the usual outcome — and call your veterinarian if a whole tablet was swallowed or your dog seems unwell.',
+    answer: 'BTI acts in the gut of mosquito, black fly, and fungus gnat larvae (the U.S. EPA states its toxins affect only those larvae), and the Summit label lists animal watering troughs among its use sites, so use it at the label rate. Dogs do sometimes fish a floating dunk out and chew it. Store the box out of reach, and call your veterinarian if a tablet was swallowed or your dog seems unwell.',
   },
   {
     question: 'Are mosquito dunks safe for cats?',
-    answer: 'Yes. The same reasoning applies as for dogs: BTI has no toxicity to mammals, so a cat drinking treated water is not affected. Cats are also far less likely than dogs to chew a tablet, so the practical risk is lower still. If you are treating a bowl or fountain a cat drinks from, Mosquito Bits granules are tidier than a floating tablet — though a bowl you refresh every two or three days never gets the week of still water larvae need.',
+    answer: 'The same points apply as for dogs: BTI toxins act on specific insect larvae, and the product should be used at the label rate. Cats are also far less likely than dogs to chew a tablet. If you are treating a bowl or fountain a cat drinks from, Mosquito Bits granules are tidier than a floating tablet — though a bowl you refresh every two or three days never gets the week of still water larvae need.',
   },
   {
     question: 'Are mosquito dunks safe for birds?',
-    answer: 'Yes. BTI does not affect birds, and dunks are routinely used in large bird baths, ornamental ponds, and water gardens. For a small bird bath the simplest control is dumping and refilling every three days, which beats larvae on timing alone — mosquito larvae need more than a week of undisturbed water to reach a flying adult. If you would rather treat than refill, Mosquito Bits granules are the neater choice in a shallow basin.',
+    answer: 'Birdbaths, koi ponds, and water gardens are listed use sites on the Summit label, and birds are not among the larvae BTI toxins act on. For a small bird bath the simplest control is dumping and refilling every three days, which beats larvae on timing alone — mosquito larvae need more than a week of undisturbed water to reach a flying adult. If you would rather treat than refill, Mosquito Bits granules are the neater choice in a shallow basin.',
   },
   {
     question: 'Are mosquito dunks safe for fish?',
-    answer: 'Yes. Goldfish, koi, and mosquitofish are unaffected, and BTI is used routinely in stocked ornamental ponds. Fish eat mosquito larvae themselves, so a well-stocked pond often needs no dunk at all. Where a dunk earns its place is a pond with no fish, or the shallow, plant-choked margins and bog shelves that fish do not patrol — that is where larvae survive in an otherwise stocked pond.',
+    answer: 'Koi ponds and water gardens are listed use sites on the Summit label, and BTI is used routinely in stocked ornamental ponds. Fish eat mosquito larvae themselves, so a well-stocked pond often needs no dunk at all. Where a dunk earns its place is a pond with no fish, or the shallow, plant-choked margins and bog shelves that fish do not patrol — that is where larvae survive in an otherwise stocked pond.',
   },
   {
     question: 'Are mosquito dunks safe for bees and other pollinators?',
-    answer: 'Yes. BTI is active only in the gut of mosquito, black fly, and fungus gnat larvae, so bees, butterflies, fireflies, ladybugs, and dragonflies are not affected. The U.S. Environmental Protection Agency notes BTI is approved for pest control in organic farming operations, which is a demanding bar for non-target safety. This specificity is the main reason BTI is preferred over broad-spectrum larvicides in ponds, rain gardens, and pollinator plantings.',
+    answer: 'BTI is active only in the gut of mosquito, black fly, and fungus gnat larvae (the U.S. Environmental Protection Agency states its toxins affect only those larvae), so bees, butterflies, fireflies, ladybugs, and dragonflies are not its target. The EPA also notes BTI is approved for pest control in organic farming operations. This specificity is the main reason BTI is preferred over broad-spectrum larvicides in ponds, rain gardens, and pollinator plantings.',
   },
   {
     question: 'Are mosquito dunks safe for plants?',
-    answer: 'Yes. BTI is a soil bacterium, not a herbicide, and it does not harm roots, foliage, vegetables, or aquatic plants. Water steeped with a piece of dunk is safe to pour on houseplants and vegetable beds — that is exactly how gardeners use it against fungus gnats. Because the EPA states BTI is approved for pest control in organic farming operations, water from a treated rain barrel can still go on an organic vegetable garden.',
+    answer: 'BTI is a soil bacterium, not a herbicide. Gardeners pour water steeped with a piece of dunk on houseplants and vegetable beds — that is exactly how it is used against fungus gnats. Because the EPA states BTI is approved for pest control in organic farming operations, water from a treated rain barrel can still go on an organic vegetable garden.',
   },
   {
     question: 'Do mosquito dunks expire?',
@@ -137,7 +138,7 @@ const FAQS = [
   },
   {
     question: 'Are mosquito dunks EPA registered?',
-    answer: 'Yes. Summit Mosquito Dunks are registered with the U.S. Environmental Protection Agency under EPA Reg. No. 6218-47, held by Summit Chemical Company of Baltimore, Maryland. The EPA has registered five BTI strains across 48 pesticide products for residential, commercial, and agricultural use. In Canada the same product is registered with Health Canada under PCP #18158. The EPA also reports no documented resistance to BTI as a larvicide, even in mosquito populations treated for decades.',
+    answer: 'Yes. Summit Mosquito Dunks are registered with the U.S. Environmental Protection Agency under EPA Reg. No. 6218-47, held by Summit Chemical Company of Baltimore, Maryland. The EPA has registered five BTI strains across 48 pesticide products for residential, commercial, and agricultural use. In Canada the same product carries PCP registration number 18158. The EPA also reports no documented resistance to BTI as a larvicide, even in mosquito populations treated for decades.',
   },
   {
     question: 'Do mosquito dunks kill fungus gnats?',
@@ -157,7 +158,7 @@ const FAQS = [
   },
   {
     question: 'Can you use mosquito dunks in animal watering troughs?',
-    answer: 'Yes. Summit\'s label lists animal watering troughs among the approved use sites, alongside rain barrels, tree holes, flower pots and saucers, planter reservoirs, roof gutters, water gardens, koi ponds, and unused swimming pools. BTI has no toxicity to horses, cattle, dogs, or other livestock, so a treated trough stays safe to drink from. Refresh the dunk about every 30 days, and top the trough up rather than draining and refilling while the tablet is still working.',
+    answer: 'Yes. Summit\'s label lists animal watering troughs among its use sites, alongside rain barrels, tree holes, flower pots and saucers, planter reservoirs, roof gutters, water gardens, koi ponds, and unused swimming pools. Use it at the label rate. Refresh the dunk about every 30 days, and top the trough up rather than draining and refilling while the tablet is still working.',
   },
   {
     question: 'Are mosquito dunks approved for organic gardening?',
@@ -167,7 +168,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Dunks Canada: BTI Tablets, Where to Buy',
-  description: 'Yes, mosquito dunks are sold across Canada — pure BTI, and the Summit brand is Health Canada-registered (PCP #18158). One dunk treats 100 sq ft for 30 days.',
+  description: 'Yes, mosquito dunks are sold across Canada — pure BTI, and the Summit brand carries Canadian PCP #18158. One dunk treats 100 sq ft for 30 days.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -268,12 +269,12 @@ export default function MosquitoDunksPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For long-term standing water like rain barrels and ponds, <AmazonLink search="summit mosquito dunks" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Mosquito Dunks</AmazonLink> are the best pick &mdash; each donut-shaped BTI tablet treats up to 100 sq ft of water for about 30 days and is safe for fish, pets, and pollinators. For fast knockdown of unexpected larvae, use quick-release Mosquito Bits instead.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For long-term standing water like rain barrels and ponds, <AmazonLink search="summit mosquito dunks" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Mosquito Dunks</AmazonLink> are the best pick &mdash; each donut-shaped BTI tablet treats up to 100 sq ft of water for about 30 days, according to the label. For fast knockdown of unexpected larvae, use quick-release Mosquito Bits instead.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>One mosquito dunk treats up to 100 sq ft of water surface and lasts about 30 days.</li>
-              <li>Dunks contain only BTI (Bacillus thuringiensis israelensis); the Summit brand is Health Canada-registered under PCP #18158.</li>
-              <li>BTI kills mosquito and black fly larvae within 24&ndash;48 hours and is safe for humans, pets, fish, frogs, and pollinators.</li>
-              <li>A 6-pack costs about $10&ndash;$20 at hardware stores (Canadian Tire, Home Depot, Rona, Lowe&rsquo;s); Amazon.ca runs higher, about $27&ndash;$30.</li>
+              <li>Dunks contain only BTI (Bacillus thuringiensis israelensis); the Summit brand carries Canadian PCP registration number 18158.</li>
+              <li>BTI kills mosquito and black fly larvae within 24&ndash;48 hours; the U.S. EPA states its toxins affect only mosquito, black fly, and fungus gnat larvae, with no toxicity to people.</li>
+              <li>A 6-pack costs about $10&ndash;$20 at hardware stores (Canadian Tire, Home Depot, Rona, Lowe&rsquo;s); Amazon.ca listings often run higher, so check the current price before buying.</li>
               <li>Use one dunk per 50 gallons in a rain barrel and replace it monthly from May through September.</li>
               <li>Dunks only kill larvae in treated water; adult mosquitoes flying in need a barrier spray.</li>
             </ul>
@@ -330,7 +331,7 @@ export default function MosquitoDunksPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Important — dunks only solve half the problem.</strong> They kill mosquito <em>larvae</em> in the water you treat. Adult mosquitoes flying in from your neighbours&rsquo; yards, ravines, and creeks are unaffected. To actually enjoy your yard bite-free, combine dunks (your standing water) with <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> on vegetation. Dunks: $15/season. Barrier spray: from $99/treatment &mdash; here is <Link href="/mosquito-control-cost" className="text-emerald-700 underline font-semibold">what a full season of mosquito control costs</Link> once lot size is factored in.
+              <strong className="text-amber-900">⚠️ Important — dunks only solve half the problem.</strong> They kill mosquito <em>larvae</em> in the water you treat. Adult mosquitoes flying in from your neighbours&rsquo; yards, ravines, and creeks are unaffected. To cut bites across the whole yard, combine dunks (your standing water) with <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> on vegetation. Dunks: $15/season. Barrier spray: from $99/treatment on a standard lot &mdash; here is <Link href="/mosquito-control-cost" className="text-emerald-700 underline font-semibold">what a full season of mosquito control costs</Link> once lot size is factored in.
             </p>
           </div>
         </div>
@@ -354,12 +355,12 @@ export default function MosquitoDunksPage() {
               {
                 badge: 'Best Overall',
                 name: 'Summit Mosquito Dunks (6-Pack)',
-                why: 'One dunk treats up to 100 sq ft of standing water for ~30 days — a single 6-pack covers a typical rain barrel for the entire May–September season, and it’s completely safe for fish, pets, and pollinators.',
+                why: 'One dunk treats up to 100 sq ft of standing water for ~30 days — a single 6-pack covers a typical rain barrel for the entire May–September season, and the U.S. EPA states BTI toxins affect only mosquito, black fly, and fungus gnat larvae.',
                 asin: 'B005UTKT0W',
                 search: 'summit mosquito dunks',
                 score: 8.8,
                 featured: true,
-                pros: ['Kills larvae for ~30 days per dunk', 'BTI is safe for fish, pets, and pollinators', 'Budget-friendly and widely stocked in Canada'],
+                pros: ['Kills larvae for ~30 days per dunk', 'EPA: BTI toxins affect only mosquito, black fly and gnat larvae', 'Budget-friendly and widely stocked in Canada'],
                 cons: ['Only treats water you can reach', 'Does nothing to adult mosquitoes flying in'],
               },
               {
@@ -391,7 +392,7 @@ export default function MosquitoDunksPage() {
                 {[
                   ['Active ingredient', 'Bacillus thuringiensis israelensis (BTI)'],
                   ['What it kills', 'Mosquito larvae and black fly larvae'],
-                  ['Safe for', 'Humans, pets, fish, frogs, birds, pollinators, beneficial insects'],
+                  ['Acts on', 'Mosquito, black fly, and fungus gnat larvae only (per the U.S. EPA)'],
                   ['Coverage per dunk', 'Up to 100 sq ft of water surface'],
                   ['Duration', '~30 days per dunk'],
                   ['Where to use', 'Rain barrels, ponds, neglected pools, drainage ditches, tree holes'],
@@ -399,7 +400,7 @@ export default function MosquitoDunksPage() {
                   ['Brands in Canada', 'Summit (most common), Safer\'s Brand'],
                   ['Where to buy in Canada', 'Canadian Tire, Home Depot, Rona, Lowe\'s, garden centres, Amazon.ca'],
                   ['Typical price', '$10–$20 per 6-pack · $25–$35 per 20-pack'],
-                  ['Health Canada approval', 'Yes — approved for residential use'],
+                  ['Canadian registration', 'PCP #18158 (Summit) — check the number on your package'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -419,7 +420,7 @@ export default function MosquitoDunksPage() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">Mosquito Dunks in the United States: EPA registration and what the label allows</h2>
           <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
-            <strong>It is the same product in both countries, registered twice.</strong> <strong>In the United States</strong>, Summit Mosquito Dunks are registered with the U.S. Environmental Protection Agency under <strong>EPA Reg. No. 6218-47</strong>, held by Summit Chemical Company of Baltimore, Maryland; the label carries the signal word <strong>CAUTION</strong> for moderate eye irritation. <strong>In Canada</strong>, the identical product is registered with Health Canada under <strong>PCP #18158</strong>. Neither number changes how the dunk works &mdash; but if you are checking a product against a regulator&rsquo;s database, you need the number for your own country.
+            <strong>It is the same product in both countries, registered twice.</strong> <strong>In the United States</strong>, Summit Mosquito Dunks are registered with the U.S. Environmental Protection Agency under <strong>EPA Reg. No. 6218-47</strong>, held by Summit Chemical Company of Baltimore, Maryland; the label carries the signal word <strong>CAUTION</strong> for moderate eye irritation. <strong>In Canada</strong>, the identical product carries Canadian registration number <strong>PCP #18158</strong>. Neither number changes how the dunk works &mdash; but if you are checking a product against a regulator&rsquo;s database, you need the number for your own country.
           </p>
           <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
             <table className="min-w-[640px] w-full text-sm">
@@ -436,7 +437,7 @@ export default function MosquitoDunksPage() {
                   ['Registrant', 'Summit Chemical Company, Baltimore, MD', 'Same product, sold as Summit Mosquito Dunks'],
                   ['Active ingredient', 'Bacillus thuringiensis subspecies israelensis (BTI)', 'Bacillus thuringiensis subspecies israelensis (BTI)'],
                   ['Signal word on the label', 'CAUTION — moderate eye irritation', 'Follow label directions; domestic-class product'],
-                  ['Approved for residential use', 'Yes', 'Yes'],
+                  ['Registered for residential use', 'Yes', 'Yes'],
                   ['Organic production', 'EPA states BTI is approved for pest control in organic farming operations', 'Check the specific product listing with your certifier'],
                   ['Documented resistance', 'EPA reports none, even after decades of treatment', 'Same finding — BTI resistance is not a field problem'],
                   ['Typical retailers', 'Home Depot, Lowe\'s, Walmart, Ace Hardware, Tractor Supply, Target', 'Canadian Tire, Home Depot, Rona, Lowe\'s, garden centres'],
@@ -454,7 +455,7 @@ export default function MosquitoDunksPage() {
             The EPA&rsquo;s own BTI fact sheet is worth knowing in one line, because it settles most of the questions people ask about dunks: the EPA has registered <strong>five BTI strains across 48 pesticide products</strong> for residential, commercial, and agricultural use; <strong>BTI toxins affect only the larvae of mosquitoes, black flies, and fungus gnats</strong>; <strong>BTI has no toxicity to people</strong>; it is <strong>approved for pest control in organic farming operations</strong>; and there is <strong>no documented resistance to BTI as a larvicide</strong>, even in mosquito populations that have been treated with it for decades. Very few pesticides can claim that last one.
           </p>
           <p className="text-sm text-gray-700 leading-relaxed mt-3">
-            Summit&rsquo;s label also lists more approved use sites than most people realise: rain barrels, tree holes, flower pots and saucers, planter reservoirs, roof gutters, water gardens, koi ponds, unused swimming pools, birdbaths, and <strong>animal watering troughs</strong>. Same tablet, same 100 sq ft rate &mdash; a trough a horse drinks from is a labelled use, not an off-label improvisation.
+            Summit&rsquo;s label also lists more use sites than most people realise: rain barrels, tree holes, flower pots and saucers, planter reservoirs, roof gutters, water gardens, koi ponds, unused swimming pools, birdbaths, and <strong>animal watering troughs</strong>. Same tablet, same 100 sq ft rate &mdash; a trough a horse drinks from is a labelled use, not an off-label improvisation.
           </p>
         </div>
       </section>
@@ -519,7 +520,7 @@ export default function MosquitoDunksPage() {
 
           <h2>How Mosquito Dunks Work</h2>
           <p>Mosquito dunks contain dried BTI bacterial spores compressed into a slow-release tablet. When placed in water, the dunk slowly releases BTI spores into the surrounding water column. Mosquito larvae are filter feeders — they consume the spores as they feed, and the BTI proteins disrupt their digestive system. Death occurs within 24–48 hours.</p>
-          <p>Importantly, BTI is highly specific to mosquito and black fly larvae (and a few related species). It does not affect any other organism: humans, pets, fish, frogs, dragonflies, water beetles, beneficial insects, pollinators, or birds. This specificity is why BTI is the gold standard for environmentally responsible mosquito control.</p>
+          <p>Importantly, BTI is highly specific to mosquito and black fly larvae (and a few related species). The U.S. Environmental Protection Agency states that BTI toxins affect only the larvae of mosquitoes, black flies, and fungus gnats, so humans, pets, fish, frogs, dragonflies, water beetles, pollinators, and birds are not on its target list. That narrow target list is why BTI is so widely used in ponds and rain barrels; use it where the label directs.</p>
 
           <InlineYardRiskCTA pretext="Free 60-second tool · 1-100 risk score" />
 
@@ -527,7 +528,7 @@ export default function MosquitoDunksPage() {
           <h3>✓ Ideal locations</h3>
           <ul>
             <li><strong>Rain barrels</strong> — drop one dunk per 50 gallons. Replace monthly.</li>
-            <li><strong>Ornamental ponds</strong> — safe for goldfish, koi, and water plants.</li>
+            <li><strong>Ornamental ponds</strong> — koi ponds and water gardens are listed use sites on the Summit label.</li>
             <li><strong>Neglected swimming pools</strong> — pools that have lost chlorine and accumulated rainwater.</li>
             <li><strong>Drainage ditches</strong> that hold water for weeks.</li>
             <li><strong>Tree holes and stump cavities</strong> that collect rainwater.</li>
@@ -539,7 +540,7 @@ export default function MosquitoDunksPage() {
           <ul>
             <li><strong>Active chlorinated swimming pools</strong> — chlorine kills larvae anyway.</li>
             <li><strong>Puddles that dry within 3–5 days</strong> — the dunk needs water to work.</li>
-            <li><strong>Drinking water</strong> — although BTI is technically safe, don&rsquo;t intentionally treat your drinking water at home.</li>
+            <li><strong>Drinking water</strong> — don&rsquo;t treat household drinking water. Health Canada&rsquo;s PMRA does not permit Bti products to be applied to treated, finished drinking water.</li>
           </ul>
 
           <h2>Mosquito Dunks vs Mosquito Bits</h2>
@@ -563,7 +564,7 @@ export default function MosquitoDunksPage() {
           <p>Most Canadian homeowners with mosquito issues use both — dunks in rain barrels and ponds for set-and-forget protection, bits sprinkled into bird baths or unexpected standing water as needed.</p>
 
           <h2>Do mosquito dunks really work?</h2>
-          <p className="speakable"><strong>Yes &mdash; in the water you actually treat.</strong> BTI larvicides are standard equipment for mosquito control districts across North America, and published trials repeatedly show over 90% larval mortality within 24&ndash;48 hours of contact. One dunk covers about 100 sq ft of water surface for roughly 30 days. What a dunk cannot do is touch an adult mosquito that is already flying.</p>
+          <p className="speakable"><strong>Yes &mdash; in the water you actually treat.</strong> BTI larvicides are standard equipment for mosquito control districts across North America, and published field trials report high larval mortality within 24&ndash;48 hours of contact. One dunk covers about 100 sq ft of water surface for roughly 30 days. What a dunk cannot do is touch an adult mosquito that is already flying.</p>
           <p>That distinction is the entire honest answer, and it is where most of the online argument about dunks comes from. Two people can both use dunks correctly and come away with opposite verdicts, because they were solving different problems. If your mosquitoes are being produced <em>on your property</em> &mdash; a rain barrel, a tarp on the woodpile, a clogged gutter, a low spot that stays wet for a week &mdash; a dunk is close to a complete fix for a few dollars. If your mosquitoes are arriving from the ravine behind you, a neighbour&rsquo;s green pool, a creek, or a municipal storm system, you can treat every drop of water you own and still get bitten, because none of that water was yours.</p>
           <p>Two field details worth carrying: <strong>NC State Extension</strong> tells homeowners that dunks &ldquo;last around 3&ndash;4 weeks before they need to be replaced&rdquo; &mdash; slightly shorter than the label&rsquo;s 30 days, so treat 30 days as a ceiling rather than a target, especially in hot weather or after heavy rain that flushes the container. And a dunk does nothing for a <em>lawn</em>; it is a water treatment, and there is a section on that below.</p>
 
@@ -576,7 +577,7 @@ export default function MosquitoDunksPage() {
                 <tr>
                   <th className="px-3 py-2 text-left">BTI kills</th>
                   <th className="px-3 py-2 text-left">Where</th>
-                  <th className="px-3 py-2 text-left">BTI does not affect</th>
+                  <th className="px-3 py-2 text-left">Outside BTI&rsquo;s target list (per U.S. EPA)</th>
                 </tr>
               </thead>
               <tbody>
@@ -601,7 +602,7 @@ export default function MosquitoDunksPage() {
 
           <h2>Are mosquito dunks harmful to humans?</h2>
           <p className="speakable"><strong>No.</strong> The U.S. Environmental Protection Agency states plainly that <strong>BTI has no toxicity to people</strong>, and BTI is registered for residential use in both countries &mdash; EPA Reg. No. 6218-47 in the United States, Health Canada PCP #18158 in Canada. The Summit label carries the signal word <strong>CAUTION</strong> for moderate eye irritation only, which is a handling instruction, not a health warning about the treated water.</p>
-          <p>Sensible handling, which is all the label actually asks for: wash your hands after handling a tablet, avoid rubbing your eyes while you do it, and keep the box out of reach of children the way you would any garden product. BTI is used at municipal scale in water bodies across North America, and Health Canada has approved BTI for use in some drinking water reservoirs &mdash; but that is a treated-and-monitored public system, not a licence to dose the water in your own kitchen. Treat your rain barrel, your pond, and your ditch; leave your drinking water alone.</p>
+          <p>Sensible handling, which is all the label actually asks for: wash your hands after handling a tablet, avoid rubbing your eyes while you do it, and keep the box out of reach of children the way you would any garden product. BTI is used at municipal scale in water bodies across North America, but Health Canada&rsquo;s PMRA does not permit any Bti product to be applied to treated, finished drinking water &mdash; so there is no case for dosing the water in your own kitchen. Treat your rain barrel, your pond, and your ditch; leave your drinking water alone.</p>
 
           <h2>What is the difference between mosquito bits and mosquito dunks?</h2>
           <p className="speakable"><strong>Two different things get mixed together in this question.</strong> Mosquito <em>Dunks</em> are a BTI tablet you drop in standing water to kill larvae &mdash; they do nothing for a mosquito <em>bite</em> you already have, which is an antihistamine or hydrocortisone job. The real comparison is <strong>Dunks vs Bits</strong>: same BTI bacterium, different release speed. Dunks last about 30 days; Bits work within minutes.</p>
@@ -619,12 +620,12 @@ export default function MosquitoDunksPage() {
                 {[
                   ['Rain barrel (50 gal)', 'Dunks', 'Set-and-forget for 30 days; the barrel refills itself and you are not there to re-dose'],
                   ['5-gallon bucket trap', 'Dunks (quarter tablet)', 'You want a month of coverage from a fraction of a tablet'],
-                  ['Ornamental pond, koi pond, water garden', 'Dunks', 'Large surface, long-lived water, and the tablet is safe with fish'],
+                  ['Ornamental pond, koi pond, water garden', 'Dunks', 'Large surface, long-lived water, and koi ponds are a labelled use site'],
                   ['Drainage ditch or a wet low spot', 'Dunks', 'Slow release survives the days between your visits'],
                   ['Bird bath or plant saucer', 'Bits', 'Small, shallow, and a floating tablet looks wrong; granules disappear'],
                   ['Larvae you just found and want gone today', 'Bits', 'Minutes rather than days — this is the whole point of the granules'],
                   ['Fungus gnats in houseplant soil', 'Bits (or a steeped quarter dunk)', 'Granules sprinkle onto the top inch of soil; a dunk has to be steeped first'],
-                  ['Animal watering trough', 'Dunks', 'Labelled use site, monthly cadence, no residue concern for livestock'],
+                  ['Animal watering trough', 'Dunks', 'Labelled use site, monthly cadence'],
                 ].map(([what, buy, why]) => (
                   <tr key={what} className="border-t border-gray-100 align-top">
                     <td className="px-3 py-2 font-semibold text-brand-800">{what}</td>
@@ -642,27 +643,27 @@ export default function MosquitoDunksPage() {
           <p>If you want the two formats compared in more depth, we did that separately in <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link>.</p>
 
           <h2>Are mosquito dunks safe for dogs, cats, birds, fish, bees, and plants?</h2>
-          <p className="speakable"><strong>Yes to all of them.</strong> BTI only becomes active in the alkaline gut of mosquito, black fly, and fungus gnat larvae, so every other organism in and around the water is unaffected. The U.S. Environmental Protection Agency states BTI has no toxicity to people, and the same specificity is what makes it safe for pets, livestock, fish, birds, and pollinators. Below, one row per question.</p>
+          <p className="speakable"><strong>The label, not a blanket yes, is the guide.</strong> BTI only becomes active in the alkaline gut of mosquito, black fly, and fungus gnat larvae; the U.S. Environmental Protection Agency states BTI toxins affect only those larvae and that BTI has no toxicity to people. Use it on the sites and at the rate the label lists. Below, one row per question.</p>
           <div className="not-prose rounded-xl border border-gray-200 overflow-x-auto my-6">
             <table className="min-w-[620px] w-full text-sm">
               <thead className="bg-brand-50">
                 <tr>
                   <th className="px-3 py-2 text-left">Who</th>
-                  <th className="px-3 py-2 text-left">Safe?</th>
+                  <th className="px-3 py-2 text-left">Short answer</th>
                   <th className="px-3 py-2 text-left">What to actually watch for</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  ['Dogs', 'Yes', 'Drinking treated water is a non-issue. The real scenario is a dog fishing the tablet out and chewing it — a physical problem, not a poisoning. Expect mild stomach upset; call your vet if a whole dunk was swallowed.'],
-                  ['Cats', 'Yes', 'Same reasoning as dogs, and cats rarely chew tablets. For a fountain or bowl a cat drinks from, Bits granules are tidier than a floating tablet.'],
-                  ['Fish (goldfish, koi, mosquitofish)', 'Yes', 'Used routinely in stocked ponds. Fish eat larvae themselves, so a dunk earns its keep mainly in fishless ponds and the plant-choked margins fish do not patrol.'],
-                  ['Birds', 'Yes', 'Fine in large bird baths and ponds. For a small bath, dumping and refilling every three days beats larvae on timing alone — they need over a week of still water.'],
-                  ['Bees, butterflies, fireflies, ladybugs', 'Yes', 'Not affected. EPA notes BTI is approved for pest control in organic farming operations, a demanding bar for non-target safety.'],
-                  ['Frogs, tadpoles, turtles', 'Yes', 'Amphibians are unaffected. A dunked pond keeps its frogs and loses its wrigglers.'],
-                  ['Plants and vegetables', 'Yes', 'BTI is a soil bacterium, not a herbicide. Water steeped with a piece of dunk is safe on houseplants and vegetable beds — that is the fungus gnat method.'],
-                  ['Livestock (horses, cattle)', 'Yes', 'Animal watering troughs are a labelled use site on the Summit label.'],
-                  ['People and children', 'Yes', 'EPA: no toxicity to people. Label signal word is CAUTION for moderate eye irritation. Wash hands after handling; store out of reach; do not treat household drinking water.'],
+                  ['Dogs', 'Not a BTI target', 'Watering troughs are a labelled use site; use the label rate. The real scenario is a dog fishing the tablet out and chewing it — store the box out of reach and call your vet if a dunk was swallowed.'],
+                  ['Cats', 'Not a BTI target', 'Same points as dogs, and cats rarely chew tablets. For a fountain or bowl a cat drinks from, Bits granules are tidier than a floating tablet.'],
+                  ['Fish (goldfish, koi, mosquitofish)', 'Not a BTI target', 'Koi ponds are a labelled use site, and BTI is used routinely in stocked ponds. Fish eat larvae themselves, so a dunk earns its keep mainly in fishless ponds and the plant-choked margins fish do not patrol.'],
+                  ['Birds', 'Not a BTI target', 'Birdbaths are a labelled use site. For a small bath, dumping and refilling every three days beats larvae on timing alone — they need over a week of still water.'],
+                  ['Bees, butterflies, fireflies, ladybugs', 'Not a BTI target', 'EPA: BTI toxins affect only mosquito, black fly, and fungus gnat larvae. EPA also notes BTI is approved for pest control in organic farming operations.'],
+                  ['Frogs, tadpoles, turtles', 'Not a BTI target', 'The larvicide acts on the mosquito wrigglers in the pond, not on amphibians.'],
+                  ['Plants and vegetables', 'Not a herbicide', 'BTI is a soil bacterium. Water steeped with a piece of dunk is how gardeners treat houseplants and vegetable beds for fungus gnats.'],
+                  ['Livestock (horses, cattle)', 'Labelled use site', 'Animal watering troughs are a labelled use site on the Summit label.'],
+                  ['People and children', 'EPA: no toxicity', 'EPA: no toxicity to people. Label signal word is CAUTION for moderate eye irritation. Wash hands after handling; store out of reach; do not treat household drinking water.'],
                 ].map(([who, safe, note]) => (
                   <tr key={who} className="border-t border-gray-100 align-top">
                     <td className="px-3 py-2 font-semibold text-brand-800 whitespace-nowrap">{who}</td>
@@ -689,6 +690,7 @@ export default function MosquitoDunksPage() {
               <li><strong>Refresh the quarter dunk every 30 days</strong> through your local season, and top the water up as it evaporates. Never tip an untreated bucket onto the ground &mdash; that releases whatever survived.</li>
             </ol>
           </div>
+          <p>Step six is the one people improvise and get wrong. Window screen is too fine &mdash; it keeps the female out along with the raccoon, which turns the whole build into a bucket of stagnant water doing nothing. What you want is quarter-inch galvanised hardware cloth, cut a little oversize and pressed into the rim so the mesh stays taut: large enough for a mosquito to pass, small enough that nothing with a spine can. One small roll covers every bucket you will ever build. <BuyLink tag={AMZ_TAG} search="hardware cloth 1/4 inch mesh">Check hardware cloth on Amazon.ca &rarr;</BuyLink></p>
           <p><strong>How many buckets?</strong> The people running this method typically put out one bucket per quarter-acre, sited at the shaded edges of the property rather than in the middle of the lawn. A 6-pack of dunks broken into quarters gives you 24 bucket-months, which is more than enough for two or three buckets across a full northern season.</p>
           <p><strong>Where a bucket helps and where it does not.</strong> A dunk bucket is an <em>oviposition sink</em>: it competes for the eggs of females that are already in your yard looking for somewhere to lay, and it works on water <em>you</em> control. It has no effect on adults arriving over the fence from a neighbour&rsquo;s yard, a ravine, or a creek &mdash; the same limitation every larvicide shares, including the barrel dunk you already have. That off-property pressure is what a <Link href="/mosquito-control">barrier spray on vegetation</Link> is for. The two work on different halves of the same problem, and there is no reason to run only one of them.</p>
           <div className="not-prose my-4">
@@ -712,7 +714,7 @@ export default function MosquitoDunksPage() {
                   ['Rain barrel, ~50 gallons', '1 dunk', 'Every 30 days', 'The label rate this guide uses throughout'],
                   ['5-gallon bucket', '¼ dunk', 'Every 30 days', 'K-State Research and Extension rate for the bucket method'],
                   ['Plant saucer, small bird bath', 'A pinch of Bits, or a small broken piece', 'Weekly, or just refresh the water', 'Refilling every 3 days beats the larvae without any product'],
-                  ['Pond or water garden, up to 100 sq ft', '1 dunk', 'Every 30 days', 'Safe with koi, goldfish, frogs and water plants'],
+                  ['Pond or water garden, up to 100 sq ft', '1 dunk', 'Every 30 days', 'Koi ponds and water gardens are labelled use sites'],
                   ['Pond larger than 100 sq ft', '1 dunk per 100 sq ft of surface', 'Every 30 days', 'Spread them out rather than clustering in one corner'],
                   ['Drainage ditch or wet low spot', '1 dunk per 100 sq ft', 'Every 30 days, sooner after heavy rain', 'Flushing rain is the main reason coverage runs short'],
                   ['Unused or neglected pool', '1 dunk per 100 sq ft', 'Every 30 days', 'A stopgap — drain or restore chlorination when you can'],
@@ -737,6 +739,8 @@ export default function MosquitoDunksPage() {
           <h2>Do mosquito dunks still work after they sink?</h2>
           <p className="speakable"><strong>Yes.</strong> A dunk keeps releasing BTI whether it floats or sits on the bottom, and Summit states this on the label. Mosquito larvae are filter feeders that graze through the whole water column rather than only the surface, so they take up the spores wherever the tablet ends up. Sinking is normal as the tablet absorbs water and starts breaking down.</p>
           <p>The only real drawback is bookkeeping: once a dunk is out of sight you stop noticing it, and &ldquo;I think there&rsquo;s still one in there&rdquo; becomes a month of untreated water. Put the replacement on a calendar reminder instead of relying on spotting the tablet, and if you want a visual check, drop the next one in a mesh bag tied to the barrel handle.</p>
+
+          <p>There is a version of this problem you can design out entirely. A rain barrel that a female cannot get into needs no tablet at all, and the fix is a fine mesh screen stretched under the lid and over the downspout inlet &mdash; the two openings people forget are openings. Screen first, dose second, and the dunk becomes a backstop for the barrel you cannot fully seal rather than the only thing standing between you and a month of wrigglers. <BuyLink tag={AMZ_TAG} search="rain barrel mesh screen cover">Check rain barrel screens on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Do mosquito dunks expire?</h2>
           <p className="speakable"><strong>There is no printed expiry date &mdash; the box carries a lot number instead.</strong> BTI spores are stable while the tablets stay dry, cool, and out of direct sunlight, so leftovers from a 20-pack normally carry over to the next season if you keep them sealed in a bag or a lidded bin. Moisture is what ruins a dunk, not time on the shelf.</p>
@@ -776,6 +780,8 @@ export default function MosquitoDunksPage() {
             <BuyLink tag={AMZ_TAG} search="summit mosquito bits" className="!px-3 !py-1.5 !text-xs">Check Bits for fungus gnats</BuyLink>
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks price</BuyLink>
           </div>
+
+          <p>The one item in that week-by-week table that is neither a dunk nor a bag of Bits is the yellow sticky card, and it is doing real work in this plan. BTI reaches only the larvae in the soil, so the cards are what remove the adults already in the air &mdash; and, more usefully, they are the measurement: a card that stops filling up in week three is how you know the cycle actually broke instead of merely quieting down. <BuyLink tag={AMZ_TAG} search="yellow sticky traps houseplants">Check yellow sticky cards on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Which mosquitoes do dunks actually stop in the United States?</h2>
           <p className="speakable"><strong>The species a dunk is best aimed at is <em>Culex</em> &mdash; and in the United States that is the one that matters most.</strong> The U.S. Centers for Disease Control and Prevention identifies <em>Culex</em> as the primary West Nile virus vector, and West Nile is the leading cause of mosquito-borne disease in the contiguous United States. <em>Culex</em> breeds in exactly the foul, organic-rich standing water a dunk treats.</p>
@@ -847,13 +853,15 @@ export default function MosquitoDunksPage() {
           <p className="speakable"><strong>No &mdash; not the way the question is usually meant.</strong> A dunk is a water treatment, not a turf treatment. Scattering tablets across a lawn does nothing at all, because there is no standing water for the BTI to dissolve into and no filter-feeding larvae in dry grass. This is the most common misunderstanding about the product, and it produces a lot of &ldquo;dunks did nothing for me&rdquo; reviews.</p>
           <p>Where dunks pay off around a lawn is the water that lawn drains <em>into</em>: the low spot that stays wet for a week after rain, the catch basin at the kerb, the ditch along the property line, the clogged gutter overhead, the tarp on the woodpile. Treat those and you cut the mosquitoes your own property is producing. The adults already flying over the grass came from somewhere else and need a different tool &mdash; that is what a <Link href="/mosquito-control">barrier spray on vegetation</Link> does, and here is <Link href="/mosquito-control-cost">what a full season of that costs</Link> once lot size is factored in. Before you treat anything, it is worth walking the yard for the water you have not noticed yet: <Link href="/blog/hidden-mosquito-breeding-spots-backyard">hidden mosquito breeding spots</Link>.</p>
 
+          <p>Of the water sources in that list, the clogged gutter is the one worth fixing rather than dosing. It is above head height, so nobody inspects it; it holds exactly the leaf-rich soup <em>Culex</em> prefers; and a dunk in a gutter washes out with the next real rain. A gutter guard or leaf screen removes the breeding site permanently instead of putting it on a thirty-day replacement schedule, which is the better trade on any run you need a ladder to reach. <BuyLink tag={AMZ_TAG} search="gutter guard leaf mesh">Check gutter guards on Amazon.ca &rarr;</BuyLink></p>
+
           <h2>The Bigger Mosquito Strategy</h2>
           <p>Mosquito dunks solve only HALF of the mosquito problem — they kill larvae in the water you treat. They don&rsquo;t affect adult mosquitoes flying in from your neighbour&rsquo;s yard, the ravine behind your house, or the creek down the street. That off-property pressure is the whole story on ravine-backed lots, which is why <Link href="/toronto-mosquito-control">mosquito control in Toronto</Link> is almost never solved by treating your own standing water alone. A dunk also does nothing about the bites you already have &mdash; it kills the larvae that would have become next month&rsquo;s mosquitoes, not the welt on your arm tonight, and that is a separate question answered in <Link href="/blog/why-do-mosquito-bites-itch">why mosquito bites itch and how long they last</Link>.</p>
-          <p>For complete mosquito control in your GTA yard, combine three strategies:</p>
+          <p>For fuller mosquito control in your GTA yard, combine three strategies:</p>
           <ol>
             <li><strong>BTI dunks/bits</strong> in any standing water on your property ($15/season — covers larvae from your own water)</li>
             <li><strong>Habitat modification</strong> — drain anything you can, mow grass short, clear leaf litter</li>
-            <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> targets the adult mosquitoes flying onto your property from off-property sources, with a residual barrier that keeps them out for 21–30 days at a time</li>
+            <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> targets the adult mosquitoes flying onto your property from off-property sources, with a residual applied according to label directions and renewed on a schedule</li>
           </ol>
           <p>We run that third layer out of Mississauga across 19+ GTA cities — if you are treating a rain barrel here at home, the companion page for <Link href="/mississauga-mosquito-control">mosquito control in Mississauga</Link> covers what the barrier spray side of the season looks like.</p>
 
@@ -880,7 +888,7 @@ export default function MosquitoDunksPage() {
         </div>
       </article>
 
-      <CTASection heading="Mosquito Dunks Take Care of Larvae · Barrier Spray Takes Care of the Rest" subtext="Get a free quote for professional yard barrier spray. From $99. Health Canada approved." variant="dark" />
+      <CTASection heading="Mosquito Dunks Take Care of Larvae · Barrier Spray Takes Care of the Rest" subtext={`Get a free quote for professional yard barrier spray. From $99 on a standard lot. ${PROMISES.licence}. ${PROMISES.labelLine}.`} variant="dark" />
     </>
   )
 }

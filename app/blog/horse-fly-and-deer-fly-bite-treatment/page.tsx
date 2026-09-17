@@ -16,7 +16,7 @@ const SLUG = 'horse-fly-and-deer-fly-bite-treatment'
 const DATE = '2026-07-13'
 const UPDATED = '2026-07-13'
 const TITLE = 'Horse Fly & Deer Fly Bites: Why They Hurt and How to Treat Them'
-const META_TITLE = 'Horse Fly vs Deer Fly Bite: Why It Hurts'
+const META_TITLE = 'Horse Fly vs Deer Fly Bite Ontario: Why It Hurts'
 
 const FAQS = [
   {
@@ -49,7 +49,7 @@ const FAQS = [
   },
   {
     question: 'How do I stop horse flies and deer flies from biting me?',
-    answer: 'Wear light-coloured, loose long sleeves and pants (these flies are drawn to dark, moving shapes), and treat clothing and gear with permethrin. On skin, an EPA/Health Canada-registered repellent with DEET or picaridin gives the best protection, though tabanids are stubborn and may still land. Avoid peak activity — hot, sunny, humid afternoons near water, livestock, and wooded edges — and keep car and patio doors closed. Reducing the shaded, damp yard edges where they rest also helps.',
+    answer: 'Wear light-coloured, loose long sleeves and pants (these flies are drawn to dark, moving shapes), and wear factory permethrin-treated clothing (in Canada permethrin comes bonded into the fabric, not as a consumer spray). On skin, a DEET or picaridin repellent that carries a Canadian PCP registration number (EPA registration in the US) gives the best protection, though tabanids are stubborn and may still land. Avoid peak activity — hot, sunny, humid afternoons near water, livestock, and wooded edges — and keep car and patio doors closed. Reducing the shaded, damp yard edges where they rest also helps.',
   },
 ]
 
@@ -100,6 +100,28 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
               <li>Horse flies reach up to 2.5 cm and bite legs and arms; smaller deer flies target the head and neck.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+
+          {/* Service arm first: the lead CTA outranks every affiliate element below it. */}
+          <aside aria-label="Biting-fly and mosquito control across the GTA" className="not-prose my-6 rounded-xl border-l-4 border-amber-400 bg-amber-50 p-5">
+            <p className="text-sm text-gray-800 leading-relaxed"><strong className="text-brand-900">Getting bitten in your own yard?</strong> Horse flies and deer flies rest in the same damp, shaded borders that breed mosquitoes. BuzzSkito treats those edges across 19 GTA cities, from $99 for a single treatment. <Link href="/free-yard-assessment" className="text-brand-700 underline font-semibold">Get a free yard assessment</Link> or call <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600">(289) 216-5030</a>.</p>
+          </aside>
+
+          <AffiliateDisclosure />
+
+          <div className="not-prose my-6 rounded-2xl border-2 border-emerald-200 bg-white p-6 sm:p-7 shadow-sm">
+            <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-1 leading-tight">What to do right now</h2>
+            <ol className="space-y-4 text-[15px] leading-relaxed text-gray-800">
+              <li>
+                <strong className="text-brand-900">1. Wash it, then cool it &mdash; nothing to buy.</strong> Soap and water first; the mouthparts cut the skin open. Then hold something cold on it for 10&ndash;15 minutes: ice in a cloth, a cold can, a bag of peas.
+              </li>
+              <li>
+                <strong className="text-brand-900">2. Hydrocortisone 1% cream, for the itch that starts tonight.</strong> <BuyLink tag={AMZ_TAG} search="hydrocortisone anti itch cream">Check price on Amazon.ca →</BuyLink> The sting fades within hours; what keeps you awake is your own reaction to the fly&rsquo;s anticoagulant saliva, and a thin layer of over-the-counter 1% hydrocortisone on intact skin, once or twice a day, calms it. Not on a bite that is open or weeping. Scratching is what turns one into the other &mdash; it reopens the cut, which is the usual route to an infected bite.
+              </li>
+              <li>
+                <strong className="text-brand-900">3. An oral antihistamine if it swells into a welt.</strong> Large local reactions &mdash; a hot, hard, itchy patch several centimetres across &mdash; are common with horse fly bites and are what antihistamines are for. Worth having in the cupboard before fly season rather than at 11pm during it. If hives spread, the lips or throat swell, or breathing changes, that is not a welt: call 911. <BuyLink tag={AMZ_TAG} search="oral antihistamine allergy tablets">Check price on Amazon.ca →</BuyLink>
+              </li>
+            </ol>
           </div>
         </div>
       </section>
@@ -197,6 +219,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
 
           <h2>How Long Does a Horse Fly Bite Take to Heal?</h2>
           <p>For most people the timeline looks like this: a sharp <strong>sting for the first few hours</strong>, then an itchy, swollen red bump that peaks over <strong>2–4 days</strong>, and full healing within about <strong>a week</strong>. Because the skin was cut rather than cleanly pierced, a horse fly bite can stay raised and pink a little longer than a mosquito bite, and a small scab is normal. The key thing to track is <em>direction</em>: a normal bite gets better each day. A bite that gets redder, hotter, more swollen or more painful after the first 48 hours is a warning sign, not part of normal healing.</p>
+          <p>The step people skip is the cold one, and it is skipped for a practical reason: horse flies bite you at a dock, a trailhead, or a soccer field, an hour from any freezer. A reusable instant cold pack lives in the glovebox or the boat bag and goes cold when you squeeze it, which turns &ldquo;ice it for fifteen minutes&rdquo; from advice you read into something you can actually do at the moment of the bite, when it does the most good. <BuyLink tag={AMZ_TAG} search="instant cold pack reusable">Check price on Amazon.ca →</BuyLink></p>
 
           <RelatedProducts
             heading="The other biting flies, and what repels them"
@@ -244,12 +267,12 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
           <p>Tabanids are visual hunters drawn to dark, moving shapes, warmth and carbon dioxide, and they are most active on hot, humid, sunny afternoons near water, livestock and wooded edges. To cut your odds:</p>
           <ul>
             <li><strong>Cover up in light colours.</strong> Loose, light-coloured long sleeves and pants are both a physical barrier and less attractive than dark clothing. The word <em>loose</em> is doing the real work there: fabric stretched flat against skin gives biting mouthparts something to reach through, which is why thin leggings and athletic tops leave you close to bare. The fabric-by-fabric breakdown in <Link href="/blog/can-mosquitoes-bite-through-clothes">can mosquitoes bite through clothes</Link> is measured for mosquitoes, but the thickness-and-air-gap rule it lands on is the same one that keeps a tabanid&rsquo;s blades off your skin.</li>
-            <li><strong>Treat clothing with permethrin.</strong> <strong>Permethrin</strong> applied to clothing, hats and gear (never on skin) repels and kills biting flies and lasts through several washes.</li>
-            <li><strong>Use a registered skin repellent.</strong> An EPA/Health Canada-registered product with <strong>DEET</strong> or <strong>picaridin</strong> gives the best skin protection, though stubborn tabanids may still land.</li>
+            <li><strong>Wear permethrin-treated clothing.</strong> <strong>Permethrin</strong> bonded into clothing, hats and gear at the factory (never on skin) repels and kills biting flies and lasts through several washes; in Canada it is sold already in the fabric rather than as a consumer spray, so you buy the garment treated rather than treating your own. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check permethrin-treated clothing on Amazon.ca →</BuyLink></li>
+            <li><strong>Use a registered skin repellent.</strong> A <strong>DEET</strong> or <strong>picaridin</strong> product that carries a Canadian PCP registration number (EPA registration in the US) gives the best skin protection, though stubborn tabanids may still land. Picaridin (sold as icaridin here) is the one people reach for on long summer days because it is odourless and does not soften plastics, sunglasses or fishing gear the way DEET can. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Compare picaridin repellents on Amazon.ca →</BuyLink></li>
             <li><strong>Time it right.</strong> Avoid open, sunny areas near water during the hottest part of the day when deer flies swarm.</li>
             <li><strong>Reduce yard harbourage.</strong> Keep grass short and shaded, damp edges trimmed back — the same borders that shelter <Link href="/blog/deer-flies-horse-flies-ontario">deer flies and horse flies</Link> also breed mosquitoes.</li>
           </ul>
-          <p>Repellent is the weak link in that list — tabanids lock onto a dark, warm, moving shape as much as onto scent, which is why a well-treated arm still gets landed on. Mesh has no such problem: a horse fly or deer fly is many times larger than the roughly 1.2&nbsp;mm openings in ordinary insect screen, so a physical barrier stops them outright where repellent only discourages them. If the bad hours are lunch and afternoon at a dock, campsite or picnic table, a <Link href="/blog/best-screen-tent-canada">screen house pitched over the table</Link> is the version of that barrier you can carry, and for a deck or patio you use every day, <Link href="/blog/mosquito-screens-patio-canada">screening the space itself</Link> is the permanent one — either way you get back the sunny hours near the treeline when deer flies are worst.</p>
+          <p>Repellent is the weak link in that list — tabanids lock onto a dark, warm, moving shape as much as onto scent, which is why a well-treated arm still gets landed on. Mesh has no such problem: a horse fly or deer fly is many times larger than the roughly 1.2&nbsp;mm openings in ordinary insect screen, so a physical barrier stops them outright where repellent only discourages them. If the bad hours are lunch and afternoon at a dock, campsite or picnic table, a <Link href="/blog/best-screen-tent-canada">screen house pitched over the table</Link> is the version of that barrier you can carry, and for a deck or patio you use every day, <Link href="/blog/mosquito-screens-patio-canada">screening the space itself</Link> is the permanent one — either way you get back the sunny hours near the treeline when deer flies are worst. <BuyLink tag={AMZ_TAG} search="screen house tent">Check screen houses on Amazon.ca →</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>

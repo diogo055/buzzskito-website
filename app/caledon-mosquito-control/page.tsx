@@ -1,14 +1,16 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Caledon Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Caledon's specialist mosquito and tick barrier spray. Health Canada-approved, from $99/treatment, no contracts, BuzzSkito Bite-Free Guarantee. Bolton, Caledon East, Inglewood, Belfountain, Palgrave, Cheltenham. Call (289) 216-5030.",
+    "Caledon's specialist mosquito and tick barrier spray. Licensed Ontario operator, from $99/treatment, no contracts, rain-back guarantee. Bolton, Caledon East, Inglewood, Belfountain, Palgrave, Cheltenham. Call (289) 216-5030.",
   canonical: '/caledon-mosquito-control',
 })
 
@@ -32,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'Do estate lots in Caledon need more treatments than smaller suburban properties?',
-    answer: "Generally yes. Larger lots in Caledon often include features that generate local mosquito breeding: low-wet areas along fence lines, decorative ponds, horse troughs, livestock water sources, densely wooded windbreak plantings, and unmaintained areas where organic material and standing water accumulate. We recommend a thorough first-visit assessment for rural Caledon properties to identify all contributing sources before establishing a treatment schedule. Most estate lots benefit from five seasonal treatments, with some requiring six in particularly active years.",
+    answer: "Generally yes. Larger lots in Caledon often include features that generate local mosquito breeding: low-wet areas along fence lines, decorative ponds, horse troughs, livestock water sources, densely wooded windbreak plantings, and unmaintained areas where organic material and standing water accumulate. We recommend a thorough first-visit assessment for rural Caledon properties to identify all contributing sources before establishing a treatment schedule. Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Estate lots with several breeding sources often benefit from Standard's two-week spacing.",
   },
   {
     question: 'Is Forks of the Credit Provincial Park a mosquito source for nearby properties?',
@@ -66,15 +68,17 @@ export default function CaledonMosquitoPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ Licensed Ontario Pesticide Operator</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
       
+      <TypicalPrices service="mosquito" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -83,8 +87,8 @@ export default function CaledonMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies barrier spray, following the label directions, to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Stay off treated areas until the spray has dried, as the label directs. ${PROMISES.rainBack} Standard & Exclusive plans also carry the Bite-Free Guarantee.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -116,7 +120,7 @@ export default function CaledonMosquitoPage() {
           <ul>
             <li><strong>Rural property assessment</strong> — We identify ponds, wet areas, tree lines, and livestock features specific to your Caledon lot.</li>
             <li><strong>Full-yard barrier spray</strong> — Treatment of all vegetation, shrub borders, fence lines, and tree understorey within your property boundary.</li>
-            <li><strong>28-day residual protection</strong> — Health Canada–approved formula works continuously between visits; safe for kids, pets, and horses after a 30-minute dry time.</li>
+            <li><strong>Label-directed application</strong> — Products applied according to label directions; keep people, pets, and horses off treated areas until the spray has dried, as the label directs.</li>
             <li><strong>Flexible scheduling</strong> — We accommodate larger rural lots and multi-building properties common across Caledon.</li>
           </ul>
 
@@ -144,10 +148,10 @@ export default function CaledonMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier on the leaves and shrubs where mosquitoes rest, renewed on a schedule through the season. The difference is coverage and consistency: DIY products treat the spot you are sitting in; barrier spray treats the resting surfaces across your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -193,6 +197,10 @@ export default function CaledonMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

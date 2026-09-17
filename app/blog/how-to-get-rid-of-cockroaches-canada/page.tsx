@@ -32,7 +32,7 @@ const FAQS = [
   },
   {
     question: 'Do cockroach bait stations actually work?',
-    answer: 'Yes — enclosed bait stations are the most effective consumer-legal tool for German cockroaches in Canada, and the mechanism is what makes them work. The station holds an attractive food bait laced with a slow-acting insecticide. Foragers feed, walk home, and die in the harbourage hours later, where their contaminated droppings and carcasses are eaten by nymphs and other adults that never leave the void — the secondary-kill domino effect. Placement decides everything: stations go tight against walls, in corners, under the sink, beside the fridge motor, and inside cupboard corners, because roaches travel edges, not open surfaces. Check the label for a Pest Control Products (PCP) registration number to confirm the product is Health Canada registered for domestic use.',
+    answer: 'Yes — enclosed bait stations are the most effective consumer-legal tool for German cockroaches in Canada, and the mechanism is what makes them work. The station holds an attractive food bait laced with a slow-acting insecticide. Foragers feed, walk home, and die in the harbourage hours later, where their contaminated droppings and carcasses are eaten by nymphs and other adults that never leave the void — the secondary-kill domino effect. Placement decides everything: stations go tight against walls, in corners, under the sink, beside the fridge motor, and inside cupboard corners, because roaches travel edges, not open surfaces. Check the label for a Pest Control Products (PCP) registration number to confirm the product is registered in Canada for domestic use.',
   },
   {
     question: 'Is Advion cockroach gel legal in Canada?',
@@ -146,7 +146,7 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
                 search: 'roach killing bait stations',
                 score: 8.8,
                 featured: true,
-                pros: ['Secondary kill reaches roaches that never leave the wall void', 'Enclosed and child-resistant — kitchen-cupboard safe', 'Modest cost to blanket a whole kitchen'],
+                pros: ['Secondary kill reaches roaches that never leave the wall void', 'Enclosed and child-resistant — the bait stays inside the station', 'Modest cost to blanket a whole kitchen'],
                 cons: ['Slower than the spray-can illusion — weeks, not minutes', 'Stations must sit tight to edges and corners or catches drop'],
               },
               {

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
@@ -35,7 +36,7 @@ const FAQS = [
   },
   {
     question: 'What can I legally put in a thermal fogger in Ontario / Canada?',
-    answer: 'Only a pesticide registered by Health Canada\'s Pest Management Regulatory Agency (PMRA) that carries a Pest Control Products (PCP) number and is labelled for the use and application method you intend — and only if it is Domestic class for homeowner use. Commercial and Restricted class products require a licensed exterminator. Ontario\'s cosmetic pesticides ban (O. Reg. 63/09 under the Pesticides Act) further restricts many lawn-and-garden uses, with specific pathways for health-protection uses such as West Nile virus mosquito control. Critically, the product label must permit thermal fogging and specify an oil-based or fog-compatible carrier — many US "fogging concentrates" heavily marketed to thermal-fogger owners are not PMRA-registered and are illegal to import or use here. The machine is unregulated hardware; what you put in it is not.',
+    answer: 'Only a pesticide registered under the Pest Control Products Act (reviewed by Health Canada\'s Pest Management Regulatory Agency, PMRA) that carries a Pest Control Products (PCP) number and is labelled for the use and application method you intend — and only if it is Domestic class for homeowner use. Commercial and Restricted class products require a licensed exterminator. Ontario\'s cosmetic pesticides ban (O. Reg. 63/09 under the Pesticides Act) further restricts many lawn-and-garden uses, with specific pathways for health-protection uses such as West Nile virus mosquito control. Critically, the product label must permit thermal fogging and specify an oil-based or fog-compatible carrier — many US "fogging concentrates" heavily marketed to thermal-fogger owners are not PMRA-registered and are illegal to import or use here. The machine is unregulated hardware; what you put in it is not.',
   },
   {
     question: 'Does the Longray TS35A use oil-based or water-based fog solution?',
@@ -47,7 +48,7 @@ const FAQS = [
   },
   {
     question: 'Is a gasoline thermal fogger safe to use — what are the risks?',
-    answer: 'Used correctly, yes, but a pulse-jet thermal fogger demands respect that a garden sprayer does not. It runs on gasoline and produces an extremely hot barrel and open-flame-adjacent combustion, so there is a real fire and burn risk: never fog near open flame, dry brush, or flammable structures, keep a fire extinguisher handy, and let the barrel cool fully before storing. The fog itself is a fine pesticide aerosol you must not inhale — wear proper respiratory protection, eye protection, gloves, and long sleeves, and keep people and pets out of the treated zone until the fog settles and the re-entry interval on the label has passed. Fog only in calm conditions, never toward your house, neighbours, or a water body.',
+    answer: 'Only with real care: a pulse-jet thermal fogger demands respect that a garden sprayer does not. It runs on gasoline and produces an extremely hot barrel and open-flame-adjacent combustion, so there is a real fire and burn risk: never fog near open flame, dry brush, or flammable structures, keep a fire extinguisher handy, and let the barrel cool fully before storing. The fog itself is a fine pesticide aerosol you must not inhale — wear proper respiratory protection, eye protection, gloves, and long sleeves, and keep people and pets out of the treated zone until the fog settles and the re-entry interval on the label has passed. Fog only in calm conditions, never toward your house, neighbours, or a water body.',
   },
   {
     question: 'Why does thermal fog work so well against mosquitoes?',
@@ -55,7 +56,7 @@ const FAQS = [
   },
   {
     question: 'How long does thermal fog protection last?',
-    answer: 'A thermal fog is mainly a knockdown tool — it excels at rapidly killing the adult mosquitoes present at the moment you fog, which is why it is the go-to for a same-evening event like a wedding, BBQ, or party. Residual duration depends entirely on the product you fog, not the machine: a straight knockdown product may give little lasting residual, while a residual-labelled product can extend protection for some days. This is the key difference from a professional barrier spray, which deposits a longer-lasting residual film on foliage that keeps killing mosquitoes that land for weeks. Many large-property owners fog for immediate knockdown before an event and rely on barrier treatment for sustained control.',
+    answer: 'A thermal fog is mainly a knockdown tool — it excels at rapidly killing the adult mosquitoes present at the moment you fog, which is why it is the go-to for a same-evening event like a wedding, BBQ, or party. Residual duration depends entirely on the product you fog, not the machine: a straight knockdown product may give little lasting residual, while a residual-labelled product can extend protection for some days. This is the key difference from a professional barrier spray, which deposits a residual film on the foliage where mosquitoes rest and is renewed on a schedule through the season. Many large-property owners fog for immediate knockdown before an event and rely on barrier treatment for sustained control.',
   },
   {
     question: 'Where can I buy the Longray TS35A in Canada?',
@@ -63,7 +64,7 @@ const FAQS = [
   },
   {
     question: 'Should I buy a Longray fogger or hire a professional mosquito service?',
-    answer: 'Run the honest math on scale and product access. A pulse-jet fogger is a serious investment, and the product you can legally load as a homeowner is Domestic class — weaker than the commercial-class residual products licensed professionals apply. For a genuinely large or remote property you treat frequently, owning a Longray can make sense, especially for same-day knockdown before events. For a typical GTA yard, professional barrier spray delivers longer-lasting, commercial-class residual coverage, controls ticks as well as mosquitoes, and hands you back your weekends — usually for less first-year cost than a pulse-jet fogger plus fuel, product, and PPE. The two are not mutually exclusive: some acreage owners fog for knockdown and hire out the residual barrier work.',
+    answer: 'Run the honest math on scale and product access. A pulse-jet fogger is a serious investment, and the product you can legally load as a homeowner is Domestic class — weaker than the commercial-class residual products licensed professionals apply. For a genuinely large or remote property you treat frequently, owning a Longray can make sense, especially for same-day knockdown before events. For a typical GTA yard, professional barrier spray delivers commercial-class residual coverage renewed on a schedule, controls ticks as well as mosquitoes, and hands you back your weekends — usually for less first-year cost than a pulse-jet fogger plus fuel, product, and PPE. The two are not mutually exclusive: some acreage owners fog for knockdown and hire out the residual barrier work.',
   },
 ]
 
@@ -182,7 +183,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Fog is knockdown, not a lasting barrier.</strong> A thermal fogger rapidly kills the adult mosquitoes present when you fog &mdash; ideal before an event &mdash; but lasting protection depends on the product and its residual. For weeks of whole-yard, tick-inclusive coverage, licensed <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">barrier spray</Link> is the tool built for the job.
+              <strong className="text-amber-900">⚠️ Fog is knockdown, not a lasting barrier.</strong> A thermal fogger rapidly kills the adult mosquitoes present when you fog &mdash; ideal before an event &mdash; but lasting protection depends on the product and its residual. For whole-yard coverage renewed on a schedule, ticks included, licensed <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">barrier spray</Link> is the tool built for the job.
             </p>
           </div>
         </div>
@@ -242,7 +243,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
 
           <h2>Coverage, Droplet Size, and Output — What the Numbers Mean</h2>
           <p>Thermal foggers are volume machines. A full tank of a unit in the TS35A class will treat a large residential lot up to a small acreage in a single fill, with real-world coverage swinging widely based on your flow-rate setting, walking speed, and how densely you choose to treat. That scalability is the whole point of buying a pulse-jet: at a moderate flow setting you can lay down fog over an acre or more of open ground quickly. It is also the clearest signal of who <em>should not</em> buy one — if your property is small enough that coverage was never in doubt, the coverage you are paying for is coverage you will never use.</p>
-          <p>On droplet size, finer is not automatically better; it is situational. The 5–30 micron range a thermal fogger produces is ideal for outdoor penetration and drift-through-foliage coverage. It is less controllable than the adjustable droplet of a ULV cold fogger, and it is the wrong tool for enclosed indoor spaces where a near-invisible, precisely-sized cold-fog droplet is safer and cleaner. Choose the machine to match the space.</p>
+          <p>On droplet size, finer is not automatically better; it is situational. The 5–30 micron range a thermal fogger produces is ideal for outdoor penetration and drift-through-foliage coverage. It is less controllable than the adjustable droplet of a ULV cold fogger, and it is the wrong tool for enclosed indoor spaces where a near-invisible, precisely-sized cold-fog droplet is the better fit. Choose the machine to match the space.</p>
 
           <h2>Oil-Based vs Water-Based Solution</h2>
           <p>This is where many first-time buyers go wrong. Thermal foggers like the TS35A are designed primarily around <strong>oil-based</strong> (petroleum or food-grade carrier) fog solutions, because oil vaporizes cleanly in the hot barrel and produces the dense, long-hanging fog thermal machines are prized for. Some thermal units accept water-based solution with a dedicated water-fog adapter, but water-based fogging is fundamentally the job of a <Link href="/blog/best-ulv-cold-fogger-canada">ULV cold fogger</Link>, not a thermal one. Running the wrong carrier can produce weak fog, clog the barrel, or — more importantly in Canada — constitute an off-label and therefore illegal application. The pesticide label, not the machine manual and not this article, is the legally binding authority on what carrier and method are permitted.</p>
@@ -271,18 +272,18 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
             <li><strong>Large or remote property (buy the pulse-jet).</strong> Acreage, cottages near water, campgrounds, hobby farms, barns, and commercial grounds are exactly what a cordless, high-volume thermal fogger is built for. Nothing a homeowner can otherwise buy covers that scale as fast.</li>
             <li><strong>Frequent treatment or event work (buy the pulse-jet).</strong> If you fog often, or you need rapid same-day knockdown before weddings, parties, and outdoor events across a big space, the machine earns its keep.</li>
             <li><strong>Small-to-mid suburban lot near an outlet (buy electric instead).</strong> An <Link href="/blog/black-flag-electric-fogger-review-canada">electric thermal fogger</Link> does this job for a fraction of the price, fuel, and PPE — see our review before overspending.</li>
-            <li><strong>Consistent residual barrier coverage (choose a sprayer or a service).</strong> If your real goal is weeks of protection rather than instant knockdown, a <Link href="/blog/best-battery-backpack-sprayer-canada">battery backpack sprayer</Link> or professional barrier spray is the better mechanism.</li>
-            <li><strong>Indoor or enclosed-space fogging (choose ULV cold).</strong> Heat and gasoline have no place indoors; a <Link href="/blog/best-ulv-cold-fogger-canada">ULV cold fogger</Link> is the correct, safer tool there.</li>
+            <li><strong>Consistent residual barrier coverage (choose a sprayer or a service).</strong> If your real goal is a lasting residual barrier rather than instant knockdown, a <Link href="/blog/best-battery-backpack-sprayer-canada">battery backpack sprayer</Link> or professional barrier spray is the better mechanism.</li>
+            <li><strong>Indoor or enclosed-space fogging (choose ULV cold).</strong> Heat and gasoline have no place indoors; a <Link href="/blog/best-ulv-cold-fogger-canada">ULV cold fogger</Link> is the correct tool there.</li>
           </ul>
           <p>Put simply: buy the TS35A for scale, mobility, and knockdown power. Do not buy it as a premium substitute for a job a $150 tool already does well.</p>
 
           <h2>What You&rsquo;re Actually Paying For</h2>
-          <p>A pulse-jet fogger sits at the top of the price range for consumer-accessible fogging equipment, and the honest question is which parts of that premium earn their cost for <em>your</em> use. You are paying for cordless gasoline mobility (worth a lot on acreage, nothing on a small lot near a plug), for large fog volume and fast heat-up (worth a lot if you treat big or often), and for durable, well-supported professional-grade build (worth a lot if you plan to run it for years). What you are <em>not</em> buying is longer-lasting protection — residual is a product property, not a machine feature — or any advantage indoors, where cold ULV is safer and better.</p>
+          <p>A pulse-jet fogger sits at the top of the price range for consumer-accessible fogging equipment, and the honest question is which parts of that premium earn their cost for <em>your</em> use. You are paying for cordless gasoline mobility (worth a lot on acreage, nothing on a small lot near a plug), for large fog volume and fast heat-up (worth a lot if you treat big or often), and for durable, well-supported professional-grade build (worth a lot if you plan to run it for years). What you are <em>not</em> buying is longer-lasting protection — residual is a product property, not a machine feature — or any advantage indoors, where heat and gasoline have no place and cold ULV is the correct tool.</p>
           <p>Factor in the running costs a spec sheet won&rsquo;t: gasoline, a legal supply of PMRA-registered fog solution, and proper PPE on every single use. For a large-property owner treating frequently, that total still comes out ahead of the alternatives. For a typical suburban homeowner, it rarely does — which is the honest pivot to the comparison below.</p>
 
           <aside aria-label="Professional mosquito and tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or skip the fogger, the fuel, and the PPE</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians apply commercial-class barrier spray &mdash; the product class homeowners can&rsquo;t buy &mdash; from $99 for a single treatment, with tick protection at $597/season standalone or $497 bundled with any mosquito plan. Whole-yard, 21&ndash;30 day residual, and it controls ticks too. Serving 19 GTA cities, backed by 150 five-star Google reviews.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians apply commercial-class barrier spray &mdash; the product class homeowners can&rsquo;t buy &mdash; from $99 for a single treatment on a standard lot, with a 5-spray tick season at $597 standalone or $497 bundled with any mosquito plan. Applied according to label directions, and it treats for ticks too. Serving 19 GTA cities, backed by 150 five-star Google reviews.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -290,7 +291,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
           </aside>
 
           <h2>Fogger vs Professional Barrier Spray for a GTA Property</h2>
-          <p>A thermal fogger and a barrier spray solve different problems, and the smartest large-property owners often use both. Fogging delivers fast adult knockdown across a big area — perfect for the evening of an event. Barrier spray deposits a residual film on vegetation that keeps killing mosquitoes that land on the leaves for 21–30 days, covers the whole yard, and — unlike any fog — also controls ticks. Here is how the options stack up:</p>
+          <p>A thermal fogger and a barrier spray solve different problems, and the smartest large-property owners often use both. Fogging delivers fast adult knockdown across a big area — perfect for the evening of an event. Barrier spray deposits a residual film on the vegetation where mosquitoes land, is renewed on a schedule through the season, covers the whole yard, and — unlike any fog — also controls ticks. Here is how the options stack up:</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Best at</th><th className="px-3 py-2 text-left">Duration</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -299,7 +300,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-thermal-fogger-canada">Pulse-jet thermal fogger</Link></td><td className="px-3 py-2">Fast large-area knockdown</td><td className="px-3 py-2">Knockdown (residual = product)</td><td className="px-3 py-2">Limited</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/black-flag-electric-fogger-review-canada">Electric thermal fogger</Link></td><td className="px-3 py-2">Small-yard knockdown near an outlet</td><td className="px-3 py-2">Knockdown (residual = product)</td><td className="px-3 py-2">Limited</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-battery-backpack-sprayer-canada">Battery backpack sprayer</Link></td><td className="px-3 py-2">DIY residual barrier on a lot</td><td className="px-3 py-2">Days–weeks (product)</td><td className="px-3 py-2">Yes, with the right product</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Whole-yard residual control</td><td className="px-3 py-2">21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Whole-yard residual control</td><td className="px-3 py-2">Renewed on a schedule (monthly to weekly)</td><td className="px-3 py-2">Yes, with a tick plan</td></tr>
             </tbody>
           </table>
           <p>For a genuinely large or remote property, a Longray for knockdown plus barrier work for the residual is a defensible stack. For a typical Mississauga, Brampton, or Oakville backyard, <Link href="/mosquito-control">professional barrier spray</Link> alone usually delivers longer-lasting, tick-inclusive control for less first-year cost than a pulse-jet fogger plus fuel, product, and PPE — and hands you back every weekend the fogger would have eaten.</p>
@@ -337,7 +338,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Fogger — Get Whole-Yard Coverage That Lasts" subtext="Licensed barrier spray from $99. Commercial-class product, 21–30 day residual, and it kills ticks too. Free quote in minutes." variant="dark" />
+      <CTASection heading="Skip the Fogger — Get Whole-Yard Barrier Coverage All Season" subtext={`Licensed barrier spray from $99 on a standard lot. Commercial-class product applied according to label directions, and it treats for ticks too. ${PROMISES.response}`} variant="dark" />
     </>
   )
 }

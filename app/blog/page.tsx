@@ -25,7 +25,7 @@ export default function BlogIndexPage() {
             <span className="text-white">Blog</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">Mosquito &amp; Tick Control Guides</h1>
-          <p className="text-xl text-brand-100 max-w-2xl">Expert advice for Ontario homeowners on protecting their families from mosquitoes and ticks. Covering pest seasons, treatment options, Lyme disease prevention, and more.</p>
+          <p className="text-xl text-brand-100 max-w-2xl">Expert advice for Ontario homeowners dealing with mosquitoes and ticks at home. Covering pest seasons, treatment options, Lyme disease risk, and more.</p>
         </div>
       </section>
 

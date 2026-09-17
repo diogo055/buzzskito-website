@@ -158,7 +158,7 @@ export default function HowToKeepSpidersOutPage() {
               {
                 badge: 'Best No-Kill Tool',
                 name: 'Long-Handled Spider Catcher',
-                why: 'A gentle bristle grabber on an arm&rsquo;s-length handle: catch the spider off the ceiling from a comfortable distance and release it outside. The humane option for households that would rather relocate than kill.',
+                why: 'A gentle bristle grabber on an arm’s-length handle: catch the spider off the ceiling from a comfortable distance and release it outside. The humane option for households that would rather relocate than kill.',
                 search: 'spider catcher long handle humane',
                 score: 7.4,
                 pros: ['Catch and release from a safe distance', 'No chemicals, no mess, kid-friendly demo', 'Reaches ceilings and corners'],

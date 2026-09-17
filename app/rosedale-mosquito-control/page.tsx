@@ -2,8 +2,10 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Rosedale | From $99',
@@ -27,11 +29,11 @@ const FAQS = [
   },
   {
     question: 'How often does my Rosedale property need treatment?',
-    answer: "For ravine-adjacent Rosedale properties, we recommend treatment every 21–28 days from May through September — typically 4–5 visits per season. This maintains continuous barrier coverage throughout the active window. Call (289) 216-5030 for a free assessment and recommended schedule for your specific property.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Ravine-adjacent Rosedale properties typically benefit from Standard's two-week spacing, which keeps the treatment renewed through the active window. Call (289) 216-5030 for a free assessment and recommended plan for your specific property.",
   },
   {
-    question: "Is BuzzSkito's treatment safe for Rosedale's older established properties?",
-    answer: "Yes. Our Health Canada–approved formula is safe for established gardens, mature trees, and all ornamental plantings. We apply it to the resting surfaces mosquitoes use — leaf undersides and shrub foliage — not to flowering plants or bare soil. After a 30-minute drying period, the treated area is safe for children, pets, and garden wildlife.",
+    question: "How is BuzzSkito's treatment applied on Rosedale's older established properties?",
+    answer: "We apply the product according to its label directions, to the resting surfaces mosquitoes use — leaf undersides and shrub foliage — not to flowering plants or bare soil. If there are plantings on your property you would rather we skip, mention them when you book. Keep people and pets off treated areas until the spray has dried, as the product label directs.",
   },
   {
     question: 'Does BuzzSkito serve all Rosedale streets?',
@@ -58,21 +60,23 @@ export default function RosedaleMosquitoPage() {
           { label: NEIGHBOURHOOD },
         ]}
         title={<>Mosquito Control in {NEIGHBOURHOOD}, Toronto</>}
-        subtitle={<>Rosedale's ravine-adjacent properties face some of Toronto's most intense mosquito pressure from the Don Valley. BuzzSkito provides professional 30-day barrier spray so Rosedale families can enjoy their gardens all season.</>}
+        subtitle={<>Rosedale's ravine-adjacent properties face some of Toronto's most intense mosquito pressure from the Don Valley. Licensed Ontario pesticide operator; treatments applied according to label directions.</>}
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
       
+      <TypicalPrices service="mosquito" city={NEIGHBOURHOOD} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -81,8 +85,8 @@ export default function RosedaleMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product according to its label directions to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Visits repeat through the season on your plan’s schedule, so the foliage where mosquitoes rest stays treated. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -98,7 +102,7 @@ export default function RosedaleMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>The Rosedale Mosquito Problem</h2>
           <p>Rosedale's real estate desirability and its mosquito problem share the same root cause: the Don Valley ravine. The ravine creates the dramatic topography that makes Rosedale architecturally distinctive — and it sustains the mosquito populations that affect ravine-adjacent properties each summer. The valley's permanent streams, seasonal wet areas, dense vegetation, and sheltered microclimate combine to produce reliable, season-long mosquito breeding habitat directly adjacent to some of Toronto's most valuable residential properties.</p>
-          <p>BuzzSkito's barrier spray program creates a protective layer around your property by treating the vegetation mosquitoes use as daytime resting sites. When they move from the valley into your yard and land on treated foliage, the barrier eliminates them and deters subsequent arrivals for up to 30 days.</p>
+          <p>BuzzSkito's barrier spray program treats the vegetation mosquitoes use as daytime resting sites around your property. Mosquitoes moving up from the valley land on that treated foliage, and because new arrivals keep coming from the ravines, the treatment is repeated through the season.</p>
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of Rosedale and surrounding neighbourhoods. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page, or our pages for <Link href="/forest-hill-mosquito-control" className="text-brand-700 hover:underline">Forest Hill</Link> and <Link href="/leaside-mosquito-control" className="text-brand-700 hover:underline">Leaside</Link>.</p>
@@ -124,10 +128,10 @@ export default function RosedaleMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, leaving a residual on the foliage where mosquitoes rest, renewed on a regular schedule through the season. The difference is coverage and consistency: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -136,7 +140,7 @@ export default function RosedaleMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Blacklegged ticks can carry Lyme disease, and our targeted tick barrier spray runs 5 sprays per season, $597 on its own or $497 with any mosquito plan. See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>
@@ -175,6 +179,10 @@ export default function RosedaleMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

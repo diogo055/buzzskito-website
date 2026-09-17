@@ -8,33 +8,33 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, faqSchema, blogPostingSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS } from '@/lib/constants'
+import { BUSINESS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const UPDATED = '2026-04-07'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Tick Prevention Yard Ontario | Kids Safe',
+  title: 'Tick Prevention Yard Ontario | Kids & Families',
   description:
-    'How to make your Ontario backyard safe from ticks. Kid-safe yard treatment strategies, prevention tips. From $99.',
+    'How to lower tick risk in your Ontario backyard. Yard treatment strategies for families with kids, prevention tips. From $99.',
   canonical: '/blog/tick-prevention-yard-ontario-safe-for-kids',
 })
 
 const POST = {
-  title: 'Tick Prevention in Your Yard: Ontario Safe-for-Kids Guide (2026)',
+  title: 'Tick Prevention in Your Yard: Ontario Guide for Families with Kids (2026)',
   slug: 'tick-prevention-yard-ontario-safe-for-kids',
   date: '2026-04-07',
-  description: 'How to make your Ontario backyard safe from ticks — yard modifications, DIY measures, and professional barrier spray that is safe for children and pets.',
+  description: 'How to lower tick risk in your Ontario backyard — yard modifications, DIY measures, professional barrier spray, and what parents and pet owners should do on treatment day.',
 }
 
 const FAQS = [
   {
     question: 'Is professional tick spray safe for children in Ontario?',
-    answer: "Yes. Health Canada–approved tick barrier spray formulas are safe for children after the product has dried — typically 30 minutes after application. Health Canada's registration under the Pest Control Products Act requires safety testing for children and sensitive populations before any pesticide can be sold in Canada. Once the product is dry, your children can use the yard as normal. Keep kids off the treated area during application and for the 30-minute drying window.",
+    answer: `In Canada, pesticides are regulated under the Pest Control Products Act, and every product's label sets out how it may be used, including when people can return to a treated area. The practical rule for families: keep children indoors or away from the yard during application, and keep them off treated areas until the spray has dried, as the product label directs. BuzzSkito treatments are applied under ${PROMISES.licence}, and every product is used according to its label directions. If you have a specific health concern about your child, ask for the product label before the visit and talk to your doctor.`,
   },
   {
     question: 'Is tick spray safe for dogs and cats?',
-    answer: "Yes, with the same 30-minute drying caveat that applies to children. Health Canada–approved water-based formulas used by licensed Ontario technicians do not pose a residual risk to pets once dry. Cats should not walk through wet product and should stay inside during application. Dogs can return to the yard after 30 minutes. If you have fish ponds or birdbaths, alert your technician so they can maintain the appropriate buffer zone.",
+    answer: "The same re-entry rule applies to pets as to children: keep dogs and cats inside during application and off treated areas until the spray has dried, as the product label directs. Cats should not walk through wet product. If you have fish ponds or birdbaths, alert your technician so they can maintain the appropriate buffer zone. If your pet has a health condition, ask for the product label before the visit and check with your veterinarian.",
   },
   {
     question: 'What parts of a backyard are highest risk for ticks in Ontario?',
@@ -42,7 +42,7 @@ const FAQS = [
   },
   {
     question: 'Can I reduce tick risk without spraying anything?',
-    answer: "Yes, but physical yard modifications only go so far. Effective low-chemical measures include: mowing grass short and regularly, removing leaf litter from property edges, placing a 1-metre dry wood-chip or gravel barrier between your lawn and any wooded or naturalized border, moving woodpiles away from play areas, installing deer fencing to reduce deer-carried tick introduction, and trimming low-hanging vegetation where ticks quest from. These reduce risk but do not eliminate it — professional barrier spray remains the most effective single intervention for high-risk properties.",
+    answer: "Yes, but physical yard modifications only go so far. Effective low-chemical measures include: mowing grass short and regularly, removing leaf litter from property edges, placing a 1-metre dry wood-chip or gravel barrier between your lawn and any wooded or naturalized border, moving woodpiles away from play areas, installing deer fencing to reduce deer-carried tick introduction, and trimming low-hanging vegetation where ticks quest from. These reduce risk but do not remove it — on high-risk properties, professional barrier spray adds the layer that treats the questing zone directly.",
   },
   {
     question: 'When is the most dangerous tick season for children in Ontario?',
@@ -54,7 +54,7 @@ const FAQS = [
   },
   {
     question: 'What is the best tick prevention strategy for a family with young children?',
-    answer: "A layered approach gives the best protection: (1) professional barrier spray on a monthly schedule from May through September, starting before peak nymph season, (2) physical barriers like a mulch or gravel strip at your property edge, (3) regular lawn mowing, (4) tick checks after outdoor play — especially the hairline, behind knees, and in armpits. Teaching children to stay out of tall grass and leaf litter areas also helps. No single measure is 100% effective; combining yard treatment with personal checks is the safest approach.",
+    answer: "A layered approach gives the best protection: (1) professional barrier spray on a monthly schedule from May through September, starting before peak nymph season, (2) physical barriers like a mulch or gravel strip at your property edge, (3) regular lawn mowing, (4) tick checks after outdoor play — especially the hairline, behind knees, and in armpits. Teaching children to stay out of tall grass and leaf litter areas also helps. No single measure is 100% effective; combining yard treatment with personal checks is the most thorough approach.",
   },
 ]
 
@@ -82,10 +82,10 @@ export default function TickPreventionYardKidsPage() {
           </div>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
             Tick Prevention in Your Yard:<br />
-            <span className="text-amber-300">Ontario Safe-for-Kids Guide (2026)</span>
+            <span className="text-amber-300">Ontario Guide for Families with Kids (2026)</span>
           </h1>
           <p className="text-xl text-amber-100 max-w-2xl leading-relaxed">
-            How to make your Ontario backyard safe from ticks — yard modifications, DIY measures, and professional barrier spray that protects children and pets without keeping them indoors all summer.
+            How to lower tick risk in your Ontario backyard — yard modifications, DIY measures, and professional barrier spray, so children and pets can keep using the yard all summer.
           </p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
@@ -96,14 +96,14 @@ export default function TickPreventionYardKidsPage() {
 
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Professional tick barrier spray is safe for children and pets once it dries &mdash; about 30 minutes after application &mdash; and combined with yard-edge modifications it is the most effective way to protect an Ontario family; the highest-risk zone is the 1&ndash;3 metre edge where lawn meets vegetation, and nymph season (May&ndash;July) is most dangerous.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Professional tick barrier spray is applied according to the product label, and children and pets should stay off treated areas until the spray has dried, as the label directs; combined with yard-edge modifications it gives an Ontario family a layered defence. The highest-risk zone is the 1&ndash;3 metre edge where lawn meets vegetation, and nymph season (May&ndash;July) is most dangerous.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Health Canada-approved barrier spray is safe for children and pets once dry, typically 30 minutes after application.</li>
+              <li>Keep children and pets off treated areas until the barrier spray has dried, as the product label directs.</li>
               <li>Ticks concentrate in the first 1&ndash;3 metres where lawn meets garden beds, hedges, leaf litter, or fences &mdash; not the open lawn.</li>
               <li>Nymphs (poppy-seed-sized, 1&ndash;2 mm) are active May&ndash;July and carry the same Lyme risk as adults, causing most Ontario cases.</li>
               <li>A full tick season is five treatments, roughly monthly from May through September &mdash; enough to cover peak nymph season without a gap and still catch fall adults.</li>
               <li>A 1-metre wood-chip or gravel barrier strip between lawn and wooded edges deters ticks from crossing.</li>
-              <li>Picaridin (icaridin) is Health Canada-permitted for children as young as 6 months as a second, skin-applied layer.</li>
+              <li>Picaridin (icaridin) repellent labels permit use on children as young as 6 months, as a second, skin-applied layer.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
@@ -165,6 +165,8 @@ export default function TickPreventionYardKidsPage() {
             <li><strong>Play structures near edges</strong> — if a swing set or play structure is positioned near a garden border or fence, it places children consistently at the highest-exposure zone</li>
           </ul>
 
+          <p>Every one of those zones is at child height for a reason: a tick cannot fly or jump, so it climbs low vegetation and waits with its front legs out, usually within about 30&ndash;50 cm of the ground &mdash; which puts a toddler&rsquo;s shoulders and a running child&rsquo;s legs right in the questing band. <Link href="/blog/do-ticks-fly-or-jump" className="text-brand-700 underline">Do ticks fly or jump, and how high do they climb?</Link> has the measurements.</p>
+
           <h2>Physical Yard Modifications That Reduce Tick Risk</h2>
           <p>These low-chemical measures are complementary to professional treatment and reduce tick survival on your property:</p>
           <ul>
@@ -181,24 +183,24 @@ export default function TickPreventionYardKidsPage() {
           <TopPick tag={AMZ_TAG}
             label="Our Top Pick for the Yard"
             name="Wondercide Cedar-Oil Yard Spray (hose-end)"
-            blurb="A cedarwood-oil yard concentrate that attaches to a garden hose and covers roughly 465 m² — enough for the perimeter strip on a typical Ontario lot. Cedar oil kills and repels ticks on contact and is the DIY option parents pick most often because children and pets can return to the lawn once it dries. Treat the fence line, garden borders, and the base of hedges rather than the open lawn."
+            blurb="A cedarwood-oil yard concentrate that attaches to a garden hose and covers roughly 465 m² — enough for the perimeter strip on a typical Ontario lot. Cedar oil kills and repels ticks on contact and is the DIY option parents pick most often; follow the label on when children and pets can return to the lawn. Treat the fence line, garden borders, and the base of hedges rather than the open lawn."
             search="wondercide cedar oil yard spray ticks"
             score={8.4}
-            pros={['Treats the actual questing zone, not just your skin', 'Kid- and pet-safe once dry', 'Hose-end applicator — no mixing or sprayer needed']}
+            pros={['Treats the actual questing zone, not just your skin', 'Cedarwood-oil concentrate', 'Hose-end applicator — no mixing or sprayer needed']}
             cons={['Shorter residual than professional barrier spray — reapply every 3–4 weeks', 'Cedar scent is noticeable for a day']}
           />
           <p>For a wider comparison of DIY yard options — granules, concentrates, and tick tubes — see our guide to the <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellent for your yard in Canada</Link>.</p>
 
           <h2>Is Professional Barrier Spray Safe for Children and Pets?</h2>
-          <p>This is the question BuzzSkito gets most often from parents, and it deserves a direct answer: <strong>yes, Health Canada–approved tick barrier spray is safe for children and pets after a 30-minute drying period.</strong></p>
-          <p>Here's the regulatory context. In Canada, all pesticides must be registered with Health Canada under the <em>Pest Control Products Act</em> before they can be sold or applied commercially. Registration requires rigorous safety testing including exposure scenarios for children and sensitive populations. The active ingredients in professional tick barrier spray — pyrethrins or synthetic pyrethroids like bifenthrin — are the same chemical class used in many common household products, including head lice treatments for children.</p>
-          <p>The 30-minute re-entry interval is a conservative safety buffer for drying time — not a hazard window. Once dry, the formula is bound to the leaf surfaces it was applied to. It does not float, migrate, or pose inhalation risk to people in the yard.</p>
+          <p>This is the question BuzzSkito gets most often from parents, and it deserves a direct answer: <strong>keep children and pets off treated areas until the spray has dried, as the product label directs.</strong> Here is how the product is regulated, how it is applied, and what your family should do on treatment day.</p>
+          <p>Here's the regulatory context. In Canada, pesticides are regulated under the <em>Pest Control Products Act</em>, and every product carries a label with a PCP registration number and directions for use, including when people and pets can return to a treated area. Commercial applicators in Ontario must also hold a provincial licence; BuzzSkito works under {PROMISES.licence}. The active ingredients in professional tick barrier spray are typically pyrethrins or synthetic pyrethroids like bifenthrin.</p>
+          <p>Re-entry is set by the product label, not by us. Our products are applied according to label directions, and the label is what tells your family when the treated edge can be used again. If you want to read it before the visit, just ask.</p>
           <p>Practical guidance for families:</p>
           <ul>
             <li>Keep children and pets inside or away from treated areas during application</li>
-            <li>Wait 30 minutes after the technician leaves before resuming outdoor activity</li>
-            <li>If it rains heavily within an hour, contact us — we have a rain-back guarantee and will re-treat at no cost</li>
-            <li>No special cleanup of outdoor furniture or toys is needed</li>
+            <li>Stay off treated areas until the spray has dried, as the product label directs</li>
+            <li>{PROMISES.rainBack}</li>
+            <li>Move toys, pet bowls, and cushions away from the fence line and garden borders before the visit</li>
           </ul>
 
           <h2>Recommended Tick Treatment Schedule for Ontario Families</h2>
@@ -212,21 +214,22 @@ export default function TickPreventionYardKidsPage() {
           </ol>
           <p>The five visits exist for one reason: the acaricide residual is temporary, and your property is continuously restocked with ticks by deer, mice, and birds moving in from the ravine, woodlot, or naturalized strip next door. A spring-and-fall pair of visits leaves a multi-month hole through May–July — exactly the window when nymphs are questing and children are outside every day. Monthly applications close it.</p>
           <p>Higher-exposure properties — backing onto conservation land, ravines, creek valleys, or with confirmed deer movement — are where the full five-treatment season matters most. High-risk GTA zones include the Oak Ridges Moraine corridor (Richmond Hill, Vaughan, King City, Caledon), the Humber River valley, Credit River watershed, and any property adjacent to naturalized green space.</p>
+          <p>If you are in Mississauga, that Credit River line is the one to watch, and the local emergence dates are set out in <Link href="/blog/tick-season-mississauga-when-are-ticks-active" className="text-brand-700 underline">our Mississauga tick season calendar</Link> so you can book the first visit before the nymphs are out rather than after.</p>
           <p>BuzzSkito prices a full five-treatment tick season at <strong>$597</strong> on its own, or <strong>$497</strong> when you add it to any mosquito plan — a $100 saving. A single one-off treatment starts at $99 if you want to try it before committing to the season.</p>
 
           <h2>Personal Repellent: The Second Layer for Kids</h2>
-          <p>Yard treatment lowers the tick population where your children play, but a skin-applied repellent adds a second layer for trips to the park, cottage, or trail. For children, <strong>picaridin (icaridin)</strong> is the pediatric-friendly choice many parents prefer over DEET — Health Canada permits it for children as young as six months, it is odourless, and it will not damage plastics or clothing. Apply it to exposed skin before outdoor play and reapply per the label.</p>
+          <p>Yard treatment lowers the tick population where your children play, but a skin-applied repellent adds a second layer for trips to the park, cottage, or trail. For children, <strong>picaridin (icaridin)</strong> is the pediatric-friendly choice many parents prefer over DEET — its label permits use on children as young as six months, it is odourless, and it will not damage plastics or clothing. Apply it to exposed skin before outdoor play and reapply per the label.</p>
           <p className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Check price on Amazon.ca →</BuyLink></p>
           <TopPick tag={AMZ_TAG}
             label="Our Top Pick for the Skin Layer"
             name="Picaridin (Icaridin) Insect Repellent"
-            blurb="The pediatric-friendly skin layer many Ontario parents prefer over DEET — Health Canada permits picaridin for children as young as six months, it is odourless, and it will not damage plastics or clothing. Apply to exposed skin before outdoor play and reapply per the label."
+            blurb="The pediatric-friendly skin layer many Ontario parents prefer over DEET — picaridin labels permit use on children as young as six months, it is odourless, and it will not damage plastics or clothing. Apply to exposed skin before outdoor play and reapply per the label."
             search="picaridin insect repellent canada"
             score={8.7}
-            pros={['Health Canada-permitted from 6 months', 'Odourless and non-greasy', 'Safe on plastics, gear, and clothing']}
+            pros={['Label permits use from 6 months', 'Odourless and non-greasy', 'Won’t damage plastics, gear, or clothing']}
             cons={['Skin layer only — not a yard treatment', 'Needs reapplication through the day']}
           />
-          <p>For a full breakdown of kid-safe options — including lotions versus sprays and the right concentration by age — see our guide to the <Link href="/blog/best-bug-spray-for-kids-canada" className="text-brand-700 hover:underline">best bug spray for kids in Canada</Link>.</p>
+          <p>For a full breakdown of repellent options for kids — including lotions versus sprays and the right concentration by age — see our guide to the <Link href="/blog/best-bug-spray-for-kids-canada" className="text-brand-700 hover:underline">best bug spray for kids in Canada</Link>.</p>
 
           <h2>Post-Outdoor Tick Checks for Children</h2>
           <p>Even with a professionally treated yard, teaching children and adults to do tick checks after outdoor time is part of a complete prevention strategy:</p>
@@ -290,7 +293,7 @@ export default function TickPreventionYardKidsPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Wondercide Cedar-Oil Yard Spray (hose-end)" search="wondercide cedar oil yard spray ticks" label="Top pick for the yard" />
 
-      <CTASection heading="Protect Your Family from Ticks This Season" subtext="Health Canada–approved barrier spray safe for children and pets after 30 minutes. No contracts." variant="dark" />
+      <CTASection heading="Get Your Family's Yard Ready for Tick Season" subtext={`Tick barrier spray applied under ${PROMISES.licence}. ${PROMISES.labelLine}. No contracts.`} variant="dark" />
     </>
   )
 }

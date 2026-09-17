@@ -106,7 +106,7 @@ export default function ThermacellE90CanadaReviewPage() {
               <li>The zone needs 10&ndash;15 minutes to build and weakens above a ~10&ndash;12 km/h breeze.</li>
               <li>It uses metofluthrin E-Series cartridges in 12-, 36-, and 72-hour sizes.</li>
               <li>It does nothing for ticks, which quest from grass rather than flying into vapour.</li>
-              <li>For whole-yard, tick-inclusive coverage, licensed barrier spray starts at $99 and holds 21&ndash;30 days.</li>
+              <li>For whole-yard coverage, licensed barrier spray starts at $99 per treatment, seasonal plans renew the residual on schedule, and tick plans are available.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
             <div className="mt-4">
@@ -298,7 +298,7 @@ export default function ThermacellE90CanadaReviewPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The E90 covers the patio. We cover the yard.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray treats your whole property from $99 per single treatment, with 21&ndash;30 days of residual protection — and our tick program runs $597/season standalone or $497 bundled with any mosquito plan. Serving 19+ GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray treats your whole property from $99 per single treatment, and seasonal plans renew the residual on schedule (every 2 weeks on Standard, monthly on Basic) — and our tick program runs $597/season standalone or $497 bundled with any mosquito plan. Serving 19+ GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -310,6 +310,11 @@ export default function ThermacellE90CanadaReviewPage() {
           <div className="not-prose my-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="thermacell e90 rechargeable">Check E90 price on Amazon.ca →</BuyLink>
           </div>
+
+          <h3>Three things worth buying alongside it</h3>
+          <p><strong>If the unit is going to the cottage</strong>, the rugged EX90 is the version built for being dropped on a dock, thrown in a canoe barrel and left out in the rain &mdash; same engine as the E90 underneath, tougher shell around it. It is the one variant that survives the way cottage gear actually gets treated: <BuyLink tag={AMZ_TAG} search="thermacell ex90 adventure repeller">check the EX90 on Amazon.ca &rarr;</BuyLink></p>
+          <p><strong>For May and June in cottage country</strong>, no spatial repeller of any brand fully handles blackflies, and this is the gap where people give up on the category unfairly. A head net over a ball cap is the unglamorous fix that lets you finish setting up camp in early June, and it packs down to nothing: <BuyLink tag={AMZ_TAG} search="mosquito head net">check head nets on Amazon.ca &rarr;</BuyLink></p>
+          <p><strong>And for the tick gap</strong>, remember the E90 does nothing at ankle height, because ticks quest from grass rather than flying into vapour. The standard answer for anyone walking a trail or a fence line is treated clothing &mdash; a permethrin clothing-and-gear spray applied to fabric, never skin, strictly as its label directs, and re-applied on the schedule that label sets out: <BuyLink tag={AMZ_TAG} search="permethrin clothing spray">check permethrin clothing sprays on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -335,7 +340,7 @@ export default function ThermacellE90CanadaReviewPage() {
         </div>
       </article>
 
-      <CTASection heading="Thermacell for the Patio · Barrier Spray for the Yard" subtext="Get a free quote for licensed whole-yard barrier spray. From $99. Same-day protection. 30-day residual." variant="dark" />
+      <CTASection heading="Thermacell for the Patio · Barrier Spray for the Yard" subtext="Get a free quote for licensed whole-yard barrier spray. From $99. Rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

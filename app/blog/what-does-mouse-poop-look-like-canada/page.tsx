@@ -25,7 +25,7 @@ const UPDATED = '2026-09-02'
 // also the honest next step — and a sealed-HEPA vacuum is explicitly NOT recommended for
 // dry droppings, because public-health cleanup guidance says do not vacuum or sweep them.
 const TITLE = 'What Does Mouse Poop Look Like? Size, Shape, Fresh vs Old, and Safe Cleanup'
-const META_TITLE = 'Mouse Poop: 3-6 mm, Pointed — Fresh or Old?'
+const META_TITLE = 'Mouse Poop in Canada: 3-6 mm, Fresh or Old?'
 
 const FAQS = [
   {
@@ -174,6 +174,15 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
           </div>
 
           <SpecialistDisclosure pest="mice" />
+
+          <div className="not-prose my-6 rounded-2xl border border-navy-100 bg-white p-5 shadow-sm">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">What to do right now</p>
+            <ol className="space-y-3 text-[15px] text-gray-800 list-decimal pl-5">
+              <li><strong>Put the vacuum down and open a window &mdash; this step costs nothing.</strong> Sweeping or vacuuming dry droppings throws fine contaminated dust into the air you are standing in, and the filter on the machine does not change that. Ventilate the room, leave it for about thirty minutes, then soak the droppings with disinfectant or a freshly mixed one-part-bleach-to-nine-parts-water solution, wait five minutes, and wipe up with paper towel. The full sequence is set out below.</li>
+              <li><strong>A respirator that seals to your face, plus disposable gloves.</strong> These are what make the wet-then-wipe method above possible to carry out properly, and they are the smallest purchases on the page. A loose surgical mask does not seal and is not the same tool. Get them before you touch anything, not after. <BuyLink tag={AMZ_TAG} search="n95 respirator masks niosh">Check price on Amazon.ca &rarr;</BuyLink></li>
+              <li><strong>Snap traps, set in the line the droppings already mark.</strong> The hardest part of trapping is working out where the mice actually travel, and the scatter of pellets has answered it for you. Set traps flush against the baseboard with the trigger end to the wall, and set far more of them than feels reasonable &mdash; a dense line put out all at once usually takes its biggest catch on the first night. <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Check price on Amazon.ca &rarr;</BuyLink></li>
+            </ol>
+          </div>
         </div>
       </section>
 
@@ -306,7 +315,7 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
               {
                 badge: 'Required, Not Optional',
                 name: 'Fitted Respirator + Disposable Gloves + Disinfectant',
-                why: 'The cheapest items here and the ones you should not skip. A respirator that actually seals to your face, a box of disposable gloves, and a disinfectant spray or fresh bleach solution are what make the wet-then-wipe protocol above safe to carry out. A loose surgical mask does not seal and is not a substitute. Buy these before you touch anything, not after.',
+                why: 'The smallest purchases here and the ones you should not skip. A respirator that actually seals to your face, a box of disposable gloves, and a disinfectant spray or fresh bleach solution are what make the wet-then-wipe protocol above safe to carry out. A loose surgical mask does not seal and is not a substitute. Buy these before you touch anything, not after.',
                 search: 'n95 respirator masks niosh',
                 pros: ['Makes the correct cleanup method possible', 'Cheap, and useful long after this job', 'Gloves and disinfectant you likely half-own already'],
                 cons: ['A respirator only works if it seals — facial hair defeats it', 'Not a licence to sweep or vacuum; the method still stands'],

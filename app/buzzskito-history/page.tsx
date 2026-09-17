@@ -2,21 +2,23 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { IconChip } from '@/components/Icon'
 import { buildMetadata, breadcrumbSchema, localBusinessSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { BUSINESS } from '@/lib/constants'
+import { BUSINESS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Our Story | GTA Mosquito & Tick Control',
   description:
-    'Learn about BuzzSkito — professional mosquito & tick control for the GTA. Health Canada-approved treatments from $99.',
+    'Learn about BuzzSkito — professional mosquito & tick control for the GTA. Licensed Ontario operator, treatments from $99.',
   canonical: '/buzzskito-history',
 })
 
 const FAQS = [
   {
     question: 'What is BuzzSkito?',
-    answer: 'BuzzSkito is a professional mosquito and tick control company serving residential homeowners across the Greater Toronto Area and surrounding Southern Ontario cities. We specialize exclusively in barrier spray treatments using Health Canada–approved formulas that eliminate mosquitoes and ticks from residential properties for up to 30 days per visit. We serve 19 cities including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Richmond Hill, Markham, and more.',
+    answer: 'BuzzSkito is a professional mosquito and tick control company serving residential homeowners across the Greater Toronto Area and surrounding Southern Ontario cities. We specialize exclusively in mosquito and tick barrier spray treatments for residential properties, applied according to product label directions by an Ontario-licensed pesticide operator (Licence L-240-2436835197). We serve 19 cities including Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Richmond Hill, Markham, and more.',
   },
   {
     question: 'Where is BuzzSkito based?',
@@ -24,7 +26,7 @@ const FAQS = [
   },
   {
     question: 'Is BuzzSkito licensed and insured?',
-    answer: 'Yes. BuzzSkito technicians are licensed under Ontario\'s Pesticides Act and carry full commercial liability insurance. All products we use are registered with Health Canada under the Pest Control Products Act — we provide registration numbers on request. Every treatment is documented with a written service log delivered to the homeowner after each visit.',
+    answer: 'Yes. BuzzSkito holds Ontario Pesticide Operator Licence L-240-2436835197, our technicians are licensed under Ontario\'s Pesticides Act, and we carry full commercial liability insurance. Products are applied according to their label directions, and we will tell you which product (and its PCP number) is used on your property. Every treatment is documented with a written service log delivered to the homeowner after each visit.',
   },
   {
     question: 'How many reviews does BuzzSkito have?',
@@ -32,11 +34,11 @@ const FAQS = [
   },
   {
     question: 'What makes BuzzSkito different from other mosquito spray companies?',
-    answer: 'Three things set BuzzSkito apart: (1) We specialize exclusively in mosquito and tick control — not general pest control — which means deeper expertise in these specific treatments. (2) We offer a free re-spray guarantee: if mosquitoes return within the protection window, we come back at no cost. (3) We have a rain-back guarantee: if significant rain falls within one hour of your treatment, we return and re-treat for free. We also send SMS alerts before and after every visit with a complete service log.',
+    answer: 'Three things set BuzzSkito apart: (1) We specialize exclusively in mosquito and tick control — not general pest control — which means deeper expertise in these specific treatments. (2) We have a rain-back guarantee on every plan: if rain falls within 1 hour of your treatment, we come back and re-treat free. (3) Standard and Exclusive season plans also carry the Bite-Free Guarantee: if mosquitoes come back between scheduled treatments, we re-treat at no charge. Every visit is documented with a written service log.',
   },
   {
     question: 'Does BuzzSkito offer mosquito and tick control together?',
-    answer: 'Yes. BuzzSkito provides both mosquito and tick control, and many homeowners bundle both services in a single visit. The same barrier spray that eliminates mosquitoes also kills ticks at all life stages. For GTA properties — especially those near ravines, conservation areas, or the Oak Ridges Moraine — combining both services provides complete yard protection from May through September.',
+    answer: 'Yes. BuzzSkito provides both mosquito and tick control, and many homeowners bundle both services in a single visit. Tick treatment uses barrier spray applied to different zones: lawn edges, leaf litter, and fence lines where ticks wait. For GTA properties — especially those near ravines, conservation areas, or the Oak Ridges Moraine — combining both services covers both pests from May through September.',
   },
 ]
 
@@ -54,7 +56,7 @@ export default function AboutPage() {
           { label: 'About BuzzSkito' },
         ]}
         title={<>About BuzzSkito</>}
-        subtitle={<>GTA's specialized mosquito and tick control company. Health Canada–approved treatments, 150+ five-star reviews, no contracts.</>}
+        subtitle={<>GTA's specialized mosquito and tick control company. Licensed Ontario pesticide operator, treatments applied according to label directions, 150+ five-star reviews, no contracts.</>}
         image="/spray-pool.webp"
         imageAlt="BuzzSkito technician applying barrier spray beside a backyard pool"
       />
@@ -63,7 +65,7 @@ export default function AboutPage() {
 
         <h2>Who We Are</h2>
         <p>
-          BuzzSkito is a Mississauga-based mosquito and tick control company serving residential homeowners across the Greater Toronto Area. We specialize exclusively in barrier spray treatments — professional-grade, Health Canada–approved formulas applied to your property's vegetation, shrubs, and lawn edges to eliminate mosquitoes and ticks for up to 30 days per treatment.
+          BuzzSkito is a Mississauga-based mosquito and tick control company serving residential homeowners across the Greater Toronto Area. We specialize exclusively in barrier spray treatments — professional-grade products applied according to label directions to your property's vegetation, shrubs, and lawn edges, where mosquitoes and ticks rest and wait.
         </p>
         <p>
           We serve 19 cities across Southern Ontario: Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Richmond Hill, Markham, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, Woodbridge, and Thornhill.
@@ -71,25 +73,25 @@ export default function AboutPage() {
 
         <h2>What We Do</h2>
         <p>
-          Every BuzzSkito treatment follows the same proven process: our licensed technicians apply a fine residual mist to all vegetation on your property — the underside of shrubs, hedges, fence lines, ornamental plantings, and ground-level foliage up to 10 feet high. This is where mosquitoes and ticks rest during the day. The product kills them on contact and continues working for up to 30 days after application.
+          Every BuzzSkito treatment follows the same proven process: our licensed technicians apply a fine residual mist to all vegetation on your property — the underside of shrubs, hedges, fence lines, ornamental plantings, and ground-level foliage up to 10 feet high. This is where mosquitoes and ticks rest during the day. Products are applied according to their label directions, and treatments are repeated on a schedule through the season.
         </p>
         <p>
           Our two core services:
         </p>
         <ul>
-          <li><Link href="/mosquito-control" className="text-brand-700 hover:underline"><strong>Mosquito control</strong></Link> — 5-treatment seasonal program from May through September, or single-visit treatments. Up to 30 days of protection per visit.</li>
-          <li><Link href="/tick-control" className="text-brand-700 hover:underline"><strong>Tick control</strong></Link> — 2–3 strategic treatments targeting peak nymph and adult tick activity windows. Kills blacklegged ticks at all life stages including nymphs.</li>
+          <li><Link href="/mosquito-control" className="text-brand-700 hover:underline"><strong>Mosquito control</strong></Link> — season plans of 5, 10 or 20+ sprays from May through September (from $549), or single-visit treatments from $99 on a standard lot.</li>
+          <li><Link href="/tick-control" className="text-brand-700 hover:underline"><strong>Tick control</strong></Link> — 5 sprays per season, timed for peak nymph and adult tick activity ($597 on its own, $497 with any mosquito plan).</li>
         </ul>
-        <p>Most customers bundle both services — one visit, complete yard protection.</p>
+        <p>Most customers bundle both services, so one visit covers both pests.</p>
 
         <h2>Our Credentials and Standards</h2>
         <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8">
           {[
-            { icon: 'award', title: 'Health Canada–Approved Products', desc: 'All formulas registered under the Pest Control Products Act. Registration numbers available on request.' },
-            { icon: 'shield-check', title: 'Ontario Licensed Technicians', desc: 'All technicians licensed under Ontario\'s Pesticides Act. Fully insured with commercial liability coverage.' },
+            { icon: 'award', title: 'Label-Directed Application', desc: `${PROMISES.labelLine}. We will tell you which product is used on your property.` },
+            { icon: 'shield-check', title: 'Ontario Licensed Technicians', desc: `${PROMISES.licence}. All technicians licensed under Ontario's Pesticides Act. Fully insured with commercial liability coverage.` },
             { icon: 'file-check', title: 'Written Service Documentation', desc: 'Every visit documented with a written service log delivered by SMS after each treatment.' },
-            { icon: 'refresh', title: 'Free Re-Spray Guarantee', desc: 'Mosquitoes or ticks return within the protection window? We come back and re-treat at no cost.' },
-            { icon: 'cloud-rain', title: 'BuzzSkito Bite-Free Guarantee', desc: 'If pests return inside the protection window — or rain disrupts the cure — we re-treat at no charge. Period.' },
+            { icon: 'refresh', title: 'Bite-Free Guarantee (Standard & Exclusive)', desc: BUSINESS.guarantee.description },
+            { icon: 'cloud-rain', title: 'Rain-Back Guarantee', desc: PROMISES.rainBack },
             { icon: 'star', title: '150+ Five-Star Google Reviews', desc: 'Publicly verified reviews from GTA homeowners across our service area.' },
           ].map(({ icon, title, desc }) => (
             <div key={title} className="bg-brand-50 rounded-xl p-5 border border-brand-100 flex gap-4">
@@ -107,7 +109,7 @@ export default function AboutPage() {
           Most pest control companies treat dozens of different pest types — ants, rodents, wasps, bedbugs, and more. BuzzSkito does one thing: mosquito and tick barrier spray. That focus means our technicians know the exact micro-habitats where mosquitoes breed and rest in each GTA city, the specific tick risk zones around the Oak Ridges Moraine and urban ravine system, and the precise application techniques that maximize residual protection on residential properties. Specialization produces better results.
         </p>
         <p>
-          Mosquitoes in the GTA carry West Nile Virus, monitored annually by Toronto Public Health and Peel Region Health. Blacklegged ticks — established in the GTA's ravines and conservation areas — carry Lyme disease, a reportable illness in Ontario with increasing confirmed case counts each year. Protecting families from these health risks is the foundation of everything we do.
+          Mosquitoes in the GTA carry West Nile Virus, monitored annually by Toronto Public Health and Peel Region Health. Blacklegged ticks — established in the GTA's ravines and conservation areas — carry Lyme disease, a reportable illness in Ontario with increasing confirmed case counts each year. Those public-health facts are why we focus on the places these insects rest and wait around your home, and apply every product according to its label.
         </p>
 
         <h2>Contact BuzzSkito</h2>
@@ -119,6 +121,12 @@ export default function AboutPage() {
         </p>
 
       </article>
+
+      <TypicalPrices service="mosquito" city="GTA" />
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

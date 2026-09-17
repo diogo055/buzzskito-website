@@ -48,11 +48,11 @@ const FAQS = [
   },
   {
     question: 'Are CO2 mosquito traps regulated by Health Canada or the PMRA?',
-    answer: 'A trap that works purely by physical capture — CO2 plume, a scent lure, a fan, and a net — is a device, not a pesticide, so it does not require a PMRA (Health Canada Pest Management Regulatory Agency) pest control product registration the way a spray does. However, if a trap uses an insecticidal surface or treated net (some BG-GAT configurations do), the treated component may fall under pesticide rules and should carry a PCP registration number. The lures themselves are non-toxic scent attractants. None of this changes the practical takeaway: traps are legal to buy and run across Ontario, and unlike a spray they add no residual pesticide to your yard surfaces.',
+    answer: 'A trap that works purely by physical capture — CO2 plume, a scent lure, a fan, and a net — is a device, not a pesticide, so it does not require a PMRA (Health Canada Pest Management Regulatory Agency) pest control product registration the way a spray does. However, if a trap uses an insecticidal surface or treated net (some BG-GAT configurations do), the treated component may fall under pesticide rules and should carry a PCP registration number. The lures themselves are scent attractants rather than insecticides. None of this changes the practical takeaway: traps are legal to buy and run across Ontario, and unlike a spray they add no residual pesticide to your yard surfaces.',
   },
   {
     question: 'CO2 trap vs professional barrier spray — which should a GTA homeowner choose?',
-    answer: 'They work on different timelines and are genuinely complementary. A CO2 trap slowly draws down the biting-female population in its zone over 2–6 weeks and keeps working all season — it is a population tool. A professional barrier spray coats the shaded vegetation where mosquitoes rest and knocks down the yard population within hours, holding for about 21–30 days per treatment, and it also suppresses ticks (which no CO2 trap does). For same-day yard usability before a BBQ or a wedding, spray wins. For chronic, all-summer pressure and a chemical-free approach, a trap earns its place. The strongest setup for most Mississauga and GTA backyards is barrier spray for fast whole-yard knockdown plus a Biogents trap or a cluster of GATs to keep pulling the population down between treatments.',
+    answer: 'They work on different timelines and are genuinely complementary. A CO2 trap slowly draws down the biting-female population in its zone over 2–6 weeks and keeps working all season — it is a population tool. A professional barrier spray is applied to the shaded vegetation where mosquitoes rest on the day of the visit and re-applied through the season, and tick treatment can be added (no CO2 trap touches ticks). Before a BBQ or a wedding, spray is the tool to book. For chronic, all-summer pressure and a no-spray approach, a trap earns its place. The strongest setup for most Mississauga and GTA backyards is barrier spray for whole-yard treatment plus a Biogents trap or a cluster of GATs to keep pulling the population down between treatments.',
   },
   {
     question: 'Can a CO2 mosquito trap catch ticks too?',
@@ -252,6 +252,10 @@ export default function Co2MosquitoTrapCanadaPage() {
           <p>This is the Mosquito Magnet approach: burn propane through a catalytic converter and you get a strong, steady CO2 plume plus warmth and moisture — a very realistic fake human. The upside is reach: a good propane unit works across roughly an acre. The downside is that combustion is the entire mechanism, so the 20 lb tank is mandatory, and you will swap it about every three weeks all season, plus feed it attractant cartridges. If you want that reach, our <Link href="/blog/propane-mosquito-trap-canada">propane mosquito trap guide</Link> covers the models and the tank math in detail.</p>
           <h3>3. Electric fan + chemical lure (the Biogents way)</h3>
           <p>Here is the &lsquo;no tank required&rsquo; answer people are searching for. Biogents traps run on a wall plug and the BG-Lure — an artificial-skin attractant that reproduces the fatty acids, lactic acid, and ammonia your skin gives off. The fan and lure alone catch mosquitoes with <em>zero</em> CO2. You can optionally clip on the BG-Booster to add a compressed-CO2 cylinder or a managed sugar-yeast generator for heavy-pressure yards, but it is a boost, not a requirement. No combustion, no fuel runs, no tank storage — just a plug and a lure you replace every few months.</p>
+          <p className="not-prose text-sm text-gray-600 mb-2">The lure is the part that runs out mid-season, and an expired cartridge is the most common reason a working trap stops catching. Buy the refill with the trap so you are not waiting on shipping in July.</p>
+          <div className="not-prose mb-6">
+            <BuyLink tag={AMZ_TAG} search="biogents bg-lure refill">Check BG-Lure refills on Amazon.ca →</BuyLink>
+          </div>
 
           <h2>Why Biogents is the trap researchers actually use</h2>
           <p>This is the part that separates Biogents from the wall of generic &lsquo;electric CO2 mosquito killer&rsquo; boxes on Amazon.ca. The company&rsquo;s BG-Sentinel trap — the professional model behind the consumer BG-Home and BG-Mosquitaire — is a standard tool in academic mosquito surveillance. When public-health researchers need to count how many <em>Aedes</em> or <em>Culex</em> mosquitoes are in an area, the BG-Sentinel is one of the traps they set. The patented airflow and the BG-Lure were refined against real capture data, not a marketing brief.</p>
@@ -272,6 +276,10 @@ export default function Co2MosquitoTrapCanadaPage() {
             <li><strong>Electric Biogents + CO2 booster:</strong> add cylinder refills if you run compressed CO2; still no propane, and you only run the booster when pressure is high.</li>
             <li><strong>BG-GAT (passive):</strong> only water and refill lures — the cheapest of all to keep running.</li>
           </ul>
+          <p className="not-prose text-sm text-gray-600 mb-2">If you are running a propane unit instead, the octenol attractant cartridge is the consumable people forget until the long weekend it runs out on. It is a separate purchase from the fuel.</p>
+          <div className="not-prose mb-6">
+            <BuyLink tag={AMZ_TAG} search="mosquito trap octenol attractant">Check octenol attractant cartridges →</BuyLink>
+          </div>
           <p>For a standard 5,000–15,000 sq ft (465–1,400 m²) suburban lot in Mississauga or the wider GTA, the electric-plus-lure setup almost always makes more sense: lower running cost, no combustion, no tank storage in the garage. Propane only pulls ahead when raw coverage on a 1+ acre lot is the priority. If you are still weighing the whole category — UV, propane, electric, and everything else — our <Link href="/blog/best-mosquito-trap">best mosquito trap in Canada guide</Link> ranks them head-to-head.</p>
 
           <h2>Where to place a CO2 trap in an Ontario yard</h2>
@@ -284,8 +292,8 @@ export default function Co2MosquitoTrapCanadaPage() {
           </ul>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Traps thin the population. Barrier spray clears the yard today.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A CO2 trap works over weeks. When you need the backyard usable this weekend, BuzzSkito&rsquo;s licensed barrier spray knocks down the whole-yard population within hours and holds 21–30 days — from $99 for a single treatment, across 19 GTA cities.</p>
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Traps thin the population over weeks. Barrier spray is one visit.</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A CO2 trap works over weeks. When you have a weekend event coming, BuzzSkito&rsquo;s licensed barrier spray treats the resting sites across the whole yard in one visit — from $99 for a single treatment, across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -293,11 +301,15 @@ export default function Co2MosquitoTrapCanadaPage() {
           </aside>
 
           <h2>Traps vs professional barrier spray: use both</h2>
-          <p>A CO2 trap and a professional barrier spray are not rivals — they cover different timelines. The trap slowly draws the biting-female population down inside its zone and keeps working all season. The barrier spray coats the shaded leaf surfaces where mosquitoes rest and knocks the yard population down within hours, holding about 21–30 days per treatment. Only one of them also suppresses ticks, and it is the spray — no CO2 trap catches ticks, because ticks do not fly to a plume.</p>
-          <p>The strongest real-world setup we see in GTA backyards is a professional barrier spray for fast, whole-yard knockdown plus a Biogents trap or a GAT cluster to keep pulling the population down between treatments. If ticks are also on your radar — and in Mississauga and Halton they should be — a trap does nothing for them; that is a job for a permethrin perimeter or a dedicated tick program.</p>
+          <p>A CO2 trap and a professional barrier spray are not rivals — they cover different timelines. The trap slowly draws the biting-female population down inside its zone and keeps working all season. The barrier spray treats the shaded leaf surfaces where mosquitoes rest and is re-applied through the season. Only one of them has a tick option, and it is the spray — no CO2 trap catches ticks, because ticks do not fly to a plume.</p>
+          <p>The strongest real-world setup we see in GTA backyards is a professional barrier spray for whole-yard treatment plus a Biogents trap or a GAT cluster to keep pulling the population down between treatments. If ticks are also on your radar — and in Mississauga and Halton they should be — a trap does nothing for them; that is a job for a permethrin perimeter or a dedicated tick program.</p>
+          <p className="not-prose text-sm text-gray-600 mb-2">One cheap thing worth having in the drawer either way: a fine-point tick remover. Ticks come off cleanest with a proper hook or pointed tweezers rather than whatever is in the junk drawer, and you want it before you need it, not after.</p>
+          <div className="not-prose mb-6">
+            <BuyLink tag={AMZ_TAG} search="tick remover tool">Check tick removal tools on Amazon.ca →</BuyLink>
+          </div>
 
           <h2>Bottom line for Canadian buyers in 2026</h2>
-          <p>If you want a CO2 mosquito trap and you have a normal suburban yard, buy an electric Biogents unit and skip the tank entirely — the running cost is a fraction of propane and the capture design has real research behind it. If you have a cottage or a 1+ acre rural lot, a propane trap&rsquo;s reach or a cluster of passive BG-GATs is the better fit. And whatever trap you run, pair it with a professional barrier spray when you need the yard usable now, and a separate tick strategy if blacklegged ticks are in your area.</p>
+          <p>If you want a CO2 mosquito trap and you have a normal suburban yard, buy an electric Biogents unit and skip the tank entirely — the running cost is a fraction of propane and the capture design has real research behind it. If you have a cottage or a 1+ acre rural lot, a propane trap&rsquo;s reach or a cluster of passive BG-GATs is the better fit. And whatever trap you run, pair it with a professional barrier spray for the whole yard, and a separate tick strategy if blacklegged ticks are in your area.</p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -323,7 +335,7 @@ export default function Co2MosquitoTrapCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="A Trap Thins Them Out. We Clear the Whole Yard." subtext="Get a free quote for licensed barrier spray across the GTA. From $99. Same-day yard protection. 30-day residual." variant="dark" />
+      <CTASection heading="A Trap Thins Them Out. We Treat the Whole Yard." subtext="Get a free quote for licensed barrier spray across the GTA. From $99. Products applied according to label directions." variant="dark" />
     </>
   )
 }

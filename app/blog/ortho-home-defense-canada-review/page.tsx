@@ -14,7 +14,7 @@ const SLUG = 'ortho-home-defense-canada-review'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Ortho Home Defense in Canada: Does It Actually Kill Mosquitoes and Ticks?'
-const META_TITLE = 'Ortho Home Defense: Does It Kill Mosquitoes?'
+const META_TITLE = 'Ortho Home Defense in Canada: Does It Work?'
 
 const FAQS = [
   {
@@ -27,11 +27,11 @@ const FAQS = [
   },
   {
     question: 'What is the Canadian equivalent of Ortho Home Defense?',
-    answer: 'For crawling insects and a perimeter barrier around the home (ants, spiders, earwigs, boxelder bugs), the closest legally sold Canadian options are Ortho Bug B Gon ECO, Doktor Doom Residual, Wilson One Shot, and Raid Bug Barrier — all PMRA-registered and available at Canadian Tire, Home Depot Canada, and Amazon.ca. For mosquitoes specifically, there is no consumer "spray your yard" barrier product legally sold for cosmetic use in Ontario. Mosquito larvae in standing water are handled with BTI mosquito dunks, and adult mosquitoes across a whole yard are handled by a licensed applicator applying a PMRA-registered product.',
+    answer: 'For crawling insects and a perimeter barrier around the home (ants, spiders, earwigs, boxelder bugs), the closest legally sold Canadian options are Ortho Bug B Gon ECO, Doktor Doom Residual, Wilson One Shot, and Raid Bug Barrier — all PMRA-registered and available at Canadian Tire, Home Depot Canada, and Amazon.ca. For mosquitoes specifically, there is no consumer "spray your yard" barrier product legally sold for cosmetic use in Ontario. Mosquito larvae in standing water are handled with BTI mosquito dunks, and adult mosquitoes across a whole yard are handled by a licensed applicator applying product according to label directions.',
   },
   {
     question: 'Does Ortho Home Defense or Bug B Gon kill mosquitoes?',
-    answer: 'The US "Ortho Home Defense Mosquito Killer" and "Ortho Bug B Gon Mosquito Killer" hose-end and mist products are marketed to knock down adult mosquitoes on contact and leave a short residual on foliage. In practice, consumer contact sprays kill the mosquitoes they directly wet and give a few days of light residual at best — nowhere near the 21–30 day whole-yard control a licensed barrier treatment delivers. And in Ontario, the yard-application mosquito formulas are largely not available for cosmetic use anyway. For a real reduction in bites, the combination that works is a professional barrier spray plus BTI dunks in standing water: the dunks remove the larvae that keep resupplying the yard, and the licensed barrier product holds a residual on foliage for weeks rather than days — something a consumer contact spray is not formulated to do.',
+    answer: 'The US "Ortho Home Defense Mosquito Killer" and "Ortho Bug B Gon Mosquito Killer" hose-end and mist products are marketed to knock down adult mosquitoes on contact and leave a short residual on foliage. In practice, consumer contact sprays kill the mosquitoes they directly wet and give a few days of light residual at best — nowhere near the whole-yard coverage of a licensed barrier treatment renewed on a set schedule. And in Ontario, the yard-application mosquito formulas are largely not available for cosmetic use anyway. For a real reduction in bites, the combination that works is a professional barrier spray plus BTI dunks in standing water: the dunks remove the larvae that keep resupplying the yard, and the licensed barrier treatment leaves a residual on the leaves where mosquitoes rest, renewed on the plan\'s schedule (every 2 weeks on Standard, monthly on Basic) — something a consumer contact spray is not formulated to do.',
   },
   {
     question: 'Is Ortho Bug B Gon safe around kids and pets?',
@@ -43,7 +43,7 @@ const FAQS = [
   },
   {
     question: 'When should I just hire a professional instead of using Ortho?',
-    answer: 'Consumer sprays are fine for a line of ants at the door or a few spiders in the garage. Hire a pro when the problem is mosquitoes or ticks across a whole yard, when you have a recurring seasonal issue, when you have kids or pets and want the margin of a licensed, insured applicator, or when you simply want it handled without spraying anything yourself. A licensed barrier treatment covers the whole property, uses PMRA-registered products applied to label, lasts 21–30 days, and — unlike any Ortho consumer product sold in Canada — is built to control both mosquitoes and ticks. BuzzSkito treats from $99 across 19 GTA cities.',
+    answer: 'Consumer sprays are fine for a line of ants at the door or a few spiders in the garage. Hire a pro when the problem is mosquitoes or ticks across a whole yard, when you have a recurring seasonal issue, when you have kids or pets and want the margin of a licensed, insured applicator, or when you simply want it handled without spraying anything yourself. A licensed barrier treatment covers the whole property, is applied according to label directions, is renewed on your plan\'s schedule (every 2 weeks on Standard, monthly on Basic), and — unlike any Ortho consumer product sold in Canada — is built to control both mosquitoes and ticks. BuzzSkito treats from $99 across 19 GTA cities.',
   },
 ]
 
@@ -93,7 +93,7 @@ export default function OrthoHomeDefenseCanadaPage() {
               <li>Every pesticide legally sold in Canada must show a PCP (Pest Control Products) registration number on the label.</li>
               <li>Consumer contact mosquito sprays kill only the insects they directly wet and leave a few days of light residual at best.</li>
               <li>No consumer Ortho SKU sold in Canada provides tick control.</li>
-              <li>A licensed professional barrier spray from $99 covers the whole yard for 21–30 days and controls both mosquitoes and ticks.</li>
+              <li>A licensed professional barrier spray from $99 covers the whole yard and controls both mosquitoes and ticks, applied according to label directions.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
@@ -170,7 +170,7 @@ export default function OrthoHomeDefenseCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-rose-50 border-l-4 border-rose-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-rose-900">⚠️ The bifenthrin &ldquo;Home Defense Max&rdquo; is not a legal Canadian yard product.</strong> It is not PMRA-registered and bifenthrin is a Class 9 pesticide banned for cosmetic lawn/garden use in Ontario. For real mosquito relief, a licensed <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> uses PMRA-registered products, covers the whole yard for 21–30 days, and — unlike any Ortho consumer product sold here — also controls ticks.
+              <strong className="text-rose-900">⚠️ The bifenthrin &ldquo;Home Defense Max&rdquo; is not a legal Canadian yard product.</strong> It is not PMRA-registered and bifenthrin is a Class 9 pesticide banned for cosmetic lawn/garden use in Ontario. For real mosquito relief, a licensed <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> is applied according to label directions, covers the whole yard, and — unlike any Ortho consumer product sold here — also controls ticks.
             </p>
           </div>
         </div>
@@ -229,20 +229,23 @@ export default function OrthoHomeDefenseCanadaPage() {
             <li><strong>Spiders, earwigs, sowbugs, boxelder bugs</strong> — crawling insects that congregate around entry points</li>
             <li><strong>Spot treatment of a visible insect trail</strong> — contact control where you can see the problem</li>
           </ul>
+          <p>One caveat on the first line of that list. A perimeter spray only reaches the ants that walk through it, and the colony producing them is somewhere else entirely &mdash; which is why the same trail reappears at the same threshold a week later. Bait works the other way round, because the workers carry it home, so for a trail that keeps coming back a bait station is usually the thing that ends it. <BuyLink tag={AMZ_TAG} search="ant bait stations outdoor">Check outdoor ant bait stations on Amazon.ca &rarr;</BuyLink></p>
           <p>What the Canadian Ortho line is <strong>not</strong> built to do is give you a whole-yard mosquito barrier or any tick control. Those are different jobs with different (and more tightly regulated) products.</p>
 
           <h2>Ortho and Mosquitoes: The Honest Picture</h2>
           <p>Ortho markets US products like &ldquo;Home Defense Mosquito Killer&rdquo; and &ldquo;Bug B Gon Mosquito Killer&rdquo; as hose-end or mist treatments that knock down adult mosquitoes and leave a short residual on foliage. Two problems for a Canadian buyer:</p>
           <ol>
             <li><strong>Availability.</strong> The yard-application mosquito formulas are largely a US offering; in Ontario the cosmetic-use rules mean there is no consumer &ldquo;spray your whole lawn for mosquitoes&rdquo; Ortho product legally on the shelf.</li>
-            <li><strong>Real-world performance.</strong> Even where a consumer contact spray is available, it kills the mosquitoes it directly wets and gives, at best, a few days of light residual. That is a world away from the 21–30 days of whole-yard control a licensed barrier treatment delivers — and it does nothing for the standing-water breeding sites that keep re-supplying the adults.</li>
+            <li><strong>Real-world performance.</strong> Even where a consumer contact spray is available, it kills the mosquitoes it directly wets and gives, at best, a few days of light residual. That is a world away from a licensed barrier treatment that covers the whole yard and is renewed on a set schedule — and it does nothing for the standing-water breeding sites that keep re-supplying the adults.</li>
           </ol>
           <p>If mosquitoes are the actual problem, the effective, legal stack in Ontario is: <strong>BTI mosquito dunks</strong> in any standing water (bird baths, clogged gutters, low spots), plus a <Link href="/mosquito-control">licensed professional barrier spray</Link> for the adult population across the whole yard. That combination works on both ends of the life cycle &mdash; larvae in the water and adults resting in foliage &mdash; which is more than any single consumer Ortho SKU is built to do.</p>
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Ants at the door vs mosquitoes in the yard — pick the right tool.</p>
-            <p className="text-sm text-gray-800 leading-relaxed">A can of Ortho Bug B Gon ECO is the right call for a line of ants at the threshold. It is the wrong call for a yard full of mosquitoes or a tick-prone property line — no consumer Ortho SKU sold in Canada is built for either. For whole-yard, 21–30 day mosquito <em>and</em> tick control, that is a licensed <Link href="/mosquito-control">barrier treatment</Link> job.</p>
+            <p className="text-sm text-gray-800 leading-relaxed">A can of Ortho Bug B Gon ECO is the right call for a line of ants at the threshold. It is the wrong call for a yard full of mosquitoes or a tick-prone property line — no consumer Ortho SKU sold in Canada is built for either. For whole-yard mosquito <em>and</em> tick control, that is a licensed <Link href="/mosquito-control">barrier treatment</Link> job.</p>
           </div>
+
+          <p>A note on the larvicide half of that stack. Dunks are sized for standing water that sits still for weeks &mdash; a rain barrel, an ornamental pond, a low spot that never quite dries. For a bird bath you refresh every few days, or a plant saucer, the granular form of the same BTI is far easier to dose in small amounts without fishing a half-dissolved disc back out. <BuyLink tag={AMZ_TAG} search="mosquito bits granules">Check BTI mosquito granules on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>How to Use Ortho Bug B Gon ECO Safely</h2>
           <p>&ldquo;Reduced-risk&rdquo; does not mean &ldquo;no precautions.&rdquo; The label is the law — its PCP number and directions override anything you read online, this article included. A few universal points:</p>
@@ -253,6 +256,7 @@ export default function OrthoHomeDefenseCanadaPage() {
             <li><strong>Never over-apply or mix products</strong> — more is not better, and it can breach the label.</li>
             <li><strong>Store locked away</strong> from children and pets, in the original container.</li>
           </ul>
+          <p>One practical thing that list assumes: that you can actually follow the dilution rate printed on the label. Concentrate bottles cost far less per litre than the ready-to-spray versions, but they are useless without a sprayer, and measuring a concentrate into a watering can is how people end up over-applying. A one-gallon pump sprayer with an adjustable nozzle is the piece of kit that makes the label&rsquo;s own directions followable. <BuyLink tag={AMZ_TAG} search="1 gallon pump sprayer">Check pump sprayers on Amazon.ca &rarr;</BuyLink></p>
           <p>If you have a pet household, an edible garden, or you are simply not comfortable handling a pesticide yourself, that is a perfectly good reason to have a licensed, insured applicator do it instead.</p>
 
           <h2>Ortho vs a Professional Barrier Treatment</h2>
@@ -264,14 +268,14 @@ export default function OrthoHomeDefenseCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Ortho Home Defense Max (US bifenthrin)</strong></td><td className="px-3 py-2">No — unregistered · banned use</td><td className="px-3 py-2">N/A here</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Ortho Bug B Gon ECO (Canada)</strong></td><td className="px-3 py-2">Yes — per label (crawling insects)</td><td className="px-3 py-2">Not designed for it</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin (clothing/gear)</Link></td><td className="px-3 py-2">Gear/clothing use only</td><td className="px-3 py-2">Personal, not yard</td><td className="px-3 py-2">On treated clothing</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Yes — licensed, PMRA-registered</td><td className="px-3 py-2">Whole yard · 21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Yes — licensed application according to label directions</td><td className="px-3 py-2">Whole yard · renewed on your plan&rsquo;s schedule</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
           <p className="not-prose text-sm text-gray-600 mb-6">Want personal protection for hikes and yard work rather than a home-perimeter spray? A permethrin clothing-and-gear treatment is a different, legal tool — see our <Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin Canada guide</Link>.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — licensed, PMRA-registered products, backed by 150+ five-star reviews and serving 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — licensed application according to label directions, backed by 150+ five-star reviews and serving 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -280,7 +284,9 @@ export default function OrthoHomeDefenseCanadaPage() {
 
           <h2>The Honest Verdict for Canadian Buyers</h2>
           <p>Ortho is a solid brand — but a lot of what makes it famous in the US does not cross the border. If you are searching for &ldquo;Ortho Home Defense&rdquo; expecting the bifenthrin barrier, that product is not a legal Canadian yard buy. The Ortho you can actually purchase here, <strong>Bug B Gon ECO</strong>, is a fine, reasonably priced tool for crawling nuisance insects around the house — ants, spiders, earwigs at the door.</p>
-          <p>For <strong>mosquitoes and ticks</strong>, no consumer Ortho product sold in Canada is the answer. Handle standing water with BTI dunks, and for whole-yard, season-long relief that also covers ticks, use a licensed <Link href="/mosquito-control">professional barrier treatment</Link>. It is legal, it uses PMRA-registered products applied to label, and it works far better than anything you can spray from a hardware-store bottle.</p>
+          <p>For <strong>mosquitoes and ticks</strong>, no consumer Ortho product sold in Canada is the answer. Handle standing water with BTI dunks, and for whole-yard, season-long relief that also covers ticks, use a licensed <Link href="/mosquito-control">professional barrier treatment</Link>. It is legal, it is applied according to label directions, and it works far better than anything you can spray from a hardware-store bottle.</p>
+
+          <p>One layer this page has only mentioned in passing deserves its own line, because it is the only one that travels with you instead of staying on the property. Permethrin is a clothing-and-gear treatment &mdash; applied to boots, socks and trouser cuffs, never to skin &mdash; and it is the standard answer for hikes, trail runs and yard work along a wooded property line. It is a different job from anything on the Ortho shelf. <BuyLink tag={AMZ_TAG} search="permethrin clothing spray">Check permethrin clothing and gear spray on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -307,7 +313,7 @@ export default function OrthoHomeDefenseCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Grey-Market Sprays · Get Licensed Yard Protection" subtext="Get a free quote for professional barrier spray. From $99. PMRA-registered. Whole-yard mosquito + tick control, 21–30 day residual." variant="dark" />
+      <CTASection heading="Skip the Grey-Market Sprays · Get Licensed Yard Protection" subtext="Get a free quote for professional barrier spray. From $99. Licensed application according to label directions. Whole-yard mosquito + tick control, with a rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

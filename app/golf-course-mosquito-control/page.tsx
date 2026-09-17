@@ -2,8 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS } from '@/lib/constants'
+import { BUSINESS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Golf Course Mosquito Control Ontario',
@@ -15,7 +16,7 @@ export const metadata: Metadata = buildMetadata({
 const FAQS = [
   {
     question: 'How do you treat a golf course without disrupting play?',
-    answer: 'We schedule treatments during off-hours — early morning before the first tee time or late evening after the last group finishes. Treatment of specific areas (tee boxes, clubhouse surrounds) can also be done in sections during low-traffic periods. The product dries in approximately 30 minutes, so treated areas are safe for play well before golfers arrive. We work with your pro shop or course superintendent to coordinate timing.',
+    answer: 'We schedule treatments during off-hours — early morning before the first tee time or late evening after the last group finishes. Treatment of specific areas (tee boxes, clubhouse surrounds) can also be done in sections during low-traffic periods. Golfers and staff stay off treated areas until the spray has dried, as the product label directs, so we time treatments to finish well before play. We work with your pro shop or course superintendent to coordinate timing.',
   },
   {
     question: 'What areas of the golf course do you treat?',
@@ -26,12 +27,12 @@ const FAQS = [
     answer: 'Golf course pricing is property-specific and depends on the total area being treated, number of zones, and treatment frequency. Commercial programs include volume-based pricing and seasonal scheduling. Call (289) 216-5030 for a free site assessment and custom quote for your course.',
   },
   {
-    question: 'Is the treatment safe for the turf, water features, and wildlife?',
-    answer: 'Yes. Our Health Canada-approved, water-based formula is applied exclusively to vegetation and structural surfaces — not to maintained turf, putting greens, or directly into water features. We observe mandatory buffer zones around any water body. The product targets mosquitoes and ticks specifically and has minimal impact on non-target species when applied according to label directions.',
+    question: 'How is the treatment applied around turf, water features, and wildlife?',
+    answer: 'Our product is applied according to its label directions, to vegetation and structural surfaces only — not to maintained turf, putting greens, or directly into water features. We observe the buffer zones the label requires around any water body, and we walk the course with your superintendent first to mark any areas that should be left untreated.',
   },
   {
     question: 'Do you offer tick control for golf courses as well?',
-    answer: 'Yes. Tick control is especially important for golf courses with wooded borders, rough areas, naturalized zones, and properties near conservation lands or river corridors. Blacklegged ticks carrying Lyme disease are well-established in GTA green corridors. Our combined mosquito and tick treatment addresses both pests in a single service visit, reducing liability exposure for the course.',
+    answer: 'Yes. Tick control is especially important for golf courses with wooded borders, rough areas, naturalized zones, and properties near conservation lands or river corridors. Blacklegged ticks, which can carry the bacteria that cause Lyme disease, are established in parts of the GTA\'s green corridors; Public Health Ontario maps the current risk areas. Our combined mosquito and tick treatment addresses both pests in a single service visit.',
   },
 ]
 
@@ -54,14 +55,14 @@ export default function GolfCourseMosquitoControlPage() {
           { label: 'Golf Course' },
         ]}
         title={<>Golf Course Mosquito &amp; Tick Control in Ontario</>}
-        subtitle={<>Protect your members, guests, and staff from mosquitoes and ticks. BuzzSkito treats tee boxes, cart paths, clubhouse patios, and course perimeters &mdash; scheduled around your tee times and play schedule.</>}
+        subtitle={<>Licensed Ontario pesticide operator, with treatments applied according to label directions. BuzzSkito treats tee boxes, cart paths, clubhouse patios, and course perimeters &mdash; scheduled around your tee times and play schedule.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>&#10003; Health Canada&ndash;Approved Formula</span>
+          <span>&#10003; {PROMISES.licence}</span>
           <span>&#10003; Scheduled Around Tee Times</span>
           <span>&#10003; Mosquito + Tick Combined Treatment</span>
           <span>&#10003; Treatment Logs for Compliance</span>
@@ -77,8 +78,8 @@ export default function GolfCourseMosquitoControlPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Course Assessment', desc: 'We walk your property with your superintendent to identify high-pressure zones, water features, and priority treatment areas.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technicians treat tee box vegetation, cart path borders, clubhouse surrounds, and perimeter areas during off-hours using Health Canada-approved formula.' },
-              { step: '3', title: 'Seasonal Protection', desc: 'Regular treatments every 21-28 days maintain continuous protection from May through September. We coordinate every visit with your tee sheet.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technicians treat tee box vegetation, cart path borders, clubhouse surrounds, and perimeter areas during off-hours, applying the product according to its label directions.' },
+              { step: '3', title: 'Seasonal Protection', desc: 'Regular treatments every 21-28 days from May through September, because new mosquitoes keep arriving. We coordinate every visit with your tee sheet.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -94,8 +95,8 @@ export default function GolfCourseMosquitoControlPage() {
       <section className="py-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Golf Courses Need Professional Mosquito Control</h2>
-          <p>Golf courses are mosquito magnets. Irrigation ponds, water hazards, creek crossings, and low-lying areas create ideal breeding habitat. Dense vegetation along fairway borders and cart paths provides the shaded resting sites where mosquitoes spend 90% of their time. The result: golfers get bitten on tee boxes, along cart paths, and on the clubhouse patio &mdash; and that affects rounds played, member satisfaction, and event bookings.</p>
-          <p>Professional barrier spray targets these resting sites directly, killing active mosquito populations and creating a residual barrier that repels new mosquitoes for up to 30 days per treatment. The same treatment also eliminates ticks in treated zones &mdash; increasingly important as blacklegged ticks carrying Lyme disease expand throughout Ontario&rsquo;s green corridors.</p>
+          <p>Golf courses are mosquito magnets. Irrigation ponds, water hazards, creek crossings, and low-lying areas create ideal breeding habitat. Dense vegetation along fairway borders and cart paths provides the shaded resting sites where mosquitoes spend most of their time. The result: golfers get bitten on tee boxes, along cart paths, and on the clubhouse patio &mdash; and that affects rounds played, member satisfaction, and event bookings.</p>
+          <p>Professional barrier spray targets these resting sites directly, knocking down mosquitoes resting there and leaving a residual on treated vegetation, and it is repeated on a schedule through the season. The same visit can also treat the zones where ticks wait for a host &mdash; increasingly relevant as Public Health Ontario reports blacklegged tick risk areas expanding across Ontario.</p>
 
           <h2>Areas We Treat on Golf Courses</h2>
           <div className="not-prose grid sm:grid-cols-2 gap-4 mb-8">
@@ -126,7 +127,7 @@ export default function GolfCourseMosquitoControlPage() {
 
           <h2>Tick Control for Golf Courses</h2>
           <p>Golf courses with wooded borders, naturalized rough areas, or properties adjacent to conservation lands face increasing tick risk. Blacklegged ticks are well-established along GTA river corridors and in York Region. Golfers walking through rough, searching for errant shots near tree lines, or using cart paths bordered by tall grass are exposed to tick habitat.</p>
-          <p>BuzzSkito&rsquo;s combined mosquito and tick treatment addresses both pests in a single service visit. We treat the vegetation transition zones where ticks concentrate &mdash; the 1&ndash;3 metre border where maintained turf meets rough or wooded areas. This targeted approach provides effective tick control without treating the entire course acreage.</p>
+          <p>BuzzSkito&rsquo;s combined mosquito and tick treatment addresses both pests in a single service visit. We treat the vegetation transition zones where ticks concentrate &mdash; the 1&ndash;3 metre border where maintained turf meets rough or wooded areas. This targeted approach focuses on tick habitat without treating the entire course acreage.</p>
 
           <h2>Scheduling Around Play</h2>
           <p>We understand that course access and timing are critical. BuzzSkito treatment for golf courses is scheduled exclusively during off-hours:</p>
@@ -135,12 +136,14 @@ export default function GolfCourseMosquitoControlPage() {
             <li><strong>Late evening</strong> &mdash; after the last group finishes, typically after 7:00 PM</li>
             <li><strong>Shoulder season</strong> &mdash; spring and fall treatments can be scheduled during lower-traffic weekdays</li>
           </ul>
-          <p>The product dries in approximately 30 minutes. There is no visible residue and no odour. Treated areas are safe for play immediately after the dry period.</p>
+          <p>Golfers and staff stay off treated areas until the spray has dried, as the product label directs. That is why treatments are timed for off-hours.</p>
+
+          <CityPriceCard city="Ontario" service="mosquito" location="price_card_mid" />
 
           <h2>Commercial Pricing for Golf Courses</h2>
           <p>Golf course treatment is priced based on the total area treated, number of zones, and treatment frequency. We offer:</p>
           <ul>
-            <li><strong>Seasonal programs</strong> &mdash; 4&ndash;5 treatments from May through September with guaranteed scheduling windows</li>
+            <li><strong>Seasonal programs</strong> &mdash; 4&ndash;5 treatments from May through September with booked scheduling windows</li>
             <li><strong>Event-specific treatments</strong> &mdash; one-time treatments before tournaments, member events, and corporate outings</li>
             <li><strong>Custom zone programs</strong> &mdash; treat priority areas only (clubhouse + tee boxes) rather than full course perimeter</li>
           </ul>
@@ -183,6 +186,10 @@ export default function GolfCourseMosquitoControlPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Ontario" service="mosquito" />
+      </div>
 
       {/* FAQ */}
       <section className="py-10 px-4 bg-brand-50">

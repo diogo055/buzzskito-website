@@ -10,6 +10,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const POST = {
   title: 'West Nile Virus in Mississauga 2026: Risk, Surveillance, and Yard Protection',
@@ -23,7 +24,7 @@ const UPDATED = POST.date
 const FAQS = [
   {
     question: 'Has West Nile been found in Mississauga in 2026?',
-    answer: 'Yes. Peel Public Health runs an active West Nile Virus surveillance program every year that includes catch-basin mosquito trapping, dead-bird testing, and lab analysis of pooled Culex mosquito samples. WNV-positive mosquito pools have been confirmed in Mississauga in every recent surveillance year, and 2026 is showing the same pattern with positive captures already reported from Lake Ontario shoreline traps and inland sites in Cooksville and Applewood. Human cases in Peel are uncommon — typically a handful per year — but the virus is undeniably present in the local mosquito population. The risk is meaningfully reduced by personal repellent use and yard-level mosquito control.',
+    answer: 'Yes. Peel Public Health runs an active West Nile Virus surveillance program every year that includes catch-basin mosquito trapping, dead-bird testing, and lab analysis of pooled Culex mosquito samples. WNV-positive mosquito pools have been confirmed in Mississauga in every recent surveillance year, and 2026 is showing the same pattern with positive captures already reported from Lake Ontario shoreline traps and inland sites in Cooksville and Applewood. Human cases in Peel are uncommon — typically a handful per year — but the virus is undeniably present in the local mosquito population. Public health agencies advise using personal repellent and removing standing water around the home.',
   },
   {
     question: 'What time of day are West Nile mosquitoes most active?',
@@ -39,7 +40,7 @@ const FAQS = [
   },
   {
     question: 'How does professional mosquito control reduce West Nile risk?',
-    answer: 'A professional barrier spray program reduces West Nile risk through two mechanisms. First, it kills adult mosquitoes resting on the underside of leaves and on shaded vegetation during the day — including the Culex pipiens that would otherwise bite your family at dusk. Second, the residual stays active on those treated surfaces for roughly 30 days, so mosquitoes flying in from neighbouring properties or public green space land on a treated surface rather than a clean one. It does not clear your yard — mosquitoes keep arriving, which is why the treatment is repeated — and it does not replace weekly standing water elimination or personal repellent after dusk. Those layers together are what lowers your household\'s WNV exposure.',
+    answer: 'A barrier spray is a mosquito control service, not a West Nile prevention measure, and no yard treatment can promise to lower your household\'s infection risk. What it does is treat the underside of leaves and the shaded vegetation where adult mosquitoes rest during the day, including Culex pipiens, and leave a temporary residual on those surfaces so mosquitoes flying in from neighbouring properties or public green space land on a treated surface rather than a clean one. It does not clear your yard — mosquitoes keep arriving, which is why the treatment is repeated — and it does not replace the steps public health agencies recommend: weekly standing water elimination and personal repellent after dusk.',
   },
 ]
 
@@ -83,14 +84,14 @@ export default function WestNileMississaugaPage() {
 
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">West Nile Virus is confirmed in Mississauga&rsquo;s Culex pipiens mosquitoes every surveillance year, including 2026, but human cases in Peel remain uncommon; the dusk-biting mosquitoes are bred mostly in local standing water, so weekly water removal and yard-level control are the highest-leverage prevention.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">West Nile Virus is confirmed in Mississauga&rsquo;s Culex pipiens mosquitoes every surveillance year, including 2026, but human cases in Peel remain uncommon; the dusk-biting mosquitoes are bred mostly in local standing water, so weekly water removal, repellent at dusk, and yard-level mosquito control are the practical homeowner steps.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>Peel Public Health confirms WNV-positive mosquito pools in Mississauga every recent surveillance year; human cases in Peel stay uncommon &mdash; typically a handful per year.</li>
             <li>The main vector, Culex pipiens, feeds at dusk and dawn, with peak biting roughly 8&ndash;11 PM in June and July.</li>
             <li>Culex pipiens is a weak flier, rarely travelling more than 200 metres from where it breeds, so local standing water drives local biting.</li>
             <li>It breeds in water as small as a bottle cap; a clogged gutter holding water for 7 days can produce hundreds of adults.</li>
             <li>Peel runs catch-basin larviciding but does not adulticide (fog) neighbourhoods, so yard standing water is the homeowner&rsquo;s responsibility.</li>
-            <li>A professional barrier spray holds a residual on the shaded resting vegetation for roughly 30 days per treatment, then wears off.</li>
+            <li>A professional barrier spray holds a residual on the shaded resting vegetation for a few weeks per treatment, then wears off.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           <p className="mt-1.5 text-xs text-gray-500">Health information for general education, not medical advice. Contact Peel Public Health or a healthcare provider about West Nile symptoms or concerns.</p>
@@ -106,7 +107,7 @@ export default function WestNileMississaugaPage() {
         </aside>
 
         <p className="text-lg text-gray-700 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8 leading-relaxed">
-          <strong>TL;DR:</strong> West Nile Virus is confirmed in Mississauga\'s Culex pipiens mosquito population every year, including 2026. Peel Public Health runs surveillance and catch-basin larviciding but does not adulticide spray. The mosquitoes biting your family at dusk are bred mostly in your own yard\'s standing water and your immediate neighbours\'. Weekly water elimination plus a professional barrier spray program is the highest-leverage homeowner response.
+          <strong>TL;DR:</strong> West Nile Virus is confirmed in Mississauga\'s Culex pipiens mosquito population every year, including 2026. Peel Public Health runs surveillance and catch-basin larviciding but does not adulticide spray. The mosquitoes biting your family at dusk are bred mostly in your own yard\'s standing water and your immediate neighbours\'. Weekly water elimination and repellent at dusk are the steps public health agencies recommend; a professional barrier spray program adds a layer against the adult mosquitoes resting in your yard, alongside those steps rather than in place of them.
         </p>
 
         <h2>The 2026 picture: West Nile is established here</h2>
@@ -123,7 +124,7 @@ export default function WestNileMississaugaPage() {
         <p>Culex pipiens is a weak flier. Most individuals never travel more than 200 metres from where they emerge. That means the mosquito biting you at dusk almost certainly bred within a couple hundred metres of where you\'re standing — your yard, your neighbour\'s yard, the catch basin in front of your house, the rain barrel on the property behind you. This is a meaningful prevention insight: yard-level action genuinely does suppress the local biting population in a way that\'s impossible for, say, a long-flying Aedes species that travels kilometres.</p>
 
         <h3>Dusk-and-dawn feeding behaviour</h3>
-        <p>Culex pipiens is crepuscular — most active in the hour before sunset, the hour after sunset, and again in the early morning. This overlaps almost perfectly with summer backyard dinners, evening dog walks, and patio time. It also tells you when personal repellent and barrier spray protection matter most.</p>
+        <p>Culex pipiens is crepuscular — most active in the hour before sunset, the hour after sunset, and again in the early morning. This overlaps almost perfectly with summer backyard dinners, evening dog walks, and patio time. It also tells you when personal repellent matters most, and which hours a yard mosquito treatment should be planned around.</p>
 
         <h2>Why Mississauga\'s geography supports West Nile transmission</h2>
         <h3>Lake Ontario shoreline acts as a bird amplifier</h3>
@@ -145,27 +146,27 @@ export default function WestNileMississaugaPage() {
 
         <h3>Treat ornamental ponds and water features</h3>
         <AffiliateDisclosure />
-        <p>If you have a backyard pond, fountain, or water feature, either keep the water moving constantly (Culex won\'t breed in moving water) or use Bti products like Mosquito Dunks or Mosquito Bits — they kill mosquito larvae but are safe for fish, birds, pets, and beneficial insects. One dunk treats up to 100 sq ft of water surface for 30 days. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> For small containers, rain barrels, and low spots that need a faster knockdown, granular Mosquito Bits release Bti immediately rather than over weeks. <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink></p>
+        <p>If you have a backyard pond, fountain, or water feature, either keep the water moving constantly (Culex won\'t breed in moving water) or use Bti products like Mosquito Dunks or Mosquito Bits — they target mosquito larvae; follow the label directions for ponds and water features. One dunk treats up to 100 sq ft of water surface for 30 days. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink> For small containers, rain barrels, and low spots that need a faster knockdown, granular Mosquito Bits release Bti immediately rather than over weeks. <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits on Amazon.ca →</BuyLink></p>
 
         <TopPick tag={AMZ_TAG}
           label="Best DIY for Standing Water"
           name="Summit Mosquito Dunks (Bti larvicide)"
-          blurb="For the standing water you can't drain — ponds, rain barrels, low spots — a Bti dunk kills Culex pipiens larvae before they hatch into the dusk-biting adults that carry West Nile, while staying safe for fish, birds, pets, and beneficial insects. One dunk treats up to 100 sq ft of water surface for about 30 days, making it the single highest-value product a Mississauga homeowner can add to a weekly water-elimination routine."
+          blurb="For the standing water you can't drain — ponds, rain barrels, low spots — a Bti dunk kills Culex pipiens larvae before they hatch into the dusk-biting adults that can carry West Nile. One dunk treats up to 100 sq ft of water surface for about 30 days, making it the single highest-value product a Mississauga homeowner can add to a weekly water-elimination routine."
           search="summit mosquito dunks"
           score={8.7}
-          pros={['Targets larvae before they can bite', 'Safe for fish, birds, and pets', 'Each dunk lasts about 30 days']}
+          pros={['Targets larvae before they can bite', 'Slow-release Bti over weeks', 'Each dunk lasts about 30 days']}
           cons={['Only treats water you can reach', 'Does nothing for adult mosquitoes']}
         />
 
         <h3>Professional barrier spray for adult mosquitoes</h3>
-        <p>Standing water elimination handles the larvae you can find. A professional barrier spray handles the adults that flew in from sites you can\'t. Targeted to shaded resting habitat — the underside of leaves, dense shrub interiors, mulched beds, fence-line vegetation — a barrier spray knocks down what is resting there and holds a residual on those surfaces for roughly 30 days per treatment, after which it wears off and mosquitoes from off-property fill back in. For a meaningful season-long impact in a Mississauga yard, the BuzzSkito Standard Season runs 10 biweekly treatments from May through September.</p>
+        <p>Standing water elimination handles the larvae you can find. A professional barrier spray handles the adults that flew in from sites you can\'t. Targeted to shaded resting habitat — the underside of leaves, dense shrub interiors, mulched beds, fence-line vegetation — a barrier spray knocks down what is resting there and holds a residual on those surfaces for a few weeks per treatment, after which it wears off and mosquitoes from off-property fill back in. For a meaningful season-long impact in a Mississauga yard, the BuzzSkito Standard Season runs 10 biweekly treatments from May through September.</p>
         <p>When those treatments land matters as much as how many there are. The first spray should go down between May 20 and June 4 depending on the neighbourhood, and the last in mid-to-late September — the reasoning behind both bookends is in <Link href="/blog/when-to-spray-mosquitoes-mississauga-2026" className="text-brand-700 underline">our guide to when to spray in Mississauga</Link>.</p>
 
         <h3>Personal protection during dusk hours</h3>
         <p>Even with all of the above, plan for repellent during the 8-11 PM dusk window in June and July. Picaridin (20%), DEET (20-30%), or oil of lemon eucalyptus all work. Long sleeves and pants help. Move dinners and dog walks earlier when possible.</p>
 
         <h2>Same-week mosquito service across Mississauga</h2>
-        <p>BuzzSkito provides same-week barrier spray service across every Mississauga neighbourhood — from the Port Credit waterfront and Lorne Park ravines to inland Erin Mills, Churchill Meadows, and Meadowvale. The Standard Season program runs 10 biweekly treatments timed to peak Culex pipiens activity. Combined <Link href="/mississauga-mosquito-control" className="text-brand-700 underline">Mississauga mosquito control</Link> and <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga tick spray</Link> programs save $100 versus standalone services. Quotes go out within 24 hours.</p>
+        <p>BuzzSkito provides same-week barrier spray service across every Mississauga neighbourhood — from the Port Credit waterfront and Lorne Park ravines to inland Erin Mills, Churchill Meadows, and Meadowvale. The Standard Season program runs 10 biweekly treatments timed to peak Culex pipiens activity. Combined <Link href="/mississauga-mosquito-control" className="text-brand-700 underline">Mississauga mosquito control</Link> and <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga tick spray</Link> programs save $100 versus standalone services. {PROMISES.response}</p>
 
         <h2>Related guides</h2>
         <ul>
@@ -175,7 +176,7 @@ export default function WestNileMississaugaPage() {
           <li><Link href="/yard-risk-report" className="text-brand-700 underline">Free Yard Risk Report — your address-specific score</Link></li>
         </ul>
 
-        <p className="text-sm text-gray-600 mt-8">Stay safe out there.<br/>— Alex &amp; The BuzzSkito Team</p>
+        <p className="text-sm text-gray-600 mt-8">Take care out there.<br/>— Alex &amp; The BuzzSkito Team</p>
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4">
           {FAQS.map(({ question, answer }) => (
@@ -193,7 +194,7 @@ export default function WestNileMississaugaPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (Bti larvicide)" search="summit mosquito dunks" label="For standing water" />
 
-      <CTASection heading="West Nile is established in Mississauga — protect your yard before peak season" subtext="Free custom quote based on your address and lot size. Sent within 24 hours. Same-week barrier spray service across every Mississauga neighbourhood." />
+      <CTASection heading="West Nile is established in Mississauga — plan your yard's mosquito control before peak season" subtext={`Free custom quote based on your address and lot size. ${PROMISES.response} Same-week barrier spray service across every Mississauga neighbourhood.`} />
     </>
   )
 }

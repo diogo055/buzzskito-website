@@ -104,10 +104,10 @@ export function scoreLyme(a: LymeAnswers): LymeResult {
   // Tick checks (protective factor)
   if (a.tickChecks === 'every-time') {
     score -= 8 // protective
-    drivers.push('You consistently do tick checks after outdoor activities — this is the single most effective Lyme prevention behaviour. Ticks need 24-36 hours attached to transmit Lyme; finding them early prevents transmission.')
+    drivers.push('You consistently do tick checks after outdoor activities — one of the most effective Lyme prevention habits. The Public Health Agency of Canada notes that in most cases a tick must be attached for 24 hours or more to spread Lyme bacteria, so finding ticks early lowers the chance of transmission.')
   } else if (a.tickChecks === 'never' && a.pastExposure !== 'never') {
     score += 8
-    drivers.push('Inconsistent tick-checking combined with high exposure activities is a meaningful gap. Ticks need 24-36 hours of attachment to transmit Lyme — most cases happen because the tick wasn\'t found in time.')
+    drivers.push('Inconsistent tick-checking combined with high exposure activities is a meaningful gap. In most cases a tick must be attached for 24 hours or more to spread Lyme bacteria (Public Health Agency of Canada), so a tick that isn\'t found in time is the main risk.')
   }
 
   // Past exposure
@@ -152,17 +152,21 @@ export function scoreLyme(a: LymeAnswers): LymeResult {
 
   // Prevention recommendations
   const prevention: string[] = []
-  if (a.dogWalking !== 'no-dog' && a.dogWalking !== null) prevention.push('Ask your vet about NexGard, Bravecto, or Simparica oral tick prevention for your dog. These kill ticks within 8-12 hours of attachment — well before the 24-36 hour Lyme transmission window.')
+  // Sep 2026 claim fixes: the vet-product kill times were unsourced; consumer permethrin sprays for treating
+  // your own clothing are not approved in Canada (PHAC: only factory pre-treated clothing, for people over 16);
+  // and "safe for kids" is barred wording, so the icaridin line now defers to Health Canada's age guidance
+  // and the product label.
+  if (a.dogWalking !== 'no-dog' && a.dogWalking !== null) prevention.push('Ask your vet about an oral or topical tick-prevention product for your dog (for example NexGard, Bravecto, or Simparica), and how quickly each one works on attached ticks. Check your dog for ticks after every walk.')
   if (a.kidsOutdoor !== 'no-kids' && a.kidsOutdoor !== null) prevention.push('Tick checks for kids after outdoor play — focus on hairline, behind ears, armpits, waistband, and behind knees. Light-coloured clothing makes ticks visible.')
-  if (a.hiking === 'weekly' || a.hiking === 'monthly') prevention.push('Treat hiking pants and socks with permethrin (Sawyer brand at MEC, Cabela\'s, or Canadian Tire — $24-$38). Permethrin kills ticks on contact through fabric and lasts 6 wash cycles.')
-  prevention.push('Picaridin 20% on exposed skin during outdoor time — repels ticks for 8 hours, safe for kids 6 months+.')
+  if (a.hiking === 'weekly' || a.hiking === 'monthly') prevention.push('For regular hiking, consider factory permethrin-treated clothing. The Public Health Agency of Canada notes that pre-treated clothing is approved in Canada for people over 16, while permethrin sprays for treating your own clothes are not. Tuck pants into socks on trails either way.')
+  prevention.push('Use a personal repellent with DEET or icaridin (picaridin) on exposed skin during outdoor time. Health Canada\'s repellent guidance sets age limits for each (neither is for babies under 6 months), so check the label for your child\'s age and how often to reapply.')
   prevention.push('Shower within 2 hours of coming inside from grass or wooded areas — water washes off unattached ticks before they bite.')
   if (a.yardFeatures === 'wooded' || a.yardFeatures === 'leafy') prevention.push('Rake and remove leaf litter from yard perimeter — single biggest tick habitat reduction you can do at zero cost.')
 
   // Yard pivot
   const yardPivot = score >= 50
-    ? 'The biggest variable you control is making sure your own property isn\'t a tick reservoir. Even the best personal vigilance can\'t protect you from ticks dropped in your yard by deer, raccoons, mice, and your own pet returning from walks. A barrier treatment applies a Health Canada-registered residual acaricide directly to the yard perimeter, leaf litter, and shaded shrub edges — the specific micro-habitats where blacklegged ticks quest, rather than the open lawn. No treatment eliminates ticks from a property, and ticks keep arriving on wildlife all season, so the point of re-application is to keep those edge zones under pressure through the active months rather than to guarantee a tick-free yard.'
-    : 'Even at moderate risk, the highest-leverage move is ensuring your own yard isn\'t harbouring ticks. Single barrier spray treatments timed for late May, July, and early September catch the three peak tick activity windows.'
+    ? 'The biggest variable you control is making sure your own property isn\'t a tick reservoir. Even the best personal vigilance can\'t protect you from ticks dropped in your yard by deer, raccoons, mice, and your own pet returning from walks. A barrier treatment, applied by a licensed operator according to the product label, targets the yard perimeter, leaf litter, and shaded shrub edges — the specific micro-habitats where blacklegged ticks quest, rather than the open lawn. No treatment eliminates ticks from a property, and ticks keep arriving on wildlife all season, so the point of re-application is to keep those edge zones under pressure through the active months rather than to guarantee a tick-free yard.'
+    : 'Even at moderate risk, the highest-leverage move is ensuring your own yard isn\'t harbouring ticks: rake out leaf litter at the lawn edges, keep grass short, and move play areas away from wooded borders. If you want professional help, a tick season program is 5 treatments spread across the active months.'
 
   return {
     score,

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { NEW_BLOGS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { NEW_BLOGS, MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 const POST = NEW_BLOGS[0]
 
@@ -29,12 +29,12 @@ const FAQS = [
   {
     question: 'How many treatments do Vaughan homeowners typically need per season?',
     answer:
-      "Most Vaughan properties benefit from 4–5 treatments from May through September. Properties adjacent to Boyd Conservation Area or the Humber River corridor often need the full five, since mosquitoes continuously re-enter from the conserved lands next door. We'll assess your specific lot and recommend a schedule that makes sense.",
+      "Most Vaughan properties are well served by a monthly schedule: 5 treatments from May through September. Properties adjacent to Boyd Conservation Area or the Humber River corridor need that full season with no gaps, and some step up to a treatment every 2 weeks, since mosquitoes continuously re-enter from the conserved lands next door. We'll assess your specific lot and recommend a schedule that makes sense.",
   },
   {
     question: 'Is professional mosquito spray safe near the conservation areas?',
     answer:
-      "Yes. BuzzSkito uses Health Canada–approved formulas applied only to your private property — we target resting sites like hedges, shrub undersides, and tree canopy edges where adult mosquitoes harbour during the day. We don't treat open water or land beyond your property boundaries. After 30 minutes of drying, the treated areas are safe for kids, pets, and pollinators.",
+      "BuzzSkito uses registered products applied according to label directions, and only on your private property — we target resting sites like hedges, shrub undersides, and tree canopy edges where adult mosquitoes harbour during the day. We don't treat open water or land beyond your property boundaries, and we don't spray flowering plants where pollinators forage. Keep kids and pets off treated areas until the spray has dried, as the product label directs.",
   },
 ]
 
@@ -63,14 +63,14 @@ export default function MosquitoControlVaughanPage() {
         <div className="max-w-3xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Vaughan has some of the heaviest mosquito pressure in York Region because the Humber River floodplain, Boyd Conservation Area, and new-subdivision stormwater ponds constantly re-seed residential yards. The most effective protection is a professional barrier-spray program &mdash; typically 4&ndash;5 treatments from May through September.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Vaughan has some of the heaviest mosquito pressure in York Region because the Humber River floodplain, Boyd Conservation Area, and new-subdivision stormwater ponds constantly re-seed residential yards. The most effective protection is a professional barrier-spray program &mdash; typically 5 monthly treatments from May through September.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Boyd Conservation Area covers 1,700 acres in the heart of Vaughan, and the Kortright Centre adds another 325 acres of mosquito harbouring habitat.</li>
-              <li>Most Vaughan properties need 4&ndash;5 barrier-spray treatments per season; homes beside Boyd or the Humber corridor usually need the full 5.</li>
-              <li>Each Health Canada&ndash;approved treatment provides 3&ndash;4 weeks of residual protection.</li>
+              <li>Most Vaughan properties suit 5 monthly barrier-spray treatments per season; homes beside Boyd or the Humber corridor need the full season with no gaps, and some treat every 2 weeks.</li>
+              <li>Each treatment uses a registered product applied according to label directions; the residual wears down with time and rain, so treatments repeat through the season.</li>
               <li>First adult mosquitoes emerge near the Humber floodplain in late April; peak season runs June through July.</li>
               <li>Boyd, the Humber valley, and Kortright are also confirmed blacklegged tick habitat documented by York Region Public Health.</li>
-              <li>Treated areas are safe for kids, pets, and pollinators after a 30-minute drying window.</li>
+              <li>Keep kids and pets off treated areas until the spray has dried, as the product label directs.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
@@ -114,7 +114,7 @@ export default function MosquitoControlVaughanPage() {
         <h2>What Actually Works: Barrier Spray for Vaughan Properties</h2>
         <p>The most effective approach for Vaughan homeowners is professional barrier spray targeting the daytime resting sites on your property — shrub undersides, hedge interiors, the shaded edge between lawn and garden beds, and lower tree canopy. This is where adult mosquitoes harbour during the day and from where they emerge at dusk.</p>
         <p>Store-bought products, citronella candles, and backyard foggers provide temporary relief but don&rsquo;t break the cycle. Because Vaughan properties are continuously re-seeded by mosquitoes from adjacent conservation lands, you need ongoing residual protection — not a one-time fix.</p>
-        <p>BuzzSkito&rsquo;s Health Canada–approved barrier spray provides 3–4 weeks of residual protection per treatment. For Vaughan properties adjacent to Boyd or the Humber River, we typically recommend a 5-treatment program running May through September.</p>
+        <p>BuzzSkito&rsquo;s barrier spray uses registered products applied according to label directions, and because the residual wears down with time and rain, it is repeated through the season. For Vaughan properties adjacent to Boyd or the Humber River, we typically recommend a 5-treatment program running May through September.</p>
 
         <h2>Related Guides and Services</h2>
         <ul>
@@ -139,7 +139,7 @@ export default function MosquitoControlVaughanPage() {
 
       <CTASection
         heading="Protect Your Vaughan Backyard This Season"
-        subtext="Get a free mosquito control quote for your Vaughan property. No contracts, free re-spray guarantee."
+        subtext={`Get a free mosquito control quote for your Vaughan property. No contracts. ${PROMISES.rainBackShort}.`}
       />
     </>
   )

@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'mosquito-bits-canada-vs-dunks'
 const DATE = '2026-05-01'
@@ -36,7 +37,7 @@ const FAQS = [
   },
   {
     question: 'Are mosquito bits safe for pets, kids, fish, and pollinators?',
-    answer: 'Yes — Mosquito Bits are extremely safe. The active ingredient (BTI) is a naturally-occurring soil bacterium that specifically targets mosquito and black fly larvae. It does not affect humans, dogs, cats, fish, frogs, dragonflies, beneficial insects, pollinators, or birds. On drinking water specifically, Health Canada’s PMRA states that no product containing Bti may be applied to treated, finished drinking water for human consumption — while separately stating it has no human health and safety concerns about applying registered Bt products to bodies of water that will be used for human consumption. Your dog can technically eat the bits without harm (it might cause mild digestive upset like any unfamiliar food, but no toxicity). Always store the container away from kids — not because of toxicity, but because the corn-cob looks like cereal and you don\'t want kids snacking on it.',
+    answer: 'The honest answer is to follow the label rather than rely on a blanket promise. The active ingredient (BTI) is a naturally-occurring soil bacterium whose proteins act on the larvae of mosquitoes, black flies and a few related midges once the larvae eat it. On drinking water specifically, Health Canada’s PMRA states that no product containing Bti may be applied to treated, finished drinking water for human consumption — while separately stating it has no human health and safety concerns about applying registered Bt products to bodies of water that will be used for human consumption. Use Bits only on the water sites the label lists, and store the container out of reach of children and pets as you would any pesticide, especially since the corn-cob granules look a lot like cereal.',
   },
   {
     question: 'How fast do mosquito bits work?',
@@ -60,7 +61,7 @@ const FAQS = [
   },
   {
     question: 'What is BTI (Bacillus thuringiensis israelensis)?',
-    answer: 'BTI (Bacillus thuringiensis israelensis) is a naturally occurring soil bacterium used as a biological larvicide. When mosquito or black fly larvae eat it, its proteins destroy their gut and kill them within about 24 hours, while leaving everything else unharmed. According to Health Canada and public-health agencies, BTI is highly specific to these larvae and poses no risk to humans, pets, fish, frogs, bees, or birds. Note that Health Canada’s PMRA does not permit any Bti product to be applied to treated, finished drinking water for human consumption, even though it raises no health concern about Bt applied to raw water bodies later used for consumption. It is the active ingredient in both Mosquito Bits and Dunks.',
+    answer: 'BTI (Bacillus thuringiensis israelensis) is a naturally occurring soil bacterium used as a biological larvicide. When mosquito or black fly larvae eat it, its proteins destroy their gut and kill them within about 24 hours. BTI is highly specific: its proteins act on the larvae of mosquitoes, black flies and a few related midges. Note that Health Canada’s PMRA does not permit any Bti product to be applied to treated, finished drinking water for human consumption, even though it raises no health concern about Bt applied to raw water bodies later used for consumption. It is the active ingredient in both Mosquito Bits and Dunks.',
   },
   {
     question: 'Are mosquito dunks the same as mosquito bits?',
@@ -68,7 +69,7 @@ const FAQS = [
   },
   {
     question: 'Why do people think mosquito bits are banned in Canada?',
-    answer: 'Mosquito Bits are not banned in Canada — the confusion usually comes from periodic retail shortages and from specific brands or package sizes not always being stocked in Canadian stores. BTI products are approved by Health Canada\'s Pest Management Regulatory Agency for residential use, and both Bits and Dunks are legally sold at Canadian Tire, Home Depot, Rona, and Amazon.ca. If a particular listing is unavailable, it is a supply or import issue, not a legal ban.',
+    answer: 'Mosquito Bits are not banned in Canada — the confusion usually comes from periodic retail shortages and from specific brands or package sizes not always being stocked in Canadian stores. BTI products carrying a Canadian PCP registration number are legal for residential use, and both Bits and Dunks are legally sold at Canadian Tire, Home Depot, Rona, and Amazon.ca. If a particular listing is unavailable, it is a supply or import issue, not a legal ban.',
   },
   {
     question: 'Can I put mosquito bits directly in soil?',
@@ -80,7 +81,7 @@ const FAQS = [
   },
   {
     question: 'Are mosquito bits legal in Canada?',
-    answer: 'Yes. BTI larvicides are registered for sale in Canada and are stocked at Canadian Tire, Home Depot, Rona, and Home Hardware. Every pesticide sold in Canada is registered by Health Canada\u2019s Pest Management Regulatory Agency (PMRA) and carries a PCP registration number on the label. The confusion comes from the PMRA\u2019s Bti fact sheet, which states that nearly all products containing Bti are Restricted class products used to control black fly and mosquito larvae in aquatic situations where the flow of water is not confined to a small area, and that commercial class Bti products may be used only in private ponds and farm dugouts where no outflow beyond the property limits exists. Those classes govern the large-volume products licensed applicators use on open and flowing water \u2014 not the small consumer packs sold for containerized water around a home, which is about as confined to a small area as water gets. Note that the PMRA fact sheet is marked ARCHIVED (last updated 4 May 2017); to verify any specific product, look up the PCP number printed on the package in the PMRA Pesticide Label Search database. A US EPA registration number on an imported bag is not a Canadian registration.',
+    answer: 'Yes. BTI larvicides are registered for sale in Canada and are stocked at Canadian Tire, Home Depot, Rona, and Home Hardware. Every pesticide legally sold in Canada must be registered under the Pest Control Products Act, which Health Canada\u2019s Pest Management Regulatory Agency (PMRA) administers, and carry a PCP registration number on the label. The confusion comes from the PMRA\u2019s Bti fact sheet, which states that nearly all products containing Bti are Restricted class products used to control black fly and mosquito larvae in aquatic situations where the flow of water is not confined to a small area, and that commercial class Bti products may be used only in private ponds and farm dugouts where no outflow beyond the property limits exists. Those classes govern the large-volume products licensed applicators use on open and flowing water \u2014 not the small consumer packs sold for containerized water around a home, which is about as confined to a small area as water gets. Note that the PMRA fact sheet is marked ARCHIVED (last updated 4 May 2017); to verify any specific product, look up the PCP number printed on the package in the PMRA Pesticide Label Search database. A US EPA registration number on an imported bag is not a Canadian registration.',
   },
   {
     question: 'How much mosquito bits do I use per square foot?',
@@ -153,7 +154,7 @@ export default function MosquitoBitsCanadaPage() {
               <li>Mosquito Bits start releasing BTI within about 30 minutes and reach full larvae kill within 24 hours.</li>
               <li>Mosquito Dunks slow-release BTI for roughly 30 days; Bits last about 7 to 14 days per application.</li>
               <li>At Summit&rsquo;s label rate, an 8-oz container of Bits treats about 2,000 sq ft of relatively clean water surface &mdash; roughly half that in deep or organic-heavy water.</li>
-              <li>Both use BTI (Bacillus thuringiensis israelensis) &mdash; safe for humans, pets, fish, frogs, and pollinators. BTI larvicides are registered in Canada by Health Canada&rsquo;s PMRA; check the PCP number on the package in front of you to confirm the one you are buying is.</li>
+              <li>Both use BTI (Bacillus thuringiensis israelensis) &mdash; a bacterial larvicide that acts on mosquito and black fly larvae; follow the label. BTI larvicides are registered for sale in Canada; check the PCP number on the package in front of you to confirm the one you are buying is.</li>
               <li>Bits and Dunks are sold through Home Depot Canada, Home Hardware, Canadian Tire, RONA, garden centres, and Amazon.ca &mdash; stock is seasonal.</li>
               <li>BTI only treats the water you apply it to; adult mosquitoes flying in still need a barrier spray.</li>
             </ul>
@@ -208,7 +209,7 @@ export default function MosquitoBitsCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Bits kill larvae in your treated water — not the adult mosquitoes flying onto your property.</strong> For complete yard protection in the GTA, combine bits/dunks (your standing water) with professional barrier spray on vegetation. Bits cost $15/season per water source. Barrier spray covers the whole yard for 21–30 days.
+              <strong className="text-amber-900">⚠️ Bits kill larvae in your treated water — not the adult mosquitoes flying onto your property.</strong> For yard-wide control in the GTA, combine bits/dunks (your standing water) with professional barrier spray on vegetation. Bits cost $15/season per water source. Barrier spray treats the vegetation across the whole yard, renewed on a schedule.
             </p>
             <div className="mt-4 flex flex-col sm:flex-row items-center gap-3">
               <Link href="/free-yard-assessment" className="inline-flex items-center justify-center bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-6 py-3 rounded-full text-sm shadow-lg transition-colors whitespace-nowrap">
@@ -242,16 +243,16 @@ export default function MosquitoBitsCanadaPage() {
                 search: 'summit mosquito bits',
                 score: 8.7,
                 featured: true,
-                pros: ['Releases BTI within about 30 minutes', 'Full larvae kill within 24 hours', 'Safe for pets, fish, and pollinators'],
+                pros: ['Releases BTI within about 30 minutes', 'Full larvae kill within 24 hours', 'BTI acts on mosquito and black fly larvae, per the label'],
                 cons: ['Lasts 7–14 days — rain-barrel owners are better served by a Dunk', 'Only treats the water you apply it to'],
               },
               {
                 badge: 'Best for Rain Barrels & Ponds',
                 name: 'Summit Mosquito Dunks (6-pack)',
-                why: 'The same BTI in a slow-release tablet: one dunk per 50-gallon rain barrel covers about 30 days, so a 6-pack handles the whole May–September season. Fish-safe in ornamental ponds.',
+                why: 'The same BTI in a slow-release tablet: one dunk per 50-gallon rain barrel covers about 30 days, so a 6-pack handles the whole May–September season. Ornamental ponds are a labelled use site.',
                 search: 'summit mosquito dunks',
                 score: 8.6,
-                pros: ['~30 days of coverage per dunk — set and forget', 'One 6-pack covers a rain barrel all season', 'Safe for goldfish, koi, and water plants'],
+                pros: ['~30 days of coverage per dunk — set and forget', 'One 6-pack covers a rain barrel all season', 'Koi ponds and water gardens are labelled use sites'],
                 cons: ['Slow release — larvae found today call for Bits instead', 'The floating tablet is visible in small bird baths'],
               },
             ]}
@@ -288,7 +289,7 @@ export default function MosquitoBitsCanadaPage() {
                   ['Coverage per dose', '~2,000 sq ft (8 oz, clean water)', '100 sq ft per dunk'],
                   ['Application method', 'Sprinkle / spread', 'Drop in water'],
                   ['Storage life sealed', '2–3 years', '3+ years'],
-                  ['Safe for fish/pets', 'Yes — completely', 'Yes — completely'],
+                  ['Acts on', 'Mosquito, black fly & some midge larvae', 'Mosquito, black fly & some midge larvae'],
                 ].map(([k, bits, dunks]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/4">{k}</td>
@@ -314,7 +315,7 @@ export default function MosquitoBitsCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>How Mosquito Bits Work</h2>
           <p>Mosquito Bits are corn-cob granules coated with BTI (<em>Bacillus thuringiensis</em> subspecies <em>israelensis</em>) — a soil bacterium discovered in 1976 that specifically targets the digestive systems of mosquito and black fly larvae. The corn-cob granules float briefly when sprinkled onto water, then sink as they absorb moisture. As the bits dissolve, they release BTI proteins into the water column where larvae filter-feed. Not sure the wrigglers you found are mosquito larvae? Our <Link href="/blog/mosquito-larvae-identification">mosquito larvae identification guide</Link> shows exactly what to look for before you treat.</p>
-          <p>BTI is one of the most species-specific insecticides ever developed. It only affects mosquito larvae, black fly larvae, and a few related midge species. Humans, pets, fish, frogs, dragonflies, water beetles, beneficial insects, pollinators, and birds are completely unaffected. Health Canada&rsquo;s PMRA registers BTI larvicides for sale in Canada. On drinking water its position is precise and worth stating exactly, because it is widely misreported in both directions: no product containing Bti may be applied to treated, finished drinking water for human consumption, but the PMRA has no human health and safety concerns about applying registered Bt products to bodies of water that will later be used for human consumption. The timings quoted throughout this guide — full larvae kill within 24 hours, 7&ndash;14 days of control from Bits, about 30 days from a Dunk — are Summit&rsquo;s own product-label figures, not our field measurements.</p>
+          <p>BTI is one of the most species-specific insecticides ever developed. It acts on mosquito larvae, black fly larvae, and a few related midge species, which have to eat it for it to work. BTI larvicides are registered for sale in Canada under the Pest Control Products Act. On drinking water its position is precise and worth stating exactly, because it is widely misreported in both directions: no product containing Bti may be applied to treated, finished drinking water for human consumption, but the PMRA has no human health and safety concerns about applying registered Bt products to bodies of water that will later be used for human consumption. The timings quoted throughout this guide — full larvae kill within 24 hours, 7&ndash;14 days of control from Bits, about 30 days from a Dunk — are Summit&rsquo;s own product-label figures, not our field measurements.</p>
 
           <h2>How Much to Actually Use: The Label Rates</h2>
           <p>The number on the front of the bag is a coverage area, not a dose, which is why most people badly over-apply. Summit&rsquo;s registered label (US EPA Reg. No. 6218-86) gives the real rates, and they are small:</p>
@@ -341,11 +342,13 @@ export default function MosquitoBitsCanadaPage() {
           <p><strong>Indoors, Bits beat Dunks clearly.</strong> A dunk is engineered to dissolve slowly across about 30 days, so steeping one for a gnat drench takes roughly 24 hours and still gives you a weaker, less predictable brew &mdash; and a quarter-tablet sitting in a plant pot looks exactly as odd as it sounds. Bits release their BTI in about half an hour, which is the whole reason the houseplant world standardised on them.</p>
           <p>BTI is only the larval half of a gnat problem, though. The adults you see flying need sticky traps, and the reason larvae are there at all is soil that stays wet too long &mdash; our <Link href="/blog/how-to-get-rid-of-fungus-gnats-houseplants">fungus gnat guide for houseplants</Link> covers the watering fix and the trap-plus-drench combination that ends an infestation instead of just suppressing it each week.</p>
 
+          <p>Buy the traps at the same time as the Bits, because the drench on its own will never make a room feel gnat-free. Yellow sticky cards intercept the adults already flying, which is both the half of the problem you can see and the half still laying eggs back into the pot. They also tell you when you are finished: three weekly drenches plus a card that has stopped filling up is what the end of an infestation actually looks like. <BuyLink tag={AMZ_TAG} search="yellow sticky traps houseplants">Check yellow sticky traps on Amazon.ca &rarr;</BuyLink></p>
+
           <h2>When to Use Bits Instead of Dunks</h2>
           <ul>
             <li><strong>You found larvae unexpectedly</strong> — wriggling in a saucer, an old bucket, a clogged gutter — sprinkle bits for 30-minute knockdown</li>
             <li><strong>Small water sources</strong> — bird baths, kiddie pools, plant saucers — where a floating dunk tablet would be visually awkward</li>
-            <li><strong>Pet water bowls left outside</strong> — sprinkle a tiny pinch (BTI is safe; the bits are essentially corn-cob anyway)</li>
+            <li><strong>Pet water bowls left outside</strong> — tip out and refill daily; only add Bits to animal water if the label on your package lists it</li>
             <li><strong>Drainage trays under outdoor planters</strong></li>
             <li><strong>Tarp-covered boats</strong> with rainwater pooled on top</li>
             <li><strong>Septic tank ventilation pipes</strong> that can hold water</li>
@@ -355,7 +358,7 @@ export default function MosquitoBitsCanadaPage() {
           <h2>When Dunks Are Better</h2>
           <ul>
             <li><strong>Rain barrels</strong> — drop one dunk per 50 gallons, replace monthly</li>
-            <li><strong>Decorative ponds with fish</strong> — slow-release lasts the season, fish unaffected</li>
+            <li><strong>Decorative ponds with fish</strong> — slow-release lasts the season, and fish are not a BTI target</li>
             <li><strong>Neglected swimming pools</strong> with accumulated rainwater</li>
             <li><strong>Drainage ditches</strong> that hold water for weeks</li>
             <li><strong>Tree holes and stump cavities</strong></li>
@@ -364,7 +367,7 @@ export default function MosquitoBitsCanadaPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — backed by 150+ five-star reviews and serving 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats your whole yard from $99 on a standard lot — backed by 150+ five-star Google reviews and serving 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -376,11 +379,11 @@ export default function MosquitoBitsCanadaPage() {
           <p>For a typical GTA backyard with one rain barrel and a few potential standing-water spots, your annual BTI budget is roughly $30: one 6-pack of dunks ($15) covers the rain barrel for the full May–September season, and one 8-oz container of bits ($15–$22) handles every other standing-water situation that comes up. That $30 is the cheapest half of the job; for the other half, <Link href="/mosquito-control-cost">what professional mosquito control costs</Link> starts at $99 for a single treatment and scales with lot size. On a typical suburban lot — the kind a <Link href="/markham-mosquito-control">Markham mosquito control</Link> quote covers — the BTI still earns its $30, it just cannot reach the adults.</p>
 
           <h2>Bits + Barrier Spray: The Complete Mosquito Strategy</h2>
-          <p>BTI bits and dunks solve the LARVAL side of mosquito control — but they only work on water you actually treat. Adult mosquitoes flying in from neighbours&rsquo; yards, ravines, and creeks are unaffected. On the deep, tree-lined lots north of the city this is most of the problem — a sprinkle of bits in the plant saucers does nothing about what is already flying, which is the gap <Link href="/vaughan-mosquito-control">mosquito control in Vaughan</Link> is built to close. For complete protection in your GTA backyard:</p>
+          <p>BTI bits and dunks solve the LARVAL side of mosquito control — but they only work on water you actually treat. Adult mosquitoes flying in from neighbours&rsquo; yards, ravines, and creeks are unaffected. On the deep, tree-lined lots north of the city this is most of the problem — a sprinkle of bits in the plant saucers does nothing about what is already flying, which is the gap <Link href="/vaughan-mosquito-control">mosquito control in Vaughan</Link> is built to close. For a fuller plan in your GTA backyard:</p>
           <ol>
             <li><strong>BTI bits/dunks</strong> in any standing water on your property ($30/season)</li>
             <li><strong>Habitat modification</strong> — drain anything you can drain, mow short, clear leaf litter</li>
-            <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> targets adult mosquitoes flying onto your property, with Health Canada-approved residual formula that lasts 21–30 days per treatment</li>
+            <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> targets adult mosquitoes flying onto your property, with a registered residual formula applied according to label directions and renewed on a schedule</li>
           </ol>
           <p>One note on the standing-water audit in step two, because it usually stops at the back door: the sump pit, the floor drain whose trap has dried out, and the laundry tub with a weeping trap are standing water too. They matter less for mosquitoes than a rain barrel does, and they matter a great deal for the damp-basement insects that share the same water &mdash; which is why our <Link href="/blog/best-silverfish-traps">silverfish trap buying guide</Link> and <Link href="/blog/best-centipede-killer-canada">centipede product guide</Link> both start with the humidity rather than with a spray. Lidding the pit and pouring water down seldom-used drains takes ten minutes and closes several problems at once.</p>
           <p>That three-part stack covers mosquitoes, but BTI is only one product on a much longer Canadian shelf — our <Link href="/pest-product-guides">pest product guides</Link> group everything we have researched, from larvicides and traps through to repellents, by pest and by category.</p>
@@ -397,7 +400,9 @@ export default function MosquitoBitsCanadaPage() {
           <p>If you went looking for dunks in June 2026 and found empty pegs, you were not imagining it. CBC News reported that mosquito dunks were selling out as bug season collided with the &ldquo;bucket of doom&rdquo; trend; a manager at a Home Hardware on Bank Street in Ottawa told CBC that his store was sold out by mid-June and so was the company&rsquo;s warehouse. Cottage Life covered the same DIY trend through the summer. That shortage, not any regulatory action, is the origin of most of the &ldquo;you can&rsquo;t get these in Canada&rdquo; chatter.</p>
           <p>The technique is simple, and it is the one situation where the Bits-versus-Dunks question genuinely changes shape. Fill a five-gallon bucket with water, add a handful of grass clippings, straw or leaves, and let it sit until it goes properly foul. Female mosquitoes strongly prefer that organic stink to clean water, so the bucket becomes the most attractive place in your yard to lay eggs. Add BTI, and every egg laid there dies as a larva. It is an attract-and-kill trap built out of the mosquito&rsquo;s own preferences rather than against them.</p>
           <p>For this specific job the label points toward Bits. Bucket water is deliberately deep, dark and loaded with organic matter, which is precisely the condition Summit flags as needing the higher 8 oz per 1,000 sq ft rate, and Bits let you top the dose back up on the 7&ndash;14 day schedule as the brew degrades. A dunk works too and demands less attention; it is simply harder to dose upward in dirty water. Whichever you choose, the bucket has to be re-dosed all season &mdash; an untreated bucket of doom is just an unusually effective mosquito nursery, and that is the failure mode to take seriously before building one.</p>
-          <p>The counter-argument deserves airing, because it surfaces every time the trend does. Aquatic and wildlife-pond hobbyists point out that BTI is not perfectly selective even within its own corner of the insect world: it also affects some non-target chironomid midges, the harmless lake flies whose larvae feed dragonfly nymphs, fish and birds. That is a fair point, and it is consistent with what BTI is &mdash; a larvicide for mosquitoes, black flies and a few closely related midges, not for insects generally. It does not weaken the evidence that BTI is safe for people, pets, fish, amphibians and pollinators. What it does mean is that an established wildlife pond running as a real ecosystem is a poor candidate for routine BTI, while a rain barrel, a bird bath, a tarp puddle or a purpose-built bucket support no midge food web worth protecting and cost you nothing ecologically. Treat the containers; leave a healthy pond alone unless it is genuinely producing mosquitoes. Where a pond is the problem, <Link href="/blog/pond-aerator-mosquito-larvae-canada">moving the water with an aerator</Link> stops egg-laying without adding anything to it at all, since mosquitoes will not lay on a disturbed surface.</p>
+          <p>The counter-argument deserves airing, because it surfaces every time the trend does. Aquatic and wildlife-pond hobbyists point out that BTI is not perfectly selective even within its own corner of the insect world: it also affects some non-target chironomid midges, the harmless lake flies whose larvae feed dragonfly nymphs, fish and birds. That is a fair point, and it is consistent with what BTI is &mdash; a larvicide for mosquitoes, black flies and a few closely related midges, not for insects generally. It does not change the evidence that BTI acts on those larvae rather than on people, pets, fish, amphibians or pollinators. What it does mean is that an established wildlife pond running as a real ecosystem is a poor candidate for routine BTI, while a rain barrel, a bird bath, a tarp puddle or a purpose-built bucket support no midge food web worth protecting and cost you nothing ecologically. Treat the containers; leave a healthy pond alone unless it is genuinely producing mosquitoes. Where a pond is the problem, <Link href="/blog/pond-aerator-mosquito-larvae-canada">moving the water with an aerator</Link> stops egg-laying without adding anything to it at all, since mosquitoes will not lay on a disturbed surface.</p>
+
+          <p>That aerator point is worth acting on if a pond is the water in question, because it is the one fix that needs nothing added to the pond at all. A female will not lay on a surface that is moving, so a small fountain pump or a solar aerator takes the pond out of the mosquito&rsquo;s list of options while leaving the midge and dragonfly food web exactly where it is. <BuyLink tag={AMZ_TAG} search="solar pond aerator pump">Check pond aerators and fountain pumps on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Other BTI Formats Sold in Canada &mdash; and One Canadian Product That Is Not BTI</h2>
           <p>Bits and Dunks are the two consumer formats, but BTI is sold in several others, and knowing the names saves you searching for the wrong thing:</p>
@@ -407,13 +412,17 @@ export default function MosquitoBitsCanadaPage() {
             <li><strong>Gnatrol</strong> &mdash; a BTI formulation made specifically for fungus gnat larvae in greenhouse and nursery growing media. It is the professional counterpart to steeping Bits for a gnat drench, and it is bought through horticultural suppliers rather than hardware stores.</li>
             <li><strong>BTI briquets</strong> (Bactimos and similar) &mdash; the slow-release tablet format under other brand names, essentially the same idea as a Dunk.</li>
           </ul>
-          <p>The important shelf competitor in Canada is not BTI at all. <strong>Doktor Doom 90-Day Mosquito Larva Killer briquettes</strong> are made by a Canadian company and often sit on the same seasonal shelf as the Summit products, and their active ingredient is <strong>novaluron</strong>, an insect growth regulator. It is registered with Health Canada as a <em>domestic</em> class product under PCP registration number 34197 &mdash; a useful thing to see, because it is a concrete example of a Canadian-registered consumer larvicide you can look up yourself in the PMRA database. Novaluron does not destroy the larval gut the way BTI does; it stops larvae from moulting successfully, so they never emerge as adults. One briquette treats standing water up to <strong>200 litres</strong> and is rated for <strong>90 days</strong>, against roughly 30 days for a BTI dunk.</p>
+          <p>The important shelf competitor in Canada is not BTI at all. <strong>Doktor Doom 90-Day Mosquito Larva Killer briquettes</strong> are made by a Canadian company and often sit on the same seasonal shelf as the Summit products, and their active ingredient is <strong>novaluron</strong>, an insect growth regulator. It is registered in Canada as a <em>domestic</em> class product under PCP registration number 34197 &mdash; a useful thing to see, because it is a concrete example of a Canadian-registered consumer larvicide you can look up yourself in the PMRA database. Novaluron does not destroy the larval gut the way BTI does; it stops larvae from moulting successfully, so they never emerge as adults. One briquette treats standing water up to <strong>200 litres</strong> and is rated for <strong>90 days</strong>, against roughly 30 days for a BTI dunk.</p>
           <p>The trade-off is real in both directions. If you want a rain barrel handled with one decision in May, a 90-day novaluron briquette is a genuinely longer interval than any BTI product offers. If you have just lifted a lid and found the water squirming, BTI is the faster answer &mdash; it kills feeding larvae within about 24 hours, whereas a growth regulator has to wait for those larvae to attempt their next moult. The two are not interchangeable, and a page that only ever mentions BTI is leaving out the product most likely to be sitting next to it on a Canadian shelf.</p>
+
+          <p>If a single decision in May is what appeals to you, that briquette is the one to line up against a card of dunks before you commit to a season of either &mdash; one drop-in versus a monthly reminder, with the faster knockdown of BTI kept in the shed for whatever you find in the meantime. <BuyLink tag={AMZ_TAG} search="mosquito larva killer briquettes">Check long-interval larvicide briquettes on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Black Flies: Why Bits Work on the Label but Not in Your Yard</h2>
           <p>Black fly larvae are a labelled target for BTI, and BTI genuinely is the standard tool used against them across Canada. For a homeowner, though, the honest answer is usually that Bits will not solve a black fly problem, and the reason inverts everything else on this page.</p>
           <p>Black flies do not breed in standing water. They breed in <em>flowing</em> water &mdash; in the riffles and runs of streams and rivers, where larvae anchor themselves to rocks and vegetation and filter the current. That is why cottage country, Northern Ontario and much of Quebec have a black fly season that has nothing to do with how tidy anyone&rsquo;s yard is. Sprinkling Bits into your containerized standing water treats mosquitoes and will not touch a black fly population coming off a creek two properties over.</p>
           <p>Treating a flowing watercourse is exactly the restricted-class aquatic use the PMRA reserves for licensed applicators, and it is not a DIY project &mdash; dosing moving water requires calculating flow rate, and a consumer pack has no rate table for it. Where black flies are managed in Canada, it is generally through a municipal or regional program that treats watercourses on a schedule. For a property owner, the realistic tools are timing (black fly activity peaks in late spring and collapses in summer heat), physical barriers, and repellents rather than larviciding.</p>
+
+          <p>Of those three, the physical barrier is the one that holds up during an actual black fly peak, because black flies crawl rather than hover &mdash; into hair, behind ears, in under a collar or a cuff. A head net worn over a brimmed hat, with sleeves and trouser legs closed off, is the standard cottage-country answer, and unlike anything you apply it does not wear off through the evening. <BuyLink tag={AMZ_TAG} search="mosquito head net hat">Check head nets and bug jackets on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Finding Bits on a Canadian Shelf: Names, Sizes and Search Traps</h2>
           <p>The product to look for is <strong>Summit Chemical Mosquito Bits</strong> in the orange and green bag, sold in an 8 oz size and a 30 oz size (the 30 oz bag carries Summit&rsquo;s model number 117-6). The matching tablets are <strong>Summit Mosquito Dunks</strong>, most commonly a 6-pack card. In-store they are almost never with the aerosol insecticides &mdash; look in lawn and garden, or in the seasonal pest aisle that appears in spring and disappears in September, which is a large part of why the product seems to vanish from stores in the autumn.</p>
@@ -451,7 +460,7 @@ export default function MosquitoBitsCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="BTI Handles Larvae · Barrier Spray Handles the Rest" subtext="Get a free quote for whole-yard barrier spray. From $99. Health Canada approved. 30-day residual." variant="dark" />
+      <CTASection heading="BTI Handles Larvae · Barrier Spray Handles the Rest" subtext={`Get a free quote for whole-yard barrier spray. From $99 on a standard lot. ${PROMISES.licence}. ${PROMISES.labelLine}.`} variant="dark" />
     </>
   )
 }

@@ -44,7 +44,7 @@ const FAQS = [
   {
     question: 'Does tick spray protect against all tick-borne diseases?',
     answer:
-      'It helps, and the reason is mechanical rather than pathogen-specific. A barrier spray puts a Health Canada-registered residual acaricide on the leaf litter, shaded edges and wood borders where ticks quest, so it acts on the ticks themselves rather than on any one pathogen — meaning it applies equally to Lyme disease, anaplasmosis, babesiosis and Powassan virus. What it does not do is clear a property: the residual is temporary, and deer, birds and rodents keep carrying new ticks in through the season. Use it as one layer alongside tick checks and personal protection.',
+      'It helps, and the reason is mechanical rather than pathogen-specific. A barrier spray puts a residual acaricide with a Canadian PCP registration number on the leaf litter, shaded edges and wood borders where ticks quest, so it acts on the ticks themselves rather than on any one pathogen — meaning it applies equally to Lyme disease, anaplasmosis, babesiosis and Powassan virus. What it does not do is clear a property: the residual is temporary, and deer, birds and rodents keep carrying new ticks in through the season. Use it as one layer alongside tick checks and personal protection.',
   },
 ]
 
@@ -94,6 +94,7 @@ export default function TickBorneDiseasesPage() {
         <h2>1. Lyme Disease (<em>Borrelia burgdorferi</em>)</h2>
         <h3>The Most Common Tick-Borne Disease in Ontario</h3>
         <p>Lyme disease is caused by the spirochete bacterium <em>Borrelia burgdorferi</em>, transmitted by the blacklegged tick. It is the most frequently reported tick-borne disease in Canada and Ontario, with cases increasing significantly each year as tick populations expand northward.</p>
+        <p>Those provincial increases are easier to judge at the scale you actually live at. For the west GTA, <Link href="/blog/lyme-disease-cases-mississauga-oakville-2026" className="text-brand-700 underline">Lyme disease cases in Mississauga and Oakville</Link> sets out the published counts for Peel and Halton and what they do and do not tell you about your own neighbourhood.</p>
 
         <h3>Transmission</h3>
         <ul>
@@ -101,6 +102,7 @@ export default function TickBorneDiseasesPage() {
           <li><strong>Attachment time required:</strong> Generally 24 to 36 hours — prompt tick removal within 24 hours of attachment significantly reduces transmission risk</li>
           <li><strong>Reservoir hosts:</strong> White-footed mice are the primary reservoir; deer are important for adult tick feeding but do not carry the bacteria efficiently</li>
         </ul>
+        <p>Carrying the bacterium is far from universal, and the share varies a great deal by region: we break the surveillance numbers down in <Link href="/blog/what-percentage-of-ticks-carry-lyme-ontario" className="text-brand-700 underline">what percentage of ticks carry Lyme disease in Ontario</Link>.</p>
 
         <h3>Symptoms</h3>
         <p>Lyme disease progresses through stages if untreated:</p>
@@ -113,6 +115,7 @@ export default function TickBorneDiseasesPage() {
         <h3>Treatment</h3>
         <p>Early Lyme disease is highly treatable with antibiotics — typically doxycycline for adults or amoxicillin for children and pregnant women. A 2-4 week course resolves the infection in the vast majority of cases when caught early. Later stages may require longer or intravenous antibiotic courses.</p>
         <p>See: <Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease Prevention in Ontario</Link> | <Link href="/blog/lyme-disease-risk-areas-ontario-2026" className="text-brand-700 hover:underline">Lyme Disease Risk Areas 2026</Link></p>
+        <p>For the questions people actually search after a bite &mdash; whether it is fatal, whether it is curable, whether it is contagious, whether it ever becomes permanent &mdash; see our plain-English guide to <Link href="/blog/can-lyme-disease-kill-you" className="text-brand-700 hover:underline">whether Lyme disease can kill you</Link>.</p>
 
         <h2>2. Anaplasmosis (<em>Anaplasma phagocytophilum</em>)</h2>
         <h3>An Emerging Concern in Ontario</h3>
@@ -213,6 +216,8 @@ export default function TickBorneDiseasesPage() {
           <li><strong>Groundhog tick (<em>Ixodes cookei</em>):</strong> Can transmit Powassan virus (lineage I). Found primarily on groundhogs but occasionally bites humans</li>
         </ul>
 
+        <p>Alpha-gal syndrome is the outlier on this list: it is an allergy rather than an infection, it shows up hours after a meal instead of days after a bite, and the tick behind it is not established in Ontario. We unpack the Canadian evidence in our <Link href="/blog/lone-star-tick-alpha-gal-canada" className="text-brand-700 underline">lone star tick and alpha-gal red meat allergy guide</Link>.</p>
+
         <h2>Protection Against All Tick-Borne Diseases</h2>
         <p>The best defence against the full spectrum of tick-borne diseases is preventing tick bites in the first place. A layered approach provides the most effective protection:</p>
         <ul>
@@ -248,7 +253,7 @@ export default function TickBorneDiseasesPage() {
         </ul>
       </article>
 
-      <CTASection heading="Protect Your Family From Every Tick-Borne Disease" subtext="Professional tick barrier spray reduces exposure to Lyme disease, Anaplasmosis, Babesiosis, and Powassan virus. Free quote for all GTA properties." variant="dark" />
+      <CTASection heading="Tick Control for GTA Yards" subtext="Professional tick barrier spray targets ticks in the leaf litter and shaded edges of your yard. 5 treatments a season: $597 on its own, or $497 with a mosquito plan. Free quote for all GTA properties." variant="dark" />
     </>
   )
 }

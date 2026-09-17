@@ -14,36 +14,38 @@ import DuskScene from '@/components/DuskScene'
 import ProjectMap from '@/components/ProjectMap'
 import { Icon, IconChip } from '@/components/Icon'
 import { buildMetadata, localBusinessSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, CITIES, MOSQUITO_BLOGS, TICK_BLOGS, PRICING, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito & Tick Control in Mississauga & the GTA | From $99 | BuzzSkito',
   description:
-    "GTA mosquito + tick specialist with a perfect 5.0★ rating (150+ reviews, zero negative). From $99/treatment, no contracts, Bite-Free Guarantee. Same-week service across Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton + 13 more cities. Call (289) 216-5030.",
+    "GTA mosquito + tick specialist with a perfect 5.0★ rating (150+ reviews, zero negative). From $99/treatment, no contracts, rain-back guarantee. Same-week service across Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton + 13 more cities. Call (289) 216-5030.",
   canonical: '/',
   modifiedTime: '2026-07-01',
 })
 
+// Answers follow the pesticide advertising rules (Health Canada DIR2016-01): no blanket safety claims,
+// no "Health Canada approved", no fixed-days efficacy numbers. Guarantee wording comes from PROMISES.
 const HOME_FAQS = [
   {
     question: 'How does mosquito barrier spray work?',
-    answer: 'BuzzSkito applies a professional-grade residual insecticide to vegetation, shrubs, and under-leaf surfaces where mosquitoes rest. The formula kills mosquitoes on contact and remains active for up to 30 days, continuously protecting your yard.',
+    answer: 'Adult mosquitoes spend the day resting in shade: under leaves, in shrubs, hedges and dense plantings. BuzzSkito applies a residual insecticide to those resting areas, so mosquitoes that land on treated surfaces contact the product. How long each treatment keeps working depends on the product label, rain and plant growth, which is why season plans re-treat on a set schedule.',
   },
   {
     question: 'Is the spray safe for children and pets?',
-    answer: 'Yes. Once the spray dries — typically within 30 minutes of application — your yard is completely safe for children, pets, and plants. We use Health Canada–approved, water-based formulations.',
+    answer: `Every treatment is applied by a licensed operator (${PROMISES.licence}), following the product label directions. Keep children and pets inside during the treatment, and keep everyone off treated areas until the spray has dried, as the label directs. If you want to read the label before you book, ask us for the product name and its PCP registration number.`,
   },
   {
     question: 'How long does a mosquito treatment last?',
-    answer: 'Each mosquito barrier treatment lasts up to 30 days. Tick treatments provide up to 30 days of protection. We recommend 5 seasonal mosquito treatments (May–September) and 5 tick treatments for complete season-long coverage.',
+    answer: `It varies with rain, heat and how fast your plants grow, so we don't promise a fixed number of days. Season plans (May–September) re-treat on a schedule instead: Basic is 5 sprays, monthly ($${PRICING.basicSeason}); Standard is 10 sprays, every 2 weeks ($${PRICING.standardSeason}, most popular); Exclusive is 20+ sprays, weekly ($2,049). Tick plans are 5 sprays per season. Prices are plus HST.`,
   },
   {
     question: 'What if it rains after the treatment?',
-    answer: 'Our products bond to surfaces as they dry, creating rain-resistant protection. If it rains within one hour of treatment, we\'ll reapply at no extra cost.',
+    answer: PROMISES.rainBack,
   },
   {
     question: 'Do you need to be home during the service?',
-    answer: 'No. As long as our technician has access to your outdoor areas, we can complete the treatment without you home. We send an SMS alert before arrival and a confirmation email after service with a full treatment log.',
+    answer: `No. As long as our technician has access to your outdoor areas, we can complete the treatment without you home. ${PROMISES.visitWindow} After the service you get a confirmation email with a full treatment log.`,
   },
   {
     question: 'What areas does BuzzSkito serve?',
@@ -85,18 +87,18 @@ export default function HomePage() {
             <div className="text-xs font-semibold uppercase tracking-wider text-[#8fa0bd] mt-1.5">Five-Star Reviews</div>
           </Reveal>
           <Reveal className="rd-2">
-            <div className="font-display text-4xl sm:text-5xl font-extrabold text-white tracking-tight"><StatCounter value={30} suffix="d" /></div>
-            <div className="text-xs font-semibold uppercase tracking-wider text-[#8fa0bd] mt-1.5">Protection per Visit</div>
+            <div className="font-display text-4xl sm:text-5xl font-extrabold text-white tracking-tight"><StatCounter value={19} /></div>
+            <div className="text-xs font-semibold uppercase tracking-wider text-[#8fa0bd] mt-1.5">GTA Cities Served</div>
           </Reveal>
           <Reveal className="rd-3">
-            <div className="font-display text-4xl sm:text-5xl font-extrabold text-white tracking-tight"><StatCounter value={30} suffix=" min" /></div>
-            <div className="text-xs font-semibold uppercase tracking-wider text-[#8fa0bd] mt-1.5">Safe for Kids &amp; Pets</div>
+            <div className="font-display text-4xl sm:text-5xl font-extrabold text-white tracking-tight">${PRICING.singleTreatmentFrom}</div>
+            <div className="text-xs font-semibold uppercase tracking-wider text-[#8fa0bd] mt-1.5">Single Visit From</div>
           </Reveal>
           <Reveal className="rd-4">
             <div className="accent-serif font-display text-4xl sm:text-5xl font-extrabold tracking-tight text-white">
-              Bite-Free
+              Rain-Back
             </div>
-            <div className="text-xs font-semibold uppercase tracking-wider text-[#8fa0bd] mt-1.5">Guarantee</div>
+            <div className="text-xs font-semibold uppercase tracking-wider text-[#8fa0bd] mt-1.5">Guarantee on Every Plan</div>
           </Reveal>
         </Reveal>
       </section>
@@ -151,7 +153,7 @@ export default function HomePage() {
               BuzzSkito is a Mississauga-based, owner-operated company — not a national franchise. The same small, licensed local team handles your quote, your treatments, and your questions all season long. No 1-800 queue, no rotating subcontractors — just people who get to know your yard.
             </p>
             <p className="text-[#aab6cf] leading-relaxed mb-6">
-              Licensed by the Ontario Ministry of the Environment (Pesticide Operator Licence #{BUSINESS.licenseNumber}), using only Health Canada–approved formulas — and every treatment backed by the Bite-Free Guarantee.
+              Licensed by the Ontario Ministry of the Environment (Pesticide Operator Licence #{BUSINESS.licenseNumber}), with products applied according to label directions. Every plan carries our rain-back guarantee, and Standard &amp; Exclusive plans add the Bite-Free Guarantee.
             </p>
             <div className="flex flex-wrap items-center gap-4">
               <a href={BUSINESS.phoneHref} className="btn-primary-sm press-scale">
@@ -176,7 +178,7 @@ export default function HomePage() {
               Why GTA Homeowners Choose BuzzSkito
             </h2>
             <p className="text-[#8fa0bd] text-sm">
-              A team of licensed professionals dedicated to protecting your family all season long.
+              A team of licensed professionals looking after your yard all season long.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
@@ -199,15 +201,15 @@ export default function HomePage() {
               <Reveal className="rd-1 surface-2 sm:col-span-6 rounded-2xl p-6 sm:p-8 sm:flex sm:items-start sm:gap-5" >
                 <IconChip name="refresh" tone="ink" className="mb-3 sm:mb-0 shrink-0" />
                 <div>
-                  <h3 className="font-display font-extrabold tracking-tight text-white mb-1.5 text-xl">100% Satisfaction Guarantee</h3>
-                  <p className="text-[#aab6cf] text-sm leading-relaxed max-w-xl">If pests return within the protection window, we re-treat your yard at no additional cost.</p>
+                  <h3 className="font-display font-extrabold tracking-tight text-white mb-1.5 text-xl">{PROMISES.biteFreeScope}</h3>
+                  <p className="text-[#aab6cf] text-sm leading-relaxed max-w-xl">{BUSINESS.guarantee.description}</p>
                 </div>
               </Reveal>
               {[
-                { icon: 'award',      tone: 'brand', title: 'Health Canada Approved',     desc: 'Our water-based mosquito and tick formulas are fully approved for residential use in Ontario.', span: 'sm:col-span-2' },
-                { icon: 'message',    tone: 'brand', title: 'SMS Before & After Service', desc: 'We text before we arrive and confirm treatment completion with a full service log.', span: 'sm:col-span-2' },
+                { icon: 'award',      tone: 'brand', title: 'Licensed, Label-Directed',   desc: `${PROMISES.labelLine}, by an Ontario-licensed operator. Ask us for the product name and PCP number anytime.`, span: 'sm:col-span-2' },
+                { icon: 'message',    tone: 'brand', title: 'Booked Visit Windows',       desc: `${PROMISES.visitWindow} We confirm treatment completion with a full service log.`, span: 'sm:col-span-2' },
                 { icon: 'file-check', tone: 'amber', title: 'No Contracts, Ever',         desc: 'Book individual treatments or a full-season package. Cancel anytime, no penalties.', span: 'sm:col-span-2' },
-                { icon: 'cloud-rain', tone: 'brand', title: 'Rain-Resistant Formula',     desc: 'Treatment bonds to surfaces as it dries. Rain within 1 hour? We\'ll reapply free.', span: 'sm:col-span-3' },
+                { icon: 'cloud-rain', tone: 'brand', title: 'Rain-Back Guarantee',        desc: PROMISES.rainBack, span: 'sm:col-span-3' },
                 { icon: 'gift',       tone: 'amber', title: 'Referral Rewards',           desc: 'Refer a friend and you both receive 20% off your first season package.', span: 'sm:col-span-3' },
               ].map(({ icon, tone, title, desc, span }, i) => (
                 <Reveal key={title} className={`rd-${(i % 3) + 1} ${span} surface-1 rounded-2xl p-5`}>
@@ -291,7 +293,7 @@ export default function HomePage() {
           would have pointed the schema at a selector that no longer exists. */}
       <QuickAnswer dark question="What is BuzzSkito?">
         <p>
-          <strong>BuzzSkito is a Mississauga-based mosquito and tick control specialist serving 19 cities and 60+ neighbourhoods across the Greater Toronto Area.</strong> Single barrier spray treatments start at <strong>$99</strong>, with seasonal programs available on quote. Treatments use Health Canada-approved formulas, are safe for kids and pets in 30 minutes, and provide up to 30 days of residual protection per visit. With <strong>150+ five-star Google reviews</strong> (zero negative), no contracts, and the <strong>BuzzSkito Bite-Free Guarantee</strong> — free re-treatment if pests return inside the protection window — BuzzSkito serves Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, Richmond Hill, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, Woodbridge, and Thornhill. Call (289) 216-5030.
+          <strong>BuzzSkito is a Mississauga-based mosquito and tick control specialist serving 19 cities and 60+ neighbourhoods across the Greater Toronto Area.</strong> Single barrier spray treatments start at <strong>$99</strong> on a standard lot under 10,000 sq ft, and season plans start at <strong>$549</strong> (plus HST). Treatments are applied by an Ontario-licensed pesticide operator (Licence {BUSINESS.licenseNumber}) according to product label directions. With <strong>150+ five-star Google reviews</strong> (zero negative), no contracts, a rain-back guarantee on every plan and the <strong>BuzzSkito Bite-Free Guarantee</strong> on Standard &amp; Exclusive plans, BuzzSkito serves Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Markham, Richmond Hill, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, Woodbridge, and Thornhill. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -337,7 +339,7 @@ export default function HomePage() {
                 Mosquito &amp; Tick Control Guides
               </h2>
               <p className="text-[#8fa0bd] max-w-xl text-sm">
-                Expert advice for Ontario homeowners on protecting their families from mosquitoes and ticks.
+                Expert advice for Ontario homeowners dealing with mosquitoes and ticks.
               </p>
             </div>
             <Link href="/blog" className="press-scale btn-ghost-light hidden shrink-0 self-end sm:inline-flex">
@@ -365,15 +367,15 @@ export default function HomePage() {
           <div className="relative mx-auto mb-6 flex h-24 w-24 items-center justify-center rounded-full surface-2" aria-hidden="true">
             <Icon name="shield-check" className="h-11 w-11 text-white/90" strokeWidth={1.5} />
           </div>
-          <p className="kicker-light mb-3">The BuzzSkito Bite-Free Guarantee</p>
+          <p className="kicker-light mb-3">The BuzzSkito Bite-Free Guarantee · Standard &amp; Exclusive plans</p>
           <h2 id="guarantee-heading" className="h2-display text-white mb-4">
             If they come back, <span className="accent-serif text-amber-400">so do we</span> — free
           </h2>
           <p className="text-brand-300 leading-relaxed max-w-xl mx-auto mb-8">
-            Pests return inside your 30-day protection window? We re-treat your yard at no cost. No forms, no arguing, no fine print.
+            On Standard and Exclusive season plans, if mosquitoes come back between scheduled treatments, we re-treat at no charge. And on every plan: rain within 1 hour of your treatment? We come back and re-treat free.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            {['No contracts', 'Free re-spray guarantee', 'Rain guarantee (1 hr)'].map((chip) => (
+            {['No contracts', PROMISES.rainBackShort, PROMISES.biteFreeScope].map((chip) => (
               <span key={chip} className="chip-rise inline-flex items-center gap-2 rounded-full surface-1 px-4 py-2 text-sm font-semibold text-white">
                 <Icon name="check" className="w-4 h-4 text-emerald-400" />
                 {chip}

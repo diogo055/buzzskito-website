@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Davisville | From $99',
   description:
-    'Professional mosquito control in Davisville Village, Toronto. Barrier spray near Kay Gardner Beltline Trail from $99. Safe for kids & pets. Call (289) 216-5030.',
+    'Professional mosquito control in Davisville Village, Toronto. Barrier spray near Kay Gardner Beltline Trail from $99. Licensed operator. Call (289) 216-5030.',
   canonical: '/davisville-mosquito-control',
 })
 
@@ -27,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'How many treatments does a Davisville home need per season?',
-    answer: "Davisville Village properties typically benefit from 3–4 treatments spaced 21–28 days apart from May through September. Properties directly adjacent to the Kay Gardner Beltline Trail or bordering Mount Pleasant Cemetery may benefit from the full 5-treatment seasonal program due to continuous greenspace pressure. Call (289) 216-5030 for a free assessment tailored to your specific property.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Many Davisville Village properties are well-served by Basic; properties directly adjacent to the Kay Gardner Beltline Trail or bordering Mount Pleasant Cemetery may benefit from Standard's two-week spacing due to continuous greenspace pressure. Call (289) 216-5030 for a free assessment tailored to your specific property.",
   },
   {
     question: 'When does mosquito season start in Davisville?',
@@ -57,21 +59,23 @@ export default function DavisvilleMosquitoPage() {
           { label: NEIGHBOURHOOD },
         ]}
         title={<>Mosquito Control in {NEIGHBOURHOOD}, {CITY}</>}
-        subtitle={<>Davisville Village borders the Kay Gardner Beltline Trail and Mount Pleasant Cemetery — two major greenspace corridors that sustain mosquito populations. BuzzSkito's barrier spray gives Davisville families 30-day protection per treatment.</>}
+        subtitle={<>Licensed Ontario pesticide operator, with treatments applied according to label directions. Davisville Village borders the Kay Gardner Beltline Trail and Mount Pleasant Cemetery — two major greenspace corridors that sustain mosquito populations.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
+
+      <TypicalPrices service="mosquito" city={NEIGHBOURHOOD} />
 
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
@@ -81,8 +85,8 @@ export default function DavisvilleMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies the product according to its label directions to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Repeat Visits & Guarantees', desc: `Treatments repeat on your plan's schedule through the season. ${PROMISES.rainBack} On Standard & Exclusive plans, if mosquitoes come back between scheduled treatments, we re-treat at no charge.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -98,11 +102,13 @@ export default function DavisvilleMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Davisville's Greenspace Corridor Mosquito Problem</h2>
           <p>Davisville Village is a sought-after midtown Toronto neighbourhood — and its proximity to two significant greenspace corridors creates notable mosquito pressure. The <strong>Kay Gardner Beltline Trail</strong> runs along the neighbourhood's northern edge, occupying a depressed former rail corridor with dense vegetation, low-lying rainwater collection areas, and a humid, sheltered microclimate ideal for mosquito breeding.</p>
-          <p>To the east, <strong>Mount Pleasant Cemetery</strong> — one of Toronto's largest urban green spaces at over 80 hectares — provides additional mosquito habitat with its mature tree canopy, ornamental ponds, and naturalized vegetation borders. BuzzSkito's barrier spray creates a treated perimeter around your Davisville property, targeting the foliage where mosquitoes rest and providing up to 30 days of protection between treatments.</p>
+          <p>To the east, <strong>Mount Pleasant Cemetery</strong> — one of Toronto's largest urban green spaces at over 80 hectares — provides additional mosquito habitat with its mature tree canopy, ornamental ponds, and naturalized vegetation borders. BuzzSkito's barrier spray creates a treated perimeter around your Davisville property, targeting the foliage where mosquitoes rest and leaving a residual on it between scheduled treatments.</p>
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of Davisville Village and surrounding neighbourhoods. See our <Link href="/leaside-mosquito-control" className="text-brand-700 hover:underline">Leaside mosquito control</Link> page, or our page for <Link href="/lawrence-park-mosquito-control" className="text-brand-700 hover:underline">Lawrence Park</Link>.</p>
 
+
+          <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" location="price_card_mid" />
 
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
@@ -124,10 +130,10 @@ export default function DavisvilleMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats the resting surfaces across your property and leaves a residual on treated foliage, and it is repeated on a schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -136,7 +142,7 @@ export default function DavisvilleMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Our targeted tick barrier spray treats the lawn edges, leaf litter, and wooded borders where ticks wait for a host, with 5 sprays per season. See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>
@@ -175,6 +181,10 @@ export default function DavisvilleMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

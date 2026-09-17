@@ -9,21 +9,22 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'smells-mosquitoes-hate'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'Smells Mosquitoes Hate: 6 Scents That Actually Repel (Ontario)'
-const META_TITLE = 'Smells Mosquitoes Hate: 6 Scents Ranked'
+const META_TITLE = 'Smells Mosquitoes Hate: 6 Scents (Ontario)'
 
 const FAQS = [
   {
     question: 'What smell do mosquitoes hate the most?',
-    answer: 'Mosquitoes are most reliably deterred by strong, volatile plant oils — citronella, lemongrass, peppermint, and oil of lemon eucalyptus (OLE). Of these, only OLE is registered by Health Canada as a genuine skin repellent with proven protection. The others produce a real but short-lived deterrent effect (roughly 20 minutes to two hours) and work best as diffused patio scents, not as bite-proof protection.',
+    answer: 'Mosquitoes are most reliably deterred by strong, volatile plant oils — citronella, lemongrass, peppermint, and oil of lemon eucalyptus (OLE). Of these, only OLE is sold as a PCP-registered skin repellent with proven protection. The others produce a real but short-lived deterrent effect (roughly 20 minutes to two hours) and work best as diffused patio scents, not as bite-proof protection.',
   },
   {
     question: 'Do smells actually keep mosquitoes away?',
-    answer: 'Partly. Aromatic oils like citronella and lemongrass mask the carbon dioxide, lactic acid, and body-heat cues mosquitoes use to find you, so they can reduce landings in a small, still area. But the effect fades fast as the oil evaporates and disappears in any breeze. Scents lower mosquito pressure; they do not stop a determined Aedes or Culex mosquito the way a registered DEET or picaridin repellent or a professional barrier spray does.',
+    answer: 'Partly. Aromatic oils like citronella and lemongrass mask the carbon dioxide, lactic acid, and body-heat cues mosquitoes use to find you, so they can reduce landings in a small, still area. But the effect fades fast as the oil evaporates and disappears in any breeze. Scents lower mosquito pressure, but against a determined Aedes or Culex mosquito they are far weaker than a registered DEET or picaridin repellent or a professional barrier spray.',
   },
   {
     question: 'Does citronella really repel mosquitoes?',
@@ -31,7 +32,7 @@ const FAQS = [
   },
   {
     question: 'Is oil of lemon eucalyptus the same as regular eucalyptus oil?',
-    answer: 'No. Oil of lemon eucalyptus (OLE), and its refined active PMD, is the only plant-based repellent Health Canada registers for meaningful protection — around 2 to 5 hours per application at a 30% concentration. Ordinary eucalyptus essential oil from a health-food shop is not the same product, is not registered as a repellent, and gives far weaker, shorter results. Health Canada advises against using OLE or PMD on children under three.',
+    answer: 'No. Oil of lemon eucalyptus (OLE), and its refined active PMD, is the plant-based active sold in PCP-registered skin repellents for meaningful protection — around 2 to 5 hours per application at a 30% concentration. Ordinary eucalyptus essential oil from a health-food shop is not the same product, is not registered as a repellent, and gives far weaker, shorter results. Health Canada advises against using OLE or PMD on children under three.',
   },
   {
     question: 'What scents attract mosquitoes instead of repelling them?',
@@ -47,7 +48,7 @@ const FAQS = [
   },
   {
     question: 'What actually works better than smells for a mosquito-free yard?',
-    answer: 'For dependable protection, use a Health Canada-registered repellent (DEET, picaridin/icaridin, or OLE) on skin, run a Thermacell-style device to hold a repellent zone on the patio, eliminate standing water where mosquitoes breed, and treat the yard with a professional barrier spray that coats vegetation and kills mosquitoes on contact for weeks. Scented candles and oils are a nice complement, not the main line of defence.',
+    answer: 'For dependable protection, use a repellent with a Canadian PCP registration number (DEET, picaridin/icaridin, or OLE) on skin, run a Thermacell-style device to hold a repellent zone on the patio, eliminate standing water where mosquitoes breed, and treat the yard with a professional barrier spray that targets mosquitoes where they rest on vegetation, re-applied on a schedule. Scented candles and oils are a nice complement, not the main line of defence.',
   },
 ]
 
@@ -88,14 +89,14 @@ export default function SmellsMosquitoesHatePage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquitoes dislike citronella, lemongrass, peppermint, lavender, oil of lemon eucalyptus (OLE), and to a small degree garlic. These plant oils mask the CO2 and body-scent cues mosquitoes track, but only OLE is Health Canada-registered for real protection &mdash; treat scents as a mild patio deterrent, not bite-proof protection.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquitoes dislike citronella, lemongrass, peppermint, lavender, oil of lemon eucalyptus (OLE), and to a small degree garlic. These plant oils mask the CO2 and body-scent cues mosquitoes track, but only OLE is sold as a PCP-registered skin repellent &mdash; treat scents as a mild patio deterrent, not bite-proof protection.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Citronella provides only about 20&ndash;50 minutes of protection before it needs reapplying.</li>
               <li>Oil of lemon eucalyptus (OLE/PMD) is the strongest scent, giving about 2&ndash;5 hours at a 30% concentration.</li>
               <li>Health Canada advises against using OLE or PMD on children under 3.</li>
               <li>Lavender is the weakest common repellent scent, and eaten garlic has no proven effect.</li>
               <li>A citronella candle only protects a 1&ndash;2 metre cone of still air around it.</li>
-              <li>Professional barrier spray treats resting vegetation and cuts the yard population for weeks, from $99.</li>
+              <li>Professional barrier spray treats resting vegetation and targets the yard population where it rests, from $99.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
@@ -122,7 +123,7 @@ export default function SmellsMosquitoesHatePage() {
                   ['Lemongrass', 'Modest (citronella cousin)', '~30 min – 1 hr', 'Diffused near seating'],
                   ['Peppermint', 'Mild, brief', '~20–30 min freshly applied', 'Diffuser or crushed leaves'],
                   ['Lavender', 'Weak', 'Short-lived', 'Pleasant scent, marginal effect'],
-                  ['Oil of lemon eucalyptus (OLE / PMD)', 'Strong — Health Canada registered', '~2–5 hrs at 30%', 'On-skin repellent (adults, 3+)'],
+                  ['Oil of lemon eucalyptus (OLE / PMD)', 'Strong — PCP-registered products', '~2–5 hrs at 30%', 'On-skin repellent (adults, 3+)'],
                   ['Garlic (eaten or on skin)', 'No proven effect', 'Not applicable', 'Cooking only — skip as repellent'],
                 ].map(([scent, power, dur, use]) => (
                   <tr key={scent} className="border-t border-gray-100 align-top">
@@ -135,7 +136,7 @@ export default function SmellsMosquitoesHatePage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mt-3">Only oil of lemon eucalyptus (OLE/PMD) is registered as a personal repellent by <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Health Canada&rsquo;s Pest Management Regulatory Agency</a>. Duration figures reflect typical published repellent studies and evaporate faster in wind or heat.</p>
+          <p className="text-xs text-gray-500 mt-3">Of these scents, only oil of lemon eucalyptus (OLE/PMD) is found in personal repellents carrying a PCP registration number (see <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Health Canada&rsquo;s Pest Management Regulatory Agency</a>). Duration figures reflect typical published repellent studies and evaporate faster in wind or heat.</p>
         </div>
       </section>
 
@@ -153,10 +154,10 @@ export default function SmellsMosquitoesHatePage() {
           <TopPick tag={AMZ_TAG}
             label="Strongest Scent-Based Pick"
             name="Oil of Lemon Eucalyptus (OLE / PMD) Repellent"
-            blurb="The only scent-based option Health Canada registers as a genuine skin repellent. At a 30% concentration it holds roughly 2–5 hours per application — comparable to a lower-strength DEET — far beyond the minutes you get from candles and diffused oils."
+            blurb="The only scent-based option sold in skin repellents that carry a Canadian PCP registration number. At a 30% concentration it holds roughly 2–5 hours per application — comparable to a lower-strength DEET — far beyond the minutes you get from candles and diffused oils."
             search="oil of lemon eucalyptus repellent"
             score={8.3}
-            pros={['Health Canada-registered protection', 'Hours per application, not minutes', 'Plant-based active (PMD)']}
+            pros={['Look for the PCP number on the label', 'Hours per application, not minutes', 'Plant-based active (PMD)']}
             cons={['Not for children under 3', 'Reapply after 2–5 hours']}
           />
 
@@ -165,17 +166,19 @@ export default function SmellsMosquitoesHatePage() {
           <p>That is the honest mechanism — and it explains the honest limitation. Masking only works while the scent is strong and the air is still. The moment the oil evaporates or a breeze scatters the plume, your CO₂ and sweat cues come right back through, and the mosquitoes follow them. This is why a citronella candle protects only the small cone of scented air immediately around it, and why the numbers in the table above are measured in minutes, not hours.</p>
 
           <h2>The Six Scents, Ranked by How Much They Actually Help</h2>
-          <p><strong>Oil of lemon eucalyptus (OLE)</strong> is the clear standout and the only one that competes with conventional repellents. Its refined active, PMD, is registered by Health Canada and delivers roughly 2–5 hours of protection at a 30% concentration — comparable to a lower-strength DEET product. Note it is a true skin repellent, not just a scent, and Health Canada advises against use on children under three.</p>
+          <p><strong>Oil of lemon eucalyptus (OLE)</strong> is the clear standout and the only one that competes with conventional repellents. Its refined active, PMD, is sold in PCP-registered repellents and delivers roughly 2–5 hours of protection at a 30% concentration — comparable to a lower-strength DEET product. Note it is a true skin repellent, not just a scent, and Health Canada advises against use on children under three.</p>
           <p><strong>Citronella and lemongrass</strong> are close botanical cousins and behave alike: a real but short deterrent effect, best delivered as diffused patio scent. Several candles spaced closely together beat a single candle, because you are trying to flood a whole seating area with scent rather than one spot.</p>
+          <p>Because the protected area is a cone of scented air rather than a field, a patio usually needs three or four candles spaced around the seating area rather than one lone candle on the table. <BuyLink tag={AMZ_TAG} search="citronella candles outdoor">Check citronella candle sets on Amazon.ca &rarr;</BuyLink></p>
           <p><strong>Peppermint</strong> gives a brisk, brief masking effect when freshly crushed or diffused, but it evaporates quickly. <strong>Lavender</strong> is the weakest of the group — lovely to have on the patio, but you should not count on it to keep mosquitoes off. And <strong>garlic</strong>, despite generations of folklore, has repeatedly failed in controlled testing: eating it does nothing measurable, and rubbing it on skin mostly just irritates you.</p>
 
           <h2>Scents Mosquitoes LOVE — What to Avoid</h2>
           <p>It is just as useful to know what draws mosquitoes in. They are attracted to carbon dioxide, the lactic acid and ammonia in sweat, body heat, and — importantly — <strong>floral and fruity fragrances</strong>. A sweet perfume, a scented lotion, or a fragranced body spray can make you noticeably more appealing to a hungry mosquito. On summer evenings in the GTA, skip the perfume, choose unscented sunscreen, and wear light-coloured, loose clothing, since mosquitoes also home in on dark fabric and heat.</p>
+          <p>The clothing half of that advice is the easiest to act on tonight. A loose, light-coloured long-sleeve shirt and an unscented sunscreen give a hunting mosquito far less to lock onto than a dark T-shirt and a fragranced lotion do. <BuyLink tag={AMZ_TAG} search="unscented sunscreen">Check unscented sunscreens on Amazon.ca &rarr;</BuyLink></p>
           <p>One odour source is easy to forget because it is out of sight: foot and ankle bacteria. In a well-known 1996 experiment, malaria mosquitoes were drawn to Limburger cheese and to smelly feet at almost the same rate, which is part of <Link href="/blog/why-do-mosquitoes-bite-my-ankles">why bites cluster around ankles</Link>.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Scents wear off in minutes — a barrier spray lasts weeks</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Candles and oils only cover the air right around them. BuzzSkito&rsquo;s professional barrier spray coats the shrubs, fence lines, and shaded resting spots where mosquitoes hide and kills them on contact for weeks. Whole-yard protection from $99, backed by 150+ five-star reviews across 19 GTA cities.</p>
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Scents wear off in minutes — a barrier spray treats the whole yard</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Candles and oils only cover the air right around them. BuzzSkito&rsquo;s professional barrier spray coats the shrubs, fence lines, and shaded resting spots where mosquitoes hide and is re-applied on a schedule. Whole-yard treatment from $99, backed by 150+ five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -183,7 +186,7 @@ export default function SmellsMosquitoesHatePage() {
           </aside>
 
           <h2>The Honest Truth: Scents Are the Weakest Layer</h2>
-          <p>If you take one thing from this guide, make it this: <strong>smells reduce mosquito pressure, but they do not stop bites the way a registered repellent or a treated yard does.</strong> The Aedes and Culex mosquitoes common in Ontario are persistent, and a determined female will push through a fading scent plume to reach the CO₂ and warmth of a host. Scents are a pleasant, low-effort complement — never the main defence when mosquito pressure is high.</p>
+          <p>If you take one thing from this guide, make it this: <strong>smells reduce mosquito pressure, but they are far weaker than a registered repellent or a treated yard.</strong> The Aedes and Culex mosquitoes common in Ontario are persistent, and a determined female will push through a fading scent plume to reach the CO₂ and warmth of a host. Scents are a pleasant, low-effort complement — never the main defence when mosquito pressure is high.</p>
           <p>Here is how the layers stack up, weakest to strongest:</p>
           <ol>
             <li><strong>Scented candles and oils</strong> (citronella, lemongrass, peppermint) — mild, minutes-long, small area.</li>
@@ -191,8 +194,11 @@ export default function SmellsMosquitoesHatePage() {
             <li><strong>A Thermacell-style device</strong> — creates a genuine repellent zone about 4.5 m across when there is little wind.</li>
             <li><strong>Registered skin repellent</strong> — DEET, picaridin/icaridin, or OLE for hours of on-body protection.</li>
             <li><strong>Standing-water control</strong> — dump anything holding water so mosquitoes cannot breed in the first place.</li>
-            <li><strong>Professional barrier spray</strong> — treats the vegetation where mosquitoes rest and cuts the yard population for weeks at a time.</li>
+            <li><strong>Professional barrier spray</strong> — treats the vegetation where mosquitoes rest, targeting the yard population there, and is re-applied on a schedule.</li>
           </ol>
+          <p>Layer four is the one most readers skip, because they arrived here looking for a scent instead. A registered skin repellent is the only thing on this list that walks off the patio with you, and in Canada that means a product with a PCP registration number on the label &mdash; DEET or icaridin (picaridin) for the conventional actives. Read the label for the concentration, how often to reapply, and which products are appropriate for children. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Check DEET and picaridin repellents on Amazon.ca &rarr;</BuyLink></p>
+          <p>Layer five is the only one on the list that shrinks next week&rsquo;s mosquito numbers rather than tonight&rsquo;s. Anything you cannot simply tip out &mdash; a rain barrel, an ornamental pond, a clogged eavestrough, a low spot that stays wet for days &mdash; can be treated with a Bti briquette instead, which treats the water itself where larvae are developing. <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Check Bti mosquito dunks on Amazon.ca &rarr;</BuyLink></p>
+          <p>And the cheapest improvement to a patio has no scent at all. Mosquitoes cruise at roughly 1&ndash;2 km/h, so an outdoor fan aimed across the seating area makes the approach hard work and scatters the carbon-dioxide plume they follow to find you. There is an irony worth noting: the same moving air that tears a citronella plume apart in minutes is working for you here rather than against you. <BuyLink tag={AMZ_TAG} search="outdoor oscillating pedestal fan">Check outdoor patio fans on Amazon.ca &rarr;</BuyLink></p>
           <p>For the full rundown of DIY methods that genuinely help — and which ones are myths — see our <Link href="/blog/natural-mosquito-repellent-ontario">natural mosquito repellent guide for Ontario</Link>. And if you want the strongest layer without the daily hassle of candles and reapplication, that is exactly what <Link href="/mosquito-control">professional barrier spray</Link> is for.</p>
 
           <h2>Related Reading</h2>
@@ -225,7 +231,7 @@ export default function SmellsMosquitoesHatePage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="Scents Fade Fast — Real Protection Lasts Weeks" subtext="Skip the endless candles. One professional barrier spray treats your whole yard and keeps mosquitoes down for weeks. From $99." variant="dark" />
+      <CTASection heading="Scents Fade Fast — Treat the Whole Yard Instead" subtext={`Skip the endless candles. One professional barrier spray treats your whole yard. From $99. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

@@ -2,13 +2,28 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
+import StickyBuyBar from '@/components/StickyBuyBar'
 
 const SLUG = 'how-long-do-ticks-live'
 const DATE = '2026-07-15'
 const UPDATED = '2026-07-15'
 const TITLE = 'How Long Do Ticks Live — and Can They Live in Your House? (Ontario)'
-const META_TITLE = 'How Long Do Ticks Live? 2–3 Years, Days Indoors'
+// TITLE NOTE (Sep 16 2026): was 'How Long Do Ticks Live? 2–3 Years, Days Indoors'
+// (47 chars) — no geo token against 15,441 impressions at position 7.6 but only 36
+// clicks (0.23% CTR), so the old tail was not earning the space it took. Head term
+// 'how long do ticks live' kept intact and leading; geo goes in the tail, which is
+// honest here rather than welded on: the page answers the question for Ontario's
+// two common species, and its distinctly local claims are the ones that are NOT
+// universal — overwintering under snow in leaf litter, the ~4°C activity threshold
+// from Public Health Ontario, and the brown dog tick being uncommon in Canada.
+// 'Days Indoors' drops out of the title but is carried by the description, the H2s
+// and the FAQ schema. 44 chars; renders at 56 with '%s | BuzzSkito'.
+const META_TITLE = 'How Long Do Ticks Live? 2–3 Years in Ontario'
+const AMZ_TAG = tagForSlug('how-long-do-ticks-live')
 
 const FAQS = [
   {
@@ -201,6 +216,25 @@ export default function HowLongDoTicksLivePage() {
             </div>
           </aside>
 
+          <AffiliateDisclosure />
+          <div className="not-prose my-6 rounded-xl border border-amber-200 bg-amber-50/60 p-5">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700 mb-3">What to do right now, if a tick is attached</p>
+            <ol className="space-y-4">
+              <li>
+                <p className="text-sm text-gray-800 leading-relaxed"><strong>1. Take it off now, and take it off properly.</strong> Free, and it is the step that matters most: grip as close to the skin as you can and pull straight out with steady upward pressure. No twisting, no petroleum jelly, no match, no nail polish &mdash; every one of those wastes the minutes that count and can make the tick harder to get out whole. Then wash the bite and your hands.</p>
+              </li>
+              <li>
+                <p className="text-sm text-gray-800 leading-relaxed mb-2"><strong>2. Own a fine-tipped remover before the evening you need one.</strong> Drugstore tweezers have a blunt tip that cannot close at the head, so they grab the tick&rsquo;s body instead and leave the mouthparts behind &mdash; and on a dog that is twisting away you get one attempt, not three. A pointed tick tool closes flush at the skin line.</p>
+                <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink>
+              </li>
+              <li>
+                <p className="text-sm text-gray-800 leading-relaxed mb-2"><strong>3. Keep the tick and date it.</strong> Drop the removed tick into a small screw-top vial and write the date and where you were on the lid in permanent marker. Because attachment time is the number a clinician asks about, a dated specimen is worth far more than a memory three weeks later.</p>
+                <BuyLink tag={AMZ_TAG} search="small screw top specimen vials permanent marker">Check price on Amazon.ca &rarr;</BuyLink>
+              </li>
+            </ol>
+            <p className="mt-4 text-xs text-gray-500">Watch the bite site and how you feel over the following days and weeks, and see a healthcare provider if a rash, fever, or flu-like symptoms appear &mdash; mentioning the bite and its date. General information, not medical advice.</p>
+          </div>
+
           <h2>How Long Can a Tick Live in a House?</h2>
           <p>A tick lives only <strong>a few days to about two weeks</strong> inside a house. Indoor air is too dry for it to rehydrate, so it steadily dehydrates and dies without laying eggs or spreading from room to room. The one exception is the brown dog tick, which tolerates dry indoor air but is uncommon in Canada.</p>
           <p>When a tick does end up indoors, it usually survives only <strong>a few days to about two weeks</strong>. The countdown is driven entirely by moisture loss. On a person&rsquo;s clothing, in a laundry pile, or crawling across a carpet, the tick cannot rehydrate the way it would in leaf litter, so it steadily dries out and dies. It will not lay eggs indoors and it will not spread from room to room.</p>
@@ -232,6 +266,7 @@ export default function HowLongDoTicksLivePage() {
             <li><strong>They slow down and hold moisture.</strong> Ticks drop into a dormant, low-metabolism state and rely on the humidity of the leaf litter to avoid drying out until spring.</li>
           </ul>
           <p>Ticks <em>do</em> die during hard cold snaps &mdash; especially deep, sustained cold with little or no snow cover to insulate the ground. But enough survive every year that the population carries over. That carryover is exactly why tick-habitat reduction matters most in <strong>fall and early spring</strong>: clearing leaf litter and brush removes the sheltered overwintering sites before the next generation gets going. Our <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">guide to keeping ticks out of your yard</Link> walks through the specific steps.</p>
+          <p>That winter hardiness is also why the Canadian tick range keeps creeping north rather than resetting each year &mdash; <Link href="/blog/are-there-ticks-in-canada" className="text-brand-700 underline">where ticks are found in Canada, province by province</Link> shows how far it now reaches.</p>
 
           <h2>Will a Hot, Dry Summer Kill Ticks?</h2>
           <p>A hot, dry stretch kills exposed ticks but does not clear a property. Ticks lose water quickly in sun and open lawn, so activity drops sharply there. Shaded woodland edges, ravine slopes, and damp leaf litter stay humid enough for ticks to wait out a heat wave, so the margins remain the risk zone.</p>
@@ -241,6 +276,8 @@ export default function HowLongDoTicksLivePage() {
           <p>An attached tick stays on a dog for <strong>3 to 10 days</strong>. It feeds until it is fully engorged, then detaches on its own to molt or lay eggs. A dog can also carry unattached ticks that are still crawling and have not yet bitten. Check dogs after every walk through grass or woods.</p>
           <p>An <strong>attached, feeding tick usually stays on a dog for 3 to 10 days</strong>, until it is fully engorged with blood, then detaches on its own and drops off to molt or (if it is an adult female) to lay eggs. A dog can also carry ticks that are still crawling and have not yet bitten &mdash; those may be brushed off, found on a collar, or picked up during a check.</p>
           <p>Because a feeding tick can stay attached for the better part of a week, and because ticks can transmit disease during that window, dogs are worth checking after every walk through grassy or wooded areas. Run your hands over the ears, neck, chest, armpits, groin, and between the toes, where ticks like to attach. Use a <strong>vet-recommended tick preventive</strong>, and remove any attached tick promptly with fine-tipped tweezers, gripping close to the skin and pulling straight out. If you are unsure whether your dog was exposed or is showing symptoms, ask your veterinarian &mdash; that is a medical question for the animal, not one to guess at.</p>
+          <AffiliateDisclosure />
+          <p>That last step is where household tweezers let people down, and it matters more on a dog than on a person. Drugstore tweezers have a wide, blunt tip that cannot close at the head, so they take hold of the tick&rsquo;s body instead, squeeze it, and leave the mouthparts behind in the skin &mdash; and a dog that is twisting away gives you one attempt, not three. A fine-tipped tick tool or pointed tweezers closes at the skin line and lifts the whole tick straight out. Given that a feeding tick can sit there for the better part of a week, this is a thing to own before the evening you need it. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>How Long Do Ticks Stay Attached to a Human?</h2>
           <p>An undetected blacklegged tick stays attached to a person for <strong>3 to 7 days</strong> before dropping off engorged. The Public Health Agency of Canada notes that Lyme disease transmission risk is generally low during the first 24 hours and rises the longer the tick feeds, so same-day removal is what matters most.</p>
@@ -308,6 +345,7 @@ export default function HowLongDoTicksLivePage() {
       </article>
 
       <CTASection heading="Ticks Overwinter in Your Yard &mdash; Break the Cycle at the Source" subtext="They live for years, survive the winter under leaf litter, and wait in your yard&rsquo;s shaded edges. One barrier treatment removes them where they actually live. From $99." variant="dark" />
+      <StickyBuyBar tag={AMZ_TAG} name="Tick-removal tool kit" search="tick removal tool tweezers" label="For removal" />
     </>
   )
 }

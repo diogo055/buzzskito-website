@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import YardRiskQuiz from '@/components/YardRiskQuiz'
 import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { BUSINESS, PROMISES } from '@/lib/constants'
 
 const SLUG = '/yard-risk-report'
 
@@ -24,17 +25,17 @@ const FAQS = [
   },
   {
     question: 'How accurate is the score?',
-    answer: 'The score reflects real geographic and environmental factors validated against Public Health Ontario tick surveillance data, GTA neighbourhood pressure observations, and 150+ customer outcomes across the 19 cities BuzzSkito serves. It&rsquo;s designed as a relative pressure indicator (your yard vs. similar yards), not an absolute predictor of bite count. Most properties scoring 70+ benefit significantly from professional barrier spray.',
+    answer: 'The score reflects real geographic and environmental factors validated against Public Health Ontario tick surveillance data, GTA neighbourhood pressure observations, and 150+ customer outcomes across the 19 cities BuzzSkito serves. It&rsquo;s designed as a relative pressure indicator (your yard vs. similar yards), not an absolute predictor of bite count. Properties scoring 70+ are the strongest candidates for professional barrier spray.',
   },
   {
     question: 'What happens after I submit my email?',
-    answer: 'Three things happen instantly: (1) your custom report is emailed to you within 60 seconds; (2) if you opted in for a callback, Alex (BuzzSkito&rsquo;s owner) calls you within 30 minutes to walk through your specific recommendations; (3) your report is saved so you can reference it later. We never sell your information and we never auto-charge anything.',
+    answer: 'Three things happen: (1) your custom report is emailed to you within 60 seconds; (2) if you opted in for a callback, Alex (BuzzSkito&rsquo;s owner) follows up to walk through your specific recommendations — most requests get a price the same day; (3) your report is saved so you can reference it later. We never sell your information and we never auto-charge anything.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: 'Free GTA Yard Mosquito & Tick Risk Report — Get Your 1-100 Score by Address',
-  description: 'Enter your GTA address (Toronto, Mississauga, Oakville, Burlington, Brampton, Vaughan, Hamilton, +) and get an instant 1-100 mosquito and tick pressure score for your yard. 60-second assessment, free custom report emailed in 60 seconds. Owner-operated · 150+ five-star reviews · Health Canada approved.',
+  description: 'Enter your GTA address (Toronto, Mississauga, Oakville, Burlington, Brampton, Vaughan, Hamilton, +) and get an instant 1-100 mosquito and tick pressure score for your yard. 60-second assessment, free custom report emailed in 60 seconds. Owner-operated · 150+ five-star reviews · Ontario-licensed.',
   canonical: SLUG,
 })
 
@@ -112,7 +113,7 @@ export default function YardRiskReportPage() {
             <li><strong>Tick situation specific to your setup</strong> — Public Health Ontario data for your region, Lyme disease context, blacklegged tick population trends</li>
             <li><strong>Honest assessment of what you&rsquo;ve already tried</strong> — why dunks alone don&rsquo;t solve adult populations, why citronella has 5-15% efficacy at 1 metre, etc.</li>
             <li><strong>5 zero-cost weekend fixes</strong> — practical DIY actions ranked by impact</li>
-            <li><strong>What to expect in the follow-up quote</strong> — Alex sends a custom protection plan with specific pricing within 24 hours</li>
+            <li><strong>What to expect in the follow-up quote</strong> — Alex sends a custom plan with specific pricing. {PROMISES.response}</li>
           </ul>
 
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">Why a personalized assessment beats a generic quote form</h2>
@@ -130,13 +131,14 @@ export default function YardRiskReportPage() {
           </ul>
 
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">How accurate is the score?</h2>
-          <p className="text-gray-700 mb-5">The score is a relative pressure indicator validated against three data sources: Public Health Ontario tick surveillance, observed mosquito pressure across BuzzSkito&rsquo;s 200+ treated properties, and the Ontario Ministry of Natural Resources GTA wetland mapping. It&rsquo;s designed to predict your yard&rsquo;s pressure relative to other yards in your area — not to predict an exact bite count. Most properties scoring 70+ benefit significantly from professional barrier spray; properties scoring 40-70 typically do well with hybrid DIY-plus-spot-treatment plans; properties scoring under 40 can often manage with diligent water control alone.</p>
+          <p className="text-gray-700 mb-5">The score is a relative pressure indicator validated against three data sources: Public Health Ontario tick surveillance, observed mosquito pressure across BuzzSkito&rsquo;s 200+ treated properties, and the Ontario Ministry of Natural Resources GTA wetland mapping. It&rsquo;s designed to predict your yard&rsquo;s pressure relative to other yards in your area — not to predict an exact bite count. Properties scoring 70+ are the strongest candidates for professional barrier spray; properties scoring 40-70 typically do well with hybrid DIY-plus-spot-treatment plans; properties scoring under 40 can often manage with diligent water control alone.</p>
 
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">Trusted by 150+ GTA homeowners</h2>
-          <p className="text-gray-700 mb-3">BuzzSkito is owner-operated by Alex out of Mississauga. We service 19 cities across the Greater Toronto Area with a Health Canada-approved formulation, applied by an Ontario-licensed pesticide operator (Licence #L-240-2436835197).</p>
+          <p className="text-gray-700 mb-3">BuzzSkito is owner-operated by Alex out of Mississauga. We service 19 cities across the Greater Toronto Area, with products applied according to label directions by an Ontario-licensed pesticide operator (Licence #{BUSINESS.licenseNumber}).</p>
           <ul className="text-gray-700 mb-5 space-y-1">
             <li>150+ verified Google reviews · 5.0-star average · zero negative reviews</li>
-            <li>Bite-Free Guarantee — if pests come back inside the protection window, we re-treat free</li>
+            <li>{PROMISES.rainBack}</li>
+            <li>{PROMISES.biteFreeScope} — if mosquitoes come back between scheduled treatments, we re-treat free</li>
             <li>Same-week scheduling during peak season</li>
             <li>No contracts — book single treatments or seasonal plans, your choice</li>
           </ul>

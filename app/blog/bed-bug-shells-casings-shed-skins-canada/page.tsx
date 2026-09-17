@@ -19,7 +19,7 @@ const UPDATED = '2026-07-30'
 // inspection protocol lives on how-to-check-for-bed-bugs-canada and the treatment
 // protocol on how-to-get-rid-of-bed-bugs-canada — do not restate either here.
 const TITLE = 'Bed Bug Shells, Casings and Shed Skins — What You Found, and Whether It Is Still Active'
-const META_TITLE = 'Bed Bug Shells and Shed Skins: Active or Old?'
+const META_TITLE = 'Bed Bug Shells & Shed Skins Canada: Active?'
 
 const FAQS = [
   {

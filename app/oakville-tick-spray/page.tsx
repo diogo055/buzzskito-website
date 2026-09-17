@@ -3,13 +3,15 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Oakville Tick Control 2026 · From $99 · Bronte Creek Specialist',
   description:
-    'Oakville tick spray · 150+ five-star reviews. Targets blacklegged ticks near Bronte Creek, Joshua Creek & Iroquois Shoreline. Free re-spray. (289) 216-5030.',
+    'Oakville tick spray · 150+ five-star reviews. Targets blacklegged ticks near Bronte Creek, Joshua Creek & Iroquois Shoreline. Rain-back guarantee. (289) 216-5030.',
   canonical: '/oakville-tick-spray',
 })
 
@@ -36,15 +38,15 @@ const FAQS = [
   },
   {
     question: 'How many tick treatments does my Oakville property need per season?',
-    answer: "We recommend five treatments per season, spread roughly monthly from May through September. Each application provides up to 30 days of residual protection, so monthly visits keep the barrier continuous through the May–July nymph peak — nymphs are poppy-seed sized, easily missed, and the stage responsible for most Lyme disease transmission. Adult ticks re-emerge later in the season and stay active into November in mild years, which the August and September visits target. Properties directly adjacent to Bronte Creek Provincial Park or wooded ravines also have ticks carried back in between visits by deer, mice, and birds, which is why the barrier is renewed monthly rather than left to a single application. The seasonal tick program is $597 standalone, or $497 added to any mosquito plan.",
+    answer: "We recommend five treatments per season, spread roughly monthly from May through September. Monthly visits keep treatments on schedule through the May–July nymph peak, and the August and September visits continue treatments into the later season, when adult ticks re-emerge and stay active into November in mild years. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors. Properties directly adjacent to Bronte Creek Provincial Park or wooded ravines also have ticks carried back in between visits by deer, mice, and birds, which is why the barrier is renewed monthly rather than left to a single application. The seasonal tick program is $597 standalone, or $497 added to any mosquito plan.",
   },
   {
-    question: "Is tick spray safe near Oakville's creeks and wetlands?",
-    answer: "Yes. Our Health Canada–approved, water-based formula is designed for residential use near water features. We do not apply product to water or shoreline areas directly. Once dry (approximately 30 minutes), the formula does not leach into waterways. We maintain safe buffer zones around any sensitive riparian areas on your property.",
+    question: "How is tick spray applied near Oakville's creeks and wetlands?",
+    answer: "We do not apply product to water or shoreline areas directly. Our licensed technicians apply a water-based product according to its label directions, including its directions for applications near water, and we keep buffer zones around any sensitive riparian areas on your property.",
   },
   {
     question: 'Does BuzzSkito offer mosquito control in Oakville as well?',
-    answer: "Yes. Oakville's lakefront properties, Bronte Creek, 16 Mile Creek, and rain-garden landscaping create significant annual mosquito pressure. Many Oakville homeowners bundle mosquito and tick treatments for complete yard protection through the season. Ask about seasonal package pricing when you call.",
+    answer: "Yes. Oakville's lakefront properties, Bronte Creek, 16 Mile Creek, and rain-garden landscaping create significant annual mosquito pressure. Many Oakville homeowners bundle mosquito and tick treatments on the same visit through the season. Ask about seasonal package pricing when you call.",
   },
   {
     question: 'What areas of my Oakville property should be treated for ticks?',
@@ -56,17 +58,18 @@ export default function OakvilleTickSprayPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray in ${CITY}, Ontario. Health Canada–approved. Up to 30-day protection.`, slug: SLUG, city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray in ${CITY}, Ontario. Licensed Ontario operator. Applied according to label directions.`, slug: SLUG, city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'Oakville' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/oakville-tick-spray', '2026-07-01')) }} />
 
       <CityHero
+        service="tick"
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>Oakville Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Bronte Creek Provincial Park, Glen Abbey's wooded ravines, and Oakville's natural trail systems are prime blacklegged tick habitat. BuzzSkito provides professional tick spray to protect Oakville families from Lyme disease.</>}
+        subtitle={<>Licensed Ontario pesticide operator treating Oakville yards near Bronte Creek Provincial Park, Glen Abbey&apos;s wooded ravines, and the town&apos;s trail systems, all prime blacklegged tick habitat. Treatments applied according to label directions.</>}
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -74,10 +77,10 @@ export default function OakvilleTickSprayPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ 5 Tick Sprays per Season</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -85,7 +88,7 @@ export default function OakvilleTickSprayPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best tick control company in Oakville?">
         <p>
-          <strong>BuzzSkito provides specialist tick barrier spray across all Oakville neighbourhoods — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, North Oakville, Eastlake, Falgarwood.</strong> Treatments use Health Canada-approved formulations applied to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>150+ five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Oakville families get reliable Lyme disease prevention for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist tick barrier spray across all Oakville neighbourhoods — Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, North Oakville, Eastlake, Falgarwood.</strong> Treatments are applied by a licensed Ontario operator, according to label directions, to the specific 1–3 metre zones where blacklegged ticks concentrate — lawn-to-woods transitions, leaf litter, garden bed edges, and fence-line vegetation. Single treatments start at <strong>$99</strong>; tick add-on bundled with mosquito plan from $497. With <strong>150+ five-star Google reviews</strong>, no contracts, a <strong>rain-back guarantee on every plan</strong>, and 5 tick sprays per season, Oakville families get professional tick treatment for ravine, conservation-area, and wooded-edge properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -99,17 +102,18 @@ export default function OakvilleTickSprayPage() {
                 {[
                   ['Service area', 'All Oakville neighbourhoods (Bronte, Glen Abbey, Joshua Creek, West Oak Trails, Clearview, Palermo, River Oaks, Kerr Village, Old Oakville, North Oakville, Eastlake, Falgarwood)'],
                   ['Specialization', 'Blacklegged tick (Ixodes scapularis) and American dog tick barrier spray'],
-                  ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or tick add-on bundle available on quote'],
+                  ['Pricing', 'From $99 per treatment · seasonal tick program $597 standalone or $497 added to any mosquito plan (plus HST)'],
                   ['Treatment season', 'May through September, roughly monthly (nymph peak May–July, adults active again through autumn)'],
-                  ['Protection per visit', 'Up to 30 days residual on tick habitat zones'],
-                  ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
+                  ['Application', PROMISES.labelLine],
+                  ['Re-entry', 'Stay off treated areas until the spray has dried, as the label directs'],
                   ['Recommended schedule', '5 treatments per season for ravine- or conservation-area-adjacent properties'],
                   ['Highest tick zones', 'Bronte Creek · 16 Mile Creek · Lions Valley Park · wooded ravine edges'],
                   ['Lyme disease vector', 'Yes — blacklegged tick populations confirmed by Public Health Ontario'],
                   ['Application zones', 'Lawn-to-woods edge · leaf litter · garden bed perimeters · fence-line vegetation · woodpiles'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
-                  ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
+                  ['Guarantee', PROMISES.rainBackShort],
+                  ['Licence', PROMISES.licence],
                   ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
                   ['Phone', '(289) 216-5030'],
                 ].map(([k, v]) => (
@@ -135,6 +139,8 @@ export default function OakvilleTickSprayPage() {
         </div>
       </section>
 
+      <TypicalPrices service="tick" city={CITY} />
+
       {/* How It Works */}
       <section className="py-14 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -143,8 +149,8 @@ export default function OakvilleTickSprayPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones on your Oakville property — lawn-to-woods transition areas near Bronte Creek, leaf litter, woodpiles, garden bed edges, and fence lines.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a protective barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies a barrier product, according to its label directions, to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: 'Rain within 1 hour of your treatment? We come back and re-treat free, on every plan. The barrier is renewed through the season: 5 tick sprays, May to September.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -160,7 +166,7 @@ export default function OakvilleTickSprayPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Tick Risk in Oakville</h2>
           <p>Oakville's picturesque wooded landscape — Bronte Creek Provincial Park, the 16 Mile Creek corridor, and the many ravines woven through Glen Abbey, Joshua Creek, and West Oak Trails — creates significant blacklegged tick habitat. Halton Region Public Health conducts annual tick surveillance and has documented established blacklegged tick populations in Bronte Creek Provincial Park and adjacent areas. Oakville's proximity to the Niagara Escarpment means tick populations from the escarpment spread into adjacent residential neighbourhoods through deer movement along creek corridors.</p>
-          <p>The critical point for Oakville homeowners: you don't need a forest to have ticks. A property backing onto any ravine, creek, or green space — even a thin strip — can have tick activity at its edges. A professional barrier treatment at your property's transition zones is the most effective prevention available.</p>
+          <p>The critical point for Oakville homeowners: you don't need a forest to have ticks. A property backing onto any ravine, creek, or green space — even a thin strip — can have tick activity at its edges. A professional barrier treatment at your property's transition zones targets the places ticks actually wait.</p>
 
           <h2>High-Risk Zones by Oakville Neighbourhood</h2>
           <ul>
@@ -197,9 +203,9 @@ export default function OakvilleTickSprayPage() {
               </thead>
               <tbody>
                 {[
-                  { t: 'Treatment 1', timing: 'May', target: 'Knock down overwintered adults and the first nymphs as the season opens' },
-                  { t: 'Treatment 2', timing: 'June', target: 'Peak nymph season — poppy-seed sized, easily missed, and the stage behind most Lyme transmission' },
-                  { t: 'Treatment 3', timing: 'July', target: 'Holds the barrier through the tail of the May–July nymph peak, with no gap in between' },
+                  { t: 'Treatment 1', timing: 'May', target: 'Treat for overwintered adults and the first nymphs as the season opens' },
+                  { t: 'Treatment 2', timing: 'June', target: 'Peak nymph season — nymphs are poppy-seed sized and easily missed' },
+                  { t: 'Treatment 3', timing: 'July', target: 'Renews the barrier through the tail of the May–July nymph peak' },
                   { t: 'Treatment 4', timing: 'August', target: 'Re-treats ticks reintroduced by deer, mice, and birds from Bronte Creek and ravine edges' },
                   { t: 'Treatment 5', timing: 'September', target: 'Adult tick resurgence — activity continues into November in mild years' },
                 ].map(({ t, timing, target }) => (
@@ -215,6 +221,8 @@ export default function OakvilleTickSprayPage() {
 
           <p>That timing follows the local activity curve rather than a generic calendar. Oakville ticks reactivate above 4&deg;C — reliably by the third week of March — and stay active into November, as we set out in <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 hover:underline">our guide to when ticks are active in Oakville</Link>.</p>
 
+          <CityPriceCard city={CITY} service="tick" location="price_card_mid" />
+
           <h2>Tick Spray Pricing in Oakville</h2>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse">
@@ -227,9 +235,9 @@ export default function OakvilleTickSprayPage() {
               </thead>
               <tbody>
                 {[
-                  { type: 'Standard lot (under 6,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Oakville semi or detached home' },
-                  { type: 'Mid-size lot (6,000–10,000 sq ft)', price: 'Custom quote', coverage: 'Ravine-backing, Glen Abbey, West Oak Trails' },
-                  { type: 'Large / estate property (10,000+ sq ft)', price: 'Custom quote', coverage: 'Old Oakville estates, Bronte creek-adjacent' },
+                  { type: 'Standard lot (under 10,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Oakville semi or detached home' },
+                  { type: 'Larger lot (10,000–100,000 sq ft)', price: 'Priced by lot size', coverage: 'Ravine-backing, Glen Abbey, West Oak Trails' },
+                  { type: 'Estate property (100,000+ sq ft)', price: 'Custom quote', coverage: 'Old Oakville estates, Bronte creek-adjacent' },
                 ].map(({ type, price, coverage }) => (
                   <tr key={type} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-2 font-semibold text-brand-800">{type}</td>
@@ -243,31 +251,31 @@ export default function OakvilleTickSprayPage() {
 
           <h2>Professional Tick Spray vs. DIY in Oakville</h2>
           <ul>
-            <li><strong>Store-bought repellents protect people, not yards.</strong> DEET sprays protect the wearer during a walk. Professional yard spray creates a treated perimeter that kills ticks before they reach your family.</li>
+            <li><strong>Store-bought repellents protect people, not yards.</strong> DEET sprays protect the wearer during a walk. Professional yard spray treats the perimeter zones where ticks wait.</li>
             <li><strong>Precision matters more than product.</strong> Ticks live in specific micro-habitats — the lawn-to-woods transition zone, leaf litter, garden bed edges. Professional treatment targets these zones directly.</li>
-            <li><strong>Oakville&apos;s tick sources are beyond your property.</strong> Bronte Creek Provincial Park and the 16 Mile Creek corridor will produce ticks regardless. A treated barrier on your property is the only reliable residential defence.</li>
+            <li><strong>Oakville&apos;s tick sources are beyond your property.</strong> Bronte Creek Provincial Park and the 16 Mile Creek corridor will produce ticks regardless. A treated barrier at your property&apos;s edges is the practical residential step.</li>
           </ul>
 
           <h2>What to Expect on Tick Treatment Day</h2>
           <ol>
-            <li><strong>SMS notification before arrival</strong> — you don&apos;t need to be home.</li>
+            <li><strong>A booked visit window</strong> — never an exact arrival time, and you don&apos;t need to be home.</li>
             <li><strong>Property tick assessment</strong> — your technician identifies transition zones, leaf litter areas, and high-risk perimeters specific to your Oakville property.</li>
             <li><strong>Targeted barrier application</strong> — precision spray to tick habitat zones: lawn edges, garden borders, fence lines, woodpiles, under decks. 20–30 minutes.</li>
-            <li><strong>30-minute dry time</strong> — then fully safe for kids and pets.</li>
+            <li><strong>Drying time</strong> — keep kids and pets off treated areas until the spray has dried, as the label directs.</li>
             <li><strong>Email confirmation</strong> — treatment log with areas treated and next visit date.</li>
           </ol>
 
           <h2>Also Providing Mosquito Control in Oakville</h2>
-          <p>Bundle tick and mosquito protection for complete seasonal coverage. See our <Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">Oakville mosquito control service</Link>.</p>
+          <p>Bundle tick and mosquito treatments on the same visit — tick control is $497 per season when added to any mosquito plan. See our <Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">Oakville mosquito control service</Link>.</p>
 
 
           <h2>Compare Oakville Pest Control Options</h2>
-          <p>Oakville has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-oakville" className="text-brand-700 hover:underline font-semibold">Pest Control in Oakville</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company. See our full mosquito programme for the same property: <Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Oakville</Link>.</p>
+          <p>Oakville has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-oakville" className="text-brand-700 hover:underline font-semibold">Pest Control in Oakville</Link> for why a mosquito and tick specialist is a better fit than a general pest company for ravine-edge yards. See our full mosquito programme for the same property: <Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline font-semibold">Mosquito Control in Oakville</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
             <li><Link href="/blog/best-tick-control-yard-treatment" className="text-brand-700 hover:underline">Best Tick Control for Your Yard</Link></li>
-            <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease Prevention in Ontario</Link></li>
+            <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease and Ticks in Ontario: Homeowner Guide</Link></li>
             <li><Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms &amp; What to Do in Ontario</Link></li>
           </ul>
         </div>
@@ -303,6 +311,10 @@ export default function OakvilleTickSprayPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="tick" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -322,7 +334,7 @@ export default function OakvilleTickSprayPage() {
         </div>
       </section>
 
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protecting Oakville families from Lyme disease. No contracts." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Tick treatment for Oakville's creek and ravine-edge yards. No contracts." variant="dark" />
     </>
   )
 }

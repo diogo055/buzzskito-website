@@ -24,7 +24,7 @@ const FAQS = [
   },
   {
     question: 'Does blood type affect mosquito attraction?',
-    answer: 'Yes — research has consistently shown that mosquitoes have measurable preferences by blood type. A 2004 Japanese study by Shirai et al. found that Aedes albopictus mosquitoes landed on people with type O blood roughly twice as often as people with type A blood. The mechanism is partly genetic: about 80% of people are &quot;secretors&quot; who excrete blood-type antigens through their skin, and these antigens influence how attractive their skin is to mosquitoes. Type O secretors are typically the most attractive, followed by type B, AB, and A.',
+    answer: 'Yes — research has consistently shown that mosquitoes have measurable preferences by blood type. A 2004 Japanese study by Shirai et al. found that Aedes albopictus mosquitoes landed on people with type O blood roughly twice as often as people with type A blood. The mechanism is partly genetic: about 80% of people are “secretors” who excrete blood-type antigens through their skin, and these antigens influence how attractive their skin is to mosquitoes. Type O secretors are typically the most attractive, followed by type B, AB, and A.',
   },
   {
     question: 'Does drinking alcohol attract mosquitoes?',

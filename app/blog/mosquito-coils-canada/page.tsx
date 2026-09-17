@@ -85,7 +85,7 @@ export default function MosquitoCoilsCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes &mdash; mosquito coils work outdoors in a small personal zone, but they are not safe to burn indoors. A smouldering coil repels and knocks down mosquitoes within roughly 1&ndash;2 metres downwind, so on a still patio, dock, or campsite they genuinely cut bites; for whole-yard, no-smoke protection a <Link href="/mosquito-control" className="text-emerald-700 underline">barrier spray</Link> or a <Link href="/blog/thermacell-canada-where-to-buy" className="text-emerald-700 underline">Thermacell</Link> beats a coil.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Yes &mdash; mosquito coils work outdoors in a small personal zone, but they are not safe to burn indoors. A smouldering coil repels and knocks down mosquitoes within roughly 1&ndash;2 metres downwind, so on a still patio, dock, or campsite they genuinely cut bites; for a smoke-free seating zone there is the <Link href="/blog/thermacell-canada-where-to-buy" className="text-emerald-700 underline">Thermacell</Link>, and for coverage across the whole yard a <Link href="/mosquito-control" className="text-emerald-700 underline">barrier spray</Link>.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A mosquito coil protects only a 1&ndash;2 metre personal zone downwind, not a whole yard.</li>
               <li>One coil burns for about 5&ndash;8 hours and costs under $1 per evening (packs run $6&ndash;$14).</li>
@@ -144,7 +144,7 @@ export default function MosquitoCoilsCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Want the most bites prevented per coil?</strong> The <em>Best Overall</em> PIC pyrethroid coil wins. <strong>Prefer a familiar brand?</strong> The <em>Trusted Brand</em> OFF! coil is the pick. <strong>Want a plant-based scent for camping?</strong> Reach for the <em>Best Natural</em> Coghlan&rsquo;s citronella. But every coil only defends a chair-sized smoke zone outdoors &mdash; for hands-off, whole-yard coverage that also handles ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Want the most bites prevented per coil?</strong> The <em>Best Overall</em> PIC pyrethroid coil wins. <strong>Prefer a familiar brand?</strong> The <em>Trusted Brand</em> OFF! coil is the pick. <strong>Want a plant-based scent for camping?</strong> Reach for the <em>Best Natural</em> Coghlan&rsquo;s citronella. But every coil only defends a chair-sized smoke zone outdoors &mdash; for hands-off, whole-yard coverage that also handles ticks, look at <Link href="/mosquito-control">professional barrier spray</Link>, applied to the vegetation across the yard.
               </>
             }
           />
@@ -301,7 +301,9 @@ export default function MosquitoCoilsCanadaPage() {
             <li><strong>One-off evenings</strong> — a single barbecue or fire-pit night where a seasonal plan makes no sense.</li>
             <li><strong>Around a fixed work area</strong> — gardening in one bed at dusk, painting a fence, or grilling.</li>
           </ul>
+          <p>The one camping case a coil cannot cover is the one where you are moving — hauling gear, setting up a tent, walking down to the water — because you leave the plume the moment you stand up. That is what a mesh head net is for, and it is the reason experienced backcountry campers carry one even when they also carry coils: it weighs almost nothing, needs no fuel, and it still works in the breeze that kills a coil outright. Pick one sized to go over a brimmed hat so the mesh sits off your face. <BuyLink tag={AMZ_TAG} search="mosquito head net">Check mosquito head nets on Amazon.ca →</BuyLink></p>
           <p>Position matters more than most people think. Put the coil <em>upwind</em> of where you are sitting so the smoke drifts across you, use two coils spaced a metre or two apart to bracket a group, and always seat it on the metal stand it ships with — never directly on a wooden deck, dry grass, or anything flammable.</p>
+          <p>That flimsy tin stand in the pack is the part everyone loses first, usually somewhere in the shed over the winter, and burning a coil without one is how deck boards end up scorched. A proper coil holder — a metal box or a hanging burner with a lid — sits flat, catches the ash, keeps the ember off the surface underneath, and can be hung from a railing or a branch at a campsite. It is one of the cheapest things in this guide, and it outlasts a decade of coil packs. <BuyLink tag={AMZ_TAG} search="mosquito coil holder burner">Check coil holders on Amazon.ca →</BuyLink></p>
 
           <h2>When a Mosquito Coil Is the Wrong Tool</h2>
           <ul>
@@ -331,9 +333,11 @@ export default function MosquitoCoilsCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Mosquito coil</strong></td><td className="px-3 py-2">Under $1/evening</td><td className="px-3 py-2">1–2 m plume (outdoor only)</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link></td><td className="px-3 py-2">$80–$150 first year</td><td className="px-3 py-2">4.5 m zone · no smoke</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/natural-mosquito-repellent-ontario">Citronella / natural repellents</Link></td><td className="px-3 py-2">$5–$20</td><td className="px-3 py-2">On-skin or small zone</td><td className="px-3 py-2">Limited</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">Whole yard · 21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">Whole yard · renewed on schedule</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
+
+          <p>The row directly above the coil in that table is the upgrade most coil buyers eventually make. A heat-activated zone repeller runs a treated mat off a small fuel cartridge or a battery instead of burning anything, so there is no smoke to sit in, no ash, no open ember on a wooden deck, and nothing to keep away from a child with asthma — and it holds a seating-area zone rather than a chair-sized plume. It still wants calm air, and the mats and fuel are consumables, so it is a running cost rather than a one-off. <BuyLink tag={AMZ_TAG} search="thermacell patio mosquito repeller">Check patio zone repellers on Amazon.ca →</BuyLink></p>
 
           <h2>The Honest Verdict for GTA Buyers</h2>
           <p>Mosquito coils are a legitimately useful little tool for the right job: a cheap, no-power way to buy yourself a smoke-bubble of relief on a still evening at the campsite, on the dock, or on a small patio. Keep a pack in the shed. Just respect the two rules that make them work safely — <strong>outdoors only</strong>, and <strong>sit in the plume, upwind of the coil</strong>. If you want more than a chair-sized zone, a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> does the same personal-zone job without the smoke, and for actual mosquito-and-tick coverage of your whole property, nothing a coil can do replaces a <Link href="/mosquito-control">professional barrier spray</Link>. For a full rundown of what works on GTA lawns, see our <Link href="/blog/mosquito-repellent-guide-ontario-2026">Ontario mosquito repellent guide</Link>.</p>
@@ -361,7 +365,7 @@ export default function MosquitoCoilsCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Trade the Smoke Bubble for a Whole-Yard Shield" subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 30-day residual. Ticks included." variant="dark" />
+      <CTASection heading="Trade the Smoke Bubble for a Whole-Yard Shield" subtext="Get a free quote for licensed barrier spray. From $99. Rain-back guarantee on every plan. Tick plans available." variant="dark" />
     </>
   )
 }

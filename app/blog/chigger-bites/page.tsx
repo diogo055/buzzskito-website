@@ -16,7 +16,7 @@ const SLUG = 'chigger-bites'
 const DATE = '2026-07-19'
 const UPDATED = '2026-07-19'
 const TITLE = 'Chiggers and Chigger Bites: What They Look Like, Whether They Burrow, and How to Treat the Itch'
-const META_TITLE = 'Chigger Bites: Look-Alikes & Do They Burrow?'
+const META_TITLE = 'Chigger Bites in Canada: Or Is It a Look-Alike?'
 
 const FAQS = [
   {
@@ -240,6 +240,25 @@ export default function ChiggerBitesPage() {
 
         <SpecialistDisclosure pest="chiggers" />
 
+        <AffiliateDisclosure />
+        <div className="not-prose my-6 rounded-xl border border-amber-200 bg-amber-50/60 p-5">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700 mb-3">What to do right now</p>
+          <ol className="space-y-4">
+            <li>
+              <p className="text-sm text-gray-800 leading-relaxed"><strong>1. Shower with soap and warm water, then bag the clothes you wore.</strong> Costs nothing and is the only step that changes the outcome rather than the symptoms &mdash; it washes off larvae that have not fed yet, so there are fewer bites to treat. Wash the clothes hot, about 52&deg;C (125&deg;F), rather than re-wearing them.</p>
+            </li>
+            <li>
+              <p className="text-sm text-gray-800 leading-relaxed mb-2"><strong>2. Put something on the itch tonight.</strong> Calamine lotion is the standard drugstore first line for chigger welts &mdash; it cools and dries them while the reaction runs its course. Use it exactly as the label directs.</p>
+              <BuyLink tag={AMZ_TAG} search="calamine lotion">Check price on Amazon.ca &rarr;</BuyLink>
+            </li>
+            <li>
+              <p className="text-sm text-gray-800 leading-relaxed mb-2"><strong>3. Have cold ready for the first two nights.</strong> Cold does as much work as any cream over the first 48 hours, and a reusable gel pack wrapped in a tea towel is far easier to keep up at 2 a.m. than a refilled bag of ice.</p>
+              <BuyLink tag={AMZ_TAG} search="reusable gel cold pack">Check price on Amazon.ca &rarr;</BuyLink>
+            </li>
+          </ol>
+          <p className="mt-4 text-xs text-gray-500">Nothing here shortens the bite &mdash; the reaction keeps its own schedule. These are comfort measures for the first three days, and general information rather than medical advice.</p>
+        </div>
+
         <p>Few bites cause as much confusion as chigger bites: the culprit is too small to see, the itch shows up hours after you have left the grass, and half the folk wisdom about them &mdash; burrowing mites, nail-polish cures &mdash; is simply wrong. This guide covers what chigger bites actually look like, how to separate them from the mosquito, bed bug, and flea bites they get mistaken for, how long the itch really lasts, and the treatment and prevention steps backed by public health guidance rather than folklore.</p>
 
         <p className="text-sm text-gray-600 italic border-l-4 border-gray-200 pl-4">This is general information, not medical advice. If you are worried about a bite reaction, signs of infection, or symptoms that do not fit the patterns described here, contact a healthcare provider. In an emergency, call your local emergency number.</p>
@@ -430,6 +449,10 @@ export default function ChiggerBitesPage() {
           <BuyLink tag={AMZ_TAG} search="calamine lotion">Check calamine lotion on Amazon &rarr;</BuyLink>
           <BuyLink tag={AMZ_TAG} search="chigger bite itch relief cream">Check anti-itch creams on Amazon &rarr;</BuyLink>
         </div>
+        <p>Cold does as much work as any cream over the first two days, and it is far easier to keep up if you are not refilling a bag of ice every twenty minutes. A reusable gel pack out of the freezer, wrapped in a tea towel and held against the worst cluster for ten minutes at a time, is the cheapest thing on this list and the one people reach for at 2 a.m.</p>
+        <div className="not-prose my-4">
+          <BuyLink tag={AMZ_TAG} search="reusable gel cold pack">Check reusable cold packs on Amazon &rarr;</BuyLink>
+        </div>
         <p>What <em>not</em> to do: no nail polish, no bleach, no rubbing alcohol scrubs, no &ldquo;suffocating&rdquo; home remedies. All of them descend from the burrowing myth &mdash; debunked below &mdash; and some actively irritate skin that is already inflamed.</p>
 
         <h2>What is the fastest way to cure chigger bites?</h2>
@@ -443,11 +466,19 @@ export default function ChiggerBitesPage() {
           <li><strong>Stop scratching.</strong> Not a treatment so much as the thing that prevents the only complication that matters.</li>
         </ol>
         <p>If an over-the-counter product is not holding the itch, a clinician can prescribe something stronger &mdash; a higher-potency topical corticosteroid is the usual next step, and clinical references describe an injected steroid as a rare escalation for severe reactions. That is a decision for a healthcare provider, not a self-treatment step.</p>
+        <p>Oral antihistamines are the other thing a pharmacist will ask about, particularly when the itch is costing someone sleep, and they are a drugstore staple rather than anything exotic. If you spend time in chigger country, having a box in the cupboard before the next trip into long grass beats hunting for one at bedtime. Which one suits you or your child at their age is the pharmacist&rsquo;s call, and the label directions are the rule.</p>
+        <div className="not-prose my-4">
+          <BuyLink tag={AMZ_TAG} search="oral antihistamine allergy tablets">Check oral antihistamines on Amazon &rarr;</BuyLink>
+        </div>
         <h3>How soon after treatment will you feel better?</h3>
         <p>Treatment works on the itch, not on the calendar. Topical anti-itch products take the edge off within minutes to an hour and wear off on the schedule their label describes. Underneath that, the reaction keeps its own timetable: worst over the first 24&ndash;48 hours, much easier by around day three, welt fading over one to two weeks. If you are expecting the bumps to disappear because you treated them, you will be disappointed &mdash; the realistic goal is a tolerable three days.</p>
         <h3>The risks of scratching</h3>
         <p>Scratching is the one thing that turns a comfort problem into a medical one. Broken skin lets ordinary skin bacteria in, and a secondary bacterial infection &mdash; the impetigo or cellulitis picture &mdash; is the realistic complication of North American chigger bites, per the CDC&rsquo;s framing that chiggers here are not known to transmit disease. Scratched bites also take longer to heal, are the ones that run past two weeks, and are the ones most likely to leave a temporary mark.</p>
         <p>Practical defences: keep fingernails short, cover the worst welts with a plaster so fingers cannot reach them, use cold instead of nails when the urge hits, and treat night-time deliberately &mdash; cool the skin before bed, keep the bedroom cool, and ask a pharmacist about an antihistamine if a child is scratching in their sleep. Watch for spreading redness, warmth, pain, pus, red streaks, or fever, and see a healthcare provider if any appear.</p>
+        <p>On a child, covering is the defence that actually holds overnight, because it works while they are asleep and the itch is at its worst. Small spot plasters or hydrocolloid bite patches sit over a single welt without wrapping a whole ankle, and a hand that finds a smooth dressing instead of a raised bump usually moves on. They are also what stops a scratched-open bite picking up the skin infection that turns a three-day annoyance into a two-week one.</p>
+        <div className="not-prose my-4">
+          <BuyLink tag={AMZ_TAG} search="hydrocolloid bug bite patches">Check bite patches and spot plasters on Amazon &rarr;</BuyLink>
+        </div>
 
         <h2>Do chiggers burrow into your skin?</h2>
         <p><strong>No.</strong> This is the most stubborn myth in all of bite folklore, and it drives most of the bad remedies. Chigger larvae feed <strong>from the surface of the skin</strong>, anchored at a pore or hair follicle, through the stylostome tube. They do not tunnel under skin, do not lay eggs in skin, and cannot live on your body. In fact, by the time the itch peaks, the larva is usually long gone &mdash; scratched off or dropped away after feeding.</p>

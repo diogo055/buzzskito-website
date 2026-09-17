@@ -15,12 +15,15 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 const SLUG = 'bed-bug-bites'
 const DATE = '2026-07-19'
 const UPDATED = '2026-07-19'
-// H1 keeps the long descriptive form; SERP title is trimmed to 46 chars so it
+// H1 keeps the long descriptive form; SERP title is trimmed to 47 chars so it
 // survives Google's ~60-char cap once the " | BuzzSkito" template is appended.
+// Carries a Canada token: title-geo pages measure 13.1 CA clicks/page vs 4.6
+// for neutral titles, and the page's authority and next steps are Canadian
+// (Health Canada on secondary infection, PMRA-registered products, rental rules).
 // Highest-ceiling page on the site: "bed bug bites" is 50K/mo CA, 506K/mo US.
 // Baseline before this change (Jul 27 2026): 785 impr, 1 click, avg pos 9.4.
 const TITLE = 'Bed Bug Bites: What They Look Like, How Long They Last & How to Tell for Sure (2026)'
-const META_TITLE = 'Bed Bug Bites: 3-5 in a Line, Up to 14-Day Lag'
+const META_TITLE = 'Bed Bug Bites Canada: 3-5 in a Line, 14-Day Lag'
 
 const FAQS = [
   {

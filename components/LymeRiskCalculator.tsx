@@ -3,6 +3,8 @@
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
+import { getGaClientId, getLandingPage, getReferrer, getUtm } from '@/lib/attribution'
+import { track } from '@/lib/track'
 import AddressAutocomplete, { type ParsedAddress } from './AddressAutocomplete'
 import {
   scoreLyme,
@@ -58,17 +60,36 @@ export default function LymeRiskCalculator() {
     }
     setSubmitting(true)
     setError('')
+    // Stays 'network' unless the Hub answered, so a failed fetch and a rejected request read differently in GA.
+    let errorType = 'network'
     try {
       const res = await fetch(`${HUB_API_URL}/api/lyme-risk`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name: name.trim(), email: email.trim().toLowerCase(), answers, result }),
+        body: JSON.stringify({
+          name: name.trim(),
+          email: email.trim().toLowerCase(),
+          answers,
+          result,
+          // First-touch attribution (lead payload contract): the page that brought the visitor, not this calculator.
+          landing_page: getLandingPage(),
+          referrer: getReferrer() || undefined,
+          source_component: 'lyme_risk',
+          ...getUtm(),
+          ga_client_id: getGaClientId() || undefined,
+        }),
       })
-      if (!res.ok) throw new Error('Failed')
+      if (!res.ok) {
+        errorType = `http_${res.status}`
+        throw new Error('Failed')
+      }
+      // Counted only once the Hub has accepted the lead.
+      track('generate_lead', { form_name: 'lyme_risk' })
       setSubmitted(true)
       setStep(TOTAL_STEPS + 1)
     } catch {
-      setError('Something went wrong. Just call (289) 216-5030 — Alex will help.')
+      track('form_error', { form_name: 'lyme_risk', error_type: errorType })
+      setError(`Something went wrong. Just call ${BUSINESS.phone} — Alex will help.`)
     } finally {
       setSubmitting(false)
     }
@@ -156,7 +177,7 @@ export default function LymeRiskCalculator() {
       )}
 
       {step === 5 && (
-        <Step back={back} title="Do you check for ticks after outdoor activities?" subtitle="Ticks need 24-36 hours attached to transmit Lyme. Finding them early prevents transmission entirely.">
+        <Step back={back} title="Do you check for ticks after outdoor activities?" subtitle="Public Health Ontario notes a blacklegged tick usually has to be attached for 24 hours or more to pass on Lyme disease, so checking and removing ticks early matters.">
           {([
             { id: 'every-time', label: '✓ Every time — body check after every outing' },
             { id: 'sometimes', label: 'Sometimes — when I remember' },
@@ -237,6 +258,7 @@ function ScoreReveal({ result, back, name, setName, email, setEmail, submitting,
       <div className="rounded-2xl bg-blue-50 border-l-4 border-blue-500 p-5">
         <p className="text-xs font-extrabold text-blue-700 uppercase tracking-wider mb-2">⚕️ Medical guidance for your risk level</p>
         <p className="text-sm text-gray-800 leading-relaxed">{result.doctorAdvice}</p>
+        <p className="text-xs text-gray-600 mt-2">General information, not medical advice. Talk to your doctor, or see Public Health Ontario&rsquo;s Lyme disease guidance.</p>
       </div>
 
       <div className="rounded-2xl bg-rose-50 border-l-4 border-rose-500 p-5">
@@ -245,13 +267,13 @@ function ScoreReveal({ result, back, name, setName, email, setEmail, submitting,
       </div>
 
       <div className="rounded-2xl bg-gradient-to-br from-brand-900 to-brand-950 text-white p-6 shadow-xl">
-        <h3 className="text-xl font-extrabold mb-2">Get your full Lyme prevention plan</h3>
-        <p className="text-sm text-brand-200 mb-4">Custom email with your full risk breakdown, evidence-based prevention checklist for your specific household, and your custom yard treatment plan.</p>
+        <h3 className="text-xl font-extrabold mb-2">Get your full Lyme risk report</h3>
+        <p className="text-sm text-brand-200 mb-4">Custom email with your full risk breakdown, a tick-check and repellent checklist for your household drawn from public-health advice, and options for treating your yard.</p>
         <div className="space-y-2">
           <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Your name" required className="w-full rounded-xl border border-brand-700 bg-brand-900/50 px-4 py-3 text-white placeholder:text-brand-400 focus:border-amber-400 focus:outline-none" />
           <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email address" required className="w-full rounded-xl border border-brand-700 bg-brand-900/50 px-4 py-3 text-white placeholder:text-brand-400 focus:border-amber-400 focus:outline-none" />
           {error && <p className="text-amber-300 text-xs">{error}</p>}
-          <button onClick={onSubmit} disabled={submitting || !name || !email} className="w-full bg-amber-500 hover:bg-amber-400 disabled:opacity-60 text-white font-extrabold px-6 py-4 rounded-full text-lg shadow-xl transition-colors mt-2">{submitting ? 'Generating your report…' : '📧 Send My Lyme Prevention Plan'}</button>
+          <button onClick={onSubmit} disabled={submitting || !name || !email} className="w-full bg-amber-500 hover:bg-amber-400 disabled:opacity-60 text-white font-extrabold px-6 py-4 rounded-full text-lg shadow-xl transition-colors mt-2">{submitting ? 'Generating your report…' : '📧 Send My Lyme Risk Report'}</button>
         </div>
         <p className="text-[10px] text-brand-300 mt-3 text-center">🔒 We never sell your info.</p>
       </div>
@@ -263,7 +285,7 @@ function Confirmation({ result, name, email }: { result: LymeResult; name: strin
   return (
     <div className="space-y-6 text-center py-8">
       <div className="text-7xl">⚕️</div>
-      <h2 className="text-3xl font-extrabold text-brand-900">{name.split(' ')[0]}, your Lyme prevention plan is on its way!</h2>
+      <h2 className="text-3xl font-extrabold text-brand-900">{name.split(' ')[0]}, your Lyme risk report is on its way!</h2>
       <p className="text-gray-600 max-w-md mx-auto">Check <strong>{email}</strong> in the next 60 seconds. Your full breakdown is being delivered now.</p>
 
       <div className="rounded-2xl bg-gradient-to-br from-brand-900 to-brand-950 text-white p-6 max-w-md mx-auto shadow-xl">

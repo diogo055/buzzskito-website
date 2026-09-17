@@ -134,7 +134,7 @@ export default function BiogentsBgMosquitaireCanadaPage() {
                 why: 'The consumable that keeps the trap honest. Biogents rates a lure for months rather than weeks, so a multipack covers an Ontario season with a spare. Buying one with the trap is the single best thing you can do to avoid a dead trap in the middle of July.',
                 search: 'biogents bg-lure replacement cartridge',
                 score: 8.9,
-                pros: ['One season, one or two cartridges', 'Non-toxic scent attractant'],
+                pros: ['One season, one or two cartridges', 'Scent lure, no insecticide in the trap'],
                 cons: ['Store sealed and cool or it degrades early'],
               },
               {
@@ -229,7 +229,7 @@ export default function BiogentsBgMosquitaireCanadaPage() {
           <h2>What the BG-Mosquitaire Actually Is</h2>
           <p>Biogents is a German company whose BG-Sentinel trap became the standard surveillance tool for monitoring <em>Aedes</em> and <em>Culex</em> populations &mdash; the thing public-health programs and academic entomologists deploy when they need to know what is flying. The BG-Mosquitaire is the consumer build of that design: the same fan-driven airflow pattern and the same BG-Lure attractant, in a housing meant to sit in a garden bed rather than a field study.</p>
           <p>Mechanically it is unglamorous, which is the point. A quiet fan draws air through the trap and pushes a plume upward in a pattern that imitates the convection currents rising off a warm human body. The BG-Lure adds the chemical half of the signal &mdash; an artificial imitation of human skin scent. A host-seeking female flies in along that plume, gets pulled through the funnel by the suction, and ends up in a catch bag she cannot leave. There is no electrocution grid, no chemical, and nothing applied to the yard.</p>
-          <p>That last part matters more than it sounds. A trap is a device, not a pesticide, so nothing here is regulated by Health Canada&rsquo;s PMRA the way a spray is, and no residue lands on your grass or your patio furniture. It is the chemical-free end of mosquito control, which is exactly why a certain kind of homeowner is willing to spend $400 on one.</p>
+          <p>That last part matters more than it sounds. A trap is a device, not a pesticide, so nothing here is regulated by Health Canada&rsquo;s PMRA the way a spray is, and no residue lands on your grass or your patio furniture. It is the no-spray end of mosquito control, which is exactly why a certain kind of homeowner is willing to spend $400 on one.</p>
           <p>If you are still at the category stage &mdash; deciding whether a CO2 trap of any kind is the right approach &mdash; start with our overview of <Link href="/blog/co2-mosquito-trap-canada">CO2 mosquito traps in Canada</Link>. This page assumes you have already landed on Biogents and are choosing between its versions.</p>
 
           <h2>CO2 or Lure-Only? The Decision That Costs the Most Money</h2>
@@ -277,15 +277,15 @@ export default function BiogentsBgMosquitaireCanadaPage() {
           <h2>When Something Cheaper Is the Right Answer</h2>
           <p>We would rather tell you not to buy this than have you buy it for the wrong yard. Four cases where the money is better spent elsewhere:</p>
           <ul>
-            <li><strong>You need the yard usable this Saturday.</strong> No trap does that. A barrier treatment knocks the resting population down within hours and holds for weeks; that is a different tool for a different question.</li>
+            <li><strong>You need the yard usable this Saturday.</strong> No trap does that. A barrier treatment goes onto the foliage where adults rest on the day of the visit and is repeated through the season; that is a different tool for a different question.</li>
             <li><strong>You use the yard a handful of evenings a summer.</strong> A Thermacell-style personal repellent zone costs a fraction of a Biogents trap and protects the patio for the hours you are actually in it. Our <Link href="/blog/thermacell-canada-where-to-buy">Thermacell guide for Canada</Link> covers that end of the market.</li>
             <li><strong>Your yard is making its own mosquitoes.</strong> If there is standing water on the property &mdash; a saucer under a planter, a clogged eaves trough, a tarp with a puddle, an untreated rain barrel &mdash; you are breeding the problem faster than any trap removes it. Ten minutes with the checklist in <Link href="/blog/hidden-mosquito-breeding-spots-backyard">hidden mosquito breeding spots</Link> costs nothing and often outperforms a $400 machine.</li>
             <li><strong>You have an acre or more, rural.</strong> Lure-only reach is not the answer at that scale. Read the acreage comparison in our <Link href="/blog/best-mosquito-trap">best mosquito traps in Canada</Link> roundup before spending here.</li>
           </ul>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">A trap works on weeks. A treatment works on hours.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">The strongest setup for a GTA backyard is both: a barrier spray that makes the yard usable now, and a trap quietly pulling the population down between treatments. BuzzSkito starts at $99 for a single treatment, with season plans at $549, $994 and $2,049. Tick protection is $597/season standalone or $497 bundled &mdash; five sprays across the season. 19+ GTA cities, May&ndash;September.</p>
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">A trap works over weeks. A treatment is one visit.</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">The strongest setup for a GTA backyard is both: a barrier spray on the resting sites now, and a trap quietly pulling the population down between treatments. BuzzSkito starts at $99 for a single treatment, with season plans at $549, $994 and $2,049. Tick protection is $597/season standalone or $497 bundled &mdash; five sprays across the season. 19+ GTA cities, May&ndash;September.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>

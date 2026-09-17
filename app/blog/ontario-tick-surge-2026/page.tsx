@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
 
 const POST = {
   title: "Ontario Tick Surge 2026: What's Happening and How to Protect Your Family",
@@ -24,11 +25,11 @@ const FAQS = [
   },
   {
     question: "What's the most effective protection for my yard?",
-    answer: 'A professional tick barrier spray puts a Health Canada-registered residual acaricide on the perimeter zones where blacklegged ticks actually sit — fence lines, garden beds, wood-edge transitions, leaf-litter areas and under decks — instead of the open lawn, where they largely do not. Applications are spaced roughly monthly from May through September — five across the season — because the residual from one treatment lasts weeks rather than months; that cadence keeps the barrier continuous through the May-July nymph peak and into the fall adult resurgence, whereas a spring-and-fall pair would leave the peak months open. Habitat modification (leaf removal, regular mowing, and a gravel or wood-chip buffer between lawn and forest) removes the shaded humidity ticks need to survive between hosts, so the two work together. Neither eliminates ticks: wildlife carries new ones onto the property all season, which is why treatment is repeated on a schedule rather than done once or twice.',
+    answer: 'A professional tick barrier spray puts a PCP-registered residual acaricide on the perimeter zones where blacklegged ticks actually sit — fence lines, garden beds, wood-edge transitions, leaf-litter areas and under decks — instead of the open lawn, where they largely do not. Applications are spaced roughly monthly from May through September — five across the season — because the residual from one treatment lasts weeks rather than months; that cadence keeps treatments on schedule through the May-July nymph peak and into the fall adult resurgence, whereas a spring-and-fall pair would leave the peak months open. Habitat modification (leaf removal, regular mowing, and a gravel or wood-chip buffer between lawn and forest) removes the shaded humidity ticks need to survive between hosts, so the two work together. Neither eliminates ticks: wildlife carries new ones onto the property all season, which is why treatment is repeated on a schedule rather than done once or twice.',
   },
   {
     question: 'When should I start tick prevention?',
-    answer: 'Now. Tick nymphs (the smallest, hardest-to-spot, and most dangerous stage for Lyme transmission) are active from May through July in Ontario. If you have not yet had a yard treatment in 2026, the optimal window is closing fast — late May to early June is the highest-value application. From there the barrier is renewed roughly monthly through September, five treatments across the season, because one application\'s residual lasts weeks rather than months and wildlife keeps carrying fresh ticks in from adjacent woodland. That cadence is what keeps the May-July nymph months covered, and the late-season applications carry protection into the fall, when adult ticks re-emerge and stay active into November in mild years.',
+    answer: 'Now. Tick nymphs (the smallest, hardest-to-spot, and most dangerous stage for Lyme transmission) are active from May through July in Ontario. If you have not yet had a yard treatment in 2026, the optimal window is closing fast — late May to early June is the highest-value application. From there the barrier is renewed roughly monthly through September, five treatments across the season, because one application\'s residual lasts weeks rather than months and wildlife keeps carrying fresh ticks in from adjacent woodland. That cadence keeps treatments running through the May-July nymph months, and the late-season applications continue into the fall, when adult ticks re-emerge and stay active into November in mild years.',
   },
   {
     question: 'Should I be worried about Lyme disease specifically?',
@@ -73,11 +74,11 @@ export default function OntarioTickSurge2026Page() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Ontario&rsquo;s 2026 tick season is running 2&ndash;3 weeks ahead of typical years, with blacklegged tick nymphs peaking from May through July. The most effective yard protection is a professional tick barrier spray starting in late May to early June and renewed roughly monthly through September &mdash; five treatments across the season &mdash; plus habitat modification: the spray puts a residual acaricide on the shaded edges and leaf litter where ticks quest, and the habitat work removes the humidity they need to survive there between hosts. Neither eliminates ticks, so keep doing tick checks.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Ontario&rsquo;s 2026 tick season is running 2&ndash;3 weeks ahead of typical years, with blacklegged tick nymphs peaking from May through July. The recommended yard approach is a professional tick barrier spray starting in late May to early June and renewed roughly monthly through September &mdash; five treatments across the season &mdash; plus habitat modification: the spray puts a residual acaricide on the shaded edges and leaf litter where ticks quest, and the habitat work removes the humidity they need to survive there between hosts. Neither eliminates ticks, so keep doing tick checks.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>Public health experts confirmed in May 2026 that tick activity across Southern Ontario is running 2&ndash;3 weeks ahead of typical years.</li>
             <li>Ontario reported 2,369 confirmed and probable Lyme disease cases in 2024 &mdash; up 27% over 2023 and the most of any province (PHAC). 2024 is the newest published year.</li>
-            <li>Professional tick barrier spray puts a Health Canada-registered residual acaricide on the fence lines, leaf litter and wood-edge transitions where ticks quest &mdash; not the open lawn &mdash; and is renewed roughly monthly, five times across a May-to-September season.</li>
+            <li>Professional tick barrier spray puts a PCP-registered residual acaricide on the fence lines, leaf litter and wood-edge transitions where ticks quest &mdash; not the open lawn &mdash; and is renewed roughly monthly, five times across a May-to-September season.</li>
             <li>Habitat modification &mdash; leaf-litter removal, short mowing, and a 3-foot gravel or wood-chip buffer &mdash; works on a different mechanism: it dries out the shaded litter layer ticks need to survive between hosts.</li>
             <li>Blacklegged tick nymphs, the stage most associated with Lyme transmission, are active in Ontario from May through July.</li>
             <li>Lyme transmission typically requires 24&ndash;36 hours of tick attachment, so a daily tick-check habit dramatically reduces risk.</li>
@@ -93,7 +94,7 @@ export default function OntarioTickSurge2026Page() {
         </aside>
 
         <p className="text-lg text-gray-700 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8 leading-relaxed">
-          <strong>TL;DR:</strong> Ontario&rsquo;s tick population is running 2-3 weeks ahead of normal in 2026. Toronto is now classified as a hot spot. Blacklegged tick nymphs (the most dangerous Lyme-carrying stage) are peaking right now through July. Professional barrier spray puts a Health Canada-registered residual acaricide on the shaded edges and leaf litter where ticks quest, and habitat modification takes away the humidity they need there. The window for spring application is closing.
+          <strong>TL;DR:</strong> Ontario&rsquo;s tick population is running 2-3 weeks ahead of normal in 2026. Toronto is now classified as a hot spot. Blacklegged tick nymphs (the most dangerous Lyme-carrying stage) are peaking right now through July. Professional barrier spray puts a PCP-registered residual acaricide on the shaded edges and leaf litter where ticks quest, and habitat modification takes away the humidity they need there. The window for spring application is closing.
         </p>
 
         <h2>The 2026 tick surge, in one sentence</h2>
@@ -117,7 +118,7 @@ export default function OntarioTickSurge2026Page() {
 
         <h2>Your 5-step protection plan</h2>
         <ol>
-          <li><strong>Schedule a professional tick barrier spray now.</strong> Late May to early June is the optimal window — it kills active nymphs before they reach hosts. Then keep the barrier live: applications run roughly monthly through September, five across the season, because one treatment&rsquo;s residual lasts weeks rather than months and wildlife keeps walking fresh ticks in from the woodline all summer. A spring-and-fall pair would leave the May-July nymph peak open in between.</li>
+          <li><strong>Schedule a professional tick barrier spray now.</strong> Late May to early June is the optimal window — it targets active nymphs where they wait for hosts. Then keep treatments on schedule: applications run roughly monthly through September, five across the season, because one treatment&rsquo;s residual lasts weeks rather than months and wildlife keeps walking fresh ticks in from the woodline all summer. A spring-and-fall pair would leave the May-July nymph peak open in between.</li>
           <li><strong>Modify the high-risk zones in your yard.</strong> Rake out leaf litter from garden beds, clear brush along fence lines, and install a 3-foot gravel or wood-chip buffer between any lawn and adjacent forest/conservation area. Mow grass short.</li>
           <li><strong>Establish a daily tick-check habit.</strong> After any outdoor activity — even just gardening — check yourself, kids, and pets. Ticks favour warm areas: behind ears, scalp, armpits, groin, behind knees. On dogs, check ears, between toes, and the chest/belly area.</li>
           <li><strong>Use repellent strategically.</strong> 20-30% DEET on exposed skin and permethrin-treated clothing for outdoor activity in high-risk zones (hiking, gardening near naturalized edges). Light-coloured clothing makes ticks easier to spot.</li>
@@ -129,7 +130,7 @@ export default function OntarioTickSurge2026Page() {
 
         <h2>What about the news momentum?</h2>
         <p>The May 2026 news cycle is a one-time event. Public attention will move on. The ticks will not. If you are a GTA homeowner who has been meaning to deal with the yard situation, this is the moment — the conditions that triggered the news coverage are the same conditions raising your property&rsquo;s tick pressure right now.</p>
-        <p>Our team has been treating GTA properties for both mosquitoes and ticks since 2024, and 2026 is the heaviest tick year we have seen on the field. Same-week service is available across <Link href="/toronto-mosquito-control" className="text-brand-700 underline">Toronto</Link>, <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga</Link>, <Link href="/hamilton-tick-spray" className="text-brand-700 underline">Hamilton</Link>, <Link href="/oakville-tick-spray" className="text-brand-700 underline">Oakville</Link>, and 15 other GTA cities.</p>
+        <p>Our team has been treating GTA properties for both mosquitoes and ticks since 2024, and 2026 is the heaviest tick year we have seen on the field. Same-week service is available across <Link href="/toronto-mosquito-control" className="text-brand-700 underline">Toronto</Link>, <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga</Link>, <Link href="/hamilton-tick-spray" className="text-brand-700 underline">Hamilton</Link>, <Link href="/oakville-tick-spray" className="text-brand-700 underline">Oakville</Link>, and 15 other GTA cities. {PROMISES.visitWindow}</p>
 
         <h2>Related guides</h2>
         <ul>
@@ -153,7 +154,7 @@ export default function OntarioTickSurge2026Page() {
 
       </article>
 
-      <CTASection heading="Get your yard protected before peak tick season" subtext="Free custom quote based on your lot size and risk profile — sent within 24 hours. No contracts." />
+      <CTASection heading="Get your yard treated before peak tick season" subtext={`Free custom quote based on your lot size and risk profile. ${PROMISES.response} No contracts.`} />
     </>
   )
 }

@@ -60,39 +60,39 @@ const SPECIES: Term[] = [
 const ACTIVE_INGREDIENTS: Term[] = [
   {
     term: 'Permethrin',
-    definition: 'A synthetic pyrethroid insecticide registered with Health Canada\'s Pest Management Regulatory Agency (PMRA). Common in professional barrier sprays. Broad-spectrum against mosquitoes, ticks, and other insects. Bonds to leaf surfaces with residual activity up to 30 days. Low mammalian toxicity but acutely toxic to fish and bees during application.',
+    definition: 'A synthetic pyrethroid insecticide. Products containing it are registered under Canada\'s Pest Control Products Act, and each carries a PCP number on its label. Common in professional barrier sprays. Broad-spectrum against mosquitoes, ticks, and other insects. Leaves a residue on leaf surfaces that wears down with sun, rain and plant growth; the label sets how often it can be re-applied. Highly toxic to fish and bees, and toxic to cats, so label precautions matter.',
     relatedLinks: [{ label: 'Health Canada PMRA', href: 'https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html' }],
   },
   {
     term: 'Bifenthrin',
-    definition: 'A synthetic pyrethroid commonly used in lawn and ornamental treatments. Longer residual activity on vegetation than permethrin. Effective against mosquitoes, ticks, ants, and beetles. Applied at low concentrations in barrier spray formulations.',
+    definition: 'A synthetic pyrethroid commonly used in lawn and ornamental treatments. Longer residual activity on vegetation than permethrin. Used against mosquitoes, ticks, ants, and beetles. Applied at low concentrations in barrier spray formulations.',
   },
   {
     term: 'Lambda-cyhalothrin',
-    definition: 'A fast-knockdown synthetic pyrethroid used in barrier sprays. Effective against adult mosquitoes on contact. Photo-stable for outdoor application. Registered with Health Canada for residential use.',
+    definition: 'A fast-knockdown synthetic pyrethroid used in barrier sprays. Acts on adult mosquitoes on contact. Photo-stable for outdoor application. As with any pest control product, the label (and its PCP number) sets out the permitted uses.',
   },
   {
     term: 'Bacillus thuringiensis israelensis (BTI)',
-    definition: 'A naturally occurring soil bacterium used as a biological larvicide. Highly target-specific — kills only mosquito and black fly larvae. Completely safe for fish, frogs, pets, beneficial insects, and humans. Health Canada has approved BTI for use in drinking water reservoirs in some provinces. Sold to consumers as "mosquito dunks" under brand names like Summit Chemical.',
+    definition: 'A naturally occurring soil bacterium used as a biological larvicide. Highly target-specific — acts on the larvae of mosquitoes, black flies and a few related flies rather than on insects in general. Use it as the label directs. Sold to consumers as "mosquito dunks" under brand names like Summit Chemical.',
   },
   {
     term: 'DEET (N,N-Diethyl-meta-toluamide)',
-    definition: 'The gold-standard personal mosquito repellent active ingredient. Health Canada registers concentrations from 5% to 30% for personal use. Higher concentrations provide longer protection (30% = ~6 hours). Not used in barrier spray; this is for direct skin/clothing application.',
+    definition: 'The gold-standard personal mosquito repellent active ingredient. Personal repellents sold in Canada contain up to 30% DEET. Higher concentrations last longer; the product label states the protection time and any age limits. Not used in barrier spray; this is for direct skin/clothing application.',
   },
   {
     term: 'Picaridin',
-    definition: 'A personal mosquito and tick repellent active ingredient registered by Health Canada. 20% picaridin provides comparable protection to 30% DEET with no plastic-degrading effects. Newer alternative to DEET.',
+    definition: 'A personal mosquito and tick repellent active ingredient, also called icaridin, found in repellents sold in Canada. Often compared with DEET, without DEET\'s tendency to damage plastics and synthetic fabrics. Newer alternative to DEET; follow the label for protection time and age limits.',
   },
   {
     term: 'Pyrethrin',
-    definition: 'A naturally occurring insecticide derived from chrysanthemum flowers. Fast-acting but breaks down quickly in sunlight. Used in some organic formulations and personal foggers. Health Canada-registered.',
+    definition: 'A naturally occurring insecticide derived from chrysanthemum flowers. Fast-acting but breaks down quickly in sunlight. Used in some botanical formulations and personal foggers. Like any pest control product sold in Canada, pyrethrin products carry a PCP number on the label.',
   },
 ]
 
 const TREATMENT_TYPES: Term[] = [
   {
     term: 'Barrier spray (residual barrier treatment)',
-    definition: 'A professional residual insecticide applied to all vegetation, shrub interiors, leaf undersides, fence-line vegetation, and resting sites where adult mosquitoes and ticks rest during the day. Provides up to 30 days of residual protection. The dominant residential mosquito and tick control method in 2026.',
+    definition: 'A professional residual insecticide applied to all vegetation, shrub interiors, leaf undersides, fence-line vegetation, and resting sites where adult mosquitoes and ticks rest during the day. Leaves a residue that wears down with rain and plant growth, so it is re-applied on a schedule. The dominant residential mosquito and tick control method in 2026.',
   },
   {
     term: 'Larvicide / Larviciding',
@@ -112,7 +112,7 @@ const TREATMENT_TYPES: Term[] = [
   },
   {
     term: 'Pre-event treatment',
-    definition: 'A barrier spray applied 2-4 days before an outdoor event (wedding, party, graduation). Allows the residual to fully cure and become active before guests arrive. Provides peak protection during the event window.',
+    definition: 'A barrier spray applied 2-4 days before an outdoor event (wedding, party, graduation). Timed so treated areas have long since dried before guests arrive.',
   },
 ]
 
@@ -154,7 +154,7 @@ const DISEASES: Term[] = [
 const REGULATORY: Term[] = [
   {
     term: 'Health Canada PMRA (Pest Management Regulatory Agency)',
-    definition: 'The federal agency that regulates pesticides in Canada under the Pest Control Products Act. All products applied by professional pest control companies must be PMRA-registered. The PCPA Public Registry lists all registered products by active ingredient and use.',
+    definition: 'The federal agency that regulates pesticides in Canada under the Pest Control Products Act. All products applied by professional pest control companies must be registered under that Act, and each label carries a PCP registration number. The PCPA Public Registry lists all registered products by active ingredient and use, so homeowners can look up a product\'s label themselves.',
     relatedLinks: [{ label: 'PMRA Public Registry', href: 'https://pr-rp.hc-sc.gc.ca/ls-re/index-eng.php' }],
   },
   {
@@ -163,7 +163,7 @@ const REGULATORY: Term[] = [
   },
   {
     term: 'Pesticide Applicator License (Ontario)',
-    definition: 'A provincial certification required to legally apply commercial pesticides in Ontario. BuzzSkito holds this license and applies all treatments through licensed applicators. Different classes cover different pest categories — mosquito and tick control falls under the Structural / Landscape class.',
+    definition: 'A provincial certification required to legally apply commercial pesticides in Ontario. BuzzSkito holds Ontario Pesticide Operator Licence L-240-2436835197 and applies all treatments through licensed applicators. Different classes cover different pest categories — mosquito and tick control falls under the Structural / Landscape class.',
   },
   {
     term: 'Public Health Ontario (PHO)',
@@ -196,7 +196,8 @@ const REGULATORY: Term[] = [
 const KEY_FEATURES: Term[] = [
   {
     term: 'BuzzSkito Bite-Free Guarantee',
-    definition: 'BuzzSkito\'s service guarantee: if pests return inside the protection window after a treatment, BuzzSkito re-treats at no charge. Period. No contracts required to qualify. Covers mosquito and tick treatments.',
+    // Scope must be exact: Standard & Exclusive plans only (BUSINESS.guarantee); rain-back is the every-plan promise.
+    definition: 'BuzzSkito\'s service guarantee on Standard and Exclusive season plans: if mosquitoes come back between scheduled treatments, BuzzSkito re-treats at no charge. It does not apply to Basic plans or single visits. Separately, every plan carries the rain-back guarantee: rain within 1 hour of a treatment and BuzzSkito comes back and re-treats free.',
   },
   {
     term: 'Stormwater management pond',
@@ -239,7 +240,7 @@ const FAQS = [
   },
   {
     question: 'How is BuzzSkito qualified to define these terms?',
-    answer: 'BuzzSkito is an Ontario-licensed Pesticide Applicator company (Canada Business Reg #1001003669) using only Health Canada PMRA-registered formulations. All definitions cite either Public Health Ontario, Health Canada, the CDC, or peer-reviewed scientific sources. We do not invent definitions or substitute opinion for fact.',
+    answer: 'BuzzSkito holds Ontario Pesticide Operator Licence L-240-2436835197 (Canada Business Reg #1001003669) and applies products according to label directions. All definitions cite either Public Health Ontario, Health Canada, the CDC, or peer-reviewed scientific sources. We do not invent definitions or substitute opinion for fact.',
   },
 ]
 
@@ -273,7 +274,7 @@ export default function GlossaryPage() {
           </p>
           <ul className="mt-2 space-y-1 list-disc list-inside text-base text-gray-800">
             <li>9 mosquito and tick species (Latin names + behaviour)</li>
-            <li>7 active ingredients (Health Canada PMRA-registered)</li>
+            <li>7 active ingredients (insecticides, larvicides, and repellents)</li>
             <li>6 treatment types (barrier spray, larviciding, fogging, etc.)</li>
             <li>7 vector-borne diseases (Lyme, West Nile, Anaplasmosis, etc.)</li>
             <li>9 regulatory bodies (PMRA, MOECP, PHO, regional public health)</li>
@@ -326,7 +327,7 @@ export default function GlossaryPage() {
         </ul>
       </article>
 
-      <CTASection heading="Get Specialist Mosquito & Tick Control" subtext="Ontario-licensed. Health Canada-approved. From $99 per treatment." />
+      <CTASection heading="Get Specialist Mosquito & Tick Control" subtext="Ontario-licensed. Products applied according to label directions. From $99 per treatment on a standard lot under 10,000 sq ft." />
     </>
   )
 }

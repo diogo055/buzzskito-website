@@ -38,10 +38,9 @@ export default function ContactPage() {
           {/* Quote request form */}
           <div>
             <h2 className="text-2xl font-extrabold text-brand-900 mb-6">Request a Quote</h2>
-            <QuoteForm />
-            <p className="text-sm text-gray-500 mt-4 text-center">
-              Prefer to call? <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold underline">{BUSINESS.phone}</a>
-            </p>
+            {/* Shared with /free-yard-assessment. Its own "Rather talk? Call or text" line replaced the
+                "Prefer to call?" line that used to sit here. */}
+            <QuoteForm formName="quote_form" />
           </div>
 
           {/* Contact info */}

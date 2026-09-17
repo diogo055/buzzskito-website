@@ -243,7 +243,7 @@ export default function MosquitoFactsPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (Bti larvicide)" search="summit mosquito dunks" label="Best first buy" />
 
-      <CTASection heading="Facts Are Nice — A Bite-Free Yard Is Better" subtext="Get a free quote for licensed barrier spray. From $99. Same-day protection. 30-day residual." variant="dark" />
+      <CTASection heading="Facts Are Nice — A Bite-Free Yard Is Better" subtext="Get a free quote for licensed barrier spray. From $99. Rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

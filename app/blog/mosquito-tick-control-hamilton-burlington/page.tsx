@@ -57,7 +57,7 @@ export default function HamiltonBurlingtonPage() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Hamilton and Burlington face some of the GTA region&apos;s heaviest mosquito and tick pressure because the Niagara Escarpment, Cootes Paradise marsh, Bronte Creek, and the Royal Botanical Gardens all border residential neighbourhoods. Properties near these features should start seasonal barrier spray in early May, with tick applications repeating roughly monthly through September so the residual never lapses across peak nymph season.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Hamilton and Burlington face some of the GTA region&apos;s heaviest mosquito and tick pressure because the Niagara Escarpment, Cootes Paradise marsh, Bronte Creek, and the Royal Botanical Gardens all border residential neighbourhoods. Properties near these features should start seasonal barrier spray in early May, with tick applications repeating roughly monthly through September so treatments stay on schedule across peak nymph season.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>Properties within 500 m of Niagara Escarpment trails consistently experience elevated mosquito pressure.</li>
             <li>Cootes Paradise &mdash; one of the largest wetlands in the western Lake Ontario basin &mdash; drives overspill mosquito pressure into Westdale, Ainslie Wood, and the McMaster area.</li>
@@ -101,6 +101,10 @@ export default function HamiltonBurlingtonPage() {
         <h3>Royal Botanical Gardens</h3>
         <p>The RBG&apos;s 1,100 hectares of naturalized land bordering western Burlington and Hamilton contains established populations of both mosquitoes and blacklegged ticks. North Burlington and Waterdown-area properties adjacent to RBG lands should treat both mosquitoes and ticks each season.</p>
 
+        <p>Bronte Creek and the RBG are the two anchors of a wider Halton tick belt that also reaches into Tyandaga, Headon Forest and the Oakville side of 16 Mile Creek. Our <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 underline">2026 Oakville and Burlington tick hot spot ranking</Link> sets those neighbourhoods against each other.</p>
+
+        <p>For when that pressure actually arrives, <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 underline">tick season in Burlington</Link> walks the calendar from the first spring adults through the May-to-July nymph peak and into the autumn, with the lakefront and escarpment-edge neighbourhoods called out separately.</p>
+
         <h3>Alton Village and New-Build Neighbourhoods</h3>
         <p>Rapid development in north Burlington has created new mosquito pressure through construction drainage ponds, landscaped retention basins, and newly planted vegetation. New-build homeowners in Alton Village, Millcroft, and The Orchard often encounter unexpected mosquito pressure in their first seasons.</p>
 
@@ -121,7 +125,7 @@ export default function HamiltonBurlingtonPage() {
                 { t: 'Mosquito Treatment 2', timing: 'Early June', target: 'Maintain season coverage' },
                 { t: 'Tick Treatment 2', timing: 'Mid June', target: 'Peak nymph activity — renews residual before it lapses' },
                 { t: 'Mosquito Treatment 3', timing: 'Early July', target: 'Peak mosquito season' },
-                { t: 'Tick Treatment 3', timing: 'Mid July', target: 'Tail of nymph season; blocks wildlife re-introduction' },
+                { t: 'Tick Treatment 3', timing: 'Mid July', target: 'Tail of nymph season; renews residual as wildlife carry ticks back in' },
                 { t: 'Mosquito Treatment 4', timing: 'Early August', target: 'Late-season surge' },
                 { t: 'Tick Treatment 4', timing: 'Mid August', target: 'Adults beginning to re-emerge' },
                 { t: 'Mosquito Treatment 5', timing: 'Early September', target: 'Season close-out' },

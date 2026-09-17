@@ -293,7 +293,7 @@ export default function RaccoonProofChimneyCapCanadaPage() {
                   ['Most common den site', 'The smoke shelf above the damper of an open masonry fireplace'],
                   ['Peak occupancy', 'October through March, as raccoons shop for winter dens'],
                   ['Baby season', 'Kits born March–May; immobile roughly 8–12 weeks'],
-                  ['Safe capping window', 'Roughly July–February, after confirming the flue is empty'],
+                  ['Capping window', 'Roughly July–February, after confirming the flue is empty'],
                   ['Never do this', 'Cap an occupied flue, or light a fire to move a den'],
                   ['Ontario relocation law', 'Captured wildlife: max 1 km from the capture site'],
                   ['Newer homes', 'The rusted galvanized chase cover is usually the real entry point'],

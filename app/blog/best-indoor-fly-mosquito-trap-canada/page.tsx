@@ -315,6 +315,18 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
             </tbody>
           </table>
           <p>The most effective indoor-bug strategy is a layered one: fix the screens, kill any indoor breeding water with BTI, run a quiet UV/glue trap for the stragglers, and treat the yard so the population outside is a fraction of what it would be. An indoor trap alone treats the symptom; source control treats the cause.</p>
+          <p>Two of those layers are a Saturday job rather than a shopping decision. A screen repair kit — a roll of mesh, new spline, and the little roller that seats it — closes the torn corner in a frame you already own, and it is the single cheapest thing on this page measured against how many insects it keeps out. Check the mesh width against your frame before ordering.</p>
+          <div className="not-prose my-4">
+            <BuyLink tag={AMZ_TAG} search="window screen repair kit mesh spline">Check screen repair kits on Amazon.ca &rarr;</BuyLink>
+          </div>
+          <p>For the water indoors that cannot simply be tipped out — a floor drain, a sump pit, the tray under a dehumidifier, a catch basin that stays wet all summer — BTI is the layer that stops larvae maturing in the house. Granules act on a container within about a day and suit water you refresh often; the slow-release dunks are for water you leave alone for weeks. The label states which water types each one is cleared for.</p>
+          <div className="not-prose my-4">
+            <BuyLink tag={AMZ_TAG} search="mosquito bits bti granules">Check BTI granules on Amazon.ca &rarr;</BuyLink>
+          </div>
+          <p>Fruit flies and fungus gnats are the one indoor problem where a trap really is the answer rather than the backup, because the source is a fruit bowl or a pot of damp soil sitting three feet away rather than the whole outdoors. A small vinegar-style fruit fly trap beside the bowl, plus letting the houseplants dry out between waterings, clears them faster than any UV unit across the room.</p>
+          <div className="not-prose my-4">
+            <BuyLink tag={AMZ_TAG} search="fruit fly trap indoor">Check fruit fly traps on Amazon.ca &rarr;</BuyLink>
+          </div>
 
           <h2>Related Reading</h2>
           <ul>

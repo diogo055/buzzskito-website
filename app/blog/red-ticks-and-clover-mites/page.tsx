@@ -9,7 +9,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { tagForSlug } from '@/lib/amazon-clusters'
+import { tagForSlug, CLUSTER_TAGS } from '@/lib/amazon-clusters'
 
 const SLUG = 'red-ticks-and-clover-mites'
 const DATE = '2026-07-13'
@@ -84,7 +84,7 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Red Ticks: What That Tiny Red Bug Actually Is',
+  title: 'Red Ticks Ontario: What That Tiny Red Bug Is',
   description: 'No common tick is bright red. A 0.75 mm scarlet speck swarming a sunny wall is a harmless clover mite; a 4–10 mm rust-red bug on skin is a fed tick.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
@@ -130,6 +130,29 @@ export default function RedTicksAndCloverMitesPage() {
               <li>Keep a 45&ndash;60 cm (18&ndash;24 inch) plant-free border around the foundation to reduce clover mites.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
+          </div>
+
+          {/* Service arm first: the lead CTA outranks every affiliate element below it. */}
+          <aside aria-label="Tick control across the GTA" className="not-prose my-6 rounded-xl border-l-4 border-amber-400 bg-amber-50 p-5">
+            <p className="text-sm text-gray-800 leading-relaxed"><strong className="text-brand-900">Finding real ticks, not mites?</strong> BuzzSkito treats the lawn edges, leaf litter and shaded borders where blacklegged ticks actually wait &mdash; 19 GTA cities, single treatments from $99. <Link href="/free-yard-assessment" className="text-brand-700 underline font-semibold">Get a free yard assessment</Link> or call <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600">(289) 216-5030</a>.</p>
+          </aside>
+
+          <AffiliateDisclosure />
+
+          <div className="not-prose my-6 rounded-2xl border-2 border-rose-200 bg-white p-6 sm:p-7 shadow-sm">
+            <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-1 leading-tight">What to do right now</h2>
+            <p className="text-sm text-gray-600 mb-4 leading-relaxed">If the red speck is on a wall, this takes ten seconds and costs nothing. If it is on skin, the next ten minutes are the part that matters.</p>
+            <ol className="space-y-4 text-[15px] leading-relaxed text-gray-800">
+              <li>
+                <strong className="text-brand-900">1. Settle it by location, then act &mdash; no purchase needed.</strong> Pinhead-sized, vivid scarlet, moving fast in a group on a sunny wall, sill or patio slab: clover mite. Vacuum it rather than crushing it, and empty the canister outdoors so the pigment never reaches your paint. Anything embedded in skin is not a mite. Grip it flush against the skin, pull straight up with steady pressure, and skip the folklore &mdash; no twisting, no petroleum jelly, no match. Wash the bite afterwards and write down today&rsquo;s date.
+              </li>
+              <li>
+                <strong className="text-brand-900">2. A fine-tip tick remover &mdash; the tool that decides how step 1 goes.</strong> <BuyLink tag={AMZ_TAG} search="fine tip tick removal tool tweezers">Check price on Amazon.ca →</BuyLink> Household tweezers are blunt enough that they tend to squeeze the tick&rsquo;s body instead of gripping its mouthparts at the skin. A purpose-made fine-tip remover lives in a first-aid kit for years. Keep a second one in the car, because the check that finds a tick usually happens nowhere near your bathroom cabinet.
+              </li>
+              <li>
+                <strong className="text-brand-900">3. A screw-top vial and a permanent marker, so the tick is evidence.</strong> Drop the removed tick in, write the date and where you had been on the lid, and put it somewhere you will find it. If anything shows up weeks later, the date of attachment and the tick itself are the two things a clinician will ask about first &mdash; and nobody recalls either accurately from memory a month on. <BuyLink tag={AMZ_TAG} search="small screw top specimen vials">Check price on Amazon.ca →</BuyLink>
+              </li>
+            </ol>
           </div>
         </div>
       </section>
@@ -262,6 +285,7 @@ export default function RedTicksAndCloverMitesPage() {
           <p>Remove an attached tick immediately with fine-tipped tweezers: grip as close to the skin as possible and pull straight out with steady pressure, without twisting. Clean the bite, save the tick in a sealed bag, and note the date. The CDC and the Government of Canada advise watching for rash, fever, or aches over the following weeks.</p>
           <p>If the red bug is attached to skin, larger than a pinhead, or found crawling alone in grass, treat it as a tick, not a mite. Remove it promptly and correctly, save it in a sealed bag or photograph it, and note the date. Over the following weeks, watch for an expanding &ldquo;bull&rsquo;s-eye&rdquo; rash (erythema migrans), fever, fatigue, or joint aches, and see a doctor if any appear. Public health guidance from <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">the Government of Canada on Lyme disease</a> and from the <a href="https://www.cdc.gov/ticks/" target="_blank" rel="noopener" className="underline hover:text-brand-700">CDC</a> covers symptoms and when to seek care.</p>
           <p>Because attached ticks are picked up in grass and leaf litter, the best long-term defence is reducing tick habitat in your own yard — mowing short, clearing leaf litter along the edges, and treating the shaded borders where ticks quest.</p>
+          <p>That work is also the hour you are most likely to pick one up, because raking an edge puts your ankles exactly where ticks quest. Two things are worth having on before you start: trousers tucked into socks, and a repellent that carries a Canadian PCP registration number on the label — DEET or icaridin (picaridin) are the conventional actives here, and the label, not the front of the bottle, sets how often you reapply. Permethrin in Canada comes bonded into the fabric at the factory rather than as a consumer spray, so treated socks and trousers are bought already treated rather than sprayed at home. <BuyLink tag={AMZ_TAG} search="icaridin picaridin insect repellent canada">Check price on Amazon.ca →</BuyLink></p>
 
           <h2>When Are Clover Mites Most Active?</h2>
           <p>Clover mites peak twice a year: in spring as lawns green up, and again in fall as temperatures drop. They enter homes on warm, sunny days during those two windows and die back in hot, dry summer weather. Numbers are highest where a well-fertilized lawn or dense ground cover grows right against the foundation.</p>
@@ -291,6 +315,10 @@ export default function RedTicksAndCloverMitesPage() {
             <li><strong>Reddish and swollen, attached to skin or fur</strong> &rarr; engorged tick. Remove it promptly and watch for symptoms.</li>
             <li><strong>Reddish-brown, tick-sized, in grass or brush, maybe with a white dot</strong> &rarr; a true tick such as the lone star tick. Identify and remove.</li>
           </ul>
+
+          <h2>What Actually Stops the Next Swarm</h2>
+          <p>Clover mites return on the same two schedules every year, so the work worth doing is the work you only do once. Closing the gaps they walk through beats reacting to them indoors: caulk around window frames, under door thresholds, and at the point where utility lines pass through the wall. That same seal shuts out the larger autumn invaders that arrive on the same warm afternoons, so it pays for itself twice. A tube of exterior-grade sealant and a basic caulking gun is the entire kit &mdash; <BuyLink tag={CLUSTER_TAGS.general} search="exterior silicone caulk sealant window">check exterior caulk and sealant on Amazon.ca &rarr;</BuyLink></p>
+          <p>For the mites already inside, suction beats swatting every time. A crushed clover mite leaves plant pigment on whatever it was crushed against, and those marks are far harder to remove from a painted sill or a light curtain than the mites were. Keeping a small cordless handheld vacuum near the sunny windows during the April and September peaks turns a cluster into a ten-second job instead of a tissue and a stain &mdash; empty the canister outdoors afterwards so they do not simply walk back in. <BuyLink tag={CLUSTER_TAGS.general} search="cordless handheld vacuum">check handheld vacuums on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>

@@ -2,7 +2,10 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'male-vs-female-mosquito'
 const DATE = '2026-07-12'
@@ -52,6 +55,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('male-vs-female-mosquito')
 
 export default function MaleVsFemaleMosquitoPage() {
   return (
@@ -170,7 +175,12 @@ export default function MaleVsFemaleMosquitoPage() {
             <li><strong>Protect your skin during female biting hours.</strong> Use an approved repellent — <Link href="/blog/mosquito-repellent-guide-ontario-2026">DEET, picaridin (icaridin), or oil of lemon eucalyptus</Link> — around dawn and dusk when females are most active.</li>
             <li><strong>Ignore the males.</strong> The swarms over your driveway at sunset are mostly harmless mating males. You do not need to target them; controlling water and resting females handles the whole population.</li>
           </ol>
-          <p>Health Canada registers the repellent actives and residual products used for this kind of control, so choosing a licensed applicator and a registered repellent keeps it both effective and safe. See <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Health Canada&rsquo;s pesticides and pest management guidance</a> for how products are evaluated.</p>
+          <AffiliateDisclosure />
+          <p>Step three is the only layer you carry on your body, and it is the one doing the work during the dawn and dusk hours when females are hunting. In Canada that means a repellent with a PCP registration number printed on the label — DEET or icaridin (picaridin) for the conventional actives, or a registered oil of lemon eucalyptus (OLE/PMD) product if you want the plant-based option. The label sets the concentration, how often to reapply, and which products are appropriate for children, so choose from the label rather than the front of the bottle. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Check DEET and picaridin repellents on Amazon.ca &rarr;</BuyLink></p>
+          <p>Step one has a product answer too. The water that hatches both sexes is usually water you cannot simply dump &mdash; a rain barrel you actually use, a small pond, a birdbath, the catch basin at the end of the driveway. A BTI larvicide dropped into that water kills the larvae before any of them mature into biting females, and the label tells you which water types each format is cleared for and how often to re-dose. <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Check BTI mosquito dunks on Amazon.ca &rarr;</BuyLink></p>
+          <p>The repellent actives and residual products used for this kind of control carry a Pest Control Products (PCP) registration number on the label, and a licensed applicator applies them according to those label directions. See <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Health Canada&rsquo;s pesticides and pest management guidance</a> for how products are evaluated.</p>
+          <p>Step two has a small-scale version you can run yourself between visits. Female mosquitoes are weak fliers and they approach low, so an oscillating outdoor fan aimed across a patio table at ankle height keeps them off the chairs for as long as it is running. It covers the seating area rather than the property, but it needs no label, no refill, and no reapplication. <BuyLink tag={AMZ_TAG} search="outdoor oscillating pedestal fan">Check outdoor patio fans on Amazon.ca &rarr;</BuyLink></p>
+          <p>And because overwintering <em>Culex</em> females spend the cold months inside sheds, garages, and basements, the last layer is simply not letting them in. A magnetic screen door on a patio or garage entry, plus intact window screens, closes the same gap a hibernating female slips through in October and a hungry one uses in July. <BuyLink tag={AMZ_TAG} search="magnetic screen door">Check magnetic screen doors on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>

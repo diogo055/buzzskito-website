@@ -16,7 +16,7 @@ const FAQS = [
   },
   {
     question: 'How long does a tick need to be attached to transmit Lyme?',
-    answer: 'Most research and CDC guidance states blacklegged ticks need to be attached for 24-36 hours minimum to transmit the bacterium that causes Lyme disease. The bacteria need to migrate from the tick gut to its salivary glands. This is why daily tick checks after outdoor activities are the single most effective prevention behaviour: finding and removing ticks within 24 hours essentially eliminates Lyme transmission risk.',
+    answer: 'Most research and CDC guidance states blacklegged ticks need to be attached for 24-36 hours minimum to transmit the bacterium that causes Lyme disease. The bacteria need to migrate from the tick gut to its salivary glands. This is why daily tick checks after outdoor activities are the single most effective prevention behaviour: finding and removing ticks within 24 hours greatly lowers the risk of Lyme transmission.',
   },
   {
     question: 'What does early Lyme disease look like?',
@@ -24,7 +24,7 @@ const FAQS = [
   },
   {
     question: 'How can I prevent Lyme disease for my family?',
-    answer: 'Layer these, rather than picking one: daily tick checks after outdoor activities (removing a tick within 24-36 hours is the single most reliable way to stop transmission); permethrin-treated clothing for hiking; picaridin 20% on exposed skin; showering within 2 hours of outdoor exposure to wash off unattached ticks; and reducing tick habitat in your own yard by clearing leaf litter and treating the shaded perimeter with a Health Canada-registered residual acaricide. For dogs: NexGard, Bravecto, or Simparica oral tick preventatives. We are not ranking these against each other — the personal-protection steps are what CDC and Public Health Ontario emphasise, and yard treatment reduces the habitat rather than replacing tick checks.',
+    answer: 'Layer these, rather than picking one: daily tick checks after outdoor activities (removing a tick within 24-36 hours is the single most reliable way to stop transmission); permethrin-treated clothing for hiking; picaridin 20% on exposed skin; showering within 2 hours of outdoor exposure to wash off unattached ticks; and reducing tick habitat in your own yard by clearing leaf litter and treating the shaded perimeter with a residual acaricide applied according to its label. For dogs: NexGard, Bravecto, or Simparica oral tick preventatives. We are not ranking these against each other — the personal-protection steps are what CDC and Public Health Ontario emphasise, and yard treatment targets ticks in the yard as a complement to tick checks, not a replacement for them.',
   },
   {
     question: 'My dog had a tick — am I at risk?',
@@ -87,10 +87,10 @@ export default function LymeRiskPage() {
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">Evidence-based Lyme prevention</h2>
           <p className="text-gray-700 mb-3">These are layers, not a ranking. CDC and Public Health Ontario guidance puts the emphasis on personal protection and prompt tick removal; yard treatment reduces habitat and is a complement to those steps, not a replacement for them.</p>
           <ol className="text-gray-700 mb-4 space-y-2">
-            <li><strong>Reduce ticks in your yard.</strong> A Health Canada-registered residual acaricide applied to the yard-edge, leaf-litter and shaded-perimeter zones where blacklegged ticks quest. It is repeated through the season because wildlife keeps carrying new ticks in — no treatment clears a property permanently.</li>
-            <li><strong>Permethrin-treated clothing for hiking.</strong> Kills ticks on contact through fabric. Lasts 6 wash cycles.</li>
+            <li><strong>Reduce ticks in your yard.</strong> A residual acaricide, applied by a licensed operator according to its label, on the yard-edge, leaf-litter and shaded-perimeter zones where blacklegged ticks quest. It is repeated through the season because wildlife keeps carrying new ticks in — no treatment clears a property permanently.</li>
+            <li><strong>Permethrin-treated clothing for hiking.</strong> Acts on ticks that crawl onto the treated fabric; the product label states how many washes the treatment lasts.</li>
             <li><strong>Daily tick checks after outdoor activities.</strong> Focus on hairline, behind ears, armpits, waistband, behind knees.</li>
-            <li><strong>Picaridin 20% on exposed skin.</strong> Repels ticks for 8 hours. Safe for kids 6 months and older.</li>
+            <li><strong>Picaridin 20% on exposed skin.</strong> Check the product label for how long it protects and for the minimum age; follow the label directions, especially on children.</li>
             <li><strong>Shower within 2 hours of outdoor exposure.</strong></li>
             <li><strong>For dogs:</strong> Vet-prescribed oral tick prevention (NexGard, Bravecto, Simparica).</li>
           </ol>

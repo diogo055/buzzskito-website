@@ -207,14 +207,18 @@ export default function DeerTickVsDogTickPage() {
           </ul>
           <p>Put simply: <strong>a tiny, plain, dark-legged tick is a blacklegged (deer) tick and a Lyme risk</strong>; a larger tick with a decorated grey-brown shield is a dog tick with low disease risk in Canada.</p>
           <p>For a deeper dive into the blacklegged tick&rsquo;s life cycle, Ontario range, and season-by-season activity, see our full <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged (deer) tick Ontario guide</Link>.</p>
+          <p>Telling these two apart on a dog is harder than it is on a bare arm — fur hides the shield, and an engorged tick loses the shape and colour you would normally go by. Our photo guide to <Link href="/blog/what-does-tick-look-like-on-dog" className="text-brand-700 underline">what a tick looks like on a dog</Link> covers the fur-parting angles and how to rule out a skin tag or a flea.</p>
 
           <h2>Why the Distinction Matters Medically</h2>
           <p>The deer tick is the entire reason Lyme disease exists in Canada. <strong>About 10–30% of blacklegged ticks in southern Ontario carry <em>Borrelia burgdorferi</em></strong>, the bacterium that causes Lyme. Untreated Lyme can progress to chronic joint pain, neurological symptoms, and cardiac issues. Caught early (within weeks of the bite), it&rsquo;s treatable with a 2–4 week antibiotic course (doxycycline) with full recovery in most cases.</p>
           <p>The dog tick is a much lower medical concern. While theoretically capable of transmitting Rocky Mountain spotted fever and tularemia, both diseases are extraordinarily rare in Canada — fewer than 5 confirmed RMSF cases per year nationwide. The main veterinary concern is tick paralysis in dogs (resolves with prompt tick removal).</p>
+          <p>Lyme is the other half of the veterinary picture, and it comes from the blacklegged tick rather than the dog tick despite the names. <Link href="/blog/can-dogs-get-lyme-disease" className="text-brand-700 underline">Can dogs get Lyme disease from ticks?</Link> covers the first signs owners notice, the three stages, and what treatment involves.</p>
+
+          <p>Neither of these two species causes the red-meat allergy people sometimes worry about after a bite. That is the lone star tick, a third species that is not established in Canada — our <Link href="/blog/lone-star-tick-alpha-gal-canada" className="text-brand-700 underline">lone star tick and alpha-gal syndrome guide</Link> explains how rarely it turns up here and what a delayed reaction actually looks like.</p>
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Skip the tick worry entirely</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Professional tick barrier treatment targets the zones where ticks actually wait — garden edges, fence lines, and shaded borders. BuzzSkito protects GTA yards with seasonal programs and single treatments from $99.</p>
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Have the tick zones in your yard treated</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Professional tick barrier treatment targets the zones where ticks actually wait — garden edges, fence lines, and shaded borders. BuzzSkito treats GTA yards with seasonal programs and single treatments from $99.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -227,7 +231,9 @@ export default function DeerTickVsDogTickPage() {
             <li><strong>Deer ticks</strong> live in <strong>leaf litter</strong>, especially at the lawn-to-woods transition zone. They thrive in damp, shaded conditions. If your yard backs onto a ravine, conservation area, forested park, or has any wooded edge, deer ticks are likely present. They climb up to about knee height on grass blades and brush, waiting to grab passing hosts.</li>
             <li><strong>Dog ticks</strong> live in <strong>grassy areas</strong>, meadow-like edges, and yard perimeters with tall vegetation. They prefer drier conditions than deer ticks and tolerate sun better. They climb higher up grass blades (waist height) waiting for larger mammal hosts.</li>
           </ul>
+          <p>Those heights are a ceiling, not a starting point: neither species can jump or drop from a tree, so everything they reach, they climbed. <Link href="/blog/do-ticks-fly-or-jump" className="text-brand-700 underline">How high ticks actually climb, and why they cannot fly or jump</Link> explains what that means for socks, pant legs and mowing height.</p>
           <p>Yards bordering both grassland AND wooded areas (common in the GTA) host both species. Both are controlled by the same yard-spray approach.</p>
+          <p>Which of the two you are more likely to meet also depends on where in the country you are &mdash; the two species have quite different Canadian ranges, mapped out in <Link href="/blog/are-there-ticks-in-canada" className="text-brand-700 underline">our province-by-province guide to where ticks are found in Canada</Link>.</p>
 
           <h2>What to Do When You Find Either One</h2>
           <p>The removal technique is identical for both species: grasp the tick as close to the skin as possible with fine-tipped tweezers or a purpose-made tick tool, pull straight up with steady pressure, and disinfect the bite. A dedicated removal tool grips the mouthparts more reliably than fingers and reduces the risk of leaving the head behind.</p>
@@ -247,6 +253,7 @@ export default function DeerTickVsDogTickPage() {
             <li><Link href="/blog/how-to-remove-tick-safely">How to Remove a Tick Safely (Humans)</Link></li>
             <li><Link href="/blog/how-to-remove-tick-from-dog-ontario">How to Remove a Tick from a Dog</Link></li>
             <li><Link href="/blog/i-found-tick-on-my-dog-what-to-do">I Found a Tick on My Dog — What to Do</Link></li>
+            <li><Link href="/blog/tick-bite-on-dog-symptoms">Tick Bite on a Dog — Symptoms and What to Watch For</Link></li>
             <li><Link href="/blog/tick-removal-tool-guide">Best Tick Removal Tools 2026</Link></li>
             <li><Link href="/blog/best-tick-repellent-yard-canada">Best Tick Repellents for Your Yard (Canada)</Link></li>
           </ul>
@@ -254,13 +261,13 @@ export default function DeerTickVsDogTickPage() {
           <h2>Yard Prevention — Same Strategy for Both Species</h2>
           <p>Both species are addressed by the same yard control approach:</p>
           <ol>
-            <li><strong>Mow grass to 3–4 inches</strong> — eliminates both species&rsquo; preferred grass-blade waiting positions.</li>
-            <li><strong>Remove leaf litter</strong> from yard edges every spring and fall — eliminates deer tick overwintering habitat.</li>
+            <li><strong>Mow grass to 3–4 inches</strong> — removes both species&rsquo; preferred grass-blade waiting positions.</li>
+            <li><strong>Remove leaf litter</strong> from yard edges every spring and fall — removes deer tick overwintering habitat.</li>
             <li><strong>3-foot wood chip or gravel barrier</strong> between lawn and any wooded or grassy area — both species avoid dry sun-exposed barriers.</li>
             <li><strong>Discourage rodents</strong> (don&rsquo;t feed wildlife, store firewood off the ground) — mice are immature ticks&rsquo; primary host for both species.</li>
             <li><strong>Daily tick checks</strong> on yourself and dogs after walks in tick habitat. Concentrate on ears, armpits, paws, neck, tail base.</li>
             <li><strong>Vet-prescribed monthly tick preventative for dogs</strong> (Bravecto, NexGard, Simparica, K9 Advantix II) — protects against both species.</li>
-            <li><strong>Professional yard barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> targets both deer ticks and dog ticks at lawn edges, leaf litter, fence lines, and shaded perimeters — the residual acaricide goes where they quest, not across the open lawn. $597 standalone or tick add-on bundle available on quote.</li>
+            <li><strong>Professional yard barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> targets both deer ticks and dog ticks at lawn edges, leaf litter, fence lines, and shaded perimeters — the residual acaricide goes where they quest, not across the open lawn. $597 on its own, or $497 when added to any mosquito plan.</li>
           </ol>
 
           <h2>Related Reading</h2>
@@ -290,7 +297,7 @@ export default function DeerTickVsDogTickPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Tick-Removal Tool Set (tweezers + key)" search="tick removal tool tweezers" label="Best tool for the job" />
 
-      <CTASection heading="Stop Both Tick Species Before They Reach Your Family" subtext="One yard barrier spray handles deer ticks AND dog ticks. From seasonal pricing on quote." variant="dark" />
+      <CTASection heading="Treat the Yard Edges Where Both Tick Species Wait" subtext="One tick barrier program treats the edges where deer ticks AND dog ticks quest. $597 a season, or $497 with a mosquito plan." variant="dark" />
     </>
   )
 }

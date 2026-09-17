@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { TICK_BLOGS } from '@/lib/constants'
+import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'King City Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "King City tick spray for Oak Ridges Moraine forest properties — high blacklegged tick density. Health Canada-approved, from $99, BuzzSkito Bite-Free Guarantee. King City village, Nobleton, Schomberg, Kettleby. Call (289) 216-5030.",
+    "King City tick spray for Oak Ridges Moraine forest properties — high blacklegged tick density. Licensed Ontario operator, from $99, rain-back guarantee. King City village, Nobleton, Schomberg, Kettleby. Call (289) 216-5030.",
   canonical: '/king-city-tick-spray',
 })
 
@@ -17,7 +19,7 @@ const NEIGHBOURHOODS = ['King City village','Nobleton','Schomberg','King Townshi
 const FAQS = [
   {
     question: 'How much does tick spray cost in King City?',
-    answer: 'Tick spray in King City starts from $99 for a single application. Given King Township\'s exceptionally high tick activity near the Oak Ridges Moraine, Humber River headwaters, and extensive horse property corridors, most properties take the full season programme instead: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. Each application leaves up to 30 days of residual, so a monthly cadence keeps the barrier renewed straight through peak nymph season rather than leaving a multi-month gap. No contracts. Call (289) 216-5030.',
+    answer: 'Tick spray in King City starts from $99 for a single application. Given King Township\'s exceptionally high tick activity near the Oak Ridges Moraine, Humber River headwaters, and extensive horse property corridors, most properties take the full season programme instead: five treatments spread roughly monthly from May through September, $597 on its own or $497 when added to a mosquito plan. A monthly cadence keeps the barrier renewed straight through peak nymph season rather than leaving a multi-month gap. No contracts. Call (289) 216-5030.',
   },
   {
     question: 'Why is King Township considered one of the highest-risk tick areas in York Region?',
@@ -29,7 +31,7 @@ const FAQS = [
   },
   {
     question: 'Are ticks active year-round in King City?',
-    answer: 'Ticks are active in King City from early April through November or even into December during mild years. The nymph stage (May through July) is the most dangerous for Lyme disease transmission — nymphs are tiny and easy to miss. Adult ticks are active in spring and again in the fall. York Region Public Health advises residents across King Township to conduct regular tick checks from spring through late fall and to consider professional yard treatment.',
+    answer: 'Ticks are active in King City from early April through November or even into December during mild years. The nymph stage (May through July) is the most dangerous for Lyme disease transmission — nymphs are tiny and easy to miss. Adult ticks are active in spring and again in the fall. York Region Public Health advises residents across King Township to conduct regular tick checks from spring through late fall.',
   },
 ]
 
@@ -37,7 +39,7 @@ export default function KingCityTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: '/king-city-tick-spray', city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Applied according to label directions.`, slug: '/king-city-tick-spray', city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/king-city-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'King City' })) }} />
@@ -47,7 +49,8 @@ export default function KingCityTickPage() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>King Township sits directly on the Oak Ridges Moraine and consistently reports some of the highest blacklegged tick activity in York Region. BuzzSkito provides professional tick spray to protect King City, Nobleton, and Schomberg properties from Lyme disease.</>}
+        subtitle={<>Licensed Ontario pesticide operator. Treatments applied according to label directions, for King City, Nobleton, and Schomberg properties on the Oak Ridges Moraine, where blacklegged tick activity runs high.</>}
+        service="tick"
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -56,10 +59,10 @@ export default function KingCityTickPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ 5 Tick Sprays per Season</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -76,6 +79,8 @@ export default function KingCityTickPage() {
       </section>
 
       
+      <TypicalPrices service="tick" city="King City" />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -84,8 +89,8 @@ export default function KingCityTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — lawn-to-woods transitions, leaf litter, garden bed edges, and fence lines on your property.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies barrier spray, according to label directions, to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: 'Five Visits, Rain-Back Guarantee', desc: `We return roughly monthly for 5 tick sprays through the season. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -101,7 +106,7 @@ export default function KingCityTickPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in King City</h2>
           <p>King Township has a tick problem that is both larger in scale and more consistent than most GTA communities. The township sits squarely on the Oak Ridges Moraine, the same glacially formed ridge that drives high tick activity throughout York and Durham Regions. But King's situation is amplified by the nature of its landscape: vast agricultural properties with wooded margins, forest fragments, Humber River tributaries, and the Schomberg River corridor all create a patchwork of ideal blacklegged tick habitats across hundreds of square kilometres.</p>
-          <p>York Region Public Health issues regular tick advisories for King Township and its communities — King City village, Nobleton, Schomberg, and Kettleby. The deer population across King is substantial, providing the primary adult tick host that spreads ticks across the landscape. Estate and rural properties with multiple forest edges, woodlots, or creek frontage can have very high tick pressure throughout the full questing season. Professional barrier spray applied to the lawn-forest interface is the most effective tool for reducing household exposure risk.</p>
+          <p>York Region Public Health issues regular tick advisories for King Township and its communities — King City village, Nobleton, Schomberg, and Kettleby. The deer population across King is substantial, providing the primary adult tick host that spreads ticks across the landscape. Estate and rural properties with multiple forest edges, woodlots, or creek frontage can have very high tick pressure throughout the full questing season. Professional barrier spray targets the lawn-forest interface, where ticks wait for a host.</p>
 
           <h2>Tick Hotspots in King City</h2>
           <ul>
@@ -120,10 +125,10 @@ export default function KingCityTickPage() {
           <h2>What Our King City Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 30 days of tick protection per treatment</li>
-            <li>Kills adult ticks, nymphs, and larvae on contact</li>
-            <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
-            <li>Free reapplication guarantee if ticks return</li>
+            <li>5 tick sprays per season, roughly monthly from May through September ($597 on its own, or $497 added to any mosquito plan)</li>
+            <li>Applied to the zones where adult ticks, nymphs, and larvae wait for a host</li>
+            <li>{PROMISES.labelLine}; keep children and pets off treated areas until the spray has dried, as the product label directs</li>
+            <li>{PROMISES.rainBack}</li>
           </ul>
 
           <h2>Also Providing Mosquito Control in King City</h2>
@@ -131,7 +136,7 @@ export default function KingCityTickPage() {
 
 
           <h2>Compare King City Pest Control Options</h2>
-          <p>King City has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-king-city" className="text-brand-700 hover:underline font-semibold">Pest Control in King City</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company.</p>
+          <p>King City has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-king-city" className="text-brand-700 hover:underline font-semibold">Pest Control in King City</Link> for why a mosquito and tick specialist is a better fit for tick habitat than a general pest company.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
@@ -150,7 +155,7 @@ export default function KingCityTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'James K.', text: 'We had a tick problem near our garden border. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-              { author: 'Priya R.', text: 'The technician explained exactly what product they were using and why it\u2019s safe for our dog. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
+              { author: 'Priya R.', text: 'The technician explained exactly what product they were using. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
             ].map(({ author, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -169,6 +174,10 @@ export default function KingCityTickPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="King City" service="tick" location="price_card_faq" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -185,7 +194,7 @@ export default function KingCityTickPage() {
           </div>
         </div>
       </section>
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protect your family from Lyme disease. No contracts, guaranteed results." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="5 tick sprays per season, applied according to label directions. No contracts, rain-back guarantee on every plan." variant="dark" />
     </>
   )
 }

@@ -20,7 +20,7 @@ const FAQS = [
   },
   {
     question: 'Do water gardens and ponds attract mosquitoes?',
-    answer: 'Yes — a still, unmanaged water garden is one of the strongest mosquito magnets in an Ontario yard. Female mosquitoes lay eggs directly on calm water, and larvae need only 7 to 12 days of warm, standing water to become biting adults. Water features with floating plants like water lettuce or water hyacinth are worse, because the plants block circulation and shelter larvae from fish. A water garden becomes low-risk when you add movement (a pump, fountain, or bubbler), stock mosquito-eating fish, or dose it with a BTI (Bacillus thuringiensis israelensis) larvicide, which Health Canada registers as safe for ponds with fish and wildlife.',
+    answer: 'Yes — a still, unmanaged water garden is one of the strongest mosquito magnets in an Ontario yard. Female mosquitoes lay eggs directly on calm water, and larvae need only 7 to 12 days of warm, standing water to become biting adults. Water features with floating plants like water lettuce or water hyacinth are worse, because the plants block circulation and shelter larvae from fish. A water garden becomes low-risk when you add movement (a pump, fountain, or bubbler), stock mosquito-eating fish, or dose it with a BTI (Bacillus thuringiensis israelensis) larvicide; check the label for its PCP registration number and the directions for use in ponds.',
   },
   {
     question: 'Does standing water in plants attract mosquitoes?',
@@ -48,7 +48,7 @@ const FAQS = [
   },
   {
     question: 'How do I stop my garden from attracting mosquitoes?',
-    answer: 'Start with water: walk the property after rain and empty, drain, or refresh every container, saucer, bromeliad cup, and low spot on a 3-to-5-day cycle. Add movement or BTI to ponds and water gardens. Open up dense plantings and hedges to reduce resting habitat. Grow repellent plants near seating rather than attract-heavy sweeps far from the patio. Then, for yard-wide control, a professional barrier spray treats the underside of foliage where mosquitoes rest — the combination of source reduction plus barrier treatment is what actually clears a yard.',
+    answer: 'Start with water: walk the property after rain and empty, drain, or refresh every container, saucer, bromeliad cup, and low spot on a 3-to-5-day cycle. Add movement or BTI to ponds and water gardens. Open up dense plantings and hedges to reduce resting habitat. Grow repellent plants near seating rather than attract-heavy sweeps far from the patio. Then, for yard-wide control, a professional barrier spray treats the underside of foliage where mosquitoes rest — source reduction plus barrier treatment is the combination that works best, repeated through the season because mosquitoes keep flying in from surrounding properties.',
   },
 ]
 
@@ -142,7 +142,7 @@ export default function WhatFlowersAttractMosquitoesPage() {
 
         <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
           <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
-          <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 &mdash; treating the underside of foliage where mosquitoes rest. Backed by 150 five-star reviews and serving 19 GTA cities.</p>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 &mdash; treating the underside of foliage where mosquitoes rest. Backed by 150+ five-star Google reviews and serving 19 GTA cities.</p>
           <div className="flex flex-wrap items-center gap-4">
             <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
             <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -155,7 +155,7 @@ export default function WhatFlowersAttractMosquitoesPage() {
         <ul>
           <li><strong>Add movement.</strong> A pump, fountain, bubbler, or waterfall keeps the surface disturbed. Mosquitoes need still water to lay eggs; moving water almost never breeds them.</li>
           <li><strong>Stock mosquito-eating fish.</strong> Goldfish and native minnows eat larvae. (Note that mosquitofish, <em>Gambusia</em>, are not permitted for release in Ontario &mdash; use locally-appropriate fish.)</li>
-          <li><strong>Use a BTI larvicide.</strong> BTI (<em>Bacillus thuringiensis israelensis</em>) is a naturally-occurring soil bacterium sold as floating &ldquo;dunks&rdquo; or granules. It kills mosquito larvae specifically and is registered by Health Canada as safe for ponds containing fish, pets, birds, and wildlife.</li>
+          <li><strong>Use a BTI larvicide.</strong> BTI (<em>Bacillus thuringiensis israelensis</em>) is a naturally-occurring soil bacterium sold as floating &ldquo;dunks&rdquo; or granules. It kills mosquito larvae specifically; check the label for its PCP registration number and the directions for use in ponds and water features.</li>
           <li><strong>Thin floating plants.</strong> Keep at least part of the surface open so it stays moving and reachable by fish.</li>
         </ul>
 
@@ -189,7 +189,7 @@ export default function WhatFlowersAttractMosquitoesPage() {
           <li><strong>Manage water-holding ornamentals.</strong> Flush bromeliad and taro cups weekly. Fill open bamboo cuts with sand or seal them. Keep leaf folds and container bases from pooling water.</li>
           <li><strong>Open up dense plantings.</strong> Thin thick hosta and fern beds, prune untrimmed hedges to let air and light through, and clear leaf litter from bed edges. This removes the cool, humid daytime resting habitat mosquitoes depend on.</li>
           <li><strong>Plant smart, not just less.</strong> Put <Link href="/blog/mosquito-repellent-plants-ontario" className="text-brand-700 underline">mosquito-repellent plants for Ontario</Link> &mdash; citronella grass, lavender, catnip, basil, rosemary &mdash; near seating areas where you can brush the leaves, rather than nectar-heavy sweeps far from the patio.</li>
-          <li><strong>Treat the resting surfaces.</strong> For yard-wide control, a professional barrier spray coats the underside of foliage and the interior of dense plantings &mdash; exactly where the adults hide by day. Source reduction plus barrier treatment is the combination that actually clears a yard, and it is the backbone of our <Link href="/blog/ultimate-backyard-mosquito-control-guide" className="text-brand-700 underline">ultimate backyard mosquito control guide</Link>.</li>
+          <li><strong>Treat the resting surfaces.</strong> For yard-wide control, a professional barrier spray coats the underside of foliage and the interior of dense plantings &mdash; exactly where the adults hide by day. Source reduction plus barrier treatment, repeated through the season, is the combination that works best, and it is the backbone of our <Link href="/blog/ultimate-backyard-mosquito-control-guide" className="text-brand-700 underline">ultimate backyard mosquito control guide</Link>.</li>
         </ol>
 
         <h2>The bottom line</h2>

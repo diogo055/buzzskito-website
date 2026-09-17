@@ -9,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'mosquito-repellent-bracelets-canada'
 const DATE = '2026-07-12'
@@ -27,11 +28,11 @@ const FAQS = [
   },
   {
     question: 'When are mosquito repellent bracelets actually useful?',
-    answer: 'Bracelets have a few honest use cases: for young kids or babies where parents want to avoid spraying anything directly on delicate skin (a DEET-free band on a stroller or clothing is low-risk); for very short, low-exposure moments like a quick walk to the car; for people who dislike the feel or smell of sprays and accept weaker protection; and as a backup layer on top of a real repellent. For genuine bite prevention during a backyard evening, a barbecue, or camping in mosquito season, a Health Canada-registered topical spray with DEET or icaridin is far more reliable.',
+    answer: 'Bracelets have a few honest use cases: for young kids or babies where parents want to avoid spraying anything directly on delicate skin (a DEET-free band on a stroller or clothing keeps product off the skin); for very short, low-exposure moments like a quick walk to the car; for people who dislike the feel or smell of sprays and accept weaker protection; and as a backup layer on top of a real repellent. For genuine bite prevention during a backyard evening, a barbecue, or camping in mosquito season, a topical spray with DEET or icaridin that carries a Canadian PCP registration number on its label is far more reliable.',
   },
   {
     question: 'Are mosquito bracelets safe for babies and toddlers?',
-    answer: 'DEET-free essential-oil bracelets are generally low-risk for children because nothing is absorbed through the skin — the band sits on a wrist, ankle, or clothing. That is exactly why parents like them. The main cautions: keep the band away from a baby\'s mouth (small parts and oils are not for chewing), watch for skin irritation from the oils in sensitive kids, and never rely on a bracelet as the only protection in a high-mosquito area. Health Canada allows low-concentration icaridin and, for children over 6 months, DEET up to 10% on skin — those topicals, used as directed, remain the more effective option. See our guide to the best bug spray for kids in Canada for age-by-age dosing.',
+    answer: 'Parents like DEET-free essential-oil bracelets because the band sits on a wrist, ankle, or clothing instead of being rubbed into a child\'s skin. Check the package directions for any age limits first. The main cautions: keep the band away from a baby\'s mouth (small parts and oils are not for chewing), watch for skin irritation from the oils in sensitive kids, and never rely on a bracelet as the only protection in a high-mosquito area. Health Canada allows low-concentration icaridin and, for children over 6 months, DEET up to 10% on skin — those topicals, used as directed, remain the more effective option. See our guide to the best bug spray for kids in Canada for age-by-age dosing.',
   },
   {
     question: 'Bracelet vs DEET or icaridin spray — what is the difference?',
@@ -86,14 +87,14 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito repellent bracelets barely work — they protect only the few centimetres of skin right next to the band, so your ankles, neck, and far arm still get bitten. They are worth it only as a low-risk supplement for kids, very short outdoor moments, or people who refuse sprays.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Mosquito repellent bracelets barely work — they protect only the few centimetres of skin right next to the band, so your ankles, neck, and far arm still get bitten. They are worth it only as a minor supplement for kids, very short outdoor moments, or people who refuse sprays.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A 2017 New Mexico State University study found citronella and essential-oil wristbands provide little to no protection beyond a few centimetres of the band.</li>
               <li>Disposable bands cost $6–$15 per multipack in Canada; refillable bands like PARA&rsquo;KITO run $18–$30, with each refill pellet lasting roughly 7–15 days.</li>
               <li>Health Canada notes citronella repellents last only 30 minutes to 2 hours even when applied directly to skin.</li>
               <li>A 20% icaridin spray protects all exposed skin for up to about 7 hours — versus a bracelet&rsquo;s few centimetres.</li>
               <li>Bracelets provide zero tick protection.</li>
-              <li>Professional barrier spray covers the whole yard for 21–30 days, from $99 per treatment.</li>
+              <li>Professional barrier spray treats the whole yard, from $99 per treatment.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
@@ -112,7 +113,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
                 search: 'parakito mosquito bracelet',
                 score: 7.4,
                 featured: true,
-                pros: ['Refillable — season-long value', 'DEET-free · good for kids', 'Sturdier than disposables'],
+                pros: ['Refillable — season-long value', 'DEET-free · popular with parents', 'Sturdier than disposables'],
                 cons: ['Only protects near the band', 'Refill pellets add cost'],
               },
               {
@@ -127,10 +128,10 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
               {
                 badge: 'Best for Kids',
                 name: 'Mosquito Guard Bands',
-                why: 'DEET-free bands parents clip to a stroller or small wrist as a low-risk extra layer — nothing absorbs through skin. Not a substitute for a proper kid-safe topical.',
+                why: 'DEET-free bands parents clip to a stroller or small wrist as an extra layer worn on gear or clothing rather than rubbed into skin. Not a substitute for a topical repellent whose label covers children.',
                 search: 'mosquito guard repellent bracelet',
                 score: 7.0,
-                pros: ['DEET-free · low-risk', 'Kid-friendly sizing', 'Inexpensive'],
+                pros: ['DEET-free · worn, not applied', 'Kid-friendly sizing', 'Inexpensive'],
                 cons: ['Minimal real coverage', 'Keep away from mouths'],
               },
               {
@@ -145,7 +146,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Using a band all season?</strong> The <em>Best Overall</em> refillable PARA’KITO is the only one worth reusing. <strong>Handing them out at a party?</strong> Grab the <em>Best Budget</em> or <em>Best for Parties</em> multipacks. <strong>For a child?</strong> A <em>Best for Kids</em> DEET-free band is a fine extra layer — but for a genuinely bite-free backyard evening, a proper repellent plus <Link href="/mosquito-control">professional barrier spray</Link> does what no bracelet can.
+                <strong>Using a band all season?</strong> The <em>Best Overall</em> refillable PARA’KITO is the only one worth reusing. <strong>Handing them out at a party?</strong> Grab the <em>Best Budget</em> or <em>Best for Parties</em> multipacks. <strong>For a child?</strong> A <em>Best for Kids</em> DEET-free band is a fine extra layer — but for a backyard evening with fewer bites, a proper repellent plus <Link href="/mosquito-control">professional barrier spray</Link> does what no bracelet can.
               </>
             }
           />
@@ -192,7 +193,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-rose-50 border-l-4 border-rose-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-rose-900">⚠️ A bracelet protects a spot, not your body.</strong> Research shows repellent bands do little beyond a few centimetres of the band itself. If you actually want to stop bites during a backyard evening, use a Health Canada-registered <Link href="/blog/mosquito-repellent-guide-ontario-2026" className="text-emerald-700 underline font-semibold">DEET or icaridin spray</Link>, or treat the whole yard with <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link>. Wear the band on top of those if you like — just don&rsquo;t rely on it alone.
+              <strong className="text-rose-900">⚠️ A bracelet protects a spot, not your body.</strong> Research shows repellent bands do little beyond a few centimetres of the band itself. If you actually want to stop bites during a backyard evening, use a <Link href="/blog/mosquito-repellent-guide-ontario-2026" className="text-emerald-700 underline font-semibold">DEET or icaridin spray</Link> with a PCP registration number on the label, or treat the whole yard with <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link>. Wear the band on top of those if you like — just don&rsquo;t rely on it alone.
             </p>
           </div>
         </div>
@@ -287,20 +288,20 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Do mosquito bracelets actually work? The honest answer.</p>
-            <p className="text-sm text-gray-800 leading-relaxed">Yes — for the exact patch of skin under the band. Beyond that, no. A New Mexico State University study (Rodriguez et al., 2017) tested commercial repellent wristbands and found little to no measurable protection more than a few centimetres away. The oils are real repellents, but a passive band cannot coat your body the way a topical does. For genuine bite-free evenings in a GTA yard, pair a <Link href="/blog/mosquito-repellent-guide-ontario-2026">proper DEET or icaridin spray</Link> with whole-yard <Link href="/mosquito-control">barrier spray</Link> — which, unlike any bracelet, also knocks down ticks.</p>
+            <p className="text-sm text-gray-800 leading-relaxed">Yes — for the exact patch of skin under the band. Beyond that, no. A New Mexico State University study (Rodriguez et al., 2017) tested commercial repellent wristbands and found little to no measurable protection more than a few centimetres away. The oils are real repellents, but a passive band cannot coat your body the way a topical does. For evenings in a GTA yard with fewer bites, pair a <Link href="/blog/mosquito-repellent-guide-ontario-2026">proper DEET or icaridin spray</Link> with whole-yard <Link href="/mosquito-control">barrier spray</Link> — which, unlike any bracelet, also targets ticks.</p>
           </div>
 
           <h2>How Mosquito Repellent Bracelets Work (and Why the Radius Matters)</h2>
           <p>Repellent bracelets are passive diffusers. Citronella, geraniol, lemongrass, or peppermint oil is impregnated into the band (or into a replaceable pellet on refillable models), and it slowly evaporates into the air immediately around your wrist or ankle. The scent masks the human cues — CO₂, body heat, lactic acid, and skin odour — that female mosquitoes home in on.</p>
           <p>The catch is physics. That scent cloud is tiny and it dissipates within centimetres, especially with any breeze. A mosquito approaching your other arm, your ankle, or your neck never encounters enough repellent vapour to be deterred. This is fundamentally different from a spray, which lays down a repellent layer across every square centimetre it touches. A band protects a <em>point</em>; a spray protects a <em>surface</em>.</p>
-          <p>That is exactly what independent testing shows. When researchers put commercial wristbands on test subjects and measured landing and biting rates, the bands produced little to no protection compared with untreated skin a short distance away. The takeaway is not that citronella is fake — it is a legitimate, Health Canada-recognized repellent — but that a bracelet is the wrong delivery method for whole-body protection.</p>
+          <p>That is exactly what independent testing shows. When researchers put commercial wristbands on test subjects and measured landing and biting rates, the bands produced little to no protection compared with untreated skin a short distance away. The takeaway is not that citronella is fake — it is a genuine repellent ingredient — but that a bracelet is the wrong delivery method for whole-body protection.</p>
 
           <h2>When a Mosquito Bracelet Is Genuinely Useful</h2>
           <ul>
-            <li><strong>Young kids and babies</strong> — a DEET-free band clipped to a stroller, backpack, or wrist is a low-risk extra layer where parents would rather not spray delicate skin. See our <Link href="/blog/best-bug-spray-for-kids-canada">best bug spray for kids in Canada</Link> guide for what to actually apply.</li>
+            <li><strong>Young kids and babies</strong> — a DEET-free band clipped to a stroller, backpack, or wrist is an extra layer where parents would rather not spray delicate skin. See our <Link href="/blog/best-bug-spray-for-kids-canada">best bug spray for kids in Canada</Link> guide for what to actually apply.</li>
             <li><strong>Very short, low-exposure moments</strong> — a quick walk to the car, taking out the recycling, a five-minute dog-yard trip at dusk</li>
             <li><strong>Spray-averse people</strong> — those who dislike the feel or smell of topicals and accept weaker protection in exchange for convenience</li>
-            <li><strong>A backup layer</strong> — worn on top of a real repellent, it costs little and does no harm</li>
+            <li><strong>A backup layer</strong> — worn on top of a real repellent, it costs little</li>
             <li><strong>DEET-free households</strong> — families avoiding synthetic actives entirely for personal reasons</li>
           </ul>
 
@@ -309,7 +310,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
             <li><strong>A full backyard evening</strong> — dusk-to-dark patio time in a GTA summer needs real coverage, not a wrist band</li>
             <li><strong>Camping and hiking in mosquito season</strong> — high, sustained exposure overwhelms a band instantly</li>
             <li><strong>Tick country</strong> — bracelets do nothing for ticks, which crawl rather than fly to scent; you need permethrin-treated clothing and a topical for tick protection</li>
-            <li><strong>Anywhere West Nile is a concern</strong> — for disease-carrying mosquitoes, rely on proven repellents and yard treatment, not a band</li>
+            <li><strong>Anywhere West Nile is a concern</strong> — public health advice is to use a DEET or icaridin repellent, not a band</li>
             <li><strong>As your only line of defence</strong> — a bracelet should never be the single thing standing between you and a mosquito-heavy yard</li>
           </ul>
 
@@ -330,22 +331,27 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
             <tbody>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Repellent bracelet</strong></td><td className="px-3 py-2">$6–$30</td><td className="px-3 py-2">A few cm around the band</td><td className="px-3 py-2">None</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/mosquito-repellent-guide-ontario-2026">Icaridin 20% spray</Link></td><td className="px-3 py-2">$10–$18</td><td className="px-3 py-2">Whole skin · up to ~7 hr</td><td className="px-3 py-2">Yes (on skin)</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-bug-spray-for-kids-canada">Kid-safe DEET 10%</Link></td><td className="px-3 py-2">$8–$15</td><td className="px-3 py-2">Whole skin · up to ~3 hr</td><td className="px-3 py-2">Yes (on skin)</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">Whole yard · 21–30 days</td><td className="px-3 py-2">Yes — full coverage</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-bug-spray-for-kids-canada">Kids&rsquo; DEET 10%</Link></td><td className="px-3 py-2">$8–$15</td><td className="px-3 py-2">Whole skin · up to ~3 hr</td><td className="px-3 py-2">Yes (on skin)</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">Whole yard · re-applied on a schedule</td><td className="px-3 py-2">With tick add-on ($497/season)</td></tr>
             </tbody>
           </table>
+
+          <p className="not-prose text-gray-700">The row that table cannot fill is the backyard evening itself, where a band is too small and a topical is more than some people want on their skin every night. That gap is what spatial repellers are for: a Thermacell-style unit heats a mat that disperses a pyrethroid repellent (metofluthrin or prallethrin) across a defined zone around the seating, so the protection belongs to the patio rather than to one wrist. It works best on a still evening and does nothing for someone standing outside the zone. <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check patio repellers on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>The Smart Way to Use a Bracelet</h2>
           <p>If you like the idea of a band, use it correctly: treat it as the <em>last</em> layer, not the first. The most reliable stack for a GTA family looks like this:</p>
           <ol>
-            <li><strong>Treat the yard</strong> — <Link href="/mosquito-control">professional barrier spray</Link> knocks down the resident mosquito and tick population for 21–30 days, so there are fewer bugs to fend off in the first place</li>
-            <li><strong>Apply a real repellent</strong> — a Health Canada-registered <Link href="/blog/mosquito-repellent-guide-ontario-2026">icaridin or DEET spray</Link> on exposed skin (see our <Link href="/blog/best-bug-spray-for-kids-canada">kid-safe guide</Link> for children&rsquo;s dosing)</li>
+            <li><strong>Treat the yard</strong> — <Link href="/mosquito-control">professional barrier spray</Link> targets the resident mosquito and tick population where it rests, so there are fewer bugs to fend off in the first place</li>
+            <li><strong>Apply a real repellent</strong> — an <Link href="/blog/mosquito-repellent-guide-ontario-2026">icaridin or DEET spray</Link> with a PCP registration number, on exposed skin (see our <Link href="/blog/best-bug-spray-for-kids-canada">kids&rsquo; bug spray guide</Link> for children&rsquo;s dosing)</li>
             <li><strong>Add the band</strong> — clip it on your child&rsquo;s wrist or your own as a low-cost extra, understanding it does the least of the three</li>
           </ol>
-          <p>Used this way, a bracelet is a harmless bonus. Used as your only defence, it is a false sense of security that leaves you covered in bites.</p>
+          <p className="not-prose text-gray-700">Step two is the one most people skip, having already bought the band. Health Canada describes DEET and icaridin as the most effective personal insect repellents available in Canada &mdash; icaridin being the Canadian name for what the US market calls picaridin, and the one most families prefer because it is odourless and does not craze plastic sunglasses or watch straps the way DEET can. Check the PCP registration number on the label and follow the age directions printed on it. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check icaridin (picaridin) repellents on Amazon.ca &rarr;</BuyLink></p>
+          <p>Used this way, a bracelet is a low-cost bonus. Used as your only defence, it is a false sense of security that leaves you covered in bites.</p>
 
           <h2>The Honest Verdict for Canadian Buyers</h2>
-          <p>Mosquito repellent bracelets are cheap, DEET-free, and convenient — but the research is clear that they do not protect much beyond the band itself. Buy one for a toddler&rsquo;s wrist, a quick errand, or as a backup on top of real protection, and pick a refillable model like PARA&rsquo;KITO for the best season-long value. For a genuinely bite-free backyard, put your money into whole-yard <Link href="/mosquito-control">barrier spray</Link> and a proper topical repellent instead.</p>
+          <p>Mosquito repellent bracelets are cheap, DEET-free, and convenient — but the research is clear that they do not protect much beyond the band itself. Buy one for a toddler&rsquo;s wrist, a quick errand, or as a backup on top of real protection, and pick a refillable model like PARA&rsquo;KITO for the best season-long value. For a backyard you can actually use, put your money into whole-yard <Link href="/mosquito-control">barrier spray</Link> and a proper topical repellent instead.</p>
+
+          <p className="not-prose text-gray-700">One gap the band leaves open is worth closing separately, because no wristband and no topical fully covers it: ticks, which crawl up from ground vegetation onto clothing rather than flying to scent. The U.S. Centers for Disease Control and Prevention recommends treating clothing, boots, and camping gear with 0.5% permethrin, and is explicit that it goes on fabric and never on skin. Treated clothing is far less common in Canada than in the US, so check the label and Canadian availability before assuming you can buy it here. <BuyLink tag={AMZ_TAG} search="permethrin clothing spray">Check permethrin clothing and gear treatments on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -370,7 +376,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="A Band Protects a Wrist · We Protect the Whole Yard" subtext="Get a free quote for licensed barrier spray. From $99. Health Canada approved. Kills mosquitoes and ticks for 30 days." variant="dark" />
+      <CTASection heading="A Band Protects a Wrist · We Protect the Whole Yard" subtext={`Get a free quote for licensed barrier spray. From $99. ${PROMISES.labelLine}. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

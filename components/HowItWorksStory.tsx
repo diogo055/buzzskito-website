@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Icon } from '@/components/Icon'
 import StoryHydrator from '@/components/StoryHydrator'
+import { PROMISES } from '@/lib/constants'
 
 /**
  * Sticky scroll-story version of "How BuzzSkito Works" (desktop lg+):
@@ -11,7 +12,9 @@ import StoryHydrator from '@/components/StoryHydrator'
  *
  * SEO/perf contract:
  * - H2 + all step copy render server-side, identical wording to the old
- *   3-column layout (protected content — do not reword).
+ *   3-column layout (protected content — do not reword). Exception: step 3
+ *   dropped its re-entry minute count and timed-protection claim, which
+ *   Health Canada DIR2016-01 does not allow without label support.
  * - Crossfade is driven by StoryHydrator (IntersectionObserver → a single
  *   data-active attribute); painting is pure CSS opacity.
  * - No JS → data-active stays "1", first photo shows, all steps readable.
@@ -40,7 +43,7 @@ const STEPS = [
     n: '3',
     title: 'Enjoy the Outdoors',
     icon: 'shield-check',
-    desc: 'You\'re back outside in 30 minutes. Protection lasts up to 30 days per treatment for both mosquitoes and ticks. We send a full service log after every visit.',
+    desc: `You're back outside once the spray has dried, as the product label directs. ${PROMISES.rainBack} We send a full service log after every visit.`,
     img: '/spray-pool.webp',
     alt: 'Protected landscaped GTA backyard with a pool, ready to enjoy after treatment',
   },

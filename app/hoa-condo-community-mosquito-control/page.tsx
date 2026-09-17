@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 
@@ -19,23 +20,23 @@ const FAQS = [
   },
   {
     question: 'Do residents need to be notified before mosquito treatment?',
-    answer: "Yes — and BuzzSkito handles this for you. We provide your board or property manager with a printable resident notice template (English and French) at least 48 hours before scheduled treatment. The notice covers: treatment date and time window, products applied with Health Canada PCP numbers, drying time and re-entry guidance, and our contact line for any resident questions. We also provide signage to post at common area entrances on treatment day. This protects the board from liability and addresses the most common resident concerns proactively.",
+    answer: "Yes — and BuzzSkito handles this for you. We provide your board or property manager with a printable resident notice template (English and French) at least 48 hours before scheduled treatment. The notice covers: treatment date and time window, products applied (with their PCP numbers), re-entry guidance from the product label, and our contact line for any resident questions. We also provide signage to post at common area entrances on treatment day. This keeps the board's records in order and addresses the most common resident concerns proactively.",
   },
   {
-    question: 'Are HOA mosquito treatments safe for residents with children, dogs, allergies, or chemical sensitivities?',
-    answer: "Yes. We use Health Canada-approved water-based barrier formulas registered specifically for residential and multi-residential use. The product dries in approximately 30 minutes after which common areas are fully safe for residents, children, dogs, and people with chemical sensitivities. Our Pesticides Act-licensed technicians follow documented buffer zones around playgrounds, vegetable garden plots (where present), pet relief areas, and any resident-flagged sensitivity zones. For residents with documented chemical sensitivities, we coordinate with property management to provide advance individual notification and treatment-day timing.",
+    question: 'How are residents with children, dogs, allergies, or chemical sensitivities kept informed about HOA treatments?',
+    answer: "Treatments are applied by an Ontario-licensed pesticide operator (Licence L-240-2436835197), and products are applied according to label directions. Residents, children and dogs should stay off treated common areas until the spray has dried, as the product label directs, and the resident notice and treatment-day signage say so. Our Pesticides Act-licensed technicians follow documented buffer zones around playgrounds, vegetable garden plots (where present), pet relief areas, and any resident-flagged sensitivity zones. For residents with documented chemical sensitivities, we coordinate with property management to provide advance individual notification and treatment-day timing.",
   },
   {
     question: 'How does the condo board structure a mosquito control contract?',
-    answer: 'BuzzSkito offers three contract structures for HOA and condo communities: (1) Per-treatment contracts — pay-as-you-go with no annual commitment. Best for smaller communities testing the service. (2) Seasonal contracts — fixed price for 5 treatments May-September, single annual invoice or quarterly billing. Most popular structure. (3) Multi-year contracts (2-3 year terms) — locked-in pricing, priority scheduling, and dedicated technician assignment. Best value for established communities with predictable annual budgets. All contracts include the BuzzSkito Bite-Free Guarantee and written treatment records.',
+    answer: 'BuzzSkito offers three contract structures for HOA and condo communities: (1) Per-treatment contracts — pay-as-you-go with no annual commitment. Best for smaller communities testing the service. (2) Seasonal contracts — fixed price for 5 treatments May-September, single annual invoice or quarterly billing. Most popular structure. (3) Multi-year contracts (2-3 year terms) — locked-in pricing, priority scheduling, and dedicated technician assignment. Best value for established communities with predictable annual budgets. All contracts include the rain-back guarantee (rain within 1 hour of a treatment, we come back and re-treat free) and written treatment records.',
   },
   {
     question: 'Can BuzzSkito treat retention ponds and stormwater management features?',
-    answer: 'Yes. Retention ponds and stormwater management features are major mosquito breeding sources for many GTA condo communities. We treat these features with Health Canada-approved BTI (Bacillus thuringiensis israelensis) larvicide — the same biological larvicide used in municipal mosquito programs over drinking water reservoirs. BTI is lethal to mosquito larvae but safe for fish, frogs, ducks, and other pond ecology. Combined with barrier spray to surrounding vegetation, this approach addresses both larval breeding and adult resting habitat in retention pond areas.',
+    answer: 'Yes. Retention ponds and stormwater management features are major mosquito breeding sources for many GTA condo communities. We treat these features with BTI (Bacillus thuringiensis israelensis) larvicide, applied according to label directions — a biological larvicide also used in municipal mosquito programs. BTI is a bacterial larvicide that targets mosquito larvae in the water. Combined with barrier spray to surrounding vegetation, this approach addresses both larval breeding and adult resting habitat in retention pond areas.',
   },
   {
     question: 'How do you coordinate treatments around community events, weddings, and amenity bookings?',
-    answer: 'For communities with active event calendars (weddings in courtyards, summer concerts, community BBQs, pool parties), we coordinate scheduling directly with the property manager or amenity coordinator. Pre-event treatments are typically completed 24-48 hours before scheduled events to ensure zero residual product on amenity surfaces while providing maximum mosquito reduction during the event. We accommodate emergency pre-event scheduling for confirmed contract clients.',
+    answer: 'For communities with active event calendars (weddings in courtyards, summer concerts, community BBQs, pool parties), we coordinate scheduling directly with the property manager or amenity coordinator. Pre-event treatments are typically completed 24-48 hours before scheduled events, so treated areas have dried well before guests arrive. We accommodate emergency pre-event scheduling for confirmed contract clients.',
   },
   {
     question: 'Do you treat ticks in addition to mosquitoes for community properties?',
@@ -45,7 +46,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: 'HOA & Condo Community Mosquito Control GTA · Property Management Contracts',
-  description: "Specialized mosquito and tick barrier spray for HOA, condo, and townhouse communities across the GTA. Single-invoice contracts, board-friendly resident communications, retention pond BTI treatment. Health Canada-approved. 150+ five-star reviews.",
+  description: "Specialized mosquito and tick barrier spray for HOA, condo, and townhouse communities across the GTA. Single-invoice contracts, board-friendly resident communications, retention pond BTI treatment. Licensed Ontario operator. 150+ five-star reviews.",
   canonical: SLUG,
 })
 
@@ -133,6 +134,10 @@ export default function HOACondoMosquitoControlPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" />
+      </div>
+
       {/* CONTRACT STRUCTURES */}
       <section className="bg-gray-50 py-14 px-4">
         <div className="max-w-5xl mx-auto">
@@ -146,7 +151,7 @@ export default function HOACondoMosquitoControlPage() {
               <ul className="text-xs text-gray-600 space-y-1">
                 <li>✓ Single visit invoice</li>
                 <li>✓ No multi-treatment commitment</li>
-                <li>✓ Bite-Free Guarantee on each visit</li>
+                <li>✓ Rain-back guarantee on each visit</li>
               </ul>
             </div>
             <div className="rounded-2xl border-2 border-amber-400 bg-amber-50/40 p-6 relative">
@@ -202,6 +207,10 @@ export default function HOACondoMosquitoControlPage() {
         </div>
       </section>
 
+      <div className="max-w-3xl mx-auto px-4">
+        <CityPriceCard city="GTA" service="mosquito" location="price_card_faq" />
+      </div>
+
       {/* FAQ */}
       <section className="bg-gray-50 py-14 px-4">
         <div className="max-w-3xl mx-auto">
@@ -220,7 +229,7 @@ export default function HOACondoMosquitoControlPage() {
         </div>
       </section>
 
-      <CTASection heading="Request a community quote" subtext="Free site walk-through · Written quote within 48 hours · Board-ready proposal" />
+      <CTASection heading="Request a community quote" subtext="Free site walk-through · Written quote · Board-ready proposal" />
     </>
   )
 }

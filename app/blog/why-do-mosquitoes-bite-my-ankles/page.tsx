@@ -1,9 +1,14 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import AuthorByline from '@/components/AuthorByline'
 import Figure from '@/components/Figure'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
+import StickyBuyBar from '@/components/StickyBuyBar'
 
 const SLUG = 'why-do-mosquitoes-bite-my-ankles'
 const DATE = '2026-07-16'
@@ -29,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'How do I stop mosquitoes from biting my ankles?',
-    answer: 'Cover and treat the lower legs, and reduce the mosquito population in your yard. Wear socks and closed shoes instead of sandals, and choose light-coloured, loose clothing. Apply a Health Canada-registered repellent with DEET or picaridin from the knee down, paying attention to the ankles, socks, and shoe line. Wash your feet before heading outdoors at dusk to strip away the bacteria mosquitoes track. Around the yard, tip out standing water weekly and treat shaded resting areas. A running fan on the patio also helps, because mosquitoes are weak fliers and ankles are exactly where a floor-level fan disrupts them.',
+    answer: 'Cover and treat the lower legs, and reduce the mosquito population in your yard. Wear socks and closed shoes instead of sandals, and choose light-coloured, loose clothing. Apply a repellent with DEET or picaridin (look for the PCP registration number on the label) from the knee down, paying attention to the ankles, socks, and shoe line. Wash your feet before heading outdoors at dusk to strip away the bacteria mosquitoes track. Around the yard, tip out standing water weekly and treat shaded resting areas. A running fan on the patio also helps, because mosquitoes are weak fliers and ankles are exactly where a floor-level fan disrupts them.',
   },
   {
     question: 'Do mosquitoes prefer to bite lower on the body?',
@@ -61,6 +66,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
 })
+
+const AMZ_TAG = tagForSlug('why-do-mosquitoes-bite-my-ankles')
 
 export default function WhyMosquitoesBiteAnklesPage() {
   return (
@@ -100,6 +107,13 @@ export default function WhyMosquitoesBiteAnklesPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
+        </div>
+      </section>
+
+      {/* Service CTA first (lead value), then the aftercare module below it */}
+      <section className="px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <BlogPostCTA />
         </div>
       </section>
 
@@ -174,7 +188,7 @@ export default function WhyMosquitoesBiteAnklesPage() {
           <p>The fastest way to stop ankle bites is to cover and treat the lower legs and cut the mosquito population in your yard. Because ankles are a physics-and-chemistry problem, the fixes are simple and layered:</p>
           <ol>
             <li><strong>Cover your feet and ankles.</strong> Swap sandals for socks and closed shoes at dusk. Even thin coverage removes the easiest target &mdash; though <em>Aedes</em> can bite through a single thin sock layer, so pair it with repellent.</li>
-            <li><strong>Apply repellent from the knee down.</strong> Use a Health Canada-registered repellent with <strong>DEET</strong> or <strong>picaridin</strong>, focusing on ankles, the sock line, and the tops of your feet &mdash; the spots people routinely miss.</li>
+            <li><strong>Apply repellent from the knee down.</strong> Use a repellent with <strong>DEET</strong> or <strong>picaridin</strong> (look for the PCP registration number on the label), focusing on ankles, the sock line, and the tops of your feet &mdash; the spots people routinely miss.</li>
             <li><strong>Wash your feet before going out.</strong> Rinsing away sweat and bacteria temporarily lowers the foot odour mosquitoes track. Clean, dry socks help keep it down.</li>
             <li><strong>Wear light, loose colours.</strong> Mosquitoes track dark, high-contrast colours by sight in the final approach, so pale, loose clothing makes your lower legs harder to spot.</li>
             <li><strong>Run a floor-level fan on the patio.</strong> Mosquitoes are weak fliers, and a fan aimed low disrupts them right where they attack &mdash; at ankle height.</li>
@@ -197,6 +211,30 @@ export default function WhyMosquitoesBiteAnklesPage() {
 
           <h2>The bottom line</h2>
           <p>Your ankles and feet are not unlucky &mdash; they are the ideal target. Ground-level CO&#8322; pooling, dense foot-bacteria odour that literally shares a scent family with Limburger cheese, low-flying <em>Aedes</em> species, and bare, hard-to-watch skin all converge on the same few centimetres. You cannot change the physics of CO&#8322; or your foot microbiome, but you can cover up below the knee, use a registered repellent, wash before dusk, and thin out the mosquito population in your yard. Do those four things and the ankle-bite hotspot cools right down.</p>
+          <AffiliateDisclosure />
+
+          <aside aria-label="What to do right now" className="not-prose my-6 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 sm:p-7">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">What to do right now</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">If you are going back outside this evening, these are the three things that change how many ankle bites you collect. The first one is free.</p>
+            <ol className="space-y-4 text-[15px] text-gray-800 leading-relaxed list-decimal pl-5 marker:font-extrabold marker:text-emerald-700">
+              <li>
+                <strong>Wash your feet, then put on socks and closed shoes.</strong> Foot odour comes from bacteria breaking down sweat, so a rinse before you head out strips the signal mosquitoes are tracking, and closed footwear removes the easiest target on your body. It costs nothing and it is the step people skip because it sounds too obvious &mdash; the science behind why it works is the whole first half of this page.
+              </li>
+              <li>
+                <strong>Put repellent on from the knee down.</strong> Ankles, the sock line, and the tops of the feet are the spots people routinely miss. Most families here reach for an icaridin (picaridin) spray rather than DEET for this zone, because it is odourless and it does not soften the plastic on sandal straps, watch bands, or fitness trackers. Check the PCP registration number on the label and follow the age directions printed there.
+                <span className="mt-3 block"><BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca &rarr;</BuyLink></span>
+              </li>
+              <li>
+                <strong>Point a fan low across the seating area.</strong> Mosquitoes are poor fliers in moving air, and the attack on your ankles happens in the stillest few centimetres of the patio &mdash; exactly the layer a floor or pedestal fan clears out. It works on everyone sitting there rather than only the person who remembered to spray, and it does not wash off. Aim it across ankles, not at faces.
+                <span className="mt-3 block"><BuyLink tag={AMZ_TAG} search="outdoor patio floor fan">Check price on Amazon.ca &rarr;</BuyLink></span>
+              </li>
+            </ol>
+          </aside>
+
+          <p className="not-prose text-gray-700">Three of those four are habits. The one that is a purchase is the repellent, and for a knee-down application most families here settle on an <strong>icaridin</strong> (picaridin) spray rather than DEET &mdash; it is odourless and it does not soften the plastic on sandal straps, watch bands, or fitness trackers the way DEET can, which matters when the target zone is your ankles. Check the PCP registration number on the label and follow the age directions printed there. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check icaridin (picaridin) repellents on Amazon.ca &rarr;</BuyLink></p>
+          <p className="not-prose text-gray-700">The fan in step five is the other thing worth spending money on, and it is the one people skip because it sounds too simple. Mosquitoes are poor fliers in moving air, and the attack on your ankles happens in the slowest, stillest few centimetres of the patio &mdash; exactly the layer a floor or pedestal fan aimed low clears out. It costs nothing to run for an evening, it works on everyone sitting there rather than only the person who remembered to spray, and it does not wash off when you get up to flip the burgers. Aim it across the ankles of the seating area, not at faces. <BuyLink tag={AMZ_TAG} search="outdoor patio floor fan">check outdoor floor and pedestal fans on Amazon.ca &rarr;</BuyLink></p>
+          <p className="not-prose text-gray-700">If the bites are happening through socks &mdash; which is common with <em>Aedes</em>, because a thin sock pulled tight leaves nothing for the 2 mm proboscis to miss &mdash; the fix is to treat the fabric rather than the skin under it. <strong>Permethrin</strong> clothing-and-gear treatments are applied to socks, shoes, and trouser cuffs and left to dry fully before wearing; they are a fabric product and are never applied to skin. Read the label for the garment types, the drying time, and the re-treatment interval, and see our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">permethrin guide for Canada</Link> for what is and is not available here. <BuyLink tag={AMZ_TAG} search="permethrin clothing gear spray">check permethrin clothing treatments on Amazon.ca &rarr;</BuyLink></p>
+          <p className="not-prose text-gray-700">And for the bites you already have: the reason ankle bites feel worse than arm bites is mechanical, not chemical &mdash; sock elastic and shoe collars rub them all day, so they stay irritated and get scratched far more. Keeping a tube of pharmacy-aisle anti-itch cream and a cold pack by the door takes the edge off enough to stop the scratching, which is the part that breaks skin. If a bite spreads, worsens, or you feel unwell, see a healthcare provider rather than treating it yourself. <BuyLink tag={AMZ_TAG} search="insect bite itch relief cream">check bite itch-relief creams on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -223,6 +261,7 @@ export default function WhyMosquitoesBiteAnklesPage() {
       </article>
 
       <CTASection heading="Stop the Ankle-Bite Ambush" subtext="You can't change your foot chemistry — but you can clear the mosquitoes from your yard. Licensed barrier spray from $99. +HST." variant="dark" />
+      <StickyBuyBar tag={AMZ_TAG} name="Icaridin insect repellent" search="icaridin insect repellent" label="For your ankles" />
     </>
   )
 }

@@ -197,6 +197,7 @@ export default function TickTubesCanadaPage() {
           </ul>
           <p>Do not scatter them across the open middle of your yard — that is exactly where mice avoid, and where ticks are least concentrated anyway. Space tubes roughly 10 metres (about 30 feet) apart along those edges.</p>
           <p>For coverage, a useful rule of thumb is about <strong>one 12-pack per quarter-acre (roughly 1,000 square metres) per application</strong>. That scales to around 24 tubes for a half-acre and about 48 for a full acre. Most GTA suburban lots have well under a quarter-acre of actual yard once you subtract the house and driveway, so a single 12-pack often covers a typical Mississauga or Toronto property — as long as you concentrate it along the edges rather than spreading it thin.</p>
+          <p>Acreage changes that arithmetic fast, which is why tubes earn their keep most on large rural lots with a long woodlot or hedgerow edge — the Caledon and Halton Hills properties described in our <Link href="/blog/tick-prevention-caledon-halton-hills">Caledon and Halton Hills tick prevention guide</Link> are the classic case.</p>
           <p>Timing is the other half of the equation. Because both larvae and nymphs feed on mice — but at different points in the year — the most effective schedule is <strong>two applications</strong>:</p>
           <ul>
             <li><strong>Spring (April to early June):</strong> targets overwintered nymphs feeding on mice as the season warms — this is also when human tick encounters start climbing in Ontario.</li>
@@ -276,6 +277,7 @@ export default function TickTubesCanadaPage() {
             <li><strong>Results take a year to show.</strong> If you need protection this weekend, tubes are the wrong tool.</li>
           </ul>
           <p>None of this makes tubes useless. It makes them a layer — a good one — inside a plan, rather than the plan itself.</p>
+          <p>The same honesty test applies to the natural route people reach for next. Opossums, guinea fowl, bats and backyard frogs all get credited with eating ticks, and we ranked them against each other in <Link href="/blog/what-eats-ticks-and-mosquitoes" className="text-brand-700 underline">what actually eats ticks and mosquitoes</Link> — worth reading before you build a habitat plan around a predator that barely moves the number.</p>
 
           <h2>The smart tick-control stack for GTA properties</h2>
           <p>For a typical Ontario yard, the pros stack these in order of impact:</p>

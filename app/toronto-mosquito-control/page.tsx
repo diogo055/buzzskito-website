@@ -3,8 +3,10 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema, itemListSchema } from '@/lib/seo'
-import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Toronto — From $99 · 150+ 5-Star Reviews',
@@ -40,7 +42,7 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Toronto?',
-    answer: "It depends on what you are optimizing for. BuzzSkito has the lowest published single-treatment price in Toronto ($99), 150+ perfect five-star Google reviews, and no contracts — and mosquitoes and ticks are the only two pests we treat. Mosquito Man has the largest review volume in the GTA (900+) and a longer local tenure, but sells seasonal programs on a contract model. Mosquito.Buzz is a national franchise, so your Toronto experience depends on which franchisee holds the territory. LawnSavers serves Toronto mainly as a mosquito add-on to its lawn-care programs, from $129 per treatment. The comparison table on this page lays out pricing, reviews, contracts, and coverage side by side.",
+    answer: "It depends on what you are optimizing for. BuzzSkito publishes its single-treatment price in Toronto ($99), 150+ perfect five-star Google reviews, and no contracts — and mosquitoes and ticks are the only two pests we treat. Mosquito Man has a large review volume in the GTA and a longer local tenure, but sells seasonal programs on a contract model. Mosquito.Buzz is a national franchise, so your Toronto experience depends on which franchisee holds the territory. LawnSavers serves Toronto mainly as a mosquito add-on to its lawn-care programs (pricing varies — check their site). Whichever you consider, ask every company the same five questions before you book: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: treatments from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); if rain falls within 1 hour of a treatment we come back and re-treat free, on every plan; licence L-240-2436835197; and the Bite-Free Guarantee on Standard & Exclusive plans. The comparison and checklist tables on this page lay out pricing, contracts, coverage, and those questions side by side.",
   },
   {
     question: 'Why does Toronto have such a bad mosquito problem?',
@@ -56,11 +58,11 @@ const FAQS = [
   },
   {
     question: 'How many treatments does my Toronto property need per season?',
-    answer: "For ravine-adjacent Toronto properties, we recommend 4–5 treatments from May through September, spaced 21–28 days apart. Properties in less-exposed parts of the city may be well-protected with 3–4 visits. Our technician assesses your specific situation — ravine proximity, landscaping density, and any on-property water features — to recommend the right schedule.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Ravine-adjacent Toronto properties typically benefit from Standard's two-week spacing. Properties in less-exposed parts of the city may be well-served by Basic. Our technician assesses your specific situation — ravine proximity, landscaping density, and any on-property water features — to recommend the right plan.",
   },
   {
-    question: "Is mosquito spray safe near Toronto's urban gardens and pollinators?",
-    answer: "Yes. Our Health Canada–approved formula is applied to resting surfaces — the undersides of leaves and shrubs where mosquitoes rest — rather than directly to flowers or open areas. Once dried (approximately 30 minutes), it does not harm pollinators foraging on treated vegetation. We avoid direct application to open blooms and can discuss any specific garden concerns before treatment.",
+    question: "How is mosquito spray applied around Toronto's urban gardens and pollinators?",
+    answer: "Our licensed technician applies the product according to its label directions, to resting surfaces — the undersides of leaves and shrubs where mosquitoes rest — rather than directly to flowers or open areas. We avoid direct application to open blooms, and we can discuss any specific garden or pollinator concerns, including beehives, before treatment.",
   },
   {
     question: 'Do you serve all Toronto neighbourhoods?',
@@ -68,15 +70,15 @@ const FAQS = [
   },
   {
     question: 'What happens if it rains right after my Toronto treatment?',
-    answer: "Our formula bonds to leaf surfaces as it dries. If significant rain falls within one hour of application — before the product has fully cured — we return and re-treat your property at no charge. This rain-back guarantee applies to all Toronto service visits.",
+    answer: "Our formula bonds to leaf surfaces as it dries. If it rains within 1 hour of your treatment, we come back and re-treat your property free. This rain-back guarantee comes with every plan.",
   },
   {
     question: 'Does BuzzSkito also do tick control in Toronto?',
-    answer: "Yes. Toronto's ravine system harbours blacklegged ticks — Toronto Public Health has confirmed established tick populations in High Park, the Don Valley, and other green corridors. Many Toronto homeowners bundle mosquito and tick treatments for complete yard protection. See our Toronto tick control service for details.",
+    answer: "Yes. Toronto's ravine system harbours blacklegged ticks — Toronto Public Health has confirmed established tick populations in High Park, the Don Valley, and other green corridors. Many Toronto homeowners bundle mosquito and tick treatments so both pests are covered: tick control is $497 per season (5 sprays) added to any mosquito plan. See our Toronto tick control service for details.",
   },
   {
     question: 'How much does mosquito control cost in Toronto?',
-    answer: "BuzzSkito mosquito treatments in Toronto start from $99 per treatment. Pricing depends on your property size and the depth of coverage your lot requires. Ravine-adjacent properties may need more frequent or thorough application than sheltered urban lots. Call (289) 216-5030 for a free quote, or see our 2026 Ontario pricing guide for a full breakdown.",
+    answer: "BuzzSkito mosquito treatments in Toronto start from $99 per treatment on a standard lot under 10,000 sq ft, plus HST. Pricing depends on your property size and the depth of coverage your lot requires. Ravine-adjacent properties may need more frequent or thorough application than sheltered urban lots. Call (289) 216-5030 for a free quote, or see our 2026 Ontario pricing guide for a full breakdown.",
   },
   {
     question: 'Are no-contract mosquito control plans available in Toronto?',
@@ -96,8 +98,8 @@ export default function TorontoMosquitoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: CITY, url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG, '2026-07-12')) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito', city: 'Toronto' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema({ name: 'Mosquito Control Companies Serving Toronto — Compared', description: 'Toronto mosquito control providers compared on pricing, Google reviews, contract terms, and neighbourhood coverage.', slug: SLUG, items: [{ name: 'BuzzSkito' }, { name: 'Mosquito Man' }, { name: 'Mosquito.Buzz' }, { name: 'LawnSavers' }] })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito', city: 'Toronto' })) }} />
 
       <CityHero
         breadcrumbs={[
@@ -107,16 +109,16 @@ export default function TorontoMosquitoPage() {
         ]}
         title={<>Toronto Mosquito Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Toronto&apos;s specialist barrier spray for ravine-adjacent properties. Health Canada-approved, safe for kids and pets in 30 minutes, backed by the <strong className="text-amber-400">BuzzSkito Bite-Free Guarantee</strong> — if pests return inside the protection window, we re-treat at no charge.</>}
+        subtitle={<>Licensed Ontario pesticide operator treating ravine-adjacent Toronto yards along the Don, Humber and Highland Creek corridors. Treatments applied according to label directions.</>}
         image="/spray-backyard.webp"
       />
 
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -124,7 +126,7 @@ export default function TorontoMosquitoPage() {
       {/* QUICK ANSWER — for AI extraction + Google AI Overviews */}
       <QuickAnswer question="What is the best mosquito control company in Toronto?">
         <p>
-          <strong>BuzzSkito is a Mississauga-based specialist providing professional mosquito barrier spray across Toronto&apos;s 30+ neighbourhoods, including Rosedale, Forest Hill, The Beaches, Etobicoke, Leaside, Don Mills, and North York.</strong> Treatments use Health Canada-approved formulas applied to vegetation, shrub interiors, and ravine-edge fence lines where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>150+ five-star Google reviews</strong> and zero negative reviews, BuzzSkito offers no-contract service, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong> — free re-treatment if mosquitoes return within the protection window. Call (289) 216-5030.
+          <strong>BuzzSkito is a Mississauga-based specialist providing professional mosquito barrier spray across Toronto&apos;s 30+ neighbourhoods, including Rosedale, Forest Hill, The Beaches, Etobicoke, Leaside, Don Mills, and North York.</strong> Treatments are applied by a licensed Ontario pesticide operator, according to label directions, to vegetation, shrub interiors, and ravine-edge fence lines where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot, with season plans from <strong>$549</strong> (plus HST). With <strong>150+ five-star Google reviews</strong> and zero negative reviews, BuzzSkito offers no-contract service, a <strong>rain-back guarantee on every plan</strong>, and the <strong>BuzzSkito Bite-Free Guarantee</strong> on Standard &amp; Exclusive plans. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -138,16 +140,16 @@ export default function TorontoMosquitoPage() {
                 {[
                   ['Service area', 'All Toronto + 30+ neighbourhoods (Old Toronto, North York, Etobicoke, Scarborough, East York)'],
                   ['Specialization', 'Mosquito barrier spray for residential properties'],
-                  ['Pricing', 'From $99 per treatment · seasonal programs available on quote'],
+                  ['Pricing', 'From $99 per treatment on a standard lot · season plans from $549 (plus HST)'],
                   ['Treatment season', 'May through September (peak: late May–early August)'],
-                  ['Protection per visit', 'Up to 30 days residual'],
-                  ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
-                  ['Recommended schedule', '5 treatments per season for ravine-adjacent properties'],
-                  ['Products', 'Health Canada–approved water-based formulations'],
+                  ['Season plans', 'Basic 5 sprays monthly · Standard 10 sprays every 2 weeks · Exclusive 20+ weekly'],
+                  ['Re-entry', 'Stay off treated areas until the spray has dried, as the product label directs'],
+                  ['Recommended schedule', 'Standard (10 sprays, every 2 weeks) for ravine-adjacent properties; Basic (5 sprays, monthly) for lower-exposure lots'],
+                  ['Products', `${PROMISES.labelLine} · ${PROMISES.licence}`],
                   ['Highest pressure zones', 'Don Valley · Humber River · Highland Creek · Rouge corridors'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
-                  ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
+                  ['Guarantee', 'Rain-back on every plan; Bite-Free on Standard & Exclusive'],
                   ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
                   ['Phone', BUSINESS.phone],
                 ].map(([k, v]) => (
@@ -173,6 +175,8 @@ export default function TorontoMosquitoPage() {
         </div>
       </section>
 
+      <TypicalPrices service="mosquito" city={CITY} />
+
       {/* How It Works */}
       <section className="py-14 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -181,8 +185,8 @@ export default function TorontoMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your Toronto property — identifying ravine exposure, water features, and mosquito pressure zones specific to your neighbourhood.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, fence lines, and ravine-edge perimeters using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the protection window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product, according to its label directions, to all vegetation, shrub interiors, leaf undersides, fence lines, and ravine-edge perimeters using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: 'Rain within 1 hour of your treatment? We come back and re-treat free, on every plan. Standard & Exclusive plans also carry the Bite-Free Guarantee.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -227,7 +231,7 @@ export default function TorontoMosquitoPage() {
           </div>
 
           <h2>Toronto Mosquito Treatment Schedule</h2>
-          <p>For Toronto properties — especially ravine-adjacent ones — a 5-treatment season from May through September provides continuous protection. Here's the schedule we recommend:</p>
+          <p>Here is how the Basic plan&apos;s five monthly treatments run through a Toronto season, May through September. Ravine-adjacent properties typically benefit from Standard&apos;s two-week spacing (10 sprays) instead.</p>
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -254,16 +258,18 @@ export default function TorontoMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p>Each treatment covers all vegetation on your property up to 10 feet high, with targeted coverage along ravine edges and fence lines. Protection lasts up to 30 days per visit. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for typical costs in the GTA.</p>
+          <p>Each treatment covers all vegetation on your property up to 10 feet high, with targeted coverage along ravine edges and fence lines. Visits repeat through the season because the residual wears down and new mosquitoes keep dispersing in from the ravines. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for typical costs in the GTA.</p>
 
           <h2>What's Included in Our Toronto Mosquito Treatment</h2>
           <ul>
             <li>Complete barrier spray of all vegetation and shrubs up to 10 feet high</li>
             <li>Targeted treatment of ravine-adjacent property edges and fence lines</li>
-            <li>Up to 30 days of residual protection per visit</li>
-            <li>Health Canada–approved formula — safe for kids and pets after 30 min</li>
-            <li>Free reapplication if mosquitoes return within the protection window</li>
+            <li>{PROMISES.labelLine}, by a licensed Ontario operator</li>
+            <li>Clear re-entry directions — stay off treated areas until the spray has dried</li>
+            <li>{PROMISES.rainBack} Standard &amp; Exclusive plans also carry the Bite-Free Guarantee.</li>
           </ul>
+
+          <CityPriceCard city={CITY} service="mosquito" />
 
           <h2>Mosquito Control Pricing in Toronto</h2>
           <p>BuzzSkito mosquito treatments in Toronto start from $99 per visit — no contracts, no pressure to commit to a full season.</p>
@@ -278,9 +284,9 @@ export default function TorontoMosquitoPage() {
               </thead>
               <tbody>
                 {[
-                  { type: 'Standard residential lot (under 6,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Toronto semi, townhome, or detached' },
-                  { type: 'Mid-size lot (6,000–10,000 sq ft)', price: 'Custom quote', coverage: 'Larger detached, ravine-backing, Rosedale/Forest Hill' },
-                  { type: 'Large / estate property (10,000+ sq ft)', price: 'Custom quote', coverage: 'Bridle Path, Lawrence Park, Hoggs Hollow' },
+                  { type: 'Standard residential lot (under 10,000 sq ft)', price: 'From $99/treatment', coverage: 'Typical Toronto semi, townhome, or detached' },
+                  { type: 'Larger lot (10,000–100,000 sq ft)', price: 'Priced by lot size', coverage: 'Larger detached, ravine-backing, Rosedale/Forest Hill' },
+                  { type: 'Estate property', price: 'Custom quote', coverage: 'Bridle Path, Lawrence Park, Hoggs Hollow' },
                 ].map(({ type, price, coverage }) => (
                   <tr key={type} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-2 font-semibold text-brand-800">{type}</td>
@@ -294,7 +300,7 @@ export default function TorontoMosquitoPage() {
           <p>See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">2026 mosquito control pricing guide</Link> for a full Ontario breakdown. Call <a href={BUSINESS.phoneHref} className="text-brand-700 font-semibold hover:underline">{BUSINESS.phone}</a> for a free quote.</p>
 
           <h3>Toronto Season-Long Mosquito Plans</h3>
-          <p>Most Toronto homeowners choose a season-long plan for hands-off, continuous May&ndash;September protection. All plans are billed per season, cover the standard lot size, and scale with larger lots &mdash; prices below are +HST:</p>
+          <p>Most Toronto homeowners choose a season-long plan for hands-off treatment from May&ndash;September. All plans are billed per season, cover the standard lot size, and scale with larger lots &mdash; prices below are +HST:</p>
           <div className="not-prose overflow-x-auto my-4">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -308,7 +314,7 @@ export default function TorontoMosquitoPage() {
                 {[
                   { plan: 'Basic Season', price: '$549', detail: '5 sprays, one every month, May through September' },
                   { plan: 'Standard Season — most popular', price: '$994', detail: '10 sprays, bi-weekly, full-season ravine coverage' },
-                  { plan: 'Exclusive Season', price: '$2,049', detail: '20+ sprays, weekly, maximum protection for high-pressure lots' },
+                  { plan: 'Exclusive Season', price: '$2,049', detail: '20+ sprays, weekly, for high-pressure lots' },
                 ].map(({ plan, price, detail }) => (
                   <tr key={plan} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-2 font-semibold text-brand-800">{plan}</td>
@@ -319,19 +325,19 @@ export default function TorontoMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p>Adding <strong>tick control</strong> to any mosquito plan is $497/season (5 tick-focused sprays) &mdash; $100 off the $597 standalone tick program. Every season plan includes the <strong>BuzzSkito Bite-Free Guarantee</strong>: if pests return inside the protection window, we re-treat free. <Link href="/free-yard-assessment" className="text-brand-700 hover:underline font-semibold">Get your free Toronto quote &rarr;</Link></p>
+          <p>Adding <strong>tick control</strong> to any mosquito plan is $497/season (5 tick-focused sprays) &mdash; $100 off the $597 standalone tick program. Standard and Exclusive plans include the <strong>BuzzSkito Bite-Free Guarantee</strong>: if mosquitoes come back between scheduled treatments, we re-treat free. Every plan carries the rain-back guarantee. <Link href="/free-yard-assessment" className="text-brand-700 hover:underline font-semibold">Get your free Toronto quote &rarr;</Link></p>
 
           <h2>Professional Mosquito Control vs. DIY in Toronto</h2>
           <p>Hardware stores sell mosquito foggers, citronella candles, and consumer sprays. Here&apos;s why they fall short for Toronto properties:</p>
           <ul>
-            <li><strong>Consumer foggers provide hours of relief, not 30 days.</strong> Professional barrier spray bonds to leaf surfaces and keeps working for weeks. A citronella candle and a barrier treatment are not comparable products.</li>
+            <li><strong>Consumer foggers provide hours of relief, not a season.</strong> Professional barrier spray leaves a residual on leaf surfaces, and it is renewed on a set schedule. A citronella candle and a barrier treatment are not comparable products.</li>
             <li><strong>Application technique matters more than product.</strong> Mosquitoes rest on leaf undersides, in shaded shrub interiors, and under deck joists. Backpack precision sprayers reach these surfaces — consumer foggers spray into open air, missing the actual resting sites.</li>
-            <li><strong>Toronto&apos;s mosquito sources are beyond your control.</strong> The Don Valley, Humber River, and Highland Creek will produce mosquitoes every season regardless of what you do on your property. Professional barrier spray creates a treated zone that stops them from settling after dispersing from the ravines.</li>
+            <li><strong>Toronto&apos;s mosquito sources are beyond your control.</strong> The Don Valley, Humber River, and Highland Creek will produce mosquitoes every season regardless of what you do on your property. Professional barrier spray creates a treated zone on the resting surfaces they use after dispersing from the ravines.</li>
             <li><strong>Larvicide tablets don&apos;t address the real problem.</strong> You can treat every puddle on your lot and still have severe mosquitoes because the dominant pressure comes from off-property ravine sources.</li>
           </ul>
 
           <h2 id="toronto-provider-comparison">Choosing the Right Mosquito Control Service in Toronto</h2>
-          <p>Several companies now offer mosquito control in Toronto. Here&apos;s an honest side-by-side of the providers serving the city, based on publicly listed pricing, Google review counts, and the Toronto coverage each one actually offers:</p>
+          <p>Several companies now offer mosquito control in Toronto. Here&apos;s an honest side-by-side of the providers serving the city, based on publicly available information and the Toronto coverage each one offers:</p>
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -346,9 +352,9 @@ export default function TorontoMosquitoPage() {
               <tbody>
                 {[
                   { company: 'BuzzSkito', price: 'From $99', reviews: '150+ (5.0★)', contracts: 'No contracts', area: 'All Toronto' },
-                  { company: 'Mosquito Man', price: 'Quote-based', reviews: '900+ (4.8★)', contracts: 'Seasonal', area: 'All Toronto' },
+                  { company: 'Mosquito Man', price: 'Quote-based', reviews: 'See Google', contracts: 'Seasonal', area: 'All Toronto' },
                   { company: 'Mosquito.Buzz', price: 'Quote-based', reviews: 'Varies', contracts: 'Seasonal', area: 'Franchise' },
-                  { company: 'LawnSavers', price: 'From $129', reviews: '500+ combined', contracts: 'Seasonal', area: 'Toronto' },
+                  { company: 'LawnSavers', price: 'Varies — check their site', reviews: 'See Google', contracts: 'Seasonal', area: 'Toronto' },
                 ].map(({ company, price, reviews, contracts, area }) => (
                   <tr key={company} className="border-b border-gray-200 even:bg-gray-50">
                     <td className="px-4 py-3 font-semibold text-brand-800">{company}</td>
@@ -361,27 +367,55 @@ export default function TorontoMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose mb-8">Pricing reflects publicly available rates. Estate lots — Bridle Path, Lawrence Park, Rosedale ravine frontage — price above the base rate at every provider.</p>
+          <p className="text-sm text-gray-500 not-prose mb-8">Other companies&apos; pricing and Google reviews change over time, so check each company&apos;s own site and Google listing. Estate lots — Bridle Path, Lawrence Park, Rosedale ravine frontage — price above the base rate at every provider.</p>
+
+          <h3>What to ask any mosquito control company in Toronto</h3>
+          <p>Toronto providers aren&apos;t structured the same way, so these five questions make any quote easy to compare. Here is how BuzzSkito answers them:</p>
+          <div className="not-prose overflow-x-auto my-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-800 text-white">
+                  <th className="px-4 py-3 text-left">Question to ask</th>
+                  <th className="px-4 py-3 text-left">BuzzSkito&apos;s answer</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Is the price shown before you book?', 'From $99 on a standard lot'],
+                  ['How many sprays per season?', '5, 10 or 20+ (tick: 5)'],
+                  ['What happens if it rains after a treatment?', PROMISES.rainBack],
+                  ['Is an Ontario pesticide operator licence number shown?', `Yes: ${BUSINESS.licenseNumber}`],
+                  ['Which plans include a guarantee?', 'Rain-back on every plan; Bite-Free on Standard & Exclusive'],
+                ].map(([q, a]) => (
+                  <tr key={q} className="border-b border-gray-200 even:bg-gray-50">
+                    <td className="px-4 py-3 font-semibold text-brand-800">{q}</td>
+                    <td className="px-4 py-3 text-gray-700">{a}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-500 not-prose mb-8">Prices are plus HST. Estate lots — Bridle Path, Lawrence Park, Rosedale ravine frontage — are quoted to the yard.</p>
 
           <h3>BuzzSkito — full Toronto coverage</h3>
-          <p>Mosquitoes and ticks are the only two pests we treat, and we cover every Toronto neighbourhood — the full list is in the neighbourhoods section above. Single treatments start at $99, with season plans and the tick add-on priced in the tables earlier on this page, all +HST with no hidden fees. We hold 150+ Google reviews at a 5.0 average with zero negative reviews, and every visit carries the Bite-Free Guarantee. No contracts, no cancellation fees, same-week service across the city.</p>
+          <p>Mosquitoes and ticks are the only two pests we treat, and we cover every Toronto neighbourhood — the full list is in the neighbourhoods section above. Single treatments start at $99, with season plans and the tick add-on priced in the tables earlier on this page, all +HST with no hidden fees. We hold 150+ Google reviews at a 5.0 average with zero negative reviews. Every plan carries the rain-back guarantee, and Standard &amp; Exclusive plans add the Bite-Free Guarantee. No contracts, no cancellation fees, same-week service across the city.</p>
 
           <h3>Mosquito Man — full Toronto coverage</h3>
-          <p>A long-running GTA mosquito control company with the largest review volume in the market at 900+. Seasonal programs run around $450 and per-treatment pricing isn&apos;t published; the model is a seasonal commitment with standard barrier spray. Established Toronto customer base. We break the differences down line by line in our <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito Man comparison</Link>.</p>
+          <p>A long-running GTA mosquito control company with a large review volume. Seasonal programs are offered (pricing varies — check their site) and per-treatment pricing isn&apos;t published; the model is a seasonal commitment with standard barrier spray. Established Toronto customer base. We break the differences down line by line in our <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito Man comparison</Link>.</p>
 
           <h3>Mosquito.Buzz — franchise coverage</h3>
-          <p>A national Canadian franchise, which means the crew servicing your Toronto property depends on which franchisee holds the territory. Pricing is quote-based with no published rates, review quality varies by franchisee, and a seasonal commitment is standard.</p>
+          <p>A national Canadian franchise, which means the crew servicing your Toronto property depends on which franchisee holds the territory. Pricing is quote-based (check their site), review quality varies by franchisee, and a seasonal commitment is standard.</p>
 
           <h3>LawnSavers — Toronto coverage, lawn care first</h3>
-          <p>A lawn care company that offers mosquito control as a program add-on, from $129 per treatment, with 500+ Google reviews across all of its services. The sensible pick if LawnSavers already maintains your lawn and you want the mosquito service on the same invoice.</p>
+          <p>A lawn care company that offers mosquito control as a program add-on (pricing varies — check their site), with Google reviews spanning all of its services. The sensible pick if LawnSavers already maintains your lawn and you want the mosquito service on the same invoice.</p>
 
           <h3>What to verify before booking anyone in Toronto</h3>
           <ul>
-            <li><strong>Health Canada–registered products.</strong> Any product applied must be registered under the Pest Control Products Act. BuzzSkito uses only registered, water-based formulas.</li>
-            <li><strong>Licensed applicators.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for commercial applications.</li>
-            <li><strong>Rain-back guarantee.</strong> Reputable companies re-treat if rain falls within the cure window. Standard at BuzzSkito.</li>
+            <li><strong>Label-directed application.</strong> Ask which product will be used. A professional should name it and apply it according to its label directions.</li>
+            <li><strong>Licensed applicators.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for commercial applications. BuzzSkito&apos;s is {PROMISES.licence}.</li>
+            <li><strong>Rain-back guarantee.</strong> Reputable companies re-treat if it rains within 1 hour of a treatment. At BuzzSkito it comes with every plan.</li>
             <li><strong>No long-term contracts.</strong> Book a single treatment and evaluate results before committing to a season.</li>
-            <li><strong>Ravine-property experience.</strong> Don Valley, Humber, and Eastern Ravine lots are high-pressure zones — a company that understands Toronto&apos;s ravine corridors treats them far more effectively than a generic operator.</li>
+            <li><strong>Ravine-property experience.</strong> Don Valley, Humber, and Eastern Ravine lots are high-pressure zones — ask whether the company knows Toronto&apos;s ravine corridors and where on the lot it will focus.</li>
             <li><strong>Tick coverage from the same provider.</strong> Toronto has confirmed Lyme-vector ravines, and bundling tick control into your mosquito plan costs less than hiring a second company for it.</li>
             <li><strong>Estate-lot pricing tier.</strong> On a large Bridle Path, Lawrence Park, or Rosedale lot, confirm which pricing tier applies before the first visit.</li>
             <li><strong>Transparent pricing.</strong> BuzzSkito publishes pricing and quotes over the phone — no mandatory &quot;assessment visit&quot; required first.</li>
@@ -389,11 +423,11 @@ export default function TorontoMosquitoPage() {
 
           <h2>What to Expect on Your BuzzSkito Treatment Day</h2>
           <ol>
-            <li><strong>SMS notification before arrival</strong> — You&apos;ll receive a text when your technician is on the way. You don&apos;t need to be home.</li>
+            <li><strong>Visit window</strong> — {PROMISES.visitWindow} You don&apos;t need to be home.</li>
             <li><strong>Property walkthrough</strong> — On the first visit, your technician assesses ravine exposure, vegetation density, and property-specific risk factors.</li>
             <li><strong>Full barrier application</strong> — Systematic treatment of all vegetation: shrubs, garden beds, leaf undersides, fence lines, deck undersides, woodpiles. A typical Toronto lot takes 25–40 minutes.</li>
             <li><strong>Lawn sign placement</strong> — Confirms the treatment date and product used.</li>
-            <li><strong>30-minute dry time</strong> — Keep children and pets off treated surfaces while the product cures.</li>
+            <li><strong>Dry time</strong> — Keep children and pets off treated areas until the spray has dried, as the product label directs.</li>
             <li><strong>Follow-up email confirmation</strong> — Treatment log with areas treated, product applied, and your next visit date.</li>
           </ol>
 
@@ -403,10 +437,12 @@ export default function TorontoMosquitoPage() {
           <h2>Also Providing Tick Control in Toronto</h2>
           <p>Toronto's ravine system also harbours blacklegged ticks, which carry Lyme disease. Ask about our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">Toronto tick control service</Link>.</p>
 
+          <CityPriceCard city={CITY} service="mosquito" location="price_card_mid" />
+
           <h2>Everything Toronto Homeowners Ask About Mosquito Control</h2>
 
           <h3>How does the Don Valley affect mosquitoes in my Toronto yard?</h3>
-          <p>The Don Valley is one of the largest continuous mosquito breeding sources in Toronto. Standing water in valley wetlands, slow-moving stream sections, and post-storm pools produce mosquitoes that disperse up to 3 km from emergence sites. Properties in Rosedale, Forest Hill, Leaside, East York, Don Mills, and along Bayview from Lawrence to Eglinton all sit inside that dispersal radius. Even properties 2–3 streets away from a ravine entry point experience consistent pressure throughout June, July, and August. Professional barrier spray creates a treated zone on your specific property — it doesn&apos;t fix the ravine source, but it stops mosquitoes from settling once they arrive.</p>
+          <p>The Don Valley is one of the largest continuous mosquito breeding sources in Toronto. Standing water in valley wetlands, slow-moving stream sections, and post-storm pools produce mosquitoes that disperse up to 3 km from emergence sites. Properties in Rosedale, Forest Hill, Leaside, East York, Don Mills, and along Bayview from Lawrence to Eglinton all sit inside that dispersal radius. Even properties 2–3 streets away from a ravine entry point experience consistent pressure throughout June, July, and August. Professional barrier spray creates a treated zone on your specific property — it doesn&apos;t fix the ravine source, but it treats the resting surfaces mosquitoes use once they arrive.</p>
 
           <h3>Do mosquitoes carry West Nile virus in Toronto?</h3>
           <p>Yes. Toronto Public Health monitors mosquito populations and confirms <em>Culex pipiens</em> and <em>Culex restuans</em> — the primary West Nile vectors in Ontario — across the city every season. Toronto Public Health also conducts targeted larviciding of catch basins, but the city does not treat private properties or residential yards. West Nile risk peaks in late July through early September. Most infections are asymptomatic, but neuroinvasive cases are serious. Limiting mosquito exposure on your property, especially during dawn and dusk, is the most effective personal-level prevention.</p>
@@ -415,34 +451,34 @@ export default function TorontoMosquitoPage() {
           <p>Most Toronto mosquito species are crepuscular — meaning they peak at dusk (about 30 minutes before sunset until 90 minutes after) and again at dawn. Daytime activity occurs in shaded ravine-adjacent areas, dense shrubs, and tree canopy zones throughout the day. Hot, humid evenings in July and August produce the highest activity. Wind speeds above ~10 km/h significantly reduce flight, which is why open lakefront properties in The Beaches sometimes see fewer mosquitoes than sheltered ravine-adjacent yards just a few kilometres away.</p>
 
           <h3>Can BuzzSkito treat my Toronto backyard before a wedding or party?</h3>
-          <p>Yes — pre-event treatment is a common reason Toronto customers call. We recommend booking the spray <strong>2–4 days before</strong> your event. The barrier needs roughly 30 minutes to dry, then becomes fully active over the next 24 hours and continues working for up to 30 days. For backyard weddings, graduations, or large gatherings in Rosedale, Forest Hill, The Beaches, and ravine-adjacent properties, this timing window provides peak protection on the event day itself. See our <Link href="/wedding-mosquito-control" className="text-brand-700 hover:underline">wedding mosquito control service</Link>.</p>
+          <p>Yes — pre-event treatment is a common reason Toronto customers call. We recommend booking the spray <strong>2–4 days before</strong> your event. Stay off treated areas until the spray has dried, as the product label directs. For backyard weddings, graduations, or large gatherings in Rosedale, Forest Hill, The Beaches, and ravine-adjacent properties, this timing lets the spray dry well before guests arrive and leaves room to re-treat if rain falls within an hour of the visit. See our <Link href="/wedding-mosquito-control" className="text-brand-700 hover:underline">wedding mosquito control service</Link>.</p>
 
-          <h3>How long after a Toronto barrier spray is the yard safe for kids and pets?</h3>
-          <p>Approximately <strong>30 minutes</strong>. The Health Canada-approved water-based formulation we use cures within that window. Once dry, the active ingredient bonds to leaf surfaces (where mosquitoes rest) — not to grass blades, soil, or play surfaces at ground level. Children, dogs, cats, and rabbits can use the yard normally after the dry time. We observe buffer zones around vegetable gardens, sandboxes, and pet feeding areas, and we can adjust application zones if you have specific safety concerns.</p>
+          <h3>How long after a Toronto barrier spray should kids and pets stay off the yard?</h3>
+          <p>Keep children and pets off treated areas <strong>until the spray has dried</strong>, as the product label directs; drying time depends on the weather. Our licensed technician applies the product according to its label directions, to leaf surfaces where mosquitoes rest, rather than broadcasting it over grass, soil, or play surfaces at ground level. We observe buffer zones around vegetable gardens, sandboxes, and pet feeding areas, and we can adjust application zones if you have specific concerns.</p>
 
           <h3>Why are mosquitoes worse in some Toronto neighbourhoods than others?</h3>
           <p>Three factors drive neighbourhood-level variation: (1) <strong>ravine adjacency</strong> — Rosedale, Forest Hill, Leaside, East York, and Etobicoke ravine-edge properties experience the most pressure; (2) <strong>tree canopy density</strong> — mature canopy creates ideal daytime resting habitat, which is why Lawrence Park, Bridle Path, and Hoggs Hollow see strong activity; and (3) <strong>standing water within 3 km</strong> — even non-ravine areas like parts of Scarborough and North Etobicoke have local mosquito pressure if there are unmanaged stormwater ponds, abandoned pools, or wetland fragments nearby.</p>
 
           <h3>Does Toronto Public Health spray for mosquitoes?</h3>
-          <p>No — not on residential properties. Toronto Public Health performs targeted <em>larviciding</em> (treating standing water in storm sewers and catch basins) to reduce West Nile risk, but it does not treat private yards, gardens, or backyards. They also do not perform the kind of barrier spray BuzzSkito provides for adult mosquito knockdown and 30-day residual protection. Yard-level mosquito control is the homeowner&apos;s responsibility.</p>
+          <p>No — not on residential properties. Toronto Public Health performs targeted <em>larviciding</em> (treating standing water in storm sewers and catch basins) to reduce West Nile risk, but it does not treat private yards, gardens, or backyards. They also do not perform the kind of barrier spray BuzzSkito provides, which treats the resting surfaces adult mosquitoes use in your yard. Yard-level mosquito control is the homeowner&apos;s responsibility.</p>
 
           <h3>When does mosquito season actually start in Toronto each year?</h3>
           <p>Toronto mosquitoes begin emerging when daytime temperatures consistently exceed about 10°C — typically in <strong>late April or early May</strong>. By mid-May, all major species are active. Peak activity hits between late May and early August, with a secondary surge in late August through September depending on rainfall. We recommend the first treatment in mid-May to establish the barrier <em>before</em> populations build to peak. See our <Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 hover:underline">complete GTA mosquito season guide</Link>.</p>
 
           <h3>Can mosquitoes breed in my Toronto rain barrel?</h3>
-          <p>Yes — and rain barrels are one of the most common backyard breeding sites in Toronto. A single rain barrel can produce thousands of mosquitoes per week if uncovered. Solutions: keep a tight-fitting screen on the barrel inlet, use BTI-based mosquito dunks (sold at Canadian Tire and Home Depot — completely safe for pets, fish, and humans), and empty the barrel every 5–7 days during peak season. We cover BTI dunks in detail in our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 hover:underline">mosquito dunks Canada guide</Link>.</p>
+          <p>Yes — and rain barrels are one of the most common backyard breeding sites in Toronto. A single rain barrel can produce thousands of mosquitoes per week if uncovered. Solutions: keep a tight-fitting screen on the barrel inlet, use BTI-based mosquito dunks (sold at Canadian Tire and Home Depot; follow the package label directions), and empty the barrel every 5–7 days during peak season. We cover BTI dunks in detail in our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 hover:underline">mosquito dunks Canada guide</Link>.</p>
 
           <h3>What is the most common mosquito species in Toronto?</h3>
-          <p><em>Aedes vexans</em> (inland floodwater mosquito) and <em>Culex pipiens</em> (northern house mosquito) dominate Toronto. <em>Aedes</em> species are the aggressive daytime biters you encounter near ravines and wooded areas. <em>Culex</em> species are the dusk-active species that carry West Nile virus and breed in stagnant water. <em>Anopheles punctipennis</em> is also present but uncommon. BuzzSkito&apos;s barrier spray is effective against all mosquito species rather than targeting one — the formula works on contact and persists on resting surfaces regardless of species.</p>
+          <p><em>Aedes vexans</em> (inland floodwater mosquito) and <em>Culex pipiens</em> (northern house mosquito) dominate Toronto. <em>Aedes</em> species are the aggressive daytime biters you encounter near ravines and wooded areas. <em>Culex</em> species are the dusk-active species that carry West Nile virus and breed in stagnant water. <em>Anopheles punctipennis</em> is also present but uncommon. BuzzSkito&apos;s barrier spray is not species-specific — it is applied to the resting surfaces all of these species use.</p>
 
           <h3>Will rain wash off the Toronto mosquito treatment?</h3>
-          <p>Once the spray dries (about 30 minutes), the active ingredient bonds to leaf surfaces and becomes rain-resistant. Light rain has minimal effect; heavy storms can reduce residual life slightly. If significant rainfall occurs <strong>within one hour</strong> of application — before the product cures — we return and re-treat at no charge. This is part of the <strong>BuzzSkito Bite-Free Guarantee</strong>. After the cure window, expect the standard 30-day protection regardless of typical Ontario weather patterns.</p>
+          <p>Once the spray has dried on leaf surfaces, it holds up better to rain, though heavy storms can shorten how long the residual lasts. If rain falls <strong>within one hour</strong> of application — before the product has dried — we return and re-treat at no charge. That is our <strong>rain-back guarantee</strong>, and it comes with every plan. Standard &amp; Exclusive plans also carry the BuzzSkito Bite-Free Guarantee.</p>
 
           <h3>Does mosquito spray kill bees and pollinators in my Toronto garden?</h3>
-          <p>The product is applied to mosquito resting surfaces — undersides of leaves and shrub interiors — <em>not</em> to flower blooms. We avoid direct application to actively flowering plants and observe buffer zones around vegetable gardens. Once dried, the residual is bound to leaf surfaces where bees do not typically forage; bees collect nectar and pollen from open blooms. Toronto&apos;s urban beekeeper community routinely works alongside professional barrier spray applications without issue. We can adjust application zones if you maintain a beehive or have specific pollinator concerns.</p>
+          <p>The product is applied to mosquito resting surfaces — undersides of leaves and shrub interiors — <em>not</em> to flower blooms. We avoid direct application to actively flowering plants and observe buffer zones around vegetable gardens. Once dried, the residual is bound to leaf surfaces where bees do not typically forage; bees collect nectar and pollen from open blooms. We can adjust application zones if you maintain a beehive or have specific pollinator concerns.</p>
 
           <h3>How much does mosquito control cost in Toronto for a typical property?</h3>
-          <p>For a standard Toronto residential lot under 6,000 sq ft (typical semi, townhome, or detached): <strong>from $99 per single treatment</strong>. Seasonal programs run May through September — full program details available on quote. Larger Rosedale, Forest Hill, Bridle Path, and Lawrence Park estates require a custom quote based on coverage area. There are no contract requirements — book a single treatment and decide whether to continue based on results. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">complete Ontario pricing guide</Link>.</p>
+          <p>For a standard Toronto residential lot under 10,000 sq ft (typical semi, townhome, or detached): <strong>from $99 per single treatment</strong>, plus HST. Season plans run May through September, from $549 for the Basic Season. Larger Rosedale, Forest Hill, Bridle Path, and Lawrence Park lots are priced by lot size (10,000–100,000 sq ft), and estates beyond that get a custom quote. There are no contract requirements — book a single treatment and decide whether to continue based on results. See our <Link href="/mosquito-control-cost" className="text-brand-700 hover:underline">complete Ontario pricing guide</Link>.</p>
 
           <h3>Do Toronto condo balconies need mosquito treatment?</h3>
           <p>Generally no — high-rise condo balconies above the 5th floor experience minimal mosquito pressure because most species fly below that altitude. Low-rise condos and townhouse decks at ground level can benefit from barrier treatment of railings, planters, and adjacent vegetation. We treat townhome and street-level condo properties across Toronto. For high-floor condos, fans and tight-fitting balcony screens are usually sufficient.</p>
@@ -454,13 +490,13 @@ export default function TorontoMosquitoPage() {
           <p>Toronto sits in USDA zone 6a/6b. Plants with documented mosquito-repellent compounds that grow well here: <strong>citronella geranium</strong> (annual), <strong>lemon balm</strong> (perennial), <strong>basil</strong> (annual), <strong>catnip</strong> (perennial — strong repellent compound nepetalactone), <strong>lavender</strong> (perennial), <strong>marigolds</strong> (annual), and <strong>rosemary</strong> (overwinter indoors). Plants alone reduce mosquito pressure modestly — combining them with professional barrier spray produces the best results.</p>
 
           <h3>Does mosquito spray work against ticks in Toronto too?</h3>
-          <p>The same Health Canada-approved formula is effective against blacklegged ticks on contact, but tick control requires <em>different application zones</em>. Mosquitoes rest on leaf undersides at 3–10 ft height; ticks live in the 1–3 ft transition zone where lawn meets woods, garden bed edges, and leaf litter. We offer separate <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">Toronto tick treatment</Link> with the application technique optimized for tick habitat. Many Toronto homeowners bundle both services for complete yard protection.</p>
+          <p>Tick control is a different application with <em>different application zones</em>. Mosquitoes rest on leaf undersides at 3–10 ft height; ticks live in the 1–3 ft transition zone where lawn meets woods, garden bed edges, and leaf litter. We offer separate <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">Toronto tick treatment</Link> with the application technique optimized for tick habitat, 5 sprays per season. Many Toronto homeowners bundle both services so both pests are covered.</p>
 
           <h3>Are there mosquitoes in Toronto in October?</h3>
-          <p>Yes, but at significantly reduced numbers. Late-season mosquitoes (mostly <em>Culex pipiens</em> females looking to overwinter) remain active through the first hard frost — typically mid-to-late October in Toronto. October mosquitoes carry the highest West Nile virus prevalence of the season because the virus has had all summer to amplify in bird populations. A late-September treatment provides protection through the rest of the active period.</p>
+          <p>Yes, but at significantly reduced numbers. Late-season mosquitoes (mostly <em>Culex pipiens</em> females looking to overwinter) remain active through the first hard frost — typically mid-to-late October in Toronto. October mosquitoes carry the highest West Nile virus prevalence of the season because the virus has had all summer to amplify in bird populations. A late-September treatment is the last scheduled visit of the season and covers the tail end of the active period.</p>
 
           <h3>Why do some Toronto homeowners say spraying doesn&apos;t work?</h3>
-          <p>Three common reasons: (1) <strong>poor application technique</strong> — spraying open air rather than treating leaf undersides and shrub interiors where mosquitoes rest; (2) <strong>insufficient coverage area</strong> — treating only the deck or patio while leaving fence-line vegetation untreated; (3) <strong>unrealistic expectations</strong> — barrier spray knocks down the mosquitoes resting on the treated vegetation and holds a residual there for a few weeks; it does not eliminate every single mosquito, because new ones disperse in from surrounding properties and ravines. Our 5-treatment seasonal schedule maintains the barrier through the entire season, which is when most homeowners see the dramatic difference.</p>
+          <p>Three common reasons: (1) <strong>poor application technique</strong> — spraying open air rather than treating leaf undersides and shrub interiors where mosquitoes rest; (2) <strong>insufficient coverage area</strong> — treating only the deck or patio while leaving fence-line vegetation untreated; (3) <strong>unrealistic expectations</strong> — barrier spray knocks down the mosquitoes resting on the treated vegetation and holds a residual there for a few weeks; it does not eliminate every single mosquito, because new ones disperse in from surrounding properties and ravines. That is why our seasonal schedule repeats the treatment through the season rather than relying on a single visit.</p>
 
           <h3>Can I cancel or change my BuzzSkito Toronto service anytime?</h3>
           <p>Yes — there are no contracts and no cancellation fees. You can book a single treatment, a partial-season program, or a full-season package, and you can pause, change, or cancel between treatments at any time. We bill per visit, not upfront. This is one of the things Toronto homeowners most often mention in their reviews — most competitors require seasonal contracts with cancellation penalties.</p>
@@ -508,6 +544,10 @@ export default function TorontoMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="mosquito" location="price_card_faq" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

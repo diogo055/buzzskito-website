@@ -65,7 +65,7 @@ export default function PreventMosquitoesPage() {
               <li>BTI mosquito dunks are safe for fish, pets, and humans, and one dunk treats up to 100 sq ft of water for 30 days.</li>
               <li>Mosquitoes can fly up to 3 km, so prevention on your own lot never reaches the ones bred elsewhere &mdash; treating resting vegetation is what covers those arrivals.</li>
               <li>Mosquitoes are weak fliers that struggle above about 1 m/s of wind, so a patio fan keeps them off a seating area.</li>
-              <li>A single professional barrier spray costs from $99 and gives up to 30 days of residual protection.</li>
+              <li>A single professional barrier spray costs from $99 and leaves a residual on the leaves where mosquitoes rest; seasonal plans renew it every 2 weeks (Standard) or monthly (Basic).</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
@@ -89,7 +89,7 @@ export default function PreventMosquitoesPage() {
                   ['GTA mosquito season', 'Mid-May through September; peak late May–July'],
                   ['Prevention alone', 'Stops what breeds on your lot; does nothing about adults arriving from elsewhere'],
                   ['Prevention + barrier spray', 'Covers both locally bred and incoming mosquitoes'],
-                  ['Single barrier spray', 'From $99 · up to 30-day residual protection'],
+                  ['Single barrier spray', 'From $99 on a standard lot under 10,000 sq ft'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2.5 font-semibold text-brand-900 bg-gray-50 w-1/3">{k}</td>
@@ -106,13 +106,13 @@ export default function PreventMosquitoesPage() {
         <AuthorByline datePublished={POST.date} />
 
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 mb-8">
-          Prevention reduces breeding. Treatment eliminates adults. Together, they give you the most mosquito-free yard possible. This guide covers both. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Mosquito Control Guide</Link>.
+          Prevention reduces breeding. Treatment reduces the adults resting in your yard. Together, they give you the most mosquito-free yard possible. This guide covers both. Part of our <Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Mosquito Control Guide</Link>.
         </p>
 
         <AffiliateDisclosure />
 
         <h2>The Two-Part Strategy: Prevention + Treatment</h2>
-        <p>Mosquito prevention and mosquito treatment are not competing approaches — they're complementary. Eliminating breeding sites (prevention) reduces how many mosquitoes can be produced on your property. Professional barrier spray (treatment) eliminates the adult mosquitoes that arrive from your property and neighbouring areas. Together, they deliver dramatically better results than either alone.</p>
+        <p>Mosquito prevention and mosquito treatment are not competing approaches — they're complementary. Eliminating breeding sites (prevention) reduces how many mosquitoes can be produced on your property. Professional barrier spray (treatment) reduces the adult mosquitoes resting in your yard, including those that arrive from neighbouring areas. Together, they deliver dramatically better results than either alone.</p>
         <p>Knowing what not to do matters just as much. Spraying the open lawn instead of the shaded leaf undersides where mosquitoes actually rest, or cancelling treatments after one cold week in August, quietly undoes good prevention work — we round those up in <Link href="/blog/mosquito-mistakes-ontario-homeowners-make" className="text-brand-700 hover:underline">12 mosquito mistakes Ontario homeowners make every summer</Link>.</p>
 
         <h2>12 Ways to Prevent Mosquitoes in Your Ontario Backyard</h2>
@@ -162,7 +162,7 @@ export default function PreventMosquitoesPage() {
         <p className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check Thermacell price on Amazon.ca →</BuyLink></p>
 
         <h3>12. Schedule Professional Barrier Spray</h3>
-        <p>The most impactful single step: professional barrier spray by <Link href="/mosquito-control" className="text-brand-700 hover:underline">BuzzSkito</Link> eliminates adult mosquitoes throughout your yard and provides up to 30 days of ongoing protection. Combine with the prevention steps above for the most effective mosquito-free backyard possible.</p>
+        <p>The most impactful single step: professional barrier spray by <Link href="/mosquito-control" className="text-brand-700 hover:underline">BuzzSkito</Link> reduces the adult mosquitoes resting in your yard. The residual it leaves on that foliage is renewed on your plan&apos;s schedule (every 2 weeks on Standard, monthly on Basic), and every plan comes with a rain-back guarantee. Combine with the prevention steps above for the most effective mosquito-free backyard possible.</p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">

@@ -10,6 +10,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const UPDATED = '2026-06-04'
 
@@ -27,7 +28,7 @@ const FAQS = [
   },
   {
     question: 'When does tick season start in Burlington?',
-    answer: 'Tick season in Burlington now starts in mid-to-late March and runs through November. Blacklegged ticks reactivate any day temperatures hold above 4°C, and Burlington\'s position at the western tip of Lake Ontario combined with the south-facing escarpment slope produces some of the earliest tick activity in the GTA. Halton Region surveillance has documented active adult ticks on Mountainside trails by the second week of March in recent years. The dangerous nymph peak runs late May through mid-July, and a second adult peak runs mid-September through October. Because a professional barrier application holds about 30 days of residual, covering that full span takes five treatments spaced roughly monthly from May through September rather than a spring-and-fall pair — that is how BuzzSkito builds a Burlington tick season.',
+    answer: 'Tick season in Burlington now starts in mid-to-late March and runs through November. Blacklegged ticks reactivate any day temperatures hold above 4°C, and Burlington\'s position at the western tip of Lake Ontario combined with the south-facing escarpment slope produces some of the earliest tick activity in the GTA. Halton Region surveillance has documented active adult ticks on Mountainside trails by the second week of March in recent years. The dangerous nymph peak runs late May through mid-July, and a second adult peak runs mid-September through October. Because a professional barrier application leaves a temporary residual that wears down within weeks, covering that full span takes five treatments spaced roughly monthly from May through September rather than a spring-and-fall pair — that is how BuzzSkito builds a Burlington tick season.',
   },
   {
     question: 'Is Royal Botanical Gardens a tick risk area?',
@@ -39,7 +40,7 @@ const FAQS = [
   },
   {
     question: 'When should I treat my Burlington yard for ticks?',
-    answer: 'The most effective single-treatment timing for a Burlington yard is the second or third week of May, which targets the leading edge of the nymph peak before transmission risk climbs. Full-season coverage is a different job: BuzzSkito\'s tick season plan is five treatments, spread roughly monthly from May through September. Residual protection from a Health Canada-approved barrier spray runs about 30 days, which is exactly why the visits are monthly — a spring-plus-fall pair would leave a multi-month hole straight through the late-May-to-July nymph peak, and nymphs drive most Lyme transmission because they are the size of a poppy seed and easily missed. Deer, mice, and birds also keep walking fresh ticks in from the escarpment, RBG, and every wooded ravine, so the barrier has to be renewed through the season rather than applied once or twice. That renewal matters most on high-risk properties — anything backing onto the escarpment, RBG, a conservation area, or a wooded ravine. Single treatments are still valuable if you have an event coming up, but one application in June does not cover August or September pressure.',
+    answer: 'The most effective single-treatment timing for a Burlington yard is the second or third week of May, which targets the leading edge of the nymph peak before transmission risk climbs. Full-season coverage is a different job: BuzzSkito\'s tick season plan is five treatments, spread roughly monthly from May through September. A barrier spray\'s residual is temporary and wears down within weeks, which is exactly why the visits are monthly — a spring-plus-fall pair would leave a multi-month hole straight through the late-May-to-July nymph peak, and nymphs drive most Lyme transmission because they are the size of a poppy seed and easily missed. Deer, mice, and birds also keep walking fresh ticks in from the escarpment, RBG, and every wooded ravine, so the barrier has to be renewed through the season rather than applied once or twice. That renewal matters most on high-risk properties — anything backing onto the escarpment, RBG, a conservation area, or a wooded ravine. Single treatments are still valuable if you have an event coming up, but one application in June does not cover August or September pressure.',
   },
 ]
 
@@ -89,7 +90,7 @@ export default function TickSeasonBurlingtonPage() {
             <li>Halton surveillance has recorded active adult ticks on Mt. Nemo and Mountainside trails by the second week of March.</li>
             <li>The late-May-to-July nymph peak is the highest human-risk window; poppy-seed-sized nymphs carry Borrelia burgdorferi at the same rate as adults.</li>
             <li>Aldershot, Mountainside, Tyandaga, Millcroft, and any escarpment-edge property are Burlington&rsquo;s highest-pressure zones in 2026.</li>
-            <li>A Health Canada-approved barrier spray lasts about 30 days, so BuzzSkito&rsquo;s tick season is five treatments spaced roughly monthly from May through September &mdash; monthly renewal is what removes the gap.</li>
+            <li>A barrier spray&rsquo;s residual wears down within weeks, so BuzzSkito&rsquo;s tick season is five treatments spaced roughly monthly from May through September &mdash; monthly renewal is what removes the gap.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
@@ -154,7 +155,7 @@ export default function TickSeasonBurlingtonPage() {
         <p>Lower-pressure pockets exist — the central downtown strip near the pier, the lakefront condo blocks south of Lakeshore, and the older central residential blocks between Brant and Guelph Line without ravine adjacency. But again, lower pressure is not no pressure. Halton Region surveillance has produced positive samples from areas that no one would have flagged five years ago.</p>
 
         <h2>What Halton Region Public Health recommends</h2>
-        <p>Halton Region Public Health publishes a standard prevention checklist: wear long sleeves and tucked-in pants when hiking, use Health Canada-approved repellents containing DEET or icaridin, check yourself, your kids, and your pets after every outdoor exposure, and remove attached ticks promptly with fine-tipped tweezers. They emphasize the 24-36 hour rule — Lyme transmission typically requires sustained tick attachment, which is why daily checks matter.</p>
+        <p>Halton Region Public Health publishes a standard prevention checklist: wear long sleeves and tucked-in pants when hiking, use repellents containing DEET or icaridin (look for the PCP registration number on the label), check yourself, your kids, and your pets after every outdoor exposure, and remove attached ticks promptly with fine-tipped tweezers. They emphasize the 24-36 hour rule — Lyme transmission typically requires sustained tick attachment, which is why daily checks matter.</p>
         <AffiliateDisclosure />
         <div className="not-prose my-4">
           <BuyLink tag={AMZ_TAG} search="icaridin insect repellent canada">Check icaridin insect repellent on Amazon.ca →</BuyLink>
@@ -164,11 +165,11 @@ export default function TickSeasonBurlingtonPage() {
 
         <h2>The 2026 Burlington protection plan</h2>
         <ol>
-          <li><strong>Five professional barrier sprays, roughly monthly from May through September.</strong> The first goes down in early-to-mid May to catch the leading edge of the nymph peak, and the last carries into the September-October adult peak. Applied along the back fence line, garden bed edges, leaf-litter zones, woodpiles, and any lawn-to-forest transition. Health Canada-approved formula, residual protection up to 30 days &mdash; which is precisely why the visits land about a month apart. See <Link href="/burlington-tick-spray" className="text-brand-700 underline">Burlington tick spray pricing</Link>.</li>
+          <li><strong>Five professional barrier sprays, roughly monthly from May through September.</strong> The first goes down in early-to-mid May to catch the leading edge of the nymph peak, and the last carries into the September-October adult peak. Applied along the back fence line, garden bed edges, leaf-litter zones, woodpiles, and any lawn-to-forest transition. Products applied according to label directions, with a temporary residual &mdash; which is precisely why the visits land about a month apart. See <Link href="/burlington-tick-spray" className="text-brand-700 underline">Burlington tick spray pricing</Link>.</li>
           <li><strong>Why five and not one or two.</strong> A spring-plus-fall pair leaves a multi-month hole straight across the late-May-to-July nymph peak &mdash; the exact window when poppy-seed-sized nymphs drive most Lyme transmission. Burlington&rsquo;s deer, mice, and birds also keep reintroducing ticks from the escarpment, RBG, and the creek ravines all season, so the barrier has to be renewed rather than applied once and forgotten.</li>
           <li><strong>Habitat modification along forest, escarpment, and ravine edges.</strong> 3-foot wood-chip or gravel buffer, weekly leaf-litter clearing through May-July, mow tight.</li>
           <li><strong>Daily tick checks for the household and pets.</strong> Especially after RBG, Mt. Nemo, Mountainside trails, conservation area hikes, and off-leash dog parks.</li>
-          <li><strong>Permethrin-treated clothing for escarpment hikers.</strong> 0.5% permethrin on hiking pants, socks, and shoes. One treatment lasts 6 weeks or 6 washes.</li>
+          <li><strong>Permethrin-treated clothing for escarpment hikers.</strong> Buy garments that come factory-treated, such as gaiters, socks, and hiking pants &mdash; in Canada, consumer permethrin sprays for treating your own clothing are not registered.</li>
           <li><strong>Year-round veterinary tick prevention for dogs.</strong> Burlington vets are reporting climbing canine Lyme cases. Talk to your vet.</li>
         </ol>
         <div className="not-prose my-4">
@@ -186,7 +187,7 @@ export default function TickSeasonBurlingtonPage() {
         />
 
         <h2>Same-week Burlington service</h2>
-        <p>BuzzSkito treats every Burlington neighbourhood with same-week service availability through the May-October core season. Pricing scales by lot size, quote sent within 24 hours, no on-site visit required for the estimate. See dedicated pages for <Link href="/burlington-mosquito-spray" className="text-brand-700 underline">Burlington mosquito spray</Link>, <Link href="/aldershot-mosquito-control" className="text-brand-700 underline">Aldershot</Link>, <Link href="/millcroft-mosquito-control" className="text-brand-700 underline">Millcroft</Link>, <Link href="/tyandaga-mosquito-control" className="text-brand-700 underline">Tyandaga</Link>, and <Link href="/alton-village-mosquito-control" className="text-brand-700 underline">Alton Village</Link>.</p>
+        <p>BuzzSkito treats every Burlington neighbourhood with same-week service availability through the May–September season. Pricing scales by lot size. {PROMISES.response} See dedicated pages for <Link href="/burlington-mosquito-spray" className="text-brand-700 underline">Burlington mosquito spray</Link>, <Link href="/aldershot-mosquito-control" className="text-brand-700 underline">Aldershot</Link>, <Link href="/millcroft-mosquito-control" className="text-brand-700 underline">Millcroft</Link>, <Link href="/tyandaga-mosquito-control" className="text-brand-700 underline">Tyandaga</Link>, and <Link href="/alton-village-mosquito-control" className="text-brand-700 underline">Alton Village</Link>.</p>
 
         <h2>Related guides</h2>
         <ul>
@@ -212,7 +213,7 @@ export default function TickSeasonBurlingtonPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="InsectGuard Permethrin-Treated Gaiters" search="insectguard permethrin gaiters" label="For Burlington trails" />
 
-      <CTASection heading="Burlington sits on two tick reservoirs — get your yard protected" subtext="Free custom quote based on your address and lot. Sent within 24 hours. Same-week service across Burlington including Aldershot, Millcroft, Tyandaga, Roseland, and Alton Village." />
+      <CTASection heading="Burlington sits on two tick reservoirs — get your yard protected" subtext={`Free custom quote based on your address and lot. ${PROMISES.response} Same-week service across Burlington including Aldershot, Millcroft, Tyandaga, Roseland, and Alton Village.`} />
     </>
   )
 }

@@ -8,7 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { TICK_BLOGS } from '@/lib/constants'
+import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = TICK_BLOGS.supporting[0]
@@ -45,7 +45,7 @@ const FAQS = [
   },
   {
     question: 'Does professional tick spray actually reduce Lyme disease risk?',
-    answer: 'Yes. Professional barrier spray applied to your yard\'s tick habitats — leaf litter, garden edges, shaded grass, wood borders — kills blacklegged ticks on contact and leaves a residual on those surfaces for up to 30 days. The point of applying it to leaf litter and shaded borders rather than the open lawn is that this is where ticks actually quest. It reduces how many ticks are sitting in those zones — it does not clear the property, and wildlife carries new ticks in all season, which is why applications are repeated.',
+    answer: 'It can lower your exposure at home, with limits. Professional barrier spray applied to your yard\'s tick habitats — leaf litter, garden edges, shaded grass, wood borders — kills blacklegged ticks on contact and leaves a residual on those surfaces that wears down with time and rain. The point of applying it to leaf litter and shaded borders rather than the open lawn is that this is where ticks actually quest. It reduces how many ticks are sitting in those zones — it does not clear the property, and wildlife carries new ticks in all season, which is why applications are repeated.',
   },
   {
     question: 'What should I do if I find a tick on myself or my child?',
@@ -94,7 +94,7 @@ export default function LymeDiseasePage() {
             <li>Early symptoms appear 3–30 days after the bite; the bull&rsquo;s-eye rash shows in only about 70–80% of cases.</li>
             <li>Nymph-stage ticks cause most human Lyme cases and are only about the size of a poppy seed.</li>
             <li>Peak nymph activity in Ontario runs May through July, overlapping garden season and dog walking.</li>
-            <li>Professional barrier spray provides up to 30 days of residual activity on the treated leaf litter, garden edges and wood borders where ticks quest.</li>
+            <li>Professional barrier spray leaves a residual on the treated leaf litter, garden edges and wood borders where ticks quest, renewed with five treatments across the season.</li>
             <li>Remove ticks with fine-tipped tweezers, pulling straight up — no twisting — then save the tick for free eTick.ca identification.</li>
           </ul>
           <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews. General information, not medical advice.</p>
@@ -140,6 +140,13 @@ export default function LymeDiseasePage() {
         <p>
           If your backyard backs onto a ravine, a greenbelt, a conservation area, or even an unmaintained neighbour's lot, blacklegged ticks can migrate onto your property on deer and small mammals.
         </p>
+        <p>
+          Toronto is the clearest illustration of that, because its ravine network threads wooded habitat through dense residential blocks instead of ending at the city edge &mdash; <Link href="/blog/toronto-tick-hot-spot-2026" className="text-brand-700 underline">why Toronto became a tick hot spot in 2026</Link> covers the corridors involved and what a ravine-adjacent yard is actually exposed to.
+        </p>
+
+        <p>
+          Province-wide, 2026 pushed all of that forward by a couple of weeks &mdash; our breakdown of <Link href="/blog/ontario-tick-surge-2026" className="text-brand-700 underline">the Ontario tick surge and the 5-step family protection plan</Link> explains what shifted and which steps actually change the odds.
+        </p>
 
         {/* Symptoms in humans */}
         <h2>Symptoms of Lyme Disease in Humans</h2>
@@ -172,6 +179,9 @@ export default function LymeDiseasePage() {
         <p>
           If you develop any of these symptoms and have had a tick bite, or have been in tick habitat in the GTA recently, see your doctor and mention the possible exposure. Early antibiotic treatment almost always results in full recovery.
         </p>
+        <p>
+          The late-stage list is the part that frightens people most, and it is worth reading alongside the actual prognosis. Our plain-English guide to <Link href="/blog/can-lyme-disease-kill-you" className="text-brand-700 hover:underline">whether Lyme disease can kill you</Link> covers how often it turns serious, whether it is curable, and what &ldquo;chronic Lyme&rdquo; does and does not mean.
+        </p>
 
         {/* Symptoms in pets */}
         <h2>Lyme Disease Symptoms in Dogs and Cats</h2>
@@ -191,6 +201,9 @@ export default function LymeDiseasePage() {
         <p>
           A Lyme vaccine is available for dogs and is worth discussing with your veterinarian if you live near ravines or conservation areas. Year-round tick preventatives are also recommended for dogs in the GTA.
         </p>
+        <p>
+          For the longer version &mdash; what the earliest signs look like, how the illness progresses through its three stages, and what treatment and recovery involve &mdash; see <Link href="/blog/can-dogs-get-lyme-disease" className="text-brand-700 hover:underline">can dogs get Lyme disease from ticks</Link>.
+        </p>
         <h3>Cats</h3>
         <p>
           Cats appear more resistant to clinical Lyme disease than dogs, but they can still carry ticks into your home and onto furniture. If your cat goes outdoors in tick habitat and develops unexplained lethargy, fever, or limping, raise tick exposure with your vet. Never apply dog-specific tick treatments to cats — many are toxic to felines.
@@ -208,6 +221,9 @@ export default function LymeDiseasePage() {
           <li>Adult ticks are active in spring and again in fall, and are easier to spot due to their larger size</li>
           <li>Ticks do not jump or fly — they quest by holding onto tall grass or brush with their back legs and reaching forward with their front legs, waiting for a host to brush past</li>
         </ul>
+        <p>
+          Attachment time is only one half of the odds. The other half is whether the tick was carrying anything in the first place &mdash; and most are not. See <Link href="/blog/what-percentage-of-ticks-carry-lyme-ontario" className="text-brand-700 underline">what percentage of ticks carry Lyme disease in Ontario</Link> for the tested infection rates behind that.
+        </p>
 
         {/* What to do if you find a tick */}
         <h2>What to Do If You Find a Tick</h2>
@@ -261,22 +277,22 @@ export default function LymeDiseasePage() {
           <BuyLink tag={AMZ_TAG} search="thermacell tick control tubes 12 pack">Check tick control tubes on Amazon.ca →</BuyLink>
         </div>
         <p>
-          For the most reliable yard protection, professional tick barrier spray treats exactly the zones where blacklegged ticks hide and wait. Our <Link href="/tick-control" className="text-brand-700 hover:underline">tick control treatments</Link> apply a Health Canada-registered residual formula to garden edges, foundation plantings, shaded turf, and wood borders — the areas that matter. One treatment provides up to 30 days of protection, which is why the seasonal program is five treatments spread roughly monthly from May through September &mdash; $597 standalone, or $497 added to any mosquito plan.
+          For the yard itself, professional tick barrier spray treats exactly the zones where blacklegged ticks hide and wait. Our <Link href="/tick-control" className="text-brand-700 hover:underline">tick control treatments</Link> apply a registered residual formula, according to label directions, to garden edges, foundation plantings, shaded turf, and wood borders — the areas that matter. The residual wears down with time and rain, which is why the seasonal program is five treatments spread roughly monthly from May through September &mdash; $597 standalone, or $497 added to any mosquito plan.
         </p>
         <p>
           The monthly cadence is the whole point. Nymphs &mdash; the poppy-seed-sized stage that drives most Lyme transmission because it is so easily missed &mdash; peak from May through July, and adults re-emerge and stay active through the autumn, into November in mild years. A pair of visits timed to spring and fall would leave a multi-month gap right across nymph season, which is precisely the wrong window to be uncovered. Deer, mice and birds also keep carrying fresh ticks in from the ravine or woodlot next door, so the barrier has to be renewed rather than applied once or twice and left to lapse.
         </p>
         <p>
-          Your kids shouldn't have to stay off the grass. Your dog shouldn't come home from the backyard with a passenger. Professional treatment is the one layer that works while you're not thinking about it.
+          Fewer ticks in the yard means fewer chances for the kids or the dog to bring one inside. Professional treatment is the layer that stays on a schedule while you get on with the season — alongside tick checks, not instead of them.
         </p>
         <h3>On your body</h3>
         <ul>
-          <li>Apply Health Canada-approved repellent containing DEET (20–30%) or icaridin to exposed skin.{' '}
+          <li>Apply a repellent containing DEET (20–30%) or icaridin, with a PCP registration number on the label, to exposed skin.{' '}
             <BuyLink tag={AMZ_TAG} search="icaridin insect repellent canada">Icaridin repellent on Amazon.ca →</BuyLink>
           </li>
           <li>Wear light-coloured clothing — ticks are easier to spot on pale fabric</li>
           <li>Tuck pants into socks in long grass or wooded areas</li>
-          <li>Permethrin-treated clothing provides excellent protection for people who spend a lot of time outdoors — permethrin gaiters cover the ankle-to-knee zone where most ticks latch on.{' '}
+          <li>Factory permethrin-treated clothing (consumer permethrin sprays for treating your own clothes are not registered for that use in Canada) is worth it for people who spend a lot of time outdoors — permethrin gaiters cover the ankle-to-knee zone where most ticks latch on.{' '}
             <BuyLink tag={AMZ_TAG} search="insectguard permethrin gaiters">Permethrin gaiters on Amazon.ca →</BuyLink>
           </li>
         </ul>
@@ -325,7 +341,7 @@ export default function LymeDiseasePage() {
 
         {/* Author bio */}
         <p className="text-sm text-gray-500 mt-10 pt-6 border-t border-gray-200">
-          BuzzSkito is a licensed mosquito and tick control provider serving Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, and the broader GTA. Our technician is trained in integrated pest management and applies only Health Canada-registered products. For medical advice on tick bites or Lyme disease, consult a licensed healthcare provider. For tick identification, visit <a href="https://etick.ca" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">eTick.ca</a> or <a href="https://www.publichealthontario.ca" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Public Health Ontario</a>.
+          BuzzSkito is a licensed mosquito and tick control provider serving Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, and the broader GTA. Our technician is trained in integrated pest management and applies only products registered for use in Canada, according to label directions ({PROMISES.licence}). For medical advice on tick bites or Lyme disease, consult a licensed healthcare provider. For tick identification, visit <a href="https://etick.ca" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">eTick.ca</a> or <a href="https://www.publichealthontario.ca" target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Public Health Ontario</a>.
         </p>
 
       </article>
@@ -338,7 +354,7 @@ export default function LymeDiseasePage() {
       />
 
       <CTASection
-        heading="Protect Your Yard from Lyme Disease Ticks This Season"
+        heading="Treat Your Yard for Ticks This Season"
         subtext="Professional barrier spray targets the leaf litter, garden edges and wood borders where ticks quest. Serving Mississauga, Brampton, Oakville, Burlington, Hamilton, and the GTA. Get a free quote."
         variant="dark"
       />

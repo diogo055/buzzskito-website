@@ -2,7 +2,11 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = {
   title: 'Lyme Disease Cases in Mississauga and Oakville 2026: What the Numbers Show and What It Means for Your Family',
@@ -52,6 +56,8 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: POST.date,
 })
+
+const AMZ_TAG = tagForSlug(POST.slug)
 
 export default function LymeMississaugaOakvillePage() {
   return (
@@ -112,10 +118,15 @@ export default function LymeMississaugaOakvillePage() {
         <p>Mississauga accounts for the majority of Peel&rsquo;s reported cases simply by population — Mississauga is the largest municipality in Peel by a wide margin. The Credit River corridor is the documented epicentre. Public Health Ontario surveillance — including drag sampling, deer-collected ticks, and homeowner-submitted ticks via eTick.ca — has confirmed established blacklegged tick populations along the full length of the Credit. The watershed includes Erindale Park, Riverwood, Streetsville, Meadowvale, and the conservation lands upstream into Caledon. Rattray Marsh on the Lake Ontario shoreline also supports a tick population.</p>
         <p>What this means in practice: a Mississauga homeowner backing onto the Credit River, Cooksville Creek, Etobicoke Creek, or any of the secondary ravines should treat their property as elevated risk regardless of the postal code. The <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga tick spray</Link> calendar starts in late April for these properties — well before most homeowners think to act.</p>
 
+        <p>Which ravines and which streets carry the most pressure is a separate read from the case counts. Our <Link href="/blog/tick-hot-spots-mississauga-2026" className="text-brand-700 underline">2026 Mississauga tick hot spot map by neighbourhood</Link> ranks them from Lorne Park and Mineola down to the fully mown inland subdivisions.</p>
+
         <h3>The Halton numbers (Oakville and Burlington)</h3>
         <p>Halton&rsquo;s case progression has tracked Peel&rsquo;s closely since 2020. Oakville accounts for a disproportionate share of Halton&rsquo;s Lyme cases relative to its population — this is consistent with tick density mapping showing 16 Mile Creek and Bronte Creek as established blacklegged tick zones. Active surveillance teams have documented positive Borrelia ticks in Oakville for multiple consecutive years.</p>
         <p>Burlington adds significant pressure through the Royal Botanical Gardens, Aldershot ravine system, and the Niagara Escarpment foot. Properties in Aldershot, Tyandaga, Burlington Heights, and the Lakeshore corridor all see elevated risk. Milton&rsquo;s growth into the escarpment corridor — Bronte Creek headwaters, Crawford Lake area, Kelso Conservation — has added a new exposure surface that did not exist as a residential concern a decade ago.</p>
         <p>The <Link href="/oakville-tick-spray" className="text-brand-700 underline">Oakville tick spray</Link> and <Link href="/burlington-tick-spray" className="text-brand-700 underline">Burlington tick spray</Link> service calendars reflect this: late April starts, mid-June nymph peak coverage, and a mid-August adult peak treatment for properties scoring 70+ on the risk index.</p>
+
+        <p>If you want the Halton picture at street level rather than region level, our <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 underline">Oakville and Burlington tick hot spots for 2026</Link> works through Bronte Creek, 16 Mile Creek, Aldershot and the Tyandaga escarpment edge one by one.</p>
+        <p>Cases cluster in time as well as in place. <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 underline">Tick season in Oakville</Link> sets out which weeks the nymphs — the stage behind most Lyme transmission — are actually questing, and <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 underline">tick season in Burlington</Link> does the same for the escarpment and RBG side of Halton.</p>
 
         <h2>What the surveillance numbers do NOT capture</h2>
         <p>The reported case numbers are real, but they substantially understate true Lyme exposure for three reasons.</p>
@@ -142,17 +153,17 @@ export default function LymeMississaugaOakvillePage() {
         <p>The headline message is straightforward: <strong>if you live in Mississauga or Oakville and your property borders forest, ravine, or naturalized green space, you should treat your yard as elevated tick risk.</strong> The case data, the surveillance data, and the geography all point in the same direction.</p>
 
         <h3>The practical protection layer</h3>
-        <p>Tick risk management is a layered defence. No single intervention eliminates risk; the combination drives it down to acceptable levels.</p>
+        <p>Tick risk management is a layered defence. No single intervention eliminates risk; the combination drives it down.</p>
         <ul>
-          <li><strong>Professional tick barrier spray on the yard.</strong> A late-April or early-May application followed by a mid-June top-up covers both the nymph peak (highest disease transmission risk) and the adult fall peak. The treatment focuses on the lawn-to-forest transition zone, leaf litter areas, garden bed edges, and fence lines — the precise locations where ticks ambush hosts.</li>
+          <li><strong>Professional tick barrier spray on the yard.</strong> A tick season is five applications spread roughly monthly from May through September, timed to span the May&ndash;July nymph peak (highest disease transmission risk) and the start of autumn adult activity. A one- or two-visit schedule leaves long gaps in between. The treatment focuses on the lawn-to-forest transition zone, leaf litter areas, garden bed edges, and fence lines — the precise locations where ticks ambush hosts.</li>
           <li><strong>Habitat modification.</strong> Rake out leaf litter from yard edges. Install a 3-foot gravel or wood-chip buffer between lawn and any adjacent forest. Keep grass tight. Move woodpiles away from house and play areas.</li>
           <li><strong>Daily tick checks.</strong> After any outdoor activity — even gardening. Check children behind ears, hairline, neck, armpits, waistline, behind knees. Check dogs after every walk in tick habitat.</li>
-          <li><strong>Permethrin-treated clothing for outdoor activity.</strong> If your family hikes the Credit River trails, 16 Mile Creek conservation areas, Bronte Creek Provincial Park, or any forested area — treat pants and socks with 0.5% permethrin spray. One application lasts six weeks or six washes.</li>
+          <li><strong>Permethrin-treated clothing for outdoor activity.</strong> If your family hikes the Credit River trails, 16 Mile Creek conservation areas, Bronte Creek Provincial Park, or any forested area — wear factory permethrin-treated pants and socks. Consumer permethrin sprays for treating your own clothing are not registered in Canada, so buy the garments already treated.</li>
           <li><strong>Know the 24-36 hour transmission window.</strong> Lyme transmission typically requires 24-36 hours of attached tick feeding. A tick found and removed within 24 hours dramatically reduces — but does not eliminate — Lyme risk. Daily checks matter for exactly this reason.</li>
         </ul>
 
         <h3>The cost question</h3>
-        <p>Professional tick treatment costs less than most families assume. A standalone tick season program runs $597, while bundling tick with mosquito coverage drops the tick add-on to $497 — about $100 per month across the May-September season for both pests on a standard lot. Lot-size scaling applies for larger properties. For a fuller cost breakdown, see <Link href="/blog/how-much-does-tick-treatment-cost-ontario" className="text-brand-700 underline">how much does tick treatment cost in Ontario</Link>.</p>
+        <p>Professional tick treatment costs less than most families assume. A standalone tick season program runs $597, while bundling tick with mosquito coverage drops the tick add-on to $497 — about $100 per month across the May-September season for the five tick sprays on a standard lot, on top of the mosquito plan (from $549). Lot-size scaling applies for larger properties. For a fuller cost breakdown, see <Link href="/blog/how-much-does-tick-treatment-cost-ontario" className="text-brand-700 underline">how much does tick treatment cost in Ontario</Link>.</p>
 
         <h2>The 2026 news momentum — Toronto Star, CityNews, TorontoToday</h2>
         <p>In May 2026, Toronto Star ran a feature confirming Toronto as a tick hot spot, with follow-on coverage from CityNews and TorontoToday across the same weeks. The headline focus was Toronto itself, but the underlying surveillance data the journalists drew on extends across the GTA — and Peel and Halton numbers are part of the same trend the Toronto coverage was reporting. If you live in Mississauga or Oakville and read the Toronto Star tick coverage thinking &quot;that&rsquo;s a Toronto problem,&quot; the data does not support that read. Peel and Halton are in the same risk band and have been climbing on the same trajectory for the same reasons.</p>
@@ -165,15 +176,18 @@ export default function LymeMississaugaOakvillePage() {
 
         <h2>Beyond Mississauga and Oakville — the broader Lyme picture</h2>
         <p>The Peel and Halton trends are part of a larger Ontario-wide expansion &mdash; 2,369 confirmed and probable cases province-wide in 2024, up 27% on 2023 (PHAC). For the current risk-area classification covering Toronto, Hamilton, York, Durham, or Niagara, check <a href="https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" target="_blank" rel="noopener" className="text-brand-700 underline">Public Health Ontario&rsquo;s Vector-Borne Disease Tool</a>, which is redrawn annually. The <Link href="/blog/lyme-disease-cases-ontario-2026" className="text-brand-700 underline">Ontario-wide Lyme case picture for 2026</Link> covers the full provincial trend, and the <Link href="/blog/lyme-disease-risk-areas-ontario-2026" className="text-brand-700 underline">Ontario Lyme risk areas map</Link> shows the geographic spread.</p>
-        <p>For Mississauga and Oakville specifically, the local picture is this: blacklegged ticks carrying Lyme bacteria are now established in the Credit River and 16 Mile Creek watersheds. Cases will continue to rise as the tick range expands and as physician awareness improves diagnosis rates. The properties getting protected now are insulated from the bulk of that pressure.</p>
+        <p>For Mississauga and Oakville specifically, the local picture is this: blacklegged ticks carrying Lyme bacteria are now established in the Credit River and 16 Mile Creek watersheds. Cases will continue to rise as the tick range expands and as physician awareness improves diagnosis rates. Yard treatment lowers the number of ticks in the zones it covers; paired with daily tick checks and prompt removal, it is how households reduce their exposure as that pressure grows.</p>
 
         <h2>What to do this week</h2>
         <p>If you live in Mississauga or Oakville and have not yet treated your yard for ticks in 2026:</p>
         <ol>
           <li><strong>Run the <Link href="/yard-risk-report" className="text-brand-700 underline">free yard risk report</Link>.</strong> It calculates an address-specific 1-100 score in under 90 seconds using neighbourhood data, water and forest proximity, lot characteristics, and family situation. Properties scoring 70+ should be treated.</li>
-          <li><strong>Book your first treatment.</strong> Same-week service is available across the GTA. <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga tick spray</Link>, <Link href="/oakville-tick-spray" className="text-brand-700 underline">Oakville tick spray</Link>, and <Link href="/burlington-tick-spray" className="text-brand-700 underline">Burlington tick spray</Link> service pages have local availability.</li>
+          <li><strong>Book your first treatment.</strong> Same-week service is available across the GTA. {PROMISES.visitWindow} <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga tick spray</Link>, <Link href="/oakville-tick-spray" className="text-brand-700 underline">Oakville tick spray</Link>, and <Link href="/burlington-tick-spray" className="text-brand-700 underline">Burlington tick spray</Link> service pages have local availability.</li>
           <li><strong>Set up the family tick-check habit.</strong> After every outdoor activity through October. The habit matters more than the equipment.</li>
         </ol>
+
+        <AffiliateDisclosure />
+        <p className="not-prose text-gray-700 leading-relaxed">One footnote on the clothing layer above, because it is the step Canadians most often get stuck on: consumer permethrin sprays for treating your own clothes are not registered for sale in Canada, so the route here is garments that arrive already factory-treated. Pants and socks are the two pieces that matter on the Credit River, 16 Mile Creek, and Bronte Creek trails, because ticks quest at ankle height and climb &mdash; a treated shirt does little if they are boarding at the shoe. In Canada the factory-treated format is permitted for ages 16 and over, so it is an adult-and-teen layer rather than a children&rsquo;s one &mdash; for younger kids, tucked socks, light-coloured trousers and a tick check after every outing are the layers that apply. Our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">permethrin in Canada guide</Link> covers the format rules in full. <BuyLink tag={AMZ_TAG} search="permethrin treated clothing">Check permethrin-treated clothing on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Related guides</h2>
         <ul>
@@ -204,7 +218,7 @@ export default function LymeMississaugaOakvillePage() {
         </div>
       </section>
 
-      <CTASection heading="Mississauga + Oakville Lyme risk is real — protect your yard now" subtext="Free custom quote based on your address and lot. Sent within 24 hours. Same-week service in Peel and Halton." />
+      <CTASection heading="Mississauga + Oakville tick risk is real — treat your yard now" subtext={`Free custom quote based on your address and lot. ${PROMISES.response} Same-week service in Peel and Halton.`} />
     </>
   )
 }

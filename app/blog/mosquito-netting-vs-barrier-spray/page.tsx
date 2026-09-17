@@ -31,7 +31,7 @@ const FAQS = [
   },
   {
     question: 'When should I use barrier spray instead of netting?',
-    answer: 'Barrier spray is the right choice when: (1) You want to use your entire backyard freely — kids playing, dogs running, gardening, BBQ areas, lawn games. (2) You don\'t want to be confined to a specific screened zone. (3) You have moderate to high mosquito pressure (ravine-adjacent, near water) where a screened area still leaves the rest of the property unusable. (4) You want continuous protection without setup/teardown. Barrier spray controls the population across the whole yard for 21–30 days at a time.',
+    answer: 'Barrier spray is the right choice when: (1) You want to use your entire backyard freely — kids playing, dogs running, gardening, BBQ areas, lawn games. (2) You don\'t want to be confined to a specific screened zone. (3) You have moderate to high mosquito pressure (ravine-adjacent, near water) where a screened area still leaves the rest of the property unusable. (4) You want continuous protection without setup/teardown. Barrier spray is applied to the vegetation across the whole yard and renewed on a schedule.',
   },
   {
     question: 'Can I combine mosquito netting and barrier spray?',
@@ -90,7 +90,7 @@ export default function MosquitoNettingVsSprayPage() {
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">Netting gives you a physically bug-free zone — but only inside the enclosed area, and only while it stays sealed. Barrier spray treats the resting vegetation across the entire yard instead of enclosing one spot, though mosquitoes keep dispersing in from neighbouring properties. Choose netting for one defined patio spot or zero-pesticide protection; choose spray for whole-yard use with kids and pets.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Mosquito netting is 100% effective inside the enclosed area and 0% effective outside it.</li>
-              <li>Professional barrier spray leaves a residual on yard-wide resting vegetation for 21–30 days per treatment.</li>
+              <li>Professional barrier spray leaves a residual on yard-wide resting vegetation, renewed on your plan’s schedule (every 2 weeks on Standard, monthly on Basic).</li>
               <li>Patio screen tents cost $200–$1,500; a freestanding screened gazebo runs roughly $300–$800.</li>
               <li>Netting is the only mosquito protection Health Canada recommends for babies under 6 months.</li>
               <li>Netting does nothing for ticks; barrier spray controls both mosquitoes and ticks.</li>

@@ -8,7 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS, CITIES } from '@/lib/constants'
+import { MOSQUITO_BLOGS, CITIES, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = MOSQUITO_BLOGS.pillar
@@ -25,12 +25,12 @@ export const metadata: Metadata = buildMetadata({
 })
 
 const FAQS = [
-  { question: 'What is the most effective mosquito control method for backyards?', answer: 'Professional barrier spray applied to vegetation and shrubs is the most effective method for residential yards. It eliminates mosquitoes on contact and provides residual protection for up to 30 days — far more effective than consumer repellents, citronella, or DIY sprays.' },
+  { question: 'What is the most effective mosquito control method for backyards?', answer: 'For residential yards, we recommend professional barrier spray applied to the vegetation and shrubs where adult mosquitoes rest, combined with removing standing water. The spray treats the surfaces mosquitoes actually spend the day on and leaves a temporary residual there, which consumer repellents, citronella, and DIY sprays that act only on the air around them never reach.' },
   { question: 'How do I find where mosquitoes are breeding in my yard?', answer: 'Check any container that holds standing water: birdbaths, clogged gutters, tarps, plant saucers, children\'s toys, and low-lying areas that collect rainwater. Even a bottle cap with water can produce hundreds of mosquitoes. Eliminate or change water sources weekly.' },
-  { question: 'Does barrier spray hurt pollinators like bees?', answer: 'Professional barrier spray is applied to leaf undersides and shrubs where mosquitoes rest — not to flowers. Once dried (30 minutes), the product does not harm foraging pollinators. We avoid spraying open flowers and apply during morning or evening when pollinators are less active.' },
+  { question: 'Does barrier spray hurt pollinators like bees?', answer: 'Professional barrier spray is applied to leaf undersides and shrubs where mosquitoes rest — not to flowers. We avoid spraying open flowers, apply during morning or evening when pollinators are less active, and follow the product label directions, including its precautions for pollinators.' },
   { question: 'How many mosquito treatments does a GTA property need per season?', answer: 'For continuous protection throughout GTA mosquito season (May–September), 5 treatments spaced 28 days apart are recommended. Properties near water features, ravines, or conservation areas may benefit from tighter spacing during peak season.' },
-  { question: 'How much does professional backyard mosquito control cost in the GTA?', answer: 'A single professional backyard mosquito treatment starts at $99 for a standard lot (under 10,000 sq ft). Full-season plans, which give continuous protection from May through September, start at $549 for 5 sprays (monthly) or $994 for 10 sprays (bi-weekly). Pricing scales with lot size, and every BuzzSkito treatment is backed by our Bite-Free Guarantee.' },
-  { question: 'Is professional outdoor mosquito control better than DIY?', answer: 'Yes. DIY methods — citronella, foggers, and repelling plants — act on the air immediately around them and never treat the shaded vegetation where adult mosquitoes rest during the day, so the resting population on the property is left untouched. Professional outdoor mosquito control combines standing-water elimination with a Health Canada-registered barrier spray applied to that resting habitat, which is the surface mosquitoes actually spend the day on. Neither layer clears a yard — mosquitoes keep flying in from off-property — so the two work together: prevention plus barrier spray, repeated through the season.' },
+  { question: 'How much does professional backyard mosquito control cost in the GTA?', answer: `A single professional backyard mosquito treatment starts at $99 for a standard lot (under 10,000 sq ft). Full-season plans, which run from May through September, start at $549 for 5 sprays (monthly) or $994 for 10 sprays (bi-weekly). Pricing scales with lot size. ${PROMISES.rainBack} Standard and Exclusive plans also carry the Bite-Free Guarantee.` },
+  { question: 'Is professional outdoor mosquito control better than DIY?', answer: 'Yes. DIY methods — citronella, foggers, and repelling plants — act on the air immediately around them and never treat the shaded vegetation where adult mosquitoes rest during the day, so the resting population on the property is left untouched. Professional outdoor mosquito control combines standing-water elimination with a barrier spray, applied according to label directions, on that resting habitat, which is the surface mosquitoes actually spend the day on. Neither layer clears a yard — mosquitoes keep flying in from off-property — so the two work together: prevention plus barrier spray, repeated through the season.' },
 ]
 
 const AMZ_TAG = tagForSlug('ultimate-backyard-mosquito-control-guide')
@@ -65,10 +65,10 @@ export default function MosquitoPillarPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-base text-gray-800 leading-relaxed">The most effective backyard mosquito control combines two layers: (1) eliminate every standing-water source where mosquitoes breed, and (2) apply a professional barrier spray to the shaded vegetation, shrub interiors, and leaf undersides where adult mosquitoes rest during the day. This done-for-you approach treats the surfaces adults actually spend the day on and holds a residual there for up to 30 days per treatment — the part DIY outdoor mosquito control like citronella, foggers, or repelling plants never reaches, since those act only on the air immediately around them. No method clears a yard for good: mosquitoes disperse back in from surrounding properties, so treatment is repeated through the season. In the GTA, professional treatment starts at $99 per visit, and full-season plans run May through September for continuous protection.</p>
+            <p className="text-base text-gray-800 leading-relaxed">The most effective backyard mosquito control combines two layers: (1) eliminate every standing-water source where mosquitoes breed, and (2) apply a professional barrier spray to the shaded vegetation, shrub interiors, and leaf undersides where adult mosquitoes rest during the day. This done-for-you approach treats the surfaces adults actually spend the day on and leaves a temporary residual there after each treatment — the part DIY outdoor mosquito control like citronella, foggers, or repelling plants never reaches, since those act only on the air immediately around them. No method clears a yard for good: mosquitoes disperse back in from surrounding properties, so treatment is repeated through the season. In the GTA, professional treatment starts at $99 per visit, and full-season plans run May through September.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A two-layer approach &mdash; removing standing water plus barrier spray on resting vegetation &mdash; covers both the mosquitoes bred on your lot and the ones that fly in.</li>
-              <li>One barrier treatment keeps a yard protected for up to 30 days.</li>
+              <li>Each barrier treatment leaves a temporary residual on resting vegetation, so treatments are repeated through the season.</li>
               <li>DIY options like citronella, foggers, and repelling plants act only on the air right around them &mdash; they never treat the shaded vegetation where adult mosquitoes rest.</li>
               <li>Mosquitoes become active once temperatures consistently exceed 10&deg;C (50&deg;F), usually in late April in the GTA.</li>
               <li>Just a tablespoon of standing water can produce hundreds of mosquitoes within a week.</li>
@@ -82,7 +82,7 @@ export default function MosquitoPillarPage() {
       <article className="max-w-4xl mx-auto px-4 py-12 prose-brand">
 
         <p className="text-lg text-gray-600 leading-relaxed mb-8 not-prose border-l-4 border-brand-400 pl-5 py-2">
-          This comprehensive guide covers everything GTA homeowners need to know about eliminating mosquitoes from their backyards: the biology behind why treatments work, local risk factors, a complete seasonal schedule, and when DIY falls short. For specific city information, see our{' '}
+          This comprehensive guide covers everything GTA homeowners need to know about controlling mosquitoes in their backyards: the biology behind why treatments work, local risk factors, a complete seasonal schedule, and when DIY falls short. For specific city information, see our{' '}
           <Link href="/mosquito-control" className="text-brand-700 underline">Mosquito Control hub page</Link>.
         </p>
 
@@ -95,7 +95,7 @@ export default function MosquitoPillarPage() {
         <h2>The Mosquito Lifecycle: Why This Matters for Control</h2>
         <p>Understanding the mosquito lifecycle is essential for effective control. Mosquitoes go through four stages: egg, larva, pupa, and adult. The first three stages all occur in standing water. Only the adult stage is the biting, flying mosquito you encounter in your backyard.</p>
         <p>The critical implication: <strong>effective mosquito control must address both the aquatic breeding stage and the adult stage</strong>. Elimination of standing water reduces breeding, while barrier spray targets adult mosquitoes hiding in vegetation. Neither alone is as effective as both together.</p>
-        <p>Adult female mosquitoes (the ones that bite) spend most of the day resting in shaded, humid vegetation — under leaves, in shrubs, and in ground cover. This resting behaviour is precisely what makes barrier spray so effective: we apply residual insecticide directly to those resting surfaces.</p>
+        <p>Adult female mosquitoes (the ones that bite) spend most of the day resting in shaded, humid vegetation — under leaves, in shrubs, and in ground cover. This resting behaviour is precisely why barrier spray is aimed where it is: we apply residual insecticide, according to label directions, directly to those resting surfaces.</p>
 
         <h2>GTA Mosquito Season: When to Start Treatment</h2>
         <p>Mosquitoes become active when temperatures consistently exceed 10°C (50°F). In the GTA, this typically means:</p>
@@ -112,16 +112,16 @@ export default function MosquitoPillarPage() {
         <p>Professional barrier spray — the method BuzzSkito uses — works by applying a fine residual mist of insecticide to all vegetation on your property: shrubs, hedges, the underside of leaves, ground cover, and tree canopy up to about 10 feet high. The formula:</p>
         <ul>
           <li><strong>Kills on contact:</strong> Adult mosquitoes that land on treated surfaces die quickly</li>
-          <li><strong>Residual protection:</strong> The product remains active on surfaces for up to 30 days, continuing to kill new mosquitoes that enter the treatment zone</li>
-          <li><strong>Rain resistant:</strong> Bonds to surfaces as it dries; a brief rain shower won't wash it away</li>
-          <li><strong>Fast re-entry:</strong> The treated yard is safe for people and pets 30 minutes after application</li>
+          <li><strong>Residual:</strong> The product stays on treated surfaces for a period after application and wears down over the following weeks, which is why treatments are repeated through the season</li>
+          <li><strong>Rain:</strong> The spray needs time to dry on treated surfaces. {PROMISES.rainBack}</li>
+          <li><strong>Re-entry:</strong> Stay off treated areas until the spray has dried, as the product label directs</li>
         </ul>
         <p>Compare this to consumer alternatives: <Link href="/blog/mosquito-vs-diy-vs-professional-control" className="text-brand-700 underline hover:text-brand-500">DIY vs. Professional Mosquito Control</Link></p>
 
         <h2>How Long Does Mosquito Spray Last?</h2>
-        <p>Each professional barrier spray treatment provides up to 30 days of protection under normal conditions. Several factors affect longevity:</p>
+        <p>Each professional barrier spray treatment leaves a residual that wears down over the following weeks. Several factors affect how long it lasts:</p>
         <ul>
-          <li>Heavy rainfall within 1 hour of application (we reapply at no cost)</li>
+          <li>Rain within 1 hour of application (we come back and re-treat free, on every plan)</li>
           <li>Extreme heat or direct sun on treated surfaces can accelerate breakdown</li>
           <li>Dense vegetation may require more thorough application for full coverage</li>
         </ul>
@@ -141,20 +141,20 @@ export default function MosquitoPillarPage() {
 
         <h2>DIY Tools That Help Between Professional Visits</h2>
         <AffiliateDisclosure />
-        <p>For standing water you genuinely can&apos;t drain — rain barrels, ornamental ponds, or low spots that stay wet for days — drop in a <strong>Bti larvicide dunk</strong> such as Summit Mosquito Dunks. They float and slowly release a naturally occurring bacterium that kills mosquito larvae for about 30 days while staying safe for pets, birds, and fish. We break down brands and dosing in our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 underline hover:text-brand-500">mosquito dunks guide for Canada</Link> — or <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check price on Amazon.ca →</BuyLink></p>
+        <p>For standing water you genuinely can&apos;t drain — rain barrels, ornamental ponds, or low spots that stay wet for days — drop in a <strong>Bti larvicide dunk</strong> such as Summit Mosquito Dunks. They float and slowly release a naturally occurring bacterium that kills mosquito larvae for about 30 days. We break down brands and dosing in our <Link href="/blog/mosquito-dunks-canada-guide" className="text-brand-700 underline hover:text-brand-500">mosquito dunks guide for Canada</Link> — or <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check price on Amazon.ca →</BuyLink></p>
 
         <TopPick tag={AMZ_TAG}
           label="Best DIY Add-On"
           name="Summit Mosquito Dunks (Bti larvicide)"
-          blurb="For standing water you can't drain — rain barrels, ornamental ponds, chronic wet spots — these floating dunks release a naturally occurring bacterium (Bti) that kills mosquito larvae for about 30 days while staying safe around pets, birds, and fish. The simplest way to stop a breeding site before adults ever hatch."
+          blurb="For standing water you can't drain — rain barrels, ornamental ponds, chronic wet spots — these floating dunks release a naturally occurring bacterium (Bti) that kills mosquito larvae for about 30 days. The simplest way to stop a breeding site before adults ever hatch."
           search="summit mosquito dunks"
           score={8.7}
-          pros={['Kills larvae before they become biting adults', 'One dunk lasts ~30 days', 'Safe around pets, birds, and fish', 'Targets water you can’t drain']}
+          pros={['Kills larvae before they become biting adults', 'One dunk lasts ~30 days', 'Floats and releases Bti slowly', 'Targets water you can’t drain']}
           cons={['Only treats standing water — not resting adults', 'Needs replacing each month through the season']}
         />
         <p className="not-prose text-xs text-gray-500 mb-6">Score reflects BuzzSkito&rsquo;s own editorial rating, not an Amazon rating.</p>
         <p>For the hours you&apos;re actually outside, a <strong>Thermacell repeller</strong> creates a roughly 20-foot zone of protection over a patio or deck without sprays or open flame, and the right skin repellent handles the rest. See how the options compare in our <Link href="/blog/picaridin-vs-deet" className="text-brand-700 underline hover:text-brand-500">picaridin vs. DEET guide</Link> and <Link href="/blog/best-mosquito-trap" className="text-brand-700 underline hover:text-brand-500">best mosquito traps in Canada</Link> — or <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check price on Amazon.ca →</BuyLink></p>
-        <p>These tools cut bites in the moment, but they don&apos;t clear the adult mosquitoes resting in your vegetation the way a professional barrier spray does. For a yard that stays bite-free all season, they work best alongside a treatment plan.</p>
+        <p>These tools cut bites in the moment, but they don&apos;t treat the adult mosquitoes resting in your vegetation the way a professional barrier spray does. For season-long control, they work best alongside a treatment plan.</p>
 
         <h2>Gear &amp; Product Guides: Every Mosquito Device Reviewed</h2>
         <p>Thinking about buying a trap, fogger, or repeller before (or instead of) booking a treatment? We&apos;ve written honest, Canada-specific reviews of the most-searched mosquito gear — what each device actually does, what it can&apos;t do, and which yards it makes sense for:</p>
@@ -178,7 +178,7 @@ export default function MosquitoPillarPage() {
         <div className="not-prose my-10 rounded-2xl bg-gradient-to-br from-brand-800 to-brand-950 text-white p-6 sm:p-8 shadow-lg">
           <p className="text-xs font-extrabold text-brand-300 uppercase tracking-wider mb-2">Prefer the Done-For-You Option?</p>
           <h3 className="text-2xl font-extrabold mb-3 leading-tight">Let BuzzSkito Handle Your Backyard Mosquito Control</h3>
-          <p className="text-brand-100 leading-relaxed mb-5">DIY prevention keeps breeding down, but professional barrier spray is what actually clears the adult mosquitoes resting in your vegetation. Our licensed technicians treat every shrub interior, leaf underside, and fence line so your yard stays bite-free — starting at just <strong className="text-white">$99 per treatment</strong>. Backed by our <strong className="text-white">Bite-Free Guarantee</strong> and <strong className="text-white">150+ five-star reviews</strong> across the GTA.</p>
+          <p className="text-brand-100 leading-relaxed mb-5">DIY prevention keeps breeding down, but professional barrier spray is what treats the adult mosquitoes resting in your vegetation. Our licensed technicians treat every shrub interior, leaf underside, and fence line — starting at just <strong className="text-white">$99 per treatment</strong> on a standard lot under 10,000 sq ft. Backed by our <strong className="text-white">{PROMISES.rainBackShort}</strong> (plus the {PROMISES.biteFreeScope}) and <strong className="text-white">150+ five-star reviews</strong> across the GTA.</p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link href="/free-yard-assessment" className="inline-flex justify-center items-center bg-white text-brand-900 font-bold px-6 py-3 rounded-xl hover:bg-brand-50 transition-colors">Get a Free Yard Assessment →</Link>
             <Link href="/mosquito-control" className="inline-flex justify-center items-center bg-brand-700 text-white font-bold px-6 py-3 rounded-xl border border-brand-500 hover:bg-brand-600 transition-colors">See Mosquito Control Services</Link>
@@ -187,7 +187,7 @@ export default function MosquitoPillarPage() {
 
         <h2>Health Risks: West Nile Virus in the GTA</h2>
         <p>Mosquitoes in Ontario can carry West Nile Virus (WNV), a potentially serious illness transmitted through mosquito bites. Ontario public health agencies monitor WNV-positive mosquito pools throughout the GTA each season. While most people infected with WNV experience no symptoms or a mild illness, a small percentage develop severe neurological disease.</p>
-        <p>Reducing mosquito populations in and around your property through professional barrier spray significantly reduces your family's WNV exposure risk. Learn more: <Link href="/blog/west-nile-virus-mosquito-risk-ontario" className="text-brand-700 underline hover:text-brand-500">West Nile Virus Risk in Ontario</Link></p>
+        <p>Public health agencies advise removing standing water and avoiding bites, especially from dusk to dawn. Barrier spray treats the vegetation where mosquitoes rest around your yard; it works alongside repellent and those personal precautions, not in place of them. Learn more: <Link href="/blog/west-nile-virus-mosquito-risk-ontario" className="text-brand-700 underline hover:text-brand-500">West Nile Virus Risk in Ontario</Link></p>
 
         <h2>Recommended Seasonal Treatment Schedule for GTA Homeowners</h2>
         <div className="not-prose grid grid-cols-5 gap-2 sm:gap-3 my-8">
@@ -198,7 +198,7 @@ export default function MosquitoPillarPage() {
             </div>
           ))}
         </div>
-        <p>Five treatments, spaced approximately 28 days apart, provide continuous protection from the start of season through the end of active mosquito activity in the GTA.</p>
+        <p>Five treatments, spaced approximately 28 days apart, cover the season from its start through the end of active mosquito activity in the GTA.</p>
 
         <h2>Mosquito Control by GTA City</h2>
         <div className="not-prose grid grid-cols-2 sm:grid-cols-3 gap-3 my-6">

@@ -9,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'propane-mosquito-trap-canada'
 const DATE = '2026-07-14'
@@ -43,15 +44,15 @@ const FAQS = [
   },
   {
     question: 'Are $1,000-plus propane traps worth it, or is the cheap one fine?',
-    answer: 'It depends entirely on your property, not on wanting to save money. On a 1+ acre rural or cottage lot with chronic, all-summer mosquito pressure — think a property backing onto a marsh, pond, or dense bush — a top-tier unit around the $900–$1,150 range plus its ~$400–$550/season of consumables can genuinely pay for itself in reclaimed outdoor time, and the extra reach and cartridge capacity of the flagship models earns its price. On a typical fenced GTA suburban backyard, that same machine is usually overkill: a cheaper entry unit, or better yet a professional barrier spray, delivers more usable yard for less money and less maintenance. Match the tool to the acreage and the pressure, and the price question mostly answers itself.',
+    answer: 'It depends entirely on your property, not on wanting to save money. On a 1+ acre rural or cottage lot with chronic, all-summer mosquito pressure — think a property backing onto a marsh, pond, or dense bush — a top-tier unit around the $900–$1,150 range plus its ~$400–$550/season of consumables can genuinely pay for itself in reclaimed outdoor time, and the extra reach and cartridge capacity of the flagship models earns its price. On a typical fenced GTA suburban backyard, that same machine is usually overkill: a cheaper entry unit, or better yet a professional barrier spray, is usually the better fit for less money and less maintenance. Match the tool to the acreage and the pressure, and the price question mostly answers itself.',
   },
   {
     question: 'Propane trap vs professional barrier spray — which wins for a GTA yard?',
-    answer: 'They operate on completely different timelines, which is why the honest answer is often \'both, or the spray.\' A propane trap draws the biting-female population down slowly over 4 to 8 weeks of continuous running and shines on large rural lots. A professional barrier spray coats the shaded vegetation where mosquitoes rest and knocks the whole-yard population down within hours, holding for about 21–30 days per treatment — and, unlike any trap, it also suppresses ticks. For same-day usability before a barbecue, a wedding, or a long weekend, spray wins outright. For a chemical-free, set-and-forget approach on rural acreage, a propane trap earns its place. Most GTA suburban homeowners get faster, cheaper, more complete results from barrier spray; cottage and rural owners often run a trap and book spray for events.',
+    answer: 'They operate on completely different timelines, which is why the honest answer is often \'both, or the spray.\' A propane trap draws the biting-female population down slowly over 4 to 8 weeks of continuous running and shines on large rural lots. A professional barrier spray coats the shaded vegetation where mosquitoes rest and works on the resting population the day it is applied rather than over weeks, and is re-applied on a schedule — and, unlike any trap, it can be paired with a tick treatment. For usability before a barbecue, a wedding, or a long weekend, spray is the faster tool. For a no-spray, set-and-forget approach on rural acreage, a propane trap earns its place. Most GTA suburban homeowners are better served by barrier spray; cottage and rural owners often run a trap and book spray for events.',
   },
   {
     question: 'Do propane mosquito traps need Health Canada or PMRA registration?',
-    answer: 'A propane trap that works purely by physical capture — a CO2 plume, heat, an attractant scent, a fan, and a net — is treated as a device rather than a pesticide, so it does not require a PMRA (Health Canada Pest Management Regulatory Agency) pest control product registration the way a spray formulation does. The octenol and Lurex attractants are non-toxic scent lures, not insecticides. That means these traps are legal to buy and run across Ontario and add no residual pesticide to your lawn or garden surfaces. It also means the manufacturer\'s effectiveness claims are not vetted the way a registered pesticide\'s are, so lean on independent capture research and realistic expectations rather than box copy.',
+    answer: 'A propane trap that works purely by physical capture — a CO2 plume, heat, an attractant scent, a fan, and a net — is treated as a device rather than a pesticide, so it does not require a PMRA (Health Canada Pest Management Regulatory Agency) pest control product registration the way a spray formulation does. The octenol and Lurex attractants are scent lures, not insecticides. That means these traps are legal to buy and run across Ontario and add no residual pesticide to your lawn or garden surfaces. It also means the manufacturer\'s effectiveness claims are not vetted the way a registered pesticide\'s are, so lean on independent capture research and realistic expectations rather than box copy.',
   },
   {
     question: 'Can a propane mosquito trap help with ticks?',
@@ -104,7 +105,7 @@ export default function PropaneMosquitoTrapCanadaPage() {
               <li>Expect about one 20 lb propane tank every 3 weeks &mdash; roughly 6&ndash;7 refills across an Ontario season.</li>
               <li>Propane plus octenol/Lurex cartridges run about $350&ndash;$550 per season in consumables.</li>
               <li>Traps draw the population down slowly over 4&ndash;8 weeks and do nothing for ticks.</li>
-              <li>Licensed barrier spray knocks the whole yard down within hours and holds 21&ndash;30 days, from $99.</li>
+              <li>Licensed barrier spray treats the resting areas across the whole yard in a single visit, from $99.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
@@ -241,11 +242,11 @@ export default function PropaneMosquitoTrapCanadaPage() {
 
           <h2>Are $1,000-plus propane traps worth it?</h2>
           <p>The four-figure question is really a property question. As a rough market picture (not Amazon pricing), the Patriot Plus tends to land around $400&ndash;$550, the Independence around $550&ndash;$750, and the Executive flagship in the $900&ndash;$1,150-plus range &mdash; before you add the $350&ndash;$550/season of propane and cartridges. On a <strong>1+ acre rural or cottage lot</strong> with chronic, all-summer pressure &mdash; a property backing onto a marsh, pond, or bush &mdash; the flagship&rsquo;s extra reach and cartridge capacity can genuinely pay for itself in reclaimed evenings, and the running cost is just part of owning waterfront-adjacent land.</p>
-          <p>On a <strong>typical fenced GTA suburban backyard</strong>, that same $1,000 machine is usually the wrong buy. A cheaper entry unit does most of what the flagship does on a small lot, and a professional barrier spray does more for less money and zero daily maintenance. Spend the four figures where the acreage justifies it; on a city lot, put the money toward faster, more complete control. If you are still weighing traps against every other option &mdash; UV, electric CO2, in-ground &mdash; our <Link href="/blog/best-mosquito-trap">best mosquito trap in Canada guide</Link> ranks the whole category, and our <Link href="/blog/dynatrap-canada-review">DynaTrap Canada review</Link> covers the popular UV-plus-CO2 alternative that costs a fraction of a propane unit.</p>
+          <p>On a <strong>typical fenced GTA suburban backyard</strong>, that same $1,000 machine is usually the wrong buy. A cheaper entry unit does most of what the flagship does on a small lot, and a professional barrier spray treats the whole yard for less money and zero daily maintenance. Spend the four figures where the acreage justifies it; on a city lot, put the money toward whole-yard treatment. If you are still weighing traps against every other option &mdash; UV, electric CO2, in-ground &mdash; our <Link href="/blog/best-mosquito-trap">best mosquito trap in Canada guide</Link> ranks the whole category, and our <Link href="/blog/dynatrap-canada-review">DynaTrap Canada review</Link> covers the popular UV-plus-CO2 alternative that costs a fraction of a propane unit.</p>
 
           <aside aria-label="Professional mosquito and tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">A propane trap thins the population. Barrier spray clears the yard today.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A propane trap works over weeks and does nothing for ticks. When you need the backyard usable this weekend, BuzzSkito&rsquo;s licensed barrier spray knocks the whole-yard population down within hours and holds 21&ndash;30 days &mdash; from $99 for a single treatment across 19 GTA cities. Add our tick program at $597/season standalone, or $497/season bundled with a mosquito plan, for the ground-level threat no trap touches.</p>
+            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">A propane trap thins the population. Barrier spray treats the whole yard in one visit.</h3>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A propane trap works over weeks and does nothing for ticks. When you need the backyard usable this weekend, BuzzSkito&rsquo;s licensed barrier spray treats the resting areas across the whole yard in a single visit &mdash; from $99 for a single treatment across 19 GTA cities. Add our tick program at $597/season standalone, or $497/season bundled with a mosquito plan, for the ground-level threat no trap touches.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -253,8 +254,8 @@ export default function PropaneMosquitoTrapCanadaPage() {
           </aside>
 
           <h2>Propane trap vs professional barrier spray</h2>
-          <p>These two tools are not really rivals; they work on different clocks. A propane trap draws the biting-female population down <em>slowly</em> &mdash; 4 to 8 weeks of continuous running before you notice a real dent &mdash; and keeps working all season as a population tool. A professional barrier spray does the opposite: it coats the shaded leaf surfaces where mosquitoes rest and knocks the whole-yard population down <em>within hours</em>, holding for about 21&ndash;30 days per treatment. Only one of them also suppresses ticks, and it is the spray, because ticks never fly to a CO2 plume.</p>
-          <p>So the choice is about timing and property. Need the yard usable for a barbecue, a graduation party, or a long weekend? Spray wins, hands down &mdash; you cannot wait six weeks for a trap to ramp. Have a chemical-free preference and a big rural lot where nobody is in a hurry? A propane trap fits. For a deeper head-to-head on this exact trade-off, our <Link href="/blog/mosquito-magnet-vs-professional-spray">Mosquito Magnet vs professional spray comparison</Link> breaks down cost, speed, and coverage side by side. The setup we see win most often in the GTA: barrier spray for fast whole-yard knockdown, plus a trap only where the acreage justifies the fuel bill.</p>
+          <p>These two tools are not really rivals; they work on different clocks. A propane trap draws the biting-female population down <em>slowly</em> &mdash; 4 to 8 weeks of continuous running before you notice a real dent &mdash; and keeps working all season as a population tool. A professional barrier spray does the opposite: it coats the shaded leaf surfaces where mosquitoes rest and works on the resting population <em>the day it is applied</em>, then is re-applied on a schedule. Only one of them can be paired with tick treatment, and it is the spray, because ticks never fly to a CO2 plume.</p>
+          <p>So the choice is about timing and property. Need the yard usable for a barbecue, a graduation party, or a long weekend? Spray is the better fit &mdash; you cannot wait six weeks for a trap to ramp. Have a no-spray preference and a big rural lot where nobody is in a hurry? A propane trap fits. For a deeper head-to-head on this exact trade-off, our <Link href="/blog/mosquito-magnet-vs-professional-spray">Mosquito Magnet vs professional spray comparison</Link> breaks down cost, speed, and coverage side by side. The setup we see win most often in the GTA: barrier spray for whole-yard treatment, plus a trap only where the acreage justifies the fuel bill.</p>
 
           <h2>Where to place a propane trap in an Ontario yard</h2>
           <ul>
@@ -266,7 +267,7 @@ export default function PropaneMosquitoTrapCanadaPage() {
           </ul>
 
           <h2>Bottom line for Canadian buyers in 2026</h2>
-          <p>A propane mosquito trap is a legitimate, science-backed way to draw down a mosquito population &mdash; on the right property. If you own a cottage or a 1+ acre rural lot with chronic pressure, a Mosquito Magnet Executive (or the cheaper Patriot Plus if the reach is enough) can reclaim your summer evenings, provided you accept the $350&ndash;$550/season fuel-and-cartridge habit and the fact that it does nothing for ticks. If you have a normal fenced GTA backyard, a four-figure propane trap is usually more machine than the lot can use; a professional barrier spray delivers faster, more complete, tick-inclusive control for less money and no maintenance. Don&rsquo;t buy the trap the marketing sells you &mdash; buy the tool your acreage and your calendar actually call for.</p>
+          <p>A propane mosquito trap is a legitimate, science-backed way to draw down a mosquito population &mdash; on the right property. If you own a cottage or a 1+ acre rural lot with chronic pressure, a Mosquito Magnet Executive (or the cheaper Patriot Plus if the reach is enough) can reclaim your summer evenings, provided you accept the $350&ndash;$550/season fuel-and-cartridge habit and the fact that it does nothing for ticks. If you have a normal fenced GTA backyard, a four-figure propane trap is usually more machine than the lot can use; a professional barrier spray treats the whole yard on a schedule, can be paired with tick treatment, and costs less with no maintenance. Don&rsquo;t buy the trap the marketing sells you &mdash; buy the tool your acreage and your calendar actually call for.</p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -292,7 +293,7 @@ export default function PropaneMosquitoTrapCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="A Propane Trap Thins Them Out. We Clear the Whole Yard." subtext="Get a free quote for licensed barrier spray across the GTA. From $99. Same-day yard protection. 30-day residual." variant="dark" />
+      <CTASection heading="A Propane Trap Thins Them Out. We Treat the Whole Yard." subtext={`Get a free quote for licensed barrier spray across the GTA. From $99. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

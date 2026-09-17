@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // DATA PROVENANCE — read before editing any number on this page.
@@ -66,7 +67,7 @@ const FAQS = [
   {
     question: 'What can I do to reduce my household risk?',
     answer:
-      'Three layers: (1) Yard — habitat modification (leaf-litter removal, short mowing, a gravel or wood-chip buffer between lawn and forest edge) plus a professional tick barrier treatment on the perimeter zones where ticks concentrate. Each application leaves up to 30 days of residual, so a season program is five treatments spread roughly monthly from May through September — enough to stay covered across peak nymph activity in May–July and through adult activity in the autumn, and to keep renewing the barrier as deer, mice and birds carry new ticks in from adjacent woodland. (2) Personal — DEET or icaridin on skin, permethrin on outdoor clothing, light-coloured clothing, and a daily tick check, since Lyme transmission generally requires 24 to 36 hours of attachment. (3) Medical — know the symptoms (an expanding rash, often but not always a bullseye, plus fever, fatigue and joint pain) and see a doctor promptly after a known bite. Early antibiotic treatment is highly effective.',
+      'Three layers: (1) Yard — habitat modification (leaf-litter removal, short mowing, a gravel or wood-chip buffer between lawn and forest edge) plus a professional tick barrier treatment on the perimeter zones where ticks concentrate. The residual wears down with time and rain, so a season program is five treatments spread roughly monthly from May through September — timed to span peak nymph activity in May–July and the start of adult activity in the autumn, and to keep renewing the barrier as deer, mice and birds carry new ticks in from adjacent woodland. (2) Personal — DEET or icaridin on skin, factory permethrin-treated outdoor clothing, light-coloured clothing, and a daily tick check, since Lyme transmission generally requires 24 to 36 hours of attachment. (3) Medical — know the symptoms (an expanding rash, often but not always a bullseye, plus fever, fatigue and joint pain) and see a doctor promptly after a known bite. Early antibiotic treatment is highly effective.',
   },
 ]
 
@@ -189,8 +190,8 @@ export default function LymeCasesOntario2026Page() {
 
         <h3>The household plan</h3>
         <ol>
-          <li><strong>Yard</strong> &mdash; habitat modification first (clear leaf litter from edges, mow short, put a gravel or wood-chip buffer between lawn and forest edge), then a professional barrier treatment on the perimeter zones where ticks actually sit. Each application holds up to 30 days of residual, so the season program is five treatments spread roughly monthly from May through September. A late-spring-and-late-summer pair would leave a multi-month hole straight through the May&ndash;July nymph peak &mdash; the worst stretch to be uncovered &mdash; and wildlife moving in off the ravine restocks the property all season regardless.</li>
-          <li><strong>Personal protection</strong> &mdash; DEET or icaridin on skin, permethrin on outdoor clothing, light colours, and a full check within a couple of hours of coming inside.</li>
+          <li><strong>Yard</strong> &mdash; habitat modification first (clear leaf litter from edges, mow short, put a gravel or wood-chip buffer between lawn and forest edge), then a professional barrier treatment on the perimeter zones where ticks actually sit. The residual wears down with time and rain, so the season program is five treatments spread roughly monthly from May through September. A late-spring-and-late-summer pair would leave a multi-month hole straight through the May&ndash;July nymph peak &mdash; the worst stretch to be uncovered &mdash; and wildlife moving in off the ravine restocks the property all season regardless.</li>
+          <li><strong>Personal protection</strong> &mdash; DEET or icaridin on skin, factory permethrin-treated outdoor clothing, light colours, and a full check within a couple of hours of coming inside.</li>
           <li><strong>Pets</strong> &mdash; veterinary tick preventatives (Bravecto, NexGard, Simparica) plus a physical check of ears, between toes, and the chest and belly.</li>
           <li><strong>Medical awareness</strong> &mdash; an expanding rash (often but not always a bullseye), fever, fatigue, and joint pain in the 3 to 30 days after a bite all warrant a prompt doctor visit. Early antibiotic treatment is highly effective.</li>
           <li><strong>Tick removal</strong> &mdash; fine-tipped tweezers, pull straight out without twisting, keep the tick, and watch the bite site.</li>
@@ -224,7 +225,7 @@ export default function LymeCasesOntario2026Page() {
 
       </article>
 
-      <CTASection heading="Ontario&rsquo;s tick trend is going one direction — get your yard protected" subtext="Free custom quote based on your lot and yard features. Sent within 24 hours." />
+      <CTASection heading="Ontario&rsquo;s tick trend is going one direction — get your yard treated" subtext={`Free custom quote based on your lot and yard features. ${PROMISES.response}`} />
     </>
   )
 }

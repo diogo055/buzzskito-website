@@ -3,8 +3,10 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { BUSINESS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Hamilton Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
@@ -46,19 +48,19 @@ const FAQS = [
   },
   {
     question: 'What is residential mosquito spray service in Hamilton?',
-    answer: "Residential mosquito spray — also called barrier spray or barrier treatment — is a professional service where a licensed technician applies a fine residual insecticide mist to all the vegetation on your property: shrubs, hedges, garden beds, fence lines, and the underside of leaves up to 10 feet high. This is where mosquitoes rest during the day. The formula kills mosquitoes on contact and remains active on treated surfaces for up to 30 days, continuously eliminating mosquitoes that enter the treated zone. BuzzSkito's residential mosquito spray service in Hamilton uses Health Canada–approved, water-based formulas that are safe for children and pets after a 30-minute drying period.",
+    answer: "Residential mosquito spray — also called barrier spray or barrier treatment — is a professional service where a licensed technician applies a fine residual insecticide mist to all the vegetation on your property: shrubs, hedges, garden beds, fence lines, and the underside of leaves up to 10 feet high. This is where mosquitoes rest during the day. The spray dries onto those surfaces, and treatments are repeated on a set schedule through the season (monthly, every two weeks or weekly, depending on the plan). BuzzSkito's residential mosquito spray service in Hamilton is applied by an Ontario-licensed pesticide operator (Licence L-240-2436835197), with products applied according to label directions. Keep people and pets off treated areas until the spray has dried, as the product label directs.",
   },
   {
     question: 'How many mosquito treatments does a Hamilton property need per season?',
-    answer: "Most Hamilton properties benefit from five treatments spaced 21–28 days apart, running from May through September. Properties immediately adjacent to Cootes Paradise, Red Hill Creek, or Spencer Creek — which face continuous re-pressure from large adjacent breeding areas — may benefit from a sixth treatment during the peak July–August window. Hamilton's season typically starts earlier in the spring than outer GTA communities because the lower city's microclimate warms faster than the Escarpment.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Many Hamilton properties are well-served by Basic; properties immediately adjacent to Cootes Paradise, Red Hill Creek, or Spencer Creek — which face continuous re-pressure from large adjacent breeding areas — typically benefit from Standard's two-week spacing. Hamilton's season typically starts earlier in the spring than outer GTA communities because the lower city's microclimate warms faster than the Escarpment.",
   },
   {
     question: 'How much does professional mosquito spray cost in Hamilton?',
-    answer: "Mosquito spray pricing varies by property size and the number of treatments in a seasonal program. BuzzSkito provides free quotes for all Hamilton properties — call (289) 216-5030 or use our online contact form. There are no contracts: you can book individual treatments or a full seasonal program. Our free re-spray guarantee means if mosquitoes return before your next scheduled treatment, we come back at no cost.",
+    answer: "Mosquito spray pricing varies by property size and the number of treatments in a seasonal program. On a standard lot under 10,000 sq ft, a single visit starts from $99, and season plans are $549 (Basic, 5 sprays), $994 (Standard, 10 sprays) or $2,049 (Exclusive, 20+ sprays), plus HST. BuzzSkito provides free quotes for all Hamilton properties — call (289) 216-5030 or use our online contact form. There are no contracts: you can book individual treatments or a full seasonal program. Rain within 1 hour of your treatment? We come back and re-treat free, on every plan. Standard and Exclusive plans also carry the Bite-Free Guarantee: if mosquitoes come back between scheduled treatments, we re-treat at no charge.",
   },
   {
     question: 'How does BuzzSkito compare to other mosquito control companies in Hamilton?',
-    answer: "BuzzSkito is a mosquito and tick specialist rather than a general pest control company, starts from $99 for a single Hamilton treatment with no contract, and holds 150+ five-star Google reviews at a 5.0 average with zero negatives. MosquitoMan carries the larger review volume across Southern Ontario (900+) and works from seasonal programs. LawnSavers prices standalone mosquito service from $129 per treatment and tends to fit best if you already use their lawn care. Mosquito.Buzz is a national franchise that quotes per location. The comparison table on this page sets out pricing, review counts, and contract terms side by side.",
+    answer: "Ask every Hamilton company the same five questions: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); a rain-back re-treat if it rains within 1 hour, on every plan; Ontario Pesticide Operator Licence L-240-2436835197; and the Bite-Free Guarantee on Standard & Exclusive plans. BuzzSkito is a mosquito and tick specialist rather than a general pest control company, with 150+ five-star Google reviews at a 5.0 average. The checklist table on this page sets the questions out side by side.",
   },
   {
     question: 'Do Hamilton mosquito control companies require a contract?',
@@ -66,11 +68,11 @@ const FAQS = [
   },
   {
     question: 'What should I look for in a Hamilton mosquito control company?',
-    answer: "Six things: a Health Canada–approved formulation; an Ontario Pesticide Applicator's Licence held by the technician actually spraying; a written re-treatment guarantee covering heavy rain in the first hour before the product cures; pricing published up front rather than withheld until an in-home estimate; single-treatment pricing you can compare directly instead of only seasonal package totals; and reviews from Hamilton customers specifically, because Cootes Paradise and Escarpment pressure is not the same problem a Toronto crew is solving.",
+    answer: "Six things: products applied according to label directions; an Ontario Pesticide Applicator's Licence held by the technician actually spraying; a written re-treatment guarantee if it rains within an hour of treatment; pricing published up front rather than withheld until an in-home estimate; single-treatment pricing you can compare directly instead of only seasonal package totals; and reviews from Hamilton customers specifically, because Cootes Paradise and Escarpment pressure is not the same problem a Toronto crew is solving.",
   },
   {
-    question: 'Is the mosquito spray safe for children and pets in Hamilton?',
-    answer: "Yes. BuzzSkito uses Health Canada–approved, water-based barrier spray formulas for all residential treatments in Hamilton. Children and pets can return to the treated yard 30 minutes after the spray has dried. The product bonds to leaf surfaces and vegetation where mosquitoes rest — not to grass at ground level where children play. We observe buffer zones around vegetable gardens, sandboxes, and pet areas on every property we treat.",
+    question: 'What precautions apply for children and pets after a Hamilton treatment?',
+    answer: "BuzzSkito's Hamilton treatments are applied by an Ontario-licensed pesticide operator (Licence L-240-2436835197), and products are applied according to label directions. Keep children and pets off treated areas until the spray has dried, as the product label directs. The spray is aimed at leaf surfaces and vegetation where mosquitoes rest, not at open lawn. We observe buffer zones around vegetable gardens, sandboxes, and pet areas on every property we treat.",
   },
   {
     question: 'Does BuzzSkito provide tick control in Hamilton too?',
@@ -96,17 +98,17 @@ export default function HamiltonMosquitoPage() {
         ]}
         title={<>Hamilton Mosquito Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Hamilton&apos;s specialist barrier spray for Cootes Paradise, Dundas Valley, escarpment, and creek-adjacent properties. Health Canada-approved, safe for kids and pets in 30 minutes, backed by the <strong className="text-amber-400">BuzzSkito Bite-Free Guarantee</strong>.</>}
+        subtitle={<>Licensed Ontario pesticide operator. Treatments applied according to label directions, with specialist barrier spray for Cootes Paradise, Dundas Valley, escarpment, and creek-adjacent Hamilton properties.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -114,7 +116,7 @@ export default function HamiltonMosquitoPage() {
       {/* QUICK ANSWER */}
       <QuickAnswer question="What is the best mosquito control company in Hamilton?">
         <p>
-          <strong>BuzzSkito provides specialist mosquito barrier spray across Hamilton — Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, and Binbrook.</strong> Treatments use Health Canada-approved formulations applied to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong>, with seasonal programs available on quote. With <strong>150+ five-star Google reviews</strong>, no contracts, a 30-minute re-entry window, and the <strong>BuzzSkito Bite-Free Guarantee</strong>, Hamilton homeowners get reliable barrier spray for escarpment, Cootes Paradise, and Dundas Valley properties. Call (289) 216-5030.
+          <strong>BuzzSkito provides specialist mosquito barrier spray across Hamilton — Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, and Binbrook.</strong> Treatments are applied by an Ontario-licensed pesticide operator, according to label directions, to vegetation and shrub interiors where mosquitoes rest. Single treatments start at <strong>$99</strong> on a standard lot under 10,000 sq ft, with season plans from $549. With <strong>150+ five-star Google reviews</strong>, no contracts, a rain-back guarantee on every plan, and the <strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong>, Hamilton homeowners get reliable barrier spray for escarpment, Cootes Paradise, and Dundas Valley properties. Call (289) 216-5030.
         </p>
       </QuickAnswer>
 
@@ -128,15 +130,16 @@ export default function HamiltonMosquitoPage() {
                 {[
                   ['Service area', 'All Hamilton neighbourhoods (Stoney Creek, Dundas, Ancaster, Westdale, Waterdown, Rymal, Downtown Hamilton, Mount Hope, Binbrook, Flamborough)'],
                   ['Specialization', 'Mosquito barrier spray for residential properties'],
-                  ['Pricing', 'From $99 per treatment · seasonal programs available on quote'],
+                  ['Pricing', 'From $99 per treatment on a standard lot under 10,000 sq ft · season plans from $549 (plus HST)'],
                   ['Treatment season', 'May through September (peak: late May–July)'],
-                  ['Protection per visit', 'Up to 30 days residual'],
-                  ['Re-entry time', '30 minutes after spray dries (kid and pet safe)'],
-                  ['Recommended schedule', '4–5 treatments per season for escarpment- or creek-adjacent properties'],
+                  ['Sprays per season', '5 (Basic), 10 (Standard) or 20+ (Exclusive) · tick: 5'],
+                  ['Re-entry', 'Stay off treated areas until the spray has dried, as the product label directs'],
+                  ['Licence', PROMISES.licence],
+                  ['Recommended schedule', 'Standard (10 sprays, every 2 weeks) for escarpment- or creek-adjacent properties; Basic (5 sprays, monthly) for lower-exposure lots'],
                   ['Highest pressure zones', 'Cootes Paradise · Dundas Valley · Red Hill Creek · Niagara Escarpment edge · Bayfront'],
                   ['Booking lead time', 'Same-week service typical'],
                   ['Contract required', 'No — single treatments and seasonal programs both available'],
-                  ['Guarantee', 'BuzzSkito Bite-Free Guarantee (free re-treatment in protection window)'],
+                  ['Guarantee', `${PROMISES.rainBackShort} · ${PROMISES.biteFreeScope}`],
                   ['Google reviews', '150+ reviews · 5.0 average · 0 negative'],
                   ['Phone', BUSINESS.phone],
                 ].map(([k, v]) => (
@@ -162,6 +165,8 @@ export default function HamiltonMosquitoPage() {
         </div>
       </section>
 
+      <TypicalPrices service="mosquito" city="Hamilton" />
+
       {/* How It Works */}
       <section className="py-14 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -170,8 +175,8 @@ export default function HamiltonMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your Hamilton property — identifying Escarpment exposure, creek proximity, and mosquito pressure zones specific to your neighbourhood.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, fence lines, and property perimeters using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the protection window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies barrier spray, according to label directions, to all vegetation, shrub interiors, leaf undersides, fence lines, and property perimeters using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `${PROMISES.rainBack} Standard and Exclusive plans also carry the Bite-Free Guarantee between scheduled visits.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -189,7 +194,7 @@ export default function HamiltonMosquitoPage() {
           <p>Hamilton is one of the GTA&apos;s most challenging cities for mosquito control because of its unique combination of natural features. Cootes Paradise — a 250-hectare wetland complex at the western end of Hamilton Harbour — is one of the largest urban wetlands in the Great Lakes basin. It generates enormous quantities of mosquitoes from May through September, and its proximity to Westdale, Ainslie Wood, and Ancaster means that residents in Hamilton&apos;s west end face continuous re-pressure from this massive breeding source throughout the season.</p>
           <p>Red Hill Creek runs north through the east end from Glanbrook to the Harbour, providing a second major mosquito corridor. Spencer Creek drains the Dundas Valley and flows through Dundas, Greensville, and Ancaster. The Niagara Escarpment channels moisture and creates cool, humid air pockets in the lower city that adult mosquitoes exploit as daytime resting habitat. Combined, these features give Hamilton a mosquito season that often starts earlier than other GTA cities and lasts well into September.</p>
           <p>The east end stacks several of those features into one community: Stoney Creek runs from the Lake Ontario shoreline up to the Escarpment brow with the Red Hill ravine cutting through the middle. We map that pressure area by area in <Link href="/blog/mosquito-tick-control-stoney-creek" className="text-brand-700 hover:underline">the Stoney Creek mosquito and tick breakdown</Link>.</p>
-          <p>For Hamilton homeowners, professional mosquito barrier spray is the most reliable way to reclaim backyard space. BuzzSkito&apos;s service targets every surface on your property where mosquitoes rest — shrubs, hedges, under-deck vegetation, fence lines, and garden bed borders — providing up to 30 days of continuous protection after each treatment.</p>
+          <p>For Hamilton homeowners, professional mosquito barrier spray is the most reliable way to reclaim backyard space. BuzzSkito&apos;s service targets every surface on your property where mosquitoes rest — shrubs, hedges, under-deck vegetation, fence lines, and garden bed borders — with treatments repeated on a set schedule through the season.</p>
 
           <h2>Hamilton Neighbourhoods We Serve for Mosquito Control</h2>
           <div className="not-prose flex flex-wrap gap-2 mb-6">
@@ -204,18 +209,20 @@ export default function HamiltonMosquitoPage() {
           <h2>What&apos;s Included in Every Hamilton Mosquito Treatment</h2>
           <ul>
             <li><strong>Full-yard barrier spray</strong> — We treat all vegetation, shrubs, hedges, garden beds, fence lines, and under-canopy surfaces where mosquitoes rest during the day. Coverage up to 10 feet high.</li>
-            <li><strong>Up to 30-day residual protection</strong> — The formula bonds to leaf surfaces as it dries and continues killing mosquitoes for up to 30 days after application.</li>
-            <li><strong>Rain-resistance guarantee</strong> — Significant rain within one hour of application? We return and re-treat at no cost.</li>
-            <li><strong>Safe for kids and pets</strong> — Health Canada–approved water-based formula. Children and pets can return to the yard 30 minutes after the spray has dried.</li>
-            <li><strong>Free re-spray guarantee</strong> — If mosquitoes return within the protection window, we come back at no additional charge.</li>
+            <li><strong>Residual barrier on leaf surfaces</strong> — The formula dries onto the leaf surfaces where mosquitoes rest, and treatments repeat monthly, every two weeks or weekly depending on your plan.</li>
+            <li><strong>Rain-back guarantee</strong> — {PROMISES.rainBack}</li>
+            <li><strong>Label-directed application</strong> — {PROMISES.labelLine}, by an operator holding {PROMISES.licence}. Keep children and pets off treated areas until the spray has dried, as the product label directs.</li>
+            <li><strong>Bite-Free Guarantee on Standard &amp; Exclusive plans</strong> — If mosquitoes come back between scheduled treatments, we re-treat at no additional charge.</li>
             <li><strong>Written service documentation</strong> — Every visit includes a detailed service log delivered by SMS after treatment.</li>
           </ul>
 
           <h2>Recommended Hamilton Mosquito Treatment Schedule</h2>
-          <p>We recommend five treatments per season for most Hamilton properties: early May, June, July, August, and September. Properties adjacent to Cootes Paradise, Red Hill Creek, or Spencer Creek may benefit from a sixth treatment during the peak July–August window. Early May treatment is especially important in Hamilton because the lower city&apos;s microclimate means mosquitoes emerge earlier here than in many GTA suburbs.</p>
+          <p>Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Many Hamilton properties are well-served by Basic; properties adjacent to Cootes Paradise, Red Hill Creek, or Spencer Creek typically benefit from Standard&apos;s two-week spacing. Early May treatment is especially important in Hamilton because the lower city&apos;s microclimate means mosquitoes emerge earlier here than in many GTA suburbs.</p>
 
           <h2>Tick Control in Hamilton</h2>
           <p>Hamilton&apos;s Dundas Valley Conservation Area, Escarpment trails, and the Bruce Trail corridor are established blacklegged tick habitat. Many Hamilton homeowners bundle mosquito and tick control in a single visit. See our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Hamilton tick spray service</Link> for details.</p>
+
+          <CityPriceCard city="Hamilton" service="mosquito" />
 
           <h2>Everything Hamilton Homeowners Ask About Mosquito Control</h2>
 
@@ -226,7 +233,7 @@ export default function HamiltonMosquitoPage() {
           <p>No &mdash; not on residential properties. Hamilton Public Services performs targeted larviciding of catch basins for West Nile surveillance. The City does not treat private yards. Yard-level mosquito control is the homeowner&apos;s responsibility.</p>
 
           <h3>How much does Hamilton mosquito control cost for a typical lot?</h3>
-          <p>For a standard Hamilton residential lot under 6,000 sq ft: from $99 per single treatment. Larger Ancaster or Dundas estate properties require a custom quote. No contracts &mdash; book one treatment and decide whether to continue.</p>
+          <p>For a standard Hamilton residential lot under 10,000 sq ft: from $99 per single treatment. Larger Ancaster or Dundas estate properties require a custom quote. No contracts &mdash; book one treatment and decide whether to continue.</p>
 
           <h3>When does Hamilton mosquito season actually start?</h3>
           <p>Hamilton mosquitoes typically emerge when daytime temperatures consistently exceed 10°C &mdash; usually late April or early May. The lower city&apos;s urban heat island effect and Lake Ontario thermal moderation often produce activity slightly earlier than inland GTA cities. Peak runs late May through July.</p>
@@ -234,8 +241,8 @@ export default function HamiltonMosquitoPage() {
           <h3>Why are Dundas, Ancaster, and Westdale so affected by mosquitoes?</h3>
           <p>These west Hamilton communities are at the foot of the Niagara Escarpment, immediately adjacent to Cootes Paradise, Spencer Creek (Dundas), and the Bruce Trail corridor. The Escarpment microclimate keeps vegetation moist and humid, creating ideal mosquito resting habitat. Conservation lands and dense forest understorey support sustained mosquito populations across the season.</p>
 
-          <h3>Will mosquito spray harm fish in Cootes Paradise or Spencer Creek?</h3>
-          <p>The Health Canada-approved formula is applied to vegetation on your property &mdash; never to water. Once dried (about 30 minutes), it bonds to leaves and does not leach into waterways. We maintain buffer zones around any riparian areas at your property line.</p>
+          <h3>How is mosquito spray kept out of Cootes Paradise and Spencer Creek?</h3>
+          <p>The spray is applied to vegetation on your property &mdash; never to water &mdash; and according to the product label, which sets out how close to water it may be used. We maintain buffer zones around any riparian areas at your property line.</p>
 
           <h3>Are there mosquitoes near the Hamilton waterfront and Bayfront Park?</h3>
           <p>Yes &mdash; Hamilton Harbour shoreline vegetation and high humidity create lakefront mosquito activity that affects east-end properties from Bayfront through Confederation Park. Wind off the lake helps during the day, but calm evenings create heavy feeding windows.</p>
@@ -247,71 +254,57 @@ export default function HamiltonMosquitoPage() {
           <p>Stoney Creek&apos;s Red Hill Creek corridor, ravine system, and proximity to Lake Ontario&apos;s south shore create sustained mosquito pressure. Properties along the Red Hill Valley Parkway corridor and lakefront Stoney Creek face the most exposure. Our Stoney Creek mosquito control service serves this area.</p>
 
           <h3>Can BuzzSkito treat my Hamilton backyard before a wedding or party?</h3>
-          <p>Yes &mdash; pre-event treatment is a common booking. We recommend the spray 2–4 days before your event. The barrier becomes fully active over 24 hours and continues for up to 30 days. For backyard weddings or graduations in Westdale, Dundas, or Ancaster, this timing window gives peak protection on event day.</p>
+          <p>Yes &mdash; pre-event treatment is a common booking. We recommend the spray 2–4 days before your event, so it has dried well before guests arrive and there is room to re-book if the forecast turns wet. For backyard weddings or graduations in Westdale, Dundas, or Ancaster, tell us the event date when you book.</p>
 
           <h3>What happens if it rains right after my Hamilton treatment?</h3>
-          <p>Once dry (about 30 minutes), the formula bonds to leaf surfaces and becomes rain-resistant. If heavy rain falls within one hour of application &mdash; before the product cures &mdash; we return and re-treat at no charge. Part of the BuzzSkito Bite-Free Guarantee.</p>
+          <p>If it rains within 1 hour of your treatment, we come back and re-treat free. That rain-back guarantee comes with every plan; it is separate from the Bite-Free Guarantee, which covers Standard and Exclusive plans.</p>
 
           <h3>Does mosquito spray work against Hamilton ticks too?</h3>
-          <p>The same Health Canada-approved formula kills blacklegged ticks on contact, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods. Hamilton tick risk is significant: Dundas Valley Conservation Area, Bruce Trail corridor, and Royal Botanical Gardens edge are confirmed blacklegged tick habitat. Many Hamilton homeowners bundle our Hamilton tick spray with mosquito control.</p>
+          <p>Barrier spray is also used against blacklegged ticks, but tick control requires different application zones &mdash; the 1–3 ft transition zone where lawn meets woods. Hamilton tick risk is significant: Dundas Valley Conservation Area, Bruce Trail corridor, and Royal Botanical Gardens edge are confirmed blacklegged tick habitat. Many Hamilton homeowners bundle our Hamilton tick spray with mosquito control.</p>
 
           {/* Related Guides */}
 
-          <h2>How Hamilton Mosquito Control Companies Compare</h2>
-          <p>Hamilton homeowners have a handful of professional options, and they aren&rsquo;t structured the same way. Here is an honest side-by-side based on publicly listed pricing, Google review counts, and contract terms for the 2026 season.</p>
+          <h2>What to Ask Any Mosquito Control Company in Hamilton</h2>
+          <p>Hamilton homeowners have a handful of professional options, and they aren&rsquo;t structured the same way. These five questions make any quote easy to compare. Here is how BuzzSkito answers them.</p>
 
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-brand-800 text-white">
-                  <th className="px-4 py-2 text-left">Company</th>
-                  <th className="px-4 py-2 text-left">Single Treatment</th>
-                  <th className="px-4 py-2 text-left">Google Reviews</th>
-                  <th className="px-4 py-2 text-left">Contract Required?</th>
+                  <th className="px-4 py-2 text-left">Question to ask</th>
+                  <th className="px-4 py-2 text-left">BuzzSkito&apos;s answer</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-gray-200 bg-amber-50">
-                  <td className="px-4 py-2 font-bold text-brand-900">BuzzSkito <span className="text-xs font-normal">(mosquito &amp; tick specialist)</span></td>
-                  <td className="px-4 py-2 font-extrabold text-brand-700">From $99</td>
-                  <td className="px-4 py-2">150+ · 5.0 average · 0 negative</td>
-                  <td className="px-4 py-2 text-emerald-700 font-semibold">No — book one visit</td>
-                </tr>
-                <tr className="border-b border-gray-200">
-                  <td className="px-4 py-2 font-semibold">MosquitoMan</td>
-                  <td className="px-4 py-2">Quote-based</td>
-                  <td className="px-4 py-2">900+ · approx. 4.8 average</td>
-                  <td className="px-4 py-2 text-amber-700">Seasonal programs</td>
-                </tr>
-                <tr className="border-b border-gray-200">
-                  <td className="px-4 py-2 font-semibold">LawnSavers</td>
-                  <td className="px-4 py-2">From $129</td>
-                  <td className="px-4 py-2">500+ (lawn care primary)</td>
-                  <td className="px-4 py-2 text-amber-700">Bundled with lawn plans</td>
-                </tr>
-                <tr className="border-b border-gray-200">
-                  <td className="px-4 py-2 font-semibold">Mosquito.Buzz</td>
-                  <td className="px-4 py-2">Quote-based</td>
-                  <td className="px-4 py-2">Varies by franchise location</td>
-                  <td className="px-4 py-2 text-amber-700">Seasonal programs</td>
-                </tr>
+                {[
+                  ['Is the price shown before you book?', 'From $99 on a standard lot'],
+                  ['How many sprays per season?', '5, 10 or 20+ (tick: 5)'],
+                  ['What happens if it rains after a treatment?', PROMISES.rainBack],
+                  ['Is an Ontario pesticide operator licence number shown?', `Yes: ${BUSINESS.licenseNumber}`],
+                  ['Which plans include a guarantee?', 'Rain-back on every plan; Bite-Free on Standard & Exclusive'],
+                ].map(([q, a]) => (
+                  <tr key={q} className="border-b border-gray-200">
+                    <td className="px-4 py-2 font-semibold text-brand-900">{q}</td>
+                    <td className="px-4 py-2">{a}</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
 
           <h2>How to Choose a Mosquito Control Company in Hamilton</h2>
           <ol>
-            <li><strong>Confirm the formulation is Health Canada&ndash;approved.</strong> Only registered barrier sprays are legal for commercial application in Ontario. Ask before booking.</li>
+            <li><strong>Ask which product will be used.</strong> A professional should name it and apply it according to its label directions. Ask before booking.</li>
             <li><strong>Check the applicator&rsquo;s licence.</strong> Ontario requires a Pesticide Applicator&rsquo;s Licence for any commercial application — the person holding the sprayer, not just the company.</li>
-            <li><strong>Get the rain guarantee in writing.</strong> The product needs roughly an hour to cure. If heavy rain hits before that, a reputable company re-treats at no charge. Anyone who won&rsquo;t put that in writing is worth skipping.</li>
+            <li><strong>Get the rain guarantee in writing.</strong> Look for a free re-treatment if it rains within an hour of treatment. Anyone who won&rsquo;t put that in writing is worth skipping.</li>
             <li><strong>Look for pricing published up front.</strong> Companies that hold back every number until an in-home estimate are usually treating the estimate as a sales visit.</li>
             <li><strong>Compare single-treatment pricing, not just seasonal totals.</strong> Per-visit price is the only number that shows what you actually get for the money.</li>
             <li><strong>Read Hamilton reviews specifically, and ask Hamilton questions.</strong> A crew that can explain Cootes Paradise carry, Spencer Creek in Dundas, or Red Hill Creek in the east end knows the pressure on your street. Regional franchises sometimes have strong Toronto reviews and thin Hamilton coverage.</li>
           </ol>
-          <p>BuzzSkito meets all six: Health Canada&ndash;approved formula, licensed applicators, the Bite-Free Guarantee in writing, published $99 single-treatment pricing, and 150+ five-star reviews with named Hamilton neighbourhoods in them.</p>
+          <p>BuzzSkito meets all six: products applied according to label directions, {PROMISES.licence}, a rain-back guarantee on every plan (plus the Bite-Free Guarantee on Standard &amp; Exclusive plans), published $99 single-treatment pricing, and 150+ five-star reviews with named Hamilton neighbourhoods in them.</p>
 
           <h2>Compare Hamilton Pest Control Options</h2>
-          <p>Looking at all your Hamilton pest control options? See our specialist guide: <Link href="/pest-control-hamilton" className="text-brand-700 hover:underline font-semibold">Pest Control in Hamilton</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Hamilton backyard misery. For head-to-head detail on any single provider, see <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">BuzzSkito vs MosquitoMan</Link>, <Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">BuzzSkito vs LawnSavers</Link>, <Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">BuzzSkito vs Mosquito.Buzz</Link>, or the <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">GTA-wide provider comparison</Link>.</p>
+          <p>Looking at all your Hamilton pest control options? See our specialist guide: <Link href="/pest-control-hamilton" className="text-brand-700 hover:underline font-semibold">Pest Control in Hamilton</Link> — explains why a mosquito and tick specialist beats a generalist for the two pests that actually drive Hamilton backyard misery. For more detail on how different kinds of provider are set up, see <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">compare mosquito control options</Link>, <Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">specialist vs lawn-care bundles</Link>, <Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">specialist vs franchise service</Link>, or the <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">GTA-wide provider comparison</Link>.</p>
           <h2>Related Guides</h2>
           <ul>
             <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
@@ -352,6 +345,10 @@ export default function HamiltonMosquitoPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city="Hamilton" service="mosquito" location="price_card_faq" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Mosquito Control in {CITY}</h2>
@@ -372,7 +369,7 @@ export default function HamiltonMosquitoPage() {
         </div>
       </section>
 
-      <CTASection heading={`Get a Free Mosquito Control Quote in ${CITY}`} subtext="Serving all Hamilton neighbourhoods from Flamborough to Stoney Creek. No contracts, guaranteed results." />
+      <CTASection heading={`Get a Free Mosquito Control Quote in ${CITY}`} subtext="Serving all Hamilton neighbourhoods from Flamborough to Stoney Creek. No contracts, rain-back guarantee on every plan." />
     </>
   )
 }

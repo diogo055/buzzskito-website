@@ -8,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'off-deep-woods-deet-bug-spray-canada'
 const DATE = '2026-07-12'
@@ -30,11 +31,11 @@ const FAQS = [
   },
   {
     question: 'Is OFF Deep Woods safe for kids?',
-    answer: 'OFF Deep Woods (25% DEET) is stronger than Health Canada recommends for young children. Health Canada guidance: do NOT use any DEET on infants under 6 months; for ages 6 months to 2 years use a maximum of 10% DEET no more than once per day; for ages 2–12 use a maximum of 10% DEET up to three times per day; only ages 12 and up should use adult-strength products up to 30%. For children, Health Canada actually prefers icaridin (picaridin) 20%, which is approved from 6 months of age. So for kids, reach for a 20% icaridin spray or a low-percentage DEET product rather than Deep Woods. See our picaridin vs DEET guide for the full breakdown.',
+    answer: 'OFF Deep Woods (25% DEET) is stronger than Health Canada recommends for young children. Health Canada guidance: do NOT use any DEET on infants under 6 months; for ages 6 months to 2 years use a maximum of 10% DEET no more than once per day; for ages 2–12 use a maximum of 10% DEET up to three times per day; only ages 12 and up should use adult-strength products up to 30%. For children, the Canadian Paediatric Society prefers icaridin (picaridin) 20%, which is labelled for use from 6 months of age. So for kids, reach for a 20% icaridin spray or a low-percentage DEET product rather than Deep Woods. See our picaridin vs DEET guide for the full breakdown.',
   },
   {
     question: 'Can I use OFF bug spray on my dog or cat?',
-    answer: 'No. DEET is toxic to dogs and especially cats — do not apply OFF Deep Woods, OFF FamilyCare, or any DEET product to pets. Signs of DEET poisoning in animals include drooling, vomiting, tremors, and disorientation. Use only veterinarian-approved repellents and flea/tick preventives formulated for the specific animal. If you have applied DEET to your own skin, let it dry and avoid letting pets lick the treated area. For a pet-friendly whole-yard approach, a professional barrier treatment keeps mosquitoes and ticks off the property so you rely far less on personal spray around animals.',
+    answer: 'No. DEET is toxic to dogs and especially cats — do not apply OFF Deep Woods, OFF FamilyCare, or any DEET product to pets. Signs of DEET poisoning in animals include drooling, vomiting, tremors, and disorientation. Use only veterinarian-approved repellents and flea/tick preventives formulated for the specific animal. If you have applied DEET to your own skin, let it dry and avoid letting pets lick the treated area. For the yard itself, a professional barrier treatment targets mosquitoes and ticks where they rest, so you rely far less on personal spray around animals.',
   },
   {
     question: 'Where can I buy OFF Deep Woods in Canada?',
@@ -42,7 +43,7 @@ const FAQS = [
   },
   {
     question: 'OFF Deep Woods vs picaridin — which is better?',
-    answer: 'Both work well; the trade-offs differ. DEET (OFF Deep Woods, 25%) is the most-studied repellent, extremely effective, but it can feel greasy, has a strong odour, and can damage plastics, synthetic fabrics, and gear finishes. Picaridin (icaridin, 20%) matches DEET for mosquito and tick protection at that concentration, is odourless, non-greasy, and safe on gear and plastics — and it is Health Canada\'s preferred choice for children from 6 months. If you want maximum bush-grade staying power and do not mind the feel, Deep Woods wins on duration. If you want an all-day, comfortable, gear-safe spray for the whole family, 20% icaridin is the better everyday pick. Our picaridin vs DEET guide compares them in depth.',
+    answer: 'Both work well; the trade-offs differ. DEET (OFF Deep Woods, 25%) is the most-studied repellent, extremely effective, but it can feel greasy, has a strong odour, and can damage plastics, synthetic fabrics, and gear finishes. Picaridin (icaridin, 20%) matches DEET for mosquito and tick protection at that concentration, is odourless, non-greasy, and won\'t damage gear or plastics — and the Canadian Paediatric Society prefers it for children from 6 months. If you want maximum bush-grade staying power and do not mind the feel, Deep Woods wins on duration. If you want an all-day, comfortable, gear-friendly spray for the whole family, 20% icaridin is the better everyday pick. Our picaridin vs DEET guide compares them in depth.',
   },
 ]
 
@@ -60,7 +61,7 @@ const AMZ_TAG = tagForSlug('off-deep-woods-deet-bug-spray-canada')
 export default function OffDeepWoodsDeetPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Honest 2026 Canadian buyer\'s guide to OFF Deep Woods and DEET bug spray — concentrations, duration, safe use, and where to buy.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Honest 2026 Canadian buyer\'s guide to OFF Deep Woods and DEET bug spray — concentrations, duration, label rules, and where to buy.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'OFF Deep Woods & DEET Bug Spray Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -73,7 +74,7 @@ export default function OffDeepWoodsDeetPage() {
             <span className="text-white">OFF Deep Woods &amp; DEET Bug Spray</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">DEET percentages and how long they last, OFF Deep Woods vs FamilyCare, safe use around kids and pets, and where to buy across Canadian retailers.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">DEET percentages and how long they last, OFF Deep Woods vs FamilyCare, the label rules for kids and pets, and where to buy across Canadian retailers.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -85,12 +86,12 @@ export default function OffDeepWoodsDeetPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian adults, buy OFF Deep Woods (about 25% DEET) — it lasts 5–6 hours, costs about $9–$14, and handles cottage country, hiking, and heavy dusk mosquito pressure. For kids under 12 or an all-day gear-safe option, use a 20% icaridin (picaridin) spray instead.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian adults, buy OFF Deep Woods (about 25% DEET) — it lasts 5–6 hours, costs about $9–$14, and handles cottage country, hiking, and heavy dusk mosquito pressure. For kids under 12 or an all-day gear-friendly option, use a 20% icaridin (picaridin) spray instead.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>OFF Deep Woods contains about 25% DEET and protects for roughly 5–6 hours.</li>
               <li>OFF Deep Woods Sportsmen is about 30% DEET — Health Canada&rsquo;s legal maximum — and lasts up to 8 hours.</li>
               <li>OFF FamilyCare (about 15% DEET) protects 3–4 hours and costs $7–$11 per can.</li>
-              <li>Health Canada limits children aged 6 months to 12 years to a maximum of 10% DEET, and prefers 20% icaridin for kids.</li>
+              <li>Health Canada limits children aged 6 months to 12 years to a maximum of 10% DEET; the Canadian Paediatric Society prefers 20% icaridin for kids.</li>
               <li>DEET is toxic to dogs and cats — never apply any OFF product to pets.</li>
               <li>A single Deep Woods aerosol runs $9–$14 in 2026; Costco Canada multipacks land around $20–$28.</li>
             </ul>
@@ -135,16 +136,16 @@ export default function OffDeepWoodsDeetPage() {
               {
                 badge: 'Best Alternative',
                 name: 'Icaridin (Picaridin) 20% Spray',
-                why: 'Matches DEET for mosquito and tick protection at 20%, but odourless, non-greasy, and gear-safe — and Health Canada’s preferred choice for children from 6 months.',
+                why: 'Matches DEET for mosquito and tick protection at 20%, but odourless, non-greasy, and won’t damage gear — and the Canadian Paediatric Society’s preferred choice for children from 6 months.',
                 search: 'icaridin insect repellent',
                 score: 8.6,
-                pros: ['Odourless and non-greasy', 'Gear- and plastic-safe', 'Preferred for kids 6 mo+'],
+                pros: ['Odourless and non-greasy', 'Won’t damage gear or plastics', 'Preferred for kids 6 mo+'],
                 cons: ['Slightly shorter longevity than 30% DEET'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>One can for almost everything?</strong> The <em>Best Overall</em> Deep Woods 25% covers hikes and the cottage. <strong>Brutal blackfly country?</strong> Step up to the <em>Best for the Bush</em> Sportsmen. <strong>Quick backyard trips?</strong> The <em>Best Everyday</em> FamilyCare is plenty, and for kids or an all-day gear-safe option, grab the <em>Best Alternative</em> icaridin. To keep your whole yard bite-free so you spray yourself far less, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>One can for almost everything?</strong> The <em>Best Overall</em> Deep Woods 25% covers hikes and the cottage. <strong>Brutal blackfly country?</strong> Step up to the <em>Best for the Bush</em> Sportsmen. <strong>Quick backyard trips?</strong> The <em>Best Everyday</em> FamilyCare is plenty, and for kids or an all-day gear-friendly option, grab the <em>Best Alternative</em> icaridin. To spray yourself less at home, <Link href="/mosquito-control">professional barrier spray</Link> treats the whole yard on a schedule.
               </>
             }
           />
@@ -191,7 +192,7 @@ export default function OffDeepWoodsDeetPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Bug spray protects your skin — not your yard.</strong> Even the best DEET wears off in hours and has to be reapplied. If mosquitoes and ticks own your property at dusk, a <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier treatment</Link> knocks the population down across the whole yard for 21–30 days, so you spray yourself far less. Many GTA homeowners use both: barrier spray at home, OFF Deep Woods for hikes and the cottage.
+              <strong className="text-amber-900">⚠️ Bug spray protects your skin — not your yard.</strong> Even the best DEET wears off in hours and has to be reapplied. If mosquitoes and ticks own your property at dusk, a <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier treatment</Link> targets the population across the whole yard on a set schedule, so you spray yourself far less. Many GTA homeowners use both: barrier spray at home, OFF Deep Woods for hikes and the cottage.
             </p>
           </div>
         </div>
@@ -215,7 +216,7 @@ export default function OffDeepWoodsDeetPage() {
                   ['Pets (dogs/cats)', 'DEET is toxic — never apply to animals'],
                   ['Works on ticks?', 'Yes — DEET repels ticks as well as mosquitoes'],
                   ['Gear warning', 'DEET can damage plastics, synthetics, and finishes'],
-                  ['Best everyday alternative', '20% icaridin — odourless, gear-safe, all-day'],
+                  ['Best everyday alternative', '20% icaridin — odourless, gear-friendly, all-day'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -230,7 +231,7 @@ export default function OffDeepWoodsDeetPage() {
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
-          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the OFF lineup and a gear-safe icaridin alternative:</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the OFF lineup and a gear-friendly icaridin alternative:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="off deep woods">Check OFF Deep Woods price on Amazon.ca →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="off familycare insect repellent">OFF FamilyCare →</BuyLink>
@@ -313,29 +314,29 @@ export default function OffDeepWoodsDeetPage() {
             </thead>
             <tbody>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>OFF Deep Woods</strong></td><td className="px-3 py-2">25% DEET</td><td className="px-3 py-2">Greasy, strong smell, harms plastics</td><td className="px-3 py-2">Max staying power in the bush</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/picaridin-vs-deet">Icaridin (picaridin)</Link></td><td className="px-3 py-2">20% icaridin</td><td className="px-3 py-2">Odourless, non-greasy, gear-safe</td><td className="px-3 py-2">All-day everyday · kids 6 mo+</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/picaridin-vs-deet">Icaridin (picaridin)</Link></td><td className="px-3 py-2">20% icaridin</td><td className="px-3 py-2">Odourless, non-greasy, gear-friendly</td><td className="px-3 py-2">All-day everyday · kids 6 mo+</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Lemon eucalyptus (OLE)</td><td className="px-3 py-2">30% OLE</td><td className="px-3 py-2">Herbal scent, plant-based</td><td className="px-3 py-2">Shorter outings, plant-based preference</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Yard treatment</td><td className="px-3 py-2">Nothing on your skin</td><td className="px-3 py-2">Whole-yard, 21–30 days, ticks too</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Yard treatment</td><td className="px-3 py-2">Nothing on your skin</td><td className="px-3 py-2">Whole-yard, re-applied on a schedule, ticks too</td></tr>
             </tbody>
           </table>
-          <p>The headline: at 20%, <strong>icaridin matches DEET for mosquito and tick protection</strong> without the grease, smell, or gear damage, and Health Canada prefers it for children. DEET still wins on raw longevity at 25–30%, which is why Deep Woods stays in the pack for serious backcountry days. If you are torn, our full <Link href="/blog/picaridin-vs-deet">picaridin vs DEET comparison for Canada</Link> walks through every trade-off.</p>
+          <p>The headline: at 20%, <strong>icaridin matches DEET for mosquito and tick protection</strong> without the grease, smell, or gear damage, and the Canadian Paediatric Society prefers it for children. DEET still wins on raw longevity at 25–30%, which is why Deep Woods stays in the pack for serious backcountry days. If you are torn, our full <Link href="/blog/picaridin-vs-deet">picaridin vs DEET comparison for Canada</Link> walks through every trade-off.</p>
 
           <h2 id="safe-use">Safe Use: Kids, Pets, and Your Gear</h2>
-          <p>DEET is safe and effective when used as directed, but a few Canadian-specific rules matter:</p>
+          <p>Used as the label directs, DEET is effective, and a few Canadian-specific rules matter:</p>
           <ul>
             <li><strong>Infants under 6 months:</strong> no DEET at all. Use physical barriers — mosquito netting over the stroller or carrier.</li>
-            <li><strong>Children 6 months to 12 years:</strong> Health Canada limits DEET to a maximum of <strong>10%</strong>, and prefers <strong>20% icaridin</strong> (approved from 6 months). OFF Deep Woods at 25% is above the kids limit — do not use it on young children.</li>
+            <li><strong>Children 6 months to 12 years:</strong> Health Canada limits DEET to a maximum of <strong>10%</strong>; the Canadian Paediatric Society prefers <strong>20% icaridin</strong> (labelled for use from 6 months). OFF Deep Woods at 25% is above the kids limit — do not use it on young children.</li>
             <li><strong>Applying to kids:</strong> spray it on your own hands first, then wipe it onto exposed skin. Keep it off hands (they end up in mouths and eyes) and off cuts.</li>
             <li><strong>Pets:</strong> DEET is <strong>toxic to dogs and cats.</strong> Never spray OFF on an animal, and let your own skin dry before petting. Use vet-approved products for pets.</li>
             <li><strong>Gear:</strong> DEET dissolves plastics, some synthetics, watch crystals, sunglasses, and fishing line — spray away from equipment and let it dry before handling gear. (This is a big reason icaridin fans switch.)</li>
             <li><strong>Face:</strong> never spray directly on the face — spray hands and wipe on, avoiding eyes and lips.</li>
             <li><strong>End of day:</strong> wash treated skin with soap and water once you are indoors for the night.</li>
           </ul>
-          <p>None of those rules imply the chemistry itself is hazardous — the U.S. EPA classifies DEET as &ldquo;not classifiable as to human carcinogenicity,&rdquo; and Health Canada caps the concentration rather than banning the ingredient. If that is the part you came to check, <Link href="/blog/is-deet-safe">is DEET safe?</Link> walks through what each agency actually concluded.</p>
+          <p>Those rules are label directions, not a verdict on the ingredient itself — the U.S. EPA classifies DEET as &ldquo;not classifiable as to human carcinogenicity,&rdquo; and Health Canada caps the concentration rather than banning the ingredient. If that is the part you came to check, <Link href="/blog/is-deet-safe">is DEET safe?</Link> walks through what each agency actually concluded.</p>
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Tired of spraying yourself every night?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats your whole yard from $99, cutting mosquitoes and ticks for 21–30 days so you reach for the DEET far less — backed by 150+ five-star reviews across 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats your whole yard from $99, targeting mosquitoes where they rest so you reach for the DEET far less (tick treatment is an add-on at $497/season with a mosquito plan) — backed by 150+ five-star reviews across 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -343,7 +344,7 @@ export default function OffDeepWoodsDeetPage() {
           </aside>
 
           <h2 id="verdict">The Bottom Line for Canadian Buyers</h2>
-          <p>If you want one can that does almost everything, buy <strong>OFF Deep Woods (25% DEET)</strong> for hikes and the cottage, and keep a cheaper <strong>OFF FamilyCare (15%)</strong> by the door for quick backyard trips. Reserve Sportsmen 30% for genuinely brutal blackfly country. For kids under 12, an all-day gear-safe option, or anyone who hates the DEET feel, a <Link href="/blog/picaridin-vs-deet">20% icaridin spray</Link> is the smarter modern pick. And remember what no personal spray can do: keep your <em>yard</em> bite-free. That is what a <Link href="/mosquito-control">professional barrier treatment</Link> is for — so the spray in your bag is for the trail, not your own patio.</p>
+          <p>If you want one can that does almost everything, buy <strong>OFF Deep Woods (25% DEET)</strong> for hikes and the cottage, and keep a cheaper <strong>OFF FamilyCare (15%)</strong> by the door for quick backyard trips. Reserve Sportsmen 30% for genuinely brutal blackfly country. For kids under 12, an all-day gear-friendly option, or anyone who hates the DEET feel, a <Link href="/blog/picaridin-vs-deet">20% icaridin spray</Link> is the smarter modern pick. And remember what no personal spray can do: treat your <em>yard</em>. That is what a <Link href="/mosquito-control">professional barrier treatment</Link> is for — so the spray in your bag is for the trail, not your own patio.</p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -368,7 +369,7 @@ export default function OffDeepWoodsDeetPage() {
         </div>
       </article>
 
-      <CTASection heading="Spray Yourself for the Trail · Treat the Yard for Home" subtext="Get a free quote for licensed barrier spray. From $99. Kills mosquitoes and ticks. 21–30 day residual." variant="dark" />
+      <CTASection heading="Spray Yourself for the Trail · Treat the Yard for Home" subtext={`Get a free quote for licensed barrier spray. From $99. Treats mosquitoes and ticks. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

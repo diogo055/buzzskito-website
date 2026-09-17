@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Control Sunnybrook | From $99',
   description:
-    'Mosquito control in Sunnybrook, Toronto. Barrier spray near Sunnybrook Park & Wilket Creek Park from $99. Safe for kids & pets. (289) 216-5030.',
+    'Mosquito control in Sunnybrook, Toronto. Barrier spray near Sunnybrook Park & Wilket Creek Park from $99. Ontario-licensed. (289) 216-5030.',
   canonical: '/sunnybrook-mosquito-control',
 })
 
@@ -27,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'How many treatments does a Sunnybrook-area home need per season?',
-    answer: "Properties near Sunnybrook Park and Wilket Creek Park typically benefit from 4–5 treatments spaced 21–28 days apart from May through September. The sheer volume of adjacent parkland and permanent water features means mosquito pressure is consistent and sustained throughout the season. We most commonly recommend the full 5-treatment program for park-adjacent properties. Call (289) 216-5030 for a free assessment.",
+    answer: "Season plans run May through September: Basic (5 sprays, monthly), Standard (10 sprays, every 2 weeks) or Exclusive (20+ sprays, weekly). Around Sunnybrook Park and Wilket Creek Park, the sheer volume of adjacent parkland and permanent water features means mosquito pressure is consistent and sustained throughout the season, so we most commonly recommend Standard's two-week spacing for park-adjacent properties. Call (289) 216-5030 for a free assessment.",
   },
   {
     question: 'When does mosquito season start near Sunnybrook Park?',
@@ -57,21 +59,23 @@ export default function SunnybrookMosquitoPage() {
           { label: NEIGHBOURHOOD },
         ]}
         title={<>Mosquito Control in {NEIGHBOURHOOD}, {CITY}</>}
-        subtitle={<>Sunnybrook's residential streets border Sunnybrook Park, Wilket Creek Park, and the Don Valley — over 100 hectares of mosquito breeding habitat. BuzzSkito's barrier spray gives Sunnybrook families 30-day protection per treatment.</>}
+        subtitle={<>Sunnybrook's residential streets border Sunnybrook Park, Wilket Creek Park, and the Don Valley — over 100 hectares of mosquito breeding habitat. Licensed Ontario pesticide operator; treatments applied according to label directions.</>}
         image="/spray-backyard.webp"
       />
 
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
 
+
+      <TypicalPrices service="mosquito" city={NEIGHBOURHOOD} />
 
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
@@ -81,8 +85,8 @@ export default function SunnybrookMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies a barrier product according to its label directions to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Rain-Back Guarantee', desc: `Visits repeat through the season on your plan’s schedule, so the foliage where mosquitoes rest stays treated. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -98,7 +102,7 @@ export default function SunnybrookMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Sunnybrook's Massive Parkland Mosquito Problem</h2>
           <p>The Sunnybrook neighbourhood is defined by its proximity to some of Toronto's largest contiguous green spaces. <strong>Sunnybrook Park</strong> and <strong>Wilket Creek Park</strong> together contain over 100 hectares of forest, meadow, and riparian habitat along <strong>Wilket Creek</strong> and the <strong>West Don River</strong>. These protected parklands — part of the broader Don Valley trail system — sustain permanent water features, seasonal wetlands, and dense canopy that produce large, persistent mosquito populations.</p>
-          <p>Properties in the Sunnybrook neighbourhood are surrounded by this parkland on multiple sides. The extensive tree canopy provides ideal daytime resting habitat for mosquitoes, while the creek and river corridors ensure continuous breeding throughout the season. BuzzSkito's barrier spray creates a protective treatment zone around your property, targeting all resting vegetation and providing up to 30 days of protection between treatments.</p>
+          <p>Properties in the Sunnybrook neighbourhood are surrounded by this parkland on multiple sides. The extensive tree canopy provides ideal daytime resting habitat for mosquitoes, while the creek and river corridors ensure continuous breeding throughout the season. BuzzSkito's barrier spray creates a treatment zone around your property, targeting all resting vegetation, with visits repeated through the season.</p>
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of Sunnybrook and surrounding neighbourhoods. See our <Link href="/bridle-path-mosquito-control" className="text-brand-700 hover:underline">Bridle Path mosquito control</Link> page, or our page for <Link href="/don-mills-mosquito-control" className="text-brand-700 hover:underline">Don Mills</Link>.</p>
@@ -124,10 +128,10 @@ export default function SunnybrookMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, leaving a residual on the foliage where mosquitoes rest, renewed on a regular schedule through the season. The difference is coverage and consistency: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -136,7 +140,7 @@ export default function SunnybrookMosquitoPage() {
 
           
           <h2>Tick Control Also Available</h2>
-          <p>We also offer professional tick control in this area. Protect your family from Lyme disease with our targeted tick barrier spray. See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
+          <p>We also offer professional tick control in this area. Blacklegged ticks can carry Lyme disease, and our targeted tick barrier spray runs 5 sprays per season, $597 on its own or $497 with any mosquito plan. See our <Link href="/toronto-tick-spray" className="text-brand-700 hover:underline">tick spray service</Link> or <Link href="/tick-control" className="text-brand-700 hover:underline">learn about tick control</Link>.</p>
 
           <h2>Related Guides</h2>
           <ul>
@@ -175,6 +179,10 @@ export default function SunnybrookMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

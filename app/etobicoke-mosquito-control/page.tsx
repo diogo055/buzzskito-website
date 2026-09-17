@@ -2,8 +2,10 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { BUSINESS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Etobicoke Mosquito Control 2026 · From $99 · 150+ Five-Star Reviews',
@@ -29,11 +31,11 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
 const FAQS = [
   {
     question: 'Who is the best mosquito control company in Etobicoke?',
-    answer: 'BuzzSkito is the GTA-based mosquito and tick specialist serving Etobicoke, with the lowest entry price at $99 per single treatment, 150+ five-star Google reviews at a 5.0 average with zero negatives, and the BuzzSkito Bite-Free Guarantee — free re-treatment if pests return inside the window. Mosquito Man carries higher review volume across all of Ontario but operates as a general pest control company covering many pest types. LawnSavers serves Etobicoke as part of a broader lawn-care offering. The right choice depends on whether you want specialist depth, the lowest per-visit price, or services bundled with lawn care.',
+    answer: `The best company for your yard is the one that answers five questions clearly before you book: Is the price shown before you book? How many sprays per season? What happens if it rains after a treatment? Is an Ontario pesticide operator licence number shown? Which plans include a guarantee? BuzzSkito's answers: from $99 on a standard lot; 5, 10 or 20+ sprays per season (tick: 5); ${PROMISES.rainBack} Our licence is ${BUSINESS.licenseNumber}, and the Bite-Free Guarantee comes with Standard & Exclusive plans. BuzzSkito has 150+ five-star Google reviews at a 5.0 average.`,
   },
   {
     question: 'How much does mosquito control cost in Etobicoke?',
-    answer: 'BuzzSkito mosquito control in Etobicoke starts from $99 per application. Properties near the Humber River valley, Etobicoke Creek, or Centennial Park typically benefit most from the full seasonal package for continuous protection. No contracts — single treatment or full season. Call (289) 216-5030 for a free Etobicoke quote.',
+    answer: 'BuzzSkito mosquito control in Etobicoke starts from $99 per application. Properties near the Humber River valley, Etobicoke Creek, or Centennial Park typically benefit most from a full seasonal plan, with season plans from $549. No contracts — single treatment or full season. Call (289) 216-5030 for a free Etobicoke quote.',
   },
   {
     question: 'Do Etobicoke mosquito control companies offer no-contract service?',
@@ -41,7 +43,7 @@ const FAQS = [
   },
   {
     question: 'Why does the Humber Valley neighbourhood have a worse mosquito problem than other Etobicoke areas?',
-    answer: "The Humber Valley neighbourhood sits directly on the Humber River valley escarpment, with properties backing onto one of Toronto's widest and most heavily forested ravine systems. The Humber River floodplain below holds standing water after every significant rainfall, and the dense tree canopy on ravine slopes creates cool, humid micro-environments where adult mosquitoes rest during the day. Properties backing onto the ravine face a near-continuous supply of newly emerged mosquitoes throughout the season — barrier spray on your property's vegetation provides a treated buffer that breaks this cycle.",
+    answer: "The Humber Valley neighbourhood sits directly on the Humber River valley escarpment, with properties backing onto one of Toronto's widest and most heavily forested ravine systems. The Humber River floodplain below holds standing water after every significant rainfall, and the dense tree canopy on ravine slopes creates cool, humid micro-environments where adult mosquitoes rest during the day. Properties backing onto the ravine face a near-continuous supply of newly emerged mosquitoes throughout the season — barrier spray treats the vegetation on your property where those mosquitoes rest, and it is repeated through the season because the supply keeps coming.",
   },
   {
     question: 'Do Mimico and Long Branch waterfront properties have more mosquitoes?',
@@ -53,7 +55,7 @@ const FAQS = [
   },
   {
     question: 'Can I bundle tick control with mosquito spray in Etobicoke?',
-    answer: 'Yes, and most Etobicoke homeowners backing onto the Humber River valley or Centennial Park do. Tick control is 5 sprays per season: $597 on its own, or $497 when added to any mosquito plan — a $100 saving. Both treatments are applied on the same visit, so there is no extra scheduling. If your property borders ravine, creek, or parkland vegetation, the bundle covers Lyme-carrying blacklegged ticks and mosquitoes together through the May–September season.',
+    answer: 'Yes, and many Etobicoke homeowners backing onto the Humber River valley or Centennial Park do. Tick control is 5 sprays per season: $597 on its own, or $497 when added to any mosquito plan — a $100 saving. Both treatments are applied on the same visit, so there is no extra scheduling. If your property borders ravine, creek, or parkland vegetation, the bundle treats for blacklegged ticks and mosquitoes together through the May–September season.',
   },
 ]
 
@@ -77,7 +79,7 @@ export default function EtobicokeMosquitoPage() {
         ]}
         title={<>{CITY} Mosquito Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>From the Humber River valley ravines to Mimico&apos;s lakefront — BuzzSkito delivers professional mosquito barrier spray to every Etobicoke neighbourhood.</>}
+        subtitle={<>Licensed Ontario pesticide operator, with treatments applied according to label directions. From the Humber River valley ravines to Mimico&apos;s lakefront, BuzzSkito serves every Etobicoke neighbourhood.</>}
         image="/spray-backyard.webp"
       />
 
@@ -85,10 +87,10 @@ export default function EtobicokeMosquitoPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Bite-Free Guarantee</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ {PROMISES.biteFreeScope}</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -105,6 +107,8 @@ export default function EtobicokeMosquitoPage() {
       </section>
 
       
+      <TypicalPrices service="mosquito" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -113,8 +117,8 @@ export default function EtobicokeMosquitoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Free Property Assessment', desc: 'We evaluate your property — identifying water features, dense vegetation, and mosquito pressure zones specific to your area.' },
-              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to all vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
-              { step: '3', title: '30-Day Protection Guarantee', desc: 'The barrier kills mosquitoes on contact and repels new ones for up to 30 days. If pests return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Professional Barrier Spray', desc: 'Our licensed technician applies the product according to its label directions to vegetation, shrub interiors, leaf undersides, and fence lines using a precision backpack sprayer.' },
+              { step: '3', title: 'Repeat Visits & Guarantees', desc: `Treatments repeat on your plan's schedule through the season. ${PROMISES.rainBack} On Standard & Exclusive plans, if mosquitoes come back between scheduled treatments, we re-treat at no charge.` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-brand-800 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -130,7 +134,7 @@ export default function EtobicokeMosquitoPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Mosquito Pressure Is High in Etobicoke</h2>
           <p>Etobicoke is defined by water. The Humber River — one of Toronto&apos;s widest and most ecologically significant river corridors — runs along its eastern boundary, with a vast floodplain forest and ravine system that stretches from Rexdale in the north through the Kingsway and Humber Valley to the lake. The Etobicoke Creek runs through the west side, and Mimico Creek drains through the south, both feeding into Lake Ontario across a low-lying, wetland-influenced shoreline. These three creek systems, combined with Centennial Park&apos;s forest blocks and the Lake Ontario shoreline parks, make Etobicoke one of Toronto&apos;s most mosquito-active districts.</p>
-          <p>For Etobicoke homeowners, the challenge is that many of these natural systems are beloved green amenities — and they&apos;re not going away. The practical solution is professional barrier spray on your own property: treating all vegetation, shrubs, and fence-line plantings creates a treated zone that eliminates resting mosquitoes and provides 28 days of residual protection between visits.</p>
+          <p>For Etobicoke homeowners, the challenge is that many of these natural systems are beloved green amenities — and they&apos;re not going away. The practical solution is professional barrier spray on your own property: treating all vegetation, shrubs, and fence-line plantings creates a treated zone where mosquitoes rest, and the treatment is repeated on a schedule through the season.</p>
 
           <h2>Etobicoke Neighbourhoods We Serve</h2>
           <p>BuzzSkito provides mosquito control across all Etobicoke communities, including:</p>
@@ -146,13 +150,15 @@ export default function EtobicokeMosquitoPage() {
           <ul>
             <li><strong>Property review</strong> — We assess ravine proximity, creek frontage, and standing water contributing to mosquito pressure on your lot.</li>
             <li><strong>Full-yard barrier spray</strong> — All shrubs, hedges, garden borders, fence lines, and tree understorey treated on every visit.</li>
-            <li><strong>28-day residual coverage</strong> — Health Canada–approved formula provides continuous protection; safe for kids and pets after 30 minutes.</li>
-            <li><strong>Seasonal scheduling</strong> — Five visits May through September, timed to Humber River and creek-corridor emergence patterns in Etobicoke.</li>
+            <li><strong>Label-directed application</strong> — {PROMISES.labelLine}; stay off treated areas until the spray has dried, as the label directs.</li>
+            <li><strong>Seasonal scheduling</strong> — Five visits (Basic), 10 (Standard) or 20+ (Exclusive) May through September, timed to Humber River and creek-corridor emergence patterns in Etobicoke.</li>
           </ul>
 
           <h2>Also Providing Tick Control in Etobicoke</h2>
-          <p>The Humber River valley and Centennial Park forest areas in Etobicoke harbour blacklegged tick populations that have expanded in recent years. If your property backs onto the ravine or is near parkland, tick risk is real alongside mosquito pressure. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Etobicoke tick spray service</Link> — most homeowners bundle both for complete yard protection.</p>
+          <p>The Humber River valley and Centennial Park forest areas in Etobicoke harbour blacklegged tick populations that have expanded in recent years. If your property backs onto the ravine or is near parkland, tick risk is real alongside mosquito pressure. Ask about our <Link href={TICK_SLUG} className="text-brand-700 hover:underline">Etobicoke tick spray service</Link> — tick control is $497 per season (5 sprays) when added to any mosquito plan.</p>
 
+
+          <CityPriceCard city={CITY} service="mosquito" location="price_card_mid" />
 
           <h2>Pricing — Treatments from $99</h2>
           <p>BuzzSkito offers flexible pricing for every budget. No contracts, no cancellation fees.</p>
@@ -174,34 +180,33 @@ export default function EtobicokeMosquitoPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots up to 10,000 sq ft. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">Pricing is for standard residential lots under 10,000 sq ft, plus HST. Larger properties receive custom quotes. <Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">See full pricing details</Link> or <Link href="/free-yard-assessment" className="text-brand-700 hover:underline">get a free quote</Link>.</p>
 
-          <h2>How Etobicoke Mosquito Control Companies Compare</h2>
-          <p>Etobicoke homeowners have several professional options. Here is an honest comparison based on publicly available pricing, Google review profiles, and what each company actually specialises in.</p>
+          <h2>What to Ask Any Mosquito Control Company in Etobicoke</h2>
+          <p>Etobicoke homeowners have several professional options. Whoever you call, put these five questions to them before you book. Here is how BuzzSkito answers each one.</p>
           <div className="not-prose overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-brand-800 text-white">
-                  <th className="px-4 py-3 text-left">Company</th>
-                  <th className="px-4 py-3 text-left">Single Treatment</th>
-                  <th className="px-4 py-3 text-left">Reviews (Google)</th>
-                  <th className="px-4 py-3 text-left">Contract Required?</th>
+                  <th className="px-4 py-3 text-left">Question to ask</th>
+                  <th className="px-4 py-3 text-left">BuzzSkito&apos;s answer</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-gray-200 bg-amber-50"><td className="px-4 py-3 font-bold text-brand-900">BuzzSkito</td><td className="px-4 py-3 font-extrabold text-brand-700">From $99</td><td className="px-4 py-3">150+ / 5.0 (zero negative)</td><td className="px-4 py-3 text-emerald-700 font-semibold">No — pay per visit</td></tr>
-                <tr className="border-b border-gray-200"><td className="px-4 py-3 font-semibold">Mosquito Man</td><td className="px-4 py-3">~$129+ (varies)</td><td className="px-4 py-3">Higher volume, across all Ontario locations</td><td className="px-4 py-3 text-amber-700">Often seasonal</td></tr>
-                <tr className="border-b border-gray-200"><td className="px-4 py-3 font-semibold">LawnSavers</td><td className="px-4 py-3">$129+ standalone</td><td className="px-4 py-3">1,000+ (lawn care primary)</td><td className="px-4 py-3 text-amber-700">Bundled with lawn plans</td></tr>
-                <tr><td className="px-4 py-3 font-semibold">Mosquito.Buzz</td><td className="px-4 py-3">Custom quote required</td><td className="px-4 py-3">National franchise, multi-province</td><td className="px-4 py-3 text-amber-700">Seasonal contracts</td></tr>
+                <tr className="border-b border-gray-200"><td className="px-4 py-3 font-semibold">Is the price shown before you book?</td><td className="px-4 py-3">From $99 on a standard lot</td></tr>
+                <tr className="border-b border-gray-200 bg-gray-50"><td className="px-4 py-3 font-semibold">How many sprays per season?</td><td className="px-4 py-3">5, 10 or 20+ (tick: 5)</td></tr>
+                <tr className="border-b border-gray-200"><td className="px-4 py-3 font-semibold">What happens if it rains after a treatment?</td><td className="px-4 py-3">{PROMISES.rainBack}</td></tr>
+                <tr className="border-b border-gray-200 bg-gray-50"><td className="px-4 py-3 font-semibold">Is an Ontario pesticide operator licence number shown?</td><td className="px-4 py-3">Yes: {BUSINESS.licenseNumber}</td></tr>
+                <tr><td className="px-4 py-3 font-semibold">Which plans include a guarantee?</td><td className="px-4 py-3">Rain-back on every plan; Bite-Free on Standard &amp; Exclusive</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-500 not-prose">Review counts for franchise operators are aggregated across all their locations, not Etobicoke specifically. Head-to-head detail: <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">vs Mosquito Man</Link>, <Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">vs LawnSavers</Link>, <Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">vs Mosquito.Buzz</Link>, or the <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">GTA-wide comparison</Link>.</p>
+          <p className="text-sm text-gray-500 not-prose">More detail: <Link href="/buzzskito-vs-mosquitoman" className="text-brand-700 hover:underline">compare mosquito control options</Link>, <Link href="/buzzskito-vs-lawnsavers" className="text-brand-700 hover:underline">mosquito specialist vs lawn-care company</Link>, <Link href="/buzzskito-vs-mosquito-buzz" className="text-brand-700 hover:underline">local specialist vs national franchise</Link>, or the <Link href="/best-mosquito-control-companies-gta" className="text-brand-700 hover:underline">GTA-wide comparison</Link>.</p>
 
           <h2>How to Choose a Mosquito Control Company in Etobicoke</h2>
           <p>Whoever you end up hiring, these are the checks worth making before you book:</p>
           <ol>
-            <li><strong>Check the formulation.</strong> Only Health Canada–approved barrier sprays are legal for this use in Ontario. Ask what product is going on your yard.</li>
+            <li><strong>Check the formulation.</strong> Pest control products used in Canada must be registered under the Pest Control Products Act, and the registration (PCP) number is printed on the label. Ask what product is going on your yard and for its PCP number.</li>
             <li><strong>Verify the applicator&apos;s licence.</strong> Ontario requires a Pesticide Applicator&apos;s Licence for commercial application — the technician on site should hold one.</li>
             <li><strong>Confirm the guarantee in writing.</strong> If rain arrives within an hour of spraying, the product has not cured. A reputable company re-treats at no charge; anyone who will not put that in writing is a risk.</li>
             <li><strong>Compare single-treatment pricing, not just season totals.</strong> The per-visit number is what reveals real value once you divide a package by its visit count.</li>
@@ -210,7 +215,7 @@ export default function EtobicokeMosquitoPage() {
           </ol>
 
           <h2>Why Professional Treatment Outperforms DIY</h2>
-          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats every resting surface on your entire property, creating a residual barrier that kills mosquitoes on contact for up to 30 days. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
+          <p>Citronella candles, essential oil sprays, and consumer foggers provide temporary relief in a small radius — typically 30 minutes to 2 hours in the immediate area of use. Professional barrier spray treats the resting surfaces across your property and leaves a residual on treated foliage, and it is repeated on a schedule through the season. The difference is coverage and duration: DIY products address symptoms; barrier spray addresses the source of activity on your lot.</p>
           <p>For a detailed comparison, see our <Link href="/mosquito-control-diy-vs-professional" className="text-brand-700 hover:underline">DIY vs Professional Mosquito Control</Link> guide.</p>
 
           <h2>When to Start Treatment</h2>
@@ -256,6 +261,10 @@ export default function EtobicokeMosquitoPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="mosquito" />
+      </div>
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">

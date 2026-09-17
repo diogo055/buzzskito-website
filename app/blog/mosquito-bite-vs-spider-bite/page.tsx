@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'mosquito-bite-vs-spider-bite'
 const DATE = '2026-07-16'
@@ -191,7 +192,7 @@ export default function MosquitoBiteVsSpiderBitePage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Tired of counting bites every morning?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray covers your whole yard from $99 and keeps working for 21&ndash;30 days &mdash; fewer mosquitoes means fewer bites to identify. Serving 19 GTA cities.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray treats your yard from $99 on a standard lot, with season plans from $549 &mdash; fewer mosquitoes means fewer bites to identify. Serving 19 GTA cities.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -218,7 +219,7 @@ export default function MosquitoBiteVsSpiderBitePage() {
         </div>
       </article>
 
-      <CTASection heading="Fewer mosquitoes. Fewer bites to worry about." subtext="Get a free quote for licensed barrier spray. From $99. Same-day yard protection. 21–30 day residual. 150 five-star reviews across the GTA." variant="dark" />
+      <CTASection heading="Fewer mosquitoes. Fewer bites to worry about." subtext={`Get a free quote for licensed barrier spray. From $99 on a standard lot. ${PROMISES.response} 150+ five-star Google reviews across the GTA.`} variant="dark" />
     </>
   )
 }

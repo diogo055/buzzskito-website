@@ -4,6 +4,7 @@ import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'how-many-times-can-a-mosquito-bite-you'
 const DATE = '2026-07-16'
@@ -252,7 +253,7 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
 
           <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Stop counting bites &mdash; cut the mosquitoes instead</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">One female can bite you a dozen times before you ever swat her. A professional barrier spray knocks down the adult mosquitoes resting in your shrubs, shade, and fence lines, so there are far fewer around to feed in the first place. BuzzSkito protects GTA yards with single treatments from $99 and seasonal plans, backed by 150 five-star reviews.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">One female can bite you a dozen times before you ever swat her. A professional barrier spray knocks down the adult mosquitoes resting in your shrubs, shade, and fence lines, so there are far fewer around to feed in the first place. BuzzSkito treats GTA yards with single treatments from $99 on a standard lot and season plans from $549, backed by 150+ five-star Google reviews.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/mosquito-control" className="btn-primary-sm">Explore Mosquito Control &rarr;</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -261,17 +262,17 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
 
           <h2>Can a mosquito bite through clothing?</h2>
           <p>Yes. A mosquito can bite through thin, tight-fitting fabric such as a snug t-shirt, leggings, or thin socks, because her proboscis is long enough to reach skin through one stretched layer. Loose, thicker, or doubled-up clothing defeats her. This is why bites turn up on shoulders, knees, and ankles that felt fully covered.</p>
-          <p>The practical rule is fit, not coverage. A loose long-sleeved shirt protects better than tight athletic wear that exposes less skin, because the fabric sits away from the surface she is trying to reach. Health Canada registers repellents containing DEET and icaridin for use on skin, and some manufacturers also sell permethrin-treated clothing; follow the label directions on any product you use.</p>
+          <p>The practical rule is fit, not coverage. A loose long-sleeved shirt protects better than tight athletic wear that exposes less skin, because the fabric sits away from the surface she is trying to reach. Repellents containing DEET and icaridin are sold for use on skin with a Canadian PCP registration number on the label, and some manufacturers also sell permethrin-treated clothing; follow the label directions on any product you use.</p>
 
           <h2>How to stop one mosquito turning into a dozen bites</h2>
-          <p>The way to stop one mosquito becoming a dozen bites is to remove her chances rather than swat her. Tip out standing water weekly, cover up at dawn and dusk when <em>Culex</em> mosquitoes feed, wear loose rather than tight clothing, apply a Health Canada registered repellent, run a fan on the patio, and treat the shaded vegetation where adults rest.</p>
+          <p>The way to stop one mosquito becoming a dozen bites is to remove her chances rather than swat her. Tip out standing water weekly, cover up at dawn and dusk when <em>Culex</em> mosquitoes feed, wear loose rather than tight clothing, apply a repellent that carries a PCP registration number, run a fan on the patio, and treat the shaded vegetation where adults rest.</p>
           <p>Because most multi-bite nights trace back to a single interrupted female, the practical goal is to give fewer mosquitoes the chance to reach you and to remove the standing water where the next generation is being made. A few habits carry most of the weight:</p>
           <ul>
             <li><strong>Empty standing water weekly.</strong> A female lays 100 to 300 eggs at a time in still water &mdash; even a bottle cap&rsquo;s worth. Tip out saucers, buckets, toys, tarps, and clogged gutters to break the cycle at the source.</li>
             <li><strong>Cover up at dusk.</strong> Ontario&rsquo;s <em>Culex</em> mosquitoes are most active around dawn and dusk. Loose long sleeves and looser trousers beat tight athletic wear, which a proboscis can reach through.</li>
-            <li><strong>Use a registered repellent.</strong> Health Canada registers repellents containing DEET and icaridin for skin use; follow the label directions for how often to reapply.</li>
+            <li><strong>Use a registered repellent.</strong> Look for a DEET or icaridin repellent with a PCP registration number on the label; follow the label directions for how often to reapply.</li>
             <li><strong>Move the air.</strong> A patio fan disrupts the carbon-dioxide plume a mosquito homes in on and makes it physically harder for a weak flyer to land.</li>
-            <li><strong>Treat the yard.</strong> A professional barrier spray targets the shaded vegetation and fence lines where adults rest between meals, so the resting population never rebuilds to the point where one persistent female becomes a nightly problem. That is the whole job on a season plan &mdash; see how <Link href="/mississauga-mosquito-control">mosquito control in Mississauga</Link> is run through the May-to-September season, or what <Link href="/mosquito-control-cost">a single treatment and a full season cost</Link> for your lot size.</li>
+            <li><strong>Treat the yard.</strong> A professional barrier spray targets the shaded vegetation and fence lines where adults rest between meals, so the resting population is kept down between visits instead of building back up to the point where one persistent female becomes a nightly problem. That is the whole job on a season plan &mdash; see how <Link href="/mississauga-mosquito-control">mosquito control in Mississauga</Link> is run through the May-to-September season, or what <Link href="/mosquito-control-cost">a single treatment and a full season cost</Link> for your lot size.</li>
             <li><strong>Screen the spot you actually sit in.</strong> Everything above lowers the odds; a physical barrier removes them. Because the multi-bite pattern comes from one female relanding on the same seated person again and again, enclosing the space is the only measure on this list that ends the relanding outright rather than just reducing her chances &mdash; our guide to <Link href="/blog/mosquito-screens-patio-canada">patio mosquito screening in Canada</Link> covers fixed panels for a porch or deck, and where the seating area cannot be enclosed, a <Link href="/blog/best-screen-tent-canada">freestanding screen tent</Link> puts the same barrier over a table for the evening.</li>
           </ul>
           <p>One footnote to the fan point above, because it turns on the same physics: what she follows in is the carbon-dioxide plume from your breath, and that cue is exactly what a CO2 trap is built to exploit &mdash; it releases its own carbon-dioxide stream to pull host-seeking females toward a catch net instead of toward you. Be realistic about what that buys you. It is a slow reduction in the local biting population rather than relief on the night, and it only helps if it sits well away from where you actually sit, so arriving females meet the trap before they reach the patio; <Link href="/blog/co2-mosquito-trap-canada">how CO2 mosquito traps work in Canada</Link> covers placement and what they realistically catch.</p>
@@ -305,7 +306,7 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
         </div>
       </article>
 
-      <CTASection heading="One Mosquito Can Bite You a Dozen Times. Get Rid of the Mosquito." subtext="A professional barrier spray clears the mosquitoes resting in your yard. From $99, same-day protection, 21–30 day residual." variant="dark" />
+      <CTASection heading="One Mosquito Can Bite You a Dozen Times. Get Rid of the Mosquito." subtext={`A professional barrier spray targets the mosquitoes resting in your yard. From $99 on a standard lot. ${PROMISES.response}`} variant="dark" />
     </>
   )
 }

@@ -9,7 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS } from '@/lib/constants'
+import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import RelatedProducts from '@/components/RelatedProducts'
 
@@ -172,6 +172,26 @@ export default function BlackFliesOntarioPage() {
           </div>
         </aside>
 
+        <AffiliateDisclosure />
+
+        <aside aria-label="What to do right now" className="not-prose my-8 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 sm:p-7">
+          <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">What to do right now</p>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">If you need the yard back this week and not next season, these three run in order. The first one costs nothing.</p>
+          <ol className="space-y-4 text-[15px] text-gray-800 leading-relaxed list-decimal pl-5 marker:font-extrabold marker:text-emerald-700">
+            <li>
+              <strong>Change what you wear and when you go out.</strong> Black flies are drawn to dark blue, brown, and black, and to floral perfumes, scented sunscreens, and hair products &mdash; so light grey, beige, or white long sleeves with nothing scented on top removes a large share of the pressure for free. They feed hardest in daylight, especially mid-morning and late afternoon, so shift yard work and patio time toward the middle of the day and away from the stream side of the property during the late-May and June emergence.
+            </li>
+            <li>
+              <strong>Put a registered repellent on every patch of exposed skin.</strong> DEET and picaridin (sold in Canada as icaridin) are the two conventional actives; picaridin is odourless, non-greasy, and does not damage plastics and gear the way DEET can, which is why it tends to win for long spring days near water. Look for the PCP registration number on the label and follow the directions and age guidance printed there.
+              <span className="mt-3 block"><BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Check price on Amazon.ca &rarr;</BuyLink></span>
+            </li>
+            <li>
+              <strong>Keep a head net in the shed for the bad weeks.</strong> Black flies are notorious for crawling into hairlines and behind ears, which is the part repellent on your arms does nothing about. A fine-mesh net worn over a brimmed hat puts physical mesh between the flies and your head, packs down to nothing, and is the difference between finishing a job in the yard in June and abandoning it.
+              <span className="mt-3 block"><BuyLink tag={AMZ_TAG} search="bug head net">Check price on Amazon.ca &rarr;</BuyLink></span>
+            </li>
+          </ol>
+        </aside>
+
         <h2>Where Do Black Flies Breed?</h2>
         <p>This is the single most important fact about black flies, because it determines who is at risk: <strong>black flies breed exclusively in clean, flowing water.</strong> Larvae attach themselves to submerged rocks, branches, and vegetation in streams and rivers, where they filter-feed on organic particles in the current. They cannot develop in standing water — which is the opposite of mosquitoes.</p>
         <p>That means properties near the following waterways see the worst black fly pressure each spring:</p>
@@ -207,6 +227,7 @@ export default function BlackFliesOntarioPage() {
           <li>In cases of multiple bites, &quot;black fly fever&quot; — fever, headache, swollen lymph nodes, and nausea</li>
         </ul>
         <p>Black flies in Ontario are not known to transmit human pathogens, so the medical risk is low. The quality-of-life impact, however, is severe. A single bad black fly week can drive families indoors for weeks, and the bites themselves can take longer to heal than mosquito bites. For pets — particularly dogs with thin ear leather and exposed bellies — black fly bites can cause hot, painful welts that linger.</p>
+        <p>Dogs take the worst of it on the ear flaps, where the skin is thin and the coat gives no cover. Repellents formulated for human skin are not labelled for use on animals, so the right move is to ask your vet what suits your dog and to check that anything you apply to an animal carries a Canadian PCP registration number on its label. <BuyLink tag={AMZ_TAG} search="dog fly repellent">Check dog fly repellents on Amazon.ca →</BuyLink></p>
 
         <h2>Black Fly Bite: Why They Hurt &amp; How to Treat Them</h2>
         <p>A black fly bite hurts in a way a mosquito bite usually does not. Because the fly cuts the skin rather than piercing it, you often feel a sharp pinch the moment it bites — and the small wound tends to bleed for a moment afterward. The fly&rsquo;s saliva contains anticoagulants and mild anaesthetic compounds that keep the blood flowing and mask the bite, which is exactly why the after-effects — swelling, redness, and itching — can be more intense and longer-lasting than a mosquito welt.</p>
@@ -254,7 +275,7 @@ export default function BlackFliesOntarioPage() {
         <ul>
           <li><strong>Avoid scented products.</strong> Floral perfumes, scented sunscreens, and hair products attract black flies.</li>
           <li><strong>Wear light colours.</strong> Black flies are strongly attracted to dark blue, brown, and black. Light grey, beige, and white are far less attractive.</li>
-          <li><strong>Cover up.</strong> Long sleeves, pants, and a hat block most bites — black flies are notorious for crawling into hairlines and behind ears.</li>
+          <li><strong>Cover up.</strong> Long sleeves, pants, and a hat block most bites — black flies are notorious for crawling into hairlines and behind ears. That last part is why a fine-mesh head net worn over a brimmed hat is worth keeping in the shed for the bad weeks: it puts physical mesh between the flies and your hairline, and it packs down to nothing. <BuyLink tag={AMZ_TAG} search="bug head net">Check bug head nets on Amazon.ca →</BuyLink></li>
           <li><strong>Use DEET or picaridin repellent</strong> on exposed skin. Picaridin (also sold as icaridin) is odourless, non-greasy, and does not damage plastics or gear the way DEET can, which makes it popular for all-day spring wear. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Check picaridin repellents on Amazon.ca →</BuyLink> See our full <Link href="/blog/picaridin-vs-deet" className="text-brand-700 underline">picaridin vs DEET comparison</Link> to pick the right active.</li>
           <li><strong>Buy permethrin-treated clothing.</strong> Factory-treated shirts, pants, and socks are highly effective for outdoor workers, hikers, and anyone spending long hours near waterways during the May–June emergence — the permethrin is bonded into the fabric at the factory, kills black flies on contact, and lasts up to 70 wash cycles on Insect Shield garments. Health Canada does not approve permethrin liquids and sprays for consumers to treat their own clothing, so buy the garments already treated rather than treating your own. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check permethrin-treated clothing on Amazon.ca →</BuyLink> Read our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">permethrin guide for Canada</Link> for what is and is not approved here.</li>
           <li><strong>Stay away from waterways during peak emergence.</strong> The closer you are to a river or stream in late May and early June, the heavier the pressure.</li>
@@ -288,12 +309,13 @@ export default function BlackFliesOntarioPage() {
           <li><strong>Open up shaded, damp corners.</strong> The cool, sheltered pockets near fences and structures are exactly where they linger.</li>
           <li><strong>Time it to the season.</strong> The pressure is heaviest in late May and June, so your yard prep and any treatment matter most in that window.</li>
         </ul>
+        <p>There is also a purely physical answer for the three worst weeks, and it is the one people forget: mesh does not care how motivated a black fly is. A pop-up screen house over the patio table hands back the mid-morning and late-afternoon hours when black flies feed hardest — the exact hours families otherwise spend indoors in June. One thing to check on the listing before you buy: black flies are small enough at the 1&ndash;2&nbsp;mm end that a coarse screen lets some through, so look for a fine or no-see-um-rated mesh rather than standard window screen. <BuyLink tag={AMZ_TAG} search="screen house tent">Check screen houses on Amazon.ca →</BuyLink> Our <Link href="/blog/best-screen-tent-canada" className="text-brand-700 underline">screen tent guide for Canadian backyards</Link> covers how the mesh ratings compare.</p>
 
         <h3>3. Treat the Rest Zones with Barrier Spray</h3>
         <p>Because you cannot touch the breeding source, the most effective control is a professional barrier spray applied to the surfaces black flies use for cover — leaf undersides, treelines, fences, and ornamental beds. It will not stop every fly drifting in from a distant river, but it dramatically reduces the population that settles, feeds, and bites in your yard. A first treatment timed for mid-to-late May delivers peak coverage right as emergence spikes.</p>
 
         <h2>How BuzzSkito Helps With Black Flies</h2>
-        <p>Our standard mosquito barrier spray service includes black fly control as part of the treatment. We focus the application on the resting habitats both insects share — under shrub canopies, along fence lines, in dense ornamental beds, on the underside of broad leaves, and across the lawn-bed transition zone. The Health Canada–approved residual formula remains active for up to 30 days, keeping pressure low through the peak black fly window even with rain events in between.</p>
+        <p>Our standard mosquito barrier spray service includes black fly control as part of the treatment. We focus the application on the resting habitats both insects share — under shrub canopies, along fence lines, in dense ornamental beds, on the underside of broad leaves, and across the lawn-bed transition zone. The residual product is applied according to label directions, and the first treatment is timed for the peak black fly window. {PROMISES.rainBack}</p>
         <p>For properties near waterways we recommend booking the first spray of the season for mid-to-late May — the Credit River backyards covered by our <Link href="/mississauga-mosquito-control" className="text-brand-700 underline">Mississauga mosquito control</Link> service, the Don Valley ravine homes we treat under <Link href="/north-york-mosquito-control" className="text-brand-700 underline">North York mosquito control</Link>, and the Humber-adjacent properties in Vaughan and on our <Link href="/etobicoke-mosquito-control" className="text-brand-700 underline">Etobicoke mosquito control</Link> route. That single timing decision is the difference between a tolerable spring and a wash-out spring.</p>
 
         <h2>Get a Free Quote</h2>

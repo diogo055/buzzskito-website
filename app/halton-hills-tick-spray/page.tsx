@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
+import TypicalPrices from '@/components/TypicalPrices'
+import CityPriceCard from '@/components/CityPriceCard'
 import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
-import { TICK_BLOGS } from '@/lib/constants'
+import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Halton Hills Tick Control 2026 · From $99 · 150+ Five-Star Reviews',
   description:
-    "Halton Hills tick spray for Niagara Escarpment, Bruce Trail, and Hilton Falls Conservation properties. Health Canada-approved, from $99/treatment, BuzzSkito Bite-Free Guarantee. Georgetown, Acton, Glen Williams, Limehouse. Call (289) 216-5030.",
+    "Halton Hills tick spray for Niagara Escarpment, Bruce Trail, and Hilton Falls Conservation properties. Licensed operator, from $99/treatment, rain-back guarantee. Georgetown, Acton, Glen Williams, Limehouse. Call (289) 216-5030.",
   canonical: '/halton-hills-tick-spray',
 })
 
@@ -29,7 +31,7 @@ const FAQS = [
   },
   {
     question: 'How does professional tick spray work differently from store-bought tick repellent?',
-    answer: 'Store-bought repellents like DEET or permethrin products are personal repellents — they protect you while you\'re wearing them, but they don\'t reduce tick populations in your yard. Professional barrier spray is applied to your property\'s high-risk zones — lawn edges, leaf litter, garden borders, under decks — creating a treated zone that kills ticks before they can reach your family. BuzzSkito\'s treatment provides up to 30 days of yard-level protection per application.',
+    answer: 'Store-bought repellents like DEET or permethrin products are personal repellents — they protect you while you\'re wearing them, but they don\'t reduce tick populations in your yard. Professional barrier spray is applied to your property\'s high-risk zones — lawn edges, leaf litter, garden borders, under decks — creating a treated zone in the places where ticks wait for a host. The treatment is repeated about monthly, 5 sprays per season, because wildlife keeps bringing new ticks into the yard.',
   },
 ]
 
@@ -37,17 +39,18 @@ export default function HaltonHillsTickPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ areaServed: CITY })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Kills ticks at all life stages.`, slug: '/halton-hills-tick-spray', city: CITY, price: null })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: `Tick Spray ${CITY}`, description: `Professional tick barrier spray service in ${CITY}, Ontario. Applied by a licensed Ontario pesticide operator.`, slug: '/halton-hills-tick-spray', city: CITY, price: null })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Tick Control', url: '/tick-control' }, { name: CITY, url: '/halton-hills-tick-spray' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick', city: 'Halton Hills' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/halton-hills-tick-spray', '2026-07-01')) }} />
 
       <CityHero
+        service="tick"
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Tick Control', href: '/tick-control' }, { label: CITY }]}
         title={<>{CITY} Tick Control</>}
         titleAccent={<>From $99 · 150+ Five-Star Reviews</>}
-        subtitle={<>Halton Hills has among the highest tick risk in the western GTA. Credit River, Silver Creek, and the Niagara Escarpment trail system all host established blacklegged tick populations. BuzzSkito protects your family from Lyme disease.</>}
+        subtitle={<>Licensed Ontario pesticide operator, with tick treatments applied according to label directions. Halton Hills has among the highest tick risk in the western GTA, with established blacklegged tick populations along the Credit River, Silver Creek, and the Niagara Escarpment trail system.</>}
         image="/spray-front.webp"
         imageAlt="BuzzSkito technician treating lawn edges and garden borders for ticks"
       />
@@ -56,10 +59,10 @@ export default function HaltonHillsTickPage() {
       {/* Trust bar */}
       <section className="bg-brand-900 text-white py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-medium text-brand-200">
-          <span>✓ Health Canada–Approved Formula</span>
-          <span>✓ Safe for Kids &amp; Pets (30 min dry)</span>
-          <span>✓ Up to 30-Day Protection</span>
-          <span>✓ Lyme Disease Prevention</span>
+          <span>✓ {PROMISES.licence}</span>
+          <span>✓ {PROMISES.labelLine}</span>
+          <span>✓ {PROMISES.rainBackShort}</span>
+          <span>✓ 5 Tick Sprays per Season</span>
           <span>✓ 5-Star Rated · 150+ Reviews</span>
         </div>
       </section>
@@ -76,6 +79,8 @@ export default function HaltonHillsTickPage() {
       </section>
 
       
+      <TypicalPrices service="tick" city={CITY} />
+
       {/* How It Works */}
       <section className="py-12 px-4 bg-white border-b border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -84,8 +89,8 @@ export default function HaltonHillsTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Property Tick Assessment', desc: 'We identify tick habitat zones — lawn-to-woods transitions, leaf litter, garden bed edges, and fence lines on your property.' },
-              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies Health Canada-approved formula to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
-              { step: '3', title: '30-Day Protection', desc: 'The residual formula kills ticks on contact and creates a barrier for up to 30 days. If ticks return within the window, we re-treat at no cost.' },
+              { step: '2', title: 'Targeted Barrier Spray', desc: 'Our licensed technician applies the product according to its label directions to the specific 1-3 metre zones where ticks concentrate — precision treatment, not broadcast spraying.' },
+              { step: '3', title: 'Five Visits per Season', desc: `Tick treatments repeat about monthly, 5 sprays from May through September. ${PROMISES.rainBack}` },
             ].map(({ step, title, desc }) => (
               <div key={step} className="text-center">
                 <div className="w-14 h-14 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl font-extrabold mx-auto mb-4">{step}</div>
@@ -101,7 +106,7 @@ export default function HaltonHillsTickPage() {
         <div className="max-w-4xl mx-auto prose-brand">
           <h2>Why Tick Spray Is Crucial in Halton Hills</h2>
           <p>Halton Hills is one of the most tick-exposed municipalities in the western GTA, and Halton Region Public Health consistently flags it as a high-risk area. The reason is geography: Halton Hills is crossed by the Credit River from north to south, intersected by Silver Creek, and bordered on the west by the Niagara Escarpment — three separate natural systems that all independently host established blacklegged tick populations. The convergence of these habitats means tick exposure isn't limited to one corner of the municipality. It's region-wide.</p>
-          <p>For Georgetown residents near the Credit River or Silver Creek, and for Acton residents near rural field edges, the risk is not hypothetical. Halton Region's tick surveillance program documents blacklegged tick activity across these areas every season. Ticks in Halton Hills are active from early April through late November — a full eight months of exposure if untreated. For families with children or pets who use the backyard regularly, the most effective annual defence against Lyme disease is a full seasonal barrier program — five treatments spread roughly monthly from May through September. Each application leaves a temporary residual, and deer, mice, and birds keep reintroducing ticks from the escarpment woodlots and river corridors next door, so the barrier has to be renewed rather than set once. Monthly coverage means no multi-month gap through the May–July nymph peak — the stage responsible for most Lyme transmission, and the one homeowners miss because nymphs are the size of a poppy seed — and it carries protection into the autumn, when adult ticks re-emerge and stay active into November in mild years.</p>
+          <p>For Georgetown residents near the Credit River or Silver Creek, and for Acton residents near rural field edges, the risk is not hypothetical. Halton Region's tick surveillance program documents blacklegged tick activity across these areas every season. Ticks in Halton Hills are active from early April through late November — a full eight months of exposure if untreated. For families with children or pets who use the backyard regularly, we recommend a full seasonal barrier program — five treatments spread roughly monthly from May through September. Each application leaves a temporary residual, and deer, mice, and birds keep reintroducing ticks from the escarpment woodlots and river corridors next door, so the barrier has to be renewed rather than set once. Monthly visits keep treatments on schedule through the May–July nymph peak and into autumn, when adult ticks re-emerge and stay active into November in mild years. Public Health Ontario notes nymphs are poppy-seed sized and easy to miss, so do a tick check after time outdoors.</p>
 
           <h2>Tick Hotspots in Halton Hills</h2>
           <ul>
@@ -117,13 +122,15 @@ export default function HaltonHillsTickPage() {
             {NEIGHBOURHOODS.map((n) => <span key={n} className="text-sm bg-amber-50 border border-amber-200 text-amber-700 px-3 py-1.5 rounded-full">{n}</span>)}
           </div>
 
+          <CityPriceCard city={CITY} service="tick" location="price_card_mid" />
+
           <h2>What Our Halton Hills Tick Treatment Includes</h2>
           <ul>
             <li>Barrier spray targeting lawn edges, leaf litter, garden beds, fence lines, under decks, and woodpiles</li>
-            <li>Up to 30 days of tick protection per treatment</li>
-            <li>Kills adult ticks, nymphs, and larvae on contact</li>
-            <li>Health Canada–approved formula, safe for children and pets after 30 minutes</li>
-            <li>Free reapplication guarantee if ticks return</li>
+            <li>5 treatments per season, spaced about monthly from May through September</li>
+            <li>Aimed at the zones where adult ticks and nymphs wait for a host</li>
+            <li>{PROMISES.labelLine}; stay off treated areas until the spray has dried, as the label directs</li>
+            <li>{PROMISES.rainBack}</li>
           </ul>
 
           <h2>Also Providing Mosquito Control in Halton Hills</h2>
@@ -131,7 +138,7 @@ export default function HaltonHillsTickPage() {
 
 
           <h2>Compare Halton Hills Pest Control Options</h2>
-          <p>Halton Hills has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-halton-hills" className="text-brand-700 hover:underline font-semibold">Pest Control in Halton Hills</Link> for why a mosquito and tick specialist delivers better Lyme disease prevention than a general pest company.</p>
+          <p>Halton Hills has confirmed blacklegged tick exposure — see our specialist pest control guide: <Link href="/pest-control-halton-hills" className="text-brand-700 hover:underline font-semibold">Pest Control in Halton Hills</Link> for how a mosquito and tick specialist compares with a general pest company.</p>
           <h2>Related Tick Control Guides</h2>
           <ul>
             <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
@@ -150,7 +157,7 @@ export default function HaltonHillsTickPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { author: 'James K.', text: 'We had a tick problem near our garden border. BuzzSkito came out quickly, treated the whole yard, and gave us a detailed service log. Great experience and the kids can play outside again.' },
-              { author: 'Priya R.', text: 'The technician explained exactly what product they were using and why it\u2019s safe for our dog. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
+              { author: 'Priya R.', text: 'The technician explained exactly what product they were using. Treated the perimeter where ticks were coming from. Couldn\u2019t be happier with the results.' },
             ].map(({ author, text }) => (
               <div key={author} className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
                 <div className="flex items-center gap-1 mb-3">
@@ -169,6 +176,10 @@ export default function HaltonHillsTickPage() {
         </div>
       </section>
 
+      <div className="max-w-4xl mx-auto px-4">
+        <CityPriceCard city={CITY} service="tick" />
+      </div>
+
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-6">FAQ – Tick Spray in {CITY}</h2>
@@ -185,7 +196,7 @@ export default function HaltonHillsTickPage() {
           </div>
         </div>
       </section>
-      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext="Protect your family from Lyme disease. No contracts, guaranteed results." variant="dark" />
+      <CTASection heading={`Get a Free Tick Spray Quote in ${CITY}`} subtext={`5 tick sprays per season. No contracts. ${PROMISES.rainBackShort}.`} variant="dark" />
     </>
   )
 }

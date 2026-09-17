@@ -627,7 +627,7 @@ According to BuzzSkito&rsquo;s analysis of Northwestern Health Unit and City of 
           <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">Protect your yard</p>
           <h2 className="text-2xl sm:text-3xl font-extrabold mb-4">Worried about ticks in your yard?</h2>
           <p className="text-base text-brand-100 max-w-2xl mx-auto mb-7 leading-relaxed">
-            BuzzSkito provides professional, Health Canada&ndash;approved tick barrier spray for residential properties across the GTA &mdash; targeting the lawn-to-woods edges, leaf litter, and fence lines where blacklegged ticks concentrate. Get a free, no-obligation quote for your property.
+            BuzzSkito provides professional tick barrier spray, applied by a licensed Ontario operator according to label directions, for residential properties across the GTA &mdash; targeting the lawn-to-woods edges, leaf litter, and fence lines where blacklegged ticks concentrate. Get a free, no-obligation quote for your property.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
             <Link
@@ -676,7 +676,7 @@ According to BuzzSkito&rsquo;s analysis of Northwestern Health Unit and City of 
             </Link>
             <Link href="/tick-control" className="block rounded-2xl bg-white border-2 border-gray-200 hover:border-amber-300 p-5 shadow-sm transition-colors">
               <p className="text-sm font-extrabold text-brand-900">Professional Tick Control</p>
-              <p className="text-xs text-gray-600 mt-1">How BuzzSkito&rsquo;s Health Canada&ndash;approved tick barrier spray protects GTA yards.</p>
+              <p className="text-xs text-gray-600 mt-1">How BuzzSkito&rsquo;s tick barrier spray treats the edges of GTA yards where ticks wait.</p>
             </Link>
           </div>
         </div>

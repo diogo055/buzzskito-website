@@ -20,7 +20,7 @@ const UPDATED = '2026-07-30'
 // a new apartment) stays on how-to-check-for-bed-bugs-canada. This page only does
 // stains and droppings: what they are, the differential, and what to do next.
 const TITLE = 'What Bed Bug Poop and Stains Actually Look Like — and the Five Marks They Get Confused With'
-const META_TITLE = "What Bed Bug Poop Looks Like, and What It Isn't"
+const META_TITLE = 'Bed Bug Poop and Stains Canada: The Smear Test'
 
 const FAQS = [
   {
@@ -118,6 +118,31 @@ export default function BedBugStainsCanadaPage() {
               <li><strong>Renting in Ontario?</strong> Report it in writing before you spend a dollar of your own money.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
+          </div>
+
+          {/* "What to do right now" — aftercare module, directly under the Quick Answer.
+              <AffiliateDisclosure /> already renders above this whole section, so the
+              disclosure sits above the first affiliate link on the page. BuzzSkito does not
+              sell bed bug service, so there is no in-body quote CTA on this page for the
+              module to sit under. Step 1 is free and needs no product. */}
+          <div className="not-prose my-6 rounded-xl border border-amber-200 bg-amber-50 p-5">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700 mb-3">What to do right now</p>
+            <ol className="space-y-3 text-[15px] text-gray-800 leading-relaxed list-decimal pl-5 marker:font-bold marker:text-amber-700">
+              <li>
+                <strong>Photograph it, then swab the edge &mdash; free, one minute.</strong> Dab the <em>edge</em> of the mark with a damp white cloth, not the middle, so an intact example survives. A rusty reddish-brown smear is a bed bug faecal spot. Do not clean anything yet &mdash; the staining is the map.
+              </li>
+              <li>
+                <strong>Search the seams with a bright light held at a low raking angle.</strong> Straight-on light washes a mattress seam out; light skimmed across the surface throws shadows into the piping fold, the box spring gauze and the screw holes, which is where the confirming evidence &mdash; a live bug, a translucent cast skin, a pearly egg about a millimetre long &mdash; almost always sits within a few centimetres of the staining. A phone torch works; a proper handheld beam works better and is the one thing that turns a ten-minute search into a conclusive one.
+                <span className="mt-2 block"><BuyLink tag={AMZ_TAG} search="bright handheld led flashlight">Check price on Amazon.ca &rarr;</BuyLink></span>
+              </li>
+              <li>
+                <strong>Set interceptor traps under each bed leg tonight &mdash; and buy nothing else yet.</strong> Cups under the legs catch anything travelling to or from the bed, and over two full weeks with someone sleeping in it nightly they convert &ldquo;I think I found something&rdquo; into a definite answer. Buying a spray at this stage is the expensive mistake on this page: it scatters an unconfirmed population deeper into the room and makes a later professional treatment harder.
+                <span className="mt-2 block"><BuyLink tag={AMZ_TAG} search="bed bug interceptor traps climbup">Check price on Amazon.ca &rarr;</BuyLink></span>
+              </li>
+            </ol>
+            <p className="mt-4 text-sm text-gray-600 leading-relaxed">
+              Renting in Ontario? Do step 1, then report it in writing before you spend anything of your own &mdash; pest control in a rental generally sits within a landlord&apos;s maintenance obligations, and your photographs and the date you sent them are the record that matters.
+            </p>
           </div>
 
           <div className="not-prose rounded-xl border-l-4 border-brand-500 bg-brand-50 p-5 mb-6">

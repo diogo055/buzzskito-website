@@ -9,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import { PROMISES } from '@/lib/constants'
 
 const SLUG = 'patio-misting-system-canada'
 const DATE = '2026-07-14'
@@ -27,7 +28,7 @@ const FAQS = [
   },
   {
     question: 'Can I buy a MistAway or automated mosquito misting system in Canada?',
-    answer: 'Not through normal channels. MistAway, Pynamite, and similar automated misting brands are built around the US market — you won\'t find the systems or their insecticide refills on Amazon.ca or at Canadian hardware retailers, and Canadian installers are extremely rare. The core problem is regulatory: the pyrethrin concentrates these systems mist are generally not registered by Health Canada\'s PMRA for continuous automated residential misting, and in Ontario routine outdoor pesticide application is further restricted under the Pesticides Act and its cosmetic-pesticides rules. The practical Canadian equivalent for that budget is a licensed residual barrier spray program, which treats the vegetation where mosquitoes rest instead of fogging the air on a timer.',
+    answer: 'Not through normal channels. MistAway, Pynamite, and similar automated misting brands are built around the US market — you won\'t find the systems or their insecticide refills on Amazon.ca or at Canadian hardware retailers, and Canadian installers are extremely rare. The core problem is regulatory: the pyrethrin concentrates these systems mist generally do not carry a Canadian PCP registration for continuous automated residential misting, and in Ontario routine outdoor pesticide application is further restricted under the Pesticides Act and its cosmetic-pesticides rules. The practical Canadian equivalent for that budget is a licensed residual barrier spray program, which treats the vegetation where mosquitoes rest instead of fogging the air on a timer.',
   },
   {
     question: 'Can I run insect repellent or insecticide through a regular patio misting kit?',
@@ -51,7 +52,7 @@ const FAQS = [
   },
   {
     question: 'How much does a mosquito misting system cost in Canada?',
-    answer: 'As general market ranges: hose-fed cooling mist kits run about $25–$100 at Canadian retailers; mid-pressure pump cooling systems land around $200–$600; and dedicated high-pressure cooling installations can exceed $1,000. The automated insecticide misting systems Americans mean by "mosquito misting system" cost roughly US$2,000–$3,500 installed plus several hundred dollars a season in insecticide refills — and are effectively unavailable in Canada because the refills aren\'t PMRA-registered for that use. In the GTA, that budget goes much further on professional barrier treatments, which start around $99 per visit and run roughly $549–$994 for a full-season program depending on visit frequency and lot size.',
+    answer: 'As general market ranges: hose-fed cooling mist kits run about $25–$100 at Canadian retailers; mid-pressure pump cooling systems land around $200–$600; and dedicated high-pressure cooling installations can exceed $1,000. The automated insecticide misting systems Americans mean by "mosquito misting system" cost roughly US$2,000–$3,500 installed plus several hundred dollars a season in insecticide refills — and are effectively unavailable in Canada because the refills aren\'t PMRA-registered for that use. In the GTA, that budget goes much further on professional barrier treatments, which start from $99 per visit on a standard lot under 10,000 sq ft, with season plans from $549 depending on visit frequency and lot size.',
   },
 ]
 
@@ -100,7 +101,7 @@ export default function PatioMistingSystemCanadaPage() {
               <li>Hose-fed kits run on normal municipal pressure of roughly 40&ndash;80 PSI (275&ndash;550 kPa).</li>
               <li>A 10-nozzle cooling line uses only about 20&ndash;40 litres of water per hour.</li>
               <li>Automated MistAway-style insecticide installs cost roughly US$2,000&ndash;$3,500 and are effectively unavailable in Canada (refills not PMRA-registered).</li>
-              <li>Licensed barrier spray starts at $99 per treatment and holds a 21&ndash;30 day residual.</li>
+              <li>Licensed barrier spray starts at $99 per treatment on a standard lot under 10,000 sq ft, and its residual is renewed on a schedule.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
@@ -252,7 +253,7 @@ export default function PatioMistingSystemCanadaPage() {
 
           <h3>4. Mosquito Sniper System — The Odd One Out (and the Only Mosquito-Focused Pick)</h3>
           <p>The Mosquito Sniper System isn&rsquo;t a cooling kit at all &mdash; it&rsquo;s a DIY applicator marketed to convert a gas string trimmer into a mist blower, so you can push a treatment mist up into the shrubs and shaded foliage where mosquitoes rest during the day. We include it because it&rsquo;s the closest thing Amazon.ca offers to genuine do-it-yourself misting <em>for mosquito control</em>, and the airflow-driven mist principle is exactly how professional backpack mist blowers work.</p>
-          <p>Two Canadian realities to check before buying: you need a compatible gas trimmer to power it, and whatever you put through it must be a Health Canada PMRA-registered, domestic-class product applied per its label &mdash; the US recipes in the product reviews mostly involve concentrates that aren&rsquo;t registered here. Applied correctly, DIY treatments of this type also fade faster than commercial-class residuals; our guide to <Link href="/blog/how-long-does-mosquito-spray-last">how long mosquito spray actually lasts</Link> sets realistic re-treatment expectations.</p>
+          <p>Two Canadian realities to check before buying: you need a compatible gas trimmer to power it, and whatever you put through it must be a domestic-class product with a Canadian PCP registration number, applied per its label &mdash; the US recipes in the product reviews mostly involve concentrates that aren&rsquo;t registered here. Applied correctly, DIY treatments of this type also fade faster than commercial-class residuals; our guide to <Link href="/blog/how-long-does-mosquito-spray-last">how long mosquito spray actually lasts</Link> sets realistic re-treatment expectations.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="mosquito sniper system">Check price on Amazon.ca →</BuyLink>
           </div>
@@ -265,11 +266,11 @@ export default function PatioMistingSystemCanadaPage() {
             <li><strong>Ontario adds a second layer.</strong> Under the Pesticides Act and Ontario&rsquo;s cosmetic-pesticides rules, routine outdoor residential pesticide application is tightly restricted, with health-protection pathways (like West Nile virus mosquito control) built around licensed exterminators applying registered products &mdash; not around unattended machines fogging on a timer.</li>
             <li><strong>Even US regulators hedge.</strong> The US EPA&rsquo;s own guidance on residential misting systems flags non-target pollinator exposure, pesticide drift onto neighbouring properties, and the resistance pressure created by spraying on a schedule whether or not mosquitoes are present. Timed fogging is the least targeted way to apply insecticide &mdash; which is part of why Canadian regulators never opened the door.</li>
           </ul>
-          <p>So what should a Canadian with a $2,000 misting-install budget actually do? The honest answer is that the licensed equivalent already exists here, and it&rsquo;s more targeted: <strong>residual barrier spray</strong>. Instead of fogging the air several times a day, a licensed technician applies a commercial-class residual product directly to the vegetation where mosquitoes rest &mdash; shrub lines, hedges, under-deck shade &mdash; and the treatment keeps killing for roughly 21&ndash;30 days before re-application. Same &ldquo;set it and forget it&rdquo; outcome the misting install promises, a fraction of the chemical volume, none of the daily fogging over your dinner table. We&rsquo;ve broken down the full cost-and-results math in our <Link href="/blog/professional-vs-diy-mosquito-control-gta-comparison">professional vs DIY mosquito control comparison</Link>.</p>
+          <p>So what should a Canadian with a $2,000 misting-install budget actually do? The honest answer is that the licensed equivalent already exists here, and it&rsquo;s more targeted: <strong>residual barrier spray</strong>. Instead of fogging the air several times a day, a licensed technician applies a commercial-class residual product directly to the vegetation where mosquitoes rest &mdash; shrub lines, hedges, under-deck shade &mdash; and the residual is renewed on a schedule through the season. You get the hands-off yard treatment the misting install promises, without daily fogging over your dinner table. We&rsquo;ve broken down the full cost-and-results math in our <Link href="/blog/professional-vs-diy-mosquito-control-gta-comparison">professional vs DIY mosquito control comparison</Link>.</p>
 
           <aside aria-label="Professional mosquito and tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The Canadian alternative to a $2,000 misting install</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians apply commercial-class barrier spray across 19 GTA cities &mdash; from $99 per treatment, with tick protection at $597/season standalone or $497 bundled with any mosquito plan. Backed by 150 five-star Google reviews.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians apply commercial-class barrier spray across 19 GTA cities &mdash; from $99 per treatment, with tick control (5 sprays a season) at $597 standalone or $497 bundled with any mosquito plan. Backed by 150 five-star Google reviews.</p>
             <div className="flex flex-wrap items-center gap-4">
               <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
@@ -327,7 +328,7 @@ export default function PatioMistingSystemCanadaPage() {
         </div>
       </section>
 
-      <CTASection heading="Mist for Comfort. Barrier Spray for Mosquitoes." subtext="Licensed barrier spray from $99 — the treatment automated misting systems promise, done the legal Canadian way. 21–30 day residual. Free quote in minutes." variant="dark" />
+      <CTASection heading="Mist for Comfort. Barrier Spray for Mosquitoes." subtext={`Licensed barrier spray from $99 — the treatment automated misting systems promise, done the legal Canadian way. ${PROMISES.response}`} variant="dark" />
     </>
   )
 }

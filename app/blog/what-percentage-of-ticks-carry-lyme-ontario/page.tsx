@@ -55,7 +55,7 @@ const FAQS = [
   },
   {
     question: 'How can I lower my familys Lyme disease risk in Ontario?',
-    answer: 'The most effective steps are: do full-body tick checks within a few hours of being outdoors, remove any attached tick promptly with fine-tipped tweezers (before the 24-36 hour transmission window), use a Health Canada-approved repellent containing DEET or icaridin, wear light-coloured clothing and tuck pants into socks on trails, and reduce tick habitat around your home by keeping grass short and clearing leaf litter along wood edges. Professional yard tick control can reduce yard tick populations substantially. This is general prevention guidance — consult Public Health Ontario or a healthcare provider for personal medical advice.',
+    answer: 'The most effective steps are: do full-body tick checks within a few hours of being outdoors, remove any attached tick promptly with fine-tipped tweezers (before the 24-36 hour transmission window), use a repellent containing DEET or icaridin (look for the PCP registration number on the label), wear light-coloured clothing and tuck pants into socks on trails, and reduce tick habitat around your home by keeping grass short and clearing leaf litter along wood edges. Professional yard tick control adds a layer by treating the lawn edges and leaf litter where ticks quest. This is general prevention guidance — consult Public Health Ontario or a healthcare provider for personal medical advice.',
   },
 ]
 
@@ -199,7 +199,7 @@ export default function TicksCarryLymeOntarioPage() {
         </div>
       </article>
 
-      <CTASection heading="Fewer Ticks Where Your Family Walks" subtext="Professional tick barrier spray targets the yard edges where blacklegged ticks concentrate. Free quote for all GTA properties." variant="dark" />
+      <CTASection heading="Treat the Yard Edges Where Your Family Walks" subtext="Professional tick barrier spray targets the yard edges where blacklegged ticks concentrate. Free quote for all GTA properties." variant="dark" />
     </>
   )
 }
