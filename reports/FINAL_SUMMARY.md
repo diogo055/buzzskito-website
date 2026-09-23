@@ -1,6 +1,6 @@
 # Amazon.ca growth — final summary (branch `amazon-growth-sep2026`, 2026-09-22 → 23)
 
-**Status: every phase executed on the branch. Nothing deployed, nothing merged — per the brief.** PLAN.md is the resumable state; each phase has its own report in `reports/`.
+**Status: every phase executed; merged fast-forward to `main` and deployed to buzzskito.ca on 2026-09-23 at the owner's instruction (Vercel: success for 8803f2e; live pages verified).** PLAN.md is the resumable state; each phase has its own report in `reports/`.
 
 ## What the brief asked, what was measured, what shipped
 
