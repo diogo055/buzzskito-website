@@ -165,6 +165,10 @@ const FAQS = [
     question: 'How long until mosquito larvae turn into mosquitos?',
     answer: 'Usually 7 to 14 days from egg to flying adult in warm weather: 1–3 days as an egg, 4–14 days as a larva through four instars, then 1–4 days as a non-feeding pupa. Temperature sets the pace. Near 80°F (27°C) some container species finish in under a week; near 60°F (16°C) it can stretch past a month; and development effectively stalls in cold water. That one-week floor is exactly why a weekly walk-round beats a monthly one.',
   },
+  {
+    question: 'What are mosquito larvae?',
+    answer: 'Mosquito larvae are the aquatic larval stage of the mosquito lifecycle (egg, larva, pupa, adult): 5–8 mm brown-to-black "wigglers" that live only in standing water, hang head-down at the surface to breathe through a tail siphon, and dart downward in an S-shape when the water is disturbed. They cannot bite, and they moult four times as they grow before turning into comma-shaped pupae.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -358,6 +362,27 @@ export default function MosquitoLarvaePage() {
               </tbody>
             </table>
           </div>
+        </div>
+      </section>
+
+      {/* Appearance — the "what do mosquito larvae look like" intent, answered in one place */}
+      <section className="bg-white py-10 px-4 border-b border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-extrabold text-brand-900 mb-3">What do mosquito larvae look like?</h2>
+          <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
+            <strong>Mosquito larvae look like tiny dark worms, 5&ndash;8 mm long (about the size of a grain of rice), brown to black or grey, hanging head-down from the surface of standing water with a breathing siphon on the tail poking through the surface film.</strong> Tap the water and they dart downward in an S-shaped wiggle &mdash; that motion is why they are called &ldquo;wigglers.&rdquo;
+          </p>
+          {/* source: https://www.cdc.gov/mosquitoes/about/life-cycle-of-culex-mosquitoes.html */}
+          <p className="text-base text-gray-800 leading-relaxed mb-5">
+            The U.S. Centers for Disease Control and Prevention describes larvae as very active and shedding their skin several times as they grow, so what you scoop out is usually a mix of sizes: freshly hatched larvae are about 1 mm and nearly transparent, while a third instar at 4&ndash;5 mm shows an obvious head, thorax, abdomen and siphon.
+          </p>
+          <ul className="text-base text-gray-800 leading-relaxed mb-4 space-y-2 list-disc pl-5">
+            <li><strong>Comma-shaped &ldquo;tumblers&rdquo; that roll instead of wiggling?</strong> Pupae &mdash; the next stage, and they do not feed.</li>
+            <li><strong>Lying flat under the surface with no obvious siphon?</strong> Still a mosquito &mdash; <em>Anopheles</em> larvae lie parallel to the surface film.</li>
+          </ul>
+          <p className="text-base text-gray-800 leading-relaxed mb-5">
+            To check, scoop a cupful into a white container so the larvae show as dark specks, then look at one through a hand lens &mdash; at 5&ndash;10x the siphon is obvious. Larvae cannot bite. Once confirmed, drain the water, or treat water you keep with a BTI larvicide &mdash; see the <Link href="/blog/mosquito-dunks-canada-guide" className="underline hover:text-brand-700">Mosquito Dunks Canada guide</Link>.
+          </p>
         </div>
       </section>
 

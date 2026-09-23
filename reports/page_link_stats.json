@@ -1225,7 +1225,7 @@
   "page_default_tag": "buzzskito-tick-20",
   "links": 5,
   "first_link_words": 441,
-  "total_words": 1584,
+  "total_words": 1795,
   "has_disclosure": true,
   "disclosure_missing_but_links": false
  },
@@ -1394,8 +1394,8 @@
   "topic": "mosquito",
   "page_default_tag": "buzzskito-mosquito-20",
   "links": 22,
-  "first_link_words": 355,
-  "total_words": 6125,
+  "first_link_words": 359,
+  "total_words": 6341,
   "has_disclosure": true,
   "disclosure_missing_but_links": false
  },
@@ -1464,8 +1464,8 @@
   "topic": "general",
   "page_default_tag": "buzzskito-general-20",
   "links": 10,
-  "first_link_words": 379,
-  "total_words": 78,
+  "first_link_words": 380,
+  "total_words": 79,
   "has_disclosure": true,
   "disclosure_missing_but_links": false
  },
@@ -1565,7 +1565,7 @@
   "page_default_tag": "buzzskito-tick-20",
   "links": 6,
   "first_link_words": 612,
-  "total_words": 4426,
+  "total_words": 4601,
   "has_disclosure": true,
   "disclosure_missing_but_links": false
  },
@@ -2044,8 +2044,8 @@
   "topic": "mosquito",
   "page_default_tag": "buzzskito-mosquito-20",
   "links": 18,
-  "first_link_words": 471,
-  "total_words": 12821,
+  "first_link_words": 484,
+  "total_words": 13032,
   "has_disclosure": true,
   "disclosure_missing_but_links": false
  },
@@ -2254,8 +2254,8 @@
   "topic": "mosquito",
   "page_default_tag": "buzzskito-mosquito-20",
   "links": 18,
-  "first_link_words": 139,
-  "total_words": 4703,
+  "first_link_words": 143,
+  "total_words": 4981,
   "has_disclosure": true,
   "disclosure_missing_but_links": false
  },
@@ -2295,7 +2295,7 @@
   "page_default_tag": "buzzskito-mosquito-20",
   "links": 11,
   "first_link_words": 408,
-  "total_words": 4679,
+  "total_words": 4880,
   "has_disclosure": true,
   "disclosure_missing_but_links": false
  },
@@ -2714,8 +2714,8 @@
   "topic": "mosquito",
   "page_default_tag": "buzzskito-mosquito-20",
   "links": 12,
-  "first_link_words": 501,
-  "total_words": 5385,
+  "first_link_words": 513,
+  "total_words": 5534,
   "has_disclosure": true,
   "disclosure_missing_but_links": false
  },
@@ -3155,7 +3155,7 @@
   "page_default_tag": "buzzskito-bedbug-20",
   "links": 6,
   "first_link_words": 326,
-  "total_words": 5360,
+  "total_words": 5570,
   "has_disclosure": true,
   "disclosure_missing_but_links": false
  },
@@ -3314,8 +3314,8 @@
   "topic": "mosquito",
   "page_default_tag": "buzzskito-mosquito-20",
   "links": 4,
-  "first_link_words": 3574,
-  "total_words": 4980,
+  "first_link_words": 3573,
+  "total_words": 4979,
   "has_disclosure": true,
   "disclosure_missing_but_links": false
  },
@@ -3505,7 +3505,7 @@
   "page_default_tag": "buzzskito-mosquito-20",
   "links": 7,
   "first_link_words": 520,
-  "total_words": 6391,
+  "total_words": 6549,
   "has_disclosure": true,
   "disclosure_missing_but_links": false
  },

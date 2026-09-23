@@ -130,6 +130,11 @@ const FAQS = [
     question: 'What insect repellents does Health Canada actually register for skin?',
     answer: 'Health Canada registers five personal repellent actives, each with its own age rules. DEET: none under 6 months, 10% for ages 6 months to 12 years, up to 30% for 12 and older. Icaridin (picaridin): none under 6 months; Health Canada sets no upper age or concentration limit, and the Canadian Paediatric Society recommends icaridin as the first choice for children 6 months to 12 years. Oil of lemon eucalyptus / p-menthane-3,8-diol (PMD): not for children under 3 years. Soybean oil: no age restriction, but short duration. Metofluthrin: an area/spatial repellent used in devices rather than a skin product. Concentration caps in Canada are lower than the US equivalents, so a repellent bought south of the border may be a strength Health Canada does not register here.',
   },
+  // source: https://www.canada.ca/en/public-health/services/publications/diseases-conditions/permethrin-treated-clothing.html ; https://pr-rp.hc-sc.gc.ca/ls-re/lbl_detail-eng.php?p_disp_regn=26901&p_regnum=26901 (WILSON CRAWLOUT HOME PEST CONTROL, Reg. No. 26901, DOMESTIC, permethrin 0.25%)
+  {
+    question: 'What is permethrin spray?',
+    answer: 'Permethrin spray is a liquid insecticide (a synthetic pyrethroid) sold ready-to-use or as a concentrate you dilute, and in Canada the phrase covers three different products: the consumer 0.5% clothing and gear spray, which is not approved for use in Canada because Health Canada has not approved permethrin liquids or sprays for consumers to treat their own clothing; ready-to-use household sprays that carry a Canadian PCP registration number, such as Wilson CrawlOut (Reg. No. 26901, domestic class, 0.25% permethrin), whose label covers listed pests inside buildings and on the exterior surfaces of buildings, porches, patios and decks and says do not apply to clothing; and 10%–36.8% yard and turf concentrates, which are restricted to licensed applicators. The permethrin format Canada permits for personal protection is factory pre-treated clothing, for ages 16 and over.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -269,6 +274,11 @@ export default function PermethrinCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated July 2026</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Permethrin Spray: Where to Buy in Canada</h2>
+          {/* source: https://www.canada.ca/en/public-health/services/publications/diseases-conditions/permethrin-treated-clothing.html */}
+          {/* source: https://pr-rp.hc-sc.gc.ca/ls-re/lbl_detail-eng.php?p_disp_regn=26901&p_regnum=26901 (Health Canada Pesticide Label Search: WILSON CRAWLOUT HOME PEST CONTROL, Reg. No. 26901, DOMESTIC, permethrin 0.25%) */}
+          <p className="text-sm text-gray-700 mb-3 leading-relaxed">
+            Permethrin spray is a liquid insecticide &mdash; a synthetic pyrethroid, sold ready-to-use or as a concentrate you dilute &mdash; and in Canada the phrase covers three different products. The consumer 0.5% clothing and gear spray is not approved for use in Canada: Health Canada has not approved permethrin liquids or sprays for consumers to treat their own clothing. The ready-to-use permethrin sprays that do carry a Canadian PCP registration number (Wilson CrawlOut, Reg. No. 26901, a domestic-class 0.25% permethrin solution) are labelled for listed pests inside buildings and on the exterior surfaces of buildings, porches, patios and decks, and the label says do not apply it to clothing or as a broadcast application. The 10%&ndash;36.8% yard and turf concentrates are restricted to licensed applicators, so a treated yard is a different product question from any of the three &mdash; our <Link href="/blog/best-tick-repellent-yard-canada" className="text-emerald-700 underline font-semibold">guide to yard tick repellents available in Canada</Link> works through that layer.
+          </p>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Health Canada has <strong>not approved</strong> permethrin liquids or sprays for consumers to treat their own clothing, so a spray-on treatment is not a registered Canadian consumer product and Canadian chains do not stock it as one. What IS permitted here is <strong>factory pre-treated permethrin clothing</strong>, for ages 16 and over. Permethrin <strong>YARD concentrate</strong> is separately restricted to licensed pest control operators under PMRA regulations.
           </p>

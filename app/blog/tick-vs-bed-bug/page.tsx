@@ -86,6 +86,10 @@ const FAQS = [
     question: 'How long does a tick have to be attached to transmit Lyme disease?',
     answer: 'Longer than most people fear, which is why prompt removal works. The CDC states that in most cases a blacklegged tick must be attached for 36 to 48 hours or more before the Lyme bacterium can be transmitted, while Public Health Ontario advises acting on attachments of 24 hours or more. Other pathogens differ — Powassan virus can transmit far faster — so the safe rule in both countries is the same: check yourself within two hours of coming indoors, and remove any attached tick immediately with fine-tipped tweezers.',
   },
+  {
+    question: 'Bed bug vs tick: what are the differences that never change?',
+    answer: 'A tick has eight legs, no antennae, embeds in your skin for 24 hours to several days, and cannot breed indoors (the brown dog tick is the one exception); a bed bug has six legs, visible antennae, feeds for 5–10 minutes and then hides, and reproduces rapidly indoors in mattress seams and bed frames. Colour and size both shift with age and feeding, so run those four checks rather than relying on either.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -225,6 +229,36 @@ export default function TickVsBedBugPage() {
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
             </div>
           </aside>
+
+          {/* Ticks vs bed bugs — direct-answer section; every fact below restates the ID chart and the sections above and below it on this page */}
+          <h2>Ticks vs Bed Bugs: The Four Differences That Never Change</h2>
+          <p><strong>A tick has eight legs, no antennae, embeds in your skin for 24 hours to several days, and cannot reproduce indoors (the brown dog tick, covered below, is the one exception); a bed bug has six legs, visible antennae, feeds for 5&ndash;10 minutes and walks away, and lives and breeds indoors in mattress seams and bed frames.</strong> Everything else about the two &mdash; colour, size, how much they swell after a meal &mdash; shifts with age and feeding. These four do not, which is why they are the checks to run.</p>
+          <div className="not-prose my-6 rounded-xl border border-gray-200 overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Check</th>
+                  <th className="px-3 py-2 text-left">Tick</th>
+                  <th className="px-3 py-2 text-left">Bed bug</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Legs', 'Eight (six only as a larva)', 'Six'],
+                  ['Antennae', 'None', 'A pair of obvious segmented antennae'],
+                  ['Does it stay on you?', 'Yes — embeds its mouthparts and will not brush off', 'No — feeds 5–10 minutes, then hides'],
+                  ['Can it breed in the house?', 'No, apart from the brown dog tick (below) — a tick indoors came in on clothing, a pet, or gear', 'Yes — reproduces rapidly indoors, within a few metres of the bed'],
+                ].map(([check, tick, bug]) => (
+                  <tr key={check} className="border-t border-gray-100">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{check}</td>
+                    <td className="px-3 py-2 text-gray-700">{tick}</td>
+                    <td className="px-3 py-2 text-gray-700">{bug}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Colour is the least reliable signal: both are some shade of reddish-brown, and both darken after feeding. Size overlaps too &mdash; an unfed tick is roughly 3&ndash;5 mm and an unfed bed bug 4&ndash;5 mm &mdash; and the tick nymph that bites people most often is closer to a poppy seed. If your specimen is small, dark and flat, work through the four checks above before you decide. For a stage-by-stage description of each blacklegged tick at the size you will actually meet it in this province, see <Link href="/blog/what-ticks-look-like-ontario">what ticks look like in Ontario</Link>; if the bug is six-legged and you found it in the bed, the bed bug signs further down this page are the next stop.</p>
 
           <h2>How Do You Know if It&rsquo;s a Tick or a Bed Bug?</h2>
           <p><strong>Count the legs and watch the behaviour.</strong> Ticks have eight legs, no antennae, and stay firmly attached to skin for days. Bed bugs have six legs, visible antennae, and feed for five to ten minutes before walking away to hide. Context settles most cases: outdoors in grass or leaf litter points to a tick; itchy welts that appear overnight in bed point to bed bugs.</p>

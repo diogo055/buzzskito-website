@@ -45,8 +45,8 @@ The brief was written against stale or misread data. These override it wherever 
 - 2: **done** — 2026-09-23, commit b88ff01 (25 ASINs checked, 1 dead → search link; reports/phase2_fixes.md)
 - 3: **done** — 2026-09-23 (tracker: position_index + above_fold; scripts/ctr_report.mjs; GA4 dims registered 2026-09-21)
 - 4: **done** — 2026-09-23 (46 pages kept, 3 reverted, 0 owner lines deleted; reports/phase4_changes.md)
-- 5: **in progress** — demand research agent (GSC-sized, 10-page pilot)
-- 5B: **in progress** — 14 low-CTR pages (394,684 imp, 0.33%) + 74 near-miss queries pulled; titles drafting to reports/
+- 5: **research done, no drafts** — 2026-09-23. GSC-sized demand: only 4 candidates clear 200 CA impressions/qtr; the best (cockroach gel bait canada, 3,563 imp) is worth ~$1–3/mo and collides with the FROZEN advion page; #2–4 are under $1/mo. Per ops rule 2, not built. Revisit after 2026-10-15 (reports/new_pages_plan.csv, reports/publish_calendar.md)
+- 5B: **done** — 2026-09-23. Titles: commit 3ab4bcf (12 titles + 14 descriptions; 2 titles kept on purpose). Near-miss: 9 pages holding 114,187 near-miss impressions got a direct-answer section, all 9 audits clean, 0 owner lines deleted (reports/phase5b_near_miss.md). Dunks PMRA number corrected 18158 → 28888 (verified live).
 - 6: **done** — 2026-09-23 (no Photon Matrix affiliate program exists; Alternatives section shipped in Phase 4 batch 0; reports/phase6_photon_matrix.md)
 - 6B: **done** — 2026-09-23 (reports/revenue_outside_amazon.md: Levanta Harris/Flowtron + Home Hardware worth pursuing, retailers skip)
-- 7: pending
+- 7: **done** — 2026-09-23 (reports/FINAL_SUMMARY.md; scripts/monthly_review.mjs + scripts/pull-gsc-90d.py + data/amazon/; branch NOT merged or deployed)

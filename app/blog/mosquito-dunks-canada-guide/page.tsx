@@ -54,7 +54,7 @@ const FAQS = [
   },
   {
     question: 'Are mosquito dunks BTI-only or do they have other ingredients?',
-    answer: 'Mosquito dunks are essentially pure BTI (Bacillus thuringiensis subspecies israelensis) compressed with an inert binder that allows the slow 30-day release. The BTI is the only active ingredient — it specifically targets mosquito and black fly larvae. There are no pyrethroids or other synthetic insecticides in the tablet. That narrow target list is why dunks are used in ponds and rain barrels; follow the label for use sites. The Summit Chemical brand sold most widely in Canada carries Canadian PCP registration number 18158.',
+    answer: 'Mosquito dunks are essentially pure BTI (Bacillus thuringiensis subspecies israelensis) compressed with an inert binder that allows the slow 30-day release. The BTI is the only active ingredient — it specifically targets mosquito and black fly larvae. There are no pyrethroids or other synthetic insecticides in the tablet. That narrow target list is why dunks are used in ponds and rain barrels; follow the label for use sites. The Summit Chemical brand sold most widely in Canada carries Canadian PCP registration number 28888.',
   },
   {
     question: 'Can I use mosquito dunks in a swimming pool?',
@@ -70,7 +70,7 @@ const FAQS = [
   },
   {
     question: 'What are mosquito dunks made of?',
-    answer: 'Mosquito dunks are made of dried Bacillus thuringiensis israelensis (BTI) — a naturally occurring soil bacterium — compressed with an inert binder into a slow-dissolving donut-shaped tablet. BTI is the only active ingredient; there are no pyrethroids or other synthetic insecticides. As the tablet breaks down in water it releases BTI spores that mosquito and black fly larvae eat. The Summit brand sold across Canada carries Canadian PCP registration number 18158.',
+    answer: 'Mosquito dunks are made of dried Bacillus thuringiensis israelensis (BTI) — a naturally occurring soil bacterium — compressed with an inert binder into a slow-dissolving donut-shaped tablet. BTI is the only active ingredient; there are no pyrethroids or other synthetic insecticides. As the tablet breaks down in water it releases BTI spores that mosquito and black fly larvae eat. The Summit brand sold across Canada carries Canadian PCP registration number 28888.',
   },
   {
     question: 'Where do you buy mosquito dunks in stores?',
@@ -90,7 +90,7 @@ const FAQS = [
   },
   {
     question: 'Are mosquito dunks harmful to humans?',
-    answer: 'No. The U.S. Environmental Protection Agency states that BTI has no toxicity to people, and BTI is registered for residential use in both countries — EPA Reg. No. 6218-47 in the United States and Health Canada PCP #18158 in Canada. The Summit label carries the signal word CAUTION for moderate eye irritation only. Wash your hands after handling a dunk, keep the box out of reach of children, and do not deliberately treat household drinking water at home.',
+    answer: 'No. The U.S. Environmental Protection Agency states that BTI has no toxicity to people, and BTI is registered for residential use in both countries — EPA Reg. No. 6218-47 in the United States and Health Canada PCP #28888 in Canada. The Summit label carries the signal word CAUTION for moderate eye irritation only. Wash your hands after handling a dunk, keep the box out of reach of children, and do not deliberately treat household drinking water at home.',
   },
   {
     question: 'Are mosquito dunks safe for dogs?',
@@ -138,7 +138,7 @@ const FAQS = [
   },
   {
     question: 'Are mosquito dunks EPA registered?',
-    answer: 'Yes. Summit Mosquito Dunks are registered with the U.S. Environmental Protection Agency under EPA Reg. No. 6218-47, held by Summit Chemical Company of Baltimore, Maryland. The EPA has registered five BTI strains across 48 pesticide products for residential, commercial, and agricultural use. In Canada the same product carries PCP registration number 18158. The EPA also reports no documented resistance to BTI as a larvicide, even in mosquito populations treated for decades.',
+    answer: 'Yes. Summit Mosquito Dunks are registered with the U.S. Environmental Protection Agency under EPA Reg. No. 6218-47, held by Summit Chemical Company of Baltimore, Maryland. The EPA has registered five BTI strains across 48 pesticide products for residential, commercial, and agricultural use. In Canada the same product carries PCP registration number 28888. The EPA also reports no documented resistance to BTI as a larvicide, even in mosquito populations treated for decades.',
   },
   {
     question: 'Do mosquito dunks kill fungus gnats?',
@@ -164,11 +164,17 @@ const FAQS = [
     question: 'Are mosquito dunks approved for organic gardening?',
     answer: 'Yes. The U.S. Environmental Protection Agency states that BTI is approved for pest control in organic farming operations, and Summit markets Mosquito Dunks as approved for use in organic production. In practice that means water from a treated rain barrel can be used on an organic vegetable garden without breaking the rules of home organic growing. If you are certified organic commercially, confirm the specific product against your certifier\'s input list, since approved-input lists are program-specific.',
   },
+  // source: https://pr-rp.hc-sc.gc.ca/ls-re/lbl_detail-eng.php?p_disp_regn=28888&p_regnum=28888
+  // source: https://pr-rp.hc-sc.gc.ca/1_1/view_label?p_ukid=438824574
+  {
+    question: 'Can you use mosquito dunks in Canada?',
+    answer: 'Yes. In Canada, Mosquito Dunks are a domestic-class larvicide, Reg. No. 28888 under the Pest Control Products Act, with registrant Summit Chemical Company and Bacillus thuringiensis subspecies israelensis strain BMP-144 at 10.31% as the active ingredient; the Canadian label rate is one dunk for up to 6 square metres of water surface, and it limits use to standing or containerized water on your own property that cannot be drained, emptied or changed at least weekly, not gutters, ditches or drains that flow off the property.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Dunks Canada: BTI Tablets, Where to Buy',
-  description: 'Yes, mosquito dunks are sold across Canada — pure BTI, and the Summit brand carries Canadian PCP #18158. One dunk treats 100 sq ft for 30 days.',
+  description: 'Yes, mosquito dunks are sold across Canada — pure BTI, and the Summit brand carries Canadian PCP #28888. One dunk treats 100 sq ft for 30 days.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -272,7 +278,7 @@ export default function MosquitoDunksPage() {
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For long-term standing water like rain barrels and ponds, <AmazonLink search="summit mosquito dunks" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Mosquito Dunks</AmazonLink> are the best pick &mdash; each donut-shaped BTI tablet treats up to 100 sq ft of water for about 30 days, according to the label. For fast knockdown of unexpected larvae, use quick-release Mosquito Bits instead.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>One mosquito dunk treats up to 100 sq ft of water surface and lasts about 30 days.</li>
-              <li>Dunks contain only BTI (Bacillus thuringiensis israelensis); the Summit brand carries Canadian PCP registration number 18158.</li>
+              <li>Dunks contain only BTI (Bacillus thuringiensis israelensis); the Summit brand carries Canadian PCP registration number 28888.</li>
               <li>BTI kills mosquito and black fly larvae within 24&ndash;48 hours; the U.S. EPA states its toxins affect only mosquito, black fly, and fungus gnat larvae, with no toxicity to people.</li>
               <li>A 6-pack costs about $10&ndash;$20 at hardware stores (Canadian Tire, Home Depot, Rona, Lowe&rsquo;s); Amazon.ca listings often run higher, so check the current price before buying.</li>
               <li>Use one dunk per 50 gallons in a rain barrel and replace it monthly from May through September.</li>
@@ -400,7 +406,7 @@ export default function MosquitoDunksPage() {
                   ['Brands in Canada', 'Summit (most common), Safer\'s Brand'],
                   ['Where to buy in Canada', 'Canadian Tire, Home Depot, Rona, Lowe\'s, garden centres, Amazon.ca'],
                   ['Typical price', '$10–$20 per 6-pack · $25–$35 per 20-pack'],
-                  ['Canadian registration', 'PCP #18158 (Summit) — check the number on your package'],
+                  ['Canadian registration', 'PCP #28888 (Summit) — check the number on your package'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -413,14 +419,63 @@ export default function MosquitoDunksPage() {
         </div>
       </section>
 
+      {/* CANADIAN REGISTRATION AND LABEL — additive. Sits directly after Key Facts and
+          before the U.S. section so the Canadian and U.S. regulatory records read side
+          by side. Every figure in this block is taken from the PMRA registration record
+          and the PMRA-hosted Canadian label for Reg. No. 28888, from Health Canada's own
+          mosquito page, or from the Summit specimen label; the source URL sits in a
+          comment immediately above each paragraph and the table. */}
+      <section className="py-10 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-extrabold text-brand-900 mb-3">Mosquito dunks in Canada: what the Canadian registration and label say</h2>
+          {/* source: https://pr-rp.hc-sc.gc.ca/ls-re/lbl_detail-eng.php?p_disp_regn=28888&p_regnum=28888 */}
+          {/* source: https://pr-rp.hc-sc.gc.ca/1_1/view_label?p_ukid=438824574 */}
+          {/* source: https://summitchemical.com/wp-content/uploads/2021/01/110-12-SPECIMEN_DUNKS.pdf */}
+          <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
+            <strong>Mosquito Dunks are a domestic-class larvicide in Canada, Reg. No. 28888 under the Pest Control Products Act, and the Canadian label is stricter about where you may use them than the U.S. label.</strong> The PMRA record lists the product as MOSQUITO DUNKS, registrant Summit Chemical Company, on the PMRA register since 2008-05-08 with an expiry of 2028-12-31, with <em>Bacillus thuringiensis</em> subspecies <em>israelensis</em> strain BMP-144 at 10.31% as the active ingredient. The rows below quote the Canadian label on file with the PMRA (document 2023-3665, dated 2023-07-28).
+          </p>
+          {/* source: https://pr-rp.hc-sc.gc.ca/1_1/view_label?p_ukid=438824574 */}
+          <div className="rounded-xl border border-navy-100 overflow-x-auto">
+            <table className="w-full text-sm">
+              <tbody>
+                {[
+                  ['Class, signal words, storage', 'Domestic. CAUTION EYE IRRITANT, POTENTIAL SENSITIZER; keep out of reach of children; read the label before using. Store the closed container in a cool (25°C or less), dry place and use within one year of the date of manufacture.'],
+                  ['Label rate', 'One dunk for up to 6 square metres of water surface, regardless of depth, used whole or in pieces; a piece of a dunk for smaller surfaces, per the label table. Allow a minimum of 48 hours for control; reapply at 30-day intervals if mosquito larvae are detected.'],
+                  ['Where the label allows it', 'Standing water wholly confined to your property, with no outflow beyond the property limits, that remains for more than a week and cannot be drained (flooded depressions, ponds); and containerized water (bird baths, flower planters, discarded tires, ornamental ponds, rain barrels) that cannot be emptied, drained, flushed or changed at least weekly.'],
+                  ['Where the label says DO NOT', 'Any water designed to flow beyond your property limits — ditches, drains, rain gutters or catch basin sumps that flow into weeping tile beds or municipal storm drain systems; treated, finished drinking water; spray mixtures or any irrigation system. Where outflow beyond your property is possible, contact your provincial or territorial regulator first, as a permit may be required.'],
+                ].map(([k, v]) => (
+                  <tr key={k} className="border-b border-navy-50 last:border-0 align-top">
+                    <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
+                    <td className="px-4 py-2 text-gray-700">{v}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          {/* source: https://pr-rp.hc-sc.gc.ca/1_1/view_label?p_ukid=438824574 */}
+          {/* source: https://summitchemical.com/wp-content/uploads/2021/01/110-12-SPECIMEN_DUNKS.pdf */}
+          <p className="text-sm text-gray-700 leading-relaxed mt-5">
+            Two figures differ from the U.S. numbers used elsewhere in this guide: the Canadian rate is one dunk for up to 6 square metres of water surface, well under the 100 square feet on the U.S. specimen label, and use is limited to water that stays on your property, so a roof gutter that drains to the street is off the list here even though the U.S. label includes roof gutters.
+          </p>
+          {/* source: https://www.canada.ca/en/health-canada/services/pest-control-tips/mosquitoes.html */}
+          <p className="text-sm text-gray-700 leading-relaxed mt-3">
+            Health Canada&rsquo;s own mosquito page points the same way: empty a rain barrel once the water is over a week old unless it is covered with a fine screen, change bird bath and outdoor pet dish water at least twice a week, and where water cannot be removed use only a larvicide showing a pest control product (PCP) number on its label and follow the label directions. Not sure what is wriggling in the barrel? Check before you treat: <Link href="/blog/mosquito-larvae-identification" className="text-emerald-700 underline font-semibold">how to identify mosquito larvae</Link>.
+          </p>
+          {/* source: https://pr-rp.hc-sc.gc.ca/ls-re/lbl_detail-eng.php?p_disp_regn=18158&p_regnum=18158 */}
+          <p className="text-sm text-gray-700 leading-relaxed mt-3">
+            If you have seen the number 18158 attached to mosquito dunks online, the PMRA database lists that registration as a different product, VectoBac 200G Biological Larvicide, a restricted-class product from Sumitomo Biorational Company; check the number printed on your own box against the PMRA label search.
+          </p>
+        </div>
+      </section>
+
       {/* U.S. REGULATORY IDENTITY — additive. The page already carries the Canadian
-          registration (Health Canada PCP #18158); this gives a U.S. reader the EPA
+          registration (Health Canada PCP #28888); this gives a U.S. reader the EPA
           anchor they had none of, side by side, on one URL. */}
       <section className="py-10 px-4 bg-white border-t border-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-3">Mosquito Dunks in the United States: EPA registration and what the label allows</h2>
           <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
-            <strong>It is the same product in both countries, registered twice.</strong> <strong>In the United States</strong>, Summit Mosquito Dunks are registered with the U.S. Environmental Protection Agency under <strong>EPA Reg. No. 6218-47</strong>, held by Summit Chemical Company of Baltimore, Maryland; the label carries the signal word <strong>CAUTION</strong> for moderate eye irritation. <strong>In Canada</strong>, the identical product carries Canadian registration number <strong>PCP #18158</strong>. Neither number changes how the dunk works &mdash; but if you are checking a product against a regulator&rsquo;s database, you need the number for your own country.
+            <strong>It is the same product in both countries, registered twice.</strong> <strong>In the United States</strong>, Summit Mosquito Dunks are registered with the U.S. Environmental Protection Agency under <strong>EPA Reg. No. 6218-47</strong>, held by Summit Chemical Company of Baltimore, Maryland; the label carries the signal word <strong>CAUTION</strong> for moderate eye irritation. <strong>In Canada</strong>, the identical product carries Canadian registration number <strong>PCP #28888</strong>. Neither number changes how the dunk works &mdash; but if you are checking a product against a regulator&rsquo;s database, you need the number for your own country.
           </p>
           <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
             <table className="min-w-[640px] w-full text-sm">
@@ -433,7 +488,7 @@ export default function MosquitoDunksPage() {
               </thead>
               <tbody>
                 {[
-                  ['Registration number', 'EPA Reg. No. 6218-47', 'Health Canada PCP #18158'],
+                  ['Registration number', 'EPA Reg. No. 6218-47', 'Health Canada PCP #28888'],
                   ['Registrant', 'Summit Chemical Company, Baltimore, MD', 'Same product, sold as Summit Mosquito Dunks'],
                   ['Active ingredient', 'Bacillus thuringiensis subspecies israelensis (BTI)', 'Bacillus thuringiensis subspecies israelensis (BTI)'],
                   ['Signal word on the label', 'CAUTION — moderate eye irritation', 'Follow label directions; domestic-class product'],
@@ -601,7 +656,7 @@ export default function MosquitoDunksPage() {
           <p className="text-sm text-gray-600">Kill list and non-target list follow the U.S. Environmental Protection Agency&rsquo;s BTI for mosquito control fact sheet. One consequence worth knowing: because BTI must be eaten, it does not kill <strong>pupae</strong> &mdash; the comma-shaped &ldquo;tumblers&rdquo; that no longer feed. If a container is full of pupae, dunking it will not stop this batch from emerging; dump the water instead, then dunk the refill.</p>
 
           <h2>Are mosquito dunks harmful to humans?</h2>
-          <p className="speakable"><strong>No.</strong> The U.S. Environmental Protection Agency states plainly that <strong>BTI has no toxicity to people</strong>, and BTI is registered for residential use in both countries &mdash; EPA Reg. No. 6218-47 in the United States, Health Canada PCP #18158 in Canada. The Summit label carries the signal word <strong>CAUTION</strong> for moderate eye irritation only, which is a handling instruction, not a health warning about the treated water.</p>
+          <p className="speakable"><strong>No.</strong> The U.S. Environmental Protection Agency states plainly that <strong>BTI has no toxicity to people</strong>, and BTI is registered for residential use in both countries &mdash; EPA Reg. No. 6218-47 in the United States, Health Canada PCP #28888 in Canada. The Summit label carries the signal word <strong>CAUTION</strong> for moderate eye irritation only, which is a handling instruction, not a health warning about the treated water.</p>
           <p>Sensible handling, which is all the label actually asks for: wash your hands after handling a tablet, avoid rubbing your eyes while you do it, and keep the box out of reach of children the way you would any garden product. BTI is used at municipal scale in water bodies across North America, but Health Canada&rsquo;s PMRA does not permit any Bti product to be applied to treated, finished drinking water &mdash; so there is no case for dosing the water in your own kitchen. Treat your rain barrel, your pond, and your ditch; leave your drinking water alone.</p>
 
           <h2>What is the difference between mosquito bits and mosquito dunks?</h2>

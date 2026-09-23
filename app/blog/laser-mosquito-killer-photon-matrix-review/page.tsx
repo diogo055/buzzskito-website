@@ -123,6 +123,12 @@ const FAQS = [
     question: 'Who invented the mosquito laser, and why did the original never ship?',
     answer: 'The "photonic fence" was commissioned by the Gates Foundation in 2007 and built at Intellectual Ventures by a team that included Lowell Wood — a Strategic Defense Initiative physicist who worked with Edward Teller — along with Jordin Kare, Eric Johanson and several Lawrence Livermore alumni. The prototype used an infrared LED fence and CCD cameras, identified mosquitoes by wing-beat frequency (down to species and sex, so it could target only the biting females), and reportedly engaged 50 to 100 mosquitoes a second at around 30 metres — five times the range of any consumer device today. The programme ran roughly a decade, to about 2017. Per New Atlas, the prototype still was not eye-safe when it wound down. A far better-funded team, with a much longer runway, did not solve the safety problem. That history is the reason for our caution, not marketing skepticism.',
   },
+  // source: https://photonmatrixlab.com/faq/ (manufacturer FAQ, "Information updated 20 September 2026")
+  // source: https://store.photonmatrixlab.com/policies/shipping-policy (official store shipping policy)
+  {
+    question: 'What is the Photon Matrix mosquito killer, and does it exist yet?',
+    answer: 'The Photon Matrix is a portable laser mosquito device from Photon Matrix Lab that detects a flying insect with LiDAR, millimetre-wave radar and vision AI, then fires a short high-power laser pulse to disable its wings; it is sold in a 450 nm blue-laser version the maker recommends for outdoors and a 976 nm infrared version it recommends for indoors, with a stated effective radius of 6 m. It exists as a pre-order, not yet as a shipped product: as of this update the manufacturer\'s own store still labels it pre-order with shipping quoted within 120 days of payment, and its FAQ, updated 20 September 2026, says mass production is planned to begin in October 2026 with orders shipping in the order received.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -694,6 +700,18 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <h2 id="is-the-photon-matrix-mosquito-killer-real">Is the photon matrix mosquito killer real?</h2>
           <p><strong>It is a real product from a real company. New Atlas identifies the founder as Jim Wong of Changzhou, China, and notes it was his first &mdash; and only &mdash; Indiegogo project on record. Real is not the same as proven: reports on price and shipping still contradict each other, and no independent lab has confirmed a single performance claim.</strong></p>
           <p>That founder detail is worth sitting with rather than skipping. Hardware crowdfunding rewards a first-time creator with a spectacular demo video exactly as readily as it rewards a company with a manufacturing history, and the buyer carries the difference. The contradictions in the reporting are the tell: NPR said in June 2026 that units were not yet in production, while later coverage described the same device as available to buy. Both cannot be describing the same week. Ask the seller for a ship date in writing before you pay.</p>
+
+          <h2 id="what-is-the-photon-matrix-laser-mosquito-killer">What is the Photon Matrix laser mosquito killer, and does it exist yet?</h2>
+          {/* source: https://photonmatrixlab.com/faq/ (manufacturer FAQ, "Information updated 20 September 2026") */}
+          {/* source: https://store.photonmatrixlab.com/blogs/news/photon-matrix-scam-warning-fake-websites (manufacturer notice: no genuine units shipped) */}
+          <p><strong>The Photon Matrix is a portable laser mosquito device sold by Photon Matrix Lab that detects a flying insect with LiDAR, millimetre-wave radar and vision AI, then fires a short high-power laser pulse to disable its wings. It exists as a pre-order; by the manufacturer&rsquo;s own account it has not yet shipped.</strong></p>
+          {/* source: https://photonmatrixlab.com/faq/ (versions, wavelengths, range, target criteria) */}
+          {/* source: https://photonmatrixlab.com/ (manufacturer homepage: infrared version indoor recommended, blue laser version outdoor recommended) */}
+          <p>Its FAQ lists one configuration, Pro, in two versions: a 450 nm blue laser recommended for outdoors, with a visible flash per strike, and a 976 nm infrared laser recommended for indoors, which strikes invisibly and carries a switchable green indicator. Stated range is a 6 m radius across a horizontal 90-degree scan, against flying insects of 2 to 20 mm at 1 m/s or slower.</p>
+          {/* source: https://store.photonmatrixlab.com/ (official store banner: "Pre-order Now", "Pre-order Items Will Ship Within 120 Days") */}
+          {/* source: https://store.photonmatrixlab.com/policies/shipping-policy (estimate not guaranteed; duties, taxes, brokerage on the customer) */}
+          {/* source: https://photonmatrixlab.com/faq/ (mass production planned to begin October 2026; orders ship in the order received) */}
+          <p>The official store banner still reads &ldquo;Pre-order Now&rdquo; with shipping quoted within 120 days; the shipping policy calls that an estimate, not a guarantee, and puts duties, taxes and brokerage on the buyer. The FAQ, updated 20 September 2026, says mass production is planned to begin in October 2026, with orders shipping in the order received &mdash; later than the August start reported elsewhere on this page. Until a unit reaches a buyer, treat it as a pre-order; for a device you can run this season, see our <Link href="/blog/best-mosquito-repellent-device-canada">best mosquito repellent device guide for Canada</Link>.</p>
 
           <h2 id="does-the-photon-matrix-really-work">Does the photon matrix really work?</h2>
           <p><strong>In demo footage it detects and hits mosquitoes &mdash; that part looks genuine. Whether it clears a yard is unanswered. The claim is up to 30 mosquitoes a second within three to six metres, and nobody independent has tested it. A six-metre bubble is a patio corner, not a property, and it does nothing whatsoever for ticks.</strong></p>

@@ -77,6 +77,10 @@ const FAQS = [
     question: 'Which tick makes you allergic to red meat (alpha-gal)?',
     answer: 'Neither the deer tick nor the American dog tick — alpha-gal syndrome, a delayed red-meat allergy, is linked to the lone star tick (Amblyomma americanum). The lone star tick is mainly a southeastern US species whose range is slowly expanding northward, and it remains uncommon in Ontario. It does not spread Lyme. If you develop hives or delayed reactions after eating red meat following a tick bite, see a healthcare provider; the CDC has more on alpha-gal syndrome.',
   },
+  {
+    question: 'Deer tick vs dog tick: which one did I find?',
+    answer: 'A deer tick is about 3 mm unfed with a plain reddish-black body and dark legs, and it is the one that transmits Lyme disease in Canada. A dog tick is about 5 mm unfed with a mottled grey-and-brown shield and brown legs, and it does not transmit Lyme here.',
+  },
 ]
 
 // TITLE NOTE (Aug 2026): the Jul 2026 re-order never reached the SERP. Only
@@ -197,6 +201,39 @@ export default function DeerTickVsDogTickPage() {
           <BlogPostCTA />
           <AffiliateDisclosure />
           <p>Whichever it is, it needs to come off the skin now, and a tick-removal kit that includes a small magnifier does double duty: confirm the pattern on the shield, then pull the tick straight out. <BuyLink tag={AMZ_TAG} search="tick removal kit with magnifier">Check price on Amazon.ca &rarr;</BuyLink></p>
+
+          <h2>Deer Tick vs Dog Tick: The Three Differences</h2>
+          <p><strong>Deer tick vs dog tick comes down to three things: a deer tick is about 3 mm unfed with a plain reddish-black body and transmits Lyme disease in Canada; a dog tick is about 5 mm unfed with a mottled grey-and-brown shield and does not.</strong></p>
+          <p><strong>Size.</strong> Unfed, a deer tick is sesame-seed small and a dog tick is apple-seed sized. Deer tick nymphs are poppy-seed tiny and easy to miss.</p>
+          <p><strong>Pattern.</strong> Look at the shield (scutum) on the back. A deer tick&rsquo;s is smooth and plain, and its legs are dark. A dog tick&rsquo;s carries mottled grey-and-brown markings, and its legs are brown. Any decoration on the back rules out a deer tick.</p>
+          {/* source: https://www.canada.ca/en/public-health/services/diseases/lyme-disease/causes-lyme-disease.html */}
+          <p><strong>Lyme risk.</strong> The Public Health Agency of Canada names the blacklegged (deer) tick and the western blacklegged tick as the ticks that spread Lyme disease. The American dog tick does not transmit it here. In most cases an infected tick needs to be attached for at least 24 hours to pass on the bacterium, so remove either species promptly, and if it was the small plain one, save it and note the date.</p>
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Difference</th>
+                  <th className="px-3 py-2 text-left">Deer Tick</th>
+                  <th className="px-3 py-2 text-left">Dog Tick</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Unfed adult size', '3 mm (sesame seed)', '5 mm (apple seed)'],
+                  ['Engorged size', '7 mm (small pea)', '15 mm (cherry pit)'],
+                  ['Shield and legs', 'Plain shield, dark legs', 'Mottled grey-and-brown shield, brown legs'],
+                  ['Lyme disease in Canada', 'Yes', 'No'],
+                ].map(([diff, deer, dog]) => (
+                  <tr key={diff} className="border-t border-navy-50">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{diff}</td>
+                    <td className="px-3 py-2 text-gray-700">{deer}</td>
+                    <td className="px-3 py-2 text-gray-700">{dog}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>If the tick matches neither description, our <Link href="/blog/types-of-ticks-identification" className="text-brand-700 underline">types of ticks identification chart</Link> covers the other common North American species by size, colour and markings.</p>
 
           <h2>Which Tick Carries Lyme Disease?</h2>
           <p><strong>The deer tick — also called the blacklegged tick (<em>Ixodes scapularis</em>) — is the only one of these two that carries Lyme disease in Canada.</strong> The American dog tick does not transmit Lyme here. So the practical question &ldquo;which tick carries Lyme?&rdquo; has a simple answer: the small, plain, reddish-black one. About <strong>10–30% of blacklegged ticks in southern Ontario</strong> carry <em>Borrelia burgdorferi</em>, the Lyme bacterium. If a tiny, unpatterned tick bit you, save it and watch for symptoms; if a larger patterned dog tick bit you, Lyme is not the concern.</p>

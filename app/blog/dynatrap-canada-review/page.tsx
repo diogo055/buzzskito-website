@@ -139,6 +139,11 @@ const FAQS = [
     question: 'Which DynaTrap models are sold in the United States?',
     answer: 'The current US outdoor store lists the 1-acre LED DT2030 and DT2030-GR, the half-acre LED DT1130SR and DT1130-GR, and the quarter-acre LED portable DT030. Legacy and retailer-specific SKUs still widely in circulation include the DT160, DT152, DT1050, DT1210, DT1775, DT2000XL and DT2000XLP, alongside the indoor and decorative ranges — Sonata, Decora, DOT, Willow, Luxe, Ultralight and Flylight. The Canadian lineup is not the same, which is why a model number on a US listing may have no Canadian equivalent and vice versa. Check the model number on the box, not the marketing name, before buying accessories.',
   },
+  // source: https://www.dynatrap.com/faq and https://www.dynatrap.com/how-it-works
+  {
+    question: 'What is a DynaTrap?',
+    answer: 'A DynaTrap is a UV-plus-fan insect trap made by Dynamic Solutions Worldwide: a lamp generates UV rays to attract flying insects, a fan draws them into the trap and a damper keeps them in the catch basket, where they dehydrate. The Canadian-market range runs from the small DT150 to the full-acre DT3050, no model uses an insecticide, and the manufacturer\'s own FAQ says to place the trap 20–40 feet from your outdoor activity area, three to six feet off the ground, and leave it on 24 hours a day except during cleaning.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -488,6 +493,12 @@ export default function DynaTrapCanadaPage() {
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Do DynaTraps actually work? The honest answer.</p>
             <p className="text-sm text-gray-800 leading-relaxed">Yes — as <em>flying-insect</em> catchers. As <em>mosquito</em> traps, only marginally. Peer-reviewed testing (University of Florida; Notre Dame) puts mosquitoes at roughly 5% of what a UV trap catches — the other 95% is moths, beetles, and midges. The Atrakta cartridge helps a little; it does not close the gap with CO₂ propane traps. For real mosquito relief in a GTA yard, pair a trap with <Link href="/mosquito-control">professional barrier spray</Link> — whole-yard, re-applied through the season, with tick treatment available as an add-on; ticks are something no DynaTrap touches.</p>
           </div>
+
+          <h2 id="what-is-a-dynatrap">What Is a DynaTrap?</h2>
+          {/* source: https://www.dynatrap.com/how-it-works */}
+          <p><strong>A DynaTrap is a UV-plus-fan insect trap made by Dynamic Solutions Worldwide: a lamp generates UV rays to attract flying insects, a fan draws them into the trap and a damper keeps them in the catch basket, where they dehydrate.</strong> The Canadian-market range runs from the small DT150 up through the half-acre DT1050 and the full-acre DT1100, DT2030 and DT3050, and the brand also sells indoor units such as the Flylight. No model uses an insecticide No model uses an insecticide &mdash; the Atraktamdash; the Atrakta cartridge on the premium units adds octenol scent only.</p>
+          {/* source: https://www.dynatrap.com/faq */}
+          <p>DynaTrap markets the devices as mosquito traps, and its own FAQ sets the operating rules: place the trap 20&ndash;40 feet from your outdoor activity area, three to six feet off the ground, and leave it on 24 hours a day except during cleaning. DynaTrap reviews from hands-on testers and owners, summarised further down, land on the same split this page does: the basket fills with moths, gnats, midges and beetles, and mosquitoes are a single-digit share of the catch. BuzzSkito has not lab-tested a DynaTrap; this review is built on independent trap studies, third-party hands-on tests and the manufacturer&rsquo;s own operating guidance. For insects inside the house rather than in the yard, see our guide to the <Link href="/blog/best-indoor-fly-mosquito-trap-canada">best indoor fly and mosquito traps in Canada</Link>.</p>
 
           <h2>How the DynaTrap Mosquito Trap Works (and Why That Matters)</h2>
           <p>DynaTrap uses two ingredients: a UV light to attract insects, and a small fan to suck them into a catch basket where they dehydrate. The premium models add an Atrakta cartridge that releases octenol — a synthetic version of human breath/sweat compounds.</p>
