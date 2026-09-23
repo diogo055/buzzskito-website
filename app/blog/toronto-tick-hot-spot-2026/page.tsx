@@ -4,6 +4,8 @@ import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -99,6 +101,15 @@ export default function TorontoTickHotSpotPage() {
         <p className="text-lg text-gray-700 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8 leading-relaxed">
           <strong>TL;DR:</strong> Toronto&rsquo;s 27% ravine + parkland coverage gives it the densest urban tick habitat in Canada. Backyard-to-forest adjacency is widespread. The Toronto Star and Public Health Ontario flagged the city as a hot spot in May 2026. If your property borders any ravine, park, or naturalized green space, treat it as high-risk and act this season.
         </p>
+        <AffiliateDisclosure />
+        <TopPick tag={AMZ_TAG}
+          label="Our Top Pick — Before the Ravine Walk"
+          name="Fine-tipped tick-removal tool"
+          blurb="Every step in the plan below ends the same way: a daily check, and a clean removal when the check finds something. Blunt drugstore tweezers squeeze a nymph's body; a fine-tipped remover grips at the skin line and lifts the whole tick out. Cheap enough to keep one in the kitchen drawer, one in the dog-walking bag, and one in the car for the Don Valley parking lot."
+          search="tick removal tool tweezers"
+          pros={['Grips at the head, so the body is never squeezed', 'Small enough to keep in the car and the dog bag', 'Works on poppy-seed nymphs and engorged adults alike']}
+          cons={['Easy to misplace without a keyring loop', 'Still needs a slow, steady straight pull']}
+        />
 
         <h2>The headline: Toronto is now a hot spot</h2>
         <p>In May 2026, the Toronto Star ran a feature confirming what Public Health Ontario surveillance has been signalling for two years: <em>Toronto is no longer a low-tick city.</em> The 2026 nymph emergence is running 2-3 weeks ahead of typical, and the percentage of collected blacklegged ticks testing positive for Lyme bacteria has climbed in tandem. Toronto Public Health classifies the city as an established risk area — meaning the question is not whether ticks are present, but how to manage your exposure.</p>
@@ -134,6 +145,7 @@ export default function TorontoTickHotSpotPage() {
           <li><strong>Permethrin-treated clothing for ravine hikers.</strong> If you walk in the Don Valley, Rouge, or any forested ravine, wear hiking pants, socks, or gaiters that come factory-treated with permethrin &mdash; in Canada, consumer permethrin sprays for treating your own clothing are not registered. This is the single most effective personal protection layer.</li>
           <li><strong>Know the 24-36 hour rule.</strong> Lyme disease transmission typically requires 24-36 hours of tick attachment. A tick found and removed within 24 hours dramatically reduces — but does not eliminate — risk. Daily checks matter.</li>
         </ol>
+        <p className="not-prose text-gray-700">Step four is the one you can sort out before the weekend: factory-treated permethrin socks, gaiters, and hiking pants are sold ready to wear for exactly these ravine trails. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>What about the news momentum?</h2>
         <p>Toronto Star, CityNews, and TorontoToday all ran tick coverage in May 2026 because the surge is genuine — not media hype. Public attention will move on within weeks. The tick pressure will not. The properties getting treated now will be protected through the peak season; the ones that wait until September will have missed the window.</p>
@@ -167,6 +179,8 @@ export default function TorontoTickHotSpotPage() {
         </div>
 
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick-removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Toronto tick season starts now — get your yard protected" subtext="Free custom quote based on your address and lot. Sent within 24 hours. Same-week service across Toronto." />
     </>

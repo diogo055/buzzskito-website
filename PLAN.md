@@ -32,7 +32,7 @@ The brief was written against stale or misread data. These override it wherever 
 | 1 | Page economics | Phase 0 + GSC 90-day (all + Canada), EPC table | `reports/page_economics.csv`, `reports/phase1_summary.md` | top-50 earners and top-50 opportunity pages listed with $ |
 | 2 | Link health | ASINs from dead tags + top-50 pages | `reports/link_health.csv` + fix commit | every checked ASIN has a status; breakages fixed or converted to search |
 | 3 | Instrumentation | existing tracker | `above_fold`/`position_index` on the existing event; `scripts/ctr_report.ts` | report runs and outputs Amazon clicks ÷ GSC clicks per page |
-| 4 | CTA rollout | Phase 1 opportunity list, existing components | `reports/phase4_changes.md` + commits | first CTA in first mobile screen on top-50; ≤5 CTAs/page; zero deletions; guards green |
+| 4 | CTA rollout | Phase 1 opportunity list, existing components | `reports/phase4_changes.md` + commits | first CTA in first mobile screen on top-50; ≤5 CTAs **added** per page (pre-existing roundup counts are the owner's, never reduced); zero deletions; guards green |
 | 5 | New-page pilot (10) | GSC demand, Ahrefs for SERP only | `reports/new_pages_plan.csv`, drafts `draft: true`, `reports/draft_qc.md`, `reports/publish_calendar.md` | 10 drafts pass the quality gate |
 | 5B | Upgrade existing pages | GSC query-by-page | `reports/title_rewrites.csv`, near-miss fixes, hubs, AI-overview formatting | before/after logged for every title; hubs link both ways |
 | 6 | Photon Matrix + mosquito | page source, web search | alternatives section; affiliate-program research (no signup) | section live in draft; terms reported |
@@ -40,13 +40,13 @@ The brief was written against stale or misread data. These override it wherever 
 | 7 | Final | all reports | `reports/FINAL_SUMMARY.md`, `scripts/monthly_review.ts` | measurement plan + repeatable loop documented |
 
 ## Status
-- 0: **in progress** — 2026-09-22
-- 1: pending
-- 2: pending
-- 3: pending
-- 4: pending
-- 5: pending
-- 5B: pending
-- 6: pending
-- 6B: pending
+- 0: **done** — 2026-09-22, commit 7d22b37
+- 1: **done** — 2026-09-22, commit d6a4c06
+- 2: **done** — 2026-09-23, commit b88ff01 (25 ASINs checked, 1 dead → search link; reports/phase2_fixes.md)
+- 3: **done** — 2026-09-23 (tracker: position_index + above_fold; scripts/ctr_report.mjs; GA4 dims registered 2026-09-21)
+- 4: **done** — 2026-09-23 (46 pages kept, 3 reverted, 0 owner lines deleted; reports/phase4_changes.md)
+- 5: **in progress** — demand research agent (GSC-sized, 10-page pilot)
+- 5B: **in progress** — 14 low-CTR pages (394,684 imp, 0.33%) + 74 near-miss queries pulled; titles drafting to reports/
+- 6: **done** — 2026-09-23 (no Photon Matrix affiliate program exists; Alternatives section shipped in Phase 4 batch 0; reports/phase6_photon_matrix.md)
+- 6B: **done** — 2026-09-23 (reports/revenue_outside_amazon.md: Levanta Harris/Flowtron + Home Hardware worth pursuing, retailers skip)
 - 7: pending

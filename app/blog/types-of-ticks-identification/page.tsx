@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -245,6 +246,9 @@ export default function TypesOfTicksIdentificationPage() {
 
           <p>Finding a tick is unsettling — but the species you are looking at changes everything about the risk and what you should do next. This hub is the master identification page: use the chart above to narrow it down fast, then follow the links to a detailed close-up guide for each specific tick. Below, we walk through the four features that actually let you tell ticks apart, then hit each common North American species one by one.</p>
 
+          <BlogPostCTA />
+          <p>If the tick you are identifying is still attached, deal with that first: a fine-tipped remover grips at skin level and lifts it straight out, and you can identify it afterwards from the sealed bag. <BuyLink tag={AMZ_TAG} search="tick removal tool fine tip tweezers">Check price on Amazon.ca →</BuyLink></p>
+
           <h2>The 4 Features That Identify Any Tick</h2>
           <Figure
             src="/diagrams/tick-species-ontario.svg"
@@ -270,6 +274,8 @@ export default function TypesOfTicksIdentificationPage() {
               <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
             </div>
           </aside>
+
+          <p>All four of those features are easier to read under magnification — a 3 mm adult&rsquo;s scutum marbling, and the leg count on a nymph, are hard to call with the naked eye. A 10x hand lens or jeweller&rsquo;s loupe is the one ID tool worth keeping with the first-aid kit. <BuyLink tag={AMZ_TAG} search="10x magnifying glass hand lens">Check price on Amazon.ca →</BuyLink></p>
 
           <h2>Blacklegged (Deer) Tick — Ixodes scapularis</h2>
           <p>This is the tick that spreads <strong>Lyme disease</strong>, and the one to learn best. Adults are small (about 3&ndash;4 mm unfed), with a reddish-orange rear half, a solid dark scutum, and uniformly dark legs — hence &ldquo;blacklegged.&rdquo; There is <em>no</em> white or ornate patterning on the back. The nymph, active in late spring and summer, is only about the size of a poppy seed and is responsible for the majority of Lyme cases because it goes unnoticed. A blacklegged tick generally needs to be attached for 24 hours or more to transmit Lyme, so prompt removal matters. For a full close-up and range map, see our <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged / deer tick guide</Link>, and to tell it apart from the look-alike dog tick, our <Link href="/blog/deer-tick-vs-dog-tick-canada">deer tick vs dog tick comparison</Link>.</p>

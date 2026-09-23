@@ -2,8 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // DATA PROVENANCE — read before editing any number on this page.
@@ -82,6 +87,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: POST.date,
 })
 
+const AMZ_TAG = tagForSlug('lyme-disease-cases-ontario-2026')
+
 export default function LymeCasesOntario2026Page() {
   return (
     <>
@@ -132,6 +139,16 @@ export default function LymeCasesOntario2026Page() {
         <p className="text-lg text-gray-700 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8 leading-relaxed">
           <strong>TL;DR:</strong> Ontario reported 2,369 confirmed and probable Lyme disease cases in 2024, up 27% on the year before and the highest count of any Canadian province. That is the newest published year &mdash; there is no 2025 number yet. The trend is real and sustained, and it is the reason yard-level tick control has become a mainstream request in the GTA.
         </p>
+
+        <AffiliateDisclosure />
+        <TopPick tag={AMZ_TAG}
+          label="Our Top Pick — The 24-Hour Habit"
+          name="Fine-Tipped Tick Removal Tool Kit"
+          blurb="The one number on this page that changes behaviour is 24 to 36 hours: Lyme transmission from a blacklegged tick generally requires attachment for that long, which is why public health guidance leans on a daily check and prompt removal. A fine-tipped remover grips at skin level and lifts the tick straight out, head and all — keep one in the first-aid kit and one by the door."
+          search="tick removal tool tweezers"
+          pros={['Grips the head at skin level for whole-tick removal', 'Pocket-sized — keep one at home, one in the car', 'Far better than fingernails or blunt household tweezers']}
+          cons={['Easy to misplace — buy a multi-pack', 'Still needs a slow, straight pull']}
+        />
 
         <h2>The latest published number</h2>
         <p>
@@ -197,6 +214,8 @@ export default function LymeCasesOntario2026Page() {
           <li><strong>Tick removal</strong> &mdash; fine-tipped tweezers, pull straight out without twisting, keep the tick, and watch the bite site.</li>
         </ol>
 
+        <p>On the personal-protection line, the repellent choice public health guidance points to for wooded and grassy areas is 20–30% DEET or icaridin, applied as the label directs and concentrated on ankles, socks and boot tops, since ticks climb from the ground up. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent canada">Check price on Amazon.ca →</BuyLink></p>
+
         <h2>The Ontario Lyme tracker</h2>
         <p>
           We maintain <Link href="/ontario-lyme-disease-tracker-2026" className="text-brand-700 underline font-semibold">an Ontario Lyme disease tracker</Link> with the full published case series, the source for every figure, and tick-submission contacts for all 34 Ontario public health units. Every number on it is traceable to a citable primary source.
@@ -210,6 +229,8 @@ export default function LymeCasesOntario2026Page() {
           <li><Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 underline">Tick Surge Ontario 2026: Complete Yard Control Guide</Link></li>
           <li><Link href="/lyme-disease-canada-statistics" className="text-brand-700 underline">Lyme Disease in Canada: the national statistics</Link></li>
         </ul>
+        <p>For the clothing layer, buy garments that arrive factory permethrin-treated — socks, gaiters, hiking pants — since consumer permethrin sprays for treating your own clothing are not registered in Canada. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca →</BuyLink> <BuyLink tag={AMZ_TAG} search="tick removal tool">See tick-removal tools on Amazon.ca →</BuyLink></p>
+
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4">
           {FAQS.map(({ question, answer }) => (
@@ -224,6 +245,8 @@ export default function LymeCasesOntario2026Page() {
         </div>
 
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool kit" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Ontario&rsquo;s tick trend is going one direction — get your yard treated" subtext={`Free custom quote based on your lot and yard features. ${PROMISES.response}`} />
     </>

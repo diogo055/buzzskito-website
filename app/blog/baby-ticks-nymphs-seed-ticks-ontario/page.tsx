@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -150,6 +151,9 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
           <p>A tick&rsquo;s life has four stages: egg, larva, nymph, and adult. When people search for &ldquo;baby ticks,&rdquo; they almost always mean one of the two immature feeding stages — the <strong>larva</strong> (also called a seed tick) or the <strong>nymph</strong>. Both bite, both can attach to people and pets, and both are small enough to be missed on a quick glance. The difference between them matters a lot for your health. Bed bugs run a comparable ladder indoors and generate the same identification panic at the smallest sizes &mdash; <Link href="/blog/baby-bed-bugs-nymphs" className="text-brand-700 underline">what bed bug nymphs look like at each stage</Link> is the bedroom equivalent of this page.</p>
           <p>The blacklegged (deer) tick, <em>Ixodes scapularis</em>, is the species Ontarians care about most, because it is the one that transmits Lyme disease. American dog ticks also live here, but their larvae and nymphs feed almost exclusively on small mammals and are rarely found on people. So when we talk about dangerous baby ticks in the GTA, we are talking about blacklegged tick nymphs.</p>
 
+          <BlogPostCTA />
+          <p>If a baby tick is on you or your child right now, the size is the whole problem: household tweezers are too blunt to grip a poppy-seed nymph without squeezing it. A fine-point or slotted tick remover grabs the mouthparts instead of the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
+
           <h2>Seed Ticks: The Larval Stage</h2>
           <p>A <strong>seed tick</strong> is just a tick larva. After a female tick lays her eggs — often thousands at once — the eggs hatch into six-legged larvae about 0.5 mm across. At that size they look like specks of dirt, ground pepper, or poppy seeds, and they often appear in clusters because a whole clutch hatches together. If you brush against vegetation and pick up dozens of tiny crawling dots at once, those are seed ticks.</p>
           <p>Here is the reassuring part: a larva has never fed before. A tick is not born carrying Lyme — it acquires the bacterium <em>Borrelia burgdorferi</em> only by biting an already-infected animal, usually a white-footed mouse. Because a seed tick is taking its very first blood meal, it is almost always Lyme-free. Seed tick bites can still itch and, in large numbers, irritate the skin, but the disease risk is low compared with the next stage.</p>
@@ -179,6 +183,8 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
             <li><strong>Movement.</strong> Ticks crawl slowly and deliberately. If a tiny bug jumped, sprinted, or flew, it was not a tick.</li>
           </ul>
           <p>Several harmless specks get mistaken for baby ticks: poppy seeds and dirt (no legs), baby spiders (obvious two-part body and long legs), and clover mites (bright red and very fast). For a full visual walkthrough of every Ontario tick stage, see our guide to <Link href="/blog/what-ticks-look-like-ontario">what ticks look like in Ontario</Link>.</p>
+
+          <p>Counting six legs versus eight on something 0.5 mm across is nearly impossible unaided — a 10x hand lens or a phone macro clip is what turns &ldquo;moving speck&rdquo; into an actual identification, and it doubles as the tool for checking the bite site afterwards. <BuyLink tag={AMZ_TAG} search="10x magnifying glass hand lens">Check price on Amazon.ca →</BuyLink></p>
 
           <h2>How to Safely Remove a Baby Tick</h2>
           <p>Removing a nymph is the same process as removing an adult — it just requires better tools because the target is so small:</p>
@@ -212,6 +218,8 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
             <li><strong>Professional barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s tick barrier treatment</Link> targets the lawn edges, leaf litter, and shaded borders where nymphs quest, re-applied through the season because the residual is temporary.</li>
           </ol>
           <p>For the full checklist, see <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">how to keep ticks out of your yard in Ontario</Link>. Ontario health authorities keep current tick-risk maps and prevention guidance too — the <a href="https://www.publichealthontario.ca/" target="_blank" rel="noopener" className="underline hover:text-brand-700">Public Health Ontario</a> and <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Government of Canada Lyme disease</a> pages are the best sources for local, up-to-date information.</p>
+
+          <p>Of those six steps, the treated-clothing one is the only purchase: nymphs board at ankle-to-knee height, so factory permethrin-treated socks and gaiters cover exactly the band where they climb aboard, and in Canada that means buying garments that arrive pre-treated. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated socks">Check price on Amazon.ca →</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>

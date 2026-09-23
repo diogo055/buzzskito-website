@@ -142,6 +142,12 @@ export default function BedBugBitesPage() {
 
         <p className="text-sm text-gray-600 italic border-l-4 border-gray-200 pl-4">This is general information, not medical advice. If you are concerned about bites, an allergic reaction, or a skin infection, see a healthcare provider. In an emergency, call your local emergency number.</p>
 
+        <AffiliateDisclosure />
+        <p>If you want the answer before you finish reading: no cream and no photo can confirm what bit you, but a set of interceptor cups under each bed leg for two weeks can.</p>
+        <div className="not-prose my-4 flex flex-wrap gap-3">
+          <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Check price on Amazon.ca →</BuyLink>
+        </div>
+
         <h2>What do bed bug bites look like?</h2>
         <Figure
           src="/diagrams/bite-pattern-comparison.svg"
@@ -194,7 +200,6 @@ export default function BedBugBitesPage() {
 
         <h2>How do you treat bed bug bites?</h2>
         <p>For typical bites, care is simple and aimed at the itch: <strong>wash the area with soap and water</strong>, apply a cool compress, and resist scratching. A low-strength over-the-counter hydrocortisone cream or an oral antihistamine can help relieve itching for many people &mdash; follow the product label, and ask a pharmacist or healthcare provider what is appropriate for you, especially for children, during pregnancy, or on facial skin. Keeping fingernails short reduces the damage if you scratch in your sleep.</p>
-        <AffiliateDisclosure />
         <TopPick tag={AMZ_TAG}
           label="Best for Itch Relief"
           name="1% Hydrocortisone Anti-Itch Cream"
@@ -253,6 +258,9 @@ export default function BedBugBitesPage() {
         <p>Identification is only step one &mdash; the bites stop when the infestation ends, and that takes a protocol rather than a single product. Our <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">complete step-by-step plan for getting rid of bed bugs in Canada</Link> walks through the whole sequence in order, and the <Link href="/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada">full DIY protocol</Link> covers doing it yourself without hiring anyone. If you rent, treatment is usually the building&rsquo;s responsibility &mdash; the <Link href="/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada">apartment containment plan</Link> covers what you can do in the meantime.</p>
         <p>On method: sustained heat is the only approach that reliably kills every life stage including eggs, which is why <Link href="/blog/how-to-kill-bed-bug-eggs-canada">eggs survive most sprays</Link> and infestations rebound a week or two after a spray-only treatment. Our <Link href="/blog/heat-vs-chemical-bed-bug-treatment-canada">heat vs chemical comparison</Link> explains when each makes sense, and the <Link href="/pest-product-guides/bed-bug-control">bed bug product hub</Link> collects every tested tool &mdash; steamers, heater chambers, encasements, monitors and PMRA-registered sprays &mdash; in one place.</p>
         <p>Because the bites happen where you sleep, the fastest way to stop them tonight is to take the bed out of play. A six-sided zippered encasement seals whatever is already inside the mattress and denies new bugs the harbourage &mdash; <Link href="/blog/sureguard-mattress-encasement-review-canada">we looked closely at the SureGuard and its hidden zipper flap</Link>, the end-of-zipper gap being where cheap covers leak. Do the box spring at the same time: a hollow, stapled wooden frame is a better hiding place than a smooth mattress, which is the argument in <Link href="/blog/best-bed-bug-box-spring-encasement-canada">the piece of bedding people skip most often</Link>.</p>
+        <div className="not-prose my-4 flex flex-wrap gap-3">
+          <BuyLink tag={AMZ_TAG} search="bed bug proof mattress encasement zippered">Check price on Amazon.ca →</BuyLink>
+        </div>
         <p>If you do want something wet on the bed, be careful what you reach for &mdash; only a product whose label explicitly names mattresses belongs on a sleeping surface, and <Link href="/blog/best-bed-bug-spray-for-mattress-canada">the short list that passes that test in Canada</Link> is shorter than the shelf suggests. And if the bites started after a trip, treat the luggage rather than the room: <Link href="/blog/best-bed-bug-spray-for-travel-canada">a carry-on-legal spray for hotel stays</Link> is the preventive version of this whole page.</p>
 
         <h2>Related reading</h2>

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -193,6 +194,14 @@ export default function DynaTrapCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
           </div>
+        </div>
+      </section>
+
+      {/* Service CTA first (lead value), then the early affiliate route under it */}
+      <section className="px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <BlogPostCTA />
+          <p className="not-prose text-[15px] text-gray-700 leading-relaxed my-4">Outside the GTA, or set on a DynaTrap for the deck regardless of the catch ratio? Amazon.ca lists the Canadian half-acre DT1130-CA with delivery, and the model comparison further down covers which unit fits which lot. <BuyLink tag={AMZ_TAG} search="dynatrap insect trap">Check price on Amazon.ca &rarr;</BuyLink></p>
         </div>
       </section>
 

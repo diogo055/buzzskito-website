@@ -1,12 +1,19 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'are-there-ticks-in-canada'
 const DATE = '2026-07-15'
 const TITLE = 'Are There Ticks in Canada? Where Ticks Are Found, Province by Province (2026)'
 const META_TITLE = 'Are There Ticks in Canada? 2026 Province Guide'
+const AMZ_TAG = tagForSlug(SLUG)
 
 const FAQS = [
   {
@@ -160,6 +167,15 @@ export default function AreThereTicksInCanadaPage() {
           <p>Ticks live in every province and territory of Canada &mdash; roughly 40 species have been recorded nationally &mdash; but they are not spread evenly, and only a handful of species matter for human disease. The single most important species is the <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged tick (Ixodes scapularis)</Link>, also called the deer tick, because it is the one that transmits the bacterium that causes Lyme disease in central and eastern Canada. On the West Coast, that role is played by its cousin, the western blacklegged tick (Ixodes pacificus).</p>
           <p>Ticks favour humid, sheltered habitat: the tall-grass and leaf-litter edges where lawns meet woods, brushy trails, ravine slopes, and the transition zones around wetlands and forests. That is why a national map of &ldquo;where are ticks in Canada&rdquo; tracks forests, river valleys, and shorelines rather than city centres or open prairie. The Public Health Agency of Canada (PHAC), together with the crowd-sourced surveillance platform eTick.ca, tracks where established populations exist and where the range is expanding.</p>
 
+          <BlogPostCTA />
+          <AffiliateDisclosure />
+          <TopPick tag={AMZ_TAG}
+            label="The One Thing to Own Anywhere in Canada"
+            name="Fine-Tip Tick Removal Tool"
+            blurb="Wherever in Canada you are, the advice from every provincial health unit is the same: remove an attached tick promptly, grip it at the skin line, and pull straight up. A fine-tipped remover does that far better than bathroom tweezers, and keeps the tick intact for an eTick.ca photo."
+            search="tick removal tool tweezers"
+          />
+
           <h2>What kinds of ticks live in Canada?</h2>
           <p>Only a few of Canada&rsquo;s roughly 40 tick species are commonly encountered by people and pets. Knowing which one you are looking at matters, because only the blacklegged group carries Lyme disease. These four account for the vast majority of tick encounters nationally:</p>
           <ul>
@@ -225,12 +241,15 @@ export default function AreThereTicksInCanadaPage() {
 
           <h2>What this means if you live in the GTA</h2>
           <p>If you are in the Greater Toronto Area, the practical takeaway is simple: ticks are here, they are most active in spring and fall, and the highest-exposure spots are wooded ravines, river valleys, conservation areas, and the tall-grass edges of parks and yards that back onto natural areas. The low-effort habits &mdash; staying on trails, wearing repellent, tucking pants into socks, and doing a tick check within a couple of hours of coming inside &mdash; prevent the vast majority of problems. For yards that border ravines, woodlots, or long grass, a professional perimeter tick barrier spray targets the exact lawn-to-woods transition zone where ticks wait; BuzzSkito offers a seasonal tick program (from $597/season, or $497 bundled with a mosquito plan) across 19 GTA cities.</p>
+          <p>Of those habits, repellent is the one people apply to the wrong half of themselves: ticks climb from the ground up, so socks, ankles and boot tops matter more than arms. Use a product with a PCP registration number, applied as the label directs. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca &rarr;</BuyLink></p>
 
           <div className="not-prose my-8 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
               <strong className="text-amber-900">This is general information, not medical advice.</strong> If you develop a fever, an expanding rash, or a &ldquo;bull&rsquo;s-eye&rdquo; mark after a tick bite, contact a healthcare provider &mdash; early Lyme disease is very treatable. Save the tick if you can (it can help identify the species), and in a medical emergency call 911.
             </p>
           </div>
+
+          <p>For anyone who spends real time in tick habitat &mdash; trail runners, dog walkers, cottagers, anyone whose yard backs onto woods &mdash; factory permethrin-treated clothing is the format sold to Canadian consumers, since spray-on clothing treatments are not registered here. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca &rarr;</BuyLink> <BuyLink tag={AMZ_TAG} search="tick repellent">See tick repellents on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Related reading</h2>
           <ul>
@@ -254,6 +273,8 @@ export default function AreThereTicksInCanadaPage() {
 
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tip tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Ticks Are in the GTA — Protect Your Yard" subtext="Get a free quote for a licensed tick barrier spray targeting the lawn-to-woods edge where ticks wait. Serving 19 GTA cities." variant="dark" />
     </>

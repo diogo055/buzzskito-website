@@ -1,8 +1,11 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -148,6 +151,15 @@ export default function LoneStarTickAlphaGalCanadaPage() {
           <p>The lone star tick (<em>Amblyomma americanum</em>) is the tick that causes the red meat allergy known as alpha-gal syndrome. When it bites, it can transfer a sugar called galactose-alpha-1,3-galactose — alpha-gal for short — into the person, and the immune system may then treat that sugar as a threat.</p>
           <p>Alpha-gal is present in most non-primate mammals, so once someone is sensitized, their body can react to beef, pork, lamb, venison, and sometimes dairy, gelatin, and a handful of medications. The U.S. Centers for Disease Control and Prevention (CDC) names the lone star tick as the primary cause of alpha-gal syndrome in the United States. Researchers elsewhere are studying whether other tick species could occasionally play a role, but as of 2026 the lone star tick is the main documented culprit worldwide. You can see how it differs from the ticks Canadians actually meet in our <Link href="/blog/types-of-ticks-identification">tick identification guide</Link>.</p>
 
+          <BlogPostCTA />
+          <AffiliateDisclosure />
+          <TopPick tag={AMZ_TAG}
+            label="Worth Keeping in the Drawer"
+            name="Fine-Tip Tick Removal Tool"
+            blurb="Whether the tick turns out to be a lone star or, far more likely, a blacklegged tick, the safe removal is the same: grip at the skin line and lift straight out. A fine-tipped tool does that cleanly, and the intact tick can be photographed for an eTick.ca identification."
+            search="tick removal tool tweezers"
+          />
+
           <h2>Is the lone star tick in Canada?</h2>
           <p>The lone star tick is not established in Canada. Canada&rsquo;s national tick-surveillance platform eTick and the Public Health Agency of Canada (PHAC) log only a small number of &ldquo;adventive&rdquo; lone star ticks each year — individual ticks found well outside their normal range, most believed to have hitched a ride north on migratory birds rather than breeding here.</p>
           <p>That distinction matters. An <em>adventive</em> tick is a one-off arrival; an <em>established</em> tick has a self-sustaining local population, the way the blacklegged tick now does across much of southern Ontario. As of 2026, there is no confirmed established, reproducing lone star tick population anywhere in Canada. The species&rsquo; core range sits in the U.S. Southeast and south-central states, though it has been steadily expanding north and east for decades — the same climate-driven pattern that pushed blacklegged ticks into the GTA. That is why scientists keep watching, and why every verified Canadian find is logged. For the broader picture of which ticks live here, see <Link href="/blog/are-there-ticks-in-canada">are there ticks in Canada?</Link></p>
@@ -214,6 +226,7 @@ export default function LoneStarTickAlphaGalCanadaPage() {
             <li><strong>Manage the yard.</strong> Keep grass mown, clear leaf litter, and maintain a barrier between lawn and any wooded or tall-grass edge — the transition zone where ticks concentrate.</li>
             <li><strong>Remove ticks promptly.</strong> Use fine-tipped tweezers, grasp at the head close to the skin, and pull straight up without twisting. Save the tick and submit a photo to eTick.ca.</li>
           </ol>
+          <p className="not-prose text-gray-700 leading-relaxed">Step two is the one most people under-do: a repellent with a PCP registration number on the label, applied to socks, ankles and lower legs, because ticks climb aboard from the ground up rather than landing from the air. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">See icaridin repellents on Amazon.ca &rarr;</BuyLink></p>
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Cut the tick population where bites happen</h3>
@@ -253,6 +266,8 @@ export default function LoneStarTickAlphaGalCanadaPage() {
 
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tip tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Take the Ticks Off Your To-Do List" subtext="Professional barrier spray treats the lawn edges and perimeters where ticks wait. Seasonal pricing on quote — serving 19 GTA cities." variant="dark" />
     </>

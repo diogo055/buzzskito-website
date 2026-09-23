@@ -4,6 +4,8 @@ import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import BlogPostCTA from '@/components/BlogPostCTA'
+import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
@@ -186,6 +188,17 @@ export default function HowLongDoTicksLivePage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
+          <BlogPostCTA />
+          <AffiliateDisclosure />
+          <TopPick tag={AMZ_TAG}
+            label="Our Top Pick — For the Tick You Find"
+            name="Fine-tipped tick-removal tool"
+            blurb="A tick that has spent two years in your leaf litter can spend the better part of a week attached to you or your dog, and the sooner it comes off whole the better. Blunt drugstore tweezers squeeze the body and leave mouthparts behind; a fine-tipped remover closes at the skin line and lifts the tick straight out. Own one before the evening you need it."
+            search="tick removal tool tweezers"
+            pros={['Closes flush at the skin line, whole-tick removal', 'Works on poppy-seed nymphs and engorged adults', 'Cheap enough to keep one by the door and one in the car']}
+            cons={['Easy to misplace without a keyring loop', 'Still needs a slow, steady straight pull']}
+          />
+
           <h2>How Long Do Ticks Live?</h2>
           <p>Ticks live <strong>2 to 3 years</strong>. A blacklegged (deer) tick passes through three feeding stages &mdash; larva, nymph, and adult &mdash; and takes exactly one blood meal at each. The U.S. Centers for Disease Control and Prevention (CDC) describes this as a roughly two-year cycle. A tick that misses a host simply waits months for the next one.</p>
           <p>Most ticks live <strong>2 to 3 years</strong>. That lifespan is stretched across three feeding stages &mdash; larva, nymph, and adult &mdash; with a molt in between each one. In Ontario, the species that matters most for human health is the <strong>blacklegged (deer) tick</strong> (<em>Ixodes scapularis</em>), which can carry the bacterium that causes Lyme disease; the <strong>American dog tick</strong> is also common in grassy areas but is a lower Lyme risk.</p>
@@ -317,6 +330,7 @@ export default function HowLongDoTicksLivePage() {
             <li><strong>Winter:</strong> a frost does not kill them all; they overwinter in leaf litter under insulating snow and can be active above ~4°C.</li>
             <li><strong>On a dog:</strong> an attached tick feeds for 3–10 days, then drops off; check pets after every outing.</li>
           </ul>
+          <p className="not-prose text-gray-700">That last line is the one that matters in practice: the check after every outing is only as good as the tool you reach for when it finds something. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">See tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
 
           <p className="text-sm text-gray-500 border-t border-gray-200 pt-4 mt-6"><em>This article is general information, not medical or veterinary advice. For any concern about a tick bite, a rash, or symptoms in a person or a pet, contact a healthcare provider or veterinarian. In an emergency, call 911.</em></p>
 

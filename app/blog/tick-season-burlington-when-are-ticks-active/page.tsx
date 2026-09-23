@@ -97,6 +97,9 @@ export default function TickSeasonBurlingtonPage() {
 
         <BlogPostCTA />
 
+        <AffiliateDisclosure />
+        <p className="not-prose text-gray-700 text-[15px] leading-relaxed my-4">Halton Public Health&rsquo;s advice is to remove an attached tick promptly with fine-tipped tweezers &mdash; and with RBG and the escarpment trails on the doorstep, the one item worth having by the door before the nymph peak is a fine-tipped remover that grips at the skin line: <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
+
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Surveillance source</p>
           <p className="text-sm text-brand-900 leading-relaxed">

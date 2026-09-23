@@ -1,8 +1,14 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS, PROMISES } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = {
   title: 'Tick Treatment Cost Ontario [2026 Pricing]',
@@ -50,6 +56,8 @@ const FAQS = [
   },
 ]
 
+const AMZ_TAG = tagForSlug('how-much-does-tick-treatment-cost-ontario')
+
 export default function TickTreatmentCostPage() {
   return (
     <>
@@ -89,6 +97,17 @@ export default function TickTreatmentCostPage() {
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Professional tick treatment pricing in Ontario is straightforward once you understand the factors involved. This guide breaks down actual 2026 costs so you can make an informed decision. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>
+
+        <BlogPostCTA />
+        <AffiliateDisclosure />
+        <TopPick tag={AMZ_TAG}
+          label="Our Top Pick — Before Any Treatment"
+          name="Fine-Tipped Tick Removal Tool Kit"
+          blurb="Whichever way you go on yard treatment, this is the one item every household in tick country should own before the season starts. A fine-tipped remover grips right at the skin and lifts an attached tick straight out, head and all — the step that matters most on the day you actually find one, and it sits in the first-aid kit regardless of who treats the yard."
+          search="tick removal tool tweezers"
+          pros={['Grips the head at skin level for whole-tick removal', 'Pocket-sized — keep one at home, one in the car', 'Far better than fingernails or blunt household tweezers']}
+          cons={['Easy to misplace — buy a multi-pack', 'Still needs a slow, straight pull']}
+        />
 
         <h2>Tick Treatment Pricing in Ontario: 2026 Overview</h2>
         <p>Professional tick barrier spray in Ontario ranges from approximately $99 to $350 per treatment, depending on property size, perimeter complexity, and location. The vast majority of standard GTA residential properties fall in the $99 to $200 range per visit.</p>
@@ -150,6 +169,8 @@ export default function TickTreatmentCostPage() {
           <li><strong>Cedar mulch barriers:</strong> $50 – $150 for materials. Provides some deterrent effect but does not eliminate established tick populations</li>
         </ul>
 
+        <p>One DIY layer that genuinely complements a professional program rather than competing with it is tick control tubes: treated nesting cotton that mice carry back to the burrow, reaching the larvae before they become the nymphs you meet in May and June. Buy purpose-made tubes rather than building your own, since a permethrin product may only be used the way its own label directs. <BuyLink tag={AMZ_TAG} search="tick control tubes">Check price on Amazon.ca →</BuyLink></p>
+
         <h3>Professional Barrier Spray</h3>
         <ul>
           <li><strong>Cost:</strong> $99 – $250 per treatment</li>
@@ -194,6 +215,9 @@ export default function TickTreatmentCostPage() {
           <li><strong>Reviews:</strong> Check Google reviews and ask for references from GTA clients</li>
         </ul>
 
+        <h3>Between visits: the personal layer</h3>
+        <p>No yard program replaces what you wear and apply on the day. Public health guidance for wooded and grassy areas points to a repellent containing 20–30% DEET or icaridin, applied as the label directs and concentrated on ankles and socks where ticks board, plus factory permethrin-treated socks or gaiters for anyone walking trails. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent canada">Check price on Amazon.ca →</BuyLink> <BuyLink tag={AMZ_TAG} search="permethrin treated socks">See permethrin-treated clothing on Amazon.ca →</BuyLink></p>
+
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-3 my-6">
           {FAQS.map(({ question, answer }) => (
@@ -217,6 +241,8 @@ export default function TickTreatmentCostPage() {
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">BuzzSkito Tick Control Services</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool kit" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Get Your Free Tick Treatment Quote Today" subtext="Transparent pricing, no surprises. Professional tick barrier spray from $99. Serving the entire GTA." variant="dark" />
     </>

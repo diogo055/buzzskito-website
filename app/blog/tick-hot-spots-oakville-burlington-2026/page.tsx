@@ -2,8 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = {
   title: 'Oakville and Burlington Tick Hot Spots 2026: The Halton Region Neighbourhoods With Highest Risk',
@@ -46,6 +51,8 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: POST.date,
 })
 
+const AMZ_TAG = tagForSlug('tick-hot-spots-oakville-burlington-2026')
+
 export default function TickHotSpotsOakvilleBurlingtonPage() {
   return (
     <>
@@ -85,6 +92,17 @@ export default function TickHotSpotsOakvilleBurlingtonPage() {
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
         </div>
+
+        <AffiliateDisclosure />
+        <TopPick tag={AMZ_TAG}
+          label="Our Top Pick — Before You Read the Ranking"
+          name="Fine-Tipped Tick Removal Tool"
+          blurb="Whichever tier your street lands in, the ticks your family and dog pick up at Bronte Creek, RBG, or the escarpment trails come home with you. A fine-tipped remover grips the tick at the skin line and lifts it out in one piece — no squeezing, no mouthparts left behind. Keep one by the back door and one in the car for the trailhead."
+          search="tick removal tool tweezers"
+          score={8.6}
+          pros={['Grips at the skin line for whole-tick removal', 'Works on poppy-seed nymphs and through dog fur', 'Cheap enough to keep several around']}
+          cons={['Small enough to misplace', 'Still needs a slow, steady straight pull']}
+        />
 
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Surveillance sources</p>
@@ -160,12 +178,14 @@ export default function TickHotSpotsOakvilleBurlingtonPage() {
 
         <h2>What to do with this ranking</h2>
         <p>If you live in a Tier 1 or Tier 2 neighbourhood, the season plan — five treatments spread roughly monthly from May through September — is the right level of protection, because renewing the residual every month is what keeps the peak nymph window covered instead of leaving it open. If you live in Tier 3, a single early-season treatment in mid-to-late May covers most of the risk. If you live in Tier 4, monitor through the season and treat if you start seeing ticks — but do not assume immunity. All four tiers benefit from habitat modification (3-foot buffer along any wooded edge, weekly leaf-litter clearing, tight mowing), daily tick checks after outdoor exposure, and permethrin-treated clothing for trail use.</p>
+        <p>On that last point, the Canadian route is clothing treated at the factory rather than a spray you apply yourself &mdash; treated socks, gaiters, and trouser legs cover the ankle-to-knee band a questing tick reaches first on the Bronte Creek and escarpment trails. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca →</BuyLink></p>
         <p>Where you live sets the tier; the calendar sets the timing. Oakville readers can line the tiers up against the local activity curve in <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 underline">when ticks are active in Oakville</Link>, and Burlington readers get the escarpment-and-lakefront version in <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 underline">tick season in Burlington</Link> — both cover the May-to-July nymph peak and the autumn return of adults.</p>
 
         <p>For the address-specific score, our free <Link href="/yard-risk-report" className="text-brand-700 underline">Yard Risk Report</Link> calculates a 1-100 risk number using neighbourhood pressure, water and forest proximity, lot characteristics, and family-situation factors. Properties scoring 70+ are in the band where professional treatment is strongly recommended.</p>
 
         <h2>Same-week service across Halton</h2>
         <p>BuzzSkito treats every Oakville and Burlington neighbourhood with same-week service through the May–September season. See dedicated treatment pages for <Link href="/oakville-tick-spray" className="text-brand-700 underline">Oakville tick spray</Link>, <Link href="/burlington-tick-spray" className="text-brand-700 underline">Burlington tick spray</Link>, <Link href="/north-oakville-mosquito-control" className="text-brand-700 underline">North Oakville</Link>, and <Link href="/burlington-mosquito-spray" className="text-brand-700 underline">Burlington mosquito spray</Link>. Pricing scales by lot size. {PROMISES.response}</p>
+        <p>Outside Halton, or waiting on your first visit? The two things worth having in the house before the nymph peak are a fine-tipped remover and a skin repellent with DEET or icaridin, applied according to the label &mdash; socks, ankles, and boot tops are where ticks board. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink> <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">See tick repellent on Amazon.ca →</BuyLink></p>
 
         <h2>Related guides</h2>
         <ul>
@@ -189,6 +209,8 @@ export default function TickHotSpotsOakvilleBurlingtonPage() {
         </div>
 
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Halton tick pressure is climbing — find out your address-specific risk" subtext={`Free custom quote and risk score based on your Oakville or Burlington address. ${PROMISES.response} Same-week service across every Halton neighbourhood.`} />
     </>

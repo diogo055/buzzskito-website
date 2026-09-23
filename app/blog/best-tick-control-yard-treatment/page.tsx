@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AwardRow from '@/components/AwardRow'
@@ -75,6 +76,10 @@ export default function BestTickControlPage() {
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
+
+        <BlogPostCTA />
+
+        <p className="not-prose text-gray-700 text-[15px] leading-relaxed my-4">Outside our service area, or want a DIY layer to run between professional visits? The one we would add first is a botanical yard spray for patios, beds, and pet areas: <BuyLink tag={AMZ_TAG} search="wondercide tick yard spray">Check price on Amazon.ca →</BuyLink></p>
 
         <AwardRow tag={AMZ_TAG}
           heading="Our Picks — Best DIY Tick Products to Layer With a Barrier Spray"

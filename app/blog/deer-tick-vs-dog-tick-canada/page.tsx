@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -193,6 +194,10 @@ export default function DeerTickVsDogTickPage() {
             <li><strong>If unsure</strong> → Photograph from above and submit to <a href="https://etick.ca" target="_blank" rel="noreferrer">eTick.ca</a>. Free identification within 1–3 days.</li>
           </ol>
 
+          <BlogPostCTA />
+          <AffiliateDisclosure />
+          <p>Whichever it is, it needs to come off the skin now, and a tick-removal kit that includes a small magnifier does double duty: confirm the pattern on the shield, then pull the tick straight out. <BuyLink tag={AMZ_TAG} search="tick removal kit with magnifier">Check price on Amazon.ca &rarr;</BuyLink></p>
+
           <h2>Which Tick Carries Lyme Disease?</h2>
           <p><strong>The deer tick — also called the blacklegged tick (<em>Ixodes scapularis</em>) — is the only one of these two that carries Lyme disease in Canada.</strong> The American dog tick does not transmit Lyme here. So the practical question &ldquo;which tick carries Lyme?&rdquo; has a simple answer: the small, plain, reddish-black one. About <strong>10–30% of blacklegged ticks in southern Ontario</strong> carry <em>Borrelia burgdorferi</em>, the Lyme bacterium. If a tiny, unpatterned tick bit you, save it and watch for symptoms; if a larger patterned dog tick bit you, Lyme is not the concern.</p>
           <p>Lyme risk isn&rsquo;t evenly spread across the province. See the public‑health numbers in our <Link href="/blog/lyme-disease-cases-ontario-2026">Ontario Lyme disease case tracker</Link> and check whether you live in a hot zone with our <Link href="/blog/lyme-disease-risk-areas-ontario-2026">Ontario Lyme risk-area map</Link>. For the official national picture — transmission, symptoms, and prevention — see the <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener noreferrer">Government of Canada Lyme disease resource</a>.</p>
@@ -269,6 +274,7 @@ export default function DeerTickVsDogTickPage() {
             <li><strong>Vet-prescribed monthly tick preventative for dogs</strong> (Bravecto, NexGard, Simparica, K9 Advantix II) — protects against both species.</li>
             <li><strong>Professional yard barrier spray.</strong> <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray tick season program</Link> targets both deer ticks and dog ticks at lawn edges, leaf litter, fence lines, and shaded perimeters — the residual acaricide goes where they quest, not across the open lawn. $597 on its own, or $497 when added to any mosquito plan.</li>
           </ol>
+          <p>For item five, a fine-toothed flea-and-tick comb run against the coat after every ravine walk catches unattached ticks of either species before they reach skin. <BuyLink tag={AMZ_TAG} search="flea and tick comb for dogs">See flea and tick combs on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>

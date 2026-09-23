@@ -159,6 +159,9 @@ export default function FleaBitesOnHumansPage() {
 
         <p className="text-sm text-gray-600 italic border-l-4 border-gray-200 pl-4">This article is general information, not medical advice. Reactions to insect bites vary from person to person &mdash; if you are concerned about bites, an unusual rash, or any symptoms, see a healthcare provider. For severe allergic reactions, seek emergency care immediately.</p>
 
+        <AffiliateDisclosure />
+        <p className="not-prose text-sm text-gray-700 leading-relaxed">If the bites are clustered around your ankles and you are not sure whether fleas are the cause, the fastest way to find out is a plug-in light flea trap left running overnight in the room where you get bitten &mdash; fleas on the sticky pad by morning settles the question before you spend anything on treatment. <BuyLink tag={AMZ_TAG} search="flea trap plug in">Check price on Amazon.ca →</BuyLink></p>
+
         <nav aria-label="On this page" className="not-prose my-6 rounded-xl border border-navy-100 bg-white p-5">
           <p className="text-xs font-extrabold uppercase tracking-wider text-brand-700 mb-2">On this page</p>
           <ul className="grid gap-x-6 gap-y-1.5 text-sm text-brand-800 sm:grid-cols-2">
@@ -347,7 +350,6 @@ export default function FleaBitesOnHumansPage() {
 
         <h2 id="get-rid-of-fleas">How do you get rid of fleas at home?</h2>
         <p>Successful flea control attacks <strong>every life stage at once, for several weeks</strong>. Adult fleas are only about 5% of an infestation; the other ~95% are eggs, larvae, and pupae distributed through carpets, floor cracks, and pet resting areas. Kill only the adults and the pipeline keeps producing. The plan below covers the environment side; anything applied <em>to the animal</em> &mdash; spot-on treatments, oral flea medication, medicated shampoos &mdash; should be chosen with your <strong>veterinarian</strong>, since the safe options differ by species, age, and weight, and some dog products contain ingredients dangerous to cats.</p>
-        <AffiliateDisclosure />
         <TopPick tag={AMZ_TAG}
           label="Most Useful Product for Fleas"
           name="Plug-in light flea trap"

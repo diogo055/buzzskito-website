@@ -3,6 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import BlogPostCTA from '@/components/BlogPostCTA'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS, TICK_BLOGS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -83,6 +86,17 @@ export default function TickControlRichmondHillMarkhamPage() {
           Richmond Hill and Markham sit directly on the Oak Ridges Moraine — one of Ontario&rsquo;s most ecologically sensitive areas and one of the province&rsquo;s highest-density tick habitats. If your property backs onto forest, a ravine, or conservation land in either city, this guide is for you. Start with our <Link href="/richmond-hill-tick-spray" className="text-brand-700 underline">Richmond Hill tick control</Link> or <Link href="/markham-tick-spray" className="text-brand-700 underline">Markham tick control</Link> service pages for treatment options.
         </p>
 
+        <BlogPostCTA />
+        <AffiliateDisclosure />
+        <TopPick tag={AMZ_TAG}
+          label="Our Top Pick — For Moraine Trail Walks"
+          name="Fine-tipped tick-removal tool"
+          blurb="A barrier treatment lowers how many ticks wait in your own yard. It does not follow you onto the Oak Ridges Trail, into Rouge National Urban Park, or through the Jefferson Forest — and those walks are where many York Region ticks get onto people and dogs. A fine-tipped remover grips at the head, right against the skin, and lifts the tick out in one piece. Keep one at the back door and one in the car."
+          search="tick removal tool tweezers"
+          pros={['Grips at the head, so the body is never squeezed', 'Works on the poppy-seed nymphs active May through July', 'Small enough for the glovebox and the dog-walking bag']}
+          cons={['Easy to misplace without a keyring loop', 'Still needs a slow, steady straight pull']}
+        />
+
         <h2>What Is the Oak Ridges Moraine and Why Does It Drive Tick Risk?</h2>
         <p>The Oak Ridges Moraine is a 160-kilometre glacial landform stretching from Caledon in the west to Rice Lake in the east, passing directly through Richmond Hill and Markham. Its rolling topography, complex mix of forests, wetlands, and kettle lakes, and year-round groundwater discharge create an exceptionally diverse habitat — and that habitat supports the entire blacklegged tick lifecycle.</p>
         <p>Blacklegged ticks (also called deer ticks, <em>Ixodes scapularis</em>) need three hosts across a two-year lifecycle: typically a small mammal (white-footed mouse) as larvae, a larger mammal (deer, raccoon) as nymphs, and a large mammal (deer, dog, or human) as adults. The moraine&rsquo;s forests and meadows support white-tailed deer populations and white-footed mice at densities high enough to sustain self-reproducing tick colonies.</p>
@@ -105,6 +119,7 @@ export default function TickControlRichmondHillMarkhamPage() {
         <h2>The Lyme Disease Piece: Why Nymphs Are the Real Danger</h2>
         <p>Most Lyme disease transmission in Ontario comes not from adult ticks, which are relatively large and easier to spot, but from nymphs — the second life stage. Nymphs are active May through July and are the size of a poppy seed. They are extremely difficult to feel and easy to miss during a tick check.</p>
         <p>Both Richmond Hill and Markham fall within Ontario&rsquo;s established Lyme disease risk zone as defined by Public Health Ontario. If a tick is attached for more than 24–36 hours, Lyme disease transmission becomes a real possibility. Alongside tick checks, one practical step is to cut down the ticks in your own yard by treating it.</p>
+        <p className="not-prose text-gray-700">For the Oak Ridges Trail and Rouge park walks themselves, factory-treated permethrin socks, gaiters, and hiking pants are the ready-to-wear layer for the lower leg, where a questing nymph climbs aboard. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>What Treatment Looks Like for These Properties</h2>
         <p>BuzzSkito&rsquo;s tick barrier spray targets the transition zones where ticks concentrate: leaf litter margins at the lawn edge, low ground cover, the base of shrubs, and shaded mulch beds. These are the areas where ticks quest (climb and wait) for passing hosts.</p>
@@ -135,6 +150,8 @@ export default function TickControlRichmondHillMarkhamPage() {
           </details>
         ))}
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick-removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection
         heading="Tick Control for Richmond Hill & Markham Properties"

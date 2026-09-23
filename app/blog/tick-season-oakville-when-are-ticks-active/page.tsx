@@ -108,6 +108,9 @@ export default function TickSeasonOakvillePage() {
           <strong>TL;DR:</strong> Oakville is now a Public Health Ontario-classified Lyme disease risk area. Blacklegged ticks are active mid-March through November with peaks in late May-July and mid-September-October. The 16 Mile Creek corridor, Bronte Creek Provincial Park, and the residual woodlots through North Oakville drive most of the pressure. If your property is anywhere within 1 km of forest, ravine, or naturalized green space, treat 2026 as a high-risk season.
         </p>
 
+        <AffiliateDisclosure />
+        <p>Before the calendar: if you walk Bronte Creek or the 16 Mile Creek trails at all this season, the one item worth owning before the nymph peak is a fine-tipped tick remover — poppy-seed nymphs slip out of blunt household tweezers. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
+
         <h2>The headline: Halton Region is now a confirmed Lyme risk area</h2>
         <p>For years the GTA tick conversation focused on Toronto ravines and the Niagara escarpment to our west. That conversation has caught up to Oakville. Public Health Ontario&rsquo;s 2026 surveillance update lists Halton Region as an established Lyme disease risk area, and Halton Region Public Health is now running tick drag surveys across 16 Mile Creek, Bronte Creek, Sheldon Creek, and the conservation-area network. The data is consistent — blacklegged ticks (Ixodes scapularis) are present in every Oakville ravine system, the percentage testing positive for Borrelia burgdorferi has climbed year over year, and the active season has expanded on both ends of the calendar.</p>
 

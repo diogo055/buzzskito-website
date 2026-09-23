@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -78,6 +79,9 @@ export default function WhatTicksLookLikePage() {
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Knowing what ticks look like — and how small they can be — is the first step in protecting your family. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>
+        <BlogPostCTA />
+        <AffiliateDisclosure />
+        <p className="not-prose text-gray-700">Trying to identify one that is still attached? Get it off first. A fine-tipped remover grips at the head and lifts the whole tick out in one piece, so you have something intact to compare against the pictures below. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>The Three Ticks Ontario Homeowners Need to Know</h2>
         <Figure

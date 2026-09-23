@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
@@ -100,6 +102,11 @@ export default function WhatDoesTickLookLikeOnDogPage() {
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">You found a small bump on your dog and you&rsquo;re trying to figure out if it&rsquo;s a tick. The fastest test: ticks have <strong>8 legs</strong>, are <strong>oval and flat</strong> when unfed, and <strong>swell up like a balloon</strong> when full of blood. Here&rsquo;s how to identify them with confidence.</p>
 
+          {/* Service CTA first (lead-CTA rule), then the affiliate pick under it */}
+          <BlogPostCTA />
+          <AffiliateDisclosure />
+          <p>If it turns out to be a tick, the next thing you will want is a fine-tipped remover that grips at the skin rather than flat tweezers that crush the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>
+
           <h2>The Quick Identification Checklist</h2>
           <Figure
             src="/diagrams/tick-species-ontario.svg"
@@ -171,6 +178,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
             <li>At the <strong>base of the head and neck</strong></li>
           </ul>
           <p>Use both hands to slowly run through your dog&rsquo;s fur, feeling for bumps. Once you find one, separate the fur to look at it directly.</p>
+          <p>A fine-toothed flea and tick comb makes this faster on long-coated dogs &mdash; it snags an unfed tick that fingers slide straight over. <BuyLink tag={AMZ_TAG} search="flea tick comb dog">Check price on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>What to Do When You Find One</h2>
           <p>Don&rsquo;t panic. The single most useful thing to have on hand is a proper <strong>fine-tipped tick removal tool or pointed tweezers</strong> — a dedicated tick hook or pointed tick tweezers grips the tick right at the skin so you can pull straight up without squeezing the body or leaving the mouthparts behind. A regular flat-tipped tweezer tends to crush the tick, which can push infected fluid back into your dog. Keep one in the house and one in your dog-walk bag.</p>
@@ -193,6 +201,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
 
           <h2>Stop Finding Ticks in the First Place</h2>
           <p>Once you&rsquo;ve found one tick, you&rsquo;ll likely find more — they don&rsquo;t travel alone. The most efficient solution is reducing the tick population in your yard, which is where dogs spend most of their outdoor time. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets leaf litter, lawn edges, and fence-line zones — the micro-habitats where most yard ticks live, and repeats the treatment through the season as the residual wears down. Keep checking your dog after outdoor time; no yard treatment removes every tick.</p>
+          <p>For the ticks that still make it onto the dog, keep the removal kit stocked. <BuyLink tag={AMZ_TAG} search="tick removal tool dog">See dog tick removal tools on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>

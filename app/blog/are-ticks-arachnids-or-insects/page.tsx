@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -150,6 +151,9 @@ export default function AreTicksArachnidsOrInsectsPage() {
           <p>If you want a single rule that works almost every time, it is this: <strong>count the legs</strong>. An insect has six; an arachnid has eight. Line a tick up next to a fly, a beetle, or a mosquito and the tick has an extra pair. That eight-legged body plan is the defining trait of the class <strong>Arachnida</strong>, the group that contains spiders, scorpions, harvestmen, mites, and ticks. So the moment you confirm eight legs, you have your answer — a tick is an arachnid, full stop.</p>
           <p>The comparison goes deeper than leg count. An insect body is built in three obvious sections — head, thorax, and abdomen — and typically carries a pair of antennae and one or two pairs of wings. A tick has none of that. Its body is a single fused oval with no separate head, no antennae probing the air, and no wings folded on its back. What looks like a &ldquo;head&rdquo; on a tick is actually just its mouthparts (the capitulum), used to anchor and feed. Take away the wings, the antennae, and the segmented body, add two more legs, and you are unmistakably looking at an arachnid.</p>
 
+          <BlogPostCTA />
+          <p>Counting legs on a nymph the size of a poppy seed is a job for a magnifier, not the naked eye &mdash; a pocket 10x loupe settles arachnid-or-insect in seconds and doubles as a tick-check tool. <BuyLink tag={AMZ_TAG} search="pocket magnifier 10x loupe">Check price on Amazon.ca &rarr;</BuyLink></p>
+
           <h2>Ticks Are Really Just Big Mites (Subclass Acari)</h2>
           <p>Here is the part that surprises most people: a tick&rsquo;s closest relatives are not spiders but <strong>mites</strong>. Ticks and mites together make up the subclass <strong>Acari</strong> within the arachnids. Ticks are simply the largest, blood-specialised members of that group — think of a tick as a mite that evolved to feed on the blood of mammals, birds, and reptiles. That is why a swollen, engorged tick looks nothing like a spider: it is behaving like the parasitic mite it fundamentally is.</p>
           <p>Spiders (order <strong>Araneae</strong>) are cousins one branch over on the same arachnid family tree. They share the eight legs and the wingless, antenna-free body, but spiders spin silk, have a two-part body, and hunt or trap prey. Ticks do none of that. So the accurate way to say it: ticks are arachnids, ticks are acarines (mites and ticks), and ticks are related to spiders — but they are not spiders themselves.</p>
@@ -175,6 +179,7 @@ export default function AreTicksArachnidsOrInsectsPage() {
             <li><strong>Repellents still apply.</strong> The active ingredients proven against ticks overlap with mosquito repellents — <strong>DEET</strong>, <strong>picaridin</strong>, and clothing-applied <strong>permethrin</strong> all work on ticks — but you have to choose ones specifically tested against ticks, not just &ldquo;insects.&rdquo;</li>
             <li><strong>Yard control targets arachnid habitat.</strong> Effective treatment knocks down the damp edges and brush lines where ticks quest, which is a different playbook than fogging for adult flying insects.</li>
           </ol>
+          <p>On point three, the Canadian test is the label: look for a PCP registration number and wording that names ticks, not just insects. <BuyLink tag={AMZ_TAG} search="icaridin tick repellent">See tick repellents on Amazon.ca &rarr;</BuyLink></p>
           <p>If you want to confirm what you are actually dealing with before you treat, compare it against our photo-based rundowns of <Link href="/blog/what-ticks-look-like-ontario">what ticks look like</Link> and the <Link href="/blog/deer-tick-vs-dog-tick-canada">deer tick vs dog tick</Link> comparison. And if a tick is already attached, keep a fine-tipped removal tool on hand so you can grip it close to the skin and pull straight out. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon →</BuyLink></p>
 
           <TopPick tag={AMZ_TAG}

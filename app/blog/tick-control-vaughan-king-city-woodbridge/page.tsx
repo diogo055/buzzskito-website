@@ -1,10 +1,17 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, TICK_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS_2[4]
+const AMZ_TAG = tagForSlug('tick-control-vaughan-king-city-woodbridge')
 
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Control Vaughan & King City',
@@ -76,6 +83,17 @@ export default function VaughanKingCityTickControlPage() {
           York Region&apos;s rapid residential development has pushed subdivisions right up against some of Ontario&apos;s most active tick habitat — Boyd Conservation Area, the Humber River valley, and King Township&apos;s Oak Ridges Moraine properties. This guide explains the specific risks for Vaughan, Woodbridge, and King City homeowners. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario</Link>.
         </p>
 
+        <BlogPostCTA />
+        <AffiliateDisclosure />
+        <TopPick tag={AMZ_TAG}
+          label="Our Top Pick — For Boyd and Kortright Walks"
+          name="Fine-tipped tick-removal tool"
+          blurb="A barrier spray covers your own yard. It does not follow you onto the Boyd Conservation Area or Kortright trails, and that is where a large share of York Region ticks get onto people and dogs. The other half of the routine is the check when you get back to the car, and a fine-tipped remover that grips at the skin line and lifts the whole tick out — head included — when the check finds one."
+          search="tick removal tool tweezers"
+          pros={['Grips at the head, so the body is never squeezed', 'Small enough for the glovebox and the dog-walking bag', 'Works on the sesame-seed nymphs this region produces May to July']}
+          cons={['Easy to misplace without a keyring loop', 'Still needs a slow, steady straight pull']}
+        />
+
         <h2>Why York Region Has a Serious Tick Problem</h2>
         <p>York Region Public Health conducts annual tick surveillance and has documented established blacklegged tick populations across multiple areas — particularly in the western portions of the region. The combination of the Oak Ridges Moraine, Humber River corridor, and mature conservation land creates ideal permanent tick habitat adjacent to densely populated residential areas.</p>
 
@@ -93,6 +111,7 @@ export default function VaughanKingCityTickControlPage() {
         <h2>Woodbridge: High-Risk Properties</h2>
         <p>Woodbridge sits in the Humber River valley itself — one of the most continuous wildlife corridors in the GTA. Deer movement along this corridor brings tick-carrying hosts directly through residential back gardens. East Woodbridge properties backing onto the valley, and homes adjacent to Kortright Centre for Conservation, face consistent tick exposure throughout the season.</p>
         <p>Kortright Centre — an environmental education facility with 325 hectares of naturalized land — has documented tick activity throughout its trail system. Adjacent residential properties should treat both their lawn perimeters and garden borders as a priority.</p>
+        <p className="not-prose text-gray-700">If you walk those trails, factory-treated permethrin socks and gaiters, sold ready to wear, are the standard layer for the lower leg, where ticks climb aboard. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>King City and King Township: The Highest-Risk Zone</h2>
         <p>King Township sits at the junction of three significant ecological features:</p>
@@ -143,6 +162,8 @@ export default function VaughanKingCityTickControlPage() {
           <li><strong>Shaded lawn sections</strong> — ticks desiccate in direct sun and concentrate in shade</li>
           <li><strong>Ornamental garden beds with mulch</strong> — leaf litter and mulch are favoured tick micro-habitats</li>
         </ul>
+        <p className="not-prose text-gray-700">Between visits, the two things worth having in the house are a fine-tipped remover and a small screw-top vial to keep and date any tick you pull off &mdash; the attachment date is the first thing a clinician asks about. <BuyLink tag={AMZ_TAG} search="small screw top specimen vials">Check price on Amazon.ca &rarr;</BuyLink></p>
+        <p className="not-prose"><BuyLink tag={AMZ_TAG} search="tick removal tool">See tick-removal tools on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4 my-6">
@@ -165,6 +186,8 @@ export default function VaughanKingCityTickControlPage() {
           <li><Link href="/tick-control" className="text-brand-700 hover:underline">View Our Tick Control Services</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick-removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="York Region Tick Control — Free Quotes for Vaughan, King City & Woodbridge" subtext="Professional tick barrier spray targeting nymphs, adults, and larvae. Five treatments, roughly monthly from May through September, cover the full active season." />
     </>

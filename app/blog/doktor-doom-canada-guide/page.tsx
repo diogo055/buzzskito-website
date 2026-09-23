@@ -133,6 +133,10 @@ export default function DoktorDoomCanadaGuidePage() {
           </div>
 
           <SpecialistDisclosure pest="bed bugs, ants, roaches or wasps" />
+          <p className="not-prose text-sm text-gray-700 leading-relaxed mt-4 mb-2">If you came here to find out which can to order, the most broadly useful product in the range is the Residual Insecticide Spray for baseboard and perimeter work &mdash; confirm the PCP number and that your pest is on the label of the can you receive.</p>
+          <div className="not-prose mb-6">
+            <BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide">Check price on Amazon.ca →</BuyLink>
+          </div>
         </div>
       </section>
 

@@ -3,10 +3,16 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { SITE_URL } from '@/lib/constants'
 import GuideHub, { type HubSection } from '@/components/GuideHub'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'pest-product-guides/bed-bug-control'
 const DATE = '2026-07-17'
 const TITLE = 'Bed Bug Products in Canada — What Actually Works & What’s PMRA-Legal'
+const AMZ_TAG = tagForSlug(SLUG)
 
 const SECTIONS: HubSection[] = [
   {
@@ -373,6 +379,12 @@ export default function BedBugControlHubPage() {
             <>
               <p className="mb-3">This is the question most US-written bed bug advice gets wrong for a Canadian reader. Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) registers every pesticide sold here and assigns it a class: <strong>domestic</strong> products are legal for consumers, <strong>commercial</strong> products require a licensed applicator, and anything unregistered cannot legally be sold, imported, or used at all. The famous American bed bug concentrates — Crossfire, Temprid FX, Bedlam Plus, Transport GHP — are simply not on the Canadian registry, so the &ldquo;best bed bug spray&rdquo; lists that headline them are illegal shopping lists north of the border.</p>
               <p>Every recommendation in this cluster passes the same three filters, in order: <strong>PMRA legality first, amazon.ca availability second, published evidence third.</strong> Pesticide products must carry a domestic-class Pest Control Products (PCP) registration number; devices like steamers, encasements, and interceptor traps carry no pesticide, so they only need to be genuinely purchasable and actually effective. When a popular US product fails the legality filter, we say so plainly and name the registered Canadian alternative instead.</p>
+              <AffiliateDisclosure />
+              <TopPick tag={AMZ_TAG}
+                name="Vapamore MR-100 Primo Dry-Vapour Steamer"
+                blurb="The one tool every plan in this library is built around: sustained nozzle heat reaches the seams, tufts and frame joints where sprays cannot, and it does not care whether the population is pyrethroid-resistant."
+                search="vapamore mr-100 steamer"
+              />
             </>
           ),
         }}
@@ -382,6 +394,11 @@ export default function BedBugControlHubPage() {
           body: (
             <>
               <p>Bed bugs are the most expensive common household pest to treat professionally, and there is a point where DIY stops being the cheaper option. If bugs have spread across multiple rooms, retreated inside walls, or survived several honest DIY rounds, a licensed structural exterminator with commercial-class products and heat equipment is usually the faster and cheaper path. Before you sign any quote, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> breaks down real 2026 price bands by pest, method, and city. For the full library beyond bed bugs — mice, rats, and diatomaceous earth — head back to the <Link href="/pest-product-guides">pest product guides hub</Link>.</p>
+              <p className="mt-4">Still at the DIY stage? Every protocol above starts with the same two purchases &mdash; a dry-vapour steamer for the bed and frame, and interceptor cups under the legs to prove it worked.</p>
+              <div className="not-prose mt-4 flex flex-wrap gap-3">
+                <BuyLink tag={AMZ_TAG} search="vapamore mr-100 steamer" className="!text-white !no-underline">Check price on Amazon.ca →</BuyLink>
+                <BuyLink tag={AMZ_TAG} search="bed bug supplies" className="!text-white !no-underline">See bed bug supplies on Amazon.ca →</BuyLink>
+              </div>
               <p className="mt-4 text-sm text-brand-300">A note on independence: BuzzSkito&rsquo;s operating business treats only mosquitoes and ticks, so nothing above is a service we sell. Guides that carry affiliate links disclose it on the page, no placement is paid, and any product that fails the PMRA legality check is excluded regardless of commission.</p>
             </>
           ),
@@ -392,6 +409,7 @@ export default function BedBugControlHubPage() {
           subtext: 'BuzzSkito is a GTA mosquito & tick control service. If biting bugs in your yard are the problem, book a free yard assessment.',
         }}
       />
+      <StickyBuyBar tag={AMZ_TAG} name="Vapamore MR-100 Primo dry-vapour steamer" search="vapamore mr-100 steamer" label="Our top pick" />
     </>
   )
 }

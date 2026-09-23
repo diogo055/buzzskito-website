@@ -3,6 +3,8 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
+import BlogPostCTA from '@/components/BlogPostCTA'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -110,6 +112,13 @@ export default function DoTicksDieInTheWashingMachinePage() {
         </div>
       </section>
 
+      {/* Service CTA first (lead-CTA rule), then the affiliate pick under it */}
+      <div className="max-w-3xl mx-auto px-4">
+        <BlogPostCTA />
+        <AffiliateDisclosure />
+        <p className="text-gray-700 leading-relaxed">The dryer handles the clothes. The one tick that already reached skin is handled by whatever is in the bathroom drawer &mdash; and a fine-tipped tick remover grips at the head where blunt tweezers squeeze the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>
+      </div>
+
       {/* Temperature / method comparison table */}
       <section className="py-8 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
@@ -180,6 +189,7 @@ export default function DoTicksDieInTheWashingMachinePage() {
             <li><strong>If you must wash first (very dirty clothes),</strong> then still run a full high-heat dry cycle afterward &mdash; and expect to add roughly 50&ndash;60 minutes because the fabric starts out wet.</li>
             <li><strong>Check the machine and basket.</strong> Wipe down the drum and don&rsquo;t leave worn outdoor clothing waiting overnight where a survivor could wander off.</li>
           </ol>
+          <p>Fewer ticks board in the first place if the ankle layer is treated. Consumer permethrin sprays are not registered for sale in Canada, so the route here is factory-treated socks and pants, the format Canada permits for ages 16 and over. <BuyLink tag={AMZ_TAG} search="permethrin treated socks">Check price on Amazon.ca &rarr;</BuyLink></p>
 
           <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The best tick on your clothes is the one that never boarded</h3>
@@ -210,6 +220,7 @@ export default function DoTicksDieInTheWashingMachinePage() {
 
           <h2>The Bottom Line</h2>
           <p>Do ticks die in the washing machine? Usually no &mdash; not unless the water tops 54&deg;C (130&deg;F), which most home systems never reach. Do they die in the dryer? Yes, when you use <strong>high heat</strong>, because dry air desiccates them. The simple rule that follows from the research: <strong>dry your worn clothes on high heat for at least 10 minutes first, then wash.</strong> Pair that with a same-day body check and a tick-managed yard, and you have covered the three places a tick can get you &mdash; the yard, your body, and your laundry.</p>
+          <p>If you want to stock the second of those places properly, the short list is a fine-tipped remover by the shower and a second one in the car. <BuyLink tag={AMZ_TAG} search="tick removal tool">See tick removal tools on Amazon.ca &rarr;</BuyLink></p>
           <p className="text-sm text-gray-600"><em>This article is general information, not medical advice. For health guidance on tick bites and Lyme disease, consult the <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Government of Canada &mdash; Lyme disease</a> resource, the Public Health Agency of Canada (PHAC), your local public health unit, or a healthcare provider.</em></p>
 
           <h2>Related Reading</h2>
@@ -234,6 +245,8 @@ export default function DoTicksDieInTheWashingMachinePage() {
 
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Fewer Ticks in the Yard Means Fewer in Your Laundry" subtext="A seasonal barrier spray removes ticks where they wait — lawn edges, leaf litter, and shaded borders. From $99." variant="dark" />
     </>

@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -179,6 +180,10 @@ export default function DoTicksFlyOrJumpPage() {
           <p>Because questing depends on something touching the plant, ticks concentrate exactly where people and pets walk: the edge of the lawn, the margins of trails, unmowed grass, and the leaf-littered transition zone where your yard meets woods or a ravine.</p>
           <p>Questing exists because a tick has no other option. Ticks are eight-legged arachnids, not insects, and no arachnid has ever evolved wings — <Link href="/blog/are-ticks-arachnids-or-insects">the tick vs insect comparison</Link> walks through the body-plan differences that rule out flight and jumping in the first place.</p>
 
+          <BlogPostCTA />
+
+          <p>Because a tick boards low and then crawls, the one you find is usually still walking or only just attached — which is when a fine-tipped remover earns its place: it grips right at the mouthparts and lifts the tick straight out without squeezing it. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
+
           <h2>Why People Think Ticks Jump or Fall From Trees</h2>
           <p>Two things fuel the myths. First, ticks are often found on the upper body — the scalp, neck, or behind the ears — which makes it feel like they dropped from above. In reality the tick almost always latched onto a lower leg during questing and then <strong>crawled upward</strong> over several minutes looking for a sheltered place to feed. Second, people confuse ticks with fleas. Fleas genuinely jump, and a bite that came with a visible hop was a flea, not a tick.</p>
 
@@ -193,6 +198,7 @@ export default function DoTicksFlyOrJumpPage() {
 
           <h2>How High Do Ticks Climb?</h2>
           <p>In Ontario, ticks quest low. Nymphs (the poppy-seed-sized immature stage responsible for most Lyme transmission) usually wait within a few centimetres to about ankle height. Adult blacklegged ticks climb a bit higher, to roughly knee height, on taller grass and brush. None of them climb to head height to attack. This is why the classic prevention — <strong>tuck your pants into your socks, wear light colours, and treat footwear and pant legs with permethrin</strong> — works so well: it blocks ticks at the exact height they board.</p>
+          <p>Factory pre-treated permethrin clothing (the format sold to Canadian consumers, intended for ages 16 and over) covers exactly that ankle-to-knee boarding band, socks and trouser legs included. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca →</BuyLink></p>
 
           <h2>What This Means for Protecting Your Yard</h2>
           <p>Because ticks can only reach you from vegetation they have climbed, yard control is genuinely effective:</p>

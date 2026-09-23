@@ -1,8 +1,14 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS[4]
 
@@ -37,6 +43,8 @@ const FAQS = [
       "A BuzzSkito tick season is five treatments, roughly one a month from May through September. The early visits cover spring nymph emergence, the midsummer visits cover adults and any nymphs still active, and the September visit carries into the fall adult-tick season. Each application's residual is temporary, and properties with active deer corridors running through or adjacent to them keep receiving fresh ticks all season, which is why the barrier is renewed monthly rather than applied two or three times. A tick season is $597 on its own, or $497 when added to a mosquito plan.",
   },
 ]
+
+const AMZ_TAG = tagForSlug('tick-prevention-caledon-halton-hills')
 
 export default function TickPreventionCaledonPage() {
   return (
@@ -78,6 +86,17 @@ export default function TickPreventionCaledonPage() {
           Caledon and Halton Hills are among the most beautiful places to live in the GTA region — and also among the highest tick-activity areas in Ontario outside of cottage country. This guide explains why, where risk is concentrated, and how professional treatment protects rural properties. See our <Link href="/caledon-tick-spray" className="text-brand-700 underline">Caledon tick control</Link> and <Link href="/halton-hills-tick-spray" className="text-brand-700 underline">Halton Hills tick control</Link> service pages.
         </p>
 
+        <BlogPostCTA />
+        <AffiliateDisclosure />
+        <TopPick tag={AMZ_TAG}
+          label="Our Top Pick — Rural Tick Kit"
+          name="Fine-Tipped Tick Removal Tool Kit"
+          blurb="On a moraine or escarpment property the question is not whether a tick turns up but what you do in the first minute after it does. A fine-tipped remover grips right at the skin and lifts the tick straight out, head and all — keep one by the back door, one in the truck, and one in the barn or shed."
+          search="tick removal tool tweezers"
+          pros={['Grips the head at skin level for whole-tick removal', 'Small enough to keep several around a rural property', 'Far better than fingernails or blunt household tweezers']}
+          cons={['Easy to misplace — buy a multi-pack', 'Still needs a slow, straight pull']}
+        />
+
         <h2>Why Caledon Tops the GTA&rsquo;s Tick Risk Charts</h2>
         <p>Caledon&rsquo;s tick risk comes from geography more than anything else. The municipality sits at the western convergence of two of Ontario&rsquo;s most significant ecological features:</p>
         <ul>
@@ -108,6 +127,7 @@ export default function TickPreventionCaledonPage() {
           <li><strong>Fall peak (September–November):</strong> Adult ticks are active. They are larger and easier to spot, but no less capable of transmitting Lyme disease if attached for more than 24–36 hours.</li>
         </ul>
         <p>In Caledon and Halton Hills, both peaks are more intense than in the urban GTA because deer densities are higher and habitat is more contiguous. Rural properties with woodlots, large gardens, or backing onto farmland hedgerows should plan for treatment in both windows.</p>
+        <p>Between treatments, the personal layer that matters most on a woodlot property is what you wear below the knee — ticks climb up from leaf litter and tall grass, so factory permethrin-treated socks and gaiters cover the height where they board. In Canada that means buying garments that come pre-treated rather than a consumer spray. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated socks gaiters">Check price on Amazon.ca →</BuyLink></p>
 
         <h2>Related Guides and Services</h2>
         <ul>
@@ -120,6 +140,8 @@ export default function TickPreventionCaledonPage() {
           <li><Link href="/blog/tick-season-ontario-when-are-ticks-active" className="text-brand-700 hover:underline">When Are Ticks Active in Ontario?</Link></li>
         </ul>
 
+        <p>For the walk back from the trail or the paddock, public health guidance for wooded and grassy areas points to a repellent containing 20–30% DEET or icaridin, applied as the label directs and concentrated on ankles, socks and boot tops rather than arms. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent canada">Check price on Amazon.ca →</BuyLink> <BuyLink tag={AMZ_TAG} search="tick repellent">See tick repellents on Amazon.ca →</BuyLink></p>
+
         <h2>Frequently Asked Questions</h2>
         {FAQS.map((faq) => (
           <details key={faq.question} className="not-prose bg-amber-50 border border-amber-100 rounded-xl mb-3 px-5 py-4 open:pb-5">
@@ -128,6 +150,8 @@ export default function TickPreventionCaledonPage() {
           </details>
         ))}
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool kit" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection
         heading="Protect Your Caledon or Halton Hills Property from Ticks"

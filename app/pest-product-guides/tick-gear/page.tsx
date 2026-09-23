@@ -3,10 +3,16 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES, SITE_URL } from '@/lib/constants'
 import GuideHub, { type HubSection } from '@/components/GuideHub'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'pest-product-guides/tick-gear'
 const DATE = '2026-07-17'
 const TITLE = 'Best Tick Control Products in Canada — Tick Gear Guide (2026)'
+const AMZ_TAG = tagForSlug(SLUG)
 
 const SECTIONS: HubSection[] = [
   {
@@ -143,6 +149,13 @@ export default function TickGearGuidePage() {
           body: <>
             <p>Every tick gear guide applies the same test: is the product genuinely available to Canadian buyers, is the pricing we quote real, and does the evidence support the claims on the label? We treat ticks for a living across the GTA, so we know which products hold up in the field and which are marketing. Tick control is also a different problem from mosquito control &mdash; mosquitoes fly to you, but ticks quest at the shaded, humid edges of your property and wait, so the goal is to hit the lawn-to-woods edges and fence lines, not fog the open air over your patio. When DIY is the right call we say so plainly &mdash; and when a professional treatment would save you money and effort, we say that too.</p>
             <p className="mt-3">This cluster is one branch of our wider <Link href="/pest-product-guides" className="text-emerald-700 font-semibold hover:text-emerald-800">Canadian pest product guides</Link> library, where our publishing team researches products for the household pests we don&rsquo;t treat &mdash; bed bugs, mice, rats, and more. Ticks are the one category on that hub where we also do the hands-on work, which is why these guides go deeper than a typical review site.</p>
+            <AffiliateDisclosure />
+            <TopPick tag={AMZ_TAG}
+              label="Start Here"
+              name="Insect Shield Permethrin-Treated Clothing"
+              blurb="The one piece of gear every guide on this page comes back to: factory-treated permethrin clothing kills blacklegged ticks on contact before they reach skin, and it is the format sold to Canadian consumers, since spray-on clothing treatments are not registered here."
+              search="insect shield permethrin treated clothing"
+            />
           </>,
         }}
         sections={SECTIONS}
@@ -152,11 +165,14 @@ export default function TickGearGuidePage() {
             <p>If your property is small, mostly open and sunny, and set back from woods or conservation land, a disciplined DIY routine can carry you through the season &mdash; factory permethrin-treated clothing, a repellent barrier at the lawn-to-woods edge, <Link href="/blog/tick-tubes-canada">tick tubes</Link> in spring and mid-summer, and a tick check every time you come inside.</p>
             <p className="mt-4">If your yard backs onto a ravine, a wooded lot, a park, or tall grass &mdash; or you have already been finding ticks &mdash; the math shifts. A licensed technician applies a barrier spray, according to the product label, to the one-to-three-metre edge zones where blacklegged ticks live. Most homeowners with real tick pressure end up doing both: professional treatment for the property, DIY habits for the people.</p>
             <p className="mt-4">BuzzSkito provides professional <Link href="/tick-control">tick control</Link> and <Link href="/mosquito-control">mosquito control</Link> across 19 GTA cities. The tick program runs $597 per season standalone, or $497 when bundled with any mosquito plan (plus HST) &mdash; five treatments per season, applied according to label directions, with our rain-back guarantee: {PROMISES.rainBack}</p>
+            <p className="mt-4">Whichever route you take, the two items to have before the season starts are a fine-tipped tick remover and treated clothing for whoever does the yard work. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers" className="!text-white !no-underline">Check price on Amazon.ca &rarr;</BuyLink> <BuyLink tag={AMZ_TAG} search="tick control products" className="!text-white !no-underline">See tick control products on Amazon.ca &rarr;</BuyLink></p>
           </>,
         }}
         faqs={FAQS}
         cta={{ heading: 'Tick Season Doesn’t Wait — Neither Should You', subtext: 'Get a free quote for licensed tick barrier spray across the GTA. Tick program from $597/season, or $497 bundled with any mosquito plan. Five treatments per season, plus HST. Rain-back guarantee on every plan.' }}
       />
+
+      <StickyBuyBar tag={AMZ_TAG} name="Permethrin-treated clothing (Insect Shield)" search="insect shield permethrin treated clothing" label="Start here" />
     </>
   )
 }

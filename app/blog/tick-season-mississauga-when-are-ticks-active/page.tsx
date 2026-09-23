@@ -4,6 +4,8 @@ import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -89,6 +91,17 @@ export default function MississaugaTickSeasonPage() {
 
         <BlogPostCTA />
 
+        <AffiliateDisclosure />
+        <TopPick tag={AMZ_TAG}
+          label="Our Top Pick — For the Two Peaks"
+          name="Fine-Tipped Tick Removal Tool"
+          blurb="Yard treatment handles the ticks on your own property; the ones your family and dog pick up on the Credit River trails come home with you. A fine-tipped remover grips the tick at the skin line and lifts it out in one piece — no squeezing, no mouthparts left behind. Keep one by the back door and one in the glovebox for the trailhead."
+          search="tick removal tool tweezers"
+          score={8.6}
+          pros={['Grips at the skin line for whole-tick removal', 'Works on poppy-seed nymphs and through dog fur', 'Cheap enough to keep several around']}
+          cons={['Small enough to misplace', 'Still needs a slow, steady straight pull']}
+        />
+
         <aside className="not-prose mb-6 rounded-xl bg-brand-50 border-l-4 border-brand-700 px-5 py-4">
           <p className="text-xs font-extrabold text-brand-700 uppercase tracking-wider mb-1.5">★ Surveillance data drawn from</p>
           <p className="text-sm text-brand-900 leading-relaxed">
@@ -150,6 +163,7 @@ export default function MississaugaTickSeasonPage() {
         <h2>What to do this month</h2>
         <p>The practical playbook for a Mississauga homeowner in 2026 is straightforward. First, get the first barrier spray down before the nymph peak — meaning before May 25, or earlier if your property is ravine-adjacent. Second, keep treatments going roughly monthly through June and July &mdash; a BuzzSkito tick season is five treatments from May through September. Third, do not cancel mid-summer — keep treatment running through the August adult resurgence. Fourth, do habitat work in parallel: rake leaf litter away from the fence line, install a gravel or wood-chip buffer between lawn and any forest edge, keep grass mown short, and remove brush piles and woodpiles touching the lawn.</p>
         <p>If your dog uses the Credit River trails, add a vet-prescribed oral tick preventive and do a hand check within an hour of returning home. Pay attention to the ears, between toes, the groin, and the base of the tail.</p>
+        <p>A fine-toothed flea-and-tick comb run against the lie of the coat makes that hand check faster and catches unattached ticks a dog&rsquo;s fur hides completely &mdash; two minutes in the driveway after a Sawmill Valley walk is the whole routine. <BuyLink tag={AMZ_TAG} search="flea and tick comb for dogs">Check price on Amazon.ca →</BuyLink></p>
 
         <h2>Same-week tick service across Mississauga</h2>
         <p>BuzzSkito covers every Mississauga neighbourhood with same-week service: <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga tick spray</Link>, <Link href="/mississauga-mosquito-control" className="text-brand-700 underline">Mississauga mosquito control</Link>, and combined programs that handle both pests with a single technician visit. Quotes are based on your lot size and ravine/water exposure. {PROMISES.response} First treatment can usually be scheduled inside seven days, booked into a visit window.</p>
@@ -181,6 +195,8 @@ export default function MississaugaTickSeasonPage() {
         </div>
 
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Mississauga tick pressure is rising — book your barrier spray now" subtext={`Free custom quote based on your address, lot size, and proximity to the Credit River or Lake Ontario. ${PROMISES.response} Same-week service across Mississauga.`} />
     </>

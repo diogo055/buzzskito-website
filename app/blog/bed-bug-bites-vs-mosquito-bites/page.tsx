@@ -126,6 +126,10 @@ export default function BedBugBitesVsMosquitoBitesPage() {
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito &middot; licensed GTA mosquito &amp; tick control, publishing independent research on everything else</p>
           </div>
 
+          <p className="text-sm text-gray-700 mb-3">Skip straight to the evidence: interceptor cups under the bed legs answer in a night or two what the welts never will.</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Check price on Amazon.ca →</BuyLink>
+          </div>
           <div className="not-prose rounded-xl border-l-4 border-brand-500 bg-brand-50 p-5 mb-6">
             <p className="text-xs font-extrabold uppercase tracking-wider text-brand-700 mb-2">Two pages, two jobs</p>
             <p className="text-sm text-gray-800 leading-relaxed">

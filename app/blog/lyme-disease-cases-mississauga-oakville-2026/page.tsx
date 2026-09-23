@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
@@ -109,6 +110,9 @@ export default function LymeMississaugaOakvillePage() {
           <strong>TL;DR:</strong> Lyme cases in Peel (Mississauga, Brampton, Caledon) and Halton (Oakville, Burlington, Milton, Halton Hills) have climbed steadily since 2020. The Credit River corridor in Mississauga and the 16 Mile Creek corridor in Oakville are established blacklegged tick zones with confirmed Borrelia. The reported case numbers lag actual exposure by 1-2 years and miss asymptomatic infections entirely. Treat your property as elevated risk if you back onto forest, ravine, or conservation land.
         </p>
 
+        <AffiliateDisclosure />
+        <p className="not-prose text-gray-700 leading-relaxed">The one piece of gear this whole article comes down to is what you reach for when you find the tick: a fine-tipped remover grips at the skin and lifts it straight out, where blunt tweezers squeeze the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>
+
         <h2>What the Public Health data actually shows</h2>
         <p>Ontario tracks Lyme disease as a reportable communicable disease. When a doctor diagnoses a confirmed case — based on lab-confirmed Borrelia burgdorferi antibody testing plus clinical symptoms — that case is reported through the integrated Public Health Information System (iPHIS) to the local Public Health Unit, then aggregated by Public Health Ontario.</p>
         <p>Peel Public Health covers Mississauga, Brampton, and Caledon. Halton Region Public Health covers Oakville, Burlington, Milton, and Halton Hills. Case counts flow from those health units up to Public Health Ontario and then to the Public Health Agency of Canada, which publishes provincial totals in its annual tick-borne disease report.</p>
@@ -161,6 +165,7 @@ export default function LymeMississaugaOakvillePage() {
           <li><strong>Permethrin-treated clothing for outdoor activity.</strong> If your family hikes the Credit River trails, 16 Mile Creek conservation areas, Bronte Creek Provincial Park, or any forested area — wear factory permethrin-treated pants and socks. Consumer permethrin sprays for treating your own clothing are not registered in Canada, so buy the garments already treated.</li>
           <li><strong>Know the 24-36 hour transmission window.</strong> Lyme transmission typically requires 24-36 hours of attached tick feeding. A tick found and removed within 24 hours dramatically reduces — but does not eliminate — Lyme risk. Daily checks matter for exactly this reason.</li>
         </ul>
+        <p>For the skin layer, pick a repellent whose label lists icaridin or 20&ndash;30% DEET and carries a PCP registration number. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h3>The cost question</h3>
         <p>Professional tick treatment costs less than most families assume. A standalone tick season program runs $597, while bundling tick with mosquito coverage drops the tick add-on to $497 — about $100 per month across the May-September season for the five tick sprays on a standard lot, on top of the mosquito plan (from $549). Lot-size scaling applies for larger properties. For a fuller cost breakdown, see <Link href="/blog/how-much-does-tick-treatment-cost-ontario" className="text-brand-700 underline">how much does tick treatment cost in Ontario</Link>.</p>
@@ -198,6 +203,8 @@ export default function LymeMississaugaOakvillePage() {
           <li><Link href="/ontario-lyme-disease-tracker-2026" className="text-brand-700 underline">Ontario Lyme Disease Tracker 2026</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <section className="py-10 px-4 bg-brand-50">
         <div className="max-w-3xl mx-auto">

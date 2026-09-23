@@ -1,12 +1,20 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'what-percentage-of-ticks-carry-lyme-ontario'
 const DATE = '2026-07-16'
 const TITLE = 'What Percentage of Ticks Carry Lyme Disease in Ontario? (2026 Data)'
 const META_TITLE = 'What Percent of Ticks Carry Lyme? Ontario 2026'
+
+const AMZ_TAG = tagForSlug(SLUG)
 
 const FAQS = [
   {
@@ -109,6 +117,20 @@ export default function TicksCarryLymeOntarioPage() {
         </div>
       </section>
 
+      {/* Service CTA first (lead-CTA rule), then the affiliate pick under it */}
+      <div className="max-w-3xl mx-auto px-4">
+        <BlogPostCTA />
+        <AffiliateDisclosure />
+        <TopPick tag={AMZ_TAG}
+          label="Our Top Pick — For the 24-Hour Window"
+          name="Fine-Tipped Tick Removal Tool (tweezers + tick key)"
+          blurb="The 20% figure only becomes a risk if the tick stays attached long enough to transmit, so the whole game is finding it and getting it out cleanly. A fine-tipped remover grips at the skin and lifts the tick straight out without squeezing the body — the part blunt bathroom tweezers get wrong. Keep one at home and one in the car."
+          search="tick removal tool tweezers"
+          pros={['Grips at skin level for a clean, straight pull', 'Small enough for the car and the hiking bag', 'Far less likely to leave mouthparts behind than flat tweezers']}
+          cons={['Fiddly on poppy-seed nymphs without good light']}
+        />
+      </div>
+
       <article className="pb-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
 
@@ -165,6 +187,7 @@ export default function TicksCarryLymeOntarioPage() {
           <h2>What is the blacklegged tick infection rate, and why does attachment time matter?</h2>
           <p><strong>The blacklegged tick infection rate in Ontario is approximately 20% for Lyme in established risk areas, but the bacterium still needs 24-36 hours of feeding to reach you.</strong> The Lyme bacterium lives in the tick&rsquo;s gut. During a blood meal it slowly migrates to the tick&rsquo;s salivary glands, and only then can it pass into a host. That biological delay is the reason prompt removal is so protective: even an infected tick is unlikely to transmit Lyme if you pull it off within the first day.</p>
           <p>Infection rates also differ by pathogen. A smaller share of Ontario blacklegged ticks carry Anaplasma, Babesia, or Powassan virus — all monitored separately by public health, and some (notably Powassan) able to transmit far faster than Lyme. That is one more reason not to ignore any attached tick, regardless of how long you think it has been there. For a full prevention routine — repellents, tick checks, clothing, and yard steps — see our <Link href="/blog/lyme-disease-tick-prevention-ontario">Lyme disease and tick prevention guide for Ontario</Link>.</p>
+          <p>Prompt removal is only as good as the tool: a fine-tipped remover grips the head against the skin, where flat tweezers squeeze the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>How this compares to human Lyme case counts</h2>
           <p>Tick infection rates and human case counts move together. As the infected share of blacklegged ticks has climbed, so have diagnosed infections in people. Ontario reported <strong>2,369 confirmed and probable Lyme disease cases in 2024</strong>, up about 27% over 2023 and the most of any province, according to the Public Health Agency of Canada (PHAC). Canada as a whole recorded roughly <strong>5,809 cases in 2024</strong>, up from fewer than 150 a decade earlier.</p>
@@ -172,6 +195,7 @@ export default function TicksCarryLymeOntarioPage() {
 
           <h2>The bottom line for GTA households</h2>
           <p>About one in five blacklegged ticks in Ontario&rsquo;s established risk areas carries Lyme, the rate has doubled since 2008, and the GTA is firmly inside the risk zone. Yet your chance of Lyme from any single bite stays low if you check for ticks and remove them within 24 hours. The most effective response is simple and layered: reduce tick habitat in your yard, use repellent and do tick checks after time outdoors, and remove any attached tick promptly with fine-tipped tweezers. None of this replaces medical advice — it lowers the number of chances a tick ever gets.</p>
+          <p>For the repellent layer, look for icaridin or DEET on the label along with a PCP registration number. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca &rarr;</BuyLink> <BuyLink tag={AMZ_TAG} search="tick repellent">See tick repellent on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>
@@ -198,6 +222,8 @@ export default function TicksCarryLymeOntarioPage() {
 
         </div>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Treat the Yard Edges Where Your Family Walks" subtext="Professional tick barrier spray targets the yard edges where blacklegged ticks concentrate. Free quote for all GTA properties." variant="dark" />
     </>

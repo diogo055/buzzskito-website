@@ -1,10 +1,18 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_3, TICK_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS_3[4]
+
+const AMZ_TAG = tagForSlug(POST.slug)
 
 export const metadata: Metadata = buildMetadata({
   title: 'Tick Control Ancaster & Dundas | Hamilton',
@@ -113,6 +121,18 @@ export default function AncasterDundasTickPage() {
           If you live in Ancaster or Dundas, you live at the edge of Ontario&apos;s most significant tick corridor. The Niagara Escarpment — which rises directly behind both communities — is not just a hiking destination. It is an established, continuous habitat for blacklegged ticks (<em>Ixodes scapularis</em>), the species responsible for transmitting Lyme disease in Canada. This guide explains the specific risks for Escarpment-edge homeowners and what professional tick control actually does about it.
         </p>
 
+        {/* Service CTA first (lead-CTA rule), then the affiliate pick under it */}
+        <BlogPostCTA />
+        <AffiliateDisclosure />
+        <TopPick tag={AMZ_TAG}
+          label="Our Top Pick — Escarpment-Edge Tick Kit"
+          name="Fine-Tipped Tick Removal Tool (tweezers + tick key)"
+          blurb="On a lot that backs onto Dundas Valley or the Escarpment brow, the question is not whether you will find a tick but when — and the removal goes very differently with a fine-tipped remover than with blunt bathroom tweezers. It grips at the skin and lifts the whole tick straight out without squeezing the body. Keep one by the back door and one in the hiking bag."
+          search="tick removal tool tweezers"
+          pros={['Grips at skin level for a clean, straight pull', 'Small enough to keep one in the car and one at home', 'Far less likely to leave mouthparts behind than flat tweezers']}
+          cons={['Fiddly on poppy-seed nymphs without good light']}
+        />
+
         <h2>Why Ancaster and Dundas Are High-Risk Tick Zones</h2>
         <p>Tick risk is not uniform across the GTA. It clusters wherever three conditions overlap: abundant white-tailed deer (the primary reproductive host for adult blacklegged ticks), small rodent populations (particularly white-footed mice, the primary reservoir for the Lyme-causing bacterium), and suitable habitat — specifically, the interface between forested areas and maintained lawns, gardens, and residential landscapes.</p>
         <p>Ancaster and Dundas score high on all three. The Niagara Escarpment provides continuous forested habitat running from Niagara-on-the-Lake to the Niagara Peninsula, through Hamilton, and north to the Bruce Peninsula — one of the longest intact wildlife corridors in southern Ontario. Deer populations along this corridor are among the highest in the Hamilton area. And the residential character of both communities — large lots, mature trees, forest-edge gardens — creates exactly the habitat interface where tick-to-human contact most often occurs.</p>
@@ -186,7 +206,9 @@ export default function AncasterDundasTickPage() {
 
         <h2>What to Do After a Tick Bite in Ancaster or Dundas</h2>
         <p>If you find a tick on yourself or a family member, remove it immediately using fine-tipped tweezers, grasping as close to the skin as possible. Do not twist — pull straight out with steady pressure. Clean the bite area with rubbing alcohol. Photograph the tick before disposing of it. Monitor the bite site for 30 days for the characteristic &ldquo;bull&apos;s eye&rdquo; rash (erythema migrans) — which appears in approximately 70–80% of Lyme cases — or flu-like symptoms. If either develops, seek medical attention immediately and inform your doctor of the tick bite.</p>
+        <p>The tool matters here: a fine-tipped tick remover or pointed tweezers grips the head against the skin, where flat household tweezers tend to squeeze the body instead. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>
         <p>For a full step-by-step guide, see our <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 underline">Ontario tick bite guide</Link>.</p>
+        <p>For the trail days themselves &mdash; Dundas Valley, the Bruce Trail, the Ancaster Highland loops &mdash; the standard advice for the ticks a yard treatment cannot reach is a repellent whose label lists icaridin or DEET, light-coloured pants tucked into socks, and a tick check when you get home. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca &rarr;</BuyLink> <BuyLink tag={AMZ_TAG} search="tick repellent">See tick repellent on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4 my-6">
@@ -209,6 +231,8 @@ export default function AncasterDundasTickPage() {
           <li><Link href={`/blog/${MOSQUITO_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{MOSQUITO_BLOGS.pillar.title}</Link></li>
         </ul>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection
         heading="Tick Control for Ancaster & Dundas — Free Quotes Available"

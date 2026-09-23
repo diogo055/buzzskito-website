@@ -3,6 +3,12 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
+import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = NEW_BLOGS_2[3]
 
@@ -32,6 +38,8 @@ const FAQS = [
     answer: 'The first treatment should be scheduled for early May, before peak mosquito activity begins. In Hamilton, the combination of Cootes Paradise marsh, Hamilton Harbour, and Red Hill Creek valley means mosquito pressure builds quickly once temperatures consistently exceed 10°C.',
   },
 ]
+
+const AMZ_TAG = tagForSlug('mosquito-tick-control-hamilton-burlington')
 
 export default function HamiltonBurlingtonPage() {
   return (
@@ -73,6 +81,19 @@ export default function HamiltonBurlingtonPage() {
           Hamilton and Burlington homeowners deal with some of the most diverse mosquito and tick pressure in the GTA region — escarpment properties, waterfront neighbourhoods, and conservation land boundaries all create unique challenges. This guide explains why, and what to do about it.
         </p>
 
+        <BlogPostCTA />
+
+        <AffiliateDisclosure />
+
+        <TopPick tag={AMZ_TAG}
+          label="Our Top Pick — Tick Removal"
+          name="Fine-Tipped Tick Removal Tool"
+          blurb="Escarpment trails, Dundas Valley, Bronte Creek and the RBG are all places you can pick up a tick on the walk, not just in the yard. A fine-tipped remover grips a poppy-seed-sized nymph right at the mouthparts and lifts it straight out — the steady-pressure method public-health agencies recommend — and it is small enough to live in the car or the hiking pack."
+          search="tick removal tool tweezers"
+          pros={['Grips close to the skin at the mouthparts', 'Handles even tiny nymphs', 'Small enough for the glovebox or trail bag']}
+          cons={['Still needs a slow, steady straight pull', 'Only useful if it is where you are — keep one per bag']}
+        />
+
         <h2>Hamilton: Why Mosquito and Tick Pressure Is High</h2>
         <p>Hamilton&apos;s geography creates multiple distinct mosquito pressure zones:</p>
 
@@ -89,6 +110,7 @@ export default function HamiltonBurlingtonPage() {
         <h3>Tick Risk in Hamilton</h3>
         <p>Blacklegged ticks are established along Hamilton&apos;s Escarpment trail network, Dundas Valley Conservation Area, and Fifty Point Conservation Area near Winona. The Hamilton Conservation Authority has documented tick populations across most of its managed lands. Properties backing onto any forested conservation area should prioritize professional tick treatment.</p>
         <p>The west-end communities carry the heaviest share of that risk, since Dundas Valley is one of the most consistently tick-positive conservation blocks the HCA surveys. We go through the Escarpment-edge streets and the month-by-month treatment timing in <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">the Ancaster and Dundas tick control guide</Link>.</p>
+        <p>If you walk those Escarpment and Dundas Valley trails, the low-cost defence is the same one public-health guidance gives for any wooded area in Ontario: tuck pant legs into socks, wear light colours so a crawling tick shows, and apply a DEET or icaridin (picaridin) repellent to the lower legs according to the label. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca →</BuyLink></p>
 
         <h2>Burlington: Waterfront and Greenbelt Pressure</h2>
 
@@ -167,7 +189,11 @@ export default function HamiltonBurlingtonPage() {
           <li><Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 hover:underline">{TICK_BLOGS.pillar.title}</Link></li>
           <li><Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 hover:underline">Lyme Disease Prevention in Ontario</Link></li>
         </ul>
+
+        <p>Until the yard is on a treatment schedule, the trail days are where most Hamilton and Burlington ticks are picked up. Factory-treated permethrin clothing (sold in Canada as pre-treated garments for ages 16 and over) covers the ankle-to-knee band where ticks board, and a tick check on the drive home catches the rest. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca →</BuyLink> <BuyLink tag={AMZ_TAG} search="tick repellent">See tick repellents on Amazon.ca →</BuyLink></p>
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Serving Hamilton & Burlington — Free Quotes Available" subtext="Professional mosquito and tick barrier spray for Escarpment and waterfront properties. Call (289) 216-5030." />
     </>

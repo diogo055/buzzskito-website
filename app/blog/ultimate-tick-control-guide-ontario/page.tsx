@@ -86,6 +86,8 @@ export default function TickPillarPage() {
 
         <AffiliateDisclosure />
 
+        <p className="not-prose text-gray-700 text-[15px] leading-relaxed my-4">Before the three layers, the one item every Ontario household with a yard should already own: a fine-tipped tick remover that grips at the skin line and lifts the whole tick out, kept in the first-aid kit and the glovebox for after-hike checks. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
+
         <AuthorByline datePublished={POST.date} dateModified={POST.date} />
 
         <h2>Tick Species in Ontario: What You're Dealing With</h2>

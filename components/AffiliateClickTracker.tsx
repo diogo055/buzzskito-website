@@ -32,7 +32,16 @@ export default function AffiliateClickTracker() {
 
     const report = (a: HTMLAnchorElement, how: string) => {
       const asin = a.dataset.affAsin || ''
+      // Position among the page's Amazon links (1 = first), and whether the link sat inside
+      // the first viewport at load. Together with page_path these let the CTR report
+      // answer "does an earlier link get clicked more?" — the question Phase 4 optimises.
+      const amazonLinks = Array.from(document.querySelectorAll<HTMLAnchorElement>('a[href]')).filter(isAmazon)
+      const position_index = amazonLinks.indexOf(a) + 1
+      const rect = a.getBoundingClientRect()
+      const above_fold = rect.top + window.scrollY < window.innerHeight
       const params = {
+        position_index,
+        above_fold,
         // What was clicked
         link_kind: asin ? 'asin' : 'search',
         product_asin: asin || undefined,

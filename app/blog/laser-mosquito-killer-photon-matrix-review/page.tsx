@@ -5,6 +5,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -186,6 +187,13 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
+          {/* Early affiliate pick: sits below the service aside above, per the lead-CTA rule. */}
+          <TopPick tag={AMZ_TAG}
+            label="Ships today instead"
+            name="Thermacell patio mosquito repeller"
+            blurb="The device we point Photon Matrix shoppers to first: it is on Amazon.ca and Canadian store shelves now, it is built for the same seating-area footprint the laser is aimed at, and there is no laser class to look up. Use it as the label directs."
+            search="thermacell mosquito repeller"
+          />
           <div className="not-prose my-6 rounded-2xl border-2 border-emerald-200 bg-white p-6 sm:p-7 shadow-sm">
             <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-1 leading-tight">What to do right now, while the laser is still a pre-order</h2>
             <p className="text-sm text-gray-600 mb-4 leading-relaxed">You came here to find out whether to spend four figures on a device. Here is what changes the mosquito pressure in your yard this weekend instead &mdash; in the order that the effort actually pays off.</p>
@@ -914,6 +922,14 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <h3>Verdict update &mdash; production, refunds and counterfeits</h3>
           <p>Two more sentences in the verdict above have now aged, and the correction runs in both directions, so here it is rather than a quiet rewrite. <strong>It is in production.</strong> CGTN reported mass production beginning on August 16, 2026, with the first batch of units expected to ship later that month, so &ldquo;it may never ship&rdquo; has also been retired &mdash; though &ldquo;expected to ship&rdquo; is as far as the reporting goes, and we have found no independent confirmation of a delivery. <strong>And a laser class has now been reported</strong> &mdash; Class 4, per Intelligent Living, which also reports that no FDA, CE/EN 60825-1 or Chinese national-standard approvals have been published for the device. We inferred Class 4 from 40-watt pulses before anyone published a figure, and that inference now looks correct rather than cautious. A reported class in an article is still not a class on a label or a CDRH filing &mdash; and in Canada the label is not optional: the Radiation Emitting Devices Regulations (SOR/2024-196, in force October 9, 2025) require an IEC 60825-1 class on any laser product sold or imported here.</p>
           <p>What replaced those objections is not nothing. There is still <strong>no independent efficacy test</strong>, still <strong>three to six metres</strong> of coverage, still <strong>nothing for ticks</strong>, and now three concrete consumer problems that did not exist in July: a refund window that <strong>closes when the seller ships</strong>, refund requests reported as going unanswered, and a counterfeit-storefront problem serious enough that the manufacturer published its own anti-counterfeit notice. The device got more real and the purchase got more complicated at the same time. Our advice is unchanged and now rests on different reasons: <strong>if you want fewer bites this season, this is not the purchase</strong> &mdash; and if you want to buy one anyway, buy it from the manufacturer&rsquo;s own store, pay with a card you can dispute, and get the ship date in writing.</p>
+
+          <h2>Alternatives you can buy in Canada today</h2>
+          <p>None of these is a laser, and none of them replaces emptying the standing water or treating the whole yard. What they have in common is more practical: each one is stocked on Amazon.ca and in Canadian stores right now, each has a Canadian warranty path, and none of them points a beam at anyone. Read the label and the coverage rating before you buy, and see the reviews under Related Reading for what each one does and does not do.</p>
+          <ul>
+            <li><strong>Thermacell repeller</strong> &mdash; a heated repellent mat for a seating area, the same patio-corner footprint the Photon Matrix is aimed at, and the only one of the three you can carry to a dock or campsite. <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check price on Amazon.ca &rarr;</BuyLink></li>
+            <li><strong>DynaTrap UV trap</strong> &mdash; a plug-in UV-and-fan trap for a deck; our DynaTrap review (linked below) is candid that most of the catch is moths and midges, so buy it for the deck rather than as a mosquito plan. <BuyLink tag={AMZ_TAG} search="dynatrap mosquito trap">Check price on Amazon.ca &rarr;</BuyLink></li>
+            <li><strong>Outdoor bug zapper</strong> &mdash; the cheapest way to get the &ldquo;zap&rdquo; the laser promises, mains-powered and on a shelf now; it mostly takes non-biting insects, so read our bug-zapper post before expecting fewer bites. <BuyLink tag={AMZ_TAG} search="outdoor bug zapper">Check price on Amazon.ca &rarr;</BuyLink></li>
+          </ul>
 
           <h2>Related Reading</h2>
           <ul>

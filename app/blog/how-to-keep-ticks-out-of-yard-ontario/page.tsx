@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -83,6 +84,9 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
         <h3>1. Create a 3-Foot Wood-Chip or Gravel Barrier Between Lawn and Woods</h3>
         <p>The single most effective tick-prevention measure is a physical barrier between maintained lawn and natural vegetation. Wood chips or gravel at least 3 feet wide breaks the humidity gradient ticks need to survive — they dry out crossing the barrier. This is the CDC-recommended "tick zone" defense.</p>
 
+        <BlogPostCTA />
+        <p>The strip only works while it stays loose and dry, and turf creeps back into wood chip within a season or two. Rigid landscape edging on the lawn side is what keeps a barrier a barrier in year three. <BuyLink tag={AMZ_TAG} search="landscape edging lawn border">Check price on Amazon.ca &rarr;</BuyLink></p>
+
         <h3>2. Keep Grass Cut Short (2 inches or less)</h3>
         <p>Ticks need humidity to survive. Tall grass holds humidity at the soil level where ticks live. Mowing to 2 inches or less significantly reduces tick survival on the lawn surface. Combine with edge-zone barrier spray for maximum effect.</p>
         <p>Height matters for a second reason: grass blades are the launch pad. A tick has no wings and cannot jump, so it climbs vegetation and waits with its front legs out for a leg or a dog to brush past &mdash; take the blades away and you take away the perch. <Link href="/blog/can-ticks-fly-jump-swim" className="text-brand-700 underline">Can ticks fly, jump, or swim?</Link> explains how that questing behaviour works, and why the tree-drop story is a myth.</p>
@@ -105,6 +109,7 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
 
         <h3>8. Inspect Yourself and Pets After Outdoor Activity</h3>
         <p>Lyme disease bacteria typically require 24–36 hours of tick attachment to transmit. Daily tick checks dramatically reduce infection risk. Focus checks on warm, hidden areas: behind ears, scalp, armpits, groin, behind knees. For dogs: between toes, under collars, around ears.</p>
+        <p>Keep a fine-tipped tick remover wherever the checks happen &mdash; back door, car, hiking pack &mdash; so an attached tick comes straight out at the skin line instead of waiting for the bathroom tweezers. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">See tick removal tools on Amazon.ca &rarr;</BuyLink></p>
         <p>Pair the body check with the laundry step most people skip: put the clothes you wore straight into a hot dryer <em>before</em> washing them. Ten minutes on high heat kills ticks on dry fabric, while a normal wash on its own often does not &mdash; <Link href="/blog/do-ticks-die-in-the-washing-machine" className="text-brand-700 hover:underline">the post-hike laundry sequence</Link> lays out the temperatures behind it.</p>
 
         <h3>9. Wear Factory Permethrin-Treated Clothing for High-Risk Outdoor Activity</h3>

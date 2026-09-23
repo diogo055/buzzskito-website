@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -102,6 +103,10 @@ export default function CanTicksFlyJumpSwimPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
+
+          <BlogPostCTA />
+          <AffiliateDisclosure />
+          <p className="not-prose text-gray-700 text-[15px] leading-relaxed my-4">Because every tick is picked up on land and crawls for a while before it bites, the check when you get home is what catches it &mdash; and a fine-tipped remover is the tool that check needs: <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
         </div>
       </section>
 

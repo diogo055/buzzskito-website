@@ -118,6 +118,10 @@ export default function BedBugsOnTheTTCTorontoPage() {
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
 
+          <p className="text-sm text-gray-700 mb-3">Want the two-week answer instead of the reassurance? Interceptor cups under each bed leg are the only measurement that settles whether anything followed you home.</p>
+          <div className="not-prose mb-6 flex flex-wrap gap-3">
+            <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps climbup">Check price on Amazon.ca →</BuyLink>
+          </div>
           <div className="not-prose rounded-xl border-l-4 border-amber-400 bg-amber-50 p-5 mb-6">
             <p className="text-xs font-extrabold uppercase tracking-wider text-amber-800 mb-2">What we can and cannot tell you</p>
             <p className="text-sm text-gray-800 leading-relaxed">

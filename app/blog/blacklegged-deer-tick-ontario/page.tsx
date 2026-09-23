@@ -7,6 +7,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -189,6 +190,10 @@ export default function BlackleggedDeerTickOntarioPage() {
           <h2>The Deer Tick and the Blacklegged Tick Are the Same Species</h2>
           <p>People searching &ldquo;deer tick&rdquo; and people searching &ldquo;blacklegged tick&rdquo; are looking at the same animal: <strong><em>Ixodes scapularis</em></strong>. &ldquo;Deer tick&rdquo; comes from the white-tailed deer that adult females feed on to complete their life cycle; &ldquo;blacklegged tick&rdquo; comes from its distinctive dark legs. Both names point to the single tick in Ontario capable of transmitting Lyme disease, so it is worth learning to recognize it. For a side-by-side breakdown of the two ticks GTA residents most often confuse, see our full <Link href="/blog/deer-tick-vs-dog-tick-canada">deer tick vs dog tick comparison</Link>.</p>
 
+          <BlogPostCTA />
+
+          <p>If you are reading this with a tick already attached, the one thing worth buying is a fine-tipped remover: it grips a poppy-seed-sized nymph right at the mouthparts and lifts it straight out, where household tweezers slip or squeeze the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
+
           <h2>How to Recognize an Adult Blacklegged Tick</h2>
           <p>An unfed adult female is roughly the size and shape of a sesame seed. Look for a <strong>reddish-orange to brownish body</strong> behind a smaller, dark, glossy dorsal shield (the scutum) just behind the mouthparts. The eight legs are dark — nearly black — which is where the name comes from. There are <strong>no white or silver markings</strong>; that mottled marbling belongs to the American dog tick, a larger and harmless-for-Lyme species that is common right across the GTA. Males are a little smaller and uniformly dark, and they rarely bite. Once a female has fed for a day or two she swells to the size of a small grape and turns grey-olive, which can make her hard to identify by colour alone.</p>
 
@@ -248,6 +253,7 @@ export default function BlackleggedDeerTickOntarioPage() {
 
           <h2>Protecting Your Yard and Yourself</h2>
           <p>Because blacklegged ticks quest low on vegetation and cannot fly or jump, yard control genuinely works. Mow to 3&ndash;4 inches, clear leaf litter at the edges each spring and fall, keep a dry wood-chip or gravel strip between lawn and woods, and discourage mice and deer. On your body, tuck pant legs into socks, wear light colours to spot ticks, treat footwear and pant legs with permethrin, and use a DEET or icaridin (picaridin) repellent on skin. A licensed <Link href="/tick-control">barrier spray</Link> applied to the shaded borders where deer ticks actually wait removes them at the source for the season.</p>
+          <p>For the clothing half of that list, the format sold to Canadian consumers is factory pre-treated permethrin clothing (intended for ages 16 and over), which covers the ankle-to-knee band where blacklegged ticks actually board. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca →</BuyLink> <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">See tick repellents on Amazon.ca →</BuyLink></p>
 
           <h2>Related Reading</h2>
           <ul>

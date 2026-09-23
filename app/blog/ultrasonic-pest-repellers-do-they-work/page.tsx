@@ -117,6 +117,11 @@ export default function UltrasonicPestRepellersPage() {
           <h2>Do Ultrasonic Pest Repellers Actually Work?</h2>
           <p>No. Across roughly four decades of laboratory and field testing, no controlled study has shown a consumer ultrasonic device preventing or eliminating a rodent or insect infestation — and that is the standard the packaging implies when it promises to &ldquo;drive pests out.&rdquo; The consistent finding is a brief behavioural startle in the first days after a device is switched on, followed by complete habituation: the animals learn the sound carries no consequence and carry on feeding, travelling, and breeding. With the ultrasonic plug-in off the table, the practical question is what remains &mdash; we work through <Link href="/blog/mouse-repellent-canada" className="text-brand-700 underline">every mouse repellent sold in Canada and the evidence behind each one</Link>, including the peppermint-oil and moth-ball claims.</p>
           <p>This page is the evidence file: the regulatory actions, the university research, and the physics. Ultrasonic repellers are among the best-selling pest products on Amazon.ca — often outselling the traps that actually work — which is why there are deliberately no ultrasonic devices linked anywhere on this page.</p>
+          <AffiliateDisclosure />
+          <p className="not-prose text-sm text-gray-600 mb-1">If you came here to buy something that works, the short version: the Victor M250S electronic mouse trap is what we point to instead of a plug-in (full reasoning further down).</p>
+          <div className="not-prose mb-6">
+            <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap">Check price on Amazon.ca →</BuyLink>
+          </div>
 
           <h2>What Does the Research Say About Ultrasonic Repellers?</h2>
           <p>The research record is unusually one-sided: startle, then habituation, then nothing. The key findings that come up again and again:</p>
@@ -154,10 +159,13 @@ export default function UltrasonicPestRepellersPage() {
             <li><strong>Small enclosed empty spaces.</strong> Some owners run a unit in a parked RV or vehicle cab over winter — tiny, line-of-sight, food-free. Evidence is anecdotal; steel wool in the intake gaps does the real work.</li>
           </ul>
           <p>The common thread: the ultrasonic device is always a free rider on measures that work on their own — never the effective ingredient.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">The steel wool in that last example is the part actually worth buying — packed into any gap of 6 mm or more, it is a barrier rodents cannot chew through:</p>
+          <div className="not-prose mb-6">
+            <BuyLink tag={AMZ_TAG} search="steel wool rodent control gap filler">Check price on Amazon.ca →</BuyLink>
+          </div>
 
           <h2>What Actually Works Instead?</h2>
           <p>Trapping plus exclusion — the two methods with measurable outcomes. For a mouse problem, that means 6–12 snap traps placed every 2–3 metres along walls with the trigger touching the baseboard (our <Link href="/blog/best-mouse-trap-canada">best mouse trap guide</Link> covers models and placement science), then sealing every entry gap of 6 mm or more. If you want no-see, no-touch disposal, an electronic trap kills in under 5 seconds and handles up to 100 kills per set of batteries — we tested the category leader in our <Link href="/blog/victor-electronic-mouse-trap-review-canada">Victor electronic mouse trap review</Link>.</p>
-          <AffiliateDisclosure />
           <TopPick tag={AMZ_TAG}
             label="What To Buy Instead"
             name="Victor M250S Electronic Mouse Trap"

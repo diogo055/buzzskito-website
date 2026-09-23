@@ -175,6 +175,10 @@ export default function BestDeerFenceForGardensCanadaPage() {
           <h2>What Is the Best Deer Fence for a Canadian Garden?</h2>
           <p>Seven feet of UV-stabilised black polypropylene netting, on posts every ten to twelve feet, with a tensioned top line and a bottom edge staked to the ground. That is the answer for the overwhelming majority of Canadian gardens, and everything below is either how to get that right or the specific cases where something else is correct.</p>
           <p>What makes deer fencing unusual is how binary the outcome is. Most pest and wildlife products give you partial results &mdash; a repellent reduces damage, a deterrent works for a while. A deer fence either exceeds the threshold the animal will commit to, in which case damage stops completely, or it does not, in which case you have spent several hundred dollars decorating the path they were already walking. There is very little middle ground. That is why the height number and the bottom edge get the attention here and the brand name gets almost none.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">The netting that answer refers to is a 7 ft UV-stabilised poly roll — height is the whole game, so start there:</p>
+          <div className="not-prose mb-6">
+            <BuyLink tag={AMZ_TAG} search="7 ft deer fence netting 100 ft roll">Check price on Amazon.ca →</BuyLink>
+          </div>
 
           <h2>Why 7 ft Is the Number (and the Three Times It Is Not)</h2>
           <p>A healthy white-tailed deer clears a six-foot fence from a standstill. Not a determined deer, not a spooked deer &mdash; an ordinary one, in the course of a normal night. Six-foot netting is sold in volume because six feet is the height people expect a fence to be, and it is the most expensive mistake in this category: it costs nearly what seven-foot netting costs, takes exactly the same weekend to install, and does not work. If your budget only reaches six feet of a premium product, buy seven feet of a cheaper one.</p>

@@ -175,6 +175,10 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
           <h2>Why Under Your Deck Is Prime Real Estate</h2>
           <p>A deck, shed, porch or set of concrete steps offers a wild animal the three things a den site needs: a dry roof, a defensible entrance, and total concealment from anything larger. It is warmer than open ground in winter, shaded in summer, and it sits inside a suburban food landscape of green bins, pet bowls, bird seed and grub-rich lawn. From a raccoon or skunk&rsquo;s perspective it is not a compromise. It is better than anything available in the ravine.</p>
           <p>That is why repellents lose this fight. You are not competing against indifference; you are competing against the best den site for several hundred metres. Scent granules, lights, ultrasonic devices and one-off harassment can move an animal for a few nights, but the void stays open and the next animal &mdash; or the same one &mdash; moves back in. The only intervention that ends it is closing the space, and closing it in a way that survives digging.</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">The material that closes the space is half-inch galvanised hardware cloth — the one purchase this whole job depends on:</p>
+          <div className="not-prose mb-6">
+            <BuyLink tag={AMZ_TAG} search="galvanized hardware cloth 1/2 inch 36 inch roll">Check price on Amazon.ca →</BuyLink>
+          </div>
 
           <h2>Raccoon or Skunk? Read the Entrance</h2>
           <p>The fix is identical for both, but knowing which one you have changes your timing and your caution level.</p>

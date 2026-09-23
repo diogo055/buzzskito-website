@@ -4,6 +4,8 @@ import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -100,6 +102,15 @@ export default function MississaugaTickHotSpotsPage() {
         <p className="text-lg text-gray-700 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8 leading-relaxed">
           <strong>TL;DR:</strong> The Credit River corridor — Erindale, Streetsville, Credit Valley — is the highest-pressure tick zone in Mississauga in 2026. Lorne Park and Mineola are close behind because they sit between Rattray Marsh and Jack Darling Park. Port Credit, Lakeview, and Clarkson are high-risk along the waterfront. If your property is in any of these zones, treat tick control as a season-long program, not a one-time spray.
         </p>
+        <AffiliateDisclosure />
+        <TopPick tag={AMZ_TAG}
+          label="Our Top Pick — For Credit River Walks"
+          name="Fine-tipped tick-removal tool"
+          blurb="Every tier on this map comes with the same advice: check the dog and the kids after a Riverwood, Erindale Park, or Rattray Marsh walk. The check only pays off if you can get the tick out cleanly on the spot. A fine-tipped remover grips at the skin line and lifts the whole tick out in one piece — keep one in the glovebox and one by the back door."
+          search="tick removal tool tweezers"
+          pros={['Grips at the head, so the body is never squeezed', 'Small enough for the glovebox and the dog-walking bag', 'Works on poppy-seed nymphs and engorged adults alike']}
+          cons={['Easy to misplace without a keyring loop', 'Still needs a slow, steady straight pull']}
+        />
 
         <h2>The 2026 Mississauga hot spot ranking</h2>
         <p>This ranking pulls together three data sources: Peel Public Health\'s active tick surveillance (drag-cloth sampling at fixed sites and passive submissions from residents), Public Health Ontario\'s Lyme estimated risk area maps, and BuzzSkito\'s own 2026 service-call density — which neighbourhoods are actually generating the most "we found a tick on the dog" calls. The three data sets agree on the top of the list. They disagree mildly on the middle, and that\'s reflected in the bands below.</p>
@@ -140,6 +151,7 @@ export default function MississaugaTickHotSpotsPage() {
 
         <h2>Action steps if you\'re in a Tier 1 or Tier 2 zone</h2>
         <p>The protocol is the same whether you&apos;re in Lorne Park, Erindale, or Streetsville. First, get the first barrier spray down before May 25 — earlier if your property is directly ravine-adjacent. Second, keep treatments going roughly monthly through August and September &mdash; a BuzzSkito tick season is five treatments from May through September. Third, do the habitat work: leaf-litter cleanup, fence-line buffer, brush pile removal, short grass. Fourth, brief the household — daily tick checks after any outdoor time, including yard time. Fifth, if you have dogs, talk to your vet about a Bravecto / NexGard / Simparica regimen and check thoroughly after every Credit River walk.</p>
+        <p className="not-prose text-gray-700">For that fifth step, a fine-toothed flea-and-tick comb run against the coat at the ears, collar line, armpits, and between the toes catches an unattached tick before it reaches skin. <BuyLink tag={AMZ_TAG} search="flea and tick comb for dogs">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Same-week tick service across every Mississauga hot spot</h2>
         <p>BuzzSkito services every neighbourhood on this map with same-week availability. Whether you&apos;re booking a one-time spray or a full <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga tick spray</Link> season program, the quote process is the same: send your address and lot size, get a written quote within 24 hours, schedule inside 7 days. Combined <Link href="/mississauga-mosquito-control" className="text-brand-700 underline">Mississauga mosquito control</Link> + tick programs save $100 versus standalone.</p>
@@ -172,6 +184,8 @@ export default function MississaugaTickHotSpotsPage() {
         </div>
 
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick-removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Mississauga&apos;s hot spot zones need a barrier spray program — not a one-off" subtext="Free custom quote based on your address and lot size. Sent within 24 hours. Same-week service across every Mississauga neighbourhood." />
     </>

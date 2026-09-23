@@ -2,8 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import StickyBuyBar from '@/components/StickyBuyBar'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = {
   title: "Ontario Tick Surge 2026: What's Happening and How to Protect Your Family",
@@ -13,6 +18,8 @@ const POST = {
 }
 
 const META_TITLE = 'Ontario Tick Surge 2026: A 5-Step Safety Plan'
+
+const AMZ_TAG = tagForSlug(POST.slug)
 
 const FAQS = [
   {
@@ -97,6 +104,16 @@ export default function OntarioTickSurge2026Page() {
           <strong>TL;DR:</strong> Ontario&rsquo;s tick population is running 2-3 weeks ahead of normal in 2026. Toronto is now classified as a hot spot. Blacklegged tick nymphs (the most dangerous Lyme-carrying stage) are peaking right now through July. Professional barrier spray puts a PCP-registered residual acaricide on the shaded edges and leaf litter where ticks quest, and habitat modification takes away the humidity they need there. The window for spring application is closing.
         </p>
 
+        <AffiliateDisclosure />
+        <TopPick tag={AMZ_TAG}
+          label="Our Top Pick — Step 5 of the Plan"
+          name="Fine-Tipped Tick Removal Tool (tweezers + tick key)"
+          blurb="Every step of the plan below ends the same way: you find a tick and need it out cleanly. A fine-tipped remover grips at the skin and lifts the whole tick straight out, where blunt bathroom tweezers squeeze the body. In a surge year, have one in the house before you need it."
+          search="tick removal tool tweezers"
+          pros={['Grips at skin level for a clean, straight pull', 'Small enough for the car and the hiking bag', 'Far less likely to leave mouthparts behind than flat tweezers']}
+          cons={['Fiddly on poppy-seed nymphs without good light']}
+        />
+
         <h2>The 2026 tick surge, in one sentence</h2>
         <p>Three Ontario-wide news outlets ran the same story in May 2026: ticks are emerging earlier, in higher numbers, and in more neighbourhoods than at any point on public health record. The Toronto Star <Link href="/blog/lyme-disease-risk-areas-ontario-2026" className="text-brand-700 underline font-semibold">flagged Toronto as a hot spot</Link>; CityNews Toronto warned of a &ldquo;bad mosquito season ahead&rdquo;; TorontoToday confirmed the surge based on Public Health Ontario surveillance data. The cause is a stack of three factors — a mild winter, a wet spring, and the ongoing northward climate-driven expansion of the blacklegged tick range.</p>
         <p>For GTA homeowners, the practical question is simple: <em>what does this mean for my family, my pets, and my yard?</em></p>
@@ -124,6 +141,7 @@ export default function OntarioTickSurge2026Page() {
           <li><strong>Use repellent strategically.</strong> 20-30% DEET on exposed skin and permethrin-treated clothing for outdoor activity in high-risk zones (hiking, gardening near naturalized edges). Light-coloured clothing makes ticks easier to spot.</li>
           <li><strong>Know what to do if you find a tick.</strong> Remove immediately with fine-tipped tweezers, pulling straight out without twisting. Save the tick in a sealed bag. If you develop a bull&rsquo;s-eye rash or flu-like symptoms in the following 3-30 days, see a doctor and bring the tick.</li>
         </ol>
+        <p>For step 4, look for a repellent whose label lists icaridin or 20&ndash;30% DEET and carries a PCP registration number. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>The 24-hour timeline that matters</h2>
         <p>The single most important fact about Lyme disease in Ontario: <strong>Borrelia transmission from a blacklegged tick to a human typically requires 24-36 hours of attachment.</strong> A tick removed within 24 hours of attachment dramatically reduces — but does not eliminate — the risk. This is why the daily tick-check habit, especially during May-July nymph activity, is the single highest-leverage thing a family can do.</p>
@@ -131,6 +149,7 @@ export default function OntarioTickSurge2026Page() {
         <h2>What about the news momentum?</h2>
         <p>The May 2026 news cycle is a one-time event. Public attention will move on. The ticks will not. If you are a GTA homeowner who has been meaning to deal with the yard situation, this is the moment — the conditions that triggered the news coverage are the same conditions raising your property&rsquo;s tick pressure right now.</p>
         <p>Our team has been treating GTA properties for both mosquitoes and ticks since 2024, and 2026 is the heaviest tick year we have seen on the field. Same-week service is available across <Link href="/toronto-mosquito-control" className="text-brand-700 underline">Toronto</Link>, <Link href="/mississauga-tick-spray" className="text-brand-700 underline">Mississauga</Link>, <Link href="/hamilton-tick-spray" className="text-brand-700 underline">Hamilton</Link>, <Link href="/oakville-tick-spray" className="text-brand-700 underline">Oakville</Link>, and 15 other GTA cities. {PROMISES.visitWindow}</p>
+        <p>And for the outside-the-yard half of the plan &mdash; trail days, the dog walk, the ravine path &mdash; the short list is a repellent for skin and a remover for the drawer. <BuyLink tag={AMZ_TAG} search="tick repellent">See tick repellent on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Related guides</h2>
         <ul>
@@ -153,6 +172,8 @@ export default function OntarioTickSurge2026Page() {
         </div>
 
       </article>
+
+      <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
       <CTASection heading="Get your yard treated before peak tick season" subtext={`Free custom quote based on your lot size and risk profile. ${PROMISES.response} No contracts.`} />
     </>

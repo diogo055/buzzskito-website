@@ -114,6 +114,8 @@ export default function WhyMosquitoesBiteAnklesPage() {
       <section className="px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <BlogPostCTA />
+          <AffiliateDisclosure />
+          <p className="not-prose text-[15px] text-gray-700 leading-relaxed my-4">The one purchase in the fix list below is a knee-down repellent, and for ankles most families here reach for an <strong>icaridin</strong> (picaridin) spray &mdash; it is odourless and does not soften sandal straps or watch bands the way DEET can. Check the PCP registration number and follow the age directions on the label. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca &rarr;</BuyLink></p>
         </div>
       </section>
 
@@ -211,7 +213,6 @@ export default function WhyMosquitoesBiteAnklesPage() {
 
           <h2>The bottom line</h2>
           <p>Your ankles and feet are not unlucky &mdash; they are the ideal target. Ground-level CO&#8322; pooling, dense foot-bacteria odour that literally shares a scent family with Limburger cheese, low-flying <em>Aedes</em> species, and bare, hard-to-watch skin all converge on the same few centimetres. You cannot change the physics of CO&#8322; or your foot microbiome, but you can cover up below the knee, use a registered repellent, wash before dusk, and thin out the mosquito population in your yard. Do those four things and the ankle-bite hotspot cools right down.</p>
-          <AffiliateDisclosure />
 
           <aside aria-label="What to do right now" className="not-prose my-6 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 sm:p-7">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">What to do right now</p>
