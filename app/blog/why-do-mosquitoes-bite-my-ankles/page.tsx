@@ -59,8 +59,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Why Do Mosquitoes Bite My Ankles? How to Stop It',
-  description: 'Why do mosquitoes bite my ankles? Exhaled CO2 is 1.5x denser than air and pools at ankle height, and foot bacteria smell like Limburger. Plus 6 fixes.',
+  title: 'Why Do Mosquitoes Bite My Ankles & Feet? 6 Fixes',
+  description: 'Why do mosquitoes bite my ankles? Exhaled CO2 sinks and pools at ankle height, and foot bacteria smell like Limburger. Six fixes, socks to floor fan.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

@@ -16,7 +16,7 @@ const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Do Ultrasonic Pest Repellers Work? The Evidence Says No'
 // SERP title only (H1 + schema keep TITLE). Layout appends ' | BuzzSkito' (12 chars) — keep <= 48.
-const SEO_TITLE = 'Do Ultrasonic Pest Repellers Work? Canada 2026'
+const SEO_TITLE = 'Do Ultrasonic Pest Repellers Work? No, and Why'
 
 const FAQS = [
   {
@@ -63,7 +63,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: SEO_TITLE,
-  description: 'No. The FTC warned 60+ companies in 2001, rodents habituate to the sound within days, and no Canadian regulator checks the box claims. What works instead.',
+  description: 'Do ultrasonic pest repellers work? No. The FTC warned 60+ sellers in 2001, rodents habituate in days, no Canadian regulator checks the claims. What works.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

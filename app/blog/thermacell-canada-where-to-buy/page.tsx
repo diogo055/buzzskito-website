@@ -85,8 +85,8 @@ export const metadata: Metadata = buildMetadata({
   // carries-what table, the refill compatibility table, and the Liv (US-only)
   // note. No prices — the page deliberately publishes none, and the previous
   // description promised a price table that does not exist.
-  title: 'Thermacell Canada: Which Model & Where to Buy',
-  description: 'Which Thermacell models sell in Canada (Patio Shield, E55, E90, EX90), which retailers stock what, which refills fit, and the model Thermacell keeps US-only.',
+  title: 'Where to Buy Thermacell in Canada & Which Model',
+  description: 'Where to buy Thermacell in Canada: which chains stock the Patio Shield, E55, E90 and EX90, which refills fit each, and the model Thermacell keeps US-only.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

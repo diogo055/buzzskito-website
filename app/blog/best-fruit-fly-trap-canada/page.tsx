@@ -16,7 +16,7 @@ const SLUG = 'best-fruit-fly-trap-canada'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'The 4 Best Fruit Fly Traps in Canada: Why a Scent Lure Beats UV and Sticky Traps'
-const META_TITLE = 'Best Fruit Fly Traps Canada: Scent Beats Light'
+const META_TITLE = 'Best Fruit Fly Trap in Canada: 4 Picks Ranked'
 
 const FAQS = [
   {
@@ -111,7 +111,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Fruit flies hunt by fermentation smell, not light, so a vinegar-lure trap out-catches UV, plug-in and sticky traps. Four picks ranked for Canadian kitchens.',
+  description: 'Best fruit fly trap in Canada: fruit flies hunt by fermentation smell, not light, so a vinegar-lure trap is the pick, not UV or sticky. Four picks, ranked.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

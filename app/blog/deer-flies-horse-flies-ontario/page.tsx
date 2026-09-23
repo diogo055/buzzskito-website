@@ -52,8 +52,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Deer Fly vs Horse Fly in Ontario: Wings & Bites',
-  description: 'Banded wings and patterned eyes settle it. What to look at on the fly, why the bite cuts and bleeds, and what cuts how many reach you in an Ontario yard.',
+  title: 'Deer Fly vs Horse Fly: Tell Them Apart (Ontario)',
+  description: 'Deer fly vs horse fly: banded wings and patterned eyes settle it. Why the bite cuts and bleeds, when each peaks in Ontario, and what keeps them off you.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

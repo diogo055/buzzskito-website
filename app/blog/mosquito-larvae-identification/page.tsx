@@ -175,8 +175,8 @@ export const metadata: Metadata = buildMetadata({
   // tables + the Anopheles exception), which is what the image pack above the
   // blue links cannot give. 47 chars raw, 59 with the " | BuzzSkito" template.
   // Deliberately no geo token — this is a universal biology page.
-  title: 'Mosquito Larvae or Look-Alike? How to Kill Them',
-  description: 'Mosquito larvae hang head-down and dart in an S-shape when disturbed. Tell them apart from midge, mayfly and crane fly larvae, then drain or treat with BTI.',
+  title: 'Mosquito Larvae: What They Look Like & Kill Them',
+  description: 'Mosquito larvae hang head-down and wriggle in an S-shape when disturbed. Tell them from midge, mayfly and crane fly larvae, then drain or treat with BTI.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

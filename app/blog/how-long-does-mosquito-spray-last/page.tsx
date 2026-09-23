@@ -17,7 +17,7 @@ const UPDATED = '2026-07-12'
 export const metadata: Metadata = buildMetadata({
   title: 'How Long Does Mosquito Spray Last in Ontario?',
   description:
-    'How long does mosquito spray last? Barrier spray, foggers, DEET, citronella and dunks compared, with BuzzSkito plan schedules and GTA re-treat timing.',
+    'How long does mosquito spray last? Foggers fade in days, DEET in hours, citronella while it burns. Every type compared, plus Ontario re-treat timing.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

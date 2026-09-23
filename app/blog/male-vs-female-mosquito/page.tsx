@@ -48,8 +48,8 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Male vs Female Mosquito: Only Females Bite',
-  description: 'Only female mosquitoes bite — blood protein and iron build her eggs. Males feed on nectar and cannot pierce skin. Compare antennae, lifespan and behaviour.',
+  title: 'Male vs Female Mosquito: How to Tell Them Apart',
+  description: 'Male vs female mosquito: only the female bites, using blood protein to build eggs; males live on nectar and can’t pierce skin. Spot the feathery antennae.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

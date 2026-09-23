@@ -11,7 +11,7 @@ const SLUG = 'what-blood-type-do-mosquitoes-bite'
 const AMZ_TAG = tagForSlug(SLUG)
 const DATE = '2026-07-15'
 const TITLE = 'What Blood Type Do Mosquitoes Bite Most? Science vs Myth (2026)'
-const META_TITLE = 'What Blood Type Do Mosquitoes Bite? Myth vs Data'
+const META_TITLE = 'Which Blood Type Do Mosquitoes Hate (or Like)?'
 
 const FAQS = [
   {
@@ -102,7 +102,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'What blood type do mosquitoes bite most? The science on Type O vs Type A, why the evidence is weak, and why CO2, body heat, and skin bacteria matter far more than blood type. Ontario 2026 guide.',
+  description: 'Which blood type do mosquitoes hate? None reliably: the Type O vs Type A studies are small and conflict. CO2, body heat and skin bacteria matter far more.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,

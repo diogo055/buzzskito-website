@@ -21,7 +21,7 @@ export const metadata: Metadata = buildMetadata({
   // registration and the PCP-numbered label a licensed Ontario operator follows.
   title: 'Is Mosquito Yard Spray Safe for Dogs in Canada?',
   description:
-    "Is mosquito yard spray safe for dogs? Yes, once it dries, about 30 minutes. Cats need 2-3 hours indoors. How registration works, plus bees and gardens.",
+    "Mosquito yard spray and dogs: the label sets the rule. Keep pets off until it dries (20-30 minutes), cats indoors 2-3 hours. How PMRA registration works.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,

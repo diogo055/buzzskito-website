@@ -24,7 +24,7 @@ const TITLE = 'How Long Do Ticks Live — and Can They Live in Your House? (Onta
 // from Public Health Ontario, and the brown dog tick being uncommon in Canada.
 // 'Days Indoors' drops out of the title but is carried by the description, the H2s
 // and the FAQ schema. 44 chars; renders at 56 with '%s | BuzzSkito'.
-const META_TITLE = 'How Long Do Ticks Live? 2–3 Years in Ontario'
+const META_TITLE = 'How Long Do Ticks Live? Indoors & Without a Host'
 const AMZ_TAG = tagForSlug('how-long-do-ticks-live')
 
 const FAQS = [
@@ -100,7 +100,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Ticks live 2–3 years outdoors but only days in dry indoor air, so they can’t infest a home. Why a frost doesn’t kill them all, and how long they stay on a dog.',
+  description: 'How long do ticks live? 2-3 years outdoors, months without a host in cool humid cover, but only days in dry indoor air. Why a frost doesn’t kill them.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
