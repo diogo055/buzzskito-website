@@ -13,6 +13,8 @@ import LeadBarGate from '@/components/LeadBarGate'
 import AffiliateClickTracker from '@/components/AffiliateClickTracker'
 import LeadClickTracker from '@/components/LeadClickTracker'
 import AttributionBeacon from '@/components/AttributionBeacon'
+import MediavineScript, { MediavinePageSettings } from '@/components/MediavineScript'
+import AdNavigationGuard from '@/components/AdNavigationGuard'
 import QuoteLink from '@/components/QuoteLink'
 import { BUSINESS, PROMISES, SITE_URL } from '@/lib/constants'
 import { websiteSchema, organizationSchema, personSchema } from '@/lib/seo'
@@ -133,9 +135,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
         <link rel="dns-prefetch" href="//connect.facebook.net" />
         <link rel="dns-prefetch" href="//d3ey4dbjkt2f6s.cloudfront.net" />
+        {/* Mediavine display ads: informational pages only, never service pages.
+            Renders nothing unless lib/ads.ts allows the path. Keep last in <head>. */}
+        <MediavineScript />
       </head>
       <body className="bg-white text-gray-900 antialiased min-h-screen flex flex-col font-sans pb-24 sm:pb-0">
         <AttributionBeacon />
+        <AdNavigationGuard />
+        <MediavinePageSettings />
         <SmoothScroll />
         <Header />
         <PressMentionBanner />

@@ -4,9 +4,23 @@
     {
       "name": "buzzskito-dev",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
       "autoPort": true,
       "port": 3000
+    },
+    {
+      "name": "buzzskito-prod",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "next",
+        "start",
+        "-p",
+        "3111"
+      ],
+      "port": 3111
     }
   ]
 }

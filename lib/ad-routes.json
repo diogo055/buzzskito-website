@@ -1,0 +1,42 @@
+{
+  "_readme": "Where Mediavine display ads may load. ALLOW-LIST: a path shows ads only if it is under one of `sections` or listed in `pages`, and is not listed in `adFree`. Everything else on the site (the homepage, every city / neighbourhood / service / pricing / quote / contact page) never shows an ad. Read by lib/ads.ts at runtime and by scripts/check-ads.mjs at build time. Change this file only on the owner's say-so.",
+  "sections": [
+    "/blog",
+    "/learn",
+    "/pest-product-guides"
+  ],
+  "pages": [
+    "/ontario-lyme-disease-tracker-2026",
+    "/west-nile-virus-ontario-tracker",
+    "/deadliest-animal-in-canada",
+    "/ticks-in-ontario-statistics",
+    "/lyme-disease-canada-statistics",
+    "/pest-control-cost-canada",
+    "/mosquito-tick-control-glossary"
+  ],
+  "_adFree_readme": "Blog posts that are really service pages living under /blog: the visitor is pricing or hiring a mosquito/tick service in the GTA, so a competitor's display ad would land on our best lead. Together they are about 1% of blog traffic.",
+  "adFree": [
+    "/blog/tick-control-richmond-hill-markham",
+    "/blog/tick-control-vaughan-king-city-woodbridge",
+    "/blog/tick-control-ancaster-dundas-hamilton",
+    "/blog/mosquito-tick-control-hamilton-burlington",
+    "/blog/mosquito-tick-control-stoney-creek",
+    "/blog/mosquito-control-etobicoke-north-york",
+    "/blog/mosquito-control-vaughan-york-region",
+    "/blog/mosquito-control-milton-georgetown",
+    "/blog/mosquito-control-near-water-ravines-gta",
+    "/blog/outdoor-event-mosquito-control-gta",
+    "/blog/mosquito-spray-companies-gta",
+    "/blog/how-to-choose-mosquito-control-company-gta",
+    "/blog/professional-vs-diy-mosquito-control-gta-comparison",
+    "/blog/mosquito-vs-diy-vs-professional-control",
+    "/blog/mosquito-magnet-vs-professional-spray",
+    "/blog/how-much-does-tick-treatment-cost-ontario",
+    "/blog/mosquito-control-cost-ontario",
+    "/blog/mosquito-control-worth-the-cost"
+  ],
+  "_scriptOnly_readme": "Pages that carry the Mediavine script with ALL ads switched off by Mediavine's own page setting (data-blocklist-all). Only the homepage: Mediavine's install check and its ongoing monitoring look for the script at the domain root, so it has to be present there even though the homepage never shows an ad. The build guard refuses any other entry.",
+  "scriptOnly": [
+    "/"
+  ]
+}
