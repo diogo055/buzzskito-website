@@ -65,6 +65,15 @@ for (const p of routes.scriptOnly) {
   if (p !== '/') problems.push(`scriptOnly may contain only "/" (the homepage). "${p}" would put the Mediavine script on another service page.`)
 }
 
+// The floating yard-risk card (components/StickyRiskCTA.tsx) is pinned bottom-right, exactly
+// where Mediavine pins its ad and video. Mediavine does not allow a site element over its ad,
+// so no page that shows the card may be an ad page. The card never shows under /blog/.
+const riskCard = readFileSync(join(ROOT, 'components', 'StickyRiskCTA.tsx'), 'utf8')
+const showOn = ((riskCard.match(/SHOW_ON_PATHS\s*=\s*\[([^\]]*)\]/) || [])[1] || '').match(/'[^']+'/g) || []
+const riskCardPaths = showOn.map((s) => s.slice(1, -1))
+if (!riskCardPaths.length) problems.push('could not read SHOW_ON_PATHS from components/StickyRiskCTA.tsx (the ad / yard-risk-card overlap check needs it)')
+const showsRiskCard = (path) => !path.startsWith('/blog/') && riskCardPaths.some((p) => path.includes(p))
+
 // ── walk the prerendered HTML ───────────────────────────────────────────────────
 const htmlFiles = []
 const walk = (dir) => {
@@ -111,6 +120,7 @@ for (const file of htmlFiles) {
   if (!notFound && isAdPath(route)) {
     // AD PAGE
     if (looksLikeService(route)) problems.push(`${route}: allow-listed but matches a service-page pattern`)
+    if (showsRiskCard(route)) problems.push(`${route}: is an ad page but also shows the floating yard-risk card, which would cover Mediavine's bottom ad. Take it off one list or the other.`)
     checkTag(route, html, tags)
     if (adsOff) problems.push(`${route}: an ad page carries the "ads off" setting, so it would never show an ad`)
     adPages++

@@ -54,11 +54,13 @@
 
 ## Display Ads (Mediavine) — installed Oct 6, 2026
 - **Rule (owner): ads on informational pages, NEVER on service pages.** A competitor's display ad on a city/service page costs a $1,222 customer.
-- **Allow-list, fails closed:** `lib/ad-routes.json` → `lib/ads.ts`. Ads show only under `/blog`, `/learn`, `/pest-product-guides` and 7 named data pages, minus 18 blog posts that are really local service/pricing pages. A new page anywhere else is ad-free by default.
+- **Allow-list, fails closed:** `lib/ad-routes.json` → `lib/ads.ts`. Ads show only under `/blog`, `/learn`, `/pest-product-guides` and 5 named data pages, minus 18 blog posts that are really local service/pricing pages. A new page anywhere else is ad-free by default.
 - **Homepage is the one exception:** it carries the Mediavine script (Mediavine's install check + monitoring look at the domain root) with every ad switched off by Mediavine's own `<div id="mediavine-settings" data-blocklist-all="1">`. No other service page loads the script at all.
 - **`components/AdNavigationGuard.tsx`** forces a full page load on any navigation that starts or ends on an ad page (this is an SPA; a running ad script would otherwise ride a soft navigation onto a service page). Do not remove it.
+- **Fixed bars vs Mediavine's bottom ad:** Mediavine does not allow a site element over, under or in front of its sticky ad. `MediavineStickyClearance` (in `components/MediavineScript.tsx`) measures what Mediavine has pinned and the rules at the end of `app/globals.css` move the phone lead bar (`[data-lead-bar]`), the Amazon buy bar (`[data-sticky-buy-bar]`) and our dialogs (`[data-site-dialog]`) clear of it. Any NEW fixed-bottom element on an ad page must do the same. The floating yard-risk card must never be on an ad page (the guard checks).
 - **`npm run check:ads`** (in `npm run build`) fails the deploy if any service page carries the script, if the homepage lacks the off switch, or if the allow-list names a service-shaped path.
 - **Mediavine requirements that must stay true:** tag attributes exactly as issued; `public/ads.txt`; the verbatim privacy language in `lib/mediavine-privacy.ts` (their dashboard health-checks the exact text + a homepage link to /privacy-policy); no other display-ad network on the site.
+- Launch status and the owner's remaining steps: `reports/mediavine_launch_checklist.md`. Mediavine's terms start a 90-day Set-Up Period at the first ad during which the placement they set may not be changed, so agree changes with them first.
 - Site id / seller id: `5cb2e89b-2d2f-47ba-9cbf-599f203df724`. Kill switch: `ADS_ENABLED` in `lib/ads.ts`.
 
 ## Competitors

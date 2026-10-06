@@ -36,6 +36,7 @@ export default function StickyBarShell({ children }: { children: React.ReactNode
     // z-50) pinned to bottom-0 — so sit 92px above it there and drop to bottom-0
     // from sm up, where that lead bar is hidden. Never cover the lead CTA.
     <div
+      data-sticky-buy-bar
       aria-hidden={!show}
       className={`fixed inset-x-0 bottom-[92px] sm:bottom-0 z-40 lg:hidden transition-transform duration-300 motion-reduce:transition-none ${
         show ? 'translate-y-0' : 'pointer-events-none translate-y-[200%]'

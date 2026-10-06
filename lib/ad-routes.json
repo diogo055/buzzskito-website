@@ -10,10 +10,9 @@
     "/west-nile-virus-ontario-tracker",
     "/deadliest-animal-in-canada",
     "/ticks-in-ontario-statistics",
-    "/lyme-disease-canada-statistics",
-    "/pest-control-cost-canada",
-    "/mosquito-tick-control-glossary"
+    "/lyme-disease-canada-statistics"
   ],
+  "_pages_readme": "Two root pages were considered and left OUT on purpose: /pest-control-cost-canada and /mosquito-tick-control-glossary. The site already treats them as commercial pages (they show the yard-risk card, components/StickyRiskCTA.tsx), and that card would sit on top of the bottom ad.",
   "_adFree_readme": "Blog posts that are really service pages living under /blog: the visitor is pricing or hiring a mosquito/tick service in the GTA, so a competitor's display ad would land on our best lead. Together they are about 1% of blog traffic.",
   "adFree": [
     "/blog/tick-control-richmond-hill-markham",

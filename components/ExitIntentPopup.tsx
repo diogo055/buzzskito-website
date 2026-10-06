@@ -200,6 +200,7 @@ export default function ExitIntentPopup() {
       role="dialog"
       aria-modal="true"
       aria-labelledby="exit-intent-title"
+      data-site-dialog
       className="fixed inset-0 z-[200] flex items-center justify-center bg-black/60 backdrop-blur-sm px-4 py-6"
       onClick={dismiss}
     >

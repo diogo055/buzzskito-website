@@ -81,6 +81,7 @@ export default function FigureZoom({
           role="dialog"
           aria-modal="true"
           aria-label={alt}
+          data-site-dialog
           onClick={close}
           className="fixed inset-0 z-[100] flex flex-col bg-brand-950/95 backdrop-blur-sm"
         >

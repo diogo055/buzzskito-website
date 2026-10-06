@@ -13,7 +13,7 @@ import LeadBarGate from '@/components/LeadBarGate'
 import AffiliateClickTracker from '@/components/AffiliateClickTracker'
 import LeadClickTracker from '@/components/LeadClickTracker'
 import AttributionBeacon from '@/components/AttributionBeacon'
-import MediavineScript, { MediavinePageSettings } from '@/components/MediavineScript'
+import MediavineScript, { MediavinePageSettings, MediavineStickyClearance } from '@/components/MediavineScript'
 import AdNavigationGuard from '@/components/AdNavigationGuard'
 import QuoteLink from '@/components/QuoteLink'
 import { BUSINESS, PROMISES, SITE_URL } from '@/lib/constants'
@@ -143,6 +143,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AttributionBeacon />
         <AdNavigationGuard />
         <MediavinePageSettings />
+        <MediavineStickyClearance />
         <SmoothScroll />
         <Header />
         <PressMentionBanner />
@@ -166,6 +167,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           role="complementary"
           aria-label="Quick actions"
           data-lead-location="sticky_bar"
+          data-lead-bar
         >
           <p className="text-center text-[10px] font-semibold text-brand-300 mb-1.5">
             <span className="text-amber-400"><span aria-hidden="true">★</span> 5.0</span> · 150+ Google reviews · {PROMISES.rainBackShort}

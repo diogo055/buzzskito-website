@@ -695,3 +695,42 @@
 /* Hide scrollbar on horizontal jump-nav (Recommended Products hubs) */
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* ── Mediavine: our fixed bars sit ABOVE whatever Mediavine pins to the bottom ──────────
+   Mediavine's sticky bottom ad (and, where enabled, a floating video) lives in one container
+   at the bottom edge with the highest z-index on the page. Its rule: nothing of ours may cover
+   the ad, sit underneath it, or be raised in front of it. So our bars move up by the height it
+   is using, --mv-fixed, which <MediavineStickyClearance> measures (components/MediavineScript.tsx).
+   The three values below are only the fallback for when that measurement is unavailable.
+   Every rule here is keyed on a body class that ONLY Mediavine's script adds, so none of this
+   has any effect on a page, or at a moment, when no ad is pinned. */
+body.adhesion { --mv-fixed: 100px; }
+body.mediavine-video__has-sticky { --mv-fixed: 115px; }
+body.adhesion.mediavine-video__has-sticky { --mv-fixed: 215px; }
+
+/* Phone Call / Text / Get price bar */
+body:is(.adhesion, .mediavine-video__has-sticky) [data-lead-bar] { bottom: var(--mv-fixed); }
+
+/* Amazon buy bar: at the bottom edge from 640px up, above the lead bar on phones */
+body:is(.adhesion, .mediavine-video__has-sticky) [data-sticky-buy-bar] { bottom: var(--mv-fixed); }
+
+/* Our own full-screen dialogs (exit-intent form, image zoom): keep their content above the
+   ad, which Mediavine requires to stay in front. Keyed on data-site-dialog so it can never
+   restyle a dialog that belongs to Mediavine, such as its consent prompt. */
+body:is(.adhesion, .mediavine-video__has-sticky) [data-site-dialog] {
+  padding-bottom: calc(1.5rem + var(--mv-fixed));
+}
+
+@media (max-width: 639.98px) {
+  body:is(.adhesion, .mediavine-video__has-sticky) [data-sticky-buy-bar] { bottom: calc(92px + var(--mv-fixed)); }
+  /* pages where the lead bar is not shown: keep today's 92px unless the ad is taller */
+  body:is(.adhesion, .mediavine-video__has-sticky):not(:has([data-lead-bar])) [data-sticky-buy-bar] {
+    bottom: max(92px, calc(var(--mv-fixed) + 8px));
+  }
+  /* Room at the end of the page for the ad plus the lead bar. Mediavine sets its own body
+     padding with !important, so this needs !important and a more specific selector to win. */
+  html body.adhesion.adhesion,
+  html body.mediavine-video__has-sticky.mediavine-video__has-sticky {
+    padding-bottom: calc(96px + var(--mv-fixed)) !important;
+  }
+}
