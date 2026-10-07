@@ -38,6 +38,10 @@ export default function MediavineScript() {
  * On the homepage this is what keeps ads off (the script is present there for
  * Mediavine's install check). On every other service page the script is not
  * loaded in the first place, so this is a second lock that costs 60 bytes.
+ *
+ * Two details that matter: the value must be the string "1" (Mediavine does not
+ * accept "true" for "all"), and there must be NO data-expires-at attribute (the
+ * snippet Mediavine's dashboard generates expires after 60 days by default).
  */
 export function MediavinePageSettings() {
   const pathname = usePathname()
@@ -46,21 +50,17 @@ export function MediavinePageSettings() {
 }
 
 /**
- * Keeps the site's own fixed bars clear of whatever Mediavine pins to the bottom
- * of the screen (its sticky "adhesion" ad and, where enabled, a floating video).
+ * Safety net for the space our fixed bars keep clear of Mediavine's pinned units.
  *
- * Mediavine's rule: nothing of ours may cover its ad, and our bars may not sit
- * under it or be raised in front of it. So the phone Call / Text / Get price bar
- * and the Amazon buy bar move UP by exactly the height Mediavine is using. This
- * measures that height and publishes it as the CSS variable --mv-fixed on <body>;
- * the rules that use it are at the end of app/globals.css.
+ * The real work is CSS (end of app/globals.css): as soon as Mediavine creates its
+ * sticky bottom ad slot, our bars step up above a band reserved for the tallest ad
+ * that slot can show, and they stay there. They deliberately do NOT follow the ad's
+ * height: that ad refreshes about every 30 seconds and can change size, and a
+ * Call button that moves next to an ad is how accidental ad clicks happen.
  *
- * Everything pinned lives in one container Mediavine appends to <body>
- * (#fixed_container_bottom). We re-measure when Mediavine toggles its body classes
- * (adhesion, mediavine-video__has-sticky), when it announces a new ad height
- * (adhesionHeightChanged) and when any pinned unit resizes. If a future version of
- * its script renames those, globals.css still applies a fixed fallback height
- * from the body classes alone.
+ * This component only ever RAISES the band, if a unit turns out taller than the
+ * CSS reserved for it, and releases it when the unit is gone. It reads Mediavine's
+ * elements; it never changes them.
  */
 export function MediavineStickyClearance() {
   const pathname = usePathname()
@@ -69,39 +69,42 @@ export function MediavineStickyClearance() {
   useEffect(() => {
     if (!active) return
     const body = document.body
-    // observe() on an element that is already observed restarts its observation and fires
-    // again, so each pinned unit is registered exactly once.
+    // observe() on an element that is already observed restarts it and fires again,
+    // so each unit is registered exactly once.
     const watched = new WeakSet<Element>()
+    const reserved = (name: string) => parseFloat(getComputedStyle(body).getPropertyValue(name)) || 0
 
-    const measure = () => {
-      const pinned = document.getElementById('fixed_container_bottom')
-      let top = window.innerHeight
-      if (pinned) {
-        for (const unit of Array.from(pinned.children)) {
-          if (!watched.has(unit)) {
-            watched.add(unit)
-            sizes.observe(unit)
-          }
-          const box = unit.getBoundingClientRect()
-          if (box.width > 0 && box.height > 0) top = Math.min(top, box.top)
-        }
+    const raise = (name: string, unit: HTMLElement | null, extra: number) => {
+      if (!unit) {
+        body.style.removeProperty(name) // unit gone: back to whatever the CSS says
+        return
       }
-      const taken = Math.round(window.innerHeight - top)
-      if (taken > 0) body.style.setProperty('--mv-fixed', `${taken}px`)
-      else body.style.removeProperty('--mv-fixed') // back to the CSS fallback, or to nothing
+      if (!watched.has(unit)) {
+        watched.add(unit)
+        sizes.observe(unit)
+      }
+      const height = Math.ceil(unit.getBoundingClientRect().height)
+      if (height > 0 && height + extra > reserved(name)) body.style.setProperty(name, `${height + extra}px`)
     }
 
-    const sizes = new ResizeObserver(measure)
-    const classes = new MutationObserver(measure)
+    const check = () => {
+      raise('--mv-adh', document.querySelector<HTMLElement>('#fixed_container_bottom > .adhesion_wrapper'), 0)
+      // the floating video sits 15px above the ad
+      raise('--mv-vid', document.querySelector<HTMLElement>('#fixed_container_bottom > #universalPlayer_wrapper'), 15)
+    }
+
+    const sizes = new ResizeObserver(check)
+    const classes = new MutationObserver(check)
     classes.observe(body, { attributes: true, attributeFilter: ['class'] })
-    window.addEventListener('adhesionHeightChanged', measure)
-    measure()
+    window.addEventListener('adhesionHeightChanged', check)
+    check()
 
     return () => {
       sizes.disconnect()
       classes.disconnect()
-      window.removeEventListener('adhesionHeightChanged', measure)
-      body.style.removeProperty('--mv-fixed')
+      window.removeEventListener('adhesionHeightChanged', check)
+      body.style.removeProperty('--mv-adh')
+      body.style.removeProperty('--mv-vid')
     }
   }, [active])
 

@@ -696,41 +696,73 @@
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
-/* ── Mediavine: our fixed bars sit ABOVE whatever Mediavine pins to the bottom ──────────
-   Mediavine's sticky bottom ad (and, where enabled, a floating video) lives in one container
-   at the bottom edge with the highest z-index on the page. Its rule: nothing of ours may cover
-   the ad, sit underneath it, or be raised in front of it. So our bars move up by the height it
-   is using, --mv-fixed, which <MediavineStickyClearance> measures (components/MediavineScript.tsx).
-   The three values below are only the fallback for when that measurement is unavailable.
-   Every rule here is keyed on a body class that ONLY Mediavine's script adds, so none of this
-   has any effect on a page, or at a moment, when no ad is pinned. */
-body.adhesion { --mv-fixed: 100px; }
-body.mediavine-video__has-sticky { --mv-fixed: 115px; }
-body.adhesion.mediavine-video__has-sticky { --mv-fixed: 215px; }
+/* ── Mediavine: our fixed bars keep clear of whatever Mediavine pins to the bottom ───────
+   Mediavine's sticky bottom ad (the "adhesion") lives in #fixed_container_bottom at the bottom
+   edge with the highest z-index on the page. Nothing of ours may cover it, sit underneath it or
+   be raised in front of it, and Google's sticky-ad rules add that buttons must not sit close to
+   such an ad. That ad also refreshes about every 30 seconds and can change height.
 
-/* Phone Call / Text / Get price bar */
-body:is(.adhesion, .mediavine-video__has-sticky) [data-lead-bar] { bottom: var(--mv-fixed); }
+   So the bars do NOT follow the ad. As soon as Mediavine creates the ad slot (1.5 to 3 seconds
+   before the first ad paints) they step up above a band reserved for the tallest ad that slot can
+   show, plus a gap, and stay there. An ad can therefore never grow into the place where a button
+   was. <MediavineStickyClearance> (components/MediavineScript.tsx) only ever raises the band.
 
-/* Amazon buy bar: at the bottom edge from 640px up, above the lead bar on phones */
-body:is(.adhesion, .mediavine-video__has-sticky) [data-sticky-buy-bar] { bottom: var(--mv-fixed); }
+   The variables below are set ONLY while Mediavine's own classes or elements are present, and
+   every use falls back to 0px, so with no ad pinned each rule computes to today's position.
 
-/* Our own full-screen dialogs (exit-intent form, image zoom): keep their content above the
-   ad, which Mediavine requires to stay in front. Keyed on data-site-dialog so it can never
-   restyle a dialog that belongs to Mediavine, such as its consent prompt. */
-body:is(.adhesion, .mediavine-video__has-sticky) [data-site-dialog] {
-  padding-bottom: calc(1.5rem + var(--mv-fixed));
+   RECOMMENDED SETUP is that none of this ever runs on phones: Mobile and Tablet Adhesion and the
+   mobile Universal Player switched off in Mediavine's dashboard. This is the fallback. */
+
+/* 1. How much to reserve. Class-based first, for browsers without :has(). */
+body.adhesion,
+body.gumgumAdhesion { --mv-adh: 100px; --mv-gap: 12px; }            /* 90px cap, 100px when GumGum draws it */
+body.mv-device-mobile.adhesion:not(.gumgumAdhesion):not(.highImpact_adhesion) { --mv-adh: 60px; }
+body.highImpact_adhesion.adhesion,
+body.highImpact_adhesion.gumgumAdhesion { --mv-adh: 150px; }        /* high-impact formats */
+
+/*    The same three, keyed on the slot existing, so the band is there before the ad paints. */
+body:has(#fixed_container_bottom > .adhesion_wrapper) { --mv-adh: 100px; --mv-gap: 12px; }
+body.mv-device-mobile:not(.gumgumAdhesion):not(.highImpact_adhesion):has(#fixed_container_bottom > .adhesion_wrapper) { --mv-adh: 60px; }
+body.highImpact_adhesion:has(#fixed_container_bottom > .adhesion_wrapper) { --mv-adh: 150px; }
+
+/*    Floating video (100px tall, 15px above the ad), which docks where our bars are below 1024px. */
+@media (max-width: 1023.98px) {
+  body.mediavine-video__has-sticky { --mv-vid: 115px; --mv-gap: 12px; }
 }
 
+/* 2. The bars. With nothing pinned these compute to bottom: 0 / 92px, exactly as before. */
+body [data-lead-bar] { bottom: calc(var(--mv-adh, 0px) + var(--mv-vid, 0px) + var(--mv-gap, 0px)); }
+body [data-sticky-buy-bar] { bottom: calc(var(--mv-adh, 0px) + var(--mv-vid, 0px) + var(--mv-gap, 0px)); }
 @media (max-width: 639.98px) {
-  body:is(.adhesion, .mediavine-video__has-sticky) [data-sticky-buy-bar] { bottom: calc(92px + var(--mv-fixed)); }
-  /* pages where the lead bar is not shown: keep today's 92px unless the ad is taller */
-  body:is(.adhesion, .mediavine-video__has-sticky):not(:has([data-lead-bar])) [data-sticky-buy-bar] {
-    bottom: max(92px, calc(var(--mv-fixed) + 8px));
+  /* phones: the buy bar sits above the lead bar */
+  body [data-sticky-buy-bar] { bottom: calc(92px + var(--mv-adh, 0px) + var(--mv-vid, 0px) + var(--mv-gap, 0px)); }
+  /* pages with no lead bar: keep today's 92px unless the reserved band is taller */
+  body:not(:has([data-lead-bar])) [data-sticky-buy-bar] {
+    bottom: max(92px, calc(var(--mv-adh, 0px) + var(--mv-vid, 0px) + 16px));
   }
-  /* Room at the end of the page for the ad plus the lead bar. Mediavine sets its own body
-     padding with !important, so this needs !important and a more specific selector to win. */
+}
+
+/* 3. The buy bar hides by sliding down twice its own height. Once it is lifted that no longer
+      takes it off screen, so while something is pinned a hidden bar is really hidden. */
+body:is(.adhesion, .gumgumAdhesion, .mediavine-video__has-sticky) [data-sticky-buy-bar][aria-hidden="true"] { visibility: hidden; }
+body:has(#fixed_container_bottom > .adhesion_wrapper) [data-sticky-buy-bar][aria-hidden="true"] { visibility: hidden; }
+
+/* 4. Our own full-screen dialogs (exit-intent form, image zoom): keep their content above the
+      ad, which Mediavine requires to stay in front. Keyed on data-site-dialog so it can never
+      restyle a dialog that belongs to Mediavine, such as its consent prompt. */
+body:is(.adhesion, .gumgumAdhesion, .mediavine-video__has-sticky) [data-site-dialog] {
+  padding-bottom: calc(1.5rem + var(--mv-adh, 0px) + var(--mv-vid, 0px));
+}
+
+/* 5. Room at the end of the page on phones for the band plus the lead bar. Mediavine sets its
+      own body padding with !important, so these need !important and a more specific selector. */
+@media (max-width: 639.98px) {
   html body.adhesion.adhesion,
+  html body.gumgumAdhesion.gumgumAdhesion,
   html body.mediavine-video__has-sticky.mediavine-video__has-sticky {
-    padding-bottom: calc(96px + var(--mv-fixed)) !important;
+    padding-bottom: calc(96px + var(--mv-adh, 0px) + var(--mv-vid, 0px) + var(--mv-gap, 0px)) !important;
+  }
+  html body:has(#fixed_container_bottom > .adhesion_wrapper) {
+    padding-bottom: calc(96px + var(--mv-adh, 0px) + var(--mv-vid, 0px) + var(--mv-gap, 0px)) !important;
   }
 }

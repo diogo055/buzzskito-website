@@ -91,10 +91,11 @@ const routeOf = (file) => {
 }
 
 // Mediavine's per-page "no ads" setting: <div id="mediavine-settings" data-blocklist-all="1">
-const hasAdsOffSetting = (html) => {
-  const el = (html.match(/<div[^>]*id="mediavine-settings"[^>]*>/) || [])[0]
-  return !!el && el.includes('data-blocklist-all="1"')
-}
+// Mediavine accepts only the string "1" for "all", and an expiry attribute (its dashboard
+// snippet adds one, 60 days out, by default) would silently switch the block off later.
+const settingsEl = (html) => (html.match(/<div[^>]*id="mediavine-settings"[^>]*>/) || [])[0] || ''
+const hasAdsOffSetting = (html) => settingsEl(html).includes('data-blocklist-all="1"')
+const settingsExpire = (html) => settingsEl(html).includes('data-expires-at')
 
 const checkTag = (route, html, tags) => {
   if (tags.length !== 1) { problems.push(`${route}: expected exactly 1 Mediavine script, found ${tags.length}`); return }
@@ -116,6 +117,7 @@ for (const file of htmlFiles) {
   const tags = html.match(/<script[^>]*scripts[.]mediavine[.]com[^>]*>/g) || []
   const adsOff = hasAdsOffSetting(html)
   const notFound = route === '/_not-found' || route === '/404'
+  if (settingsExpire(html)) problems.push(`${route}: the "ads off" setting carries data-expires-at, so it would stop working on that date. Remove the attribute.`)
 
   if (!notFound && isAdPath(route)) {
     // AD PAGE
