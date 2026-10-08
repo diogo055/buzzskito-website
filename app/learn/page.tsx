@@ -88,6 +88,32 @@ export default function LearnHubPage() {
         </div>
       </section>
 
+      {/* North American pest hubs (Oct 2026): pests we research but do not treat */}
+      <section aria-labelledby="other-pests" className="pb-12 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 id="other-pests" className="text-2xl font-extrabold text-brand-900 mb-2">Other household pests</h2>
+          <p className="text-sm text-gray-600 leading-relaxed mb-5 max-w-2xl">Complete, source-cited references on the four pests readers ask us about most. We do not treat these; the guides are written for readers anywhere in the US and Canada.</p>
+          <div className="grid gap-5 sm:grid-cols-2">
+            {[
+              { slug: 'bed-bugs', title: 'Bed Bugs', blurb: 'How to identify every life stage, the signs of an infestation, what the bites mean, and each treatment that works, from heat to encasements.' },
+              { slug: 'ants', title: 'Ants', blurb: 'How colonies work, how to tell the common household species apart, why they come indoors, and why bait beats spray.' },
+              { slug: 'mice', title: 'Mice', blurb: 'Species, signs and health risks, how mice get in, and the seal-up, trap-up, clean-up sequence that ends an infestation.' },
+              { slug: 'cockroaches', title: 'Cockroaches', blurb: 'The species found in homes, where they come from, the health effects, and the sanitation and bait program that controls them.' },
+            ].map((h) => (
+              <Link
+                key={h.slug}
+                href={`/learn/${h.slug}`}
+                className="group block rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md hover:border-brand-300"
+              >
+                <h3 className="text-lg font-extrabold text-brand-900 mb-2 group-hover:text-brand-700 transition-colors">{h.title}</h3>
+                <p className="text-sm text-gray-600 leading-relaxed mb-3">{h.blurb}</p>
+                <span className="text-sm font-bold text-brand-700 group-hover:text-brand-600">Read the guide →</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="pb-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto rounded-2xl bg-brand-50 border border-brand-100 p-6 sm:p-7">
           <h2 className="text-lg font-extrabold text-brand-900 mb-2">Ready to put it into practice?</h2>

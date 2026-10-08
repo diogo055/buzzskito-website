@@ -67,6 +67,14 @@ const FAQS = [
     question: 'What does an engorged tick look like?',
     answer: 'An engorged tick — one that has fed — looks like a smooth, swollen, greyish or brown bean or small grape attached to the skin, quite different from a flat unfed tick. A fully fed adult can reach 10 mm or more, with the legs and tiny head appearing small against the ballooned body. Colour typically shifts to grey, blue-grey, or tan. Roughly, the more engorged the tick, the longer it has been attached.',
   },
+  {
+    question: 'What types of ticks are found in the United States?',
+    answer: 'The CDC lists eight tick species in the United States: the American dog, Asian longhorned, blacklegged, brown dog, Gulf Coast, lone star, Rocky Mountain wood, and western blacklegged ticks. Which ones you meet depends on region. Blacklegged ticks are widely distributed across the eastern states, American dog ticks east of the Rocky Mountains, lone star ticks across the Northeast, South, and Midwest, Gulf Coast ticks mainly in the Southeast, Rocky Mountain wood ticks at 4,000 to 10,500 feet in the Rocky Mountain states, and western blacklegged ticks along the Pacific coast. The brown dog tick is found worldwide.',
+  },
+  {
+    question: 'What is the Asian longhorned tick, and does it bite people?',
+    answer: 'The Asian longhorned tick (Haemaphysalis longicornis) is native to eastern China, Japan, Korea, and the Russian Far East. The USDA dates its first detection outside a US port of entry to New Jersey in November 2017, and the CDC listed it in 20 states as of April 12, 2024. According to the CDC, it has been found on pets, livestock, wildlife, and people, but appears less attracted to humans than native ticks such as the blacklegged tick. Females can lay eggs without mating, and thousands may be found at a time in grass or shrubs or on an animal.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -324,6 +332,20 @@ export default function TypesOfTicksIdentificationPage() {
             <li><Link href="/blog/are-ticks-dangerous-ontario">Are Ticks Dangerous? Disease Risk Explained</Link></li>
             <li><Link href="/tick-control">BuzzSkito Professional Tick Control</Link></li>
           </ul>
+          <h2>Types of Ticks in the United States, by Region</h2>
+          <p>The CDC&rsquo;s <a href="https://www.cdc.gov/ticks/about/where-ticks-live.html" target="_blank" rel="noopener noreferrer">Where Ticks Live</a> page lists eight tick species in the United States, and which ones you meet depends mostly on your region. They are the six on the chart at the top of this page plus the Gulf Coast tick and the Asian longhorned tick, and the agency notes that populations may be found outside the areas shaded on its range maps.</p>
+          <ul>
+            <li><strong>Eastern states.</strong> The blacklegged tick is widely distributed across the eastern United States. Beyond Lyme disease, anaplasmosis and babesiosis, the CDC lists Powassan virus disease, ehrlichiosis and hard tick relapsing fever for it. Lyme occurs most commonly in the Northeast, mid-Atlantic and upper Midwest, according to the <a href="https://www.cdc.gov/lyme/about/index.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s Lyme disease overview</a>.</li>
+            <li><strong>East of the Rockies.</strong> The American dog tick is widely distributed here, and a newly described relative, <em>Dermacentor similis</em>, is found west of the Rockies.</li>
+            <li><strong>Northeast, South and Midwest.</strong> The lone star tick is widely distributed across all three, and the CDC adds tularemia, Heartland virus and Bourbon virus to its list.</li>
+            <li><strong>Southeast.</strong> The Gulf Coast tick (<em>Amblyomma maculatum</em>) lives mainly in the southeastern states, with focal populations in the Northeast, Midwest and Southwest. It transmits <em>Rickettsia parkeri</em> rickettsiosis, a form of spotted fever.</li>
+            <li><strong>Rocky Mountain states.</strong> The Rocky Mountain wood tick is found at elevations of 4,000 to 10,500 feet and can also transmit tularemia.</li>
+            <li><strong>Pacific coast.</strong> The western blacklegged tick lives along the coast, particularly in northern California, and can also transmit hard tick relapsing fever.</li>
+            <li><strong>Southwest.</strong> The brown dog tick is found worldwide, but the CDC ties its Rocky Mountain spotted fever transmission to the southwestern states and the US-Mexico border.</li>
+          </ul>
+          <p>The Asian longhorned tick (<em>Haemaphysalis longicornis</em>) is the newcomer: the <a href="https://www.aphis.usda.gov/livestock-poultry-disease/cattle/ticks/asian-longhorned" target="_blank" rel="noopener noreferrer">USDA&rsquo;s Animal and Plant Health Inspection Service</a> dates its first detection outside a US port of entry to New Jersey in November 2017. The CDC listed it in 20 states as of April 12, 2024, and says it appears less attracted to people than native ticks.</p>
+          <p>For the markings on the main US species, including the Gulf Coast tick, see <Link href="/blog/what-do-ticks-look-like">what ticks look like at each life stage</Link>, and if Lyme is the worry, read about <Link href="/blog/ticks-that-carry-lyme-disease">the two US ticks that carry Lyme disease</Link>. A cluster of tiny six-legged ticks is covered in <Link href="/blog/seed-ticks">seed ticks and how to remove dozens at once</Link>, and <Link href="/blog/ticks-in-michigan">ticks in Michigan</Link> shows one state&rsquo;s picture county by county.</p>
+          <p>Dog owners can start with <Link href="/blog/ticks-on-dogs">where to check a dog for ticks</Link>, and <Link href="/blog/what-kills-ticks">what kills ticks on clothing, on gear and in the yard</Link> separates proven methods from popular ones that fail. The <Link href="/blog/ultimate-tick-control-guide-ontario">complete tick control guide</Link> explains where ticks hide in a yard and how to keep them out.</p>
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4">
           {FAQS.map(({ question, answer }) => (

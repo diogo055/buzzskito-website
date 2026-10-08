@@ -1,0 +1,10 @@
+{
+ "id": "pest-product-guides/cockroach-control",
+ "kind": "existing",
+ "verdict": "publish-after-my-fixes",
+ "sha": "1098805c2957b04ad3ca3b360630216ad9344f5d72550410712db5d1b181e870",
+ "claimsChecked": 67,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 13,
+ "checkedOn": "2026-10-08"
+}

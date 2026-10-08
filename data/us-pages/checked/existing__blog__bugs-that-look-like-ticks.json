@@ -1,0 +1,10 @@
+{
+ "id": "blog/bugs-that-look-like-ticks",
+ "kind": "existing",
+ "verdict": "publish-after-my-fixes",
+ "sha": "623887901163b85f587558df316e7bf2e8dee902bf215e6d2010709f053b3dba",
+ "claimsChecked": 36,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-08"
+}

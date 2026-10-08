@@ -1,0 +1,10 @@
+{
+ "id": "german-cockroaches",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "1192402bd988ef457fa846851a7d55e9a6e603299d7ac897e4f2cff41ca11832",
+ "claimsChecked": 94,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-08"
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -74,14 +75,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'Carpet beetles, booklice, spider beetles, bat bugs, fleas and cockroach nymphs all get mistaken for bed bugs. The features that settle it, before you spend.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/bugs-that-look-like-bed-bugs-canada')
 
 const AMZ_TAG = tagForSlug(SLUG)
 
@@ -355,6 +356,8 @@ export default function BugsThatLookLikeBedBugsCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/bugs-that-look-like-bed-bugs" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
 
           <h2>Start With the Bed Bug Itself: Five Features That Settle It</h2>
           <Figure

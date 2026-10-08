@@ -1,0 +1,10 @@
+{
+ "id": "do-mosquitoes-bite-dogs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "edacca913788c3b803717992a7bfadd7a92edb6e939af0fb789b51b2b6ef24ed",
+ "claimsChecked": 81,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 15,
+ "checkedOn": "2026-10-08"
+}

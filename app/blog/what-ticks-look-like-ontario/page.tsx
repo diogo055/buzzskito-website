@@ -10,20 +10,21 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const POST = TICK_BLOGS.supporting[1]
 const UPDATED = '2026-07-12'
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: 'Tick Identification Ontario: 3 Species + Sizes',
   description:
     "Ontario's 3 ticks at a glance: blacklegged (reddish-orange, black shield, 3–5 mm), dog tick (mottled grey), lone star (white dot). Only one carries Lyme.",
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
-})
+}), '/blog/what-ticks-look-like-ontario')
 
 const FAQS = [
   { question: 'How small is a deer tick nymph?', answer: 'A blacklegged tick nymph is approximately 1–1.5 mm — roughly the size of a poppy seed. They are extremely difficult to spot on skin, hair, or clothing, which is why they are responsible for the majority of Lyme disease transmissions in Ontario. Adults are larger (3–5 mm) and somewhat easier to detect.' },

@@ -13,7 +13,7 @@
 //   - every internal link points at a page that exists
 import type { Metadata } from 'next'
 import { buildMetadata, blogPostingSchema, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { SITE_URL } from '@/lib/constants'
+import { SITE_URL, BUSINESS } from '@/lib/constants'
 
 export type GuideCluster = 'bed-bugs' | 'ants' | 'mice' | 'cockroaches' | 'mosquitoes' | 'ticks' | 'pest-control'
 
@@ -50,6 +50,13 @@ export interface Guide {
   faqs: { question: string; answer: string }[]
   sources: { title: string; publisher: string; url: string }[]
   disclaimer?: 'health' | 'pesticide' | 'both'
+  /**
+   * Set ONLY when a named person has actually read and approved this page: their name and
+   * the date (YYYY-MM-DD). The byline then reads "Reviewed by <name>" and the note at the
+   * foot of the page says so. Leave both out otherwise.
+   */
+  reviewedBy?: string
+  reviewedOn?: string
 }
 
 export const guidePath = (g: Pick<Guide, 'slug' | 'kind'>) => (g.kind === 'pillar' ? `/learn/${g.slug}` : `/blog/${g.slug}`)
@@ -144,6 +151,10 @@ export function guideSchemas(g: Guide): Record<string, unknown>[] {
     }),
     url: `${SITE_URL}${path}`,
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}${path}` },
+    // The author of record is the company, not a named person: these guides were drafted
+    // with AI assistance, and the page says so. Naming a human author here would misstate
+    // who wrote them. (The visible byline handles a human reviewer, when there is one.)
+    author: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: BUSINESS.legalName, url: SITE_URL },
     inLanguage: 'en-US',
     about: { '@type': 'Thing', name: CLUSTER_LABEL[g.cluster] },
     citation: g.sources.map((s) => ({ '@type': 'CreativeWork', name: s.title, publisher: s.publisher, url: s.url })),

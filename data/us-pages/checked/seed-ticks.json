@@ -1,0 +1,10 @@
+{
+ "id": "seed-ticks",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "172e58c2c1663792ab626c64d28f0804aa0b402ae950073490d7c974ac159609",
+ "claimsChecked": 94,
+ "claimsCorrected": 15,
+ "claimsRemovedOrSoftened": 10,
+ "checkedOn": "2026-10-08"
+}

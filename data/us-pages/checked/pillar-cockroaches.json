@@ -1,0 +1,10 @@
+{
+ "id": "pillar-cockroaches",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "0d4e3f111db48c01713da771d964adbfac17d9e8b1064d034c9eb1a6eb7b032c",
+ "claimsChecked": 224,
+ "claimsCorrected": 13,
+ "claimsRemovedOrSoftened": 14,
+ "checkedOn": "2026-10-08"
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -68,14 +69,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'The complete step-by-step plan to get rid of bed bugs in Canada: confirm, isolate the bed, encase, intercept, heat-treat the eggs, dust the voids, and monitor to zero. DIY vs professional, what actually kills eggs, and the PMRA-legal Canadian toolkit. Updated 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/how-to-get-rid-of-bed-bugs-canada')
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-bed-bugs-canada')
 
@@ -251,6 +252,8 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/how-to-get-rid-of-bed-bugs" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
 
           <h2>Why Getting Rid of Bed Bugs Takes a Plan, Not a Product</h2>
           <p>The reason bed bugs have a reputation for being impossible to beat is not that they are indestructible &mdash; it is that people fight them the wrong way. They buy a can of spray or a fogger, treat the mattress, feel a few days of relief as the visible bugs die, and then get bitten again a week later when the eggs hatch. The bugs were never the hard part; the <em>eggs</em> are. Female bed bugs cement their eggs into fabric seams, screw holes, and cracks with a glue-like coating, and those eggs shrug off nearly every spray, fog, and powder on the market. Only sustained heat reliably kills them. So a plan that ignores the eggs is a plan that fails on a two-week delay, every time. Finding a translucent 1&ndash;2 mm insect rather than an adult changes the reading of the situation as well: <Link href="/blog/baby-bed-bugs-nymphs" className="text-brand-700 underline">a nymph means the bugs are breeding on site</Link>, not merely hitchhiking in.</p>

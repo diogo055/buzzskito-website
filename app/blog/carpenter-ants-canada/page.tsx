@@ -70,6 +70,18 @@ const FAQS = [
     question: 'Do ultrasonic repellers or home remedies get rid of carpenter ants?',
     answer: 'No. Ultrasonic plug-ins have no credible evidence behind them for any structural pest, and carpenter ants nesting inside a wall void are physically insulated from whatever the device emits. Cinnamon, vinegar, coffee grounds, chalk lines, essential oils and dish soap sprays all do the same thing: they temporarily disrupt a pheromone trail, so ants take a different route through your wall for a day or two while the queen keeps laying. Diatomaceous earth is the exception among the "natural" options — it genuinely kills ants that walk through it, provided it stays dry and is applied as a thin, barely visible film in a void rather than a visible pile they will simply walk around.',
   },
+  {
+    question: 'When do carpenter ants swarm in the United States?',
+    answer: 'Mostly in spring and early summer, with the date shifting by region. University of Kentucky entomologists put mating in late May to early June, Washington State University gives April to early June, and the University of Florida describes evening and night flights through the rainy season, May through November, with complaints numerous in the spring swarm season, usually between April and June. Penn State Extension adds the detail that matters indoors: numerous winged ants at windows inside a house probably came from a nest inside it.',
+  },
+  {
+    question: 'Do Florida carpenter ants damage houses the way northern carpenter ants do?',
+    answer: 'Not in the same way, according to the University of Florida. Its entomologists report that Florida carpenter ants will not excavate nesting galleries in sound wood; they move into existing voids or dig only soft material such as rotten or pithy wood and Styrofoam. They have no sting, though workers can bite and spray formic acid. Nests are very common under window and door frames with moisture intrusion, so the leak still needs fixing. The wood-damaging black carpenter ant is found in Florida’s panhandle.',
+  },
+  {
+    question: 'What can US homeowners buy to kill carpenter ants?',
+    answer: 'Extension services name three kinds of product: slow-acting baits labeled for carpenter ants, dusts containing borates or desiccants such as diatomaceous earth, and pyrethroid sprays such as permethrin or cyfluthrin applied directly into a nest you have located. Check for an EPA registration number, and remember that the label decides where and how a product may be used. University of California and University of Kentucky sources describe fipronil sprays as very effective, but say only licensed applicators can apply them.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -380,6 +392,91 @@ export default function CarpenterAntsCanadaPage() {
           <p>What a good operator brings that you cannot buy: non-repellent commercial-class actives that ants carry through the colony without detecting, commercial-class void treatments, injection equipment for wall cavities, moisture meters and borescopes, and the pattern recognition to read a trail back to a stump you would have walked past twenty times. On cost, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> puts carpenter ant work meaningfully above general ant work &mdash; roughly $300&ndash;$800 in Ontario versus $150&ndash;$400 &mdash; and that premium is buying inspection and nest treatment, not a bigger sprayer.</p>
           <p>Two things to insist on when you hire. <strong>An inspection before a price.</strong> Anybody quoting a carpenter ant job over the phone is selling a perimeter spray, and a perimeter spray does not find nests. <strong>And a moisture conversation.</strong> If nobody asks about leaks, ice damming, the deck ledger or the shower wall, you are getting a treatment rather than a solution. Frequently the real repair belongs to a roofer or a carpenter, and the exterminator is the cheaper half of the job.</p>
           <p>One last note on who is telling you this, because it should shape how you weigh it. BuzzSkito is a mosquito and tick control company &mdash; that is the work we are licensed and equipped for, and we do not treat ants. This guide is independent research rather than an account of our own service calls, which is exactly why it keeps pointing you toward a licensed structural operator instead of toward us. If you take one thing away from the page, make it the deck ledger: a trail running along the board where a deck meets the house is worth acting on, because somebody should be looking behind that board before the wood behind it goes any further.</p>
+
+          <h2>Carpenter Ants in the United States: What Is Different</h2>
+          <p>To get rid of carpenter ants in the United States, find the nest and treat it directly, or set a slow-acting bait labeled for carpenter ants along the trail, as its label directs, so the foragers carry it home, then repair the damp wood that drew them in. Killing the ants you can see will not do it, because <a href="https://ipm.ucanr.edu/PMG/PESTNOTES/pn7416.html" target="_blank" rel="noopener noreferrer">the University of California&rsquo;s carpenter ant Pest Notes</a> put only about 10% of the ants out foraging at any one time. That method is the same on both sides of the border. What changes is the species on your wall, the month the swarmers fly, the number to look for on the label, and which products are reserved for licensed applicators.</p>
+
+          <h3>Which Carpenter Ant Is It? Species by US Region</h3>
+          <p>Extension services name a different carpenter ant for each part of the country: the black carpenter ant in the Northeast, the western black carpenter ant and a red-and-black relative in the West, and the Florida carpenter ant in Florida and some neighboring states.</p>
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-gray-200">
+            <table className="w-full text-sm min-w-[600px]">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Region</th>
+                  <th className="px-3 py-2 text-left">Species</th>
+                  <th className="px-3 py-2 text-left">How extension sources describe it</th>
+                  <th className="px-3 py-2 text-left">Worker length</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Northeast', 'Black carpenter ant', 'Camponotus pennsylvanicus', 'Dark, shiny brown to black; a common invader of homes in the northeastern US, and also found in Florida’s panhandle', '1/4 to 1/2 inch'],
+                  ['Western states', 'Western black carpenter ant', 'Camponotus modoc', 'Uniformly black with dark red legs; with the usually red-and-black Camponotus vicinus, one of the two most destructive species in the Western US', '1/4 to 1/2 inch'],
+                  ['Florida and some neighboring states', 'Florida carpenter ant', 'Camponotus floridanus', 'Ash brown to rusty-orange head and thorax with a black rear section; nests in existing voids and soft material, not in sound wood', '0.2 to 0.4 inch'],
+                ].map(([region, species, latin, notes, size]) => (
+                  <tr key={species} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{region}</td>
+                    <td className="px-3 py-2 text-gray-700">{species}<br /><em>{latin}</em></td>
+                    <td className="px-3 py-2 text-gray-700">{notes}</td>
+                    <td className="px-3 py-2 text-gray-700 whitespace-nowrap">{size}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>The eastern row comes from <a href="https://extension.psu.edu/carpenter-ants" target="_blank" rel="noopener noreferrer">Penn State Extension&rsquo;s carpenter ant fact sheet</a>, the western row from UC IPM, and the Florida row from <a href="https://ask.ifas.ufl.edu/publication/IN455" target="_blank" rel="noopener noreferrer">the University of Florida&rsquo;s Florida carpenter ant profile</a>. Florida is where the stakes change. UF/IFAS reports that Florida carpenter ants will not excavate nesting galleries in sound wood: they move into existing voids, or dig only soft material such as rotten or pithy wood and Styrofoam. The same publication contrasts them with the wood-damaging black carpenter ant, which it places in Florida&rsquo;s panhandle, so the species still matters there. A second Florida species, the Tortugas carpenter ant, is limited to the central and southern parts of the state.</p>
+
+          <h3>When Do Carpenter Ants Swarm in the US?</h3>
+          <p>Carpenter ant swarmers fly in spring to early summer in the East and the West alike, and across a much longer rainy season in Florida. <a href="https://entomology.mgcafe.uky.edu/ef603" target="_blank" rel="noopener noreferrer">The University of Kentucky&rsquo;s carpenter ant fact sheet</a> places mating in late May to early June. <a href="https://pestsense.cahnrs.wsu.edu/fact-sheet/carpenter-ants/" target="_blank" rel="noopener noreferrer">Washington State University&rsquo;s carpenter ant fact sheet</a> gives April to early June for mating swarms. UC IPM says only that the flights happen in spring and that the timing varies by species, adding that the western black carpenter ant swarms in the late afternoon, often after a heavy rain. In Florida, UF/IFAS describes winged ants flying in the evening or at night during the rainy season, May through November, with complaints numerous in the spring swarm season, usually between April and June, when winged ants are often found in homes.</p>
+          <p>The indoor rule on this page holds in the US too. Penn State says numerous winged ants at windows inside a house probably came from an indoor nest, and the Kentucky fact sheet calls large numbers of winged adults indoors a good indicator that the nest is inside the home. Penn State also supports the winter rule for cold-winter states: the ants are inactive in winter but stay active when a nest sits in a heated part of a building. A swarm is a sign of age as well. Penn State puts a colony at several years old, with about 2,000 to 3,000 workers, before it usually produces winged males and queens.</p>
+
+          <h3>What US Homeowners Can Buy, and What the Label Decides</h3>
+          <p>US homeowners can buy slow-acting ant baits, borate and desiccant dusts, and pyrethroid sprays, and the number to look for on the label is an EPA registration number where a Canadian product carries a PCP number. <a href="https://npic.orst.edu/health/readlabel.html" target="_blank" rel="noopener noreferrer">The National Pesticide Information Center&rsquo;s label guide</a> describes that number as the unique product number and says using a pesticide in any manner not listed on its label is against the law. <a href="https://www.epa.gov/safepestcontrol/pesticides-must-be-registered-epa" target="_blank" rel="noopener noreferrer">The EPA</a> requires pesticides to be registered unless they meet its minimum-risk criteria. For carpenter ants the practical step is to confirm before buying that the label names carpenter ants and the place you plan to treat.</p>
+          <ul>
+            <li><strong>Baits.</strong> The Kentucky and California sources both say a bait should be slow-acting, so the ants carry it back and share it with the colony. UC IPM calls carpenter ants finicky and suggests first offering a plain food such as sugar milk or diced crickets or mealworms, then swapping in several different baits labeled for ant control and letting the ants pick. Penn State is blunter: the ants frequently ignore baits. Boric acid is sold as bait among other forms. <a href="https://npic.orst.edu/factsheets/boricgen.html" target="_blank" rel="noopener noreferrer">NPIC&rsquo;s boric acid fact sheet</a> counts over five hundred boric acid products sold in the United States, rates boric acid low in toxicity if eaten or on skin, and still reports nausea, vomiting, stomach aches and diarrhea in people who have eaten it. It says children may be especially sensitive to pesticides compared with adults, though it is not clear whether they are more sensitive to boric acid specifically, and it advises following the label and taking steps to minimize exposure.</li>
+            <li><strong>Dusts for a located nest.</strong> UC IPM lists dusts containing disodium octaborate tetrahydrate or desiccants, Kentucky lists borate and desiccant dusts, and Penn State lists diatomaceous earth, silica aerogel and boric acid dusts blown into nests and cavities. UC IPM, which is written for California, adds that diatomaceous earth is readily available in retail stores, that only a licensed applicator can apply silica gel, and that desiccant dusts are low in toxicity to people but can cause serious lung irritation if inhaled.</li>
+            <li><strong>Sprays applied into the nest.</strong> UC IPM names pyrethroid sprays such as permethrin or cyfluthrin for direct application into a colony once you have located it, and notes that reaching it may mean drilling holes for access, a step the Kentucky fact sheet suggests leaving to professionals.</li>
+          </ul>
+          <p>Washington State University gives three examples of carpenter ant products that are legal in that state: Bonide Termite and Carpenter Ant Killer, Combat Source Kill Max and Ortho Bug B Gon Insect Killer, with permethrin, fipronil, and bifenthrin plus zeta-cypermethrin as their active ingredients. It tells readers to read and follow all label directions. Fipronil perimeter sprays are a different matter. UC IPM calls them very effective against carpenter ants and says only a licensed applicator can apply them, and the Kentucky fact sheet says the same of fipronil sprays.</p>
+
+          <h3>When US Extension Services Say to Call a Professional</h3>
+          <p>US extension services point homeowners to a professional when the nest is hard to identify, when reaching it means drilling into wood, when control is needed outdoors, and when a satellite colony is inside the structure. Kentucky&rsquo;s fact sheet recommends professional help because the interior of a carpenter ant nest is hard to identify, suggests leaving any drilling to professionals, and says pest management professionals should be contacted if outdoor control is necessary. Penn State considers it unlikely that a satellite colony can be eliminated without materials applied by professional pest management companies. Washington State puts it in one line: carpenter ants are a structural pest, so you may need to contact a pest management professional.</p>
+          <p>UF/IFAS lays out the sequence for Florida. Find the nest by watching where foragers enter a void, then treat it directly, since a small amount of insecticidal dust or spray applied to the nest area is usually successful. Where that is not possible, it points to one of the baits made for carpenter ants, used as the label directs. The indoor nest sites it lists include wall voids, under attic insulation, under bathtubs, and under window and door frames with moisture intrusion.</p>
+
+          <h3>US Measurements for the Numbers on This Page</h3>
+          <p>The metric figures used earlier on this page convert to US units as follows, with the matching US extension figure where one exists.</p>
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-gray-200">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Figure</th>
+                  <th className="px-3 py-2 text-left">Metric, as written above</th>
+                  <th className="px-3 py-2 text-left">US units</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Carpenter ant workers in one colony', 'About 6 mm to over 1 cm', 'About 1/4 inch to over 3/8 inch (Penn State and UC IPM give 1/4 to 1/2 inch)'],
+                  ['Pavement ant worker', 'About 3 mm', 'About 1/8 inch'],
+                  ['Example distance from a wall nest to a parent colony in a stump', '40 meters', 'About 130 feet'],
+                  ['Clearance between branches and the roof or siding', 'A couple of meters', 'About 6 to 7 feet'],
+                ].map(([figure, metric, us]) => (
+                  <tr key={figure} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{figure}</td>
+                    <td className="px-3 py-2 text-gray-700">{metric}</td>
+                    <td className="px-3 py-2 text-gray-700">{us}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Penn State adds four US benchmarks worth keeping beside those. Carpenter ants usually will not infest wood that is sound and has a moisture content below 15 percent, which gives a moisture reading something to be judged against. Stumps, logs and waste wood should be removed within 100 yards of the building, or 300 feet. It times the flashlight inspection of the basement, attic, garage and exterior for May through July, between 10:00 p.m. and 2:00 a.m. And it puts winged ants at up to 3/4 inch long. In Florida, UF/IFAS puts peak foraging from just before sunset until two hours after sunset, and again around dawn.</p>
+
+          <h2>Where to Go Next: Look-Alikes, Swarmers, Baits and Bites</h2>
+          <p>Start with identification if any doubt remains, because the right next page depends on which ant you have. <Link href="/learn/ants">Our complete ant reference for North American homes</Link> explains how colonies work and how the common household species differ. A big dark ant is not automatically a carpenter ant, and <Link href="/blog/black-ants">the guide to black ants in and around the house</Link> separates the large ones that matter for the structure from little black ants, pavement ants and odorous house ants. If yours are very small, work through <Link href="/blog/tiny-ants">the identification key for tiny ants</Link>, and if the trail runs to something sweet on the counter, <Link href="/blog/sugar-ants">what Americans mean by sugar ants</Link> is the likelier match. A reddish ant that stings is not the Florida carpenter ant, which UF/IFAS says has no sting, and <Link href="/blog/red-ants">the red ants guide</Link> sorts fire ants from their look-alikes.</p>
+          <p>Winged ants on a windowsill raise two questions: why now, and are they termites? <Link href="/blog/flying-ants">Our flying ants guide</Link> covers mating flights and has a section on what a swarm inside the house means, and <Link href="/blog/flying-ants-vs-termites">flying ants versus termites, side by side</Link> lays out the antennae, waist and wing differences in one table.</p>
+          <p>For treatment beyond the nest hunt described here, <Link href="/blog/how-to-get-rid-of-ants-in-the-house">how to get rid of ants in the house</Link> walks through following a trail to its entry point and matching the bait to the ant, and <Link href="/blog/how-to-get-rid-of-ants-in-the-kitchen">the kitchen ant guide</Link> covers bait placement that keeps products away from food-prep surfaces. Borate baits get a page of their own: <Link href="/blog/borax-for-ants">borax and boric acid for ants</Link> explains why a low concentration matters and what NPIC says about children and pets. When a bait sits untouched, <Link href="/blog/what-do-ants-eat">what ants eat and how a colony&rsquo;s needs shift through the season</Link> explains the likely reason. And before reaching for a pantry remedy, read <Link href="/blog/does-vinegar-kill-ants">whether vinegar kills ants</Link>, which covers what it does to a trail and why it does not reach the colony.</p>
+          <p>Two smaller questions tend to follow. <Link href="/blog/do-carpenter-ants-bite">Whether carpenter ants bite</Link> has its own page, including what the formic acid feels like, and <Link href="/blog/do-ants-bite">which US ants bite, which sting and which do both</Link> covers the species that deserve more caution. For the biology behind a colony that keeps coming back, see <Link href="/blog/how-long-do-ants-live">how long workers, queens and colonies live</Link>. And for the strangest thing that happens to carpenter ants, <Link href="/blog/zombie-ants">the zombie ant fungus guide</Link> explains how a fungus takes over their behavior and why it cannot infect people.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

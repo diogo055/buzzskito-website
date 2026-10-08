@@ -30,7 +30,8 @@ const canonical = (html) => (html.match(/<link rel="canonical" href="([^"]+)"/) 
 const h1 = (html) => ((html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || '').replace(/<[^>]+>/g, '').trim()
 const ldTypes = (html) => { const out = []; for (const m of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) { try { const j = JSON.parse(m[1]); for (const o of Array.isArray(j) ? j : [j]) out.push([].concat(o['@type'] || []).join('+')) } catch { out.push('UNPARSEABLE') } } return out.sort() }
 const hrefs = (html) => Array.from(html.matchAll(/<a\b[^>]*\bhref="([^"#?]+)[^"]*"/g)).map((m) => m[1])
-const amazon = (html) => Array.from(html.matchAll(/href="(https?:\/\/(?:www\.)?amazon\.[^"]+)"/g)).map((m) => m[1].replace(/&amp;/g, '&')).sort()
+// anchors only: the layout carries a sitewide <link rel="preconnect" href="https://www.amazon.ca">, which is not a link
+const amazon = (html) => Array.from(html.matchAll(/<a\b[^>]*\bhref="(https?:\/\/(?:www\.)?(?:amazon\.|amzn\.)[^"]+)"/g)).map((m) => m[1].replace(/&amp;/g, '&')).sort()
 
 // ── all built pages and who links to whom ───────────────────────────────────────
 const built = {}
@@ -65,7 +66,7 @@ for (const p of plan.pages) {
   for (const need of ['FAQPage', 'BreadcrumbList', 'BlogPosting']) if (!types.includes(need)) bad(`${p.path}: missing ${need} structured data`)
   if (types.includes('UNPARSEABLE')) bad(`${p.path}: a structured data block does not parse`)
   if (p.flags.includes('howto') && !types.includes('HowTo')) bad(`${p.path}: planned as a how-to but has no HowTo structured data`)
-  if (amazon(html).length || /href="https?:\/\/[^"]*(amzn\.|walmart\.|homedepot\.|lowes\.|chewy\.|ebay\.)/.test(html)) bad(`${p.path}: contains a retailer link`)
+  if (amazon(html).length || /<a\b[^>]*\bhref="https?:\/\/[^"]*(walmart\.|homedepot\.|lowes\.|chewy\.|ebay\.|target\.com)/.test(html)) bad(`${p.path}: contains a retailer link`)
   if (!h1(html)) bad(`${p.path}: no H1`)
   const w = wc(html)
   if (w < p.minWords) bad(`${p.path}: only ${w} words rendered (needs ${p.minWords})`)
@@ -123,5 +124,5 @@ console.log(`new pages: ${ok}/${plan.pages.length} pass every check | edited exi
 const lo = Object.entries(inNew).sort((a, b) => a[1] - b[1]).slice(0, 5).map(([p, n]) => `${p} ${n}`)
 console.log(`fewest inbound links from new pages: ${lo.join(', ')}`)
 for (const n of notes.filter((x) => x.includes('title changed'))) console.log(`  note  ${n}`)
-if (problems.length) { console.log(`✗ ${problems.length} problem(s)`); for (const p of problems.slice(0, 60)) console.log(`   - ${p}`); if (problems.length > 60) console.log(`   … and ${problems.length - 60} more`); process.exit(1) }
+if (problems.length) { console.log(`✗ ${problems.length} problem(s)`); for (const p of problems.slice(0, 400)) console.log(`   - ${p}`); if (problems.length > 400) console.log(`   … and ${problems.length - 400} more`); process.exit(1) }
 console.log('✓ built output verified')

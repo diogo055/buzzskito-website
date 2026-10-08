@@ -1,0 +1,908 @@
+{
+ "generated": "2026-10-08",
+ "summary": {
+  "keywords": 100,
+  "newPagesBuilt": 12,
+  "hubPages": 2,
+  "guides": 10,
+  "broadened": 9,
+  "mergedIntoExistingPages": 9,
+  "mergedIntoNewPages": 5,
+  "notBuilt": 64,
+  "internalLinksInNewPages": 148
+ },
+ "pages": [
+  {
+   "rank": null,
+   "keyword": "bed bugs",
+   "us_volume": null,
+   "url": "/learn/bed-bugs",
+   "action": "new",
+   "kind": "pillar",
+   "cluster": "bed-bugs",
+   "title": "Bed Bugs: Identification, Signs and Treatment",
+   "wordCount": 5409,
+   "faqs": 8,
+   "sources": 8,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 18,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "cockroaches",
+   "us_volume": null,
+   "url": "/learn/cockroaches",
+   "action": "new",
+   "kind": "pillar",
+   "cluster": "cockroaches",
+   "title": "Cockroaches: Species, Health Risks and Control",
+   "wordCount": 5042,
+   "faqs": 8,
+   "sources": 8,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 17,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ants",
+   "url": "/learn/ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 1,
+   "keyword": "how to get rid of mice",
+   "us_volume": 93000,
+   "url": "/blog/how-to-get-rid-of-mice-canada",
+   "action": "broadened",
+   "status": "pending"
+  },
+  {
+   "rank": 2,
+   "keyword": "how to get rid of bed bugs",
+   "us_volume": 49000,
+   "url": "/blog/how-to-get-rid-of-bed-bugs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "bed-bugs",
+   "title": "How to Get Rid of Bed Bugs: The EPA 6-Step Plan",
+   "wordCount": 3629,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 13,
+   "status": "built"
+  },
+  {
+   "rank": 3,
+   "keyword": "what do bed bugs look like",
+   "us_volume": 68000,
+   "url": "/blog/what-do-bed-bugs-look-like",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "bed-bugs",
+   "title": "What Do Bed Bugs Look Like? Size, Color, Stages",
+   "wordCount": 2400,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": 4,
+   "keyword": "how to get rid of ants",
+   "us_volume": 112000,
+   "url": "/blog/how-to-get-rid-of-ants-canada",
+   "action": "broadened",
+   "status": "pending"
+  },
+  {
+   "rank": 5,
+   "keyword": "mosquitoes",
+   "us_volume": 29000,
+   "url": "/blog/mosquito-facts",
+   "action": "merged",
+   "mergedInto": "/blog/mosquito-facts",
+   "reason": "The existing mosquito facts page is the site's general page about mosquitoes, and the brief rules out a new mosquito pillar.",
+   "status": "existing page"
+  },
+  {
+   "rank": 6,
+   "keyword": "commercial pest control",
+   "us_volume": 16000,
+   "url": "/blog/commercial-pest-control",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "pest-control",
+   "title": "Commercial Pest Control: What the Rules Require",
+   "wordCount": 3841,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 0,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": 7,
+   "keyword": "sugar ants",
+   "us_volume": 18000,
+   "url": "/blog/sugar-ants",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Sugar Ants: Types and How to Get Rid of Them",
+   "wordCount": 3068,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 0,
+   "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": 8,
+   "keyword": "mice exterminator",
+   "us_volume": 8800,
+   "url": "/blog/mice-exterminator",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Mice Exterminator: Cost, Process, License Check",
+   "wordCount": 3126,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 14,
+   "status": "built"
+  },
+  {
+   "rank": 9,
+   "keyword": "how to get rid of cockroaches",
+   "us_volume": 18000,
+   "url": "/blog/how-to-get-rid-of-cockroaches-canada",
+   "action": "broadened",
+   "status": "pending"
+  },
+  {
+   "rank": 10,
+   "keyword": "seed ticks",
+   "us_volume": 14000,
+   "url": "/blog/seed-ticks",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Seed Ticks (Baby Ticks): Remove Dozens at Once",
+   "wordCount": 2731,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 0,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": 11,
+   "keyword": "deer mice",
+   "url": "/blog/deer-mice",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 12,
+   "keyword": "flying ants",
+   "url": "/blog/flying-ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 13,
+   "keyword": "do cockroaches bite",
+   "url": "/blog/do-cockroaches-bite",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 14,
+   "keyword": "mice control",
+   "url": "/learn/mice",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 15,
+   "keyword": "borax for ants",
+   "url": "/blog/borax-for-ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 16,
+   "keyword": "what do ants eat",
+   "url": "/blog/what-do-ants-eat",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 17,
+   "keyword": "how to get rid of sugar ants",
+   "us_volume": 7400,
+   "url": "/blog/sugar-ants",
+   "action": "merged",
+   "mergedInto": "/blog/sugar-ants",
+   "reason": "Same search intent as the page’s primary keyword; one page answers both.",
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Sugar Ants: Types and How to Get Rid of Them",
+   "wordCount": 3068,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 0,
+   "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": 18,
+   "keyword": "how to get rid of mosquitoes",
+   "url": "/blog/how-to-get-rid-of-mosquitoes",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 19,
+   "keyword": "what do bed bugs bites look like",
+   "us_volume": 9400,
+   "url": "/blog/bed-bug-bites",
+   "action": "merged",
+   "mergedInto": "/blog/bed-bug-bites",
+   "reason": "An existing page already answers what bed bug bites look like.",
+   "status": "existing page"
+  },
+  {
+   "rank": 20,
+   "keyword": "german cockroaches",
+   "us_volume": 9300,
+   "url": "/blog/german-cockroaches",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "German Cockroaches: Two Stripes, Bait Not Spray",
+   "wordCount": 2944,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": 21,
+   "keyword": "baby bed bugs",
+   "us_volume": 9100,
+   "url": "/blog/baby-bed-bugs-nymphs",
+   "action": "merged",
+   "mergedInto": "/blog/baby-bed-bugs-nymphs",
+   "reason": "An existing page already answers what baby bed bugs look like, on a neutral address.",
+   "status": "existing page"
+  },
+  {
+   "rank": 22,
+   "keyword": "steel wool for mice",
+   "url": "/blog/steel-wool-for-mice",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 23,
+   "keyword": "how to get rid of carpenter ants",
+   "us_volume": 11000,
+   "url": "/blog/carpenter-ants-canada",
+   "action": "broadened",
+   "status": "pending"
+  },
+  {
+   "rank": 24,
+   "keyword": "plants that repel mosquitoes",
+   "us_volume": 10000,
+   "url": "/blog/mosquito-repellent-plants-ontario",
+   "action": "broadened",
+   "status": "pending"
+  },
+  {
+   "rank": 25,
+   "keyword": "what do mice eat",
+   "url": "/blog/what-do-mice-eat",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 26,
+   "keyword": "what kills bed bugs instantly",
+   "us_volume": 9500,
+   "url": "/blog/what-kills-bed-bugs-instantly-canada",
+   "action": "broadened",
+   "status": "pending"
+  },
+  {
+   "rank": 28,
+   "keyword": "how long do ants live",
+   "url": "/blog/how-long-do-ants-live",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 29,
+   "keyword": "how to keep mosquitoes away",
+   "url": "/blog/how-to-keep-mosquitoes-away",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 30,
+   "keyword": "peppermint oil for mice",
+   "url": "/blog/peppermint-oil-for-mice",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 31,
+   "keyword": "ghost ants",
+   "url": "/blog/ghost-ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 32,
+   "keyword": "what kills ticks on dogs instantly",
+   "url": "/blog/what-kills-ticks-on-dogs-instantly",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 33,
+   "keyword": "black ants",
+   "url": "/blog/black-ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 34,
+   "keyword": "how long do mice live",
+   "url": "/blog/how-long-do-mice-live",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 35,
+   "keyword": "how to get rid of bed bugs fast",
+   "us_volume": 4500,
+   "url": "/blog/how-to-get-rid-of-bed-bugs",
+   "action": "merged",
+   "mergedInto": "/blog/how-to-get-rid-of-bed-bugs",
+   "reason": "Same search intent as the page’s primary keyword; one page answers both.",
+   "kind": "spoke",
+   "cluster": "bed-bugs",
+   "title": "How to Get Rid of Bed Bugs: The EPA 6-Step Plan",
+   "wordCount": 3629,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 13,
+   "status": "built"
+  },
+  {
+   "rank": 36,
+   "keyword": "bugs that look like cockroaches",
+   "url": "/blog/bugs-that-look-like-cockroaches",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 37,
+   "keyword": "how many ants are in the world",
+   "url": "/blog/how-many-ants-are-in-the-world",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 38,
+   "keyword": "what do ticks look like",
+   "url": "/blog/what-do-ticks-look-like",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 39,
+   "keyword": "bugs that look like bed bugs",
+   "url": "/blog/bugs-that-look-like-bed-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 40,
+   "keyword": "vamoose for mice",
+   "us_volume": 3600,
+   "url": "/blog/vamoose-for-mice",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Vamoose for Mice: What's in It, Does It Work?",
+   "wordCount": 2888,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 0,
+   "outboundInternalLinks": 13,
+   "status": "built"
+  },
+  {
+   "rank": 41,
+   "keyword": "mice pest control",
+   "us_volume": 3500,
+   "url": "/blog/mice-exterminator",
+   "action": "merged",
+   "mergedInto": "/blog/mice-exterminator",
+   "reason": "Same search intent as the page’s primary keyword; one page answers both.",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Mice Exterminator: Cost, Process, License Check",
+   "wordCount": 3126,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 14,
+   "status": "built"
+  },
+  {
+   "rank": 42,
+   "keyword": "mice removal",
+   "url": "/blog/mice-removal",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 43,
+   "keyword": "exterminator for mice",
+   "us_volume": 3400,
+   "url": "/blog/mice-exterminator",
+   "action": "merged",
+   "mergedInto": "/blog/mice-exterminator",
+   "reason": "Same search intent as the page’s primary keyword; one page answers both.",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Mice Exterminator: Cost, Process, License Check",
+   "wordCount": 3126,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 14,
+   "status": "built"
+  },
+  {
+   "rank": 44,
+   "keyword": "mice poison",
+   "url": "/blog/mice-poison",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 46,
+   "keyword": "flying ants vs termites",
+   "url": "/blog/flying-ants-vs-termites",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 47,
+   "keyword": "how to get rid of ants in the house",
+   "url": "/blog/how-to-get-rid-of-ants-in-the-house",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 48,
+   "keyword": "lawn pest control",
+   "url": "/blog/lawn-pest-control",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 49,
+   "keyword": "mice traps",
+   "url": "/blog/mice-traps",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 50,
+   "keyword": "army ants",
+   "url": "/blog/army-ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 51,
+   "keyword": "honeypot ants",
+   "url": "/blog/honeypot-ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 52,
+   "keyword": "natural pest control",
+   "url": "/blog/natural-pest-control",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 53,
+   "keyword": "mice repellent",
+   "url": "/blog/mice-repellent",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 54,
+   "keyword": "mice droppings",
+   "us_volume": 4500,
+   "url": "/blog/what-does-mouse-poop-look-like-canada",
+   "action": "broadened",
+   "status": "pending"
+  },
+  {
+   "rank": 55,
+   "keyword": "can mice climb walls",
+   "url": "/blog/can-mice-climb-walls",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 56,
+   "keyword": "can cockroaches fly",
+   "url": "/blog/can-cockroaches-fly",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 57,
+   "keyword": "bed bugs spray",
+   "us_volume": 2600,
+   "url": "/blog/bed-bug-spray-canada",
+   "action": "broadened",
+   "status": "pending"
+  },
+  {
+   "rank": 58,
+   "keyword": "are mice nocturnal",
+   "url": "/blog/are-mice-nocturnal",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 59,
+   "keyword": "do mosquitoes bite dogs",
+   "us_volume": 4000,
+   "url": "/blog/do-mosquitoes-bite-dogs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mosquitoes",
+   "title": "Do Mosquitoes Bite Dogs? Yes, and Why It Matters",
+   "wordCount": 2685,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 0,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": 60,
+   "keyword": "bugs that look like ticks",
+   "us_volume": 3900,
+   "url": "/blog/bugs-that-look-like-ticks",
+   "action": "merged",
+   "mergedInto": "/blog/bugs-that-look-like-ticks",
+   "reason": "An existing page already answers this exact search on the same address a new page would use.",
+   "status": "existing page"
+  },
+  {
+   "rank": 61,
+   "keyword": "zombie ants",
+   "url": "/blog/zombie-ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 62,
+   "keyword": "field mice",
+   "url": "/blog/field-mice",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 63,
+   "keyword": "ticks in michigan",
+   "url": "/blog/ticks-in-michigan",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 64,
+   "keyword": "do carpenter ants bite",
+   "url": "/blog/do-carpenter-ants-bite",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 66,
+   "keyword": "tiny ants",
+   "url": "/blog/tiny-ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 67,
+   "keyword": "do moth balls keep mice away",
+   "url": "/blog/do-mothballs-keep-mice-away",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 68,
+   "keyword": "types of mice",
+   "url": "/blog/types-of-mice",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 69,
+   "keyword": "best way to get rid of mice",
+   "us_volume": 4500,
+   "url": "/blog/how-to-get-rid-of-mice-canada",
+   "action": "merged",
+   "mergedInto": "/blog/how-to-get-rid-of-mice-canada",
+   "reason": "Same search intent as 'how to get rid of mice', which the brief maps to this page.",
+   "status": "existing page"
+  },
+  {
+   "rank": 70,
+   "keyword": "how to get rid of ants in kitchen",
+   "url": "/blog/how-to-get-rid-of-ants-in-the-kitchen",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 71,
+   "keyword": "are mosquitoes attracted to light",
+   "url": "/blog/are-mosquitoes-attracted-to-light",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 72,
+   "keyword": "diy pest control",
+   "url": "/blog/diy-pest-control",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 73,
+   "keyword": "ticks on dogs",
+   "url": "/blog/ticks-on-dogs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 74,
+   "keyword": "what smells do mice hate",
+   "url": "/blog/what-smells-do-mice-hate",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 75,
+   "keyword": "how much is pest control",
+   "url": "/blog/how-much-is-pest-control",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 76,
+   "keyword": "do ants bite",
+   "url": "/blog/do-ants-bite",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 77,
+   "keyword": "where do bed bugs hide",
+   "us_volume": 3200,
+   "url": "/blog/where-do-bed-bugs-hide",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "bed-bugs",
+   "title": "Where Do Bed Bugs Hide? Mattress Seams First",
+   "wordCount": 2419,
+   "faqs": 6,
+   "sources": 3,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": 78,
+   "keyword": "black bed bugs",
+   "url": "/blog/black-bed-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 79,
+   "keyword": "baby ticks",
+   "us_volume": 3100,
+   "url": "/blog/seed-ticks",
+   "action": "merged",
+   "mergedInto": "/blog/seed-ticks",
+   "reason": "Same search intent as the page’s primary keyword; one page answers both.",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Seed Ticks (Baby Ticks): Remove Dozens at Once",
+   "wordCount": 2731,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 0,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": 80,
+   "keyword": "red ants",
+   "url": "/blog/red-ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 81,
+   "keyword": "does vinegar kill ants",
+   "url": "/blog/does-vinegar-kill-ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 82,
+   "keyword": "alaska mosquitoes",
+   "url": "/blog/alaska-mosquitoes",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 83,
+   "keyword": "what kills ticks",
+   "url": "/blog/what-kills-ticks",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 84,
+   "keyword": "how to get rid of mice humanely",
+   "url": "/blog/how-to-get-rid-of-mice-humanely",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 85,
+   "keyword": "where do mosquitoes go in the winter",
+   "us_volume": 2800,
+   "url": "/blog/where-do-mosquitoes-go-in-winter-ontario",
+   "action": "broadened",
+   "status": "pending"
+  },
+  {
+   "rank": 86,
+   "keyword": "bullet ants",
+   "url": "/blog/bullet-ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 87,
+   "keyword": "do ticks fly",
+   "us_volume": 4900,
+   "url": "/blog/do-ticks-fly-or-jump",
+   "action": "merged",
+   "mergedInto": "/blog/do-ticks-fly-or-jump",
+   "reason": "An existing page already answers whether ticks fly.",
+   "status": "existing page"
+  },
+  {
+   "rank": 88,
+   "keyword": "types of ticks",
+   "us_volume": 24000,
+   "url": "/blog/types-of-ticks-identification",
+   "action": "merged",
+   "mergedInto": "/blog/types-of-ticks-identification",
+   "reason": "An existing page already answers types of ticks.",
+   "status": "existing page"
+  },
+  {
+   "rank": 90,
+   "keyword": "baby mice",
+   "url": "/blog/baby-mice",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 91,
+   "keyword": "does lysol kill bed bugs",
+   "url": "/blog/does-lysol-kill-bed-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 92,
+   "keyword": "can mosquitoes bite through clothes",
+   "us_volume": 2600,
+   "url": "/blog/can-mosquitoes-bite-through-clothes",
+   "action": "merged",
+   "mergedInto": "/blog/can-mosquitoes-bite-through-clothes",
+   "reason": "An existing page already answers this exact search on the same address a new page would use.",
+   "status": "existing page"
+  },
+  {
+   "rank": 93,
+   "keyword": "water bugs vs cockroaches",
+   "url": "/blog/water-bugs-vs-cockroaches",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 94,
+   "keyword": "does alcohol kill bed bugs",
+   "url": "/blog/does-alcohol-kill-bed-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 95,
+   "keyword": "ticks that carry lyme disease picture",
+   "url": "/blog/ticks-that-carry-lyme-disease",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 96,
+   "keyword": "how to get rid of mosquitoes in the house",
+   "us_volume": 5200,
+   "url": "/blog/how-to-get-rid-of-mosquitoes-in-the-house",
+   "action": "merged",
+   "mergedInto": "/blog/how-to-get-rid-of-mosquitoes-in-the-house",
+   "reason": "An existing page already answers this exact search on the same address a new page would use.",
+   "status": "existing page"
+  },
+  {
+   "rank": 97,
+   "keyword": "do chickens eat ticks",
+   "url": "/blog/do-chickens-eat-ticks",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 98,
+   "keyword": "what do baby cockroaches look like",
+   "url": "/blog/what-do-baby-cockroaches-look-like",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 99,
+   "keyword": "bed bugs on mattress",
+   "url": "/blog/bed-bugs-on-mattress",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": 100,
+   "keyword": "where do cockroaches come from",
+   "url": "/blog/where-do-cockroaches-come-from",
+   "action": "new",
+   "status": "not built"
+  }
+ ]
+}

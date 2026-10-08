@@ -120,6 +120,18 @@ const FAQS = [
     question: 'Does BuzzSkito handle rodent problems?',
     answer: 'No. BuzzSkito is a licensed mosquito and tick control company serving the GTA, and this guide is independent research published by our writing team rather than a service page. For rodents you want a licensed structural pest control operator, and specifically one who does exclusion work — sealing the building — rather than one who only places bait, because bait alone leaves the entry points that produced the problem. We publish this material because identification and safe cleanup are where homeowners most often get bad advice, and because the correct first move here is genuinely free.',
   },
+  {
+    question: 'Can you tell deer mouse droppings from house mouse droppings?',
+    answer: 'Not reliably. The University of California’s deer mouse guide says the nests, droppings and other signs deer mice leave are similar to those of house mice, so the pellet alone will not tell you the species. Go by the animal and the setting instead: a deer mouse has a two-colored tail with white undersides and feet, and it is uncommon in urban areas unless parks or fields are nearby. The CDC says the deer mouse spreads the most common hantavirus behind HPS in the United States.',
+  },
+  {
+    question: 'What do green or red mouse droppings mean?',
+    answer: 'Green or red droppings may mean the mouse has been feeding on rodenticide bait, according to Cornell University’s Integrated Pest Management program, which notes that rodent droppings are typically black but differ with the food that was eaten. If you did not put bait down yourself, a neighbor, landlord or previous owner may have. Keep children and pets away from the area and clean the droppings with the same wet method. Bait in use nearby does not mean the mice are gone.',
+  },
+  {
+    question: 'How do I clean mouse droppings out of a car or truck?',
+    answer: 'The CDC says to open the hood, the doors and the trunk and let the interior and the engine compartment air out for 20 minutes first. Then, wearing plastic gloves and a long-sleeved shirt, look for droppings, nesting material and dead rodents, spray them with a disinfectant until fully soaked, let it sit for 5 minutes or as the label directs, and pick the material up with paper towels. Do not use a vacuum or a high-pressure sprayer on droppings or contaminated surfaces until they have been disinfected. The CDC also says to remove the cables from the battery before inspecting the engine compartment.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -613,6 +625,105 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
           <p>A scatter of droppings under a kitchen sink is a homeowner job, and a competent afternoon of trapping and sealing usually ends it. Four situations are genuinely cheaper handed over: <strong>contaminated attic or wall insulation</strong>, which needs removal and replacement rather than cleaning; <strong>a crawl space</strong> you cannot work in safely or ventilate properly; <strong>droppings inside HVAC ductwork</strong>, where the contamination is being distributed by the system itself; and <strong>any food premises</strong>, where the issue is a compliance matter and not a preference. Add a fifth if your building has shared walls, because your sealing work redirects mice rather than removing them and the fix has to be building-wide.</p>
           <p>And if the material in your attic turns out to be bat guano rather than mouse droppings &mdash; small piles under a specific spot, crumbling into glittering fragments &mdash; stop entirely. Several bat species in Ontario are protected, the young are flightless in the roost through the summer, and sealing a roost at the wrong time of year is both illegal and a worse problem than the one you started with. That is a licensed wildlife professional&rsquo;s job.</p>
           <p>For a sense of what pest work costs in Canada so you can sanity-check a quote, see our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link>. And the disclosure that shapes this page: <strong>BuzzSkito does not do rodent work</strong> &mdash; we treat mosquitoes and ticks &mdash; so nothing above is written to route you toward a service we sell.</p>
+
+          <h2>Mice Droppings in the United States: What Is Different</h2>
+          <p>Mice droppings in the United States are usually black pellets 1/8 to 1/4 inch long, with one or both ends narrowing to a point, and they usually do not collect in piles. That is the description in <a href="https://extensionpubs.unl.edu/publication/g1105/na/html/view" target="_blank" rel="noopener noreferrer">the University of Nebraska&ndash;Lincoln Extension guide to house mice</a>, and it is the same pellet described at the top of this page in millimeters. What a US reader needs on top of that is the American context: which mouse left the pellet and why that matters, how US extension services size the look-alikes in inches, and what the CDC cleanup page says in cups and gallons. The three parts below cover each of those, and a conversion table follows them.</p>
+
+          <h3>Deer Mouse Droppings and Hantavirus Risk in the US</h3>
+          <p>Deer mouse droppings cannot be reliably told apart from house mouse droppings by eye. <a href="https://ipm.ucanr.edu/PMG/PESTNOTES/pn74161.html" target="_blank" rel="noopener noreferrer">The University of California&rsquo;s deer mouse guide</a> says the nests, droppings and other signs left by deer mice are similar to those of house mice. The species still matters, because <a href="https://www.cdc.gov/hantavirus/about/index.html" target="_blank" rel="noopener noreferrer">the CDC</a> says the most common hantavirus that causes hantavirus pulmonary syndrome in the United States is spread by the deer mouse, and the University of California describes deer mice as the principal reservoir of Sin Nombre virus, which they shed in saliva, urine and droppings.</p>
+          <p>Since the pellet will not sort the species, use the animal and the setting. The same University of California guide separates the two mice by tail and coat: a deer mouse has a two-colored tail, white undersides, legs and feet, and larger eyes and ears, while a house mouse has a gray-brown coat and an almost furless tail. It also says deer mice are not common in urban and residential areas unless large or numerous parks or fields are nearby, and that they have been known to nest inside buildings. Droppings in a downtown apartment kitchen therefore point toward the house mouse. Droppings in a building next to open land deserve the more careful assumption.</p>
+          <p>Exposure is mostly about dust. The University of California guide says a person may be exposed by breathing contaminated dust after disturbing or cleaning rodent droppings or nests, or by living or working in rodent-infested settings, and the CDC adds that a bite or scratch from a rodent can also spread the virus but that this is rare. The CDC case counts and the geography of US cases are in the health section earlier on this page. The practical point here is narrower: because you cannot identify a deer mouse from its droppings, the wet cleanup method is the default for every pellet you find.</p>
+
+          <h3>Mouse, Rat, Bat or Cockroach Droppings: How US Extension Services Tell Them Apart</h3>
+          <p>Length and end shape separate mouse from rat, a crush test separates bat guano, and surface lines and flat ends separate cockroach pellets. <a href="https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior" target="_blank" rel="noopener noreferrer">Cornell University&rsquo;s Integrated Pest Management program</a> gives mouse droppings as 1/8 to 1/4 inch long, roof rat droppings as about 1/2 inch and Norway rat droppings as 3/4 to 1 inch, which runs slightly longer than the top of the rat range used earlier on this page. <a href="https://extension.arizona.edu/sites/extension.arizona.edu/files/attachment/commensalrodents.pdf" target="_blank" rel="noopener noreferrer">University of Arizona Cooperative Extension</a> describes house mouse droppings as pointed at both ends and rat droppings as 1/2 to 1 inch long and blunt at one end.</p>
+          <ul>
+            <li><strong>Rat.</strong> Anything about 1/2 inch or longer is outside the mouse range in each of these sources. Cornell&rsquo;s split by species is the useful part for a US reader, because the two rats differ by a quarter inch or more: about 1/2 inch for the roof rat and 3/4 to 1 inch for the Norway rat.</li>
+            <li><strong>Bat.</strong> <a href="https://ipm.ucanr.edu/PMG/PESTNOTES/pn74150.html" target="_blank" rel="noopener noreferrer">The University of California&rsquo;s bat guide</a> says guano crushes easily and reveals shiny bits of undigested insects, that mouse droppings lack those shiny bits, and that bat droppings are never white or chalky the way bird droppings are.</li>
+            <li><strong>Cockroach.</strong> Cornell notes that rodent droppings have no lines on them, unlike the droppings of the American cockroach. <a href="https://acis.cals.arizona.edu/docs/default-source/community-ipm-documents/newsletters/azhomeschoolipm-newsltrsep2022-v3.pdf" target="_blank" rel="noopener noreferrer">A University of Arizona pest management newsletter</a> adds that American cockroach pellets are about 1/4 inch long with flat ends, while mouse droppings of about the same length have tapered ends.</li>
+            <li><strong>Color.</strong> Cornell says rodent droppings are typically black but differ with the food that was eaten, and that green or red droppings may indicate the rodent fed on a rodenticide bait. Off-color pellets can be a clue that bait is in use somewhere nearby, or can simply reflect what the animal ate. They are not a sign of a different species.</li>
+          </ul>
+          <p>Bat guano carries a separate US health note. <a href="https://www.cdc.gov/histoplasmosis/about/index.html" target="_blank" rel="noopener noreferrer">The CDC</a> says the fungus that causes histoplasmosis lives mainly in the central and eastern states, spreads in bird and bat droppings that mix into soil, and infects people who breathe in its spores, although most people who breathe them in do not get sick. The University of California bat guide adds that infection happens when dry droppings are stirred up, and that people cleaning up bat or bird droppings should wear respirators that filter particles as small as 2 micrometers. Do the crush test on a single pellet with a stick, not bare fingers, and do not sweep a pile to find out what it is.</p>
+
+          <h3>The CDC Cleanup Method in US Measures</h3>
+          <p><a href="https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" target="_blank" rel="noopener noreferrer">The CDC cleanup method</a> is to open doors and windows for 30 minutes, spray the droppings until very wet with 1.5 cups of household bleach in 1 gallon of water or with an EPA-registered disinfectant, let it soak for 5 minutes or for the time on the disinfectant label, and wipe up with paper towels. For a 1-quart spray bottle the same proportion is 6 tablespoons of bleach to 1 quart of water, which is plain arithmetic on the CDC figure and not a separate CDC number. The CDC says to make the bleach solution fresh before use.</p>
+          <p>The same CDC page covers situations that the nine steps earlier on this page do not spell out:</p>
+          <ul>
+            <li><strong>Vehicles.</strong> Open the hood, the doors and the trunk and let the interior and the engine compartment air out for 20 minutes. Do not use a vacuum or a high-pressure sprayer on droppings or contaminated surfaces until they have been disinfected.</li>
+            <li><strong>Books and papers.</strong> Items that cannot be cleaned with a liquid disinfectant can be left outdoors in sunlight for several hours, or in a rodent-free indoor area for a minimum of three weeks, with six weeks strongly suggested.</li>
+            <li><strong>Outbuildings with dirt floors.</strong> Spray the dirt floor with disinfectant, and mop hard floors.</li>
+            <li><strong>Insulation.</strong> Exposed insulation contaminated with urine and droppings goes into plastic bags for removal.</li>
+            <li><strong>Bedding, clothing and stuffed animals.</strong> Launder with hot water and detergent, then machine dry on a high setting or hang to air dry in the sun.</li>
+            <li><strong>Heating and cooling ducts.</strong> Contact a professional rodent exterminating service when there is evidence rodents have reached the ventilation system.</li>
+            <li><strong>Heavy infestations and vacant buildings with many rodents.</strong> The CDC calls for special precautions here, listing coveralls, rubber boots or disposable shoe covers, gloves, protective goggles and respiratory protection such as a half-mask air-purifying respirator with a HEPA filter, and it directs people hired for that cleanup to their local or state health department or occupational health and safety authority.</li>
+          </ul>
+
+          <h3>US-Unit Equivalents for the Metric Numbers on This Page</h3>
+          <p>Each metric figure this page relies on converts to a common US fraction, and the last column gives what a US agency or extension service publishes for the same measurement, which in the Norway rat and cockroach rows differs a little from the figure used on this page. The table puts them side by side.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[560px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Measurement</th>
+                  <th className="px-4 py-3 text-left">Metric on this page</th>
+                  <th className="px-4 py-3 text-left">US units</th>
+                  <th className="px-4 py-3 text-left">What the US source publishes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">House mouse dropping</td>
+                  <td className="px-4 py-3 text-gray-700">3&ndash;6 mm</td>
+                  <td className="px-4 py-3 text-gray-700"><strong>1/8 to 1/4 inch</strong></td>
+                  <td className="px-4 py-3 text-gray-700">Nebraska Extension and Cornell: 1/8 to 1/4 inch</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Roof rat dropping</td>
+                  <td className="px-4 py-3 text-gray-700">About 12 mm, the low end of the rat range</td>
+                  <td className="px-4 py-3 text-gray-700"><strong>About 1/2 inch</strong></td>
+                  <td className="px-4 py-3 text-gray-700">Cornell: about 1/2 inch</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Norway rat dropping</td>
+                  <td className="px-4 py-3 text-gray-700">About 19 mm, the top of the rat range</td>
+                  <td className="px-4 py-3 text-gray-700"><strong>3/4 inch</strong></td>
+                  <td className="px-4 py-3 text-gray-700">Cornell: 3/4 to 1 inch</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Large cockroach pellet</td>
+                  <td className="px-4 py-3 text-gray-700">Up to about 8 mm</td>
+                  <td className="px-4 py-3 text-gray-700">Up to about 5/16 inch</td>
+                  <td className="px-4 py-3 text-gray-700">University of Arizona: about 1/4 inch, flat ends</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Mouse gnaw grooves</td>
+                  <td className="px-4 py-3 text-gray-700">1&ndash;2 mm</td>
+                  <td className="px-4 py-3 text-gray-700">Roughly 1/16 inch</td>
+                  <td className="px-4 py-3 text-gray-700">Cornell: 1 to 2 millimeters for a pair of grooves</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Gap a mouse can pass through</td>
+                  <td className="px-4 py-3 text-gray-700">About 6 mm</td>
+                  <td className="px-4 py-3 text-gray-700"><strong>1/4 inch</strong></td>
+                  <td className="px-4 py-3 text-gray-700">University of California: gaps 1/4 inch tall</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Bleach solution</td>
+                  <td className="px-4 py-3 text-gray-700">1 part bleach to 9 parts water</td>
+                  <td className="px-4 py-3 text-gray-700"><strong>1.5 cups per gallon</strong></td>
+                  <td className="px-4 py-3 text-gray-700">CDC: 1.5 cups of household bleach in 1 gallon of water</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>The gap figure comes from <a href="https://ipm.ucanr.edu/PMG/PESTNOTES/pn7483.html" target="_blank" rel="noopener noreferrer">the University of California&rsquo;s house mouse guide</a>, which says house mice squeeze under gaps 1/4 inch tall and through openings 3/8 inch wide, and seldom venture more than 30 feet from their nest sites and food supply. <a href="https://dph.illinois.gov/topics-services/environmental-health-protection/structural-pest-control/house-mouse-prevention-control.html" target="_blank" rel="noopener noreferrer">The Illinois Department of Public Health</a> describes the same opening as a crack a pencil will fit into and advises setting traps no more than 10 feet apart in areas where mice are active. Both figures explain why the places where you found droppings decide where the traps go.</p>
+
+          <h2>Where to Go From Droppings: Mouse Species, Habits, Sealing and Removal</h2>
+          <p>Identifying the droppings is the first step, and the rest of the job is laid out in <Link href="/learn/mice">the complete mice reference</Link>, which covers species, signs, health risks, sealing, trapping and cleanup in one place. The guides below go deeper on the questions that droppings usually raise next.</p>
+          <p>If the setting made you wonder which mouse you have, start with <Link href="/blog/types-of-mice">the types of mice US homeowners actually meet</Link>. From there, <Link href="/blog/deer-mice">the deer mouse guide</Link> covers identification and the hantavirus question in full, and <Link href="/blog/field-mice">what people mean by field mice</Link> is the one to read if the pellets were in a shed, garage or garden building.</p>
+          <p>Several mouse habits explain the evidence you are looking at. Droppings with no sightings usually come down to timing, covered in <Link href="/blog/are-mice-nocturnal">when mice are active</Link>. Pellets in an attic or on an upper floor make sense once you know <Link href="/blog/can-mice-climb-walls">how well mice climb and how small a gap they need</Link>. Droppings around pantry goods and pet food are explained by <Link href="/blog/what-do-mice-eat">what mice eat in a house</Link>, and anyone tempted to wait the problem out should read <Link href="/blog/how-long-do-mice-live">how long mice live and how fast they breed</Link>. If the cleanup turns up a nest with pups in it, <Link href="/blog/baby-mice">the guide to baby mice</Link> explains what that says about the size of the problem.</p>
+          <p>For closing the holes, <Link href="/blog/steel-wool-for-mice">steel wool as a mouse barrier</Link> covers which gaps take which material. <Link href="/blog/mice-traps">Mouse trap types compared</Link> helps you choose what to set along the runway the droppings marked, <Link href="/blog/how-to-get-rid-of-mice-humanely">humane mouse control</Link> covers the options if you want the kindest method available, and <Link href="/blog/mice-poison">the US rules on mouse poison</Link> explains why trapping usually comes before bait.</p>
+          <p>Scent products come up in almost every search about droppings. <Link href="/blog/mice-repellent">The overview of mouse repellents</Link> weighs each type against the evidence, with separate guides on <Link href="/blog/peppermint-oil-for-mice">peppermint oil for mice</Link>, <Link href="/blog/what-smells-do-mice-hate">the smells mice are said to hate</Link> and <Link href="/blog/do-mothballs-keep-mice-away">whether mothballs keep mice away</Link>. If a scent pouch is what you were about to buy, read <Link href="/blog/vamoose-for-mice">what is in Vamoose pouches and what the evidence shows</Link> first.</p>
+          <p>When the contamination is in insulation, ductwork or a crawl space, <Link href="/blog/mice-removal">mice removal and cleanup</Link> covers walls, attics and vehicles, and <Link href="/blog/mice-exterminator">hiring a mice exterminator</Link> explains what a professional does on a mouse job and what to ask before you hire one.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

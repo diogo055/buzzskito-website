@@ -1,0 +1,10 @@
+{
+ "id": "pillar-bed-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "f26759103131a25fa32fcc9fdffd4003a6d79f9b5d3e3c317f5d0c8e4b6a3e86",
+ "claimsChecked": 145,
+ "claimsCorrected": 14,
+ "claimsRemovedOrSoftened": 11,
+ "checkedOn": "2026-10-08"
+}

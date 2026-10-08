@@ -1,0 +1,10 @@
+{
+ "id": "blog/mosquito-facts",
+ "kind": "existing",
+ "verdict": "publish-after-my-fixes",
+ "sha": "eb3a01fa88356fa986158c4e9a59b714fb9b5faa547c06da2251e5fd3202641b",
+ "claimsChecked": 22,
+ "claimsCorrected": 2,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-08"
+}

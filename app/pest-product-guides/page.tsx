@@ -66,6 +66,7 @@ const RESEARCH: Category[] = [
       { href: '/blog/best-bed-bug-heat-chamber-canada', label: 'Heat Chambers', note: 'Kills every life stage' },
       { href: '/blog/best-bed-bug-detector-canada', label: 'Detectors & Interceptors', note: 'Confirm before you treat' },
       { href: '/blog/best-bed-bug-steamer-canada', label: 'Bed Bug Steamers', note: 'Dry vapour, contact kill' },
+      { href: '/learn/bed-bugs', label: 'Bed Bug Reference', note: 'Identify, confirm, then treat' },
     ],
   },
   {
@@ -80,6 +81,7 @@ const RESEARCH: Category[] = [
       { href: '/blog/best-rat-trap-canada', label: 'Best Rat Traps', note: 'Snap, electronic & live' },
       { href: '/blog/rat-poison-canada-what-is-legal', label: 'Rat Poison — What’s Legal', note: 'The one legal format' },
       { href: '/blog/how-to-get-rid-of-mice-canada', label: 'Get Rid of Mice', note: 'Trap, seal, keep out' },
+      { href: '/learn/mice', label: 'Mouse Reference', note: 'Signs, risks, sealing and trapping' },
     ],
   },
   {
@@ -132,6 +134,7 @@ const RESEARCH: Category[] = [
     tone: 'research',
     blurb: 'Cockroach gel baits, spider sprays and crawling-pest gear (silverfish, earwigs, centipedes and more) that’s actually PMRA-legal here — not the US shopping list.',
     posts: [
+      { href: '/pest-product-guides/cockroach-control', label: 'Cockroach Control Hub', note: 'Every roach guide in one place' },
       { href: '/blog/how-to-get-rid-of-cockroaches-canada', label: 'Get Rid of Cockroaches', note: 'The gel-bait method' },
       { href: '/blog/best-cockroach-spray-canada', label: 'Cockroach Spray', note: 'What to buy, what not' },
       { href: '/blog/best-roach-traps-canada', label: 'Cockroach Traps', note: 'Glue boards vs bait stations' },
@@ -144,10 +147,10 @@ const RESEARCH: Category[] = [
     ],
   },
   {
-    href: '/blog/how-to-get-rid-of-ants-canada',
+    href: '/pest-product-guides/ant-control',
     name: 'Ants & Carpenter Ants',
     icon: '🐜',
-    count: '4 guides',
+    count: '24 guides',
     tone: 'research',
     blurb: 'Ants are a baiting problem, not a spraying problem — the colony sits somewhere you can’t reach, so contact killers only remove foragers. Carpenter ants get their own treatment: they’re a structural issue, not a kitchen one.',
     posts: [

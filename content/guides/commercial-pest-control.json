@@ -1,0 +1,219 @@
+{
+  "slug": "commercial-pest-control",
+  "kind": "spoke",
+  "cluster": "pest-control",
+  "keyword": "commercial pest control",
+  "alsoTargets": [],
+  "metaTitle": "Commercial Pest Control: What the Rules Require",
+  "metaDescription": "Commercial pest control is ongoing, documented service for a business. See the rules by industry, what a contract should cover and how to check a provider.",
+  "h1": "Commercial Pest Control: Who Needs It, What the Rules Require and How to Hire",
+  "dek": "How pest control for a business differs from home service, which rules apply to restaurants, food plants, nursing homes and schools, and what to put in the contract before you sign.",
+  "breadcrumb": "Commercial Pest Control",
+  "excerpt": "Commercial pest control is ongoing, documented service for a business. The rules by industry, the records to keep, what a contract should say and how to vet a provider.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Commercial pest control is ongoing, documented pest management for a business, built around inspection, prevention and records instead of a one-time spray.** The rules behind it depend on the industry: the [FDA Food Code](https://www.fda.gov/food/fda-food-code/food-code-2026), a model that states and localities adopt, says the premises of a food establishment must be kept free of insects, rodents and other pests, and separate federal and state rules cover food plants, nursing homes and schools.",
+    "bullets": [
+      "Food Code section 6-501.111 requires a food establishment to routinely inspect its premises and incoming shipments for pests, and it is enforceable wherever a state or local agency has adopted it.",
+      "FDA's rule for food plants, 21 CFR 117.35(c), says pests must not be allowed in any area of a food plant.",
+      "Under the Food Code, rodent bait in a food establishment must sit in a covered, tamper-resistant bait station, and tracking powder pesticides may not be used.",
+      "Texas requires every school district to adopt an IPM program, name an IPM coordinator and keep IPM records for 2 years.",
+      "EPA's model contract calls for an on-site log with an IPM plan, a pest-sighting log and a service report from each visit, and it says routine pesticide applications, monthly for example, are generally not part of an IPM program.",
+      "The Food Code and the food plant rule set a pest-free result, not a number of service visits, so the schedule is whatever the contract says."
+    ]
+  },
+  "facts": {
+    "title": "Commercial pest control at a glance",
+    "rows": [
+      ["Restaurants and retail food", "FDA Food Code 6-501.111, as adopted by your state or local health agency"],
+      ["Food plants and food storage", "21 CFR 117.35(c): no pests in any area of a food plant"],
+      ["Nursing homes", "42 CFR 483.90(i)(4): an effective pest control program"],
+      ["Schools", "State law; Texas requires an IPM program and coordinator in every district"],
+      ["Screens on doors or windows kept open", "16 mesh to 1 inch, or air curtains or another effective barrier (Food Code 6-202.15)"],
+      ["Rodent bait in a food establishment", "Covered, tamper-resistant station only (Food Code 7-206.12)"],
+      ["Core records", "IPM plan, pest-sighting log, service reports, device locations, labels and Safety Data Sheets"],
+      ["Applicator licensing", "Varies by state; EPA says to ask your State Lead Agency for pesticide regulation"],
+      ["Visits per year", "Not set by the Food Code or 21 CFR 117.35; set in the contract"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What is commercial pest control?" },
+    { "type": "p", "text": "Commercial pest control is pest management delivered to a business or institution under an ongoing service agreement, where the goal is to keep pests out and be able to prove it with records. Many programs are built on integrated pest management (IPM), which the [EPA describes as a combination of common-sense practices](https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles) that uses knowledge of pest life cycles to manage pests economically and with the least possible hazard to people, property and the environment. EPA says IPM applies in non-agricultural settings such as the workplace as well as on farms." },
+    { "type": "p", "text": "In practice a technician inspects on a schedule, places and checks monitoring devices, tells you which gaps to seal and which cleaning habits to change, treats only where the evidence calls for it, and leaves a written report each time. The paperwork matters as much as the treatment, because a health inspector, an auditor or a corporate customer may ask to see it." },
+
+    { "type": "h2", "text": "How is commercial pest control different from residential service?" },
+    { "type": "p", "text": "The main difference is who decides whether the job was done well: at home it is the homeowner, while at a business it is often a regulator, an auditor or a paying customer. That changes the scope, the schedule and the paperwork." },
+    { "type": "table", "head": ["Feature", "Residential service", "Commercial service"], "rows": [
+      ["Standard to meet", "The household's own tolerance for pests", "A health code, a federal or state rule, a customer audit or a brand standard"],
+      ["Scope", "One home and yard", "One or many buildings, often with kitchens, loading docks, storage rooms and grounds"],
+      ["Records", "Usually an invoice and a service slip", "A written IPM plan, a pest-sighting log, a report for every visit and a list of every product used"],
+      ["Timing", "Daytime appointments", "Often after hours, so work does not interrupt customers, patients or classes"],
+      ["Product choice", "Products labeled for use in homes", "Only products whose labels allow use at that kind of site, such as a food establishment"],
+      ["People involved", "The homeowner and a technician", "A named contact at the business, the technician, and maintenance and cleaning staff"]
+    ], "caption": "The commercial column draws on EPA's model IPM contract and the FDA Food Code, both cited below." },
+
+    { "type": "h2", "text": "Which businesses need commercial pest control, and why?" },
+    { "type": "p", "text": "Any building can get pests, but a formal program is needed wherever a rule, an audit or the customer experience depends on staying pest-free. Food, health care, schools and lodging sit at the top of that list." },
+    { "type": "table", "head": ["Type of business", "What drives the program", "What that means day to day"], "rows": [
+      ["Restaurants, grocery stores, cafeterias", "A state or local food code, usually based on the FDA Food Code, enforced by health inspectors", "Routine inspection of the premises and deliveries, sealed outer openings, rodent bait only in tamper-resistant stations"],
+      ["Food plants and food storage", "FDA's good manufacturing practice rule (21 CFR 117.35) plus audits that customers ask for", "Pests kept out of manufacturing, processing, packing and holding areas; pesticide use restricted so food is not contaminated"],
+      ["Nursing homes and other health care", "The federal long-term care rule (42 CFR 483.90) and facility policy", "An effective pest control program that keeps the facility free of pests and rodents"],
+      ["Schools", "State school IPM laws", "A written IPM program, a named coordinator and records, depending on the state"],
+      ["Hotels and other lodging", "Guest complaints and reviews", "Staff who can spot bed bugs early and a fast response plan"],
+      ["Apartments and other multifamily housing", "Local housing codes and lease terms", "Inspection and treatment coordinated across units, because pests can move between them"],
+      ["Offices, shops and non-food warehouses", "Lease terms, occupant comfort and incoming freight", "Monitoring and exclusion on a lighter schedule"]
+    ] },
+    { "type": "p", "text": "Kitchens give cockroaches, flies and rodents food, water and warmth in one place. If small tan roaches with two dark stripes are showing up, read how [German cockroaches spread and why baits outperform sprays](/blog/german-cockroaches) before the next service visit." },
+    { "type": "p", "text": "In hotels a leading concern is the bed bug, which arrives on luggage, bedding and furniture instead of coming through a gap in the wall, so prevention is mostly early detection. Housekeeping staff who know [where bed bugs hide in a room](/blog/where-do-bed-bugs-hide) can find an introduction before a guest does." },
+    { "type": "p", "text": "In apartment buildings, cockroaches and bed bugs can spread between units through shared walls, wall voids and utility lines, so treating one apartment at a time may not hold. Who pays for what depends on your state and local housing code and on the lease, so check with the local housing or health department. Offices and non-food warehouses can get mice, along with insects that arrive in freight or come in through dock doors; the [mice reference guide](/learn/mice) covers the signs to watch for." },
+
+    { "type": "h2", "text": "What rules require pest control at a business?" },
+    { "type": "p", "text": "The rules reviewed for this guide require a pest-free result or a written pest program in particular sectors; none of them tells every business to hire a pest control company. These are the ones most commercial programs are built around." },
+
+    { "type": "h3", "text": "Restaurants and retail food: the FDA Food Code" },
+    { "type": "p", "text": "The [FDA Food Code](https://www.fda.gov/food/fda-food-code/food-code-2026) says the premises of a food establishment must be maintained free of insects, rodents and other pests. The Food Code is a model: its title page says FDA offers it for adoption by local, state and federal jurisdictions, and its preface says it is neither federal law nor federal regulation, so it becomes enforceable where a jurisdiction adopts it. The same preface says all states and hundreds of local jurisdictions have adopted some edition of the model food codes over the years." },
+    { "type": "p", "text": "Section 6-501.111 of the 2026 edition lists four things a food establishment must do to control pests:" },
+    { "type": "ul", "items": [
+      "Routinely inspect incoming shipments of food and supplies.",
+      "Routinely inspect the premises for evidence of pests.",
+      "If pests are found, use trapping devices or other control methods that comply with the code's pesticide sections.",
+      "Eliminate harborage conditions, the clutter and hiding places where pests live."
+    ] },
+    { "type": "p", "text": "Other sections fill in the details:" },
+    { "type": "ul", "items": [
+      "**Openings (6-202.15).** Outer openings must be protected against insects and rodents by closing holes and gaps along floors, walls and ceilings, by closed, tight-fitting windows, and by solid, self-closing, tight-fitting doors. Doors or windows kept open for ventilation need 16 mesh to 1 inch screens, properly designed air curtains or another effective barrier.",
+      "**Insect light traps (6-202.13).** A device that electrocutes or stuns flying insects must retain the insect inside the device, and insect control devices may not be located over a food preparation area.",
+      "**Pesticides (7-202.12).** A pesticide must be used under label instructions that state it is allowed in a food establishment. A restricted use pesticide may be applied only by a certified applicator or a person under a certified applicator's direct supervision.",
+      "**Rodent bait (7-206.12).** Bait must be contained in a covered, tamper-resistant bait station.",
+      "**Tracking powder (7-206.13).** A tracking powder pesticide may not be used in a food establishment.",
+      "**Dead pests (6-501.112).** Dead or trapped birds, insects and rodents must be removed often enough to prevent accumulation, decomposition or the attraction of other pests."
+    ] },
+    { "type": "callout", "tone": "note", "title": "Your local code is the one that counts", "text": "The section numbers above come from FDA's 2026 model, and the same pest sections carry the same numbers in the 2022 edition. Your state or county may enforce an older edition or an amended version, so ask your health department which one applies to you." },
+    { "type": "media", "needed": "Photo of a covered, tamper-resistant rodent bait station anchored against the exterior wall of a restaurant or food warehouse beside a closed dock door, lid shut and a dated service label visible" },
+
+    { "type": "h3", "text": "Food plants and food storage: 21 CFR 117.35" },
+    { "type": "p", "text": "FDA's good manufacturing practice rule for human food states that [pests must not be allowed in any area of a food plant](https://www.law.cornell.edu/cfr/text/21/117.35). The same paragraph, 21 CFR 117.35(c), requires effective measures to exclude pests from the manufacturing, processing, packing and holding areas and to protect food on the premises from contamination by pests. Pesticides may be used in the plant only under precautions and restrictions that protect food, food-contact surfaces and food-packaging materials from contamination, and paragraph (b)(2) requires pesticide chemicals to be identified, held and stored in a way that does the same." },
+    { "type": "p", "text": "The only animals the paragraph makes room for are guard, guide or pest-detecting dogs, in areas where their presence is unlikely to contaminate food, food-contact surfaces or food-packaging materials. Because holding areas are named alongside processing areas, storage is in scope as well as production. Ask your FDA or state inspector how the rule applies to your site." },
+
+    { "type": "h3", "text": "Nursing homes and health care: 42 CFR 483.90" },
+    { "type": "p", "text": "Federal requirements for long-term care facilities say a facility must maintain an effective pest control program so that it is free of pests and rodents (42 CFR 483.90(i)(4)). The requirement sits in the physical environment section, next to the rules on ventilation, corridor handrails and emergency water. For hospitals and clinics, EPA lists a 2021 toolkit on integrated pest management in health care facilities among the [resources on its IPM page](https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles)." },
+
+    { "type": "h3", "text": "Schools: state IPM laws" },
+    { "type": "p", "text": "For schools, the requirements come from state law, in the states that have passed one. Texas is a clear example: the [Texas Department of Agriculture's school IPM requirements](https://texasagriculture.gov/RegulatoryPrograms/Pesticides/StructuralPestControlService/SchoolIntegratedPestManagement.aspx) make every school district adopt an IPM program and designate an IPM coordinator. The program must include a board-approved IPM policy, a monitoring program with pest thresholds, a preference for non-chemical strategies and low-risk pesticides, a record-keeping system and an education plan for employees." },
+    { "type": "p", "text": "The Texas coordinator has to complete an approved training course within six months of appointment and earn six hours of IPM continuing education every three years. IPM records are kept for two years and made available to a department inspector on request, and every pesticide product used on school district property is categorized as Green, Yellow or Red. Other states write their own requirements. EPA's [model contract guidance for school IPM](https://www.epa.gov/sites/default/files/2016-08/documents/school_ipm_bid.pdf) says it is not intended to supersede state, tribal or local requirements, so ask your state's lead agency for pesticide regulation what applies before you sign anything." },
+
+    { "type": "h3", "text": "Third-party audits in the food industry" },
+    { "type": "p", "text": "A third-party audit is an assessment of a food safety and quality system by an independent, outside auditor, whose main job is to check the system against a standard and issue a certificate of conformance. That definition comes from [Cornell University's dairy foods extension program](https://cals.cornell.edu/dairy-extension/what-we-do/food-safety-resources/audits-and-inspections), which separates audits from regulatory inspections carried out by local, state or federal agencies. Cornell gives SQF, BRC, IFS, FSSC 22000 and PrimusGFS as examples of approved schemes under the Global Food Safety Initiative (GFSI). It also describes first-party audits, which a company performs on itself and which cover pest control along with good manufacturing practices, and second-party audits, which a customer usually performs on its suppliers." },
+    { "type": "p", "text": "Each scheme writes its own pest control requirements, and standards are revised over time. Get the current standard from your certification body and hand the pest section to your provider before the contract is written, so you are not working from a sales summary of what auditors want." },
+
+    { "type": "h2", "text": "What does a commercial IPM program include?" },
+    { "type": "p", "text": "A commercial IPM program includes the [four steps in EPA's description of how IPM programs work](https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles): setting action thresholds, monitoring and identifying pests, prevention and, last, control. The difference is that they are applied building by building and written down." },
+    { "type": "ol", "items": [
+      "**Set action thresholds.** Decide in advance the point at which pest numbers or conditions mean action must be taken. EPA notes that sighting a single pest does not always mean control is needed, though a business can set that point very low for a kitchen or a patient room.",
+      "**Monitor and identify.** Find out which pest is present and how many there are, so the decision is the right one. EPA says this step keeps pesticides from being used when they are not needed and keeps the wrong kind from being used.",
+      "**Prevent.** Manage the indoor space so pests do not become a threat. In a building that means sealing entry points, tightening sanitation and changing how goods are stored.",
+      "**Control.** When monitoring shows action is needed and prevention is not enough, choose effective, less risky controls first, such as trapping, then targeted spraying if those are not working, with broadcast spraying of non-specific pesticides as a last resort."
+    ] },
+    { "type": "p", "text": "EPA's [model IPM contract for schools](https://www.epa.gov/sites/default/files/2016-08/documents/school_ipm_bid.pdf) shows what that order looks like inside a building. Vacuuming, not spraying, is the standard first step for cleaning out a cockroach infestation, and light traps are the standard method for indoor flies. Gel baits and containerized bait stations are the first choice for cockroaches and ants. Liquid and dry insecticide formulations are generally limited to crack-and-crevice treatment of hidden harborage, and fogging or spraying exposed surfaces is reserved for exceptional circumstances with approval in advance." },
+    { "type": "p", "text": "For rodents indoors, the model calls for traps as a general rule. Rodenticide is allowed only in exceptional circumstances, with prior approval, in block form, and inside tamper-resistant bait boxes that can be secured to a surface." },
+    { "type": "p", "text": "Those specifications were written for buildings full of children, but the same order of preference marks a real IPM program anywhere. The guide to [natural pest control methods and the evidence behind them](/blog/natural-pest-control) goes deeper on exclusion, traps and low-risk materials. One device a commercial program can skip is the plug-in sound emitter: the review of [whether ultrasonic pest repellers work](/blog/ultrasonic-pest-repellers-do-they-work) explains why the evidence is against them." },
+
+    { "type": "h2", "text": "What records should a commercial pest program keep?" },
+    { "type": "p", "text": "A commercial program should keep a written plan, a log of pest sightings, a report for every service visit and a record of where every device sits, all at the site. EPA's [model contract](https://www.epa.gov/sites/default/files/2016-08/documents/school_ipm_bid.pdf) makes the contractor responsible for a pest management log at each building that stays on site, is open to staff and is updated on every visit." },
+    { "type": "ul", "items": [
+      "**IPM plan.** The methods for identifying and monitoring pests, an inspection schedule for each building, the site-specific control methods, and the materials and equipment to be used.",
+      "**Pest-sighting log.** A form where staff record where they saw a pest, so the technician knows where to look.",
+      "**Service report.** The pest findings and the control measures carried out at each visit.",
+      "**Device locations.** The position of every trap and bait station, recorded in the site log. In the EPA model each bait station is labeled with the contractor's name, address and phone number and the bait's active ingredient, and is dated at installation and at each servicing.",
+      "**Product file.** For each pesticide, the brand name, EPA registration number, active ingredient and signal word, plus the current label and Safety Data Sheet.",
+      "**Credentials.** Copies of the applicator license or certificate and the certificate of insurance, and a list of the employees who service the site with their license status.",
+      "**Quality control file.** A record of the contractor's own inspections and any corrective actions, with a copy given to the client."
+    ] },
+    { "type": "media", "needed": "Simple floor-plan diagram of a small restaurant with numbered device locations: exterior bait stations along the back wall, snap traps inside each door, an insect light trap mounted away from the food preparation area, and sticky monitors under equipment" },
+    { "type": "p", "text": "How long to keep records depends on your regulator; Texas school districts, for example, must keep IPM records for two years. A food business under a third-party scheme should follow the retention period in its standard." },
+
+    { "type": "h2", "text": "How often should a business be serviced?" },
+    { "type": "p", "text": "There is no single legal number of visits. The [Food Code](https://www.fda.gov/food/fda-food-code/food-code-2026) tells food establishments to inspect routinely, and FDA's food plant rule sets a result, no pests in the plant, without a schedule. The interval is set in your contract, and it should follow the monitoring data instead of habit." },
+    { "type": "p", "text": "EPA's model contract handles frequency in three ways: the IPM plan includes an inspection schedule for each building, trapping devices are checked on a schedule the client approves, and the contractor runs its own quality control inspections quarterly. The same guidance says pesticide use should be targeted and as-needed, and that routine applications, monthly for example, are generally not part of an IPM program. A visit is for inspection and monitoring first." },
+    { "type": "p", "text": "None of the sources above sets these intervals, but a shorter one is reasonable to ask for when any of these apply:" },
+    { "type": "ul", "items": [
+      "Food is prepared, processed or stored on site.",
+      "The building houses patients, residents or young children.",
+      "The sighting log or the monitors show recent or repeated activity.",
+      "Deliveries are frequent, dock doors stay open, or a neighboring property has a pest problem.",
+      "A health department, a franchise standard or an audit scheme names an interval."
+    ] },
+    { "type": "p", "text": "Ask the provider to justify the proposed interval with what the monitors and the sighting log show, and agree to review it once a few months of data are in." },
+
+    { "type": "h2", "text": "What should a commercial pest control contract contain?" },
+    { "type": "p", "text": "A commercial contract should state which sites and pests are covered, what the provider will inspect and when, what records you will receive and who is licensed to do the work. EPA wrote its [bid and contract guidance](https://www.epa.gov/sites/default/files/2016-08/documents/school_ipm_bid.pdf) for schools, but it is a public model that any business can borrow from." },
+    { "type": "ol", "items": [
+      "**Sites covered.** A list of all buildings and properties, with a map, so the provider can estimate travel and response times.",
+      "**Pests included and excluded.** The EPA model covers indoor mice, rats, insects and spiders, stinging-insect nests on the grounds, and other vertebrates such as birds and bats. It excludes termites, carpenter ants and other wood-destroying organisms, bed bugs, mosquitoes and pests that feed on outdoor vegetation.",
+      "**Initial inspection and IPM plan.** A thorough first inspection of each building and a written plan, both delivered before the start date.",
+      "**Inspection schedule and service time.** The visit schedule for each building and, if you want one, a minimum time on site per visit.",
+      "**Service hours.** In the EPA model routine work happens after school hours; set the equivalent for your operation.",
+      "**Emergency and special requests.** A response time for work outside the routine schedule, with primary and secondary 24-hour contacts named.",
+      "**Pesticide rules.** As-needed use only, approval before any surface spray or fogging, and labels and Safety Data Sheets on file for every product.",
+      "**Records.** The on-site log described above.",
+      "**Personnel and insurance.** Every technician registered or certified under your state's rules, and liability insurance in force for the full term.",
+      "**Who does what.** In the model the contractor supplies labor, materials and equipment and gives written recommendations for repairs and procedural changes. Sanitation and building maintenance are left out of the contractor's work, as are major items such as insect light traps and air curtains unless you request them."
+    ] },
+    { "type": "p", "text": "Anything on the excluded list needs its own agreement. The model leaves out outdoor vegetation pests so that lawn care companies can bid for that work, and the guide to [lawn pests and how they are managed](/blog/lawn-pest-control) covers that side of the property. Mosquito service for a patio or outdoor seating area is a separate decision too, and the comparison of [do-it-yourself and professional mosquito control](/blog/mosquito-vs-diy-vs-professional-control) explains what each approach can and cannot do." },
+
+    { "type": "h2", "text": "What drives the price of commercial pest control?" },
+    { "type": "p", "text": "Commercial pricing depends mostly on the work a site needs: [EPA's bid guidance](https://www.epa.gov/sites/default/files/2016-08/documents/school_ipm_bid.pdf) ties a realistic bid to the services needed and the time required to provide them, so the main things to pin down are how much there is to inspect and how often. This guide does not quote dollar figures, because commercial quotes are built site by site." },
+    { "type": "ul", "items": [
+      "**Size and layout.** Square footage, the number of buildings and the distance between them. EPA's guidance asks buyers for a site list and map for exactly this reason.",
+      "**Visit frequency and time on site.** More visits and a longer minimum service time cost more.",
+      "**Type of operation.** Food handling and health care come with more rules to meet and more records to keep than an office does.",
+      "**Pests in scope.** The EPA model suggests noting that certain species may carry an additional charge because of higher material or labor costs, and it treats termites, bed bugs and mosquitoes as outside the base contract.",
+      "**Service hours.** After-hours and overnight work.",
+      "**Emergency response.** A faster promised response time.",
+      "**Equipment.** Who pays for insect light traps, air curtains and door hardware.",
+      "**Contract length.** EPA suggests considering multiyear contracts, which let the company learn the site and spare it from re-competing every year.",
+      "**Starting condition.** An active infestation may need an initial cleanout before routine service begins."
+    ] },
+    { "type": "p", "text": "A quote given without a walk-through is a guess, which is why EPA recommends that every prospective bidder see each site first. For what households pay, with a source and date on every number, see the breakdown of [pest control prices for one-time visits and recurring plans](/blog/how-much-is-pest-control)." },
+
+    { "type": "h2", "text": "How do you choose and check a commercial pest control provider?" },
+    { "type": "p", "text": "Check the license first, then the insurance, then how the company decides when to use a pesticide. Licensing rules differ from state to state, and [EPA's contract guidance](https://www.epa.gov/sites/default/files/2016-08/documents/school_ipm_bid.pdf) advises contacting your State Lead Agency for pesticide regulation because certification, licensing and permitting requirements, and even the terminology, vary by state." },
+    { "type": "ol", "items": [
+      "Ask for a copy of the valid state structural pest control license or certificate held by the person who will apply pesticides, and the certification card of any supervisor.",
+      "Ask for a current insurance policy that covers pest control activities.",
+      "Ask your state pesticide regulatory authority and the local Better Business Bureau whether there have been complaints or violations.",
+      "Ask for the label and Safety Data Sheet of every product the company proposes to use.",
+      "Ask how the company decides to apply a pesticide. The answer should start with inspection and monitoring; a plan to spray on every visit is not IPM.",
+      "Ask about IPM credentials. EPA's model gives priority to contractors that hold a third-party or state IPM certification, in states that offer one.",
+      "Compare bids on the quality of service described. EPA warns against choosing solely or mainly on the lowest bid."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Ask for a sample service report", "text": "A blank or redacted report from a similar account shows what you would receive after each visit: findings by location, devices checked, products used and written recommendations." },
+
+    { "type": "h2", "text": "What can your own staff do between service visits?" },
+    { "type": "p", "text": "Staff control most of what attracts pests, so the work between visits is sanitation, exclusion, checking deliveries and reporting sightings. Under the Food Code, routinely inspecting incoming shipments and the premises is the establishment's own duty, not something that waits for the technician." },
+    { "type": "ul", "items": [
+      "**Log every sighting.** Write down the date, the pest and the exact spot.",
+      "**Check deliveries.** Look over boxes and pallets before they go into storage.",
+      "**Keep openings closed.** Self-closing doors only work if nobody props them open, and gaps along floors, walls and ceilings need to be filled.",
+      "**Remove harborage.** The Food Code's guidance notes that unnecessary items, including equipment no longer in use, make cleaning harder and can shelter insects and rodents.",
+      "**Act on written recommendations.** The EPA model leaves sanitation and building maintenance out of the contractor's work, so they fall to the client."
+    ] },
+    { "type": "p", "text": "Be careful with do-it-yourself pesticide use at a business. EPA's model contract bars the contractor from giving pesticides to site staff without written approval, and state rules on who may apply pesticides at a workplace differ, so check with your state lead agency first. For the parts staff can handle, the guide to [doing your own pest control, including how to read a label](/blog/diy-pest-control), covers the basics, and the [product guides sorted by pest](/pest-product-guides) describe the monitors and traps sold for each one." }
+  ],
+  "faqs": [
+    { "question": "Is commercial pest control required by law?", "answer": "It depends on the industry. The rules reviewed for this guide require a pest-free result or a written pest program, not a contract with a particular company. Food codes based on the FDA Food Code require food establishments to keep the premises free of insects, rodents and other pests. FDA's rule for food plants says pests must not be allowed in any area of the plant. Federal requirements for long-term care facilities call for an effective pest control program, and Texas, for one, requires every school district to run an integrated pest management program. Check which rules apply to your sector and your state." },
+    { "question": "Can a restaurant do its own pest control?", "answer": "The FDA Food Code sections on pests describe what must be achieved, such as routine inspection of the premises and deliveries, and do not name who must do the work. They do limit pesticide use: a product must be labeled for use in a food establishment, rodent bait must be in a covered, tamper-resistant station, and a restricted use pesticide may be applied only by a certified applicator or someone under that person's direct supervision. States and localities can add their own rules, so ask your health department and your state pesticide agency before staff apply anything." },
+    { "question": "How often should a restaurant have pest control service?", "answer": "The FDA Food Code does not set a number of service visits. It requires the establishment to routinely inspect the premises and incoming shipments, and to remove dead or trapped pests often enough that they do not accumulate. The service interval is set by the contract and should follow what the monitors and the sighting log show. A local health department, a franchise standard or a third-party audit scheme may name its own interval, so check those before agreeing to a schedule." },
+    { "question": "Are pesticides applied at every commercial pest control visit?", "answer": "Not in an integrated pest management program. EPA's model contract for school pest management says pesticide use should be targeted and applied only as needed, and that routine applications, monthly for example, are generally not part of an IPM program. Most visits should consist of inspection, checking monitors and traps, and written recommendations on sanitation and repairs. If a provider plans to spray on a fixed calendar regardless of findings, ask what evidence each treatment is based on." },
+    { "question": "Does a commercial pest control contract cover bed bugs, termites and mosquitoes?", "answer": "Not automatically. EPA's model contract for school IPM lists termites, carpenter ants and other wood-destroying organisms, bed bugs, mosquitoes and pests that feed on outdoor vegetation as excluded, and suggests a separate contract for outdoor vegetation pests so lawn care companies can bid. A commercial agreement may do the same, so read the included and excluded pest lists before signing, and ask for a written price for any pest you expect to need covered." },
+    { "question": "What is the difference between a health inspection and a third-party audit?", "answer": "A regulatory inspection is carried out by a local, state or federal agency. A third-party audit is an assessment of a food safety and quality system by an independent outside auditor, who checks it against a standard and issues a certificate of conformance, as Cornell University's dairy foods extension program explains. Cornell gives SQF, BRC, IFS, FSSC 22000 and PrimusGFS as examples of approved schemes under the Global Food Safety Initiative. Pest control records can come up in both, but the standard applied is different, so keep a copy of the pest requirements for each." }
+  ],
+  "sources": [
+    { "title": "Food Code 2026", "publisher": "U.S. Food and Drug Administration", "url": "https://www.fda.gov/food/fda-food-code/food-code-2026" },
+    { "title": "21 CFR § 117.35 - Sanitary operations", "publisher": "Code of Federal Regulations, published by Cornell Law School Legal Information Institute", "url": "https://www.law.cornell.edu/cfr/text/21/117.35" },
+    { "title": "Integrated Pest Management (IPM) Principles", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles" },
+    { "title": "School Integrated Pest Management Program Bid and Contract Guidance (EPA 730-F-16-002)", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/sites/default/files/2016-08/documents/school_ipm_bid.pdf" },
+    { "title": "School Integrated Pest Management (IPM)", "publisher": "Texas Department of Agriculture", "url": "https://texasagriculture.gov/RegulatoryPrograms/Pesticides/StructuralPestControlService/SchoolIntegratedPestManagement.aspx" },
+    { "title": "Audits and Inspections", "publisher": "Cornell University College of Agriculture and Life Sciences, Dairy Foods Extension", "url": "https://cals.cornell.edu/dairy-extension/what-we-do/food-safety-resources/audits-and-inspections" }
+  ]
+}

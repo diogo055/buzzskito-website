@@ -83,6 +83,18 @@ const SECTIONS: HubSection[] = [
       { href: '/blog/mosquito-dunks-canada-guide', title: 'Mosquito Dunks Canada Guide', blurb: 'BTI dunks kill larvae in standing water — the one product every yard should use.', tone: 'top' },
     ],
   },
+  {
+    name: 'How-To & Reference Guides',
+    icon: '📖',
+    intro: 'Plain-language answers rather than product reviews: how to clear mosquitoes out of a yard, how to keep them off you, and what actually draws them in. These guides carry no product links and are written for readers anywhere in North America. Read them first to work out which of the gear categories above fits your yard.',
+    guides: [
+      { href: '/blog/how-to-get-rid-of-mosquitoes', title: 'How to Get Rid of Mosquitoes', blurb: 'A step-by-step yard plan covering standing water, larvicide, resting sites, adult control, and when to call a professional or the local mosquito control district.' },
+      { href: '/blog/how-to-keep-mosquitoes-away', title: 'How to Keep Mosquitoes Away', blurb: 'How to choose a skin repellent, what treated clothing, fans, and screens add, and which popular products do not hold up.' },
+      { href: '/blog/are-mosquitoes-attracted-to-light', title: 'Are Mosquitoes Attracted to Light?', blurb: 'Whether light draws mosquitoes, what actually leads them to people, and whether yellow or LED bulbs change anything.' },
+      { href: '/blog/do-mosquitoes-bite-dogs', title: 'Do Mosquitoes Bite Dogs?', blurb: 'Where mosquitoes bite dogs, what the bites look like, and why heartworm is the reason it matters.' },
+      { href: '/blog/alaska-mosquitoes', title: 'Alaska Mosquitoes', blurb: 'When mosquito season runs in each region of Alaska, how bad it gets, and how visitors protect themselves.' },
+    ],
+  },
 ]
 
 const POSTS_LINKED = SECTIONS.reduce((n, s) => n + s.guides.length, 0)

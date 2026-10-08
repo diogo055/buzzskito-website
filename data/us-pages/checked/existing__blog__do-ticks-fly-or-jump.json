@@ -1,0 +1,10 @@
+{
+ "id": "blog/do-ticks-fly-or-jump",
+ "kind": "existing",
+ "verdict": "publish-after-my-fixes",
+ "sha": "e2e597c432f71c7fe24f113e84e5e3ca8f7c6c46b2bf930c5893836cb21ca7a4",
+ "claimsChecked": 31,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-08"
+}

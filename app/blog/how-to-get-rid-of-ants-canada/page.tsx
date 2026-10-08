@@ -15,7 +15,7 @@ const SLUG = 'how-to-get-rid-of-ants-canada'
 const DATE = '2026-07-27'
 const UPDATED = '2026-07-27'
 const TITLE = 'How to Get Rid of Ants in Canada — Why Baiting Beats Every Spray in the Aisle'
-const META_TITLE = 'How to Get Rid of Ants in Canada: Bait First'
+const META_TITLE = 'How to Get Rid of Ants: Bait First (US & Canada)'
 
 const FAQS = [
   {
@@ -70,11 +70,23 @@ const FAQS = [
     question: 'When should I call an exterminator for ants?',
     answer: 'A kitchen ant trail in Canada is genuinely a DIY job — a pack of liquid bait stations costs a fraction of a service call and works. Call a licensed professional when: you have large black ants plus coarse sawdust-like frass or hollow-sounding wood (carpenter ants damaging structure); you have tiny pale ants in an apartment or condo (pharaoh ants bud through buildings and need coordinated multi-unit treatment, which in most provinces including Ontario is the landlord’s responsibility); you have stinging red ants in the yard (European fire ants are established in parts of the GTA and are miserable to remove); you cannot find the nest after weeks of baiting; or you are not sure whether the winged insects you found are ants or termites. Our Canadian pest control cost guide covers what that work typically runs.',
   },
+  {
+    question: 'How do I get rid of fire ants in my yard in the United States?',
+    answer: 'University extension services in the southern states teach the Two-Step Method for red imported fire ants. Step one is broadcasting a fire ant bait over the whole yard while the ants are foraging. Step two is treating only the problem mounds with a product labeled for individual mounds. Texas A&M reports that baits are slow, taking weeks to months to reach 80 to 90 percent control, and are reapplied once or twice a year. Follow the label on every product.',
+  },
+  {
+    question: 'Which ant bait ingredients are sold in the US, and what does the EPA registration number mean?',
+    answer: 'University extension publications list borates (borax or boric acid), fipronil, hydramethylnon, abamectin, imidacloprid, indoxacarb, thiamethoxam and dinotefuran among the active ingredients in US ant baits. Federal law requires pesticides sold or distributed in the United States, including imported ones, to be registered by the EPA, apart from minimum risk products the agency has exempted. The EPA registration number on the label shows a product went through that process, and using it in a way that conflicts with its labeling is a violation of federal law.',
+  },
+  {
+    question: 'Do Argentine ants, ghost ants and crazy ants need a different treatment from other house ants?',
+    answer: 'Two of the three do not. Argentine ants and ghost ants live in colonies with many queens, and university extension sources describe controlling them with baits, with sweet liquid baits favored for Argentine ants, because spraying kills only the foragers. Tawny crazy ants are the exception. Texas A&M reports that their workers are not attracted to most bait products and that effective treatment products are not readily available to consumers, so it advises calling a professional pest control provider if you suspect them.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'How to get rid of ants in Canada: why baiting beats spraying, gel vs liquid vs granular bait, and the rule that stops most DIY jobs — never wipe the trail.',
+  description: 'How to get rid of ants: why bait beats spray, gel vs liquid vs granular bait, and the rule most DIY jobs break. Covers US and Canadian products.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -466,6 +478,90 @@ export default function HowToGetRidOfAntsCanadaPage() {
           <p><strong>High summer &mdash; the water push.</strong> A hot dry fortnight drives foragers indoors hunting moisture, and the next heavy thunderstorm floods shallow nests under slabs and mulch and pushes them in for the opposite reason. Both ends of that swing point the same direction: inside. If ants are going to turn up on a kitchen counter, this is the weather that sends them.</p>
           <p><strong>Cooling off &mdash; roughly September into October.</strong> Activity tapers as the colony provisions for winter. This is the ideal window for the exclusion pass &mdash; caulk, sweeps, mulch pulled back &mdash; because you are sealing an empty house rather than trapping an active trail inside.</p>
           <p><strong>Below freezing &mdash; roughly November into March.</strong> Outdoor colonies are dormant below the frost line. Ants seen indoors now are a signal, not a nuisance: the nest is very likely inside the heated envelope.</p>
+
+          <h2>Getting Rid of Ants in the United States: What Is Different</h2>
+          <p>In the United States the method is the same as in Canada, but the ants, the regulator and the bait shelf are not. Slow-acting bait on the live trail, no repellent spray, then sealing and moisture repair still does the work. The pavement, odorous house, pharaoh and carpenter ants described above are household pests south of the border too, and <a href="https://ipm.ucanr.edu/home-and-landscape/ants/" target="_blank" rel="noopener noreferrer">UC IPM&rsquo;s Pest Notes on ants</a> lists all four in its table of common household ants. What the southern states, the Gulf Coast, Florida, Hawaii and California add is four invasive species a Canadian guide has no reason to cover, and one of them breaks the bait-first rule.</p>
+
+          <h3>Red imported fire ants: a yard ant with a medical side</h3>
+          <p>Red imported fire ants (<em>Solenopsis invicta</em>) are a mound-building outdoor ant of the southern states, and they are managed with a yard-wide bait program, not a kitchen bait station. <a href="https://www.aphis.usda.gov/plant-pests-diseases/ifa" target="_blank" rel="noopener noreferrer">USDA APHIS</a> reports that imported fire ants infest more than 367 million acres in Alabama, Arkansas, California, Florida, Georgia, Louisiana, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia and Puerto Rico, and it regulates the movement of nursery stock, hay and soil-moving equipment out of quarantine areas. Workers in a single colony range from 1/8 to 1/4 inch, and the soil mounds are seldom wider than 18 inches, according to the <a href="https://ask.ifas.ufl.edu/publication/IN352" target="_blank" rel="noopener noreferrer">University of Florida&rsquo;s red imported fire ant profile</a>.</p>
+          <p>Fire ants both bite and sting. The <a href="https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s guidance for outdoor workers</a> says the venom can cause a burning sensation, and that red bumps at the sting site may develop into white, fluid-filled pustules within a day or two. Its first aid advice is to rub the ants off briskly, because they hold on with their jaws, and to get the person to an emergency medical facility immediately for severe chest pain, nausea, severe sweating, loss of breath, serious swelling or slurred speech.</p>
+          <p>For control, <a href="https://fireant.tamu.edu/controlmethods/twostep/" target="_blank" rel="noopener noreferrer">Texas A&amp;M&rsquo;s fire ant project</a> calls the Two-Step Method the best proven approach: broadcast a fire ant bait over the entire yard, then treat only the problem mounds with a product labeled for individual mounds. It works best where there are five or more mounds per quarter-acre, the baits need weeks to months to reach 80 to 90 percent control, and they are reapplied once or twice a year. Timing matters. <a href="https://fieldreport.caes.uga.edu/publications/B1191/managing-imported-fire-ants-in-urban-areas/" target="_blank" rel="noopener noreferrer">University of Georgia Extension</a> notes that foraging slows when soil temperature is below 65 to 70&deg;F or above 90&deg;F, and that bait should go down when the ground and grass are dry and no rain is expected. The same bulletin says sprinkling grits on a mound is ineffective. If you are not sure the red ant in your lawn is a fire ant at all, the guide to <Link href="/blog/red-ants">telling fire ants from other red ants</Link> sorts that out first.</p>
+
+          <h3>Argentine ants: the supercolony of California and the Southeast</h3>
+          <p>Argentine ants (<em>Linepithema humile</em>) are baited much like odorous house ants, but at a larger scale and mostly outdoors. They are dull brown and about 1/8 inch long, and UC IPM calls them the most common ant in and around the house and garden in California, with colonies that link into one large supercolony with multiple queens. The <a href="https://ask.ifas.ufl.edu/publication/IN1336" target="_blank" rel="noopener noreferrer">University of Florida&rsquo;s Argentine ant profile</a> documents them throughout the southeastern and southern states and up the western coastline, notes that they do not sting or bite people, and says they infest buildings especially during rainy, cold weather.</p>
+          <p>Bait strength matters with this ant. UC IPM says prepackaged stations, which usually contain 5.4 percent borate, can kill foragers in the home but are less effective against a major Argentine ant infestation, because the foragers die before they can carry the bait back. For a severe infestation it points to liquid borate products with a lower concentration, 0.5 to 1.0 percent in a sugar-water solution, used in larger refillable stations, and says results may take several days to a week to show. Argentine ants are also one of several species Americans call sugar ants, and the guide to <Link href="/blog/sugar-ants">what sugar ants really are</Link> helps you work out which one is on your counter.</p>
+
+          <h3>Ghost ants: Florida, Hawaii and heated buildings</h3>
+          <p>Ghost ants (<em>Tapinoma melanocephalum</em>) are a tropical, multi-queen house ant whose indoor colonies are controlled with bait. Workers are 1.3 to 1.5 mm long, which is roughly 1/16 inch, and the <a href="https://ask.ifas.ufl.edu/publication/IN532" target="_blank" rel="noopener noreferrer">University of Florida&rsquo;s ghost ant profile</a> describes the species as well established in Florida and Hawaii, present in Texas since the mid-1990s, and able to survive in northern states only in greenhouses and other heated environments. Colonies contain numerous reproducing females and probably spread by budding, and crushed workers smell like rotten coconuts, the same tell as the odorous house ant, which belongs to the same genus. The profile says indoor colonies nesting in voids can be controlled with baits, and it reserves barrier sprays for the cracks and crevices where outdoor foragers get in. Identification, range and control are covered in depth in the <Link href="/blog/ghost-ants">ghost ant guide</Link>.</p>
+
+          <h3>Tawny crazy ants: the exception to bait-first</h3>
+          <p>Tawny crazy ants (<em>Nylanderia fulva</em>) are an ant where a consumer bait station is not the answer. <a href="https://urbanentomology.tamu.edu/urban-pests/ants/rasberry/" target="_blank" rel="noopener noreferrer">Texas A&amp;M&rsquo;s urban entomology program</a> reports that the species was found around Houston in 2002, that it builds no central nest or mound and lives under rocks, timbers and debris, that workers are not attracted to most bait products, and that effective treatment products are not readily available to consumers. Its advice is to call a professional pest control provider if you suspect them.</p>
+          <p><a href="https://fieldreport.caes.uga.edu/publications/C1064/the-tawny-crazy-ant-in-georgia/" target="_blank" rel="noopener noreferrer">University of Georgia Extension&rsquo;s tawny crazy ant circular</a> describes the workers as orange to reddish-brown, 1/12 to 1/10 inch long, with foraging columns that move erratically, and records the ant in Alabama, Louisiana, Mississippi and Georgia as well as Texas and Florida. Workers have no sting but can bite. The <a href="https://ask.ifas.ufl.edu/publication/IN1076" target="_blank" rel="noopener noreferrer">University of Florida&rsquo;s tawny crazy ant fact sheet</a> adds that the ants infest electrical switch boxes, and that they are an areawide problem controlled better when a whole community acts at the same time.</p>
+
+          <h3>Baiting versus spraying: what US university extension says</h3>
+          <p>US extension services reach the same verdict as the Canadian sections above for ants trailing indoors: bait them, and do not spray the ants you see. UC IPM states that baits are the only type of insecticide recommended in most situations, that spraying around a foundation kills only foraging ants without killing the colony and the queens, and that no insecticide spray should be used while baits are out. The <a href="https://entomology.mgcafe.uky.edu/ef619" target="_blank" rel="noopener noreferrer">University of Kentucky&rsquo;s ant control guide for householders</a> calls spraying only the ants you see the mistake most people make, tells readers to expect more ants around the bait at first and not to spray them, and suggests trying another product if one bait is ignored. On timing, UC IPM says it can take 5 to 10 days to see fewer ants and several weeks or more for control to be complete.</p>
+          <p>The two differ on placement, and the difference is useful. Kentucky places bait beside indoor trails and warns against using cleaning agents around it, which matches the leave-the-trail rule above. UC IPM, writing largely about Argentine ants that nest outdoors, prefers bait stations outside, spaced every 10 to 20 feet around the foundation, with invading ants sponged up indoors with soapy water. It reserves indoor baiting for a serious infestation where the entry point cannot be found. Kentucky does describe one job for a liquid insecticide: drenching a below-ground outdoor nest once it has been located, following the label directions for treating ant mounds. Both agree on the core point: do not spray insecticide around a bait that is working.</p>
+
+          <h3>Bait ingredients on US shelves, and what EPA registration means</h3>
+          <p>US consumers can choose among several bait active ingredients, not only the borax-type stations this guide leans on for Canada. UC IPM lists boric acid or borate, fipronil, hydramethylnon and avermectin B (abamectin) as examples to look for on a bait label. The University of Kentucky adds imidacloprid, indoxacarb, thiamethoxam and dinotefuran, and names Combat, Raid, Ortho and Terro as popular consumer brands and Maxforce, Advion, Optigard and Alpine as professional baits sold online. The two sources do not fully agree on indoxacarb: UC IPM, in a publication last updated in 2012, rates bait stations with indoxacarb or propoxur as not very effective because the ingredient acts too fast, while Kentucky&rsquo;s 2026 revision lists indoxacarb among the active ingredients of the baits it describes, a group that includes professional baits it calls highly effective. UC IPM also warns that granules containing cyfluthrin or permethrin can be mistaken for baits but are contact insecticides that kill foragers without controlling the colony.</p>
+          <p>The number to look for on a US product is the EPA registration number, the counterpart of the Canadian PCP number discussed above. The <a href="https://www.epa.gov/pesticide-registration/about-pesticide-registration" target="_blank" rel="noopener noreferrer">EPA&rsquo;s overview of pesticide registration</a> explains that federal law requires pesticides sold or distributed in the United States, including imported ones, to be registered by the agency, that it must approve all label language first, and that using a pesticide in a manner inconsistent with its labeling is a violation of federal law. In general, states have primary authority for enforcing against illegal pesticide use. The <a href="https://www.epa.gov/earthday/epa-explainshow-read-pesticide-product-label" target="_blank" rel="noopener noreferrer">EPA&rsquo;s guide to reading a pesticide label</a> shows where that number sits. The exception is the group of <a href="https://www.epa.gov/minimum-risk-pesticides" target="_blank" rel="noopener noreferrer">minimum risk pesticides</a> that EPA has exempted from registration. For a US buyer the label check in this guide simply flips: look for an EPA registration number where a Canadian would look for a PCP number.</p>
+          <p>Borate baits are low in toxicity, not free of risk. The <a href="https://npic.orst.edu/factsheets/boricgen.html" target="_blank" rel="noopener noreferrer">National Pesticide Information Center&rsquo;s boric acid fact sheet</a> says boric acid is low in toxicity if eaten or if it contacts skin, that in the form of borax it can be corrosive to the eye, and that boric acid products have been registered in the United States since 1948, with more than five hundred sold. Because young children put their hands and other items in their mouths, it notes that many of these products must be applied out of children&rsquo;s reach. For an exposure it directs people to the first aid instructions on the product label and to Poison Control at 800-222-1222. The chemistry, and the question of homemade recipes, are covered in the guide to <Link href="/blog/borax-for-ants">borax and boric acid as ant bait</Link>.</p>
+
+          <h3>Metric sizes in this guide, in US units</h3>
+          <p>The Canadian sections above give ant sizes in millimeters and distances in meters, and the table below converts each one. The conversions are arithmetic; US extension publications round them, and UC IPM lists odorous house ants at 1/8 inch, pharaoh ants at 1/16 inch and carpenter ant workers at 1/4 to 1/2 inch.</p>
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-gray-200">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Where it appears above</th>
+                  <th className="px-3 py-2 text-left">Metric</th>
+                  <th className="px-3 py-2 text-left">US equivalent</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Pavement ant and odorous house ant workers</td>
+                  <td className="px-3 py-2 text-gray-700 whitespace-nowrap">2.5 to 3 mm</td>
+                  <td className="px-3 py-2 text-gray-700">About 1/10 to 1/8 inch</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Pharaoh ant workers</td>
+                  <td className="px-3 py-2 text-gray-700 whitespace-nowrap">About 2 mm</td>
+                  <td className="px-3 py-2 text-gray-700">About 5/64 inch, a little over 1/16 inch</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Carpenter ant workers</td>
+                  <td className="px-3 py-2 text-gray-700 whitespace-nowrap">6 to 13 mm</td>
+                  <td className="px-3 py-2 text-gray-700">About 1/4 to 1/2 inch</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">European fire ant workers</td>
+                  <td className="px-3 py-2 text-gray-700 whitespace-nowrap">4 to 5 mm</td>
+                  <td className="px-3 py-2 text-gray-700">About 5/32 to 3/16 inch</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Bait set to the side of the trail</td>
+                  <td className="px-3 py-2 text-gray-700 whitespace-nowrap">A few centimeters</td>
+                  <td className="px-3 py-2 text-gray-700">An inch or two</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">A station too far off the route, or a nest close to the foundation</td>
+                  <td className="px-3 py-2 text-gray-700 whitespace-nowrap">1 meter</td>
+                  <td className="px-3 py-2 text-gray-700">About 3.3 feet (39 inches)</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">A parent carpenter ant colony in a tree stump</td>
+                  <td className="px-3 py-2 text-gray-700 whitespace-nowrap">20 meters</td>
+                  <td className="px-3 py-2 text-gray-700">About 66 feet</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2>More Ant Guides: Match the Species, the Room and the Remedy</h2>
+          <p>The fastest route to a fix is to identify the ant first, then deal with the room, then pick the remedy. The <Link href="/learn/ants">complete ant reference for US homes</Link> explains how colonies work and how to tell the common household species apart. If the ants are very small, the <Link href="/blog/tiny-ants">identification key for tiny ants</Link> works from size, color and smell, and the guide to <Link href="/blog/black-ants">black ants in and around the house</Link> separates little black ants from the carpenter ants that matter for the structure.</p>
+          <p>Winged ants raise a different question. <Link href="/blog/flying-ants">What a swarm of flying ants means</Link>, indoors or out, has its own page, and the side-by-side look at <Link href="/blog/flying-ants-vs-termites">flying ants versus termites</Link> shows the antennae, waist and wing differences summarized in the callout near the top of this guide. If stings or bites are the worry, start with <Link href="/blog/do-ants-bite">which US ants bite and which sting</Link>, then read <Link href="/blog/do-carpenter-ants-bite">whether carpenter ants bite</Link> if the ants are large and black.</p>
+          <p>For the plan itself, <Link href="/blog/how-to-get-rid-of-ants-in-the-house">getting rid of ants in the house</Link> follows the trail from the entry point to the nest across the whole building, and the companion page on <Link href="/blog/how-to-get-rid-of-ants-in-the-kitchen">ants in the kitchen</Link> deals with keeping bait away from food-prep surfaces. Home remedies are examined separately: <Link href="/blog/does-vinegar-kill-ants">what vinegar does and does not do to ants</Link> explains why it clears a trail without reaching the colony. Bait choice follows diet, so <Link href="/blog/what-do-ants-eat">what ants eat</Link> explains the swing between sugar and protein, and <Link href="/blog/how-long-do-ants-live">how long workers and queens live</Link> shows why a colony outlasts anything that only kills workers.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

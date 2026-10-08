@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import { BUSINESS } from '@/lib/constants'
 
 const SLUG = '/pest-control-cost-canada'
@@ -170,11 +171,11 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: `Pest Control Cost Canada 2026: $414-$617/Visit`,
   description: `How much does pest control cost in Canada? Averages $414-$617 a visit nationally, $200-$450 in the GTA. 2026 prices: ants, mice, wasps, bed bugs, ticks.`,
   canonical: SLUG,
-})
+}), '/pest-control-cost-canada')
 
 export default function PestControlCostCanadaPage() {
   const generalRows = PRICE_SERIES.filter((r) => r.group === 'General pest control (CAD)')

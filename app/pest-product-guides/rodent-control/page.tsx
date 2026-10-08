@@ -46,6 +46,33 @@ const SECTIONS: HubSection[] = [
       { href: '/blog/diatomaceous-earth-canada-buyers-guide', title: 'Diatomaceous Earth Canada — Buyers Guide', blurb: 'A related crawling-insect product — the mechanical dust that abrades insects but does nothing to mice or rats.', tone: 'skip' },
     ],
   },
+  {
+    name: 'Identification & How-To Guides',
+    icon: '🔎',
+    intro: 'These are identification and how-to references for readers anywhere in North America, and they carry no product links. They cover which mouse you are looking at, how mice behave and get indoors, what repellents, traps and rodenticides can and cannot do, and when to bring in a professional. Start with the complete mouse reference if you want the whole picture in one place.',
+    guides: [
+      { href: '/learn/mice', title: 'Mice: The Complete Reference', blurb: 'The whole subject in one place: species, signs of an infestation, how mice get in, and the seal up, trap up, clean up sequence.' },
+      { href: '/blog/types-of-mice', title: 'Types of Mice', blurb: 'How to tell a house mouse, a deer mouse and a white-footed mouse apart, plus the voles, shrews and young rats that are often called mice.' },
+      { href: '/blog/deer-mice', title: 'Deer Mice', blurb: 'How to tell a deer mouse from a house mouse, where deer mice live, what CDC says about hantavirus, and how to keep them out of homes, cabins and sheds.' },
+      { href: '/blog/field-mice', title: 'Field Mice', blurb: 'What people mean by field mice, how to tell which animal you have, when they move indoors, and how control differs from house mice.' },
+      { href: '/blog/baby-mice', title: 'Baby Mice', blurb: 'What mouse pups look like as they grow, how fast mice breed, and what finding a nest says about the size of the problem.' },
+      { href: '/blog/how-long-do-mice-live', title: 'How Long Do Mice Live?', blurb: 'Mouse lifespan outdoors, indoors and as pets, how long they last without food or water, and what that means for waiting a problem out.' },
+      { href: '/blog/what-do-mice-eat', title: 'What Do Mice Eat?', blurb: 'What mice eat outdoors and in a house, what they gnaw that is not food, and what that means for trap bait and food storage.' },
+      { href: '/blog/are-mice-nocturnal', title: 'Are Mice Nocturnal?', blurb: 'When mice are active, what a daytime sighting suggests, and how to use their schedule for trap timing and inspection.' },
+      { href: '/blog/can-mice-climb-walls', title: 'Can Mice Climb Walls?', blurb: 'Which surfaces mice can climb, how small a gap they fit through, and what that means for sealing a house.' },
+      { href: '/blog/steel-wool-for-mice', title: 'Steel Wool for Mice', blurb: 'Whether steel wool stops mice, how to pack it and lock it in with caulk, where it fails, and when copper mesh or hardware cloth is the better material.' },
+      { href: '/blog/mice-repellent', title: 'Mice Repellents by Type', blurb: 'Scent products, ultrasonic devices, predator scents, mothballs and ammonia, with what the evidence says for each.' },
+      { href: '/blog/peppermint-oil-for-mice', title: 'Peppermint Oil for Mice', blurb: 'Where the idea comes from, what the limited research shows, how fast the scent fades, and what to know if you have cats or other pets.' },
+      { href: '/blog/what-smells-do-mice-hate', title: 'What Smells Do Mice Hate?', blurb: 'Peppermint, ammonia, vinegar, cayenne, cloves, dryer sheets, cinnamon and predator scents, each with an evidence rating.' },
+      { href: '/blog/do-mothballs-keep-mice-away', title: 'Do Mothballs Keep Mice Away?', blurb: 'Whether mothballs repel mice, what their pesticide label allows, and what the National Pesticide Information Center and EPA say about using them any other way.' },
+      { href: '/blog/vamoose-for-mice', title: 'Vamoose for Mice', blurb: 'What is in the Vamoose repellent pouches according to the label, what the maker claims, and what independent research shows for those ingredients.' },
+      { href: '/blog/mice-traps', title: 'Mice Traps by Type', blurb: 'Snap, electronic, multi-catch, live-catch and glue traps compared, with how many to set, where to place them and what CDC advises.' },
+      { href: '/blog/mice-poison', title: 'Mice Poison: The US Rules', blurb: 'The rodenticide active ingredient classes, the US EPA rules for consumer products, the risks to children, pets and wildlife, and what to do after an exposure.' },
+      { href: '/blog/how-to-get-rid-of-mice-humanely', title: 'How to Get Rid of Mice Humanely', blurb: 'Why exclusion comes first, what humane means for a kill trap, and the problems with live-catch and release, glue traps and poison.' },
+      { href: '/blog/mice-removal', title: 'Mice Removal', blurb: 'Getting mice out of walls, attics, crawl spaces, garages and vehicles, and the CDC method for cleaning up droppings and nests.' },
+      { href: '/blog/mice-exterminator', title: 'Hiring a Mice Exterminator', blurb: 'What an exterminator does on a mouse job, typical US price ranges with the source and date stated, and how to check a license with your state.' },
+    ],
+  },
 ]
 
 const POSTS_LINKED = SECTIONS.reduce((n, s) => n + s.guides.length, 0)

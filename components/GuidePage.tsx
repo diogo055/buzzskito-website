@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import type { ReactNode } from 'react'
-import AuthorByline from '@/components/AuthorByline'
 import { BUSINESS } from '@/lib/constants'
 import { US_GUIDE_BUILT, US_GUIDE_PLANNED } from '@/lib/us-guide-built'
 import { type Guide, type GuideBlock, CLUSTER_LABEL, CLUSTER_PILLAR, guidePath, guideSchemas, regionalPair, slugifyHeading } from '@/lib/guides'
@@ -97,6 +96,42 @@ const DISCLAIMER: Record<string, string> = {
     'This guide is general educational information, not medical advice. If you have symptoms or concerns after a bite or exposure, contact a healthcare provider.',
   pesticide:
     'Use any pesticide exactly as its label directs. The label is the law, and what is registered and sold varies by state.',
+}
+
+const longDate = (iso: string) => new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })
+
+/**
+ * Who stands behind the page, stated accurately.
+ *
+ * These guides were drafted with AI assistance and fact-checked by a second AI pass, so they
+ * do NOT carry the site's usual "By <person>" byline: Google asks for accurate authorship and
+ * Mediavine does not monetize undisclosed AI content. The publisher is named instead.
+ *
+ * When a person has actually read and approved a guide, add "reviewedBy" and "reviewedOn" to
+ * that guide's JSON file. The byline and the note at the foot of the page then say so. Only
+ * add them when it is true.
+ */
+function Byline({ guide }: { guide: Guide }) {
+  const reviewed = Boolean(guide.reviewedBy && guide.reviewedOn)
+  return (
+    <div className="not-prose flex items-center gap-3 py-4 border-y border-gray-200 my-6 text-sm text-gray-700">
+      <div className="w-10 h-10 rounded-full bg-gradient-to-br from-brand-700 to-brand-900 text-white flex items-center justify-center font-bold flex-shrink-0" aria-hidden="true">B</div>
+      <div className="flex-1 min-w-0">
+        <p className="font-semibold text-brand-900">
+          {reviewed ? (
+            <>Reviewed by <Link href={BUSINESS.author.url} className="hover:underline">{guide.reviewedBy}</Link></>
+          ) : (
+            <>Published by <Link href="/buzzskito-history" className="hover:underline">BuzzSkito Mosquito &amp; Tick Control</Link></>
+          )}
+        </p>
+        <p className="text-xs text-gray-600">
+          Published {longDate(guide.datePublished)}
+          {guide.dateModified && guide.dateModified !== guide.datePublished ? <> · Updated {longDate(guide.dateModified)}</> : null}
+          {' '}· Drafted with AI assistance and fact-checked against the <a href="#sources" className="underline">sources listed below</a>
+        </p>
+      </div>
+    </div>
+  )
 }
 
 function PublisherBox({ guide }: { guide: Guide }) {
@@ -196,7 +231,7 @@ export default function GuidePage({ guide }: { guide: Guide }) {
 
       <article className="py-10 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
-          <AuthorByline datePublished={guide.datePublished} dateModified={guide.dateModified} />
+          <Byline guide={guide} />
 
           {pair && pair.us === path && (
             <p className="not-prose -mt-2 mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">
@@ -246,7 +281,9 @@ export default function GuidePage({ guide }: { guide: Guide }) {
           {/* Mediavine does not monetize "undisclosed" AI content, so the method is stated plainly.
               Keep this sentence true: it describes how these guides were actually produced. */}
           <p className="text-sm text-gray-500 mt-4">
-            How this guide was made: it was researched and drafted with AI assistance from the sources listed above, then every factual claim was checked against those sources in a separate review pass. Found an error? Email {BUSINESS.email}.
+            How this guide was made: it was researched and drafted with AI assistance from the sources listed above. A second, independent AI pass then checked each factual claim against those sources.
+            {guide.reviewedBy && guide.reviewedOn ? <> It was then read and approved by {guide.reviewedBy} on {longDate(guide.reviewedOn)}.</> : null}
+            {' '}Found an error? Email {BUSINESS.email}.
           </p>
 
           <PublisherBox guide={guide} />

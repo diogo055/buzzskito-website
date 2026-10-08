@@ -1,5 +1,11 @@
 import type { MetadataRoute } from 'next'
 import { SITE_URL, CITIES, NEW_BLOGS_STEAMER_HOME, NEW_BLOGS_WINTER_EARNERS, NEW_BLOGS_BEDBUG_HIGH_TICKET, NEW_BLOGS_AUTUMN_EXCLUSION, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6, NEW_BLOGS_7, NEW_BLOGS_8, NEW_BLOGS_9, NEW_BLOGS_10, NEW_BLOGS_11, NEW_BLOGS_12, NEW_BLOGS_13, NEW_BLOGS_14, NEW_BLOGS_15, NEW_BLOGS_16, NEW_BLOGS_17, NEW_BLOGS_18, NEW_BLOGS_19, NEW_BLOGS_20, NEW_BLOGS_21, NEW_BLOGS_22, NEW_BLOGS_23, NEW_BLOGS_24, NEW_BLOGS_25, NEW_BLOGS_26, NEW_BLOGS_27, NEW_BLOGS_28, NEW_BLOGS_29, NEW_BLOGS_30, NEW_BLOGS_31, NEW_BLOGS_32, NEW_BLOGS_33, NEW_BLOGS_34, NEW_BLOGS_35, NEW_BLOGS_36, NEW_BLOGS_37, NEW_BLOGS_38, NEW_BLOGS_STEAMER_LANDLORD, NEW_BLOGS_49, NEW_BLOGS_44, NEW_BLOGS_DEHUMIDIFIER_PRO, NEW_BLOGS_DEHUMIDIFIER_SPACES, NEW_BLOGS_47, NEW_BLOGS_HIGH_BASKET_AUG22, NEW_BLOGS_FALL_AUG31 } from '@/lib/constants'
+import { NEW_BLOGS_US_GUIDES } from '@/lib/constants'
+
+// The North American pest hubs and the two product-guide hubs added with them (Oct 2026).
+// They carry their own date so the sitemap's lastmod is true for them without touching
+// LAST_CONTENT_UPDATE, which would claim every other page changed too.
+const US_GUIDES_PUBLISHED = '2026-10-07T12:00:00.000Z'
 
 // Static lastModified date — update this only when making real content changes.
 // Using new Date() on every request makes Google distrust the lastmod signal.
@@ -49,6 +55,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/learn/ontario-mosquito-tick-diseases`,    lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${SITE_URL}/learn/how-to-combat-mosquitoes`,          lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${SITE_URL}/learn/how-to-combat-ticks`,               lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
+    // ── North American pest hubs (Oct 2026) — listed before the guides they anchor ──
+    { url: `${SITE_URL}/learn/bed-bugs`,                          lastModified: US_GUIDES_PUBLISHED, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${SITE_URL}/learn/ants`,                              lastModified: US_GUIDES_PUBLISHED, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${SITE_URL}/learn/mice`,                              lastModified: US_GUIDES_PUBLISHED, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${SITE_URL}/learn/cockroaches`,                       lastModified: US_GUIDES_PUBLISHED, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${SITE_URL}/pest-product-guides/ant-control`,         lastModified: US_GUIDES_PUBLISHED, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE_URL}/pest-product-guides/cockroach-control`,   lastModified: US_GUIDES_PUBLISHED, changeFrequency: 'weekly', priority: 0.8 },
     // /about removed (page doesn't exist), /privacy-policy removed (noindex)
     { url: `${SITE_URL}/terms`,                         lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'yearly',  priority: 0.3 },
   ]
@@ -259,6 +272,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...NEW_BLOGS_DEHUMIDIFIER_PRO,
     ...NEW_BLOGS_HIGH_BASKET_AUG22,
     ...NEW_BLOGS_FALL_AUG31,
+    ...NEW_BLOGS_US_GUIDES,
   ]
 
   // Add blog posts from constants

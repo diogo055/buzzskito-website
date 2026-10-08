@@ -147,7 +147,7 @@ writeFileSync(join(ROOT, 'build-manifest.json'), JSON.stringify({
 const media = []
 for (const { g, path } of guides) for (const b of g.body) if (b.type === 'media') media.push({ path, needed: b.needed })
 mkdirSync(join(ROOT, 'reports'), { recursive: true })
-writeFileSync(join(ROOT, 'reports', 'us_pages_media_needed.md'), `# Photos and diagrams the new guides still need\n\n${media.length} images across ${new Set(media.map((m) => m.path)).size} pages. Each one is marked in the page's content file as a \`media\` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones.\n\n${[...new Set(media.map((m) => m.path))].map((p) => `## ${p}\n\n${media.filter((m) => m.path === p).map((m) => `- ${m.needed}`).join('\n')}`).join('\n\n')}\n`)
+writeFileSync(join(ROOT, 'reports', 'us_pages_media_needed.md'), `# Photos and diagrams the new guides still need\n\n${media.length} images across ${new Set(media.map((m) => m.path)).size} pages. Each one is marked in the page's content file as a \`media\` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.\n\n${[...new Set(media.map((m) => m.path))].map((p) => `## ${p}\n\n${media.filter((m) => m.path === p).map((m) => `- ${m.needed}`).join('\n')}`).join('\n\n')}\n`)
 
 // ── 5. public/llms.txt: tell AI crawlers the library exists ─────────────────────
 const llmsPath = join(ROOT, 'public', 'llms.txt')

@@ -1,0 +1,250 @@
+{
+  "slug": "bed-bugs",
+  "kind": "pillar",
+  "cluster": "bed-bugs",
+  "keyword": "bed bugs",
+  "alsoTargets": [],
+  "metaTitle": "Bed Bugs: Identification, Signs and Treatment",
+  "metaDescription": "Bed bugs are flat, reddish-brown insects up to 1/4 inch long that feed on blood at night. How to identify, find, treat and prevent them, with sources.",
+  "h1": "Bed Bugs: Identification, Signs, Risks and Treatment",
+  "dek": "A source-checked reference to bed bugs for US households: how to identify every life stage, how infestations start, what bites mean for your health, and which treatments work and which do not.",
+  "breadcrumb": "Bed Bugs",
+  "excerpt": "Bed bugs are flat, reddish-brown insects up to 1/4 inch long that hide near beds and feed at night. Identification, signs, health effects, prevention and every treatment option.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Bed bugs are small, flat, reddish-brown insects, 3/16 to 1/4 inch long as adults, that hide close to where people sleep and feed on blood at night.** The [CDC says they are not known to spread disease](https://www.cdc.gov/bed-bugs/about/index.html), but bites itch, numbers build quickly, and clearing an infestation takes heat, cleaning, monitoring and correctly labeled pesticides used together.",
+    "bullets": [
+      "Unfed adults are about the size of an apple seed, 3/16 to 1/4 inch (5 to 7 mm) long, and turn swollen and reddish-brown after feeding.",
+      "Nymphs pass through five stages, from about 1/16 inch (1.5 mm) to just under 3/16 inch (4.5 mm), and need a blood meal before each molt.",
+      "Eggs hatch in about a week at room temperature, and at 70 to 80°F a bed bug can mature in as little as a month.",
+      "Virginia Tech puts the thermal death point at 118°F for adults and nymphs and 122°F for eggs, which is why dryers, steam and professional heat treatments are central to control.",
+      "Studies in infested apartments suggest about 30 percent of people do not react to bites, so an infestation can grow without anyone noticing.",
+      "EPA has registered more than 300 products for bed bugs, but rubbing alcohol, foggers, mothballs and ultrasonic devices all performed poorly in the university studies Rutgers reviewed."
+    ]
+  },
+  "facts": {
+    "title": "Bed bugs at a glance",
+    "rows": [
+      ["Scientific name", "*Cimex lectularius* (common bed bug)"],
+      ["Adult size", "3/16 to 1/4 inch (5 to 7 mm), about the size of an apple seed"],
+      ["Color", "Brown and flat when unfed; reddish-brown and swollen after feeding"],
+      ["Nymph stages", "Five, from about 1/16 inch (1.5 mm) to just under 3/16 inch (4.5 mm)"],
+      ["Eggs hatch in", "About a week at room temperature"],
+      ["Egg to adult", "As little as a month at 70 to 80°F"],
+      ["A blood meal takes", "About 3 to 10 minutes"],
+      ["Survival without feeding", "About 1 to 4 months in temperature-controlled buildings; potentially a year or longer at 55°F or below"],
+      ["Heat that kills", "118°F for adults and nymphs, 122°F for eggs (Virginia Tech)"],
+      ["Disease", "Not known to spread disease to people"],
+      ["People who do not react to bites", "About 30 percent, in studies of infested apartments"],
+      ["EPA-registered bed bug products", "More than 300, in seven chemical classes"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What are bed bugs?" },
+    { "type": "p", "text": "Bed bugs are small, wingless insects that feed on the blood of sleeping people and hide in and around the bed between meals. The species this reference covers is the common bed bug, *Cimex lectularius*, which the [University of Kentucky's bed bug fact sheet](https://entomology.mgcafe.uky.edu/ef636) says prefers feeding on humans but will also bite other warm-blooded animals. The [CDC describes bed bugs](https://www.cdc.gov/bed-bugs/about/index.html) as small, flat, reddish-brown and wingless, up to roughly 1/4 inch long (it gives the range as 1 mm to 7 mm), about the size of Lincoln's head on a penny, and found anywhere from North and South America to Africa, Asia and Europe." },
+    { "type": "p", "text": "Three facts shape everything else on this page:" },
+    { "type": "ul", "items": [
+      "**They are a nuisance and a health burden, not a disease carrier.** The CDC says bed bugs are not known to spread diseases to people.",
+      "**They are not a sign of a dirty home.** The CDC says how clean a place is does not determine whether bed bugs are present, and the University of Kentucky explains why: the bugs feed solely on blood, so a pristine home can be as vulnerable as a neglected one.",
+      "**They are hard to eliminate.** They hide in narrow cracks, survive for months without feeding, and according to EPA some populations have become resistant to pyrethrins and pyrethroids, two of the insecticide classes registered for them."
+    ] },
+    { "type": "p", "text": "Bed bugs have rebounded in recent years. The University of Kentucky attributes the comeback to several probable causes: less potent insecticides, global travel, and the loss of the vigilance people practiced in earlier decades." },
+
+    { "type": "h2", "text": "What do bed bugs look like at each life stage?" },
+    { "type": "p", "text": "An adult bed bug that has not fed recently is brown, flat and oval, and about the size of an apple seed: 3/16 to 1/4 inch (5 to 7 mm) long, according to [EPA's page on bed bug appearance and life cycle](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle). After a blood meal the same bug is balloon-like, reddish-brown and more elongated. EPA also describes a musty, sweetish odor produced by glands on the underside of the body. The University of Kentucky adds a useful caution on scale: the color resembles an apple seed, but the size is closer to a lentil. The guide to [what bed bugs look like](/blog/what-do-bed-bugs-look-like) covers shape, color and scale in more detail." },
+    { "type": "media", "needed": "Macro photo of an unfed adult bed bug and a recently fed adult side by side next to an apple seed and a US penny for scale, top-down, showing the flat brown oval body versus the swollen reddish-brown one" },
+    { "type": "h3", "text": "Nymphs and eggs" },
+    { "type": "p", "text": "Young bed bugs, called nymphs, are smaller than adults and translucent or whitish-yellow, and EPA warns that an unfed nymph can be nearly invisible to the naked eye because of its color and size. A nymph passes through five stages before adulthood:" },
+    { "type": "table", "head": ["Life stage", "Length"], "rows": [
+      ["Egg", "About 1/25 inch (1 mm), the size of a pinhead"],
+      ["1st-stage nymph", "About 1/16 inch (1.5 mm)"],
+      ["2nd-stage nymph", "About 0.08 inch (2 mm)"],
+      ["3rd-stage nymph", "About 0.1 inch (2.5 mm)"],
+      ["4th-stage nymph", "About 1/8 inch (3 mm)"],
+      ["5th-stage nymph", "Just under 3/16 inch (4.5 mm)"],
+      ["Unfed adult", "3/16 to 1/4 inch (5 to 7 mm)"]
+    ], "caption": "Millimeter lengths and the adult inch range are EPA's. The inch figures for the egg and nymph stages are rounded conversions." },
+    { "type": "p", "text": "Each nymph must take a blood meal before it can molt to the next stage, and it sheds its skin five times on the way to adulthood, according to the University of Kentucky, which describes newly hatched nymphs as straw-colored and no bigger than a pinhead. Those empty skins are one of the standard signs inspectors look for. Stage-by-stage detail, and what a find of young bugs implies, is in the guide to [baby bed bugs](/blog/baby-bed-bugs-nymphs)." },
+    { "type": "p", "text": "Eggs are pearl-white and about the size of a pinhead, and EPA notes that an egg more than five days old is marked by an eye spot. The University of Kentucky describes them as whitish, hard to see without magnification, and sticky when first laid, so they stay attached to the surface where the female leaves them." },
+    { "type": "media", "needed": "Close-up photo of bed bug eggs, a translucent first-stage nymph and a shed skin in a mattress seam, with a ruler marked in sixteenths of an inch along the edge of the frame" },
+    { "type": "h3", "text": "Are bed bugs ever black?" },
+    { "type": "p", "text": "Bed bugs are brown to reddish-brown, not black: EPA describes unfed adults as brown and fed ones as reddish-brown. What people usually report as black is the fecal spotting the bugs leave on bedding, which the University of Kentucky describes as blackish, or a different insect altogether. The guide to [black bed bugs and black spots on a mattress](/blog/black-bed-bugs) sorts out which one you are looking at." },
+    { "type": "h3", "text": "Which insects are mistaken for bed bugs?" },
+    { "type": "p", "text": "The closest look-alikes are the bed bug's own relatives. The University of Kentucky notes that some bed bug species are parasites of bats or of birds such as swallows and chimney swifts, and that they may bite people, especially once the wild hosts are gone. They look similar, but entomologists and pest professionals can tell them apart, and the fix is different: the roosting and nesting sites become the focus of treatment, along with keeping the animals out. That is one reason [EPA's do-it-yourself bed bug guidance](https://www.epa.gov/bedbugs/do-it-yourself-bed-bug-control) starts with collecting a sample of the pest and showing it to an extension agent or another insect expert before any treatment begins." },
+    { "type": "p", "text": "Carpet beetles, spider beetles, booklice and fleas are compared side by side in the guide to [bugs that look like bed bugs](/blog/bugs-that-look-like-bed-bugs). Two other common mix-ups have their own references on this site: small cockroach nymphs, covered in the [cockroach reference](/learn/cockroaches), and ticks, which stay attached to the skin while they feed and are covered in the [tick control guide](/blog/ultimate-tick-control-guide-ontario)." },
+
+    { "type": "h2", "text": "How do bed bugs live, feed and reproduce?" },
+    { "type": "p", "text": "Bed bugs hide close to where people sleep, feed on blood at night and, under favorable conditions, can mature in as little as a month, which is why a small introduction does not stay small. The University of Kentucky gives the timeline:" },
+    { "type": "ul", "items": [
+      "**Eggs.** A female lays one, two or more eggs a day in secluded places, potentially hundreds in her lifetime, and at room temperature they hatch in about a week.",
+      "**Growth.** Nymphs molt five times, and a blood meal is needed between each molt.",
+      "**Speed.** With temperatures of 70 to 80°F and a ready supply of blood, a bed bug can mature in as little as a month, and a population can produce multiple generations a year.",
+      "**Lifespan.** Given adequate resources, the average bed bug lives about 10 months."
+    ] },
+    { "type": "p", "text": "Feeding is quick and usually goes unnoticed. Bed bugs are active mainly at night, a full blood meal takes about three to 10 minutes, and right after feeding the bug crawls back to a secluded spot to digest, the University of Kentucky reports. The CDC explains why the bite is not felt: the bug injects an anesthetic and an anticoagulant as it feeds." },
+    { "type": "p", "text": "Bed bugs also outlast long gaps between meals. The CDC says they can live several months without a blood meal. The University of Kentucky puts the typical figure at about 1 to 4 months in temperature-controlled buildings, and potentially a year or longer at 55°F or below. Its conclusion is that leaving a home empty to starve an infestation is usually impractical." },
+    { "type": "p", "text": "Heat is their real weakness. [Virginia Tech's fact sheet on bed bug heat treatments](https://www.pubs.ext.vt.edu/ENTO/ento-583/ento-583.html) gives the thermal death point as 118°F for adults and nymphs and 122°F for eggs. Those two numbers are behind most of the non-chemical treatments described below." },
+
+    { "type": "h2", "text": "How do bed bug infestations start and spread?" },
+    { "type": "p", "text": "Bed bugs are carried in; they do not fly in. They cannot fly or jump the way fleas do, but the University of Kentucky notes they crawl rapidly over floors, walls and ceilings. The CDC lists the usual carriers: the seams and folds of luggage, overnight bags, folded clothes, bedding and furniture. The University of Kentucky adds secondhand beds and furniture, and says bugs can also come in on a person's clothing, shoes or wheelchair." },
+    { "type": "p", "text": "Once indoors they settle near a sleeping person. According to the CDC, bed bugs can travel more than 100 feet in a night but tend to live within 8 feet of where people sleep. In multi-unit buildings they also move between homes: the University of Kentucky describes them crawling from room to room and floor to floor through cracks and openings in walls, floors and ceilings, and says they often wander between apartments. Nobody is exempt: the CDC states that everyone is at risk of getting bed bugs when visiting an infested area." },
+
+    { "type": "h2", "text": "What are the signs of a bed bug infestation?" },
+    { "type": "p", "text": "The dependable signs are physical traces on and around the bed, not bites. Besides bite marks, the CDC tells people to look for shed exoskeletons, bed bugs in the folds of mattresses and sheets, rusty-colored blood spots on mattresses or nearby furniture, and a sweet, musty odor. The University of Kentucky tells inspectors to look for three things: the bugs themselves, the shed skins of nymphs, and blackish fecal spots." },
+    { "type": "ul", "items": [
+      "**Live bugs.** Brown, flat adults and paler nymphs tucked into seams and crevices.",
+      "**Dark spots.** Blackish fecal spots in and around the places the bugs hide.",
+      "**Rusty spots.** Rust-colored blood marks on the mattress or on furniture near the bed, or reddish smears on sheets where a blood-filled bug was crushed.",
+      "**Shed skins.** Empty skins left behind after each of the five molts.",
+      "**Eggs.** Pearl-white and pinhead-sized, stuck in protected places.",
+      "**Odor.** A sweet, musty smell is on the CDC's list, but the University of Kentucky says the odor is seldom apparent except in extreme infestations and should not be relied on for detection."
+    ] },
+    { "type": "p", "text": "Bites on their own prove little, because they resemble other insect bites and many people do not react at all, as the section on bites below explains. What each sign looks like on bedding, and what to do the day you find it, is covered in the guide to [bed bug signs on a mattress](/blog/bed-bugs-on-mattress)." },
+    { "type": "h3", "text": "Where should you look first?" },
+    { "type": "p", "text": "Start at the bed and work outward. The CDC says the bugs hide during the day in places on or around the bed, and the University of Kentucky names the seams, folds and crevices of the mattress, box spring, bed frame and headboard, including the upper seams and underside of the box spring. As numbers grow, its list widens:" },
+    { "type": "ul", "items": [
+      "Along and under the edge of wall-to-wall carpeting, and in cracks in wood molding.",
+      "Where the ceiling meets the wall, and under loose wallpaper.",
+      "Behind wall-mounted pictures and mirrors, and behind outlet and switch plates.",
+      "In clothing and clutter in closets, and along book bindings.",
+      "Inside clocks, phones, televisions and smoke detectors."
+    ] },
+    { "type": "p", "text": "The room-by-room version, including how to check a hotel room, is in the guide to [where bed bugs hide](/blog/where-do-bed-bugs-hide)." },
+    { "type": "media", "needed": "Labeled diagram of a bedroom showing bed bug hiding places ranked by distance from the sleeper: mattress seams and tags, box spring underside, headboard, bed frame joints, nightstand, baseboard, outlet plate, picture frame, closet" },
+    { "type": "h3", "text": "How do you inspect properly?" },
+    { "type": "p", "text": "A real inspection means taking the bed apart. The University of Kentucky's method is to dismantle the bed and stand each component on edge so the upper and lower seams and surfaces can be examined, and it warns that a thorough inspection and treatment may take up to several hours." },
+    { "type": "p", "text": "Two aids find infestations that eyes miss. Interceptors are small plastic dishes placed under the legs of beds and seating that trap wandering bugs. [Rutgers University's review of bed bug control methods](https://njaes.rutgers.edu/fs1251/) cites a building-wide inspection in which traps alone detected 95% of the infestations, and suggests about 8 to 12 traps for a one-bedroom apartment. The University of Kentucky also notes that some companies use specially trained dogs to find small, dispersed infestations, and cautions that reliability can vary from one canine inspection to the next." },
+
+    { "type": "h2", "text": "What do bed bug bites look like, and are bed bugs dangerous?" },
+    { "type": "p", "text": "Bed bug bites look much like mosquito or flea bites, a slightly swollen, red area that may itch, and the CDC says bed bugs are not known to spread diseases to people. Timing confuses many people. According to the CDC, most people do not notice bite marks until one to several days after the bite, and in some people the marks take as long as 14 days to develop." },
+    { "type": "p", "text": "Reactions differ widely from person to person. The University of Kentucky reports that many people develop an itchy red welt within a day or so, others have little or no reaction, and about 30 percent do not react even when bitten repeatedly, with still higher rates of non-reaction among the elderly. That is one reason two people sharing a bed can show very different marks. What the marks look like on skin, how long they last and how to tell them from other bites are covered in the guide to [bed bug bites](/blog/bed-bug-bites)." },
+    { "type": "p", "text": "The documented health effects are these. The CDC lists itching and loss of sleep, notes that intense itching can lead to excessive scratching and possibly a secondary skin infection, and describes allergic symptoms that can include enlarged bite marks, painful swelling at the bite site and, on rare occasions, anaphylaxis. The University of Kentucky adds that bed bugs can harbor various pathogens, but transmission to humans has not been proven and is considered unlikely, and that infestations reduce quality of life through discomfort, sleeplessness, anxiety and embarrassment." },
+    { "type": "callout", "tone": "warning", "title": "When to contact a healthcare provider", "text": "The CDC advises speaking with your healthcare provider if you think you are having an allergic reaction to bed bug bites. For ordinary bites it suggests antiseptic creams or lotions for the itch and avoiding scratching to prevent secondary infection, and says an antihistamine may help with itchy inflammatory reactions. A bite that looks infected is another reason to contact a provider." },
+    { "type": "p", "text": "Because the marks themselves look alike, where and when you were bitten tells you more than the bite does. The University of Kentucky notes that bed bugs are suspect when you wake with itchy welts you did not have at bedtime, and that the welts are often wrongly blamed on mosquitoes. If your bites follow evenings outdoors instead, the [backyard mosquito control guide](/blog/ultimate-backyard-mosquito-control-guide) deals with that problem." },
+
+    { "type": "h2", "text": "How do you avoid bringing bed bugs home?" },
+    { "type": "p", "text": "You avoid bringing bed bugs home by inspecting beds you sleep in away from home, keeping luggage off the floor, and running secondhand clothing and fabrics through the washer or dryer before they are stored." },
+    { "type": "h3", "text": "When you travel" },
+    { "type": "p", "text": "The University of Kentucky's travel advice is short and practical:" },
+    { "type": "ol", "items": [
+      "Examine the bed sheets and the seams of the mattress, and perhaps the box spring, especially at the head of the bed where the pillows sit.",
+      "Keep luggage off the floor on a stand, a table or another hard surface.",
+      "Unpack only what you need and keep the rest in a zipped suitcase, or keep belongings in sealed plastic pouches or totes.",
+      "If you find bugs, ask for another room, preferably in a different part of the hotel, because infestations sometimes extend to nearby units.",
+      "If you notice itchy welts that suggest bites during your stay, put all clothing directly into the washer or dryer when you get home."
+    ] },
+    { "type": "p", "text": "A suitcase you are worried about can be heat-treated, and the University of Kentucky notes that a hot car can often do the job in summer. It rates inspecting or vacuuming a suitcase as less useful, because bed bugs are difficult to spot in luggage. For perspective, it also says the majority of hotel infestations are limited, often to just a few rooms." },
+    { "type": "h3", "text": "At home" },
+    { "type": "ul", "items": [
+      "**Secondhand furniture.** Avoid bringing discarded mattresses and sofas indoors, and closely examine any secondhand item for fecal spots and other signs first.",
+      "**Secondhand clothing.** There is no reason to stop shopping at consignment stores and yard sales, the University of Kentucky says, but run clothing and fabrics through the washer or dryer before storing them.",
+      "**Encasements.** Zippered covers help protect a newly purchased bed and make any bugs on the outer surface easier to spot.",
+      "**Shared buildings.** In apartment buildings, the University of Kentucky recommends routine building-wide inspections by a professional, on a quarterly or twice-yearly schedule for example."
+    ] },
+
+    { "type": "h2", "text": "How do you get rid of bed bugs?" },
+    { "type": "p", "text": "Getting rid of bed bugs takes several methods used together and repeated, not one product, and EPA says the job can take weeks to months depending on the extent of the infestation. EPA's do-it-yourself plan runs in six steps: identify the problem, develop a plan, keep the infestation from spreading, prepare for treatment, kill the bed bugs, then evaluate and prevent. The University of Kentucky is blunt that eradication is difficult and that follow-up treatments are usually needed. The full walk-through, with timelines, is in [how to get rid of bed bugs step by step](/blog/how-to-get-rid-of-bed-bugs); the sections below explain what each tool does and where it stops working." },
+    { "type": "table", "head": ["Method", "What it does", "Main limit"], "rows": [
+      ["Clothes dryer and hot laundering", "Kills eggs and mobile stages in items that fit in the machine", "Does nothing for the bed, the furniture or the room"],
+      ["Professional whole-room heat", "Heats the room until cracks and crevices reach the 122°F that kills eggs", "No lasting protection; cooler cracks can shelter survivors"],
+      ["Steam", "Kills bugs and eggs on contact", "Limited penetration into fabric; no lasting effect"],
+      ["Freezing small items", "Kills bugs in sealed bags held at 0°F for several days", "Only works if the freezer truly holds 0°F"],
+      ["Vacuuming", "Removes some live bugs and shed skins", "Bugs can survive it, and eggs are hard to dislodge"],
+      ["Encasements and interceptors", "Trap bugs inside the mattress and catch bugs moving between bed and floor", "Do not kill bugs hiding elsewhere in the room"],
+      ["Desiccant dusts", "Destroy the waxy outer coating so the bug dries out", "Slow; EPA says they may take several months"],
+      ["EPA-registered sprays", "Kill bed bugs through chemical classes that work in different ways", "Some populations resist pyrethrins and pyrethroids"],
+      ["Structural fumigation", "Fills the sealed building with a lethal gas", "Building vacated for days; offered only by certain companies"]
+    ], "caption": "Summarized from the EPA, University of Kentucky, Virginia Tech and Rutgers sources linked in each section below." },
+    { "type": "h3", "text": "Laundering and the clothes dryer" },
+    { "type": "p", "text": "A hot dryer is the simplest reliable kill step for anything made of fabric. The University of Kentucky recommends laundering bedding and garments at 120°F minimum, or placing bedding, clothing, toys, shoes and backpacks in a dryer on medium-to-high heat for 10 to 20 minutes, and notes that lethal temperatures are reached faster if the items go in dry. Rutgers confirms that drying cycles, alone or combined with a hot wash, kill bed bug eggs and mobile stages. EPA's guidance also uses sealed plastic bags for containment: infested items are bagged until they can be treated, and items that cannot be treated stay sealed for up to a year to be sure any active bugs are dead." },
+    { "type": "h3", "text": "Professional whole-room heat treatment" },
+    { "type": "p", "text": "Whole-room heat can kill bugs and eggs throughout a room in a single visit. Virginia Tech explains that many technicians aim for an air temperature of about 135°F and leave the heaters in place for four to five hours, but it warns that air temperature does not predict what happens in hiding places: floor-wall and ceiling-wall junctions have to be measured to confirm they reach 122°F, the temperature that kills eggs. The University of Kentucky describes the process as gradually heating the air to about 120 to 130°F, and says infestations can often be eliminated in one day." },
+    { "type": "p", "text": "It has clear limits. Virginia Tech notes that bed bugs can escape into cooler cracks and crevices, that it is very common to have a few survivors after a heat treatment, and that houseplants, pets, candles, lipstick and combustibles such as aerosol cans and cigarette lighters have to be removed first. Heat also has no lasting effect if bed bugs are reintroduced, the University of Kentucky notes, and Virginia Tech recommends asking a certified technician for a residual insecticide in the spots that were hard to heat, in case any bugs survive." },
+    { "type": "h3", "text": "Steam" },
+    { "type": "p", "text": "Steam kills bed bugs and their eggs on contact, but only where the steam reaches. EPA sets the bar at a steam temperature of at least 130°F, delivered without a forceful airflow that could scatter the bugs; Rutgers notes that steam near 212°F kills bed bugs instantly. The limits come from the University of Kentucky: steam has limited ability to penetrate fabric and other materials, gives no lasting protection, and is seldom used alone. A longer look at contact killers, and why speed alone never ends an infestation, is in the guide to [what kills bed bugs on contact](/blog/what-kills-bed-bugs-instantly-canada)." },
+    { "type": "h3", "text": "Cold and freezing" },
+    { "type": "p", "text": "Freezing works on small items, but slowly, and the sources do not agree on how long it takes. EPA says items must stay in a sealed bag in a freezer at 0°F for three days, and recommends checking with a thermometer because home freezers are not always set that cold. Rutgers advises four days. The University of Kentucky notes that temperatures merely below 32°F have to be held much longer, one to two weeks for example. The cautious reading is to confirm the freezer holds 0°F and use the longer time." },
+    { "type": "h3", "text": "Vacuuming, encasements and interceptors" },
+    { "type": "p", "text": "These three tools remove bugs, take away hiding places and show whether treatment is working. On vacuuming, the University of Kentucky says targeted passes help remove some of the pests before other treatment, though bed bugs and especially eggs can be difficult to dislodge, and bugs can survive the trip into the vacuum. EPA's instruction is to seal the bag as tightly as possible and throw it out immediately in an outdoor trash container." },
+    { "type": "p", "text": "Encasements are zippered covers that seal the mattress and box spring. EPA explains that bugs trapped inside a sealed cover die there, and Rutgers adds that encasements cut the population immediately, eliminate many hiding places and make inspection much easier. The University of Kentucky supplies the caveat: an encasement will not stop bugs from crawling onto the bed and biting. Interceptors help with that. A trap under each bed leg creates a barrier between bed and floor that can help reduce bites, the University of Kentucky says, and EPA says to check and clean interceptors every week. The [bed bug product guides](/pest-product-guides/bed-bug-control) explain what to look for in each of these tools." },
+    { "type": "h3", "text": "Desiccant dusts" },
+    { "type": "p", "text": "Desiccants kill bed bugs by drying them out, and bed bugs cannot become resistant to them. [EPA's overview of pesticides for bed bugs](https://www.epa.gov/bedbugs/pesticides-control-bed-bugs) explains that these dusts destroy the waxy, protective outer coating so the bug slowly dehydrates, and that because the action is physical, resistance cannot develop. It lists diatomaceous earth and boric acid as examples, and EPA's do-it-yourself page warns that desiccants may take several months to work." },
+    { "type": "p", "text": "Two cautions apply. First, EPA says it is critical to use only desiccants that are registered by EPA and labeled for bed bug control, because food-grade and swimming pool products pose an increased inhalation risk, and that desiccants are limited to crack-and-crevice use to reduce that risk. Second, performance varies by material: the University of Kentucky says diatomaceous earth is messy to apply and will seldom help much, while silica gel, sold as CimeXa, can be very effective if applied correctly. Its advice for silica gel is to apply tiny amounts, barely visible to the naked eye, and the product label says where a dust may be placed." },
+    { "type": "h3", "text": "EPA-registered sprays and other pesticides" },
+    { "type": "p", "text": "EPA has registered more than 300 products for use against bed bugs, in seven chemical classes. Most can be used by consumers, EPA says, while a few are registered only for specially trained professionals." },
+    { "type": "table", "head": ["Chemical class", "What it is", "How EPA says it works"], "rows": [
+      ["Pyrethrins", "Botanical insecticides derived from chrysanthemum flowers", "Kill bed bugs and can flush them out of hiding; some populations are resistant"],
+      ["Pyrethroids", "Synthetic insecticides that act like pyrethrins", "Same action; some populations are resistant"],
+      ["Desiccants", "Dusts such as diatomaceous earth and boric acid", "Destroy the waxy outer coating so the bug dehydrates"],
+      ["Biochemicals", "Cold pressed neem oil, the only one registered", "In trials at label rates, the registered products controlled adults, nymphs and eggs"],
+      ["Pyrroles", "Chlorfenapyr, the only one registered", "Activated into another chemical that disrupts functions in the bug's cells"],
+      ["Neonicotinoids", "Synthetic forms of nicotine", "Make nerves fire continually until they fail; bugs resistant to other classes remain susceptible"],
+      ["Insect growth regulators", "Chemicals that mimic juvenile growth hormones", "Alter chitin production or development into adulthood"]
+    ], "caption": "Source: EPA, Pesticides to Control Bed Bugs." },
+    { "type": "p", "text": "Resistance is the practical problem with the first two classes, which is why EPA says combination products that pair several active ingredients or chemical classes can sometimes improve control. EPA also lists dichlorvos (DDVP), registered as a pest strip for treating small enclosures." },
+    { "type": "p", "text": "The label is the law for every one of these. Choose a product that is registered by EPA and names bed bugs on its label, and use it only on the surfaces and at the rates and intervals the label gives; labels differ on where a product may be applied, including whether it may be used on a mattress. For a closer comparison of formulations, see the guide to [how bed bug sprays compare](/blog/bed-bug-spray-canada), and check any product named there against the label in your hand." },
+    { "type": "h3", "text": "Fumigation" },
+    { "type": "p", "text": "Structural fumigation fills a sealed building with a penetrating gas, and it is not the same thing as a fogger or bug bomb. The University of Kentucky describes it as technically complex: the building is vacated for a period of days, sealed, and injected with a lethal gas, usually sulfuryl fluoride. Only certain companies offer it, it is harder to arrange for apartment buildings than for single-family homes, and it is more common in southern and western states, where the same approach is used against some wood-dwelling termites." },
+
+    { "type": "h2", "text": "What does not work against bed bugs?" },
+    { "type": "p", "text": "Rubbing alcohol, foggers, household cleaners, mothballs, ultrasonic devices and thermostat tricks all perform poorly or fail outright against bed bugs, and several of them are dangerous. The evidence for each:" },
+    { "type": "ul", "items": [
+      "**Rubbing alcohol.** In Rutgers laboratory studies, a direct spray of 70% or 91% rubbing alcohol killed at most 50% of the bed bugs, and Rutgers and EPA both warn that it is flammable and can ignite. The full evidence is in [does alcohol kill bed bugs](/blog/does-alcohol-kill-bed-bugs).",
+      "**Foggers and bug bombs.** Rutgers cites an Ohio State University study that found foggers completely ineffective against bed bugs, and the University of Kentucky calls them ineffective and potentially dangerous when used incorrectly. EPA's instruction is to use one only with extreme care and only if bed bugs are listed on the label.",
+      "**Bleach and household disinfectants.** The University of Kentucky lists bleach alongside alcohol among the things that should not be used, and when Rutgers researchers sprayed bed bugs directly with a disinfectant cleaner believed to control them, all the bugs survived. The guide to [whether Lysol kills bed bugs](/blog/does-lysol-kill-bed-bugs) explains the difference between a disinfectant and an insecticide.",
+      "**Mothballs.** In the test Rutgers describes, fewer than 50% of adult bed bugs were dead after a week, and the mothballs had no significant effect on eggs.",
+      "**Ultrasonic repellers and dryer sheets.** Rutgers cites a university study of four ultrasonic repellers in which none affected bed bug behavior, and says there are no data showing dryer sheets prevent infestations.",
+      "**Most natural sprays.** Of 11 plant-derived or detergent-based products in the Rutgers review, only two achieved more than 90% mortality when sprayed directly onto nymphs in the laboratory.",
+      "**Baits.** Baits of the kind used on ants and cockroaches are ineffective, the University of Kentucky notes, because bed bugs must bite and feed on blood.",
+      "**Thermostats and space heaters.** The University of Kentucky says raising or lowering the thermostat will be unsuccessful, and EPA warns against trying to kill bed bugs by raising indoor temperature with a thermostat, propane space heater or fireplace: it does not work and is dangerous.",
+      "**Lights and repellents.** Sleeping with the lights on is not likely to deter hungry bed bugs, and the University of Kentucky says mosquito and tick repellents do not appear to be as effective against bed bugs and should not be applied at bedtime.",
+      "**Throwing everything out.** Most belongings do not need to be discarded, according to the University of Kentucky, and an encasement is often the more economical choice for a bed."
+    ] },
+
+    { "type": "h2", "text": "How much does bed bug treatment cost, and when should you call a professional?" },
+    { "type": "p", "text": "Published university estimates for professional bed bug treatment run from several hundred dollars to as much as $5,000 for whole-home heat. The University of Kentucky's fact sheet, as revised in March 2026, says treatment can be expensive, often costing several hundred dollars. Virginia Tech's February 2024 fact sheet puts heat treatments at $500 to $5,000, depending on the size of the home and the number of technicians needed. Both are estimates, not quotes; what a company charges depends on the method, the size of the home and how far the infestation has spread." },
+    { "type": "p", "text": "Call a professional as early as your budget allows. The CDC's advice for anyone who thinks they have an infestation is to contact a professional pest control company experienced with treating bed bugs, and the University of Kentucky calls enlisting a professional prudent when resources allow. Rutgers points to the practical advantage: a technician trained in pesticide safety and effective bed bug management. Professional help matters most when:" },
+    { "type": "ul", "items": [
+      "Bugs or signs turn up in more than one room.",
+      "You live in an apartment, condo or other building with shared walls, where neighboring units may be involved.",
+      "Interceptors keep catching bugs after you have treated.",
+      "Someone in the home is reacting strongly to bites or cannot tolerate the disruption of repeated do-it-yourself work.",
+      "The preparation, lifting and dismantling involved is more than the household can manage."
+    ] },
+    { "type": "p", "text": "Expect more than one visit. The University of Kentucky says follow-ups are usually needed, that a thorough inspection and treatment may take up to several hours, and that application means treating all the areas where bugs are found or likely to hide. If a company proposes heat, Virginia Tech's advice is to ask for a residual insecticide in the places that were hard to heat and for a follow-up inspection within a week. And if the cost is out of reach, the University of Kentucky acknowledges that some households will need to tackle the problem themselves, which is what the do-it-yourself steps above are for." },
+
+    { "type": "h2", "text": "Who is responsible for bed bugs in a rental: the tenant or the landlord?" },
+    { "type": "p", "text": "In the United States the answer depends on your state and sometimes your city, because bed bug duties are set there and not by EPA. [EPA's summary of bed bug laws and regulations](https://www.epa.gov/bedbugs/bed-bug-laws-and-regulations) says its own jurisdiction covers the pesticides used against bed bugs, not reporting or management rules. It counts 21 states with some level of law or regulation that applies to bed bugs, says nine states have enacted laws or regulations since 2005, and describes the requirements as focused mostly on hotels and on landlords or other property managers. Chicago is its example of a local government with its own rules, and it notes that the Department of Housing and Urban Development has guidance on controlling bed bugs in public housing." },
+    { "type": "p", "text": "Because the rules change, EPA tells readers to check with state and local authorities for current requirements, and its do-it-yourself guidance notes that landlords may have a responsibility to participate in treatment. Whatever your state says, three steps protect you:" },
+    { "type": "ol", "items": [
+      "**Confirm, then report.** EPA's guidance is to have the pest identified by an extension agent or other expert and, if it is a bed bug, to notify your landlord if you live in an apartment. Keep a dated copy of the notice.",
+      "**Expect neighboring units to be checked.** The University of Kentucky calls it vital to inspect units near a known or suspected infestation: on either side, above, below and across the hall.",
+      "**Do not spread it on the way out.** If furniture has to go, the University of Kentucky advises bagging or wrapping it in plastic so bugs are not dislodged on the way to the curb, and EPA says to rip the covers, remove the stuffing and mark it with the words Bed Bugs in spray paint so nobody takes it home."
+    ] },
+
+    { "type": "h2", "text": "What if it turns out not to be bed bugs?" },
+    { "type": "p", "text": "If the specimen you collected is identified as something else, the plan changes with the pest. Small insects trailing across a kitchen counter in daylight are far more likely to be ants, and the [ant reference](/learn/ants) covers identification and baiting. Solid droppings in cupboards, gnawed packaging or scratching in the walls point to rodents, which the [mice reference](/learn/mice) covers from identification to exclusion." },
+    { "type": "p", "text": "And if no insect is ever found, do not treat on the strength of bites alone. Keep interceptors under the bed legs, keep checking the seams, and get a specimen identified before paying for treatment." }
+  ],
+  "faqs": [
+    { "question": "Can you see bed bugs with the naked eye?", "answer": "Yes, adults are easy to see once you know where to look. EPA describes an unfed adult as about the size of an apple seed, 3/16 to 1/4 inch long, brown, flat and oval. Nymphs are harder: they start at about 1/16 inch (1.5 mm) and are translucent or whitish-yellow, so EPA warns that an unfed nymph can be nearly invisible because of its color and size. Eggs are pearl-white and about the size of a pinhead. A flashlight and a magnifier make the small stages far easier to find in seams and crevices." },
+    { "question": "Do bed bugs spread disease?", "answer": "Bed bugs are not known to spread diseases to people, according to the CDC. The University of Kentucky notes that the bugs can harbor various pathogens, but transmission to humans has not been proven and is considered unlikely. The documented health effects are itching, lost sleep, possible secondary skin infection from scratching, and allergic reactions that on rare occasions include anaphylaxis. The CDC advises speaking with your healthcare provider if you think you are having an allergic reaction to bites." },
+    { "question": "How long can bed bugs live without feeding?", "answer": "Months. The CDC says bed bugs can live several months without a blood meal. The University of Kentucky gives about 1 to 4 months as the typical span in temperature-controlled buildings and says survival is longer where it is cooler, potentially a year or longer at 55°F or below. That is why leaving a bedroom or a whole home empty in the hope of starving them is usually impractical, and why EPA's guidance keeps infested items that cannot be treated sealed in plastic for up to a year." },
+    { "question": "Does having bed bugs mean a home is dirty?", "answer": "No. The CDC says how clean a place is does not determine whether bed bugs are present. The University of Kentucky explains that because the bugs feed solely on blood, pristine homes can be as vulnerable as neglected ones. They arrive by being carried in on luggage, clothing, bedding and furniture, and the CDC says everyone is at risk when visiting an infested area. Clutter matters in one way: closets and piles of belongings are among the hiding places the University of Kentucky lists, so less clutter makes inspection and treatment easier." },
+    { "question": "Do I have to throw out my mattress if it has bed bugs?", "answer": "Usually not. The University of Kentucky says most belongings need not be discarded and that encasing a bed is often the more economical option. A zippered encasement traps any bugs inside, where EPA says they die, and makes bugs on the outside easier to spot. Discarding makes more sense when a bed or upholstered item is heavily infested or has holes and tears that let bugs and eggs get inside. If you do discard it, wrap it in plastic first and mark it clearly so nobody else takes it home." },
+    { "question": "Can bed bugs fly or jump?", "answer": "No. Bed bugs are wingless, and the University of Kentucky notes they do not fly or jump the way fleas do. They crawl, and they do it quickly, moving over floors, walls and ceilings. The CDC says a bed bug can travel more than 100 feet in a night, although they tend to live within 8 feet of where people sleep. Over longer distances they depend on being carried in luggage, bags, clothing, bedding and furniture, which is how they move between homes, hotels and apartment buildings." },
+    { "question": "How long does it take to get rid of bed bugs?", "answer": "Usually weeks to months. EPA says treating bed bugs is complex and can take weeks to months, depending on the extent of the infestation. The University of Kentucky says a professional whole-room heat treatment can often eliminate an infestation in one day, but Virginia Tech notes that a few survivors are very common afterward, and conventional insecticide treatments usually need follow-up visits. For do-it-yourself work, EPA says to keep inspecting at least every 7 days and warns that desiccant dusts may take several months to work. Rutgers advises stopping treatment only after a month of visual inspections and monitors turning up no bed bugs." },
+    { "question": "Do bug bombs work on bed bugs?", "answer": "No. Rutgers University cites an Ohio State University study that found foggers completely ineffective against bed bugs, and the University of Kentucky describes total release foggers as ineffective and potentially dangerous when used incorrectly. A fogger is also not the same as professional fumigation, which seals a vacated building and fills it with a penetrating gas. EPA's guidance is to use a fogger only with extreme care and only if bed bugs are listed on its label." }
+  ],
+  "sources": [
+    { "title": "About Bed Bugs", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/bed-bugs/about/index.html" },
+    { "title": "Bed Bugs Appearance and Life Cycle", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle" },
+    { "title": "Do-it-yourself Bed Bug Control", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/do-it-yourself-bed-bug-control" },
+    { "title": "Pesticides to Control Bed Bugs", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/pesticides-control-bed-bugs" },
+    { "title": "Bed Bug Laws and Regulations", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/bed-bug-laws-and-regulations" },
+    { "title": "Bed Bugs (ENTFACT-636)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef636" },
+    { "title": "Bed Bug Heat Treatments (ENTO-583NP)", "publisher": "Virginia Cooperative Extension, Virginia Tech", "url": "https://www.pubs.ext.vt.edu/ENTO/ento-583/ento-583.html" },
+    { "title": "FS1251: Cost-Effective and Money-Wasting Bed Bug Control Methods", "publisher": "Rutgers New Jersey Agricultural Experiment Station", "url": "https://njaes.rutgers.edu/fs1251/" }
+  ],
+  "disclaimer": "both"
+}

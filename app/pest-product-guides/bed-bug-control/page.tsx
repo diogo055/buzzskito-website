@@ -288,6 +288,58 @@ const SECTIONS: HubSection[] = [
       },
     ],
   },
+  {
+    name: 'Identification & How-To Guides',
+    icon: '📖',
+    intro: 'These are identification and how-to references for readers anywhere in North America, and they carry no product links. Start with what a bed bug looks like and what gets mistaken for one, then move on to where they hide, what to do about a mattress and the full elimination plan. Two more cover the rubbing alcohol and Lysol questions, and the complete reference ties everything together.',
+    guides: [
+      {
+        href: '/blog/what-do-bed-bugs-look-like',
+        title: 'What Do Bed Bugs Look Like?',
+        blurb: 'How big an adult is, its shape and its color before and after feeding, plus the nymph stages, the eggs and how they look on a mattress or skin.',
+      },
+      {
+        href: '/blog/black-bed-bugs',
+        title: 'Are Bed Bugs Black?',
+        blurb: 'Bed bug color by life stage and feeding status, what the black spots on a mattress are, and the small black bugs that get mistaken for them.',
+      },
+      {
+        href: '/blog/bugs-that-look-like-bed-bugs',
+        title: 'Bugs That Look Like Bed Bugs',
+        blurb: 'How to tell a bed bug from bat bugs, swallow bugs, carpet beetles, spider beetles, booklice, cockroach nymphs, fleas and ticks.',
+      },
+      {
+        href: '/blog/where-do-bed-bugs-hide',
+        title: 'Where Do Bed Bugs Hide?',
+        blurb: 'Hiding places ranked by distance from where people sleep, from mattress seams and the box spring out to baseboards, outlets, furniture and luggage.',
+      },
+      {
+        href: '/blog/bed-bugs-on-mattress',
+        title: 'Bed Bugs on a Mattress',
+        blurb: 'What the signs on a mattress look like and what to do about them: vacuum, steam, encase, hot-dry the bedding and isolate the bed.',
+      },
+      {
+        href: '/blog/how-to-get-rid-of-bed-bugs',
+        title: 'How to Get Rid of Bed Bugs',
+        blurb: 'The full elimination plan in order: confirm the ID, contain, prepare, treat with heat and steam, use dusts and registered products as the label directs, then monitor and repeat.',
+      },
+      {
+        href: '/blog/does-alcohol-kill-bed-bugs',
+        title: 'Does Alcohol Kill Bed Bugs?',
+        blurb: 'What rubbing alcohol does to the bed bugs it touches, what it misses, and why spraying it around a bed is a fire hazard.',
+      },
+      {
+        href: '/blog/does-lysol-kill-bed-bugs',
+        title: 'Does Lysol Kill Bed Bugs?',
+        blurb: 'What a household disinfectant can and cannot do against bed bugs, their eggs and the ones hiding out of reach.',
+      },
+      {
+        href: '/learn/bed-bugs',
+        title: 'Bed Bugs — The Complete Reference',
+        blurb: 'Identification, life cycle, signs, bites, inspection, prevention and every treatment option gathered in one reference.',
+      },
+    ],
+  },
 ]
 
 const POSTS_LINKED = SECTIONS.reduce((n, s) => n + s.guides.length, 0)

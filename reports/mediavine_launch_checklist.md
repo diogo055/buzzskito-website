@@ -29,7 +29,7 @@ guide and the glossary. Tell me if you want any of them to show ads.
    required for launch.
 5. **Payment profile and business details** — required before they can pay you.
 
-## Before you press "Launch My Site" — three things
+## Before you press "Launch My Site" — four things
 
 ### 1. Decide what happens at the bottom of the phone screen (my recommendation: their strip off)
 
@@ -66,6 +66,29 @@ asks them to do the three switches above if you would rather not hunt for them.
 
 I can only check real ads once they are running. I want to look at the homepage, three service
 pages and a few articles on a phone and on a desktop right away.
+
+### 4. The new guide library and Mediavine's AI-content policy (added 2026-10-08)
+
+Mediavine's written policy (mediavine.com/ai, March 2024) says: "We do not monetize
+low-quality, mass-produced, unedited or undisclosed AI content that is scraped from other
+websites." AI-assisted content as such is not banned, and they publish no page-count or
+speed limit. Their contract lets them end the agreement at their discretion.
+
+Where the 76 new guides stand against that sentence:
+
+| Their word | The guides |
+|---|---|
+| low-quality | Each cites 3 to 6 government or university sources and was fact-checked claim by claim |
+| scraped | Written from the sources, not copied; no quotes lifted |
+| undisclosed | Each page states it was drafted with AI assistance |
+| unedited | Checked by a second AI pass. **No person has read them yet.** This is the weak point. |
+| mass-produced | 76 pages at once. Nothing they have written sets a number, but it is their word. |
+
+**What closes the gap: you read them.** Google's own guidance says AI-assisted content should
+be manually reviewed before publishing. When you have read a page and are happy with it, tell
+me and I add your name and the date to that page; it then shows "Reviewed by" in its byline.
+Start with the 13 mosquito and tick guides, which are your own field. Point 9 in the note
+below asks Mediavine to confirm the library fits their policy.
 
 ## Note to send to Mediavine (publishers@mediavine.com, or your onboarding contact)
 
@@ -107,6 +130,16 @@ pages and a few articles on a phone and on a desktop right away.
 >    what you need there.
 > 8. Our header is sticky at every screen width and about 93px tall. On desktop and tablet,
 >    sticky in-content ads should stop below it rather than under it.
+>
+> **New content since you approved us**
+>
+> 9. We have added a reference library of about 76 guides on common household pests (bed
+>    bugs, ants, mice, cockroaches, mosquitoes, ticks) for readers in the US and Canada. They
+>    were drafted with AI assistance from government and university sources, each one was then
+>    fact-checked against those sources, and every page says this on the page and lists its
+>    sources. They carry no affiliate links. [Add if true: "I have read and approved each
+>    one."] Please confirm this fits your content policy, or tell us what you would need
+>    changed.
 >
 > Is there anything else you need from us before launch?
 >

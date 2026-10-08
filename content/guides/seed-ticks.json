@@ -1,0 +1,158 @@
+{
+  "slug": "seed-ticks",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "seed ticks",
+  "alsoTargets": ["baby ticks"],
+  "metaTitle": "Seed Ticks (Baby Ticks): Remove Dozens at Once",
+  "metaDescription": "Seed ticks are six-legged larval ticks the size of a period that climb on by the dozens. How to lift them off with tape, the disease risk, and prevention.",
+  "h1": "Seed Ticks: What Baby Ticks Look Like and How to Remove Dozens at Once",
+  "dek": "Seed ticks are newly hatched larval ticks that climb on in clusters. How to tell a six-legged larva from an eight-legged nymph, get a whole patch off quickly, and judge the disease risk using CDC's own guidance.",
+  "breadcrumb": "Seed Ticks",
+  "excerpt": "Seed ticks are six-legged larval ticks that climb on by the dozens in late summer. How to identify them, remove a whole cluster with tape, and what CDC says about the risk.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Seed ticks are larval ticks, the six-legged first stage that hatches from the egg, each about the size of the period at the end of a sentence.** They climb on by the dozens or hundreds because a whole egg mass hatches together, mostly in late summer. [The University of Rhode Island's TickEncounter program](https://web.uri.edu/tickencounter/tick-notes/de-tick-with-duct-tape) recommends lifting loose larvae off with duct tape before they attach.",
+    "bullets": [
+      "Larval ticks have six legs, while nymphs and adults have eight.",
+      "One egg mass can hold 3,000 or more eggs that hatch at about the same time, which is why seed ticks arrive as a swarm.",
+      "Late summer is when a swarm is most likely, especially August and September, according to the University of Rhode Island's tick program.",
+      "CDC says infected female blacklegged ticks do not pass Lyme disease bacteria to their offspring, so larvae hatch without them.",
+      "CDC puts blacklegged tick nymphs at about the size of a poppy seed, and says that in most cases a tick must be attached for more than 24 hours to transmit Lyme disease.",
+      "CDC says 10 minutes in a dryer on high heat kills ticks on dry clothing."
+    ]
+  },
+  "facts": {
+    "title": "Seed ticks at a glance",
+    "rows": [
+      ["What they are", "Larval ticks, the first stage after the egg"],
+      ["Legs", "Six (nymphs and adults have eight)"],
+      ["Size", "About the size of the period at the end of a sentence"],
+      ["How they show up", "Dozens to hundreds together, in a patch the size of a dime or a quarter"],
+      ["Peak season", "Late summer, especially August and September"],
+      ["Species that swarm people", "Lone star tick and blacklegged (deer) tick"],
+      ["Removing loose larvae", "Duct tape, painter's tape or a lint roller, before they attach"],
+      ["Lyme disease", "Blacklegged tick larvae hatch without Lyme bacteria; CDC calls nymphs a particularly high risk"],
+      ["See a doctor", "Rash or fever within several weeks of removing a tick"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What are seed ticks?" },
+    { "type": "p", "text": "Seed ticks are larval ticks: the first active stage after the egg, and the smallest tick you will find on your skin. [University of Illinois Extension](https://hyg.ipm.illinois.edu/article.php?id=465) describes larvae as six-legged and about the size of the period at the end of a sentence. They are not a separate kind of tick. A larva finds a host, feeds, drops off and molts into an eight-legged nymph, and the nymph feeds and molts again into an eight-legged adult." },
+    { "type": "p", "text": "The nickname comes from their size. [The Illinois Natural History Survey](https://blogs.illinois.edu/view/7362/1200658436) gives three common names for lone star tick larvae: seed ticks, turkey ticks and turkey mites. People searching for baby ticks usually mean the same animal, but that phrase is also used for nymphs, and the Illinois Extension article notes that lone star tick larvae and nymphs are both commonly called seed ticks. The distinction matters because the two stages do not carry the same disease risk." },
+    { "type": "p", "text": "CDC's explanation of [how Lyme disease spreads](https://www.cdc.gov/lyme/causes/index.html) gives the blacklegged tick four life stages (egg, larva, nymph and adult) spread over a 2-to-3-year life cycle. This page stays with the two immature stages. A separate explainer follows [the tick life cycle from egg to adult](/learn/tick-life-cycle), and the [complete tick control guide](/blog/ultimate-tick-control-guide-ontario) is the hub for habitat, yard treatment and season-long protection." },
+
+    { "type": "h2", "text": "What do seed ticks look like?" },
+    { "type": "p", "text": "One seed tick looks like a speck about the size of a printed period, small enough that you need a magnifier or a zoomed phone photo to count its legs. What gives seed ticks away is the group. The Illinois Natural History Survey describes dozens to hundreds of lone star tick larvae moving from a plant onto a person together, as patches the size of a dime or a quarter." },
+    { "type": "ul", "items": [
+      "**Size.** About the size of the period at the end of a sentence, according to the Illinois Extension, which calls nymphs pinhead-sized.",
+      "**Legs.** Six. Nymphs and adults have eight.",
+      "**Where they turn up.** On the legs first. The Illinois Extension adds that blacklegged tick larvae and nymphs tend to migrate up the legs and feed in the groin area."
+    ] },
+    { "type": "media", "needed": "Macro photo of a cluster of lone star tick larvae (seed ticks) on a person's ankle at the sock line, with a US dime in frame for scale, showing the patch as dozens of pinpoint specks" },
+    { "type": "media", "needed": "Labeled side-by-side diagram of a tick larva (six legs), nymph (eight legs) and adult female, drawn to relative scale next to a printed period, a poppy seed and a sesame seed" },
+    { "type": "h3", "text": "Seed ticks or baby ticks: is it a larva or a nymph?" },
+    { "type": "p", "text": "Count the legs: a larva has six and a nymph has eight. When the tick is too small to count legs on, size and season are the next best clues." },
+    { "type": "table", "head": ["Stage", "Legs", "Size", "Most active", "Disease note"], "rows": [
+      ["Larva (seed tick)", "6", "About a printed period", "Late summer, especially August and September", "Most hatch free of disease germs; blacklegged larvae hatch without Lyme bacteria"],
+      ["Nymph", "8", "Pinhead to poppy seed", "April through July for blacklegged ticks", "CDC calls blacklegged nymphs a particularly high risk for Lyme disease, because they are abundant and hard to see"],
+      ["Adult", "8", "About a sesame seed, roughly 1/8 inch, for a blacklegged tick", "Early spring and fall for blacklegged ticks", "Adult females can also transmit Lyme bacteria, but CDC says they are more likely to be noticed and removed first"]
+    ], "caption": "Sizes from University of Illinois Extension and CDC; seasons from the University of Rhode Island and CDC." },
+    { "type": "p", "text": "Markings only help once a tick is large enough to show them. The guide to [what ticks look like at each size](/blog/what-do-ticks-look-like) covers the adult features, such as the white spot on a female lone star tick, that separate US species." },
+    { "type": "h3", "text": "Could it be something other than ticks?" },
+    { "type": "p", "text": "The Illinois Natural History Survey notes that larval lone star ticks are sometimes confused with chiggers. The survey does not give a field test for telling the two apart, so the cautious course with a patch of crawling specks is to handle them as ticks: tape them off, keep a sample and watch the bites. If what you found does not fit, compare it with [the bugs most often mistaken for ticks](/blog/bugs-that-look-like-ticks)." },
+
+    { "type": "h2", "text": "Why do seed ticks attack in clusters?" },
+    { "type": "p", "text": "Seed ticks arrive in clusters because they hatch in clusters. [The University of Rhode Island's TickEncounter program](https://web.uri.edu/tickencounter/tick-notes/de-tick-with-duct-tape) explains that a tick egg mass can contain 3,000 or more eggs that all hatch at about the same time, in the same place. People sometimes call the result a tick nest, the program says, but it is one female's eggs hatching together, and it is why a person is more likely to meet a swarm of larvae than a single one." },
+    { "type": "p", "text": "The transfer happens all at once. The Illinois Natural History Survey says the larvae move off vegetation together, and the Illinois Extension warns that walking through an area of newly hatched larvae may put hundreds on your legs." },
+    { "type": "p", "text": "Late summer is the peak. The Rhode Island program says questions about larval tick encounters come in especially in August and September, and the Illinois survey published its seed tick warning on August 27, 2020, reporting the larvae out in abundance. According to the survey, lone star larvae turn up in a wide variety of environments but often not in places that get several hours of full, strong sun a day. [CDC's tick bite prevention page](https://www.cdc.gov/ticks/prevention/index.html) describes tick habitat in general as grassy, brushy or wooded areas." },
+
+    { "type": "h2", "text": "Which ticks do seed ticks come from?" },
+    { "type": "p", "text": "Two species account for the seed tick swarms that the University of Rhode Island's tick program describes: the lone star tick (*Amblyomma americanum*) and the blacklegged or deer tick (*Ixodes scapularis*). The program says late summer is when you are most likely to run into an egg batch's worth of larvae of either one. The Illinois Extension supplies a reason another common tick is missing from that list: both of these species feed on people as larvae, nymphs and adults, while American dog ticks feed on small mammals when young and attack humans only as adults." },
+    { "type": "table", "head": ["Tick", "Do its larvae bite people?", "What to know"], "rows": [
+      ["Lone star tick", "Yes. Larvae, nymphs and adults all feed on people.", "All three university sources cited here attach the name seed tick to this species. Adults are roundish, brown and about 1/8 inch across; females have a white spot on the back."],
+      ["Blacklegged (deer) tick", "Yes. Larvae, nymphs and adults all feed on people.", "Its egg batches also hatch in late summer. One of the two US ticks that spread Lyme disease, although its larvae hatch without the bacteria."],
+      ["American dog tick", "No. Larvae and nymphs feed on small mammals; only adults attack people.", "A tiny tick on a person is unlikely to be this species. Adults are reddish brown and about 3/16 inch long."]
+    ], "caption": "Feeding habits and adult sizes from University of Illinois Extension." },
+    { "type": "p", "text": "Geography matters for the two species that carry Lyme disease. CDC says the blacklegged tick spreads Lyme disease in the northeastern, mid-Atlantic and north-central United States, and the western blacklegged tick (*Ixodes pacificus*) spreads it in areas along the Pacific Coast. State health departments publish their own species lists, and [the guide to ticks in Michigan](/blog/ticks-in-michigan) shows how one Upper Midwest state tracks its species and Lyme risk county by county." },
+
+    { "type": "h2", "text": "How do you remove dozens of seed ticks at once?" },
+    { "type": "p", "text": "Use tape, not tweezers, for the loose ones. Press strips of duct tape, wide painter's tape or a lint roller onto skin and clothing and lift the larvae off before they attach. The University of Rhode Island calls duct tape a very effective way to de-tick when larvae climb on, says lint rollers also work but are less sticky, and stresses that tape works best before the ticks dig in and start to feed. The Illinois Natural History Survey likewise tells people who spot loose larvae to take them off with strips of tape or a lint roller. Tweezers come in afterward, for any tick that has already attached, following [CDC's steps for what to do after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html)." },
+    { "type": "ol", "items": [
+      "Step out of the brush onto a path, pavement or mowed ground so no more larvae climb on while you work.",
+      "Press tape firmly over each patch on skin, socks, shoes and pant legs, peel it away, and repeat with fresh tape until no specks are left.",
+      "Fold each strip over on itself, or seal the used tape in a plastic bag. CDC's disposal options for a live tick include wrapping it tightly in tape or sealing it in a container, and it says not to crush a tick with your fingers.",
+      "Put the clothes you were wearing in a dryer on high heat. CDC says 10 minutes kills ticks on dry clothing (the Illinois survey suggests 15) and that damp clothes may need longer. If the clothes have to be washed first, CDC recommends hot water, because cold and medium temperature water will not kill ticks.",
+      "Shower within two hours of coming indoors. CDC says this has been shown to reduce the risk of Lyme disease and may help wash off ticks that have not attached.",
+      "Do [a full-body tick check](/blog/how-to-do-a-tick-check) with a mirror: under the arms, in and around the ears, inside the belly button, behind the knees, in and around the hair, between the legs and around the waist.",
+      "Remove any tick that is already attached with clean fine-tipped tweezers. Grasp it as close to the skin's surface as possible and pull away with steady, even pressure, without twisting or jerking.",
+      "Clean the bite area and your hands with soap and water, rubbing alcohol or hand sanitizer."
+    ] },
+    { "type": "media", "needed": "Photo of a strip of gray duct tape (or a lint roller sheet) dotted with dozens of tiny seed ticks after being pressed against a pant leg, with a fingertip in frame for scale" },
+    { "type": "callout", "tone": "warning", "title": "Skip the folk remedies", "text": "CDC says not to use petroleum jelly, heat, nail polish or other substances to make a tick let go. Doing so may agitate the tick and force infected fluid into the skin." },
+    { "type": "p", "text": "If a tick's mouthparts break off in the skin, CDC says the body will push them out over time. You can lift them out with tweezers if they come easily; if they do not, leave them alone. CDC also says not to wait for a healthcare provider to remove a tick, because the delay could raise the risk of disease." },
+    { "type": "p", "text": "Check the dog as well. CDC advises examining pets, coats and daypacks because ticks can ride into the home on them, and the Illinois Extension notes that lone star ticks feed on other mammals as well as people at every stage. The guide to [finding and removing ticks on dogs](/blog/ticks-on-dogs) shows where they hide in a coat. Ask a veterinarian before putting any tick product on a pet." },
+
+    { "type": "h2", "text": "Can seed ticks make you sick?" },
+    { "type": "p", "text": "Seed ticks can make you sick, but most hatch carrying nothing to pass on. The University of Rhode Island says deer tick and lone star tick larvae mostly hatch from the egg as germ-free ticks. For Lyme disease the reasoning comes straight from [CDC's Lyme transmission page](https://www.cdc.gov/lyme/causes/index.html): female blacklegged ticks infected with Lyme disease bacteria do not pass the infection to their offspring, and larvae and nymphs become infected when they feed on an infected wildlife host, usually a rodent. A newly hatched blacklegged tick larva therefore starts out without Lyme bacteria." },
+    { "type": "ul", "items": [
+      "**A known exception.** The Rhode Island program qualifies its germ-free statement with the word mostly: at least one germ is known to pass from an infected female tick to her offspring through the egg. It is *Borrelia miyamotoi*, which the program calls hard tick relapsing fever *Borrelia*. It is not the Lyme disease bacterium, and the program says it can make people sick.",
+      "**Lone star larvae.** The Illinois Natural History Survey says bites from lone star larvae have historically not been considered a cause for disease concern. It adds that they have recently been linked, anecdotally and without proof, to [alpha-gal syndrome, the allergy to mammal meat](/blog/alpha-gal-syndrome). CDC's Lyme page says lone star ticks cannot transmit Lyme disease bacteria but can transmit bacteria, parasites and viruses that cause other tickborne diseases; it does not break that risk down by life stage.",
+      "**What is not known.** The CDC pages cited here do not put a number on the chance of illness from a larval tick bite, so treat a mostly germ-free start as lower risk, not as no risk."
+    ] },
+    { "type": "h3", "text": "Why are nymphs the bigger concern?" },
+    { "type": "p", "text": "Nymphs have already taken one blood meal, from an animal that may have been infected, and they are still very hard to see. CDC says nymphal blacklegged ticks pose a particularly high risk because they are abundant and only about the size of a poppy seed, and that they are out seeking hosts from April through July. The Illinois Extension describes the chain plainly: deer tick larvae pick up Lyme disease while feeding on white-footed mice, and the nymphs and adults they become can pass it to people." },
+    { "type": "p", "text": "Attachment time matters too. In most cases, CDC says, a tick must be attached for more than 24 hours before the Lyme disease bacterium can be transmitted, and removing a tick within 24 hours greatly reduces the chance of getting Lyme disease. That is the argument for clearing every tick the same day, whatever its size. CDC names two ticks that spread Lyme disease in the United States, and [pictures of the ticks that carry Lyme disease at each life stage](/blog/ticks-that-carry-lyme-disease) can help you match what you found." },
+
+    { "type": "h2", "text": "What do seed tick bites look like?" },
+    { "type": "p", "text": "Seed tick bites often show up as small itchy bumps, and because the larvae arrive together the bumps tend to come in a group. The Illinois Natural History Survey's description of lone star larvae bites is simply that they often cause itchy little bumps. Expect them where the cluster climbed on, which usually means the legs, and possibly higher for blacklegged tick larvae, since they tend to move up the legs toward the groin." },
+    { "type": "p", "text": "None of the sources reviewed for this page gives a dependable figure for how long the itching lasts, and none describes a way to tell the species or life stage from the bite mark. The ticks themselves are better evidence, so keep a strip of the tape in a sealed plastic bag if you want them identified." },
+    { "type": "media", "needed": "Close-up photo of seed tick bites: a group of small red itchy bumps clustered around an adult's ankle and lower shin above the sock line" },
+    { "type": "h3", "text": "When should you contact a healthcare provider?" },
+    { "type": "p", "text": "See your doctor if you develop a rash or fever within several weeks of removing a tick. That is CDC's stated advice, and it does not depend on the size of the tick. Tell the doctor about the bite, when it happened and where you most likely picked up the tick. This page cannot diagnose a bite or rule out an infection, so contact a healthcare provider about any reaction that worries you." },
+    { "type": "p", "text": "CDC does not recommend having the tick tested for germs, in part because a result, positive or negative, does not show whether you were infected. Watching for symptoms is the better guide." },
+
+    { "type": "h2", "text": "How do you avoid seed ticks?" },
+    { "type": "p", "text": "Protect your feet and lower legs, where seed ticks get on, and take the most care in late summer. Each step below comes from [CDC's guidance on preventing tick bites](https://www.cdc.gov/ticks/prevention/index.html) or from the university sources above." },
+    { "type": "ul", "items": [
+      "**Treat clothing and footwear.** CDC recommends products containing 0.5% permethrin for boots, clothing and camping gear, and says the treatment remains protective through several washings. Use it only as the product label directs.",
+      "**Use an EPA-registered repellent.** CDC lists DEET, picaridin, IR3535, oil of lemon eucalyptus (OLE), para-menthane-diol (PMD) and 2-undecanone as active ingredients, and says not to use OLE or PMD products on children under 3 years old. The label tells you where and how often a product may be applied.",
+      "**Close the gap at the ankle.** The Illinois Natural History Survey recommends tight-weave socks that larvae cannot crawl through, with your pants tucked into them.",
+      "**Stay off the plants.** CDC says to walk in the center of trails, and the Illinois survey says to avoid brushing against vegetation in the woods.",
+      "**Look down often and carry tape.** The Illinois survey suggests a visual check every few minutes, scanning from your torso to your feet on all sides, and the University of Rhode Island suggests keeping duct tape ready in August and September in case of a swarm.",
+      "**Keep the yard short and clear.** The Illinois Extension says mowing greatly reduces tick numbers. CDC adds removing leaf litter, clearing tall grass and brush around the home and lawn edges, and placing a 3-foot-wide barrier of wood chips or gravel between lawn and woods, and it cautions against relying on spraying to lower your risk of infection."
+    ] },
+    { "type": "p", "text": "Heat, permethrin-treated gear and yard products each work on ticks in a different place, and [what kills ticks on clothing, on gear and in the yard](/blog/what-kills-ticks) goes through them one by one." }
+  ],
+  "faqs": [
+    {
+      "question": "Do seed ticks carry Lyme disease?",
+      "answer": "Newly hatched seed ticks do not start out carrying Lyme disease bacteria. CDC states that infected female blacklegged ticks do not pass the infection to their offspring, and that larvae and nymphs pick it up by feeding on an infected wildlife host, usually a rodent. The nymph stage that follows is the one CDC describes as particularly high risk, because nymphs are abundant and only about the size of a poppy seed. At least one other germ, which the University of Rhode Island's tick program calls hard tick relapsing fever Borrelia, is known to pass through the egg, so remove larvae promptly and see a doctor if a rash or fever develops within several weeks."
+    },
+    {
+      "question": "What time of year are seed ticks out?",
+      "answer": "Late summer. The University of Rhode Island's TickEncounter program says it hears about larval tick encounters especially in August and September, and that late summer is when you are most likely to meet an egg batch's worth of blacklegged or lone star tick larvae. The Illinois Natural History Survey issued its seed tick warning in late August 2020. Timing can vary by region and year, so treat any walk through low vegetation in the second half of summer as a possible encounter. Nymphs keep a different calendar: CDC says blacklegged tick nymphs are seeking hosts from April through July."
+    },
+    {
+      "question": "Can dogs get seed ticks?",
+      "answer": "Yes. University of Illinois Extension notes that lone star ticks feed on people and other mammals as larvae, nymphs and adults, and CDC advises examining pets after time outdoors because ticks can ride into the home on them. Check your dog after walks in grassy, brushy or wooded areas, the habitats CDC lists for ticks, and remove any attached tick promptly. Ask a veterinarian which tick preventive suits your dog before applying any product, and use it only as its label directs."
+    },
+    {
+      "question": "Should you have a seed tick tested for disease?",
+      "answer": "CDC does not recommend it. According to CDC, laboratories that test ticks are not required to have the quality control standards used by clinical diagnostic labs, a positive result does not necessarily mean you were infected, a negative result can give false assurance because a different tick may have bitten you unnoticed, and if you were infected you would likely develop symptoms before the results arrived. The more useful step is to note the date and place of the bite, watch for a rash or fever over the following several weeks, and tell your doctor about the bite if either appears."
+    },
+    {
+      "question": "Do seed ticks wash off in the shower?",
+      "answer": "Loose ones can. CDC says showering within two hours of coming indoors has been shown to reduce the risk of Lyme disease and may help wash off ticks that have not attached. A shower should not be counted on to remove ticks that are already attached; CDC's removal method for those is fine-tipped tweezers. A cold or warm wash does little for the clothes you took off. CDC says cold and medium temperature wash water will not kill ticks, while 10 minutes in a dryer on high heat kills ticks on dry clothing."
+    }
+  ],
+  "sources": [
+    { "title": "How Lyme Disease Spreads", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lyme/causes/index.html" },
+    { "title": "What to Do After a Tick Bite", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html" },
+    { "title": "Preventing Tick Bites", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/prevention/index.html" },
+    { "title": "De-Tick With Duct Tape", "publisher": "University of Rhode Island TickEncounter", "url": "https://web.uri.edu/tickencounter/tick-notes/de-tick-with-duct-tape" },
+    { "title": "Ticks (Home, Yard and Garden Pest Newsletter, May 20, 2013)", "publisher": "University of Illinois Extension", "url": "https://hyg.ipm.illinois.edu/article.php?id=465" },
+    { "title": "It's the season for larval lone star ticks!", "publisher": "Illinois Natural History Survey, University of Illinois Prairie Research Institute", "url": "https://blogs.illinois.edu/view/7362/1200658436" }
+  ],
+  "disclaimer": "health"
+}

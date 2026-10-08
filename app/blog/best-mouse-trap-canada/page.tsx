@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -69,13 +70,13 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'Which mouse trap actually works in Canadian homes: our top snap, electronic, and catch-and-release picks, where to place them, and why traps beat poison here.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
-})
+}), '/blog/best-mouse-trap-canada')
 
 const AMZ_TAG = tagForSlug('best-mouse-trap-canada')
 
@@ -171,6 +172,8 @@ export default function BestMouseTrapCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/mice-traps" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
           <h2>What Is the Best Mouse Trap in Canada?</h2>
           <p>The Victor M325 wood snap trap is the best mouse trap for most Canadian households — the 1899-vintage design is still the benchmark that electronic and &ldquo;smart&rdquo; traps get measured against, and no other option matches its cost per catch. That answer comes with a structure: snap traps win on price and scale, electronic traps win on squeamishness, catch-and-release wins only on ethics (and only when used correctly), and glue boards lose on every axis that matters.</p>
           <p>The reason a clear winner exists is arithmetic. Effective mouse control means deploying <em>many</em> traps at once — 6 to 12 for a typical kitchen problem — because a house mouse population compounds fast: a single female can produce 5–10 litters per year, with 5–6 pups per litter that are themselves breeding within 6–8 weeks. At snap-trap pricing you can afford a proper trap line on day one. At electronic-trap pricing, most people buy one unit, place it wrong, and conclude that &ldquo;traps don&rsquo;t work.&rdquo; Before buying twelve of anything, confirm the pest: <Link href="/blog/what-does-mouse-poop-look-like-canada" className="text-brand-700 underline">reading the droppings</Link> tells you whether you are dealing with mice, rats or bats, and a rat problem needs entirely different traps.</p>

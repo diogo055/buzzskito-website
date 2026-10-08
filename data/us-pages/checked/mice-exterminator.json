@@ -1,0 +1,10 @@
+{
+ "id": "mice-exterminator",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "a3ec58d0c53cf8cb86dd65e4e5a35b92f6476505d396bdf44a769d679cd52a77",
+ "claimsChecked": 97,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 11,
+ "checkedOn": "2026-10-08"
+}

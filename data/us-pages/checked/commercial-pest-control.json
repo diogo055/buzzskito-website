@@ -1,0 +1,10 @@
+{
+ "id": "commercial-pest-control",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "ec65db4e4c98e2052d23c6cb757d5e24cee76bb63296fe859ec281db09a747f3",
+ "claimsChecked": 150,
+ "claimsCorrected": 11,
+ "claimsRemovedOrSoftened": 14,
+ "checkedOn": "2026-10-08"
+}

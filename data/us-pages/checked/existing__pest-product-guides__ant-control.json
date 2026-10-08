@@ -1,0 +1,10 @@
+{
+ "id": "pest-product-guides/ant-control",
+ "kind": "existing",
+ "verdict": "publish-after-my-fixes",
+ "sha": "603a1b1b58c9a6c24aea735d0aa7b567bf2cb57db1ac8b40ec85e9091ff09a0b",
+ "claimsChecked": 40,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 12,
+ "checkedOn": "2026-10-08"
+}

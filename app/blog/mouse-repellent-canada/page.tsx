@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -76,14 +77,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'Mouse repellent in Canada: which types have real evidence, why ultrasonic and peppermint fail, and the exclusion-and-trap plan that actually works.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/mouse-repellent-canada')
 
 const AMZ_TAG = tagForSlug(SLUG)
 
@@ -322,6 +323,8 @@ export default function MouseRepellentCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/mice-repellent" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
 
           <h2>Why Repellents Lose to a Canadian October</h2>
           <p>A repellent asks an animal to make a trade: put up with something unpleasant, or go somewhere else. That trade is winnable when the alternative is mildly worse. It is not winnable when the alternative is a frozen field.</p>

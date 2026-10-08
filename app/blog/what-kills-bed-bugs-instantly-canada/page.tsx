@@ -71,6 +71,18 @@ const FAQS = [
     question: 'When is a professional faster and cheaper than doing it myself?',
     answer: 'When the infestation is established beyond a single bed, when you live in an apartment or condo, when the affected person is elderly, immunocompromised or a young child, or when you have already tried once and failed. Professional heat raises a whole room above the lethal threshold and holds it there, which does in a day what a DIY campaign attempts over weeks — and the arithmetic usually favours it once you count three rounds of products, weeks of poor sleep, and the cost of a failed attempt that has scattered the population deeper into the structure. BuzzSkito treats mosquitoes and ticks and does not sell bed bug service, so we have no referral in this: hire early if the situation matches those descriptions.',
   },
+  {
+    question: 'What temperature kills bed bugs in Fahrenheit?',
+    answer: 'Virginia Cooperative Extension puts the thermal death point at 118°F for bed bug adults and nymphs and 122°F for eggs, and says temperatures of 112 to 115°F kill only after hours of steady exposure. The EPA sets 130°F as the minimum for steam. For whole rooms, the extension guide describes many technicians heating the air to 135°F and holding it for four to five hours so that cracks and crevices reach 122°F.',
+  },
+  {
+    question: 'How do I check whether a bed bug spray is EPA registered?',
+    answer: 'Find the EPA registration number on the label, then look the product up in the EPA Bed Bug Product Search Tool, which searches by product name, company, registration number or active ingredient and filters by where you plan to use it. The EPA says a product with no registration number has not been reviewed by the agency, and that a product whose label does not list bed bugs has not been tested on them and may not be effective.',
+  },
+  {
+    question: 'Do natural or essential oil bed bug sprays kill on contact?',
+    answer: 'Two killed most of the bed bugs sprayed with them in a Rutgers University laboratory comparison, but slowly, and most of the products did not. The researchers tested 11 essential oil and detergent products sold in the US, and only EcoRaider (since renamed EcoVenger by its maker) and Bed Bug Patrol caused at least 90 percent mortality of nymphs in both the direct-spray test and a test that confined the bugs for five minutes on dried residue. In the first direct-spray screening, counted 10 days after treatment, most of the others killed 30 percent or fewer. Both products were ineffective in a third test that let the bugs choose between treated and untreated fabric, and the authors said their speed of kill was much slower than that of the synthetic insecticide used for comparison and that testing in naturally infested settings was still needed.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -422,6 +434,93 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
               <li>Product legality claims refer to the Canadian label: a PCP registration number under the <em>Pest Control Products Act</em>, administered by Health Canada&rsquo;s Pest Management Regulatory Agency. Confirm it on the label of the item you actually receive.</li>
             </ul>
           </div>
+
+          <h2>What Kills Bed Bugs Instantly in the United States: What Is Different</h2>
+          <p>The same three things kill a bed bug on contact in the United States &mdash; steam, sustained heat and a thorough direct hit from a registered contact spray &mdash; and what changes is the regulator, the product shelf and the units. US pesticides are registered by the Environmental Protection Agency rather than Health Canada, so the number to look for on an American label is an EPA registration number, not a PCP number. The EPA&rsquo;s overview of <a href="https://www.epa.gov/bedbugs/pesticides-control-bed-bugs" target="_blank" rel="noopener noreferrer">pesticides to control bed bugs</a> says the agency has registered more than 300 products for use against bed bugs, that most can be used by consumers while a few are only for specially trained professionals, and that they fall into seven chemical classes: pyrethrins, pyrethroids, desiccants, biochemicals, pyrroles, neonicotinoids and insect growth regulators.</p>
+
+          <h3>How to Check a Product With the EPA Bed Bug Product Search Tool</h3>
+          <p>Look the product up in the <a href="https://www.epa.gov/bedbugs/find-bed-bug-pesticide-product" target="_blank" rel="noopener noreferrer">EPA Bed Bug Product Search Tool</a> before you buy it. The tool searches by product name, company, EPA registration number or active ingredient, and it filters by where you want to use the product: on a mattress, in a whole room, in a whole home, or in cracks, surfaces and voids. The EPA page that hosts the tool adds that it lists only products any consumer can buy, that a listing is not an endorsement, and that the database was last updated in December 2019, so treat the label in your hand as the final check.</p>
+          <p>The bed bug pesticide alert the EPA publishes with the tool comes down to four checks:</p>
+          <ul>
+            <li><strong>An EPA registration number.</strong> The agency says a pesticide product without one has not been reviewed by the EPA, so it has not determined how well the product works.</li>
+            <li><strong>Bed bugs named on the label.</strong> If a pest is not listed on the label, the EPA says the pesticide has not been tested on that pest and may not be effective.</li>
+            <li><strong>The right place of use.</strong> The tool sorts products by where they can be used, whether mattresses, whole rooms, whole homes or cracks, surfaces and voids, so match the label to the spot you intend to treat, and never use a pesticide indoors that is meant for outdoor use.</li>
+            <li><strong>The directions.</strong> Read the label first and follow it. The EPA warns that the wrong pesticide, or the right one used incorrectly, can make you sick and can push bed bugs into hiding places the pesticide will not reach.</li>
+          </ul>
+          <p>If a label still leaves you unsure, the <a href="https://npic.orst.edu/pest/bedbug/index.html" target="_blank" rel="noopener noreferrer">National Pesticide Information Center</a> takes questions about bed bug control and pesticides by phone at 1-800-858-7378, and its bed bug page also points readers to the EPA search tool.</p>
+
+          <h3>Lethal Temperatures in Fahrenheit</h3>
+          <p>Bed bug adults and nymphs die at 118&deg;F and their eggs at 122&deg;F, the thermal death points given in Virginia Cooperative Extension&rsquo;s <a href="https://pubs.ext.vt.edu/ENTO/ento-583/ento-583.html" target="_blank" rel="noopener noreferrer">guide to bed bug heat treatments</a>. The same publication says slightly lower temperatures, 112 to 115&deg;F, can also kill, but only when the bugs are held at them continuously for a number of hours. It describes many heat technicians bringing the air in a room to 135&deg;F and leaving the heaters running for four to five hours, because the cracks and crevices where bed bugs hide have to reach 122&deg;F for the treatment to work. It also notes that a few survivors are common after a heat treatment, which is why it recommends applying a residual insecticide, such as a desiccant dust, to the hard-to-heat spots afterward.</p>
+          <p>For home methods, the EPA&rsquo;s <a href="https://www.epa.gov/bedbugs/do-it-yourself-bed-bug-control" target="_blank" rel="noopener noreferrer">do-it-yourself bed bug control</a> page sets 130&deg;F as the minimum steam temperature and warns against a forceful airflow, which can scatter bed bugs. It puts cold treatment at 0&deg;F for three days in a sealed bag, checked with a thermometer because home freezers are not always set that low, and it says not to try raising the indoor temperature with a thermostat, a propane space heater or a fireplace, which it describes as both ineffective and dangerous. The National Pesticide Information Center adds that drying bedding, clothing and other heat-safe items on high heat for 30 minutes kills all bed bugs, eggs included.</p>
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-gray-200">
+            <table className="w-full text-sm">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">What the number is</th>
+                  <th className="px-3 py-2 text-left">US units</th>
+                  <th className="px-3 py-2 text-left">Metric equivalent</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Steam, minimum temperature (EPA)</td>
+                  <td className="px-3 py-2 text-gray-700">130&deg;F</td>
+                  <td className="px-3 py-2 text-gray-700">about 54&deg;C</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Air temperature in professional heat treatments (University of Kentucky)</td>
+                  <td className="px-3 py-2 text-gray-700">about 120 to 130&deg;F</td>
+                  <td className="px-3 py-2 text-gray-700">about 49 to 54&deg;C</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Thermal death point, adults and nymphs (Virginia Cooperative Extension)</td>
+                  <td className="px-3 py-2 text-gray-700">118&deg;F</td>
+                  <td className="px-3 py-2 text-gray-700">about 48&deg;C</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Thermal death point, eggs (Virginia Cooperative Extension)</td>
+                  <td className="px-3 py-2 text-gray-700">122&deg;F</td>
+                  <td className="px-3 py-2 text-gray-700">50&deg;C</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Room air target many heat technicians use (Virginia Cooperative Extension)</td>
+                  <td className="px-3 py-2 text-gray-700">135&deg;F, held four to five hours</td>
+                  <td className="px-3 py-2 text-gray-700">about 57&deg;C</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Freezer setting (EPA)</td>
+                  <td className="px-3 py-2 text-gray-700">0&deg;F, for three days</td>
+                  <td className="px-3 py-2 text-gray-700">about &minus;18&deg;C</td>
+                </tr>
+                <tr className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">Steam wand pace used on this page</td>
+                  <td className="px-3 py-2 text-gray-700">about 1 inch per second</td>
+                  <td className="px-3 py-2 text-gray-700">a few centimeters per second (2.54 cm to the inch)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>The Celsius figures are rounded conversions of the Fahrenheit numbers the sources publish; the steam pace is this page&rsquo;s own figure restated in inches. For comparison, Texas A&amp;M University researchers who <a href="https://urbanentomology.tamu.edu/wp-content/uploads/sites/19/2022/05/Pest-Management-Science-2012-Puckett-Comparison-of-multiple-steam-treatment-durations-for-control-of-bed-bugs-Cimex.pdf" target="_blank" rel="noopener noreferrer">timed steam passes over bed bugs in the laboratory</a> moved the steamer head at 10, 20 and 30 seconds per foot, and the fastest pass, about 1.2 inches per second, gave mortality comparable to the slower ones, with every egg killed at all three speeds.</p>
+
+          <h3>Contact Killers Versus Residuals: What the EPA and Extension Entomologists Say</h3>
+          <p>Contact killers end the bug they wet and then stop working, while residual sprays and dusts go on killing bugs that cross them later, and US guidance is plain about which products belong in which group. Texas A&amp;M AgriLife Extension&rsquo;s fact sheet on <a href="https://citybugs.tamu.edu/factsheets/biting-stinging/others/ent-3012/" target="_blank" rel="noopener noreferrer">do-it-yourself bed bug control options</a> says low-toxicity contact sprays such as Steri-Fab and Bedlam are likely to kill bed bugs only on contact and to give no further control once dry. It ranks pyrethroid sprays among the stronger and longer-lasting pesticides while noting that most bed bugs are resistant to them to some degree, and it says plainly that pesticides alone are not the answer. The University of Kentucky&rsquo;s <a href="https://entomology.mgcafe.uky.edu/ef636" target="_blank" rel="noopener noreferrer">bed bug fact sheet</a> makes the same point about steamers and spot-freezing equipment: used correctly they kill bugs and eggs on contact, and neither leaves residual protection.</p>
+          <p>The EPA&rsquo;s class-by-class summary explains why the residual side leans on dusts. Pyrethrins and pyrethroids are the most common compounds used against bed bugs, and some populations have become resistant to them. Desiccants work physically, by destroying the waxy outer coating so the insect dries out, which means bed bugs cannot become resistant to them, and the agency adds that they have a long-lasting effect. The trade-off is speed: the EPA&rsquo;s do-it-yourself page says desiccants may take several months to work. It also says to use only desiccants registered as pesticides and never pool-grade or food-grade diatomaceous earth, which it warns can harm you when you breathe it in.</p>
+          <p>Total-release foggers are the clearest case of a contact product that cannot reach its target. The EPA&rsquo;s page on <a href="https://www.epa.gov/bedbugs/should-i-use-fogger" target="_blank" rel="noopener noreferrer">whether to use a fogger</a> says the pesticide in a fogger must contact the pest to kill it, that bed bugs in cracks and crevices will not be killed if the material does not reach them, and that foggers should not be the sole source of bed bug control. The University of California&rsquo;s <a href="https://ipm.ucanr.edu/PMG/PESTNOTES/pn7454.html" target="_blank" rel="noopener noreferrer">Pest Notes on bed bugs</a> describes over-the-counter foggers as ineffective for bed bug control and potentially harmful to residents, and it adds that the most effective bed bug pesticides are available to commercial applicators only.</p>
+
+          <h3>US Products That Are Not on Canadian Shelves</h3>
+          <p>Several products that American guidance names do not turn up in Canada&rsquo;s pesticide register: a search of Health Canada&rsquo;s <a href="https://pr-rp.hc-sc.gc.ca/ls-re/index-eng.php" target="_blank" rel="noopener noreferrer">pesticide label database</a> in October 2026 returned no registered product under the names CimeXa, Steri-Fab, Hot Shot, EcoRaider, EcoVenger or Bed Bug Patrol. The same search does return Canadian registrations under the Bedlam and Temprid names, so check each product rather than assuming. For readers in the United States, here is what the sources say about each type, to be used only as its label directs:</p>
+          <ul>
+            <li><strong>CimeXa (silica gel dust).</strong> The University of Kentucky says silica gel sold as CimeXa can be very effective if applied correctly, and it is cooler on diatomaceous earth, which it describes as messy to apply and seldom much help in eliminating an infestation. Texas A&amp;M rates both as low-toxicity dusts with good effectiveness and says silica aerogel comes out ahead in some studies. Either way it is a desiccant: slow by design, never instant.</li>
+            <li><strong>Steri-Fab (contact spray).</strong> The <a href="https://www3.epa.gov/pesticides/chem_search/ppls/000397-00013-20220727.pdf" target="_blank" rel="noopener noreferrer">label the EPA accepted for it in July 2022</a> lists the pyrethroid phenothrin and isopropyl alcohol, at about 60 percent, among its active ingredients and carries a flammability warning, and Texas A&amp;M files it with the sprays that kill only on contact.</li>
+            <li><strong>Hot Shot bed bug sprays (pyrethroid consumer sprays).</strong> Rutgers University researchers, in a <a href="https://archive.sebs.rutgers.edu/wp-content/uploads/Singh2014Essentialoilsbedbugcontrol.pdf" target="_blank" rel="noopener noreferrer">study published in the Journal of Economic Entomology</a>, describe the brand&rsquo;s bed bug aerosol and ready-to-use spray as commonly used consumer products and say that sprays relying on pyrethroids are not very effective at eradicating bed bugs because of insecticide resistance.</li>
+            <li><strong>EcoRaider and Bed Bug Patrol (plant-oil sprays).</strong> The same Rutgers study put 11 essential-oil and detergent products through laboratory tests, and only these two caused at least 90 percent mortality of nymphs in both the direct-spray and the forced-exposure residual tests. Both were ineffective when the bugs could choose between treated and untreated fabric, and the authors describe their speed of kill as much slower than that of the synthetic insecticide used for comparison. A direct spray of EcoRaider killed 87 percent of eggs, the other nonsynthetic products had little effect on eggs, and the authors said testing in naturally infested settings was still needed. EcoRaider&rsquo;s maker has since renamed it EcoVenger. The paper notes that products of this kind are exempt from the normal registration requirements under Section 25(b) of the federal pesticide law, so the EPA&rsquo;s caution applies: without an EPA registration number, the agency has not reviewed how well a product works.</li>
+          </ul>
+          <p>If you are reading from Canada, none of this changes the rule earlier on this page: a pesticide with no PCP registration number on its label is not one to buy or use here.</p>
+
+          <h2>After the Instant Kill: Identify the Bug, Find the Rest, Finish the Job</h2>
+          <p>A contact kill only helps if the insect really is a bed bug and you know where the others are, and that is what the rest of this library is for. The <Link href="/learn/bed-bugs">complete bed bug reference</Link> ties the whole subject together, from biology and signs to every treatment option. To confirm what you killed, compare it with <Link href="/blog/what-do-bed-bugs-look-like">what bed bugs look like at each life stage</Link>. If it was darker than you expected, the guide to <Link href="/blog/black-bed-bugs">whether bed bugs are ever black</Link> explains how age and feeding change their color, and if it does not match at all, go through the <Link href="/blog/bugs-that-look-like-bed-bugs">bugs most often mistaken for bed bugs</Link> before you treat anything.</p>
+          <p>Because every instant method is blind, the next job is finding what it missed. <Link href="/blog/where-do-bed-bugs-hide">Where bed bugs hide in a bedroom</Link> ranks the hiding places by distance from the sleeper and walks through an inspection, and <Link href="/blog/bed-bugs-on-mattress">what bed bug signs on a mattress look like</Link> covers the seams, the spots and what to do with a mattress that has them.</p>
+          <p>Two household shortcuts have their own pages because they are the ones people reach for when a product is not at hand: <Link href="/blog/does-alcohol-kill-bed-bugs">does rubbing alcohol kill bed bugs</Link> goes through the contact-kill evidence and the fire risk, and <Link href="/blog/does-lysol-kill-bed-bugs">whether Lysol kills bed bugs</Link> explains why a disinfectant is not an insecticide. When you are ready for the whole sequence, <Link href="/blog/how-to-get-rid-of-bed-bugs">how to get rid of bed bugs step by step</Link> lays out the integrated plan the EPA describes, written for US readers, from confirming the problem to the last follow-up check.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

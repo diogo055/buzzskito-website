@@ -1,0 +1,181 @@
+{
+  "slug": "german-cockroaches",
+  "kind": "spoke",
+  "cluster": "cockroaches",
+  "keyword": "german cockroaches",
+  "alsoTargets": [],
+  "metaTitle": "German Cockroaches: Two Stripes, Bait Not Spray",
+  "metaDescription": "German cockroaches are 1/2 to 5/8 inch, light brown, with two dark stripes behind the head. See how they spread, why sprays fail and which baits work.",
+  "h1": "German Cockroaches: Identification, Habits and the Control Plan That Works",
+  "dek": "How to recognize a German cockroach by its two stripes, why it outbreeds every other household roach, and the bait-based program that university entomologists recommend over sprays and foggers.",
+  "breadcrumb": "German Cockroaches",
+  "excerpt": "German cockroaches are small, light brown roaches with two dark stripes behind the head. How to identify them, how fast they breed, and the bait program that works.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**The German cockroach is a light brown indoor roach, 1/2 to 5/8 inch long, with two dark parallel stripes on the plate just behind its head.** It breeds faster than any other common pest cockroach and hides in kitchen and bathroom cracks. [Rutgers University's fact sheet](https://njaes.rutgers.edu/fs1322/) rates bait as the most effective treatment, says consumer sprays work less well, and does not recommend total release foggers.",
+    "bullets": [
+      "Adults are 1/2 to 5/8 inch (13 to 16 mm) long and tan to light brown, and they have full wings but do not fly.",
+      "One egg case holds about 30 to 48 eggs, and the cycle from egg to adult takes about 100 days.",
+      "They cannot survive away from people, so they arrive in boxes, bags and furniture or through shared apartment walls.",
+      "Rutgers rates bait as the most effective formulation and advises follow-up treatment every 2 to 4 weeks, within the label's limits, until no cockroaches are found for 4 weeks.",
+      "In a 20-home study, total release foggers produced no drop in German cockroach numbers after one month."
+    ]
+  },
+  "facts": {
+    "title": "German cockroach at a glance",
+    "rows": [
+      ["Scientific name", "*Blattella germanica*"],
+      ["Adult size", "1/2 to 5/8 inch (13 to 16 mm)"],
+      ["Key marking", "Two dark parallel stripes on the plate behind the head"],
+      ["Flight", "Fully winged, but does not fly"],
+      ["Eggs per egg case", "About 40 (reported range 30 to 48)"],
+      ["Egg cases per female", "4 to 8"],
+      ["Egg to adult", "About 100 days"],
+      ["Adult lifespan", "Females 140 to 280 days; males 90 to 140 days"],
+      ["Stops developing", "Below 59°F (15°C)"],
+      ["Core of control", "Gel bait in hiding places, with sanitation and sticky-trap monitoring"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What does a German cockroach look like?" },
+    { "type": "p", "text": "An adult German cockroach (*Blattella germanica*) is a flat, light brown roach 1/2 to 5/8 inch (13 to 16 mm) long with two dark parallel stripes on the shield-like plate just behind its head. That size range and the two-stripe marker come from [Rutgers University's German cockroach fact sheet](https://njaes.rutgers.edu/fs1322/). [Penn State Extension](https://extension.psu.edu/german-cockroaches) describes the color as tan to light brown and says small size plus the two stripes are the best way to recognize the species. Rutgers calls the same insect brown to dark brown, so go by the stripes and the size before the shade. Adults have fully developed wings but do not fly, which separates them from [the cockroach species that do take to the air](/blog/can-cockroaches-fly)." },
+    { "type": "ul", "items": [
+      "**Stripes.** The two lines run lengthwise, side by side, from the back of the head toward the wings.",
+      "**Size next to other roaches.** At about half an inch, it is far smaller than the 1.25-inch Oriental and 2-inch American cockroaches.",
+      "**Male or female.** Rutgers describes males as slender with a tapered rear end and females as wider with a rounded one.",
+      "**Egg case.** A female may be carrying a light brown, purse-shaped capsule that sticks out from the end of her abdomen."
+    ] },
+    { "type": "media", "needed": "Top-down close-up photo of an adult German cockroach beside a US penny for scale, sharp enough to show the two dark parallel stripes on the pronotum behind the head" },
+    { "type": "h3", "text": "What do the nymphs and egg cases look like?" },
+    { "type": "p", "text": "Nymphs are wingless and 1/8 to 9/16 inch (3 to 14 mm) long according to Rutgers, and the [University of Florida's profile of the species](https://ask.ifas.ufl.edu/publication/IN128) describes them as dark brown to black with the same dark parallel bands on the pronotum. They matter for identification because Rutgers reports that an actively growing population is about 80 percent nymphs and 20 percent adults, so most of what you find will be the small, dark stage. A separate guide shows [what baby cockroaches of each species look like](/blog/what-do-baby-cockroaches-look-like) and how to tell them from bed bugs and beetles." },
+    { "type": "p", "text": "The egg case, called an ootheca, is a brown, purse-shaped capsule. Rutgers and the University of Florida both measure it at about 8 mm, roughly 5/16 inch long, while Penn State describes it as less than 1/4 inch, so expect a capsule around a quarter to a third of an inch." },
+    { "type": "media", "needed": "Side-view photo of a female German cockroach carrying a purse-shaped egg case at the tip of her abdomen, with two or three dark nymphs of different sizes in the same frame for comparison" },
+    { "type": "h3", "text": "How do you tell it from other household cockroaches?" },
+    { "type": "p", "text": "Size and the two stripes do most of the work. The [University of California's cockroach guide](https://ipm.ucanr.edu/home-and-landscape/cockroaches/) lists these typical adult sizes, markings and habitats:" },
+    { "type": "table", "head": ["Species", "Adult size", "Color and markings", "Where it usually lives"], "rows": [
+      ["German", "0.5 inch", "Light brown, two dark stripes behind the head", "Kitchens, bathrooms and food preparation areas"],
+      ["Brownbanded", "0.5 inch", "Males golden tan, females darker brown; light bands across wings and abdomen", "Electrical appliances, wall decorations, furniture"],
+      ["Oriental", "1.25 inches", "Almost black", "Cool, dark, damp places such as drains and water meter boxes"],
+      ["American", "2 inches", "Reddish brown", "Sewers and warm, humid spaces"],
+      ["Field", "0.5 inch", "Gray to olive brown, two black stripes behind the head and one between the eyes", "Outdoors in leaf litter and plant debris"]
+    ], "caption": "Typical adult sizes and habitats as listed by the University of California Statewide IPM Program." },
+    { "type": "p", "text": "Two look-alikes cause the most confusion. UC IPM notes that the field cockroach, an outdoor species that also has two stripes, is often mistaken for the German cockroach and may come indoors when the weather is hot or dry; in California it is most common in the southern part of the state and in desert areas. In Florida, the university's profile says the Asian cockroach is similar enough that it takes a practiced eye to separate the two. If your insect does not match, compare it with [the beetles, crickets and outdoor roaches most often mistaken for a pest cockroach](/blog/bugs-that-look-like-cockroaches), or start from [the full guide to cockroach species in US homes](/learn/cockroaches)." },
+
+    { "type": "h2", "text": "How fast do German cockroaches multiply?" },
+    { "type": "p", "text": "Faster than any other common pest cockroach, according to UC IPM. Each egg case holds roughly 30 to 48 eggs, and the whole cycle from egg to adult takes about 100 days. The female also keeps the eggs with her. Rutgers says she carries the case until just before the eggs hatch, UC IPM puts that at 1 to 2 days before hatching, and the University of Florida notes that nymphs often hatch while she is still carrying it. The eggs therefore stay in the same cracks she is hiding in." },
+    { "type": "table", "head": ["Measure", "Figure", "Source"], "rows": [
+      ["Eggs per egg case", "About 40; reported range 30 to 48", "Rutgers; Penn State"],
+      ["Egg cases per female", "4 to 8 (Rutgers: 5 to 8, or 200 to 250 eggs)", "Penn State; Rutgers"],
+      ["Time for a case to hatch", "Usually 28 days from when the case begins to form", "Penn State"],
+      ["Molts before adulthood", "Most often 6; 5 to 7 reported", "University of Florida; Rutgers; Penn State"],
+      ["Nymph stage", "About 60 days at room temperature; 6 to 31 weeks reported overall", "University of Florida; Penn State"],
+      ["Egg to adult", "About 100 days", "Rutgers; University of Florida"],
+      ["Adult lifespan", "Females 140 to 280 days; males 90 to 140 days", "Rutgers"],
+      ["Development stops", "Below 59°F (15°C); they survive but do not grow", "Rutgers"]
+    ], "caption": "Figures come from the extension fact sheets linked on this page; ranges differ slightly between sources." },
+    { "type": "p", "text": "Estimates of a year's output vary with the assumptions behind them. Penn State calculates more than 10,000 descendants in a year assuming two generations, UC IPM says a single female and her offspring can produce over 30,000 individuals in a year, and the [University of Kentucky's cockroach elimination guide](https://entomology.mgcafe.uky.edu/ef614) says a single mated female can produce thousands in less than a year. All three agree on the point that matters: a few roaches carried in with the groceries can become thousands within a year. Indoors there is no off season, either. The University of Florida describes continuous breeding with many overlapping generations present at once." },
+
+    { "type": "h2", "text": "Where do German cockroaches hide?" },
+    { "type": "p", "text": "They hide in cracks, crevices and voids close to food, water and warmth, which in most homes means the kitchen and the bathroom. Penn State places them near dishwashers, stoves and sinks, and UC IPM says they prefer warm, humid spots around 70° to 75°F. Their wide, flat bodies let them slip into narrow openings, and UC IPM says an adult can hide in a crack 1/16 inch wide. Check these places first:" },
+    { "type": "ul", "items": [
+      "Under and behind the refrigerator, stove and dishwasher.",
+      "Cracks and crevices under sinks and around toilets.",
+      "Inside kitchen cabinets, above all the one beneath the sink and those next to the stove.",
+      "Around trash containers.",
+      "Inside clocks, toaster ovens and other electronics that give off heat."
+    ] },
+    { "type": "p", "text": "That list combines the hiding places named in the University of Kentucky's guide with the trap locations Rutgers recommends. German cockroaches are mostly active at night. Penn State notes that they may be seen in the daytime particularly when a heavy population is present or when something is stressing them, such as a shortage of food or water or a recent pesticide application." },
+
+    { "type": "h2", "text": "How do German cockroaches get into a house or apartment?" },
+    { "type": "p", "text": "They are carried in with belongings or they walk in from an adjoining unit; this is not an outdoor insect that wanders in from the yard. The University of Florida states that German cockroaches cannot survive away from humans or human activity and that cold is the main limit on their survival. Penn State names boxes, grocery bags and suitcases as the ways they get in, and the University of Kentucky adds beverage cartons and furniture." },
+    { "type": "p", "text": "In apartments and other attached housing, the bigger route is the building itself. Rutgers explains that the species is more common in apartment buildings because roaches spread between units through shared utilities, common walls and hallways. That is also why, as the Kentucky guide points out, even clean homes can become infested. A separate guide walks through [each route cockroaches use to get indoors and how to close it](/blog/where-do-cockroaches-come-from)." },
+
+    { "type": "h2", "text": "Why are German cockroaches harder to get rid of than other roaches?" },
+    { "type": "p", "text": "Several things stack up: they breed the fastest, they are small enough to live inside protected cracks, they have become resistant to many of the insecticides in common sprays, and spraying tends to scatter them. UC IPM calls the German cockroach the most persistent and troublesome of the cockroach species in California." },
+    { "type": "ul", "items": [
+      "**Speed.** With the breeding numbers above, the survivors of a partial treatment can rebuild a population quickly.",
+      "**Cover.** Penn State calls small size the most important reason, because German cockroaches can conceal themselves in places the larger species cannot enter, and UC IPM points out that aerosol sprays and foggers do not reach the crevices where cockroaches harbor and breed.",
+      "**Resistance.** Rutgers lists the ability to develop insecticide resistance as one reason this is the most common cockroach, and says consumer sprays are less effective than bait because of resistance, repellency or both.",
+      "**Scattering.** Pyrethroid sprays repel cockroaches, and Rutgers warns that a spray treatment can push them into neighboring units through pipe openings and common walls."
+    ] },
+
+    { "type": "h2", "text": "Are German cockroaches a health risk?" },
+    { "type": "p", "text": "Yes. The risk these sources state most firmly is allergy and asthma, followed by contamination of food. Rutgers states that the feces, shed skins and bodies of dead cockroaches contain allergens that are asthma triggers, and UC IPM reports that indoor infestations have been identified as risk factors for the development of asthma in children." },
+    { "type": "p", "text": "On germs, the sources choose their words carefully. UC IPM says German cockroaches are believed to be capable of transmitting disease-causing organisms including *Staphylococcus* and *Streptococcus* species, hepatitis virus and coliform bacteria, and that they contaminate food and eating utensils. Penn State links them to forms of gastroenteritis such as food poisoning, dysentery and diarrhea, and adds that their odorous secretions can affect the flavor of food. Bites are a minor concern: the University of Florida says biting has been reported only in extremely heavy infestations, a point covered in [what is actually documented about cockroach bites](/blog/do-cockroaches-bite)." },
+    { "type": "p", "text": "If someone in the home has asthma or allergy symptoms that are worse indoors, tell their healthcare provider about the infestation. During cleanup, Rutgers recommends a vacuum with a HEPA filter to remove live and dead roaches, droppings and shed skins." },
+
+    { "type": "h2", "text": "What gets rid of German cockroaches?" },
+    { "type": "p", "text": "A bait-centered program does: find where they are with sticky traps, take away food and water, place gel bait where they hide, and keep going until the traps stay empty. Rutgers states plainly that bait is the most effective formulation and recommends combining monitoring, sanitation, baiting and follow-up treatments." },
+    { "type": "callout", "tone": "warning", "title": "The label is the law", "text": "Every bait, dust and growth regulator is a pesticide. Read the whole label, use the product only where and how it directs, and keep it away from children, pets and food surfaces." },
+    { "type": "h3", "text": "1. Find them with sticky traps" },
+    { "type": "p", "text": "Sticky traps show where the roaches are and, later, whether the treatment is working. UC IPM calls them the best way to detect and monitor a population and suggests placing them where floors meet walls, then checking daily for several days to find the hot spots. Rutgers puts them inside kitchen cabinets (beneath the sink and next to the stove), on the floor near the refrigerator and stove, beside garbage cans and behind the toilet. Penn State advises ten or more trap sites for one week. Treat traps as a measuring tool first; a related guide covers [how glue traps and bait stations do different jobs](/blog/best-roach-traps-canada)." },
+    { "type": "h3", "text": "2. Cut off food, water and clutter" },
+    { "type": "p", "text": "Sanitation removes the food, water and shelter the population depends on, and the University of Florida says it can have a significant impact. The specific steps below come from Penn State and Rutgers." },
+    { "type": "ul", "items": [
+      "Clean up spilled food and crumbs, and do not leave dirty dishes or pet food out overnight.",
+      "Store cereal, crackers, flour, sugar, bread and similar foods in airtight containers.",
+      "Empty the trash each evening into a sturdy container with a tight-fitting lid.",
+      "Clean under and behind appliances, and clear clutter that gives roaches places to hide.",
+      "Caulk the holes where pipes pass through walls, and seal other cracks and crevices."
+    ] },
+    { "type": "h3", "text": "3. Place gel bait where they hide" },
+    { "type": "p", "text": "Gel bait is the main tool. Rutgers says gel is usually more effective than bait stations because it can be applied closer to where the roaches harbor and is more palatable. Rutgers and the Kentucky guide both describe many small, pea-sized dots placed in cracks, corners and edges, which in practice means near the hot spots your traps identified. The Kentucky guide notes that the cabinet under a kitchen sink can need more than a dozen placements by itself, and Rutgers estimates that a typical one-bedroom apartment needs 10 to 30 grams of bait, which is up to one full 30-gram tube (about 1 ounce). The product label sets how much to apply and where, so follow it wherever it differs from these general figures." },
+    { "type": "p", "text": "The common active ingredients Rutgers lists for cockroach baits are fipronil, abamectin, indoxacarb, hydramethylnon and dinotefuran. To slow resistance, it recommends using products from different chemical classes and checking the label, because products with different names can contain the same active ingredient. Do not spray cleaners or other insecticides around bait placements; Kentucky warns that this can discourage roaches from feeding." },
+    { "type": "p", "text": "Results are not instant. UC IPM says most bait insecticides are slow acting, that females carrying egg cases feed very little, and that an effective bait program may take 7 days or longer to show results. The Kentucky guide says a roach that eats bait typically dies within 1 to 3 days and that a substantial reduction in the infestation should be apparent within a few weeks. Rutgers advises follow-up treatment every 2 to 4 weeks where roaches persist, within the label's limits, until no cockroaches are found over a 4-week period. A longer walkthrough is in [a step-by-step, bait-first plan for clearing cockroaches](/blog/how-to-get-rid-of-cockroaches-canada)." },
+    { "type": "media", "needed": "Diagram of a kitchen in cutaway showing where to put pea-sized gel bait dots (cabinet hinges and corners, under the sink, behind the stove and refrigerator) and where to set sticky traps along floor and wall junctions" },
+    { "type": "h3", "text": "4. Add an insect growth regulator for a stubborn infestation" },
+    { "type": "p", "text": "An insect growth regulator (IGR) is a supporting tool, not a stand-alone fix. Rutgers explains that IGRs do not kill cockroaches but stop them from reproducing, cannot bring numbers down quickly by themselves, and are most effective combined with bait. It describes them as useful mainly where infestations are chronic and heavy. Look for the words insect growth regulator on the label and confirm that the product is labeled for indoor use against cockroaches." },
+    { "type": "h3", "text": "5. Use boric acid dust only in hidden voids" },
+    { "type": "p", "text": "Boric acid dust works, but more slowly than bait, and only where it stays dry and out of reach. Rutgers explains that roaches die after swallowing the dust while cleaning their antennae and legs, and recommends applying it only in places children and pets cannot get to, such as under and behind appliances and in wall cracks. The Kentucky guide says the right amount is a fine deposit barely visible to the naked eye and that boric acid should never go on countertops or other food-preparation surfaces. Penn State adds that heavy deposits may repel cockroaches. Rutgers rates diatomaceous earth as less effective than boric acid for cockroaches." },
+
+    { "type": "h2", "text": "What does not work on German cockroaches?" },
+    { "type": "p", "text": "Sprays and total release foggers do little against this species, and foggers add a pesticide exposure problem. Penn State says residual sprays and aerosol foggers used inside a structure are of little value against German cockroaches and may scatter them. UC IPM agrees that sprays give a quick, temporary knockdown without long-term control." },
+    { "type": "p", "text": "The clearest test comes from [a North Carolina State University study of bug bombs](https://news.ncsu.edu/2019/01/bug-bombs-are-ineffective/), published in the journal BMC Public Health in 2019. Researchers tested four commercial total release fogger products across 20 homes with moderate to severe German cockroach infestations and found no decline in the populations two weeks or one month later. In 10 comparison homes treated with gel bait, the populations fell sharply over the same period." },
+    { "type": "p", "text": "The foggers did leave something behind. Insecticide residue on horizontal kitchen surfaces averaged 603 times the pre-treatment level, with a median increase of 85 times, and a month later 34 percent of the swabbed surfaces were still above baseline. The fog settled in the middle of floors and countertops, which roaches generally avoid and people use, and did not reach the undersides of surfaces and the cabinet interiors where roaches gather." },
+    { "type": "ul", "items": [
+      "**Total release foggers (bug bombs).** Rutgers adds a fire hazard in homes with gas appliances when too many are set off, and the Kentucky guide notes that fogger ingredients tend to repel roaches deeper into wall voids.",
+      "**Spraying baseboards and open surfaces.** Kentucky advises against spraying walls, floors, baseboards and countertops because cockroaches spend very little time there.",
+      "**Electronic repellers.** Rutgers says no scientific evidence supports the claims made for electronic pest-repelling devices."
+    ] },
+    { "type": "p", "text": "An aerosol spray still has a few narrow uses, set out in [the limited jobs a cockroach spray is suited to](/blog/best-cockroach-spray-canada), but it is not a way to clear a German cockroach infestation." },
+
+    { "type": "h2", "text": "When should you call a professional?" },
+    { "type": "p", "text": "Call one when the infestation is heavy, when you share walls with other units, or when traps are still catching roaches after several rounds of correct baiting. UC IPM says serious indoor infestations and other large or complex cockroach problems often require professional service, and Rutgers notes that professionals have training, experience and access to more products. In an apartment building, report the problem to the property manager, because roaches moving between units can undo work done in one kitchen." },
+    { "type": "p", "text": "Ask a company what it plans to use: the evidence above favors inspection, baiting and follow-up over routine spraying. The Kentucky guide offers a useful benchmark. Done correctly, it says, eliminating cockroaches should not take a full year, especially in a single-family home. For budgeting, see [what professional pest control typically costs](/blog/how-much-is-pest-control)." }
+  ],
+  "faqs": [
+    {
+      "question": "Does seeing one German cockroach mean there are more?",
+      "answer": "Often, so it is worth checking. German cockroaches hide in cracks during the day and are mostly active at night, and Penn State Extension notes that daytime sightings tend to go with a heavy population or a stressed one. Rutgers reports that a growing population is about 80 percent nymphs, which are small and easy to miss. The practical step is to set out sticky traps in the kitchen and bathroom, ten or more for a week by Penn State's guidance. The traps will show whether you brought in a single stray or have an established population."
+    },
+    {
+      "question": "Can German cockroaches fly?",
+      "answer": "No. Penn State Extension states that adult German cockroaches have fully developed wings but do not fly. Their wide, flat bodies are built for slipping into narrow cracks instead. A small striped roach that flies is therefore likely to be a different species. The University of Florida notes that the Asian cockroach, which occurs in Florida, looks so similar to the German cockroach that it takes a practiced eye to tell them apart."
+    },
+    {
+      "question": "Can German cockroaches live outside?",
+      "answer": "Not on their own. The University of Florida states that German cockroaches are found worldwide in association with humans and cannot survive in locations away from humans or human activity, with cold temperatures as the main limit. Rutgers adds that below 59 degrees Fahrenheit they can survive but stop developing. That is why this species arrives inside boxes, bags, furniture and other belongings, or through shared walls in apartment buildings. In southern California and desert areas, a similar striped roach living outdoors in leaf litter is more likely a field cockroach, which UC IPM says is often mistaken for the German cockroach."
+    },
+    {
+      "question": "How long does it take to get rid of German cockroaches?",
+      "answer": "Expect weeks, not days. UC IPM says bait may take 7 days or longer to show an effect, and Rutgers advises follow-up bait treatment every 2 to 4 weeks, within the label's limits, until no cockroaches are found over a 4-week period. The University of Kentucky's guide says that with correct treatment it should not take a full year, especially in a single-family home. Heavy infestations and apartments, where roaches move between units, can take longer. Keep sticky traps in place throughout so you can watch the count fall."
+    },
+    {
+      "question": "What is the difference between a German cockroach and an American cockroach?",
+      "answer": "Size, color and habitat. UC IPM lists the German cockroach at about 0.5 inch, light brown with two dark stripes behind the head, living in kitchens, bathrooms and food preparation areas. It lists the American cockroach at about 2 inches, reddish brown, and associated with sewers and warm, humid environments. The German cockroach also reproduces faster: UC IPM gives about 30 young per egg case with a new case every few weeks, compared with about 12 young per case for the American cockroach."
+    },
+    {
+      "question": "Will German cockroaches go away if the house is kept clean?",
+      "answer": "Not reliably. The University of Kentucky notes that roaches usually thrive where sanitation is poor but that even clean homes can become infested, because the insects are carried in or move between apartments. Sanitation still matters: removing crumbs, dirty dishes, open trash and clutter takes away food and hiding places, and the University of Florida says it can have a significant impact. Rutgers recommends pairing sanitation with sticky-trap monitoring, gel bait and follow-up treatments, with bait as the main killing tool."
+    }
+  ],
+  "sources": [
+    { "title": "FS1322: German Cockroach", "publisher": "Rutgers New Jersey Agricultural Experiment Station", "url": "https://njaes.rutgers.edu/fs1322/" },
+    { "title": "German Cockroaches", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/german-cockroaches" },
+    { "title": "Cockroaches (Home and Landscape)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/cockroaches/" },
+    { "title": "German Cockroach, Blattella germanica (Linnaeus) (Insecta: Blattodea: Blattellidae)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN128" },
+    { "title": "ENTFACT-614: Cockroach Elimination in Homes and Apartments", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef614" },
+    { "title": "'Bug Bombs' Are Ineffective Killing Roaches Indoors", "publisher": "North Carolina State University", "url": "https://news.ncsu.edu/2019/01/bug-bombs-are-ineffective/" }
+  ],
+  "disclaimer": "pesticide"
+}

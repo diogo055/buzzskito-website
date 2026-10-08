@@ -351,6 +351,23 @@ export default function HomePage() {
             <BlogCard {...MOSQUITO_BLOGS.pillar} category="mosquito" isPillar dark />
             <BlogCard {...TICK_BLOGS.pillar} category="tick" isPillar dark />
           </div>
+          {/* North American pest hubs (Oct 2026): the four complete references in the Learning Centre */}
+          <div className="max-w-4xl mx-auto mb-8">
+            <p className="kicker-light mb-3">Other household pests</p>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+              {[
+                { href: '/learn/bed-bugs', name: 'Bed Bugs', blurb: 'Identification, signs, bites and every treatment that works.' },
+                { href: '/learn/ants', name: 'Ants', blurb: 'Which ant it is, why it came in, and how to end the trail.' },
+                { href: '/learn/mice', name: 'Mice', blurb: 'Signs, health risks, sealing a house and trapping properly.' },
+                { href: '/learn/cockroaches', name: 'Cockroaches', blurb: 'Species, where they come from and the bait-first method.' },
+              ].map((hub) => (
+                <Link key={hub.href} href={hub.href} className="hover-lift surface-1 rounded-2xl p-5 flex flex-col">
+                  <span className="text-base font-bold text-white mb-1">{hub.name}</span>
+                  <span className="text-[#8fa0bd] text-xs leading-relaxed">{hub.blurb}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
           <div className="text-center sm:hidden">
             <Link href="/blog" className="press-scale btn-ghost-light">
               View All Articles

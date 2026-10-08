@@ -9,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'baby-ticks-nymphs-seed-ticks-ontario'
@@ -52,14 +53,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'Baby ticks explained: larvae ("seed ticks") are ~0.5 mm with six legs, nymphs are ~1–2 mm with eight legs and drive most Lyme disease. Size chart in mm, ID tips, safe removal, and yard prevention for Ontario.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/baby-ticks-nymphs-seed-ticks-ontario')
 
 const AMZ_TAG = tagForSlug('baby-ticks-nymphs-seed-ticks-ontario')
 

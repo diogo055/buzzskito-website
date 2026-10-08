@@ -52,6 +52,18 @@ const FAQS = [
     question: 'Does the citronella plant keep mosquitoes away?',
     answer: 'Barely, and only right at the leaf. Controlled studies of the "mosquito plant" geranium found no measurable reduction in bites, because the scent carries only a few centimetres while mosquitoes track the carbon dioxide and body heat you give off from much farther away. It is a pleasant patio plant, not yard-wide mosquito control — for that you need standing-water removal plus a professional barrier spray.',
   },
+  {
+    question: 'What plants repel mosquitoes in the United States?',
+    answer: 'Lavender, basil, catnip, lemon balm, peppermint, rosemary, sage, marigolds, bee balm and citronella grass are the plants most often credited with repelling mosquitoes, but US university extension services say plants do not do it simply by growing in a yard. Iowa State and Colorado State extension report that a plant releases its repellent oils when the leaves are crushed, not while it sits in a bed or a pot. For protection, the CDC recommends an EPA-registered repellent such as DEET, picaridin or oil of lemon eucalyptus.',
+  },
+  {
+    question: 'Which mosquito-repelling plants are perennial in my USDA hardiness zone?',
+    answer: 'NC State Extension lists catnip and lemon balm as perennial from Zone 3, bee balm and sage from Zone 4, and lavender and peppermint from Zone 5. Rosemary is listed only for Zones 8 to 10 and basil only for Zone 10, so most US gardeners grow basil as an annual. Marigolds are annuals, and citronella grass and the citronella geranium are frost-tender. Enter your ZIP code on the USDA Plant Hardiness Zone Map to find your zone.',
+  },
+  {
+    question: 'Is oil of lemon eucalyptus the same as a lemon eucalyptus plant or essential oil?',
+    answer: 'No. Oil of lemon eucalyptus (OLE) is a plant-derived active ingredient in EPA-registered repellents, and the CDC lists it alongside DEET and picaridin. The CDC does not recommend pure lemon eucalyptus essential oil, because it has not been through validated safety and efficacy testing and is not registered with the EPA as a repellent. The CDC also says not to use products containing OLE or PMD on children under 3 years old.',
+  },
 ]
 
 const AMZ_TAG = tagForSlug('mosquito-repellent-plants-ontario')
@@ -222,6 +234,108 @@ export default function MosquitoRepellentPlantsPage() {
         </ol>
         <p>Step one is where most gardens are actually lost, and it is the step people finish only halfway. Drain what you can drain — but for the water that has to stay, like a rain barrel, a pond edge or a low corner that stays wet for days after a storm, a Bti dunk or granule floats in the water and takes out the larvae before they ever reach your patio furniture: <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">check mosquito dunks on Amazon.ca &rarr;</BuyLink></p>
         <p>Plants reduce the ambient mosquito population around specific spots. Professional spray reduces the adult mosquitoes resting across the full property. Together, they do more than either achieves alone.</p>
+
+        <h2>Plants That Repel Mosquitoes in the United States: What Is Different</h2>
+        <p>The plants that repel mosquitoes, according to most lists, are lavender, basil, bee balm, catnip, lemon balm, marigolds, rosemary, citronella grass, peppermint and sage, each of which carries a strongly scented oil. None of them has been shown to protect a yard simply by growing in it: US university extension services report that the oils work when a leaf is crushed or an extract is applied to skin, and that a pot on the patio does not. For a reader in the United States two things change. Which of these plants return each spring depends on your USDA hardiness zone, and the advice on what to rely on instead comes from the CDC and the EPA.</p>
+
+        <h3>Which of these plants are perennial in your USDA hardiness zone?</h3>
+        <p>Six of the ten are perennial from Zone 5 or colder (lavender, bee balm, catnip, lemon balm, peppermint and sage), rosemary is listed as hardy only from Zone 8, basil only in Zone 10, and marigolds, citronella grass and the citronella geranium are warm-season plants wherever it freezes. The zones come from the <a href="https://planthardiness.ars.usda.gov/pages/how-to-use-the-maps" target="_blank" rel="noopener noreferrer">USDA Plant Hardiness Zone Map</a>, which is based on the average annual extreme minimum winter temperature and runs from Zone 1 (coldest) to Zone 13 (warmest) in 10-degree Fahrenheit steps, each split into 5-degree halves labeled a and b. Enter your ZIP code on the map to find yours. The current edition, which the <a href="https://www.ars.usda.gov/news-events/news/research-news/2023/usda-unveils-updated-plant-hardiness-zone-map/" target="_blank" rel="noopener noreferrer">USDA released in November 2023</a>, uses weather data from 1991 to 2020, and about half the country moved into the next warmer half zone compared with the 2012 map, so a zone you memorized years ago may be out of date.</p>
+
+        <div className="not-prose my-6 overflow-x-auto rounded-xl border border-gray-200">
+          <table className="w-full text-sm min-w-[640px]">
+            <thead className="bg-brand-50">
+              <tr>
+                <th className="px-3 py-2 text-left">Plant</th>
+                <th className="px-3 py-2 text-left">Perennial in USDA zones</th>
+                <th className="px-3 py-2 text-left">Notes for US gardeners</th>
+                <th className="px-3 py-2 text-left">Source</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ['Lavender (Lavandula angustifolia)', '5a to 9b', 'An evergreen perennial shrub that needs full sun and perfectly drained soil; it dies out in heavy clay', 'NC State Extension', 'https://plants.ces.ncsu.edu/plants/lavandula-angustifolia/'],
+                ['Basil (Ocimum basilicum)', '10a to 10b', 'An annual for nearly every US gardener; transplant after the last frost', 'NC State Extension', 'https://plants.ces.ncsu.edu/plants/ocimum-basilicum/'],
+                ['Bee balm (Monarda didyma)', '4a to 9b', 'A perennial wildflower native to eastern North America', 'NC State Extension', 'https://plants.ces.ncsu.edu/plants/monarda-didyma/'],
+                ['Catnip (Nepeta cataria)', '3a to 9b', 'Among the cold-hardiest on the list; it can become weedy, so a container is suggested', 'NC State Extension', 'https://plants.ces.ncsu.edu/plants/nepeta-cataria/'],
+                ['Lemon balm (Melissa officinalis)', '3a to 7b', 'Self-seeds and spreads aggressively by rhizomes; best grown in a container on a patio or deck', 'NC State Extension', 'https://plants.ces.ncsu.edu/plants/melissa-officinalis/'],
+                ['French marigold (Tagetes patula)', 'Annual', 'A compact annual 6 to 12 inches high; replant each spring', 'NC State Extension', 'https://plants.ces.ncsu.edu/plants/tagetes-patula/'],
+                ['Rosemary (Salvia rosmarinus)', '8a to 10b', 'A woody shrub suited to containers; it can be difficult to overwinter indoors', 'NC State Extension', 'https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/'],
+                ['Citronella grass (Cymbopogon nardus)', 'Treat as frost-tender', 'A relative of lemongrass and the source of commercial citronella oil; frost kills or severely damages lemongrass, so treat this grass as an annual too', 'Wisconsin Extension', 'https://hort.extension.wisc.edu/articles/lemongrass/'],
+                ['Lemongrass (Cymbopogon citratus)', '8b to 11b', 'Grows 2 to 4 feet tall; overwinter it as a container plant in colder zones', 'NC State Extension', 'https://plants.ces.ncsu.edu/plants/cymbopogon-citratus/'],
+                ['Peppermint (Mentha × piperita)', '5a to 9b', 'Spreads by rhizomes into an aggressive ground cover; a pot 12 to 16 inches wide helps contain it', 'NC State Extension', 'https://plants.ces.ncsu.edu/plants/mentha-x-piperita/'],
+                ['Sage (Salvia officinalis)', '4a to 8b', 'A short-lived, bushy, semi-woody perennial shrub', 'NC State Extension', 'https://plants.ces.ncsu.edu/plants/salvia-officinalis/'],
+                ['Citronella geranium (Pelargonium)', 'Tender perennial', 'Pelargoniums are often grown as annuals; they can be overwintered indoors at 40°F or warmer and kept very dry', 'NC State Extension', 'https://plants.ces.ncsu.edu/plants/pelargonium/'],
+              ].map(([plant, zones, note, source, href]) => (
+                <tr key={plant} className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">{plant}</td>
+                  <td className="px-3 py-2 text-gray-700 whitespace-nowrap">{zones}</td>
+                  <td className="px-3 py-2 text-gray-700">{note}</td>
+                  <td className="px-3 py-2 text-gray-700 whitespace-nowrap"><a href={href} target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">{source}</a></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <p>To turn a zone number into a temperature, <a href="https://extension.illinois.edu/blogs/garden-scoop/2023-01-07-extreme-winter-cold-and-plants" target="_blank" rel="noopener noreferrer">University of Illinois Extension</a> gives winter lows of −20 to −10°F for Zone 5 and −10 to 0°F for Zone 6. Counting up in the map&rsquo;s 10-degree steps, Zone 8, where rosemary becomes a year-round shrub, begins at 10°F, and Zone 10, the only zone listed for basil, begins at 30°F. This guide was written for Zone 6, and <a href="https://extension.illinois.edu/news-releases/shifting-usda-plant-hardiness-map-reflects-changing-climate-changes-plants" target="_blank" rel="noopener noreferrer">Illinois Extension reports</a> that most of central Illinois now falls into Zone 6a on the 2023 map, so readers in Zone 6 can follow the Ontario plant list above almost as written. Rosemary is the one to check: NC State lists it only from Zone 8, and the Ontario section above already calls it borderline and steers it into pots. Gardeners in Zone 8 and warmer gain rosemary as a permanent planting, and lemongrass from 8b, but they fall outside the listed range for lemon balm, which ends at 7b.</p>
+        <p>Treat every range as a guide and not a promise. The USDA explains that the zones reflect average lowest temperatures, not the coldest night on record, so a plant growing at the cold edge of its range can be lost in one rare cold snap, and that wind, soil type, soil moisture, humidity and snow also affect survival. A single yard can hold warmer and cooler pockets than the map shows, such as a sheltered spot in front of a south-facing wall or a low corner where cold air pools.</p>
+
+        <h3>Do intact plants repel mosquitoes? What US extension research says</h3>
+        <p>No. US university extension services are consistent that a plant left growing in a bed or a pot does not repel mosquitoes, whatever oils its leaves hold.</p>
+        <ul>
+          <li><strong>Iowa State University.</strong> <a href="https://yardandgarden.extension.iastate.edu/faq/what-plants-will-repel-mosquitos-when-planted-nearby" target="_blank" rel="noopener noreferrer">Iowa State University Extension</a> describes scented geranium, lemon thyme, citronella grass and citrosa as ineffective when used as planted repellents. The benefit appears only when a leaf is crushed to release its oil, a plant sitting on the patio has no effect on the mosquitoes around it, and rubbing crushed leaves on skin delivers a fraction of the protection of a product made as a repellent, such as DEET. Iowa State adds a caution to check that you are not allergic before trying it.</li>
+          <li><strong>Colorado State University.</strong> <a href="https://planttalk.colostate.edu/topics/insects-diseases/1400-20-plants-repel-mosquitoes" target="_blank" rel="noopener noreferrer">PlantTalk Colorado, from Colorado State University Extension,</a> lists catnip, peppermint, rosemary, marigolds, eucalyptus and artemisia and says none of them repels mosquitoes merely by growing in a landscape, because the oils are released when the plants are crushed or burned. It adds that the scented geranium sold as the mosquito plant does not contain citronella oil.</li>
+          <li><strong>Clemson University.</strong> <a href="https://hgic.clemson.edu/can-plants-repel-problematic-insects/" target="_blank" rel="noopener noreferrer">Clemson Cooperative Extension</a> points to a review in the Malaria Journal of 62 studies of plant essential oils against <em>Anopheles</em> mosquitoes: 56 were run in laboratories, 6 in the field, and none examined landscape plantings. Clemson notes that the fragrance a growing plant gives off dissipates into the air and is reduced further by a breeze, and that extracted oils are short-lived too, with rosemary oil protecting test subjects for about 15 minutes and lemongrass oil for about 40 minutes.</li>
+        </ul>
+        <p>Field trials point the same way. In Florida, researchers at Florida A&amp;M University counted mosquitoes landing on people&rsquo;s forearms and <a href="https://pubmed.ncbi.nlm.nih.gov/7707049/" target="_blank" rel="noopener noreferrer">reported no significant difference</a> between locations with mosquito plants and locations without them, for both <em>Aedes albopictus</em> and <em>Culex quinquefasciatus</em>. In their cage trials, more <em>Culex</em> adults rested on cut leaves of the plant than on paper models of the same size and shape. An <a href="https://pubmed.ncbi.nlm.nih.gov/10901639/" target="_blank" rel="noopener noreferrer">Illinois Natural History Survey field trial</a> in June 1998 compared the mosquito plant, citronella candles, a sonic repeller and other products by landing rate, and a DEET repellent applied to skin had a consistently lower landing rate than every product that was not applied to skin. The <a href="https://pubmed.ncbi.nlm.nih.gov/8723261/" target="_blank" rel="noopener noreferrer">University of Guelph study</a> that Colorado State cites detected nothing in the plant&rsquo;s essential oil matching the <em>Cymbopogon</em> grasses that yield commercial citronella oil, and found no significant difference in biting between people with the plant and people without, while a DEET formulation cut biting by more than 90 percent for up to 8 hours.</p>
+        <p>None of this means the oils do nothing; it means the living plant is the wrong way to deliver them. The EPA&rsquo;s <a href="https://www.epa.gov/insect-repellents/skin-applied-repellent-ingredients" target="_blank" rel="noopener noreferrer">list of active ingredients in registered skin-applied repellents</a> includes catnip oil and oil of citronella, and the <a href="https://npic.orst.edu/factsheets/citronellagen.html" target="_blank" rel="noopener noreferrer">National Pesticide Information Center</a> describes oil of citronella as a repellent distilled from two grass varieties that repels target pests instead of killing them and was first registered in the United States in 1948. In each case what is registered is an extracted oil in a labeled product, to be used as the label directs, and not a leaf on a stem.</p>
+
+        <h3>What the CDC and EPA recommend instead</h3>
+        <p>For your skin, the CDC recommends an EPA-registered insect repellent, and for the yard it recommends removing standing water once a week.</p>
+        <ul>
+          <li><strong>Use a registered repellent.</strong> The <a href="https://www.cdc.gov/mosquitoes/prevention/index.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s mosquito bite prevention guidance</a> names six active ingredients: DEET, picaridin, IR3535, oil of lemon eucalyptus (OLE), para-menthane-diol (PMD) and 2-undecanone. It describes OLE and 2-undecanone as plant-derived, so a plant-based option exists inside the registered list. The CDC says not to use products containing OLE or PMD on children under 3 years old.</li>
+          <li><strong>Know what registration means.</strong> According to the <a href="https://www.epa.gov/insect-repellents/regulation-skin-applied-repellents" target="_blank" rel="noopener noreferrer">EPA&rsquo;s page on how skin-applied repellents are regulated</a>, a registered product has been evaluated and approved for human safety and effectiveness when applied according to the label, and it carries an EPA Registration Number. Some repellents made with citronella oil, cedar oil, geranium oil, peppermint oil or soybean oil are exempt from registration: the EPA reviewed those ingredients for safety in the 1990s and states that products made from them have not been evaluated for effectiveness. The CDC likewise says the effectiveness of repellents that are not EPA-registered, including some natural ones, is not known.</li>
+          <li><strong>Do not swap in the essential oil.</strong> The <a href="https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/mosquitoes-ticks-and-other-arthropods.html" target="_blank" rel="noopener noreferrer">CDC Yellow Book</a> advises against using pure oil of lemon eucalyptus, meaning the unformulated essential oil, as a repellent, because it has not been through validated testing for safety and efficacy and is not registered with the EPA. The same chapter reports that repellent-impregnated wristbands and sound-emitting devices are ineffective.</li>
+          <li><strong>Choose by protection time.</strong> The EPA&rsquo;s <a href="https://www.epa.gov/insect-repellents/find-repellent-right-you" target="_blank" rel="noopener noreferrer">repellent search tool</a> returns only registered skin-applied products and lets you search by mosquitoes, ticks or both, by protection time and by active ingredient.</li>
+          <li><strong>Empty the water, including under your herb pots.</strong> The <a href="https://www.cdc.gov/mosquitoes/mosquito-control/mosquito-control-at-home.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s page on mosquito control at home</a> says to empty and scrub, turn over, cover or throw out anything that holds water once a week, and its list includes planters and flowerpot saucers, so a row of herb pots belongs on that weekly round. For large bodies of water that will not be used for drinking and cannot be covered or dumped out, the CDC points to larvicides, and for adult mosquitoes to an outdoor adulticide in the dark, humid places where they rest, such as under patio furniture. For both, it says to always follow the label instructions.</li>
+        </ul>
+
+        <h3>US measurements for the numbers on this page</h3>
+        <p>The Ontario sections above give distances in metric units and climate as zone numbers, and these are the US equivalents.</p>
+        <div className="not-prose my-6 overflow-x-auto rounded-xl border border-gray-200">
+          <table className="w-full text-sm min-w-[520px]">
+            <thead className="bg-brand-50">
+              <tr>
+                <th className="px-3 py-2 text-left">On this page</th>
+                <th className="px-3 py-2 text-left">US equivalent</th>
+                <th className="px-3 py-2 text-left">Where it comes up</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ['Reach of a living plant: 1 to 3 m', 'About 3 to 10 feet', 'Quick answer and key facts'],
+                ['Air within 1 to 2 m of the foliage', 'About 3 to 6.5 feet', 'Quick answer'],
+                ['Geranium scent carries a few cm', 'Roughly 1 to 2 inches', 'Citronella plant section'],
+                ['A pot 3 m from your chair', 'About 10 feet', 'Growing citronella'],
+                ['USDA Zone 5', 'Winter lows of −20 to −10°F', 'Hardiness of lavender and the other perennials'],
+                ['USDA Zone 6 (6a and 6b)', 'Winter lows of −10 to 0°F', 'Home zone of this guide'],
+                ['Mid-May planting date', 'Not a conversion: plant after the last spring frost where you live', 'Planting advice'],
+              ].map(([metric, us, where]) => (
+                <tr key={metric} className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-2 font-semibold text-brand-800">{metric}</td>
+                  <td className="px-3 py-2 text-gray-700">{us}</td>
+                  <td className="px-3 py-2 text-gray-700">{where}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <h2>Beyond Repellent Plants: What Actually Lowers Mosquito Numbers</h2>
+        <p>Water removal, registered repellents and physical barriers are what lower mosquito numbers and bites, and each has its own guide on this site. The place to start is our <Link href="/blog/ultimate-backyard-mosquito-control-guide">complete backyard mosquito control guide</Link>, which puts every layer in order, from breeding sites to barrier treatments, so you can see where an herb border fits and where it does not.</p>
+        <p>If the yard itself is the problem, the step-by-step guide on <Link href="/blog/how-to-get-rid-of-mosquitoes">how to get rid of mosquitoes</Link> follows CDC and EPA guidance on standing water, Bti larvicide and resting sites, and explains when a professional or your local mosquito control district is the better call. If the problem is the hour you spend on the deck, <Link href="/blog/how-to-keep-mosquitoes-away">how to keep mosquitoes away from you and your seating area</Link> compares the registered repellents named above and covers permethrin-treated clothing, fans and screens.</p>
+        <p>Two patio habits often travel with repellent plants. Before adding a bug zapper or switching to yellow bulbs beside the herb pots, read <Link href="/blog/are-mosquitoes-attracted-to-light">whether mosquitoes are attracted to light</Link>, which sets out what draws them to people and what university studies found about zappers. And if a dog shares the yard, a border of herbs is not its protection: the <a href="https://www.fda.gov/animal-veterinary/animal-health-literacy/keep-worms-out-your-pets-heart-facts-about-heartworm-disease" target="_blank" rel="noopener noreferrer">FDA explains that heartworm is spread through the bite of a mosquito</a> and tells owners to talk to a veterinarian about a preventive, and our guide to <Link href="/blog/do-mosquitoes-bite-dogs">mosquito bites on dogs</Link> covers what to ask at that visit.</p>
+        <p>Finally, for readers heading somewhere no planting plan would make a dent, <Link href="/blog/alaska-mosquitoes">our Alaska mosquitoes guide</Link> covers why the state has so many, when the season peaks in each region and how visitors protect themselves.</p>
 
         <h2>Frequently Asked Questions</h2>
         <div className="not-prose space-y-4 my-6">

@@ -1,0 +1,10 @@
+{
+ "id": "sugar-ants",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "950e9da6842894dd0f4911bcf7179881f7029b422c3d71026537ff36d4eed139",
+ "claimsChecked": 148,
+ "claimsCorrected": 13,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-10-08"
+}

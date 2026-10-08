@@ -71,6 +71,14 @@ const FAQS = [
     question: 'Do I need a professional if I have found nymphs?',
     answer: 'Not automatically, but the finding shifts the odds. Nymphs mean a reproducing population with eggs you cannot see, and eggs are precisely what most consumer products handle worst. If the activity is confined to one bed in one room, you have caught it early and a disciplined DIY plan — encasements, interceptors, steam, a registered residual, repeated on a schedule — has a real chance. Call a licensed exterminator when bugs are turning up in more than one room, when the unit is an apartment or condo where neighbouring suites feed the problem back to you, when a household member is elderly, immunocompromised, or cannot manage the preparation, or when you have already run two full DIY cycles and are still finding live bugs. Serial DIY buying frequently costs more than a treatment would have.',
   },
+  {
+    question: 'How big is a baby bed bug in inches?',
+    answer: 'About 1/16 inch when it hatches and about 1/6 inch at the fifth and last nymph stage, according to Penn State Extension, against about 1/4 inch for an adult. The US Environmental Protection Agency lists the five nymph stages at 1.5, 2, 2.5, 3 and 4.5 millimeters, which converts to roughly 0.06, 0.08, 0.10, 0.12 and 0.18 inch. Ohio State University compares nymphs to sesame seeds and adults to apple seeds, and notes that a bed bug becomes longer and fatter once it has fed, so expect a recently fed bug to look bigger than an unfed one at the same stage.',
+  },
+  {
+    question: 'Who can identify a suspected baby bed bug in the United States?',
+    answer: 'Start with your local Cooperative Extension office. The National Pesticide Information Center recommends contacting the local Cooperative Extension Service or a pest management professional for help identifying a suspect insect, and notes that carpet beetles, fleas and bat bugs are often confused with bed bugs. North Dakota State University Extension advises having any bed bug identification confirmed by an entomologist, because bat bugs and swallow bugs look so similar, and University of California IPM notes that separating those relatives takes a hand lens or microscope. Keep the insect itself if you can, so there is a specimen to examine.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -443,6 +451,26 @@ export default function BabyBedBugsNymphsCanadaPage() {
           <h2>When a Professional Is the Cheaper Answer</h2>
           <p>Finding nymphs does not automatically mean calling someone &mdash; a single bed in a single room, caught early, is a genuinely winnable DIY job with encasements, interceptors, steam and a registered residual applied on a schedule rather than once. But be honest about the tipping point, because serial DIY buying is how people end up spending more than a treatment would have cost.</p>
           <p>Call a licensed exterminator when live bugs are turning up in more than one room; when you live in an apartment or condo, where neighbouring units keep re-seeding the problem and where coordinated treatment is the only thing that holds; when someone in the household is elderly, immunocompromised, or cannot manage the preparation a DIY plan demands; or when you have run two complete DIY cycles and are still finding live nymphs. Our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> sets out what to expect from a quote so you can judge one, and a company that will not explain whether it is proposing heat, chemical, or both &mdash; and how many visits are included &mdash; is not the company to hire.</p>
+
+          <h2>How Big Are Baby Bed Bugs in Inches? US Measurements by Stage</h2>
+          <p>In US measurements, a baby bed bug runs from about 1/16 inch at hatching to about 1/6 inch at the fifth and last stage, according to <a href="https://extension.psu.edu/biology-habitat-and-management-of-bed-bugs" target="_blank" rel="noopener noreferrer">Penn State Extension</a>, which puts the adult at about 1/4 inch. The <a href="https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle" target="_blank" rel="noopener noreferrer">US Environmental Protection Agency</a> gives one metric figure per stage, each inside the ranges in the table near the top of this page. Converted to inches and rounded:</p>
+          <ul>
+            <li><strong>1st stage:</strong> 1.5 mm, about 0.06 inch (close to 1/16).</li>
+            <li><strong>2nd stage:</strong> 2 mm, about 0.08 inch (close to 5/64).</li>
+            <li><strong>3rd stage:</strong> 2.5 mm, about 0.10 inch (close to 3/32).</li>
+            <li><strong>4th stage:</strong> 3 mm, about 0.12 inch (just under 1/8).</li>
+            <li><strong>5th stage:</strong> 4.5 mm, about 0.18 inch (just under 3/16).</li>
+          </ul>
+          <p><a href="https://ipm.ucanr.edu/PMG/PESTNOTES/pn7454.html" target="_blank" rel="noopener noreferrer">University of California IPM</a> gives the whole nymph range as 1/20 to 1/5 inch, and <a href="https://u.osu.edu/bedbugs/faq/" target="_blank" rel="noopener noreferrer">Ohio State University</a> likens nymphs to sesame seeds and notes that a bed bug gets longer and fatter once it has fed, so a recently fed bug looks bigger than an unfed one at the same stage.</p>
+          <p>On look-alikes, Penn State lists ticks, fleas, cockroaches and carpet beetles among the insects bed bugs are mistaken for, and the <a href="https://npic.orst.edu/pest/bedbug/index.html" target="_blank" rel="noopener noreferrer">National Pesticide Information Center</a> (NPIC) adds bat bugs. Three details from extension fact sheets go beyond the outline test above:</p>
+          <ul>
+            <li><strong>Bristly shed skins point to carpet beetles.</strong> <a href="https://ipm.ucanr.edu/PMG/PESTNOTES/pn7436.html" target="_blank" rel="noopener noreferrer">UC IPM&rsquo;s carpet beetle notes</a> say the larvae leave brown, shell-like, bristly looking cast skins when they molt.</li>
+            <li><strong>Booklice signal humidity.</strong> <a href="https://extension.psu.edu/booklice" target="_blank" rel="noopener noreferrer">Penn State&rsquo;s booklice fact sheet</a> says they do not bite, and that holding relative humidity below 50 percent prevents the mold growth they depend on.</li>
+            <li><strong>Bat bugs and swallow bugs need a lens.</strong> UC IPM&rsquo;s bed bug notes say the hairs on the pronotum, the area just behind the head, are shorter than the diameter of the eye on a bed bug and longer on those two relatives, a check that takes a hand lens or microscope.</li>
+          </ul>
+          <p><a href="https://www.ndsu.edu/agriculture/extension/publications/taking-bite-out-bed-bugs" target="_blank" rel="noopener noreferrer">North Dakota State University Extension</a> advises having a bed bug identification confirmed by an entomologist, and NPIC points readers to their local Cooperative Extension Service for help with an ID.</p>
+          <p>The <Link href="/learn/bed-bugs">complete bed bug reference</Link> covers identification, signs, health risks and treatment. If you are still identifying what you found, <Link href="/blog/what-do-bed-bugs-look-like">what bed bugs look like at every life stage</Link> gives adult sizes in inches, the <Link href="/blog/bugs-that-look-like-bed-bugs">guide to bugs that look like bed bugs</Link> compares each look-alike, and <Link href="/blog/black-bed-bugs">whether bed bugs are ever black</Link> deals with dark specks.</p>
+          <p>After that, <Link href="/blog/where-do-bed-bugs-hide">where bed bugs hide in a bedroom</Link> ranks the places to search, <Link href="/blog/bed-bugs-on-mattress">bed bug signs on a mattress</Link> covers the mattress itself, and <Link href="/blog/how-to-get-rid-of-bed-bugs">how to get rid of bed bugs step by step</Link> lays out the full plan.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

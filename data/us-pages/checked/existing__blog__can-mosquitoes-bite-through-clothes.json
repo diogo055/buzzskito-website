@@ -1,0 +1,10 @@
+{
+ "id": "blog/can-mosquitoes-bite-through-clothes",
+ "kind": "existing",
+ "verdict": "publish-after-my-fixes",
+ "sha": "18aaf1a60ddadac641019fab93d5d59ad9aefdbd600391fd6b14baa157a0018c",
+ "claimsChecked": 22,
+ "claimsCorrected": 2,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-08"
+}

@@ -62,6 +62,53 @@ const SECTIONS: HubSection[] = [
       },
     ],
   },
+  {
+    name: 'Identification & How-To Guides',
+    icon: '🔎',
+    intro: 'These are identification and how-to references for readers anywhere in North America, and they carry no product links. Start with what a tick looks like at each life stage and which species transmit Lyme disease, then move on to what kills ticks on clothing, on gear, on a dog and in the yard. The rest cover seed ticks, ticks on dogs, ticks in Michigan and whether chickens make a difference.',
+    guides: [
+      {
+        href: '/blog/what-do-ticks-look-like',
+        title: 'What Do Ticks Look Like?',
+        blurb: 'How to recognize a tick at each life stage, how an unfed tick differs from an engorged one, and the markings that separate the main US species.',
+      },
+      {
+        href: '/blog/seed-ticks',
+        title: 'Seed Ticks: What They Are and How to Remove Them',
+        blurb: 'What seed ticks and baby ticks are, how the larval and nymph stages differ, why they turn up in clusters, how to remove dozens at once, and what CDC says about the disease risk.',
+      },
+      {
+        href: '/blog/ticks-that-carry-lyme-disease',
+        title: 'Ticks That Carry Lyme Disease',
+        blurb: 'Which US ticks transmit Lyme disease, where each one lives, and how to tell them apart from the look-alike species.',
+      },
+      {
+        href: '/blog/ticks-in-michigan',
+        title: 'Ticks in Michigan',
+        blurb: 'Which ticks turn up in Michigan, which counties carry Lyme risk, when the season runs, and how to get a tick identified, drawn from the state health department material.',
+      },
+      {
+        href: '/blog/ticks-on-dogs',
+        title: 'Ticks on Dogs',
+        blurb: 'Where to check a dog, how to tell an attached tick from a skin tag or a scab, how to remove one, and what to watch for afterward.',
+      },
+      {
+        href: '/blog/what-kills-ticks-on-dogs-instantly',
+        title: 'What Kills Ticks on Dogs Instantly?',
+        blurb: 'A straight answer to the instant-kill question, how to get an attached tick off a dog quickly, and what to ask a veterinarian about preventives.',
+      },
+      {
+        href: '/blog/what-kills-ticks',
+        title: 'What Kills Ticks?',
+        blurb: 'What works according to where the tick is, on clothing, on gear, on skin or in the yard, and which popular methods do not hold up.',
+      },
+      {
+        href: '/blog/do-chickens-eat-ticks',
+        title: 'Do Chickens Eat Ticks?',
+        blurb: 'What the published studies measured for chickens, guinea fowl and opossums, and whether any of it adds up to tick control for a yard.',
+      },
+    ],
+  },
 ]
 
 const POSTS_LINKED = SECTIONS.reduce((n, s) => n + s.guides.length, 0)

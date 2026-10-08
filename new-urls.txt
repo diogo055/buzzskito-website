@@ -1,0 +1,19 @@
+# New pages, in the order to request indexing in Google Search Console (URL Inspection > Request indexing).
+# 1. The four hub pages
+https://buzzskito.ca/learn/bed-bugs
+https://buzzskito.ca/learn/cockroaches
+# 2. Extra product-guide hubs
+https://buzzskito.ca/pest-product-guides/ant-control
+https://buzzskito.ca/pest-product-guides/cockroach-control
+# 3. The 25 guides with the largest search demand
+https://buzzskito.ca/blog/how-to-get-rid-of-bed-bugs
+https://buzzskito.ca/blog/what-do-bed-bugs-look-like
+https://buzzskito.ca/blog/sugar-ants
+https://buzzskito.ca/blog/commercial-pest-control
+https://buzzskito.ca/blog/mice-exterminator
+https://buzzskito.ca/blog/seed-ticks
+https://buzzskito.ca/blog/german-cockroaches
+https://buzzskito.ca/blog/vamoose-for-mice
+https://buzzskito.ca/blog/do-mosquitoes-bite-dogs
+https://buzzskito.ca/blog/where-do-bed-bugs-hide
+# 4. The rest

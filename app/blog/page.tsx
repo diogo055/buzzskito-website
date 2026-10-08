@@ -3,6 +3,18 @@ import Link from 'next/link'
 import BlogCard from '@/components/BlogCard'
 import { buildMetadata, breadcrumbSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_STEAMER_HOME, NEW_BLOGS_WINTER_EARNERS, NEW_BLOGS_BEDBUG_HIGH_TICKET, NEW_BLOGS_AUTUMN_EXCLUSION, MOSQUITO_BLOGS, TICK_BLOGS, NEW_BLOGS, NEW_BLOGS_2, NEW_BLOGS_3, NEW_BLOGS_4, NEW_BLOGS_5, NEW_BLOGS_6, NEW_BLOGS_7, NEW_BLOGS_8, NEW_BLOGS_9, NEW_BLOGS_10, NEW_BLOGS_11, NEW_BLOGS_12, NEW_BLOGS_13, NEW_BLOGS_14, NEW_BLOGS_15, NEW_BLOGS_16, NEW_BLOGS_17, NEW_BLOGS_18, NEW_BLOGS_19, NEW_BLOGS_20, NEW_BLOGS_21, NEW_BLOGS_22, NEW_BLOGS_23, NEW_BLOGS_24, NEW_BLOGS_25, NEW_BLOGS_26, NEW_BLOGS_27, NEW_BLOGS_28, NEW_BLOGS_29, NEW_BLOGS_30, NEW_BLOGS_31, NEW_BLOGS_32, NEW_BLOGS_33, NEW_BLOGS_34, NEW_BLOGS_35, NEW_BLOGS_36, NEW_BLOGS_37, NEW_BLOGS_38, NEW_BLOGS_STEAMER_LANDLORD, NEW_BLOGS_49, NEW_BLOGS_44, NEW_BLOGS_DEHUMIDIFIER_PRO, NEW_BLOGS_DEHUMIDIFIER_SPACES, NEW_BLOGS_47, NEW_BLOGS_HIGH_BASKET_AUG22, NEW_BLOGS_FALL_AUG31 } from '@/lib/constants'
+import { NEW_BLOGS_US_GUIDES } from '@/lib/constants'
+
+// North American pest guides (Oct 2026), grouped by pest under the hub page each reports to.
+const PEST_LIBRARY: { cluster: string; name: string; hub?: { href: string; label: string } }[] = [
+  { cluster: 'bed-bugs', name: 'Bed Bugs', hub: { href: '/learn/bed-bugs', label: 'The complete bed bug guide' } },
+  { cluster: 'ants', name: 'Ants', hub: { href: '/learn/ants', label: 'The complete ant guide' } },
+  { cluster: 'mice', name: 'Mice', hub: { href: '/learn/mice', label: 'The complete mouse guide' } },
+  { cluster: 'cockroaches', name: 'Cockroaches', hub: { href: '/learn/cockroaches', label: 'The complete cockroach guide' } },
+  { cluster: 'mosquitoes', name: 'Mosquitoes', hub: { href: '/blog/ultimate-backyard-mosquito-control-guide', label: 'Backyard mosquito control guide' } },
+  { cluster: 'ticks', name: 'Ticks', hub: { href: '/blog/ultimate-tick-control-guide-ontario', label: 'Tick control guide' } },
+  { cluster: 'pest-control', name: 'Hiring & DIY Pest Control' },
+]
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito & Tick Control Blog | GTA',
@@ -67,6 +79,40 @@ export default function BlogIndexPage() {
             <Link href="/tick-control" className="text-amber-700 font-semibold hover:underline text-sm">
               → View Tick Control Services
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Pest library — North American guides, grouped by pest */}
+      <section aria-labelledby="pest-library" className="py-14 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex items-center gap-3 mb-3">
+            <span className="text-3xl" aria-hidden="true">📚</span>
+            <h2 id="pest-library" className="text-3xl font-extrabold text-brand-900">Pest Library</h2>
+          </div>
+          <p className="text-gray-500 text-sm mb-8 max-w-2xl">Source-cited answers to the questions people ask most about household pests, written for readers across the US and Canada. Each group starts from a complete reference guide.</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {PEST_LIBRARY.map(({ cluster, name, hub }) => {
+              const posts = NEW_BLOGS_US_GUIDES.filter((post) => post.cluster === cluster)
+              if (!posts.length) return null
+              return (
+                <div key={cluster} className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+                  <h3 className="text-xl font-extrabold text-brand-900 mb-1">{name}</h3>
+                  {hub && (
+                    <p className="mb-3 text-sm">
+                      <Link href={hub.href} className="font-bold text-brand-700 hover:underline">{hub.label} →</Link>
+                    </p>
+                  )}
+                  <ul className="space-y-1.5 text-sm">
+                    {posts.map((post) => (
+                      <li key={post.slug}>
+                        <Link href={`/blog/${post.slug}`} className="text-gray-700 hover:text-brand-700 hover:underline">{post.title}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>

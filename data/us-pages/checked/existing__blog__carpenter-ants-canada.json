@@ -1,0 +1,10 @@
+{
+ "id": "blog/carpenter-ants-canada",
+ "kind": "existing",
+ "verdict": "publish-after-my-fixes",
+ "sha": "21e10d2e29ced257a7d6e0c38f535c5c5dbd14bfebe74b34637dfff0c361aaf7",
+ "claimsChecked": 71,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-08"
+}

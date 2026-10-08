@@ -1,0 +1,10 @@
+{
+ "id": "blog/bed-bug-bites",
+ "kind": "existing",
+ "verdict": "publish-after-my-fixes",
+ "sha": "5b01b9a841d80dd80c838b1f030028db5dcfd64a5ff7c706913003d8a136be40",
+ "claimsChecked": 22,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-10-08"
+}

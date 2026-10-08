@@ -15,7 +15,7 @@ const SLUG = 'how-to-get-rid-of-mice-canada'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'How to Get Rid of Mice in Canada 2026 — The 4-Step Plan That Actually Works'
-const META_TITLE = 'Get Rid of Mice in Canada 2026: The 4-Step Plan'
+const META_TITLE = 'How to Get Rid of Mice: 4 Steps (US & Canada)'
 
 const FAQS = [
   {
@@ -66,11 +66,23 @@ const FAQS = [
     question: 'When should I call a professional exterminator for mice?',
     answer: 'Call in a professional when a properly run DIY program fails: fresh droppings or ongoing catches after 3–4 weeks of a 12-trap line plus sealed gaps, entry points you cannot locate, activity in wall voids you cannot reach, or droppings over 1 cm long — which means rats, a different problem entirely. Licensed operators can use commercial-class rodenticides and do structural exclusion consumers cannot. Typical Canadian pricing is covered in our pest control cost guide.',
   },
+  {
+    question: 'What is the best way to get rid of mice in the United States?',
+    answer: 'The CDC’s three-step sequence: seal up, trap up, clean up. Seal holes as small as 1/4 inch with steel wool held in place by caulk, set traditional snap traps baited with a small amount of chunky peanut butter with the baited end against the wall, and wet-clean droppings with disinfectant rather than sweeping. The CDC advises against glue traps and live traps, and says poison or bait stations are only for infestations that persist.',
+  },
+  {
+    question: 'Can you still buy mouse poison pellets in the US?',
+    answer: 'Not as a consumer product. Under EPA rules, rodenticides sold to consumers must come with a ready-to-use bait station and bait in block or paste form, and pelleted bait is no longer permitted in consumer products. The EPA says the four second-generation anticoagulants (brodifacoum, bromadiolone, difenacoum and difethialone) are registered only for the commercial and structural pest control markets. Some states add their own limits, so check with your state pesticide agency and follow the label.',
+  },
+  {
+    question: 'Which mice carry hantavirus in the United States?',
+    answer: 'According to the CDC, the most common hantavirus that causes hantavirus pulmonary syndrome in the United States is spread by the deer mouse. CDC case data show 94 percent of reported US cases occurred west of the Mississippi River. People are exposed through rodent urine, droppings and saliva, which is why the CDC says never to sweep or vacuum them. Anyone who suspects hantavirus disease should see a physician immediately and mention the rodent exposure.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The complete Canadian playbook for getting rid of mice: fall entry-wave timing, the 6 mm gap rule, the kitchen sanitation triangle, a 12-trap night-one deployment, and exclusion with steel wool and door sweeps. Updated 2026.',
+  description: 'Get rid of mice in four steps: cut off food, trap heavily on night one, seal every 1/4-inch (6 mm) gap, then confirm. US and Canadian poison rules covered.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -239,6 +251,76 @@ export default function HowToGetRidOfMiceCanadaPage() {
 
           <h2>When Should You Call a Professional?</h2>
           <p>DIY wins most Canadian mouse problems, but escalate when the evidence says so: fresh droppings or ongoing catches after 3–4 weeks of a properly run 12-trap line with sealed gaps, entry points you cannot find (common with complex brick veneer and attached garages), activity concentrated in wall voids you cannot reach, or droppings over 1 cm long — which means rats and a different toolkit. Licensed operators bring commercial-class rodenticides and structural exclusion experience. For what that service typically costs across Canada, see our <Link href="/pest-control-cost-canada">pest control cost guide</Link>. One caveat on identification: if the animal is stocky with a blunt nose, small ears and a short tail, and the damage is outdoors in the lawn, it is not a mouse at all &mdash; <Link href="/blog/how-to-get-rid-of-voles-canada" className="text-brand-700 underline">vole versus mouse</Link> explains why that changes the entire approach.</p>
+
+          <h2>How to Get Rid of Mice in the United States: What Is Different</h2>
+          <p>The best way to get rid of mice in the United States is the three-part sequence the CDC publishes for homeowners: seal up the holes, trap up the mice already inside with snap traps, and clean up droppings and nests wet, with disinfectant instead of a broom. The sealing, snap trapping and wet cleanup match the plan this guide lays out for Canada; what changes for a US reader is the rodenticide law, the hantavirus picture west of the Mississippi, and the timing of the fall wave. The wider US picture, from species to cost, sits in the <Link href="/learn/mice">complete mouse control reference</Link>.</p>
+
+          <h3>What Is the CDC&rsquo;s Seal Up, Trap Up, Clean Up Sequence?</h3>
+          <p>It is three jobs: close the entry holes, kill the mice that are already indoors, and disinfect what they left behind. Each step comes with short, specific instructions:</p>
+          <ul>
+            <li><strong>Seal up.</strong> The <a href="https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s seal-up guidance</a> says a mouse can fit through a hole the width of a pencil, 1/4 inch across. It advises filling small holes with steel wool held in place with caulk, and repairing larger ones with lath screen, cement, hardware cloth or metal sheeting. It also tells homeowners to seal garages and outbuildings, not only the house. The guide to <Link href="/blog/steel-wool-for-mice">packing steel wool so mice cannot pull it out</Link> goes through the materials gap by gap.</li>
+            <li><strong>Trap up.</strong> The <a href="https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s trapping page</a> recommends traditional snap traps, baited with a small amount of chunky peanut butter and set with the baited end against the wall so the trap forms a T with it. It advises against glue traps and live traps, because a frightened rodent may urinate and that can raise the chance of getting sick, and it reserves poison and bait stations for infestations that persist. The trade-offs between designs are laid out in the comparison of <Link href="/blog/mice-traps">mouse trap types and where to set them</Link>, and readers weighing the kindest option can start with <Link href="/blog/how-to-get-rid-of-mice-humanely">what humane mouse control means in practice</Link>.</li>
+            <li><strong>Clean up.</strong> The <a href="https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s cleanup instructions</a> say not to sweep or vacuum droppings, urine or nesting material. Open doors and windows for 30 minutes first, put on rubber or plastic gloves, spray the mess until it is very wet with an EPA-registered disinfectant or a fresh bleach solution of 1.5 cups of household bleach in 1 gallon of water, let it soak for 5 minutes, and wipe it up with paper towels. For attics, wall voids, crawl spaces and vehicles, see the walkthrough of <Link href="/blog/mice-removal">mouse removal and cleanup by location</Link>.</li>
+          </ul>
+
+          <h3>Which Mouse Poisons Can US Consumers Buy?</h3>
+          <p>Only bait sold with a ready-to-use bait station, in block or paste form. Under the <a href="https://www.epa.gov/rodenticides/restrictions-rodenticide-products" target="_blank" rel="noopener noreferrer">EPA&rsquo;s restrictions on rodenticide products</a>, pelleted bait is no longer permitted in products aimed at consumers, a refillable station may be packaged with up to one pound of bait, and consumer products are labeled for use indoors, or indoors and outdoors within 50 feet of buildings. The same page names bromethalin, chlorophacinone and diphacinone as active ingredients in consumer-use products.</p>
+          <p>The four second-generation anticoagulants (brodifacoum, bromadiolone, difenacoum and difethialone) are no longer registered in consumer products; the EPA says they are registered only for the commercial and structural pest control markets. The agency&rsquo;s <a href="https://www.epa.gov/rodenticides/rodent-control-pesticide-safety-review" target="_blank" rel="noopener noreferrer">rodenticide safety review</a> traces these rules to a 2008 risk mitigation decision whose measures were meant to reduce risks to human health and to non-target animals. So the loose pellets and second-generation baits that older advice still mentions are no longer permitted in US consumer products either, which puts the US consumer rules closer to the Canadian ones described above than many readers expect.</p>
+          <p>Bait stations are not all rated alike. The <a href="https://www.epa.gov/rodenticides/choosing-bait-station-product-household-use" target="_blank" rel="noopener noreferrer">EPA&rsquo;s guide to choosing a bait station</a> sorts them into four tiers. Tier 1 stations resist tampering by young children and dogs and are weather-resistant, so they may be used indoors and outdoors within 50 feet of buildings. Tier 2 stations resist children and dogs but are for indoor use only. Tier 3 stations resist young children only and belong indoors where pets have no access. Tier 4 stations have not been shown to be tamper-resistant and may be used only indoors where neither young children nor pets can reach them. Read and follow the label, which sets where and how each product may be used.</p>
+          <p>States can go further than the federal rules. In California, the <a href="https://www.cdpr.ca.gov/cac-letter/chlorophacinone-and-warfarin-restricted-material-status-prohibitions-allowed-uses-and-questions-and-answers/" target="_blank" rel="noopener noreferrer">Department of Pesticide Regulation</a> reports that most uses of the first-generation anticoagulants chlorophacinone and warfarin have been prohibited since January 1, 2025, residential use included, so check with your state&rsquo;s pesticide agency before buying. On risk, the <a href="https://npic.orst.edu/factsheets/rodenticides.html" target="_blank" rel="noopener noreferrer">National Pesticide Information Center</a> notes that single-dose anticoagulants pose the greater danger to animals that eat poisoned rodents, advises keeping every rodenticide out of reach of children and pets in use and in storage, and gives the Poison Control Center number as 800-222-1222. Active ingredients, pet and wildlife risk, and what to do after an exposure are covered in the guide to <Link href="/blog/mice-poison">mouse poison rules and risks in the US</Link>.</p>
+
+          <h3>Do Mice in the Western US Carry Hantavirus?</h3>
+          <p>Deer mice can, and that is the main reason cleanup deserves extra care in the West. The <a href="https://www.cdc.gov/hantavirus/about/index.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s hantavirus overview</a> says the most common hantavirus that causes hantavirus pulmonary syndrome (HPS) in the United States is spread by the deer mouse, that people are infected through contact with rodent urine, droppings and saliva, and that symptoms usually begin 1 to 8 weeks after contact, starting with fatigue, fever and muscle aches. It reports that 38 percent of people who develop respiratory symptoms may die, and it advises anyone who suspects hantavirus disease to see a physician immediately and mention the possible rodent exposure.</p>
+          <p>The geography is lopsided. The <a href="https://www.cdc.gov/hantavirus/data-research/cases/index.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s case data</a> count 890 reported cases of hantavirus disease in the United States from the start of surveillance in 1993 through the end of 2023, with 94 percent of them west of the Mississippi River. <a href="https://extension.usu.edu/pests/ipm/notes_nuisance/deer-mouse.php" target="_blank" rel="noopener noreferrer">Utah State University Extension</a> describes the deer mouse as brown to gray with a white belly, a rural animal of fields, pastures and vegetation around buildings that moves indoors when it gets cold. <a href="https://extension.arizona.edu/publication/hantavirus-and-disease-prevention" target="_blank" rel="noopener noreferrer">University of Arizona Cooperative Extension</a> adds that people are exposed by breathing contaminated dust after rodent droppings are disturbed or cleaned, and it flags unused buildings as one place that happens.</p>
+          <p>For a cabin, shed or garage that has sat closed, that means the wet-cleaning method above, and the CDC notes that buildings with heavy infestations call for special precautions. Identification is covered in <Link href="/blog/deer-mice">how to tell a deer mouse from a house mouse</Link>, the wider cast of look-alikes in the guide to <Link href="/blog/types-of-mice">the types of mice found in US homes</Link>, and the loose everyday name in <Link href="/blog/field-mice">what people mean by field mice</Link>.</p>
+
+          <h3>When Do Mice Move Indoors in Different Parts of the US?</h3>
+          <p>When the nights turn cold, so the timing follows local weather and not a fixed calendar date. <a href="https://ipm.ucanr.edu/PMG/PESTNOTES/pn7483.html" target="_blank" rel="noopener noreferrer">University of California Integrated Pest Management</a> puts the trigger plainly: where house mice live outdoors, they frequently enter homes in autumn as nighttime temperatures become colder. Extension services in very different climates describe the same movement:</p>
+          <ul>
+            <li><strong>Northeast.</strong> <a href="https://extension.unh.edu/blog/2018/10/how-can-i-get-rid-mice-my-house" target="_blank" rel="noopener noreferrer">University of New Hampshire Extension</a>, in an October post, ties the influx to the arrival of cooler fall weather, when mice look for a protected place to spend the winter.</li>
+            <li><strong>Ohio Valley.</strong> <a href="https://entomology.mgcafe.uky.edu/ef617" target="_blank" rel="noopener noreferrer">University of Kentucky Entomology</a> says homeowners are especially likely to notice mice in winter, after a fall migration indoors for warmth, food and shelter.</li>
+            <li><strong>Deep South.</strong> <a href="https://extension.msstate.edu/blog/critter-the-month-house-mouse" target="_blank" rel="noopener noreferrer">Mississippi State University Extension</a> describes mice feeding outdoors on seeds, insects, plants and berries through the warmer months, then seeking heat and food as cooler weather arrives.</li>
+            <li><strong>Interior West.</strong> Utah State University Extension, cited above, says deer mice move indoors when it gets cold outside.</li>
+          </ul>
+          <p>None of these sources publishes a national calendar, so treat the first run of cold nights where you live as the deadline for sealing, not a month on the page. One point holds in every region: UC IPM notes that house mice with plentiful, stable resources can reproduce year-round, so a heated house has no off-season once mice are inside. Why they come in when they do is tied to food and daily rhythm, covered in <Link href="/blog/what-do-mice-eat">what mice eat indoors and out</Link> and <Link href="/blog/are-mice-nocturnal">the hours when mice are active</Link>.</p>
+
+          <h3>US Measurements for the Numbers in This Guide</h3>
+          <p>Every metric figure above converts to a familiar US one, and the key ones match what US sources publish. The CDC gives the pencil-width gap as 1/4 inch, and UC IPM reports that house mice seldom venture more than 30 feet from the nest, can jump up to 12 inches from the floor, and are best trapped with traps spaced no more than about 10 feet apart.</p>
+          <div className="not-prose my-6 overflow-x-auto rounded-xl border border-gray-200">
+            <table className="w-full text-sm min-w-[560px]">
+              <thead className="bg-brand-50">
+                <tr>
+                  <th className="px-3 py-2 text-left">Metric figure in this guide</th>
+                  <th className="px-3 py-2 text-left">US equivalent</th>
+                  <th className="px-3 py-2 text-left">What it measures</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['6 mm', 'About 1/4 inch', 'The gap a mouse can squeeze through, and the mesh size of the hardware cloth'],
+                  ['6–10 mm', 'About 1/4 to 3/8 inch', 'The gap under a worn garage door seal'],
+                  ['1 cm', 'About 3/8 inch', 'Dropping length above which to suspect rats'],
+                  ['30 cm', 'About 12 inches', 'How high a mouse can jump'],
+                  ['2–3 m', 'About 6.5 to 10 feet', 'Spacing between traps along a wall'],
+                  ['3–9 m', 'About 10 to 30 feet', 'How far a mouse forages from its nest'],
+                  ['10°C', '50°F', 'Overnight temperature that marks the fall entry wave'],
+                ].map(([metric, usUnit, measures]) => (
+                  <tr key={metric} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 font-semibold text-brand-800">{metric}</td>
+                    <td className="px-3 py-2 text-gray-700">{usUnit}</td>
+                    <td className="px-3 py-2 text-gray-700">{measures}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>How those jumping and squeezing numbers play out on brick, siding, pipes and wires is the subject of <Link href="/blog/can-mice-climb-walls">how mice climb walls and reach attics</Link>.</p>
+
+          <h2>Where to Go Next on Mouse Control: Breeding, Repellents and Hiring Help</h2>
+          <p>Start with the <Link href="/learn/mice">mouse control hub</Link>, which gathers species, health risks, the control sequence and cost in one place and points to each detailed guide.</p>
+          <p>If you found a nest, <Link href="/blog/baby-mice">what baby mice look like week by week</Link> helps you judge how long the mice have been breeding, and <Link href="/blog/how-long-do-mice-live">how long mice live and how long they last without food or water</Link> explains why waiting a problem out rarely ends it.</p>
+          <p>Scent products are the most common detour. The overview of <Link href="/blog/mice-repellent">mouse repellents by type and the evidence for each</Link> is the place to begin, with separate pages on <Link href="/blog/peppermint-oil-for-mice">whether peppermint oil does anything for mice</Link>, <Link href="/blog/what-smells-do-mice-hate">the smells mice are said to hate</Link>, <Link href="/blog/do-mothballs-keep-mice-away">why mothballs are the wrong tool for mice</Link> and <Link href="/blog/vamoose-for-mice">what the Vamoose repellent is and what its maker claims</Link>.</p>
+          <p>And if traps and sealing have not ended it, <Link href="/blog/mice-exterminator">what a mouse exterminator does and how to check a license in your state</Link> sets out what to expect before you call one.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
