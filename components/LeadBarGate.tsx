@@ -2,6 +2,7 @@
 
 import { usePathname } from 'next/navigation'
 import { ADJACENT_PEST_ROUTES } from '@/lib/adjacent-pest-routes'
+import { US_GUIDE_ADJACENT_ROUTES } from '@/lib/us-guide-routes'
 
 /**
  * Route gate for the mobile lead bar in the root layout.
@@ -32,6 +33,9 @@ export default function LeadBarGate({
   const pathname = usePathname()
   const path = pathname ? pathname.replace(/\/$/, '') || '/' : ''
   if (path && ADJACENT_PEST_ROUTES.has(path)) return null
+  // The Oct 2026 North American guides on bed bugs, ants, mice, cockroaches and general
+  // pest control: same reasoning, a separate generated list (see lib/us-guide-routes.ts).
+  if (path && US_GUIDE_ADJACENT_ROUTES.has(path)) return null
   if (path && except?.includes(path)) return null
   return <>{children}</>
 }

@@ -1,0 +1,230 @@
+# Cluster: mosquitoes
+
+## New pages in this cluster (link targets: use these exact addresses)
+
+- `/blog/how-to-get-rid-of-mosquitoes` — **how to get rid of mosquitoes**. Getting rid of mosquitoes in a yard, following CDC and EPA guidance: remove and treat standing water (including Bti larvicide), cut back resting sites, adult control options and what they can and cannot do, when a professional or the local mosquito control district is the answer, and what does not work. Yard and property scope; personal protection is the sibling page, so link to it.
+
+- `/blog/how-to-keep-mosquitoes-away` — **how to keep mosquitoes away**. Keeping mosquitoes off you and away from where you sit: EPA-registered repellents (DEET, picaridin, IR3535, oil of lemon eucalyptus) and how to choose, permethrin-treated clothing, fans, screens, timing, spatial repellents, and the products that do not work (wristbands, ultrasonic apps). Personal and patio scope; yard elimination is the sibling page.
+
+- `/blog/are-mosquitoes-attracted-to-light` — **are mosquitoes attracted to light**. Mosquitoes and light: they find people by carbon dioxide, body heat and skin odor far more than light, how different species respond to light and to colors, why bug zappers kill very few mosquitoes (cite the university studies), UV traps, and whether yellow or LED bulbs help.
+
+- `/blog/do-mosquitoes-bite-dogs` — **do mosquitoes bite dogs**. Yes: where mosquitoes bite dogs, what bites look like, and why it matters (heartworm, which is spread only by mosquitoes; cite the American Heartworm Society, FDA or CDC). Prevention through a veterinarian, why human repellents such as DEET should not be used on dogs, and reducing mosquitoes around the yard. Say clearly to ask a veterinarian about preventives.
+
+- `/blog/alaska-mosquitoes` — **alaska mosquitoes**. Mosquitoes in Alaska: why there are so many (standing water over permafrost, snowmelt), how many species, the season by month and by region, how bad it gets and where, the 'state bird' joke and actual size, effects on caribou and wildlife, and how visitors protect themselves.
+
+## Pillars (hub pages)
+
+- `/learn/bed-bugs` — the complete bed bugs reference
+- `/learn/ants` — the complete ants reference
+- `/learn/mice` — the complete mice reference
+- `/learn/cockroaches` — the complete cockroaches reference
+- `/blog/ultimate-backyard-mosquito-control-guide` — the mosquito pillar guide (existing)
+- `/blog/ultimate-tick-control-guide-ontario` — the tick pillar guide (existing)
+
+## New pages in OTHER clusters (cross-link only where it truly helps the reader)
+
+- `/blog/what-do-bed-bugs-look-like` — what do bed bugs look like
+- `/blog/black-bed-bugs` — black bed bugs
+- `/blog/bugs-that-look-like-bed-bugs` — bugs that look like bed bugs
+- `/blog/where-do-bed-bugs-hide` — where do bed bugs hide
+- `/blog/bed-bugs-on-mattress` — bed bugs on mattress
+- `/blog/how-to-get-rid-of-bed-bugs` — how to get rid of bed bugs
+- `/blog/does-alcohol-kill-bed-bugs` — does alcohol kill bed bugs
+- `/blog/does-lysol-kill-bed-bugs` — does lysol kill bed bugs
+- `/blog/sugar-ants` — sugar ants
+- `/blog/tiny-ants` — tiny ants
+- `/blog/black-ants` — black ants
+- `/blog/ghost-ants` — ghost ants
+- `/blog/red-ants` — red ants
+- `/blog/flying-ants` — flying ants
+- `/blog/flying-ants-vs-termites` — flying ants vs termites
+- `/blog/do-carpenter-ants-bite` — do carpenter ants bite
+- `/blog/do-ants-bite` — do ants bite
+- `/blog/how-to-get-rid-of-ants-in-the-house` — how to get rid of ants in the house
+- `/blog/how-to-get-rid-of-ants-in-the-kitchen` — how to get rid of ants in kitchen
+- `/blog/borax-for-ants` — borax for ants
+- `/blog/does-vinegar-kill-ants` — does vinegar kill ants
+- `/blog/what-do-ants-eat` — what do ants eat
+- `/blog/how-long-do-ants-live` — how long do ants live
+- `/blog/how-many-ants-are-in-the-world` — how many ants are in the world
+- `/blog/army-ants` — army ants
+- `/blog/bullet-ants` — bullet ants
+- `/blog/honeypot-ants` — honeypot ants
+- `/blog/zombie-ants` — zombie ants
+- `/blog/types-of-mice` — types of mice
+- `/blog/deer-mice` — deer mice
+- `/blog/field-mice` — field mice
+- `/blog/baby-mice` — baby mice
+- `/blog/how-long-do-mice-live` — how long do mice live
+- `/blog/what-do-mice-eat` — what do mice eat
+- `/blog/are-mice-nocturnal` — are mice nocturnal
+- `/blog/can-mice-climb-walls` — can mice climb walls
+- `/blog/steel-wool-for-mice` — steel wool for mice
+- `/blog/mice-repellent` — mice repellent
+- `/blog/peppermint-oil-for-mice` — peppermint oil for mice
+- `/blog/what-smells-do-mice-hate` — what smells do mice hate
+- `/blog/do-mothballs-keep-mice-away` — do moth balls keep mice away
+- `/blog/vamoose-for-mice` — vamoose for mice
+- `/blog/mice-traps` — mice traps
+- `/blog/mice-poison` — mice poison
+- `/blog/how-to-get-rid-of-mice-humanely` — how to get rid of mice humanely
+- `/blog/mice-removal` — mice removal
+- `/blog/mice-exterminator` — mice exterminator
+- `/blog/german-cockroaches` — german cockroaches
+- `/blog/what-do-baby-cockroaches-look-like` — what do baby cockroaches look like
+- `/blog/bugs-that-look-like-cockroaches` — bugs that look like cockroaches
+- `/blog/water-bugs-vs-cockroaches` — water bugs vs cockroaches
+- `/blog/can-cockroaches-fly` — can cockroaches fly
+- `/blog/do-cockroaches-bite` — do cockroaches bite
+- `/blog/where-do-cockroaches-come-from` — where do cockroaches come from
+- `/blog/what-do-ticks-look-like` — what do ticks look like
+- `/blog/seed-ticks` — seed ticks
+- `/blog/ticks-that-carry-lyme-disease` — ticks that carry lyme disease picture
+- `/blog/ticks-in-michigan` — ticks in michigan
+- `/blog/ticks-on-dogs` — ticks on dogs
+- `/blog/what-kills-ticks-on-dogs-instantly` — what kills ticks on dogs instantly
+- `/blog/what-kills-ticks` — what kills ticks
+- `/blog/do-chickens-eat-ticks` — do chickens eat ticks
+- `/blog/how-much-is-pest-control` — how much is pest control
+- `/blog/diy-pest-control` — diy pest control
+- `/blog/natural-pest-control` — natural pest control
+- `/blog/lawn-pest-control` — lawn pest control
+- `/blog/commercial-pest-control` — commercial pest control
+
+## Existing pages on the site you may link to (pick the real topical matches)
+
+Most of these were written for Canadian readers and name Canadian products. Link to them with a neutral, descriptive anchor about the topic, and prefer the ones that answer a general question.
+
+- `/blog/bed-bug-bites-vs-mosquito-bites` — Bed Bug Bites vs Mosquito Bites — Five Tells That Separate Them, and What to Do About Each
+- `/blog/bed-bug-spray-canada` — Best Bed Bug Spray & Killer in Canada (2026)
+- `/blog/best-bed-bug-spray-for-mattress-canada` — Best Bed Bug Spray for a Mattress in Canada — Mattress-Safe Picks and the Label Rule
+- `/blog/best-bed-bug-spray-for-travel-canada` — Best Bed Bug Spray for Travel Canada 2026 — Carry-On-Legal Luggage & Hotel Picks
+- `/blog/best-bug-spray-for-kids-canada` — Best Bug Spray for Kids in Canada: Picks by Age
+- `/blog/best-gazebo-with-mosquito-net-canada` — Best Gazebo With Mosquito Net Canada 2026 — Soft-Top vs Hard-Top Screened Picks
+- `/blog/best-indoor-fly-mosquito-trap-canada` — Best Indoor Fly & Mosquito Trap Canada 2026 (Plug-In Buyer’s Guide)
+- `/blog/best-mosquito-repellent-device-canada` — Best Mosquito Repellent Machines and Devices in Canada — What Actually Works
+- `/blog/best-mosquito-trap` — Best Mosquito Trap Canada 2026 — Propane vs UV vs CO₂ Compared
+- `/blog/best-mosquito-trap-for-acreage-canada` — Best Mosquito Trap for Acreage Canada 2026 — CO₂ Traps for Large Properties
+- `/blog/best-natural-bed-bug-spray-canada` — Best Natural Bed Bug Spray Canada — Plant-Based Picks and the PMRA Check
+- `/blog/best-professional-mosquito-trap-canada` — Best Professional Mosquito Trap Canada 2026 — Propane CO₂ Systems vs Larvicide Stations
+- `/blog/best-solar-bug-zapper-canada` — Best Solar Bug Zappers in Canada 2026 — What a $30–60 Solar Zapper Can Actually Kill
+- `/blog/biogents-bg-mosquitaire-mosquito-trap-canada` — Biogents BG-Mosquitaire in Canada: CO2 vs Lure-Only, and What It Costs to Run
+- `/blog/black-flies-mississauga-toronto-gta-2026` — Black Flies in the GTA 2026: Toronto, Mississauga, and the Cottage-Country Migration
+- `/blog/black-flies-ontario-when-they-come-out` — Black Flies in Ontario: When Black Fly Season Starts and How to Stop Them
+- `/blog/bug-zappers-canada-do-they-work` — Best Bug Zappers in Canada 2026 (Do They Work?)
+- `/blog/can-mosquitoes-bite-through-clothes` — Can Mosquitoes Bite Through Clothes? Yes — Here Is Exactly Which Fabrics
+- `/blog/citronella-candles-canada-do-they-work` — Do Citronella Candles Work in Canada? An Honest 2026 Verdict
+- `/blog/co2-mosquito-trap-canada` — CO2 Mosquito Traps in Canada 2026: Biogents vs Propane Traps (No Tank Required)
+- `/blog/do-bed-bug-sprays-actually-work` — Do Bed Bug Sprays Actually Work? An Honest Canadian Answer (2026)
+- `/blog/do-cedar-trees-attract-mosquitoes` — Do Cedar Trees Attract Mosquitoes? No — The Hedge Hides Them
+- `/blog/do-fire-pits-repel-mosquitoes-canada` — Do Fire Pits Keep Mosquitoes Away? The Honest Canadian Answer
+- `/blog/do-tiki-torches-repel-mosquitoes` — Do Tiki Torches Repel Mosquitoes? The Honest 2026 Answer
+- `/blog/does-standing-water-attract-mosquitoes` — Does Standing Water Attract Mosquitoes? How Fast It Breeds Them
+- `/blog/dynatrap-canada-review` — DynaTrap Review: What It Really Catches, Which Model to Buy, and What Works Instead in Canada
+- `/blog/ecoraider-bed-bug-spray-review-canada` — EcoRaider Bed Bug Spray Review Canada 2026 — Does the Plant-Based Killer Actually Work?
+- `/blog/fix-standing-water-yard-mosquitoes-canada` — Fix Standing Water in Your Yard: The Canadian Drainage Guide
+- `/blog/flowtron-bug-zapper-canada` — Flowtron Bug Zapper Canada Review 2026: BK-15D vs BK-40D vs BK-80D
+- `/blog/green-pool-mosquito-breeding-ontario` — Green Pools Breed Mosquitoes in Ontario — Covering, Circulating and Treating a Pool You Are Not Opening
+- `/blog/gutter-guards-mosquito-breeding-canada` — Gutter Guards and Mosquito Breeding in Canada
+- `/blog/hardtop-vs-soft-top-mosquito-gazebo-canada` — Hardtop vs Soft-Top Gazebo for Mosquitoes: Which One to Buy in Canada
+- `/blog/hidden-mosquito-breeding-spots-backyard` — Hidden Mosquito Breeding Spots in Your GTA Backyard (And How to Eliminate Them)
+- `/blog/how-long-does-mosquito-spray-last` — How Long Does Mosquito Spray Last? What GTA Homeowners Need to Know
+- `/blog/how-many-times-can-a-mosquito-bite-you` — How Many Times Can a Mosquito Bite You? (One Female, Many Bites)
+- `/blog/how-to-choose-mosquito-control-company-gta` — How to Choose a Mosquito Control Company in the GTA: 8 Questions to Ask
+- `/blog/how-to-get-rid-of-mosquitoes-in-the-house` — How to Get Rid of Mosquitoes in the House (Fast) — 2026 Indoor Guide
+- `/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario` — How to Get Rid of Mosquitoes in Your Yard & Keep Them Away
+- `/blog/how-to-prevent-mosquitoes-in-your-backyard` — 12 Ways to Prevent Mosquitoes in Your Backyard (Ontario)
+- `/blog/is-deet-safe` — Is DEET Safe? What It Is, Cancer Myths & Health Canada Limits (2026)
+- `/blog/is-mosquito-spray-safe-kids-pets` — Is Professional Mosquito Spray Safe for Kids and Pets? Your Questions Answered
+- `/blog/laser-mosquito-killer-photon-matrix-review` — Laser Mosquito Killer 2026 — Is the Photon Matrix Real? (Honest Review)
+- `/blog/male-vs-female-mosquito` — Male vs Female Mosquito: Only Females Bite (Here Is Why)
+- `/blog/mosquito-bite-treatment-relief` — Mosquito Bite Treatment: How to Stop the Itch Fast
+- `/blog/mosquito-bite-vs-spider-bite` — Mosquito Bite vs Spider Bite: How to Tell Them Apart
+- `/blog/mosquito-bits-canada-vs-dunks` — Mosquito Bits vs Dunks (Canada 2026): Kills Larvae Faster
+- `/blog/mosquito-coils-canada` — Mosquito Coils Canada 2026 — Do They Work & Are They Safe?
+- `/blog/mosquito-control-cost-ontario` — How Much Does Mosquito Control Cost in Ontario? (2026 Pricing Guide)
+- `/blog/mosquito-control-etobicoke-north-york` — Mosquito & Tick Control in Etobicoke and North York
+- `/blog/mosquito-control-milton-georgetown` — Mosquito Control for New-Build Homes in Milton & Georgetown
+- `/blog/mosquito-control-near-water-ravines-gta` — Mosquito Control Near Water: Ravines, Ponds & Waterfront Properties in the GTA
+- `/blog/mosquito-control-vaughan-york-region` — Mosquito Control in Vaughan & York Region: What Homeowners Need to Know
+- `/blog/mosquito-control-worth-the-cost` — Is Professional Mosquito Control Worth the Cost?
+- `/blog/mosquito-dunks-canada-guide` — Mosquito Dunks in Canada: What BTI Is, Where to Buy, and How to Use Them
+- `/blog/mosquito-facts` — Mosquito Facts: How Long They Live, What They Eat & More
+- `/blog/mosquito-fogger-canada` — Mosquito Fogger Canada 2026 — Do They Work? Best Models + Fogging Liquid Guide
+- `/blog/mosquito-hawk-explained` — Mosquito Hawk — What It Actually Is (Crane Fly Truth)
+- `/blog/mosquito-larvae-identification` — Mosquito Larvae — Identification, Look-Alikes & Removal
+- `/blog/mosquito-magnet-canada` — Mosquito Magnet Canada 2026 — Where to Buy + Do They Actually Work?
+- `/blog/mosquito-magnet-vs-dynatrap-canada` — Mosquito Magnet vs DynaTrap Canada 2026 — Which High-End Trap Actually Wins?
+- `/blog/mosquito-magnet-vs-professional-spray` — Mosquito Magnet vs Professional Spray — Honest Comparison (2026)
+- `/blog/mosquito-mistakes-ontario-homeowners-make` — 12 Mosquito Mistakes Ontario Homeowners Make
+- `/blog/mosquito-net` — Mosquito Net Canada 2026 — Buyer’s Guide by Use (Bed, Head, Hammock)
+- `/blog/mosquito-netting-vs-barrier-spray` — Mosquito Netting vs Barrier Spray — Which Is Better? (2026)
+- `/blog/mosquito-repellent-bracelets-canada` — Mosquito Repellent Bracelets in Canada: Do They Work? Barely.
+- `/blog/mosquito-repellent-for-dogs` — Mosquito Repellent for Dogs Canada 2026 — Dog-Labelled Picks + What Not to Use
+- `/blog/mosquito-repellent-guide-ontario-2026` — Mosquito Repellent Guide — Ontario 2026 (What Actually Works)
+- `/blog/mosquito-repellent-plants-ontario` — Best Mosquito-Repelling Plants for Ontario Gardens (2026)
+- `/blog/mosquito-repellent-stickers-patches-canada` — Mosquito Repellent Stickers & Patches Canada — Do They Work?
+- `/blog/mosquito-screened-porch-kit-canada` — Mosquito Screened Porch Kits in Canada: Screening an Existing Deck or Porch
+- `/blog/mosquito-screens-patio-canada` — Mosquito Screens for Your Patio (Canada 2026) — Buyer’s Guide
+- `/blog/mosquito-season-gta-when-does-it-start` — When Does Mosquito Season Start and End in Ontario?
+- `/blog/mosquito-season-scarborough-east-toronto` — Mosquito Season in Scarborough & East Toronto: Highland Creek to Rouge Park
+- `/blog/mosquito-spray-companies-gta` — Mosquito Spray Companies in the GTA: What to Look For Before You Book (2026)
+- `/blog/mosquito-tick-control-hamilton-burlington` — Mosquito & Tick Control in Hamilton & Burlington: Escarpment & Waterfront Guide
+- `/blog/mosquito-tick-control-stoney-creek` — Mosquito & Tick Control in Stoney Creek: Red Hill Valley to the Lake Ontario Shore
+- `/blog/mosquito-trap-running-cost-canada` — What Mosquito Traps Cost to Run in Canada
+- `/blog/mosquito-vs-diy-vs-professional-control` — DIY vs. Professional Mosquito Control: What Actually Works in Ontario
+- `/blog/natural-eco-friendly-mosquito-control-ontario` — Natural & Eco-Friendly Mosquito Control in Ontario: What Actually Works in 2026
+- `/blog/natural-mosquito-repellent-ontario` — Natural Mosquito Repellent — What Actually Works in Ontario
+- `/blog/no-see-um-bites` — No-See-Um Bites: What They Look Like, How Long They Last & How to Treat Them
+- `/blog/no-see-ums-biting-midges-ontario` — What Are No-See-Ums? Biting Midge Bites, Screens & Control in Ontario
+- `/blog/off-deep-woods-deet-bug-spray-canada` — OFF Deep Woods & DEET Bug Spray Canada 2026 — Which One to Buy
+- `/blog/outdoor-event-mosquito-control-gta` — Outdoor Event Mosquito Control in the GTA: Weddings, Parties & Backyard Gatherings
+- `/blog/outdoor-fan-mosquito-control-canada` — Outdoor Fans for Mosquito Control in Canada
+- `/blog/pergola-mosquito-curtains-canada` — Pergola Mosquito Curtains in Canada: Mesh, Tracks & Sizing
+- `/blog/permethrin-canada-yard-clothing-spray` — Permethrin Canada: Where to Buy + Is It Legal? (2026)
+- `/blog/picaridin-vs-deet` — Picaridin vs DEET Canada 2026 — Which Repellent Wins?
+- `/blog/pond-aerator-mosquito-larvae-canada` — Pond Aerators vs Mosquito Larvae: The Canadian Sizing Guide
+- `/blog/professional-vs-diy-mosquito-control-gta-comparison` — Professional vs DIY Mosquito Control in the GTA: 2026 Cost, Effectiveness & Safety Comparison
+- `/blog/propane-mosquito-trap-canada` — Propane Mosquito Traps in Canada 2026: Are $1,000+ CO2 Traps Worth It?
+- `/blog/rain-barrel-mosquito-proof-canada` — How to Mosquito-Proof a Rain Barrel in Canada
+- `/blog/smells-mosquitoes-hate` — Smells Mosquitoes Hate: 6 Scents That Actually Repel (Ontario)
+- `/blog/thermacell-canada-where-to-buy` — Thermacell Canada: Which Model to Buy and Where to Buy It
+- `/blog/thermacell-e90-canada-review` — Thermacell E90 Review Canada 2026 — vs E55, vs EX90 & Which Refills to Buy
+- `/blog/thermacell-refills-recharge-canada` — Thermacell Refills & Recharge Canada — Costs, Models & Where to Buy
+- `/blog/tick-bite-vs-mosquito-bite` — Tick Bite vs Mosquito Bite: How to Tell the Difference
+- `/blog/ultimate-backyard-mosquito-control-guide` — The Ultimate Backyard Mosquito Control Guide (GTA Edition)
+- `/blog/west-nile-virus-mississauga-2026` — West Nile Virus in Mississauga 2026: Risk, Surveillance, Yard Protection
+- `/blog/west-nile-virus-mosquito-risk-ontario` — West Nile Virus & Mosquito Risk in Ontario: What You Need to Know
+- `/blog/west-nile-virus-ontario-2026` — West Nile Virus Ontario 2026 — GTA Risk & Prevention
+- `/blog/west-nile-virus-symptoms` — West Nile Virus Symptoms: Timeline, First Signs, Diagnosis & When to See a Doctor (2026)
+- `/blog/west-nile-virus-toronto-2026` — West Nile Virus in Toronto: 2026 Risk, Symptoms & Prevention
+- `/blog/what-attracts-mosquitoes-to-you` — What Attracts Mosquitoes to You? Why They Pick You (2026)
+- `/blog/what-blood-type-do-mosquitoes-bite` — What Blood Type Do Mosquitoes Bite Most? Science vs Myth (2026)
+- `/blog/what-colors-attract-mosquitoes` — What Colors Attract Mosquitoes? (2022 Study: Red, Orange, Black, Cyan)
+- `/blog/what-eats-ticks-and-mosquitoes` — What Eats Ticks and Mosquitoes? Predators Ranked (Ontario)
+- `/blog/what-flowers-attract-mosquitoes` — What Flowers & Plants Attract Mosquitoes? An Ontario Garden Guide
+- `/blog/what-temperature-kills-mosquitoes` — What Temperature Kills Mosquitoes? 28°F (-2°C) Hard Freeze
+- `/blog/when-are-mosquitoes-most-active` — When Are Mosquitoes Most Active — and When Do They Stop?
+- `/blog/when-does-mosquito-season-start-toronto-2026` — When Does Mosquito Season Start in Toronto? 2026 Guide
+- `/blog/when-to-schedule-first-mosquito-treatment-ontario` — When Should You Book Your First Mosquito Treatment of the Season?
+- `/blog/when-to-spray-mosquitoes-mississauga-2026` — When to Spray for Mosquitoes in Mississauga (2026 Service Calendar)
+- `/blog/when-to-worry-about-a-mosquito-bite` — When to Worry About a Mosquito Bite: Infection Signs, Allergy & When to See a Doctor (2026)
+- `/blog/where-do-mosquitoes-go-in-winter-ontario` — Where Do Mosquitoes Go in Winter? (Ontario Explained)
+- `/blog/why-do-mosquito-bites-itch` — Why Do Mosquito Bites Itch — and How Long Do They Last?
+- `/blog/why-do-mosquitoes-bite-my-ankles` — Why Do Mosquitoes Bite My Ankles and Feet? (The Science)
+- `/blog/why-do-mosquitoes-exist` — Why Do Mosquitoes Exist? Their Purpose, Pollination Role & the Extinction Debate
+- `/blog/why-mosquitoes-bite-some-people-more` — Why Mosquitoes Bite Some People More Than Others (Science-Backed)
+- `/learn/how-to-combat-mosquitoes` — How to Combat Mosquitoes in Ontario — 10-Step Backyard Guide
+- `/learn/mosquito-life-cycle` — The Mosquito Life Cycle in Ontario — Egg, Larva, Pupa, Adult
+- `/learn/ontario-mosquito-tick-diseases` — Mosquito &amp; Tick Diseases in Ontario — West Nile, Lyme, EEE, Anaplasmosis
+- `/pest-product-guides/mosquito-gear` — Best Mosquito Control Products in Canada — The Gear Our Technicians Recommend
+
+## Product guide hubs
+
+- `/pest-product-guides` — index of all product guides
+- `/pest-product-guides/bed-bug-control`
+- `/pest-product-guides/rodent-control`
+- `/pest-product-guides/ant-control`
+- `/pest-product-guides/cockroach-control`
+- `/pest-product-guides/mosquito-gear`
+- `/pest-product-guides/tick-gear`

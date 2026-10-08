@@ -1,0 +1,1920 @@
+[
+ {
+  "id": "how-to-get-rid-of-mice-canada",
+  "type": "broaden",
+  "route": "blog/how-to-get-rid-of-mice-canada",
+  "page": "/blog/how-to-get-rid-of-mice-canada",
+  "keyword": "how to get rid of mice",
+  "alsoAnswers": [
+   "best way to get rid of mice"
+  ],
+  "usVolume": 93000,
+  "currentWords": 1997,
+  "addWords": 703,
+  "cluster": "mice",
+  "usFocus": "US rodenticide rules for consumer products (EPA: bait stations required, which actives consumers can and cannot buy), the CDC seal-up, trap-up, clean-up sequence, deer mice and hantavirus in the western US, and how the fall entry wave shifts by US climate region. The section must also answer \"what is the best way to get rid of mice\" in its first two sentences.",
+  "hub": "/learn/mice",
+  "linkTo": [
+   {
+    "path": "/blog/types-of-mice",
+    "about": "types of mice",
+    "type": "informational",
+    "covers": "The mice a US homeowner actually meets: house mouse, deer mouse, white-footed mouse, plus the animals often called mice (voles, shrews, young rats)"
+   },
+   {
+    "path": "/blog/deer-mice",
+    "about": "deer mice",
+    "type": "informational",
+    "covers": "Deer mice (Peromyscus maniculatus): identification versus the house mouse, range, habitat and habits, why they matter (the main carrier of the hantavirus that causes HPS in the US, per CDC), how to keep them out of homes, cabins and sheds, and the CDC cleanup method."
+   },
+   {
+    "path": "/blog/field-mice",
+    "about": "field mice",
+    "type": "informational",
+    "covers": "What 'field mice' means in the US (a loose name for deer mice, white-footed mice and voles), how to tell which one you have, when they move indoors, the damage they do in gardens and outbuildings, and how control differs from house mice"
+   },
+   {
+    "path": "/blog/baby-mice",
+    "about": "baby mice",
+    "type": "informational",
+    "covers": "Baby mice (pups): what they look like day by day and week by week, litter size, how fast mice breed, what finding a nest means for the size of the problem, baby mouse versus baby rat, and what to do with a nest safely."
+   },
+   {
+    "path": "/blog/how-long-do-mice-live",
+    "about": "how long do mice live",
+    "type": "informational",
+    "covers": "Mouse lifespan in the wild, indoors and as pets, how long they survive without food and without water, the breeding math that makes a short life irrelevant, and what that means for waiting a problem out."
+   },
+   {
+    "path": "/blog/what-do-mice-eat",
+    "about": "what do mice eat",
+    "type": "informational",
+    "covers": "What mice eat in the wild and in a house, how much and how often, what they gnaw that is not food, their water needs, and what this means for trap bait (why peanut butter works) and for food storage."
+   },
+   {
+    "path": "/blog/are-mice-nocturnal",
+    "about": "are mice nocturnal",
+    "type": "informational",
+    "covers": "When mice are active: mostly at night with peaks at dusk and before dawn, why, what seeing a mouse in the daytime suggests, the noises you hear at night and where, and how to use this for trap timing and inspection."
+   },
+   {
+    "path": "/blog/can-mice-climb-walls",
+    "about": "can mice climb walls",
+    "type": "informational",
+    "covers": "Climbing and squeezing ability: which wall surfaces mice can and cannot climb, how high they jump, how small a gap they fit through (give inches), pipes and wires as highways, how they reach attics and upper floors, and what this means for sealing a house."
+   },
+   {
+    "path": "/blog/steel-wool-for-mice",
+    "about": "steel wool for mice",
+    "type": "commercial",
+    "covers": "Steel wool as a mouse barrier: does it work, which grade, how to pack it and lock it in with caulk (the CDC seal-up method), where it fails (rust, large gaps, pulled out), copper mesh and hardware cloth as alternatives, which gaps need which material, and a room-by-room list of holes to check"
+   },
+   {
+    "path": "/blog/mice-repellent",
+    "about": "mice repellent",
+    "type": "commercial",
+    "covers": "The overview of mouse repellents by type: scent products (peppermint and other essential oils, pouches and granules), ultrasonic devices (and the FTC's history with them), predator scents, mothballs and ammonia"
+   },
+   {
+    "path": "/blog/peppermint-oil-for-mice",
+    "about": "peppermint oil for mice",
+    "type": "commercial",
+    "covers": "Peppermint oil specifically: where the idea comes from, what the limited research shows, how people apply it and how fast it fades, why mice get used to it, risks to cats and other pets, and where it can and cannot fit in a real plan."
+   },
+   {
+    "path": "/blog/what-smells-do-mice-hate",
+    "about": "what smells do mice hate",
+    "type": "informational",
+    "covers": "The list people search for (peppermint, ammonia, vinegar, cayenne, cloves, dryer sheets, cinnamon, predator scents) with an honest evidence rating for each in a table, why a strong smell rarely moves an established mouse, and what to do instead"
+   },
+   {
+    "path": "/blog/do-mothballs-keep-mice-away",
+    "about": "do moth balls keep mice away",
+    "type": "informational",
+    "covers": "Mothballs for mice: they do not work at any amount that is tolerable to people, they are registered pesticides labeled only for clothes moths in sealed containers, using them otherwise is illegal off-label use, and the vapors are a health risk (cite the National Pesticide Information Center and EPA)"
+   },
+   {
+    "path": "/blog/vamoose-for-mice",
+    "about": "vamoose for mice",
+    "type": "commercial",
+    "covers": "An honest explainer on the Vamoose mouse repellent product searchers are asking about"
+   },
+   {
+    "path": "/blog/mice-traps",
+    "about": "mice traps",
+    "type": "commercial",
+    "covers": "Mouse traps by type: snap, electronic, multi-catch, live-catch, glue boards (and why CDC advises against glue and live traps)"
+   },
+   {
+    "path": "/blog/mice-poison",
+    "about": "mice poison",
+    "type": "commercial",
+    "covers": "Rodenticides in the US: the active ingredient classes (first and second generation anticoagulants, bromethalin, cholecalciferol, zinc phosphide), the EPA rules for consumer products (bait stations required, loose pellets and second-generation anticoagulants removed from the consumer market), risks to children, pets and wildlife, what to do in an exposure (Poison Control and ASPCA numbers from their own sites), and why trapping usually comes first."
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-mice-humanely",
+    "about": "how to get rid of mice humanely",
+    "type": "informational",
+    "covers": "Humane mouse control: exclusion as the most humane method, what 'humane' means for a kill trap (fast), the problems with live-catch and release (survival, state rules, CDC's advice), why glue traps and poison are the least humane, and how to clean up and prevent a repeat."
+   },
+   {
+    "path": "/blog/mice-removal",
+    "about": "mice removal",
+    "type": "commercial",
+    "covers": "Getting mice out and cleaning up after them: removal from walls, attics, crawl spaces, garages and vehicles, finding and removing a dead mouse and the smell, the CDC method for cleaning droppings and nests safely, what a professional removal service includes (trapping, exclusion, sanitation), and how to decide between doing it yourself and hiring it out."
+   },
+   {
+    "path": "/blog/mice-exterminator",
+    "about": "mice exterminator",
+    "type": "commercial",
+    "covers": "Hiring a professional for mice (the page also answers 'exterminator for mice' and 'mice pest control'): signs you need one, exactly what an exterminator does on a mouse job, typical US price ranges with the source and date stated, one-time versus ongoing service, questions to ask, licensing and how to check it with your state, how long it takes, and what you still have to do yourself."
+   }
+  ]
+ },
+ {
+  "id": "how-to-get-rid-of-ants-canada",
+  "type": "broaden",
+  "route": "blog/how-to-get-rid-of-ants-canada",
+  "page": "/blog/how-to-get-rid-of-ants-canada",
+  "keyword": "how to get rid of ants",
+  "alsoAnswers": [],
+  "usVolume": 112000,
+  "currentWords": 4963,
+  "addWords": 700,
+  "cluster": "ants",
+  "usFocus": "the ant species US homeowners face that Canadian guidance skips (red imported fire ants, Argentine ants, ghost ants, crazy ants) and where, bait active ingredients sold to US consumers, EPA registration, and university extension guidance on baiting versus spraying.",
+  "hub": "/learn/ants",
+  "linkTo": [
+   {
+    "path": "/blog/sugar-ants",
+    "about": "sugar ants",
+    "type": "informational",
+    "covers": "What Americans mean by 'sugar ants' (not one species: usually odorous house ants, pavement ants, pharaoh ants, Argentine ants or little black ants; the true banded sugar ant is Australian), how to tell which one you have, why they show up, and a step-by-step plan to get rid of them (the page also answers 'how to get rid of sugar ants'): bait, do not spray, cut off food and water, seal."
+   },
+   {
+    "path": "/blog/tiny-ants",
+    "about": "tiny ants",
+    "type": "informational",
+    "covers": "An identification key for very small ants in a house: size, color, smell when crushed, where the trail runs, then which species that points to (odorous house, pharaoh, thief or grease ant, ghost, little black, pavement, Argentine)"
+   },
+   {
+    "path": "/blog/black-ants",
+    "about": "black ants",
+    "type": "informational",
+    "covers": "Black ants in and around US homes: little black ants versus carpenter ants versus pavement ants versus odorous house ants"
+   },
+   {
+    "path": "/blog/ghost-ants",
+    "about": "ghost ants",
+    "type": "informational",
+    "covers": "Ghost ants (Tapinoma melanocephalum): identification, where they live in the US (Florida, Hawaii, Texas, and heated buildings farther north), nesting and budding behavior, why sprays split colonies, and how they are controlled."
+   },
+   {
+    "path": "/blog/red-ants",
+    "about": "red ants",
+    "type": "informational",
+    "covers": "Which ant is the 'red ant' you are seeing: red imported fire ants, native fire ants, and red or reddish look-alikes that do not sting badly"
+   },
+   {
+    "path": "/blog/flying-ants",
+    "about": "flying ants",
+    "type": "informational",
+    "covers": "What flying ants are (reproductive swarmers on a mating flight), when and why swarms happen, how long they last, and a clearly headed section on flying ants in the house (the page also answers 'flying ants in house'): what an indoor swarm means, winter swarms and carpenter ants, what to do"
+   },
+   {
+    "path": "/blog/flying-ants-vs-termites",
+    "about": "flying ants vs termites",
+    "type": "informational",
+    "covers": "The comparison page (also answers 'termites vs ants'): swarmers side by side (antennae, waist, wing length), then workers, then the damage each does and the signs they leave (frass versus mud tubes)"
+   },
+   {
+    "path": "/blog/do-carpenter-ants-bite",
+    "about": "do carpenter ants bite",
+    "type": "informational",
+    "covers": "Carpenter ant bites: yes they can bite and may spray formic acid, what it feels like, how to treat it, and why the bite is the minor problem compared with a nest in the structure"
+   },
+   {
+    "path": "/blog/do-ants-bite",
+    "about": "do ants bite",
+    "type": "informational",
+    "covers": "Bite versus sting: which US ants bite, which sting, which do both (fire ants, harvester ants, carpenter ants, pavement ants, and the harmless majority)"
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-ants-in-the-house",
+    "about": "how to get rid of ants in the house",
+    "type": "informational",
+    "covers": "Ants in the house (the page also answers 'ants in house'): why they came in, how to follow the trail to the entry point, why bait beats spray, which bait for which ant, sealing and moisture fixes, how long it takes, and when the nest is inside the walls"
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-ants-in-the-kitchen",
+    "about": "how to get rid of ants in kitchen",
+    "type": "informational",
+    "covers": "Kitchen-specific: where kitchen ants nest and enter (under the sink, behind the dishwasher, window frames, wall voids near moisture), bait placement that keeps products away from food-prep surfaces, cleaning the scent trail, food storage, and what not to spray where food is prepared."
+   },
+   {
+    "path": "/blog/borax-for-ants",
+    "about": "borax for ants",
+    "type": "commercial",
+    "covers": "Borax and boric acid as ant bait: how borates kill ants and why a low concentration matters (workers must live long enough to share it), sugar bait versus protein bait, the common DIY recipe and its limits, ready-made borate bait stations named editorially (no links), safety around children and pets citing the National Pesticide Information Center, how long it takes, and when it fails."
+   },
+   {
+    "path": "/blog/does-vinegar-kill-ants",
+    "about": "does vinegar kill ants",
+    "type": "informational",
+    "covers": "Vinegar on ants: it can kill some on direct contact and wipes out the scent trail for a while, but it does not reach the colony"
+   },
+   {
+    "path": "/blog/what-do-ants-eat",
+    "about": "what do ants eat",
+    "type": "informational",
+    "covers": "Ant diets: sugars, proteins, fats, honeydew from aphids, seeds, fungus (leafcutters), other insects"
+   },
+   {
+    "path": "/blog/how-long-do-ants-live",
+    "about": "how long do ants live",
+    "type": "informational",
+    "covers": "Lifespan of workers, queens and males by common species, the egg to adult timeline, how long a colony lasts, and how long ants survive without food or water"
+   },
+   {
+    "path": "/blog/how-many-ants-are-in-the-world",
+    "about": "how many ants are in the world",
+    "type": "informational",
+    "covers": "The 2022 PNAS estimate of about 20 quadrillion ants: how it was calculated, what it works out to per person, total ant biomass compared with wild birds and mammals, how many species are known, where ants are most abundant, and the limits of the estimate."
+   },
+   {
+    "path": "/blog/army-ants",
+    "about": "army ants",
+    "type": "informational",
+    "covers": "Army ants: what makes an ant an army ant (nomadic, no permanent nest, mass raids), bivouacs, the best-known species, where they live including the lesser-known US species in the South and Southwest, what they eat, and whether they are dangerous to people (the myths)."
+   },
+   {
+    "path": "/blog/bullet-ants",
+    "about": "bullet ants",
+    "type": "informational",
+    "covers": "The bullet ant (Paraponera clavata): size, range in Central and South America (not established in the US), the sting and its place at the top of the Schmidt sting pain index, how long the pain lasts, the Satere-Mawe initiation ritual, and behavior."
+   },
+   {
+    "path": "/blog/honeypot-ants",
+    "about": "honeypot ants",
+    "type": "informational",
+    "covers": "Honeypot ants: the replete workers that store liquid food in swollen abdomens, the species in the US Southwest (Myrmecocystus) and in Australia, how the colony uses them, where they nest, and their role as food in some cultures."
+   },
+   {
+    "path": "/blog/zombie-ants",
+    "about": "zombie ants",
+    "type": "informational",
+    "covers": "The 'zombie ant' fungus (Ophiocordyceps): how it infects carpenter ants and manipulates their behavior, the death grip, where it occurs including the US Southeast, what the research says about how it controls the ant, and why it cannot infect people."
+   }
+  ]
+ },
+ {
+  "id": "how-to-get-rid-of-cockroaches-canada",
+  "type": "broaden",
+  "route": "blog/how-to-get-rid-of-cockroaches-canada",
+  "page": "/blog/how-to-get-rid-of-cockroaches-canada",
+  "keyword": "how to get rid of cockroaches",
+  "alsoAnswers": [],
+  "usVolume": 18000,
+  "currentWords": 3130,
+  "addWords": 700,
+  "cluster": "cockroaches",
+  "usFocus": "the species mix in the US (German everywhere; American, smokybrown and Turkestan in the South and Southwest; Oriental in the North), gel bait and insect growth regulator products available to US consumers, EPA guidance on cockroaches and asthma, and why total-release foggers are discouraged.",
+  "hub": "/learn/cockroaches",
+  "linkTo": [
+   {
+    "path": "/blog/german-cockroaches",
+    "about": "german cockroaches",
+    "type": "informational",
+    "covers": "The German cockroach: identification (the two dark stripes behind the head), size in inches, biology and reproduction numbers, where they hide, how they arrive, why they are the hardest household roach, health effects, and the control program that works (sanitation, monitoring, gel bait, insect growth regulators) versus what fails (sprays, foggers)."
+   },
+   {
+    "path": "/blog/what-do-baby-cockroaches-look-like",
+    "about": "what do baby cockroaches look like",
+    "type": "informational",
+    "covers": "Cockroach nymphs by species (German, American, Oriental, brown-banded): size, color, markings, how they differ from adults, baby roach versus bed bug versus beetle, what finding nymphs tells you about the infestation, and what to do next."
+   },
+   {
+    "path": "/blog/bugs-that-look-like-cockroaches",
+    "about": "bugs that look like cockroaches",
+    "type": "informational",
+    "covers": "The look-alikes: ground beetles, June beetles, crickets, giant water bugs, wood roaches (a real cockroach that does not infest homes), palmetto bug (a name for several large roaches), earwigs, bed bugs"
+   },
+   {
+    "path": "/blog/water-bugs-vs-cockroaches",
+    "about": "water bugs vs cockroaches",
+    "type": "informational",
+    "covers": "The naming confusion: true water bugs (giant water bugs, aquatic and predatory, they bite) versus the cockroaches people call waterbugs (Oriental and American)"
+   },
+   {
+    "path": "/blog/can-cockroaches-fly",
+    "about": "can cockroaches fly",
+    "type": "informational",
+    "covers": "Which cockroaches fly (the page also answers 'do cockroaches fly'): species by species (American glides, smokybrown and Asian fly well, male wood roaches fly to lights, German almost never, Oriental cannot), why warm weather brings out flying, why they fly toward you, and what flying roaches mean for where they came from"
+   },
+   {
+    "path": "/blog/do-cockroaches-bite",
+    "about": "do cockroaches bite",
+    "type": "informational",
+    "covers": "Cockroach bites: rare and associated with very heavy infestations, what is documented, what a suspected bite looks like and the more likely culprits, and the real health issues (allergens and asthma, bacteria carried on the body) with sources."
+   },
+   {
+    "path": "/blog/where-do-cockroaches-come-from",
+    "about": "where do cockroaches come from",
+    "type": "informational",
+    "covers": "How cockroaches get into a home: carried in (boxes, bags, used appliances and furniture), through shared walls and plumbing in apartments, up from drains and sewers, in from outdoors"
+   }
+  ]
+ },
+ {
+  "id": "carpenter-ants-canada",
+  "type": "broaden",
+  "route": "blog/carpenter-ants-canada",
+  "page": "/blog/carpenter-ants-canada",
+  "keyword": "how to get rid of carpenter ants",
+  "alsoAnswers": [],
+  "usVolume": 11000,
+  "currentWords": 4436,
+  "addWords": 700,
+  "cluster": "ants",
+  "usFocus": "the carpenter ant species by US region (black carpenter ant in the East, western black carpenter ant, Florida carpenter ant), swarm timing by region, products and actives available to US consumers, and when US extension services say to call a professional. Answer \"how to get rid of carpenter ants\" directly in the first two sentences.",
+  "hub": "/learn/ants",
+  "linkTo": [
+   {
+    "path": "/blog/sugar-ants",
+    "about": "sugar ants",
+    "type": "informational",
+    "covers": "What Americans mean by 'sugar ants' (not one species: usually odorous house ants, pavement ants, pharaoh ants, Argentine ants or little black ants; the true banded sugar ant is Australian), how to tell which one you have, why they show up, and a step-by-step plan to get rid of them (the page also answers 'how to get rid of sugar ants'): bait, do not spray, cut off food and water, seal."
+   },
+   {
+    "path": "/blog/tiny-ants",
+    "about": "tiny ants",
+    "type": "informational",
+    "covers": "An identification key for very small ants in a house: size, color, smell when crushed, where the trail runs, then which species that points to (odorous house, pharaoh, thief or grease ant, ghost, little black, pavement, Argentine)"
+   },
+   {
+    "path": "/blog/black-ants",
+    "about": "black ants",
+    "type": "informational",
+    "covers": "Black ants in and around US homes: little black ants versus carpenter ants versus pavement ants versus odorous house ants"
+   },
+   {
+    "path": "/blog/ghost-ants",
+    "about": "ghost ants",
+    "type": "informational",
+    "covers": "Ghost ants (Tapinoma melanocephalum): identification, where they live in the US (Florida, Hawaii, Texas, and heated buildings farther north), nesting and budding behavior, why sprays split colonies, and how they are controlled."
+   },
+   {
+    "path": "/blog/red-ants",
+    "about": "red ants",
+    "type": "informational",
+    "covers": "Which ant is the 'red ant' you are seeing: red imported fire ants, native fire ants, and red or reddish look-alikes that do not sting badly"
+   },
+   {
+    "path": "/blog/flying-ants",
+    "about": "flying ants",
+    "type": "informational",
+    "covers": "What flying ants are (reproductive swarmers on a mating flight), when and why swarms happen, how long they last, and a clearly headed section on flying ants in the house (the page also answers 'flying ants in house'): what an indoor swarm means, winter swarms and carpenter ants, what to do"
+   },
+   {
+    "path": "/blog/flying-ants-vs-termites",
+    "about": "flying ants vs termites",
+    "type": "informational",
+    "covers": "The comparison page (also answers 'termites vs ants'): swarmers side by side (antennae, waist, wing length), then workers, then the damage each does and the signs they leave (frass versus mud tubes)"
+   },
+   {
+    "path": "/blog/do-carpenter-ants-bite",
+    "about": "do carpenter ants bite",
+    "type": "informational",
+    "covers": "Carpenter ant bites: yes they can bite and may spray formic acid, what it feels like, how to treat it, and why the bite is the minor problem compared with a nest in the structure"
+   },
+   {
+    "path": "/blog/do-ants-bite",
+    "about": "do ants bite",
+    "type": "informational",
+    "covers": "Bite versus sting: which US ants bite, which sting, which do both (fire ants, harvester ants, carpenter ants, pavement ants, and the harmless majority)"
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-ants-in-the-house",
+    "about": "how to get rid of ants in the house",
+    "type": "informational",
+    "covers": "Ants in the house (the page also answers 'ants in house'): why they came in, how to follow the trail to the entry point, why bait beats spray, which bait for which ant, sealing and moisture fixes, how long it takes, and when the nest is inside the walls"
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-ants-in-the-kitchen",
+    "about": "how to get rid of ants in kitchen",
+    "type": "informational",
+    "covers": "Kitchen-specific: where kitchen ants nest and enter (under the sink, behind the dishwasher, window frames, wall voids near moisture), bait placement that keeps products away from food-prep surfaces, cleaning the scent trail, food storage, and what not to spray where food is prepared."
+   },
+   {
+    "path": "/blog/borax-for-ants",
+    "about": "borax for ants",
+    "type": "commercial",
+    "covers": "Borax and boric acid as ant bait: how borates kill ants and why a low concentration matters (workers must live long enough to share it), sugar bait versus protein bait, the common DIY recipe and its limits, ready-made borate bait stations named editorially (no links), safety around children and pets citing the National Pesticide Information Center, how long it takes, and when it fails."
+   },
+   {
+    "path": "/blog/does-vinegar-kill-ants",
+    "about": "does vinegar kill ants",
+    "type": "informational",
+    "covers": "Vinegar on ants: it can kill some on direct contact and wipes out the scent trail for a while, but it does not reach the colony"
+   },
+   {
+    "path": "/blog/what-do-ants-eat",
+    "about": "what do ants eat",
+    "type": "informational",
+    "covers": "Ant diets: sugars, proteins, fats, honeydew from aphids, seeds, fungus (leafcutters), other insects"
+   },
+   {
+    "path": "/blog/how-long-do-ants-live",
+    "about": "how long do ants live",
+    "type": "informational",
+    "covers": "Lifespan of workers, queens and males by common species, the egg to adult timeline, how long a colony lasts, and how long ants survive without food or water"
+   },
+   {
+    "path": "/blog/how-many-ants-are-in-the-world",
+    "about": "how many ants are in the world",
+    "type": "informational",
+    "covers": "The 2022 PNAS estimate of about 20 quadrillion ants: how it was calculated, what it works out to per person, total ant biomass compared with wild birds and mammals, how many species are known, where ants are most abundant, and the limits of the estimate."
+   },
+   {
+    "path": "/blog/army-ants",
+    "about": "army ants",
+    "type": "informational",
+    "covers": "Army ants: what makes an ant an army ant (nomadic, no permanent nest, mass raids), bivouacs, the best-known species, where they live including the lesser-known US species in the South and Southwest, what they eat, and whether they are dangerous to people (the myths)."
+   },
+   {
+    "path": "/blog/bullet-ants",
+    "about": "bullet ants",
+    "type": "informational",
+    "covers": "The bullet ant (Paraponera clavata): size, range in Central and South America (not established in the US), the sting and its place at the top of the Schmidt sting pain index, how long the pain lasts, the Satere-Mawe initiation ritual, and behavior."
+   },
+   {
+    "path": "/blog/honeypot-ants",
+    "about": "honeypot ants",
+    "type": "informational",
+    "covers": "Honeypot ants: the replete workers that store liquid food in swollen abdomens, the species in the US Southwest (Myrmecocystus) and in Australia, how the colony uses them, where they nest, and their role as food in some cultures."
+   },
+   {
+    "path": "/blog/zombie-ants",
+    "about": "zombie ants",
+    "type": "informational",
+    "covers": "The 'zombie ant' fungus (Ophiocordyceps): how it infects carpenter ants and manipulates their behavior, the death grip, where it occurs including the US Southeast, what the research says about how it controls the ant, and why it cannot infect people."
+   }
+  ]
+ },
+ {
+  "id": "mosquito-repellent-plants-ontario",
+  "type": "broaden",
+  "route": "blog/mosquito-repellent-plants-ontario",
+  "page": "/blog/mosquito-repellent-plants-ontario",
+  "keyword": "plants that repel mosquitoes",
+  "alsoAnswers": [],
+  "usVolume": 10000,
+  "currentWords": 1539,
+  "addWords": 1161,
+  "cluster": "mosquitoes",
+  "usFocus": "which of these plants are perennial in which USDA hardiness zones (cite the USDA zone map), what university extension research in the US says about whether intact plants repel mosquitoes, and what CDC and EPA recommend instead. Answer \"what plants repel mosquitoes\" directly in the first two sentences.",
+  "hub": "/blog/ultimate-backyard-mosquito-control-guide",
+  "linkTo": [
+   {
+    "path": "/blog/how-to-get-rid-of-mosquitoes",
+    "about": "how to get rid of mosquitoes",
+    "type": "informational",
+    "covers": "Getting rid of mosquitoes in a yard, following CDC and EPA guidance: remove and treat standing water (including Bti larvicide), cut back resting sites, adult control options and what they can and cannot do, when a professional or the local mosquito control district is the answer, and what does not work"
+   },
+   {
+    "path": "/blog/how-to-keep-mosquitoes-away",
+    "about": "how to keep mosquitoes away",
+    "type": "informational",
+    "covers": "Keeping mosquitoes off you and away from where you sit: EPA-registered repellents (DEET, picaridin, IR3535, oil of lemon eucalyptus) and how to choose, permethrin-treated clothing, fans, screens, timing, spatial repellents, and the products that do not work (wristbands, ultrasonic apps)"
+   },
+   {
+    "path": "/blog/are-mosquitoes-attracted-to-light",
+    "about": "are mosquitoes attracted to light",
+    "type": "informational",
+    "covers": "Mosquitoes and light: they find people by carbon dioxide, body heat and skin odor far more than light, how different species respond to light and to colors, why bug zappers kill very few mosquitoes (cite the university studies), UV traps, and whether yellow or LED bulbs help."
+   },
+   {
+    "path": "/blog/do-mosquitoes-bite-dogs",
+    "about": "do mosquitoes bite dogs",
+    "type": "informational",
+    "covers": "Yes: where mosquitoes bite dogs, what bites look like, and why it matters (heartworm, which is spread only by mosquitoes; cite the American Heartworm Society, FDA or CDC)"
+   },
+   {
+    "path": "/blog/alaska-mosquitoes",
+    "about": "alaska mosquitoes",
+    "type": "informational",
+    "covers": "Mosquitoes in Alaska: why there are so many (standing water over permafrost, snowmelt), how many species, the season by month and by region, how bad it gets and where, the 'state bird' joke and actual size, effects on caribou and wildlife, and how visitors protect themselves."
+   }
+  ]
+ },
+ {
+  "id": "what-kills-bed-bugs-instantly-canada",
+  "type": "broaden",
+  "route": "blog/what-kills-bed-bugs-instantly-canada",
+  "page": "/blog/what-kills-bed-bugs-instantly-canada",
+  "keyword": "what kills bed bugs instantly",
+  "alsoAnswers": [],
+  "usVolume": 9500,
+  "currentWords": 3243,
+  "addWords": 700,
+  "cluster": "bed-bugs",
+  "usFocus": "what is registered for bed bugs in the US and how to check a product with the EPA bed bug product search tool, the lethal temperatures in Fahrenheit, products available to US consumers that are not sold in Canada (named, not linked), and EPA and university extension guidance on contact killers versus residuals.",
+  "hub": "/learn/bed-bugs",
+  "linkTo": [
+   {
+    "path": "/blog/what-do-bed-bugs-look-like",
+    "about": "what do bed bugs look like",
+    "type": "informational",
+    "covers": "Identification of the bug itself: adult size (compare to an apple seed, give inches), shape, color before and after feeding, the five nymph stages, eggs, and what they look like on a mattress or skin"
+   },
+   {
+    "path": "/blog/black-bed-bugs",
+    "about": "black bed bugs",
+    "type": "informational",
+    "covers": "Answers 'are bed bugs black?': real bed bug colors by life stage and feeding status, why a bed bug can look nearly black, what the black spots on a mattress are (fecal stains), and the small black bugs commonly mistaken for bed bugs (carpet beetles, spider beetles, bat bugs, fleas, cockroach nymphs)"
+   },
+   {
+    "path": "/blog/bugs-that-look-like-bed-bugs",
+    "about": "bugs that look like bed bugs",
+    "type": "informational",
+    "covers": "The look-alike guide: bat bugs, swallow bugs, carpet beetles and their larvae, spider beetles, booklice, cockroach nymphs, fleas, ticks"
+   },
+   {
+    "path": "/blog/where-do-bed-bugs-hide",
+    "about": "where do bed bugs hide",
+    "type": "informational",
+    "covers": "Hiding places ranked by distance from where people sleep: mattress seams and tags, box spring, bed frame and headboard, nightstands, baseboards, outlets, furniture, luggage"
+   },
+   {
+    "path": "/blog/bed-bugs-on-mattress",
+    "about": "bed bugs on mattress",
+    "type": "informational",
+    "covers": "What bed bug signs on a mattress look like (live bugs, fecal spots, shed skins, eggs, blood smears) and exactly what to do about a mattress that has them: vacuum, steam, encase, hot-dry the bedding, isolate the bed"
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-bed-bugs",
+    "about": "how to get rid of bed bugs",
+    "type": "informational",
+    "covers": "The full elimination plan following the EPA's integrated approach: confirm the ID, contain, prepare, kill with heat and steam, use desiccant dust and EPA-registered products correctly, monitor with interceptors, repeat"
+   },
+   {
+    "path": "/blog/does-alcohol-kill-bed-bugs",
+    "about": "does alcohol kill bed bugs",
+    "type": "informational",
+    "covers": "Rubbing alcohol on bed bugs: it kills only on direct contact and inconsistently (cite the university research on kill rates), does nothing to hidden bugs or most eggs, and is a documented fire hazard"
+   },
+   {
+    "path": "/blog/does-lysol-kill-bed-bugs",
+    "about": "does lysol kill bed bugs",
+    "type": "informational",
+    "covers": "Lysol and other household disinfectants on bed bugs: a disinfectant is not an insecticide and is not labeled for bed bugs, a direct soaking may kill some on contact, it leaves no residual and misses eggs and hidden bugs"
+   }
+  ]
+ },
+ {
+  "id": "what-does-mouse-poop-look-like-canada",
+  "type": "broaden",
+  "route": "blog/what-does-mouse-poop-look-like-canada",
+  "page": "/blog/what-does-mouse-poop-look-like-canada",
+  "keyword": "mice droppings",
+  "alsoAnswers": [],
+  "usVolume": 4500,
+  "currentWords": 5743,
+  "addWords": 700,
+  "cluster": "mice",
+  "usFocus": "droppings sizes in inches, deer mouse droppings and hantavirus risk in the US (CDC), the CDC cleanup method with the bleach dilution in US measures, and how to tell mouse from rat, bat and cockroach droppings as US extension services describe them. Answer the search \"mice droppings\" directly.",
+  "hub": "/learn/mice",
+  "linkTo": [
+   {
+    "path": "/blog/types-of-mice",
+    "about": "types of mice",
+    "type": "informational",
+    "covers": "The mice a US homeowner actually meets: house mouse, deer mouse, white-footed mouse, plus the animals often called mice (voles, shrews, young rats)"
+   },
+   {
+    "path": "/blog/deer-mice",
+    "about": "deer mice",
+    "type": "informational",
+    "covers": "Deer mice (Peromyscus maniculatus): identification versus the house mouse, range, habitat and habits, why they matter (the main carrier of the hantavirus that causes HPS in the US, per CDC), how to keep them out of homes, cabins and sheds, and the CDC cleanup method."
+   },
+   {
+    "path": "/blog/field-mice",
+    "about": "field mice",
+    "type": "informational",
+    "covers": "What 'field mice' means in the US (a loose name for deer mice, white-footed mice and voles), how to tell which one you have, when they move indoors, the damage they do in gardens and outbuildings, and how control differs from house mice"
+   },
+   {
+    "path": "/blog/baby-mice",
+    "about": "baby mice",
+    "type": "informational",
+    "covers": "Baby mice (pups): what they look like day by day and week by week, litter size, how fast mice breed, what finding a nest means for the size of the problem, baby mouse versus baby rat, and what to do with a nest safely."
+   },
+   {
+    "path": "/blog/how-long-do-mice-live",
+    "about": "how long do mice live",
+    "type": "informational",
+    "covers": "Mouse lifespan in the wild, indoors and as pets, how long they survive without food and without water, the breeding math that makes a short life irrelevant, and what that means for waiting a problem out."
+   },
+   {
+    "path": "/blog/what-do-mice-eat",
+    "about": "what do mice eat",
+    "type": "informational",
+    "covers": "What mice eat in the wild and in a house, how much and how often, what they gnaw that is not food, their water needs, and what this means for trap bait (why peanut butter works) and for food storage."
+   },
+   {
+    "path": "/blog/are-mice-nocturnal",
+    "about": "are mice nocturnal",
+    "type": "informational",
+    "covers": "When mice are active: mostly at night with peaks at dusk and before dawn, why, what seeing a mouse in the daytime suggests, the noises you hear at night and where, and how to use this for trap timing and inspection."
+   },
+   {
+    "path": "/blog/can-mice-climb-walls",
+    "about": "can mice climb walls",
+    "type": "informational",
+    "covers": "Climbing and squeezing ability: which wall surfaces mice can and cannot climb, how high they jump, how small a gap they fit through (give inches), pipes and wires as highways, how they reach attics and upper floors, and what this means for sealing a house."
+   },
+   {
+    "path": "/blog/steel-wool-for-mice",
+    "about": "steel wool for mice",
+    "type": "commercial",
+    "covers": "Steel wool as a mouse barrier: does it work, which grade, how to pack it and lock it in with caulk (the CDC seal-up method), where it fails (rust, large gaps, pulled out), copper mesh and hardware cloth as alternatives, which gaps need which material, and a room-by-room list of holes to check"
+   },
+   {
+    "path": "/blog/mice-repellent",
+    "about": "mice repellent",
+    "type": "commercial",
+    "covers": "The overview of mouse repellents by type: scent products (peppermint and other essential oils, pouches and granules), ultrasonic devices (and the FTC's history with them), predator scents, mothballs and ammonia"
+   },
+   {
+    "path": "/blog/peppermint-oil-for-mice",
+    "about": "peppermint oil for mice",
+    "type": "commercial",
+    "covers": "Peppermint oil specifically: where the idea comes from, what the limited research shows, how people apply it and how fast it fades, why mice get used to it, risks to cats and other pets, and where it can and cannot fit in a real plan."
+   },
+   {
+    "path": "/blog/what-smells-do-mice-hate",
+    "about": "what smells do mice hate",
+    "type": "informational",
+    "covers": "The list people search for (peppermint, ammonia, vinegar, cayenne, cloves, dryer sheets, cinnamon, predator scents) with an honest evidence rating for each in a table, why a strong smell rarely moves an established mouse, and what to do instead"
+   },
+   {
+    "path": "/blog/do-mothballs-keep-mice-away",
+    "about": "do moth balls keep mice away",
+    "type": "informational",
+    "covers": "Mothballs for mice: they do not work at any amount that is tolerable to people, they are registered pesticides labeled only for clothes moths in sealed containers, using them otherwise is illegal off-label use, and the vapors are a health risk (cite the National Pesticide Information Center and EPA)"
+   },
+   {
+    "path": "/blog/vamoose-for-mice",
+    "about": "vamoose for mice",
+    "type": "commercial",
+    "covers": "An honest explainer on the Vamoose mouse repellent product searchers are asking about"
+   },
+   {
+    "path": "/blog/mice-traps",
+    "about": "mice traps",
+    "type": "commercial",
+    "covers": "Mouse traps by type: snap, electronic, multi-catch, live-catch, glue boards (and why CDC advises against glue and live traps)"
+   },
+   {
+    "path": "/blog/mice-poison",
+    "about": "mice poison",
+    "type": "commercial",
+    "covers": "Rodenticides in the US: the active ingredient classes (first and second generation anticoagulants, bromethalin, cholecalciferol, zinc phosphide), the EPA rules for consumer products (bait stations required, loose pellets and second-generation anticoagulants removed from the consumer market), risks to children, pets and wildlife, what to do in an exposure (Poison Control and ASPCA numbers from their own sites), and why trapping usually comes first."
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-mice-humanely",
+    "about": "how to get rid of mice humanely",
+    "type": "informational",
+    "covers": "Humane mouse control: exclusion as the most humane method, what 'humane' means for a kill trap (fast), the problems with live-catch and release (survival, state rules, CDC's advice), why glue traps and poison are the least humane, and how to clean up and prevent a repeat."
+   },
+   {
+    "path": "/blog/mice-removal",
+    "about": "mice removal",
+    "type": "commercial",
+    "covers": "Getting mice out and cleaning up after them: removal from walls, attics, crawl spaces, garages and vehicles, finding and removing a dead mouse and the smell, the CDC method for cleaning droppings and nests safely, what a professional removal service includes (trapping, exclusion, sanitation), and how to decide between doing it yourself and hiring it out."
+   },
+   {
+    "path": "/blog/mice-exterminator",
+    "about": "mice exterminator",
+    "type": "commercial",
+    "covers": "Hiring a professional for mice (the page also answers 'exterminator for mice' and 'mice pest control'): signs you need one, exactly what an exterminator does on a mouse job, typical US price ranges with the source and date stated, one-time versus ongoing service, questions to ask, licensing and how to check it with your state, how long it takes, and what you still have to do yourself."
+   }
+  ]
+ },
+ {
+  "id": "bed-bug-spray-canada",
+  "type": "broaden",
+  "route": "blog/bed-bug-spray-canada",
+  "page": "/blog/bed-bug-spray-canada",
+  "keyword": "bed bugs spray",
+  "alsoAnswers": [],
+  "usVolume": 2600,
+  "currentWords": 2790,
+  "addWords": 700,
+  "cluster": "bed-bugs",
+  "usFocus": "how bed bug sprays are regulated in the US (EPA registration, the EPA bed bug product search tool), the active ingredient classes available to US consumers (pyrethroids, neonicotinoid combinations, desiccants, and others) and resistance, minimum-risk 25(b) products and what that exemption means, and what US university research found about over-the-counter sprays and foggers.",
+  "hub": "/learn/bed-bugs",
+  "linkTo": [
+   {
+    "path": "/blog/what-do-bed-bugs-look-like",
+    "about": "what do bed bugs look like",
+    "type": "informational",
+    "covers": "Identification of the bug itself: adult size (compare to an apple seed, give inches), shape, color before and after feeding, the five nymph stages, eggs, and what they look like on a mattress or skin"
+   },
+   {
+    "path": "/blog/black-bed-bugs",
+    "about": "black bed bugs",
+    "type": "informational",
+    "covers": "Answers 'are bed bugs black?': real bed bug colors by life stage and feeding status, why a bed bug can look nearly black, what the black spots on a mattress are (fecal stains), and the small black bugs commonly mistaken for bed bugs (carpet beetles, spider beetles, bat bugs, fleas, cockroach nymphs)"
+   },
+   {
+    "path": "/blog/bugs-that-look-like-bed-bugs",
+    "about": "bugs that look like bed bugs",
+    "type": "informational",
+    "covers": "The look-alike guide: bat bugs, swallow bugs, carpet beetles and their larvae, spider beetles, booklice, cockroach nymphs, fleas, ticks"
+   },
+   {
+    "path": "/blog/where-do-bed-bugs-hide",
+    "about": "where do bed bugs hide",
+    "type": "informational",
+    "covers": "Hiding places ranked by distance from where people sleep: mattress seams and tags, box spring, bed frame and headboard, nightstands, baseboards, outlets, furniture, luggage"
+   },
+   {
+    "path": "/blog/bed-bugs-on-mattress",
+    "about": "bed bugs on mattress",
+    "type": "informational",
+    "covers": "What bed bug signs on a mattress look like (live bugs, fecal spots, shed skins, eggs, blood smears) and exactly what to do about a mattress that has them: vacuum, steam, encase, hot-dry the bedding, isolate the bed"
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-bed-bugs",
+    "about": "how to get rid of bed bugs",
+    "type": "informational",
+    "covers": "The full elimination plan following the EPA's integrated approach: confirm the ID, contain, prepare, kill with heat and steam, use desiccant dust and EPA-registered products correctly, monitor with interceptors, repeat"
+   },
+   {
+    "path": "/blog/does-alcohol-kill-bed-bugs",
+    "about": "does alcohol kill bed bugs",
+    "type": "informational",
+    "covers": "Rubbing alcohol on bed bugs: it kills only on direct contact and inconsistently (cite the university research on kill rates), does nothing to hidden bugs or most eggs, and is a documented fire hazard"
+   },
+   {
+    "path": "/blog/does-lysol-kill-bed-bugs",
+    "about": "does lysol kill bed bugs",
+    "type": "informational",
+    "covers": "Lysol and other household disinfectants on bed bugs: a disinfectant is not an insecticide and is not labeled for bed bugs, a direct soaking may kill some on contact, it leaves no residual and misses eggs and hidden bugs"
+   }
+  ]
+ },
+ {
+  "id": "where-do-mosquitoes-go-in-winter-ontario",
+  "type": "broaden",
+  "route": "blog/where-do-mosquitoes-go-in-winter-ontario",
+  "page": "/blog/where-do-mosquitoes-go-in-winter-ontario",
+  "keyword": "where do mosquitoes go in the winter",
+  "alsoAnswers": [],
+  "usVolume": 2800,
+  "currentWords": 1191,
+  "addWords": 1509,
+  "cluster": "mosquitoes",
+  "usFocus": "how overwintering differs across the US: year-round activity in south Florida, the Gulf Coast and Hawaii, the 50 degree Fahrenheit activity threshold, which species overwinter as eggs versus adults in the northern states, and when mosquito season restarts by US region (cite CDC, EPA or state extension).",
+  "hub": "/blog/ultimate-backyard-mosquito-control-guide",
+  "linkTo": [
+   {
+    "path": "/blog/how-to-get-rid-of-mosquitoes",
+    "about": "how to get rid of mosquitoes",
+    "type": "informational",
+    "covers": "Getting rid of mosquitoes in a yard, following CDC and EPA guidance: remove and treat standing water (including Bti larvicide), cut back resting sites, adult control options and what they can and cannot do, when a professional or the local mosquito control district is the answer, and what does not work"
+   },
+   {
+    "path": "/blog/how-to-keep-mosquitoes-away",
+    "about": "how to keep mosquitoes away",
+    "type": "informational",
+    "covers": "Keeping mosquitoes off you and away from where you sit: EPA-registered repellents (DEET, picaridin, IR3535, oil of lemon eucalyptus) and how to choose, permethrin-treated clothing, fans, screens, timing, spatial repellents, and the products that do not work (wristbands, ultrasonic apps)"
+   },
+   {
+    "path": "/blog/are-mosquitoes-attracted-to-light",
+    "about": "are mosquitoes attracted to light",
+    "type": "informational",
+    "covers": "Mosquitoes and light: they find people by carbon dioxide, body heat and skin odor far more than light, how different species respond to light and to colors, why bug zappers kill very few mosquitoes (cite the university studies), UV traps, and whether yellow or LED bulbs help."
+   },
+   {
+    "path": "/blog/do-mosquitoes-bite-dogs",
+    "about": "do mosquitoes bite dogs",
+    "type": "informational",
+    "covers": "Yes: where mosquitoes bite dogs, what bites look like, and why it matters (heartworm, which is spread only by mosquitoes; cite the American Heartworm Society, FDA or CDC)"
+   },
+   {
+    "path": "/blog/alaska-mosquitoes",
+    "about": "alaska mosquitoes",
+    "type": "informational",
+    "covers": "Mosquitoes in Alaska: why there are so many (standing water over permafrost, snowmelt), how many species, the season by month and by region, how bad it gets and where, the 'state bird' joke and actual size, effects on caribou and wildlife, and how visitors protect themselves."
+   }
+  ]
+ },
+ {
+  "id": "mosquito-facts",
+  "type": "merge",
+  "route": "blog/mosquito-facts",
+  "page": "/blog/mosquito-facts",
+  "keyword": "mosquitoes",
+  "usVolume": 29000,
+  "currentWords": 1036,
+  "addWords": 350,
+  "cluster": "mosquitoes",
+  "usFocus": "mosquitoes in the United States: roughly how many species (CDC), the main disease-carrying genera, the season by region, and which US agencies track them.",
+  "hub": "/blog/ultimate-backyard-mosquito-control-guide",
+  "linkTo": [
+   {
+    "path": "/blog/how-to-get-rid-of-mosquitoes",
+    "about": "how to get rid of mosquitoes",
+    "type": "informational",
+    "covers": "Getting rid of mosquitoes in a yard, following CDC and EPA guidance: remove and treat standing water (including Bti larvicide), cut back resting sites, adult control options and what they can and cannot do, when a professional or the local mosquito control district is the answer, and what does not work"
+   },
+   {
+    "path": "/blog/how-to-keep-mosquitoes-away",
+    "about": "how to keep mosquitoes away",
+    "type": "informational",
+    "covers": "Keeping mosquitoes off you and away from where you sit: EPA-registered repellents (DEET, picaridin, IR3535, oil of lemon eucalyptus) and how to choose, permethrin-treated clothing, fans, screens, timing, spatial repellents, and the products that do not work (wristbands, ultrasonic apps)"
+   },
+   {
+    "path": "/blog/are-mosquitoes-attracted-to-light",
+    "about": "are mosquitoes attracted to light",
+    "type": "informational",
+    "covers": "Mosquitoes and light: they find people by carbon dioxide, body heat and skin odor far more than light, how different species respond to light and to colors, why bug zappers kill very few mosquitoes (cite the university studies), UV traps, and whether yellow or LED bulbs help."
+   },
+   {
+    "path": "/blog/do-mosquitoes-bite-dogs",
+    "about": "do mosquitoes bite dogs",
+    "type": "informational",
+    "covers": "Yes: where mosquitoes bite dogs, what bites look like, and why it matters (heartworm, which is spread only by mosquitoes; cite the American Heartworm Society, FDA or CDC)"
+   },
+   {
+    "path": "/blog/alaska-mosquitoes",
+    "about": "alaska mosquitoes",
+    "type": "informational",
+    "covers": "Mosquitoes in Alaska: why there are so many (standing water over permafrost, snowmelt), how many species, the season by month and by region, how bad it gets and where, the 'state bird' joke and actual size, effects on caribou and wildlife, and how visitors protect themselves."
+   }
+  ]
+ },
+ {
+  "id": "bed-bug-bites",
+  "type": "merge",
+  "route": "blog/bed-bug-bites",
+  "page": "/blog/bed-bug-bites",
+  "keyword": "what do bed bugs bites look like",
+  "usVolume": 9400,
+  "currentWords": 552,
+  "addWords": 350,
+  "cluster": "bed-bugs",
+  "usFocus": "what CDC and the American Academy of Dermatology say bed bug bites look like and how reactions vary, and when to see a provider.",
+  "hub": "/learn/bed-bugs",
+  "linkTo": [
+   {
+    "path": "/blog/what-do-bed-bugs-look-like",
+    "about": "what do bed bugs look like",
+    "type": "informational",
+    "covers": "Identification of the bug itself: adult size (compare to an apple seed, give inches), shape, color before and after feeding, the five nymph stages, eggs, and what they look like on a mattress or skin"
+   },
+   {
+    "path": "/blog/black-bed-bugs",
+    "about": "black bed bugs",
+    "type": "informational",
+    "covers": "Answers 'are bed bugs black?': real bed bug colors by life stage and feeding status, why a bed bug can look nearly black, what the black spots on a mattress are (fecal stains), and the small black bugs commonly mistaken for bed bugs (carpet beetles, spider beetles, bat bugs, fleas, cockroach nymphs)"
+   },
+   {
+    "path": "/blog/bugs-that-look-like-bed-bugs",
+    "about": "bugs that look like bed bugs",
+    "type": "informational",
+    "covers": "The look-alike guide: bat bugs, swallow bugs, carpet beetles and their larvae, spider beetles, booklice, cockroach nymphs, fleas, ticks"
+   },
+   {
+    "path": "/blog/where-do-bed-bugs-hide",
+    "about": "where do bed bugs hide",
+    "type": "informational",
+    "covers": "Hiding places ranked by distance from where people sleep: mattress seams and tags, box spring, bed frame and headboard, nightstands, baseboards, outlets, furniture, luggage"
+   },
+   {
+    "path": "/blog/bed-bugs-on-mattress",
+    "about": "bed bugs on mattress",
+    "type": "informational",
+    "covers": "What bed bug signs on a mattress look like (live bugs, fecal spots, shed skins, eggs, blood smears) and exactly what to do about a mattress that has them: vacuum, steam, encase, hot-dry the bedding, isolate the bed"
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-bed-bugs",
+    "about": "how to get rid of bed bugs",
+    "type": "informational",
+    "covers": "The full elimination plan following the EPA's integrated approach: confirm the ID, contain, prepare, kill with heat and steam, use desiccant dust and EPA-registered products correctly, monitor with interceptors, repeat"
+   },
+   {
+    "path": "/blog/does-alcohol-kill-bed-bugs",
+    "about": "does alcohol kill bed bugs",
+    "type": "informational",
+    "covers": "Rubbing alcohol on bed bugs: it kills only on direct contact and inconsistently (cite the university research on kill rates), does nothing to hidden bugs or most eggs, and is a documented fire hazard"
+   },
+   {
+    "path": "/blog/does-lysol-kill-bed-bugs",
+    "about": "does lysol kill bed bugs",
+    "type": "informational",
+    "covers": "Lysol and other household disinfectants on bed bugs: a disinfectant is not an insecticide and is not labeled for bed bugs, a direct soaking may kill some on contact, it leaves no residual and misses eggs and hidden bugs"
+   }
+  ]
+ },
+ {
+  "id": "baby-bed-bugs-nymphs",
+  "type": "merge",
+  "route": "blog/baby-bed-bugs-nymphs",
+  "page": "/blog/baby-bed-bugs-nymphs",
+  "keyword": "baby bed bugs",
+  "usVolume": 9100,
+  "currentWords": 3017,
+  "addWords": 350,
+  "cluster": "bed-bugs",
+  "usFocus": "nymph sizes in inches for each of the five stages and what US university extension services say about telling nymphs from look-alikes.",
+  "hub": "/learn/bed-bugs",
+  "linkTo": [
+   {
+    "path": "/blog/what-do-bed-bugs-look-like",
+    "about": "what do bed bugs look like",
+    "type": "informational",
+    "covers": "Identification of the bug itself: adult size (compare to an apple seed, give inches), shape, color before and after feeding, the five nymph stages, eggs, and what they look like on a mattress or skin"
+   },
+   {
+    "path": "/blog/black-bed-bugs",
+    "about": "black bed bugs",
+    "type": "informational",
+    "covers": "Answers 'are bed bugs black?': real bed bug colors by life stage and feeding status, why a bed bug can look nearly black, what the black spots on a mattress are (fecal stains), and the small black bugs commonly mistaken for bed bugs (carpet beetles, spider beetles, bat bugs, fleas, cockroach nymphs)"
+   },
+   {
+    "path": "/blog/bugs-that-look-like-bed-bugs",
+    "about": "bugs that look like bed bugs",
+    "type": "informational",
+    "covers": "The look-alike guide: bat bugs, swallow bugs, carpet beetles and their larvae, spider beetles, booklice, cockroach nymphs, fleas, ticks"
+   },
+   {
+    "path": "/blog/where-do-bed-bugs-hide",
+    "about": "where do bed bugs hide",
+    "type": "informational",
+    "covers": "Hiding places ranked by distance from where people sleep: mattress seams and tags, box spring, bed frame and headboard, nightstands, baseboards, outlets, furniture, luggage"
+   },
+   {
+    "path": "/blog/bed-bugs-on-mattress",
+    "about": "bed bugs on mattress",
+    "type": "informational",
+    "covers": "What bed bug signs on a mattress look like (live bugs, fecal spots, shed skins, eggs, blood smears) and exactly what to do about a mattress that has them: vacuum, steam, encase, hot-dry the bedding, isolate the bed"
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-bed-bugs",
+    "about": "how to get rid of bed bugs",
+    "type": "informational",
+    "covers": "The full elimination plan following the EPA's integrated approach: confirm the ID, contain, prepare, kill with heat and steam, use desiccant dust and EPA-registered products correctly, monitor with interceptors, repeat"
+   },
+   {
+    "path": "/blog/does-alcohol-kill-bed-bugs",
+    "about": "does alcohol kill bed bugs",
+    "type": "informational",
+    "covers": "Rubbing alcohol on bed bugs: it kills only on direct contact and inconsistently (cite the university research on kill rates), does nothing to hidden bugs or most eggs, and is a documented fire hazard"
+   },
+   {
+    "path": "/blog/does-lysol-kill-bed-bugs",
+    "about": "does lysol kill bed bugs",
+    "type": "informational",
+    "covers": "Lysol and other household disinfectants on bed bugs: a disinfectant is not an insecticide and is not labeled for bed bugs, a direct soaking may kill some on contact, it leaves no residual and misses eggs and hidden bugs"
+   }
+  ]
+ },
+ {
+  "id": "bugs-that-look-like-ticks",
+  "type": "merge",
+  "route": "blog/bugs-that-look-like-ticks",
+  "page": "/blog/bugs-that-look-like-ticks",
+  "keyword": "bugs that look like ticks",
+  "usVolume": 3900,
+  "currentWords": 5234,
+  "addWords": 350,
+  "cluster": "ticks",
+  "usFocus": "the look-alikes US readers most often confuse with ticks by region and how to get a specimen identified through a state or university tick identification service.",
+  "hub": "/blog/ultimate-tick-control-guide-ontario",
+  "linkTo": [
+   {
+    "path": "/blog/what-do-ticks-look-like",
+    "about": "what do ticks look like",
+    "type": "informational",
+    "covers": "Identification of ticks in general: eight legs (six as larvae), no wings or antennae, size by life stage in everyday comparisons and inches, unfed versus engorged, then the main US species and their markings (blacklegged, western blacklegged, American dog, lone star, brown dog, Gulf Coast, Rocky Mountain wood)"
+   },
+   {
+    "path": "/blog/seed-ticks",
+    "about": "seed ticks",
+    "type": "informational",
+    "covers": "Seed ticks are larval ticks (the page also answers 'baby ticks', so explain larvae with six legs versus nymphs with eight): what they look like, why they attack in clusters, which species, how to remove dozens at once, what disease risk larvae and nymphs carry according to CDC, bites, and prevention."
+   },
+   {
+    "path": "/blog/ticks-that-carry-lyme-disease",
+    "about": "ticks that carry lyme disease picture",
+    "type": "informational",
+    "covers": "Only two US ticks transmit Lyme disease: the blacklegged tick in the East and Upper Midwest and the western blacklegged tick on the Pacific coast"
+   },
+   {
+    "path": "/blog/ticks-in-michigan",
+    "about": "ticks in michigan",
+    "type": "informational",
+    "covers": "Ticks in Michigan using the state health department's own material: the five most common species, where blacklegged ticks and Lyme risk are established and spreading by county, the season, the diseases reported in the state, how to submit a tick for identification through the state program, and prevention."
+   },
+   {
+    "path": "/blog/ticks-on-dogs",
+    "about": "ticks on dogs",
+    "type": "informational",
+    "covers": "Ticks on dogs: where to check, what an attached tick looks and feels like versus a skin tag or scab, how to remove one, the diseases dogs get from ticks in the US, how preventives work in general terms (ask a veterinarian), and what to watch for afterward"
+   },
+   {
+    "path": "/blog/what-kills-ticks-on-dogs-instantly",
+    "about": "what kills ticks on dogs instantly",
+    "type": "commercial",
+    "covers": "An honest answer: nothing safely kills an attached tick 'instantly', and fast removal with fine-tipped tweezers is the quickest fix"
+   },
+   {
+    "path": "/blog/what-kills-ticks",
+    "about": "what kills ticks",
+    "type": "informational",
+    "covers": "What kills ticks, by where they are: on clothing (high-heat dryer times from CDC), on gear (0.5 percent permethrin treatment), on skin (remove, do not smother), in the yard (acaricide classes used by label, tick tubes, habitat changes, what university research shows), and the popular things that do not (drowning in the wash, freezing weather, essential oils)."
+   },
+   {
+    "path": "/blog/do-chickens-eat-ticks",
+    "about": "do chickens eat ticks",
+    "type": "informational",
+    "covers": "Chickens, guinea fowl and other animals credited with eating ticks: yes they eat some, what the published studies actually measured, why that does not add up to tick control for a yard, the opossum claim and what later research found, and what does reduce ticks."
+   }
+  ]
+ },
+ {
+  "id": "do-ticks-fly-or-jump",
+  "type": "merge",
+  "route": "blog/do-ticks-fly-or-jump",
+  "page": "/blog/do-ticks-fly-or-jump",
+  "keyword": "do ticks fly",
+  "usVolume": 4900,
+  "currentWords": 906,
+  "addWords": 350,
+  "cluster": "ticks",
+  "usFocus": "questing behaviour as CDC describes it and how each main US species (blacklegged, lone star, American dog) finds a host.",
+  "hub": "/blog/ultimate-tick-control-guide-ontario",
+  "linkTo": [
+   {
+    "path": "/blog/what-do-ticks-look-like",
+    "about": "what do ticks look like",
+    "type": "informational",
+    "covers": "Identification of ticks in general: eight legs (six as larvae), no wings or antennae, size by life stage in everyday comparisons and inches, unfed versus engorged, then the main US species and their markings (blacklegged, western blacklegged, American dog, lone star, brown dog, Gulf Coast, Rocky Mountain wood)"
+   },
+   {
+    "path": "/blog/seed-ticks",
+    "about": "seed ticks",
+    "type": "informational",
+    "covers": "Seed ticks are larval ticks (the page also answers 'baby ticks', so explain larvae with six legs versus nymphs with eight): what they look like, why they attack in clusters, which species, how to remove dozens at once, what disease risk larvae and nymphs carry according to CDC, bites, and prevention."
+   },
+   {
+    "path": "/blog/ticks-that-carry-lyme-disease",
+    "about": "ticks that carry lyme disease picture",
+    "type": "informational",
+    "covers": "Only two US ticks transmit Lyme disease: the blacklegged tick in the East and Upper Midwest and the western blacklegged tick on the Pacific coast"
+   },
+   {
+    "path": "/blog/ticks-in-michigan",
+    "about": "ticks in michigan",
+    "type": "informational",
+    "covers": "Ticks in Michigan using the state health department's own material: the five most common species, where blacklegged ticks and Lyme risk are established and spreading by county, the season, the diseases reported in the state, how to submit a tick for identification through the state program, and prevention."
+   },
+   {
+    "path": "/blog/ticks-on-dogs",
+    "about": "ticks on dogs",
+    "type": "informational",
+    "covers": "Ticks on dogs: where to check, what an attached tick looks and feels like versus a skin tag or scab, how to remove one, the diseases dogs get from ticks in the US, how preventives work in general terms (ask a veterinarian), and what to watch for afterward"
+   },
+   {
+    "path": "/blog/what-kills-ticks-on-dogs-instantly",
+    "about": "what kills ticks on dogs instantly",
+    "type": "commercial",
+    "covers": "An honest answer: nothing safely kills an attached tick 'instantly', and fast removal with fine-tipped tweezers is the quickest fix"
+   },
+   {
+    "path": "/blog/what-kills-ticks",
+    "about": "what kills ticks",
+    "type": "informational",
+    "covers": "What kills ticks, by where they are: on clothing (high-heat dryer times from CDC), on gear (0.5 percent permethrin treatment), on skin (remove, do not smother), in the yard (acaricide classes used by label, tick tubes, habitat changes, what university research shows), and the popular things that do not (drowning in the wash, freezing weather, essential oils)."
+   },
+   {
+    "path": "/blog/do-chickens-eat-ticks",
+    "about": "do chickens eat ticks",
+    "type": "informational",
+    "covers": "Chickens, guinea fowl and other animals credited with eating ticks: yes they eat some, what the published studies actually measured, why that does not add up to tick control for a yard, the opossum claim and what later research found, and what does reduce ticks."
+   }
+  ]
+ },
+ {
+  "id": "types-of-ticks-identification",
+  "type": "merge",
+  "route": "blog/types-of-ticks-identification",
+  "page": "/blog/types-of-ticks-identification",
+  "keyword": "types of ticks",
+  "usVolume": 24000,
+  "currentWords": 1509,
+  "addWords": 350,
+  "cluster": "ticks",
+  "usFocus": "the US tick species CDC lists as biting people and the regions where each is found, with the diseases each can transmit.",
+  "hub": "/blog/ultimate-tick-control-guide-ontario",
+  "linkTo": [
+   {
+    "path": "/blog/what-do-ticks-look-like",
+    "about": "what do ticks look like",
+    "type": "informational",
+    "covers": "Identification of ticks in general: eight legs (six as larvae), no wings or antennae, size by life stage in everyday comparisons and inches, unfed versus engorged, then the main US species and their markings (blacklegged, western blacklegged, American dog, lone star, brown dog, Gulf Coast, Rocky Mountain wood)"
+   },
+   {
+    "path": "/blog/seed-ticks",
+    "about": "seed ticks",
+    "type": "informational",
+    "covers": "Seed ticks are larval ticks (the page also answers 'baby ticks', so explain larvae with six legs versus nymphs with eight): what they look like, why they attack in clusters, which species, how to remove dozens at once, what disease risk larvae and nymphs carry according to CDC, bites, and prevention."
+   },
+   {
+    "path": "/blog/ticks-that-carry-lyme-disease",
+    "about": "ticks that carry lyme disease picture",
+    "type": "informational",
+    "covers": "Only two US ticks transmit Lyme disease: the blacklegged tick in the East and Upper Midwest and the western blacklegged tick on the Pacific coast"
+   },
+   {
+    "path": "/blog/ticks-in-michigan",
+    "about": "ticks in michigan",
+    "type": "informational",
+    "covers": "Ticks in Michigan using the state health department's own material: the five most common species, where blacklegged ticks and Lyme risk are established and spreading by county, the season, the diseases reported in the state, how to submit a tick for identification through the state program, and prevention."
+   },
+   {
+    "path": "/blog/ticks-on-dogs",
+    "about": "ticks on dogs",
+    "type": "informational",
+    "covers": "Ticks on dogs: where to check, what an attached tick looks and feels like versus a skin tag or scab, how to remove one, the diseases dogs get from ticks in the US, how preventives work in general terms (ask a veterinarian), and what to watch for afterward"
+   },
+   {
+    "path": "/blog/what-kills-ticks-on-dogs-instantly",
+    "about": "what kills ticks on dogs instantly",
+    "type": "commercial",
+    "covers": "An honest answer: nothing safely kills an attached tick 'instantly', and fast removal with fine-tipped tweezers is the quickest fix"
+   },
+   {
+    "path": "/blog/what-kills-ticks",
+    "about": "what kills ticks",
+    "type": "informational",
+    "covers": "What kills ticks, by where they are: on clothing (high-heat dryer times from CDC), on gear (0.5 percent permethrin treatment), on skin (remove, do not smother), in the yard (acaricide classes used by label, tick tubes, habitat changes, what university research shows), and the popular things that do not (drowning in the wash, freezing weather, essential oils)."
+   },
+   {
+    "path": "/blog/do-chickens-eat-ticks",
+    "about": "do chickens eat ticks",
+    "type": "informational",
+    "covers": "Chickens, guinea fowl and other animals credited with eating ticks: yes they eat some, what the published studies actually measured, why that does not add up to tick control for a yard, the opossum claim and what later research found, and what does reduce ticks."
+   }
+  ]
+ },
+ {
+  "id": "can-mosquitoes-bite-through-clothes",
+  "type": "merge",
+  "route": "blog/can-mosquitoes-bite-through-clothes",
+  "page": "/blog/can-mosquitoes-bite-through-clothes",
+  "keyword": "can mosquitoes bite through clothes",
+  "usVolume": 2600,
+  "currentWords": 1392,
+  "addWords": 350,
+  "cluster": "mosquitoes",
+  "usFocus": "what CDC recommends for clothing protection in the US, including permethrin-treated clothing at 0.5 percent and EPA-registered repellents.",
+  "hub": "/blog/ultimate-backyard-mosquito-control-guide",
+  "linkTo": [
+   {
+    "path": "/blog/how-to-get-rid-of-mosquitoes",
+    "about": "how to get rid of mosquitoes",
+    "type": "informational",
+    "covers": "Getting rid of mosquitoes in a yard, following CDC and EPA guidance: remove and treat standing water (including Bti larvicide), cut back resting sites, adult control options and what they can and cannot do, when a professional or the local mosquito control district is the answer, and what does not work"
+   },
+   {
+    "path": "/blog/how-to-keep-mosquitoes-away",
+    "about": "how to keep mosquitoes away",
+    "type": "informational",
+    "covers": "Keeping mosquitoes off you and away from where you sit: EPA-registered repellents (DEET, picaridin, IR3535, oil of lemon eucalyptus) and how to choose, permethrin-treated clothing, fans, screens, timing, spatial repellents, and the products that do not work (wristbands, ultrasonic apps)"
+   },
+   {
+    "path": "/blog/are-mosquitoes-attracted-to-light",
+    "about": "are mosquitoes attracted to light",
+    "type": "informational",
+    "covers": "Mosquitoes and light: they find people by carbon dioxide, body heat and skin odor far more than light, how different species respond to light and to colors, why bug zappers kill very few mosquitoes (cite the university studies), UV traps, and whether yellow or LED bulbs help."
+   },
+   {
+    "path": "/blog/do-mosquitoes-bite-dogs",
+    "about": "do mosquitoes bite dogs",
+    "type": "informational",
+    "covers": "Yes: where mosquitoes bite dogs, what bites look like, and why it matters (heartworm, which is spread only by mosquitoes; cite the American Heartworm Society, FDA or CDC)"
+   },
+   {
+    "path": "/blog/alaska-mosquitoes",
+    "about": "alaska mosquitoes",
+    "type": "informational",
+    "covers": "Mosquitoes in Alaska: why there are so many (standing water over permafrost, snowmelt), how many species, the season by month and by region, how bad it gets and where, the 'state bird' joke and actual size, effects on caribou and wildlife, and how visitors protect themselves."
+   }
+  ]
+ },
+ {
+  "id": "how-to-get-rid-of-mosquitoes-in-the-house",
+  "type": "merge",
+  "route": "blog/how-to-get-rid-of-mosquitoes-in-the-house",
+  "page": "/blog/how-to-get-rid-of-mosquitoes-in-the-house",
+  "keyword": "how to get rid of mosquitoes in the house",
+  "usVolume": 5200,
+  "currentWords": 2083,
+  "addWords": 350,
+  "cluster": "mosquitoes",
+  "usFocus": "the species that come indoors in the US (Culex and Aedes aegypti in the South), CDC guidance for controlling mosquitoes inside a home, and using EPA-registered indoor products by label.",
+  "hub": "/blog/ultimate-backyard-mosquito-control-guide",
+  "linkTo": [
+   {
+    "path": "/blog/how-to-get-rid-of-mosquitoes",
+    "about": "how to get rid of mosquitoes",
+    "type": "informational",
+    "covers": "Getting rid of mosquitoes in a yard, following CDC and EPA guidance: remove and treat standing water (including Bti larvicide), cut back resting sites, adult control options and what they can and cannot do, when a professional or the local mosquito control district is the answer, and what does not work"
+   },
+   {
+    "path": "/blog/how-to-keep-mosquitoes-away",
+    "about": "how to keep mosquitoes away",
+    "type": "informational",
+    "covers": "Keeping mosquitoes off you and away from where you sit: EPA-registered repellents (DEET, picaridin, IR3535, oil of lemon eucalyptus) and how to choose, permethrin-treated clothing, fans, screens, timing, spatial repellents, and the products that do not work (wristbands, ultrasonic apps)"
+   },
+   {
+    "path": "/blog/are-mosquitoes-attracted-to-light",
+    "about": "are mosquitoes attracted to light",
+    "type": "informational",
+    "covers": "Mosquitoes and light: they find people by carbon dioxide, body heat and skin odor far more than light, how different species respond to light and to colors, why bug zappers kill very few mosquitoes (cite the university studies), UV traps, and whether yellow or LED bulbs help."
+   },
+   {
+    "path": "/blog/do-mosquitoes-bite-dogs",
+    "about": "do mosquitoes bite dogs",
+    "type": "informational",
+    "covers": "Yes: where mosquitoes bite dogs, what bites look like, and why it matters (heartworm, which is spread only by mosquitoes; cite the American Heartworm Society, FDA or CDC)"
+   },
+   {
+    "path": "/blog/alaska-mosquitoes",
+    "about": "alaska mosquitoes",
+    "type": "informational",
+    "covers": "Mosquitoes in Alaska: why there are so many (standing water over permafrost, snowmelt), how many species, the season by month and by region, how bad it gets and where, the 'state bird' joke and actual size, effects on caribou and wildlife, and how visitors protect themselves."
+   }
+  ]
+ },
+ {
+  "id": "ultimate-backyard-mosquito-control-guide",
+  "type": "pillar-links",
+  "route": "blog/ultimate-backyard-mosquito-control-guide",
+  "page": "/blog/ultimate-backyard-mosquito-control-guide",
+  "cluster": "mosquitoes",
+  "addWords": 250,
+  "linkTo": [
+   {
+    "path": "/blog/how-to-get-rid-of-mosquitoes",
+    "about": "how to get rid of mosquitoes",
+    "type": "informational",
+    "covers": "Getting rid of mosquitoes in a yard, following CDC and EPA guidance: remove and treat standing water (including Bti larvicide), cut back resting sites, adult control options and what they can and cannot do, when a professional or the local mosquito control district is the answer, and what does not work"
+   },
+   {
+    "path": "/blog/how-to-keep-mosquitoes-away",
+    "about": "how to keep mosquitoes away",
+    "type": "informational",
+    "covers": "Keeping mosquitoes off you and away from where you sit: EPA-registered repellents (DEET, picaridin, IR3535, oil of lemon eucalyptus) and how to choose, permethrin-treated clothing, fans, screens, timing, spatial repellents, and the products that do not work (wristbands, ultrasonic apps)"
+   },
+   {
+    "path": "/blog/are-mosquitoes-attracted-to-light",
+    "about": "are mosquitoes attracted to light",
+    "type": "informational",
+    "covers": "Mosquitoes and light: they find people by carbon dioxide, body heat and skin odor far more than light, how different species respond to light and to colors, why bug zappers kill very few mosquitoes (cite the university studies), UV traps, and whether yellow or LED bulbs help."
+   },
+   {
+    "path": "/blog/do-mosquitoes-bite-dogs",
+    "about": "do mosquitoes bite dogs",
+    "type": "informational",
+    "covers": "Yes: where mosquitoes bite dogs, what bites look like, and why it matters (heartworm, which is spread only by mosquitoes; cite the American Heartworm Society, FDA or CDC)"
+   },
+   {
+    "path": "/blog/alaska-mosquitoes",
+    "about": "alaska mosquitoes",
+    "type": "informational",
+    "covers": "Mosquitoes in Alaska: why there are so many (standing water over permafrost, snowmelt), how many species, the season by month and by region, how bad it gets and where, the 'state bird' joke and actual size, effects on caribou and wildlife, and how visitors protect themselves."
+   },
+   {
+    "path": "/blog/mosquito-facts",
+    "about": "existing page",
+    "covers": ""
+   },
+   {
+    "path": "/blog/can-mosquitoes-bite-through-clothes",
+    "about": "existing page",
+    "covers": ""
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-mosquitoes-in-the-house",
+    "about": "existing page",
+    "covers": ""
+   },
+   {
+    "path": "/blog/mosquito-repellent-plants-ontario",
+    "about": "existing page",
+    "covers": ""
+   },
+   {
+    "path": "/blog/where-do-mosquitoes-go-in-winter-ontario",
+    "about": "existing page",
+    "covers": ""
+   }
+  ]
+ },
+ {
+  "id": "ultimate-tick-control-guide-ontario",
+  "type": "pillar-links",
+  "route": "blog/ultimate-tick-control-guide-ontario",
+  "page": "/blog/ultimate-tick-control-guide-ontario",
+  "cluster": "ticks",
+  "addWords": 300,
+  "linkTo": [
+   {
+    "path": "/blog/what-do-ticks-look-like",
+    "about": "what do ticks look like",
+    "type": "informational",
+    "covers": "Identification of ticks in general: eight legs (six as larvae), no wings or antennae, size by life stage in everyday comparisons and inches, unfed versus engorged, then the main US species and their markings (blacklegged, western blacklegged, American dog, lone star, brown dog, Gulf Coast, Rocky Mountain wood)"
+   },
+   {
+    "path": "/blog/seed-ticks",
+    "about": "seed ticks",
+    "type": "informational",
+    "covers": "Seed ticks are larval ticks (the page also answers 'baby ticks', so explain larvae with six legs versus nymphs with eight): what they look like, why they attack in clusters, which species, how to remove dozens at once, what disease risk larvae and nymphs carry according to CDC, bites, and prevention."
+   },
+   {
+    "path": "/blog/ticks-that-carry-lyme-disease",
+    "about": "ticks that carry lyme disease picture",
+    "type": "informational",
+    "covers": "Only two US ticks transmit Lyme disease: the blacklegged tick in the East and Upper Midwest and the western blacklegged tick on the Pacific coast"
+   },
+   {
+    "path": "/blog/ticks-in-michigan",
+    "about": "ticks in michigan",
+    "type": "informational",
+    "covers": "Ticks in Michigan using the state health department's own material: the five most common species, where blacklegged ticks and Lyme risk are established and spreading by county, the season, the diseases reported in the state, how to submit a tick for identification through the state program, and prevention."
+   },
+   {
+    "path": "/blog/ticks-on-dogs",
+    "about": "ticks on dogs",
+    "type": "informational",
+    "covers": "Ticks on dogs: where to check, what an attached tick looks and feels like versus a skin tag or scab, how to remove one, the diseases dogs get from ticks in the US, how preventives work in general terms (ask a veterinarian), and what to watch for afterward"
+   },
+   {
+    "path": "/blog/what-kills-ticks-on-dogs-instantly",
+    "about": "what kills ticks on dogs instantly",
+    "type": "commercial",
+    "covers": "An honest answer: nothing safely kills an attached tick 'instantly', and fast removal with fine-tipped tweezers is the quickest fix"
+   },
+   {
+    "path": "/blog/what-kills-ticks",
+    "about": "what kills ticks",
+    "type": "informational",
+    "covers": "What kills ticks, by where they are: on clothing (high-heat dryer times from CDC), on gear (0.5 percent permethrin treatment), on skin (remove, do not smother), in the yard (acaricide classes used by label, tick tubes, habitat changes, what university research shows), and the popular things that do not (drowning in the wash, freezing weather, essential oils)."
+   },
+   {
+    "path": "/blog/do-chickens-eat-ticks",
+    "about": "do chickens eat ticks",
+    "type": "informational",
+    "covers": "Chickens, guinea fowl and other animals credited with eating ticks: yes they eat some, what the published studies actually measured, why that does not add up to tick control for a yard, the opossum claim and what later research found, and what does reduce ticks."
+   },
+   {
+    "path": "/blog/bugs-that-look-like-ticks",
+    "about": "existing page",
+    "covers": ""
+   },
+   {
+    "path": "/blog/do-ticks-fly-or-jump",
+    "about": "existing page",
+    "covers": ""
+   },
+   {
+    "path": "/blog/types-of-ticks-identification",
+    "about": "existing page",
+    "covers": ""
+   }
+  ]
+ },
+ {
+  "id": "hub-bed-bug-control",
+  "type": "hub-refresh",
+  "route": "pest-product-guides/bed-bug-control",
+  "page": "/pest-product-guides/bed-bug-control",
+  "cluster": "bed-bugs",
+  "linkTo": [
+   {
+    "path": "/blog/what-do-bed-bugs-look-like",
+    "about": "what do bed bugs look like",
+    "type": "informational",
+    "covers": "Identification of the bug itself: adult size (compare to an apple seed, give inches), shape, color before and after feeding, the five nymph stages, eggs, and what they look like on a mattress or skin"
+   },
+   {
+    "path": "/blog/black-bed-bugs",
+    "about": "black bed bugs",
+    "type": "informational",
+    "covers": "Answers 'are bed bugs black?': real bed bug colors by life stage and feeding status, why a bed bug can look nearly black, what the black spots on a mattress are (fecal stains), and the small black bugs commonly mistaken for bed bugs (carpet beetles, spider beetles, bat bugs, fleas, cockroach nymphs)"
+   },
+   {
+    "path": "/blog/bugs-that-look-like-bed-bugs",
+    "about": "bugs that look like bed bugs",
+    "type": "informational",
+    "covers": "The look-alike guide: bat bugs, swallow bugs, carpet beetles and their larvae, spider beetles, booklice, cockroach nymphs, fleas, ticks"
+   },
+   {
+    "path": "/blog/where-do-bed-bugs-hide",
+    "about": "where do bed bugs hide",
+    "type": "informational",
+    "covers": "Hiding places ranked by distance from where people sleep: mattress seams and tags, box spring, bed frame and headboard, nightstands, baseboards, outlets, furniture, luggage"
+   },
+   {
+    "path": "/blog/bed-bugs-on-mattress",
+    "about": "bed bugs on mattress",
+    "type": "informational",
+    "covers": "What bed bug signs on a mattress look like (live bugs, fecal spots, shed skins, eggs, blood smears) and exactly what to do about a mattress that has them: vacuum, steam, encase, hot-dry the bedding, isolate the bed"
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-bed-bugs",
+    "about": "how to get rid of bed bugs",
+    "type": "informational",
+    "covers": "The full elimination plan following the EPA's integrated approach: confirm the ID, contain, prepare, kill with heat and steam, use desiccant dust and EPA-registered products correctly, monitor with interceptors, repeat"
+   },
+   {
+    "path": "/blog/does-alcohol-kill-bed-bugs",
+    "about": "does alcohol kill bed bugs",
+    "type": "informational",
+    "covers": "Rubbing alcohol on bed bugs: it kills only on direct contact and inconsistently (cite the university research on kill rates), does nothing to hidden bugs or most eggs, and is a documented fire hazard"
+   },
+   {
+    "path": "/blog/does-lysol-kill-bed-bugs",
+    "about": "does lysol kill bed bugs",
+    "type": "informational",
+    "covers": "Lysol and other household disinfectants on bed bugs: a disinfectant is not an insecticide and is not labeled for bed bugs, a direct soaking may kill some on contact, it leaves no residual and misses eggs and hidden bugs"
+   },
+   {
+    "path": "/learn/bed-bugs",
+    "about": "the complete bed bug reference (hub page)",
+    "covers": ""
+   }
+  ]
+ },
+ {
+  "id": "hub-rodent-control",
+  "type": "hub-refresh",
+  "route": "pest-product-guides/rodent-control",
+  "page": "/pest-product-guides/rodent-control",
+  "cluster": "mice",
+  "linkTo": [
+   {
+    "path": "/blog/types-of-mice",
+    "about": "types of mice",
+    "type": "informational",
+    "covers": "The mice a US homeowner actually meets: house mouse, deer mouse, white-footed mouse, plus the animals often called mice (voles, shrews, young rats)"
+   },
+   {
+    "path": "/blog/deer-mice",
+    "about": "deer mice",
+    "type": "informational",
+    "covers": "Deer mice (Peromyscus maniculatus): identification versus the house mouse, range, habitat and habits, why they matter (the main carrier of the hantavirus that causes HPS in the US, per CDC), how to keep them out of homes, cabins and sheds, and the CDC cleanup method."
+   },
+   {
+    "path": "/blog/field-mice",
+    "about": "field mice",
+    "type": "informational",
+    "covers": "What 'field mice' means in the US (a loose name for deer mice, white-footed mice and voles), how to tell which one you have, when they move indoors, the damage they do in gardens and outbuildings, and how control differs from house mice"
+   },
+   {
+    "path": "/blog/baby-mice",
+    "about": "baby mice",
+    "type": "informational",
+    "covers": "Baby mice (pups): what they look like day by day and week by week, litter size, how fast mice breed, what finding a nest means for the size of the problem, baby mouse versus baby rat, and what to do with a nest safely."
+   },
+   {
+    "path": "/blog/how-long-do-mice-live",
+    "about": "how long do mice live",
+    "type": "informational",
+    "covers": "Mouse lifespan in the wild, indoors and as pets, how long they survive without food and without water, the breeding math that makes a short life irrelevant, and what that means for waiting a problem out."
+   },
+   {
+    "path": "/blog/what-do-mice-eat",
+    "about": "what do mice eat",
+    "type": "informational",
+    "covers": "What mice eat in the wild and in a house, how much and how often, what they gnaw that is not food, their water needs, and what this means for trap bait (why peanut butter works) and for food storage."
+   },
+   {
+    "path": "/blog/are-mice-nocturnal",
+    "about": "are mice nocturnal",
+    "type": "informational",
+    "covers": "When mice are active: mostly at night with peaks at dusk and before dawn, why, what seeing a mouse in the daytime suggests, the noises you hear at night and where, and how to use this for trap timing and inspection."
+   },
+   {
+    "path": "/blog/can-mice-climb-walls",
+    "about": "can mice climb walls",
+    "type": "informational",
+    "covers": "Climbing and squeezing ability: which wall surfaces mice can and cannot climb, how high they jump, how small a gap they fit through (give inches), pipes and wires as highways, how they reach attics and upper floors, and what this means for sealing a house."
+   },
+   {
+    "path": "/blog/steel-wool-for-mice",
+    "about": "steel wool for mice",
+    "type": "commercial",
+    "covers": "Steel wool as a mouse barrier: does it work, which grade, how to pack it and lock it in with caulk (the CDC seal-up method), where it fails (rust, large gaps, pulled out), copper mesh and hardware cloth as alternatives, which gaps need which material, and a room-by-room list of holes to check"
+   },
+   {
+    "path": "/blog/mice-repellent",
+    "about": "mice repellent",
+    "type": "commercial",
+    "covers": "The overview of mouse repellents by type: scent products (peppermint and other essential oils, pouches and granules), ultrasonic devices (and the FTC's history with them), predator scents, mothballs and ammonia"
+   },
+   {
+    "path": "/blog/peppermint-oil-for-mice",
+    "about": "peppermint oil for mice",
+    "type": "commercial",
+    "covers": "Peppermint oil specifically: where the idea comes from, what the limited research shows, how people apply it and how fast it fades, why mice get used to it, risks to cats and other pets, and where it can and cannot fit in a real plan."
+   },
+   {
+    "path": "/blog/what-smells-do-mice-hate",
+    "about": "what smells do mice hate",
+    "type": "informational",
+    "covers": "The list people search for (peppermint, ammonia, vinegar, cayenne, cloves, dryer sheets, cinnamon, predator scents) with an honest evidence rating for each in a table, why a strong smell rarely moves an established mouse, and what to do instead"
+   },
+   {
+    "path": "/blog/do-mothballs-keep-mice-away",
+    "about": "do moth balls keep mice away",
+    "type": "informational",
+    "covers": "Mothballs for mice: they do not work at any amount that is tolerable to people, they are registered pesticides labeled only for clothes moths in sealed containers, using them otherwise is illegal off-label use, and the vapors are a health risk (cite the National Pesticide Information Center and EPA)"
+   },
+   {
+    "path": "/blog/vamoose-for-mice",
+    "about": "vamoose for mice",
+    "type": "commercial",
+    "covers": "An honest explainer on the Vamoose mouse repellent product searchers are asking about"
+   },
+   {
+    "path": "/blog/mice-traps",
+    "about": "mice traps",
+    "type": "commercial",
+    "covers": "Mouse traps by type: snap, electronic, multi-catch, live-catch, glue boards (and why CDC advises against glue and live traps)"
+   },
+   {
+    "path": "/blog/mice-poison",
+    "about": "mice poison",
+    "type": "commercial",
+    "covers": "Rodenticides in the US: the active ingredient classes (first and second generation anticoagulants, bromethalin, cholecalciferol, zinc phosphide), the EPA rules for consumer products (bait stations required, loose pellets and second-generation anticoagulants removed from the consumer market), risks to children, pets and wildlife, what to do in an exposure (Poison Control and ASPCA numbers from their own sites), and why trapping usually comes first."
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-mice-humanely",
+    "about": "how to get rid of mice humanely",
+    "type": "informational",
+    "covers": "Humane mouse control: exclusion as the most humane method, what 'humane' means for a kill trap (fast), the problems with live-catch and release (survival, state rules, CDC's advice), why glue traps and poison are the least humane, and how to clean up and prevent a repeat."
+   },
+   {
+    "path": "/blog/mice-removal",
+    "about": "mice removal",
+    "type": "commercial",
+    "covers": "Getting mice out and cleaning up after them: removal from walls, attics, crawl spaces, garages and vehicles, finding and removing a dead mouse and the smell, the CDC method for cleaning droppings and nests safely, what a professional removal service includes (trapping, exclusion, sanitation), and how to decide between doing it yourself and hiring it out."
+   },
+   {
+    "path": "/blog/mice-exterminator",
+    "about": "mice exterminator",
+    "type": "commercial",
+    "covers": "Hiring a professional for mice (the page also answers 'exterminator for mice' and 'mice pest control'): signs you need one, exactly what an exterminator does on a mouse job, typical US price ranges with the source and date stated, one-time versus ongoing service, questions to ask, licensing and how to check it with your state, how long it takes, and what you still have to do yourself."
+   },
+   {
+    "path": "/learn/mice",
+    "about": "the complete mouse reference (hub page)",
+    "covers": ""
+   }
+  ]
+ },
+ {
+  "id": "hub-mosquito-gear",
+  "type": "hub-refresh",
+  "route": "pest-product-guides/mosquito-gear",
+  "page": "/pest-product-guides/mosquito-gear",
+  "cluster": "mosquitoes",
+  "linkTo": [
+   {
+    "path": "/blog/how-to-get-rid-of-mosquitoes",
+    "about": "how to get rid of mosquitoes",
+    "type": "informational",
+    "covers": "Getting rid of mosquitoes in a yard, following CDC and EPA guidance: remove and treat standing water (including Bti larvicide), cut back resting sites, adult control options and what they can and cannot do, when a professional or the local mosquito control district is the answer, and what does not work"
+   },
+   {
+    "path": "/blog/how-to-keep-mosquitoes-away",
+    "about": "how to keep mosquitoes away",
+    "type": "informational",
+    "covers": "Keeping mosquitoes off you and away from where you sit: EPA-registered repellents (DEET, picaridin, IR3535, oil of lemon eucalyptus) and how to choose, permethrin-treated clothing, fans, screens, timing, spatial repellents, and the products that do not work (wristbands, ultrasonic apps)"
+   },
+   {
+    "path": "/blog/are-mosquitoes-attracted-to-light",
+    "about": "are mosquitoes attracted to light",
+    "type": "informational",
+    "covers": "Mosquitoes and light: they find people by carbon dioxide, body heat and skin odor far more than light, how different species respond to light and to colors, why bug zappers kill very few mosquitoes (cite the university studies), UV traps, and whether yellow or LED bulbs help."
+   },
+   {
+    "path": "/blog/do-mosquitoes-bite-dogs",
+    "about": "do mosquitoes bite dogs",
+    "type": "informational",
+    "covers": "Yes: where mosquitoes bite dogs, what bites look like, and why it matters (heartworm, which is spread only by mosquitoes; cite the American Heartworm Society, FDA or CDC)"
+   },
+   {
+    "path": "/blog/alaska-mosquitoes",
+    "about": "alaska mosquitoes",
+    "type": "informational",
+    "covers": "Mosquitoes in Alaska: why there are so many (standing water over permafrost, snowmelt), how many species, the season by month and by region, how bad it gets and where, the 'state bird' joke and actual size, effects on caribou and wildlife, and how visitors protect themselves."
+   }
+  ]
+ },
+ {
+  "id": "hub-tick-gear",
+  "type": "hub-refresh",
+  "route": "pest-product-guides/tick-gear",
+  "page": "/pest-product-guides/tick-gear",
+  "cluster": "ticks",
+  "linkTo": [
+   {
+    "path": "/blog/what-do-ticks-look-like",
+    "about": "what do ticks look like",
+    "type": "informational",
+    "covers": "Identification of ticks in general: eight legs (six as larvae), no wings or antennae, size by life stage in everyday comparisons and inches, unfed versus engorged, then the main US species and their markings (blacklegged, western blacklegged, American dog, lone star, brown dog, Gulf Coast, Rocky Mountain wood)"
+   },
+   {
+    "path": "/blog/seed-ticks",
+    "about": "seed ticks",
+    "type": "informational",
+    "covers": "Seed ticks are larval ticks (the page also answers 'baby ticks', so explain larvae with six legs versus nymphs with eight): what they look like, why they attack in clusters, which species, how to remove dozens at once, what disease risk larvae and nymphs carry according to CDC, bites, and prevention."
+   },
+   {
+    "path": "/blog/ticks-that-carry-lyme-disease",
+    "about": "ticks that carry lyme disease picture",
+    "type": "informational",
+    "covers": "Only two US ticks transmit Lyme disease: the blacklegged tick in the East and Upper Midwest and the western blacklegged tick on the Pacific coast"
+   },
+   {
+    "path": "/blog/ticks-in-michigan",
+    "about": "ticks in michigan",
+    "type": "informational",
+    "covers": "Ticks in Michigan using the state health department's own material: the five most common species, where blacklegged ticks and Lyme risk are established and spreading by county, the season, the diseases reported in the state, how to submit a tick for identification through the state program, and prevention."
+   },
+   {
+    "path": "/blog/ticks-on-dogs",
+    "about": "ticks on dogs",
+    "type": "informational",
+    "covers": "Ticks on dogs: where to check, what an attached tick looks and feels like versus a skin tag or scab, how to remove one, the diseases dogs get from ticks in the US, how preventives work in general terms (ask a veterinarian), and what to watch for afterward"
+   },
+   {
+    "path": "/blog/what-kills-ticks-on-dogs-instantly",
+    "about": "what kills ticks on dogs instantly",
+    "type": "commercial",
+    "covers": "An honest answer: nothing safely kills an attached tick 'instantly', and fast removal with fine-tipped tweezers is the quickest fix"
+   },
+   {
+    "path": "/blog/what-kills-ticks",
+    "about": "what kills ticks",
+    "type": "informational",
+    "covers": "What kills ticks, by where they are: on clothing (high-heat dryer times from CDC), on gear (0.5 percent permethrin treatment), on skin (remove, do not smother), in the yard (acaricide classes used by label, tick tubes, habitat changes, what university research shows), and the popular things that do not (drowning in the wash, freezing weather, essential oils)."
+   },
+   {
+    "path": "/blog/do-chickens-eat-ticks",
+    "about": "do chickens eat ticks",
+    "type": "informational",
+    "covers": "Chickens, guinea fowl and other animals credited with eating ticks: yes they eat some, what the published studies actually measured, why that does not add up to tick control for a yard, the opossum claim and what later research found, and what does reduce ticks."
+   }
+  ]
+ },
+ {
+  "id": "hub-ant-control",
+  "type": "hub-new",
+  "route": "pest-product-guides/ant-control",
+  "page": "/pest-product-guides/ant-control",
+  "cluster": "ants",
+  "pest": "ants",
+  "existing": [
+   {
+    "path": "/blog/best-ant-killer",
+    "title": "Best Ant Killer in Canada 2026 — What Actually Kills the Colony"
+   },
+   {
+    "path": "/blog/best-ant-traps-canada",
+    "title": "Best Ant Traps in Canada 2026 — Bait Stations vs Glue Traps, and What Actually Kills the Colony"
+   },
+   {
+    "path": "/blog/carpenter-ants-canada",
+    "title": "Carpenter Ants in Canada — Find the Nest, or You Are Just Killing Ants"
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-ants-canada",
+    "title": "How to Get Rid of Ants in Canada — Why Baiting Beats Every Spray in the Aisle"
+   }
+  ],
+  "linkTo": [
+   {
+    "path": "/blog/sugar-ants",
+    "about": "sugar ants",
+    "type": "informational",
+    "covers": "What Americans mean by 'sugar ants' (not one species: usually odorous house ants, pavement ants, pharaoh ants, Argentine ants or little black ants; the true banded sugar ant is Australian), how to tell which one you have, why they show up, and a step-by-step plan to get rid of them (the page also answers 'how to get rid of sugar ants'): bait, do not spray, cut off food and water, seal."
+   },
+   {
+    "path": "/blog/tiny-ants",
+    "about": "tiny ants",
+    "type": "informational",
+    "covers": "An identification key for very small ants in a house: size, color, smell when crushed, where the trail runs, then which species that points to (odorous house, pharaoh, thief or grease ant, ghost, little black, pavement, Argentine)"
+   },
+   {
+    "path": "/blog/black-ants",
+    "about": "black ants",
+    "type": "informational",
+    "covers": "Black ants in and around US homes: little black ants versus carpenter ants versus pavement ants versus odorous house ants"
+   },
+   {
+    "path": "/blog/ghost-ants",
+    "about": "ghost ants",
+    "type": "informational",
+    "covers": "Ghost ants (Tapinoma melanocephalum): identification, where they live in the US (Florida, Hawaii, Texas, and heated buildings farther north), nesting and budding behavior, why sprays split colonies, and how they are controlled."
+   },
+   {
+    "path": "/blog/red-ants",
+    "about": "red ants",
+    "type": "informational",
+    "covers": "Which ant is the 'red ant' you are seeing: red imported fire ants, native fire ants, and red or reddish look-alikes that do not sting badly"
+   },
+   {
+    "path": "/blog/flying-ants",
+    "about": "flying ants",
+    "type": "informational",
+    "covers": "What flying ants are (reproductive swarmers on a mating flight), when and why swarms happen, how long they last, and a clearly headed section on flying ants in the house (the page also answers 'flying ants in house'): what an indoor swarm means, winter swarms and carpenter ants, what to do"
+   },
+   {
+    "path": "/blog/flying-ants-vs-termites",
+    "about": "flying ants vs termites",
+    "type": "informational",
+    "covers": "The comparison page (also answers 'termites vs ants'): swarmers side by side (antennae, waist, wing length), then workers, then the damage each does and the signs they leave (frass versus mud tubes)"
+   },
+   {
+    "path": "/blog/do-carpenter-ants-bite",
+    "about": "do carpenter ants bite",
+    "type": "informational",
+    "covers": "Carpenter ant bites: yes they can bite and may spray formic acid, what it feels like, how to treat it, and why the bite is the minor problem compared with a nest in the structure"
+   },
+   {
+    "path": "/blog/do-ants-bite",
+    "about": "do ants bite",
+    "type": "informational",
+    "covers": "Bite versus sting: which US ants bite, which sting, which do both (fire ants, harvester ants, carpenter ants, pavement ants, and the harmless majority)"
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-ants-in-the-house",
+    "about": "how to get rid of ants in the house",
+    "type": "informational",
+    "covers": "Ants in the house (the page also answers 'ants in house'): why they came in, how to follow the trail to the entry point, why bait beats spray, which bait for which ant, sealing and moisture fixes, how long it takes, and when the nest is inside the walls"
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-ants-in-the-kitchen",
+    "about": "how to get rid of ants in kitchen",
+    "type": "informational",
+    "covers": "Kitchen-specific: where kitchen ants nest and enter (under the sink, behind the dishwasher, window frames, wall voids near moisture), bait placement that keeps products away from food-prep surfaces, cleaning the scent trail, food storage, and what not to spray where food is prepared."
+   },
+   {
+    "path": "/blog/borax-for-ants",
+    "about": "borax for ants",
+    "type": "commercial",
+    "covers": "Borax and boric acid as ant bait: how borates kill ants and why a low concentration matters (workers must live long enough to share it), sugar bait versus protein bait, the common DIY recipe and its limits, ready-made borate bait stations named editorially (no links), safety around children and pets citing the National Pesticide Information Center, how long it takes, and when it fails."
+   },
+   {
+    "path": "/blog/does-vinegar-kill-ants",
+    "about": "does vinegar kill ants",
+    "type": "informational",
+    "covers": "Vinegar on ants: it can kill some on direct contact and wipes out the scent trail for a while, but it does not reach the colony"
+   },
+   {
+    "path": "/blog/what-do-ants-eat",
+    "about": "what do ants eat",
+    "type": "informational",
+    "covers": "Ant diets: sugars, proteins, fats, honeydew from aphids, seeds, fungus (leafcutters), other insects"
+   },
+   {
+    "path": "/blog/how-long-do-ants-live",
+    "about": "how long do ants live",
+    "type": "informational",
+    "covers": "Lifespan of workers, queens and males by common species, the egg to adult timeline, how long a colony lasts, and how long ants survive without food or water"
+   },
+   {
+    "path": "/blog/how-many-ants-are-in-the-world",
+    "about": "how many ants are in the world",
+    "type": "informational",
+    "covers": "The 2022 PNAS estimate of about 20 quadrillion ants: how it was calculated, what it works out to per person, total ant biomass compared with wild birds and mammals, how many species are known, where ants are most abundant, and the limits of the estimate."
+   },
+   {
+    "path": "/blog/army-ants",
+    "about": "army ants",
+    "type": "informational",
+    "covers": "Army ants: what makes an ant an army ant (nomadic, no permanent nest, mass raids), bivouacs, the best-known species, where they live including the lesser-known US species in the South and Southwest, what they eat, and whether they are dangerous to people (the myths)."
+   },
+   {
+    "path": "/blog/bullet-ants",
+    "about": "bullet ants",
+    "type": "informational",
+    "covers": "The bullet ant (Paraponera clavata): size, range in Central and South America (not established in the US), the sting and its place at the top of the Schmidt sting pain index, how long the pain lasts, the Satere-Mawe initiation ritual, and behavior."
+   },
+   {
+    "path": "/blog/honeypot-ants",
+    "about": "honeypot ants",
+    "type": "informational",
+    "covers": "Honeypot ants: the replete workers that store liquid food in swollen abdomens, the species in the US Southwest (Myrmecocystus) and in Australia, how the colony uses them, where they nest, and their role as food in some cultures."
+   },
+   {
+    "path": "/blog/zombie-ants",
+    "about": "zombie ants",
+    "type": "informational",
+    "covers": "The 'zombie ant' fungus (Ophiocordyceps): how it infects carpenter ants and manipulates their behavior, the death grip, where it occurs including the US Southeast, what the research says about how it controls the ant, and why it cannot infect people."
+   },
+   {
+    "path": "/learn/ants",
+    "about": "the complete ant reference (hub page)",
+    "covers": ""
+   }
+  ]
+ },
+ {
+  "id": "hub-cockroach-control",
+  "type": "hub-new",
+  "route": "pest-product-guides/cockroach-control",
+  "page": "/pest-product-guides/cockroach-control",
+  "cluster": "cockroaches",
+  "pest": "cockroaches",
+  "existing": [
+   {
+    "path": "/blog/advion-cockroach-gel-bait",
+    "title": "Advion Cockroach Gel Bait in Canada — The Honest Grey-Market Answer"
+   },
+   {
+    "path": "/blog/best-cockroach-killer-canada",
+    "title": "Best Cockroach Killer in Canada 2026 — Bait Beats Spray, Every Time"
+   },
+   {
+    "path": "/blog/best-cockroach-spray-canada",
+    "title": "Cockroach Spray in Canada — The Three Jobs Worth Buying a Can For"
+   },
+   {
+    "path": "/blog/best-roach-traps-canada",
+    "title": "Cockroach Traps in Canada — Glue Boards Find Them, Bait Stations Kill Them"
+   },
+   {
+    "path": "/blog/how-to-get-rid-of-cockroaches-canada",
+    "title": "How to Get Rid of Cockroaches in Canada — The Bait-First Plan That Actually Works"
+   }
+  ],
+  "linkTo": [
+   {
+    "path": "/blog/german-cockroaches",
+    "about": "german cockroaches",
+    "type": "informational",
+    "covers": "The German cockroach: identification (the two dark stripes behind the head), size in inches, biology and reproduction numbers, where they hide, how they arrive, why they are the hardest household roach, health effects, and the control program that works (sanitation, monitoring, gel bait, insect growth regulators) versus what fails (sprays, foggers)."
+   },
+   {
+    "path": "/blog/what-do-baby-cockroaches-look-like",
+    "about": "what do baby cockroaches look like",
+    "type": "informational",
+    "covers": "Cockroach nymphs by species (German, American, Oriental, brown-banded): size, color, markings, how they differ from adults, baby roach versus bed bug versus beetle, what finding nymphs tells you about the infestation, and what to do next."
+   },
+   {
+    "path": "/blog/bugs-that-look-like-cockroaches",
+    "about": "bugs that look like cockroaches",
+    "type": "informational",
+    "covers": "The look-alikes: ground beetles, June beetles, crickets, giant water bugs, wood roaches (a real cockroach that does not infest homes), palmetto bug (a name for several large roaches), earwigs, bed bugs"
+   },
+   {
+    "path": "/blog/water-bugs-vs-cockroaches",
+    "about": "water bugs vs cockroaches",
+    "type": "informational",
+    "covers": "The naming confusion: true water bugs (giant water bugs, aquatic and predatory, they bite) versus the cockroaches people call waterbugs (Oriental and American)"
+   },
+   {
+    "path": "/blog/can-cockroaches-fly",
+    "about": "can cockroaches fly",
+    "type": "informational",
+    "covers": "Which cockroaches fly (the page also answers 'do cockroaches fly'): species by species (American glides, smokybrown and Asian fly well, male wood roaches fly to lights, German almost never, Oriental cannot), why warm weather brings out flying, why they fly toward you, and what flying roaches mean for where they came from"
+   },
+   {
+    "path": "/blog/do-cockroaches-bite",
+    "about": "do cockroaches bite",
+    "type": "informational",
+    "covers": "Cockroach bites: rare and associated with very heavy infestations, what is documented, what a suspected bite looks like and the more likely culprits, and the real health issues (allergens and asthma, bacteria carried on the body) with sources."
+   },
+   {
+    "path": "/blog/where-do-cockroaches-come-from",
+    "about": "where do cockroaches come from",
+    "type": "informational",
+    "covers": "How cockroaches get into a home: carried in (boxes, bags, used appliances and furniture), through shared walls and plumbing in apartments, up from drains and sewers, in from outdoors"
+   },
+   {
+    "path": "/learn/cockroaches",
+    "about": "the complete cockroach reference (hub page)",
+    "covers": ""
+   }
+  ]
+ }
+]
