@@ -1,0 +1,146 @@
+{
+  "slug": "what-do-ants-eat",
+  "kind": "spoke",
+  "cluster": "ants",
+  "keyword": "what do ants eat",
+  "alsoTargets": [],
+  "metaTitle": "What Do Ants Eat? Sugar, Protein and Grease",
+  "metaDescription": "Ants eat sweets, honeydew, protein, grease, seeds and insects, and the mix shifts by species and season. Learn what each wants and which bait fits.",
+  "h1": "What Do Ants Eat? Diets by Species, Season and Colony Need",
+  "dek": "Most ants are omnivores, but sweet-lovers, grease-eaters, seed collectors and fungus farmers all live in the US. Here is what each eats and why that decides which bait works.",
+  "breadcrumb": "What Ants Eat",
+  "excerpt": "Ants eat sweets, honeydew, protein, grease, seeds and other insects. See what household species want, how it shifts by season, and why that decides which bait works.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Most ants eat a mix of sugars, protein and fats, and the balance depends on the species and on what the colony needs at the time.** Indoors that usually means sweets, syrup, honey, fruit juice, grease and meat, according to [UC's Statewide IPM Program](https://ipm.ucanr.edu/home-and-landscape/ants/). Outdoors it is honeydew from aphids and scale insects, other insects, and for a few species seeds or a fungus they grow.",
+    "bullets": [
+      "All nine ants in UC's household ant table list sweets as a food, but thief and pharaoh ants also prefer protein or greasy baits all year.",
+      "Argentine ants take sweet baits year-round but protein baits mainly in spring.",
+      "Carpenter ants do not eat wood; they hollow it out for nests and are listed as eating sweets.",
+      "Red imported fire ant larvae get only liquid food until the third larval stage and digest solid food from the fourth.",
+      "Texas leafcutting ants eat only the fungus they grow on cut plant material, and Texas A&M says a single queen's eggs can give rise to several million individuals.",
+      "Ant bait can take 5 to 10 days to show fewer ants, and full control may take several weeks or more."
+    ]
+  },
+  "facts": {
+    "title": "What ants eat at a glance",
+    "rows": [
+      ["Foods ants eat", "Sweets, protein, fats and oils, honeydew, seeds, insects and dead animals"],
+      ["Indoor favorites", "Sugar, syrup, honey, fruit juice, fats and meat"],
+      ["Outdoor liquid food", "Honeydew from aphids, soft scales, mealybugs and whiteflies"],
+      ["Wood", "Carpenter ants hollow it out for nests; they do not eat it"],
+      ["Seed specialists", "Harvester ants (22 species in the US)"],
+      ["Fungus farmers", "Texas leafcutting ant; the fungus is the colony's only food"],
+      ["Documented seasonal shift", "Argentine ants take protein bait mainly in spring and sweet bait year-round"],
+      ["Time for bait to show an effect", "5 to 10 days to see fewer ants; several weeks or more for control"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What do ants eat?" },
+    { "type": "p", "text": "Most ants are opportunists that eat a mix of sweet liquids, protein and fats, and the proportions differ from species to species. The University of California's [Pest Notes guide to household ants](https://ipm.ucanr.edu/home-and-landscape/ants/) says food preferences vary among ant species but may include fruits, seeds, nuts, fatty substances, dead or live insects, dead animals and sweets. The same guide credits ants with useful work outdoors, feeding on pests such as fleas, caterpillars and termites, along with dead insects and decomposing animal tissue." },
+    { "type": "p", "text": "For practical purposes the menu falls into four groups, and each one matters when it is time to choose a bait:" },
+    { "type": "ul", "items": [
+      "**Sweet liquids.** Honeydew outdoors; syrup, honey and fruit juice indoors. Every species in UC's household ant table lists sweets, either as its main food or as one of several.",
+      "**Protein.** Live and dead insects, dead animals and meat. Larvae need it most, as the nutrition section below explains.",
+      "**Fats and oils.** Grease and fatty foods. Thief ants and pharaoh ants are the household species UC names as preferring protein or greasy baits year-round, and fire ants prefer baits containing oils.",
+      "**Seeds and fungus.** A few groups specialize. Harvester ants feed largely on seeds, and Texas leafcutting ants eat a fungus they cultivate."
+    ] },
+    { "type": "p", "text": "Which of these an ant wants differs by species, so [the complete ant reference](/learn/ants), which covers the common household species and how to tell them apart, helps if you are not sure what you are dealing with." },
+    { "type": "media", "needed": "Close-up photo of worker ants clustered on a single drop of honey on a clean white surface, mouthparts down, with a US penny beside the drop for scale" },
+
+    { "type": "h2", "text": "What do ants eat in a house?" },
+    { "type": "p", "text": "Indoors, household ants go for sugar, syrup, honey, fruit juice, fats and meat, and they also come for water. That list is from [UC's Statewide IPM Program](https://ipm.ucanr.edu/home-and-landscape/ants/), which also notes that trails of thousands of ants can lead from a nest to a food source. Its prevention advice follows from the menu: keep sugar, syrup, honey and pet food in closed containers that have been washed to remove residue on the outside, clean up grease and spills, take garbage out daily and fix leaky faucets, because water attracts ants." },
+    { "type": "p", "text": "Because several unrelated species share a taste for sweets, the label \"sugar ants\" covers more than one insect, and [the sugar ants guide](/blog/sugar-ants) explains how to tell which one is in your kitchen." },
+    { "type": "h3", "text": "Which household ants eat what?" },
+    { "type": "p", "text": "The foods below are those UC lists for the household species it covers, with bait notes from UC and from Texas A&M AgriLife Extension." },
+    { "type": "table", "head": ["Ant", "Foods listed", "Bait note"], "rows": [
+      ["Argentine ant", "Sweets, sometimes proteins", "Sweet bait attracts year-round; protein bait mainly in spring"],
+      ["Odorous house ant", "Sweets, sometimes proteins", "Texas A&M: prefers sweets but will eat high-protein food such as meat or carrion"],
+      ["Carpenter ant", "Sweets", "Hollows out wood to nest but does not eat it"],
+      ["Pavement ant", "Sweets, proteins, grease", "UC gives no bait note for this species; its general advice is to offer a choice of baits"],
+      ["Pharaoh ant", "Fats, proteins, sweets", "UC: protein or greasy bait year-round. Texas A&M: historically responded to sweet, protein and oil-based baits"],
+      ["Thief ant", "Greasy and fatty foods, sometimes sweets", "Protein or greasy bait year-round"],
+      ["Red imported fire ant", "Sweets, proteins", "Prefers bait containing oils"]
+    ], "caption": "Foods are from Table 1 of the UC Statewide IPM Program ant guide (page updated 2012). Bait notes come from that guide and from Texas A&M AgriLife Extension." },
+    { "type": "p", "text": "UC's table also lists the southern fire ant (proteins and sweets) and the velvety tree ant (sweets and insects). The two sources describe the pharaoh ant differently: UC says it prefers protein or greasy baits year-round, while Texas A&M says pharaoh ants have historically responded to sweet, protein and oil-based baits. Taken together, that makes a single bait type a risky guess, which is why UC recommends offering a choice." },
+
+    { "type": "h2", "text": "What is honeydew, and why do ants want it?" },
+    { "type": "p", "text": "Honeydew is the sugary liquid waste that aphids, soft scales, mealybugs and whiteflies excrete while they feed on plants, and it is a common outdoor food for ants. [UC's ant guide](https://ipm.ucanr.edu/home-and-landscape/ants/) says this excrement contains sugars and other nutrients. The guide says ants outdoors are attracted to honeydew, and that floral nectar or ripening or rotten sweet fruit may also attract them up into trees and shrubs." },
+    { "type": "p", "text": "The relationship is not passive. Ants tend the honeydew producers, and UC says outbreaks of scales and aphids frequently occur when they do, because the ants protect those insects from their natural enemies. [Texas A&M AgriLife Extension's plan for sweet-feeding ants](https://schoolipm.tamu.edu/?p=4027) makes the practical point for Argentine ants and odorous house ants, both of which tend these insects: controlling the plant-feeding insects may aid in control of the ants. UC's version is to avoid planting trees and shrubs that carry heavy honeydew-insect populations next to buildings, or to manage those insects." },
+
+    { "type": "h2", "text": "Why do ants need protein as well as sugar?" },
+    { "type": "p", "text": "Adult workers and larvae use food differently. The starting point of [a 2009 study in Current Biology](https://pubmed.ncbi.nlm.nih.gov/19345104/) by Audrey Dussutour and Stephen Simpson is that workers use carbohydrates while larvae consume the protein, and the authors reported that foraging ants adjust what they collect and how they process it, acting as a collective mouth and gut for the colony." },
+    { "type": "p", "text": "The abstract reports three results. The amount and balance of nutrients the colony collected depended on whether larvae were present. The ants improved the balance of what they gathered by extracting carbohydrates and ejecting protein. And processing excess protein shortened life span, an effect much smaller when larvae were in the colony. The abstract does not say which ant was studied, so treat the work as a demonstration of how a colony can regulate its diet, not as a rule every household species follows. For lifespans under ordinary conditions, see [how long ants live](/blog/how-long-do-ants-live)." },
+    { "type": "p", "text": "Extension sources describe the same split in real species. UC says a newly mated queen feeds her first larvae with her own metabolized wing muscles and fat bodies until they pupate, and the first workers then go out to collect food for themselves, the queen and later broods." },
+    { "type": "p", "text": "The [University of Florida's profile of the red imported fire ant](https://ask.ifas.ufl.edu/publication/IN352) adds detail. Fire ant larvae are fed only liquids until the third larval stage and can digest solid food from the fourth. Workers place protein-rich solid food in a depression in front of the larvae, the larvae release digestive enzymes and regurgitate the broken-down food to workers, and the queen is fed some of that digested protein to support egg production. The profile adds that egg production stays at its maximum as long as food is plentiful." },
+    { "type": "p", "text": "A colony with a lot of young to feed therefore has a reason to want protein, and a colony with little brood has less of one. Whether that explains the seasonal swings in bait preference described next is plausible, but none of the sources here tests it in household species." },
+
+    { "type": "h2", "text": "Do ants eat different foods at different times of year?" },
+    { "type": "p", "text": "Some do, and it is the main reason a bait that worked once can be ignored later. UC says different bait attractants work better against different ant species and at different times of the year. Its clearest example is the Argentine ant: sweet baits are attractive year-round, while protein baits attract it primarily in spring. Thief ants and pharaoh ants, by contrast, prefer protein or greasy baits year-round. The guide also says that baiting in late winter and early spring, when ant populations are just beginning to grow, is most effective." },
+    { "type": "p", "text": "Texas A&M puts the problem in week-to-week terms: a colony that accepted protein bait one week may be more interested in sugar bait the next, and some species change their preferences over time. Its species notes say acrobat, Argentine, ghost and odorous house ants prefer sweets, though ghost ants will eat insects and odorous house ants will eat high-protein food. Bigheaded ants take an oil-based fire ant bait and also feed on protein, glucose or lipids, and pharaoh ants have historically responded to sweet, protein and oil-based baits." },
+    { "type": "p", "text": "Neither source gives a month-by-month calendar for US species or a mechanism for the shifts. Brood is the obvious suspect given the nutrition research above, but that link is an inference, not a documented result. The advice both sources give does not depend on the reason: find out what the ants are taking now." },
+
+    { "type": "h2", "text": "How do ants share food with the rest of the colony?" },
+    { "type": "p", "text": "Foraging workers carry food back to the nest and pass it to the rest of the colony. UC's baiting section describes bait being transferred mouth to mouth to other workers, larvae and queens. Texas A&M's ant plan calls this communal feeding of colony members, including queens and brood, trophallaxis, and says cooperative brood care is one way bait toxicants can be passed through a colony." },
+    { "type": "p", "text": "That is how food reaches the members that stay in the nest. The queen keeps laying eggs while workers collect food for her, and the larvae depend on the workers too. The Current Biology paper's picture of foragers as a shared mouth and gut for the colony is the same idea seen from the nutrition side. How one group of ants stores food inside the colony is the subject of a separate guide on [honeypot ants](/blog/honeypot-ants)." },
+
+    { "type": "h2", "text": "Why does what ants eat decide which bait works?" },
+    { "type": "p", "text": "A bait only works if the ants accept it and carry it home, so its attractant has to match what the colony wants at that moment. [UC's baiting guidance](https://ipm.ucanr.edu/home-and-landscape/ants/) explains that baits combine an insecticide with carbohydrates, proteins, oils or a mix of them as the attractant, and that the insecticide has to be slow-acting so foragers can reach the nest and feed other members before they die. Several habits follow from the diet evidence:" },
+    { "type": "ul", "items": [
+      "**Offer a choice.** UC recommends setting out a small amount of each kind of bait, or several formulations in one bait station, and watching which the ants prefer.",
+      "**Start from the species.** UC says sweet baits attract Argentine ants year-round, protein or greasy baits suit thief and pharaoh ants, and fire ants prefer baits containing oils.",
+      "**Change course when the ants lose interest.** UC suggests repositioning stations or trying a different bait product if ants are not taking it, and notes that baits can dry up or turn rancid.",
+      "**Clear away the competition.** UC says to remove particles of food, residues of sweet liquids and other attractive material when baiting, so the bait is not one option among many.",
+      "**Skip the spray.** UC advises against insecticide sprays while baits are out, and Texas A&M says sprays disperse an infestation, making baits harder to place. For pharaoh ants in particular, it says sprays have been observed to split colonies and spread the ants to other parts of a structure."
+    ] },
+    { "type": "p", "text": "Expect a wait. UC says it can take 5 to 10 days to see fewer ants and that control may take several weeks or more. A longer look at [why baiting beats spraying](/blog/how-to-get-rid-of-ants-canada) and a comparison of [bait stations and glue traps](/blog/best-ant-traps-canada) cover the product side." },
+    { "type": "callout", "tone": "warning", "title": "The label is the law", "text": "Every ant bait is a pesticide. Use it only as its label directs and for the species and site it names, and keep stations out of reach of children and pets; UC advises placing them away from areas that pets and small children can reach." },
+    { "type": "p", "text": "For the full process of tracing a trail and baiting a whole home, see [how to get rid of ants in the house](/blog/how-to-get-rid-of-ants-in-the-house). Borate baits and the reason their concentration matters are covered in [borax for ants](/blog/borax-for-ants), and [what vinegar does and does not do to ants](/blog/does-vinegar-kill-ants) explains why wiping a trail is cleanup rather than colony control." },
+    { "type": "media", "needed": "Overhead photo of a bait-choice setup beside an ant trail: three small bait stations about a foot apart, each with a different bait type, with ants visibly gathering at one of them" },
+
+    { "type": "h2", "text": "What do fire ants eat?" },
+    { "type": "p", "text": "Red imported fire ants eat dead animals, honeydew and, when they get indoors, sweets, proteins and fats. The University of Florida's profile says foraging workers take dead animals, including insects, earthworms and vertebrates, and that workers also collect honeydew. It reports that these ants feed on young tender plant growth year-round, with damage recorded on soybean, citrus, corn, okra and other crops." },
+    { "type": "p", "text": "Not every fire ant eats the same way. The same profile says native fire ant (*Solenopsis geminata*) colonies include large-headed workers that collect and mill seeds, which red imported fire ant colonies lack. UC says fire ants prefer baits containing oils. To sort a fire ant from other red ants, see [the red ants guide](/blog/red-ants)." },
+
+    { "type": "h2", "text": "Which ants eat seeds, and which grow their own food?" },
+    { "type": "h3", "text": "Harvester ants eat seeds" },
+    { "type": "p", "text": "Harvester ants are largely seed feeders and occasionally eat dead insects, according to [University of Nevada, Reno Extension's harvester ant guide](https://extension.unr.edu/publication.aspx?PubID=5496). The guide counts 22 harvester ant species in the United States and says workers forage for seeds and tend the larvae. It says harvester ants do not invade homes, though they can occasionally be pests in lawns, gardens and pet areas." },
+    { "type": "h3", "text": "Leafcutting ants eat a fungus, not leaves" },
+    { "type": "p", "text": "The Texas leafcutting ant (*Atta texana*) cuts leaves but does not eat them. [Texas A&M's Urban and Structural Entomology Program](https://urbanentomology.tamu.edu/urban-pests/ants/leaf_cutting/) describes workers harvesting plant material to cultivate a special fungus, which is the only food source for the entire colony. Larvae feed on special fungal structures called gongylidia, and adults feed on them too. The workers select new leaves, flowers and stems over mature ones and prefer plant material with a high water content." },
+    { "type": "p", "text": "The program describes the species as found mainly in south central and eastern Texas, with scattered occurrences in northwestern Louisiana, and says the queen can produce egg masses that give rise to several million individuals. For the numbers across all ant species, see [how many ants are in the world](/blog/how-many-ants-are-in-the-world)." }
+  ],
+  "faqs": [
+    {
+      "question": "Do carpenter ants eat wood?",
+      "answer": "No. UC's Statewide IPM Program says carpenter ants do not eat wood the way termites do. They hollow it out to build nests, and that tunneling can cause considerable damage. In the program's household ant table, the food listed for carpenter ants is sweets, and the table notes that the ants deposit sawdust-like frass. The damage comes from nesting, not from feeding."
+    },
+    {
+      "question": "What do ants eat outdoors?",
+      "answer": "Outdoors, ants commonly feed on honeydew from aphids, soft scales, mealybugs and whiteflies, which UC's Statewide IPM Program says contains sugars and other nutrients. The program also names floral nectar and ripening or rotten sweet fruit, and says ants eat dead insects, pests such as fleas, caterpillars and termites, and decomposing animal tissue. Specialists differ: harvester ants feed largely on seeds, according to University of Nevada, Reno Extension, and Texas leafcutting ants eat only a fungus they cultivate."
+    },
+    {
+      "question": "What do ants drink?",
+      "answer": "Ants drink water and sweet liquids. UC's Statewide IPM Program says household ants feed on syrup, honey and fruit juice, and that outdoors they are attracted to honeydew, the sugary liquid excreted by aphids, soft scales and mealybugs. The same guide says leaky faucets and sprinkler heads attract thirsty ants, which is why fixing leaks is part of its prevention advice alongside food storage and cleanup."
+    },
+    {
+      "question": "What do queen ants and baby ants eat?",
+      "answer": "It depends on the stage. UC's Statewide IPM Program says a newly mated queen feeds her first larvae with her own metabolized wing muscles and fat bodies until they pupate, after which workers collect food for the queen and later broods. In red imported fire ants, the University of Florida reports that larvae receive only liquids until the third larval stage, then digest solid food, and that the queen is fed some of the digested protein to support egg production."
+    },
+    {
+      "question": "Do ants eat other insects?",
+      "answer": "Yes, many do. UC's Statewide IPM Program lists live and dead insects among the foods ants eat and says ants feed on pests such as fleas, caterpillars and termites. It lists sweets and insects as the foods of the velvety tree ant. The University of Florida says red imported fire ant workers eat dead animals, including insects, earthworms and vertebrates, so insects are one protein source among several for these ants."
+    },
+    {
+      "question": "Why are ants ignoring my bait?",
+      "answer": "The bait may not match what the colony wants at the moment. UC's Statewide IPM Program says ants prefer different attractants at different times of year, that baits can dry up or turn rancid, and that food particles and sweet residues should be removed when baiting. Its advice is to offer a small amount of each kind of bait, reposition stations or try another product, and allow 5 to 10 days to see fewer ants. Texas A&M adds that a colony taking protein bait one week may prefer sugar the next."
+    }
+  ],
+  "sources": [
+    { "title": "Ants (Home and Landscape)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/ants/" },
+    { "title": "IPM Action Plan for Sweet Feeding Ants", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://schoolipm.tamu.edu/?p=4027" },
+    { "title": "Red Imported Fire Ant, Solenopsis invicta Buren (Insecta: Hymenoptera: Formicidae: Myrmicinae)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN352" },
+    { "title": "Texas Leaf Cutting Ant, Atta texana", "publisher": "Texas A&M University Urban and Structural Entomology Program", "url": "https://urbanentomology.tamu.edu/urban-pests/ants/leaf_cutting/" },
+    { "title": "A Northern Nevada Homeowner's Guide to Identifying and Managing: Harvester Ants", "publisher": "University of Nevada, Reno Extension", "url": "https://extension.unr.edu/publication.aspx?PubID=5496" },
+    { "title": "Communal nutrition in ants", "publisher": "Current Biology (Dussutour and Simpson, 2009), indexed in PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/19345104/" }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "slug": "ticks-that-carry-lyme-disease",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks that carry lyme disease picture",
+  "alsoTargets": [],
+  "metaTitle": "Ticks That Carry Lyme Disease: Only 2 US Species",
+  "metaDescription": "Only two US ticks spread Lyme disease: the blacklegged (deer) tick and the western blacklegged tick. How to identify each stage and what to do if bitten.",
+  "h1": "Ticks That Carry Lyme Disease: A Picture Guide to Both US Species",
+  "dek": "The blacklegged tick and the western blacklegged tick are the only US ticks that spread Lyme disease to people. What each life stage looks like, which common ticks cannot carry it, where the risk is and what to do after a bite.",
+  "breadcrumb": "Ticks That Carry Lyme Disease",
+  "excerpt": "Two ticks spread Lyme disease in the US. What each life stage looks like, which common ticks cannot carry it, where the risk is highest and what CDC says to do after a bite.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Only two ticks spread Lyme disease to people in the United States: the blacklegged (deer) tick in the Northeast, mid-Atlantic and north-central states, and the western blacklegged tick along the Pacific Coast.** Both are tiny, about the size of a poppy seed as nymphs and a sesame seed as adults. [CDC's Lyme transmission page](https://www.cdc.gov/lyme/causes/index.html) says lone star ticks, American dog ticks, Rocky Mountain wood ticks and brown dog ticks cannot transmit the bacteria.",
+    "bullets": [
+      "Ohio State University Extension puts an unfed adult female blacklegged tick at roughly 1/12 to 1/8 inch (2 to 3 mm), with a red-orange body around a dark brown shield.",
+      "The nymph, the stage CDC calls a particularly high risk, is about 1/16 inch (1.5 mm) by Ohio State's measurement, the size of a poppy seed.",
+      "CDC says that in most cases a tick must be attached for more than 24 hours before it can transmit the Lyme disease bacterium.",
+      "The share of infected ticks ranges from none to over 50 percent depending on the area and life stage, according to CDC.",
+      "CDC's incidence map classes 15 states and the District of Columbia, all in the Northeast, mid-Atlantic and Upper Midwest, as high incidence.",
+      "CDC says to see your doctor if a rash or fever develops within several weeks of removing a tick."
+    ]
+  },
+  "facts": {
+    "title": "Lyme-carrying ticks at a glance",
+    "rows": [
+      ["Eastern carrier", "Blacklegged tick or deer tick, *Ixodes scapularis*"],
+      ["Western carrier", "Western blacklegged tick, *Ixodes pacificus*"],
+      ["Nymph size", "About a poppy seed: roughly 1/16 inch (1.5 mm) for the blacklegged tick, 1/25 inch for the western species"],
+      ["Unfed adult female", "Up to about 1/8 inch, the size of a sesame seed"],
+      ["Adult female colors", "Red-orange body around a dark brown shield"],
+      ["Stages most likely to bite people", "Nymphs and adult females"],
+      ["Attachment time", "More than 24 hours in most cases, per CDC"],
+      ["Share of ticks infected", "None to over 50 percent, depending on area and life stage"],
+      ["Highest-risk regions", "Forested areas of the Northeast, mid-Atlantic and north-central states; smaller areas in Pacific Coast states"],
+      ["Nymph season", "April through July for the blacklegged tick"],
+      ["Cannot transmit Lyme", "Lone star, American dog, Rocky Mountain wood and brown dog ticks"],
+      ["After a bite", "Remove the tick promptly; see a doctor for a rash or fever within several weeks"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Which ticks carry Lyme disease in the United States?" },
+    { "type": "p", "text": "Two ticks spread Lyme disease to people in the United States: the blacklegged tick (*Ixodes scapularis*), often called the deer tick, and the western blacklegged tick (*Ixodes pacificus*). [CDC's explanation of how Lyme disease spreads](https://www.cdc.gov/lyme/causes/index.html) says the first transmits the infection in the northeastern, mid-Atlantic and north-central states and the second in areas along the Pacific Coast. The bacterium is *Borrelia burgdorferi* and, rarely, *Borrelia mayonii*." },
+    { "type": "p", "text": "Each tick lives across more country than the disease does. [CDC's regional tick maps](https://www.cdc.gov/ticks/about/where-ticks-live.html) describe the blacklegged tick as widely distributed across the eastern United States and the western blacklegged tick as living along the Pacific coast, particularly in northern California." },
+    { "type": "table", "head": ["Feature", "Blacklegged (deer) tick", "Western blacklegged tick"], "rows": [
+      ["Scientific name", "*Ixodes scapularis*", "*Ixodes pacificus*"],
+      ["Where CDC says it lives", "Widely distributed across the eastern United States", "Along the Pacific coast, particularly northern California"],
+      ["Where it transmits Lyme disease", "Northeastern, mid-Atlantic and north-central states", "Areas along the Pacific Coast"],
+      ["Stages most likely to bite people", "Nymphs and adult females", "All stages bite, but nymphs and adult females are reported on people more often"],
+      ["Other illnesses CDC lists", "Anaplasmosis, babesiosis, hard tick relapsing fever, a form of ehrlichiosis and Powassan virus disease", "Anaplasmosis and hard tick relapsing fever"]
+    ], "caption": "Source: CDC, Where Ticks Live and How Lyme Disease Spreads." },
+    { "type": "p", "text": "Belonging to one of these species does not make a tick infectious. CDC puts the share of infected ticks anywhere from none to over 50 percent, depending on the area and the life stage. Ticks also do not hatch infected: CDC says an infected female does not pass the bacteria to her offspring, so larvae and nymphs acquire it by feeding on an infected wild animal, usually a rodent. Deer matter in a different way. They feed ticks and carry them into new areas, but CDC says deer are not infected with Lyme disease bacteria and do not infect ticks." },
+    { "type": "p", "text": "This page is about recognizing the two carriers and knowing what to do when one bites. For reducing ticks around a home, [the complete tick control guide](/blog/ultimate-tick-control-guide-ontario) covers habitat, yard treatment and season-long protection." },
+
+    { "type": "h2", "text": "What does a blacklegged tick look like at each life stage?" },
+    { "type": "p", "text": "A blacklegged tick is tiny at every stage: the larva is typically under 1/25 inch (less than 1 mm), the nymph is about the size of a poppy seed and the unfed adult is about the size of a sesame seed. Those measurements come from [Ohio State University Extension's blacklegged tick fact sheet](https://cfaes.osu.edu/fact-sheet/blacklegged-deer-tick-ixodes-scapularis), which adds that the species is smaller at every life stage than the other ticks of medical importance. The unfed adult female is the two-toned stage: her red-orange body shows around a dark brown shield." },
+    { "type": "media", "needed": "Top-down studio photo of all four blacklegged tick (Ixodes scapularis) life stages in a row on a white background, left to right: six-legged larva, nymph, adult male, unfed adult female, with a ruler marked in inches and millimeters along the bottom and a US dime at the right edge for scale" },
+    { "type": "table", "head": ["Stage", "Legs", "Unfed size", "What you see", "Role in Lyme disease"], "rows": [
+      ["Larva", "6", "Typically under 1/25 inch (less than 1 mm)", "A six-legged speck, like all larval ticks", "Hatches without the bacteria, because infected females do not pass it to their offspring"],
+      ["Nymph", "8", "About 1/16 inch (1.5 mm), the size of a poppy seed", "Translucent to slightly gray or brown", "CDC calls nymphs a particularly high risk because they are abundant and hard to see"],
+      ["Adult female", "8", "Roughly 1/12 to 1/8 inch (2 to 3 mm), the size of a sesame seed", "Red-orange body surrounding a dark brown shield", "Can transmit, but CDC says she is more likely to be noticed and removed first"],
+      ["Adult male", "8", "Same range as the female: roughly 1/12 to 1/8 inch (2 to 3 mm)", "Uniformly covered by a dark brown shield", "Not one of the stages CDC lists as most likely to bite people"]
+    ], "caption": "Sizes, colors and the larva's six legs from Ohio State University Extension; risk notes from CDC. Nymphs and adults have eight legs, as the University of California's guide notes for the western blacklegged tick." },
+    { "type": "media", "needed": "Macro photo, top view, of one unfed adult female blacklegged tick on pale skin or white paper beside three sesame seeds, sharp enough to show the dark brown shield behind the mouthparts, the red-orange body behind it and the eight dark legs" },
+    { "type": "media", "needed": "Macro photo of a single blacklegged tick nymph on an adult's fingertip with several poppy seeds beside it, showing that the nymph and the seeds are the same size" },
+    { "type": "h3", "text": "What does a fed blacklegged tick look like?" },
+    { "type": "p", "text": "A tick that has been feeding swells and can change color, so the red-orange and dark brown pattern stops being a reliable guide. Ohio State says an engorged adult female can be as wide as the eraser on a No. 2 pencil, roughly 1/4 inch (6 mm), and may appear gray. Nymphs swell too. [CDC's guidance for clinicians on caring for patients after a tick bite](https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf) includes a photo series of blacklegged nymphs after 0, 24, 48, 72 and 96 hours of feeding, and the body is plainly larger and rounder in the later photos." },
+    { "type": "p", "text": "So do not rule out a blacklegged tick because it is gray and swollen, and keep the tick so that someone can judge the species and how long it fed." },
+    { "type": "media", "needed": "Side-by-side macro photos of the same species at the same scale: a flat, unfed adult female blacklegged tick next to a fully engorged gray female about the width of a pencil eraser, with a No. 2 pencil eraser in frame; a second strip showing nymphs after 0, 24, 48, 72 and 96 hours of feeding" },
+
+    { "type": "h2", "text": "What does the western blacklegged tick look like?" },
+    { "type": "p", "text": "The western blacklegged tick is described in almost the same terms as its eastern relative: a poppy-seed nymph and a 1/8-inch adult female with a reddish-orange abdomen behind a dark plate. [The University of California's guide to Lyme disease in California](https://ipm.ucanr.edu/home-and-landscape/ticks-lyme-disease-in-california/) gives these details." },
+    { "type": "ul", "items": [
+      "**Nymph.** About 1/25 inch long when unfed, with eight legs, a dark brownish-black plate on its back and a light-colored, translucent abdomen.",
+      "**Adult female.** About 1/8 inch long when unfed, with long, forward-projecting mouthparts, brownish-black legs, a dark brownish-black plate over the front half of her back and a reddish-orange abdomen. A feeding female swells to 3/8 inch or longer.",
+      "**Adult male.** About 1/10 inch long, oval and brownish-black.",
+      "**Larva.** Pinhead-sized with six legs. UC says larvae do not commonly attach to people."
+    ] },
+    { "type": "p", "text": "Neither university fact sheet offers a way to tell the two species apart by eye, so geography is the practical guide. A small tick with this color pattern picked up on the Pacific coast points to the western species; one picked up in the eastern half of the country points to the blacklegged tick." },
+    { "type": "p", "text": "UC places the nymphs in dense woodlands, such as those with oak, Pacific madrone or Douglas fir, where they wait in leaf litter and fir needles and on logs, branches and the lower 3 to 4 feet of tree trunks. Adults climb low vegetation in grassland and brush and are commonly met along trail margins, especially the uphill edge of hillside trails. In northwestern California the nymphs are most active from March to July, and adults generally seek hosts from late fall through spring." },
+    { "type": "media", "needed": "Macro photo, top view, of an unfed adult female western blacklegged tick (Ixodes pacificus) and a nymph of the same species side by side on a ruler marked in inches, showing the female's reddish-orange abdomen, dark plate and brownish-black legs" },
+
+    { "type": "h2", "text": "Which common ticks do not carry Lyme disease?" },
+    { "type": "p", "text": "Four other ticks that bite people cannot transmit Lyme disease bacteria, according to CDC: the lone star tick, the American dog tick, the Rocky Mountain wood tick and the brown dog tick. CDC adds that these ticks can transmit bacteria, parasites and viruses that cause other tickborne diseases, so a bite from one still deserves attention." },
+    { "type": "table", "head": ["Tick", "Where CDC says it lives", "What CDC says it can spread", "CDC's note"], "rows": [
+      ["Lone star tick (*Amblyomma americanum*)", "Widely distributed in the Northeast, South and Midwest", "Ehrlichiosis, tularemia, Heartland virus and Bourbon virus", "The adult female has a white dot, the lone star, on her back"],
+      ["American dog tick (*Dermacentor variabilis*)", "Widely distributed east of the Rocky Mountains, with limited areas to the west", "Tularemia and Rocky Mountain spotted fever", "Adult females are the stage most likely to bite people; risk is highest in spring and summer"],
+      ["Rocky Mountain wood tick (*Dermacentor andersoni*)", "Rocky Mountain states and southwestern Canada, at elevations of 4,000 to 10,500 feet", "Rocky Mountain spotted fever, Colorado tick fever and tularemia", "Adult ticks are the stage mainly associated with transmission to people"],
+      ["Brown dog tick (*Rhipicephalus sanguineus*)", "Worldwide", "Rocky Mountain spotted fever, in the southwestern US and along the US-Mexico border", "Dogs are the primary host at every life stage, but it may also bite people"]
+    ], "caption": "Source: CDC, Where Ticks Live and How Lyme Disease Spreads." },
+    { "type": "p", "text": "The lone star tick is worth a second look, because a rash can follow its bite too. CDC says the adult female is distinguished by a white dot on her back, and that a circular rash of unknown cause, known as STARI, sometimes follows a lone star tick bite. CDC also notes that lone star tick saliva can be irritating, so redness and discomfort at the bite do not necessarily mean infection. A rash after any tick bite is still a reason to see a doctor." },
+    { "type": "p", "text": "Markings are easier to compare side by side. The guide to [what ticks look like, species by species](/blog/what-do-ticks-look-like) covers the main US ticks, and a separate comparison shows [how a deer tick differs from a dog tick](/blog/deer-tick-vs-dog-tick-canada)." },
+    { "type": "media", "needed": "Comparison photo at one scale on a white background with a ruler in inches: unfed adult females of the blacklegged tick, lone star tick (white dot visible on the back), American dog tick and brown dog tick, each labeled, with the blacklegged tick clearly the smallest" },
+
+    { "type": "h2", "text": "Where is the risk of Lyme disease highest?" },
+    { "type": "p", "text": "The risk is highest in forested parts of the Northeast, the mid-Atlantic and the north-central states, with smaller areas in the Pacific Coast states. That is CDC's summary of where infected ticks are most commonly found. The incidence map in CDC's guidance for clinicians, dated December 2021, shades 15 states and the District of Columbia as high incidence:" },
+    { "type": "ul", "items": [
+      "**New England.** Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island and Vermont.",
+      "**Mid-Atlantic.** Delaware, Maryland, New Jersey, New York, Pennsylvania, Virginia, West Virginia and the District of Columbia.",
+      "**Upper Midwest.** Minnesota and Wisconsin."
+    ] },
+    { "type": "media", "needed": "US map shading the 15 high-incidence states plus the District of Columbia (CT, DE, ME, MD, MA, MN, NH, NJ, NY, PA, RI, VT, VA, WV, WI) in a dark color, the rest of the blacklegged tick's eastern range in a light tint, and the Pacific coast range of the western blacklegged tick in a second color, with a legend" },
+    { "type": "p", "text": "A low-incidence label does not mean no risk. Ohio is shaded low incidence on that map, yet Ohio State reports that blacklegged ticks have spread into many new areas of the eastern United States over the past 25 years, are now considered established in 61 Ohio counties, and that the state's Lyme disease cases had increased 17-fold in a decade when its fact sheet was published in 2024. Michigan is also shaded low incidence, and [the guide to ticks in Michigan](/blog/ticks-in-michigan) shows how much the picture changes from one county to the next." },
+    { "type": "p", "text": "The reverse also holds: finding the tick does not prove the risk. CDC says blacklegged ticks in most areas of the southeastern United States are almost never infected." },
+    { "type": "p", "text": "On the West Coast the numbers are far smaller. The University of California's guide, last updated in 2016, reports the western blacklegged tick from 56 of California's 58 counties, yet says the state's Lyme disease incidence is usually only 0.2 cases per 100,000 people a year, with 57 to 97 confirmed cases reported annually between 2005 and 2014. The highest average rates in those years were in the northwestern counties of Trinity, Humboldt and Mendocino and the northern Sierra Nevada counties of Sierra and Nevada." },
+    { "type": "p", "text": "In the northern California areas where Lyme disease occurs, UC says about 1 to 2 percent of adult ticks and 2 to 15 percent of nymphs are infected on average, and that about half of the state's reported cases are contracted around the home in semirural settings." },
+    { "type": "h3", "text": "What kind of ground do these ticks live on, and when are they out?" },
+    { "type": "p", "text": "Blacklegged ticks live in or near forest, especially where leaf litter is heavy, and Ohio State notes that shaded parts of a home lawn can hold them too. They wait on low vegetation, roughly 0 to 3 feet off the ground, and do not jump or drop from trees. CDC gives the calendar: nymphs seek hosts from April through July, adults are most active in early spring and fall, and adults may be out searching for a host any time winter temperatures are above freezing. Ohio State reports Lyme disease cases in Ohio in all 12 months." },
+
+    { "type": "h2", "text": "How long does a tick have to be attached to transmit Lyme disease?" },
+    { "type": "p", "text": "In most cases a tick must be attached for more than 24 hours before the Lyme disease bacterium can be transmitted, according to CDC. The agency adds that removing a tick within 24 hours greatly reduces the chance of getting Lyme disease. Read that as a reason to hurry, not as a grace period: CDC states it as a general rule, and you may not know when a tick attached." },
+    { "type": "p", "text": "For the western tick, the University of California reports research in which nymphs needed more than one day of attachment to begin transmitting the bacterium to rodents, and says the minimum time for adult ticks has not been evaluated." },
+    { "type": "p", "text": "Clinicians work with a longer figure when they decide on preventive treatment. One of CDC's criteria for a single preventive dose of an antibiotic is an estimated attachment time of 36 hours or more, judged from how engorged the tick is or from the likely time of exposure. Engorgement serves as the clock, which is one more reason to keep the tick." },
+    { "type": "h3", "text": "Why do nymphs cause so many infections?" },
+    { "type": "p", "text": "Nymphs are small enough to go unnoticed while they feed. CDC says they pose a particularly high risk because they are abundant and about the size of a poppy seed, while adult females are more likely to be noticed and removed before transmission. Ohio State makes the same point about detection, and UC says circumstantial evidence suggests that most infected people acquired the bacterium from nymphs, not adults." },
+    { "type": "p", "text": "Larvae are a different case, explained in the guide to [seed ticks, the larval stage that hatches without Lyme bacteria](/blog/seed-ticks). Against nymphs, Ohio State advises frequent tick checks during and after time outdoors, and a separate guide walks through [a full-body tick check, step by step](/blog/how-to-do-a-tick-check)." },
+
+    { "type": "h2", "text": "What should you do after a bite from a tick that may carry Lyme disease?" },
+    { "type": "p", "text": "Remove the tick right away, clean the bite, keep the tick, write down the date and place, and watch for a rash or fever over the following weeks. [CDC's instructions for what to do after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) say to remove an attached tick as soon as possible and not to wait for a healthcare provider to do it." },
+    { "type": "ol", "items": [
+      "Grasp the tick as close to the skin's surface as possible with clean fine-tipped tweezers. If you have none, CDC says to use regular tweezers or your fingers.",
+      "Pull away from the skin with steady, even pressure. Do not twist or jerk the tick.",
+      "If the mouthparts break off and stay in the skin, CDC says your body will naturally push them out over time as the skin heals.",
+      "Clean the bite area and your hands with soap and water, rubbing alcohol or hand sanitizer.",
+      "Keep the tick in a sealed container or in rubbing alcohol. CDC's guidance for clinicians says a saved tick helps with species identification and with judging how engorged it was. Do not crush it with your fingers.",
+      "Check the rest of your body. CDC says that where one tick is attached there may be others.",
+      "Write down the date and where you were. CDC advises telling your doctor about the bite, when it happened and where you most likely picked up the tick."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "Skip the folk remedies", "text": "CDC says not to use petroleum jelly, heat, nail polish or other substances to make a tick let go. Doing so may agitate the tick and force infected fluid into the skin." },
+    { "type": "media", "needed": "Close-up photo or line diagram of fine-tipped tweezers gripping an attached tick at the skin surface, with an arrow showing a straight, steady pull away from the skin and no twisting" },
+    { "type": "h3", "text": "When should you contact a healthcare provider?" },
+    { "type": "p", "text": "See your doctor if you develop a rash or fever within several weeks of removing a tick; that is CDC's advice for any tick bite. In a high-incidence state there is a reason to call sooner. CDC's guidance for clinicians says a single dose of the antibiotic doxycycline can lower the risk of Lyme disease when these conditions are met:" },
+    { "type": "ul", "items": [
+      "The bite happened in a state where Lyme disease incidence is high, or in an area where more than 20 percent of ticks are infected.",
+      "The tick can be identified as an adult or nymphal blacklegged tick.",
+      "The tick was attached for an estimated 36 hours or more, judged by its engorgement or the likely time of exposure.",
+      "The dose can be started within 72 hours of removing the tick.",
+      "The patient has no medical reason to avoid doxycycline."
+    ] },
+    { "type": "p", "text": "Whether that applies to you is a clinician's decision, and the 72-hour limit is why the call should not wait for symptoms. The same guidance notes that preventive antibiotics have not been shown to prevent tickborne diseases other than Lyme disease and are not recommended for preventing anaplasmosis, babesiosis, ehrlichiosis or Rocky Mountain spotted fever." },
+    { "type": "p", "text": "The University of California describes the usual first sign of Lyme disease as a slowly expanding reddish rash, called erythema migrans, that typically starts where the tick was attached 3 to 32 days after the bite and grows to several inches across. By its figures the rash appears in up to 60 to 80 percent of patients, so some infected people never see one, and it may not be apparent on dark skin. A separate guide covers [the early and later symptoms of Lyme disease](/blog/lyme-disease-symptoms-guide), and another shows [what a tick bite looks like in the days afterward](/blog/what-does-a-tick-bite-look-like). This page cannot diagnose a bite, so contact a healthcare provider about any reaction that worries you." },
+    { "type": "h3", "text": "Should you have the tick tested?" },
+    { "type": "p", "text": "CDC says testing a tick for germs is, in general, not recommended. Its reasons: laboratories that test ticks are not held to the quality-control standards of clinical diagnostic laboratories, a positive result does not necessarily mean you were infected, a negative result can give false assurance, and if you were infected you would probably develop symptoms before the results came back. UC agrees that testing a tick that has bitten you is not recommended for medical decision-making. Identification is a different matter: UC says specialists at state and local health departments, vector control districts or universities may be able to identify a saved tick." },
+    { "type": "h3", "text": "Can pets bring these ticks home?" },
+    { "type": "p", "text": "Yes. CDC says dogs and cats can get Lyme disease and that there is no evidence they spread the infection directly to their owners, but that pets can bring infected ticks into the home or yard. Ohio State advises talking to a veterinarian about tick products for pets, and the guide to [finding and removing ticks on dogs](/blog/ticks-on-dogs) shows where to look." },
+
+    { "type": "h2", "text": "How do you avoid the ticks that carry Lyme disease?" },
+    { "type": "p", "text": "Stay off the vegetation they wait on, cover or treat what touches it, and check yourself afterward. Ohio State's list is short." },
+    { "type": "ul", "items": [
+      "Hike in the center of trails and avoid tall vegetation where you can.",
+      "Wear light-colored clothing, keep exposed skin to a minimum and tuck pants into socks.",
+      "Wear permethrin-treated clothing, and read the label instructions carefully.",
+      "Apply repellent to skin, clothing or both, as its label directs. Ohio State points readers to the EPA's insect repellent pages to choose one.",
+      "Shower as soon as possible after time outdoors, and check for ticks often during and after an outing."
+    ] },
+    { "type": "p", "text": "In California, the university's Lyme disease guide adds that any activity that puts you in direct contact with fallen leaves, fir needles or wood may raise the risk of meeting nymphs: gardening, gathering firewood, picnicking, woodcutting, and sitting on logs or against tree trunks. For clothing, gear and the yard, a separate guide sorts out [what kills ticks and what does not](/blog/what-kills-ticks)." }
+  ],
+  "faqs": [
+    {
+      "question": "Is a deer tick the same thing as a blacklegged tick?",
+      "answer": "Yes. CDC uses blacklegged tick and deer tick as two names for one species, Ixodes scapularis, the tick that spreads Lyme disease in the northeastern, mid-Atlantic and north-central United States. The western blacklegged tick, Ixodes pacificus, is a separate species found along the Pacific coast, and it also spreads Lyme disease. Dog ticks are different animals: CDC says the American dog tick and the brown dog tick are not able to transmit Lyme disease bacteria, although they can spread other infections."
+    },
+    {
+      "question": "Do all blacklegged ticks carry Lyme disease?",
+      "answer": "No. CDC says the percentage of ticks that are infected ranges from none to over 50 percent, depending on the area and the life stage, and that blacklegged ticks in most areas of the southeastern United States are almost never infected. In the northern California areas where Lyme disease occurs, the University of California reports that about 1 to 2 percent of adult western blacklegged ticks and 2 to 15 percent of nymphs are infected on average. Appearance tells you the species, not whether a tick is infected, so handle every bite from either species the same way."
+    },
+    {
+      "question": "Can you get Lyme disease if the tick was attached for less than 24 hours?",
+      "answer": "Your chances are greatly reduced, according to CDC. The agency says that in most cases a tick must be attached for more than 24 hours before the Lyme disease bacterium can be transmitted, and that removing a tick within 24 hours greatly reduces the chance of getting the disease. CDC states this as a general rule, and you may not know when a tick attached. Remove any tick as soon as you find it, note the date, and see your doctor if a rash or fever develops within several weeks."
+    },
+    {
+      "question": "Do the ticks that carry Lyme disease spread anything else?",
+      "answer": "Yes. In addition to Lyme disease, CDC lists the blacklegged tick as a carrier of the germs that cause anaplasmosis, babesiosis, hard tick relapsing fever, a form of ehrlichiosis and Powassan virus disease. For the western blacklegged tick it lists anaplasmosis and hard tick relapsing fever. CDC's guidance for clinicians notes that the single preventive antibiotic dose sometimes considered after a high-risk bite has not been shown to prevent tickborne diseases other than Lyme disease. Whichever tick bit you, CDC's advice is the same: see your doctor if a rash or fever develops within several weeks of removing it."
+    },
+    {
+      "question": "Are there ticks that carry Lyme disease in the South?",
+      "answer": "The tick lives there, but it is rarely infected. CDC describes the blacklegged tick as widely distributed across the eastern United States, yet says blacklegged ticks found in most areas of the southeastern United States are almost never infected with Lyme disease bacteria. The lone star tick, which CDC lists as widely distributed in the South, cannot transmit Lyme disease bacteria, although CDC says a circular rash of unknown cause, called STARI, sometimes follows its bite. Wherever a bite happened, see a doctor about a rash or fever in the weeks afterward."
+    },
+    {
+      "question": "What time of year are the ticks that carry Lyme disease active?",
+      "answer": "Spring through fall carries the greatest risk, but the season never fully closes. CDC says blacklegged tick nymphs seek hosts from April through July, adults are most active in early spring and fall, and adults may be out any time winter temperatures are above freezing. Ohio State University Extension reports Lyme disease cases in Ohio in all 12 months. In northwestern California, the University of California says western blacklegged tick nymphs are most active from March to July, while adults generally seek hosts from late fall through spring."
+    }
+  ],
+  "sources": [
+    { "title": "How Lyme Disease Spreads", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lyme/causes/index.html" },
+    { "title": "Where Ticks Live", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/about/where-ticks-live.html" },
+    { "title": "What to Do After a Tick Bite", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html" },
+    { "title": "Guidance for Clinicians: Caring for Patients after a Tick Bite", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf" },
+    { "title": "Blacklegged (deer) tick, Ixodes scapularis", "publisher": "Ohio State University Extension", "url": "https://cfaes.osu.edu/fact-sheet/blacklegged-deer-tick-ixodes-scapularis" },
+    { "title": "Lyme Disease in California", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/ticks-lyme-disease-in-california/" }
+  ],
+  "disclaimer": "health"
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "what-do-ticks-look-like",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "what do ticks look like",
+  "alsoTargets": [],
+  "metaTitle": "What Do Ticks Look Like? Size, Color, Species",
+  "metaDescription": "Ticks have eight legs, no wings and usually swell gray once fed. See their size at each life stage and how to tell the common US species apart.",
+  "h1": "What Do Ticks Look Like? Size, Color and Markings of the Common US Ticks",
+  "dek": "How to recognize a tick at each life stage, what it looks like before and after feeding, and how to tell the blacklegged, dog, lone star and other common US ticks apart.",
+  "breadcrumb": "What Ticks Look Like",
+  "excerpt": "Ticks have eight legs, no wings and a hard shield on the back. See their size at each life stage, how they look after feeding, and how to tell the common US species apart.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**An unfed tick is a small, flat, oval arachnid with eight legs, no wings and no antennae, usually brown, reddish-brown or black.** Larvae have only six legs, and a blacklegged tick larva measures about 0.03 inch (0.8 mm), while [Utah State University Extension](https://extension.usu.edu/pests/research/ticks-and-tickborne-diseases-of-utah) reports that an engorged Rocky Mountain wood tick can be 5/8 inch (16 mm) long. A fed female is swollen and usually gray.",
+    "bullets": [
+      "Larvae have six legs and measure about 0.03 inch (0.8 mm) in the blacklegged tick, while nymphs and adults have eight legs.",
+      "An unfed adult blacklegged female measures about 0.14 inch (3.5 mm) and the male about 0.10 inch (2.6 mm), according to Iowa State University Extension.",
+      "A feeding western blacklegged female swells from about 1/8 inch to 3/8 inch or longer, and Utah State University Extension says adult female hard ticks can gain 100 to 120 times their pre-feeding weight.",
+      "Dark legs and a dark back point to a blacklegged tick, a patterned cream shield to an American dog tick, and one white spot on a female to a lone star tick.",
+      "Fed ticks change size and color, so the shield markings and the region where you found the tick are more reliable than size alone."
+    ]
+  },
+  "facts": {
+    "title": "Tick appearance at a glance",
+    "rows": [
+      ["Group", "Arachnids, related to spiders and mites"],
+      ["Legs", "6 as a larva; 8 as a nymph and adult"],
+      ["Wings and antennae", "None"],
+      ["Blacklegged tick larva", "About 0.03 inch (0.8 mm)"],
+      ["Unfed adult blacklegged female", "About 0.14 inch (3.5 mm)"],
+      ["Engorged Rocky Mountain wood tick", "Can be 5/8 inch long and 1/2 inch wide"],
+      ["Weight gain while feeding", "Adult female hard ticks can gain 100 to 120 times their pre-feeding weight (Utah State)"],
+      ["Color once fed", "Usually gray or grayish"],
+      ["Quickest species clue", "Single white spot on a female: lone star tick"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What does a tick look like?" },
+    { "type": "p", "text": "An unfed adult tick is a small, flat, oval arachnid with eight legs, no wings and no antennae, and the common US species are brown, reddish-brown or black. [Utah State University Extension](https://extension.usu.edu/pests/research/ticks-and-tickborne-diseases-of-utah) describes ticks as arachnids, related to spiders and mites, and says adult and nymphal ticks have eight legs while newly hatched larvae have six. Ticks are wingless and lack antennae at every stage, which separates them from most of the insects they are mistaken for." },
+    { "type": "p", "text": "An unfed tick looks flattened. Utah State describes the Rocky Mountain wood tick's body as oval and somewhat flattened from top to bottom, and [Iowa State University Extension](https://faculty.sites.iastate.edu/smithr/files/inline-files/PM2036.pdf) calls the three ticks most often seen in Iowa hard ticks because of a hard, shield-like structure on their backs. That shield is the scutum. Iowa State says the female American dog tick's shield covers the front portion of her body, while the male's covers almost his entire upper body. Soft ticks, which Utah State says lack a scutum, are a separate group, and every species on this page is a hard tick." },
+    { "type": "media", "needed": "Macro photo of an unfed adult female blacklegged tick on a white background next to a ruler marked in millimeters and inches, top-down, showing all eight legs and the dark shield behind the mouthparts" },
+    { "type": "p", "text": "Identifying the tick is the first step. What to do about ticks in the yard afterward is covered in [the complete tick control guide](/blog/ultimate-tick-control-guide-ontario)." },
+
+    { "type": "h2", "text": "How big is a tick at each life stage?" },
+    { "type": "p", "text": "Using the blacklegged tick as the example, a tick grows from about 0.03 inch (0.8 mm) as a larva to about 0.14 inch (3.5 mm) as an unfed adult female. Those figures come from Iowa State University Extension, whose photos place each tick beside a period in 12-point Times New Roman type that is about 0.03 inch (0.8 mm) across, so a larva is roughly the width of a printed period. Utah State gives 0.08 to 0.8 inch (2 mm to 20 mm) as the size range for ticks, depending on life stage and species, but Iowa State's blacklegged larvae and nymphs both measure under 0.08 inch (2 mm), so the youngest stages of that species fall below Utah State's lower figure." },
+    { "type": "table", "head": ["Life stage", "Legs", "Blacklegged tick size", "Close to"], "rows": [
+      ["Larva (seed tick)", "6", "About 0.03 inch (0.8 mm)", "The width of a printed period"],
+      ["Nymph", "8", "About 0.06 inch (1.6 mm)", "A poppy seed"],
+      ["Adult male", "8", "About 0.10 inch (2.6 mm)", "Smaller than the female"],
+      ["Adult female, unfed", "8", "About 0.14 inch (3.5 mm)", "Slightly larger than a sesame seed"]
+    ], "caption": "Sizes and the sesame-seed comparison are from Iowa State University Extension, which also uses a printed period about 0.03 inch (0.8 mm) across as its size reference; the poppy-seed comparison is UC IPM's, for the western blacklegged nymph. Individual ticks vary." },
+    { "type": "p", "text": "The youngest stages are the ones people miss. Iowa State says larval ticks, also called seed ticks, are told apart from nymphs and adults by their small size and six legs, and that blacklegged larvae and nymphs are small and difficult to detect. A separate guide explains [what seed ticks are, why they cluster and what they mean for bites](/blog/seed-ticks)." },
+    { "type": "p", "text": "Nymphs are only slightly easier to see. [UC IPM's Lyme disease guide](https://ipm.ucanr.edu/home-and-landscape/ticks-lyme-disease-in-california/) compares an unfed western blacklegged nymph to a poppy seed and puts it at about 1/25 inch (about 1 mm), smaller than Iowa State's 0.06 inch (1.6 mm) for the blacklegged nymph, so treat every figure here as approximate. Every hard tick passes through the same stages, and the full sequence is laid out in [how a tick moves from egg to larva, nymph and adult](/learn/tick-life-cycle)." },
+
+    { "type": "h2", "text": "What does an engorged tick look like?" },
+    { "type": "p", "text": "A tick that has been feeding is swollen and usually gray, and it can be many times heavier than the flat tick that first attached. Utah State reports that adult female hard ticks can increase their body weight 100 to 120 times while feeding. Several sources describe the color change: Utah State says the Rocky Mountain wood tick can become grayish when engorged, [Ohio State's Gulf Coast tick fact sheet](https://cfaes-contenthub.org.ohio-state.edu/fact-sheet/gulf-coast-tick-amblyomma-maculatum) says both sexes of that species are larger after a blood meal and may appear gray, and Iowa State describes a swollen blacklegged tick as gun-metal gray. Fed sizes differ by species:" },
+    { "type": "ul", "items": [
+      "**Western blacklegged tick.** UC IPM says an attached, feeding female becomes bloated and expands from about 1/8 inch to 3/8 inch or longer.",
+      "**Rocky Mountain wood tick.** Utah State reports an engorged tick can be 5/8 inch long and 1/2 inch wide.",
+      "**Brown dog tick.** [UF/IFAS's brown dog tick profile](https://ask.ifas.ufl.edu/publication/IN378) says the female increases her body size a hundredfold during feeding and reaches the size of a raisin."
+    ] },
+    { "type": "media", "needed": "Side-by-side photo of an unfed and a fully engorged adult female American dog tick on a white background with a ruler, showing the small cream shield at the front of the swollen gray body" },
+    { "type": "p", "text": "Males change far less in some of the species these fact sheets describe. UC IPM says the male western blacklegged tick takes in only small quantities of blood and hardly increases in size, and UF/IFAS says male brown dog ticks feed only for short periods. Ohio State, however, says both male and female Gulf Coast ticks are larger after a blood meal." },
+    { "type": "callout", "tone": "warning", "title": "A swollen tick has been feeding for a while", "text": "Iowa State says a swollen, gun-metal gray blacklegged tick may have been attached for the minimum time needed to transmit Lyme disease bacteria. Remove it, and tell your doctor about any fever, joint pain, rash or inflammation at the bite site afterward. Iowa State says symptoms typically develop 3 to 30 days after the bite." },
+    { "type": "p", "text": "What the bite itself looks like on skin is a separate question, covered in [pictures and a timeline of tick bites](/blog/what-does-a-tick-bite-look-like)." },
+
+    { "type": "h2", "text": "How do you tell the common US ticks apart?" },
+    { "type": "p", "text": "Check the markings on the back, the body color, the length of the mouthparts and the part of the country where you found it. Size and color shift as a tick feeds, so the shield markings and the range count for more than size. Ranges in the table follow [CDC's page on where ticks live](https://www.cdc.gov/ticks/about/where-ticks-live.html), with Ohio State adding detail for the Gulf Coast tick, and the other columns come from the fact sheets linked on this page." },
+    { "type": "table", "head": ["Tick", "Where it lives", "Color and markings", "Adult size"], "rows": [
+      ["Blacklegged tick (*Ixodes scapularis*)", "Widely across the eastern US", "Black or dark brown legs, mouthparts and back", "Unfed female about 0.14 inch (3.5 mm); male about 0.10 inch (2.6 mm)"],
+      ["Western blacklegged tick (*Ixodes pacificus*)", "Along the Pacific coast, particularly northern California", "Brownish-black legs; unfed female has a dark plate over the front half of her back and a reddish-orange abdomen; male is brownish-black", "Unfed female about 1/8 inch; male about 1/10 inch"],
+      ["American dog tick (*Dermacentor variabilis*)", "Widely east of the Rocky Mountains, with limited areas west of them", "Usually chocolate brown; female has a patterned cream shield over the front of her body, male's cream shield covers almost his whole upper body", "Female described as large; male usually smaller"],
+      ["Lone star tick (*Amblyomma americanum*)", "Northeast, South and Midwest", "Usually caramel brown; female has one white or cream spot on her back, male lacks it", "Female slightly smaller than an American dog tick but still fairly large; male smaller"],
+      ["Brown dog tick (*Rhipicephalus sanguineus*)", "Worldwide", "Reddish-brown and elongated, with no markings on the back", "About 0.09 to 0.13 inch (2.3 to 3.2 mm) long"],
+      ["Gulf Coast tick (*Amblyomma maculatum*)", "Mainly the Southeast and Great Plains, with small, isolated populations in the Mid-Atlantic, Midwest, Northeast and Southwest", "Reddish-brown with ornate whitish markings on the shield; long, slender mouthparts", "About 0.12 to 0.28 inch (3 to 7 mm) long"],
+      ["Rocky Mountain wood tick (*Dermacentor andersoni*)", "Rocky Mountain states, at elevations of 4,000 to 10,500 feet", "Brown, oval and somewhat flattened; can turn grayish when engorged", "Unfed female about 1/8 inch"]
+    ], "caption": "Descriptions and sizes from Iowa State University Extension, UC IPM, Ohio State University, UF/IFAS and Utah State University Extension; ranges from CDC and Ohio State. The UF/IFAS and Ohio State sizes are not labeled as fed or unfed." },
+
+    { "type": "h3", "text": "Blacklegged tick or western blacklegged tick?" },
+    { "type": "p", "text": "Both are small ticks with dark legs, and range is the quickest way to separate them. CDC places the blacklegged tick widely across the eastern US and the western blacklegged tick along the Pacific coast, particularly northern California. Iowa State describes adult and nymph blacklegged ticks as generally having black or dark brown legs, mouthparts and backs, while UC IPM describes the unfed western female with brownish-black legs, a dark plate over the front half of her back and a reddish-orange abdomen. Utah State, where the western species is not commonly encountered, says its very small size, reddish body and black legs distinguish it from other ticks." },
+    { "type": "p", "text": "These two are the ticks the sources above connect with Lyme disease, and [pictures of each Lyme tick at every life stage](/blog/ticks-that-carry-lyme-disease) are on their own page. State health departments publish tick data of their own, and [which ticks are common in Michigan and where Lyme risk is established](/blog/ticks-in-michigan) shows what one state reports." },
+
+    { "type": "h3", "text": "American dog, lone star, Gulf Coast and Rocky Mountain wood ticks" },
+    { "type": "p", "text": "Three of these four carry pale markings on the back. Iowa State describes the American dog tick as usually chocolate brown, with a patterned cream shield on the female, and the lone star tick as usually caramel brown, with a distinctive white or cream spot on the back of the female. Males of the lone star tick are smaller and lack the spot. Iowa State adds that lone star females are slightly smaller than American dog ticks but still fairly large." },
+    { "type": "p", "text": "A pale mark alone does not settle it. Ohio State describes the Gulf Coast tick as reddish-brown, with a shield that carries ornate whitish markings and covers the male's entire back but only half of the female's, and it says both that tick and the American dog tick have dark, reddish-brown bodies and ornate markings on the shield. What separates the two is the mouthparts: the Gulf Coast tick's are long and slender, and the dog tick's are shorter and stouter." },
+    { "type": "p", "text": "The fourth, the Rocky Mountain wood tick, is the tick most commonly encountered in Utah, and Utah State describes it simply as a brown tick with an oval, somewhat flattened body that can turn grayish when engorged. Range helps separate it from the American dog tick in most places, because CDC places the dog tick mainly east of the Rocky Mountains and the wood tick in the Rocky Mountain states at elevations of 4,000 to 10,500 feet." },
+
+    { "type": "h3", "text": "Brown dog tick" },
+    { "type": "p", "text": "UF/IFAS describes nymph and adult brown dog ticks as reddish-brown with an elongated body and no markings on the back, which sets them apart from the patterned dog and lone star ticks. Adults measure about 0.09 to 0.13 inch (2.3 to 3.2 mm) long. UF/IFAS calls the hexagonal, six-sided base where the mouthparts attach a particularly good identifying feature, because only one other tick with that shape has ever been found in Florida." },
+    { "type": "p", "text": "Dogs are the main host in the United States, and UF/IFAS says the species is unusual among ticks in being able to complete its whole life cycle indoors as well as outdoors, which is how infestations develop in kennels and homes. If the tick came off a pet, the steps for [checking a dog, removing the tick and watching for illness afterward](/blog/ticks-on-dogs) apply." },
+
+    { "type": "h2", "text": "How can you tell a tick from other small bugs?" },
+    { "type": "p", "text": "Count the legs and look for antennae and wings. Nymph and adult ticks have eight legs and a larva has six, but at every stage a tick has no antennae and no wings, which separates it from the bed bugs, beetles and other insects that get mistaken for it. A small bug with antennae or wing covers is not a tick. If the bug in question is tiny, red or brown and hard to place, [a guide to the bugs most often mistaken for ticks](/blog/bugs-that-look-like-ticks) sorts out the usual suspects with notes on where each turns up." },
+
+    { "type": "h2", "text": "What should you do after finding a tick?" },
+    { "type": "p", "text": "Remove an attached tick with tweezers, then decide whether you want it identified. Iowa State describes grasping the tick's mouthparts where they enter the skin and pulling steadily, directly away from the skin, then cleaning the wound and disinfecting the bite site. It says not to be overly concerned if the mouthparts break off, because removing the tick is the main goal, and it warns that common folk remedies can be dangerous and can even increase the chance of a tick-borne disease. [Step-by-step tick removal and when to see a doctor](/blog/how-to-remove-tick-safely) walks through the process." },
+    { "type": "p", "text": "Some state universities identify ticks for the public. Iowa State's fact sheet, revised in 2016, tells Iowans who want a tick identified to place it in a plastic bag with a blade of grass and send it to the university's Plant and Insect Diagnostic Clinic, noting whether it was found on a person or an animal, whether it was attached and the date. Check with your own state's extension service or health department for a current program." },
+    { "type": "p", "text": "For the yard, [what actually kills ticks and what does not](/blog/what-kills-ticks) sorts the methods by where the tick is. Backyard chickens get credit for eating ticks, and [what the published chicken studies actually measured](/blog/do-chickens-eat-ticks) looks at whether that adds up to control." }
+  ],
+  "faqs": [
+    {
+      "question": "How many legs does a tick have?",
+      "answer": "Nymph and adult ticks have eight legs, and newly hatched larvae have six, according to both Iowa State University Extension and Utah State University Extension. The larva is also the smallest stage: Iowa State measures blacklegged tick larvae at about 0.03 inch (0.8 mm), so a tick with six legs is a larva, also called a seed tick. Utah State classes ticks as arachnids, related to spiders and mites."
+    },
+    {
+      "question": "How small is a baby tick?",
+      "answer": "A baby tick, called a larva or seed tick, measures about 0.03 inch (0.8 mm) in the blacklegged tick according to Iowa State University Extension, roughly the width of a printed period. UC IPM describes western blacklegged larvae as pinhead-sized. Larvae develop into nymphs, which Iowa State measures at about 0.06 inch (1.6 mm) for the blacklegged tick, and UC IPM compares the western blacklegged nymph to a poppy seed. Both stages are easy to miss."
+    },
+    {
+      "question": "What does a tick look like after it has fed?",
+      "answer": "A fed tick is swollen and usually gray instead of the flat brown or black of an unfed tick. UC IPM reports that a feeding western blacklegged female expands from about 1/8 inch to 3/8 inch or longer, and Utah State University Extension reports adult female hard ticks increasing their body weight 100 to 120 times. Male western blacklegged ticks change little, since UC IPM says they hardly increase in size. Remove a swollen tick and tell a doctor about any fever, rash or joint pain afterward."
+    },
+    {
+      "question": "How can you tell a deer tick from a dog tick?",
+      "answer": "Deer tick is another name for the blacklegged tick. Iowa State University Extension describes it as having black or dark brown legs, mouthparts and back, with an unfed adult female about 0.14 inch (3.5 mm), only slightly larger than a sesame seed. The same fact sheet calls the female American dog tick large and usually chocolate brown, with a patterned cream-colored shield over the front of her body. CDC places the dog tick widely east of the Rocky Mountains and the blacklegged tick widely across the eastern US, so the two ranges overlap and markings matter more than location."
+    },
+    {
+      "question": "Does a white spot always mean a lone star tick?",
+      "answer": "No. The white or cream spot on the back of an adult female is what gives the lone star tick its name, and males lack it, but other species carry pale markings too. Ohio State University describes Gulf Coast ticks with ornate whitish markings on the shield, and Iowa State University Extension describes a patterned cream-colored shield on the American dog tick. Mouthparts help separate those two: Ohio State says Gulf Coast ticks have long, slender ones, while American dog ticks have shorter, stouter ones. Where you live narrows the choices further."
+    },
+    {
+      "question": "Can ticks live inside a house?",
+      "answer": "The brown dog tick can. UF/IFAS Extension calls it unusual among ticks because it can complete its entire life cycle both indoors and outdoors, which is how infestations develop in kennels and homes, and says dogs are its primary host in the United States. Iowa State University Extension, by contrast, describes blacklegged tick larvae climbing onto plants outdoors to wait for a passing animal. If small reddish-brown ticks keep turning up on a dog or indoors, ask a veterinarian or your local extension office to confirm the species."
+    }
+  ],
+  "sources": [
+    { "title": "Ticks and Tickborne Diseases of Utah", "publisher": "Utah State University Extension", "url": "https://extension.usu.edu/pests/research/ticks-and-tickborne-diseases-of-utah" },
+    { "title": "Ticks and Tick-borne Diseases in Iowa (PM 2036)", "publisher": "Iowa State University Extension and Outreach", "url": "https://faculty.sites.iastate.edu/smithr/files/inline-files/PM2036.pdf" },
+    { "title": "Lyme Disease in California", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/ticks-lyme-disease-in-california/" },
+    { "title": "Gulf Coast Tick (Amblyomma maculatum)", "publisher": "Ohio State University College of Food, Agricultural, and Environmental Sciences", "url": "https://cfaes-contenthub.org.ohio-state.edu/fact-sheet/gulf-coast-tick-amblyomma-maculatum" },
+    { "title": "EENY-221/IN378: Brown Dog Tick, Rhipicephalus sanguineus Latreille (Arachnida: Acari: Ixodidae)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN378" },
+    { "title": "Where Ticks Live", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/about/where-ticks-live.html" }
+  ]
+}

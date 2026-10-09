@@ -86,3 +86,12 @@
 - Email open/click tracking via Resend webhooks
 - Slack escalation for stale leads (15 min)
 - Win/loss tracking with lost reason dropdown
+
+## North American Pest Guides (Oct 2026)
+- **76 pages are data, not TSX:** 72 guides at `/blog/<slug>` and 4 hubs at `/learn/{bed-bugs,ants,mice,cockroaches}`. The words live in `content/guides/<slug>.json` (hubs: `pillar-<slug>.json`) and are rendered by `components/GuidePage.tsx`. **Edit the JSON, never the route file.**
+- **Written for US readers, no affiliate links.** `npm run check:guides` (in `npm run build`) fails the deploy if a guide gains a retailer link, loses a source, uses Canadian spelling or units, makes a testing or absolute-safety claim, or links to a page that does not exist. Rules: `data/us-pages/WRITER_BRIEF.md`.
+- **Authorship is stated honestly.** These pages were drafted with AI assistance and fact-checked by a second AI pass, so they show "Published by BuzzSkito", not the Alex byline, and say how they were made (Mediavine does not monetize undisclosed AI content; Google asks for accurate authorship). When the owner has actually read and approved a page, add `"reviewedBy"` and `"reviewedOn"` to its JSON and it shows "Reviewed by". Only when true.
+- **After adding or removing a guide run** `node scripts/us-pages-register.mjs`. It regenerates the route files, the `NEW_BLOGS_US_GUIDES` block in `lib/constants.ts`, `lib/us-guide-routes.ts` (phone quote bar hidden), `lib/us-guide-built.ts`, `new-urls.txt`, `build-manifest.json`, the llms.txt block and the top of the `URLS` array in `scripts/index-urls.mjs`.
+- **Regional editions:** 7 guides have a Canadian twin; `REGIONAL_PAIRS` in `lib/guides.ts` pairs them with hreflang so each country gets its own edition. Do not merge or redirect one into the other.
+- **Plan and reports:** `data/us-pages/plan.src.json` (what each of the 100 keywords became), `reports/us_pages_final_report.md`, `reports/us_pages_product_findings.md`, `reports/us_pages_media_needed.md`.
+- **Slug test is over** (read early 2026-10-07, `data/exp-slug-test-readout-2026-10-07.md`): no reliable difference, no harm. The 12 renames stay; do not rename more.

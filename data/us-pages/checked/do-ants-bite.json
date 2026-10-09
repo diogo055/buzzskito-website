@@ -1,0 +1,10 @@
+{
+ "id": "do-ants-bite",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "504d8a9fd777d32561146f674eebe5714e5af8754321367103f79f1b1d133b22",
+ "claimsChecked": 80,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 12,
+ "checkedOn": "2026-10-08"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "flying-ants",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "987478b018a0100e54b6c33a24da6fe8aba5887f1a653cde36d97d529f5dfc34",
+ "claimsChecked": 64,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-08"
+}

@@ -1,0 +1,218 @@
+{
+  "slug": "diy-pest-control",
+  "kind": "spoke",
+  "cluster": "pest-control",
+  "keyword": "diy pest control",
+  "alsoTargets": [],
+  "metaTitle": "DIY Pest Control: Prevent, Bait, Then Spray Last",
+  "metaDescription": "DIY pest control works for many household pests if you follow EPA's order: identify, prevent, bait, then spot-treat. See which jobs need a professional.",
+  "h1": "DIY Pest Control: How to Do It Properly and When to Call a Professional",
+  "dek": "The order EPA and university extension services recommend, which pests a homeowner can realistically handle, how to read a pesticide label, and the gear, storage and disposal rules that go with doing it yourself.",
+  "breadcrumb": "DIY Pest Control",
+  "excerpt": "Do-it-yourself pest control done in the right order: identify, prevent, bait, then spot-treat. Which pests to handle yourself, how to read a label, and when to hire.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Do-it-yourself pest control can work for many common household pests when you follow integrated pest management: identify the pest, remove what attracts it, then use the least risky control that does the job.** [EPA's household guidance](https://www.epa.gov/safepestcontrol/dos-and-donts-pest-control) names baits as a first line of chemical defense and says other pesticides belong on targeted spots, not whole rooms. Termites, bed bugs, wildlife and wasp nests inside walls are better left to a licensed professional.",
+    "bullets": [
+      "EPA's integrated pest management approach has four tiers: set an action threshold, monitor and identify the pest, prevent, then control, with broadcast spraying of non-specific pesticides as a last resort.",
+      "EPA says baits can be a first line of chemical defense once prevention is done, and that fogging devices should be used only when absolutely necessary.",
+      "The signal word on a label ranks toxicity from CAUTION (slightly toxic) through WARNING (moderately toxic) to DANGER (highly toxic).",
+      "The University of California's minimum protective gear is chemical-resistant gloves, eye protection, a long-sleeved shirt, long pants and closed shoes, and it says not to spray in wind of 5 mph or more.",
+      "A typical professional termite treatment may involve hundreds of gallons of liquid termiticide, according to the University of Kentucky's extension termite guide.",
+      "If you do hire, the University of California recommends contacting at least three pest control companies."
+    ]
+  },
+  "facts": {
+    "title": "DIY pest control at a glance",
+    "rows": [
+      ["Starting point", "Identify the pest before any treatment"],
+      ["EPA's four tiers", "Action threshold, monitor and identify, prevention, control"],
+      ["First chemical step", "Baits, after prevention (EPA)"],
+      ["Last resort", "Broadcast spraying of non-specific pesticides (EPA)"],
+      ["Signal words, low to high", "CAUTION, WARNING, DANGER"],
+      ["Minimum protective gear", "Chemical-resistant gloves, eye protection, long sleeves, long pants, closed shoes (UC IPM)"],
+      ["Wind limit for spraying", "Below 5 mph (UC IPM)"],
+      ["Best left to professionals", "Termites, bed bugs, wildlife, wasp nests in walls or underground, whole-structure fumigation"],
+      ["Before hiring", "Contact at least three companies (UC IPM)"],
+      ["Poison Control Center", "1-800-222-1222; call 911 if the person is unconscious, having trouble breathing or having convulsions (EPA)"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Does DIY pest control actually work?" },
+    { "type": "p", "text": "Yes, for many common household pests, as long as you identify the pest first and use every product the way its label directs. The [University of California's guide to hiring a pest control company](https://ipm.ucanr.edu/home-and-landscape/hiring-a-pest-control-company/) frames the choice with one question: do you have the equipment, skill and time to control the problem? If so, its decision chart says to do it yourself. Two of the integrated pest management tactics the guide names are within a resident's reach. It says outdoor-dwelling cockroaches can be effectively excluded from structures with door sweeps, and it lists installing door sweeps among the things you can do yourself. It says ants can be managed effectively with baits, the product type that EPA's household guidance names as a first line of chemical defense." },
+    { "type": "p", "text": "It does not work for everything. The same guide lists bed bugs, termites, wildlife and problems with large trees as jobs that may require special licenses, specialized equipment, professional products and technical experience. The shelf is different too: [UC IPM's guide to understanding pesticides](https://ipm.ucanr.edu/home-and-landscape/understanding-pesticides/) notes that licensed operators have access to some products that are not sold online or in retail stores." },
+
+    { "type": "h2", "text": "What is the right order for DIY pest control?" },
+    { "type": "p", "text": "Work in the order that integrated pest management (IPM) sets: decide how much pest activity calls for action, identify and monitor the pest, prevent it, and only then pick a control, starting with the least risky. [EPA describes IPM](https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles) as a series of pest management evaluations, decisions and controls, not a single method, and says it applies in the home and garden as well as on farms. EPA lists four tiers:" },
+    { "type": "ol", "items": [
+      "**Set an action threshold.** Decide the point at which pest numbers or conditions mean something must be done. EPA states that sighting a single pest does not always mean control is needed.",
+      "**Monitor and identify.** Find out exactly what the pest is and how much of it there is. EPA points out that many organisms are innocuous and some are beneficial, and that accurate identification removes the chance of using a pesticide that is not needed, or the wrong kind.",
+      "**Prevent.** Manage the space so the pest does not become a threat. EPA's examples on that page are agricultural, such as rotating crops; the household equivalents are in the next section.",
+      "**Control.** If monitoring shows the threshold has been passed and prevention is not enough, weigh each method for effectiveness and risk. EPA says less risky controls such as trapping are chosen first, targeted pesticide applications follow if those are not working, and broadcast spraying of non-specific pesticides is a last resort."
+    ] },
+    { "type": "p", "text": "In a house, that usually becomes: identify, fix the conditions, set traps or monitors, bait, and spot-treat only if the problem continues. Identification deserves real effort because look-alikes are common. Winged insects swarming indoors could be ants or termites, and [the differences between flying ants and termites](/blog/flying-ants-vs-termites) decide whether you have a weekend job or a call to a licensed company. If you cannot name the pest, ask for help. UC IPM's hiring guide tells Californians to take a specimen or send photos to their local Cooperative Extension office or county agricultural commissioner's office. EPA's household guidance also sends readers to the local cooperative extension service office, in its case for recommendations on relatively low-risk pesticides suitable for their area." },
+    { "type": "media", "needed": "Flow diagram of the four IPM tiers applied to a house: set a threshold, identify and monitor with sticky traps, prevent by sealing and cleaning, then control with traps, baits and spot treatments, with whole-room spraying marked as the last resort" },
+
+    { "type": "h2", "text": "What should you do before buying any pesticide?" },
+    { "type": "p", "text": "Remove the pest's food, water and shelter, and close the gaps it uses to get in. [EPA's Do's and Don'ts of Pest Control](https://www.epa.gov/safepestcontrol/dos-and-donts-pest-control) puts prevention first and lists these steps:" },
+    { "type": "ul", "items": [
+      "**Food.** Store food in sealed plastic or glass containers.",
+      "**Garbage.** Put garbage that contains food scraps in tightly covered trash cans, and take it out of the home regularly.",
+      "**Water.** Fix leaky plumbing, and do not let water collect in trays under houseplants or the refrigerator.",
+      "**Pet bowls.** Do not leave pet food and water out overnight.",
+      "**Clutter.** Clear stacks of newspapers, magazines and cardboard, which give pests places to breed and hide.",
+      "**Entry points.** Caulk cracks and crevices around cabinets and baseboards, fill spaces around pipes with steel wool, and cover holes with wire mesh.",
+      "**Deliveries.** Check packages and boxes for pests before carrying them indoors."
+    ] },
+    { "type": "p", "text": "UC IPM's hiring guide adds repairs that it counts as do-it-yourself work: fixing plumbing or drainage problems that create excess moisture, and installing screens, door sweeps and threshold seals. For rodents, a separate guide explains [how steel wool is used to block mouse entry points](/blog/steel-wool-for-mice). Both EPA and UC IPM place these steps ahead of chemicals. UC IPM's wording is to use pesticides only when nonchemical methods are ineffective and pests are reaching intolerable levels. The wider set of non-chemical and low-risk options, from traps to biological controls, is laid out in [natural pest control methods and the evidence behind each](/blog/natural-pest-control)." },
+
+    { "type": "h2", "text": "Which pests can you handle yourself, and which need a professional?" },
+    { "type": "p", "text": "Ants, light cockroach and mouse problems, and nearly all prevention work are realistic for a homeowner; termites, bed bugs beyond an early stage, wildlife, and wasp or yellowjacket nests inside walls or underground are better handed to a licensed professional. The dividing line UC IPM draws is whether the job needs special licenses, specialized equipment, professional products or technical experience." },
+    { "type": "table", "head": ["Pest or job", "Realistic for a homeowner?", "Why, and where to read more"], "rows": [
+      ["Ants indoors", "Yes", "UC IPM says ants can be managed effectively with baits. Start with [how to get rid of ants in the house](/blog/how-to-get-rid-of-ants-in-the-house)."],
+      ["Cockroaches", "Often", "UC IPM notes that outdoor-dwelling species can be kept out with door sweeps. For German cockroaches, see [why bait is the center of a German cockroach control plan](/blog/german-cockroaches)."],
+      ["Mice", "Often", "Trapping is among the less risky controls EPA says to choose first, and sealing gaps is on its prevention list. Compare [the main types of mouse trap](/blog/mice-traps)."],
+      ["Lawn insects", "Depends on the pest", "EPA's threshold step applies: confirm the pest and whether the damage justifies treatment. [Lawn pest control](/blog/lawn-pest-control) covers the pests, thresholds and timing."],
+      ["Exposed paper wasp nest", "With care", "UC IPM says these nests should not need treatment unless they are near people, and that aerosols labeled for wasp and hornet nests can be effective but must be used with extreme caution."],
+      ["Yellowjacket nest in a wall, ceiling or the ground", "No", "UC IPM calls professional help the easiest and safest way to eliminate a nest."],
+      ["Termites", "No", "The University of Kentucky's termite guide calls termite treatment a job for professionals."],
+      ["Bed bugs", "Limited", "UC IPM lists bed bugs among the problems that may need professional products and experience. See [what a full bed bug treatment involves](/blog/how-to-get-rid-of-bed-bugs)."],
+      ["Wildlife", "No", "UC IPM describes trapping wildlife as a complex procedure, and wildlife work may require special licenses."],
+      ["Whole-structure fumigation", "No", "EPA classifies the fumigant used on houses as a restricted use pesticide; see below."]
+    ], "caption": "Ratings summarize the EPA and university guidance cited in this section. Severity, building type and state rules can change the answer." },
+    { "type": "h3", "text": "Why are termites not a do-it-yourself job?" },
+    { "type": "p", "text": "Termite treatment takes equipment and volumes of product that homeowners do not have. The [University of Kentucky's termite guide for homeowners](https://entomology.mgcafe.uky.edu/ef604) says ridding a house of termites requires knowledge of building construction to find hidden entry points, plus powerful masonry drills, large-capacity spray tanks and long metal rods for injecting soil. A typical treatment may involve hundreds of gallons of liquid termiticide injected along the foundation, beneath concrete slabs and within foundation walls. The guide adds that do-it-yourself products sold in stores or over the internet will seldom eradicate an existing infestation. It allows one possible exception: a mailbox post or other small wooden object that is not attached to the house." },
+    { "type": "p", "text": "There is no need to rush the hiring decision. The Kentucky guide notes that termites damage wood slowly, so taking an extra day, week or month to make an informed decision generally makes no meaningful difference to the damage, and it suggests requesting inspections and estimates from more than one company." },
+    { "type": "h3", "text": "Why are wasp nests in walls and in the ground different?" },
+    { "type": "p", "text": "The danger is to the person doing the treatment. [UC IPM's guide to yellowjackets and other social wasps](https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/) explains that yellowjackets commonly nest in rodent burrows but sometimes choose voids in the walls and ceilings of houses, that a colony can reach 1,500 to 15,000 individuals depending on the species, and that wasps will attack if they sense a poison being applied to the nest." },
+    { "type": "p", "text": "Removing such a nest is not practical, UC IPM says, because it is underground or otherwise out of reach, and with an underground nest the spray may not travel far enough to hit the wasps. Even after dark, when most wasps are in the nest, it says stinging incidents are likely. Its advice: if a nest must be eliminated, calling for professional help is the easiest and safest route." },
+    { "type": "p", "text": "Paper wasps are the easier case. UC IPM says their nests, which hang in protected places such as under eaves, rarely grow larger than an outstretched hand and hold 15 to 200 wasps, and that they should not need treatment unless they are near people. Early in the season, it adds, simply knocking down a newly started nest sends the founding female elsewhere. For treating a nest with an aerosol, UC IPM says it is prudent to wear protective clothing that covers the entire body, including a veil over the face and gloves, plus protective eyewear. Because it also notes that reactions to stings range up to life-threatening allergic responses, anyone with a known sting allergy has good reason to leave nest work to someone else." },
+    { "type": "h3", "text": "What about bed bugs, wildlife and fumigation?" },
+    { "type": "p", "text": "Bed bugs and wildlife sit on the professional side of UC IPM's line, and whole-structure fumigation uses a restricted use pesticide that the public cannot buy. The hiring guide groups bed bugs and wildlife with termites, and it gives setting traps for wildlife as an example of a complex procedure. Its test for any job that needs repeated pesticide applications or complex procedures is whether you have the skills, equipment and time to follow through; bed bugs spread across several rooms or apartments fit that description. The [step-by-step bed bug treatment guide](/blog/how-to-get-rid-of-bed-bugs) shows how much inspection, laundering and follow-up a do-it-yourself attempt demands." },
+    { "type": "p", "text": "Whole-structure fumigation is outside do-it-yourself work altogether. EPA describes the process as covering a house with a tent and filling it with sulfuryl fluoride gas, which it says is the only fumigant registered for use in residential structures. The agency classifies sulfuryl fluoride as a restricted use pesticide, meaning it can be used only by a certified applicator or someone under a certified applicator's direct supervision, and it states that restricted use products are not available for purchase or use by the general public." },
+
+    { "type": "h2", "text": "What kinds of pest control products can consumers buy?" },
+    { "type": "p", "text": "Consumer products fall into a handful of types: traps and monitors, baits, ready-to-use sprays, concentrates you mix yourself, dusts and granules, aerosols, and foggers. EPA's household guidance names baits as a first line of chemical defense once prevention is done and says to use ready-to-use products, which need no mixing, whenever possible." },
+    { "type": "table", "head": ["Product type", "What it is", "What the guidance says"], "rows": [
+      ["Traps and monitors", "Sticky traps, snap traps and similar devices that catch or count pests", "EPA's IPM principles put mechanical controls such as trapping among the less risky methods chosen first."],
+      ["Baits", "Gels, stations and blocks that the pest eats", "EPA calls baits a first line of chemical defense against insects or rodents, often effective and low in exposure risk as long as they are kept out of the reach of children and pets."],
+      ["Ready-to-use sprays", "Premixed liquid, usually in a trigger bottle", "UC IPM calls a ready-to-use product in a trigger pump sprayer the best choice for many home and garden jobs, because nothing has to be measured or mixed."],
+      ["Concentrates", "Liquids or powders you dilute and apply with a pump sprayer", "UC IPM says proper measurement is essential: keep measuring tools for pesticide use only, and mix only as much as you need immediately."],
+      ["Soaps, oils and microbials", "Insecticidal soaps and oils, and microbial insecticides such as *Bacillus thuringiensis* (Bt)", "UC IPM gives these, along with bait stations, as examples of least toxic products that target the pest."],
+      ["Dusts and granules", "Dry products placed in cracks and voids or spread on soil and turf", "The EPA and UC IPM pages cited here do not single these out. The general rule applies: the label must list both the pest and the site."],
+      ["Wasp and hornet aerosols", "Pressurized cans that project a stream at a nest", "UC IPM says they can be effective against yellowjackets and paper wasps but must be used with extreme caution."],
+      ["Foggers (bug bombs)", "Devices that fill a closed room with pesticide", "EPA says to use fogging devices only when absolutely necessary."]
+    ], "caption": "Guidance paraphrased from the EPA and University of California pages linked on this page." },
+    { "type": "p", "text": "Two terms on packaging deserve care. UC IPM defines a pesticide as any material, natural, organic or synthetic, used to control, prevent, kill, suppress or repel a pest, so a plant-based spray is still a pesticide with a label to follow. And it explains that least toxic describes a product's effect on human health or the environment, not its effect on the pest. A related distinction is range: selective pesticides kill only a few closely related organisms, while broader-spectrum ones kill a range of pests along with organisms nobody meant to kill, such as beneficial insects." },
+    { "type": "p", "text": "For comparisons within a product type, the [pest product guides](/pest-product-guides) are organized by pest. Plug-in devices that claim to drive pests out with sound are a separate question, examined in [the evidence on ultrasonic pest repellers](/blog/ultrasonic-pest-repellers-do-they-work)." },
+
+    { "type": "h2", "text": "How do you read a pesticide label?" },
+    { "type": "p", "text": "Read it before you buy, and check two things first: that your pest is listed and that the place you plan to treat is listed. UC IPM describes the label as a legal document required for every pesticide product registered or sold in the United States, and it states that using a pesticide contrary to its label directions is illegal. EPA adds that only chemicals approved for use in homes should be applied there, and that the label lists where a product may be used." },
+    { "type": "table", "head": ["Part of the label", "What it tells you"], "rows": [
+      ["Brand name and active ingredients", "What the product is, and the percentage of each active ingredient."],
+      ["Sites and target pests", "Where the product may be used and which pests it is labeled for."],
+      ["Application rate and directions", "How much to apply, how, and when."],
+      ["Signal word", "Short-term toxicity to people: CAUTION, WARNING or DANGER."],
+      ["Precautionary statements and protective equipment", "The hazards, and the clothing and gear to wear."],
+      ["Emergency and first aid measures", "What to do after an exposure."],
+      ["Storage and disposal", "How to keep the product and what to do with leftovers and the empty container."]
+    ], "caption": "Label parts as listed by the University of California Statewide IPM Program." },
+    { "type": "media", "needed": "Annotated photo or diagram of a generic household insecticide label with callouts pointing to the active ingredients, signal word, directions for use, precautionary statements, first aid, and storage and disposal sections" },
+    { "type": "h3", "text": "What do CAUTION, WARNING and DANGER mean?" },
+    { "type": "p", "text": "They rank a product's short-term toxicity to people, with CAUTION at the low end and DANGER at the top. UC IPM defines them this way:" },
+    { "type": "table", "head": ["Signal word", "Meaning"], "rows": [
+      ["CAUTION", "Slightly toxic if eaten, absorbed through the skin or inhaled; causes slight eye or skin irritation."],
+      ["WARNING", "Moderately toxic if eaten, absorbed through the skin or inhaled; causes moderate eye or skin irritation."],
+      ["DANGER", "Highly toxic by at least one route of exposure; may be corrosive and can cause irreversible damage to the skin or eyes."],
+      ["DANGER-POISON", "Highly toxic when consumed, inhaled or absorbed through the skin or eyes; fatal at very low doses."]
+    ], "caption": "Definitions from the University of California Statewide IPM Program." },
+    { "type": "p", "text": "When two products are both labeled for your pest and your site, the signal word is a quick way to pick the lower-hazard one. UC IPM's rule is to choose the least toxic pesticide that will solve the problem." },
+
+    { "type": "h2", "text": "What protective equipment do you need?" },
+    { "type": "p", "text": "Wear what the label specifies, and at a minimum chemical-resistant gloves, eye protection, a long-sleeved shirt, long pants and closed shoes. That minimum comes from UC IPM, which adds that chemical-resistant gloves are made of nitrile, neoprene, butyl or rubber. It advises against cotton gloves and lightweight dust masks, because they can absorb liquid spray and hold it against the skin." },
+    { "type": "p", "text": "How you handle the product matters as much as what you wear. UC IPM's guidance for mixing and applying, with one point from EPA:" },
+    { "type": "ul", "items": [
+      "**Measure with dedicated tools.** Keep a set of measuring spoons or cups for pesticides only, mark them PESTICIDE ONLY, and store them far away from food preparation areas.",
+      "**Mix small.** Mix only as much as you need immediately, and never use more than the label states.",
+      "**Watch the weather.** Do not spray when the wind is 5 mph or more, or just before rain or irrigation unless the label says otherwise.",
+      "**Stay off pavement.** Avoid hard surfaces such as sidewalks and driveways, where product is easily washed into storm drains.",
+      "**Clear the area.** EPA says to keep children and pets away from areas where pesticides have been applied.",
+      "**Clean up.** Wash before you eat, drink, smoke or use the bathroom. Take off your work clothes and shower as soon as possible, and launder that clothing separately from everything else."
+    ] },
+    { "type": "p", "text": "Application equipment is part of the picture too. UC IPM notes that a ready-to-use trigger sprayer removes the mixing step, while a compressed-air sprayer has to be maintained and loaded with a precisely measured mix. A separate guide describes [the sprayers, foggers and other equipment used for home treatments](/blog/best-pest-control-equipment-canada)." },
+    { "type": "callout", "tone": "warning", "title": "If someone is exposed", "text": "Follow the first aid directions on the label. EPA's first aid guidance says to call 911 if the person is unconscious, having trouble breathing or having convulsions, and otherwise to call the Poison Control Center at 1-800-222-1222. For non-emergency questions about a product's hazards, UC IPM refers readers to the National Pesticide Information Center at 1-800-858-7378." },
+    { "type": "media", "needed": "Photo of the minimum protective gear laid out on a workbench: nitrile chemical-resistant gloves, safety glasses, long-sleeved shirt, long pants and closed shoes, beside a ready-to-use trigger sprayer" },
+
+    { "type": "h2", "text": "How should you store and dispose of pesticides?" },
+    { "type": "p", "text": "Store every product in its original container, tightly capped, in a locked cabinet that children and pets cannot reach. UC IPM names a locked cabinet in a garden shed, garage or well-ventilated utility area as the best place, both for the pesticides and for the equipment used to mix or apply them. EPA explains why the container matters: children and others have been poisoned by accidentally consuming pesticides stored in food or beverage containers. It also says never to reuse an empty pesticide container, because however well it is washed it could still hold remnants of the pesticide." },
+    { "type": "p", "text": "For disposal, the label comes first. EPA says to read it to find out how to dispose of both the pesticide and the container, notes that many communities run household hazardous waste collections that accept unwanted pesticides, and suggests calling your waste disposal authority to learn what your community offers." },
+    { "type": "p", "text": "UC IPM, whose guidance is written for California, goes further: it says the only legal way to dispose of pesticides is to take them to a household hazardous waste facility, and that they should never go into storm drains, sinks, toilets or the trash. Its instruction for empty containers of home-use products is to rinse them three times, pouring the rinse water into the sprayer, and then put them in the trash; leftover rinse liquid counts as hazardous waste. To find a collection site, it gives the 1-800-CLEANUP line (1-800-253-2687)." },
+    { "type": "p", "text": "The simplest way to avoid a disposal problem is not to create leftovers. Buy ready-to-use products where you can and mix only what the job needs. If you cannot use a product up, UC IPM suggests giving it, in its original container, to a friend or neighbor who can use it correctly." },
+
+    { "type": "h2", "text": "What are the common mistakes in DIY pest control?" },
+    { "type": "p", "text": "The ones EPA warns about by name are using more product than the label allows, using outdoor products indoors, and fogging or spraying a whole room." },
+    { "type": "ul", "items": [
+      "**Doubling the dose.** EPA's page tells readers not to assume that twice as much is better, and says using too much of a pesticide can endanger your family's health.",
+      "**Bringing outdoor products inside.** EPA warns that many chemicals intended for outdoor use are dangerous indoors because they remain toxic longer inside than they would outdoors.",
+      "**Treating the whole room.** EPA says pesticides that are not in baits or traps should generally go only on targeted locations, and that fogging devices are for when they are absolutely necessary.",
+      "**Spraying before identifying.** Without an identification, EPA's IPM principles point out, a pesticide may be used when none is needed, or the wrong kind may be used."
+    ] },
+
+    { "type": "h2", "text": "Is DIY pest control cheaper than hiring a professional?" },
+    { "type": "p", "text": "It can be, for a pest you can identify and control with traps, baits or a ready-to-use product. Your outlay is materials and your own time, while a professional's price also has to cover service time and labor, the two items UC IPM names when it explains why some services cost more. It stops being cheaper when a treatment fails and has to be repeated, or when the job needs products and equipment the public cannot buy. The table compares what each route includes." },
+    { "type": "table", "head": ["Factor", "Doing it yourself", "Hiring a professional"], "rows": [
+      ["What you pay for", "Products, protective gear, application equipment and your time", "Inspection, service time and labor, and the products applied"],
+      ["Diagnosis", "Yours to get right; an extension office can help identify a pest", "UC IPM says a company may charge an inspection fee and should give you a written diagnosis for it"],
+      ["Products available", "Those sold to the public", "Also some products not sold online or in retail stores, per UC IPM"],
+      ["Ongoing cost", "Repeat purchases if the problem returns", "One-time or recurring service, depending on the contract; UC IPM notes that monitoring visits add cost"]
+    ] },
+    { "type": "p", "text": "UC IPM points out one trade-off to know before comparing quotes: services built on IPM may cost more at first, because they take more service time and labor, but often provide better long-term control. For price ranges by pest and plan type, see [what pest control costs in the US](/blog/how-much-is-pest-control), and for one common outdoor pest the choice is worked through in [how do-it-yourself and professional mosquito control compare](/blog/mosquito-vs-diy-vs-professional-control). A business should start instead from [how commercial pest control programs are set up and documented](/blog/commercial-pest-control)." },
+
+    { "type": "h2", "text": "When should you stop and call a professional?" },
+    { "type": "p", "text": "Stop when the pest is on the professional side of the table above, when the problem needs repeated pesticide applications that you lack the skills, equipment or time to carry out, or when you cannot work out what you are dealing with. Those are the tests in UC IPM's hiring guide, which also says that if you do not have the time or ability to research a pest problem and control it, you may want to hire a company. When you do, the same sources suggest how:" },
+    { "type": "ul", "items": [
+      "**Identify the pest first.** UC IPM's first piece of advice before hiring is to be sure you know what the pest is.",
+      "**Contact at least three companies.** That is UC IPM's number. Kentucky's termite guide adds that inspections and estimates from more than one firm help verify that an infestation exists and let you compare services.",
+      "**Check the license.** For termite work, Kentucky's guide says the company should be licensed by the Department of Agriculture or whichever agency regulates termite control in your state.",
+      "**Ask for long-term solutions.** UC IPM suggests requesting monitoring, trapping and baiting as alternatives to routine spray services. EPA advises asking anyone you hire to find and correct the source of the problem before applying pesticides, and to use baits and crack and crevice treatments when feasible.",
+      "**Keep a record.** EPA says to write down the name and EPA registration number of any chemical used by someone you hire.",
+      "**Keep doing your part.** After hiring, UC IPM says sanitation and exclusion remain the resident's job."
+    ] },
+    { "type": "p", "text": "For rodents specifically, a separate guide covers [what a mouse exterminator does and when one is worth hiring](/blog/mice-exterminator)." }
+  ],
+  "faqs": [
+    {
+      "question": "Is it legal to do your own pest control at home?",
+      "answer": "Generally yes, for products sold to the public and used as the label directs. Pesticides are classified federally as general use or restricted use. A University of Florida extension summary of the federal rules says general use products can be used by anyone, while EPA says restricted use products are not available for purchase or use by the general public. The label sets the limits: the University of California's pesticide guide calls it a legal document and states that using a pesticide contrary to its label directions is illegal. Pest control companies are a separate case. Kentucky's termite guide says a company should be licensed by the Department of Agriculture or whichever agency regulates termite control in your state."
+    },
+    {
+      "question": "What is the lowest-risk pesticide to start with?",
+      "answer": "There is no single answer, but the guidance points the same way. EPA says baits can be used as a first line of chemical defense once prevention is done, with low risk of exposure as long as they are kept out of the reach of children and pets. The University of California advises choosing the least toxic pesticide that will solve the problem and gives bait stations, insecticidal soaps and oils, and microbial insecticides such as Bt as examples. On the shelf, compare signal words: CAUTION marks products that are slightly toxic, WARNING moderately toxic and DANGER highly toxic. Whatever you choose, the label must list your pest and the place you plan to treat."
+    },
+    {
+      "question": "Do bug bombs work for DIY pest control?",
+      "answer": "EPA's household guidance says to use fogging devices only when absolutely necessary. The same page says pesticides that are not contained in baits or traps should generally be applied to targeted locations, not sprayed over a whole room, and a fogger does the opposite by filling the room. EPA's integrated pest management principles also rank broadcast spraying of non-specific pesticides as a last resort, after trapping and targeted applications. If you decide to use one anyway, read the entire label first and follow every direction on it."
+    },
+    {
+      "question": "How often should you do your own pest control?",
+      "answer": "There is no set schedule. Integrated pest management, as EPA describes it, acts when monitoring shows that pest numbers have passed the threshold you set, and EPA notes that sighting a single pest does not always mean control is needed. The University of California likewise advises using pesticides only when nonchemical methods are ineffective and pests are reaching intolerable levels. What should be routine is prevention and checking: keeping food sealed, fixing leaks, sealing gaps and looking at traps or monitors. A product's label gives its application directions and timing, and those limits are binding."
+    },
+    {
+      "question": "Can you treat termites yourself?",
+      "answer": "The University of Kentucky's extension guide to termite control advises against it for an infested house. It says treatment requires knowledge of building construction, powerful masonry drills, large-capacity spray tanks and long metal rods for injecting soil, and that a typical job may involve hundreds of gallons of liquid termiticide. It adds that do-it-yourself products sold in stores or online will seldom eradicate an existing infestation. The one possible exception it mentions is a mailbox post or other small wooden object not attached to the house. Termites damage wood slowly, so there is time to get inspections and estimates from more than one licensed company."
+    },
+    {
+      "question": "What should you do if someone is exposed to a pesticide?",
+      "answer": "Follow the first aid directions printed on the product label. EPA's first aid guidance says to call 911 if the person is unconscious, having trouble breathing or having convulsions, and otherwise to call the Poison Control Center at 1-800-222-1222 for first aid information. Have the product container or label with you when you call or go for treatment, as the first aid statements in EPA's label guidance advise. For a pet, contact a veterinarian. For questions that are not emergencies, such as how hazardous a product is, the National Pesticide Information Center can be reached at 1-800-858-7378. To lower the odds of an exposure, store products in their original containers in a locked cabinet."
+    }
+  ],
+  "sources": [
+    { "title": "Integrated Pest Management (IPM) Principles", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles" },
+    { "title": "Do's and Don'ts of Pest Control", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/safepestcontrol/dos-and-donts-pest-control" },
+    { "title": "Understanding Pesticides", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/understanding-pesticides/" },
+    { "title": "Hiring a Pest Control Company", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/hiring-a-pest-control-company/" },
+    { "title": "Termite Control: Answers for Homeowners", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef604" },
+    { "title": "Yellowjackets and Other Social Wasps", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/" }
+  ],
+  "disclaimer": "pesticide"
+}

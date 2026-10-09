@@ -1,0 +1,10 @@
+{
+ "id": "field-mice",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "ea097d1d1ef5d9229c8fcbf045b63aea8f246b1d28d172cfd108b20c90f17aed",
+ "claimsChecked": 96,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-10-08"
+}

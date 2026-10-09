@@ -1,0 +1,10 @@
+{
+ "id": "what-kills-ticks",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "c4c7fc3d3168ed7abd77dc043f4b7db53a5794012d1a2ad5f72d3ec12dd4cfce",
+ "claimsChecked": 118,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-08"
+}

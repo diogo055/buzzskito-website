@@ -1,0 +1,144 @@
+{
+  "slug": "what-smells-do-mice-hate",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "what smells do mice hate",
+  "alsoTargets": [],
+  "metaTitle": "What Smells Do Mice Hate? What the Evidence Says",
+  "metaDescription": "Mice avoid a few odors in lab tests, but extension guidance calls scent repellents unreliable. See each popular smell rated, plus what works instead.",
+  "h1": "What Smells Do Mice Hate? Peppermint, Ammonia and Other Scents Rated",
+  "dek": "Mice do avoid a few odors in laboratory tests, but extension and government sources do not support using smell to clear a house. Here is what each popular scent has behind it, and what to do instead.",
+  "breadcrumb": "Smells Mice Hate",
+  "excerpt": "Peppermint, ammonia, vinegar, cayenne, cloves, dryer sheets and predator scents rated by the evidence, plus why smell is not a reliable fix and what works instead.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**No smell is a reliable way to get mice out of a home.** Mice do avoid a few odors in laboratory tests, but [NC State Extension](https://content.ces.ncsu.edu/surveillance-and-management-of-common-structure-invading-mice) says repellents are not a reliable form of mouse management or prevention and that highly volatile oils disappear quickly. Sealing gaps, trapping and removing food and shelter are the steps the university and CDC guidance cited here describes instead.",
+    "bullets": [
+      "Mice can fit through a hole 1/4 inch wide, about the width of a pencil, according to the CDC.",
+      "NC State Extension lists peppermint oil, mothballs and ammonia among repellents it calls unreliable, and says highly volatile oils disappear quickly once introduced into the environment.",
+      "In a 2021 laboratory study with 16 mice per odor, female mice made fewer visits to a box scented with cat urine or cat body odor, and male mice showed no significant change with any odor tested.",
+      "The National Pesticide Information Center says mothballs have little or no effect as repellents and should not be used to repel animals unless the label describes that use.",
+      "A house mouse eats about 200 small meals a night and seldom travels more than 30 feet from its nest and food supply, according to UC IPM."
+    ]
+  },
+  "facts": {
+    "title": "Smells and mice at a glance",
+    "rows": [
+      ["Smallest gap a mouse can use", "1/4 inch, about the width of a pencil"],
+      ["Range from nest and food", "Seldom more than 30 feet"],
+      ["Meals per night", "About 200 small meals"],
+      ["Litters per female per year", "5 to 10, about 5 or 6 pups each"],
+      ["Strongest evidence for a smell", "Female mice made fewer visits to cat odors in one lab study; not tested in homes"],
+      ["Mothballs as a repellent", "Little or no effect; not for use unless the label says so"],
+      ["Best-supported control", "Seal gaps, set traps, remove food and shelter"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What smells do mice hate?" },
+    { "type": "p", "text": "Mice avoid a few odors in laboratory tests, but none of the sources reviewed for this page shows a household smell driving an established mouse out of a house. [NC State Extension's guide to mice in buildings](https://content.ces.ncsu.edu/surveillance-and-management-of-common-structure-invading-mice) says there is some evidence that certain odors can repel mice, then adds that repellents are not a reliable form of mouse management or prevention. The table below rates the smells people search for most, using only what the sources linked on this page say. For the wider picture of species, signs, health risks and the full control sequence, see [the complete guide to controlling mice](/learn/mice)." },
+    { "type": "p", "text": "The ratings mean four things. **Do not use** marks a health or labeling problem on top of weak results. **Weak** means the smell is named as a repellent in extension guidance that calls such repellents unreliable. **Lab only** means some avoidance showed up in a controlled test that did not involve a home. **Unproven** means no test against house mice turned up in the sources reviewed, which is not the same as proven useless but leaves nothing to plan around." },
+    { "type": "table", "head": ["Smell", "What the sources say", "Rating"], "rows": [
+      ["Peppermint oil", "NC State Extension names peppermint oil among repellents that are not reliable, and warns that highly volatile oils disappear quickly once introduced into the environment. See [what peppermint oil can and cannot do](/blog/peppermint-oil-for-mice).", "Weak"],
+      ["Ammonia", "Named alongside peppermint oil in the same NC State guidance. The [National Capital Poison Center](https://www.poison.org/articles/ammonia-history-usage-and-safety-221) says ammonia damages skin, eyes and lungs.", "Weak; health hazard"],
+      ["Vinegar", "No test against house mice appears in the sources reviewed for this page.", "Unproven"],
+      ["Cayenne and chili pepper", "No test of pepper powder or spray against house mice appears in the sources reviewed.", "Unproven"],
+      ["Cloves and cinnamon", "No test of the spices or their oils against house mice appears in the sources reviewed.", "Unproven"],
+      ["Dryer sheets", "No test against house mice appears in the sources reviewed.", "Unproven"],
+      ["Predator scents (cat, fox, coyote urine)", "In a 2021 laboratory study in [PLoS ONE](https://pmc.ncbi.nlm.nih.gov/articles/PMC7817039/), female mice made fewer visits to a box holding cat urine or cat body odor, and male mice showed no significant change with any odor tested. TMT, a compound found in red fox feces, was not among the odors that significantly reduced mouse visits. No test of fox or coyote urine against house mice appears in the sources reviewed.", "Lab only"],
+      ["Mothballs", "The [National Pesticide Information Center](https://npic.orst.edu/faq/mothball.html) says mothballs have little or no effect as repellents and should not be used to repel animals unless the label describes that use. See [why mothballs fail against mice](/blog/do-mothballs-keep-mice-away).", "Do not use"]
+    ], "caption": "Ratings summarize the sources linked on this page. They rate the evidence, not any product." },
+    { "type": "p", "text": "Even the best-documented entry in the table is a laboratory result. A test like that one can show that a mouse reacts to an odor in a controlled space over a 10-minute trial. It cannot show that the same odor will keep a mouse out of a wall void, pantry or garage where food and a nest are close by. The next section explains why that gap matters." },
+
+    { "type": "h2", "text": "Why doesn't a strong smell move an established mouse?" },
+    { "type": "p", "text": "A strong smell is not a reliable way to move a mouse that already has food and shelter nearby. The likely reasons are that scents fade, that mice may get used to repeated cues, and that a nest and a food supply close by give a mouse a reason to stay. The sources reviewed support the first point directly and the others only in part, and none measured the whole chain inside a real house." },
+    { "type": "ul", "items": [
+      "**Scents fade.** NC State Extension says highly volatile oils disappear quickly once introduced into the environment, so any effect from an oil would also be short-lived.",
+      "**Mice may get used to repeated cues.** [UC IPM's house mouse pest note](https://ipm.ucanr.edu/PMG/PESTNOTES/pn7483.html) reports that house mice are easily frightened by strange or unfamiliar noises but quickly become accustomed to regularly repeated sounds. That finding concerns sound. The sources reviewed do not test whether household smells follow the same pattern, so treat the parallel as plausible and unconfirmed.",
+      "**Food and shelter keep them close.** UC IPM says house mice seldom venture more than 30 feet from their nest sites and food supply, and that they eat about 200 small meals each night. A smell at one door has to outweigh a nest and a food source that sit nearby.",
+      "**Laboratory odors are more concentrated.** The authors of the 2021 predator-odor study note that odors are concentrated in the laboratory, while in the field they diffuse more readily.",
+      "**Scent can interfere with control.** NC State says highly volatile oils may compromise the efficacy of deployed baits and traps, so using scent alongside traps could work against them."
+    ] },
+    { "type": "p", "text": "Sound devices have the same weak record. UC IPM finds little evidence that sound, magnetic or vibrational devices of any kind drive established house mice out of buildings, and [a closer look at ultrasonic pest repellers](/blog/ultrasonic-pest-repellers-do-they-work) covers that evidence separately." },
+
+    { "type": "h2", "text": "What about peppermint oil, mothballs and ready-made repellents?" },
+    { "type": "p", "text": "Peppermint oil has the biggest reputation and an unreliable record, mothballs are not meant to be used as animal repellents, and ready-made scent repellents are grouped with the home remedies in extension guidance." },
+    { "type": "p", "text": "NC State lists peppermint oil among the repellents it calls unreliable, and its warning about fast-fading volatile oils would apply to a peppermint-scented cotton ball too. [The peppermint oil guide](/blog/peppermint-oil-for-mice) covers where the idea comes from, what limited research exists, how quickly the scent fades and the risks to cats and other pets." },
+    { "type": "p", "text": "Mothballs are made to kill clothes moths, not to repel animals. The [National Pesticide Information Center](https://npic.orst.edu/faq/mothball.html) explains that modern mothballs release gases that build up inside airtight containers and kill clothes moths and their eggs, and that the product should not be used to repel animals unless its label describes that use. It adds that exposure to the gas can cause headaches, nausea, vomiting, diarrhea, and eye and nose irritation and coughing, with liver and kidney damage possible from longer-term exposures. [The mothball guide](/blog/do-mothballs-keep-mice-away) explains why they fail against mice and what to do instead." },
+    { "type": "p", "text": "Commercial products are covered the same way. NC State groups ready-made products with the home remedies, so the questions about fading and reliability apply to them too. For one product searchers ask about by name, see [what is known about Vamoose](/blog/vamoose-for-mice), and for scent, ultrasonic and predator-odor products side by side, see [the overview of mouse repellents by type](/blog/mice-repellent)." },
+
+    { "type": "h2", "text": "Is ammonia safe to use against mice?" },
+    { "type": "p", "text": "Ammonia is a poor choice: NC State lists it among repellents that are not reliable, and the [National Capital Poison Center](https://www.poison.org/articles/ammonia-history-usage-and-safety-221) says ammonia damages the tissue it touches, including the skin, mouth, eyes, lungs and digestive tract." },
+    { "type": "p", "text": "Mixing adds a second risk. The same source says combining ammonia with bleach produces chloramine gas, which can cause coughing and a sore throat and, depending on how much gas forms and how reactive a person's lungs are, shortness of breath and wheezing. A bowl or rag of ammonia left in a garage, cabinet or basement can also sit where children and pets can reach it." },
+    { "type": "callout", "tone": "warning", "title": "Never mix ammonia with bleach", "text": "Combining them produces chloramine gas. For any exposure, contact Poison Control at 1-800-222-1222, and call 911 for breathing problems." },
+
+    { "type": "h2", "text": "Do vinegar, cayenne, cloves, cinnamon and dryer sheets work?" },
+    { "type": "p", "text": "None of them has a published test against house mice in the university, government and journal sources reviewed for this page, so the honest rating is unproven." },
+    { "type": "p", "text": "Unproven is a statement about the evidence, not a promise that a smell does nothing. NC State's acknowledgment that some odors can repel mice leaves room for a particular smell to have some effect. The same passage still concludes that repellents are not a reliable form of mouse management, and no source reviewed identifies which smell, in what amount, for how long. If you try one anyway, two habits keep the experiment honest:" },
+    { "type": "ul", "items": [
+      "**Measure activity, not smell.** UC IPM says droppings, fresh gnaw marks and tracks indicate the areas where mice are active, so keep checking for them, and [what fresh mouse droppings look like](/blog/what-does-mouse-poop-look-like-canada) helps you tell new from old.",
+      "**Do not let the experiment replace the fix.** UC IPM reports that a female house mouse may have 5 to 10 litters of about 5 or 6 pups each in a single year, so weeks spent on a smell are weeks in which a population can grow."
+    ] },
+
+    { "type": "h2", "text": "Do predator smells like cat, fox or coyote urine scare mice?" },
+    { "type": "p", "text": "In one laboratory study, female mice made fewer visits to cat odors, male mice did not, and the researchers say field use may be limited. The 2021 [PLoS ONE](https://pmc.ncbi.nlm.nih.gov/articles/PMC7817039/) study placed predator-inexperienced laboratory house mice and Norway rats in a central box joined by pipes to two side boxes, one holding an odor and the other distilled water, and recorded each animal's behavior for 10 minutes. Each odor was tested with 16 mice and 16 rats, half male and half female." },
+    { "type": "p", "text": "Female mice made fewer visits to the box with cat urine or cat body odor than they did with the control. Male mice showed no significant difference with any odor, and the number of mice that entered the odor box at least once did not differ significantly from the control for any odor. TMT, a compound found in red fox feces, was not among the odors that significantly reduced mouse visits. Rats responded more broadly: freezing was seen only in rats and only with TMT, female rats made fewer visits with TMT and with cat body odor, and male rats made fewer visits with cat body odor." },
+    { "type": "p", "text": "The authors caution that cat body odor may be limited as a field repellent because it is not volatile, and that odors are concentrated in the laboratory while in the field they diffuse more readily. They read their results as evidence that fear responses could be useful for managing rodent pests if adapted to the environment and species, and they add that doing so is not easy. The fox-derived compound in the study did not significantly reduce mouse visits, and no test of fox or coyote urine against house mice appears in the sources reviewed, so there is nothing in them to support those products." },
+
+    { "type": "h2", "text": "What works better than a smell?" },
+    { "type": "p", "text": "Sealing entry points, trapping and cutting off food and shelter work better than a smell, going by the university and CDC sources reviewed for this page. UC IPM calls exclusion the most successful and permanent form of house mouse control and says trapping works well in most situations and is a great first step. NC State Extension says exclusion is necessary to prevent and manage rodents in structures, and it covers snap traps and other traps under mechanical management." },
+    { "type": "h3", "text": "Seal the gaps first" },
+    { "type": "p", "text": "A mouse can fit through a hole 1/4 inch wide, about the width of a pencil, according to [the CDC's seal-up guidance](https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html). UC IPM is more precise: mice can squeeze under a gap 1/4 inch tall and through an opening 3/8 inch wide, and it advises closing every gap or opening larger than 1/4 inch." },
+    { "type": "p", "text": "For small holes, the CDC says to fill them with steel wool and put caulk around it to hold it in place, or use spray foam, and to use lath screen or metal, cement, hardware cloth or metal sheeting for larger holes. NC State adds that only 00-size steel wool deters rodents, that it is flammable and rusts, and that rodents often work between the steel wool and the edges of the opening, so it should always be caulked in place. [A full guide to steel wool and other mouse plugs](/blog/steel-wool-for-mice) covers grades and packing." },
+    { "type": "p", "text": "Copper mesh does not rust, NC State says, but it should also be caulked because rodents can push it aside. The sources differ on foam. UC IPM lists expanding foam among the gnawable materials that are ineffective, while the CDC lists spray foam as one way to hold steel wool in place. Read together, they suggest foam works as a filler around metal or mesh but not as the barrier itself." },
+    { "type": "ul", "items": [
+      "**Inside.** The CDC points to kitchen cabinets, the spaces behind appliances, the pipes under sinks and washing machines and those leading to water heaters and furnaces, floor air vents and dryer vents, utility lines, the attic, the basement or crawl space, floor drains and the joint between floor and wall.",
+      "**Outside.** The CDC lists the roof among the rafters, gables, eaves and soffits, doors and windows without weather stripping, the gap where the foundation meets the ground, attic and crawl space vents, and holes for utilities.",
+      "**Outbuildings and vehicles.** The CDC also says to seal outbuildings and garages, and [how to keep mice out of a car](/blog/how-to-keep-mice-out-of-your-car) covers the engine bay and cabin separately."
+    ] },
+    { "type": "media", "needed": "Cutaway diagram of a house showing common mouse entry points: garage door corners, gaps around pipes under a kitchen sink, the dryer vent, the joint where the foundation meets the siding, and attic vents, with a pencil beside one gap to show the 1/4 inch size" },
+    { "type": "h3", "text": "Set traps where the activity is" },
+    { "type": "p", "text": "UC IPM advises spacing traps no more than about 10 feet apart where mice are active, because house mice seldom venture more than 30 feet from their nest sites and food supply, and using enough traps to keep the trapping period short. [Mouse traps compared by type](/blog/mice-traps) covers snap, electronic and other designs and how to place them." },
+    { "type": "p", "text": "Bait is the flip side of this page: a trap works by offering something a mouse wants. UC IPM says the best bait is often the food the mice are already eating, calls peanut butter a popular choice because it is easy to use and very attractive to house mice, and notes that nesting material such as a ball of cotton or dental floss can be an effective bait for breeding females. [Why peanut butter and other foods work as bait](/blog/what-do-mice-eat) explains what mice go for and why." },
+    { "type": "media", "needed": "Close-up photo of a snap trap set on a floor close to a wall, positioned so a mouse running along the wall would pass directly over the trigger, a smear of peanut butter on the trigger, no hands or pets in frame" },
+    { "type": "h3", "text": "Cut off food and shelter" },
+    { "type": "p", "text": "UC IPM's sanitation steps are keeping food storage and garbage containers sealed, cleaning and decluttering, and eliminating the places where mice can hide, rest, nest and raise young. It notes that good sanitation will seldom completely control house mice, but that poor sanitation can attract them and lets them thrive in greater numbers. These steps do not repel mice. They take away what lets a mouse population stay and grow, which is why they belong in the plan alongside sealing and trapping." },
+
+    { "type": "h2", "text": "When should you stop trying smells and call a professional?" },
+    { "type": "p", "text": "Stop when signs of mice continue after the gaps are sealed and traps are set where mice are active. That pattern can point to an entry point that was missed or too few traps, not a scent that needs changing." },
+    { "type": "p", "text": "NC State Extension says most exclusion can be done with simple tools and construction materials, but that some professional pest management companies offer exclusion services for a fee. It also says rodenticides are best handled by pest management professionals and recommends relying on a professional service if you feel bait is required. [What an exterminator does on a mouse job, and what it costs](/blog/mice-exterminator) explains the usual steps and what to ask a company before you hire one." }
+  ],
+  "faqs": [
+    {
+      "question": "Do mice hate the smell of peppermint?",
+      "answer": "Not reliably. NC State Extension lists peppermint oil among repellents it calls unreliable for mouse management or prevention, and it says highly volatile oils disappear quickly once introduced into the environment. It also says such oils may compromise the efficacy of deployed baits and traps. The same guide says gaps of 1/4 inch or larger let adult mice in, so sealing those gaps and trapping are the steps to put first."
+    },
+    {
+      "question": "Does vinegar keep mice away?",
+      "answer": "There is no evidence to rely on. No test of vinegar against house mice appears in the university, government and journal sources reviewed for this page. UC IPM reports that house mice seldom travel more than 30 feet from their nest and food supply, so a scented spot has to compete with both. Sealing gaps larger than 1/4 inch, trapping and removing food and shelter are the supported steps."
+    },
+    {
+      "question": "Do dryer sheets repel mice?",
+      "answer": "Unproven. None of the university, government and journal sources reviewed for this page report a test of dryer sheets against house mice, so there is no way to say how strong any effect would be or how long it would last. UC IPM says a female house mouse may have 5 to 10 litters in a single year, so time spent on a sheet is better spent sealing gaps and setting traps."
+    },
+    {
+      "question": "Does the smell of a cat or other predator scare mice away?",
+      "answer": "Only in a limited way in one laboratory study. Female mice made fewer visits to a box holding cat urine or cat body odor, while male mice showed no significant change with any odor tested. The authors note that cat body odor may be limited as a field repellent because it is not volatile. A compound from red fox feces tested in the same study did not significantly reduce mouse visits, and no test of fox or coyote urine against house mice appears in the sources reviewed for this page."
+    },
+    {
+      "question": "Is it safe to use ammonia or mothballs to repel mice?",
+      "answer": "Neither is a good choice. The National Pesticide Information Center says mothballs have little or no effect as repellents, should not be used to repel animals unless the label describes that use, and release gas that can cause headaches, nausea and coughing. The National Capital Poison Center says ammonia damages the tissue it touches and that mixing it with bleach produces chloramine gas. Neither is a reliable way to keep mice out."
+    },
+    {
+      "question": "What keeps mice out of a house if smells do not?",
+      "answer": "Closing gaps does. The CDC says mice can fit through a hole the width of a pencil, 1/4 inch, and recommends steel wool with caulk for small holes and metal, cement or hardware cloth for larger ones. UC IPM calls exclusion the most successful and permanent form of house mouse control and says trapping works well as a first step. Sealed food and garbage containers and less clutter help too, although UC IPM notes that sanitation will seldom completely control house mice."
+    }
+  ],
+  "sources": [
+    { "title": "Surveillance and Management of Common Structure-Invading Mice", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/surveillance-and-management-of-common-structure-invading-mice" },
+    { "title": "House Mouse (Pest Notes, Publication 7483)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/PMG/PESTNOTES/pn7483.html" },
+    { "title": "Can I use mothballs to repel insects or animals?", "publisher": "National Pesticide Information Center (Oregon State University and US EPA)", "url": "https://npic.orst.edu/faq/mothball.html" },
+    { "title": "How to Seal Up to Prevent Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html" },
+    { "title": "Avoidance behaviour in laboratory house mice (Mus musculus) and Norway rats (Rattus norvegicus) towards predator odours", "publisher": "PLoS ONE, 2021", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817039/" },
+    { "title": "Ammonia: History, usage, and safety", "publisher": "National Capital Poison Center (Poison Control)", "url": "https://www.poison.org/articles/ammonia-history-usage-and-safety-221" }
+  ]
+}

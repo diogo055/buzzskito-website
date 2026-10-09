@@ -1,0 +1,10 @@
+{
+ "id": "bullet-ants",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "aa9cad344acb97c05b4c67adbd818edb53d519592db3a6c9a9c795f643e580cb",
+ "claimsChecked": 69,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 10,
+ "checkedOn": "2026-10-08"
+}

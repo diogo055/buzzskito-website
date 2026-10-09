@@ -1,0 +1,10 @@
+{
+ "id": "do-chickens-eat-ticks",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "1851c808871bed201fa2efd98445e8399dbcef18b08c0922c06fcef596e7d1d4",
+ "claimsChecked": 62,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-08"
+}

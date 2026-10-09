@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-michigan",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "73b8d2348013f438947f736391b4f48d30a4e6d521437fd98b5ad330cba18915",
+ "claimsChecked": 150,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-08"
+}

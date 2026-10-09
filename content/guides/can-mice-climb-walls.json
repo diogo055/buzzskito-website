@@ -1,0 +1,147 @@
+{
+  "slug": "can-mice-climb-walls",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "can mice climb walls",
+  "alsoTargets": [],
+  "metaTitle": "Can Mice Climb Walls? Yes, Any Rough Surface",
+  "metaDescription": "Yes: house mice climb any rough wall, follow wires and pipes, jump 10 to 18 inches and fit through gaps near 1/4 inch. See where to seal a house.",
+  "h1": "Can Mice Climb Walls? What They Can Climb, Jump and Squeeze Through",
+  "dek": "Which surfaces mice climb, how high they jump, how small a gap they fit through, and what that tells you about where a house needs sealing.",
+  "breadcrumb": "Can Mice Climb Walls",
+  "excerpt": "House mice climb any rough wall, run along wires and pipes, and squeeze through gaps of about 1/4 inch. Here is what the guides say and where to seal.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Yes. House mice run up any rough vertical surface, such as wood, brick, concrete and weathered sheet metal, and they follow wires, cables, pipes and vines to reach higher openings.** Extension guides put their standing jump at 10 to 18 inches and the gap they need at slightly more than 1/4 inch, and [the CDC's seal-up guidance](https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html) lists the roofline alongside the foundation.",
+    "bullets": [
+      "Extension guides say house mice can climb almost any rough vertical surface, including wood, brick, concrete and weathered sheet metal.",
+      "No source reviewed for this page tests glass, polished metal or glossy paint, so a smooth wall is unproven as a barrier.",
+      "Reported vertical jumps run from 10 to 18 inches, and Nebraska Extension says a house mouse can survive a 9-foot drop.",
+      "The usual sealing threshold is slightly more than 1/4 inch, although one 2011 study recorded 13 millimeters (about 1/2 inch) as the smallest round hole house mice passed.",
+      "The CDC tells homeowners to check rafters, gables, eaves, soffits and attic vents, not only the foundation."
+    ]
+  },
+  "facts": {
+    "title": "Mouse climbing ability at a glance",
+    "rows": [
+      ["Climbs", "Almost any rough vertical surface: wood, brick, concrete, weathered sheet metal"],
+      ["Travels along", "Wires, cables, ropes, pipes, conduit, vines, shrubs and trees"],
+      ["Vertical jump", "10 to 18 inches, depending on the source"],
+      ["Horizontal jump", "Across a 3-foot gap (Nebraska Extension)"],
+      ["Survivable drop", "9 feet (Nebraska Extension)"],
+      ["Gap needed", "Slightly more than 1/4 inch, about the width of a pencil"],
+      ["Smallest round hole in one 2011 test", "13 millimeters (about 1/2 inch)"],
+      ["Mesh that excludes mice", "24-gauge hardware cloth with 1/4 by 1/4 inch openings"],
+      ["Gap under a door", "Less than 1/4 inch"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Can mice climb walls?" },
+    { "type": "p", "text": "Yes. House mice run up any rough vertical surface, according to [the University of California's house mouse pest note](https://ipm.ucanr.edu/home-and-landscape/house-mouse/), and the University of Nebraska–Lincoln's [Controlling House Mice guide](https://cms.unl.edu/ianr/extension/wildlife/sites/unl.edu.ianr.extension.wildlife/files/media/file/controlling-house-mice.pdf) adds that they can balance along horizontal wire cables and ropes. A second Nebraska publication, [Rodent-Proof Construction — Structural](https://extensionpubs.unl.edu/publication/g1530/2003/html/view), names the materials: wood, brick, concrete and weathered sheet metal. Those are ordinary building materials, so a house wall is not a barrier to a mouse that wants to reach a higher opening." },
+    { "type": "p", "text": "Nearly every measured figure on this page is for the house mouse (*Mus musculus*), which UC IPM says often lives near people. Deer mice get their own section below. This page covers climbing, jumping and squeezing; for species, health risks, traps and the rest of the control sequence, see [the complete guide to controlling mice](/learn/mice). UC IPM calls exclusion the most successful and permanent form of house mouse control, which is why the climbing question matters: it decides where you have to look for openings." },
+    { "type": "media", "needed": "Side-view photo of an adult house mouse climbing a rough brick or wood-sided wall, sharp enough to show the claws gripping the surface" },
+    { "type": "table", "head": ["Route or surface", "What the source says", "Source"], "rows": [
+      ["Rough vertical surfaces", "Rats and mice climb almost any, such as wood, brick, concrete and weathered sheet metal", "Nebraska, Rodent-Proof Construction"],
+      ["Wire cables and ropes", "House mice run or balance along them horizontally", "UC IPM; Nebraska, Controlling House Mice"],
+      ["Electrical wires, vines, shrubs and trees", "Rats and mice run along or climb them to get into a building", "Nebraska, Rodent-Proof Construction"],
+      ["Pipes and conduit", "Rats and mice crawl horizontally along them", "Nebraska, Rodent-Proof Construction"],
+      ["Screen wire", "House mice can hang upside down from it", "Nebraska, Rodent-Proof Construction"]
+    ], "caption": "Climbing and travel abilities as listed in the guides cited on this page." },
+
+    { "type": "h2", "text": "Is there any wall a mouse cannot climb?" },
+    { "type": "p", "text": "Possibly a smooth one, but no source reviewed for this page tests it. UC IPM and Nebraska both describe the ability as running up rough vertical surfaces, which suggests that grip matters. Neither tests glass, polished metal, glazed tile or glossy paint, and neither gives a list of surfaces that stop a mouse. Treat a smooth wall as unproven rather than as a defense." },
+    { "type": "p", "text": "A smooth stretch also settles little, because the route to a roof does not have to be the wall. Nebraska's guide lists wires, ropes, cables, vines, shrubs and trees as ways into a building, so a smooth section of siding matters less if a wire, vine or branch reaches the same height." },
+    { "type": "p", "text": "For walls, the Nebraska guide describes bands of aluminum sheet metal 12 to 18 inches wide, particularly in corners, to stop rodents climbing. The guide places the bands at least 36 inches above the ground or at floor level, in its section on rodent control inside buildings, right after a sentence about storage rooms, feed rooms and closets, and the sources reviewed here offer no tested equivalent for a house exterior." },
+
+    { "type": "h2", "text": "How high can a mouse jump?" },
+    { "type": "p", "text": "About 10 to 18 inches straight up from the floor, depending on which source you read. The published figures do not agree:" },
+    { "type": "table", "head": ["Source", "Reported vertical jump", "Notes"], "rows": [
+      ["Nebraska, Controlling House Mice", "10 inches onto a flat surface, or across a 3-foot gap", "House mice"],
+      ["UC IPM, House Mouse pest note", "Up to 12 inches from the floor onto a flat surface", "House mice"],
+      ["Nebraska, Rodent-Proof Construction", "18 inches vertically", "House mice"],
+      ["Pitt and colleagues, International Journal of Pest Management (2011)", "A maximum of 25 centimeters (about 10 inches)", "House mice, in a study designed to inform rodent bait station design"]
+    ], "caption": "The sources do not explain why the figures differ." },
+    { "type": "p", "text": "Read 10 to 18 inches as the range for a standing jump from a flat floor; anything taller is a matter of climbing rather than one leap. Nebraska's Controlling House Mice guide adds that a house mouse can run 4 to 6 miles per hour and survive a 9-foot vertical drop, so a fall off a ledge is not a dependable way to stop one. Its 3-foot horizontal figure is the number to keep in mind for a branch or wire that passes near a roof. The 2011 figure comes from [a peer-reviewed study of commensal rodents](https://digitalcommons.unl.edu/icwdm_usdanwrc/1341) whose abstract does not say how the animals were housed or tested." },
+
+    { "type": "h2", "text": "How small a gap can a mouse squeeze through?" },
+    { "type": "p", "text": "A gap of about 1/4 inch, the width of a pencil. [The CDC's seal-up page](https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html) says mice can fit through a hole that size, and both Nebraska guides put the threshold at slightly more than 1/4 inch. The sources are not identical, though:" },
+    { "type": "table", "head": ["Source", "Smallest opening reported"], "rows": [
+      ["CDC, How to Seal Up to Prevent Rodents", "A hole the width of a pencil: 1/4 inch (6 millimeters) in diameter"],
+      ["Nebraska, both guides", "Slightly more than 1/4 inch"],
+      ["UC IPM, House Mouse pest note", "Gaps 1/4 inch tall, and openings 3/8 inch wide"],
+      ["California, deer mice chapter", "Leave no opening larger than 1/4 inch in diameter unsealed"],
+      ["Pitt and colleagues (2011)", "13 millimeters (about 1/2 inch) was the smallest round hole house mice passed through"]
+    ], "caption": "Figures are as reported in each source; they were measured or set for different purposes." },
+    { "type": "p", "text": "The 13-millimeter result is about twice the rule-of-thumb figure, and the sources do not reconcile the two. For sealing, build to the 1/4-inch number: a repair sized to the larger figure would leave openings the extension guides say mice use. Gnawing narrows the margin further, because Nebraska notes that rodents can quickly enlarge small crevices, and [California's handbook chapter on deer mice](https://www.cdfa.ca.gov/plant/IPC/vertebrates/docs/vpcrac/handbook/Deer_mice.pdf) says deer mice gnaw to enlarge openings." },
+
+    { "type": "h2", "text": "Are pipes, wires and cables a highway for mice?" },
+    { "type": "p", "text": "Yes. Nebraska says rats and mice crawl horizontally along pipes and conduit, and run along or climb electrical wires, ropes, cables, vines, shrubs and trees to get into buildings. UC IPM says house mice run horizontally along wire cables or ropes. Nebraska also notes that common openings occur around pipes and around electrical conduits or cables, so the pipe or cable a mouse follows can end at a gap it can use." },
+    { "type": "p", "text": "The CDC's list of places to seal matches those routes. Indoors it names the pipes under sinks and washing machines, the pipes that run to water heaters and furnaces, and the electrical, water, gas and sewer lines. Outdoors it names the holes made for electrical, plumbing, cable and gas lines." },
+    { "type": "p", "text": "One limit in the sources: Nebraska credits rats, not mice, with climbing the outside of vertical pipes up to 3 inches in diameter. For mice it lists crawling horizontally along pipes and climbing rough vertical surfaces, and it says nothing either way about a smooth vertical pipe." },
+
+    { "type": "h2", "text": "How do mice get into attics and upper floors?" },
+    { "type": "p", "text": "They climb to an opening that is already there, or follow a wire, vine or limb up to one. The CDC's checklist of outdoor places to seal includes roof areas (rafters, gables, eaves and soffits) and attic and crawl space vents, along with windows, doors and utility holes. California's deer mouse chapter makes the same point: because deer mice are excellent climbers, openings above ground need sealing too, and doors, pet doors, windows, ventilation screens and the entrances to garages, attics, crawl spaces and basements should fit tightly. It also advises fitting chimneys with a spark arrester to help prevent entry." },
+    { "type": "p", "text": "Season and warmth play a part. UC IPM says that where house mice live outdoors, they frequently enter homes in autumn, when nighttime temperatures become colder, and Nebraska says mice are drawn to buildings when they detect openings and escaping heat. Nebraska adds that occasional scratching and squeaking from ceilings and walls indicates mice; [the guide to when mice are active](/blog/are-mice-nocturnal) explains when those noises are most likely." },
+    { "type": "media", "needed": "Labeled diagram of a two-story house exterior marking the openings mice use: eaves and soffits, gable and attic vents, chimney, utility entry points, door thresholds, garage door corners and the foundation line" },
+    { "type": "h3", "text": "Do trimmed trees and shrubs help?" },
+    { "type": "p", "text": "The sources point that way but give little to measure by. California's handbook advises cutting back overgrown plants, including overhanging trees, close to buildings, and calls 2 feet probably sufficient. That is shorter than the 3-foot gap Nebraska says a house mouse can jump, and none of the guides reviewed here reports a test of a branch-to-roof distance, so more clearance is the cautious choice. The same handbook warns that aluminum flashing bands on trunks, which it suggests for trees grown for crops, will likely fail when tree canopies overlap or touch, a reminder that touching branches act as a bridge." },
+
+    { "type": "h2", "text": "Do deer mice climb differently from house mice?" },
+    { "type": "p", "text": "The sources describe both as excellent climbers, and none compares them side by side. UC IPM calls house mice excellent climbers. California's handbook calls deer mice excellent climbers and says fencing them out with wire mesh is impractical because they climb well. Its 1/4-inch sealing threshold for deer mice matches the house mouse figure, so the same 1/4-inch repairs apply to both." },
+    { "type": "p", "text": "Where you live changes which mouse is likely to be in the attic, not what you seal. The same handbook says deer mice nest in places that include trees and buildings, and that they are seldom a significant problem in homes and gardens except in forested and wooded areas. [A guide to the mice a US homeowner actually meets](/blog/types-of-mice) shows how to tell house mice from deer mice and look-alikes, and [the deer mouse guide](/blog/deer-mice) covers why they matter for health." },
+
+    { "type": "h2", "text": "What does climbing ability mean for sealing a house?" },
+    { "type": "p", "text": "Seal every opening larger than 1/4 inch from the foundation to the roofline, because a mouse that climbs can use a high opening as easily as a low one. [UC IPM](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) gives the same 1/4-inch rule for gaps and openings. The CDC's checklist is a workable order of work, taken from the roof down:" },
+    { "type": "ol", "items": [
+      "**Roofline.** Check rafters, gables, eaves, soffits and attic vents, the places the CDC lists, and cap the chimney with a spark arrester as California's handbook advises.",
+      "**Utility entries.** Look where electrical, plumbing, cable and gas lines pass through the wall, and close the gaps with metal or concrete, which UC IPM advises for openings around pipes, vents and utility cables.",
+      "**Doors and windows.** Nebraska says the space between a door bottom and its threshold should be under 1/4 inch, and it advises metal flashing on the lower edge of doors, particularly softwood ones. Garage doors need their own check, covered in [a guide to mouse-proofing a garage door](/blog/mouse-proof-garage-door-seal-canada).",
+      "**Foundation.** Nebraska says gaps often exist where the wall framing or siding meets the foundation, and that they give rodents easy access. Seal those, along with the foundation-to-ground gaps the CDC lists.",
+      "**Indoors.** The CDC list includes kitchen cabinets, closets, the space behind appliances, pipes under sinks and washing machines, floor vents and the joint where floor meets wall."
+    ] },
+    { "type": "p", "text": "Different openings call for different materials, and the sources agree on more than they disagree on:" },
+    { "type": "table", "head": ["Opening", "What the sources support", "What to avoid or watch"], "rows": [
+      ["Small holes", "Steel wool with caulk around it to hold it in place (CDC); copper or stainless steel wool wedged tightly into openings under 3/4 inch that nothing else can secure (Nebraska)", "Steel wool alone rusts over time (Nebraska, UC IPM) and can be dislodged (California)"],
+      ["Larger holes", "Lath screen or metal, cement, hardware cloth or metal sheeting (CDC); for mice, 24-gauge hardware cloth with 1/4 by 1/4 inch mesh, or galvanized sheet metal of 24 gauge or heavier (Nebraska)", "Plastic screening, rubber, vinyl and wood are gnawable and ineffective for plugging holes (UC IPM)"],
+      ["Foundation cracks and gaps around pipes, vents and utility cables", "Metal or concrete (UC IPM)", "Expanding foam as the plug (UC IPM lists it as ineffective)"],
+      ["Door bottoms", "Under 1/4 inch between door and threshold, with metal flashing on the lower edge (Nebraska)", "Rubber or vinyl weather stops, which rats and mice can quickly gnaw through (Nebraska)"],
+      ["Vents and windows", "Galvanized hardware cloth, hail screen or welded-wire mesh (Nebraska)", "Mesh finer than 1/2 by 1/2 inch cuts airflow, and Nebraska calls 1/2-inch screen a compromise even though its openings are wider than the 1/4-inch threshold; dryer vents need special handling because of lint fires"]
+    ], "caption": "Sources: the CDC, UC IPM, and the Nebraska and California publications cited above. Nebraska's rodent-proofing guide covers farm buildings and feed storage facilities as well as homes, so the airflow trade-offs may differ in a house." },
+    { "type": "p", "text": "The sources part ways on foam. The CDC says to hold steel wool in place with caulk or spray foam, while UC IPM lists expanding foam among the gnawable materials that are ineffective for plugging holes. The cautious reading is to keep metal as the plug and use caulk or foam only to hold it. Which steel wool to use, how to pack it and where it fails are covered in [the steel wool guide](/blog/steel-wool-for-mice)." },
+    { "type": "callout", "tone": "warning", "title": "Seal after the mice are out", "text": "Nebraska's guide assumes the building is already free of unwanted animals. If you are not sure a hole is still in use, it advises leaving it open until you have identified the species and settled on a control plan, and it warns that closing it too soon may cause further structural damage and personal injury." },
+    { "type": "p", "text": "Clearing the house first is covered in [the guide to mouse traps by type](/blog/mice-traps) and in [the guide to mice removal and cleanup](/blog/mice-removal)." },
+
+    { "type": "h2", "text": "What should you read next?" },
+    { "type": "p", "text": "Repellents do not close an opening, and [the overview of mouse repellents by type](/blog/mice-repellent) rates the evidence for each kind. A fall exclusion checklist with a heating-season angle is in [the October checklist for keeping mice out of a house](/blog/how-to-keep-mice-out-of-your-house-winter). Vehicles have their own routes and attractions, covered in [a separate guide to keeping mice out of a parked car](/blog/how-to-keep-mice-out-of-your-car)." }
+  ],
+  "faqs": [
+    {
+      "question": "How far can a mouse fall without being hurt?",
+      "answer": "University of Nebraska–Lincoln Extension says a house mouse can survive a 9-foot vertical drop. The guide does not say how that figure was measured or what height does cause injury, so it is a reason not to count on a fall off a shelf or counter to stop a mouse rather than a measured limit. The same guide lists a vertical jump of 10 inches onto a flat surface."
+    },
+    {
+      "question": "How big a gap under a door can a mouse use?",
+      "answer": "Nebraska Extension says the space between a door bottom and the threshold should be under 1/4 inch, since mice need only slightly more than 1/4 inch to enter. California's handbook calls door thresholds with gaps larger than 1/4 inch one of the most common entry points for deer mice. Nebraska also advises metal flashing on the lower edge of doors, particularly softwood ones, because rodents gnaw."
+    },
+    {
+      "question": "Are mice or rats the better climbers?",
+      "answer": "Nebraska's rodent-proofing guide gives rats the longer list. It credits rats with a 36-inch vertical jump against 18 inches for house mice, and with climbing the outside of vertical pipes up to 3 inches in diameter, which it does not say of mice. Both can climb rough vertical surfaces and follow wires and cables. Rats need a gap slightly over 1/2 inch, while mice need slightly over 1/4 inch."
+    },
+    {
+      "question": "Can a mouse get through a window screen?",
+      "answer": "None of the sources tests a standard window screen, but they point the same way. Nebraska says house mice can hang upside down from screen wire and that rodents gnaw through a wide variety of materials, including aluminum sheeting, wood, rubber, vinyl and plastic. UC IPM says plastic screening is ineffective for plugging holes. Nebraska recommends galvanized hardware cloth, hail screen or welded-wire mesh over vents and windows."
+    },
+    {
+      "question": "Is steel wool enough to plug a hole mice reach by climbing?",
+      "answer": "Treat steel wool as a temporary plug. UC IPM says steel wool scouring pads make good temporary plugs but may rust over time, and California's handbook says steel wool or copper mesh can be dislodged and should be checked regularly. The CDC recommends caulk around the steel wool to keep it in place, and uses lath screen, cement, hardware cloth or metal sheeting for larger holes."
+    }
+  ],
+  "sources": [
+    { "title": "How to Seal Up to Prevent Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html" },
+    { "title": "Pest Notes: House Mouse (UC ANR Publication 7483)", "publisher": "University of California Statewide Integrated Pest Management Program", "url": "https://ipm.ucanr.edu/home-and-landscape/house-mouse/" },
+    { "title": "Controlling House Mice (NebGuide G1105)", "publisher": "University of Nebraska–Lincoln Extension", "url": "https://cms.unl.edu/ianr/extension/wildlife/sites/unl.edu.ianr.extension.wildlife/files/media/file/controlling-house-mice.pdf" },
+    { "title": "Rodent-Proof Construction — Structural (NebGuide G1530)", "publisher": "University of Nebraska–Lincoln Extension", "url": "https://extensionpubs.unl.edu/publication/g1530/2003/html/view" },
+    { "title": "Physical and behavioural abilities of commensal rodents related to the design of selective rodenticide bait stations", "publisher": "International Journal of Pest Management, via the USDA APHIS National Wildlife Research Center repository", "url": "https://digitalcommons.unl.edu/icwdm_usdanwrc/1341" },
+    { "title": "Deer Mice (Vertebrate Pest Control Handbook, 6th edition)", "publisher": "California Department of Food and Agriculture", "url": "https://www.cdfa.ca.gov/plant/IPC/vertebrates/docs/vpcrac/handbook/Deer_mice.pdf" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+ "id": "are-mosquitoes-attracted-to-light",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "f48d0f754df7f7001cb75f307890345b873ec47b13da629c1747d573f0783098",
+ "claimsChecked": 38,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-08"
+}

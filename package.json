@@ -4,13 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npm run check:amazon && npm run check:registered && npm run check:ads",
+    "build": "next build && npm run check:amazon && npm run check:registered && npm run check:ads && npm run check:guides",
     "check:amazon": "node scripts/check-amazon.mjs",
     "check:registered": "node scripts/check-registered.mjs",
     "check:ads": "node scripts/check-ads.mjs",
     "postbuild": "node scripts/index-urls.mjs",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check:guides": "node scripts/validate-guide.mjs --all"
   },
   "dependencies": {
     "@vercel/speed-insights": "^2.0.0",

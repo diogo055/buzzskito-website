@@ -1,0 +1,156 @@
+{
+  "slug": "how-to-keep-mosquitoes-away",
+  "kind": "spoke",
+  "cluster": "mosquitoes",
+  "keyword": "how to keep mosquitoes away",
+  "alsoTargets": [],
+  "metaTitle": "How to Keep Mosquitoes Away: What Really Works",
+  "metaDescription": "Start with an EPA-registered repellent. See how to choose one, what clothing, fans and screens add, and which wristbands and gadgets CDC rules out.",
+  "h1": "How to Keep Mosquitoes Away: Repellents, Clothing, Fans and What to Skip",
+  "dek": "What the evidence says stops mosquito bites on your skin and at the spot where you sit, from repellent ingredients and permethrin clothing to fans and screens, plus the products to skip.",
+  "breadcrumb": "Keep Mosquitoes Away",
+  "excerpt": "Start with an EPA-registered repellent, then add loose long clothing, screens and a fan. How to choose a repellent, when mosquitoes bite, and which gadgets CDC rules out.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**To keep mosquitoes away, put an EPA-registered repellent on exposed skin, wear long, loose clothing, and keep a barrier such as a screen or a fan between you and them.** [CDC's mosquito bite prevention guidance](https://www.cdc.gov/mosquitoes/prevention/index.html) lists six active ingredients to look for and says the effectiveness of non-registered products, including some natural ones, is not known.",
+    "bullets": [
+      "CDC lists six EPA-registered active ingredients: DEET, picaridin, IR3535, oil of lemon eucalyptus, para-menthane-diol (PMD) and 2-undecanone.",
+      "EPA says DEET repels mosquitoes for about 2 to 12 hours, depending on the percentage of DEET in the product.",
+      "The CDC Yellow Book says products with less than 10% active ingredient often protect for only 1 to 2 hours, and that DEET gains no marked protection time against mosquitoes above about 50%.",
+      "In a Michigan field study, fan-generated wind of up to 8.3 mph strongly reduced mosquito catches in traps releasing carbon dioxide.",
+      "The CDC Yellow Book calls repellent-impregnated wristbands and sound-emitting devices ineffective."
+    ]
+  },
+  "facts": {
+    "title": "Keeping mosquitoes away at a glance",
+    "rows": [
+      ["Start with", "EPA-registered repellent on exposed skin, applied after sunscreen"],
+      ["Active ingredients CDC lists", "DEET, picaridin, IR3535, oil of lemon eucalyptus, PMD, 2-undecanone"],
+      ["DEET protection against mosquitoes", "About 2 to 12 hours, depending on the DEET percentage (EPA)"],
+      ["Low-concentration products", "Under 10% active ingredient: often 1 to 2 hours (CDC Yellow Book)"],
+      ["Clothing", "Loose-fitting long sleeves and long pants; permethrin-treated clothing adds protection"],
+      ["When mosquitoes bite", "Day and night (CDC); peaks are dawn and dusk for *Aedes aegypti* and *Aedes albopictus*, late evening for *Culex quinquefasciatus* (CDC Yellow Book)"],
+      ["Fans", "Wind up to 8.3 mph strongly reduced trap catches in a Michigan field study"],
+      ["Called ineffective by CDC", "Repellent wristbands, sound-emitting devices, eating vitamin B or garlic"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What is the best way to keep mosquitoes away from you?" },
+    { "type": "p", "text": "Put an EPA-registered repellent on exposed skin, wear long loose clothing, and place a barrier between you and the mosquitoes, whether that is a screen, an air-conditioned room or a fan. That layered approach follows [CDC's guidance on preventing mosquito bites](https://www.cdc.gov/mosquitoes/prevention/index.html), which sorts its advice into using repellent, wearing protective clothing and controlling mosquitoes indoors and outdoors. No single layer stops every bite, so each one covers gaps left by the others." },
+    { "type": "p", "text": "This page covers the personal and patio side: what goes on your skin and clothes, when to be outside, and what helps the spot where you sit. Mosquitoes breeding on your own property are a separate job, and [how to get rid of mosquitoes in a yard](/blog/how-to-get-rid-of-mosquitoes) walks through it. The [complete backyard mosquito control guide](/blog/ultimate-backyard-mosquito-control-guide) puts the whole-property plan in one place." },
+
+    { "type": "h2", "text": "Which mosquito repellent should you choose?" },
+    { "type": "p", "text": "Choose a product that carries an EPA registration number and one of six active ingredients: DEET, picaridin, IR3535, oil of lemon eucalyptus, para-menthane-diol (PMD) or 2-undecanone. That is the list in CDC's guidance, which adds that choosing an EPA-registered repellent means EPA has evaluated the product for effectiveness. [EPA's explanation of how skin-applied repellents are regulated](https://www.epa.gov/insect-repellents/regulation-skin-applied-repellents) says registration indicates a product has been evaluated and approved for human safety and effectiveness when applied as the label directs. The table below also draws on EPA's DEET page and on the [CDC Yellow Book chapter on mosquitoes, ticks and other arthropods](https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/mosquitoes-ticks-and-other-arthropods.html), CDC's guidance on protecting travelers from bites." },
+    { "type": "table", "head": ["Ingredient", "What the sources say", "Age notes"], "rows": [
+      ["DEET", "Skin products contain 5% to 99% DEET. EPA says it repels mosquitoes for about 2 to 12 hours, depending on the percentage. The CDC Yellow Book says protection tends to peak near 50%.", "EPA: approved for children with no age restriction."],
+      ["Picaridin", "An EPA-registered ingredient on CDC's list, known as KBR 3023 and icaridin outside the United States. The Yellow Book notes that EPA calls DEET and picaridin conventional repellents.", "Yellow Book: can be used on children without age restriction."],
+      ["IR3535", "An EPA-registered ingredient on CDC's list. The Yellow Book groups it with the biopesticide repellents, which are derived from, or are synthetic versions of, natural materials.", "Yellow Book: can be used on children without age restriction."],
+      ["Oil of lemon eucalyptus (OLE)", "A plant-derived ingredient in registered products. The Yellow Book says CDC does not recommend pure oil of lemon eucalyptus, an unformulated essential oil that has not had validated testing for safety and efficacy and is not EPA-registered as a repellent.", "CDC: do not use on children under 3."],
+      ["PMD", "The synthesized version of oil of lemon eucalyptus (chemical name para-menthane-3,8-diol).", "CDC: do not use on children under 3."],
+      ["2-undecanone", "A plant-derived ingredient on CDC's list.", "Yellow Book: can be used on children without age restriction."]
+    ], "caption": "Sources: CDC mosquito bite prevention page, CDC Yellow Book, EPA DEET page. The label of the product you buy governs how it is used." },
+    { "type": "p", "text": "Neither CDC page ranks the six ingredients against one another, and the only ingredient-specific protection time in the sources reviewed here is EPA's figure for DEET. That leaves three practical choices: the concentration, how long you will be outside, and who will be wearing it. CDC tells shoppers to look for the EPA registration number (EPA Reg. No.) on the label." },
+    { "type": "media", "needed": "Close-up photo of a repellent bottle label with the EPA Reg. No. line and the active ingredient percentage circled, held beside a person's hand for scale" },
+
+    { "type": "h3", "text": "How long does mosquito repellent last?" },
+    { "type": "p", "text": "It depends mostly on the concentration of the active ingredient. The Yellow Book's general rule is that higher concentrations protect for longer, whichever active ingredient is in the product. [EPA's DEET page](https://www.epa.gov/insect-repellents/deet) says studies in its database indicate that DEET repels mosquitoes for about two to twelve hours, depending on the percentage of DEET in the product. The Yellow Book puts figures on both ends: products with less than 10 percent active ingredient might offer only limited protection, often 1 to 2 hours, while DEET protection tends to peak at about 50 percent, with higher concentrations giving no marked increase in protection time against mosquitoes." },
+    { "type": "p", "text": "Concentration is not the whole story. The Yellow Book says sustained-release or controlled-release (microencapsulated) formulations might protect for longer even at lower concentrations, and that how long any product lasts is also markedly affected by air temperature, how active you are, how much you sweat, exposure to water and the product being rubbed off." },
+    { "type": "p", "text": "The label sets the reapplication schedule, and CDC says to reapply as directed. If you start getting bitten, the Yellow Book says to reapply, but not more often than the label allows. In practice, a low-percentage product suits a short time outside, and a longer evening calls for a higher percentage or a plan to reapply on the label's schedule." },
+
+    { "type": "h3", "text": "How do you apply repellent correctly?" },
+    { "type": "p", "text": "Follow the label, apply after sunscreen, and keep repellent on exposed skin and clothing only. These steps combine [EPA's guidance on using insect repellents safely and effectively](https://www.epa.gov/insect-repellents/using-insect-repellents-safely-and-effectively) with the CDC advice above:" },
+    { "type": "ol", "items": [
+      "Read the label first, including how much to use and how often to reapply.",
+      "Put sunscreen on first and repellent second. The Yellow Book advises against products that combine the two, because sunscreen might need to be reapplied more often and in larger amounts than repellent.",
+      "Apply repellent only to exposed skin or clothing, never under clothing.",
+      "For your face, spray the product onto your hands first and then rub it on. Keep it away from your eyes and mouth, and use only a little around your ears.",
+      "Do not apply repellent over cuts, wounds or irritated skin, and do not use it near food.",
+      "After you come indoors, wash treated skin and clothes with soap and water."
+    ] },
+
+    { "type": "h3", "text": "Is mosquito repellent safe for children and during pregnancy?" },
+    { "type": "p", "text": "CDC says EPA-registered repellents are safe and effective for pregnant and breastfeeding women when used as directed, and EPA says it continues to believe that normal use of DEET does not present a health concern to the general population, including children. In these sources, the age limits attach to particular ingredients, not to repellent as a whole." },
+    { "type": "p", "text": "CDC says not to use products containing oil of lemon eucalyptus or PMD on children under 3 years old, and the Yellow Book gives the reason as avoiding potential allergic skin reactions. EPA adds a nuance: some oil of lemon eucalyptus products carry that age restriction, while certain products with it as the only active ingredient at 30 percent or less do not. The label on the product in your hand has the final word. Products with DEET, picaridin, IR3535 or 2-undecanone can be used on children without an age restriction, according to the Yellow Book." },
+    { "type": "p", "text": "When applying repellent to a child, put it on your own hands first and then onto the child, and keep it off the child's hands, eyes, mouth, cuts and irritated skin. CDC also advises covering strollers and baby carriers with mosquito netting. For a young infant, ask the child's pediatrician before using any repellent." },
+
+    { "type": "h2", "text": "What should you wear to keep mosquitoes from biting?" },
+    { "type": "p", "text": "Wear loose-fitting, long-sleeved shirts and pants. That is CDC's advice, and for children it recommends clothing that covers arms and legs. Fit and fabric both matter, and a separate guide goes through [which fabrics mosquitoes can bite through](/blog/can-mosquitoes-bite-through-clothes). Repellent can also go on clothing, which EPA lists alongside exposed skin as a place to apply it." },
+
+    { "type": "h2", "text": "Does permethrin-treated clothing keep mosquitoes away?" },
+    { "type": "p", "text": "Yes, it adds protection where the fabric covers you, though skin the fabric leaves exposed still needs repellent. CDC recommends clothing and gear treated with permethrin, an insecticide that kills or repels mosquitoes, and says treated clothing keeps providing protection after multiple washings." },
+    { "type": "p", "text": "The Yellow Book says clothing, hats, shoes, mosquito nets, outerwear and camping gear can all be treated. Permethrin-treated materials keep their repellent or insecticidal activity through repeated launderings but should be retreated as the product label describes, and clothing sold already treated is labeled for efficacy through many launderings. Items you treat yourself should be treated 24 to 48 hours before they are packed for travel, so they have time to dry. Clothing treated with other repellents such as DEET provides protection but will not last through washing, so it needs more frequent application." },
+    { "type": "callout", "tone": "warning", "title": "Permethrin never goes on skin", "text": "CDC says not to use permethrin products directly on skin. They are made for clothing, mosquito nets and other fabrics, and only as the product label directs." },
+
+    { "type": "h2", "text": "When are mosquitoes most active, and when should you stay in?" },
+    { "type": "p", "text": "Mosquitoes bite throughout the day and night, but each species tends to have peak hours, the CDC Yellow Book says, and for the disease carriers it tabulates those fall at dawn and dusk or in the evening and night. Its table of peak biting times lists dawn and dusk for *Aedes aegypti* and *Aedes albopictus*, late evening (10 to 11 p.m.) for *Culex quinquefasciatus*, and night and evening for *Anopheles*. The table covers vectors of diseases such as dengue, West Nile and malaria, so it describes disease carriers and not every nuisance species." },
+    { "type": "p", "text": "The species you meet depends on where you live, and CDC's own summary is that mosquitoes bite day and night, so there is no single safe hour. The Yellow Book says avoiding peak biting periods reduces the chance of exposure to the diseases mosquitoes carry. If you can choose when to sit outside, avoid the dawn, dusk and evening peaks, and put repellent on before you step out at those times. For timing by region and the end of the season, see [when mosquitoes are most active and when they stop](/blog/when-are-mosquitoes-most-active)." },
+
+    { "type": "h2", "text": "Do fans keep mosquitoes away?" },
+    { "type": "p", "text": "Moving air helps, and the evidence behind that is a field study in which wind from electric fans strongly reduced mosquito catches in traps. In [a 2003 study in the Journal of Medical Entomology](https://academic.oup.com/jme/article-lookup/doi/10.1603/0022-2585-40.5.607), researchers worked in a central Michigan wetland where three species were abundant: *Aedes vexans*, *Anopheles walkeri* and *Coquillettidia perturbans*. They set fan-generated wind against CDC light traps that released carbon dioxide, the gas people breathe out." },
+    { "type": "p", "text": "Catches fell as wind speed rose across the range tested, from 0 to 8.3 mph (0 to 3.7 meters per second), closely matching the dilution expected when wind blows over a steady source of a volatile chemical. Tripling the carbon dioxide release rate consistently doubled the catch across those wind speeds. The authors concluded that wind works mainly by diluting the attractant, not by exceeding what mosquitoes can fly through. Adding DEET vapor cut the catch further compared with equally fast air alone. They recommended that fan-generated wind be pursued as a practical means of protecting people or pets from mosquitoes in a backyard." },
+    { "type": "p", "text": "Two limits apply. The study counted mosquitoes in traps, not bites on people, and its published summary gives no fan size, distance or patio layout, so there is none to quote here. The dilution finding suggests the moving air has to cross the seating area itself, and a fan stays where you put it while you move around the yard, which is where repellent comes in." },
+    { "type": "media", "needed": "Photo of a patio seating area with a floor fan on the deck aimed across a table and chairs, showing the fan placed on the side nearest the yard and the people seated in its airflow" },
+
+    { "type": "h2", "text": "How do you keep mosquitoes out of the house and off a patio?" },
+    { "type": "p", "text": "Screens in good repair keep mosquitoes out of the house, and clearing standing water near where you sit takes away places for them to lay eggs. CDC says to use screens on windows and doors, repair holes in them to keep mosquitoes outdoors, and use air conditioning if you have it." },
+    { "type": "p", "text": "Outside, CDC's advice is to stop mosquitoes from laying eggs in or near water. Once a week, empty and scrub, turn over, cover or throw out items that hold water, such as buckets, toys, birdbaths and flowerpot saucers, and check for water-holding containers indoors as well as outdoors. The whole-property version of that job, including larvicides and treatments for adult mosquitoes, is in the backyard guides linked above." },
+
+    { "type": "h2", "text": "Do spatial repellents, coils and patio devices work?" },
+    { "type": "p", "text": "They can repel mosquitoes from a small area, but CDC treats them as an addition to repellent on your skin, not a replacement for it. The Yellow Book describes spatial repellents as products such as aerosol insecticide sprays, vaporizing mats and mosquito coils, with active ingredients such as metofluthrin and allethrin. It says spray aerosols can help clear mosquitoes from larger spaces, while coils and similar products repel mosquitoes from more circumscribed areas." },
+    { "type": "p", "text": "It then adds a caution. Many of these products show repellent or insecticidal activity under certain conditions, but they have not yet been adequately evaluated in peer-reviewed studies for efficacy in preventing vector-borne diseases. Its advice is to supplement them with an EPA-registered repellent on skin or clothing, to use them with caution, and to avoid directly breathing in the spray or smoke. The chapter is written with travelers in mind, so it does not rate individual patio devices." },
+    { "type": "callout", "tone": "note", "title": "Read the label for where it can be used", "text": "A spatial repellent is a pesticide product, and its label says where and how it may be used. Follow it exactly; more product or longer use is not a way to make up for a device that seems to do little." },
+
+    { "type": "h2", "text": "What does not keep mosquitoes away?" },
+    { "type": "p", "text": "Repellent wristbands, sound-emitting devices and eating vitamin B or garlic do not work, according to the CDC Yellow Book, which calls all three ineffective. The chapter does not name phone apps, but an app that plays a tone meant to repel mosquitoes relies on the same idea as a sound-emitting device, and none of the sources behind this page supports it." },
+    { "type": "p", "text": "The same chapter says the effectiveness of non-EPA-registered repellents, including some natural ones, is unknown. EPA explains part of the reason: products made from certain ingredients are exempt from registration and were assessed for safety but have not been evaluated for effectiveness. Its examples include citronella oil, cedar oil, geranium oil, peppermint oil and soybean oil. Unknown is not the same as failed, but it means EPA has not checked the claim, so look for an EPA registration number on the label." },
+    { "type": "table", "head": ["Product", "What the sources say", "Basis"], "rows": [
+      ["Repellent wristbands", "Ineffective", "CDC Yellow Book"],
+      ["Sound-emitting devices", "Ineffective. Phone apps that play a tone rely on the same idea, though the chapter does not name them", "CDC Yellow Book"],
+      ["Eating vitamin B or garlic", "Ineffective", "CDC Yellow Book"],
+      ["Natural oils without an EPA registration number", "Effectiveness unknown; exempt products have not been evaluated for it", "CDC and EPA"],
+      ["Coils, mats and similar spatial repellents", "Some repellent activity under certain conditions; not adequately evaluated for disease prevention", "CDC Yellow Book"]
+    ], "caption": "Lights, bug zappers and colored bulbs are covered in a separate guide." },
+    { "type": "p", "text": "Lights and zappers are their own question. [What researchers have found about mosquitoes and light](/blog/are-mosquitoes-attracted-to-light) covers bug zappers, light traps, and whether yellow or LED bulbs make a difference." },
+
+    { "type": "h2", "text": "What about pets and places with very heavy mosquito numbers?" },
+    { "type": "p", "text": "EPA's repellent guidance says not to use any product on pets or other animals unless the label clearly states it is for animals, so ask a veterinarian before putting a repellent on a dog. [The guide to mosquito bites on dogs](/blog/do-mosquitoes-bite-dogs) explains why heartworm makes those bites matter and which repellents are made for dogs. In places where mosquito numbers are extreme, [how Alaska's mosquito season and numbers work](/blog/alaska-mosquitoes) shows what that looks like and how visitors protect themselves." },
+
+    { "type": "h2", "text": "What should you read next?" },
+    { "type": "p", "text": "If you are choosing gear, the [mosquito gear guide](/pest-product-guides/mosquito-gear) sorts the product categories. If you wonder why mosquitoes seem to find you first, [what attracts mosquitoes to a person](/blog/what-attracts-mosquitoes-to-you) goes through the cues they follow, and the yard-focused [guide to getting rid of mosquitoes](/blog/how-to-get-rid-of-mosquitoes) covers the part of the problem that repellent cannot." }
+  ],
+  "faqs": [
+    {
+      "question": "How often should you reapply mosquito repellent?",
+      "answer": "Follow the schedule on the product label, which CDC says to do. How long protection lasts depends on the concentration: EPA says DEET repels mosquitoes for about two to twelve hours depending on the percentage of DEET, and the CDC Yellow Book says products with less than 10 percent active ingredient often protect for only one to two hours. The Yellow Book adds that sweat, exposure to water and the product being rubbed off also affect how long protection lasts, and that if you start getting bitten you should reapply, but not more often than the label allows."
+    },
+    {
+      "question": "Can you wear sunscreen and mosquito repellent together?",
+      "answer": "Yes. CDC says to apply sunscreen first and insect repellent second. The CDC Yellow Book advises against products that combine the two, because sunscreen might need to be reapplied more often and in larger amounts than repellent. EPA says repellent goes only on exposed skin or clothing, never under clothing, and should stay away from the eyes, mouth, cuts and irritated skin. Read both labels, and wash treated skin and clothes with soap and water when you come back indoors."
+    },
+    {
+      "question": "Is DEET safe for kids?",
+      "answer": "EPA says DEET is approved for use on children with no age restriction and no restriction on the percentage of DEET in the product, and that it continues to believe normal use does not present a health concern to the general population, including children. Adults should put the product on their own hands first and then onto the child, and keep it off the child's hands, eyes, mouth, cuts and irritated skin. Ask a pediatrician about repellent for a young infant, and read the label of the specific product you are using."
+    },
+    {
+      "question": "Do natural mosquito repellents work?",
+      "answer": "It depends on whether the product is EPA-registered. CDC says the effectiveness of non-registered repellents, including some natural ones, is unknown, and EPA says products made from oils such as citronella, cedar, geranium, peppermint and soybean are exempt from registration and have not been evaluated for effectiveness. Registered options with plant origins include oil of lemon eucalyptus, its synthesized version PMD, and 2-undecanone. The CDC Yellow Book says CDC does not recommend pure oil of lemon eucalyptus, an unformulated essential oil that is not EPA-registered as a repellent."
+    },
+    {
+      "question": "Do mosquito wristbands and phone apps work?",
+      "answer": "Wristbands and sound devices do not. The CDC Yellow Book lists repellent-impregnated wristbands and sound-emitting devices among the ineffective options, along with eating vitamin B or garlic. The chapter does not name phone apps, but an app that plays a tone relies on the same idea as a sound-emitting device, and none of the sources behind this page supports it. The advice CDC does give is an EPA-registered repellent on skin, permethrin-treated clothing, loose long sleeves and pants, and screens on windows and doors."
+    },
+    {
+      "question": "Can a fan keep mosquitoes away on a patio?",
+      "answer": "A fan can help. In a Michigan field study published in the Journal of Medical Entomology in 2003, fan-generated wind up to 8.3 mph strongly reduced the number of mosquitoes caught in traps releasing carbon dioxide, and the authors recommended pursuing fan-generated wind as a practical means of protecting people or pets in a backyard. The study counted trap catches rather than bites on people, so treat a fan as an addition to repellent, not a replacement for it."
+    }
+  ],
+  "sources": [
+    { "title": "Preventing Mosquito Bites", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/prevention/index.html" },
+    { "title": "Mosquitoes, Ticks, and Other Arthropods", "publisher": "Centers for Disease Control and Prevention (CDC Yellow Book 2026)", "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/mosquitoes-ticks-and-other-arthropods.html" },
+    { "title": "Using Insect Repellents Safely and Effectively", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/insect-repellents/using-insect-repellents-safely-and-effectively" },
+    { "title": "DEET", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/insect-repellents/deet" },
+    { "title": "Regulation of Skin-Applied Repellents", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/insect-repellents/regulation-skin-applied-repellents" },
+    { "title": "Reassessment of the Role and Utility of Wind in Suppression of Mosquito (Diptera: Culicidae) Host Finding: Stimulus Dilution Supported Over Flight Limitation", "publisher": "Journal of Medical Entomology (Oxford Academic)", "url": "https://academic.oup.com/jme/article-lookup/doi/10.1603/0022-2585-40.5.607" }
+  ],
+  "disclaimer": "health"
+}

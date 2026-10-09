@@ -1,0 +1,182 @@
+{
+  "slug": "mice-traps",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "mice traps",
+  "alsoTargets": [],
+  "metaTitle": "Mice Traps: CDC Advises Snap Traps, Not Glue",
+  "metaDescription": "The CDC recommends snap traps and says not to use glue or live traps. How many to set, where to put them, which bait works and how to dispose of a mouse.",
+  "h1": "Mice Traps: Which Types to Use, How Many to Set and Where to Put Them",
+  "dek": "The CDC recommends traditional snap traps and says to skip glue and live traps. Here is how each type works, how many to set, where to place them, what bait to use and how to dispose of a catch safely.",
+  "breadcrumb": "Mice Traps",
+  "excerpt": "Snap, electronic, multiple-catch, live and glue mouse traps compared against CDC and university guidance, plus how many to set, where to put them and which bait to use.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**For most homes, a traditional snap trap is the right mouse trap.** The CDC recommends snap traps and says not to use glue traps or live traps. Set them on the floor against walls where you find droppings, with a small amount of peanut butter as bait. [UC IPM's house mouse guide](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) says to space traps no more than about 10 feet apart where mice are active.",
+    "bullets": [
+      "The CDC says traditional snap traps are recommended and glue and live traps should not be used, because they can frighten rodents into urinating, which raises your chance of getting sick.",
+      "Place each snap trap on the floor against a wall in a T shape, with the baited end touching the wall.",
+      "UC IPM says pairs of traps set 1 to 2 inches apart can increase captures of house mice that jump over obstacles.",
+      "Check traps daily, refresh bait weekly for at least 15 days, and stop only after a week with no captures and no new signs of mice.",
+      "UC IPM calls exclusion the most successful and permanent form of house mouse control, and mice can pass through openings 3/8 inch wide."
+    ]
+  },
+  "facts": {
+    "title": "Mouse traps at a glance",
+    "rows": [
+      ["Trap type the CDC recommends", "Traditional snap trap, sized for mice"],
+      ["CDC advice on glue and live traps", "Do not use them"],
+      ["Spacing in active areas", "No more than about 10 feet apart (UC IPM)"],
+      ["Placement", "Flat on the floor against a wall, bait end touching the wall"],
+      ["Bait", "A small amount of chunky peanut butter (CDC)"],
+      ["Checking", "Daily, removing any dead mouse right away (CDC)"],
+      ["How long to keep trapping", "Refresh bait weekly for at least 15 days; stop after a week with no catches and no new signs"],
+      ["How far mice range from their nest", "Seldom more than 30 feet from nest and food (UC IPM)"],
+      ["Gap size mice can use", "1/4 inch tall, or 3/8 inch wide (UC IPM)"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What is the best type of mouse trap?" },
+    { "type": "p", "text": "A traditional snap trap is the best-supported choice for most homes, and it is the type the CDC recommends. [The CDC's trapping guide](https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html) says traditional snap traps are recommended to reduce rodent populations around the home, tells readers to choose the snap trap made for the animal they have, and says not to use glue traps or live traps. Trapping is one step beside sealing up entry points and cleaning up afterward, and the [complete mice reference](/learn/mice) lays out how seal up, trap up and clean up fit together." },
+    { "type": "p", "text": "[UC IPM's house mouse Pest Note](https://ipm.ucanr.edu/home-and-landscape/house-mouse/), from the University of California, covers a wider menu: snap traps, electrocution traps, multiple-capture live traps and glue boards, with a drawback attached to most of them. The table sets the two sources side by side." },
+    { "type": "table", "head": ["Trap type", "How it works", "What the sources say", "Main drawback"], "rows": [
+      ["Snap trap (wood or plastic)", "A spring-loaded bar strikes when a mouse presses the trigger plate.", "The CDC recommends traditional snap traps. UC IPM calls the wooden mouse-size model the least expensive and says a wide trigger plate raises catch rates.", "You handle a dead mouse, and the trap needs checking every day."],
+      ["Electronic (electrocution) trap", "A battery-operated unit kills the mouse by electrocution.", "UC IPM says it costs considerably more than other traps, and that some homeowners, building managers and pest control companies have found it gives good control. The CDC trapping page does not address it.", "Needs frequent checking and removal of dead mice."],
+      ["Multiple-catch live trap", "Mice enter and are held alive; several can be caught without resetting.", "UC IPM says live mice must be removed frequently and humanely euthanized. The CDC says not to use live traps.", "You must handle and euthanize live mice."],
+      ["Single live-catch (cage) trap", "A mouse enters and a door closes behind it.", "Neither UC IPM note singles out this design, but the deer mouse note says live-capture traps in general quickly become contaminated with mouse feces and urine and leave you needing to humanely euthanize the mouse. The CDC says not to use live traps.", "Contamination, plus the same euthanasia problem."],
+      ["Glue board", "An adhesive surface holds a mouse that walks onto it.", "The CDC says not to use glue traps. UC IPM says adults can often detect and avoid the glue, so catches are mostly juveniles, and trapped mice might not die quickly.", "Slow death or a live animal to deal with; non-target animals can stick."]
+    ], "caption": "Sources: CDC, How to Trap Up to Remove Rodents (dated April 8, 2024); UC IPM, Pest Notes: House Mouse (updated July 2025) and Pest Notes: Deer Mouse (updated June 2012)." },
+    { "type": "p", "text": "The sources compare trap types, not brands. None of the sources used here reports head-to-head catch rates for named products, so a brand ranking is not something this page can back with evidence. UC IPM does name examples, such as the Victor Tin Cat and Ketch-All multiple-capture traps and the Owltra and Victor electrocution traps, and a separate roundup of [snap, electronic and catch-and-release mouse traps](/blog/best-mouse-trap-canada) compares individual models." },
+
+    { "type": "h2", "text": "How do snap traps work, and which one should you buy?" },
+    { "type": "p", "text": "Buy mouse-size snap traps with a wide trigger plate and set the trigger lightly. UC IPM says the simple wooden mouse-size snap trap is the least expensive option, that some people prefer plastic traps because they are easier to set and clean, that traps with a wide trigger plate have higher catch rates, and that triggers should be set lightly so the traps spring easily. Its comparison of wood and plastic is about price and handling, not about how many mice each one catches." },
+    { "type": "media", "needed": "Side-by-side photo of a wooden mouse-size snap trap and a plastic mouse snap trap, both set, with a US quarter next to each trigger plate for scale" },
+    { "type": "p", "text": "Size matters. [UC IPM's rat Pest Note](https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/) says mice and small juvenile rats often won't trigger a rat snap trap, and the CDC trapping guide says there are different traps for mice and rats. If you are not sure which animal is leaving droppings, the guide to [types of mice and the animals mistaken for them](/blog/types-of-mice) shows how to tell them apart, and a separate comparison explains [why a mouse trap fails on a rat](/blog/best-rat-trap-canada)." },
+    { "type": "callout", "tone": "tip", "title": "Read the package first", "text": "Read the instructions on the package before setting any snap trap. The CDC tells readers to follow trap instructions carefully and to keep traps and bait out of reach of children and pets." },
+
+    { "type": "h2", "text": "Are electronic mouse traps worth it?" },
+    { "type": "p", "text": "They can work, but the support is user reports and they cost considerably more than snap traps. [UC IPM](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) describes battery-operated traps that kill by electrocution, says some homeowners, managers of commercial buildings and pest control companies have found that they give good house mouse control, and does not state a catch rate. As with snap traps, it says you need enough traps to achieve control in a timely manner, and the traps must be checked frequently with dead mice removed for disposal." },
+    { "type": "p", "text": "The CDC's trapping page does not discuss electronic traps, so its recommendation of traditional snap traps is not a verdict against them. For deer mice, [UC IPM's deer mouse Pest Note](https://ipm.ucanr.edu/home-and-landscape/deer-mouse/pest-notes/) says snap traps and electrocution traps can both be used to remove them from in and around buildings. A separate review looks at [one specific electronic mouse trap model](/blog/victor-electronic-mouse-trap-review-canada) in detail." },
+
+    { "type": "h2", "text": "Why does the CDC say not to use glue traps or live traps?" },
+    { "type": "p", "text": "The CDC says these traps can scare the rodent, causing it to urinate, which can increase your chance of getting sick. That reasoning is about disease exposure, not only about the animal. UC IPM's deer mouse note describes deer mice as the principal reservoir of Sin Nombre virus, which causes hantavirus pulmonary syndrome in people, advises avoiding glue boards for deer mice, and says live-capture traps quickly become contaminated with mouse feces and urine. The [deer mouse guide](/blog/deer-mice) explains why that species matters for hantavirus." },
+    { "type": "p", "text": "The sources disagree on tone. The CDC says not to use glue or live traps at all. UC IPM's house mouse note treats them as available tools and lists what goes wrong with each:" },
+    { "type": "ul", "items": [
+      "**Glue boards.** Adult mice can often detect and avoid the glue, so catches are mostly juveniles, and mice caught on glue boards and other live-catch traps might not die quickly and will need to be euthanized. If you use one anyway, UC IPM says to place it along walls and never where children, pets or desirable wildlife can touch it. Non-target animals can usually be freed with vegetable oil as a solvent. For rats, [UC IPM's rat note](https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/) calls glue traps not generally recommended for nonprofessional use.",
+      "**Multiple-catch live traps.** Live mice must be removed frequently and humanely euthanized. UC IPM says relocation is ineffective because house mice removed from their home ranges by as much as a half mile have been shown to navigate back to their nest site.",
+      "**Single-catch cage traps.** UC IPM's deer mouse note says live-capture traps of any kind quickly become contaminated with feces and urine, and the trapped mouse still has to be humanely euthanized. The house mouse note adds that drowning a trapped mouse isn't considered humane, even though trap makers sometimes suggest it."
+    ] },
+    { "type": "p", "text": "Releasing a live mouse is also a legal question. UC IPM says that in California it is illegal to relocate live wildlife, including house mice, away from the property where it was captured without a special permit from the California Department of Fish and Wildlife. Other states have their own rules, so check with your state wildlife agency before moving any live animal. The guide to [humane mouse control](/blog/how-to-get-rid-of-mice-humanely) weighs these points against the welfare of the animal." },
+
+    { "type": "h2", "text": "How many mouse traps should you set?" },
+    { "type": "p", "text": "Set enough traps that no mouse has far to go, and space them no more than about 10 feet apart wherever mice are active. That spacing comes from UC IPM's house mouse note, which adds that you should use enough traps to make the trapping period short and decisive. Applied to a basement wall with droppings along its 30-foot length, the 10-foot rule works out to roughly four traps on that wall alone." },
+    { "type": "table", "head": ["Source", "What it says about trap numbers"], "rows": [
+      ["UC IPM, house mouse", "Space traps no more than about 10 feet apart where mice are active. Pairs set 1 to 2 inches apart can increase captures of mice that jump over obstacles. Use enough traps to make trapping short and decisive."],
+      ["UC IPM, deer mouse", "Same 10-foot spacing where there is evidence of activity. A dozen or more traps may be needed for a large population."],
+      ["National Pesticide Information Center", "Introduce traps early, estimate the number from the suspected number of rodents, and set extra back-up traps because occasional trap failure should be expected."],
+      ["CDC", "Set traps throughout the home to catch any rodents that may still be inside. No fixed number is given."]
+    ], "caption": "Guidance from UC IPM, the National Pesticide Information Center (NPIC) and the CDC." },
+    { "type": "p", "text": "Placement counts as well as numbers. UC IPM says house mice seldom venture more than 30 feet from their nest sites and food supply, so a trap in a far corner does little for a mouse living behind the stove. Concentrate traps where you find droppings, fresh gnaw marks and tracks, which UC IPM lists as the signs of active areas. Speed is the reason to lean toward more traps: UC IPM says a female may have 5 to 10 litters of about 5 or 6 pups each in a single year, so a thin, slow effort gives mice more time to breed." },
+
+    { "type": "h2", "text": "Where should you put mouse traps?" },
+    { "type": "p", "text": "Put each snap trap flat on the floor against a wall in a T shape, with the baited end touching the wall, in places where you have found signs of mice. That is the CDC's instruction, and it gives the reason: rodents prefer to run next to walls or other objects for safety. UC IPM agrees on the geometry, saying to place traps close to walls so house mice pass directly over the trigger, and the deer mouse note says to set them at the juncture of a wall and the floor with the trigger pointed toward the wall." },
+    { "type": "p", "text": "The CDC lists the places to start:" },
+    { "type": "ul", "items": [
+      "**Where you have seen activity.** That means mice, nesting materials, urine and droppings, nibbled food, or gnaw marks.",
+      "**Closed-in spots in the kitchen.** The CDC names behind the stove and refrigerator and the back of cabinets and drawers.",
+      "**Likely entry areas.** These include attics, basements, crawlspaces and other areas without regular human traffic.",
+      "**Outbuildings and shelters.** The CDC also names outbuildings and any area that could serve as a rodent shelter."
+    ] },
+    { "type": "media", "needed": "Top-down diagram of a kitchen and basement floor plan showing snap traps set in a T shape against walls behind the stove, refrigerator, inside a base cabinet and along a basement wall, with the baited ends touching the wall" },
+    { "type": "callout", "tone": "warning", "title": "Children and pets", "text": "The CDC says to keep baits and traps out of reach of children and pets. It also advises placing traps in closed areas, such as behind the stove and refrigerator and at the back of cabinets and drawers." },
+
+    { "type": "h2", "text": "What is the best bait for a mouse trap?" },
+    { "type": "p", "text": "Chunky peanut butter is the bait the CDC says works best, along with mutton fat, and a small amount goes on the bait pan. UC IPM lists peanut butter as a popular choice too, and adds a warning about quantity: use a small amount on the trigger plate, because if you use too much, the mouse may be able to remove it without triggering the trap. It also notes that peanut butter can pose allergy risks to people in some situations, and that the best bait is often the food the mice are already eating. For deer mice, the deer mouse note says peanut butter or peanut butter mixed with cereal or rolled oats is usually an effective attractant." },
+    { "type": "p", "text": "UC IPM also describes a bait that is not food. Reproductive females are highly motivated to nest-build, so a ball of cotton wool or dental floss can be an effective bait. What mice eat in a house, and why that makes some baits work better than others, is covered in the guide to [what mice eat](/blog/what-do-mice-eat)." },
+    { "type": "h3", "text": "Do you need to pre-bait mouse traps?" },
+    { "type": "p", "text": "The CDC describes pre-baiting as a step for rats and does not ask for it with mice. It says rats tend to fear anything new and recommends pre-baiting for them, which means baiting the traps without setting them until the bait is being eaten, while house mice and deer mice are less cautious and may be trapped more quickly. [UC IPM's rat note](https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/) says rats often avoid traps and baits for the first several days and maybe weeks. If new droppings, urine spots or gnawing persist after a week of trapping, the CDC says you may be dealing with rats." },
+
+    { "type": "h2", "text": "How often should you check mouse traps, and how long do you keep trapping?" },
+    { "type": "p", "text": "Check every trap each day and remove any dead mouse right away. The CDC also says to check the bait every week and refill or move it as needed for at least 15 days, and to leave baited traps out longer if you still have mice. Electronic and multiple-catch traps need frequent attention too, according to UC IPM, because dead or live mice have to be removed from them." },
+    { "type": "p", "text": "The CDC's stopping rule is a full week with no captures and no new signs of rodents. The page words that test in terms of rats, but the guide is written for mice and rats alike. Until you reach that point, reset traps whenever one springs. If trapping does not resolve the problem, the CDC says you could consider a poison bait station or seek professional help, and says to use poison or bait stations only for infestations that persist. The [National Pesticide Information Center](https://npic.orst.edu/pest/rodent.html) puts rodenticides last: try prevention, sanitation and exclusion first. The guide to [mouse poison and the EPA rules](/blog/mice-poison) covers that option, and [what a professional mouse removal involves](/blog/mice-removal) covers the other." },
+
+    { "type": "h2", "text": "Why are my mouse traps not catching anything?" },
+    { "type": "p", "text": "Likely causes include the wrong size of trap, too much bait, a stiff trigger, traps placed away from the walls mice run along, too few traps, or new mice moving in. Each row below ties a cause to the guidance that addresses it." },
+    { "type": "table", "head": ["Possible cause", "What the sources say", "What to change"], "rows": [
+      ["A rat-size trap set for mice", "UC IPM says mice and small juvenile rats often won't trigger a rat snap trap.", "Use a mouse-size snap trap for mice."],
+      ["Too much bait", "UC IPM says a mouse may be able to remove a large amount without triggering the trap.", "Use a small amount on the trigger plate."],
+      ["A stiff trigger", "UC IPM says triggers should be set lightly so traps spring easily, and wide trigger plates catch more.", "Set the trigger lightly; choose a wide plate."],
+      ["Trap not on the mouse's path", "The CDC says rodents run next to walls; UC IPM says to place traps close to walls so mice cross the trigger.", "Lay traps flat against walls where you find droppings, in a T shape."],
+      ["Mice jumping over single traps", "UC IPM says pairs set 1 to 2 inches apart can increase captures of mice that jump over obstacles.", "Set traps in pairs on busy runs."],
+      ["Too few traps", "UC IPM calls for enough traps to make trapping short and decisive; NPIC says to expect occasional failures.", "Space traps no more than about 10 feet apart and add backups."],
+      ["It may be rats", "The CDC says new droppings or gnawing after a week may mean rats, which avoid new objects.", "Pre-bait unset traps and use rat-size traps."],
+      ["New mice keep arriving", "UC IPM calls exclusion the most successful and permanent form of house mouse control.", "Find and seal every gap larger than 1/4 inch."]
+    ], "caption": "Drawn from CDC and UC IPM guidance cited elsewhere on this page." },
+
+    { "type": "h2", "text": "How do you dispose of a dead mouse and clean a trap safely?" },
+    { "type": "p", "text": "Wear rubber or plastic gloves, spray the mouse and the area around it with disinfectant, let it soak for 5 minutes or for the time on the disinfectant label, then seal it in two plastic bags and put it in a covered garbage can. Those steps are from [the CDC's cleanup guide](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html), which accepts a general-purpose household disinfectant or a freshly made mix of 1.5 cups of household bleach in 1 gallon of water, which is 1 part bleach to 9 parts water." },
+    { "type": "ol", "items": [
+      "Put on rubber or plastic gloves before touching the trap or the mouse.",
+      "Spray the dead mouse and the area around it with disinfectant, and let it soak for 5 minutes or according to the instructions on the disinfectant label.",
+      "Place the mouse in a plastic bag along with any used traps you are throwing away, tie the bag shut, and put it inside a second plastic bag and tie that shut too.",
+      "Put the bag in a covered garbage can that is emptied regularly.",
+      "Wash your gloved hands with soap and water or disinfectant before removing the gloves, then wash your bare hands with soap and warm water."
+    ] },
+    { "type": "p", "text": "A snap trap can be reused. The CDC says to submerge the trap with the rodent in disinfectant in a bucket for 5 minutes while wearing rubber gloves, take the rodent out, rinse the trap with water and dry it completely. UC IPM's deer mouse note gives a longer soak time for its own disinfectant step, 10 minutes with Lysol or a 10% hypochlorite (bleach) solution, so follow your disinfectant's label if you are unsure. UC IPM's house mouse note adds a basic rule: do not touch mice with your bare hands, and wash your hands thoroughly after handling traps." },
+    { "type": "callout", "tone": "warning", "title": "Do not sweep or vacuum droppings", "text": "The CDC says not to vacuum or sweep rodent urine, droppings or nesting materials, because that can put tiny droplets containing viruses into the air. It also says to talk to a healthcare provider if you think a recent illness may be due to a rodent-borne disease, and to tell them about any exposure to rodents." },
+    { "type": "p", "text": "Cleaning up around the trap, including droppings and nests, is a separate job from disposing of the catch. The guide to [mouse removal and cleanup](/blog/mice-removal) walks through it, and a guide to [what mouse droppings look like](/blog/what-does-mouse-poop-look-like-canada), fresh and old, helps you tell whether activity is current." },
+
+    { "type": "h2", "text": "Do mouse traps solve a mouse problem on their own?" },
+    { "type": "p", "text": "No. UC IPM calls exclusion the most successful and permanent form of house mouse control and says traps and other tools must be paired with sanitation and exclusion. It gives the target as eliminating all gaps and openings larger than 1/4 inch, and says mice can squeeze under gaps 1/4 inch tall and through openings 3/8 inch wide. The National Pesticide Information Center gives the same 1/4 inch threshold for cracks and crevices. The [steel wool guide](/blog/steel-wool-for-mice) covers which materials suit which gaps." },
+    { "type": "p", "text": "Repellents are a different question. UC IPM says there is little evidence that sound, magnetic or vibrational devices of any kind will drive established house mice or rats from buildings. Scent products fall outside that sentence, and the explainer on [Vamoose and what the evidence says about it](/blog/vamoose-for-mice) covers what that product claims, what its ingredients are and what a repellent can and cannot do alongside traps. For a browsable overview of mouse and rat products, see the [rodent control product guide](/pest-product-guides/rodent-control)." }
+  ],
+  "howTo": {
+    "name": "How to trap mice with snap traps",
+    "steps": [
+      { "name": "Pick the right trap", "text": "Buy mouse-size traditional snap traps with a wide trigger plate, since the CDC recommends snap traps and advises against glue and live traps." },
+      { "name": "Find the activity", "text": "Look for droppings, fresh gnaw marks, tracks and nesting material, and note the walls, corners and spaces behind appliances where mice are moving." },
+      { "name": "Bait lightly", "text": "Put a small amount of chunky peanut butter on the bait pan, because too much lets a mouse remove it without springing the trap." },
+      { "name": "Set the trigger lightly", "text": "Follow the package instructions and set the trigger lightly so the trap springs easily, keeping your fingers clear of the bar." },
+      { "name": "Place against walls", "text": "Lay each trap flat on the floor against a wall in a T shape with the baited end touching the wall, no more than about 10 feet apart where mice are active." },
+      { "name": "Double up on busy runs", "text": "Set traps in pairs 1 to 2 inches apart where mice travel, since pairs can catch mice that jump over a single trap." },
+      { "name": "Keep traps out of reach", "text": "Use closed-in spots such as behind the stove or at the back of cabinets, and keep all traps and bait away from children and pets." },
+      { "name": "Check daily and dispose safely", "text": "Check every trap each day wearing gloves, spray any dead mouse with disinfectant, let it soak for 5 minutes or as the label says, then double-bag it and use a covered garbage can." },
+      { "name": "Keep trapping", "text": "Refresh the bait weekly for at least 15 days and keep resetting traps until a full week passes with no captures and no new signs." },
+      { "name": "Seal the entry points", "text": "Close every gap larger than 1/4 inch so new mice cannot move in to replace the ones you have caught." }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is the best bait for mouse traps?",
+      "answer": "The CDC says chunky peanut butter or mutton fat works best, in a small amount on the bait pan. University of California IPM also lists peanut butter as popular and warns that too much bait lets a mouse remove it without triggering the trap. Because reproductive females are highly motivated to build nests, UC IPM adds that a ball of cotton wool or dental floss can also serve as bait. For deer mice, peanut butter mixed with cereal or rolled oats is usually effective."
+    },
+    {
+      "question": "Are glue traps a good way to catch mice?",
+      "answer": "The CDC says not to use glue traps, because they can scare rodents into urinating, which raises your chance of getting sick. University of California IPM adds that adult mice can often detect and avoid the glue, so catches are mostly juveniles, and that mice caught this way might not die quickly and will need to be euthanized. Its deer mouse note advises avoiding glue boards for deer mice altogether."
+    },
+    {
+      "question": "Can you release a mouse you caught in a live trap?",
+      "answer": "It is a poor option on the evidence. University of California IPM says relocation is ineffective, because house mice moved as far as a half mile have been shown to find their way back to their nest. It also says that in California, moving live wildlife off the property where it was captured is illegal without a special permit. Other states have their own rules, and the CDC advises against live traps in the first place."
+    },
+    {
+      "question": "How long does it take for a mouse to get caught in a trap?",
+      "answer": "The sources give no fixed time. The CDC says house mice and deer mice are less cautious than rats and may be trapped more quickly, while rats may take several days to approach a trap. Its advice is to check traps daily, refresh the bait weekly for at least 15 days, and keep trapping until a week passes with no captures and no new signs of rodents."
+    },
+    {
+      "question": "Do you need gloves to handle a mouse trap?",
+      "answer": "Yes, wear them. The CDC says to wear rubber or plastic gloves when handling a dead rodent, and to wash your gloved hands before removing the gloves and your bare hands afterward. University of California IPM says not to touch mice with bare hands, and its deer mouse note recommends rubber, latex, vinyl or nitrile gloves when removing traps, resetting used and older traps, and disposing of dead mice."
+    },
+    {
+      "question": "Is one trap enough if I only saw one mouse?",
+      "answer": "Probably not. University of California IPM says to use enough traps to make the trapping period short and decisive, spacing them no more than about 10 feet apart where mice are active. It notes that a female house mouse may have 5 to 10 litters of about 5 or 6 pups in a year, and that a dozen or more traps may be needed for a large deer mouse population. The National Pesticide Information Center advises setting back-up traps."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: House Mouse", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/house-mouse/" },
+    { "title": "Pest Notes: Deer Mouse", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/deer-mouse/pest-notes/" },
+    { "title": "Pest Notes: Rats", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/" },
+    { "title": "How to Trap Up to Remove Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" },
+    { "title": "How to Clean Up After Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
+    { "title": "Rodents", "publisher": "National Pesticide Information Center, Oregon State University", "url": "https://npic.orst.edu/pest/rodent.html" }
+  ]
+}

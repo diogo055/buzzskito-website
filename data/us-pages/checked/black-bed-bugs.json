@@ -1,0 +1,10 @@
+{
+ "id": "black-bed-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "3e41f354d5c461ca789e9d65ffb47e75c59bd891fcf424b87bcb83d031eeddda",
+ "claimsChecked": 60,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 10,
+ "checkedOn": "2026-10-08"
+}

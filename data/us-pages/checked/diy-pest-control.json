@@ -1,0 +1,10 @@
+{
+ "id": "diy-pest-control",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "5b8a69bd12114524a856dc48d3705d76e89eff1047d1a4b86287b5b670204bf7",
+ "claimsChecked": 110,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-08"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "mice-repellent",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "76fe6511ae20a67a6d77815bf15afefd153216ec3e8a6ec4a30eea49d465b809",
+ "claimsChecked": 62,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-08"
+}

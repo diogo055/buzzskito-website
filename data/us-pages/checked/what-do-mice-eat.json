@@ -1,0 +1,10 @@
+{
+ "id": "what-do-mice-eat",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "c433da297f7e3f2aa6e5131cc7f61f19b8ea171b8f98319096263b53ade9f1ee",
+ "claimsChecked": 78,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-10-08"
+}

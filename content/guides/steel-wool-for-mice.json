@@ -1,0 +1,204 @@
+{
+  "slug": "steel-wool-for-mice",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "steel wool for mice",
+  "alsoTargets": [],
+  "metaTitle": "Steel Wool for Mice: Where It Works and Fails",
+  "metaDescription": "Steel wool plugs small mouse holes, but extension sources call it temporary. How to pack and caulk it, and what bigger gaps need instead.",
+  "h1": "Steel Wool for Mice: Does It Work, and How to Use It Properly",
+  "dek": "What the CDC and university extension services say about stuffing mouse holes with steel wool: how to pack and caulk it, where it rusts or fails, and which gaps need copper wool, hardware cloth or metal instead.",
+  "breadcrumb": "Steel Wool for Mice",
+  "excerpt": "Steel wool plugs small mouse holes, and the CDC says to caulk around it. Learn how to pack it, why it is only temporary, and which gaps need hardware cloth or metal.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Steel wool plugs small mouse holes well enough that the CDC recommends it, but university sources call it a temporary fix.** [The CDC](https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html) says to fill small holes with steel wool and put caulk around it to hold it in place. Bigger holes need hardware cloth, sheet metal or concrete, and plain steel wool can rust over time.",
+    "bullets": [
+      "Mice can fit through a hole about 1/4 inch (6 mm) across, the width of a pencil, according to the CDC.",
+      "The CDC method is steel wool in the hole with caulk around it to keep it in place; its page names spray foam as the alternative to the caulk.",
+      "UC IPM says steel wool may rust over time, and the University of Nebraska says coarse steel wool will eventually rust.",
+      "For openings under 3/4 inch that cannot be secured another way, Nebraska recommends copper or stainless steel wool wedged in tightly.",
+      "For larger openings, Nebraska lists 24-gauge hardware cloth with 1/4-inch mesh as the mouse-proof wire.",
+      "UC IPM lists expanding foam, plastic screening, rubber, vinyl and wood as ineffective for plugging holes mice use."
+    ]
+  },
+  "facts": {
+    "title": "Steel wool for mice at a glance",
+    "rows": [
+      ["Smallest hole a mouse uses", "About 1/4 inch (6 mm), the width of a pencil (CDC)"],
+      ["Steel wool's role", "Plug for small holes, held in place with caulk or foam (CDC)"],
+      ["How long it lasts", "Called a temporary plug that can rust (UC IPM, Missouri, Nebraska)"],
+      ["Longer-lasting wedge", "Copper or stainless steel wool for openings under 3/4 inch (Nebraska)"],
+      ["Larger openings", "Hardware cloth, sheet metal, lath screen or concrete (CDC, Nebraska)"],
+      ["Mouse-proof wire mesh", "24 gauge, 1/4 by 1/4-inch mesh (Nebraska)"],
+      ["Door gap limit", "Under 1/4 inch between door bottom and threshold (Nebraska)"],
+      ["Do not rely on alone", "Expanding foam, plastic screening, rubber, vinyl or wood (UC IPM)"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Does steel wool keep mice out?" },
+    { "type": "p", "text": "Steel wool blocks small mouse holes, and the CDC tells people to use it for that job, but the extension sources treat it as a temporary plug instead of a permanent repair. [The CDC's guide to sealing up](https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html) says to fill small holes with steel wool and to put caulk around it to keep it in place, or to use spray foam instead. The weak point is how long the plug lasts, not the idea. [UC IPM's house mouse page](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) calls steel wool scouring pads good temporary plugs that may rust over time, and [the University of Missouri's house mouse publication](https://extension.missouri.edu/publications/g9442) says steel wool makes a good temporary plug, then points to metal or concrete for foundation cracks and for openings around pipes, vents and utilities." },
+    { "type": "table", "head": ["Source", "What it says about steel wool", "What it says about everything else"], "rows": [
+      ["CDC", "Fill small holes with steel wool, and put caulk around it to keep it in place or use spray foam.", "For larger holes, use lath screen or metal, cement, hardware cloth or metal sheeting."],
+      ["UC IPM", "Coarse steel wool or wire screen can seal small cracks and openings; steel wool scouring pads make good temporary plugs but may rust.", "Expanding foam, plastic screening, rubber, vinyl and wood are ineffective for plugging mouse holes."],
+      ["University of Missouri", "Steel wool makes a good temporary plug.", "Seal foundation cracks and openings for water pipes, vents and utilities with metal or concrete."],
+      ["University of Nebraska", "Coarse steel wool is a temporary measure that will eventually rust; copper or stainless steel wool is the wedge for openings under 3/4 inch.", "Mouse-proof hardware cloth is 24 gauge with 1/4-inch mesh; other options are sheet metal and concrete."]
+    ], "caption": "Paraphrased from the CDC, UC IPM, University of Missouri and University of Nebraska pages cited in this guide." },
+    { "type": "p", "text": "No page reviewed for this guide reports how often mice get past steel wool compared with other materials, so what follows is agency and extension guidance, not measured failure rates. All four sources name steel wool as a plug, and the CDC and the Nebraska guide send larger holes to sturdier materials." },
+    { "type": "p", "text": "Sealing is one step in a sequence. The CDC's page on [controlling wild rodent infestations](https://www.cdc.gov/healthy-pets/rodent-control/index.html) splits the work into three jobs, [sealing up](https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html), trapping up and [cleaning up](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html), and [the complete guide to mice control](/learn/mice) shows how those fit together with species, health risks, traps and when to call a professional." },
+    { "type": "media", "needed": "Close-up photo of a gap around a copper water pipe where it passes through a cabinet wall under a kitchen sink, with a wad of coarse steel wool packed into the gap and a bead of caulk run around it" },
+
+    { "type": "h2", "text": "How small a hole can a mouse get through?" },
+    { "type": "p", "text": "About 1/4 inch, roughly the width of a pencil. [The CDC](https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html) puts it at 1/4 inch (6 millimeters), and the other sources use nearly the same number, worded a little differently:" },
+    { "type": "table", "head": ["Source", "Figure for mice"], "rows": [
+      ["CDC", "A hole 1/4 inch (6 mm) across, the width of a pencil"],
+      ["UC IPM", "Gaps 1/4 inch tall and openings 3/8 inch wide; it advises eliminating all gaps and openings larger than 1/4 inch"],
+      ["University of Missouri", "Openings slightly larger than 1/4 inch wide"],
+      ["University of Nebraska", "A gap slightly larger than 1/4 inch (rats need slightly more than 1/2 inch)"]
+    ], "caption": "Figures as stated in the pages cited in this section." },
+    { "type": "p", "text": "The pages state the limit in different ways (a hole, a gap height, an opening width), but they agree on 1/4 inch as the number to build around. A crack narrower than that is not automatically safe. [Nebraska's rodent-proofing guide](https://extensionpubs.unl.edu/publication/g1530/html/view) warns that gnawing can quickly enlarge small crevices, and that rats and mice can gnaw into most materials once they have a rough surface or an edge to start on." },
+    { "type": "p", "text": "Height does not protect a hole, either. The same Nebraska guide says rats and mice can climb almost any rough vertical surface, run along wires, cables and vines, and crawl along pipes, and it credits house mice with a vertical jump of 18 inches. [UC IPM](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) adds that house mice are excellent climbers, which is why it advises thinning or removing plants that touch or climb a building. The limits of that climbing are covered in [how high mice can climb and jump](/blog/can-mice-climb-walls); for sealing purposes, treat any hole above floor level as one a mouse can reach." },
+
+    { "type": "h2", "text": "What kind of steel wool should you use?" },
+    { "type": "p", "text": "Coarse steel wool is the kind the sources name, and the University of Nebraska names copper or stainless steel wool for a wedge that has to last. [UC IPM](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) recommends coarse steel wool or wire screen for sealing small cracks and openings and describes both as materials mice cannot chew through, while [Nebraska's guide](https://extensionpubs.unl.edu/publication/g1530/html/view) also specifies coarse steel wool, but only as a temporary measure." },
+    { "type": "h3", "text": "Coarse steel wool, and what the sources leave out" },
+    { "type": "p", "text": "None of the pages assigns a numbered grade, so there is no extension-approved number to look for on the pack. The practical reading is to buy the coarsest plain steel wool on the shelf. UC IPM's wording covers steel wool scouring pads, and the pages do not address soap-filled pads, so plain wool is the closer match to what the sources describe." },
+    { "type": "h3", "text": "Copper and stainless steel wool" },
+    { "type": "p", "text": "For an opening less than 3/4 inch wide that cannot be secured by other means, Nebraska says to wedge copper or stainless steel wool tightly into the gap. It sets that instruction beside the remark that coarse steel wool will do as a temporary measure but will eventually rust. The guide does not spell out why it names copper and stainless first; corrosion is the obvious reading, but that is an inference, not a finding. No source reviewed compares copper with steel wool in a trial or gives a lifespan for either, and products sold as copper mesh are not named in these pages; Nebraska's wording is copper or stainless steel wool." },
+
+    { "type": "h2", "text": "How do you pack steel wool into a hole and lock it in place?" },
+    { "type": "p", "text": "Pull the wool into a loose wad, pack it into the hole until it is tight, then run caulk around it so it cannot be tugged out. That is the CDC's method in a sentence, and the steps below add the checks the other sources call for. Wear work gloves, because steel wool is rough on bare hands." },
+    { "type": "ol", "items": [
+      "Confirm the mice are out, or that traps are working, before you close anything; the warning below explains why.",
+      "Measure the opening against the sizes in the table further down. This guide treats steel wool as a plug for openings up to about 3/4 inch, and wider ones need a sturdier barrier.",
+      "Clear droppings and nesting material from the opening safely. [The CDC's cleanup guidance](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) says not to sweep or vacuum them, because that can put virus-carrying droplets into the air; it says to wear rubber or plastic gloves, spray them with bleach solution or an EPA-registered disinfectant until very wet, let that soak for 5 minutes or as the disinfectant label instructs, and wipe up with paper towels. A fuller method is in [the guide to mice removal and cleanup](/blog/mice-removal).",
+      "Pull the wool apart and pack it in tightly with a screwdriver tip or putty knife, filling the hole's depth and not just its mouth.",
+      "Put caulk around the wool so it stays in place. Spray foam is the CDC's alternative, but read the foam section below before choosing it.",
+      "For a large void behind the hole, follow Nebraska's order: caulk with a backing material to stop airflow first, then fasten a gnaw-resistant barrier over the gap.",
+      "Check the spot again after a few days and then periodically. Droppings, gnaw marks or pulled-out wool next to a plug mean a mouse has tested it."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "Do not seal while mice are still using the hole", "text": "Nebraska's guide says that if there is any doubt whether an animal is using a hole, do not close it until the species is identified and a control program is decided on, and warns that ignoring this may cause further structural damage and personal injury. That is the reason to have [mouse traps](/blog/mice-traps) working before the last holes are closed." },
+    { "type": "media", "needed": "Cross-section diagram of a pipe passing through a wall: steel wool packed deep into the gap around the pipe, a bead of caulk around the wool at the surface, with the outside (mouse side) and the inside (house side) labeled" },
+    { "type": "p", "text": "The CDC's page on [controlling wild rodent infestations](https://www.cdc.gov/healthy-pets/rodent-control/index.html) says to check the home regularly for droppings and gnaw marks, since both signal that rodents are present. If you are unsure what you are looking at, [this guide to mouse droppings](/blog/what-does-mouse-poop-look-like-canada) explains size, shape and fresh versus old." },
+
+    { "type": "h2", "text": "Does steel wool rust, and can mice pull it out?" },
+    { "type": "p", "text": "Yes, plain steel wool rusts, and every source that comments on its durability says so. [UC IPM](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) says steel wool pads may rust over time, [Nebraska](https://extensionpubs.unl.edu/publication/g1530/html/view) says coarse steel wool will eventually rust, and [Missouri](https://extension.missouri.edu/publications/g9442) calls it a temporary plug. None gives a timeline or says what rust does to a plug's grip, so how long one lasts in a damp crawl space versus a dry cabinet is not established. In a different context, Nebraska notes that nongalvanized wire mesh used as a foundation curtain wall generally lasts 5 to 10 years depending on its exposure to moisture, and that galvanized or stainless steel mesh lasts significantly longer. That is a different material in a different job, but it shows how much the finish on steel matters." },
+    { "type": "p", "text": "Whether mice can pull an unsecured wad of wool out is the least documented point. No page reviewed reports it either way. The CDC's instruction to put caulk around the wool to keep it in place suggests the risk is real enough to design for, and Nebraska adds that rodents often gnaw into walls at corners or where joints in the construction give them an edge, which suggests the surrounding material, not just the wool, is where a plug can be defeated." },
+    { "type": "p", "text": "As for chewing, UC IPM describes coarse steel wool as something mice cannot chew through, and the materials Nebraska says rodents gnaw through (aluminum sheeting, wood, rubber, vinyl, plastic and concrete block) do not include steel wool. None of the pages reports mice chewing through it, but the rodent-proofing guide still cautions that proofing is not a guarantee, a point covered at the end of this guide." },
+
+    { "type": "h2", "text": "Which size of hole needs which material?" },
+    { "type": "p", "text": "Steel wool, or copper wool, is for openings up to about 3/4 inch; anything wider moves to rigid materials such as hardware cloth, metal or concrete. The cutoff is this guide's reading of Nebraska's 3/4-inch figure for wedging wool; the CDC separates small holes from larger ones without giving a measurement." },
+    { "type": "table", "head": ["Opening", "What the sources recommend", "Source"], "rows": [
+      ["Crack narrower than 1/4 inch", "Below the size mice need, but small crevices should not be ignored because gnawing enlarges them; caulk is the filler Nebraska names for voids suited to it.", "Nebraska"],
+      ["Hole or gap from 1/4 inch to about 3/4 inch, such as around a pipe or cable", "Steel wool packed in with caulk around it; copper or stainless steel wool wedged in tightly if the plug has to last.", "CDC; Nebraska"],
+      ["Hole wider than about 3/4 inch", "Lath screen or metal, cement, hardware cloth or metal sheeting; for mice, 24-gauge hardware cloth with 1/4-inch mesh.", "CDC; Nebraska"],
+      ["Gap under an exterior door", "Keep the distance between the door bottom and the threshold under 1/4 inch, and put metal flashing or a metal channel on the lower edge, especially of softwood doors.", "Nebraska"],
+      ["Cracks in a foundation", "Concrete or masonry grout; UC IPM and Missouri say metal or concrete.", "Nebraska; UC IPM; Missouri"],
+      ["Openings around water pipes, vents and utility cables", "Metal or concrete, or another gnaw-resistant material around the pipe or wire.", "UC IPM; Missouri; Nebraska"],
+      ["Vents and windows", "Galvanized hardware cloth, hail screen or welded-wire mesh.", "Nebraska"],
+      ["Clothes dryer vent", "Needs special treatment: seal gaps between the pipe and the structure and consider a vent cover with a floating ball; improper screening hastens lint build-up and fire risk.", "Nebraska"]
+    ], "caption": "Paraphrased from the CDC, UC IPM, University of Missouri and University of Nebraska pages cited in this guide." },
+
+    { "type": "h2", "text": "When do hardware cloth, sheet metal or concrete beat steel wool?" },
+    { "type": "p", "text": "Once the opening is wider than about 3/4 inch, or when a surface keeps getting gnawed, the sources move from wool to rigid materials. The CDC's list for larger holes is lath screen or metal, cement, hardware cloth and metal sheeting, cut to fit around pipes, and it also says to fix gaps in trailer skirting and to use flashing around the base of the house." },
+    { "type": "h3", "text": "Hardware cloth" },
+    { "type": "p", "text": "Nebraska's specification for keeping out mice is hardware cloth (wire mesh) of 24 gauge with 1/4 by 1/4-inch openings. Its 19-gauge, 1/2 by 1/2-inch cloth is listed for rats, not mice. Galvanized cloth is the type Nebraska recommends for covering ventilation openings and windows. The same guide cautions that mesh smaller than 1/2 by 1/2 inch significantly reduces airflow, and that caution is written with livestock buildings in mind, so check with a building professional if a vent in your house has to keep a set amount of airflow." },
+    { "type": "h3", "text": "Sheet metal and concrete" },
+    { "type": "p", "text": "Nebraska lists galvanized sheet metal of 24 gauge or heavier, and concrete at least 2 inches thick if reinforced or 3 3/4 inches if not, as materials for rodent-proofing. UC IPM and Missouri both call for metal or concrete around foundation cracks and openings for water pipes, vents and utility cables, and both say it may be necessary to cover the edges of doors and windows with metal to stop gnawing. Nebraska adds that rats and mice can quickly gnaw through rubber or vinyl weather stops, so weather stripping is a spot to watch, not a mouse-proof barrier on its own." },
+    { "type": "p", "text": "A garage door is an exterior door like any other under Nebraska's limit of less than 1/4 inch between the door bottom and the threshold. [This guide to sealing the corner gap of a garage door](/blog/mouse-proof-garage-door-seal-canada) goes into one spot where that gap can open up." },
+
+    { "type": "h2", "text": "Can spray foam or caulk do the job on its own?" },
+    { "type": "p", "text": "Not according to the sources, which treat foam and caulk as the glue and the steel, copper or metal as the barrier. [UC IPM](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) lists insulating (expanding) foam among the gnawable materials that are ineffective for plugging holes used by house mice, and [Missouri](https://extension.missouri.edu/publications/g9442) calls plastic sheeting or screen, wood, rubber and other gnawable materials unsuitable." },
+    { "type": "p", "text": "The sources do not say quite the same thing about foam. The CDC offers spray foam as an alternative to caulk for keeping the steel wool in place, while UC IPM rates expanding foam as ineffective as a plug. Read together, foam is acceptable as the holder around steel wool and unreliable as the plug itself, which is an inference from the two pages rather than a statement in either. Nebraska adds two practical points: use an appropriate caulk and backing to stop airflow through a void and then put a gnaw-resistant barrier over the gap, and avoid foam where sunlight reaches it, because ultraviolet light degrades the material." },
+
+    { "type": "h2", "text": "Where should you look for mouse holes? A room-by-room checklist" },
+    { "type": "p", "text": "Start with the CDC's checklists, which are the most specific of the sources. Its inside list runs from the kitchen to the attic, and its outside list covers the roofline to the foundation. A flashlight and a slow pass through each space is the simplest way to work through it; mark each candidate with tape so you can come back with materials." },
+    { "type": "h3", "text": "Kitchen" },
+    { "type": "ul", "items": [
+      "**Cabinets.** The CDC lists the inside, underneath and behind kitchen cabinets.",
+      "**Appliances.** The CDC says to look behind appliances, without naming which; the refrigerator, stove and dishwasher are the usual kitchen ones.",
+      "**Under the sink.** The CDC names the pipes under sinks, which covers a bathroom vanity as well as the kitchen."
+    ] },
+    { "type": "h3", "text": "Laundry and utility areas" },
+    { "type": "ul", "items": [
+      "**Washer connections.** The CDC lists the pipes under washing machines.",
+      "**Water heater and furnace.** Check the pipes leading to both, which the CDC names.",
+      "**Vents and drains.** The CDC includes floor air vents, dryer vents and floor drains in a basement or laundry room. Treat the dryer vent with the care described in the table above."
+    ] },
+    { "type": "h3", "text": "Living areas and closets" },
+    { "type": "ul", "items": [
+      "**Closets.** The CDC singles out closet floors, especially the corners.",
+      "**Fireplace.** The CDC lists the area around the fireplace.",
+      "**Windows and doors.** The CDC lists the areas around windows and doors on its inside list as well as its outside list.",
+      "**Wall edges.** The CDC names the juncture between the floor and the wall.",
+      "**Utility lines.** The CDC lists the areas around all electrical, water, gas and sewer lines."
+    ] },
+    { "type": "h3", "text": "Attic, basement and crawl space" },
+    { "type": "ul", "items": [
+      "**Attic.** The CDC lists the inside of the attic; the roofline and attic vents are on its outside list, below.",
+      "**Basement and crawl space.** The CDC lists both on its inside list. Outside, it lists the junction of foundation and ground and the crawl space vents."
+    ] },
+    { "type": "h3", "text": "Outside the house and garage" },
+    { "type": "ul", "items": [
+      "**Roofline.** The CDC lists the rafters, gables, eaves and soffits.",
+      "**Windows and doors.** The CDC flags those without weather stripping; Nebraska says rubber or vinyl weather stops can be gnawed through.",
+      "**Foundation.** The CDC says to check between the foundation of the home and the ground.",
+      "**Vents.** The CDC names attic and crawl space vents.",
+      "**Utility penetrations.** The CDC lists holes for electrical, plumbing, cable and gas lines.",
+      "**Garage and other exterior doors.** Nebraska's limit is a gap of less than 1/4 inch between the door bottom and the threshold."
+    ] },
+    { "type": "media", "needed": "Annotated photo or diagram of the outside of a house showing the CDC's exterior check points: roofline soffits, vents, utility line penetrations, the foundation-to-ground junction and the bottom of the garage door" },
+    { "type": "p", "text": "For a seasonal angle on the same job, [this guide to keeping mice out of a house through winter](/blog/how-to-keep-mice-out-of-your-house-winter) covers what to do while the weather is still workable." },
+
+    { "type": "h2", "text": "Is sealing enough to get rid of mice?" },
+    { "type": "p", "text": "No. Nebraska's guide calls rodent-proof construction the first and most important step in reducing rodent damage, and says research shows rodents reinvade through unsecured openings after control programs, but it also says rodent-proofing will not guarantee a rodent-free building. Mice may gnaw new entrances or be carried in inside a box or appliance, and Nebraska describes proofing as one part of a program that includes monitoring, sanitation and population control." },
+    { "type": "p", "text": "A scent cannot close a hole. If you have seen advice to dab oils or sprinkle products at entry points, [the overview of mouse repellents](/blog/mice-repellent) lays out what the evidence says for each type, and [the peppermint oil page](/blog/peppermint-oil-for-mice) covers that one in detail. Neither replaces a barrier." },
+    { "type": "p", "text": "Mice already inside need removal. [How to choose and place mouse traps](/blog/mice-traps) and [what mice removal involves, from walls to cleanup](/blog/mice-removal) pick up where this page stops. If droppings or gnaw marks turn up in a shed, cabin or garage, [identifying which mouse species you have](/blog/types-of-mice) tells you how it behaves. When the entry points are on the roofline, in wall voids or anywhere you cannot safely reach, [what a mice exterminator does](/blog/mice-exterminator) explains what a professional adds. The site's [rodent-control product guides](/pest-product-guides/rodent-control) compare traps and other supplies." }
+  ],
+  "howTo": {
+    "name": "How to plug a mouse hole with steel wool",
+    "steps": [
+      { "name": "Make sure the mice are out", "text": "Confirm that no mouse is still using the hole, with traps working, before you close any opening you have found." },
+      { "name": "Measure the hole", "text": "Check that the opening is no wider than about 3/4 inch, because steel wool is meant for small holes and gaps." },
+      { "name": "Clean up safely", "text": "Wearing gloves, wet any droppings or nesting material with disinfectant and wipe them up without sweeping or vacuuming them dry." },
+      { "name": "Pack the wool tight", "text": "Pull coarse steel wool, or copper or stainless steel wool, into a wad and push it deep so the hole is filled tightly." },
+      { "name": "Caulk around it", "text": "Run a bead of caulk around the wool so that it stays in place and cannot be pulled out easily." },
+      { "name": "Use metal for bigger gaps", "text": "Cover anything wider than about 3/4 inch with 24-gauge, 1/4-inch hardware cloth, sheet metal or concrete instead of wool." },
+      { "name": "Check the plug again", "text": "Look at each sealed spot after a few days and then from time to time for gnaw marks, fresh droppings or pulled-out wool." }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Will mice chew through steel wool?",
+      "answer": "The sources do not report it happening. UC IPM describes coarse steel wool as a material mice cannot chew through, and the University of Nebraska's list of materials rodents gnaw (aluminum sheeting, wood, rubber, vinyl, plastic and concrete block) does not include it. Both still treat steel wool as a temporary plug and note that it rusts, and Nebraska warns that rodents may gnaw new entrances even after a building is proofed. No trial comparing steel wool with other plugs was found in the pages reviewed."
+    },
+    {
+      "question": "Is copper mesh better than steel wool for mice?",
+      "answer": "The University of Nebraska names copper or stainless steel wool for wedging into openings under 3/4 inch, and calls coarse steel wool a temporary measure that will eventually rust. That suggests copper and stainless last longer, but the guide does not say so directly and gives no lifespan for either. None of the sources reviewed compares copper with steel wool in a trial, so the claim that copper is better rests on that contrast, not on test results."
+    },
+    {
+      "question": "How long does steel wool last in a mouse hole?",
+      "answer": "No source gives a number. UC IPM says steel wool may rust over time, Nebraska says coarse steel wool will eventually rust, and Missouri and UC IPM both call it a temporary plug. Moisture likely speeds rust, since Nebraska ties the life of nongalvanized wire mesh to moisture exposure, but that is a different material. Plan to inspect each plug periodically and replace it, or move to copper wool, hardware cloth or metal where the opening matters."
+    },
+    {
+      "question": "Can I seal holes while mice are still in the house?",
+      "answer": "Be careful. The University of Nebraska says that if there is any doubt whether an animal is using a hole, do not close it until the species has been identified and a control program has been decided on, because ignoring this may cause further structural damage and personal injury. The CDC treats sealing up, trapping up and cleaning up as three separate jobs. In practice that means traps should be in place and working before the last openings are closed."
+    },
+    {
+      "question": "Is spray foam as good as steel wool for mouse holes?",
+      "answer": "Not by itself. UC IPM lists insulating (expanding) foam among the gnawable materials that are ineffective for plugging holes used by house mice, and the University of Nebraska notes that ultraviolet light degrades foam. The CDC does mention spray foam, but in the same instruction as putting caulk around steel wool to keep it in place, not as a plug for a hole with nothing else in it. Read together, the wool or metal does the blocking, and foam or caulk holds it."
+    },
+    {
+      "question": "Can I put steel wool in a dryer vent?",
+      "answer": "The University of Nebraska says clothes dryer vents need special treatment because improper screening speeds lint build-up and raises the likelihood of fires. Its steps are to confirm the exhaust pipe meets Consumer Product Safety Commission standards, seal gaps between the pipe and the structure, and consider a vent cover with a floating ball that closes when the dryer stops. None of the sources reviewed recommends stuffing wool into the exhaust path itself, so ask a qualified installer if you need a mouse-proof vent."
+    }
+  ],
+  "sources": [
+    { "title": "How to Seal Up to Prevent Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html" },
+    { "title": "Controlling Wild Rodent Infestations", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/index.html" },
+    { "title": "How to Clean Up After Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
+    { "title": "House Mouse", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/house-mouse/" },
+    { "title": "Controlling House Mice (G9442)", "publisher": "University of Missouri Extension", "url": "https://extension.missouri.edu/publications/g9442" },
+    { "title": "Rodent-Proof Construction — Structural (NebGuide G1530)", "publisher": "University of Nebraska-Lincoln Extension", "url": "https://extensionpubs.unl.edu/publication/g1530/html/view" }
+  ]
+}

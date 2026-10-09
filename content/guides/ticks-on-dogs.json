@@ -1,0 +1,194 @@
+{
+  "slug": "ticks-on-dogs",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks on dogs",
+  "alsoTargets": [],
+  "metaTitle": "Ticks on Dogs: Where to Check and How to Remove",
+  "metaDescription": "Check ears, eyelids, collar, armpits, toes, groin and tail daily. How to tell a tick from a skin tag, remove it with tweezers and what to watch for after.",
+  "h1": "Ticks on Dogs: Where to Check, How to Remove One and What to Watch For",
+  "dek": "The seven places ticks hide on a dog, how to tell a tick from a skin tag or scab, the tweezers method veterinary guidelines describe, the diseases US ticks carry to dogs and how preventives work.",
+  "breadcrumb": "Ticks on Dogs",
+  "excerpt": "Where ticks hide on a dog, how to tell one from a skin tag, how to pull it out with tweezers, which diseases US ticks carry to dogs and what to watch for afterward.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Check your dog for ticks every day by feeling through the coat down to the skin, and pull any attached tick straight out with fine-tipped tweezers as soon as you find it.** The [CDC's guidance on ticks and pets](https://www.cdc.gov/ticks/prevention/preventing-ticks-on-pets.html) shows where to look: in and around the ears, around the eyelids, under the collar, under the front legs, between the toes, between the back legs and around the tail.",
+    "bullets": [
+      "The Illinois Department of Public Health puts adults of four common tick species at about 1/8 to 3/16 inch long and a fed female American dog tick at about 1/2 inch, the size of a small grape.",
+      "Nymphs and adult ticks have eight legs and larvae have six, while a skin tag, a nipple and a scab have none.",
+      "Veterinary guidelines from the Companion Animal Parasite Council say the bacteria behind ehrlichiosis and Rocky Mountain spotted fever can be transmitted within 3 to 6 hours of attachment, while the Lyme disease bacterium can require 24 to 48 hours.",
+      "CDC says signs of tickborne disease may not appear for 7 to 21 days or longer after a bite, and Cornell says Lyme disease signs often take 2 to 5 months.",
+      "The Merck Veterinary Manual says tick paralysis from North American ticks generally shows about 5 to 9 days after a tick attaches and usually improves within 24 hours once every tick is removed.",
+      "Cornell's veterinary college calls year-round prevention the best practice because ticks can be active at 40°F."
+    ]
+  },
+  "facts": {
+    "title": "Ticks on dogs at a glance",
+    "rows": [
+      ["How often to check", "Daily, and after time outdoors"],
+      ["Where to check", "Ears, eyelids, under the collar, under the front legs, between the toes, between the back legs, around the tail"],
+      ["Adult tick size", "About 1/8 to 3/16 inch long depending on species, reddish-brown or brown"],
+      ["Fed female American dog tick", "About 1/2 inch, the size of a small grape"],
+      ["Legs", "8 on nymphs and adults, 6 on larvae"],
+      ["Removal tool", "Fine-tipped tweezers, pulled straight with slow, steady pressure"],
+      ["Fastest disease transmission", "Within 3 to 6 hours of attachment for the ehrlichiosis and Rocky Mountain spotted fever agents (CAPC)"],
+      ["Lyme disease transmission", "At least 24 to 48 hours of attachment (Cornell)"],
+      ["When signs can appear", "7 to 21 days or longer (CDC); Lyme disease often 2 to 5 months (Cornell)"],
+      ["Tick paralysis", "Signs about 5 to 9 days after attachment (Merck Veterinary Manual)"],
+      ["Prevention", "Year round, with a product chosen with a veterinarian"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Where do ticks hide on a dog?" },
+    { "type": "p", "text": "Check the head, the places where the legs meet the body, the feet and the tail first. The [CDC's guidance on preventing ticks on pets](https://www.cdc.gov/ticks/prevention/preventing-ticks-on-pets.html) includes a graphic of seven places to check and tells owners to check daily, especially after the dog has been outdoors." },
+    { "type": "ul", "items": [
+      "**In and around the ears.** Fold each flap back and look inside it and at the opening of the canal. The [Illinois Department of Public Health](https://dph.illinois.gov/topics-services/environmental-health-protection/structural-pest-control/common-ticks.html) says the brown dog tick usually attaches around the ears or between the toes.",
+      "**Around the eyelids.** Look along both lid margins with the dog facing a light.",
+      "**Under the collar.** Take the collar off and feel the whole band of neck it covers.",
+      "**Under the front legs.** Lift each leg and check the armpit.",
+      "**Between the toes.** Spread the toes and look at the webbing and around the pads, top and bottom.",
+      "**Between the back legs.** Check the groin and the inside of each thigh.",
+      "**Around the tail.** Lift the tail and check its base and underside."
+    ] },
+    { "type": "p", "text": "Use your fingertips more than your eyes. CDC notes that ticks crawling on or biting a pet can be hard to spot, especially on breeds with long, dark fur, so press through the coat down to the skin, work from nose to tail, and part the fur over any bump you feel." },
+    { "type": "p", "text": "Ticks do not jump, fly or drop from trees. The Illinois department says they wait on the tips of grasses and shrubs, climb onto an animal that brushes past and can only crawl, so a tick boards a dog at grass or shrub height and then walks to a feeding spot. That is why a walk through long grass or brush calls for a check, and why yard habitat matters; [a complete guide to tick control around a home and yard](/blog/ultimate-tick-control-guide-ontario) covers that side." },
+    { "type": "p", "text": "One species goes deeper than a fingertip check can reach. [The tick guidelines from the Companion Animal Parasite Council (CAPC)](https://capcvet.org/guidelines/ticks/) say the spinose ear tick, found in arid areas west of the Mississippi, sets up long-term infestations deep in the ear canal of its hosts. Looking that far into an ear is a veterinarian's job." },
+    { "type": "media", "needed": "Diagram of a dog in side view with seven numbered check points matching the CDC list: in and around the ears, around the eyelids, under the collar, under the front legs, between the toes, between the back legs, around the tail" },
+
+    { "type": "h2", "text": "What does a tick look and feel like on a dog?" },
+    { "type": "p", "text": "An attached tick feels like a small bump fixed to the skin, and with the fur parted it looks like a flat brown or reddish-brown seed with legs. The Illinois Department of Public Health describes unfed hard ticks as shaped like a flat seed and says ticks attach firmly while they feed. Size depends on the species, the life stage and how long the tick has been feeding. The department gives these measurements:" },
+    { "type": "ul", "items": [
+      "**Adults.** About 1/8 inch long for the blacklegged tick, the lone star tick and the brown dog tick, and about 3/16 inch for an unfed American dog tick, all reddish-brown or brown.",
+      "**Fed females.** A female American dog tick becomes about 1/2 inch long after feeding, roughly the size of a small grape, and a female brown dog tick may engorge to 1/2 inch. Male American dog ticks do not get much larger after feeding.",
+      "**Nymphs.** About the size of a pinhead for both the lone star tick and the blacklegged tick.",
+      "**Larvae.** A lone star tick larva is only a little larger than a printed period."
+    ] },
+    { "type": "p", "text": "Growth is the giveaway. CAPC says a female hard tick can grow to as much as 100 times her original weight before she detaches, and the Illinois department says ticks feed slowly and take several days to finish. A bump with legs that is visibly bigger a day or two later is a feeding tick. On the legs, CAPC and the Illinois department agree: nymphs and adults have eight, and larvae have six." },
+    { "type": "p", "text": "For more on appearance, see [a field guide to what a tick looks like on a dog](/blog/what-does-tick-look-like-on-dog) and [how to tell the main US tick species apart by their markings](/blog/what-do-ticks-look-like). A cluster of ticks barely bigger than a printed period is a different problem, covered in the guide to [seed ticks, the six-legged larvae that arrive by the dozen](/blog/seed-ticks)." },
+    { "type": "media", "needed": "Close-up photo of an unfed adult American dog tick attached to a dog's skin with the fur parted, legs clearly visible at the skin line, with a US dime in frame for scale" },
+    { "type": "h3", "text": "Is it a tick, a skin tag, a nipple or a scab?" },
+    { "type": "p", "text": "Look for legs. A tick has them and nothing that grows on a dog does. Part the fur, shine a flashlight on the bump and use a magnifier if you have one." },
+    { "type": "table", "head": ["What to check", "Attached tick", "Skin tag or nipple", "Scab"], "rows": [
+      ["Legs", "Eight, or six on a larva", "None", "None"],
+      ["How it joins the dog", "Only the mouthparts are in the skin", "It is skin: a tag grows out on a stalk, and nipples sit in two rows along the underside", "A dry crust lying flat on the skin"],
+      ["Change over a few days", "Swells as it feeds over several days, then drops off", "No change from one day to the next", "Dries and flakes away as the skin heals"]
+    ], "caption": "Leg counts and feeding time from CAPC and the Illinois Department of Public Health. The skin tag description follows the Merck Veterinary Manual's pet-owner chapter on skin tumors of dogs." },
+    { "type": "p", "text": "The Merck Veterinary Manual's pet-owner chapter on skin tumors describes skin tags as benign lumps, common on older dogs, that usually look like stalk-like growths, often with a wart-like surface, and says a dog that has one is likely to develop others. Male dogs have nipples as well as females. If you cannot find legs, do not pull. Ask a veterinarian to look, because a tag, a wart or any new lump is theirs to identify." },
+    { "type": "media", "needed": "Side-by-side labeled close-up photos on dog skin: an engorged female tick with legs visible at the attachment point, a skin tag on its stalk, and a small flat scab, all at the same scale" },
+
+    { "type": "h2", "text": "How do you remove a tick from a dog?" },
+    { "type": "p", "text": "Grasp the tick with fine-tipped tweezers as close to the skin as you can and pull it straight out with slow, steady pressure. That is the method in CAPC's guidelines, which specify fine forceps and warn against crushing, twisting or jerking the tick. Cornell describes the same slow, steady pull with tweezers or a tick removal device, and the Illinois Department of Public Health's removal advice, written for people, matches. Do it as soon as you find the tick: CDC's advice for a tick biting a pet is to remove it right away." },
+    { "type": "ol", "items": [
+      "Get good light, part the fur around the tick and have someone steady the dog if it will not hold still.",
+      "Protect your fingers. CAPC says to wear gloves in case the tick is crushed, and the Illinois department says not to use bare hands because tick secretions may carry disease; if you have no tweezers, grip the tick through a tissue or cloth.",
+      "Grasp the tick with fine-tipped tweezers as close to the dog's skin as possible, not around the swollen body.",
+      "Pull straight back, away from the skin, with slow, steady pressure. Do not twist, jerk or squeeze.",
+      "Keep the tick if you may want it identified. The Illinois department suggests a small vial of alcohol; CAPC's advice for a tick taken off a person is to save it wrapped in tape or in a vial of alcohol, sealed in a plastic bag labeled with the date.",
+      "Wash the bite area and your hands thoroughly with soap and water, then write down the date and where on the dog the tick was attached.",
+      "Check the rest of the dog in case there are more."
+    ] },
+    { "type": "p", "text": "A tick's mouthparts are barbed and can stay embedded in the skin, the Illinois department notes, and CAPC says twisting or jerking is what can break them off. If a piece is left behind, call your veterinarian for advice before you go digging for it. For a wriggling dog, or a tick on an eyelid or inside an ear, the clinic can do the removal for you, and [a longer walkthrough of removing a tick from a dog](/blog/how-to-remove-tick-from-dog-ontario) goes through the process in more detail." },
+    { "type": "h3", "text": "What should you never put on an attached tick?" },
+    { "type": "p", "text": "Do not burn the tick with a match or coat it with petroleum jelly or nail polish; the Illinois Department of Public Health rules out all three by name. Pulling the tick takes seconds, and the transmission times further down show why every hour it stays attached matters. Other home remedies, from rubbing alcohol to dish soap and essential oils, are examined in [the honest answer to what kills ticks on dogs instantly](/blog/what-kills-ticks-on-dogs-instantly)." },
+
+    { "type": "h2", "text": "Which ticks get on dogs in the United States?" },
+    { "type": "p", "text": "Nine tick species are on the list in CAPC's guidelines for dogs in North America. The table covers the seven that CAPC lists as transmitting a disease dogs get; which ones your dog meets depends on where it walks." },
+    { "type": "table", "head": ["Tick", "Where a dog picks it up", "What it can give a dog"], "rows": [
+      ["Blacklegged (deer) tick, *Ixodes scapularis*", "Leaf litter and understory in woods", "Lyme disease, anaplasmosis"],
+      ["Western blacklegged tick, *Ixodes pacificus*", "Leaf litter and understory in woods", "Lyme disease, anaplasmosis"],
+      ["Lone star tick, *Amblyomma americanum*", "Leaf litter and understory in woods", "Ehrlichiosis"],
+      ["American dog tick, *Dermacentor variabilis*", "Tall grassy meadows, trails through open woods, open fields", "Rocky Mountain spotted fever; tick paralysis"],
+      ["Rocky Mountain wood tick, *Dermacentor andersoni*", "Tall grassy meadows, trails through open woods, open fields", "Rocky Mountain spotted fever; tick paralysis"],
+      ["Gulf Coast tick, *Amblyomma maculatum*", "Tall grassy meadows, trails through open woods, open fields", "American canine hepatozoonosis"],
+      ["Brown dog tick, *Rhipicephalus sanguineus*", "In and around homes and kennels, anywhere there are dogs", "Ehrlichiosis, canine babesiosis, anaplasmosis, hepatozoonosis, Rocky Mountain spotted fever"]
+    ], "caption": "Habitats and pathogens as listed in CAPC's tick guidelines (dog section last updated March 30, 2023); tick paralysis from the Merck Veterinary Manual. This is not CAPC's full list for each tick: agents such as tularemia and Powassan virus are left out." },
+    { "type": "p", "text": "Geography decides which rows apply to you. [Cornell's Lyme disease page for dog owners](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/lyme-disease) says the disease is most common in the Northeast, the mid-Atlantic and the upper Midwest, and state health departments publish their own tick lists. A guide to [the tick species found in Michigan and where each one is spreading](/blog/ticks-in-michigan) shows how local the picture gets." },
+    { "type": "p", "text": "The other two are the spinose ear tick, for which CAPC lists no known pathogens, and the invasive Asian longhorned tick, which is an open question. CAPC reports that it has transmitted the Rocky Mountain spotted fever bacterium in experiments and that the Lyme disease and anaplasmosis agents have been detected in naturally infected ticks, with its ability to transmit them unknown." },
+
+    { "type": "h2", "text": "What diseases can dogs get from ticks?" },
+    { "type": "p", "text": "The common ones in the US are Lyme disease, anaplasmosis, ehrlichiosis and Rocky Mountain spotted fever, the four that [Cornell's Riney Canine Health Center](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/flea-and-tick-prevention) names as common tick-borne diseases of dogs. CAPC's lists add canine babesiosis and hepatozoonosis, and some ticks cause paralysis with a toxin instead of an infection. The table above shows which tick carries each one. CDC describes dogs as very susceptible to tick bites and tickborne diseases." },
+    { "type": "h3", "text": "Lyme disease" },
+    { "type": "p", "text": "Lyme disease is caused by the bacterium *Borrelia burgdorferi*, which is carried by blacklegged ticks. Cornell's Lyme disease page makes three points. Most dogs exposed to the bacterium never become sick. In those that do, signs often do not show until 2 to 5 months after the tick bite. And the signs are general ones: fever, lameness, lethargy, decreased appetite, joint swelling and pain, and swollen lymph nodes." },
+    { "type": "p", "text": "A less common but serious complication damages the kidneys (Lyme nephritis), which Cornell says may be more likely in young to middle-aged retrievers. Cornell says Lyme disease is treated with antibiotics, most commonly doxycycline, for four weeks. More detail is in [how Lyme disease shows up in dogs and how it is treated](/blog/can-dogs-get-lyme-disease) and in the guide to [the two US tick species that carry Lyme disease](/blog/ticks-that-carry-lyme-disease)." },
+    { "type": "h3", "text": "How long does a tick have to be attached?" },
+    { "type": "p", "text": "It depends on the pathogen, and the fastest ones move within hours. CAPC states that *Ehrlichia* and *Rickettsia* species, the groups of bacteria behind ehrlichiosis and Rocky Mountain spotted fever, can be transmitted within 3 to 6 hours of attachment, while the Lyme disease bacterium can require 24 to 48 hours of feeding. Cornell gives the Lyme figure as at least 24 to 48 hours on one page and at least 1 to 2 days on the other, which is the same window. A daily check with prompt removal is therefore well timed against Lyme disease but cannot be counted on against an infection that passes in 3 to 6 hours. CAPC and Cornell both recommend a preventive product as well as checking." },
+    { "type": "h3", "text": "Tick paralysis" },
+    { "type": "p", "text": "Tick paralysis is not an infection. CAPC describes it as a sudden, ascending, flaccid paralysis caused by a neurotoxin that female ticks of several species produce, most often *Dermacentor* ticks in the United States. The [Merck Veterinary Manual's chapter on tick paralysis](https://www.merckvetmanual.com/nervous-system/tick-paralysis/tick-paralysis-in-animals) names the Rocky Mountain wood tick and the American dog tick as the most common vectors in North America. For ticks other than the paralysis tick of eastern Australia, Merck says signs generally appear about 5 to 9 days after the tick attaches and progress over the next 24 to 72 hours." },
+    { "type": "p", "text": "The early signs Merck lists include a change in or loss of voice, incoordination in the hind legs, changes in breathing, gagging or coughing, vomiting and dilated pupils. The hind-leg weakness then worsens until the dog cannot move its legs or stand. Merck's prevention advice warns that a single attached tick can cause tick paralysis. The treatment is finding the tick: except with the Australian species, Merck says removing all ticks usually brings improvement within 24 hours and complete recovery within 72 hours, and that if the ticks are not removed, death may occur from respiratory paralysis in 1 to 5 days. A dog with weak or wobbly hind legs needs a veterinarian the same day, and a fingertip search of the whole coat while you arrange the visit." },
+
+    { "type": "h2", "text": "What should you watch for after a tick bite?" },
+    { "type": "p", "text": "Watch for changes in the dog's behavior or appetite for at least three weeks, and keep Lyme disease in mind for several months. CDC says signs of tickborne disease may not appear for 7 to 21 days or longer after a tick bite and tells owners to watch closely for those changes. The other sources add their own time windows." },
+    { "type": "table", "head": ["When", "What to watch for", "Source"], "rows": [
+      ["At the bite site", "Irritation and itching around the spot where the tick was attached; an infection can develop there", "CAPC"],
+      ["About 5 to 9 days after the tick attached", "A change in or loss of voice, and wobbly, weak hind legs that worsen over 24 to 72 hours (tick paralysis)", "Merck Veterinary Manual"],
+      ["7 to 21 days or longer", "Changes in behavior or appetite", "CDC"],
+      ["Often 2 to 5 months", "Fever, lameness, lethargy, decreased appetite, swollen or painful joints, swollen lymph nodes (Lyme disease)", "Cornell"]
+    ], "caption": "Time windows as stated by each source." },
+    { "type": "p", "text": "Testing has its own clock. Cornell explains that the common Lyme blood test looks for antibodies, which take time to develop, so testing should be delayed at least 4 to 8 weeks after a tick bite. A test run the day after you pull a tick cannot reflect that bite. Ask your veterinarian when to test, and bring the date you wrote down and the saved tick." },
+    { "type": "p", "text": "Two related guides go further: [the symptoms that can follow a tick bite on a dog](/blog/tick-bite-on-dog-symptoms), and [what to do, step by step, after finding a tick on your dog](/blog/i-found-tick-on-my-dog-what-to-do)." },
+    { "type": "h3", "text": "When to call the veterinarian" },
+    { "type": "ul", "items": [
+      "**Any sign in the table above.** Weak or wobbly hind legs, trouble standing or labored breathing is urgent.",
+      "**A bite site that becomes more swollen, stays sore or oozes.** CAPC notes that secondary infections can develop where a tick was attached.",
+      "**A heavy load of ticks.** CAPC says ticks may cause anemia from blood loss, and that animals carrying large numbers of Asian longhorned ticks can become anemic.",
+      "**A tick you cannot get out whole,** or one on an eyelid or inside the ear canal."
+    ] },
+
+    { "type": "h2", "text": "How do tick preventives for dogs work?" },
+    { "type": "p", "text": "Some stop ticks from attaching and others kill ticks only after they bite. Cornell's Riney Canine Health Center sorts the common products this way:" },
+    { "type": "table", "head": ["Product type", "Examples Cornell names", "Stops ticks attaching?", "Interval Cornell lists"], "rows": [
+      ["Oral chewable (isoxazoline class)", "Nexgard, Simparica, Credelio, Bravecto", "No. Kills ticks relatively fast after they attach", "Monthly; Bravecto every 3 months"],
+      ["Spot-on containing permethrin", "K9 Advantix II, Vectra 3D", "Yes. Repels ticks and prevents attachment", "Monthly"],
+      ["Spot-on containing fipronil", "Frontline", "No. Does not repel ticks or prevent attachment, and does not kill them until they have been attached for 24 hours", "Monthly"],
+      ["Collar", "Seresto", "Yes. Repels ticks and can prevent attachment if it is snug enough to touch the skin", "Every 8 months"]
+    ], "caption": "As summarized by Cornell University's Riney Canine Health Center. The product label and your veterinarian's directions govern how each one is used." },
+    { "type": "p", "text": "An attached tick on a dog that takes a chewable is therefore not proof that the product failed. By Cornell's description those products work after the bite, and with a fipronil spot-on you may still see ticks crawling on the dog. That is a reason to keep checking, and CAPC recommends frequent tick checks on pets after outdoor activity." },
+    { "type": "p", "text": "Which product suits a particular dog is a veterinarian's call. CDC advises talking to your veterinarian about the best tick prevention products for your dog and about the tickborne diseases in your area. Cornell adds one specific caution: chewables containing an isoxazoline have been associated with a rare occurrence of seizures, so a dog with a history of seizures should not start one before the veterinarian has been consulted. Use any of these products only as the label and your veterinarian direct. A separate page takes [a closer look at tick repellents for dogs](/blog/tick-repellent-for-dogs-ontario)." },
+    { "type": "callout", "tone": "warning", "title": "Dog products and cats do not mix", "text": "CDC warns that cats are extremely sensitive to a variety of chemicals and says not to apply any tick prevention product to a cat without first asking a veterinarian. Cornell notes that many products used on dogs, K9 Advantix II among them, are not appropriate for cats." },
+    { "type": "h3", "text": "Is year-round prevention necessary?" },
+    { "type": "p", "text": "Both veterinary sources say yes. Cornell calls year-round prevention the best practice and points out that ticks can be active at 40°F, which is not unusual in winter in many parts of the US. CAPC's recommendation is that all dogs be treated with tick control products year round and throughout their lives." },
+    { "type": "h3", "text": "Is there a vaccine?" },
+    { "type": "p", "text": "For Lyme disease, yes; for most of the others, no, and no vaccine replaces tick control. CDC states that vaccines are not available for most of the tickborne diseases dogs can get and that vaccines do not keep a dog from bringing ticks into the home. Cornell advises discussing the Lyme vaccine with your veterinarian based on location, risk and lifestyle. It is given once, boosted after 3 to 4 weeks and then repeated annually." },
+
+    { "type": "h2", "text": "Can ticks on a dog get into your house or make you sick?" },
+    { "type": "p", "text": "Yes to the first, and only indirectly to the second. CDC warns that pets can carry ticks from outdoors into the home, where the ticks may then bite people. Cornell is specific about Lyme disease: people do not get it directly from dogs; they get it from deer ticks." },
+    { "type": "p", "text": "One species can go further and breed indoors. The Illinois Department of Public Health says the brown dog tick, found through most of the United States, has a life cycle that lets it survive and develop inside. It lives mainly in kennels and homes with dogs, where it hides in cracks, behind radiators, under rugs and furniture, and on draperies and walls. A fed female drops off the dog and may lay as many as 3,000 eggs. The same source says this tick rarely bites people." },
+    { "type": "p", "text": "If ticks keep turning up on a dog that has not been in tick habitat, tell your veterinarian. The Illinois department says owners of infested kennels or homes may wish to contact a professional pest control company, and CAPC's summary goes further: an established brown dog tick infestation in a home may take several months to bring under control, and clearing the building takes a licensed exterminator as well as consistent treatment of the pets." },
+    { "type": "p", "text": "Outdoors, the sources point to habitat and to where the dog roams. CDC recommends reducing tick habitat in the yard. CAPC says outdoor treatment with products approved for environmental use may reduce the number of ticks on a property and should be applied judiciously to the perimeter of a yard, not broadcast over a large area; any such product has to be used as its label directs. The Illinois department notes that free-roaming dogs are much more likely to encounter ticks than dogs confined to the home or yard. A separate guide covers [what kills ticks on clothing, on gear and in the yard](/blog/what-kills-ticks). Ticks are not the only biting pest a dog meets outdoors, and a companion page answers [whether mosquitoes bite dogs](/blog/do-mosquitoes-bite-dogs)." }
+  ],
+  "faqs": [
+    {
+      "question": "Can I get Lyme disease from my dog?",
+      "answer": "Not directly. Cornell University's Riney Canine Health Center states that humans do not get Lyme disease directly from dogs; it comes from deer ticks. The indirect risk is real, though: CDC notes that pets can carry ticks from outdoors into the home, where they may then bite people. A dog that picks up ticks is also a sign that the places you walk together hold ticks, so check yourself after the same outings and promptly remove any tick you find on either of you."
+    },
+    {
+      "question": "Do ticks fall off a dog on their own?",
+      "answer": "Yes, eventually. Ticks feed slowly and take several days to finish, according to the Illinois Department of Public Health, and CAPC explains that each stage leaves the host after its blood meal. Waiting is a poor plan, though. CAPC reports that the bacteria behind ehrlichiosis and Rocky Mountain spotted fever can pass within 3 to 6 hours of attachment, and the Illinois department says a fed female brown dog tick drops off the dog and may lay as many as 3,000 eggs. Remove an attached tick as soon as you find it."
+    },
+    {
+      "question": "How long does a tick have to be attached to make a dog sick?",
+      "answer": "It varies by disease. CAPC reports that Ehrlichia and Rickettsia bacteria, which cause ehrlichiosis and Rocky Mountain spotted fever, can be transmitted within 3 to 6 hours of attachment, while the Lyme disease bacterium can require 24 to 48 hours of feeding. Cornell gives the Lyme window as at least 24 to 48 hours. Tick paralysis works differently: the Merck Veterinary Manual says that, with ticks other than the Australian paralysis tick, signs generally appear about 5 to 9 days after a tick attaches. Because some infections pass within hours, remove ticks as soon as you find them."
+    },
+    {
+      "question": "Why does my dog still get ticks while on a flea and tick preventive?",
+      "answer": "Because several kinds of product do not stop ticks from attaching. Cornell's Riney Canine Health Center explains that oral chewables containing an isoxazoline do not prevent attachment but kill ticks relatively fast afterward, and that fipronil spot-ons do not kill ticks until they have been attached for 24 hours. Products containing permethrin, and collars such as Seresto, do repel ticks. Finding a tick on a treated dog is therefore not proof of failure, but if you are finding live ticks often, tell your veterinarian, who can review the product, the dose and the timing."
+    },
+    {
+      "question": "Should I take my dog to the vet after finding a tick?",
+      "answer": "Not necessarily the same day. None of the sources used here calls for an office visit after every tick; they call for removing it right away and watching the dog closely. Write down the date, keep the tick in a small vial of alcohol, as the Illinois Department of Public Health suggests, and watch for changes in behavior or appetite, which CDC says may take 7 to 21 days or longer to appear. Call your veterinarian promptly for weak hind legs, fever, lameness or loss of appetite, or if you could not remove the whole tick. Cornell notes that Lyme antibody testing should wait at least 4 to 8 weeks after the bite."
+    },
+    {
+      "question": "Can dogs get ticks in winter?",
+      "answer": "Yes. Cornell's Riney Canine Health Center notes that ticks can be active at 40 degrees Fahrenheit and calls year-round prevention the best practice, and CAPC recommends that all dogs be treated with tick control products year round. Indoors, the season matters even less for one species: the Illinois Department of Public Health describes the brown dog tick as able to survive and develop inside kennels and homes with dogs. Keep checking after winter walks on mild days, and ask your veterinarian before stopping a preventive for the cold months."
+    }
+  ],
+  "sources": [
+    { "title": "Preventing Ticks on Pets", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/prevention/preventing-ticks-on-pets.html" },
+    { "title": "CAPC Guidelines: Ticks", "publisher": "Companion Animal Parasite Council", "url": "https://capcvet.org/guidelines/ticks/" },
+    { "title": "Flea and tick prevention", "publisher": "Cornell University College of Veterinary Medicine, Riney Canine Health Center", "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/flea-and-tick-prevention" },
+    { "title": "Lyme disease", "publisher": "Cornell University College of Veterinary Medicine, Riney Canine Health Center", "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/lyme-disease" },
+    { "title": "Tick Paralysis in Animals", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/nervous-system/tick-paralysis/tick-paralysis-in-animals" },
+    { "title": "Common Ticks", "publisher": "Illinois Department of Public Health", "url": "https://dph.illinois.gov/topics-services/environmental-health-protection/structural-pest-control/common-ticks.html" }
+  ],
+  "disclaimer": "health"
+}

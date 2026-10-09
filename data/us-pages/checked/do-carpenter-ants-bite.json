@@ -1,0 +1,10 @@
+{
+ "id": "do-carpenter-ants-bite",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "521a0f1aa817e4fbeec7ba70812391332a900383dd6d196f9a9f1c13e3715c1b",
+ "claimsChecked": 64,
+ "claimsCorrected": 15,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-08"
+}

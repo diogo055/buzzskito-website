@@ -1,0 +1,181 @@
+{
+  "slug": "ghost-ants",
+  "kind": "spoke",
+  "cluster": "ants",
+  "keyword": "ghost ants",
+  "alsoTargets": [],
+  "metaTitle": "Ghost Ants: Tiny, Pale-Bodied, Spread by Budding",
+  "metaDescription": "Ghost ants are 1/16 inch long with a dark head and milky white abdomen. See where they live in the US, how colonies bud, and why bait beats spray.",
+  "h1": "Ghost Ants: How to Identify Them, Where They Live and How They Are Controlled",
+  "dek": "A plain guide to the tiny, two-toned ant that nests in wall voids and potted plants: what university entomologists say about its range, its habit of splitting into new nests, and why bait works better than spray.",
+  "breadcrumb": "Ghost Ants",
+  "excerpt": "Ghost ants are tiny, two-toned household ants with a dark head and a pale abdomen. Where they live in the US, how colonies spread by budding, and how they are controlled.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Ghost ants are tiny household ants, about 1/16 inch long, with a dark head and thorax and a milky white abdomen and legs.** [The University of Florida's profile](https://ask.ifas.ufl.edu/publication/IN532) calls them well established in Florida and Hawaii, present in Texas since the mid-1990s, and limited to greenhouses and other heated buildings in the northern states.",
+    "bullets": [
+      "Workers measure 1.3 to 1.5 mm (about 1/16 inch) and have no stinger.",
+      "The ant reached Texas in 1994 or 1995, probably on a shipment of plants from Florida.",
+      "One colony can hold many egg-laying queens spread across several nest sites, and new colonies probably form by budding.",
+      "Texas A&M AgriLife Extension warns that spraying ant trails kills only a few foraging workers and can sometimes split a colony into two or more.",
+      "Texas A&M says baiting can take 3 to 4 weeks or more to eliminate some colonies.",
+      "The University of Florida advises checking trail bait within one or two days to see whether the ants are feeding."
+    ]
+  },
+  "facts": {
+    "title": "Ghost ants at a glance",
+    "rows": [
+      ["Scientific name", "*Tapinoma melanocephalum*"],
+      ["Worker size", "1.3 to 1.5 mm (about 1/16 inch), all one size"],
+      ["Color", "Dark brown head and thorax; milky white abdomen and legs"],
+      ["Sting", "None (stinger absent)"],
+      ["Established in the US", "Florida, Hawaii and Texas (since 1994 or 1995); only in greenhouses and heated buildings in the northern states"],
+      ["Queens per colony", "Many egg-laying queens, spread across subcolonies"],
+      ["How new colonies form", "Probably by budding"],
+      ["Favorite foods", "Sweets and honeydew; also dead and live insects"],
+      ["Typical nest sites", "Wall voids, spaces between cabinetry and baseboards, potted plants; outdoors in flowerpots, under objects and under loose bark"],
+      ["Control approach", "Sweet bait on the trails, with no repellent spray near the bait"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What do ghost ants look like?" },
+    { "type": "p", "text": "Ghost ants are tiny and two-toned: the head and thorax are deep dark brown, and the abdomen and legs are milky white. That description comes from [the University of Florida's ghost ant profile](https://ask.ifas.ufl.edu/publication/IN532), which measures workers at 1.3 to 1.5 mm (about 1/16 inch) and says the small size combined with the pale color makes them hard to see. [Texas A&M AgriLife Extension's household ant guide](https://extensionentomology.tamu.edu/wp-content/uploads/sites/3/2018/05/Household-ants-B6183.pdf) agrees on 1/16 inch and on the dark front half and light rear half. The species is *Tapinoma melanocephalum*, one of the household pests covered in [the complete guide to ants in US homes](/learn/ants)." },
+    { "type": "ul", "items": [
+      "**Color.** The head and thorax are a deep dark brown, while the abdomen and legs are opaque or milky white.",
+      "**Size.** Workers are 1.3 to 1.5 mm (about 1/16 inch) long and all one size, which the University of Florida calls monomorphic.",
+      "**Body details.** The University of Florida lists 12-segmented antennae that thicken gradually toward the tip, a thorax with no spines, and a waist made of one segment. Those are details for a hand lens, not for the naked eye.",
+      "**No stinger.** The university's profile states that the stinger is absent.",
+      "**Movement.** Workers run rapidly and erratically when disturbed, but the profile says that when they are trailing, their movement is slower and more deliberate.",
+      "**Smell.** The profile reports that crushed workers give off an odor like rotten coconut."
+    ] },
+    { "type": "media", "needed": "Macro photo of several ghost ant workers on a white countertop beside a US penny for scale, sharp enough to show the dark brown head and thorax and the milky white abdomen and legs" },
+    { "type": "h3", "text": "How do you tell a ghost ant from other tiny ants?" },
+    { "type": "p", "text": "Color separates ghost ants from the other small household ants more reliably than size does, because several of them are also about 1/16 inch. The table draws on the Texas A&M household ant guide and on [a second Texas A&M sheet on identifying household ants](https://citybugs.tamu.edu/factsheets/household/ants-house/ent-2013/). The two sheets disagree on the size of pharaoh ants, so treat that figure as approximate." },
+    { "type": "table", "head": ["Ant", "Worker size", "Color and look", "Other clues"], "rows": [
+      ["Ghost ant", "1.3 to 1.5 mm (about 1/16 inch)", "Dark brown head and thorax; milky white abdomen and legs", "No stinger; crushed workers smell like rotten coconut; nests indoors or out"],
+      ["Odorous house ant", "About 1/8 inch", "Entirely dark brown to black, per the University of Florida; all workers the same size", "Crushed workers smell of rotten coconut in one Texas A&M sheet and of licorice in the other; active during the day; nests hold more than one queen"],
+      ["Pharaoh ant", "1/12 to 1/16 inch in one Texas A&M sheet; 1/32 inch in the other", "Light tan to reddish in one sheet; yellowish with a dark-tipped abdomen in the other", "Nests near heat and moisture sources; colonies multiply by budding"],
+      ["Little black ant", "About 1/16 inch", "Small, shiny black", "Slow-moving; preys on insects and feeds on honeydew"]
+    ], "caption": "Descriptions as given by Texas A&M AgriLife Extension and the University of Florida. The guides do not always agree on size." },
+    { "type": "p", "text": "Smell is a weak test. The University of Florida reports a rotten coconut odor for crushed ghost ants, and the Texas A&M guide describes the same odor for crushed odorous house ants, a close relative in the same genus. (The second Texas A&M sheet calls the odorous house ant's smell licorice-like, which shows how loosely odors get described.) The Texas A&M guide recommends collecting a few ants in a vial of rubbing alcohol and asking a county Extension agent or a pest control company to identify them." },
+    { "type": "p", "text": "For a key that covers every very small ant in a house, see [the guide to tiny ants](/blog/tiny-ants). If the ants you see are dark all over instead of two-toned, [black ants in and around US homes](/blog/black-ants) covers the little black ant and its look-alikes." },
+    { "type": "p", "text": "In the South, one more mix-up is worth ruling out. Texas A&M gives red imported fire ant workers as 1/16 to 3/16 inch and usually reddish or dark brown, and fire ants sting, which ghost ants cannot. If the ant in your yard builds a mound or stings, read [which ant the red ant really is](/blog/red-ants) before treating anything." },
+
+    { "type": "h2", "text": "Where do ghost ants live in the United States?" },
+    { "type": "p", "text": "Ghost ants are well established in Florida and Hawaii, have been in Texas since the mid-1990s, and survive in the northern states only in greenhouses and other heated environments. All of that comes from [the University of Florida's profile](https://ask.ifas.ufl.edu/publication/IN532), which also says the ant's US range is expanding and that infestations have been reported in many areas of the country." },
+    { "type": "table", "head": ["Region", "What the sources say"], "rows": [
+      ["Florida", "Mostly found from Sarasota to Orlando and south, with records as far north as Gainesville in Alachua County and in Duval County. A minor house pest as late as 1988, it was common in central and southern Florida and a major pest by 1995 (University of Florida)."],
+      ["Hawaii", "Well established (University of Florida). The profile gives no further detail."],
+      ["Texas", "Reached the state in 1994 or 1995, probably through Galveston on a shipment of plants from Florida (University of Florida). A 2005 Texas A&M guide lists it as a species becoming a problem in the state."],
+      ["Northern states", "Survives only in greenhouses and other heated environments. The profile also reports the ant established in such buildings as far north as southern Canada (University of Florida)."]
+    ], "caption": "Source: University of Florida IFAS ghost ant profile; Texas A&M AgriLife Extension household ant guide (2005)." },
+    { "type": "p", "text": "The practical meaning for a northern reader is that a ghost ant colony in a cold-winter state is living inside a heated building or a greenhouse, not in the yard. The profile gives no state-by-state list beyond the ones above, so the sources cited here cannot say whether a particular mid-latitude state has been colonized." },
+    { "type": "p", "text": "The same profile places the ghost ant among the tramp ants, a group of species widely distributed in tropical and subtropical latitudes worldwide. It describes an African or Oriental origin but says commerce has spread the ant so widely that its original home cannot be determined. That spread by commerce is consistent with how it reached Texas, on plants. The profile adds that the ant infested quarantine greenhouses in Florida and proved impossible to control there, because of the restrictions on toxicants that can be used in such greenhouses." },
+
+    { "type": "h2", "text": "Where do ghost ants nest?" },
+    { "type": "p", "text": "Ghost ants nest in small spaces, some of them only temporary, both outdoors and inside buildings. The University of Florida describes sites too small or unstable to hold a whole large colony and lists outdoor sites such as tufts of dead but temporarily moist grass, plant stems, cavities beneath debris, flowerpots, spots under objects on the ground, loose bark and the bases of palm fronds. Indoors it lists wall voids, the spaces between cabinetry and baseboards, cracks, spaces between books and potted plants." },
+    { "type": "media", "needed": "Photo of a thin trail of ghost ants following a kitchen baseboard or window frame toward a small crack, taken from a low angle so the trail's route is visible" },
+    { "type": "p", "text": "The two main sources emphasize different things. Florida describes an ant that nests readily outdoors or indoors and can invade a house from outside or nest in it. The 2005 Texas A&M guide says ghost ant colonies nest primarily indoors. Neither source explains the difference, and neither reports a survey that settles it." },
+    { "type": "p", "text": "A ghost ant colony is also not one tidy nest. Florida describes colonies that may be moderate to large with numerous reproducing females, spread across subcolonies that occupy different nest sites and swap individuals back and forth along odor trails. It reports no sign of infighting between members of different nests. For a treatment, that means finding one nest does not guarantee you have found them all." },
+    { "type": "p", "text": "Texas A&M adds a point about ants in general: colonies are mobile and may move from one site to another almost overnight, and they may move indoors when the weather is abnormally hot and dry or very wet, or when food and water outside run short." },
+
+    { "type": "h2", "text": "What do ghost ants eat, and what draws them into a house?" },
+    { "type": "p", "text": "Ghost ants prefer sweets, though they eat many household foods. The University of Florida says the ant has been observed feeding on sugar, cakes and syrups, and Texas A&M says foraging workers are attracted to sweets. Outdoors, Florida reports that workers scavenge for dead insects and tend sap-sucking insects to collect honeydew, the sugary liquid those insects excrete." },
+    { "type": "p", "text": "That diet explains the usual indoor triggers. A spill or a syrup ring on a counter gives a sugar-seeking ant a reason to follow a trail inside. A houseplant infested with aphids or whiteflies does the same, and the Florida profile also lists potted plants as a place the ants nest. Both universities also point to moisture, which the prevention checklist below covers." },
+    { "type": "p", "text": "Diet matters for control as well, because a bait only works if foragers carry it home. [What ants eat](/blog/what-do-ants-eat) explains how diets differ by species and why that decides which bait works." },
+    { "type": "h3", "text": "Do ghost ants bite or sting?" },
+    { "type": "p", "text": "Ghost ants cannot sting, because the University of Florida reports that the stinger is absent. Neither the Florida profile nor the Texas A&M guide describes ghost ants biting people, but neither tests the question either. If you have a bite or sting reaction that worries you, contact a healthcare provider. For the ants that do bite or sting, [bite versus sting for the common US ants](/blog/do-ants-bite) compares them." },
+
+    { "type": "h2", "text": "How do ghost ant colonies spread?" },
+    { "type": "p", "text": "Ghost ant colonies probably spread by budding, which means one or more queens leave an established colony with some workers and start a new nest. The University of Florida says new ghost ant colonies are probably formed this way and that a bud may also carry some brood. [A separate UF/IFAS ant management guide](https://ask.ifas.ufl.edu/publication/IG080) lists ghost ants with pharaoh ants, some fire ants and Argentine ants as species that spread by budding. It adds that some of the most difficult ants to control spread this way." },
+    { "type": "p", "text": "Budding matters for two reasons. There is no single queen to remove, because a colony can hold many reproducing females spread across subcolonies. And a bud needs only one or more reproductive females and several workers, according to Florida, so a new nest can start in any of the small spaces listed above. The Florida profile names budding as the probable way ghost ant colonies start and does not describe mating flights for this species. A swarm of winged ants in the house is therefore a separate question, which [the guide to flying ants](/blog/flying-ants) covers." },
+
+    { "type": "h2", "text": "Can spraying ghost ants make the problem worse?" },
+    { "type": "p", "text": "It can, according to [Texas A&M AgriLife Extension](https://extensionentomology.tamu.edu/wp-content/uploads/sites/3/2018/05/Household-ants-B6183.pdf). The guide says insecticides sprayed on ant trails kill only a few foraging workers and do not eliminate colonies, and that such treatments can sometimes make the problem worse by causing a colony to split into two or more separate colonies. That warning is written for household ants in general, not tested on ghost ants, so it is a caution and not a measured rate. It fits how budding species work, since a colony with many queens already has what it needs to start more than one nest." },
+    { "type": "p", "text": "[The UF/IFAS ant management guide](https://ask.ifas.ufl.edu/publication/IG080) adds two practical points. Treatments aimed at individual trails, such as crack-and-crevice and indoor space-and-surface applications, are usually a quick fix that does not last. And sprays are repellent, so if they contaminate a bait, the ants will not eat it. Texas A&M likewise says not to spray long-acting contact insecticides while baiting, because sprays keep foraging workers from reaching the bait." },
+    { "type": "callout", "tone": "warning", "title": "Hold the spray while you bait", "text": "Repellent sprays on or near a bait can stop foragers from taking it back to the nest. Both Texas A&M and the University of Florida advise keeping sprays away from bait placements." },
+
+    { "type": "h2", "text": "How do you get rid of ghost ants?" },
+    { "type": "p", "text": "The approach university entomologists describe is to find the trails, put a sweet bait on them, keep sprays away from the bait and give it weeks to work. Texas A&M says to expect 3 to 4 weeks or more to eliminate some colonies, and that baits usually kill many but not all of the ants in a colony, particularly a large one that cannot also be treated directly. The steps below follow the Texas A&M guide and the two University of Florida sources, and none of them tests a specific product on ghost ants." },
+    { "type": "ol", "items": [
+      "**Follow the trails.** Texas A&M calls finding the nest the most important step. Ants often travel along building edges, borders of landscape beds, wires, hoses and plumbing, and the guide suggests small caps or squares of foil holding sugar water to reveal where the workers go.",
+      "**Choose a bait the ants will eat.** The University of Florida's guide says sweet baits are effective for many sweet-feeding ants, and baits come as granules, liquids, gels and tamper-resistant stations. Because ants pass food among nestmates, the toxicant can reach the queens and brood, which is why baits can reach a colony when sprays do not.",
+      "**Place it on the trails and check back.** For ghost ants, the Florida profile says to check within one or two days to see whether the ants are feeding, and to move the bait if they are not. For indoor colonies nesting in voids, it says baits can control them.",
+      "**Keep sprays away from it.** Do not spray insecticide around a bait application, and do not use long-acting contact sprays on the trails you are baiting.",
+      "**Keep the bait fresh and be patient.** Texas A&M advises using fresh product, following the label on the number of stations, and removing competing food such as spilled food and grease.",
+      "**Deal with the entry points last.** The Florida profile says foragers entering from outdoors through cracks, crevices or screens should be restricted with barrier sprays. Texas A&M says repellent pyrethroid sprays can be used after a baiting program to clear leftover ants and around openings, as the label directs. Both sources say to keep such sprays away from bait, so the entry-point treatment comes after the baiting, not during it."
+    ] },
+    { "type": "p", "text": "The Texas A&M guide, published in 2005, names the active ingredients found in effective indoor baits at that time: abamectin, fipronil, hydramethylnon, sulfonamide, sodium tetraborate (borax), orthoboric acid, pyriproxyfen and methoprene. It describes them as slow-acting, and it separates true baits from bait traps, which kill only foraging workers and not the ants in the nest. Products on the market change, so the current label is what counts. Choose a product labeled for the ants you have and for the place you will use it, indoors or outdoors, and follow the rates and intervals printed on it. The University of Florida says only that the ghost ant is susceptible to a number of insecticides used in baits or as contact poisons." },
+    { "type": "p", "text": "For a broader look at how gel and liquid baits compare with glue traps, see [how ant bait stations compare with other traps](/blog/best-ant-traps-canada), and for the reasoning behind baiting over spraying, [why baiting beats the sprays in the aisle](/blog/how-to-get-rid-of-ants-canada) and [what actually kills an ant colony](/blog/best-ant-killer) cover it. The whole-house version of this plan for any species is in [how to get rid of ants in the house](/blog/how-to-get-rid-of-ants-in-the-house)." },
+    { "type": "h3", "text": "Are boric acid and borax baits safe around children and pets?" },
+    { "type": "p", "text": "They carry real risks when used carelessly, which is why labels and agencies stress placement. [The National Pesticide Information Center](https://npic.orst.edu/factsheets/boricgen.html) says boric acid can kill insects that eat it by disrupting their stomach, and that many boric acid products require use in places out of children's reach. It also advises always reading and following the label. Texas A&M likewise says never to place baits where small children or pets can reach them. How borates work in ant bait, why a low concentration matters and where do-it-yourself recipes fall short are covered in [the guide to borax for ants](/blog/borax-for-ants)." },
+
+    { "type": "h2", "text": "How do you keep ghost ants from coming back?" },
+    { "type": "p", "text": "Remove what draws them in and close the gaps they use. The University of Florida calls cleanliness the best approach to ant control in the home, and Texas A&M lays out the rest of the checklist." },
+    { "type": "ul", "items": [
+      "**Store food in tight containers and clean up spills.** Both universities list this first, and Texas A&M says removing spilled food and grease also makes bait work better.",
+      "**Control honeydew sources.** The Florida profile advises removing plants that attract ants or controlling aphids, whiteflies and other insects that produce honeydew.",
+      "**Fix moisture.** Texas A&M advises repairing dripping faucets and other plumbing leaks, replacing wet or rotten wood and moving mulch and landscape rocks away from the bottom of the foundation. The University of Florida adds condensation to the list of moisture sources to reduce.",
+      "**Seal entries.** Texas A&M advises caulking cracks and crevices, replacing worn weatherstripping on doors and windows, and cleaning out rain gutters.",
+      "**Trim the bridges.** Texas A&M advises removing dense vegetation and ivy next to the house, trimming tree limbs away from the roof and house, and storing firewood away from the house.",
+      "**Check what you carry in.** Texas A&M advises making sure firewood and potted plants are not infested before bringing them inside. That matters for this species in particular, since the Florida profile traces the arrival in Texas to a shipment of plants and lists potted plants as an indoor nest site."
+    ] },
+
+    { "type": "h2", "text": "When should you call a professional?" },
+    { "type": "p", "text": "Call a professional when the nest is inside a wall or when a careful baiting program has not worked after several weeks. Texas A&M says ant control can be difficult and advises calling a commercial pest control operator if you are not successful. It notes that reaching a colony in wood or a wall void sometimes means drilling holes, which calls for a professional's skill and equipment. It also says some nonrepellent contact insecticides, such as products containing chlorfenapyr, are used indoors by professionals to kill foraging ants when the nest cannot be reached." },
+    { "type": "p", "text": "A professional visit is also a way to confirm the species, because the right plan depends on it. Texas A&M notes that a pest control operator will be able to identify the ants invading your home." }
+  ],
+  "faqs": [
+    {
+      "question": "Are ghost ants and odorous house ants the same thing?",
+      "answer": "No. Ghost ants are Tapinoma melanocephalum and odorous house ants are Tapinoma sessile, two species in the same genus. Texas A&M describes a rotten coconut smell for crushed odorous house ants, and the University of Florida describes a similar odor for ghost ants, so smell cannot separate them. Color can: ghost ants have a dark head and thorax with a milky white abdomen and legs, while the University of Florida describes odorous house ants as entirely dark brown to black. Odorous house ants are also larger, at about 1/8 inch."
+    },
+    {
+      "question": "Can ghost ants survive winter in cold states?",
+      "answer": "Only indoors. The University of Florida says that in the northern states the ghost ant can survive only in greenhouses and other heated environments. In warm regions the species is established in Florida and Hawaii, and it has been in Texas since 1994 or 1995. A colony found in a cold-winter state is therefore most likely living inside a heated building, which is also where treatment has to focus."
+    },
+    {
+      "question": "Why do I keep seeing ghost ants when my kitchen is clean?",
+      "answer": "The colony may be nesting inside the house, not just visiting. The University of Florida reports that ghost ants can invade from outside but can also nest in wall voids, spaces between cabinetry and baseboards, and potted plants. Honeydew from plants infested with aphids or whiteflies, and moisture from leaks and condensation, are other draws. A clean counter removes one food source, but it does not remove a nest."
+    },
+    {
+      "question": "Why did spraying make my ghost ants spread?",
+      "answer": "Texas A&M AgriLife Extension warns that spraying ant trails kills only a few foraging workers and can sometimes make the problem worse by causing a colony to split into two or more separate colonies. Ghost ants also spread by budding, in which queens leave with workers to start new nests. The warning is general and was not tested on ghost ants, but it is the reason the university guides recommend bait."
+    },
+    {
+      "question": "How long does it take bait to get rid of ghost ants?",
+      "answer": "Plan on weeks, not days. Texas A&M says it may take 3 to 4 weeks or more to eliminate some colonies, and that baits usually kill many but not all of the ants in a colony, particularly a large one. The University of Florida says to check trail bait within one or two days to see whether the ants are feeding, and to move it if they are not."
+    },
+    {
+      "question": "Do ghost ants sting or carry disease?",
+      "answer": "Ghost ants have no stinger, according to the University of Florida. Neither that profile nor the Texas A&M guide reports ghost ants biting people, and neither discusses disease transmission by this species, so these sources do not support a health claim either way. If you have a reaction to a bite or sting that worries you, contact a healthcare provider."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ghost Ant, Tapinoma melanocephalum (Fabricius) (Insecta: Hymenoptera: Formicidae)",
+      "publisher": "University of Florida IFAS Extension",
+      "url": "https://ask.ifas.ufl.edu/publication/IN532"
+    },
+    {
+      "title": "Ants",
+      "publisher": "University of Florida IFAS Extension",
+      "url": "https://ask.ifas.ufl.edu/publication/IG080"
+    },
+    {
+      "title": "Managing Household Ant Pests",
+      "publisher": "Texas A&M AgriLife Extension Service",
+      "url": "https://extensionentomology.tamu.edu/wp-content/uploads/sites/3/2018/05/Household-ants-B6183.pdf"
+    },
+    {
+      "title": "Identifying household ants",
+      "publisher": "Texas A&M AgriLife Extension Service, Insects in the City",
+      "url": "https://citybugs.tamu.edu/factsheets/household/ants-house/ent-2013/"
+    },
+    {
+      "title": "Boric Acid Fact Sheet",
+      "publisher": "National Pesticide Information Center, Oregon State University",
+      "url": "https://npic.orst.edu/factsheets/boricgen.html"
+    }
+  ]
+}

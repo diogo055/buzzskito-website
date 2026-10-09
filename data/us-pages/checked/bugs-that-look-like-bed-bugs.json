@@ -1,0 +1,10 @@
+{
+ "id": "bugs-that-look-like-bed-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "4d40b00445af4d3f2503188562ef49e017985c2f315aa9ab77a50612973b5b28",
+ "claimsChecked": 62,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-10-08"
+}

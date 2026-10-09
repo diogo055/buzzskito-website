@@ -1,0 +1,10 @@
+{
+ "id": "army-ants",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "b24660f11d3be4f2db826a2c86ed354e471ebab39b688eebbffaa0d0e00fe47e",
+ "claimsChecked": 118,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-08"
+}

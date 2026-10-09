@@ -1,0 +1,154 @@
+{
+  "slug": "red-ants",
+  "kind": "spoke",
+  "cluster": "ants",
+  "keyword": "red ants",
+  "alsoTargets": [],
+  "metaTitle": "Red Ants: Is It a Fire Ant or a Look-Alike?",
+  "metaDescription": "In the southern US, red ants that pour out of a soil mound and sting are usually fire ants. See the look-alikes, sting emergencies and mound treatment.",
+  "h1": "Red Ants: How to Tell Fire Ants From the Look-Alikes",
+  "dek": "How to tell a red imported fire ant from native fire ants and other red ants, where fire ants live in the US, what a sting does and when it is an emergency, and the bait-first method university extension services recommend.",
+  "breadcrumb": "Red Ants",
+  "excerpt": "Red ants are not one species. How to tell fire ants from harvester, carpenter and other red ants, what a sting does, when it is an emergency and how mounds are treated.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Red ant is a description, not a species: in the southern United States, a small reddish ant that pours out of a soil mound and stings is most likely a fire ant, and the best known is the red imported fire ant.** Native fire ants, harvester ants and some carpenter ants are red too. [USDA](https://www.aphis.usda.gov/plant-pests-diseases/ifa) says imported fire ants infest more than 367 million acres in 13 states and Puerto Rico.",
+    "bullets": [
+      "Red imported fire ant workers come in many sizes, 1/8 to 1/4 inch long by the University of Florida's measure, and are usually red to brown with a black hind section.",
+      "A mound is a dome of soil that the University of California says can be 1 foot high and USDA says may reach 18 to 24 inches.",
+      "CDC says a sting burns and that red bumps may turn into white, fluid-filled pustules within a day or two.",
+      "Severe chest pain, nausea, severe sweating, loss of breath, serious swelling or slurred speech after a sting means emergency care immediately, according to CDC.",
+      "Texas A&M's Two-Step Method is a broadcast bait followed by treatment of individual problem mounds; baits take weeks to months to reach 80 to 90 percent control."
+    ]
+  },
+  "facts": {
+    "title": "Red imported fire ant at a glance",
+    "rows": [
+      ["Scientific name", "*Solenopsis invicta*"],
+      ["Worker size", "1/8 to 1/4 inch (USDA, University of Florida); 1/16 to 1/5 inch (University of California)"],
+      ["Color", "Usually red to brown with a black hind section (University of Florida)"],
+      ["Mound", "Dome of soil, up to 1 foot high (University of California) or 18 to 24 inches (USDA)"],
+      ["US range", "13 states, most of them southern, plus Puerto Rico; more than 367 million acres (USDA's figure for both imported fire ant species)"],
+      ["Arrived in the US", "Between 1933 and 1945, at Mobile, Alabama, or Pensacola, Florida (University of Florida)"],
+      ["Colony size", "Typically 80,000 workers; as many as 240,000 when mature (University of Florida)"],
+      ["Sting", "Burning, then a white pustule within a day or two (CDC)"],
+      ["Recommended control", "Broadcast bait, then treat individual mounds (the Two-Step Method)"],
+      ["Bait results", "Weeks to months for 80 to 90 percent control (Texas A&M)"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What kind of ant is a red ant?" },
+    { "type": "p", "text": "Red ant is a description, not a species, and in the southern United States the red ant people worry about is the red imported fire ant (*Solenopsis invicta*). [The University of Florida's profile of the species](https://ask.ifas.ufl.edu/publication/IN352) says two species of fire ants are found in Florida, calls this one the most notorious and describes the other, the tropical or native fire ant (*Solenopsis geminata*), as much less common. Several other ants are red or reddish: native fire ants, harvester ants, some carpenter ants and pyramid ants. They differ a great deal in how readily they sting, so the name matters. This page sorts out the red ones, and [the full reference to ants in US homes](/learn/ants) covers the rest." },
+    { "type": "p", "text": "The table sets the red imported fire ant beside the red and reddish ants that three sources compare it with: the [University of California's Pest Notes on the red imported fire ant](https://ipm.ucanr.edu/PMG/PESTNOTES/pn7487new.html), the University of Florida's profile and [Texas A&M's guide to native ants](https://fireant.tamu.edu/learn/native-ants), which was written for Texas." },
+    { "type": "table", "head": ["Ant", "Worker size", "Color and build", "Nest", "Bite or sting"], "rows": [
+      ["Red imported fire ant (*Solenopsis invicta*)", "1/8 to 1/4 inch, or 1/16 to 1/5 inch by California's measure; many sizes in one colony", "Red to brown with a black hind section", "Dome-shaped soil mound; sometimes logs, walls or utility boxes", "Bites and stings repeatedly, in numbers"],
+      ["Southern fire ant (*Solenopsis xyloni*), native", "About the same as the imported species", "About the same as the imported species", "Irregular patch of scattered soil with several obscure entrances", "Very agitated when the nest is disturbed, but much less aggressive than the imported species"],
+      ["Tropical fire ant (*Solenopsis geminata*), native", "Not stated", "Some workers have square heads that are large for their bodies", "Mound", "Not stated"],
+      ["Harvester ants (*Pogonomyrmex* species)", "California harvester ant: 1/5 inch, all one size", "Red", "Red harvester ant: bare area of coarse soil around a central opening", "Can bite and sting; can be dangerous to sensitive people"],
+      ["Carpenter ants (some *Camponotus* species)", "1/4 to 1/2 inch", "Dull red body with a black abdomen in two species common indoors in Texas; evenly rounded thorax without spines", "Dead wood: stumps, fences, firewood, siding, beams, joists", "Can bite; do not sting"],
+      ["Pyramid ants (*Dorymyrmex* species)", "About 1/8 inch", "Red-black or dark brown; pyramid-shaped bump on the thorax", "Crater 2 to 4 inches across around one entrance hole, in open, sunny ground", "Not stated"]
+    ], "caption": "Fire ant rows from the University of California, the University of Florida and USDA; the others from the University of California and Texas A&M. Not stated means the sources cited on this page do not say." },
+    { "type": "p", "text": "Two more belong on the list. Texas A&M says bigheaded ants (*Pheidole* species) are most often confused with fire ants. Their colonies include major workers, also called soldiers, with very large heads, which imported fire ant colonies do not have. And not every imported fire ant is red: [USDA's Animal and Plant Health Inspection Service (APHIS)](https://www.aphis.usda.gov/plant-pests-diseases/ifa) covers two species, *Solenopsis invicta* and *Solenopsis richteri*, and describes them together as reddish-brown or black. The University of Florida's profile calls *Solenopsis richteri* the black imported fire ant and describes it as confined to northeastern Mississippi and northwestern Alabama. If your ants are plainly black, start with [the comparison of little black, pavement, carpenter and odorous house ants](/blog/black-ants)." },
+    { "type": "media", "needed": "Side-by-side macro photos at the same scale, with a ruler marked in inches: red imported fire ant workers of three sizes, a red harvester ant, a red-and-black carpenter ant and a pyramid ant, each labeled" },
+
+    { "type": "h2", "text": "How do you tell a fire ant from other red ants?" },
+    { "type": "p", "text": "Look for three things together: workers of clearly different sizes in one colony, a dome of loose soil, and a fast, massed response when the nest is disturbed. The University of California calls that response the quickest way to recognize the species, because red imported fire ants quickly climb onto and sting anything that touches their mound or their food. APHIS describes hundreds of ants swarming and running up vertical surfaces to sting. Those are descriptions of what happens, not a test to try with a hand or a foot. [CDC's National Institute for Occupational Safety and Health (NIOSH)](https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html), in its guidance for outdoor workers, says not to disturb or stand on or near ant mounds." },
+    { "type": "ul", "items": [
+      "**Mixed sizes.** The University of California describes fire ant workers as variable in size, from 1/16 to 1/5 inch, while California harvester ant workers are all the same size, about 1/5 inch.",
+      "**Color.** Florida describes the body as usually red to brown with a black gaster, the rounded hind section. California calls the workers dark reddish brown.",
+      "**Head shape.** Florida's profile says red imported fire ant workers do not have heads out of proportion to their bodies, while tropical fire ant mounds contain workers with square heads that are large for their bodies. Texas A&M draws the same line with bigheaded ants, whose major workers have very large heads.",
+      "**Under magnification.** Florida's profile describes a waist of two segments and 10-segmented antennae that end in a two-segmented club. Separating the imported species from other fire ants takes finer detail: California's guide says the deciding feature is the number of clypeal teeth, three in the imported ant and two in the native southern fire ant, and that it is best viewed under a microscope. The clypeus is a plate on the front of the head, above the jaws."
+    ] },
+    { "type": "p", "text": "Getting the name right has a practical use: Florida's authors stress telling the imported fire ant from the native one so that appropriate control measures are taken." },
+
+    { "type": "h2", "text": "What does a fire ant mound look like?" },
+    { "type": "p", "text": "An undisturbed fire ant mound is a dome of soil. The University of California says mounds are frequently dome-shaped and can be 1 foot high, APHIS describes hard, mound-shaped nests that may reach 18 to 24 inches high, and the University of Florida says mounds are seldom larger than 18 inches in diameter. In California they often resemble gopher mounds, a circular upwelling of loose soil, though the guide adds that mowing on irrigated turf often cuts off the raised part and leaves them flatter. APHIS adds one more clue: small white eggs, larvae and pupae may be visible on top of a mound." },
+    { "type": "media", "needed": "Photo of an undisturbed red imported fire ant mound in a lawn, a dome of loose soil about a foot across, with a tape measure or garden trowel beside it for scale" },
+    { "type": "p", "text": "Not every colony builds one. California's guide says red imported fire ants sometimes nest in rotten logs, in the walls of buildings, under sidewalks and in outdoor electric and water utility boxes, and that colony-building can damage plants, lawns and outdoor electrical fixtures." },
+    { "type": "p", "text": "The number of ants under the dome helps explain the response to a disturbance. Florida reports that a typical colony has about 80,000 workers and a mature one may have as many as 240,000, with a queen able to lay as many as 1,500 eggs a day. Some colonies have one queen and others have many. California's guide says many-queen colonies frequently expand by budding, in which some queens and workers start a new mound nearby, and that mound densities in pastures in the southeastern United States sometimes approach 1,000 per acre." },
+
+    { "type": "h2", "text": "Where do red imported fire ants live in the United States?" },
+    { "type": "p", "text": "Imported fire ants live across the southern United States, in parts of California and in Puerto Rico. APHIS, which has established imported fire ant quarantine areas, says they infest more than 367 million acres in Alabama, Arkansas, California, Florida, Georgia, Louisiana, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia and Puerto Rico. CDC describes fire ants as mostly found in the Southeastern United States, with limited distribution in New Mexico, Arizona and California." },
+    { "type": "p", "text": "The lists differ at the edges. The University of Florida's profile, counting established infestations as of August 2008, also names Maryland and New Mexico, neither of which is on the APHIS list above. Outside all of these states, the other ants in the table are the likelier explanation for a red ant, though APHIS asks anyone who sees the pest or signs of it to report the finding." },
+    { "type": "p", "text": "The ant is not native. Florida's profile says it was first introduced from Brazil into either Mobile, Alabama, or Pensacola, Florida, between 1933 and 1945, and APHIS says imported fire ants likely arrived in soil on cargo ships. California's guide dates the official arrival there to 1998, in residential and commercial areas of Orange, Los Angeles, Riverside and San Bernardino counties and, to a lesser extent, San Diego County." },
+    { "type": "p", "text": "The ants spread on their own and as hitchhikers on agricultural commodities, so APHIS has set quarantine areas and asks people to follow the regulations on moving baled hay, soil, plants, soil-moving equipment and other items out of them. California's guide describes the red imported fire ant as a quarantined pest in that state and says the California Department of Food and Agriculture can help residents get a suspected fire ant identified." },
+    { "type": "p", "text": "Fire ant colonies also send out winged ants. Florida describes six to eight mating flights between spring and fall, each of up to 4,500 winged ants, usually at midday on a warm, sunny day after rain. Winged ants leaving a fire ant mound are the colony's reproductives, not a different pest, as explained in [what flying ants are and why they swarm](/blog/flying-ants). Winged insects coming out of the house itself deserve a closer look, because [termite swarmers and winged ants are easy to mix up](/blog/flying-ants-vs-termites)." },
+
+    { "type": "h2", "text": "What happens when a fire ant stings you?" },
+    { "type": "p", "text": "A fire ant sting burns, and a white pustule usually follows. CDC says the stings inject venom that can cause a burning sensation, and that red bumps may form at the sting site and develop into white, fluid-filled pustules within a day or two. Fire ants bite as well as sting: CDC notes that they attach to the skin with their jaws, and the University of California says a single ant can bite and sting repeatedly. Florida's profile adds that only the sting is responsible for the pain and the pustule." },
+    { "type": "p", "text": "Florida's profile also describes the venom: about 95 percent of it consists of alkaloids, which cause both the pain and the pustule, and the remainder is a watery solution of proteins and other molecules that produces the allergic reaction in hypersensitive people. California's guide says the pustule takes several weeks to disappear, can become infected if it is not kept clean and may leave permanent scarring." },
+    { "type": "p", "text": "CDC's first aid is short. Rub the ants off briskly, because they hold on with their jaws. CDC adds that antihistamines may help, used as the package directs, and that drowsiness may occur. Fuller first aid, and a comparison of other species' stings and bites, are in [the guide to which ants bite and which sting](/blog/do-ants-bite)." },
+    { "type": "media", "needed": "Photo of a forearm or ankle about one day after fire ant stings, showing a cluster of red bumps each topped with a small white, fluid-filled pustule" },
+    { "type": "h3", "text": "When is a fire ant sting a medical emergency?" },
+    { "type": "p", "text": "A sting is an emergency when any of the warning signs below appear. The lists come from CDC and the University of California, and neither is a tool for deciding that a reaction is mild. If you are unsure, call your local emergency number." },
+    { "type": "callout", "tone": "warning", "title": "Get emergency care immediately", "text": "CDC says to take the person to an emergency medical facility immediately if a sting causes severe chest pain, nausea, severe sweating, loss of breath, serious swelling or slurred speech. The University of California lists chest pains, nausea, dizziness or shock after a stinging incident." },
+    { "type": "p", "text": "California's guide says a small percentage of people are allergic to the stings, and Florida's profile describes reactions that range from localized pain and swelling to anaphylactic shock. CDC advises workers with a history of severe allergic reactions to insect bites or stings to carry an EpiPen and wear a medical identification bracelet or necklace. Anyone who has reacted badly before should ask a healthcare provider what to carry." },
+    { "type": "p", "text": "Contact a healthcare provider, too, about a sting site that is getting worse instead of better; California's guide notes that pustules can become infected. The same guide calls the sting a serious concern for pets as well as people, so call a veterinarian about an animal that has been stung many times or seems unwell." },
+    { "type": "p", "text": "Other red ants are a smaller worry, not an absent one. Texas A&M says harvester ants can bite and sting and can be dangerous to sensitive individuals, although it calls the red harvester ant seldom harmful. Carpenter ants can bite but do not sting, a difference covered in [what a carpenter ant bite is like](/blog/do-carpenter-ants-bite)." },
+
+    { "type": "h2", "text": "How do you get rid of fire ants?" },
+    { "type": "p", "text": "Bait first: broadcast a fire ant bait across the yard, then treat individual problem mounds. [Texas A&M's fire ant research and management project](https://fireant.tamu.edu/controlmethods/twostep/) calls this the Two-Step Method. The approach works best, the project says, in fully infested areas, meaning five or more mounds for each quarter-acre of yard, or where there is little or no concern for preserving native ant species." },
+    { "type": "callout", "tone": "warning", "title": "The label is the law", "text": "Fire ant baits, dusts, drenches and granules are pesticides. Use a product only on the sites and at the rates and intervals its label allows, and keep children and pets away from treated areas as the label directs." },
+    { "type": "h3", "text": "Step one: broadcast a bait" },
+    { "type": "p", "text": "A fire ant bait is a pesticide carried on processed corn grits coated with soybean oil, in Texas A&M's description. Foraging workers take it back to the nest. Florida's profile explains why that matters: bait is slower than drenching, dusting or fumigating a mound but more effective, because the workers feed it to the queen and the brood." },
+    { "type": "ul", "items": [
+      "**Check that the ants are foraging.** Texas A&M says to apply bait when worker ants are actively looking for food, usually in late afternoon or in the evening, and suggests putting a small pile of bait next to a mound and seeing whether the ants have found it within 30 minutes. California's guide says to bait when ants are seen walking on the ground, with temperatures of 70° to 90°F best, and in the evening during hotter weather.",
+      "**Keep it fresh and dry.** Use fresh bait, preferably from an unopened container, and apply it when the ground and grass are dry and no rain is expected for 24 to 48 hours. California adds that baits lose their effectiveness quickly with extreme heat, water and sunlight, and that on watered turf a couple of hours without irrigation is usually enough.",
+      "**Use a spreader.** Texas A&M recommends a hand-held seed spreader and says not to apply baits mixed with fertilizer or seed. The label gives the rate.",
+      "**Time it.** The Texas project suggests broadcasting over the entire yard sometime between late August and mid-October, and reapplying once or twice a year.",
+      "**Be patient.** Texas A&M says baits are slow-acting and take weeks to months to reach 80 to 90 percent control. California separates two kinds: baits containing an insect growth regulator need 4 to 6 weeks for maximum effect, while a corn-grit bait containing hydramethylnon gives good results within a week or less."
+    ] },
+    { "type": "p", "text": "The active ingredients California's guide lists for fire ant baits are hydramethylnon, abamectin, fipronil, pyriproxyfen, spinosad, methoprene and indoxacarb. Its table of baits available in California in 2013 marks most of the products it lists as for professional use only, so check that the label names fire ants and the kind of site you are treating. The same reasoning holds indoors, where [slow-acting bait outperforms spray on household ants](/blog/how-to-get-rid-of-ants-canada)." },
+    { "type": "h3", "text": "Step two: treat individual mounds" },
+    { "type": "p", "text": "Step two is treating what Texas A&M calls individual, problem mounds. The project's summary of the method names mound drenches, granules, baits and dusts, and it describes three of them. Dusts need no water and act fast but leave a surface residue. Liquid drenches generally eliminate a mound within a few hours and leave little surface residue. Granules are relatively fast acting: they are usually put on and around the mound and then watered in with 1 to 2 gallons sprinkled on without disturbing it. For all of them, the project says to follow the directions on the label closely." },
+    { "type": "p", "text": "The two university sources part ways here. California's guide, written for a state where the ant is under quarantine, does not recommend products that are not labeled as fire ant baits, and it names mound treatments and broadcast granules containing ingredients such as bifenthrin, permethrin, acephate and d-limonene. It also warns that spraying foraging ants will not control a colony and that spraying a nest may cause the colony to disperse, which could make control more difficult. Follow the guidance written for your own state." },
+    { "type": "h3", "text": "Does boiling water work on a fire ant mound?" },
+    { "type": "p", "text": "Sometimes, and at a cost. Texas A&M says pouring 2 to 3 gallons of very hot or boiling water on a mound kills the ants about 60 percent of the time. Otherwise the ants will probably just move to another location, and the water kills the grass and other vegetation it lands on. Florida's profile is blunter: pouring boiling water or igniting flammable liquids over a mound may bring about control, but it recommends neither, because both are very dangerous to people and to the environment." },
+
+    { "type": "h2", "text": "Should you treat other red ants in the yard?" },
+    { "type": "p", "text": "Often there is no need. Texas A&M says some native ants are in constant competition with imported fire ants and may even help against them, and it describes bigheaded ants as major predators of the fire ant queens that are present in large numbers after a swarm. It calls the red harvester ant seldom harmful despite the bare ground around its nest. For pests in turf more generally, see the guide to [lawn pest control](/blog/lawn-pest-control)." },
+    { "type": "p", "text": "Carpenter ants are the exception that matters for a building. Texas A&M says they usually nest in dead wood, outdoors in old stumps, fences and firewood or indoors in siding, beams and joists. Large red-and-black ants indoors are a reason to learn [how to trace carpenter ants back to the nest](/blog/carpenter-ants-canada)." },
+
+    { "type": "h2", "text": "What should you do about red ants in the house?" },
+    { "type": "p", "text": "Find out which ant it is before you treat anything. Fire ants do come indoors: Florida's profile says workers will forage for sweets, proteins and fats in homes, and California's guide says colonies sometimes nest in the walls of buildings. A trail of very small ants across a counter may be a different species: [the identification key for tiny ants](/blog/tiny-ants) sorts those by size, color and smell, and one of the species in it has a separate guide to [how ghost ants are identified and controlled](/blog/ghost-ants). Whatever the species, the indoor method has the same outline: follow the trail, bait and seal, as set out in [the plan for getting rid of ants in the house](/blog/how-to-get-rid-of-ants-in-the-house)." },
+
+    { "type": "h2", "text": "When should you report fire ants or call a professional?" },
+    { "type": "p", "text": "Report them when you find suspected fire ants somewhere they are not known to be established, and consider a professional when the ants are somewhere you should not be treating yourself. APHIS asks people who see the pest or signs of its damage to report it immediately. California's guide tells residents of areas where the ant has not been established to contact the California Department of Food and Agriculture or the local agricultural commissioner for help and not to attempt their own control program." },
+    { "type": "p", "text": "A licensed pest control company is a reasonable call when someone in the household has reacted badly to stings, when ants are nesting in a wall or an electrical or water utility box, or when mounds keep returning after bait has been applied as the label directs." }
+  ],
+  "faqs": [
+    {
+      "question": "Are all red ants fire ants?",
+      "answer": "No. Red describes several unrelated ants. In the southern United States the red imported fire ant is the best known, and the University of Florida says the tropical or native fire ant is much less common in Florida. Texas A&M describes red harvester ants nesting in bare areas of coarse soil with a central opening, carpenter ants with dull red bodies and black abdomens nesting in dead wood, and pyramid ants, which are red-black or dark brown and build craters 2 to 4 inches across. Fire ants stand out by their mixed worker sizes, their dome-shaped mounds and the way they swarm out and sting when the nest is disturbed."
+    },
+    {
+      "question": "Do red ants bite or sting?",
+      "answer": "It depends on the species. Fire ants do both: CDC says they attach to the skin with their jaws, and the University of California says a single red imported fire ant can bite and sting repeatedly. Texas A&M says harvester ants can bite and sting and can be dangerous to sensitive individuals, and that carpenter ants can bite but do not sting. After any sting, severe chest pain, nausea, severe sweating, loss of breath, serious swelling or slurred speech means going to an emergency medical facility immediately, according to CDC."
+    },
+    {
+      "question": "Which states have fire ants?",
+      "answer": "USDA's Animal and Plant Health Inspection Service says imported fire ants infest more than 367 million acres in Alabama, Arkansas, California, Florida, Georgia, Louisiana, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia and Puerto Rico. CDC describes fire ants as mostly found in the Southeastern United States, with limited distribution in New Mexico, Arizona and California. A University of Florida profile that counted established infestations as of August 2008 also named Maryland and New Mexico. USDA asks people who see the pest or signs of it to report the finding."
+    },
+    {
+      "question": "What is the difference between imported and native fire ants?",
+      "answer": "Mostly behavior and nest shape, because the ants themselves look alike. The University of California says the native southern fire ant is about the same size and color as the red imported fire ant, but its nests are usually irregular patches of scattered soil with several obscure entrances, and it is much less aggressive when disturbed. The guide says the feature that definitively separates the two, best viewed under a microscope, is the number of clypeal teeth on the head: three in the imported ant, two in the native. The University of Florida says the tropical or native fire ant is much less common in Florida and its mounds contain workers with square heads that are large for their bodies."
+    },
+    {
+      "question": "How long does fire ant bait take to work?",
+      "answer": "Longer than a contact insecticide. Texas A&M's fire ant project says baits are slow-acting and need weeks to months to reach 80 to 90 percent control. The University of California separates two kinds of bait: those containing an insect growth regulator need 4 to 6 weeks for maximum effect, while a corn-grit bait containing hydramethylnon gives good results within a week or less. Bait works only if foraging ants pick it up, so Texas A&M suggests placing a small pile beside a mound and checking whether the ants have found it within 30 minutes before treating the whole yard."
+    },
+    {
+      "question": "Are fire ants dangerous to dogs and cats?",
+      "answer": "They can be. The University of California describes the red imported fire ant's sting as a serious concern to people and their pets, and notes that the ants quickly climb onto whatever disturbs their mound and that a single ant can bite and sting repeatedly. The sources cited on this page do not give first aid for animals. Move a pet away from the mound, and call a veterinarian if it has been stung many times or seems unwell afterward."
+    }
+  ],
+  "sources": [
+    { "title": "Red Imported Fire Ant, Solenopsis invicta Buren (Insecta: Hymenoptera: Formicidae: Myrmicinae) (EENY-195)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN352" },
+    { "title": "Pest Notes: Red Imported Fire Ant (UC ANR Publication 7487)", "publisher": "University of California Statewide Integrated Pest Management Program", "url": "https://ipm.ucanr.edu/PMG/PESTNOTES/pn7487new.html" },
+    { "title": "Imported Fire Ants", "publisher": "USDA Animal and Plant Health Inspection Service (APHIS)", "url": "https://www.aphis.usda.gov/plant-pests-diseases/ifa" },
+    { "title": "Two-Step Method", "publisher": "Texas Imported Fire Ant Research and Management Project, Texas A&M AgriLife", "url": "https://fireant.tamu.edu/controlmethods/twostep/" },
+    { "title": "Native Ants", "publisher": "Texas Imported Fire Ant Research and Management Project, Texas A&M AgriLife", "url": "https://fireant.tamu.edu/learn/native-ants" },
+    { "title": "Insects and Scorpions at Work", "publisher": "CDC National Institute for Occupational Safety and Health (NIOSH)", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html" }
+  ],
+  "disclaimer": "both"
+}

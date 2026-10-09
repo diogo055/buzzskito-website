@@ -4,160 +4,168 @@
   "cluster": "bed-bugs",
   "keyword": "where do bed bugs hide",
   "alsoTargets": [],
-  "metaTitle": "Where Do Bed Bugs Hide? Mattress Seams First",
-  "metaDescription": "Bed bugs hide in mattress seams, box springs, bed frames and headboards first, then furniture, walls and luggage. See how to inspect a room.",
+  "metaTitle": "Where Do Bed Bugs Hide? Start With the Bed",
+  "metaDescription": "Bed bugs hide in box springs, mattress seams, bed frames and headboards first, then sofas, walls and belongings. How to inspect a bedroom or hotel room.",
   "h1": "Where Do Bed Bugs Hide? Hiding Places From the Mattress Outward",
-  "dek": "The spots bed bugs use, ordered by how close they are to where you sleep, how far the bugs travel to feed, and how to inspect a bedroom or hotel room.",
+  "dek": "The spots bed bugs use, from the bed outward, with one published count of where they were found, how far the bugs travel to feed, and how to inspect a bedroom or hotel room.",
   "breadcrumb": "Where Bed Bugs Hide",
-  "excerpt": "Bed bugs hide in mattress seams, box springs, headboards and bed frames first. Here is how far they roam, when they feed and how to inspect a bedroom or hotel room.",
+  "excerpt": "Bed bugs hide in box springs, mattress seams, headboards and bed frames first. Here is how far they roam, when they feed and how to inspect a bedroom or hotel room.",
   "datePublished": "2026-10-07",
   "quickAnswer": {
-    "lead": "**Bed bugs hide closest to where people sleep: in the seams, piping and tags of the mattress and box spring, and in cracks of the bed frame and headboard.** In heavier infestations they spread to furniture, baseboards, outlets and belongings. [The EPA](https://www.epa.gov/bedbugs/how-find-bed-bugs) says they readily travel 5 to 20 feet from their hiding places to feed.",
+    "lead": "**Bed bugs hide closest to where people sleep: in the seams, piping and tags of the mattress and box spring, and in cracks of the bed frame and headboard.** That is [the EPA's list](https://www.epa.gov/bedbugs/how-find-bed-bugs) for the area around the bed. In heavily infested rooms the agency says they also turn up in chairs and couches, drawer joints, electrical outlets and the junction of wall and ceiling.",
     "bullets": [
       "The EPA's rule of thumb is that any crack that will hold a credit card could hide a bed bug.",
       "Bed bugs readily travel 5 to 20 feet from established hiding places to feed, according to the EPA.",
-      "Adults are about 3/16 inch long, and the largest share of any population is always immature bugs that are smaller still.",
+      "In a University of Kentucky count of bed bugs found in 13 infested apartments, 34.6 percent were in box springs, 22.6 percent in couches and chairs, 22.4 percent in mattresses and 13.4 percent in bed frames and headboards.",
+      "Adults are about 3/16 inch long, and Virginia Tech says the largest share of any bed bug population is always immature bugs, which are smaller still.",
       "Bed bugs are active mainly at night, but a hungry bug may feed during the day, per the University of Kentucky.",
-      "Virginia Tech's guide says bed bugs feed about every 5 to 7 days when a host is present and spend the other days digesting."
+      "Virginia Tech's guide says bed bugs feed every 5 to 7 days if a host is present and spend the other days digesting."
     ]
   },
   "facts": {
     "title": "Bed bug hiding habits at a glance",
     "rows": [
-      ["First places to check", "Mattress piping, seams and tags; box spring; bed frame and headboard"],
-      ["Crack size that can hide one", "Any gap that will hold a credit card (EPA)"],
+      ["First places to check", "Mattress piping, seams and tags; box spring; bed frame and headboard (EPA)"],
+      ["Where the bugs were in one count", "Box springs 34.6%, couches and chairs 22.6%, mattresses 22.4%, bed frames and headboards 13.4% (University of Kentucky data from 13 infested apartments, charted by the Indiana Department of Health)"],
+      ["Crack size that can hide one", "Any gap that will hold a credit card (EPA); crevices no wider than a toothpick (University of Kentucky)"],
       ["Feeding reach", "Readily 5 to 20 feet from established hiding places (EPA)"],
       ["Adult size", "About 3/16 inch (University of Kentucky; Virginia Tech)"],
-      ["Active", "Mainly at night; hungry bugs may feed by day"],
-      ["Feeding interval", "About every 5 to 7 days when a host is present (Virginia Tech)"],
-      ["Time to feed", "About 3 to 12 minutes (EPA); about 3 to 10 minutes (Kentucky)"],
-      ["Movement", "Crawl on floors, walls and ceilings; cannot fly or jump"]
+      ["Active", "Mainly at night; hungry bugs may feed by day (University of Kentucky; EPA)"],
+      ["Feeding interval", "Every 5 to 7 days if a host is present (Virginia Tech)"],
+      ["Time to feed", "3 to 12 minutes (EPA); about 3 to 10 minutes to engorge (University of Kentucky)"],
+      ["Movement", "Crawl rapidly over floors, walls and ceilings; do not fly or jump (University of Kentucky)"]
     ]
   },
   "body": [
     { "type": "h2", "text": "Where do bed bugs hide?" },
-    { "type": "p", "text": "Bed bugs hide as close to the people they feed on as they can, so the first places to look are the piping, seams and tags of the mattress and box spring and the cracks in the bed frame and headboard. That is the list [the EPA's guide to finding bed bugs](https://www.epa.gov/bedbugs/how-find-bed-bugs) gives for the usual hiding places near beds. The [University of Kentucky's bed bug fact sheet](https://entomology.mgcafe.uky.edu/ef636) makes the same point in a line: bed bugs prefer to hide close to where they feed." },
-    { "type": "p", "text": "The EPA adds that in heavily infested rooms they also turn up in the seams of chairs and couches, between cushions, in curtain folds, in drawer joints, in electrical outlets, under loose wallpaper and wall hangings, at ceiling-wall junctions and in screw heads." },
-    { "type": "p", "text": "The sources list hiding places rather than ranking them by how often bugs are found, so the table below orders them by distance from the bed. That order is a reading of the sources, not a measured ranking. For the wider picture of how infestations start, spread and end, see [the complete bed bug reference](/learn/bed-bugs)." },
-    { "type": "table", "head": ["Zone", "Where to look", "What to look for"], "rows": [
-      ["1. The mattress", "Piping, seams, tufts and tags", "Live bugs, black fecal spots, shed skins, eggs"],
-      ["2. The box spring", "Upper seams, the underside, wood creases, where fabric is stapled to the frame", "Fecal spots and aggregations of bugs and skins"],
-      ["3. Bed frame and headboard", "Cracks, set-in screw holes, the back of the headboard", "Fecal spots, skins, clusters of bugs"],
-      ["4. Bedside furniture", "Nightstands, dressers, drawer joints, items stored under the bed", "Bugs and spotting in crevices and joints"],
-      ["5. Walls and room edges", "Baseboards, carpet edges, ceiling-wall junctions, outlets, behind pictures, loose wallpaper", "Black spotting, skins, clusters"],
-      ["6. Seating and curtains", "Seams and cushion gaps of sofas and chairs, curtain folds and the pleats near the rod", "Bugs and spotting in seams and folds"],
-      ["7. Closets and belongings", "Closet door frames, clutter, clothing, books, stuffed animals, picture frames, luggage", "Bugs or skins stuck to or inside items"]
-    ], "caption": "Compiled from the EPA, University of Kentucky and Virginia Tech sources linked on this page. The order is by distance from the bed." },
+    { "type": "p", "text": "Bed bugs hide as close to the people they feed on as they can, so the first places to look are the piping, seams and tags of the mattress and box spring and the cracks in the bed frame and headboard. That is the list [the EPA's guide to finding bed bugs](https://www.epa.gov/bedbugs/how-find-bed-bugs) gives for the area around the bed. The [University of Kentucky's bed bug fact sheet](https://entomology.mgcafe.uky.edu/ef636) says the most common place to find them is beds or other areas where people rest or sleep, and that they prefer to hide close to where they feed." },
+    { "type": "p", "text": "The EPA adds that in heavily infested rooms they also turn up in the seams of chairs and couches, between cushions, in curtain folds, in drawer joints, in electrical outlets and appliances, under loose wallpaper and wall hangings, at ceiling-wall junctions and even in the head of a screw." },
+    { "type": "p", "text": "One data set shows where the bugs actually were. A University of Kentucky count of the bed bugs found in 13 infested apartments, reproduced as a chart in [an Indiana Department of Health brochure](https://www.in.gov/dA/b6df403476/IDOH-Bed-Bugs-Brochure_05-2025.pdf), put 34.6 percent in box springs, 22.6 percent in couches and chairs, 22.4 percent in mattresses and 13.4 percent in bed frames and headboards. The three parts of the bed together held about 70 percent, and apart from couches and chairs no other location in the chart held more than 3.1 percent. It is a small sample and the brochure does not describe how the count was made, so treat it as a rough guide." },
+    { "type": "p", "text": "The table below runs from the bed outward, which is the order an inspection follows; it is not ranked by those shares. For the wider picture of how infestations start, spread and end, see [the complete bed bug reference](/learn/bed-bugs)." },
+    { "type": "table", "head": ["Zone", "Where to look", "What to look for", "Share in the 13-apartment count"], "rows": [
+      ["1. The mattress", "Piping, seams, tufts and tags", "Live bugs, black fecal spots, shed skins, eggs", "22.4%"],
+      ["2. The box spring", "Upper seams, the underside, wood creases, where fabric is stapled to the frame", "Fecal spots and aggregations of bugs and skins", "34.6%"],
+      ["3. Bed frame and headboard", "Cracks, set-in screw holes, the back of the headboard", "Fecal spots, skins, clusters of bugs", "13.4%"],
+      ["4. Sofas, chairs and recliners", "Seams, skirts, fabric folds and the gaps between cushions", "Bugs and spotting in seams and folds", "22.6% (couches and chairs)"],
+      ["5. Bedside furniture", "Nightstands, dressers, drawer joints, items stored under the bed", "Bugs and spotting in crevices and joints", "0.2% (nightstands)"],
+      ["6. Walls, room edges and curtains", "Baseboards, carpet edges, ceiling-wall junctions, outlets, behind pictures, loose wallpaper, curtain folds and the pleats near the rod", "Black spotting, skins, clusters", "2.3% (walls and ceilings); 1.4% (baseboard areas)"],
+      ["7. Closets and belongings", "Closet door frames, clutter, clothing, books, stuffed animals, picture frames, luggage", "Bugs or skins stuck to or inside items", "No separate figure (all other places: 3.1%)"]
+    ], "caption": "Hiding places compiled from the EPA, University of Kentucky and Virginia Tech sources linked on this page. Shares are the University of Kentucky count of bed bugs found in 13 infested apartments, as charted by the Indiana Department of Health." },
 
     { "type": "h2", "text": "Which parts of the bed do bed bugs hide in first?" },
-    { "type": "p", "text": "The mattress and box spring come first, followed by the frame and headboard. The University of Kentucky lists mattress seams, folds and crevices, the upper seams and underside of the box spring, and bed frames and headboards as the primary locations, along with items stored under the bed." },
+    { "type": "p", "text": "None of the sources says which part of the bed is occupied first, but in the 13-apartment count the box spring held the most bugs: 34.6 percent, against 22.4 percent in mattresses and 13.4 percent in bed frames and headboards. Kentucky's fact sheet says bed bugs often hide in the seams, folds and crevices of the mattress, box spring, bed frame and headboard, and that they frequently hide within items stored under beds." },
     { "type": "h3", "text": "Mattress piping, seams and tags" },
-    { "type": "p", "text": "Check every seam and fold around the mattress, plus the tag. Virginia Tech entomologist Dini Miller's guide, [How to Identify a Bed Bug Infestation](https://www.vdacs.virginia.gov/pdf/bb-identify1.pdf), names the mattress seams, the tufts and the area under the mattress tags as places where bed bugs gather in groups, and lists the seams and tag among the places fecal spots are most likely to appear when an infestation is small. The EPA adds rusty or reddish stains on sheets and mattresses, which come from bugs that were crushed. A separate guide shows [what bed bug signs on a mattress look like and what to do about them](/blog/bed-bugs-on-mattress)." },
+    { "type": "p", "text": "Check every seam and fold around the mattress, plus the tag. Virginia Tech entomologist Dini Miller's guide, [How to Identify a Bed Bug Infestation](https://www.vdacs.virginia.gov/pdf/bb-identify1.pdf), names the mattress seams, the tufts and the area under the mattress tags as places where bed bugs gather in groups, and lists the seams and tag among the places fecal spots are more likely to be found when an infestation is small. The EPA adds rusty or reddish stains on sheets and mattresses, which come from bugs that were crushed. A separate guide shows [what bed bug signs on a mattress look like and what to do about them](/blog/bed-bugs-on-mattress)." },
     { "type": "media", "needed": "Close-up photo of a mattress corner with the piping and tag pulled back, showing black fecal spots and two or three shed skins along the seam, with a US dime beside it for scale" },
     { "type": "h3", "text": "The box spring" },
-    { "type": "p", "text": "The sources name several box spring hiding places. Virginia Tech lists fecal spots on the wood frame of the box spring, aggregations along wood creases in box springs and bed frames, and aggregations where the box spring fabric is stapled to the wood frame. Kentucky points to the upper seams and the underside." },
+    { "type": "p", "text": "Look along the upper seams and underneath. Kentucky says box springs afford many places for bed bugs to hide, especially along the upper seams and underneath, where the bottom edge of the box rests on the frame, and that an underlying dust cover may have to be removed to get access for inspection. Virginia Tech lists fecal spots on the wood frame of the box spring, aggregations along wood creases in box springs and bed frames, and aggregations where the box spring fabric is stapled to the wood frame." },
     { "type": "h3", "text": "Bed frame and headboard" },
-    { "type": "p", "text": "The frame and the headboard offer cracks, joints and screw holes. The EPA names cracks on the bed frame and headboard, and Virginia Tech adds the holes for set-in screws and the space behind the headboard, which it also lists as a place to find shed skins. Kentucky says a thorough inspection requires dismantling the bed and standing its components on edge." },
+    { "type": "p", "text": "The frame and the headboard offer cracks, joints and screw holes. The EPA names cracks on the bed frame and headboard, and Virginia Tech adds the holes for set-in screws and the space behind the headboard, which it also lists as a place to find shed skins. Kentucky says the crevices of bed frames should be examined, especially if the frame is wood, and that a thorough inspection requires dismantling the bed and standing its components on edge." },
     { "type": "media", "needed": "Photo of the back of a wooden headboard lit by a flashlight beam, showing a cluster of dark spots and a few bed bugs in a joint near a screw hole" },
 
     { "type": "h2", "text": "Do bed bugs hide in nightstands, dressers and other furniture?" },
-    { "type": "p", "text": "Yes. Kentucky names nightstands, dressers and the crevices of wooden furniture, plus the seams and fabric folds of upholstered chairs, recliners and sofas. The EPA lists drawer joints and the spaces between cushions among the places bugs spread to in a heavily infested room. Items stored under the bed also appear on the Kentucky list, which is a reason to pull them out and check them early." },
-    { "type": "p", "text": "None of the sources gives a figure for how often each kind of furniture is occupied, so treat bedside furniture and sofas as the next stops after the bed and frame. If a bug you find on furniture does not look right, [a comparison of the insects most often mistaken for bed bugs](/blog/bugs-that-look-like-bed-bugs) covers carpet beetles, bat bugs and other look-alikes." },
+    { "type": "p", "text": "Yes, and upholstered seating matters more than bedside furniture. Kentucky calls upholstered chairs, recliners and sofas the next most likely areas after the bed and says to examine them carefully along the seams, skirts and folds of fabric. In the 13-apartment count, couches and chairs held 22.6 percent of the bugs, about the same share as mattresses, while nightstands held 0.2 percent. The EPA lists the seams of chairs and couches, the spaces between cushions and drawer joints among the places bugs turn up in a heavily infested room." },
+    { "type": "p", "text": "Bedside furniture is still on the inspection list. Kentucky says nightstands and dressers may need to be emptied, examined inside and out, and tipped over so the woodwork underneath can be inspected. If a bug you find on furniture does not look right, [a comparison of the insects most often mistaken for bed bugs](/blog/bugs-that-look-like-bed-bugs) covers carpet beetles, bat bugs and other look-alikes." },
 
     { "type": "h2", "text": "Can bed bugs hide in walls, baseboards and outlets?" },
-    { "type": "p", "text": "Yes, particularly once a population has grown. Kentucky lists baseboards and carpet edges, the perimeter of wall-to-wall carpeting, cracks in wood molding, ceiling-wall junctions, and the spaces behind pictures, mirrors, outlets and switch plates. The EPA adds electrical outlets, loose wallpaper, wall hangings and screw heads. Virginia Tech's list of aggregation sites includes behind loose wallpaper, behind chipped paint, behind baseboards, inside baseboard heaters and under the base of an air conditioner." },
+    { "type": "p", "text": "Yes, though these spots held a small share of the bugs in the 13-apartment count: 2.3 percent for walls and ceilings and 1.4 percent for baseboard areas. Kentucky says bed bugs initially tend to be concentrated around beds, sofas and other sleeping and resting areas, and may disperse elsewhere if an infestation is allowed to persist." },
+    { "type": "p", "text": "Kentucky's list of other common hiding places includes the edge of wall-to-wall carpeting, especially behind beds and sofas, cracks in wood molding, ceiling-wall junctions, and the spaces behind wall-mounted pictures, mirrors, outlets and switch plates. The EPA adds electrical outlets and appliances, loose wallpaper, wall hangings and screw heads. Virginia Tech's list of aggregation sites includes behind loose wallpaper, behind chipped paint, behind baseboards, inside baseboard heaters and under the base of an air conditioner." },
     { "type": "p", "text": "Wall and ceiling clusters are easy to misread. Dini Miller's guide includes a photograph of an apartment ceiling that first looked like mold or mildew from a moisture problem upstairs; on closer inspection it was many bed bug aggregations, and the black material was fecal spotting. If a dark patch on a ceiling or wall edge looks like mold, check it closely for bugs, skins and tiny eggs before deciding what it is." },
     { "type": "p", "text": "Walls and ceilings also serve as routes. According to Kentucky, bed bugs can crawl from room to room, or from floor to floor, through cracks and openings in walls, floors and ceilings." },
 
     { "type": "h2", "text": "How far do bed bugs travel from their hiding places?" },
-    { "type": "p", "text": "The EPA says bed bugs will readily travel 5 to 20 feet from established hiding places to feed. The sources used here give no maximum distance. Kentucky says bed bugs crawl rapidly over floors, walls, ceilings and other surfaces but cannot fly or jump, and that they will crawl longer distances in search of a meal when they have to, even though they prefer to hide close to where they feed." },
+    { "type": "p", "text": "The EPA says bed bugs will readily travel 5 to 20 feet from established hiding places to feed. The sources used here give no maximum distance. Kentucky says bed bugs crawl rapidly over floors, walls, ceilings and other surfaces but do not fly or jump, and that they will crawl longer distances in search of a meal when they have to, even though they prefer to hide close to where they feed." },
     { "type": "p", "text": "By that measure, a baseboard or outlet across a room can still be within range of the bed, which is why an inspection does not stop at the mattress." },
 
     { "type": "h2", "text": "When do bed bugs come out of hiding?" },
-    { "type": "p", "text": "Mostly at night. Kentucky says bed bugs are active mainly at night and usually bite people while they are sleeping, though a hungry bug may also feed during the day. A meal does not take long: the EPA gives 3 to 12 minutes, and Kentucky says engorgement takes about 3 to 10 minutes." },
-    { "type": "p", "text": "Between meals the bugs are out of sight. Virginia Tech's guide says bed bugs feed about every 5 to 7 days when a host is present and spend the days in between digesting. They excrete part of each meal as semi-liquid waste, deposited wherever they go after feeding, which dries into the black spots described below. Those spots are often found in groups of 10 or more, though a bug that was only passing through may leave one or two." },
-    { "type": "p", "text": "Size is the other reason they go unseen. An unfed adult is about 3/16 inch long and can look like a flat disc, and Virginia Tech says the largest share of any bed bug population is always immature. Immature bugs are smaller than adults and translucent whitish-yellow, and the youngest nymphs are hard to see unless they are moving or have just fed. [How to recognize each life stage](/blog/what-do-bed-bugs-look-like) is covered in its own guide, and [what the small black specks really are](/blog/black-bed-bugs) in another." },
+    { "type": "p", "text": "Mostly at night. Kentucky says bed bugs are active mainly at night and usually bite people while they are sleeping, though a hungry bug may also feed during the day, especially if that is when the occupant normally sleeps. The EPA agrees: they are primarily active at night, but a hungry bug will seek a host in full daylight. A meal does not take long. The EPA gives 3 to 12 minutes, and Kentucky says engorgement takes about 3 to 10 minutes." },
+    { "type": "p", "text": "Between meals the bugs are out of sight. Virginia Tech's guide says bed bugs feed every 5 to 7 days if a host is present and spend the days in between digesting. They excrete part of each meal as semi-liquid waste, deposited wherever they go after feeding, which dries into the black spots described below." },
+    { "type": "p", "text": "Size is the other reason they go unseen. Virginia Tech says an unfed adult is about 3/16 inch long and can look like a flat disc, and that the largest share of any bed bug population is always immature. Immature bugs are smaller than adults and translucent whitish-yellow, and the youngest nymphs are hard to see unless they are moving or have just fed; Kentucky describes newly emerged nymphs as no bigger than a pinhead. [How to recognize each life stage](/blog/what-do-bed-bugs-look-like) is covered in its own guide, and [what the small black specks really are](/blog/black-bed-bugs) in another." },
 
     { "type": "h2", "text": "How small a gap can a bed bug squeeze into?" },
-    { "type": "p", "text": "A crack that will hold a credit card is enough. That is the EPA's yardstick: if a gap is wide enough for a credit card, it could hide a bed bug. It is why the sources keep pointing to seams, joints, screw heads and the gaps behind trim rather than flat surfaces." },
-    { "type": "p", "text": "Eggs are tinier still. The EPA puts eggs at about 1 millimeter (roughly 1/25 inch), and Virginia Tech compares an egg to the head of a pin and says eggs are pearl-white with obvious eyespots once they are more than 5 days old. Kentucky says eggs hatch in about a week at room temperature." },
+    { "type": "p", "text": "A crack that will hold a credit card is enough. The EPA says bed bugs are only about the width of a credit card, so if a crack will hold one, it could hide a bed bug. Kentucky's yardstick is a toothpick: it says their flattened bodies let them fit into tiny crevices no wider than one. That is why the lists above are full of seams, joints, screw heads and the gaps behind trim rather than flat surfaces." },
+    { "type": "p", "text": "Eggs are tinier still. The EPA describes eggs and eggshells as tiny, about 1/25 inch (1 millimeter), and Virginia Tech compares an egg to the head of a pin and says eggs are pearl-white with obvious eyespots once they are more than 5 days old. Kentucky says eggs hatch in about a week at room temperature." },
 
     { "type": "h2", "text": "Do bed bugs hide in luggage, clothing and belongings?" },
-    { "type": "p", "text": "Yes, and that is how they get into a home. Kentucky says bed bugs are easily transported into dwellings on luggage, clothing, beds, furniture and belongings. Virginia Tech's guide says bed bugs have to be brought into a home, for example in luggage after a trip or on a piece of used furniture." },
-    { "type": "p", "text": "Once inside, belongings become hiding places. Virginia Tech lists books, stuffed animals and picture frames, plus the framing under a closet bar and the interior frame of closet doors. Kentucky adds closet clutter, clothing and book bindings, and also names clocks, phones, televisions and smoke detectors." },
-    { "type": "callout", "tone": "note", "title": "Bites are a poor way to find the hiding place", "text": "Virginia Tech says bite reactions vary so much from person to person that bites are not a good way to diagnose an infestation. Someone bitten while traveling may not react for several days, and Kentucky reports that about 30 percent of people do not react even when bitten repeatedly." },
+    { "type": "p", "text": "Yes, and that is how they get into a home. Kentucky says bed bugs are easily transported into dwellings on luggage, clothing, beds, furniture and belongings. The EPA's page on [protecting your home from bed bugs](https://www.epa.gov/bedbugs/protecting-your-home-bed-bugs) calls them great hitchhikers that move from an infested site to a new home on furniture, bedding, luggage, boxes and clothing. Virginia Tech's guide says bed bugs have to be brought into a home, for example in luggage after a trip or on a piece of used furniture." },
+    { "type": "p", "text": "Once inside, belongings become hiding places. Virginia Tech lists books, stuffed animals and picture frames, plus the framing under a closet bar and the interior frame of closet doors. Kentucky adds clothing and clutter in closets and book bindings, and also names the insides of clocks, phones, televisions and smoke detectors." },
+    { "type": "callout", "tone": "note", "title": "Bites are a poor way to find the hiding place", "text": "Virginia Tech says bite reactions vary so much from person to person that bites are not a good way to diagnose an infestation, and the EPA calls bites a poor indicator. Kentucky cites studies in infested apartments suggesting about 30 percent of people do not react even when bitten repeatedly." },
 
     { "type": "h2", "text": "How do you inspect a bedroom for bed bugs?" },
-    { "type": "p", "text": "Start with the bed and work outward, looking for evidence as well as live bugs. Bites alone cannot confirm anything ([what bed bug bites look like and how to tell for sure](/blog/bed-bug-bites) explains why), so look for the physical signs. A flashlight helps, according to Kentucky, because many hiding places are dim. The EPA's list of signs covers rusty or reddish stains on sheets and mattresses, dark spots about the size of a bullet point, eggs and eggshells, shed skins, and the live bugs themselves." },
+    { "type": "p", "text": "Start with the bed and work outward, looking for evidence as well as live bugs. Bites alone cannot confirm anything ([what bed bug bites look like and how to tell for sure](/blog/bed-bug-bites) explains why), so look for the physical signs. Kentucky says the things to look for are the bugs themselves, the shed skins of the nymphs and the blackish fecal spots. The EPA's list of signs covers rusty or reddish stains on sheets and mattresses, dark spots of excrement about the size of a printed dot that may bleed into fabric the way a marker would, eggs and eggshells, shed skins, and the live bugs themselves." },
     { "type": "table", "head": ["Sign", "What it looks like", "Where it tends to show up"], "rows": [
-      ["Fecal spots", "Black, semi-liquid waste that dries to dots, often in groups of 10 or more; smooth to the touch", "Mattress seams and tag, box spring frame, behind the headboard, baseboard tops, outlets, curtain seams"],
+      ["Fecal spots", "Black dots of digested blood, often in groups of 10 or more, sometimes only one or two where a bug was passing through; smooth to the touch", "Mattress seams and tag, box spring frame, behind the headboard, baseboard tops, outlets, curtain seams"],
       ["Rusty or reddish stains", "Smears from crushed bugs", "Sheets and mattress"],
       ["Shed skins", "Empty, translucent shells shaped like the bug, in different sizes", "Mattress seams, behind headboards, ceiling-wall junctions, baseboards, belongings"],
       ["Eggs", "Pearl-white, about the size of a pinhead", "Within the clusters where live bugs and skins gather"],
       ["Live bugs", "Reddish-brown adults about 3/16 inch long; paler, smaller nymphs", "Seams, creases and cracks near the bed"]
     ], "caption": "Compiled from the EPA, Virginia Tech and University of Kentucky pages linked above." },
-    { "type": "p", "text": "Dini Miller's guide gives a quick test for black spots that could be cockroach droppings: bed bug spots feel smooth because they are dried blood, while German cockroach droppings feel granular. It also advises looking for shed skins or hatched eggs nearby. A longer guide covers [what bed bug droppings and stains look like, and the marks they get confused with](/blog/bed-bug-stains-poop-droppings-canada)." },
+    { "type": "p", "text": "Dini Miller's guide gives a way to tell bed bug spots from German cockroach droppings: first look for shed skins or hatched eggs nearby, and if there are none, touch the spots. Bed bug spots feel smooth because they are dried blood, while German cockroach droppings tend to feel granular. A longer guide covers [what bed bug droppings and stains look like, and the marks they get confused with](/blog/bed-bug-stains-poop-droppings-canada)." },
     { "type": "ol", "items": [
       "Strip the bed and look over the sheets and mattress cover for rusty stains, dark spots and bugs in the folds.",
       "Work all the way around the mattress, checking the piping, seams, tufts and tag.",
-      "Lift the mattress off and inspect the box spring: the upper seams, the underside, creases in the wood and the staples that hold the fabric to the frame.",
+      "Lift the mattress off and inspect the box spring: the upper seams, the underside where the bottom edge rests on the frame, creases in the wood and the staples that hold the fabric to the frame.",
       "Take the frame apart if you can, stand the pieces on edge, and check the joints, cracks and screw holes, then look behind the headboard.",
-      "Open the nightstand and dresser drawers and check the joints and crevices, and pull out anything stored under the bed.",
-      "Follow the room's edges: baseboards, carpet edges, ceiling-wall junctions, outlets and switch plates, and the backs of pictures and mirrors.",
-      "Finish with the sofa and chair seams, the curtain folds and pleats near the rod, the closet door frames and the belongings stacked nearby."
+      "Check upholstered chairs, recliners and sofas along the seams, skirts, fabric folds and the gaps between cushions.",
+      "Empty the nightstand and dresser drawers, check the joints and the woodwork underneath, and pull out anything stored under the bed.",
+      "Follow the room's edges: baseboards, carpet edges, ceiling-wall junctions, the areas around outlets and switch plates, the backs of pictures and mirrors, and the curtain folds and pleats near the rod.",
+      "Finish with the closet door frames and the belongings stored nearby."
     ] },
     { "type": "h3", "text": "Tools that help" },
     { "type": "ul", "items": [
-      "**Flashlight.** Kentucky recommends one for dimly lit areas.",
-      "**Interceptor cups.** Kentucky describes dish-shaped traps placed under furniture legs, and a separate guide covers [how to read an interceptor trap](/blog/bed-bug-interceptor-traps-canada).",
+      "**Flashlight.** Kentucky calls a flashlight useful for dimly lit areas.",
+      "**Interceptor cups.** Kentucky describes small plastic dishes that wandering bed bugs crawl or fall into and cannot escape, typically placed under the legs of beds and seating, and a separate guide covers [how to read an interceptor trap](/blog/bed-bug-interceptor-traps-canada).",
       "**A credit card as a gauge.** The EPA uses it to show which gaps are large enough to hide a bug.",
-      "**Trained dogs.** Kentucky notes that some companies use specially trained canines to find bed bugs."
+      "**Trained dogs.** Kentucky notes that some companies use specially trained dogs to help find small, dispersed infestations, and that reliability may vary from one canine inspection to the next."
     ] },
     { "type": "media", "needed": "Photo of a person inspecting a stripped mattress with a flashlight, peeling back the piping at a corner, with the box spring and bed frame standing on edge in the background" },
 
     { "type": "h2", "text": "How do you check a hotel room for bed bugs?" },
-    { "type": "p", "text": "Use the same bed-outward order, and spend most of your time on the bed and headboard. The sources behind this page describe where bed bugs hide and do not give a hotel-specific checklist, so these steps apply their hiding-place lists to a hotel room." },
+    { "type": "p", "text": "Check the bed first, starting at the pillow end. The University of Kentucky's advice for travelers is to take a moment to inspect beds, with a flashlight for dimly lit areas, and most of the points below come from that advice." },
     { "type": "ul", "items": [
-      "**Mattress.** Pull back the sheets and check the piping, seams and tag at the corners.",
-      "**Headboard and frame.** Look at the headboard, its joints and screw holes and, where you can see it, the gap behind it.",
-      "**Bedside furniture.** Check the nightstand and its drawer joints, and the wall and outlets nearest the bed.",
-      "**Curtains and room edges.** Look at the pleats near the curtain rod, the baseboards and the ceiling-wall junction near the bed.",
-      "**Your own belongings.** Kentucky and Virginia Tech both name luggage as a way bed bugs travel into a home, so inspect bags and clothing when you unpack."
+      "**Sheets and mattress.** Kentucky says to examine the bed sheets and the seams of the mattress, and perhaps the box spring, especially along the head (pillow end) of the bed.",
+      "**Headboard.** Kentucky says some experts check behind headboards because they are a frequent hiding place in hotel rooms, but it warns that headboards are heavy and cumbersome and that untrained people should not try to remove one. Look at the edges, joints and whatever gap you can see.",
+      "**Luggage rack.** A photo caption on the EPA's home-protection page, linked above, says to inspect the luggage rack in a hotel room, and Kentucky suggests keeping luggage up off the floor on a stand, table or other hard surface instead of stowing it on the floor or another bed.",
+      "**Nightstand and nearby edges.** The general hiding-place lists above also name drawer joints, outlets and curtain pleats, though none of the sources gives a hotel-specific order for them.",
+      "**If you find bugs.** Kentucky says guests can request another room, preferably in a different area of the hotel, because infestations sometimes extend to nearby units.",
+      "**When you get home.** If you had itchy welts suggestive of bites during the stay, Kentucky's advice is to put all clothing directly into the washer and dryer on returning home."
     ] },
-    { "type": "p", "text": "Finding nothing is not proof of nothing. Virginia Tech says that in a new infestation, a hotel room for example, bed bug evidence may be very hard to find, but because most of a population is immature there is always a chance of finding cast skins. It also notes that a person bitten while traveling may not react for several days, and that bites noticed after getting home do not mean the home is infested." },
+    { "type": "p", "text": "Finding nothing is not proof of nothing. Virginia Tech says that in a new infestation, a hotel room for example, bed bug evidence may be very hard to find, but because the largest share of a population is immature there is always a chance of finding cast skins. It also notes that a person bitten while traveling may not react for several days, and that bites noticed after getting home do not mean the home is infested." },
 
     { "type": "h2", "text": "What should you do after finding bed bug hiding places?" },
-    { "type": "p", "text": "Confirm what you found before treating anything. If the bug or the specks might be something else, [the look-alike guide](/blog/bugs-that-look-like-bed-bugs) helps you rule things out, and if what you found is an empty shell, [a guide to bed bug shells, casings and shed skins](/blog/bed-bug-shells-casings-shed-skins-canada) covers whether it still means an active problem. Once the bugs are confirmed, [the step-by-step plan to get rid of bed bugs](/blog/how-to-get-rid-of-bed-bugs) explains what to do with the bed, the room and your belongings." }
+    { "type": "p", "text": "Confirm what you found before treating anything. If the bug or the specks might be something else, [the guide to bugs that get mistaken for bed bugs](/blog/bugs-that-look-like-bed-bugs) helps you rule things out, and if what you found is an empty shell, [a guide to bed bug shells, casings and shed skins](/blog/bed-bug-shells-casings-shed-skins-canada) covers whether it still means an active problem. Once the bugs are confirmed, [the step-by-step plan to get rid of bed bugs](/blog/how-to-get-rid-of-bed-bugs) explains what to do with the bed, the room and your belongings." }
   ],
   "faqs": [
     {
       "question": "Can bed bugs live inside a mattress?",
-      "answer": "They hide in the mattress seams, folds, piping, tufts and under the tag. The University of Kentucky lists mattress seams, folds and crevices as primary locations, and Virginia Tech's guide names the seams, tufts and tag area as places bugs gather in groups. The EPA lists piping, seams and tags for both the mattress and the box spring."
+      "answer": "The sources point to the outside of the mattress and to the box spring under it. The EPA lists the piping, seams and tags of the mattress and box spring, the University of Kentucky says bed bugs often hide in the seams, folds and crevices of the mattress, and Virginia Tech's guide names the seams, tufts and the area under the tags as places they gather in groups. In a University of Kentucky count from 13 infested apartments, box springs held 34.6 percent of the bugs and mattresses 22.4 percent."
     },
     {
       "question": "Do bed bugs come out during the day?",
-      "answer": "Sometimes, though mainly they feed at night. The University of Kentucky says bed bugs are active mainly at night and usually bite people while they sleep, but a hungry bug may also feed during the day. Virginia Tech says bed bugs feed about every 5 to 7 days when a host is present and spend the days between meals digesting."
+      "answer": "Sometimes, though mainly they feed at night. The University of Kentucky says bed bugs are active mainly at night and usually bite people while they sleep, but a hungry bug may also feed during the day. The EPA says a hungry bed bug will seek a host in full daylight. Virginia Tech says bed bugs feed every 5 to 7 days if a host is present and spend the days between meals digesting."
     },
     {
       "question": "Can bed bugs hide in walls?",
-      "answer": "They use the cracks and fixtures in and around walls. The EPA lists outlets, loose wallpaper, wall hangings, ceiling-wall junctions and screw heads. The University of Kentucky says they can crawl from room to room or floor to floor through cracks and openings in walls, floors and ceilings. Virginia Tech also lists baseboard heaters, chipped paint and the area behind baseboards."
+      "answer": "They use the cracks and fixtures in and around walls. The EPA lists electrical outlets, loose wallpaper, wall hangings, ceiling-wall junctions and screw heads. The University of Kentucky says they can crawl from room to room or floor to floor through cracks and openings in walls, floors and ceilings. Virginia Tech also lists baseboard heaters, chipped paint and the area behind baseboards. In one University of Kentucky count from 13 infested apartments, walls and ceilings held 2.3 percent of the bugs found."
     },
     {
       "question": "How small a space can bed bugs fit into?",
-      "answer": "Any gap that will hold a credit card, according to the EPA, which says that if a crack will hold one it could hide a bed bug. An unfed adult is about 3/16 inch long and can look like a flat disc, per Virginia Tech, which is why seams, joints, screw holes and the space behind trim all count as hiding places."
+      "answer": "Any gap that will hold a credit card, according to the EPA, which says bed bugs are only about the width of a card. The University of Kentucky says their flattened bodies let them fit into tiny crevices no wider than a toothpick. An unfed adult is about 3/16 inch long and can look like a flat disc, per Virginia Tech, which is why seams, joints, screw holes and the space behind trim all count as hiding places."
     },
     {
       "question": "Do bed bugs hide in clothes and luggage?",
-      "answer": "Yes. The University of Kentucky says bed bugs are easily transported into dwellings on luggage, clothing, beds, furniture and belongings, and Virginia Tech's guide describes bed bugs arriving in luggage after a trip or on used furniture. Inside a home, Kentucky also names closet clutter and clothing, and Virginia Tech lists books, stuffed animals and picture frames."
+      "answer": "Yes. The University of Kentucky says bed bugs are easily transported into dwellings on luggage, clothing, beds, furniture and belongings, and Virginia Tech's guide describes bed bugs arriving in luggage after a trip or on used furniture. Inside a home, Kentucky also names clothing and clutter in closets, and Virginia Tech lists books, stuffed animals and picture frames."
     },
     {
       "question": "Can you have bed bugs without any bite marks?",
-      "answer": "Yes. Virginia Tech says bite reactions vary so much that a person may not react at all, which can let an infestation go unnoticed until the population grows enough for the bugs to be seen. The University of Kentucky says about 30 percent of people do not react even when bitten repeatedly. Looking for spots, skins and eggs is more reliable than relying on bites."
+      "answer": "Yes. Virginia Tech says bite reactions vary so much that a person may not react at all, which can let an infestation go unnoticed until the population grows enough for the bugs to be seen. The University of Kentucky cites studies in infested apartments suggesting about 30 percent of people do not react even when bitten repeatedly. Virginia Tech calls bites an unreliable indicator and says to learn the other signs: fecal spots, shed skins and clusters of bugs."
     }
   ],
   "sources": [
     { "title": "How to Find Bed Bugs", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/how-find-bed-bugs" },
     { "title": "ENTFACT-636: Bed Bugs", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef636" },
-    { "title": "How to Identify a Bed Bug Infestation", "publisher": "Virginia Tech Department of Entomology (hosted by the Virginia Department of Agriculture and Consumer Services)", "url": "https://www.vdacs.virginia.gov/pdf/bb-identify1.pdf" }
+    { "title": "How to Identify a Bed Bug Infestation", "publisher": "Virginia Tech Department of Entomology (hosted by the Virginia Department of Agriculture and Consumer Services)", "url": "https://www.vdacs.virginia.gov/pdf/bb-identify1.pdf" },
+    { "title": "Bed Bugs: Biology, Detection, Avoidance and Control", "publisher": "Indiana Department of Health", "url": "https://www.in.gov/dA/b6df403476/IDOH-Bed-Bugs-Brochure_05-2025.pdf" },
+    { "title": "Protecting Your Home from Bed Bugs", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/protecting-your-home-bed-bugs" }
   ]
 }

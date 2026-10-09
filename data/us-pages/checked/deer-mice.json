@@ -1,0 +1,10 @@
+{
+ "id": "deer-mice",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "db583954506316629c036c9ddddbd3fd959c7c7aeceb836c0ba6982c01ba1ca1",
+ "claimsChecked": 109,
+ "claimsCorrected": 11,
+ "claimsRemovedOrSoftened": 11,
+ "checkedOn": "2026-10-08"
+}

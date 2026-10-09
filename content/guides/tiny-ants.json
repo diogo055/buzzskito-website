@@ -1,0 +1,144 @@
+{
+  "slug": "tiny-ants",
+  "kind": "spoke",
+  "cluster": "ants",
+  "keyword": "tiny ants",
+  "alsoTargets": [],
+  "metaTitle": "Tiny Ants: Identify Them by Color, Size, Smell",
+  "metaDescription": "Tiny house ants are usually pharaoh, thief, ghost, little black, odorous house, Argentine or pavement ants. Match size, color, nodes and smell.",
+  "h1": "Tiny Ants in the House: A Key to Seven Common Species",
+  "dek": "Match color, size, waist nodes, smell and trail location to one of seven species, then see why the species decides which bait the ants will eat.",
+  "breadcrumb": "Tiny Ants",
+  "excerpt": "Tiny house ants are usually one of seven species. A step-by-step key using color, size, waist nodes, smell and trail location, plus the bait each one eats.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Tiny ants in US homes are usually pharaoh, thief, ghost, little black, odorous house, Argentine or pavement ants, and color, size, waist nodes and smell separate them.** A pale ant near 1/16 inch with two nodes is likely a pharaoh ant; a dark one with a rotten-coconut smell is likely an odorous house ant, as [Ohio State University's fact sheet](https://cfaes.osu.edu/fact-sheet/ants-and-around-home) describes.",
+    "bullets": [
+      "Pharaoh ants are about 1/16 inch long and light yellow to reddish-brown, thief ants are smaller at 1/32 to 1/20 inch, and both have two waist nodes.",
+      "Ghost ants are 1.3 to 1.5 mm (about 1/16 inch) long, with a dark head and thorax and a milky white abdomen and legs.",
+      "Odorous house ants and ghost ants both smell like rotten coconuts when crushed, while Argentine ants smell musty.",
+      "The University of California says thief and pharaoh ants prefer protein or greasy baits year-round, while Argentine ants take sweet baits all year and protein baits mainly in spring.",
+      "The simplest way to choose a bait is to offer a small amount of each kind and see which one the ants take."
+    ]
+  },
+  "facts": {
+    "title": "Tiny ants at a glance",
+    "rows": [
+      ["Ants in this key", "Pharaoh, thief, ghost, little black, odorous house, Argentine, pavement"],
+      ["Smallest worker", "Thief ant, 1/32 to 1/20 inch (Ohio State)"],
+      ["Largest of the seven", "Pavement ant, about 3/16 inch (University of California; Ohio State gives up to 1/4 inch)"],
+      ["One waist node", "Ghost, odorous house, Argentine"],
+      ["Two waist nodes", "Pharaoh, thief, little black, pavement"],
+      ["Rotten coconut smell", "Odorous house ant and ghost ant"],
+      ["Musty smell", "Argentine ant"],
+      ["Bait rule", "Offer a small amount of each kind and see which one the ants take"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "How do you identify a tiny ant?" },
+    { "type": "p", "text": "Work through five checks in order: color, size, the waist, the smell of one crushed worker, and where the trail runs. No single check settles it, because sources give slightly different sizes and two of the species smell alike, but together they narrow a small house ant to one of seven candidates. Several of them answer to [the nickname sugar ants](/blog/sugar-ants), and [the complete ant reference](/learn/ants) covers how colonies work and which species matter for a building." },
+    { "type": "ol", "items": [
+      "**Color.** A light yellow, honey or tan ant points to a pharaoh or thief ant, a dark head and thorax with a milky white abdomen and legs points to a ghost ant, and brown to black leaves the odorous house, Argentine, little black and pavement ants.",
+      "**Size.** Lay a ruler marked in sixteenths of an inch beside the trail. Thief ants run 1/32 to 1/20 inch, pharaoh and ghost ants about 1/16 inch, and the dark species about 1/10 to 3/16 inch.",
+      "**Waist.** With a magnifier or a phone camera zoomed in, count the small knobs, called nodes, in the narrow waist. Ghost, odorous house and Argentine ants have one; pharaoh, thief, little black and pavement ants have two.",
+      "**Smell.** Crush one worker and sniff. Rotten coconut means an odorous house ant or a ghost ant, and musty means an Argentine ant. The other four have no smell described in the sources used here.",
+      "**Trail.** Note whether the trail runs from a kitchen cabinet, a wall, a patio crack, a plant pot or the yard, because several species nest in only one of those places."
+    ] },
+    { "type": "media", "needed": "Scale photo of workers of the seven ants (pharaoh, thief, ghost, little black, odorous house, Argentine, pavement) lined up at the same magnification beside a ruler marked in sixteenths of an inch, each labeled with its name" },
+
+    { "type": "h2", "text": "How do the seven tiny ants compare side by side?" },
+    { "type": "p", "text": "The table gives the typical worker size, color and node count for each species, with the feature most likely to settle it. The figures come from [the University of California's ant guide](https://ipm.ucanr.edu/home-and-landscape/ants/) and [Ohio State University's fact sheet on ants in and around the home](https://cfaes.osu.edu/fact-sheet/ants-and-around-home), with the ghost ant taken from [the University of Florida's ghost ant profile](https://ask.ifas.ufl.edu/publication/IN532) and the Argentine ant from [its Florida profile](https://ask.ifas.ufl.edu/publication/IN1336)." },
+    { "type": "table", "head": ["Ant", "Worker size", "Color", "Waist nodes", "Giveaway"], "rows": [
+      ["Pharaoh ant (*Monomorium pharaonis*)", "About 1/16 inch", "Light yellow to reddish-brown, hind abdomen darker", "Two", "Pale color; antennae with 12 segments ending in a 3-segment club"],
+      ["Thief ant, also called the grease ant (*Solenopsis molesta*)", "1/32 to 1/20 inch", "Yellowish to bronze", "Two", "Smallest of the seven; antennae with 10 segments ending in a 2-segment club"],
+      ["Ghost ant (*Tapinoma melanocephalum*)", "1.3 to 1.5 mm (about 1/16 inch)", "Dark brown head and thorax; milky white abdomen and legs", "One", "Two-toned body; runs fast and erratically when disturbed"],
+      ["Little black ant (*Monomorium minimum*)", "About 1/8 inch", "Shiny black, sometimes dark brown", "Two", "Slender and shiny"],
+      ["Odorous house ant (*Tapinoma sessile*)", "About 1/10 to 1/8 inch", "Brown to black", "One, hidden by the abdomen", "Rotten coconut smell when crushed"],
+      ["Argentine ant (*Linepithema humile*)", "2.2 to 2.6 mm (about 1/10 inch); 1/8 inch in the California table", "Dull or reddish brown", "One, erect", "Musty smell when crushed"],
+      ["Pavement ant (*Tetramorium caespitum* in the Ohio State and Colorado State fact sheets)", "About 3/16 inch", "Dark brown to black", "Two", "Pair of short spines on the thorax; grooved head and thorax; nests in pavement cracks"]
+    ], "caption": "Sources: University of California IPM and Ohio State University for sizes, colors and nodes; University of Florida for the ghost, pharaoh and Argentine ants. Newer references, including the University of Florida, use the name Tetramorium immigrans for the pavement ant found in North America." },
+    { "type": "p", "text": "Sizes are the weakest clue. The pavement ant shows why: the University of California lists workers at 3/16 inch, Ohio State gives a range from 1/12 to 1/4 inch, and [Colorado State University Extension](https://extension.colostate.edu/resource/ants-in-the-home/) gives 1/16 to 1/10 inch, so a pavement ant can look as small as an odorous house ant. Colors drift too. The California table calls the Argentine ant dull brown, while the Florida profile describes it as reddish brown, sometimes darkening to black at the tip of the abdomen. Treat every size as a range, and give the node count and the smell more weight." },
+    { "type": "media", "needed": "Labeled close-up diagram of the waist of an ant seen from the side, comparing a one-node ant (odorous house ant, node hidden under the abdomen) with a two-node ant (pharaoh or pavement ant) and with arrows pointing at each node" },
+
+    { "type": "h2", "text": "What does a crushed tiny ant smell like?" },
+    { "type": "p", "text": "Only three of the seven have a smell the sources describe, and two of those smell alike. Ohio State says odorous house ants smell like rotten coconuts when crushed, and the University of California lists a very strong odor for the species. The Florida profile of the Argentine ant describes a musty odor, and it says crushing a living worker is the best way to separate an Argentine ant from an odorous house ant without a microscope." },
+    { "type": "p", "text": "The ghost ant complicates the test. The Florida ghost ant profile says crushed workers give off an odor similar to rotten coconuts as well, so a coconut smell alone does not prove an odorous house ant. Color settles that pair: the same profile notes that the odorous house ant is entirely dark brown to black, while the ghost ant has pale legs and a pale abdomen." },
+    { "type": "p", "text": "The sources cited on this page describe no distinctive smell for pharaoh, thief, little black or pavement ants. That is not proof that the odor is absent, so treat a missing smell as neutral rather than as a clue." },
+
+    { "type": "h2", "text": "Where does the trail run, and what does that suggest?" },
+    { "type": "p", "text": "The room and the nest site rule species in and out before you look at a single ant, because only some of them live indoors." },
+    { "type": "ul", "items": [
+      "**Kitchen sink and cupboards.** Ohio State says thief ants are common around kitchen sinks and in cupboards, feeding on grease, oils, cheese and meat. The University of California adds that they nest in soil or under rocks outdoors and behind wallboards indoors.",
+      "**Wall and cabinet voids, behind baseboards.** The University of California lists these as pharaoh ant nest sites. [The University of Florida's pharaoh ant profile](https://ask.ifas.ufl.edu/publication/IN533) describes nests in inaccessible, warm (80 to 86°F) and humid (80 percent) places near food or water, such as wall voids, and says the species does not nest outdoors except in southern latitudes. In colder climates it has become established in heated buildings, so a pale ant that lives inside a house in a cold state and never appears in the yard fits that description.",
+      "**A two-toned ant in Florida, Hawaii or a heated building.** The Florida ghost ant profile says the species is well established in Florida and Hawaii and survives in the northern states only in greenhouses and other heated environments. Indoors it nests in wall voids, between cabinetry and baseboards, and in potted plants. A separate guide covers [where ghost ants live and how they spread](/blog/ghost-ants).",
+      "**Cracks in sidewalks, driveways and patios.** Ohio State lists pavement ant nests under stones, in pavement cracks, along curb edges and in crevices of masonry and woodwork, and the University of California adds mounds along sidewalks.",
+      "**Outdoor mounds in the South or along the West Coast.** The Florida profile says Argentine ants have been documented throughout the southeastern and southern states and up the western coastline, and the University of California says they nest outdoors in shallow mounds.",
+      "**Shallow mounds in soil or debris, or wall voids.** These are the odorous house ant sites in the University of California table.",
+      "**Soil, rotted wood or house woodwork.** Ohio State lists woodwork, masonry, soil and rotted wood for the little black ant."
+    ] },
+
+    { "type": "h2", "text": "How do you tell the look-alike pairs apart?" },
+    { "type": "p", "text": "Four pairs cause most of the mix-ups, and each has a separator that does not depend on size." },
+    { "type": "ul", "items": [
+      "**Pharaoh ant or thief ant.** Both are pale and tiny with two nodes. The Florida pharaoh ant profile separates them by the antennae: a pharaoh ant has 12 segments ending in a club of three, and a thief ant has 10 segments ending in a club of two, which takes a good lens to see. Food is an easier clue. Ohio State says thief ants do not seem to feed on sweets, while pharaoh ants take jellies, honey, corn syrup and soft drinks as well as greases. The California table is looser and lists sweets as an occasional food for thief ants.",
+      "**Ghost ant or odorous house ant.** Both have one node and both smell of rotten coconut, according to the Florida profiles. The ghost ant is smaller and two-toned, with a milky white abdomen and legs, and the odorous house ant is dark brown to black throughout.",
+      "**Argentine ant or odorous house ant.** Both are brown ants with one node. Crushing a worker separates them, since the Argentine ant smells musty. Under a strong lens the Florida profile notes that the odorous house ant has a flattened node, while the Argentine ant has an erect one.",
+      "**Pavement ant or little black ant.** Both are dark and have two nodes. Ohio State describes the pavement ant as hairy and sluggish, with a pair of short spines at the rear of the thorax and a head and thorax furrowed by parallel grooves. Its entry on the little black ant describes a slender, shiny black worker and mentions neither spines nor grooves."
+    ] },
+    { "type": "media", "needed": "Side-by-side macro photo of a pharaoh ant and a thief ant on a white card, with the antennae in focus and labels showing 12 segments with a 3-segment club on the pharaoh ant and 10 segments with a 2-segment club on the thief ant" },
+
+    { "type": "h2", "text": "Why does the species change which bait works?" },
+    { "type": "p", "text": "Ants take a bait only if it is a food they want at that moment, and the seven species do not want the same food. Bait works because workers carry it back to the nest, and Ohio State says slow-acting baits that are taken to the nest work better than fast-acting ones that kill the foraging workers quickly. A bait the ants ignore does nothing, so the species decides the first product to try." },
+    { "type": "table", "head": ["Ant", "Foods the sources list", "Bait to offer first", "What to watch"], "rows": [
+      ["Odorous house ant", "Sweets, sometimes proteins", "A sweet bait", "If the sweet bait is ignored, try a protein one."],
+      ["Argentine ant", "Sweets, sometimes proteins", "A sweet bait; the Florida profile says liquid baits have been shown to be effective", "California guidance says protein baits attract them mainly in spring, while sweet baits work year-round."],
+      ["Ghost ant", "Sweets, plus dead and live insects and honeydew", "A sweet bait placed on the trail", "The Florida profile advises checking within one or two days and moving the bait if the ants are not feeding."],
+      ["Pharaoh ant", "Fats, proteins and sweets", "A non-repellent bait, protein or greasy first", "The Florida profile warns that repellent baits can make the colony fracture and bud."],
+      ["Thief ant", "Greasy and fatty foods, sometimes sweets", "A protein or grease bait", "Ohio State says they do not seem to feed on sweets."],
+      ["Pavement ant", "Sweets, proteins and grease", "A grease or protein bait", "Colorado State says they typically prefer greasy materials, seeking more protein while raising young and more sugar at other times."],
+      ["Little black ant", "Sweets, meats, vegetables, honeydew and insects", "A sweet and a protein bait side by side", "None of the sources used here names one preference."]
+    ], "caption": "Foods from the University of California table, with Ohio State for the little black ant and the University of Florida for the ghost ant. Bait choices are a starting point; the label of the product you buy sets where and how to use it." },
+    { "type": "p", "text": "Because the foods overlap and shift, the sources agree on a simple test. The University of California suggests offering a small quantity of each kind of bait and watching which one the ants prefer. Colorado State also advises testing different foods, and names honey or apple jelly as sweet foods and peanut butter as a greasy, protein-rich food that ants commonly accept. Ohio State mentions a drop of jelly, a spoonful of honey, a pile of sugar or a piece of bacon for a different purpose: set near the ants, it can attract them and help in locating the nest. For the pharaoh ant, the Florida profile names boric acid, hydramethylnon and sulfonamide as examples of the non-repellent baits that should be used." },
+    { "type": "p", "text": "Preferences also move with the season. The University of California says Argentine ants take sweet baits all year and protein baits primarily in the spring, and that thief ants and pharaoh ants prefer protein or greasy baits year-round. Colorado State reports that pavement ants lean toward protein when young are being reared and toward sugars at other times, and that baits often become unattractive when they dry out. An ignored bait may therefore be the wrong food for the month, or a dried-out one. A separate guide explains [what each household ant eats and how the diet shifts](/blog/what-do-ants-eat)." },
+    { "type": "callout", "tone": "warning", "title": "The label is the law", "text": "Use any ant bait only where and how its label directs, keep it out of reach of children and pets, and keep it off food-preparation surfaces. The label also sets how much to use and how often to replace it." },
+
+    { "type": "h2", "text": "Is that tiny insect an ant at all?" },
+    { "type": "p", "text": "Check the waist and the antennae. Ohio State describes an ant's body as pinched in at the waist in a figure-8 shape, with elbowed antennae, while termites have no waist constriction and straight, bead-like antennae. If the insect has wings, the same fact sheet says an ant's forewings are much larger than its hindwings, while a termite's wings are equal in size and shape. A winged insect is a swarmer rather than a worker, and [the comparison of flying ants and termites](/blog/flying-ants-vs-termites) walks through the differences." },
+    { "type": "p", "text": "If the ant is larger than anything in the table, it is outside this key. Ohio State gives carpenter ant workers as about 1/4 inch for the smaller workers and 1/2 inch for the larger ones, well above the dark species here. [A guide to black ants around US homes](/blog/black-ants) sorts the small dark species from the big ones, and a separate page covers [how to find a carpenter ant nest](/blog/carpenter-ants-canada)." },
+
+    { "type": "h2", "text": "What should you do once you know the species?" },
+    { "type": "p", "text": "Offer the bait that matches the species and leave the trail alone while it works, because spraying is the move the sources warn against. The University of California says spraying around the foundation does not give permanent control since it kills only foraging ants and not the colony and queens. Ohio State notes that ants can detect treated surfaces and avoid them until the residue fades. The Florida Argentine ant profile adds that, compared with sprays, baits contain less insecticide, do not depend on direct contact with the insect and give longer control." },
+    { "type": "p", "text": "Baiting takes patience. The University of California says it can take 5 to 10 days to see fewer ants and several weeks or more to finish, and Colorado State says effects usually become apparent within a week or two." },
+    { "type": "p", "text": "The step-by-step plans sit on other pages. [How to get rid of ants in the house](/blog/how-to-get-rid-of-ants-in-the-house) covers entry points, sealing and moisture. [The kitchen guide](/blog/how-to-get-rid-of-ants-in-the-kitchen) covers bait placement away from food-preparation surfaces. [Borax and boric acid as ant bait](/blog/borax-for-ants) covers the common homemade recipe and its limits. An older guide explains [why baiting beats spraying](/blog/how-to-get-rid-of-ants-canada), and another compares [bait stations with glue traps](/blog/best-ant-traps-canada)." }
+  ],
+  "faqs": [
+    {
+      "question": "What is the tiny yellow ant in my kitchen?",
+      "answer": "Most likely a pharaoh ant or a thief ant, the two pale yellow species in this key. Pharaoh ants are about 1/16 inch long and range from light yellow to reddish-brown, according to Ohio State University, while thief ants are smaller, at 1/32 to 1/20 inch, and are common around sinks and cupboards. The University of Florida separates them by the antennae: 12 segments with a 3-segment club on a pharaoh ant, 10 segments with a 2-segment club on a thief ant. The right bait differs, so a close look with a magnifier is worth the effort."
+    },
+    {
+      "question": "Why do tiny ants come back after I spray?",
+      "answer": "A spray reaches the workers it touches, not the nest. The University of California says spraying around the foundation kills only foraging ants and not the colony and queens, and Ohio State notes that ants detect treated surfaces and avoid them until the residue fades. For pharaoh ants, the University of Florida warns that repellent baits can worsen the problem by causing the colony to fracture and bud. A slow-acting bait that workers carry home reaches the colony itself."
+    },
+    {
+      "question": "Is a tiny black ant a carpenter ant?",
+      "answer": "Usually not, because carpenter ants are larger. Ohio State gives the smaller carpenter ant workers as about 1/4 inch and the larger ones as about 1/2 inch, while it lists little black ants at about 1/8 inch and odorous house ants at about 1/10 inch. Carpenter ants have one waist node, like the odorous house ant, so node count alone does not separate them; size does. A black ant near 1/4 inch or longer is a different identification problem from the tiny species in this key."
+    },
+    {
+      "question": "How long does it take ant bait to work?",
+      "answer": "Expect days to see fewer ants and weeks to finish. The University of California says it can take 5 to 10 days to see fewer ants and that control with baits may take several weeks or more to be complete, while Colorado State University says the effects usually become apparent within a week or two. For ghost ants, the University of Florida advises checking trail baits within one or two days to see whether the ants are feeding, and moving the bait if they are not."
+    },
+    {
+      "question": "Are tiny ants harmful?",
+      "answer": "Most are a nuisance, but the University of Florida singles out the pharaoh ant. Its profile calls the species a major pest of residences, commercial bakeries, factories, office buildings and hospitals, and says it can transmit over a dozen pathogens, including Salmonella, Staphylococcus and Streptococcus species. The same profile says that in infested areas a trail of pharaoh ants is likely to find sweet, fatty or oily food left uncovered for even a short time. If you care for someone who is medically vulnerable and pharaoh ants are present, ask their healthcare provider whether any extra precaution is needed."
+    }
+  ],
+  "sources": [
+    { "title": "Ants In and Around the Home", "publisher": "Ohio State University, College of Food, Agricultural, and Environmental Sciences", "url": "https://cfaes.osu.edu/fact-sheet/ants-and-around-home" },
+    { "title": "Ants", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/ants/" },
+    { "title": "EENY310/IN532: Ghost Ant, Tapinoma melanocephalum (Fabricius) (Insecta: Hymenoptera: Formicidae)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN532" },
+    { "title": "EENY290/IN533: Pharaoh Ant, Monomorium pharaonis (Linnaeus) (Insecta: Hymenoptera: Formicidae)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN533" },
+    { "title": "EENY-767/IN1336: Argentine Ant Linepithema humile (Mayr) (Insecta: Hymenoptera: Formicidae)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN1336" },
+    { "title": "Ants in the Home", "publisher": "Colorado State University Extension", "url": "https://extension.colostate.edu/resource/ants-in-the-home/" }
+  ]
+}

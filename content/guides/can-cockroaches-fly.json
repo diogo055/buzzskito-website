@@ -1,0 +1,158 @@
+{
+  "slug": "can-cockroaches-fly",
+  "kind": "spoke",
+  "cluster": "cockroaches",
+  "keyword": "can cockroaches fly",
+  "alsoTargets": ["do cockroaches fly"],
+  "metaTitle": "Can Cockroaches Fly? Which Species Do and Why",
+  "metaDescription": "Some cockroaches fly and some cannot. American roaches seldom fly but can glide, smokybrown and Asian roaches do fly, and German roaches do not.",
+  "h1": "Can Cockroaches Fly? Which Species Do, Which Glide and Which Cannot",
+  "dek": "A species-by-species answer for the roaches found in US homes and yards, with what university entomologists say about warm evenings, porch lights, and what a flying roach tells you about where it came from.",
+  "breadcrumb": "Can Cockroaches Fly",
+  "excerpt": "Some cockroaches fly, some glide and some cannot leave the ground. See which species do what, why warm evenings bring them out, and what a flying roach means.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Yes, some cockroaches can fly, but it depends on the species and often the sex, and the German cockroach, the one that infests kitchens, does not fly.** American cockroaches seldom fly but can glide, smokybrown cockroaches fly on warm evenings, Asian cockroaches fly to porch lights, and Oriental cockroaches cannot fly at all, according to [Clemson University's cockroach fact sheet](https://hgic.clemson.edu/factsheet/cockroach-control/) and the other university sources cited below.",
+    "bullets": [
+      "Adult German cockroaches, 1/2 to 5/8 inch long, have wings but do not fly.",
+      "American cockroaches, 1 1/2 to 2 inches long, have well-developed wings but seldom fly and are capable of gliding.",
+      "Male brownbanded cockroaches sometimes fly when disturbed, especially above 85°F, and the females cannot fly.",
+      "Male wood cockroaches, up to 1 inch long, fly and are sometimes drawn to lights at night, while the females, up to 3/4 inch long, have short wings that do not work.",
+      "Oriental cockroaches do not fly: the male's wings are shorter than its body and the female's are not fully formed.",
+      "Wood cockroaches that get indoors die within a few days and do not feed or reproduce there."
+    ]
+  },
+  "facts": {
+    "title": "Flying cockroaches at a glance",
+    "rows": [
+      ["Do all cockroaches fly?", "No. It varies by species and by sex, and only adults have fully developed wings"],
+      ["German cockroach", "Has wings, does not fly"],
+      ["American cockroach", "Seldom flies; capable of gliding"],
+      ["Species that fly to lights", "Asian cockroach; male wood cockroaches"],
+      ["Cannot fly", "Oriental cockroach (both sexes); female brownbanded and female wood cockroaches"],
+      ["When flight is most likely", "Warm, humid evenings"],
+      ["Only temperature these sources tie to flight", "Above 85°F, for male brownbanded cockroaches"],
+      ["What a flier usually means", "It came from outdoors, a sewer or a drain, not from a kitchen infestation"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Can cockroaches fly?" },
+    { "type": "p", "text": "Some can, but most of the cockroaches people meet indoors either do not fly or do it rarely. Flight depends on the species and, in several species, on the sex. The [University of California's cockroach guide](https://ipm.ucanr.edu/home-and-landscape/cockroaches/) puts it in one line: only a few species fly short distances or glide as adults on warm nights, while most have no wings, have reduced wings, or simply do not fly. [Clemson University's cockroach fact sheet](https://hgic.clemson.edu/factsheet/cockroach-control/) says adult German cockroaches have wings yet do not fly, that neither sex of the Oriental cockroach is capable of flight, and that American and smokybrown adults may fly on warm evenings." },
+    { "type": "p", "text": "Two rules hold across species. First, only adults have fully developed wings. The [University of Florida's cockroach management guide](https://ask.ifas.ufl.edu/publication/IG082) says newly hatched nymphs have no wings and shed their skins several times before becoming winged adults, and the University of California guide says nymphs resemble adults but do not have fully developed wings, so a small roach without full wings is not going to take off. Second, having wings is not the same as flying. German cockroaches and male Oriental cockroaches both carry wings they do not use for flight." },
+
+    { "type": "h2", "text": "Which cockroaches fly, and which cannot?" },
+    { "type": "p", "text": "The Asian cockroach, the smokybrown cockroach and male wood cockroaches are the real fliers, the American cockroach seldom flies but can glide, and German and Oriental cockroaches stay on the ground. The table gives each species' size, flight ability and usual home. For the biology and control of each one, start from [the complete guide to cockroach species in US homes](/learn/cockroaches)." },
+    { "type": "table", "head": ["Species", "Adult size", "Can it fly?", "Where it usually lives"], "rows": [
+      ["German", "1/2 to 5/8 inch", "No. Adults have wings but do not fly", "Indoors, mainly kitchens and bathrooms"],
+      ["Brownbanded", "About 1/2 to 5/8 inch", "Males sometimes, when disturbed and especially above 85°F; females cannot", "Indoors, anywhere in a structure but especially above floor level"],
+      ["Oriental", "1 to 1 1/4 inches", "No. Neither sex can fly", "Cool, dark, damp places such as basements, drains and water meter boxes"],
+      ["American", "1 1/2 to 2 inches", "Seldom. Capable of gliding; adults may fly on warm evenings", "Sewers, storm drains and steam tunnels; outdoors where it is warm and humid"],
+      ["Smokybrown", "1 to 1 1/2 inches", "Yes, especially on warm, humid evenings", "Outdoors in trees, mulch, log piles and roof gutters; attics"],
+      ["Asian", "Seldom more than 5/8 inch", "Yes. Flies to porch lights and other lit buildings", "Outdoors"],
+      ["Wood cockroaches", "Males up to 1 inch; females up to 3/4 inch", "Males yes, sometimes to lights at night; females no", "Leaf litter, under logs and loose bark, woodpiles"]
+    ], "caption": "Sizes and flight notes from the Clemson, University of California, Texas A&M, University of Florida and Penn State sources linked on this page." },
+    { "type": "media", "needed": "Side-by-side scale photo of five adult cockroaches (German, Asian, smokybrown, American, male wood cockroach) on a white background with a ruler in inches, each labeled with whether it flies" },
+
+    { "type": "h3", "text": "American cockroach: seldom flies, can glide" },
+    { "type": "p", "text": "The American cockroach (*Periplaneta americana*) is the largest roach on this list, reddish brown and 1 1/2 to 2 inches long, and it is a reluctant flier. [Texas A&M's urban entomology program](https://urbanentomology.tamu.edu/cockroaches/american/) says adults have well-developed wings but seldom fly, and describes them as capable of gliding flight. Clemson adds that adults may fly on warm evenings. Neither source describes the glide in more detail, and none of the fact sheets used here describes the American cockroach making long flights." },
+
+    { "type": "h3", "text": "Smokybrown cockroach: flies on warm, humid evenings" },
+    { "type": "p", "text": "The smokybrown cockroach (*Periplaneta fuliginosa*) does fly. It is 1 to 1 1/2 inches long by Clemson's measure and dark brown to mahogany in the University of California's description. The California guide says adults can fly, especially on warm, humid evenings, and that the species prefers the upper parts of buildings, may live under shingles or siding, and sometimes gets into trees and shrubs during the summer months. In California it was once a nuisance in parts of the south of the state but is now rarely encountered, according to the same guide." },
+    { "type": "p", "text": "In the Southeast this is one of the roaches people call a palmetto bug. [A University of Georgia article on that name](https://fieldreport.caes.uga.edu/news/is-that-a-roach-or-a-palmetto-bug/) describes palmetto bug as a regional term for several species of cockroaches, including the smokybrown and its cousins the American and Oriental cockroaches, and the entomologist it interviews, urban entomology professor Dan Suiter, says the smokybrown is the one he is talking about. The University of Florida says the American, Australian, brown and smokybrown cockroaches, all 1 1/4 to 2 inches long, are often called palmetto bugs." },
+
+    { "type": "h3", "text": "Asian cockroach: looks like a German cockroach, but it flies" },
+    { "type": "p", "text": "The Asian cockroach is the small flier. The University of Florida guide says it looks very much like a German cockroach except that it flies, that it lives outside and is attracted to the lights from buildings, and that it will fly to porch lights and find its way inside. Like the German cockroach, it is seldom more than 5/8 inch long. A small tan roach that looks like a German cockroach but flies to a lamp or a lit doorway is therefore more likely to be an Asian cockroach, particularly in Florida, where the university lists it among the cockroaches most commonly found in and around homes." },
+
+    { "type": "h3", "text": "Wood cockroaches: the males fly to lights" },
+    { "type": "p", "text": "Male wood cockroaches fly and females cannot. [Penn State Extension's wood cockroach fact sheet](https://extension.psu.edu/wood-cockroaches) covers the *Parcoblatta* species, twelve of which occur in North America. Males grow up to 1 inch (25 mm) long, have long wings that cover the abdomen, can fly, and are sometimes attracted to lights at night in rural areas. Females grow up to 3/4 inch (19 mm) and have short, non-functional wings that often leave the end of the abdomen exposed. Clemson likewise calls the males good fliers that are often found around lights at night and sometimes fly into buildings. These are woodland insects, found in leaf litter, under fallen logs and loose bark, in woodpiles and under stones, and the adults are present throughout the warm months." },
+
+    { "type": "h3", "text": "German and brownbanded cockroaches: the small indoor species" },
+    { "type": "p", "text": "The German cockroach (*Blattella germanica*) does not fly, even though the adults have wings. Clemson describes it as 1/2 to 5/8 inch long and pale brown or tan with two parallel black streaks behind the head, living mainly in kitchens and bathrooms. That matters when you are working out what you saw: [a German cockroach infestation](/blog/german-cockroaches) is very unlikely to be the source of a roach that flew across the room." },
+    { "type": "p", "text": "The brownbanded cockroach (*Supella longipalpa*), about the same size, is the partial exception among the small indoor species. The University of California guide says adult males sometimes fly when disturbed, especially at higher temperatures (above 85°F), but that females cannot fly. Clemson puts it more simply: the males can fly in a warm environment." },
+
+    { "type": "h3", "text": "Oriental cockroach: cannot fly" },
+    { "type": "p", "text": "Neither sex of the Oriental cockroach (*Blatta orientalis*) can fly. The University of California guide describes the male's wings as shorter than its body and the female's as not fully formed, and adds that this species is also unable to climb smooth vertical surfaces. Clemson, which puts the adults at 1 to 1 1/4 inches and the male's wings at two-thirds the length of the body, agrees that neither sex is capable of flight. It is an almost black roach of cool, dark, damp places such as basements, drains and water meter boxes. The California guide notes that it is sometimes referred to as a water bug, a nickname with its own confusion attached, sorted out in [the difference between true water bugs and the cockroaches that borrow the name](/blog/water-bugs-vs-cockroaches)." },
+
+    { "type": "h2", "text": "Why do cockroaches fly more in warm weather?" },
+    { "type": "p", "text": "The sources report the pattern without explaining it: the cockroaches that fly do so mainly on warm, humid evenings. The University of California guide's general statement is that the few flying species fly or glide during warm nights. Clemson says American and smokybrown adults may fly on warm evenings. The California guide says smokybrown adults fly especially on warm, humid evenings, and the University of Georgia article says that species is most active at night, when humidity is higher. Both Clemson and California tie flight in male brownbanded cockroaches to warmth, and California's figure for that species, above 85°F, is the only temperature any of these sources attaches to flight." },
+    { "type": "p", "text": "What these sources do not give is a temperature at which American or smokybrown cockroaches begin to fly, or an explanation of the mechanism. The other temperatures they give describe where a species prefers to live, not when it flies. The University of California guide says the American cockroach prefers warm and humid environments, usually with temperatures above 82°F, and that the brownbanded cockroach prefers about 80°F. The University of Georgia article says smokybrown cockroaches prefer warm weather, above 68°F. If you have seen 85°F given as the point at which roaches start to fly, note that in the sources reviewed here that figure applies only to male brownbanded cockroaches. It is not a verified threshold for the large outdoor species." },
+
+    { "type": "h2", "text": "Why do flying cockroaches fly toward you?" },
+    { "type": "p", "text": "Probably by accident: some of the flying species head for light, and people tend to be standing in it. None of the sources reviewed here tests the question directly, so this is a reading of what they say about lights, not a finding. The University of Florida says Asian cockroaches are attracted to the lights from buildings and fly to porch lights. Penn State says male wood cockroaches are sometimes attracted to lights at night and can end up indoors after being drawn to a porch light. Someone in a lit doorway, under a porch light or beside a lamp is standing at the destination." },
+    { "type": "p", "text": "The smokybrown cockroach is the one species these sources describe flying at people. Suiter, the University of Georgia entomologist, says it has been known to do so and, in the same breath, that the roaches aren't harmful. He offers a guess, not a finding, that the roach takes a person for a tree. He also describes a tell: a roach on a wall that is about to fly stands up high on its legs and puts its antennae out." },
+    { "type": "p", "text": "For the American cockroach, which Texas A&M says seldom flies but can glide, a glide that starts high on a wall would carry it down into the room, and that could look like an attack. This is an inference from the gliding description; none of these sources describes it. Suiter's passing remark should not be read as a health assessment, either. The University of Florida guide says cockroaches can affect human health by spreading diseases such as *Salmonella* and that they produce allergens, and a separate guide covers [whether cockroaches bite and what the documented health concerns are](/blog/do-cockroaches-bite)." },
+
+    { "type": "h2", "text": "What does a flying cockroach tell you about where it came from?" },
+    { "type": "p", "text": "In most cases it tells you the roach came in from outside, because the species that fly live outdoors, in sewers or in trees, while the German cockroach that breeds in kitchens does not fly. The one indoor exception is the male brownbanded cockroach, a small roach that Clemson describes as having two light, yellow-brown bands across its back, though it notes the bands can be hard to see on adult males because their wings cover the body. Which outdoor source applies depends on the species, and so does what happens next." },
+    { "type": "table", "head": ["What you saw", "Most likely species", "Where it came from", "What it means"], "rows": [
+      ["Small tan roach flying to a lamp or porch light", "Asian cockroach", "The yard; it lives outside and flies to lit buildings", "Survival indoors is poor"],
+      ["Brown roach up to 1 inch at a light, near woods or after firewood came in", "Male wood cockroach", "Woodland, woodpiles, firewood, clogged gutters", "Dies within a few days; does not feed or reproduce indoors"],
+      ["Large dark mahogany roach flying on a warm, humid evening", "Smokybrown cockroach", "Tree holes, mulch, gutters, or an attic that holds moisture", "Can settle in a damp attic; check the roof for leaks"],
+      ["Large reddish-brown roach gliding down from a wall", "American cockroach", "Sewers, storm drains and drain pipes, or outdoors where it is warm and humid", "Can live indoors near furnaces and heating ducts; check drains and screens"],
+      ["Small tan roach in the kitchen that never flies", "German cockroach", "Indoors; it lives mainly in kitchens and bathrooms", "A resident indoor population, not a stray from the yard"]
+    ], "caption": "A starting point for identification, built from the species descriptions in the sources linked on this page; confirm with size, color and markings." },
+    { "type": "p", "text": "Asian and wood cockroaches are accidental visitors. The University of Florida says that once Asian cockroaches are inside, their survival is poor, as it is for other outdoor cockroaches, and adds that people often overreact to outdoor roaches found indoors. Penn State is more specific about wood cockroaches: they die within a few days from dehydration and do not feed or reproduce indoors. They get in through cracks in a foundation or around windows and doors, on firewood, or after being attracted to porch lights." },
+    { "type": "p", "text": "Smokybrown cockroaches are tree dwellers that can settle in a house. Suiter says they tend to show up in older neighborhoods with mature hardwood trees, where they live in knot holes, and the University of Georgia article adds that they may enter homes seeking water. Suiter describes a common weak point, a pipe that passes through the roof without being sealed properly: if a little water collects in the attic, the space becomes warm and moist enough to be the equivalent of a tree hole. Clemson adds mulch, log piles, thick vegetation and roof gutters to the places this species lives. A smokybrown in the house is a reason to look up, at the attic, the roof penetrations and any branches touching the roof." },
+    { "type": "p", "text": "American cockroaches come from below and from outside. The University of California guide says they are common in sewers, water meter boxes, storm drains and steam tunnels and occasionally forage into the ground floor of buildings, especially if pipes are damaged, screens are missing or the water traps in drains are faulty. Texas A&M describes them moving through sewer pipes and entering kitchens and bathrooms through drainage pipes. Unlike wood cockroaches they can live indoors, where Texas A&M places them close to furnaces and heating ducts." },
+    { "type": "p", "text": "One flier at a porch light is not an infestation, but young roaches indoors are a different matter. Nymphs do not have fully developed wings, so they did not fly in, and a guide to [what the nymphs of each species look like](/blog/what-do-baby-cockroaches-look-like) helps you tell which roach is breeding nearby. For every way in, including boxes, shared walls and drains, see [the routes cockroaches use to get into a home and how to close each one](/blog/where-do-cockroaches-come-from)." },
+
+    { "type": "h2", "text": "How do you identify a cockroach that flew in?" },
+    { "type": "p", "text": "Catch it or photograph it, then check size, overall color and the markings on the plate behind the head. Those three features separate the common fliers from each other and from the German cockroach." },
+    { "type": "ul", "items": [
+      "**5/8 inch or less, tan, two dark streaks behind the head.** A German cockroach if it never flies; in Florida, a look-alike that flies to lights is most likely the Asian cockroach.",
+      "**1 1/2 to 2 inches, red-brown, pale yellow halo-like markings behind the head.** An American cockroach, by Clemson's description.",
+      "**1 to 1 1/2 inches, dark brown to mahogany with an almost-black plate behind the head.** A smokybrown cockroach; the size range is Clemson's and the colors are the University of California's.",
+      "**Up to 1 inch, light brown to nearly black, sometimes with cream-colored stripes on the edges of the wings and the plate behind the head.** A male wood cockroach; Penn State notes that only some species have the pale stripes.",
+      "**1 to 1 1/4 inches, almost black, wings shorter than the body or not fully formed.** An Oriental cockroach, which did not fly in."
+    ] },
+    { "type": "media", "needed": "Top-down close-up photos of the pronotum (plate behind the head) of an American cockroach showing the pale yellow halo marking, a smokybrown cockroach showing the solid dark pronotum, and a male wood cockroach showing cream-colored edges, arranged as a three-panel comparison" },
+    { "type": "p", "text": "The University of California guide says sticky traps are useful for catching roaches for identification. One set along a wall near the door or window where the roach appeared can give you a specimen to compare with photos, which is the job [glue traps do best: showing what you have and where](/blog/best-roach-traps-canada). Not everything brown that flies to a porch light is a roach, either. If the insect does not match any of the descriptions above, compare it with [the beetles, crickets and other insects most often mistaken for cockroaches](/blog/bugs-that-look-like-cockroaches)." },
+
+    { "type": "h2", "text": "How do you keep flying cockroaches out of the house?" },
+    { "type": "p", "text": "Remove what draws them and close the gaps: keep outdoor lights off when you can, keep screens and door seals tight, and move mulch, firewood and branches away from the walls. For wood cockroaches, Penn State says the best control is to exclude them from the building in the first place and that pesticides are neither necessary nor recommended." },
+    { "type": "ul", "items": [
+      "**Lights.** Penn State suggests turning off lights at night so flying male wood cockroaches are not attracted, and the same step removes the porch-light draw the University of Florida describes for Asian cockroaches.",
+      "**Doors, windows and screens.** The University of Florida advises keeping doors and windows shut, keeping window and soffit screens in good repair, and caulking gaps around door and window frames. The University of California guide adds door sweeps and weather stripping.",
+      "**Mulch and ground cover.** The University of Florida says the large outdoor cockroaches breed prolifically in pine straw mulch and advises pulling mulch away from the house, with only a thin layer in the foot nearest the foundation. The University of California guide recommends removing ivy and other dense ground covers near the house.",
+      "**Firewood.** Stack it off the ground and well away from the house, per the University of Florida, and bring in only as much as you will burn in a few hours, per Penn State.",
+      "**Trees and the roof.** Clemson recommends pruning tree limbs and shrubbery so they do not touch the house. Suiter's account of smokybrown cockroaches in leaky attics points to sealing around roof pipes and fixing leaks.",
+      "**Drains and plumbing.** Because the University of California guide ties American cockroach entry to damaged pipes, missing screens and faulty drain traps, repairing those is the matching fix."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "The label is the law", "text": "Every cockroach bait, dust and spray is a pesticide. Read the whole label, use the product only where and how it directs, and keep it away from children, pets and food surfaces." },
+    { "type": "p", "text": "If large roaches keep appearing after the gaps are closed, the population is probably living on the property. For smokybrown cockroaches, Suiter says a good granular or gel bait makes spraying unnecessary, and he calls bug bombs ineffective. The indoor steps are laid out in [a bait-first plan for clearing cockroaches](/blog/how-to-get-rid-of-cockroaches-canada), and a separate page sets out [the few jobs an aerosol cockroach spray is suited to](/blog/best-cockroach-spray-canada). If you see roaches indoors regularly, find nymphs, or live in a building with shared walls, have a licensed pest management professional identify the species before anything is treated." }
+  ],
+  "faqs": [
+    {
+      "question": "Do palmetto bugs fly?",
+      "answer": "It depends which roach is meant, because palmetto bug is a regional nickname and not a species. The University of Florida says the American, Australian, brown and smokybrown cockroaches, all 1 1/4 to 2 inches long, are often called palmetto bugs. A University of Georgia article also applies the name to the Oriental cockroach, which cannot fly. Smokybrown adults fly especially on warm, humid evenings, according to the University of California, and a University of Georgia entomologist says the species has been known to fly at people. The American cockroach has well-developed wings but seldom flies and is capable of gliding, according to Texas A&M."
+    },
+    {
+      "question": "Can baby cockroaches fly?",
+      "answer": "No. Young cockroaches, called nymphs, do not have fully developed wings and cannot fly. The University of Florida says newly hatched nymphs have no wings and shed their skins several times before becoming winged adults. Even adults with wings do not always fly: Clemson University says adult German cockroaches have wings but do not fly, and that neither sex of the Oriental cockroach is capable of flight. A small roach without full wings indoors therefore walked in or hatched nearby."
+    },
+    {
+      "question": "Do German cockroaches fly?",
+      "answer": "No. Clemson University's fact sheet says adult German cockroaches have wings but do not fly. They are 1/2 to 5/8 inch long, pale brown or tan, with two parallel black streaks behind the head, and they live mainly in kitchens and bathrooms. If a small roach that looks like a German cockroach flies to a lamp or a porch light, it may be an Asian cockroach. The University of Florida says the Asian cockroach looks very much like a German cockroach except that it flies and lives outside."
+    },
+    {
+      "question": "Does a flying cockroach in the house mean an infestation?",
+      "answer": "Usually not by itself. The fliers are mostly outdoor species that come to lights or wander in. Penn State says wood cockroaches die within a few days indoors and do not feed or reproduce there, and the University of Florida says outdoor cockroaches do not survive well inside and that people often overreact to them. The exceptions are the large species: Texas A&M says American cockroaches indoors live close to furnaces and heating ducts, and a University of Georgia entomologist describes smokybrown cockroaches settling in attics that collect water. Repeated sightings or nymphs indoors are the reason to look further."
+    },
+    {
+      "question": "How far can a cockroach fly?",
+      "answer": "Only short distances, as far as the university sources used for this page say, and none of them gives a measured figure. The University of California says a few cockroach species can fly short distances or glide as adults during warm nights. Texas A&M says the American cockroach seldom flies and is capable of gliding. The University of Florida says Asian cockroaches live outside and fly to porch lights, and Penn State says male wood cockroaches can fly and are sometimes attracted to lights at night. Treat any specific distance quoted elsewhere with caution."
+    },
+    {
+      "question": "Do all cockroaches have wings?",
+      "answer": "No. Nymphs do not have fully developed wings, and adult wings vary by species and sex. Adult German and American cockroaches have wings, and Texas A&M describes the American's as well developed. In the Oriental cockroach, the University of California describes the male's wings as shorter than its body and the female's as not fully formed. Female wood cockroaches have short, non-functional wings that often leave the end of the abdomen exposed, according to Penn State, while the males have long wings that cover the abdomen. Wings also do not always mean flight: the German cockroach has them and does not fly."
+    }
+  ],
+  "sources": [
+    { "title": "Cockroach (Roach) Control", "publisher": "Clemson Cooperative Extension Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/cockroach-control/" },
+    { "title": "Cockroaches (Home and Landscape)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/cockroaches/" },
+    { "title": "Wood Cockroaches", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/wood-cockroaches" },
+    { "title": "American Cockroach, Periplaneta americana", "publisher": "Urban and Structural Entomology Program at Texas A&M University", "url": "https://urbanentomology.tamu.edu/cockroaches/american/" },
+    { "title": "ENY-214/IG082: Cockroaches and Their Management", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IG082" },
+    { "title": "Is that a roach or a palmetto bug?", "publisher": "University of Georgia College of Agricultural and Environmental Sciences", "url": "https://fieldreport.caes.uga.edu/news/is-that-a-roach-or-a-palmetto-bug/" }
+  ]
+}

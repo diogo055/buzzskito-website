@@ -1,0 +1,10 @@
+{
+ "id": "lawn-pest-control",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "78821af7c5d6f3ab32849a091cb90cf4f1ca61556eeb7ab88f6a958c3782f096",
+ "claimsChecked": 82,
+ "claimsCorrected": 12,
+ "claimsRemovedOrSoftened": 10,
+ "checkedOn": "2026-10-08"
+}

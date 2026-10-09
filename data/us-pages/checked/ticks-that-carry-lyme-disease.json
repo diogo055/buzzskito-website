@@ -1,0 +1,10 @@
+{
+ "id": "ticks-that-carry-lyme-disease",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "3b4370fcb72d65068e5b14ece7d2cad7b0b933c315c2964e435474bb4f6d6cff",
+ "claimsChecked": 112,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 8,
+ "checkedOn": "2026-10-08"
+}

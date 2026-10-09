@@ -1,0 +1,151 @@
+{
+  "slug": "are-mosquitoes-attracted-to-light",
+  "kind": "spoke",
+  "cluster": "mosquitoes",
+  "keyword": "are mosquitoes attracted to light",
+  "alsoTargets": [],
+  "metaTitle": "Are Mosquitoes Attracted to Light? Not Much",
+  "metaDescription": "Mosquitoes find people mainly by carbon dioxide, odor and heat, not light. See what studies say about bug zappers, colors and yellow bug lights.",
+  "h1": "Are Mosquitoes Attracted to Light? What Research Says About Lamps and Zappers",
+  "dek": "How mosquitoes really find you, how species and colors differ in lab tests, why bug zappers kill few mosquitoes, and whether yellow or LED bulbs make a difference.",
+  "breadcrumb": "Mosquitoes and Light",
+  "excerpt": "Mosquitoes follow carbon dioxide, odor and heat far more than light. What lab studies, bug zapper counts and the EPA say about lamps, colors and yellow bulbs.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Light is a minor lure for mosquitoes: they find people mainly through exhaled carbon dioxide, then body odor and heat.** In [a peer-reviewed lab study](https://www.nature.com/articles/s41467-022-28195-x), mosquitoes mostly ignored colored targets until carbon dioxide was released, and bug zappers, which rely on a black light, kill relatively few mosquitoes.",
+    "bullets": [
+      "Carbon dioxide draws mosquitoes from up to about 115 feet (35 meters), according to the American Mosquito Control Association.",
+      "In a lab study of *Aedes aegypti*, 1% to 4% of mosquitoes investigated colored targets in filtered air, rising to 21% once carbon dioxide was released.",
+      "Two University of Notre Dame studies found mosquitoes were only 4.1% and 6.4% of the daily bug zapper catch, with no significant difference in mosquito numbers between yards with and without a zapper.",
+      "The EPA says yellow bug lights tend to attract fewer mosquitoes than ordinary lights, but they are not repellents.",
+      "The CDC's notes on its own mosquito light trap say dry ice is used with it, because the carbon dioxide it releases attracts host-seeking females."
+    ]
+  },
+  "facts": {
+    "title": "Mosquitoes and light at a glance",
+    "rows": [
+      ["Main long-range lure", "Carbon dioxide, effective from up to about 115 feet (35 meters)"],
+      ["Cues once a mosquito is near", "Body odors, heat, moist air and sight"],
+      ["Does vision work without CO2?", "In the lab, *Aedes aegypti* rarely investigated colored targets in filtered air (1% to 4%) and did so far more with CO2 (21%)"],
+      ["Colors that drew *Aedes aegypti* in the lab", "Cyan (496 nanometers) and orange to red (590 nanometers and longer), during CO2 release"],
+      ["Mosquitoes in the daily bug zapper catch", "4.1% and 6.4% in two University of Notre Dame studies"],
+      ["Yellow bug lights", "Tend to attract fewer mosquitoes than ordinary lights; not repellents (EPA)"],
+      ["CDC mosquito light trap", "Used with dry ice, which gives off carbon dioxide that attracts host-seeking females"],
+      ["When feeding usually happens", "One part of the daily cycle, typically low-light periods, most often twilight into early evening"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Are mosquitoes attracted to light?" },
+    { "type": "p", "text": "Light is a minor lure for mosquitoes. The evidence points to carbon dioxide, body odor and heat as what bring a mosquito to you, with vision helping mainly after those cues are already present. A peer-reviewed laboratory study in [Nature Communications](https://www.nature.com/articles/s41467-022-28195-x) found that mosquitoes largely ignored colored targets in plain air and investigated them far more once carbon dioxide (CO2) was released. In the yard, [the American Mosquito Control Association (AMCA)](https://www.mosquito.org/faqs/) reports no significant difference in mosquito numbers between yards with and without a bug zapper, a device that lures insects with a black light." },
+    { "type": "p", "text": "The rest of this page covers what the studies measured, how species and colors differ, what zappers and traps do, and whether yellow or LED bulbs help. If your goal is fewer mosquitoes where you live, the [complete backyard mosquito control guide](/blog/ultimate-backyard-mosquito-control-guide) lays out the full plan." },
+
+    { "type": "h2", "text": "How do mosquitoes find people if not by light?" },
+    { "type": "p", "text": "They follow carbon dioxide first, then rely on odor, heat and sight as they close in. [Purdue University's public health entomology program](https://extension.entm.purdue.edu/publichealth/insects/mosquito.html) says female mosquitoes detect the CO2 that warm-blooded animals exhale from long distances, and [the AMCA's FAQ](https://www.mosquito.org/faqs/) says CO2 draws mosquitoes from up to 35 meters, about 115 feet. Purdue adds that vision, moist air rising from a host and host-specific odors play a role during the approach. The AMCA names body odors such as sweat and lactic acid, plus heat, as the cues that predominate once a mosquito is in the general vicinity, and says more than 350 compounds have been isolated from human skin odor." },
+    { "type": "table", "head": ["Cue", "Range", "What the sources say"], "rows": [
+      ["Carbon dioxide", "Long range", "Detected from long distances by females (Purdue); draws mosquitoes from up to 35 meters, about 115 feet (AMCA)"],
+      ["Body odors and sweat", "Closer in", "Sweat, lactic acid and other skin odors predominate near a host; more than 350 compounds isolated from skin odor (AMCA)"],
+      ["Heat and moist air", "Closer in", "Moist air rising from a host is part of the approach (Purdue); heat and water vapor mediate landing and biting (Nature Communications)"],
+      ["Vision", "Closer in, after CO2", "Listed among the approach cues (Purdue); in the lab, interest in visual targets jumped when CO2 was present (Nature Communications)"]
+    ], "caption": "Distances are as each source reports them. The sources do not give one agreed range for every species." },
+    { "type": "media", "needed": "Simple labeled diagram of a person seated on a patio at dusk showing three zones: a carbon dioxide plume reaching about 115 feet, odor and heat cues closer in, and a porch lamp drawn as a minor cue; clean vector style, no brand names" },
+    { "type": "p", "text": "Pets give off CO2 too. Purdue describes the cue as coming from warm-blooded animals in general, which includes dogs, and [the guide on whether mosquitoes bite dogs](/blog/do-mosquitoes-bite-dogs) covers where they bite and why it matters for heartworm. Differences between people have their own pages: [what attracts mosquitoes to you](/blog/what-attracts-mosquitoes-to-you) and [why mosquitoes bite some people more than others](/blog/why-mosquitoes-bite-some-people-more)." },
+
+    { "type": "h2", "text": "What did the lab study find about mosquito vision?" },
+    { "type": "p", "text": "Mosquitoes in the best-known study ignored visual targets until CO2 arrived. The 2022 paper in [Nature Communications](https://www.nature.com/articles/s41467-022-28195-x) released CO2 into a wind tunnel about 88 inches (224 centimeters, roughly 7 feet) long that held 50 mated female *Aedes aegypti* at a time, and used cameras to count how many investigated two colored circles. In filtered air, only 1% to 4% of the mosquitoes did. During the CO2 release, 21% did, and the difference was statistically significant." },
+    { "type": "p", "text": "The targets were not lamps or bulbs. They were circles of colored paper about 1.2 inches (3 centimeters) wide, set about 7 inches (18 centimeters) apart under ambient projector light the authors measured at 96 lux, so the study measures how mosquitoes react to colors rather than to a glowing light source. In filtered air the authors describe the mosquitoes' behavior toward the odor source and the targets as random, with much of their time spent exploring the tunnel's ceiling and walls." },
+    { "type": "p", "text": "The researchers also recorded electrical responses from mosquito eyes across 350 to 750 nanometers, which includes near-UV and violet light, and report that *Anopheles stephensi* and *Culex quinquefasciatus* responded most strongly to the shortest wavelengths, 350 to 420 nanometers. The colored targets in the behavior tests ranged from violet (437 nanometers) to red, so the paper shows that mosquito eyes can detect near-UV light. It does not show whether UV light draws mosquitoes to a trap or a zapper." },
+    { "type": "callout", "tone": "note", "title": "A lab result, not a backyard result", "text": "The mosquitoes were lab-reared females flying in a wind tunnel. The authors also note that their tests left out close-range cues such as heat, water vapor and skin chemicals, which matter for landing and biting." },
+
+    { "type": "h2", "text": "Do different mosquito species respond to different colors?" },
+    { "type": "p", "text": "Yes. In the same study, each of the three species tested showed its own pattern while CO2 was present:" },
+    { "type": "table", "head": ["Species tested", "Drawn to", "Not drawn to", "Activity described by the authors"], "rows": [
+      ["*Aedes aegypti*", "Cyan (496 nanometers) and orange to red (590 nanometers and longer)", "Violet (437 nanometers), blue (452 nanometers), green (510 nanometers) and green-yellow (520 nanometers)", "Dawn and dusk"],
+      ["*Anopheles stephensi*", "Black and red (660 nanometers)", "Blue (452 nanometers) and green (510 nanometers)", "Nocturnal and crepuscular"],
+      ["*Culex quinquefasciatus*", "Blue (452 nanometers) and red (660 nanometers)", "Green (510 nanometers) and black", "Nocturnal and crepuscular"]
+    ], "caption": "From the Nature Communications paper. Preferences were measured during CO2 release, using colored paper targets in laboratory tests." },
+    { "type": "p", "text": "Red drew all three species, but the rest of the pattern differed. *Culex quinquefasciatus* was drawn to the 452 nanometer blue that *Aedes aegypti* ignored, and black drew *Anopheles stephensi* but not *Culex*. The tests used a small set of colors and three lab species, not the mix found in a given US yard, so they cannot predict which bulb or shirt color will draw the mosquitoes around your home. [What colors attract mosquitoes](/blog/what-colors-attract-mosquitoes) looks at the clothing question in more detail." },
+
+    { "type": "h2", "text": "Why do mosquitoes seem to show up at dusk and near lights?" },
+    { "type": "p", "text": "Timing explains part of it, and timing is a clock effect rather than proof that lamps attract mosquitoes. Purdue says mosquito blood feeding is usually limited to one part of the daily cycle, typically a low-light period, and is most common from twilight into early evening. The Nature Communications paper describes *Aedes aegypti* as active at dawn and dusk and the other two species as nocturnal and crepuscular, so the active window differs by species." },
+    { "type": "p", "text": "No source reviewed for this page counted mosquitoes at an ordinary lit porch against a dark one, so whether a lit porch gathers more mosquitoes than an unlit one is not settled here. What the studies do show is that the cue that works from a distance is CO2, which a lamp does not produce." },
+    { "type": "p", "text": "[When mosquitoes are most active](/blog/when-are-mosquitoes-most-active) breaks the day and the season down. Travelers heading somewhere with very long summer days can read [the Alaska mosquito guide](/blog/alaska-mosquitoes) for the season by month and region and for how visitors protect themselves." },
+
+    { "type": "h2", "text": "Do bug zappers kill mosquitoes?" },
+    { "type": "p", "text": "Bug zappers kill very few mosquitoes. The AMCA's FAQ describes them as black light insect electrocution devices and summarizes two University of Notre Dame studies in which mosquitoes made up only 4.1% and 6.4% of the daily catch over an entire season, with no significant difference in mosquito numbers between yards with and without a zapper." },
+    { "type": "table", "head": ["Measure", "Reported result", "Notes"], "rows": [
+      ["Mosquitoes in the daily zapper catch", "4.1% and 6.4%", "Two University of Notre Dame studies, each measured over a full season"],
+      ["Mosquito numbers, yards with and without a zapper", "No significant difference", "Reported for both Notre Dame studies"],
+      ["Female mosquitoes among the insects killed", "0.13%", "One backyard study; the AMCA does not name it"],
+      ["Beneficial insects killed per year in the US", "71 billion to 350 billion", "An estimate; the AMCA does not name its source"]
+    ], "caption": "Figures as summarized in the AMCA FAQ, which gives no publication date." },
+    { "type": "p", "text": "These percentages measure different things, so they should not be averaged. The 4.1% and 6.4% figures are the mosquito share of everything the zappers killed in two studies, and the 0.13% figure is the share that were female mosquitoes in a separate backyard study. They all point the same way." },
+    { "type": "p", "text": "The [University of California Statewide IPM Program](https://ipm.ucanr.edu/PMG/PESTNOTES/pn7451.html) goes a step further and calls electric bug zappers counterproductive for mosquito control, because many of the insects they kill are the ones that prey on mosquitoes." },
+
+    { "type": "h2", "text": "Do CO2 traps and light traps work better than zappers?" },
+    { "type": "p", "text": "Traps that release CO2 aim at the cue mosquitoes follow, but they still catch only a small share of what they attract. The UC Statewide IPM Program says devices such as the Mosquito Magnet release CO2 to attract host-seeking mosquitoes yet capture only a small proportion of the insects they attract, so buyers should weigh the cost of buying and running one against that limit. It adds that a single trap might not control adult mosquitoes, which often disperse across a broad area." },
+    { "type": "p", "text": "The CDC uses CO2 with one of its light-based surveillance traps. [The CDC's guide to mosquito surveillance traps](https://www.cdc.gov/mosquitoes/php/toolkit/mosquito-surveillance-traps.html) lists a CDC light trap and says it collects a wide range of genera and species, including *Aedes*, *Anopheles* and *Culex*. Its tips are to hang the trap from a tree 5 feet above the ground, to use dry ice because the CO2 it releases attracts host-seeking female mosquitoes, and to set it at dusk and collect it after dawn the next day, when it is most effective. The page does not report how many mosquitoes the light brings in without the dry ice. It presents the trap as one of several surveillance traps, which are tools for finding out which mosquitoes are present." },
+    { "type": "p", "text": "For approaches aimed at reducing mosquito numbers on a property, [how to get rid of mosquitoes](/blog/how-to-get-rid-of-mosquitoes) covers the yard-level steps." },
+
+    { "type": "h2", "text": "Do yellow or LED bulbs help keep mosquitoes away?" },
+    { "type": "p", "text": "Yellow bug lights are the one bulb change the sources support, and the claim is modest. [The EPA's tips for avoiding mosquito bites](https://www.epa.gov/insect-repellents/tips-prevent-mosquito-bites) say yellow bug lights tend to attract fewer mosquitoes than ordinary lights, and that they are not repellents. The AMCA says much the same in older terms: yellow incandescent bug lights are not repellent as such, but they do not attract mosquitoes the way other incandescent lights do." },
+    { "type": "p", "text": "Neither source addresses LED bulbs, and the AMCA wording refers to incandescent lights. No source reviewed for this page compares LED bulb colors against mosquito attraction, so it is not known whether a yellow or warm-white LED behaves like a yellow incandescent bug light. The lab study above tested colored paper, not bulbs, and cannot answer the question either." },
+    { "type": "callout", "tone": "tip", "title": "Keep expectations small", "text": "The EPA states plainly that yellow lights are not repellents. A bulb change lowers attraction at most, so it does not stand in for repellent, protective clothing or screens." },
+
+    { "type": "h2", "text": "What does the EPA recommend for avoiding mosquito bites?" },
+    { "type": "p", "text": "The EPA's tips start with removing standing water where mosquitoes breed, then cover window and door screens, long sleeves and long pants, and EPA-registered repellents used as the label directs, with yellow bug lights as one item on the list. The lures themselves, CO2, odor and heat, come from you, which is why changing a lamp touches only a small part of the problem. [How to keep mosquitoes away](/blog/how-to-keep-mosquitoes-away) compares the repellent choices and the patio measures in detail." }
+  ],
+  "faqs": [
+    {
+      "question": "Do mosquitoes come to a porch light at night?",
+      "answer": "None of the sources reviewed for this page counted mosquitoes at lit versus unlit porches, so the question is not settled. They do show that mosquitoes find people mainly by carbon dioxide, then odor and heat, and that in a lab study vision came into play far more once carbon dioxide was present. The EPA says yellow bug lights tend to attract fewer mosquitoes than ordinary lights."
+    },
+    {
+      "question": "Do bug zappers harm other insects?",
+      "answer": "The American Mosquito Control Association cites an estimate that electrocuting devices may kill 71 billion to 350 billion beneficial insects a year in the United States, though it does not name the source of that estimate. The University of California Statewide IPM Program adds that many of the insects zappers kill are ones that prey on mosquitoes, which it calls counterproductive for mosquito control."
+    },
+    {
+      "question": "What colors attract mosquitoes?",
+      "answer": "In a Nature Communications lab study, Aedes aegypti were drawn to cyan, orange and red targets and not to violet, blue or green ones, and only when carbon dioxide was present. Anopheles stephensi favored black and red, and Culex quinquefasciatus favored blue and red. The targets were colored paper, not lights, so the results do not describe bulb colors."
+    },
+    {
+      "question": "Do mosquitoes bite more at night?",
+      "answer": "It depends on the species. Purdue University says mosquito feeding is usually limited to one part of the daily cycle, typically a low-light period and most often twilight into early evening. The Nature Communications paper describes Aedes aegypti as active at dawn and dusk, and Anopheles stephensi and Culex quinquefasciatus as nocturnal and crepuscular. Timing differs by species, so there is no single biting hour."
+    },
+    {
+      "question": "Do CO2 mosquito traps work?",
+      "answer": "They attract host-seeking mosquitoes, but the University of California Statewide IPM Program says they capture only a small proportion of the insects they attract, and that a single trap might not control adult mosquitoes, which often disperse across a broad area. Weigh the cost of buying and running one against that limit. The CDC uses CO2 from dry ice with its light trap, a surveillance tool for monitoring mosquitoes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "The olfactory gating of visual preferences to human skin and visible spectra in mosquitoes",
+      "publisher": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-022-28195-x"
+    },
+    {
+      "title": "Mosquito Surveillance Traps",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/mosquitoes/php/toolkit/mosquito-surveillance-traps.html"
+    },
+    {
+      "title": "Tips to Prevent Mosquito Bites",
+      "publisher": "U.S. Environmental Protection Agency",
+      "url": "https://www.epa.gov/insect-repellents/tips-prevent-mosquito-bites"
+    },
+    {
+      "title": "FAQs",
+      "publisher": "American Mosquito Control Association",
+      "url": "https://www.mosquito.org/faqs/"
+    },
+    {
+      "title": "Mosquitoes",
+      "publisher": "University of California Statewide Integrated Pest Management Program",
+      "url": "https://ipm.ucanr.edu/PMG/PESTNOTES/pn7451.html"
+    },
+    {
+      "title": "Mosquitoes",
+      "publisher": "Purdue University, Public Health and Medical Entomology",
+      "url": "https://extension.entm.purdue.edu/publichealth/insects/mosquito.html"
+    }
+  ]
+}

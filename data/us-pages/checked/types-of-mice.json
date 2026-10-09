@@ -1,0 +1,10 @@
+{
+ "id": "types-of-mice",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "180d8c29425876223654e1be730eead0cccb2ea0ced12bb4d809e87bd595c01e",
+ "claimsChecked": 95,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-08"
+}

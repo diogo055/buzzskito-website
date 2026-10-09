@@ -1,0 +1,10 @@
+{
+ "id": "are-mice-nocturnal",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "f376289d5d85f1b063d9618f582816551faca0a4d4ea538cdddc74a71e3a1568",
+ "claimsChecked": 62,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-08"
+}

@@ -1,0 +1,190 @@
+{
+  "slug": "how-to-get-rid-of-mosquitoes",
+  "kind": "spoke",
+  "cluster": "mosquitoes",
+  "keyword": "how to get rid of mosquitoes",
+  "alsoTargets": [],
+  "metaTitle": "How to Get Rid of Mosquitoes: Dump Water First",
+  "metaDescription": "Empty standing water weekly, treat water you can't empty with Bti, and use adult sprays only as a stopgap. What CDC and EPA guidance says works.",
+  "h1": "How to Get Rid of Mosquitoes in Your Yard: What CDC and EPA Guidance Says",
+  "dek": "Where mosquitoes breed in a yard, how to stop them, what Bti larvicide and adult sprays can and cannot do, and when to call your local mosquito control program or a pro.",
+  "breadcrumb": "Get Rid of Mosquitoes",
+  "excerpt": "Mosquitoes breed in standing water, so the fix starts there: dump it weekly, treat what you can't dump with Bti, and use adult sprays only as a stopgap.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**To get rid of mosquitoes in your yard, empty, scrub or cover everything that holds water once a week, and treat water you cannot empty with a larvicide such as Bti.** [EPA](https://www.epa.gov/mosquitocontrol/success-mosquito-control-integrated-approach) says measures aimed at eggs and larvae are generally the most effective and least costly. Sprays for adult mosquitoes reduce numbers only temporarily.",
+    "bullets": [
+      "CDC advises emptying and scrubbing, turning over, covering or throwing out anything that holds water once a week.",
+      "UC IPM says any small amount of standing water, perhaps even a bottle cap's worth, can support larvae, and that in summer the egg-to-adult cycle can take a week or less.",
+      "Bti dunks last about 30 days in water, according to UC IPM, and they target mosquito larvae rather than adults.",
+      "UC IPM says outdoor insecticide sprays give only a temporary reduction in adult mosquitoes, so they are a stopgap, not a fix.",
+      "The same guide notes that some adult mosquitoes can fly several miles from where they develop, so a clean yard can still get visitors."
+    ]
+  },
+  "facts": {
+    "title": "Getting rid of mosquitoes at a glance",
+    "rows": [
+      ["Water needed to breed", "Very little; EPA lists places as small as bottle caps among the sites where *Aedes aegypti* may lay eggs"],
+      ["Egg to adult in summer", "A week or less, depending on water temperature"],
+      ["Dump-and-scrub schedule", "Once a week"],
+      ["Bti dunk duration", "About 30 days in water; follow the label"],
+      ["Best stage to target", "Eggs and larvae"],
+      ["Adult sprays", "Temporary reduction only"],
+      ["Where adults rest", "Dark, humid spots such as under patio furniture, carports and garages, and in dense brush or tall grass"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What is the first step to get rid of mosquitoes?" },
+    { "type": "p", "text": "The first step is to remove the standing water they breed in. [EPA's page on integrated mosquito management](https://www.epa.gov/mosquitocontrol/success-mosquito-control-integrated-approach) says that interventions aimed at eggs and larvae are generally the most effective and least costly way to control mosquitoes, and that the greatest impact comes when mosquitoes are concentrated, immobile and accessible, as the immature stages are. The same page cautions that these measures are unlikely to be fully effective on their own, especially for mosquitoes such as *Aedes aegypti* that breed in varied and scattered places." },
+    { "type": "p", "text": "[CDC's guidance on mosquito control at home](https://www.cdc.gov/mosquitoes/mosquito-control/mosquito-control-at-home.html) turns that into a routine: once a week, empty and scrub, turn over, cover or throw out anything that holds water. Its examples for the yard are tires, buckets, planters, toys, pools, birdbaths, flowerpot saucers and trash containers, and it says to cover water storage containers such as buckets, cisterns and rain barrels tightly. Every other step on this page builds on that one habit, and a [longer guide to backyard mosquito control](/blog/ultimate-backyard-mosquito-control-guide) covers planning a whole season." },
+
+    { "type": "h2", "text": "How little water do mosquitoes need to breed?" },
+    { "type": "p", "text": "Very little. The [University of California's IPM program](https://ipm.ucanr.edu/home-and-landscape/mosquitoes/), writing about *Aedes* mosquitoes, says any small amount of standing water, perhaps even a bottle cap holding water, can support larvae. [EPA](https://www.epa.gov/mosquitocontrol/success-mosquito-control-integrated-approach) likewise lists places as small as bottle caps among the sites where *Aedes aegypti* may lay eggs. UC IPM also says that in summer the whole cycle from egg to adult can be completed in a week or less, depending on water temperature. Put those facts together and a forgotten bucket or plant saucer can turn out a new batch of adults in about a week of warm weather, which is the logic behind a weekly check." },
+    { "type": "p", "text": "If you find small wriggling creatures in a container, [this guide to identifying mosquito larvae and their look-alikes](/blog/mosquito-larvae-identification) shows what to look for. A separate article on [how fast standing water starts breeding mosquitoes](/blog/does-standing-water-attract-mosquitoes) goes into the timing." },
+
+    { "type": "h2", "text": "Where do mosquitoes breed in a yard, and how do you fix each spot?" },
+    { "type": "p", "text": "Anywhere water sits can breed mosquitoes, and the fix depends on whether you can empty the spot. The table combines the home-control advice from [CDC](https://www.cdc.gov/mosquitoes/mosquito-control/mosquito-control-at-home.html), EPA's list of habitats to remove and the checklist of mosquito sources in the [University of California's IPM guide to mosquitoes](https://ipm.ucanr.edu/home-and-landscape/mosquitoes/)." },
+    { "type": "table", "head": ["Spot", "What the sources recommend", "From"], "rows": [
+      ["Tires, buckets, planters, toys, flowerpot saucers, trash containers", "Empty and scrub, turn over, cover or throw out once a week", "CDC"],
+      ["Birdbaths, fountains, wading pools, pet dishes, watering troughs", "Empty and change the water every week", "EPA and UC IPM"],
+      ["Rain barrels, cisterns and other water storage", "Cover tightly so mosquitoes cannot lay eggs; put wire mesh with holes smaller than an adult mosquito over any container without a lid; screen or seal openings and keep barrel filters clear of debris", "CDC and UC IPM"],
+      ["Rain gutters and downspouts", "Clean out debris once a year", "UC IPM"],
+      ["Swimming pools and pool covers", "Keep water off the cover and maintain water quality at all times", "UC IPM"],
+      ["Ponds", "Stock the pond with fish or use Bti, and remove excess vegetation", "UC IPM"],
+      ["Puddles and low spots that hold water", "Drain them or fill them in", "EPA and UC IPM"],
+      ["Lawns and garden beds", "Avoid overwatering, which can lead to standing water", "UC IPM"],
+      ["Tree holes", "Fill them, with sand or mortar, so water cannot collect", "CDC and UC IPM"],
+      ["Septic tanks and open pipes", "Repair cracks and gaps in the tank and cover open vent or plumbing pipes", "CDC"]
+    ], "caption": "Water you cannot empty or cover is covered in the larvicide section below." },
+    { "type": "media", "needed": "Photo of a typical suburban backyard with four or five labeled breeding spots visible: a flowerpot saucer, a bucket, a birdbath, a clogged gutter and an uncovered rain barrel" },
+    { "type": "p", "text": "Gutters deserve a look: UC IPM says leaves, twigs, seeds and other organic matter that block the flow can create standing water in which mosquito larvae grow, and [EPA's description of source reduction](https://www.epa.gov/mosquitocontrol/success-mosquito-control-integrated-approach) lists rain gutters alongside old tires, buckets and other containers. For rain barrels, a separate guide shows [how to mosquito-proof a rain barrel](/blog/rain-barrel-mosquito-proof-canada) step by step." },
+
+    { "type": "h2", "text": "How do you treat water you cannot empty?" },
+    { "type": "p", "text": "Treat it with a larvicide. [CDC's larvicide page](https://www.cdc.gov/mosquitoes/mosquito-control/larvicides.html) says homeowners can use mosquito dunks or bits that contain larvicide, applied by hand to small bodies of water that will not be used for drinking and cannot be covered, dumped or removed. Its list of water-holding items where mosquitoes lay eggs includes buckets and rain barrels, fountains, gutters and downspouts, swimming pools that are not chlorinated, pool covers that collect water, tires and tree holes." },
+    { "type": "p", "text": "Bti stands for *Bacillus thuringiensis* subspecies *israelensis*, a soil bacterium that CDC says has been used for mosquito control for more than 30 years. UC IPM describes it as highly selective, killing only mosquitoes and the larvae of a few related flies, and says the most common homeowner formulation, the dunk, lasts about 30 days in water. CDC says that when larvicides are used according to product label instructions they do not harm people, pets or the environment, and it gives a direct instruction: do not apply more than directed, and do not reapply more often than instructed." },
+    { "type": "table", "head": ["Larvicide", "What it is", "What CDC says about it"], "rows": [
+      ["Bti", "Bacterium found in soil", "Toxic to mosquito larvae, blackflies and fungus gnats; used for mosquito control for more than 30 years; does not control biting female mosquitoes"],
+      ["Spinosad", "Commercial larvicide derived from the soil bacterium *Saccharopolyspora spinosa*", "The bacterium is toxic to mosquitoes, ants, fruit flies and other insects"],
+      ["*Lysinibacillus sphaericus*", "Bacterium found in soil", "Works well on some mosquito species but does not work on *Aedes aegypti*"],
+      ["Methoprene and pyriproxyfen", "Insect growth regulators", "Keep larvae from completing their immature stage, so they do not reach the adult stage"],
+      ["Mineral oils and films", "A thin layer that spreads over the water surface", "Used by licensed mosquito control professionals; larvae and pupae that breathe at the surface drown"]
+    ], "caption": "Source: CDC, Larvicides, which lists these as the types that public health officials and mosquito control professionals use. Which product may be used on which site is a question for the product label." },
+    { "type": "p", "text": "A larvicide works only in the water it is placed in. CDC says Bti does not control biting female mosquitoes, and [EPA](https://www.epa.gov/mosquitocontrol/success-mosquito-control-integrated-approach) describes larvicides as targeting larvae in the breeding habitat before they mature into adults and disperse. EPA treats larval control as one of four tactics in an integrated approach, alongside removing habitats, structural barriers such as window screens, and adult control, with decisions based on surveillance. UC IPM adds that Bti is not effective against pupae, because pupae do not feed, and CDC says mineral oils and films are the only effective methods for killing pupae." },
+    { "type": "p", "text": "For a backyard pond, UC IPM suggests stocking fish or using Bti and removing excess vegetation. It says mosquito-eating fish are most effective in man-made water that does not connect with natural waters, and it warns never to release mosquitofish into streams, ponds and lakes in California, where the fish are not native and releasing them is illegal. Check your own state's rules before adding any fish to a pond." },
+    { "type": "media", "needed": "Close-up photo of a Bti dunk or bit floating in a rain barrel or bucket of water that has been cleaned out, with wriggling mosquito larvae visible in a second jar of untreated water for comparison" },
+
+    { "type": "h2", "text": "Do sprays and foggers for adult mosquitoes work?" },
+    { "type": "p", "text": "They work briefly. [UC IPM](https://ipm.ucanr.edu/home-and-landscape/mosquitoes/) says insecticide sprays and outdoor foggers have limitations: they can temporarily reduce the adult population, which can be useful if the application is made shortly before a backyard picnic or family gathering, but it calls longer-term approaches preferable. [EPA](https://www.epa.gov/mosquitocontrol/success-mosquito-control-integrated-approach) says there is a legitimate need for chemical control of adult mosquitoes under certain circumstances, especially during periods of mosquito-borne disease transmission or when source reduction and larval control have failed or are not feasible." },
+    { "type": "p", "text": "[CDC's home-control page](https://www.cdc.gov/mosquitoes/mosquito-control/mosquito-control-at-home.html) says to use an outdoor adulticide to kill adult mosquitoes in the areas where they rest; those resting places are listed further down this page. [CDC's adulticide page](https://www.cdc.gov/mosquitoes/mosquito-control/adulticides.html) says the products come as coils, foggers, yard sprays or aerosols, and liquids, and that some kill adult mosquitoes immediately while others keep killing over a longer period. Under the types that mosquito control professionals use, it describes two groups, the organophosphates and the pyrethrins and pyrethroids, and says both kill mosquitoes by preventing their nervous systems from working properly:" },
+    { "type": "table", "head": ["Group", "Examples named by CDC", "CDC's description"], "rows": [
+      ["Plant-derived pyrethrins", "Pyrethrins, often called pyrethrum", "Extracted from some chrysanthemum flowers"],
+      ["Synthetic pyrethroids", "Permethrin, sumithrin (d-phenothrin), deltamethrin", "Similar to natural pyrethrins"],
+      ["Organophosphates", "Malathion, naled", "Common organophosphates used by mosquito control professionals in the United States"]
+    ], "caption": "Source: CDC, Adulticides. CDC lists these as the types professionals use; check the label of any homeowner product to see what it contains." },
+    { "type": "p", "text": "The product label decides which product may be used on which site, at what rate and how often. EPA's page on misting systems says pesticide labels give instructions on proper handling, use and application rates, along with precautions to protect people and the environment, so this page names active ingredients for comparison and leaves the doses to the label." },
+    { "type": "h3", "text": "What about mosquito misting systems?" },
+    { "type": "p", "text": "[EPA](https://www.epa.gov/mosquitocontrol/mosquito-misting-systems) says outdoor misting systems have not yet been studied enough to document how well they control mosquitoes and have not been scientifically proven to control or prevent the spread of West Nile virus or other diseases. It describes them as spray nozzles mounted around the perimeter of a home that release a fine pesticide mist on a timer, by remote control or by a switch, with products containing pyrethrins and permethrin the most often used." },
+    { "type": "p", "text": "On risk, EPA says it does not expect risks of concern to humans when these insecticides are used in outdoor residential systems according to labeling specific to those systems, and adds that excessive use or accidents may pose risks. It also says that because pyrethrins and permethrin are toxic to all insects, they may kill beneficial insects such as honeybees, ladybugs and butterflies, and that permethrin is very highly toxic to fish." },
+    { "type": "p", "text": "UC IPM does not recommend systems that continuously release small amounts of insecticide. CDC's pages state that adulticides used according to product label instructions do not harm people, pets or the environment. EPA's misting page adds that chemical drift may affect other people, animals and the surrounding environment beyond your yard, so where a spray lands matters." },
+    { "type": "h3", "text": "How do you use adult sprays more safely?" },
+    { "type": "p", "text": "Read the label first, then apply these cautions from [CDC's adulticide page](https://www.cdc.gov/mosquitoes/mosquito-control/adulticides.html) and EPA's misting page." },
+    { "type": "ul", "items": [
+      "**Food.** CDC says not to apply outside directly to fruits and vegetables in a garden, or inside near food.",
+      "**Pollinators.** CDC says not to apply to plants in bloom or to plants that bees, butterflies and other pollinators visit.",
+      "**People and pets.** CDC says to keep people and pets out of the treated area until the product has dried, usually about an hour; the label may set its own wait.",
+      "**Water.** EPA says permethrin is very highly toxic to fish, and its misting guidance says to aim nozzles away from any water body, including swimming pools and fish ponds, so follow what the label says about water.",
+      "**Amounts.** CDC says not to apply more product than recommended or to reapply more often than the label states."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "The label sets the rules", "text": "Follow the product label for sites, rates and intervals, and do not improvise with a product on a plant, surface or pest it does not list. This page names active ingredients so you can compare options, not to give doses." },
+    { "type": "p", "text": "Dog owners should treat yard control as a supplement, not a substitute, for veterinary advice. A separate guide explains [how mosquitoes bite dogs and why heartworm prevention is a question for your veterinarian](/blog/do-mosquitoes-bite-dogs)." },
+
+    { "type": "h2", "text": "Where do adult mosquitoes rest, and does cutting back plants help?" },
+    { "type": "p", "text": "Adult mosquitoes rest in shady, humid spots, including dense vegetation, but none of the sources reviewed for this page measures how much cutting plants back lowers biting. [CDC's adulticide page](https://www.cdc.gov/mosquitoes/mosquito-control/adulticides.html) says mosquitoes rest under plants, in dense brush or tall grasses and on the undersides of leaves on trees and bushes, and also under the eaves of buildings, under decks and porches and in moist, shady areas. Its home-control page adds dark, humid places such as under patio furniture, under a carport or in a garage. Those are the places CDC points to for any adult treatment. Mowing tall grass and thinning dense brush removes the kind of cover CDC describes, so it is reasonable housekeeping, but treat it as support for water control, not a replacement for it." },
+    { "type": "p", "text": "Keeping adults out of the house is something the agencies recommend directly. CDC says to install or repair window and door screens and use them, keep doors closed, including garage doors, and use air conditioning when possible. EPA lists window and door screens among its structural barriers." },
+
+    { "type": "h2", "text": "Why are there still mosquitoes after I clean up my yard?" },
+    { "type": "p", "text": "Adults travel. UC IPM says some adult mosquitoes can fly several miles from where they develop, and that even successful control of larvae on your own property might not eliminate mosquitoes or biting. EPA's caution applies here too: control aimed at eggs and larvae is unlikely to be fully effective for species such as *Aedes aegypti* that breed in varied and scattered places, where it says eliminating or treating all or even most standing water can be nearly impossible." },
+    { "type": "p", "text": "Mosquito pressure also varies by region, and [Alaska's mosquito season](/blog/alaska-mosquitoes) shows how different the picture can be in another part of the country. Wherever you live, a recheck of overlooked spots such as plant saucers, downspouts and pool covers is worth doing before concluding the problem is next door." },
+
+    { "type": "h2", "text": "When should you call a professional or your local mosquito control program?" },
+    { "type": "p", "text": "Call your county or district mosquito control program when the breeding water is beyond your property, and hire a licensed pest control professional when you want an adult treatment done to the label by someone trained. UC IPM advises contacting your county mosquito and vector control agency for local management information. It notes that California alone has more than 60 mosquito and vector control districts, and also that some low-density foothill, mountain and desert areas of that state have no organized mosquito control, so coverage depends on where you live. [CDC](https://www.cdc.gov/mosquitoes/mosquito-control/adulticides.html) says adulticides may be applied by a mosquito control program, a licensed pest control professional or as a do-it-yourself application, and it points readers to the National Pest Management Association's tips on finding a professional." },
+    { "type": "p", "text": "[EPA](https://www.epa.gov/mosquitocontrol/success-mosquito-control-integrated-approach) describes an integrated approach in which decisions are based on surveillance and control combines removing mosquito habitats, structural barriers, larval control and adult control. A provider following that model should be willing to look for breeding sites, not only spray. Questions worth asking before you agree to a treatment:" },
+    { "type": "ul", "items": [
+      "**Product.** Which active ingredient and product will be used, and can I see the label?",
+      "**Placement.** How will the spray be kept off blooming plants, food plants and ponds?",
+      "**Breeding sites.** Will you also look for standing water on the property and treat or remove it?",
+      "**Re-entry.** How long should people and pets stay out? CDC says until the product has dried, usually about an hour, and the label may set a longer wait."
+    ] },
+
+    { "type": "h2", "text": "What does not work to get rid of mosquitoes?" },
+    { "type": "p", "text": "According to [UC IPM](https://ipm.ucanr.edu/home-and-landscape/mosquitoes/), bug zappers, ultrasonic emitters, electronic repellers and several other popular products do not work against mosquitoes. Two more options, carbon dioxide traps and misting systems, come with caveats:" },
+    { "type": "ul", "items": [
+      "**Electric bug zappers.** UC IPM calls them counterproductive because many of the insects they kill are the ones that prey on mosquitoes. [Why zappers and lights catch so few mosquitoes](/blog/are-mosquitoes-attracted-to-light) is covered in its own guide.",
+      "**Ultrasonic emitters, electronic repellers, repellent wristbands, incense coils, aromatic plants, vitamin B1, and brewer's yeast and garlic mixtures.** UC IPM calls all of these ineffective. It treats mosquito coils that contain the insecticide allethrin separately, saying they work best when there is little air movement and are for outdoor use only. [What does protect you outdoors](/blog/how-to-keep-mosquitoes-away) is a repellent and clothing question, not a yard-treatment one.",
+      "**Carbon dioxide traps: limited.** UC IPM says a trap that releases carbon dioxide to draw host-seeking mosquitoes captures only a small proportion of the insects it attracts, and that a single trap might not be effective enough because adult mosquitoes often disperse across a broad area.",
+      "**Misting systems: not proven.** As covered above, EPA says they have not yet been studied enough to document their effectiveness, and UC IPM does not recommend them."
+    ] },
+
+    { "type": "h2", "text": "What does a simple weekly routine look like?" },
+    { "type": "p", "text": "A short pass through the yard each week, plus a few one-time jobs, covers most of what the sources recommend:" },
+    { "type": "ol", "items": [
+      "Walk the yard after rain and note every container, saucer, tire, pool cover and gutter that holds standing water.",
+      "Once a week, empty and scrub, turn over, cover or throw out every item that holds water, and change the water in birdbaths, fountains and pet dishes.",
+      "Cover rain barrels and other water storage tightly, or close openings with window screen or sealant, and keep barrel filters clear of debris.",
+      "Clean debris out of rain gutters and downspouts once a year, and keep water off pool covers.",
+      "Treat water that cannot be dumped or covered and will not be used for drinking with a larvicide such as Bti, following the label.",
+      "Check the shady spots where CDC says adults rest, such as under patio furniture, decks and porches and in dense brush or tall grass, since CDC says homeowners can use adulticides where mosquitoes rest.",
+      "If you use an adult spray, choose a product labeled for the site, keep it off food plants and flowering plants, and follow the label for people and pets.",
+      "Find out whether your county has a mosquito control agency, and contact it about local programs and about breeding water beyond your property."
+    ] },
+    { "type": "p", "text": "Yard work lowers the number of mosquitoes you breed, not the ones that arrive from elsewhere, so pair it with protection for yourself. [How to keep mosquitoes away from you while you sit outside](/blog/how-to-keep-mosquitoes-away) covers that side. For a look at the kinds of mosquito control equipment on the market, the [mosquito gear guides](/pest-product-guides/mosquito-gear) are a starting point." }
+  ],
+  "howTo": {
+    "name": "How to get rid of mosquitoes in your yard",
+    "steps": [
+      { "name": "Find the standing water", "text": "Walk the yard after rain and note every bucket, saucer, tire, pool cover, gutter and toy that holds standing water." },
+      { "name": "Empty and scrub weekly", "text": "Once a week, empty and scrub, turn over, cover or throw out every item that holds water, and change the water in birdbaths, fountains and pet dishes." },
+      { "name": "Cover water storage", "text": "Cover rain barrels and other water storage tightly, or close openings with window screen or sealant, and keep barrel filters clear of debris." },
+      { "name": "Clear gutters and pool covers", "text": "Clean debris out of rain gutters and downspouts once a year and keep standing water off pool covers while maintaining pool water quality at all times." },
+      { "name": "Treat water you cannot empty", "text": "Treat water that cannot be dumped or covered, and that will not be used for drinking, with a larvicide such as Bti, following the label exactly." },
+      { "name": "Know the resting spots", "text": "Check the shady spots where CDC says adult mosquitoes rest, such as under patio furniture, decks and porches and in dense brush or tall grass." },
+      { "name": "Use adult sprays carefully, if at all", "text": "If you use an adult mosquito spray, choose a product labeled for the site, keep it off food and flowering plants, and follow the label for people and pets." },
+      { "name": "Ask your local program", "text": "Find out whether your county has a mosquito control agency, and contact it about local treatment programs and about breeding water on neighboring or public land." }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How long does it take to get rid of mosquitoes in a yard?",
+      "answer": "Removing standing water stops new mosquitoes from developing in that water, but it does not affect adults that have already emerged. UC IPM says that in summer the egg-to-adult cycle can take a week or less, so a steady weekly routine is what lowers numbers over the following weeks. Adults can also arrive from beyond your property, since UC IPM says some fly several miles from where they develop, so a yard may improve without ever being fully free of mosquitoes."
+    },
+    {
+      "question": "Do mosquito dunks really work?",
+      "answer": "Dunks contain Bti, a soil bacterium that CDC says has been used for mosquito control for more than 30 years. UC IPM describes Bti as highly selective, killing only mosquitoes and the larvae of a few related flies, and says dunks last about 30 days in water. They act on larvae in the water where they are placed, and CDC says Bti does not control biting female mosquitoes, so they work best alongside emptying containers. Follow the label for how much to use and how often."
+    },
+    {
+      "question": "Is mosquito spray safe for pets and bees?",
+      "answer": "CDC states that adulticides used according to product label instructions do not harm people, pets or the environment, and it says to keep people and pets out of the treated area until the product has dried, usually about an hour. EPA, in its guidance on misting systems, adds that pyrethrins and permethrin are toxic to all insects, so they may kill honeybees, ladybugs and butterflies, and that permethrin is very highly toxic to fish. CDC says not to apply adulticides to plants in bloom or to plants that pollinators visit."
+    },
+    {
+      "question": "Can I get rid of mosquitoes without pesticides?",
+      "answer": "Much of the work needs no pesticide. CDC's weekly routine of emptying and scrubbing, turning over, covering or discarding water-holding items removes breeding sites, and CDC also recommends window and door screens and air conditioning when possible. UC IPM suggests stocking mosquito-eating fish in a pond that does not connect with natural waters, and it warns against releasing mosquitofish into streams, ponds and lakes in California, where they are not native. Water that cannot be emptied is where a larvicide such as Bti comes in."
+    },
+    {
+      "question": "Why do I have mosquitoes when I have no standing water?",
+      "answer": "Mosquitoes can develop in places you cannot see or do not control. UC IPM says any small amount of standing water, perhaps even a bottle cap's worth, can support larvae, and that some adults fly several miles from where they develop, so the source may be a neighbor's property or other water well beyond your fence. EPA notes that larval control is unlikely to be fully effective for species such as Aedes aegypti that breed in varied and scattered places. Check overlooked spots, then ask your county mosquito control agency what it knows about your area."
+    },
+    {
+      "question": "How do I keep mosquitoes out of the house?",
+      "answer": "CDC recommends installing or repairing window and door screens, keeping doors closed, including garage doors, and using air conditioning when possible. It also says to empty and scrub, turn over, cover or throw out water-holding items indoors once a week, the same routine used outdoors. If mosquitoes keep appearing inside, look for hidden water such as plant saucers and vases."
+    }
+  ],
+  "sources": [
+    { "title": "Mosquito Control at Home", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/mosquito-control/mosquito-control-at-home.html" },
+    { "title": "Larvicides", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/mosquito-control/larvicides.html" },
+    { "title": "Adulticides", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/mosquito-control/adulticides.html" },
+    { "title": "Success in Mosquito Control: An Integrated Approach", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/mosquitocontrol/success-mosquito-control-integrated-approach" },
+    { "title": "Mosquito Misting Systems", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/mosquitocontrol/mosquito-misting-systems" },
+    { "title": "Mosquitoes", "publisher": "UC Statewide IPM Program, University of California", "url": "https://ipm.ucanr.edu/home-and-landscape/mosquitoes/" }
+  ],
+  "disclaimer": "pesticide"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "bed-bugs-on-mattress",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "2406d88e82b3ce455f4751954a4d877e90d71ad1874a4a48fa884dfb7089d1cf",
+ "claimsChecked": 84,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-08"
+}

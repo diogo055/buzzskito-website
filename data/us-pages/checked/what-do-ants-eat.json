@@ -1,0 +1,10 @@
+{
+ "id": "what-do-ants-eat",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "e409330006ea2d5b6e26d2436804b823f59a713bdaa4d7fc2711355305caa776",
+ "claimsChecked": 64,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-08"
+}

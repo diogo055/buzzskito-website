@@ -1,0 +1,114 @@
+{
+  "slug": "how-long-do-ants-live",
+  "kind": "spoke",
+  "cluster": "ants",
+  "keyword": "how long do ants live",
+  "alsoTargets": [],
+  "metaTitle": "How Long Do Ants Live? Weeks to 28 Years",
+  "metaDescription": "Ant workers live weeks to years, queens up to 28 years, and males die soon after mating. See species figures, egg-to-adult times and colony lifespans.",
+  "h1": "How Long Do Ants Live? Workers, Queens, Males and Whole Colonies",
+  "dek": "How long workers, queens and males live, how fast an ant grows from egg to adult, how long a colony lasts, and what is actually known about ants without food or water.",
+  "breadcrumb": "How Long Ants Live",
+  "excerpt": "Ant workers live weeks to years, queens as long as 28 years, and males die soon after mating. A species table, egg-to-adult times and colony lifespans.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Worker ants usually live from a few weeks to a few years, queens live from about six months to decades, and males die soon after mating.** [University of Missouri Extension](https://extension.missouri.edu/publications/g7392) puts worker lifespans at about nine to 10 weeks in some species and more than six years in others. The longest lifespan reported for an ant queen is 28 years, in the black garden ant.",
+    "bullets": [
+      "Red imported fire ant workers live about 30 to 60 days if small, 60 to 90 if medium and 90 to 180 if large, according to the University of Florida.",
+      "Carpenter ant workers can live 4 to 5 years and a queen as long as 15 years, according to Rutgers.",
+      "Black garden ant queens have the longest lifespan reported in eusocial insects, a maximum of 28 years, according to a 2016 paper in Experimental Gerontology.",
+      "Egg to adult takes 22 to 38 days in red imported fire ants and about two months in carpenter ants.",
+      "Red harvester ant colonies at a long-term study site near Rodeo, New Mexico, survive about 25 years, with no evidence of falling fertility across a 25 to 30 year colony lifespan.",
+      "Most of the 21 colonies of one small ant species survived eight months without food in a laboratory study."
+    ]
+  },
+  "facts": {
+    "title": "Ant lifespans at a glance",
+    "rows": [
+      ["Worker lifespan", "About 9 to 10 weeks in some species, more than 6 years in others"],
+      ["Queen lifespan", "About 6 months to more than 6 years; reported maximum 28 years"],
+      ["Male lifespan", "Brief; males die soon after mating"],
+      ["Fire ant, egg to adult", "22 to 38 days"],
+      ["Carpenter ant, egg to adult", "About 2 months"],
+      ["Carpenter ant colony to maturity", "3 to 6 years"],
+      ["Red harvester ant colony", "About 25 to 30 years"],
+      ["Colony without food", "8 months survived by most colonies (one small species, in a lab)"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "How long do ants live?" },
+    { "type": "p", "text": "It depends on the caste: workers live from a few weeks to a few years, queens from about six months to decades, and males only until shortly after mating. [University of Missouri Extension](https://extension.missouri.edu/publications/g7392) gives the spread across species as about nine to 10 weeks for workers in some species and more than six years in others, and about six months for queens in some species and more than six years in others. The same publication describes males as appearing for a brief period each year and dying soon after mating." },
+    { "type": "p", "text": "Hard numbers exist for only a few species. The authors of a [2016 study of black garden ants](https://www.sciencedirect.com/science/article/pii/S0531556516303345) call information on ant worker lifespan generally scarce, so the table lists only figures that trace to a university extension publication or a peer-reviewed paper. For how a colony is organized around these three castes, see the [complete guide to ants in US homes](/learn/ants)." },
+    { "type": "table", "head": ["Ant", "Workers", "Queens", "Source"], "rows": [
+      ["Across ant species", "About 9 to 10 weeks in some species; more than 6 years in others", "About 6 months in some species; more than 6 years in others", "University of Missouri Extension"],
+      ["Red imported fire ant", "Small workers 30 to 60 days, medium 60 to 90 days, large 90 to 180 days", "2 to 6 years", "University of Florida IFAS"],
+      ["Carpenter ants (*Camponotus*)", "4 to 5 years", "As long as 15 years", "Rutgers"],
+      ["Black garden ant (*Lasius niger*)", "1 to 2 years on average; lab workers averaged about 310 to 430 days", "Up to 28 years", "Kramer et al., 2016"]
+    ], "caption": "Fire ant and carpenter ant figures are the ranges the publications state. The black garden ant figures come from a study of laboratory colonies founded by queens collected in Germany; the 1 to 2 year average is that paper's citation of earlier work." },
+    { "type": "media", "needed": "Simple horizontal bar chart on a logarithmic time scale comparing worker and queen lifespans for fire ants, carpenter ants and black garden ants, with the source printed under each bar" },
+
+    { "type": "h2", "text": "How long do worker ants live?" },
+    { "type": "p", "text": "Workers live anywhere from about nine to 10 weeks to more than six years depending on the species, by the Missouri figures, and workers of the same species can have very different life expectancies. Red imported fire ants show the size effect clearly: [the University of Florida's fire ant profile](https://ask.ifas.ufl.edu/publication/IN352) lists 30 to 60 days for minor workers, 60 to 90 days for median workers and 90 to 180 days for major workers. At the long end, [Rutgers' fact sheet on carpenter ants](https://njaes.rutgers.edu/FS1101/) says each worker can live 4 to 5 years." },
+    { "type": "p", "text": "Size does not predict lifespan the same way in every species. In the black garden ant study, workers from older, larger colonies lived shorter lives than workers from young colonies. Workers from source colonies about 8 months old, which held roughly 18 workers, averaged about 434 days and the longest-lived reached 1,129 days. Workers from colonies about 20 months old, which held roughly 250 workers, averaged about 309 days and the longest-lived reached 1,094 days. The ants were kept at about 72°F (22°C) with food supplied, so the numbers show what workers can do under steady laboratory conditions, not what they do outdoors." },
+    { "type": "p", "text": "The authors read the pattern as a colony strategy: larger colonies can afford a redundant workforce of easily replaceable individuals. They doubt that body size itself is the cause and suspect physiological differences instead. They also note that in most social insect species workers move from safe tasks inside the nest to risky ones such as foraging later in life, and that the switch comes with higher mortality, so what a worker does matters along with how old it is." },
+
+    { "type": "h2", "text": "How long do queen ants live?" },
+    { "type": "p", "text": "Queens generally outlive workers: years in the species listed here and decades in the record holder. The Missouri publication gives a range of about six months to more than six years. The University of Florida lists 2 to 6 years for red imported fire ant queens, and Rutgers says a carpenter ant queen can live as long as 15 years." },
+    { "type": "p", "text": "The longest figure comes from the black garden ant. The 2016 paper cites a maximum queen lifespan of 28 years for the species, which it calls the longest reported in eusocial insects, and its abstract describes queen lifespans of 20 years and more as extraordinary next to short and variable worker lifespans. The abstract also cites a comparative study finding that the gap between queen and worker lifespans is wider in eusocial species with larger average colonies. Long queen life is not universal, though: the low end of the Missouri range is only six months." },
+
+    { "type": "h2", "text": "How long do male ants live?" },
+    { "type": "p", "text": "Male ants live briefly: they appear for a short period each year, mate and die soon afterward. Missouri Extension says winged males function only in mating, and the University of Florida's fire ant profile reports that males die soon after mating with females. Neither publication gives a number of days that applies across species, and soon is the most precise word the extension sources use." },
+    { "type": "p", "text": "The queens that mated are the ones that carry on. According to the University of Florida, a newly mated fire ant queen snaps off her wings, picks a spot that is often under rocks or leaves or in a small crack, digs a chamber and begins laying eggs within 24 hours. The winged swarms people notice outdoors or indoors are these reproductives on a mating flight, which [the guide to flying ants](/blog/flying-ants) explains, including what an indoor swarm means." },
+
+    { "type": "h2", "text": "How long does it take an ant to grow from egg to adult?" },
+    { "type": "p", "text": "Egg to adult takes roughly three to five weeks in red imported fire ants and about two months in carpenter ants, with larva and pupa stages in between. The University of Florida gives 22 to 38 days for a red imported fire ant, and Rutgers says it takes about two months for carpenter ant eggs to develop into adults. Missouri Extension names the immature stages as eggs, larvae and pupae." },
+    { "type": "p", "text": "A new colony starts slowly. The University of Florida reports that a newly mated fire ant queen lays 10 to 15 eggs within 24 hours of mating and 75 to 125 more before the first batch hatches. A mature fire ant queen can lay as many as 1,500 eggs a day, and the university says a typical mature colony holds about 80,000 workers and may hold as many as 240,000." },
+    { "type": "p", "text": "Founding a colony takes far longer than raising one ant. In the black garden ant study, laboratory colonies headed by a single queen held about 18 workers after roughly 8 months and about 250 workers after roughly 20 months, with food supplied. The paper notes that queens of species that found colonies this way do not forage, and raise their first workers entirely from their own body reserves." },
+    { "type": "media", "needed": "Labeled diagram of ant development from egg to larva to pupa to adult worker, with the fire ant timing of 22 to 38 days marked along the bottom" },
+
+    { "type": "h2", "text": "How long does an ant colony last?" },
+    { "type": "p", "text": "A colony can last decades, long after every worker in it has been replaced. The best measurement comes from red harvester ants (*Pogonomyrmex barbatus*) at a study site near Rodeo, New Mexico. [A long-term study by Stanford and Colgate researchers](https://web.stanford.edu/~dmgordon/old2/IngramGordon2013.pdf) has followed about 300 colonies a year since 1985 so that every colony's age is known, and it reports, citing earlier work at the same site, that a colony founded by one queen survives about 25 years." },
+    { "type": "p", "text": "Those colonies begin sending out reproductives at 4 to 5 years old, and the study found no evidence that they become less fertile with age: output was about the same across a 25 to 30 year colony lifespan. Colonies sampled in 2010 ranged from 1 to 28 years old." },
+    { "type": "p", "text": "Other species run on different clocks. Rutgers says a new carpenter ant colony needs 3 to 6 years to mature and to produce 200 to 400 winged ants a year, and that a colony holds one queen and several thousand workers. Fire ants vary in queen number: the University of Florida says newly mated queens often cluster and cooperate to start a colony, but that as it grows all but one queen are killed, except in multiple-queen colonies. Missouri Extension describes a third route, budding, in which groups of workers take larvae from their own nest and move elsewhere to raise them as new queens. [The guide to ghost ants](/blog/ghost-ants) looks at how one small household species builds and moves its colonies." },
+    { "type": "p", "text": "Army ants organize colony life differently again, which [the army ants guide](/blog/army-ants) describes. For the worldwide tally that all of these colonies add up to, see [how many ants there are in the world](/blog/how-many-ants-are-in-the-world)." },
+
+    { "type": "h2", "text": "How long can ants live without food or water?" },
+    { "type": "p", "text": "The best-documented answer is at least eight months for a colony of one small species: most of the 21 *Temnothorax rugatulus* colonies in [a 2005 starvation experiment](https://pmc.ncbi.nlm.nih.gov/articles/PMC2408869/) survived the full eight months of total starvation. Brood began to decline first, after about two months, and suffered the highest mortality. Worker losses came next, and queen mortality started last and stayed lowest. The colonies also shared food mouth to mouth more often, and their bursts of activity became more frequent but much shorter, so overall activity fell." },
+    { "type": "p", "text": "That is a laboratory result for one small species, not a benchmark for house ants. No source reviewed for this page gives a trustworthy number of days for a single household ant without food or without water, so be cautious about any exact figure you see online. The one controlled study found brood, workers and queens failing at different times, which is a reason a single number is unlikely to fit." },
+    { "type": "p", "text": "The practical lesson for a home is limited. If a colony of a small species can wait out months without food, cleaning up crumbs and sticky spills is unlikely to clear an infestation quickly on its own, even though it removes what ants came for. [What ants eat](/blog/what-do-ants-eat) explains what draws different species, and [the guide to getting rid of ants in the house](/blog/how-to-get-rid-of-ants-in-the-house) covers the steps that deal with a colony itself." },
+
+    { "type": "h2", "text": "What does ant lifespan mean for ants in your house?" },
+    { "type": "p", "text": "It means the ants you see are the replaceable part of the colony. Workers last weeks to years, a queen can keep a colony supplied for years or decades, and the black garden ant paper's authors describe the workers of larger colonies as a redundant workforce of easily replaceable individuals. Missouri Extension makes the practical point: spraying the ants you see may kill many workers, but most workers stay in the nest with the queen, they replace the ones that were killed, and the queen lays more eggs unless the nest itself is found and treated." },
+    { "type": "p", "text": "That is the reasoning behind baiting. The Missouri publication says bait is passed around to other workers, larvae and queens, so it reaches ants that never leave the nest. [How borax bait works and where it fails](/blog/borax-for-ants) looks at one common approach, and [why whole colonies are baited rather than sprayed](/blog/how-to-get-rid-of-ants-canada) goes through the reasoning in more depth. Carpenter ants add a wrinkle: Rutgers notes that as a colony grows it sets up satellite colonies in nearby trees and structures, so the nest you find may not be the only one. [A guide to finding carpenter ant nests](/blog/carpenter-ants-canada) shows how to look for them. If the ants you are seeing are red and stinging, [the red ants guide](/blog/red-ants) helps work out whether fire ants are involved." }
+  ],
+  "faqs": [
+    {
+      "question": "How long do worker ants live after the queen dies?",
+      "answer": "No source reviewed for this page gives a general figure, but one laboratory study shows that workers can last many months without a queen. In the 2016 black garden ant study, groups of workers were kept with no queen, supplied with eggs and larvae from their home colonies, and averaged about 310 to 430 days. Those workers were fed and kept at a steady temperature, so the figure shows what is possible in a laboratory and is not a measurement of a wild colony that has lost its queen."
+    },
+    {
+      "question": "Do ants die of old age?",
+      "answer": "Yes, at least in the laboratory. In the 2016 black garden ant study, the death rate of workers rose with age, and workers from both colony stages showed high, similar rates of aging after about 400 days. The paper did not measure what kills ants outdoors, though it notes that in most social insects workers who take on risky jobs such as foraging face higher mortality. Queens are the exception to short lives, with 2 to 6 years reported for fire ants and up to 15 for carpenter ants."
+    },
+    {
+      "question": "How long do flying ants live?",
+      "answer": "Winged males die soon after mating, according to University of Missouri Extension and the University of Florida's fire ant profile, and neither gives a number of days. A mated female sheds her wings, finds a protected spot and starts a colony, and fire ant queens begin laying eggs within 24 hours. If she succeeds she can live for years: 2 to 6 years for fire ants and as long as 15 years for carpenter ants, per the University of Florida and Rutgers."
+    },
+    {
+      "question": "How long until a new ant colony produces winged ants?",
+      "answer": "It takes years. Rutgers says a new carpenter ant colony needs 3 to 6 years to mature and produce 200 to 400 winged ants a year. In red harvester ants in the southwestern US, a long-term study found that colonies begin producing offspring colonies at 4 to 5 years old. The sources reviewed give no timeline for other household species, so expect the wait to vary by species."
+    },
+    {
+      "question": "Do bigger ants live longer?",
+      "answer": "Not as a rule. In red imported fire ants, the University of Florida lists longer lives for larger workers, 30 to 60 days for minor workers against 90 to 180 days for major workers. The 2016 black garden ant study found the opposite pattern, with the larger workers born in older colonies living shorter lives than the smaller workers born in young colonies, and its authors doubt that body size itself was the cause. The paper also notes that the link between size and lifespan may be reversed in some other species."
+    }
+  ],
+  "sources": [
+    { "title": "Ants", "publisher": "University of Missouri Extension (G7392)", "url": "https://extension.missouri.edu/publications/g7392" },
+    { "title": "EENY-195/IN352: Red Imported Fire Ant, Solenopsis invicta Buren (Insecta: Hymenoptera: Formicidae: Myrmicinae)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN352" },
+    { "title": "FS1101: Carpenter Ants and Their Control", "publisher": "Rutgers New Jersey Agricultural Experiment Station", "url": "https://njaes.rutgers.edu/FS1101/" },
+    { "title": "Worker lifespan is an adaptive trait during colony establishment in the long-lived ant Lasius niger", "publisher": "Experimental Gerontology (Kramer, Schaible and Scheuerlein, 2016)", "url": "https://www.sciencedirect.com/science/article/pii/S0531556516303345" },
+    { "title": "Colony life history and lifetime reproductive success of red harvester ant colonies", "publisher": "Journal of Animal Ecology (Ingram, Pilko, Heer and Gordon, 2013), Stanford University copy", "url": "https://web.stanford.edu/~dmgordon/old2/IngramGordon2013.pdf" },
+    { "title": "Extraordinary starvation resistance in Temnothorax rugatulus (Hymenoptera, Formicidae) colonies: Demography and adaptive behavior", "publisher": "Insectes Sociaux (Rueppell and Kirkman, 2005), via PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2408869/" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+ "id": "where-do-cockroaches-come-from",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "a6bbee467e95470d907448b4c9f910592256ae9989588a72b79dd17c615bf5ac",
+ "claimsChecked": 74,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 8,
+ "checkedOn": "2026-10-08"
+}

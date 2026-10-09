@@ -1,0 +1,186 @@
+{
+  "slug": "what-kills-ticks",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "what kills ticks",
+  "alsoTargets": [],
+  "metaTitle": "What Kills Ticks? Dry Heat, Not the Wash Cycle",
+  "metaDescription": "A dryer on high heat kills ticks on dry clothes in 10 minutes; a wash cycle usually does not. What kills ticks on gear, skin, pets and in the yard.",
+  "h1": "What Kills Ticks on Clothes, Gear, Skin and in the Yard",
+  "dek": "What kills a tick depends on where it is. Here are the dryer times, permethrin treatment, removal steps and yard options that CDC guidance and field research support, and the popular fixes that fail.",
+  "breadcrumb": "What Kills Ticks",
+  "excerpt": "Dry heat, permethrin on fabric and labeled yard acaricides kill ticks. A wash cycle, winter cold and smothering mostly do not. The numbers, with sources.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Dry heat, permethrin on fabric and acaricides labeled for yards kill ticks; water, cold and smothering mostly do not.** [CDC](https://www.cdc.gov/ticks/prevention/index.html) advises tumbling dry clothes on high heat for 10 minutes and treating clothing and gear with 0.5% permethrin. A tick attached to skin should be pulled out with fine-tipped tweezers, then dropped in alcohol, sealed in a container, wrapped in tape or flushed.",
+    "bullets": [
+      "In a 2016 laundry study, every blacklegged tick died within 4 minutes in a dryer on high heat when the load went in dry, but ticks that had been washed first took 50 minutes.",
+      "All ticks survived cold washes and 94% survived warm washes; only wash water of 130°F or hotter killed them all.",
+      "Products with 0.5% permethrin go on clothing, boots and camping gear, never on skin, and CDC says the treatment stays protective through several washings.",
+      "CDC says not to use petroleum jelly, heat or nail polish on an attached tick, because that may force infected fluid into the skin.",
+      "The Connecticut Agricultural Experiment Station reports 85 to 90% or better control from a single application of most ornamental and turf insecticides.",
+      "In a four-year trial in 24 New York neighborhoods, rodent bait boxes cut host-seeking nymphs in forest habitat by 53%, with no significant drop in tick-borne disease in people."
+    ]
+  },
+  "facts": {
+    "title": "What kills ticks at a glance",
+    "rows": [
+      ["Dry clothes, dryer on high", "10 minutes (CDC); all ticks dead in 4 minutes in a lab study"],
+      ["Washed clothes, dryer on high", "50 minutes to kill all ticks in the same study"],
+      ["Wash water that killed every tick", "130°F (54°C) or hotter"],
+      ["Cold wash, 59 to 80°F", "All ticks survived"],
+      ["Clothing and gear treatment", "0.5% permethrin, on fabric only"],
+      ["Attached tick", "Pull out with fine-tipped tweezers; no petroleum jelly, heat or nail polish"],
+      ["Live tick after removal", "Alcohol, sealed container, tight tape or a flush"],
+      ["Yard spray timing in the Northeast", "Once in May or early June for nymphs (Connecticut handbook)"],
+      ["One application of most ornamental and turf insecticides", "85 to 90% or better control (Connecticut handbook)"],
+      ["Shower after coming indoors", "Within 2 hours"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What kills ticks, and what does not?" },
+    { "type": "p", "text": "Dry heat, permethrin on fabric and acaricides labeled for yard use kill ticks reliably, while soaking, cold weather and smothering mostly do not. What works depends on where the tick is, so the table sorts the options by location and the sections below give the numbers behind each one. If you are not sure the bug is a tick at all, compare it with [what ticks look like at each life stage](/blog/what-do-ticks-look-like) before you do anything else." },
+    { "type": "table", "head": ["Where the tick is", "What kills it", "What to skip"], "rows": [
+      ["On clothes you just wore", "A dryer on high heat: 10 minutes for dry clothes, longer if they are damp", "Cold or warm wash cycles"],
+      ["On boots, packs and tents", "A 0.5% permethrin product applied to the fabric ahead of time", "Putting permethrin on skin"],
+      ["Attached to your skin", "Nothing applied to the tick; pull it out with fine-tipped tweezers", "Petroleum jelly, heat, nail polish"],
+      ["Pulled off and still alive", "Alcohol, or disposal in a sealed container, tightly wrapped tape or the toilet", "Crushing it with your fingers"],
+      ["In the yard", "An acaricide labeled for area-wide tick control, applied along the woods edge", "Counting on winter, chickens or untested essential-oil sprays"]
+    ], "caption": "Each row is sourced in the section that covers it." },
+    { "type": "p", "text": "[The complete homeowner's guide to tick control](/blog/ultimate-tick-control-guide-ontario) shows how personal protection, pet care and yard work fit together across a season." },
+
+    { "type": "h2", "text": "What kills ticks on clothing?" },
+    { "type": "p", "text": "A clothes dryer on high heat kills ticks on clothing, and it works fastest when the clothes go in dry. [CDC's tick bite prevention guidance](https://www.cdc.gov/ticks/prevention/index.html) says to tumble dry clothes on high heat for 10 minutes to kill ticks on dry clothing after you come indoors, and to allow additional time if the clothes are damp. If the clothes need washing first, CDC recommends hot water, because cold and medium temperature water will not kill ticks." },
+    { "type": "p", "text": "The detail behind that advice comes from [a 2016 laundry study led by CDC researchers](https://pubmed.ncbi.nlm.nih.gov/27156138/), published in the journal Ticks and Tick-borne Diseases. The team sealed nymphal and adult blacklegged ticks (*Ixodes scapularis*) in muslin bags, five to a bag, and ran them through residential washers and dryers, with six cotton towels in each dryer load. At the time, the standard recommendation was a full hour in the dryer on high heat, which rested on a single earlier study." },
+    { "type": "table", "head": ["Laundry step", "Temperature", "What happened to the ticks"], "rows": [
+      ["Cold wash", "59 to 80°F (15 to 27°C)", "All survived"],
+      ["Warm wash", "80 to 115°F (27 to 46°C)", "94% survived"],
+      ["Hot wash that stayed cooler than 130°F", "Under 130°F (54°C)", "50% survived"],
+      ["Hot wash that reached 130°F", "130°F (54°C) or hotter", "All nymphs and adults killed"],
+      ["Dryer on high, clothes dry", "129 to 185°F (54 to 85°C)", "All dead in 4 minutes (95% confidence limit, 6 minutes)"],
+      ["Dryer on high, after a wash", "129 to 185°F (54 to 85°C)", "50 minutes to kill all ticks (95% confidence limit, 55 minutes)"]
+    ], "caption": "Results reported in the abstract of Nelson and colleagues, Ticks and Tick-borne Diseases, 2016." },
+    { "type": "p", "text": "Two things follow. Put field clothes in the dryer first and wash them afterward, because a dry load killed every tick in 4 minutes while ticks that had just been through a wash took 50 minutes on high heat. The study's authors recommend a minimum of 6 minutes on high for dry clothing, and CDC's public guidance is the slightly longer 10 minutes. A cycle labeled hot is also no guarantee, since half the ticks survived hot washes in which the water stayed below 130°F. A separate guide goes deeper on [whether ticks die in the washing machine](/blog/do-ticks-die-in-the-washing-machine)." },
+    { "type": "media", "needed": "Photo of dry hiking pants, socks and a shirt going straight into a clothes dryer, with the dial set to high heat and the timer set to 10 minutes" },
+    { "type": "p", "text": "Heat on clothing is one part of the routine after time outdoors. CDC notes that ticks can ride into the home on clothing and pets and attach to a person later, so it advises examining pets, coats and daypacks as well. It also says showering within two hours of coming indoors has been shown to reduce the risk of Lyme disease and may wash off unattached ticks. Follow the shower with [a full-body tick check](/blog/how-to-do-a-tick-check). If what you find on your socks is a cluster of dozens of tiny larval ticks, see the guide to [seed ticks and how to remove many at once](/blog/seed-ticks)." },
+
+    { "type": "h2", "text": "What kills ticks on boots, packs and camping gear?" },
+    { "type": "p", "text": "Permethrin applied to the fabric kills ticks that crawl across it. CDC advises treating clothing and gear with products containing 0.5% permethrin, names boots, clothing and camping gear as items that can be treated, and says the treatment remains protective through several washings. Clothing and gear sold already treated with permethrin are an alternative. The [Tick Management Handbook from the Connecticut Agricultural Experiment Station](https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf) explains that permethrin is a synthetic pyrethroid insecticide, not a traditional repellent, and that it works primarily by killing ticks on contact with the treated fabric, with some repellency as well." },
+    { "type": "p", "text": "The handbook's safety points for spray-on permethrin are below. The product label governs wherever it differs." },
+    { "type": "ul", "items": [
+      "**Fabric only.** Apply it to clothing or other fabrics such as tents and mosquito netting, never to skin, and wash with soap and water right away if any gets on you.",
+      "**Treat before you dress.** Do not spray clothing while it is being worn.",
+      "**Outdoors, out of the wind.** Apply in a well-ventilated outdoor spot, and moisten the fabric lightly without soaking it.",
+      "**Let it dry.** The handbook allows 2 hours of drying time, or 4 hours in humid conditions, before the clothing is worn.",
+      "**Re-treat by the label.** The handbook says not to treat clothing more than once every two weeks and to launder it at least once before treating it again; the label on your product has the final word."
+    ] },
+    { "type": "p", "text": "Permethrin on fabric and repellent on skin do different jobs, and the handbook notes that the two can be used together. CDC's prevention page lists the repellent ingredients registered with the Environmental Protection Agency (EPA), including DEET, picaridin and IR3535. Those are meant to keep ticks off you, not to kill them." },
+
+    { "type": "h2", "text": "What kills a tick that is attached to your skin?" },
+    { "type": "p", "text": "Nothing you put on it will kill it safely; the right move is to pull the tick out and kill it afterward. [CDC's instructions for after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) are to grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers and pull it away from the skin with steady, even pressure, without twisting or jerking. If fine-tipped tweezers are not at hand, CDC says regular tweezers or your fingers will do. Do not wait for a better tool: the Connecticut handbook states that prompt removal of an attached tick reduces the chance of infection." },
+    { "type": "p", "text": "Do not try to smother, burn or poison an attached tick. CDC says not to use petroleum jelly, heat, nail polish or other substances to make the tick detach, because doing so may agitate the tick and force infected fluid into the skin. The Connecticut handbook gives the same warning about petroleum jelly, the heat of a match, and gasoline or other chemicals: they are not effective and may increase the risk of transmitting a pathogen. A step-by-step version is in [how to remove a tick safely](/blog/how-to-remove-tick-safely)." },
+    { "type": "h3", "text": "How do you kill a tick after you pull it off?" },
+    { "type": "p", "text": "Drop it in alcohol, or dispose of it so that it cannot crawl back. CDC lists four ways to get rid of a live tick: place it in a sealed container, wrap it tightly in tape, flush it down the toilet, or put it in alcohol. It also says not to crush the tick with your fingers. Afterward, clean the bite area and your hands thoroughly with soap and water, rubbing alcohol or hand sanitizer. If the mouthparts break off and stay in the skin, CDC says the body will push them out as the skin heals. You can lift them out with tweezers if they come easily, and otherwise leave them alone." },
+    { "type": "h3", "text": "When should you contact a healthcare provider?" },
+    { "type": "p", "text": "See a doctor if you develop a rash or a fever within several weeks of removing a tick, which is the threshold CDC gives, and mention the bite and roughly when and where it happened. CDC says that testing the tick itself is in general not recommended, noting that a positive result does not necessarily mean you were infected. Only some species transmit a given disease, so it helps to know [which ticks carry Lyme disease and how to recognize them](/blog/ticks-that-carry-lyme-disease)." },
+
+    { "type": "h2", "text": "What kills ticks on dogs and cats?" },
+    { "type": "p", "text": "A tick product chosen with a veterinarian kills ticks on a pet; the clothing and yard products on this page are not made for animals. The Connecticut handbook says to consult a veterinarian, to follow label directions and to avoid combining products without veterinary advice, because different products can contain the same or similar ingredients. It also warns that permethrin spot-on products made for dogs are not for use on cats. For the details, see [what kills ticks on dogs fastest, and what the labels actually claim](/blog/what-kills-ticks-on-dogs-instantly) and the broader guide to [finding and removing ticks on dogs](/blog/ticks-on-dogs)." },
+
+    { "type": "h2", "text": "What kills ticks inside the house?" },
+    { "type": "p", "text": "Drier air kills many stray blacklegged ticks within days, though not all of them, and a dryer cycle takes care of any that are on fabric. The Connecticut handbook reports that blacklegged ticks can survive for many days in a home depending on the humidity: in the laboratory, nymphs lived more than 6 months at 93 to 100% relative humidity, but over half died in less than 4 days at 65%. It says American dog ticks carried indoors can also survive for many days but will not become established." },
+    { "type": "p", "text": "The exception is the brown dog tick, which the handbook identifies as the species that may cause household infestations and ties closely to places where dogs are kept, particularly pet bedding areas. It describes brown dog ticks crawling around baseboards and up the walls of infested homes. The handbook also notes that some insecticide products are labeled only for brown dog ticks or for ticks on indoor surfaces and are not labeled for lawns and ornamentals, so indoor treatment needs a product whose label covers that use. Ticks on the dog itself are a question for a veterinarian. More on survival times is in [how long ticks live and whether they can survive in a house](/blog/how-long-do-ticks-live)." },
+
+    { "type": "h2", "text": "What kills ticks in the yard?" },
+    { "type": "p", "text": "An acaricide (a pesticide that kills ticks) labeled for area-wide tick control, applied where ticks actually live, kills more of them than any other yard measure. Landscaping and rodent-targeted devices play supporting roles. Start with where the ticks are. In the sampling summarized in the Connecticut handbook, blacklegged ticks were found mainly in dense woods (67% of the total) and in the unmaintained edge between woods and open areas (22%), with 9% in ornamental plantings and 2% on lawn. Of the ticks on lawn, 82% were within 3 yards of its edge." },
+    { "type": "media", "needed": "Overhead diagram of a suburban yard showing the tick zone: dense woods, the brushy woods edge, a 3-foot wood chip barrier, and the outer 3 yards of lawn shaded as higher risk, with the house, patio and play set in the low-risk center" },
+    { "type": "h3", "text": "Acaricide sprays and granules" },
+    { "type": "p", "text": "The handbook calls acaricides the most effective way to reduce ticks, particularly when combined with landscaping changes, and says a single application of most ornamental and turf insecticides gives 85 to 90% or better control. For blacklegged ticks in the Northeast it advises one application in May or early June aimed at nymphs, with an optional October application for adults. Treatment belongs where the lawn meets woods, stone walls and ornamental beds and several yards into the bordering woods, not across open lawn, and it should stay off herb, vegetable and butterfly gardens. Timing differs by region and tick species, and CDC says to check with local health or agricultural officials about the best time to apply a pesticide and the best type to use in your area." },
+    { "type": "table", "head": ["Active ingredient", "Chemical class", "Availability noted in the handbook"], "rows": [
+      ["Bifenthrin", "Pyrethroid", "Liquid and granular products for homeowners and commercial applicators"],
+      ["Cyfluthrin", "Pyrethroid", "Homeowner and commercial products"],
+      ["Permethrin", "Pyrethroid", "Mostly homeowner products, a few commercial"],
+      ["Deltamethrin", "Pyrethroid", "Commercial applicators"],
+      ["Lambda-cyhalothrin", "Pyrethroid", "Commercial applicators"],
+      ["Carbaryl", "Carbamate", "A common homeowner garden insecticide; some products are commercial only"],
+      ["Pyrethrins with piperonyl butoxide", "Natural pyrethrins plus a synergist", "Limited tick control alone, with little residual activity"]
+    ], "caption": "From Table 4 of the Tick Management Handbook (revised 2007). Product registrations change, so the current label and your state pesticide agency decide what may be used on your property." },
+    { "type": "callout", "tone": "warning", "title": "The label is the law", "text": "Use only a product whose label lists area-wide tick control, and follow its rates, intervals and precautions exactly. The handbook notes that using a pesticide in a manner inconsistent with its label is a violation of federal law." },
+    { "type": "p", "text": "The handbook also lists precautions that apply to most of these products:" },
+    { "type": "ul", "items": [
+      "**Bees.** Most tick control chemicals are toxic to bees and should not be applied where bees are foraging.",
+      "**Water.** Pyrethrins and pyrethroids are highly toxic to fish and other aquatic life. The handbook's guideline is to keep applications at least 25 feet from lakes, ponds, rivers and other wetlands and 100 feet from coastal marshes, and the label may require more.",
+      "**People and pets.** Keep family members and pets, especially cats, off treated areas for 12 to 24 hours or for the reentry interval on the label, which generally means until the spray has dried thoroughly.",
+      "**Weather.** Do not apply on days with wind above 10 mph or within 24 hours of rain."
+    ] },
+    { "type": "p", "text": "If you hire the work out, the handbook advises employing an applicator who is licensed to spray for ticks, and says the company should give you the name of the product, its active ingredient and the reentry period." },
+    { "type": "h3", "text": "Tick tubes and rodent bait boxes" },
+    { "type": "p", "text": "These devices kill ticks on mice instead of in the leaf litter, and the evidence for them is mixed. Tick tubes are cardboard tubes of permethrin-treated cotton that white-footed mice carry off as nesting material; the first product was sold as Damminix. The handbook reports that tick numbers fell in a couple of Massachusetts studies, but that evaluations in Connecticut and New York found no reduction in infected, host-seeking nymphs after three years of use on sites of about 4 acres or less. It offers two likely reasons: mice in some areas do not collect the cotton, and other hosts such as chipmunks keep feeding ticks." },
+    { "type": "p", "text": "Bait boxes work differently. A box draws in small mammals and brushes them with the acaricide fipronil. In [a four-year trial across 24 neighborhoods in Dutchess County, New York](https://wwwnc.cdc.gov/eid/article/28/5/21-1146), run by researchers at Bard College and the Cary Institute of Ecosystem Studies with county health and CDC colleagues, active bait boxes were associated with a 53% reduction in host-seeking nymphs in forest habitat compared with placebo boxes, and with about half as many ticks per white-footed mouse. A fungal spray tested in the same trial, Met52, did not produce a statistically significant drop in tick numbers, and in lawn habitat neither treatment had a statistically significant effect." },
+    { "type": "h3", "text": "Habitat changes" },
+    { "type": "p", "text": "Landscaping makes the part of the yard you use drier, sunnier and less attractive to tick hosts, but it does not kill many ticks directly. The handbook says as much and suggests combining it with other measures. CDC's yard checklist is:" },
+    { "type": "ul", "items": [
+      "Remove leaf litter.",
+      "Clear tall grasses and brush around the home and at the edge of the lawn.",
+      "Place a 3-foot-wide barrier of wood chips or gravel between lawns and wooded areas.",
+      "Mow the lawn frequently.",
+      "Stack wood neatly in a dry area, which discourages rodents.",
+      "Keep playground equipment, decks and patios away from yard edges and trees.",
+      "Use fencing to discourage deer, raccoons and stray dogs.",
+      "Remove old furniture, mattresses and trash that give ticks a place to hide."
+    ] },
+    { "type": "p", "text": "On results, the handbook is measured. Removing leaf litter has been shown to reduce blacklegged tick nymphs on some properties, and a wood chip barrier 3 feet wide or broader may help reduce ticks on the lawn, but outcomes vary widely from home to home and from year to year. It adds that chips containing leaves break down quickly into something much like leaf litter, so the barrier needs upkeep every year." },
+    { "type": "h3", "text": "Does killing ticks in the yard prevent disease?" },
+    { "type": "p", "text": "Not reliably, on the evidence so far. The Dutchess County trial tested bait boxes and a fungal spray, not the pyrethroid sprays described above. Reported human encounters with ticks were about 20% lower in neighborhoods that received both active treatments, a difference that was not statistically significant, and the treatments had no significant effect on tick-borne disease in people. Cases in pets, as reported by their owners, were lower by about half in neighborhoods with either active treatment." },
+    { "type": "p", "text": "The same paper describes an earlier placebo-controlled study in which the pyrethroid bifenthrin, applied to residential properties, cut tick numbers by more than 60% and still showed no reduction in tick encounters or cases of tick-borne disease. The authors concluded that reducing tick numbers in residential areas might not reduce disease in humans, and CDC says plainly that you should not rely on spraying to reduce your risk of infection. Treat yard control as one layer, and keep up repellent, treated clothing and tick checks." },
+
+    { "type": "h2", "text": "What does not kill ticks?" },
+    { "type": "p", "text": "A normal wash cycle, a cold winter, most essential-oil sprays and backyard poultry do not kill ticks reliably." },
+    { "type": "h3", "text": "Does the washing machine drown ticks?" },
+    { "type": "p", "text": "No. In the 2016 laundry study, every tick survived cold washes and 94% survived warm ones, and the Connecticut handbook likewise notes that many blacklegged and lone star ticks survive a warm or hot water wash. Flushing a tick down the toilet is on CDC's disposal list, but that is a way to get rid of one tick, and none of these sources says how long a submerged tick survives." },
+    { "type": "h3", "text": "Does freezing weather kill ticks?" },
+    { "type": "p", "text": "Not enough to count on. CDC says tick exposure can occur year-round, even though ticks are most active from April through September. The Connecticut handbook explains that adult blacklegged ticks do not hibernate and may be active on warm winter days and again the following spring. The species also has a two-year life cycle in northern states, in which larvae that feed in late summer reappear as nymphs late the next spring, so living through winter is a normal part of its life. The sources used here do not give a temperature that kills exposed ticks outdoors, and a hard winter is no reason to skip spring precautions." },
+    { "type": "h3", "text": "Do essential oils kill ticks?" },
+    { "type": "p", "text": "Some do for a short time and some barely at all, and the label will not tell you which. Many of these sprays are sold as minimum risk products, a category that is often based on botanical oils and is exempt from EPA registration. [A 2024 review by a CDC researcher in Emerging Infectious Diseases](https://wwwnc.cdc.gov/eid/article/30/1/23-0813) points out that EPA registration is what indicates a tick product's safety and effectiveness, and that published evaluations of the exempt products are limited." },
+    { "type": "p", "text": "The results it gathered vary widely. Two cedarwood oil products gave no more than minimal tick knockdown (5 to 6%) and 0 to 8% residual suppression after two weeks. A product containing 10% rosemary oil and 2% peppermint oil, applied once at high pressure by a pest control firm, was as effective as a bifenthrin product at reducing host-seeking blacklegged ticks for several months, yet similar rosemary and peppermint oil products applied with low-pressure sprayers did not hold suppression of nymphs above 90% for more than 1 to 3 weeks." },
+    { "type": "p", "text": "A garlic-based product gave moderate suppression of nymphs, 37 to 59%, for 1 to 3 weeks, which the review puts down presumably to repellency and not to killing. EPA-registered synthetic products labeled for ticks, by comparison, showed killing efficacy above 80% with one notable exception, and those based on synthetic pyrethroids suppressed host-seeking blacklegged ticks for at least 6 weeks. The review concludes that effectiveness differs from product to product and that independent information on a specific product is most often lacking." },
+    { "type": "p", "text": "The same gap shows up on skin. In one human skin bioassay described in the review, no minimum risk active ingredient gave complete protection from blacklegged ticks for more than 2 hours, while DEET did so for the entire 6-hour observation period. A wider look at the evidence is in [which natural pest control methods hold up](/blog/natural-pest-control)." },
+    { "type": "h3", "text": "Do chickens, garlic pills or ultrasonic devices work?" },
+    { "type": "p", "text": "There is no good evidence that they do. The Connecticut handbook describes the idea that guinea fowl or chickens reduce local tick numbers as anecdotal and unsupported, and notes that turkey foraging was not found to reduce the density of adult ticks. It also says that eating garlic, taking vitamin B1 and using ultrasonic sound devices do not repel mosquitoes and probably do not repel ticks. The studies behind the poultry claim are covered in [whether chickens really eat enough ticks to matter](/blog/do-chickens-eat-ticks)." }
+  ],
+  "faqs": [
+    {
+      "question": "Does rubbing alcohol kill ticks?",
+      "answer": "Putting a tick in alcohol is one of the four ways CDC lists for disposing of a live tick that has already been removed, along with sealing it in a container, wrapping it tightly in tape and flushing it down the toilet. That is not a reason to dab alcohol on a tick that is still attached. CDC says not to use petroleum jelly, heat, nail polish or other substances to try to make a tick detach, because that may agitate the tick and force infected fluid into the skin. Pull the tick out with fine-tipped tweezers first, then drop it in alcohol and clean the bite area and your hands."
+    },
+    {
+      "question": "How long does it take a dryer to kill ticks?",
+      "answer": "CDC says to tumble dry clothes on high heat for 10 minutes to kill ticks on dry clothing, and longer if the clothes are damp. In the 2016 laboratory study behind that advice, all nymphal and adult blacklegged ticks died within 4 minutes on high heat when the load was dry, and the authors recommended at least 6 minutes. Ticks that had been through a wash first took 50 minutes on high heat to kill. The practical rule is to put outdoor clothes in the dryer before washing them, not after."
+    },
+    {
+      "question": "Does permethrin kill ticks or only repel them?",
+      "answer": "It mainly kills them. The Connecticut Agricultural Experiment Station's Tick Management Handbook describes permethrin as a synthetic pyrethroid insecticide that works primarily by killing ticks on contact with treated clothing, with some repellency as well. CDC advises using products containing 0.5% permethrin on clothing, boots and camping gear and says the treatment remains protective through several washings. Clothing treatments are for fabric only and are not applied to skin. For skin, CDC points to EPA-registered repellents such as DEET, picaridin and IR3535."
+    },
+    {
+      "question": "Do ticks die in the winter?",
+      "answer": "Not reliably. CDC says tick exposure can occur year-round, although ticks are most active from April through September. The Connecticut Agricultural Experiment Station's handbook states that adult blacklegged ticks do not hibernate and may be active on warm winter days. Blacklegged ticks in northern states also have a two-year life cycle, so each one normally lives through at least one winter between stages. Keep checking for ticks after time in woods or brush during mild spells in winter, and do not treat a cold winter as a reason to skip spring precautions."
+    },
+    {
+      "question": "What kills ticks in the yard without synthetic pesticides?",
+      "answer": "Nothing has matched labeled synthetic sprays consistently in published trials, but a few options have partial support. A 2024 review by a CDC researcher found that one rosemary and peppermint oil product was as effective as a bifenthrin product when a pest control firm applied it at high pressure, while similar products applied at low pressure held high suppression for only 1 to 3 weeks. Cedarwood oil products had minimal effect, and a garlic product gave moderate, short-term suppression. These minimum risk products are exempt from EPA registration. Habitat work such as removing leaf litter and adding a 3-foot wood chip or gravel border helps, though the Connecticut handbook says landscaping will not directly eliminate many ticks."
+    },
+    {
+      "question": "Should you crush a tick to kill it?",
+      "answer": "No. CDC says not to crush a tick with your fingers. Its listed options are to place the tick in a sealed container, wrap it tightly in tape, flush it down the toilet or put it in alcohol, and then to clean the bite area and your hands with soap and water, rubbing alcohol or hand sanitizer. If you want the tick identified, a sealed container keeps it intact. CDC says testing the tick is in general not recommended; watch for a rash or fever over the following weeks and see a doctor if either appears."
+    }
+  ],
+  "sources": [
+    { "title": "Preventing Tick Bites", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/prevention/index.html" },
+    { "title": "What to Do After a Tick Bite", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html" },
+    { "title": "The heat is on: Killing blacklegged ticks in residential washers and dryers to prevent tickborne diseases", "publisher": "Ticks and Tick-borne Diseases (PubMed, National Library of Medicine)", "url": "https://pubmed.ncbi.nlm.nih.gov/27156138/" },
+    { "title": "Tick Management Handbook (Bulletin No. 1010, Revised Edition)", "publisher": "Connecticut Agricultural Experiment Station", "url": "https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf" },
+    { "title": "Effects of Tick-Control Interventions on Tick Abundance, Human Encounters with Ticks, and Incidence of Tickborne Diseases in Residential Neighborhoods, New York, USA", "publisher": "Emerging Infectious Diseases (Centers for Disease Control and Prevention)", "url": "https://wwwnc.cdc.gov/eid/article/28/5/21-1146" },
+    { "title": "Efficacy of Unregulated Minimum Risk Products to Kill and Repel Ticks", "publisher": "Emerging Infectious Diseases (Centers for Disease Control and Prevention)", "url": "https://wwwnc.cdc.gov/eid/article/30/1/23-0813" }
+  ],
+  "disclaimer": "both"
+}

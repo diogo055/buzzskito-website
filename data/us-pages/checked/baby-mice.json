@@ -1,0 +1,10 @@
+{
+ "id": "baby-mice",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "066bb5bff45f35cd6bfbafb357812a3d22e12a78832eeb4786e8d7759e1bfc0f",
+ "claimsChecked": 78,
+ "claimsCorrected": 2,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-08"
+}

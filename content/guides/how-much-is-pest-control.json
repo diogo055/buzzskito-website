@@ -1,0 +1,205 @@
+{
+  "slug": "how-much-is-pest-control",
+  "kind": "spoke",
+  "cluster": "pest-control",
+  "keyword": "how much is pest control",
+  "alsoTargets": [],
+  "metaTitle": "How Much Is Pest Control? Typical US Costs",
+  "metaDescription": "Pest control averages about $171 to $172 in two 2026 cost guides. See plan, pest and home-size price ranges and how to compare quotes.",
+  "h1": "How Much Is Pest Control? Typical US Prices by Visit, Plan and Pest",
+  "dek": "What a one-time visit, a quarterly plan and a monthly plan cost in the United States, how the price changes with the pest, the home and the method, and how to judge a quote.",
+  "breadcrumb": "Pest Control Cost",
+  "excerpt": "Pest control averages about $171 to $172 in two 2026 cost guides, plans run $40 to $300 per visit, and bed bug jobs run $1,000 to $4,000. Plus how to compare quotes.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Two 2026 cost guides put the average cost of pest control at about $171 to $172, and one of them, HomeAdvisor, says most homeowners spend between $108 and $261.** One-time treatments, quarterly plans and monthly plans are priced differently, and bed bugs, severe infestations and fumigation run into the thousands. [HomeAdvisor's cost guide](https://www.homeadvisor.com/cost/environmental-safety/hire-an-insect-control-service/) supplies the plan figures below; every number on this page is an estimate, not a quote.",
+    "bullets": [
+      "HomeAdvisor lists one-time service at $300 to $550 per visit, quarterly service at $100 to $300 per visit and monthly service at $40 to $70 per visit.",
+      "Both guides list ants at $100 to $500, mice and rats at $180 to $600 and bed bugs at $1,000 to $4,000.",
+      "This Old House lists one-time treatments at $250 to $450 for a 1,000-square-foot home and $450 to $750 for 3,000 square feet.",
+      "Both guides list fumigation at $1,500 to $8,000.",
+      "Virginia Cooperative Extension advises collecting two or three estimates and weighing value rather than price.",
+      "The FTC's Cooling-Off Rule gives you until midnight of the third business day to cancel a covered sale of $25 or more made at your home."
+    ]
+  },
+  "facts": {
+    "title": "Pest control cost at a glance",
+    "rows": [
+      ["Average cost", "$171 for a single appointment (This Old House); $172 (HomeAdvisor)"],
+      ["Most homeowners", "$108 to $261 (HomeAdvisor)"],
+      ["One-time treatment", "$300 to $550 per visit (HomeAdvisor)"],
+      ["Quarterly plan", "$100 to $300 per visit (HomeAdvisor)"],
+      ["Monthly plan", "$40 to $70 per visit (HomeAdvisor)"],
+      ["Bed bugs", "$1,000 to $4,000 (both guides; HomeAdvisor says whole home)"],
+      ["Fumigation", "$1,500 to $8,000 (both guides)"],
+      ["Estimates to collect", "Two or three (Virginia Cooperative Extension)"],
+      ["Cooling-off period", "Until midnight of the third business day, for covered sales made at your home (FTC)"],
+      ["Data as of", "June 2026 (HomeAdvisor); March 2026 (This Old House)"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "How much does pest control cost on average?" },
+    { "type": "p", "text": "Two 2026 cost guides put the average cost of pest control at about $171 to $172. [HomeAdvisor's pest control cost guide](https://www.homeadvisor.com/cost/environmental-safety/hire-an-insect-control-service/) gives $172 on average and says most homeowners spend between $108 and $261, while [This Old House's pest control cost guide](https://www.thisoldhouse.com/pest-control/reviews/pest-control-cost) gives $171 for a single appointment. Both give $50 to $500 as the wider span, and HomeAdvisor attributes that spread to the pest, how severe the problem is and where you live." },
+    { "type": "p", "text": "Both guides are estimates assembled from other data, not price lists. HomeAdvisor, updated June 19, 2026, says it surveyed more than 10,000 customers about their project costs and pairs the answers with research from sources including the Bureau of Labor Statistics, academic journals, market studies and interviews with industry experts. This Old House, updated March 12, 2026, says its cost data is based on estimates from Angi, pest control companies and market research. The two agree closely on most figures, but neither measures what companies near you charge: they are averages across very different jobs, from a $100 ant visit to an $8,000 fumigation." },
+    { "type": "callout", "tone": "note", "title": "Estimates, not quotes", "text": "Use national figures to spot a quote that is far outside the usual range, then ask each company for the real price in writing. A quote for your address can differ from every number on this page." },
+    { "type": "p", "text": "One wrinkle is worth knowing before you compare numbers. HomeAdvisor gives $172 as the average cost and also lists one-time service at $300 to $550 per visit, and the page does not reconcile the two. A plausible reading is that the average blends in small jobs and cheaper follow-up visits while a one-time treatment of an active problem is a bigger job, but that is an inference, not something the guide states. This Old House shows the same gap: its $171 average, and its statement that homeowners typically pay $50 to $500 for a one-time treatment, sit beside a home-size table that starts at $250 to $450 for a one-time treatment of a 1,000-square-foot home." },
+
+    { "type": "h2", "text": "Is a one-time visit cheaper than a monthly or quarterly plan?" },
+    { "type": "p", "text": "A one-time visit costs more per visit, but a plan can add up to more over a year because its lower price is paid four or twelve times. HomeAdvisor lists one-time service at $300 to $550 per visit, quarterly service at $100 to $300 per visit and monthly service at $40 to $70 per visit, and it says most local pest control companies discount the price for more frequent visits." },
+    { "type": "table", "head": ["Service type", "Listed price per visit", "Visits in a year", "Yearly total (calculated here)"], "rows": [
+      ["One-time or once a year", "$300 to $550", "1", "$300 to $550"],
+      ["Quarterly", "$100 to $300", "4", "$400 to $1,200"],
+      ["Monthly", "$40 to $70", "12", "$480 to $840"]
+    ], "caption": "Per-visit prices from HomeAdvisor, updated June 2026. The yearly totals are this page's own multiplication and assume four quarterly or twelve monthly visits; your agreement may schedule a different number." },
+    { "type": "p", "text": "The monthly plan looks cheapest per visit but is not the cheapest year, and the quarterly plan has the widest spread: at $400 to $1,200 a year, two quarterly quotes for the same house can differ by a factor of three. The price per visit alone therefore tells you very little. What matters is how many visits the price covers and what happens on each one, which the sections below take up." },
+
+    { "type": "h2", "text": "How much does pest control cost for each pest?" },
+    { "type": "p", "text": "The two cost guides list ants, spiders, fleas and cockroaches somewhere between $100 and $600, mice and rats between $180 and $600, and bed bugs between $1,000 and $4,000. The table combines the pest lists in HomeAdvisor's guide and in This Old House's guide; where only one lists a pest, the last column says which." },
+    { "type": "table", "head": ["Pest", "Typical range", "Listed by"], "rows": [
+      ["Ants", "$100 to $500", "Both guides"],
+      ["Cockroaches", "$100 to $600", "Both guides"],
+      ["Fleas", "$100 to $400", "Both guides"],
+      ["Spiders", "$100 to $500", "HomeAdvisor"],
+      ["Mice and rats", "$180 to $600", "Both guides (This Old House says mice and other rodents)"],
+      ["Bed bugs", "$1,000 to $4,000", "Both guides (HomeAdvisor says whole home)"],
+      ["Bees", "$150 to $500", "HomeAdvisor"],
+      ["Wasps", "$300 to $700", "This Old House"],
+      ["Mosquitoes", "$350 to $500", "Both guides (HomeAdvisor says per season)"],
+      ["Termites", "$250 to $1,000", "Both guides (HomeAdvisor says whole-home tenting)"]
+    ], "caption": "Estimates from HomeAdvisor (June 2026) and This Old House (March 2026), not quotes. Both guides give the same range where the last column says both." },
+    { "type": "p", "text": "Three of these pests have their own guides on what the work involves: [what hiring a mouse exterminator actually covers](/blog/mice-exterminator), [how a bait-based program deals with German cockroaches](/blog/german-cockroaches) and [how to get rid of ants in the house](/blog/how-to-get-rid-of-ants-in-the-house)." },
+    { "type": "p", "text": "Read the termite and mosquito rows with care. HomeAdvisor labels its $250 to $1,000 termite figure as whole-home tenting, yet its separate fumigation line starts at $1,500, so the two lines do not fit together, and termite work is a case for written quotes over national figures. The mosquito range is a seasonal figure in HomeAdvisor's list, so it should not be set beside a single-visit price. How yard mosquito control works is covered in the [backyard mosquito control guide](/blog/ultimate-backyard-mosquito-control-guide)." },
+    { "type": "h3", "text": "Why do bed bugs cost so much more than ants?" },
+    { "type": "p", "text": "Bed bug jobs take inspection and repeat visits rather than a single treatment, which is consistent with a $1,000 to $4,000 range against $100 to $500 for ants. [The EPA's advice on hiring a pest management professional for bed bugs](https://www.epa.gov/bedbugs/hiring-pest-management-professional-bed-bugs) says very few infestations are controlled with only one treatment and tells readers to prepare for multiple visits. It describes the professional as inspecting the residence, taking furniture apart if necessary and using vacuums, heat and pesticides, with monitoring for any bugs missed during treatment." },
+    { "type": "p", "text": "This Old House, by contrast, says pests like ants and roaches are relatively easy to manage and may need only a one-time treatment. EPA also acknowledges that professionals can be expensive, and it recommends getting one involved as soon as possible." },
+    { "type": "p", "text": "So the useful question about a bed bug quote is what the price includes: follow-up inspections, re-treatment if bugs turn up again, and the preparation you are expected to do. The method itself is covered in [how to get rid of bed bugs](/blog/how-to-get-rid-of-bed-bugs), and the biology in the [complete bed bugs reference](/learn/bed-bugs)." },
+
+    { "type": "h2", "text": "What makes pest control cost more or less?" },
+    { "type": "p", "text": "The pest, the number of visits, the size of the home, the severity of the infestation, the treatment method and your location all move the price. The pest and the visit schedule are covered above; the four sections below take the rest in turn." },
+    { "type": "h3", "text": "Does the size of your home change the price?" },
+    { "type": "p", "text": "Yes, but the steps are modest. This Old House lists average one-time treatment costs that rise from $250 to $450 for a 1,000-square-foot home to $450 to $750 for 3,000 square feet, and it says to expect to pay more if your home is larger than 1,500 square feet or if the problem has spread beyond the main body of the home." },
+    { "type": "table", "head": ["Home size", "Average one-time treatment"], "rows": [
+      ["1,000 square feet", "$250 to $450"],
+      ["1,500 square feet", "$300 to $550"],
+      ["2,000 square feet", "$350 to $600"],
+      ["2,500 square feet", "$400 to $675"],
+      ["3,000 square feet", "$450 to $750"]
+    ], "caption": "Average costs of one-time pest treatments by home size, This Old House, updated March 2026." },
+    { "type": "p", "text": "Tripling the floor area adds $200 to the bottom of the range and $300 to the top, so size is a smaller lever than the type of pest or the severity of the infestation." },
+    { "type": "h3", "text": "How much does severity matter?" },
+    { "type": "p", "text": "Severity moves the price more than square footage does: This Old House lists mild infestations at $100 to $500, moderate ones at $300 to $700 and severe ones at $1,000 to $8,000. The bands overlap, since the top of the mild range is higher than the bottom of the moderate range, so the written scope of work tells you more than the label a salesperson puts on the problem." },
+    { "type": "h3", "text": "How much does the treatment method change the price?" },
+    { "type": "p", "text": "The method can move a bill from a few hundred dollars to several thousand. Both guides list professional physical removal or trapping at $100 to $600, chemical treatment at $100 to $3,000 and fumigation at $1,500 to $8,000." },
+    { "type": "table", "head": ["Method", "Typical range", "Listed by"], "rows": [
+      ["Professional physical removal or trapping", "$100 to $600", "Both guides (HomeAdvisor: removing wildlife, beehives or wasp nests; This Old House: larger-scale trapping by a professional)"],
+      ["Professional chemical treatment", "$100 to $3,000", "Both guides (This Old House calls it professional spraying)"],
+      ["Fumigation", "$1,500 to $8,000", "Both guides (This Old House specifies tented)"]
+    ], "caption": "Estimates from HomeAdvisor (June 2026) and This Old House (March 2026)." },
+    { "type": "p", "text": "The chemical range is a 30-to-1 spread, so the word chemical on a quote says little about what you will pay. Ask what will be applied, where and how many times. HomeAdvisor also puts a routine home cleanup after a treatment at $100 to $200 on average and a deep cleaning at $200 to $400, an extra that is easy to miss when you compare quotes." },
+    { "type": "h3", "text": "Does where you live change the price?" },
+    { "type": "p", "text": "It does, but neither guide quantifies it. HomeAdvisor says what you pay depends partly on where you live, and its page gives no breakdown by state or city. The practical fix is local data: collect two or three estimates from companies licensed in your state, which is the step Virginia Cooperative Extension recommends and the next sections walk through." },
+
+    { "type": "h2", "text": "What does a pest control plan include?" },
+    { "type": "p", "text": "There is no standard package, so a plan includes whatever the written agreement says. [Virginia Cooperative Extension's guide to selecting a pest control company](https://www.pubs.ext.vt.edu/content/dam/pubs_ext_vt_edu/ENTO/ento-558/ENTO-558.pdf), published in 2023, says the company should inspect your home and outline a recommended control program, and it lists what that program should identify:" },
+    { "type": "ul", "items": [
+      "**Pests and extent.** Which pests are to be controlled and how widespread the infestation is.",
+      "**Products and methods.** Which pesticide formulations will be used in and around the home and why, how they will be applied, and any environmental concerns.",
+      "**Alternatives.** Options other than pesticides, such as mechanical, physical, cultural or biological controls.",
+      "**Your part.** Special instructions to limit your exposure, such as vacating the home, emptying cupboards, removing pets and when you can re-enter, plus steps to prevent a repeat."
+    ] },
+    { "type": "p", "text": "The guarantee is a separate question in the Virginia guide, and it deserves its own look because it can carry a cost. The guide advises reconsidering a company that is unwilling to offer some assurance about the quality and outcome of its service. It also notes that many companies require an annual inspection or maintenance contract to uphold their guarantee, and it gives a termite example: structural changes to the treated building, made without telling the company, could invalidate the guarantee. A guarantee can therefore come with a yearly inspection contract that may have its own price, and a renovation you do not report could void it." },
+    { "type": "p", "text": "This Old House adds a short instruction for plan customers: read the plan contract before hiring, and review its cancellation policies, liability coverage and included services." },
+    { "type": "callout", "tone": "tip", "title": "Four questions that explain a price", "text": "How many visits does the quoted price cover? Are callbacks between visits included? What does the guarantee require of you, and does keeping it cost extra each year? What is the cancellation policy?" },
+
+    { "type": "h2", "text": "How do you compare pest control quotes?" },
+    { "type": "p", "text": "Collect two or three estimates, in writing, and compare what each one covers before you compare the totals. The Virginia Cooperative Extension guide tells readers to read each estimate thoroughly and to focus on value, not price, adding that what looks like a bargain may merit a second look and that you should not always settle on the lowest bid. A short checklist follows; the first five steps are drawn from that guide and the sixth is this page's own suggestion:" },
+    { "type": "ol", "items": [
+      "Check the company's reputation yourself rather than through the salesperson: look it up online, ask neighbors and friends, and check for complaints with the Better Business Bureau and with your state's consumer-affairs and pesticide offices (the guide names Virginia's).",
+      "Ask to see the company's license and its applicators' certificates, then verify them with the state. Virginia, for example, requires a pesticide business license, registered technicians or commercial applicators, and recertification of applicators every two years; check what your own state requires.",
+      "Ask for documentation of insurance. The Virginia guide says never to hire a company that is not insured, and notes that Virginia requires businesses that apply pesticides to carry liability insurance.",
+      "Have each company inspect the property and outline its recommended program: the pests, the extent of the infestation, the products and methods, and the alternatives.",
+      "If you need details on the pesticides, ask the contractor to go through the product labeling with you. If the contractor refuses, the Virginia guide says to look elsewhere.",
+      "Compare scope first and price second: set the number of visits, the follow-up terms and the guarantee conditions side by side, and use the yearly totals you can calculate from each quote."
+    ] },
+    { "type": "p", "text": "When two quotes for the same house differ sharply, the differences to look for are the ones in the list above: how many visits are included, what method is used, whether follow-ups are covered and what the guarantee demands. A low price that covers one visit and a higher price that covers a full season are not comparable until you put them on the same footing." },
+
+    { "type": "h2", "text": "Can you cancel a pest control contract after you sign it?" },
+    { "type": "p", "text": "If you signed at your home, usually yes, until midnight of the third business day after the sale. [The FTC's guide to its Cooling-Off Rule](https://consumer.ftc.gov/articles/buyers-remorse-ftcs-cooling-rule-may-help) says the rule gives you three days to cancel certain sales made at your home, that Saturday counts as a business day while Sundays and federal holidays do not, and that the seller has to tell you about the right to cancel at the time of the sale and give you two copies of a cancellation form. To cancel, the FTC says to sign and date the form and mail it to the address given for cancellations, postmarked before midnight of the third business day." },
+    { "type": "p", "text": "The rule does not cover every sale. The exceptions the FTC lists include sales under $25 made at your home, sales made entirely online, by mail or by telephone, sales made after negotiations completed at the seller's permanent place of business, and sales needed to meet an emergency. The rule is aimed at the plan sold at your door or your kitchen table, not the one you ordered entirely by phone or on a website, and the FTC's page gives the full list of exceptions." },
+    { "type": "p", "text": "Outside that rule, what you can cancel, when and at what cost depends on the agreement itself, which is why This Old House tells readers to review the cancellation policy before hiring. Ask about the minimum term, any cancellation fee and how renewal works before you sign, not after." },
+
+    { "type": "h2", "text": "When is professional pest control worth the money?" },
+    { "type": "p", "text": "Paying clearly makes sense when the infestation is serious or widespread, or when the pest rarely clears in one treatment, as EPA says of bed bugs; it makes less sense for a small problem that prevention can solve. Virginia Cooperative Extension draws a similar line: for many pests a combination of simple preventive and curative tactics lets homeowners reduce or eliminate the population, while some infestations are too serious or extensive to solve without a professional." },
+    { "type": "h3", "text": "Is a cheap recurring spray good value?" },
+    { "type": "p", "text": "Not necessarily, and one published comparison speaks directly to it, though it is older and narrower than a price survey. [Miller and Meek's 2004 study in the Journal of Economic Entomology](https://academic.oup.com/jee/article-abstract/97/2/559/2217999) compared two ways of controlling German cockroaches in public housing apartments over 12 months. One was monthly spraying of baseboards and cracks and crevices with spray and dust insecticides. The other was an integrated pest management program: vacuuming first, then monthly or quarterly baits and insect growth regulator devices, with sticky traps to monitor the cockroaches. Cost was measured as technician time and the amount of product applied, and 24-hour sticky trap catches were the measure of how well each program worked." },
+    { "type": "p", "text": "The monthly spray program had little, if any, effect: cockroach counts held steady for the first 5 months and then tripled over the summer. Under the integrated program the average count fell from 24.7 cockroaches per unit to 3.9 by month 4 and stayed below 5 per unit for the remaining 8 months." },
+    { "type": "p", "text": "The integrated program did cost more. The first month averaged $14.60 per apartment against $2.75 for spraying, and averaged over every unit treated during the 12 months the cost was $4.06 per unit against $1.50, which the authors report as a significant difference. The gap was front-loaded: after month 4 the two costs were no longer significantly different, because many of the integrated-program apartments had moved to a quarterly schedule." },
+    { "type": "p", "text": "In that study the cheaper program was not the better value. The caveats are real: one pest, one setting, costs published in 2004, and dollar figures that measure a technician's time and product in public housing, not a price charged to a homeowner. What carries over is the question to ask any company: does the plan include monitoring and a method with evidence behind it, or only a scheduled spray? The [German cockroach guide](/blog/german-cockroaches) describes what the bait-based approach involves." },
+    { "type": "h3", "text": "When can you handle it yourself?" },
+    { "type": "p", "text": "For many pests, a homeowner can. The [guide to do-it-yourself pest control](/blog/diy-pest-control) walks through the order of work, from identifying the pest and preventing it to choosing a control, and compares doing it yourself with hiring, and the [natural pest control guide](/blog/natural-pest-control) covers exclusion, traps and low-risk materials. If you want to browse by pest, the [pest product guides](/pest-product-guides) collect them in one place." },
+    { "type": "p", "text": "Two related comparisons may help with the decision. One commonly sold gadget, the ultrasonic repeller, has its own evidence review in [do ultrasonic pest repellers work](/blog/ultrasonic-pest-repellers-do-they-work). For mosquitoes, [how DIY and professional mosquito control compare](/blog/mosquito-vs-diy-vs-professional-control) lays out the two routes side by side." },
+
+    { "type": "h2", "text": "Where do lawn and business pest control costs fit in?" },
+    { "type": "p", "text": "They are separate jobs, and the figures on this page come from household pest control guides, so they should not be read across to them. Turf pests such as grubs and chinch bugs follow their own calendar and methods, covered in the [lawn pest control guide](/blog/lawn-pest-control). Businesses buy under different rules, documentation and contracts, which the [commercial pest control guide](/blog/commercial-pest-control) explains." }
+  ],
+  "faqs": [
+    {
+      "question": "Is monthly or quarterly pest control better?",
+      "answer": "Neither is better in every case, and the sources reviewed here do not rank them. HomeAdvisor lists quarterly service at $100 to $300 per visit and monthly service at $40 to $70 per visit, so a monthly plan costs less per visit but adds visits. The better question is what each visit does. Ask the company to explain why its schedule suits the pest and the infestation, and what it does if the problem returns between visits."
+    },
+    {
+      "question": "Why do pest control quotes vary so much between companies?",
+      "answer": "Quotes can differ in scope as well as price. The pest, the severity of the infestation, the method, the number of visits and the guarantee terms all change the bill, and the cost guides show wide ranges, such as $100 to $3,000 for chemical treatment. Virginia Cooperative Extension advises collecting two or three estimates, reading each thoroughly and focusing on value rather than price, since a bargain may merit a second look."
+    },
+    {
+      "question": "Does the size of my house change the price of pest control?",
+      "answer": "Yes, though less than you might expect. This Old House lists one-time treatments at $250 to $450 for a 1,000-square-foot home and $450 to $750 for a 3,000-square-foot home, so tripling the floor area adds $200 to the low end and $300 to the high end. The pest and the severity of the infestation move the price more than square footage does."
+    },
+    {
+      "question": "Is it worth paying for pest control if I only see a few bugs?",
+      "answer": "Sometimes a small, early problem can be handled by the homeowner. Virginia Cooperative Extension says simple preventive and curative tactics work for many pests, while some infestations are too serious or extensive to solve alone. Identify the pest first, then weigh the cost of a professional visit, about $171 to $172 on average in the two cost guides, against doing the work yourself. For bed bugs, EPA advises getting a professional involved as soon as possible."
+    },
+    {
+      "question": "Can I cancel a pest control agreement after signing?",
+      "answer": "It depends on how and where you signed. The FTC's Cooling-Off Rule gives you until midnight of the third business day after the sale to cancel certain sales made at your home, and the seller has to tell you about that right at the time of the sale. The rule does not cover sales under $25 made at your home or sales made entirely online, by mail or by telephone. Outside the rule, the agreement's own cancellation terms apply, so review the cancellation policy before you sign, as This Old House advises, and ask about the minimum term and renewal."
+    },
+    {
+      "question": "Why does bed bug treatment cost so much more than other pests?",
+      "answer": "The cost guides list bed bugs at $1,000 to $4,000, against $100 to $500 for ants. EPA says very few bed bug infestations are controlled with a single treatment and tells readers to prepare for multiple visits, with inspection, monitoring and the use of vacuums, heat and pesticides. Ask whether follow-up inspections and re-treatment are included in the quoted price."
+    }
+  ],
+  "sources": [
+    {
+      "title": "How Much Does Pest Control Cost in 2026?",
+      "publisher": "HomeAdvisor",
+      "url": "https://www.homeadvisor.com/cost/environmental-safety/hire-an-insect-control-service/",
+      "kind": "cost-survey"
+    },
+    {
+      "title": "How Much Does Pest Control Cost? (2026 Pricing)",
+      "publisher": "This Old House",
+      "url": "https://www.thisoldhouse.com/pest-control/reviews/pest-control-cost",
+      "kind": "cost-survey"
+    },
+    {
+      "title": "Selecting a Pest Control Company (ENTO-558NP)",
+      "publisher": "Virginia Cooperative Extension, Virginia Tech",
+      "url": "https://www.pubs.ext.vt.edu/content/dam/pubs_ext_vt_edu/ENTO/ento-558/ENTO-558.pdf"
+    },
+    {
+      "title": "Hiring a Pest Management Professional for Bed Bugs",
+      "publisher": "U.S. Environmental Protection Agency",
+      "url": "https://www.epa.gov/bedbugs/hiring-pest-management-professional-bed-bugs"
+    },
+    {
+      "title": "Buyer's Remorse: The FTC's Cooling-Off Rule May Help",
+      "publisher": "Federal Trade Commission, Consumer Advice",
+      "url": "https://consumer.ftc.gov/articles/buyers-remorse-ftcs-cooling-rule-may-help"
+    },
+    {
+      "title": "Cost and Efficacy Comparison of Integrated Pest Management Strategies with Monthly Spray Insecticide Applications for German Cockroach (Dictyoptera: Blattellidae) Control in Public Housing",
+      "publisher": "Journal of Economic Entomology (D. M. Miller and F. Meek, 2004)",
+      "url": "https://academic.oup.com/jee/article-abstract/97/2/559/2217999"
+    }
+  ]
+}

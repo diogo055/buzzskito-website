@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-08",
+ "generated": "2026-10-09",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 12,
-  "hubPages": 2,
-  "guides": 10,
+  "newPagesBuilt": 68,
+  "hubPages": 4,
+  "guides": 64,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
-  "mergedIntoNewPages": 5,
-  "notBuilt": 64,
-  "internalLinksInNewPages": 148
+  "mergedIntoNewPages": 9,
+  "notBuilt": 8,
+  "internalLinksInNewPages": 835
  },
  "pages": [
   {
@@ -24,8 +24,24 @@
    "wordCount": 5409,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 18,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ants",
+   "us_volume": null,
+   "url": "/learn/ants",
+   "action": "new",
+   "kind": "pillar",
+   "cluster": "ants",
+   "title": "Ants: Identification, Prevention and Control",
+   "wordCount": 6141,
+   "faqs": 8,
+   "sources": 8,
+   "inboundFromNewPages": 19,
+   "outboundInternalLinks": 32,
    "status": "built"
   },
   {
@@ -40,16 +56,9 @@
    "wordCount": 5042,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 17,
    "status": "built"
-  },
-  {
-   "rank": null,
-   "keyword": "ants",
-   "url": "/learn/ants",
-   "action": "new",
-   "status": "not built"
   },
   {
    "rank": 1,
@@ -71,7 +80,7 @@
    "wordCount": 3629,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -87,7 +96,7 @@
    "wordCount": 2400,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -121,7 +130,7 @@
    "wordCount": 3841,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 0,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -137,7 +146,7 @@
    "wordCount": 3068,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 0,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -153,7 +162,7 @@
    "wordCount": 3126,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -177,51 +186,105 @@
    "wordCount": 2731,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 0,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 10,
    "status": "built"
   },
   {
    "rank": 11,
    "keyword": "deer mice",
+   "us_volume": 14000,
    "url": "/blog/deer-mice",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Deer Mice: ID, Hantavirus Risk and Safe Cleanup",
+   "wordCount": 3292,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 12,
    "keyword": "flying ants",
+   "us_volume": 38000,
    "url": "/blog/flying-ants",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Flying Ants: What They Are and Why They Swarm",
+   "wordCount": 2826,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 10,
+   "status": "built"
   },
   {
    "rank": 13,
    "keyword": "do cockroaches bite",
+   "us_volume": 12000,
    "url": "/blog/do-cockroaches-bite",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "Do Cockroaches Bite? Rarely: What's Documented",
+   "wordCount": 2522,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 10,
+   "status": "built"
   },
   {
    "rank": 14,
    "keyword": "mice control",
+   "us_volume": 7000,
    "url": "/learn/mice",
    "action": "new",
-   "status": "not built"
+   "kind": "pillar",
+   "cluster": "mice",
+   "title": "Mice Control: Seal Up, Trap Up, Clean Up",
+   "wordCount": 5178,
+   "faqs": 8,
+   "sources": 8,
+   "inboundFromNewPages": 21,
+   "outboundInternalLinks": 34,
+   "status": "built"
   },
   {
    "rank": 15,
    "keyword": "borax for ants",
+   "us_volume": 7900,
    "url": "/blog/borax-for-ants",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Borax for Ants: Why a Weak Bait Works Best",
+   "wordCount": 3771,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 14,
+   "status": "built"
   },
   {
    "rank": 16,
    "keyword": "what do ants eat",
+   "us_volume": 11000,
    "url": "/blog/what-do-ants-eat",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "What Do Ants Eat? Sugar, Protein and Grease",
+   "wordCount": 2275,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 12,
+   "outboundInternalLinks": 11,
+   "status": "built"
   },
   {
    "rank": 17,
@@ -237,16 +300,25 @@
    "wordCount": 3068,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 0,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 12,
    "status": "built"
   },
   {
    "rank": 18,
    "keyword": "how to get rid of mosquitoes",
+   "us_volume": 12000,
    "url": "/blog/how-to-get-rid-of-mosquitoes",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mosquitoes",
+   "title": "How to Get Rid of Mosquitoes: Dump Water First",
+   "wordCount": 3004,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 9,
+   "status": "built"
   },
   {
    "rank": 19,
@@ -270,7 +342,7 @@
    "wordCount": 2944,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -287,9 +359,18 @@
   {
    "rank": 22,
    "keyword": "steel wool for mice",
+   "us_volume": 6300,
    "url": "/blog/steel-wool-for-mice",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Steel Wool for Mice: Where It Works and Fails",
+   "wordCount": 3110,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 17,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 23,
@@ -310,9 +391,18 @@
   {
    "rank": 25,
    "keyword": "what do mice eat",
+   "us_volume": 14000,
    "url": "/blog/what-do-mice-eat",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "What Do Mice Eat? Grain, Seeds and Fatty Foods",
+   "wordCount": 2523,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 26,
@@ -323,39 +413,102 @@
    "status": "pending"
   },
   {
+   "rank": 27,
+   "keyword": "do cockroaches fly",
+   "us_volume": 7300,
+   "url": "/blog/can-cockroaches-fly",
+   "action": "merged",
+   "mergedInto": "/blog/can-cockroaches-fly",
+   "reason": "Same search intent as the page’s primary keyword; one page answers both.",
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "Can Cockroaches Fly? Which Species Do and Why",
+   "wordCount": 3163,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
    "rank": 28,
    "keyword": "how long do ants live",
+   "us_volume": 7100,
    "url": "/blog/how-long-do-ants-live",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "How Long Do Ants Live? Weeks to 28 Years",
+   "wordCount": 1883,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 11,
+   "status": "built"
   },
   {
    "rank": 29,
    "keyword": "how to keep mosquitoes away",
+   "us_volume": 4900,
    "url": "/blog/how-to-keep-mosquitoes-away",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mosquitoes",
+   "title": "How to Keep Mosquitoes Away: What Really Works",
+   "wordCount": 2601,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 9,
+   "status": "built"
   },
   {
    "rank": 30,
    "keyword": "peppermint oil for mice",
+   "us_volume": 4700,
    "url": "/blog/peppermint-oil-for-mice",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Peppermint Oil for Mice: What the Evidence Says",
+   "wordCount": 3255,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 14,
+   "status": "built"
   },
   {
    "rank": 31,
    "keyword": "ghost ants",
+   "us_volume": 6600,
    "url": "/blog/ghost-ants",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Ghost Ants: Tiny, Pale-Bodied, Spread by Budding",
+   "wordCount": 3006,
+   "faqs": 6,
+   "sources": 5,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 32,
    "keyword": "what kills ticks on dogs instantly",
+   "us_volume": 8300,
    "url": "/blog/what-kills-ticks-on-dogs-instantly",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "What Kills Ticks on Dogs Instantly? Nothing Safe",
+   "wordCount": 3699,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 13,
+   "status": "built"
   },
   {
    "rank": 33,
@@ -385,16 +538,25 @@
    "wordCount": 3629,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 13,
    "status": "built"
   },
   {
    "rank": 36,
    "keyword": "bugs that look like cockroaches",
+   "us_volume": 6200,
    "url": "/blog/bugs-that-look-like-cockroaches",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "Bugs That Look Like Cockroaches: 8 to Rule Out",
+   "wordCount": 2313,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 11,
+   "status": "built"
   },
   {
    "rank": 37,
@@ -406,16 +568,34 @@
   {
    "rank": 38,
    "keyword": "what do ticks look like",
+   "us_volume": 11000,
    "url": "/blog/what-do-ticks-look-like",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "What Do Ticks Look Like? Size, Color, Species",
+   "wordCount": 2184,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 11,
+   "status": "built"
   },
   {
    "rank": 39,
    "keyword": "bugs that look like bed bugs",
+   "us_volume": 11000,
    "url": "/blog/bugs-that-look-like-bed-bugs",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "bed-bugs",
+   "title": "Bugs That Look Like Bed Bugs: How to Tell Apart",
+   "wordCount": 2497,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 10,
+   "outboundInternalLinks": 13,
+   "status": "built"
   },
   {
    "rank": 40,
@@ -429,7 +609,7 @@
    "wordCount": 2888,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 0,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -447,16 +627,25 @@
    "wordCount": 3126,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 14,
    "status": "built"
   },
   {
    "rank": 42,
    "keyword": "mice removal",
+   "us_volume": 3400,
    "url": "/blog/mice-removal",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Mice Removal: Walls, Attics, Cars and Cleanup",
+   "wordCount": 3994,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 14,
+   "status": "built"
   },
   {
    "rank": 43,
@@ -472,7 +661,7 @@
    "wordCount": 3126,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -484,39 +673,102 @@
    "status": "not built"
   },
   {
+   "rank": 45,
+   "keyword": "ants in house",
+   "us_volume": 5600,
+   "url": "/blog/how-to-get-rid-of-ants-in-the-house",
+   "action": "merged",
+   "mergedInto": "/blog/how-to-get-rid-of-ants-in-the-house",
+   "reason": "Same search intent as the page’s primary keyword; one page answers both.",
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "How to Get Rid of Ants in the House: Don't Spray",
+   "wordCount": 3056,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 16,
+   "outboundInternalLinks": 14,
+   "status": "built"
+  },
+  {
    "rank": 46,
    "keyword": "flying ants vs termites",
+   "us_volume": 5500,
    "url": "/blog/flying-ants-vs-termites",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Flying Ants vs Termites: 3 Checks to Tell Apart",
+   "wordCount": 2267,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 9,
+   "status": "built"
   },
   {
    "rank": 47,
    "keyword": "how to get rid of ants in the house",
+   "us_volume": 6900,
    "url": "/blog/how-to-get-rid-of-ants-in-the-house",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "How to Get Rid of Ants in the House: Don't Spray",
+   "wordCount": 3056,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 16,
+   "outboundInternalLinks": 14,
+   "status": "built"
   },
   {
    "rank": 48,
    "keyword": "lawn pest control",
+   "us_volume": 3200,
    "url": "/blog/lawn-pest-control",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "pest-control",
+   "title": "Lawn Pest Control: Confirm the Pest First",
+   "wordCount": 3472,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 13,
+   "status": "built"
   },
   {
    "rank": 49,
    "keyword": "mice traps",
+   "us_volume": 5700,
    "url": "/blog/mice-traps",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Mice Traps: CDC Advises Snap Traps, Not Glue",
+   "wordCount": 3202,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 18,
+   "outboundInternalLinks": 14,
+   "status": "built"
   },
   {
    "rank": 50,
    "keyword": "army ants",
+   "us_volume": 9300,
    "url": "/blog/army-ants",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Army Ants: Nomads With No Nest, and the Myths",
+   "wordCount": 2891,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 11,
+   "status": "built"
   },
   {
    "rank": 51,
@@ -535,9 +787,18 @@
   {
    "rank": 53,
    "keyword": "mice repellent",
+   "us_volume": 8100,
    "url": "/blog/mice-repellent",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Mice Repellent: What the Evidence Says by Type",
+   "wordCount": 2939,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 10,
+   "outboundInternalLinks": 13,
+   "status": "built"
   },
   {
    "rank": 54,
@@ -550,16 +811,34 @@
   {
    "rank": 55,
    "keyword": "can mice climb walls",
+   "us_volume": 4400,
    "url": "/blog/can-mice-climb-walls",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Can Mice Climb Walls? Yes, Any Rough Surface",
+   "wordCount": 2241,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 10,
+   "outboundInternalLinks": 11,
+   "status": "built"
   },
   {
    "rank": 56,
    "keyword": "can cockroaches fly",
+   "us_volume": 7800,
    "url": "/blog/can-cockroaches-fly",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "Can Cockroaches Fly? Which Species Do and Why",
+   "wordCount": 3163,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 10,
+   "status": "built"
   },
   {
    "rank": 57,
@@ -572,9 +851,18 @@
   {
    "rank": 58,
    "keyword": "are mice nocturnal",
+   "us_volume": 4100,
    "url": "/blog/are-mice-nocturnal",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Are Mice Nocturnal? Yes, Peak Dusk and Dawn",
+   "wordCount": 2332,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 59,
@@ -588,7 +876,7 @@
    "wordCount": 2685,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 0,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -612,44 +900,116 @@
   {
    "rank": 62,
    "keyword": "field mice",
+   "us_volume": 6900,
    "url": "/blog/field-mice",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Field Mice: Deer Mice, Voles and What to Do",
+   "wordCount": 2518,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 63,
    "keyword": "ticks in michigan",
+   "us_volume": 3200,
    "url": "/blog/ticks-in-michigan",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Michigan: Species, Counties and Season",
+   "wordCount": 3069,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 10,
+   "status": "built"
   },
   {
    "rank": 64,
    "keyword": "do carpenter ants bite",
+   "us_volume": 3700,
    "url": "/blog/do-carpenter-ants-bite",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Do Carpenter Ants Bite? Yes, and What to Do",
+   "wordCount": 2409,
+   "faqs": 6,
+   "sources": 5,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
+   "rank": 65,
+   "keyword": "flying ants in house",
+   "us_volume": 3700,
+   "url": "/blog/flying-ants",
+   "action": "merged",
+   "mergedInto": "/blog/flying-ants",
+   "reason": "Same search intent as the page’s primary keyword; one page answers both.",
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Flying Ants: What They Are and Why They Swarm",
+   "wordCount": 2826,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 10,
+   "status": "built"
   },
   {
    "rank": 66,
    "keyword": "tiny ants",
+   "us_volume": 3700,
    "url": "/blog/tiny-ants",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Tiny Ants: Identify Them by Color, Size, Smell",
+   "wordCount": 2483,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 67,
    "keyword": "do moth balls keep mice away",
+   "us_volume": 3700,
    "url": "/blog/do-mothballs-keep-mice-away",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Do Moth Balls Keep Mice Away? No, and Here's Why",
+   "wordCount": 2948,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 68,
    "keyword": "types of mice",
+   "us_volume": 3700,
    "url": "/blog/types-of-mice",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Types of Mice: House, Deer and White-Footed",
+   "wordCount": 2780,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 11,
+   "status": "built"
   },
   {
    "rank": 69,
@@ -664,51 +1024,114 @@
   {
    "rank": 70,
    "keyword": "how to get rid of ants in kitchen",
+   "us_volume": 4400,
    "url": "/blog/how-to-get-rid-of-ants-in-the-kitchen",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "How to Get Rid of Ants in the Kitchen: Use Bait",
+   "wordCount": 3298,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 13,
+   "status": "built"
   },
   {
    "rank": 71,
    "keyword": "are mosquitoes attracted to light",
+   "us_volume": 3400,
    "url": "/blog/are-mosquitoes-attracted-to-light",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mosquitoes",
+   "title": "Are Mosquitoes Attracted to Light? Not Much",
+   "wordCount": 1850,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 9,
+   "status": "built"
   },
   {
    "rank": 72,
    "keyword": "diy pest control",
+   "us_volume": 12000,
    "url": "/blog/diy-pest-control",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "pest-control",
+   "title": "DIY Pest Control: Prevent, Bait, Then Spray Last",
+   "wordCount": 4004,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 15,
+   "status": "built"
   },
   {
    "rank": 73,
    "keyword": "ticks on dogs",
+   "us_volume": 17000,
    "url": "/blog/ticks-on-dogs",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks on Dogs: Where to Check and How to Remove",
+   "wordCount": 3495,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 14,
+   "status": "built"
   },
   {
    "rank": 74,
    "keyword": "what smells do mice hate",
+   "us_volume": 3300,
    "url": "/blog/what-smells-do-mice-hate",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "What Smells Do Mice Hate? What the Evidence Says",
+   "wordCount": 2507,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 75,
    "keyword": "how much is pest control",
+   "us_volume": 3500,
    "url": "/blog/how-much-is-pest-control",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "pest-control",
+   "title": "How Much Is Pest Control? Typical US Costs",
+   "wordCount": 3111,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 14,
+   "outboundInternalLinks": 13,
+   "status": "built"
   },
   {
    "rank": 76,
    "keyword": "do ants bite",
+   "us_volume": 5800,
    "url": "/blog/do-ants-bite",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Do Ants Bite? Which Ones Bite and Which Sting",
+   "wordCount": 2964,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 10,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 77,
@@ -718,20 +1141,29 @@
    "action": "new",
    "kind": "spoke",
    "cluster": "bed-bugs",
-   "title": "Where Do Bed Bugs Hide? Mattress Seams First",
-   "wordCount": 2419,
+   "title": "Where Do Bed Bugs Hide? Start With the Bed",
+   "wordCount": 3032,
    "faqs": 6,
-   "sources": 3,
-   "inboundFromNewPages": 4,
+   "sources": 5,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 10,
    "status": "built"
   },
   {
    "rank": 78,
    "keyword": "black bed bugs",
+   "us_volume": 3200,
    "url": "/blog/black-bed-bugs",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "bed-bugs",
+   "title": "Black Bed Bugs: Brown Bugs, Black Droppings",
+   "wordCount": 2170,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 10,
+   "status": "built"
   },
   {
    "rank": 79,
@@ -747,44 +1179,89 @@
    "wordCount": 2731,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 0,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 10,
    "status": "built"
   },
   {
    "rank": 80,
    "keyword": "red ants",
+   "us_volume": 9300,
    "url": "/blog/red-ants",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Red Ants: Is It a Fire Ant or a Look-Alike?",
+   "wordCount": 3218,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 81,
    "keyword": "does vinegar kill ants",
+   "us_volume": 5300,
    "url": "/blog/does-vinegar-kill-ants",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Does Vinegar Kill Ants? It Won't Reach the Nest",
+   "wordCount": 2165,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 11,
+   "status": "built"
   },
   {
    "rank": 82,
    "keyword": "alaska mosquitoes",
+   "us_volume": 2900,
    "url": "/blog/alaska-mosquitoes",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mosquitoes",
+   "title": "Alaska Mosquitoes: Why So Many, When They Peak",
+   "wordCount": 2586,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 9,
+   "status": "built"
   },
   {
    "rank": 83,
    "keyword": "what kills ticks",
+   "us_volume": 2000,
    "url": "/blog/what-kills-ticks",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "What Kills Ticks? Dry Heat, Not the Wash Cycle",
+   "wordCount": 3467,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 84,
    "keyword": "how to get rid of mice humanely",
+   "us_volume": 3600,
    "url": "/blog/how-to-get-rid-of-mice-humanely",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "How to Get Rid of Mice Humanely: Seal Them Out",
+   "wordCount": 2521,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 85,
@@ -797,9 +1274,18 @@
   {
    "rank": 86,
    "keyword": "bullet ants",
+   "us_volume": 5000,
    "url": "/blog/bullet-ants",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Bullet Ants: The Sting That Tops the Pain Scale",
+   "wordCount": 2341,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 10,
+   "status": "built"
   },
   {
    "rank": 87,
@@ -822,18 +1308,54 @@
    "status": "existing page"
   },
   {
+   "rank": 89,
+   "keyword": "termites vs ants",
+   "us_volume": 4700,
+   "url": "/blog/flying-ants-vs-termites",
+   "action": "merged",
+   "mergedInto": "/blog/flying-ants-vs-termites",
+   "reason": "Same search intent as the page’s primary keyword; one page answers both.",
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Flying Ants vs Termites: 3 Checks to Tell Apart",
+   "wordCount": 2267,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
    "rank": 90,
    "keyword": "baby mice",
+   "us_volume": 4700,
    "url": "/blog/baby-mice",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Baby Mice: Pup Stages and What a Nest Means",
+   "wordCount": 2287,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 91,
    "keyword": "does lysol kill bed bugs",
+   "us_volume": 2600,
    "url": "/blog/does-lysol-kill-bed-bugs",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "bed-bugs",
+   "title": "Does Lysol Kill Bed Bugs? What the Label Says",
+   "wordCount": 2520,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 92,
@@ -855,16 +1377,34 @@
   {
    "rank": 94,
    "keyword": "does alcohol kill bed bugs",
+   "us_volume": 2500,
    "url": "/blog/does-alcohol-kill-bed-bugs",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "bed-bugs",
+   "title": "Does Alcohol Kill Bed Bugs? Only on Contact",
+   "wordCount": 2817,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 10,
+   "status": "built"
   },
   {
    "rank": 95,
    "keyword": "ticks that carry lyme disease picture",
+   "us_volume": 7500,
    "url": "/blog/ticks-that-carry-lyme-disease",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks That Carry Lyme Disease: Only 2 US Species",
+   "wordCount": 3119,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 10,
+   "status": "built"
   },
   {
    "rank": 96,
@@ -879,30 +1419,66 @@
   {
    "rank": 97,
    "keyword": "do chickens eat ticks",
+   "us_volume": 2400,
    "url": "/blog/do-chickens-eat-ticks",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Do Chickens Eat Ticks? Yes, but Not Enough",
+   "wordCount": 2558,
+   "faqs": 6,
+   "sources": 5,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 9,
+   "status": "built"
   },
   {
    "rank": 98,
    "keyword": "what do baby cockroaches look like",
+   "us_volume": 2400,
    "url": "/blog/what-do-baby-cockroaches-look-like",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "What Baby Cockroaches Look Like, by Species",
+   "wordCount": 2822,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 11,
+   "status": "built"
   },
   {
    "rank": 99,
    "keyword": "bed bugs on mattress",
+   "us_volume": 4300,
    "url": "/blog/bed-bugs-on-mattress",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "bed-bugs",
+   "title": "Bed Bugs on a Mattress: Signs and What to Do",
+   "wordCount": 2727,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 100,
    "keyword": "where do cockroaches come from",
+   "us_volume": 4200,
    "url": "/blog/where-do-cockroaches-come-from",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "Where Do Cockroaches Come From? The 4 Ways In",
+   "wordCount": 2936,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 10,
+   "status": "built"
   }
  ]
 }

@@ -1,0 +1,172 @@
+{
+  "slug": "do-ants-bite",
+  "kind": "spoke",
+  "cluster": "ants",
+  "keyword": "do ants bite",
+  "alsoTargets": [],
+  "metaTitle": "Do Ants Bite? Which Ones Bite and Which Sting",
+  "metaDescription": "Ants can bite, but most species rarely do; the painful ones sting. See which US ants bite, which sting, what a reaction looks like and when to get care.",
+  "h1": "Do Ants Bite? Which US Ants Bite, Which Sting and What to Do",
+  "dek": "Most household ants are not known for biting people, a few bite, and a small group sting hard enough to matter. A species table, what the reactions look like, and the first aid CDC and MedlinePlus describe.",
+  "breadcrumb": "Do Ants Bite?",
+  "excerpt": "Most ants can bite but rarely do; fire ants and harvester ants sting. A species table, what reactions look like, first aid and when a sting is an emergency.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Yes, ants can bite, but most species rarely do, and the ants that really hurt are the few that sting.** The [University of California's ant guide](https://ipm.ucanr.edu/home-and-landscape/ants/) says ants can bite with their pincer-like jaws and names fire ants and harvester ants among the few that sting. Fire ants do both: they hold on with their jaws while they inject venom with a stinger.",
+    "bullets": [
+      "Fire ant stings can burn, and CDC says red bumps may form and develop into white, fluid-filled pustules within a day or two.",
+      "MedlinePlus says fire ant blisters last 3 to 8 days and a scab may remain for 3 to 10 days.",
+      "Red harvester ants, 1/4 to 1/2 inch long, can bite and deliver a painful sting, though Texas A&M describes them as generally reluctant to sting.",
+      "Carpenter ants, also 1/4 to 1/2 inch long, can bite but do not sting.",
+      "Seven of the ten ants in Texas A&M's chart of house-infesting species, including pharaoh, odorous house and Argentine ants, are marked as neither stinging nor biting.",
+      "Severe chest pain, loss of breath, serious swelling or slurred speech after fire ant stings means emergency care immediately, according to CDC."
+    ]
+  },
+  "facts": {
+    "title": "Ant bites and stings at a glance",
+    "rows": [
+      ["Can ants bite?", "Yes, with their jaws, but most species rarely do"],
+      ["Can ants sting?", "A few can: fire ants, harvester ants and, weakly, pavement ants"],
+      ["Bite and sting", "Fire ants and harvester ants"],
+      ["Bite, no sting", "Carpenter, acrobat and bigheaded ants"],
+      ["Neither, per Texas A&M", "Pharaoh, odorous house, Argentine, thief, crazy and little black ants"],
+      ["Fire ant pustules form", "Within a day or two (CDC)"],
+      ["Fire ant blisters last", "3 to 8 days; a possible scab lasts 3 to 10 days (MedlinePlus)"],
+      ["Ice for mild stings", "Wrapped in a clean cloth, 10 minutes on, 10 minutes off, repeated (MedlinePlus)"],
+      ["Poison Help line", "1-800-222-1222, anywhere in the United States"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Do ants bite, or do they sting?" },
+    { "type": "p", "text": "Ants can do either, and the two are different acts. A bite is made with the jaws. A sting comes from the other end of the ant: [Texas A&M's guide to household ants](https://extensionentomology.tamu.edu/wp-content/uploads/2017/09/Ants_household_B6183.pdf) describes fire ants injecting venom with stingers at the ends of their abdomens. The [University of California's ant guide](https://ipm.ucanr.edu/home-and-landscape/ants/) says ants can bite with their pincer-like jaws, although most species rarely do, and that only a few ants sting. It names native fire ants and harvester ants, both primarily outdoor species." },
+    { "type": "p", "text": "In practice, what people call an ant bite is one of three things: a pinch from an ant that has only its jaws to use, a true sting from one of the few species that sting, or both at once. Fire ants are the both-at-once case. The Texas A&M guide explains that they bite and hold on with their jaws while they sting. Even medical references blur the two words: [MedlinePlus](https://medlineplus.gov/ency/article/002843.htm) calls the injury a fire ant sting and, in the same list of symptoms, refers to the site of the bite." },
+    { "type": "p", "text": "Which one you are dealing with depends on the species, so identification comes first. The [complete reference to ants in US homes](/learn/ants) shows how the common species are told apart, and the table below sorts them by what they can do to skin." },
+    { "type": "media", "needed": "Labeled macro diagram of a fire ant worker on skin showing the two ends used in an attack: jaws gripping the skin at the head (bite) and the stinger at the tip of the abdomen curled under to inject venom (sting)" },
+
+    { "type": "h2", "text": "Which ants bite and which ants sting?" },
+    { "type": "p", "text": "Fire ants and harvester ants both bite and sting, carpenter ants and a few others bite without stinging, pavement ants carry a small stinger that is usually of little consequence to people, and most of the small ants that come indoors do neither. The table combines Texas A&M's chart of house-infesting ants with the University of California's size list and the two species reports cited further down." },
+    { "type": "table", "head": ["Ant", "Worker size", "Bites people?", "Stings?"], "rows": [
+      ["Red imported fire ant", "1/16 to 1/5 inch", "Yes, to hold on", "Yes"],
+      ["Red harvester ant", "1/4 to 1/2 inch", "Yes", "Yes, painfully, but reluctant to"],
+      ["Pavement ant", "3/16 inch", "Not reported", "Small stinger that can pierce thin skin"],
+      ["Carpenter ants", "1/4 to 1/2 inch", "Yes", "No"],
+      ["Acrobat ants", "1/8 to 1/4 inch", "Yes", "No"],
+      ["Velvety tree ant", "1/8 to 1/4 inch", "Yes, aggressively", "Not reported"],
+      ["Pharaoh ant", "1/16 inch", "Usually not", "No"],
+      ["Odorous house ant", "1/8 inch", "No", "No"],
+      ["Argentine ant", "1/8 inch", "No", "No"],
+      ["Little black ant", "1/16 inch", "No", "No"],
+      ["Thief ant", "1/32 to 1/16 inch", "No", "No"],
+      ["Crazy ant", "1/16 to 1/8 inch", "No", "No"]
+    ], "caption": "Bite and sting entries follow Texas A&M's chart, the University of California's guide, Texas A&M's harvester ant profile and Ohio State's pavement ant report. Not reported means the sources cited on this page do not say." },
+    { "type": "p", "text": "Read the table with three cautions. It covers the species these sources describe, not every ant in the country, and Texas A&M's chart was written for the ants that infest houses in Texas. A plain No in that chart is best read as an ant that is not known for biting people, since the University of California points out that ants in general are able to bite." },
+    { "type": "p", "text": "The third caution is that the sources differ on small points. The Texas chart marks pharaoh ants as non-biters while its text says they usually do not bite, it lists the thief ant at 1/16 inch where the University of California gives 1/32 inch, and it puts red imported fire ant workers at 1/8 to 1/4 inch where the guide's own text says 1/16 to 3/16 inch." },
+    { "type": "media", "needed": "Side-by-side photo set at the same scale with a ruler marked in inches: red imported fire ant, red harvester ant, black carpenter ant and pavement ant workers, each labeled with whether it bites, stings or both" },
+
+    { "type": "h2", "text": "Which ants both bite and sting?" },
+    { "type": "p", "text": "Fire ants and harvester ants do, and theirs are the stings that the sources on this page describe as painful or, for some people, medically serious." },
+    { "type": "h3", "text": "Fire ants" },
+    { "type": "p", "text": "Fire ants use the bite to hold on, and the sting delivers the venom. Texas A&M describes what happens when a mound is disturbed: the workers respond quickly, run up vertical surfaces to reach the intruder, grip with their jaws and inject venom through the stinger. The stings produce a burning sensation and often cause whitish blisters. MedlinePlus identifies piperidine as a chemical in the venom. Texas A&M also says a mature colony can contain more than 200,000 adult and immature ants, and MedlinePlus lists separate symptoms for people who receive multiple stings." },
+    { "type": "p", "text": "[CDC's National Institute for Occupational Safety and Health (NIOSH)](https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html) says fire ants are mostly found in the Southeastern United States, with limited distribution in New Mexico, Arizona and California. The University of California reports that the red imported fire ant has been found in various Southern California counties. MedlinePlus adds that they are typically found in the southern United States and other areas that do not freeze in winter, where they build dirt mounds, usually in open, grassy settings." },
+    { "type": "p", "text": "Red imported fire ant workers are small: 1/16 to 1/5 inch long by the University of California's measure and 1/16 to 3/16 inch in the text of Texas A&M's guide. The California guide describes them as reddish with a dark brown abdomen. Not every reddish ant is a fire ant, so a separate guide explains [how to tell fire ants from the other red ants in a yard](/blog/red-ants) and how fire ant mounds are treated." },
+    { "type": "h3", "text": "Harvester ants" },
+    { "type": "p", "text": "Harvester ants can bite and deliver a painful sting, but they are slow to use it. [Texas A&M's profile of the red harvester ant](https://texasinsects.tamu.edu/red-harvester-ant/) describes workers 1/4 to 1/2 inch long, red to dark brown, that are generally reluctant to sting. It also warns that the effects of a sting can spread along lymph channels and may be medically serious. The profile counts 22 species of harvester ants in the United States, most of them in the West." },
+    { "type": "p", "text": "The same profile describes the nest. It sits in open ground, often with no vegetation in a 3-to-6-foot circle around the central opening or along the foraging trails that radiate from it, and the profile says the ants do not invade homes or other structures." },
+
+    { "type": "h2", "text": "Which ants bite but do not sting?" },
+    { "type": "p", "text": "Carpenter ants, acrobat ants and bigheaded ants bite but do not sting, according to Texas A&M, and the University of California adds the velvety tree ant, which it calls an aggressive biter." },
+    { "type": "h3", "text": "Carpenter ants" },
+    { "type": "p", "text": "Carpenter ants are large ants that can bite but do not sting. Texas A&M and the University of California both put the workers at 1/4 to 1/2 inch, and the California guide describes them as black or two-toned red and black. The Texas guide says only that these ants can bite and do not sting, and gives the bite no further attention. What a bite feels like and how to care for it are covered in [the guide to carpenter ant bites](/blog/do-carpenter-ants-bite)." },
+    { "type": "p", "text": "The larger worry with this ant is the nest. Texas A&M notes that carpenter ant galleries can weaken structural timbers, so finding large ants indoors is a reason to learn [how carpenter ant nests are tracked down](/blog/carpenter-ants-canada). Not every dark ant is a carpenter ant, and a separate guide shows [how to sort big black ants from small ones](/blog/black-ants)." },
+    { "type": "h3", "text": "Acrobat, bigheaded and velvety tree ants" },
+    { "type": "p", "text": "Three other biters are less familiar. Acrobat ants are 1/8 to 1/4 inch long with a heart-shaped abdomen that is often held up over the body. The Texas chart marks them as biting but not stinging, and the guide says they nest under stones, in stumps or in dead wood and occasionally invade homes. Bigheaded ants, whose larger workers have heads that are big for their bodies, bite but do not sting and prefer to nest in soil outdoors. In California, the university singles out the velvety tree ant as an aggressive biter. It is 1/8 to 1/4 inch long with a red thorax and a velvety black abdomen, and it nests in dead wood such as old tree limbs, stumps and logs." },
+
+    { "type": "h2", "text": "Do pavement ants sting?" },
+    { "type": "p", "text": "They can, though the sting is usually minor. [Ohio State University's Buckeye Yard and Garden Line](https://bygl.osu.edu/node/1366) reports that pavement ant workers have a small stinger capable of penetrating human skin where the skin is thin. It describes the stings as normally inconsequential but adds that, as with any venom, some individuals react more strongly, with intense burning, itching and sometimes a small blister. The article was prompted by a homeowner's report that a neighbor had been stung by a horde of aggressive ants." },
+    { "type": "p", "text": "The University of California lists the pavement ant at 3/16 inch long and dark brown to black. It nests in lawns or under stones or boards and builds mounds along sidewalks and foundations or near water. Texas A&M's chart covers tramp ants, *Tetramorium* species that nest in cracks in or near sidewalks and pavement, and marks them as neither stinging nor biting. The example it names is *Tetramorium bicarinatum*, a different species from the pavement ant, *Tetramorium caespitum*, which is the ant Ohio State identified. Going by the report that deals with the pavement ant itself, the fair summary is an ant that is able to sting, with stings that seldom amount to much." },
+
+    { "type": "h2", "text": "Which household ants neither bite nor sting?" },
+    { "type": "p", "text": "Most of them, going by Texas A&M's chart of house-infesting species: seven of its ten ants are marked as neither stinging nor biting. They are pharaoh ants, odorous house ants, thief ants, Argentine ants, crazy ants, little black ants and tramp ants. All seven are 1/8 inch or smaller in that chart. The list includes the pharaoh ant, which Texas A&M calls the ant most often seen indoors in Texas and which, according to the guide's text, does not sting and usually does not bite." },
+    { "type": "p", "text": "Texas A&M notes that pharaoh ants are also called sugar ants, and a separate guide explains [what Americans mean by sugar ants and how to tell which one you have](/blog/sugar-ants). If yours are too small to make out, the [identification key for tiny ants](/blog/tiny-ants) works from size, color and smell. None of this makes a trail across the counter welcome, but it does mean these ants are not known for biting or stinging people." },
+
+    { "type": "h2", "text": "What does an ant bite or sting look like?" },
+    { "type": "p", "text": "A fire ant sting is the one with a recognizable look: a burning red bump that can turn into a white, fluid-filled pustule within a day or two. That description is CDC's. MedlinePlus lists the wider set of symptoms as swelling, redness, itchiness and pain around the site, pus-filled blisters and a possible scab." },
+    { "type": "table", "head": ["When", "What happens after a fire ant sting", "Source"], "rows": [
+      ["At the sting", "A burning sensation", "CDC; Texas A&M"],
+      ["Within a day or two", "Red bumps may form and develop into white, fluid-filled pustules", "CDC"],
+      ["3 to 8 days", "How long the pus-filled blisters last", "MedlinePlus"],
+      ["3 to 10 days", "How long a scab may remain at the site", "MedlinePlus"],
+      ["A few hours to a few days", "People who are not allergic should be fine", "MedlinePlus"]
+    ], "caption": "The course of a fire ant sting as described by CDC, MedlinePlus and Texas A&M." },
+    { "type": "media", "needed": "Photo of an ankle or forearm one to two days after fire ant stings, showing a cluster of red bumps topped with white, fluid-filled pustules" },
+    { "type": "p", "text": "Other ants leave less to see. Ohio State describes pavement ant stings as normally inconsequential, with burning, itching and occasionally a small blister in people who react. Texas A&M describes harvester ant stings as painful and says their effects can spread along lymph channels. None of the sources cited here describes a lasting mark from the bite of a non-stinging ant such as a carpenter or acrobat ant." },
+    { "type": "p", "text": "If marks keep turning up overnight and you never see an ant, compare them with [what bed bugs look like and the signs they leave](/blog/what-do-bed-bugs-look-like) before blaming ants." },
+    { "type": "h3", "text": "Signs of an allergic or severe reaction" },
+    { "type": "p", "text": "Some people react to the venom well beyond the sting site. Texas A&M notes that most people can tolerate fire ant stings but that some are very sensitive to the venom and must seek medical attention. MedlinePlus lists difficulty breathing, a rapid heart rate and throat swelling as symptoms that people allergic to fire ant venom may also have. It says multiple stings may cause vomiting, diarrhea, swelling throughout the body, shortness of breath, low blood pressure, rapid heartbeat and shock." },
+
+    { "type": "h2", "text": "How do you treat an ant bite or sting at home?" },
+    { "type": "p", "text": "For a mild reaction, get the ants off, wash the area and cool it. The steps below combine CDC's first aid for fire ant stings with the home care listed by MedlinePlus and one note from Ohio State. MedlinePlus presents its article as information only and directs anyone stung by fire ants to the local emergency number or the Poison Help line, so these steps do not replace advice from a healthcare provider who has seen the reaction." },
+    { "type": "ol", "items": [
+      "Move away from the mound, since CDC's prevention advice is not to stand on or near one, and rub the ants off briskly. CDC specifies rubbing because fire ants attach to the skin with their jaws.",
+      "Wash the area with plenty of soap and water. MedlinePlus says not to use alcohol to wash it.",
+      "If any venom gets in the eyes, wash them with plenty of water.",
+      "For mild stings, place ice wrapped in a clean cloth on the area for 10 minutes, take it off for 10 minutes, and repeat. MedlinePlus says to shorten the time for a person who has problems with blood circulation, to prevent possible damage to the skin.",
+      "Consider an antihistamine. CDC says antihistamines may help, and that you should follow the directions on the package and expect that drowsiness may occur.",
+      "Try not to scratch. Ohio State's report on pavement ant stings says frequent washing and an anti-itch cream can help avoid scratching and secondary infections.",
+      "Keep watching for the emergency signs in the next section."
+    ] },
+    { "type": "p", "text": "Apart from Ohio State's note, which concerns pavement ant stings, these steps were written for fire ant stings, the kind these sources cover in most detail. The sources cited here give no separate first aid for bites from non-stinging ants." },
+
+    { "type": "h2", "text": "When should you get medical care for an ant sting?" },
+    { "type": "p", "text": "Get emergency care immediately for any sign of a severe allergic reaction. CDC describes anaphylaxis as a severe and potentially life-threatening allergic reaction that requires immediate emergency care, and it lists specific warning signs to act on after fire ant stings. MedlinePlus says that if a reaction to fire ant venom is severe, the person should seek medical help right away and call the local emergency number, such as 911, or poison control." },
+    { "type": "callout", "tone": "warning", "title": "When a sting is an emergency", "text": "CDC says to take the person to an emergency medical facility immediately if fire ant stings are followed by severe chest pain, nausea, severe sweating, loss of breath, serious swelling or slurred speech. MedlinePlus lists difficulty breathing, a rapid heart rate and throat swelling as signs of an allergic reaction to the venom." },
+    { "type": "p", "text": "MedlinePlus also points to the national Poison Help line, 1-800-222-1222, which reaches the local poison control center from anywhere in the United States. Have the person's age, weight and condition, the type of insect if you know it, and the time of the sting ready when you call." },
+    { "type": "p", "text": "People who already know they react badly should plan ahead. CDC advises workers with a history of severe allergic reactions to insect bites or stings to carry an EpiPen and to wear a medical identification bracelet or necklace. MedlinePlus says people who have an allergy to insect bites or stings should carry a bee sting kit, which requires a prescription, and know how to use it in an emergency. It adds that people with severe allergic reactions may need to stay in the hospital. Contact a healthcare provider about any reaction that worries you, or about a sting site that is getting worse instead of better." },
+
+    { "type": "h2", "text": "Why do ants sting, and how do you avoid it?" },
+    { "type": "p", "text": "Fire ants attack when their mound or nest is disturbed, as the Texas A&M account above describes, so avoiding stings mostly means knowing where the mounds are and leaving them alone. CDC wrote its advice for people who work outdoors, and it is just as usable in a yard:" },
+    { "type": "ul", "items": [
+      "Do not disturb, stand on or stand near ant mounds.",
+      "Be careful when lifting items off the ground, because they may be covered in ants.",
+      "Look over the area before you start work; CDC notes that fire ants may also be found on trees or in water."
+    ] },
+    { "type": "p", "text": "It also helps to know what the nests look like. Texas A&M says fire ants build hills or mounds in open areas and also nest under rocks and landscape timbers, at the bases of tree trunks, in decaying wood and in clogged rain gutters. Red harvester ant nests, as described above, often sit in a circle of bare ground." },
+    { "type": "p", "text": "Most of the stinging risk is outdoors. The University of California describes the stinging ants it names as primarily outdoor species, Texas A&M says red harvester ants do not invade homes, and the small indoor ants covered above sit on the neither-bite-nor-sting list. Fire ants are the exception to watch in the South. Texas A&M notes that foraging workers may come inside in search of food, moisture or nesting sites, particularly during hot, dry periods or floods, and that colonies are occasionally found nesting in wall voids." },
+    { "type": "p", "text": "For any indoor trail, the Texas A&M guide is clear that you have to eliminate the colony, because spraying the trail kills only a few foraging workers. The whole-house method is laid out in [how to get rid of ants in the house](/blog/how-to-get-rid-of-ants-in-the-house), with a separate walkthrough for [ants around sinks, counters and food](/blog/how-to-get-rid-of-ants-in-the-kitchen). An older guide explains [why bait reaches the colony when spray does not](/blog/how-to-get-rid-of-ants-canada). Readers curious about famously painful stings can read about [the bullet ant and its sting](/blog/bullet-ants)." }
+  ],
+  "faqs": [
+    {
+      "question": "Do black ants bite?",
+      "answer": "It depends on which black ant. Large black ants 1/4 to 1/2 inch long fit the description of carpenter ants, which Texas A&M says can bite but do not sting. Little black ants, about 1/16 inch, and odorous house ants, about 1/8 inch, are both listed in Texas A&M's chart of house-infesting ants as neither stinging nor biting. Pavement ants, about 3/16 inch and dark brown to black, have a small stinger that Ohio State University reports can penetrate thin skin, though it describes the stings as normally inconsequential."
+    },
+    {
+      "question": "Do sugar ants or other tiny kitchen ants bite?",
+      "answer": "Generally not. Texas A&M notes that pharaoh ants are among the ants people call sugar ants, and its chart of house-infesting ants marks pharaoh ants, odorous house ants, Argentine ants, thief ants and little black ants as neither stinging nor biting. Its text is slightly more cautious about pharaoh ants, saying they do not sting and usually do not bite. The University of California notes that ants in general can bite with their jaws but that most species rarely do. Going by these sources, a trail of tiny ants on a counter is a nuisance to deal with and an unlikely source of bites."
+    },
+    {
+      "question": "Do red ants bite?",
+      "answer": "Some do far more than bite. Red imported fire ants, which the University of California describes as reddish with a dark brown abdomen, bite to hold on while they sting, and CDC says the stings can cause a burning sensation and that red bumps may form and develop into white, fluid-filled pustules within a day or two. Red harvester ants, 1/4 to 1/2 inch long, can bite and deliver a painful sting but are generally reluctant to, according to Texas A&M. Other reddish ants are milder: pharaoh ants are light tan to reddish and do not sting, and some carpenter ants are red and black and can bite but do not sting."
+    },
+    {
+      "question": "How long does a fire ant sting take to heal?",
+      "answer": "MedlinePlus says the pus-filled blisters from fire ant stings last 3 to 8 days and that a scab may remain at the site for 3 to 10 days. CDC describes the early stage: red bumps that may form and develop into white, fluid-filled pustules within a day or two. According to MedlinePlus, people who are not allergic to fire ants should be fine in a few hours to a few days, while people with severe allergic reactions may need to stay in the hospital. Contact a healthcare provider if a sting site is getting worse instead of better."
+    },
+    {
+      "question": "Can you be allergic to ant stings?",
+      "answer": "Yes. CDC states that people who are allergic to venom may experience anaphylaxis, a severe and potentially life-threatening allergic reaction that requires immediate emergency care. For fire ants, MedlinePlus lists difficulty breathing, a rapid heart rate and throat swelling as symptoms in people who are allergic to the venom. CDC advises workers with a history of severe allergic reactions to insect bites or stings to carry an EpiPen and wear a medical identification bracelet or necklace. Anyone who has reacted badly to a sting before should ask a healthcare provider what to carry and what to do next time."
+    },
+    {
+      "question": "Do ants bite people indoors, or only outside?",
+      "answer": "The ants that sting are mostly met outside. The University of California describes the stinging ants it names, native fire ants and harvester ants, as primarily outdoor species, and Texas A&M says red harvester ants do not invade homes. Fire ants are a partial exception: Texas A&M notes that foraging workers may enter a house for food or moisture, particularly during hot, dry periods or floods, and that colonies are occasionally found nesting indoors in wall voids. Most of the small ants that come indoors are listed as neither biting nor stinging. Carpenter ants, which do come inside, can bite but do not sting."
+    }
+  ],
+  "sources": [
+    { "title": "Insects and Scorpions at Work", "publisher": "CDC National Institute for Occupational Safety and Health (NIOSH)", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html" },
+    { "title": "Fire ants", "publisher": "MedlinePlus Medical Encyclopedia, U.S. National Library of Medicine", "url": "https://medlineplus.gov/ency/article/002843.htm" },
+    { "title": "Ants (Pest Notes, UC ANR Publication 7411)", "publisher": "University of California Statewide Integrated Pest Management Program", "url": "https://ipm.ucanr.edu/home-and-landscape/ants/" },
+    { "title": "Managing Household Ant Pests (B-6183)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://extensionentomology.tamu.edu/wp-content/uploads/2017/09/Ants_household_B6183.pdf" },
+    { "title": "Red Harvester Ant (Field Guide to Common Texas Insects)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://texasinsects.tamu.edu/red-harvester-ant/" },
+    { "title": "Pavement Ants Have Stingers?", "publisher": "Ohio State University Extension, Buckeye Yard and Garden Line", "url": "https://bygl.osu.edu/node/1366" }
+  ],
+  "disclaimer": "health"
+}

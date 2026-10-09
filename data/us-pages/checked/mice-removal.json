@@ -1,0 +1,10 @@
+{
+ "id": "mice-removal",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "a31572b37fcf2d9b3dad97fe5ee11122b2f0c9d96e0b28d2442033ebc318b2e0",
+ "claimsChecked": 86,
+ "claimsCorrected": 11,
+ "claimsRemovedOrSoftened": 12,
+ "checkedOn": "2026-10-08"
+}

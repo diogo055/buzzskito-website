@@ -1,0 +1,10 @@
+{
+ "id": "pillar-mice",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "7f16a6daf69493494730027342893d992371b556bff380a9ec6ae33bb6f31a13",
+ "claimsChecked": 208,
+ "claimsCorrected": 11,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-08"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "borax-for-ants",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "660c6a9cb031c4353cd6dbd5bd9d176d4b02c6a4748bd4aaae114d3d3a5703d0",
+ "claimsChecked": 130,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 8,
+ "checkedOn": "2026-10-08"
+}

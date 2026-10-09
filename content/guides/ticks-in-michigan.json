@@ -1,0 +1,168 @@
+{
+  "slug": "ticks-in-michigan",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in michigan",
+  "alsoTargets": [],
+  "metaTitle": "Ticks in Michigan: Species, Counties and Season",
+  "metaDescription": "Michigan has 20+ tick species, and blacklegged ticks are established in 56 of 83 counties. See the five common ticks, Lyme data, season and free ID.",
+  "h1": "Ticks in Michigan: Species, Where Lyme Risk Is Spreading and What to Do",
+  "dek": "Which ticks live in Michigan, how blacklegged ticks and Lyme disease have spread county by county, when ticks are active, and how to get a tick identified by the state.",
+  "breadcrumb": "Ticks in Michigan",
+  "excerpt": "Michigan has more than 20 tick species, and blacklegged ticks are now established in 56 of 83 counties. Species, Lyme data by county, season and the free state ID service.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Michigan has more than 20 known tick species, five of them common on people and pets, and the blacklegged tick (deer tick) is the one that spreads Lyme disease.** [CDC's county table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) now records established blacklegged tick populations in 56 of the state's 83 counties, in both the Upper and Lower Peninsulas.",
+    "bullets": [
+      "The state's brochure ranks American dog ticks (76%), blacklegged ticks (15%), lone star ticks (5%), woodchuck ticks (3%) and brown dog ticks (1%) as the five most common ticks submitted in Michigan.",
+      "CDC's table, which runs through December 2025, lists blacklegged ticks as established in 12 of the 15 Upper Peninsula counties and 44 of the 68 Lower Peninsula counties.",
+      "Michigan reported 557 Lyme disease cases in 2022, which is 73% above its 2017 to 2019 average of 322.",
+      "The state's brochure puts the most active months at April through September.",
+      "Michigan residents can email a photo of a tick to the state health department for free identification, but a 2023 county release says the state does not test ticks for disease."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Michigan at a glance",
+    "rows": [
+      ["Known tick species", "More than 20 (state brochure)"],
+      ["Most submitted tick", "American dog tick, 76% of ticks submitted"],
+      ["Tick that spreads Lyme disease", "Blacklegged (deer) tick, *Ixodes scapularis*"],
+      ["Counties with established blacklegged ticks", "56 of 83 (CDC, through December 2025)"],
+      ["Reported Lyme disease cases", "557 in 2022; about 1,150 in CDC's 2023 county file"],
+      ["Most active months", "April to September (state brochure)"],
+      ["State tick identification", "Free from a photo for Michigan residents"],
+      ["State tick testing for disease", "Not offered to residents, per a 2023 county release"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Which ticks live in Michigan?" },
+    { "type": "p", "text": "More than 20 tick species are known in Michigan, but only five are common on people and pets. [The Michigan Department of Health and Human Services (MDHHS) brochure on ticks](https://training.detroitmi.gov/sites/training.detroitmi/files/2021-05/ticksmichigan.pdf) ranks those five by their share of the ticks submitted in the state, and the American dog tick leads by a wide margin." },
+    { "type": "table", "head": ["Tick", "Share of submitted ticks", "Where the state says it lives", "Diseases the state lists"], "rows": [
+      ["American dog tick (wood tick)", "76%", "Widespread across both peninsulas, in wooded and grassy areas", "Rocky Mountain spotted fever, tularemia"],
+      ["Blacklegged tick (deer tick), *Ixodes scapularis*", "15%", "Described as emerging and sporadic across both peninsulas, in wooded and grassy areas", "Lyme disease, anaplasmosis, babesiosis, deer tick virus, Ehrlichia muris-like disease"],
+      ["Lone star tick, *Amblyomma americanum*", "5%", "Rare but becoming more common; wooded areas with white-tailed deer", "Ehrlichiosis, tularemia"],
+      ["Woodchuck tick, *Ixodes cookei*", "3%", "Mostly in woodchuck and skunk dens; also woods where other mammals are plentiful", "Powassan encephalitis"],
+      ["Brown dog tick (kennel tick)", "1%", "Can live and breed indoors, and also in grassy, brushy areas outdoors", "Rocky Mountain spotted fever, canine babesiosis, canine ehrlichiosis"]
+    ], "caption": "Source: MDHHS tick brochure. The edition cited here gives no year for the percentages, so read them as a rough ranking of ticks people send in, not a count of ticks in the woods." },
+    { "type": "p", "text": "The American dog tick is large and brown with white markings. MDHHS says females are generally active from May through July and bite both people and pets." },
+    { "type": "p", "text": "The blacklegged tick is the one that matters most for Lyme disease. The brochure describes it as small, with black legs and a rounded black shield behind the head, and warns that it can be hard to tell from other species. It also calls the blacklegged tick an emerging species in Michigan, which is why the county data below says more than the species ranking does. For help telling the species and life stages apart, see [how to recognize ticks by size, color and markings](/blog/what-do-ticks-look-like)." },
+    { "type": "media", "needed": "Side-by-side macro photo of an adult female American dog tick, lone star tick and blacklegged tick on a white card next to a ruler marked in inches, sharp enough to show leg color and the shield behind each head" },
+    { "type": "p", "text": "The woodchuck tick is usually found in woodchuck and skunk dens and mostly bites pets that wander near those dens, though it also bites people working or walking in the woods. The brown dog tick can survive and breed indoors, and the state says it turns up in shelters, breeding facilities and kennels." },
+
+    { "type": "h2", "text": "Where are blacklegged ticks established in Michigan?" },
+    { "type": "p", "text": "Blacklegged ticks are now recorded as established in 56 of Michigan's 83 counties, according to a CDC county table that runs through December 31, 2025. [CDC's tick surveillance data sets](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) call a county established when six or more ticks of one life stage, or more than one life stage, were collected there within a 12-month period. A county is reported when fewer than six ticks of one life stage turned up, and the label no records does not mean ticks are absent." },
+    { "type": "p", "text": "Both peninsulas are well covered. Twelve of the 15 Upper Peninsula counties are established, and the other three (Alger, Luce and Mackinac) are reported. In the Lower Peninsula, 44 of 68 counties are established, 11 are reported and 13 have no records: Antrim, Arenac, Branch, Crawford, Gratiot, Kalkaska, Mecosta, Missaukee, Monroe, Oscoda, Roscommon, Shiawassee and Wexford. The established list includes the three Detroit-area counties of Wayne, Oakland and Macomb, as well as Kent, Washtenaw and Ingham." },
+    { "type": "media", "needed": "Map of Michigan's 83 counties shaded by CDC blacklegged tick status (established, reported, no records), with the Upper Peninsula and Lower Peninsula labeled and the 13 no-record counties clearly marked" },
+    { "type": "p", "text": "Read the table as a record of where people have looked, not as a measure of risk. CDC's data notes say that reporting and testing effort varies by county, state and year, so the table may not reflect true differences in tick numbers. Status is also cumulative: a county keeps its established label once it has earned it." },
+    { "type": "h3", "text": "How fast did the range grow?" },
+    { "type": "p", "text": "Fast: the number of Michigan counties with established blacklegged ticks went from 5 in 1998 to 24 in 2016, and CDC's table now lists 56. The earlier figures come from a peer-reviewed study of Michigan Lyme disease by Lantos and colleagues, [published in Open Forum Infectious Diseases](https://pmc.ncbi.nlm.nih.gov/articles/PMC5412582) in 2017, which summarizes the published county tick records and defines established and reported in nearly the same way CDC does today." },
+    { "type": "table", "head": ["Year", "Counties with established blacklegged ticks", "Source"], "rows": [
+      ["1998", "5, only one of them in the Lower Peninsula; ticks reported in 22 counties", "Lantos et al., citing earlier county records"],
+      ["2007", "7 more than in 1998, all in the Lower Peninsula (12 by that count); ticks reported in 4 additional counties", "Lantos et al."],
+      ["2016", "24, plus 18 more counties with reports", "Lantos et al."],
+      ["2025", "56, plus 14 reported", "CDC county table"]
+    ], "caption": "Established means six or more ticks, or more than one life stage, collected in a county within a year." },
+    { "type": "p", "text": "The spread followed the water first. The study describes progressive northward movement along the Lake Michigan coast from 2004 to 2009, with inland sites following later: 3 of 4 monitored inland sites had established populations by 2010 and all 4 by 2014. In the Upper Peninsula, the heaviest cluster of Lyme cases sat in southern Menominee County from 2000 to 2004, expanded into neighboring Dickinson and Delta counties over the next five years, and was followed by further spread along the Lake Superior coast from 2010 to 2014. One caution on the earliest figures: the study's results count five established counties in 1998, while its discussion says initial surveillance suggested the only established population was in Menominee County, so read the 1998 count as approximate." },
+    { "type": "p", "text": "MDHHS also sorts counties on its own Lyme disease risk map. The brochure defines a known-risk county as one with at least two confirmed local exposures, or with ticks or animals carrying the Lyme bacteria, and a potential-risk county as one next to a confirmed county or with blacklegged ticks present but not infected. Counties with negative sampling or no information are shown separately, and the brochure points readers to the state's Lyme disease page for the current map. If you are deciding how much work your own yard needs, [a homeowner's guide to controlling ticks](/blog/ultimate-tick-control-guide-ontario) lays out the options." },
+
+    { "type": "h2", "text": "Is the lone star tick in Michigan?" },
+    { "type": "p", "text": "Yes, but in small and growing numbers. The state's brochure calls the lone star tick rare in Michigan but becoming more common, says it lives in wooded areas with white-tailed deer, and says all of its stages bite people and pets. The [Washtenaw County Health Department](https://augustatownship.org/wp-content/uploads/2023/05/WCHD_Press_Release-Stay_Healthy_This_Tick_and_Mosquito_Season.pdf) reported in May 2023 that lone star ticks had already been identified in the county that year, and that the species, once relatively rare in Michigan, had started to become more common in the Lower Peninsula over the previous decade." },
+    { "type": "p", "text": "The lone star tick does not transmit Lyme disease. The same county release lists ehrlichiosis, tularemia, Bourbon virus, Heartland virus and southern tick-associated rash illness among the diseases it can transmit, and says it may be associated with alpha-gal syndrome, the red meat allergy. The story of how a bite leads to that allergy is covered in [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome)." },
+
+    { "type": "h2", "text": "How much Lyme disease does Michigan have?" },
+    { "type": "p", "text": "Michigan reported 557 Lyme disease cases in 2022, a rate of 5.5 per 100,000 people, which is 73% above the state's 2017 to 2019 average of 322 cases. Those figures come from [CDC's 2022 Lyme disease surveillance report](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm), which lists Michigan among its low-incidence jurisdictions. Cases in the low-incidence jurisdictions as a group rose 10.0% over the same baseline, so Michigan's increase stands out, although the report cautions that a revised case definition took effect in 2022 and limits comparisons with earlier years. Wisconsin, a high-incidence neighbor, reported 88.4 cases per 100,000 people that year." },
+    { "type": "p", "text": "The trend inside Michigan is steep. [Lantos and colleagues](https://pmc.ncbi.nlm.nih.gov/articles/PMC5412582) counted fewer than 30 cases a year from 2000 to 2004, more than 90 by 2009 and 166 in 2013, and found that cases rose more than five-fold in both peninsulas between 2000 and 2014. In the Lower Peninsula, cases first built up along the Indiana border and the Lake Michigan shore." },
+    { "type": "p", "text": "[CDC's county-level Lyme disease data file](https://data.cdc.gov/National-Center-for-Emerging-and-Zoonotic-Infectio/Lyme-disease-public-use-aggregated-data-with-geogr/x5j9-wybp) lists about 1,150 Michigan cases for 2023 (1,087 confirmed and 63 probable), counted by the county where the patient lives. The file is privacy-protected and hides the county on some records, 67 of the Michigan cases among them, so treat it as an estimate and compare it with the 2022 report with care, because they are different CDC products." },
+    { "type": "table", "head": ["County (patient's residence)", "Cases in 2023", "Region"], "rows": [
+      ["Kalamazoo", "187", "Southwest Lower Peninsula"],
+      ["Washtenaw", "116", "Southeast Lower Peninsula"],
+      ["Kent", "80", "West Lower Peninsula (Grand Rapids area)"],
+      ["Dickinson", "60", "Upper Peninsula, on the Wisconsin border"],
+      ["Oakland", "48", "Southeast Lower Peninsula"],
+      ["Berrien", "46", "Southwest corner, on Lake Michigan"],
+      ["Calhoun", "46", "South-central Lower Peninsula"],
+      ["Allegan", "44", "Southwest Lower Peninsula, on Lake Michigan"]
+    ], "caption": "Confirmed and probable cases combined, counted for the county where the patient lived, not necessarily where the tick bite happened. Source: CDC county-level Lyme disease file, 2023." },
+    { "type": "p", "text": "Residence is not the same as exposure. Lantos and colleagues note that standard reporting records where a patient lives, which can differ from where the bite happened, and that is why populous areas such as Ann Arbor and Grand Rapids appear in case counts. A high count in a county means residents are being diagnosed there, not necessarily that the county's own woods are the source. For what the illness looks like, see [the early and late symptoms of Lyme disease](/blog/lyme-disease-symptoms-guide), and for the tick behind it, [how to recognize the two US ticks that transmit Lyme](/blog/ticks-that-carry-lyme-disease)." },
+
+    { "type": "h2", "text": "When is tick season in Michigan?" },
+    { "type": "p", "text": "The state's brochure puts the most active months at April through September, so that is the window to be most careful. Within it, female American dog ticks are generally active from May through July, and the brochure says Lyme disease is most common in late spring and early summer. The [Washtenaw County Health Department](https://augustatownship.org/wp-content/uploads/2023/05/WCHD_Press_Release-Stay_Healthy_This_Tick_and_Mosquito_Season.pdf) adds that ticks can be active whenever the weather is above 40°F (4°C), so a mild day outside the April-to-September window is not automatically tick-free." },
+
+    { "type": "h2", "text": "Which tick-borne diseases occur in Michigan?" },
+    { "type": "p", "text": "Lyme disease is the best known, but Michigan blacklegged ticks have also been found carrying the germs behind anaplasmosis, babesiosis and an ehrlichiosis-like illness. [CDC's county table of pathogens in host-seeking blacklegged ticks](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) records where each germ has been identified in host-seeking ticks, meaning ticks looking for a host rather than feeding on one, as of December 31, 2025." },
+    { "type": "table", "head": ["Germ found in Michigan blacklegged ticks", "Illness", "Counties recorded"], "rows": [
+      ["*Borrelia burgdorferi*", "Lyme disease", "40 counties, in both peninsulas"],
+      ["*Anaplasma phagocytophilum*", "Anaplasmosis", "7: Berrien, Dickinson, Kalamazoo, Manistee, Menominee, Muskegon, Van Buren"],
+      ["*Babesia microti*", "Babesiosis", "1: Berrien"],
+      ["*Ehrlichia muris eauclairensis*", "Ehrlichia muris-like disease", "2: Berrien, Menominee"],
+      ["Powassan virus", "Powassan encephalitis", "None recorded in blacklegged ticks"]
+    ], "caption": "Illness names follow the state brochure's disease lists. None recorded means no published record in CDC's table, not proof the germ is absent." },
+    { "type": "p", "text": "Two other Borrelia species appear in the same table: *Borrelia miyamotoi* in 13 counties and *Borrelia mayonii* in Berrien County only. The pathogen table records where a germ was found in ticks, not where people were infected, so it complements the human case counts above rather than replacing them. It has no record of Powassan virus in host-seeking blacklegged ticks in any Michigan county. The state brochure, though, lists deer tick virus among the diseases tied to blacklegged ticks in Michigan and Powassan encephalitis, a potentially serious viral illness, as a risk from woodchuck ticks. A missing record in CDC's table means no published finding in collected ticks, not that the virus is absent." },
+    { "type": "p", "text": "Other ticks carry other diseases. The brochure links American dog ticks to Rocky Mountain spotted fever and tularemia, lone star ticks to ehrlichiosis and tularemia, and brown dog ticks to Rocky Mountain spotted fever plus canine babesiosis and canine ehrlichiosis. It says Lyme disease, tularemia, Rocky Mountain spotted fever, anaplasmosis and ehrlichiosis are treatable with antibiotics, and that people and pets treated in the early stages usually recover rapidly. A healthcare provider makes the diagnosis and the treatment decision, so describe the bite and your symptoms to one if you feel ill." },
+
+    { "type": "h2", "text": "What should you do after a tick bite in Michigan?" },
+    { "type": "p", "text": "Remove the tick promptly with fine-tipped tweezers, clean the bite, and watch your health for the next 30 days. The state brochure and the county health department describe the steps this way:" },
+    { "type": "ol", "items": [
+      "Grasp the tick with fine-tipped tweezers or a tick removal tool as close to the skin as possible.",
+      "Pull slowly but firmly straight out, without twisting or jerking, because the mouthparts can stay in the skin.",
+      "Do not use petroleum jelly, a hot match or other irritants, which can lead to a skin infection or a burn.",
+      "Wash the bite and your hands with soap and water, then apply an antiseptic.",
+      "Take a clear photo first if you want the tick identified, then dispose of it by flushing it down the toilet; the county health department says you do not need to keep it for testing."
+    ] },
+    { "type": "p", "text": "For a longer walk-through, see [how to remove a tick safely and when to call a doctor](/blog/how-to-remove-tick-safely), and for a checklist of where ticks hide on the body, see [a full-body tick check](/blog/how-to-do-a-tick-check). The brochure says ticks favor the hairline, ears, waistline, armpits and groin." },
+    { "type": "p", "text": "How long a tick must feed before it can pass on the Lyme bacteria is worded differently from one Michigan source to the next. The state's brochure says in its text that an infected tick must be attached for 36 to 48 hours, and in its disease table that transmission does not occur unless the tick is attached longer than 24 to 48 hours. The Washtenaw County Health Department says the risk is very low when a tick has been attached for fewer than 24 hours. All three point the same way in practice: the sooner a tick comes off, the better, and if you become ill, tell your provider about the bite." },
+    { "type": "p", "text": "Then watch for symptoms. The county health department passes on the state's advice to monitor for a rash, fatigue, fever, headache, muscle pain, or joint swelling or pain within 30 days of the latest tick bite or of a visit to an area with ticks. The brochure describes early Lyme disease as appearing 3 to 30 days after exposure, with chills, fever, headache, and muscle and joint pain, plus a skin rash called erythema migrans in 70% to 80% of cases. It adds that most of these rashes are uniformly red or reddish-blue rather than a bull's-eye." },
+    { "type": "callout", "tone": "warning", "title": "Contact a healthcare provider if you become ill", "text": "A rash, fever, headache or body aches within weeks of a tick bite or time in tick habitat is a reason to see a healthcare provider and mention the tick. This page summarizes what public health agencies publish and is not a diagnosis." },
+
+    { "type": "h2", "text": "How do you get a tick identified by the state of Michigan?" },
+    { "type": "p", "text": "Michigan residents can email a photo of a tick to MDHHS-Bugs@michigan.gov for identification at no charge, according to the [Washtenaw County Health Department's 2023 release](https://augustatownship.org/wp-content/uploads/2023/05/WCHD_Press_Release-Stay_Healthy_This_Tick_and_Mosquito_Season.pdf). The release points to the state's emerging diseases web pages for the photo instructions." },
+    { "type": "p", "text": "The brochure describes a different route. It tells readers to send the tick in a small vial with a damp piece of tissue or grass, following the guidelines on the state's Lyme disease page, and says the service is free for ticks removed from Michigan residents. Because the two documents describe different routes, check the state's current instructions before you mail anything." },
+    { "type": "p", "text": "Identification is not testing. The county health department says MDHHS does not test ticks from residents for disease, because the result does not predict whether you were infected. Identification still helps. It tells you whether the tick was a blacklegged tick, the only one of the five common species the brochure ties to Lyme disease, and it gives you something concrete to tell a healthcare provider. The brochure also notes that the state knows as much as it does about Michigan ticks because people send them in." },
+
+    { "type": "h2", "text": "How do you prevent tick bites in Michigan?" },
+    { "type": "p", "text": "Stay on groomed trails, check yourself every day, use a repellent registered for ticks and keep the edge of your yard cleared and sunny. The state brochure and the county health department recommend these habits:" },
+    { "type": "ul", "items": [
+      "**Stay out of the brush.** The brochure says ticks prefer shady, moist, wooded and grassy places and advises staying on well-groomed trails and avoiding overgrown grass, brush and leaf litter. The county health department adds long sleeves, shoes and socks, and walking in the center of trails.",
+      "**Check and shower.** Check your skin and clothes daily, even in your own yard, using a mirror for hard-to-see areas, and shower soon after coming indoors. Light-colored clothing makes ticks easier to spot, and the brochure says high heat in a dryer for at least one hour kills ticks you missed.",
+      "**Use a repellent registered for ticks.** The brochure names products containing DEET, picaridin or oil of lemon eucalyptus, and the county health department recommends 20% or more DEET. Follow the label, and do not apply repellent directly to children; put it on your own hands first and avoid their hands, eyes, nose and mouth.",
+      "**Treat clothing with permethrin, not skin.** The brochure says permethrin kills ticks on contact, that some products are labeled for clothing and keep working through several washings, and that permethrin should not be applied directly to skin.",
+      "**Shape the yard.** The brochure suggests keeping grass mowed, clearing leaf litter and brush at the lawn's edge, keeping wood piles and bird feeders away from the house, trimming shrubs and branches for sunlight, moving swing sets and sandboxes away from woodland edges, and laying a sunny three-foot barrier of wood chips, mulch or gravel between lawn and woods. It says pesticides can be used as targeted treatments if the label is followed and they are kept away from streams and water; [what kills ticks in the yard and on clothing](/blog/what-kills-ticks) compares the options.",
+      "**Protect pets.** Ticks ride in on dogs and cats, so check pets regularly, running your hands over the body to feel bumps and looking in the ears, chest and between the toes. Ask a veterinarian about prevention; the brochure says a Lyme vaccine should be considered for dogs that live where the disease is established, and that you should tell your veterinarian if a pet becomes ill after tick exposure. Our guides cover [ticks on dogs](/blog/ticks-on-dogs) and [what actually kills ticks on dogs](/blog/what-kills-ticks-on-dogs-instantly)."
+    ] }
+  ],
+  "faqs": [
+    {
+      "question": "Are there ticks in the Upper Peninsula?",
+      "answer": "Yes. CDC's county table, which runs through the end of 2025, lists blacklegged ticks as established in 12 of the Upper Peninsula's 15 counties and as reported in the other three: Alger, Luce and Mackinac. Menominee County in the western Upper Peninsula was among the earliest Michigan counties with established blacklegged ticks. The cluster of Lyme cases there later expanded into neighboring Dickinson and Delta counties, and transmission then extended along the Lake Superior coast, according to a peer-reviewed study of state case data."
+    },
+    {
+      "question": "Does every blacklegged tick in Michigan carry Lyme disease?",
+      "answer": "No. CDC's table records the Lyme bacterium, Borrelia burgdorferi, in host-seeking blacklegged ticks in 40 of Michigan's 83 counties. The other 43 counties have no published record of the bacterium in ticks, which can mean no testing rather than no infection. The state's own risk map separates known-risk counties from potential-risk counties, a group that includes places where blacklegged ticks are present but not infected with the Lyme bacteria, so the chance that a tick is infected varies by place."
+    },
+    {
+      "question": "How long does a tick have to be attached to give you Lyme disease?",
+      "answer": "Michigan sources word it differently. The state's brochure says an infected blacklegged tick must be attached for 36 to 48 hours before the bacteria can be transmitted, and its disease table says transmission does not occur unless the tick is attached longer than 24 to 48 hours. A Michigan county health department says the risk is very low if a tick has been attached for fewer than 24 hours. Because the exact time is hard to know, remove a tick as soon as you find it and watch for symptoms for 30 days."
+    },
+    {
+      "question": "Can I send a tick to Michigan's health department to be tested for Lyme?",
+      "answer": "Not according to a 2023 release from the Washtenaw County Health Department, which says the Michigan Department of Health and Human Services does not offer tick testing to residents because the result does not predict whether you were infected. The state does identify ticks from photos at no charge for Michigan residents, using the email address MDHHS-Bugs@michigan.gov. If you feel ill after a bite, a healthcare provider decides on testing and treatment."
+    },
+    {
+      "question": "Is the lone star tick established in Michigan?",
+      "answer": "The sources behind this page do not call it established. The state's brochure describes the lone star tick as rare in Michigan but becoming more common, and it made up 5% of the ticks submitted in the state. A county health department reported in May 2023 that the species had started to become more common in the Lower Peninsula over the previous decade and had already been identified in Washtenaw County that year. Lone star ticks do not transmit Lyme disease, but the same release says they can transmit ehrlichiosis and tularemia and may be associated with alpha-gal syndrome."
+    },
+    {
+      "question": "What should I do if I find a tick on my dog in Michigan?",
+      "answer": "The state's brochure says to remove a tick from an animal the same way you would from a person: grasp it with fine-tipped tweezers or a removal tool as close to the skin as possible and pull straight out without twisting. Watch the spot afterward, and tell your veterinarian if your pet becomes ill following tick exposure. Ask the veterinarian which tick preventive suits your dog, since the brochure notes pets can catch the same tick-borne diseases people do."
+    }
+  ],
+  "sources": [
+    { "title": "Ticks and Your Health: Preventing Tick-Borne Illness in Michigan", "publisher": "Michigan Department of Health and Human Services, with the Michigan Department of Natural Resources and Michigan State University (copy hosted by the City of Detroit)", "url": "https://training.detroitmi.gov/sites/training.detroitmi/files/2021-05/ticksmichigan.pdf" },
+    { "title": "Geographic Expansion of Lyme Disease in Michigan, 2000-2014", "publisher": "Open Forum Infectious Diseases (Oxford University Press), via PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5412582" },
+    { "title": "Tick Surveillance Data Sets", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html" },
+    { "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022", "publisher": "CDC Morbidity and Mortality Weekly Report", "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm" },
+    { "title": "Lyme disease public use aggregated data with geography, 2022-2023", "publisher": "Centers for Disease Control and Prevention", "url": "https://data.cdc.gov/National-Center-for-Emerging-and-Zoonotic-Infectio/Lyme-disease-public-use-aggregated-data-with-geogr/x5j9-wybp" },
+    { "title": "Stay Healthy This Tick and Mosquito Season (press release, May 4, 2023)", "publisher": "Washtenaw County Health Department (copy hosted by Augusta Township)", "url": "https://augustatownship.org/wp-content/uploads/2023/05/WCHD_Press_Release-Stay_Healthy_This_Tick_and_Mosquito_Season.pdf", "kind": "news" }
+  ],
+  "disclaimer": "health"
+}

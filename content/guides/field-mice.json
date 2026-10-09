@@ -1,0 +1,136 @@
+{
+  "slug": "field-mice",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "field mice",
+  "alsoTargets": [],
+  "metaTitle": "Field Mice: Deer Mice, Voles and What to Do",
+  "metaDescription": "Field mouse is a loose name for deer mice, white-footed mice and voles. Learn how to tell them apart, when they come indoors and how control differs.",
+  "h1": "Field Mice: What They Are, How to Tell Which One You Have and What to Do",
+  "dek": "What the name field mouse covers in the US, how to tell a deer mouse, a white-footed mouse and a vole apart, when they move indoors, what they damage, and how control differs from house mice.",
+  "breadcrumb": "Field Mice",
+  "excerpt": "Field mouse is a loose name for deer mice, white-footed mice and voles. How to tell them apart, when they come indoors, what they damage and how to control them.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Field mouse is a loose name, not a species: in the US it can mean a deer mouse, a white-footed mouse or a vole.** [The Pennsylvania Game Commission](https://www.pa.gov/agencies/pgc/wildlife/discover-pa-wildlife/mice-and-voles) says the meadow vole is often called a field mouse. The two true mice have white bellies and can nest in buildings. Voles have short tails and usually stay outside.",
+    "bullets": [
+      "A deer mouse measures 6 1/2 to 8 inches including a 3- to 4-inch tail, while a meadow vole is 6 to 7.6 inches with a tail of only 1.3 to 2.5 inches, by Pennsylvania Game Commission figures.",
+      "Cornell says deer mice and white-footed mice enter structures from fall through spring, and the University of California says voles usually do not enter buildings.",
+      "CDC's 2002 recommendations put the average at about 10 percent of deer mice tested showing evidence of Sin Nombre virus, and no vole hantavirus had been linked to human disease in the US at that time.",
+      "The University of California puts a deer mouse's home range at 1/3 acre to 4 or more acres.",
+      "The University of California says to seal openings larger than 1/4 inch.",
+      "For voles, the University of California describes a barrier at least 12 inches high with mesh of 1/4 inch or smaller, its bottom edge buried 6 to 10 inches."
+    ]
+  },
+  "facts": {
+    "title": "Field mice at a glance",
+    "rows": [
+      ["What the name means", "No single species; a loose US name for small wild rodents found outdoors"],
+      ["Deer mouse", "6 1/2 to 8 inches with tail; white belly; tail 3 to 4 inches"],
+      ["White-footed mouse", "6 to 7 1/2 inches with tail; reddish brown above; tail 2 1/2 to 3 1/2 inches"],
+      ["Meadow vole", "6 to 7.6 inches with tail; tail 1.3 to 2.5 inches; dull chestnut brown"],
+      ["Comes indoors", "Deer and white-footed mice: fall through spring. Voles: usually not."],
+      ["Hantavirus hosts", "Deer mouse and white-footed mouse; no vole virus linked to human disease in the US as of CDC's 2002 report"],
+      ["Gap to seal", "Anything larger than 1/4 inch"],
+      ["Vole barrier", "Fence or flashing at least 12 inches high, mesh 1/4 inch or smaller, bottom buried 6 to 10 inches"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What are field mice?" },
+    { "type": "p", "text": "Field mouse is a popular name, not a species, and in the United States it can mean several different wild rodents. The [Pennsylvania Game Commission's note on mice and voles](https://www.pa.gov/agencies/pgc/wildlife/discover-pa-wildlife/mice-and-voles) says the meadow vole is often called a field mouse, and the [University of California's pest note on voles](https://ipm.ucanr.edu/PMG/PESTNOTES/pn7439.html) is titled Voles (Meadow Mice), a sign of how easily the mouse label attaches to a vole." },
+    { "type": "p", "text": "The true mice behind the name are the deer mouse (*Peromyscus maniculatus*) and the white-footed mouse (*Peromyscus leucopus*), two native mice that the Pennsylvania note places in farm fields, brushland, woods and pastures. The notes read for this page use the specific names for these mice rather than field mouse, so which animal a person means depends on what they saw and where. The candidates fall into three groups: deer mice, white-footed mice and voles." },
+    { "type": "p", "text": "The label matters because the three behave differently. The mice come into buildings and can carry hantavirus. Voles damage lawns, gardens and trees and usually stay outside. The [deer mouse guide](/blog/deer-mice) goes deeper on the deer mouse, and for house mice and the full control sequence, start with the [complete guide to controlling mice](/learn/mice)." },
+
+    { "type": "h2", "text": "How can you tell which field mouse you have?" },
+    { "type": "p", "text": "Check the tail, the belly and the ears. A deer mouse or white-footed mouse has a white belly and a tail of roughly 2 1/2 to 4 inches, while a vole's tail is 2 1/2 inches or less, with short legs, small eyes and ears partly hidden in its fur. The table gives the Pennsylvania Game Commission's measurements for the animals that get lumped together as field mice, with the house mouse added for comparison." },
+    { "type": "table", "head": ["Animal", "Length with tail", "Tail", "Coat and markings", "Where it lives"], "rows": [
+      ["Deer mouse", "6 1/2 to 8 inches", "3 to 4 inches", "Brownish gray above (gray when young), white underneath", "Farm fields, brushland and deep woods"],
+      ["White-footed mouse", "6 to 7 1/2 inches", "2 1/2 to 3 1/2 inches", "Reddish brown above, white on the belly and feet", "Woods, fields and pastures; also farm buildings and houses"],
+      ["Meadow vole", "6 to 7.6 inches", "1.3 to 2.5 inches", "Dull chestnut brown, darker along the middle of the back", "Moist meadows and fields"],
+      ["Woodland vole", "4.3 to 5.5 inches", "0.7 to 1 inch", "Chestnut brown above, gray belly", "Wooded bottomlands, hemlock and hardwood forests, old fields"],
+      ["Meadow jumping mouse", "8 to 9 inches", "5 to 6 inches", "Yellowish brown with a dark stripe down the back, orangish sides, white belly and feet", "Moist grassy and brushy fields"],
+      ["House mouse (for comparison)", "6 to 8 inches", "About 3 inches, scaly and nearly hairless", "Various shades of gray", "In and near houses and on farms"]
+    ], "caption": "Figures and habitats are from the Pennsylvania Game Commission and describe animals in that state." },
+    { "type": "media", "needed": "Side-by-side photo on a plain background, all in side view with a US quarter for scale: a deer mouse, a white-footed mouse and a meadow vole, showing belly color, tail length and ear size" },
+    { "type": "h3", "text": "Deer mouse or white-footed mouse?" },
+    { "type": "p", "text": "The two are close enough that the measurements overlap, and for a homeowner the difference changes little. Pennsylvania gives the deer mouse a 3- to 4-inch tail and the white-footed mouse a 2 1/2- to 3 1/2-inch tail, and describes the white-footed mouse as reddish brown above. The [University of California's deer mouse note](https://ipm.ucanr.edu/home-and-landscape/deer-mouse/) describes the deer mouse's tail as two-toned, white underneath and darker on top, and adds white undersides, legs and feet. [CDC's 2002 hantavirus recommendations](https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5109a1.htm) say only these two mice are commonly associated with the areas in and around homes, so they call for the same precautions." },
+    { "type": "p", "text": "Size will not settle it, because the sources disagree. The University of California says the mice of the deer mouse's genus, which it calls white-footed mice as a group, typically have larger eyes, ears and overall body size than house mice, while [Cornell's page on mouse and rat biology](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behaviour) calls the white-footed and deer mice about the same size and shape as house mice. Go by the belly and the tail instead. A fuller comparison is in the guide to [how a deer mouse differs from a house mouse](/blog/deer-mice)." },
+    { "type": "h3", "text": "How do you recognize a vole?" },
+    { "type": "p", "text": "A vole has a short, short-furred tail, short legs, small eyes and ears that are partly hidden in its fur, according to the University of California, which gives the adult length as 5 to 8 inches including the tail. It describes the fur as blackish brown to grayish brown, while Pennsylvania calls the meadow vole's dull chestnut brown, so color is a weak guide. The tail and the ears are better." },
+    { "type": "p", "text": "The animal is hard to see, but its sign is not. The University of California says the clearest sign of voles is the well-traveled aboveground runways that connect burrow openings, and it measures the openings at about 1 1/2 to 2 inches across. On trees, it describes gnaw marks about 1/8 inch wide and 3/8 inch long in irregular patches. If the evidence is droppings indoors, this guide shows [what mouse droppings look like, fresh and old](/blog/what-does-mouse-poop-look-like-canada)." },
+    { "type": "media", "needed": "Close-up photo of a vole runway through lawn grass with an open burrow entrance beside a US quarter for scale, and a second photo of a young tree trunk with irregular patches of vole gnaw marks at its base" },
+    { "type": "h3", "text": "How is a house mouse different?" },
+    { "type": "p", "text": "A house mouse is the baseline for comparison. Cornell describes its body as a uniform color and says it can live its entire life indoors, while the deer mouse and white-footed mouse have white fur on the belly. Pennsylvania describes the house mouse as shades of gray with a 3-inch, scaly, nearly hairless tail. The [guide to the types of mice](/blog/types-of-mice) puts the house mouse and the two native species side by side." },
+
+    { "type": "h2", "text": "When do field mice come into the house, garage or shed?" },
+    { "type": "p", "text": "Deer mice and white-footed mice enter structures from fall through spring, according to Cornell, which adds that they spend most of their time outdoors. Voles stay out: the University of California says they are poor climbers and usually do not enter homes or other buildings. House mice are the exception to the seasonal pattern, because Cornell says they can live their entire life indoors." },
+    { "type": "p", "text": "The sources give no temperature or date that triggers the move, so treat fall through spring as the season to seal and trap, not as a precise calendar. What the University of California does say is where deer mice go: they can get into many buildings and often enter vacated homes, cabins and other structures, where they build nests and store food. That describes a cabin, garage or shed that sits closed for weeks. Pennsylvania also lists farm buildings and houses among the places white-footed mice live." },
+    { "type": "p", "text": "The university adds that deer mice are not common in urban and residential areas unless large or numerous parks or fields are nearby. A house backing onto open land is therefore the typical setting. The entry points are small, since the University of California says to seal openings larger than 1/4 inch. The guide to [how high mice climb and how small a gap they fit through](/blog/can-mice-climb-walls) covers the routes, and a separate guide to [keeping mice out of a house before winter](/blog/how-to-keep-mice-out-of-your-house-winter) covers exclusion." },
+
+    { "type": "h2", "text": "Do field mice carry hantavirus?" },
+    { "type": "p", "text": "The deer mouse and the white-footed mouse can; voles carry different hantaviruses that had not been linked to human disease in the US as of CDC's 2002 report. [CDC's hantavirus overview](https://www.cdc.gov/hantavirus/about/index.html) says the most common hantavirus that causes hantavirus pulmonary syndrome (HPS) in the United States is spread by the deer mouse. The 2002 recommendations describe the voles' viruses as a group distinct from those that cause HPS." },
+    { "type": "p", "text": "Not every deer mouse is infected. The same report gives an average of about 10 percent of deer mice tested across the species' range showing evidence of infection with Sin Nombre virus, and it recommends treating every rodent in the group that carries the HPS-causing viruses as though it were infected and infectious. It also notes that HPS cases occur throughout the year, with more reported in spring and summer." },
+    { "type": "p", "text": "People get hantavirus from contact with rodents, especially exposure to their urine, droppings and saliva, according to CDC; bites or scratches are a rare route. Symptoms usually start 1 to 8 weeks after contact with an infected rodent, with fatigue, fever and muscle aches. Four to 10 days after that first phase, coughing and shortness of breath begin. CDC says 38 percent of people who develop respiratory symptoms may die." },
+    { "type": "callout", "tone": "warning", "title": "When to get medical help", "text": "If you develop fever, fatigue, muscle aches or shortness of breath in the weeks after contact with wild rodents or their droppings, contact a healthcare provider right away and mention the possible exposure. CDC says to see a physician immediately if you suspect hantavirus disease." },
+    { "type": "p", "text": "Voles carry other risks. The University of California says they can carry infectious pathogens or parasites and advises wearing gloves to handle a dead vole. The [deer mouse guide](/blog/deer-mice) walks through the CDC method for cleaning up droppings, nests and dead mice." },
+
+    { "type": "h2", "text": "What damage do field mice do in gardens, yards and sheds?" },
+    { "type": "p", "text": "The record in these sources splits by animal: voles go for roots and bark, while deer mice go for seeds and nesting material." },
+    { "type": "h3", "text": "Voles: roots, bark and lawn runways" },
+    { "type": "p", "text": "The University of California lists garden plants that voles damage, including beet, cabbage, carrot, lettuce, spinach, tomato and turnip, and says they eat the bark and roots of trees, usually in fall or winter, although damage can occur throughout the year. Gnawing can girdle a tree, which means completely encircling the trunk or roots, and the university says girdling can kill it." },
+    { "type": "p", "text": "The damage runs from a few inches above the ground to a few inches below, and in snowy areas it can reach a foot or more up the trunk. Snow hides the work: the University of California warns that damage under snow cover often escapes notice until it is too late. Pennsylvania places the meadow vole in moist meadows and fields, and the University of California says voles live in wildlands or croplands next to buildings." },
+    { "type": "h3", "text": "Deer mice and white-footed mice: seeds, nests and stored goods" },
+    { "type": "p", "text": "The University of California reports that deer mice feed on seeds in row crops, dig up planted melon seeds and eat alfalfa seed. Its examples come from farm crops, orchards and conifer forests, where it says seed eating by deer mice and other rodents has slowed regeneration, and none of the sources read for this page measures losses in home vegetable gardens, so treat garden seed loss as possible rather than measured." },
+    { "type": "p", "text": "Inside a shed or cabin, the damage is to soft goods. The university says deer mice damage upholstered furniture, mattresses, clothing, paper and other material they can use to build a nest. Outdoors, it calls wood and brush piles and fallen trees prime nesting areas, and says that clearing overgrown shrubs, hedges and weeds can dramatically reduce cover and refuges. A nest tucked into stored bedding may hold young; see [what baby mice look like and what a nest means for the size of the problem](/blog/baby-mice)." },
+
+    { "type": "h2", "text": "How fast do field mice breed, and how long do they live?" },
+    { "type": "p", "text": "Both voles and deer mice can breed by about 6 weeks old. By the University of California's figures, vole females mature in 35 to 40 days, have 5 to 10 litters a year of 3 to 6 young, and seldom live longer than 12 months. Female deer mice can be reproductively active as early as 6 weeks, litters are typically 3 to 6 young, and deer mice do not usually breed during winter." },
+    { "type": "p", "text": "Vole numbers also swing: in some areas the university says they are cyclical, peaking every 3 to 6 years before dropping back to low levels. A short life does not mean a problem will end by itself, and the guide to [how long mice live](/blog/how-long-do-mice-live) explains why." },
+
+    { "type": "h2", "text": "How is controlling field mice different from controlling house mice?" },
+    { "type": "p", "text": "The core steps are the same, which are sealing openings and trapping with snap traps. Field mice add three twists: the true mice come from outdoors, they call for hantavirus precautions, and the poison options are narrower. Voles need yard methods, not indoor mouse control." },
+    { "type": "p", "text": "The outdoor twist comes from two facts. Cornell says white-footed and deer mice spend most of their time outdoors, and the University of California puts a deer mouse's home range at 1/3 acre to 4 or more acres. A mouse trapped in a shed can therefore be replaced from the surrounding land, which is why sealing the building and cutting back cover matter as much as trapping. That last step is reasoning from those two facts, not a finding any source states." },
+    { "type": "table", "head": ["Topic", "Deer or white-footed mouse in a building", "Vole in a yard"], "rows": [
+      ["Where to act", "Gaps larger than 1/4 inch in the building, and the cover around it", "Lawn, garden beds and the base of young trees"],
+      ["Trap type", "Snap traps or electrocution traps", "Standard mouse snap traps set at right angles to the runways, with the trigger end in the runway"],
+      ["Bait", "Peanut butter, or peanut butter mixed with cereal or rolled oats", "Traps can generally be left unbaited; a peanut butter and oat mixture or apple slices also work"],
+      ["How many traps", "A dozen or more may be needed, spaced no more than about 10 feet apart", "A dozen is probably the minimum for a small garden; larger areas may need 50 or more; check daily"],
+      ["Barriers", "Seal openings larger than 1/4 inch", "Wire fence or aluminum flashing at least 12 inches high, mesh 1/4 inch or smaller, bottom edge buried 6 to 10 inches"],
+      ["Poison", "No toxic baits registered for deer mice in residential settings (2012 note)", "Zinc phosphide is a restricted-use toxicant labeled for non-residential lawns, ornamentals, golf courses and parks"],
+      ["Handling", "Avoid glue boards; hantavirus precautions", "Wear gloves to handle a dead vole"]
+    ], "caption": "From the University of California's pest notes on the deer mouse (last updated 2012) and on voles (updated 2023)." },
+    { "type": "p", "text": "Outside, CDC's 2002 recommendations call for mowing grass closely and cutting or removing brush and dense shrubbery to at least 100 feet from the home, and for raised cement foundations in new sheds, barns and outbuildings. The University of California adds that wood and brush piles should be kept away from buildings. For voles, it advises mowing grassy areas regularly along field edges and ditches and keeping a circle 4 feet across around the base of young trees free of vegetation." },
+    { "type": "p", "text": "Two methods are poor bets. The University of California says to avoid glue boards for deer mice, because the potential for contact with hantavirus is greatly increased. It also says ultrasonic and other frightening devices are not effective at repelling deer mice and that cats and dogs are unlikely to control a population; see [what the research says about ultrasonic pest repellers](/blog/ultrasonic-pest-repellers-do-they-work). For what works, the guides to [mouse traps and where to set them](/blog/mice-traps) and to [using steel wool as a mouse barrier](/blog/steel-wool-for-mice) cover the details." },
+    { "type": "callout", "tone": "warning", "title": "The label is the law", "text": "Every rodenticide is a pesticide. Use a product only for the pests and sites its label names, and keep it away from children, pets and wildlife. The University of California's deer mouse note dates from 2012 and registrations can change, so the label on the product is the authority. The consumer rules are in the guide to [mouse poison and the EPA's limits on it](/blog/mice-poison)." }
+  ],
+  "faqs": [
+    {
+      "question": "Are field mice the same as house mice?",
+      "answer": "No. House mouse is a specific species, gray with a nearly hairless tail, and Cornell says it can live its entire life indoors. Field mouse is a loose name that can mean a deer mouse, a white-footed mouse or a vole. Cornell says deer mice and white-footed mice have white belly fur, spend most of their time outdoors and enter structures from fall through spring. The University of California says voles have short tails and usually do not enter buildings."
+    },
+    {
+      "question": "Can field mice make you sick?",
+      "answer": "Some can. CDC says the most common hantavirus that causes hantavirus pulmonary syndrome in the United States is spread by the deer mouse, and its 2002 recommendations name the white-footed mouse as the other host commonly found around homes. People are infected mainly through exposure to urine, droppings and saliva. Symptoms start 1 to 8 weeks after contact, so see a physician immediately if you suspect hantavirus disease and mention the rodent exposure. Voles carry different hantaviruses, which CDC had not linked to human disease in the US as of 2002."
+    },
+    {
+      "question": "Do voles come into the house?",
+      "answer": "Usually not. The University of California says voles are poor climbers and usually do not enter homes or other buildings, and that they live in wildlands or croplands next to buildings. Their damage is outdoors: runways and burrow openings in lawns, plus gnawed bark and roots on trees and shrubs, mostly in fall and winter. A small rodent inside is more likely a mouse, so check for a long tail and a white belly."
+    },
+    {
+      "question": "How many traps do you need for field mice?",
+      "answer": "It depends on the animal. For deer mice indoors, the University of California says a dozen or more traps may be needed, spaced no more than about 10 feet apart, using snap or electrocution traps baited with peanut butter or peanut butter mixed with cereal or rolled oats. For voles in a yard, it says a dozen is probably the minimum for a small garden and larger areas may need 50 or more, set at right angles to the runways."
+    },
+    {
+      "question": "Can you use poison on field mice?",
+      "answer": "Check the label first, because the answer may be no. The University of California's deer mouse note, last updated in 2012, says no toxic baits are registered for controlling deer mice in residential settings. For voles, its note describes zinc phosphide as a restricted-use toxicant available for non-residential lawns, ornamentals, golf courses and parks. Registrations can change, so the label on a product is the authority on which pests and sites it covers, and it should never be used on a pest or in a place the label does not name."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Deer Mouse", "publisher": "University of California Statewide IPM Program (UC ANR Publication 74161)", "url": "https://ipm.ucanr.edu/home-and-landscape/deer-mouse/" },
+    { "title": "Voles (Meadow Mice)", "publisher": "University of California Statewide IPM Program (UC ANR Publication 7439)", "url": "https://ipm.ucanr.edu/PMG/PESTNOTES/pn7439.html" },
+    { "title": "Mice and Voles", "publisher": "Pennsylvania Game Commission", "url": "https://www.pa.gov/agencies/pgc/wildlife/discover-pa-wildlife/mice-and-voles" },
+    { "title": "Hantavirus Pulmonary Syndrome — United States: Updated Recommendations for Risk Reduction", "publisher": "Centers for Disease Control and Prevention (MMWR Recommendations and Reports, 2002)", "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5109a1.htm" },
+    { "title": "About Hantavirus", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/about/index.html" },
+    { "title": "Mouse and Rat Biology and Behavior", "publisher": "Cornell Integrated Pest Management, Cornell University", "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behaviour" }
+  ]
+}

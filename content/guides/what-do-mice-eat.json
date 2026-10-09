@@ -1,0 +1,153 @@
+{
+  "slug": "what-do-mice-eat",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "what do mice eat",
+  "alsoTargets": [],
+  "metaTitle": "What Do Mice Eat? Grain, Seeds and Fatty Foods",
+  "metaDescription": "Mice eat mostly seeds and grain but sample almost anything, about 1/10 ounce a day. See their diet, water needs, gnawing habits and the best trap bait.",
+  "h1": "What Do Mice Eat? Diet, Water, Gnawing and Why Peanut Butter Works",
+  "dek": "What wild and house mice eat, how much and how often, whether they need water, what they gnaw besides food, and what all of it means for trap bait and food storage.",
+  "breadcrumb": "What Mice Eat",
+  "excerpt": "Mice eat mostly seeds and grain, about 1/10 ounce a day in many small nibbles, and can live without drinking water. What that means for bait and food storage.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Mice eat mostly seeds and cereal grains, but they are omnivores that will sample almost any food a household leaves within reach.** An adult eats only about 1/10 ounce a day, taken in many small nibbles, and can live without drinking water, according to [University of California IPM](https://ipm.ucanr.edu/PMG/PESTNOTES/pn7483.html) and Nebraska Extension.",
+    "bullets": [
+      "An adult house mouse eats about 3 grams (1/10 ounce) a day, and UC IPM puts the ceiling at up to 20 percent of its body weight.",
+      "House mice feed in about 200 small meals a night, and a single mouse spoils far more food than it eats.",
+      "House mice can live with little or no free water, taking moisture from their food, but they drink readily when water is available.",
+      "Foods high in fat, protein or sugar, such as bacon, chocolate candy, butter and nutmeats, can beat grain even when grain is on hand.",
+      "CDC says a small amount of chunky peanut butter or mutton fat on the bait pan of a snap trap works best.",
+      "Mouse incisors never stop growing, so mice also gnaw wiring, cardboard, soap and insulation."
+    ]
+  },
+  "facts": {
+    "title": "Mouse diet at a glance",
+    "rows": [
+      ["Main foods", "Seeds and cereal grains; will eat almost anything"],
+      ["Food per day", "About 3 grams (1/10 ounce) per adult house mouse"],
+      ["Meals", "About 200 small meals each night"],
+      ["Water", "Can live with little or no free water; drinks readily if it is there"],
+      ["Foods that can beat grain", "Foods high in fat, protein or sugar"],
+      ["Range from nest and food", "Averages 10 to 30 feet across; seldom beyond 30 to 50 feet"],
+      ["Bait CDC names", "Chunky peanut butter or mutton fat, in a small amount"],
+      ["Non-food gnawing", "Wiring, cardboard, soap, insulation, food containers"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What do mice eat?" },
+    { "type": "p", "text": "Mice eat mostly seeds and cereal grains, but they are omnivores that take whatever food is available. [UC IPM's house mouse pest note](https://ipm.ucanr.edu/PMG/PESTNOTES/pn7483.html) lists cereals, grasses, roots, seeds and even insect larvae, and ties house mice to people because people store the foods mice prefer, cereals and grains. Robert Timm, a University of California extension wildlife specialist, writes in a 1994 chapter of the [Prevention and Control of Wildlife Damage handbook](https://www.maine.gov/dacf/php/gotpests/othercritters/factsheets/mice-ICWDM.pdf) that house mice prefer seeds and grain, are not hesitant to try new foods, and nibble at many kinds of items in their surroundings." },
+    { "type": "p", "text": "Grain is not always the first pick. Timm reports that foods high in fat, protein or sugar may be preferred even when grain and seed are on hand, and he names bacon, chocolate candies, butter and nutmeats. [Nebraska Extension's guide to controlling house mice](https://cms.unl.edu/ianr/extension/wildlife/sites/unl.edu.ianr.extension.wildlife/files/media/file/controlling-house-mice.pdf) agrees on the basic pattern: house mice prefer cereal grains but will eat almost anything." },
+    { "type": "table", "head": ["Food type", "Examples the sources name", "Source"], "rows": [
+      ["Grains and seeds", "Cereals, grains, grass seed", "UC IPM; Timm"],
+      ["Plant parts", "Grasses and roots", "UC IPM"],
+      ["Fat-, protein- or sugar-rich foods", "Bacon, chocolate candies, butter, nutmeats", "Timm"],
+      ["Insects", "Insect larvae; cockroaches", "UC IPM; Timm"],
+      ["Pet food and scraps", "Sacked or spilled pet food; crumbs and snacks", "Timm"]
+    ], "caption": "Foods named in UC IPM's house mouse pest note and in Timm's handbook chapter." },
+    { "type": "p", "text": "That menu is also why food control sits inside every mouse plan. [The complete guide to mice control](/learn/mice) shows how it fits with sealing, trapping and cleanup, and the rest of this page covers the food side in detail." },
+
+    { "type": "h2", "text": "What do mice eat in the wild?" },
+    { "type": "p", "text": "Outdoors, mice live mostly on seeds and add fruit, fungi and small invertebrates. [UC IPM's deer mouse pest note](https://ipm.ucanr.edu/home-and-landscape/deer-mouse/pest-notes/) calls deer mice predominantly granivorous, meaning seed eaters, and says they also eat fruits, invertebrates, fungi and, to a lesser extent, green vegetation. They often cache food near their nests, especially in autumn when tree seeds and nuts are most plentiful. The note adds that deer mice cache acorns, seeds and nuts far more readily than house mice do, which can help identify the species behind a stash." },
+    { "type": "p", "text": "House mice also live outdoors and feed on crops there. Timm says house mice can be found living far from human settlements, particularly where climates are moderate, and that mice living in fields may dig up and eat newly planted grain. Where an outdoor population exists, UC IPM says mice frequently move into homes in autumn when nighttime temperatures turn colder, and Timm adds that they come in search of shelter and food." },
+    { "type": "p", "text": "Which species you have changes the plan, so [how to tell house mice, deer mice and look-alikes apart](/blog/types-of-mice) is worth reading first, and [what to know about deer mice](/blog/deer-mice) covers the species with the stronger caching habit." },
+
+    { "type": "h2", "text": "What do mice eat in a house?" },
+    { "type": "p", "text": "Indoors, mice eat whatever people leave within reach: stored grains and cereals, crumbs, pet food and the contents of any package they can chew open. Timm describes mice finding ample food in kitchens, eating sacked or spilled pet food, grass seed and insects such as cockroaches in garages, and living on scraps from lunches and on cookies or candy bars kept in desks. The table pairs each place with what the sources say mice find there." },
+    { "type": "table", "head": ["Place", "What mice find there", "Source"], "rows": [
+      ["Kitchen and pantry", "Stored cereals and grains, spilled food", "UC IPM; Timm; CDC"],
+      ["Garage and shed", "Sacked or spilled pet food, grass seed, insects such as cockroaches", "Timm"],
+      ["Offices", "Scraps and crumbs from lunches, cookies and candy bars kept in desks", "Timm"],
+      ["Yard and outbuildings", "Bird feeders, grain and animal feed, compost, garbage", "CDC; Nebraska Extension"]
+    ], "caption": "Compiled from UC IPM, Timm's handbook chapter, Nebraska Extension and the CDC's seal-up guidance." },
+
+    { "type": "h2", "text": "How much do mice eat, and how often?" },
+    { "type": "p", "text": "An adult house mouse eats only about 3 grams of food a day, roughly 1/10 ounce, in a long series of small nibbles. Nebraska Extension gives 1/10 ounce a day, Timm gives about 3 grams, and UC IPM says house mice eat up to 20 percent of their body weight daily, in about 200 small meals each night. One caution: Timm pairs the 3 grams with an annual figure of 8 pounds (3.6 kilograms), which does not add up, since 3 grams a day is about 2.4 pounds (1.1 kilograms) a year. This page uses the daily figure that two sources agree on." },
+    { "type": "p", "text": "Waste, not appetite, is what makes mice expensive. Timm says a single mouse destroys considerably more food than it consumes, because it nibbles many foods and discards partly eaten items. UC IPM adds that mice may eat at the source or carry food off to a more secluded spot, and Nebraska Extension says they cache food as supply permits, so not everything that goes missing has been eaten." },
+    { "type": "p", "text": "Meals come mostly at night. UC IPM says house mice are active mostly at night but can be seen in daylight, since they are active at times when food is available. [When mice are active and what a daytime sighting means](/blog/are-mice-nocturnal) covers the schedule in full." },
+    { "type": "p", "text": "Mice also stay close to what they eat. UC IPM says house mice seldom venture more than 30 feet from their nest sites and food supply, Nebraska Extension puts the limit at 50 feet and says a mouse may leave its nest up to 40 times a day, and Timm cites studies in which a mouse's normal daily travel covers an area averaging 10 to 30 feet across. The sources differ on the distance but agree on the idea: the nest is near the food." },
+    { "type": "p", "text": "The eating shows up in droppings. Nebraska Extension says a house mouse leaves about 50 to 75 pellets a day, usually black but varying with the mouse's diet, and [a guide to mouse droppings by size, shape and age](/blog/what-does-mouse-poop-look-like-canada) helps you read them. A steady food supply also feeds a growing family: UC IPM says a female can have 5 to 10 litters a year of about 5 or 6 pups each, and [how quickly a nest of baby mice grows](/blog/baby-mice) shows what that means in practice." },
+
+    { "type": "h2", "text": "Do mice need water?" },
+    { "type": "p", "text": "Not much: house mice can live with little or no free water, getting the moisture they need from their food. Timm says they readily drink water when it is available but, unlike Norway and roof rats, can survive with little or none. UC IPM says they will seek liquids if their food is not providing enough moisture or if they live in a hot or dry environment. Timm adds that a lack of liquid water, or of food with enough moisture, may reduce their breeding potential." },
+    { "type": "p", "text": "That is why cutting off water rarely works by itself. Nebraska Extension says mice can survive in small areas with limited food and shelter and no water. [CDC's seal-up guidance](https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html) still says rodents are attracted to food and water sources and to convenient nesting places, and advises putting pet food away after use rather than leaving food or water bowls out overnight. Fixing leaks and clearing bowls takes away an easy drink, but none of the sources suggests it will drive mice out. How long a mouse lasts without either is covered in [how long mice live and survive without food](/blog/how-long-do-mice-live)." },
+
+    { "type": "h2", "text": "What do mice gnaw that is not food?" },
+    { "type": "p", "text": "Mice gnaw wiring, cardboard, soap, insulation and food containers because their front teeth never stop growing. Timm explains that mice keep their paired incisors, which grow continuously, worn down by gnawing on hard surfaces and by working the teeth against each other. The sources name these targets:" },
+    { "type": "ul", "items": [
+      "**Wiring and cords.** UC IPM says house mice gnaw electrical wires and gas lines and chew appliance cords and wires inside walls, and Timm notes they may chew wiring and insulation in the large appliances they nest in.",
+      "**Cardboard and soap.** Nebraska Extension says mice typically gnaw clean-cut holes about 1 1/2 inches across in cardboard and similar products, and also gnaw soap and other items of comparable hardness.",
+      "**Insulation.** Timm says mice damage insulation inside walls and attics, in homes at a slower rate than in livestock buildings because home populations are smaller.",
+      "**Food containers and door edges.** UC IPM says mice chew storage containers meant to protect food, and that the edges of doors and windows may need metal covering to prevent gnawing.",
+      "**Nesting material.** Mice shred paper and other fibrous material into nests, which Nebraska Extension says turn up in sheltered spots near heat sources such as water heaters, ovens and refrigerators."
+    ] },
+    { "type": "media", "needed": "Close-up photo of a cereal box or cardboard carton with a clean-cut gnawed hole about 1 1/2 inches across, a US quarter beside it for scale, and a few droppings nearby" },
+    { "type": "p", "text": "UC IPM says many fires of unknown origin are believed to be caused by rodents gnawing on wires. That is a stated belief about fires with no known cause, not a measured count, and the note gives no figure. If you find chewed wiring, have a qualified electrician look at it." },
+    { "type": "p", "text": "Chewing also decides what can seal a gap. Nebraska Extension says latex, plastic, rubber, boards under 1/2 inch thick and other soft materials are unsuitable for plugging mouse holes, and UC IPM lists plastic screening, rubber, vinyl, expanding foam and wood as ineffective. [How to pack steel wool into gaps and lock it in with caulk](/blog/steel-wool-for-mice) covers a metal fix, and [protecting a vehicle's wiring from mice](/blog/how-to-keep-mice-out-of-your-car) covers cars." },
+
+    { "type": "h2", "text": "Why does peanut butter work as mouse trap bait?" },
+    { "type": "p", "text": "Peanut butter works because house mice find it very attractive and it is easy to put on a trap. [CDC's trapping guidance](https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html) names chunky peanut butter, along with mutton fat, as the bait that works best on a snap trap and says to place a small amount on the bait pan. UC IPM calls peanut butter a popular choice because it is easy to use and very attractive to house mice." },
+    { "type": "p", "text": "The reason behind that is partly inference. Timm reports that mice may prefer foods high in fat, protein or sugar even when grain is available, and peanut butter fits that pattern. None of the sources opened for this page tests peanut butter against other baits side by side, so CDC's call that it works best is a practical judgment, not a measured ranking." },
+    { "type": "table", "head": ["Bait", "What the sources say", "Source"], "rows": [
+      ["Peanut butter", "Popular, very attractive and easy to use; CDC says chunky works best; avoid it where allergies are a concern", "CDC; UC IPM; Nebraska Extension"],
+      ["Mutton fat", "Named by CDC alongside chunky peanut butter", "CDC"],
+      ["Chocolate and caramel", "Listed as bait options", "Nebraska Extension; Timm"],
+      ["Bacon, nutmeats, dried fruit", "Tied securely to the trigger", "Timm"],
+      ["Cotton ball or dental floss", "Nesting material; mice are always looking for it and females are highly motivated to build nests", "UC IPM; Timm"],
+      ["Commercial bait or whole canary grass seed", "Listed as options, including a non-allergenic commercial mouse bait", "Nebraska Extension"],
+      ["Food the mice already eat", "UC IPM says the best bait is often the food mice are already eating", "UC IPM"]
+    ], "caption": "Baits named in CDC, UC IPM, Nebraska Extension and Timm; none of these sources ranks them in a head-to-head test." },
+    { "type": "media", "needed": "Photo of a wooden snap trap set against a baseboard with the trigger end touching the wall and a small smear of peanut butter on the trigger plate, a ruler beside it for scale" },
+    { "type": "h3", "text": "How much bait should you use?" },
+    { "type": "p", "text": "Use a small amount. UC IPM says to put a small amount on the trigger plate, because a mouse may remove too much bait without triggering the trap. Timm says food baits lose their effectiveness when they go stale. Mice are also less wary than rats: Timm says they do not fear new objects, and CDC says house mice and deer mice are less cautious than rats and may be trapped more quickly, which is why its advice to pre-bait traps is aimed at rats. Nebraska Extension says traps in a double set, two placed close to each other, can be baited or not. It also advises checking traps in the morning, since mice are most active before dawn and after dusk, and CDC says to check traps daily." },
+    { "type": "h3", "text": "Is cheese a good mouse bait?" },
+    { "type": "p", "text": "The sources opened for this page do not recommend it. UC IPM, Nebraska Extension, Timm and CDC name peanut butter, mutton fat, chocolate, caramel, marshmallows, bacon, nutmeats, dried fruit, canary grass seed and nesting material, and cheese is not on any of those lists. Timm's list of preferred high-fat foods names butter, not cheese. Mice eat almost anything, so one may take cheese, but nothing here ranks it above the baits in the table." },
+    { "type": "h3", "text": "What should you watch for?" },
+    { "type": "p", "text": "Nebraska Extension says to avoid peanut butter where allergies are a concern and suggests a commercial non-allergenic bait or nesting material instead. CDC says to keep baits and traps out of reach of children and pets, and advises against glue traps and live traps because they can scare rodents into urinating, which can raise the chance of getting sick. [How snap, electronic and multi-catch traps compare](/blog/mice-traps) covers trap choice and placement." },
+
+    { "type": "h2", "text": "How do you store food so mice cannot get it?" },
+    { "type": "p", "text": "Seal food in thick plastic, metal or glass containers with tight lids, because thin packaging does not stop a mouse. UC IPM says mice chew storage containers meant to protect food and leave feces in the food, and CDC's seal-up page lists these steps:" },
+    { "type": "ul", "items": [
+      "**Pantry and counters.** Keep food sealed in thick plastic, metal or glass containers with tight lids, and clean up spilled food right away.",
+      "**Pet food.** Put pet food away after use, and do not leave food or water bowls out overnight.",
+      "**Garbage.** Keep indoor garbage in thick plastic or metal containers with tight lids, clean the containers often, and take trash out on a regular schedule.",
+      "**Bird feeders and feed.** Keep bird feeders away from the house, use squirrel guards, and keep grain and animal feed in thick plastic or metal containers with tight lids.",
+      "**Compost.** Keep compost bins at least 100 feet from the house; [what keeps rodents out of a compost bin](/blog/rodent-proof-compost-bin-canada) covers the design."
+    ] },
+    { "type": "p", "text": "A high shelf is not out of reach. UC IPM says mice can jump up to 12 inches from the floor onto a flat surface, and Timm says they climb wood and concrete unless the finish is slick. [What mice can and cannot climb](/blog/can-mice-climb-walls) covers surfaces and heights." },
+    { "type": "callout", "tone": "note", "title": "Spilled food competes with your bait", "text": "Timm says mice may reject a bait simply because it does not taste as good as other available food, and that good sanitation makes traps and baits work better by reducing competing food items. Every crumb left out is a rival for the bait on your trap." },
+    { "type": "p", "text": "Do not expect storage to end an infestation by itself. Timm says even the best sanitation will not eliminate house mice, because most buildings where food is stored, prepared or eaten will support at least a few. Nebraska Extension makes the other half of the point: neglected sanitation will make even aggressive control efforts fail, because mice reproduce so fast. UC IPM agrees that poor sanitation can attract mice and lets them thrive in greater numbers." },
+    { "type": "p", "text": "Food that has mouse droppings or urine in it is unsafe to eat according to UC IPM and Timm. Nebraska Extension advises seeking medical attention if you feel ill or develop a fever within five days of handling mice and their droppings, and telling the provider what you handled." }
+  ],
+  "faqs": [
+    {
+      "question": "What do baby mice eat?",
+      "answer": "Baby mice nurse first and start eating solid food at about 3 weeks of age, with weaning following soon after, according to Timm's handbook chapter. The chapter also notes that pups are born hairless with their eyes closed and are covered in hair, with eyes and ears open, after 2 weeks. It does not describe what pups eat beyond that, and none of the sources opened here covers feeding orphaned pups, so a wildlife rehabilitator or veterinarian is the right contact for a pup found alone."
+    },
+    {
+      "question": "Are mice picky eaters?",
+      "answer": "Not usually. Timm says house mice eat many types of food, are not hesitant to try new ones and sample many kinds of items, though they prefer seeds and grain and may favor foods high in fat, protein or sugar. They can still turn down a bait that tastes worse than other food on offer, which is why Timm lists sanitation as a way to reduce competing food items and make traps and baits work better. Unlike rats, mice also do not fear new objects."
+    },
+    {
+      "question": "Do mice hoard food?",
+      "answer": "To some extent. Nebraska Extension says house mice cache food as supply permits, and Timm calls hoarding of food by mice not uncommon. UC IPM says they may carry food away to eat in a more secluded setting. Deer mice go further: UC IPM says they cache acorns, seeds and nuts much more readily than house mice, often near their nests and especially in autumn. A stash of seeds or nuts in a cabin or outbuilding may therefore point to deer mice, though the note says only that this may help identify the species."
+    },
+    {
+      "question": "Is food a mouse has been in safe to eat?",
+      "answer": "Food with mouse droppings or urine in it is unsafe to eat, according to UC IPM, which says house mice leave feces in food, and to Timm, who says contamination with droppings and urine makes food unfit for people. Nebraska Extension notes that house mice transmit diseases such as salmonellosis. None of the sources opened here sorts salvageable packages from ruined ones, so when you are unsure, check with your local health department or county extension office."
+    },
+    {
+      "question": "Do house mice and deer mice eat the same things?",
+      "answer": "Mostly, with a difference in emphasis. House mice prefer cereal grains and seeds but eat almost anything, according to UC IPM and Nebraska Extension. Deer mice are predominantly seed eaters that also eat fruits, invertebrates, fungi and some green vegetation, per UC IPM's deer mouse note, and they cache food more readily than house mice. That note also says deer mice are not common in urban and residential areas unless parks or fields are nearby, whereas Timm describes house mice as living in close association with people."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: House Mouse (UC ANR Publication 7483)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/PMG/PESTNOTES/pn7483.html" },
+    { "title": "G1105: Controlling House Mice", "publisher": "University of Nebraska-Lincoln Extension", "url": "https://cms.unl.edu/ianr/extension/wildlife/sites/unl.edu.ianr.extension.wildlife/files/media/file/controlling-house-mice.pdf" },
+    { "title": "House Mice, in Prevention and Control of Wildlife Damage (1994), by Robert M. Timm", "publisher": "University of Nebraska-Lincoln Cooperative Extension and USDA APHIS Animal Damage Control", "url": "https://www.maine.gov/dacf/php/gotpests/othercritters/factsheets/mice-ICWDM.pdf" },
+    { "title": "How to Seal Up to Prevent Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html" },
+    { "title": "How to Trap Up to Remove Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" },
+    { "title": "Pest Notes: Deer Mouse (UC ANR Publication 74161)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/deer-mouse/pest-notes/" }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "slug": "deer-mice",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "deer mice",
+  "alsoTargets": [],
+  "metaTitle": "Deer Mice: ID, Hantavirus Risk and Safe Cleanup",
+  "metaDescription": "Deer mice have white bellies and two-tone tails, and they spread the main US hantavirus. How to identify them, keep them out and clean up safely.",
+  "h1": "Deer Mice: How to Identify Them, Why They Matter and How to Keep Them Out",
+  "dek": "How to tell a deer mouse from a house mouse, where the species lives, what CDC says about its link to hantavirus, and the sealing, trapping and wet-cleaning steps for a home, cabin or shed.",
+  "breadcrumb": "Deer Mice",
+  "excerpt": "Deer mice are brown-backed, white-bellied mice with two-tone tails, and they spread the main US hantavirus. How to identify them, keep them out and clean up safely.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**A deer mouse is a brown-backed mouse with a white belly, white feet and a furred tail that is dark on top and white underneath.** It matters because [CDC says the most common hantavirus that causes hantavirus pulmonary syndrome in the United States is spread by the deer mouse](https://www.cdc.gov/hantavirus/about/index.html). Seal gaps larger than 1/4 inch, trap with snap traps, and wet droppings with disinfectant instead of sweeping them.",
+    "bullets": [
+      "The University of Michigan's Animal Diversity Web lists the species at about 4 3/4 to 8 3/4 inches long (119 to 222 mm), with a tail of about 1 3/4 to 4 1/8 inches (45 to 105 mm).",
+      "Deer mice range from Alaska to central Mexico but are absent from the southeastern United States.",
+      "CDC's 2002 recommendations put the share of deer mice showing evidence of Sin Nombre virus infection at about 10 percent on average, and infected mice show no obvious illness.",
+      "CDC counted 890 cases of hantavirus disease in the United States from 1993 through 2023, 94 percent of them west of the Mississippi River.",
+      "The University of California says to seal openings larger than 1/4 inch with metal or concrete, because mice gnaw through foam, rubber, vinyl and wood.",
+      "CDC's cleanup method is to air the space for 30 minutes, soak droppings with disinfectant for 5 minutes, wipe with paper towels, and never sweep or vacuum."
+    ]
+  },
+  "facts": {
+    "title": "Deer mouse at a glance",
+    "rows": [
+      ["Scientific name", "*Peromyscus maniculatus*"],
+      ["Length", "About 4 3/4 to 8 3/4 inches (119 to 222 mm)"],
+      ["Tail", "About 1 3/4 to 4 1/8 inches (45 to 105 mm); furred, dark above and white below"],
+      ["Weight", "Roughly 0.35 to 0.85 ounce (10 to 24 grams)"],
+      ["Coat", "Gray-brown to red-brown back; white belly, legs and feet"],
+      ["Range", "Alaska to central Mexico; absent from the southeastern US"],
+      ["Typical litter", "3 to 6 pups"],
+      ["Life in the wild", "Usually less than 1 year; rarely more than 2"],
+      ["Disease link", "Sin Nombre virus, the main cause of hantavirus pulmonary syndrome in the US"],
+      ["Gap to seal", "Anything larger than 1/4 inch"],
+      ["Cleanup disinfectant", "1.5 cups of household bleach in 1 gallon of water, mixed fresh"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What is a deer mouse?" },
+    { "type": "p", "text": "A deer mouse (*Peromyscus maniculatus*) is a small native North American mouse with a brown back, a white underside and a long two-tone tail, and it readily nests in cabins, sheds and rural homes. The [University of California's Pest Note on the deer mouse](https://ipm.ucanr.edu/home-and-landscape/deer-mouse/) calls it the most abundant and widely distributed mammal in North America and says the name comes from its agility as a runner and jumper." },
+    { "type": "p", "text": "It belongs to the genus *Peromyscus*, a large group of look-alike species; the University of California counts seven in California alone. Deer mice are often called white-footed mice, although the white-footed mouse (*Peromyscus leucopus*) is a separate species, and they are among the animals covered by [the loose label field mice](/blog/field-mice). For house mice and the full control sequence, start with [the complete guide to mice in US homes](/learn/mice)." },
+
+    { "type": "h2", "text": "What does a deer mouse look like?" },
+    { "type": "p", "text": "A deer mouse has a gray-brown to red-brown back, a white belly, white legs and feet, large dark eyes, large thinly furred ears, and a finely haired tail that is dark on top and white underneath. Those marks come from the University of California and from the [University of Michigan's Animal Diversity Web species account](https://animaldiversity.org/accounts/Peromyscus_maniculatus/) (ADW). ADW adds a pointed nose and a sharp line between the dark and light halves of the tail." },
+    { "type": "p", "text": "ADW gives the typical length as about 4 3/4 to 8 3/4 inches (119 to 222 mm), the tail as about 1 3/4 to 4 1/8 inches (45 to 105 mm) and the weight as roughly 0.35 to 0.85 ounce (10 to 24 grams). Size varies by region: ADW notes that woodland forms are typically larger, with larger tails and feet, than prairie forms. The two sources also disagree about how the deer mouse compares with a house mouse. ADW says its body is no longer than a house mouse's, while the University of California says these mice typically have larger eyes, larger ears and a larger body overall than house mice. Go by the markings, not the size." },
+    { "type": "p", "text": "Pups show none of these markings at first. ADW describes newborns as hairless, with wrinkled pink skin and closed eyes that open on the fifteenth day. A separate guide shows [what baby mice look like at each age](/blog/baby-mice)." },
+    { "type": "media", "needed": "Side-view close-up photo of an adult deer mouse on a plain background beside a US quarter for scale, showing the brown back, white belly and feet, large thinly furred ears and the furred two-tone tail" },
+
+    { "type": "h2", "text": "How do you tell a deer mouse from a house mouse?" },
+    { "type": "p", "text": "Look at the tail and the belly: a deer mouse has a two-tone tail and a white underside, while a house mouse has an almost furless tail and a gray-brown coat all over. The University of California calls the two-tone tail the easiest feature to use, and ADW describes the deer mouse's tail as finely haired. Check a trapped mouse without handling it bare-handed." },
+    { "type": "table", "head": ["Feature", "Deer mouse", "House mouse"], "rows": [
+      ["Tail", "Dark on top, white underneath; finely haired", "Almost furless"],
+      ["Coat", "Dark to light brown back; white underside, legs and feet", "Gray-brown overall"],
+      ["Eyes and ears", "Typically larger", "Typically smaller"],
+      ["Food hoarding", "Strong tendency to cache acorns, seeds and nuts", "Much weaker tendency to cache food"]
+    ], "caption": "From the University of California's Pest Note on the deer mouse; the fine hair on the deer mouse's tail is from the Animal Diversity Web." },
+    { "type": "p", "text": "Setting is a clue too. The University of California says deer mice prefer forests, grasslands and cropland and are not normally found in urban and residential areas unless fields, forests or other suitable habitat surround them. A [side-by-side comparison of the mice found in US homes](/blog/types-of-mice) covers the house mouse, voles and shrews." },
+    { "type": "media", "needed": "Labeled side-by-side diagram or photo pair of a deer mouse and a house mouse, seen from the side and from below, with callouts for the furred two-tone tail versus the nearly hairless tail and the white belly versus the gray-brown belly" },
+    { "type": "h3", "text": "Deer mouse or white-footed mouse?" },
+    { "type": "p", "text": "These two are hard to separate, and for a homeowner the answer changes nothing. ADW says the deer mouse generally has hind feet of about 7/8 inch (22 mm) or less against 7/8 inch or more in the white-footed mouse, a sharper line between the dark and light halves of the tail, and a richer brown or tawny coat where the white-footed mouse tends toward pinkish buff or gray. It cautions that these traits vary from region to region and that in some areas the two species are extremely difficult to tell apart by outward appearance." },
+    { "type": "p", "text": "[CDC's 2002 hantavirus risk-reduction recommendations](https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5109a1.htm) name the white-footed mouse as the host of New York virus, another cause of hantavirus pulmonary syndrome. Of the rodent hosts that report lists, it says only the deer mouse and the white-footed mouse are commonly associated with the areas in and around homes. Treat both the same way." },
+
+    { "type": "h2", "text": "Where do deer mice live?" },
+    { "type": "p", "text": "Deer mice live across most of North America, from the northern tree line in Alaska and Canada south to central Mexico, but ADW notes that they are absent from the southeastern United States. CDC's recommendations describe the species as common and widespread in rural areas throughout much of the country. ADW lists alpine areas, northern forest, desert, grassland, brushland and farm fields, and names prairies, bushy areas and woodlands as the most common habitats." },
+    { "type": "p", "text": "Outdoors, the University of California says deer mice build nests from stems, twigs, leaves and the roots of grasses, sometimes lined with fur, feathers or shredded cloth. The nests sit in tree hollows, stumps and roots or under rocks and logs. Deer mice also take over abandoned squirrel and bird nests above ground, or nest inside buildings. The University of California puts one mouse's home range at 1/3 acre to 4 acres or more." },
+
+    { "type": "h2", "text": "How do deer mice live, feed and breed?" },
+    { "type": "p", "text": "Deer mice are nocturnal, eat mostly seeds and breed mostly in the warmer months. The University of California adds fruits, invertebrates, fungi and a little green vegetation to the diet and says they spend the day in refuges or nests. ADW adds that they spend most of their time on the ground but are adept climbers." },
+    { "type": "p", "text": "Two habits matter indoors. First, deer mice hoard. The University of California says they often store food near their nests, especially in autumn, and have a much greater tendency than house mice to cache acorns, seeds and nuts. Second, they do not hibernate. They may go torpid when the weather is especially severe, and ADW reports that in winter groups of ten or more may huddle together in nests to conserve heat." },
+    { "type": "table", "head": ["Measure", "Figure", "Source"], "rows": [
+      ["Litter size", "Typically 3 to 6 pups (range 1 to 11)", "University of California; ADW"],
+      ["Pregnancy", "22.4 to 25.5 days; up to 30.6 days in a female still nursing", "ADW"],
+      ["Breeding pace", "Every 3 to 4 weeks in the warmer months, less often in winter", "ADW"],
+      ["First breeding", "Females as early as 6 weeks (University of California) or 35 days (ADW); first estrus typically around 49 days (ADW)", "University of California; ADW"],
+      ["Life in the wild", "Usually less than a year; rarely more than two years", "ADW; University of California"]
+    ], "caption": "The University of California notes that the timing and length of breeding vary within and between populations." },
+
+    { "type": "h2", "text": "Why do deer mice come into houses, cabins and sheds?" },
+    { "type": "p", "text": "They come in to nest and to store food, and a building that sits empty is a common target. The University of California says deer mice can get into many buildings and often enter vacated homes, cabins and other structures, where they build nests and store food. ADW lists cottages and outbuildings alongside stumps, logs, brush piles and tree cavities as nest sites for forest-dwelling deer mice." },
+    { "type": "p", "text": "The damage is mostly to soft goods. According to the University of California, deer mice damage upholstered furniture, mattresses, clothing, paper and other materials they find suitable for building nests. Look for these signs:" },
+    { "type": "ul", "items": [
+      "**Shredded nests.** Mattress stuffing, upholstery, cloth or paper pulled apart and gathered into a nest, sometimes with grass and other plant fibers.",
+      "**Food caches.** Piles of acorns, seeds or nuts stored near a nest.",
+      "**Droppings and urine.** These mark any mouse problem, not deer mice in particular. A related guide shows [what mouse droppings look like and how to judge whether they are fresh](/blog/what-does-mouse-poop-look-like-canada)."
+    ] },
+
+    { "type": "h2", "text": "Do deer mice carry hantavirus?" },
+    { "type": "p", "text": "Yes. CDC states that the most common hantavirus that causes hantavirus pulmonary syndrome (HPS) in the United States is spread by the deer mouse. That virus is Sin Nombre virus. CDC's 2002 recommendations describe the deer mouse as its host and Sin Nombre virus as the primary cause of HPS in the country." },
+    { "type": "p", "text": "Not every deer mouse is infected, and you cannot tell which ones are. The same CDC report says that on average about 10 percent of deer mice tested across the species' range show evidence of Sin Nombre virus infection, a share that varies by place and over time. Hantaviruses cause no obvious illness in the rodents that carry them, and an infected rodent sheds virus in its saliva, urine and droppings for many weeks, months or life. Treat every deer mouse, nest and dropping as potentially infectious." },
+    { "type": "p", "text": "People are infected mainly by breathing the virus in. CDC's recommendations say infection occurs most commonly through inhaling airborne particles of saliva, urine or droppings, which can happen when dried, contaminated material is disturbed. The virus can also enter through broken skin or the eyes and possibly through contaminated food or water. CDC's overview page adds that it can spread through a bite or scratch from a rodent, but that this is rare. The University of California reports no evidence that North American hantaviruses spread from one person to another." },
+    { "type": "p", "text": "The virus does not last long outside a mouse. CDC's recommendations estimate that, depending on conditions, hantaviruses probably survive less than 1 week indoors and much shorter periods, perhaps hours, in sunlight outdoors. Mice that are still present keep adding fresh urine and droppings, so the estimate is no reason to skip the disinfectant." },
+    { "type": "h3", "text": "How common and how serious is the disease?" },
+    { "type": "p", "text": "HPS is rare and severe. [CDC's surveillance data](https://www.cdc.gov/hantavirus/data-research/cases/index.html) count 890 laboratory-confirmed cases of hantavirus disease in the United States from the start of surveillance in 1993 through the end of 2023, of which 859 were HPS. Ninety-four percent occurred west of the Mississippi River. Surveillance began during an outbreak in the Four Corners region, where Arizona, Colorado, New Mexico and Utah meet." },
+    { "type": "p", "text": "Death rates differ by what is counted. CDC's surveillance page reports that 35 percent of reported infections ended in death, its overview page says 38 percent of people who develop respiratory symptoms may die, and the University of California's Pest Note, last updated in 2012, gives about 36 percent." },
+    { "type": "p", "text": "CDC says HPS symptoms usually start to show 1 to 8 weeks after contact with an infected rodent. Early signs are fatigue, fever and muscle aches, and about half of patients also have headaches, dizziness, chills and abdominal problems. Four to 10 days after that first phase, coughing and shortness of breath begin. There is no specific treatment. CDC says patients should receive supportive care, and that some may need breathing support such as a breathing tube." },
+    { "type": "callout", "tone": "warning", "title": "When to get medical help", "text": "If you develop fever, fatigue, muscle aches or shortness of breath in the weeks after contact with mice, their droppings or a mouse-infested building, contact a healthcare provider right away. CDC says to see a physician immediately if you suspect hantavirus disease and to mention the possible rodent exposure." },
+
+    { "type": "h2", "text": "How do you keep deer mice out of a house, cabin or shed?" },
+    { "type": "p", "text": "Seal every opening larger than 1/4 inch with material mice cannot gnaw, then remove the cover and food that draw them to the building. The University of California calls rodent-proof construction the most effective and permanent way to keep deer mice out of structures, and CDC's recommendations use the same threshold: gaps and holes more than 1/4 inch (6 mm) across." },
+    { "type": "ul", "items": [
+      "**Seal with metal or concrete.** The University of California says to close cracks in foundations and the openings around water pipes, vents and utility cables with metal or concrete.",
+      "**Patch holes with cement or metal mesh.** For entry holes over 1/4 inch, CDC lists cement, lath screen or lath metal, wire screening and hardware cloth with openings smaller than 1/4 inch.",
+      "**Treat steel wool as a plug, not a repair.** CDC allows steel wool only with caulk around it, so that rodents cannot push it through the hole. The University of California rates steel wool a good temporary plug and says plastic screening, rubber, vinyl, insulating foam and wood are unsuitable because mice gnaw them. See [which gaps steel wool suits and how to lock it in place](/blog/steel-wool-for-mice).",
+      "**Tighten doors, windows and vents.** The University of California says doors, door screens, pet doors, windows, vent screens and the entrances to garages, attics, crawl spaces and basements should fit tightly, and that the edges of doors and windows may need a metal cover to stop gnawing. For garages, a related guide explains [how to seal the corner gap of a garage door](/blog/mouse-proof-garage-door-seal-canada).",
+      "**Close the small routes.** The University of California also advises spark arresters on chimneys, self-closing flaps on outside dryer vents, and keeping garage side doors shut at night."
+    ] },
+    { "type": "p", "text": "Outside, reduce cover and food within 100 feet of the building. CDC's recommendations say to keep woodpiles and stacks of lumber, bricks or stones more than 100 feet from the house, mow grass closely, and cut back brush and dense shrubbery to at least 100 feet. They also say to keep garbage in rodent-proof containers with tight lids, store pet food in rodent-proof containers, and avoid bird feeders near the home. The University of California adds that wood piles, brush piles and fallen trees are prime nesting areas." },
+    { "type": "media", "needed": "Cutaway diagram of a small cabin and attached shed marking the entry points to seal (pipe and cable openings, foundation cracks, door bottoms, vents, eaves, dryer vent, chimney) and a 100-foot cleared zone with the woodpile placed outside it" },
+    { "type": "h3", "text": "Cabins, sheds and other buildings that sit closed" },
+    { "type": "p", "text": "A building that has been shut for weeks needs airing before anyone settles in. CDC's recommendations say that when a cabin or other structure has been closed for several weeks, you should open the doors and windows for at least 30 minutes before occupying it, use cross ventilation if possible, and leave the area, preferably upwind, while it airs. Do not use a cabin or enclosed shelter that may be rodent-infested until it has been cleaned and disinfected. The same document advises placing spring-loaded traps in outbuildings, however far they are from the house." },
+
+    { "type": "h2", "text": "How do you get rid of deer mice that are already inside?" },
+    { "type": "p", "text": "Trap them with snap traps while you seal the building, and skip glue boards, live traps and poison bait. The University of California says control around homes should rely on traps, exclusion and habitat changes." },
+    { "type": "ul", "items": [
+      "**Trap type.** CDC's recommendations call for spring-loaded traps that kill and advise against live and sticky traps. The University of California accepts snap traps and electrocution traps. It warns that a mouse stuck on a glue board often urinates and defecates as it struggles, which greatly increases the chance of contact with hantavirus.",
+      "**Bait.** A pea-sized amount of chunky peanut butter (CDC), or peanut butter mixed with cereal or rolled oats (University of California).",
+      "**Placement.** CDC says to set each trap at a right angle to a wall or baseboard, with the baited end closest to the wall. The University of California says to space traps no more than about 10 feet apart where there are signs of activity and that a large population may take a dozen or more.",
+      "**How long.** CDC says to keep trapping for at least 1 more week after the last mouse is caught.",
+      "**Handling.** The University of California says to wear rubber, latex, vinyl or nitrile gloves to remove traps, reset used traps and dispose of dead mice."
+    ] },
+    { "type": "p", "text": "A separate guide covers [how each type of mouse trap works and where to set it](/blog/mice-traps)." },
+    { "type": "p", "text": "Poison bait may not be a legal option for deer mice. The University of California's Pest Note states that no toxic baits are registered for controlling deer mice in residential settings, and that using a bait labeled only for house mice, Norway rats and roof rats against deer mice violates the product label. That document dates from 2012 and registrations can change, so read any rodenticide label for the pests and sites it covers. The label is the law. The wider rules are in [the guide to mouse poisons and the EPA's limits on consumer products](/blog/mice-poison)." },
+    { "type": "p", "text": "Repellents and pets will not do the job either. The University of California says ultrasonic and other frightening devices are not effective at repelling deer mice, that chemical repellents sold for outdoor use are not effective enough to justify their cost, and that cats and dogs are unlikely to control a population. See [what the evidence shows for each kind of mouse repellent](/blog/mice-repellent) and [the research on ultrasonic pest repellers](/blog/ultrasonic-pest-repellers-do-they-work). For a large infestation, it suggests hiring a licensed pest control operator." },
+
+    { "type": "h2", "text": "How do you clean up after deer mice safely?" },
+    { "type": "p", "text": "Wet everything with disinfectant before you touch it, and never sweep or vacuum droppings, urine or nesting material. [CDC's rodent cleanup instructions](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) explain that sweeping and vacuuming can put virus-carrying droplets into the air. CDC's 2002 recommendations explain why disinfectant works: hantaviruses have a lipid (fatty) envelope that is susceptible to most disinfectants, including dilute chlorine (bleach) solutions, detergents and most general-purpose household disinfectants. CDC's steps are:" },
+    { "type": "ol", "items": [
+      "Open all doors and windows and leave the space for 30 minutes before you start.",
+      "Put on rubber or plastic gloves.",
+      "Mix a fresh bleach solution of 1.5 cups of household bleach in 1 gallon of water (1 part bleach to 9 parts water), or use a general-purpose household product with the word disinfectant on its label.",
+      "Spray urine, droppings, nests and dead mice until very wet, and let them soak for 5 minutes or for the time on the disinfectant label.",
+      "Wipe up with paper towels and put the towels in a covered garbage can that is emptied regularly.",
+      "Seal dead mice, nesting material and any trap you are discarding in a plastic bag, seal that bag inside a second bag, and put it in the covered garbage can.",
+      "Mop or sponge the area with disinfectant, including hard floors, countertops, cabinets and drawers. On the dirt floor of an outbuilding, spray the floor with disinfectant.",
+      "Wash your gloved hands with soap and water or disinfectant, take the gloves off, then wash your hands with soap and warm water."
+    ] },
+    { "type": "p", "text": "CDC gives separate instructions for soft and porous items. Launder bedding, clothing and stuffed animals in hot water with detergent, then machine dry on high or hang them in the sun. Shampoo rugs and upholstered furniture with a commercial disinfectant, or use a commercial-grade steam cleaner or shampoo. Leave books, papers and other things that cannot be washed outdoors in sunlight for several hours, or indoors in a rodent-free area for at least three weeks, with six weeks strongly suggested. Throw out contaminated cardboard boxes, and bag contaminated insulation for removal." },
+    { "type": "p", "text": "Two details differ between sources. The University of California's Pest Note calls for a 10-minute soak where CDC's current page says 5 minutes or the label time. On breathing protection, CDC's routine instructions call for gloves and reserve respirators for heavy infestations, while the University of California says a cloth or paper mask is better than none and credits only an approved respirator with high-efficiency (HEPA) filters with full respiratory protection against airborne viruses." },
+    { "type": "h3", "text": "What counts as a heavy infestation?" },
+    { "type": "p", "text": "CDC's recommendations consider an infestation heavy if piles of droppings, numerous nests or dead rodents are seen. For that situation, and for vacant buildings with large numbers of rodents, CDC's cleanup page lists coveralls (disposable if possible), rubber boots or disposable shoe covers, rubber, latex or vinyl gloves, protective goggles, and a half-mask air-purifying respirator or powered air-purifying respirator with HEPA filters. It says to follow local and state requirements on fit testing before using a respirator." },
+    { "type": "p", "text": "CDC tells workers assigned to such a cleanup to contact their local or state health department. A homeowner facing that much contamination has good reason to hand the job over; see [what mouse removal and professional cleanup involve](/blog/mice-removal)." }
+  ],
+  "faqs": [
+    {
+      "question": "Do all deer mice carry hantavirus?",
+      "answer": "No. CDC's 2002 hantavirus recommendations report that, on average, about 10 percent of deer mice tested across the species' range show evidence of infection with Sin Nombre virus, and the share varies by place and over time. The difficulty is that hantaviruses cause no obvious illness in the rodents that carry them, so an infected deer mouse looks like a healthy one, and it can shed virus in saliva, urine and droppings for weeks, months or life. For that reason, treat every deer mouse, nest and dropping as potentially infectious."
+    },
+    {
+      "question": "How long does hantavirus survive in mouse droppings?",
+      "answer": "Not long, by CDC's estimate. Its 2002 recommendations say that, depending on environmental conditions, hantaviruses probably survive less than 1 week indoors and much shorter periods, perhaps hours, when exposed to sunlight outdoors. That does not make old-looking droppings safe to sweep. Mice that are still present keep adding fresh urine and droppings, and you usually cannot date what you find. CDC's cleanup instructions are the same either way: air the space for 30 minutes, soak the material with disinfectant for 5 minutes, and wipe it up wearing gloves."
+    },
+    {
+      "question": "Do deer mice live in cities and suburbs?",
+      "answer": "Not usually. The University of California says deer mice prefer forests, grasslands and agricultural land and are not normally found in urban and residential areas unless fields, forests or other suitable habitat surround them. That makes them a mouse of cabins, farm buildings, rural homes and houses at the edge of open land. A white-bellied mouse with a two-tone tail in a neighborhood that borders woods or fields may still be a deer mouse or the closely related white-footed mouse. CDC names both as hantavirus hosts, so use the same cleanup precautions."
+    },
+    {
+      "question": "Can you use mouse poison on deer mice?",
+      "answer": "Check the label before you do, because the answer may be no. The University of California's deer mouse Pest Note, last updated in 2012, states that no toxic baits are registered for controlling deer mice in residential settings, and that using a bait labeled only for house mice, Norway rats and roof rats against deer mice violates the product label. Registrations can change, so the label on the product is the authority on which pests and sites it covers. The same publication recommends traps, exclusion and habitat changes for deer mice around homes."
+    },
+    {
+      "question": "Do deer mice hibernate in winter?",
+      "answer": "No. The University of California states that deer mice do not hibernate, though they may become dormant, or torpid, when the weather is especially severe. The University of Michigan's Animal Diversity Web adds that in winter they may enter a daily torpor to save energy and that groups of ten or more mice of mixed ages and sexes may huddle together in nests to conserve heat. In cooler climates they also cache food in autumn. A closed cabin or shed can therefore hold active mice, a nest and a food store all winter."
+    },
+    {
+      "question": "What are the first symptoms of hantavirus, and when should you see a doctor?",
+      "answer": "CDC says symptoms of hantavirus pulmonary syndrome usually start to show 1 to 8 weeks after contact with an infected rodent. The early signs are fatigue, fever and muscle aches, and about half of patients also have headaches, dizziness, chills and abdominal problems. Coughing and shortness of breath follow 4 to 10 days later. There is no specific treatment, and CDC says patients should receive supportive care, so do not wait. If you develop these symptoms after contact with mice, droppings or a mouse-infested building, contact a healthcare provider right away; CDC says to see a physician immediately if you suspect hantavirus disease and to mention the possible rodent exposure."
+    }
+  ],
+  "sources": [
+    { "title": "Deer Mouse (Pest Notes, Home and Landscape)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/deer-mouse/" },
+    { "title": "About Hantavirus", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/about/index.html" },
+    { "title": "How to Clean Up After Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
+    { "title": "Hantavirus Pulmonary Syndrome — United States: Updated Recommendations for Risk Reduction", "publisher": "Centers for Disease Control and Prevention (MMWR Recommendations and Reports, 2002)", "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5109a1.htm" },
+    { "title": "Reported Cases of Hantavirus Disease", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/data-research/cases/index.html" },
+    { "title": "Peromyscus maniculatus (deer mouse)", "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology", "url": "https://animaldiversity.org/accounts/Peromyscus_maniculatus/" }
+  ],
+  "disclaimer": "health"
+}

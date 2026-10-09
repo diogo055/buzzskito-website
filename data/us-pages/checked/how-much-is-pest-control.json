@@ -1,0 +1,10 @@
+{
+ "id": "how-much-is-pest-control",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "e402d73470a1d4fdc3f784eb4f7436a4c24e569bd260b9fe81dc42a6e85384bd",
+ "claimsChecked": 104,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-08"
+}

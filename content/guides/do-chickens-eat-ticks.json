@@ -1,0 +1,141 @@
+{
+  "slug": "do-chickens-eat-ticks",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "do chickens eat ticks",
+  "alsoTargets": [],
+  "metaTitle": "Do Chickens Eat Ticks? Yes, but Not Enough",
+  "metaDescription": "Chickens and guinea fowl may eat some ticks, but state and university sources find no good evidence they cut tick numbers. See what does work.",
+  "h1": "Do Chickens Eat Ticks? What the Evidence Says About Poultry and Opossums",
+  "dek": "Chickens and guinea fowl may eat a few ticks, but the evidence stops well short of tick control. Here is what the studies measured, what happened to the opossum claim, and what does lower tick numbers in a yard.",
+  "breadcrumb": "Do Chickens Eat Ticks",
+  "excerpt": "Chickens and guinea fowl may eat a few ticks, but state and university sources find no good evidence that a flock reduces tick numbers in a yard. What does help.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Chickens and guinea fowl may eat some of the ticks they meet, but there is no good evidence that keeping them lowers the number of ticks in a yard.** The Connecticut Agricultural Experiment Station's [Tick Management Handbook](https://portal.ct.gov/-/media/CAES/DOCUMENTS/Publications/Bulletins/b1010pdf.pdf) calls the reports anecdotal. Habitat changes and a well-timed, targeted treatment have far better support.",
+    "bullets": [
+      "The Connecticut handbook (2007 edition) says there is no good evidence that guinea fowl or chickens affect local tick abundance, and turkey foraging was not found to reduce adult tick density.",
+      "In the residential sampling the handbook summarizes, blacklegged ticks were found mainly in dense woods (67 percent) and at the woodland edge (22 percent), and only 2 percent were on lawn.",
+      "A 2009 experiment reported that opossums and squirrels killed 83 to 96 percent of larval ticks that tried to feed, yet a 2021 study found no ticks in the stomachs of 32 wild opossums.",
+      "CDC recommends removing leaf litter and placing a barrier of wood chips or gravel 3 feet wide between lawn and woods.",
+      "The handbook says a single application of most ornamental and turf insecticides gives 85 to 90 percent or better control, while CDC says not to rely on spraying to lower infection risk."
+    ]
+  },
+  "facts": {
+    "title": "Chickens and ticks at a glance",
+    "rows": [
+      ["Short answer", "Chickens may eat some ticks, but no good evidence shows they lower tick numbers"],
+      ["Chickens and guinea fowl", "Anecdotal reports (Connecticut, 2007); consumption minimal (Maine)"],
+      ["Wild turkeys", "Eat ticks occasionally; foraging not found to reduce tick abundance"],
+      ["Opossums, 2009 experiment", "Opossums and squirrels killed 83 to 96 percent of larval ticks that tried to feed"],
+      ["Opossums, 2021 stomach study", "No ticks or tick parts in 32 wild opossums from central Illinois"],
+      ["Where blacklegged ticks were found", "67 percent woods, 22 percent woodland edge, 9 percent ornamental plantings, 2 percent lawn"],
+      ["Yard barrier", "Wood chips or gravel, 3 feet wide, between lawn and woods (CDC)"],
+      ["Spray timing (Connecticut handbook)", "Nymphs: once in May or early June. Adults: a fall application in October is an option"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Do chickens eat ticks?" },
+    { "type": "p", "text": "Chickens and guinea fowl may eat some of the ticks they come across, but the sources that address the question find no good evidence that this lowers tick numbers in a yard. The Connecticut Agricultural Experiment Station's [Tick Management Handbook](https://portal.ct.gov/-/media/CAES/DOCUMENTS/Publications/Bulletins/b1010pdf.pdf) says anecdotal reports suggested that guinea fowl or chickens might eat ticks and affect local tick abundance, and then states that there is no good evidence to support this. [University of Maine Cooperative Extension](https://extension.umaine.edu/ticks/management/biological-control/) reaches the same place: it says the tick consumption of guinea fowl and chickens is minimal and not effective at reducing local tick populations, and it adds that guinea fowl can become tick hosts themselves." },
+    { "type": "p", "text": "That is a narrower claim than it first sounds. Neither source says a chicken never swallows a tick. Both say that whatever the birds eat does not show up as fewer ticks where people actually walk, and that second point is the one that matters if the goal is fewer tick bites. If ticks are the real worry, [the complete tick control guide for homeowners](/blog/ultimate-tick-control-guide-ontario) puts the measures that do have support into one plan, and the sections below cover the evidence behind each animal and each measure." },
+    { "type": "table", "head": ["Animal or agent", "Credited with", "What the sources report"], "rows": [
+      ["Chickens and guinea fowl", "Eating ticks while they forage", "Reports are anecdotal, with no good evidence of an effect (Connecticut); consumption is minimal and not effective (Maine)"],
+      ["Wild turkeys", "Eating ticks", "Eat them on occasion, but foraging was not found to reduce tick numbers (Connecticut and Maine)"],
+      ["Opossums", "Eating or killing most ticks that reach them", "An experiment reported high kill rates; a 2021 stomach-content study found no ticks in 32 wild opossums"],
+      ["Ants, spiders and wild birds in general", "Eating ticks opportunistically", "Generalist feeders with limited effectiveness (Maine); Connecticut says arthropod predators probably have little impact"],
+      ["Parasitic wasp (*Ixodiphagus hookeri*)", "Parasitizing blacklegged ticks", "Persists only where deer and ticks are extremely abundant, so its use is very limited (Connecticut and Maine)"],
+      ["Fungi (*Metarhizium*, *Beauveria*)", "Infecting and killing ticks", "Called promising (Connecticut) and perhaps the most promising biological control (Maine); small experimental trials reported control"]
+    ], "caption": "Connecticut means the Connecticut Agricultural Experiment Station handbook (2007 edition). Maine means University of Maine Cooperative Extension." },
+
+    { "type": "h2", "text": "What have the studies actually measured?" },
+    { "type": "p", "text": "For chickens and guinea fowl, very little has been measured. The Connecticut handbook describes tick predation as difficult to document, with observations that are sporadic, and it describes the chicken and guinea fowl reports as anecdotal. An anecdote is an observation with no comparison behind it, so it cannot show that the birds, rather than the weather, the season or a freshly mowed lawn, explain a change in tick numbers. The handbook is a 2007 edition, and the University of Maine page gives the same conclusion." },
+    { "type": "h3", "text": "What about wild turkeys?" },
+    { "type": "p", "text": "Turkeys differ from chickens in one respect: the handbook reports a specific finding about them. Its bibliography lists a 1999 paper in the Journal of Vector Ecology on experimental studies of wild turkeys and blacklegged ticks, and its text reports that turkey foraging was not found to reduce the local density of adult ticks. Maine Extension says turkeys will eat ticks on occasion but that turkey foraging has not been found to reduce tick abundance, and that turkeys can also serve as tick hosts. The pattern matches the one for chickens: eating some ticks and lowering tick numbers are different results." },
+    { "type": "h3", "text": "What do the sources not show?" },
+    { "type": "p", "text": "None of the sources reviewed for this page reports a side-by-side comparison of yards with and without chickens or guinea fowl. That is a statement about the evidence reviewed, not proof that no bird could ever lower tick numbers anywhere. It does mean the claim has not been demonstrated, and a homeowner who adds birds for tick control is relying on an unproven idea." },
+
+    { "type": "h2", "text": "Why would a flock not clear a yard of ticks?" },
+    { "type": "p", "text": "Most blacklegged ticks are not on the part of the yard a flock usually covers. The Connecticut handbook reports that blacklegged ticks were found mainly in densely wooded areas (67 percent of those sampled) and in the transitional edge between woods and open ground (22 percent), with fewer in ornamental vegetation (9 percent) and on lawn (2 percent). Within the lawn itself, 82 percent of the ticks were within 3 yards of the lawn perimeter, particularly along woodlands, stone walls or ornamental plantings. Those figures come from Connecticut and the blacklegged tick, so other regions and species may differ." },
+    { "type": "media", "needed": "Top-down diagram of a suburban yard showing the house, a mowed lawn, a 3-foot wood chip barrier and a wooded edge, with the zones shaded by where the Connecticut handbook found blacklegged ticks: woods 67 percent, woodland edge 22 percent, ornamental plantings 9 percent, lawn 2 percent" },
+    { "type": "p", "text": "Ticks also wait in places that are hard to forage. The handbook explains that ticks wait for a host by clinging to leaf litter or vegetation, that immature ticks generally stay in low vegetation, and that adult ticks may climb higher to reach a host." },
+    { "type": "p", "text": "None of the sources tests where chickens spend their time, so this next point is reasoning, not a finding. A flock that works a mowed lawn is covering the part of the yard where the handbook found the fewest ticks, not the woods and edges where it found most of them. Birds that range into brush and leaf litter would change that, but no source shows that doing so lowers tick numbers, and Maine Extension notes that guinea fowl can end up as tick hosts." },
+    { "type": "p", "text": "Ticks also keep arriving. The handbook ties tick abundance to landscape features that suit ticks and their animal hosts, particularly white-tailed deer and white-footed mice, and it notes that ticks can still be brought into an area on migrating birds even after deer are removed. Nothing in the research on chickens suggests that a flock changes how many ticks arrive that way." },
+    { "type": "p", "text": "The standard for protection is also high. The handbook makes the point about landscape changes that the undetected bite of only one infected tick is enough to transmit the Lyme disease bacterium, so removing some ticks is not the same as making a yard safe. That is why tick checks and other personal protection stay on the list however the yard is managed." },
+
+    { "type": "h2", "text": "Do opossums really eat thousands of ticks?" },
+    { "type": "p", "text": "The field evidence does not support it. [Hennessy and Hild's 2021 study](https://pubmed.ncbi.nlm.nih.gov/34298355/) analyzed the stomach contents of 32 Virginia opossums from central Illinois under a dissecting microscope, searching without sieving or pre-rinsing the contents, and found no ticks or tick parts." },
+    { "type": "p", "text": "They also searched the published record. Their search turned up 23 manuscripts describing diet analyses of Virginia opossums, 19 based on stomach or digestive tract contents and four on scat, and none of the studies identified ticks. The authors conclude that ticks are not a preferred diet item for the species." },
+    { "type": "p", "text": "The claim they were checking rests on experiments in which animals were exposed to ticks under controlled conditions. Hennessy and Hild describe earlier research on captive opossums that estimated an average of 5,500 larval ticks eaten per week. A 2009 paper in Proceedings of the Royal Society B by [Keesing and colleagues](https://royalsocietypublishing.org/doi/10.1098/rspb.2009.1159) exposed field-caught hosts to larval blacklegged ticks and reported that some species, opossums and squirrels among them, killed 83 to 96 percent of the ticks that attempted to attach and feed." },
+    { "type": "table", "head": ["Study", "What was done", "Result"], "rows": [
+      ["Keesing and colleagues, 2009", "Field-caught hosts exposed to larval blacklegged ticks", "Opossums and squirrels, among others, killed 83 to 96 percent of ticks that attempted to attach and feed"],
+      ["Captive-opossum research described by Hennessy and Hild", "Opossums held in captivity", "Estimated average of 5,500 larval ticks eaten per week"],
+      ["Hennessy and Hild, 2021", "Stomach contents of 32 wild opossums, central Illinois", "No ticks or tick parts found"],
+      ["Hennessy and Hild, 2021", "Review of published opossum diet studies", "23 studies (19 stomach or digestive tract, 4 scat); none identified ticks"]
+    ], "caption": "Results as reported in the abstracts of the two papers." },
+    { "type": "p", "text": "Read carefully, the two kinds of study answer different questions. The 2009 experiment measured how many ticks died after trying to feed on a host. The 2021 study measured whether wild opossums had ticks in their stomachs, and its abstract does not say whether ticks that land on a wild opossum die. That narrower question is not settled by the sources reviewed here. What the 2021 authors do recommend is that laboratory studies of wildlife behavior be checked against studies in natural conditions, because wildlife not conditioned to the laboratory may behave differently." },
+    { "type": "p", "text": "For a homeowner the practical reading is simple: no source reviewed here supports counting on a visiting opossum for tick control. The Connecticut handbook adds that adult blacklegged ticks do feed on opossums, raccoons, coyotes and skunks, but it doubts the tick could be sustained in large numbers on those medium-sized hosts, because they are less abundant than deer and raccoons often remove ticks while grooming." },
+
+    { "type": "h2", "text": "Do any natural enemies of ticks work?" },
+    { "type": "p", "text": "Fungi are the one biological option the sources call promising, and they work as treatments applied to the yard, not as animals you keep. The Connecticut handbook says ticks have relatively few natural enemies and that predators, parasites and pathogens have all been examined for tick control." },
+    { "type": "p", "text": "A minute parasitic wasp, *Ixodiphagus hookeri*, parasitizes blacklegged ticks in a few geographically isolated tracts of New England with superabundant deer and ticks. The handbook's author concludes its usefulness is very limited because the wasp disappears at the deer and tick densities typical of most mainland areas, and Maine Extension agrees that the wasp needs extremely high tick densities to persist. The handbook adds that nematodes able to infect engorged female blacklegged ticks are too sensitive to the colder autumn temperatures when those ticks are present, and Maine Extension says nematodes may be too sensitive to colder temperatures to be effective in Maine." },
+    { "type": "p", "text": "The handbook reports that *Beauveria bassiana* and *Metarhizium anisopliae* have been pathogenic to blacklegged ticks in the laboratory and the field, and that perimeter treatments with commercial formulations controlled blacklegged ticks at residential sites in small experimental trials. Maine Extension calls pathogenic fungi perhaps the most promising biological control and says the fungus *Metarhizium anisopliae* is registered in Maine for tick control, with commercial products sold in granular and spray forms. The spores are applied like a traditional pesticide, so the product label governs where and how they are used." },
+
+    { "type": "h2", "text": "What actually reduces ticks in a yard?" },
+    { "type": "p", "text": "Changing the habitat ticks use reduces them in the treated area, a well-timed treatment of the tick zone does the most, and neither replaces personal protection. The Connecticut handbook says research and computer models show that pesticides are the most effective way to reduce ticks, particularly when combined with landscaping changes in the parts of the yard used most. [CDC's guidance on preventing tick bites](https://www.cdc.gov/ticks/prevention/index.html) lists the landscaping steps, and it also says not to rely on spraying to lower your risk of infection." },
+    { "type": "table", "head": ["Measure", "What the sources report", "Limits"], "rows": [
+      ["Remove leaf litter, clear tall grass and brush at the lawn edge, mow often", "CDC lists each step. The handbook says removing leaf litter has been shown to reduce blacklegged tick nymphs on some properties.", "The handbook says these changes will not directly eliminate many ticks on their own."],
+      ["Barrier of wood chips or gravel at least 3 feet wide between lawn and woods", "CDC recommends a barrier 3 feet wide. The handbook says one that wide or wider may help reduce ticks on the lawn.", "Results vary widely from home to home and year to year, and wood chips that contain leaves can soon behave like leaf litter."],
+      ["Keep play areas, decks and patios away from the yard edge", "CDC advises keeping playground equipment, decks and patios away from yard edges and trees.", "It changes where people spend time, not how many ticks there are."],
+      ["Fence out deer", "CDC suggests fences to discourage deer, raccoons and stray dogs. The handbook reports that a slanted electric fence enclosing 15 to 18 acres cut nymphs by as much as 84 percent and larvae by 100 percent roughly 70 yards or more inside it.", "A deer fence does not stop small animals or ticks from moving in, and the handbook says fencing a small lot may need other tick measures as well."],
+      ["Targeted insecticide treatment", "The handbook says a single application of most ornamental and turf insecticides gives 85 to 90 percent or better control. It advises one spray in May or early June for nymphs, with a fall application in October as an option for adults, aimed at the lawn edge and the woods bordering it.", "CDC says not to rely on spraying to lower infection risk. The handbook advises avoiding herb, vegetable and butterfly gardens."],
+      ["Tick tubes (permethrin-treated cotton for mice)", "Reductions in tick numbers were reported in a couple of Massachusetts studies. Connecticut and New York evaluations over three years, in woodland and residential areas of about 4 acres or less, showed no reduction in infected nymphs.", "Depends on mice collecting the cotton, and the handbook says alternative hosts such as chipmunks may be one reason it fails in some places."]
+    ], "caption": "Connecticut figures are from the 2007 handbook and describe the blacklegged tick; timing and results differ by region." },
+    { "type": "media", "needed": "Photo taken from the lawn side of a woodland edge showing a strip of wood chips about 3 feet wide, with a tape measure laid across it, separating mowed grass from leaf litter and brush" },
+    { "type": "p", "text": "The handbook also cites a computer simulation of a hypothetical community of 10,000 people. In it, reducing tick habitat by 90 percent on lawns, 80 percent at woodland edges and 10 percent in forest, carried out by nearly half the residents, prevented only 94 Lyme disease cases, compared with 156 for acaricide applications and 121 to 272 for treating or removing deer. A model is not a field trial, but it fits the handbook's wider message: habitat changes help, they are not enough alone, and the combination matters." },
+    { "type": "p", "text": "A step-by-step version of the habitat work is in [a separate guide to keeping ticks out of a yard](/blog/how-to-keep-ticks-out-of-yard-ontario), and [a look at tick tubes](/blog/tick-tubes-canada) covers how they are meant to work. For the product side, [what kills ticks on clothing, skin and in the yard](/blog/what-kills-ticks) sets out the options and how a label limits each one." },
+    { "type": "callout", "tone": "warning", "title": "The label is the law", "text": "Use any insecticide or fungal product only as its label directs, including where it may be applied and who may apply it. Read the label or ask the applicator about limits around animals, edible plants and water before treating anywhere your birds range." },
+
+    { "type": "h2", "text": "What should you do if you already keep chickens?" },
+    { "type": "p", "text": "Keep them for the eggs and the company, and handle ticks with the measures above. Nothing in the sources reviewed argues for getting rid of birds because of ticks, and nothing supports adding them to control ticks. A few habits matter more than the flock does:" },
+    { "type": "ul", "items": [
+      "**Check yourself after time outdoors.** The handbook lists tick checks and other personal protection alongside any yard work, and [a full-body tick check](/blog/how-to-do-a-tick-check) walks through the routine.",
+      "**Know what you are looking at.** [What ticks look like at each life stage and by species](/blog/what-do-ticks-look-like) helps you tell a tick from a look-alike, and a cluster of pinpoint ticks is covered in [the guide to seed ticks](/blog/seed-ticks).",
+      "**Know which ticks carry Lyme disease.** [A guide to the ticks that carry Lyme disease](/blog/ticks-that-carry-lyme-disease) shows how to recognize them and where the risk is.",
+      "**Protect the dog.** [Ticks on dogs](/blog/ticks-on-dogs) covers where to check, how to remove one and what to watch for afterward."
+    ] },
+    { "type": "p", "text": "Contact a healthcare provider if you become ill after a tick bite, and a veterinarian if a bird or pet seems unwell after one." }
+  ],
+  "faqs": [
+    {
+      "question": "Do guinea fowl eat more ticks than chickens?",
+      "answer": "The sources reviewed for this page do not compare the two birds. The Connecticut Agricultural Experiment Station's handbook groups guinea fowl and chickens together and says there is no good evidence that either affects local tick abundance. University of Maine Cooperative Extension says consumption by both is minimal and not effective at reducing tick populations, and it notes that guinea fowl can become tick hosts. Claims that one bird is a better tick hunter than the other are not backed by these sources."
+    },
+    {
+      "question": "Can ticks bite chickens and guinea fowl?",
+      "answer": "University of Maine Cooperative Extension says guinea fowl can become tick hosts, and it says the same of wild turkeys. The sources reviewed for this page do not say how often chickens are bitten. If a bird in your flock has a tick attached or seems unwell, ask a veterinarian who treats poultry. Do not use a pet or livestock tick product on a bird unless its label lists poultry."
+    },
+    {
+      "question": "Do opossums eat ticks?",
+      "answer": "A 2021 study of stomach contents from 32 opossums in central Illinois found no ticks or tick parts, and its review found 23 opossum diet studies, none of which identified ticks. The authors conclude ticks are not a preferred food. A 2009 experiment reported that opossums and squirrels killed 83 to 96 percent of larval ticks that tried to feed, so ticks may still die on opossums, but the claim that opossums eat thousands of ticks is not supported."
+    },
+    {
+      "question": "Do wild turkeys reduce ticks?",
+      "answer": "Not according to the sources reviewed here. The Connecticut handbook says turkey foraging was not found to reduce the local density of adult ticks. University of Maine Cooperative Extension says turkeys will eat ticks on occasion, that foraging has not been found to reduce tick abundance, and that turkeys can also serve as tick hosts."
+    },
+    {
+      "question": "Will a 3-foot barrier keep ticks out of my lawn?",
+      "answer": "It may help, but it is not a seal. CDC recommends a barrier of wood chips or gravel 3 feet wide between lawns and wooded areas. The Connecticut handbook says one that wide or wider may help reduce ticks on the lawn, but results vary widely from home to home and year to year, and wood chips that contain leaves can soon behave like leaf litter. The handbook says a barrier that is properly maintained each year may allow fewer ticks to migrate into the lawn."
+    },
+    {
+      "question": "What is the most effective way to reduce ticks in my yard?",
+      "answer": "The Connecticut handbook says research and computer models show pesticides are the most effective way to reduce ticks, particularly when combined with landscaping changes in the parts of the yard used most. CDC lists removing leaf litter, clearing brush, mowing often and adding a 3-foot barrier, and says not to rely on spraying to lower infection risk. Follow the product label, and keep up tick checks."
+    }
+  ],
+  "sources": [
+    { "title": "Tick Management Handbook (Bulletin No. 1010, Revised Edition)", "publisher": "The Connecticut Agricultural Experiment Station", "url": "https://portal.ct.gov/-/media/CAES/DOCUMENTS/Publications/Bulletins/b1010pdf.pdf" },
+    { "title": "Biological Control", "publisher": "University of Maine Cooperative Extension Tick Lab", "url": "https://extension.umaine.edu/ticks/management/biological-control/" },
+    { "title": "Preventing Tick Bites", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/prevention/index.html" },
+    { "title": "Hosts as ecological traps for the vector of Lyme disease", "publisher": "Proceedings of the Royal Society B", "url": "https://royalsocietypublishing.org/doi/10.1098/rspb.2009.1159" },
+    { "title": "Are Virginia opossums really ecological traps for ticks? Groundtruthing laboratory observations", "publisher": "Ticks and Tick-borne Diseases (indexed in PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/34298355/" }
+  ]
+}

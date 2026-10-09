@@ -1,0 +1,10 @@
+{
+ "id": "mice-traps",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "1fe3270b6eae4480a095a9373aa8061e3aef3bfede9db7a26fd480376fd6c53e",
+ "claimsChecked": 78,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-10-08"
+}

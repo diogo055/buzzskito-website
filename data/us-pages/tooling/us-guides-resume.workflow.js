@@ -11,6 +11,8 @@ export const meta = {
 const SNAP = args.snap
 const CONCURRENCY = args.concurrency || 8
 const TOP = new Set(args.topWriters || [])
+// pages on health or pesticide subjects get the checker at full reasoning effort; the rest at medium
+const CAREFUL = new Set(args.carefulChecks || [])
 
 const WRITE_SCHEMA = {
   type: 'object',
@@ -60,7 +62,7 @@ Do this in order:
 3. Read data/us-pages/context-${p.cluster}.md for the exact addresses you may link to.${p.kind === 'pillar' ? `
    You are writing the HUB page for this cluster. It must link, in real sentences inside the body, to EVERY address in required.spokes, required.clusterExisting, required.pillarRing and required.category. Work each link into the section where that subtopic is discussed, with one sentence that tells the reader what they will find there. Organise the page as a complete reference (identification, biology, risks, prevention, treatment, when to call a professional) at 3,000+ words, with 6 to 8 FAQs and 5 to 8 sources.` : ''}
 4. For a model of the standard expected, skim content/guides/german-cockroaches.json (a finished, fact-checked page): note how every figure is tied to a named source, how disagreements between sources are stated, and how links sit inside real sentences.
-5. Research with WebSearch and WebFetch. Open every page you intend to cite and find each fact on it before you write it. Government, university extension and peer-reviewed sources only (see the brief). Research budget: decide on your 4 to 6 strongest sources early; aim for roughly 8 searches and 10 to 18 page fetches in total, and stop researching once your outline is covered.
+5. Research with WebSearch and WebFetch. Open every page you intend to cite and find each fact on it before you write it. Government, university extension and peer-reviewed sources only (see the brief). Research budget: decide on your 4 to 6 strongest sources early; aim for roughly 8 searches and 10 to 18 page fetches in total, and stop researching once your outline is covered. Work in a few large steps: send your web searches together in ONE turn (several tool calls at once), then send your page fetches together in one or two turns, each WebFetch prompt asking for the exact facts and figures you need from that page. Do not fetch one page per turn.
 6. Write the JSON file with the Write tool as soon as your research is done (do not hold it back to polish in your head), then improve it with Edit.
 7. Run: node scripts/validate-guide.mjs ${p.slug}
    Fix every ERROR and every real warning. Repeat until it prints a check mark.
@@ -77,7 +79,7 @@ THE PAGE: ${file(p)} (${p.kind} "${p.slug}", cluster "${p.cluster}"). Your worki
 1. Read data/us-pages/WRITER_BRIEF.md (the rules the page must meet) and run: node scripts/us-pages-entry.mjs ${ref(p)} (the page's scope and required links).
 2. Read ${file(p)} in full.
 3. List every HARD CLAIM in the page: every number, size, time span, temperature, percentage, dose or concentration, species name and range, statement about what a law, agency or label says, health statement, and product ingredient. Include the quick answer, the facts table, every FAQ answer and every how-to step, not only the body.
-4. For each claim, open the source the page cites for it with WebFetch and find the claim on that page (fetch each source once and check all of its claims together). If the cited source does not support it:
+4. For each claim, open the source the page cites for it with WebFetch and find the claim on that page. Do this in ONE turn: send one WebFetch call per cited source, all together, and in each prompt list every claim you need that source to confirm, asking for the page's exact wording and figures. Only fetch again for a claim that came back unsupported or unclear. If the cited source does not support it:
    - search for an authoritative source that does (government, university extension, peer-reviewed), fetch it, and cite that instead; or
    - correct the claim to what the sources actually say; or
    - soften it to what can be supported, or remove it.
@@ -167,9 +169,11 @@ Return honest counts: claims checked, corrected, removed or softened; the correc
 
 // ── jobs, in priority order ─────────────────────────────────────────────────────
 const out = { guideChecks: [], existing: [], written: [], failed: [] }
+let halt = false
+let emptyRuns = 0
 
 const checkGuide = async (p) => {
-  const c = await agent(checkPrompt(p), { label: `check:${p.slug}`, phase: 'Fact-check', schema: CHECK_SCHEMA })
+  const c = await agent(checkPrompt(p), { label: `check:${p.slug}`, phase: 'Fact-check', schema: CHECK_SCHEMA, ...(p.kind === 'pillar' || CAREFUL.has(p.slug) ? {} : { effort: 'medium' }) })
   if (!c) { out.failed.push(`check:${p.slug}`); return null }
   out.guideChecks.push({ page: base(p), verdict: c.qualityVerdict, recorded: c.recorded, checked: c.claimsChecked, corrected: c.claimsCorrected, removed: c.claimsRemovedOrSoftened, stillUnverified: c.stillUnverified, notes: c.notes })
   return c
@@ -177,7 +181,14 @@ const checkGuide = async (p) => {
 const writeGuide = async (p) => {
   const strong = p.kind === 'pillar' || TOP.has(p.slug)
   let w = await agent(writePrompt(p), { label: `write:${p.slug}`, phase: 'Write', schema: WRITE_SCHEMA, ...(strong ? {} : { model: 'sonnet' }) })
-  if (!w) { out.failed.push(`write:${p.slug}`); return }
+  if (!w || !w.validatorPassed || !w.bodyWords) {
+    // nothing usable was written (usually the usage limit): do not spend a checker on it, and stop
+    // starting new pages once this has happened three times in a row
+    out.failed.push(`write:${p.slug}`)
+    if (++emptyRuns >= 3 && !halt) { halt = true; log('three pages in a row produced nothing: stopping new work (usage limit?)') }
+    return
+  }
+  emptyRuns = 0
   out.written.push({ page: base(p), words: w.bodyWords, passed: w.validatorPassed, writer: strong ? 'main' : 'sonnet' })
   const c = await checkGuide(p)
   if (c && c.qualityVerdict === 'needs-rewrite') {
@@ -207,7 +218,7 @@ log(`${jobs.length} jobs queued, ${CONCURRENCY} at a time`)
 
 let next = 0
 const worker = async () => {
-  while (next < jobs.length) {
+  while (next < jobs.length && !halt) {
     const k = next++
     try { await jobs[k]() } catch (e) { out.failed.push(`job ${k}: ${e && e.message ? e.message : e}`) }
   }

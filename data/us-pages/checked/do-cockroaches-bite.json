@@ -1,0 +1,10 @@
+{
+ "id": "do-cockroaches-bite",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "4c2d8c9b60487f551e77dcfabcdf404ef15c8cd27b6bd1657c68b1e25d0713b4",
+ "claimsChecked": 70,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 11,
+ "checkedOn": "2026-10-08"
+}

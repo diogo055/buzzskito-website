@@ -1,0 +1,10 @@
+{
+ "id": "pillar-ants",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "425292bb471eae6ea9d081debb3a418e2c42c9cc4a4049a0f78f1f0348a5bcd3",
+ "claimsChecked": 250,
+ "claimsCorrected": 14,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-08"
+}

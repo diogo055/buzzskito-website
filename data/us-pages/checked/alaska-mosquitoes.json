@@ -1,0 +1,10 @@
+{
+ "id": "alaska-mosquitoes",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "df91dbd643dde9762601e2856a7607ad066dce4f837361d5fd5f67da34a4ec5c",
+ "claimsChecked": 78,
+ "claimsCorrected": 13,
+ "claimsRemovedOrSoftened": 11,
+ "checkedOn": "2026-10-08"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "can-cockroaches-fly",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "b69dc7726f62a4520e24e5c1142dbce4178a08bcd2858a0e17314dd1777f79ca",
+ "claimsChecked": 99,
+ "claimsCorrected": 12,
+ "claimsRemovedOrSoftened": 11,
+ "checkedOn": "2026-10-08"
+}

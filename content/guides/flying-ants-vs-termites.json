@@ -1,0 +1,137 @@
+{
+  "slug": "flying-ants-vs-termites",
+  "kind": "spoke",
+  "cluster": "ants",
+  "keyword": "flying ants vs termites",
+  "alsoTargets": ["termites vs ants"],
+  "metaTitle": "Flying Ants vs Termites: 3 Checks to Tell Apart",
+  "metaDescription": "Flying ants have bent antennae, a pinched waist and uneven wings. Termite swarmers have straight antennae, a thick waist and equal wings. What to do next.",
+  "h1": "Flying Ants vs Termites: How to Tell Them Apart and What to Do",
+  "dek": "Three checks you can make on a single insect, how the signs in your wood differ, and why a termite finding calls for a licensed professional.",
+  "breadcrumb": "Flying Ants vs Termites",
+  "excerpt": "Bent antennae, a pinched waist and uneven wings mean ant. Straight antennae, a thick waist and four matching wings mean termite. Here is how to check, and what to do.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**A flying ant has bent antennae, a pinched waist and front wings longer than its hind wings; a termite swarmer has straight antennae, a thick waist and four wings of equal length.** [Mississippi State University Extension](https://extension.msstate.edu/blogs/extension-for-real-life/how-distinguish-termites-ants) lists these same three features. A termite finding calls for a licensed professional, and the signs in your wood help confirm which insect you have.",
+    "bullets": [
+      "Ants have elbowed antennae, while termites have straight, beaded ones.",
+      "Termite swarmers have four wings of the same length and shape, and an ant's front pair is larger than its rear pair.",
+      "Native subterranean termite workers are white to creamy white and 1/4 to 3/8 inch long, according to Texas A&M.",
+      "Carpenter ants leave fiber-like debris that resembles pencil shavings, while drywood termites leave pellets with six flattened sides.",
+      "University of Missouri Extension puts spending on subterranean termite control and repair at about $4.5 billion a year in the United States.",
+      "The University of California's statewide IPM program says do-it-yourself pesticides for termites are generally not effective."
+    ]
+  },
+  "facts": {
+    "title": "Ants and termites at a glance",
+    "rows": [
+      ["Antennae", "Ant: bent like an elbow. Termite: straight and beaded"],
+      ["Waist", "Ant: pinched. Termite: none, so the body looks tube-like"],
+      ["Wings", "Ant: front pair longer than hind pair. Termite: all four equal"],
+      ["Eats wood?", "Carpenter ants: no, they excavate it. Termites: yes"],
+      ["Debris", "Carpenter ant: wood fibers. Subterranean termite: mud. Drywood termite: six-sided pellets"],
+      ["Who to call", "Termites: a licensed pest management professional"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "How can you tell a flying ant from a termite swarmer?" },
+    { "type": "p", "text": "Check three features on a single insect: the antennae, the waist and the wings. A flying ant has bent, elbowed antennae, a pinched waist and front wings longer than its hind wings. A termite swarmer has straight, beaded antennae, a body with no pinch in the middle and four wings of the same length and shape. [NC State Extension's swarmer guide](https://content.ces.ncsu.edu/termite-swarmers-what-do-they-mean-for-you) names these same three differences, and [University of Missouri Extension's subterranean termite bulletin](https://extension.missouri.edu/publications/g7420) adds that an ant's waist is narrower than its body, while a termite's waist is as broad as its body." },
+    { "type": "table", "head": ["Feature", "Flying ant", "Termite swarmer"], "rows": [
+      ["Antennae", "Bent, with a distinct elbow", "Straight and beaded"],
+      ["Waist", "Pinched, narrower than the body", "No pinch; as broad as the body, so the body looks tube-like"],
+      ["Front wings versus hind wings", "Front pair longer than the hind pair", "Front and hind pairs the same length and shape"],
+      ["Wing length against the body", "Shorter wings overall", "Long wings, described by Mississippi State as about twice the body length"],
+      ["Wing tint", "Clear, according to Missouri", "Cloudy white, according to Missouri (see the note on color below)"]
+    ], "caption": "Compiled from NC State Extension, University of Missouri Extension and Mississippi State University Extension." },
+    { "type": "p", "text": "The wing difference is partly about length. [Mississippi State University Extension](https://extension.msstate.edu/blogs/extension-for-real-life/how-distinguish-termites-ants) says termite wings are the same length front and back and about twice as long as the body, while ants have shorter wings overall, with the front pair longer than the hind pair. A magnifying glass, or a phone camera zoomed in on one insect, makes all three features easier to see." },
+    { "type": "media", "needed": "Side-by-side close-up photo on a white background of a winged carpenter ant and a winged subterranean termite, each beside a US penny for scale, sharp enough to show the elbowed versus straight antennae and the pinched versus thick waist" },
+    { "type": "p", "text": "Do not rely on color. [Texas A&M's Urban and Structural Entomology Program](https://urbanentomology.tamu.edu/urban-pests/termites/native/) describes native subterranean termite swarmers as anywhere from coal black to pale yellow-brown, with wings from pale or smoky gray to brown. Missouri Extension, in contrast, calls termite wings cloudy white and ant wings clear. Because the wing-color descriptions differ, judge the wings by size and shape, not tint, and let the antennae and waist back up your call." },
+    { "type": "media", "needed": "Labeled diagram comparing a winged ant and a winged termite from above, with arrows to the antennae, waist and the four wings, showing unequal wing pairs on the ant and four equal wings on the termite" },
+    { "type": "p", "text": "If your insect has the ant features, [the complete guide to ants in US homes](/learn/ants) covers which species you may be dealing with. The carpenter ant, the one that nests in building wood, comes up again below." },
+
+    { "type": "h2", "text": "Does the season or the place you found them tell you which one it is?" },
+    { "type": "p", "text": "Not reliably, because both groups send out winged adults in spring. NC State Extension says termite swarming usually happens in the daytime, frequently in spring and often after a rainstorm. The University of California Statewide IPM Program (UC IPM), in its [pest note on subterranean and other termites](https://ipm.ucanr.edu/PMG/PESTNOTES/pn7415.html), says *Reticulitermes* termites swarm in the afternoon in spring or fall on clear days after a soaking rain, and Missouri Extension places eastern subterranean termite flights in Missouri in the spring, usually on a warm, sunny day after rain. Carpenter ants overlap with that window. According to [NC State Extension's carpenter ant bulletin](https://content.ces.ncsu.edu/biology-and-control-of-carpenter-ants), a mature colony produces 200 to 400 winged adults a year, and they develop in the fall but wait until spring to take flight." },
+    { "type": "p", "text": "Region also moves the calendar. Texas A&M says native subterranean termite swarming begins in January and February in South Texas, but not until April and May in the Texas Panhandle. The ant side of the calendar, including how long a swarm lasts and why it happens, is in [our guide to flying ants](/blog/flying-ants)." },
+    { "type": "h3", "text": "What does it mean if they are inside the house?" },
+    { "type": "p", "text": "Winged termites indoors usually point to a colony in or under the building. NC State Extension says that if you are finding swarmers within your home, you are probably dealing with an infestation in or under it. Missouri Extension calls large numbers of swarmers inside a structure a sure sign that it is infested. The same reading applies to ants: NC State's carpenter ant bulletin says carpenter ant swarmers appearing indoors indicate a nest in or under the house." },
+    { "type": "p", "text": "Outdoors, the evidence is weaker. NC State says the colony behind a swarm outside could be in your yard, a neighbor's yard or a wooded area down the street, and UC IPM cautions that seeing swarms of flying termites does not always mean your own building is infested. These statements fit together once you separate where the insects appeared: inside the house is strong evidence, outside is weak. Termite swarmers that get indoors and cannot escape often die from lack of moisture, NC State adds, so what you find may be only dead insects or loose wings on windowsills. The flying ants guide explains [what a swarm of winged ants indoors means](/blog/flying-ants), including winter swarms and carpenter ants." },
+
+    { "type": "h2", "text": "How do termite workers and ant workers compare?" },
+    { "type": "p", "text": "Termite workers are wingless and pale, while ant workers keep the elbowed antennae and narrow waist of the winged form. Texas A&M describes native subterranean termite workers as white to creamy white and 1/4 to 3/8 inch long. It says soldiers look like workers but have well-developed brownish heads with strong jaws, and that they defend the colony against invaders, primarily ants and other termites. NC State Extension gives the size of carpenter ant workers as 1/4 to 5/8 inch. Workers have no wings, but the antennae and waist checks still work on them." },
+    { "type": "p", "text": "You are unlikely to meet termite workers by chance. Texas A&M says workers build the colony's tunnels and shelter tubes, and UC IPM describes subterranean termites as secretive insects hidden behind walls or buried in crawl spaces. That is why workers tend to be seen only when infested wood or a mud tube is opened." },
+
+    { "type": "h2", "text": "Which does more damage to a house, termites or ants?" },
+    { "type": "p", "text": "They damage wood in different ways: termites eat it, and carpenter ants excavate it to build a nest without eating it. NC State Extension states that, unlike termites, carpenter ants do not consume wood. For what ants do eat, see [our guide to ant diets](/blog/what-do-ants-eat). Carpenter ants are the wood-nesting ants this comparison is about. To tell them from the other black ants in a house, [a guide to black ants and which ones matter for the structure](/blog/black-ants) helps." },
+    { "type": "p", "text": "On cost, University of Missouri Extension puts spending on controlling subterranean termites and repairing the damage they cause at about $4.5 billion a year in the United States. The sources reviewed for this page give no comparable national figure for carpenter ants, so the two cannot be compared in dollars here." },
+    { "type": "p", "text": "The damage is done by workers, not by the winged adults. NC State says swarmers themselves cause no structural damage; the workers in the colony do. Sweeping or vacuuming up swarmers therefore does not touch the part of the colony that eats wood." },
+    { "type": "p", "text": "Sources describe termite numbers very differently. Texas A&M says some native subterranean colonies in Texas stay small while others hold up to several thousand individuals. UC IPM says a home with a 2,400-square-foot footprint could have several termite colonies with hundreds of thousands of foragers. The two are counting different things, in different regions, so treat any single colony-size number as a rough guide." },
+    { "type": "p", "text": "For carpenter ants, moisture matters. NC State says they prefer wood with a moisture content of 15 percent or higher, and it lists attics, wall voids, window casings and structural wood as nesting places. A colony can also have satellite nests alongside the main one, which is why one nest found does not always mean the job is finished." },
+
+    { "type": "h2", "text": "What do frass, mud tubes and damaged wood tell you?" },
+    { "type": "p", "text": "Carpenter ants leave fibrous wood debris, subterranean termites leave mud, and drywood termites leave hard pellets. NC State Extension describes carpenter ant debris as fiber-like wood and frass, similar in appearance to pencil shavings, that also contains the remains of ants and other insects the colony fed on. Frass means insect fecal material. The same bulletin says carpenter ant galleries look almost sandpapered, drywood termite galleries hold small, hard, seed-like six-sided pellets, and subterranean termite gallery walls are filled with a mud-like fecal material." },
+    { "type": "table", "head": ["Sign", "Carpenter ants", "Subterranean termites", "Drywood termites"], "rows": [
+      ["Eat the wood?", "No; they excavate it for a nest", "Yes", "Yes"],
+      ["Gallery walls", "Smooth, almost sandpapered", "Lined with mud-like fecal material", "Hold small, hard, six-sided pellets"],
+      ["Debris you can find", "Fiber-like wood shavings mixed with insect remains", "Earth-hardened tubes of saliva, soil and wood bits", "Pellets with six flattened sides, piled below openings"],
+      ["Where the nest is", "Wall voids, attics, window casings, structural wood", "In the soil, with tubes running up to the wood", "Above ground and not connected to the soil, in most species"]
+    ], "caption": "Sources: NC State Extension (carpenter ant bulletin), UC IPM (termite pest note), Texas A&M and University of Missouri Extension." },
+    { "type": "p", "text": "A smooth gallery alone does not settle it, because NC State notes that carpenter ant galleries resemble drywood termite damage. What separates them is the debris: fibrous shavings point to carpenter ants and six-sided pellets point to drywood termites. UC IPM describes the pellets as having six longitudinal flattened sides, and says they accumulate on horizontal surfaces below the openings. Its note says most drywood species nest entirely above ground without a soil connection." },
+    { "type": "h3", "text": "What do mud tubes look like?" },
+    { "type": "p", "text": "Mud tubes are earth-hardened tubes that termite workers make from saliva mixed with soil and bits of wood, or even drywall, according to UC IPM. It describes four kinds: working tubes that run from the nest in the soil to wooden structures, exploratory and migratory tubes that rise from the soil without connecting to wood, drop tubes that extend from wood back to the soil, and swarm tubes through which new reproductive termites emerge. Texas A&M says to look for them on crawl space piers, utility penetrations and foundation walls." },
+    { "type": "media", "needed": "Photo of an earth-colored termite shelter tube running up a concrete foundation wall, with a ruler or US quarter beside it for scale" },
+    { "type": "media", "needed": "Side-by-side close-up of carpenter ant frass (coarse wood fibers with insect fragments) and drywood termite pellets on a white surface, each beside a US dime for scale" },
+    { "type": "h3", "text": "What can you check without tearing anything open?" },
+    { "type": "ul", "items": [
+      "**Foundation and crawl space.** Look for earthen tubes on foundation walls, crawl space piers and where utilities enter, as Texas A&M describes.",
+      "**The sound of the wood.** Texas A&M says to examine carefully any wood that thuds or sounds dull when struck with a screwdriver or hammer.",
+      "**A gentle probe.** Missouri Extension suggests probing wood near the foundation or soil with a sharp screwdriver, because termite-infested wood offers little resistance to the probe.",
+      "**Windowsills and light fixtures.** Texas A&M lists swarmers on windowsills or near lights among the signs, and NC State says dead insects or shed wings may be all that is left.",
+      "**Rustling inside walls.** NC State says that with a mature carpenter ant colony in a house you can hear rustling or gnawing sounds coming from the wood or void where the ants are nesting."
+    ] },
+
+    { "type": "h2", "text": "What should you do if it is termites?" },
+    { "type": "p", "text": "Contact a licensed pest management professional for an inspection and a treatment plan. Missouri Extension calls the choice of which commercial pest management professional to hire the most important decision in dealing with a termite infestation. It suggests a background check with the state pesticide regulator and asking the company for a list of references, proof of state licensing and proof of insurance. UC IPM adds that a professional inspection is usually required to confirm an infestation and that do-it-yourself pesticides for termites are generally not effective, which fits with how the insects live: out of sight, in the soil and inside walls." },
+    { "type": "ol", "items": [
+      "Collect a few of the insects, or their wings, in a sealed container and note where and when you found them. NC State Extension advises collecting some so a pest control service or extension specialist can identify them.",
+      "Photograph any mud tubes, pellets, shed wings or damaged wood where you found them.",
+      "Call a licensed professional for an inspection, after asking for references, proof of state licensing and proof of insurance as Missouri Extension suggests.",
+      "Ask what treatment is proposed. NC State Extension names a soil treatment with a liquid insecticide, a termite baiting system or another remedial treatment as the options an infested building may need.",
+      "Plan follow-up inspections. UC IPM says regular inspections every 3 to 5 years help detect infestations before they become damaging, and that homes with a history of subterranean termites are especially vulnerable to reinfestation."
+    ] },
+    { "type": "callout", "tone": "note", "title": "The label is the law", "text": "Termite treatments are pesticides, and each product label sets where and how it may be used. A licensed applicator works within that label, which is one more reason this is not a weekend project." },
+
+    { "type": "h2", "text": "What if the flying insects turn out to be ants?" },
+    { "type": "p", "text": "Then the question becomes whether they are carpenter ants or a nuisance species. Carpenter ants excavate galleries in wood but do not eat it, and NC State Extension suggests enlisting a pest control company because a thorough inspection is time-consuming, and it advises contacting a professional when control means injecting insecticidal dusts or sprays into voids or the nest, work it says may be too difficult for the average person to carry out safely. Locating the nest is a large part of that work, and [a guide to finding a carpenter ant nest](/blog/carpenter-ants-canada) walks through it." },
+    { "type": "p", "text": "A bite from a carpenter ant is usually the smaller problem next to a nest in the structure, and [what a carpenter ant bite feels like and how to treat it](/blog/do-carpenter-ants-bite) is covered separately. For which US ants bite, which sting and which do both, see [the species table in the ant bite guide](/blog/do-ants-bite). If the ants turn out to be a household nuisance rather than a wood nester, [the whole-house plan for ants indoors](/blog/how-to-get-rid-of-ants-in-the-house) explains how to trace the trail, and [a guide to baiting versus spraying ant colonies](/blog/how-to-get-rid-of-ants-canada) goes further into treatment." }
+  ],
+  "faqs": [
+    {
+      "question": "Do termite swarmers damage wood?",
+      "answer": "No. NC State Extension states that swarmers cause no structural damage; the worker termites in a colony do. A swarmer is a winged reproductive that leaves the colony, and indoors many die from lack of moisture, leaving dead insects or shed wings on windowsills. Their appearance still matters, because it can point to a colony in or under the building, so the right response is an inspection rather than cleanup alone."
+    },
+    {
+      "question": "Should I spray the flying termites I find indoors?",
+      "answer": "Spraying the insects you can see does not reach the workers that do the damage, which stay hidden in soil and wood. UC IPM says do-it-yourself pesticides for termites are generally not effective, and University of Missouri Extension treats the choice of a commercial pest management professional as the most important decision in dealing with an infestation. Collect a few insects for identification, note where they appeared, and arrange an inspection. If a product is used on a structure, its label sets where and how it may be applied."
+    },
+    {
+      "question": "How often should a house be inspected for termites?",
+      "answer": "UC IPM says regular inspections every 3 to 5 years help detect infestations before they become damaging. It adds that a home with a history of subterranean termite problems can be especially vulnerable to reinfestation and should be inspected by a professional every several years. Because UC IPM is a California program and termite species vary by region, ask a local licensed inspector what schedule fits your area."
+    },
+    {
+      "question": "What if I only find wings on a windowsill?",
+      "answer": "Compare the wings. NC State Extension says termite wings are all the same length and shape, while an ant's front wings are larger than the rear pair. Indoors, termite swarmers often die from lack of moisture, so dead insects or loose wings on a windowsill are typical. The same source says finding swarmers inside the home probably means an infestation in or under the building, so arrange an inspection even if the insects are gone."
+    },
+    {
+      "question": "Do carpenter ants swarm too?",
+      "answer": "Yes. NC State Extension says mature carpenter ant colonies produce 200 to 400 winged adults every year, and these swarmers develop in the fall but wait until spring to fly. That overlaps with termite swarming season, which is why the antennae, waist and wing checks matter. Carpenter ants excavate wood for nests rather than eating it, so confirming which insect you have decides who you call and what happens next."
+    }
+  ],
+  "sources": [
+    { "title": "How to Distinguish Termites from Ants", "publisher": "Mississippi State University Extension", "url": "https://extension.msstate.edu/blogs/extension-for-real-life/how-distinguish-termites-ants" },
+    { "title": "Termite Swarmers - What Do They Mean for You?", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/termite-swarmers-what-do-they-mean-for-you" },
+    { "title": "Subterranean and Other Termites (Pest Notes)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/PMG/PESTNOTES/pn7415.html" },
+    { "title": "Biology and Control of Carpenter Ants", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/biology-and-control-of-carpenter-ants" },
+    { "title": "Subterranean Termites (G7420)", "publisher": "University of Missouri Extension", "url": "https://extension.missouri.edu/publications/g7420" },
+    { "title": "Native Subterranean Termites Reticulitermes sp", "publisher": "Texas A&M University Urban and Structural Entomology Program", "url": "https://urbanentomology.tamu.edu/urban-pests/termites/native/" }
+  ]
+}

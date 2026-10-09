@@ -1,0 +1,195 @@
+{
+  "slug": "lawn-pest-control",
+  "kind": "spoke",
+  "cluster": "pest-control",
+  "keyword": "lawn pest control",
+  "alsoTargets": [],
+  "metaTitle": "Lawn Pest Control: Confirm the Pest First",
+  "metaDescription": "Lawn pest control starts with a count, not a spray. Dig, flush or float-test, compare to a threshold, then time the treatment and protect bees.",
+  "h1": "Lawn Pest Control: Confirm the Pest, Time the Treatment, Protect the Bees",
+  "dek": "How to tell grubs, chinch bugs, armyworms and fire ants apart, the counts that justify treating, when each is treated, and how to lower the risk to bees.",
+  "breadcrumb": "Lawn Pest Control",
+  "excerpt": "Lawn pest control works best when you confirm the pest and count it first. Thresholds for grubs and chinch bugs, timing, product classes, fire ants and bees.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Confirm which insect is damaging the lawn and count it before you treat, because most turf tolerates a few.** [Purdue Extension](https://extension.entm.purdue.edu/publications/E-271/E-271.html) says white grubs usually need to reach 5 to 10 per square foot to cause significant damage, and both grub damage and early armyworm feeding can pass for drought stress. Dig, flush or float-test first, then match the product and timing to the pest.",
+    "bullets": [
+      "Purdue puts the usual damage level for white grubs at 5 to 10 per square foot and says fewer than 5 rarely requires treatment.",
+      "Clemson gives a general treatment threshold of 20 to 25 per square foot for the southern chinch bug.",
+      "Clemson's armyworm soap flush uses 1 to 2 tablespoons of dish detergent in 1 to 2 gallons of water over 1 square yard, and larvae surface within 10 minutes.",
+      "Texas A&M says fire ant baits take weeks to months to reach 80% to 90% control and describes broadcasting them between late August and mid-October.",
+      "The EPA advises household users to apply outdoor insecticides at night, when bees are not actively foraging.",
+      "The CDC recommends a 3-foot-wide barrier of wood chips or gravel between lawns and wooded areas to restrict ticks from moving into recreational areas."
+    ]
+  },
+  "facts": {
+    "title": "Lawn pest numbers at a glance",
+    "rows": [
+      ["White grub damage level", "5 to 10 per square foot (Purdue, Midwest turf)"],
+      ["Chinch bug threshold", "20 to 25 per square foot, a general threshold for the southern chinch bug (Clemson)"],
+      ["Armyworm soap flush", "1 to 2 tablespoons detergent in 1 to 2 gallons of water on 1 square yard, wait 10 minutes"],
+      ["Armyworm feeding", "Over 93% of foliage consumption comes after the 4th larval stage (Clemson)"],
+      ["Fire ant bait timing", "Late August to mid-October; anytime in the warm season is possible (Texas A&M, Texas)"],
+      ["Fire ant bait results", "Weeks to months for 80% to 90% control"],
+      ["Outdoor insecticide and bees", "Apply at night when bees are not foraging (EPA)"],
+      ["Tick barrier at the lawn edge", "3-foot band of wood chips or gravel (CDC)"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "How do you tell which pest is damaging your lawn?" },
+    { "type": "p", "text": "Dig, flush or float-test the damaged patch before you buy anything, because the main lawn insects leave damage that looks alike. [Purdue Extension's turf bulletin](https://extension.entm.purdue.edu/publications/E-271/E-271.html) describes white grub damage as patchy, wilted or discolored turf that does not respond to irrigation, sometimes with a blue or purple cast before the patch collapses into dead or very thin ground. [Clemson's armyworm sheet](https://hgic.clemson.edu/factsheet/armyworms-identification-damage-control-in-turfgrass/) says early armyworm feeding can resemble drought or wilting. [Clemson's sheet on the southern chinch bug](https://hgic.clemson.edu/factsheet/chinch-bugs/), a major pest of St. Augustinegrass that also feeds on zoysiagrass, bermudagrass and centipedegrass, says the bugs inject a toxin as they feed that turns grass yellow and eventually kills it. Three different insects, and the first thing you see is the same: an off-color patch." },
+    { "type": "media", "needed": "Photo of a section of lawn turf peeled back like a flap, showing several C-shaped white grubs in the root zone, with a ruler laid beside them for scale" },
+    { "type": "table", "head": ["Pest", "What the damage looks like", "How to confirm it"], "rows": [
+      ["White grubs", "Patchy, wilted or discolored turf that does not respond to watering; sod that pulls up easily; secondary damage from raccoons, skunks or turkeys foraging for grubs", "Cut a core or wedge of sod about 3 inches deep and break up the soil to count the grubs"],
+      ["Southern chinch bugs", "Grass turns yellow and eventually dies, in spots at first; adults are black with shiny white wings; the youngest nymphs are bright orange with a white band on the abdomen", "Float test: push a one-gallon can with both ends cut out into the soil, fill it with clear water and watch for bugs floating up within five minutes"],
+      ["Armyworms", "Early damage looks like drought; later the turf looks scorched or scalped; larvae can reach 1.5 inches and carry a yellow-to-white upside-down Y on the head", "Soap flush: 1 to 2 tablespoons of dish detergent in 1 to 2 gallons of water over 1 square yard of healthy turf beside the damage; larvae surface within 10 minutes"]
+    ], "caption": "Descriptions and procedures from Purdue University Extension (white grubs) and Clemson Cooperative Extension (chinch bugs, armyworms)." },
+    { "type": "h3", "text": "How do you check for white grubs?" },
+    { "type": "p", "text": "Cut into the turf and look. Purdue describes using a golf course cup-cutter, a sturdy knife or a shovel to cut a core or wedge of sod to a depth of 3 inches, then carefully breaking the soil apart to look for grubs. Because the thresholds below are per square foot, marking out a 12-inch square makes your count directly comparable. The bulletin does not say how many samples to take, but checking more than one spot keeps a single hole from standing in for the whole lawn. For Midwest turf, Purdue says soil sampling for annual white grubs should focus on July and August." },
+    { "type": "h3", "text": "How do you flush out armyworms or test for chinch bugs?" },
+    { "type": "ul", "items": [
+      "**Armyworm soap flush.** Mix 1 to 2 tablespoons of lemon-scented dish detergent into 1 to 2 gallons of water until suds appear, then pour it slowly over a 1-square-yard section of healthy turf directly next to the damage. Clemson says armyworms emerge within 10 minutes, and that in the early morning or late evening they can be seen feeding or moving in large numbers.",
+      "**Chinch bug float test.** At the edge of a suspect patch, cut both ends out of a one-gallon can, press it into the soil, fill it with clear water, skim off the debris that floats up and keep an inch or two of water above the grass. Clemson says adults and nymphs should float to the surface within five minutes.",
+      "**Look at the whole lawn, not just the patch.** Clemson says chinch bugs are most common on lush, heavily fertilized grass and on grass with a heavy thatch layer, and that damage is often more severe where heat stress is greater, such as near roadways, driveways or sidewalks."
+    ] },
+    { "type": "media", "needed": "Photo of soapy water just poured on a marked 1-square-yard patch of lawn, with several green-brown armyworm larvae wriggling up through the grass blades, a tape measure showing the square for scale" },
+
+    { "type": "h2", "text": "How many insects does it take to justify treating?" },
+    { "type": "p", "text": "It takes roughly 5 to 10 white grubs or 20 to 25 southern chinch bugs per square foot, going by the extension figures below, and no single number covers every lawn pest. [Purdue's bulletin](https://extension.entm.purdue.edu/publications/E-271/E-271.html) says white grub densities of 5 to 10 per square foot are usually required for significant damage, that densities of up to 5 per square foot are not uncommon and most turf tolerates them without visible damage, and that even 20 per square foot may not necessarily cause noticeable damage. The cutoff shifts by species:" },
+    { "type": "table", "head": ["Pest", "Threshold the source gives", "Where it applies"], "rows": [
+      ["White grubs, general", "5 to 10 per square foot usually required for significant damage; fewer than 5 rarely requires treatment", "Purdue, Midwest turf"],
+      ["European chafer grubs", "Can cause damage at about 5 per square foot", "Purdue, Midwest turf"],
+      ["Japanese beetle, Asiatic garden beetle and black turfgrass ataenius grubs", "Usually need 10 or more per square foot to cause visible damage", "Purdue, Midwest turf"],
+      ["Green June beetle grubs", "Unacceptable damage may occur at even lower densities, because the larvae burrow and mound", "Purdue, Midwest turf"],
+      ["Southern chinch bug", "20 to 25 per square foot, described as a general threshold; insecticide treatment is usually required at that level", "Clemson, South Carolina"],
+      ["Armyworms", "No number given on the Clemson sheet", "Clemson, South Carolina"],
+      ["Fire ants (two-step method)", "Works best in fully infested areas, defined as five or more mounds per quarter-acre of yard", "Texas A&M, Texas"]
+    ], "caption": "Figures from Purdue University Extension, Clemson Cooperative Extension and Texas A&M AgriLife Extension." },
+    { "type": "p", "text": "Treat these numbers as regional guides, not national standards. Purdue writes for Indiana and adjacent states and Clemson for South Carolina, and they cover different species. A count under the threshold is a reason to recheck, not a reason to spray. Clemson adds that chinch bug damage appears much quicker when the grass is under drought or heat stress, so a count close to the line in a dry spell deserves a faster recheck." },
+    { "type": "callout", "tone": "warning", "title": "Armyworms are the exception to waiting", "text": "Clemson reports that over 93% of the foliage an armyworm eats is consumed after the fourth larval stage, and that armyworms can turn green turf brown in just a few hours. A positive soap flush on a lawn that is already being eaten calls for a prompt decision." },
+
+    { "type": "h2", "text": "When should you treat for each lawn pest?" },
+    { "type": "p", "text": "Time the treatment to the pest's life stage and your region, not to a date on the calendar. The sources used here describe three regions, so read the last column before borrowing a date." },
+    { "type": "table", "head": ["Pest", "What the source says about timing", "Region it describes"], "rows": [
+      ["Annual white grubs", "Adults fly and begin laying eggs in early-to-mid summer, eggs hatch by the end of July, large larvae are present by September, and damage may appear anytime from August to November", "Midwest (Purdue)"],
+      ["Grub preventive products", "Early-to-mid July is almost always the optimum timing; the window runs from several weeks before egg laying to egg hatch, using products that stay active in the soil for an extended period", "Midwest (Purdue)"],
+      ["Grub rescue products", "Applied after damage has been noticed; efficacy is greatly reduced once grubs have stopped feeding or moved deeper into the soil to overwinter", "Midwest (Purdue)"],
+      ["Armyworms", "The developmental season peaks in the summer months and damage is often noticed in late summer; three or more generations a year are possible; a fall armyworm's life cycle can finish in a single month", "South Carolina (Clemson)"],
+      ["Chinch bugs", "Two or three generations a year; winter is spent as adults or late-stage nymphs", "South Carolina (Clemson)"],
+      ["Fire ant bait", "Broadcast between late August and mid-October, though baits can be applied anytime in the warm season; re-apply once or twice a year", "Texas (Texas A&M)"]
+    ], "caption": "Timing from Purdue University Extension, Clemson Cooperative Extension and Texas A&M AgriLife Extension." },
+    { "type": "p", "text": "Purdue lists three timing strategies for grubs: a preventive application made anywhere from several weeks before egg laying up to egg hatch, an early curative application where sampling finds densities high enough to be a concern but before damage is visible, and a late curative, or rescue, application after damage has been noticed. Purdue names areas with a history of white grub infestation among the usual candidates for the preventive approach, and says the chemical options for a rescue are somewhat more limited because the product has to kill the grubs or stop them feeding relatively quickly. Armyworms need a different habit. Clemson says a fall armyworm can complete its life cycle in a single month, so one clean soap flush does not close the season." },
+    { "type": "p", "text": "Billbugs, sod webworms and mole crickets are lawn pests too, but none of the sources behind this guide covers them, so the thresholds and dates above should not be borrowed for them. Ask your state's extension service about the species you find. As the grub table shows, thresholds differ even among closely related insects." },
+
+    { "type": "h2", "text": "What can you change in the lawn before using insecticide?" },
+    { "type": "p", "text": "Choose a well-adapted grass and manage mowing, fertilizer, water and thatch, because Purdue and Clemson both name lawn care as part of pest control." },
+    { "type": "ul", "items": [
+      "**Grass choice.** Purdue stresses picking turfgrass species and cultivars well adapted to the site and its use. Clemson notes that the St. Augustinegrass cultivars 'Floratam' and 'Floralawn' resist chinch bugs, with some indications that chinch bugs are overcoming that resistance in parts of Florida.",
+      "**Thatch and fertilizer.** Clemson says chinch bugs are most common on lush, heavily fertilized grass and on grass with a heavy thatch layer, and names regular thatch reduction and not over-fertilizing as management techniques. Purdue lists thatch management and proper fertilization too.",
+      "**Water.** Clemson names proper watering as a chinch bug management technique. Purdue lists proper irrigation alongside mowing and fertilization, and its description of grub damage as turf that does not respond to irrigation makes watering a useful clue rather than a cure.",
+      "**Mowing and cultivation.** Purdue lists proper mowing and cultivation but gives no heights or rates, so follow your state extension's guidance for your grass type."
+    ] },
+    { "type": "p", "text": "These steps are the early part of the integrated pest management order set out in [the DIY pest control guide](/blog/diy-pest-control): decide how much pest activity calls for action, identify and monitor the pest, prevent it, and only then choose a control." },
+
+    { "type": "h2", "text": "Do biological controls work on lawn grubs?" },
+    { "type": "p", "text": "Some do, with results that vary widely. [Purdue's grub bulletin](https://extension.entm.purdue.edu/publications/E-271/E-271.html) reviews four biological options:" },
+    { "type": "table", "head": ["Control", "What Purdue says"], "rows": [
+      ["Parasitic nematodes (*Heterorhabditis bacteriophora*)", "Larger larvae are the best targets; apply in the early morning or evening to limit exposure to UV radiation, and irrigate immediately afterward to wash the nematodes into the soil"],
+      ["Milky spore (*Paenibacillus popilliae*)", "Commercial formulations are active only against Japanese beetle grubs, multiple applications over several seasons are usually recommended, and the products have not proven effective as a stand-alone, single application"],
+      ["*Bacillus thuringiensis galleriae* (a Bt strain)", "Efficacy appears to vary between white grub species; control of 35% to 100% can be expected"],
+      ["*Metarhizium brunneum* (a fungus)", "Efficacy can vary widely; fall applications aimed at later-stage grubs are the most consistent and routinely provide 40% to 70% control"]
+    ], "caption": "From Purdue University Extension's white grub bulletin." },
+    { "type": "p", "text": "Purdue ties the 35% to 100% spread to differences between grub species, so the same product can disappoint on one lawn and succeed on another. Treat a biological as a tool with a variable result and recount afterward instead of assuming it worked. Clemson's armyworm sheet lists Bt products among its armyworm options but does not rate how well they work. The wider picture of beneficial insects, nematodes and the EPA's minimum-risk category is in [the natural pest control guide](/blog/natural-pest-control)." },
+
+    { "type": "h2", "text": "Which insecticides are used on lawns, and what do the labels control?" },
+    { "type": "p", "text": "Extension bulletins name neonicotinoids, diamides, carbaryl and trichlorfon for white grubs, and bifenthrin, cyfluthrin, cypermethrin, lambda-cyhalothrin, permethrin and spinosad for armyworms, but only a product's label says which pests and sites it covers. The EPA's advice for household users is to [follow all requirements on pesticide product labels](https://www.epa.gov/safepestcontrol/tips-reducing-pesticide-impacts-wildlife), so choose a product whose label lists both your pest and home lawns, and follow it for rate, interval and site." },
+    { "type": "table", "head": ["Pest", "Active ingredients or classes the source names", "Source"], "rows": [
+      ["White grubs", "Neonicotinoids (clothianidin, imidacloprid, thiamethoxam); diamides (chlorantraniliprole, cyantraniliprole, tetraniliprole); the carbamate carbaryl; the organophosphate trichlorfon", "Purdue"],
+      ["Armyworms", "Bifenthrin, cyfluthrin, cypermethrin, lambda-cyhalothrin, permethrin, spinosad and Bt products", "Clemson"],
+      ["Southern chinch bugs", "No ingredients named; many of the newer insecticide classes are still effective, while chinch bugs in many areas of Florida resist the older organophosphate and carbamate insecticides", "Clemson"]
+    ], "caption": "A bulletin naming an ingredient is not a recommendation to use it on your lawn. Only the product label states what is approved." },
+    { "type": "p", "text": "Purdue's table marks which of its three strategies each grub ingredient suits, and the bulletin says any registered white grub insecticide is appropriate for the early curative approach. How to read a label, what protective equipment it requires and how to store and dispose of leftovers are covered in [the DIY pest control guide](/blog/diy-pest-control)." },
+    { "type": "callout", "tone": "note", "title": "Watering after application: the sources differ", "text": "Purdue says post-application irrigation or rainfall is recommended for most chemical insecticide applications against grubs, to wash the material into the soil where grubs are feeding. Clemson says to avoid any irrigation or rainfall within 24 hours of applying contact insecticides for armyworms, to give the product the most time to act. They describe different pests and products, so the watering instruction on your label decides." },
+
+    { "type": "h2", "text": "How do you get rid of fire ants in a lawn?" },
+    { "type": "p", "text": "Broadcast bait across the yard first, then treat the mounds that remain. [Texas A&M's two-step method](https://fireant.tamu.edu/controlmethods/twostep/) works in that order:" },
+    { "type": "ul", "items": [
+      "**Pick the season.** Texas A&M describes broadcasting bait sometime between late August and mid-October and says baits can be applied anytime during the warm season; in late summer and early fall the ants are still foraging and the weather is easier to predict. Ask your state extension service for local timing.",
+      "**Pick the moment.** Apply when the ground and grass are dry, no rain is expected for the next 24 to 48 hours, and worker ants are out looking for food, usually in late afternoon or evening.",
+      "**Use fresh bait.** Texas A&M says to use fresh bait, preferably from an unopened container.",
+      "**Expect a slow result.** Baits take weeks to months to reach 80% to 90% control, and Texas A&M says to re-apply once or twice a year.",
+      "**Then treat problem mounds.** Use an approved mound drench, granule, bait or dust as its label directs. Texas A&M says liquid drenches generally eliminate mounds within a few hours, and that granular products usually call for putting the granules on and around the mound and then sprinkling on 1 to 2 gallons of water without disturbing it."
+    ] },
+    { "type": "p", "text": "Texas A&M also lists pouring 2 to 3 gallons of very hot or boiling water on a mound. It says this kills the ants about 60% of the time and that otherwise they will probably just move to another location, and it warns that the water will kill the grass or other vegetation it is poured on. The two-step method as a whole works best in fully infested areas, which the page puts at five or more mounds per quarter-acre of yard, or where there is little or no concern for preserving native ant species." },
+    { "type": "p", "text": "Telling fire ants from their look-alikes matters before you choose a treatment, and [the red ants guide](/blog/red-ants) walks through it. If someone has been stung, [the guide on whether ants bite](/blog/do-ants-bite) covers which ants sting and the first aid CDC describes." },
+
+    { "type": "h2", "text": "How do you cut down ticks and mosquitoes along the lawn edge?" },
+    { "type": "p", "text": "Start with the strip where lawn meets woods and brush, which several of the CDC's yard steps target. [The CDC's tick prevention page](https://www.cdc.gov/ticks/prevention/index.html) says ticks live in grassy, brushy or wooded areas, or on animals, and it lists these landscaping techniques for a tick-safe zone, which it says can help reduce blacklegged tick populations:" },
+    { "type": "ul", "items": [
+      "**Remove leaf litter.**",
+      "**Clear tall grasses and brush** around the home and at the edge of the lawn.",
+      "**Place a 3-foot-wide barrier of wood chips or gravel** between lawns and wooded areas to restrict tick migration into recreational areas.",
+      "**Mow the lawn frequently.**",
+      "**Stack wood neatly and in a dry area**, which discourages rodents.",
+      "**Keep playground equipment, decks and patios away** from yard edges and trees.",
+      "**Discourage deer, raccoons and stray dogs** from entering the yard by building fences.",
+      "**Remove old furniture, mattresses or trash** that may give ticks a place to hide."
+    ] },
+    { "type": "media", "needed": "Simple top-down diagram of a suburban yard edge: lawn, a 3-foot band of wood chips or gravel, then woods, with the play set and patio placed well inside the lawn and labeled distances" },
+    { "type": "p", "text": "The CDC adds that pesticides can reduce the number of ticks in treated areas of a yard but says not to rely on spraying to reduce your risk of infection, and it suggests checking with local health or agricultural officials about the best time to apply, the best type of pesticide and the rules for residential properties. A product labeled for grubs or chinch bugs is not a tick treatment unless its label lists ticks. For the yard options, active-ingredient classes and what fails, see [what kills ticks](/blog/what-kills-ticks), and for the species that matter for Lyme disease, see [the guide to the two US ticks that spread it](/blog/ticks-that-carry-lyme-disease). A longer treatment of the subject is in [the full tick control guide](/blog/ultimate-tick-control-guide-ontario)." },
+    { "type": "p", "text": "Mosquito control at the lawn edge is its own subject. [How to get rid of mosquitoes in your yard](/blog/how-to-get-rid-of-mosquitoes) covers where they breed and what larvicides and adult sprays can and cannot do, [how to keep mosquitoes away](/blog/how-to-keep-mosquitoes-away) covers repellents, clothing and screens, and [the backyard mosquito control guide](/blog/ultimate-backyard-mosquito-control-guide) goes deeper on the whole yard." },
+
+    { "type": "h2", "text": "How do you protect bees and other pollinators when you treat a lawn?" },
+    { "type": "p", "text": "Treat only the area that needs it, and apply outdoor insecticides at night when bees are not foraging. [The EPA's wildlife tips](https://www.epa.gov/safepestcontrol/tips-reducing-pesticide-impacts-wildlife) say most insecticides are toxic to bees, and for household users they give three steps: apply at night when bees are not actively foraging, treat only the specific areas needing treatment, and use pesticides only when necessary to limit harm to birds, beneficial insects and fish." },
+    { "type": "p", "text": "Two more points follow from the sources. First, the EPA's wind and rain guidance on that page is addressed to certified applicators, so a household user should rely on the weather instructions printed on the label. Second, [Purdue's list of grub products](https://extension.entm.purdue.edu/publications/E-271/E-271.html) includes the neonicotinoids clothianidin, imidacloprid and thiamethoxam, and the EPA page points household users to its bee-protection labeling and the advisory box that goes with it, so read the label before you buy and again before you spray. The Purdue and Clemson bulletins and the EPA tips page give no rule for flowering weeds in turf, such as clover or dandelions, so the label is the place to look." },
+    { "type": "p", "text": "Thresholds protect pollinators too. A lawn left alone because the count was under the line receives no insecticide at all, and a spot treatment of a few fire ant mounds puts product on a small part of the yard instead of all of it." },
+
+    { "type": "h2", "text": "Should you treat the lawn yourself or hire a lawn service?" },
+    { "type": "p", "text": "Treat it yourself when you have confirmed the pest, the count is past the threshold and a label covers your lawn; consider a professional when you cannot confirm the pest or the timing window is tight. The sources show where timing bites: Clemson says armyworms can brown a lawn in just a few hours, Purdue ties grub sampling and preventive treatment to specific summer months, and fire ant bait takes weeks to months to show its full effect." },
+    { "type": "p", "text": "A service does not change the biology. The same thresholds, labels and bee precautions apply to a technician and to you, so use them to judge the work. Ask a company:" },
+    { "type": "ul", "items": [
+      "**Which pest did you find, and how did you count it?** A service that cannot show the grub, larva or bug it is treating for is following a program rather than responding to a finding.",
+      "**What threshold are you using?** Compare the answer with the extension figures above and your state's own sheet.",
+      "**Which active ingredient, and does the label cover this lawn and this pest?** Ask to see the product label.",
+      "**How do you protect pollinators?** Night application and spot treatment are the EPA's steps for household users.",
+      "**What is the follow-up?** Fire ant bait takes weeks to months, and Purdue says a late rescue treatment for grubs loses much of its efficacy once the grubs have stopped feeding or moved deeper into the soil. Ask when they will count again.",
+      "**What license applies?** Your state's pesticide regulatory agency can tell you what a paid applicator must hold."
+    ] },
+    { "type": "p", "text": "What general pest control costs, and how one-time visits compare with recurring plans, is covered in [the pest control cost guide](/blog/how-much-is-pest-control). Managing the grounds of an apartment community, school or business is a different arrangement, and [the commercial pest control guide](/blog/commercial-pest-control) covers how integrated pest management programs and documentation work there. If you decide to do the work yourself, [the pest product guides](/pest-product-guides) index sorts the equipment guides by pest, including mosquito and tick gear." }
+  ],
+  "faqs": [
+    {
+      "question": "How can I tell grub damage from drought?",
+      "answer": "Grub-damaged turf does not respond to irrigation, according to Purdue Extension, and the sod can pull up easily from the soil. To be sure, cut a core or wedge of turf about 3 inches deep and count the grubs in the soil. Early armyworm damage can also look like drought, per Clemson, so a soap flush on healthy turf beside the patch is worth doing before you decide on a cause."
+    },
+    {
+      "question": "Do a few grubs in my lawn mean I need to treat?",
+      "answer": "Usually not. Purdue says most turf tolerates up to about 5 white grubs per square foot without visible damage, and that fewer than 5 rarely requires treatment. Significant damage usually takes 5 to 10 per square foot, depending on the species. Count in several spots and keep watching the turf, because Purdue says green June beetle grubs may cause unacceptable damage at even lower densities."
+    },
+    {
+      "question": "Should I water after applying lawn insecticide?",
+      "answer": "It depends on the product, so follow the label. Purdue says post-application irrigation or rainfall is recommended for most chemical insecticide applications against grubs, and that nematodes need irrigation right away. Clemson says to avoid irrigation or rainfall for 24 hours after applying contact insecticides for armyworms. Granular fire ant mound products usually call for sprinkling 1 to 2 gallons of water over the granules, per Texas A&M."
+    },
+    {
+      "question": "How long do fire ant baits take to work?",
+      "answer": "Baits are slow. Texas A&M says they take weeks to months to reach 80% to 90% control, and that bait should be re-applied once or twice a year. Liquid mound drenches act faster and generally eliminate a mound within a few hours. Use fresh bait, preferably from an unopened container, and apply it when the ground and grass are dry and no rain is expected for 24 to 48 hours."
+    },
+    {
+      "question": "Is it safe to spray the lawn when bees are around?",
+      "answer": "Most insecticides are toxic to bees, according to the EPA, which advises household users to apply them outdoors at night when bees are not actively foraging and to treat only the specific areas that need treatment. Labels can carry their own bee-protection requirements, and the EPA says to follow all label requirements, so read the label before you buy and again before you spray."
+    },
+    {
+      "question": "Does milky spore work on lawn grubs?",
+      "answer": "Only against Japanese beetle grubs, and not as a one-time fix. Purdue says commercial milky spore formulations are active only against Japanese beetle grubs, that multiple applications over several seasons are usually recommended, and that the products have not proven effective as a stand-alone, single application. Purdue gives figures for two other biological options: a Bacillus thuringiensis galleriae strain at 35% to 100% control, varying by grub species, and the fungus Metarhizium brunneum at 40% to 70% control with fall applications."
+    }
+  ],
+  "sources": [
+    { "title": "Managing White Grubs in Turfgrass", "publisher": "Purdue University Extension Entomology", "url": "https://extension.entm.purdue.edu/publications/E-271/E-271.html" },
+    { "title": "Chinch Bugs", "publisher": "Clemson Cooperative Extension Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/chinch-bugs/" },
+    { "title": "Armyworms: Identification, Damage, & Control in Turfgrass", "publisher": "Clemson Cooperative Extension Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/armyworms-identification-damage-control-in-turfgrass/" },
+    { "title": "Two – Step Method", "publisher": "Texas A&M AgriLife Extension Service, Texas Imported Fire Ant Research and Management Project", "url": "https://fireant.tamu.edu/controlmethods/twostep/" },
+    { "title": "Tips for Reducing Pesticide Impacts on Wildlife", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/safepestcontrol/tips-reducing-pesticide-impacts-wildlife" },
+    { "title": "Preventing Tick Bites", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/prevention/index.html" }
+  ],
+  "disclaimer": "pesticide"
+}

@@ -1,0 +1,148 @@
+{
+  "slug": "baby-mice",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "baby mice",
+  "alsoTargets": [],
+  "metaTitle": "Baby Mice: Pup Stages and What a Nest Means",
+  "metaDescription": "Baby mice are born pink, hairless and blind, grow fur by day 10, open their eyes in week two and wean at 3 weeks. See the stages and what a nest means.",
+  "h1": "Baby Mice: What Pups Look Like, How Fast They Grow, and What a Nest Means",
+  "dek": "Day-by-day stages from a hairless newborn to a weaned pup, how big a litter is and how soon pups breed, how to tell a baby mouse from a baby rat, and how to deal with a nest safely.",
+  "breadcrumb": "Baby Mice",
+  "excerpt": "Baby mice are called pups. See what they look like from day 1 to week 3, how many a litter holds, how soon they breed, and what a nest in your home means.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Baby mice, called pups, are born pink, hairless and blind, are furred by about day 10 and are weaned at about 3 weeks.** A house mouse litter is usually about 5 or 6 pups, and [UC IPM's house mouse guide](https://ipm.ucanr.edu/PMG/PESTNOTES/pn7483.html) says a female can have 5 to 10 litters a year. A nest with pups in it means a female has given birth inside your building.",
+    "bullets": [
+      "Pregnancy lasts 18 to 21 days, and a litter is usually about 5 or 6 pups, within a reported range of 3 to 12.",
+      "Pups are born naked and blind, have a full coat by about day 10, and open their eyes between about day 11 and day 14, depending on the source.",
+      "Pups are weaned at about 3 weeks, and most then leave their mother's territory.",
+      "Mice can breed from 5 to 6 weeks old, although UC IPM says this can be delayed until as late as 12 weeks.",
+      "A female comes back into heat 12 to 18 hours after giving birth, so litters can follow each other closely.",
+      "A young rat has larger hind feet and a larger head in proportion to its body than a house mouse."
+    ]
+  },
+  "facts": {
+    "title": "Baby mice at a glance",
+    "rows": [
+      ["Pregnancy", "18 to 21 days; several days longer in a nursing female"],
+      ["Typical litter", "About 5 or 6 pups (reported range 3 to 12)"],
+      ["Litters per year", "5 to 10 typical; as many as 13 to 14 reported"],
+      ["At birth", "Naked and blind, with red skin"],
+      ["Full coat", "About day 10"],
+      ["Eyes open", "Between about day 11 and day 14, depending on the source"],
+      ["Weaned", "About 21 days (3 weeks)"],
+      ["Breeding age", "5 to 6 weeks (5 to 7 in one source); can be delayed to 12 weeks"],
+      ["Nest", "A loosely woven ball of shredded paper or fiber, usually 4 to 6 inches across"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What do baby mice look like?" },
+    { "type": "p", "text": "A newborn mouse is a hairless, blind, red-pink pup, and it takes about 10 days to grow a full coat. [Animal Diversity Web](https://animaldiversity.org/accounts/Mus_musculus/), a species database based at the University of Michigan Museum of Zoology, says house mouse young are born naked and blind, are fully furred after 10 days, open their eyes at 14 days and are weaned at 3 weeks. The most detailed day-by-day record is a [Jackson Laboratory chart of pup appearance by age](https://olac.berkeley.edu/sites/private/sop/JAX%20mice%20pup%20appearance%20by%20age.pdf) covering three laboratory strains: albino, agouti and black. Its timeline is the basis for the table below." },
+    { "type": "table", "head": ["Age", "What the pup looks like"], "rows": [
+      ["Day 0", "Blood-red skin and no hair"],
+      ["Day 1", "Skin a lighter red"],
+      ["Day 2", "Ears appear as small nubs; in some strains pigment begins to show"],
+      ["Day 3", "One or both ear flaps start to come away from the head"],
+      ["Days 4 to 5", "Ears fully developed and off the head by day 4, folding back by day 5; skin thicker and darker as pigment increases"],
+      ["Day 6", "First colored fuzz appears behind the ears or on the neck"],
+      ["Day 7", "Fuzz starts to cover the body"],
+      ["Days 8 to 9", "Fur reaches the belly on day 8 and thickens on day 9; females may show nipples"],
+      ["Day 10", "Fur growth is complete; pups are more active"],
+      ["Days 11 to 12", "Teeth begin to erupt and eyes start to open on day 11; eyes are open and pups begin nibbling solid food by day 12"],
+      ["Days 13 to 14", "Pups eat more solid food and gain weight and size"]
+    ], "caption": "Source: Jackson Laboratory, JAX Mice Pup Appearance by Age (2012), for the BALB/cJ, C3H/HeJ and C57BL/6J laboratory strains. Ages are approximate, and the chart does not cover wild mice." },
+    { "type": "media", "needed": "Row of house mouse pups photographed at about day 1, day 6 and day 10 on a plain background, each beside a US penny for scale, showing skin color, ear development and the first fuzz" },
+    { "type": "p", "text": "Eye opening is where the sources differ. The Jackson Laboratory chart shows eyes starting to open on day 11 and fully open on day 12 in its three laboratory strains, while Animal Diversity Web gives 14 days for house mice in general. Treat the second week as the answer, and treat a pup with open eyes as one that is at least into its second week." },
+    { "type": "h3", "text": "How can you estimate a pup's age?" },
+    { "type": "ul", "items": [
+      "**Pink or red with no fuzz.** About 5 days old or younger, since the chart shows the first fuzz on day 6.",
+      "**Fuzzy or furred, eyes still shut.** Roughly 6 days to about 2 weeks old: fuzz begins on day 6, the coat is complete by day 10, and the eyes stay shut until day 11 to 14, depending on the source.",
+      "**Furred with eyes open.** About 12 to 14 days old or older, and nibbling solid food from day 12 on the chart.",
+      "**Furred, active and about 3 weeks old.** The age of weaning, after which Animal Diversity Web says most young mice leave their mother's territory."
+    ] },
+    { "type": "p", "text": "This page covers the youngest stage only. The adult animal, the species you may be dealing with and the full control sequence are in [the complete guide to mice control](/learn/mice)." },
+
+    { "type": "h2", "text": "How many baby mice are in a litter?" },
+    { "type": "p", "text": "A house mouse litter is usually about 5 or 6 pups, though sources report anything from 3 to 12. UC IPM, the University of California's Statewide Integrated Pest Management Program, gives about 5 or 6 pups per litter, says litter size increases in older females, and puts the time from conception to birth at 18 to 21 days. Animal Diversity Web lists 3 to 12 in a litter, generally 5 or 6, and says pregnancy can run several days longer in a nursing female. The [University of Arkansas Cooperative Extension bulletin on controlling mice and rats](https://uaex.uada.edu/publications/pdf/MP546.pdf) puts the average at 4 to 7." },
+    { "type": "table", "head": ["Source", "Litter size", "Litters per year", "Pregnancy"], "rows": [
+      ["UC IPM", "About 5 or 6", "5 to 10", "18 to 21 days"],
+      ["Animal Diversity Web", "3 to 12, generally 5 or 6", "5 to 10; as many as 14 reported", "19 to 21 days, longer if nursing"],
+      ["Arkansas Extension", "Average of 4 to 7", "As many as 13", "Not given"]
+    ], "caption": "The sources do not settle on one number, so read each figure as a range." },
+    { "type": "p", "text": "The yearly figures describe what a female can do with steady food and shelter, not what every mouse does. UC IPM says that when house mice have plentiful and stable resources they can reproduce year-round, and the Arkansas bulletin says mice can survive and reproduce at 24°F if they have enough food and nesting material. Together those statements describe an animal with no winter break as long as food and nesting material are available. Food is a low bar, because the Arkansas bulletin adds that mice can live off a few crumbs; [what mice eat in a house](/blog/what-do-mice-eat) covers the details." },
+
+    { "type": "h2", "text": "How fast do baby mice grow up and start breeding?" },
+    { "type": "p", "text": "Pups are weaned at about 3 weeks and can breed from about 5 to 6 weeks of age. Animal Diversity Web says young mice are cared for in their mother's nest until they are 21 days old, and that soon after most leave her territory, with young females more likely to stay nearby. UC IPM gives sexual maturity as 5 to 6 weeks after birth but says it can be delayed until as late as 12 weeks, while Animal Diversity Web gives 5 to 7 weeks." },
+    { "type": "p", "text": "The mother is ready again almost at once. Animal Diversity Web reports a postpartum estrus 12 to 18 hours after birth, which means a female can conceive while her first litter is still nursing. Lay the numbers end to end and a female pup could mate at 5 to 6 weeks and have a litter of her own 18 to 21 days after that, roughly two months from her birth to her first litter. That timeline is arithmetic from UC IPM's figures, not a measured generation time." },
+    { "type": "p", "text": "The same arithmetic applies to a single female over a year: 5 to 10 litters of about 5 or 6 pups multiplies out to roughly 25 to 60 pups. That is a range for a well-fed female, not a forecast for any particular house. A short life does not slow this down either. Animal Diversity Web says most wild mice do not live beyond 12 to 18 months, so a female that starts breeding at 5 to 6 weeks has most of that time left for litters. [How long mice live](/blog/how-long-do-mice-live) covers lifespan indoors, in the wild and as pets, and what that means for waiting a problem out." },
+
+    { "type": "h2", "text": "What does finding a nest of baby mice mean?" },
+    { "type": "p", "text": "It means a female mouse has given birth inside your building, so the problem is bigger than one mouse sighting. A nest with a litter holds the mother and about 5 or 6 pups, which is six or seven mice in one hidden spot. The pups' age also tells you something: furred pups with open eyes were born at least 12 to 14 days ago, and pups that have reached weaning age are only a few weeks from breeding themselves." },
+    { "type": "p", "text": "Nests are built in sheltered, out-of-the-way places. UC IPM says they are made of finely shredded paper or other fibrous material and suggests looking behind boxes, in drawers, in garages and around woodpiles. Animal Diversity Web adds rafters and storage areas near a source of food, built from rags, paper or other soft material and lined with finer shreds. The Arkansas bulletin describes a ball of loosely woven material, usually 4 to 6 inches across, that turns up when people clean garages, closets, attics, basements and outbuildings." },
+    { "type": "media", "needed": "Photo of a house mouse nest, a loosely woven ball of shredded paper about 4 to 6 inches across, in a cardboard box in a garage, with a ruler or a gloved hand beside it for scale and no live animals shown" },
+    { "type": "p", "text": "Nearby signs show whether the nest is active. UC IPM lists droppings, fresh gnaw marks, tracks and a musky odor, and the Arkansas bulletin puts mouse droppings at about 1/4 inch long. A separate guide explains [what mouse droppings look like, fresh versus old, and how to clean them up](/blog/what-does-mouse-poop-look-like-canada)." },
+    { "type": "p", "text": "Mice do not roam far from the nest, so the nest shows you where to work. UC IPM says house mice seldom venture more than 30 feet from their nest sites and food supply, and the Arkansas bulletin reports a daily range averaging 10 to 30 feet across. Traffic routes, droppings and feeding spots are therefore likely to sit within a small area around the nest. The Arkansas bulletin also says mice cannot be controlled by sanitation alone, which is why the next steps include sealing and trapping." },
+
+    { "type": "h2", "text": "Is it a baby mouse or a baby rat?" },
+    { "type": "p", "text": "Look at the feet and head: a young rat has larger hind feet and a larger head in proportion to its body than a house mouse, according to the Arkansas Cooperative Extension bulletin. Size alone can mislead because a young rat starts small. The same bulletin gives adult house mice as 0.35 to 1.1 ounces and about 5 to 8 inches from nose to tail tip, while a Norway rat averages about a pound and 11½ to 18 inches, so a half-grown rat can overlap with an adult mouse." },
+    { "type": "table", "head": ["Feature", "House mouse", "Norway or roof rat"], "rows": [
+      ["Adult weight", "0.35 to 1.1 ounces", "Norway rat averages about 1 pound"],
+      ["Adult length, nose to tail tip", "About 5 to 8 inches", "Norway rat about 11½ to 18 inches"],
+      ["Young per litter", "Averages 4 to 7", "6 to 12"],
+      ["Litters per year", "5 to 10 typical (UC IPM); as many as 13 (Arkansas)", "4 to 6 on average"],
+      ["Breeding age", "5 to 6 weeks (UC IPM)", "3 months"]
+    ], "caption": "Arkansas Cooperative Extension bulletin, except where UC IPM is named." },
+    { "type": "media", "needed": "Side-by-side photo of a half-grown young rat and an adult house mouse on a plain background, each beside a US quarter for scale, showing the rat's larger head and hind feet in proportion to its body" },
+    { "type": "p", "text": "Rats start breeding later but have bigger litters. If the animals turn out to be rats, [a separate guide covers how to get rid of rats](/blog/how-to-get-rid-of-rats-canada). Not every small mouse in a shed or garage is a house mouse, either: [the guide to types of mice](/blog/types-of-mice) and [the guide to field mice](/blog/field-mice) show how to separate house mice from the native species." },
+
+    { "type": "h2", "text": "What should you do about a nest of baby mice?" },
+    { "type": "p", "text": "Clean the nest up with gloves and disinfectant, without sweeping or vacuuming, then find and close the way in. [CDC's guidance on cleaning up after rodents](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) says diseases spread mainly when people breathe in contaminated air, and that sweeping or vacuuming urine, droppings or nesting material can put droplets carrying viruses into the air. For a nest, CDC's steps are:" },
+    { "type": "ol", "items": [
+      "Open all doors and windows for 30 minutes before you start, to ventilate the space.",
+      "Consider insect repellent on clothing, shoes and hands; CDC suggests this for picking up dead rodents because fleas are common on rodents.",
+      "Put on rubber or plastic gloves.",
+      "Spray the nest and the area around it with a disinfectant and let it soak for 5 minutes, or as the disinfectant label directs. CDC's bleach mix is 1.5 cups of household bleach in 1 gallon of water, or 1 part bleach to 9 parts water.",
+      "Put the nest material in a plastic bag along with any used traps, tie the bag shut, place it inside a second bag and tie that one shut.",
+      "Put the double bag in a covered garbage can that is emptied regularly.",
+      "Spray any urine and droppings around the nest with the bleach solution or an EPA-registered disinfectant until very wet, let them soak for 5 minutes, wipe them up with paper towels, and mop or sponge hard surfaces with disinfectant.",
+      "Wash your gloved hands with soap and water or disinfectant before taking the gloves off, then wash your bare hands with soap and warm water."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "Pregnancy and nest cleanup", "text": "CDC says the common house mouse spreads [lymphocytic choriomeningitis (LCM)](https://www.cdc.gov/lymphocytic-choriomeningitis/about/index.html), that people can be infected through fresh urine, droppings, saliva or nesting materials, and that infection during pregnancy can harm the fetus. CDC adds that most healthy people with LCM have no symptoms or only mild ones, but that pregnant women with LCM are at higher risk of miscarriage and that immunocompromised people are at higher risk of severe disease. CDC advises avoiding contact with wild mice. If you are pregnant or might be, or have a weakened immune system, ask someone else to clean up the nest and talk to your healthcare provider about any exposure." },
+    { "type": "p", "text": "CDC calls for extra precautions in homes with a heavy rodent infestation, which include coveralls, boots, gloves, goggles and a half-mask respirator with a HEPA filter. If one nest turns out to be one of several, [the guide to mice removal](/blog/mice-removal) covers cleanup and removal from walls, attics, garages and vehicles." },
+    { "type": "h3", "text": "What about pups that are still alive?" },
+    { "type": "p", "text": "None of the government or extension sources used for this page gives a procedure for live pups, so none is offered here. What the sources do establish is the timeline: pups do not nibble solid food until about day 12, and they are cared for in the nest until about 21 days. Trapping or sealing out the mother while pups are young therefore leaves pups younger than about 12 days with no food source, because they have not started on solid food, which is the humane problem in any plan. [How to get rid of mice humanely](/blog/how-to-get-rid-of-mice-humanely) sets out the trade-offs for each method." },
+    { "type": "h3", "text": "How do you stop the next litter?" },
+    { "type": "p", "text": "Close the entry points and trap the adults. UC IPM says house mice can squeeze under gaps 1/4 inch tall and through openings 3/8 inch wide, so the hole you are looking for is smaller than most people expect; [how mice climb and squeeze into a house](/blog/can-mice-climb-walls) explains where to look. For trapping, UC IPM advises spacing traps no more than about 10 feet apart where mice are active, placed behind objects and in dark corners, and [mouse traps compared by type](/blog/mice-traps) covers the choices. A full four-step approach is laid out in [a plan for getting rid of mice](/blog/how-to-get-rid-of-mice-canada)." }
+  ],
+  "faqs": [
+    {
+      "question": "How long do baby mice stay with their mother?",
+      "answer": "About 3 weeks. Animal Diversity Web says young house mice are cared for in their mother's nest until they are 21 days old, and that soon after most leave her territory, with young females more likely to stay nearby. A Jackson Laboratory chart of laboratory mice shows pups starting to nibble solid food by day 12, so the move to solid food begins well before weaning. UC IPM says mice can breed from about 5 to 6 weeks old."
+    },
+    {
+      "question": "Can baby mice survive without their mother?",
+      "answer": "The sources used for this page give no survival threshold, so no number is offered here. They show that pups are born naked and blind, begin nibbling solid food only around day 12, and are weaned at about 3 weeks. Pups younger than about 12 days therefore have no solid food to turn to, and weaning at about 3 weeks implies that every pup younger than that is still nursing. The question matters most when an adult female is trapped or sealed out while pups remain in the nest."
+    },
+    {
+      "question": "Do mice stop having babies in winter?",
+      "answer": "Not when they have food and shelter. UC IPM says house mice with plentiful and stable resources can reproduce year-round, and the University of Arkansas Cooperative Extension bulletin says mice can survive and reproduce at 24 degrees Fahrenheit if they have enough food and nesting material. A nest found in the middle of winter is therefore not unusual in a building where mice have both."
+    },
+    {
+      "question": "Can baby mice or their nest make you sick?",
+      "answer": "The nest can. CDC says the common house mouse spreads lymphocytic choriomeningitis (LCM) and that people can be infected through fresh urine, droppings, saliva or nesting materials. CDC does not single out pups. Most healthy people with LCM have no symptoms or only mild ones, but infection during pregnancy can harm the fetus, and CDC says immunocompromised people are at higher risk of severe disease. CDC advises avoiding contact with wild mice. If you become ill after cleaning up a nest, see a healthcare provider and mention the exposure."
+    },
+    {
+      "question": "How can you tell how old a baby mouse is?",
+      "answer": "Look at the ears, fur and eyes, using the Jackson Laboratory chart of laboratory mice. Ears are small nubs on day 2 and fully back by day 5, a first fuzz shows around day 6, fur growth is complete by day 10, and eyes are open by day 12. The chart covers laboratory strains, not wild mice, and Animal Diversity Web gives 14 days for eye opening, so treat any age read from it as approximate."
+    }
+  ],
+  "sources": [
+    { "title": "House Mouse (UC ANR Publication 7483)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/PMG/PESTNOTES/pn7483.html" },
+    { "title": "Mus musculus (house mouse)", "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology", "url": "https://animaldiversity.org/accounts/Mus_musculus/" },
+    { "title": "JAX Mice Pup Appearance by Age", "publisher": "The Jackson Laboratory", "url": "https://olac.berkeley.edu/sites/private/sop/JAX%20mice%20pup%20appearance%20by%20age.pdf" },
+    { "title": "Controlling Mice and Rats (MP546)", "publisher": "University of Arkansas System Division of Agriculture Cooperative Extension Service", "url": "https://uaex.uada.edu/publications/pdf/MP546.pdf" },
+    { "title": "How to Clean Up After Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
+    { "title": "About Lymphocytic Choriomeningitis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lymphocytic-choriomeningitis/about/index.html" }
+  ]
+}

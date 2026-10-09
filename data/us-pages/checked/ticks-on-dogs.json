@@ -1,0 +1,10 @@
+{
+ "id": "ticks-on-dogs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "bc0d09240551c4cf7323a7caded37ee411e313d202a01c8ef5bf3eb817f73b06",
+ "claimsChecked": 118,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-08"
+}

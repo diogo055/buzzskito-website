@@ -1,0 +1,140 @@
+{
+  "slug": "alaska-mosquitoes",
+  "kind": "spoke",
+  "cluster": "mosquitoes",
+  "keyword": "alaska mosquitoes",
+  "alsoTargets": [],
+  "metaTitle": "Alaska Mosquitoes: Why So Many, When They Peak",
+  "metaDescription": "Alaska has so many mosquitoes because permafrost holds meltwater and eggs hatch at snowmelt. See the 27 to 35 species, the season and how to cope.",
+  "h1": "Alaska Mosquitoes: Why There Are So Many, When They Peak and How to Cope",
+  "dek": "Why permafrost and snowmelt breed so many, how many species there are, how big they really get, what they do to caribou and how visitors protect themselves.",
+  "breadcrumb": "Alaska Mosquitoes",
+  "excerpt": "Why Alaska has so many mosquitoes, how many species there are, when the season peaks, what they do to caribou and how visitors protect themselves.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Alaska has so many mosquitoes because permafrost keeps meltwater from draining, and the most common species wait out winter as eggs that hatch at snowmelt.** [Alaska's Department of Environmental Conservation](https://dec.alaska.gov/media/epklaabj/10-alaska-mosquito-manual.pdf) counts about 35 species, a University of Alaska curator once calculated about 17.5 trillion over the state each summer, and caribou researchers put the North Slope's mosquito period at about June 25 to July 15.",
+    "bullets": [
+      "Sources disagree on the count: a University of Alaska Fairbanks column says at least 27 species, and the state's pesticide manual says about 35.",
+      "One University of Alaska Museum of the North curator calculated about 17.5 trillion mosquitoes over Alaska each summer, weighing 96 million pounds combined.",
+      "Eggs of the common *Aedes* mosquitoes hatch in near-freezing meltwater, and the larvae can reach adulthood in under a month.",
+      "Researchers studying North Slope caribou put the mosquito harassment period at about June 25 to July 15.",
+      "A caribou-research index rates mosquito activity highest at about 64°F or warmer with no wind, and zero below about 43°F or in wind above about 13 mph.",
+      "The state manual says some hibernating mosquitoes have survived -25°F under snowpack, and that mosquito eggs are not affected by the amount of snowpack."
+    ]
+  },
+  "facts": {
+    "title": "Alaska mosquitoes at a glance",
+    "rows": [
+      ["Species in Alaska", "At least 27 (UAF column) to about 35 (state pesticide manual)"],
+      ["Most common group", "*Aedes*, which spend winter as eggs"],
+      ["First out in spring", "Snow mosquito (*Culiseta alaskaensis*), an adult that hibernates"],
+      ["Snow mosquito size", "Thumbnail-size, big and slow-moving"],
+      ["Estimated total", "About 17.5 trillion each summer, about 96 million pounds combined (one calculation)"],
+      ["North Slope caribou window", "About June 25 to July 15"],
+      ["Brooks Range", "Generally worse in July; a problem any time through summer and fall"],
+      ["Most active (research index)", "About 64°F or warmer and calm"],
+      ["Shut down by (research index)", "Below about 43°F or wind above about 13 mph"],
+      ["West Nile virus", "Does not currently occur in Alaska, according to the state's pesticide manual"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Why are there so many mosquitoes in Alaska?" },
+    { "type": "p", "text": "Alaska has so many mosquitoes because frozen ground keeps meltwater from draining away, and the most common mosquitoes spend winter as eggs that are ready to use it. [The National Park Service's permafrost page for Gates of the Arctic](https://www.nps.gov/gaar/learn/nature/permafrost.htm) explains the first half. In summer only the upper foot or two of ground thaws, and because the soil below stays frozen, water collects on top of flat ground instead of draining. That is why arctic lowlands that get just 10 to 20 inches of rain and snow a year are still dotted with bogs, wetlands and small lakes." },
+    { "type": "p", "text": "Snowmelt supplies the second half. [Alaska's Department of Environmental Conservation (DEC)](https://dec.alaska.gov/media/epklaabj/10-alaska-mosquito-manual.pdf) describes the common *Aedes* mosquitoes as laying single eggs on damp soil. The adults die over winter, but the eggs can sit dormant through long cold and dry spells until snowmelt or wet weather soaks them. They can hatch in water close to freezing, and the larvae live in puddles, pools, marshes and other temporary standing water." },
+    { "type": "p", "text": "Flooding then releases them in bulk. Of mosquitoes that lay eggs on ground that floods, the manual says some species' eggs need freezing temperatures before they will hatch, and that when such a spot is temporarily flooded all the eggs hatch at once, which can raise numbers rapidly. *Aedes* larvae can then become adults in less than a month even in very cold water, and warmer water speeds that up." },
+    { "type": "p", "text": "The manual gives no reason to expect a hard winter to thin out the main crop. It says *Aedes* eggs withstand long periods of cold and that the amount of snowpack does not affect mosquito eggs, although a winter with little snow may reduce numbers of the mosquitoes that hibernate as adults, because they freeze and die. Nor can anyone drain the landscape: the manual states that Alaska is covered with ponds, lakes and swamps, so removing every source of standing water is not possible. If your problem is one yard rather than a whole region, [the backyard mosquito control guide](/blog/ultimate-backyard-mosquito-control-guide) covers what does help at home." },
+    { "type": "media", "needed": "Wide, low-angle photo of Arctic tundra in June showing shallow snowmelt ponds and wet sedge on flat ground, with a patch of old snow still visible at the edge" },
+
+    { "type": "h2", "text": "How many mosquito species are in Alaska, and how big are they?" },
+    { "type": "p", "text": "Between 27 and about 35, depending on who is counting. A [University of Alaska Fairbanks Geophysical Institute science column](https://www.gi.alaska.edu/alaska-science-forum/pound-pound-alaska-mosquitoes-pack-punch) says Alaska hosts at least 27 species, while [DEC's manual](https://dec.alaska.gov/media/epklaabj/10-alaska-mosquito-manual.pdf) puts the number known in the state at approximately 35. The sources do not explain the gap, so that range is the honest answer. DEC calls *Aedes* the most common genus and says *Culiseta* is also present and often the first to emerge in spring. The two groups live very differently:" },
+    { "type": "table", "head": ["Trait", "Aedes (most common)", "Culiseta (snow mosquitoes)"], "rows": [
+      ["How it spends winter", "Eggs lie dormant on damp ground; the adults die", "Adults hibernate on the forest floor under snow"],
+      ["When it appears", "When spring snowmelt or wet weather dampens the eggs, even in near-freezing water", "Shortly after snowmelt begins, while snow can still be on the ground"],
+      ["Eggs", "Laid singly on damp soil", "Laid in rafts of up to 200 on the surface of permanent water"],
+      ["Cold and snow", "Eggs hatch in near-freezing water and are not affected by snowpack", "Some hibernating mosquitoes have survived -25°F under snowpack, but a low-snow winter can kill them"],
+      ["Flight and heat", "Strong fliers that travel many miles from where they hatched", "Active in cool air; activity declines once temperatures pass the mid-70s Fahrenheit"],
+      ["Appearance", "Not described by DEC; the UAF column calls the later, egg-hatched mosquitoes smaller", "Big and slow-moving"]
+    ], "caption": "Based on DEC's mosquito and biting fly manual (March 2026) and the University of Alaska Fairbanks column linked above." },
+    { "type": "p", "text": "The snow mosquito is the big one. DEC calls snow mosquitoes big and slow-moving, and the UAF column describes the species as a thumbnail-size insect. That is large for a mosquito and nowhere near bird size. Alaskans joke that the mosquito is the state bird, and the joke is about numbers, not wingspan. The next section shows that the average Alaska mosquito is tiny; there are just a great many of them." },
+    { "type": "p", "text": "Only the females bite. DEC says both sexes feed on plant nectar and that only females can take a blood meal, and [why only female mosquitoes bite](/blog/male-vs-female-mosquito) explains the reason." },
+    { "type": "media", "needed": "Close-up photo of a snow mosquito (Culiseta alaskaensis) beside a US quarter for scale, with a smaller Aedes mosquito from the same Alaska site placed next to it for comparison" },
+
+    { "type": "h2", "text": "How bad are Alaska's mosquitoes, really?" },
+    { "type": "p", "text": "Bad enough that written accounts go back well over a century, and the totals are huge even if they are rough. Derek Sikes, curator of insects at the University of Alaska Museum of the North, once calculated that about 17.5 trillion mosquitoes are in the air over Alaska each summer, with a combined weight of 96 million pounds, according to [the Geophysical Institute's Alaska Science Forum column](https://www.gi.alaska.edu/alaska-science-forum/pound-pound-alaska-mosquitoes-pack-punch). The column says Sikes did not weigh the insects one by one, so treat the figures as a sense of scale, not a census. The column gives no weight for a single mosquito, but dividing its total weight by its count works out to roughly 0.0001 ounce each." },
+    { "type": "p", "text": "The complaint is old. The same column recounts Ivan Petrof describing clouds of mosquitoes in the Kuskokwim River valley on the 1880 census journey, and Army Lt. J.J. Rafferty reporting from the Copper River valley in June 1898 that the men had to wear veils day and night, with gloves to protect their hands. Neither river is on the North Slope, which is a reminder that the problem is not limited to the far north." },
+    { "type": "p", "text": "Weather decides how bad a particular day is. [A 2022 study of the Central Arctic caribou herd](https://www.frontiersin.org/articles/10.3389/fevo.2022.899585/pdf) used an index of mosquito activity, built from temperature and wind, that runs from 0 to 1. The top score needs air of about 64°F (18°C) or warmer with no wind, and the score is zero below about 43°F (6°C) or in wind above about 13 miles per hour. The authors add that field staff have seen the index read high on days with little visible mosquito activity, so it is a guide, not a forecast. DEC's manual describes *Culiseta* adults, the group that includes snow mosquitoes, as active in cooler air and less active once temperatures pass the mid-70s Fahrenheit." },
+
+    { "type": "h2", "text": "When is mosquito season in Alaska, and does it vary by region?" },
+    { "type": "p", "text": "The season follows the snow: it opens with snow mosquitoes while snow is still on the ground, builds as *Aedes* eggs hatch in meltwater, and on the North Slope the period researchers track runs from about late June to mid-July. No single statewide calendar appears in the sources behind this page, so the table lists what each one actually reports." },
+    { "type": "table", "head": ["Where or when", "What the source reports", "Source"], "rows": [
+      ["Snowmelt, any region", "Snow mosquitoes emerge to feed shortly after snowmelt begins; Aedes eggs hatch when spring snowmelt or wet weather dampens them", "Alaska DEC"],
+      ["Boreal forest, mid-June", "The large snow mosquitoes have lived out their few weeks of life, and many of the smaller mosquitoes hatched from eggs laid the previous fall", "UAF Geophysical Institute"],
+      ["North Slope, about June 25 to July 15", "The period researchers use for mosquito harassment of the Central Arctic caribou herd", "2022 caribou study"],
+      ["Brooks Range, July", "Mosquitoes are generally worse in July, but can be a problem at any time through summer and fall", "National Park Service"],
+      ["Warm spells", "Snow mosquito activity declines once temperatures pass the mid-70s Fahrenheit", "Alaska DEC"]
+    ], "caption": "Dates are those given by each source; none is a forecast for a particular year." },
+    { "type": "p", "text": "What the sources do not provide is a month-by-month calendar for Southeast, Southcentral and the Interior, or a ranking of regions from worst to best, so none is invented here. What they do establish is that the clock is set by snowmelt. [The park service's page on bugs in Gates of the Arctic](https://www.nps.gov/gaar/planyourvisit/bugs.htm) puts it plainly for the Brooks Range: July is generally worst, yet mosquitoes can be a problem at any time through summer and fall. Because hatching follows snowmelt, it is reasonable to expect a later start where snow lasts longer, although none of these sources measures that." },
+
+    { "type": "h2", "text": "How do mosquitoes affect caribou and other wildlife?" },
+    { "type": "p", "text": "Mosquitoes push caribou around, cost them feeding time, and are associated with fewer calves and lower adult female survival in the best-studied Alaska herd. [The 2022 study of the Central Arctic herd](https://www.frontiersin.org/articles/10.3389/fevo.2022.899585/pdf) on the North Slope, by researchers at the U.S. Geological Survey, the Alaska Department of Fish and Game and other institutions, summarizes earlier work showing that mid-summer harassment by mosquitoes and oestrid flies strongly shapes caribou behavior. The animals spend less time feeding, more time walking and running, and move to cooler, windier ground with less preferred forage, including barren or snow-covered areas." },
+    { "type": "p", "text": "The authors linked their mosquito index to reproduction and survival using GPS-collared females and long-term herd monitoring. Higher mosquito activity in a summer was associated with fewer females giving birth the next year, fewer with a calf in late June, and lower survival, and across the range of conditions they saw, the results indicated adult female survival from September through May up to 16 percent lower. Late-June calving success fell further after summers when the available forage was also low in digestible nitrogen, a measure of protein. The authors stress that these are correlations in one herd and do not demonstrate causation." },
+    { "type": "p", "text": "Warming complicates the picture. The authors say earlier, warmer Arctic summers could bring earlier, more intense and longer mosquito harassment that may overlap with calving, while also increasing the amount of forage plants. Because those effects pull in opposite directions, they describe the net effect on caribou numbers as unclear. The study covers caribou only. The sources behind this page do not measure mosquito effects on moose, birds or other wildlife, so none are claimed here." },
+    { "type": "media", "needed": "Photo of a group of caribou standing together on a summer snow patch or river gravel bar on the North Slope, with open tundra and a low sun in the background" },
+
+    { "type": "h2", "text": "Do Alaska mosquitoes spread disease?" },
+    { "type": "p", "text": "Mostly they are a nuisance, but the picture is not entirely clean. DEC's manual says the main mosquito-borne viruses in the United States, West Nile virus and various types of encephalitis, do not currently occur in Alaska, and that mosquito and biting fly control there is aimed mainly at nuisance populations because few diseases are carried by insects in the state. It adds that tularemia, a bacterial disease, is present in Alaska but rarely causes human health problems. DEC says it can be carried by black flies, biting midges and deer flies, and can be fatal if untreated." },
+    { "type": "p", "text": "A 2024 article in [CDC's Emerging Infectious Diseases journal](https://wwwnc.cdc.gov/eid/article/30/12/24-0757_article) adds a wrinkle. It describes California serogroup viruses, which include snowshoe hare virus and Jamestown Canyon virus, as mosquito-borne viruses present throughout northern North America that typically cause flu-like symptoms and rarely encephalitis. Its introduction reports that exposure to this virus group has been documented in 27 percent of Alaska residents, and that 64 percent of caribou had antibodies to Jamestown Canyon virus, a figure it gives for the Nearctic region and not for Alaska specifically. Antibodies show past exposure, not illness, and the article reports both figures as previously documented, not as new findings." },
+    { "type": "p", "text": "Read together, the two sources suggest Alaska has no West Nile virus but that some people there have been exposed to these other mosquito-borne viruses. If you develop a fever or headache after heavy mosquito exposure, contact a healthcare provider and mention where you were." },
+
+    { "type": "h2", "text": "Which other biting insects arrive with the mosquitoes?" },
+    { "type": "p", "text": "Black flies, deer flies and biting midges, which DEC lists with mosquitoes as Alaska's four main kinds of biting fly. They matter because mosquito gear does not stop all of them. DEC says black flies crawl under clothing or near the hairline to bite, and the bite can leave an itchy, swollen bump that lasts more than a week. Biting midges, also called no-see-ums, are small enough to pass through the mesh of head nets and tent screens, and tidal coasts are an especially common habitat for them. Deer flies are larger, at 1/4 to 1/2 inch, and their bites are painful. If midges are the problem, [what no-see-um bites look like and how to treat them](/blog/no-see-um-bites) is the better guide." },
+
+    { "type": "h2", "text": "How should you protect yourself from mosquitoes in Alaska?" },
+    { "type": "p", "text": "Use layers, and expect to need all of them in July. [The National Park Service's advice for Brooks Range visitors](https://www.nps.gov/gaar/planyourvisit/bugs.htm) is to bring more than one kind of mosquito protection and lists head nets, bug coats, long pants and insect repellents. It adds that head nets and bug coats often work best with a billed cap." },
+    { "type": "ul", "items": [
+      "**Head net and bug coat.** The park service names both, and recommends pairing them with a billed cap.",
+      "**Long pants and sleeves.** Mosquitoes can bite through some clothing, and [which fabrics let mosquitoes bite through](/blog/can-mosquitoes-bite-through-clothes) sorts out the weave and fit that matter.",
+      "**Repellent.** The park service lists repellents among its recommended gear, and [how to keep mosquitoes away from you](/blog/how-to-keep-mosquitoes-away) covers repellents alongside the other ways to keep them off. Whichever product you pick, use it as the label directs.",
+      "**Wind and cold.** The caribou index scores mosquito activity at zero in wind above about 13 mph or air below about 43°F, and the caribou themselves head for cooler, windier ground. A breezy gravel bar or ridge is therefore a reasonable place to camp or rest, though the index is a research tool, not a promise of a bug-free spot.",
+      "**Dogs.** Mosquitoes bite dogs too, and [whether mosquitoes bite dogs](/blog/do-mosquitoes-bite-dogs) covers heartworm and why DEET stays off dogs. Ask a veterinarian about preventives before an Alaska trip.",
+      "**Evening light.** Long summer days raise the question of whether a lantern or porch light draws mosquitoes, and [whether mosquitoes are attracted to light](/blog/are-mosquitoes-attracted-to-light) answers it."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Check the day, not just the month", "text": "The caribou research index scores mosquito activity highest in warm, still air and zero in cold or strong wind, so a cool, windy July day can be far better than a warm, still evening in June." },
+    { "type": "p", "text": "People in a group are bitten unequally, which is a separate question from the weather; [what attracts mosquitoes to a person](/blog/what-attracts-mosquitoes-to-you) covers what researchers know about that." },
+
+    { "type": "h2", "text": "Can you reduce mosquitoes around an Alaska home?" },
+    { "type": "p", "text": "A little, mostly by removing small pools of water, but nobody can drain a landscape. [DEC's manual for pesticide applicators](https://dec.alaska.gov/media/epklaabj/10-alaska-mosquito-manual.pdf) says eliminating breeding sites is a very effective way to cut the number of nuisance adults near a specific place, through simple steps such as removing discarded buckets and tires that hold water, raking leaves, or grading to stop water collecting. It calls larvicides typically more effective than spraying airborne mosquitoes and describes killing adults as usually the least efficient technique, with relief that is temporary because the insects quickly re-infest a treated area." },
+    { "type": "p", "text": "The manual also says there is little scientific data showing that bug zappers or traps reduce mosquito populations, and that large-scale control such as aerial or village-wide spraying is rarely carried out in Alaska, where it calls aerial control impractical because potential breeding grounds dominate the landscape. Because *Aedes* are known to fly many miles from where they hatched, a tidy yard cannot stop mosquitoes that developed far away." },
+    { "type": "p", "text": "One legal point matters for anyone tempted to treat standing water: DEC states that all applications of pesticide to water bodies require a pesticide-use permit, including man-made ponds and seasonally wet areas regardless of who owns the surrounding property, so contact DEC's pesticide program before treating it. The manual is written for certified applicators, so ask DEC how the rule applies to water on your own property. For the general yard steps that apply in any state, see [how to get rid of mosquitoes in a yard](/blog/how-to-get-rid-of-mosquitoes)." }
+  ],
+  "faqs": [
+    {
+      "question": "How many mosquitoes are there in Alaska?",
+      "answer": "Nobody has counted them. The best-known figure is a calculation by Derek Sikes, an insect curator at the University of Alaska Museum of the North, of about 17.5 trillion mosquitoes over Alaska each summer, weighing roughly 96 million pounds combined. The University of Alaska Fairbanks column that reports it says he did not weigh them individually, so the number shows scale rather than precision. Alaska also has between 27 and about 35 species, depending on the source."
+    },
+    {
+      "question": "Are Alaska mosquitoes really as big as birds?",
+      "answer": "No. The snow mosquito, the big early-season species, is described by the University of Alaska Fairbanks as a thumbnail-size insect, and Alaska's environmental agency calls it big and slow-moving. Most of the mosquitoes biting through the summer are smaller. Dividing the 96 million pound estimate by 17.5 trillion mosquitoes gives an average near 0.0001 ounce each. The joke that the mosquito is the state bird is about numbers, not size."
+    },
+    {
+      "question": "What is the worst month for mosquitoes in Alaska?",
+      "answer": "It depends on the region and the weather. In the Brooks Range, the National Park Service says mosquitoes are generally worse in July but can be a problem at any time through summer and fall. On the North Slope, caribou researchers treat about June 25 to July 15 as the mosquito harassment period. In the boreal forest, large snow mosquitoes appear around snowmelt and smaller mosquitoes follow by mid-June, and the sources reviewed for this page give no single peak month for the whole state."
+    },
+    {
+      "question": "Do mosquitoes in Alaska carry West Nile virus?",
+      "answer": "Alaska's Department of Environmental Conservation says West Nile virus does not currently occur in the state. Two other mosquito-borne viruses, snowshoe hare virus and Jamestown Canyon virus, are present across northern North America, and an article in a CDC journal reports that exposure to their virus group has been documented in 27 percent of Alaska residents. Infection typically causes flu-like symptoms and rarely encephalitis. Anyone who develops a fever or headache after heavy mosquito exposure should contact a healthcare provider."
+    },
+    {
+      "question": "Does a cold winter kill Alaska mosquitoes?",
+      "answer": "Mostly no. Alaska's environmental agency says some hibernating mosquitoes have survived temperatures down to -25°F when protected by snowpack, although a winter with little snow may reduce their numbers because they freeze and die. It says the eggs of the common Aedes mosquitoes withstand long periods of cold, that mosquito eggs are not affected by the amount of snowpack, and that some species' eggs need freezing temperatures to hatch, so a hard winter does not reliably mean a quiet summer."
+    }
+  ],
+  "sources": [
+    { "title": "Alaska Mosquito and Biting Fly Pest Control Manual, Category Ten (March 2026)", "publisher": "Alaska Department of Environmental Conservation", "url": "https://dec.alaska.gov/media/epklaabj/10-alaska-mosquito-manual.pdf" },
+    { "title": "Pound for pound, Alaska mosquitoes pack punch", "publisher": "University of Alaska Fairbanks Geophysical Institute (Alaska Science Forum)", "url": "https://www.gi.alaska.edu/alaska-science-forum/pound-pound-alaska-mosquitoes-pack-punch" },
+    { "title": "Survival and reproduction in Arctic caribou are associated with summer forage and insect harassment", "publisher": "Frontiers in Ecology and Evolution", "url": "https://www.frontiersin.org/articles/10.3389/fevo.2022.899585/pdf" },
+    { "title": "Bugs - Gates of the Arctic National Park and Preserve", "publisher": "National Park Service", "url": "https://www.nps.gov/gaar/planyourvisit/bugs.htm" },
+    { "title": "Permafrost - Gates of the Arctic National Park and Preserve", "publisher": "National Park Service", "url": "https://www.nps.gov/gaar/learn/nature/permafrost.htm" },
+    { "title": "Experimental Infection of Reindeer with Jamestown Canyon Virus", "publisher": "CDC, Emerging Infectious Diseases", "url": "https://wwwnc.cdc.gov/eid/article/30/12/24-0757_article" }
+  ]
+}

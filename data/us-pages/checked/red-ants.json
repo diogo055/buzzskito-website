@@ -1,0 +1,10 @@
+{
+ "id": "red-ants",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "54fa0c5255cb601bb183892b78c08e83a808f4a46045eda0319cd92798663402",
+ "claimsChecked": 112,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-10-08"
+}

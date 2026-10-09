@@ -1,0 +1,10 @@
+{
+ "id": "ghost-ants",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "4acb186d85f5c42b916b730f009fbd4a22f144f382002f17cca326e78306fcf0",
+ "claimsChecked": 74,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-08"
+}

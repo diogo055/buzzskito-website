@@ -1,0 +1,134 @@
+{
+  "slug": "bullet-ants",
+  "kind": "spoke",
+  "cluster": "ants",
+  "keyword": "bullet ants",
+  "alsoTargets": [],
+  "metaTitle": "Bullet Ants: The Sting That Tops the Pain Scale",
+  "metaDescription": "Bullet ants are about 0.8 inch (20 mm) long, live from Nicaragua to Brazil and rate 4 of 4 on the Schmidt sting pain scale. Pain length, venom, ritual.",
+  "h1": "Bullet Ants: Where They Live, How Much the Sting Hurts and How Long It Lasts",
+  "dek": "A sourced look at the bullet ant, Paraponera clavata: its size and range, the sting that tops the Schmidt pain scale, how long the pain lasts, and the Sateré-Mawé initiation that uses it.",
+  "breadcrumb": "Bullet Ants",
+  "excerpt": "The bullet ant is a tropical ant about 0.8 inch (20 mm) long whose sting tops the Schmidt pain scale at 4. Range, pain duration, venom, the Sateré-Mawé ritual, colonies.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**The bullet ant is a tropical Central and South American ant, about 0.8 inch (20 mm) long, whose sting earns the top rating of 4 on the Schmidt sting pain scale.** It lives from Nicaragua south to Bolivia and Brazil, not in the United States, and the pain lasts for hours. [Justin Schmidt's 2019 paper in Toxins](https://pmc.ncbi.nlm.nih.gov/articles/PMC6669698/) names it as producing the most painful stings of any hymenopteran.",
+    "bullets": [
+      "A worker is about 0.8 inch long: a figure caption in a 2023 Nature Communications paper gives roughly 20 mm.",
+      "A 2007 range study reports specimens from Nicaragua in the north to Bolivia and Brazil in the south, most commonly from sea level to about 2,460 feet (750 meters).",
+      "On Schmidt's 1 to 4 scale, where a honeybee sting is defined as a 2, the bullet ant scores 4, North American harvester ants score 3 and fire ants score 1.",
+      "The pain lasts for hours, and a 2013 profile of Schmidt in the University of Arizona's student newspaper put it at 12 to 24 hours.",
+      "Colonies at one Costa Rican forest site range from 200 to 3,000 adult workers.",
+      "A Smithsonian Magazine report says Sateré-Mawé young men wear gloves filled with bullet ants 20 times for 10 minutes."
+    ]
+  },
+  "facts": {
+    "title": "Bullet ant at a glance",
+    "rows": [
+      ["Scientific name", "*Paraponera clavata*"],
+      ["Worker length", "About 0.8 inch (20 mm)"],
+      ["Range", "Nicaragua to Bolivia and Brazil (outside the United States)"],
+      ["Habitat", "Lowland wet and moist tropical forest; nests typically in soil at the base of trees"],
+      ["Colony size", "200 to 3,000 adult workers at one Costa Rican site"],
+      ["Schmidt pain level", "4 of 4 (a honeybee sting is 2)"],
+      ["Pain duration", "Hours; one newspaper profile reports 12 to 24 hours"],
+      ["Venom lethality", "1.4 mg/kg in mice, the dose that killed half within 24 hours (honeybee venom: 2.8 mg/kg)"],
+      ["Key venom peptide", "Poneratoxin, 25 amino acids"],
+      ["Most active", "At night"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What is a bullet ant?" },
+    { "type": "p", "text": "The bullet ant, *Paraponera clavata*, is a large tropical ant best known for a sting that sits at the top of the Schmidt sting pain scale. A worker is about 0.8 inch long: a figure caption in a [2023 Nature Communications study of ant venoms](https://pmc.ncbi.nlm.nih.gov/articles/PMC10206162/) gives roughly 20 mm. It stands alone taxonomically. A [2007 study of the species' range](https://pmc.ncbi.nlm.nih.gov/articles/PMC2999403/), which refers to it as the giant tropical ant, calls it the only member of its subfamily, Paraponerinae." },
+    { "type": "media", "needed": "Side view of a bullet ant worker on a leaf beside a ruler marked in inches and millimeters, showing a body length of about 0.8 inch (20 mm), the large jaws and the stinger at the tip of the abdomen" },
+    { "type": "p", "text": "For a US reader the bullet ant is a curiosity, not a household pest: the range data below place it in tropical rainforest, well outside the United States. For the ants you are far more likely to meet at home, start with [the complete guide to ants in US homes](/learn/ants)." },
+
+    { "type": "h2", "text": "Where do bullet ants live, and are they found in the United States?" },
+    { "type": "p", "text": "Bullet ants live in lowland tropical rainforest in Central and South America, and the documented range starts in Nicaragua, well south of the United States. The 2007 range study describes the species as collected from Nicaragua in the north to Bolivia and Brazil at its southern limit, so it is not a US species." },
+    { "type": "p", "text": "Most records come from low elevations. The authors report that collectors found the ant most commonly from sea level to about 2,460 feet (750 meters). The highest records in their sample were about 3,280 feet (1,000 meters) in Colombia and a single specimen at roughly 4,900 to 5,200 feet (1,500 to 1,600 meters) in Costa Rica. The ant typically nests in soil at the base of rainforest trees, and the study calls it a typical resident of wet and moist tropical forest with relatively even rainfall through the year. When the researchers built a computer model of where the species should occur, annual rainfall was the most important variable the model chose, which fits that picture." },
+    { "type": "media", "needed": "Map of Central and South America with the bullet ant's range shaded from Nicaragua south to Bolivia and Brazil, lowland rainforest areas highlighted, and the US border marked for orientation" },
+    { "type": "p", "text": "Two cautions apply. The study dates from 2007, so newer records could shift the edges of the range, and a predictive model shows where a species should live, not a count of where it is. A big ant found in a US home or yard is far more likely to be a native species. [Our guide to black ants in and around US homes](/blog/black-ants) compares the large and small black ants people most often find, and a separate page explains [how a carpenter ant nest is found](/blog/carpenter-ants-canada) in a house." },
+
+    { "type": "h2", "text": "How painful is a bullet ant sting?" },
+    { "type": "p", "text": "A bullet ant sting rates a 4 on the Schmidt sting pain scale, the top level, and Schmidt's 2019 paper names the bullet ant as producing the most painful stings of any hymenopteran, the insect order that includes ants, bees and wasps. The paper, [published in the journal Toxins](https://pmc.ncbi.nlm.nih.gov/articles/PMC6669698/), reports sting pain determinations for 96 species in 62 genera, including 38 ants. The scale runs from 1 to 4 and is anchored by a single honeybee sting, which is defined as a 2. A 1 is minor, almost trivial pain, and a 4 is the most extreme pain experienced." },
+    { "type": "table", "head": ["Level", "Insect", "What the 2019 paper lists"], "rows": [
+      ["1", "Fire ants (*Solenopsis*), including the red fire ant", "Three species rated 1; no lethality value listed"],
+      ["2", "Honeybee (*Apis mellifera*)", "The reference sting that defines level 2; venom lethality 2.8 mg/kg"],
+      ["3", "North American harvester ants (*Pogonomyrmex*, 20 species)", "Venom lethality 0.12 to 0.7 mg/kg"],
+      ["4", "Bullet ant (*Paraponera clavata*)", "Venom lethality 1.4 mg/kg"]
+    ], "caption": "Ratings from Schmidt (2019). Lethality is the amount of venom per kilogram of body weight, injected into a vein, that killed half of the test mice within 24 hours; a smaller number means more lethal venom." },
+    { "type": "p", "text": "The scale is a judgment, not an instrument reading. Schmidt's paper says the scale was limited to four values, plus a trivial 0, and that the number of stings behind a rating ranges from a single sting to many, so some values carry more potential subjectivity than others. Some entries get a value halfway between two whole numbers. Four entries in the paper's table reach 4: the bullet ant, a warrior wasp (*Synoeca septentrionalis*) and two tarantula hawk wasps (*Pepsis*). The number alone does not rank those four against one another." },
+    { "type": "p", "text": "US readers have more familiar comparisons. [Our guide to red ants](/blog/red-ants) covers fire ants, which the paper rates 1, and [which US ants bite and which sting](/blog/do-ants-bite) sorts the common species by what they actually do. The North American harvester ants that the paper rates 3 sit one level below the bullet ant." },
+
+    { "type": "h2", "text": "How long does the pain from a bullet ant sting last?" },
+    { "type": "p", "text": "The pain lasts for hours, and the longest figure in the sources used here is 12 to 24 hours, which comes from a newspaper profile of Schmidt rather than from a measurement in a study. The 2023 Nature Communications paper states that bullet ant stings can cause uncontrollable trembling and immediate intense local pain that lasts for hours. The University of Arizona's student newspaper, [the Daily Wildcat](https://wildcat.arizona.edu/103190/news/its-a-sting-operation-for-bug-professor/), reported in 2013 that the pain can last anywhere from 12 to 24 hours and that Schmidt had been stung by bullet ants four times. In the same piece he described the pain as coming in huge waves that hit a crescendo, to the point that you thought you were going to die." },
+    { "type": "table", "head": ["Source", "What it reports about duration"], "rows": [
+      ["Robinson and colleagues, Nature Communications (2023)", "Immediate, intense local pain that lasts for hours, with uncontrollable trembling"],
+      ["The Daily Wildcat, University of Arizona (2013)", "Pain that can last 12 to 24 hours; Schmidt had been stung four times"],
+      ["Schmidt, Toxins (2019)", "A pain level of 4 and a lethality value for the bullet ant, but no duration; for harvester ants it gives 4 to 8 hours"]
+    ], "caption": "None of these sources followed a group of stung people over time." },
+    { "type": "p", "text": "Read the 12 to 24 hour range as a reported figure, not a measured average. The article gives it in the reporter's own words and does not say how it was arrived at, and none of the sources used here is a study that followed a group of people after a sting, so how long the pain lasts in any given person is not established. For a comparison closer to home, Schmidt's paper says harvester ant stings produce intense waves of deep pain that last 4 to 8 hours." },
+    { "type": "callout", "tone": "warning", "title": "When to get care", "text": "MedlinePlus, the National Library of Medicine's health encyclopedia, says to call 911 or the local emergency number if someone with a sting has trouble breathing, wheezing, swelling anywhere on the face or in the mouth, throat tightness, difficulty swallowing, weakness or skin that is turning blue. For severe or spreading pain, or trembling, after a sting from an unfamiliar ant, contact a healthcare provider. This page cannot diagnose or treat a sting." },
+
+    { "type": "h2", "text": "What does bullet ant venom do?" },
+    { "type": "p", "text": "Bullet ant venom causes pain mainly through one small peptide, poneratoxin, which acts on sodium channels, the membrane proteins that nerve cells need in order to fire. Schmidt's paper says both the venom's pain and its lethality appear to be caused mainly by this single, well-studied peptide. The 2023 Nature Communications study, which calls the peptide Pc1a, describes it as a 25-residue peptide and tested it on human sodium channels. It was active at the channel called hNaV1.6 at an EC50 of 97 nanomolar and at hNaV1.7 at 2.3 micromolar. EC50 is the concentration that gives half the maximum effect, so the lower figure means a more potent action." },
+    { "type": "p", "text": "The same study tested the peptide in mice. A shallow injection of 20 to 600 picomoles of Pc1a into the paw caused immediate, long-lasting and near-maximal pain behaviors, which the authors describe as consistent with the symptoms of bullet ant stings in humans." },
+    { "type": "p", "text": "Why would an ant carry such a toxin? Schmidt writes that the ability to cause pain is fundamental to most insect venoms used for defense against predators, and he describes pain as the body's warning system that damage has occurred, is occurring or is about to occur. The Nature Communications authors conclude that these pain-causing sodium channel toxins are likely vertebrate-selective, which fits a mainly defensive role, and that they emerged early in the ant family." },
+    { "type": "h3", "text": "Is pain the same as danger?" },
+    { "type": "p", "text": "No. The 2019 paper says its data are scattered across the range of pain levels and lethalities with no apparent pattern or relationship, and the stings rated 4 show it. The two tarantula hawks (genus *Pepsis*) have lethality values of 90 and 120 mg/kg, which Schmidt describes as almost no vertebrate lethality. The bullet ant's value is 1.4 mg/kg, and Schmidt calls its venom highly lethal as well as painful; by weight it is more lethal to mice than the honeybee venom listed at 2.8 mg/kg." },
+    { "type": "p", "text": "North American harvester ants, rated one level lower for pain, have values of 0.12 to 0.7 mg/kg in the paper's table, so by that laboratory measure their venom is more lethal still. These are figures for venom injected into the veins of mice, not predictions of what one sting does to a person, and the sources used here describe the effects of a bullet ant sting on people as intense pain and trembling." },
+
+    { "type": "h2", "text": "What is the Sateré-Mawé bullet ant initiation?" },
+    { "type": "p", "text": "It is an initiation into adulthood among the Sateré-Mawé people of the Amazon, in which young men wear gloves filled with bullet ants. A [2014 Smithsonian Magazine report](https://www.smithsonianmag.com/smart-news/brazilian-tribe-becoming-man-requires-sticking-your-hand-glove-full-angry-ants-180953156/) says the ritual is reserved for young men and that boys as young as 12 must gather the ants from the forest, which are then used to make the gloves. It says the young men wear the gloves 20 times for 10 minutes, performing a dance while the ants sting them. Citing a National Geographic video, it adds that each glove contains dozens of ants." },
+    { "type": "p", "text": "The same report says the tribe chief describes the ceremony as meant to show the men that a life lived without suffering or effort is not worth anything at all. The Nature Communications paper mentions in passing that certain tribes of the Amazon exploit the sting in their initiation rituals." },
+    { "type": "p", "text": "Several things are not established in the sources used here. The Smithsonian report does not describe the after-effects on the young men or say over what period the 20 rounds take place, the figures above come from one news account rather than a measurement, and the laboratory papers on this page studied venom in cells and animals, not people taking part in the ceremony. This is a cultural practice with its own meaning for the Sateré-Mawé, not a test to copy, and nothing on this page suggests anyone should be stung on purpose." },
+
+    { "type": "h2", "text": "How does a bullet ant colony live?" },
+    { "type": "p", "text": "A colony works from a nest at the base of a rainforest tree and holds from a few hundred to a few thousand workers that are most active at night. [Lee Dyer's 2002 study in the Journal of Insect Science](https://pmc.ncbi.nlm.nih.gov/articles/PMC355916/), done at La Selva Biological Station in Costa Rica and on Barro Colorado Island in Panama, gives colony sizes at La Selva of 200 to 3,000 adult workers, citing earlier studies and the author's own observations. Nests sit at the bases of trees, or up to about 100 feet (30 meters) up the trunk, with steady foraging trails on those and adjacent trees. At both forests the ants were more active at night." },
+    { "type": "p", "text": "At La Selva, returning foragers carried nectar more often than anything else; prey and nest material came back less often. Arthropods made up 98 percent of the prey and scavenged material there, and 57 percent of those arthropods were leafcutter ants (*Atta cephalotes*) while 30 percent were caterpillars (lepidopteran larvae). When caterpillars were offered to foraging ants, a typical attack was a single ant sensing the prey, pouncing, taking the larva in its mandibles and stinging it repeatedly; for larger prey the ants worked as a team. Unlike the nomadic raiders in [our guide to army ants](/blog/army-ants), a bullet ant colony forages out from its nest, and [what ants eat](/blog/what-do-ants-eat) varies a good deal among species." },
+    { "type": "h3", "text": "Do bullet ants protect trees from leaf-eating insects?" },
+    { "type": "p", "text": "Possibly, but the evidence is not conclusive. Dyer measured leaf damage on trees at La Selva. Trees with colonies had about 9.5 to 9.6 percent leaf damage, against 15.3 percent on randomly selected trees, a difference the paper calls significant but still small. The nearest neighboring trees without ants averaged 14.5 percent, and that gap from the ant trees was not statistically significant. The study concludes that predation by this ant was high in both forests despite its omnivorous diet, and calls it part of potentially important top-down controls in these wet and moist forests." },
+
+    { "type": "h2", "text": "What should a traveler know about bullet ants?" },
+    { "type": "p", "text": "The practical risk is a surprise sting near a tree trunk, and the sources used here offer no field-tested way to avoid it. Because nests typically sit at the base of trees and workers run steady trails on trunks, a hand on a rainforest tree or a seat on the ground beside one is where a traveler is most likely to meet them; that is an inference from where the ants live, not a measured statistic. The ants are more active at night, so a night walk through lowland forest is a time to watch where you put your hands." },
+    { "type": "p", "text": "None of the sources used here gives a treatment protocol for a bullet ant sting, so if you are stung, seek advice from a healthcare provider rather than relying on home remedies." },
+
+    { "type": "h2", "text": "Which other unusual ants are worth reading about?" },
+    { "type": "p", "text": "Two other unusual ants have their own guides. [Honeypot ants](/blog/honeypot-ants) store sweet liquid in the bodies of specialized workers, which swell into spheres, and [zombie ants](/blog/zombie-ants) are ants, often carpenter ants, whose behavior is changed by a parasitic fungus. If it is ordinary ants in your kitchen that brought you here, [a bait-first plan for ants in the house](/blog/how-to-get-rid-of-ants-canada) explains why bait is the usual first step." }
+  ],
+  "faqs": [
+    {
+      "question": "Are there bullet ants in the United States?",
+      "answer": "Not according to the range data in a 2007 predictive distribution study, which reports the species from Nicaragua in the north to Bolivia and Brazil in the south, in lowland wet and moist tropical forest. That puts it outside the United States. The study models where the ant should live, and it is from 2007, so newer records could shift the edges. A large ant found in a US home is far more likely to be a native species."
+    },
+    {
+      "question": "How long does a bullet ant sting hurt?",
+      "answer": "For hours. A 2023 Nature Communications paper says the pain lasts for hours and can come with uncontrollable trembling, and a 2013 University of Arizona student newspaper profile of entomologist Justin Schmidt put it at 12 to 24 hours. Neither is a measurement across a group of stung people, so how long it lasts in any given person is not established. MedlinePlus says to call 911 if someone with a sting has trouble breathing, swelling anywhere on the face or in the mouth, or throat tightness."
+    },
+    {
+      "question": "Is the bullet ant sting the most painful in the world?",
+      "answer": "Schmidt's 2019 paper says the bullet ant produces the most painful stings of any hymenopteran, the order of ants, bees and wasps, and rates it 4, the top of his scale, which is anchored by a honeybee sting at 2. Three other insects in the paper's table also rate 4: a warrior wasp and two tarantula hawk wasps. The paper itself notes that some values carry more potential subjectivity than others. The careful statement is that the bullet ant sits at the top level of Schmidt's scale and that Schmidt names it as the most painful."
+    },
+    {
+      "question": "Can a bullet ant sting kill you?",
+      "answer": "The sources used here describe the effects of a sting on people as intense local pain and uncontrollable trembling, not death. Schmidt calls the venom highly lethal in his mouse test, where 1.4 mg/kg injected into a vein killed half the mice within 24 hours, but that is a laboratory figure for venom and does not predict what one sting does to a person. As with any sting, MedlinePlus says to call 911 for trouble breathing, swelling anywhere on the face or in the mouth, or throat tightness."
+    },
+    {
+      "question": "Why do the Sateré-Mawé use bullet ants?",
+      "answer": "A 2014 Smithsonian Magazine report describes the ritual as an initiation into adulthood for young men. Boys as young as 12 gather the ants, which are made into gloves, and the young men wear them 20 times for 10 minutes while dancing. Citing a National Geographic video, it says each glove contains dozens of ants. The tribe chief, as the report tells it, says the ceremony shows that a life without suffering or effort is not worth anything at all. The report does not describe the after-effects, and the figures come from one news account."
+    },
+    {
+      "question": "What do bullet ants eat?",
+      "answer": "Nectar and prey. At La Selva in Costa Rica, returning foragers carried nectar more often than anything else. Arthropods made up 98 percent of the prey and scavenged material there, and of those, 57 percent were leafcutter ants and 30 percent were caterpillars. The ants were more active at night at both study forests, in Costa Rica and Panama, and the study describes their diet as omnivorous."
+    }
+  ],
+  "sources": [
+    { "title": "Pain and Lethality Induced by Insect Stings: An Exploratory and Correlational Study", "publisher": "Toxins (Basel), via PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6669698/" },
+    { "title": "Ant venoms contain vertebrate-selective pain-causing sodium channel toxins", "publisher": "Nature Communications, via PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10206162/" },
+    { "title": "A Predictive Distribution Map for the Giant Tropical Ant, Paraponera clavata", "publisher": "Journal of Insect Science, via PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2999403/" },
+    { "title": "A quantification of predation rates, indirect positive effects on plants, and foraging variation of the giant tropical ant, Paraponera clavata", "publisher": "Journal of Insect Science, via PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC355916/" },
+    { "title": "When Becoming a Man Means Sticking Your Hand Into a Glove of Ants", "publisher": "Smithsonian Magazine", "url": "https://www.smithsonianmag.com/smart-news/brazilian-tribe-becoming-man-requires-sticking-your-hand-glove-full-angry-ants-180953156/", "kind": "news" },
+    { "title": "It's a sting operation for bug professor", "publisher": "The Daily Wildcat, University of Arizona", "url": "https://wildcat.arizona.edu/103190/news/its-a-sting-operation-for-bug-professor/", "kind": "news" }
+  ],
+  "disclaimer": "health"
+}

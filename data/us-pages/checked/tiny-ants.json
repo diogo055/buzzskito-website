@@ -1,0 +1,10 @@
+{
+ "id": "tiny-ants",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "1e15ea3e554bc2421e694c5a61f23618313e24505552da968fb5eb19c2eacf1d",
+ "claimsChecked": 78,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-10-08"
+}
