@@ -298,6 +298,19 @@ if (ALL) {
   const dupTitles = Object.entries(titles).filter(([, v]) => v.length > 1)
   for (const [t, v] of dupTitles) { console.log(`✗ duplicate metaTitle "${t}": ${v.join(', ')}`); bad++ }
   for (const [path, n] of starved) { console.log(`✗ ${path} has only ${n} inbound links from other new pages (needs 3)`); bad++ }
+  // A temporary redirect (next.config.mjs, US-GUIDES-PENDING block) must never sit over a guide
+  // that exists: it would hide the page. The register script keeps the block in step; this
+  // catches the case where someone added a guide and forgot to run it.
+  const cfgFile = join(ROOT, 'next.config.mjs')
+  if (existsSync(cfgFile)) {
+    const cfg = readFileSync(cfgFile, 'utf8')
+    const from = cfg.indexOf('US-GUIDES-PENDING:START'), to = cfg.indexOf('US-GUIDES-PENDING:END')
+    if (from >= 0 && to > from) {
+      for (const m of cfg.slice(from, to).matchAll(/source: '([^']+)'/g)) {
+        if (have.has(m[1])) { console.log(`✗ ${m[1]} is published but next.config.mjs still redirects it away. Run: node scripts/us-pages-register.mjs`); bad++ }
+      }
+    }
+  }
   const strict = args.includes('--complete')
   if (missing.length) { console.log(`${strict ? '✗' : '…'} ${missing.length} planned pages not written yet${missing.length <= 12 ? `: ${missing.join(', ')}` : ''}`); if (strict) bad++ }
   console.log(`\n${bad ? '✗' : '✓'} check:guides: ${built.length} guides checked, ${Object.values(results).filter((r) => r.errors.length).length} with errors, ${starved.length} short of inbound links, ${missing.length} not written`)
