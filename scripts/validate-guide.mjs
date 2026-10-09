@@ -307,7 +307,8 @@ if (ALL) {
     const from = cfg.indexOf('US-GUIDES-PENDING:START'), to = cfg.indexOf('US-GUIDES-PENDING:END')
     if (from >= 0 && to > from) {
       for (const m of cfg.slice(from, to).matchAll(/source: '([^']+)'/g)) {
-        if (have.has(m[1])) { console.log(`✗ ${m[1]} is published but next.config.mjs still redirects it away. Run: node scripts/us-pages-register.mjs`); bad++ }
+        // "published" means the route file exists, not merely that a draft JSON is on disk
+        if (existsSync(join(ROOT, 'app', m[1].slice(1), 'page.tsx'))) { console.log(`✗ ${m[1]} is published but next.config.mjs still redirects it away. Run: node scripts/us-pages-register.mjs`); bad++ }
       }
     }
   }
