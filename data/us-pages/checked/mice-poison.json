@@ -1,0 +1,10 @@
+{
+ "id": "mice-poison",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "6ebef102afc9bc8ac7e77b5f2e7e6b60938a93ca518b26df8c78548e3f050de2",
+ "claimsChecked": 140,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-11"
+}

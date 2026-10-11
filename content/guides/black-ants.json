@@ -1,0 +1,142 @@
+{
+  "slug": "black-ants",
+  "kind": "spoke",
+  "cluster": "ants",
+  "keyword": "black ants",
+  "alsoTargets": [],
+  "metaTitle": "Black Ants: Tell Carpenter Ants from the Rest",
+  "metaDescription": "Many black ants in US homes are small nuisance ants, but large carpenter ants can damage wood. Check size, waist nodes and back shape to tell them apart.",
+  "h1": "Black Ants in the House: Which Type You Have and Which Ones Matter",
+  "dek": "How to tell little black ants, pavement ants, odorous house ants and carpenter ants apart by size, waist and back shape, and which of them can harm a building.",
+  "breadcrumb": "Black Ants",
+  "excerpt": "Many black ants in a home are small nuisance ants, while the big ones may be carpenter ants. Learn the quick check, which types damage wood, and what each one needs.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**The small black ants that trail into US homes are nuisance ants, and the black ant that can damage a building is the larger carpenter ant.** Tell them apart by size, the number of bumps (nodes) at the waist, and the shape of the back seen from the side. [Ohio State Extension](https://ohioline.osu.edu/factsheet/hyg-2063) lists the carpenter ant check as one node and an evenly rounded back.",
+    "bullets": [
+      "Carpenter ant workers run about 1/4 to 1/2 inch, with one node at the waist and an evenly rounded back.",
+      "Little black ants are shiny black, roughly 1/16 to 1/8 inch long, and have two nodes.",
+      "Pavement ants have two nodes and parallel grooves on the head and thorax.",
+      "Odorous house ants are about 1/10 inch, have one node hidden by the abdomen, and smell like rotten coconut when crushed.",
+      "Carpenter ants do not eat wood; they hollow it out to nest, and Ohio State says the parent nest is associated with wood that has a moisture content above 15 percent.",
+      "Field ants can also be large and dark, but they have a distinct indentation in the thorax and build soil mounds."
+    ]
+  },
+  "facts": {
+    "title": "Black ants at a glance",
+    "rows": [
+      ["Large black ants near homes", "Carpenter ants indoors and in wood; field ants outdoors in soil mounds"],
+      ["Small black ants in kitchens", "Little black, pavement and odorous house ants, about 1/16 to 1/4 inch"],
+      ["Black ant that excavates wood", "Carpenter ants (*Camponotus*)"],
+      ["Quickest field check", "Count the waist nodes, then look at the back in side view"],
+      ["Smell test", "Odorous house ants smell like rotten coconut when crushed, but one source says little black ants can too"],
+      ["First move against small black ants", "Remove the food and wipe the scent trail; for the colony, use a slow-acting bait as the label directs"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What kinds of ants are black?" },
+    { "type": "p", "text": "Four common household ants in the US are black or blackish: the carpenter ant, the little black ant, the pavement ant and the odorous house ant. Only the carpenter ant is large and tied to wood. The other three are small, trail-forming ants that come in for food. The table below pulls together the [UC IPM ant table](https://ipm.ucanr.edu/home-and-landscape/ants/), Ohio State's [ant identification fact sheet](https://cfaes.osu.edu/fact-sheet/ants-and-around-home), the [Mississippi State Extension guide to home-invading ants](https://extension.msstate.edu/sites/default/files/publications/P2407_web.pdf) and the [Northeastern IPM Center's little black ant page](https://www.neipmc.org/schools/pests/little-black-ant/). For the wider picture of how colonies work and which other species turn up indoors, see [the complete guide to ants in US homes](/learn/ants)." },
+    { "type": "table", "head": ["Ant", "Worker size", "Waist and back (side view)", "Other clues", "Usual nest"], "rows": [
+      ["Carpenter ant (*Camponotus*)", "About 1/4 to 1/2 inch; Texas A&M allows up to 5/8 inch", "One node; evenly rounded, arched back", "Black, or black and red; fringe of hairs at the tip of the abdomen", "Wood: stumps, firewood, fence posts, and in buildings damp or damaged wood and insulation"],
+      ["Little black ant (*Monomorium minimum*)", "About 1/16 to 1/8 inch", "Two nodes", "Slender; shiny black, sometimes dark brown; slower than odorous house ants", "Soil, under stones and debris, woodwork, masonry, rotted wood; wall voids near heat or moisture"],
+      ["Pavement ant (*Tetramorium*)", "About 1/12 to 1/4 inch; UC IPM gives 3/16 inch", "Two nodes; head and thorax furrowed with parallel grooves; a pair of short spines at the rear of the thorax", "Light to dark brown or blackish", "Lawns, under stones and boards, pavement cracks, curb edges and crevices in masonry"],
+      ["Odorous house ant (*Tapinoma sessile*)", "About 1/10 to 1/8 inch", "One flat node hidden by the abdomen; uneven back", "Brown to blackish-brown; rotten-coconut smell when crushed", "Soil, under mulch, logs and stones; wall voids near moisture indoors"]
+    ], "caption": "Compiled from UC IPM, Ohio State, Mississippi State, Texas A&M and the Northeastern IPM Center; sizes differ slightly between sources." },
+    { "type": "p", "text": "Sources do not agree to the last sixteenth of an inch, so treat size as a first filter rather than a verdict. UC IPM lists the pavement ant at 3/16 inch, while Ohio State gives a range of 1/12 to 1/4 inch. Ohio State puts the little black ant at about 1/8 inch, the Northeastern IPM Center gives 1/16 to 1/8 inch (1.5 to 2 mm), and Mississippi State describes it as smaller than the odorous house ant and slower moving." },
+    { "type": "p", "text": "A crushed ant's smell is a handy clue but not a clean test. Ohio State describes the odorous house ant's smell as rotten coconut, and Mississippi State says the odor can help identify it. Yet the Northeastern IPM Center says crushed little black ants can also give off a foul odor sometimes likened to rotten coconut. If the smell is the only thing pointing to an odorous house ant, confirm it with the waist and the size." },
+
+    { "type": "h2", "text": "How do you tell a carpenter ant from other black ants?" },
+    { "type": "p", "text": "Check three features under a magnifier: one node at the waist, an evenly rounded back when viewed from the side, and a fringe of hairs around the tip of the abdomen. [Ohio State Extension's carpenter ant fact sheet](https://ohioline.osu.edu/factsheet/hyg-2063) names those three as the identifying features. [Texas A&M AgriLife Extension](https://agrilifeextension.tamu.edu/wp-content/uploads/2025/06/Carpenter-Ants.pdf) puts it the same way: one node, a circle of hairs, and an evenly rounded thorax with no spines or bumps." },
+    { "type": "media", "needed": "Side-view macro photo of a carpenter ant worker beside a US penny for scale, sharp enough to show the single waist node, the smooth arched back and the ring of hairs at the tip of the abdomen" },
+    { "type": "ul", "items": [
+      "**Waist.** A node is the small bump between the middle and rear body sections. Pavement ants and little black ants have two of them, according to [Ohio State's ant fact sheet](https://cfaes.osu.edu/fact-sheet/ants-and-around-home), and a carpenter ant has one. The odorous house ant also has one, but the same fact sheet says the abdomen hides it, so that ant can look as if it has none.",
+      "**Back in side view.** A carpenter ant's back is a smooth arch. The odorous house ant's back is uneven, and the pavement ant's head and thorax are furrowed with parallel lines.",
+      "**Size.** Workers within one carpenter ant colony vary in size, and [Ohio State's carpenter ant sheet](https://ohioline.osu.edu/factsheet/hyg-2063) puts minor workers of the black carpenter ant at about 1/4 inch and major workers at about 1/2 inch. Seeing a 1/4-inch worker next to a 1/2-inch one is normal for this species.",
+      "**Behavior.** Texas A&M says carpenter ants forage mostly at night, following fence rails, garden edging, tree branches, water hoses and similar linear guides from a nest in a tree to indoor locations, and may travel as far as 100 yards from the nest to a food source."
+    ] },
+    { "type": "media", "needed": "Labeled side-view diagram comparing the waist and back of four ants: carpenter ant (one node, smooth arch), odorous house ant (flat node hidden by the abdomen, uneven back), pavement ant (two nodes, grooved head) and little black ant (two nodes), all drawn to relative size" },
+    { "type": "h3", "text": "Which large black ants are not carpenter ants?" },
+    { "type": "p", "text": "Field ants (*Formica*) are the usual large, dark look-alike outdoors. Ohio State says they also have a single node, but their thorax has a distinct indentation, and they build mounds in the soil, which carpenter ants do not. The same sheet says the two are managed in entirely different ways, so identify first." },
+    { "type": "p", "text": "Acrobat ants are the look-alike in dead wood. Texas A&M says they are smaller than carpenter ants, 1/8 to 3/8 inch, with a heart-shaped abdomen, and are often confused with carpenter ants because both may nest in dead wood." },
+    { "type": "p", "text": "For a stubborn identification, Ohio State's ant fact sheet suggests collecting several ants in a watertight vial of isopropyl or 70 percent alcohol, not water, and taking them to a county extension office. Check whether your own state's extension service offers the same help. Very small ants that are not fully dark are a different puzzle. [An identification key for tiny ants](/blog/tiny-ants) sorts them by size, color, smell and trail, and [ghost ants](/blog/ghost-ants) have a guide of their own." },
+
+    { "type": "h2", "text": "Are black ants harmful?" },
+    { "type": "p", "text": "Mostly they are a nuisance, and the carpenter ant is the exception because it can damage wood. The small species are food-seekers that raid kitchens and pantries; the large one can nest in a building's wood." },
+    { "type": "h3", "text": "Which black ants damage a house?" },
+    { "type": "p", "text": "Of the four ants in the table, only the carpenter ant is linked to damaged wood. Texas A&M says carpenter ants hollow out wood or excavate insulation to build nests, but unlike termites they do not eat wood and cannot digest it. UC IPM says they hollow wood out to nest and may cause considerable damage, and Ohio State's ant fact sheet says the chewing sometimes causes structural damage." },
+    { "type": "p", "text": "How serious it gets varies by region and species. Texas A&M says the carpenter ants of Texas cause less damage to structural wood than those elsewhere in the US and rarely damage framing lumber, though home sellers still care because they are considered a potential wood-destroying organism. UC IPM, writing for California, takes a more cautious line. Read both as true for their own regions rather than as a contradiction." },
+    { "type": "p", "text": "Moisture is the common thread. Texas A&M says outdoor nests are mostly in wood already rotten or damaged by termites, and it lists typical indoor nest sites: wood affected by clogged gutters or damaged flashing, leaking window and door frames, plumbing leaks around kitchens and bathrooms, wood touching soil, and poorly ventilated attics, crawl spaces and areas under porches. It adds that carpenter ants can indicate moisture or rot problems in a building. Ohio State says the parent nest is associated with wood that has a moisture content greater than 15 percent." },
+    { "type": "p", "text": "Their debris is the clearest sign. Texas A&M describes cone-shaped piles of shredded wood (frass) under nest openings and galleries that are clean and smooth, where termites often line theirs with mud. Ohio State compares the shavings to pencil-sharpener shavings and says the galleries are free of soil." },
+    { "type": "p", "text": "A damaging colony also takes years to build. Texas A&M says colonies stay small for their first 2 or 3 years, then grow rapidly, and can hold up to 3,000 or more ants, depending on the species, in 4 to 6 years, sometimes with interconnected satellite colonies. Separately, because carpenter ants in Texas rarely cause significant structural damage, it notes that a few workers, or an occasional swarm, in a home there may not justify an expensive treatment program." },
+    { "type": "p", "text": "The other three are different. Ohio State lists the little black ant as nesting in woodwork, masonry, soil and rotted wood, which is another reason to check for leaks, but none of the pages used here describes the little black, pavement or odorous house ant excavating sound wood." },
+    { "type": "h3", "text": "Do black ants bite or sting?" },
+    { "type": "p", "text": "Odorous house ants have no stinger but can bite, and Mississippi State says the bite is not very painful because the ants are so small. Bite-versus-sting details for the other common species are laid out in [a species-by-species guide to which ants bite and which sting](/blog/do-ants-bite), and the one big black ant has its own page on [carpenter ant bites and what to do about them](/blog/do-carpenter-ants-bite). If a bite or sting causes a reaction that worries you, contact a healthcare provider." },
+
+    { "type": "h2", "text": "Why are black ants in my house?" },
+    { "type": "p", "text": "Usually because a foraging worker found food or water and laid a scent trail for the rest of the colony. Mississippi State says foraging ants lay a chemical trail from the colony to the food, and that because odorous house ants nest mainly outdoors, an indoor infestation is likely linked to an outdoor colony. Its advice is to follow the trail back, which often works with a little patience." },
+    { "type": "ul", "items": [
+      "**Food.** UC IPM lists sweets, proteins and grease for the pavement ant and sweets, sometimes proteins, for the odorous house ant. Ohio State adds sweets, meats, vegetables and honeydew for the little black ant. Mississippi State says odorous house ants turn up in kitchens and pantries but also where pet food is stored or garbage cans sit.",
+      "**Moisture.** Mississippi State says indoor odorous house ant nests are usually in or near a moisture source, and the Northeastern IPM Center says little black ants will nest in wall voids and around sources of heat and moisture.",
+      "**Honeydew outdoors.** Mississippi State says these ants thrive on honeydew from aphids, scales and whiteflies on landscape plants, so controlling those insects can help.",
+      "**A path to the wall.** Texas A&M says carpenter ants get in through cracks around windows and foundation walls, ducts, attic vents, and places where tree branches or utility lines touch the structure. Mississippi State advises pruning limbs that touch the house, removing vines, and keeping mulch and leaf litter 3 to 4 feet back from the foundation."
+    ] },
+
+    { "type": "h2", "text": "What does each kind of black ant need?" },
+    { "type": "p", "text": "Small black ants need their food and scent trail removed and a slow-acting bait they will carry home, while carpenter ants need their nest found. The table sums up the focus for each, using the foods the sources name." },
+    { "type": "table", "head": ["Ant", "Foods the sources name", "What to focus on"], "rows": [
+      ["Odorous house ant", "Sweets, sometimes proteins; honeydew outdoors", "Remove the food, seal the entry points you can find and set sweet bait along the foraging trail. [Mississippi State](https://extension.msstate.edu/sites/default/files/publications/P2407_web.pdf) calls long-term control quite challenging and says it takes a combination of methods, persistence and patience."],
+      ["Pavement ant", "Sweets, proteins and grease", "Offer a small amount of each kind of bait and watch which one the ants take, as [UC IPM](https://ipm.ucanr.edu/home-and-landscape/ants/) suggests."],
+      ["Little black ant", "Sweets, meats, vegetables, honeydew and other insects", "Seal cracks and gaps, keep plant and mulch debris away from the foundation, reduce moisture, store food in airtight containers and use bait, per the [Northeastern IPM Center](https://www.neipmc.org/schools/pests/little-black-ant/)."],
+      ["Carpenter ant", "Omnivorous: sweets, honeydew, insects, fats, grease and meat", "Find the parent and satellite nests and fix the moisture that let them in; see the carpenter ant section below."]
+    ], "caption": "Foods from UC IPM, Ohio State, Mississippi State and Texas A&M." },
+    { "type": "h3", "text": "Small black ants: trail, food, then bait" },
+    { "type": "p", "text": "Start by cutting off what draws them. UC IPM says spraying ants indoors will not stop more from entering, and that if ants can be thoroughly washed away and kept out of an area, indoor insecticide sprays are not necessary. It adds that vacuuming or sponging trails with soapy water may work as well as a spray at temporarily removing foraging ants. Mississippi State gives the same short-term fix: wipe the trail with a damp, soapy cloth and remove or seal the food that attracted them." },
+    { "type": "p", "text": "For the colony itself, UC IPM explains that a bait's poison must be slow-acting so workers are not killed before they get back to the nest, and Ohio State says fast-acting baits kill foragers quickly but work less well than slow-acting ones carried back for sharing. Mississippi State says baits made for odorous house ants and Argentine ants usually take several weeks to work and must be kept fresh, and that baits designed for fire ants are usually not very effective on them. It also warns against spraying insecticide where bait is out, because sprays tend to repel ants and keep them from taking the bait, and against disturbing the foraging trail that leads to the bait." },
+    { "type": "p", "text": "Whatever you use, read the label. Mississippi State notes that two products with the same active ingredient can have very different labels, one for indoor use and one limited to outdoors. The step-by-step version of all this is in [a whole-house plan for ants indoors](/blog/how-to-get-rid-of-ants-in-the-house), with [the reasoning behind baiting over shelf sprays](/blog/how-to-get-rid-of-ants-canada) and a comparison of [bait stations and glue traps](/blog/best-ant-traps-canada) for choosing a product." },
+    { "type": "h3", "text": "Carpenter ants: find the nest" },
+    { "type": "p", "text": "Ohio State calls locating the parent nest and the satellite nests the most important and often the most difficult part of carpenter ant control. Texas A&M says treatments aimed at termites or other pests will not control carpenter ants, that the best solution is often a pest management professional familiar with local species, and that fixing leaks, replacing damaged wood, trimming limbs that touch the structure and storing firewood away from the house all lower the odds of an infestation. For a full walk-through of nest hunting, see [a guide to tracking down a carpenter ant nest](/blog/carpenter-ants-canada)." },
+
+    { "type": "h2", "text": "Why do some black ants have wings?" },
+    { "type": "p", "text": "Winged black ants are the male and female reproductives of a mature colony, leaving on mating flights to start new nests, and they are easy to mistake for termites. Texas A&M says carpenter ant reproductives usually develop in late summer, spend the winter in the nest and swarm in spring and early summer, and Ohio State puts carpenter ant swarms at about March to July. Texas A&M adds that an older, mature colony produces 200 to 400 winged ants for these flights each year." },
+    { "type": "p", "text": "The difference from termites is in the body. Texas A&M says ants have a narrow waist, elbowed antennae, and front wings longer than the hind wings. Termites have a broad waist, straight beaded antennae and wings of equal length. In Texas both can swarm at the same time and the control methods differ greatly, so accurate identification matters. Two companion guides cover this in detail: [what flying ants are and why they swarm](/blog/flying-ants) and [a side-by-side comparison of flying ants and termites](/blog/flying-ants-vs-termites)." },
+
+    { "type": "h2", "text": "What if the ant is not really black?" },
+    { "type": "p", "text": "Several common ants look black in poor light but are brown, reddish or two-toned. Check these before settling on a species." },
+    { "type": "ul", "items": [
+      "**Argentine ants.** Mississippi State says they are uniformly brown, about 1/12 inch long, have a single upright node, and give off a stale, musty odor when crushed. To an untrained eye they resemble odorous house ants.",
+      "**Two-toned carpenter ants.** UC IPM's table describes carpenter ants as black or bicolored red and black, so a black-and-red ant with one node and a rounded back is still a carpenter ant.",
+      "**Reddish ants with dark rear ends.** UC IPM describes the red imported fire ant as reddish with a dark brown abdomen and the southern fire ant as having an amber head and thorax and a black abdomen. [Which ant is the red ant, and which ones sting](/blog/red-ants) is covered separately.",
+      "**Tiny pale ants.** UC IPM lists the pharaoh ant at 1/16 inch and yellow or honey-colored to orange, so it is not a black ant at all."
+    ] }
+  ],
+  "faqs": [
+    {
+      "question": "Do black ants in the house mean I have carpenter ants?",
+      "answer": "Not necessarily. Small black ants trailing indoors are species such as odorous house ants, pavement ants or little black ants that came in for food, not carpenter ants. Carpenter ants are the large ones, about 1/4 to 1/2 inch, with one node at the waist and an evenly rounded back. Texas A&M Extension says their presence can point to moisture or rotting wood, so look for cone-shaped piles of shredded wood debris and damp or damaged timber before deciding."
+    },
+    {
+      "question": "Why do I suddenly see black ants in my kitchen?",
+      "answer": "A scout has probably found food or water and laid a scent trail back to the nest. Mississippi State Extension says foraging ants lay a chemical trail from the colony to the food, and that indoor odorous house ant infestations are likely linked to outdoor colonies. Crumbs, sweet spills, pet food and garbage are typical draws, and indoor nests tend to sit near moisture. Wiping the trail with soapy water and removing the food source is a short-term fix, while bait is what reaches the colony."
+    },
+    {
+      "question": "Will spraying get rid of black ants?",
+      "answer": "Not the colony. UC IPM says spraying ants indoors will not prevent more from entering, and that baits must be slow-acting so workers carry the poison back before they die. It adds that if ants can be thoroughly washed away and kept out of an area, indoor insecticide sprays are not necessary. Mississippi State Extension adds that sprays should not be used where bait is out, because they tend to repel ants and keep them from taking the bait. Always follow the product label."
+    },
+    {
+      "question": "How long does ant bait take to work?",
+      "answer": "Expect weeks rather than hours, and follow the label. Mississippi State Extension says baits made for odorous house ants and Argentine ants usually take several weeks, and they must be kept fresh and replenished along the foraging trail. Ohio State notes that slow-acting baits work better than fast-acting ones because foragers carry them back to the nest. If the ants ignore the bait, UC IPM suggests offering small amounts of different bait types to see which one they prefer."
+    },
+    {
+      "question": "What attracts carpenter ants to a house?",
+      "answer": "Moisture and damaged wood are the main draws. Texas A&M Extension lists wood affected by clogged gutters, leaking window and door frames, plumbing leaks around kitchens and bathrooms, wood in contact with soil, and poorly ventilated attics, crawl spaces and areas under porches as typical nest locations. The ants can also use branches or utility lines touching the building to get in. Fixing leaks, trimming limbs and storing firewood away from the house are among the prevention steps it lists."
+    }
+  ],
+  "sources": [
+    { "title": "Ants", "publisher": "University of California Statewide IPM Program (UC IPM)", "url": "https://ipm.ucanr.edu/home-and-landscape/ants/" },
+    { "title": "Carpenter Ants (E-412)", "publisher": "Texas A&M AgriLife Extension", "url": "https://agrilifeextension.tamu.edu/wp-content/uploads/2025/06/Carpenter-Ants.pdf" },
+    { "title": "Control of Argentine Ants and Odorous House Ants in the Home (P2407)", "publisher": "Mississippi State University Extension", "url": "https://extension.msstate.edu/sites/default/files/publications/P2407_web.pdf" },
+    { "title": "Ants In and Around the Home", "publisher": "Ohio State University College of Food, Agricultural, and Environmental Sciences", "url": "https://cfaes.osu.edu/fact-sheet/ants-and-around-home" },
+    { "title": "Carpenter Ants (HYG-2063)", "publisher": "Ohio State University Extension", "url": "https://ohioline.osu.edu/factsheet/hyg-2063" },
+    { "title": "Little Black Ant, Monomorium minimum", "publisher": "Northeastern IPM Center (New York State IPM Program, Cornell University)", "url": "https://www.neipmc.org/schools/pests/little-black-ant/" }
+  ]
+}

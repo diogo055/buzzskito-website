@@ -1,0 +1,10 @@
+{
+ "id": "honeypot-ants",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "2c9465d79ce49745e1b4d7a344091f56a1ddfc0fa6b686bee40201bc58b4f5a9",
+ "claimsChecked": 96,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-11"
+}

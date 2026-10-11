@@ -1,0 +1,131 @@
+{
+  "slug": "zombie-ants",
+  "kind": "spoke",
+  "cluster": "ants",
+  "keyword": "zombie ants",
+  "alsoTargets": [],
+  "metaTitle": "Zombie Ants: Real Fungus, Death Grip, US Range",
+  "metaDescription": "Zombie ants are real: a fungus drives carpenter ants to bite a plant and die. How it works, where it lives in the US, and why it is not a threat to people.",
+  "h1": "Zombie Ants: How the Fungus Takes Over Carpenter Ants",
+  "dek": "What the research says about the Ophiocordyceps fungus that sends carpenter ants to bite a plant and die: how it works, where it occurs in the US, and why a jump to people is considered highly implausible.",
+  "breadcrumb": "Zombie Ants",
+  "excerpt": "Zombie ants are carpenter ants infected by an Ophiocordyceps fungus. How the death grip works, where it occurs in the US, and why it does not infect people.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Zombie ants are carpenter ants infected by a parasitic fungus that drives them to leave the colony, bite onto a plant and die there; the fungus does not infect people.** After the ant dies, a fungal stalk grows from its head to release spores. [A Yale Medicine infectious disease physician](https://medicine.yale.edu/news-article/the-last-of-us-apocalypse-is-not-realistic-but-rising-threat-of-fungal-pathogens-is/) explains that these fungi are so host-specific that even other ant species are out of reach.",
+    "bullets": [
+      "In a Thai rainforest study, infected ants bit the underside of a leaf on saplings about 10 inches (25 cm) above the soil, and 98% of them bit a major vein.",
+      "In lab infections of South Carolina carpenter ants, the ants were collected in the act of biting 15 to 39 days after infection.",
+      "In 3D imaging of eight infected ants, fungal cells were found throughout the body and touching the muscle fibers, but none were found inside the brain.",
+      "Fungi of this group have been named from three US states: South Carolina, Missouri and Florida.",
+      "In five Brazilian graveyards holding 432 dead infected ants, only 6.5% carried mature fruiting bodies, while 55.4% had been attacked by hyperparasites."
+    ]
+  },
+  "facts": {
+    "title": "Zombie ants at a glance",
+    "rows": [
+      ["What it is", "A parasitic fungus (*Ophiocordyceps*) that infects carpenter ants (*Camponotus*)"],
+      ["US records", "South Carolina, Missouri and Florida, named in a 2018 taxonomic paper"],
+      ["Death spot in the Thai study", "Underside of a leaf vein, about 10 inches (25 cm) above the soil"],
+      ["Lab infection to biting", "15 to 39 days (ants collected in South Carolina)"],
+      ["Ant alive after the final bite", "Up to about 6 hours (Thai field study)"],
+      ["Fungal growth after death", "Hyphae within 2 to 3 days; a fruiting body waits at least 2 weeks before first releasing spores"],
+      ["Fungus inside the brain?", "None found in 8 infected ants imaged in 3D"],
+      ["Does it infect people?", "No; a Yale infectious disease physician calls a jump from insects to people highly implausible"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What are zombie ants?" },
+    { "type": "p", "text": "Zombie ants are carpenter ants (genus *Camponotus*) infected by a parasitic fungus in the genus *Ophiocordyceps* that changes their behavior and makes them die in a spot that suits the fungus. The infected ant stops acting like a normal worker, bites onto a plant or other surface and dies there, and a fungal stalk later grows out of its head. A [2018 taxonomic review of these fungi](https://pmc.ncbi.nlm.nih.gov/articles/PMC6002356/) describes three versions of the behavior, depending on the fungus: the ant leaves the nest and climbs understory shrubs, it dies biting onto vegetation, or it descends from the canopy to die at the base of a tree. The 15 new species that review describes infect only ants." },
+    { "type": "p", "text": "The name in many papers is *Ophiocordyceps unilateralis sensu lato*, Latin for 'in the broad sense', a label the 2011 Thai study cited below says it used because a taxonomic revision of this globally distributed fungus was under way and the fungus at its site would need a new name. The 2018 review treats the group as a complex of species and reports increasing support for what it calls the one ant, one *Ophiocordyceps* species hypothesis: each ant species in the carpenter ant tribe may host its own species of the fungus. So 'zombie ant fungus' is best read as a family of related parasites, not one organism." },
+    { "type": "p", "text": "This page covers the fungus and the research on it. For how ant colonies work and which species actually turn up in US homes, [the complete ant guide](/learn/ants) is the place to start." },
+
+    { "type": "h2", "text": "How does the zombie ant fungus infect and kill an ant?" },
+    { "type": "p", "text": "A spore lands on a foraging worker, breaks through its outer skeleton and grows inside the ant until the ant dies in the position the fungus needs. [A 2011 field study in a Thai rainforest](https://bmcecol.biomedcentral.com/articles/10.1186/1472-6785-11-13) reports that workers are infected while foraging, when spores attach to the cuticle, germinate and penetrate it, and that the infection then progresses rapidly inside the body. The fungus is an obligate parasite, meaning it requires ants to reproduce." },
+    { "type": "p", "text": "Timing comes from the lab. In a [2017 imaging study](https://www.pnas.org/doi/10.1073/pnas.1711673114), carpenter ants collected in Abbeville County, South Carolina, were infected by injection, and the manipulated ants were collected while biting between 15 and 39 days after infection. Injection skips the natural route through the cuticle, so timing in the wild may differ, and the sources used here give no wild figure." },
+    { "type": "table", "head": ["Stage", "What the research reports", "Where it was observed"], "rows": [
+      ["Infection", "Spores attach to the outer skeleton of a foraging worker, germinate and penetrate it", "Thailand"],
+      ["Incubation", "Biting ants were collected 15 to 39 days after infection", "Lab-infected ants, South Carolina"],
+      ["Leaving the nest", "Infected ants leave the canopy nest and descend to the understory, walk at random rather than in a direction, and have repeated convulsions that make them fall, so they cannot return to the canopy", "Thailand"],
+      ["The death grip", "The ant bites into a leaf vein, with the final bite timed around midday", "Thailand"],
+      ["Death", "The ant can stay alive for as long as about 6 hours after biting", "Thailand"],
+      ["Fungal growth", "Hyphae emerge between the body segments within 2 to 3 days of death, a stalk grows from the back of the head, and the fruiting body waits at least 2 weeks before first releasing spores", "Thailand; Brazil"]
+    ], "caption": "Assembled from a Thai field study, South Carolina lab infections and a Brazilian field study. Each row comes from a different ant and fungus pair, so read it as a template, not a schedule every species follows." },
+
+    { "type": "h2", "text": "What is the zombie ant death grip?" },
+    { "type": "p", "text": "The death grip is the last bite of an infected ant, in which the jaws clamp onto plant tissue and stay there after the ant dies. In the Thai study, infected *Camponotus leonardi* workers left their canopy nests and chose sapling leaves about 10 inches (25 cm) above the soil. They bit into the underside of the leaf, on a major vein in 98% of cases, and the final bite was synchronized around midday. The authors note that the ants leave the dry, hot canopy for the humid understory, where they say conditions for the parasite's development are best." },
+    { "type": "p", "text": "Why the ant cannot let go comes down to its jaw muscles. The 2011 study found that the mandibular muscles of infected ants were atrophied and concluded that this lock-jaw keeps the ant attached to the leaf after death. [A 2019 muscle study in the Journal of Experimental Biology](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679347/) found that the jaw muscles, but not the brain, are extensively colonized by the fungus, and that infected muscles show evidence of hypercontraction, meaning excessive contraction. The motor neurons and the junctions where they meet the muscle appeared to be maintained despite the heavy colonization. The authors also saw fungal structures precisely penetrating the muscle, along with vesicle-like particles, either of which may contribute to the hypercontraction." },
+    { "type": "callout", "tone": "note", "title": "Atrophy or hypercontraction?", "text": "The 2011 and 2019 papers describe the jaw muscles differently: atrophy in the first, evidence of hypercontraction in the second. The later paper's authors report evidence of hypercontraction, not a closed case, so treat it as the more recent explanation, not a settled one." },
+    { "type": "media", "needed": "Close-up photo of a carpenter ant clamped by its jaws to the underside of a leaf vein, with a fungal stalk emerging from the back of its head and a coin beside it for scale" },
+
+    { "type": "h2", "text": "Does the fungus control the ant's brain?" },
+    { "type": "p", "text": "The fungus does not appear to enter the ant's brain. In the 2017 study, researchers combined serial block-face scanning electron microscopy with a deep-learning image-segmentation model to map fungal cells inside carpenter ants (*Camponotus castaneus*) that were actively biting. Fungal cells were found throughout the body and were concentrated just outside the brain, but none were inside it. They did invade the muscle fibers: in all eight infected ants, fungal cells touched the membranes of muscle fibers, and in five of the eight they had penetrated the membrane." },
+    { "type": "p", "text": "The fungal cells were also linked to one another. The authors describe fungal cells joined to one another by short tubes into networks that encircled the muscle fibers, and they found no evidence of such connections between the cells of *Beauveria bassiana*, another insect-infecting fungus imaged for comparison. They suggest that collective behavior by the fungal cells may be an important strategy for the parasite, and they state that how the fungus coordinates these effects is unknown." },
+    { "type": "callout", "tone": "note", "title": "What 'zombie' does and does not mean", "text": "Neither paper shows a fungus steering the ant from inside its brain. They show a parasite that fills the body, invades the muscles needed for the final bite and changes behavior by means still unexplained. The imaging covered eight ants from one South Carolina county, infected in the lab, so it is detailed but narrow." },
+
+    { "type": "h2", "text": "Are there zombie ants in the United States?" },
+    { "type": "p", "text": "Yes, fungi of this group have been named from three US states: South Carolina, Missouri and Florida. The 2018 review describes them as new species: *Ophiocordyceps kimflemingiae* on *Camponotus castaneus* in South Carolina, *Ophiocordyceps blakebarnesii* on a *Camponotus* species in Missouri, and *Ophiocordyceps camponoti-floridani* on *Camponotus floridanus* in Florida. Two of the three records are in the Southeast. The South Carolina ant is the same host as in the 2017 imaging study." },
+    { "type": "table", "head": ["Place", "Ant host", "Fungus", "Where the dead ant was recorded"], "rows": [
+      ["Thailand (field study)", "*Camponotus leonardi*", "*O. unilateralis* s.l., the name used in 2011", "Underside of a leaf vein on a sapling"],
+      ["South Carolina", "*Camponotus castaneus*", "*Ophiocordyceps kimflemingiae*", "Biting a twig"],
+      ["Missouri", "*Camponotus* sp., species not given", "*Ophiocordyceps blakebarnesii*", "Biting inside a log"],
+      ["Florida", "*Camponotus floridanus*", "*Ophiocordyceps camponoti-floridani*", "Biting a leaf"]
+    ], "caption": "US rows are from the table of new species in the 2018 review; the Thai row is from the 2011 field study." },
+    { "type": "p", "text": "The US ants do not all follow the Thai leaf-vein pattern: the South Carolina ant is recorded biting a twig, the Missouri ant biting inside a log and the Florida ant biting a leaf. The 2018 review says zombie-ant fungi are widespread in tropical forests worldwide, with relatively few reports from temperate ecosystems. Its two temperate US sites, Missouri and South Carolina, were deciduous forests with snowfall and winter temperatures the paper describes as below zero, in contrast to the Florida site, which it describes as evergreen tropical rainforest." },
+    { "type": "p", "text": "These are confirmed records, not a range map. The sources reviewed for this page include no US range map, so the three states mark where the fungi have been documented, not where they stop. If the dark ants in your own yard are what brought you here, [how carpenter ants differ from other black ants in and around US homes](/blog/black-ants) will help you work out what you are seeing." },
+
+    { "type": "h2", "text": "Does the zombie ant fungus wipe out ant colonies?" },
+    { "type": "p", "text": "The evidence from Brazil says no: dead ants are easy to find, but few of them lead to a fungus that successfully reproduces, and colonies may tolerate the losses. [A 2012 field study](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036352) counted 432 dead infected carpenter ants (*Camponotus rufipes*) in five graveyards, the patches where infected ants die, in an Atlantic rainforest reserve in Minas Gerais. Of those, 12.5% were fresh, 12.9% carried a fungal stalk, 6.5% were mature, 55.4% had been attacked by hyperparasites (parasites of the zombie fungus itself) and 12.7% were damaged with no obvious fungal growth." },
+    { "type": "p", "text": "Even mature fruiting bodies did not always shoot spores. In the lab, 42% (13 of 31) of them were shooting spores under high humidity that simulated nights of heavy rainfall. The authors conclude that parasite pressure is much lower than the number of dead ants suggests, and that hyperparasites often castrate the zombie fungus. They frame the relationship as one in which a lethal infection of individual workers may amount to a tolerable chronic disease for the colony." },
+    { "type": "p", "text": "The colony's own behavior is part of the picture. The 2018 review says experiments show that the changed behavior of the infected ant aids spore dispersal because behavioral immunity inside ant colonies limits how well the fungus develops and spreads there. In the review's account, that is why dying away from the nest pays off for the fungus: colony defenses would otherwise limit it." },
+    { "type": "p", "text": "None of this makes the fungus a household treatment. It is a specialized forest parasite that kills scattered workers, and the Brazilian data point toward colonies surviving it. If carpenter ants are nesting in or near your home, [finding and dealing with a carpenter ant nest](/blog/carpenter-ants-canada) is the practical guide, and [how to get rid of ants in the house](/blog/how-to-get-rid-of-ants-in-the-house) covers ants that come indoors more generally. A separate [bait-first guide to clearing ants from a home](/blog/how-to-get-rid-of-ants-canada) explains why baits are favored over sprays." },
+
+    { "type": "h2", "text": "Can the zombie ant fungus infect humans?" },
+    { "type": "p", "text": "No, the zombie ant fungus does not infect humans, and a jump from insects to people is considered highly implausible. Scott Roberts, MD, an infectious diseases physician at Yale School of Medicine, says in [a Yale School of Medicine article on the fungus in The Last of Us](https://medicine.yale.edu/news-article/the-last-of-us-apocalypse-is-not-realistic-but-rising-threat-of-fungal-pathogens-is/) that a Cordyceps that infects one species of ant cannot even infect other ant species, and that it is one of the millions of fungal and mold species that cause no infection in humans. Speaking of fungi in general, Roberts says they usually cause no problems in healthy people because of functioning immune systems and high body temperatures, and that very few fungi or molds spread from person to person, so a fungal pandemic is not very likely." },
+    { "type": "p", "text": "The research papers fit that picture. The new species in the 2018 review infect only ants. The Yale article names other fungi, including Histoplasma and Blastomyces, among the handful that can cause problems for people, and says they rarely infect healthy people. The infected humans in the television series are fiction. If you have a health concern after contact with mold, soil or wild fungi, a healthcare provider is the right person to ask." },
+
+    { "type": "h2", "text": "What does a zombie ant look like if you find one?" },
+    { "type": "p", "text": "Look for a dead carpenter ant gripping a plant or log with its jaws, with a stalk growing out of the back of its head. In the Thai forest this was the underside of a leaf vein on a low sapling. In the US records the ant was found biting a twig in South Carolina, a leaf in Florida and the inside of a log in Missouri. Fungal growth begins within 2 to 3 days of death, so a freshly dead ant may show only growth between its body segments before a stalk appears." },
+    { "type": "media", "needed": "Side-by-side photos of dead carpenter ants gripping a twig, a leaf vein and the inside of a log, each with a fungal stalk growing from the back of the head, labeled by place and with a coin for scale" },
+    { "type": "p", "text": "A photo from the side and one from above, with a coin beside the ant for scale, is enough to compare against published images. Nothing in the sources reviewed suggests the dead ant is a hazard to people, and the section on humans above explains why the fungus is not considered a threat to them." },
+
+    { "type": "h2", "text": "What do scientists still not know about zombie ants?" },
+    { "type": "ul", "items": [
+      "**How the ant is steered.** The 2017 imaging study found no fungus inside the brain and says it is unknown how the fungus coordinates its effects on the host.",
+      "**What triggers the muscle lock.** The 2019 study found evidence of hypercontraction and of vesicle-like particles, which its authors describe as possible contributors, not a proven cause.",
+      "**How far the fungi reach in the US.** The 2018 review documents three species from three states and notes few reports from temperate regions, so the true range is not mapped.",
+      "**Whether one story fits every pair.** The leaf-vein bite is described in detail for the Thai ant, while the US ants were recorded dying on a twig, a leaf and inside a log."
+    ] },
+    { "type": "p", "text": "Zombie ants are one of several unusual ant stories on this site. [Honeypot ants](/blog/honeypot-ants) turn some workers into living food stores, and [the estimate of how many ants live on Earth](/blog/how-many-ants-are-in-the-world) shows how large a host population the fungus has to work with. If you came here because of ants in your own home, the practical guides are [what Americans mean by sugar ants](/blog/sugar-ants), [a size and smell key for tiny ants](/blog/tiny-ants) and [whether carpenter ants bite](/blog/do-carpenter-ants-bite)." }
+  ],
+  "faqs": [
+    {
+      "question": "Can zombie ants spread the fungus to other ants in the nest?",
+      "answer": "In the Thai field study, workers became infected while foraging, when spores attached to the outer skeleton. A 2018 review adds that behaviors inside ant colonies limit how well the fungus develops and spreads, which is why the changed behavior helps the fungus. A Brazilian field study found that only 6.5% of 432 dead ants carried mature fruiting bodies, so many infections never reach the spore-shooting stage."
+    },
+    {
+      "question": "Is the zombie fungus from The Last of Us real?",
+      "answer": "The fungus that turns people into zombies in the series is fiction. Real Ophiocordyceps fungi infect ants, and a Yale infectious disease physician says a Cordyceps that infects one ant species cannot even infect other ant species, and calls a jump from insects to people highly implausible. The physician adds that fungi in general rarely trouble healthy people, thanks to functioning immune systems and high body temperatures, and that a fungal pandemic is not very likely because very few fungi spread from person to person."
+    },
+    {
+      "question": "How long does it take a zombie ant to die?",
+      "answer": "In a South Carolina lab study, carpenter ants infected by injection were collected in the death-grip bite 15 to 39 days after infection. In the Thai field study, ants could stay alive for as long as about 6 hours after biting. Fungal growth began within 2 to 3 days of death. Injection skips the natural route of infection, so timing in the wild may differ, and the sources give no wild figure."
+    },
+    {
+      "question": "Can zombie ant fungus be used to get rid of carpenter ants?",
+      "answer": "No study cited on this page presents it as a household treatment. It is a specialized parasite that kills individual workers, and a Brazilian field study found that most dead ants had no mature fruiting body when counted and that the colony may tolerate the losses as a chronic disease. A carpenter ant nest in a house calls for ordinary ant control methods aimed at the nest, not the fungus."
+    },
+    {
+      "question": "What does a zombie ant look like?",
+      "answer": "It is a dead carpenter ant gripping a plant or log with its jaws, with a fungal stalk growing from the back of its head. In the Thai study the ants bit the underside of a leaf vein near the ground. The US records describe ants biting a twig in South Carolina, a leaf in Florida and the inside of a log in Missouri. Growth between the body segments appears within 2 to 3 days of death."
+    }
+  ],
+  "sources": [
+    { "title": "Behavioral mechanisms and morphological symptoms of zombie ants dying from fungal infection", "publisher": "BMC Ecology", "url": "https://bmcecol.biomedcentral.com/articles/10.1186/1472-6785-11-13" },
+    { "title": "Three-dimensional visualization and a deep-learning model reveal complex fungal parasite networks in behaviorally manipulated ants", "publisher": "Proceedings of the National Academy of Sciences", "url": "https://www.pnas.org/doi/10.1073/pnas.1711673114" },
+    { "title": "Zombie ant death grip due to hypercontracted mandibular muscles", "publisher": "The Journal of Experimental Biology (via PubMed Central)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6679347/" },
+    { "title": "Zombie-ant fungi across continents: 15 new species and new combinations within Ophiocordyceps. I. Myrmecophilous hirsutelloid species", "publisher": "Studies in Mycology (via PubMed Central)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6002356/" },
+    { "title": "Disease Dynamics in a Specialized Parasite of Ant Societies", "publisher": "PLoS ONE", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036352" },
+    { "title": "The Last of Us Apocalypse Is Not Realistic, But Rising Threat of Fungal Pathogens Is", "publisher": "Yale School of Medicine", "url": "https://medicine.yale.edu/news-article/the-last-of-us-apocalypse-is-not-realistic-but-rising-threat-of-fungal-pathogens-is/" }
+  ]
+}

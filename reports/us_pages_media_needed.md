@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-169 images across 67 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+186 images across 75 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -72,6 +72,11 @@
 - Labeled close-up diagram of the waist of an ant seen from the side, comparing a one-node ant (odorous house ant, node hidden under the abdomen) with a two-node ant (pharaoh or pavement ant) and with arrows pointing at each node
 - Side-by-side macro photo of a pharaoh ant and a thief ant on a white card, with the antennae in focus and labels showing 12 segments with a 3-segment club on the pharaoh ant and 10 segments with a 2-segment club on the thief ant
 
+## /blog/black-ants
+
+- Side-view macro photo of a carpenter ant worker beside a US penny for scale, sharp enough to show the single waist node, the smooth arched back and the ring of hairs at the tip of the abdomen
+- Labeled side-view diagram comparing the waist and back of four ants: carpenter ant (one node, smooth arch), odorous house ant (flat node hidden by the abdomen, uneven back), pavement ant (two nodes, grooved head) and little black ant (two nodes), all drawn to relative size
+
 ## /blog/ghost-ants
 
 - Macro photo of several ghost ant workers on a white countertop beside a US penny for scale, sharp enough to show the dark brown head and thorax and the milky white abdomen and legs
@@ -137,6 +142,11 @@
 - Simple horizontal bar chart on a logarithmic time scale comparing worker and queen lifespans for fire ants, carpenter ants and black garden ants, with the source printed under each bar
 - Labeled diagram of ant development from egg to larva to pupa to adult worker, with the fire ant timing of 22 to 38 days marked along the bottom
 
+## /blog/how-many-ants-are-in-the-world
+
+- Layered diagram of the ant estimate: a 1-square-meter leaf-litter sample, a pitfall trap cup in the ground, a tree canopy being fogged with a collection sheet beneath, and a cutaway nest with foragers outside and non-foragers inside, with the final 19.8 quadrillion total at the right
+- Horizontal bar chart on a logarithmic scale comparing dry biomass in megatons of carbon for terrestrial arthropods, livestock, humans, ants, wild mammals and wild birds, with ants highlighted
+
 ## /blog/army-ants
 
 - Photo of an Eciton burchellii bivouac: a hanging mass of worker ants linked leg to leg under a log or between tree buttress roots, with a raid column leaving at the bottom of the frame
@@ -147,6 +157,17 @@
 
 - Side view of a bullet ant worker on a leaf beside a ruler marked in inches and millimeters, showing a body length of about 0.8 inch (20 mm), the large jaws and the stinger at the tip of the abdomen
 - Map of Central and South America with the bullet ant's range shaded from Nicaragua south to Bolivia and Brazil, lowland rainforest areas highlighted, and the US border marked for orientation
+
+## /blog/honeypot-ants
+
+- Close-up photo of honeypot ant repletes hanging from the ceiling of an excavated nest chamber, abdomens swollen and amber, with two or three normal-sized workers beside them for scale
+- Wide photo of a Sonoran or Chihuahuan Desert grassland slope with a small gravel-ringed ant nest entrance in the foreground, a US quarter placed beside the entrance for scale
+- Night photo, lit by a red headlamp, of a honeypot ant worker with a swollen abdomen collecting droplets from a yucca seed capsule or scrub oak gall, with the plant stem and soil visible
+
+## /blog/zombie-ants
+
+- Close-up photo of a carpenter ant clamped by its jaws to the underside of a leaf vein, with a fungal stalk emerging from the back of its head and a coin beside it for scale
+- Side-by-side photos of dead carpenter ants gripping a twig, a leaf vein and the inside of a log, each with a fungal stalk growing from the back of the head, labeled by place and with a coin for scale
 
 ## /learn/mice
 
@@ -177,6 +198,10 @@
 - Row of house mouse pups photographed at about day 1, day 6 and day 10 on a plain background, each beside a US penny for scale, showing skin color, ear development and the first fuzz
 - Photo of a house mouse nest, a loosely woven ball of shredded paper about 4 to 6 inches across, in a cardboard box in a garage, with a ruler or a gloved hand beside it for scale and no live animals shown
 - Side-by-side photo of a half-grown young rat and an adult house mouse on a plain background, each beside a US quarter for scale, showing the rat's larger head and hind feet in proportion to its body
+
+## /blog/how-long-do-mice-live
+
+- Simple timeline graphic of one female house mouse: birth, sexual maturity at 5 to 6 weeks, first litter at about 7.5 to 9 weeks, her granddaughters' first litters at about 6 months, with the 9 to 12 month typical life span drawn as a bar underneath
 
 ## /blog/what-do-mice-eat
 
@@ -226,6 +251,12 @@
 - Side-by-side photo of a wooden mouse-size snap trap and a plastic mouse snap trap, both set, with a US quarter next to each trigger plate for scale
 - Top-down diagram of a kitchen and basement floor plan showing snap traps set in a T shape against walls behind the stove, refrigerator, inside a base cabinet and along a basement wall, with the baited ends touching the wall
 
+## /blog/mice-poison
+
+- Photo of a closed, tamper-resistant consumer mouse bait station beside an opened refillable station showing a block bait on its rod, on a plain surface with no brand names visible
+- Simple diagram of secondary poisoning: bait station, then a mouse that has fed on bait, then arrows to an owl, a fox and a house cat, labeled primary poisoning (eats bait) and secondary poisoning (eats poisoned rodent)
+- Close-up photo of the back label of a consumer rodent bait station package with the active ingredient line and the First Aid box circled, brand name blurred or cropped out
+
 ## /blog/how-to-get-rid-of-mice-humanely
 
 - Two-photo sequence: a pencil held across a gap in a foundation wall beside a pipe, then the same gap packed with steel wool and sealed with caulk, shot at the same angle
@@ -265,6 +296,12 @@
 
 - Top-down photo of an adult American cockroach on a white background beside a ruler marked in inches, sharp enough to show the flat body, the pale band around the plate behind the head and the long, thin antennae
 - Side-by-side top-down photos on a white background with a ruler marked in inches: a ground beetle showing the straight seam between its hard wing covers, a May beetle showing its clubbed antennae, and an American cockroach showing its flat body and thin antennae
+
+## /blog/water-bugs-vs-cockroaches
+
+- Side-view photo of an adult giant water bug on a flat light surface beside a US quarter for scale, showing the flattened oval brown body, the large grasping front legs and the beak
+- Top-down photo of an adult Oriental cockroach and an adult American cockroach side by side next to a US penny, showing the size and color difference, the shield-shaped plate behind the head and the long antennae
+- Close-up photo of a male giant water bug with a flat cluster of eggs on its back, resting on a white surface or a gloved hand so the size is clear
 
 ## /blog/can-cockroaches-fly
 
@@ -360,6 +397,10 @@
 - Flow diagram of the four IPM tiers applied to a house: set a threshold, identify and monitor with sticky traps, prevent by sealing and cleaning, then control with traps, baits and spot treatments, with whole-room spraying marked as the last resort
 - Annotated photo or diagram of a generic household insecticide label with callouts pointing to the active ingredients, signal word, directions for use, precautionary statements, first aid, and storage and disposal sections
 - Photo of the minimum protective gear laid out on a workbench: nitrile chemical-resistant gloves, safety glasses, long-sleeved shirt, long pants and closed shoes, beside a ready-to-use trigger sprayer
+
+## /blog/natural-pest-control
+
+- Close-up photo of a pencil laid beside a 1/4 inch gap around a kitchen sink pipe, with a second frame of the same gap packed with steel wool and sealed with caulk, for scale
 
 ## /blog/lawn-pest-control
 

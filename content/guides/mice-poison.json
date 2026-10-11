@@ -1,0 +1,189 @@
+{
+  "slug": "mice-poison",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "mice poison",
+  "alsoTargets": [],
+  "metaTitle": "Mice Poison: Types, EPA Rules and Pet Risks",
+  "metaDescription": "Mice poison for US consumers comes as a bait station with block or paste bait. See active ingredients, risks to kids, pets and wildlife, and who to call.",
+  "h1": "Mice Poison: What US Rules Allow, the Risks, and What to Try First",
+  "dek": "The active ingredients in US mouse baits, what the EPA lets consumers buy, how each poison affects children, pets and wildlife, the numbers to call after an exposure, and why traps usually come first.",
+  "breadcrumb": "Mice Poison",
+  "excerpt": "Consumer mice poison in the US is sold as a bait station with block or paste bait. The ingredient classes, the risks to children, pets and wildlife, and who to call after an exposure.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Mice poison on the US consumer market is sold as a ready-to-use bait station holding block or paste bait; pelleted baits are no longer permitted in consumer products, and second-generation anticoagulants are no longer registered for them.** Those are the [EPA's restrictions on rodenticide products](https://www.epa.gov/rodenticides/restrictions-rodenticide-products). Every rodenticide is toxic to people, pets and wildlife, one reason University of California guidance treats trapping as the first step in most situations.",
+    "bullets": [
+      "The EPA names three active ingredients in the consumer bait stations currently registered: bromethalin, chlorophacinone and diphacinone.",
+      "Anticoagulant baits typically kill rodents between four days and two weeks after they begin feeding.",
+      "Signs of anticoagulant poisoning in a child or pet may be delayed for up to five days, so call before symptoms appear.",
+      "For a person, call a poison center at 1-800-222-1222; for a pet, ASPCA Poison Control is at (888) 426-4435.",
+      "The Cornell Wildlife Health Lab says vitamin K is used to treat anticoagulant poisoning, while no antidote is available for bromethalin.",
+      "House mice tend to stay within 30 feet of the nest, so poisoned mice often die inside the building."
+    ]
+  },
+  "facts": {
+    "title": "Mice poison at a glance",
+    "rows": [
+      ["Form sold to consumers (EPA)", "Ready-to-use bait station with block or paste bait"],
+      ["Not allowed in consumer products", "Pelleted bait; second-generation anticoagulants"],
+      ["Active ingredients in current consumer stations (EPA)", "Bromethalin, chlorophacinone, diphacinone"],
+      ["Refill bait allowed per retail package", "Up to 1 pound, refillable stations only"],
+      ["Where consumer stations may be used", "Indoors, or indoors and outdoors within 50 feet of buildings, as the label states"],
+      ["Time to death, anticoagulants", "Typically 4 days to 2 weeks after feeding begins"],
+      ["Treatment (Cornell Wildlife Health Lab)", "Vitamin K is used for anticoagulant poisoning; no antidote is available for bromethalin"],
+      ["Poison center, for people", "1-800-222-1222"],
+      ["ASPCA Poison Control, for pets", "(888) 426-4435; a consultation fee may apply"],
+      ["National Pesticide Information Center", "800-858-7378"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What is mice poison, and what types are sold in the US?" },
+    { "type": "p", "text": "Mice poison is a rodenticide, a pesticide made to kill rodents, and in the US it is usually sold as a flavored bait built around one of three groups of active ingredient: first-generation anticoagulants, second-generation anticoagulants, or one of three non-anticoagulants (bromethalin, cholecalciferol and zinc phosphide). That grouping comes from the [EPA's page on rodenticide restrictions](https://www.epa.gov/rodenticides/restrictions-rodenticide-products), which says most rodenticides used today are anticoagulants that interfere with blood clotting. The [National Pesticide Information Center's rodenticide fact sheet](https://npic.orst.edu/factsheets/rodenticides.html) adds the point that matters most in a home: rodents, people, dogs and cats are all mammals, so a rodenticide has the same effect on any of them that eats it, and it can affect birds as well." },
+    { "type": "table", "head": ["Class", "Active ingredients", "How it kills", "Days of feeding needed", "Consumer market status"], "rows": [
+      ["First-generation anticoagulants", "Warfarin, chlorophacinone, diphacinone", "Blocks the liver enzyme that recycles vitamin K, which the body needs to make blood-clotting agents", "Multiple doses over several days", "Chlorophacinone and diphacinone are on the EPA's list for current consumer bait stations"],
+      ["Second-generation anticoagulants", "Brodifacoum, bromadiolone, difenacoum, difethialone", "The same action, but they bind more tightly and are stored in the liver", "One night's feeding can be enough", "No longer registered for consumer products"],
+      ["Non-anticoagulant (nerve poison)", "Bromethalin", "Stops nerve cells from producing energy, which leads to swelling and pressure on the brain", "One", "On the EPA's list for current consumer bait stations"],
+      ["Non-anticoagulant (vitamin D3)", "Cholecalciferol", "Pushes blood calcium too high, which can damage the kidneys, heart and other organs", "Sources differ (see below)", "Not among the three the EPA page lists; UC IPM lists it for house mice in California"],
+      ["Non-anticoagulant (phosphide)", "Zinc phosphide", "Turns into phosphine gas on contact with water and acid", "One", "Not among the three the EPA page lists"]
+    ], "caption": "Sources: US EPA, Restrictions on Rodenticide Products; National Pesticide Information Center, Rodenticides Fact Sheet; UC IPM, House Mouse." },
+    { "type": "p", "text": "The sources do not agree on cholecalciferol. NPIC classes it as a multiple-dose poison and says rodents must eat several doses, while the [University of California's house mouse guide](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) groups it with bromethalin as an acute toxin that can be toxic after a single feeding if a lethal dose is consumed. No class in the table is a mild option, either. NPIC's toxicity table rates warfarin as moderate to high in toxicity when swallowed and every other rodenticide it lists, including bromethalin, cholecalciferol, chlorophacinone and diphacinone, as high." },
+    { "type": "p", "text": "The two anticoagulant generations differ in dose and staying power, not in how they kill. Warfarin, the first anticoagulant rodenticide, was registered in 1950 and was widely used until many rodents became resistant to it, NPIC recounts. The EPA says the second generation was developed from the 1970s on to control those resistant rodents. Because the names cause confusion, NPIC notes that many sources call the two groups multiple-dose and single-dose anticoagulants instead." },
+    { "type": "p", "text": "Poison is one tool among several, and [the complete guide to mice control](/learn/mice) sets it in sequence with sealing, trapping and cleanup." },
+    { "type": "media", "needed": "Photo of a closed, tamper-resistant consumer mouse bait station beside an opened refillable station showing a block bait on its rod, on a plain surface with no brand names visible" },
+
+    { "type": "h2", "text": "What mice poison can you legally buy for home use?" },
+    { "type": "p", "text": "A consumer can buy mice poison only as a ready-to-use bait station that contains, or is packaged with, bait in block or paste form. Under the EPA's restrictions, pelleted baits are no longer permitted in products aimed at the consumer market, and second-generation anticoagulants are no longer registered for consumer products at all. For the background, the EPA page points to the agency's 2008 safety review and risk mitigation decision for rodenticides. Four more rules shape what is on the shelf:" },
+    { "type": "ul", "items": [
+      "**Active ingredient.** The EPA names three in the consumer bait stations currently registered for mice, rats or both: bromethalin, chlorophacinone and diphacinone.",
+      "**Quantity.** A refillable station may be sold with up to one pound of bait for filling and refilling. A station that cannot be refilled is to be disposed of properly once its bait has been eaten or contaminated.",
+      "**Location.** Each product is labeled either for indoor use or for use indoors and outdoors within 50 feet of buildings.",
+      "**Protection level.** Where a given product may be used depends on whether its station has been shown to resist tampering by young children and by dogs, and on whether it has been found weather-resistant."
+    ] },
+    { "type": "p", "text": "That last rule is why two stations on the same shelf can carry different instructions. NPIC describes three levels: stations resistant only to children, stations resistant to children and pets, and stations resistant to children, pets and the weather. The EPA's advice is to read the label before purchasing, to confirm the product is labeled for the place where you intend to use it. For the product types themselves, see the [rodent control product guides, which sort traps, baits and stations by type](/pest-product-guides/rodent-control)." },
+    { "type": "p", "text": "Everything else is a professional or agricultural product. The EPA says those may contain any of the active ingredients above, including the second-generation anticoagulants, and are not to be sold in consumer stores such as drug stores, grocery stores, hardware stores and club stores. The minimum package sizes are large: at least 16 pounds for second-generation anticoagulant baits labeled for professional applicators, at least 8 pounds for those labeled for use in or near agricultural structures, and at least 4 pounds for professional and agricultural products based on first-generation anticoagulants, bromethalin, cholecalciferol or zinc phosphide." },
+    { "type": "p", "text": "Those products may be block, paste or pellet, and they are not packaged in or with bait stations. Their labels still require tamper-resistant stations for every outdoor, above-ground placement and wherever children under six, pets or nontarget wildlife could reach the bait." },
+    { "type": "h3", "text": "Do state rules differ?" },
+    { "type": "p", "text": "They can, and California is the example in these sources. UC IPM reports that recent state legislation has left a limited number of chemical options for house mice there and that rodenticides for residential use are sold only in ready-to-use bait stations. It names two acute toxins, cholecalciferol and bromethalin, among the active ingredients available, and its table of rodenticides registered for house mice in California lists those two plus zinc phosphide products that are restricted-use materials. The table contains no anticoagulant. That is a different list from the three on the EPA page, which is a reason to read the active ingredient on the label of any product you consider in your own state." },
+
+    { "type": "h2", "text": "How long does mice poison take to work?" },
+    { "type": "p", "text": "Usually several days. Anticoagulant baits typically kill between four days and two weeks after rodents begin to feed, according to the EPA, and UC IPM tells homeowners that rodenticide baits generally take several days to give effective control. None of the sources used here gives a time to death for bromethalin bait; NPIC says only that paralysis and death soon follow once the nerve cells swell." },
+    { "type": "p", "text": "The wait is built into how anticoagulants work. NPIC explains that the liver makes an enzyme that lets the body recycle vitamin K, which is needed to make the clotting agents in blood, and that an anticoagulant stops that enzyme from doing its job. The body holds a reserve, so nothing happens at first, and internal bleeding may begin once enough anticoagulant has been taken in for the reserve to run out. The EPA describes second-generation compounds as killing over a similar course of time as first-generation ones; what sets them apart is that one night's feeding is more likely to be lethal and that they tend to remain in animal tissue longer." },
+    { "type": "p", "text": "The delay has a practical cost. A mouse that has eaten anticoagulant bait can live for days, and UC IPM points out that because house mice tend to stay within 30 feet of the nest, using a rodenticide will often result in mice dying inside the structure. The university advises deciding in advance whether dead mice would cause an odor or sanitation problem, and says trapping may be the best approach if so. Finding a carcass in a wall or attic is covered in the guide to [getting mice out and cleaning up after them](/blog/mice-removal)." },
+
+    { "type": "h2", "text": "How dangerous is mice poison to children?" },
+    { "type": "p", "text": "Any rodenticide can poison a child, and the bait is made to be eaten. NPIC notes that baits are flavored with ingredients such as fish oil, molasses or peanut butter, which may make them attractive to children and pets. The fact sheet's reassurance is limited but real: children usually eat small amounts and may never show signs of poisoning. When signs do appear after an anticoagulant, they include sudden bleeding from the nose, gums or skin, and internal bleeding can also occur." },
+    { "type": "p", "text": "Two things make waiting for symptoms a mistake. First, the signs of anticoagulant poisoning may be delayed for up to five days, because the body's stored clotting agents have to run out before bleeding starts. Second, the non-anticoagulants act on other organs. NPIC lists altered mental status after bromethalin, unusual thirst and increased urination after cholecalciferol, and vomiting, chills, shortness of breath, delirium and convulsions after zinc phosphide. It adds that poisonings of people by cholecalciferol are very rare." },
+    { "type": "p", "text": "NPIC's rule is that rodenticides should never be used or stored within reach of children or pets, and it says tamper-resistant bait stations make accidents harder still. Some baits also contain a blue or green dye, which helps show whether a child or pet has handled or eaten the product. If you find dye on a child's hands or mouth, treat it as an exposure and follow the steps further down this page." },
+
+    { "type": "h2", "text": "How dangerous is mice poison to dogs and cats?" },
+    { "type": "p", "text": "It is dangerous to both, by two routes: a pet can eat the bait itself, or eat a rodent that has. NPIC calls the first primary poisoning and the second secondary poisoning, or relay toxicosis, and warns that the flavorings are attractive enough that dogs may dig baits up and work hard to get to them. The [Cornell Wildlife Health Lab's rodenticide page](https://cwhl.vet.cornell.edu/resource/rodenticide-toxicity) says pets and children are at risk of consuming rodenticides used in the household. What happens next depends on the class of poison:" },
+    { "type": "table", "head": ["Poison type", "Signs reported in animals", "When signs can begin", "Antidote or treatment"], "rows": [
+      ["Anticoagulants", "Difficulty breathing, weakness and lethargy; less often coughing, vomiting, black tarry stools, paleness, bleeding gums, bruising, seizures, a swollen or painful abdomen", "May be delayed for up to five days (NPIC); typically 3 to 5 days before bleeding starts (Cornell)", "Vitamin K is used to restore clotting; with second-generation compounds, treatment may be needed for weeks to months"],
+      ["Bromethalin", "After more than a lethal dose: muscle tremors, seizures, heightened sensitivity to light or noise. After a lethal dose: loss of control of the hind legs, vomiting, loss of appetite, possibly coma", "8 to 12 hours or several days after a lethal dose, progressing over a week or longer", "No antidote is available"],
+      ["Cholecalciferol", "Weakness, depression and loss of appetite, then vomiting, increased thirst, more frequent urination, dehydration and constipation", "Within 12 to 36 hours; the kidneys may fail within one or two days", "No antidote named; treatment may include medications that increase calcium excretion"],
+      ["Zinc phosphide", "Vomiting that may smell like garlic and may contain blood, anxiety, frantic pacing, staggering, difficulty breathing, convulsions", "Vomiting may start within an hour, but signs of toxicity may be delayed for 4 hours and in some cases longer than 18 hours", "No antidote named; supportive care"]
+    ], "caption": "Signs and timing from the National Pesticide Information Center. Treatment notes from the Cornell Wildlife Health Lab, which says treatment for non-anticoagulant poisoning is typically only supportive care." },
+    { "type": "p", "text": "How risky is a poisoned mouse to the cat or dog that eats it? For the anticoagulants, NPIC's answer is that even the multiple-dose compounds may be poisonous to animals that eat poisoned rodents, and it names chlorophacinone, diphacinone, bromadiolone and brodifacoum as the rodenticides with the greatest secondary risk to wild mammals, dogs and cats. Zinc phosphide is a secondary risk to pets only when the rodent's stomach still holds intact bait, so the rodent would have to be dying or very recently dead." },
+    { "type": "p", "text": "For bromethalin the sources pull in different directions. NPIC rates its secondary risk to birds and mammals as low, based on limited evidence, and says the risk has not been measured. UC IPM says there is evidence that bromethalin can pass through the food chain to predators that eat house mice which previously ingested it. NPIC's fact sheet was last revised in March 2016 and UC IPM's guide was updated in July 2025." },
+    { "type": "callout", "tone": "warning", "title": "A pet that seems fine is not in the clear", "text": "Signs of anticoagulant poisoning can take up to five days to appear, and bromethalin signs can take several days. If you know or suspect that a pet ate bait or a poisoned rodent, call your veterinarian or a pet poison line right away instead of watching for symptoms." },
+
+    { "type": "h2", "text": "What does mice poison do to hawks, owls and other wildlife?" },
+    { "type": "p", "text": "It can poison them without their ever touching the bait: a predator or scavenger eats a poisoned rodent and takes in the poison with it. Cornell's lab adds that non-target animals can also eat rodenticide directly from open bait containers. Risk to nontarget animals is the reason the EPA gives for keeping second-generation anticoagulants out of consumer products. The agency says they pose greater risks to nontarget species that might feed on bait only once or that might feed on animals that have eaten the bait, because they are more likely to kill after a single night's feeding and they remain in animal tissue longer. NPIC rates the secondary risk of each active ingredient this way:" },
+    { "type": "table", "head": ["Rodenticide", "Secondary risk to birds", "Secondary risk to mammals"], "rows": [
+      ["Warfarin", "Low", "Low"],
+      ["Chlorophacinone", "Low", "High"],
+      ["Diphacinone", "Moderate", "High"],
+      ["Bromadiolone", "Moderate", "High"],
+      ["Difethialone", "High", "High"],
+      ["Brodifacoum", "High", "High"],
+      ["Bromethalin", "Low (limited evidence)", "Low (limited evidence)"],
+      ["Cholecalciferol", "Low (limited evidence)", "Low (limited evidence)"],
+      ["Zinc phosphide", "Low", "Low"]
+    ], "caption": "Secondary poisoning risk ratings from the National Pesticide Information Center's Rodenticides Fact Sheet, which cites a 2004 EPA comparison of nine rodenticides." },
+    { "type": "p", "text": "For the single-dose anticoagulants, part of the explanation is accumulation. NPIC explains that a rodent may keep feeding on a single-dose anticoagulant after it has eaten a toxic dose, so it can build up more than a lethal amount before it dies, and that residues may remain in liver tissue for many weeks. A predator that eats many poisoned rodents may then build up a toxic dose over time. Cornell puts persistence in the liver at months and notes that in many secondary poisonings the animal takes in smaller, non-lethal doses repeatedly, with possible cumulative effects on clotting." },
+    { "type": "p", "text": "Cornell's lab gives a sense of scale for one state. Between 2012 and 2024, the New York State Wildlife Health Program identified over 325 cases of rodenticide poisoning in wildlife, among them red-tailed hawks, owls, squirrels, skunks, foxes, raccoons and fishers. The lab also cautions that detecting an anticoagulant in a dead wild animal does not by itself confirm the cause of death, because many live wild animals have exposure to these compounds. Exposure, in other words, is common enough to complicate the diagnosis." },
+    { "type": "p", "text": "This is why NPIC's advice for reducing secondary poisoning is to search for, collect and dispose of poisoned rodents, and to secure trash can lids to limit the access pets and wildlife have to them. UC IPM points to the alternative: outdoors, house mice killed by trapping can be eaten by scavengers without risks of pesticide exposure." },
+    { "type": "media", "needed": "Simple diagram of secondary poisoning: bait station, then a mouse that has fed on bait, then arrows to an owl, a fox and a house cat, labeled primary poisoning (eats bait) and secondary poisoning (eats poisoned rodent)" },
+
+    { "type": "h2", "text": "Bromethalin or an anticoagulant: which consumer bait carries less risk?" },
+    { "type": "p", "text": "Neither is the lower-risk choice on every count; they fail in different ways. The EPA's list of active ingredients in current consumer bait stations comes down to two first-generation anticoagulants and bromethalin, and the sources above rate them like this:" },
+    { "type": "table", "head": ["Question", "Chlorophacinone or diphacinone", "Bromethalin"], "rows": [
+      ["Days of feeding a rodent needs", "Multiple doses over several days", "One"],
+      ["First signs in an exposed pet", "May be delayed for up to five days", "8 to 12 hours or several days after a lethal dose"],
+      ["Antidote or treatment", "Vitamin K is used as treatment", "No antidote available"],
+      ["Secondary risk to mammals, including dogs and cats", "High", "Low, based on limited evidence"],
+      ["Secondary risk to birds", "Low for chlorophacinone, moderate for diphacinone", "Low, based on limited evidence"]
+    ], "caption": "Feeding, timing and secondary risk ratings from NPIC; antidote information from the Cornell Wildlife Health Lab. UC IPM reports evidence that bromethalin can pass through the food chain to predators." },
+    { "type": "p", "text": "With an anticoagulant, Cornell's lab says vitamin K is used as treatment and bleeding typically starts three to five days after the animal eats the bait, but NPIC rates both consumer anticoagulants as a high secondary risk to mammals, so a cat or dog that hunts mice is exposed by a second route. Bromethalin carries a lower secondary rating on thin evidence, but Cornell says no antidote is available for it, which matters most when a child or pet gets into the bait itself. Cholecalciferol, where it is sold, brings a third profile: NPIC says survivors may be left with permanent damage to the kidneys and muscles. A snap trap raises none of these questions, which is the case for starting with [mouse traps](/blog/mice-traps)." },
+
+    { "type": "h2", "text": "What should you do if a child or pet eats mice poison?" },
+    { "type": "p", "text": "Call for expert help right away, before any symptoms appear, and have the product package in your hand. The phone numbers below come from the organizations' own websites." },
+    { "type": "ol", "items": [
+      "**Emergency signs in a person: call 911.** [Poison Control, the website of the National Capital Poison Center](https://www.poison.org/), says to call 911 now if the person collapses, has a seizure, has trouble breathing or cannot be awakened.",
+      "**A person without those signs: call a poison center at 1-800-222-1222.** The same site offers an automated online tool, webPOISONCONTROL, for people who cannot or will not phone, and describes both options as free, expert and confidential.",
+      "**A pet: call your veterinarian or [ASPCA Poison Control](https://www.aspca.org/pet-care/aspca-poison-control) at (888) 426-4435.** The ASPCA says the line is available 24 hours a day, 365 days a year, and that a consultation fee may apply.",
+      "**Read out the active ingredient.** The class of poison decides what happens next, and the tables above show how much the classes differ. Keep the package or the bait station so the label is in front of you.",
+      "**Follow the First Aid section of the label.** NPIC's standing instruction for any exposure is to follow the First Aid directions on the product label carefully and to contact Poison Control for additional treatment advice."
+    ] },
+    { "type": "p", "text": "Speed matters because of the delays described above: up to five days before anticoagulant signs, and hours to days for bromethalin. Cornell notes that when ingestion is recent, treatment can include flushing the stomach or inducing vomiting, followed by activated charcoal, to help prevent more absorption. Those are steps for a veterinarian or poison specialist to direct, not ones to attempt on your own." },
+    { "type": "p", "text": "NPIC's pesticide specialists can also be reached at 800-858-7378 by anyone who wants to discuss a pesticide problem or who suspects an animal may have been poisoned. Its website lists the service as available Monday to Friday, so when a child or pet may have eaten bait, use the lines above first." },
+    { "type": "media", "needed": "Close-up photo of the back label of a consumer rodent bait station package with the active ingredient line and the First Aid box circled, brand name blurred or cropped out" },
+
+    { "type": "h2", "text": "How do you use a mice bait station with less risk?" },
+    { "type": "p", "text": "Start with the label, which sets every limit that matters: which rodents the product is for, whether the station may be used around children and dogs, whether it may go outdoors, and how to dispose of it. The same label-first habit applies to [any do-it-yourself pest control product](/blog/diy-pest-control). Three habits follow from the sources:" },
+    { "type": "ul", "items": [
+      "**Keep bait and refills out of reach.** NPIC says to keep all rodenticides out of the reach of children and pets whether they are in use or in storage.",
+      "**Do not improvise refills.** As the EPA rules above describe, refill bait is sold only with stations of refillable design; any other station is disposed of properly once its bait has been eaten or contaminated.",
+      "**Handle carcasses with gloves.** NPIC advises gloves when disposing of dead rodents. UC IPM's disposal advice is to bury them or put them in plastic bags in the garbage, and not to touch mice with bare hands."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "The label is the law", "text": "Use a rodenticide only as its label directs and only in the places the label allows. Nothing on this page replaces the label on the product in your hand." },
+    { "type": "p", "text": "Bait does nothing about what the mice leave behind. A separate guide explains [what mouse droppings look like and how to clean them up safely](/blog/what-does-mouse-poop-look-like-canada)." },
+
+    { "type": "h2", "text": "Why does trapping usually come before mice poison?" },
+    { "type": "p", "text": "Trapping comes first because it removes mice without putting a toxicant in the building, and it lets you take the body away. UC IPM says that for most situations trapping works well and is a great first step, and calls it the preferred method in homes, garages and other structures where only a few house mice are present. It lists these advantages:" },
+    { "type": "ul", "items": [
+      "It does not rely on potentially hazardous rodenticides.",
+      "It lets you see your success.",
+      "It allows you to dispose of each trapped mouse, which avoids the dead-mouse odor that may result when poisoning is done inside a building."
+    ] },
+    { "type": "p", "text": "The same guide adds that trapping can follow a rodenticide program as a way to verify that it worked. Trap choice, placement and spacing are covered in the guide to [how each type of mouse trap works and where to set it](/blog/mice-traps)." },
+    { "type": "p", "text": "Neither traps nor poison fixes the cause. UC IPM describes exclusion as the most successful and permanent form of house mouse control, which means eliminating all gaps and openings larger than 1/4 inch. NPIC makes the same point from the pesticide side, suggesting integrated pest management such as blocking entry points and removing food and water sources. Practical instructions are in the guides to [packing gaps with steel wool and sealant](/blog/steel-wool-for-mice) and [keeping mice out of the house in cold weather](/blog/how-to-keep-mice-out-of-your-house-winter)." },
+    { "type": "p", "text": "Poison also ranks poorly on welfare. Death from an anticoagulant comes from excessive bleeding and takes days, one reason the guide to [getting rid of mice humanely](/blog/how-to-get-rid-of-mice-humanely) counts poison among the least humane methods. People looking for a gentler shortcut often turn to scent products or mothballs instead; separate guides cover [what the evidence says about mouse repellents](/blog/mice-repellent) and [why mothballs are the wrong product for mice](/blog/do-mothballs-keep-mice-away)." },
+
+    { "type": "h2", "text": "When does mice poison make sense, and who should apply it?" },
+    { "type": "p", "text": "Bait makes sense, if at all, as a second step for an established infestation that trapping has not brought down, and only alongside sealing and sanitation. That is a reading of the guidance, because none of the sources used here names a number of mice at which bait becomes the better tool. UC IPM says that with an infestation some form of population reduction is almost always necessary, including traps and rodenticides, and it calls trapping the preferred method in structures where only a few house mice are present. It is equally clear that there is no simple and easy fix: whichever tool reduces the population has to be combined with sanitation and exclusion." },
+    { "type": "p", "text": "If a consumer bait station is not enough, the next step is a licensed professional, not a stronger product. Second-generation anticoagulants are registered only for the commercial and structural pest control markets, and NPIC notes that most single-dose rodenticides are not allowed to be marketed to non-licensed applicators. A professional is bound by the label as well, including its tamper-resistant station requirements. Before agreeing to a baiting program, ask which active ingredient will be used, where the stations will go and who will collect dead rodents. The guide to [hiring a mice exterminator](/blog/mice-exterminator) explains what a service visit includes and how to check a license." }
+  ],
+  "faqs": [
+    {
+      "question": "Is there a mouse poison that is safe to use around pets?",
+      "answer": "No rodenticide is harmless to pets. The National Pesticide Information Center explains that rodents, dogs, cats and people are all mammals, so a rodenticide has the same effect on any of them that eats it, and UC IPM states that all rodenticides are toxic to people, pets and wildlife. A bait station lowers the chance that a pet reaches the bait, and the EPA ties where each product may be used to whether its station has been shown to resist tampering by dogs. A station does nothing about a pet eating a poisoned mouse. In a home with pets, traps set where the pet cannot reach them avoid the poison question altogether."
+    },
+    {
+      "question": "Do poisoned mice leave the house to die outside?",
+      "answer": "Do not count on it. UC IPM notes that house mice tend to stay within 30 feet of the nest, so using a rodenticide will often result in mice dying inside the structure where the baiting is done. A mouse that dies out of reach inside a building can cause an odor, and the university advises deciding before you bait whether that would be a problem. If it would, it suggests trapping, because a trapped mouse can be picked up and disposed of. Anticoagulant baits also take time, typically four days to two weeks after feeding begins according to the EPA."
+    },
+    {
+      "question": "Can a dog or cat be poisoned by eating a mouse that ate poison?",
+      "answer": "Yes. This is called secondary poisoning, or relay toxicosis. The National Pesticide Information Center lists chlorophacinone, diphacinone, bromadiolone and brodifacoum as the rodenticides with the greatest secondary risk to wild mammals, dogs and cats, and says even the multiple-dose anticoagulants may poison animals that eat poisoned rodents. It rates bromethalin and cholecalciferol as low risk on limited evidence, while UC IPM reports evidence that bromethalin can pass through the food chain. Zinc phosphide is a secondary risk only if the rodent is dying or very recently dead with intact bait in its stomach. If your pet ate a rodent where bait is in use, call your veterinarian."
+    },
+    {
+      "question": "Why is mouse poison dyed blue or green?",
+      "answer": "The dye works as a marker. The National Pesticide Information Center says some rodenticide products contain blue or green dye that helps determine whether a child or pet has handled or eaten the product. Dye on a child's hands or around the mouth, or in a pet's mouth, is therefore a reason to act as if bait was swallowed. Call a poison center at 1-800-222-1222 for a person, or your veterinarian or ASPCA Poison Control at (888) 426-4435 for a pet, and have the package ready so you can read out the active ingredient."
+    },
+    {
+      "question": "Can you still buy mouse poison pellets or professional-strength bait?",
+      "answer": "Not as a consumer product. The EPA says pelleted baits are no longer permitted in rodenticide products aimed at the consumer market, which are ready-to-use bait stations with block or paste bait. Pellets and second-generation anticoagulants remain only in products registered for professional applicators and agricultural use. Those are not to be sold in consumer stores, come in containers of at least 4, 8 or 16 pounds depending on the ingredient and the user, and carry labels that require tamper-resistant bait stations wherever children under six, pets or nontarget wildlife could reach the bait. If consumer stations are not solving the problem, hire a licensed professional."
+    }
+  ],
+  "sources": [
+    { "title": "Restrictions on Rodenticide Products", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/rodenticides/restrictions-rodenticide-products" },
+    { "title": "Rodenticides Fact Sheet", "publisher": "National Pesticide Information Center, Oregon State University", "url": "https://npic.orst.edu/factsheets/rodenticides.html" },
+    { "title": "House Mouse", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/house-mouse/" },
+    { "title": "Rodenticide Toxicity", "publisher": "Cornell Wildlife Health Lab, Cornell University", "url": "https://cwhl.vet.cornell.edu/resource/rodenticide-toxicity" },
+    { "title": "Poison Control | Your trusted resource", "publisher": "National Capital Poison Center", "url": "https://www.poison.org/" },
+    { "title": "ASPCA Poison Control", "publisher": "American Society for the Prevention of Cruelty to Animals", "url": "https://www.aspca.org/pet-care/aspca-poison-control" }
+  ],
+  "disclaimer": "pesticide"
+}

@@ -11,7 +11,7 @@
     "postbuild": "node scripts/index-urls.mjs",
     "start": "next start",
     "lint": "next lint",
-    "check:guides": "node scripts/validate-guide.mjs --all"
+    "check:guides": "node scripts/validate-guide.mjs --all --complete"
   },
   "dependencies": {
     "@vercel/speed-insights": "^2.0.0",

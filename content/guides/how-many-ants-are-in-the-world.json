@@ -1,0 +1,150 @@
+{
+  "slug": "how-many-ants-are-in-the-world",
+  "kind": "spoke",
+  "cluster": "ants",
+  "keyword": "how many ants are in the world",
+  "alsoTargets": [],
+  "metaTitle": "How Many Ants Are in the World? 20 Quadrillion",
+  "metaDescription": "About 20 quadrillion ants live on Earth, roughly 2.5 million per person. See how scientists counted them, what they weigh and how sure the estimate is.",
+  "h1": "How Many Ants Are in the World? The 20 Quadrillion Estimate Explained",
+  "dek": "The best current estimate, how researchers arrived at it, how the ants' combined weight compares with people, birds and mammals, and what the figure leaves out.",
+  "breadcrumb": "Ants in the World",
+  "excerpt": "About 20 quadrillion ants live on Earth, according to a 2022 PNAS study: roughly 2.5 million per person, weighing about a fifth as much as all humans.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**A 2022 study in PNAS estimates that about 20 quadrillion ants are alive on Earth at any one time, roughly 2.5 million for every person.** The figure comes from [a compilation of 489 published ant studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC9546634/) scaled up from ground and canopy samples, with an allowance for ants that stay in the nest, and its authors call it conservative.",
+    "bullets": [
+      "The study puts the total at 19.8 quadrillion ants, with a statistical margin of plus or minus 5 quadrillion.",
+      "Together they weigh about 12.3 million metric tons (about 13.6 million US tons) of dry carbon, more than all wild birds and wild mammals combined but only about 20 percent of human biomass.",
+      "About 61 percent of ground-level ants live in two biomes: tropical moist forests and tropical savannas.",
+      "More than 15,700 ant species and subspecies have been named, and the study's authors say there may be as many still undescribed.",
+      "The authors expect the true total to be higher because boreal forests, mangroves and underground nests were left out."
+    ]
+  },
+  "facts": {
+    "title": "Ants worldwide at a glance",
+    "rows": [
+      ["Estimated ants on Earth", "About 20 quadrillion (19.8 quadrillion, plus or minus 5 quadrillion)"],
+      ["Ants per person", "About 2.5 million"],
+      ["Ground-dwelling ants (scaled up from leaf-litter samples)", "About 3 quadrillion, plus or minus 0.7 quadrillion"],
+      ["Total ant biomass", "12.3 megatons of dry carbon, plus or minus 3.1"],
+      ["Compared with humans", "About 20 percent of human biomass"],
+      ["Named species and subspecies", "More than 15,700"],
+      ["Share of ground-level ants in tropical moist forests and savannas", "61 percent"],
+      ["Data behind the estimate", "489 studies; 1,306 ground-sampling locations"],
+      ["Source", "Schultheiss et al., PNAS, 2022"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "How many ants are there in the world?" },
+    { "type": "p", "text": "About 20 quadrillion, which is 20,000,000,000,000,000 ants alive at any one time. That figure comes from [a 2022 study in the journal PNAS](https://pmc.ncbi.nlm.nih.gov/articles/PMC9546634/) by Patrick Schultheiss, Sabine Nooten, Benoit Guénard and colleagues at the University of Würzburg in Germany and the University of Hong Kong. It puts the total at 19.8 quadrillion ants, give or take a statistical margin of 5 quadrillion." },
+    { "type": "p", "text": "Nobody counted them one by one. The team gathered published ant counts from field studies around the world and scaled them up to the planet's land area, so the result is an estimate with real uncertainty, covered in the last sections of this page. The authors call it conservative and say the true number is likely to be considerably higher, although an independent commentary argues that some choices could also push it too high." },
+    { "type": "p", "text": "The total covers every kind of ant, and the species that share space with people are only a fraction of it. [The complete guide to ants in US homes](/learn/ants) covers the ones you are likely to meet indoors and how they differ." },
+
+    { "type": "h2", "text": "How many ants are there for every person?" },
+    { "type": "p", "text": "Roughly 2.5 million ants for every person alive. Tom Fayle and Petr Klimes, two ant ecologists who wrote [a commentary on the study in the same journal](https://pmc.ncbi.nlm.nih.gov/articles/PMC9586285/), give that ratio, and it follows from dividing 20 quadrillion by a world population of about 8 billion." },
+    { "type": "p", "text": "The population side of the sum is slightly fuzzy. [The Census Bureau](https://www.census.gov/library/stories/2023/11/world-population-estimated-eight-billion.html) estimated that the world passed 8 billion people on September 26, 2023, while the United Nations Population Division dated the same milestone to November 15, 2022. The Bureau adds that global population estimates carry many sources of uncertainty and that the milestone is unlikely to have been reached on the exact date it gives. The gap barely moves the ant arithmetic. Applying the ant study's own margin of plus or minus 5 quadrillion, the per-person figure runs from roughly 1.9 million to 3.1 million." },
+    { "type": "p", "text": "The ratio is a snapshot, not a trend. Fayle and Klimes write that shifts in arthropod abundance and biomass at global scales remain poorly understood, so no one can yet say whether the number of ants per person is rising or falling." },
+
+    { "type": "h2", "text": "How did scientists count the ants on a whole planet?" },
+    { "type": "p", "text": "They did not count every ant. They collected counts from published field studies and scaled them up habitat by habitat, using the six steps below, all taken from the Methods and Results of the PNAS paper." },
+    { "type": "ol", "items": [
+      "**Collect field counts.** For ground-level ants the authors used 465 published studies covering 1,306 sampling locations on all continents and in all major biomes where ants occur, which together supplied 2,355 separate entries.",
+      "**Turn samples into densities.** About 34 percent of the entries were leaf-litter samples, each standardized to 1 square meter (about 11 square feet), and 66 percent were pitfall traps, which record how many ants walk into a cup in 24 hours. Only the leaf-litter samples can be converted into ants per unit of land, so only they were used for the totals; the trap data show relative activity between habitats.",
+      "**Scale up by biome.** For each biome, such as tropical forest or desert shrubland, the authors averaged the leaf-litter density, multiplied it by the biome's total area and added the results. That gave about 3 quadrillion ground-dwelling ants, plus or minus 0.7 quadrillion.",
+      "**Add the treetops.** Twenty-four studies that blew insecticide fog into tree canopies and collected the falling insects supplied the canopy counts, mostly from tropical rainforests. The authors say this calculation gives only a general indication of the size of the canopy population, not a reliable number.",
+      "**Allow for ants that stay in the nest.** Leaf-litter and canopy samples mostly catch foragers, which the authors estimate make up only about 22 percent of the ants in a colony, so they multiplied the ground and canopy totals by 100/22. They call the result a minimum estimate.",
+      "**Convert to weight.** An average worker was taken to have a dry weight of 1.24 milligrams, based on 534 species, and half of that was counted as carbon, or 0.62 milligrams per ant. Multiplying by the total gave 12.3 megatons of carbon, plus or minus 3.1."
+    ] },
+    { "type": "media", "needed": "Layered diagram of the ant estimate: a 1-square-meter leaf-litter sample, a pitfall trap cup in the ground, a tree canopy being fogged with a collection sheet beneath, and a cutaway nest with foragers outside and non-foragers inside, with the final 19.8 quadrillion total at the right" },
+    { "type": "p", "text": "By simple division, the ground-level count scaled up from leaf-litter samples is only about 15 percent of the final 19.8 quadrillion. Most of the headline figure therefore depends on the canopy data and the forager adjustment, which is why those two pieces draw the most scrutiny later on." },
+
+    { "type": "h2", "text": "Do ants weigh more than all the birds, mammals and people?" },
+    { "type": "p", "text": "Ants outweigh all wild birds and wild mammals combined, but they weigh only about a fifth as much as humans. The ant study measures weight as dry carbon, meaning the carbon in the bodies once the water is removed, in megatons (one megaton is one million metric tons). Using [Bar-On, Phillips and Milo's census of biomass on Earth](https://pmc.ncbi.nlm.nih.gov/articles/PMC6016768/) as the yardstick for the other groups, the comparison looks like this:" },
+    { "type": "table", "head": ["Group", "Dry biomass (megatons of carbon)", "Note"], "rows": [
+      ["All terrestrial arthropods (insects, spiders and relatives)", "About 200", "Uncertain by about 15-fold, per the ant study"],
+      ["Livestock", "About 100", "Dominated by cattle and pigs"],
+      ["Humans", "About 60", "Ants equal roughly 20 percent of this"],
+      ["Ants", "12.3 (plus or minus 3.1)", "2022 PNAS estimate"],
+      ["Wild mammals", "About 7", "Bar-On et al., 2018"],
+      ["Wild birds", "About 2", "Uncertain by about twofold, per the ant study"]
+    ], "caption": "Ant figure from Schultheiss et al. (2022); other groups from Bar-On et al. (2018), converted from gigatons to megatons." },
+    { "type": "media", "needed": "Horizontal bar chart on a logarithmic scale comparing dry biomass in megatons of carbon for terrestrial arthropods, livestock, humans, ants, wild mammals and wild birds, with ants highlighted" },
+    { "type": "p", "text": "Adding the census figures for wild mammals and wild birds gives roughly 9 megatons, so the ant total is about a third larger. The margin is not wide: the ant estimate carries its own plus-or-minus of 3.1 megatons, and the bird figure is uncertain by about twofold according to the notes to the ant paper's biomass figure." },
+    { "type": "p", "text": "The popular claim that ants and humans weigh the same does not hold up. The study's authors say that claim rests on limited evidence. One earlier estimate of about 70 megatons would match human biomass, but the estimates by Hölldobler and Wilson, often cited for the claim, are consistently lower at about 2.5 to 25 megatons. Fayle and Klimes list earlier ant-biomass estimates spread across 5 to 100 megatons, which shows how loosely the older numbers were pinned down." },
+    { "type": "p", "text": "Ants are a small slice of living mass but a sizable slice of the arthropods. The authors report that ants make up 1.2 percent of terrestrial arthropod species yet at least 6 percent of their biomass, and the table agrees: 12 megatons out of about 200. Against all life on Earth, which Bar-On and colleagues put at about 550 gigatons of carbon and which is mostly plants, ants amount to roughly 0.002 percent." },
+
+    { "type": "h2", "text": "How many species of ants are there?" },
+    { "type": "p", "text": "More than 15,700 ant species and subspecies have been named, and the authors of the PNAS study say there may be about as many still undescribed. Citing an earlier estimate of insect diversity, they put ants at 1.2 percent of all terrestrial arthropod species." },
+    { "type": "p", "text": "The number depends on the date and on what is counted. In June 2018 the online catalog AntCat listed 13,379 valid living species, according to [an interview series in the Myrmecological News blog](https://blog.myrmecologicalnews.org/2018/06/15/how-many-ant-species-are-there-on-earth/). One researcher interviewed noted that the catalog also listed 1,919 valid subspecies, which brings species and subspecies together to about 15,300. The 2022 paper's figure of more than 15,700 includes subspecies and is four years newer." },
+    { "type": "p", "text": "How many remain unnamed is expert opinion rather than measurement. Of the seven researchers interviewed in 2018, six put the true number of living species at 20,000 or more, and three gave 30,000. Barry Bolton, who wrote AntCat, was more cautious: he speculated that the total is well over 15,000, which would leave roughly 2,000 species to be found." },
+    { "type": "p", "text": "Species also differ enormously in size. The average weight above comes from 534 species whose workers range from 0.004 to 57 milligrams dry weight. Two of the best-known groups have their own guides: [army ants](/blog/army-ants) and [bullet ants](/blog/bullet-ants)." },
+
+    { "type": "h2", "text": "Where are the most ants in the world?" },
+    { "type": "p", "text": "In the tropics. About 61 percent of ground-level ants live in just two biomes, tropical moist forests and tropical savannas, which together make up only about 38 percent of the land where ants live. The PNAS paper's habitat comparisons add detail:" },
+    { "type": "ul", "items": [
+      "**Tropics versus temperate zones.** Leaf-litter ant density in tropical and subtropical forests and grasslands is about twice that of their temperate counterparts, and trap catches are two to three times higher.",
+      "**Forests versus shrubland.** Leaf-litter ant density is about four times higher in forests, native or plantation, than in shrubland.",
+      "**Savannas, wetlands and shrubland.** Pitfall-trap catches are highest in savannas, followed by wetlands and shrubland.",
+      "**Dry regions.** Trap catches are also among the highest in arid and drought-prone biomes such as arid shrublands, dry forests and Mediterranean scrub, even though the lowest leaf-litter counts of any biome come from Mediterranean scrub and arid shrublands. The authors suggest that open ground may make ants more active and more likely to meet traps.",
+      "**Urban green spaces.** Trap catches are lowest here, about six times lower than in savannas. That describes parks and similar green spaces, not the inside of buildings."
+    ] },
+    { "type": "p", "text": "The main text of the study gives no figure for the United States. The closest it comes is the biome comparison above: temperate forests and grasslands anywhere in the world, including those in the US, average roughly half the leaf-litter ant density of their tropical and subtropical counterparts. That is a worldwide biome average, not a measurement of American ants." },
+    { "type": "p", "text": "The authors also list what dense ant populations do: disperse seeds, partner with sap-sucking insects and serve as both predators and prey. Diet differs between species, and [what ants eat and why it varies](/blog/what-do-ants-eat) is covered separately." },
+
+    { "type": "h2", "text": "How many ants live in one colony?" },
+    { "type": "p", "text": "It depends on the species, and one well-documented US example is the imported fire ant. [The University of Tennessee's fire ant biology page](https://fireants.tennessee.edu/about-fire-ants/biology/) gives an average colony of 100,000 to 245,000 workers plus up to several hundred winged forms and queens. Areas with single-queen colonies hold 40 to 150 mounds per acre, rarely more than 7 million ants per acre, while areas with multiple-queen colonies can reach 200 or more mounds and 40 million ants per acre. The guide to [red ants](/blog/red-ants) explains how to tell imported fire ants from reddish look-alikes." },
+    { "type": "p", "text": "Those figures describe one stinging species and should not be read as typical for ants in general. They do show why the global total is a snapshot. The same Tennessee page says fire ant workers generally live about 5 weeks and queens 7 years or more, so the 20 quadrillion is the number alive at one moment, not a running total. Lifespans for other species are compared in [how long ants live](/blog/how-long-do-ants-live)." },
+
+    { "type": "h2", "text": "How accurate is the 20 quadrillion estimate?" },
+    { "type": "p", "text": "It is better grounded than any earlier estimate but still rough. The stated margin of plus or minus 5 quadrillion is a statistical standard error rather than a guarantee, and the authors and independent researchers name reasons the true figure could be off in both directions." },
+    { "type": "h3", "text": "Why the real number is probably higher" },
+    { "type": "ul", "items": [
+      "**Missing habitats.** Boreal forests, mangroves and all underground habitats were left out, along with ant brood and reproductive castes, and the authors used the lowest available estimate for the share of ants that never forage.",
+      "**Thin canopy data.** Fayle and Klimes say fogging from the ground probably greatly underestimates canopy ants. One of the few studies that fogged every canopy layer recorded 806 ants per square meter, against a weighted average of 40 per square meter for ground-based fogging at the same location.",
+      "**Soil nests.** Fayle and Klimes also cite a global study that counted soil and litter ants together and found about 1,000 ants per square meter in tropical forests, against 28 to 58 in the 2022 study."
+    ] },
+    { "type": "h3", "text": "Why it could be too high" },
+    { "type": "p", "text": "Fayle and Klimes point out that ant ecologists have probably sampled less disturbed habitats more often, and that about 55 percent of the world's ice-free land has been modified by people. Scaling up from biome averages without adjusting for that could overstate present-day numbers." },
+    { "type": "h3", "text": "Where the data are thin" },
+    { "type": "p", "text": "The samples cluster geographically. The authors name central Africa and most of Central Asia as places with barely any data, and say standard leaf-litter data are lacking in Australia, Europe and southern South America. Savannas, other open environments and regions outside the tropics are also sparsely sampled, so their averages are less certain." },
+    { "type": "p", "text": "Two assumptions hold up the total: that about 22 percent of a colony forages, and that the average worker weighs 1.24 milligrams. Both come from published values, and the authors say it remains uncertain how representative they are. Fayle and Klimes add that body mass varies significantly between ant groups." },
+    { "type": "h3", "text": "How earlier estimates compare" },
+    { "type": "p", "text": "Earlier numbers were shakier. According to Fayle and Klimes, the first published estimate, 1 quadrillion, appeared in a children's nonfiction book with no calculation shown. Later peer-reviewed figures of 10 to 100 quadrillion came from assuming that ants are 1 or 10 percent of a world insect population of about a billion billion, a total whose own author thought it was correct only to within two orders of magnitude." },
+    { "type": "p", "text": "The two papers describe that older literature a little differently. Schultheiss and colleagues give the earlier range as 1 to 10 quadrillion and call their figure 2 to 20 times higher. Both agree that counting ants in the field, rather than guessing from insect totals, is the better approach." },
+
+    { "type": "h2", "text": "What does the global count mean for ants in your house?" },
+    { "type": "p", "text": "Very little directly. The study's samples came from leaf litter, pitfall traps and tree canopies, so it says nothing about how many ants live in any one home." },
+    { "type": "p", "text": "If the ants you are wondering about are in your kitchen, the practical questions are different. A guide to [controlling household ants with bait](/blog/how-to-get-rid-of-ants-canada) walks through the approach, and [how to find a carpenter ant nest](/blog/carpenter-ants-canada) matters if the ants are large, black and near wood." }
+  ],
+  "faqs": [
+    {
+      "question": "How big is a quadrillion?",
+      "answer": "A quadrillion is 1,000,000,000,000,000, or one thousand trillion: a 1 followed by 15 zeros. The 2022 estimate of 20 quadrillion ants is therefore 20,000,000,000,000,000 individuals. Divided among roughly 8 billion people, that works out to about 2.5 million ants each, the ratio that Tom Fayle and Petr Klimes give in their commentary on the study."
+    },
+    {
+      "question": "How much does an average ant weigh?",
+      "answer": "The 2022 study used an average dry weight of 1.24 milligrams per worker, about 1/23,000 of an ounce, based on body mass data for 534 species whose workers ranged from 0.004 to 57 milligrams. Dry weight means the water has been removed, so living ants weigh more. Half of the dry weight was counted as carbon, giving 0.62 milligrams of carbon per ant. Fayle and Klimes note that body mass varies widely between ant groups, so the average is uncertain."
+    },
+    {
+      "question": "Are ants increasing or decreasing worldwide?",
+      "answer": "Nobody knows at the global scale. The 2022 study gives one snapshot and describes its results as a baseline for tracking how ants respond to environmental change. Fayle and Klimes write that some local studies suggest arthropod biomass is falling because of human influence, but that global shifts in arthropod abundance and biomass remain poorly understood. The study's authors call for more sampling in the regions with the least data, such as central Africa and most of Central Asia."
+    },
+    {
+      "question": "Who made the 20 quadrillion estimate, and where was it published?",
+      "answer": "Patrick Schultheiss, Sabine Nooten, Benoit Guénard and colleagues at the University of Würzburg in Germany and the University of Hong Kong produced it, and it was published in 2022 in the Proceedings of the National Academy of Sciences (PNAS). Two other ant ecologists, Tom Fayle and Petr Klimes, wrote a commentary in the same journal describing the estimate as a great improvement on earlier ones while listing ways it could be refined."
+    },
+    {
+      "question": "Is there a count of the ants in the United States?",
+      "answer": "The main text of the 2022 study gives no United States figure, and no published national count turned up in the research for this page. The study gives a global total and averages by biome and habitat instead. The nearest comparison it offers is that leaf-litter ant density in tropical and subtropical forests and grasslands is about twice that of temperate forests and grasslands worldwide, a category that includes those in the United States."
+    }
+  ],
+  "sources": [
+    { "title": "The abundance, biomass, and distribution of ants on Earth", "publisher": "Proceedings of the National Academy of Sciences (via PubMed Central)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9546634/" },
+    { "title": "Improving estimates of global ant biomass and abundance", "publisher": "Proceedings of the National Academy of Sciences (via PubMed Central)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9586285/" },
+    { "title": "The biomass distribution on Earth", "publisher": "Proceedings of the National Academy of Sciences (via PubMed Central)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6016768/" },
+    { "title": "Biology | Fire Ants in Tennessee", "publisher": "University of Tennessee Institute of Agriculture", "url": "https://fireants.tennessee.edu/about-fire-ants/biology/" },
+    { "title": "Global Population Estimates Vary but Trends Are Clear: Population Growth Is Slowing", "publisher": "U.S. Census Bureau", "url": "https://www.census.gov/library/stories/2023/11/world-population-estimated-eight-billion.html" },
+    { "title": "How many ant species are there on Earth?", "publisher": "Myrmecological News Blog", "url": "https://blog.myrmecologicalnews.org/2018/06/15/how-many-ant-species-are-there-on-earth/", "kind": "news" }
+  ]
+}

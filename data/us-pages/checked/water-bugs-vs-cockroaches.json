@@ -1,0 +1,10 @@
+{
+ "id": "water-bugs-vs-cockroaches",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "b770683a7ee92efe7fb4e8b496285adcbbb07a7789fbfe163396a6eea56a1f4f",
+ "claimsChecked": 62,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 3,
+ "checkedOn": "2026-10-11"
+}

@@ -1,18 +1,18 @@
 # North American pest guides: what was built
 
-Generated 2026-10-09 from the files in the repository.
+Generated 2026-10-11 from the files in the repository.
 
 ## The 100 keywords
 
 | Outcome | Count |
 |---|---|
-| New guides under /blog | 64 |
+| New guides under /blog | 72 |
 | New hub pages under /learn | 4 |
 | Existing guides broadened for US readers | 9 |
 | Keywords answered by an existing page (no new page) | 9 |
 | Keywords answered by another new page with the same intent | 9 |
 
-Also added: two product hubs (/pest-product-guides/ant-control and /cockroach-control). New pages total 204,122 words of body text.
+Also added: two product hubs (/pest-product-guides/ant-control and /cockroach-control). New pages total 226,029 words of body text.
 
 ## Why 76 new pages and not 100
 
@@ -42,7 +42,7 @@ Two keywords that mean the same thing need one page. Two pages would compete wit
 ## Quality control
 
 - Every new page was written from government, university and peer-reviewed sources, then checked claim by claim by a second, independent pass that re-opened each source.
-- New pages: 6,210 claims checked, 521 corrected, 502 softened or removed, across 68 pages.
+- New pages: 6,900 claims checked, 579 corrected, 549 softened or removed, across 76 pages.
 - Edited existing pages: 1,000 claims checked, 63 corrected, 75 softened or removed, across 19 pages.
 - Every edit to an existing page was compared against a copy taken before the work started: no original line deleted, no product link added, moved or changed.
 - No new page carries an affiliate or retailer link. The build now fails if one is added (`npm run check:guides`).

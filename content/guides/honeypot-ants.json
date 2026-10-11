@@ -1,0 +1,160 @@
+{
+  "slug": "honeypot-ants",
+  "kind": "spoke",
+  "cluster": "ants",
+  "keyword": "honeypot ants",
+  "alsoTargets": [],
+  "metaTitle": "Honeypot Ants: Living Pantries of the Desert",
+  "metaDescription": "Honeypot ants are workers swollen with stored nectar. See how repletes work, where Myrmecocystus lives in the US West, and who eats them.",
+  "h1": "Honeypot Ants: The Workers That Store Food in Their Bodies",
+  "dek": "How a worker ant turns into a living jar of nectar, which honeypot ants live in the US Southwest and Australia, how the colony uses them, and why people have eaten them.",
+  "breadcrumb": "Honeypot Ants",
+  "excerpt": "Honeypot ants are workers whose abdomens swell with stored nectar. How repletes work, where US species nest, how Australia's differ, and the people who eat them.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**Honeypot ants are worker ants, called repletes, that hang in underground chambers and swell with stored liquid food until the abdomen is about the size of a marble.** The ones in the United States are *Myrmecocystus* ants of the arid West, and the colony draws on them when food runs short, according to [John Conway's review in American Entomologist](https://academic.oup.com/ae/article-abstract/40/4/229/2389391).",
+    "bullets": [
+      "The US honeypot ants belong to the genus *Myrmecocystus*, which has 29 described species, and repletes have been reported in 20 of them.",
+      "The largest *Myrmecocystus mexicanus* replete Conway weighed was 0.98 gram (about 0.035 ounce), with an abdomen 12 millimeters (about 1/2 inch) long.",
+      "A Colorado nest of this species reaches 3.6 to 5.9 feet (1.1 to 1.8 meters) deep and holds repletes in 7 to 21 chambers.",
+      "Two *M. mexicanus* colonies Conway counted held about 5,000 ants each, and the repletes he found in colonies of this species numbered 692 to 1,223, while in two Australian colonies nearly half the ants were repletes.",
+      "The Australian honeypot ant, *Camponotus inflatus*, evolved the same trick separately, and Aboriginal Australians dig its repletes as a sweet snack."
+    ]
+  },
+  "facts": {
+    "title": "Honeypot ants at a glance",
+    "rows": [
+      ["What they are", "Workers (repletes) that store liquid food in a swollen abdomen"],
+      ["US genus", "*Myrmecocystus*: 29 described species, repletes reported in 20"],
+      ["Where in the US", "Arid and semi-arid western habitats; the genus is native only to the western US and Mexico"],
+      ["Replete size", "Marble- to small-grape-sized abdomen; heaviest *M. mexicanus* replete weighed 0.98 g (0.035 oz)"],
+      ["Colorado nest depth", "3.6 to 5.9 feet (1.1 to 1.8 m)"],
+      ["Activity", "*M. mexicanus* forages at night, mostly June to August in Colorado"],
+      ["Australian species", "*Camponotus inflatus*, with repletes up to 1.4 g (0.05 oz)"],
+      ["Household pest?", "Not described as one in the research reviewed; nests in dry, open ground"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What is a honeypot ant?" },
+    { "type": "p", "text": "A honeypot ant is a worker ant whose abdomen has swollen into a living storage jar for liquid food. These workers are called repletes. Other workers fill them with nectar and other sugary liquids, and the colony draws the liquid back out when food is scarce. A [2023 study of the first fossil replete](https://par.nsf.gov/biblio/10439179) describes the arrangement as workers that swell the crop and abdomen to hold liquid food, which other colony members reach through trophallaxis, the mouth-to-mouth sharing of food." },
+    { "type": "p", "text": "Honeypot ant and honey ant name a job, not a single species. In the United States the ants in question belong to the genus *Myrmecocystus*. Conway explains in [his 1986 review of honey ant biology](https://online.ucpress.edu/abt/article-abstract/48/6/335/13767/The-Biology-of-Honey-Ants) that the genus name means cyst- or sac-like ant and refers to the swollen replete. Australia has its own honeypot ants that arrived at the same solution separately, covered below." },
+    { "type": "p", "text": "Honeypot ants are desert specialists, not the ants that turn up in kitchens. If you are new to how colonies divide up work, [the complete guide to ants in US homes](/learn/ants) covers the basics before you get to oddities like these." },
+    { "type": "media", "needed": "Close-up photo of honeypot ant repletes hanging from the ceiling of an excavated nest chamber, abdomens swollen and amber, with two or three normal-sized workers beside them for scale" },
+
+    { "type": "h2", "text": "How does a honeypot ant store food?" },
+    { "type": "p", "text": "A replete keeps liquid in its crop, a greatly enlarged part of the foregut that fills most of the abdomen. Conway's [review in American Entomologist](https://academic.oup.com/ae/article-abstract/40/4/229/2389391) says the abdomen swells to about the size of a marble. The largest *Myrmecocystus mexicanus* replete he weighed came in at 0.98 gram (about 0.035 ounce), with an abdomen 12 millimeters (about 1/2 inch) long. His earlier review compares a full replete to a small grape and says the swollen crop pushes the other abdominal organs aside, so read small grape and marble as the same rough size." },
+    { "type": "p", "text": "The stretch comes from the soft membrane between the hard plates of the abdomen. In a normal worker the plates overlap and no membrane shows. In a full replete, Conway reports, the plates end up as small islands on a stretched membrane, and he attributes the elasticity to resilin, an elastic substance found in the cuticle of other insects too." },
+    { "type": "h3", "text": "How do the other workers fill and empty a replete?" },
+    { "type": "p", "text": "Foragers return with swollen abdomens and disgorge the nectar to repletes hanging in the nest. In the Colorado nests Conway studied, repletes hung from the ceilings of dome-shaped chambers and were filled with nectar the workers collected each evening. When the colony needs the liquid, workers take it back out, and a drained replete goes slack with twisted abdominal plates, which Conway calls a deplete. For how ants pass liquid food mouth to mouth, and what the rest of the colony eats, see [what ants eat and how they share it](/blog/what-do-ants-eat)." },
+    { "type": "h3", "text": "Which workers become repletes?" },
+    { "type": "p", "text": "The largest ones. Conway reports, citing work by Rissing, that repletes are among the largest workers in a *Myrmecocystus mexicanus* colony, and when every replete was removed from a laboratory colony the next-largest workers took their place. Using the biggest workers keeps the number of ants tied up as storage low for any given volume of liquid. Workers can develop into repletes two weeks after emerging from the pupa. An older idea held that only soft-bodied young workers could do this, but Rissing showed in 1984 that mature workers can become repletes too." },
+    { "type": "p", "text": "A new colony starts without a pantry. In Conway's observation nests, none of the first workers raised by a lone queen became repletes. He notes that first-brood workers are smaller than later ones, and that the smaller workers do not seem to become repletes." },
+
+    { "type": "h2", "text": "What is inside a honeypot ant?" },
+    { "type": "p", "text": "Mostly sugars dissolved in water, and the mix differs from one replete to the next. Conway reports that the crop contents of *Myrmecocystus mexicanus* repletes range from dark amber to almost clear. Dark amber repletes, the most common kind, hold mainly glucose and fructose, and his 1986 review says the mixture resembles cane molasses in taste, smell and color. A study he cites found fructose at 47 to 49 percent, glucose at 42 to 44 percent and maltose at 7 to 8 percent of the sugars in Arizona repletes of *M. mexicanus* and *M. mimicus*." },
+    { "type": "table", "head": ["Replete color", "How common", "What the crop holds"], "rows": [
+      ["Dark amber", "Most repletes", "Mainly glucose and fructose"],
+      ["Clear", "0.2 to 4 percent of repletes", "Mostly sucrose; may be storing water"],
+      ["Milky", "12.4 percent of repletes in one Arizona nest", "High protein and fat content; may hold fluids from insect prey"]
+    ], "caption": "Source: Conway's 1994 review of American honey ant repletes. The percentages come from the nests he and others examined, so they are examples, not averages for the species." },
+    { "type": "p", "text": "Water may matter as much as sugar in dry country. Conway describes a laboratory worker given only dyed water that still swelled into a large partly filled replete, which fits the idea that clear repletes store water. It is one observation, not a settled finding." },
+
+    { "type": "h2", "text": "Why do ants store food in living workers?" },
+    { "type": "p", "text": "Because food and water in dry country arrive in short bursts. Conway writes that storing nectar may make these ants less dependent on fluctuating food supplies, especially in arid environments. In his 1986 review he adds that repletes seem to hold the brief summer supply of plant nectar so the colony has sugar through the winter. In Colorado, he reports, the nectar season ended in late August." },
+    { "type": "p", "text": "The trait has evolved more than once, and the count of genera depends on who is counting. The 2023 fossil study notes that storing liquid food in swollen workers has appeared independently in several ant lineages. Conway's 1986 review lists at least six genera of honey ants across arid regions of North America, Africa and Australia. A [2021 genetic study of *Myrmecocystus*](https://par.nsf.gov/biblio/10309657) says repletes occur in that genus and in at least five other ant genera." },
+    { "type": "p", "text": "Fossils push the history back. The 2023 study describes a replete preserved in Miocene-age Dominican amber, from the extinct ant *Leptomyrmex neotropicus*. Its analysis suggests the genus *Leptomyrmex* acquired replete workers in the Eocene, which may make it the earliest known honeypot lineage among living and extinct ants." },
+
+    { "type": "h2", "text": "Where do honeypot ants live in the United States?" },
+    { "type": "p", "text": "In the dry country of the western United States and Mexico. The 2021 genetic study describes *Myrmecocystus* as native only to arid and semi-arid habitats there, and as the most prominent member of the formicine ant subfamily in all four American deserts: the Great Basin, Mojave, Sonoran and Chihuahuan. A honeypot ant in an Eastern or Midwestern yard would be outside the range these sources describe." },
+    { "type": "p", "text": "Not every *Myrmecocystus* species is known to have repletes. The study counts 29 described species, with repletes reported in 20 of them. Its samples also covered six undescribed species, and it found signs of hidden diversity inside at least seven described ones, including *M. mexicanus*, so the species list is still being sorted out. The authors date the start of the genus's diversification to about 14 million years ago, as the southwestern US and northern Mexico dried out and the American deserts formed." },
+    { "type": "table", "head": ["State", "Species named", "What the studies report"], "rows": [
+      ["Colorado", "M. mexicanus", "Nests on ridge and mesa tops in the Rocky Mountain foothills near Colorado Springs, at about 5,500 to 7,100 feet (1,677 to 2,174 meters)"],
+      ["Arizona", "M. mexicanus, M. mimicus, M. melliger, M. depilis", "M. mexicanus nests in the Chiricahua Mountains foothills at about 4,700 feet (1,433 meters); a reported M. melliger nest nearly 16 feet (5 meters) deep"],
+      ["Texas", "M. melliger", "A source Conway cites reports coyotes digging into nests in the southwest of the state"],
+      ["California", "M. testaceus", "Water-filled repletes were recovered from colonies"]
+    ], "caption": "Examples from the studies Conway reviews. This is a list of where research happened, not a range map." },
+    { "type": "media", "needed": "Wide photo of a Sonoran or Chihuahuan Desert grassland slope with a small gravel-ringed ant nest entrance in the foreground, a US quarter placed beside the entrance for scale" },
+
+    { "type": "h2", "text": "What does a honeypot ant nest look like?" },
+    { "type": "p", "text": "A *Myrmecocystus mexicanus* nest in Colorado has one round entrance about 1/2 inch (1.2 centimeters) across, ringed by a small crater of pebbles and earth. The average crater Conway measured was 0.8 inch (2 centimeters) high and 4.6 inches (11.6 centimeters) across at the base. The ants carry the soil and pebbles out themselves, and they may partly or fully plug the entrance with fine earth to keep out winter cold and heavy summer rain." },
+    { "type": "p", "text": "Below the entrance, a maze of horizontal passages and small chambers sits in the top 8 inches (20 centimeters) or so, and a single vertical shaft drops from it to the domed chambers where repletes hang. The ceilings are arched and left rough, which gives the repletes something to grip." },
+    { "type": "table", "head": ["Feature", "Measurement reported"], "rows": [
+      ["Sideways reach of the upper maze", "Up to 25 inches (63.5 cm) from the entrance"],
+      ["Depth of the first repletes", "7 to 24 inches (17 to 61 cm), average 16 inches (40 cm); the 1986 review says 8 to 14 inches (20 to 35 cm)"],
+      ["Replete chambers per nest", "7 to 21"],
+      ["Repletes per chamber", "1 to 348"],
+      ["Largest replete chamber", "About 9 by 9 inches (24 by 24 cm) in the 1994 review; up to 13 inches (33 cm) long in the 1986 review; 1 to 2 inches (3 to 5 cm) high"],
+      ["Total nest depth in Colorado", "3.6 to 5.9 feet (1.1 to 1.8 m), average 4.6 feet (1.4 m)"]
+    ], "caption": "Source: Conway's 1994 review of Colorado nests, with the 1986 figures where the two differ." },
+    { "type": "p", "text": "Deeper nests exist. Others have reported nests of this species down to about 13 feet (4 meters) where summers are long and dry, and Conway cites a report of an Arizona *M. melliger* nest almost 16 feet (5 meters) deep that needed professional grave diggers to excavate. Digging them out is hard even in Colorado, where the foothill soil holds rocks and layers of caliche and Conway needed a pick." },
+
+    { "type": "h2", "text": "What do honeypot ants eat, and when are they active?" },
+    { "type": "p", "text": "Sugary plant liquids and small insects. In Colorado, Conway found *M. mexicanus* collecting droplets from yucca seed capsules and from galls made by a gall wasp on scrub oak, and sometimes taking honeydew from aphids on yucca. Another researcher he cites saw them taking juice from bruised or broken fruit, such as cactus fruit, and nectar from a wide range of flowers. They also scavenge dead insects and other arthropods, which feed the larvae, and workers will attack small soft-bodied insects, or insects that come too close to the nest, gripping them in the jaws and spraying formic acid into the wound." },
+    { "type": "p", "text": "Most Colorado foraging happens at night. *M. mexicanus* there forages between March 17 and November 7 at temperatures from 33°F to 81°F (0.6°C to 27°C) and gathers nectar mainly in June, July and August. Conway cites a thesis reporting that near Las Cruces, New Mexico, the species stayed in its nest when it was colder than 36°F or hotter than 86°F (2°C and 30°C). Foragers travel as far as 66 feet (20 meters) from the nest, and once a nectar plant is found they reuse the trail night after night." },
+    { "type": "p", "text": "Night work is not the rule for the whole genus. The 2021 genetic study lists foraging activity as one of the better-documented traits across *Myrmecocystus* and sorts species as day-active, night-active, or active in the morning or at twilight. Conway names *M. depilis* as a day-active honeypot ant in southeastern Arizona." },
+    { "type": "media", "needed": "Night photo, lit by a red headlamp, of a honeypot ant worker with a swollen abdomen collecting droplets from a yucca seed capsule or scrub oak gall, with the plant stem and soil visible" },
+
+    { "type": "h2", "text": "What eats honeypot ants, and what fights them?" },
+    { "type": "p", "text": "Few animals specialize on them, but some larger ones dig into the nests. Conway cites a study of badger digs into *M. mexicanus* nests in southeastern Arizona, a report of coyotes digging into *M. melliger* nests in southwestern Texas, and one New Mexico nest that a coyote may have dug out. The digs reach only the upper part of the hard soil layer and usually do not destroy a whole mature colony. The round-tailed horned lizard also eats them, taking an estimated 0.5 to 1 percent of the available forager population per day in a study Conway cites." },
+    { "type": "p", "text": "Other ants are the main rivals. The 2021 genetic study notes that colonies of *M. mimicus* and *M. mendax* defend territory with ritualized tournaments. Conway describes those of *M. mimicus* as hundreds of workers performing display fights in which few are injured. When one colony proves stronger, he reports, it can raid the loser and carry off larvae, pupae and repletes, which he describes as the first recorded case of intraspecific slavery in ants. In southeastern Arizona, the ant *Conomyrma bicolor* blocks *M. mexicanus* foraging by dropping stones into nest entrances, which cut the honey ant's activity to about one-eighth of normal." },
+    { "type": "p", "text": "People are the larger threat in at least one place. Conway ranks development as the worst enemy of the honey ants around Colorado Springs, where new roads and buildings destroyed many of the colonies he had studied." },
+
+    { "type": "h2", "text": "Are there honeypot ants in Australia?" },
+    { "type": "p", "text": "Yes. The best-known Australian honeypot ant is *Camponotus inflatus*, and it developed large repletes separately from the American *Myrmecocystus*. Conway's 1994 review describes it, along with *Melophorus bagoti* and a *Plagiolepis* species, from fieldwork in the Northern Territory, where the *C. inflatus* nests sat on flat plains among mulga trees at about 2,200 to 2,300 feet (683 to 710 meters). A [2023 study of its honey](https://pmc.ncbi.nlm.nih.gov/articles/PMC10386826) notes the species is thought to favor mulga trees as well." },
+    { "type": "p", "text": "*Camponotus* is also the genus of the carpenter ants. [UC IPM](https://ipm.ucanr.edu/home-and-landscape/carpenter-ants/) identifies them as *Camponotus* species that excavate wood for nests rather than eat it. The Australian honeypot ant nests Conway excavated were in the ground instead, with entrances in the thatch under mulga trees and nests as deep as 5.6 feet (1.7 meters). If wood-nesting ants are what you are after, [how carpenter ants are found and stopped](/blog/carpenter-ants-canada) covers that side of the genus." },
+    { "type": "table", "head": ["Feature", "M. mexicanus (US)", "C. inflatus (Australia)"], "rows": [
+      ["Largest replete weighed", "0.98 g (0.035 oz)", "1.4 g (0.05 oz)"],
+      ["Largest replete abdomen", "12 mm (about 1/2 inch)", "15 mm (about 0.6 inch)"],
+      ["Colony sizes counted", "4,968 and 5,029 ants", "1,063 and 4,019 ants"],
+      ["Repletes in those colonies", "692 to 1,223", "516 and 1,835"],
+      ["Nest depth", "3.6 to 5.9 ft (1.1 to 1.8 m)", "1.6 to 5.6 ft (0.5 to 1.7 m)"],
+      ["Nest entrance", "Single entrance ringed by a crater", "No crater; one or several entrances in the thatch under mulga trees"]
+    ], "caption": "Source: Conway's 1994 review. Each colony count comes from just two excavated colonies, so the figures show scale rather than averages." },
+    { "type": "p", "text": "Two other Australian species show how much replete size varies. Conway reports that the repletes of *Melophorus bagoti* are about half as large as those of *C. inflatus* and more mobile, and that a small *Plagiolepis* colony had repletes whose abdomens measured just 2 to 3.5 millimeters (0.08 to 0.14 inch) across." },
+
+    { "type": "h2", "text": "Do people eat honeypot ants?" },
+    { "type": "p", "text": "Yes. People in the American Southwest, Mexico and Australia have eaten them for a long time. Conway reports that Native Americans of the Southwest and Mexico considered honey ants a delicacy and that the Aztecs dug them up and nipped off the honey-filled abdomen with their teeth. Citing earlier sources, he adds that Mexicans reportedly pressed repletes for their liquid, which was used in food and to treat disease, or fermented into an alcoholic drink." },
+    { "type": "p", "text": "In Australia, Conway reports that Aboriginal women usually locate and dig the nests and that repletes are usually eaten one at a time as a sweet snack. Of the several Australian honey ants, he says, only the large repletes of *C. inflatus* are eaten; Aboriginal people know *Melophorus bagoti* but do not normally eat its repletes. In one year-long study of 22 people, an investigator estimated 76 excavations involving 80 hours of digging, with 45 to 250 grams (1.6 to 8.8 ounces) of honey retrieved per dig. Conway was also told that people eat up to 50 repletes from a nest and then move on to another, which spares the colony." },
+    { "type": "p", "text": "The 2023 honey study calls honeypot ants a bush food highly prized by Indigenous Australians and a rare source of natural sugar in an arid environment. Conway adds that honey ants are important in Dreamtime stories and have been painted for thousands of years in ground mosaics, cave paintings and body paintings." },
+    { "type": "h3", "text": "Does honeypot ant honey have medicinal value?" },
+    { "type": "p", "text": "A 2023 laboratory study found antimicrobial activity in the honey, but it did not test the honey in people. The researchers analyzed honey from repletes dug from one *C. inflatus* nest in Western Australia. It measured pH 3.4, 63.2 degrees Brix (a standard measure of dissolved sugar) and 36.5 percent moisture. In lab tests it showed strong activity against the bacterium *Staphylococcus aureus* and against *Cryptococcus* and *Aspergillus* fungi, and weak activity against *Enterococcus faecalis*, *Pseudomonas aeruginosa* and *Escherichia coli*. The authors suggest it may be a lead for finding new antimicrobial compounds." },
+    { "type": "callout", "tone": "note", "title": "A lab result is not a treatment", "text": "Activity against a handful of microbes in a laboratory does not show that eating ant honey treats an infection. For a wound or infection that is not clearing up, contact a healthcare provider." },
+
+    { "type": "h2", "text": "Are honeypot ants dangerous, and are they a household pest?" },
+    { "type": "p", "text": "The sources used for this page describe neither a pest problem nor a danger to people. Conway says *M. mexicanus* workers are usually not aggressive and mostly scavenge dead insects, though they will grip small insects in their jaws and spray formic acid into the wound. None of the sources reports these ants causing trouble indoors, and they nest in open, dry ground: Conway's Colorado colonies sat on ridge and mesa tops. The sources do not cover bites to people, so for what an ant bite or sting looks like and when to get care, see [which ants bite or sting](/blog/do-ants-bite)." },
+    { "type": "p", "text": "Ants marching across a kitchen counter are far more likely to be a common household species than a honeypot ant. [What people mean by sugar ants](/blog/sugar-ants) sorts out which species is likely to be yours, and [why baiting beats spraying for indoor ants](/blog/how-to-get-rid-of-ants-canada) covers what works once you know." },
+
+    { "type": "h2", "text": "What other unusual ants are worth reading about?" },
+    { "type": "p", "text": "Honeypot ants are one of several ant oddities. [The bullet ant](/blog/bullet-ants) is famous for a painful sting. [Zombie ants](/blog/zombie-ants) are carpenter ants whose behavior is manipulated by a fungus. [Army ants](/blog/army-ants) have no permanent nest and raid in masses. And [how many ants there are in the world](/blog/how-many-ants-are-in-the-world) puts all of them, honeypots included, into a global count." }
+  ],
+  "faqs": [
+    {
+      "question": "How much can a honeypot ant hold?",
+      "answer": "The sources give weights and sizes rather than a volume of liquid. Conway reports that the largest Myrmecocystus mexicanus replete he weighed was 0.98 gram (about 0.035 ounce) with an abdomen 12 millimeters (about 1/2 inch) long, and the largest Australian replete, from Camponotus inflatus, was 1.4 grams (about 0.05 ounce) with an abdomen 15 millimeters (about 0.6 inch). In a 2023 Western Australia sample, seven individual ants ranged from 0.1 to 1.66 grams. Those weights include the ant's own body."
+    },
+    {
+      "question": "Can a full honeypot ant walk around?",
+      "answer": "In the American species Conway describes, repletes hang from the ceilings of nest chambers while other workers fill them, and the sources do not describe them leaving the nest. Mobility differs between species: Conway reports that the repletes of the Australian Melophorus bagoti are about half the size of Camponotus inflatus repletes and are more mobile."
+    },
+    {
+      "question": "Do honeypot ant colonies have more than one queen?",
+      "answer": "It depends on the species. Conway reports one wingless queen per colony in Myrmecocystus mexicanus. Other species may start with several: in Myrmecocystus mimicus near Portal, Arizona, most nests held a single queen shortly after the mating flight, but most nests opened later held two to four, and workers then eliminated queens until one remained. A 2021 genetic study adds that unrelated queens form founding groups in at least four Myrmecocystus species, and that these groups occasionally persist in mature colonies."
+    },
+    {
+      "question": "Is honeypot ant honey the same as bee honey?",
+      "answer": "Not exactly. Honeybees store nectar in wax comb, but honey ants keep it inside living workers, Conway notes. The contents also vary: dark amber repletes hold mainly glucose and fructose, and clear ones hold mostly sucrose. Australian honeypot ant honey measured pH 3.4 and 63.2 degrees Brix in a 2023 study that compared it with jarrah and manuka honey from honeybees. That was a laboratory analysis of honey from one nest, so it describes that sample, not all ant honey."
+    },
+    {
+      "question": "When do honeypot ants swarm?",
+      "answer": "In Colorado, Conway reports that Myrmecocystus mexicanus mating flights happen in late July or early August, often after heavy rains. Activity at the nest entrance starts around dusk, when queens and males peer out, and lasts about an hour and a half. Myrmecocystus mimicus near Portal, Arizona, flew after heavy rains in July. After mating, each queen removes her wings, digs a burrow and seals the entrance about two days later."
+    }
+  ],
+  "sources": [
+    { "title": "Honey Ants", "publisher": "American Entomologist (Entomological Society of America, Oxford University Press)", "url": "https://academic.oup.com/ae/article-abstract/40/4/229/2389391" },
+    { "title": "The Biology of Honey Ants", "publisher": "The American Biology Teacher (University of California Press)", "url": "https://online.ucpress.edu/abt/article-abstract/48/6/335/13767/The-Biology-of-Honey-Ants" },
+    { "title": "Comprehensive phylogeny of Myrmecocystus honey ants highlights cryptic diversity and infers evolution during aridification of the American Southwest", "publisher": "Molecular Phylogenetics and Evolution (via the National Science Foundation Public Access Repository)", "url": "https://par.nsf.gov/biblio/10309657" },
+    { "title": "The first fossil replete ant worker establishes living food storage in the Eocene", "publisher": "Myrmecological News (via the National Science Foundation Public Access Repository)", "url": "https://par.nsf.gov/biblio/10439179" },
+    { "title": "Unique antimicrobial activity in honey from the Australian honeypot ant (Camponotus inflatus)", "publisher": "PeerJ (via PubMed Central)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10386826" },
+    { "title": "Carpenter Ants", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/carpenter-ants/" }
+  ]
+}

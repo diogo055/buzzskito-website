@@ -1,0 +1,10 @@
+{
+ "id": "zombie-ants",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "af59937d16431a3cf6e01c86d5f2ba9a83b9d780555991010faf574f018301a4",
+ "claimsChecked": 62,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-11"
+}

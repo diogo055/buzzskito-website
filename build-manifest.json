@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-09",
+ "generated": "2026-10-11",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 68,
+  "newPagesBuilt": 76,
   "hubPages": 4,
-  "guides": 64,
+  "guides": 72,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 8,
-  "internalLinksInNewPages": 835
+  "notBuilt": 0,
+  "internalLinksInNewPages": 925
  },
  "pages": [
   {
@@ -40,7 +40,7 @@
    "wordCount": 6141,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 19,
+   "inboundFromNewPages": 23,
    "outboundInternalLinks": 32,
    "status": "built"
   },
@@ -56,7 +56,7 @@
    "wordCount": 5042,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -130,7 +130,7 @@
    "wordCount": 3841,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -146,7 +146,7 @@
    "wordCount": 3068,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -162,7 +162,7 @@
    "wordCount": 3126,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -218,7 +218,7 @@
    "wordCount": 2826,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -234,7 +234,7 @@
    "wordCount": 2522,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -250,7 +250,7 @@
    "wordCount": 5178,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 21,
+   "inboundFromNewPages": 23,
    "outboundInternalLinks": 34,
    "status": "built"
   },
@@ -266,7 +266,7 @@
    "wordCount": 3771,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -282,7 +282,7 @@
    "wordCount": 2275,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -300,7 +300,7 @@
    "wordCount": 3068,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -316,7 +316,7 @@
    "wordCount": 3004,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -342,7 +342,7 @@
    "wordCount": 2944,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -368,7 +368,7 @@
    "wordCount": 3110,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 17,
+   "inboundFromNewPages": 20,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -400,7 +400,7 @@
    "wordCount": 2523,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -426,7 +426,7 @@
    "wordCount": 3163,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -442,7 +442,7 @@
    "wordCount": 1883,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -474,7 +474,7 @@
    "wordCount": 3255,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -490,7 +490,7 @@
    "wordCount": 3006,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -513,16 +513,34 @@
   {
    "rank": 33,
    "keyword": "black ants",
+   "us_volume": 6500,
    "url": "/blog/black-ants",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Black Ants: Tell Carpenter Ants from the Rest",
+   "wordCount": 2667,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 34,
    "keyword": "how long do mice live",
+   "us_volume": 6500,
    "url": "/blog/how-long-do-mice-live",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "How Long Do Mice Live? About a Year in the Wild",
+   "wordCount": 1663,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 11,
+   "status": "built"
   },
   {
    "rank": 35,
@@ -554,16 +572,25 @@
    "wordCount": 2313,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 11,
    "status": "built"
   },
   {
    "rank": 37,
    "keyword": "how many ants are in the world",
+   "us_volume": 6200,
    "url": "/blog/how-many-ants-are-in-the-world",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "How Many Ants Are in the World? 20 Quadrillion",
+   "wordCount": 2385,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 8,
+   "status": "built"
   },
   {
    "rank": 38,
@@ -627,7 +654,7 @@
    "wordCount": 3126,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -643,7 +670,7 @@
    "wordCount": 3994,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -661,16 +688,25 @@
    "wordCount": 3126,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 14,
    "status": "built"
   },
   {
    "rank": 44,
    "keyword": "mice poison",
+   "us_volume": 3400,
    "url": "/blog/mice-poison",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Mice Poison: Types, EPA Rules and Pet Risks",
+   "wordCount": 3934,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 12,
+   "status": "built"
   },
   {
    "rank": 45,
@@ -686,7 +722,7 @@
    "wordCount": 3056,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -702,7 +738,7 @@
    "wordCount": 2267,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -718,7 +754,7 @@
    "wordCount": 3056,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -734,7 +770,7 @@
    "wordCount": 3472,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -750,7 +786,7 @@
    "wordCount": 3202,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 18,
+   "inboundFromNewPages": 21,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -766,23 +802,41 @@
    "wordCount": 2891,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 11,
    "status": "built"
   },
   {
    "rank": 51,
    "keyword": "honeypot ants",
+   "us_volume": 8700,
    "url": "/blog/honeypot-ants",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Honeypot Ants: Living Pantries of the Desert",
+   "wordCount": 3062,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 10,
+   "status": "built"
   },
   {
    "rank": 52,
    "keyword": "natural pest control",
+   "us_volume": 2800,
    "url": "/blog/natural-pest-control",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "pest-control",
+   "title": "Natural Pest Control: What Works and Its Limits",
+   "wordCount": 3680,
+   "faqs": 6,
+   "sources": 6,
+   "inboundFromNewPages": 10,
+   "outboundInternalLinks": 17,
+   "status": "built"
   },
   {
    "rank": 53,
@@ -796,7 +850,7 @@
    "wordCount": 2939,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -836,7 +890,7 @@
    "wordCount": 3163,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -860,7 +914,7 @@
    "wordCount": 2332,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -893,9 +947,18 @@
   {
    "rank": 61,
    "keyword": "zombie ants",
+   "us_volume": 3900,
    "url": "/blog/zombie-ants",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Zombie Ants: Real Fungus, Death Grip, US Range",
+   "wordCount": 2317,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 10,
+   "status": "built"
   },
   {
    "rank": 62,
@@ -941,7 +1004,7 @@
    "wordCount": 2409,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -959,7 +1022,7 @@
    "wordCount": 2826,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -975,7 +1038,7 @@
    "wordCount": 2483,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -991,7 +1054,7 @@
    "wordCount": 2948,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1007,7 +1070,7 @@
    "wordCount": 2780,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1065,7 +1128,7 @@
    "wordCount": 4004,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -1113,7 +1176,7 @@
    "wordCount": 3111,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -1129,7 +1192,7 @@
    "wordCount": 2964,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1195,7 +1258,7 @@
    "wordCount": 3218,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1211,7 +1274,7 @@
    "wordCount": 2165,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1243,7 +1306,7 @@
    "wordCount": 3467,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1259,7 +1322,7 @@
    "wordCount": 2521,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1283,7 +1346,7 @@
    "wordCount": 2341,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1321,7 +1384,7 @@
    "wordCount": 2267,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -1337,7 +1400,7 @@
    "wordCount": 2287,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1370,9 +1433,18 @@
   {
    "rank": 93,
    "keyword": "water bugs vs cockroaches",
+   "us_volume": 2600,
    "url": "/blog/water-bugs-vs-cockroaches",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "Water Bugs vs Cockroaches: Tell Them Apart",
+   "wordCount": 2199,
+   "faqs": 5,
+   "sources": 6,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 10,
+   "status": "built"
   },
   {
    "rank": 94,
@@ -1444,7 +1516,7 @@
    "wordCount": 2822,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1476,7 +1548,7 @@
    "wordCount": 2936,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 10,
    "status": "built"
   }

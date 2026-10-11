@@ -1,0 +1,127 @@
+{
+  "slug": "how-long-do-mice-live",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "how long do mice live",
+  "alsoTargets": [],
+  "metaTitle": "How Long Do Mice Live? About a Year in the Wild",
+  "metaDescription": "House mice usually live 9 to 12 months in the wild and 18 to 24 months as pets, yet they breed so fast that a short life never ends an infestation.",
+  "h1": "How Long Do Mice Live? Wild, Indoors and as Pets",
+  "dek": "House mice usually live about a year in the wild and about two as pets, but how fast they breed matters more than how long they last. Here is what university and veterinary sources say about both.",
+  "breadcrumb": "How Long Mice Live",
+  "excerpt": "House mice usually live 9 to 12 months in the wild and 18 to 24 months as pets. What shortens that, how long mice last without food or water, and why breeding outpaces death.",
+  "datePublished": "2026-10-07",
+  "quickAnswer": {
+    "lead": "**A house mouse usually lives 9 to 12 months in the wild or around buildings, and about 18 to 24 months as a pet.** Some house mice have lived up to 3 years, and calorie-restricted and mutant captive mice have reached 5 years. [UC IPM's house mouse guide](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) lists disease, predators, human control, weather and starvation as the main causes of death.",
+    "bullets": [
+      "UC IPM and Nebraska Extension both put the usual house mouse life span at 9 to 12 months.",
+      "Pet mice average 18 to 24 months, and calorie-restricted and mutant captive mice have lived as long as 5 years.",
+      "A female is sexually mature at 5 to 6 weeks old, carries pups for 18 to 21 days, and may have 5 to 10 litters of about 5 or 6 pups a year.",
+      "A two-year farm study in England measured apparent survival of 0.54 per month, and year-round breeding still kept the population going.",
+      "House mice do not need to drink if their food holds enough moisture, and no source consulted gives a survival time in days with no food."
+    ]
+  },
+  "facts": {
+    "title": "House mouse life span at a glance",
+    "rows": [
+      ["Usual life span (extension guides)", "9 to 12 months"],
+      ["Longest reported by UC IPM", "Up to 3 years"],
+      ["Average as a pet", "18 to 24 months"],
+      ["Longest captive record cited", "5 years (calorie-restricted and mutant mice)"],
+      ["Pregnancy", "18 to 21 days"],
+      ["Sexually mature", "5 to 6 weeks, sometimes as late as 12"],
+      ["Litters per year", "5 to 10, about 5 or 6 pups each"],
+      ["Food per day", "About 1/10 ounce"],
+      ["Drinking water", "Not required if food supplies enough moisture"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "How long do mice live?" },
+    { "type": "p", "text": "A house mouse (*Mus musculus*) usually lives 9 to 12 months, and some live up to 3 years, according to [UC IPM's house mouse guide](https://ipm.ucanr.edu/home-and-landscape/house-mouse/). [Nebraska Extension](https://extensionpubs.unl.edu/publication/g1105/na/html/view) gives the same 9 to 12 months, while [Animal Diversity Web](https://animaldiversity.org/accounts/Mus_musculus) at the University of Michigan says most wild mice do not live beyond 12 to 18 months. The two extension guides do not say how their figure was measured, so read the wild range as roughly 9 to 18 months." },
+    { "type": "table", "head": ["Mouse", "Typical life span", "Longest reported", "Source"], "rows": [
+      ["House mouse (extension guides)", "9 to 12 months", "Up to 3 years (UC IPM only)", "UC IPM; Nebraska Extension"],
+      ["House mouse in the wild", "Most do not live past 12 to 18 months", "Not stated", "Animal Diversity Web"],
+      ["Pet house mouse", "18 to 24 months on average", "5 years in calorie-restricted and mutant mice", "Merck Veterinary Manual; Animal Diversity Web"],
+      ["Wild-derived mice kept in captivity", "Not stated", "4 years", "Animal Diversity Web"]
+    ], "caption": "The sources describe different groups of mice, so their figures do not line up exactly." },
+    { "type": "p", "text": "Those figures are for the house mouse, which UC IPM says often lives near people. Other mice have their own life spans; [how to tell the common kinds of mice apart](/blog/types-of-mice) is covered in its own guide, and [the complete mice reference](/learn/mice) puts life span alongside signs of an infestation, health risks and control." },
+
+    { "type": "h2", "text": "What shortens a mouse's life in the wild?" },
+    { "type": "p", "text": "Disease, predation, human management, climate-related challenges and starvation are the main causes of death, according to UC IPM. The guide gives no percentages, so that list is not a ranking. Weather and food are tied to why mice move indoors: UC IPM says outdoor populations frequently enter homes in autumn when nighttime temperatures drop, and a separate guide covers [sealing a house against mice before winter](/blog/how-to-keep-mice-out-of-your-house-winter)." },
+    { "type": "h3", "text": "How many mice survive from month to month?" },
+    { "type": "p", "text": "On two farms in England, about 54 of every 100 mice were apparently still in the population a month later. [Pocock, Searle and White](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.0021-8790.2004.00863.x) followed house mice on neighboring farms in North Yorkshire for 2 years by capturing, marking and recapturing them. They report apparent survival of 0.54 per month, a rate best modeled as constant across age, sex and time. Apparent survival is a capture-recapture measure in which a mouse that left the study area cannot be told apart from one that died." },
+    { "type": "p", "text": "If that monthly rate held steady, roughly 16 of every 100 mice would remain after 3 months and fewer than 3 after 6 months; that is this page's multiplication of the study's figure, not a result the authors report. It is hard to square with a typical life span of 9 to 12 months, and the sources do not reconcile the two. A farm in England is also not a US home. Treat the 0.54 as evidence that losses can be heavy in a mouse population that lives around buildings, not as a forecast for any one mouse." },
+
+    { "type": "h2", "text": "Do mice live longer indoors?" },
+    { "type": "p", "text": "The sources consulted do not show that mice live longer inside buildings. None measures life span for mice living specifically in homes, and the authors of the farm study note that house mice living independently of people have lower mortality and breed seasonally by comparison. What a building changes is breeding: UC IPM says house mice with plentiful and stable resources can reproduce year-round, which produces high population densities that last for months to years." },
+    { "type": "p", "text": "So the difference between an indoor and an outdoor mouse is less about the individual's life span than about the colony around it. Food, shelter and nesting material that stay available keep the next generation arriving. [What mice eat in a house, and how much](/blog/what-do-mice-eat) shows what may be feeding a colony. UC IPM also notes that mice are active mostly at night but can occasionally be seen in daylight, because they are active at times when food is available, and [when mice are active](/blog/are-mice-nocturnal) explains what a sighting does and does not tell you." },
+
+    { "type": "h2", "text": "How long do pet mice live?" },
+    { "type": "p", "text": "Pet mice average 18 to 24 months, according to the [Merck Veterinary Manual's chapter on mice and rats as pets](https://www.merckvetmanual.com/exotic-and-laboratory-animals/rodents/mice-and-rats-as-pets). Animal Diversity Web gives about 2 years as the average for a pet house mouse and says calorie-restricted and mutant captive mice have lived as long as 5 years. The Merck manual says obesity is common in pet mice and rats and that restricting calories without compromising overall nutrition increases life span." },
+    { "type": "p", "text": "Skin disease, respiratory infections and tumors are the most common problems the manual lists for mice and rats, so a pet that breathes noisily, loses hair or develops a lump should see a veterinarian who treats small exotic pets. Why captive mice outlive wild ones is not tested in these sources, but a cage removes most of the causes of death that UC IPM lists for free-living mice, including predators, weather and starvation." },
+
+    { "type": "h2", "text": "How long can a mouse live without food or water?" },
+    { "type": "p", "text": "No extension, government or journal source consulted for this page gives a survival time in days for a house mouse with no food or no water, so treat any exact figure from elsewhere with caution. What the sources do establish is how much a mouse needs and how it gets water." },
+    { "type": "table", "head": ["Need", "What the sources say", "Source"], "rows": [
+      ["Food, amount", "An adult eats about 1/10 ounce a day by nibbling. UC IPM puts it at up to 20 percent of body weight, in about 200 small meals each night.", "Nebraska Extension; UC IPM"],
+      ["Food, storage", "Mice cache food as supply permits.", "Nebraska Extension"],
+      ["Drinking water", "House mice do not need to drink to survive, but they seek liquids if their food does not supply enough moisture or if their surroundings are hot or dry.", "UC IPM"],
+      ["Animal-care limits", "A university laboratory policy says complete food deprivation of 48 hours in mice may be acceptable with scientific justification but is not without risk, and says no rodent can be completely deprived of fluids for more than 24 hours.", "Boston University"]
+    ], "caption": "The last row is a welfare limit for laboratory mice, set to prevent harm. It is not a measured survival time." },
+    { "type": "p", "text": "The [Boston University animal-care policy](https://www.bu.edu/research/forms-policies/food-and-fluid-regulation-and-restriction-iacuc/) shows where a laboratory committee draws the line, a day or two without food or fluid, not how long a house mouse lasts in a house. Starvation does appear on UC IPM's list of causes of death, but the same guide says house mice can survive in very small areas with limited food, and that good sanitation will seldom completely control them, although poor sanitation lets them thrive in greater numbers. Cutting off food and water is part of a plan, not a plan by itself." },
+
+    { "type": "h2", "text": "How fast do mice breed?" },
+    { "type": "p", "text": "Fast enough that a life span under a year hardly limits a colony: a female may have 5 to 10 litters of about 5 or 6 pups a year, according to UC IPM, and Nebraska Extension, which gives the same litter figures for ideal conditions, describes mice as capable of exponential population growth." },
+    { "type": "table", "head": ["Stage", "Figure", "Source"], "rows": [
+      ["Pregnancy", "18 to 21 days after conception", "UC IPM; Nebraska Extension"],
+      ["Weaning", "About 3 weeks", "Animal Diversity Web"],
+      ["Sexual maturity", "5 to 6 weeks, sometimes delayed to 12 weeks (UC IPM); 6 to 10 weeks (Nebraska Extension)", "UC IPM; Nebraska Extension"],
+      ["Litters per year", "5 to 10; as many as 14 reported", "UC IPM; Animal Diversity Web"],
+      ["Pups per litter", "About 5 or 6; 3 to 12 reported", "UC IPM; Animal Diversity Web"],
+      ["Pups per female per year", "About 25 to 60", "Calculated here: 5 litters of 5 pups to 10 litters of 6 pups"]
+    ], "caption": "The last row is multiplication of the ranges above, not a published figure." },
+    { "type": "p", "text": "Combine the age at maturity with the length of pregnancy and a female can have her first litter about 7.5 to 9 weeks after she is born (5 to 6 weeks plus 18 to 21 days). If every pup survived, her granddaughters could be having litters of their own by the time she is about 6 months old. That is arithmetic on UC IPM's figures under ideal conditions, and pups do not all survive. The farm study shows both sides: losses were heavy, and breeding throughout the year allowed the population to persist despite low survival rates. [Baby mice week by week, and what finding a nest means](/blog/baby-mice) covers the pups themselves." },
+    { "type": "media", "needed": "Simple timeline graphic of one female house mouse: birth, sexual maturity at 5 to 6 weeks, first litter at about 7.5 to 9 weeks, her granddaughters' first litters at about 6 months, with the 9 to 12 month typical life span drawn as a bar underneath" },
+
+    { "type": "h2", "text": "Will a mouse problem go away on its own?" },
+    { "type": "p", "text": "No: a short life span does not make an infestation fade, because new mice keep being born while food and shelter remain. UC IPM says populations with plentiful, stable resources can stay dense for months to years, and it states that there is no simple and easy fix for controlling house mice." },
+    { "type": "p", "text": "UC IPM calls exclusion the most successful and permanent form of house mouse control and says an infestation almost always also needs some form of population reduction, including traps and rodenticides. It adds that traps with a wide trigger plate have higher catch rates, and that mice with few places to hide, rest and nest cannot survive in large numbers. A practical order, using the guides on this site:" },
+    { "type": "ol", "items": [
+      "Check whether mice are still active. Droppings and gnaw marks can reveal activity, UC IPM notes, and a guide to [telling fresh droppings from old ones](/blog/what-does-mouse-poop-look-like-canada) helps you judge whether mice are still there.",
+      "Close the entry points. [Steel wool and what to pair it with](/blog/steel-wool-for-mice) explains how to pack it into gaps and lock it in place.",
+      "Trap what is already inside. [Mouse traps by type](/blog/mice-traps) compares the options and covers where to place them.",
+      "Remove what feeds and shelters the colony, including stored food, pet food, clutter and nesting material.",
+      "Bring in a professional if mice persist after sealing and trapping. [What a mouse exterminator does and how to hire one](/blog/mice-exterminator) explains the process, and [a step-by-step plan for clearing a house of mice](/blog/how-to-get-rid-of-mice-canada) lays out the whole sequence."
+    ] }
+  ],
+  "faqs": [
+    {
+      "question": "How old is a mouse when it can have babies?",
+      "answer": "UC IPM says house mice are sexually mature 5 to 6 weeks after birth, although maturity can be delayed until as late as 12 weeks. Nebraska Extension gives 6 to 10 weeks. Pregnancy then lasts 18 to 21 days, so a female can have her first litter roughly 7.5 to 9 weeks after she is born when conditions are good. That quick start is one reason a life span of under a year does not slow a colony down."
+    },
+    {
+      "question": "Can a mouse live without drinking water?",
+      "answer": "In many cases, yes. UC IPM states that house mice do not need to drink water to survive, because they can get moisture from their food. They do seek out liquids when their food does not supply enough moisture or when they live in a hot or dry environment. No source consulted gives a survival time in days with no water at all, and a university laboratory policy says no rodent can be completely deprived of fluids for more than 24 hours."
+    },
+    {
+      "question": "How long do baby mice stay with their mother?",
+      "answer": "About 3 weeks. Animal Diversity Web gives weaning at 3 weeks, and the Merck Veterinary Manual gives about 21 days for pet mice. Because UC IPM puts sexual maturity at 5 to 6 weeks after birth, young mice can start breeding only a few weeks after weaning, which is why the number of mice in a house can climb quickly once a female settles in."
+    },
+    {
+      "question": "Can a pet mouse live 5 years?",
+      "answer": "Rarely. The Merck Veterinary Manual gives an average of 18 to 24 months for pet mice. Animal Diversity Web reports that calorie-restricted and mutant captive house mice have lived as long as 5 years, but that is a record for unusual laboratory animals, not a typical result. Merck adds that obesity is common in pet mice and that restricting calories without compromising overall nutrition increases life span."
+    },
+    {
+      "question": "Why do sources give different life spans for wild mice?",
+      "answer": "UC IPM and Nebraska Extension say 9 to 12 months, while Animal Diversity Web says most wild mice do not live beyond 12 to 18 months. The sources describe different groups of mice, and the extension guides do not say how their figure was measured. A two-year farm study in England found apparent survival of 0.54 per month, which shows that losses can be heavy. A range of roughly 9 to 18 months is the fairest summary."
+    }
+  ],
+  "sources": [
+    { "title": "House Mouse", "publisher": "University of California Statewide IPM Program (UC IPM)", "url": "https://ipm.ucanr.edu/home-and-landscape/house-mouse/" },
+    { "title": "Controlling House Mice (G1105)", "publisher": "University of Nebraska-Lincoln Extension", "url": "https://extensionpubs.unl.edu/publication/g1105/na/html/view" },
+    { "title": "Mus musculus (house mouse)", "publisher": "University of Michigan Museum of Zoology, Animal Diversity Web", "url": "https://animaldiversity.org/accounts/Mus_musculus" },
+    { "title": "Mice and Rats as Pets", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/rodents/mice-and-rats-as-pets" },
+    { "title": "Adaptations of animals to commensal habitats: population dynamics of house mice Mus musculus domesticus on farms", "publisher": "Journal of Animal Ecology (Pocock, Searle and White, 2004)", "url": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.0021-8790.2004.00863.x" },
+    { "title": "Food and Fluid Regulation and Restriction (IACUC)", "publisher": "Boston University Office of Research", "url": "https://www.bu.edu/research/forms-policies/food-and-fluid-regulation-and-restriction-iacuc/" }
+  ]
+}

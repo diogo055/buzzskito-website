@@ -113,6 +113,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           dangerouslySetInnerHTML={{ __html: `document.documentElement.classList.add('anim')` }}
         />
+        {/* Pinterest domain verification (Oct 2026). A literal tag in the root layout, so it is
+            on every page whatever a page's own metadata says. Pinterest re-checks it: keep it. */}
+        <meta name="p:domain_verify" content="df9d0a4e3a51bf5a52cc8baa766b4500" />
         {/* Site-wide schemas — WebSite + Organization on every page.
             LocalBusiness/PestControlService is added per-page with city-specific areaServed. */}
         <script

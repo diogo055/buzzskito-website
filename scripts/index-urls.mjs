@@ -3,18 +3,34 @@
  *
  * Runs automatically after `npm run build` via the "postbuild" script.
  *
- * SETUP (one-time):
- * 1. Go to Google Search Console → Settings → Ownership verification → API access
- * 2. Create a Service Account in Google Cloud Console with "Indexing API" enabled
- * 3. Download the JSON key and save it as `scripts/google-service-account.json`
- *    (this file is .gitignored — never commit it)
- * 4. In Search Console, add the service account email as a "Full User" owner
- * 5. npm install google-auth-library   (run once)
+ * WHERE THE CREDENTIAL COMES FROM
+ *   1. The environment variable GOOGLE_INDEXING_SERVICE_ACCOUNT_JSON: the whole service-account
+ *      JSON key as its value (or the same JSON base64-encoded). This is the one to set on
+ *      Vercel, for the Production environment only.
+ *   2. Otherwise the file scripts/google-service-account.json (git-ignored), for local runs.
+ *   With neither, the script says so and skips. It never fails a build.
  *
- * The script skips gracefully if the key file is missing so dev builds still work.
+ * WHEN IT SUBMITS
+ *   Only on a Vercel PRODUCTION build (VERCEL_ENV=production), or when run by hand with
+ *   `node scripts/index-urls.mjs --submit`. Preview builds and local builds never submit:
+ *   Google allows 200 notifications a day and every submission here uses one per URL.
+ *
+ * SETUP (one-time)
+ *   1. Google Cloud Console: create a service account, enable the "Web Search Indexing API",
+ *      create a JSON key.
+ *   2. Search Console > Settings > Users and permissions: add the service account's email as
+ *      an Owner of the buzzskito.ca property.
+ *   3. Vercel > Project > Settings > Environment Variables: add
+ *      GOOGLE_INDEXING_SERVICE_ACCOUNT_JSON (Production), paste the JSON, redeploy.
+ *
+ * Note: Google documents this API for job-posting and livestream pages. It may ignore other
+ * URLs. The sitemap and Search Console's "Request indexing" remain the supported routes.
+ *
+ * No extra npm package is needed: the service-account sign-in is done with Node's own crypto.
  */
 
 import { readFileSync, existsSync } from 'fs'
+import { createSign } from 'crypto'
 import { resolve, dirname } from 'path'
 import { fileURLToPath } from 'url'
 
@@ -55,18 +71,25 @@ const URLS = [
   `${SITE_URL}/blog/peppermint-oil-for-mice`,
   `${SITE_URL}/blog/ghost-ants`,
   `${SITE_URL}/blog/what-kills-ticks-on-dogs-instantly`,
+  `${SITE_URL}/blog/black-ants`,
+  `${SITE_URL}/blog/how-long-do-mice-live`,
+  `${SITE_URL}/blog/how-many-ants-are-in-the-world`,
   `${SITE_URL}/blog/bugs-that-look-like-cockroaches`,
   `${SITE_URL}/blog/bugs-that-look-like-bed-bugs`,
   `${SITE_URL}/blog/what-do-ticks-look-like`,
   `${SITE_URL}/blog/vamoose-for-mice`,
+  `${SITE_URL}/blog/mice-poison`,
   `${SITE_URL}/blog/mice-removal`,
   `${SITE_URL}/blog/lawn-pest-control`,
   `${SITE_URL}/blog/mice-traps`,
   `${SITE_URL}/blog/army-ants`,
+  `${SITE_URL}/blog/honeypot-ants`,
+  `${SITE_URL}/blog/natural-pest-control`,
   `${SITE_URL}/blog/mice-repellent`,
   `${SITE_URL}/blog/can-mice-climb-walls`,
   `${SITE_URL}/blog/are-mice-nocturnal`,
   `${SITE_URL}/blog/do-mosquitoes-bite-dogs`,
+  `${SITE_URL}/blog/zombie-ants`,
   `${SITE_URL}/blog/field-mice`,
   `${SITE_URL}/blog/ticks-in-michigan`,
   `${SITE_URL}/blog/tiny-ants`,
@@ -90,6 +113,7 @@ const URLS = [
   `${SITE_URL}/blog/bullet-ants`,
   `${SITE_URL}/blog/baby-mice`,
   `${SITE_URL}/blog/does-lysol-kill-bed-bugs`,
+  `${SITE_URL}/blog/water-bugs-vs-cockroaches`,
   `${SITE_URL}/blog/does-alcohol-kill-bed-bugs`,
   `${SITE_URL}/blog/ticks-that-carry-lyme-disease`,
   `${SITE_URL}/blog/what-do-baby-cockroaches-look-like`,
@@ -187,63 +211,108 @@ const URLS = [
   `${SITE_URL}/blog/when-to-schedule-first-mosquito-treatment-ontario`,
 ]
 
-async function submitUrls() {
-  if (!existsSync(KEY_PATH)) {
-    console.log('ℹ️  Google Indexing API: service account key not found — skipping.')
-    console.log('   Add scripts/google-service-account.json to enable auto-indexing.')
-    return
-  }
+const ENV_VAR = 'GOOGLE_INDEXING_SERVICE_ACCOUNT_JSON'
+const DAILY_CAP = 190 // Google's default quota is 200 publish calls a day
 
-  // Dynamically import so the script doesn't hard-fail without google-auth-library
-  let GoogleAuth
+/** Returns the parsed service-account key, or null. Never logs key material. */
+function loadKey() {
+  const fromEnv = process.env[ENV_VAR]
+  let text = null
+  let source = ''
+  if (fromEnv && fromEnv.trim()) {
+    text = fromEnv.trim()
+    source = `the ${ENV_VAR} environment variable`
+    if (!text.startsWith('{')) {
+      try { text = Buffer.from(text, 'base64').toString('utf-8') } catch { /* fall through to the parse error below */ }
+    }
+  } else if (existsSync(KEY_PATH)) {
+    text = readFileSync(KEY_PATH, 'utf-8')
+    source = 'scripts/google-service-account.json'
+  }
+  if (!text) return null
   try {
-    const mod = await import('google-auth-library')
-    GoogleAuth = mod.GoogleAuth
-  } catch {
-    console.log('ℹ️  google-auth-library not installed — skipping indexing API.')
-    console.log('   Run: npm install google-auth-library')
+    const key = JSON.parse(text)
+    if (!key.client_email || !key.private_key) throw new Error('missing client_email or private_key')
+    return { key, source }
+  } catch (err) {
+    console.log(`⚠️  Google Indexing API: the credential in ${source} is not a valid service-account JSON key (${err instanceof Error ? err.message : 'parse error'}) — skipping.`)
+    return { invalid: true }
+  }
+}
+
+/** Service-account sign-in (RS256 JWT exchanged for an access token), using only Node built-ins. */
+async function getAccessToken(key) {
+  const b64 = (obj) => Buffer.from(JSON.stringify(obj)).toString('base64url')
+  const now = Math.floor(Date.now() / 1000)
+  const unsigned = `${b64({ alg: 'RS256', typ: 'JWT' })}.${b64({
+    iss: key.client_email,
+    scope: 'https://www.googleapis.com/auth/indexing',
+    aud: 'https://oauth2.googleapis.com/token',
+    iat: now,
+    exp: now + 3600,
+  })}`
+  const signature = createSign('RSA-SHA256').update(unsigned).sign(key.private_key).toString('base64url')
+  const res = await fetch('https://oauth2.googleapis.com/token', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({ grant_type: 'urn:ietf:params:oauth:grant-type:jwt-bearer', assertion: `${unsigned}.${signature}` }),
+  })
+  const json = await res.json().catch(() => ({}))
+  if (!res.ok || !json.access_token) throw new Error(`sign-in failed (${res.status}${json.error ? `: ${json.error}` : ''})`)
+  return json.access_token
+}
+
+async function submitUrls() {
+  const loaded = loadKey()
+  if (loaded && loaded.invalid) return
+  if (!loaded) {
+    console.log(`ℹ️  Google Indexing API: no credential found — skipping. Set ${ENV_VAR} on Vercel (Production) to enable it.`)
+    return
+  }
+  const manual = process.argv.includes('--submit')
+  if (!manual && process.env.VERCEL_ENV !== 'production') {
+    console.log('ℹ️  Google Indexing API: credential present, but this is not a Vercel production build — not submitting. (Run with --submit to send by hand.)')
     return
   }
 
-  const keyFile = JSON.parse(readFileSync(KEY_PATH, 'utf-8'))
-  const auth = new GoogleAuth({
-    credentials: keyFile,
-    scopes: ['https://www.googleapis.com/auth/indexing'],
-  })
+  let token
+  try {
+    token = await getAccessToken(loaded.key)
+  } catch (err) {
+    console.log(`⚠️  Google Indexing API: ${err instanceof Error ? err.message : String(err)} — skipping.`)
+    return
+  }
 
-  const client = await auth.getClient()
   const endpoint = 'https://indexing.googleapis.com/v3/urlNotifications:publish'
-
-  console.log(`\n🚀 Submitting ${URLS.length} URLs to Google Indexing API...\n`)
+  const batch = URLS.slice(0, DAILY_CAP)
+  console.log(`\n🚀 Submitting ${batch.length} of ${URLS.length} URLs to the Google Indexing API (credential from ${loaded.source})...\n`)
 
   let success = 0
   let failed = 0
-
-  for (const url of URLS) {
+  for (const url of batch) {
     try {
-      const res = await client.request({
-        url: endpoint,
+      const res = await fetch(endpoint, {
         method: 'POST',
-        data: { url, type: 'URL_UPDATED' },
+        headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ url, type: 'URL_UPDATED' }),
       })
-      if (res.status === 200) {
-        console.log(`  ✅ ${url}`)
+      if (res.ok) {
         success++
       } else {
-        console.log(`  ⚠️  ${url} — status ${res.status}`)
         failed++
+        const detail = await res.json().catch(() => ({}))
+        console.log(`  ⚠️  ${url} — ${res.status} ${detail.error && detail.error.status ? detail.error.status : ''}`)
+        // out of quota or not authorised: every later call would fail the same way
+        if (res.status === 429 || res.status === 403) { console.log('  Stopping: Google refused the request (quota or permission).'); break }
       }
     } catch (err) {
-      const msg = err instanceof Error ? err.message : String(err)
-      console.log(`  ❌ ${url} — ${msg}`)
       failed++
+      console.log(`  ❌ ${url} — ${err instanceof Error ? err.message : String(err)}`)
     }
-
-    // Respect API rate limit: 200 requests/day, pace at ~1/sec
-    await new Promise((r) => setTimeout(r, 500))
+    await new Promise((r) => setTimeout(r, 300))
   }
-
   console.log(`\n✅ Done — ${success} submitted, ${failed} failed.\n`)
 }
 
-submitUrls()
+// A problem here must never fail the build.
+submitUrls().catch((err) => console.log(`⚠️  Google Indexing API: unexpected error (${err instanceof Error ? err.message : String(err)}) — skipped.`))

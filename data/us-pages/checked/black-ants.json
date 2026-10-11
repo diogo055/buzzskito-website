@@ -1,0 +1,10 @@
+{
+ "id": "black-ants",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "44c0628847454bb8c8f883f67b082fed1069ed1f14070d3dfc6fdff44af26223",
+ "claimsChecked": 96,
+ "claimsCorrected": 13,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-11"
+}
