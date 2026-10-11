@@ -1,0 +1,268 @@
+{
+  "slug": "aphid-control-guide",
+  "kind": "spoke",
+  "section": "learn",
+  "cluster": "garden",
+  "keyword": "how to get rid of aphids naturally",
+  "alsoTargets": [],
+  "metaTitle": "How to Get Rid of Aphids Naturally: 7 Ways",
+  "metaDescription": "Get rid of aphids naturally: water spray, pruning and natural enemies first, then insecticidal soap or neem at the label rate, and why ants matter.",
+  "h1": "How to Get Rid of Aphids Naturally: 6 Controls and the Ant Connection",
+  "dek": "Six natural aphid controls checked against university and government sources: what water, soap, neem, ladybugs, pruning and hoverflies each do, the neem recipe at the label rate, and why ants on the plant matter.",
+  "breadcrumb": "Aphid Control Guide",
+  "excerpt": "How to get rid of aphids naturally: hose them off, prune, protect their predators, then use soap or neem at the published rates. Plus the ant connection and pet and child notes.",
+  "datePublished": "2026-10-11",
+  "heroAlt": "One-page infographic titled Aphid Control Guide. It shows how to tell a pear-shaped aphid from a whitefly and a spider mite, then six natural controls: a water spray, insecticidal soap, neem oil at dusk, ladybugs, pruning, and flowers for hoverflies. Below are a neem soap spray recipe, a panel on ants guarding aphids for honeydew, and a footer on testing leaves, pollinators, kids and pets.",
+  "quickAnswer": {
+    "lead": "**To get rid of aphids naturally, knock them off with a strong stream of water, prune out the worst colonies, protect the insects that eat them, and spray insecticidal soap or neem oil only if that is not enough.** The [University of California's aphid notes](https://ipm.ucanr.edu/home-and-landscape/aphids/) call soaps and oils the best choices when a spray is needed, and say ants protect aphids from their natural enemies.",
+    "bullets": [
+      "Aphids are pear-shaped and 1/16 to 1/8 inch long, and most species carry two small tubes (cornicles) at the rear end, a feature no other insect has.",
+      "In warm weather a newborn aphid can be a reproducing adult in 7 to 8 days, and one adult can produce up to 80 offspring in a week, according to the University of California.",
+      "Clemson Cooperative Extension gives insecticidal soap as a 1 to 2 percent solution (2 1/2 to 5 tablespoons of concentrate per gallon), repeated every 4 to 7 days as the label allows.",
+      "One registered 70 percent neem concentrate is labeled at 1/2 to 1 tablespoon per quart with no adjuvants added, and must not be sprayed while bees are actively visiting.",
+      "Purchased lady beetles mostly leave within a few days; in University of California research one large rose bush needed about 1,500 beetles, twice.",
+      "Do not use soap or oil sprays on water-stressed plants or when it is hotter than 90°F."
+    ]
+  },
+  "facts": {
+    "title": "Aphid control at a glance",
+    "rows": [
+      ["Size", "1/16 to 1/8 inch (about 1.5 to 3 mm)"],
+      ["Shape and color", "Pear-shaped and soft; green, yellow, brown, red or black"],
+      ["Surest mark", "Two tube-like cornicles at the rear end"],
+      ["Where they cluster", "Shoot tips, tender new growth and the undersides of leaves"],
+      ["Newborn to adult", "7 to 8 days in warm weather"],
+      ["Offspring", "As many as 12 a day; up to 80 in a week"],
+      ["How often to check", "At least twice a week while plants are growing fast"],
+      ["Insecticidal soap strength", "1 to 2% (2 1/2 to 5 tablespoons of concentrate per gallon)"],
+      ["Soap repeat interval", "Every 4 to 7 days, following the label"],
+      ["Neem (one 70% concentrate label)", "1/2 to 1 tablespoon per quart; no added adjuvants; every 7 to 14 days"],
+      ["Heat limit for soap and oil", "Not above 90°F"],
+      ["Poison Control (US)", "800-222-1222"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Aphid, not whitefly, not spider mite: how do you tell?" },
+    { "type": "p", "text": "An aphid is a soft, pear-shaped insect 1/16 to 1/8 inch long (about 1.5 to 3 mm) that sits in clusters on new growth and the undersides of leaves. The size comes from [Washington State University's houseplant aphid fact sheet](https://pestsense.cahnrs.wsu.edu/fact-sheet/aphids/), which places aphids near the tips of shoots, on tender new growth, and under leaves. The one-page guide's 1 to 4 mm is a slightly wider rounding of the same range. The [University of California's Pest Notes on aphids](https://ipm.ucanr.edu/home-and-landscape/aphids/) list the colors as green, yellow, brown, red or black depending on the species, and name the surest mark: a pair of tube-like structures called cornicles projecting backward from the rear end. UC says the presence of cornicles separates aphids from every other insect." },
+    { "type": "ul", "items": [
+      "**Sticky, shiny leaves.** Aphids excrete a sugary liquid called honeydew, and UC says it often turns black as sooty mold grows on it.",
+      "**Curled leaves.** Some species inject a toxin that makes leaves curl around the colony.",
+      "**Yellow, stunted shoots.** Washington State describes wilting and yellowing, with new growth deformed and stunted.",
+      "**White fluff.** A few species look waxy or woolly because they secrete a white or gray wax, UC notes.",
+      "**Crusty, golden-brown shells.** These are mummies, aphids killed by parasitic wasps. They are good news."
+    ] },
+    { "type": "media", "needed": "Macro photo of an aphid colony on a soft green shoot tip, mixed sizes and at least one winged adult, sharp enough to show the pear shape and the two cornicles at the rear end, with a ruler edge marked in sixteenths of an inch for scale" },
+    { "type": "table", "head": ["Pest", "Size", "What you see", "When you shake the plant"], "rows": [
+      ["Aphid", "1/16 to 1/8 inch", "Pear-shaped, soft bodies packed on shoot tips and under leaves; two tubes at the rear; sticky honeydew", "Most stay put"],
+      ["Whitefly", "Tiny", "Yellowish bodies and four whitish wings dusted with mealy white wax, under the leaves; honeydew here too", "Adults fly around the plant"],
+      ["Spider mite", "Less than 1/20 inch", "Moving dots; leaves stippled with light specks; webbing on leaves and twigs", "Nothing obvious; shake a leaf over white paper to see them"]
+    ], "caption": "Aphid size from Washington State University; whitefly and spider mite details from the University of California's Pest Notes on each pest (publications 7401 and 7405)." },
+    { "type": "p", "text": "**Not whitefly.** Shake the plant. UC's whitefly notes describe tiny sap-suckers that fly around the plant when disturbed, while most aphids, UC says, do not move rapidly when disturbed. One point the one-page guide has no room for: some aphids have wings. Adults are generally wingless, but most species also produce winged forms, especially when populations are high or in spring and fall. A few winged aphids in a seated crowd is still an aphid colony. A separate guide covers [how to identify whiteflies and the controls that work on them](/learn/whitefly-identification-control)." },
+    { "type": "p", "text": "**Not spider mite.** Look for webbing and specks. UC's spider mite notes put mites at less than 1/20 inch long, tiny moving dots to the naked eye, which is smaller than the smallest aphid in Washington State's range. Mites are arachnids, not insects, and their damage starts as a stippling of light dots on the leaf. On houseplants, rule out one more look-alike: small dark flies hovering around the pot are not winged aphids, and the fix is different. It is set out in [how to get rid of fungus gnats](/learn/how-to-get-rid-of-fungus-gnats)." },
+    { "type": "media", "needed": "Side-by-side diagram drawn to the same scale of an aphid (about 1/8 inch, pear-shaped, cornicles labeled), an adult whitefly (white wax-dusted wings) and a spider mite (dot-sized, with a strand of webbing), each on the underside of a leaf, with a one-line caption naming the giveaway for each" },
+
+    { "type": "h2", "text": "Do aphids need treating at all?" },
+    { "type": "p", "text": "Often they do not. UC says low to moderate numbers of leaf-feeding aphids are not usually damaging in gardens or on trees, that aphids seldom kill a mature plant, and that most established plants outgrow the damage. The cases that deserve action are seedlings, large colonies that are yellowing leaves and stunting shoots, and vegetables that pick up aphid-carried viruses. UC lists squash, cucumber, pumpkin, melon, bean, potato, lettuce, beet, chard and bok choy among the crops that often have them." },
+    { "type": "p", "text": "What makes aphids worth watching is their speed. In warm weather, UC says, many species go from newborn to reproducing adult in seven to eight days, females give birth to as many as 12 live young a day without mating, and one adult can produce up to 80 offspring in a week. Its advice is to check plants at least twice a week while they are growing rapidly, so you catch a colony while a hose or a pair of pruners is still enough. That check-first order, with sprays last, is the one laid out in [the natural garden pest control guide](/learn/natural-garden-pest-control)." },
+    { "type": "checklist", "title": "The twice-a-week aphid check", "items": [
+      "**Turn leaves over.** UC says many aphid species prefer the underside.",
+      "**Look at the newest growth.** Check shoot tips, buds and the youngest leaves first.",
+      "**Check the edges.** UC finds aphids most often on the upwind edge of a garden and next to plants that already have them.",
+      "**Feel for stickiness.** Honeydew or black sooty mold on lower leaves means a colony is feeding above.",
+      "**Watch the stems for ants.** Ants climbing a trunk are a reason to look higher up for aphids.",
+      "**Look for help already at work.** Lady beetles, lacewings, hover fly larvae and golden-brown mummies mean natural control has started. Hold the spray."
+    ] },
+
+    { "type": "h2", "text": "The 6 natural controls: what does each one do?" },
+    { "type": "p", "text": "Two of them remove aphids at once (water and pruning), two rely on insects that eat aphids (ladybugs and hoverflies), and two are sprays that kill only what they touch (insecticidal soap and neem oil). The sources favor that order: physical controls first, natural enemies protected throughout, sprays last. Soap and neem are natural in origin, but both are pesticides with labels, and the label on your product overrides any general figure here." },
+    { "type": "table", "head": ["Control", "What the sources say it does", "How often"], "rows": [
+      ["1. Blast with water", "Knocks aphids off; most cannot return (UC)", "As needed, which can be every few days (Health Canada)"],
+      ["2. Insecticidal soap", "Kills aphids it wets; no residual effect (Health Canada)", "Every 4 to 7 days, as the label allows (Clemson)"],
+      ["3. Neem oil at dusk", "Kills only aphids present that day (UC)", "Every 7 to 14 days; every 7 if heavy (one label)"],
+      ["4. Release ladybugs", "Temporary control; most leave within days (UC)", "UC's example: two releases a week apart"],
+      ["5. Prune & trash", "May be the best control for colonies on a few shoots or curled leaves (UC)", "Whenever you find them"],
+      ["6. Invite hoverflies", "Each larva can eat up to 400 aphids (University of Wisconsin)", "Keep small flowers blooming all season"]
+    ], "caption": "Each figure is taken from the source named in that control's section below." },
+    { "type": "callout", "tone": "note", "title": "Where the one-page guide differs", "text": "**Neem Soap Spray Recipe.** The guide shows 1 tablespoon neem oil, 1 teaspoon dish soap and 1 quart of water. The label of one registered 70 percent neem concentrate gives 1/2 to 1 tablespoon per quart and says not to add adjuvants such as spreaders and stickers. A University of Florida extension article gives a weaker home mix: 1 to 2 teaspoons per quart with a few drops of soap. So the guide's neem amount is that label's maximum, and no source read for this page gives a full teaspoon of soap. Follow the label on your own product. **Use within 8 hours.** No source read for this page gives that figure. The product label sets no limit; an EPA master label for the same registration says to use the spray within several hours and not to store it. Mix fresh each time. **Insecticidal soap, 3 rounds.** Clemson says every 4 to 7 days until the aphids are gone, with no fixed count. **Water, 2x a week.** No source sets a schedule; Health Canada says repeat as needed, which can be every few days. **Don't compost.** Sources say to dispose of or destroy prunings; none read mentions compost. **Test on 2 leaves.** The sources add a wait before you spray the rest: 24 hours for soap (Clemson) and several days for soaps and oils (UC)." },
+
+    { "type": "h3", "text": "1. Blast with water" },
+    { "type": "p", "text": "A strong stream of water is the first thing to try, and on a small colony it may be all you need. UC says to knock aphids off by shaking the plant or spraying it with a strong stream of water, and that most dislodged aphids will not be able to return. Health Canada's aphid page tells you where to aim: the undersides of the leaves. Match the pressure to the plant. A jet that strips aphids from a rose cane will flatten seedlings." },
+    { "type": "p", "text": "The one-page guide says twice a week, and no source read for this page sets a fixed schedule. Health Canada says to monitor the plant and repeat as needed, which can be every few days. UC's twice-weekly check gives the same rhythm: look twice a week and hose whenever you find them. UC also says to spray early in the day, so the leaves dry quickly in the sun and are less open to fungal disease. Indoors, Washington State's version is to wash the plant in the shower or sink with lukewarm water and to repeat it regularly. The limit is cover: expect a hose to miss aphids sealed inside curled leaves." },
+
+    { "type": "h3", "text": "2. Insecticidal soap" },
+    { "type": "p", "text": "Insecticidal soap kills the aphids it wets and does nothing once it dries, so the spray has to coat the colony itself. The active ingredient is potassium salts of fatty acids. The [National Pesticide Information Center's fact sheet on these soap salts](https://www.npic.orst.edu/factsheets/psfagen.pdf) explains that the fatty acids get through an insect's body covering and disrupt its cell membranes, so the insect dehydrates and dies. [Clemson Cooperative Extension's fact sheet on insecticidal soaps](https://hgic.clemson.edu/factsheet/insecticidal-soaps-for-garden-pest-control/) gives the usual strength as a 1 to 2 percent solution, which is 2 1/2 to 5 tablespoons of concentrate per gallon of water." },
+    { "type": "recipe", "title": "Insecticidal soap spray from concentrate", "makes": "1 gallon; scaled down by arithmetic, a quart takes about 2 to 3 3/4 teaspoons of concentrate",
+      "ingredients": [
+        "1 gallon water (distilled or bottled if your tap water is hard)",
+        "2 1/2 to 5 tablespoons insecticidal soap concentrate (potassium salts of fatty acids), which makes a 1 to 2 percent solution"
+      ],
+      "steps": [
+        "Read the label on your concentrate and use its rate if it differs from this one.",
+        "Spray a small area of the plant and wait 24 hours to see whether the leaves are damaged.",
+        "Mix the concentrate into the water.",
+        "In the early morning or late in the day, wet the aphid colonies themselves, including the ones under the leaves.",
+        "Rinse the plant with clean water if it wilts or the leaf edges brown within a few hours.",
+        "Repeat every 4 to 7 days, as your label allows, until the aphids are gone."
+      ],
+      "works": "The soap kills the aphids it touches. Clemson says most beneficial insects are not harmed by soap sprays.",
+      "limits": "It has no effect once dry, so it misses aphids that arrive later and aphids inside curled leaves. Clemson says not to apply it in full sun or above 90°F. The one-page guide's fixed count of 3 rounds is not in the sources.",
+      "safety": {
+        "tier": "lower-risk",
+        "pets": "The National Pesticide Information Center rates potassium salts of fatty acids as very low in toxicity to animals, both when eaten and on the skin. Keep pets away from the wet spray and the concentrate all the same.",
+        "children": "The center says the soap can irritate skin and eyes, and that swallowing high doses may cause stomach upset and vomiting. Store the concentrate and the filled sprayer out of reach."
+      },
+      "source": "[Clemson Cooperative Extension, Insecticidal Soaps for Garden Pest Control](https://hgic.clemson.edu/factsheet/insecticidal-soaps-for-garden-pest-control/)" },
+    { "type": "p", "text": "The guide's interval of 5 to 7 days sits inside Clemson's 4 to 7. Its count of three rounds has no source behind it. Clemson says to keep going until the pests are eliminated, and UC explains why: soaps and oils kill only the aphids present on the day they are sprayed. With aphids maturing in about a week, a second and third round are likely, and a fourth is not a failure." },
+    { "type": "p", "text": "Soap can burn leaves. Clemson lists portulaca, cherry, Japanese maple and lantana among more than a dozen sensitive plants. Hard water makes soap less effective; Clemson's check is to mix a little in a jar and switch to distilled or bottled water if scum forms. Dish soap is not a substitute. Clemson says homemade mixes carry a substantially increased risk of plant injury, and Colorado State University Extension's fact sheet on insecticidal soap says dish soaps contain powerful detergents that can injure plants." },
+
+    { "type": "h3", "text": "3. Neem oil at dusk" },
+    { "type": "p", "text": "Sources describe two ways neem oil acts on insects: it smothers the ones it coats, and it interferes with feeding. UC groups plant-derived oils such as neem and canola with horticultural oils, says they kill primarily by smothering, and stresses thorough coverage. The guide's phrase, disrupts feeding, matches the [National Pesticide Information Center's neem oil fact sheet](https://npic.orst.edu/factsheets/neemgen.html): azadirachtin, the most active component, reduces insect feeding, acts as a repellent and interferes with insect hormones, and other components kill insects by hindering their ability to feed, though the exact role of each is not known. Clarified hydrophobic neem oil is the portion left after azadirachtin is extracted, so check which one your bottle lists as the active ingredient." },
+    { "type": "p", "text": "The dusk timing holds up. The [label of one registered neem concentrate](https://picol.cahnrs.wsu.edu/DownloadLabel/66229/WA) says to time applications for early morning or late evening to reduce the chance of leaf burn. Its bee hazard statement says the product is toxic to bees exposed to direct treatment and must not be applied while bees are actively visiting the treatment area. The National Pesticide Information Center is less worried, saying bees and other pollinators are not likely to be harmed because an insect must eat the treated plant to be killed. The guide's rule, never on open blooms, is stricter than either and costs nothing to follow." },
+
+    { "type": "h3", "text": "4. Release ladybugs" },
+    { "type": "p", "text": "Purchased lady beetles can help for a short time, but most of them fly away. UC says releasing the convergent lady beetle (*Hippodamia convergens*) may give some temporary control when the beetles are handled properly, although most will leave the yard within a few days. It also takes large numbers. In University of California research, one large, heavily infested rose bush needed two applications a week apart, of about 1,500 lady beetles each. UC's handling steps match the guide's dusk and damp plants:" },
+    { "type": "ol", "items": [
+      "Keep the beetles refrigerated until just before you let them go.",
+      "Release at dusk. UC says beetles released in broad daylight fly away immediately.",
+      "Mist the beetles with water just before release, and mist the plant too.",
+      "Set them at the base of the infested plant or in the crotches of low branches. They crawl upward looking for aphids."
+    ] },
+    { "type": "p", "text": "The predators that matter most arrive unbought. UC lists lady beetles, lacewings, soldier beetles and hover fly larvae, with parasitic wasps working alongside them: once you begin to see mummies, UC says, the aphid population is likely to drop substantially within a week or two." },
+    { "type": "media", "needed": "Four-panel photo set of the aphid predators gardeners mistake for pests: a spiky black-and-orange lady beetle larva, a green lacewing larva, a pale legless hover fly larva among aphids, and golden-brown aphid mummies with wasp exit holes, each labeled" },
+
+    { "type": "h3", "text": "5. Prune & trash" },
+    { "type": "p", "text": "Pruning may be the best control when the aphids are confined to a few shoots or curled leaves. That is UC's wording: where populations are localized on a few curled leaves or new shoots, the best control may be to prune those areas out and dispose of them. It is also the fix for curled leaves, because UC notes that contact sprays do not reach the aphids hidden inside. Health Canada says pruning and destroying infested leaves or plant sections may reduce the development of new colonies." },
+    { "type": "p", "text": "The guide adds bag them and don't compost. Neither instruction appears in the sources read for this page, which say only to dispose of or destroy what you cut. Sealing the prunings in a bag for the trash is a simple way to do that. Pruning removes growth, so it suits a few bad shoots, not a plant covered from tip to tip." },
+
+    { "type": "h3", "text": "6. Invite hoverflies" },
+    { "type": "p", "text": "Hover fly larvae eat aphids, and the adults come for small flowers. The [University of Wisconsin's article on hover flies](https://hort.extension.wisc.edu/articles/hover-flower-or-syrphid-flies-syrphidae/) says each larva can eat up to 400 aphids during the two to three weeks it takes to develop, and that adults need flowers for nectar and pollen. Its list of especially attractive flowers includes sweet alyssum, dill, coriander and wild carrot, so the guide's alyssum and dill are both on it. Learn the larva before you spray or squash: a small, legless maggot, creamy white to green or brown, tapered toward the head." },
+    { "type": "p", "text": "What this step can promise is hover flies, not a set number of dead aphids. In a University of New Hampshire Extension trial in 2017 and 2018, alyssum, buckwheat, cilantro and dill carried more hover flies through the season than calendula, phacelia or fennel. The researchers added that more work is needed to show whether those hover flies meaningfully control aphids on nearby crops. Plant the flowers as support for the other five controls." },
+
+    { "type": "h2", "text": "Neem Soap Spray Recipe: does 1 tablespoon per quart hold up?" },
+    { "type": "p", "text": "Partly. One tablespoon of neem oil per quart is the top of the range on one registered concentrate's label, the teaspoon of dish soap is not on that label at all, and the 8-hour limit could not be confirmed. The label read for this page is for Natria Neem Oil Concentrate, a 70 percent clarified hydrophobic extract of neem oil (EPA Reg. No. 70051-2-92564). For insects it gives 2 to 4 tablespoons per gallon of water, or 1/2 to 1 tablespoon per quart. It also says not to add adjuvants, naming spreaders, stickers and extenders. Dish soap is not named, but that is the job it does in a home recipe." },
+    { "type": "recipe", "title": "Neem oil spray at the label rate", "makes": "1 quart",
+      "ingredients": [
+        "1 quart water",
+        "1/2 to 1 tablespoon (1/4 to 1/2 fluid ounce) of 70 percent neem oil concentrate; 1/2 tablespoon is 1 1/2 teaspoons",
+        "No added spreader, sticker or other adjuvant, which rules out the dish soap in home recipes: this label says not to add them"
+      ],
+      "steps": [
+        "Read the label on your own bottle first. If its rate or its rules differ, follow your label.",
+        "Spray a small part of the plant and wait a few days for leaf burn, as the University of California advises, before treating the rest.",
+        "Shake the concentrate well, measure it into the water and mix thoroughly.",
+        "In the early morning or late evening, with no bees working the plant, spray every surface, including the undersides of leaves, until completely wet.",
+        "Shake the sprayer often as you work; the label says to mix the solution frequently.",
+        "Repeat every 7 to 14 days, or every 7 days for a heavy infestation, as this label allows."
+      ],
+      "works": "The University of California says oil sprays, neem included, kill aphids mainly by smothering them and kill only the aphids present on the day you spray.",
+      "limits": "It misses aphids inside curled leaves and has to be repeated. The label says not to use it on wilted or stressed plants or new transplants, and UC says not to spray oils above 90°F. The one-page guide's version (1 tablespoon neem oil, 1 teaspoon dish soap, 1 quart water) uses this label's maximum neem rate and adds soap, which this label's rule against adjuvants excludes.",
+      "safety": {
+        "tier": "caution",
+        "pets": "The National Pesticide Information Center reports that some cats treated with neem oil for fleas in other countries had adverse reactions, including sluggishness, heavy salivation, trembling and convulsions. Some died, though most recovered within 1 to 5 days. Never put a garden neem spray on an animal, and keep pets away from the spray and from wet leaves.",
+        "children": "The label carries the signal word Caution, says the product is harmful if absorbed through the skin and causes moderate eye irritation, and says to keep it out of reach of children. Spray when children are elsewhere and store the bottle and sprayer up high."
+      },
+      "source": "[Natria Neem Oil Concentrate label, EPA Reg. No. 70051-2-92564](https://picol.cahnrs.wsu.edu/DownloadLabel/66229/WA)" },
+    { "type": "p", "text": "Published ratios vary, so check the bottle in your hand. A University of Florida IFAS Extension article from St. Lucie County gives a weaker home mix: 1 to 2 teaspoons of neem oil per quart of water with a few drops of soap, which it describes as an emulsifier. UC describes oil sprays in general as usually a 1 to 2 percent solution, and the guide's tablespoon per quart works out to about 1.5 percent. So the guide's neem amount is inside the published range, at the strong end. The full teaspoon of dish soap is the part no source here supports." },
+    { "type": "p", "text": "No source read for this page gives the 8-hour limit. The product label sets no time limit, but an EPA master label on file for the same 70 percent neem oil registration (No. 70051-2) says to use spray solutions within several hours of preparation and not to store diluted solution for later use. For neem products that do contain azadirachtin, the National Pesticide Information Center gives a half-life in water of 48 minutes to 4 days. Make a quart, use it right away, and rinse the sprayer. The label also names plants that need a trial spray first: the flowers of impatiens, fuchsia, hibiscus and some roses, some carnation varieties and ornamental olive trees." },
+
+    { "type": "h2", "text": "The Ant Connection: why do ants on the plant matter?" },
+    { "type": "p", "text": "Ants matter because they guard aphids. UC's description is that in some situations ants tend aphids and feed on the honeydew the aphids excrete, and at the same time protect the aphids from natural enemies. That is what the one-page guide means by farming. Honeydew is one of [the sugary foods that ant colonies collect](/blog/what-do-ants-eat). Keep the ants off the plant and lady beetles, lacewings and parasitic wasps can reach the colony again." },
+    { "type": "ul", "items": [
+      "**Band the trunk.** On trees and woody plants, UC says to put a band of sticky material around the trunk so ants cannot climb. Wrap the trunk with fabric tree wrap or duct tape first and put the sticky material on the wrap, not on the bark of young, thin-barked or heavily pruned trees.",
+      "**Cut the bridges.** Prune branches that touch buildings, the ground or other trees, which ants use as other routes.",
+      "**Bait on the ground.** UC says ant stakes or containerized baits on the ground control ants without affecting aphids or their natural enemies."
+    ] },
+    { "type": "p", "text": "Ant control does not kill a single aphid. It removes the bodyguards, so pair it with a hose or pruners for the colony already there. UC's wording is in some situations: a colony with no ants gains nothing from this step. For the ants themselves, [the complete guide to ants](/learn/ants) explains how colonies and baits work, and a separate page gives [the weak borax bait ratio universities publish](/learn/ant-killer-recipes) with instructions for an enclosed station." },
+
+    { "type": "h2", "text": "Are these aphid controls safe around pets and children?" },
+    { "type": "p", "text": "Four of the six involve no pesticide, and neither of the two sprays is free of risk. The National Pesticide Information Center rates insecticidal soap as very low in toxicity, and the neem label read for this page carries the signal word Caution, the lowest of the three. The guide's footer says to keep sprays away from kids and pets, and the sources back that. The hazards those sources describe come from contact with the product, on the skin, in the eyes or swallowed, so storage and timing do most of the work." },
+    { "type": "table", "head": ["Control", "Risk tier", "What the source says"], "rows": [
+      ["Water, pruning, ladybugs, hoverfly flowers", "No pesticide", "Nothing to store or spill; none of the sources read lists a hazard"],
+      ["Insecticidal soap", "Lower risk", "NPIC: very low in toxicity when eaten or on skin; can irritate skin and eyes; high doses may cause stomach upset and vomiting"],
+      ["Neem oil concentrate", "Caution", "Label: harmful if absorbed through skin, moderate eye irritation. NPIC: some cats treated with neem oil for fleas had adverse reactions, and some died"],
+      ["Ant bait and sticky bands", "Not rated here", "UC specifies ant stakes or containerized baits set on the ground. No source read for this page rates their risk to pets or children, so follow the bait's own label and keep bait and sticky material out of reach"]
+    ], "caption": "NPIC is the National Pesticide Information Center. Tiers summarize the cited sources and are not a regulatory rating." },
+    { "type": "p", "text": "Neem needs the most care. The National Pesticide Information Center says neem oil can be slightly irritating to the eyes and skin and that azadirachtin can be very irritating to the skin and stomach. It found no data showing children are more sensitive to neem oil than adults. Its cat reports come from countries where neem oil was put directly on cats for flea control. A garden spray is not a pet product. Indoors, move a freshly sprayed plant away from a cat that chews leaves." },
+    { "type": "p", "text": "The neem label's own instructions are to keep the product out of reach of children, to avoid contact with skin, eyes and clothing, and to wash with soap and water after handling. It gives no waiting time for going back to a sprayed plant, so the cautious reading is to spray when children and pets are somewhere else and to keep them away from wet leaves. A separate page compares [pest control methods by what they mean for dogs and cats](/learn/pet-safe-pest-control)." },
+    { "type": "callout", "tone": "warning", "title": "If a spray is swallowed or gets in the eyes", "text": "In the US, call Poison Control at 800-222-1222 and have the product label in front of you. In Canada, call your regional poison center. For a pet, call your veterinarian. The National Pesticide Information Center answers pesticide questions at 800-858-7378." },
+
+    { "type": "h2", "text": "When do natural aphid controls fail, and what makes aphids worse?" },
+    { "type": "p", "text": "They fail when the aphids are hidden, when new ones keep arriving, or when something in the garden is feeding the outbreak. More spray is rarely the answer." },
+    { "type": "ul", "items": [
+      "**Galls and distorted leaves.** UC says soaps and oils are generally ineffective against aphids protected by galls or distorted foliage, such as the leaf curl plum aphid. Prune instead.",
+      "**Hot weather.** Soap and oil are off the table above 90°F. UC also notes that some aphids cannot take heat and are gone by midsummer, so waiting is sometimes the answer.",
+      "**Too much nitrogen.** High levels of nitrogen fertilizer favor aphid reproduction, UC says. Use slow-release or organic fertilizer in small amounts through the season. Health Canada likewise advises against high-nitrogen fertilizers for garden and house plants.",
+      "**Broad-spectrum insecticides.** UC names malathion, permethrin and acephate. They may kill more aphids than soap or oil, but they also kill the natural enemies that give long-term control, and UC says they are associated with bee kills.",
+      "**Virus-prone vegetables.** UC points to prevention: silver reflective mulch, which has reduced aphid-carried viruses in summer squash and melons, and raising seedlings under covers."
+    ] },
+    { "type": "p", "text": "Stop and reassess if several rounds at the label interval have not brought the numbers down. Look again for ants on the stems, colonies inside curled leaves and a recent dose of fertilizer. On a tree too tall to reach, UC says a forceful spray of water, or of water and soap, can give sufficient control, which is a job for someone with the equipment. For other pests, see [what the evidence says about natural pest control around the home](/blog/natural-pest-control)." },
+
+    { "type": "h2", "text": "The printable aphid control card" },
+    { "type": "card", "title": "Aphid control cheat sheet", "intro": "Work down the list and stop when the aphids are under control.",
+      "items": [
+        "Identify: pear-shaped, 1/16 to 1/8 inch, clustered on new growth and under leaves, two small tubes at the rear. Whiteflies fly up when the plant is shaken; spider mites are dot-sized with webbing.",
+        "Check at least twice a week while plants are growing fast, and turn the leaves over. A few aphids on an established plant can wait for predators.",
+        "Water first: a strong stream on the undersides of the leaves, early in the day. Repeat as needed, which can be every few days.",
+        "Prune out curled leaves and badly infested shoot tips and dispose of them. Sprays cannot reach inside curled leaves.",
+        "Ants climbing a tree or shrub? Wrap the trunk, put a sticky band on the wrap, and use enclosed ant bait on the ground, out of reach of children and pets.",
+        "Insecticidal soap: 1 to 2 percent (2 1/2 to 5 tablespoons of concentrate per gallon, or as your label says). Wet the aphids themselves. Repeat every 4 to 7 days.",
+        "Neem oil: follow your label. One 70 percent concentrate is labeled at 1/2 to 1 tablespoon per quart, with no spreader, sticker or other adjuvant added (so no dish soap), every 7 to 14 days. Mix fresh each time.",
+        "Soap and oil rules: not above 90°F, not on wilted plants, early morning or late evening, never while bees are visiting. Spray a few leaves first and wait at least 24 hours.",
+        "Lady beetles: release at dusk, mist the beetles and the plant, set them at the base of the plant. Expect most to leave within days.",
+        "Hover flies: plant sweet alyssum, dill or cilantro nearby, and leave the small legless larvae alone.",
+        "Go easy on nitrogen fertilizer and skip broad-spectrum insecticides, which kill the insects that eat aphids.",
+        "Keep sprays and concentrates out of reach of children and pets. Poison Control (US): 800-222-1222. For a pet, call a veterinarian."
+      ],
+      "note": "Rates are reproduced from the sources named on this page. The label on your own product is the final word." }
+  ],
+  "howTo": {
+    "name": "How to get rid of aphids naturally",
+    "steps": [
+      { "name": "Confirm they are aphids", "text": "Look for soft, pear-shaped insects 1/16 to 1/8 inch long, clustered on new growth and under leaves, with two small tubes at the rear end." },
+      { "name": "Check twice a week", "text": "Turn leaves over and inspect shoot tips at least twice a week while plants are growing fast, and note any ants, lady beetles or golden-brown mummies." },
+      { "name": "Hose them off", "text": "Spray the undersides of the leaves with a strong stream of water early in the day, and repeat whenever you find aphids, which can be every few days." },
+      { "name": "Prune the worst colonies", "text": "Cut out curled leaves and heavily infested shoot tips, where sprays cannot reach, and dispose of them in a sealed bag." },
+      { "name": "Deal with the ants", "text": "If ants are climbing the plant, wrap the trunk and apply a sticky band to the wrap, prune branches that touch other surfaces, and set enclosed ant bait on the ground." },
+      { "name": "Spray insecticidal soap if needed", "text": "Mix insecticidal soap at 1 to 2 percent or as its label directs, test a small area for 24 hours, wet the aphids directly, and repeat every 4 to 7 days." },
+      { "name": "Use neem oil at the label rate", "text": "Mix a neem concentrate at the rate on its own label, spray all leaf surfaces in the early morning or late evening when no bees are visiting, and repeat every 7 to 14 days." },
+      { "name": "Protect and invite natural enemies", "text": "Leave lady beetle, lacewing and hover fly larvae alone, plant sweet alyssum and dill to feed adult hover flies, and avoid broad-spectrum insecticides." },
+      { "name": "Fix what feeds the outbreak", "text": "Cut back on nitrogen fertilizer, switch to slow-release products, and do not spray soap or oil on water-stressed plants or above 90 degrees Fahrenheit." }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Can I use dish soap and water to kill aphids?",
+      "answer": "Extension sources steer gardeners to a commercial insecticidal soap instead. Clemson Cooperative Extension says homemade soap mixes carry a substantially increased risk of plant injury, and that dry dish detergent and all laundry detergents are far too harsh for plants. Colorado State University Extension says dish soaps contain powerful detergents that can injure plants, while insecticidal soaps are selected to limit plant injury. Insecticidal soap is mixed at 1 to 2 percent, which is 2 1/2 to 5 tablespoons of concentrate per gallon by Clemson's figures. Whatever you spray, try it on a small area and wait 24 hours before treating the whole plant."
+    },
+    {
+      "question": "How long does it take to get rid of aphids?",
+      "answer": "No source gives a single figure. A strong water spray removes the aphids it hits at once, and the University of California says most dislodged aphids cannot return to the plant. Soap and oil sprays kill only the aphids present on the day you spray, so Clemson Cooperative Extension advises repeating insecticidal soap every 4 to 7 days until the pests are gone. Because a newborn aphid can be a reproducing adult in 7 to 8 days in warm weather, expect to hose or spray more than once. When parasitic wasps are at work, the University of California says numbers are likely to drop substantially within a week or two of the first mummies appearing."
+    },
+    {
+      "question": "Will aphids kill my plant?",
+      "answer": "Rarely, if the plant is established. The University of California says aphids seldom kill a mature plant, that low to moderate numbers of leaf-feeding aphids are not usually damaging in gardens or on trees, and that most established plants outgrow the damage. Seedlings are a different matter, because many vegetables are open to serious aphid damage mainly at that stage. Aphids can also carry viruses to squash, cucumber, melon, bean, potato, lettuce and other vegetables, which stunt plants and mottle, yellow or curl the leaves. Sticky honeydew and the black sooty mold that grows on it are signs of the colony feeding above."
+    },
+    {
+      "question": "How do you get rid of aphids on houseplants?",
+      "answer": "Washington State University's houseplant fact sheet says to wash the plant in the shower or sink with lukewarm water, which removes aphids, honeydew and sooty mold, and to repeat the washing regularly. It also says to prune or remove heavily infested leaves and shoots and not to overfertilize, because aphids thrive on lush new growth. Health Canada advises inspecting new houseplants before bringing them home and isolating any that need treatment. If washing is not enough, insecticidal soap and neem oil products labeled for indoor plants are the usual next step. Read the label, test a few leaves first, and keep pets away from freshly sprayed plants."
+    },
+    {
+      "question": "Does neem oil harm bees?",
+      "answer": "It can if it is sprayed on them. The label of a registered 70 percent neem oil concentrate states that the product is toxic to bees exposed to direct treatment and must not be applied while bees are actively visiting the treatment area. The National Pesticide Information Center says bees and other pollinators are not likely to be harmed by neem oil, because an insect has to eat the treated plant to be killed. Both points lead to the same practice: spray in the early morning or late evening when bees are not flying, keep the spray off open flowers, and treat only the plants that have aphids."
+    },
+    {
+      "question": "Why do aphids keep coming back?",
+      "answer": "Usually because the conditions that suit them have not changed. The University of California says most aphid species produce winged forms when populations are high or in spring and fall, and that some build up on weeds before moving to garden plants. High levels of nitrogen fertilizer favor aphid reproduction. Ants protect colonies from predators, and broad-spectrum insecticides such as malathion, permethrin and acephate kill the lady beetles, lacewings and parasitic wasps that provide long-term control. Soap and oil sprays leave no lasting residue, so they do nothing to aphids that arrive the following week. Check twice a week, hose early, ease off the fertilizer and deal with the ants."
+    }
+  ],
+  "sources": [
+    { "title": "Aphids (Pest Notes, UC ANR Publication 7404)", "publisher": "University of California Statewide Integrated Pest Management Program", "url": "https://ipm.ucanr.edu/home-and-landscape/aphids/" },
+    { "title": "Aphids (Houseplant Pests fact sheet)", "publisher": "Washington State University Extension, Pestsense", "url": "https://pestsense.cahnrs.wsu.edu/fact-sheet/aphids/" },
+    { "title": "Insecticidal Soaps for Garden Pest Control", "publisher": "Clemson Cooperative Extension Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/insecticidal-soaps-for-garden-pest-control/" },
+    { "title": "Neem Oil General Fact Sheet", "publisher": "National Pesticide Information Center", "url": "https://npic.orst.edu/factsheets/neemgen.html" },
+    { "title": "Potassium Salts of Fatty Acids (General Fact Sheet)", "publisher": "National Pesticide Information Center", "url": "https://www.npic.orst.edu/factsheets/psfagen.pdf" },
+    { "title": "Hover, Flower, or Syrphid Flies (Syrphidae)", "publisher": "University of Wisconsin-Madison Division of Extension, Wisconsin Horticulture", "url": "https://hort.extension.wisc.edu/articles/hover-flower-or-syrphid-flies-syrphidae/" },
+    { "title": "Natria Neem Oil Concentrate product label (EPA Reg. No. 70051-2-92564)", "publisher": "SBM Life Science Corp., hosted by Washington State University's Pesticide Information Center OnLine", "url": "https://picol.cahnrs.wsu.edu/DownloadLabel/66229/WA", "kind": "manufacturer" }
+  ],
+  "disclaimer": "both"
+}

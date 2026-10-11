@@ -326,6 +326,7 @@ export default function FungusGnatsHouseplantsPage() {
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="katchy indoor insect trap">Check the Katchy on Amazon →</BuyLink>
           </div>
+          <p>For the same plan as a one-page routine, with a watering card you can print, see <Link href="/learn/how-to-get-rid-of-fungus-gnats" className="text-brand-700 underline">how to get rid of fungus gnats, step by step</Link>.</p>
 
           <h2>When Treatment Isn&rsquo;t Enough: The Repotting Trigger</h2>
           <p>Sometimes the soil itself has failed, and no protocol fixes broken potting mix. Repot &mdash; do not just keep treating &mdash; when you see any of these: the mix stays soggy for a week or more after a normal watering; it smells sour or mushroomy (active decay, i.e., unlimited larval food); it has visibly collapsed into dense black muck that no longer drains; larvae are visible in numbers when you scratch the surface; or a properly run three-week combo has not bent the sticky-card curve. Old peat-based mixes break down into exactly the fungus-rich sludge this insect evolved for &mdash; at that point you are farming gnats, not growing plants.</p>

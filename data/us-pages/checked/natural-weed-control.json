@@ -1,0 +1,10 @@
+{
+ "id": "natural-weed-control",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "215b10dee4eb28e0537f23636e3cf0c17daf7443105cf1ed493f739eedc6488d",
+ "claimsChecked": 158,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-10-11"
+}

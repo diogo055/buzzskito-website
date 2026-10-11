@@ -2,9 +2,13 @@
  "id": "borax-for-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "660c6a9cb031c4353cd6dbd5bd9d176d4b02c6a4748bd4aaae114d3d3a5703d0",
+ "sha": "13afdd91abc95e5a6fe4f4733d40e34d362f3c07262e9608b750f43752b8bd58",
  "claimsChecked": 130,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 8,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "linksAddedOn": "2026-10-11",
+ "linksAdded": [
+  "/learn/ant-killer-recipes"
+ ]
 }

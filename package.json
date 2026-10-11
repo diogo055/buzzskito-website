@@ -11,7 +11,7 @@
     "postbuild": "node scripts/index-urls.mjs",
     "start": "next start",
     "lint": "next lint",
-    "check:guides": "node scripts/validate-guide.mjs --all --complete",
+    "check:guides": "node scripts/validate-guide.mjs --all --complete --complete-visual",
     "check:article-ctas": "node scripts/check-article-ctas.mjs"
   },
   "dependencies": {

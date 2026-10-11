@@ -1,0 +1,282 @@
+{
+  "slug": "natural-weed-control",
+  "kind": "spoke",
+  "section": "learn",
+  "cluster": "garden",
+  "keyword": "natural weed killer",
+  "alsoTargets": [],
+  "metaTitle": "Natural Weed Killer: Exact Ratios, Honest Limits",
+  "metaDescription": "The vinegar, salt and dish soap weed killer is 1 gallon, 1 cup, 1 tablespoon. See what it kills, what the salt does to soil, and four salt-free methods.",
+  "h1": "Natural Weed Killer: What Works, With Exact Ratios and Honest Limits",
+  "dek": "The vinegar, salt and dish soap recipe checked against university and government sources, plus boiling water, mulch depths by type, pulling after rain and corn gluten meal, each with its limits and its risks to pets and children.",
+  "breadcrumb": "Natural Weed Control",
+  "excerpt": "Natural weed killer checked against extension sources: the 1 gallon, 1 cup, 1 tablespoon vinegar recipe, boiling water, mulch depths, corn gluten meal and pet notes.",
+  "datePublished": "2026-10-11",
+  "heroAlt": "One-page infographic titled Natural Weed Control. A recipe box gives The 3-Ingredient Weed Killer as 1 gallon of 20% vinegar, 1 cup of salt and 1 tablespoon of dish soap, with a warning that salt harms soil. Four numbered methods follow: boiling water, smothering with 3 to 4 inches of mulch, pulling after rain and corn gluten meal. A timing box and a pet reminder close the page.",
+  "quickAnswer": {
+    "lead": "**The popular natural weed killer is 1 gallon of vinegar, 1 cup of salt and 1 tablespoon of dish soap, and it burns down small weeds without killing their roots.** [University of Connecticut Extension](https://extension.uconn.edu/publication/homemade-pesticides/) says household vinegar handles only tiny seedlings and that the salt builds up in soil. Boiling water, deep mulch and pulling after rain cover the same ground without leaving salt in the soil.",
+    "bullets": [
+      "Household vinegar is about 5 percent acetic acid; weed killers registered with the EPA are typically 20 percent or more and all carry the signal word DANGER, according to the National Pesticide Information Center.",
+      "The University of Maryland says acetic acid sprays work on weeds within about 2 weeks of germination and do not kill roots.",
+      "Boiling water kills only what it touches, and Iowa State University says to plan a second pour 7 to 10 days later.",
+      "The University of California's mulch depths are 3 to 4 inches for medium or coarse chips and about 2 inches for fine mulch.",
+      "Corn gluten meal goes on at 20 pounds per 1,000 square feet, acts only on germinating seeds, and has mixed trial results.",
+      "Keep children and pets off a sprayed area until it has dried; Poison Control in the US is 800-222-1222."
+    ]
+  },
+  "facts": {
+    "title": "Natural weed control at a glance",
+    "rows": [
+      ["3-ingredient ratio", "1 gallon vinegar, 1 cup salt, 1 tablespoon dish soap, no water"],
+      ["Household vinegar", "About 5% acetic acid (4 to 6%); tiny seedlings only"],
+      ["Horticultural vinegar", "20% or more; EPA-registered products carry the signal word DANGER"],
+      ["Skin and eye hazard", "At 11% or more, can burn skin and cause severe eye injury (University of Maryland)"],
+      ["Weed size that responds", "2 to 5 leaves, within about 2 weeks of germination"],
+      ["Boiling water", "Repeat 7 to 10 days later (Iowa State)"],
+      ["Medium or coarse mulch", "3 to 4 inches (University of California)"],
+      ["Arborist wood chips", "4 to 6 inches (Washington State University)"],
+      ["Fine mulch", "About 2 inches (University of California)"],
+      ["Corn gluten meal rate", "20 pounds per 1,000 square feet"],
+      ["Mowing height, cool-season lawns", "3 to 4 inches (University of Missouri)"],
+      ["Poison Control (US)", "800-222-1222"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Which natural weed killers work, and on what?" },
+    { "type": "p", "text": "Each one works on small, young weeds, and none of them kills an established root in one pass. Vinegar and boiling water burn off whatever they touch. Mulch and corn gluten meal act before weeds are up. Pulling is the only method here that takes out the root. This page follows the one-page guide in order: the 3-ingredient spray first, then the four numbered methods, then timing and pets." },
+    { "type": "table", "head": ["Method", "Best use", "What it will not do", "Published figure"], "rows": [
+      ["The 3-Ingredient Weed Killer", "Seedlings in gravel and paving cracks", "Kill roots, or spare soil and nearby plants", "1 gallon vinegar, 1 cup salt, 1 tablespoon dish soap"],
+      ["1. Boiling water", "Young annual weeds in cracks", "Kill established roots", "Repeat in 7 to 10 days (Iowa State)"],
+      ["2. Smother with mulch", "Beds and paths, before seeds sprout", "Stop bindweed or nutsedge", "3 to 4 inches of medium or coarse mulch (University of California)"],
+      ["3. Pull after rain", "Any weed; the only fix here for a taproot", "Work if the root snaps off", "After a soaking rain or deep watering (Iowa State)"],
+      ["4. Corn gluten meal", "Lawns, before weed seeds germinate", "Affect weeds already growing", "20 pounds per 1,000 square feet (University of Illinois)"]
+    ], "caption": "Each figure is sourced in its own section below." },
+    { "type": "p", "text": "Weed control is one piece of a larger plan. [The season-by-season plan for natural garden pest control](/learn/natural-garden-pest-control) sets out the order extension services recommend for any garden problem: prevention and physical methods first, sprays last. The same order holds for weeds. The [University of California's Pest Note on landscape weeds](https://ipm.ucanr.edu/home-and-landscape/weed-management-in-landscapes/) says hand-weeding should be part of every weed management program and that coarse mulch gives long-term control." },
+    { "type": "callout", "tone": "note", "title": "Where the one-page guide differs", "text": "**Vinegar strength.** The guide calls for 20 percent vinegar. The published proportions name no strength, and 20 percent acetic acid is herbicide strength with the signal word DANGER; at that strength follow a registered product's label, not a recipe. **Heat, midday and UV.** The guide says heat activates the spray and that midday heat and UV do the killing. In the sources the acid does the killing, and bright sun, temperatures above 85°F and dry air speed it up; none mentions midday or UV. **Dandelions.** The guide says 2 to 3 rounds. No source reviewed gives a number; roots survive, so dig the taproot. **Salt.** The guide says salt sterilizes soil. The sources do not use that word: they say salt builds up, damages soil structure and moves, so it can also harm plants beside a path or driveway. **Boiling water.** Instant describes the wilting: browning takes one to two days and rooted weeds resprout, so pour again in 7 to 10 days. The University of California calls hot water often not very effective. **Mulch.** Three to 4 inches matches the University of California; Washington State University recommends 4 to 6 inches for arborist wood chips. No source sets a 2-inch cutoff for light, and perennial weeds can push through even thick layers. **Pulling.** The guide says get the crown; the sources say the entire taproot. **Corn gluten meal.** Seeds do sprout, then fail to root, and trial results are inconsistent. No source reviewed rates it pet-safe. **Rain.** The guide says no rain for 24 hours after spraying. The only figure found runs the other way: wait 24 to 48 hours or more after rain. **Pets.** No source calls vinegar or boiling water pet-safe once dry; they say to keep children and pets away until a spray has dried. None supports rinsing as the fix for salted areas." },
+
+    { "type": "h2", "text": "The 3-Ingredient Weed Killer: what is the exact ratio?" },
+    { "type": "p", "text": "One gallon of vinegar, 1 cup of salt and 1 tablespoon of dish soap, with no water added. Those are the proportions on the one-page guide, and an extension expert at the San Luis Valley Area Extension office in Colorado gives the same ones in a 2020 answer on Ask Extension, the Cooperative Extension System's question service. No university fact sheet reviewed for this page publishes the recipe as a recommendation. [The University of Connecticut's review of homemade pesticides](https://extension.uconn.edu/publication/homemade-pesticides/) accepts that many such recipes do suppress some weeds, then explains what each ingredient does and where it falls short." },
+    { "type": "recipe", "title": "The 3-Ingredient Weed Killer",
+      "makes": "1 gallon, for spot-spraying weeds in cracks, gravel and paving joints",
+      "ingredients": [
+        "1 gallon vinegar, undiluted (the published answer says full strength and names no percentage; the one-page guide specifies 20 percent)",
+        "1 cup salt",
+        "1 tablespoon liquid soap (the one-page guide says dish soap)"
+      ],
+      "steps": [
+        "Put on long sleeves, long pants, closed shoes, gloves and eye protection before you open the vinegar.",
+        "Stir the salt into the vinegar until it dissolves, then add the soap and stir gently.",
+        "Pour the mix into a plastic pump sprayer and label it.",
+        "On a warm, dry, still day, wet the leaves of small weeds thoroughly. Keep the spray off any plant you want to keep and off metal.",
+        "Keep children and pets away until the spray has dried, then rinse out the sprayer.",
+        "Check again in two weeks and treat any regrowth."
+      ],
+      "works": "It burns off the top growth it touches, fastest on very small weeds in hot, dry weather. Household vinegar is the weak end of the range and, by the University of Connecticut's account, effective only on tiny seedlings.",
+      "limits": "It does not reach roots, so grasses and perennial weeds grow back, and the salt builds up in soil with every application. It injures any plant it touches and corrodes metal. The guide's 20 percent vinegar is herbicide strength: at that strength, choose a product with an EPA registration number and follow its label in place of this recipe.",
+      "safety": {
+        "tier": "keep-away",
+        "pets": "The University of Connecticut says to keep children, pets and pollinators away from treated areas until the solution has dried. The [Merck Veterinary Manual](https://www.merckvetmanual.com/toxicology/salt-toxicosis/salt-toxicosis-in-animals) lists rock salt and other salt-containing materials among the ways pets have taken in too much salt, so never leave the jug, the sprayer or a puddle where a pet could drink.",
+        "children": "[The National Pesticide Information Center](https://npic.orst.edu/faq/vinegar.html) says acetic acid can permanently damage the corneas and burn skin, and that the risk rises with concentration. Mix it out of children's reach, never store it in an unlabeled container, and do not leave it unattended."
+      },
+      "source": "Proportions as given by the San Luis Valley Area Extension office, Colorado, on Ask Extension (question 616690, March 2020). What each ingredient does: [University of Connecticut Extension](https://extension.uconn.edu/publication/homemade-pesticides/)" },
+    { "type": "h3", "text": "What does each ingredient do?" },
+    { "type": "ul", "items": [
+      "**Vinegar.** The National Pesticide Information Center describes acetic acid as a non-selective contact herbicide. It breaks open the cell walls of the foliage it touches and the plant dries out. It does not travel through the plant, it breaks down rapidly, and it leaves no residue.",
+      "**Salt.** The University of Connecticut says salts dry out whatever plant parts they touch. Because homemade recipes need repeat applications, the salt builds up, and a higher salt concentration in soil can harm wanted plants nearby.",
+      "**Dish soap.** Connecticut calls it a spreading agent that helps the other ingredients stay on the leaf, and the University of Maryland says acetic acid sprays require a surfactant. The Colorado answer says only liquid soap, and it lists 1 tablespoon in its ingredients but 1 ounce (2 tablespoons) in its mixing steps; the guide uses 1 tablespoon of dish soap."
+    ] },
+    { "type": "h3", "text": "Does it have to be 20 percent vinegar?" },
+    { "type": "p", "text": "No, and at 20 percent you are handling herbicide-strength acid, not a pantry item. The National Pesticide Information Center puts household vinegar at 4 to 6 percent acetic acid and horticultural vinegar at 20 percent or more, with stronger solutions also sold. It says every registered herbicide containing acetic acid carries the signal word DANGER because of the risk to eyes and skin, and it advises anyone planning to use acetic acid on weeds to choose a product with an EPA registration number, which comes with directions and precautions for that use. Strong vinegar sold for other purposes is not registered as an herbicide and may lack that safety information." },
+    { "type": "p", "text": "In practice, that means household vinegar in the recipe above for seedlings, and for anything tougher a registered product used exactly as its label directs. These rules are American; readers in Canada and elsewhere should check their own." },
+    { "type": "table", "head": ["Strength", "What it is", "What sources say it does", "Hazard"], "rows": [
+      ["About 5% (4 to 6%)", "Household vinegar", "Killed weeds in their first two weeks of life in USDA trials; effective only on tiny seedlings (University of Connecticut)", "Lowest of the three; the risk to eyes and skin rises with concentration"],
+      ["10 to 20%", "Herbicidal vinegar, as the University of Maryland defines it", "Excellent control of very small annual broadleaf weeds; burns grasses back temporarily; roots are not killed", "At 11% or more, can burn skin and cause severe eye injury, including blindness"],
+      ["20% or more", "Horticultural vinegar, the usual strength of EPA-registered weed killers", "Spot-sprayed at 20%, killed 80 to 100 percent of weeds in USDA cornfield trials", "Signal word DANGER; can permanently damage the corneas"]
+    ], "caption": "Strengths and hazards from the National Pesticide Information Center, the University of Maryland and the University of Connecticut; trial results from the USDA Agricultural Research Service (2002)." },
+    { "type": "p", "text": "The trial figures come from a 2002 report by USDA Agricultural Research Service scientists in Beltsville, Maryland, who sprayed five weed species. Vinegar at 5 and 10 percent killed the weeds during their first two weeks of life; older plants needed stronger solutions, which killed 85 to 100 percent at every growth stage. For the one perennial, Canada thistle, the kill reported is of the top growth. [The University of Maryland's fact sheet on vinegar herbicides](https://extension.umd.edu/resource/vinegar-alternative-glyphosate) gives the working rule: treat weeds at 2 to 5 leaves, within two weeks of germination. Grasses are burned back only temporarily, and larger weeds and perennials may wilt and discolor, then regrow. Connecticut says the same of homemade mixes: a plant rooted in the ground keeps its root, and many grow back." },
+    { "type": "media", "needed": "Side-by-side photo of weeds in a paving crack: on the left, seedlings with 2 to 5 leaves (the stage a vinegar spray controls); on the right, an established dandelion rosette that will regrow from its root after spraying" },
+    { "type": "h3", "text": "Why a hot, sunny day, and how fast does it work?" },
+    { "type": "p", "text": "Because the acid kills by drying out leaf tissue, and sun, heat and dry air make that faster. Maryland says burn-down is quickest in bright sunlight, that most acetic acid products act within about 15 minutes above 85°F, particularly in low humidity, and that more than 90 percent of treated plants should die within 24 hours. The USDA team reported that 20 percent vinegar killed thistle top growth in about 2 hours. So the guide's claim that top growth dies in hours holds for small weeds in hot weather. Heat brings one caution: the National Pesticide Information Center says warmer temperatures turn more acetic acid into vapor, which can irritate the nose, throat and lungs. Stay upwind." },
+    { "type": "h3", "text": "Deep-rooted weeds: will 2 to 3 rounds finish a dandelion?" },
+    { "type": "p", "text": "No source reviewed for this page says so. Maryland says roots are not killed and that repeat applications are needed for larger weeds and perennials, no more often than every two weeks; it does not say how many rounds finish the job. The Colorado answer says grasses and perennial weeds will grow back. For a dandelion, the method the sources describe as preventing regrowth is the one in section 3 below: take out the whole taproot." },
+    { "type": "h3", "text": "Honest limits: what does the salt do to soil?" },
+    { "type": "p", "text": "It accumulates, and every extension source reviewed here that discusses the salt warns about it. Connecticut says the salts build up with repeated applications and that higher salt levels in soil can harm wanted plants nearby. The Colorado answer carries the same warning and adds that the mix corrodes metal. A separate 2018 University of Illinois Extension article on homemade herbicides describes salt as destroying soil structure and as mobile, able to move into nearby parts of the garden." },
+    { "type": "p", "text": "So the guide's rule, salt only where nothing should grow, is right, and worth extending: keep the mix away from bed and lawn edges, the root zones of nearby trees and shrubs, and paving that drains toward plants. Leaving the salt out removes the problem and leaves a vinegar spray with the limits above. Vinegar's other household uses have limits too, such as [wiping out an ant trail without touching the colony](/blog/does-vinegar-kill-ants)." },
+    { "type": "checklist", "title": "Before you spray: a 2-minute check", "items": [
+      "**Weed size.** Two to 5 leaves, or within about two weeks of sprouting. Anything bigger will regrow.",
+      "**Place.** Cracks, gravel and paving joints only. The spray injures any plant it touches.",
+      "**Weather.** Warm, bright and dry. Maryland's guidance is to wait 24 to 48 hours or more after rain.",
+      "**Wind.** Still air, because Maryland warns that spray drift may damage plants you want.",
+      "**Protection.** Long sleeves, long pants, closed shoes, gloves and eye protection.",
+      "**People and pets.** Children and pets indoors, and off the area until the spray has dried.",
+      "**Equipment.** A labeled plastic sprayer. Keep the mix off aluminum, tin and iron, and rinse the sprayer afterward."
+    ] },
+
+    { "type": "h2", "text": "1. Boiling water: where does it make sense?" },
+    { "type": "p", "text": "In cracks in a patio or sidewalk, on young annual weeds, with no wanted plant close by. [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/faq/can-i-manage-weeds-boiling-water) describes boiling water as a contact treatment. It kills only the part of the plant it touches and does not kill roots or other parts in the soil, and it is most effective on young, newly emerged annual weeds." },
+    { "type": "p", "text": "The guide calls it instant, free and zero residue. The last two are fair, since it is only water. Instant needs a qualifier. Iowa State says plants wilt almost at once, but browning shows one to two days later, and weeds with established roots resprout after several days. One application rarely kills the entire plant, so plan to treat again 7 to 10 days later. The University of California is cooler on the method. Its Pest Note says hot water above 200°F gives a limited amount of weed suppression and is often not very effective, because the water cools rapidly once it leaves the heat." },
+    { "type": "ul", "items": [
+      "**Use a tea kettle.** Iowa State recommends one for putting the water precisely on the weed.",
+      "**Go straight from the stove.** The University of California notes that the water cools rapidly once it leaves the heat. Iowa State says to use plenty of water and to take care not to splash or burn yourself.",
+      "**Protect other plants.** Boiling water damages wanted plants as readily as weeds.",
+      "**Repeat.** Pour again in 7 to 10 days, and expect deep-rooted and perennial weeds to need repeated treatments."
+    ] },
+
+    { "type": "h2", "text": "2. Smother with mulch: how deep, by mulch type?" },
+    { "type": "p", "text": "Three to 4 inches for medium and coarse mulches such as wood or bark chips, and about 2 inches for fine ones. Those are the University of California's figures. Its Pest Note says to choose a medium-sized mulch (3/4 inch) and keep it 3 to 4 inches deep, that coarse mulches can go on up to 4 inches deep and give long-term weed control, and that fine-textured mulches pack more tightly and should be only about 2 inches deep. The guide's 3 to 4 inches of wood chips matches." },
+    { "type": "table", "head": ["Mulch type", "Depth", "Published by", "Notes"], "rows": [
+      ["Medium-sized or coarse organic mulch (about 3/4 inch pieces), such as wood or bark chips", "3 to 4 inches", "University of California", "Up to 4 inches for coarse mulch; long-term weed control"],
+      ["Arborist wood chips", "4 to 6 inches", "Washington State University Extension", "Deeper than the one-page guide shows; taper to almost nothing at trunks"],
+      ["Fine-textured mulch", "About 2 inches", "University of California", "Packs tightly, so it goes on thinner"],
+      ["Mulch over landscape fabric", "About 1 inch", "University of California", "Enough to cover the fabric and shield it from sunlight"]
+    ], "caption": "Depths from the University of California's Pest Note on landscape weeds and Washington State University Extension fact sheet FS160E." },
+    { "type": "p", "text": "Depth matters because mulch works by shade. The University of California says mulches prevent weed seed germination by blocking sunlight, and that the larger the mulch particles, the deeper the layer has to be to exclude all light. Washington State University's fact sheet on arborist wood chips adds a warning: the research it reviews found that shallow layers of coarse mulch encourage weeds, which enjoy the moisture mulch holds as much as other plants do. That is the idea behind the guide's diagram, though neither source sets the cutoff at exactly 2 inches." },
+    { "type": "p", "text": "Mulch has two blind spots. Perennial weeds such as field bindweed and nutsedges have enough root reserves to push through even thick layers, the University of California says. And mulch that has broken down too far turns into a seedbed, so top it up as it decomposes or settles, and rake, hoe or hand-pull seedlings that sprout in it. Washington State advises mulching bare soil before weeds germinate, in spring and fall; where weeds are already up, mow them as close to the ground as possible and mulch immediately. Taper the layer away from trunks." },
+    { "type": "media", "needed": "Photo of a ruler pushed into fresh wood chip mulch in a shrub bed, reading 4 inches, with the mulch visibly tapered down to almost nothing where it meets the shrub's trunk" },
+
+    { "type": "h2", "text": "3. Pull after rain: how do you get the whole root?" },
+    { "type": "p", "text": "Wait for a soaking rain or water deeply first, then take out the entire root, not only the crown. Iowa State's guide to dandelions says hand removal is best done after a soaking rain or a deep watering, and that the whole plant and its deep taproot have to come out to prevent resprouting. That goes further than the guide's advice to get the crown: with a taprooted weed, the root left behind is what regrows. The University of California's Pest Note on lawn weeds gives the same instruction, to remove the entire weed including the root, and suggests a dandelion fork or fishtail weeder for weeds with a thick taproot." },
+    { "type": "ul", "items": [
+      "**Pull early.** The University of California says frequent removal of weeds while they are small, before they set seed, rapidly reduces the number of annual weeds over time.",
+      "**Check the root.** If a taproot snaps, dig again; the piece left in the ground can resprout.",
+      "**Clear out seeders.** Washington State says weeds that go to seed easily, or that can reroot after being pulled, should leave the site.",
+      "**Mend the gap.** In a lawn, fill larger holes with clean soil, as the University of California suggests."
+    ] },
+    { "type": "media", "needed": "Photo of a freshly pulled dandelion with its full taproot intact lying beside a fishtail weeder on a lawn, with visibly damp soil in the hole" },
+
+    { "type": "h2", "text": "4. Corn gluten meal: does it work as a pre-emergent?" },
+    { "type": "p", "text": "Sometimes, and only on seeds. It does nothing to weeds that are already up, and trial results are mixed. [University of Illinois Extension](https://extension.illinois.edu/blogs/good-growing/2026-03-27-corn-gluten-meal-can-it-naturally-prevent-weeds-and-feed-your-lawn) explains the mechanism: peptides in the meal inhibit root formation, so a seed germinates and puts up leaves but cannot grow roots. That differs slightly from the guide's wording. The seed does sprout, and it dies only if the soil then stays fairly dry." },
+    { "type": "recipe", "title": "Corn gluten meal for a lawn",
+      "makes": "Covers 1,000 square feet",
+      "ingredients": [
+        "20 pounds of corn gluten meal for each 1,000 square feet of lawn, from a product labeled for weed control"
+      ],
+      "steps": [
+        "Measure the lawn so you know how many square feet you are covering.",
+        "Spread the meal evenly when forsythia blooms, or once soil temperatures hold at 55°F or more for 5 to 10 consecutive days.",
+        "Water it in lightly.",
+        "Then let the soil stay fairly dry for a few weeks.",
+        "Do not overseed the lawn in the same stretch; the meal affects grass seedlings too."
+      ],
+      "works": "Germinating seeds fail to root and dry out. Illinois says consistent use has given positive results in preventing crabgrass, and Iowa State University, where the effect was discovered, says control improves with every year of use on a lawn.",
+      "limits": "It has no effect on established weeds. Illinois says university studies often show limited immediate control and that prolonged rain leaches the peptides away from the seeds. The meal is about 10 percent nitrogen by weight, so 20 pounds carries about 2 pounds of nitrogen per 1,000 square feet, twice the 1 pound Illinois recommends in a single application. Illinois also calls it quite expensive next to synthetic pre-emergents.",
+      "safety": {
+        "tier": "lower-risk",
+        "pets": "No source reviewed for this page rates a lawn application for pets. The EPA lists corn gluten meal among the active ingredients eligible for minimum risk pesticide products, which are exempt from federal registration and which the agency does not review, and Iowa State notes that the meal is used as a supplement in feeds for livestock, poultry and pets. Neither is a safety rating for a product on your lawn. Check the label for other ingredients and store the bag where a dog cannot tear into it.",
+        "children": "Treat it as a lawn product: follow the label and keep the open bag out of reach."
+      },
+      "source": "[University of Illinois Extension](https://extension.illinois.edu/blogs/good-growing/2026-03-27-corn-gluten-meal-can-it-naturally-prevent-weeds-and-feed-your-lawn) (rate and timing; Iowa State University Extension publishes the same rate)" },
+    { "type": "p", "text": "What the research found depends on where it was done. Illinois cites one Ohio State University trial with highly successful results at 40 pounds per 1,000 square feet, double the usual rate, and says areas with dry springs may see better results than rainy ones. The University of California's Pest Note on lawn weeds says the Midwest research is not consistent and that in experiments on California lawns corn gluten meal did not give satisfactory weed control. It suggests part of the benefit is fertilizer: the nitrogen makes turf more competitive with weeds." },
+    { "type": "h3", "text": "What else keeps weeds out of a lawn?" },
+    { "type": "p", "text": "A thick lawn mowed tall, with thin spots reseeded. In a 2018 University of Missouri Extension article, the state turfgrass specialist recommends a mowing height of 3 to 4 inches for cool-season lawns of tall fescue and Kentucky bluegrass. The article says that raising the cut from 2.5 to 3.5 inches reduces annual weed populations by up to 80 percent, because taller grass shades the soil and keeps annual weed seeds from germinating. The University of California adds that mowing some grasses too short weakens the turf and invites weeds, and it lists overseeding or patching problem areas among the fixes." },
+    { "type": "p", "text": "There is one conflict to plan around. Corn gluten meal also affects grass seedlings, so Illinois advises against overseeding a lawn you are treating with it. Pick one or the other for a given stretch of lawn. Thin patches are not always a weed problem, either: [the lawn pest control guide](/blog/lawn-pest-control) explains how to confirm grubs, chinch bugs and armyworms before treating anything." },
+
+    { "type": "h2", "text": "Timing matters: when should you spray, pull and spread?" },
+    { "type": "p", "text": "Spray on a warm, bright, dry day; pull after rain; mulch before seeds sprout; and spread corn gluten meal in early spring. The guide's timing box is broadly right, with two corrections on vinegar." },
+    { "type": "table", "head": ["Job", "Best timing", "Published by"], "rows": [
+      ["Vinegar spray", "Bright sun, above 85°F, low humidity; weeds at 2 to 5 leaves", "University of Maryland"],
+      ["Vinegar and rain", "Wait 24 to 48 hours or more after rain before spraying", "University of Maryland"],
+      ["Boiling water", "While weeds are young; again 7 to 10 days later", "Iowa State University"],
+      ["Mulch", "Before weed seeds germinate, especially in spring and fall", "Washington State University"],
+      ["Hand pulling", "After a soaking rain or deep watering, before weeds set seed", "Iowa State University; University of California"],
+      ["Corn gluten meal", "When forsythia blooms, or when soil holds 55°F for 5 to 10 days", "University of Illinois"]
+    ], "caption": "Timing as published by each source; local dates vary with climate." },
+    { "type": "p", "text": "No source names midday. Maryland's conditions are bright sunlight, temperatures above 85°F and low humidity; as covered above, the acid does the killing, and no source mentions UV. The rain figure in the sources runs the other way from the guide's: Maryland says to delay treatment 24 to 48 hours or more after rain. None of the sources sets a rain-free period after spraying, and a registered product's label will state its own. A dry day with no rain due is the sensible choice." },
+    { "type": "p", "text": "For corn gluten meal, early spring is right. Iowa State's own calendar is mid-March to early April, at least three to five weeks before crabgrass seeds germinate, and it also mentions a mid-August application for late-season annual weeds. Farther north or south, go by the forsythia or the soil thermometer, not the calendar." },
+
+    { "type": "h2", "text": "Is natural weed killer safe around pets and children?" },
+    { "type": "p", "text": "No method here is free of risk, and the sources do not call any of them safe. The guide's footer says vinegar and boiling water are pet-safe once dry and that salted areas are not until rinsed. What the sources support is narrower: keep children and pets away until a vinegar spray has dried, take care that boiling water does not splash or burn anyone, and treat salt as the ingredient that lingers." },
+    { "type": "table", "head": ["Method", "Risk tier", "What the source says"], "rows": [
+      ["Vinegar spray, household strength", "Caution", "National Pesticide Information Center: acetic acid can damage eyes and burn skin, more so as the concentration rises; keep everyone else away from the treated area until dry"],
+      ["Vinegar at 20% or more", "Keep away", "National Pesticide Information Center: signal word DANGER; can permanently damage the corneas; never leave it unattended around children or pets"],
+      ["Salt in the mix", "Keep away", "Merck Veterinary Manual: excess salt makes dogs vomit within several hours, and signs can progress to tremors and seizures"],
+      ["Boiling water", "Keep away while pouring", "Iowa State: take care not to splash or burn yourself"],
+      ["Mulch", "Lower risk, except cocoa bean mulch", "Poison Control: cocoa bean mulch contains theobromine and caffeine and can poison dogs"],
+      ["Hand pulling", "Lower risk", "Nothing is applied; put sharp weeding tools away afterward"],
+      ["Corn gluten meal", "Lower risk", "EPA: eligible for minimum risk pesticide products. Iowa State: also used in livestock, poultry and pet feeds. No source reviewed rates lawn applications for pets"]
+    ], "caption": "Tiers are this page's summary of the cited sources, not a regulatory rating." },
+    { "type": "p", "text": "Salt deserves a closer look because the guide singles it out. The Merck Veterinary Manual says pets have taken in too much salt by eating salt-containing materials such as rock salt. In dogs, vomiting starts within several hours and can progress to weakness, diarrhea, muscle tremors and seizures. It says clinical signs can appear after a dog eats 2 to 3 grams of salt per kilogram of body weight, roughly 0.9 to 1.4 grams per pound, and that toxicosis is unlikely while the animal's sodium regulation is intact and fresh drinking water is available." },
+    { "type": "p", "text": "That points to the jug, the sprayer and any puddle as the things to keep pets away from. On rinsing, no source reviewed says it makes a salted area suitable for pets. Rinsing dissolves the salt and carries it into nearby soil or a drain." },
+    { "type": "p", "text": "For children, the hazards are strong vinegar and scalding water. Maryland says vinegar at 11 percent acetic acid or more can burn skin and cause severe eye injury, including blindness, and the National Pesticide Information Center says never to leave any pesticide unattended around children or pets, or in an unlabeled container. Carry and pour boiling water only when children and pets are indoors. For the wider picture on yard treatments and animals, see [which pest remedies are lower-risk for cats and dogs](/learn/pet-safe-pest-control)." },
+    { "type": "callout", "tone": "warning", "title": "If the mix is swallowed or gets in an eye", "text": "In the US, call Poison Control at 800-222-1222 right away; in Canada, call your regional poison center. For a pet, call your veterinarian, the ASPCA Animal Poison Control Center at 888-426-4435 or Pet Poison Helpline at 855-764-7661. With a registered product, follow the first aid directions on its label. The National Pesticide Information Center answers pesticide questions at 800-858-7378." },
+
+    { "type": "h2", "text": "When should you stop and try something else?" },
+    { "type": "p", "text": "Stop when the same weeds come back after two or three treatments. That means the root is alive, and a contact method will not reach it." },
+    { "type": "ul", "items": [
+      "**Perennials keep resprouting.** Maryland says acetic acid does not kill roots. Dig the weed out after rain.",
+      "**The weeds are in a lawn or a bed.** Vinegar, salt and boiling water injure every plant they touch. Use pulling, mulch and mowing height there.",
+      "**The area is large.** Maryland describes acetic acid sprays as most useful in gravel and on patios and sidewalks.",
+      "**You have salted the same spot repeatedly.** Stop; the salt is accumulating.",
+      "**Bindweed or nutsedge is coming up through mulch.** The University of California says to remove perennial weeds by hand or with spot applications of an herbicide."
+    ] },
+    { "type": "p", "text": "A registered herbicide used exactly as its label directs is a legitimate next step, and so is a professional. The trade-off between home remedies and labeled products is the subject of [what natural pest control can and cannot do](/blog/natural-pest-control). The same check of recipe ratios against university sources is applied in [homemade ant killer recipes](/learn/ant-killer-recipes)." },
+
+    { "type": "h2", "text": "The printable cheat sheet" },
+    { "type": "card", "title": "Natural weed control cheat sheet",
+      "intro": "Small weeds, dry day, right place. Print this and keep it with the sprayer.",
+      "items": [
+        "3-ingredient spray: 1 gallon vinegar + 1 cup salt + 1 tablespoon dish soap, no water. Paving and gravel only; the salt builds up in soil.",
+        "Vinegar strength: household is about 5 percent and handles seedlings up to 2 weeks old. At 20 percent it is a DANGER-labeled herbicide: use a registered product and follow its label.",
+        "Spray weeds at 2 to 5 leaves on a warm, bright, dry, still day, 24 to 48 hours or more after rain. Wear gloves and eye protection.",
+        "Expect regrowth, because roots survive. Repeat no more often than every 2 weeks, or dig the root.",
+        "Boiling water: kettle straight from the stove, cracks only, no splashing. Wilts at once, browns in 1 to 2 days. Repeat in 7 to 10 days.",
+        "Mulch: 3 to 4 inches of medium or coarse chips (4 to 6 for arborist wood chips), about 2 inches of fine mulch. Top up as it breaks down.",
+        "Pull after a soaking rain or deep watering. Take the whole taproot with a fishtail weeder, before the weed sets seed.",
+        "Corn gluten meal: 20 pounds per 1,000 square feet when forsythia blooms. Water in, then keep fairly dry. Seeds only, mixed results, no overseeding.",
+        "Lawn: mow cool-season grass at 3 to 4 inches and reseed thin spots.",
+        "Children and pets: indoors while you pour or spray, and off sprayed areas until dry. Never leave the mix where a pet can drink it. No cocoa bean mulch around dogs.",
+        "Emergencies: Poison Control 800-222-1222 (US). Pets: your veterinarian or ASPCA Animal Poison Control 888-426-4435."
+      ],
+      "note": "Figures are reproduced from the university and government sources named on the page; BuzzSkito has not run trials on them." }
+  ],
+  "howTo": {
+    "name": "How to control weeds without synthetic herbicides",
+    "steps": [
+      { "name": "Match the method to the place", "text": "Use boiling water or a vinegar spray only in paving cracks and gravel, mulch in beds, and pulling, tall mowing and reseeding in lawns." },
+      { "name": "Pour boiling water on young weeds", "text": "Carry a kettle straight from the stove, pour directly onto each weed in a crack without splashing, and pour again 7 to 10 days later." },
+      { "name": "Mix the vinegar spray", "text": "For paving and gravel only, stir 1 cup of salt into 1 gallon of undiluted vinegar, add 1 tablespoon of dish soap, and pour it into a labeled plastic sprayer. Leave the salt out near soil you care about." },
+      { "name": "Spray small weeds in warm, dry weather", "text": "Wearing gloves and eye protection, wet the leaves of weeds with 2 to 5 leaves on a bright, still day at least 24 to 48 hours after rain." },
+      { "name": "Keep people and pets away", "text": "Keep children and pets off the area until the spray has dried, and never leave the mix where a pet could drink it." },
+      { "name": "Mulch beds to the right depth", "text": "Spread 3 to 4 inches of medium or coarse mulch, or about 2 inches of fine mulch, before weed seeds sprout, and top it up as it breaks down." },
+      { "name": "Pull taprooted weeds after rain", "text": "After a soaking rain or a deep watering, lever out the whole taproot with a fishtail weeder before the weed sets seed." },
+      { "name": "Thicken the lawn", "text": "Mow cool-season grass at 3 to 4 inches and reseed thin spots, or apply corn gluten meal at 20 pounds per 1,000 square feet in early spring, but do not combine seed and meal." },
+      { "name": "Re-treat or change method", "text": "Treat regrowth with vinegar no more often than every two weeks, and dig out any perennial weed that keeps coming back." }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Does vinegar kill weeds permanently?",
+      "answer": "Not usually. Acetic acid is a contact herbicide: the National Pesticide Information Center says it damages only the foliage it touches and does not travel through the plant. The University of Maryland says roots are not killed, so larger weeds and perennials may wilt, discolor and then regrow, and repeat applications are needed. Very small annual weeds are the exception. Maryland reports excellent control when they are sprayed within about two weeks of germination, and USDA researchers found that 5 and 10 percent vinegar killed weeds during their first two weeks of life."
+    },
+    {
+      "question": "Will vinegar weed killer hurt grass or garden plants?",
+      "answer": "Yes. Acetic acid is non-selective, so it injures any plant it wets, including lawn grass, flowers and vegetables. The University of Maryland notes that acetic acid sprays burn grasses back temporarily and that spray drift may damage desirable plants. Add salt and the damage can outlast the spray: the University of Connecticut says salts build up with repeated applications and can harm wanted plants nearby. That is why the mix belongs only in paving cracks, gravel and similar places, sprayed on a still day."
+    },
+    {
+      "question": "Can I use Epsom salt instead of table salt?",
+      "answer": "It does not solve the problem. Epsom salt is promoted because it contains magnesium instead of sodium, but the University of Connecticut points out that too much magnesium interferes with a plant's phosphorus uptake, and that any salt builds up when a recipe has to be applied again and again. A University of Georgia Extension agent goes further and says Epsom salt does nothing to kill weeds, with other ingredients such as vinegar doing the work in these mixes. If the aim is to protect the soil, leave out salt of either kind."
+    },
+    {
+      "question": "How long does it take vinegar to kill weeds?",
+      "answer": "Small weeds show damage fast in hot weather. The University of Maryland says most acetic acid herbicides act within about 15 minutes when it is above 85 degrees Fahrenheit, especially in low humidity, and that more than 90 percent of treated plants should die within 24 hours. USDA researchers reported that 20 percent vinegar killed the top growth of Canada thistle in about 2 hours. Those figures are for herbicide-strength products on well-covered weeds. Household vinegar is weaker, and on anything larger than a seedling the browning you see is leaf burn, with the root still alive."
+    },
+    {
+      "question": "How deep should mulch be to stop weeds?",
+      "answer": "Three to 4 inches for medium and coarse mulch such as wood or bark chips, and about 2 inches for fine-textured mulch, according to the University of California. Washington State University Extension recommends keeping arborist wood chips 4 to 6 inches deep and warns that shallow layers of coarse mulch can encourage weeds. Depth works by keeping light from the soil. Perennial weeds such as field bindweed and nutsedge can still push through, and old, decomposed mulch lets seeds sprout on top, so top it up and pull what appears."
+    },
+    {
+      "question": "Is corn gluten meal worth using on a lawn?",
+      "answer": "Only with modest expectations. It acts on germinating seeds and has no effect on weeds that are already growing. The University of Illinois says university studies often show limited immediate control, though consistent use has given positive results against crabgrass, and that dry springs may give better results than rainy ones. The University of California reports that it did not give satisfactory control in experiments on California lawns. At 20 pounds per 1,000 square feet it also supplies about 2 pounds of nitrogen, so part of what you see is a fertilizer effect, and it should not be combined with overseeding."
+    }
+  ],
+  "sources": [
+    { "title": "Can I use vinegar to control weeds?", "publisher": "National Pesticide Information Center", "url": "https://npic.orst.edu/faq/vinegar.html" },
+    { "title": "Vinegar: An Alternative to Glyphosate?", "publisher": "University of Maryland Extension", "url": "https://extension.umd.edu/resource/vinegar-alternative-glyphosate" },
+    { "title": "Homemade Pesticide Issues: Understanding the Science", "publisher": "University of Connecticut Extension", "url": "https://extension.uconn.edu/publication/homemade-pesticides/" },
+    { "title": "Can I Manage Weeds With Boiling Water?", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/faq/can-i-manage-weeds-boiling-water" },
+    { "title": "Weed Management in Landscapes (Pest Notes, UC ANR Publication 7441)", "publisher": "University of California Statewide Integrated Pest Management Program", "url": "https://ipm.ucanr.edu/home-and-landscape/weed-management-in-landscapes/" },
+    { "title": "Corn Gluten Meal: Can it naturally prevent weeds and feed your lawn?", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/blogs/good-growing/2026-03-27-corn-gluten-meal-can-it-naturally-prevent-weeds-and-feed-your-lawn" },
+    { "title": "Salt Toxicosis in Animals", "publisher": "Merck Veterinary Manual", "url": "https://www.merckvetmanual.com/toxicology/salt-toxicosis/salt-toxicosis-in-animals" }
+  ],
+  "disclaimer": "both"
+}

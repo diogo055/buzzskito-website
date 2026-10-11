@@ -1,0 +1,10 @@
+{
+ "id": "aphid-control-guide",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "3634ecbe8c38d9705631c3245eb69613d5e93c871fef3343185756f472da3453",
+ "claimsChecked": 140,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-11"
+}

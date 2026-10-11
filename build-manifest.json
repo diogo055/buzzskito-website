@@ -2,14 +2,14 @@
  "generated": "2026-10-11",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 80,
+  "newPagesBuilt": 86,
   "hubPages": 4,
   "guides": 74,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 6,
-  "internalLinksInNewPages": 975
+  "notBuilt": 0,
+  "internalLinksInNewPages": 1035
  },
  "pages": [
   {
@@ -53,11 +53,27 @@
    "kind": "pillar",
    "cluster": "ants",
    "title": "Ants: Identification, Prevention and Control",
-   "wordCount": 6141,
+   "wordCount": 6173,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 23,
-   "outboundInternalLinks": 32,
+   "inboundFromNewPages": 25,
+   "outboundInternalLinks": 33,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "homemade ant killer",
+   "us_volume": null,
+   "url": "/learn/ant-killer-recipes",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Homemade Ant Killer: 4 Recipes, Exact Ratios",
+   "wordCount": 3555,
+   "faqs": 6,
+   "sources": 7,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 9,
    "status": "built"
   },
   {
@@ -120,51 +136,89 @@
    "wordCount": 4530,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 10,
    "status": "built"
   },
   {
    "rank": null,
-   "keyword": "homemade ant killer",
-   "url": "/learn/ant-killer-recipes",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "natural garden pest control",
+   "us_volume": null,
    "url": "/learn/natural-garden-pest-control",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "garden",
+   "title": "Natural Garden Pest Control: A Seasonal Plan",
+   "wordCount": 5076,
+   "faqs": 6,
+   "sources": 7,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 10,
+   "status": "built"
   },
   {
    "rank": null,
    "keyword": "how to get rid of fungus gnats",
+   "us_volume": null,
    "url": "/learn/how-to-get-rid-of-fungus-gnats",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "garden",
+   "title": "How to Get Rid of Fungus Gnats: The 5-Step Plan",
+   "wordCount": 3568,
+   "faqs": 6,
+   "sources": 7,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 8,
+   "status": "built"
   },
   {
    "rank": null,
    "keyword": "how to get rid of aphids naturally",
+   "us_volume": null,
    "url": "/learn/aphid-control-guide",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "garden",
+   "title": "How to Get Rid of Aphids Naturally: 7 Ways",
+   "wordCount": 4813,
+   "faqs": 6,
+   "sources": 7,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 8,
+   "status": "built"
   },
   {
    "rank": null,
    "keyword": "how to get rid of whiteflies",
+   "us_volume": null,
    "url": "/learn/whitefly-identification-control",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "garden",
+   "title": "How to Get Rid of Whiteflies: 6 Natural Controls",
+   "wordCount": 5236,
+   "faqs": 6,
+   "sources": 7,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 6,
+   "status": "built"
   },
   {
    "rank": null,
    "keyword": "natural weed killer",
+   "us_volume": null,
    "url": "/learn/natural-weed-control",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "garden",
+   "title": "Natural Weed Killer: Exact Ratios, Honest Limits",
+   "wordCount": 5024,
+   "faqs": 6,
+   "sources": 7,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 6,
+   "status": "built"
   },
   {
    "rank": 1,
@@ -252,7 +306,7 @@
    "wordCount": 3068,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -369,11 +423,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Borax for Ants: Why a Weak Bait Works Best",
-   "wordCount": 3771,
+   "wordCount": 3799,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 11,
-   "outboundInternalLinks": 14,
+   "inboundFromNewPages": 12,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -385,11 +439,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "What Do Ants Eat? Sugar, Protein and Grease",
-   "wordCount": 2275,
+   "wordCount": 2300,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 14,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 15,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -406,7 +460,7 @@
    "wordCount": 3068,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -828,7 +882,7 @@
    "wordCount": 3056,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 18,
+   "inboundFromNewPages": 19,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -860,7 +914,7 @@
    "wordCount": 3056,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 18,
+   "inboundFromNewPages": 19,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -873,11 +927,11 @@
    "kind": "spoke",
    "cluster": "pest-control",
    "title": "Lawn Pest Control: Confirm the Pest First",
-   "wordCount": 3472,
+   "wordCount": 3492,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 6,
-   "outboundInternalLinks": 13,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -937,11 +991,11 @@
    "kind": "spoke",
    "cluster": "pest-control",
    "title": "Natural Pest Control: What Works and Its Limits",
-   "wordCount": 3710,
+   "wordCount": 3741,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 11,
-   "outboundInternalLinks": 18,
+   "inboundFromNewPages": 16,
+   "outboundInternalLinks": 22,
    "status": "built"
   },
   {
@@ -1144,7 +1198,7 @@
    "wordCount": 2483,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1202,7 +1256,7 @@
    "wordCount": 3298,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -1231,11 +1285,11 @@
    "kind": "spoke",
    "cluster": "pest-control",
    "title": "DIY Pest Control: Prevent, Bait, Then Spray Last",
-   "wordCount": 4004,
+   "wordCount": 4028,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 13,
-   "outboundInternalLinks": 15,
+   "inboundFromNewPages": 14,
+   "outboundInternalLinks": 18,
    "status": "built"
   },
   {
@@ -1377,11 +1431,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Does Vinegar Kill Ants? It Won't Reach the Nest",
-   "wordCount": 2165,
+   "wordCount": 2195,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 8,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 10,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {

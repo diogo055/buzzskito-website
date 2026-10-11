@@ -2,13 +2,17 @@
  "id": "natural-pest-control",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "fba99db40dcd5c3d4996d5fe3e58a82d85b9be788f48e02dfa5f375bc3de56ae",
+ "sha": "31b7de2fc8964c5028b742f0b497cab40f07cae9d68c87f7a3f6ced3ac81b44d",
  "claimsChecked": 86,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 12,
  "checkedOn": "2026-10-11",
  "linksAddedOn": "2026-10-11",
  "linksAdded": [
-  "/learn/pet-safe-pest-control"
+  "/learn/pet-safe-pest-control",
+  "/learn/natural-garden-pest-control",
+  "/learn/how-to-get-rid-of-fungus-gnats",
+  "/learn/whitefly-identification-control",
+  "/learn/aphid-control-guide"
  ]
 }

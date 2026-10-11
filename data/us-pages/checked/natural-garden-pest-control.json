@@ -1,0 +1,10 @@
+{
+ "id": "natural-garden-pest-control",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "b6c8ab95f4c195474afe1cd0034779b1b754d9924aa8c0f7b83b1745432b6f06",
+ "claimsChecked": 122,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 13,
+ "checkedOn": "2026-10-11"
+}

@@ -36,6 +36,7 @@ export const US_GUIDE_ADJACENT_ROUTES = new Set<string>([
   "/blog/bullet-ants",
   "/blog/honeypot-ants",
   "/blog/zombie-ants",
+  "/learn/ant-killer-recipes",
   "/learn/mice",
   "/blog/types-of-mice",
   "/blog/deer-mice",
@@ -71,4 +72,9 @@ export const US_GUIDE_ADJACENT_ROUTES = new Set<string>([
   "/blog/lawn-pest-control",
   "/blog/commercial-pest-control",
   "/learn/pet-safe-pest-control",
+  "/learn/natural-garden-pest-control",
+  "/learn/how-to-get-rid-of-fungus-gnats",
+  "/learn/aphid-control-guide",
+  "/learn/whitefly-identification-control",
+  "/learn/natural-weed-control",
 ])

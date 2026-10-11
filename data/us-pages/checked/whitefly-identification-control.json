@@ -1,0 +1,10 @@
+{
+ "id": "whitefly-identification-control",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "0f9c8320807b3e8ec40be96e3c1b904af49b1ce625b81b3cd86c0090f8a855af",
+ "claimsChecked": 174,
+ "claimsCorrected": 14,
+ "claimsRemovedOrSoftened": 8,
+ "checkedOn": "2026-10-11"
+}

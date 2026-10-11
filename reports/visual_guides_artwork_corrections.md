@@ -10,17 +10,17 @@ which matters most for the copies pinned on Pinterest, because a pin travels wit
 | Guide | Graphic file | Differences found |
 |---|---|---|
 | /blog/fall-mouse-proofing-checklist | `public/guides/bz-guide-03-mouse-proofing.webp` | 7 |
-| /learn/ant-killer-recipes | `public/guides/bz-guide-01-ant-recipes.webp` | 11 |
+| /learn/ant-killer-recipes | `public/guides/bz-guide-01-ant-recipes.webp` | 8 |
 | /blog/signs-of-bed-bugs-checklist | `public/guides/bz-guide-02-bedbug-signs.webp` | 7 |
 | /learn/tick-identification-chart | `public/guides/bz-guide-04-tick-chart.webp` | 14 |
 | /learn/pet-safe-pest-control | `public/guides/bz-guide-05-pet-safe.webp` | 8 |
-| /learn/natural-garden-pest-control | `public/guides/bz-guide-09-garden-master.webp` | - |
-| /learn/how-to-get-rid-of-fungus-gnats | `public/guides/bz-guide-07-fungus-gnats.webp` | - |
-| /learn/aphid-control-guide | `public/guides/bz-guide-08-aphid-control.webp` | - |
-| /learn/whitefly-identification-control | `public/guides/bz-guide-06-whitefly.webp` | - |
-| /learn/natural-weed-control | `public/guides/bz-guide-10-weed-control.webp` | - |
+| /learn/natural-garden-pest-control | `public/guides/bz-guide-09-garden-master.webp` | 13 |
+| /learn/how-to-get-rid-of-fungus-gnats | `public/guides/bz-guide-07-fungus-gnats.webp` | 13 |
+| /learn/aphid-control-guide | `public/guides/bz-guide-08-aphid-control.webp` | 6 |
+| /learn/whitefly-identification-control | `public/guides/bz-guide-06-whitefly.webp` | 10 |
+| /learn/natural-weed-control | `public/guides/bz-guide-10-weed-control.webp` | 12 |
 
-Total: 47 items across 5 guides.
+Total: 98 items across 10 guides.
 
 ## /blog/fall-mouse-proofing-checklist
 
@@ -56,41 +56,34 @@ Source of this list: fact-check.
 
 Graphic: `public/guides/bz-guide-01-ant-recipes.webp`
 
-Source of this list: writer (fact-check not finished).
+Fact-check of the page text: 100 claims checked, 8 corrected, 9 removed or softened.
 
-1. **The graphic says:** Title: "4 tested recipes with exact ratios".
-   **The sources say:** Nothing shows these four were tested. Recipe 1's ratio is not the one any university publishes, and recipe 2 has no published household recipe at all. The page avoids the word and names who publishes each ratio. Suggested wording: "4 recipes checked against university sources".
+Source of this list: fact-check.
+
+1. **The graphic says:** 1. Borax Sugar Bait: 1 tsp borax : 3 tsp sugar : 2 tbsp warm water.
+   **The sources say:** University of California publishes 1/2 teaspoon boric acid powder + 9 teaspoons granulated sugar + 1 cup hot water (about 1% boric acid, 19% sugar). It says effective baits are 1/2 to 1% boric acid and that higher concentrations are less effective because they repel ants. The graphic's mix has about 16 times as much powder per cup of water. UC says the bait can be made with boric acid or borax but gives no separate borax amount. Texas A&M's own homemade bait is also 1%.
    Source: https://ipm.ucanr.edu/home-and-landscape/ant-management-in-gardens-and-landscapes/
-2. **The graphic says:** 1. Borax Sugar Bait: 1 tsp borax : 3 tsp sugar : 2 tbsp warm water.
-   **The sources say:** University of California: 1/2 tsp boric acid powder + 9 tsp sugar in 1 cup hot water (about 1% boric acid, 19% sugar). Effective range is 0.5 to 1% boric acid and 10 to 25% sugar; above 1% is less effective because it repels ants. The graphic works out to 8 tsp powder per cup of water, 16 times the UC recipe. Two University of Hawaii extension handouts are similarly weak (1 tsp boric acid + 3 tbsp sugar, water to 1 3/4 cups; 1 tsp boric acid + 1 cup sugar + 3 cups water). Texas A&M also says 1% beats higher concentrations.
-   Source: https://ipm.ucanr.edu/home-and-landscape/ant-management-in-gardens-and-landscapes/
-3. **The graphic says:** 1. Borax Sugar Bait uses borax as the measured ingredient.
-   **The sources say:** Every university recipe with kitchen measures uses boric acid powder (UC, Texas A&M, University of Hawaii). UC says the bait can be made with boric acid or borax but gives no separate borax measure, and no source converts one to the other. Either relabel the ingredient as boric acid powder or drop the borax amount to the weak recipe.
-   Source: https://ipm.ucanr.edu/home-and-landscape/ant-management-in-gardens-and-landscapes/
-4. **The graphic says:** 1. Borax Sugar Bait: "soak cotton balls, set in bottle caps along ant trails", while its own safety tag says "enclosed stations only".
-   **The sources say:** The picture and the tag contradict each other. UC says bait stations protect bait from disturbance by children and should not be in areas accessible to pets and small children. Texas A&M does use bottle caps, foil and straw pieces, but says never to place any bait in areas accessible to small children or pets. The artwork should show an enclosed station.
+2. **The graphic says:** 1. Borax Sugar Bait: soak cotton balls, 'set in bottle caps along ant trails' (open caps), while its own safety tag says 'enclosed stations only'.
+   **The sources say:** UC Pest Notes: bait stations protect baits from photodegradation and disturbance by children, and should not be placed in areas accessible to pets and small children. Texas A&M: never place any baits in areas accessible to small children or pets. The artwork should show an enclosed station, not open caps.
    Source: https://ipm.ucanr.edu/home-and-landscape/ants/
-5. **The graphic says:** 1. Safety tag MODERATE: "Borax is toxic if eaten".
-   **The sources say:** NPIC rates boric acid as low in toxicity if eaten or on skin, though swallowing it has caused nausea, vomiting, stomach aches and diarrhea, and signs in animals can start within 2 hours. It adds a hazard the tag omits: borax can be corrosive to the eye and irritating to skin. Children may be especially sensitive. The keep-away instruction is right; better wording would be "harmful if swallowed, eye irritant".
-   Source: https://npic.orst.edu/factsheets/boricgen.html
-6. **The graphic says:** 2. Baking Soda + Sugar: 1 tbsp baking soda : 1 tbsp powdered sugar, sprinkled in shallow lids near entry points; reapply after 3 days.
-   **The sources say:** No extension or government source I opened lists baking soda for ants or gives a ratio or reapply interval. The only evidence found is a lab study (Brinkman & Gardner 2004, Florida Entomologist 87(3):324-329): ants confined on baking-soda-dusted surfaces died over about 6 days (89.5% of Argentine ants at 28 mg/cm2, over 99% of both species at 152 mg/cm2), but in sugar water only about 50% of Argentine ants died after 6 days and stronger mixes did no better. No home or field trial. The page gives no recipe block for it.
+3. **The graphic says:** 2. Baking Soda + Sugar: 1 tbsp baking soda : 1 tbsp powdered sugar, sprinkled dry in shallow lids; 'Reapply after 3 days if ants persist.'
+   **The sources say:** No extension or government source opened publishes this recipe, ratio or the 3-day interval. The only support found is one laboratory study (Brinkman and Gardner, Florida Entomologist 2004): confined workers on baking-soda-dusted surfaces mostly died within 6 days at the heaviest doses; baking soda in sugar water killed about 50% of Argentine ants at best (5% mix), with stronger mixes no better. The authors wrote that optimal procedures for home use had yet to be determined. Neither setup is the graphic's dry powdered-sugar mix.
    Source: https://complete.bioone.org/journals/florida-entomologist/volume-87/issue-3/0015-4040(2004)087[0324:MOAHFP]2.0.CO;2/MORTALITY-OF-ANT-HYMENOPTERA--FORMICIDAE-PEST-SPECIES-EXPOSED-TO/10.1653/0015-4040(2004)087[0324:MOAHFP]2.0.CO;2.full
-7. **The graphic says:** 2. Safety tag LOW: "Food-grade ingredients - still keep lids out of pet reach".
-   **The sources say:** The tag mentions pets only. Poison Control says swallowing too much baking soda can cause serious toxicity (vomiting and diarrhea, then possibly seizures, dehydration and kidney failure) and says to keep it out of reach of children. NPIC adds that even too much of a low-toxicity ingredient can be harmful. The tag should name children too.
-   Source: https://www.poison.org/articles/baking-soda
-8. **The graphic says:** 3. Vinegar Trail-Breaker: "Spray directly on trails, entry points and nests".
-   **The sources say:** The 1:1 ratio is supported: University of Nebraska-Lincoln says to wipe down surfaces with a 1:1 vinegar and water mix to remove pheromone trails and deter ants. Nothing supports spraying nests. Penn State lists vinegar and water only for wiping trails, and names hot soapy water, not vinegar, for nests. Remove "and nests".
+4. **The graphic says:** 3. Vinegar Trail-Breaker: 'Spray directly on trails, entry points and nests.'
+   **The sources say:** The 1:1 ratio matches. The University of Nebraska-Lincoln says to wipe down surfaces with a 1:1 vinegar and water mixture to remove pheromone trails and deter ants. No source opened supports spraying nests or says vinegar affects the colony. The source also says 'vinegar' without naming white vinegar (minor).
    Source: https://byf.unl.edu/ants/
-9. **The graphic says:** 3. Safety tag LOW: "Safe around kids & pets".
-   **The sources say:** Broader than the sources. ASPCA says vinegar is acidic and can cause stomach upset and irritation, though it is not generally an issue once diluted, rinsed and dry; undiluted it can cause vomiting, diarrhea, oral irritation and pain. Poison Control says vinegar in the eyes commonly causes irritation and redness and to keep vinegar away from children. Suggested wording: "Lower risk when diluted; wipe dry, keep out of eyes".
-   Source: https://www.aspca.org/pet-care/animal-poison-control/poisonous-household-products
-10. **The graphic says:** 4. Dish Soap Knockdown: "Breaks surface tension - kills on contact".
-   **The sources say:** Kill on contact is supported (UC: some soap products can kill ants on contact with no residual toxicity). The mechanism is not: Nebraska Extension says insecticidal soaps may disrupt cell membranes or remove the insect's protective wax so it dies of water loss, and that the spray must wet the insect.
+5. **The graphic says:** 3. Vinegar Trail-Breaker safety tag: 'Safe around kids & pets.'
+   **The sources say:** No source opened calls the mix safe. NPIC says home remedies often have no label, may lack first aid directions, and may be missing warnings about harm to people and pets. The page does not repeat 'safe'.
+   Source: https://npic.orst.edu/pest/home-remedies.html
+6. **The graphic says:** 4. Dish Soap Knockdown safety tag: 'Safe once dry.'
+   **The sources say:** No source opened says this. Nebraska Extension says a soap spray has no residual activity, which is a statement about insects. NPIC says familiar items such as dish soap can contain additives that could cause harm. The page says to wipe up and rinse.
+   Source: https://npic.orst.edu/pest/home-remedies.html
+7. **The graphic says:** 4. Dish Soap Knockdown: 1 tsp dish soap : 1 cup water, presented as an ant recipe.
+   **The sources say:** The strength is right but the source is not an ant recipe. Nebraska Extension lists a 2% soap solution as 2 teaspoons per pint (1 tsp per cup) for houseplant pests such as aphids. UC says soapy water removes ant trails and some soap products kill ants on contact, but gives no ratio. Not an error on the artwork; no change needed unless the owner wants a footnote.
    Source: https://lancaster.unl.edu/washing-pests-away/
-11. **The graphic says:** 4. Safety tag LOW: "Safe once dry".
-   **The sources say:** No source uses that phrase. UC and Nebraska Extension say soap leaves no residual toxicity or activity, which means it stops killing ants once dry. Poison Control says swallowing a small amount of dish soap can cause nausea, vomiting or diarrhea, that it irritates eyes, and to store it out of sight of children. NPIC notes dish soap can contain additives that could cause harm. Suggested wording: "Lower risk; rinse surfaces, store the bottle out of reach".
-   Source: https://www.poison.org/articles/hand-dish-soap
+8. **The graphic says:** Title: 'Ant Killer Recipes — 4 tested recipes with exact ratios.'
+   **The sources say:** BuzzSkito has not tested any of them. Only three of the four have a published university ratio (borax bait, in a much weaker form; vinegar; soap), and the baking soda mix has none. 'Tested' should come off the artwork.
+   Source: https://ipm.ucanr.edu/home-and-landscape/ant-management-in-gardens-and-landscapes/
 
 ## /blog/signs-of-bed-bugs-checklist
 
@@ -210,29 +203,206 @@ Source of this list: fact-check.
 
 Graphic: `public/guides/bz-guide-09-garden-master.webp`
 
-_Not reported yet._
+Fact-check of the page text: 122 claims checked, 8 corrected, 13 removed or softened.
+
+Source of this list: fact-check.
+
+1. **The graphic says:** Marigolds REPEL root nematodes; plant along veggie borders and tomato rows
+   **The sources say:** Marigolds suppress root-knot nematodes only as a dense cover crop (no more than 7 inches apart, about 289 plants per 100 sq ft) grown in the same bed at least two months before the vegetable, repeated every season. Interplanting: "Probably not" and very risky. They also increase sting, awl, stubby-root and spiral nematodes.
+   Source: https://ask.ifas.ufl.edu/publication/NG045
+2. **The graphic says:** Marigolds REPEL aphids and whiteflies
+   **The sources say:** No such finding. Minnesota reports marigolds helped reduce squash bug and cucumber beetle damage (Iowa), thrips on tomatoes (with basil), and that African marigolds plus sweet alyssum with squash increased natural enemies of aphids; marigolds do not deter Colorado potato beetles. NC State says most marigold repellent recommendations are unproven.
+   Source: https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/companion-planting-in-home-gardens
+3. **The graphic says:** Basil REPELS flies, mosquitoes, tomato hornworm
+   **The sources say:** The only research-backed basil effect listed is fewer thrips on tomatoes. Nothing on flies, mosquitoes or hornworms.
+   Source: https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/companion-planting-in-home-gardens
+4. **The graphic says:** Basil beside tomatoes: they help each other
+   **The sources say:** One-way only: intercropping with basil may help promote tomato growth. Nothing shows tomatoes helping basil.
+   Source: https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/companion-planting-in-home-gardens
+5. **The graphic says:** Mint REPELS ants, aphids, flea beetles
+   **The sources say:** Mint is not on Minnesota's research-backed list for any pest; for flea beetles it says there is little research behind repellent companions and some contradicts it.
+   Source: https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/companion-planting-in-home-gardens
+6. **The graphic says:** Nasturtiums REPEL aphids (trap crop)
+   **The sources say:** A trap crop attracts pests, it does not repel them. The research listed is for squash bugs and for cabbage looper and imported cabbageworm, not aphids. NC State adds that a trap crop is then treated.
+   Source: https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/companion-planting-in-home-gardens
+7. **The graphic says:** Lavender REPELS moths, fleas, mosquitoes; plant along pathways and patio borders
+   **The sources say:** No cited source reports a lavender trial against any of these. The ASPCA lists lavender as toxic to dogs, cats and horses, which matters for patio and pathway planting.
+   Source: https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lavender
+8. **The graphic says:** Panel title: POLLINATOR-SAFE RULES
+   **The sources say:** No source calls spraying safe for pollinators. NPIC: most insecticides can hurt bees and butterflies; the rules reduce exposure.
+   Source: https://npic.orst.edu/envir/pollinator.html
+9. **The graphic says:** Rule 3: Choose targeted insecticidal soap over broad-spectrum killers
+   **The sources say:** Supported with a limit: UC IPM's table rates soap as toxic to predators and parasites on direct contact (no residual toxicity). NPIC calls it only somewhat selective.
+   Source: https://ipm.ucanr.edu/home-and-landscape/biological-control-and-natural-enemies-of-invertebrates/
+10. **The graphic says:** SUMMER: release beneficials
+   **The sources say:** Releases are unlikely to provide satisfactory pest control in most situations; retail lady beetles are unlikely to be sufficient in number and quality. NC State: released lady beetles fly far away before they begin to feed.
+   Source: https://ipm.ucanr.edu/home-and-landscape/biological-control-and-natural-enemies-of-invertebrates/
+11. **The graphic says:** Ladybugs EAT aphids, mites, whitefly eggs
+   **The sources say:** Minor: UC IPM lists aphids, spider mites and whiteflies as lady beetle prey but does not single out whitefly eggs.
+   Source: https://ipm.ucanr.edu/home-and-landscape/biological-control-and-natural-enemies-of-invertebrates/
+12. **The graphic says:** Parasitic wasps EAT aphids, caterpillars
+   **The sources say:** Minor: the female lays her eggs in the pest and the hatching larvae consume and kill it. "Tiny, don't sting" is supported (tiny to medium-sized, incapable of stinging people).
+   Source: https://ipm.ucanr.edu/home-and-landscape/biological-control-and-natural-enemies-of-invertebrates/
+13. **The graphic says:** Footer covers only sprays (store products from kids and pets); mint shown as a pot plant with no pet note
+   **The sources say:** Omission, not an error: the ASPCA lists mint (Mentha sp.) as toxic to dogs, cats and horses (vomiting and diarrhea with large ingestions), and chives, onions and garlic as toxic to dogs.
+   Source: https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mint
 
 ## /learn/how-to-get-rid-of-fungus-gnats
 
 Graphic: `public/guides/bz-guide-07-fungus-gnats.webp`
 
-_Not reported yet._
+Fact-check of the page text: 119 claims checked, 12 corrected, 7 removed or softened.
+
+Source of this list: fact-check.
+
+1. **The graphic says:** Step 1: 'dryness kills the nursery' and '#1 step — skip it and nothing else works.'
+   **The sources say:** A dry growing medium decreases the survival of eggs and larvae and makes the pot less attractive to egg-laying females; it is not said to kill them all. No source says the other steps fail without it, and Texas A&M says that once gnats are a problem, reducing moisture alone may not give satisfactory control. (The 'top 2 inches' figure itself is supported: Cornell IPM says top two inches, Colorado State 1 to 2, Wisconsin the top inch.)
+   Source: https://extension.colostate.edu/resource/fungus-gnats-as-houseplant-and-indoor-pests ; https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/
+2. **The graphic says:** Step 2: 'Stake 1 trap per plant.'
+   **The sources say:** No source gives a number of traps per plant. Colorado State places cards under the plant canopy or on the edge of the container; UConn lays them horizontally at the soil surface.
+   Source: https://extension.colostate.edu/resource/fungus-gnats-as-houseplant-and-indoor-pests
+3. **The graphic says:** Step 2: 'Catches egg-laying adults within days.'
+   **The sources say:** Sources say the cards capture adults and may help by mass-trapping adult females, but none gives a time.
+   Source: https://extension.colostate.edu/resource/fungus-gnats-as-houseplant-and-indoor-pests
+4. **The graphic says:** Step 2 note: 'Non-toxic.'
+   **The sources say:** Texas A&M says most sticky traps contain no pesticides, which is not the same as an absolute label; the glue is a hazard to fur and hair, and the ASPCA lists insect traps among sticky substances that need oil and a soap bath to remove from a pet.
+   Source: https://citybugs.tamu.edu/factsheets/ipm/what-is-a-sticky-trap/ ; https://www.aspca.org/news/my-pet-walked-through-paint-now-what-how-decontaminate-your-pet
+5. **The graphic says:** Step 2 note: 'Replace when covered.'
+   **The sources say:** The only source that gives a schedule (UConn) says to check and change the cards weekly.
+   Source: https://ipm.cahnr.uconn.edu/managing-fungus-gnats-in-the-greenhouse/
+6. **The graphic says:** Step 3 note: Bti is 'safe for plants, pets & people.'
+   **The sources say:** The Mosquito Bits label carries the signal word CAUTION under 'Hazards to Humans and Domestic Animals': harmful if inhaled or absorbed through the skin, causes moderate eye irritation, keep out of reach of children. NPIC rates Bt low in toxicity to people and other mammals but notes some Bt products have caused eye and skin irritation.
+   Source: https://summitchemical.com/wp-content/uploads/2021/01/116-12-SPECIMEN-Mos-BITS.pdf ; https://npic.orst.edu/factsheets/btgen.html
+7. **The graphic says:** Step 4 note: 'Kills larvae on contact.'
+   **The sources say:** Cornell Cooperative Extension (Allegany County) says a mild peroxide solution 'can help kill' larvae; no source reports a kill rate or trial, and the Colorado State, Wisconsin, UC and Texas A&M fact sheets do not list peroxide at all. (The 1:4 ratio with 3% peroxide does match the Cornell Cooperative Extension article.)
+   Source: https://allegany.cce.cornell.edu/gardening/pest-management/a-spooky-houseplant-pest-fungus-gnats
+8. **The graphic says:** Step 4 note: 'Use max 1x/week.'
+   **The sources say:** No source sets a frequency. Cornell Cooperative Extension says only to let the soil dry out afterward; the Ask Extension answer says you may need to reapply.
+   Source: https://allegany.cce.cornell.edu/gardening/pest-management/a-spooky-houseplant-pest-fungus-gnats ; https://ask.extension.org/kb/faq.php?id=914499
+9. **The graphic says:** Step 4 note: 'it also kills helpful microbes.'
+   **The sources say:** Not stated in any source reviewed.
+   Source: https://allegany.cce.cornell.edu/gardening/pest-management/a-spooky-houseplant-pest-fungus-gnats
+10. **The graphic says:** Step 5: 'Add 1/2 inch of sand or perlite on the soil surface.'
+   **The sources say:** No source recommends perlite as a top layer; UC mentions perlite only mixed into the potting mix to improve drainage. Wisconsin recommends 1/2 to 1 inch of coarse sand or fine gravel; Cornell IPM says a 1-inch layer of sand, kept dry.
+   Source: https://hort.extension.wisc.edu/articles/fungus-gnats-on-houseplants/ ; https://ipm.ucanr.edu/PMG/PESTNOTES/pn7448.html
+11. **The graphic says:** Step 5 note: 'Physical barrier — adults can't reach soil to lay eggs.'
+   **The sources say:** Disputed. UConn says covering the growing media with coarse sand or diatomaceous earth does not prevent egg laying; the University of Washington's Miller Library doubts sand is effective and warns it may crust and cause a drainage problem. Wisconsin says only that it keeps the surface drier and less attractive for egg laying.
+   Source: https://ipm.cahnr.uconn.edu/managing-fungus-gnats-in-the-greenhouse/ ; https://depts.washington.edu/hortlib/pal/managing-fungus-gnats-indoors
+12. **The graphic says:** Footer: 'the peroxide drench is safe for most houseplants but test on one plant first.'
+   **The sources say:** Cornell Cooperative Extension says the mild solution can help 'without harming your plants', but no source lists which houseplants tolerate it, and 'safe' is not a claim any source supports as stated.
+   Source: https://allegany.cce.cornell.edu/gardening/pest-management/a-spooky-houseplant-pest-fungus-gnats
+13. **The graphic says:** Footer: 'Never exceed 1x/week.'
+   **The sources say:** No source sets a weekly limit for the peroxide drench.
+   Source: https://allegany.cce.cornell.edu/gardening/pest-management/a-spooky-houseplant-pest-fungus-gnats
 
 ## /learn/aphid-control-guide
 
 Graphic: `public/guides/bz-guide-08-aphid-control.webp`
 
-_Not reported yet._
+Fact-check of the page text: 140 claims checked, 9 corrected, 7 removed or softened.
+
+Source of this list: fact-check.
+
+1. **The graphic says:** NEEM SOAP SPRAY RECIPE: 1 tbsp neem oil : 1 tsp dish soap : 1 quart water.
+   **The sources say:** The label of a registered 70% neem concentrate (Natria, EPA Reg. No. 70051-2-92564) gives 0.5 to 1.0 tablespoon per quart for insects, so 1 tbsp is that label's maximum, and it says not to add adjuvants (spreaders, stickers, extenders, etc.). A UF/IFAS St. Lucie County article gives a weaker home mix: 1 to 2 teaspoons of neem oil per quart with a few drops of soap as an emulsifier. No source read gives a full teaspoon of dish soap per quart. Suggested artwork: "Mix at your label's rate (one 70% concentrate: 1/2 to 1 tbsp per quart, no soap added)".
+   Source: https://picol.cahnrs.wsu.edu/DownloadLabel/66229/WA ; https://blogs.ifas.ufl.edu/stlucieco/2025/03/20/what-is-neem-oil/
+2. **The graphic says:** Use within 8 hours.
+   **The sources say:** No source read gives 8 hours. The Natria label sets no time limit. An EPA master label for the parent registration (70051-2, Neem Oil 70%) says to use spray solutions within several hours of preparation and not to store diluted solution. NPIC gives no mixed-spray shelf life. Suggested artwork: "Mix fresh; don't store the mix".
+   Source: https://www3.epa.gov/pesticides/chem_search/ppls/070051-00002-20060724.pdf
+3. **The graphic says:** Insecticidal soap: Repeat every 5–7 days, 3 rounds.
+   **The sources say:** Clemson: repeat every 4 to 7 days (follow the label) until the pests are eliminated. The 5–7 day interval is inside that range; the fixed count of 3 rounds is not in any source (UC: soaps kill only aphids present on the day sprayed, so repeats may be needed).
+   Source: https://hgic.clemson.edu/factsheet/insecticidal-soaps-for-garden-pest-control/
+4. **The graphic says:** Blast with water: Hard jet on leaf undersides, 2x/week.
+   **The sources say:** No source sets a fixed schedule. Health Canada: spray the underside with strong jets, monitor and repeat as needed (this can be every few days). UC's twice a week is for checking plants, not for spraying.
+   Source: https://www.canada.ca/en/health-canada/services/pest-control-tips/aphids.html
+5. **The graphic says:** Prune & trash: bag them; don't compost.
+   **The sources say:** UC says prune out and dispose of them; Health Canada says prune and destroy. Neither mentions bagging or compost. Consistent in spirit, but "don't compost" is not stated by any source read.
+   Source: https://ipm.ucanr.edu/home-and-landscape/aphids/
+6. **The graphic says:** Footer: test soaps & neem on 2 leaves first.
+   **The sources say:** Sources say to try a small area and then wait before treating the rest: 24 hours for soap (Clemson), several days for soaps and oils (UC). The graphic gives no waiting time, and "2 leaves" is not a sourced figure.
+   Source: https://hgic.clemson.edu/factsheet/insecticidal-soaps-for-garden-pest-control/ ; https://ipm.ucanr.edu/home-and-landscape/aphids/
 
 ## /learn/whitefly-identification-control
 
 Graphic: `public/guides/bz-guide-06-whitefly.webp`
 
-_Not reported yet._
+Fact-check of the page text: 174 claims checked, 14 corrected, 8 removed or softened.
+
+Source of this list: fact-check.
+
+1. **The graphic says:** WHITEFLY: Tiny white moth-like flies
+   **The sources say:** Whiteflies are not true flies; they are more closely related to scales, mealybugs and aphids. Minor wording issue, control is unaffected.
+   Source: https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/
+2. **The graphic says:** VS APHID: 1-4mm
+   **The sources say:** Clemson gives aphids as about 1/16 to 1/8 inch (about 1.5 to 3 mm). No source reviewed gives 1 to 4 mm; UC's aphid notes give no size.
+   Source: https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/
+3. **The graphic says:** VS APHID: Cluster on STEMS & new growth (contrasted with whiteflies clustering UNDER leaves)
+   **The sources say:** Aphids are usually found on new growth or the undersides of leaves, and many species prefer the underside, so position does not separate the two. Body shape and whether they fly up when tapped do.
+   Source: https://ipm.ucanr.edu/home-and-landscape/aphids/
+4. **The graphic says:** you must repeat treatment 3x / Insecticidal soap: Repeat every 5-7 days x3
+   **The sources say:** Clemson's gardenia sheet does say three times at 5 to 7 day intervals, but Missouri says eradication usually requires four to five applications at five- to seven-day intervals, and Clemson's soap sheet says every 4 to 7 days until the pests are eliminated. Three is a minimum, not the total.
+   Source: https://extension.missouri.edu/g7275
+5. **The graphic says:** Yellow sticky traps: Catches adults, breaks breeding
+   **The sources say:** Traps won't eliminate damaging populations, may reduce them somewhat, and are most useful for monitoring and detecting whiteflies rather than controlling them. Iowa State: they catch only flying adults and should not be expected to eliminate a problem.
+   Source: https://ipm.ucanr.edu/home-and-landscape/whiteflies/
+6. **The graphic says:** Blast with water: Strong jet under leaves, 2x/week. Knocks off eggs & nymphs.
+   **The sources say:** No source gives twice a week; the closest is at least once a week (UC giant whitefly notes), dropping to every 2 or 3 weeks. UC describes water as hosing off or dislodging adults. One handbook (PNW, ash whitefly) says strong streams may dislodge or injure the various life stages; none names eggs.
+   Source: https://ipm.ucanr.edu/home-and-landscape/giant-whitefly/
+7. **The graphic says:** Neem oil spray: Disrupts feeding & reproduction
+   **The sources say:** Those effects belong to azadirachtin. It can be extracted, and what is left is sold as clarified hydrophobic neem oil, which Clemson says acts primarily as a contact insecticide, repellent and feeding deterrent. UC says neem oil controls only whiteflies directly sprayed and may reduce but not eliminate populations.
+   Source: https://www.npic.orst.edu/factsheets/neemgen.html
+8. **The graphic says:** POLLINATOR RULE: Bees sleep at night - your spray won't touch them.
+   **The sources say:** NPIC says do not spray flowers directly and do not spray while pollinators are active; spraying in the evening after bees have returned to their hives allows residues to dry overnight. No source says evening spraying removes all exposure, and none mentions bees sleeping.
+   Source: https://npic.orst.edu/envir/pollinator.html
+9. **The graphic says:** Footer: Test any spray on 2 leaves first.
+   **The sources say:** Incomplete rather than wrong: Clemson says spray a small area and wait 24 hours before treating the whole plant, and its houseplant sheet says symptoms of injury may take at least 48 hours to appear. The graphic gives no wait.
+   Source: https://hgic.clemson.edu/factsheet/insecticidal-soaps-for-garden-pest-control/
+10. **The graphic says:** Footer: Safety: keep neem & soaps off skin/eyes; store away from kids & pets.
+   **The sources say:** Correct as far as it goes, but it omits the one specific pet warning in the sources: NPIC reports adverse reactions, some fatal, in cats treated with neem oil for fleas. Worth adding "keep neem away from cats" to the artwork.
+   Source: https://www.npic.orst.edu/factsheets/neemgen.html
 
 ## /learn/natural-weed-control
 
 Graphic: `public/guides/bz-guide-10-weed-control.webp`
 
-_Not reported yet._
+Fact-check of the page text: 158 claims checked, 8 corrected, 9 removed or softened.
+
+Source of this list: fact-check.
+
+1. **The graphic says:** 1 gal vinegar (20%) in the 3-ingredient recipe.
+   **The sources say:** The published recipe (Ask Extension, Colorado) says full-strength vinegar and names no percentage. 20% acetic acid is horticultural/herbicide strength: NPIC says all registered acetic acid herbicides carry the signal word DANGER and advises buying an EPA-registered product and following its label; Maryland says 11% or more can burn skin and cause severe eye injury including blindness.
+   Source: https://ask.extension.org/kb/faq.php?id=616690 ; https://npic.orst.edu/faq/vinegar.html ; https://extension.umd.edu/resource/vinegar-alternative-glyphosate
+2. **The graphic says:** Spray on a HOT, sunny day: heat activates it. Spray vinegar at midday sun: heat + UV do the killing.
+   **The sources say:** The acid does the killing (it breaks open cell walls and the plant dries out). Maryland says burn-down is quickest in bright sunlight and most products act in about 15 minutes above 85°F with low humidity. No source mentions UV or midday, and none says heat 'activates' it.
+   Source: https://extension.umd.edu/resource/vinegar-alternative-glyphosate ; https://npic.orst.edu/faq/vinegar.html
+3. **The graphic says:** Deep-rooted weeds (dandelions) need 2–3 rounds.
+   **The sources say:** No source gives a number of rounds. Maryland: roots are not killed, repeat applications are needed for larger and perennial weeds, no more often than every two weeks. Iowa State: pull the entire plant and its deep taproot to prevent resprouting.
+   Source: https://extension.umd.edu/resource/vinegar-alternative-glyphosate ; https://yardandgarden.extension.iastate.edu/how-to/control-dandelions
+4. **The graphic says:** Salt sterilizes soil: use ONLY where nothing should grow (paths, driveways).
+   **The sources say:** No source says 'sterilizes'. UConn: salts build up with repeated applications and higher soil salt can harm desired plants nearby. Illinois: salt destroys soil structure and is mobile, migrating to nearby areas. So harm is not confined to the path or driveway.
+   Source: https://extension.uconn.edu/publication/homemade-pesticides/ ; https://extension.illinois.edu/blogs/ilriverhort/2018-04-08-homemade-herbicide-considerations
+5. **The graphic says:** Boiling water: Instant, free, zero residue.
+   **The sources say:** Iowa State: plants wilt almost immediately but do not brown for one to two days; it does not kill roots; established weeds resprout after several days; plan to retreat in 7 to 10 days because one application rarely kills the whole plant. UC: hot water gives limited suppression and is often not very effective because it cools quickly.
+   Source: https://yardandgarden.extension.iastate.edu/faq/can-i-manage-weeds-boiling-water ; https://ipm.ucanr.edu/home-and-landscape/weed-management-in-landscapes/
+6. **The graphic says:** 3–4 inches of wood chips blocks light. Weeds can't sprout in the dark. Under 2 inches, light gets through.
+   **The sources say:** UC: 3 to 4 inches for medium (3/4 inch) mulch, up to 4 for coarse, and about 2 inches for fine mulch. WSU: 4 to 6 inches for arborist wood chips; shallow coarse mulch enhances weeds. No source sets a 2-inch light cutoff. UC: perennial weeds such as field bindweed and nutsedge penetrate even thick mulch, and decomposed mulch lets seeds germinate on top.
+   Source: https://ipm.ucanr.edu/home-and-landscape/weed-management-in-landscapes/ ; https://wpcdn.web.wsu.edu/wp-ecommerce/uploads/sites/2/product-4265-sku-FS160E.pdf
+7. **The graphic says:** Pull after rain: get the crown or it regrows.
+   **The sources say:** Iowa State: pull the entire plant and its deep taproot to prevent resprouting. UC: remove the entire weed, including the root. The crown alone is not enough.
+   Source: https://yardandgarden.extension.iastate.edu/how-to/control-dandelions ; https://ipm.ucanr.edu/home-and-landscape/weed-management-in-lawns/
+8. **The graphic says:** Corn gluten meal: pre-emergent, stops weed SEEDS sprouting.
+   **The sources say:** Illinois: seeds still germinate and form leaves; the peptides stop root formation, and the seedling dies only if the soil then stays fairly dry for a few weeks. Results are inconsistent: Illinois says studies often show limited immediate control; UC says it did not give satisfactory control on California lawns.
+   Source: https://extension.illinois.edu/blogs/good-growing/2026-03-27-corn-gluten-meal-can-it-naturally-prevent-weeds-and-feed-your-lawn ; https://ipm.ucanr.edu/home-and-landscape/weed-management-in-lawns/
+9. **The graphic says:** Corn gluten meal: pet-safe lawn option.
+   **The sources say:** No source reviewed rates a lawn application for pets. Iowa State notes it is used in livestock, poultry and pet feeds; EPA lists it as eligible for minimum risk pesticide products, which EPA does not review. Neither is a safety rating, and 'safe' should not be used.
+   Source: https://yardandgarden.extension.iastate.edu/how-to/how-use-corn-gluten-meal-herbicide-lawn-and-garden ; https://www.epa.gov/sites/default/files/2015-12/documents/minrisk-active-ingredients-tolerances-2015-12-15.pdf
+10. **The graphic says:** No rain for 24h after spraying, or it washes off.
+   **The sources say:** No source gives a rain-free period after spraying. The only rain figure found runs the other way: Maryland says treatments must be delayed 24 to 48 hours or more after rain.
+   Source: https://extension.umd.edu/resource/vinegar-alternative-glyphosate
+11. **The graphic says:** Pet-safe reminder: vinegar & boiling water are pet-safe once dry.
+   **The sources say:** No source calls either pet-safe. UConn: keep children, pets and pollinators away from treated areas until the solution has dried. NPIC: keep everyone else away from the treatment area until dry; acetic acid can permanently damage corneas and burn skin. Iowa State: take care not to splash or burn yourself with boiling water.
+   Source: https://extension.uconn.edu/publication/homemade-pesticides/ ; https://npic.orst.edu/faq/vinegar.html
+12. **The graphic says:** Salt areas are NOT pet-safe: keep pets off until rinsed.
+   **The sources say:** No source supports rinsing as the fix. Merck: pets are poisoned by eating salt-containing materials; in dogs, signs can appear after 2 to 3 g/kg and vomiting starts within several hours. The realistic hazards are the jug, the sprayer and puddles; rinsing only moves dissolved salt into nearby soil (Illinois calls salt mobile).
+   Source: https://www.merckvetmanual.com/toxicology/salt-toxicosis/salt-toxicosis-in-animals ; https://extension.illinois.edu/blogs/ilriverhort/2018-04-08-homemade-herbicide-considerations
 

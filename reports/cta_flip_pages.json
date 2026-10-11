@@ -1,7 +1,7 @@
 {
  "generated": "from the built site",
  "counts": {
-  "keepReading": 410,
+  "keepReading": 416,
   "keepsQuoteCta": 33
  },
  "keepsQuoteCta": [
@@ -538,16 +538,22 @@
   "/blog/zappbug-oven-2-review-canada",
   "/blog/zappbug-room-review-canada",
   "/blog/zombie-ants",
+  "/learn/ant-killer-recipes",
   "/learn/ants",
+  "/learn/aphid-control-guide",
   "/learn/bed-bugs",
   "/learn/cockroaches",
   "/learn/how-to-combat-mosquitoes",
   "/learn/how-to-combat-ticks",
+  "/learn/how-to-get-rid-of-fungus-gnats",
   "/learn/mice",
   "/learn/mosquito-life-cycle",
+  "/learn/natural-garden-pest-control",
+  "/learn/natural-weed-control",
   "/learn/ontario-mosquito-tick-diseases",
   "/learn/pet-safe-pest-control",
   "/learn/tick-identification-chart",
-  "/learn/tick-life-cycle"
+  "/learn/tick-life-cycle",
+  "/learn/whitefly-identification-control"
  ]
 }

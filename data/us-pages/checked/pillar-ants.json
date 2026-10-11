@@ -2,9 +2,13 @@
  "id": "pillar-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "425292bb471eae6ea9d081debb3a418e2c42c9cc4a4049a0f78f1f0348a5bcd3",
+ "sha": "c44d681bee4212f0697c0663b63c8f529fd6698da85199c3312f6c17620ecec1",
  "claimsChecked": 250,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 6,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "linksAddedOn": "2026-10-11",
+ "linksAdded": [
+  "/learn/ant-killer-recipes"
+ ]
 }

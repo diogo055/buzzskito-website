@@ -2,9 +2,13 @@
  "id": "what-do-ants-eat",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "e409330006ea2d5b6e26d2436804b823f59a713bdaa4d7fc2711355305caa776",
+ "sha": "89d46e9b4fe1489e73415ee31b75f9500312d1e279177c216ff4ea2d34d89349",
  "claimsChecked": 64,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 7,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "linksAddedOn": "2026-10-11",
+ "linksAdded": [
+  "/learn/aphid-control-guide"
+ ]
 }

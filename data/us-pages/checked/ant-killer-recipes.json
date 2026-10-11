@@ -1,0 +1,10 @@
+{
+ "id": "ant-killer-recipes",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "f82a4af65efccbf85ac5e06a9471c832e57303df67bd27f0d18151a48a1b0a11",
+ "claimsChecked": 100,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-10-11"
+}

@@ -2,9 +2,14 @@
  "id": "lawn-pest-control",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "78821af7c5d6f3ab32849a091cb90cf4f1ca61556eeb7ab88f6a958c3782f096",
+ "sha": "2100953b89c57065c37e27391bc1f48df76bb25add094a201f573e70900e98ab",
  "claimsChecked": 82,
  "claimsCorrected": 12,
  "claimsRemovedOrSoftened": 10,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "linksAddedOn": "2026-10-11",
+ "linksAdded": [
+  "/learn/natural-garden-pest-control",
+  "/learn/natural-weed-control"
+ ]
 }

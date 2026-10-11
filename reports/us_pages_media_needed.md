@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-194 images across 79 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+207 images across 85 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -174,6 +174,10 @@
 
 - Close-up photo of a carpenter ant clamped by its jaws to the underside of a leaf vein, with a fungal stalk emerging from the back of its head and a coin beside it for scale
 - Side-by-side photos of dead carpenter ants gripping a twig, a leaf vein and the inside of a log, each with a fungal stalk growing from the back of the head, labeled by place and with a coin for scale
+
+## /learn/ant-killer-recipes
+
+- Step-by-step photo of a homemade enclosed ant bait station: a small lidded plastic tub with three small holes punched low in the side, a soaked cotton ball visible inside, the lid taped and hand-labeled with the contents and date, set against a baseboard beside an ant trail
 
 ## /learn/mice
 
@@ -432,3 +436,30 @@
 
 - Photo of a mouse snap trap set against the wall behind a refrigerator or inside a lower kitchen cabinet with the door ajar, showing a spot a cat or dog cannot reach once the door is closed
 - Side-by-side photo of a dog flea and tick spot-on box and a cat flea and tick spot-on box, with the species and weight range printed on each label circled
+
+## /learn/natural-garden-pest-control
+
+- Overhead diagram of a raised bed planted solid with French marigolds 7 inches apart as a cover crop, beside the same bed two months later planted with tomatoes, with a third panel showing the border-only planting that does not work
+- Side-by-side photo of an adult lady beetle and a lady beetle larva on an aphid-covered stem, with two or three brown aphid mummies visible, so readers do not mistake the larva for a pest
+
+## /learn/how-to-get-rid-of-fungus-gnats
+
+- Side-by-side macro photos of an adult fungus gnat, a fruit fly and a drain fly at the same scale against a ruler marked in sixteenths of an inch, with labels pointing to body shape, eye color and wing position
+- Photo of a small yellow sticky card on a stake pushed into a houseplant pot so the card sits just above the soil and under the leaves, with several fungus gnats caught on it
+
+## /learn/aphid-control-guide
+
+- Macro photo of an aphid colony on a soft green shoot tip, mixed sizes and at least one winged adult, sharp enough to show the pear shape and the two cornicles at the rear end, with a ruler edge marked in sixteenths of an inch for scale
+- Side-by-side diagram drawn to the same scale of an aphid (about 1/8 inch, pear-shaped, cornicles labeled), an adult whitefly (white wax-dusted wings) and a spider mite (dot-sized, with a strand of webbing), each on the underside of a leaf, with a one-line caption naming the giveaway for each
+- Four-panel photo set of the aphid predators gardeners mistake for pests: a spiky black-and-orange lady beetle larva, a green lacewing larva, a pale legless hover fly larva among aphids, and golden-brown aphid mummies with wasp exit holes, each labeled
+
+## /learn/whitefly-identification-control
+
+- Close-up photo of the underside of a tomato or hibiscus leaf showing white, moth-like adult whiteflies beside flat, pale oval nymphs and shiny honeydew droplets, with a pencil tip or ruler edge marked in sixteenths of an inch for scale
+- Side-by-side comparison illustration at the same scale of an adult whitefly, a pear-shaped green aphid, a cottony mealybug and a dark fungus gnat, each labeled with its size in inches and the part of the plant where it is found
+
+## /learn/natural-weed-control
+
+- Side-by-side photo of weeds in a paving crack: on the left, seedlings with 2 to 5 leaves (the stage a vinegar spray controls); on the right, an established dandelion rosette that will regrow from its root after spraying
+- Photo of a ruler pushed into fresh wood chip mulch in a shrub bed, reading 4 inches, with the mulch visibly tapered down to almost nothing where it meets the shrub's trunk
+- Photo of a freshly pulled dandelion with its full taproot intact lying beside a fishtail weeder on a lawn, with visibly damp soil in the hole
