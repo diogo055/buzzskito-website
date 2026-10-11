@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
 import { SITE_URL, PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-combat-ticks'
 const TITLE = 'How to Combat Ticks in Ontario — 10-Step Yard &amp; Family Guide'
@@ -159,7 +159,7 @@ export default function HowToCombatTicksPage() {
         </div>
       </article>
 
-      <CTASection heading="Take On the Ticks in Your Yard" subtext={`Get a free quote for licensed tick barrier spray: 5 sprays per season, $597 on its own or $497 with a mosquito plan (plus HST). ${PROMISES.response}`} variant="dark" />
+      <ReadNext path="/learn/how-to-combat-ticks" standalone />
     </>
   )
 }

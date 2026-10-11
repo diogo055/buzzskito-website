@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-get-rid-of-drain-flies-canada'
 const DATE = '2026-07-30'
@@ -431,10 +431,7 @@ export default function DrainFliesCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="We don't treat drain flies — but standing water and chronic damp around a property drive mosquito pressure the same way they drive drain flies. Free yard assessment across 19 GTA cities."
-      />
+      <ReadNext path="/blog/how-to-get-rid-of-drain-flies-canada" standalone />
     </>
   )
 }

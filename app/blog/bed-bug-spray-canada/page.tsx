@@ -11,6 +11,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bed-bug-spray-canada'
 const DATE = '2026-07-16'
@@ -505,6 +506,7 @@ export default function BedBugSprayCanadaPage() {
           </ul>
         </div>
         <AdjacentPestCTA pest="bed bugs" />
+        <ReadNext path="/blog/bed-bug-spray-canada" />
       </article>
 
       <section className="py-10 px-4 bg-brand-50 border-t border-navy-100">

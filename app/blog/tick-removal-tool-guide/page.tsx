@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -9,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'tick-removal-tool-guide'
 const DATE = '2026-04-26'
@@ -301,7 +301,7 @@ export default function TickRemovalToolGuidePage() {
         </div>
       </article>
 
-      <CTASection heading="Stop Finding Ticks in the First Place" subtext="Yard tick barrier spray treats the leaf litter and shaded edges where ticks quest. Tick seasons from $597, or $497 with a mosquito plan." variant="dark" />
+      <ReadNext path="/blog/tick-removal-tool-guide" standalone />
     </>
   )
 }

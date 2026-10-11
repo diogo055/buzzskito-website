@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -9,6 +8,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-facts'
 const DATE = '2026-07-12'
@@ -263,7 +263,7 @@ export default function MosquitoFactsPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (Bti larvicide)" search="summit mosquito dunks" label="Best first buy" />
 
-      <CTASection heading="Facts Are Nice — A Bite-Free Yard Is Better" subtext="Get a free quote for licensed barrier spray. From $99. Rain-back guarantee on every plan." variant="dark" />
+      <ReadNext path="/blog/mosquito-facts" standalone />
     </>
   )
 }

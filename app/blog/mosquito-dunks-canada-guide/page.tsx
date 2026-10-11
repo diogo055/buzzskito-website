@@ -1,9 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
 import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
 import AwardRow from '@/components/AwardRow'
@@ -13,6 +10,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-dunks-canada-guide'
 const DATE = '2026-04-28'
@@ -267,7 +265,6 @@ export default function MosquitoDunksPage() {
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (6-pack)" asin="B005UTKT0W" search="summit mosquito dunks" label="Best for standing water" />
 
       <div className="max-w-4xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
-        <BlogPostCTA />
       </div>
 
       {/* QUICK ANSWER — first content element */}
@@ -577,7 +574,6 @@ export default function MosquitoDunksPage() {
           <p>Mosquito dunks contain dried BTI bacterial spores compressed into a slow-release tablet. When placed in water, the dunk slowly releases BTI spores into the surrounding water column. Mosquito larvae are filter feeders — they consume the spores as they feed, and the BTI proteins disrupt their digestive system. Death occurs within 24–48 hours.</p>
           <p>Importantly, BTI is highly specific to mosquito and black fly larvae (and a few related species). The U.S. Environmental Protection Agency states that BTI toxins affect only the larvae of mosquitoes, black flies, and fungus gnats, so humans, pets, fish, frogs, dragonflies, water beetles, pollinators, and birds are not on its target list. That narrow target list is why BTI is so widely used in ponds and rain barrels; use it where the label directs.</p>
 
-          <InlineYardRiskCTA pretext="Free 60-second tool · 1-100 risk score" />
 
           <h2>Where to Use Mosquito Dunks (and Where Not To)</h2>
           <h3>✓ Ideal locations</h3>
@@ -943,7 +939,7 @@ export default function MosquitoDunksPage() {
         </div>
       </article>
 
-      <CTASection heading="Mosquito Dunks Take Care of Larvae · Barrier Spray Takes Care of the Rest" subtext={`Get a free quote for professional yard barrier spray. From $99 on a standard lot. ${PROMISES.licence}. ${PROMISES.labelLine}.`} variant="dark" />
+      <ReadNext path="/blog/mosquito-dunks-canada-guide" standalone />
     </>
   )
 }

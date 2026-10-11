@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -10,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, CITIES, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const POST = MOSQUITO_BLOGS.pillar
 const UPDATED = POST.date
@@ -243,7 +243,7 @@ export default function MosquitoPillarPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (Bti larvicide)" search="summit mosquito dunks" label="Best DIY add-on" />
 
-      <CTASection heading="Ready to Reclaim Your Backyard?" subtext="Get a free mosquito control quote for your GTA property. No contracts required." />
+      <ReadNext path="/blog/ultimate-backyard-mosquito-control-guide" standalone />
     </>
   )
 }

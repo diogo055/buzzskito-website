@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -10,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'fall-yard-cleanup-leaf-blower-canada'
 const DATE = '2026-08-22'
@@ -329,7 +329,7 @@ export default function FallYardCleanupLeafBlowerCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Clear the Leaves in October. Treat the Yard in May." subtext="Licensed mosquito and tick barrier spray from $99 across 19+ GTA cities. Tick programs run 5 sprays a season. 150 five-star reviews." variant="dark" />
+      <ReadNext path="/blog/fall-yard-cleanup-leaf-blower-canada" standalone />
     </>
   )
 }

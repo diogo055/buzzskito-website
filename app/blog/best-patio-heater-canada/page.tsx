@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -10,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-patio-heater-canada'
 const DATE = '2026-08-22'
@@ -312,7 +312,7 @@ export default function BestPatioHeaterCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="You Bought the Evenings. Keep the Bugs Off Them." subtext="Licensed mosquito and tick barrier spray from $99 across 19+ GTA cities. 150 five-star reviews, May through September." variant="dark" />
+      <ReadNext path="/blog/best-patio-heater-canada" standalone />
     </>
   )
 }

@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
@@ -11,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const POST = {
   title: 'Are Ticks Dangerous in Ontario?',
@@ -128,7 +127,6 @@ export default function AreTicksDangerousPage() {
 
         {/* Service arm takes the top slot on a GTA-relevant page: quote CTA first, then
             the affiliate disclosure, then the aftercare module. Order is deliberate. */}
-        <BlogPostCTA />
         <AffiliateDisclosure />
         <aside aria-label="What to do right now" className="not-prose my-8 rounded-2xl border border-emerald-200 bg-emerald-50/70 p-5 sm:p-6">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-3">What to do right now</p>
@@ -311,7 +309,7 @@ export default function AreTicksDangerousPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Tick-removal tool kit" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Don't Wait Until Someone Gets Bitten" subtext="Professional tick barrier spray targets the shaded edges and leaf litter where ticks wait. Free quote for all GTA properties." variant="dark" />
+      <ReadNext path="/blog/are-ticks-dangerous-ontario" standalone />
     </>
   )
 }

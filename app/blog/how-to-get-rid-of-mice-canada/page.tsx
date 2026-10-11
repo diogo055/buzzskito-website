@@ -10,6 +10,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-get-rid-of-mice-canada'
 const DATE = '2026-07-16'
@@ -355,6 +356,7 @@ export default function HowToGetRidOfMiceCanadaPage() {
 
         <StickyBuyBar tag={AMZ_TAG} name="Victor M325 Wood Snap Trap" search="victor mouse trap 4 pack" label="Best trap" />
         <AdjacentPestCTA pest="rodents" />
+        <ReadNext path="/blog/how-to-get-rid-of-mice-canada" />
       </article>
     </>
   )

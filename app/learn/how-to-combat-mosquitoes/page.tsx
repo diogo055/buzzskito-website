@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
 import { SITE_URL, PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-combat-mosquitoes'
 const TITLE = 'How to Combat Mosquitoes in Ontario — 10-Step Backyard Guide'
@@ -153,7 +153,7 @@ export default function HowToCombatMosquitoesPage() {
         </div>
       </article>
 
-      <CTASection heading="Take Back Your Backyard" subtext={`Get a free quote for licensed mosquito barrier spray. From $99 on a standard lot under 10,000 sq ft. ${PROMISES.response}`} variant="dark" />
+      <ReadNext path="/learn/how-to-combat-mosquitoes" standalone />
     </>
   )
 }

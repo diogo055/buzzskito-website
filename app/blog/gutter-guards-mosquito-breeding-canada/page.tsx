@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import StickyBuyBar from '@/components/StickyBuyBar'
@@ -9,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'gutter-guards-mosquito-breeding-canada'
 const DATE = '2026-08-22'
@@ -314,7 +314,7 @@ export default function GutterGuardsMosquitoBreedingPage() {
         </div>
       </article>
 
-      <CTASection heading="Breeding Sites Gone. Adults Next." subtext="Licensed barrier spray from $99 across 19+ GTA cities. 150 five-star Google reviews, 5.0 average." variant="dark" />
+      <ReadNext path="/blog/gutter-guards-mosquito-breeding-canada" standalone />
     </>
   )
 }

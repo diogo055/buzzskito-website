@@ -10,6 +10,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'ultrasonic-pest-repellers-do-they-work'
 const DATE = '2026-07-16'
@@ -246,6 +247,7 @@ export default function UltrasonicPestRepellersPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="pest repellers" />
+        <ReadNext path="/blog/ultrasonic-pest-repellers-do-they-work" />
       </article>
 
       <StickyBuyBar tag={AMZ_TAG} name="Victor M250S electronic mouse trap" search="victor electronic mouse trap" label="What to buy instead" />

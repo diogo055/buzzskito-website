@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-get-rid-of-mosquitoes-in-the-house'
 const DATE = '2026-07-15'
@@ -338,7 +338,7 @@ export default function GetRidOfMosquitoesInHousePage() {
         </div>
       </article>
 
-      <CTASection heading="Kill Them Outside Before They Get In" subtext={`Get a free quote for licensed yard barrier spray. From $99 on a standard lot. ${PROMISES.response} Serving 19 GTA cities.`} variant="dark" />
+      <ReadNext path="/blog/how-to-get-rid-of-mosquitoes-in-the-house" standalone />
     </>
   )
 }

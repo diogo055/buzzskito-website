@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -9,6 +8,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'june-bugs-ontario'
 const DATE = '2026-07-12'
@@ -248,7 +248,7 @@ export default function JuneBugsOntarioPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="June Bugs Are Harmless — Mosquitoes and Ticks Aren&rsquo;t" subtext="Get a free quote for licensed barrier spray across the GTA. From $99. Rain-back guarantee on every plan." variant="dark" />
+      <ReadNext path="/blog/june-bugs-ontario" standalone />
     </>
   )
 }

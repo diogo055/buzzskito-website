@@ -1,4 +1,7 @@
 # New pages, in the order to request indexing in Google Search Console (URL Inspection > Request indexing).
+# 0. The visual guides (Oct 11), priority order
+https://buzzskito.ca/blog/fall-mouse-proofing-checklist
+https://buzzskito.ca/blog/signs-of-bed-bugs-checklist
 # 1. The four hub pages
 https://buzzskito.ca/learn/bed-bugs
 https://buzzskito.ca/learn/ants

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -9,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-repellent-guide-ontario-2026'
 const DATE = '2026-04-26'
@@ -325,7 +325,7 @@ export default function MosquitoRepellentGuidePage() {
         </div>
       </section>
 
-      <CTASection heading="Skip Personal Repellent in Your Own Yard" subtext="Professional barrier spray controls the population, not just what's on your skin. From $99." variant="dark" />
+      <ReadNext path="/blog/mosquito-repellent-guide-ontario-2026" standalone />
     </>
   )
 }

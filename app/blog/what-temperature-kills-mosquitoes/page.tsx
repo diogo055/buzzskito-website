@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'what-temperature-kills-mosquitoes'
 const DATE = '2026-07-16'
@@ -323,15 +323,6 @@ export default function WhatTemperatureKillsMosquitoesPage() {
           </ul>
           <p>Neither touches the overwintering eggs or hibernating females, which are freeze-adapted. So frost ends the flying season without ending the population &mdash; a frost is a reset button, not a delete button.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Waiting for frost isn&rsquo;t a mosquito plan</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Because eggs and hibernating females survive every Ontario winter, populations rebuild fast each spring. BuzzSkito&rsquo;s licensed barrier spray knocks down adults and treats resting zones all season &mdash; from $99, backed by 150+ five-star Google reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Why cold weather doesn&rsquo;t solve your mosquito problem</h2>
           <p><strong>Cold sets the timing of mosquito season, not the size of the population.</strong> A frost kills the adults you can see, while freeze-tolerant eggs and diapausing females wait it out in gutters, tarps, sheds and window wells. Standing water and shaded resting habitat &mdash; not winter temperature &mdash; decide how bad next summer gets.</p>
           <p>Homeowners often assume the first frost is the finish line. It ends the <em>current</em> generation of biting adults, but the clock is already reset for next year. Freeze-tolerant eggs sit in your gutters, tarps, plant saucers and low spots; diapausing females shelter in your shed and window wells. When spring temperatures climb back over 10&deg;C and water pools warm up, hatching begins &mdash; and by the time GTA evenings hit the low 20s&deg;C, biting is back in full force.</p>
@@ -598,7 +589,7 @@ export default function WhatTemperatureKillsMosquitoesPage() {
         </div>
       </article>
 
-      <CTASection heading="Don&rsquo;t wait for frost — get ahead of mosquito season" subtext={`Licensed barrier spray for GTA backyards. From $99. ${PROMISES.rainBackShort}.`} variant="dark" />
+      <ReadNext path="/blog/what-temperature-kills-mosquitoes" standalone />
     </>
   )
 }

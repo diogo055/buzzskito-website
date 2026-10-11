@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -10,6 +9,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const POST = NEW_BLOGS_2[1]
 const UPDATED = POST.date
@@ -237,7 +237,7 @@ export default function HiddenBreedingSpotsPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Summit BTI Mosquito Dunks" search="summit mosquito dunks" label="For water you can’t drain" />
 
-      <CTASection heading="Eliminate Breeding Sites — Then Treat the Resting Sites" subtext={`BuzzSkito barrier spray treats the shaded vegetation where adult mosquitoes rest, across your whole yard. ${PROMISES.rainBack}`} />
+      <ReadNext path="/blog/hidden-mosquito-breeding-spots-backyard" standalone />
     </>
   )
 }

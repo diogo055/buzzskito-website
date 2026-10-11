@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -9,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-do-a-tick-check'
 const DATE = '2026-07-12'
@@ -238,7 +238,7 @@ export default function HowToDoATickCheckPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick-Removal Tool" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Fewer Ticks in the Yard Means Fewer Tick Checks" subtext="A seasonal barrier spray targets ticks where they wait — lawn edges, leaf litter, and shaded borders. From $99 on a standard lot." variant="dark" />
+      <ReadNext path="/blog/how-to-do-a-tick-check" standalone />
     </>
   )
 }

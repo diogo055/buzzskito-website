@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -10,6 +9,7 @@ import TopPick from '@/components/TopPick'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'thermacell-refills-recharge-canada'
 const DATE = '2026-07-12'
@@ -275,7 +275,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Thermacell for the Table · Barrier Spray for the Yard" subtext={`Get a free quote for licensed whole-yard mosquito & tick control. From $99. ${PROMISES.labelLine}. ${PROMISES.rainBackShort}.`} variant="dark" />
+      <ReadNext path="/blog/thermacell-refills-recharge-canada" standalone />
     </>
   )
 }

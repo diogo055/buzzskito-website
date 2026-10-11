@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -9,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'ortho-home-defense-canada-review'
 const DATE = '2026-07-12'
@@ -313,7 +313,7 @@ export default function OrthoHomeDefenseCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Grey-Market Sprays · Get Licensed Yard Protection" subtext="Get a free quote for professional barrier spray. From $99. Licensed application according to label directions. Whole-yard mosquito + tick control, with a rain-back guarantee on every plan." variant="dark" />
+      <ReadNext path="/blog/ortho-home-defense-canada-review" standalone />
     </>
   )
 }

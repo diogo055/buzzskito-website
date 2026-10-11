@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -11,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'permethrin-canada-yard-clothing-spray'
 const DATE = '2026-05-01'
@@ -194,7 +193,6 @@ export default function PermethrinCanadaPage() {
           </div>
           {/* Service arm takes the top slot on this GTA-relevant page: quote CTA above
               the first affiliate module (the AwardRow below), per the service-arm rule. */}
-          <BlogPostCTA />
           <aside aria-label="What to do right now" className="not-prose my-8 rounded-2xl border border-emerald-200 bg-emerald-50/70 p-5 sm:p-6">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-3">What to do right now</p>
             <p className="text-[15px] text-gray-800 leading-relaxed mb-4">You came looking for a spray you cannot legally buy here. That does not leave you without a plan before the weekend &mdash; it changes which three things the plan is made of.</p>
@@ -646,7 +644,7 @@ export default function PermethrinCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Permethrin Protects Your Clothing · Barrier Spray Treats Your Yard" subtext={`Get a free quote for licensed barrier spray. From $99. ${PROMISES.labelLine}. ${PROMISES.licence}.`} variant="dark" />
+      <ReadNext path="/blog/permethrin-canada-yard-clothing-spray" standalone />
     </>
   )
 }

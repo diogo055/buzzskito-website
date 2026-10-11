@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bed-bug-treatment-cost-canada'
 const DATE = '2026-07-30'
@@ -434,10 +434,7 @@ export default function BedBugTreatmentCostCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="We don't treat bed bugs — but if you want the same plain pricing logic applied to mosquito and tick control on your own property, that quote is free across 19 GTA cities."
-      />
+      <ReadNext path="/blog/bed-bug-treatment-cost-canada" standalone />
     </>
   )
 }

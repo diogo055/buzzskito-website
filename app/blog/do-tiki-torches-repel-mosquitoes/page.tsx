@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -9,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'do-tiki-torches-repel-mosquitoes'
 const DATE = '2026-07-16'
@@ -295,7 +295,7 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Thermacell E90 (rechargeable)" search="thermacell e90 rechargeable" label="Better than torches" />
 
-      <CTASection heading="Torches for Ambiance · Barrier Spray for Actual Mosquitoes" subtext="Get a free quote for licensed barrier spray. From $99. Rain-back guarantee on every plan." variant="dark" />
+      <ReadNext path="/blog/do-tiki-torches-repel-mosquitoes" standalone />
     </>
   )
 }

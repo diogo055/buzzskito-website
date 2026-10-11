@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-bite-vs-spider-bite'
 const DATE = '2026-07-16'
@@ -219,7 +219,7 @@ export default function MosquitoBiteVsSpiderBitePage() {
         </div>
       </article>
 
-      <CTASection heading="Fewer mosquitoes. Fewer bites to worry about." subtext={`Get a free quote for licensed barrier spray. From $99 on a standard lot. ${PROMISES.response} 150+ five-star Google reviews across the GTA.`} variant="dark" />
+      <ReadNext path="/blog/mosquito-bite-vs-spider-bite" standalone />
     </>
   )
 }

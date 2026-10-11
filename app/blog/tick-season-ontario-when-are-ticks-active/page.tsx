@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import ReadNext from '@/components/ReadNext'
 
 const POST = TICK_BLOGS.supporting[4]
 
@@ -195,7 +195,7 @@ export default function TickSeasonPage() {
         </ul>
       </article>
 
-      <CTASection heading="Book Your 2026 Tick Control Treatments" subtext="Time your treatments to the peak risk windows. Free quote, no contracts." variant="dark" />
+      <ReadNext path="/blog/tick-season-ontario-when-are-ticks-active" standalone />
       <StickyBuyBar tag={AMZ_TAG} name="Tick-removal tool kit" search="tick removal tool tweezers" label="For tick season" />
     </>
   )

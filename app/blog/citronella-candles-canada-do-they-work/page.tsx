@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -8,6 +7,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'citronella-candles-canada-do-they-work'
 const DATE = '2026-07-12'
@@ -326,7 +326,7 @@ export default function CitronellaCandlesCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Candles for Ambiance · Barrier Spray for Actual Mosquitoes" subtext={`Get a free quote for licensed barrier spray. From $99. ${PROMISES.rainBackShort}.`} variant="dark" />
+      <ReadNext path="/blog/citronella-candles-canada-do-they-work" standalone />
     </>
   )
 }

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
@@ -10,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'co2-mosquito-trap-canada'
 const DATE = '2026-07-14'
@@ -335,7 +335,7 @@ export default function Co2MosquitoTrapCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="A Trap Thins Them Out. We Treat the Whole Yard." subtext="Get a free quote for licensed barrier spray across the GTA. From $99. Products applied according to label directions." variant="dark" />
+      <ReadNext path="/blog/co2-mosquito-trap-canada" standalone />
     </>
   )
 }

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -10,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'patio-heater-vs-fire-table-canada'
 const DATE = '2026-08-22'
@@ -351,7 +351,7 @@ export default function PatioHeaterVsFireTableCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Heat the Patio. We&rsquo;ll Handle What Bites On It." subtext="Licensed mosquito and tick barrier spray from $99. 19+ GTA cities, May through September. 150 five-star reviews." variant="dark" />
+      <ReadNext path="/blog/patio-heater-vs-fire-table-canada" standalone />
     </>
   )
 }

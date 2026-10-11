@@ -10,6 +10,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-sump-pump-for-basement-canada'
 const DATE = '2026-08-22'
@@ -328,6 +329,7 @@ export default function BestSumpPumpForBasementCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="silverfish and centipedes" />
+        <ReadNext path="/blog/best-sump-pump-for-basement-canada" />
       </article>
     </>
   )

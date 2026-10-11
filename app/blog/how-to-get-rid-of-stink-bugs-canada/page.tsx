@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-get-rid-of-stink-bugs-canada'
 const DATE = '2026-07-30'
@@ -360,10 +360,7 @@ export default function HowToGetRidOfStinkBugsCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="We don't treat stink bugs — but the sealing and yard work that keeps them out is the same work that cuts mosquito and tick pressure. Free assessment across 19 GTA cities."
-      />
+      <ReadNext path="/blog/how-to-get-rid-of-stink-bugs-canada" standalone />
     </>
   )
 }

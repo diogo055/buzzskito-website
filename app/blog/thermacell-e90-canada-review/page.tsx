@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
@@ -11,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'thermacell-e90-canada-review'
 const DATE = '2026-07-14'
@@ -340,7 +340,7 @@ export default function ThermacellE90CanadaReviewPage() {
         </div>
       </article>
 
-      <CTASection heading="Thermacell for the Patio · Barrier Spray for the Yard" subtext="Get a free quote for licensed whole-yard barrier spray. From $99. Rain-back guarantee on every plan." variant="dark" />
+      <ReadNext path="/blog/thermacell-e90-canada-review" standalone />
     </>
   )
 }

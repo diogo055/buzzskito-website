@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-get-rid-of-voles-canada'
 const DATE = '2026-07-30'
@@ -442,10 +442,7 @@ export default function HowToGetRidOfVolesCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="The Same Overgrown Edge Is a Tick Problem Too"
-        subtext="We don't treat voles — but the unmown fence line and leaf litter they live in is exactly where blacklegged ticks wait. Free yard assessment across 19 GTA cities."
-      />
+      <ReadNext path="/blog/how-to-get-rid-of-voles-canada" standalone />
     </>
   )
 }

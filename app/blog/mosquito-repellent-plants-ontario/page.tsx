@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -10,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const POST = NEW_BLOGS_2[0]
 const UPDATED = POST.date
@@ -364,7 +364,7 @@ export default function MosquitoRepellentPlantsPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="Combine Plants With Professional Protection" subtext={`BuzzSkito barrier spray covers your entire yard — not just the plants. ${PROMISES.rainBack}`} />
+      <ReadNext path="/blog/mosquito-repellent-plants-ontario" standalone />
     </>
   )
 }

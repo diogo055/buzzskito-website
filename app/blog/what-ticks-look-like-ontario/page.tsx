@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -13,6 +11,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { withRegionalAlternates } from '@/lib/guides'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const POST = TICK_BLOGS.supporting[1]
 const UPDATED = '2026-07-12'
@@ -80,7 +79,6 @@ export default function WhatTicksLookLikePage() {
         <p className="text-lg text-gray-600 not-prose border-l-4 border-amber-400 pl-5 py-2 mb-8">
           Knowing what ticks look like — and how small they can be — is the first step in protecting your family. Part of our <Link href={`/blog/${TICK_BLOGS.pillar.slug}`} className="text-brand-700 underline">Ultimate Tick Control Guide for Ontario Homeowners</Link>.
         </p>
-        <BlogPostCTA />
         <AffiliateDisclosure />
         <p className="not-prose text-gray-700">Trying to identify one that is still attached? Get it off first. A fine-tipped remover grips at the head and lifts the whole tick out in one piece, so you have something intact to compare against the pictures below. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>
 
@@ -266,7 +264,7 @@ export default function WhatTicksLookLikePage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Tick Twister-style removal hook" search="otom tick twister" label="For removal" />
 
-      <CTASection heading="Protect Your Yard from Ticks This Season" subtext="Professional tick spray targets ticks at all life stages. Free quote for your GTA property." variant="dark" />
+      <ReadNext path="/blog/what-ticks-look-like-ontario" standalone />
     </>
   )
 }

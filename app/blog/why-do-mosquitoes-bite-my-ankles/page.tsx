@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import AuthorByline from '@/components/AuthorByline'
 import Figure from '@/components/Figure'
 import BuyLink from '@/components/BuyLink'
@@ -9,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'why-do-mosquitoes-bite-my-ankles'
 const DATE = '2026-07-16'
@@ -113,7 +112,6 @@ export default function WhyMosquitoesBiteAnklesPage() {
       {/* Service CTA first (lead value), then the aftercare module below it */}
       <section className="px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <BlogPostCTA />
           <AffiliateDisclosure />
           <p className="not-prose text-[15px] text-gray-700 leading-relaxed my-4">The one purchase in the fix list below is a knee-down repellent, and for ankles most families here reach for an <strong>icaridin</strong> (picaridin) spray &mdash; it is odourless and does not soften sandal straps or watch bands the way DEET can. Check the PCP registration number and follow the age directions on the label. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Check price on Amazon.ca &rarr;</BuyLink></p>
         </div>
@@ -261,7 +259,7 @@ export default function WhyMosquitoesBiteAnklesPage() {
         </div>
       </article>
 
-      <CTASection heading="Stop the Ankle-Bite Ambush" subtext="You can't change your foot chemistry — but you can clear the mosquitoes from your yard. Licensed barrier spray from $99. +HST." variant="dark" />
+      <ReadNext path="/blog/why-do-mosquitoes-bite-my-ankles" standalone />
       <StickyBuyBar tag={AMZ_TAG} name="Icaridin insect repellent" search="icaridin insect repellent" label="For your ankles" />
     </>
   )

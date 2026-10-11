@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'baby-bed-bugs-nymphs'
 const DATE = '2026-07-30'
@@ -507,10 +507,7 @@ export default function BabyBedBugsNymphsCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="We don't treat bed bugs — but if you are in the GTA and the bites turn out to be from something outdoors, that is exactly what we do. Free assessment across 19 cities."
-      />
+      <ReadNext path="/blog/baby-bed-bugs-nymphs" standalone />
     </>
   )
 }

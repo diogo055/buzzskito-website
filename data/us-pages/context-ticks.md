@@ -18,6 +18,8 @@
 
 - `/blog/do-chickens-eat-ticks` — **do chickens eat ticks**. Chickens, guinea fowl and other animals credited with eating ticks: yes they eat some, what the published studies actually measured, why that does not add up to tick control for a yard, the opossum claim and what later research found, and what does reduce ticks.
 
+- `/learn/tick-identification-chart` — **tick identification chart**. A comparison chart of the three ticks people most need to tell apart: the blacklegged (deer) tick, the American dog tick and the lone star tick. For each: adult female, adult male and nymph size with an everyday size comparison and inches, the markings that identify it, the diseases CDC says it can transmit, where it lives in the United States, and its range in Ontario and the rest of Canada (cite the Government of Canada or Public Health Ontario for the Canadian range). A size-scale table by life stage. What to do with a tick you have removed, and how to get it identified. A printable tick-check routine card: where on the body to look, in order. This page may name Ontario and Canada: it serves both countries.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -93,6 +95,15 @@
 - `/blog/natural-pest-control` — natural pest control
 - `/blog/lawn-pest-control` — lawn pest control
 - `/blog/commercial-pest-control` — commercial pest control
+- `/blog/fall-mouse-proofing-checklist` — how to mouse proof your house
+- `/learn/ant-killer-recipes` — homemade ant killer
+- `/blog/signs-of-bed-bugs-checklist` — signs of bed bugs
+- `/learn/pet-safe-pest-control` — pet safe pest control
+- `/learn/natural-garden-pest-control` — natural garden pest control
+- `/learn/how-to-get-rid-of-fungus-gnats` — how to get rid of fungus gnats
+- `/learn/aphid-control-guide` — how to get rid of aphids naturally
+- `/learn/whitefly-identification-control` — how to get rid of whiteflies
+- `/learn/natural-weed-control` — natural weed killer
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

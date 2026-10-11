@@ -10,6 +10,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mouse-bait-station-canada'
 const DATE = '2026-07-16'
@@ -256,6 +257,7 @@ export default function MouseBaitStationCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="rodents" />
+        <ReadNext path="/blog/mouse-bait-station-canada" />
       </article>
     </>
   )

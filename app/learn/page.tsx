@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, speakableSchema, itemListSchema } from '@/lib/seo'
-import { SITE_URL } from '@/lib/constants'
+import { SITE_URL, US_GUIDE_LEARN_PAGES } from '@/lib/constants'
 
 const HUBS = [
   {
@@ -113,6 +113,29 @@ export default function LearnHubPage() {
           </div>
         </div>
       </section>
+
+      {/* Printable guides (Oct 2026): recipes, checklists and ID charts, generated list */}
+      {US_GUIDE_LEARN_PAGES.length > 0 && (
+        <section aria-labelledby="printable-guides" className="pb-12 px-4 bg-white">
+          <div className="max-w-4xl mx-auto">
+            <h2 id="printable-guides" className="text-2xl font-extrabold text-brand-900 mb-2">Printable guides and checklists</h2>
+            <p className="text-sm text-gray-600 leading-relaxed mb-5 max-w-2xl">One-page guides you can print or save: recipes with exact measurements, identification charts and step-by-step checklists, each with notes on pets and children and the sources behind it.</p>
+            <div className="grid gap-5 sm:grid-cols-2">
+              {US_GUIDE_LEARN_PAGES.map((g) => (
+                <Link
+                  key={g.slug}
+                  href={`/learn/${g.slug}`}
+                  className="group block rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md hover:border-brand-300"
+                >
+                  <h3 className="text-lg font-extrabold text-brand-900 mb-2 group-hover:text-brand-700 transition-colors">{g.title}</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed mb-3">{g.excerpt}</p>
+                  <span className="text-sm font-bold text-brand-700 group-hover:text-brand-600">Read the guide →</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="pb-14 px-4 bg-white">
         <div className="max-w-4xl mx-auto rounded-2xl bg-brand-50 border border-brand-100 p-6 sm:p-7">

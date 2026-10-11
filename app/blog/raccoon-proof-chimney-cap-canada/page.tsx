@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'raccoon-proof-chimney-cap-canada'
 const DATE = '2026-08-22'
@@ -338,6 +339,7 @@ export default function RaccoonProofChimneyCapCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="raccoons" />
+        <ReadNext path="/blog/raccoon-proof-chimney-cap-canada" />
       </article>
     </>
   )

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -10,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'do-cedar-trees-attract-mosquitoes'
 const DATE = '2026-04-26'
@@ -257,7 +257,7 @@ export default function CedarTreesMosquitoesPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Thermacell Patio Repeller" search="thermacell mosquito repeller" label="For the patio at dusk" />
 
-      <CTASection heading="Treat the Resting Habitat — Not the Hedge" subtext="Professional barrier spray targets the underside of cedars, ornamental beds, and lawn edges. Free quote available." />
+      <ReadNext path="/blog/do-cedar-trees-attract-mosquitoes" standalone />
     </>
   )
 }

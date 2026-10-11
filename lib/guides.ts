@@ -14,8 +14,9 @@
 import type { Metadata } from 'next'
 import { buildMetadata, blogPostingSchema, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { SITE_URL, BUSINESS } from '@/lib/constants'
+import heroes from '@/lib/us-guide-heroes.json'
 
-export type GuideCluster = 'bed-bugs' | 'ants' | 'mice' | 'cockroaches' | 'mosquitoes' | 'ticks' | 'pest-control'
+export type GuideCluster = 'bed-bugs' | 'ants' | 'mice' | 'cockroaches' | 'mosquitoes' | 'ticks' | 'pest-control' | 'garden'
 
 export type GuideBlock =
   | { type: 'h2'; text: string }
@@ -26,10 +27,30 @@ export type GuideBlock =
   | { type: 'callout'; tone?: 'tip' | 'warning' | 'note'; title?: string; text: string }
   /** A photo or diagram the page still needs. Not rendered; listed in reports/us_pages_media_needed.md. */
   | { type: 'media'; needed: string }
+  /** One remedy with exact measurements, what it does and does not do, and a pet/child safety tier. */
+  | {
+      type: 'recipe'
+      title: string
+      makes?: string
+      ingredients: string[]
+      steps: string[]
+      works?: string
+      limits?: string
+      safety: { tier: 'lower-risk' | 'caution' | 'keep-away'; pets: string; children: string }
+      source?: string
+    }
+  /** A list the reader works through, item by item. */
+  | { type: 'checklist'; title?: string; items: string[] }
+  /** The printable: a cheat sheet, recipe card or routine that stands on its own. */
+  | { type: 'card'; title: string; intro?: string; items: string[]; note?: string }
 
 export interface Guide {
   slug: string
   kind: 'spoke' | 'pillar'
+  /** Where the page lives when that is not implied by `kind` (the visual guides under /learn). */
+  section?: 'learn' | 'blog'
+  /** Describes the hero infographic for screen readers and search engines (visual guides). */
+  heroAlt?: string
   cluster: GuideCluster
   /** The search this page answers, and any near-identical searches folded into it. */
   keyword: string
@@ -59,7 +80,10 @@ export interface Guide {
   reviewedOn?: string
 }
 
-export const guidePath = (g: Pick<Guide, 'slug' | 'kind'>) => (g.kind === 'pillar' ? `/learn/${g.slug}` : `/blog/${g.slug}`)
+export const guidePath = (g: Pick<Guide, 'slug' | 'kind' | 'section'>) => `/${g.section ?? (g.kind === 'pillar' ? 'learn' : 'blog')}/${g.slug}`
+
+/** Hero images that exist in public/guides, by page address. Written by scripts/us-pages-register.mjs. */
+export const GUIDE_HEROES = heroes as Record<string, { src: string; width: number; height: number }>
 
 export const CLUSTER_LABEL: Record<GuideCluster, string> = {
   'bed-bugs': 'bed bugs',
@@ -69,6 +93,7 @@ export const CLUSTER_LABEL: Record<GuideCluster, string> = {
   mosquitoes: 'mosquitoes',
   ticks: 'ticks',
   'pest-control': 'pest control',
+  garden: 'garden pests',
 }
 
 /** The pillar each cluster reports to. Mosquito and tick guides use the two existing pillar guides. */
@@ -79,6 +104,7 @@ export const CLUSTER_PILLAR: Partial<Record<GuideCluster, { href: string; name: 
   cockroaches: { href: '/learn/cockroaches', name: 'Cockroaches' },
   mosquitoes: { href: '/blog/ultimate-backyard-mosquito-control-guide', name: 'Mosquito Control Guide' },
   ticks: { href: '/blog/ultimate-tick-control-guide-ontario', name: 'Tick Control Guide' },
+  garden: { href: '/learn/natural-garden-pest-control', name: 'Garden Pest Control' },
 }
 
 // ── Regional editions ───────────────────────────────────────────────────────────
@@ -126,21 +152,24 @@ export function guideMetadata(g: Guide): Metadata {
     publishedTime: g.datePublished,
     modifiedTime: g.dateModified,
   })
-  return withRegionalAlternates({ ...meta, openGraph: { ...meta.openGraph, locale: 'en_US' } }, path)
+  const hero = GUIDE_HEROES[path]
+  // a guide with its own infographic uses it as the share image (this is what a Pinterest pin shows)
+  const images = hero ? [{ url: hero.src, width: hero.width, height: hero.height, alt: g.heroAlt || g.h1 }] : meta.openGraph?.images
+  return withRegionalAlternates({ ...meta, openGraph: { ...meta.openGraph, locale: 'en_US', images }, ...(hero && { twitter: { ...meta.twitter, images: [hero.src] } }) }, path)
 }
 
 export function guideSchemas(g: Guide): Record<string, unknown>[] {
   const path = guidePath(g)
   const pillar = CLUSTER_PILLAR[g.cluster]
-  const crumbs =
-    g.kind === 'pillar'
-      ? [{ name: 'Home', url: '/' }, { name: 'Learning Centre', url: '/learn' }, { name: g.breadcrumb, url: path }]
-      : [
-          { name: 'Home', url: '/' },
-          { name: 'Blog', url: '/blog' },
-          ...(pillar ? [{ name: pillar.name, url: pillar.href }] : []),
-          { name: g.breadcrumb, url: path },
-        ]
+  const inLearn = path.startsWith('/learn/')
+  const hub = g.kind === 'pillar' || !pillar || pillar.href === path ? [] : [{ name: pillar.name, url: pillar.href }]
+  const crumbs = [
+    { name: 'Home', url: '/' },
+    inLearn ? { name: 'Learning Centre', url: '/learn' } : { name: 'Blog', url: '/blog' },
+    ...hub,
+    { name: g.breadcrumb, url: path },
+  ]
+  const hero = GUIDE_HEROES[path]
   const article = {
     ...blogPostingSchema({
       title: g.h1,
@@ -156,6 +185,7 @@ export function guideSchemas(g: Guide): Record<string, unknown>[] {
     // who wrote them. (The visible byline handles a human reviewer, when there is one.)
     author: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: BUSINESS.legalName, url: SITE_URL },
     inLanguage: 'en-US',
+    ...(hero && { image: { '@type': 'ImageObject', url: `${SITE_URL}${hero.src}`, width: hero.width, height: hero.height } }),
     about: { '@type': 'Thing', name: CLUSTER_LABEL[g.cluster] },
     citation: g.sources.map((s) => ({ '@type': 'CreativeWork', name: s.title, publisher: s.publisher, url: s.url })),
   }

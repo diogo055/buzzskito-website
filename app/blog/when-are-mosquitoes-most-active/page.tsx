@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -10,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'when-are-mosquitoes-most-active'
 const DATE = '2026-07-13'
@@ -236,15 +236,6 @@ export default function WhenAreMosquitoesMostActivePage() {
 
           <h2>The Daytime Exception: Aedes Mosquitoes</h2>
           <p>Not every mosquito waits for dusk. <strong>Aedes</strong> species — including <em>Aedes aegypti</em> and the Asian tiger mosquito (<em>Aedes albopictus</em>) — are <strong>daytime biters</strong>. They are aggressive, they target the lower legs and ankles, and they happily bite in the shade all afternoon. If you have ever been eaten alive at a shady midday backyard barbecue, that was almost certainly an Aedes. Because they rest in the same cool, humid, shaded microclimates during the day and don&rsquo;t need to wait for evening, a leafy, damp yard can have a genuine daytime mosquito problem while the open lawn nearby feels fine. Mature, tree-lined neighbourhoods are the classic case, which is why a treatment on a shaded lot follows the shade line and the shrub interiors rather than the open grass &mdash; the approach behind our <Link href="/oakville-mosquito-control">mosquito control in Oakville</Link> and the other older-canopy suburbs we cover.</p>
-
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Mosquitoes rest where you can&rsquo;t see them — we treat exactly those spots</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Whether they bite at dusk or midday, mosquitoes wait out the heat in shaded shrubs, under decks, and along fence lines. A professional barrier spray coats those resting surfaces so treatment reaches mosquitoes where they wait — not just during one bite window. BuzzSkito treats GTA yards with seasonal programs and single treatments from $99.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/mosquito-control" className="btn-primary-sm">Explore Mosquito Control →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
 
           <h2>When Do Mosquitoes Stop Biting at Night?</h2>
           <p><strong>Most mosquitoes have stopped biting, or dropped to a fraction of their peak, by roughly 2 to 4 a.m.</strong> Biting does not switch off at midnight. It decays. <strong>Culex</strong> house mosquitoes climb steeply in the half hour before sunset, peak in the first one to two hours of darkness, hold that pressure until around midnight, then fade through the small hours &mdash; and by the 2&ndash;4 a.m. window most of them have settled onto resting surfaces. A smaller second rise follows around dawn. <strong>Anopheles</strong> hold a flatter plateau right across the night, which is why they are the group most likely to bite you at 3 a.m. <strong>Aedes</strong> daytime biters mostly quiet down within an hour or two of full dark.</p>
@@ -515,7 +506,7 @@ export default function WhenAreMosquitoesMostActivePage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Picaridin 20% insect repellent" search="picaridin insect repellent 20 percent" label="For peak hours" />
 
-      <CTASection heading="Mosquito Control for Dawn, Dusk, and Every Hour Between" subtext="A residual barrier spray treats the shaded spots where mosquitoes rest, day and night. From $99." variant="dark" />
+      <ReadNext path="/blog/when-are-mosquitoes-most-active" standalone />
     </>
   )
 }

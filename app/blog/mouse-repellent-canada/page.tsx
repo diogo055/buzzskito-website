@@ -9,8 +9,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mouse-repellent-canada'
 const DATE = '2026-07-30'
@@ -421,10 +421,7 @@ export default function MouseRepellentCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="We don't do rodent work — but the same gaps, clutter and moisture that let mice in are what drive mosquito and tick pressure in your yard. Free assessment across 19 GTA cities."
-      />
+      <ReadNext path="/blog/mouse-repellent-canada" standalone />
     </>
   )
 }

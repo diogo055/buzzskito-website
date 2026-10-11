@@ -11,6 +11,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bed-bug-bites'
 const DATE = '2026-07-19'
@@ -296,6 +297,7 @@ export default function BedBugBitesPage() {
         </div>
 
         <AdjacentPestCTA pest="bed bugs" />
+        <ReadNext path="/blog/bed-bug-bites" />
       </article>
 
       {/* Persistent CTA carries the page's own advice: bites can never confirm the

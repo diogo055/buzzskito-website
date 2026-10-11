@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-life-cycle'
 const TITLE = 'The Mosquito Life Cycle in Ontario — Egg, Larva, Pupa, Adult'
@@ -133,7 +133,7 @@ export default function MosquitoLifeCyclePage() {
         </div>
       </article>
 
-      <CTASection heading="Stop Mosquitoes Before They Fly" subtext="Get a free quote for licensed barrier spray. From $99. Rain-back guarantee on every plan." variant="dark" />
+      <ReadNext path="/learn/mosquito-life-cycle" standalone />
     </>
   )
 }

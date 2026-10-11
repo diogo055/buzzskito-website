@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-ant-killer-canada'
 const DATE = '2026-07-28'
@@ -413,10 +413,7 @@ export default function BestAntKillerCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Ants Are Not Our Department — Mosquitoes and Ticks Are"
-        subtext="BuzzSkito is a licensed GTA mosquito and tick control company serving 19 cities. If ants are the problem, bait them with the plan above — we do not sell you a service we do not run. If mosquitoes or ticks are making your yard unusable, that is exactly what we do."
-      />
+      <ReadNext path="/blog/best-ant-killer" standalone />
     </>
   )
 }

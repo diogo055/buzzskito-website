@@ -10,6 +10,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bed-bug-mattress-encasement-canada'
 const DATE = '2026-07-16'
@@ -273,6 +274,7 @@ export default function BedBugMattressEncasementCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="bed bugs" />
+        <ReadNext path="/blog/bed-bug-mattress-encasement-canada" />
       </article>
     </>
   )

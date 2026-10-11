@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-get-rid-of-wasps-canada'
 const DATE = '2026-07-21'
@@ -312,6 +313,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="wasps and hornets" />
+        <ReadNext path="/blog/how-to-get-rid-of-wasps-canada" />
       </article>
     </>
   )

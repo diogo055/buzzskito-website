@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -10,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'why-mosquitoes-bite-some-people-more'
 const DATE = '2026-04-26'
@@ -248,7 +248,7 @@ export default function WhyMosquitoesBiteSomeMorePage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (Bti larvicide)" search="summit mosquito dunks" label="Treat the yard first" />
 
-      <CTASection heading="The Mosquito Magnet of the House Deserves Better" subtext="Barrier spray makes the yard mosquito-free for everyone — regardless of blood type, body heat, or beer consumption." />
+      <ReadNext path="/blog/why-mosquitoes-bite-some-people-more" standalone />
     </>
   )
 }

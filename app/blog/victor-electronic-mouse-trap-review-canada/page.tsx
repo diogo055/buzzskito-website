@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'victor-electronic-mouse-trap-review-canada'
 const DATE = '2026-07-16'
@@ -290,6 +291,7 @@ export default function VictorElectronicMouseTrapReviewPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="rodents" />
+        <ReadNext path="/blog/victor-electronic-mouse-trap-review-canada" />
       </article>
     </>
   )

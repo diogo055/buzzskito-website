@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
@@ -10,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-mosquito-repellent-device-canada'
 const DATE = '2026-07-12'
@@ -406,7 +406,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="The Best Device Is a Treated Yard" subtext="Get a free quote for licensed barrier spray. From $99. Products applied according to label directions. Mosquito and tick plans." variant="dark" />
+      <ReadNext path="/blog/best-mosquito-repellent-device-canada" standalone />
     </>
   )
 }

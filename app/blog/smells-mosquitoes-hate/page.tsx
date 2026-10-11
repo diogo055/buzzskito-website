@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -10,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'smells-mosquitoes-hate'
 const DATE = '2026-07-12'
@@ -231,7 +231,7 @@ export default function SmellsMosquitoesHatePage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="Scents Fade Fast — Treat the Whole Yard Instead" subtext={`Skip the endless candles. One professional barrier spray treats your whole yard. From $99. ${PROMISES.rainBackShort}.`} variant="dark" />
+      <ReadNext path="/blog/smells-mosquitoes-hate" standalone />
     </>
   )
 }

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -10,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'outdoor-fan-mosquito-control-canada'
 const DATE = '2026-08-22'
@@ -339,7 +339,7 @@ export default function OutdoorFanMosquitoControlCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="The Fan Handles the Deck. We Handle the Yard." subtext="Licensed barrier spray from $99. Whole-yard protection across 19+ GTA cities. 150 five-star reviews." variant="dark" />
+      <ReadNext path="/blog/outdoor-fan-mosquito-control-canada" standalone />
     </>
   )
 }

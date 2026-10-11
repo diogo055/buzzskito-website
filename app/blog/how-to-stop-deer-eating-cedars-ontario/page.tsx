@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-stop-deer-eating-cedars-ontario'
 const DATE = '2026-08-22'
@@ -284,6 +285,7 @@ export default function HowToStopDeerEatingCedarsOntarioPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="deer" />
+        <ReadNext path="/blog/how-to-stop-deer-eating-cedars-ontario" />
       </article>
     </>
   )

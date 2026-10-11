@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -10,6 +9,7 @@ import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-larvae-identification'
 const DATE = '2026-04-28'
@@ -890,7 +890,7 @@ export default function MosquitoLarvaePage() {
         </div>
       </article>
 
-      <CTASection heading="Drain the Water + Spray the Yard = Mosquito Free" subtext="BuzzSkito barrier spray controls adult mosquitoes flying in from off-property. From $99." variant="dark" />
+      <ReadNext path="/blog/mosquito-larvae-identification" standalone />
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (BTI)" search="summit mosquito dunks" label="For standing water" />
     </>
   )

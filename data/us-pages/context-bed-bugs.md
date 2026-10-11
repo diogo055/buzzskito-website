@@ -20,6 +20,8 @@
 
 - `/blog/does-lysol-kill-bed-bugs` — **does lysol kill bed bugs**. Lysol and other household disinfectants on bed bugs: a disinfectant is not an insecticide and is not labeled for bed bugs, a direct soaking may kill some on contact, it leaves no residual and misses eggs and hidden bugs. Explain how to check an EPA registration and what is actually labeled for bed bugs. Cover bleach and other cleaners briefly.
 
+- `/blog/signs-of-bed-bugs-checklist` — **signs of bed bugs**. A 7-point checklist of the physical signs, ranked from strongest evidence to weakest: live bugs, dark fecal spots that smear, shed skins, eggs and eggshells, rusty or reddish blood smears on sheets, a sweet musty odor in heavier infestations, and bites (the weakest sign on their own, per CDC and EPA). For each sign: what it looks like, where to look, and what it is confused with. A 'check tonight' routine with a flashlight and a card, in order, taking about 10 minutes. What to do in the first 24 hours after finding a sign, and what not to do (do not move to another room, do not throw the mattress out, do not set off a fogger). A printable checklist card. Pet and child notes for any product mentioned.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -95,6 +97,15 @@
 - `/blog/natural-pest-control` — natural pest control
 - `/blog/lawn-pest-control` — lawn pest control
 - `/blog/commercial-pest-control` — commercial pest control
+- `/blog/fall-mouse-proofing-checklist` — how to mouse proof your house
+- `/learn/ant-killer-recipes` — homemade ant killer
+- `/learn/tick-identification-chart` — tick identification chart
+- `/learn/pet-safe-pest-control` — pet safe pest control
+- `/learn/natural-garden-pest-control` — natural garden pest control
+- `/learn/how-to-get-rid-of-fungus-gnats` — how to get rid of fungus gnats
+- `/learn/aphid-control-guide` — how to get rid of aphids naturally
+- `/learn/whitefly-identification-control` — how to get rid of whiteflies
+- `/learn/natural-weed-control` — natural weed killer
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -10,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_2, TICK_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const POST = NEW_BLOGS_2[2]
 
@@ -276,7 +276,7 @@ export default function TickBiteSymptomsPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="For clean removal" />
 
-      <CTASection heading="Treat Your Yard Before Peak Tick Season" subtext={`BuzzSkito's tick season program is 5 treatments, May through September: $597 on its own, or $497 added to any mosquito plan. ${PROMISES.labelLine}.`} />
+      <ReadNext path="/blog/tick-bite-symptoms-what-to-do-ontario" standalone />
     </>
   )
 }

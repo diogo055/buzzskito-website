@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -9,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-solar-bug-zapper-canada'
 const DATE = '2026-07-14'
@@ -323,7 +323,7 @@ export default function BestSolarBugZapperCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Solar Zapper for the Dock · Barrier Spray for the Backyard" subtext="Licensed barrier spray for mosquitoes and ticks, from $99 per treatment. Rain-back guarantee on every plan. Serving 19 GTA cities." variant="dark" />
+      <ReadNext path="/blog/best-solar-bug-zapper-canada" standalone />
     </>
   )
 }

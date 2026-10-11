@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'alpha-gal-syndrome'
 const DATE = '2026-07-19'
@@ -263,7 +263,7 @@ export default function AlphaGalSyndromePage() {
 
       </article>
 
-      <CTASection heading="Fewer Ticks Where Your Family Spends Time" subtext="Alpha-gal starts with a tick bite. Get a free quote for a licensed tick barrier treatment targeting the yard edges where ticks wait." variant="dark" />
+      <ReadNext path="/blog/alpha-gal-syndrome" standalone />
     </>
   )
 }

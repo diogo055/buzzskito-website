@@ -2,9 +2,13 @@
  "id": "steel-wool-for-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "cc7c56b0bf913d32658fe3f536d3569426cdf20b7254c35759eab4858c92ee48",
+ "sha": "7f6d5bfb5544acc10a7143de68016758caa7a51d96b4c519c4061159c03feba4",
  "claimsChecked": 62,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 6,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "linksAddedOn": "2026-10-11",
+ "linksAdded": [
+  "/blog/fall-mouse-proofing-checklist"
+ ]
 }

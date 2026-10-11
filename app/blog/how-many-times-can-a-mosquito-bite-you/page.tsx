@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-many-times-can-a-mosquito-bite-you'
 const DATE = '2026-07-16'
@@ -251,15 +251,6 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
           <p>Yes &mdash; mosquitoes bite more than once, on two different timescales. Within a single feeding session, a disturbed female relands and bites again until she is full, so one meal can produce several welts. Across her lifetime, she runs a repeating loop that entomologists call the gonotrophic cycle: take a blood meal, rest and digest for 3 to 4 days, lay a batch of 100 to 300 eggs, then set off to find the next blood meal. A female that lives 2 to 3 weeks can complete several of these loops, which adds up to a lot of bites from one insect over its life.</p>
           <p>It is worth repeating the part that surprises people most: only female mosquitoes bite at all. Males do not have the mouthparts to pierce skin and live entirely on flower nectar and plant juices, contributing to pollination and never taking a drop of blood. So every bite you have ever received came from a female that needed protein to make eggs &mdash; and that same female was fully capable of coming back for more. For a broader set of these facts, our <Link href="/blog/mosquito-facts">mosquito facts guide</Link> collects the numbers in one place.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Stop counting bites &mdash; cut the mosquitoes instead</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">One female can bite you a dozen times before you ever swat her. A professional barrier spray knocks down the adult mosquitoes resting in your shrubs, shade, and fence lines, so there are far fewer around to feed in the first place. BuzzSkito treats GTA yards with single treatments from $99 on a standard lot and season plans from $549, backed by 150+ five-star Google reviews.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/mosquito-control" className="btn-primary-sm">Explore Mosquito Control &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Can a mosquito bite through clothing?</h2>
           <p>Yes. A mosquito can bite through thin, tight-fitting fabric such as a snug t-shirt, leggings, or thin socks, because her proboscis is long enough to reach skin through one stretched layer. Loose, thicker, or doubled-up clothing defeats her. This is why bites turn up on shoulders, knees, and ankles that felt fully covered.</p>
           <p>The practical rule is fit, not coverage. A loose long-sleeved shirt protects better than tight athletic wear that exposes less skin, because the fabric sits away from the surface she is trying to reach. Repellents containing DEET and icaridin are sold for use on skin with a Canadian PCP registration number on the label, and some manufacturers also sell permethrin-treated clothing; follow the label directions on any product you use.</p>
@@ -306,7 +297,7 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
         </div>
       </article>
 
-      <CTASection heading="One Mosquito Can Bite You a Dozen Times. Get Rid of the Mosquito." subtext={`A professional barrier spray targets the mosquitoes resting in your yard. From $99 on a standard lot. ${PROMISES.response}`} variant="dark" />
+      <ReadNext path="/blog/how-many-times-can-a-mosquito-bite-you" standalone />
     </>
   )
 }

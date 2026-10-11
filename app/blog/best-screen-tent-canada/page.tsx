@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
@@ -10,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-screen-tent-canada'
 const DATE = '2026-07-14'
@@ -400,7 +400,7 @@ export default function BestScreenTentCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Mesh Protects the Table — We Protect the Yard" subtext="Licensed barrier spray from $99 across 19+ GTA cities. Rain-back guarantee on every plan. 150 five-star reviews." variant="dark" />
+      <ReadNext path="/blog/best-screen-tent-canada" standalone />
     </>
   )
 }

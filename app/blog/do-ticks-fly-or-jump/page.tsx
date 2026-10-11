@@ -1,15 +1,14 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'do-ticks-fly-or-jump'
 const DATE = '2026-07-09'
@@ -188,7 +187,6 @@ export default function DoTicksFlyOrJumpPage() {
           <p>Because questing depends on something touching the plant, ticks concentrate exactly where people and pets walk: the edge of the lawn, the margins of trails, unmowed grass, and the leaf-littered transition zone where your yard meets woods or a ravine.</p>
           <p>Questing exists because a tick has no other option. Ticks are eight-legged arachnids, not insects, and no arachnid has ever evolved wings — <Link href="/blog/are-ticks-arachnids-or-insects">the tick vs insect comparison</Link> walks through the body-plan differences that rule out flight and jumping in the first place.</p>
 
-          <BlogPostCTA />
 
           <p>Because a tick boards low and then crawls, the one you find is usually still walking or only just attached — which is when a fine-tipped remover earns its place: it grips right at the mouthparts and lifts the tick straight out without squeezing it. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
 
@@ -266,7 +264,7 @@ export default function DoTicksFlyOrJumpPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Remover Kit" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Stop Ticks Where They Wait — Your Yard&rsquo;s Edges" subtext="Ticks quest from grass and leaf litter. One barrier spray removes them at the source. From $99." variant="dark" />
+      <ReadNext path="/blog/do-ticks-fly-or-jump" standalone />
     </>
   )
 }

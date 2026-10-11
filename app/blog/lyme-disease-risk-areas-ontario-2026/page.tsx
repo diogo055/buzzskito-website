@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -8,6 +7,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import ReadNext from '@/components/ReadNext'
 
 const POST = {
   title: 'Lyme Disease Risk Areas Ontario 2026',
@@ -84,7 +84,6 @@ export default function LymeRiskAreas2026Page() {
       </section>
 
       <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
-        <BlogPostCTA />
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
@@ -266,7 +265,7 @@ export default function LymeRiskAreas2026Page() {
         </ul>
       </article>
 
-      <CTASection heading="Protect Your Family in Ontario's Expanding Lyme Disease Zone" subtext="Professional tick barrier spray targets the garden edges, fence lines and wood borders where ticks quest. Free quote for all GTA properties." variant="dark" />
+      <ReadNext path="/blog/lyme-disease-risk-areas-ontario-2026" standalone />
       <StickyBuyBar tag={AMZ_TAG} name="Icaridin insect repellent" search="icaridin insect repellent" label="For tick areas" />
     </>
   )

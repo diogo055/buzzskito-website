@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-ant-traps-canada'
 const DATE = '2026-07-28'
@@ -453,10 +453,7 @@ export default function BestAntTrapsCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Ants Are Not Our Department — Mosquitoes and Ticks Are"
-        subtext="BuzzSkito is a licensed GTA mosquito and tick control company serving 19 cities. If ants are the problem, bait them yourself with the plan above — it is cheaper than any service call. If it is mosquitoes or ticks making your yard unusable, that is what we do."
-      />
+      <ReadNext path="/blog/best-ant-traps-canada" standalone />
     </>
   )
 }

@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-steam-mop-for-hardwood-floors-canada'
 const DATE = '2026-08-22'
@@ -307,6 +308,7 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="dust mites and household allergens" />
+        <ReadNext path="/blog/best-steam-mop-for-hardwood-floors-canada" />
       </article>
     </>
   )

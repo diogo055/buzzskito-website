@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-raccoon-proof-roof-vent-covers-canada'
 const DATE = '2026-08-22'
@@ -278,6 +279,7 @@ export default function BestRaccoonProofRoofVentCoversCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="raccoons" />
+        <ReadNext path="/blog/best-raccoon-proof-roof-vent-covers-canada" />
       </article>
     </>
   )

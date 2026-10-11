@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -10,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'pergola-mosquito-curtains-canada'
 const DATE = '2026-08-22'
@@ -348,7 +348,7 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Mesh Protects the Table — We Protect the Yard" subtext="Licensed barrier spray from $99. Season plans from $549. Serving 19+ GTA cities, May–September. 150 five-star reviews." variant="dark" />
+      <ReadNext path="/blog/pergola-mosquito-curtains-canada" standalone />
     </>
   )
 }

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -8,6 +7,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'tick-bites-that-wont-heal-when-to-worry'
 const AMZ_TAG = tagForSlug('tick-bites-that-wont-heal-when-to-worry')
@@ -160,7 +160,7 @@ export default function TickBitesThatWontHealWhenToWorryPage() {
 
       </article>
 
-      <CTASection heading="Specialist Mosquito & Tick Control for Ontario" subtext={`From $99 per treatment. BuzzSkito ${PROMISES.biteFreeScope}. 150+ five-star reviews.`} />
+      <ReadNext path="/blog/tick-bites-that-wont-heal-when-to-worry" standalone />
       <StickyBuyBar tag={AMZ_TAG} name="Tick-removal tool kit" search="tick removal tool tweezers" label="For removal" />
     </>
   )

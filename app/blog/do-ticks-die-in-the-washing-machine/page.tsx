@@ -1,13 +1,12 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'do-ticks-die-in-the-washing-machine'
 const DATE = '2026-07-16'
@@ -114,7 +113,6 @@ export default function DoTicksDieInTheWashingMachinePage() {
 
       {/* Service CTA first (lead-CTA rule), then the affiliate pick under it */}
       <div className="max-w-3xl mx-auto px-4">
-        <BlogPostCTA />
         <AffiliateDisclosure />
         <p className="text-gray-700 leading-relaxed">The dryer handles the clothes. The one tick that already reached skin is handled by whatever is in the bathroom drawer &mdash; and a fine-tipped tick remover grips at the head where blunt tweezers squeeze the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>
       </div>
@@ -248,7 +246,7 @@ export default function DoTicksDieInTheWashingMachinePage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Fewer Ticks in the Yard Means Fewer in Your Laundry" subtext="A seasonal barrier spray removes ticks where they wait — lawn edges, leaf litter, and shaded borders. From $99." variant="dark" />
+      <ReadNext path="/blog/do-ticks-die-in-the-washing-machine" standalone />
     </>
   )
 }

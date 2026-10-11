@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import Figure from '@/components/Figure'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -8,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-hawk-explained'
 const DATE = '2026-04-28'
@@ -541,7 +541,7 @@ export default function MosquitoHawkPage() {
         </div>
       </article>
 
-      <CTASection heading="Real Mosquito Control · Not Folklore" subtext="Skip the crane fly myth. Get professional yard barrier spray that actually works." variant="dark" />
+      <ReadNext path="/blog/mosquito-hawk-explained" standalone />
     </>
   )
 }

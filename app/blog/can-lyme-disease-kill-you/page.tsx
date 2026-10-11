@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'can-lyme-disease-kill-you'
 const DATE = '2026-07-15'
@@ -294,7 +294,7 @@ export default function CanLymeDiseaseKillYouPage() {
         </div>
       </section>
 
-      <CTASection heading="Fewer Ticks in the Yard Your Family Uses" subtext="Professional tick barrier spray targets the lawn edges and leaf litter where blacklegged ticks wait. Serving 19 GTA cities." variant="dark" />
+      <ReadNext path="/blog/can-lyme-disease-kill-you" standalone />
     </>
   )
 }

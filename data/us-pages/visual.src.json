@@ -1,0 +1,85 @@
+{
+  "_about": "Second batch (Oct 2026): 10 visual guides for Pinterest and search, written for readers anywhere in the US and Canada. section = where the page lives (/learn or /blog). heroFile = the image the owner supplies, expected at public/guides/<heroFile>; the page shows it automatically once the file is there. mustLink = pages this guide must link to in its body. linkedFrom = existing guides that get one sentence linking to it. Each page has one H1 that matches its keyword, carries pet and child safety notes, and has no affiliate or retailer links.",
+  "pages": [
+    {
+      "slug": "fall-mouse-proofing-checklist", "section": "blog", "cluster": "mice", "keyword": "how to mouse proof your house", "priority": 1,
+      "heroFile": "bz-guide-03-mouse-proofing.webp", "type": "i", "flags": ["howto", "health"],
+      "h1Hint": "How to Mouse-Proof Your House: A Fall Checklist",
+      "scope": "A fall exclusion guide. The 7 entry points mice use most (write them as a numbered list that matches a house diagram: utility and pipe penetrations, gaps under exterior doors, the garage door corners, dryer and other vents, the foundation and sill plate, weep holes and siding gaps, the roofline and soffits), with the gap size that lets a mouse through in inches. A step-by-step steel wool and caulk how-to for small holes and what to use for larger ones (hardware cloth, metal flashing, cement), following CDC's seal-up guidance. A trap placement guide for the mice already inside. Why fall is the season. A printable exclusion checklist as a card block. Pet and child safety for traps and for any bait.",
+      "mustLink": ["/learn/mice", "/blog/steel-wool-for-mice", "/blog/mice-traps", "/blog/can-mice-climb-walls", "/blog/mice-removal"],
+      "linkedFrom": ["/learn/mice", "/blog/steel-wool-for-mice", "/blog/can-mice-climb-walls"]
+    },
+    {
+      "slug": "ant-killer-recipes", "section": "learn", "cluster": "ants", "keyword": "homemade ant killer", "priority": 2,
+      "heroFile": "bz-guide-01-ant-recipes.webp", "type": "i", "flags": ["howto", "pesticide", "health"],
+      "h1Hint": "Homemade Ant Killer: 4 Recipes With Exact Ratios",
+      "scope": "Three or four homemade ant killer recipes, each taken from a university extension or other authoritative source and given with EXACT measurements in US kitchen units: a borax and sugar liquid bait, a borax protein or grease bait for ants that ignore sugar, a vinegar and water trail-breaker for cleanup, and soapy water as a contact spray if a source supports it. Use one recipe block per recipe. For every recipe state what it does and does not do, how long it takes, and a pet and child safety tier with the reason. Explain how to make a simple bait station that keeps bait away from pets and children, why a weak borax bait beats a strong one, and when homemade bait fails. End with a printable recipe card. Never say the recipes were tested by BuzzSkito: say which source publishes each one.",
+      "mustLink": ["/learn/ants", "/blog/borax-for-ants", "/blog/does-vinegar-kill-ants", "/blog/sugar-ants", "/blog/how-to-get-rid-of-ants-in-the-kitchen"],
+      "linkedFrom": ["/learn/ants", "/blog/borax-for-ants", "/blog/does-vinegar-kill-ants"]
+    },
+    {
+      "slug": "signs-of-bed-bugs-checklist", "section": "blog", "cluster": "bed-bugs", "keyword": "signs of bed bugs", "priority": 3,
+      "heroFile": "bz-guide-02-bedbug-signs.webp", "type": "i", "flags": ["id", "health"],
+      "h1Hint": "Signs of Bed Bugs: A 7-Point Checklist to Run Tonight",
+      "scope": "A 7-point checklist of the physical signs, ranked from strongest evidence to weakest: live bugs, dark fecal spots that smear, shed skins, eggs and eggshells, rusty or reddish blood smears on sheets, a sweet musty odor in heavier infestations, and bites (the weakest sign on their own, per CDC and EPA). For each sign: what it looks like, where to look, and what it is confused with. A 'check tonight' routine with a flashlight and a card, in order, taking about 10 minutes. What to do in the first 24 hours after finding a sign, and what not to do (do not move to another room, do not throw the mattress out, do not set off a fogger). A printable checklist card. Pet and child notes for any product mentioned.",
+      "mustLink": ["/learn/bed-bugs", "/blog/where-do-bed-bugs-hide", "/blog/what-do-bed-bugs-look-like", "/blog/bed-bugs-on-mattress", "/blog/how-to-get-rid-of-bed-bugs", "/blog/bugs-that-look-like-bed-bugs"],
+      "linkedFrom": ["/learn/bed-bugs", "/blog/where-do-bed-bugs-hide", "/blog/what-do-bed-bugs-look-like"]
+    },
+    {
+      "slug": "tick-identification-chart", "section": "learn", "cluster": "ticks", "keyword": "tick identification chart", "priority": 4,
+      "heroFile": "bz-guide-04-tick-chart.webp", "type": "i", "flags": ["id", "health"],
+      "h1Hint": "Tick Identification Chart: Deer Tick vs Dog Tick vs Lone Star Tick",
+      "scope": "A comparison chart of the three ticks people most need to tell apart: the blacklegged (deer) tick, the American dog tick and the lone star tick. For each: adult female, adult male and nymph size with an everyday size comparison and inches, the markings that identify it, the diseases CDC says it can transmit, where it lives in the United States, and its range in Ontario and the rest of Canada (cite the Government of Canada or Public Health Ontario for the Canadian range). A size-scale table by life stage. What to do with a tick you have removed, and how to get it identified. A printable tick-check routine card: where on the body to look, in order. This page may name Ontario and Canada: it serves both countries.",
+      "mustLink": ["/blog/what-do-ticks-look-like", "/blog/ticks-that-carry-lyme-disease", "/blog/types-of-ticks-identification", "/blog/seed-ticks", "/blog/ultimate-tick-control-guide-ontario", "/blog/how-to-do-a-tick-check"],
+      "linkedFrom": ["/blog/what-do-ticks-look-like", "/blog/ticks-that-carry-lyme-disease", "/blog/seed-ticks"]
+    },
+    {
+      "slug": "pet-safe-pest-control", "section": "learn", "cluster": "pest-control", "keyword": "pet safe pest control", "priority": 5,
+      "heroFile": "bz-guide-05-pet-safe.webp", "type": "c", "flags": ["health", "pesticide"],
+      "h1Hint": "Pet-Safe Pest Control: What Is Lower-Risk for Cats and Dogs",
+      "scope": "Pest control around cats and dogs, remedy by remedy, cited to veterinary sources (ASPCA Animal Poison Control, Pet Poison Helpline, the Merck Veterinary Manual, FDA, AVMA, veterinary schools). Cover at least: essential oils (tea tree, peppermint and others, with the specific risk to cats), permethrin and other dog-only spot-on products around cats, rodenticides and secondary poisoning, borax and boric acid baits, diatomaceous earth, slug and snail bait, mothballs, DEET and human repellents on pets, glue traps, and flea and tick products. A table with one row per remedy: risk to dogs, risk to cats, and the lower-risk swap. What to do after an exposure, with the poison-control numbers copied from the organizations' own pages. Never call anything simply 'safe': say lower-risk, and 'when used as the label directs'. Tell readers to ask their veterinarian about products used on the animal.",
+      "mustLink": ["/blog/what-kills-ticks-on-dogs-instantly", "/blog/do-mosquitoes-bite-dogs", "/blog/natural-pest-control", "/blog/peppermint-oil-for-mice", "/blog/borax-for-ants", "/blog/ticks-on-dogs"],
+      "linkedFrom": ["/blog/natural-pest-control", "/blog/peppermint-oil-for-mice", "/blog/what-kills-ticks-on-dogs-instantly"]
+    },
+    {
+      "slug": "natural-garden-pest-control", "section": "learn", "cluster": "garden", "keyword": "natural garden pest control", "priority": 6,
+      "heroFile": "bz-guide-09-garden-master.webp", "type": "i", "flags": ["pesticide", "health"],
+      "h1Hint": "Natural Garden Pest Control: A Season-by-Season Guide",
+      "scope": "The hub for the garden guides. The integrated pest management order for a home garden (identify, tolerate, prevent, physical controls, biological controls, then low-risk sprays). A companion planting chart: marigolds, basil, mint, nasturtium, chives, dill and others, with what each is claimed to repel or attract AND an honest evidence column from university research (much companion-planting lore is weakly supported: say so). Pollinator-protection rules (when not to spray, what not to spray on flowers), citing EPA, extension services or the Xerces Society. A seasonal calendar by spring, summer and fall. One section each that summarizes and links to the whitefly, fungus gnat, aphid and weed guides. Pet and child notes for the sprays and dusts mentioned.",
+      "mustLink": ["/learn/whitefly-identification-control", "/learn/how-to-get-rid-of-fungus-gnats", "/learn/aphid-control-guide", "/learn/natural-weed-control", "/blog/natural-pest-control", "/blog/lawn-pest-control", "/blog/mosquito-repellent-plants-ontario"],
+      "linkedFrom": ["/blog/natural-pest-control", "/blog/lawn-pest-control", "/blog/diy-pest-control"]
+    },
+    {
+      "slug": "how-to-get-rid-of-fungus-gnats", "section": "learn", "cluster": "garden", "keyword": "how to get rid of fungus gnats", "priority": 7,
+      "heroFile": "bz-guide-07-fungus-gnats.webp", "type": "i", "flags": ["howto", "pesticide", "health"],
+      "h1Hint": "How to Get Rid of Fungus Gnats: The Full Kill Chain",
+      "scope": "The full sequence for fungus gnats in houseplants: confirm the pest (and tell it from a fruit fly or drain fly), let the top of the soil dry and by how much, yellow sticky traps for adults, a Bti drench (the 'mosquito bit tea' method: give the steeping method and amount only as an extension source or the product label gives it), a hydrogen peroxide drench with the EXACT ratio a source gives and an honest statement of how well it is supported, and when to repot. The life cycle timing that explains why treatment must run for weeks. Plant-safety notes for each step. A printable watering-schedule card. Pet and child notes for Bti, peroxide and sticky traps. This guide covers the method for any reader; the existing page on the site covers products sold in Canada, so link to it and do not repeat it.",
+      "mustLink": ["/learn/natural-garden-pest-control", "/blog/how-to-get-rid-of-fungus-gnats-houseplants", "/blog/mosquito-bits-canada-vs-dunks", "/learn/whitefly-identification-control", "/learn/aphid-control-guide"],
+      "linkedFrom": ["/learn/natural-garden-pest-control", "/blog/natural-pest-control"]
+    },
+    {
+      "slug": "aphid-control-guide", "section": "learn", "cluster": "garden", "keyword": "how to get rid of aphids naturally", "priority": 8,
+      "heroFile": "bz-guide-08-aphid-control.webp", "type": "i", "flags": ["id", "howto", "pesticide", "health"],
+      "h1Hint": "How to Get Rid of Aphids Naturally",
+      "scope": "Aphid identification (colors, cornicles, where they cluster, honeydew and sooty mold, curled leaves). The controls in order: a strong spray of water and how often, pruning, natural enemies and how to keep them, releasing purchased lady beetles (when sources say it works and why they often fly away), insecticidal soap and neem or horticultural oil with the dilution a university source or the product label gives, and what to avoid (broad-spectrum sprays, excess nitrogen). The ant and aphid relationship: why ants farm aphids for honeydew and why controlling the ants helps. Plant-safety and pollinator notes. Pet and child notes for soap and oil sprays.",
+      "mustLink": ["/learn/natural-garden-pest-control", "/learn/whitefly-identification-control", "/learn/how-to-get-rid-of-fungus-gnats", "/blog/what-do-ants-eat", "/learn/ants"],
+      "linkedFrom": ["/learn/natural-garden-pest-control", "/blog/what-do-ants-eat"]
+    },
+    {
+      "slug": "whitefly-identification-control", "section": "learn", "cluster": "garden", "keyword": "how to get rid of whiteflies", "priority": 9,
+      "heroFile": "bz-guide-06-whitefly.webp", "type": "i", "flags": ["id", "howto", "pesticide", "health"],
+      "h1Hint": "How to Get Rid of Whiteflies: Identification and Natural Control",
+      "scope": "Whitefly identification and how to tell whiteflies from aphids, mealybugs and fungus gnats (a comparison table). The 'shake the plant' test. The life cycle and why the undersides of leaves matter. Five to seven natural controls in order: yellow sticky traps, a strong water spray, vacuuming adults in the cool of the morning, reflective mulch, insecticidal soap and horticultural or neem oil with the dilution a university source or the label gives, removing heavily infested leaves, and natural enemies. Why broad-spectrum insecticides make whiteflies worse. A printable cheat-sheet card. Plant-safety, pollinator, pet and child notes.",
+      "mustLink": ["/learn/natural-garden-pest-control", "/learn/aphid-control-guide", "/learn/how-to-get-rid-of-fungus-gnats"],
+      "linkedFrom": ["/learn/natural-garden-pest-control", "/blog/natural-pest-control"]
+    },
+    {
+      "slug": "natural-weed-control", "section": "learn", "cluster": "garden", "keyword": "natural weed killer", "priority": 10,
+      "heroFile": "bz-guide-10-weed-control.webp", "type": "i", "flags": ["howto", "pesticide", "health"],
+      "h1Hint": "Natural Weed Killer: What Works, With Exact Ratios and Honest Limits",
+      "scope": "Natural weed control with the evidence attached. Vinegar: household 5 percent versus horticultural 20 to 30 percent acetic acid, the EXACT recipe or concentration a university extension source gives, which weeds and growth stages it works on, and an honest limits section (it burns top growth, perennial roots regrow, it is non-selective, strong vinegar is corrosive to skin and eyes and is a registered pesticide in the US, salt in the popular recipe harms soil). The boiling water method and where it makes sense. A mulch-depth guide in inches by mulch type. Lower-risk lawn options (mowing height, overseeding, hand weeding, corn gluten meal and what the research found). Pet and child notes for every method. A printable cheat-sheet card.",
+      "mustLink": ["/learn/natural-garden-pest-control", "/blog/lawn-pest-control", "/blog/natural-pest-control"],
+      "linkedFrom": ["/learn/natural-garden-pest-control", "/blog/lawn-pest-control"]
+    }
+  ]
+}

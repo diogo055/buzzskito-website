@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -10,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-mistakes-ontario-homeowners-make'
 const DATE = '2026-04-29'
@@ -159,7 +159,7 @@ export default function MosquitoMistakesOntarioHomeownersMakePage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Thermacell E90 Mosquito Repeller" search="thermacell e90 rechargeable" label="Best patio-zone fix" />
 
-      <CTASection heading="Specialist Mosquito & Tick Control for Ontario" subtext={`From $99 per treatment. ${PROMISES.biteFreeScope}. 150+ five-star reviews.`} />
+      <ReadNext path="/blog/mosquito-mistakes-ontario-homeowners-make" standalone />
     </>
   )
 }

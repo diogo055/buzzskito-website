@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-get-rid-of-earwigs-canada'
 const DATE = '2026-07-27'
@@ -436,10 +436,7 @@ export default function HowToGetRidOfEarwigsCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="We don't treat earwigs — but the damp harbourage and drainage problems behind them are the same ones driving mosquito and tick pressure in your yard. Get a free assessment across 19 GTA cities."
-      />
+      <ReadNext path="/blog/how-to-get-rid-of-earwigs-canada" standalone />
     </>
   )
 }

@@ -90,6 +90,16 @@
 - `/blog/natural-pest-control` — natural pest control
 - `/blog/lawn-pest-control` — lawn pest control
 - `/blog/commercial-pest-control` — commercial pest control
+- `/blog/fall-mouse-proofing-checklist` — how to mouse proof your house
+- `/learn/ant-killer-recipes` — homemade ant killer
+- `/blog/signs-of-bed-bugs-checklist` — signs of bed bugs
+- `/learn/tick-identification-chart` — tick identification chart
+- `/learn/pet-safe-pest-control` — pet safe pest control
+- `/learn/natural-garden-pest-control` — natural garden pest control
+- `/learn/how-to-get-rid-of-fungus-gnats` — how to get rid of fungus gnats
+- `/learn/aphid-control-guide` — how to get rid of aphids naturally
+- `/learn/whitefly-identification-control` — how to get rid of whiteflies
+- `/learn/natural-weed-control` — natural weed killer
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

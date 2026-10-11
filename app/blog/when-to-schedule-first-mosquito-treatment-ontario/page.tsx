@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const POST = NEW_BLOGS[9]
 
@@ -158,10 +158,7 @@ export default function WhenToScheduleFirstTreatmentPage() {
         ))}
       </article>
 
-      <CTASection
-        heading="Book Your First May Treatment Now"
-        subtext="Don't wait until mosquitoes are already ruining your evenings. Get a free quote and lock in your May timing today."
-      />
+      <ReadNext path="/blog/when-to-schedule-first-mosquito-treatment-ontario" standalone />
     </>
   )
 }

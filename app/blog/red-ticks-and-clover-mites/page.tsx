@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -10,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug, CLUSTER_TAGS } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'red-ticks-and-clover-mites'
 const DATE = '2026-07-13'
@@ -351,7 +351,7 @@ export default function RedTicksAndCloverMitesPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="Not Sure What You Found? We Know Ticks" subtext="Clover mites are harmless — real ticks are not. One barrier spray removes ticks where they wait, from $99." variant="dark" />
+      <ReadNext path="/blog/red-ticks-and-clover-mites" standalone />
     </>
   )
 }

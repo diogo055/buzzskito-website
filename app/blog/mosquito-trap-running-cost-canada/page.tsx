@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -10,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-trap-running-cost-canada'
 const DATE = '2026-08-22'
@@ -344,7 +344,7 @@ export default function MosquitoTrapRunningCostCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Tank Swaps. Book the Yard." subtext="Licensed barrier spray from $99, no consumables to buy. Whole-yard protection across 19+ GTA cities. 150 five-star reviews." variant="dark" />
+      <ReadNext path="/blog/mosquito-trap-running-cost-canada" standalone />
     </>
   )
 }

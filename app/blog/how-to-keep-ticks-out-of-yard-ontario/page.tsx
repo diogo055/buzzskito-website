@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -11,6 +9,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-keep-ticks-out-of-yard-ontario'
 const DATE = '2026-04-29'
@@ -84,7 +83,6 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
         <h3>1. Create a 3-Foot Wood-Chip or Gravel Barrier Between Lawn and Woods</h3>
         <p>The single most effective tick-prevention measure is a physical barrier between maintained lawn and natural vegetation. Wood chips or gravel at least 3 feet wide breaks the humidity gradient ticks need to survive — they dry out crossing the barrier. This is the CDC-recommended "tick zone" defense.</p>
 
-        <BlogPostCTA />
         <p>The strip only works while it stays loose and dry, and turf creeps back into wood chip within a season or two. Rigid landscape edging on the lawn side is what keeps a barrier a barrier in year three. <BuyLink tag={AMZ_TAG} search="landscape edging lawn border">Check price on Amazon.ca &rarr;</BuyLink></p>
 
         <h3>2. Keep Grass Cut Short (2 inches or less)</h3>
@@ -162,7 +160,7 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Permethrin-Treated Clothing (Insect Shield)" search="insect shield permethrin treated clothing" label="Best tick-zone clothing" />
 
-      <CTASection heading="Specialist Mosquito & Tick Control for Ontario" subtext={`From $99 per treatment on a standard lot. ${PROMISES.rainBackShort}. ${PROMISES.biteFreeScope}. 150+ five-star Google reviews.`} />
+      <ReadNext path="/blog/how-to-keep-ticks-out-of-yard-ontario" standalone />
     </>
   )
 }

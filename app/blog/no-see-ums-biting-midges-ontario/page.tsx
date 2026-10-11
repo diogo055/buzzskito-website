@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -9,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'no-see-ums-biting-midges-ontario'
 const DATE = '2026-07-12'
@@ -253,7 +253,7 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="Too Small to See, Big Enough to Ruin the Evening" subtext="Biting midges and mosquitoes rest in the same damp, shaded yard zones. One barrier treatment targets those resting zones. From $99." variant="dark" />
+      <ReadNext path="/blog/no-see-ums-biting-midges-ontario" standalone />
     </>
   )
 }

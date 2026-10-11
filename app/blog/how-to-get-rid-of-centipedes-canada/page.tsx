@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-get-rid-of-centipedes-canada'
 const DATE = '2026-07-27'
@@ -456,11 +456,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        variant="light"
-        heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="Centipedes we research; mosquitoes and ticks we treat. If your yard in the GTA is unusable in summer, we spray it — 150+ five-star reviews and a rain-back guarantee on every plan."
-      />
+      <ReadNext path="/blog/how-to-get-rid-of-centipedes-canada" standalone />
     </>
   )
 }

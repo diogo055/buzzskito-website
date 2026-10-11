@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -9,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'can-mosquitoes-bite-through-clothes'
 const DATE = '2026-07-16'
@@ -249,7 +249,7 @@ export default function CanMosquitoesBiteThroughClothesPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Permethrin-Treated Shirt" search="insectguard permethrin treated shirt" label="Best bite-through defence" />
 
-      <CTASection heading="Dress smart — then let us clear the yard" subtext="Loose long sleeves help, but fewer mosquitoes helps more. Get a free quote for licensed barrier spray. From $99. Rain-back guarantee on every plan." variant="dark" />
+      <ReadNext path="/blog/can-mosquitoes-bite-through-clothes" standalone />
     </>
   )
 }

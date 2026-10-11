@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const POST = {
   title: 'Tick-Borne Diseases Ontario — Full List',
@@ -253,7 +253,7 @@ export default function TickBorneDiseasesPage() {
         </ul>
       </article>
 
-      <CTASection heading="Tick Control for GTA Yards" subtext="Professional tick barrier spray targets ticks in the leaf litter and shaded edges of your yard. 5 treatments a season: $597 on its own, or $497 with a mosquito plan. Free quote for all GTA properties." variant="dark" />
+      <ReadNext path="/blog/tick-borne-diseases-ontario-complete-list" standalone />
     </>
   )
 }

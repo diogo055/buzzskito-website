@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'male-vs-female-mosquito'
 const DATE = '2026-07-12'
@@ -205,7 +205,7 @@ export default function MaleVsFemaleMosquitoPage() {
         </div>
       </article>
 
-      <CTASection heading="It Is the Females That Bite — We Stop Them at the Source" subtext="One barrier spray kills resting females and cuts the biting population across your whole yard. From $99." variant="dark" />
+      <ReadNext path="/blog/male-vs-female-mosquito" standalone />
     </>
   )
 }

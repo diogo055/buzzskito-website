@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, CITIES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const POST = MOSQUITO_BLOGS.supporting[3]
 
@@ -157,7 +157,7 @@ export default function WestNilePage() {
         </div>
       </section>
 
-      <CTASection heading="Reduce Your Family's Mosquito Exposure This Season" subtext="Professional barrier spray significantly reduces mosquito populations in your yard. Free quote available." />
+      <ReadNext path="/blog/west-nile-virus-mosquito-risk-ontario" standalone />
     </>
   )
 }

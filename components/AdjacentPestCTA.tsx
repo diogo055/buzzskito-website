@@ -1,5 +1,4 @@
-import Link from 'next/link'
-import { BUSINESS } from '@/lib/constants'
+// (next/link and BUSINESS were used by the quote buttons removed in Oct 2026)
 
 /**
  * Conversion path for the ~105 product-research posts that cover pests we do
@@ -45,31 +44,14 @@ export default function AdjacentPestCTA({
         <h3 className="text-lg font-extrabold leading-tight text-brand-900 mb-2">
           This is the gear we actually run.
         </h3>
-        <p className="text-sm leading-relaxed text-gray-700 mb-3">
+        <p className="text-sm leading-relaxed text-gray-700">
           BuzzSkito is a <strong>mosquito and tick</strong> company in the GTA, so
           these reviews come out of using this equipment on real properties rather
           than unboxing it for a photo. No brand pays for a place in these guides.
         </p>
-        <p className="text-sm leading-relaxed text-gray-700 mb-4">
-          Worth knowing before you buy: a serious sprayer or fogger runs a few
-          hundred dollars, plus the product, plus learning to calibrate and apply it
-          safely. If you&rsquo;re in the <strong>Greater Toronto Area</strong>, a
-          professional treatment starts at $99 &mdash; often less than the machine.
-        </p>
-        <div className="flex flex-col gap-2.5 sm:flex-row sm:items-center">
-          <Link
-            href="/free-yard-assessment"
-            className="inline-flex items-center justify-center rounded-full bg-amber-500 px-5 py-2.5 text-sm font-extrabold text-white shadow transition-colors hover:bg-amber-400"
-          >
-            Compare with a quote &rarr;
-          </Link>
-          <a
-            href={BUSINESS.phoneHref}
-            className="inline-flex items-center justify-center rounded-full border border-brand-300 px-5 py-2.5 text-sm font-bold text-brand-800 transition-colors hover:bg-white"
-          >
-            {BUSINESS.phone}
-          </a>
-        </div>
+        {/* Oct 2026, owner's decision: the quote pitch and its buttons were removed from article
+            pages. Readers here are national and US; the article now ends with related guides
+            (components/ReadNext.tsx), which carries the one quiet link to the quote form. */}
       </aside>
     )
   }
@@ -85,32 +67,14 @@ export default function AdjacentPestCTA({
       <h3 className="text-lg font-extrabold leading-tight text-brand-900 mb-2">
         We research {pest}. We don&rsquo;t treat them.
       </h3>
-      <p className="text-sm leading-relaxed text-gray-700 mb-3">
+      <p className="text-sm leading-relaxed text-gray-700">
         BuzzSkito is a <strong>mosquito and tick</strong> company — that is the only
         thing we spray. We publish independent research on the rest because our
         customers keep asking, and because nobody else in Canada was testing this
         gear properly. No brand pays for a place in these guides.
       </p>
-      <p className="text-sm leading-relaxed text-gray-700 mb-4">
-        If you&rsquo;re in the <strong>Greater Toronto Area</strong> and it&rsquo;s
-        your yard rather than your house that&rsquo;s the problem, that part we do
-        handle &mdash; single treatments from $99, no contracts, 150+ five-star
-        reviews at a 5.0 average.
-      </p>
-      <div className="flex flex-col gap-2.5 sm:flex-row sm:items-center">
-        <Link
-          href="/free-yard-assessment"
-          className="inline-flex items-center justify-center rounded-full bg-amber-500 px-5 py-2.5 text-sm font-extrabold text-white shadow transition-colors hover:bg-amber-400"
-        >
-          Get a yard quote →
-        </Link>
-        <a
-          href={BUSINESS.phoneHref}
-          className="inline-flex items-center justify-center rounded-full border border-brand-300 px-5 py-2.5 text-sm font-bold text-brand-800 transition-colors hover:bg-white"
-        >
-          {BUSINESS.phone}
-        </a>
-      </div>
+      {/* Oct 2026, owner's decision: the quote pitch and its buttons were removed from article
+          pages (see the note in the equipment variant above). */}
     </aside>
   )
 }

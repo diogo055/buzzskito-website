@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-get-rid-of-carpenter-bees-canada'
 const DATE = '2026-07-30'
@@ -440,10 +440,7 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="We don't treat carpenter bees — but if the yard itself is unusable in June and July, that is what we are licensed for. Free assessment across 19 GTA cities."
-      />
+      <ReadNext path="/blog/how-to-get-rid-of-carpenter-bees-canada" standalone />
     </>
   )
 }

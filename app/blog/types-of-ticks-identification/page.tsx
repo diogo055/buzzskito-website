@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -11,6 +9,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'types-of-ticks-identification'
 const DATE = '2026-07-13'
@@ -254,7 +253,6 @@ export default function TypesOfTicksIdentificationPage() {
 
           <p>Finding a tick is unsettling — but the species you are looking at changes everything about the risk and what you should do next. This hub is the master identification page: use the chart above to narrow it down fast, then follow the links to a detailed close-up guide for each specific tick. Below, we walk through the four features that actually let you tell ticks apart, then hit each common North American species one by one.</p>
 
-          <BlogPostCTA />
           <p>If the tick you are identifying is still attached, deal with that first: a fine-tipped remover grips at skin level and lifts it straight out, and you can identify it afterwards from the sealed bag. <BuyLink tag={AMZ_TAG} search="tick removal tool fine tip tweezers">Check price on Amazon.ca →</BuyLink></p>
 
           <h2>The 4 Features That Identify Any Tick</h2>
@@ -364,7 +362,7 @@ export default function TypesOfTicksIdentificationPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool Set" search="tick removal tool fine tip tweezers" label="For tick removal" />
 
-      <CTASection heading="Identified a Tick in Your Yard? Stop the Next One." subtext="BuzzSkito&rsquo;s licensed barrier treatment targets the grass, leaf litter, and shaded edges where ticks wait. From $99." variant="dark" />
+      <ReadNext path="/blog/types-of-ticks-identification" standalone />
     </>
   )
 }

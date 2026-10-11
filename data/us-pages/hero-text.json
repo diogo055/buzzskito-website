@@ -1,0 +1,124 @@
+{
+  "_about": "The words printed on each guide's hero infographic (public/guides/*.webp), transcribed by reading the image. The owner supplied the artwork. A page must cover every item on its graphic, confirm each claim against a source, and say plainly where sources differ from the graphic.",
+  "ant-killer-recipes": {
+    "title": "Ant Killer Recipes — 4 tested recipes with exact ratios (label: DIY PEST CONTROL)",
+    "items": [
+      "1. Borax Sugar Bait — 1 tsp borax : 3 tsp sugar : 2 tbsp warm water. Dissolve, soak cotton balls, set in bottle caps along ant trails. Ants carry it back to the colony. Safety tag MODERATE: Borax is toxic if eaten — enclosed stations only, away from kids & pets.",
+      "2. Baking Soda + Sugar — 1 tbsp baking soda : 1 tbsp powdered sugar. Mix dry, sprinkle in shallow lids near entry points. Reapply after 3 days if ants persist. Safety tag LOW: Food-grade ingredients — still keep lids out of pet reach.",
+      "3. Vinegar Trail-Breaker — 1 cup white vinegar : 1 cup water. Spray directly on trails, entry points and nests. Wipes out the scent trail ants follow. Safety tag LOW: Safe around kids & pets. Avoid marble/stone — vinegar etches it.",
+      "4. Dish Soap Knockdown — 1 tsp dish soap : 1 cup water. Spray directly on visible ants. Breaks surface tension — kills on contact, not the colony. Safety tag LOW: Safe once dry. Scouts only — pair with a bait for the colony.",
+      "Footer: Safety first: label every bait, wash hands after handling, and never place borax where children or pets can reach it."
+    ]
+  },
+  "signs-of-bed-bugs-checklist": {
+    "title": "7 Signs of Bed Bugs — Grab a flashlight, check tonight (label: INSPECTION GUIDE)",
+    "items": [
+      "1. Rusty-red stains — On sheets & pillowcases; crushed bugs leave reddish smears. LOOK: Mattress top, seams.",
+      "2. Dark ink-like spots — Fecal marks, bleed into fabric like a marker dot. LOOK: Mattress seams, box spring.",
+      "3. Shed skins — Pale yellow empty shells, ~1mm; bugs molt 5 times. LOOK: Crevices, behind headboard.",
+      "4. Live bugs — Apple-seed sized, flat, reddish-brown ovals. LOOK: Seams, tufts, bed frame joints.",
+      "5. Tiny white eggs — Grain-of-rice sized, sticky, hidden in cracks. LOOK: Stitching, screw holes.",
+      "6. Musty sweet odor — Coriander-like smell in heavy infestations. LOOK: Whole room — trust your nose.",
+      "7. Bite lines — Clusters or zigzags on exposed skin overnight. LOOK: Arms, neck, ankles — morning check.",
+      "FIRST 24 HOURS: Don't sleep elsewhere — you'll spread them. Strip the bed: wash HOT, dry on HIGH 30+ min. Declutter around the bed so there's nowhere to hide.",
+      "Footer: Found 2+ signs? Don't use bug bombs — they scatter bed bugs deeper. Call a pro for heat treatment."
+    ]
+  },
+  "fall-mouse-proofing-checklist": {
+    "title": "Mouse-Proof Your House — 7 entry points + how to seal them (label: FALL CHECKLIST)",
+    "items": [
+      "1. Gaps around pipes — Where plumbing & utilities enter; the #1 mouse door.",
+      "2. Under exterior doors — Garage doors especially. If light shows, mice fit.",
+      "3. Dryer & exhaust vents — Unscreened vents are open invitations.",
+      "4. Foundation cracks — Even hairline cracks widen with frost.",
+      "5. Siding-to-foundation gap — That shadow line along the house base.",
+      "6. Roofline & chimney — Mice climb. Check soffits, eaves, flashing.",
+      "7. Cable & wire holes — AC lines, cable TV, old drill holes.",
+      "THE 1/4-INCH RULE: If a pencil fits, a mouse fits. Seal anything wider than 6 mm.",
+      "SEAL IT RIGHT: Pack coarse steel wool tight into the gap. Cover with silicone caulk or cement. Mice can't chew through the metal fibers.",
+      "TRAP PLACEMENT: Snap traps along walls — mice hug baseboards. Trigger end faces the wall, bait: peanut butter. Check daily. More traps = faster results.",
+      "Footer: Safety: keep snap traps where kids & pets can't reach. Never use poison indoors — mice die in walls."
+    ]
+  },
+  "tick-identification-chart": {
+    "title": "Tick Identification Chart — Know which tick bit you, it matters (label: ONTARIO FIELD GUIDE)",
+    "items": [
+      "ACTUAL SIZE (unfed adults): Deer tick = poppy seed. Lone star = sesame seed. Dog tick = apple seed. Note: engorged (fed) ticks swell to 3x this size.",
+      "Black-legged (Deer) tick — LOOKS LIKE: Reddish body, black legs. DISEASES: Lyme disease + anaplasmosis. ONTARIO RANGE: Widespread across southern Ontario.",
+      "American Dog tick — LOOKS LIKE: Brown with white markings, larger. DISEASES: Rocky Mountain spotted fever (rare in ON). ONTARIO RANGE: Grassy fields & trails province-wide.",
+      "Lone Star tick — LOOKS LIKE: Females: single white dot on back. DISEASES: Ehrlichiosis + alpha-gal (red-meat allergy). ONTARIO RANGE: Moving into southern Ontario.",
+      "IF BITTEN — DO THIS: Fine-tipped tweezers, steady upward pull — no twisting. Clean the bite with soap & water or alcohol. Watch 30 days for rash, fever, fatigue — see a doctor if any appear.",
+      "TICK-CHECK ROUTINE AFTER THE TRAIL: 1 Shower within 2 hours of coming inside. 2 Full-body check: armpits, groin, hairline, behind ears, waistband. 3 Tumble dry clothes on HIGH 10 min — kills missed ticks. 4 Save any attached tick in a baggie for ID if symptoms appear.",
+      "Footer: Remove attached ticks with fine-tipped tweezers, steady upward pull. Watch for rash/fever — see a doctor."
+    ]
+  },
+  "pet-safe-pest-control": {
+    "title": "Pet-Safe Pest Control — What's safe around cats & dogs, remedy by remedy (label: VET-AWARE GUIDE)",
+    "items": [
+      "Borax baits — Cats: UNSAFE. Dogs: UNSAFE. Toxic if eaten. Enclosed stations only, locked away.",
+      "Peppermint oil — Cats: UNSAFE. Dogs: CAUTION. Cats lack the liver enzyme for phenols — never diffuse near cats.",
+      "Diatomaceous earth — Cats: CAUTION. Dogs: CAUTION. Food-grade only. Respiratory irritant — apply when pets are out.",
+      "Citronella oil — Cats: CAUTION. Dogs: CAUTION. Dilute heavily. Watch for drooling or pawing at face.",
+      "Cedarwood oil — Cats: SAFER. Dogs: SAFER. Among the gentlest options — still dilute, still ventilate.",
+      "White vinegar — Cats: SAFE. Dogs: SAFE. Food-safe. Avoid eyes; the smell fades fast.",
+      "Snap traps — Cats: CAUTION. Dogs: CAUTION. Place inside walls/attic — never where paws can reach.",
+      "Ultrasonic repellers — Cats: SAFE. Dogs: SAFE. No chemicals. Effectiveness varies — it's a supplement.",
+      "THE VET RULE: Ask your vet before using ANY essential oil around pets — especially cats. When in doubt, choose the mechanical fix.",
+      "Footer: This guide is informational, not veterinary advice. If a pet ingests any pesticide, call your vet or poison control."
+    ]
+  },
+  "whitefly-identification-control": {
+    "title": "Whiteflies: Beat Them Naturally — ID them right, then break the cycle (label: GARDEN & HOUSEPLANT GUIDE)",
+    "items": [
+      "WHITEFLY: Tiny white moth-like flies, ~2mm. THE SHAKE TEST: tap the plant — a white cloud rises = whiteflies. Cluster UNDER leaves; sticky honeydew.",
+      "VS APHID: Pear-shaped soft bodies, 1–4mm. Cluster on STEMS & new growth. Most don't fly — they crawl. Ants 'farm' them for honeydew.",
+      "WHY THEY'RE HARD TO KILL: One female lays 200+ eggs — mostly UNDER leaves where sprays miss. Eggs hatch in 5–10 days: you must repeat treatment 3x. Honeydew causes black sooty mold — treat early, not late.",
+      "6 NATURAL CONTROLS: 1 Yellow sticky traps — Hang at canopy height. Catches adults, breaks breeding. 2 Blast with water — Strong jet under leaves, 2x/week. Knocks off eggs & nymphs. 3 Insecticidal soap — Coat leaf undersides. Repeat every 5–7 days x3. 4 Neem oil spray — Disrupts feeding & reproduction. Apply at dusk. 5 Prune hotspots — Bag & trash heavily infested leaves; don't compost. 6 Reflective mulch — Silver mulch confuses incoming adults in veg gardens.",
+      "POLLINATOR RULE: Spray soaps & neem at DUSK, never on open blooms. Bees sleep at night — your spray won't touch them.",
+      "Footer: Safety: keep neem & soaps off skin/eyes; store away from kids & pets. Test any spray on 2 leaves first."
+    ]
+  },
+  "how-to-get-rid-of-fungus-gnats": {
+    "title": "Fungus Gnat Kill Chain — 5 steps, break the breeding cycle (label: HOUSEPLANT RESCUE)",
+    "items": [
+      "1. LET THE SOIL DRY — Water only when the top 2 inches are dry. Gnat larvae need constant moisture; dryness kills the nursery. NOTE: No product needed. #1 step — skip it and nothing else works.",
+      "2. YELLOW STICKY TRAPS — Stake 1 trap per plant at soil level. Catches egg-laying adults within days. NOTE: Non-toxic. Replace when covered.",
+      "3. MOSQUITO BITS TEA — Soak bits per package directions, water plants with the tea. Bti bacteria kills larvae. NOTE: Bti targets fly larvae only — safe for plants, pets & people.",
+      "4. PEROXIDE DRENCH — 1 part 3% hydrogen peroxide : 4 parts water. Drench soil until it drains. NOTE: Kills larvae on contact. Use max 1x/week — it also kills helpful microbes.",
+      "5. TOP-DRESS BARRIER — Add 1/2 inch of sand or perlite on the soil surface. Keeps the top dry. NOTE: Physical barrier — adults can't reach soil to lay eggs.",
+      "Footer: Plant safety: the peroxide drench is safe for most houseplants but test on one plant first. Never exceed 1x/week."
+    ]
+  },
+  "aphid-control-guide": {
+    "title": "Aphid Control Guide — 7 natural ways, including the ant connection (label: GARDEN & HOUSEPLANT GUIDE)",
+    "items": [
+      "APHID: Pear-shaped, 1–4mm. Clusters on new growth & leaf undersides. NOT WHITEFLY: Whiteflies FLY in a cloud when disturbed — aphids don't. NOT SPIDER MITE: Pinpoint-size, fine webbing on leaves — smaller than aphids.",
+      "6 NATURAL CONTROLS: 1 Blast with water — Hard jet on leaf undersides, 2x/week. Simplest fix there is. 2 Insecticidal soap — Coat colonies directly. Repeat every 5–7 days, 3 rounds. 3 Neem oil at dusk — Disrupts feeding. Never on open blooms — bees first. 4 Release ladybugs — Release at dusk on damp plants near the colony. 5 Prune & trash — Cut the worst colonies, bag them; don't compost. 6 Invite hoverflies — Plant alyssum & dill nearby. Their larvae devour aphids.",
+      "NEEM SOAP SPRAY RECIPE: 1 tbsp neem oil : 1 tsp dish soap : 1 quart water. Shake well, coat leaf undersides at dusk. Use within 8 hours.",
+      "THE ANT CONNECTION: Ants FARM aphids — protecting them from ladybugs in exchange for honeydew. See ants on the plant? Control the ants and the aphids lose their bodyguards.",
+      "Footer: Safety: test soaps & neem on 2 leaves first. Spray at dusk to protect pollinators; keep away from kids & pets."
+    ]
+  },
+  "natural-garden-pest-control": {
+    "title": "Natural Garden Pest Control — Companion planting + pollinator rules + seasonal calendar (label: THE EVERGREEN HUB)",
+    "items": [
+      "COMPANION PLANTING CHART: Marigolds — REPELS aphids, whiteflies, root nematodes; plant along veggie borders & tomato rows. Basil — REPELS flies, mosquitoes, tomato hornworm; beside tomatoes, they help each other. Mint — REPELS ants, aphids, flea beetles; POTS ONLY, mint spreads aggressively. Nasturtiums — REPELS aphids (trap crop); sacrificial planting at garden edges. Lavender — REPELS moths, fleas, mosquitoes; pathways & patio borders.",
+      "POLLINATOR-SAFE RULES: 1 Spray at dusk — bees are home asleep. 2 Never spray open blooms, only foliage. 3 Choose targeted insecticidal soap over broad-spectrum killers. 4 Leave some 'wild corners' — predators need habitat too.",
+      "SEASONAL CALENDAR: SPRING — Prep soil, plant companions early. SUMMER — Monitor weekly, release beneficials. FALL — Cleanup = fewer overwintering pests. WINTER — Plan rotations, order seeds.",
+      "BENEFICIAL INSECTS TO WELCOME: Ladybugs — EATS aphids, mites, whitefly eggs. Lacewings — EATS aphids, thrips, mealybugs. Hoverflies — EATS aphid colonies; larvae feast. Parasitic wasps — EATS aphids, caterpillars (tiny, don't sting).",
+      "Footer: Safety: even natural sprays can irritate skin & eyes. Dusk application protects bees; store products from kids & pets."
+    ]
+  },
+  "natural-weed-control": {
+    "title": "Natural Weed Control — What works, exact ratios, honest limits (label: LAWN & GARDEN)",
+    "items": [
+      "THE 3-INGREDIENT WEED KILLER: 1 gal vinegar (20%) : 1 cup salt : 1 tbsp dish soap. Mix in a pump sprayer. Spray on a HOT, sunny day — heat activates it. Kills top growth in hours. Deep-rooted weeds (dandelions) need 2–3 rounds. HONEST LIMITS: Salt sterilizes soil — use ONLY where nothing should grow (paths, driveways).",
+      "1. Boiling water — Pour on weeds in cracks & pavers. Instant, free, zero residue.",
+      "2. Smother with mulch — 3–4 inches of wood chips blocks light. Weeds can't sprout in the dark. (Diagram: 3–4 in of mulch over soil. Under 2 inches, light gets through.)",
+      "3. Pull after rain — Wet soil releases roots whole. Get the crown or it regrows.",
+      "4. Corn gluten meal — Pre-emergent: stops weed SEEDS sprouting. Pet-safe lawn option.",
+      "TIMING MATTERS: Spray vinegar at midday sun — heat + UV do the killing. No rain for 24h after spraying, or it washes off. Corn gluten goes down in EARLY spring, before weed seeds wake.",
+      "Footer: Pet-safe reminder: vinegar & boiling water are pet-safe once dry. Salt areas are NOT — keep pets off until rinsed."
+    ]
+  }
+}

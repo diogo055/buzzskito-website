@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'what-does-a-spider-bite-look-like'
 const DATE = '2026-07-19'
@@ -251,6 +252,7 @@ export default function WhatDoesASpiderBiteLookLikePage() {
           </table>
         </div>
         <p>Two of these confusions have their own deep dives: <Link href="/blog/mosquito-bite-vs-spider-bite">mosquito bite vs spider bite</Link> walks through the most common mix-up feature by feature, and if the &ldquo;spider&rdquo; you found was small, dark, and crawling rather than biting, <Link href="/blog/bugs-that-look-like-ticks">bugs that look like ticks</Link> covers the lookalike arthropods people find on skin and clothing.</p>
+        <p>Two more rows from the table above have picture guides of their own: <Link href="/blog/flea-bites-on-humans">flea bites on humans</Link> for itchy bumps around the ankles, and <Link href="/blog/chigger-bites">chigger bites</Link> for the intense itch at a waistband or sock line.</p>
 
         <h2>How do you tell if a bite is from a spider?</h2>
         <p>Realistically, only by seeing the spider do it. Short of that, a spider becomes the better guess when there is one isolated bump on skin that was covered by clothing, bedding, a glove or a shoe, and no matching bites anywhere else. Multiples, lines, clusters, or bites on exposed skin point elsewhere.</p>
@@ -607,6 +609,7 @@ export default function WhatDoesASpiderBiteLookLikePage() {
         </div>
 
       </article>
+      <ReadNext path="/blog/what-does-a-spider-bite-look-like" standalone />
     </>
   )
 }

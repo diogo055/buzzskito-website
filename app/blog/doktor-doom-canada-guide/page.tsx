@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'doktor-doom-canada-guide'
 const DATE = '2026-07-30'
@@ -459,10 +459,7 @@ export default function DoktorDoomCanadaGuidePage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="No aerosol clears a yard. If mosquitoes or ticks are the problem and you're in the GTA, that is the one pest on this page we treat ourselves — free assessment across 19 cities."
-      />
+      <ReadNext path="/blog/doktor-doom-canada-guide" standalone />
     </>
   )
 }

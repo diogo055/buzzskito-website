@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'cluster-flies-in-house-canada'
 const DATE = '2026-08-31'
@@ -292,6 +293,7 @@ export default function ClusterFliesInHouseCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="cluster flies" />
+        <ReadNext path="/blog/cluster-flies-in-house-canada" />
       </article>
     </>
   )

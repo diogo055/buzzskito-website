@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-wasp-killer-canada'
 const DATE = '2026-08-31'
@@ -320,6 +321,7 @@ export default function BestWaspKillerCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="wasps" />
+        <ReadNext path="/blog/best-wasp-killer-canada" />
       </article>
     </>
   )

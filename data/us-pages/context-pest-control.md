@@ -12,6 +12,8 @@
 
 - `/blog/commercial-pest-control` — **commercial pest control**. Pest control for businesses: how it differs from residential service, which industries need it and why (restaurants and food plants, healthcare, hospitality, warehouses, multifamily housing, offices, schools), integrated pest management programs and documentation, the rules that drive it (FDA Food Code, health inspections, third-party audits, school IPM laws), service frequency, what a contract should contain, pricing factors, and how to choose and check a provider.
 
+- `/learn/pet-safe-pest-control` — **pet safe pest control**. Pest control around cats and dogs, remedy by remedy, cited to veterinary sources (ASPCA Animal Poison Control, Pet Poison Helpline, the Merck Veterinary Manual, FDA, AVMA, veterinary schools). Cover at least: essential oils (tea tree, peppermint and others, with the specific risk to cats), permethrin and other dog-only spot-on products around cats, rodenticides and secondary poisoning, borax and boric acid baits, diatomaceous earth, slug and snail bait, mothballs, DEET and human repellents on pets, glue traps, and flea and tick products. A table with one row per remedy: risk to dogs, risk to cats, and the lower-risk swap. What to do after an exposure, with the poison-control numbers copied from the organizations' own pages. Never call anything simply 'safe': say lower-risk, and 'when used as the label directs'. Tell readers to ask their veterinarian about products used on the animal.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -90,6 +92,15 @@
 - `/blog/what-kills-ticks-on-dogs-instantly` — what kills ticks on dogs instantly
 - `/blog/what-kills-ticks` — what kills ticks
 - `/blog/do-chickens-eat-ticks` — do chickens eat ticks
+- `/blog/fall-mouse-proofing-checklist` — how to mouse proof your house
+- `/learn/ant-killer-recipes` — homemade ant killer
+- `/blog/signs-of-bed-bugs-checklist` — signs of bed bugs
+- `/learn/tick-identification-chart` — tick identification chart
+- `/learn/natural-garden-pest-control` — natural garden pest control
+- `/learn/how-to-get-rid-of-fungus-gnats` — how to get rid of fungus gnats
+- `/learn/aphid-control-guide` — how to get rid of aphids naturally
+- `/learn/whitefly-identification-control` — how to get rid of whiteflies
+- `/learn/natural-weed-control` — natural weed killer
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

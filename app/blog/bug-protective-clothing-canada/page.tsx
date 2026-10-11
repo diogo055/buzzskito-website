@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -8,6 +7,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bug-protective-clothing-canada'
 const DATE = '2026-07-14'
@@ -310,7 +310,7 @@ export default function BugProtectiveClothingCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Mesh Protects You on the Trail — We Treat Your Yard" subtext="Licensed barrier spray from $99 across 19+ GTA cities. 150 five-star reviews." variant="dark" />
+      <ReadNext path="/blog/bug-protective-clothing-canada" standalone />
     </>
   )
 }

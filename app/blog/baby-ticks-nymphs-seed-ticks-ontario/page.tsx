@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -11,6 +9,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { withRegionalAlternates } from '@/lib/guides'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'baby-ticks-nymphs-seed-ticks-ontario'
 const DATE = '2026-07-12'
@@ -152,7 +151,6 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
           <p>A tick&rsquo;s life has four stages: egg, larva, nymph, and adult. When people search for &ldquo;baby ticks,&rdquo; they almost always mean one of the two immature feeding stages — the <strong>larva</strong> (also called a seed tick) or the <strong>nymph</strong>. Both bite, both can attach to people and pets, and both are small enough to be missed on a quick glance. The difference between them matters a lot for your health. Bed bugs run a comparable ladder indoors and generate the same identification panic at the smallest sizes &mdash; <Link href="/blog/baby-bed-bugs-nymphs" className="text-brand-700 underline">what bed bug nymphs look like at each stage</Link> is the bedroom equivalent of this page.</p>
           <p>The blacklegged (deer) tick, <em>Ixodes scapularis</em>, is the species Ontarians care about most, because it is the one that transmits Lyme disease. American dog ticks also live here, but their larvae and nymphs feed almost exclusively on small mammals and are rarely found on people. So when we talk about dangerous baby ticks in the GTA, we are talking about blacklegged tick nymphs.</p>
 
-          <BlogPostCTA />
           <p>If a baby tick is on you or your child right now, the size is the whole problem: household tweezers are too blunt to grip a poppy-seed nymph without squeezing it. A fine-point or slotted tick remover grabs the mouthparts instead of the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
 
           <h2>Seed Ticks: The Larval Stage</h2>
@@ -248,7 +246,7 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Treat the Edges Where Nymphs Wait" subtext="The poppy-seed-sized nymph causes most Lyme disease. Barrier spray treats the shaded yard edges where nymphs quest. From $99." variant="dark" />
+      <ReadNext path="/blog/baby-ticks-nymphs-seed-ticks-ontario" standalone />
     </>
   )
 }

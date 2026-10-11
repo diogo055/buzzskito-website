@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -10,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-bug-spray-for-kids-canada'
 const DATE = '2026-07-12'
@@ -378,7 +378,7 @@ export default function BestBugSprayForKidsCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="A Backyard With Fewer Bites Starts at the Source" subtext={`Get a free quote for licensed barrier spray. From $99. ${PROMISES.labelLine}.`} variant="dark" />
+      <ReadNext path="/blog/best-bug-spray-for-kids-canada" standalone />
     </>
   )
 }

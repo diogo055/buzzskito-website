@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import Figure from '@/components/Figure'
 import BuyLink from '@/components/BuyLink'
@@ -9,6 +8,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'why-do-mosquito-bites-itch'
 const DATE = '2026-07-15'
@@ -572,7 +572,7 @@ export default function WhyDoMosquitoBitesItchPage() {
         </div>
       </article>
 
-      <CTASection heading="Fewer Bites Beat Any Itch Science" subtext={`A professional barrier spray clears the mosquitoes resting in your yard. From $99, same-day protection. ${PROMISES.rainBackShort}.`} variant="dark" />
+      <ReadNext path="/blog/why-do-mosquito-bites-itch" standalone />
       <StickyBuyBar tag={AMZ_TAG} name="Anti-itch cream for bites" search="hydrocortisone anti itch cream" label="For the itch" />
     </>
   )

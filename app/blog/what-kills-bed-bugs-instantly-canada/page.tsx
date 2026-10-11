@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'what-kills-bed-bugs-instantly-canada'
 const DATE = '2026-07-30'
@@ -556,10 +556,7 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="We don't treat bed bugs — but if the bites are happening outdoors rather than in bed, that's exactly what we do, across 19 GTA cities."
-      />
+      <ReadNext path="/blog/what-kills-bed-bugs-instantly-canada" standalone />
     </>
   )
 }

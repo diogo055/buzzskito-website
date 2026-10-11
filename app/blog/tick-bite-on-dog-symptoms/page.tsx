@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -9,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'tick-bite-on-dog-symptoms'
 const DATE = '2026-04-26'
@@ -205,7 +205,7 @@ export default function TickBiteOnDogSymptomsPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="Keep on hand" />
 
-      <CTASection heading="Cut Down the Ticks Your Dog Meets at Home" subtext="Yard tick spray targets the leaf litter and lawn edges where dogs pick up ticks. 5 sprays per season: $597 on its own, or $497 added to any mosquito plan." variant="dark" />
+      <ReadNext path="/blog/tick-bite-on-dog-symptoms" standalone />
     </>
   )
 }

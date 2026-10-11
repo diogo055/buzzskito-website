@@ -91,6 +91,23 @@ for (const c of clusters) {
   })
 }
 
+// ── second batch (Oct 11): ten visual guides, see data/us-pages/visual.src.json ──
+const visualFile = join(DIR, 'visual.src.json')
+const heroTextFile = join(DIR, 'hero-text.json')
+const heroText = existsSync(heroTextFile) ? JSON.parse(readFileSync(heroTextFile, 'utf8')) : {}
+if (existsSync(visualFile)) {
+  for (const v of JSON.parse(readFileSync(visualFile, 'utf8')).pages) {
+    pages.push({
+      slug: v.slug, kind: 'spoke', section: v.section, cluster: v.cluster, path: `/${v.section}/${v.slug}`,
+      keyword: v.keyword, alsoTargets: [], ranks: [],
+      type: v.type === 'c' ? 'commercial' : 'informational', flags: v.flags, minWords: v.type === 'c' ? 2000 : 1500, datePublished: '2026-10-11',
+      projClicks: 0, batch: 'visual', audience: 'na', priority: v.priority, h1Hint: v.h1Hint, heroFile: v.heroFile, heroText: heroText[v.slug] || null,
+      scope: v.scope, linkedFrom: v.linkedFrom,
+      required: { pillar: null, ring: [], minSiblings: 0, minExisting: 0, category: null, mustLink: v.mustLink },
+    })
+  }
+}
+
 // planned addresses that do not exist yet but will by the time the site builds
 const planned = new Set([...pages.map((p) => p.path), '/pest-product-guides/ant-control', '/pest-product-guides/cockroach-control'])
 const clash = [...planned].filter((p) => existing.has(p))
@@ -108,9 +125,10 @@ const RE = {
   mosquitoes: /mosquito|deet|picaridin|bti|citronella|thermacell|bug-zapper|dynatrap|west-nile|permethrin|bug-spray|no-see-um|black-flies/,
   ticks: /tick|lyme|alpha-gal|permethrin|what-eats/,
   'pest-control': /pest-control|sprayer|fogger|diatomaceous|ultrasonic|natural|diy|grub|june-bug|ortho|wondercide|doktor-doom/,
+  garden: /fungus-gnat|aphid|whitefl|garden|june-bug|grub|repellent-plants|cedar|deer|mosquito-bits|mosquito-dunks|natural|lawn|what-do-ants-eat|flowers/,
 }
 const title = (i) => (i.h1 || i.metaTitle || '').replace(/\s+/g, ' ').trim()
-for (const c of [...clusters]) {
+for (const c of [...clusters, 'garden']) {
   const mine = pages.filter((p) => p.cluster === c)
   const lines = []
   lines.push(`# Cluster: ${c}`, '')

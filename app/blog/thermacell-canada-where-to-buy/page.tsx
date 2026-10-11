@@ -1,16 +1,15 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
-import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
 import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'thermacell-canada-where-to-buy'
 const DATE = '2026-05-01'
@@ -342,7 +341,6 @@ export default function ThermacellCanadaPage() {
           <p>Thermacell devices warm a small mat or liquid cartridge holding a synthetic pyrethroid — a lab-made relative of the natural insecticide found in chrysanthemum flowers. On the fuel-powered models a butane cartridge heats a mat of allethrin or prallethrin; on the rechargeable E-Series a battery warms a metofluthrin cartridge. Either way the heat releases a vapour into the air around the device, and mosquitoes flying through the cloud are repelled — and at higher concentrations killed, which is how the registered claim is worded in RD2019-03 (&ldquo;kill and repel mosquitos&rdquo;). The vapour is essentially undetectable to humans at normal concentrations, but it is still a registered pesticide: the Canadian label carries a &ldquo;Caution Poison&rdquo; hazard statement, and Health Canada notes metofluthrin is highly toxic to fish, aquatic invertebrates and bees.</p>
           <p>Two things matter for performance: <strong>still air and proximity</strong>. The Canadian fuel-powered line is registered for an area &ldquo;up to 4.5 metres from the device for up to 4 hours&rdquo; — that works out to roughly 65 sq m, about 700 sq ft, and only in dead-calm conditions. In a 10–15 km/h breeze, the vapour disperses faster than it can build up, dropping effectiveness by 50% or more.</p>
 
-          <InlineYardRiskCTA variant="emerald" pretext="Free 60-second tool · 1-100 score by address" />
 
           <h2>When Thermacell Is the Right Tool</h2>
           <ul>
@@ -424,7 +422,7 @@ export default function ThermacellCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Thermacell Covers the Patio · Barrier Spray Covers the Yard" subtext={`Get a free quote for whole-yard barrier spray. From $99. ${PROMISES.labelLine}. ${PROMISES.rainBackShort}.`} variant="dark" />
+      <ReadNext path="/blog/thermacell-canada-where-to-buy" standalone />
     </>
   )
 }

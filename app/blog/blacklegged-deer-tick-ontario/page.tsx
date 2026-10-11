@@ -1,15 +1,14 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'blacklegged-deer-tick-ontario'
 const DATE = '2026-07-12'
@@ -190,7 +189,6 @@ export default function BlackleggedDeerTickOntarioPage() {
           <h2>The Deer Tick and the Blacklegged Tick Are the Same Species</h2>
           <p>People searching &ldquo;deer tick&rdquo; and people searching &ldquo;blacklegged tick&rdquo; are looking at the same animal: <strong><em>Ixodes scapularis</em></strong>. &ldquo;Deer tick&rdquo; comes from the white-tailed deer that adult females feed on to complete their life cycle; &ldquo;blacklegged tick&rdquo; comes from its distinctive dark legs. Both names point to the single tick in Ontario capable of transmitting Lyme disease, so it is worth learning to recognize it. For a side-by-side breakdown of the two ticks GTA residents most often confuse, see our full <Link href="/blog/deer-tick-vs-dog-tick-canada">deer tick vs dog tick comparison</Link>.</p>
 
-          <BlogPostCTA />
 
           <p>If you are reading this with a tick already attached, the one thing worth buying is a fine-tipped remover: it grips a poppy-seed-sized nymph right at the mouthparts and lifts it straight out, where household tweezers slip or squeeze the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
 
@@ -281,7 +279,7 @@ export default function BlackleggedDeerTickOntarioPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool Set" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Stop Deer Ticks at Your Yard&rsquo;s Edges" subtext="Blacklegged ticks wait in leaf litter and shaded borders. One licensed barrier spray removes them at the source. From $99." variant="dark" />
+      <ReadNext path="/blog/blacklegged-deer-tick-ontario" standalone />
     </>
   )
 }

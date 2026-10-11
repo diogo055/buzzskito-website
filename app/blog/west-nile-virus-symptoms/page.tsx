@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'west-nile-virus-symptoms'
 const DATE = '2026-07-19'
@@ -238,7 +238,7 @@ export default function WestNileVirusSymptomsPage() {
 
       </article>
 
-      <CTASection heading="Fewer Mosquitoes, Fewer Bites, Less Worry" subtext="Get a free quote for a licensed mosquito barrier treatment that knocks down the biting adults around your yard all season long." variant="dark" />
+      <ReadNext path="/blog/west-nile-virus-symptoms" standalone />
     </>
   )
 }

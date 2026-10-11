@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -10,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'do-fire-pits-repel-mosquitoes-canada'
 const DATE = '2026-08-22'
@@ -328,7 +328,7 @@ export default function DoFirePitsRepelMosquitoesCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Smoke Moves. Mosquitoes Move With It." subtext="A licensed barrier spray treats the whole yard, not one plume. From $99, 19+ GTA cities, May through September." variant="dark" />
+      <ReadNext path="/blog/do-fire-pits-repel-mosquitoes-canada" standalone />
     </>
   )
 }

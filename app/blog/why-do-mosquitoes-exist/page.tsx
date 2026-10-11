@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'why-do-mosquitoes-exist'
 const DATE = '2026-07-15'
@@ -233,7 +233,7 @@ export default function WhyDoMosquitoesExistPage() {
         </div>
       </article>
 
-      <CTASection heading="Curious About Mosquitoes? We Handle the Rest." subtext="Get a free quote for licensed mosquito and tick barrier spray across the GTA. From $99. Rain-back guarantee on every plan." variant="dark" />
+      <ReadNext path="/blog/why-do-mosquitoes-exist" standalone />
     </>
   )
 }

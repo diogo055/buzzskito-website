@@ -4,14 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npm run check:amazon && npm run check:registered && npm run check:ads && npm run check:guides",
+    "build": "next build && npm run check:amazon && npm run check:registered && npm run check:ads && npm run check:guides && npm run check:article-ctas",
     "check:amazon": "node scripts/check-amazon.mjs",
     "check:registered": "node scripts/check-registered.mjs",
     "check:ads": "node scripts/check-ads.mjs",
     "postbuild": "node scripts/index-urls.mjs",
     "start": "next start",
     "lint": "next lint",
-    "check:guides": "node scripts/validate-guide.mjs --all --complete"
+    "check:guides": "node scripts/validate-guide.mjs --all --complete",
+    "check:article-ctas": "node scripts/check-article-ctas.mjs"
   },
   "dependencies": {
     "@vercel/speed-insights": "^2.0.0",

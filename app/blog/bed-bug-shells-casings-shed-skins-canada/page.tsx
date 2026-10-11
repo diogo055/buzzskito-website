@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bed-bug-shells-casings-shed-skins-canada'
 const DATE = '2026-07-30'
@@ -464,10 +464,7 @@ export default function BedBugShellsCasingsPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="We don't treat bed bugs — mosquito and tick control across 19 GTA cities is what we're licensed for. If the bites turned out to be happening outdoors, that part we can help with."
-      />
+      <ReadNext path="/blog/bed-bug-shells-casings-shed-skins-canada" standalone />
     </>
   )
 }

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -9,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'black-flag-electric-fogger-review-canada'
 const DATE = '2026-07-21'
@@ -298,7 +298,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Fog, Get the Barrier" subtext="A fogger buys you an evening. A licensed barrier spray treats the whole yard on a seasonal schedule — and targets ticks too. From $99. Rain-back guarantee on every plan. Get a free quote." variant="dark" />
+      <ReadNext path="/blog/black-flag-electric-fogger-review-canada" standalone />
     </>
   )
 }

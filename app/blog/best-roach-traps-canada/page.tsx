@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-roach-traps-canada'
 const DATE = '2026-07-28'
@@ -476,6 +477,7 @@ export default function BestRoachTrapsCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="cockroaches" />
+        <ReadNext path="/blog/best-roach-traps-canada" />
       </article>
     </>
   )

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -8,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'lyme-disease-symptoms-guide'
 const DATE = '2026-07-13'
@@ -323,7 +323,7 @@ export default function LymeDiseaseSymptomsGuidePage() {
         </div>
       </article>
 
-      <CTASection heading="Cut the Tick Population Before It Reaches Your Family" subtext="Licensed tick barrier treatment targeting the yard edges where blacklegged ticks wait. Single treatments from $99." variant="dark" />
+      <ReadNext path="/blog/lyme-disease-symptoms-guide" standalone />
     </>
   )
 }

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -9,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'wondercide-canada-review'
 const DATE = '2026-07-12'
@@ -336,7 +336,7 @@ export default function WondercideCanadaReviewPage() {
         </div>
       </article>
 
-      <CTASection heading="Cedar Oil for the Dog · Barrier Spray for the Yard" subtext="Get a free quote for licensed tick & mosquito barrier spray. From $99. Whole-yard coverage." variant="dark" />
+      <ReadNext path="/blog/wondercide-canada-review" standalone />
     </>
   )
 }

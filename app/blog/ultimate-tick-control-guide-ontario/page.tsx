@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -11,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS, CITIES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const POST = TICK_BLOGS.pillar
 
@@ -61,7 +60,6 @@ export default function TickPillarPage() {
       </section>
 
       <div className="max-w-4xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
-        <BlogPostCTA />
       </div>
 
       <article className="max-w-4xl mx-auto px-4 py-12 prose-brand">
@@ -267,7 +265,7 @@ export default function TickPillarPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tip tick removal tool set" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Get Your Yard Ready for Tick Season" subtext="Get a free tick control quote for your GTA property. No contracts required." variant="dark" />
+      <ReadNext path="/blog/ultimate-tick-control-guide-ontario" standalone />
     </>
   )
 }

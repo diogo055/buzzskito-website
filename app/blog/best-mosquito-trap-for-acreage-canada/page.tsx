@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -9,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-mosquito-trap-for-acreage-canada'
 const DATE = '2026-07-21'
@@ -355,7 +355,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Trap the Property · Spray the Living Areas" subtext="Get a free quote for licensed barrier spray around the spaces you actually use. From $99. Rain-back guarantee on every plan — and it targets ticks too." variant="dark" />
+      <ReadNext path="/blog/best-mosquito-trap-for-acreage-canada" standalone />
     </>
   )
 }

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'what-colors-attract-mosquitoes'
 const DATE = '2026-07-16'
@@ -225,7 +225,7 @@ export default function WhatColorsAttractMosquitoesPage() {
         </div>
       </article>
 
-      <CTASection heading="Wear White, Spray the Yard, Enjoy the Summer" subtext={`Get a free quote for licensed barrier spray. From $99. Treats mosquitoes and ticks. ${PROMISES.rainBackShort}.`} variant="dark" />
+      <ReadNext path="/blog/what-colors-attract-mosquitoes" standalone />
     </>
   )
 }

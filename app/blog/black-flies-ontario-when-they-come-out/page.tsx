@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -12,6 +10,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import RelatedProducts from '@/components/RelatedProducts'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'black-flies-ontario-when-they-come-out'
 const DATE = '2026-04-26'
@@ -103,7 +102,6 @@ export default function BlackFliesOntarioPage() {
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
-        <BlogPostCTA />
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
@@ -358,7 +356,7 @@ export default function BlackFliesOntarioPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Picaridin (icaridin) insect repellent" search="picaridin insect repellent canada" label="Best for black flies" />
 
-      <CTASection heading="Beat the Black Fly Wave This Spring" subtext="A May barrier spray cuts the worst three weeks of black fly pressure. Free yard assessment, no commitment." />
+      <ReadNext path="/blog/black-flies-ontario-when-they-come-out" standalone />
     </>
   )
 }

@@ -1,13 +1,12 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'are-there-ticks-in-canada'
 const DATE = '2026-07-15'
@@ -167,7 +166,6 @@ export default function AreThereTicksInCanadaPage() {
           <p>Ticks live in every province and territory of Canada &mdash; roughly 40 species have been recorded nationally &mdash; but they are not spread evenly, and only a handful of species matter for human disease. The single most important species is the <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged tick (Ixodes scapularis)</Link>, also called the deer tick, because it is the one that transmits the bacterium that causes Lyme disease in central and eastern Canada. On the West Coast, that role is played by its cousin, the western blacklegged tick (Ixodes pacificus).</p>
           <p>Ticks favour humid, sheltered habitat: the tall-grass and leaf-litter edges where lawns meet woods, brushy trails, ravine slopes, and the transition zones around wetlands and forests. That is why a national map of &ldquo;where are ticks in Canada&rdquo; tracks forests, river valleys, and shorelines rather than city centres or open prairie. The Public Health Agency of Canada (PHAC), together with the crowd-sourced surveillance platform eTick.ca, tracks where established populations exist and where the range is expanding.</p>
 
-          <BlogPostCTA />
           <AffiliateDisclosure />
           <TopPick tag={AMZ_TAG}
             label="The One Thing to Own Anywhere in Canada"
@@ -276,7 +274,7 @@ export default function AreThereTicksInCanadaPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tip tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Ticks Are in the GTA — Protect Your Yard" subtext="Get a free quote for a licensed tick barrier spray targeting the lawn-to-woods edge where ticks wait. Serving 19 GTA cities." variant="dark" />
+      <ReadNext path="/blog/are-there-ticks-in-canada" standalone />
     </>
   )
 }

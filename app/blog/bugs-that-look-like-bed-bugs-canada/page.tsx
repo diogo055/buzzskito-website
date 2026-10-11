@@ -9,9 +9,9 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bugs-that-look-like-bed-bugs-canada'
 const DATE = '2026-07-30'
@@ -479,10 +479,7 @@ export default function BugsThatLookLikeBedBugsCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="We don't treat bed bugs — but if the thing biting you at night turns out to have flown in through a screen door, that's exactly what we do. Free yard assessment across 19 GTA cities."
-      />
+      <ReadNext path="/blog/bugs-that-look-like-bed-bugs-canada" standalone />
     </>
   )
 }

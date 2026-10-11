@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-keep-spiders-out-of-your-house'
 const DATE = '2026-07-21'
@@ -367,6 +368,7 @@ export default function HowToKeepSpidersOutPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="spiders" />
+        <ReadNext path="/blog/how-to-keep-spiders-out-of-your-house" />
       </article>
     </>
   )

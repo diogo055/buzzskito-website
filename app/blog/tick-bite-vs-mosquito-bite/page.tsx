@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -12,6 +11,7 @@ import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'tick-bite-vs-mosquito-bite'
 const DATE = '2026-04-07'
@@ -96,7 +96,6 @@ export default function TickBiteVsMosquitoBitePage() {
       </section>
 
       <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
-        <BlogPostCTA />
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-14 prose-brand">
@@ -336,7 +335,7 @@ export default function TickBiteVsMosquitoBitePage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick-Removal Tool Set" search="tick removal tool tweezers" asin="B075DKL3Z6" label="For tick removal" />
 
-      <CTASection heading="Protect Your Yard from Ticks and Mosquitoes" subtext="Professional barrier spray for the lawn edges where ticks wait and the shrubs where mosquitoes rest. From $99." variant="dark" />
+      <ReadNext path="/blog/tick-bite-vs-mosquito-bite" standalone />
     </>
   )
 }

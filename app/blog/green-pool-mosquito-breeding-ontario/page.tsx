@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -10,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'green-pool-mosquito-breeding-ontario'
 const DATE = '2026-08-22'
@@ -307,7 +307,7 @@ export default function GreenPoolMosquitoBreedingOntarioPage() {
         <AdjacentPestCTA variant="equipment" />
       </article>
 
-      <CTASection heading="You Cover the Pool — We Handle the Rest of the Yard" subtext="Licensed barrier spray from $99 across 19+ GTA cities. 150 five-star Google reviews, zero bad ones." variant="dark" />
+      <ReadNext path="/blog/green-pool-mosquito-breeding-ontario" standalone />
     </>
   )
 }

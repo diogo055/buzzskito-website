@@ -1,13 +1,12 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'what-percentage-of-ticks-carry-lyme-ontario'
 const DATE = '2026-07-16'
@@ -119,7 +118,6 @@ export default function TicksCarryLymeOntarioPage() {
 
       {/* Service CTA first (lead-CTA rule), then the affiliate pick under it */}
       <div className="max-w-3xl mx-auto px-4">
-        <BlogPostCTA />
         <AffiliateDisclosure />
         <TopPick tag={AMZ_TAG}
           label="Our Top Pick — For the 24-Hour Window"
@@ -225,7 +223,7 @@ export default function TicksCarryLymeOntarioPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Treat the Yard Edges Where Your Family Walks" subtext="Professional tick barrier spray targets the yard edges where blacklegged ticks concentrate. Free quote for all GTA properties." variant="dark" />
+      <ReadNext path="/blog/what-percentage-of-ticks-carry-lyme-ontario" standalone />
     </>
   )
 }

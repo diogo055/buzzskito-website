@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-flea-spray-for-home-canada'
 const DATE = '2026-07-28'
@@ -387,10 +387,7 @@ export default function BestFleaSprayForHomeCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Fleas Are Not Our Department — Mosquitoes and Ticks Are"
-        subtext="BuzzSkito is a licensed GTA mosquito and tick control company serving 19 cities. If fleas are your problem, work the vacuum-and-IGR plan above and talk to your vet about the pet. If it is mosquitoes or ticks making your yard unusable, that is what we actually do — get a free, no-obligation quote."
-      />
+      <ReadNext path="/blog/best-flea-spray-for-home-canada" standalone />
     </>
   )
 }

@@ -8,9 +8,9 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'what-does-mouse-poop-look-like-canada'
 const DATE = '2026-07-30'
@@ -760,10 +760,7 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="We don't do rodent work — but the clutter, moisture and gaps that invite mice are the same conditions driving mosquito and tick pressure outside. Free assessment across 19 GTA cities."
-      />
+      <ReadNext path="/blog/what-does-mouse-poop-look-like-canada" standalone />
     </>
   )
 }

@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -10,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'deer-tick-vs-dog-tick-canada'
 const DATE = '2026-04-28'
@@ -198,7 +197,6 @@ export default function DeerTickVsDogTickPage() {
             <li><strong>If unsure</strong> → Photograph from above and submit to <a href="https://etick.ca" target="_blank" rel="noreferrer">eTick.ca</a>. Free identification within 1–3 days.</li>
           </ol>
 
-          <BlogPostCTA />
           <AffiliateDisclosure />
           <p>Whichever it is, it needs to come off the skin now, and a tick-removal kit that includes a small magnifier does double duty: confirm the pattern on the shield, then pull the tick straight out. <BuyLink tag={AMZ_TAG} search="tick removal kit with magnifier">Check price on Amazon.ca &rarr;</BuyLink></p>
 
@@ -340,7 +338,7 @@ export default function DeerTickVsDogTickPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Tick-Removal Tool Set (tweezers + key)" search="tick removal tool tweezers" label="Best tool for the job" />
 
-      <CTASection heading="Treat the Yard Edges Where Both Tick Species Wait" subtext="One tick barrier program treats the edges where deer ticks AND dog ticks quest. $597 a season, or $497 with a mosquito plan." variant="dark" />
+      <ReadNext path="/blog/deer-tick-vs-dog-tick-canada" standalone />
     </>
   )
 }

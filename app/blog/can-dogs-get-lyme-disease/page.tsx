@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'can-dogs-get-lyme-disease'
 const DATE = '2026-07-15'
@@ -281,7 +281,7 @@ export default function CanDogsGetLymeDiseasePage() {
         </div>
       </article>
 
-      <CTASection heading="Cut Down the Ticks in Your Own Backyard" subtext="Professional tick barrier spray for GTA yards — targets the lawn edges and leaf litter where ticks wait. From $597/season, or $497 bundled with a mosquito plan. Free quote." variant="dark" />
+      <ReadNext path="/blog/can-dogs-get-lyme-disease" standalone />
     </>
   )
 }

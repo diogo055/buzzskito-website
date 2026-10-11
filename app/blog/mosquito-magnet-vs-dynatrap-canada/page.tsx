@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import StickyBuyBar from '@/components/StickyBuyBar'
@@ -8,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-magnet-vs-dynatrap-canada'
 const DATE = '2026-07-21'
@@ -329,7 +329,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Trap Debate · Get Whole-Yard Coverage" subtext="Get a free quote for licensed barrier spray. From $99. Rain-back guarantee on every plan — and we target ticks too." variant="dark" />
+      <ReadNext path="/blog/mosquito-magnet-vs-dynatrap-canada" standalone />
     </>
   )
 }

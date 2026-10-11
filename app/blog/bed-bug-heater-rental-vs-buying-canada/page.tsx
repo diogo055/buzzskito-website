@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bed-bug-heater-rental-vs-buying-canada'
 const DATE = '2026-08-22'
@@ -310,6 +311,7 @@ export default function BedBugHeaterRentalVsBuyingCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="bed bugs" />
+        <ReadNext path="/blog/bed-bug-heater-rental-vs-buying-canada" />
       </article>
     </>
   )

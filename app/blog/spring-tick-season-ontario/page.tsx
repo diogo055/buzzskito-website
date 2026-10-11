@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS, PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const POST = {
   title: 'Spring Tick Season Ontario — When to Treat',
@@ -210,7 +210,7 @@ export default function SpringTickSeasonPage() {
         </ul>
       </article>
 
-      <CTASection heading="Spring Is Here — Book Your First Tick Treatment Now" subtext="Late May is the optimal window to treat before nymph emergence. Secure your preferred date before the spring rush." variant="dark" />
+      <ReadNext path="/blog/spring-tick-season-ontario" standalone />
     </>
   )
 }

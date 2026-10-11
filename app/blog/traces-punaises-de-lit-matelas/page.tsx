@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'traces-punaises-de-lit-matelas'
 const DATE = '2026-07-30'
@@ -417,10 +417,7 @@ export default function TracesPunaisesDeLitMatelasPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Notre vrai métier : les moustiques et les tiques"
-        subtext="Nous ne traitons pas les punaises de lit. Si vous êtes dans la région du Grand Toronto et que le problème vient plutôt du jardin, c'est exactement ce que nous faisons — évaluation gratuite dans 19 villes."
-      />
+      <ReadNext path="/blog/traces-punaises-de-lit-matelas" standalone />
     </div>
   )
 }

@@ -1,13 +1,12 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'lone-star-tick-alpha-gal-canada'
 const DATE = '2026-07-16'
@@ -151,7 +150,6 @@ export default function LoneStarTickAlphaGalCanadaPage() {
           <p>The lone star tick (<em>Amblyomma americanum</em>) is the tick that causes the red meat allergy known as alpha-gal syndrome. When it bites, it can transfer a sugar called galactose-alpha-1,3-galactose — alpha-gal for short — into the person, and the immune system may then treat that sugar as a threat.</p>
           <p>Alpha-gal is present in most non-primate mammals, so once someone is sensitized, their body can react to beef, pork, lamb, venison, and sometimes dairy, gelatin, and a handful of medications. The U.S. Centers for Disease Control and Prevention (CDC) names the lone star tick as the primary cause of alpha-gal syndrome in the United States. Researchers elsewhere are studying whether other tick species could occasionally play a role, but as of 2026 the lone star tick is the main documented culprit worldwide. You can see how it differs from the ticks Canadians actually meet in our <Link href="/blog/types-of-ticks-identification">tick identification guide</Link>.</p>
 
-          <BlogPostCTA />
           <AffiliateDisclosure />
           <TopPick tag={AMZ_TAG}
             label="Worth Keeping in the Drawer"
@@ -269,7 +267,7 @@ export default function LoneStarTickAlphaGalCanadaPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tip tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Take the Ticks Off Your To-Do List" subtext="Professional barrier spray treats the lawn edges and perimeters where ticks wait. Seasonal pricing on quote — serving 19 GTA cities." variant="dark" />
+      <ReadNext path="/blog/lone-star-tick-alpha-gal-canada" standalone />
     </>
   )
 }

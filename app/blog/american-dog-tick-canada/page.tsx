@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -9,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'american-dog-tick-canada'
 const DATE = '2026-04-28'
@@ -238,7 +238,7 @@ export default function AmericanDogTickPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick-removal tool" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Treat the Yard Edges Where Dog Ticks (And Deer Ticks) Wait" subtext="Professional barrier spray treats the lawn edges and shaded margins where ticks wait. Tick season plans $597, or $497 with a mosquito plan." variant="dark" />
+      <ReadNext path="/blog/american-dog-tick-canada" standalone />
     </>
   )
 }

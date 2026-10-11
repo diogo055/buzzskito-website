@@ -1,0 +1,205 @@
+{
+  "slug": "signs-of-bed-bugs-checklist",
+  "kind": "spoke",
+  "cluster": "bed-bugs",
+  "section": "blog",
+  "keyword": "signs of bed bugs",
+  "alsoTargets": [],
+  "metaTitle": "Signs of Bed Bugs: 7-Point Checklist for Tonight",
+  "metaDescription": "Signs of bed bugs: live bugs, ink-like fecal spots, shed skins, pinhead-size eggs, rusty stains, odor and bites. Where to look tonight and what to do next.",
+  "h1": "Signs of Bed Bugs: A 7-Point Checklist to Run Tonight",
+  "dek": "The seven signs of bed bugs, ranked by how much each one proves, with where to look for each, a 10-minute flashlight check, and what to do and not do in the first 24 hours.",
+  "breadcrumb": "Signs of Bed Bugs",
+  "excerpt": "The seven signs of bed bugs, from live bugs and ink-like spots to bites, with where to look tonight, what each is mistaken for, and the first-24-hour steps.",
+  "datePublished": "2026-10-11",
+  "heroAlt": "One-page inspection guide titled 7 Signs of Bed Bugs. It lists rusty-red stains, dark ink-like spots, shed skins, live bugs, tiny white eggs, a musty sweet odor and bite lines, each with where to look. A first-24-hours box says to keep sleeping in your own bed, wash bedding hot and dry on high for 30 minutes or more, and declutter around the bed. A footer warns against bug bombs.",
+  "quickAnswer": {
+    "lead": "**The signs of bed bugs are live bugs, dark ink-like fecal spots, shed skins, tiny white eggs, rusty-red stains on bedding, a sweet musty odor and bites.** The [EPA's guide to finding bed bugs](https://www.epa.gov/bedbugs/how-find-bed-bugs) calls bites a poor indicator and lists the physical signs to look for instead, so check the bed itself before you trust your skin.",
+    "bullets": [
+      "Adult bed bugs are about the size of an apple seed, 3/16 to 1/4 inch (5 to 7 mm) long, according to the EPA.",
+      "Eggs and eggshells are about 1 mm (roughly 1/25 inch), which the EPA compares to a pinhead; that is much smaller than a grain of rice.",
+      "A nymph sheds its skin five times before adulthood, so pale empty skins collect near hiding places.",
+      "CDC says bite marks can take as long as 14 days to appear in some people, and the University of Kentucky cites studies suggesting about 30 percent of people do not react even when bitten repeatedly.",
+      "Drying bedding on high heat for 30 minutes kills all bed bugs, eggs included, according to the National Pesticide Information Center.",
+      "Keep sleeping in your own bed: moving to another room can spread the infestation."
+    ]
+  },
+  "facts": {
+    "title": "Bed bug signs at a glance",
+    "rows": [
+      ["Strongest sign", "A live bug, or bugs, skins, eggs and dark spots together in one seam"],
+      ["Weakest sign", "Bites, which the EPA calls a poor indicator"],
+      ["Adult size", "3/16 to 1/4 inch (5 to 7 mm), about an apple seed (EPA)"],
+      ["Egg size", "About 1 mm (roughly 1/25 inch), a pinhead (EPA)"],
+      ["Nymph sizes", "1.5 to 4.5 mm (about 1/16 to 3/16 inch) across five stages (EPA)"],
+      ["Molts before adulthood", "Five (University of Kentucky)"],
+      ["Bite marks appear", "One to several days later, up to 14 days in some people (CDC)"],
+      ["Where most live", "Within about 8 feet of where people sleep (CDC)"],
+      ["Dryer setting that kills", "High heat for 30 minutes (NPIC)"],
+      ["Lethal body temperature", "113°F (45°C) (EPA)"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What are the signs of bed bugs?" },
+    { "type": "p", "text": "The signs of bed bugs are the insects themselves and what they leave behind: dark fecal spots, shed skins, eggs, and rusty-red stains on bedding, plus two weaker clues, a sweet musty odor and bites. The [EPA's page on how to find bed bugs](https://www.epa.gov/bedbugs/how-find-bed-bugs) lists the physical signs and warns that bites are a poor indicator, because they can look like other insect bites or a rash and some people do not react at all. The [CDC's bed bug overview](https://www.cdc.gov/bed-bugs/about/index.html) lists shed exoskeletons, bugs in the folds of mattresses and sheets, rusty-colored blood spots and a sweet musty odor." },
+    { "type": "p", "text": "The one-page guide above numbers the signs 1 to 7, but they are not equally strong evidence. No agency publishes a ranked list, so the order below is this page's own reading of the sources: the insect and its physical traces count most, and anything that depends on your skin or your nose counts least." },
+    { "type": "table", "head": ["Rank", "Sign (number on the guide)", "Strength as evidence", "Why"], "rows": [
+      ["1", "Live bugs (4)", "Strongest", "A captured bug can be identified for certain."],
+      ["2", "Dark ink-like spots (2)", "Strong", "Dried droppings, left where the bugs hide."],
+      ["3", "Shed skins (3)", "Strong", "Only growing nymphs leave them, and each molt follows a blood meal."],
+      ["4", "Tiny white eggs (5)", "Strong, but hard to see", "A female has been laying, but at about 1 mm (roughly 1/25 inch) eggs are easy to miss."],
+      ["5", "Rusty-red stains (1)", "Moderate", "Something bled or was crushed on the sheet; the stain does not show what."],
+      ["6", "Musty sweet odor (6)", "Weak", "Seldom apparent except in extreme infestations (University of Kentucky)."],
+      ["7", "Bite lines (7)", "Weakest", "The EPA calls bites a poor indicator; reactions vary and can be delayed by days."]
+    ], "caption": "Editorial ranking, based on the sources cited on this page." },
+    { "type": "p", "text": "For the biology behind these signs, start with [the complete bed bug reference](/learn/bed-bugs)." },
+
+    { "type": "h2", "text": "What does each of the 7 signs look like, and where do you look?" },
+    { "type": "p", "text": "Each sign has its own look and place: stains on the sheets; spots, skins and eggs in the seams; bugs in the cracks; bites on skin left uncovered overnight." },
+
+    { "type": "h3", "text": "1. Rusty-red stains" },
+    { "type": "p", "text": "Rusty or reddish stains on sheets, pillowcases or the mattress are blood. The EPA attributes them to bed bugs being crushed, and the [University of Kentucky's bed bug fact sheet](https://entomology.mgcafe.uky.edu/ef636) describes rusty or reddish smears from blood-filled bugs that were squashed." },
+    { "type": "p", "text": "**Where to look:** the sheet and pillowcase at the head of the bed, then the mattress top and seams. **Confused with:** any small blood spot, such as one from a scratched mosquito bite. A stain alone does not show what bled, so use it as the reason to look for signs 2 to 5." },
+
+    { "type": "h3", "text": "2. Dark ink-like spots" },
+    { "type": "p", "text": "Dark spots are bed bug droppings. The EPA describes dots about the size of a printed bullet point that may bleed into fabric the way a marker would, and Kentucky describes dark spotting and staining from the dried excrement of the bugs." },
+    { "type": "p", "text": "**Where to look:** mattress seams, piping and tags, the box spring, and the back of the headboard. **Confused with:** other dark specks on a mattress. A separate guide compares [bed bug fecal spots with the marks most often mistaken for them](/blog/bed-bug-stains-poop-droppings-canada)." },
+    { "type": "media", "needed": "Close-up photo of a mattress seam and piping showing dark ink-like fecal spots bled into the fabric, two pale shed skins and a small cluster of white eggs, with a US dime for scale and each sign labeled" },
+
+    { "type": "h3", "text": "3. Shed skins" },
+    { "type": "p", "text": "Shed skins are the empty outer shells nymphs leave behind as they grow. The EPA describes them as pale yellow, Kentucky as tan-colored, and the [National Pesticide Information Center's bed bug page](https://npic.orst.edu/pest/bedbug/index.html) says they look like empty bed bug bodies. A nymph sheds its skin five times before maturity, according to Kentucky." },
+    { "type": "p", "text": "None of these sources gives skins one measurement. The [EPA's life cycle page](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle) lists the nymphs that shed them at 1.5 mm in the first stage up to 4.5 mm in the fifth (about 1/16 to 3/16 inch), so expect skins across that range, not all at 1 mm. **Where to look:** mattress seams, crevices in the bed frame and behind the headboard. **Confused with:** the cast skins of other insects. A related guide shows [what bed bug shells and casings look like](/blog/bed-bug-shells-casings-shed-skins-canada)." },
+
+    { "type": "h3", "text": "4. Live bugs" },
+    { "type": "p", "text": "A live bed bug is the one sign that can settle the question. The EPA sizes adults at 3/16 to 1/4 inch (5 to 7 mm), about an apple seed, with a flat, oval, brown body when unfed and a swollen, longer, reddish-brown body after a blood meal. Kentucky gives about 3/16 inch and says the color resembles an apple seed while the size is closer to a lentil. Nymphs are smaller and translucent or whitish-yellow, and the EPA says an unfed one can be nearly invisible." },
+    { "type": "p", "text": "**Where to look:** the EPA lists the piping, seams and tags of the mattress and box spring and cracks in the bed frame and headboard, and CDC says bed bugs tend to live within 8 feet of where people sleep. **Confused with:** carpet beetles, fleas and bat bugs, according to NPIC. Compare your find against [photos and sizes of each bed bug life stage](/blog/what-do-bed-bugs-look-like), then against [the insects that pass for bed bugs](/blog/bugs-that-look-like-bed-bugs)." },
+    { "type": "media", "needed": "Scale diagram along a ruler marked in inches and millimeters: one bed bug egg (1 mm), the five nymph stages (1.5 to 4.5 mm), an unfed adult and a fed adult (5 to 7 mm), with an apple seed and a pinhead drawn beside them for comparison" },
+
+    { "type": "h3", "text": "5. Tiny white eggs" },
+    { "type": "p", "text": "Bed bug eggs are pearl-white and about 1 mm long (roughly 1/25 inch), which the EPA compares to a pinhead, far smaller than a grain of rice. Kentucky compares an egg to a speck of dust that is hard to see without magnification, and says eggs are sticky when first laid, so they stay attached in the secluded places where females lay them." },
+    { "type": "p", "text": "**Where to look:** stitching, seams, cracks in the frame and screw holes; the EPA notes that in a heavily infested room bed bugs hide even in the head of a screw. **Confused with:** lint and dust. Use a magnifier or your phone camera's zoom, and look for several eggs together." },
+
+    { "type": "h3", "text": "6. Musty sweet odor" },
+    { "type": "p", "text": "A sweet, musty smell is a real sign but a late one. CDC lists a sweet musty odor among the signs of an infestation, and the EPA says bed bugs produce a musty-sweetish odor from glands on their bodies. Kentucky cautions that the smell is seldom apparent except in extreme infestations and should not be relied on for detection, so a room that smells normal tells you nothing." },
+    { "type": "p", "text": "**Where to look:** this is a whole-room clue. **Confused with:** other musty household smells. Never count odor without physical signs." },
+
+    { "type": "h3", "text": "7. Bite lines" },
+    { "type": "p", "text": "Bites are the least reliable sign. CDC says the marks resemble mosquito or flea bites, a slightly swollen red area that may itch, and may be random or in a straight line on the face, neck, arms, hands or other body parts. CDC also says most people do not notice marks until one to several days after the bite, and that marks can take as long as 14 days to develop in some people, so a morning skin check can miss last night's bite. Kentucky cites studies in infested apartments suggesting that about 30 percent of people do not react even when bitten repeatedly." },
+    { "type": "p", "text": "**Confused with:** mosquito and chigger bites, rashes such as eczema or fungal infections, and hives, according to the EPA. Kentucky adds that fleabites occur mainly around the ankles, while bed bugs feed on any skin exposed during sleep, so bites only at the ankles are a reason to consider fleas first. A separate guide shows [how bed bug bites look and how long they last](/blog/bed-bug-bites). CDC says bed bugs are not known to spread diseases to people. If you think you are having an allergic reaction to bites, speak with a healthcare provider." },
+
+    { "type": "callout", "tone": "note", "title": "Where the one-page guide differs", "text": "Six details on the graphic differ from the sources; follow the sourced version. **Shed skins:** the guide says about 1 mm. The EPA's 1 mm is for eggs and eggshells; the nymphs that shed skins are 1.5 to 4.5 mm (about 1/16 to 3/16 inch), so skins vary in size. **Eggs:** not grain-of-rice sized; the EPA says about 1 mm, a pinhead. **Odor:** the coriander comparison is not in the CDC, EPA or University of Kentucky descriptions, and Kentucky says the smell should not be relied on for detection, so do not trust your nose alone. **Bites:** CDC says marks may be random or in a straight line, not clusters or zigzags, and show one to several days later, up to 14 days in some people, so a morning check can miss them. Kentucky says fleabites occur mainly around the ankles, so bites only there point to fleas first. **Found 2+ signs:** no source uses a count; one identified bug is enough, and bites plus odor are not. **Heat treatment:** one professional method among several; CDC says companies typically spray insecticides." },
+
+    { "type": "h2", "text": "How do you check for bed bugs tonight in 10 minutes?" },
+    { "type": "p", "text": "Work outward from the pillow with a flashlight and a stiff card, because that is where the evidence concentrates. Kentucky says bed bugs are at first concentrated around beds, sofas and other sleeping and resting areas, and the EPA gives the search standard: if a crack will hold a credit card, it could hide a bed bug. Ten minutes is a planning figure for a quick first pass; Kentucky notes that a thorough inspection means dismantling the bed and standing the parts on edge." },
+    { "type": "checklist", "title": "Check tonight: 10 minutes with a flashlight and a card", "items": [
+      "**Sheets and pillowcases (1 minute).** Before stripping anything, scan the top third of the bed for rusty-red smears and dark dots.",
+      "**Mattress seams, piping and tags (3 minutes).** Peel back the sheet at the head end and run the card along the piping, top and bottom edges, all the way around. Look under the tag and each handle.",
+      "**Box spring (2 minutes).** Check the upper seams, then tip it up and light the underside, especially where the bottom edge rests on the frame.",
+      "**Headboard (2 minutes).** Look behind it and into its joints and screw holes.",
+      "**Bed frame joints (1 minute).** Light each crack, slat end and bolt hole, and slide the card through.",
+      "**Nightstand and baseboard (1 minute).** Check the drawer joints and the gap where the baseboard meets the floor.",
+      "**Capture what you find.** Press clear tape over a bug or skin, or seal it in a zip bag, and photograph any spots beside a coin."
+    ] },
+    { "type": "media", "needed": "Overhead diagram of a bed with numbered arrows showing the inspection order: 1 sheets and pillowcases, 2 mattress seams and tags, 3 box spring, 4 headboard, 5 bed frame joints, 6 nightstand and baseboard" },
+    { "type": "p", "text": "If the quick pass finds nothing but the bites continue, widen the search with [a room-by-room list of where bed bugs hide](/blog/where-do-bed-bugs-hide). If the evidence is on the mattress, [what to do about a mattress with bed bug signs](/blog/bed-bugs-on-mattress) covers vacuuming, encasing and whether it can be kept." },
+
+    { "type": "h2", "text": "What should you do in the first 24 hours?" },
+    { "type": "p", "text": "Stay in your bed, run the bedding through a hot dryer and clear the clutter around the bed: the three steps on the one-page guide, each backed by the sources below." },
+    { "type": "ol", "items": [
+      "**Don't sleep elsewhere.** NPIC says not to sleep in another part of the house, because the bed bugs could follow you, spread the infestation and make it harder to treat. Its alternative is to make the bed an island: pull it away from the wall and other furniture, keep linens off the floor, and place traps under the bed legs.",
+      "**Strip the bed into a bag, then wash hot and dry on high.** Kentucky recommends disposable plastic trash bags so bugs do not fall off on the way to the laundry, and a wash of at least 120°F. For bedding, clothing and other heat-durable items, NPIC says 30 minutes of drying on high heat kills all bed bugs, including eggs. Kentucky's figure is 10 to 20 minutes at medium-to-high heat; 30 minutes on high covers both.",
+      "**Declutter around the bed.** NPIC says to remove clutter around sleeping areas and not to store items under the bed. Kentucky notes that strewn belongings give bed bugs places to hide and impede inspection and treatment. Bag items where they are, so nothing is dislodged in transit.",
+      "**Save the specimen and tell your landlord.** Keep the taped or bagged bug for identification. If you rent, NPIC notes that bed bugs migrate between apartments and that treatment should be coordinated with neighboring units."
+    ] },
+    { "type": "p", "text": "Those steps contain the problem; they do not end it. The full sequence, from heat and steam to encasements, dusts and monitoring, is in [the step-by-step plan for getting rid of bed bugs](/blog/how-to-get-rid-of-bed-bugs)." },
+
+    { "type": "h2", "text": "How many signs mean you have bed bugs?" },
+    { "type": "p", "text": "One identified bed bug is enough, and no number of bites is. The sources do not use a count of signs. Kentucky says confirmation comes from finding the bugs or their signs, which often takes a professional, and NPIC stresses correct identification because bed bugs are easily confused with other insects such as bat bugs." },
+    { "type": "ul", "items": [
+      "**A live bug, or skins, eggs and dark spots together in a seam.** Treat it as bed bugs: carry on with the first-24-hour steps and get the specimen identified.",
+      "**Dark spots or a blood smear and nothing else.** Look harder, and repeat the check in a few days.",
+      "**Bites, odor or both, with no physical evidence.** Not confirmed; keep checking."
+    ] },
+    { "type": "p", "text": "For help with a specimen, NPIC suggests your local Cooperative Extension Service or a pest management professional. The EPA notes that a minor infestation is far less costly and easier to treat than a widespread one." },
+
+    { "type": "h2", "text": "What should you not do after finding bed bugs?" },
+    { "type": "p", "text": "Do not set off a bug bomb, throw out the mattress or start spraying whatever is under the sink. Each tends to make an infestation harder to treat." },
+    { "type": "ul", "items": [
+      "**Bug bombs (total release foggers).** NPIC says they are not effective against bed bugs because the droplets typically do not penetrate the spaces where the bugs hide. The [University of Kentucky's fact sheet on foggers](https://entomology.mgcafe.uky.edu/ef643) supports the one-page guide's warning: it says the pyrethrins in many foggers are seldom lethal to bed bugs and other crawling pests, and that fogger ingredients tend to be repellent, causing insects to scatter and move deeper into walls and crevices. It also reports house fires where users did not put out pilot lights.",
+      "**Throwing out the mattress or bed.** NPIC says not to discard furniture right away, because carrying it out can spread bed bugs through the house and start new infestations if someone takes it home. Kentucky says encasing the mattress and box spring is often the more economical option.",
+      "**Over-applying pesticide.** NPIC warns that using more than the label directs could cause bed bugs to disperse and could cause health effects, and that daily spot treatments can let a pesticide-resistant population grow. Use any product only as its label directs.",
+      "**Bleach, alcohol and open flame.** Kentucky groups bleach, alcohol and cigarette lighters with foggers as things that should not be used on bed bugs, because they are ineffective and can result in fires."
+    ] },
+
+    { "type": "h2", "text": "When should you call a professional?" },
+    { "type": "p", "text": "Call one as soon as bed bugs are confirmed if you can, and without delay if you live in an apartment or have found signs in more than one room. CDC's advice for an infestation is to contact a professional pest control company experienced with treating bed bugs, and Kentucky calls professional help prudent when resources allow." },
+    { "type": "p", "text": "The one-page guide says to call a pro for heat treatment, and heat is a legitimate choice. Kentucky describes companies using portable heaters and fans to bring the air in a home to about 120°F to 130°F, often eliminating an infestation in one day, and the EPA states that bed bugs die when their body temperature reaches 113°F (45°C). It is not the only method: CDC notes that companies typically spray insecticides, so ask what the company proposes and why." },
+
+    { "type": "h2", "text": "What are the risks to pets and children?" },
+    { "type": "p", "text": "The first-day steps on this page use heat and bagging, not pesticide, so the main risks to pets and children come from the products people reach for next." },
+    { "type": "ul", "items": [
+      "**Hot wash and high-heat drying.** No pesticide is involved, and the sources cited here list no risk to pets or children from laundering.",
+      "**Foggers.** Kentucky's fogger fact sheet says that under label instructions people and pets are not supposed to remain in the treated area, and that occupants with asthma and other respiratory ailments can react severely when pyrethrins and similar compounds are used indoors.",
+      "**Sprays and dusts.** NPIC says to read and follow the label. The [ASPCA's guidance for pet owners](https://www.aspca.org/about-us/press-releases/aspca-provides-guidance-pet-owners-during-bedbug-epidemic) says that perhaps the biggest danger pets could face from bed bugs is the pesticide used to exterminate them. It advises discussing precautions with the exterminator or a veterinarian before treatment, which typically means keeping pets out of the treated area until the product is dry and the area is well ventilated.",
+      "**Professional heat treatment.** Kentucky says some heat-sensitive items, such as aerosol cans, indoor plants and medications, must be removed before a heat treatment, and advises occupants to take as few belongings as possible with them while the heat-up is performed. Ask the company for its written list of what and who must be out, pets included, and for how long."
+    ] },
+    { "type": "p", "text": "Pets themselves do not need treating. CDC says bed bugs bite people and animals, but the ASPCA explains that they do not live on the body of their host, so it is not necessary to physically treat a dog or cat; washing the pet's bedding along with your own may help. If a pet is exposed to a pesticide, the ASPCA lists its poison control line as (888) 426-4435; for a person, call a poison control center or a healthcare provider. A broader guide covers [pest control choices for homes with pets](/learn/pet-safe-pest-control)." },
+    { "type": "p", "text": "For bites on a child, CDC's general advice applies: avoid scratching, and antiseptic creams or lotions and an antihistamine may help with the itch. Ask a pediatrician or pharmacist before giving a child any medication, and contact a healthcare provider about any reaction that looks allergic." },
+
+    { "type": "h2", "text": "Printable checklist: the 7 signs and the first 24 hours" },
+    { "type": "p", "text": "Print or save the card below; it uses the sourced sizes and timings." },
+    { "type": "card", "title": "Bed bug check: 7 signs and the first 24 hours",
+      "intro": "Take a flashlight and a stiff card and start at the pillow end of the bed. Signs 2 to 5 are the strong ones; 6 and 7 never count alone.",
+      "items": [
+        "1. Rusty-red stains: blood smears on sheets, pillowcases or the mattress top. A prompt to look further, not proof.",
+        "2. Dark ink-like spots: droppings that bleed into fabric like a marker dot. Check mattress seams, tags, box spring and headboard.",
+        "3. Shed skins: pale yellow to tan empty shells shaped like the bug. The nymphs that leave them run 1/16 to 3/16 inch (1.5 to 4.5 mm), so skins vary in size. Check seams, crevices and behind the headboard.",
+        "4. Live bugs: adults are flat, oval, brown to reddish-brown, 3/16 to 1/4 inch (5 to 7 mm), about an apple seed. Nymphs are smaller and pale.",
+        "5. Tiny white eggs: pearl-white, about 1/25 inch (1 mm), pinhead size, stuck in stitching, cracks and screw holes.",
+        "6. Musty sweet odor: seldom noticeable except in extreme infestations. No smell does not mean no bugs.",
+        "7. Bites: the weakest sign. Marks can take up to 14 days to appear, and some people never react.",
+        "Found a bug? Trap it under clear tape or in a sealed bag and have it identified by your Cooperative Extension office or a pest professional.",
+        "Keep sleeping in your own bed. Pull it away from the wall and keep bedding off the floor.",
+        "Bag the bedding where it is, wash hot, then dry on high heat for at least 30 minutes.",
+        "Clear clutter from around and under the bed. Bag it before you move it.",
+        "Do not set off a bug bomb, and do not drag the mattress out of the house."
+      ],
+      "note": "Any pesticide: follow the label and keep children and pets out of treated areas as it directs." }
+  ],
+  "faqs": [
+    {
+      "question": "Can you have bed bugs and not have bites?",
+      "answer": "Yes. The University of Kentucky cites studies suggesting that about 30 percent of people do not react even when bitten repeatedly, and the National Pesticide Information Center says one third of people may show no reaction at all. CDC adds that bite marks can take as long as 14 days to develop in some people. Two people sharing one bed can therefore have very different skin, and a household can have bed bugs for a while before anyone itches. That is why the EPA calls bites a poor indicator and points to the physical signs on the bed instead."
+    },
+    {
+      "question": "Do I have to check for bed bugs at night?",
+      "answer": "No. The EPA says bed bugs are primarily active at night, although hungry ones will seek a host in full daylight, so you are less likely to see one walking around in the daytime. The other physical signs stay where they are. Dark spots, shed skins, eggs and blood smears do not move, and a daytime check with a flashlight along the mattress seams, box spring, headboard and bed frame will find them. Bed bugs hiding in those seams and cracks can be found in daylight too."
+    },
+    {
+      "question": "Can you see bed bug eggs with the naked eye?",
+      "answer": "Only just. The EPA describes eggs as pearl-white and about 1 mm long, roughly 1/25 inch, the size of a pinhead. The University of Kentucky compares an egg to a speck of dust and says eggs are hard to see without magnification. They are sticky when first laid, so they stay attached in seams, stitching and cracks. A magnifier or a phone camera zoomed in makes them much easier to pick out, and several eggs together alongside dark spots or shed skins are easier to recognize than one alone."
+    },
+    {
+      "question": "How soon do signs show up after bed bugs get into a home?",
+      "answer": "There is no fixed timeline, and early infestations leave very little to find. The EPA says each female may lay 1 to 3 eggs per day, and the University of Kentucky says eggs hatch in about a week at room temperature and that the bugs can mature in as little as a month under favorable conditions. Skins and dark spots build up as nymphs feed and grow. The EPA notes that low-level infestations are much more challenging to find and identify, so if you have a reason to suspect bed bugs, repeat the check every week or so."
+    },
+    {
+      "question": "Do bed bugs mean a home is dirty?",
+      "answer": "No. CDC states that how clean a place is does not determine whether bed bugs are present. It lists apartments, shelters, hotels, cruise ships, buses, trains and dorm rooms among the places they turn up, and says they spread by getting into the seams and folds of luggage, overnight bags, folded clothes, bedding and furniture. Clutter does matter in one way: the University of Kentucky notes that belongings strewn about give bed bugs more places to hide and make inspection and treatment harder."
+    },
+    {
+      "question": "Do bed bugs live on dogs and cats?",
+      "answer": "No. CDC says bed bugs bite people and animals, and the EPA says they prefer to feed on humans but will feed on other mammals and birds. The ASPCA explains that bed bugs do not live on the body of their host and that it is not necessary to physically treat a pet for them. It says washing bedding, including the pet's bedding, may help reduce an infestation, and that perhaps the biggest danger pets could face is the pesticide used against the bugs. Discuss precautions with the pest control company or a veterinarian before any treatment."
+    }
+  ],
+  "sources": [
+    { "title": "How to Find Bed Bugs", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/how-find-bed-bugs" },
+    { "title": "Bed Bugs Appearance and Life Cycle", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle" },
+    { "title": "About Bed Bugs", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/bed-bugs/about/index.html" },
+    { "title": "ENTFACT-636: Bed Bugs", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef636" },
+    { "title": "Bed Bugs", "publisher": "National Pesticide Information Center", "url": "https://npic.orst.edu/pest/bedbug/index.html" },
+    { "title": "ENTFACT-643: Limitations of Home Insect Foggers (Bug Bombs)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef643" },
+    { "title": "ASPCA Provides Guidance for Pet Owners During Bedbug Epidemic", "publisher": "American Society for the Prevention of Cruelty to Animals", "url": "https://www.aspca.org/about-us/press-releases/aspca-provides-guidance-pet-owners-during-bedbug-epidemic" }
+  ],
+  "disclaimer": "health"
+}

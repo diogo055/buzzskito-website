@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
@@ -9,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const POST = {
   title: "Ontario Tick Surge 2026: What's Happening and How to Protect Your Family",
@@ -75,7 +74,6 @@ export default function OntarioTickSurge2026Page() {
       </section>
 
       <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
-        <BlogPostCTA />
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
@@ -175,7 +173,7 @@ export default function OntarioTickSurge2026Page() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tool" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Get your yard treated before peak tick season" subtext={`Free custom quote based on your lot size and risk profile. ${PROMISES.response} No contracts.`} />
+      <ReadNext path="/blog/ontario-tick-surge-2026" standalone />
     </>
   )
 }

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -10,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-remove-tick-from-dog-ontario'
 const DATE = '2026-04-26'
@@ -209,7 +209,7 @@ export default function HowToRemoveTickFromDogPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="Found a Tick? Treat the Yard Where Ticks Wait." subtext={`Get a free quote for tick barrier spray. 5 sprays per season. ${PROMISES.rainBackShort}.`} variant="dark" />
+      <ReadNext path="/blog/how-to-remove-tick-from-dog-ontario" standalone />
     </>
   )
 }

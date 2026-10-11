@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -9,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'tick-repellent-for-dogs-ontario'
 const DATE = '2026-07-09'
@@ -363,7 +363,7 @@ export default function TickRepellentForDogsPage() {
         </div>
       </article>
 
-      <CTASection heading="Protect the Dog. Then Treat the Yard." subtext="A yard barrier spray treats the lawn edges where your dog actually finds ticks. From $99." variant="dark" />
+      <ReadNext path="/blog/tick-repellent-for-dogs-ontario" standalone />
     </>
   )
 }

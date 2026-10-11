@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AwardRow from '@/components/AwardRow'
@@ -10,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'natural-mosquito-repellent-ontario'
 const DATE = '2026-04-26'
@@ -423,7 +423,7 @@ export default function NaturalMosquitoRepellentPage() {
         </div>
       </article>
 
-      <CTASection heading="Want Fewer Mosquitoes in Your Yard Without Spraying Yourself?" subtext={`Get a free quote for professional barrier spray. ${PROMISES.labelLine}. ${PROMISES.rainBackShort}.`} variant="dark" />
+      <ReadNext path="/blog/natural-mosquito-repellent-ontario" standalone />
     </>
   )
 }

@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'vapamore-mr100-steamer-review-canada'
 const DATE = '2026-07-21'
@@ -306,6 +307,7 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="bed bugs" />
+        <ReadNext path="/blog/vapamore-mr100-steamer-review-canada" />
       </article>
     </>
   )

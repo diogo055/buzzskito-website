@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'when-to-worry-about-a-mosquito-bite'
 const DATE = '2026-07-15'
@@ -237,7 +237,7 @@ export default function WhenToWorryMosquitoBitePage() {
         </div>
       </article>
 
-      <CTASection heading="Worried about bites? Start with the yard" subtext="Licensed barrier spray for the shaded spots where mosquitoes rest. From $99. Serving 19 GTA cities with 150+ five-star Google reviews." variant="dark" />
+      <ReadNext path="/blog/when-to-worry-about-a-mosquito-bite" standalone />
     </>
   )
 }

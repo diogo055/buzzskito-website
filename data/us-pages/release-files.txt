@@ -25,6 +25,9 @@ app/blog/does-alcohol-kill-bed-bugs/page.tsx
 content/guides/does-lysol-kill-bed-bugs.json
 data/us-pages/checked/does-lysol-kill-bed-bugs.json
 app/blog/does-lysol-kill-bed-bugs/page.tsx
+content/guides/signs-of-bed-bugs-checklist.json
+data/us-pages/checked/signs-of-bed-bugs-checklist.json
+app/blog/signs-of-bed-bugs-checklist/page.tsx
 content/guides/pillar-ants.json
 data/us-pages/checked/pillar-ants.json
 app/learn/ants/page.tsx
@@ -148,6 +151,9 @@ app/blog/mice-removal/page.tsx
 content/guides/mice-exterminator.json
 data/us-pages/checked/mice-exterminator.json
 app/blog/mice-exterminator/page.tsx
+content/guides/fall-mouse-proofing-checklist.json
+data/us-pages/checked/fall-mouse-proofing-checklist.json
+app/blog/fall-mouse-proofing-checklist/page.tsx
 content/guides/pillar-cockroaches.json
 data/us-pages/checked/pillar-cockroaches.json
 app/learn/cockroaches/page.tsx

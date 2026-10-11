@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -9,6 +8,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-bite-treatment-relief'
 const DATE = '2026-07-13'
@@ -268,7 +268,7 @@ export default function MosquitoBiteTreatmentReliefPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="1% Hydrocortisone Anti-Itch Cream" search="hydrocortisone anti itch cream" label="Best for the itch" />
 
-      <CTASection heading="Fewer Bites Beat Any Itch Cream" subtext="A professional barrier spray clears the mosquitoes resting in your yard. From $99, with a rain-back guarantee on every plan." variant="dark" />
+      <ReadNext path="/blog/mosquito-bite-treatment-relief" standalone />
     </>
   )
 }

@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -10,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'what-eats-ticks-and-mosquitoes'
 const DATE = '2026-07-12'
@@ -125,7 +124,6 @@ export default function WhatEatsTicksAndMosquitoesPage() {
           module. No affiliate element above the in-body quote CTA. */}
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <BlogPostCTA />
           <AffiliateDisclosure />
           <aside aria-label="What to do right now" className="not-prose my-8 rounded-2xl border border-emerald-200 bg-emerald-50/70 p-5 sm:p-6">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-3">What to do right now</p>
@@ -285,7 +283,7 @@ export default function WhatEatsTicksAndMosquitoesPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Beneficial nematodes (lawn-applied)" search="beneficial nematodes lawn" label="The predator you can buy" />
 
-      <CTASection heading="Let Nature Help — But Cover the Gaps" subtext="Predators thin the wild population; a barrier spray protects the yard you actually use. From $99. Mosquitoes and ticks." variant="dark" />
+      <ReadNext path="/blog/what-eats-ticks-and-mosquitoes" standalone />
     </>
   )
 }

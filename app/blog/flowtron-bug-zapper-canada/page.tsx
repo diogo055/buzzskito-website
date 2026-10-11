@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -9,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'flowtron-bug-zapper-canada'
 const DATE = '2026-07-14'
@@ -328,7 +328,7 @@ export default function FlowtronBugZapperCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Zappers Handle Moths. We Handle Mosquitoes." subtext="Get a free quote for licensed barrier spray. From $99. Products applied according to label directions. Serving 19 GTA cities." variant="dark" />
+      <ReadNext path="/blog/flowtron-bug-zapper-canada" standalone />
     </>
   )
 }

@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AwardRow from '@/components/AwardRow'
@@ -11,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const POST = TICK_BLOGS.supporting[3]
 const UPDATED = '2026-07-16'
@@ -77,7 +76,6 @@ export default function BestTickControlPage() {
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
 
-        <BlogPostCTA />
 
         <p className="not-prose text-gray-700 text-[15px] leading-relaxed my-4">Outside our service area, or want a DIY layer to run between professional visits? The one we would add first is a botanical yard spray for patios, beds, and pet areas: <BuyLink tag={AMZ_TAG} search="wondercide tick yard spray">Check price on Amazon.ca →</BuyLink></p>
 
@@ -219,7 +217,7 @@ export default function BestTickControlPage() {
         </div>
       </article>
 
-      <CTASection heading="Get Professional Tick Control for Your Property" subtext="Professional tick spray, 5 applications per season. Free quote for GTA homeowners." variant="dark" />
+      <ReadNext path="/blog/best-tick-control-yard-treatment" standalone />
     </>
   )
 }

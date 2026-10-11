@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
 import BuyLink from '@/components/BuyLink'
@@ -10,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'longray-thermal-fogger-review-canada'
 const DATE = '2026-07-21'
@@ -338,7 +338,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Fogger — Get Whole-Yard Barrier Coverage All Season" subtext={`Licensed barrier spray from $99 on a standard lot. Commercial-class product applied according to label directions, and it treats for ticks too. ${PROMISES.response}`} variant="dark" />
+      <ReadNext path="/blog/longray-thermal-fogger-review-canada" standalone />
     </>
   )
 }

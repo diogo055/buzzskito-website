@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bed-bug-bites-vs-mosquito-bites'
 const DATE = '2026-07-30'
@@ -454,10 +454,7 @@ export default function BedBugBitesVsMosquitoBitesPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="If It Turns Out to Be Mosquitoes, That One Is Ours"
-        subtext="We don't treat bed bugs — but mosquitoes and ticks are all we do, across 19 GTA cities. Free property assessment, no obligation."
-      />
+      <ReadNext path="/blog/bed-bug-bites-vs-mosquito-bites" standalone />
     </>
   )
 }

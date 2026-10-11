@@ -44,6 +44,8 @@
 
 - `/blog/zombie-ants` — **zombie ants**. The 'zombie ant' fungus (Ophiocordyceps): how it infects carpenter ants and manipulates their behavior, the death grip, where it occurs including the US Southeast, what the research says about how it controls the ant, and why it cannot infect people.
 
+- `/learn/ant-killer-recipes` — **homemade ant killer**. Three or four homemade ant killer recipes, each taken from a university extension or other authoritative source and given with EXACT measurements in US kitchen units: a borax and sugar liquid bait, a borax protein or grease bait for ants that ignore sugar, a vinegar and water trail-breaker for cleanup, and soapy water as a contact spray if a source supports it. Use one recipe block per recipe. For every recipe state what it does and does not do, how long it takes, and a pet and child safety tier with the reason. Explain how to make a simple bait station that keeps bait away from pets and children, why a weak borax bait beats a strong one, and when homemade bait fails. End with a printable recipe card. Never say the recipes were tested by BuzzSkito: say which source publishes each one.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -107,6 +109,15 @@
 - `/blog/natural-pest-control` — natural pest control
 - `/blog/lawn-pest-control` — lawn pest control
 - `/blog/commercial-pest-control` — commercial pest control
+- `/blog/fall-mouse-proofing-checklist` — how to mouse proof your house
+- `/blog/signs-of-bed-bugs-checklist` — signs of bed bugs
+- `/learn/tick-identification-chart` — tick identification chart
+- `/learn/pet-safe-pest-control` — pet safe pest control
+- `/learn/natural-garden-pest-control` — natural garden pest control
+- `/learn/how-to-get-rid-of-fungus-gnats` — how to get rid of fungus gnats
+- `/learn/aphid-control-guide` — how to get rid of aphids naturally
+- `/learn/whitefly-identification-control` — how to get rid of whiteflies
+- `/learn/natural-weed-control` — natural weed killer
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

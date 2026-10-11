@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -9,6 +8,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'i-found-tick-on-my-dog-what-to-do'
 const DATE = '2026-04-26'
@@ -205,7 +205,7 @@ export default function IFoundTickOnMyDogPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="One Tick Today. How Many Tomorrow?" subtext="Finding one tick usually means there are more in your dog’s environment. Get tick barrier spray for your yard — from $99 on a standard lot." variant="dark" />
+      <ReadNext path="/blog/i-found-tick-on-my-dog-what-to-do" standalone />
     </>
   )
 }

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -10,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'propane-vs-electric-fogger-canada'
 const DATE = '2026-07-21'
@@ -339,7 +339,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Fog · Get Whole-Yard Coverage" subtext="Get a free quote for licensed mosquito and tick barrier spray. From $99. Rain-back guarantee on every plan." variant="dark" />
+      <ReadNext path="/blog/propane-vs-electric-fogger-canada" standalone />
     </>
   )
 }

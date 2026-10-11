@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -10,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS_3, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const POST = NEW_BLOGS_3[3]
 const UPDATED = POST.date
@@ -235,10 +235,7 @@ export default function NaturalMosquitoControlPage() {
         </ul>
       </article>
 
-      <CTASection
-        heading="Responsible, Effective Mosquito Control for Ontario Homeowners"
-        subtext={`${PROMISES.labelLine}, licensed application, transparent product logs. Serving the GTA — free quotes at (289) 216-5030.`}
-      />
+      <ReadNext path="/blog/natural-eco-friendly-mosquito-control-ontario" standalone />
     </>
   )
 }

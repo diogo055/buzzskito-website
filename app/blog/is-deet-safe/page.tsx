@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'is-deet-safe'
 const DATE = '2026-07-15'
@@ -248,7 +248,7 @@ export default function IsDeetSafePage() {
         </div>
       </article>
 
-      <CTASection heading="Fewer Bites, Less Spray on Your Skin" subtext={`Get a free quote for licensed barrier spray. From $99 on a standard lot. ${PROMISES.licence}. ${PROMISES.labelLine}.`} variant="dark" />
+      <ReadNext path="/blog/is-deet-safe" standalone />
     </>
   )
 }

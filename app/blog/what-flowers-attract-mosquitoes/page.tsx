@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'what-flowers-attract-mosquitoes'
 const DATE = '2026-07-15'
@@ -225,7 +225,7 @@ export default function WhatFlowersAttractMosquitoesPage() {
         </div>
       </section>
 
-      <CTASection heading="It&rsquo;s Not the Flowers — It&rsquo;s the Water and the Shade" subtext="Professional barrier spray targets the foliage where mosquitoes rest, and we find the breeding water hiding in your plantings. Free quote available." />
+      <ReadNext path="/blog/what-flowers-attract-mosquitoes" standalone />
     </>
   )
 }

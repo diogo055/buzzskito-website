@@ -39,6 +39,9 @@ const blockTexts = (b) => {
     case 'ul': case 'ol': return b.items || []
     case 'table': return [...(b.head || []), ...(b.rows || []).flat(), b.caption || '']
     case 'callout': return [b.title || '', b.text]
+    case 'recipe': return [b.title, b.makes || '', ...(b.ingredients || []), ...(b.steps || []), b.works || '', b.limits || '', (b.safety && b.safety.pets) || '', (b.safety && b.safety.children) || '', b.source || '']
+    case 'checklist': return [b.title || '', ...(b.items || [])]
+    case 'card': return [b.title, b.intro || '', ...(b.items || []), b.note || '']
     default: return []
   }
 }
@@ -114,7 +117,8 @@ function validate(file) {
   }
 
   // ── body ──────────────────────────────────────────────────────────────────────
-  const TYPES = new Set(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'callout', 'media'])
+  const TYPES = new Set(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'callout', 'media', 'recipe', 'checklist', 'card'])
+  const visual = p.batch === 'visual'
   if (!Array.isArray(g.body) || !g.body.length) { err('"body" is missing'); return { errors, warnings, stats: {} } }
   g.body.forEach((b, i) => {
     if (!b || !TYPES.has(b.type)) return err(`body[${i}] has unknown type "${b && b.type}"`)
@@ -125,6 +129,14 @@ function validate(file) {
       else if (b.rows.some((r) => !Array.isArray(r) || r.length !== b.head.length)) err(`body[${i}] (table) has a row whose cell count differs from the head`)
       else if (b.head.length > 5) err(`body[${i}] (table) has ${b.head.length} columns; keep tables to 5 or fewer so they fit a phone`)
     }
+    if (b.type === 'recipe') {
+      if (!b.title || !Array.isArray(b.ingredients) || b.ingredients.length < 1 || !Array.isArray(b.steps) || b.steps.length < 1) err(`body[${i}] (recipe) needs title, ingredients[] and steps[]`)
+      if (!b.safety || !['lower-risk', 'caution', 'keep-away'].includes(b.safety.tier) || !b.safety.pets || !b.safety.children) err(`body[${i}] (recipe) needs safety { tier: lower-risk | caution | keep-away, pets, children }`)
+      if (!b.source || !/\]\(https:\/\//.test(b.source)) err(`body[${i}] (recipe) needs "source": a link to the page that publishes these measurements`)
+      if (!b.limits) err(`body[${i}] (recipe) needs "limits": what it does not do`)
+    }
+    if (b.type === 'checklist' && (!Array.isArray(b.items) || b.items.length < 3)) err(`body[${i}] (checklist) needs 3 or more items`)
+    if (b.type === 'card' && (!b.title || !Array.isArray(b.items) || b.items.length < 6 || b.items.length > 12)) err(`body[${i}] (card) needs a title and 6 to 12 items`)
     if (b.type === 'media' && (typeof b.needed !== 'string' || b.needed.length < 25)) err(`body[${i}] (media) needs a "needed" description of the photo or diagram (25+ characters)`)
     if (b.type === 'callout' && b.tone && !['tip', 'warning', 'note'].includes(b.tone)) err(`body[${i}] (callout) tone must be tip, warning or note`)
     if (['h2', 'h3'].includes(b.type) && /\]\(/.test(b.text)) err(`body[${i}] (${b.type}) must not contain a link`)
@@ -147,6 +159,16 @@ function validate(file) {
   if (p.flags.includes('id') && media < 2) err(`this is an identification page: add at least 2 { "type": "media", "needed": "..." } placeholders where a photo or diagram would help (found ${media})`)
   if (pillar && media < 2) err('a pillar needs at least 2 media placeholders')
 
+  if (visual) {
+    const cards = g.body.filter((b) => b.type === 'card').length
+    if (cards !== 1) err(`a visual guide needs exactly one "card" block (the printable); found ${cards}`)
+    if (!h2s.some((h) => /\b(pets?|children|child|kids?)\b/i.test(h))) err('add an H2 about safety around pets and children (the heading must contain "pets" or "children")')
+    if (typeof g.heroAlt !== 'string' || g.heroAlt.length < 80 || g.heroAlt.length > 420) err('"heroAlt" must describe the hero infographic in 80 to 420 characters')
+    const norm = (x) => String(x).toLowerCase().replace(/[-–—]/g, ' ').replace(/\s+/g, ' ')
+    if (!norm(g.h1).includes(norm(p.keyword))) err(`the h1 must contain the keyword "${p.keyword}"`)
+    if (g.section !== p.section) err(`"section" must be "${p.section}"`)
+  }
+
   // ── FAQ, how-to, disclaimer ───────────────────────────────────────────────────
   const [fMin, fMax] = pillar ? [6, 8] : [4, 6]
   if (!Array.isArray(g.faqs) || g.faqs.length < fMin || g.faqs.length > fMax) err(`"faqs" must have ${fMin} to ${fMax} questions`)
@@ -165,7 +187,7 @@ function validate(file) {
   if (want && g.disclaimer !== want && g.disclaimer !== 'both') err(`"disclaimer" must be "${want}"`)
 
   // ── sources and links ─────────────────────────────────────────────────────────
-  const [sMin, sMax] = pillar ? [5, 8] : [3, 6]
+  const [sMin, sMax] = pillar ? [5, 8] : visual ? [4, 7] : [3, 6]
   const srcUrls = new Set()
   let auth = 0
   if (!Array.isArray(g.sources) || g.sources.length < sMin || g.sources.length > sMax) err(`"sources" must list ${sMin} to ${sMax} sources`)
@@ -213,6 +235,10 @@ function validate(file) {
     for (const s of p.required.clusterExisting) if (!uniq.has(s)) err(`pillar must link to the existing cluster page ${s}`)
     for (const s of p.required.pillarRing) if (!uniq.has(s)) err(`pillar must link to ${s} (the other hub pages)`)
     if (p.required.category && !uniq.has(p.required.category)) err(`pillar must link to its product guide hub ${p.required.category}`)
+  } else if (visual) {
+    for (const s of p.required.mustLink) if (!uniq.has(s)) err(`must link to ${s} in the body text`)
+    const svc = [...uniq].filter((h) => EXISTING.has(h) && !h.startsWith('/blog/') && !h.startsWith('/learn') && !h.startsWith('/pest-product-guides') && h !== '/pest-control-cost-canada' && !/-(statistics|tracker)/.test(h))
+    if (svc.length) err(`do not link to service or city pages from these guides: ${svc.join(', ')}`)
   } else {
     if (p.required.pillar && !uniq.has(p.required.pillar)) err(`must link to its hub page ${p.required.pillar} in the body text`)
     for (const s of p.required.ring) if (!uniq.has(s)) err(`must link to the neighbouring guide ${s} in the body text`)
@@ -232,9 +258,9 @@ function validate(file) {
   const sp = usSpellingProblems(joined)
   if (sp.length) err(`non-US spelling: ${sp.join(', ')}`)
   const hard = visible.match(new RegExp(CANADA_HARD.source, 'g'))
-  if (hard) err(`Canada-specific reference: ${[...new Set(hard)].join(', ')}`)
+  if (hard && p.audience !== 'na') err(`Canada-specific reference: ${[...new Set(hard)].join(', ')}`)
   const canad = (visible.match(/Canad/g) || []).length
-  if (canad > 2) err(`"Canada/Canadian" appears ${canad} times; these pages are for US readers (a passing range note such as "the northern US and southern Canada" is the limit)`)
+  if (canad > 2 && p.audience !== 'na') err(`"Canada/Canadian" appears ${canad} times; these pages are for US readers (a passing range note such as "the northern US and southern Canada" is the limit)`)
   for (const t of everything) {
     const v = strip(t)
     if (/\d\s?°\s?C\b/.test(v) && !/°\s?F\b/.test(v)) err(`Celsius without Fahrenheit: "${v.slice(0, 90)}…"`)
@@ -284,11 +310,15 @@ for (const f of files) {
 if (ALL) {
   const built = Object.values(results).filter((r) => r.stats.path)
   const have = new Set(built.map((r) => r.stats.path))
-  const missing = plan.pages.filter((p) => !have.has(p.path)).map((p) => p.path)
+  // --complete covers the first batch (76 pages); the visual guides are added by --complete-visual
+  const wantVisual = args.includes('--complete-visual')
+  const missing = plan.pages.filter((p) => !have.has(p.path) && (p.batch !== 'visual' || wantVisual)).map((p) => p.path)
   // inbound links from OTHER new pages
   const inbound = Object.fromEntries(plan.pages.map((p) => [p.path, 0]))
   for (const r of built) for (const h of r.stats.links) if (h in inbound && h !== r.stats.path) inbound[h]++
-  const starved = Object.entries(inbound).filter(([path, n]) => have.has(path) && n < 3)
+  const planByPath = Object.fromEntries(plan.pages.map((p) => [p.path, p]))
+  const need = (path) => (planByPath[path].batch === 'visual' ? 2 : 3)
+  const starved = Object.entries(inbound).filter(([path, n]) => have.has(path) && n < need(path))
   if (REPORT) {
     console.log('\npath | body words | sources (gov/edu) | FAQs | media | inbound from new pages')
     for (const r of built.sort((a, b) => a.stats.path.localeCompare(b.stats.path))) console.log(`${r.stats.path} | ${r.stats.bodyWords} | ${r.stats.sources} (${r.stats.auth}) | ${r.stats.faqs} | ${r.stats.media} | ${inbound[r.stats.path]}`)
@@ -297,7 +327,7 @@ if (ALL) {
   for (const r of built) (titles[r.stats.metaTitle] ||= []).push(r.stats.path)
   const dupTitles = Object.entries(titles).filter(([, v]) => v.length > 1)
   for (const [t, v] of dupTitles) { console.log(`✗ duplicate metaTitle "${t}": ${v.join(', ')}`); bad++ }
-  for (const [path, n] of starved) { console.log(`✗ ${path} has only ${n} inbound links from other new pages (needs 3)`); bad++ }
+  for (const [path, n] of starved) { console.log(`✗ ${path} has only ${n} inbound links from other new pages (needs ${need(path)})`); bad++ }
   // A temporary redirect (next.config.mjs, US-GUIDES-PENDING block) must never sit over a guide
   // that exists: it would hide the page. The register script keeps the block in step; this
   // catches the case where someone added a guide and forgot to run it.

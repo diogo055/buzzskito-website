@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -11,6 +10,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { NEW_BLOGS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const POST = NEW_BLOGS[6]
 const UPDATED = POST.date
@@ -85,7 +85,6 @@ export default function IsMosquitoSpraySafePage() {
       </section>
 
       <div className="max-w-3xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
-        <BlogPostCTA />
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
@@ -228,10 +227,7 @@ export default function IsMosquitoSpraySafePage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection
-        heading="Get a Licensed Mosquito Treatment for Your Yard"
-        subtext={`${PROMISES.licence}. ${PROMISES.labelLine}. Free quote, no contracts.`}
-      />
+      <ReadNext path="/blog/is-mosquito-spray-safe-kids-pets" standalone />
     </>
   )
 }

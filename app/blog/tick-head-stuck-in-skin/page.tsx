@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -8,6 +7,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'tick-head-stuck-in-skin'
 const DATE = '2026-07-16'
@@ -272,7 +272,7 @@ export default function TickHeadStuckInSkinPage() {
 
       </article>
 
-      <CTASection heading="Keep ticks out of your yard this season" subtext="Get a free quote for licensed tick barrier treatment across the GTA. 150 five-star reviews. Book before peak season." variant="dark" />
+      <ReadNext path="/blog/tick-head-stuck-in-skin" standalone />
     </>
   )
 }

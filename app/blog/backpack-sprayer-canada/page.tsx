@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -10,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'backpack-sprayer-canada'
 const DATE = '2026-07-14'
@@ -324,7 +324,7 @@ export default function BackpackSprayerCanadaPage() {
         </div>
       </section>
 
-      <CTASection heading="Put the Sprayer Down — We&rsquo;ve Got This" subtext={`Licensed barrier spray from $99. Commercial-class product applied according to label directions, with calibrated equipment. ${PROMISES.response}`} variant="dark" />
+      <ReadNext path="/blog/backpack-sprayer-canada" standalone />
     </>
   )
 }

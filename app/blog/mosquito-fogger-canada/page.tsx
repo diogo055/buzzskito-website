@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
@@ -11,6 +10,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-fogger-canada'
 const DATE = '2026-07-12'
@@ -428,7 +428,7 @@ export default function MosquitoFoggerCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Fog for Tonight · Protect for the Season" subtext={`Get a free quote for licensed barrier spray. From $99 on a standard lot, season plans from $549. ${PROMISES.rainBackShort}.`} variant="dark" />
+      <ReadNext path="/blog/mosquito-fogger-canada" standalone />
     </>
   )
 }

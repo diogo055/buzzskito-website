@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -9,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-atv-sprayer-for-tick-yard-canada'
 const DATE = '2026-07-21'
@@ -364,7 +364,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Skip the Rig · Get a Licensed Tick Barrier" subtext="Get a free quote for a licensed tick perimeter treatment — five sprays a season, targeted at the wooded edge and leaf litter where ticks actually live. 150 five-star reviews across the GTA." variant="dark" />
+      <ReadNext path="/blog/best-atv-sprayer-for-tick-yard-canada" standalone />
     </>
   )
 }

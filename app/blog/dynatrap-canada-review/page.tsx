@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -11,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'dynatrap-canada-review'
 const DATE = '2026-05-01'
@@ -205,7 +204,6 @@ export default function DynaTrapCanadaPage() {
       {/* Service CTA first (lead value), then the early affiliate route under it */}
       <section className="px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <BlogPostCTA />
           <p className="not-prose text-[15px] text-gray-700 leading-relaxed my-4">Outside the GTA, or set on a DynaTrap for the deck regardless of the catch ratio? Amazon.ca lists the Canadian half-acre DT1130-CA with delivery, and the model comparison further down covers which unit fits which lot. <BuyLink tag={AMZ_TAG} search="dynatrap insect trap">Check price on Amazon.ca &rarr;</BuyLink></p>
         </div>
       </section>
@@ -907,7 +905,7 @@ export default function DynaTrapCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Stop Catching Moths · Start Killing Mosquitoes" subtext="Get a free quote for licensed barrier spray. From $99. Products applied according to label directions." variant="dark" />
+      <ReadNext path="/blog/dynatrap-canada-review" standalone />
     </>
   )
 }

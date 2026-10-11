@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
@@ -11,6 +10,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'laser-mosquito-killer-photon-matrix-review'
 const DATE = '2026-07-12'
@@ -181,10 +181,6 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           </ul>
           <p className="mt-3 text-xs text-gray-500">— BuzzSkito, GTA mosquito &amp; tick control · 150+ five-star Google reviews</p>
 
-          {/* Service arm first: the lead CTA outranks every affiliate element below it. */}
-          <aside aria-label="Professional mosquito control across the GTA" className="not-prose mt-5 rounded-xl border-l-4 border-amber-400 bg-white/70 p-5">
-            <p className="text-sm text-gray-800 leading-relaxed"><strong className="text-brand-900">In the Greater Toronto Area?</strong> A licensed barrier treatment covers the whole yard this week rather than a three-metre cone next year &mdash; 19 GTA cities, from $99 for a single treatment, and it works on ticks as an add-on, which no laser can. <Link href="/free-yard-assessment" className="text-brand-700 underline font-semibold">Get a free yard assessment</Link> or call <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600">(289) 216-5030</a>. Outside the GTA, the three steps below are the ones that work anywhere.</p>
-          </aside>
         </div>
       </section>
 
@@ -584,15 +580,6 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <p>A laser strong enough to kill an insect mid-flight is not automatically harmless to a human eye or a curious dog at close range. The serious research versions of the photonic fence treated eye safety as a first-order design problem. A mass-market gadget lives or dies on the same question: <strong>how confident are you that the software will never misfire at a child&rsquo;s face, a pet, or a neighbour?</strong></p>
           <p>Canada does not answer that by certifying the product &mdash; there is no Health Canada sign-off to look for, and CSA or cUL marks cover electrical safety, not beams. What Canada requires instead is a label: under the Radiation Emitting Devices Regulations, in force in their amended form since October 9, 2025, a laser product imported into, or sold or leased in, Canada must be classified and labelled to IEC 60825-1, with its hazard class, wavelength and maximum output stated. Until a backyard laser device publishes that class and some independent testing behind it, the cautious call is to treat it as experimental hardware, not a family-yard appliance. That is not fear-mongering; it is the same standard you would apply to anything that points an energy beam across a space where people and pets move.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Skip the sci-fi &mdash; let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats your whole yard from $99 on a standard lot, with season plans from $549 &mdash; backed by 150+ five-star Google reviews across 19 GTA cities. No pre-order, no lasers, no gamble.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>What Actually Works Today (and Where to Buy It in Canada)</h2>
           <p>While the laser idea matures, here is the honest, boring, effective toolkit that clears mosquitoes from a real Canadian backyard right now. Most homeowners get the best results by combining two or three of these rather than chasing a single silver-bullet gadget.</p>
 
@@ -981,7 +968,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
         </div>
       </article>
 
-      <CTASection heading="Real Bites Need Real Solutions · Not a Pre-Order" subtext={`Get a free quote for licensed barrier spray. From $99 on a standard lot. ${PROMISES.response}`} variant="dark" />
+      <ReadNext path="/blog/laser-mosquito-killer-photon-matrix-review" standalone />
     </>
   )
 }

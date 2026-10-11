@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -10,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'deer-flies-horse-flies-ontario'
 const DATE = '2026-07-12'
@@ -246,7 +246,7 @@ export default function DeerFliesHorseFliesOntarioPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Blue Sticky Ball Deer Fly Trap" search="deer fly sticky trap" label="Best deer fly trap" />
 
-      <CTASection heading="Cut the Biting Flies Around Your Patio" subtext="A barrier spray knocks down the mosquitoes and the biting flies resting in your yard&rsquo;s shaded edges. From $99. Serving 19 GTA cities." variant="dark" />
+      <ReadNext path="/blog/deer-flies-horse-flies-ontario" standalone />
     </>
   )
 }

@@ -2,9 +2,13 @@
  "id": "pillar-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "7f16a6daf69493494730027342893d992371b556bff380a9ec6ae33bb6f31a13",
+ "sha": "6df728d32158734a2b6036c8dd63cfa0f4c2a825d7ca54e6e295fe316f97a48c",
  "claimsChecked": 208,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 5,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "linksAddedOn": "2026-10-11",
+ "linksAdded": [
+  "/blog/fall-mouse-proofing-checklist"
+ ]
 }

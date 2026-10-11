@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -11,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'no-see-um-bites'
 const DATE = '2026-07-19'
@@ -157,7 +156,6 @@ export default function NoSeeUmBitesPage() {
 
         <p className="text-sm text-gray-600 italic border-l-4 border-gray-200 pl-4">This is general information, not medical advice. If a bite looks infected, you feel unwell, or you have a severe reaction, contact a healthcare provider. In an emergency, call 911.</p>
 
-        <BlogPostCTA />
 
         <AffiliateDisclosure />
 
@@ -240,6 +238,7 @@ export default function NoSeeUmBitesPage() {
         </div>
         <p>The single most useful tell for no-see-ums is the combination of a <strong>burning first sting, tight clusters on exposed skin, and being outdoors near water at dawn or dusk</strong>. For a full breakdown of the two most-confused everyday bites, our companion guide compares <Link href="/blog/no-see-ums-biting-midges-ontario">no-see-um and mosquito bites</Link> in more detail.</p>
         <p>One biter is easy to rule out on pain alone. A horse fly or deer fly slices the skin with blade-like mouthparts instead of piercing it, so the bite lands as a single hard sting that often bleeds and raises one large welt rather than a patch of small ones &mdash; and the <Link href="/blog/horse-fly-and-deer-fly-bite-treatment">first aid and healing timeline for tabanid bites</Link> differs accordingly, because you are caring for an open cut.</p>
+        <p>The other two columns in that table have their own picture guides. If the marks sit at your sock line or waistband, compare them with <Link href="/blog/chigger-bites">what chigger bites look like and how long they last</Link>; if they are grouped around your ankles and there is a pet in the house, see <Link href="/blog/flea-bites-on-humans">how to tell flea bites on people</Link>.</p>
 
         <h2>No-see-um bites vs bed bug bites</h2>
         <p>The fastest split is <strong>where and when you were bitten</strong>. No-see-um bites happen outdoors, near water, at dawn or dusk, and land as random clusters that sting at the moment they happen. Bed bug bites happen indoors while you sleep, often in rough lines across skin the bedding left exposed, and usually itch only hours later.</p>
@@ -392,6 +391,7 @@ export default function NoSeeUmBitesPage() {
           <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Picaridin repellent &rarr;</BuyLink>
         </p>
         <p>Longer term, the population that bites you is produced in <strong>damp habitat</strong> nearby &mdash; wet soil, marsh edges, soggy leaf litter, and thick moist mulch. Improving drainage so water does not pool, clearing sodden debris, and keeping gutters draining all shrink the breeding ground. Where pressure near water is heavy and recurring, a professional barrier treatment applied to shaded resting vegetation and damp edges knocks down the adults where they rest by day; you can read how that fits into a broader yard plan in our <Link href="/blog/no-see-ums-biting-midges-ontario">biting midge control guide</Link>.</p>
+        <p>Other biting flies use the same damp ground and shorelines, so it is worth knowing which one you are dealing with. Two related guides cover the usual suspects: <Link href="/blog/black-flies-ontario-when-they-come-out">when black flies come out and how to stop them</Link>, and <Link href="/blog/deer-flies-horse-flies-ontario">how to tell deer flies from horse flies</Link>.</p>
 
         <h2>Why do I keep getting no-see-um bites?</h2>
         <p>Usually one of four reasons: your screening is ordinary mesh and does not stop them; the swarm is breeding somewhere off your property and flying in; you are outside during the dawn and dusk feeding window near damp ground; or you are simply more attractive to them than the people beside you. Yard work alone rarely fixes all four.</p>
@@ -525,7 +525,7 @@ export default function NoSeeUmBitesPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="Stop the Bites at the Source" subtext="Get a free quote for a licensed barrier treatment targeting the damp, shaded zones where biting midges and mosquitoes breed and rest. Serving 19 GTA cities." variant="dark" />
+      <ReadNext path="/blog/no-see-um-bites" standalone />
     </>
   )
 }

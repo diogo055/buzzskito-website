@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const POST = {
   title: 'West Nile Virus Ontario 2026 — GTA Risk',
@@ -203,7 +203,7 @@ export default function WestNile2026Page() {
         </ul>
       </article>
 
-      <CTASection heading="Book Your Mosquito Control Season" subtext={`Mosquito barrier spray applied under ${PROMISES.licence}. Free quote for all GTA homeowners.`} variant="dark" />
+      <ReadNext path="/blog/west-nile-virus-ontario-2026" standalone />
     </>
   )
 }

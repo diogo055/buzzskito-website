@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-186 images across 75 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+190 images across 77 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -53,6 +53,12 @@
 
 - Close-up photo of the back panel of an aerosol disinfectant can, with the EPA Reg. No. line and the directions for use in focus, showing that no insect is named anywhere on it
 - Side-by-side photo of two product labels: a disinfectant label with a germ list, and a bed bug insecticide label with the words bed bugs highlighted in its directions for use and the EPA Reg. No. circled on each
+
+## /blog/signs-of-bed-bugs-checklist
+
+- Close-up photo of a mattress seam and piping showing dark ink-like fecal spots bled into the fabric, two pale shed skins and a small cluster of white eggs, with a US dime for scale and each sign labeled
+- Scale diagram along a ruler marked in inches and millimeters: one bed bug egg (1 mm), the five nymph stages (1.5 to 4.5 mm), an unfed adult and a fed adult (5 to 7 mm), with an apple seed and a pinhead drawn beside them for comparison
+- Overhead diagram of a bed with numbered arrows showing the inspection order: 1 sheets and pillowcases, 2 mattress seams and tags, 3 box spring, 4 headboard, 5 bed frame joints, 6 nightstand and baseboard
 
 ## /learn/ants
 
@@ -271,6 +277,10 @@
 
 - Photo of two snap traps set side by side along a kitchen baseboard behind a pulled-out refrigerator, trigger ends against the wall, showing how closely a professional spaces traps where droppings were found
 - Annotated diagram of a house exterior marking the entry points a technician seals for mice: the corner gap under a garage door, pipe and cable penetrations, foundation cracks, the dryer vent, and the joint where siding meets the soffit
+
+## /blog/fall-mouse-proofing-checklist
+
+- Two-step close-up photo of a pipe entering a foundation wall: copper mesh being wedged into the gap with a screwdriver, then a bead of caulk sealing over it, with a pencil held beside the gap for scale
 
 ## /learn/cockroaches
 

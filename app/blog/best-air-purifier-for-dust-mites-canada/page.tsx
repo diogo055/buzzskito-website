@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-air-purifier-for-dust-mites-canada'
 const DATE = '2026-07-21'
@@ -324,6 +325,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="dust mites and damp-loving pests" />
+        <ReadNext path="/blog/best-air-purifier-for-dust-mites-canada" />
       </article>
     </>
   )

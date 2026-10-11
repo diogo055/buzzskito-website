@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -10,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const POST = MOSQUITO_BLOGS.supporting[1]
 const UPDATED = '2026-07-12'
@@ -113,7 +112,6 @@ export default function MosquitoSprayLastPage() {
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
-        <BlogPostCTA />
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
@@ -247,7 +245,7 @@ export default function MosquitoSprayLastPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (BTi larvicide)" search="summit mosquito dunks" label="For standing water" />
 
-      <CTASection heading="Professional Barrier Spray with a Rain-Back Guarantee" subtext={`${PROMISES.rainBack} ${PROMISES.biteFreeScope}.`} />
+      <ReadNext path="/blog/how-long-does-mosquito-spray-last" standalone />
     </>
   )
 }

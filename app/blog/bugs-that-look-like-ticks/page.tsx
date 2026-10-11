@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -13,6 +12,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import RelatedProducts from '@/components/RelatedProducts'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bugs-that-look-like-ticks'
 const DATE = '2026-04-26'
@@ -176,7 +176,6 @@ export default function BugsThatLookLikeTicksPage() {
           </ul>
           <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
         </div>
-        <BlogPostCTA />
       </div>
 
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
@@ -338,15 +337,6 @@ export default function BugsThatLookLikeTicksPage() {
           <li><strong>Where you found it:</strong> Weevils are almost always found in stored food — flour, oats, pet kibble, dried beans. They are never found attached to skin.</li>
         </ul>
         <p>If your &quot;tick&quot; came out of a bag of flour or a container of dog food, it is a weevil. The fix is to discard infested food and clean the pantry thoroughly. Weevils do not bite humans and do not transmit disease.</p>
-
-        <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-          <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Skip the tick worry entirely</h3>
-          <p className="text-sm text-gray-700 mb-4 leading-relaxed">Professional tick barrier treatment targets the zones where ticks actually wait — garden edges, fence lines, and shaded borders. BuzzSkito protects GTA yards with seasonal programs and single treatments from $99.</p>
-          <div className="flex flex-wrap items-center gap-4">
-            <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
-            <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-          </div>
-        </aside>
 
         <h2>3. Spider Beetles</h2>
         <p>A spider beetle has 6 legs and long antennae, often longer than its own body, and a tick has 8 legs and no antennae at all. Spider beetles measure 1.5&ndash;4 mm (up to about 1/8 inch), carry a hard shiny shell with a narrow neck-like waist, and run quickly. Ticks are soft-bodied, have no waist, and crawl slowly.</p>
@@ -553,7 +543,7 @@ export default function BugsThatLookLikeTicksPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="If it is a tick" />
 
-      <CTASection heading="Worried About Ticks on Your Property?" subtext="Free yard assessment from BuzzSkito — we walk your property, identify hot zones, and give you an honest quote." />
+      <ReadNext path="/blog/bugs-that-look-like-ticks" standalone />
     </>
   )
 }

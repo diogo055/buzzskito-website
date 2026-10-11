@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -10,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, faqSchema, blogPostingSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { BUSINESS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const UPDATED = '2026-04-07'
 
@@ -293,7 +293,7 @@ export default function TickPreventionYardKidsPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Wondercide Cedar-Oil Yard Spray (hose-end)" search="wondercide cedar oil yard spray ticks" label="Top pick for the yard" />
 
-      <CTASection heading="Get Your Family's Yard Ready for Tick Season" subtext={`Tick barrier spray applied under ${PROMISES.licence}. ${PROMISES.labelLine}. No contracts.`} variant="dark" />
+      <ReadNext path="/blog/tick-prevention-yard-ontario-safe-for-kids" standalone />
     </>
   )
 }

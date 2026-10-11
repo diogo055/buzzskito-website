@@ -7,8 +7,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'best-magnetic-screen-door-canada'
 const DATE = '2026-07-30'
@@ -397,10 +397,7 @@ export default function BestMagneticScreenDoorCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="A Screen Protects a Doorway. We Treat the Whole Yard."
-        subtext="If the deck is unusable rather than the kitchen, that is our actual job — licensed mosquito and tick control across 19 GTA cities. Free assessment, no obligation."
-      />
+      <ReadNext path="/blog/best-magnetic-screen-door-canada" standalone />
     </>
   )
 }

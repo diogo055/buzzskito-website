@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'what-blood-type-do-mosquitoes-bite'
 const AMZ_TAG = tagForSlug(SLUG)
@@ -453,7 +453,7 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
         </div>
       </article>
 
-      <CTASection heading="Bitten no matter your blood type? Let&rsquo;s fix the yard." subtext={`Get a free quote for licensed barrier spray. From $99. ${PROMISES.rainBackShort}.`} variant="dark" />
+      <ReadNext path="/blog/what-blood-type-do-mosquitoes-bite" standalone />
     </>
   )
 }

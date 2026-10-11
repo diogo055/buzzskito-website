@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'where-do-mosquitoes-go-in-winter-ontario'
 const DATE = '2026-07-12'
@@ -433,7 +433,7 @@ export default function WhereDoMosquitoesGoInWinterOntarioPage() {
         </div>
       </article>
 
-      <CTASection heading="Beat Next Season Before It Starts" subtext="Overwintered mosquitoes restart every spring. An early barrier spray stops the first generation cold. From $99." variant="dark" />
+      <ReadNext path="/blog/where-do-mosquitoes-go-in-winter-ontario" standalone />
     </>
   )
 }

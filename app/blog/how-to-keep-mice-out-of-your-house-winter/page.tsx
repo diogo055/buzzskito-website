@@ -9,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-keep-mice-out-of-your-house-winter'
 const DATE = '2026-07-16'
@@ -250,6 +251,7 @@ export default function HowToKeepMiceOutWinterPage() {
 
         <StickyBuyBar tag={AMZ_TAG} name="Coarse Steel Wool (packs 6 mm gaps)" search="steel wool mice" label="For sealing gaps" />
         <AdjacentPestCTA pest="rodents" />
+        <ReadNext path="/blog/how-to-keep-mice-out-of-your-house-winter" />
       </article>
     </>
   )

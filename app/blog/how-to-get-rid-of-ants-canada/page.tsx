@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-get-rid-of-ants-canada'
 const DATE = '2026-07-27'
@@ -595,10 +595,7 @@ export default function HowToGetRidOfAntsCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Ants Are Not Our Department — Mosquitoes and Ticks Are"
-        subtext="BuzzSkito is a licensed GTA mosquito and tick control company serving 19 cities. If ants are your problem, bait them yourself with the plan above. If it is mosquitoes or ticks making your yard unusable, that is what we do — get a free, no-obligation quote."
-      />
+      <ReadNext path="/blog/how-to-get-rid-of-ants-canada" standalone />
     </>
   )
 }

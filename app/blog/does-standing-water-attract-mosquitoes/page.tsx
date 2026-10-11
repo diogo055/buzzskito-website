@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -9,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'does-standing-water-attract-mosquitoes'
 const DATE = '2026-07-16'
@@ -284,7 +284,7 @@ export default function StandingWaterMosquitoesPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (BTI)" search="summit mosquito dunks" label="For water you can’t dump" />
 
-      <CTASection heading="Dump the Water · We&rsquo;ll Handle the Rest" subtext="Get a free quote for professional yard barrier spray. From $99. Products applied according to label directions. 150 five-star reviews." variant="dark" />
+      <ReadNext path="/blog/does-standing-water-attract-mosquitoes" standalone />
     </>
   )
 }

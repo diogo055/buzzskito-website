@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -11,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'what-does-tick-look-like-on-dog'
 const DATE = '2026-04-26'
@@ -103,7 +102,6 @@ export default function WhatDoesTickLookLikeOnDogPage() {
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">You found a small bump on your dog and you&rsquo;re trying to figure out if it&rsquo;s a tick. The fastest test: ticks have <strong>8 legs</strong>, are <strong>oval and flat</strong> when unfed, and <strong>swell up like a balloon</strong> when full of blood. Here&rsquo;s how to identify them with confidence.</p>
 
           {/* Service CTA first (lead-CTA rule), then the affiliate pick under it */}
-          <BlogPostCTA />
           <AffiliateDisclosure />
           <p>If it turns out to be a tick, the next thing you will want is a fine-tipped remover that grips at the skin rather than flat tweezers that crush the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>
 
@@ -229,7 +227,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-tipped tick removal tweezers" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Tired of Finding Ticks on Your Dog?" subtext="Yard tick barrier spray targets the leaf litter and lawn edges where ticks wait. Tick seasons from $597, or $497 with a mosquito plan." variant="dark" />
+      <ReadNext path="/blog/what-does-tick-look-like-on-dog" standalone />
     </>
   )
 }

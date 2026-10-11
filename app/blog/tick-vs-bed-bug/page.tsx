@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -10,6 +9,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'tick-vs-bed-bug'
 const DATE = '2026-07-09'
@@ -522,7 +522,7 @@ export default function TickVsBedBugPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="For tick removal" />
 
-      <CTASection heading="Ticks Come From Your Yard — Not Your Mattress" subtext="Barrier spray removes ticks at the source: lawn edges, leaf litter, fence lines. From $99." variant="dark" />
+      <ReadNext path="/blog/tick-vs-bed-bug" standalone />
     </>
   )
 }

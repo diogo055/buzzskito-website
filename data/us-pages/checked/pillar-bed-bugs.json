@@ -2,9 +2,13 @@
  "id": "pillar-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "f26759103131a25fa32fcc9fdffd4003a6d79f9b5d3e3c317f5d0c8e4b6a3e86",
+ "sha": "f50a78a71c6858c3bfe03f360dfcc65a82541fb105b9acaf049d2f4a70ff3801",
  "claimsChecked": 145,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 11,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "linksAddedOn": "2026-10-11",
+ "linksAdded": [
+  "/blog/signs-of-bed-bugs-checklist"
+ ]
 }

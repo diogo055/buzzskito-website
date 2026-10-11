@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -11,6 +10,7 @@ import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import RelatedProducts from '@/components/RelatedProducts'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'horse-fly-and-deer-fly-bite-treatment'
 const DATE = '2026-07-13'
@@ -298,7 +298,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Hydrocortisone 1% Anti-Itch Cream" search="hydrocortisone anti itch cream" asin="B0GBY8KXFY" label="For bite relief" />
 
-      <CTASection heading="Fewer Biting Flies Around Your Patio" subtext="Horse flies and deer flies rest in the same overgrown, damp yard edges as mosquitoes. One barrier treatment cuts the pressure. From $99." variant="dark" />
+      <ReadNext path="/blog/horse-fly-and-deer-fly-bite-treatment" standalone />
     </>
   )
 }

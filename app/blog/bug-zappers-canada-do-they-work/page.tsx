@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, itemListSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
@@ -10,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bug-zappers-canada-do-they-work'
 const DATE = '2026-05-01'
@@ -1082,7 +1082,7 @@ export default function BugZappersCanadaPage() {
         </div>
       </section>
 
-      <CTASection heading="Stop Killing Moths · Start Killing Mosquitoes" subtext="Get a free quote for licensed barrier spray. From $99. Products applied according to label directions. Whole-yard coverage." variant="dark" />
+      <ReadNext path="/blog/bug-zappers-canada-do-they-work" standalone />
     </>
   )
 }

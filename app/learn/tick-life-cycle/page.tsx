@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'tick-life-cycle'
 const TITLE = 'The Tick Life Cycle in Ontario — Egg, Larva, Nymph, Adult'
@@ -136,7 +136,7 @@ export default function TickLifeCyclePage() {
         </div>
       </article>
 
-      <CTASection heading="Two-Year Cycle. A Season-Long Plan." subtext="Get a free quote for licensed tick barrier spray. 5 sprays per season: $597 on its own, or $497 with a mosquito plan (plus HST)." variant="dark" />
+      <ReadNext path="/learn/tick-life-cycle" standalone />
     </>
   )
 }

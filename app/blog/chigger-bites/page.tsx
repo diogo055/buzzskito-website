@@ -11,6 +11,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'chigger-bites'
 const DATE = '2026-07-19'
@@ -650,6 +651,7 @@ export default function ChiggerBitesPage() {
         </div>
 
         <AdjacentPestCTA pest="chiggers" />
+        <ReadNext path="/blog/chigger-bites" />
       </article>
 
       <StickyBuyBar tag={AMZ_TAG} name="Calamine lotion" search="calamine lotion" label="Best for the itch" />

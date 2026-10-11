@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -10,6 +9,7 @@ import AwardRow from '@/components/AwardRow'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'misting-fan-canada'
 const DATE = '2026-07-14'
@@ -366,7 +366,7 @@ export default function MistingFanCanadaPage() {
         </div>
       </section>
 
-      <CTASection heading="A Misting Fan Cools the Patio. We Treat the Whole Yard." subtext={`Get a free quote for licensed barrier spray. From $99. ${PROMISES.rainBackShort}, with mosquito and tick plans available.`} variant="dark" />
+      <ReadNext path="/blog/misting-fan-canada" standalone />
     </>
   )
 }

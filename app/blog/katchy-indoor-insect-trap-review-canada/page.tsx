@@ -11,6 +11,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'katchy-indoor-insect-trap-review-canada'
 const DATE = '2026-07-21'
@@ -300,6 +301,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="flies" />
+        <ReadNext path="/blog/katchy-indoor-insect-trap-review-canada" />
       </article>
     </>
   )

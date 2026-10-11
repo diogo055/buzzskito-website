@@ -2,9 +2,13 @@
  "id": "can-mice-climb-walls",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "cceb8d168b33e5da86f317bbd8d3d1bbe937316a3f3d9b8dc8ac58a72320fe54",
+ "sha": "54d4d0c9c9ca0924e45bbfe780c4c1237668f8c13478059f4736f3c796445dd8",
  "claimsChecked": 78,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "linksAddedOn": "2026-10-11",
+ "linksAdded": [
+  "/blog/fall-mouse-proofing-checklist"
+ ]
 }

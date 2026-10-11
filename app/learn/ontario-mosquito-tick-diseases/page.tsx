@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'ontario-mosquito-tick-diseases'
 const TITLE = 'Mosquito &amp; Tick Diseases in Ontario — West Nile, Lyme, EEE, Anaplasmosis'
@@ -132,7 +132,7 @@ export default function OntarioDiseasesPage() {
         </div>
       </article>
 
-      <CTASection heading="Mosquito & Tick Control Starts in Your Yard" subtext={`Get a free quote for licensed mosquito and tick barrier spray. From $99 on a standard lot under 10,000 sq ft. ${PROMISES.response}`} variant="dark" />
+      <ReadNext path="/learn/ontario-mosquito-tick-diseases" standalone />
     </>
   )
 }

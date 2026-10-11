@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -10,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'propane-mosquito-trap-canada'
 const DATE = '2026-07-14'
@@ -293,7 +293,7 @@ export default function PropaneMosquitoTrapCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="A Propane Trap Thins Them Out. We Treat the Whole Yard." subtext={`Get a free quote for licensed barrier spray across the GTA. From $99. ${PROMISES.rainBackShort}.`} variant="dark" />
+      <ReadNext path="/blog/propane-mosquito-trap-canada" standalone />
     </>
   )
 }

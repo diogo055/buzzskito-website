@@ -11,6 +11,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'flea-bites-on-humans'
 const DATE = '2026-07-19'
@@ -531,6 +532,7 @@ export default function FleaBitesOnHumansPage() {
         </div>
 
         <AdjacentPestCTA pest="fleas" />
+        <ReadNext path="/blog/flea-bites-on-humans" />
       </article>
 
       <StickyBuyBar tag={AMZ_TAG} name="Plug-in light flea trap" search="flea trap plug in" label="To confirm fleas" />

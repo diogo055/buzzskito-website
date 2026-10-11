@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bed-bugs-on-the-ttc-toronto'
 const DATE = '2026-07-30'
@@ -424,10 +424,7 @@ export default function BedBugsOnTheTTCTorontoPage() {
         </div>
       </article>
 
-      <CTASection
-        heading="Mosquitoes and Ticks Are Our Actual Job"
-        subtext="We don't treat bed bugs — but if it's the biting outside your Toronto home rather than inside it, that's exactly what we do, across 19 GTA cities."
-      />
+      <ReadNext path="/blog/bed-bugs-on-the-ttc-toronto" standalone />
     </>
   )
 }

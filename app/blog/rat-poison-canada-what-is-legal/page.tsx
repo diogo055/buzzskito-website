@@ -10,6 +10,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'rat-poison-canada-what-is-legal'
 const DATE = '2026-07-16'
@@ -266,6 +267,7 @@ export default function RatPoisonCanadaLegalPage() {
         </div>
       </article>
       <StickyBuyBar tag={AMZ_TAG} name="Heavy-duty rat snap trap" search="heavy duty rat snap trap" label="Traps first" />
+      <ReadNext path="/blog/rat-poison-canada-what-is-legal" standalone />
     </>
   )
 }

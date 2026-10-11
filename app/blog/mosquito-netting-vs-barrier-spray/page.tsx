@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -9,6 +8,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-netting-vs-barrier-spray'
 const DATE = '2026-04-26'
@@ -218,7 +218,7 @@ export default function MosquitoNettingVsSprayPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Freestanding pop-up screen house" search="pop up screen house gazebo" label="Best netting pick" />
 
-      <CTASection heading="Use Your Whole Yard Without a Screen Tent" subtext="Professional barrier spray covers the entire yard. Kids, pets, garden, BBQ — all bug-free. From $99." variant="dark" />
+      <ReadNext path="/blog/mosquito-netting-vs-barrier-spray" standalone />
     </>
   )
 }

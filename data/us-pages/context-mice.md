@@ -42,6 +42,8 @@
 
 - `/blog/mice-exterminator` — **mice exterminator** (also: exterminator for mice; mice pest control). Hiring a professional for mice (the page also answers 'exterminator for mice' and 'mice pest control'): signs you need one, exactly what an exterminator does on a mouse job, typical US price ranges with the source and date stated, one-time versus ongoing service, questions to ask, licensing and how to check it with your state, how long it takes, and what you still have to do yourself.
 
+- `/blog/fall-mouse-proofing-checklist` — **how to mouse proof your house**. A fall exclusion guide. The 7 entry points mice use most (write them as a numbered list that matches a house diagram: utility and pipe penetrations, gaps under exterior doors, the garage door corners, dryer and other vents, the foundation and sill plate, weep holes and siding gaps, the roofline and soffits), with the gap size that lets a mouse through in inches. A step-by-step steel wool and caulk how-to for small holes and what to use for larger ones (hardware cloth, metal flashing, cement), following CDC's seal-up guidance. A trap placement guide for the mice already inside. Why fall is the season. A printable exclusion checklist as a card block. Pet and child safety for traps and for any bait.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -106,6 +108,15 @@
 - `/blog/natural-pest-control` — natural pest control
 - `/blog/lawn-pest-control` — lawn pest control
 - `/blog/commercial-pest-control` — commercial pest control
+- `/learn/ant-killer-recipes` — homemade ant killer
+- `/blog/signs-of-bed-bugs-checklist` — signs of bed bugs
+- `/learn/tick-identification-chart` — tick identification chart
+- `/learn/pet-safe-pest-control` — pet safe pest control
+- `/learn/natural-garden-pest-control` — natural garden pest control
+- `/learn/how-to-get-rid-of-fungus-gnats` — how to get rid of fungus gnats
+- `/learn/aphid-control-guide` — how to get rid of aphids naturally
+- `/learn/whitefly-identification-control` — how to get rid of whiteflies
+- `/learn/natural-weed-control` — natural weed killer
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

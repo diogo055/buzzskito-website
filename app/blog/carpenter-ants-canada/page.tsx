@@ -8,8 +8,8 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
-import CTASection from '@/components/CTASection'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'carpenter-ants-canada'
 const DATE = '2026-07-27'
@@ -510,11 +510,7 @@ export default function CarpenterAntsCanadaPage() {
         </div>
       </article>
 
-      <CTASection
-        variant="light"
-        heading="Ants Aren't Our Fight — Mosquitoes and Ticks Are"
-        subtext="BuzzSkito treats mosquitoes and ticks across 19 GTA cities. If your backyard has those too, the assessment is free."
-      />
+      <ReadNext path="/blog/carpenter-ants-canada" standalone />
     </>
   )
 }

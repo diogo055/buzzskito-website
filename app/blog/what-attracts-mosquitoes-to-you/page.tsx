@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -9,6 +8,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'what-attracts-mosquitoes-to-you'
 const DATE = '2026-07-13'
@@ -242,7 +242,7 @@ export default function WhatAttractsMosquitoesToYouPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Picaridin 20% insect repellent" search="picaridin insect repellent" label="Best repellent" />
 
-      <CTASection heading="Stop Being the One Who Always Gets Bitten" subtext="You can't change your blood type — but you can treat the yard where mosquitoes rest. Licensed barrier spray from $99. +HST." variant="dark" />
+      <ReadNext path="/blog/what-attracts-mosquitoes-to-you" standalone />
     </>
   )
 }

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -10,6 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-net'
 const DATE = '2026-07-12'
@@ -305,7 +305,7 @@ export default function MosquitoNetCanadaPage() {
         </div>
       </article>
 
-      <CTASection heading="Net the Bed. Spray the Yard." subtext={`Get a free quote for licensed barrier spray. From $99. Treats mosquitoes and ticks. ${PROMISES.rainBackShort}.`} variant="dark" />
+      <ReadNext path="/blog/mosquito-net" standalone />
     </>
   )
 }

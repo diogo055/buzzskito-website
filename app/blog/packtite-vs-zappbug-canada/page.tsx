@@ -10,6 +10,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'packtite-vs-zappbug-canada'
 const DATE = '2026-07-21'
@@ -293,6 +294,7 @@ export default function PacktiteVsZappbugCanadaPage() {
           </div>
         </div>
         <AdjacentPestCTA pest="bed bugs" />
+        <ReadNext path="/blog/packtite-vs-zappbug-canada" />
       </article>
     </>
   )

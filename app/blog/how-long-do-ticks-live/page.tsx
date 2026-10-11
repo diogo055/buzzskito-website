@@ -1,14 +1,13 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-long-do-ticks-live'
 const DATE = '2026-07-15'
@@ -188,7 +187,6 @@ export default function HowLongDoTicksLivePage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
-          <BlogPostCTA />
           <AffiliateDisclosure />
           <TopPick tag={AMZ_TAG}
             label="Our Top Pick — For the Tick You Find"
@@ -360,7 +358,7 @@ export default function HowLongDoTicksLivePage() {
         </div>
       </article>
 
-      <CTASection heading="Ticks Overwinter in Your Yard &mdash; Break the Cycle at the Source" subtext="They live for years, survive the winter under leaf litter, and wait in your yard&rsquo;s shaded edges. One barrier treatment removes them where they actually live. From $99." variant="dark" />
+      <ReadNext path="/blog/how-long-do-ticks-live" standalone />
       <StickyBuyBar tag={AMZ_TAG} name="Tick-removal tool kit" search="tick removal tool tweezers" label="For removal" />
     </>
   )

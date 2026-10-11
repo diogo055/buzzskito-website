@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
@@ -10,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const POST = TICK_BLOGS.supporting[2]
 const UPDATED = POST.date
@@ -188,7 +188,7 @@ export default function RemoveTickPage() {
         tag={AMZ_TAG}
       />
 
-      <CTASection heading="Treat the Yard Where Ticks Wait" subtext="Professional yard treatment targets the leaf litter and shaded edges where ticks wait. Free quote available." variant="dark" />
+      <ReadNext path="/blog/how-to-remove-tick-safely" standalone />
     </>
   )
 }

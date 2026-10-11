@@ -10,6 +10,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-check-for-bed-bugs-canada'
 const DATE = '2026-07-16'
@@ -259,6 +260,7 @@ export default function HowToCheckForBedBugsCanadaPage() {
 
         <StickyBuyBar tag={AMZ_TAG} name="Bed Bug Detection Kit (flashlight + card)" search="bed bug detection kit" label="Best inspection tool" />
         <AdjacentPestCTA pest="bed bugs" />
+        <ReadNext path="/blog/how-to-check-for-bed-bugs-canada" />
       </article>
     </>
   )

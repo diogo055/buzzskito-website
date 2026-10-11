@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
-import BlogPostCTA from '@/components/BlogPostCTA'
 import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
@@ -10,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'can-ticks-fly-jump-swim'
 const DATE = '2026-07-12'
@@ -104,7 +103,6 @@ export default function CanTicksFlyJumpSwimPage() {
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
 
-          <BlogPostCTA />
           <AffiliateDisclosure />
           <p className="not-prose text-gray-700 text-[15px] leading-relaxed my-4">Because every tick is picked up on land and crawls for a while before it bites, the check when you get home is what catches it &mdash; and a fine-tipped remover is the tool that check needs: <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
         </div>
@@ -228,7 +226,7 @@ export default function CanTicksFlyJumpSwimPage() {
 
       <StickyBuyBar tag={AMZ_TAG} name="Fine-Tipped Tick Removal Tool" search="tick removal tool tweezers" label="For removal" />
 
-      <CTASection heading="Stop Ticks Where They Wait — Your Yard&rsquo;s Edges" subtext="Ticks can&rsquo;t fly, jump, or swim — they quest from grass and leaf litter. One barrier spray removes them at the source. From $99." variant="dark" />
+      <ReadNext path="/blog/can-ticks-fly-jump-swim" standalone />
     </>
   )
 }

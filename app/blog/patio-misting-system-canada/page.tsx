@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -10,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
+import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'patio-misting-system-canada'
 const DATE = '2026-07-14'
@@ -328,7 +328,7 @@ export default function PatioMistingSystemCanadaPage() {
         </div>
       </section>
 
-      <CTASection heading="Mist for Comfort. Barrier Spray for Mosquitoes." subtext={`Licensed barrier spray from $99 — the treatment automated misting systems promise, done the legal Canadian way. ${PROMISES.response}`} variant="dark" />
+      <ReadNext path="/blog/patio-misting-system-canada" standalone />
     </>
   )
 }

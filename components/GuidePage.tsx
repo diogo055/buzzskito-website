@@ -1,8 +1,10 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import type { ReactNode } from 'react'
 import { BUSINESS } from '@/lib/constants'
 import { US_GUIDE_BUILT, US_GUIDE_PLANNED } from '@/lib/us-guide-built'
-import { type Guide, type GuideBlock, CLUSTER_LABEL, CLUSTER_PILLAR, guidePath, guideSchemas, regionalPair, slugifyHeading } from '@/lib/guides'
+import ReadNext from '@/components/ReadNext'
+import { type Guide, type GuideBlock, CLUSTER_LABEL, CLUSTER_PILLAR, GUIDE_HEROES, guidePath, guideSchemas, regionalPair, slugifyHeading } from '@/lib/guides'
 
 /**
  * Renders one North American pest guide from its JSON file (content/guides/<slug>.json).
@@ -84,11 +86,76 @@ function Block({ block }: { block: GuideBlock }) {
         </aside>
       )
     }
+    case 'recipe': {
+      const tier = SAFETY[block.safety.tier] ?? SAFETY.caution
+      return (
+        <section className="not-prose my-6 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm sm:p-6">
+          <h3 className="text-lg font-extrabold leading-tight text-brand-900">{block.title}</h3>
+          {block.makes && <p className="mt-1 text-xs text-gray-500">{block.makes}</p>}
+          <div className="mt-4 grid gap-5 sm:grid-cols-2">
+            <div>
+              <p className="mb-1.5 text-xs font-extrabold uppercase tracking-wider text-brand-700">You need</p>
+              <ul className="list-disc space-y-1 pl-5 text-sm text-gray-800">{block.ingredients.map((it, i) => <li key={i}><Inline text={it} /></li>)}</ul>
+            </div>
+            <div>
+              <p className="mb-1.5 text-xs font-extrabold uppercase tracking-wider text-brand-700">Steps</p>
+              <ol className="list-decimal space-y-1 pl-5 text-sm text-gray-800">{block.steps.map((it, i) => <li key={i}><Inline text={it} /></li>)}</ol>
+            </div>
+          </div>
+          {block.works && <p className="mt-4 text-sm leading-relaxed text-gray-700"><strong className="text-brand-900">What it does: </strong><Inline text={block.works} /></p>}
+          {block.limits && <p className="mt-2 text-sm leading-relaxed text-gray-700"><strong className="text-brand-900">Where it stops working: </strong><Inline text={block.limits} /></p>}
+          <div className={`mt-4 rounded-xl border p-3.5 ${tier.box}`}>
+            <p className={`mb-1 text-xs font-extrabold uppercase tracking-wider ${tier.label}`}>Pets and children: {tier.name}</p>
+            <p className="text-sm leading-relaxed text-gray-800"><strong>Pets. </strong><Inline text={block.safety.pets} /></p>
+            <p className="mt-1 text-sm leading-relaxed text-gray-800"><strong>Children. </strong><Inline text={block.safety.children} /></p>
+          </div>
+          {block.source && <p className="mt-3 text-xs text-gray-500">Recipe as published by <Inline text={block.source} /></p>}
+        </section>
+      )
+    }
+    case 'checklist':
+      return (
+        <section className="not-prose my-6 rounded-2xl border border-emerald-200 bg-emerald-50/60 p-5 sm:p-6">
+          {block.title && <h3 className="mb-3 text-lg font-extrabold leading-tight text-brand-900">{block.title}</h3>}
+          <ul className="space-y-2.5">
+            {block.items.map((it, i) => (
+              <li key={i} className="flex gap-3 text-sm leading-relaxed text-gray-800">
+                <span aria-hidden="true" className="mt-0.5 inline-block h-4 w-4 shrink-0 rounded border-2 border-emerald-600 bg-white" />
+                <span><Inline text={it} /></span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    case 'card':
+      return (
+        <section data-print-card className="not-prose my-8 rounded-2xl border-2 border-brand-900 bg-white p-5 sm:p-6">
+          <p className="mb-1 text-[11px] font-extrabold uppercase tracking-widest text-brand-700">Print or save</p>
+          <h3 className="text-xl font-extrabold leading-tight text-brand-900">{block.title}</h3>
+          {block.intro && <p className="mt-2 text-sm leading-relaxed text-gray-700"><Inline text={block.intro} /></p>}
+          <ol className="mt-4 space-y-2">
+            {block.items.map((it, i) => (
+              <li key={i} className="flex gap-3 text-sm leading-relaxed text-gray-800">
+                <span aria-hidden="true" className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-900 text-xs font-bold text-white">{i + 1}</span>
+                <span><Inline text={it} /></span>
+              </li>
+            ))}
+          </ol>
+          {block.note && <p className="mt-4 border-t border-gray-200 pt-3 text-xs leading-relaxed text-gray-600"><Inline text={block.note} /></p>}
+          <p className="mt-3 text-xs text-gray-500">buzzskito.ca</p>
+        </section>
+      )
     case 'media':
       return null // a photo or diagram still to be added; see reports/us_pages_media_needed.md
     default:
       return null
   }
+}
+
+const SAFETY: Record<string, { box: string; label: string; name: string }> = {
+  'lower-risk': { box: 'border-emerald-200 bg-emerald-50', label: 'text-emerald-700', name: 'lower risk' },
+  caution: { box: 'border-amber-300 bg-amber-50', label: 'text-amber-700', name: 'use with caution' },
+  'keep-away': { box: 'border-red-200 bg-red-50', label: 'text-red-700', name: 'keep well away' },
 }
 
 const DISCLAIMER: Record<string, string> = {
@@ -134,6 +201,11 @@ function Byline({ guide }: { guide: Guide }) {
   )
 }
 
+/**
+ * Who publishes the page. Deliberately NOT a call to action: blog and Learning Centre readers
+ * are national and US (owner's decision, Oct 2026), so the quote buttons that used to sit here
+ * are gone. The one quiet link to the quote form lives in the Keep reading block.
+ */
 function PublisherBox({ guide }: { guide: Guide }) {
   const ours = guide.cluster === 'mosquitoes' || guide.cluster === 'ticks'
   const pest = CLUSTER_LABEL[guide.cluster]
@@ -143,31 +215,23 @@ function PublisherBox({ guide }: { guide: Guide }) {
       <h3 className="text-lg font-extrabold leading-tight text-brand-900 mb-2">
         {ours ? 'Written by a mosquito and tick control company' : guide.cluster === 'pest-control' ? 'We treat mosquitoes and ticks. Nothing else.' : <>We research {pest}. We don&rsquo;t treat them.</>}
       </h3>
-      <p className="text-sm leading-relaxed text-gray-700 mb-3">
+      <p className="text-sm leading-relaxed text-gray-700">
         {ours ? (
           <>BuzzSkito treats <strong>mosquitoes and ticks</strong> for a living. This guide is written for readers anywhere in North America, and its factual claims are cited to public-health and university sources. No brand pays to appear in it.</>
         ) : (
           <>BuzzSkito is a licensed <strong>mosquito and tick</strong> control company, and those are the only two pests we treat. We publish source-cited guides on other pests because readers keep asking. No brand pays to appear in them, and we do not sell the products they mention.</>
         )}
       </p>
-      <p className="text-sm leading-relaxed text-gray-700 mb-4">
-        If you are in the <strong>Greater Toronto Area</strong> and the problem is mosquitoes or ticks in your yard, that part we handle.
-      </p>
-      <div className="flex flex-col gap-2.5 sm:flex-row sm:items-center">
-        <Link href="/free-yard-assessment" className="inline-flex items-center justify-center rounded-full bg-amber-500 px-5 py-2.5 text-sm font-extrabold text-white shadow transition-colors hover:bg-amber-400">
-          Get a yard quote &rarr;
-        </Link>
-        <a href={BUSINESS.phoneHref} className="inline-flex items-center justify-center rounded-full border border-brand-300 px-5 py-2.5 text-sm font-bold text-brand-800 transition-colors hover:bg-white">
-          {BUSINESS.phone}
-        </a>
-      </div>
     </aside>
   )
 }
 
 export default function GuidePage({ guide }: { guide: Guide }) {
   const path = guidePath(guide)
-  const pillar = guide.kind === 'spoke' ? CLUSTER_PILLAR[guide.cluster] : undefined
+  const hubCrumb = guide.kind === 'spoke' ? CLUSTER_PILLAR[guide.cluster] : undefined
+  const pillar = hubCrumb && hubCrumb.href !== path ? hubCrumb : undefined
+  const inLearn = path.startsWith('/learn/')
+  const hero = GUIDE_HEROES[path]
   const pair = regionalPair(path)
   const headings = guide.body.filter((b): b is Extract<GuideBlock, { type: 'h2' }> => b.type === 'h2')
   const disclaimers = guide.disclaimer === 'both' ? ['health', 'pesticide'] : guide.disclaimer ? [guide.disclaimer] : []
@@ -182,14 +246,12 @@ export default function GuidePage({ guide }: { guide: Guide }) {
         <div className="max-w-4xl mx-auto">
           <nav aria-label="Breadcrumb" className="text-brand-400 text-sm mb-4 flex flex-wrap gap-1">
             <Link href="/" className="hover:text-white">Home</Link><span>/</span>
-            {guide.kind === 'pillar' ? (
+            {inLearn ? (
               <><Link href="/learn" className="hover:text-white">Learning Centre</Link><span>/</span></>
             ) : (
-              <>
-                <Link href="/blog" className="hover:text-white">Blog</Link><span>/</span>
-                {pillar && <><Link href={pillar.href} className="hover:text-white">{pillar.name}</Link><span>/</span></>}
-              </>
+              <><Link href="/blog" className="hover:text-white">Blog</Link><span>/</span></>
             )}
+            {pillar && <><Link href={pillar.href} className="hover:text-white">{pillar.name}</Link><span>/</span></>}
             <span className="text-white">{guide.breadcrumb}</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{guide.h1}</h1>
@@ -208,6 +270,19 @@ export default function GuidePage({ guide }: { guide: Guide }) {
           </div>
         </div>
       </section>
+
+      {hero && (
+        <section className="bg-white px-4 pb-4" aria-label="Printable guide">
+          <figure className="mx-auto max-w-md">
+            <a href={hero.src} target="_blank" rel="noopener noreferrer" className="block overflow-hidden rounded-2xl border border-gray-200 shadow-sm">
+              <Image src={hero.src} alt={guide.heroAlt || guide.h1} width={hero.width} height={hero.height} sizes="(min-width: 640px) 448px, 92vw" priority className="h-auto w-full" />
+            </a>
+            <figcaption className="mt-2 text-center text-xs text-gray-500">
+              The one-page version. <a href={hero.src} target="_blank" rel="noopener noreferrer" className="underline">Open it full size to print or save</a>. The details, sources and safety notes are below.
+            </figcaption>
+          </figure>
+        </section>
+      )}
 
       {guide.facts && (
         <section className="pb-2 px-4 bg-white">
@@ -289,6 +364,8 @@ export default function GuidePage({ guide }: { guide: Guide }) {
           <PublisherBox guide={guide} />
         </div>
       </article>
+
+      <ReadNext path={path} standalone />
     </>
   )
 }
