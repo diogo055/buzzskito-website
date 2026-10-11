@@ -164,11 +164,13 @@ export const US_GUIDE_BUILT = new Set<string>([
   "/blog/what-kills-ticks-on-dogs-instantly",
   "/blog/what-kills-ticks",
   "/blog/do-chickens-eat-ticks",
+  "/learn/tick-identification-chart",
   "/blog/how-much-is-pest-control",
   "/blog/diy-pest-control",
   "/blog/natural-pest-control",
   "/blog/lawn-pest-control",
   "/blog/commercial-pest-control",
+  "/learn/pet-safe-pest-control",
   "/pest-product-guides/ant-control",
   "/pest-product-guides/cockroach-control",
 ])

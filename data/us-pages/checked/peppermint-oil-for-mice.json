@@ -2,9 +2,13 @@
  "id": "peppermint-oil-for-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "80c7fc5dc4b5c58f6bb86ae58e5567d50e8d9c41b3ef1640278d52903b7ea8b7",
+ "sha": "6c6a2bfbde0bd8f0bcc2e2691dae3d9f64d59c1e898880f8fc0de2196fd67a6b",
  "claimsChecked": 66,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 7,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "linksAddedOn": "2026-10-11",
+ "linksAdded": [
+  "/learn/pet-safe-pest-control"
+ ]
 }

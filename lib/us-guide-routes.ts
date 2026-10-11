@@ -70,4 +70,5 @@ export const US_GUIDE_ADJACENT_ROUTES = new Set<string>([
   "/blog/natural-pest-control",
   "/blog/lawn-pest-control",
   "/blog/commercial-pest-control",
+  "/learn/pet-safe-pest-control",
 ])

@@ -136,6 +136,7 @@
       "**Lungs.** The University of Connecticut says prolonged exposure to diatomaceous earth may irritate lungs and other tissues."
     ] },
     { "type": "callout", "tone": "warning", "title": "The label is the law", "text": "Read the label of any pest product before using it and follow its directions exactly. A use that is not on the label is outside what this guide supports. If a child or pet swallows a pest product, or anyone has symptoms after exposure, contact Poison Control, a healthcare provider or a veterinarian." },
+    { "type": "p", "text": "For households with cats or dogs, [pest control around cats and dogs](/learn/pet-safe-pest-control) goes through common home remedies one at a time and gives the risk each carries, with veterinary sources." },
 
     { "type": "h2", "text": "When is natural pest control not enough?" },
     { "type": "p", "text": "When the pest is established, the damage or health risk is rising, or the pest lives where you cannot reach it. EPA's first IPM step is to decide the point at which pest populations or environmental conditions indicate that action must be taken, and it notes that sighting a single pest does not always mean control is needed, so the real question is whether you have reached that point. Once control is required and prevention is no longer enough, the agency says to weigh control methods for both effectiveness and risk: less risky controls first, targeted spraying if monitoring shows they are not working, and broadcast spraying of non-specific pesticides only as a last resort." },

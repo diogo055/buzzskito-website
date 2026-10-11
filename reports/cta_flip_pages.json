@@ -1,7 +1,7 @@
 {
  "generated": "from the built site",
  "counts": {
-  "keepReading": 408,
+  "keepReading": 410,
   "keepsQuoteCta": 33
  },
  "keepsQuoteCta": [
@@ -546,6 +546,8 @@
   "/learn/mice",
   "/learn/mosquito-life-cycle",
   "/learn/ontario-mosquito-tick-diseases",
+  "/learn/pet-safe-pest-control",
+  "/learn/tick-identification-chart",
   "/learn/tick-life-cycle"
  ]
 }

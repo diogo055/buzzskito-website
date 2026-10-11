@@ -44,6 +44,8 @@ const URLS = [
   // North American pest guides (Oct 2026): hubs, product hubs, guides by search demand, then the broadened guides
   `${SITE_URL}/blog/fall-mouse-proofing-checklist`,
   `${SITE_URL}/blog/signs-of-bed-bugs-checklist`,
+  `${SITE_URL}/learn/tick-identification-chart`,
+  `${SITE_URL}/learn/pet-safe-pest-control`,
   `${SITE_URL}/learn/bed-bugs`,
   `${SITE_URL}/learn/ants`,
   `${SITE_URL}/learn/mice`,

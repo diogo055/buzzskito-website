@@ -454,6 +454,7 @@ export default function BugsThatLookLikeTicksPage() {
           <li><strong>Habitat:</strong> Open grassy areas, trails, fields, and lawn edges. Often picked up by dogs running through tall grass.</li>
         </ul>
         <p>If you find a tick attached to yourself or your child and it is small, smooth, and reddish-black with no decorative markings — treat it as a potential deer tick. <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 underline">Remove it safely</Link>, save it in a sealed bag, and monitor the bite site for the bull&apos;s-eye rash. If the tick is large, with a clearly patterned grey-white scutum, it is most likely a dog tick — still remove it carefully, but the immediate Lyme disease concern is much lower.</p>
+        <p>For the three common species on one page, the <Link href="/learn/tick-identification-chart" className="text-brand-700 underline">tick identification chart</Link> sets the deer tick, the dog tick and the lone star tick side by side, with a card you can print for tick checks.</p>
 
         <h2>How Big Is a Tick Compared to Each Look-Alike?</h2>
         <p>Most tick look-alikes sit between 1 mm and 5 mm, the same band as a real tick, so size alone rarely settles an identification. An unfed adult blacklegged tick is about 3 mm long (roughly 1/8 inch) and an unfed American dog tick is about 5 mm (roughly 3/16 inch). Legs and antennae are the reliable test, not millimetres.</p>

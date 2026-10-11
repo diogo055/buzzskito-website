@@ -217,6 +217,9 @@ app/blog/what-kills-ticks/page.tsx
 content/guides/do-chickens-eat-ticks.json
 data/us-pages/checked/do-chickens-eat-ticks.json
 app/blog/do-chickens-eat-ticks/page.tsx
+content/guides/tick-identification-chart.json
+data/us-pages/checked/tick-identification-chart.json
+app/learn/tick-identification-chart/page.tsx
 content/guides/how-much-is-pest-control.json
 data/us-pages/checked/how-much-is-pest-control.json
 app/blog/how-much-is-pest-control/page.tsx
@@ -232,3 +235,6 @@ app/blog/lawn-pest-control/page.tsx
 content/guides/commercial-pest-control.json
 data/us-pages/checked/commercial-pest-control.json
 app/blog/commercial-pest-control/page.tsx
+content/guides/pet-safe-pest-control.json
+data/us-pages/checked/pet-safe-pest-control.json
+app/learn/pet-safe-pest-control/page.tsx

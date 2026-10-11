@@ -1,0 +1,10 @@
+{
+ "id": "tick-identification-chart",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "a4c7a08a996f1fd58ca1d014d7bdfe11bcc0db54eb528e7d4705b7cf7a3b78e7",
+ "claimsChecked": 90,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 8,
+ "checkedOn": "2026-10-11"
+}

@@ -1,0 +1,448 @@
+{
+  "slug": "tick-identification-chart",
+  "kind": "spoke",
+  "section": "learn",
+  "cluster": "ticks",
+  "keyword": "tick identification chart",
+  "alsoTargets": [],
+  "metaTitle": "Tick Identification Chart: Deer, Dog, Lone Star",
+  "metaDescription": "Tell a deer tick from a dog tick or lone star tick by size and markings. Diseases each carries, US and Canada range, and a printable tick-check card.",
+  "h1": "Tick Identification Chart: Deer Tick vs Dog Tick vs Lone Star Tick",
+  "dek": "Tell the three ticks apart by size and markings, see which diseases CDC ties to each and where each lives in the United States and Canada, then print the tick-check routine.",
+  "breadcrumb": "Tick Identification Chart",
+  "excerpt": "A side-by-side chart of the blacklegged (deer) tick, American dog tick and lone star tick: size by life stage, markings, diseases, range, and a printable tick-check card.",
+  "heroAlt": "One-page tick identification chart. An actual-size strip compares deer, lone star and dog ticks to seeds. Three panels give the look, diseases and Ontario range of the black-legged (deer) tick, American dog tick and lone star tick. A red box lists what to do if bitten, and a four-step tick-check routine closes the page.",
+  "datePublished": "2026-10-11",
+  "quickAnswer": {
+    "lead": "**Read the back of an unfed adult: a blacklegged (deer) tick is small with a plain dark shield, an American dog tick is larger with whitish markings, and a female lone star tick has one white spot.** The [Connecticut Agricultural Experiment Station's handbook](https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf) puts unfed female blacklegged ticks and adult lone star ticks at about 3 to 4 mm, roughly 1/8 inch, and adult American dog ticks at almost 1/4 inch.",
+    "bullets": [
+      "An unfed adult female blacklegged tick is about 1/8 inch (3 to 3.7 mm) long, and its nymph, the stage CDC compares to a poppy seed, is 0.05 to 0.07 inch (1.3 to 1.7 mm).",
+      "Adult American dog ticks are almost 1/4 inch (6.4 mm) long, and a fully fed female can reach 1/2 inch (13 mm).",
+      "Of the three, CDC lists Lyme disease under the blacklegged tick only; the American dog tick's list is Rocky Mountain spotted fever and tularemia.",
+      "The Government of Canada lists blacklegged ticks as established in west, south and southeast Ontario and says lone star ticks have been found in southern Ontario.",
+      "After a bite, CDC says to see a doctor if a rash or fever develops within several weeks of removing the tick.",
+      "CDC's routine after time outdoors: shower within 2 hours, check seven body areas, and tumble dry clothes on high heat for 10 minutes."
+    ]
+  },
+  "facts": {
+    "title": "The three ticks at a glance",
+    "rows": [
+      [
+        "Blacklegged (deer) tick, unfed adult female",
+        "About 1/8 inch (3 to 3.7 mm); reddish body, dark brown shield, no white marks"
+      ],
+      [
+        "American dog tick, unfed adult",
+        "Almost 1/4 inch (6.4 mm); reddish brown with whitish or silvery-gray markings"
+      ],
+      [
+        "Lone star tick, unfed adult",
+        "About 1/8 inch (3 to 4 mm); the female has one white spot"
+      ],
+      [
+        "Poppy-seed stage",
+        "The blacklegged tick nymph, 0.05 to 0.07 inch (1.3 to 1.7 mm)"
+      ],
+      [
+        "American dog tick, fully fed female",
+        "Up to 1/2 inch (13 mm) long; resembles a dark pinto bean"
+      ],
+      [
+        "Lyme disease",
+        "Listed by CDC under the blacklegged tick, not the other two"
+      ],
+      [
+        "Shower",
+        "Within 2 hours of coming indoors (CDC)"
+      ],
+      [
+        "Dryer",
+        "High heat for 10 minutes on dry clothing; longer if damp (CDC)"
+      ],
+      [
+        "See a doctor",
+        "Rash or fever within several weeks of removing a tick (CDC)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "How big are deer ticks, lone star ticks and dog ticks at actual size?"
+    },
+    {
+      "type": "p",
+      "text": "An unfed female blacklegged (deer) tick and an adult lone star tick are both about 1/8 inch long, and an adult American dog tick is about twice that, almost 1/4 inch. The [Connecticut Agricultural Experiment Station's Tick Management Handbook](https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf) measures them at 3 to 3.7 mm, about 3 to 4 mm and almost 6.4 mm, and rounds the first figure down to about 1/10 inch. Male blacklegged ticks are smaller, 2 to 2.7 mm, so the deer tick is the smallest of the three, as the one-page guide shows, though only slightly smaller than a lone star tick. The guide's seed labels need one correction, explained under the table."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Life stage",
+        "Blacklegged (deer) tick",
+        "American dog tick",
+        "Lone star tick",
+        "Close to"
+      ],
+      "rows": [
+        [
+          "Larva (6 legs)",
+          "About 0.03 inch (0.7 to 0.8 mm)",
+          "Not given",
+          "Not given",
+          "About half the length of the nymph"
+        ],
+        [
+          "Nymph (8 legs)",
+          "0.05 to 0.07 inch (1.3 to 1.7 mm)",
+          "Not given; records of nymphs on people are rare",
+          "Not given; rounder than a blacklegged nymph, with a reddish tint",
+          "A poppy seed (CDC, blacklegged tick); a pinhead (Connecticut handbook)"
+        ],
+        [
+          "Adult male, unfed",
+          "0.08 to 0.11 inch (2 to 2.7 mm)",
+          "Almost 1/4 inch (6.4 mm), the figure given for adults",
+          "About 1/8 inch (3 to 4 mm), the one figure given for the species",
+          "No comparison given"
+        ],
+        [
+          "Adult female, unfed",
+          "About 1/8 inch (3 to 3.7 mm)",
+          "Almost 1/4 inch (6.4 mm)",
+          "About 1/8 inch (3 to 4 mm)",
+          "A sesame seed (CDC, adult blacklegged tick)"
+        ],
+        [
+          "Adult female, fully fed",
+          "Nearly as large as a fed dog tick female",
+          "Up to 1/2 inch (13 mm) long and 10 mm wide",
+          "Not given",
+          "A dark pinto bean (Connecticut handbook, dog tick)"
+        ]
+      ],
+      "caption": "Measurements: Connecticut Agricultural Experiment Station. Comparisons: CDC and the Connecticut handbook. Individual ticks vary."
+    },
+    {
+      "type": "p",
+      "text": "Seed comparisons belong to particular life stages. [CDC's page on how Lyme disease spreads](https://www.cdc.gov/lyme/causes/index.html) says that, in general, adult blacklegged ticks are approximately the size of a sesame seed and nymphs approximately the size of a poppy seed, so the poppy seed belongs to the nymph, not the adult. The Connecticut handbook calls the same nymph about the size of a pinhead. The [Government of Canada's tick page](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html) also describes the blacklegged tick as the size of a sesame seed, without naming a life stage. None of the sources used here compares a lone star tick to a sesame seed or a dog tick to an apple seed, so for those two go by the inches."
+    },
+    {
+      "type": "p",
+      "text": "Six-legged larvae are smaller again, and they have their own guide to [seed ticks and other baby ticks](/blog/seed-ticks)."
+    },
+    {
+      "type": "media",
+      "needed": "Macro photo, top view, of an unfed adult female blacklegged tick, lone star tick and American dog tick side by side on a ruler marked in sixteenths of an inch, with a blacklegged nymph, a poppy seed and a sesame seed in the same frame for scale"
+    },
+    {
+      "type": "h3",
+      "text": "How much bigger does a fed tick get?"
+    },
+    {
+      "type": "p",
+      "text": "A fed female grows to two or more times her unfed length, and the one male the handbook describes, the dog tick, barely changes. In the handbook, a female American dog tick goes from almost 1/4 inch (6.4 mm) to as much as 1/2 inch (13 mm), about double, and comes to resemble a dark pinto bean, while males of the species do not change notably in size as they feed. A fully fed blacklegged female ends up nearly as large as a fed dog tick from a start of about half the dog tick's length, so her multiple is larger. The handbook gives no fed size for the lone star tick. So the one-page guide's 3x is a rough rule for females only: the sources give no single multiple."
+    },
+    {
+      "type": "p",
+      "text": "The handbook adds that the shield behind the head does not change in size as a dog tick feeds, so on a swollen tick it is still the place to read the markings."
+    },
+    {
+      "type": "h2",
+      "text": "Tick identification chart: deer tick vs dog tick vs lone star tick"
+    },
+    {
+      "type": "p",
+      "text": "Size narrows it down and the markings on the back settle it: a plain dark shield on the blacklegged tick, a whitish pattern on the American dog tick, one white spot on the female lone star tick. Which tick it was changes what to watch for, because [CDC's guide to where ticks live](https://www.cdc.gov/ticks/about/where-ticks-live.html) lists a different set of diseases for each and puts Lyme disease under the blacklegged tick, not the other two."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Feature",
+        "Black-legged (deer) tick",
+        "American dog tick",
+        "Lone star tick"
+      ],
+      "rows": [
+        [
+          "Scientific name",
+          "*Ixodes scapularis*",
+          "*Dermacentor variabilis*",
+          "*Amblyomma americanum*"
+        ],
+        [
+          "Unfed adult size",
+          "Female about 1/8 inch (3 to 3.7 mm); male smaller",
+          "Almost 1/4 inch (6.4 mm)",
+          "About 1/8 inch (3 to 4 mm)"
+        ],
+        [
+          "Female",
+          "Reddish body with a dark brown shield behind the mouthparts",
+          "Reddish brown, with a whitish or silvery-gray pattern on the shield",
+          "Reddish brown, with one conspicuous white spot at the end of the shield"
+        ],
+        [
+          "Male",
+          "Completely dark brown",
+          "Whitish pattern extends over the entire back",
+          "Faint white markings at the edge of the body"
+        ],
+        [
+          "Stages most likely to bite people (CDC)",
+          "Nymphs and adult females",
+          "Adult females",
+          "Nymphs and adult females"
+        ],
+        [
+          "Diseases CDC lists",
+          "Lyme disease, anaplasmosis, babesiosis, hard tick relapsing fever, a form of ehrlichiosis, Powassan virus disease",
+          "Rocky Mountain spotted fever, tularemia",
+          "Ehrlichiosis, tularemia, Heartland virus disease, Bourbon virus disease, southern tick-associated rash illness (STARI), alpha-gal syndrome"
+        ],
+        [
+          "US range (CDC)",
+          "Widely distributed across the eastern United States",
+          "Widely distributed east of the Rocky Mountains, with limited areas west of them",
+          "Widely distributed in the Northeast, South and Midwest"
+        ],
+        [
+          "Canada (Government of Canada)",
+          "Established in southern Manitoba, west, south and southeast Ontario, southern Quebec, mid to southern New Brunswick and Nova Scotia",
+          "Established in parts of south-central and southeastern Canada",
+          "Found in the southern regions of six provinces, Ontario among them; not listed as established"
+        ]
+      ],
+      "caption": "Appearance: Connecticut Agricultural Experiment Station. Diseases, biting stages and US range: CDC. Canadian range: Government of Canada. CDC cautions that a tick living in a region does not necessarily transmit a given disease there."
+    },
+    {
+      "type": "media",
+      "needed": "Three-panel close-up, top view, of an adult female blacklegged tick (plain dark shield, reddish abdomen), an adult female American dog tick (whitish mottled shield) and an adult female lone star tick (single white spot), each with the adult male of the species beside it, all labeled"
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "Where the one-page guide differs",
+      "text": "**Size.** The graphic gives the poppy seed to the unfed adult deer tick. CDC gives the poppy seed to the nymph and the sesame seed to the adult; the adult female is about 1/8 inch, and the lone star tick measures about the same. No source used here backs the apple seed for the dog tick, so go by almost 1/4 inch. **Fed size.** The 3x note is a rough rule for females only: the one measured example, the female dog tick, about doubles in length, and male dog ticks do not change notably. **Looks.** A reddish body describes the female blacklegged tick; the male is completely dark brown. **Diseases.** The graphic names one or two per tick. CDC lists six for the blacklegged tick, adds tularemia for the dog tick and names four more for the lone star tick. **Ontario range.** The blacklegged tick is established in the west and southeast of the province as well as the south. The dog tick is described in the southern portions of the province and still spreading, not province-wide. The lone star tick has been found in southern Ontario but is not listed as established. **If bitten.** The 30-day watch is the Connecticut handbook's figure; CDC's current page says several weeks and names rash and fever, not fatigue. **Tick check.** CDC's list adds the belly button and the backs of the knees, and its 10-minute dryer time is for dry clothing. Follow the figures on this page."
+    },
+    {
+      "type": "h2",
+      "text": "Black-legged (deer) tick: what does it look like and where does it live?"
+    },
+    {
+      "type": "p",
+      "text": "An unfed female blacklegged tick has a reddish body with a dark brown shield just behind the mouthparts and no white markings, and at about 1/8 inch (3 to 3.7 mm) she is roughly half the length of a dog tick. The male is smaller still, 0.08 to 0.11 inch (2 to 2.7 mm), and completely dark brown, so the reddish body on the one-page guide describes the female. Blacklegged tick and deer tick are two names for the same species, *Ixodes scapularis*."
+    },
+    {
+      "type": "p",
+      "text": "This is the tick that matters for Lyme disease. CDC lists six illnesses for it, all named in the chart above, and the one-page guide shows two of them, Lyme disease and anaplasmosis. CDC puts the greatest risk of a bite in spring, summer and fall, and notes that adults can be out looking for a host any time winter temperatures are above freezing. A separate guide shows [each life stage of the ticks that carry Lyme disease](/blog/ticks-that-carry-lyme-disease)."
+    },
+    {
+      "type": "p",
+      "text": "The Government of Canada lists established populations in southern Manitoba, in the west, south and southeast of Ontario, in southern Quebec, in mid to southern New Brunswick and in Nova Scotia, and adds that ticks can sometimes be found outside the areas where they are known to live. For Ontario, that is a wider footprint than the southern Ontario named on the graphic."
+    },
+    {
+      "type": "h2",
+      "text": "American dog tick: how do you recognize it, and is it really province-wide in Ontario?"
+    },
+    {
+      "type": "p",
+      "text": "An American dog tick is the big one: reddish brown, almost 1/4 inch (6.4 mm) long, with silvery-gray or whitish markings on its back. Published research places it in the southern portions of Ontario and still spreading, not across the whole province. On the female the pattern sits on the shield behind the head, and on the male it extends over the entire back. The mouthparts are short. The Connecticut handbook separates it from a blacklegged tick by its larger size and those white markings, which stay visible on a blood-fed tick. Only the adults feed on people and their pets."
+    },
+    {
+      "type": "p",
+      "text": "CDC lists Rocky Mountain spotted fever and tularemia for this tick and puts the highest risk of a bite in spring and summer. The graphic's note that spotted fever is rare in Ontario fits what is on record. According to [a study of American dog ticks in Ontario by Public Health Ontario researchers](https://www.nature.com/articles/s41598-022-15009-9), the disease is not reportable to public health officials in the province, so there is no official count, and the only documented case acquired there was one described in 1978 near Ottawa. The same paper calls tularemia rare, with six cases reported in Ontario from 2005 through 2019."
+    },
+    {
+      "type": "p",
+      "text": "The grassy fields and trails on the graphic match the habitat the Ontario study describes: fields, forest edges, trails, roadsides and brushy areas along waterways. Province-wide goes further than the study does. It puts the tick in the southern portions of Saskatchewan, Manitoba, Ontario, Quebec and Nova Scotia and says Ontario records were concentrated south of Toronto until at least the 1980s. From 2010 through 2018, the number of Ontario health units with an established population, meaning the public submitted at least six ticks in a year, rose from 22 to 31 of 35. Submissions grew fastest in the North East region, which the paper describes as mostly health units without established populations."
+    },
+    {
+      "type": "h2",
+      "text": "Lone star tick: what does the white dot mean, and is it in Ontario?"
+    },
+    {
+      "type": "p",
+      "text": "The white dot marks an adult female lone star tick, as the one-page guide says, and the species has been found in southern Ontario without being listed as established there. CDC uses the dot as the distinguishing mark, and the Connecticut handbook places it at the end of her shield. The male is marked differently, with faint white markings at the edge of the body. Adults are reddish brown and about 1/8 inch (3 to 4 mm) long, with long mouthparts."
+    },
+    {
+      "type": "p",
+      "text": "CDC describes it as a very aggressive tick that bites humans. Beyond the ehrlichiosis and alpha-gal syndrome shown on the graphic, its entry covers tularemia, Heartland virus disease, Bourbon virus disease and southern tick-associated rash illness (STARI). Alpha-gal syndrome is the [red meat allergy that can follow a tick bite](/blog/alpha-gal-syndrome). CDC also notes that lone star tick saliva can be irritating, so redness and discomfort at the bite do not necessarily indicate an infection."
+    },
+    {
+      "type": "p",
+      "text": "The Government of Canada says lone star ticks have been found in the southern regions of Alberta, Saskatchewan, Manitoba, Ontario, Quebec and Nova Scotia. The same page lists blacklegged and American dog ticks as established in parts of Canada and does not say that of the lone star tick. Read the graphic's phrase, moving into southern Ontario, as ticks being found there, not as an established population. A tick picked up in Ontario is more likely to be one of the other two, which the Ontario study ranks first and second among the ticks people encounter there."
+    },
+    {
+      "type": "h2",
+      "text": "If bitten, do this: how do you remove an attached tick?"
+    },
+    {
+      "type": "p",
+      "text": "Pull it out with fine-tipped tweezers as soon as you find it. [CDC's steps for what to do after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) are:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick with fine-tipped tweezers as close to the skin's surface as possible. Regular tweezers or your fingers will do if that is all you have.",
+        "Pull the tick away from the skin with steady, even pressure. Do not twist or jerk it, which can break off the mouthparts.",
+        "If the mouthparts break off and stay in the skin, CDC says the body will push them out over time as the skin heals. You can also lift them out with tweezers; if they do not come out easily, leave them alone.",
+        "Clean the bite area and your hands thoroughly with soap and water, rubbing alcohol or hand sanitizer.",
+        "Do not crush the tick with your fingers. Place it in a sealed container, wrap it tightly in tape, put it in alcohol or flush it down the toilet."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The steady upward pull on the one-page guide is the same motion; the Connecticut handbook words it as straight upward. Both sources rule out the folk methods. CDC says not to use petroleum jelly, heat, nail polish or other substances to make a tick detach. The handbook says such methods are not effective and may raise the risk of passing on a pathogen, and that the probability of Lyme disease transmission rises the longer an infected tick stays attached."
+    },
+    {
+      "type": "p",
+      "text": "Then watch yourself. CDC's current page says to see a doctor if you develop a rash or fever within several weeks of removing a tick, and to tell the doctor about the bite, when it happened and where you most likely picked up the tick. The 30-day watch on the graphic is the figure the Connecticut handbook gives, and the graphic adds fatigue to CDC's rash and fever. If you feel unwell in the weeks after a bite, contact a healthcare provider and mention the tick."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do with a tick you have removed, and how do you get it identified?"
+    },
+    {
+      "type": "p",
+      "text": "Keep it sealed, with the date, until you are sure you will not need it. The baggie on the graphic works: the Connecticut handbook says a sealable plastic bag will do, although a small plastic vial is best, and that rubbing alcohol will preserve a tick for long-term storage. It also says to note the site and date of the bite, and not to tape a tick to paper if it needs to be identified, because a taped tick is difficult to handle. CDC's tape option is for disposal."
+    },
+    {
+      "type": "p",
+      "text": "Take a sharp photo of the tick's back before you seal it. In Canada, the Government of Canada suggests sending a photo to an image-based identification platform such as eTick, or asking your provincial or territorial public health authority about tick identification programs in your area. In the United States, ask your state or local health department or university extension office whether it identifies ticks; Michigan residents, for example, can use [the state's tick identification program](/blog/ticks-in-michigan). CDC also offers the Tick Bite Guide, an interactive tool that walks through removal and when to seek care."
+    },
+    {
+      "type": "p",
+      "text": "Identification is not the same as testing the tick for germs, which CDC says is, in general, not recommended. Among its reasons: laboratories that test ticks are not required to meet the quality-control standards of clinical diagnostic laboratories, a tick that carries a germ has not necessarily passed it to you, and a negative result can give false assurance. The date of the bite and the place you picked up the tick are what CDC says to tell a doctor."
+    },
+    {
+      "type": "h2",
+      "text": "Tick-check routine after the trail: what do you do, and in what order?"
+    },
+    {
+      "type": "p",
+      "text": "Look over clothes, gear and pets at the door, shower within two hours, check your whole body, then run the dryer. [CDC's tick bite prevention page](https://www.cdc.gov/ticks/prevention/index.html) is the source for each step on the card below."
+    },
+    {
+      "type": "card",
+      "title": "Tick-check routine after the trail",
+      "intro": "Print this and keep it by the door. The seven body areas are CDC's, arranged here from head to toe.",
+      "items": [
+        "At the door: look over clothing, coats, daypacks and pets. Ticks ride indoors on all of them and can attach later.",
+        "Shower within 2 hours of coming inside.",
+        "Hair: check in and around the hair, including the hairline.",
+        "Ears: check in and around both ears.",
+        "Under the arms.",
+        "Inside the belly button.",
+        "Around the waist.",
+        "Between the legs.",
+        "Backs of the knees.",
+        "Clothes: tumble dry on high heat for 10 minutes if they are dry, longer if they are damp. If they need washing first, use hot water.",
+        "Found one attached? Use fine-tipped tweezers close to the skin and pull steadily without twisting. Clean the bite and your hands.",
+        "Seal the tick in a bag or vial, write down the date and where you were, and see a doctor if a rash or fever appears in the following weeks."
+      ],
+      "note": "You are looking for something that can be as small as a poppy seed. Use a mirror or a second person for the places you cannot see."
+    },
+    {
+      "type": "p",
+      "text": "The 10 minutes is for dry clothing on high heat. CDC says damp clothes may need additional time, and that if clothes need washing first, hot water is recommended because cold and medium temperature water will not kill ticks. The 2007 Connecticut handbook was more cautious on both points. It reported that many blacklegged and lone star ticks survive even a warm or hot wash, and gave one hour in a hot dryer as the time they cannot withstand. Either way, the dryer is the step to rely on."
+    },
+    {
+      "type": "p",
+      "text": "CDC says showering within two hours of coming indoors has been shown to reduce the risk of getting Lyme disease. For a slower walk-through with more detail on each body area, see [how to do a full-body tick check](/blog/how-to-do-a-tick-check)."
+    },
+    {
+      "type": "h2",
+      "text": "How do you check children and pets, and what is the risk to them?"
+    },
+    {
+      "type": "p",
+      "text": "Children get the same seven-area check, done by an adult, and a tick comes off a child the same way it comes off anyone else: fine-tipped tweezers and a steady pull, with none of the petroleum jelly, heat or nail polish methods CDC warns against. Repellents carry an age limit. CDC's prevention page says not to use products containing oil of lemon eucalyptus (OLE) or para-menthane-diol (PMD) on children under 3 years old, and it describes 0.5 percent permethrin as a treatment for clothing and gear. Use any repellent as its label directs."
+    },
+    {
+      "type": "p",
+      "text": "CDC tells people to examine pets along with coats and daypacks, because a tick can ride into the home on an animal and attach to a person later. The Connecticut handbook advises checking dogs and cats daily and warns that immature ticks may be virtually impossible to detect on long-haired or dark-haired animals. The guide to [finding and removing ticks on dogs](/blog/ticks-on-dogs) covers where to look."
+    },
+    {
+      "type": "p",
+      "text": "Some tick products made for dogs are a hazard to cats. The handbook states that the permethrin spot-on products sold for dogs are not for use on cats, which it describes as particularly susceptible to pyrethrin poisoning. It tells owners to follow label directions and not to combine products without a veterinarian's advice, because different products can contain the same or similar ingredients and overdose the animal. Ask a veterinarian which product suits your animal. Keep a saved tick, and any rubbing alcohol it is stored in, sealed and out of reach of children and pets."
+    },
+    {
+      "type": "h2",
+      "text": "What if your tick does not match any of the three?"
+    },
+    {
+      "type": "p",
+      "text": "Then it is probably another species, a younger life stage or not a tick at all. The Government of Canada's page describes eight kinds of tick, adding the western blacklegged tick of coastal and southern interior British Columbia, the groundhog tick, the Rocky Mountain wood tick, the squirrel tick and the brown dog tick to the three charted here."
+    },
+    {
+      "type": "p",
+      "text": "Start with [what ticks look like at every life stage](/blog/what-do-ticks-look-like), which covers the other US species. There is also [a wider identification guide to more types of ticks](/blog/types-of-ticks-identification). If you are not sure it is a tick at all, compare it with [the bugs most often mistaken for ticks](/blog/bugs-that-look-like-ticks). Ontario readers who keep finding ticks at home can move on to [the tick control guide for Ontario homeowners](/blog/ultimate-tick-control-guide-ontario)."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a deer tick the same thing as a blacklegged tick?",
+      "answer": "Yes. Deer tick is the common name for the blacklegged tick, Ixodes scapularis, and the Government of Canada uses both names for it. A different species, the western blacklegged tick, lives in coastal and southern interior British Columbia. On an unfed adult female, look for a reddish body with a dark brown shield behind the mouthparts and no white markings. The male is smaller and completely dark brown."
+    },
+    {
+      "question": "Which tick is the size of a poppy seed?",
+      "answer": "The blacklegged tick nymph. CDC says that, in general, nymphal blacklegged ticks are approximately the size of a poppy seed and adults approximately the size of a sesame seed. The Connecticut Agricultural Experiment Station measures the nymph at 0.05 to 0.07 inch (1.3 to 1.7 mm) and an unfed adult female at roughly twice that length, about 1/8 inch. Nymphs are one of the two stages CDC says are most likely to bite people, so the poppy-seed size is the one to keep in mind during a tick check."
+    },
+    {
+      "question": "Can an American dog tick give you Lyme disease?",
+      "answer": "CDC does not list Lyme disease among the illnesses the American dog tick transmits. Its entry for that tick names Rocky Mountain spotted fever and tularemia, and Lyme disease appears under the blacklegged tick. That is one reason identification matters: a large tick with whitish markings on its back points to a different set of illnesses than a small dark one. A rash or fever within several weeks of removing any tick is still a reason to see a doctor and mention the bite."
+    },
+    {
+      "question": "Are there lone star ticks in Ontario or elsewhere in Canada?",
+      "answer": "They turn up, but the Government of Canada does not list them as established. Its tick page says lone star ticks have been found in the southern regions of Alberta, Saskatchewan, Manitoba, Ontario, Quebec and Nova Scotia, while it describes blacklegged and American dog ticks as established in parts of the country. In the United States, CDC describes the lone star tick as widely distributed in the Northeast, South and Midwest. An adult female has a single white spot on her back."
+    },
+    {
+      "question": "Should I have a tick tested for Lyme disease?",
+      "answer": "CDC says tick testing is, in general, not recommended, and gives four reasons. Laboratories that test ticks are not required to meet the quality-control standards of clinical diagnostic laboratories. A tick that carries a germ has not necessarily passed it to you. A negative result can give false assurance, because a different tick may have bitten you unnoticed. And symptoms would probably appear before the results arrive. Seal the tick in a bag or vial, note the date and where you were, and tell a doctor about the bite if a rash or fever develops in the following weeks."
+    },
+    {
+      "question": "How do you tell an engorged deer tick from an engorged dog tick?",
+      "answer": "Look at the shield just behind the head, not the swollen body. The Connecticut Agricultural Experiment Station notes that a fully fed female blacklegged tick is nearly as large as a fed American dog tick female, so size stops being useful. The shield does not change in size during feeding, and on the dog tick its white markings stay readily visible on a blood-fed tick. The handbook uses those white markings to separate the two engorged ticks."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Where Ticks Live",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/about/where-ticks-live.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "Preventing Tick Bites",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/prevention/index.html"
+    },
+    {
+      "title": "Tick Management Handbook (Bulletin No. 1010, Revised Edition)",
+      "publisher": "Connecticut Agricultural Experiment Station",
+      "url": "https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf"
+    },
+    {
+      "title": "How Lyme Disease Spreads",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "American dog ticks along their expanding range edge in Ontario, Canada",
+      "publisher": "Scientific Reports (Nelder and colleagues, Public Health Ontario)",
+      "url": "https://www.nature.com/articles/s41598-022-15009-9"
+    },
+    {
+      "title": "Ticks in Canada",
+      "publisher": "Government of Canada",
+      "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html",
+      "kind": "news",
+      "note": "Government of Canada page. The kind tag is here only because scripts/validate-guide.mjs does not recognise canada.ca as a government host; remove the tag once the host list includes it."
+    }
+  ],
+  "disclaimer": "health"
+}

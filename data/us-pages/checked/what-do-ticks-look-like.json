@@ -2,9 +2,13 @@
  "id": "what-do-ticks-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "3a78af157f7409c408d05dfb3d3adf53de48b7639ef69b4a47b6d27ca01ba519",
+ "sha": "d519210f2580c3c93e6ccc1011398c5fd23dabb741d3ff94f885e31cefaeba0f",
  "claimsChecked": 73,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 6,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "linksAddedOn": "2026-10-11",
+ "linksAdded": [
+  "/learn/tick-identification-chart"
+ ]
 }

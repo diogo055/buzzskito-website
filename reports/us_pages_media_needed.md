@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-190 images across 77 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+194 images across 79 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -402,6 +402,11 @@
 - Top-down diagram of a suburban yard showing the house, a mowed lawn, a 3-foot wood chip barrier and a wooded edge, with the zones shaded by where the Connecticut handbook found blacklegged ticks: woods 67 percent, woodland edge 22 percent, ornamental plantings 9 percent, lawn 2 percent
 - Photo taken from the lawn side of a woodland edge showing a strip of wood chips about 3 feet wide, with a tape measure laid across it, separating mowed grass from leaf litter and brush
 
+## /learn/tick-identification-chart
+
+- Macro photo, top view, of an unfed adult female blacklegged tick, lone star tick and American dog tick side by side on a ruler marked in sixteenths of an inch, with a blacklegged nymph, a poppy seed and a sesame seed in the same frame for scale
+- Three-panel close-up, top view, of an adult female blacklegged tick (plain dark shield, reddish abdomen), an adult female American dog tick (whitish mottled shield) and an adult female lone star tick (single white spot), each with the adult male of the species beside it, all labeled
+
 ## /blog/diy-pest-control
 
 - Flow diagram of the four IPM tiers applied to a house: set a threshold, identify and monitor with sticky traps, prevent by sealing and cleaning, then control with traps, baits and spot treatments, with whole-room spraying marked as the last resort
@@ -422,3 +427,8 @@
 
 - Photo of a covered, tamper-resistant rodent bait station anchored against the exterior wall of a restaurant or food warehouse beside a closed dock door, lid shut and a dated service label visible
 - Simple floor-plan diagram of a small restaurant with numbered device locations: exterior bait stations along the back wall, snap traps inside each door, an insect light trap mounted away from the food preparation area, and sticky monitors under equipment
+
+## /learn/pet-safe-pest-control
+
+- Photo of a mouse snap trap set against the wall behind a refrigerator or inside a lower kitchen cabinet with the door ajar, showing a spot a cat or dog cannot reach once the door is closed
+- Side-by-side photo of a dog flea and tick spot-on box and a cat flea and tick spot-on box, with the species and weight range printed on each label circled

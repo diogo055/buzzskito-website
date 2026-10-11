@@ -108,9 +108,10 @@ on the site show a dose response — each geo token costs retrieval:
 | fully neutral | 953 | 4.6 |
 
 The geo title earns its keep in Canada; the geo slug does not. **New pages: geo token in the
-title, neutral slug.** Existing slugs are a separate, riskier question — a randomized 12-page
-test is running (`data/exp-slug-test.json`), measuring 2026-10-15. Do not rename more slugs
-until it reports.
+title, neutral slug.** Existing slugs are a separate, riskier question. A randomized 12-page
+test was read early on 2026-10-07 at the owner's request
+(`data/exp-slug-test-readout-2026-10-07.md`): no reliable difference in Canadian clicks and no
+harm. The 12 renames stay; do not rename more existing slugs.
 
 Do not weld a geo token onto a universally true fact. Measured: unqualified answerable queries
 carry ~25× the volume of geo-qualified ones.
@@ -246,3 +247,28 @@ $1,222 side. Nine URLs compete for "mosquito control toronto": best-mosquito-con
 and the Vaughan and Etobicoke city pages at 66 and 91. ~2,240 impressions split nine ways.
 Consolidating is the highest-value structural fix available — and it touches the service pages,
 so it needs the owner's explicit approval before anyone starts.
+
+## 12. Articles end with "Keep reading". Service pages keep the quote CTA.
+
+Owner's decision, 2026-10-11. Blog and Learning Centre readers are mostly national and US:
+GA4 showed 11,757 blog readers in 30 days, 9 visits to the quote form, 0 leads. So an article
+is a page-view play (display ads), and a quote button there is a dead end.
+
+- Every `/blog/<slug>` and `/learn/<slug>` article ends with `components/ReadNext.tsx`: three
+  cards from the same topic cluster and one plain text link to `/free-yard-assessment`. Do not
+  add `CTASection`, `BlogPostCTA`, `InlineYardRiskCTA` or a quote button to an article.
+  `npm run check:article-ctas` fails the build if one comes back.
+- This does **not** apply to service, city, pricing or quote pages, and it does not apply to the
+  33 local posts whose reader is in the service area (`scripts/article-cta-scope.mjs`). On those
+  the quote CTA is the point of the page. The rule at the top of this file still holds: the
+  service side wins wherever the reader can actually buy.
+- The 30-day window behind the decision was September to October, the end of the season. Check
+  the same numbers in June before calling it permanent, and say so if asked.
+- Still on articles, deliberately untouched: the phone lead bar on mosquito and tick articles,
+  the header quote button, and about 100 mid-article quote boxes outside the ten top posts.
+  Removing any of those is the owner's call (the boxes are also internal links to
+  `/mosquito-control` and `/tick-control`).
+- New informational pages are the same: no Amazon links on the North American guides, pet and
+  child notes on every remedy, and when an owner-supplied graphic disagrees with a source the
+  page states the sourced fact and says where the graphic differs
+  (`reports/visual_guides_artwork_corrections.md`).

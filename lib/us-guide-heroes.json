@@ -8,5 +8,15 @@
   "src": "/guides/bz-guide-03-mouse-proofing.webp",
   "width": 1545,
   "height": 2000
+ },
+ "/learn/tick-identification-chart": {
+  "src": "/guides/bz-guide-04-tick-chart.webp",
+  "width": 1545,
+  "height": 2000
+ },
+ "/learn/pet-safe-pest-control": {
+  "src": "/guides/bz-guide-05-pet-safe.webp",
+  "width": 1545,
+  "height": 2000
  }
 }

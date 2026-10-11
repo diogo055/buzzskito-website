@@ -2,14 +2,14 @@
  "generated": "2026-10-11",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 78,
+  "newPagesBuilt": 80,
   "hubPages": 4,
   "guides": 74,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 8,
-  "internalLinksInNewPages": 949
+  "notBuilt": 6,
+  "internalLinksInNewPages": 975
  },
  "pages": [
   {
@@ -94,22 +94,40 @@
   },
   {
    "rank": null,
-   "keyword": "homemade ant killer",
-   "url": "/learn/ant-killer-recipes",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "tick identification chart",
+   "us_volume": null,
    "url": "/learn/tick-identification-chart",
    "action": "new",
-   "status": "not built"
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Tick Identification Chart: Deer, Dog, Lone Star",
+   "wordCount": 3443,
+   "faqs": 6,
+   "sources": 7,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 10,
+   "status": "built"
   },
   {
    "rank": null,
    "keyword": "pet safe pest control",
+   "us_volume": null,
    "url": "/learn/pet-safe-pest-control",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "pest-control",
+   "title": "Pet-Safe Pest Control: Remedy-by-Remedy Risks",
+   "wordCount": 4530,
+   "faqs": 6,
+   "sources": 7,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "homemade ant killer",
+   "url": "/learn/ant-killer-recipes",
    "action": "new",
    "status": "not built"
   },
@@ -271,11 +289,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Seed Ticks (Baby Ticks): Remove Dozens at Once",
-   "wordCount": 2731,
+   "wordCount": 2745,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 6,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -354,7 +372,7 @@
    "wordCount": 3771,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -559,11 +577,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Peppermint Oil for Mice: What the Evidence Says",
-   "wordCount": 3255,
+   "wordCount": 3278,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 7,
-   "outboundInternalLinks": 14,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -591,11 +609,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "What Kills Ticks on Dogs Instantly? Nothing Safe",
-   "wordCount": 3699,
+   "wordCount": 3722,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 3,
-   "outboundInternalLinks": 13,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -689,11 +707,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "What Do Ticks Look Like? Size, Color, Species",
-   "wordCount": 2184,
+   "wordCount": 2213,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 8,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -792,7 +810,7 @@
    "wordCount": 3934,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -874,7 +892,7 @@
    "wordCount": 3202,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 22,
+   "inboundFromNewPages": 23,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -919,11 +937,11 @@
    "kind": "spoke",
    "cluster": "pest-control",
    "title": "Natural Pest Control: What Works and Its Limits",
-   "wordCount": 3680,
+   "wordCount": 3710,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
-   "outboundInternalLinks": 17,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 18,
    "status": "built"
   },
   {
@@ -1018,7 +1036,7 @@
    "wordCount": 2685,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1076,7 +1094,7 @@
    "wordCount": 3069,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1232,7 +1250,7 @@
    "wordCount": 3495,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -1327,11 +1345,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Seed Ticks (Baby Ticks): Remove Dozens at Once",
-   "wordCount": 2731,
+   "wordCount": 2745,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 6,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -1362,7 +1380,7 @@
    "wordCount": 2165,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1559,11 +1577,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Ticks That Carry Lyme Disease: Only 2 US Species",
-   "wordCount": 3119,
+   "wordCount": 3150,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 8,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {

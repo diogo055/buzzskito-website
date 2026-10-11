@@ -2,9 +2,13 @@
  "id": "natural-pest-control",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "bc64f9cf1e7601eacfb74fbb0016909485a26b2106acdac6883950e47561dd82",
+ "sha": "fba99db40dcd5c3d4996d5fe3e58a82d85b9be788f48e02dfa5f375bc3de56ae",
  "claimsChecked": 86,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 12,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "linksAddedOn": "2026-10-11",
+ "linksAdded": [
+  "/learn/pet-safe-pest-control"
+ ]
 }

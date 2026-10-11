@@ -1,0 +1,10 @@
+{
+ "id": "pet-safe-pest-control",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "87bee0b36e76437f9e572446f9fa0e58aee85dead5779db78f890d50af2efdf1",
+ "claimsChecked": 96,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-10-11"
+}

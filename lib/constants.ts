@@ -2269,6 +2269,7 @@ export const NEW_BLOGS_US_GUIDES = [
 // Guides that live under /learn and are not one of the four hubs (the visual guides).
 // app/sitemap.ts and app/learn/page.tsx read this.
 export const US_GUIDE_LEARN_PAGES: { slug: string; title: string; excerpt: string; date: string; cluster: string }[] = [
-
+  { slug: "tick-identification-chart", title: "Tick Identification Chart: Deer Tick vs Dog Tick vs Lone Star Tick", excerpt: "A side-by-side chart of the blacklegged (deer) tick, American dog tick and lone star tick: size by life stage, markings, diseases, range, and a printable tick-check card.", date: "2026-10-11", cluster: "ticks" },
+  { slug: "pet-safe-pest-control", title: "Pet-Safe Pest Control: What Is Lower-Risk for Cats and Dogs", excerpt: "How borax baits, peppermint oil, diatomaceous earth, vinegar, traps and other pest remedies rate for cats and dogs, checked against veterinary and poison-control sources.", date: "2026-10-11", cluster: "pest-control" },
 ]
 // ── US-GUIDES:END ──
