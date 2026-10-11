@@ -11,7 +11,10 @@ import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 
-const SLUG = 'best-ant-killer-canada'
+// The page's own address. It was renamed from best-ant-killer-canada on Sep 3, 2026
+// (next.config.mjs redirects the old address here). Until Oct 11 this still held the old name,
+// so the canonical, og:url and structured data pointed at an address that redirects back here.
+const SLUG = 'best-ant-killer'
 const DATE = '2026-07-28'
 const UPDATED = '2026-07-28'
 const TITLE = 'Best Ant Killer in Canada 2026 — What Actually Kills the Colony'
@@ -77,7 +80,9 @@ export const metadata: Metadata = buildMetadata({
   modifiedTime: UPDATED,
 })
 
-const AMZ_TAG = tagForSlug(SLUG)
+// Keyed on the ORIGINAL slug on purpose, like the other renamed pages: the Amazon tag must not
+// change when the address does.
+const AMZ_TAG = tagForSlug('best-ant-killer-canada')
 
 export default function BestAntKillerCanadaPage() {
   return (

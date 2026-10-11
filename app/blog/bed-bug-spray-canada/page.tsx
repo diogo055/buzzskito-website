@@ -15,7 +15,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bed-bug-spray-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-07-16'
+const UPDATED = '2026-10-08'
 const TITLE = 'Best Bed Bug Spray & Killer in Canada (2026)'
 const META_TITLE = 'Best Bed Bug Spray & Killer Canada 2026 (PMRA)'
 

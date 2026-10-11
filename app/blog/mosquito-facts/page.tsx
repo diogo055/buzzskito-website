@@ -12,7 +12,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'mosquito-facts'
 const DATE = '2026-07-12'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-10-08'
 const TITLE = 'Mosquito Facts: How Long They Live, What They Eat & More'
 const META_TITLE = 'Mosquito Facts: Lifespan, Diet, Sleep & Light'
 

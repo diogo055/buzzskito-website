@@ -12,7 +12,10 @@ import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 
-const SLUG = 'advion-cockroach-gel-bait-canada'
+// The page's own address. It was renamed from advion-cockroach-gel-bait-canada on Sep 3, 2026
+// (next.config.mjs redirects the old address here). Until Oct 11 this still held the old name,
+// so the canonical, og:url and structured data pointed at an address that redirects back here.
+const SLUG = 'advion-cockroach-gel-bait'
 const DATE = '2026-07-21'
 const UPDATED = '2026-07-21'
 const TITLE = 'Advion Cockroach Gel Bait in Canada — The Honest Grey-Market Answer'

@@ -16,7 +16,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bugs-that-look-like-ticks'
 const DATE = '2026-04-26'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-10-08'
 const TITLE = '7 Bugs That Look Like Ticks — And Where Each One Turns Up'
 const EXCERPT = 'Bed bugs, spider beetles, weevils, carpet beetles, bat bugs, booklice, and stink bug nymphs — plus poppy seeds and deer-tick vs dog-tick ID. A visual look-alike guide for Ontario homeowners, and why misidentification matters for Lyme disease risk.'
 
@@ -133,7 +133,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
-  modifiedTime: '2026-07-12',
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug('bugs-that-look-like-ticks')
@@ -141,7 +141,7 @@ const AMZ_TAG = tagForSlug('bugs-that-look-like-ticks')
 export default function BugsThatLookLikeTicksPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE, dateModified: '2026-07-12' })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Bugs That Look Like Ticks', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -155,7 +155,7 @@ export default function BugsThatLookLikeTicksPage() {
           </nav>
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Tick Control</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-brand-300 text-sm">Published {new Date(DATE).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · Updated July 2026 · By BuzzSkito</p>
+          <p className="text-brand-300 text-sm">Published {new Date(DATE).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · Updated October 2026 · By BuzzSkito</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>

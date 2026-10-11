@@ -6,7 +6,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'where-do-mosquitoes-go-in-winter-ontario'
 const DATE = '2026-07-12'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-10-08'
 const TITLE = 'Where Do Mosquitoes Go in Winter? (Ontario Explained)'
 const META_TITLE = 'Where Do Mosquitoes Go in Winter? US & Canada'
 

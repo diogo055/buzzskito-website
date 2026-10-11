@@ -14,7 +14,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-get-rid-of-cockroaches-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-08'
 const TITLE = 'How to Get Rid of Cockroaches in Canada — The Bait-First Plan That Actually Works'
 const META_TITLE = 'Get Rid of Cockroaches Canada: Bait, Not Spray'
 

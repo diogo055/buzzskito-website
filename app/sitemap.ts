@@ -7,6 +7,27 @@ import { NEW_BLOGS_US_GUIDES, US_GUIDE_LEARN_PAGES } from '@/lib/constants'
 // LAST_CONTENT_UPDATE, which would claim every other page changed too.
 const US_GUIDES_PUBLISHED = '2026-10-07T12:00:00.000Z'
 
+// A lastmod must be the day the page's main content last really changed, or Google stops
+// trusting every date in this file. These are the true dates for pages that changed after the
+// date they were listed with (audited Oct 11, 2026 against git history):
+//   Oct 8  — product-guide hubs gained their North American guide listings (commit 7d49dce),
+//            and 17 existing articles gained a section for US readers (same commit)
+//   Sep 17 — the five Learning Centre explainers were rewritten (commit 3834646)
+//   Oct 11 — the blog and Learning Centre indexes gained the ten visual guides
+// A changed footer, a swapped call-to-action or one added link is NOT a reason to move a date.
+const HUBS_UPDATED_OCT8 = '2026-10-08T12:00:00.000Z'
+const LEARN_EXPLAINERS_UPDATED = '2026-09-17T12:00:00.000Z'
+const INDEXES_UPDATED = '2026-10-11T12:00:00.000Z'
+// Articles whose text was extended on Oct 8, 2026. Their publish date in lib/constants.ts stays
+// as it is; this only tells search engines the page is worth fetching again.
+const ARTICLES_EXTENDED_OCT8 = new Set([
+  'where-do-mosquitoes-go-in-winter-ontario', 'mosquito-repellent-plants-ontario', 'what-does-mouse-poop-look-like-canada',
+  'what-kills-bed-bugs-instantly-canada', 'how-to-get-rid-of-ants-canada', 'carpenter-ants-canada', 'how-to-get-rid-of-mice-canada',
+  'how-to-get-rid-of-cockroaches-canada', 'bed-bug-spray-canada', 'baby-bed-bugs-nymphs', 'types-of-ticks-identification',
+  'mosquito-facts', 'do-ticks-fly-or-jump', 'bugs-that-look-like-ticks', 'how-to-get-rid-of-mosquitoes-in-the-house',
+  'can-mosquitoes-bite-through-clothes', 'bed-bug-bites',
+])
+
 // Static lastModified date — update this only when making real content changes.
 // Using new Date() on every request makes Google distrust the lastmod signal.
 // 2026-07-01: sitewide refresh — photographic heroes on all template pages,
@@ -41,20 +62,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/property-manager-mosquito-tick-control`,   lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${SITE_URL}/buzzskito-history`,             lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'yearly',  priority: 0.6 },
     { url: `${SITE_URL}/frequently-asked-question`,     lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${SITE_URL}/blog`,                          lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly',  priority: 0.8 },
+    { url: `${SITE_URL}/blog`,                          lastModified: INDEXES_UPDATED, changeFrequency: 'weekly',  priority: 0.8 },
     // ── Pest Product Guides pillar hub (publishing arm — Jul 2026) ────────────
-    { url: `${SITE_URL}/pest-product-guides`,                      lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.85 },
-    { url: `${SITE_URL}/pest-product-guides/mosquito-gear`,        lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${SITE_URL}/pest-product-guides/tick-gear`,            lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${SITE_URL}/pest-product-guides/bed-bug-control`,      lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${SITE_URL}/pest-product-guides/rodent-control`,       lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE_URL}/pest-product-guides`,                      lastModified: HUBS_UPDATED_OCT8, changeFrequency: 'weekly', priority: 0.85 },
+    { url: `${SITE_URL}/pest-product-guides/mosquito-gear`,        lastModified: HUBS_UPDATED_OCT8, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE_URL}/pest-product-guides/tick-gear`,            lastModified: HUBS_UPDATED_OCT8, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE_URL}/pest-product-guides/bed-bug-control`,      lastModified: HUBS_UPDATED_OCT8, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${SITE_URL}/pest-product-guides/rodent-control`,       lastModified: HUBS_UPDATED_OCT8, changeFrequency: 'weekly', priority: 0.8 },
     // ── Ontario Learning Centre (nav-level educational hubs) ──────────────────
-    { url: `${SITE_URL}/learn`,                                    lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${SITE_URL}/learn/mosquito-life-cycle`,               lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${SITE_URL}/learn/tick-life-cycle`,                   lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${SITE_URL}/learn/ontario-mosquito-tick-diseases`,    lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${SITE_URL}/learn/how-to-combat-mosquitoes`,          lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${SITE_URL}/learn/how-to-combat-ticks`,               lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${SITE_URL}/learn`,                                    lastModified: INDEXES_UPDATED, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${SITE_URL}/learn/mosquito-life-cycle`,               lastModified: LEARN_EXPLAINERS_UPDATED, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${SITE_URL}/learn/tick-life-cycle`,                   lastModified: LEARN_EXPLAINERS_UPDATED, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${SITE_URL}/learn/ontario-mosquito-tick-diseases`,    lastModified: LEARN_EXPLAINERS_UPDATED, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${SITE_URL}/learn/how-to-combat-mosquitoes`,          lastModified: LEARN_EXPLAINERS_UPDATED, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${SITE_URL}/learn/how-to-combat-ticks`,               lastModified: LEARN_EXPLAINERS_UPDATED, changeFrequency: 'monthly', priority: 0.7 },
     // ── North American pest hubs (Oct 2026) — listed before the guides they anchor ──
     { url: `${SITE_URL}/learn/bed-bugs`,                          lastModified: US_GUIDES_PUBLISHED, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${SITE_URL}/learn/ants`,                              lastModified: US_GUIDES_PUBLISHED, changeFrequency: 'monthly', priority: 0.85 },
@@ -278,7 +299,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add blog posts from constants
   const blogPosts: MetadataRoute.Sitemap = allBlogArrays.map((post) => ({
     url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: new Date(post.date).toISOString(),
+    lastModified: ARTICLES_EXTENDED_OCT8.has(post.slug) ? HUBS_UPDATED_OCT8 : new Date(post.date).toISOString(),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }))
@@ -320,7 +341,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter(slug => !registeredSlugs.has(slug))
     .map((slug) => ({
       url: `${SITE_URL}/blog/${slug}`,
-      lastModified: LAST_CONTENT_UPDATE,
+      lastModified: ARTICLES_EXTENDED_OCT8.has(slug) ? HUBS_UPDATED_OCT8 : LAST_CONTENT_UPDATE,
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     }))

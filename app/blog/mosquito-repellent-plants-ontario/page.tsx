@@ -12,7 +12,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 
 const POST = NEW_BLOGS_2[0]
-const UPDATED = POST.date
+const UPDATED = '2026-10-08' // extended for US readers on this date; the publish date stays POST.date
 
 export const metadata: Metadata = buildMetadata({
   title: 'Mosquito Repellent Plants: What Works in Ontario',

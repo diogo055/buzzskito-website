@@ -15,7 +15,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'bed-bug-bites'
 const DATE = '2026-07-19'
-const UPDATED = '2026-07-19'
+const UPDATED = '2026-10-08'
 // H1 keeps the long descriptive form; SERP title is trimmed to 47 chars so it
 // survives Google's ~60-char cap once the " | BuzzSkito" template is appended.
 // Carries a Canada token: title-geo pages measure 13.1 CA clicks/page vs 4.6

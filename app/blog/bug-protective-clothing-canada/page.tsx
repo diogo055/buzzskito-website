@@ -236,7 +236,7 @@ export default function BugProtectiveClothingCanadaPage() {
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="sea to summit mosquito head net">Check price on Amazon.ca &rarr;</BuyLink></div>
 
           <h3>4. Sea to Summit Ultra-Mesh Head Net — For No-See-Um Country</h3>
-          <p>Standard mesh has a blind spot: no-see-ums. These biting midges are under 1 mm long, and they pass through 1.2 mm mesh openings like the mesh isn&rsquo;t there. If you&rsquo;ve ever been swarmed by something you could barely see at a beach at dusk, on a Georgian Bay island, or beside a northern marsh — that&rsquo;s them, and a standard head net will genuinely not help you. Our <Link href="/blog/no-see-ums-biting-midges-canada">no-see-um guide for Canada</Link> covers the where and when in detail.</p>
+          <p>Standard mesh has a blind spot: no-see-ums. These biting midges are under 1 mm long, and they pass through 1.2 mm mesh openings like the mesh isn&rsquo;t there. If you&rsquo;ve ever been swarmed by something you could barely see at a beach at dusk, on a Georgian Bay island, or beside a northern marsh — that&rsquo;s them, and a standard head net will genuinely not help you. Our <Link href="/blog/no-see-ums-biting-midges-ontario">no-see-um guide for Canada</Link> covers the where and when in detail.</p>
           <p>The Ultra-Mesh version closes that gap with a much finer weave — no-see-um-class mesh runs around 0.6 mm openings, 500+ holes per square inch — while staying light enough to forget in a pocket. The trade-offs are a slightly dimmer view and less airflow. Buy this version if your summers involve shorelines, marsh edges, or paddling trips; buy the standard version if your bugs are backyard mosquitoes and cottage black flies.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="sea to summit ultra mesh head net">Check price on Amazon.ca &rarr;</BuyLink></div>
 
@@ -302,7 +302,7 @@ export default function BugProtectiveClothingCanadaPage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/black-flies-ontario-when-they-come-out">When Do Black Flies Come Out in Ontario?</Link></li>
-            <li><Link href="/blog/no-see-ums-biting-midges-canada">No-See-Ums &amp; Biting Midges in Canada</Link></li>
+            <li><Link href="/blog/no-see-ums-biting-midges-ontario">No-See-Ums &amp; Biting Midges in Canada</Link></li>
             <li><Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin in Canada — Yard &amp; Clothing Guide</Link></li>
             <li><Link href="/blog/mosquito-net">Mosquito Nets in Canada — Bed Nets, Head Nets &amp; Canopies</Link></li>
             <li><Link href="/blog/best-screen-tent-canada">Best Screen Tents &amp; Screen Houses in Canada</Link></li>

@@ -12,7 +12,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'do-ticks-fly-or-jump'
 const DATE = '2026-07-09'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-10-08'
 const TITLE = 'Do Ticks Fly or Jump? How They Actually Get on You (Ontario)'
 const META_TITLE = 'Do Ticks Fly or Jump? No — They Climb 30–50 cm'
 

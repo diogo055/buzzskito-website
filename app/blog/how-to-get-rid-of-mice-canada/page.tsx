@@ -14,7 +14,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-get-rid-of-mice-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-07-16'
+const UPDATED = '2026-10-08'
 const TITLE = 'How to Get Rid of Mice in Canada 2026 — The 4-Step Plan That Actually Works'
 const META_TITLE = 'How to Get Rid of Mice: 4 Steps (US & Canada)'
 

@@ -13,7 +13,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'baby-bed-bugs-nymphs'
 const DATE = '2026-07-30'
-const UPDATED = '2026-07-30'
+const UPDATED = '2026-10-08'
 // This page is the LIFE-STAGE ID page: what a nymph looks like at each of the five
 // instars, what it is not (carpet beetle larva, booklouse, roach nymph), and the one
 // conclusion that matters — nymphs mean eggs were laid here. The inspection routine

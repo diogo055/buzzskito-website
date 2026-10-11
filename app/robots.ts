@@ -4,11 +4,16 @@ import { SITE_URL } from '@/lib/constants'
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      // Allow all standard crawlers
+      // Allow all standard crawlers.
+      // /_next/ is NOT blocked (changed Oct 11, 2026). It holds every page's CSS and JavaScript
+      // and the address of almost every image on the site (/_next/image?url=...). While it was
+      // blocked, Google and Bing rendered every page unstyled and could not index the images,
+      // and Pinterest's crawler could not fetch them either. Google's own guidance is to never
+      // block the files a page needs to render. Nothing private lives under /_next/.
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/_next/'],
+        disallow: ['/api/'],
       },
       // ── AI Search Bots — explicitly allow for citation opportunities ──
       // ChatGPT real-time search (NOT training — we want to appear in answers)

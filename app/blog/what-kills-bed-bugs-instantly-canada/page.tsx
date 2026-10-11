@@ -13,7 +13,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'what-kills-bed-bugs-instantly-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-07-30'
+const UPDATED = '2026-10-08'
 // The SPEED axis, deliberately. Not a spray-efficacy page (that is
 // do-bed-bug-sprays-actually-work), not a product shelf (bed-bug-spray-canada),
 // not a protocol (how-to-get-rid-of-bed-bugs-canada). This page answers exactly

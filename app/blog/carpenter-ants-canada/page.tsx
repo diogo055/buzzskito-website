@@ -13,7 +13,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'carpenter-ants-canada'
 const DATE = '2026-07-27'
-const UPDATED = '2026-07-27'
+const UPDATED = '2026-10-08'
 const TITLE = 'Carpenter Ants in Canada — Find the Nest, or You Are Just Killing Ants'
 const META_TITLE = 'Carpenter Ants in Canada: Treatment That Works'
 

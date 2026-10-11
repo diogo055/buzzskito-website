@@ -13,7 +13,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'how-to-get-rid-of-ants-canada'
 const DATE = '2026-07-27'
-const UPDATED = '2026-07-27'
+const UPDATED = '2026-10-08'
 const TITLE = 'How to Get Rid of Ants in Canada — Why Baiting Beats Every Spray in the Aisle'
 const META_TITLE = 'How to Get Rid of Ants: Bait First (US & Canada)'
 

@@ -13,7 +13,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'types-of-ticks-identification'
 const DATE = '2026-07-13'
-const UPDATED = '2026-07-13'
+const UPDATED = '2026-10-08'
 const TITLE = 'Types of Ticks: Identification Chart, Size & ID Guide'
 const META_TITLE = 'Types of Ticks: 5-Species ID Chart & Sizes'
 

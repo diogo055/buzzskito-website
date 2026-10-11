@@ -14,7 +14,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'what-does-mouse-poop-look-like-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-09-02'
+const UPDATED = '2026-10-08'
 // Identification + safe-cleanup page. Top-of-funnel into the existing rodent cluster:
 // how-to-get-rid-of-mice-canada owns the removal protocol, best-mouse-trap-canada owns
 // the trap comparison, rodent-exclusion-kit-canada owns the hardware spec. This page

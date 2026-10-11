@@ -12,7 +12,7 @@ import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'can-mosquitoes-bite-through-clothes'
 const DATE = '2026-07-16'
-const UPDATED = '2026-07-16'
+const UPDATED = '2026-10-08'
 const TITLE = 'Can Mosquitoes Bite Through Clothes? Yes — Here Is Exactly Which Fabrics'
 const META_TITLE = 'Can Mosquitoes Bite Through Clothes? 8 Fabrics'
 
