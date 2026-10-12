@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation'
 import { ADJACENT_PEST_ROUTES } from '@/lib/adjacent-pest-routes'
 import { US_GUIDE_ADJACENT_ROUTES } from '@/lib/us-guide-routes'
 import { KEEP_READING_BAR_ROUTES } from '@/lib/keep-reading-bar-routes'
+import { READER_TOOL_ROUTES } from '@/lib/tool-routes'
 
 /**
  * Route gate for the mobile lead bar in the root layout.
@@ -42,6 +43,8 @@ export default function LeadBarGate({
   // generated with the picks (npm run recirculation:backfill) and never contains a service, city
   // or quote page, a local post, or a page with the Amazon buy bar.
   if (path && KEEP_READING_BAR_ROUTES.has(path)) return null
+  // Reader tools for a national audience (the pest identifier quiz), see lib/tool-routes.ts.
+  if (path && READER_TOOL_ROUTES.has(path)) return null
   if (path && except?.includes(path)) return null
   return <>{children}</>
 }

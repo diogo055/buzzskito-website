@@ -36,6 +36,8 @@ const EXCLUDED_PATHS = [
   '/yard-risk-report',
   '/lyme-disease-risk-calculator',
   '/am-i-a-mosquito-magnet',
+  // reader tools for a national audience, e.g. the pest identifier quiz (Oct 2026)
+  '/tools',
 ]
 
 type ServiceType = 'mosquito' | 'tick' | 'both'

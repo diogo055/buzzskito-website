@@ -114,6 +114,22 @@ export default function LearnHubPage() {
         </div>
       </section>
 
+      {/* Pest identifier quiz (Oct 2026), app/tools/what-bug-is-this */}
+      <section aria-labelledby="bug-identifier" className="pb-10 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <Link
+            href="/tools/what-bug-is-this"
+            className="group flex flex-col gap-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 transition-all hover:shadow-md sm:flex-row sm:items-center sm:justify-between"
+          >
+            <div>
+              <h2 id="bug-identifier" className="text-lg font-extrabold text-brand-900">Not sure what you found?</h2>
+              <p className="mt-1 text-sm text-gray-700 leading-relaxed">Answer five quick questions and get the most likely pest, how to confirm it and the guides to read next.</p>
+            </div>
+            <p className="shrink-0 text-sm font-bold text-brand-700 group-hover:text-brand-600">Try the bug identifier →</p>
+          </Link>
+        </div>
+      </section>
+
       {/* Printable guides (Oct 2026): recipes, checklists and ID charts, generated list */}
       {US_GUIDE_LEARN_PAGES.length > 0 && (
         <section aria-labelledby="printable-guides" className="pb-12 px-4 bg-white">
