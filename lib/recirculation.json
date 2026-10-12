@@ -25,7 +25,8 @@
     "/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario",
     "/blog/outdoor-fan-mosquito-control-canada",
     "/learn/how-to-combat-mosquitoes"
-   ]
+   ],
+   "bar": true
   },
   "/blog/alpha-gal-syndrome": {
    "next": "/blog/lone-star-tick-alpha-gal-canada",
@@ -38,7 +39,8 @@
     "/learn/tick-identification-chart",
     "/blog/what-kills-ticks",
     "/blog/do-ticks-die-in-the-washing-machine"
-   ]
+   ],
+   "bar": true
   },
   "/blog/american-dog-tick-canada": {
    "next": "/blog/deer-tick-vs-dog-tick-canada",
@@ -64,7 +66,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/field-mice",
     "/blog/mice-repellent"
-   ]
+   ],
+   "bar": true
   },
   "/blog/are-mosquitoes-attracted-to-light": {
    "next": "/blog/how-to-get-rid-of-mosquitoes",
@@ -77,7 +80,8 @@
     "/blog/mosquito-bits-canada-vs-dunks",
     "/blog/thermacell-e90-canada-review",
     "/blog/best-professional-mosquito-trap-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/are-there-ticks-in-canada": {
    "next": "/blog/i-found-tick-on-my-dog-what-to-do",
@@ -129,7 +133,8 @@
     "/learn/ant-killer-recipes",
     "/blog/zombie-ants",
     "/blog/do-ants-bite"
-   ]
+   ],
+   "bar": true
   },
   "/blog/baby-bed-bugs-nymphs": {
    "next": "/blog/bed-bug-shells-casings-shed-skins-canada",
@@ -155,7 +160,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/mice-poison",
     "/blog/types-of-mice"
-   ]
+   ],
+   "bar": true
   },
   "/blog/baby-ticks-nymphs-seed-ticks-ontario": {
    "next": "/blog/types-of-ticks-identification",
@@ -389,7 +395,8 @@
     "/blog/signs-of-bed-bugs-checklist",
     "/blog/how-to-get-rid-of-bed-bugs-in-couch-canada",
     "/blog/bed-bug-bites"
-   ]
+   ],
+   "bar": true
   },
   "/blog/bed-bugs-on-the-ttc-toronto": {
    "next": "/blog/bugs-that-look-like-bed-bugs-canada",
@@ -1377,7 +1384,8 @@
     "/learn/ant-killer-recipes",
     "/blog/does-vinegar-kill-ants",
     "/blog/how-to-get-rid-of-ants-in-the-house"
-   ]
+   ],
+   "bar": true
   },
   "/blog/black-bed-bugs": {
    "next": "/blog/how-to-get-rid-of-bed-bugs",
@@ -1390,7 +1398,8 @@
     "/blog/signs-of-bed-bugs-checklist",
     "/blog/bed-bugs-on-mattress",
     "/blog/dupray-neat-vs-hill-injection-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/black-flag-electric-fogger-review-canada": {
    "next": "/blog/propane-vs-electric-fogger-canada",
@@ -1442,7 +1451,8 @@
     "/learn/ant-killer-recipes",
     "/learn/ants",
     "/blog/do-carpenter-ants-bite"
-   ]
+   ],
+   "bar": true
   },
   "/blog/brush-cutter-for-overgrown-yard-canada": {
    "next": "/blog/backpack-sprayer-canada",
@@ -1494,7 +1504,8 @@
     "/blog/signs-of-bed-bugs-checklist",
     "/blog/bed-bug-bites",
     "/blog/best-bed-bug-steamer-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/bugs-that-look-like-bed-bugs-canada": {
    "next": "/blog/how-to-get-rid-of-bed-bugs-canada",
@@ -1520,7 +1531,8 @@
     "/blog/best-cockroach-killer-canada",
     "/blog/do-cockroaches-bite",
     "/blog/what-do-baby-cockroaches-look-like"
-   ]
+   ],
+   "bar": true
   },
   "/blog/bugs-that-look-like-ticks": {
    "next": "/blog/types-of-ticks-identification",
@@ -1546,7 +1558,8 @@
     "/learn/ant-killer-recipes",
     "/blog/best-ant-killer",
     "/blog/flying-ants"
-   ]
+   ],
+   "bar": true
   },
   "/blog/can-cockroaches-fly": {
    "next": "/blog/what-do-baby-cockroaches-look-like",
@@ -1559,7 +1572,8 @@
     "/blog/german-cockroaches",
     "/blog/where-do-cockroaches-come-from",
     "/blog/best-cockroach-spray-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/can-dogs-get-lyme-disease": {
    "next": "/blog/lyme-disease-symptoms-guide",
@@ -1572,7 +1586,8 @@
     "/learn/tick-identification-chart",
     "/blog/are-there-ticks-in-canada",
     "/blog/lyme-disease-cases-mississauga-oakville-2026"
-   ]
+   ],
+   "bar": true
   },
   "/blog/can-lyme-disease-kill-you": {
    "next": "/blog/lyme-disease-risk-areas-ontario-2026",
@@ -1585,7 +1600,8 @@
     "/learn/tick-identification-chart",
     "/blog/ontario-tick-surge-2026",
     "/blog/ticks-on-dogs"
-   ]
+   ],
+   "bar": true
   },
   "/blog/can-mice-climb-walls": {
    "next": "/blog/deer-mice",
@@ -1598,7 +1614,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/best-rodent-repellent-for-cars-canada",
     "/blog/how-to-keep-mice-out-of-your-house-winter"
-   ]
+   ],
+   "bar": true
   },
   "/blog/can-mosquitoes-bite-through-clothes": {
    "next": "/blog/bug-protective-clothing-canada",
@@ -1689,7 +1706,8 @@
     "/blog/when-to-spray-mosquitoes-mississauga-2026",
     "/blog/flowtron-bug-zapper-canada",
     "/blog/mosquito-repellent-plants-ontario"
-   ]
+   ],
+   "bar": true
   },
   "/blog/cluster-flies-in-house-canada": {
    "next": "/blog/how-to-get-rid-of-cluster-flies-canada",
@@ -1728,7 +1746,8 @@
     "/learn/pet-safe-pest-control",
     "/blog/lawn-pest-control",
     "/blog/ultrasonic-pest-repellers-do-they-work"
-   ]
+   ],
+   "bar": true
   },
   "/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada": {
    "next": "/blog/what-size-dehumidifier-do-i-need-canada",
@@ -1780,7 +1799,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/baby-mice",
     "/blog/how-to-get-rid-of-rats-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/deer-tick-vs-dog-tick-canada": {
    "next": "/blog/american-dog-tick-canada",
@@ -1858,7 +1878,8 @@
     "/learn/pet-safe-pest-control",
     "/blog/commercial-pest-control",
     "/blog/how-much-is-pest-control"
-   ]
+   ],
+   "bar": true
   },
   "/blog/do-ants-bite": {
    "next": "/blog/sugar-ants",
@@ -1871,7 +1892,8 @@
     "/learn/ant-killer-recipes",
     "/blog/bullet-ants",
     "/blog/how-long-do-ants-live"
-   ]
+   ],
+   "bar": true
   },
   "/blog/do-bed-bug-sprays-actually-work": {
    "next": "/blog/bed-bug-spray-canada",
@@ -1897,7 +1919,8 @@
     "/learn/ant-killer-recipes",
     "/blog/honeypot-ants",
     "/blog/tiny-ants"
-   ]
+   ],
+   "bar": true
   },
   "/blog/do-cedar-trees-attract-mosquitoes": {
    "next": "/blog/what-attracts-mosquitoes-to-you",
@@ -1923,7 +1946,8 @@
     "/learn/tick-identification-chart",
     "/blog/tick-bite-on-dog-symptoms",
     "/blog/ultimate-tick-control-guide-ontario"
-   ]
+   ],
+   "bar": true
   },
   "/blog/do-cockroaches-bite": {
    "next": "/blog/water-bugs-vs-cockroaches",
@@ -1936,7 +1960,8 @@
     "/blog/best-cockroach-spray-canada",
     "/blog/german-cockroaches",
     "/blog/where-do-cockroaches-come-from"
-   ]
+   ],
+   "bar": true
   },
   "/blog/do-fire-pits-repel-mosquitoes-canada": {
    "next": "/blog/do-tiki-torches-repel-mosquitoes",
@@ -1962,7 +1987,8 @@
     "/blog/west-nile-virus-toronto-2026",
     "/blog/can-mosquitoes-bite-through-clothes",
     "/blog/mosquito-larvae-identification"
-   ]
+   ],
+   "bar": true
   },
   "/blog/do-mothballs-keep-mice-away": {
    "next": "/blog/mice-repellent",
@@ -1975,7 +2001,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/victor-electronic-mouse-trap-review-canada",
     "/blog/deer-mice"
-   ]
+   ],
+   "bar": true
   },
   "/blog/do-ticks-die-in-the-washing-machine": {
    "next": "/blog/how-to-do-a-tick-check",
@@ -2027,7 +2054,8 @@
     "/blog/signs-of-bed-bugs-checklist",
     "/blog/best-bed-bug-luggage-heater-canada",
     "/blog/how-to-check-for-bed-bugs-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/does-lysol-kill-bed-bugs": {
    "next": "/blog/does-alcohol-kill-bed-bugs",
@@ -2040,7 +2068,8 @@
     "/blog/signs-of-bed-bugs-checklist",
     "/blog/what-kills-bed-bugs-instantly-canada",
     "/blog/best-bed-bug-detector-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/does-standing-water-attract-mosquitoes": {
    "next": "/blog/fix-standing-water-yard-mosquitoes-canada",
@@ -2066,7 +2095,8 @@
     "/learn/ant-killer-recipes",
     "/blog/zombie-ants",
     "/blog/carpenter-ants-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/doktor-doom-canada-guide": {
    "next": "/blog/ortho-home-defense-canada-review",
@@ -2196,7 +2226,8 @@
     "/blog/mice-poison",
     "/blog/types-of-mice",
     "/blog/best-squirrel-proof-bird-feeder-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/fall-yard-cleanup-leaf-blower-canada": {
    "next": "/blog/backpack-sprayer-canada",
@@ -2235,7 +2266,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/baby-mice",
     "/blog/how-to-get-rid-of-rats-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/fix-standing-water-yard-mosquitoes-canada": {
    "next": "/blog/does-standing-water-attract-mosquitoes",
@@ -2287,7 +2319,8 @@
     "/learn/ant-killer-recipes",
     "/blog/honeypot-ants",
     "/blog/tiny-ants"
-   ]
+   ],
+   "bar": true
   },
   "/blog/flying-ants-vs-termites": {
    "next": "/blog/flying-ants",
@@ -2300,7 +2333,8 @@
     "/learn/ant-killer-recipes",
     "/blog/honeypot-ants",
     "/blog/tiny-ants"
-   ]
+   ],
+   "bar": true
   },
   "/blog/german-cockroaches": {
    "next": "/learn/cockroaches",
@@ -2313,7 +2347,8 @@
     "/blog/best-cockroach-spray-canada",
     "/blog/do-cockroaches-bite",
     "/blog/where-do-cockroaches-come-from"
-   ]
+   ],
+   "bar": true
   },
   "/blog/ghost-ants": {
    "next": "/blog/army-ants",
@@ -2326,7 +2361,8 @@
     "/learn/ant-killer-recipes",
     "/blog/do-carpenter-ants-bite",
     "/blog/how-to-get-rid-of-ants-in-the-house"
-   ]
+   ],
+   "bar": true
   },
   "/blog/goodnature-a24-review-canada": {
    "next": "/blog/victor-electronic-mouse-trap-review-canada",
@@ -2430,7 +2466,8 @@
     "/learn/ant-killer-recipes",
     "/blog/does-vinegar-kill-ants",
     "/blog/how-to-get-rid-of-ants-in-the-kitchen"
-   ]
+   ],
+   "bar": true
   },
   "/blog/horse-fly-and-deer-fly-bite-treatment": {
    "next": "/blog/deer-flies-horse-flies-ontario",
@@ -2456,7 +2493,8 @@
     "/learn/ant-killer-recipes",
     "/blog/best-ant-killer",
     "/blog/does-vinegar-kill-ants"
-   ]
+   ],
+   "bar": true
   },
   "/blog/how-long-do-mice-live": {
    "next": "/blog/baby-mice",
@@ -2469,7 +2507,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/victor-electronic-mouse-trap-review-canada",
     "/blog/deer-mice"
-   ]
+   ],
+   "bar": true
   },
   "/blog/how-long-do-ticks-live": {
    "next": "/learn/tick-life-cycle",
@@ -2508,7 +2547,8 @@
     "/learn/ant-killer-recipes",
     "/blog/honeypot-ants",
     "/blog/what-do-ants-eat"
-   ]
+   ],
+   "bar": true
   },
   "/blog/how-many-times-can-a-mosquito-bite-you": {
    "next": "/blog/male-vs-female-mosquito",
@@ -2521,7 +2561,8 @@
     "/blog/west-nile-virus-mississauga-2026",
     "/blog/best-solar-bug-zapper-canada",
     "/blog/mosquito-coils-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/how-much-is-pest-control": {
    "next": "/blog/commercial-pest-control",
@@ -2534,7 +2575,8 @@
     "/learn/pet-safe-pest-control",
     "/blog/lawn-pest-control",
     "/blog/ultrasonic-pest-repellers-do-they-work"
-   ]
+   ],
+   "bar": true
   },
   "/blog/how-to-check-for-bed-bugs-canada": {
    "next": "/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada",
@@ -2586,7 +2628,8 @@
     "/learn/ant-killer-recipes",
     "/blog/honeypot-ants",
     "/blog/what-do-ants-eat"
-   ]
+   ],
+   "bar": true
   },
   "/blog/how-to-get-rid-of-ants-in-the-kitchen": {
    "next": "/blog/borax-for-ants",
@@ -2599,7 +2642,8 @@
     "/learn/ant-killer-recipes",
     "/blog/does-vinegar-kill-ants",
     "/blog/how-to-get-rid-of-ants-in-the-house"
-   ]
+   ],
+   "bar": true
   },
   "/blog/how-to-get-rid-of-bed-bugs": {
    "next": "/blog/bugs-that-look-like-bed-bugs",
@@ -2612,7 +2656,8 @@
     "/blog/signs-of-bed-bugs-checklist",
     "/blog/bed-bug-spray-canada",
     "/blog/diatomaceous-earth-for-bed-bugs"
-   ]
+   ],
+   "bar": true
   },
   "/blog/how-to-get-rid-of-bed-bugs-canada": {
    "next": "/blog/bugs-that-look-like-bed-bugs-canada",
@@ -2833,7 +2878,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/mouse-proof-garage-door-seal-canada",
     "/blog/what-smells-do-mice-hate"
-   ]
+   ],
+   "bar": true
   },
   "/blog/how-to-get-rid-of-mosquitoes": {
    "next": "/blog/are-mosquitoes-attracted-to-light",
@@ -2846,7 +2892,8 @@
     "/blog/what-colors-attract-mosquitoes",
     "/blog/do-cedar-trees-attract-mosquitoes",
     "/blog/mosquito-mistakes-ontario-homeowners-make"
-   ]
+   ],
+   "bar": true
   },
   "/blog/how-to-get-rid-of-mosquitoes-in-the-house": {
    "next": "/blog/does-standing-water-attract-mosquitoes",
@@ -2859,7 +2906,8 @@
     "/blog/gutter-guards-mosquito-breeding-canada",
     "/blog/mosquito-season-gta-when-does-it-start",
     "/blog/when-to-worry-about-a-mosquito-bite"
-   ]
+   ],
+   "bar": true
   },
   "/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario": {
    "next": "/blog/fix-standing-water-yard-mosquitoes-canada",
@@ -2989,7 +3037,8 @@
     "/blog/gutter-guards-mosquito-breeding-canada",
     "/blog/mosquito-season-gta-when-does-it-start",
     "/blog/when-to-worry-about-a-mosquito-bite"
-   ]
+   ],
+   "bar": true
   },
   "/blog/how-to-keep-spiders-out-of-your-house": {
    "next": "/blog/how-to-get-rid-of-spiders-in-house-canada",
@@ -3106,7 +3155,8 @@
     "/blog/why-do-mosquitoes-bite-my-ankles",
     "/blog/hardtop-vs-soft-top-mosquito-gazebo-canada",
     "/blog/mosquito-season-scarborough-east-toronto"
-   ]
+   ],
+   "bar": true
   },
   "/blog/is-mosquito-spray-safe-kids-pets": {
    "next": "/blog/mosquito-netting-vs-barrier-spray",
@@ -3197,7 +3247,8 @@
     "/learn/pet-safe-pest-control",
     "/blog/commercial-pest-control",
     "/blog/doktor-doom-canada-guide"
-   ]
+   ],
+   "bar": true
   },
   "/blog/lone-star-tick-alpha-gal-canada": {
    "next": "/blog/alpha-gal-syndrome",
@@ -3262,7 +3313,8 @@
     "/learn/tick-identification-chart",
     "/blog/ticks-on-dogs",
     "/blog/best-atv-sprayer-for-tick-yard-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/lyme-disease-tick-prevention-ontario": {
    "next": "/blog/ultimate-tick-control-guide-ontario",
@@ -3288,7 +3340,8 @@
     "/blog/when-to-spray-mosquitoes-mississauga-2026",
     "/blog/fix-standing-water-yard-mosquitoes-canada",
     "/blog/mosquito-repellent-plants-ontario"
-   ]
+   ],
+   "bar": true
   },
   "/blog/mcculloch-mc1275-steamer-review-canada": {
    "next": "/blog/best-bed-bug-steamer-canada",
@@ -3314,7 +3367,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/what-does-mouse-poop-look-like-canada",
     "/blog/field-mice"
-   ]
+   ],
+   "bar": true
   },
   "/blog/mice-poison": {
    "next": "/learn/mice",
@@ -3327,7 +3381,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/mice-removal",
     "/blog/vamoose-for-mice"
-   ]
+   ],
+   "bar": true
   },
   "/blog/mice-removal": {
    "next": "/blog/how-to-get-rid-of-mice-humanely",
@@ -3340,7 +3395,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/rat-poison-canada-what-is-legal",
     "/blog/baby-mice"
-   ]
+   ],
+   "bar": true
   },
   "/blog/mice-repellent": {
    "next": "/blog/what-smells-do-mice-hate",
@@ -3353,7 +3409,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/what-do-mice-eat",
     "/blog/do-mothballs-keep-mice-away"
-   ]
+   ],
+   "bar": true
   },
   "/blog/mice-traps": {
    "next": "/blog/types-of-mice",
@@ -3366,7 +3423,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/deer-mice",
     "/blog/mice-poison"
-   ]
+   ],
+   "bar": true
   },
   "/blog/misting-fan-canada": {
    "next": "/blog/patio-misting-system-canada",
@@ -3405,7 +3463,8 @@
     "/blog/when-to-spray-mosquitoes-mississauga-2026",
     "/blog/fix-standing-water-yard-mosquitoes-canada",
     "/blog/mosquito-repellent-plants-ontario"
-   ]
+   ],
+   "bar": true
   },
   "/blog/mosquito-bits-canada-vs-dunks": {
    "next": "/blog/mosquito-dunks-canada-guide",
@@ -3483,7 +3542,8 @@
     "/blog/outdoor-fan-mosquito-control-canada",
     "/learn/how-to-combat-mosquitoes",
     "/blog/how-many-times-can-a-mosquito-bite-you"
-   ]
+   ],
+   "bar": true
   },
   "/blog/mosquito-larvae-identification": {
    "next": "/blog/mosquito-bits-canada-vs-dunks",
@@ -3756,7 +3816,8 @@
     "/learn/pet-safe-pest-control",
     "/blog/wondercide-canada-review",
     "/blog/diy-pest-control"
-   ]
+   ],
+   "bar": true
   },
   "/blog/no-see-um-bites": {
    "next": "/blog/chigger-bites",
@@ -3938,7 +3999,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/mouse-bait-station-canada",
     "/blog/what-smells-do-mice-hate"
-   ]
+   ],
+   "bar": true
   },
   "/blog/pergola-mosquito-curtains-canada": {
    "next": "/blog/mosquito-screens-patio-canada",
@@ -4094,7 +4156,8 @@
     "/learn/ant-killer-recipes",
     "/blog/how-long-do-ants-live",
     "/blog/zombie-ants"
-   ]
+   ],
+   "bar": true
   },
   "/blog/red-ticks-and-clover-mites": {
    "next": "/blog/bugs-that-look-like-ticks",
@@ -4159,7 +4222,8 @@
     "/learn/tick-identification-chart",
     "/blog/lone-star-tick-alpha-gal-canada",
     "/blog/tick-season-burlington-when-are-ticks-active"
-   ]
+   ],
+   "bar": true
   },
   "/blog/signs-of-bed-bugs-checklist": {
    "next": "/learn/bed-bugs",
@@ -4172,7 +4236,8 @@
     "/blog/does-lysol-kill-bed-bugs",
     "/blog/thermalstrike-ranger-review-canada",
     "/blog/bed-bug-treatment-cost-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/smells-mosquitoes-hate": {
    "next": "/blog/do-tiki-torches-repel-mosquitoes",
@@ -4198,7 +4263,8 @@
     "/learn/tick-identification-chart",
     "/blog/ultimate-tick-control-guide-ontario",
     "/blog/bugs-that-look-like-ticks"
-   ]
+   ],
+   "bar": true
   },
   "/blog/steamer-vs-heater-for-bed-bugs-canada": {
    "next": "/blog/dupray-vs-mcculloch-steamer-canada",
@@ -4224,7 +4290,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/how-to-get-rid-of-rats-canada",
     "/blog/peppermint-oil-for-mice"
-   ]
+   ],
+   "bar": true
   },
   "/blog/sugar-ants": {
    "next": "/blog/do-ants-bite",
@@ -4237,7 +4304,8 @@
     "/learn/ant-killer-recipes",
     "/blog/how-to-get-rid-of-ants-in-the-house",
     "/blog/best-ant-killer"
-   ]
+   ],
+   "bar": true
   },
   "/blog/sureguard-mattress-encasement-review-canada": {
    "next": "/blog/best-bed-bug-box-spring-encasement-canada",
@@ -4380,7 +4448,8 @@
     "/learn/tick-identification-chart",
     "/blog/are-there-ticks-in-canada",
     "/blog/lone-star-tick-alpha-gal-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/tick-head-stuck-in-skin": {
    "next": "/blog/are-ticks-dangerous-ontario",
@@ -4393,7 +4462,8 @@
     "/learn/tick-identification-chart",
     "/blog/tick-bite-vs-mosquito-bite",
     "/blog/what-does-tick-look-like-on-dog"
-   ]
+   ],
+   "bar": true
   },
   "/blog/tick-prevention-yard-ontario-safe-for-kids": {
    "next": "/learn/how-to-combat-ticks",
@@ -4484,7 +4554,8 @@
     "/learn/tick-identification-chart",
     "/blog/how-to-do-a-tick-check",
     "/blog/tick-hot-spots-mississauga-2026"
-   ]
+   ],
+   "bar": true
   },
   "/blog/ticks-on-dogs": {
    "next": "/blog/what-kills-ticks-on-dogs-instantly",
@@ -4497,7 +4568,8 @@
     "/learn/tick-identification-chart",
     "/blog/how-to-keep-ticks-out-of-yard-ontario",
     "/blog/tick-hot-spots-oakville-burlington-2026"
-   ]
+   ],
+   "bar": true
   },
   "/blog/ticks-that-carry-lyme-disease": {
    "next": "/blog/ticks-in-michigan",
@@ -4510,7 +4582,8 @@
     "/learn/tick-identification-chart",
     "/blog/tick-prevention-caledon-halton-hills",
     "/learn/how-to-combat-ticks"
-   ]
+   ],
+   "bar": true
   },
   "/blog/tiny-ants": {
    "next": "/blog/what-do-ants-eat",
@@ -4523,7 +4596,8 @@
     "/learn/ant-killer-recipes",
     "/blog/red-ants",
     "/blog/black-ants"
-   ]
+   ],
+   "bar": true
   },
   "/blog/traces-punaises-de-lit-matelas": {
    "next": null,
@@ -4546,7 +4620,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/are-mice-nocturnal",
     "/blog/how-to-get-rid-of-mice-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/types-of-ticks-identification": {
    "next": "/blog/baby-ticks-nymphs-seed-ticks-ontario",
@@ -4611,7 +4686,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/what-does-mouse-poop-look-like-canada",
     "/blog/field-mice"
-   ]
+   ],
+   "bar": true
   },
   "/blog/vapamore-mr100-steamer-review-canada": {
    "next": "/blog/best-bed-bug-steamer-canada",
@@ -4663,7 +4739,8 @@
     "/blog/can-cockroaches-fly",
     "/blog/what-do-baby-cockroaches-look-like",
     "/blog/best-cockroach-killer-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/west-nile-virus-mosquito-risk-ontario": {
    "next": "/blog/west-nile-virus-ontario-2026",
@@ -4676,7 +4753,8 @@
     "/blog/mosquito-screens-patio-canada",
     "/blog/when-to-worry-about-a-mosquito-bite",
     "/blog/flowtron-bug-zapper-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/west-nile-virus-ontario-2026": {
    "next": "/blog/west-nile-virus-mosquito-risk-ontario",
@@ -4689,7 +4767,8 @@
     "/blog/best-mosquito-trap-for-acreage-canada",
     "/blog/laser-mosquito-killer-photon-matrix-review",
     "/blog/propane-mosquito-trap-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/west-nile-virus-symptoms": {
    "next": "/blog/west-nile-virus-mosquito-risk-ontario",
@@ -4702,7 +4781,8 @@
     "/blog/how-to-keep-mosquitoes-away",
     "/blog/patio-heater-vs-fire-table-canada",
     "/blog/alaska-mosquitoes"
-   ]
+   ],
+   "bar": true
   },
   "/blog/what-attracts-mosquitoes-to-you": {
    "next": "/blog/what-flowers-attract-mosquitoes",
@@ -4728,7 +4808,8 @@
     "/blog/bug-protective-clothing-canada",
     "/blog/mosquito-dunks-canada-guide",
     "/blog/ultimate-backyard-mosquito-control-guide"
-   ]
+   ],
+   "bar": true
   },
   "/blog/what-colors-attract-mosquitoes": {
    "next": "/blog/do-cedar-trees-attract-mosquitoes",
@@ -4741,7 +4822,8 @@
     "/blog/what-attracts-mosquitoes-to-you",
     "/blog/co2-mosquito-trap-canada",
     "/blog/mosquito-magnet-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/what-do-ants-eat": {
    "next": "/blog/does-vinegar-kill-ants",
@@ -4754,7 +4836,8 @@
     "/learn/ant-killer-recipes",
     "/blog/zombie-ants",
     "/blog/carpenter-ants-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/what-do-baby-cockroaches-look-like": {
    "next": "/blog/can-cockroaches-fly",
@@ -4767,7 +4850,8 @@
     "/blog/best-roach-traps-canada",
     "/blog/german-cockroaches",
     "/learn/cockroaches"
-   ]
+   ],
+   "bar": true
   },
   "/blog/what-do-bed-bugs-look-like": {
    "next": "/blog/black-bed-bugs",
@@ -4780,7 +4864,8 @@
     "/blog/signs-of-bed-bugs-checklist",
     "/blog/dupray-vs-mcculloch-steamer-canada",
     "/blog/what-kills-bed-bugs-instantly-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/what-do-mice-eat": {
    "next": "/blog/deer-mice",
@@ -4793,7 +4878,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/are-mice-nocturnal",
     "/blog/how-to-get-rid-of-mice-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/what-do-ticks-look-like": {
    "next": "/blog/what-kills-ticks",
@@ -4806,7 +4892,8 @@
     "/learn/tick-identification-chart",
     "/blog/ontario-tick-surge-2026",
     "/blog/ticks-on-dogs"
-   ]
+   ],
+   "bar": true
   },
   "/blog/what-does-a-spider-bite-look-like": {
    "next": "/blog/how-to-keep-spiders-out-of-your-house",
@@ -4819,7 +4906,8 @@
     "/blog/pantry-moth-traps-canada",
     "/blog/best-silverfish-traps",
     "/blog/how-to-get-rid-of-centipedes-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/what-does-a-tick-bite-look-like": {
    "next": "/blog/what-ticks-look-like-ontario",
@@ -4884,7 +4972,8 @@
     "/blog/gutter-guards-mosquito-breeding-canada",
     "/blog/mosquito-screens-patio-canada",
     "/blog/when-to-worry-about-a-mosquito-bite"
-   ]
+   ],
+   "bar": true
   },
   "/blog/what-kills-bed-bugs-instantly-canada": {
    "next": "/blog/how-to-kill-bed-bug-eggs-canada",
@@ -4910,7 +4999,8 @@
     "/learn/tick-identification-chart",
     "/blog/what-percentage-of-ticks-carry-lyme-ontario",
     "/blog/do-ticks-fly-or-jump"
-   ]
+   ],
+   "bar": true
   },
   "/blog/what-kills-ticks-on-dogs-instantly": {
    "next": "/blog/what-kills-ticks",
@@ -4923,7 +5013,8 @@
     "/learn/tick-identification-chart",
     "/blog/best-tick-repellent-yard-canada",
     "/blog/alpha-gal-syndrome"
-   ]
+   ],
+   "bar": true
   },
   "/blog/what-percentage-of-ticks-carry-lyme-ontario": {
    "next": "/blog/ticks-that-carry-lyme-disease",
@@ -4962,7 +5053,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/types-of-mice",
     "/blog/can-mice-climb-walls"
-   ]
+   ],
+   "bar": true
   },
   "/blog/what-temperature-kills-mosquitoes": {
    "next": "/blog/where-do-mosquitoes-go-in-winter-ontario",
@@ -4975,7 +5067,8 @@
     "/blog/mosquito-bite-treatment-relief",
     "/blog/smells-mosquitoes-hate",
     "/blog/best-mosquito-trap-for-acreage-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/what-ticks-look-like-ontario": {
    "next": "/blog/deer-tick-vs-dog-tick-canada",
@@ -5014,7 +5107,8 @@
     "/blog/what-attracts-mosquitoes-to-you",
     "/blog/co2-mosquito-trap-canada",
     "/blog/mosquito-magnet-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/when-to-worry-about-a-mosquito-bite": {
    "next": "/blog/west-nile-virus-symptoms",
@@ -5027,7 +5121,8 @@
     "/blog/mosquito-bite-treatment-relief",
     "/blog/smells-mosquitoes-hate",
     "/blog/best-mosquito-trap-for-acreage-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/where-do-bed-bugs-hide": {
    "next": "/blog/bed-bugs-on-mattress",
@@ -5040,7 +5135,8 @@
     "/blog/signs-of-bed-bugs-checklist",
     "/blog/zappbug-room-review-canada",
     "/blog/best-bed-bug-powder-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/where-do-cockroaches-come-from": {
    "next": "/blog/bugs-that-look-like-cockroaches",
@@ -5053,7 +5149,8 @@
     "/learn/cockroaches",
     "/blog/best-roach-traps-canada",
     "/blog/german-cockroaches"
-   ]
+   ],
+   "bar": true
   },
   "/blog/where-do-mosquitoes-go-in-winter-ontario": {
    "next": "/blog/what-temperature-kills-mosquitoes",
@@ -5066,7 +5163,8 @@
     "/blog/why-do-mosquito-bites-itch",
     "/blog/gutter-guards-mosquito-breeding-canada",
     "/blog/mosquito-screens-patio-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/why-do-mosquito-bites-itch": {
    "next": "/blog/mosquito-bite-treatment-relief",
@@ -5105,7 +5203,8 @@
     "/blog/is-deet-safe",
     "/blog/permethrin-canada-yard-clothing-spray",
     "/blog/best-bug-spray-for-kids-canada"
-   ]
+   ],
+   "bar": true
   },
   "/blog/why-mosquitoes-bite-some-people-more": {
    "next": "/blog/why-do-mosquitoes-bite-my-ankles",
@@ -5183,7 +5282,8 @@
     "/learn/ant-killer-recipes",
     "/blog/tiny-ants",
     "/blog/bullet-ants"
-   ]
+   ],
+   "bar": true
   },
   "/learn/ant-killer-recipes": {
    "next": "/learn/ants",
@@ -5196,7 +5296,8 @@
     "/blog/black-ants",
     "/blog/flying-ants-vs-termites",
     "/blog/red-ants"
-   ]
+   ],
+   "bar": true
   },
   "/learn/ants": {
    "next": "/blog/red-ants",
@@ -5209,7 +5310,8 @@
     "/learn/ant-killer-recipes",
     "/blog/what-do-ants-eat",
     "/blog/carpenter-ants-canada"
-   ]
+   ],
+   "bar": true
   },
   "/learn/aphid-control-guide": {
    "next": "/learn/whitefly-identification-control",
@@ -5222,7 +5324,8 @@
     "/learn/how-to-get-rid-of-fungus-gnats",
     "/blog/how-to-get-rid-of-fungus-gnats-houseplants",
     "/blog/june-bugs-ontario"
-   ]
+   ],
+   "bar": true
   },
   "/learn/bed-bugs": {
    "next": "/blog/bed-bugs-on-mattress",
@@ -5235,7 +5338,8 @@
     "/blog/signs-of-bed-bugs-checklist",
     "/blog/bed-bug-treatment-cost-canada",
     "/blog/does-alcohol-kill-bed-bugs"
-   ]
+   ],
+   "bar": true
   },
   "/learn/cockroaches": {
    "next": "/blog/german-cockroaches",
@@ -5248,7 +5352,8 @@
     "/blog/water-bugs-vs-cockroaches",
     "/blog/best-cockroach-killer-canada",
     "/blog/can-cockroaches-fly"
-   ]
+   ],
+   "bar": true
   },
   "/learn/how-to-combat-mosquitoes": {
    "next": "/blog/how-to-prevent-mosquitoes-in-your-backyard",
@@ -5261,7 +5366,8 @@
     "/blog/why-do-mosquitoes-bite-my-ankles",
     "/blog/hidden-mosquito-breeding-spots-backyard",
     "/blog/mosquito-season-scarborough-east-toronto"
-   ]
+   ],
+   "bar": true
   },
   "/learn/how-to-combat-ticks": {
    "next": "/blog/tick-prevention-yard-ontario-safe-for-kids",
@@ -5274,7 +5380,8 @@
     "/learn/tick-identification-chart",
     "/blog/tick-bite-symptoms-what-to-do-ontario",
     "/blog/what-do-ticks-look-like"
-   ]
+   ],
+   "bar": true
   },
   "/learn/how-to-get-rid-of-fungus-gnats": {
    "next": "/learn/natural-garden-pest-control",
@@ -5287,7 +5394,8 @@
     "/learn/aphid-control-guide",
     "/blog/best-deer-fence-for-gardens-canada",
     "/blog/how-to-stop-deer-eating-cedars-ontario"
-   ]
+   ],
+   "bar": true
   },
   "/learn/mice": {
    "next": "/blog/mice-poison",
@@ -5300,7 +5408,8 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/how-to-keep-mice-out-of-your-car",
     "/blog/rodent-exclusion-kit-canada"
-   ]
+   ],
+   "bar": true
   },
   "/learn/mosquito-life-cycle": {
    "next": "/blog/mosquito-larvae-identification",
@@ -5313,7 +5422,8 @@
     "/blog/mosquito-magnet-vs-dynatrap-canada",
     "/blog/west-nile-virus-toronto-2026",
     "/blog/citronella-candles-canada-do-they-work"
-   ]
+   ],
+   "bar": true
   },
   "/learn/natural-garden-pest-control": {
    "next": "/learn/natural-weed-control",
@@ -5326,7 +5436,8 @@
     "/learn/aphid-control-guide",
     "/learn/how-to-get-rid-of-fungus-gnats",
     "/learn/whitefly-identification-control"
-   ]
+   ],
+   "bar": true
   },
   "/learn/natural-weed-control": {
    "next": "/learn/natural-garden-pest-control",
@@ -5339,7 +5450,8 @@
     "/learn/aphid-control-guide",
     "/blog/how-to-stop-deer-eating-cedars-ontario",
     "/learn/how-to-get-rid-of-fungus-gnats"
-   ]
+   ],
+   "bar": true
   },
   "/learn/ontario-mosquito-tick-diseases": {
    "next": "/blog/can-dogs-get-lyme-disease",
@@ -5352,7 +5464,8 @@
     "/learn/tick-identification-chart",
     "/blog/tick-season-mississauga-when-are-ticks-active",
     "/blog/are-there-ticks-in-canada"
-   ]
+   ],
+   "bar": true
   },
   "/learn/pet-safe-pest-control": {
    "next": "/blog/diy-pest-control",
@@ -5365,7 +5478,8 @@
     "/blog/how-much-is-pest-control",
     "/blog/ortho-home-defense-canada-review",
     "/blog/commercial-pest-control"
-   ]
+   ],
+   "bar": true
   },
   "/learn/tick-identification-chart": {
    "next": "/blog/ticks-that-carry-lyme-disease",
@@ -5378,7 +5492,8 @@
     "/learn/tick-life-cycle",
     "/blog/how-to-remove-tick-safely",
     "/blog/tick-removal-tool-guide"
-   ]
+   ],
+   "bar": true
   },
   "/learn/tick-life-cycle": {
    "next": "/blog/baby-ticks-nymphs-seed-ticks-ontario",
@@ -5391,7 +5506,8 @@
     "/learn/tick-identification-chart",
     "/blog/how-to-do-a-tick-check",
     "/blog/tick-hot-spots-mississauga-2026"
-   ]
+   ],
+   "bar": true
   },
   "/learn/whitefly-identification-control": {
    "next": "/learn/natural-garden-pest-control",
@@ -5404,7 +5520,8 @@
     "/learn/aphid-control-guide",
     "/blog/best-deer-fence-for-gardens-canada",
     "/blog/how-to-stop-deer-eating-cedars-ontario"
-   ]
+   ],
+   "bar": true
   }
  }
 }

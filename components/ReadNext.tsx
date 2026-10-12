@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import data from '@/lib/article-index.json'
 import { inContentPicks, storedCards } from '@/lib/recirculation'
+import KeepReadingBar from '@/components/KeepReadingBar'
 
 /**
  * "Keep reading": three cards from the SAME topic cluster, shown at the end of an article in
@@ -104,8 +105,14 @@ export default function ReadNext({ path, standalone = false }: { path: string; s
   )
   if (!standalone) return block
   return (
-    <div className="border-t border-gray-100 bg-white px-4 pb-6 pt-2">
-      <div className="mx-auto max-w-4xl">{block}</div>
-    </div>
+    <>
+      <div className="border-t border-gray-100 bg-white px-4 pb-6 pt-2">
+        <div className="mx-auto max-w-4xl">{block}</div>
+      </div>
+      {/* The fixed "keep reading" bar. It is rendered here because this is the one place every
+          article has at the TOP level of the page, outside the article column, so nothing above it
+          can capture its fixed position. It renders nothing on pages that keep the Amazon buy bar. */}
+      <KeepReadingBar path={path} />
+    </>
   )
 }

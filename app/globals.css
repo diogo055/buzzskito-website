@@ -742,6 +742,40 @@ body [data-sticky-buy-bar] { bottom: calc(var(--mv-adh, 0px) + var(--mv-vid, 0px
   }
 }
 
+/* 2b. The "keep reading" bar on articles (components/KeepReadingBar.tsx): a slim bar on the
+       bottom edge at every width. It steps up above the reserved band exactly like the lead bar.
+       It is a bar on the edge and NOT a floating card on purpose: a card over the page would sit
+       on top of the text column, and so on top of any in-content ad scrolling through it.
+       Hidden means really hidden (it is lifted above the band, so sliding down alone would leave
+       it peeking out). */
+body [data-keep-reading-bar] {
+  bottom: calc(var(--mv-adh, 0px) + var(--mv-vid, 0px) + var(--mv-gap, 0px));
+  transition: transform 0.3s ease, opacity 0.3s ease, visibility 0s linear 0s;
+}
+/*     From 1024px Mediavine's video player floats in the bottom-right corner instead of docking
+       into the band, so a full-width bar would run underneath it. While that player is floating
+       our bar is simply not shown. */
+@media (min-width: 1024px) {
+  body.mediavine-video__has-sticky [data-keep-reading-bar] { visibility: hidden; opacity: 0; pointer-events: none; }
+}
+/*     Phones: the body keeps 96px free at the end of the page for the Call / Text / Get price bar.
+       Articles with this bar do not show that one, and this bar is gone before the page ends,
+       so the reserve would only be an empty strip under the footer. */
+@media (max-width: 639.98px) {
+  body:has([data-keep-reading-bar]) { padding-bottom: 0; }
+}
+body [data-keep-reading-bar][aria-hidden="true"] {
+  transform: translateY(120%);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: transform 0.3s ease, opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+@media (prefers-reduced-motion: reduce) {
+  body [data-keep-reading-bar],
+  body [data-keep-reading-bar][aria-hidden="true"] { transition: none; }
+}
+
 /* 3. The buy bar hides by sliding down twice its own height. Once it is lifted that no longer
       takes it off screen, so while something is pinned a hidden bar is really hidden. */
 body:is(.adhesion, .gumgumAdhesion, .mediavine-video__has-sticky) [data-sticky-buy-bar][aria-hidden="true"] { visibility: hidden; }

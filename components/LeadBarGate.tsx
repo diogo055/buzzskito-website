@@ -3,6 +3,7 @@
 import { usePathname } from 'next/navigation'
 import { ADJACENT_PEST_ROUTES } from '@/lib/adjacent-pest-routes'
 import { US_GUIDE_ADJACENT_ROUTES } from '@/lib/us-guide-routes'
+import { KEEP_READING_BAR_ROUTES } from '@/lib/keep-reading-bar-routes'
 
 /**
  * Route gate for the mobile lead bar in the root layout.
@@ -36,6 +37,11 @@ export default function LeadBarGate({
   // The Oct 2026 North American guides on bed bugs, ants, mice, cockroaches and general
   // pest control: same reasoning, a separate generated list (see lib/us-guide-routes.ts).
   if (path && US_GUIDE_ADJACENT_ROUTES.has(path)) return null
+  // Articles that show the fixed "keep reading" bar instead (Oct 2026, owner's brief: articles
+  // are for keeping readers on the site, and 11,757 blog readers produced 0 leads). The list is
+  // generated with the picks (npm run recirculation:backfill) and never contains a service, city
+  // or quote page, a local post, or a page with the Amazon buy bar.
+  if (path && KEEP_READING_BAR_ROUTES.has(path)) return null
   if (path && except?.includes(path)) return null
   return <>{children}</>
 }

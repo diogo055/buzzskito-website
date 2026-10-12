@@ -20,6 +20,11 @@
 //      shows either unit.
 //   7. At least 95% of articles carry "Next" and at least 85% carry "Related"; every
 //      "Keep reading" card is tracked. Pages without "Next" are listed.
+//   8. Fixed bars: the "keep reading" bar is on exactly the articles flagged for it (those
+//      without the Amazon buy bar), links to the page's "Next" article and is tracked; no page
+//      shows it together with the Amazon buy bar; and the Call / Text / Get price bar is on every
+//      page except the three lists components/LeadBarGate.tsx knows, so it can never silently
+//      disappear from a service, city, pricing or quote page or a local post.
 import { readFileSync, writeFileSync, readdirSync, existsSync, statSync } from 'fs'
 import { join } from 'path'
 import { execFileSync } from 'child_process'
@@ -51,6 +56,15 @@ const attr = (tag, name) => (tag.match(new RegExp(`${name}="([^"]*)"`)) || [])[1
 const links = (block) => [...block.matchAll(/<a\b[^>]*>/g)].map((m) => ({ href: attr(m[0], 'href') || '', where: attr(m[0], 'data-recirc'), kind: attr(m[0], 'data-recirc-kind'), target: attr(m[0], 'data-recirc-target') }))
 const textOf = (html) => html.replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&[a-z#0-9]+;/gi, ' ').replace(/\s+/g, ' ').trim()
 
+// the three lists components/LeadBarGate.tsx hides the Call / Text / Get price bar on
+const quoted = (file) => new Set([...readFileSync(join(ROOT, 'lib', file), 'utf8').matchAll(/['"](\/[a-z0-9/-]+)['"]/g)].map((m) => m[1]))
+const adjacent = quoted('adjacent-pest-routes.ts')
+const usAdjacent = quoted('us-guide-routes.ts')
+const barRoutes = quoted('keep-reading-bar-routes.ts')
+// our own bar can be switched off in lib/recirculation.ts (for example when Mediavine's Grow unit is on)
+const BAR_ON = !/KEEP_READING_BAR_ENABLED\s*=\s*false/.test(readFileSync(join(ROOT, 'lib', 'recirculation.ts'), 'utf8'))
+const seen = { pages: 0, bar: 0, lead: 0 }
+
 const out = { next: [], related: 0, without: [], cardsTracked: 0, cards: 0 }
 let articles = 0
 for (const { path, file } of pages) {
@@ -59,6 +73,32 @@ for (const { path, file } of pages) {
   const body = html.slice(Math.max(0, html.indexOf('<body')))
   const next = unit(body, 'next'), related = unit(body, 'related')
   const off = picks[path] && picks[path].off
+
+  // ── the fixed bars at the bottom of the screen ─────────────────────────────────
+  // (an element in the HTML, not the copy of its props that Next.js also embeds as data)
+  const barAt = body.search(/<div[^>]*\bdata-keep-reading-bar\b/)
+  const bars = (body.match(/<div[^>]*\bdata-keep-reading-bar\b/g) || []).length
+  const hasLeadBar = /<div[^>]*\bdata-lead-bar\b/.test(body)
+  const hasBuyBar = /<div[^>]*\bdata-sticky-buy-bar\b/.test(body)
+  const wantsBar = BAR_ON && Boolean(picks[path] && picks[path].bar)
+  seen.pages++
+  if (wantsBar) {
+    seen.bar++
+    if (bars !== 1) problems.push(`${path}: should show the "keep reading" bar exactly once, found ${bars}`)
+    if (hasBuyBar) problems.push(`${path}: shows the "keep reading" bar AND the Amazon buy bar (two stacked bars)`)
+    if (bars === 1) {
+      const l = links(body.slice(barAt, barAt + 2500))[0]
+      if (!l || l.href !== picks[path].next) problems.push(`${path}: the "keep reading" bar does not link to this page's Next article`)
+      else if (l.where !== 'sticky_bar' || l.kind !== 'bar' || l.target !== l.href.split('/').pop()) problems.push(`${path}: the "keep reading" bar link is missing its tracking attributes`)
+    }
+  } else if (bars) problems.push(`${path}: shows the "keep reading" bar, but must not (only articles without the Amazon buy bar do)`)
+  // The Call / Text / Get price bar must be on every page EXCEPT the three lists the gate knows.
+  // This is what keeps it on service, city, pricing and quote pages and on the local posts.
+  const expectLead = !(adjacent.has(path) || usAdjacent.has(path) || barRoutes.has(path))
+  if (hasLeadBar !== expectLead) problems.push(`${path}: the Call / Text / Get price bar is ${hasLeadBar ? 'shown' : 'missing'}, but it should be ${expectLead ? 'shown' : 'hidden'} here`)
+  if (hasLeadBar) seen.lead++
+  if (barRoutes.has(path) !== Boolean(picks[path] && picks[path].bar)) problems.push(`${path}: lib/keep-reading-bar-routes.ts and lib/recirculation.json disagree about the bar on this page`)
+
   if (!isArticle(path) || keepsQuoteCta(path) || off) {
     if (next.length || related.length) problems.push(`${path}: shows an in-content recirculation unit, but it must not (${off ? 'switched off in the overrides file' : 'not an article that should have one'})`)
     continue
@@ -108,6 +148,7 @@ const share = (n) => (articles ? n / articles : 0)
 if (share(out.next.length) < 0.95) problems.push(`only ${out.next.length} of ${articles} articles carry the "Next" unit; run: node scripts/insert-recirculation.mjs`)
 if (share(out.related) < 0.85) problems.push(`only ${out.related} of ${articles} articles carry the "Related" line; run: node scripts/insert-recirculation.mjs`)
 console.log(`check:recirculation: ${articles} articles | "Next" on ${out.next.length} (${Math.round(share(out.next.length) * 100)}%) | "Related" on ${out.related} (${Math.round(share(out.related) * 100)}%) | "Keep reading" cards tracked: ${out.cardsTracked} of ${out.cards}`)
+console.log(`  fixed bars: "keep reading" bar on ${seen.bar} articles${BAR_ON ? '' : ' (switched off in lib/recirculation.ts)'} | Call / Text / Get price bar on ${seen.lead} of ${seen.pages} pages`)
 if (out.without.length) console.log(`  articles without the "Next" unit (${out.without.length}): ${out.without.slice(0, 12).join(' ')}${out.without.length > 12 ? ' …' : ''}`)
 if (process.argv.includes('--report')) writeFileSync(join(ROOT, 'reports', 'recirculation_pages.json'), JSON.stringify({ generated: 'from the built site', articles, withNext: out.next.length, withRelated: out.related, withoutNext: out.without }, null, 1))
 if (problems.length) {

@@ -9,7 +9,17 @@ export type RecircArticle = { path: string; title: string; full?: string; hook: 
 
 const ARTICLES = index.articles as RecircArticle[]
 const BY_PATH = new Map(ARTICLES.map((a) => [a.path, a]))
-const PAGES = picks.pages as Record<string, { next: string | null; related: string[]; cards?: string[]; off?: boolean }>
+const PAGES = picks.pages as Record<string, { next: string | null; related: string[]; cards?: string[]; off?: boolean; bar?: boolean }>
+
+/**
+ * Master switch for OUR fixed "keep reading" bar (components/KeepReadingBar.tsx). Set it to false
+ * if Mediavine's own Grow "What's Next" unit is turned on, so the two do not stack. The quote bar
+ * stays hidden on articles either way (lib/keep-reading-bar-routes.ts).
+ */
+export const KEEP_READING_BAR_ENABLED = true
+
+/** Does this page show the fixed "keep reading" bar? True for articles without the Amazon buy bar. */
+export const hasKeepReadingBar = (path: string): boolean => PAGES[path]?.bar === true
 
 /** The article offered as "Next" on this page, or null if the page has none (or the units are switched off). */
 export function nextArticle(path: string): RecircArticle | null {

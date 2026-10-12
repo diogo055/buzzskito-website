@@ -1,6 +1,6 @@
 # Mediavine — where things stand and what is left before launch
 
-Last updated 2026-10-11. Ads are **not serving yet**: Mediavine keeps the site in "launch mode"
+Last updated 2026-10-12. Ads are **not serving yet**: Mediavine keeps the site in "launch mode"
 until Google approves it and you press Launch.
 
 ## Done (live on buzzskito.ca)
@@ -123,6 +123,11 @@ below asks Mediavine to confirm the library fits their policy.
 >    already have our own fixed Call / Text bar and a product bar at the bottom, and we do not
 >    want buttons sitting next to a sticky ad. Desktop adhesion and the desktop player can stay
 >    on. If any of these is a dashboard setting we should change ourselves, tell us which.
+>    (Added Oct 12: on articles that have no product bar, the Call / Text bar is replaced by a
+>    slim "next article" bar on the bottom edge, at every screen width, attribute
+>    `data-keep-reading-bar`. It follows the same rule as our other bars: it steps up above the
+>    band reserved for your bottom ad and never sits on it, and on desktop it is not shown while
+>    your video player is floating.)
 > 6. In-content ads: please do not place a unit directly before or after an element with the
 >    class `not-prose`. Those are our product buttons, quote boxes and our "Next article" and
 >    "Related" link blocks inside articles (added Oct 11). Please confirm you can do this.
@@ -146,6 +151,22 @@ below asks Mediavine to confirm the library fits their policy.
 >
 > Thanks,
 > Alex — BuzzSkito
+
+## One decision before you send the note (added Oct 12)
+
+Point 5 asks Mediavine to switch OFF the sticky ad at the bottom of phones and tablets. That was
+written when the bottom of the phone screen held your Call / Text / Get price bar on every page.
+Since Oct 12, articles are for ad impressions, and on 117 of them that bar is gone (a slim "next
+article" bar took its place). The phone sticky ad is normally one of the best-earning units a
+site has, so on article pages you may now want it ON. Two ways to go:
+
+- **Keep point 5 as written:** no sticky ad on phones anywhere. Simplest, least ad income.
+- **Ask for the phone sticky ad ON:** our bars already step up above it automatically (that is
+  the fallback built into the site), so nothing has to be rebuilt. On articles you could then
+  also decide to drop our "next article" bar on phones, by setting `KEEP_READING_BAR_ENABLED`
+  to `false` in `lib/recirculation.ts`, and leave the bottom of the screen to the ad.
+
+Ask Mediavine what the phone sticky ad typically earns on a site your size before deciding.
 
 ## At launch (I do these)
 
