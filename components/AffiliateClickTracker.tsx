@@ -57,6 +57,17 @@ export default function AffiliateClickTracker() {
       const w = window as unknown as { gtag?: (...args: unknown[]) => void }
       if (typeof w.gtag === 'function') {
         w.gtag('event', 'affiliate_click', params)
+        // The same click under a second name. The retention reports (Oct 2026) count Amazon
+        // clicks as amazon_click with page_slug, beside recirculation_click, so "kept reading"
+        // and "left for Amazon" can be compared page by page. affiliate_click above is left
+        // exactly as it was: the per-page click-out reports are built on it.
+        w.gtag('event', 'amazon_click', {
+          page_slug: window.location.pathname.replace(/\/+$/, '').split('/').pop() || 'home',
+          page_path: params.page_path,
+          placement: params.placement,
+          search_term: params.search_term,
+          cluster_tag: params.cluster_tag,
+        })
       }
     }
 

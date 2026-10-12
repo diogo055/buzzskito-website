@@ -3,8 +3,13 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { SITE_URL } from '@/lib/constants'
 import GuideHub, { type HubSection } from '@/components/GuideHub'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'pest-product-guides/cockroach-control'
+const AMZ_TAG = tagForSlug(SLUG)
 const DATE = '2026-10-07'
 const TITLE = 'Cockroach Control Products in Canada — Baits, Traps & What\'s Legal'
 
@@ -140,12 +145,26 @@ export default function CockroachControlHubPage() {
         }}
         howWeRank={{
           title: 'Why cockroach control in Canada needs its own guide',
-          body: <>Much of the cockroach advice Canadians find online is written for an American reader, and the shelf it describes is not the Canadian one. In the United States, cockroach gel baits are sold to consumers in stores and online, and some consumer roach products include an insect growth regulator. Here, Advion, the gel that American forums recommend, is registered with the US EPA, but a search of Health Canada&rsquo;s pesticide label database in October 2026 returned no registered product under that name. Health Canada&rsquo;s position is plain: look for a Pest Control Products (PCP) number on the label, because buying and using an unregistered pesticide is a violation of the Pest Control Products Act. Health Canada has also cancelled domestic boric acid dusts, a product that American extension fact sheets still describe using. That reshapes the whole strategy toward <strong>enclosed bait stations, glue-board monitors and sanitation</strong>. Every product guide in this cluster applies the same three filters as the rest of our library: <strong>PMRA legality first</strong>, <strong>real Canadian retail availability second</strong>, and <strong>published evidence third</strong> — which is why we lead with bait and flag the foggers and ultrasonic gadgets that fail. The identification and how-to guides further down the page are a different kind of resource: references for readers anywhere in North America, with no product links.</>,
+          body: <><p>Much of the cockroach advice Canadians find online is written for an American reader, and the shelf it describes is not the Canadian one. In the United States, cockroach gel baits are sold to consumers in stores and online, and some consumer roach products include an insect growth regulator. Here, Advion, the gel that American forums recommend, is registered with the US EPA, but a search of Health Canada&rsquo;s pesticide label database in October 2026 returned no registered product under that name. Health Canada&rsquo;s position is plain: look for a Pest Control Products (PCP) number on the label, because buying and using an unregistered pesticide is a violation of the Pest Control Products Act. Health Canada has also cancelled domestic boric acid dusts, a product that American extension fact sheets still describe using. That reshapes the whole strategy toward <strong>enclosed bait stations, glue-board monitors and sanitation</strong>. Every product guide in this cluster applies the same three filters as the rest of our library: <strong>PMRA legality first</strong>, <strong>real Canadian retail availability second</strong>, and <strong>published evidence third</strong> — which is why we lead with bait and flag the foggers and ultrasonic gadgets that fail. The identification and how-to guides further down the page are a different kind of resource: references for readers anywhere in North America, with no product links.</p>
+            <AffiliateDisclosure />
+            <TopPick tag={AMZ_TAG}
+              label="Start Here"
+              name="Combat Roach Killing Bait Stations (12-pack)"
+              blurb="The first purchase in the bait-first plan on this page: enclosed bait stations set along the wall edges of the kitchen and bathroom, so roaches feed and carry the slow-acting bait back to the harbourage. Buy the pack that shows a Canadian registration number on the label."
+              search="combat roach killing bait stations"
+            />
+          </>,
         }}
         sections={SECTIONS}
         bottomLine={{
           title: 'Related research and the complete reference',
-          body: <>This cockroach cluster is one section of our broader <Link href="/pest-product-guides">Canadian pest product guides</Link> library, which applies the same PMRA-legality-first method to bed bugs, mice and rats, and more. If you want identification, biology, health concerns and the control sequence on a single page, <Link href="/learn/cockroaches">the complete cockroach reference</Link> gathers them for readers anywhere in North America. A reminder on scope: everything here is independent research from BuzzSkito&rsquo;s publishing team — our operating business treats mosquitoes and ticks only, and we do not treat cockroaches or sell any product reviewed here.</>,
+          body: <><p>This cockroach cluster is one section of our broader <Link href="/pest-product-guides">Canadian pest product guides</Link> library, which applies the same PMRA-legality-first method to bed bugs, mice and rats, and more. If you want identification, biology, health concerns and the control sequence on a single page, <Link href="/learn/cockroaches">the complete cockroach reference</Link> gathers them for readers anywhere in North America. A reminder on scope: everything here is independent research from BuzzSkito&rsquo;s publishing team — our operating business treats mosquitoes and ticks only, and we do not treat cockroaches or sell any product reviewed here.</p>
+            <p className="mt-4">Still at the DIY stage? The plan above starts with two purchases: enclosed bait stations, and glue-board monitors to show whether the count is falling.</p>
+            <div className="not-prose mt-4 flex flex-wrap gap-3">
+              <BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" className="!text-white !no-underline">Check price on Amazon.ca &rarr;</BuyLink>
+              <BuyLink tag={AMZ_TAG} search="cockroach glue traps monitor" className="!text-white !no-underline">See glue-board monitors on Amazon.ca &rarr;</BuyLink>
+            </div>
+          </>,
         }}
         faqs={FAQS}
         cta={{ heading: 'While you bait the kitchen, don’t forget mosquito season', subtext: 'BuzzSkito treats mosquitoes and ticks across 19 GTA cities — book a free yard assessment before the summer bite season starts.' }}

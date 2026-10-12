@@ -3,8 +3,13 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { SITE_URL } from '@/lib/constants'
 import GuideHub, { type HubSection } from '@/components/GuideHub'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'pest-product-guides/ant-control'
+const AMZ_TAG = tagForSlug(SLUG)
 const DATE = '2026-10-07'
 const TITLE = 'Ant Control Products in Canada — Baits, Traps & Carpenter Ants'
 
@@ -145,12 +150,26 @@ export default function AntControlHubPage() {
         }}
         howWeRank={{
           title: 'Why ant control in Canada needs its own guide',
-          body: <>Much of the ant advice Canadians read online is written for an American reader, and it often names gels and concentrates sold under a US EPA registration. Advion ant gel is one example: as of October 2026, Health Canada&rsquo;s pesticide label search showed no registered product under that name. Under the Pest Control Products Act, a pesticide sold or used in Canada generally must be registered and carry its Canadian PCP registration number on the label. Health Canada&rsquo;s Pesticides Regulatory Directorate, which operated as the Pest Management Regulatory Agency (PMRA) until its name change in 2026, is the body that registers it &mdash; so that number is the one-glance test on the label itself. Outdoors there is a second layer: Ontario restricts pesticide use for cosmetic purposes on lawns and gardens, and other provinces, Nova Scotia among them, have their own rules. Ontario&rsquo;s rules still allow pesticides against indoor pests, so indoor baiting is unaffected. The product guides in this cluster apply the same three filters as the rest of our library: <strong>Canadian registration first</strong>, <strong>real Canadian availability second</strong>, and <strong>published evidence third</strong> &mdash; which is why they lead with bait stations and flag the sprays and gadgets that fail. The identification and how-to guides further down the page are a separate set, written as references for readers anywhere in North America, with no product links.</>,
+          body: <><p>Much of the ant advice Canadians read online is written for an American reader, and it often names gels and concentrates sold under a US EPA registration. Advion ant gel is one example: as of October 2026, Health Canada&rsquo;s pesticide label search showed no registered product under that name. Under the Pest Control Products Act, a pesticide sold or used in Canada generally must be registered and carry its Canadian PCP registration number on the label. Health Canada&rsquo;s Pesticides Regulatory Directorate, which operated as the Pest Management Regulatory Agency (PMRA) until its name change in 2026, is the body that registers it &mdash; so that number is the one-glance test on the label itself. Outdoors there is a second layer: Ontario restricts pesticide use for cosmetic purposes on lawns and gardens, and other provinces, Nova Scotia among them, have their own rules. Ontario&rsquo;s rules still allow pesticides against indoor pests, so indoor baiting is unaffected. The product guides in this cluster apply the same three filters as the rest of our library: <strong>Canadian registration first</strong>, <strong>real Canadian availability second</strong>, and <strong>published evidence third</strong> &mdash; which is why they lead with bait stations and flag the sprays and gadgets that fail. The identification and how-to guides further down the page are a separate set, written as references for readers anywhere in North America, with no product links.</p>
+            <AffiliateDisclosure />
+            <TopPick tag={AMZ_TAG}
+              label="Start Here"
+              name="TERRO Liquid Ant Baits (indoor stations)"
+              blurb="The format the product guides on this page lead with: an enclosed liquid bait station set on the live trail, so foragers feed, walk home and share the slow-acting bait with the brood and the queen. Buy the pack that shows a Canadian PCP registration number on the label."
+              search="terro liquid ant baits"
+            />
+          </>,
         }}
         sections={SECTIONS}
         bottomLine={{
           title: 'Related research and the complete ant reference',
-          body: <>This ant cluster is one section of our broader <Link href="/pest-product-guides">Canadian pest product guides</Link> library, which applies the same registration-first method to rodents, bed bugs, and more. If you would rather start from the insect than from the product shelf, <Link href="/learn/ants">the complete ant reference</Link> explains how colonies work and how to tell the common household species apart, and it ties the identification and how-to guides above together. A reminder on scope: everything here is independent research from BuzzSkito&rsquo;s publishing team &mdash; our operating business treats mosquitoes and ticks only, and we do not treat ants or sell any product discussed here.</>,
+          body: <><p>This ant cluster is one section of our broader <Link href="/pest-product-guides">Canadian pest product guides</Link> library, which applies the same registration-first method to rodents, bed bugs, and more. If you would rather start from the insect than from the product shelf, <Link href="/learn/ants">the complete ant reference</Link> explains how colonies work and how to tell the common household species apart, and it ties the identification and how-to guides above together. A reminder on scope: everything here is independent research from BuzzSkito&rsquo;s publishing team &mdash; our operating business treats mosquitoes and ticks only, and we do not treat ants or sell any product discussed here.</p>
+            <p className="mt-4">Still at the DIY stage? The bait-first plan above starts with enclosed liquid bait stations on the live trail, and a solid protein bait station is the next thing to try when a colony ignores the sweet bait.</p>
+            <div className="not-prose mt-4 flex flex-wrap gap-3">
+              <BuyLink tag={AMZ_TAG} search="terro liquid ant baits" className="!text-white !no-underline">Check price on Amazon.ca &rarr;</BuyLink>
+              <BuyLink tag={AMZ_TAG} search="combat ant killing bait stations" className="!text-white !no-underline">See protein bait stations on Amazon.ca &rarr;</BuyLink>
+            </div>
+          </>,
         }}
         faqs={FAQS}
         cta={{ heading: 'While the bait does its work, remember mosquito season', subtext: 'BuzzSkito treats mosquitoes and ticks across 19 GTA cities — book a free yard assessment before the summer bite season starts.' }}

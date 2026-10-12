@@ -3,8 +3,13 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { SITE_URL } from '@/lib/constants'
 import GuideHub, { type HubSection } from '@/components/GuideHub'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'pest-product-guides/rodent-control'
+const AMZ_TAG = tagForSlug(SLUG)
 const DATE = '2026-07-17'
 const TITLE = 'Mouse & Rat Control Products in Canada — Traps, Baits & What\'s Legal'
 
@@ -156,12 +161,26 @@ export default function RodentControlHubPage() {
         }}
         howWeRank={{
           title: 'Why mouse and rat control in Canada needs its own guide',
-          body: <>Most rodent advice Canadians read online is written for an American reader, and a large share of it recommends products that are either illegal to buy here or restricted to licensed professionals. The single biggest gap is poison: after Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) re-evaluated rodenticides, the strongest US consumer baits — the second-generation anticoagulants brodifacoum, bromadiolone, and difethialone — were pulled from the domestic shelf and restricted to commercial and agricultural applicators. That reshapes the whole strategy toward <strong>trap-first</strong> control. Every guide in this cluster applies the same three filters as the rest of our library: <strong>PMRA legality first</strong>, <strong>real amazon.ca availability second</strong>, and <strong>published evidence third</strong> — which is why we lead with traps and flag the gadgets that fail.</>,
+          body: <><p>Most rodent advice Canadians read online is written for an American reader, and a large share of it recommends products that are either illegal to buy here or restricted to licensed professionals. The single biggest gap is poison: after Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) re-evaluated rodenticides, the strongest US consumer baits — the second-generation anticoagulants brodifacoum, bromadiolone, and difethialone — were pulled from the domestic shelf and restricted to commercial and agricultural applicators. That reshapes the whole strategy toward <strong>trap-first</strong> control. Every guide in this cluster applies the same three filters as the rest of our library: <strong>PMRA legality first</strong>, <strong>real amazon.ca availability second</strong>, and <strong>published evidence third</strong> — which is why we lead with traps and flag the gadgets that fail.</p>
+            <AffiliateDisclosure />
+            <TopPick tag={AMZ_TAG}
+              label="Start Here"
+              name="Victor M325 Wood Snap Trap (4-pack)"
+              blurb="The trap-first plan on this page starts with a plain wood snap trap: a confirmed catch, no poison, and none of the secondary-poisoning risk that bait poses to pets and wildlife."
+              search="victor mouse trap 4 pack"
+            />
+          </>,
         }}
         sections={SECTIONS}
         bottomLine={{
           title: 'Related research and costs',
-          body: <>This rodent cluster is one section of our broader <Link href="/pest-product-guides">Canadian pest product guides</Link> library, which applies the same PMRA-legality-first method to bed bugs, diatomaceous earth, and more. When a rodent problem outgrows DIY traps and bait, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> breaks down 2026 price bands by pest type and treatment method so you can sanity-check any quote. A reminder on scope: everything here is independent research from BuzzSkito&rsquo;s publishing team — our operating business treats mosquitoes and ticks only, and we do not remove mice or rats or sell any product reviewed here.</>,
+          body: <><p>This rodent cluster is one section of our broader <Link href="/pest-product-guides">Canadian pest product guides</Link> library, which applies the same PMRA-legality-first method to bed bugs, diatomaceous earth, and more. When a rodent problem outgrows DIY traps and bait, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> breaks down 2026 price bands by pest type and treatment method so you can sanity-check any quote. A reminder on scope: everything here is independent research from BuzzSkito&rsquo;s publishing team — our operating business treats mosquitoes and ticks only, and we do not remove mice or rats or sell any product reviewed here.</p>
+            <p className="mt-4">Still at the DIY stage? The trap-first plan above starts with snap traps sized for the animal you have: mouse traps for mice, and the larger rat trap for rats.</p>
+            <div className="not-prose mt-4 flex flex-wrap gap-3">
+              <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack" className="!text-white !no-underline">Check price on Amazon.ca &rarr;</BuyLink>
+              <BuyLink tag={AMZ_TAG} search="victor rat trap" className="!text-white !no-underline">See rat snap traps on Amazon.ca &rarr;</BuyLink>
+            </div>
+          </>,
         }}
         faqs={FAQS}
         cta={{ heading: 'While you rodent-proof, don’t forget mosquito season', subtext: 'BuzzSkito treats mosquitoes and ticks across 19 GTA cities — book a free yard assessment before the summer bite season starts.' }}

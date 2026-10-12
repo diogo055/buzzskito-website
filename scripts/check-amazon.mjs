@@ -61,6 +61,7 @@ if (LEVANTA_URLS.length) console.log(`  (allowlisting ${LEVANTA_URLS.length} Lev
 const ROOT = '.next'
 const URL_RE = /https?:\/\/[^\s"'<>\\)]*(amazon\.(?:ca|com)|amzn\.to|media-amazon|amazon-adsystem)[^\s"'<>\\)]*/gi
 const ASSET_RE = /media-amazon|amazon-adsystem/i
+const NOT_CA_RE = /^https?:\/\/(?:[a-z0-9-]+\.)*amazon\.com(?:[/?#:]|$)/i
 
 function collect(dir, out = []) {
   let entries
@@ -104,6 +105,11 @@ for (const f of files) {
       // An exact-match Levanta partner link is brand-paid and correctly untagged.
       if (LEVANTA_URLS.some((u) => m === u || m.startsWith(u))) continue
       if (ASSET_RE.test(m)) violations.push([f, i + 1, m, 'hotlinked Amazon asset — never allowed'])
+      // Amazon.ca only. The Associates account is a Canadian one; a link to amazon.com earns
+      // nothing and mixing marketplaces is what the owner was warned off (Oct 2026 brief:
+      // "amazon.ca ONLY — never amazon.com, never OneLink"). OneLink's script is served from
+      // amazon-adsystem, so the rule above already blocks it.
+      else if (NOT_CA_RE.test(m)) violations.push([f, i + 1, m, 'link to an Amazon marketplace other than amazon.ca — this site links to Amazon.ca only'])
       else if (!TAG) violations.push([f, i + 1, m, 'Amazon URL present but PUBLIC_AMAZON_TAG is unset (output must be zero)'])
       else if (!VALID_TAGS.some((t) => m.includes(`tag=${t}`))) violations.push([f, i + 1, m, `Amazon URL missing a valid tag (default ${TAG} or a cluster tag)`])
     }
@@ -140,6 +146,36 @@ if (TAG) {
   }
 }
 
+// ─── North American guides carry no Amazon links ─────────────────────────────
+// The 86 data-driven guides (content/guides/*.json, rendered by components/GuidePage.tsx)
+// are written for US readers and the Associates account is Canadian, so an Amazon.ca link
+// there is the wrong marketplace for the reader. Owner's rule (Oct 2026): Amazon stays on
+// every page that already had it, and stays OFF these guides. scripts/validate-guide.mjs
+// checks the words in the JSON; this checks the page that was actually built, so a link
+// that arrives through a shared component is caught too.
+// Host-anchored (a source about the Amazon basin is not a store link), any marketplace, and
+// the two short-link hosts. A bare origin with no path is a resource hint, not a link.
+const GUIDE_AMAZON_RE = /https?:\/\/(?:[a-z0-9-]+\.)*(?:amazon\.[a-z]{2,3}(?:\.[a-z]{2})?|amzn\.to|a\.co)[/?#][^\s"'<>\\)]+/gi
+let guidesChecked = 0
+try {
+  for (const name of readdirSync(join('content', 'guides'))) {
+    if (!name.endsWith('.json')) continue
+    const g = JSON.parse(readFileSync(join('content', 'guides', name), 'utf8'))
+    const path = `/${g.section ?? (g.kind === 'pillar' ? 'learn' : 'blog')}/${g.slug}`
+    for (const ext of ['.html', '.rsc']) {
+      const f = join(ROOT, 'server', 'app', `${path.slice(1)}${ext}`)
+      let src
+      try { src = readFileSync(f, 'utf8') } catch { if (ext === '.html') violations.push([f, 0, path, 'North American guide has no built page — cannot confirm it is free of Amazon links']); continue }
+      if (ext === '.html') guidesChecked++
+      for (const m of src.replace(/\\u0026/gi, '&').replace(/\\\//g, '/').match(GUIDE_AMAZON_RE) || []) {
+        violations.push([f, 0, m, 'Amazon link on a North American guide — these pages carry no Amazon links'])
+      }
+    }
+  }
+} catch (e) {
+  violations.push(['content/guides', 0, String(e && e.message), 'could not read the guide list'])
+}
+
 if (violations.length) {
   console.error(`\n✗ check:amazon FAILED — ${violations.length} violation(s):\n`)
   for (const [f, ln, url, why] of violations.slice(0, 60)) {
@@ -151,5 +187,6 @@ if (violations.length) {
 
 console.log(
   `✓ check:amazon passed — scanned ${files.length} crawler-visible files. ` +
-  (TAG ? `Every Amazon URL carries a valid tag (default ${TAG} or one of ${CLUSTER_TAGS.length} cluster tags).` : `Zero Amazon URLs in output (no tag configured — fail-closed).`)
+  (TAG ? `Every Amazon URL carries a valid tag (default ${TAG} or one of ${CLUSTER_TAGS.length} cluster tags).` : `Zero Amazon URLs in output (no tag configured — fail-closed).`) +
+  ` Amazon.ca only. ${guidesChecked} North American guides carry no Amazon link.`
 )

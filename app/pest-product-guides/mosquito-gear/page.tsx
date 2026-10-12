@@ -3,8 +3,13 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { SITE_URL, PROMISES } from '@/lib/constants'
 import GuideHub, { type HubSection } from '@/components/GuideHub'
 import Link from 'next/link'
+import BuyLink from '@/components/BuyLink'
+import TopPick from '@/components/TopPick'
+import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import { tagForSlug } from '@/lib/amazon-clusters'
 
 const SLUG = 'pest-product-guides/mosquito-gear'
+const AMZ_TAG = tagForSlug(SLUG)
 const DATE = '2026-07-17'
 const TITLE = 'Best Mosquito Control Products in Canada — The Gear Our Technicians Recommend'
 
@@ -156,12 +161,25 @@ export default function MosquitoGearHubPage() {
         }}
         howWeRank={{
           title: 'How we rank backyard mosquito gear',
-          body: <>Most &ldquo;best mosquito product&rdquo; lists are written by people who have never watched a population rebound three days after a treatment. We have — BuzzSkito is a licensed mosquito and tick control service across 19 GTA cities, and every product here is judged against what we see work (and fail) in real yards. Three filters decide the rankings: <strong>does the science support it</strong>, <strong>is it genuinely available to Canadian buyers</strong>, and <strong>does it solve a problem worth solving</strong>. That last one is why we praise a $12 pack of dunks and warn you off a $60 zapper.</>,
+          body: <><p>Most &ldquo;best mosquito product&rdquo; lists are written by people who have never watched a population rebound three days after a treatment. We have — BuzzSkito is a licensed mosquito and tick control service across 19 GTA cities, and every product here is judged against what we see work (and fail) in real yards. Three filters decide the rankings: <strong>does the science support it</strong>, <strong>is it genuinely available to Canadian buyers</strong>, and <strong>does it solve a problem worth solving</strong>. That last one is why we praise a $12 pack of dunks and warn you off a $60 zapper.</p>
+            <AffiliateDisclosure />
+            <TopPick tag={AMZ_TAG}
+              label="Start Here"
+              name="Summit Mosquito Dunks (6-pack)"
+              blurb="The first buy on this page for any yard with standing water you cannot drain: a BTI larvicide that stops mosquitoes breeding in a rain barrel or pond, at roughly 30 days per dunk. Follow the label for where it may be used."
+              search="summit mosquito dunks"
+            />
+          </>,
         }}
         sections={SECTIONS}
         bottomLine={{
           title: 'The honest bottom line',
-          body: <>If you buy nothing else, buy a bag of <Link href="/blog/mosquito-dunks-canada-guide">BTI mosquito dunks</Link> and a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link>. Dunks stop mosquitoes breeding for pennies; the Thermacell keeps the patio usable while you sit there. Add <Link href="/blog/off-deep-woods-deet-bug-spray-canada">DEET or icaridin</Link> on your skin and you have covered most of the problem for under $80. When the gear becomes more hassle than it is worth, compare the DIY route against a <Link href="/mosquito-control">professional barrier spray program</Link> — for many GTA families a season of technician-applied protection is cheaper and far less fiddly than a garage full of gadgets.</>,
+          body: <><p>If you buy nothing else, buy a bag of <Link href="/blog/mosquito-dunks-canada-guide">BTI mosquito dunks</Link> and a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link>. Dunks stop mosquitoes breeding for pennies; the Thermacell keeps the patio usable while you sit there. Add <Link href="/blog/off-deep-woods-deet-bug-spray-canada">DEET or icaridin</Link> on your skin and you have covered most of the problem for under $80. When the gear becomes more hassle than it is worth, compare the DIY route against a <Link href="/mosquito-control">professional barrier spray program</Link> — for many GTA families a season of technician-applied protection is cheaper and far less fiddly than a garage full of gadgets.</p>
+            <div className="not-prose mt-4 flex flex-wrap gap-3">
+              <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!text-white !no-underline">See mosquito dunks on Amazon.ca &rarr;</BuyLink>
+              <BuyLink tag={AMZ_TAG} search="thermacell e90 rechargeable" className="!text-white !no-underline">See the Thermacell E90 on Amazon.ca &rarr;</BuyLink>
+            </div>
+          </>,
         }}
         faqs={FAQS}
         cta={{ heading: 'Skip the gadget graveyard — let a pro handle the bugs', subtext: `Free yard assessment. Mosquito & tick barrier spray from $99. ${PROMISES.rainBackShort}. ${PROMISES.biteFreeScope}.` }}
