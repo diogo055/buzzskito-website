@@ -146,6 +146,12 @@ below asks Mediavine to confirm the library fits their policy.
 >    sources. They carry no affiliate links. [Add if true: "I have read and approved each
 >    one."] Please confirm this fits your content policy, or tell us what you would need
 >    changed.
+> 10. [Include only once browser notifications are switched on.] On articles we show a
+>    one-time prompt offering browser notifications of new guides (through OneSignal). It is a
+>    slim strip directly under our sticky header, never at the bottom of the screen. It is shown
+>    after 30 seconds or half-way down the article, it slides away whenever one of your ad
+>    slots is underneath it, and OneSignal's script loads only for readers who say yes. Please
+>    tell us if you would rather we did not run it.
 >
 > Is there anything else you need from us before launch?
 >

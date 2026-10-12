@@ -3,6 +3,8 @@ import Image from 'next/image'
 import data from '@/lib/article-index.json'
 import { inContentPicks, storedCards } from '@/lib/recirculation'
 import KeepReadingBar from '@/components/KeepReadingBar'
+import PushPrompt from '@/components/PushPrompt'
+import { PUSH_ENABLED, ONESIGNAL_APP_ID } from '@/lib/push'
 
 /**
  * "Keep reading": three cards from the SAME topic cluster, shown at the end of an article in
@@ -101,6 +103,10 @@ export default function ReadNext({ path, standalone = false }: { path: string; s
         BuzzSkito treats mosquitoes and ticks in the Greater Toronto Area. Local?{' '}
         <Link href="/free-yard-assessment" className="underline hover:text-brand-700">Ask for a free yard assessment</Link>.
       </p>
+      {/* Browser-notification prompt: on every article, because every article renders this block.
+          Nothing is rendered until the owner sets the OneSignal app ID (lib/push.ts). The prompt
+          itself is drawn at the top of the window, not here: see components/PushPrompt.tsx. */}
+      {PUSH_ENABLED && <PushPrompt appId={ONESIGNAL_APP_ID} />}
     </section>
   )
   if (!standalone) return block

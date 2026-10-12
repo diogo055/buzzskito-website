@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { buildMetadata } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 import { MEDIAVINE_PRIVACY_HTML } from '@/lib/mediavine-privacy'
+import { PUSH_ENABLED } from '@/lib/push'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Privacy Policy',
@@ -33,6 +34,14 @@ export default function PrivacyPolicyPage() {
         <p>Our website uses cookies and similar tracking technologies including Google Analytics (G-X7RV1EQWD8) and Facebook Pixel. You may opt out of analytics tracking via your browser settings.</p>
         <h2>How We Learn Which Pages Help</h2>
         <p>When you visit our website, we record which page first brought you to the site, the website that sent you there (if any), any campaign tags in the link you followed (for example, a tag showing you came from our Google Business Profile), and an analytics visitor ID. We also count taps on our Call, Text and quote buttons. If you send us a quote request or ask for one of our yard or risk reports, the first page, referring website, campaign tags and analytics visitor ID are stored with your request, so we know which pages help homeowners. Google Analytics never receives your name, email, phone number or address from our forms or button taps. The first page, referring website and campaign tags are kept in three cookies of our own, bz_landing, bz_ref and bz_utm, which last 30 days; the analytics visitor ID is read from the Google Analytics cookie.</p>
+        {/* Shown only once browser notifications are switched on (lib/push.ts), so the policy
+            describes them exactly when the site offers them. */}
+        {PUSH_ENABLED && (
+          <>
+            <h2>Browser Notifications</h2>
+            <p>On our articles we may ask whether you would like a browser notification when we publish a new guide. Nothing is sent unless you say yes and then allow notifications in your browser. If you do, your browser creates an anonymous notification subscription, which is stored by our notification provider, OneSignal, together with technical details such as your browser type, language, time zone and IP address. We do not ask for your name or email address for this, and we use the subscription only to send those notifications. You can turn notifications off at any time in your browser&apos;s site settings.</p>
+          </>
+        )}
         <h2>Advertising</h2>
         <p>Some pages of this website, such as our articles and product guides, show display advertising managed by Mediavine. Our service, pricing and quote pages do not show ads. The section below is Mediavine&apos;s disclosure about how that advertising works and how you can opt out.</p>
         {/* Mediavine's required language, verbatim (lib/mediavine-privacy.ts). Do not edit here. */}
