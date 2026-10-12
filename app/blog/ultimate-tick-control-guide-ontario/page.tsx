@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { TICK_BLOGS, CITIES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const POST = TICK_BLOGS.pillar
 
@@ -96,6 +98,7 @@ export default function TickPillarPage() {
           <li><strong>Lone star tick (<em>Amblyomma americanum</em>):</strong> An emerging species in southwestern Ontario, associated with climate warming. Can cause a unique red meat allergy (alpha-gal syndrome). Distribution is currently limited but expanding.</li>
         </ul>
 
+        <NextUp path="/blog/ultimate-tick-control-guide-ontario" />
         <h2>The Tick Lifecycle and Why It Matters</h2>
         <p>Understanding the blacklegged tick lifecycle is essential for timing effective treatment:</p>
         <ul>
@@ -166,6 +169,7 @@ export default function TickPillarPage() {
         <p>Beyond habitat work, what you wear into the high-risk zones adds a personal layer of protection. Permethrin belongs on fabric, not skin — it kills ticks on contact with the cloth rather than simply repelling them. In Canada, though, the do-it-yourself version is off the table: Health Canada does not approve permethrin liquids and sprays for consumers to treat their own clothing. The route that remains open is buying the treatment already in the garment — factory-treated clothing, where the permethrin is bonded in at manufacture and lasts up to 70 wash cycles. Treated socks and trouser legs cover the ankles and lower legs a questing tick reaches first, so those are the pieces worth owning before yard work: <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check treated clothing on Amazon.ca →</BuyLink></p>
         <p>For the full breakdown, see our guides to <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline hover:text-brand-500">permethrin for yard &amp; clothing in Canada</Link> and the <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 underline hover:text-brand-500">best tick repellents for your yard</Link>.</p>
 
+        <RelatedLinks path="/blog/ultimate-tick-control-guide-ontario" />
         <h2>Tick Control Product Stack: What Works and What Doesn&apos;t</h2>
         <p>The tick control aisle is full of products with wildly different levels of evidence behind them. Here&apos;s our honest assessment — including the products that compete with our own service, and the ones we&apos;d skip entirely.</p>
 

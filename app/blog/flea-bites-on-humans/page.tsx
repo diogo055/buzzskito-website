@@ -12,6 +12,8 @@ import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'flea-bites-on-humans'
 const DATE = '2026-07-19'
@@ -208,6 +210,7 @@ export default function FleaBitesOnHumansPage() {
         </ul>
         <p>The itch starts <strong>within minutes</strong>. That fast reaction is one of the most useful tells, because the other common indoor biter &mdash; the bed bug &mdash; often produces a reaction delayed by hours or days.</p>
 
+        <NextUp path="/blog/flea-bites-on-humans" />
         <h2 id="flea-vs-bed-bug-vs-mosquito">Flea bites vs bed bug and mosquito bites: how do you tell?</h2>
         <p>The quickest separation is <strong>where the bites are, when they itch, and what pattern they form</strong>. Fleas hit the lower legs any time of day; bed bugs hit skin exposed during sleep; mosquitoes hit any exposed skin, mostly around dawn and dusk. Here is the full side-by-side:</p>
         <div className="overflow-x-auto not-prose my-6">
@@ -338,6 +341,7 @@ export default function FleaBitesOnHumansPage() {
         <p>Usually because <strong>you react and they don&rsquo;t</strong> &mdash; not because fleas find you tastier. Sensitivity to flea saliva varies enormously between people: the same number of bites can raise angry, itchy welts on one person and leave no visible mark on another. In many &ldquo;why only me?&rdquo; households, both partners are being bitten and only one shows it.</p>
         <p>Genuine exposure differences stack on top of that. Whoever spends more time at floor level &mdash; playing with kids, working out on a mat, napping on the couch the cat prefers &mdash; simply meets more fleas. The person whose side of the bed the dog sleeps on collects more bites. Beyond that, some research suggests fleas and other biting insects orient to body heat, carbon dioxide, and skin chemistry that differ between individuals, but the evidence is limited and no reliable &ldquo;flea-proof body type&rdquo; has been demonstrated. The practical takeaway: one reactive person in a home is enough to confirm a flea problem &mdash; do not wait for everyone to itch.</p>
 
+        <RelatedLinks path="/blog/flea-bites-on-humans" />
         <h2 id="home-flea-check">How can you tell if your home has fleas?</h2>
         <p>The fastest confirmation comes from <strong>checking the pet, then the carpet</strong>. Fleas spend most of their adult lives on the host animal, and the immature stages develop wherever the animal rests. Work through this five-minute check:</p>
         <ul>

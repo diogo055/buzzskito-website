@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-trap-running-cost-canada'
 const DATE = '2026-08-22'
@@ -227,6 +229,7 @@ export default function MosquitoTrapRunningCostCanadaPage() {
           <p>Almost every conversation we have about mosquito traps stalls in the same place. It is never “can I afford the machine.” It is “what does this thing cost me every month once it is sitting in the yard.” That instinct is right. A mosquito trap is not an appliance you buy once; it is a machine that eats something continuously for 22 weeks, and the thing it eats is what determines whether it is still running when the August generation hatches.</p>
           <p>We run a mosquito and tick company in the GTA, which means we have watched a lot of these machines get bought in May and quietly switched off in July. It is almost never because the trap did not work. It is because the owner did the running-cost arithmetic after the purchase instead of before it, and then rationed the fuel. A CO2 trap run part-time does not deliver part of the result — it delivers close to none of it, because the population rebounds in the gaps. So here is the arithmetic up front.</p>
 
+          <NextUp path="/blog/mosquito-trap-running-cost-canada" />
           <h2>Propane: the fuel bill nobody budgets for</h2>
           <p>A propane trap burns propane through a catalytic converter to produce a CO2 plume that imitates a breathing human. It is the most convincing fake host you can buy, and it is the most expensive to feed. Plan on <strong>one 20 lb (9 kg) cylinder every three weeks</strong> of continuous running. Across an Ontario season that is roughly <strong>6 to 7 refills</strong>, or about $150 to $280 in fuel at typical Canadian refill prices.</p>
           <p>Then there is the attractant. Octenol and Lurex cartridges last about three weeks each, which means another seven across the season and roughly $105 to $175. Nets and catch bags are the line nobody mentions at all: on a productive property you will replace two or three over a summer, so add $30 to $75. Stack it up and <strong>$350 to $550 per season</strong> is the realistic consumables figure for a propane trap, entirely separate from the machine.</p>
@@ -287,6 +290,7 @@ export default function MosquitoTrapRunningCostCanadaPage() {
           </div>
           <p>A note on the timer, since it looks like the obvious way to cut the fuel bill: it is not, on a CO2 trap. It is genuinely useful on a UV hybrid, where the catch is concentrated at dusk and overnight and the machine is not trying to suppress a population. On a propane or lure trap, a timer just buys you gaps for the mosquitoes to refill.</p>
 
+          <RelatedLinks path="/blog/mosquito-trap-running-cost-canada" />
           <h2>The mistake most Canadian buyers make</h2>
           <p>Three of them, honestly, and they all cost money rather than performance.</p>
           <ul>

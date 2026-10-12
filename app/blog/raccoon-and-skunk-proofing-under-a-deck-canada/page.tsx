@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'raccoon-and-skunk-proofing-under-a-deck-canada'
 const DATE = '2026-08-22'
@@ -181,6 +183,7 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="galvanized hardware cloth 1/2 inch 36 inch roll">Check price on Amazon.ca →</BuyLink>
           </div>
 
+          <NextUp path="/blog/raccoon-and-skunk-proofing-under-a-deck-canada" />
           <h2>Raccoon or Skunk? Read the Entrance</h2>
           <p>The fix is identical for both, but knowing which one you have changes your timing and your caution level.</p>
           <ul>
@@ -225,6 +228,7 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="galvanized hardware cloth 1/2 inch 36 inch roll">Check galvanised hardware cloth on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/raccoon-and-skunk-proofing-under-a-deck-canada" />
           <h2>The No-Dig Version: A Surface Apron</h2>
           <p>Plenty of decks sit against a concrete pad, a paver patio, or the root plate of a tree you should not be cutting. The apron method handles all of it and performs close to as well as a trench.</p>
           <p>Lay hardware cloth flat on the ground, running outward from the base of the deck for 30 to 45 cm, and pin it every 30 cm with heavy landscape staples. Fasten the upper edge to the deck frame exactly as you would a trenched panel. Then cover the flat portion with soil, mulch or gravel. Because animals dig at the obstruction rather than a metre out, they meet the apron immediately and get nowhere. Grass and roots grow through it within a season and lock it permanently.</p>

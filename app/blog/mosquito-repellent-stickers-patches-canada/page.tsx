@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-repellent-stickers-patches-canada'
 const DATE = '2026-07-12'
@@ -284,6 +286,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
           </div>
           <p className="not-prose text-sm text-gray-600 mb-6">Prefer a wearable that recharges with a swappable pellet instead of single-use stickers? A refillable clip is the lower-waste, cheaper-over-time option &mdash; the same technology behind reusable repellent bands. <BuyLink tag={AMZ_TAG} search="parakito refillable mosquito band">Check refillable band price →</BuyLink></p>
 
+          <NextUp path="/blog/mosquito-repellent-stickers-patches-canada" />
           <h2>How Repellent Stickers Actually Work</h2>
           <p>A repellent sticker is just a small adhesive pad soaked in volatile plant oils &mdash; most commonly citronella, but also lemongrass, geraniol, and oil of lemon eucalyptus. Once you peel and stick it, the oils slowly evaporate and form a faint scented halo in the air immediately around the patch. Female mosquitoes hunt by following a plume of carbon dioxide, body heat, and skin compounds; the oil scent partly masks and confuses those cues, so mosquitoes are less likely to zero in on the exact spot the patch is protecting.</p>
           <p>The catch is right there in the physics. The protective zone is only as big as the scent cloud &mdash; a few centimetres &mdash; and any breeze blows it away. A patch on the front of a stroller does little for a foot dangling out the side, and a sticker on a shirt does nothing for bare arms and ankles. That is the honest ceiling on what stickers and patches can do.</p>
@@ -298,6 +301,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
             <p className="text-sm text-gray-800 leading-relaxed">Some patches claim that transdermal vitamin B1 makes your skin unappetizing to mosquitoes. It is a persistent myth &mdash; peer-reviewed testing has found no repellent effect from oral or patch-delivered thiamine. If a product leans on vitamin B1 rather than an aromatic oil like citronella or geraniol, it is selling a debunked mechanism. Choose an essential-oil patch instead, and keep expectations modest even then.</p>
           </div>
 
+          <RelatedLinks path="/blog/mosquito-repellent-stickers-patches-canada" />
           <h2>The Honest Limits (What Stickers Can&rsquo;t Do)</h2>
           <ul>
             <li><strong>They don&rsquo;t protect exposed skin far from the patch.</strong> Bare arms, ankles, and cheeks are still fair game.</li>

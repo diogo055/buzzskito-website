@@ -9,6 +9,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-indoor-fly-mosquito-trap-canada'
 const DATE = '2026-07-12'
@@ -264,6 +266,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
           <p>Nearly every consumer indoor trap starts with the same lure: a <strong>UV-A (blacklight) LED</strong> that many flying insects drift toward, especially in a darkened room. What happens next is what separates the categories. A <strong>glue-board</strong> trap holds a sticky sheet the insect lands on and cannot leave. A <strong>fan-suction</strong> trap uses a quiet fan to pull the insect down into a chamber where it dehydrates. A <strong>sticky-cartridge plug-in</strong> combines a small light with a replaceable adhesive card. And an <strong>electric bug-zapper grid</strong> electrocutes the insect on contact.</p>
           <p>For a bedroom or kitchen, the glue-board and fan styles win because they are silent and mess-free — no snap or splatter in the middle of the night. Zapper grids are effective on houseflies but loud and messy, and independent research has long shown open UV grids kill mostly harmless moths and beetles rather than biting insects. That is a fine trade-off in a garage, a poor one on a nightstand.</p>
 
+          <NextUp path="/blog/best-indoor-fly-mosquito-trap-canada" />
           <h2>The Honest Truth About Catching Mosquitoes Indoors</h2>
           <p>Here is the part most product listings gloss over: <strong>indoor light traps are much better at catching flies and gnats than mosquitoes.</strong> Mosquitoes — mostly <em>Culex pipiens</em> (the common house mosquito that overwinters in warm basements) and sometimes <em>Aedes</em> species — do not home in on light the way a moth does. They track <strong>carbon dioxide, body heat, and skin odour</strong>. In a bedroom, a sleeping person is a far stronger beacon than any plug-in glow, so a light-only trap competes poorly.</p>
           <p>Fan-suction and glue-board traps still catch a meaningful share of indoor mosquitoes — especially Culex drifting near a window at night — which is why they beat a bare zapper grid for mosquito duty. But if mosquitoes indoors are your main problem, the trap is a secondary tool. The primary fixes are stopping them getting in and killing the population outside. For yard-scale trapping, our <Link href="/blog/best-mosquito-trap">best outdoor mosquito trap guide</Link> covers CO&#8322; and propane units built for that job, and our breakdown of whether <Link href="/blog/bug-zappers-canada-do-they-work">bug zappers actually work in Canada</Link> explains why the classic grid disappoints on mosquitoes.</p>
@@ -283,6 +286,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="indoor insect trap glue board refills">Glue-board refills &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/best-indoor-fly-mosquito-trap-canada" />
           <h2>Stop the Flies and Mosquitoes at the Source</h2>
           <p>A trap is the last line of defence, not the first. Before you rely on one, close the doors flies and mosquitoes walk through:</p>
           <ol>

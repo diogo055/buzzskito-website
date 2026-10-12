@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'brush-cutter-for-overgrown-yard-canada'
 const DATE = '2026-08-22'
@@ -228,6 +230,7 @@ export default function BrushCutterForOvergrownYardCanadaPage() {
           <p>We spray properties for mosquitoes and ticks across the GTA, and the state of the vegetation changes the job before we ever open a tank. A barrier treatment works by putting product on the surfaces where the pests actually rest and quest &mdash; the undersides of leaves, shrub interiors, the shaded band along a fence. On a maintained lot, our technician can reach all of that. On a lot where the back third is hip-high grass and buckthorn, half of it is unreachable, the application takes far longer, and the result is worse than it should be. That is not a sales line; it is why the assessment starts with a walk of the property line.</p>
           <p>The same overgrowth is the pest habitat itself. Blacklegged ticks quest from tall grass and brushy edges and need humidity at ground level to survive, which is why the lawn-to-woods transition is reliably the highest-risk strip on any property &mdash; the reasoning behind everything in <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">how to keep ticks out of your yard in Ontario</Link>. Cutting that band back to mown, sun-exposed turf removes both the perch and the microclimate. It is the one piece of habitat modification that reliably outperforms any product you can buy, and it is why we would rather a customer spend a weekend with a brush cutter than an extra $200 with us.</p>
 
+          <NextUp path="/blog/brush-cutter-for-overgrown-yard-canada" />
           <h2>Cut a Stem and Look at It</h2>
           <p>Forget lot size for a second. The machine is decided by material:</p>
           <ul>
@@ -270,6 +273,7 @@ export default function BrushCutterForOvergrownYardCanadaPage() {
           <p>The other half of that is reconnaissance. Walk the entire area before you start and flag every rock, stump, buried wire, old fence post and drain cover you find, because through hip-high grass you will not see any of them. Blades are consumables &mdash; the first rock dulls one &mdash; so buy a spare and a file with the machine.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="brush cutter tri blade kit">Tri-blade &amp; brush blade kits &rarr;</BuyLink></div>
 
+          <RelatedLinks path="/blog/brush-cutter-for-overgrown-yard-canada" />
           <h2>What to Wear</h2>
           <p>Nobody plans to skip this and then everyone does, because the gear lives in the shed and the yard is right there. The short list:</p>
           <ul>

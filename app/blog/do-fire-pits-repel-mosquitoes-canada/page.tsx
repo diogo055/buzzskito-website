@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'do-fire-pits-repel-mosquitoes-canada'
 const DATE = '2026-08-22'
@@ -230,6 +232,7 @@ export default function DoFirePitsRepelMosquitoesCanadaPage() {
           <p>A mosquito finds you in stages. From a distance it follows a plume of carbon dioxide upwind &mdash; your exhaled breath, drifting. Closer in it switches to body heat and to the specific chemistry of human skin. It is a chain of cues, and each one has to hand off to the next.</p>
           <p>Smoke breaks that chain in the crudest possible way. It floods the same air with combustion products, diluting and masking the carbon dioxide gradient the insect was following, and the particulate load is directly irritating to something that small. This is not a modern theory; it is why people have burned green vegetation at biting-insect season for as long as there have been fires.</p>
           <p>Notice what is <em>not</em> in that mechanism: the flame, the light, or the heat. Mosquitoes are not moths and are not drawn to or repelled by light. And heat is one of the cues they actively home in on, not one that pushes them away, which is why standing beside a fire pit does not make you less findable &mdash; it makes you a warmer target sitting still in the open at dusk. Every bit of a fire pit&rsquo;s mosquito effect lives in the smoke, and nowhere else.</p>
+          <NextUp path="/blog/do-fire-pits-repel-mosquitoes-canada" />
           <p>Which sets up the awkward part.</p>
 
           <h2>The Smokeless Fire Pit Problem</h2>
@@ -251,6 +254,7 @@ export default function DoFirePitsRepelMosquitoesCanadaPage() {
           </div>
           <p>It is the same lesson as every other short-range patio gadget. A citronella source only covers the metre around it, which is why <Link href="/blog/citronella-candles-canada-do-they-work">citronella candles</Link> and <Link href="/blog/do-tiki-torches-repel-mosquitoes">tiki torches</Link> disappoint people so consistently, and why <Link href="/blog/mosquito-coils-canada">mosquito coils</Link> work better than either but come with their own smoke problem. Coverage, not cleverness, is what separates the things that work from the things that sell.</p>
 
+          <RelatedLinks path="/blog/do-fire-pits-repel-mosquitoes-canada" />
           <h2>How to Choose a Smokeless Fire Pit for a Canadian Backyard</h2>
           <p>Assume you are buying the fire pit for the fire. Here is what we would actually check.</p>
 

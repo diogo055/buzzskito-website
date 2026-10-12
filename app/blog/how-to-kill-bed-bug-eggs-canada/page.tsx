@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-kill-bed-bug-eggs-canada'
 const DATE = '2026-07-21'
@@ -259,6 +261,7 @@ export default function HowToKillBedBugEggsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="cimexa desiccant dust bed bug">CimeXa dust →</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-kill-bed-bug-eggs-canada" />
           <h2>Why Contact Sprays Miss the Eggs</h2>
           <p>There are two independent reasons a store-bought spray fails on eggs, and both matter. The first is <strong>physical</strong>: the egg&rsquo;s shell and its cemented position in a tight seam mean a droplet of spray frequently never reaches the embryo inside. You can wet the outside of the seam and leave the egg untouched. The second is <strong>chemical</strong>: most over-the-counter contact sprays are designed to knock an adult bug down on contact and then evaporate, leaving little or no lasting residue. So even in the lucky case where the spray does soak an egg, the active ingredient is often gone before the egg hatches six to ten days later.</p>
           <p>On top of both problems sits <strong>resistance</strong>. Bed-bug populations across North America have developed widespread resistance to the pyrethroid insecticides that dominate consumer sprays, so even the adults are harder to kill than the label implies, and the sub-lethal dose that reaches an egg is even less likely to matter. Put the three together &mdash; a shell the spray can&rsquo;t penetrate, chemistry that doesn&rsquo;t linger, and resistance that blunts the dose &mdash; and you have a tool that is genuinely useful for knocking down visible adults and genuinely useless as your egg strategy. That is not a reason to never use spray. It is the reason spray is a supporting player, not the lead. For the fuller picture on this, our companion piece asks directly whether <Link href="/blog/do-bed-bug-sprays-actually-work">bed-bug sprays actually work</Link>.</p>
@@ -286,6 +289,7 @@ export default function HowToKillBedBugEggsCanadaPage() {
           <p>No matter how carefully you steam and chamber, some eggs will be cemented in a seam you did not reach. The residual layer is your insurance against them. Here the logic flips: you are no longer trying to kill the egg directly &mdash; you are treating the surfaces around it so that whatever hatches walks across a lethal film and dies before it can feed and lay. Two products carry this layer.</p>
           <p>An <strong>EcoRaider-type residual spray</strong> is a plant-oil formulation marketed with egg-mortality claims; it genuinely outperforms a plain knock-down spray, and it leaves residue in the cracks and frame voids where hatchlings emerge. A <strong>silica desiccant dust like CimeXa</strong> is the long-game barrier: an inert dust that abrades and dries out any bug crawling through it, staying lethal in dry voids for months &mdash; long enough to catch a nymph that hatches from a missed egg weeks after your heat treatment. Apply the dust as a barely-visible film (a pile does nothing; bugs walk around it), and concentrate it in voids, behind baseboards, and inside the bed frame. For the desiccant option specifically, see our <Link href="/blog/cimexa-bed-bug-review-canada">CimeXa review</Link> and the broader <Link href="/blog/diatomaceous-earth-for-bed-bugs">diatomaceous earth for bed bugs</Link> comparison. When you buy any chemical product, confirm a Canadian <strong>PCP registration number</strong> on the label &mdash; heat tools need no such registration, but sprays and dusts do, and many US-market products are not legal here.</p>
 
+          <RelatedLinks path="/blog/how-to-kill-bed-bug-eggs-canada" />
           <h2>How to Choose: What You&rsquo;re Actually Buying</h2>
           <p>Killing eggs is not a single purchase; it is a small kit, and the smart way to spend is to match each tool to the part of the job only it can do. Prioritise in this order:</p>
           <ul>

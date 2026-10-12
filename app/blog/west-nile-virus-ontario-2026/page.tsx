@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const POST = {
   title: 'West Nile Virus Ontario 2026 — GTA Risk',
@@ -93,6 +95,7 @@ export default function WestNile2026Page() {
         <p>West Nile Virus (WNV) has been a permanent fixture in Ontario&apos;s public health landscape since 2001, when it was first detected in the province. Every year since, Ontario public health authorities have confirmed WNV activity through mosquito surveillance, dead bird testing, and human case reporting. The virus circulates continuously in a bird-mosquito transmission cycle that cannot be eradicated from the environment.</p>
         <p>For GTA homeowners, the practical implication is clear: West Nile Virus is not a &quot;past&quot; threat — it is a persistent annual risk that requires active prevention, particularly during the July-August peak window when Culex mosquito populations are at their highest.</p>
 
+        <NextUp path="/blog/west-nile-virus-ontario-2026" />
         <h2>How West Nile Virus Is Transmitted</h2>
         <p>West Nile Virus is maintained in nature through a cycle between birds and mosquitoes:</p>
         <ul>
@@ -126,6 +129,7 @@ export default function WestNile2026Page() {
         </ul>
         <p>Toronto carries the largest share of that catch-basin habitat, and the risk curve there is sharply seasonal — building through July, peaking in August, and collapsing after the first hard frost. We walk through that week-by-week in <Link href="/blog/west-nile-virus-toronto-2026" className="text-brand-700 hover:underline">the 2026 West Nile picture for Toronto</Link>.</p>
 
+        <RelatedLinks path="/blog/west-nile-virus-ontario-2026" />
         <h2>Symptoms of West Nile Virus</h2>
         <p>Most WNV infections produce no symptoms at all. When illness occurs, it takes two forms:</p>
 

@@ -1,0 +1,1946 @@
+{
+ "early": [
+  {
+   "path": "/blog/bed-bug-bites",
+   "headings": 12,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-patio-heater-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-screen-tent-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-yellow-jacket-trap-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/biogents-bg-mosquitaire-mosquito-trap-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bugs-that-look-like-ticks",
+   "headings": 22,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/do-fire-pits-repel-mosquitoes-canada",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/fall-yard-cleanup-leaf-blower-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-long-do-ticks-live",
+   "headings": 18,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-many-times-can-a-mosquito-bite-you",
+   "headings": 11,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/misting-fan-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-larvae-identification",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/ortho-home-defense-canada-review",
+   "headings": 5,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/pond-aerator-mosquito-larvae-canada",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/rain-barrel-mosquito-proof-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/tick-bite-on-dog-symptoms",
+   "headings": 5,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/victor-electronic-mouse-trap-review-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/west-nile-virus-mosquito-risk-ontario",
+   "headings": 4,
+   "related": false,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/west-nile-virus-symptoms",
+   "headings": 10,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/what-ticks-look-like-ontario",
+   "headings": 5,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/where-do-mosquitoes-go-in-winter-ontario",
+   "headings": 7,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/why-do-mosquito-bites-itch",
+   "headings": 28,
+   "related": true,
+   "buyAbove": true
+  }
+ ],
+ "sectionBreak": [
+  {
+   "path": "/blog/advion-cockroach-gel-bait",
+   "headings": 7,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/alpha-gal-syndrome",
+   "headings": 11,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/american-dog-tick-canada",
+   "headings": 5,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/are-there-ticks-in-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/are-ticks-arachnids-or-insects",
+   "headings": 5,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/are-ticks-dangerous-ontario",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/baby-bed-bugs-nymphs",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/backpack-sprayer-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/battery-backup-sump-pump-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bed-bug-bites-vs-mosquito-bites",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bed-bug-control-canada-hub",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bed-bug-equipment-kit-for-landlords-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bed-bug-heat-treatment-diy-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bed-bug-heater-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bed-bug-heater-rental-vs-buying-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bed-bug-interceptor-traps-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bed-bug-mattress-encasement-canada",
+   "headings": 11,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bed-bug-shells-casings-shed-skins-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bed-bug-spray-canada",
+   "headings": 13,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bed-bug-stains-poop-droppings-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bed-bug-treatment-cost-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bed-bugs-in-a-car-heat-treatment-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bed-bugs-on-the-ttc-toronto",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-air-purifier-for-dust-mites-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-ant-killer",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-ant-traps-canada",
+   "headings": 11,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-atv-sprayer-for-tick-yard-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-battery-backpack-sprayer-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-bed-bug-box-spring-encasement-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-bed-bug-detector-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-bed-bug-fogger-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-bed-bug-heat-chamber-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-bed-bug-luggage-heater-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-bed-bug-powder-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-bed-bug-spray-for-mattress-canada",
+   "headings": 19,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-bed-bug-spray-for-travel-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-bed-bug-steamer-canada",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-bed-bug-trap-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-bug-spray-for-kids-canada",
+   "headings": 3,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-centipede-killer-canada",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-cockroach-killer-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-cockroach-spray-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-commercial-fly-light-trap-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-commercial-lgr-dehumidifier-canada",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-commercial-steam-cleaner-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-cordless-fogger-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-crawl-space-dehumidifier-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-deer-fence-for-gardens-canada",
+   "headings": 11,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-dehumidifier-for-basement-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-dehumidifier-for-cold-garage-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-dehumidifier-for-mold-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-earwig-killer-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-electric-fence-for-raccoons-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-flea-bomb-canada",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-flea-spray-for-home-canada",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-fruit-fly-trap-canada",
+   "headings": 22,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-gas-backpack-fogger-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-gazebo-with-mosquito-net-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-indoor-fly-mosquito-trap-canada",
+   "headings": 5,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-large-capacity-dehumidifier-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-live-animal-trap-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-magnetic-screen-door-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-mosquito-repellent-device-canada",
+   "headings": 5,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-mosquito-trap",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-mosquito-trap-for-acreage-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-mouse-trap-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-natural-bed-bug-spray-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-pest-control-equipment-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-professional-mosquito-trap-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-pump-pressure-sprayer-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-raccoon-live-trap-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-raccoon-proof-roof-vent-covers-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-rat-trap-canada",
+   "headings": 23,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-roach-traps-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-rodent-repellent-for-cars-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-silverfish-traps",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-solar-bug-zapper-canada",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-spider-spray-canada",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-squirrel-proof-bird-feeder-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-steam-cleaner-for-pest-control-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-steam-mop-for-hardwood-floors-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-sump-pump-for-basement-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-thermal-fogger-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-tick-control-yard-treatment",
+   "headings": 3,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-tick-repellent-yard-canada",
+   "headings": 4,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-ulv-cold-fogger-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-upholstery-steam-cleaner-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-wasp-killer-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-wasp-nest-spray-canada",
+   "headings": 16,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-wasp-trap",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-whole-house-dehumidifier-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/best-whole-room-bed-bug-heater-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/black-flag-electric-fogger-review-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/black-flies-ontario-when-they-come-out",
+   "headings": 12,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/blacklegged-deer-tick-ontario",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/brush-cutter-for-overgrown-yard-canada",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bug-protective-clothing-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bug-zappers-canada-do-they-work",
+   "headings": 28,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/bugs-that-look-like-bed-bugs-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/can-dogs-get-lyme-disease",
+   "headings": 10,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/can-lyme-disease-kill-you",
+   "headings": 9,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/can-mosquitoes-bite-through-clothes",
+   "headings": 6,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/can-ticks-fly-jump-swim",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/carpenter-ants-canada",
+   "headings": 15,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/chapin-battery-backpack-sprayer-review-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/chigger-bites",
+   "headings": 23,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/cimexa-bed-bug-review-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/citronella-candles-canada-do-they-work",
+   "headings": 5,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/cluster-flies-in-house-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/co2-mosquito-trap-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/crossfire-bed-bug-concentrate-review-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/deer-flies-horse-flies-ontario",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/deer-tick-vs-dog-tick-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/desiccant-vs-compressor-dehumidifier-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/diatomaceous-earth-canada-buyers-guide",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/diatomaceous-earth-for-bed-bugs",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/diy-outdoor-misting-system-kit-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/do-bed-bug-sprays-actually-work",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/do-cedar-trees-attract-mosquitoes",
+   "headings": 9,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/do-ticks-die-in-the-washing-machine",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/do-ticks-fly-or-jump",
+   "headings": 5,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/do-tiki-torches-repel-mosquitoes",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/does-standing-water-attract-mosquitoes",
+   "headings": 7,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/doktor-doom-canada-guide",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/doktor-doom-sleep-tight-review-canada",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/dupray-neat-vs-hill-injection-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/dupray-steamer-review-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/dupray-vs-mcculloch-steamer-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/dynatrap-canada-review",
+   "headings": 19,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/earwig-traps-indoor-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/ecoraider-bed-bug-spray-review-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/electric-fly-swatter",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/field-king-backpack-sprayer-review-canada",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/fix-standing-water-yard-mosquitoes-canada",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/flea-bites-on-humans",
+   "headings": 21,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/flowtron-bug-zapper-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/goodnature-a24-review-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/green-pool-mosquito-breeding-ontario",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/gutter-guards-mosquito-breeding-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/hardtop-vs-soft-top-mosquito-gazebo-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/harris-bed-bug-killer-review-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/heat-vs-chemical-bed-bug-treatment-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/hidden-mosquito-breeding-spots-backyard",
+   "headings": 4,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/horse-fly-and-deer-fly-bite-treatment",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-long-does-mosquito-spray-last",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-check-for-bed-bugs-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-ants-canada",
+   "headings": 15,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-bed-bugs-canada",
+   "headings": 11,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-bed-bugs-in-couch-canada",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-boxelder-bugs-canada",
+   "headings": 14,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-carpenter-bees-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-carpet-beetles-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-centipedes-canada",
+   "headings": 11,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-cluster-flies-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-cockroaches-canada",
+   "headings": 11,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-drain-flies-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-earwigs-canada",
+   "headings": 11,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-fruit-flies",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-fungus-gnats-houseplants",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-ground-wasps-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-mice-canada",
+   "headings": 12,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-mosquitoes-in-the-house",
+   "headings": 12,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-rats-canada",
+   "headings": 11,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-silverfish-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-spiders-in-house-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-stink-bugs-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-voles-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-wasps-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-keep-mice-out-of-your-car",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-keep-mice-out-of-your-house-winter",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-keep-spiders-out-of-your-house",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-kill-bed-bug-eggs-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-remove-tick-from-dog-ontario",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-remove-tick-safely",
+   "headings": 5,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/how-to-stop-deer-eating-cedars-ontario",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/i-found-tick-on-my-dog-what-to-do",
+   "headings": 7,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/is-deet-safe",
+   "headings": 12,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/is-mosquito-spray-safe-kids-pets",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/june-bugs-ontario",
+   "headings": 7,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/katchy-indoor-insect-trap-review-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/knock-down-bed-bug-killer-review-canada",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/konk-bed-bug-killer-review-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/laser-mosquito-killer-photon-matrix-review",
+   "headings": 33,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/lone-star-tick-alpha-gal-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/longray-thermal-fogger-review-canada",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/lyme-disease-cases-ontario-2026",
+   "headings": 5,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/lyme-disease-risk-areas-ontario-2026",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/lyme-disease-symptoms-guide",
+   "headings": 9,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/lyme-disease-tick-prevention-ontario",
+   "headings": 7,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mcculloch-mc1275-steamer-review-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-bite-treatment-relief",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-bits-canada-vs-dunks",
+   "headings": 12,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-coils-canada",
+   "headings": 5,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-dunks-canada-guide",
+   "headings": 17,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-facts",
+   "headings": 8,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-fogger-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-hawk-explained",
+   "headings": 23,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-magnet-canada",
+   "headings": 18,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-magnet-vs-dynatrap-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-net",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-netting-vs-barrier-spray",
+   "headings": 6,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-repellent-bracelets-canada",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-repellent-for-dogs",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-repellent-guide-ontario-2026",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-repellent-plants-ontario",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-repellent-stickers-patches-canada",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-screened-porch-kit-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-screens-patio-canada",
+   "headings": 4,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mosquito-trap-running-cost-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/motion-activated-sprinkler-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mouse-bait-station-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mouse-proof-garage-door-seal-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/mouse-repellent-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/natural-eco-friendly-mosquito-control-ontario",
+   "headings": 4,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/natural-mosquito-repellent-ontario",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/no-see-um-bites",
+   "headings": 18,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/no-see-ums-biting-midges-ontario",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/off-deep-woods-deet-bug-spray-canada",
+   "headings": 4,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/ontario-tick-surge-2026",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/ortho-home-defense-bed-bug-review-canada",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/outdoor-fan-mosquito-control-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/packtite-closet-review-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/packtite-portable-review-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/packtite-vs-zappbug-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/pantry-moth-traps-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/patio-heater-vs-fire-table-canada",
+   "headings": 11,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/patio-misting-system-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/pergola-mosquito-curtains-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/permethrin-canada-yard-clothing-spray",
+   "headings": 15,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/picaridin-vs-deet",
+   "headings": 5,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/propane-mosquito-trap-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/propane-vs-electric-fogger-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/raccoon-and-skunk-proofing-under-a-deck-canada",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/raccoon-deterrent",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/raccoon-proof-chimney-cap-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/rat-poison-canada-what-is-legal",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/red-ticks-and-clover-mites",
+   "headings": 17,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/rescue-why-trap-review-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/rodent-exclusion-kit-canada",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/rodent-proof-compost-bin-canada",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/smells-mosquitoes-hate",
+   "headings": 4,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/spring-tick-season-ontario",
+   "headings": 7,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/steamer-vs-heater-for-bed-bugs-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/sureguard-mattress-encasement-review-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/thermacell-canada-where-to-buy",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/thermacell-e90-canada-review",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/thermacell-refills-recharge-canada",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/thermal-vs-ulv-fogger-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/thermalstrike-ranger-review-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/tick-bite-symptoms-what-to-do-ontario",
+   "headings": 9,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/tick-bite-vs-mosquito-bite",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/tick-borne-diseases-ontario-complete-list",
+   "headings": 8,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/tick-head-stuck-in-skin",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/tick-prevention-yard-ontario-safe-for-kids",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/tick-removal-tool-guide",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/tick-repellent-for-dogs-ontario",
+   "headings": 4,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/tick-season-ontario-when-are-ticks-active",
+   "headings": 4,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/tick-tubes-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/tick-vs-bed-bug",
+   "headings": 17,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/types-of-ticks-identification",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/ultimate-backyard-mosquito-control-guide",
+   "headings": 13,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/ultimate-tick-control-guide-ontario",
+   "headings": 12,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/ultrasonic-pest-repellers-do-they-work",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/vapamore-mr100-steamer-review-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/wasp-dust-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/west-nile-virus-ontario-2026",
+   "headings": 7,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/what-attracts-mosquitoes-to-you",
+   "headings": 6,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/what-blood-type-do-mosquitoes-bite",
+   "headings": 21,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/what-colors-attract-mosquitoes",
+   "headings": 7,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/what-does-a-spider-bite-look-like",
+   "headings": 28,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/what-does-a-tick-bite-look-like",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/what-does-mouse-poop-look-like-canada",
+   "headings": 20,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/what-does-tick-look-like-on-dog",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/what-eats-ticks-and-mosquitoes",
+   "headings": 4,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/what-flowers-attract-mosquitoes",
+   "headings": 6,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/what-kills-bed-bugs-instantly-canada",
+   "headings": 10,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/what-percentage-of-ticks-carry-lyme-ontario",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/what-size-dehumidifier-do-i-need-canada",
+   "headings": 7,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/what-temperature-kills-mosquitoes",
+   "headings": 32,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/when-are-mosquitoes-most-active",
+   "headings": 13,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/when-to-schedule-first-mosquito-treatment-ontario",
+   "headings": 6,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/when-to-worry-about-a-mosquito-bite",
+   "headings": 13,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/why-do-mosquitoes-bite-my-ankles",
+   "headings": 5,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/why-do-mosquitoes-exist",
+   "headings": 9,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/blog/why-mosquitoes-bite-some-people-more",
+   "headings": 13,
+   "related": false,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/wondercide-canada-review",
+   "headings": 5,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/zappbug-heater-review-canada",
+   "headings": 6,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/zappbug-oven-2-review-canada",
+   "headings": 9,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/blog/zappbug-room-review-canada",
+   "headings": 8,
+   "related": true,
+   "buyAbove": true
+  },
+  {
+   "path": "/learn/how-to-combat-mosquitoes",
+   "headings": 4,
+   "related": false,
+   "buyAbove": false
+  },
+  {
+   "path": "/learn/how-to-combat-ticks",
+   "headings": 5,
+   "related": true,
+   "buyAbove": false
+  },
+  {
+   "path": "/learn/mosquito-life-cycle",
+   "headings": 4,
+   "related": false,
+   "buyAbove": false
+  },
+  {
+   "path": "/learn/ontario-mosquito-tick-diseases",
+   "headings": 6,
+   "related": false,
+   "buyAbove": false
+  },
+  {
+   "path": "/learn/tick-life-cycle",
+   "headings": 4,
+   "related": false,
+   "buyAbove": false
+  }
+ ],
+ "skipped": [
+  "/blog/how-to-do-a-tick-check: no section break below the first Amazon button (6 plain headings)",
+  "/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario: no section break below the first Amazon button (1 plain headings)",
+  "/blog/how-to-keep-ticks-out-of-yard-ontario: no section break below the first Amazon button (0 plain headings)",
+  "/blog/how-to-prevent-mosquitoes-in-your-backyard: no section break below the first Amazon button (2 plain headings)",
+  "/blog/male-vs-female-mosquito: no section break below the first Amazon button (5 plain headings)",
+  "/blog/mosquito-bite-vs-spider-bite: no section break below the first section (0 plain headings)",
+  "/blog/mosquito-mistakes-ontario-homeowners-make: no section break below the first Amazon button (0 plain headings)",
+  "/blog/tick-bites-that-wont-heal-when-to-worry: no section break below the first Amazon button (1 plain headings)",
+  "/blog/traces-punaises-de-lit-matelas: switched off in data/recirculation-overrides.json"
+ ],
+ "problems": [],
+ "unchanged": 295,
+ "written": 26
+}

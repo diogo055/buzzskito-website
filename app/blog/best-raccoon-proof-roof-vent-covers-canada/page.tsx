@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-raccoon-proof-roof-vent-covers-canada'
 const DATE = '2026-08-22'
@@ -175,6 +177,7 @@ export default function BestRaccoonProofRoofVentCoversCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="stainless steel roofing screws neoprene washer hex head">Stainless roofing screws &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-raccoon-proof-roof-vent-covers-canada" />
           <h2>Why Plastic Roof Vents Lose</h2>
           <p>The static box vent is good engineering for the job it was designed for &mdash; letting hot moist air out of an attic for thirty years with no moving parts. It is poor engineering against wildlife, for three reasons that compound in a Canadian climate.</p>
           <p><strong>The material embrittles.</strong> Moulded ABS and polypropylene spend Ontario summers at roof-surface temperatures far above air temperature, then winters near minus twenty. UV and thermal cycling turn a plastic that flexed when it was installed into one that cracks. A raccoon working a cracked flange with its forepaws is not performing a feat of strength.</p>
@@ -200,6 +203,7 @@ export default function BestRaccoonProofRoofVentCoversCanadaPage() {
           <p>An under-ventilated attic in an Ontario winter is not a theoretical problem. Warm moist air rises out of the house, and without airflow to carry it away it condenses on cold sheathing, frosts, and wets the wood and insulation at every thaw &mdash; black staining on the underside of the deck, matted insulation at a fraction of its rated R-value, and ice dams backing meltwater under the shingles.</p>
           <p>So the rules are: <strong>open mesh only, never a solid cap</strong>; the plastic winter covers sold for dryer and wall vents have no business on a roof vent; use the largest opening that still excludes your animal, which for raccoons is half an inch, not a quarter; and inspect the guards on the same schedule as the eavestrough clean-out, because leaves, needles, and shed shingle granules eventually blind mesh that started out open.</p>
 
+          <RelatedLinks path="/blog/best-raccoon-proof-roof-vent-covers-canada" />
           <h2>Soffits and Gables: The Entry Nobody Checks</h2>
           <p>If we could redirect one dollar of the average roof-exclusion budget, it would go from the roof vents to the eaves. Vented aluminum and vinyl soffit panels sit in a J-channel and are removable by design &mdash; that is how they are installed and serviced. A raccoon hanging from an eave can pull one down with modest effort, and it does not do this at random: the reliable spot is the <strong>soffit return</strong>, where a lower roof runs into an upper wall and the corner offers both a platform to stand on and an edge to hook. On a two-storey with a front portico or a garage roof meeting the second floor, that corner is the first place a wildlife technician looks. Once a panel is down, the animal is into the eave cavity and over the top plate into the attic without ever touching a roof vent.</p>
           <p>The fix is technique more than product. Cut half-inch hardware cloth to back the vulnerable panel runs and fasten it into the fascia and wall framing so the mesh, not the panel, is the barrier. Screw the panels themselves rather than leaving them loose in the channel, and where a lower roof meets a wall carry the mesh up behind the shingle line so there is no gap at the top of the return. Gable louvres &mdash; often a grille with nothing but insect screen behind it &mdash; get the same treatment. Keep it all open mesh: soffit vents are your intake air, and blocking them while leaving roof vents open makes the ventilation worse, not better.</p>

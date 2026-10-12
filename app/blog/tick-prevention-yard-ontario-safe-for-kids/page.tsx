@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, faqSchema, blogPostingSchema, speakabl
 import { BUSINESS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const UPDATED = '2026-04-07'
 
@@ -191,6 +193,7 @@ export default function TickPreventionYardKidsPage() {
           />
           <p>For a wider comparison of DIY yard options — granules, concentrates, and tick tubes — see our guide to the <Link href="/blog/best-tick-repellent-yard-canada" className="text-brand-700 hover:underline">best tick repellent for your yard in Canada</Link>.</p>
 
+          <NextUp path="/blog/tick-prevention-yard-ontario-safe-for-kids" />
           <h2>Is Professional Barrier Spray Safe for Children and Pets?</h2>
           <p>This is the question BuzzSkito gets most often from parents, and it deserves a direct answer: <strong>keep children and pets off treated areas until the spray has dried, as the product label directs.</strong> Here is how the product is regulated, how it is applied, and what your family should do on treatment day.</p>
           <p>Here's the regulatory context. In Canada, pesticides are regulated under the <em>Pest Control Products Act</em>, and every product carries a label with a PCP registration number and directions for use, including when people and pets can return to a treated area. Commercial applicators in Ontario must also hold a provincial licence; BuzzSkito works under {PROMISES.licence}. The active ingredients in professional tick barrier spray are typically pyrethrins or synthetic pyrethroids like bifenthrin.</p>
@@ -217,6 +220,7 @@ export default function TickPreventionYardKidsPage() {
           <p>If you are in Mississauga, that Credit River line is the one to watch, and the local emergence dates are set out in <Link href="/blog/tick-season-mississauga-when-are-ticks-active" className="text-brand-700 underline">our Mississauga tick season calendar</Link> so you can book the first visit before the nymphs are out rather than after.</p>
           <p>BuzzSkito prices a full five-treatment tick season at <strong>$597</strong> on its own, or <strong>$497</strong> when you add it to any mosquito plan — a $100 saving. A single one-off treatment starts at $99 if you want to try it before committing to the season.</p>
 
+          <RelatedLinks path="/blog/tick-prevention-yard-ontario-safe-for-kids" />
           <h2>Personal Repellent: The Second Layer for Kids</h2>
           <p>Yard treatment lowers the tick population where your children play, but a skin-applied repellent adds a second layer for trips to the park, cottage, or trail. For children, <strong>picaridin (icaridin)</strong> is the pediatric-friendly choice many parents prefer over DEET — its label permits use on children as young as six months, it is odourless, and it will not damage plastics or clothing. Apply it to exposed skin before outdoor play and reapply per the label.</p>
           <p className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="picaridin insect repellent canada">Check price on Amazon.ca →</BuyLink></p>

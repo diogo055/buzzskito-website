@@ -9,6 +9,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'tick-removal-tool-guide'
 const DATE = '2026-04-26'
@@ -202,6 +204,7 @@ export default function TickRemovalToolGuidePage() {
             <BuyLink tag={AMZ_TAG} search="tick removal card">Wallet tick card &rarr;</BuyLink>
           </p>
 
+          <NextUp path="/blog/tick-removal-tool-guide" />
           <h2>The Top 3 Tick Removal Tools (Ranked)</h2>
 
           <h3>🥇 1. Tick Twister / O&rsquo;Tom Tick Twister — Best Overall</h3>
@@ -259,6 +262,7 @@ export default function TickRemovalToolGuidePage() {
             <li><strong>Note the date and bite location</strong> for monitoring symptoms over the next 5 months.</li>
           </ol>
 
+          <RelatedLinks path="/blog/tick-removal-tool-guide" />
           <h2>What If the Mouthparts Stay Behind?</h2>
           <p>It happens with imperfect technique. If a small black dot remains in the skin after the body is removed: <strong>leave it alone</strong>. The skin will work it out on its own in a few days, like a splinter. Don&rsquo;t dig at it — that causes more inflammation and infection risk than the splinter itself. Watch for spreading redness or pus and call your doctor/vet if those appear.</p>
           <p>If that black dot is still there a week later, or the skin around it is getting angrier rather than calmer, our longer guide to <Link href="/blog/tick-head-stuck-in-skin" className="text-brand-700 underline">a tick head stuck in the skin</Link> walks through what is normal healing, what is a local reaction, and which signs mean it is worth getting looked at.</p>

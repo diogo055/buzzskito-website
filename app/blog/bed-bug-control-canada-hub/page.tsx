@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-control-canada-hub'
 const DATE = '2026-07-21'
@@ -289,6 +291,7 @@ export default function BedBugControlCanadaHubPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug mattress encasement">Encasements →</BuyLink>
           </div>
 
+          <NextUp path="/blog/bed-bug-control-canada-hub" />
           <h2>The Layered Plan That Actually Works</h2>
           <p>Every successful bed-bug treatment &mdash; professional or DIY &mdash; is really the same five-part protocol. Skip a layer and you leave a survival route open. In order of who does the heavy lifting:</p>
           <ol>
@@ -317,6 +320,7 @@ export default function BedBugControlCanadaHubPage() {
           </ul>
           <p>For the situation-specific playbooks &mdash; a whole-house DIY job, an apartment with shared walls, or a pure heat approach &mdash; see <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">how to get rid of bed bugs</Link>, <Link href="/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada">bed bugs in an apartment</Link>, <Link href="/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada">the full DIY walkthrough</Link>, and <Link href="/blog/bed-bug-heat-treatment-diy-canada">DIY heat treatment</Link>. Worried specifically about the eggs surviving? Our guide to <Link href="/blog/how-to-kill-bed-bug-eggs-canada">killing bed-bug eggs</Link> covers the temperature-and-dwell details.</p>
 
+          <RelatedLinks path="/blog/bed-bug-control-canada-hub" />
           <h2>How to Choose: What You Are Actually Paying For</h2>
           <p>The cost of a DIY bed-bug plan can range from under a hundred dollars to well over a thousand, and it is worth being clear-eyed about which spending genuinely buys results versus convenience. Prioritise in this order:</p>
           <ul>

@@ -10,6 +10,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { NEW_BLOGS_2, TICK_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const POST = NEW_BLOGS_2[2]
 
@@ -237,6 +238,7 @@ export default function TickBiteSymptomsPage() {
         </ul>
         <p>Your doctor may prescribe a single preventive dose of doxycycline antibiotic if the bite meets certain criteria — this has been shown to reduce Lyme disease risk when given within 72 hours of tick removal.</p>
 
+        <NextUp path="/blog/tick-bite-symptoms-what-to-do-ontario" />
         <h2>Ontario Tick Risk by Region</h2>
         <p>Blacklegged tick populations are established across much of Southern Ontario, with the highest confirmed activity in:</p>
         <ul>

@@ -9,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'what-eats-ticks-and-mosquitoes'
 const DATE = '2026-07-12'
@@ -206,6 +207,7 @@ export default function WhatEatsTicksAndMosquitoesPage() {
           </ul>
           <p>Worth flagging one case of mistaken identity, because the nickname causes it: the long-legged insect most Ontarians see bouncing off a porch light is a crane fly, not a dragonfly, and it eats no mosquitoes at any life stage. <Link href="/blog/mosquito-hawk-explained">Our mosquito hawk explainer</Link> untangles which insect the name actually refers to.</p>
 
+          <NextUp path="/blog/what-eats-ticks-and-mosquitoes" />
           <h2>What Eats Ticks?</h2>
           <p>Ticks have fewer natural enemies than mosquitoes, partly because they spend most of their lives hidden in leaf litter and grass rather than flying around. The animals that do eat them tend to be ground foragers and grooming mammals.</p>
           <ul>

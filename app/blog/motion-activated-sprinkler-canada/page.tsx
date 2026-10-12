@@ -12,6 +12,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'motion-activated-sprinkler-canada'
 const DATE = '2026-07-21'
@@ -210,6 +212,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
           <p>The Orbit Yard Enforcer is the best motion-activated sprinkler for Canadian yards, and it is not a close race. Plenty of products in this category can detect motion and fire water; the Yard Enforcer is the one that got the <em>sensing intelligence</em> right — a proper day/night/24-hour mode selector, an anti-false-trigger algorithm that learns to ignore wind-blown branches, and a battery budget that lasts an entire season. Those three things are the difference between a deterrent your household tolerates for years and a gadget that soaks the letter carrier twice and gets banished to the garage.</p>
           <p>The concept itself is beautifully simple. A passive infrared sensor — the same technology as a security floodlight — watches a wedge of your yard for the heat signature of a moving animal. When something warm crosses the zone, a valve snaps open and an impact-sprinkler head fires a short, noisy burst of cold water. The combination of sudden spray, the mechanical clatter of the head, and pure surprise is deeply unpleasant to raccoons, cats, squirrels, skunks, and deer — without harming a hair on any of them. The animal does not just leave; it learns that your yard is unpredictable and hostile, which is the entire behavioural game.</p>
 
+          <NextUp path="/blog/motion-activated-sprinkler-canada" />
           <h2>How the Day/Night Sensor Actually Works</h2>
           <p>This is the feature to understand before buying anything, because it is what separates the Orbit from the sea of lookalikes. The Yard Enforcer pairs its motion sensor with a light sensor and a four-position dial:</p>
           <ul>
@@ -280,6 +283,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
           </ul>
           <p>Grub control, den-site exclusion, securing green bins, and the full raccoon playbook are covered in our companion guide to <Link href="/blog/raccoon-deterrent">raccoon deterrents in Canada</Link> — the sprinkler is the anchor product of that strategy, but it works best as one layer of several.</p>
 
+          <RelatedLinks path="/blog/motion-activated-sprinkler-canada" />
           <h2>Placement Strategy: How to Beat Habituation</h2>
           <p>Every negative review of a motion-activated sprinkler tells the same story: &ldquo;worked great for two weeks, then the animals ignored it.&rdquo; That is not a defective sensor — it is a stationary one. Animals habituate to any fixed stimulus once they learn its exact boundaries. The fix is to run the sprinkler like a mobile patrol rather than a fixed turret:</p>
           <ul>

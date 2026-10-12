@@ -9,6 +9,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-magnetic-screen-door-canada'
 const DATE = '2026-07-30'
@@ -303,6 +305,7 @@ export default function BestMagneticScreenDoorCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="window screen repair kit spline roller mesh">Screen repair kit &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-magnetic-screen-door-canada" />
           <h2>Sizing: Measure the Opening, Not the Door</h2>
           <p>This is the single most common ordering error, and it produces most of the one-star reviews in the category. The mesh panels are designed to hang <em>over the front of the frame</em> and overlap its edges, with the hook-and-loop strip attached to the trim around the opening. A curtain matched to the door slab therefore ends up narrower than the opening it is meant to cover, leaving a gap down each side that mosquitoes find within a day.</p>
           <p>Do it this way. Open the door fully and measure the width of the opening between the inside faces of the frame, at the top, middle and bottom, and take the largest number &mdash; older Canadian houses are rarely square. Measure the height the same way, floor or threshold to the underside of the head trim, at both sides. Then buy the listed size that is <strong>equal to or slightly larger</strong> than those numbers. Extra width hangs harmlessly at the sides or can be trimmed and re-hemmed; extra height puddles slightly at the floor, which is generally fine and sometimes helpful. A shortfall of even a couple of centimetres, in either direction, is a permanent gap that no amount of adjustment closes.</p>
@@ -327,6 +330,7 @@ export default function BestMagneticScreenDoorCanadaPage() {
           <p>Children are a smaller problem than people expect, provided the magnets are strong enough to close behind someone moving quickly. A weak magnet line and a running six-year-old leave the seam half open for a minute at a time, which is a mosquito door rather than a mosquito screen.</p>
           <p>On lifespan generally: treat a magnetic curtain as a seasonal Canadian item. Put it up in spring, take it down in the fall, fold it loosely rather than creasing it hard, and store it dry indoors. Leaving one up through a Canadian winter puts UV, freeze-thaw, and wind on a stiff frozen panel to work on the adhesive and stitching, and the thing that goes first is the top hem that was already carrying all the load.</p>
 
+          <RelatedLinks path="/blog/best-magnetic-screen-door-canada" />
           <h2>The Cheaper Answer We Would Rather You Take</h2>
           <p>If you already have a screen door, or a slider with a factory screen panel in its track, and the only problem is a hole or a sagging patch of mesh &mdash; repair it. A screen repair kit is a roll of replacement mesh, a length of rubber spline, and a spline roller, and rescreening a frame on a picnic table takes about fifteen minutes with no particular skill. You end up with a proper framed screen, which is a better product than a curtain in every respect except hands-free passage, and there is nothing to take down in October.</p>
           <p>The genuine cases for buying a curtain instead are: there is no screen on that doorway at all; the existing screen door is broken beyond a rescreen; you rent and cannot modify the building; or you want hands-free passage on a door you carry things through constantly. Hanging a curtain in front of a perfectly good screen door is redundant, and we would rather say that than sell you one.</p>

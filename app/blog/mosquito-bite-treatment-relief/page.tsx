@@ -9,6 +9,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-bite-treatment-relief'
 const DATE = '2026-07-13'
@@ -206,6 +208,7 @@ export default function MosquitoBiteTreatmentReliefPage() {
             </div>
           </aside>
 
+          <NextUp path="/blog/mosquito-bite-treatment-relief" />
           <h2>What Actually Works vs Common Myths</h2>
           <p>Plenty of internet remedies get passed around every summer. Here is the honest split. <strong>Cold, hydrocortisone, and antihistamines</strong> are the workhorses with the best support. <strong>Calamine, baking-soda paste, and after-bite ammonia sticks</strong> help to a mild-to-moderate degree. Brief <strong>heat</strong> &mdash; a warm (not scalding) compress or a purpose-made heat pen around 50&deg;C &mdash; relieves itch for some people, likely by breaking down the irritant proteins; use it carefully to avoid burns.</p>
           <p>The remedies that do <em>not</em> hold up: <strong>toothpaste, spit, and vinegar-soaked folk cures</strong> rarely do more than distract you, and toothpaste can irritate broken skin. The single worst thing you can do is <strong>scratch</strong>. It feels great for a second and then releases more histamine, spreads the reaction, and &mdash; most importantly &mdash; can break the skin and let bacteria in, which is how a harmless itchy bump turns into an infected one.</p>
@@ -215,6 +218,7 @@ export default function MosquitoBiteTreatmentReliefPage() {
           <p><strong>Infected bite (often from scratching):</strong> instead of fading, the bite gets worse &mdash; redness spreads outward, the skin feels warm and increasingly painful, and you may see pus, yellow crusting, or red streaks trailing away from the site. Fever or tender, swollen glands can go with it. Spreading redness with streaking can signal <strong>cellulitis</strong>, a skin infection that usually needs antibiotics, so do not wait it out.</p>
           <p><strong>Skeeter syndrome (a bite allergy):</strong> some people, especially young children and those new to an area, react to mosquito saliva with a large, hot, firm, red swelling that can be several centimetres across, sometimes with blistering or a low fever, appearing within hours. It looks alarming and is easy to confuse with infection, but it is an allergic reaction, not bacteria. Cold, oral antihistamines, and hydrocortisone are the mainstays; severe or recurring cases should see a doctor.</p>
 
+          <RelatedLinks path="/blog/mosquito-bite-treatment-relief" />
           <h2>When to See a Doctor</h2>
           <p>Get medical care promptly if you notice any of the following:</p>
           <ul>

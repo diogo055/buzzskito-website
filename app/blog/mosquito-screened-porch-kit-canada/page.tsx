@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-screened-porch-kit-canada'
 const DATE = '2026-08-22'
@@ -217,6 +219,7 @@ export default function MosquitoScreenedPorchKitCanadaPage() {
           <p>That changes the budget completely. A freestanding screened structure has to pay for a frame and a roof before it stops a single mosquito. A curtain kit pays only for mesh, hardware and doors &mdash; which is why a porch of two or three openings can be closed in for a few hundred dollars, while the equivalent freestanding structure starts at several times that. If you are still deciding between the two approaches, our comparison of <Link href="/blog/mosquito-screens-patio-canada">every patio mosquito screen option</Link> lays them side by side, and if you have no roof at all, the <Link href="/blog/hardtop-vs-soft-top-mosquito-gazebo-canada">hardtop versus soft-top gazebo comparison</Link> is the decision you actually face.</p>
           <p>One thing a curtain kit is not: a screen-room addition. Those are framed walls with screen set into spline channels, built by a contractor, and they are a different budget and usually a different permitting conversation. Everything below is about hanging removable mesh from a structure that already exists.</p>
 
+          <NextUp path="/blog/mosquito-screened-porch-kit-canada" />
           <h2>Measuring: The Step That Decides Whether It Works</h2>
           <p>More screened-porch projects fail at the tape measure than anywhere else, because people measure one width, one height, and order. Decks and porches are not square. Here is the sequence that avoids the gap:</p>
           <ul>
@@ -254,6 +257,7 @@ export default function MosquitoScreenedPorchKitCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="vinyl coated polyester mesh porch screen panel">Check vinyl-coated mesh &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/mosquito-screened-porch-kit-canada" />
           <h2>The Gap Almost Every Canadian Porch Leaves Open</h2>
           <p>Here is the mistake we see most, and it has nothing to do with which kit you bought. People close the vertical openings beautifully and leave two gaps.</p>
           <p><strong>The bottom hem.</strong> Decks are pitched for drainage and boards cup and twist. A hem cut to a level line will sit tight at one end of a run and stand a centimetre or two off the boards at the other. That gap is at ankle height, which is exactly the altitude mosquitoes fly at &mdash; and it is the reason a porch that looks perfectly sealed still fills up at dusk. Fix it with a weighted hem that follows the boards, a bottom tension bar, or a wood batten strip screwed down over the mesh. Any of the three works; leaving it is what does not.</p>

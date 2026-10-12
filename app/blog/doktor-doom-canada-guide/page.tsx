@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'doktor-doom-canada-guide'
 const DATE = '2026-07-30'
@@ -369,6 +371,7 @@ export default function DoktorDoomCanadaGuidePage() {
             <BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug">Sleep Tight &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/doktor-doom-canada-guide" />
           <h2>What the PCP Number Buys You &mdash; and What It Does Not</h2>
           <p>It is worth being precise here, because the registration number gets treated online as a quality mark and it is not one.</p>
           <p><strong>What it gets you.</strong> Legality: the product may lawfully be sold and used in Canada, which an imported can may not. A Canadian label: the pests, use sites, application rates, re-entry intervals for people and pets, and safety directions were reviewed against Canadian requirements. And traceability: a registered product is a known, published formulation, not an unlabelled bottle from a marketplace seller with a photograph of the front only.</p>
@@ -401,6 +404,7 @@ export default function DoktorDoomCanadaGuidePage() {
             <li><strong>A third can of the same active ingredient.</strong> If two correct applications did not move the population, a third purchase of the same chemistry is not a new plan.</li>
           </ul>
 
+          <RelatedLinks path="/blog/doktor-doom-canada-guide" />
           <h2>How to Use the Two Products Most People Should Actually Buy</h2>
           <p><strong>The perimeter residual.</strong> Three rules decide whether it does anything. Apply <em>at dusk</em> when nocturnal crawling insects are about to move, so the material meets them at full strength rather than after a day of sun. Treat <em>the band, not the lawn</em>: the bottom of the foundation wall, the ground immediately in front of it, thresholds and around window wells. And treat it as a <em>knockdown, not a solution</em> &mdash; if the mulch bed, the eavestrough or the drainage is producing the insects, the band buys you weeks, not a season. Our <Link href="/blog/best-earwig-killer-canada">earwig product guide</Link> works through this in detail for the pest that most often prompts it.</p>
           <p><strong>The diatomaceous earth.</strong> This is the item in the range with the best long-run value and the worst application habits. What kills is a <em>barely visible film</em>: insects detect and route around a visible pile, so a heavy application is worse than a light one, and you cannot lay a light one straight from the bag. Buy a bulb or hand duster in the same order. It goes in dry places only &mdash; inside wall voids, under appliances and cabinet kick plates, along sill plates, in crawl spaces, under decks the rain does not reach &mdash; because it goes inert the moment it is damp. Wear a dust mask while applying, keep it out of the airway, and never substitute pool-grade DE, which is calcined, contains crystalline silica, is a genuine respiratory hazard, and is worse at absorbing insect wax anyway. Grades and brands are compared in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">Canadian diatomaceous earth guide</Link>.</p>

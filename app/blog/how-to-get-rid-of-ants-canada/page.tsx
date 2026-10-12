@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-ants-canada'
 const DATE = '2026-07-27'
@@ -373,6 +375,7 @@ export default function HowToGetRidOfAntsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="diatomaceous earth insect duster">DE + duster →</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-ants-canada" />
           <h2>First, Which Ant Are You Fighting?</h2>
           <p>Four species are the ones most often reported inside Ontario homes, and they demand different responses.</p>
           <p><strong>Pavement ant &mdash; the one most often reported indoors.</strong> Small (2.5&ndash;3 mm), dark brown to black, with fine parallel grooves on the head and thorax you can see with a phone macro shot. Its Canadian signature is the little volcano of excavated sand at the edge of a driveway crack or between patio slabs. It nests under hardscape &mdash; walkways, front steps, garage aprons, the concrete apron around a pool &mdash; and forages inside through the sill-plate gap or the slab edge. Pavement ants are pure nuisance: no bite worth mentioning, no structural damage, no health risk. They are also the easiest species to eliminate, because they take liquid sugar bait enthusiastically and colonies are usually single-nest.</p>
@@ -440,6 +443,7 @@ export default function HowToGetRidOfAntsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="door sweep silicone caulk gap sealant">Check door sweeps and sealant on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-ants-canada" />
           <h2>What the Canadian Rules Actually Mean for Your Ant Shopping</h2>
           <p>Two layers of regulation apply, and knowing them makes you a much harder person to sell junk to.</p>
           <p><strong>Federal: PMRA registration.</strong> Health Canada&rsquo;s Pest Management Regulatory Agency registers the pesticides that may legally be sold or used in Canada &mdash; with narrow exemptions for a listed set of minimum-risk products &mdash; and a registered product carries a PCP registration number on its label. That number is your one-glance test. It is the reason American forum advice fails Canadians so often: a great many of the products named in a US ant thread simply are not registered here, and the cross-border marketplace listings that appear to solve that are usually US-labelled stock with no Canadian directions behind them. This applies to gels, concentrates, dusts sold as insecticides, and anything else making a pest-kill claim.</p>

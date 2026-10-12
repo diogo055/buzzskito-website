@@ -6,6 +6,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-blood-type-do-mosquitoes-bite'
 const AMZ_TAG = tagForSlug(SLUG)
@@ -358,6 +360,7 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
           <AffiliateDisclosure />
           <p>If you need to restock before the weekend, a DEET or picaridin spray with a visible EPA registration number (or PCP number in Canada) is the workhorse choice. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent spray">Check picaridin &amp; DEET repellents on Amazon &rarr;</BuyLink></p>
 
+          <NextUp path="/blog/what-blood-type-do-mosquitoes-bite" />
           <h2>Which mosquito is actually biting you? Species, ranges and biting times</h2>
           <p>Almost every article on this topic says &ldquo;mosquitoes&rdquo; as though there were one of them. There are thousands of species, they behave differently, and &mdash; crucially for this page &mdash; the blood-type studies only ever tested a couple of them.</p>
 
@@ -390,6 +393,7 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
 
           <p>Of the levers on that list, clothing is the one that costs nothing to use again tomorrow. Mosquitoes bite through thin, tight fabric &mdash; leggings and a jersey T-shirt are not the barrier people assume &mdash; so the cover-up that actually works is loose and light-coloured, and at the far end of it is a mesh bug jacket or a head net for the hour at dusk when the yard is at its worst. It is the cheapest thing in this article that works identically for every blood type, every skin chemistry and every CO<sub>2</sub> output. <BuyLink tag={AMZ_TAG} search="mosquito net bug jacket">Check bug jackets &amp; head nets on Amazon &rarr;</BuyLink></p>
 
+          <RelatedLinks path="/blog/what-blood-type-do-mosquitoes-bite" />
           <h2>Why this matters in the United States</h2>
           <p>The Ontario picture below has a US counterpart, and the details differ enough to state separately. <strong>West Nile virus is the most common mosquito-borne disease in the continental United States</strong>, and the CDC tracks it &mdash; along with other arboviruses &mdash; through the national ArboNET surveillance system. Most people who are infected never develop symptoms; a small proportion develop serious neurological illness. As in Canada, the way you lower your risk is by lowering your number of bites.</p>
           <p>Alongside West Nile, the CDC and state health departments also track:</p>

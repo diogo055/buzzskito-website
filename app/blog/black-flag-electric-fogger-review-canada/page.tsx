@@ -9,6 +9,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'black-flag-electric-fogger-review-canada'
 const DATE = '2026-07-21'
@@ -210,6 +212,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="outdoor extension cord">Outdoor extension cord →</BuyLink>
           </div>
 
+          <NextUp path="/blog/black-flag-electric-fogger-review-canada" />
           <h2>How the Thermal Fog Actually Works</h2>
           <p>Inside the Black Flag is a heating coil. When it is up to temperature and you press the trigger, an oil-based fogging insecticide is drawn across the coil, flash-heated into a vapour, and then instantly condenses in the cooler outside air into a dense fog of tiny droplets. Those droplets are small and light enough to drift into foliage, under deck boards, and into the shaded resting spots where adult mosquitoes wait out the day &mdash; then settle onto those surfaces and kill the insects they contact. The visible white cloud is the whole point: it shows you exactly where the product is going and lets you steer it into cover.</p>
           <p>This is a <em>thermal</em> fogger, which is a meaningful distinction. A ULV (ultra-low-volume) <Link href="/blog/best-ulv-cold-fogger-canada">cold fogger</Link> uses air pressure rather than heat to atomize a water-based solution, producing a nearly invisible mist and no drifting cloud. Thermal fog like the Black Flag&rsquo;s is denser, more dramatic, and drifts into vegetation better outdoors; cold fog is quieter, uses water-based products, and is the safer choice near structures or indoors. For open-air backyard knockdown, the thermal approach is well suited &mdash; which is why the format has been popular for decades.</p>
@@ -232,6 +235,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
           <p>A single fill covers roughly a quarter- to half-acre of typical backyard, depending on how densely you fog and how much wind is moving the cloud around. For a standard GTA residential lot &mdash; think a Mississauga, Brampton, or Oakville suburban yard &mdash; that is a good match. You can fog the perimeter, the shrub beds, under the deck, and the tree-line edges on one or two fills and clear the space effectively.</p>
           <p>The real constraint is the cord. Because the Black Flag is corded electric, your working radius is whatever your outdoor-rated extension cord will reach, and no farther. On a normal lot that is rarely a problem, but on acreage or a deep rural property you will hit the end of the cord long before you have covered the ground. That is exactly the point where a cordless machine wins: a <Link href="/blog/best-cordless-fogger-canada">gas thermal fogger</Link> or a <Link href="/blog/best-battery-backpack-sprayer-canada">battery backpack sprayer</Link> frees you from the outlet and covers far more territory per session. Buy the electric fogger for reach you can cover on a cord; buy cordless for reach you cannot.</p>
 
+          <RelatedLinks path="/blog/black-flag-electric-fogger-review-canada" />
           <h2>How to Choose: Sizing the Fogger to Your Yard</h2>
           <p>Foggers span a wide range, from a $50-class electric unit to professional gas machines, and the right pick is a function of your property and how you will use it. Match the tool to the job with these questions:</p>
           <ul>

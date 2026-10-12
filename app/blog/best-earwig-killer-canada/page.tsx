@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-earwig-killer-canada'
 const DATE = '2026-07-28'
@@ -381,6 +383,7 @@ export default function BestEarwigKillerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="door sweep garage door bottom seal weatherstrip">Door sweeps &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-earwig-killer-canada" />
           <h2>The Purchase to Skip: Commercial &ldquo;Earwig Traps&rdquo;</h2>
           <p>We are an affiliate publisher and we will still say it plainly: do not buy an earwig trap. There is no widely available consumer trap engineered for this insect the way the wasp market has genuine lure traps. What gets sold under the name is a tight dark space or a drowning liquid &mdash; which is a rolled newspaper tube or a tin of cooking oil, priced up.</p>
           <p>Build the tin instead. Sink a shallow can &mdash; tuna or cat food &mdash; so the rim sits flush with soil level, add a centimetre or two of vegetable oil plus a splash of soy sauce or bacon grease, and place it between the harbourage and whatever you are protecting. The fermented, oily odour is the attractant; the oil defeats surface tension so nothing climbs out. Use a lidded container with entry holes at soil level if you have a curious dog or a toddler. Full technique &mdash; rim height, placement, the rolled-newspaper variant, and why running traps for two to three consecutive nights is worthless while two to three consecutive <em>weeks</em> works &mdash; is in <Link href="/blog/how-to-get-rid-of-earwigs-canada">our earwig guide</Link>.</p>
@@ -407,6 +410,7 @@ export default function BestEarwigKillerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide">Check Doktor Doom Residual on Amazon.ca &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/best-earwig-killer-canada" />
           <h2>The Hardware List: What Ends It Instead of Killing It</h2>
           <p>The highest-return item most Canadians can buy for earwigs kills nothing at all, and it belongs on a page about killers for a specific reason: earwigs cannot establish indoors. A heated Canadian house is far too dry, and there is no food base comparable to the decaying matter, algae and small insects they eat outside. Every earwig in your bathtub is an incidental invader that walked in through a gap and would have died or left within days anyway. You are not buying a treatment. You are buying a door.</p>
           <ul>

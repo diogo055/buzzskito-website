@@ -9,6 +9,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'rain-barrel-mosquito-proof-canada'
 const DATE = '2026-08-22'
@@ -217,6 +219,7 @@ export default function RainBarrelMosquitoProofPage() {
           <p>Municipal and conservation-authority barrel sales have been running across the GTA for years, and they have worked &mdash; there are rain barrels behind an enormous number of Mississauga, Brampton, Oakville and Toronto houses that did not have one a decade ago. What went with them, in a lot of cases, was an open reservoir of warm, still, organically rich water sitting against a south-facing wall.</p>
           <p>That is not a marginal breeding site. It is close to the ideal one. <em>Culex pipiens</em> &mdash; the species most associated with West Nile virus in Ontario &mdash; specifically prefers stagnant water loaded with decaying organic matter, which is precisely what a barrel becomes after two months of roof runoff carries leaf fragments and shingle grit into it. The water is undisturbed, it is shaded from wind, it warms fast, and nothing predatory lives in it.</p>
           <p>On a larval inspection, the rain barrel is a stop we make on nearly every property that has one, and it produces more often than the birdbath, the tarp, the wheelbarrow or the plant saucers do. It is also the easiest of all of them to fix permanently, which is the reason this page exists rather than a page telling you to get rid of the barrel. There is no reason to give up the water.</p>
+          <NextUp path="/blog/rain-barrel-mosquito-proof-canada" />
           <p>If you want the full inventory of what else on a GTA lot holds water long enough to matter, our guide to <Link href="/blog/hidden-mosquito-breeding-spots-backyard">hidden mosquito breeding spots in the backyard</Link> walks the property corner by corner, and <Link href="/blog/does-standing-water-attract-mosquitoes">does standing water attract mosquitoes</Link> covers how little water it actually takes.</p>
 
           <h2>The Mesh Specification That Actually Matters</h2>
@@ -263,6 +266,7 @@ export default function RainBarrelMosquitoProofPage() {
             <BuyLink tag={AMZ_TAG} search="mosquito bits granules">Bti granules &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/rain-barrel-mosquito-proof-canada" />
           <h2>Sizing, Stands and the Part About 200 Kilograms</h2>
           <p>A standard Canadian rain barrel holds 190&ndash;220 L (50&ndash;58 US gallons). One millimetre of rain on 10 square metres of roof yields about 10 L, so a modest roof section fills a barrel in a single ordinary summer storm. That is the argument for linking barrels rather than buying a bigger one: capacity you can actually use, and a spare barrel is cheaper than an oversized custom tank.</p>
           <p>The stand matters more than it looks. The spigot sits near the bottom of the barrel, so gravity flow depends entirely on how high the barrel sits. At ground level you get a dribble that will not run a soaker hose; at 300&ndash;450 mm (12&ndash;18 in) you get usable pressure for a watering can or a short hose run.</p>

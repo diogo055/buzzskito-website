@@ -12,6 +12,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-natural-bed-bug-spray-canada'
 const DATE = '2026-07-21'
@@ -262,6 +264,7 @@ export default function BestNaturalBedBugSprayCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="natural essential oil bed bug spray">Budget botanical →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-natural-bed-bug-spray-canada" />
           <h2>How Natural Bed Bug Sprays Actually Work (and Where They Fail)</h2>
           <p>Plant-based bed-bug sprays kill through direct contact. Botanical actives like geraniol and cedar oil disrupt an insect&rsquo;s nervous system and attack the waxy outer cuticle, so a bug you spray directly will usually die within minutes. Pyrethrins &mdash; the plant-extracted active in products like Doktor Doom &mdash; hit the nervous system harder and faster, which is why they deliver more reliable knockdown but also sit at the stronger, less &ldquo;gentle&rdquo; end of the natural category.</p>
           <p>The failure mode is the same for every spray in the category, natural or synthetic: it only kills what it wets. Bed bugs spend the overwhelming majority of their lives hidden &mdash; deep in mattress seams, inside box-spring frames, in screw holes and joints, behind baseboards, and in wall voids. A spray droplet never reaches most of them. On top of that, botanical actives evaporate and break down quickly, so the residual you lay down is largely gone within a day or two, offering little protection against bugs that move back into treated areas afterward. That combination &mdash; poor reach plus short residual &mdash; is why a natural spray used alone almost never clears an established infestation. It is a genuinely useful knockdown tool for bugs and harbourage you can reach; it is not a cure in a bottle.</p>
@@ -282,6 +285,7 @@ export default function BestNaturalBedBugSprayCanadaPage() {
           </ul>
           <p>Read that as a decision map: confirm it&rsquo;s legal in Canada, then pick for knockdown, residual, or low odour depending on whether you are fighting an active infestation, trying to minimise re-sprays, or prioritising a low-odour bedroom.</p>
 
+          <RelatedLinks path="/blog/best-natural-bed-bug-spray-canada" />
           <h2>How to Apply Natural Bed Bug Spray Properly</h2>
           <p>Because contact sprays only kill what they wet, application technique is as important as which product you buy. Treat it as detail work:</p>
           <ul>

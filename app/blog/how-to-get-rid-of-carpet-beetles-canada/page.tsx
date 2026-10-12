@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-carpet-beetles-canada'
 const DATE = '2026-07-30'
@@ -347,6 +349,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="carpet beetle pheromone trap">Monitors &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-carpet-beetles-canada" />
           <h2>Step 1 &mdash; Find the Keratin. This Is the Whole Job.</h2>
           <p>Carpet beetle larvae eat keratin and other animal-derived material. That is a much wider menu than the name suggests, and the carpet is often the least of it. Work through this list in the rooms where you have seen adults, in roughly this order, because the top three account for most of the hidden sources in Canadian homes:</p>
           <ul>
@@ -382,6 +385,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
           </div>
           <p>Totes solve the folded half of the problem. The hanging half &mdash; coats, suits, anything wool that creases badly &mdash; needs a <strong>zippered garment bag</strong> instead, and the two details that matter are a full-length zip that closes all the way to the hook and a solid rather than mesh panel at the bottom, which is where an open-bottomed dust cover lets everything straight back in. Cotton or canvas bags breathe, which suits a damp basement closet better than sealed vinyl; vinyl suits a dry upstairs closet. Either way the item goes in clean, because zipping an unworn-since-March coat in with its own body-oil residue is the mistake this whole step exists to prevent. <BuyLink tag={AMZ_TAG} search="zippered garment storage bag">check zippered garment bags on Amazon.ca &rarr;</BuyLink></p>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-carpet-beetles-canada" />
           <h2>What You Can Legally Buy in Canada &mdash; and What the Label Has to Say</h2>
           <p>Chemistry has a narrow supporting role here, and Canadian rules narrow it further. Any product sold or used as an insecticide in Canada must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency and carry a <strong>PCP registration number</strong> on the label. That label is legally binding: the pests it lists and the surfaces and use sites it names are what you may legally treat, and a product that is registered for crawling insects in cracks and crevices is not automatically registered for spraying over a rug you walk on.</p>
           <p>Within those limits, the two things worth considering are:</p>

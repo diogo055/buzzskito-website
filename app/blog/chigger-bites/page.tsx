@@ -12,6 +12,8 @@ import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'chigger-bites'
 const DATE = '2026-07-19'
@@ -275,6 +277,7 @@ export default function ChiggerBitesPage() {
         <p>Chigger bites are the itchy welts left by the <strong>larval stage of trombiculid mites</strong> &mdash; tiny relatives of ticks and spiders known regionally as chiggers, harvest mites, red bugs, or berry bugs. Only the larva bites. It is about <strong>0.15&ndash;0.3 mm long (roughly 1/150 of an inch)</strong>, reddish-orange, and six-legged, which makes it effectively invisible on skin without magnification &mdash; a big part of why the bites feel so mysterious.</p>
         <p>Contrary to popular belief, chiggers do not drink blood. The larva attaches at a pore or hair follicle, injects saliva containing digestive enzymes that break down skin cells, and sips the liquefied tissue through a hardened tube of saliva called a <strong>stylostome</strong>. Your immune system reacts to the saliva and the stylostome, and that reaction &mdash; not the mechanical bite &mdash; produces the outsized, days-long itch. After feeding for anywhere from a few hours to a few days, the larva drops off, moults, and never bites again; nymph and adult trombiculid mites eat soil insects and their eggs, not people.</p>
 
+        <NextUp path="/blog/chigger-bites" />
         <h2>What do chigger bites look like?</h2>
         <p>Chigger bites usually appear as <strong>clusters of small red welts, pimple-like bumps, or hive-like patches</strong>, each often 1&ndash;10 mm (up to about 3/8 in) across, sometimes with a tiny central blister or a bright red dot &mdash; the stylostome &mdash; at the middle. Because the larvae wander until something stops them, the distribution on your body is the single best identification clue. Chiggers pile up where clothing presses against skin or where skin touches skin:</p>
         <ul>
@@ -514,6 +517,7 @@ export default function ChiggerBitesPage() {
         <p>Chiggers concentrate in <strong>low, damp vegetation where their small-animal hosts travel</strong>: tall grass and weeds, meadow edges, berry patches, orchards, stream banks, forest margins, and the shaggy transition zone where lawn meets brush. Within a property they are patchy &mdash; dense in one shaded, humid pocket and absent 3 m (10 ft) away &mdash; because larvae cluster near where their mother laid eggs and wait on vegetation for a host to brush past.</p>
         <p>Temperature rules their calendar. Larvae are active when ground temperatures run roughly <strong>25&ndash;30&deg;C (77&ndash;86&deg;F)</strong>, slow down below about <strong>16&deg;C (60&deg;F)</strong>, and are killed by sustained cold near <strong>6&deg;C (42&deg;F)</strong>. That makes chiggers overwhelmingly a hot-summer, warm-climate pest: pressure is heaviest across regions with long humid summers, and it thins out fast toward colder latitudes and higher elevations. Across most cold-winter regions &mdash; including nearly all of Canada &mdash; established chigger populations are rare to absent, and suspected &ldquo;chigger bites&rdquo; there usually turn out to be <Link href="/blog/flea-bites-on-humans">fleas</Link>, <Link href="/blog/bed-bug-bites">bed bugs</Link>, or <Link href="/blog/no-see-um-bites">no-see-ums</Link>. Knowing that saves cold-climate readers from treating a yard for a mite that is not there &mdash; and points warm-climate readers at the real habitat: the grassy edges, not the lawn itself.</p>
 
+        <RelatedLinks path="/blog/chigger-bites" />
         <h2>Where do chiggers live in the United States?</h2>
         <p>Chiggers are common from the Atlantic coast west through the Midwest and south into Mexico, heaviest across the South and Southeast. The main North American species is <em>Eutrombicula alfreddugesi</em>, with <em>Eutrombicula splendens</em> in Texas and along the Gulf. They thin out sharply in the dry interior West, where humidity is too low.</p>
         <p>That is one species name doing a lot of work, and it undersells the diversity: <strong>Kansas State Extension counts 46 or more chigger mite species in Kansas alone</strong>, only a handful of which bother people. For a reader trying to identify a bite, the practical point is that the biting species across the eastern two-thirds of the US behave the same way &mdash; larvae waiting on low vegetation, climbing until clothing stops them.</p>

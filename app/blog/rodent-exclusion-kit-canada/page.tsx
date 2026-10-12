@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'rodent-exclusion-kit-canada'
 const DATE = '2026-07-21'
@@ -298,6 +300,7 @@ export default function RodentExclusionKitCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="rodent proof garage door seal">Garage-door rodent seal →</BuyLink>
           </div>
 
+          <NextUp path="/blog/rodent-exclusion-kit-canada" />
           <h2>The Dime Rule: How Small Is Too Small to Ignore</h2>
           <p>Start with the fact that makes everyone re-do their first inspection: an adult house mouse passes through any opening the size of a dime, and a juvenile squeezes gaps of roughly 6 mm — the width of a pencil. The limiting factor is the skull; the rest of the animal is soft tissue and follows wherever the skull clears. This is why homeowners who sealed &ldquo;all the holes&rdquo; keep catching mice: they sealed the holes that look like holes, and left the ones that look like shadows under the siding.</p>
           <p>The rule gives you an objective test. Carry an actual dime on the inspection walk. Anything it could pass through gets metal and sealant — no judgment calls, no &ldquo;that&rsquo;s probably fine.&rdquo; For rats, the benchmark is a quarter, and everything in this guide scales up in gauge: rats gnaw harder, so larger voids get more copper mesh packed more densely, and screening moves to heavier hardware cloth. If your droppings are over a centimetre long or the gnaw marks show distinct tooth grooves, read this guide alongside our <Link href="/blog/how-to-get-rid-of-rats-canada">rat control guide</Link> — the exclusion walk is the same, the spec sheet is not.</p>
@@ -321,6 +324,7 @@ export default function RodentExclusionKitCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="hardware cloth 1/4 inch galvanized">Check 1/4&Prime; hardware cloth on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/rodent-exclusion-kit-canada" />
           <h2>Sealant and the Garage Door: The Two Finishing Layers</h2>
           <p>The sealant&rsquo;s job is to be the weatherproof lock, not the barrier — teeth beat any caulk ever made. Spend up on an exterior-grade polyurethane or hybrid-polymer sealant rated for masonry and for real cold: cheap interior latex shrinks as it cures, cracks in the first freeze-thaw cycle, and peels off brick in sheets. Use it two ways: capping every mesh plug flush with the surface, and closing the hairline gaps — under 6 mm — that are too small to stuff but still leak the warm air that draws rodents to investigate. A full perimeter on a typical detached house runs through several tubes; buy them all at once so colour and cure behaviour match.</p>
           <p>Then walk to the garage, because if your garage is attached, it is statistically your front line. The failure point is nearly always the door&rsquo;s bottom seal — specifically the two corners, where the rubber astragal meets the vertical track weatherstripping and almost never closes tight, and any spot where the concrete under the seal has chipped. Standard rubber is also chewable, and one motivated mouse turns a corner gap into a doorway overnight. The fix is a rodent-resistant garage-door bottom seal or corner-guard product built with chew-resistant material, plus patching any spalled concrete under the threshold so the seal actually has a flat surface to seal against. Treat the door from garage to house as an exterior door — sweep, weatherstripping, the works — so the garage becomes an airlock instead of a staging area. If mice have been overwintering in vehicles parked in that garage, our guides on <Link href="/blog/how-to-keep-mice-out-of-your-car">keeping mice out of your car</Link> and the <Link href="/blog/best-rodent-repellent-for-cars-canada">best rodent deterrents for vehicles</Link> pick up that thread.</p>

@@ -9,6 +9,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'tick-repellent-for-dogs-ontario'
 const DATE = '2026-07-09'
@@ -294,6 +295,7 @@ export default function TickRepellentForDogsPage() {
           <p>Nothing does. It is the most-searched phrase on this topic and it sets a false expectation. The fastest veterinary preventatives &mdash; the oral isoxazolines &mdash; are labelled to kill an attached tick in roughly <strong>8 to 24 hours</strong>. Nothing you can buy kills a tick the moment it lands.</p>
           <p>That sounds like bad news but it is not, because of how transmission works: a blacklegged tick usually needs to be <strong>attached for 24 to 48 hours</strong> before it passes the Lyme bacterium. A preventative that kills within 24 hours therefore beats the clock in most cases. And if you find a tick on your dog right now, the correct move is not medication at all &mdash; it is <strong>immediate mechanical removal</strong> with fine-tipped tweezers or a tick tool, gripping at skin level and pulling straight up with steady pressure.</p>
 
+          <NextUp path="/blog/tick-repellent-for-dogs-ontario" />
           <h2>Do Dog Ticks Carry Lyme Disease?</h2>
           <p>This is where the naming confuses people. The <strong>American dog tick does not transmit Lyme disease</strong>. Lyme is carried by the <strong>blacklegged tick (deer tick)</strong> &mdash; which, despite the name, bites dogs constantly. Roughly <strong>10&ndash;30% of blacklegged ticks in southern Ontario</strong> carry <em>Borrelia burgdorferi</em>, the Lyme bacterium, according to the <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener">Government of Canada&rsquo;s Lyme disease surveillance</a>.</p>
           <p>So the risk depends entirely on the species you pulled off. A small, plain, sesame-seed-sized, reddish-black tick is a blacklegged tick and warrants watching for symptoms. A larger, apple-seed-sized tick with mottled grey-brown markings on its back is an American dog tick and carries low disease risk in Canada. Our <Link href="/blog/deer-tick-vs-dog-tick-canada">deer tick vs dog tick guide</Link> shows the difference side by side.</p>

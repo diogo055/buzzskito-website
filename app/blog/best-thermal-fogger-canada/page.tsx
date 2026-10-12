@@ -9,6 +9,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-thermal-fogger-canada'
 const DATE = '2026-07-21'
@@ -280,6 +282,7 @@ export default function BestThermalFoggerCanadaPage() {
           <p>The Longray line is the market reference. It is a real investment &mdash; roughly $500&ndash;$1,200 for the machine, plus fuel and PMRA-registered fluid &mdash; and it rewards a property big enough and a fogging habit frequent enough to justify it. On a cottage lot backing onto wetland, or an acreage where mosquitoes breed faster than any spot treatment can keep up, it earns its keep. Our <Link href="/blog/longray-thermal-fogger-review-canada">Longray Canada review</Link> breaks down the specific models, tank sizes, and where to source them.</p>
           <p><strong>Best for:</strong> acreage, cottages, and large treed properties where you are committed to fogging regularly through the season.</p>
 
+          <NextUp path="/blog/best-thermal-fogger-canada" />
           <h2>Best for Homeowners: Propane-Cartridge Foggers (Black Flag)</h2>
           <p>For the vast majority of homeowners who just want their backyard usable before a Saturday-evening barbecue, a propane-cartridge fogger like the Black Flag is the sensible entry point. There is no fuel to mix and no cord to trip over: you screw on a disposable propane cartridge, wait for the barrel to reach temperature, pull the trigger, and walk a slow perimeter fogging the shrubs and lawn edges. It is light, it is cheap ($70&ndash;$130), and it produces a real thermal fog &mdash; just from a smaller tank with less canopy reach than a pulse-jet. Our companion <Link href="/blog/black-flag-electric-fogger-review-canada">Black Flag fogger review</Link> covers the propane and electric variants side by side.</p>
           <p>The trade-off is running cost and scale: propane cartridges are an ongoing expense, and the smaller tank means more refills on a big lot. For an average suburban yard treated occasionally, that is a fair deal. For acreage or frequent use, the cartridge math starts to favour a refillable pulse-jet quickly.</p>
@@ -287,6 +290,7 @@ export default function BestThermalFoggerCanadaPage() {
           <h2>Best Electric (No Propane): Corded Thermal Foggers</h2>
           <p>Sitting between the two is the electric thermal fogger, which swaps the propane cartridge for a corded electric heating coil. The appeal is obvious: no cartridges to buy, steady and consistent fog output, and a lower per-use cost than propane. The catch is equally obvious &mdash; you are tethered to an extension cord, so your reach is whatever the cord allows and you cannot easily fog the far corners of a big property. For a homeowner who fogs often, stays near a power source, and dislikes buying disposable fuel, it is a smart middle ground.</p>
 
+          <RelatedLinks path="/blog/best-thermal-fogger-canada" />
           <h2>The PMRA Rule: The One Thing That Keeps You Legal</h2>
           <p>This is the section that matters more than any hardware comparison. In Canada, an insecticide you apply outdoors &mdash; including anything you fog &mdash; must be registered with Health Canada&rsquo;s <strong>Pest Management Regulatory Agency (PMRA)</strong> and carry a Canadian <strong>Pest Control Product (PCP) registration number</strong> printed on its label. The fogger machine needs no registration because it is a device. The fluid absolutely does.</p>
           <p>Here is where people get burned: the fogger hardware sold in the United States and in Canada is frequently identical, so it is natural to assume the fluids are interchangeable too. They are not. Many of the most popular US fogging concentrates &mdash; various pyrethrin and permethrin fogging solutions marketed heavily to American homeowners &mdash; have <strong>never been registered in Canada</strong>, and importing or applying an unregistered pesticide is an offence under the Pest Control Products Act. Buying a Longray or a Black Flag is fine. Pouring an American fogging concentrate you ordered across the border into it is not.</p>

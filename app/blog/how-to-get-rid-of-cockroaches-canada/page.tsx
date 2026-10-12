@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-cockroaches-canada'
 const DATE = '2026-07-21'
@@ -296,6 +298,7 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="boric acid roach powder">Boric acid dust →</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-cockroaches-canada" />
           <h2>First, Know Your Enemy: German vs American vs Oriental</h2>
           <p>Three cockroach species account for essentially all Canadian household encounters, and they demand different responses.</p>
           <p><strong>German cockroach &mdash; the one that matters.</strong> Small (12&ndash;16 mm), tan to light brown, with two dark parallel stripes on the shield behind the head. This is the indoor-breeding species behind virtually every kitchen and apartment infestation in Canada; it cannot survive a Canadian winter outdoors and lives its entire life within a few metres of warmth, moisture, and food. It also breeds faster than any other pest roach &mdash; a female produces an egg case (ootheca) of 30&ndash;48 eggs every few weeks and carries it protected until just before hatching, which is why populations explode and why no product touches the eggs. If you see small striped roaches in the kitchen or bathroom, everything in this guide applies at full intensity.</p>
@@ -344,6 +347,7 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="cockroach glue trap monitor">Check glue-board monitors on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-cockroaches-canada" />
           <h2>The Apartment Problem: Your Unit Is Not the Colony</h2>
           <p>If you rent in a multi-unit building, everything above still applies &mdash; and it is still not enough, because the premise changes. In a house, your kitchen contains the colony. In an apartment block, your kitchen is one node in a building-wide network: German cockroaches move floor to floor through plumbing chases, shared walls, garbage rooms, and under hallway doors, and an untreated colony two units away will reseed your kitchen indefinitely. You can bait perfectly and still be reinvaded monthly. This is not a hygiene failure on your part; it is topology.</p>
           <p>The play has three parts. <strong>First, contain your unit:</strong> bait stations and monitors as above, plus physical exclusion &mdash; seal the gap around plumbing penetrations under the sinks with sealant or steel wool, add a door sweep to the hallway door, and caulk the baseboard gaps in the kitchen. You are making your unit the hardest node on the network to live in.</p>

@@ -11,6 +11,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'do-bed-bug-sprays-actually-work'
 const DATE = '2026-07-16'
@@ -166,6 +168,7 @@ export default function DoBedBugSpraysActuallyWorkPage() {
             cons={['Slow, room-by-room work', 'Needs enough dry-steam output to be lethal']}
           />
 
+          <NextUp path="/blog/do-bed-bug-sprays-actually-work" />
           <h2>What is actually legal in Canada — and what US sites get wrong</h2>
           <p>This is where a lot of online bed bug advice goes off the rails for Canadian readers, because most of the loudest content is written for the US market. In Canada, consumer pesticides must be <strong>PMRA domestic-class registered</strong> — the label carries a PCP registration number and is written for household use. The products US blogs and Amazon.com listings most aggressively recommend are frequently not in that class here.</p>
           <ul>
@@ -182,6 +185,7 @@ export default function DoBedBugSpraysActuallyWorkPage() {
           <p>The same caution applies to internet home remedies. Rubbing alcohol kills on direct contact but evaporates instantly with zero residual and is a documented fire hazard around bedding and electronics. Vinegar, essential oils, and similar sprays are unreliable at best. None of them reach the hidden population, and none substitute for heat and physical removal.</p>
           <p>If you want the fogger question examined properly rather than dismissed in a paragraph — including which ones are even PMRA-registered here and the narrow flushing job they can do — we wrote it up in <Link href="/blog/best-bed-bug-fogger-canada">the honest verdict on bed bug bombs in Canada</Link>.</p>
 
+          <RelatedLinks path="/blog/do-bed-bug-sprays-actually-work" />
           <h2>Bed bug control methods compared</h2>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100">
             <table className="min-w-[560px] w-full text-sm">

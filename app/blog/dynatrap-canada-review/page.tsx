@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'dynatrap-canada-review'
 const DATE = '2026-05-01'
@@ -451,6 +453,7 @@ export default function DynaTrapCanadaPage() {
           <h3>DynaTrap at Costco Canada</h3>
           <p>Costco Canada is usually the cheapest place to buy the larger DT2030 and DT3050, during its spring outdoor-living sale — often $30–$70 below Canadian Tire and Home Depot, sometimes landing the DT2030 near $179–$229. Stock is seasonal and disappears by mid-summer, and Costco rarely carries the Atrakta refills, so grab a couple of cartridges from <BuyLink tag={AMZ_TAG} search="dynatrap atrakta refill">Amazon.ca</BuyLink> or a garden centre at the same time. If Costco is sold out, the <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> lineup is stocked there too.</p>
 
+          <NextUp path="/blog/dynatrap-canada-review" />
           <h2 id="dynatrap-xl">DynaTrap XL &amp; 1-Acre Models (DT2030 Series)</h2>
           <p>Shopping for the <strong>DynaTrap XL</strong>? That&rsquo;s the label Canadian listings use for the <strong>1-acre tier</strong> — the DT2030 series plus the Canadian-market <strong>DT1100-CA</strong> and <strong>DT1130-CA</strong> SKUs. Mechanically it&rsquo;s the same UV-plus-fan trap as the half-acre units, scaled up: a stronger fan, a larger catch basket, and a higher-output UV lamp rated to cover roughly 43,000 sq ft (a full acre) of open yard.</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
@@ -638,6 +641,7 @@ export default function DynaTrapCanadaPage() {
             <li><strong>Nostalgia and ritual</strong> — emptying the catch basket is satisfying for some users</li>
           </ul>
 
+          <RelatedLinks path="/blog/dynatrap-canada-review" />
           <h2>What DynaTrap Is NOT Good For</h2>
           <ul>
             <li><strong>Primary mosquito control</strong> — the catch ratio is too poor</li>

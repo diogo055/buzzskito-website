@@ -1,9 +1,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { Fragment } from 'react'
 import type { ReactNode } from 'react'
 import { BUSINESS } from '@/lib/constants'
 import { US_GUIDE_BUILT, US_GUIDE_PLANNED } from '@/lib/us-guide-built'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 import { type Guide, type GuideBlock, CLUSTER_LABEL, CLUSTER_PILLAR, GUIDE_HEROES, guidePath, guideSchemas, regionalPair, slugifyHeading } from '@/lib/guides'
 
 /**
@@ -226,6 +229,50 @@ function PublisherBox({ guide }: { guide: Guide }) {
   )
 }
 
+// ── where the in-content recirculation units go in a guide ─────────────────────
+// Same rules as scripts/insert-recirculation.mjs uses for hand-written pages (guides carry no
+// Amazon buttons, so the "below the first buy button" rule does not arise here):
+//   Next     inside the first section, after its third block, between two paragraphs; if the
+//            first section is too short for that, in front of the next H2
+//   Related  in front of the H2 about 60% of the way through, at least two sections after
+//            Next, and never in the last section
+// Neither unit ever goes in front of the second or later heading of a numbered run
+// ("2. Baking Soda", "Step 3"): a boxed "Next" between two steps reads as the end of the steps.
+const NUMBERED_H2 = /^(?:(?:step|layer|tell|tip|sign|stage|phase|rule|mistake|reason|myth|method|way|option|purchase|pick|part|lesson|day|week)\s*#?\s*(\d+)\b|#?(\d+)\s*[.):—–-]\s)/i
+function recircSpots(body: GuideBlock[]): { nextAt: number; relatedAt: number } {
+  const none = { nextAt: -1, relatedAt: -1 }
+  const h2At = body.map((b, i) => (b.type === 'h2' ? i : -1)).filter((i) => i >= 0)
+  if (h2At.length < 2) return none
+  const numberOf = (i: number) => {
+    const b = body[i]
+    const m = b.type === 'h2' ? b.text.match(NUMBERED_H2) : null
+    return m ? Number(m[1] || m[2]) : 0
+  }
+  const allowed = (ord: number) => numberOf(h2At[ord]) < 2
+  let nextAt = -1
+  let anchor = 0
+  let early = false
+  if (!numberOf(h2At[0]) && numberOf(h2At[1]) < 2) {
+    for (let j = h2At[0] + 4; j < h2At[1]; j++) {
+      const prev = body[j - 1]
+      const cur = body[j]
+      if (prev.type === 'p' && cur.type === 'p' && !/[:,;]\s*$/.test(prev.text)) { nextAt = j; early = true; break }
+    }
+  }
+  if (nextAt < 0) {
+    anchor = h2At.findIndex((_, ord) => ord >= 1 && allowed(ord))
+    if (anchor < 0) return none
+    nextAt = h2At[anchor]
+  }
+  const min = anchor + (early ? 3 : 2)
+  const max = h2At.length - 2
+  const want = Math.max(min, Math.round((h2At.length - 1) * 0.6))
+  let rel = -1
+  for (let o = want; o <= max && rel < 0; o++) if (allowed(o)) rel = o
+  for (let o = want - 1; o >= min && rel < 0; o--) if (o <= max && allowed(o)) rel = o
+  return { nextAt, relatedAt: rel >= 0 ? h2At[rel] : -1 }
+}
+
 export default function GuidePage({ guide }: { guide: Guide }) {
   const path = guidePath(guide)
   const hubCrumb = guide.kind === 'spoke' ? CLUSTER_PILLAR[guide.cluster] : undefined
@@ -235,6 +282,8 @@ export default function GuidePage({ guide }: { guide: Guide }) {
   const pair = regionalPair(path)
   const headings = guide.body.filter((b): b is Extract<GuideBlock, { type: 'h2' }> => b.type === 'h2')
   const disclaimers = guide.disclaimer === 'both' ? ['health', 'pesticide'] : guide.disclaimer ? [guide.disclaimer] : []
+  // In-content recirculation (Oct 2026). Both units render nothing when the page has no pick.
+  const { nextAt, relatedAt } = recircSpots(guide.body)
 
   return (
     <>
@@ -326,7 +375,13 @@ export default function GuidePage({ guide }: { guide: Guide }) {
             </nav>
           )}
 
-          {guide.body.map((block, i) => <Block key={i} block={block} />)}
+          {guide.body.map((block, i) => (
+            <Fragment key={i}>
+              {i === nextAt && <NextUp path={path} />}
+              {i === relatedAt && <RelatedLinks path={path} />}
+              <Block block={block} />
+            </Fragment>
+          ))}
 
           {disclaimers.map((d) => (
             <p key={d} className="text-sm text-gray-500 italic mt-6">{DISCLAIMER[d]}</p>

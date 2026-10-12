@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'chapin-battery-backpack-sprayer-review-canada'
 const DATE = '2026-07-21'
@@ -213,6 +215,7 @@ export default function ChapinBatteryBackpackSprayerReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="manual pump backpack sprayer">Manual backpack →</BuyLink>
           </div>
 
+          <NextUp path="/blog/chapin-battery-backpack-sprayer-review-canada" />
           <h2>What the Wide Mouth Actually Buys You</h2>
           <p>The single feature that most distinguishes the 63924 from cheaper battery backpacks is the wide-mouth tank, and it is easy to underrate on a spec sheet. Two everyday tasks get dramatically better with a wide opening. The first is <strong>filling with powders and granular concentrates</strong>: pour a wettable powder or a soluble granule through a narrow neck and you spill, you clog, and you struggle to get it to dissolve; through a wide mouth it goes in cleanly and mixes properly. The second is <strong>cleaning</strong>. When you switch from one product to another &mdash; especially away from a herbicide &mdash; you need to actually get inside the tank and remove the residue film, because leftover weed killer in a tank you later use on a garden or lawn is one of the most common ways people accidentally damage plants they meant to protect. A wide mouth lets you reach a hand or a brush inside; a narrow neck leaves you swirling water and hoping.</p>
           <p>If you only ever run a single premixed liquid and never switch products, the wide mouth matters much less and a narrow-neck 20V model will serve you fine. But the moment you mix your own concentrates or rotate between products across a season, the wide mouth stops being a luxury and becomes the feature that saves you the most grief.</p>
@@ -231,6 +234,7 @@ export default function ChapinBatteryBackpackSprayerReviewCanadaPage() {
           </ul>
           <p>Weight is the honest counterpoint to a bigger tank. Four gallons of liquid plus the battery and pump is heavy on your back, and while the 63924&rsquo;s harness spreads the load, a fully loaded backpack sprayer is not something you carry effortlessly for hours. If your typical job is small, a smaller tank you refill more often may actually be less tiring than lugging a full four gallons you do not need.</p>
 
+          <RelatedLinks path="/blog/chapin-battery-backpack-sprayer-review-canada" />
           <h2>What You Are Actually Paying For</h2>
           <p>Because this is several times the price of a manual pump backpack, it is worth being clear about where the money goes, in the order that matters:</p>
           <ul>

@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-heat-treatment-diy-canada'
 const DATE = '2026-07-21'
@@ -251,6 +253,7 @@ export default function BedBugHeatTreatmentDiyCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="remote probe thermometer high temperature">Probe thermometer →</BuyLink>
           </div>
 
+          <NextUp path="/blog/bed-bug-heat-treatment-diy-canada" />
           <h2>The Numbers: Lethal Temperature and Dwell Time</h2>
           <p>Here is the biology in plain figures. Bed bugs begin to die when their body core is held around <strong>45 &deg;C (113 &deg;F)</strong>, but their eggs &mdash; the toughest stage &mdash; need more. Research from Virginia Tech and others established that all life stages, eggs included, are reliably killed when held at <strong>48 &deg;C (118 &deg;F) for about 90 minutes</strong> or <strong>50 &deg;C (122 &deg;F) for about 60 minutes</strong>. Those are the thresholds every commercial heat chamber is engineered around.</p>
           <p>The word that does all the work in those numbers is <em>held</em>, and the temperature that matters is the one at the <strong>coldest point of your load</strong> &mdash; not the air temperature the heater proudly displays. The centre of a rolled sleeping bag, the inside of a stuffed backpack, the middle of a folded stack of jeans: these all lag far behind the surrounding air, sometimes by many degrees and by an hour or more. That lag is why practical DIY protocols do not aim for exactly 48 &deg;C. They push the air to <strong>55&ndash;60 &deg;C (130&ndash;140 &deg;F)</strong> and hold it for several hours, so that even the slowest, coldest core is dragged well past the lethal line with margin to spare. Aim high, hold long, and measure the middle.</p>
@@ -270,6 +273,7 @@ export default function BedBugHeatTreatmentDiyCanadaPage() {
           <p>At the compact end, a <Link href="/blog/packtite-closet-review-canada">PackTite-style chamber</Link> is the traveller&rsquo;s tool: collapsible, easy to store, and sized for luggage, a few garments, shoes, and books. Its best use is as a permanent habit &mdash; you run everything through it after a trip or a stay somewhere questionable, so you never bring an infestation home in the first place. The <Link href="/blog/packtite-portable-review-canada">portable PackTite</Link> is the archetype here. In the middle sit oven-style boxes like the <Link href="/blog/thermalstrike-ranger-review-canada">ThermalStrike Ranger</Link> and the <Link href="/blog/zappbug-oven-2-review-canada">ZappBug Oven 2</Link> &mdash; more capacity than a travel unit, good for a couple processing clothing and bedding in batches. At the large end, the <Link href="/blog/zappbug-room-review-canada">ZappBug Room</Link> is effectively a walk-in chamber that can swallow whole loads of bedding, cushions, backpacks, and small furniture in one run, which is what an active home infestation actually needs. Our <Link href="/blog/zappbug-heater-review-canada">ZappBug heater review</Link> and the <Link href="/blog/best-whole-room-bed-bug-heater-canada">whole-room heater roundup</Link> compare the full range.</p>
           <p>Whatever the size, the compliance point in Canada is the same: the chamber is a <strong>device</strong>, not a pesticide, so it needs no PMRA registration and is fully legal to buy and run. What you should scrutinise is the electrical certification. A high-draw appliance you leave running unattended for hours should carry CSA or cUL marks appropriate for Canadian outlets &mdash; a detail some US-market listings skip.</p>
 
+          <RelatedLinks path="/blog/bed-bug-heat-treatment-diy-canada" />
           <h2>Space Heaters and the Whole-Room Temptation</h2>
           <p>Sooner or later everyone doing DIY heat wonders: why not just crank a few space heaters and cook the whole bedroom? This is the point where the honest answer is <em>don&rsquo;t</em>, and it is worth being blunt about why.</p>
           <p>First, safety. Consumer space heaters are not built to raise a furnished room to 50 &deg;C and hold it for hours. Running several at once overloads circuits; running them unattended near bedding and furniture is exactly the scenario house fires come from. This is not a theoretical caution &mdash; improvised bed-bug heat-ups have started real fires. Second, even when nothing burns, it usually does not work. Without industrial fans forcing hot air into every void, a DIY room heat-up leaves cold pockets behind the headboard, under the dresser, inside the mattress, and along the cool exterior wall &mdash; precisely where bed bugs retreat as things warm up. You get all the danger and none of the kill.</p>

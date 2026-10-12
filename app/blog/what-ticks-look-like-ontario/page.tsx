@@ -12,6 +12,8 @@ import { withRegionalAlternates } from '@/lib/guides'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const POST = TICK_BLOGS.supporting[1]
 const UPDATED = '2026-07-12'
@@ -103,6 +105,7 @@ export default function WhatTicksLookLikePage() {
 
         <h3>2. American Dog Tick — <em>Dermacentor variabilis</em></h3>
         <p><strong>Why it matters:</strong> Does not transmit Lyme disease, but can transmit Rocky Mountain Spotted Fever (rare in Ontario) and cause tick paralysis. Commonly found across GTA.</p>
+        <NextUp path="/blog/what-ticks-look-like-ontario" />
         <p><strong>Identification:</strong></p>
         <ul>
           <li>Larger than blacklegged tick: females ~5 mm unfed, males ~3–4 mm</li>
@@ -203,6 +206,7 @@ export default function WhatTicksLookLikePage() {
         <p className="text-sm text-gray-500">Tip: a six-legged tick is a larva; nymphs and adults have eight legs. Larvae almost never carry Lyme, but nymphs — active in late spring and summer — cause most human infections precisely because they are so tiny.</p>
         <p>That leg count is more than a field mark. Eight legs, no wings, and no antennae are the reason <Link href="/blog/are-ticks-arachnids-or-insects" className="text-brand-700 underline">ticks are classified as arachnids rather than insects</Link> — which is also why bug zappers and CO₂ traps built for flying insects do nothing about them.</p>
 
+        <RelatedLinks path="/blog/what-ticks-look-like-ontario" />
         <h2>Found a Tick? Have the Right Removal Tool Ready</h2>
         <AffiliateDisclosure />
         <p>Because a feeding tick can be smaller than a sesame seed, a purpose-built removal tool that slides under the head gives a far cleaner pull than fingers. Fine-tipped tweezers, Tick Twister-style hooks, and tick keys all work — keep one in your first-aid kit and one in your car. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>

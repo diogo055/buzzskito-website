@@ -4,6 +4,7 @@ import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
 import { SITE_URL, PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'how-to-combat-mosquitoes'
 const TITLE = 'How to Combat Mosquitoes in Ontario — 10-Step Backyard Guide'
@@ -107,6 +108,7 @@ export default function HowToCombatMosquitoesPage() {
             ))}
           </ol>
 
+          <NextUp path="/learn/how-to-combat-mosquitoes" />
           <h2>Why This Order Matters</h2>
           <p>Steps 1 through 5 are <strong>source reduction</strong> — they stop mosquitoes from being born on your property in the first place. This is the foundation, and it is free. Steps 6 through 8 are <strong>personal and area protection</strong> for the spaces where your family actually gathers. Step 9, professional <Link href="/mosquito-control">barrier spray</Link>, is the force multiplier: it treats the vegetation where adult mosquitoes rest, leaving a residue on those surfaces between your weekly water checks. Step 10 ties it together — because nothing you do holds unless it is repeated across the full May-to-September season.</p>
           <p>Homeowners who try only one tactic — just spraying, or just dumping water — usually see the problem creep back within two weeks. The layered approach is what produces a yard you can genuinely enjoy at dusk. Go deeper in our <Link href="/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario">how to get rid of mosquitoes in your yard</Link> guide and the comprehensive <Link href="/blog/ultimate-backyard-mosquito-control-guide">ultimate backyard mosquito control guide</Link>.</p>

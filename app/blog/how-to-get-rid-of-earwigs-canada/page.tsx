@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-earwigs-canada'
 const DATE = '2026-07-27'
@@ -286,6 +288,7 @@ export default function HowToGetRidOfEarwigsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack">Glue boards →</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-earwigs-canada" />
           <h2>First, the Ear Myth — Because It Is Why You Are Here</h2>
           <p>The ear story is the first thing most people bring up about this insect, usually with a nervous laugh. So: no. Earwigs do not crawl into human ears, do not burrow into brains, and do not lay eggs in heads. There is no venom, no disease transmission, and no documented behaviour that draws them toward ear canals. The name is old &mdash; Old English <em>ēarwicga</em>, roughly &ldquo;ear insect&rdquo; &mdash; and the most plausible explanation has nothing to do with people at all: an earwig&rsquo;s hind wing, when you unfold it, is a delicate fan shaped remarkably like a human ear. A thousand years of folklore grew out of a shape.</p>
           <p>The honest caveat, which is the same for every insect on Earth: any small crawling thing can end up in an ear canal if you sleep on the ground, on a basement floor, or in a tent. Physicians remove all sorts of insects from ears. There is nothing about an earwig that makes it more likely than an ant, a small beetle, or a moth &mdash; and if it ever happens, it is an inconvenient trip to a clinic, not the horror-movie scenario.</p>
@@ -360,6 +363,7 @@ export default function HowToGetRidOfEarwigsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="diatomaceous earth insect duster">Check DE + duster kits on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-earwigs-canada" />
           <h2>Perimeter Treatment: Timing, and What Canadian Rules Actually Allow</h2>
           <p>Let us be blunt about where a chemical perimeter treatment sits in the hierarchy for earwigs: near the bottom. It is a knockdown for a bad wave, not a solution, and if mulch is still banked against your siding and your eavestrough is full of leaf mulch, no product on any shelf in Canada substitutes for moving it. We would rather you spent the money on a downspout extension.</p>
           <p>That said, if you are going to do it, do it properly. <strong>Timing is the difference between working and wasting the product.</strong> Earwigs are nocturnal, so apply <em>at dusk</em>, when they are about to become active and the residue is fresh &mdash; a morning application has spent the whole day in the sun before the target ever moves. <strong>Target the band they cross</strong>, not the lawn: the bottom 30&ndash;45 cm of the foundation wall, the ground 30&ndash;60 cm out from it, door thresholds, and around window wells. Whole-lawn broadcast treatment for earwigs is both ineffective and, in much of Canada, not something you are permitted to do.</p>

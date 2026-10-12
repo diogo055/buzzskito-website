@@ -10,6 +10,8 @@ import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'deer-flies-horse-flies-ontario'
 const DATE = '2026-07-12'
@@ -176,6 +178,7 @@ export default function DeerFliesHorseFliesOntarioPage() {
           <p>If a fast, tenacious fly has ever ruined a lakeside hike or a canoe portage, it was almost certainly a deer fly or a horse fly. Both belong to the family <strong>Tabanidae</strong> — the group entomologists literally call &ldquo;horse flies and deer flies.&rdquo; They share the same basic biology: only the females bite, because they need a protein-rich blood meal to develop their eggs. The males are harmless flower visitors, feeding on nectar and pollen and never touching you.</p>
           <p>The quickest way to tell them apart is <strong>size and eyes</strong>. A deer fly is roughly the size of a housefly, has clear wings crossed by dark bands or smudges, and carries dazzling green-and-gold patterned eyes. A horse fly is a heavyweight — up to three centimetres — with a thick body, mostly clear wings, and huge solid dark eyes. Deer flies circle your head; horse flies tend to plant themselves on your back or legs and bite before you notice.</p>
 
+          <NextUp path="/blog/deer-flies-horse-flies-ontario" />
           <h2>Why the Bite Hurts So Much</h2>
           <p>A mosquito is a delicate surgeon — it slides a thin stylet into your skin so gently you often do not feel it. Tabanids are the opposite. The female&rsquo;s mouthparts work like tiny <strong>scissors and a sponge</strong>: she slices the skin open, then laps up the blood that pools in the wound. That cutting action is exactly why a deer fly or horse fly bite delivers a sharp, immediate sting, frequently bleeds, and leaves a raised, itchy welt that can last for days.</p>
           <p>The good news for Ontarians is that these flies are <strong>not major disease carriers here</strong> the way mosquitoes (West Nile) and blacklegged ticks (Lyme) are. Horse flies can mechanically move some livestock pathogens, and North America records rare cases of tularemia spread by deer flies, but for the average person the real cost is the pain of the bite and the occasional infection or allergic reaction from scratching it.</p>
@@ -196,6 +199,7 @@ export default function DeerFliesHorseFliesOntarioPage() {
           <p>Understanding where these flies come from explains why they are hard to spray away. Female deer and horse flies lay clusters of eggs on vegetation overhanging <strong>moist soil, pond edges, marshes, and stream banks</strong>. The larvae drop into the damp ground and live there as predators, eating other small invertebrates, sometimes for one to three years depending on the species and climate. When mature, they crawl to drier soil, pupate, and emerge as adults in early-to-mid summer.</p>
           <p>Two facts fall out of this. First, the breeding habitat is usually a <strong>wetland you do not own and cannot legally drain</strong> — which is why there is no &ldquo;remove standing water&rdquo; silver bullet the way there partly is for mosquitoes. Second, the adults are <strong>powerful fliers</strong> that range widely from where they hatched, so the flies bothering your patio may have developed hundreds of metres away. Control has to focus on intercepting and deterring adults, not eliminating a nearby nursery.</p>
 
+          <RelatedLinks path="/blog/deer-flies-horse-flies-ontario" />
           <h2>How to Treat a Bite</h2>
           <ol>
             <li><strong>Clean it.</strong> Wash with soap and water to lower infection risk from the open cut.</li>

@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'patio-heater-vs-fire-table-canada'
 const DATE = '2026-08-22'
@@ -228,6 +230,7 @@ export default function PatioHeaterVsFireTableCanadaPage() {
           <p>A fire table is a burner in an open pan surrounded by a ledge. A patio heater is a burner with a reflector above it. That one structural difference decides everything downstream. Heat rises, so an open pan sends the great majority of its output vertically, where it does nobody any good. A reflector intercepts that rising heat and redirects it outward and downward as radiant warmth &mdash; the same principle as the shade over a heat lamp. Two appliances, near-identical burner ratings, completely different amounts of heat reaching an actual human being.</p>
           <p>So the honest framing is not <em>which is better</em>. It is: are you buying warmth, or are you buying a place for people to stand around? Both are legitimate purchases. They are just different ones.</p>
 
+          <NextUp path="/blog/patio-heater-vs-fire-table-canada" />
           <h2>Heat Delivered to People vs Heat Delivered to the Sky</h2>
           <p>Stand beside a running tower heater on an open patio and you will feel it two to three metres out. Five people can arrange themselves around it and all get something. Move to three metres and the effect fades, but it does not vanish, because radiant heat travels in a straight line to whatever it strikes and does not depend on the air staying put.</p>
           <p>Stand beside a fire table and the picture is different. Your hands and shins get warm; your back does not. Lean over the ring and it is genuinely hot; sit back in a deep patio chair with a footrest and much of it is gone. The people at a fire table are close to it, which is precisely why it works socially and precisely why it underperforms thermally.</p>
@@ -281,6 +284,7 @@ export default function PatioHeaterVsFireTableCanadaPage() {
           </ul>
           <p>One more sizing check people forget: measure the gap between the table and the seating. A fire table you have to lean across to feel is a fire table nobody uses, and deep-seated patio furniture with footrests pushes everyone farther back than a set of dining chairs would.</p>
 
+          <RelatedLinks path="/blog/patio-heater-vs-fire-table-canada" />
           <h2>Lava Rock vs Fire Glass</h2>
           <p>Both exist to diffuse the flame across the burner pan and to hide the burner itself. Lava rock is cheaper and gives a more natural, campfire-ish look. Fire glass is tempered, comes in colours, reflects the flame, and stays clean-looking for years.</p>
           <p>In Canada there is a practical reason to lean toward glass: <strong>porous lava rock absorbs water</strong>. Rock that soaks up an October rain and then goes through a hard freeze can crack, and rock still holding water that gets heated quickly can spall and throw fragments. Tempered fire glass does not absorb water. Neither material is maintenance-free &mdash; both want to stay dry under a fitted cover through the off-season &mdash; but glass is the more forgiving one in a freeze-thaw climate. If you like the look of lava rock, keep it and just be disciplined about the cover.</p>

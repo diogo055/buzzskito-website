@@ -9,6 +9,8 @@ import { PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'why-do-mosquito-bites-itch'
 const DATE = '2026-07-15'
@@ -276,6 +278,7 @@ export default function WhyDoMosquitoBitesItchPage() {
             priority
           />
           <p>Mosquito bites itch because of an allergic reaction to the mosquito&rsquo;s saliva &mdash; not because of the tiny puncture wound. When a female mosquito feeds, she injects a small amount of saliva loaded with anticoagulant and other proteins that stop your blood from clotting so she can drink freely. Your immune system flags those proteins as foreign invaders and orders specialized cells (mast cells) to release <strong>histamine</strong>. Histamine is the chemical behind the whole reaction: it widens local blood vessels, makes them leak fluid into the surrounding skin, and stimulates the nerve endings that report itch to your brain.</p>
+          <NextUp path="/blog/why-do-mosquito-bites-itch" />
           <p>That is why the classic mosquito welt is red, raised, and maddeningly itchy all at once &mdash; it is your body&rsquo;s defence system overreacting to a harmless bit of insect spit. And it is why the treatments that actually work target the histamine, not the bite: antihistamines and 1% hydrocortisone calm the immune reaction, while picking at the puncture does nothing. Our companion guide on <Link href="/blog/mosquito-bite-treatment-relief">how to stop a mosquito bite from itching</Link> walks through exactly what to reach for.</p>
 
           <h2>Why are mosquito bites itchy for some people and not others?</h2>
@@ -406,6 +409,7 @@ export default function WhyDoMosquitoBitesItchPage() {
           <p>A mosquito bite usually starts to itch 5 to 20 minutes after the mosquito feeds. The CDC describes a puffy, reddish bump appearing a few minutes after the bite, followed a day or so later by a harder, itchier, reddish-brown one. The bite itself is normally painless, so most people never feel the mosquito and only find the welt afterwards.</p>
           <p>If nothing shows up in the first hour, that does not mean you escaped. The delayed half of the reaction can surface the next morning as a firm bump, which is why bites collected at an evening barbecue are often discovered at breakfast.</p>
 
+          <RelatedLinks path="/blog/why-do-mosquito-bites-itch" />
           <h2>Why does scratching a mosquito bite make it itch more?</h2>
           <p>Scratching releases more histamine into the skin and restarts the exact reaction that caused the itch. It also irritates the nerve endings that report itch to the brain, setting up a self-feeding itch&ndash;scratch cycle. A bite left alone typically stops itching in 2 to 4 days; a bite you keep scratching can stay irritated for a week or more.</p>
           <p>Scratching is also the single biggest cause of the two outcomes people actually mind: infection, when a fingernail breaks the skin surface and lets bacteria in, and a lasting discoloured mark. The U.S. Centers for Disease Control and Prevention (CDC) advises against scratching bites for this reason. A cold compress interrupts the cycle without doing either.</p>

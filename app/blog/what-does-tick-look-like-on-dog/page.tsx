@@ -10,6 +10,8 @@ import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-does-tick-look-like-on-dog'
 const DATE = '2026-04-26'
@@ -121,6 +123,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
             <li><strong>Hard, oval, attached firmly?</strong> → Treat as a tick</li>
           </ol>
 
+          <NextUp path="/blog/what-does-tick-look-like-on-dog" />
           <h2>What an Unfed Tick Looks Like</h2>
           <p>A tick that has just attached or been feeding less than 12 hours is <strong>flat, oval, and small</strong> — about the size of a sesame seed (1–3 mm). It has 8 legs visible near the front (head) end and a hard outer shield. Colour depends on species:</p>
           <ul>
@@ -148,6 +151,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
           </ol>
           <p>If you&rsquo;re unsure: gently part the fur and look from multiple angles with a flashlight or magnifying glass. When in doubt, treat as a tick and remove with tweezers — there&rsquo;s no harm in &ldquo;removing&rdquo; a skin tag (you literally can&rsquo;t pull off a skin tag with tweezers).</p>
 
+          <RelatedLinks path="/blog/what-does-tick-look-like-on-dog" />
           <h2>Tick vs Flea — How to Tell</h2>
           <p>Both are bloodsucking pests but very different:</p>
           <table>

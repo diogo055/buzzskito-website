@@ -12,6 +12,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-bed-bugs-canada'
 const DATE = '2026-07-21'
@@ -268,6 +270,7 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="cimexa silica bed bug dust">Silica dust →</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-bed-bugs-canada" />
           <h2>Step 1: Confirm It&rsquo;s Bed Bugs and Map Where They Hide</h2>
           <p>Before you spend a dollar, confirm what you are dealing with. Bed bug bites are easy to mistake for flea bites, mosquito bites, or a skin reaction, and the treatment for each is completely different. The bites themselves are not a reliable diagnosis &mdash; you need to find the bugs or their evidence. Look for live bugs (flat, rusty-brown, apple-seed sized adults), pale sticky eggs in the seams, dark ink-dot fecal spots along the mattress piping and box-spring edge, and shed skins. Our guides on <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs</Link> and on <Link href="/blog/bed-bug-bites">what bed bug bites look like</Link> walk through the identification in detail, and a <Link href="/blog/best-bed-bug-detector-canada">bed bug detector or monitor</Link> can confirm a low-level infestation you cannot see.</p>
           <p>Once confirmed, map the harbourage. Bed bugs cluster within a few metres of where you sleep. Check the mattress seams and tufts, the box spring (peel back the dust cover), the bed frame joints and bolt holes, the headboard and any cracks in it, the nightstand, the baseboards nearest the bed, and the seam where carpet meets wall. Knowing where they are turns the rest of the plan from guesswork into targeting.</p>
@@ -292,6 +295,7 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
           <h2>Step 7: Monitor Your Way to Zero</h2>
           <p>This is the step people skip, and skipping it is why infestations &ldquo;come back.&rdquo; They did not come back &mdash; they were never fully gone, because the plan was run once instead of repeated. Bed-bug eggs hatch over one to two weeks, so survivors keep emerging after your first treatment. Repeat the active steps &mdash; steam, re-launder any re-exposed items, refresh the dust &mdash; on a weekly cadence for at least three to four weeks, and check your interceptor traps every time. When the catch reaches zero and stays there, keep monitoring for another two to three weeks of clean traps and no bites before you call it. Only then is it truly over. Leave the encasements and interceptors in place long after, as your permanent early-warning system.</p>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-bed-bugs-canada" />
           <h2>How to Choose Your Kit: What You&rsquo;re Actually Paying For</h2>
           <p>Bed-bug tools span a wide price range, and it is worth knowing where the money genuinely matters versus where you can economise. Prioritise your spending in this order:</p>
           <ul>

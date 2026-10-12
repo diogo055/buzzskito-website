@@ -11,6 +11,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-bits-canada-vs-dunks'
 const DATE = '2026-05-01'
@@ -317,6 +319,7 @@ export default function MosquitoBitsCanadaPage() {
           <p>Mosquito Bits are corn-cob granules coated with BTI (<em>Bacillus thuringiensis</em> subspecies <em>israelensis</em>) — a soil bacterium discovered in 1976 that specifically targets the digestive systems of mosquito and black fly larvae. The corn-cob granules float briefly when sprinkled onto water, then sink as they absorb moisture. As the bits dissolve, they release BTI proteins into the water column where larvae filter-feed. Not sure the wrigglers you found are mosquito larvae? Our <Link href="/blog/mosquito-larvae-identification">mosquito larvae identification guide</Link> shows exactly what to look for before you treat.</p>
           <p>BTI is one of the most species-specific insecticides ever developed. It acts on mosquito larvae, black fly larvae, and a few related midge species, which have to eat it for it to work. BTI larvicides are registered for sale in Canada under the Pest Control Products Act. On drinking water its position is precise and worth stating exactly, because it is widely misreported in both directions: no product containing Bti may be applied to treated, finished drinking water for human consumption, but the PMRA has no human health and safety concerns about applying registered Bt products to bodies of water that will later be used for human consumption. The timings quoted throughout this guide — full larvae kill within 24 hours, 7&ndash;14 days of control from Bits, about 30 days from a Dunk — are Summit&rsquo;s own product-label figures, not our field measurements.</p>
 
+          <NextUp path="/blog/mosquito-bits-canada-vs-dunks" />
           <h2>How Much to Actually Use: The Label Rates</h2>
           <p>The number on the front of the bag is a coverage area, not a dose, which is why most people badly over-apply. Summit&rsquo;s registered label (US EPA Reg. No. 6218-86) gives the real rates, and they are small:</p>
           <ul>
@@ -389,6 +392,7 @@ export default function MosquitoBitsCanadaPage() {
           <p>That three-part stack covers mosquitoes, but BTI is only one product on a much longer Canadian shelf — our <Link href="/pest-product-guides">pest product guides</Link> group everything we have researched, from larvicides and traps through to repellents, by pest and by category.</p>
           <p>One device deliberately left off the stack: the UV bug trap. It is the first thing most homeowners buy and the layer that does the least — independent trap research puts mosquitoes under 5% of what a UV-plus-fan trap catches. If you are weighing one against a season of BTI, we break down <Link href="/blog/dynatrap-canada-review">whether DynaTraps actually work on mosquitoes</Link>, model by model.</p>
 
+          <RelatedLinks path="/blog/mosquito-bits-canada-vs-dunks" />
           <h2>Are Mosquito Bits Legal in Canada? What the PMRA Actually Says</h2>
           <p>Yes &mdash; BTI larvicides are registered for sale in Canada and sit on the shelf at Canadian Tire, Home Depot, Rona and Home Hardware. The question keeps resurfacing because the regulatory picture has two layers, and searchers keep landing on the wrong one.</p>
           <p>Health Canada&rsquo;s <strong>Pest Management Regulatory Agency (PMRA)</strong> registers every pesticide sold in Canada, and each registered product carries a PCP (Pest Control Products Act) number on its label. In its Bti fact sheet, the PMRA states that nearly all products containing Bti are <strong>Restricted</strong> class products &ldquo;used to control black fly and mosquito larvae in aquatic situations where the flow of water is not confined to a small area,&rdquo; and adds that <strong>commercial class</strong> Bti products can only be used against black fly and mosquito larvae in private ponds and farm dugouts where no outflow beyond the property limits exists. Both of those classes describe the large-volume job a municipality or licensed applicator does on open water &mdash; a creek, a marsh, a farm dugout &mdash; rather than anything in a backyard.</p>

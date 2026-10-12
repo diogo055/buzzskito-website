@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-bed-bug-spray-for-travel-canada'
 const DATE = '2026-07-21'
@@ -252,6 +254,7 @@ export default function BestBedBugSprayForTravelCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="natural plant based bed bug spray travel">Natural travel spray →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-bed-bug-spray-for-travel-canada" />
           <h2>The Carry-On Rule That Decides What You Can Pack</h2>
           <p>Before you compare formulas, sort out logistics, because the single most common travel-spray mistake is buying a can you cannot bring. Both the Canadian Air Transport Security Authority (CATSA) and the U.S. TSA enforce the same carry-on liquids rule: every liquid, gel, and aerosol container must be <strong>100 mL (3.4 oz) or smaller</strong>, and they all have to fit inside one clear, resealable one-litre bag. A standard 400 mL bed-bug aerosol fails that test instantly and will be pulled at the checkpoint &mdash; you will lose the can and the money. Daily transit is the other travel case and it behaves nothing like a hotel stay &mdash; <Link href="/blog/bed-bugs-on-the-ttc-toronto" className="text-brand-700 underline">bed bugs on the TTC</Link> covers what a Toronto commuter should actually do at the door instead of carrying a can.</p>
           <p>So for cabin baggage, you need a genuinely travel-size container: a small aerosol under 100 mL or, more reliably, a non-aerosol pump bottle you can fill to 60&ndash;100 mL. Aerosols carry extra baggage: those with flammable propellant face additional airline restrictions, and while larger cans are usually allowed in <em>checked</em> luggage (typically up to 500 mL per container and 2 kg total per passenger, per airline policy), the carry-on line is strict. The clean solution for most travellers is a compact pump under 100 mL in the carry-on, leaving any full-size home can at home where it belongs. When you shop, read the container size, not just the brand.</p>
@@ -264,6 +267,7 @@ export default function BestBedBugSprayForTravelCanadaPage() {
           <p>Bed-bug sprays fall into two functional camps, and understanding the split tells you exactly what to pack. A <strong>contact spray</strong> kills the bugs it directly wets and then dissipates &mdash; it is a spot-treatment tool for something you can see right now, like a bug on a suitcase seam or in a headboard crack. A <strong>residual spray</strong> dries into a film that keeps working for days or weeks, which is precisely what you want for pre-treating a suitcase that needs to stay protected through a trip.</p>
           <p>For travel, both jobs come up: you want a lasting film on the bag (residual) and the ability to knock down something you spot on arrival (contact). Many travel-oriented products blend the two &mdash; a knockdown ingredient plus a residual &mdash; which is a big part of why a compact aerosol like the Doktor Doom Travel Pro is such a practical single choice. If you are only going to carry one thing and you value prevention, prioritise residual; if you are worried about seeing a live bug and reacting, contact speed matters more. Neither, to be clear, substitutes for heat or a professional treatment once an infestation is established at home &mdash; that is a different problem covered in <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">our full removal guide</Link>.</p>
 
+          <RelatedLinks path="/blog/best-bed-bug-spray-for-travel-canada" />
           <h2>How to Actually Use Spray on Your Luggage</h2>
           <p>Think of your suitcase as the checkpoint that keeps hitchhikers out of your house. The technique is simple and worth doing the same way every trip:</p>
           <ul>

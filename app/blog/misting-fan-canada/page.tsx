@@ -10,6 +10,8 @@ import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'misting-fan-canada'
 const DATE = '2026-07-14'
@@ -233,6 +235,7 @@ export default function MistingFanCanadaPage() {
           <p>Here is the honest version, from people who treat GTA backyards for a living: a misting fan is not a mosquito killer. It has no chemistry, no lure, no kill count. What it has is moving air, and moving air happens to exploit two real weaknesses in how mosquitoes operate.</p>
           <p>First, mosquitoes are genuinely poor fliers. Their cruising speed is only around 1.5&nbsp;to 2.4&nbsp;km/h (roughly 1&nbsp;to 1.5&nbsp;mph), so a steady breeze across your seating area is, from the mosquito&rsquo;s point of view, a headwind it can barely make progress against. It cannot hover precisely enough to land on skin it is being blown away from. That is why the bugs always seem worse in a still, sheltered corner than out in the open.</p>
           <p>Second, mosquitoes find you by following a plume &mdash; the trail of carbon dioxide from your breath, your body heat, and skin scent that drifts downwind of you. A fan shreds that plume. Instead of a clean scent-corridor leading a mosquito straight to your ankle, the fan mixes your CO&#8322; into the surrounding air so there is no trail to follow. If you want the deeper science on the cues at play, we break it down in <Link href="/blog/what-attracts-mosquitoes-to-you">what attracts mosquitoes to you</Link>.</p>
+          <NextUp path="/blog/misting-fan-canada" />
           <p>Contrast that with a bug zapper. Zappers pull in whatever flying insect is drawn to UV light, and study after study finds the catch is overwhelmingly harmless moths, midges, and beetles &mdash; the biting female mosquitoes you actually care about make up a tiny fraction, and the light may even lure more insects toward your yard. A fan does not have that backfire problem, because it is not advertising to the whole neighbourhood&rsquo;s bug population. It just makes your immediate space hard to bite in.</p>
 
           <h2>The cooling payoff: built for a 35&nbsp;C GTA heat wave</h2>
@@ -308,6 +311,7 @@ export default function MistingFanCanadaPage() {
             </div>
           </aside>
 
+          <RelatedLinks path="/blog/misting-fan-canada" />
           <h2>Setting up a misting fan so it cools without soaking</h2>
           <p>The number-one complaint about misting fans &mdash; wet furniture and slippery decking &mdash; is almost always a setup problem, not a product flaw. A few adjustments fix it:</p>
           <ul>

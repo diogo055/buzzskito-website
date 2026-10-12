@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'propane-vs-electric-fogger-canada'
 const DATE = '2026-07-21'
@@ -250,6 +252,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="backpack sprayer 4 gallon">Backpack sprayer →</BuyLink>
           </div>
 
+          <NextUp path="/blog/propane-vs-electric-fogger-canada" />
           <h2>The Case for Propane (Burgess): Reach and Freedom</h2>
           <p>The propane fogger&rsquo;s entire advantage is one word: <strong>untethered</strong>. Because it burns a disposable propane cylinder to heat the coil, nothing plugs in. You can walk the full perimeter of a large lot, push into a back treeline, treat a shaded corner 60 metres from the house, or fog a cottage shoreline where there is no outdoor outlet for kilometres. For any property where the mosquito harbourage sits far from the wall — and on most larger suburban and rural lots, it does — propane is simply the only one of the two that can physically get there.</p>
           <p>That freedom costs a bit more up front, and it adds a running cost: you burn through propane cylinders across the season, and there is one extra step at start-up (seat the cylinder, ignite, wait for the coil to reach temperature). Neither is a real obstacle — thousands of first-time users manage it fine by following the manual — but they are the trade you make for going cordless. If your yard is big, awkwardly shaped, or a hike from the nearest outlet, that trade is easily worth it, which is why the Burgess-class propane fogger is our overall pick. It is a close cousin of the cordless-reach argument we make for a <Link href="/blog/best-gas-backpack-fogger-canada">gas backpack fogger</Link>, just in a lighter, handheld form.</p>
@@ -270,6 +273,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
           </ul>
           <p>Notice that nowhere on that list is &ldquo;which one fogs better&rdquo; — because they fog the same. You are matching a power source to a property, full stop.</p>
 
+          <RelatedLinks path="/blog/propane-vs-electric-fogger-canada" />
           <h2>The Part That Matters More Than the Machine: PMRA-Registered Solution</h2>
           <p>Here is the compliance point that gets buried in most fogger comparisons, and it is the most important thing on this page. The fogger itself — Burgess, Black Flag, any thermal fogger — is just an appliance, and buying one is perfectly legal. The <strong>liquid you load into it is the regulated product</strong>, and in Canada it must carry a Health Canada / PMRA registration, shown as a PCP number on the label.</p>
           <p>The trap is that many of the most-recommended fogging insecticides online are US products that are <strong>not registered for sale or use in Canada</strong>. They turn up bundled with American foggers, on cross-border marketplace listings, and in US how-to videos, and they are easy to buy — but that does not make them legal to use here. An unregistered grey-market solution also tends to come with vague or US-specific label guidance, which leaves you guessing on the two numbers that keep your family safe: application rate and re-entry interval. Buy a PMRA-registered Canadian fogging solution, read the label, follow the rate and the re-entry time exactly, and never substitute an unregistered US product just because it is cheaper or more available. This is the same registered-product-only rule we apply across our <Link href="/blog/best-pest-control-equipment-canada">Canadian pest-control equipment hub</Link>.</p>

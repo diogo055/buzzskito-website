@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-bites-vs-mosquito-bites'
 const DATE = '2026-07-30'
@@ -368,6 +370,7 @@ export default function BedBugBitesVsMosquitoBitesPage() {
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks bti">Bti dunks &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/bed-bug-bites-vs-mosquito-bites" />
           <h2>Tell 1 — The Pattern on Your Skin</h2>
           <p>The best-known separator is the arrangement. Bed bug bites frequently appear in a rough line or a tight zigzag cluster of three to five welts on one patch of skin &mdash; the pattern sometimes nicknamed &ldquo;breakfast, lunch, dinner&rdquo;. The mechanism is worth knowing, because it explains the exceptions: a feeding bed bug is easily disturbed by a sleeper shifting, and it will withdraw and probe again a short distance away, so a single insect can leave several marks in one night. The line also tends to trace an edge &mdash; the hem of a sleeve, the line where the duvet fell, a waistband &mdash; because that is where accessible skin ended.</p>
           <p>Mosquito bites have no geometry. A mosquito bites, is noticed or is not, and flies off; the next one lands somewhere unrelated. You get scattered singles on whatever was uncovered.</p>
@@ -403,6 +406,7 @@ export default function BedBugBitesVsMosquitoBitesPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Check interceptor cup sets on Amazon.ca &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/bed-bug-bites-vs-mosquito-bites" />
           <h2>If the Answer Is Bed Bugs</h2>
           <p>Three things not to do, first, because each is common and each makes it worse. <strong>Do not throw out the mattress</strong> &mdash; the population is also in the box spring, the frame and the baseboards, so a new mattress in the same room is re-infested within days, and hauling an infested one through a corridor spreads it. <strong>Do not move to the couch or the spare room</strong> &mdash; bed bugs follow the sleeper, and this is the most reliable way to turn a one-room problem into a whole-home one. <strong>Do not buy a fogger</strong> &mdash; total-release products deposit on open surfaces while the insects are inside seams, voids and frame tubing.</p>
           <p>A fourth caution belongs beside those three, because it is the one people find on a forum at two in the morning: <strong>do not import a US professional concentrate.</strong> The most-recommended one, MGK Crossfire, is EPA-registered for use in the United States but carries no Health Canada PMRA registration number, so there is no Canadian label to follow &mdash; our <Link href="/blog/crossfire-bed-bug-concentrate-review-canada">Crossfire concentrate review for Canada</Link> sets out what is registered here instead. And if what you actually want is speed, which is the natural question after a night of this, <Link href="/blog/what-kills-bed-bugs-instantly-canada">what kills bed bugs instantly</Link> ranks the few things that do kill on contact &mdash; steam, sustained heat, a direct hit while the surface is wet &mdash; against the many that only look like they do, and explains why none of them ends an infestation on their own, since most of the population is inside seams, screw holes and voids the moment you stop looking.</p>

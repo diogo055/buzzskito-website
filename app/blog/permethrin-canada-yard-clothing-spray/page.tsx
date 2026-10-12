@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'permethrin-canada-yard-clothing-spray'
 const DATE = '2026-05-01'
@@ -363,6 +365,7 @@ export default function PermethrinCanadaPage() {
           <p>Permethrin is a synthetic version of pyrethrin, the natural insecticide found in chrysanthemum flowers. Unlike DEET and picaridin (which are <strong>repellents</strong> applied to skin), permethrin is a <strong>contact insecticide</strong> applied to clothing. When a tick or mosquito lands on permethrin-treated fabric, the chemical disrupts its nervous system within seconds — the insect either falls off or dies before biting through the fabric.</p>
           <p>This is why permethrin is the gold standard for hikers, military personnel, and outdoor workers — DEET only works while it&rsquo;s wet on your skin (a few hours), while permethrin-treated fabric stays active through many washes: about 6 for a spray-on treatment, up to 70 for a factory-treated garment.</p>
 
+          <NextUp path="/blog/permethrin-canada-yard-clothing-spray" />
           <h2>Is Permethrin Legal in Canada?</h2>
           <p className="speakable"><strong>Yes — permethrin is legal in Canada</strong>, but the legal format depends on how you use it. Factory <strong>permethrin-treated clothing</strong> is legal to buy and wear as a consumer product. A permethrin <strong>liquid or spray sold for you to treat your own clothing</strong> is not — Health Canada has not approved that format for Canadian consumers, so there is no PMRA-registered version of it to buy here. And what is <em>not</em> legal for a homeowner is spraying concentrated permethrin on your own lawn — higher-concentration <strong>yard/turf concentrates</strong> are classified by Health Canada as commercial- or restricted-class products that only a licensed applicator may apply.</p>
           <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
@@ -498,6 +501,7 @@ export default function PermethrinCanadaPage() {
           <p>Insect Shield, the American factory-treatment brand that dominates every US article on this topic, reaches Canadian buyers through cross-border retail rather than through domestic distribution under a Canadian registration. That distinction matters for warranty, returns and duty, and it is worth knowing which side of the border a garment is shipping from before you order it.</p>
           <p>Whichever route you take, treated clothing protects the person wearing it and nothing else. If the exposure you are actually worried about is children or a dog on the lawn, that is a different problem with a different answer &mdash; our guides to <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">keeping ticks out of an Ontario yard</Link> and <Link href="/blog/tick-prevention-yard-ontario-safe-for-kids">tick prevention for yards where kids play</Link> cover the ground-level version, and <Link href="/blog/do-ticks-die-in-the-washing-machine">whether ticks survive the washing machine</Link> matters more than most people expect once treated clothing comes off.</p>
 
+          <RelatedLinks path="/blog/permethrin-canada-yard-clothing-spray" />
           <h2>The Licensed-Applicator Alternative for Whole-Yard Treatment</h2>
           <p>If you want yard-wide tick and mosquito treatment (not just clothing), the only legal residential option in Ontario is hiring a licensed pesticide operator. Licensed Ontario applicators use PCP-registered formulations (typically bifenthrin or deltamethrin-based), applied according to label directions and renewed on a schedule through the season.</p>
           <p>BuzzSkito is licensed under Ontario Pesticide Operator Licence #L-240-2436835197 and provides residential mosquito and tick barrier spray across the GTA. Single treatments start at $99; seasonal mosquito plans cover the full May–September season with monthly, every-2-weeks or weekly applications (from $549), and the seasonal tick program runs 5 sprays ($597 on its own, $497 with a mosquito plan). The properties that need it most are the ones backing onto the same escarpment and moraine habitat you would spray your hiking pants for &mdash; our <Link href="/caledon-tick-spray">tick spray in Caledon</Link> and <Link href="/burlington-tick-spray">Burlington tick control</Link> pages show what a yard treatment covers on those lots. <Link href="/mosquito-control">Get a free quote for your property →</Link></p>

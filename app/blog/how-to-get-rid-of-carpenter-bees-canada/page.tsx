@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-carpenter-bees-canada'
 const DATE = '2026-07-30'
@@ -350,6 +352,7 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="exterior wood filler epoxy dowel">Filler and dowels &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-carpenter-bees-canada" />
           <h2>The Order of Operations, and Why Getting It Wrong Costs You a Season</h2>
           <p>Almost every failed carpenter bee job is a sequencing error rather than a product error. Here is the sequence that works.</p>
           <p><strong>1. Treat the open gallery.</strong> Puff a registered insect dust into the entrance hole with a bulb duster &mdash; a small squeeze, not a packed hole &mdash; and then <em>leave the hole open</em> for several days. This is the counter-intuitive part. The point is that returning females and emerging adults walk through the material and carry it into the tunnel, which reaches the parts of the gallery your duster tip never will. Sealing immediately after treating throws away most of the benefit.</p>
@@ -376,6 +379,7 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="carpenter bee trap wooden hanging">Check carpenter bee traps on Amazon.ca &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-carpenter-bees-canada" />
           <h2>Prevention Is a Painting Job</h2>
           <p>If you take one thing from this page, take this: the durable answer to carpenter bees is not a pesticide, it is a coat of exterior paint, and the trade you may actually need is a painter.</p>
           <ul>

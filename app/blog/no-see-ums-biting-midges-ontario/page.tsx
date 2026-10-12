@@ -9,6 +9,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'no-see-ums-biting-midges-ontario'
 const DATE = '2026-07-12'
@@ -173,6 +175,7 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
             </div>
           </aside>
 
+          <NextUp path="/blog/no-see-ums-biting-midges-ontario" />
           <h2>When and Where They Swarm in Ontario</h2>
           <p>Biting midges are a <strong>late-spring-through-summer</strong> problem in Ontario, generally worst from late May into August. Two conditions drive the heaviest swarms:</p>
           <ul>
@@ -207,6 +210,7 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
           />
           <p>A <strong>Thermacell</strong>-style area repeller can also help create a small protected zone on a still patio, working alongside a fan rather than replacing it.</p>
 
+          <RelatedLinks path="/blog/no-see-ums-biting-midges-ontario" />
           <h2>Treating Bites You Already Have</h2>
           <p>No-see-um bites itch out of proportion to their size, and scratching only invites infection. To calm them: wash the area with soap and water, apply a cold compress to reduce swelling, and use an over-the-counter antihistamine or a hydrocortisone/anti-itch cream to control the reaction. Keep fingernails off the welts. If a bite becomes very swollen, spreads, oozes, or shows signs of infection, contact a healthcare provider — some people react strongly to midge saliva.</p>
           <p>If you are still not certain the welts you are treating came from a midge at all, our closer look at <Link href="/blog/no-see-um-bites">what no-see-um bites look like and how long they last</Link> follows a bite through its stages — the burning pinprick, the red dot hours later, the hard welt still itching days on — which is the detail that usually settles the question, since the insect itself is long gone by the time you look.</p>

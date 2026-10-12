@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-commercial-fly-light-trap-canada'
 const DATE = '2026-07-21'
@@ -252,6 +254,7 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="decorative fly light trap sconce glue board">Decorative sconce trap →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-commercial-fly-light-trap-canada" />
           <h2>Glue-Board vs Zapper: The Choice That Decides Everything</h2>
           <p>If you take one thing from this guide, take this: in any space where food is prepared, handled, packaged, or stored, you want a <strong>glue-board (encapsulation) trap, not an electric zapper</strong>. Both use the same UV-A lure to pull flies in. The difference is the endgame. A glue board catches the insect whole and holds it on an adhesive card that you throw away with the fly still stuck to it. A high-voltage grid, by contrast, kills by electrocution &mdash; and electrocution blasts the insect apart, launching a fine mist of body fragments, bacteria, and allergenic dust into the air and onto whatever is below.</p>
           <p>In a food environment that scatter is unacceptable, which is why zappers are effectively barred from food-handling areas by commercial food-safety codes and are never what an auditor wants to see over a prep line. Glue-board traps exist precisely to solve that problem: contained capture, no scatter, replaceable board. Zappers are not useless &mdash; in a warehouse, a loading dock, or a non-food back area where nobody minds the noise and the mess, an industrial zapper is a legitimate, cheaper high-volume killer. But the moment food enters the picture, glue-board is the only defensible choice, full stop.</p>
@@ -275,6 +278,7 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
             <li><strong>Nothing captured can fall onto food.</strong> The single non-negotiable food-safety rule: position every trap so a dropped insect or board can never land on exposed food.</li>
           </ul>
 
+          <RelatedLinks path="/blog/best-commercial-fly-light-trap-canada" />
           <h2>Food Safety, Shatterproof Lamps, and Compliance</h2>
           <p>Glue-board encapsulation traps are the food-safe category precisely because of contained capture &mdash; but the safety is conditional on how you install and lamp them. In any food area, use <strong>shatterproof-coated (or fully shielded) UV-A lamps</strong>, so that if a tube ever breaks, the glass is contained rather than showered over food and surfaces below. That single spec is a standard requirement in commercial food-safety programs, and it is one of the first things separating a genuine commercial ILT from a repackaged consumer trap.</p>
           <p>On the regulatory side, note what these devices are and are not. A UV light trap is a <em>device</em>, not a pesticide, so it carries no PMRA / Health Canada pest-control-product registration &mdash; there is no chemical to register, which is exactly what makes an ILT a frictionless, always-legal core of a Canadian commercial fly program. The compliance you do owe is electrical: a hard-wired or plugged commercial unit should meet Canadian electrical certification (cUL or CSA), and this is a real reason to be careful with grey-market US-imported traps &mdash; a US-only listing can create headaches with an electrical inspector or an insurer even when the trap itself is fine. Buy units certified for the Canadian market for a commercial install.</p>

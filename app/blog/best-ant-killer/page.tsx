@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 // The page's own address. It was renamed from best-ant-killer-canada on Sep 3, 2026
 // (next.config.mjs redirects the old address here). Until Oct 11 this still held the old name,
@@ -326,6 +328,7 @@ export default function BestAntKillerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="combat ant killing bait stations">Combat protein bait stations →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-ant-killer" />
           <h2>The Uncomfortable Part: Most &ldquo;Ant Killer&rdquo; Only Kills What You Can See</h2>
           <p>Walk the aisle and count the shelf space. Aerosols, perimeter concentrates, granular broadcast products, plug-in devices &mdash; much of the category is built around instant, visible death, because that is what sells. Bait, the thing that actually works, occupies a fraction of the shelf and looks unimpressive: a small plastic tray that does nothing for two days.</p>
           <p>The gap between those two things is the reason ant problems drag on for entire summers. A repellent contact insecticide has three costs that are invisible at the moment of use. First, it removes the foragers that would have carried your bait home. Second, it leaves a residue that ants detect and avoid, which is why bait placed on or near a sprayed surface simply gets refused &mdash; the homeowner concludes the bait does not work either. Third, and worst, in species that keep multiple queens, the chemical stress of repeated spraying can trigger <em>budding</em>: the colony splits and satellite nests establish elsewhere in the structure. You began with one trail and now have three, in places you cannot see.</p>
@@ -358,6 +361,7 @@ export default function BestAntKillerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="combat ant killing bait stations">Check Combat protein bait stations on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/best-ant-killer" />
           <h2>The Canadian Legal Layer Nobody Mentions</h2>
           <p>Search &ldquo;best ant killer&rdquo; and most of what you will read is American. That matters here more than in almost any other product category, because pesticides are regulated nationally and a product that is perfectly legal in Ohio may have no legal standing in Ontario at all. Under the Pest Control Products Act, any pesticide sold or used in Canada must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency and must carry a Canadian registration number on the label, printed in the form <strong>&ldquo;Reg. No. XXXXX P.C.P. Act&rdquo;</strong>, alongside a class designation.</p>
           <p>Two things follow from that. First, the ten-second habit: before buying any gel, concentrate or imported aerosol from a marketplace listing, look for that PCP number on the physical label. You cannot tell from a product photo, a US EPA registration number is not a substitute, and if there is no Canadian number there are no Canadian label directions to follow or rely on. Second, the class matters &mdash; a DOMESTIC designation is for household use, while professional-grade products often carry a COMMERCIAL designation that is not intended for unlicensed homeowners. Several of the potent ant gels that dominate American forum recommendations land Canadian buyers in exactly this grey zone; we walked through the same trap in detail on the <Link href="/blog/advion-cockroach-gel-bait">cockroach gel version of this problem</Link> and again in our <Link href="/blog/rat-poison-canada-what-is-legal">guide to what rodenticides are actually legal here</Link>.</p>

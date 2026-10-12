@@ -10,6 +10,8 @@ import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug, CLUSTER_TAGS } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'red-ticks-and-clover-mites'
 const DATE = '2026-07-13'
@@ -219,6 +221,7 @@ export default function RedTicksAndCloverMitesPage() {
           />
           <p>Thousands of people every month search for a &ldquo;red tick,&rdquo; &ldquo;tiny red tick,&rdquo; or &ldquo;bright red tick&rdquo; after spotting a vivid crimson speck on a wall, a windowsill, or their own skin. The reassuring news is that there is no widespread tick species that is a clean, uniform red. When the colour red enters the picture, one of three things is nearly always going on: you have found a <strong>clover mite</strong>, you have found a <strong>tick that turned reddish after feeding</strong>, or you have found a genuine tick species that happens to have a <strong>reddish-brown body</strong>, like the lone star tick. Knowing which one you are looking at takes just a few seconds once you know what to check.</p>
 
+          <NextUp path="/blog/red-ticks-and-clover-mites" />
           <h2>1. Clover Mites — the Real Answer Most of the Time</h2>
           <p>Clover mites are tiny plant-feeding mites about 0.75 mm long (roughly 1/32 inch), bright brick-red, with eight legs and one extra-long forward-pointing front pair. They swarm sunny walls, windowsills, and pavement in spring and fall. They do not bite people or pets and carry no disease. A crushed clover mite leaves a red plant pigment, not blood.</p>
           <p>If the red bugs are <em>tiny</em> — pinhead-sized or smaller — moving quickly, and appearing in the <em>dozens or hundreds</em> on sunny brick, siding, windowsills, patios, or concrete, you have clover mites (<em>Bromobia praetiosa</em>). They are true mites, distant relatives of ticks and spiders, but they are not ticks and they behave nothing like them.</p>
@@ -281,6 +284,7 @@ export default function RedTicksAndCloverMitesPage() {
             <li><strong>Wait out the season.</strong> Clover mites die back in hot, dry summer weather and are naturally seasonal in spring and fall.</li>
           </ol>
 
+          <RelatedLinks path="/blog/red-ticks-and-clover-mites" />
           <h2>What to Do if It Really Is a Tick</h2>
           <p>Remove an attached tick immediately with fine-tipped tweezers: grip as close to the skin as possible and pull straight out with steady pressure, without twisting. Clean the bite, save the tick in a sealed bag, and note the date. The CDC and the Government of Canada advise watching for rash, fever, or aches over the following weeks.</p>
           <p>If the red bug is attached to skin, larger than a pinhead, or found crawling alone in grass, treat it as a tick, not a mite. Remove it promptly and correctly, save it in a sealed bag or photograph it, and note the date. Over the following weeks, watch for an expanding &ldquo;bull&rsquo;s-eye&rdquo; rash (erythema migrans), fever, fatigue, or joint aches, and see a doctor if any appear. Public health guidance from <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">the Government of Canada on Lyme disease</a> and from the <a href="https://www.cdc.gov/ticks/" target="_blank" rel="noopener" className="underline hover:text-brand-700">CDC</a> covers symptoms and when to seek care.</p>

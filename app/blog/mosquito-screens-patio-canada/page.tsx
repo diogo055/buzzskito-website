@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'mosquito-screens-patio-canada'
 const DATE = '2026-07-12'
@@ -300,6 +301,7 @@ export default function MosquitoScreensPatioCanadaPage() {
             </div>
           </aside>
 
+          <NextUp path="/blog/mosquito-screens-patio-canada" />
           <h2>Mesh Size: The Detail Most Buyers Miss</h2>
           <p>Standard insect screen — about 18&times;16 mesh, the default on most patio and window products — reliably stops mosquitoes and house flies. It does <strong>not</strong> stop no-see-ums (biting midges) or blackflies, which slip right through. If your yard backs onto a marsh, a creek, or you are heading to cottage country, buy <strong>no-see-um mesh</strong> (roughly 20&times;20 or finer). It blocks the tiny biters at the cost of a little airflow and a few extra dollars. For a typical Mississauga, Brampton, or Oakville suburban patio away from water, standard mosquito mesh is plenty.</p>
 

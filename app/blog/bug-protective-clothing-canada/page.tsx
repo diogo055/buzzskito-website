@@ -8,6 +8,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bug-protective-clothing-canada'
 const DATE = '2026-07-14'
@@ -217,6 +219,7 @@ export default function BugProtectiveClothingCanadaPage() {
           <p>Black flies behave differently from mosquitoes. They&rsquo;re daytime biters, they swarm the face, ears, and hairline, and — this is the part that makes them miserable — they crawl. A black fly lands on your shoulder and walks under your collar, up a sleeve, or beneath a waistband to bite where the fabric ends. Repellents that work well on mosquitoes are noticeably less reliable on black flies, which is why the people who work outdoors through northern Ontario Junes — tree planters, surveyors, line crews — wear bug jackets, not just bug spray. Our guide to <Link href="/blog/black-flies-ontario-when-they-come-out">when black flies come out in Ontario</Link> maps the season region by region; the short version is mid-May to late June in cottage country, tapering through early July as you go north.</p>
           <p>A mesh bug jacket answers that behaviour point by point: the hood zips shut around your face, elastic cuffs close the sleeve ends, a long hem drops below the waistband. Nothing to reapply, nothing that sweats off — mesh is a purely physical barrier that works as well in hour six as in minute one.</p>
 
+          <NextUp path="/blog/bug-protective-clothing-canada" />
           <h2>The 5-Piece Bug Clothing Kit for Canada</h2>
 
           <h3>1. Coghlan&rsquo;s Bug Jacket — The Black-Fly Season Workhorse</h3>
@@ -259,6 +262,7 @@ export default function BugProtectiveClothingCanadaPage() {
           </ul>
           <p>The same distinction applies to every mesh product you&rsquo;ll ever buy — head nets, bug jackets, tent screens, and the screen houses we compared in our <Link href="/blog/best-screen-tent-canada">best screen tent guide</Link>. Match the mesh to your local biters rather than defaulting to the finest weave: in a heat wave, the standard mesh you keep wearing protects better than the no-see-um mesh you take off.</p>
 
+          <RelatedLinks path="/blog/bug-protective-clothing-canada" />
           <h2>The Black-Fly Season Survival Kit (May&ndash;June, Cottage Country)</h2>
           <p>If we were packing one duffel for a Muskoka or Kawarthas cottage from Victoria Day to Canada Day, this is it:</p>
           <ol>

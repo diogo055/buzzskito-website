@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-cockroach-killer-canada'
 const DATE = '2026-08-31'
@@ -191,6 +193,7 @@ export default function BestCockroachKillerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="cockroach glue traps monitor">Glue monitors &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-cockroach-killer-canada" />
           <h2>Colony Transfer: Why Slow Bait Beats Instant Spray</h2>
           <p>A German cockroach infestation is not a collection of individual roaches; it is a colony with a shared harbourage &mdash; a warm, tight, humid crack near food and water where the breeding females, the egg cases, and the nymphs spend almost all of their time. At any given moment, only a minority of the colony is out foraging. Whatever you can see and hit is the minority.</p>
           <p><strong>Bait is designed for that arithmetic.</strong> A foraging roach eats a slow-acting dose, walks it back to the harbourage, and dies there hours later &mdash; among nest-mates that feed on the droppings, secretions, and carcasses of their own kind. The poison cascades: nymphs that never left the wall void, females that never crossed your kitchen floor, all reached through the colony&rsquo;s own habits. Pest-control research has documented this secondary-kill effect for every major bait class, and it is the entire reason a syringe of professional gel can collapse an infestation that survived a dozen cans of spray.</p>
@@ -237,6 +240,7 @@ export default function BestCockroachKillerCanadaPage() {
           <p><strong>Small tan roaches with two dark stripes, in the kitchen or bathroom &mdash; German cockroaches.</strong> This is the infestation species: exclusively indoors, explosive breeding (one female produces an egg case of 30&ndash;40 nymphs roughly monthly), harbouraged within a few metres of warmth, moisture, and food. Everything in this guide about bait density, the repellency trap, and the three-week timeline is aimed at this insect. The campaign is won or lost within about a metre of the fridge motor, the dishwasher, the sink plumbing, and the stove.</p>
           <p><strong>Large dark roaches in the basement, laundry room, or near floor drains &mdash; American or Oriental cockroaches.</strong> These usually arrive from drains, sewer connections, and moist sub-grade voids, and a sighting is often a wanderer rather than a resident colony. The strategy is plumbing and building work first: run water into unused floor drains monthly so the trap seal stays intact, screen or seal gaps around pipe penetrations, fix the moisture that makes a basement hospitable, and dust the travel voids with boric acid. Stations still help as insurance, but bait density in the kitchen does nothing about an insect commuting up a drain stack. Our full <Link href="/blog/how-to-get-rid-of-cockroaches-canada">how to get rid of cockroaches guide</Link> walks the whole identification-first sequence.</p>
 
+          <RelatedLinks path="/blog/best-cockroach-killer-canada" />
           <h2>The Repellency Trap: How DIYers Kill Their Own Bait Program</h2>
           <p>If this page changes one behaviour, let it be this one. The most common way Canadians sabotage a roach campaign is running spray and bait at the same time, in the same places &mdash; usually because the bait felt too passive and the spray felt like doing something.</p>
           <p>Pyrethroid spray residue is repellent to cockroaches, and they can detect it for weeks. Spray a baseboard on Monday and place a station there on Tuesday and you have fenced your own trap: foragers detour around the treated zone and never find the bait. Spray toward the harbourage and you do something worse &mdash; scatter the colony into wall voids and adjoining rooms, turning one concentrated, baitable population into several diffuse ones. The professional rule is absolute: <strong>bait and repellent spray never share a surface.</strong> The trap is easiest to fall into with the barrier sprays people buy by brand name rather than by active ingredient: the US-market Ortho Home Defense Max is built on bifenthrin, a synthetic pyrethroid, so it belongs nowhere near a bait placement &mdash; and our <Link href="/blog/ortho-home-defense-canada-review">Ortho Home Defense Canada review</Link> sets out which formulations are actually sold on Canadian shelves, because the US barrier product and the one you can buy here are not the same thing.</p>

@@ -4,6 +4,8 @@ import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
 import { SITE_URL, PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-combat-ticks'
 const TITLE = 'How to Combat Ticks in Ontario — 10-Step Yard &amp; Family Guide'
@@ -110,12 +112,14 @@ export default function HowToCombatTicksPage() {
             ))}
           </ol>
 
+          <NextUp path="/learn/how-to-combat-ticks" />
           <h2>Why This Order Matters</h2>
           <p>Steps 1 through 5 are <strong>habitat reduction</strong> — they make your yard a place ticks cannot thrive. Ticks live and die by humidity, so a short lawn, cleared leaf litter, and a dry barrier at the woods edge do more than any single product. Steps 6 through 9 are <strong>personal protection</strong>: the clothing, repellent, checks, and prompt removal that stop a tick from ever attaching, or catch it before it can transmit disease. Step 10, a professional <Link href="/tick-control">tick barrier spray</Link>, treats the edge zones where questing nymphs and adults concentrate, whatever stage is active that month. Read the deeper playbook in <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">how to keep ticks out of your yard</Link> and the <Link href="/blog/ultimate-tick-control-guide-ontario">ultimate tick control guide for Ontario</Link>.</p>
 
           <h2>Protecting Kids and Pets</h2>
           <p>Children and dogs are the most common way ticks come indoors, so they deserve extra attention. Move play structures toward the sunny centre of the yard, do a thorough check of kids after outdoor play, and ask your veterinarian about a tick preventive for pets. For yard treatment with kids in mind, see <Link href="/blog/tick-prevention-yard-ontario-safe-for-kids">tick prevention in a family yard</Link>, and for the details of catching ticks early, our step-by-step <Link href="/blog/how-to-do-a-tick-check">tick check guide</Link> and <Link href="/blog/how-to-remove-tick-safely">how to remove a tick safely</Link>.</p>
 
+          <RelatedLinks path="/learn/how-to-combat-ticks" />
           <h2>Common Mistakes to Avoid</h2>
           <ul>
             <li><strong>Only treating the open lawn.</strong> Ticks live at the edges — the woods line, garden beds, and fence rows — not the middle of a sunny lawn. Treat where they actually are.</li>

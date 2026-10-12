@@ -11,6 +11,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'laser-mosquito-killer-photon-matrix-review'
 const DATE = '2026-07-12'
@@ -558,6 +560,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
             <p className="text-sm text-gray-800 leading-relaxed">In a lab, the photonic-fence concept works &mdash; prototypes really can spot and hit a mosquito in flight. In your backyard, in 2026, there is no independently tested, safety-certified, in-stock consumer device that we can point to and say &ldquo;buy this, it works.&rdquo; The demo videos are real footage of prototypes; they are not proof of a shipping product that will clear your yard. For real relief right now, pair a proven trap with <Link href="/mosquito-control">professional barrier spray</Link> &mdash; whole-yard, a residual renewed on a schedule, and it also handles ticks, which no laser addresses.</p>
           </div>
 
+          <NextUp path="/blog/laser-mosquito-killer-photon-matrix-review" />
           <h2>The Photon Matrix: What&rsquo;s Real and What&rsquo;s Marketing</h2>
           <p>The Photon Matrix is the device most people mean when they search &ldquo;photon matrix mosquito killer.&rdquo; It has been promoted through crowdfunding-style campaigns and viral demo clips showing a lidar sensor tracking insects and a laser picking them off. Here is how to read those claims like a skeptic:</p>
           <ul>
@@ -743,6 +746,7 @@ export default function LaserMosquitoKillerPhotonMatrixPage() {
           <p>What you will not find, anywhere, is the thing a shopper most wants: a body of independent owner reviews from people who have run one through a full season. Shipments only began in August 2026, which means as of this update almost nobody has owned a unit long enough to say whether it survives rain, whether the interlock behaves around a dog, or whether bite counts actually fall. Anything presented as a &ldquo;review&rdquo; before that is a rewrite of the press release &mdash; and a large share of the pages competing for this search term are exactly that.</p>
           <p>Reading the complaints fairly cuts both ways. A campaign that overshot its goal by roughly 135&times; was always going to have a support backlog and a slipped date; that pattern is the norm in hardware crowdfunding rather than a sign of bad faith. But an unanswered question about aircraft, from a paying customer, is a support failure regardless of the answer &mdash; and the refund clause below is the part that turns slow support into a real cost.</p>
 
+          <RelatedLinks path="/blog/laser-mosquito-killer-photon-matrix-review" />
           <h2 id="photon-matrix-refund-policy">Can you get a refund on a Photon Matrix order?</h2>
           <p><strong>Only before it ships. Per The Register&rsquo;s August 17, 2026 reporting, the refund window closes at dispatch, and backers described requests going unanswered inside that window. A 120-day shipping estimate is not 120 days of refund eligibility &mdash; the clock is controlled by the seller&rsquo;s dispatch schedule, not by you.</strong></p>
           <p>Three practical consequences follow, and they are the same three whether you are in Houston or Mississauga:</p>

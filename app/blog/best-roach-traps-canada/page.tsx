@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-roach-traps-canada'
 const DATE = '2026-07-28'
@@ -362,6 +364,7 @@ export default function BestRoachTrapsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="roach motel glue trap">Covered glue traps →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-roach-traps-canada" />
           <h2>Why a Glue Board Is a Diagnostic Instrument, Not a Weapon</h2>
           <p>Glue boards catch roaches extremely well, and that is exactly what fools people. Cockroaches are thigmotactic &mdash; they prefer to move with their bodies in contact with a surface &mdash; and negatively phototactic, meaning they avoid open, lit space. Put those two traits together and you get an insect that runs the seam where the floor meets the wall, at night, hugging the edge. A flat glue board pressed tight into that seam is not luck. It is sitting in the middle of a highway.</p>
           <p>The problem is arithmetic. A German cockroach female produces egg case after egg case, each containing roughly 30 to 40 eggs, and she carries the case protected on her abdomen until it is nearly ready to hatch &mdash; which is precisely why crushing adults and catching foragers accomplishes so little. The breeding core sits inside voids: behind the dishwasher, inside the stove insulation, in the hollow of a cabinet frame, under the fridge condenser. No adhesive surface reaches any of that. A board full of roaches feels like a win and is, honestly, a receipt.</p>
@@ -408,6 +411,7 @@ export default function BestRoachTrapsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="roach motel glue trap">Check covered glue traps on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/best-roach-traps-canada" />
           <h2>Reading the Curve: How to Know You Are Actually Winning</h2>
           <p>Once you have a numbered grid and a weekly count, the shape of the numbers tells you what nothing else can. Watch for the shape rather than for dates on a calendar &mdash; how fast it moves depends on the size of the population, how many stations you placed, and how much competing food and water is left in the room. A baiting campaign that is working tends to run like this:</p>
           <ul>

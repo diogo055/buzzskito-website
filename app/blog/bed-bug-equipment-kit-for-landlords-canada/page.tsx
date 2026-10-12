@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-equipment-kit-for-landlords-canada'
 const DATE = '2026-08-22'
@@ -179,6 +181,7 @@ export default function BedBugEquipmentKitForLandlordsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner">Boiler steamer &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/bed-bug-equipment-kit-for-landlords-canada" />
           <h2>Consumables scale with beds. Machines do not.</h2>
           <p>This is the sentence that makes a landlord&rsquo;s shopping list different from a homeowner&rsquo;s, and it is worth being precise about, because the two halves behave completely differently when you multiply them.</p>
           <p><strong>Consumables scale, and they scale on beds rather than doors.</strong> A six-unit building with one bed per unit is six mattress encasements plus six box-spring encasements, and a minimum of twenty-four interceptor traps &mdash; four under each bed. A two-bedroom unit is two of everything. Encasements typically run $40&ndash;$90 for a queen in Canada, so the encasement line on a six-unit building is a real number worth planning for rather than an impulse purchase during a complaint. Buy them in multi-packs, measure depths first &mdash; standard mattresses are 20&ndash;30 cm and pillow-tops need a deep-pocket size &mdash; and label each set by unit.</p>
@@ -244,6 +247,7 @@ export default function BedBugEquipmentKitForLandlordsCanadaPage() {
             <li><strong>Waiting for a complaint.</strong> By the time a tenant reports bites the population has usually been building for weeks. Turnover inspections are cheaper than everything that follows.</li>
           </ul>
 
+          <RelatedLinks path="/blog/bed-bug-equipment-kit-for-landlords-canada" />
           <h2>Where the licensed-exterminator line sits</h2>
           <p>Under Ontario&rsquo;s Residential Tenancies Act, a landlord is responsible for maintaining a rental unit in a good state of repair and fit for habitation, and municipal property standards bylaws across the province commonly require premises to be kept free of pests. What that means practically is speed and documentation: respond quickly, treat and inspect properly, keep records. Treat this as general information rather than legal advice &mdash; confirm your own obligations with your municipality, and take any Landlord and Tenant Board matter to a paralegal or lawyer.</p>
           <p>The operational split that works is simple. The licensed exterminator does the pesticide treatments. Your kit does everything else: the inspection that finds it, the interceptors that confirm it, the vacuum and steam that prepare the unit and knock the population down before the professional arrives, the encasements that contain what survives, and the monitoring afterwards that tells you whether the treatment held. That preparation is not busywork &mdash; a properly prepped unit measurably improves what a treatment achieves, and it is the part a landlord controls entirely. For the cost side of the professional half, our <Link href="/blog/bed-bug-treatment-cost-canada">Canadian bed bug treatment cost guide</Link> lays out the published ranges and what makes quotes vary.</p>

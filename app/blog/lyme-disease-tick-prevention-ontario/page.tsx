@@ -10,6 +10,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const POST = TICK_BLOGS.supporting[0]
 const UPDATED = '2026-04-20'
@@ -256,6 +257,7 @@ export default function LymeDiseasePage() {
         </p>
 
         {/* Prevention — conversion section */}
+        <NextUp path="/blog/lyme-disease-tick-prevention-ontario" />
         <h2>How to Protect Your Family from Lyme Disease This Season</h2>
         <p>
           The most effective approach combines several layers. None of them are particularly hard — the trick is doing all of them rather than picking one.

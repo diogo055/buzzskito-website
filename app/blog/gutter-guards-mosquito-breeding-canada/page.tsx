@@ -9,6 +9,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'gutter-guards-mosquito-breeding-canada'
 const DATE = '2026-08-22'
@@ -205,6 +207,7 @@ export default function GutterGuardsMosquitoBreedingPage() {
           <p>A gutter with a leaf dam in it holds water in a way that is close to perfect for mosquito production. It is shallow, so it warms quickly on a summer roof. It is packed with decomposing organic matter, which is the food supply for larvae and the specific cue <em>Culex pipiens</em> uses when choosing where to lay &mdash; that species, the one Ontario public health units track for West Nile virus, actively prefers foul organic water over clean. It is completely undisturbed by wind or wildlife. And it is invisible: you cannot see into a gutter from the ground, so a section can produce brood after brood for an entire season without anyone connecting it to the mosquitoes on the patio.</p>
           <p>The timing is the part that makes gutters worse than they look. In GTA summer heat, egg to flying adult runs roughly seven to fourteen days. A dam that holds water for a month is not one hatch, it is several. And unlike a birdbath, nobody tips it out by accident.</p>
 
+          <NextUp path="/blog/gutter-guards-mosquito-breeding-canada" />
           <h2>How to Tell If Your Gutters Are the Source</h2>
           <p>Short of putting a ladder up, the tells are indirect but reliable:</p>
           <ul>
@@ -249,6 +252,7 @@ export default function GutterGuardsMosquitoBreedingPage() {
             <BuyLink tag={AMZ_TAG} search="gutter guard clips screws">Guard clips &amp; screws &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/gutter-guards-mosquito-breeding-canada" />
           <h2>DIY at About $1&ndash;$2 a Foot, or Installed at About $22</h2>
           <p>Here is the arithmetic that decides this for most people. DIY aluminium micro-mesh generally works out to roughly $1 to $2 per linear foot in Canada. Professional installation of a branded guard system in the GTA runs in the region of $22 per linear foot. On a 175-foot house that is a few hundred dollars against roughly $3,800.</p>
           <p><strong>So DIY, obviously?</strong> On a bungalow, or on the rear elevation of a split-level where the eave is a step-ladder away from a flat lawn &mdash; yes, without hesitation. It is a slow but genuinely simple job: clean the trough, seat the section, fasten it, overlap the next one.</p>

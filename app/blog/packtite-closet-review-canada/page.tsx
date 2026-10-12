@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'packtite-closet-review-canada'
 const DATE = '2026-07-21'
@@ -213,6 +215,7 @@ export default function PackTiteClosetReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="thermalstrike ranger bed bug heater">ThermalStrike Ranger →</BuyLink>
           </div>
 
+          <NextUp path="/blog/packtite-closet-review-canada" />
           <h2>Does It Actually Work? The Heat Science, Honestly</h2>
           <p>Yes &mdash; with the caveat that the machine only works as well as your patience does. Bed bugs die from sustained heat, not a brief warm touch. The widely referenced lethal zone is roughly 48&ndash;50&deg;C (about 118&ndash;122&deg;F), held for a meaningful stretch rather than reached for a moment. The Closet is engineered to reach and maintain that range, and this is why the included thermometer probe is not an accessory &mdash; it is the entire point of doing this properly.</p>
           <p>Here is the mechanism that trips people up. When you switch the chamber on, the <em>air</em> reaches temperature fairly quickly. But the dense centre of a packed bag, or the core of a thick folded pile, lags well behind the air around it. If you start counting your hold time the moment the air hits target, you can pull a load that still had a cool pocket at its heart &mdash; and a single surviving egg in that pocket restarts the whole problem. The correct method is to bury the probe in the slowest-heating part of the load, wait until the <strong>probe</strong> reads target temperature, and only then begin the hold. Do that, and the kill is thorough and every-life-stage complete. Skip it, and you have an expensive load-warmer.</p>
@@ -225,6 +228,7 @@ export default function PackTiteClosetReviewCanadaPage() {
           <p>This is the single most important practical point in this review, and it is why the Closet does not score a perfect mark despite being an excellent device. <strong>PackTite is a US brand, and its Canadian availability is inconsistent.</strong> The Closet appears on Amazon.ca in fits and starts; it is sometimes listed only through US-based third-party sellers; and it can disappear entirely for stretches during peak demand. When it does ship from the United States, you may encounter currency conversion, cross-border duty or brokerage fees, longer transit times, and a warranty that is simpler to claim south of the border than north of it.</p>
           <p>None of this is a legality issue. A heat chamber is an appliance, not a pesticide, so there is no Health Canada or PMRA registration to worry about &mdash; unlike the many US bed-bug <em>chemical</em> products that are genuinely not legal for sale in Canada. The Closet is perfectly legal to own and use here. The friction is purely retail supply. So the sensible buying discipline is: check who the seller actually is, confirm the full landed price including any duty or brokerage before you commit, and weigh it against alternatives that may be sitting on a Canadian shelf right now. If a <Link href="/blog/zappbug-oven-2-review-canada">ZappBug Oven</Link> is in stock domestically at a comparable price and the Closet is a US-shipped gamble, availability alone can be the deciding factor.</p>
 
+          <RelatedLinks path="/blog/packtite-closet-review-canada" />
           <h2>How Long a Cycle Takes — and Why That Is a Feature</h2>
           <p>Plan on several hours per load, and reframe that time as the treatment doing its job rather than a delay. The sequence is: the chamber climbs to temperature, then the load core catches up to the air, and only then does the lethal hold time begin. Bulky, tightly packed loads take meaningfully longer to reach core temperature than loose ones &mdash; which is, again, the argument for not cramming it. A realistic full cycle, cold start to safely finished, commonly lands in the multi-hour range.</p>
           <p>The temptation, especially near the end of a long evening, is to pull the load when the air hits temperature and call it done. Resist it. That shortcut is the most common reason someone treats an item, believes it clean, and re-introduces bed bugs from the very bag they thought they had solved. The probe and the clock are your proof of work. Let both do their jobs.</p>

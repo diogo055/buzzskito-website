@@ -9,6 +9,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-mosquito-trap-for-acreage-canada'
 const DATE = '2026-07-21'
@@ -281,6 +283,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="mosquito trap octenol attractant refill">Check octenol attractant refills →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-mosquito-trap-for-acreage-canada" />
           <h2>The Big-Coverage Budget Route: DynaTrap XL</h2>
           <p>Not everyone wants to run a propane operation. The <strong>DynaTrap XL</strong> (the DT3050 and DT3600 &ldquo;whole-acre&rdquo; models) is the large-area, low-maintenance alternative: UV light plus a whisper-quiet fan, no propane, no attractant swaps, nothing to service beyond emptying the basket and changing a bulb once a season. It is rated for up to about an acre, and for a weekend cottage where nobody is around to swap propane tanks every three weeks, that hands-off simplicity is worth a lot.</p>
           <p>Be clear-eyed about the trade-off, though. Because it attracts with light rather than CO₂, a DynaTrap catches a great many insects but a modest share of them are mosquitoes &mdash; University of Florida and Notre Dame research on UV traps consistently finds the bulk of the catch is non-biting moths, beetles, and midges. Adding the optional lure cartridge nudges the mosquito catch up but never closes the gap with a real CO₂ trap. Think of the DynaTrap XL as reliable background pressure and a satisfying flying-insect reducer, not a population-collapsing weapon. Our honest <Link href="/blog/dynatrap-canada-review">DynaTrap Canada review</Link> goes model by model.</p>
@@ -288,6 +291,7 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
           <h2>The Middle Path: CO₂ / Octenol Lure Traps</h2>
           <p>Between the full propane burner and the UV trap sits the CO₂/octenol lure trap &mdash; the Flowtron Mosquito Power Trap and the Biogents line. These use a CO₂ source (a small cylinder, or a sugar-and-yeast bottle that ferments its own) plus an octenol lure to mimic a host, then vacuum the incoming mosquitoes into a catch bag. They target host-seeking females far better than UV light does, without a catalytic burner to maintain, at a lower price than a flagship Mosquito Magnet. Their effective radius is smaller than a propane unit&rsquo;s, so on acreage they work best deployed toward a specific hot spot &mdash; the corner of the property nearest the marsh, say &mdash; rather than as your whole-property solution.</p>
 
+          <RelatedLinks path="/blog/best-mosquito-trap-for-acreage-canada" />
           <h2>How to Choose: Sizing, Placement, and What You&rsquo;re Really Paying For</h2>
           <p>High-ticket trap purchases go wrong not because people buy the wrong brand but because they buy the wrong <em>quantity</em> and put them in the wrong <em>place</em>. Here is the framework that actually determines whether your money works.</p>
           <ul>

@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-stains-poop-droppings-canada'
 const DATE = '2026-07-30'
@@ -397,6 +399,7 @@ export default function BedBugStainsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug glue strip monitors">Glue-strip monitors &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/bed-bug-stains-poop-droppings-canada" />
           <h2>Where the Stains Appear, and Why It Is Not Your Sheets</h2>
           <p>Here is the behavioural fact that makes the staining useful rather than merely alarming: <strong>bed bugs do not defecate where they feed. They defecate where they rest.</strong> A bug feeds for a few minutes, retreats to a tight dark space, and then digests over the following days &mdash; which is where the spotting accumulates. That converts a distressing mark into a map, because the densest patch of staining is, quite literally, the address.</p>
           <p>Search in this order, with a flashlight held at a low raking angle so the light throws shadows across the surface rather than washing it out:</p>
@@ -421,6 +424,7 @@ export default function BedBugStainsCanadaPage() {
           <p>Once you have found spotting, spend another five minutes in the same few centimetres, because the confirming evidence is almost always adjacent to it. You are looking for translucent, bug-shaped shells &mdash; bed bugs moult on their way to adulthood and leave the empty casings behind, which is why finding shells in several different sizes tells you the population is breeding rather than a lone hitchhiker. You are also looking for eggs: roughly a millimetre long, pearly white, glued into a crack or seam fold, usually in small clusters and easy to miss without raking light.</p>
           <p>And one thing that is <em>not</em> evidence, no matter how convincing it feels: bites. Skin reactions to bed bug bites vary enormously between people, several other insects produce a similar-looking mark, and some people show no reaction at all &mdash; so a bite pattern can neither confirm nor rule out an infestation. Our guide to <Link href="/blog/bed-bug-bites">what bed bug bites look like</Link> covers why, and <Link href="/blog/tick-vs-bed-bug">tick vs bed bug</Link> handles the other insect that most often gets blamed. If you have bites and no physical evidence anywhere, the honest position is that you do not know yet &mdash; and interceptors, not a spray, are what resolve it.</p>
 
+          <RelatedLinks path="/blog/bed-bug-stains-poop-droppings-canada" />
           <h2>Do Not Clean It Yet</h2>
           <p>The strongest instinct on finding this is to scrub, and it is the wrong first move. Cleaning the mattress destroys the map that tells you and any professional where the harbourage is, and it does nothing at all to the insects, which are inside the seam rather than on it.</p>
           <p>Do this instead. <strong>Photograph it</strong> &mdash; close, well-lit, with something for scale, and a second wider shot showing where on the bed it is. If you rent, those photos are the evidence that starts the process with your landlord or property manager. <strong>Then leave it.</strong> Once treatment is underway or complete, fit a light-coloured, bed-bug-rated zippered encasement over both the mattress and the box spring. That does three jobs at once: it seals whatever is still inside where it cannot reach you, it denies the surface to anything outside, and it gives you a clean pale baseline &mdash; so any new spot that shows up afterwards is unambiguously new, rather than a mark you have been anxiously re-examining for six weeks.</p>

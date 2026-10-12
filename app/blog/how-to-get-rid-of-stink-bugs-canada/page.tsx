@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-stink-bugs-canada'
 const DATE = '2026-07-30'
@@ -269,6 +271,7 @@ export default function HowToGetRidOfStinkBugsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="stainless steel mesh roll pest exclusion vent screen">Steel mesh for vents &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-stink-bugs-canada" />
           <h2>Getting Them Out Today, Without the Smell</h2>
           <p>The name is earned. Stink bugs have glands on the underside of the thorax that release defensive aldehyde compounds, and crushing one delivers the full dose onto whatever surface it is pressed against. On glass that is trivial; on carpet, curtains, grout, unfinished wood or a painted wall it is a long-lived problem. The odour also functions as an aggregation cue for the species, so a crushed bug on a windowsill is not a neutral act.</p>
           <p><strong>The vacuum method.</strong> A hose and a wand clears a ceiling, a curtain top and a window head faster than anything else, with no contact at all. Use a shop vac or a machine you are prepared to dedicate to the job, because the compounds settle into the canister and the filter and will announce themselves next time you run it. Empty it outside straight away rather than leaving live insects in a warm drum in the house. If you want to protect the machine entirely, stretch a knee-high nylon stocking over the end of the wand, push it a few centimetres inside, and fold the open end back over the outside &mdash; the bugs collect in the stocking, which you tie off and dispose of.</p>
@@ -303,6 +306,7 @@ export default function HowToGetRidOfStinkBugsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="stainless steel mesh roll pest exclusion vent screen">Check steel mesh and vent screen &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-stink-bugs-canada" />
           <h2>Asian Lady Beetles: The Same Problem in a Friendlier Costume</h2>
           <p>If your stink bugs arrived alongside a cloud of orange ladybugs, you have multicoloured Asian lady beetles &mdash; <em>Harmonia axyridis</em> &mdash; and it is genuinely the same problem, on the same walls, in the same weeks, with the same fix. That is why they are covered here rather than at their own page: sealing a house against one seals it against both.</p>
           <p><strong>Telling them from native ladybugs</strong> matters mainly for peace of mind. The Asian species varies enormously in colour, from pale yellow through orange to deep red, and in spot count from none to many &mdash; so colour is useless. Look instead at the white shield behind the head, which usually carries a black marking shaped like an M or a W depending on which way you are looking at it. Native lady beetles do not aggregate on houses in the hundreds.</p>

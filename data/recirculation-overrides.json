@@ -1,0 +1,225 @@
+{
+ "_readme": "Hand-picked in-content links. Anything set here wins over the automatic pick and is never changed by scripts/backfill-recirculation.mjs. Use full paths. A page may set \"next\" (one path), \"related\" (a list of up to three paths), both, or \"off\": true to show neither unit on that page. After editing run: npm run recirculation:backfill",
+ "_history": "Oct 11, 2026: the \"next\" entries below were chosen in a page-by-page review of all 416 automatic picks, for the pages where the automatic pick was rated wrong or weak.",
+ "pages": {
+  "/blog/advion-cockroach-gel-bait": {
+   "next": "/blog/best-cockroach-killer-canada"
+  },
+  "/blog/are-ticks-arachnids-or-insects": {
+   "next": "/learn/tick-life-cycle"
+  },
+  "/blog/are-ticks-dangerous-ontario": {
+   "next": "/blog/tick-borne-diseases-ontario-complete-list"
+  },
+  "/blog/baby-bed-bugs-nymphs": {
+   "next": "/blog/bed-bug-shells-casings-shed-skins-canada"
+  },
+  "/blog/backpack-sprayer-canada": {
+   "next": "/blog/field-king-backpack-sprayer-review-canada"
+  },
+  "/blog/battery-backup-sump-pump-canada": {
+   "next": "/blog/best-sump-pump-for-basement-canada"
+  },
+  "/blog/bed-bug-heater-canada": {
+   "next": "/blog/best-whole-room-bed-bug-heater-canada"
+  },
+  "/blog/best-air-purifier-for-dust-mites-canada": {
+   "next": "/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada"
+  },
+  "/blog/best-bug-spray-for-kids-canada": {
+   "next": "/blog/is-deet-safe"
+  },
+  "/blog/best-deer-fence-for-gardens-canada": {
+   "next": "/blog/how-to-stop-deer-eating-cedars-ontario"
+  },
+  "/blog/best-flea-bomb-canada": {
+   "next": "/blog/flea-bites-on-humans"
+  },
+  "/blog/best-mosquito-repellent-device-canada": {
+   "next": "/blog/thermacell-e90-canada-review"
+  },
+  "/blog/best-rodent-repellent-for-cars-canada": {
+   "next": "/blog/how-to-keep-mice-out-of-your-car"
+  },
+  "/blog/best-screen-tent-canada": {
+   "next": "/blog/best-gazebo-with-mosquito-net-canada"
+  },
+  "/blog/best-spider-spray-canada": {
+   "next": "/blog/how-to-get-rid-of-spiders-in-house-canada"
+  },
+  "/blog/best-squirrel-proof-bird-feeder-canada": {
+   "next": "/blog/rodent-proof-compost-bin-canada"
+  },
+  "/blog/best-wasp-nest-spray-canada": {
+   "next": "/blog/wasp-dust-canada"
+  },
+  "/blog/black-flies-ontario-when-they-come-out": {
+   "next": "/blog/deer-flies-horse-flies-ontario"
+  },
+  "/blog/bugs-that-look-like-ticks": {
+   "next": "/blog/types-of-ticks-identification"
+  },
+  "/blog/can-mosquitoes-bite-through-clothes": {
+   "next": "/blog/bug-protective-clothing-canada"
+  },
+  "/blog/can-ticks-fly-jump-swim": {
+   "next": "/blog/how-long-do-ticks-live"
+  },
+  "/blog/crossfire-bed-bug-concentrate-review-canada": {
+   "next": "/blog/bed-bug-spray-canada"
+  },
+  "/blog/do-mosquitoes-bite-dogs": {
+   "next": "/blog/how-to-keep-mosquitoes-away"
+  },
+  "/blog/do-ticks-die-in-the-washing-machine": {
+   "next": "/blog/how-to-do-a-tick-check"
+  },
+  "/blog/do-ticks-fly-or-jump": {
+   "next": "/blog/how-to-do-a-tick-check"
+  },
+  "/blog/doktor-doom-canada-guide": {
+   "next": "/blog/ortho-home-defense-canada-review"
+  },
+  "/blog/dynatrap-canada-review": {
+   "next": "/blog/mosquito-magnet-vs-dynatrap-canada"
+  },
+  "/blog/electric-fly-swatter": {
+   "next": "/blog/best-fruit-fly-trap-canada"
+  },
+  "/blog/flowtron-bug-zapper-canada": {
+   "next": "/blog/best-solar-bug-zapper-canada"
+  },
+  "/blog/how-long-do-mice-live": {
+   "next": "/blog/baby-mice"
+  },
+  "/blog/how-long-do-ticks-live": {
+   "next": "/learn/tick-life-cycle"
+  },
+  "/blog/how-long-does-mosquito-spray-last": {
+   "next": "/blog/is-mosquito-spray-safe-kids-pets"
+  },
+  "/blog/how-to-get-rid-of-ants-canada": {
+   "next": "/blog/best-ant-killer"
+  },
+  "/blog/how-to-get-rid-of-carpet-beetles-canada": {
+   "next": "/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada"
+  },
+  "/blog/how-to-get-rid-of-centipedes-canada": {
+   "next": "/blog/how-to-get-rid-of-silverfish-canada"
+  },
+  "/blog/how-to-get-rid-of-drain-flies-canada": {
+   "next": "/blog/how-to-get-rid-of-fruit-flies"
+  },
+  "/blog/how-to-get-rid-of-earwigs-canada": {
+   "next": "/blog/best-earwig-killer-canada"
+  },
+  "/blog/how-to-get-rid-of-fruit-flies": {
+   "next": "/blog/best-fruit-fly-trap-canada"
+  },
+  "/blog/how-to-get-rid-of-fungus-gnats-houseplants": {
+   "next": "/learn/natural-garden-pest-control"
+  },
+  "/blog/how-to-get-rid-of-silverfish-canada": {
+   "next": "/blog/best-silverfish-traps"
+  },
+  "/blog/how-to-get-rid-of-voles-canada": {
+   "next": "/blog/how-to-get-rid-of-mice-canada"
+  },
+  "/blog/how-to-get-rid-of-wasps-canada": {
+   "next": "/blog/how-to-get-rid-of-ground-wasps-canada"
+  },
+  "/blog/how-to-remove-tick-safely": {
+   "next": "/blog/tick-head-stuck-in-skin"
+  },
+  "/blog/how-to-stop-deer-eating-cedars-ontario": {
+   "next": "/blog/best-deer-fence-for-gardens-canada"
+  },
+  "/blog/i-found-tick-on-my-dog-what-to-do": {
+   "next": "/blog/how-to-remove-tick-from-dog-ontario"
+  },
+  "/blog/is-mosquito-spray-safe-kids-pets": {
+   "next": "/blog/mosquito-netting-vs-barrier-spray"
+  },
+  "/blog/mosquito-facts": {
+   "next": "/blog/why-do-mosquitoes-exist"
+  },
+  "/blog/mosquito-hawk-explained": {
+   "next": "/blog/mosquito-facts"
+  },
+  "/blog/mosquito-larvae-identification": {
+   "next": "/blog/mosquito-bits-canada-vs-dunks"
+  },
+  "/blog/mosquito-magnet-vs-dynatrap-canada": {
+   "next": "/blog/best-mosquito-trap"
+  },
+  "/blog/mosquito-net": {
+   "next": "/blog/bug-protective-clothing-canada"
+  },
+  "/blog/mosquito-repellent-stickers-patches-canada": {
+   "next": "/blog/mosquito-repellent-bracelets-canada"
+  },
+  "/blog/mosquito-screens-patio-canada": {
+   "next": "/blog/mosquito-screened-porch-kit-canada"
+  },
+  "/blog/pantry-moth-traps-canada": {
+   "next": "/blog/how-to-get-rid-of-carpet-beetles-canada"
+  },
+  "/blog/peppermint-oil-for-mice": {
+   "next": "/blog/mice-repellent"
+  },
+  "/blog/pergola-mosquito-curtains-canada": {
+   "next": "/blog/mosquito-screens-patio-canada"
+  },
+  "/blog/permethrin-canada-yard-clothing-spray": {
+   "next": "/blog/bug-protective-clothing-canada"
+  },
+  "/blog/rain-barrel-mosquito-proof-canada": {
+   "next": "/blog/mosquito-dunks-canada-guide"
+  },
+  "/blog/red-ticks-and-clover-mites": {
+   "next": "/blog/bugs-that-look-like-ticks"
+  },
+  "/blog/thermacell-canada-where-to-buy": {
+   "next": "/blog/thermacell-refills-recharge-canada"
+  },
+  "/blog/thermacell-refills-recharge-canada": {
+   "next": "/blog/thermacell-e90-canada-review"
+  },
+  "/blog/tick-bites-that-wont-heal-when-to-worry": {
+   "next": "/blog/lyme-disease-symptoms-guide"
+  },
+  "/blog/tick-removal-tool-guide": {
+   "next": "/blog/tick-head-stuck-in-skin"
+  },
+  "/blog/tick-tubes-canada": {
+   "next": "/blog/how-to-keep-ticks-out-of-yard-ontario"
+  },
+  "/blog/ticks-on-dogs": {
+   "next": "/blog/what-kills-ticks-on-dogs-instantly"
+  },
+  "/blog/traces-punaises-de-lit-matelas": {
+   "off": true
+  },
+  "/blog/ultrasonic-pest-repellers-do-they-work": {
+   "next": "/blog/mouse-repellent-canada"
+  },
+  "/blog/what-ticks-look-like-ontario": {
+   "next": "/blog/deer-tick-vs-dog-tick-canada"
+  },
+  "/blog/when-to-schedule-first-mosquito-treatment-ontario": {
+   "next": "/blog/how-long-does-mosquito-spray-last"
+  },
+  "/blog/why-do-mosquito-bites-itch": {
+   "next": "/blog/mosquito-bite-treatment-relief"
+  },
+  "/learn/how-to-get-rid-of-fungus-gnats": {
+   "next": "/learn/natural-garden-pest-control"
+  },
+  "/learn/mosquito-life-cycle": {
+   "next": "/blog/mosquito-larvae-identification"
+  },
+  "/learn/tick-identification-chart": {
+   "next": "/blog/ticks-that-carry-lyme-disease"
+  }
+ }
+}

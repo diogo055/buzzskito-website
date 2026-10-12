@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-fruit-flies'
 const DATE = '2026-07-21'
@@ -248,6 +250,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
           <p>Run that math forward and the &ldquo;where did these all come from?&rdquo; moment stops being a mystery. Two flies that hitchhiked home on a basket of farmers-market tomatoes in mid-August can be a triple-digit swarm by Labour Day. This is also why the single most common DIY failure is a purely trap-based approach: a trap removes adults at some rate per day, while an untouched breeding site produces new adults faster. You cannot trap your way out of an active nursery — you have to close the nursery.</p>
           <p>It also explains the calendar. The Canadian fruit fly spike runs <strong>August through October</strong>: garden and orchard harvests peak, produce sits in warm kitchens instead of the fridge, and green bins ferment fast in the late-summer heat. Outdoors, the first hard frost ends them. Indoors, your heated kitchen is a 21°C incubator all winter — which is why a January fruit fly problem is almost always a drain or a forgotten bag of onions, not bad luck. If the insects are flying rather than hovering over fruit &mdash; small, mottled brown, and emerging from a cupboard instead of the bin &mdash; they are pantry moths, and <Link href="/blog/pantry-moth-traps-canada" className="text-brand-700 underline">pheromone traps plus a cupboard purge</Link> is a different job entirely.</p>
 
+          <NextUp path="/blog/how-to-get-rid-of-fruit-flies" />
           <h2>Step 1: Find the Source (This Is 80% of the Job)</h2>
           <p>Before you buy anything, spend twenty minutes hunting. Fruit flies breed in a thin film of fermenting organic material, so the source can be small and is frequently not the obvious fruit bowl. Work through the five usual suspects in order:</p>
           <ul>
@@ -289,6 +292,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
           <p>Enzyme drain gels are cleaners, not insecticides, which is exactly why they are the right tool: no insecticide sits in your sink, and there is no Canadian regulatory problem. That distinction matters because the US market is full of <strong>insecticide drain products and total-release foggers that are not PMRA-registered for sale in Canada</strong> — cross-border listings and grey-market sellers offer US-label foggers and drain treatments that legally cannot be sold here and that you should not use around food surfaces regardless. Health Canada&rsquo;s rule is simple: an insecticide sold in Canada must carry a PCP registration number on a Canadian label. For fruit flies you never need to go near that aisle anyway — sanitation, a lure trap, and an enzyme gel out-perform any spray because sprays only touch the adults flying at that moment.</p>
           <p>One diagnostic caveat: fuzzy, moth-like flies resting on the bathroom wall are <strong>drain flies</strong>, not fruit flies. The drain-cleaning protocol above is the same, but fruit fly lure traps will not catch them — identification first, purchase second.</p>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-fruit-flies" />
           <h2>Not Fruit Flies? Fungus Gnats Get a Different Fix</h2>
           <p>The most common misdiagnosis on this one: small dark flies around the kitchen window and houseplants get blamed on fruit, when they are actually <strong>fungus gnats</strong> breeding in damp potting soil. The tell: fungus gnats are black and mosquito-shaped with dangly legs and a weak, drifting flight; fruit flies are tan with red eyes and a quick, darting flight around food and drinks. Fruit fly traps barely touch gnats, and no amount of kitchen cleaning fixes a soil problem.</p>
           <p>The fungus gnat fix is BTI — the same larvicidal bacterium used against mosquito larvae — applied to the plant soil. Mosquito Bits are the granular product labelled for fungus gnat use: sprinkle into the pot or soak into the watering can, and the larvae in the soil die off within days. We cover the difference between the granules and the doughnut-shaped dunks in <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link>, and the full BTI product landscape in our <Link href="/blog/mosquito-dunks-canada-guide">mosquito dunks guide</Link>. Let the soil surface dry between waterings and the gnats lose their nursery entirely.</p>

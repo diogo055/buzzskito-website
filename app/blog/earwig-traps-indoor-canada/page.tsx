@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'earwig-traps-indoor-canada'
 const DATE = '2026-08-31'
@@ -186,6 +188,7 @@ export default function EarwigTrapsIndoorCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="diatomaceous earth food grade">Food-grade DE &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/earwig-traps-indoor-canada" />
           <h2>The Newspaper Trick, and Where Sticky Boards Fit</h2>
           <p>Two supporting traps round out the indoor line. The first is the oldest one in the book: a sheet of newspaper, dampened, rolled loosely into a tube, and left on the floor overnight where earwigs have been active. Earwigs spend their days wedged into tight, damp crevices, and a damp paper roll is a purpose-built one — by morning it is a dormitory. Pick it up wearing the healthy scepticism the moment deserves, and shake it out into a bucket of soapy water or a sealed bag. A section of damp corrugated cardboard works identically, the corrugations playing the crevices. It is a harvesting trap: cheap, oddly satisfying, and at its best during a July surge when a room is producing several earwigs a night.</p>
           <p>The second is the flat sticky trap, and its role is interception rather than attraction. Earwigs travel at floor level along the wall edge — the same baseboard highway as <Link href="/blog/best-silverfish-traps">silverfish</Link> and <Link href="/blog/how-to-get-rid-of-centipedes-canada">house centipedes</Link> — and glue boards flush against that route, especially just inside every exterior door, catch the commuters. In the pattern reported across Ontario homes, the oil dish out-catches boards head-to-head for earwigs because it actively draws them, but boards cover ground the dish cannot: every threshold, the full basement perimeter, under both sinks. Run both, and read the boards as a census while you are at it — what else is stuck to them tells you what else is using your baseboards.</p>
@@ -203,6 +206,7 @@ export default function EarwigTrapsIndoorCanadaPage() {
           <p>No insect in a Canadian house carries a worse reputation-to-reality ratio. The rear pincers — cerci, properly — are genuine equipment: earwigs use them against other insects and in courtship displays. Against a human they amount to a defensive squeeze from an animal a centimetre and a half long. A large male earwig, picked up and held, can deliver a pinch you will feel; it has no venom, almost never breaks skin, and calls for nothing beyond soap and water. Earwigs do not attack, do not seek people out, and are harmless to children and pets in any realistic scenario.</p>
           <p>As for the name: the ear story is centuries-old folklore, and false. Earwigs want cool, damp, tight spaces lined with organic matter — a description your garden mulch matches perfectly and your ear does not. They do not burrow into ears, brains, or anything else attached to you. The honest case against indoor earwigs is simply that they are unwelcome — they can nibble houseplants and stored produce at the margins, and nobody wants them in the dishcloth — and the traps on this page are the proportionate response to that honest case.</p>
 
+          <RelatedLinks path="/blog/earwig-traps-indoor-canada" />
           <h2>Why Indoor Sprays Are Usually Pointless</h2>
           <p>Here is the reasoning, because it changes where you spend. A residual insecticide earns its keep against pests that live indoors — a trail, a nest, a harbourage that treated surfaces can work on over weeks. Indoor earwigs have none of that. Each one you see hatched outdoors, came in under a door within the past day or two, and is on a dead-end excursion: the house is too dry for it, there is no soil to nest in, and earwigs do not establish indoor colonies — the female needs a soil chamber to overwinter and brood her eggs, which no heated Canadian house provides.</p>
           <p>Spray the baseboards and you have applied a weeks-long chemical answer to individuals with a days-long indoor lifespan, while the unsealed door keeps admitting replacements every warm night. The leverage sits at the threshold and outside it. If you want a residual anyway for gaps you cannot seal, a thin film of food-grade diatomaceous earth at the sill line is the defensible version — physical action, no odour, months of life indoors where it stays dry — and our <Link href="/blog/best-earwig-killer-canada">earwig traps and killers guide</Link> covers the PMRA-registered options for the outdoor perimeter, which is the only place a labelled product makes strategic sense.</p>

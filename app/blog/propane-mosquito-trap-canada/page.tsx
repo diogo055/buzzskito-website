@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'propane-mosquito-trap-canada'
 const DATE = '2026-07-14'
@@ -209,6 +211,7 @@ export default function PropaneMosquitoTrapCanadaPage() {
           <p>A propane mosquito trap is a machine that fakes a human so convincingly that mosquitoes fly to it instead of to you. It burns propane through a catalytic converter to release a steady plume of carbon dioxide (CO2) along with gentle heat and a trace of water vapour &mdash; the three signals a female mosquito reads from up to about 10 metres away when she is hunting for blood. Add an octenol or Lurex attractant cartridge and the trap also gives off a synthetic skin-scent, sharpening the illusion. A host-seeking female flies upwind into the plume, a quiet suction fan draws her into a mesh net, and she dehydrates and dies within hours.</p>
           <p>Two things this device is <em>not</em>. First, it is not a &lsquo;propane bug zapper.&rsquo; A zapper lures insects with UV light onto an electrified grid, snaps them with an audible spark, and &mdash; according to independent research &mdash; kills mostly moths and beetles while barely denting the biting-mosquito population. A propane trap has no grid, makes no zap, and specifically targets the females that bite. If you searched &lsquo;propane bug zapper,&rsquo; the propane CO2 trap on this page is almost certainly the thing you actually want. Second, it is not an instant fix. The machine kills egg-laying females, so its true payoff is a smaller mosquito population weeks from now, not a bite-free patio tonight.</p>
 
+          <NextUp path="/blog/propane-mosquito-trap-canada" />
           <h2>The mechanism, step by step</h2>
           <p>Every propane trap runs the same loop, and understanding it explains both the strengths and the limits:</p>
           <ul>
@@ -235,6 +238,7 @@ export default function PropaneMosquitoTrapCanadaPage() {
           <h2>Octenol vs Lurex: matching the attractant to your mosquitoes</h2>
           <p>Attractant choice is not a gimmick &mdash; it changes what you catch. <strong>Octenol</strong> (1-octen-3-ol) is a compound in human breath and sweat that pulls hard on aggressive floodwater and nuisance mosquitoes, the kind that swarm around wetlands and wood lots. <strong>Lurex</strong> is an alternative blend that some models pair with better results against <em>Culex pipiens</em>, the northern house mosquito that is the main West Nile virus vector in Ontario. Neither cartridge is a pesticide; both are simply scent lures that amplify the CO2 plume. Most owners run an attractant continuously because it measurably raises catch, and both types last about three weeks &mdash; so factor them into the season budget above rather than treating them as optional.</p>
 
+          <RelatedLinks path="/blog/propane-mosquito-trap-canada" />
           <h2>Which propane traps you can actually buy in Canada</h2>
           <p>The buying reality in Canada narrows the field fast. The <strong>Mosquito Magnet</strong> family is the propane trap you will consistently find on Amazon.ca and through Canadian retailers, which also means you can actually get octenol refills, replacement nets, and support when something breaks. The three models that matter here are the <strong>Patriot Plus (MM4200B)</strong> entry unit, the cordless rechargeable <strong>Independence</strong>, and the flagship <strong>Executive (MM3300B)</strong>. They share the same core mechanism; the differences are power source, cartridge capacity, and build durability.</p>
           <p>Several propane traps that are popular in the United States &mdash; <strong>SkeeterVac</strong>, the <strong>Flowtron PV-440</strong>, and <strong>Bite Lite</strong> units among them &mdash; are not reliably sold on Amazon.ca, and sourcing the machine, let alone parts and attractants, can be a headache north of the border. That is not a knock on their performance; it is a warranty-and-refills problem. For a Canadian buyer, a trap you cannot feed or fix is a bad deal no matter how it reviews stateside, so we steer people to the Mosquito Magnet ecosystem where the supply chain is real.</p>

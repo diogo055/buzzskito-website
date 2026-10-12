@@ -9,6 +9,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-does-a-tick-bite-look-like'
 const DATE = '2026-07-15'
@@ -193,6 +195,7 @@ export default function WhatDoesATickBiteLookLikePage() {
         />
         <p className="not-prose"><BuyLink tag={AMZ_TAG} search="tick removal kit">Check price on a tick removal kit at Amazon.ca &rarr;</BuyLink></p>
 
+        <NextUp path="/blog/what-does-a-tick-bite-look-like" />
         <h2>What does a tick bite look like on a dog?</h2>
         <p>On a dog, a tick bite is usually <strong>hidden under the fur</strong>, so you are more likely to feel it than see it. Running your fingertips slowly over your dog&rsquo;s skin, you will notice a small raised bump or scab where a tick attached or has been removed. Favourite spots are the ears (inside and at the base), around the collar and neck, the armpits, the groin, between the toes, and around the eyelids.</p>
         <p>If the tick is still attached it looks like a small grey, brown, or black skin tag that grows larger and firmer as it feeds. After you remove it, the bite site on a dog commonly shows:</p>
@@ -207,6 +210,7 @@ export default function WhatDoesATickBiteLookLikePage() {
         <p>For most people, a tick bite <strong>feels like nothing at all</strong>. Ticks inject saliva containing mild anaesthetic and anti-clotting compounds, so both the bite and the tick attaching are usually painless and easy to miss &mdash; which is exactly why ticks can feed for a day or more before being found. Some people later notice mild itching, slight tenderness, or a small firm lump once the immune system reacts to the bite.</p>
         <p>So <strong>can you feel a tick bite when it happens?</strong> Usually not. You are far more likely to <em>find</em> a tick by touch &mdash; a small bump that was not there before &mdash; than to feel the bite itself. That is the practical reason Public Health Ontario recommends a full-body tick check (and checking children and pets) after time outdoors, since removing a tick early sharply reduces the chance of Lyme disease transmission.</p>
 
+        <RelatedLinks path="/blog/what-does-a-tick-bite-look-like" />
         <h2>Tick bite vs mosquito, flea, and spider bites</h2>
         <p>Because the first red bump can look similar, the differences in <em>sensation</em>, <em>pattern</em>, and <em>what happens next</em> matter most. Here is how a tick bite compares to the other common Ontario culprits:</p>
         <div className="overflow-x-auto not-prose my-6">

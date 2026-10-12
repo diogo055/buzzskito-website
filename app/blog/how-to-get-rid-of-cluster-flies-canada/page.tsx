@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-cluster-flies-canada'
 const DATE = '2026-07-21'
@@ -252,6 +254,7 @@ export default function ClusterFliesCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="exterior gap silicone caulk">Exterior sealant →</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-cluster-flies-canada" />
           <h2>The Lifecycle: Earthworm Parasites, Not Kitchen Pests</h2>
           <p>Cluster flies (genus <em>Pollenia</em>) have one of the more surprising life histories of any pest you will meet indoors. The adult females lay their eggs in soil cracks outdoors in spring and summer. When the larvae hatch, they seek out earthworms and burrow in &mdash; they are internal <strong>parasites of earthworms</strong>, developing inside the host before emerging to pupate in the soil. A new generation of adults emerges through the warm months.</p>
           <p>This matters enormously for control, because it means there is <strong>nothing in your house for cluster flies to breed in</strong>. They cannot complete their lifecycle indoors; there are no earthworms in your drywall. Every cluster fly you see inside over winter is an adult that entered in the fall to hibernate &mdash; not the offspring of flies breeding in a wall. So the entire &ldquo;find the breeding source and clean it&rdquo; playbook that works on house flies and <Link href="/blog/how-to-get-rid-of-fruit-flies">fruit flies</Link> is useless here. There is no indoor source to find. This is genuinely good news: it means once you seal the house and remove the overwintering adults, the indoor problem is finished until the next fall arrival from outside.</p>
@@ -275,6 +278,7 @@ export default function ClusterFliesCanadaPage() {
           </ul>
           <p>One critical warning: <strong>do not seal once the flies are already inside for the winter.</strong> If you caulk up the entry points in October with flies already tucked in the voids, you trap them &mdash; and a large mass of flies dying inside a sealed wall can leave a sweetish odour and even attract secondary pests like larder beetles that feed on the dead insects. If you have missed the window this year, focus on trapping and vacuuming through the winter, and put &ldquo;seal the sunny walls and vents&rdquo; on the calendar for next July or August.</p>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-cluster-flies-canada" />
           <h2>Window Traps: the Money Tool for Living-Space Flies</h2>
           <p>For the flies that make it into your rooms, the most practical tool exploits their one predictable behaviour: <strong>a waking cluster fly goes to the light.</strong> Put a catch device where the light is and you intercept them there.</p>
           <p>The simplest version is a <strong>clear window fly trap</strong> &mdash; a transparent sticky film or strip you apply to the sunniest windowpane. The flies gather at that window as they rouse, land on the glass, and stick. Because the film is nearly invisible, it does the job without the eyesore of a hanging strip, and you peel it off and replace it when it fills. The refills are the recurring cost through the winter, which is exactly what you would expect from a symptom-management tool. If you would rather not see sticky film on the glass, a <strong>UV light-glue trap</strong> of the kind we cover in our <Link href="/blog/katchy-indoor-insect-trap-review-canada">Katchy indoor insect trap review</Link> works in a room where flies collect &mdash; it draws them to a UV light and a concealed glue card. Neither trap touches the flies sleeping in the voids, so think of them as living-space management that pairs with sealing, not a replacement for it.</p>

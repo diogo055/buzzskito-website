@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'sureguard-mattress-encasement-review-canada'
 const DATE = '2026-07-21'
@@ -220,6 +222,7 @@ export default function SureGuardMattressEncasementReviewCanadaPage() {
           <p>SureGuard&rsquo;s answer is the <strong>Invisi-Zip</strong>: the zipper itself is a fine-tooth design so the teeth close tightly enough that a nymph can&rsquo;t squeeze between them, and then the whole closure is concealed and pinned shut under a Velcro-sealed fabric flap that folds over the top of it. The redundancy is the point. Even if the pull drifts, the flap keeps the opening covered; even if the flap loosens, the fine-tooth zipper is still doing its job. This is the same class of engineering as SafeRest&rsquo;s secured micro-zipper end-stop &mdash; two brands solving the identical failure mode two slightly different ways. For an active infestation, this is the feature you are actually paying for, and SureGuard delivers it.</p>
           <p>The practical takeaway when the encasement arrives: run the zipper all the way home, seat it firmly at the end of the track, then fold the flap over and press the Velcro closed along its whole length. Give the pull a gentle tug to confirm it&rsquo;s seated. That thirty-second ritual is the difference between a sealed bed and a leaking one.</p>
 
+          <NextUp path="/blog/sureguard-mattress-encasement-review-canada" />
           <h2>Is It Truly Six-Sided and Bite-Proof?</h2>
           <p>Yes on both counts, and both matter. &ldquo;Six-sided&rdquo; means the encasement zips fully around the mattress &mdash; top, bottom, and all four sides &mdash; sealing every seam, tuft, handle, and vent inside. This is the line that separates a real encasement from a mattress &ldquo;protector&rdquo; or &ldquo;cover,&rdquo; which is a fitted-sheet-style top layer that leaves the sides and bottom wide open and does nothing against bed bugs. Bed bugs don&rsquo;t live <em>inside</em> your mattress foam the way dust mites do; they live <em>on</em> it, in the piping seams and tufts, and a six-sided seal takes every one of those hiding spots off the board at once.</p>
           <p>&ldquo;Bite-proof&rdquo; means the fabric weave is tight enough that bed-bug mouthparts cannot penetrate it, so a bug sealed inside can never reach your skin to feed. Combined with the escape-proof weave &mdash; too fine for a 1 mm nymph to pass &mdash; that&rsquo;s the containment guarantee: what&rsquo;s inside stays inside and starves, and what&rsquo;s outside can&rsquo;t get in to colonize the mattress. SureGuard is explicitly marketed and constructed to both standards. The honest caveat that applies to <em>every</em> encasement, SureGuard included: a bug can still walk across the <em>outside</em> of the fabric and bite you in the night, which is why the encasement is a containment tool and not a standalone cure.</p>
@@ -238,6 +241,7 @@ export default function SureGuardMattressEncasementReviewCanadaPage() {
           </ul>
           <p>Order to your measured depth, not to the size you assume you have &mdash; a &ldquo;queen&rdquo; can be anywhere from 25 to 40 cm deep depending on whether it&rsquo;s a basic innerspring or a plush hybrid, and only one of those fits a standard-depth cover cleanly.</p>
 
+          <RelatedLinks path="/blog/sureguard-mattress-encasement-review-canada" />
           <h2>What You&rsquo;re Actually Paying For (and Where to Not Overspend)</h2>
           <p>Encasements span a real price range, and it&rsquo;s worth being clear about which features earn their cost for bed-bug work specifically. Rank your money this way:</p>
           <ul>

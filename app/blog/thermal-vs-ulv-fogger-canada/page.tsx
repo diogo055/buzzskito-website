@@ -12,6 +12,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'thermal-vs-ulv-fogger-canada'
 const DATE = '2026-07-21'
@@ -263,6 +265,7 @@ export default function ThermalVsUlvFoggerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="handheld ulv fogger machine">Handheld ULV fogger →</BuyLink>
           </div>
 
+          <NextUp path="/blog/thermal-vs-ulv-fogger-canada" />
           <h2>Droplet Size: The Number That Decides Everything</h2>
           <p>If you understand nothing else about fogging, understand droplet size, because it dictates where your solution lands and therefore whether the job works. Fog droplets are measured in microns (millionths of a metre), and the size band you choose changes the physics entirely:</p>
           <ul>
@@ -290,6 +293,7 @@ export default function ThermalVsUlvFoggerCanadaPage() {
             cons={['Less outdoor reach and penetration than thermal', 'Battery runtime to plan around']}
           />
 
+          <RelatedLinks path="/blog/thermal-vs-ulv-fogger-canada" />
           <h2>How to Choose: Sizing and What You Are Actually Paying For</h2>
           <p>Foggers span a wide price range, and on the high-ticket end it is worth being clear about which features earn their cost for <em>your</em> job versus which are premium you can skip. Work through these in order:</p>
           <ul>

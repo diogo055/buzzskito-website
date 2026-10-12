@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-silverfish-canada'
 const DATE = '2026-07-21'
@@ -279,6 +281,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="diatomaceous earth insect duster">DE + duster →</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-silverfish-canada" />
           <h2>Why Canadian Basements Are Silverfish Factories</h2>
           <p>A below-grade Canadian basement offers silverfish all three things they need, in one room, year-round. First, moisture: foundation walls stay cool even in July, and when warm humid summer air meets them, relative humidity in the basement air climbs into the 60&ndash;80% range &mdash; you can smell it as mustiness long before you see a silverfish. Second, food: basements are where Canadians store precisely what silverfish eat. Their diet is starch and cellulose &mdash; paper, cardboard, the glue in book bindings, the gelatin coating on old photographs, wallpaper paste, dry pet food, and the starch sizing in stored linens. A wall of cardboard boxes is a warehouse of food that is also housing. Third, harbourage: unfinished ceilings, sill-plate gaps, and the dark undisturbed space behind storage shelves give a nocturnal, light-averse insect everything it wants.</p>
           <p>The seasonal rhythm matters for timing your response. The late-summer humidity spike (right about now, if you are reading this in July or August) powers the year&rsquo;s strongest breeding. Through fall, activity concentrates indoors, and most Canadians discover the problem between October and February &mdash; usually by opening a stored box and finding scraped, notched pages, irregular holes, and pepper-like droppings. The damage pattern is distinctive: silverfish graze surfaces rather than chewing tunnels, so book damage looks like someone sanded the page edges and scraped the cover glue.</p>
@@ -309,6 +312,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="diatomaceous earth insect duster">Check DE + duster kits on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-silverfish-canada" />
           <h2>The Dekko Question: America&rsquo;s Favourite Silverfish Fix, and the Canadian Catch</h2>
           <p>Spend ten minutes in American silverfish threads and one answer dominates: Dekko Silverfish Paks &mdash; small paper packets of boric acid bait you tuck into closets, bookshelves, and attics and forget for months. They have a devoted following in the US, and the mechanism (silverfish eat the boric-acid-laced paper) targets exactly what silverfish do anyway.</p>
           <p>Here is the part those threads never mention, because it does not apply to their readers. Under Canada&rsquo;s Pest Control Products Act, an insecticide sold or used in Canada must be registered with Health Canada&rsquo;s PMRA and carry a Canadian PCP registration number on its label. Dekko Paks are a US EPA-registered product; before buying them &mdash; or any imported insecticide that shows up cross-listed on Canadian marketplaces &mdash; check the label for a PCP number. No PCP number means the product is not labelled for legal sale and use in Canada, and it means there are no Canadian label directions standing behind how you use it. Marketplace listings routinely blur this line, so the label check, not the listing, is the test.</p>

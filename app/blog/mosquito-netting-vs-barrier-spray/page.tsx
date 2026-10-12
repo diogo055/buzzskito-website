@@ -9,6 +9,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'mosquito-netting-vs-barrier-spray'
 const DATE = '2026-04-26'
@@ -168,6 +169,7 @@ export default function MosquitoNettingVsSprayPage() {
           <h3>Fitting netting to an existing gazebo or pergola</h3>
           <p>Measure post-to-post along the top rail before ordering — most curtain kits are sized to the common 10&times;10, 10&times;12, and 12&times;14 frames. Buy panels slightly taller than the opening so they pool at the floor (mosquitoes exploit any ground-level gap), and look for weighted hems and zippered door overlaps rather than plain magnet seams if your yard gets wind. Store the mesh indoors over winter — UV exposure is what kills cheap netting, not use. For a full comparison of every patio enclosure type with current Canadian pricing, see our <Link href="/blog/mosquito-screens-patio-canada">patio mosquito screens guide</Link>.</p>
 
+          <NextUp path="/blog/mosquito-netting-vs-barrier-spray" />
           <h2>When Barrier Spray Wins</h2>
           <ul>
             <li><strong>You actually use your entire backyard.</strong> Kids playing on the lawn, dogs running, gardening, BBQ near the trees, lawn games — netting confines you to one spot.</li>

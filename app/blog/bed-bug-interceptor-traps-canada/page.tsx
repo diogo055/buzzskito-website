@@ -11,6 +11,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-interceptor-traps-canada'
 const DATE = '2026-07-16'
@@ -179,6 +181,7 @@ export default function BedBugInterceptorTrapsCanadaPage() {
           <p>The mechanics are simple. The outside wall of the cup is textured (and often talc-dusted), so a bug climbing toward the bed gets up it easily. At the top it drops into a moat with polished, slippery inner walls. Bed bug tarsal claws are built to grip rough surfaces — fabric, wood, skin — but they find no purchase on slick plastic, so the bug stays in the well until you find it. The double-well design adds a second moat around the bed leg itself, which catches bugs travelling in the opposite direction: down off the bed.</p>
           <p>That directionality is the genius of the design. A pitfall trap doesn&rsquo;t just say &ldquo;bed bugs: yes or no.&rdquo; It tells you <strong>where they are living</strong> — information no spray can give you and the reason entomologists put interceptors at the front of every inspection protocol.</p>
 
+          <NextUp path="/blog/bed-bug-interceptor-traps-canada" />
           <h2>Why Should You Use Interceptors Before Any Spray?</h2>
           <p>Because spraying blind is how most DIY bed bug jobs fail. Interceptors answer the three questions you must have answered before any treatment decision: is it actually bed bugs, how bad is it, and where are they harbouring — and they answer all three for the price of a pizza.</p>
           <p>Consider what happens when people skip detection. They react to bites (which are unreliable evidence — bite reactions vary wildly and many people don&rsquo;t react at all), buy a contact spray, and mist the bed. Contact sprays kill the few bugs they touch and scatter the rest deeper into wall voids and adjoining rooms. Two weeks later the problem is bigger and harder to map. Our companion guide on <Link href="/blog/do-bed-bug-sprays-actually-work">whether bed bug sprays actually work</Link> goes deep on why repellent-scattering is the most common DIY failure mode.</p>
@@ -206,6 +209,7 @@ export default function BedBugInterceptorTrapsCanadaPage() {
           </ol>
           <p>Pair the protocol with a proper visual inspection of mattress seams, box spring corners, and frame joints — our step-by-step guide on <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs in Canada</Link> covers the flashlight-and-card technique room by room.</p>
 
+          <RelatedLinks path="/blog/bed-bug-interceptor-traps-canada" />
           <h2>How Do You Read What You Catch?</h2>
           <p>Reading the catch is where interceptors go from &ldquo;trap&rdquo; to &ldquo;diagnostic instrument.&rdquo; Three signals matter: direction, life stage, and count.</p>
           <p><strong>Direction — outer well vs inner well.</strong> Bugs in the outer well were walking <em>toward</em> the bed: they are harbouring elsewhere in the room (baseboards, dresser, sofa) or, in multi-unit housing, migrating in from a neighbouring suite. Bugs in the inner well were coming <em>down off the bed</em>: the mattress, box spring, or frame is infested and needs direct attention — a <Link href="/blog/bed-bug-mattress-encasement-canada">mattress and box spring encasement</Link> plus <Link href="/blog/best-bed-bug-steamer-canada">steam treatment of the frame and seams</Link> becomes the priority. Outer-well-only catches in an apartment are worth reporting to your landlord, because treating your unit alone won&rsquo;t stop a migration from next door.</p>

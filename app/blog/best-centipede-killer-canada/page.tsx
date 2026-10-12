@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-centipede-killer-canada'
 const DATE = '2026-07-28'
@@ -418,6 +420,7 @@ export default function BestCentipedeKillerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray">Check Doktor Doom registered residual spray on Amazon.ca &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-centipede-killer-canada" />
           <h2>How to Read a Canadian Label Before You Add to Cart</h2>
           <p>Most centipede advice online is written for an American audience with an American shelf, and marketplace listings blur the border constantly. Two checks, in order, take about fifteen seconds each.</p>
           <p><strong>Check one: is there a PCP registration number?</strong> Under the Pest Control Products Act, conventional insecticides sold or used in Canada must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency and carry a Canadian PCP registration number on the label. Zoom the label photo on the listing. If there is no number, there are no Canadian directions standing behind how you use it. Do not accept a US &ldquo;minimum-risk&rdquo; claim as a substitute &mdash; that is a US EPA framework, Canada does not automatically recognize it, and the botanical and essential-oil pest products legitimately sold here generally carry a PCP number of their own.</p>
@@ -435,6 +438,7 @@ export default function BestCentipedeKillerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="digital hygrometer indoor humidity monitor 2 pack">Check hygrometer 2-packs on Amazon.ca &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/best-centipede-killer-canada" />
           <h2>What Not to Buy at All</h2>
           <p><strong>Total-release foggers.</strong> They deposit on open surfaces, which is precisely where centipedes are not; the release pushes survivors deeper into voids; and they carry real fire and inhalation hazards in an enclosed basement. There is no centipede scenario in which fogging is the right purchase.</p>
           <p><strong>Ultrasonic plug-in repellers.</strong> These have failed repeatedly in controlled testing across pest categories, and no mechanism exists by which a tone empties damp harbourage an animal physically needs. We went through the evidence in our <Link href="/blog/ultrasonic-pest-repellers-do-they-work">ultrasonic pest repeller review</Link>.</p>

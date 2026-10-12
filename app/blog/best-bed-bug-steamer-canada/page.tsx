@@ -12,6 +12,8 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-bed-bug-steamer-canada'
 const DATE = '2026-07-16'
@@ -184,6 +186,7 @@ export default function BestBedBugSteamerCanadaPage() {
           <p>That makes steam unique among consumer tools. PMRA domestic-class sprays available in Canada are contact killers with weak residual performance against bed bugs, and pyrethroid resistance is now widespread in Canadian bed bug populations — a problem we cover in detail in <Link href="/blog/do-bed-bug-sprays-actually-work">do bed bug sprays actually work</Link>. Heat has no resistance mechanism. A bed bug cannot evolve its way around protein denaturation, which is why professional heat treatment remains the gold-standard commercial service and why a good steamer is the closest do-it-yourself equivalent.</p>
           <p>There is also a compliance bonus that matters in Canada specifically: a steamer is a physical device, not a pest control product, so it needs no PMRA registration, no licence, and no re-entry interval. It is legal in every province, every apartment, and every home with kids, pets, or chemical sensitivities.</p>
 
+          <NextUp path="/blog/best-bed-bug-steamer-canada" />
           <h2>Which bed bug steamer should you buy in Canada?</h2>
           <p>Three machines dominate the category on Amazon.ca, and the honest answer is that the right one depends on how much steaming time your infestation needs. Here is how they compare on the specs that actually matter for bed bug work:</p>
 
@@ -245,6 +248,7 @@ export default function BestBedBugSteamerCanadaPage() {
             <li><strong>Repeat every 7–10 days.</strong> Eggs you missed hatch in 6–10 days. Re-steam inside that window until interceptors stay empty for several consecutive weeks.</li>
           </ol>
 
+          <RelatedLinks path="/blog/best-bed-bug-steamer-canada" />
           <h2>What can&rsquo;t a steamer reach?</h2>
           <p>Steam kills only what it touches, and its penetration is shallower than most people assume: extension testing at the University of Minnesota found steam reaches only about 2 cm into fabric and roughly 6 cm into cracks and gaps. Everything deeper survives. Be honest with yourself about these blind spots:</p>
           <ul>

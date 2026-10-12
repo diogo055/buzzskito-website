@@ -10,6 +10,8 @@ import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'types-of-ticks-identification'
 const DATE = '2026-07-13'
@@ -283,6 +285,7 @@ export default function TypesOfTicksIdentificationPage() {
 
           <p>All four of those features are easier to read under magnification — a 3 mm adult&rsquo;s scutum marbling, and the leg count on a nymph, are hard to call with the naked eye. A 10x hand lens or jeweller&rsquo;s loupe is the one ID tool worth keeping with the first-aid kit. <BuyLink tag={AMZ_TAG} search="10x magnifying glass hand lens">Check price on Amazon.ca →</BuyLink></p>
 
+          <NextUp path="/blog/types-of-ticks-identification" />
           <h2>Blacklegged (Deer) Tick — Ixodes scapularis</h2>
           <p>This is the tick that spreads <strong>Lyme disease</strong>, and the one to learn best. Adults are small (about 3&ndash;4 mm unfed), with a reddish-orange rear half, a solid dark scutum, and uniformly dark legs — hence &ldquo;blacklegged.&rdquo; There is <em>no</em> white or ornate patterning on the back. The nymph, active in late spring and summer, is only about the size of a poppy seed and is responsible for the majority of Lyme cases because it goes unnoticed. A blacklegged tick generally needs to be attached for 24 hours or more to transmit Lyme, so prompt removal matters. For a full close-up and range map, see our <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged / deer tick guide</Link>, and to tell it apart from the look-alike dog tick, our <Link href="/blog/deer-tick-vs-dog-tick-canada">deer tick vs dog tick comparison</Link>.</p>
 
@@ -297,6 +300,7 @@ export default function TypesOfTicksIdentificationPage() {
           <h2>Brown Dog Tick — Rhipicephalus sanguineus</h2>
           <p>The brown dog tick is unusual: it can complete its entire life cycle indoors, which means infestations in homes, kennels, and dog runs across both the US and Canada. It is a uniform reddish-brown, elongated when unfed, roughly 3 mm, swelling to about 12 mm when engorged, with no clear back pattern and a hexagonal base to the mouthparts. It strongly prefers dogs as hosts but will bite people. In some regions it can transmit Rocky Mountain spotted fever.</p>
 
+          <RelatedLinks path="/blog/types-of-ticks-identification" />
           <h2>Rocky Mountain Wood Tick — Dermacentor andersoni</h2>
           <p>A western counterpart to the American dog tick, the Rocky Mountain wood tick is brown with a grey/white mottled scutum and is found in the western US and Canada (British Columbia, Alberta, Saskatchewan). Adults are about 5 mm unfed. It can transmit Rocky Mountain spotted fever, Colorado tick fever, and — in rare cases — <strong>tick paralysis</strong>, a temporary paralysis caused by a toxin in the tick&rsquo;s saliva that resolves once the tick is removed. Under a hand lens it is hard to separate from the American dog tick; range is the easiest clue.</p>
           <p>Because range is so often the deciding clue, it helps to know which species are established where you live: <Link href="/blog/are-there-ticks-in-canada" className="text-brand-700 underline">are there ticks in Canada?</Link> works through the answer province by province.</p>

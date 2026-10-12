@@ -10,6 +10,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { NEW_BLOGS_2, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const POST = NEW_BLOGS_2[1]
 const UPDATED = POST.date
@@ -179,6 +180,7 @@ export default function HiddenBreedingSpotsPage() {
         <h3>12. Mulch and Compost Piles</h3>
         <p>Dense mulch retains moisture at the surface — enough for mosquito eggs to survive but not deep enough to actually breed in large numbers. More critically, the compost pile itself can develop wet pockets that support breeding. Turn compost regularly and keep it covered. Avoid over-mulching to depths beyond 3 inches.</p>
 
+        <NextUp path="/blog/hidden-mosquito-breeding-spots-backyard" />
         <h2>Quick Reference Checklist</h2>
         <div className="not-prose overflow-x-auto my-6">
           <table className="w-full text-sm border-collapse">

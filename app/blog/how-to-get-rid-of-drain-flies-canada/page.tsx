@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-drain-flies-canada'
 const DATE = '2026-07-30'
@@ -340,6 +342,7 @@ export default function DrainFliesCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bio-clean drain bacteria enzyme treatment">Bacterial drain product &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-drain-flies-canada" />
           <h2>Step Zero: The Tape Test, Because You Are Probably Treating the Wrong Drain</h2>
           <p>Adults drift, rest on the nearest vertical surface, and are terrible at telling you where they came from. People treat the bathroom sink for a fortnight while the population pours out of the tub overflow or a floor drain two rooms away.</p>
           <p>Do this instead. Cut a strip of clear packing tape and lay it sticky side down across each suspect drain, leaving a small gap at one edge so air can still move &mdash; a completely sealed drain can push emerging flies elsewhere. Leave it overnight, and check the underside in the morning. Flies emerging from that drain are stuck to it. Run the test on <em>every</em> drain in the building for two or three nights: kitchen sink, dishwasher connection, each bathroom sink, tub and shower, the tub overflow, laundry standpipe, basement floor drains, the guest bathroom nobody has used since spring, and the sump if there is one.</p>
@@ -364,6 +367,7 @@ export default function DrainFliesCanadaPage() {
           <p><strong>Aerosols and total-release foggers</strong> kill adults in open air and put residue across kitchen and bathroom surfaces where the insects are not. The larvae are inside a pipe. This is treating the symptom in the least pleasant way available.</p>
           <p><strong>Ultrasonic plug-in repellers</strong> have no credible evidence for any household pest, which we covered in detail in our <Link href="/blog/ultrasonic-pest-repellers-do-they-work">ultrasonic pest repeller review</Link>. <strong>Bug zappers</strong> are equally beside the point here &mdash; a weak-flying fly that lives on a bathroom wall is not going to cross a room to a UV grid, and the zapper kills mostly harmless insects in the meantime.</p>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-drain-flies-canada" />
           <h2>Do You Need an Insecticide? The Canadian Rule Worth Knowing</h2>
           <p>Almost certainly not &mdash; and there is a useful distinction hiding in Canadian law here. Anything sold in Canada that claims to kill insects is a <strong>pest control product</strong> under the <em>Pest Control Products Act</em> and must carry a <strong>PCP registration number</strong> on its Canadian label. A bacterial or enzyme drain product sold as a <em>cleaner</em> is not a pesticide at all: it does not poison the larvae, it digests the organic film they eat. No registration is required because no pesticidal claim is being made, and there are no re-entry or residue concerns beside a kitchen sink.</p>
           <p>That is genuinely the better product for this job, not a compromise. It attacks the cause rather than the symptom, and it doubles as ongoing drain maintenance afterwards. Meanwhile, several of the foaming drain insecticides recommended in American articles are not registered for sale in Canada, and importing an unregistered pesticide is not legal here &mdash; a bad trade for a problem a brush solves. Before buying any product that <em>does</em> make a kill claim, check for the PCP number and confirm the listing ships from within Canada.</p>

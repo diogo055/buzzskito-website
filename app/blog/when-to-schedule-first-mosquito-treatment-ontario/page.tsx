@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { NEW_BLOGS, MOSQUITO_BLOGS } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const POST = NEW_BLOGS[9]
 
@@ -93,6 +95,7 @@ export default function WhenToScheduleFirstTreatmentPage() {
         <p>For most GTA homeowners — Mississauga, Brampton, Oakville, Burlington, Toronto, Hamilton, Vaughan, Richmond Hill, Markham, and surrounding cities — the first week of May is the right time for your first professional mosquito treatment. This timing catches the first generation of adult mosquitoes before they&rsquo;ve had a chance to breed and reproduce, giving barrier spray the best possible effect across the season.</p>
         <p>Properties adjacent to major waterways — Credit River, Humber River, Don River, Sixteen Mile Creek, Highland Creek — should lean toward the earlier end: late April if we get a warm spring, or the very first days of May in a normal year.</p>
 
+        <NextUp path="/blog/when-to-schedule-first-mosquito-treatment-ontario" />
         <h2>Why Timing Your First Treatment Matters More Than Any Other</h2>
         <p>Mosquito populations grow exponentially. A female mosquito can lay 100–300 eggs per batch. Larvae mature in 7–10 days in warm water. By the time a single adult female has completed two breeding cycles, she&rsquo;s potentially been part of generating several thousand new mosquitoes.</p>
         <p>Barrier spray kills adult mosquitoes that contact treated vegetation, eliminating them before they reproduce. Apply it early — before populations peak — and you interrupt breeding cycles at a critical low-density moment. Wait until June, and you&rsquo;re treating a fully established population that is already breeding rapidly. You can still achieve good results, but you will always be playing catch-up.</p>
@@ -119,6 +122,7 @@ export default function WhenToScheduleFirstTreatmentPage() {
           </table>
         </div>
 
+        <RelatedLinks path="/blog/when-to-schedule-first-mosquito-treatment-ontario" />
         <h2>The 10°C Rule: What Triggers Mosquito Season</h2>
         <p>Mosquitoes become active when temperatures consistently exceed 10°C. Below this threshold, adult mosquitoes can&rsquo;t fly effectively and larvae develop very slowly. Above it, development accelerates rapidly — a 5°C increase in water temperature can cut larval development time nearly in half.</p>
         <p>In the GTA, average daily temperatures typically cross 10°C in the last week of April. That&rsquo;s when the season begins. The first week of May treatment lines up with the end of that initial emergence window — catching the first-generation adults and treating before peak breeding activity begins in mid-May.</p>

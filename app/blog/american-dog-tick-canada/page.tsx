@@ -9,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'american-dog-tick-canada'
 const DATE = '2026-04-28'
@@ -200,6 +201,7 @@ export default function AmericanDogTickPage() {
           <p>Same removal technique. After removal, watch for: lethargy, weakness in rear legs progressing forward (potential tick paralysis), excessive licking at the bite site, fever, swollen lymph nodes. Contact your vet if any appear. See our detailed <Link href="/blog/how-to-remove-tick-from-dog-ontario">tick removal guide for dogs</Link>.</p>
           <p>The watch period is the part owners tend to cut short. Our guide to <Link href="/blog/tick-bite-on-dog-symptoms" className="text-brand-700 underline">tick bite symptoms on a dog</Link> sets out what the bite site normally does over the first week, which signs belong to the days after a bite and which only show up weeks later.</p>
 
+          <NextUp path="/blog/american-dog-tick-canada" />
           <h2>Yard Prevention — What Actually Works</h2>
           <p>For yards near grassy fields, meadows, or trails where American dog ticks live:</p>
           <ol>

@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-bed-bug-powder-canada'
 const DATE = '2026-07-21'
@@ -251,6 +253,7 @@ export default function BestBedBugPowderCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bulb hand duster pest control">Bulb duster →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-bed-bug-powder-canada" />
           <h2>How Desiccant Dusts Actually Kill Bed Bugs</h2>
           <p>Silica gel and diatomaceous earth are not poisons. They are <strong>desiccants</strong> &mdash; they kill physically, not chemically. A bed bug&rsquo;s body is sealed by a thin waxy layer on its cuticle that holds moisture in. When the insect walks through a fine powder film, the microscopic particles cling to that waxy coating and either abrade it (DE, which is made of sharp-edged fossilized diatoms) or adsorb it away (silica gel, which is intensely moisture-hungry). Either way the seal is breached, the bug&rsquo;s water leaks out faster than it can replace it, and over the following days it dehydrates and dies.</p>
           <p>Two consequences fall directly out of that mechanism. First, dusts are <em>contact-only and slow</em>: a bug that never crosses a treated surface is never affected, and even one that does takes days to succumb. Second, and hugely in their favour, they <em>do not wear off</em> the way a chemical residual evaporates or degrades. A silica or DE film sitting in a dry, undisturbed crack is just as lethal to a bed bug in two months as it was on day one. That combination &mdash; slow but essentially permanent &mdash; is precisely what makes a powder the right tool for the long game and the wrong tool for tonight.</p>
@@ -273,6 +276,7 @@ export default function BestBedBugPowderCanadaPage() {
           </ul>
           <p>Keep the powder out of the open air you breathe and off the surfaces you touch daily. Concentrate it in the hidden, undisturbed places, then leave it alone &mdash; every time you clean or vacuum a treated crack, you remove the protection you laid down.</p>
 
+          <RelatedLinks path="/blog/best-bed-bug-powder-canada" />
           <h2>Safety: Food-Grade Only, and Mind the Dust</h2>
           <p>The safety story for these powders is genuinely reassuring on toxicity but demands respect on inhalation. Food-grade diatomaceous earth is a naturally occurring mineral considered low-toxicity to people and pets, and silica-gel insecticide dusts are formulated for indoor use around the home. The real hazard with any fine powder is the airborne dust itself: breathing clouds of it can irritate your lungs, nose, throat, and eyes. So wear a dust mask while applying, work slowly to avoid raising clouds, and apply thin films into cracks rather than broadcasting powder across open floor.</p>
           <p>One rule is non-negotiable: <strong>never use pool-grade (calcined) diatomaceous earth indoors.</strong> Pool-filter DE is heat-treated into a form that contains crystalline silica, a serious respiratory hazard, and it is also far less effective as an insecticide. Only ever buy <em>food-grade</em> DE for bed bugs. And keep every powder off the sleeping surface itself &mdash; the mattress and box-spring surface are the job of an <Link href="/blog/bed-bug-mattress-encasement-canada">encasement</Link>, with the dust reserved for the frame, floor, and wall gaps around the bed.</p>

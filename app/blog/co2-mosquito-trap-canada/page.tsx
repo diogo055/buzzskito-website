@@ -10,6 +10,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'co2-mosquito-trap-canada'
 const DATE = '2026-07-14'
@@ -245,6 +247,7 @@ export default function Co2MosquitoTrapCanadaPage() {
           <p>Every mosquito trap is trying to win the same race your own body enters every time you step outside: the competition to be the most obvious host. A host-seeking female locks onto a plume of carbon dioxide from up to 10 metres away, then closes the gap using body heat and the smell of your skin. We wrote a whole breakdown of that hunt in <Link href="/blog/what-attracts-mosquitoes-to-you">what attracts mosquitoes to you</Link> — but the short version is that CO2 is the long-range beacon. That is exactly why a CO2 mosquito trap can out-compete you: it pumps out a bigger, more convincing plume than a single person, and it never swats.</p>
           <p>The device follows a simple loop. Release CO2 and a skin-scent lure, let the plume drift downwind, and when a female flies upwind to investigate, a suction fan pulls her into a catch bag where she dehydrates within hours. The differences between traps come down to one question: <strong>how do you generate the CO2?</strong> Answer that, and you have basically chosen your trap.</p>
 
+          <NextUp path="/blog/co2-mosquito-trap-canada" />
           <h2>The three ways a trap makes CO2 (and why it matters)</h2>
           <h3>1. Sugar &amp; yeast fermentation</h3>
           <p>The cheapest, greenest, and weakest method. Mix sugar, water, and yeast in a bottle and the fermentation exhales a trickle of CO2. It is the DIY-mosquito-trap staple all over YouTube. The problem: the output is tiny and inconsistent, it fades within days, and in the July heat it goes sour fast. It is a fun science-fair project, not a serious control tool. Biogents sells a managed sugar-yeast option as part of its CO2 booster line, which is more reliable than a pop-bottle rig but still modest.</p>
@@ -268,6 +271,7 @@ export default function Co2MosquitoTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="biogents gat trap kit">Check BG-GAT kits on Amazon.ca</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/co2-mosquito-trap-canada" />
           <h2>Electric vs propane: the cost-per-season math</h2>
           <p>The convenience gap between electric and propane traps shows up hardest in the running cost across an Ontario season (roughly May through September — see <Link href="/blog/mosquito-magnet-canada">our Mosquito Magnet Canada breakdown</Link> for the propane side in full).</p>
           <ul>

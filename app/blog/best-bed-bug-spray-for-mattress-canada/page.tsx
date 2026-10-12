@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-bed-bug-spray-for-mattress-canada'
 const DATE = '2026-07-21'
@@ -292,6 +294,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="natural bed bug spray geraniol">Natural geraniol spray →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-bed-bug-spray-for-mattress-canada" />
           <h2>Why the PMRA Registration Number Is Non-Negotiable in Canada</h2>
           <p>In Canada, anything that claims to kill a pest &mdash; including a bed bug spray &mdash; is legally a pest control product and must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA). A registered product carries a <strong>PCP registration number</strong> printed on the label. That number is not bureaucratic decoration: it means Health Canada has reviewed the product&rsquo;s active ingredients, its human-safety data, and the exact uses it is approved for &mdash; including whether it may lawfully be applied to a mattress.</p>
           <p>This matters enormously for a mattress spray specifically, because the surface is one you breathe against for eight hours a night. A product that has cleared Canadian registration for mattress use has had that scenario evaluated. A grey-market spray bought from a foreign seller has not &mdash; it may carry a US EPA number instead of a Canadian PCP number, which means it was never assessed for the Canadian market and, in many cases, is not even label-approved for direct mattress application in its home country. When you shop, find the PCP registration number the same way you look for the word &ldquo;mattress.&rdquo; Both should be present before the can touches your bed.</p>
@@ -455,6 +458,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
           <p>Permanence comes from the plan, not the product. A population is gone for good only when every life stage is killed and re-introduction is blocked: repeat treatment across the full hatch cycle, heat for the eggs, an encasement left on for a year, and interceptor traps that stay under the legs afterward as an early-warning system.</p>
           <p>One class deserves a specific mention under &ldquo;permanent&rdquo;, because it is the only one that cannot be outrun by evolution. <strong>Desiccants</strong> &mdash; silica aerogel and diatomaceous earth &mdash; kill physically, by abrading and absorbing the waxy layer that keeps an insect from drying out. The EPA notes that bed bugs cannot become resistant to a desiccant the way they can to a conventional pesticide, because there is no metabolic target to mutate. The catch is placement: registered desiccants are cracks-and-crevices products, so they belong in the frame joints, bolt holes, and behind the headboard &mdash; <em>not</em> broadcast across a mattress you sleep on. Our <Link href="/blog/cimexa-bed-bug-review-canada">CimeXa guide</Link> and the <Link href="/blog/diatomaceous-earth-for-bed-bugs">diatomaceous earth guide</Link> cover application, which is done with a brush or duster in a barely visible film, not a heap.</p>
 
+          <RelatedLinks path="/blog/best-bed-bug-spray-for-mattress-canada" />
           <h2>What Gets Rid of Bed Bugs Immediately?</h2>
           <p>Nothing gets rid of an infestation immediately, but a contact-kill spray such as EcoRaider drops the bugs it directly wets within minutes, and steam kills on contact. That buys you a usable bed tonight. The eggs hatching over the next two weeks are what turns immediate relief into a month-long job.</p>
           <p>If tonight is the problem, the honest emergency sequence is: strip the bed and run the bedding through a hot wash and a hot dryer cycle; vacuum the seams, piping and frame joints and empty the canister into a sealed bag outside; spray or steam the seams and folds with a mattress-labelled product and let the bed dry completely; then put interceptor traps under all four legs so that tomorrow morning you have data rather than a guess. That gets you one decent night and the beginning of a measurement. It does not get you eradication, and any product promising eradication in one application is selling the part of the problem it cannot solve.</p>

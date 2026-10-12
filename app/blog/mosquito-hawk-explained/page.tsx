@@ -8,6 +8,8 @@ import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-hawk-explained'
 const DATE = '2026-04-28'
@@ -470,6 +472,7 @@ export default function MosquitoHawkPage() {
           <h3>Outdoors: larvae in the lawn</h3>
           <p>Outdoors, &ldquo;getting rid of mosquito hawks&rdquo; only matters if the soil-dwelling <strong>larvae</strong> (leatherjackets) are chewing your grass roots. Spraying the clumsy adults is pointless — they don&rsquo;t bite, they die in days, and an <Link href="/blog/how-long-does-mosquito-spray-last">adult-mosquito barrier spray</Link> won&rsquo;t reach larvae living underground. The section below covers how to confirm a real larvae problem and treat it.</p>
 
+          <NextUp path="/blog/mosquito-hawk-explained" />
           <h2>What Kills Mosquito Hawks — and What Scent Do They Hate?</h2>
           <p><strong>Time kills mosquito hawks. Everything else is optional.</strong> Adults die on their own within days of emerging. Beyond that, a cold snap, a spider, a bird, a bat, a vacuum, a fly swatter, or a knock-down flying-insect spray all work — and none of it is necessary for an insect that neither bites nor lasts the week.</p>
           <p><strong>On scent: there is no evidence-based answer, and anyone who gives you one is guessing.</strong> No essential oil, vinegar spray, dryer sheet, or repellent plant has been shown in published research to deter crane flies. This question ranks because people assume the citronella and peppermint advice from mosquito control transfers over — it does not, partly because adult crane flies barely feed and are not hunting you in the first place. Extension guidance for crane flies is about lights and lawns, not smells.</p>
@@ -491,6 +494,7 @@ export default function MosquitoHawkPage() {
           </ul>
           <p>Treatment for larvae infestations: beneficial nematodes (<em>Heterorhabditis bacteriophora</em>) applied in early fall when soil is warm and moist. These naturally parasitize crane fly larvae. Available at garden centres, through lawn care companies, or online: <BuyLink tag={AMZ_TAG} search="beneficial nematodes heterorhabditis bacteriophora">Beneficial nematodes on Amazon.ca →</BuyLink> <strong>BuzzSkito does not treat crane fly larvae</strong> — we focus on mosquitoes and ticks. Contact a lawn care specialist (LawnSavers, TruGreen) for serious crane fly issues.</p>
 
+          <RelatedLinks path="/blog/mosquito-hawk-explained" />
           <h2>Leatherjackets in US Lawns</h2>
           <p><strong>&ldquo;Leatherjacket&rdquo; is the lawn-care name for a crane fly larva, and it is the only stage of the crane fly life cycle that damages anything.</strong> In U.S. lawns the damage reads as thinning, yellowing, spreading patches — worst in fall as the larvae feed hard before winter, and again in spring as they finish up. Birds tearing at the turf are the usual first clue.</p>
           <p>The practical version, region by region. In the <strong>Pacific Northwest</strong>, where both invasive <em>Tipula</em> species are established, this is a routine turf problem and Oregon State University Extension publishes a dedicated lawn-management guide for it. In <strong>Michigan and the Great Lakes states</strong>, Michigan State University Extension flags <strong>October</strong> as the window when European crane fly damage becomes visible around cities like Grand Rapids and Detroit. In <strong>California</strong>, UC IPM treats crane flies as a minor and usually non-damaging turf presence. Across most of the <strong>South and Southeast</strong>, leatherjackets are not a meaningful lawn pest at all.</p>

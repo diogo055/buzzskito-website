@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'victor-electronic-mouse-trap-review-canada'
 const DATE = '2026-07-16'
@@ -178,6 +180,7 @@ export default function VictorElectronicMouseTrapReviewPage() {
           <p>The M250S is a battery-powered kill chamber: a mouse follows the bait scent into a dark tunnel, steps across two metal plates that complete a circuit, and receives a high-voltage shock that kills it in seconds. That is the whole trick — and it is a genuinely good trick, because it fixes the two failure modes of every other consumer trap at once.</p>
           <p>First, the enclosed tunnel means the kill geometry is always correct. A snap trap only kills cleanly when the mouse approaches from the right angle; the M250S doesn&rsquo;t care how the mouse approaches, because it has to walk onto both plates to reach the bait cup at the back wall. Second, Victor&rsquo;s circuit detects the mouse and sustains the shock long enough that stunned-but-alive escapes — the classic snap-trap and zapper-gadget problem — essentially don&rsquo;t happen when the plates are clean and the batteries are healthy.</p>
           <p>When a kill happens, a green LED on top starts blinking and keeps blinking for up to 7 days. You hold the trap over a garbage bag, tip it, and the mouse slides out. You never touch it, and — the part squeamish owners care about most — you never have to see it. Opening the lid to re-bait automatically cuts power to the plates.</p>
+          <NextUp path="/blog/victor-electronic-mouse-trap-review-canada" />
           <p>Honest limitations: it is strictly an indoor/dry-location trap (moisture kills the electronics), it needs its plates wiped clean every few kills or the circuit gets unreliable, and it is mouse-sized only. If you are dealing with something bigger, that is a job for the rat-scale hardware in our <Link href="/blog/best-rat-trap-canada">best rat trap Canada guide</Link>.</p>
 
           <h2>Is the Victor Electronic Mouse Trap Humane?</h2>
@@ -207,6 +210,7 @@ export default function VictorElectronicMouseTrapReviewPage() {
             <BuyLink tag={AMZ_TAG} search="victor m1 smart kill mouse trap">Check M1 Smart-Kill availability →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/victor-electronic-mouse-trap-review-canada" />
           <h2>How Does It Compare to Snap Traps and Bait Stations?</h2>
           <p>Here is the honest matchup across the main mouse-control options Canadians actually buy. (For the full field including live-catch and multi-catch traps, see our <Link href="/blog/best-mouse-trap-canada">best mouse trap in Canada roundup</Link>.)</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">

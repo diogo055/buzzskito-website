@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'vapamore-mr100-steamer-review-canada'
 const DATE = '2026-07-21'
@@ -222,6 +224,7 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner">McCulloch MC1275 →</BuyLink>
           </div>
 
+          <NextUp path="/blog/vapamore-mr100-steamer-review-canada" />
           <h2>Heat at the Fabric Is the Only Number That Matters</h2>
           <p>Every steamer marketing sheet leads with a boiler temperature &mdash; Vapamore rates the MR-100 boiler in the region of 210&ndash;290&deg;F (roughly 100&ndash;143&deg;C). It is a genuinely hot boiler, but that figure is not the number that kills bed bugs. The number that kills bed bugs is the temperature at the <em>fabric surface</em>, and that is always lower than the boiler reading and drops fast the further the nozzle sits from the surface. Bed bugs and their eggs die at roughly <strong>60&deg;C / 140&deg;F</strong> on contact, so the whole game is delivering enough of the boiler&rsquo;s heat to the surface, and holding it there long enough, to clear that threshold.</p>
           <p>The MR-100 has more than enough boiler heat to do this. What it cannot do is compensate for bad technique. Hold the concentrator two or three centimetres from a mattress seam and creep it along at one to two centimetres per second, and the surface easily passes 60&deg;C and the bugs and eggs in that seam die. Wave the same nozzle six inches away at a brisk pace and the surface never gets close &mdash; the steam cools and disperses in the air gap before it lands. This is the single most important thing to internalise: <strong>the machine supplies heat, but you supply the kill</strong>, through proximity and a slow pass.</p>
@@ -242,6 +245,7 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
           </ul>
           <p>Just as important is knowing what <em>not</em> to reach for. The large floor and upholstery heads spread the steam over a wide area, which cools the plume and drops the surface temperature below the lethal threshold &mdash; fine for cleaning a floor, useless for killing bugs in a seam. Use the wide heads only for a general surface refresh, never as your killing tool. A microfibre bonnet over a brush is handy for a final wipe of the mattress top, but the actual eradication is done by the concentrator and detail brush moving slowly over every harbourage.</p>
 
+          <RelatedLinks path="/blog/vapamore-mr100-steamer-review-canada" />
           <h2>How to Steam a Bed for Bed Bugs with the MR-100</h2>
           <p>The technique is the same for any dry-vapour steamer, and it rewards patience:</p>
           <ol>

@@ -269,6 +269,8 @@ if (existsSync(idxPath)) {
 }
 
 execFileSync(process.execPath, [join(ROOT, 'scripts', 'build-article-index.mjs')], { stdio: 'inherit' })
+// a new guide needs its in-content "Next" and "Related" picks (existing picks are kept)
+execFileSync(process.execPath, [join(ROOT, 'scripts', 'backfill-recirculation.mjs')], { stdio: 'inherit' })
 
 console.log(`guides: ${guides.length} (${pillars.length} hubs, ${spokes.length + learnGuides.length} guides) | route files written: ${routesWritten} | not built: ${notBuilt.length} | media placeholders: ${media.length}`)
 writeFileSync(join(ROOT, 'data', 'us-pages', 'release-files.txt'), guides.flatMap(({ file, path }) => [`content/guides/${file}`, `data/us-pages/checked/${file}`, `app${path}/page.tsx`]).join('\n') + '\n')

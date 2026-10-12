@@ -10,6 +10,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'electric-fly-swatter'
 const DATE = '2026-07-14'
@@ -214,6 +216,7 @@ export default function ElectricFlySwatterCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="executioner pro fly swatter">Check Executioner Pro on Amazon.ca →</BuyLink>
           </div>
 
+          <NextUp path="/blog/electric-fly-swatter" />
           <h2>Zap It — Best for Families (4,000 Volts Behind a Safety Mesh)</h2>
           <p>Zap It rackets take the opposite philosophy: a <strong>three-layer mesh</strong> where the two outer screens are electrically neutral and only the inner grid carries the charge. A flat palm — or a curious toddler hand — pressed against the outside of the racket does not complete the circuit. To compensate for the insect having to pass through the outer mesh to reach the live layer, Zap It runs its rechargeable line at a category-topping <strong>4,000 volts</strong>, with the older AA-powered models at 3,500 volts.</p>
           <p>The USB-rechargeable models are the ones to buy: the built-in lithium battery is rated for up to about 10,000 zaps per charge, recharges in roughly two hours from any USB port, and the head carries a bright LED so you can hunt the mosquito whining over your bed at 2 a.m. with the lights off. They come in mini and large sizes and frequently in twin packs. The AA-powered 3,500-volt versions drift in and out of stock on Amazon.ca — the rechargeable line is the better product anyway, unless it is headed to an off-grid cottage.</p>
@@ -245,6 +248,7 @@ export default function ElectricFlySwatterCanadaPage() {
             </table>
           </div>
 
+          <RelatedLinks path="/blog/electric-fly-swatter" />
           <h2>Voltage, Explained in 60 Seconds</h2>
           <p>Every racket works the same way: a small circuit steps battery voltage up and stores it in a capacitor connected to the grid. When an insect bridges two wires, the capacitor dumps its charge through the insect. Voltage determines whether the arc can jump through the insect&rsquo;s exoskeleton and whether the kill is instant.</p>
           <ul>

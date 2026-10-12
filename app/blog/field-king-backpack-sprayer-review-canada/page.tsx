@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'field-king-backpack-sprayer-review-canada'
 const DATE = '2026-07-21'
@@ -212,6 +214,7 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="field king 190328 backpack sprayer">Manual 190328 →</BuyLink>
           </div>
 
+          <NextUp path="/blog/field-king-backpack-sprayer-review-canada" />
           <h2>190515 vs 190328: The One Decision That Matters Most</h2>
           <p>Before anything else, settle the battery-versus-manual question, because it is the biggest fork in this purchase and everything else is secondary. The two Field King models are mechanically the same sprayer &mdash; identical 4-gallon tank, identical rebuildable pump architecture, identical harness &mdash; differing only in how pressure is generated. The <strong>190328</strong> is the manual: you pump a lever, you keep pumping. The <strong>190515</strong> is the battery: a lithium cell does the pumping for you, continuously.</p>
           <p>The honest way to choose is by frequency and area, not by which sounds nicer. If you spray a small patio, a few beds, or a short fence line a couple of times a season, the manual model is the smarter spend &mdash; it is cheaper, there is nothing to charge, and light use never gets tiring enough to justify the battery. But if you spray often, cover a real yard, or already know that hand-pumping wears you out, the battery model transforms the job. A good rule of thumb: past roughly six to eight sprays a season, or any job that needs more than one tankful, the 190515 pays you back in comfort and in the more even, more effective application that constant pressure delivers.</p>
@@ -227,6 +230,7 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
           </ul>
           <p>Field King is made by Smith Performance Sprayers, a long-established sprayer manufacturer, so this is a purpose-built prosumer tool rather than a marketing rebrand of a generic import. That lineage is why it has become the default recommendation for people who spray regularly but do not need a top-tier professional contractor unit.</p>
 
+          <RelatedLinks path="/blog/field-king-backpack-sprayer-review-canada" />
           <h2>Coverage and Sizing: How Much Yard One Tank Handles</h2>
           <p>The tank holds about 4 gallons, roughly 15 litres. How far that goes depends far more on your technique and nozzle than on the sprayer itself, but for planning purposes: a typical broadcast application over lawn or garden covers on the order of 4,000 to 8,000 square feet per fill. Spot-treating individual weeds along a fence or path stretches a tank dramatically further; a heavy, even soaking of dense turf burns through it faster. In practical terms, a single tank comfortably covers a standard suburban front or back yard in one fill &mdash; and with the battery model, you can empty that entire tank at a steady pressure instead of watching the pattern die in the last quarter.</p>
           <p>On sizing: four gallons is the sweet spot for homeowner and small-property use. It is enough to finish most yards without a refill, but not so heavy that a fit adult cannot carry it. If your property is genuinely large &mdash; multiple acres, long fence lines, orchard rows &mdash; you are into the territory where a wheeled sprayer, an ATV-mounted tank, or a professional service starts to make more sense than any backpack; our guide to the <Link href="/blog/best-atv-sprayer-for-tick-yard-canada">best ATV sprayer for a tick yard</Link> covers that step up. For everything from a townhouse yard to a big suburban lot, a 4-gallon backpack is the right format, and the battery version is the right engine if you spray it more than occasionally.</p>

@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'raccoon-deterrent'
 const DATE = '2026-07-21'
@@ -187,6 +189,7 @@ export default function RaccoonDeterrentCanadaPage() {
           <p>A motion-activated sprinkler is the best single raccoon deterrent you can buy in Canada &mdash; but the honest answer is that no single product wins this fight. Urban raccoons, and GTA raccoons in particular, are arguably the most human-adapted wild animals on the planet. Toronto&rsquo;s nickname &mdash; raccoon capital of the world &mdash; is not a joke: urban densities in parts of the city are estimated at 10 to 20 times what raccoons achieve in wild habitat, and research on Toronto&rsquo;s population suggests city life is actively selecting for better problem-solvers. The city literally spent years engineering a raccoon-resistant green bin, and a handful of raccoons still learned to open it.</p>
           <p>Against an opponent like that, the strategy that works is a layered one, in strict priority order: <strong>first remove the food</strong> (strapped bins, no overnight pet food, bird-feeder discipline), <strong>then add an active deterrent</strong> (the motion sprinkler), <strong>then physically exclude</strong> the den sites (hardware cloth around decks and sheds). Lights, sound, and smell go last, because that is where the evidence puts them. Everything below follows that order &mdash; after one section you cannot skip, because it is the law.</p>
 
+          <NextUp path="/blog/raccoon-deterrent" />
           <h2>The Ontario Legal Reality: Why Deterrence Is Your Only Real Option</h2>
           <p>Before you borrow a live trap from a neighbour, understand the rule that shapes every raccoon decision in this province. Under Ontario&rsquo;s <strong>Fish and Wildlife Conservation Act</strong>, a captured wild animal may only be released <strong>within 1 kilometre of where it was caught</strong>, and generally within 24 hours of capture. Trapping a raccoon in Scarborough and releasing it in a conservation area near Pickering is not a humane favour &mdash; it is an offence that can carry provincial charges and fines.</p>
           <p>The rule exists for solid reasons. Long-distance relocation is how rabies and canine distemper jump between animal populations &mdash; and Ontario has been fighting a raccoon-strain rabies outbreak in the Hamilton area since 2015 with aerial vaccine-bait drops. Relocated raccoons also fare terribly: dumped into another raccoon&rsquo;s territory with no known den sites or food caches, most die or immediately start moving &mdash; often straight back toward home, since raccoons navigate familiar territory well inside a couple of kilometres.</p>
@@ -266,6 +269,7 @@ export default function RaccoonDeterrentCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="garbage can lid lock strap raccoon">Check bin straps and lid locks on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/raccoon-deterrent" />
           <h2>Decks and Sheds: Exclusion Done Right (and the One-Way Door Rule)</h2>
           <p>A raccoon denning under your deck or shed is not solved by any sprinkler or strap &mdash; it is solved by construction. The material is <strong>half-inch galvanized hardware cloth</strong>, 19-gauge or heavier. Chicken wire fails (raccoons tear it), and plastic lattice alone is a suggestion, not a barrier. The installation detail that separates a permanent fix from a two-week fix is the <strong>L-footer</strong>: trench down about 30 cm at the deck or shed perimeter, then bend the bottom of the mesh outward another 30 cm underground, away from the structure. A digging raccoon hits mesh at the bottom of its hole, tries a little further out, hits mesh again, and gives up. Mesh stapled flush to the fascia without the buried L is defeated in a night.</p>
           <p>Sequence matters more than materials, though, because sealing an <em>occupied</em> den creates a disaster. The correct order:</p>

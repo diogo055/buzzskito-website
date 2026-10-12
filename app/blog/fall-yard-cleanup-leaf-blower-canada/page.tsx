@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'fall-yard-cleanup-leaf-blower-canada'
 const DATE = '2026-08-22'
@@ -227,6 +229,7 @@ export default function FallYardCleanupLeafBlowerCanadaPage() {
           <p>We spray yards for mosquitoes and ticks from May to September, and by the second season you start to notice which properties are hard. It is almost never the ones with the most trees. It is the ones where the leaf layer along the back fence never got cleared &mdash; a permanently damp, insulated strip of litter that runs the entire property line.</p>
           <p>That strip is not cosmetic. Blacklegged ticks cannot tolerate drying out; humidity is the constraint on where they can survive, which is why they concentrate in the leaf litter at the lawn-to-woods transition rather than out in the open turf. That litter is also where they overwinter, insulated under the snowpack, and it is where they are questing when the ground thaws in April. Strip it in October and you have removed habitat, not just tidied up. Our full playbook on that is in <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">how to keep ticks out of your yard in Ontario</Link>, and the spring timing is in <Link href="/blog/spring-tick-season-ontario">spring tick season in Ontario</Link>.</p>
           <p>The mosquito angle is narrower but real. <em>Culex</em> females &mdash; the West Nile vector &mdash; overwinter as adults in sheltered, humid pockets rather than dying off in October, and a sodden leaf mound banked against a foundation or piled in a window well is exactly the microclimate they are looking for. Where autumn cleanup does nothing at all is standing water: a leaf-clogged gutter or a plugged catch basin will still hold water and breed <em>Culex</em> in May, which is why we tell people to do gutters the same weekend. The rest of that list is in <Link href="/blog/hidden-mosquito-breeding-spots-backyard">hidden mosquito breeding spots in the backyard</Link>.</p>
+          <NextUp path="/blog/fall-yard-cleanup-leaf-blower-canada" />
           <p>There is a third group nobody thinks about until they are indoors: the overwintering invaders. Cluster flies, boxelder bugs, and mice all use the same warm, undisturbed debris against a foundation as a staging area before they find their way through a gap in the siding &mdash; the reason we cross-reference <Link href="/blog/how-to-get-rid-of-cluster-flies-canada">cluster flies</Link> and <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">keeping mice out over winter</Link> on the same seasonal checklist.</p>
 
           <h2>CFM vs MPH: The Spec That Actually Matters</h2>
@@ -265,6 +268,7 @@ export default function FallYardCleanupLeafBlowerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="reusable leaf collection bag pop up">Reusable leaf collection bags &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/fall-yard-cleanup-leaf-blower-canada" />
           <h2>The Kit That Makes the Blower Faster</h2>
           <p>The blower is one part of an afternoon that runs on logistics. What actually shortens the job:</p>
           <ul>

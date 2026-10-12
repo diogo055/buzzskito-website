@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-whole-house-dehumidifier-canada'
 const DATE = '2026-08-22'
@@ -236,6 +238,7 @@ export default function BestWholeHouseDehumidifierCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="wireless hygrometer indoor humidity remote sensor">Hygrometer &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-whole-house-dehumidifier-canada" />
           <h2>The Test That Decides This: Is the Damp Local or House-Wide?</h2>
           <p>Almost everybody arriving at this question has already run a portable dehumidifier somewhere and found it insufficient, which is a reasonable reason to look at a bigger machine. But &ldquo;the portable did not fix it&rdquo; has two very different explanations, and they lead to opposite purchases. Either the portable was in the wrong place or undersized for the zone it was in, or the moisture load really is house-wide and one zone was never going to be enough.</p>
           <p>Separate them by measuring. Buy an inexpensive hygrometer, ideally one with a couple of remote sensors, and place one on each floor. Leave it for a week of genuinely humid weather in July or August, and write down the relative humidity on each level, both while the air conditioning is running and while it is off. Two patterns emerge:</p>
@@ -259,6 +262,7 @@ export default function BestWholeHouseDehumidifierCanadaPage() {
           </ul>
           <p>Three questions to settle with your contractor regardless of configuration. Can the unit run without the furnace blower running, or does it need the air handler to operate? A dehumidifier that forces the blower on every cycle adds that blower&rsquo;s electricity to every hour of operation. How does the control tie in &mdash; a dedicated humidistat, an integration with the thermostat, or a ventilation control? And where does the condensate go? Settle drainage before install day, not after.</p>
 
+          <RelatedLinks path="/blog/best-whole-house-dehumidifier-canada" />
           <h2>Sizing, and the Number That Means Nothing on Its Own</h2>
           <p>Dehumidifier capacity is quoted in pints of water removed per day, but that figure is only meaningful alongside the test condition that produced it. Manufacturers do not all publish at the same condition, and a unit measured in hot saturated air will always post a larger number than the same unit measured under a cooler standard test. Before you compare two machines, find the condition printed beside each capacity claim. If one is missing it, treat the comparison as unreliable.</p>
           <p>With that caveat, a working guide for Canadian homes:</p>

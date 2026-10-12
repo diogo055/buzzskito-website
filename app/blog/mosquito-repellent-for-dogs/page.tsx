@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-repellent-for-dogs'
 const DATE = '2026-07-12'
@@ -272,6 +274,7 @@ export default function MosquitoRepellentForDogsCanadaPage() {
             <li><strong>Any permethrin product if you own a cat — no (see below).</strong></li>
           </ul>
 
+          <NextUp path="/blog/mosquito-repellent-for-dogs" />
           <h2>The Permethrin Rule: Great on Dogs, Deadly to Cats</h2>
           <p>Permethrin is one of the most effective mosquito and tick repellents available for dogs — it is the active ingredient in popular spot-ons like <strong>K9 Advantix II</strong> and <strong>Vectra 3D</strong>, and used at the correct dog dose it both repels and kills mosquitoes. On dogs, used as the label directs, it is widely recommended by veterinarians.</p>
           <p>The life-or-death caveat is <strong>cats</strong>. Cats cannot metabolize permethrin the way dogs can, and exposure is <strong>frequently fatal</strong> — causing tremors, seizures, and death. Cats are poisoned not just by direct application but by <strong>contact</strong>: grooming a recently treated dog, sleeping against one, or brushing past a treated coat. If there is a cat anywhere in your household:</p>
@@ -294,6 +297,7 @@ export default function MosquitoRepellentForDogsCanadaPage() {
             <li><strong>Reduce bites from the outside:</strong> a dog-labelled repellent for outings, plus fewer mosquitoes in the yard to begin with.</li>
           </ol>
 
+          <RelatedLinks path="/blog/mosquito-repellent-for-dogs" />
           <h2>Dog-Labelled Repellent Options, Ranked by Situation</h2>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">

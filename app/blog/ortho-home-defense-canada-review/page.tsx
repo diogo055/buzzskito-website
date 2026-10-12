@@ -9,6 +9,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'ortho-home-defense-canada-review'
 const DATE = '2026-07-12'
@@ -220,6 +222,7 @@ export default function OrthoHomeDefenseCanadaPage() {
           <p>Ortho is a Scotts Miracle-Gro brand, and in the United States its <strong>Home Defense</strong> and <strong>Bug B Gon</strong> lines are built around <strong>bifenthrin</strong> — a synthetic pyrethroid that gives a long residual barrier. That is exactly why the products are popular south of the border, and exactly why they run into two Canadian walls.</p>
           <p>First, <strong>registration</strong>. Every pesticide sold in Canada must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) and carry a PCP (Pest Control Products) number on the label. Many US Ortho SKUs — including &ldquo;Ortho Home Defense Max Insect Killer for Indoor &amp; Perimeter&rdquo; — were never registered here. No PCP number means no legal Canadian retail sale.</p>
           <p>Second, the <strong>cosmetic pesticide ban</strong>. Ontario (and Quebec, and others) prohibit the sale and lawn/garden use of Class 9 pesticides for cosmetic purposes. Bifenthrin sits in that class. So even setting registration aside, spraying a bifenthrin product on your grass to kill bugs is not a permitted cosmetic use in Ontario. This is why a product that is an ordinary hardware-store buy in Buffalo is neither on the shelf nor legal to use on your lawn in Mississauga.</p>
+          <NextUp path="/blog/ortho-home-defense-canada-review" />
           <p><strong>Watch for grey-market listings.</strong> You will occasionally find a marketplace seller shipping the US bifenthrin formula into Canada. That product is unregistered here, can be held or seized at the border, and is not legal for cosmetic outdoor use in Ontario. We do not recommend buying pesticides that way — confirm any listing is sold and shipped within Canada and shows a PCP number.</p>
 
           <h2>What Ortho You Can Actually Buy in Canada</h2>
@@ -247,6 +250,7 @@ export default function OrthoHomeDefenseCanadaPage() {
 
           <p>A note on the larvicide half of that stack. Dunks are sized for standing water that sits still for weeks &mdash; a rain barrel, an ornamental pond, a low spot that never quite dries. For a bird bath you refresh every few days, or a plant saucer, the granular form of the same BTI is far easier to dose in small amounts without fishing a half-dissolved disc back out. <BuyLink tag={AMZ_TAG} search="mosquito bits granules">Check BTI mosquito granules on Amazon.ca &rarr;</BuyLink></p>
 
+          <RelatedLinks path="/blog/ortho-home-defense-canada-review" />
           <h2>How to Use Ortho Bug B Gon ECO Safely</h2>
           <p>&ldquo;Reduced-risk&rdquo; does not mean &ldquo;no precautions.&rdquo; The label is the law — its PCP number and directions override anything you read online, this article included. A few universal points:</p>
           <ul>

@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-rodent-repellent-for-cars-canada'
 const DATE = '2026-07-21'
@@ -288,6 +290,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Victor snap traps →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-rodent-repellent-for-cars-canada" />
           <h2>Why Mice Move Into Cars (and Why Canada Makes It Worse)</h2>
           <p>An engine bay is close to a perfect mouse habitat: enclosed, dark, sheltered from rain, wind, and owls, riddled with cavities that hold nesting material — and, for hours after you park, warm. In a southern-Ontario October, a just-driven engine is one of the warmest objects on the street, and mice are superb heat-seekers. The air filter box, the battery tray, the cowl under the wipers, and the blower-motor housing are the classic nest sites, because they combine shelter with soft material to shred.</p>
           <p>The chewing that follows is not feeding. Rodent incisors grow continuously through life, and gnawing is how they are kept ground down — wire insulation, vacuum hoses, and sound-deadening felt happen to be ideal gnawing media. You may have read that modern soy-based wire insulation &ldquo;attracts&rdquo; mice; the class-action lawsuits built on that theory were largely dismissed for lack of evidence, and mice chewed petroleum-based looms for decades before soy insulation existed. The practical takeaway is unchanged either way: any parked car is chewable, the risk concentrates in fall and during storage, and in Canada the repair claim — if you are lucky — goes through the comprehensive portion of your auto policy, deductible first.</p>
@@ -315,6 +318,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="peppermint oil rodent repellent pouches">Check peppermint pouches on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/best-rodent-repellent-for-cars-canada" />
           <h2>Perimeter Snap Traps: The Backstop Nothing Else Replaces</h2>
           <p>Every repellent on this page shares a ceiling: none of them reduces the number of mice in your garage. If the population around the vehicle keeps growing, some individual will eventually be hungry, cold, or bold enough to push through the deterrents. That is why the classic Victor wood snap trap — reviewed in full in our <Link href="/blog/best-mouse-trap-canada">best mouse trap guide</Link> — earns Best Backstop here, deployed in a specific pattern: <strong>around the car, never in it</strong>.</p>
           <p>Set traps against the garage walls (mice run wall lines, almost never open floor), along the foundation near an outdoor parking pad, and beside the tires — the on-ramps. Pea-sized smear of peanut butter, trigger end to the wall, two traps at high-evidence corners. Do not put snap traps on the engine, where they shift into belts and get forgotten, or in the cabin, where they fire underfoot; a forgotten catch decomposing in a hot engine bay is its own special consequence. Beyond removal, the trap line is also your <em>sensor network</em>: a week of untouched traps tells you the deterrents are holding, while a caught mouse tells you to tighten the perimeter before the wiring pays for the lesson. If catches are frequent or droppings are over a centimetre long, you have graduated to a different problem — see the <Link href="/blog/how-to-get-rid-of-rats-canada">rat playbook</Link> and consider a full <Link href="/blog/rodent-exclusion-kit-canada">exclusion kit</Link> for the garage itself.</p>

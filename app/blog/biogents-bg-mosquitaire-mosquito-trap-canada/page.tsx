@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'biogents-bg-mosquitaire-mosquito-trap-canada'
 const DATE = '2026-08-22'
@@ -230,6 +232,7 @@ export default function BiogentsBgMosquitaireCanadaPage() {
           <p>Biogents is a German company whose BG-Sentinel trap became the standard surveillance tool for monitoring <em>Aedes</em> and <em>Culex</em> populations &mdash; the thing public-health programs and academic entomologists deploy when they need to know what is flying. The BG-Mosquitaire is the consumer build of that design: the same fan-driven airflow pattern and the same BG-Lure attractant, in a housing meant to sit in a garden bed rather than a field study.</p>
           <p>Mechanically it is unglamorous, which is the point. A quiet fan draws air through the trap and pushes a plume upward in a pattern that imitates the convection currents rising off a warm human body. The BG-Lure adds the chemical half of the signal &mdash; an artificial imitation of human skin scent. A host-seeking female flies in along that plume, gets pulled through the funnel by the suction, and ends up in a catch bag she cannot leave. There is no electrocution grid, no chemical, and nothing applied to the yard.</p>
           <p>That last part matters more than it sounds. A trap is a device, not a pesticide, so nothing here is regulated by Health Canada&rsquo;s PMRA the way a spray is, and no residue lands on your grass or your patio furniture. It is the no-spray end of mosquito control, which is exactly why a certain kind of homeowner is willing to spend $400 on one.</p>
+          <NextUp path="/blog/biogents-bg-mosquitaire-mosquito-trap-canada" />
           <p>If you are still at the category stage &mdash; deciding whether a CO2 trap of any kind is the right approach &mdash; start with our overview of <Link href="/blog/co2-mosquito-trap-canada">CO2 mosquito traps in Canada</Link>. This page assumes you have already landed on Biogents and are choosing between its versions.</p>
 
           <h2>CO2 or Lure-Only? The Decision That Costs the Most Money</h2>
@@ -269,6 +272,7 @@ export default function BiogentsBgMosquitaireCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="weatherproof outdoor extension cord cover box">Check weatherproof cord covers &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/biogents-bg-mosquitaire-mosquito-trap-canada" />
           <h2>The Mistake Most Canadian Buyers Make</h2>
           <p>They buy it in mid-July, after three bad weekends in a row, and expect the yard to be different by Saturday.</p>
           <p>A trap removes host-seeking and egg-laying females one at a time, continuously. The effect compounds &mdash; every gravid female caught is also the batch of eggs she was about to lay &mdash; but it is a draw-down curve, not a knockdown. Realistically you notice a difference across two to six weeks of uninterrupted running, and the benefit is largest late in the season if you started early. A trap bought on July 15th and judged on July 20th will be judged as a failure regardless of how good it is.</p>

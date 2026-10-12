@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-gas-backpack-fogger-canada'
 const DATE = '2026-07-21'
@@ -252,6 +254,7 @@ export default function BestGasBackpackFoggerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="gas backpack mist blower">Budget gas backpack →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-gas-backpack-fogger-canada" />
           <h2>Why Gas, Not Electric, for Real Acreage</h2>
           <p>The single question that decides gas versus electric is how far you are from a wall outlet and how much ground you have to cover. Electric and battery mist blowers have come a long way &mdash; they are quiet, low-maintenance, and cheaper to run &mdash; and for a suburban yard, a greenhouse, or anything within a cord&rsquo;s reach they are genuinely the smarter buy. We lay that case out in the <Link href="/blog/propane-vs-electric-fogger-canada">propane-vs-electric fogger comparison</Link>, and if your property is small you should read it before spending on a 2-stroke you do not need.</p>
           <p>But acreage exposes the limits of electric fast. A battery pack fades before you finish the back forty, a cord tethers you to the house, and the airflow &mdash; the thing that determines throw &mdash; is simply lower than a gas engine can produce. A gas 2-stroke backpack gives you three things nothing plug-in matches: <strong>untethered range</strong> to walk the whole property, the <strong>highest air volume and throw</strong> in the portable class, and a fuel tank you refill in fifteen seconds instead of a battery you wait an hour to recharge. For a rural lot, an orchard, a tree line, or a field edge, gas is not nostalgia &mdash; it is the tool that actually reaches.</p>
@@ -271,6 +274,7 @@ export default function BestGasBackpackFoggerCanadaPage() {
           <p>One feature quietly separates a single-purpose machine from a genuinely versatile one: whether it can apply more than liquid. A convertible mist blower ships with a dusting kit &mdash; and sometimes a granule spreader &mdash; so the same backpack that lays down a wet mist on foliage can also blow a dry powder into voids or under structures, or broadcast granular product across a lawn or field. For a mixed rural property where the jobs vary week to week, that flexibility is worth real money.</p>
           <p>Single-purpose mist blowers handle liquid only, and that is fine if liquid is all you do. The mistake is assuming you can add dusting later: retrofit kits are fiddly, model-specific, and not always offered. If there is any chance you will want dust or granule application, buy the convertible up front. Our <Link href="/blog/best-pest-control-equipment-canada">pest-control equipment hub</Link> maps where a mist blower sits alongside sprayers, foggers, and spreaders in a full kit, so you buy each tool once for the job it is actually best at.</p>
 
+          <RelatedLinks path="/blog/best-gas-backpack-fogger-canada" />
           <h2>The Compliance Part: The Machine Is Easy, the Chemical Is Not</h2>
           <p>Here is the piece that trips people up, and it has nothing to do with the hardware. In Canada, the gas backpack fogger itself is just application equipment &mdash; you can own and run it freely, no registration required. Every rule attaches to <em>what you put in it</em>. Any product you apply for pest control must be registered with Health Canada&rsquo;s <strong>Pest Management Regulatory Agency (PMRA)</strong>, must carry a PCP registration number on its label, and must be used exactly as that label directs &mdash; including any restriction on equipment type, application rate, and buffer zones near water or property lines.</p>
           <p>This is where the money-saving instinct backfires. A US-labelled concentrate bought across the border is very likely <strong>not</strong> registered for use in Canada; it may carry an EPA number and no Canadian PCP number, which makes it grey-market here no matter how identical the active ingredient looks. Legality follows the registration, not the chemistry, and running an unregistered product through your fogger is exactly the use that draws enforcement. Several provinces also restrict &ldquo;cosmetic&rdquo; pesticide use on lawns and gardens, and applying on someone else&rsquo;s property for pay generally needs a licence. Buy the machine wherever you like &mdash; then source the treatment from a Canadian retailer with a valid PMRA-registered label, and confirm that label permits mist-blower or fogger application before your first tank.</p>

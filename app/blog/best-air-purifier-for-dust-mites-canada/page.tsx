@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-air-purifier-for-dust-mites-canada'
 const DATE = '2026-07-21'
@@ -183,6 +185,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
           <p>Yes &mdash; and this is the most important thing to understand before you spend money, because it also tells you what a purifier <em>can&rsquo;t</em> do. Dust-mite allergy is not caused by the mites biting you; it is an allergic reaction to proteins in their droppings and shed body fragments. Those particles are light enough to become airborne whenever you make the bed, plump a pillow, vacuum, or drop onto the sofa. A True-HEPA air purifier pulls that airborne allergen out of the room air, and for many sufferers that measurably eases the sneezing, congestion, itchy eyes, and disrupted sleep.</p>
           <p>The honest limit: the purifier only cleans air that passes through it. The living dust-mite colony &mdash; and the heaviest fraction of allergen &mdash; sits deep in your mattress, pillows, upholstery, and carpet, where a purifier can never reach. The coarse allergen particles also settle out of the air within minutes rather than staying suspended. So an air purifier is genuine symptom relief, but it is one layer of a three-layer plan, not a cure. Filter the air, <strong>encase the mattress and pillows</strong>, and <strong>control humidity</strong> so the mites can&rsquo;t thrive. Skip any of those and you are treating the symptom while the source keeps replenishing it.</p>
 
+          <NextUp path="/blog/best-air-purifier-for-dust-mites-canada" />
           <h2>True-HEPA, CADR, and Room Sizing: How Do They Compare?</h2>
           <p>Two numbers decide whether a purifier will actually help your allergy: the filter grade and the airflow. Everything else on the box is secondary. Here is how the specs that matter stack up.</p>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
@@ -250,6 +253,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
           </ul>
           <p>The honest verdict: for a <em>single bedroom</em>, a well-sized budget True-HEPA unit is usually all the allergy relief you need, and paying up buys mostly quiet and convenience. For a <em>large living area or open-plan condo</em>, the extra CADR of a premium unit is the difference between clean air and a machine that never keeps up &mdash; there, the spend is justified on performance alone.</p>
 
+          <RelatedLinks path="/blog/best-air-purifier-for-dust-mites-canada" />
           <h2>Budget vs Premium: The Honest Comparison</h2>
           <p>Here is the buy-vs-cheaper-alternative decision laid out plainly, because it genuinely comes down to your room, not the badge.</p>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">

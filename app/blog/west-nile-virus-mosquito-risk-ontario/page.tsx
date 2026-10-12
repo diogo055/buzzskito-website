@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, CITIES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const POST = MOSQUITO_BLOGS.supporting[3]
 
@@ -98,6 +99,7 @@ export default function WestNilePage() {
         <p>West Nile Virus (WNV) is a mosquito-borne illness that has been present in Ontario since 2001. The virus circulates between birds (the primary reservoir host) and mosquitoes, with humans infected incidentally when bitten by an infected mosquito. <em>Culex</em> mosquito species — particularly <em>Culex pipiens</em> — are the primary WNV vectors in the GTA.</p>
         <p>Ontario public health agencies, including Toronto Public Health and the Peel Region Health Department, conduct annual mosquito surveillance programs, trapping and testing pools of mosquitoes for WNV. Positive pools are confirmed in the GTA every year, with the highest activity typically in July and August.</p>
         <p>Toronto is the clearest illustration of that pattern, since its storm catch basins give <em>Culex</em> the stagnant, organically rich water they prefer right through the dry weeks of summer. Our <Link href="/blog/west-nile-virus-toronto-2026" className="text-brand-700 hover:underline">Toronto West Nile risk guide for 2026</Link> maps how the risk builds and falls across the season.</p>
+        <NextUp path="/blog/west-nile-virus-mosquito-risk-ontario" />
         <p>West Nile is not the province&rsquo;s largest vector-borne illness, though. Ontario&rsquo;s reportable-disease figures are dominated by the tick side of the ledger &mdash; <Link href="/blog/lyme-disease-cases-ontario-2026" className="text-brand-700 hover:underline">Lyme disease cases in Ontario</Link> sets out the most recent published counts, which is useful context when you are deciding how much of the yard budget belongs to mosquitoes and how much to ticks.</p>
 
         <h2>Who Is at Risk?</h2>

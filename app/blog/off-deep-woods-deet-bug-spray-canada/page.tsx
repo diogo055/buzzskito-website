@@ -9,6 +9,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'off-deep-woods-deet-bug-spray-canada'
 const DATE = '2026-07-12'
@@ -247,6 +248,7 @@ export default function OffDeepWoodsDeetPage() {
           </ul>
           <p>Notice the diminishing returns: going from 25% to 30% buys you a couple extra hours, but jumping past 30% adds almost nothing — which is exactly why <strong>Health Canada caps consumer repellents at 30% DEET</strong>. If you see a US product advertising 40%, 50%, or nearly 100% DEET, that is a longevity spec for extreme expeditions, not a &ldquo;better&rdquo; spray, and it is not sold at that strength in Canada. For a full-yard mosquito plan that reduces how often you reapply anything, see our <Link href="/blog/mosquito-repellent-guide-ontario-2026">Ontario mosquito repellent guide for 2026</Link>.</p>
 
+          <NextUp path="/blog/off-deep-woods-deet-bug-spray-canada" />
           <h2 id="off-lineup">The OFF Lineup Compared — Which One to Buy</h2>
           <p>OFF sells several formulas that look similar on the shelf but are aimed at different jobs. Here is the practical breakdown for Canadian buyers, with a live Amazon.ca price check on each:</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">

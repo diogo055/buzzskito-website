@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'rodent-proof-compost-bin-canada'
 const DATE = '2026-08-22'
@@ -300,6 +302,7 @@ export default function RodentProofCompostBinCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="compost bin lid locking clips strap">Lid clips &amp; straps &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/rodent-proof-compost-bin-canada" />
           <h2>Elevation Beats Armour: Why Tumblers Win</h2>
           <p>If you take one structural idea from this page, take this one: raising the bin off the ground defeats rodents more reliably than making the bin tougher. A sealed drum suspended on a steel frame has no floor to breach and no soil interface to tunnel to. A rat standing under it is standing under a barrel it cannot reach. That is a better outcome than a thick-walled bin on the ground, because the ground is where the attack actually comes from.</p>
           <p>Elevated tumblers do have specific weaknesses, and they are worth knowing before you buy. The hatch is the whole game: a door that no longer seats flush after two seasons of UV and freeze-thaw is an open bin. Check the seal every spring, and look for a design with a positive latch rather than a friction fit. Ventilation holes are the second: some drums ship with generous holes for airflow, and if any of them passes a quarter, cover the panel with a scrap of hardware cloth from the same roll you used for the floor. And keep the frame in open ground &mdash; 30 cm of clear air all round. A drum parked against a fence, a shed wall, or a stack of firewood gives a rat a launch pad, and rats climb far better than most people assume.</p>
@@ -314,6 +317,7 @@ export default function RodentProofCompostBinCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="heavy duty ground anchor stakes">Check ground anchors &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/rodent-proof-compost-bin-canada" />
           <h2>What You Put In Matters More Than What You Buy</h2>
           <p>A sealed bin filled with the wrong material is a fortified food source, and no amount of hardware compensates. The list of things that never belong in a backyard composter in Canada is short and non-negotiable: meat, fish, bones, dairy, fat and cooking oil, cooked food carrying grease or sauce, and pet waste. Those are what make a bin worth a rat&rsquo;s effort in the first place, and no backyard drum reaches the temperatures needed to process them safely.</p>
           <p>The practical Canadian answer is to split the stream. Fruit and vegetable trimmings, coffee grounds, tea, eggshells, and yard waste go to the backyard bin. Everything on the forbidden list goes to municipal green-bin organics collection, which runs across Toronto, Peel, York, Halton and Durham, and which is processed at industrial temperatures your composter cannot match. If you specifically want to handle meat and dairy at home, a bokashi bucket ferments them indoors in a sealed pail first, which sidesteps the outdoor exposure question entirely and works just as well in February.</p>

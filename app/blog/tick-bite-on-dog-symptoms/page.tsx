@@ -9,6 +9,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'tick-bite-on-dog-symptoms'
 const DATE = '2026-04-26'
@@ -121,6 +123,7 @@ export default function TickBiteOnDogSymptomsPage() {
             <li><strong>Day 7–14:</strong> Bite area heals fully and disappears.</li>
           </ul>
           <p>About 10% of dogs develop a more visible reaction — a larger lump (1–2 cm), localized swelling, or mild itching. This is usually a mild histamine response, not infection. It typically resolves on its own in 1–2 weeks.</p>
+          <NextUp path="/blog/tick-bite-on-dog-symptoms" />
           <p><strong>Note:</strong> The famous &ldquo;bullseye rash&rdquo; (erythema migrans) that humans get with early Lyme disease is rarely visible on dogs because of the fur. Don&rsquo;t look for it.</p>
 
           <h2>The Critical Timeline — When to Watch What</h2>
@@ -169,6 +172,7 @@ export default function TickBiteOnDogSymptomsPage() {
           <p><strong>Month 2–5:</strong> Watch for shifting-leg lameness — the calling card of canine Lyme. If your dog limps on one leg, then a different leg days later, see the vet immediately. A 4DX SNAP test takes 8 minutes.</p>
           <p><strong>Annual:</strong> If you live in an Ontario tick hotspot (Oak Ridges Moraine, Rouge Park, Bronte Creek, Niagara, cottage country), discuss a 4DX screen with your vet at every annual checkup.</p>
 
+          <RelatedLinks path="/blog/tick-bite-on-dog-symptoms" />
           <h2>Treatment — If Lyme is Confirmed</h2>
           <p>Canine Lyme disease responds well to <strong>doxycycline</strong>, an antibiotic given for 28 days. Most dogs feel significantly better within a week. Treated early, recovery is excellent. Untreated, Lyme can become chronic and lead to Lyme nephritis. Your vet will determine whether your dog needs treatment based on symptoms, antibody levels (4DX), and quantitative C6 testing.</p>
 

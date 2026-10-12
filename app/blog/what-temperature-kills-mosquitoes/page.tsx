@@ -4,6 +4,8 @@ import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-temperature-kills-mosquitoes'
 const DATE = '2026-07-16'
@@ -289,6 +291,7 @@ export default function WhatTemperatureKillsMosquitoesPage() {
           <p>A hard, killing frost kills active adult mosquitoes &mdash; sustained temperatures at or below roughly <strong>-2&deg;C (28&deg;F)</strong>. A single light frost near 0&deg;C (32&deg;F) usually only stuns them. That is the number people are really after, but it comes with a catch that most 2019-era articles skip: killing the adults you can see does not end the mosquito population, because the next generation is already waiting out the cold as eggs and hibernating females.</p>
           <p>Mosquitoes are ectothermic (cold-blooded), meaning they have no internal way to keep warm. Their metabolism, flight muscles and feeding drive all rise and fall with the surrounding air. Warm it up and they swarm; cool it down and they shut off. That single fact explains every temperature threshold on this page.</p>
 
+          <NextUp path="/blog/what-temperature-kills-mosquitoes" />
           <h2>What temperature do mosquitoes die at?</h2>
           <p><strong>Active adult mosquitoes die at about -2&deg;C (28&deg;F) sustained</strong> &mdash; the temperature the US National Weather Service defines as a hard freeze. Mosquito larvae die once their water freezes solid. Hibernating <em>Culex</em>, <em>Anopheles</em> and <em>Culiseta</em> females do not die at that temperature at all; they spend the winter dormant in sheltered spots and survive it.</p>
           <p>Active adults die when temperatures hold below about <strong>-2&deg;C (28&deg;F)</strong> for a sustained stretch. They simply cannot survive prolonged freezing while active &mdash; their body fluids and flight muscles cannot operate. Larvae die when the water they live in freezes solid.</p>
@@ -460,6 +463,7 @@ export default function WhatTemperatureKillsMosquitoesPage() {
           </ul>
           <p>The two overlap in cold climates &mdash; northern <em>Aedes albopictus</em> eggs enter a true photoperiod-cued diapause before the quiescent phase, which is precisely how that species has pushed so far north. But the distinction is still the useful one, because it tells you what you are fighting in April. Where <em>Culex</em> dominates, the first mosquitoes of the year are last year&rsquo;s females waking up. Where <em>Aedes</em> dominates, the first mosquitoes of the year hatch out of water that has been sitting in your yard since the fall &mdash; and no amount of cold in between made any difference to them.</p>
 
+          <RelatedLinks path="/blog/what-temperature-kills-mosquitoes" />
           <h2>How cold is a &ldquo;killing frost&rdquo;, exactly? The NWS definitions</h2>
           <p><strong>&ldquo;Sustained cold&rdquo; has an official number in the United States.</strong> The <a href="https://forecast.weather.gov/glossary.php?word=freeze" target="_blank" rel="noopener" className="text-emerald-700 underline">National Weather Service</a> defines a <strong>hard freeze</strong> &mdash; also called a killing freeze &mdash; as surface air temperature reaching <strong>28&deg;F (-2&deg;C) or below</strong>. That is the threshold at which water inside plant cells freezes and ruptures the cell walls, killing most vegetation outright, and it is the same threshold at which exposed active adult mosquitoes die.</p>
           <p>You will see competing pages quote &ldquo;two consecutive hours at or below 28&deg;F.&rdquo; That is a fair working rule and it matches how the alert behaves in practice, but be precise about what is official and what is convention: the NWS definition is <em>temperature-based</em>, and the duration applied before a Hard Freeze Warning is issued is set by the local forecast office &mdash; typically an hour or more, and worded slightly differently office to office.</p>

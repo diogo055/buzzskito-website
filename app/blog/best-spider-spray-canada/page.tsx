@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-spider-spray-canada'
 const DATE = '2026-07-21'
@@ -298,6 +300,7 @@ export default function BestSpiderSprayCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="spider insect glue traps">Spider glue traps →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-spider-spray-canada" />
           <h2>Why Spiders Are Genuinely Hard to Spray (Read This Before Buying Anything)</h2>
           <p>Here is the piece of biology that explains most spider-spray disappointment, and that almost no product page will tell you. Residual insecticides kill insects two ways: contact through the body touching a treated surface, and ingestion when the insect grooms residue off its legs. Spiders are poorly exposed to both. They stand tall on long, slender legs, holding the body — where the vulnerable surface area is — up off the treated zone, so a spider crossing a sprayed baseboard picks up a fraction of the dose a cockroach would. And spiders do not groom the way cockroaches and ants do, so the ingestion route barely exists. This is also why ant and roach <em>baits</em> do nothing for spiders: spiders eat live moving prey, not granules.</p>
           <p>What follows from this is the honest job description for a spider spray. <strong>Direct spray</strong> on a spider works reliably — enough product on the body is enough. <strong>Residual barriers</strong> work meaningfully on <em>wandering</em> spiders — the fall males crossing thresholds and running baseboard lines pick up a lethal dose because they travel treated surfaces at length. And residuals work poorly on <strong>web-sitting females</strong>, who hang in silk touching almost nothing you can treat — for them, the vacuum is the better weapon, because it takes the spider, the web, and the egg sac in one pass. A spray program aimed at the lines spiders walk, rather than the air they hang in, is the one that works.</p>
@@ -321,6 +324,7 @@ export default function BestSpiderSprayCanadaPage() {
           <p>Search &ldquo;best spider spray&rdquo; and the internet will hand you an American answer — most famously <strong>Miss Muffet&rsquo;s Revenge</strong>, plus various US-market Terro, Ortho, and Hot Shot spider formulations that headline US buying guides. Then you go looking in Canada and they are nowhere. That absence is not a supply-chain accident; it is the system working. Pesticides are registered country by country, and a US EPA registration confers exactly nothing in Canada: unless a product has been through Health Canada&rsquo;s PMRA review and carries a PCP registration number, it cannot legally be sold here, and importing it yourself puts you on the wrong side of the Pest Control Products Act with no Canadian label directions to protect you or your household.</p>
           <p>The pattern generalizes beyond any single brand, so here is the durable rule rather than a blacklist: <strong>if a spray is recommended by a US website, assume nothing about its Canadian status — flip the can (or scroll the listing) and look for the PCP number.</strong> Cross-listed marketplace sellers do sometimes ship US-registered products into Canadian search results, which is exactly how well-meaning buyers end up with unregistered pesticide at their door. There is no need to run that risk: the Canadian residual lines above are registered, stocked, and effective. Verify the number, buy domestic, follow the label.</p>
 
+          <RelatedLinks path="/blog/best-spider-spray-canada" />
           <h2>How to Apply a Perimeter Treatment (The 20-Minute Version)</h2>
           <p>Applied correctly, one can of residual covers a house&rsquo;s critical lines in about twenty minutes. Applied as a panicked fog over the living-room floor, it accomplishes little beyond odour. The difference:</p>
           <ul>

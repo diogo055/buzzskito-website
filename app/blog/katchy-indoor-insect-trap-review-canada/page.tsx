@@ -12,6 +12,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'katchy-indoor-insect-trap-review-canada'
 const DATE = '2026-07-21'
@@ -150,6 +152,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
           <p>That design has two important consequences. First, it is one of the few pest products where the &ldquo;safe around kids and pets&rdquo; marketing claim is straightforwardly true: there is nothing toxic in the box. Because it kills mechanically rather than chemically, it also needs no registration under Canada&rsquo;s Pest Control Products Act — a real distinction we come back to below, because the same cannot be said for some of the US-market insect sprays Canadians find online.</p>
           <p>Second, the mechanism dictates exactly which insects it can and cannot catch — and this, not build quality, is where most disappointed reviews come from. The Katchy is a UV-attraction trap, so it catches insects that respond to UV light and are weak enough fliers for a deliberately quiet fan to overpower. That is a precise description of two household pests: <strong>fungus gnats</strong> and <strong>fruit flies</strong>.</p>
 
+          <NextUp path="/blog/katchy-indoor-insect-trap-review-canada" />
           <h2>What the Katchy Actually Catches (the Honest List)</h2>
           <p>We score the Katchy 8.3/10 <em>for the job it was built for</em>. Here is the honest catch profile, which matters more than any spec sheet:</p>
           <ul>
@@ -211,6 +214,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
           <p>Here is the part of this category most US-written reviews never mention. In Canada, any product that kills insects <em>chemically</em> — sprays, aerosols, foggers, most &ldquo;natural&rdquo; essential-oil insect killers — must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency and carry a PCP registration number on the label. A number of popular US flying-insect sprays circulate in Canada through marketplace imports without that registration — sold in listings that quietly ship US-labelled product with no Canadian PCP number, which makes them illegal to sell here and leaves you with zero Canadian label directions if something goes wrong around kids or pets.</p>
           <p>The Katchy sidesteps that entire problem by being a trap, not a pesticide. Physical devices — glue boards, fans, UV lures — do not require PMRA registration because there is no active ingredient to regulate. That makes the Katchy one of the rare products in this aisle where the cross-border compliance question simply does not exist: the unit sold to Canadians is the same lawful device sold everywhere else. When you are comparing it against a suspiciously cheap &ldquo;flying insect killer&rdquo; aerosol from a marketplace seller, that difference should carry real weight.</p>
 
+          <RelatedLinks path="/blog/katchy-indoor-insect-trap-review-canada" />
           <h2>Placement: the 80% of Performance Nobody Reads the Manual For</h2>
           <p>Almost every &ldquo;my Katchy doesn&rsquo;t work&rdquo; complaint traces to placement, because a UV-attraction trap lives or dies by two variables: darkness and distance.</p>
           <ul>

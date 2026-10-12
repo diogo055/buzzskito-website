@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { withRegionalAlternates } from '@/lib/guides'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'baby-ticks-nymphs-seed-ticks-ontario'
 const DATE = '2026-07-12'
@@ -153,6 +155,7 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
 
           <p>If a baby tick is on you or your child right now, the size is the whole problem: household tweezers are too blunt to grip a poppy-seed nymph without squeezing it. A fine-point or slotted tick remover grabs the mouthparts instead of the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
 
+          <NextUp path="/blog/baby-ticks-nymphs-seed-ticks-ontario" />
           <h2>Seed Ticks: The Larval Stage</h2>
           <p>A <strong>seed tick</strong> is just a tick larva. After a female tick lays her eggs — often thousands at once — the eggs hatch into six-legged larvae about 0.5 mm across. At that size they look like specks of dirt, ground pepper, or poppy seeds, and they often appear in clusters because a whole clutch hatches together. If you brush against vegetation and pick up dozens of tiny crawling dots at once, those are seed ticks.</p>
           <p>Here is the reassuring part: a larva has never fed before. A tick is not born carrying Lyme — it acquires the bacterium <em>Borrelia burgdorferi</em> only by biting an already-infected animal, usually a white-footed mouse. Because a seed tick is taking its very first blood meal, it is almost always Lyme-free. Seed tick bites can still itch and, in large numbers, irritate the skin, but the disease risk is low compared with the next stage.</p>
@@ -173,6 +176,7 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
             </div>
           </aside>
 
+          <RelatedLinks path="/blog/baby-ticks-nymphs-seed-ticks-ontario" />
           <h2>How to Identify a Baby Tick (No Photo Needed)</h2>
           <p>Because good close-up photos are hard to take of something this small, use these physical features to identify a baby tick:</p>
           <ul>

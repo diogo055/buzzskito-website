@@ -13,6 +13,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-mouse-trap-canada'
 const DATE = '2026-07-16'
@@ -179,6 +181,7 @@ export default function BestMouseTrapCanadaPage() {
           <p>The Victor M325 wood snap trap is the best mouse trap for most Canadian households — the 1899-vintage design is still the benchmark that electronic and &ldquo;smart&rdquo; traps get measured against, and no other option matches its cost per catch. That answer comes with a structure: snap traps win on price and scale, electronic traps win on squeamishness, catch-and-release wins only on ethics (and only when used correctly), and glue boards lose on every axis that matters.</p>
           <p>The reason a clear winner exists is arithmetic. Effective mouse control means deploying <em>many</em> traps at once — 6 to 12 for a typical kitchen problem — because a house mouse population compounds fast: a single female can produce 5–10 litters per year, with 5–6 pups per litter that are themselves breeding within 6–8 weeks. At snap-trap pricing you can afford a proper trap line on day one. At electronic-trap pricing, most people buy one unit, place it wrong, and conclude that &ldquo;traps don&rsquo;t work.&rdquo; Before buying twelve of anything, confirm the pest: <Link href="/blog/what-does-mouse-poop-look-like-canada" className="text-brand-700 underline">reading the droppings</Link> tells you whether you are dealing with mice, rats or bats, and a rat problem needs entirely different traps.</p>
 
+          <NextUp path="/blog/best-mouse-trap-canada" />
           <h2>Snap vs Electronic vs Catch-and-Release vs Glue: How Do They Compare?</h2>
           <p>Here is how the four trap categories stack up for Canadian homes. Note what is <em>not</em> in this table: poison. Rodenticides are a last resort in Canada for legal and practical reasons we cover below.</p>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
@@ -247,6 +250,7 @@ export default function BestMouseTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="humane mouse trap catch and release">Check Motel Mouse on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/best-mouse-trap-canada" />
           <h2>Should You Use Glue Traps?</h2>
           <p>No — and this is the one category where we will be blunt. Glue boards catch mice by adhesive, and death typically comes from hours or days of stress, dehydration, or self-injury as the animal struggles. Humane Canada and the BC SPCA both oppose consumer glue-trap use, several Canadian municipalities discourage them in public guidance, and England and Wales banned public use outright in 2022. Glue boards also routinely catch non-target animals — songbirds, snakes, even bats.</p>
           <p>The practical case against them is just as strong as the ethical one: they are single-use, they fail in dusty or cold locations (garage floors in a Canadian winter kill the adhesive), and a mouse that escapes one becomes intensely trap-shy. Every job a glue board can do, a snap trap does faster, cheaper per catch, and without the suffering.</p>

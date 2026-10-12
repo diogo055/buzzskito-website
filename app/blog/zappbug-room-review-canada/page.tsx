@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'zappbug-room-review-canada'
 const DATE = '2026-07-21'
@@ -220,6 +222,7 @@ export default function ZappBugRoomReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater">PackTite Closet →</BuyLink>
           </div>
 
+          <NextUp path="/blog/zappbug-room-review-canada" />
           <h2>How Heat Kills Bed Bugs &mdash; and Why Eggs Are the Point</h2>
           <p>Heat is the reason serious DIY bed-bug plans revolve around enclosures like this one. Bed bugs die when their core temperature is held above roughly 48&ndash;50&deg;C for a sustained period, and &mdash; crucially &mdash; their eggs die at the same sustained heat. That egg-killing property is what sets heat apart from almost everything else in the toolkit. Eggs are the stage that survives casual sprays, quick wipe-downs, and impatient effort; a treatment that kills adults and nymphs but leaves viable eggs behind simply resets the clock, and two weeks later you are back where you started. Heat, applied correctly, closes that loophole.</p>
           <p>The critical phrase is &ldquo;applied correctly.&rdquo; The bugs do not die because the air inside the enclosure got hot; they die because <em>they</em> got hot, wherever they are hiding, and stayed hot long enough. A bed bug buried in the folded centre of a thick comforter is shielded by the fabric around it, and that cold pocket is the last place to reach lethal temperature. The whole art of using the Room well is making sure the coldest, most-buried point of your load crosses into the kill range and holds there &mdash; which is exactly why loading technique and a thermometer are not afterthoughts.</p>
@@ -238,6 +241,7 @@ export default function ZappBugRoomReviewCanadaPage() {
           <p>This is the single most important thing in the whole review, and it is the step people skip. The temperature of the air inside the enclosure tells you almost nothing about whether the middle of a packed duffel bag reached a lethal reading. Air heats fast; dense fabric cores heat slowly. If you treat by watching the ambient temperature, you are treating blind, and blind heat treatments are precisely where survivors and re-infestations come from.</p>
           <p>The fix is cheap and simple: a remote probe thermometer. Place the sensor at the coldest, most-buried point of your load &mdash; the centre of the thickest item &mdash; run the thin lead out through the enclosure, and watch the buried reading climb into and hold in the kill range for a sustained period before you call the cycle done. You are not watching the machine; you are watching the worst-case spot inside the load. Treat that reading as the truth and everything else as noise. A probe turns the Room from &ldquo;a hot box I hope worked&rdquo; into &ldquo;a treatment I can verify,&rdquo; and that difference is the whole game.</p>
 
+          <RelatedLinks path="/blog/zappbug-room-review-canada" />
           <h2>Cycle Times: Plan for a Patient Half-Day</h2>
           <p>Expect several hours per load, and understand where that time goes. First the enclosure has to come up to temperature, which is the fast part. Then &mdash; the part everyone underestimates &mdash; the heat has to penetrate to the cold core of the pile and hold there long enough to be lethal, which is the slow part. A loose load of light summer clothing heats through relatively quickly. A tightly packed load with books, shoes, or thick winter bedding at the centre can take dramatically longer, because those dense items insulate their own middles against the very heat you are trying to drive in.</p>
           <p>Rushing the cycle is the most common way a heat treatment fails. The temptation to call it done when the air reads hot, or to open up early because &ldquo;it&rsquo;s been ages,&rdquo; is exactly how a buried survivor lives to re-seed the room. Let the buried probe reading &mdash; not the clock, not the ambient temperature, and not your patience &mdash; decide when the cycle is finished. If you are treating a whole room across several loads, block out the better part of a day and accept that the process rewards patience and punishes shortcuts.</p>

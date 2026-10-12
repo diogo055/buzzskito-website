@@ -11,6 +11,7 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 // The page's own address. It was renamed from advion-cockroach-gel-bait-canada on Sep 3, 2026
 // (next.config.mjs redirects the old address here). Until Oct 11 this still held the old name,
@@ -267,6 +268,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
             }
           />
 
+          <NextUp path="/blog/advion-cockroach-gel-bait" />
           <h2>How to Run the Legal Playbook (IGR-Free, Eyes Open)</h2>
           <p>Because the consumer tier lacks the growth-regulator leg professionals lean on, your program has to compensate with density, hygiene, and time. The honest expectations, step by step:</p>
           <ul>

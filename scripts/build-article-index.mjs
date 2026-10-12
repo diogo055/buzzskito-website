@@ -24,7 +24,7 @@ for (const m of constants.matchAll(/slug:\s*(['"])([^'"]+)\1\s*,\s*title:\s*(['"
 
 const CLUSTERS = [
   ['bed-bugs', /bed-bug|punaises|zappbug|packtite|thermalstrike|cimexa|crossfire|encasement|dupray|mcculloch|vapamore|ecoraider|harris-bed|knock-down|konk|sleep-tight|steamer-vs-heater/],
-  ['ticks', /tick|lyme|alpha-gal/],
+  ['ticks', /(^|-)ticks?(-|$)|lyme|alpha-gal/], // whole word: "stickers" is not a tick
   ['mice', /(^|-)(mice|mouse|rodent|rats?|voles?)(-|$)|goodnature|squirrel/],
   ['ants', /(^|-)ants?(-|$)|termite/],
   ['cockroaches', /roach/],
@@ -50,6 +50,9 @@ const firstImage = (src) => {
   const m = src.match(/<Figure[\s\S]{0,80}?src="(\/[^"]+\.(?:png|jpe?g|webp|svg))"/) || src.match(/<Image[\s\S]{0,80}?src="(\/[^"]+\.(?:png|jpe?g|webp))"/)
   return m && existsSync(join(ROOT, 'public', m[1].slice(1))) ? m[1] : null
 }
+const ENT = { amp: '&', rsquo: '’', lsquo: '‘', rdquo: '”', ldquo: '“', mdash: '—', ndash: '–', nbsp: ' ', quot: '"', apos: "'", hellip: '…', deg: '°', eacute: 'é', times: '×', middot: '·', rarr: '→' }
+// "Yard &amp; Family" -> "Yard & Family": these strings are printed as text, not as HTML
+const decode = (s) => String(s || '').replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n))).replace(/&([a-z]+);/gi, (m, n) => (n.toLowerCase() in ENT ? ENT[n.toLowerCase()] : m))
 const clip = (s, n) => { const t = String(s || '').replace(/\s+/g, ' ').trim(); if (t.length <= n) return t; const cut = t.slice(0, n); return `${cut.slice(0, cut.lastIndexOf(' '))}…` }
 
 const heroes = existsSync(join(ROOT, 'lib', 'us-guide-heroes.json')) ? JSON.parse(readFileSync(join(ROOT, 'lib', 'us-guide-heroes.json'), 'utf8')) : {}
@@ -75,7 +78,9 @@ for (const section of ['blog', 'learn']) {
     const metaDesc = (src.match(/description:\s*\n?\s*(['"`])((?:\\.|(?!\1).)*)\1/) || [])[2] || ''
     const hook = g ? g.excerpt : r.hook || metaDesc.replace(/\\(['"`])/g, '$1')
     if (!title) continue
-    out.push({ path, title: clip(title, 90), hook: clip(hook, 120), cluster: g ? g.cluster : clusterOf(d.name), image: (heroes[path] && heroes[path].src) || (g ? null : firstImage(src)) })
+    const fullTitle = decode(title)
+    // `title` is clipped for the "Keep reading" cards; `full` is the whole title, for the in-content "Next" headline
+    out.push({ path, title: clip(fullTitle, 90), full: fullTitle.replace(/\s+/g, ' ').trim(), hook: clip(decode(hook), 120), cluster: g ? g.cluster : clusterOf(d.name), image: (heroes[path] && heroes[path].src) || (g ? null : firstImage(src)) })
   }
 }
 out.sort((a, b) => a.path.localeCompare(b.path))

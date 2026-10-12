@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'raccoon-proof-chimney-cap-canada'
 const DATE = '2026-08-22'
@@ -243,6 +245,7 @@ export default function RaccoonProofChimneyCapCanadaPage() {
           <p>A raccoon-proof chimney cap is a <strong>stainless steel cap with a welded animal screen that is mechanically fastened to the flue</strong> &mdash; bolted through, or held by a band clamp tightened down hard. That is the whole specification, and the important half of it is the fastening. Raccoons are not rodents and they do not gnaw their way in; they are strong, dexterous, patient animals with hands, and the way they defeat a chimney cap is by getting a paw under an edge and levering. A cap that sits on friction, or is held by a couple of stamped tabs, or has rusted at the welds, comes off. A cap that is bolted to something does not.</p>
           <p>This is one of the very few raccoon problems with a genuine hardware answer. Everything else in urban wildlife control is a negotiation with an animal that habituates to lights, sound, and smell within weeks. A chimney is different: it is a hole, and you can close it. Once the cap is on and fastened, the den site is gone permanently and it does not matter whether this particular raccoon is smarter than the last one.</p>
 
+          <NextUp path="/blog/raccoon-proof-chimney-cap-canada" />
           <h2>Why Chimneys, and Why October Through March</h2>
           <p>A masonry chimney is an unusually good imitation of a hollow tree, which is the denning site raccoons evolved to use. It is vertical, dry, dark, sheltered from wind, warmer than the outside air because it runs through a heated house, and completely out of reach of coyotes and dogs. At the bottom of an open fireplace flue sits the <strong>smoke shelf</strong> &mdash; the small flat ledge just above the damper &mdash; and that shelf is the most common raccoon natal den in urban Ontario. A raccoon climbs brick without effort, and almost nobody looks at their own chimney top.</p>
           <p>The seasonality follows the biology. Autumn is when raccoons shop for winter denning sites, so chimney occupancy climbs from October onward. Ontario litters arrive from roughly March through May, and kits stay in the den, unable to climb, for something like eight to twelve weeks. That gives you two very different problems wearing the same costume: an autumn or winter raccoon is usually a single adult that can be evicted in a few days, while a spring raccoon is a family and the cap has to wait. Getting that distinction right is the difference between a fixed chimney and a wildlife tragedy sealed inside your masonry.</p>
@@ -263,6 +266,7 @@ export default function RaccoonProofChimneyCapCanadaPage() {
           <p>Ontario is a hard environment for sheet metal on a roof. Between freeze-thaw cycling, winter salt in the air, and acidic condensate coming up the flue, a galvanized cap loses its zinc coating and starts rusting at the welds within a handful of seasons. The screen thins, a corner lifts, and one autumn a raccoon finds it. When someone says a chimney cap &ldquo;did not work&rdquo;, this is usually the story &mdash; not a raccoon defeating steel, but a raccoon finding steel that had already failed.</p>
           <p>Type 304 stainless is the sensible standard here, and reputable chimney brands warrant it for a long time precisely because it survives. Copper is the premium option and the right call on a heritage house where appearance matters. The premium over galvanized is modest and you pay it once. Weigh it against the alternative &mdash; a second eviction, a second cap, and possibly a damper and insulation to repair &mdash; and the cheap cap stops looking cheap.</p>
 
+          <RelatedLinks path="/blog/raccoon-proof-chimney-cap-canada" />
           <h2>The Sequence: Evict First, Cap Second</h2>
           <p>Order of operations is the part that goes wrong, so here it is plainly.</p>
           <ol>

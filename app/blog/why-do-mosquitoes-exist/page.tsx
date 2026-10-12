@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'why-do-mosquitoes-exist'
 const DATE = '2026-07-15'
@@ -140,6 +142,7 @@ export default function WhyDoMosquitoesExistPage() {
           <p>Mosquitoes exist for the same reason ants, beetles, and moths exist: evolution found a working design and ran with it. The family Culicidae is around 100 million years old, meaning mosquitoes were buzzing around dinosaurs long before humans arrived. They did not evolve to bother us — we simply became one more warm-blooded host among many.</p>
           <p>Their success comes from a clever two-part life cycle. The larvae live in still water and filter-feed on algae, bacteria, and organic debris; the adults fly, mate, and drink flower nectar. Because standing water and flowers are both abundant almost everywhere on Earth, mosquitoes have colonised every continent except Antarctica. Blood-feeding by females is a later refinement layered on top: it supplies the concentrated protein needed to produce a batch of eggs. In other words, biting is a reproductive strategy, not the reason mosquitoes exist.</p>
 
+          <NextUp path="/blog/why-do-mosquitoes-exist" />
           <h2>Why did mosquitoes evolve to drink blood?</h2>
           <p>Blood is not food in the way nectar is — it is an ingredient. A female mosquito needs a burst of protein and iron to build eggs, and blood is the richest, fastest source available. So she splits her diet: sugar from flowers keeps her flying day to day, and an occasional blood meal funds each new clutch of eggs. A single blood meal can support dozens to a few hundred eggs, which is why one well-fed female can seed a surprising number of larvae.</p>
           <p>This is also why blood-feeding evolved only in females and only in some lineages. Males never developed the piercing mouthparts because they never need the protein — they simply mate and feed on nectar. From an evolutionary standpoint, biting is an efficient shortcut to reproduction, which is exactly why natural selection kept it. It is unfortunate for us that human blood happens to suit many species, but nothing about the trait was aimed at people.</p>
@@ -174,6 +177,7 @@ export default function WhyDoMosquitoesExistPage() {
           <p>Yes — and this surprises most people. Nectar, not blood, is the primary fuel for adult mosquitoes. Both males and females visit flowers to drink sugar, and as they move between blooms they carry pollen with them. The clearest documented case is the blunt-leaved bog orchid, <em>Platanthera obtusata</em>, which relies heavily on mosquitoes for pollination in northern habitats. Mosquitoes are best described as minor, opportunistic pollinators: real, but nowhere near the importance of bees, hoverflies, moths, or butterflies.</p>
           <p>One persistent myth deserves correction. You may have read that mosquitoes pollinate cocoa and therefore &ldquo;give us chocolate.&rdquo; They do not. Cacao is pollinated by tiny biting midges in the family Ceratopogonidae — mainly the genus <em>Forcipomyia</em> — which are a completely different insect that people confuse with mosquitoes because both are small biting flies. Eliminating mosquitoes would not endanger the world&rsquo;s chocolate supply.</p>
 
+          <RelatedLinks path="/blog/why-do-mosquitoes-exist" />
           <h2>What would happen if mosquitoes went extinct?</h2>
           <p>This is the question that made headlines when the journal <em>Nature</em> ran a 2010 feature surveying ecologists on a mosquito-free world. The rough consensus: removing mosquitoes would cause some localized disruption — predators and pollinators that use them would need to adjust, and Arctic food webs would feel it most — but other insects would likely expand to fill the vacated niches, and ecosystems would broadly recover. No scientist identified an ecosystem that would truly collapse.</p>
           <p>There is an important distinction buried in the debate. &ldquo;Getting rid of mosquitoes&rdquo; usually means eliminating the roughly 100 species that bite humans and spread disease — not all 3,500-plus species. Many researchers argued that wiping out just those vector species would deliver a massive public-health benefit for a modest, absorbable ecological cost. A minority urged caution, noting that removing any abundant organism can trigger unpredictable knock-on effects. The honest answer is that the world would probably adapt — but no one can promise zero consequences.</p>

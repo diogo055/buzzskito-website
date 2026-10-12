@@ -8,6 +8,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-mosquito-trap'
 const DATE = '2026-07-12'
@@ -271,6 +273,7 @@ export default function BestMosquitoTrapCanadaPage() {
           <p>The market leader is the Mosquito Magnet line (Patriot Plus, Independence, Executive). Independent and CDC-referenced testing supports 70&ndash;90% population reduction within roughly a 1-acre radius after 6&ndash;8 weeks of continuous running. The catch: the device is $399&ndash;$1,299, and you will spend another $400&ndash;$600 per season on propane tanks and Octenol or Lurex attractant cartridges. It is a genuine investment that pays off on large, chronic-problem properties. Read our full breakdown in the <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada guide</Link>, including model comparison and where to buy.</p>
           <p><strong>Best for:</strong> cottages, rural acreage, and lots bordering wetlands or standing water, where you are committed to running the trap 24/7 all season.</p>
 
+          <NextUp path="/blog/best-mosquito-trap" />
           <h2>Runner-Up: CO₂ / Octenol Lure Traps</h2>
           <p>A step down in price from a full Mosquito Magnet, CO₂/octenol lure traps like the Biogents BG-Mosquitaire and the Flowtron series use a CO₂ source (a small cylinder or a sugar-yeast bottle) plus an octenol lure to mimic a human host, then vacuum the incoming mosquitoes into a catch bag. They target host-seeking females far better than UV light does, at $200&ndash;$500 up front. Performance reviews are more consistent than for UV traps but still below a propane Mosquito Magnet. This is the sensible mid-tier if you want mosquito-specific catch without the top-end price and propane logistics.</p>
 
@@ -279,6 +282,7 @@ export default function BestMosquitoTrapCanadaPage() {
           <p>Adding an octenol cartridge (DynaTrap&rsquo;s Atrakta) nudges the mosquito catch up a little, but never closes the gap with a CO₂ trap. At $30&ndash;$329 these are cheap and satisfying to empty, and fine as a supplemental flying-insect catcher on a cottage deck — just do not expect them to solve a mosquito problem. Our honest <Link href="/blog/dynatrap-canada-review">DynaTrap Canada review</Link> and our <Link href="/blog/bug-zappers-canada-do-they-work">bug zapper breakdown</Link> go deeper, with model-by-model pricing.</p>
           <p>The newest gadget in this tier is not a trap at all: the <Link href="/blog/laser-mosquito-killer-photon-matrix-review">Photon Matrix laser</Link> detects individual mosquitoes and shoots them down instead of luring them in. It is genuinely clever, but it guards one small zone in front of the unit rather than a yard, so judge it against a Thermacell zone, not against a propane trap.</p>
 
+          <RelatedLinks path="/blog/best-mosquito-trap" />
           <h2>Indoor Mosquito Traps</h2>
           <p>For inside the house, look at small UV-plus-fan-plus-glue traps such as the Katchy Indoor Insect Trap or DynaTrap&rsquo;s indoor units ($40&ndash;$70). They sit quietly by a lamp or window and stick flying insects to a replaceable glue card. Be realistic: they shine against fungus gnats and fruit flies and will grab the occasional stray mosquito, but they will not clear a bedroom full of mosquitoes. The bigger indoor win is prevention — repair window screens, empty water from houseplant saucers, and reduce the outdoor population so fewer mosquitoes reach your door.</p>
 

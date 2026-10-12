@@ -9,6 +9,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'can-ticks-fly-jump-swim'
 const DATE = '2026-07-12'
@@ -153,6 +155,7 @@ export default function CanTicksFlyJumpSwimPage() {
           <p>Ticks have exactly one way of getting onto you, and it is not dramatic. A tick climbs to the top of a grass blade, a weed, or a low shrub, anchors itself with its back legs, and stretches its front legs out into the air. This posture is called <strong>questing</strong>. The tick&rsquo;s front legs carry sensors that detect body heat, the carbon dioxide in your breath, vibration, and shadow. When a warm body brushes the plant, the tick grabs onto fur or clothing and climbs aboard. That is the entire mechanism — no flight, no leap, no swim, no ambush from above.</p>
           <p>Because questing depends on something touching the plant, ticks concentrate exactly where people and pets walk: the edge of the lawn, the margins of trails, unmowed grass, and the leaf-littered transition zone where a yard meets woods or a ravine. In Ontario, the tick that matters most is the <strong>blacklegged (deer) tick</strong>, which can carry Lyme disease; the <strong>American dog tick</strong> is also common in grassy areas.</p>
 
+          <NextUp path="/blog/can-ticks-fly-jump-swim" />
           <h2>Can Ticks Fly? No — They Have No Wings</h2>
           <p>No tick, at any life stage, has wings. Larvae hatch with six legs, and nymphs and adults have eight — but never wings. If a biting insect flew at you near dusk, it was a mosquito, a black fly, or a biting midge. Ticks travel only by hitching a ride, which is genuinely good news: it means keeping your grass short and clearing brush along the edges dramatically reduces your contact with them.</p>
 
@@ -172,6 +175,7 @@ export default function CanTicksFlyJumpSwimPage() {
           <p>Ticks have no swimming appendages and cannot propel themselves through water, so a tick never swims toward a host. You pick ticks up on land, from vegetation — not from a lake, pool, or puddle. But here is the part that surprises people: a tick is remarkably hard to drown. Ticks breathe extremely slowly through tiny openings on their bodies called <strong>spiracles</strong>, and they can seal them and go dormant. A blacklegged tick can survive full submersion for <strong>two to three days</strong>, and some have been kept alive underwater even longer in the lab.</p>
           <p>That has a practical consequence: <strong>a quick rinse, a swim, or a cold wash cycle will not reliably kill a tick.</strong> If you find a tick after being at the lake or in the pool, do not assume the water killed it — a survivor can still bite and transmit disease. Remove any attached tick promptly and treat it as fully live.</p>
 
+          <RelatedLinks path="/blog/can-ticks-fly-jump-swim" />
           <h2>Can Ticks Drown in the Wash? Dry Heat Is What Kills Them</h2>
           <p>Because ticks resist water so well, washing clothes is not a dependable way to kill them. The reliable step is <strong>heat and dryness</strong>. Public-health guidance is consistent on this: tumble-dry clothing on <strong>high heat for at least 10 minutes</strong> to kill ticks that may be hiding in the fabric. If clothes are damp or dirty and you want to wash first, use hot water (over 54°C / 130°F) — but the dryer on high is the step you can count on. Ticks die from desiccation far faster than from a soak.</p>
 

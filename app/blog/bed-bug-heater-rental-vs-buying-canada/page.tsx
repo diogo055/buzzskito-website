@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-heater-rental-vs-buying-canada'
 const DATE = '2026-08-22'
@@ -188,6 +190,7 @@ export default function BedBugHeaterRentalVsBuyingCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="canister steam cleaner bed bugs">Steamer &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/bed-bug-heater-rental-vs-buying-canada" />
           <h2>The arithmetic: it is decided by cycle count, not by day rate</h2>
           <p>Here is the part that resolves the objection. People price a rental against a purchase as though the job were a single event &mdash; one weekend with the machine, problem gone. Bed bug biology does not permit that. Eggs hatch roughly six to ten days after they are laid, and heat leaves no residue whatsoever, so the items you clear today are re-seeded by anything that survived elsewhere in the room. A real programme therefore looks like a heavy first week in which every soft item in the affected rooms is processed in batches, followed by weekly loads of that week&rsquo;s clothing and bedding, continuing until interceptor traps under the bed legs stay empty for several consecutive weeks in a row.</p>
           <p>Run that against a rental. A day rate charged four, six or eight times over a month has quietly bought the machine, and you never owned it. That is the whole calculation, and it is why the rental question mostly dissolves on inspection rather than needing a spreadsheet. The corollary is worth stating plainly too: if your situation genuinely is a single cycle &mdash; one suitcase, home from a hotel, nothing anywhere in the bedroom &mdash; then you did not need a rental either, because the cheapest luggage-class chamber covers it outright and stores in a closet for the next trip.</p>
@@ -253,6 +256,7 @@ export default function BedBugHeaterRentalVsBuyingCanadaPage() {
           <p>That is why the cheapest item in the kit is the one we would never skip: a high-temperature probe thermometer, pushed into the core of the densest item, with the readout sitting outside the chamber where you can watch it. It changes the way you run cycles. You stop timing from when the machine switched on and start timing from when the <em>core</em> crossed the threshold, which is usually much later than you expected and is the single most common reason a cycle quietly fails. Our <Link href="/blog/bed-bug-heat-treatment-diy-canada">DIY bed bug heat treatment guide</Link> covers the temperatures and dwell times in detail; this is the purchase that lets you actually apply them.</p>
           <p>The second specification worth real attention is packing, which is free and routinely ignored. Heat has to circulate. A chamber crammed solid heats its outer layer and creates exactly the cold core you are trying to eliminate, so a half-full cycle that works beats a full cycle that does not. Practically, that means the machine you buy should be a size up from what today&rsquo;s problem needs &mdash; you will be loading it loosely, every week, for longer than you think.</p>
 
+          <RelatedLinks path="/blog/bed-bug-heater-rental-vs-buying-canada" />
           <h2>The Canadian electrical trap nobody mentions</h2>
           <p>Two things bite Canadian buyers, and neither appears in the product description. The first is voltage. Marketplace listings surface US-market equipment freely, and a 240 V unit is useless at a bedroom outlet &mdash; Canadian residential receptacles are 120 V, and a dedicated 240 V circuit means a licensed electrician and a bill that never appeared in your comparison. If a listing quotes a plug type or a voltage you do not recognise, that is the whole purchase decision right there.</p>
           <p>The second is current, and it is the sneakier one. A heater drawing close to 15 A is running at the edge of a standard Canadian household circuit, and in the older GTA housing stock we work around every day &mdash; the 1960s Mississauga bungalows, the wartime Etobicoke semis, the converted basement units with a subpanel &mdash; a single bedroom circuit routinely serves the hallway and the room next door as well. Add a television, a phone charger and a space heater already running, and the breaker trips forty minutes into a ninety-minute cycle. A cycle interrupted before the core reached temperature killed nothing at all, and you will not know unless the probe was in there telling you. Before the first run, work out which outlets share a circuit and unplug everything else on it.</p>

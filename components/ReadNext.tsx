@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import data from '@/lib/article-index.json'
+import { inContentPicks, storedCards } from '@/lib/recirculation'
 
 /**
  * "Keep reading": three cards from the SAME topic cluster, shown at the end of an article in
@@ -33,6 +34,11 @@ const LABEL: Record<string, string> = {
 const hash = (s: string) => { let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0; return h }
 
 export function pickReadNext(path: string, count = 3): Article[] {
+  // The three cards are decided once and stored (lib/recirculation.json, written by
+  // npm run recirculation:backfill), so they do not reshuffle across a whole topic cluster each
+  // time an article is added. What follows is only the fallback for a page with nothing stored.
+  const stored = storedCards(path)
+  if (stored.length === count) return stored
   const self = ARTICLES.find((a) => a.path === path)
   const cluster = self ? self.cluster : 'general'
   const others = (c: string) => ARTICLES.filter((a) => a.cluster === c && a.path !== path)
@@ -46,7 +52,16 @@ export function pickReadNext(path: string, count = 3): Article[] {
   const start = hash(path) % rest.length
   const picked = [...pinned]
   for (let i = 0; picked.length < count && i < rest.length; i++) picked.push(rest[(start + i * Math.max(1, Math.floor(rest.length / count))) % rest.length])
-  return picked
+  // Never repeat an article the page already offers in its in-content "Next" or "Related" units
+  // (components/NextUp.tsx, RelatedLinks.tsx): swap such a card for the next one in the rotation.
+  const taken = inContentPicks(path)
+  if (!picked.some((a) => taken.has(a.path))) return picked
+  const kept = picked.filter((a) => !taken.has(a.path))
+  for (let i = 0; kept.length < count && i < rest.length; i++) {
+    const c = rest[(start + i) % rest.length]
+    if (!taken.has(c.path) && !kept.includes(c)) kept.push(c)
+  }
+  return kept.length === count ? kept : picked
 }
 
 export default function ReadNext({ path, standalone = false }: { path: string; standalone?: boolean }) {
@@ -58,7 +73,7 @@ export default function ReadNext({ path, standalone = false }: { path: string; s
       <ul className="grid gap-4 sm:grid-cols-3">
         {cards.map((a) => (
           <li key={a.path} className="flex">
-            <Link href={a.path} className="group flex w-full flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-shadow hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-600">
+            <Link href={a.path} data-recirc="keep_reading" data-recirc-kind="card" data-recirc-target={a.path.split('/').pop()} className="group flex w-full flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-shadow hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-600">
               {a.image ? (
                 a.image.endsWith('.svg') ? (
                   // eslint-disable-next-line @next/next/no-img-element

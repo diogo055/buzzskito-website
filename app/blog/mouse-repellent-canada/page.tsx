@@ -11,6 +11,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mouse-repellent-canada'
 const DATE = '2026-07-30'
@@ -338,6 +340,7 @@ export default function MouseRepellentCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="rodent proof garage door seal">Garage door seal &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/mouse-repellent-canada" />
           <h2>Ultrasonic Repellers: The Clearest No in Pest Control</h2>
           <p>Of everything on this page, ultrasonic devices are the easiest to dismiss. The physics alone does most of the work: ultrasound is highly directional, loses energy quickly with distance, and is absorbed or reflected by ordinary furnishings. A plug-in in a hallway does not penetrate a stud bay, an insulated attic floor, or a kitchen cabinet run &mdash; which is exactly where mice are. Then add habituation, and even the animals within earshot stop reacting.</p>
           <p>The enforcement record here is American, and it is worth stating precisely rather than gesturing at &ldquo;regulators&rdquo; generally. In May 2001 the US Federal Trade Commission sent warning letters to more than 60 manufacturers and retailers of ultrasonic pest-control devices, and in 2002 it charged Lentek International over unsubstantiated efficacy claims for its pest-repelling products. Canada has no equivalent enforcement history &mdash; but that is a gap in oversight rather than a difference in the hardware, because these devices contain no pesticide, fall outside the Pest Control Products Act, and so have their efficacy claims reviewed by nobody here before sale. We go through the specific claims, the testing history and the reason the category persists in <Link href="/blog/ultrasonic-pest-repellers-do-they-work">our ultrasonic pest repeller review</Link>. If you own one, do not throw it out expecting a refund fight to be worth it &mdash; just do not let it stand in for the sealing work.</p>
@@ -356,6 +359,7 @@ export default function MouseRepellentCanadaPage() {
           <p>Rodent products are one of the categories where American advice travels badly. Any product sold in Canada that makes a pest-control claim through an active ingredient falls under the Pest Control Products Act and must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency unless it qualifies for a specific Canadian exemption, and a registered product carries a PCP registration number on its Canadian label. The American &ldquo;minimum risk&rdquo; exemption that lets many US essential-oil repellents skip federal registration is a United States rule; it says nothing whatsoever about whether a product is legal to sell as a pesticide here.</p>
           <p>The practical checks before you order anything with a repellency or kill claim: is there a Canadian registration number on the label, and is the listing sold and shipped from within Canada? A marketplace seller shipping a US-labelled product to a Canadian address is not evidence of anything except that shipping is possible. The same logic applies with more force to rodenticides, where Canada&rsquo;s consumer rules are meaningfully stricter than the American ones &mdash; we cover exactly which actives homeowners may legally buy here in <Link href="/blog/rat-poison-canada-what-is-legal">what rat poison is legal in Canada</Link>.</p>
 
+          <RelatedLinks path="/blog/mouse-repellent-canada" />
           <h2>What to Do Instead, in Order</h2>
           <p>The replacement plan is three items long and none of them is a repellent.</p>
           <p><strong>1. Close the openings.</strong> A mouse needs about 6 mm &mdash; the width of a pencil &mdash; because the skull is the only rigid part of the animal. Walk the perimeter with a torch and look at the boring things: the gap under the garage door, the sill plate seam, brick weep holes, dryer and bathroom vents with broken flaps, the penetrations where gas lines, cable and air-conditioning linesets enter, the space where a deck ledger meets the wall, and the corners of soffits. Pack coarse stainless steel wool or copper mesh tight into small gaps and cap with exterior sealant; screw quarter-inch galvanized hardware cloth over anything larger, and screen vents rather than sealing them. Never rely on expanding foam alone &mdash; mice chew cured foam easily, so foam is a cosmetic cap over a metal core, not a barrier. The room-by-room hardware list is in our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link>.</p>

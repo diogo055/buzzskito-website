@@ -8,6 +8,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-coils-canada'
 const DATE = '2026-07-12'
@@ -281,6 +283,7 @@ export default function MosquitoCoilsCanadaPage() {
           </div>
           <p className="not-prose text-sm text-gray-600 mb-6">Rule of thumb: if you want the most bites prevented per coil, buy a <strong>pyrethroid</strong> coil (PIC or OFF!). If you dislike the harsher insecticidal smoke and accept weaker, shorter-range protection, a <strong>citronella</strong> coil is fine on a small, sheltered patio. <BuyLink tag={AMZ_TAG} search="pic mosquito coils">Check PIC coil price →</BuyLink></p>
 
+          <NextUp path="/blog/mosquito-coils-canada" />
           <h2>How Mosquito Coils Actually Work</h2>
           <p>A mosquito coil is a tightly wound spiral of a combustible paste — typically sawdust or dried plant material — blended with an active ingredient. You light the outer tip, blow out the flame, and it smoulders slowly inward like an incense stick, burning for five to eight hours. As it burns, it heats and vaporizes the active ingredient, carrying it into the air on a thin ribbon of smoke.</p>
           <p>In most insecticidal coils sold in Canada that active ingredient is a <strong>pyrethroid</strong> — usually d-allethrin (the classic PIC coil) or metofluthrin (used in some OFF! coils). Pyrethroids are synthetic cousins of pyrethrin, the natural insecticide in chrysanthemum flowers. In the vapour phase they act as a <em>spatial repellent</em>: mosquitoes flying into the treated air are irritated and driven off, and a smaller number are knocked down outright. Citronella coils swap the pyrethroid for citronella essential oil, which masks the human scent cues mosquitoes home in on — a real but weaker and shorter-range effect.</p>
@@ -305,6 +308,7 @@ export default function MosquitoCoilsCanadaPage() {
           <p>Position matters more than most people think. Put the coil <em>upwind</em> of where you are sitting so the smoke drifts across you, use two coils spaced a metre or two apart to bracket a group, and always seat it on the metal stand it ships with — never directly on a wooden deck, dry grass, or anything flammable.</p>
           <p>That flimsy tin stand in the pack is the part everyone loses first, usually somewhere in the shed over the winter, and burning a coil without one is how deck boards end up scorched. A proper coil holder — a metal box or a hanging burner with a lid — sits flat, catches the ash, keeps the ember off the surface underneath, and can be hung from a railing or a branch at a campsite. It is one of the cheapest things in this guide, and it outlasts a decade of coil packs. <BuyLink tag={AMZ_TAG} search="mosquito coil holder burner">Check coil holders on Amazon.ca →</BuyLink></p>
 
+          <RelatedLinks path="/blog/mosquito-coils-canada" />
           <h2>When a Mosquito Coil Is the Wrong Tool</h2>
           <ul>
             <li><strong>Whole-yard protection</strong> — a coil defends a chair-sized zone, not a property. For that you need <Link href="/mosquito-control">barrier spray</Link>.</li>

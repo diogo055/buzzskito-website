@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { NEW_BLOGS_2, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const POST = NEW_BLOGS_2[0]
 const UPDATED = '2026-10-08' // extended for US readers on this date; the publish date stays POST.date
@@ -186,6 +188,7 @@ export default function MosquitoRepellentPlantsPage() {
         <h3>10. Sage (<em>Salvia officinalis</em>)</h3>
         <p>Burning sage near outdoor fires and firepits creates aromatic smoke that mosquitoes actively avoid. As a living plant, sage provides modest ambient repellency around seating areas. Hardy in most of Southern Ontario with winter mulching.</p>
 
+        <NextUp path="/blog/mosquito-repellent-plants-ontario" />
         <h2>The Citronella Plant, Explained (Care, Perennial Question &amp; Myths)</h2>
         <p className="text-lg text-gray-600 not-prose border-l-4 border-brand-400 pl-5 py-2 my-6">
           <strong>Is citronella a perennial in Ontario?</strong> Only as a tender perennial. Both the &ldquo;mosquito plant&rdquo; (citronella geranium, <em>Pelargonium citrosum</em>) and true citronella grass (<em>Cymbopogon nardus</em>) are frost-sensitive and will not survive a GTA winter outdoors — we sit in USDA Zone 6. In practice, Ontario gardeners grow citronella as an annual, or overwinter it indoors in a sunny window and move it back out after the mid-May frost date.
@@ -225,6 +228,7 @@ export default function MosquitoRepellentPlantsPage() {
         </ul>
         <p>The flip side of the question is worth knowing too, because a few common ornamentals quietly work against you: bromeliads, taro, cut bamboo, and any pot sitting in a drainage saucer hold the standing water mosquitoes actually breed in. We list the culprits in <Link href="/blog/what-flowers-attract-mosquitoes" className="text-brand-700 hover:underline">our Ontario garden guide to mosquito-friendly plants</Link>.</p>
 
+        <RelatedLinks path="/blog/mosquito-repellent-plants-ontario" />
         <h2>How to Maximize Effectiveness: The Layered Approach</h2>
         <p>For genuine mosquito reduction in your GTA backyard, plants work best as one layer in a multi-step strategy:</p>
         <ol>

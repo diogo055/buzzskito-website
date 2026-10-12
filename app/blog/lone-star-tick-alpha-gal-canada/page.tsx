@@ -7,6 +7,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'lone-star-tick-alpha-gal-canada'
 const DATE = '2026-07-16'
@@ -158,6 +160,7 @@ export default function LoneStarTickAlphaGalCanadaPage() {
             search="tick removal tool tweezers"
           />
 
+          <NextUp path="/blog/lone-star-tick-alpha-gal-canada" />
           <h2>Is the lone star tick in Canada?</h2>
           <p>The lone star tick is not established in Canada. Canada&rsquo;s national tick-surveillance platform eTick and the Public Health Agency of Canada (PHAC) log only a small number of &ldquo;adventive&rdquo; lone star ticks each year — individual ticks found well outside their normal range, most believed to have hitched a ride north on migratory birds rather than breeding here.</p>
           <p>That distinction matters. An <em>adventive</em> tick is a one-off arrival; an <em>established</em> tick has a self-sustaining local population, the way the blacklegged tick now does across much of southern Ontario. As of 2026, there is no confirmed established, reproducing lone star tick population anywhere in Canada. The species&rsquo; core range sits in the U.S. Southeast and south-central states, though it has been steadily expanding north and east for decades — the same climate-driven pattern that pushed blacklegged ticks into the GTA. That is why scientists keep watching, and why every verified Canadian find is logged. For the broader picture of which ticks live here, see <Link href="/blog/are-there-ticks-in-canada">are there ticks in Canada?</Link></p>
@@ -187,6 +190,7 @@ export default function LoneStarTickAlphaGalCanadaPage() {
           </table>
           <p>The takeaway: the tick behind the red meat allergy is the one Ontario is least likely to have, while the tick Ontario definitely has (blacklegged) carries a different risk — Lyme disease — that is well worth taking seriously.</p>
 
+          <RelatedLinks path="/blog/lone-star-tick-alpha-gal-canada" />
           <h2>What is alpha-gal syndrome?</h2>
           <p>Alpha-gal syndrome (AGS) is an allergic condition in which a person reacts to galactose-alpha-1,3-galactose, a sugar molecule found in most mammals but not in humans, apes, or Old World monkeys. It is sometimes called alpha-gal allergy or simply the &ldquo;red meat allergy.&rdquo;</p>
           <p>The unusual part is how it starts: rather than being born with it, people typically acquire alpha-gal syndrome after one or more tick bites — primarily lone star tick bites in the United States. The bite appears to prime the immune system to recognize alpha-gal, so that eating mammalian products later triggers an allergic response. Affected foods can include beef, pork, lamb, venison, and organ meats, and for some people dairy, gelatin (in candy, marshmallows, and some capsules), and certain medical products that contain mammalian ingredients. The condition is recognized by both the U.S. CDC and allergy specialists internationally, though awareness in Canada is still growing.</p>

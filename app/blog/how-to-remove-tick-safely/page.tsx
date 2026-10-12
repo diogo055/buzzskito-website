@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const POST = TICK_BLOGS.supporting[2]
 const UPDATED = POST.date
@@ -96,6 +98,7 @@ export default function RemoveTickPage() {
           cons={['Easy to misplace when you need it', 'Fine tips need careful handling on squirming pets']}
         />
 
+        <NextUp path="/blog/how-to-remove-tick-safely" />
         <h2>Step-by-Step Tick Removal</h2>
 
         <h3>Step 1: Get Fine-Tipped Tweezers</h3>
@@ -135,6 +138,7 @@ export default function RemoveTickPage() {
           </ul>
         </div>
 
+        <RelatedLinks path="/blog/how-to-remove-tick-safely" />
         <h2>What NOT to Do When Removing a Tick</h2>
         <div className="not-prose bg-red-50 border border-red-200 rounded-2xl p-6 my-6">
           <h3 className="font-bold text-red-900 mb-3">❌ Do NOT:</h3>

@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-centipedes-canada'
 const DATE = '2026-07-27'
@@ -332,6 +334,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="digital hygrometer indoor humidity monitor">Hygrometers →</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-centipedes-canada" />
           <h2>Identification: Is It Actually a House Centipede?</h2>
           <p>Almost every centipede a Canadian homeowner meets indoors is <em>Scutigera coleoptrata</em>, the house centipede. It is unmistakable once you know it: a flattened, yellowish-grey body about 25 to 35 mm long with three dark stripes running its length, fifteen pairs of extremely long, delicate, banded legs, and antennae and rear legs so long that the animal appears several times bigger than it is. It moves in fast, jerky bursts across walls and ceilings, freezes, then bolts again. If it startled you badly enough that you are now reading a website about it at midnight, it was almost certainly a house centipede.</p>
           <p>Three lookalikes get confused with it, and the distinction changes what you do:</p>
@@ -399,6 +402,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="door sweep silicone caulk gap sealant">Check door sweeps and sealant on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-centipedes-canada" />
           <h2>What Actually Kills a Centipede — and Why Chemical-First Fails</h2>
           <p>Let us be straightforward about the killing, because plenty of readers want the option.</p>
           <p><strong>A shoe, a vacuum, or a jar and a piece of card.</strong> For an individual centipede, this is the entire technology required. A vacuum with a hose is the least unpleasant version for the squeamish, and there is no reason to buy a product for a one-off encounter.</p>

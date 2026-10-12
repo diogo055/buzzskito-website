@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'picaridin-vs-deet'
 const DATE = '2026-05-01'
@@ -271,6 +273,7 @@ export default function PicaridinVsDeetPage() {
           </div>
           <p className="text-sm text-gray-600">Skin repellent keeps bites off you for a few hours &mdash; it won&rsquo;t clear your yard. For hands-off, whole-property coverage, layer in <Link href="/mosquito-control">professional barrier spray</Link>, re-applied on a schedule.</p>
 
+          <NextUp path="/blog/picaridin-vs-deet" />
           <h2>What Each Compound Actually Does</h2>
           <p><strong>DEET</strong> (N,N-Diethyl-meta-toluamide) was developed by the US military in 1946 and registered for civilian use in 1957. It works by interfering with mosquitoes&rsquo; olfactory receptors — they essentially can&rsquo;t smell you when DEET is on your skin. Eight decades of human use have produced extensive safety data; rare side effects include skin irritation in sensitive individuals.</p>
           <p>The questions readers ask next are almost always about safety — Health Canada&rsquo;s 30% adult and 10% child concentration caps, the cancer claims that circulate online, and whether it is acceptable in pregnancy. We work through each of those in <Link href="/blog/is-deet-safe">our DEET safety explainer</Link>.</p>
@@ -289,6 +292,7 @@ export default function PicaridinVsDeetPage() {
           </ul>
           <p>Picaridin doesn&rsquo;t damage any of these materials. For Ontario hikers with $200 sunglasses or a $400 rain jacket, that alone is reason enough to choose picaridin.</p>
 
+          <RelatedLinks path="/blog/picaridin-vs-deet" />
           <h2>The Smart Layered Strategy for Canadian Outdoor Activity</h2>
           <p>Skin repellent alone is rarely the complete answer. The best protection layers multiple tools that each address a different vector:</p>
           <ol>

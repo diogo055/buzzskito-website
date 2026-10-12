@@ -12,6 +12,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-fruit-fly-trap-canada'
 const DATE = '2026-07-21'
@@ -351,6 +353,7 @@ export default function BestFruitFlyTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="fruit fly sticky trap">Sticky ribbons →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-fruit-fly-trap-canada" />
           <h2 id="why-terro">Why the TERRO Apple Wins</h2>
           <p>Three things separate the TERRO from both DIY vinegar bowls and its store-shelf competitors. First, <strong>lure longevity</strong>: the formulation keeps releasing attractant at a useful rate for roughly 30 days, while a homemade ACV bowl peaks in the first day or two and then weakens as it evaporates and skins over. Second, <strong>the sealed apple housing</strong>: it cannot be tipped by a cat, an elbow, or a toddler, it hides the drowned flies (a real quality-of-life feature by week two), and it lets you put the trap directly on a food-prep counter without anyone at dinner asking what the bowl of floating insects is. Third, <strong>the two-pack format</strong> matches how fruit fly problems actually present — one zone at the fruit bowl, one at the sink — instead of pretending a single trap covers a kitchen.</p>
           <p>Two operating notes that prevent most bad reviews. The lure needs 24 to 48 hours after opening to build up scent and start catching seriously — people who declare it useless on day one simply have not waited. And the trap only catches adults: eggs already laid in your drain or produce keep hatching for another week or two no matter how good the trap is, which is why the realistic eradication window is two to three weeks, not two to three days.</p>
@@ -489,6 +492,7 @@ export default function BestFruitFlyTrapCanadaPage() {
           </div>
           <p>Two operating notes apply to all of them. First, <strong>the soap is not optional</strong> &mdash; without it, fruit flies stand on the surface film, feed, and fly off. Second, <strong>homemade traps are on a clock</strong>: they are strongest in the first 48 hours and fading by day four or five, so a DIY approach means refreshing every jar twice a week for the two to three weeks the lifecycle takes. That maintenance burden, not catch rate, is the honest argument for a sealed commercial lure &mdash; and the fair counter-argument is that if your problem is one weekend of flies over a bowl of plums, a jar of vinegar is genuinely all you need.</p>
 
+          <RelatedLinks path="/blog/best-fruit-fly-trap-canada" />
           <h2 id="white-vinegar-dish-soap">Does White Vinegar and Dish Soap Get Rid of Fruit Flies?</h2>
           <p>Partly. The dish soap does the important half of the job &mdash; it breaks surface tension so any fly that lands drowns rather than walking away. Plain white vinegar is the weakest lure in the vinegar family, because distilled acetic acid lacks the fruit esters and residual ethanol that make apple cider vinegar, wine, and beer smell like real fermentation to a fruit fly.</p>
           <p>So the answer splits in two. As a <em>killing</em> medium, white vinegar plus soap works exactly as well as any other liquid: what lands, sinks. As an <em>attractant</em>, it under-recruits, which is why people report a white-vinegar bowl sitting untouched next to a cloud of flies. Three upgrades, in order of effectiveness: add a splash of fruit juice or a piece of ripe banana to the vinegar; swap to apple cider vinegar outright; or use the last inch of an open bottle of red wine.</p>

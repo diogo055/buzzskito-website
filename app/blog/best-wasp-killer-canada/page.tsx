@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-wasp-killer-canada'
 const DATE = '2026-08-31'
@@ -231,6 +233,7 @@ export default function BestWaspKillerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellowjacket">RESCUE! WHY trap &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-wasp-killer-canada" />
           <h2>Foam vs Straight Stream: The Distance Rating Is the Product</h2>
           <p>The two can formats on Canadian shelves do different jobs &mdash; and reach does not follow the format line, so read the figure published for each can.</p>
           <p><strong>Foam is the better killer.</strong> It expands on contact, clings to a nest envelope instead of sheeting off, blankets the entrance hole so every returning forager crawls through treated material, and &mdash; the property nothing else in the aisle has &mdash; expands down enclosed passages. On a ground nest, that expansion carries product toward galleries a liquid stream can never reach; on an aerial nest, it turns the envelope into a treated surface rather than a wet one. The cost is usually reach: Wilson WaspOut and the Ortho Wasp B Gon MAX foam are both rated in the <strong>2 to 2.5 metre</strong> band, and the honest planning figure is the low end of whatever range the manufacturer publishes, because arcs droop and nerves shorten throws.</p>
@@ -247,6 +250,7 @@ export default function BestWaspKillerCanadaPage() {
           <p>What it cannot do is subtract a colony. A peak-season yellow jacket nest fields <strong>thousands of workers</strong> and rears replacements continuously; a trap catching fifty a day is skimming interest off a population that compounds faster than the trap collects. The arithmetic only flips in <strong>spring</strong>, when every wasp on the wing is a mated queen shopping for a nest site &mdash; one April catch genuinely is one August colony prevented, which makes early-season trapping the highest-value hang of the year.</p>
           <p>Placement is the other half: a trap is a wasp <em>attractant</em>, so it goes at the yard&rsquo;s edge, upwind of and away from the table it is defending &mdash; never beside the seating. Our <Link href="/blog/best-wasp-trap">wasp trap guide</Link> and <Link href="/blog/best-yellow-jacket-trap-canada">yellow jacket trap guide</Link> cover models, baiting through the season, and the placement geometry in detail.</p>
 
+          <RelatedLinks path="/blog/best-wasp-killer-canada" />
           <h2>The Night Protocol That Makes Any of It Work</h2>
           <p>Whatever can you buy, the application discipline is identical, and it is where the outcome is decided:</p>
           <ul>

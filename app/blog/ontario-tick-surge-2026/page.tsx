@@ -8,6 +8,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const POST = {
   title: "Ontario Tick Surge 2026: What's Happening and How to Protect Your Family",
@@ -116,6 +118,7 @@ export default function OntarioTickSurge2026Page() {
         <p>Three Ontario-wide news outlets ran the same story in May 2026: ticks are emerging earlier, in higher numbers, and in more neighbourhoods than at any point on public health record. The Toronto Star <Link href="/blog/lyme-disease-risk-areas-ontario-2026" className="text-brand-700 underline font-semibold">flagged Toronto as a hot spot</Link>; CityNews Toronto warned of a &ldquo;bad mosquito season ahead&rdquo;; TorontoToday confirmed the surge based on Public Health Ontario surveillance data. The cause is a stack of three factors — a mild winter, a wet spring, and the ongoing northward climate-driven expansion of the blacklegged tick range.</p>
         <p>For GTA homeowners, the practical question is simple: <em>what does this mean for my family, my pets, and my yard?</em></p>
 
+        <NextUp path="/blog/ontario-tick-surge-2026" />
         <h2>Why 2026 is worse than recent years</h2>
         <p>The blacklegged tick (<em>Ixodes scapularis</em>) — the only Ontario tick that transmits Lyme disease — has a two-year life cycle that is unusually sensitive to overwinter survival rates. Mild winters allow more nymphs to survive into the next active season. Ontario&rsquo;s 2025-2026 winter was the third-mildest in the last 15 years across most of Southern Ontario, which means the nymph cohort emerging in May 2026 is significantly larger than the long-term average.</p>
         <p>Layer on a wet early spring (which boosted deer mouse populations — the primary tick host during the nymph stage), and you get the conditions for a population spike. Public Health Ontario&rsquo;s sentinel surveillance program — which tracks tick density and Lyme bacterium presence in collected ticks — recorded a measurable jump in both metrics in early May 2026 compared to the same week in 2025.</p>
@@ -131,6 +134,7 @@ export default function OntarioTickSurge2026Page() {
         </ul>
         <p>If your property is within 1 km of any of these features, you are in the elevated-risk zone. The <Link href="/yard-risk-report" className="text-brand-700 underline font-semibold">free yard risk report tool</Link> generates a 1-100 score specific to your address using neighbourhood pressure data + lot-size + family-situation factors.</p>
 
+        <RelatedLinks path="/blog/ontario-tick-surge-2026" />
         <h2>Your 5-step protection plan</h2>
         <ol>
           <li><strong>Schedule a professional tick barrier spray now.</strong> Late May to early June is the optimal window — it targets active nymphs where they wait for hosts. Then keep treatments on schedule: applications run roughly monthly through September, five across the season, because one treatment&rsquo;s residual lasts weeks rather than months and wildlife keeps walking fresh ticks in from the woodline all summer. A spring-and-fall pair would leave the May-July nymph peak open in between.</li>

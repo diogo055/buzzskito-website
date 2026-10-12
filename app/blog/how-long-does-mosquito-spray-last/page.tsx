@@ -9,6 +9,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const POST = MOSQUITO_BLOGS.supporting[1]
 const UPDATED = '2026-07-12'
@@ -150,6 +152,7 @@ export default function MosquitoSprayLastPage() {
         <AffiliateDisclosure />
         <p>The one DIY item from that table worth pairing with professional treatment: BTi mosquito dunks for any standing water you cannot drain (rain barrels, pond edges). They stop larvae for 30 days and complement — rather than replace — the barrier spray doing the yard-wide work. <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca →</BuyLink></p>
 
+        <NextUp path="/blog/how-long-does-mosquito-spray-last" />
         <h2>How Professional Spray Differs From DIY Options</h2>
         <p>BuzzSkito&rsquo;s residual treatment is a licensed application according to label directions, aimed at the vegetation surfaces where mosquitoes rest, and it dries onto those leaves. That residual is renewed on your plan&rsquo;s schedule &mdash; every 2 weeks on the Standard plan, monthly on Basic &mdash; rather than left to fade. Consumer products are labelled for homeowner use, and each label sets its own application rate and re-application interval. Fogging works differently again: a thermal or ULV fogger kills the mosquitoes flying at the moment of application and leaves essentially no residual behind, so the yard is open again within hours — our guide to <Link href="/blog/mosquito-fogger-canada" className="text-brand-700 hover:underline">mosquito fogging</Link> covers when that short-term knockdown is still worth doing. For a full side-by-side breakdown, see our guide on <Link href="/blog/mosquito-vs-diy-vs-professional-control" className="text-brand-700 hover:underline">DIY vs. professional mosquito control</Link>.</p>
         <p>If what you actually want is that few-hours knockdown before a specific evening &mdash; a backyard party, a graduation, a Saturday barbecue &mdash; the fogger is the tool built for it, and it is a different purchase from a sprayer. One Canadian caveat decides what you can put in it: the fogging concentrate has to carry a Canadian PCP registration number on the label, and the US-market concentrates are EPA-registered only, so buy the insecticide here rather than importing it with the machine. <BuyLink tag={AMZ_TAG} search="backyard mosquito fogger">Check backyard foggers on Amazon.ca &rarr;</BuyLink></p>
@@ -161,6 +164,7 @@ export default function MosquitoSprayLastPage() {
         <p>This is why the barrier is renewed on a schedule (every 2 weeks on the Standard plan, monthly on Basic, weekly on Exclusive): you're maintaining an ongoing barrier against a continuous source, not making a one-time fix. The barrier also only ever deals with the mosquitoes that reach your yard, so any standing water you do control — rain barrels, clogged gutters, plant saucers — is worth treating with a BTI larvicide such as granular <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700 hover:underline">BTI mosquito bits</Link>, which kill the larvae before they ever emerge as adults. Homeowners near Toronto's ravines, Mississauga's Credit River, or any natural watercourse will see the most dramatic results because their mosquito pressure is highest and the treated barrier makes the biggest difference.</p>
         <p>Gutters are the standing water most people never look at. A blocked run holds a shallow film of warm water for days after a storm, which is exactly the nursery Culex wants, and it sits directly above the yard you just paid to have treated. Clearing them each spring and autumn is the fix; a mesh or micro-screen guard over the trough is what stops them filling with leaf litter again by August. <BuyLink tag={AMZ_TAG} search="gutter guard mesh">Check gutter guards on Amazon.ca &rarr;</BuyLink></p>
 
+        <RelatedLinks path="/blog/how-long-does-mosquito-spray-last" />
         <h2>What Affects How Long Mosquito Spray Lasts?</h2>
 
         <h3>Rainfall</h3>

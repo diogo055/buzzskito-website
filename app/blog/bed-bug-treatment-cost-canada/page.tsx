@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-treatment-cost-canada'
 const DATE = '2026-07-30'
@@ -351,6 +353,7 @@ export default function BedBugTreatmentCostCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="climbup bed bug interceptor">Interceptor traps &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/bed-bug-treatment-cost-canada" />
           <h2>Heat or Chemical: What the Price Difference Actually Buys</h2>
           <p>The largest single fork in a bed bug quote is method, and it is worth understanding what each one is good at rather than which is &ldquo;better.&rdquo;</p>
           <p><strong>Chemical treatment</strong> is a programme, not an event. Products are applied to harbourages and travel routes, and the schedule is built around the fact that most consumer and many professional products do not reliably kill eggs. Eggs hatch after the first application, and the follow-up visits exist to kill those nymphs before they mature and lay. That is the entire logic of the visit schedule, and it is why a one-visit chemical quote with a guarantee attached should make you ask questions rather than sign.</p>
@@ -370,6 +373,7 @@ export default function BedBugTreatmentCostCanadaPage() {
           </ul>
           <p>A quote that looks expensive because it includes an inspection, three visits and a written re-treat commitment is frequently the cheapest total number on the table once these are counted.</p>
 
+          <RelatedLinks path="/blog/bed-bug-treatment-cost-canada" />
           <h2>How to Read a Quote &mdash; and Six Red Flags</h2>
           <p>A quote worth taking seriously names the method, states the number of visits and their intervals, follows an actual inspection of your unit, hands you a written preparation sheet, and puts the re-treat commitment and its window in writing. Everything else is a sales document.</p>
           <ul>

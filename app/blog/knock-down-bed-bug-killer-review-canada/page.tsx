@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'knock-down-bed-bug-killer-review-canada'
 const DATE = '2026-07-21'
@@ -229,6 +231,7 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug steamer">Bed bug steamer →</BuyLink>
           </div>
 
+          <NextUp path="/blog/knock-down-bed-bug-killer-review-canada" />
           <h2>How It Actually Performs: A Competent Value Spray, Honest About the Rest</h2>
           <p>The thing Knock Down does well is exactly what a contact spray is supposed to do: hit a bed bug directly and it goes down. That immediate knockdown is genuinely useful and genuinely reassuring &mdash; when you find live bugs in a seam and can watch them die, you have made real progress and bought yourself a quick population reduction. As a spot-treatment tool for bugs you can see, and as a fresh residual film laid down along known travel routes, it earns its place in the kit, and it does so at a price that leaves plenty of budget for the layers that matter more.</p>
           <p>But you have to be clear-eyed about the three ceilings every water-based spray hits, and Knock Down is no exception. The first is <strong>eggs</strong>. A female bed bug cements her eggs to fabric under a protective coating, and a spray droplet that lands nearby almost never penetrates enough to kill the developing insect inside &mdash; so a mattress you have sprayed thoroughly can still be seeded with viable eggs that hatch days later. The second is <strong>a short residual</strong>. A water-based film degrades relatively quickly, especially on fabric that absorbs it and on surfaces you vacuum or wipe, so the &ldquo;walk-across&rdquo; protection is measured in days to a couple of weeks, not months. The third is <strong>resistance</strong>. Like most consumer bed bug sprays, Knock Down leans on pyrethroid chemistry, and bed bug populations in many regions have reduced sensitivity to it &mdash; the bugs you directly soak still die, but the ones that only stroll across the dried residue may not. None of these is a knock specific to this brand; they are the physics and biology of spraying. A review that skipped them would be selling you something.</p>
@@ -244,6 +247,7 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
           </ul>
           <p>If your problem is beyond a bug or two in one room, resist the urge to just empty the can. Over-spraying does not overcome resistance or reach eggs &mdash; it only spreads residue and, sometimes, scatters the bugs into new rooms. The win comes from combining tools, not from more of one. If you are unsure whether you are even dealing with bed bugs, start with our guide on <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs</Link> before you spray anything.</p>
 
+          <RelatedLinks path="/blog/knock-down-bed-bug-killer-review-canada" />
           <h2>How to Choose: What You&rsquo;re Actually Paying For in a Bed Bug Spray</h2>
           <p>Bed bug sprays range from a few dollars to premium multi-packs, and the price gap rarely tracks effectiveness the way you would hope &mdash; which is exactly why an inexpensive registered spray like Knock Down makes sense as the spray layer. When you are deciding what to buy, prioritise your money and attention in this order:</p>
           <ul>

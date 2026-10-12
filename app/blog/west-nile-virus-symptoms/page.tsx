@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'west-nile-virus-symptoms'
 const DATE = '2026-07-19'
@@ -129,6 +131,7 @@ export default function WestNileVirusSymptomsPage() {
           </table>
         </div>
         <p>In the small share of people who develop <strong>West Nile fever</strong>, the illness resembles a bad flu: a sudden fever, headache, tiredness, muscle and joint aches, and sometimes nausea, vomiting, diarrhea, swollen lymph glands, or a mild skin rash on the chest, stomach, and back. Most people in this group recover fully, though the fatigue can drag on for weeks.</p>
+        <NextUp path="/blog/west-nile-virus-symptoms" />
         <p>The rare but dangerous outcome is <strong>neuroinvasive disease</strong>, in which the virus reaches the nervous system. Its symptoms include a severe headache, high fever, stiff neck, confusion or disorientation, tremors, muscle weakness, seizures, vision loss, and in the worst cases coma or paralysis. This form is a medical emergency.</p>
 
         <h2>What are the first signs of West Nile virus?</h2>
@@ -155,6 +158,7 @@ export default function WestNileVirusSymptomsPage() {
         <p>The virus lives in a cycle between <strong>mosquitoes and birds</strong>. Mosquitoes &mdash; primarily <em>Culex</em> species &mdash; pick up the virus by feeding on infected birds, then pass it to people and other animals through their bites. Humans are a &ldquo;dead-end&rdquo; host, meaning we do not carry enough virus to reinfect a biting mosquito, so one sick person cannot start a chain of infections.</p>
         <p>There are a few rare exceptions that public health authorities monitor closely: the virus has been transmitted through blood transfusion, organ transplant, and from a pregnant or breastfeeding mother to her baby. Blood-donation systems across North America screen donations specifically to keep that risk very low.</p>
 
+        <RelatedLinks path="/blog/west-nile-virus-symptoms" />
         <h2>What is the treatment for West Nile virus?</h2>
         <p><strong>There is no specific antiviral medicine that cures West Nile virus, and no vaccine for humans</strong> &mdash; a point both the CDC and PHAC make clearly. Treatment is <em>supportive</em>, which means it manages symptoms and supports the body while the immune system clears the infection on its own.</p>
         <p>For the mild West Nile fever most symptomatic people experience, supportive care usually means:</p>

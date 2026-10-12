@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'thermalstrike-ranger-review-canada'
 const DATE = '2026-07-21'
@@ -245,6 +247,7 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="zappbug heater bed bug">ZappBug Heater (chamber alternative) →</BuyLink>
           </div>
 
+          <NextUp path="/blog/thermalstrike-ranger-review-canada" />
           <h2>The Science: Why Heat Beats Bed Bugs When Chemicals Struggle</h2>
           <p>Heat earns its place because of a biological asymmetry: bed bugs are extraordinarily good at surviving insecticides and extraordinarily bad at surviving temperature. The numbers are well established in entomology. Adults and nymphs die at a sustained 45°C (113°F). Eggs &mdash; the life stage that shrugs off most sprays on the shelf &mdash; die at roughly 48°C (118°F) held for about 90 minutes. At 50°C (122°F) and above, every stage dies within minutes. Crucially, there is no resistance mechanism against being cooked. A bed bug cannot evolve its way out of protein denaturation the way it has evolved around pyrethroids, which is why professional exterminators stake entire whole-home treatments on this exact physics.</p>
           <p>The Ranger applies that physics at the one scale a traveller can fully control: a sealed, insulated volume &mdash; the suitcase interior &mdash; small enough that its own heating element can push past lethal temperature and hold it there. Containment is the whole trick. Heat that would dissipate uselessly if you simply set a suitcase near a radiator instead concentrates inside the closed shell, and the bugs riding in your clothing seams and shoe linings have nowhere cooler to escape to.</p>
@@ -261,6 +264,7 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
           <p>Be clear-eyed about what the Ranger is and is not. It is a single carry-on-to-mid-size suitcase, which means its capacity is one person&rsquo;s trip: a few days&rsquo; to a week&rsquo;s worth of clothing, a toiletry bag, a couple of pairs of shoes, and small personal effects. That is not a limitation so much as a precise match to its job &mdash; it treats the belongings from a single trip in the bag those belongings travelled in.</p>
           <p>What it is not is a bulk-remediation appliance. You cannot run a queen bedding set, boxes of books, a winter coat collection, or a household&rsquo;s laundry through it the way you would a larger <Link href="/blog/best-bed-bug-heat-chamber-canada">standalone heat chamber</Link>. If your need is to treat many belongings at home because you already suspect an infestation, a chamber is the correct capacity match and the Ranger is the wrong tool. The two are complements, not substitutes: the Ranger guards the front door against travel introductions, and a chamber handles home-scale decontamination.</p>
 
+          <RelatedLinks path="/blog/thermalstrike-ranger-review-canada" />
           <h2>The Electronics and Toiletries Question</h2>
           <p>Two categories cause the most hesitation, and both deserve a clear rule. Electronics first: most consumer devices carry manufacturer <em>storage</em> temperature ratings of 60°C or higher &mdash; comfortably above the interior temperature a bed bug cycle reaches. A powered-off phone, laptop, tablet, or e-reader generally comes through a cycle unharmed, and treating electronics matters because their warm, dark seams are a classic bed bug harbourage. The rules: device off, check the manufacturer&rsquo;s storage spec first for anything valuable, and never run a cycle with a device powered on.</p>
           <p>The hard exclusion list covers everything pressurized, flammable, or heat-deformable: aerosol cans, lighters, and spare lithium batteries outside a device (pressure and fire risk); medications, which frequently degrade above room temperature; cosmetics, lip balms, and chocolate that melt; and film, wax, or delicate finishes that warp. Pull those items out before you run a cycle and treat them another way &mdash; sealed-bag isolation for delicate valuables, or simply buying replacements for cheap consumables. When in doubt, leave it out.</p>

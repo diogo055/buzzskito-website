@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'goodnature-a24-review-canada'
 const DATE = '2026-07-21'
@@ -155,6 +157,7 @@ export default function GoodnatureA24ReviewCanadaPage() {
           <p>The Goodnature A24 is an automatic, self-resetting rat and mouse trap built around a small compressed-CO₂ cylinder. It is a different category of device from anything in the hardware-store rodent aisle: instead of one kill and a manual reset (snap trap), or a slow poisoned death you never witness (bait station), the A24 delivers an instant mechanical strike, ejects the carcass, and re-arms itself &mdash; over and over, for weeks, with no human in the loop. Originally engineered in New Zealand for landscape-scale conservation trapping, it has become the benchmark for hands-off, poison-free rodent control worldwide.</p>
           <p>That pedigree matters. Goodnature traps are deployed by the tens of thousands across New Zealand&rsquo;s national predator-control programs, where reliability and humane kill standards are non-negotiable and traps sit unchecked in remote bush for months. The consumer A24 you can buy in Canada is the same core mechanism, sized for the rats and house mice that get into GTA garages, barns, and foundations.</p>
 
+          <NextUp path="/blog/goodnature-a24-review-canada" />
           <h2>How Does the A24 Actually Work?</h2>
           <p>The mechanism is elegant. A rodent, drawn by a long-life lure smeared at the mouth of the trap, pushes up into a chamber sized for its head. That movement trips a leaf-spring trigger, which releases a piston driven by the compressed CO₂. The piston strikes the skull with high energy &mdash; a fast, humane kill &mdash; then retracts. The dead rodent, no longer holding itself up, simply drops out the bottom of the trap onto the ground (or into whatever you place below), and the trap resets to its armed position in seconds.</p>
           <p>The &ldquo;24&rdquo; in the name is the strike budget: a single 16-gram CO₂ canister holds enough gas to power up to 24 strikes before it needs replacing. Between the auto-reset and that strike budget, the trap can run genuinely unattended &mdash; the exact opposite of a snap trap that is &ldquo;done&rdquo; the moment it fires once. Add the long-life lure (formulated to stay attractive for roughly six months) and you have a device you can set on a fence post in May and barely think about until fall.</p>
@@ -191,6 +194,7 @@ export default function GoodnatureA24ReviewCanadaPage() {
           </ul>
           <p>If you are still triaging what you are even dealing with &mdash; mouse versus rat, and how bad &mdash; start with our full playbooks on <Link href="/blog/how-to-get-rid-of-rats-canada">getting rid of rats in Canada</Link> and <Link href="/blog/how-to-get-rid-of-mice-canada">getting rid of mice in Canada</Link>, then come back here once you know you have the kind of recurring pressure the A24 is built for.</p>
 
+          <RelatedLinks path="/blog/goodnature-a24-review-canada" />
           <h2>A24 vs Snap Trap vs Bait Station: The Honest Comparison</h2>
           <p>Here is how the three main lethal options stack up for a Canadian home. Note what wins where &mdash; there is no single &ldquo;best&rdquo; that ignores your situation.</p>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">

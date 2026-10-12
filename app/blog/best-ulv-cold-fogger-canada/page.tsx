@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-ulv-cold-fogger-canada'
 const DATE = '2026-07-21'
@@ -252,6 +254,7 @@ export default function BestUlvColdFoggerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="cordless battery ulv fogger">Cordless ULV →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-ulv-cold-fogger-canada" />
           <h2>Cold Fogger vs Thermal Fogger: Which One Do You Actually Need?</h2>
           <p>This is the first fork in the road, and getting it wrong means buying the wrong tool entirely. A <strong>ULV cold fogger</strong> uses a high-pressure air stream and a nozzle to mechanically shear liquid into ultra-fine droplets &mdash; no heat is involved. Because there is no heat and no oil carrier, it can disperse <em>water-based</em> disinfectants, sanitizers, deodorizers, and water-carried pest solutions safely indoors, with low odour and no visible smoke. That makes it the right choice for disinfecting rooms, treating ductwork, deodorizing vehicles, and applying legal water-based pest products inside a home or business.</p>
           <p>A <strong>thermal fogger</strong>, by contrast, heats an oil-based carrier into a dense, visible cloud. That thick fog is superb for outdoor knockdown &mdash; penetrating shrubs, tree lines, and dense vegetation where mosquitoes and other flying insects rest &mdash; but the heat and the oil make it a poor and often unsafe fit for indoor disinfecting. If your job is outdoor, vegetation-heavy, and about visible coverage, you want thermal; our <Link href="/blog/best-thermal-fogger-canada">best thermal fogger in Canada</Link> guide covers that side, and the <Link href="/blog/longray-thermal-fogger-review-canada">Longray thermal fogger review</Link> and <Link href="/blog/black-flag-electric-fogger-review-canada">Black Flag electric fogger review</Link> dig into specific machines. If your job is indoor, water-based, and about even, low-odour coverage, you want cold ULV &mdash; and that is what this guide is about.</p>
@@ -272,6 +275,7 @@ export default function BestUlvColdFoggerCanadaPage() {
           </ul>
           <p>The trap is the grey market. A great many US-sold fogger concentrates &mdash; pyrethrin space sprays, disinfectant concentrates, and &ldquo;fogger-ready&rdquo; pest products &mdash; are <em>not</em> registered in Canada, and importing or applying them here is against the law regardless of how easy they are to order. Buy your machine wherever is convenient, but buy your solution from a Canadian source so you can verify the DIN or PCP number and read a Canadian label. This is the single most important compliance point on the whole page: the fogger will happily atomize an illegal product just as well as a legal one, so the responsibility for legality sits entirely with what you choose to pour in.</p>
 
+          <RelatedLinks path="/blog/best-ulv-cold-fogger-canada" />
           <h2>How to Choose: What You Are Actually Paying For</h2>
           <p>Cold foggers span a wide price range, and it is worth being clear about which features earn their cost for real work versus which are convenience you can skip. Prioritise your money in this order:</p>
           <ul>

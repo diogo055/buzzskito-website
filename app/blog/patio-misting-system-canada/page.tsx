@@ -10,6 +10,8 @@ import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'patio-misting-system-canada'
 const DATE = '2026-07-14'
@@ -219,6 +221,7 @@ export default function PatioMistingSystemCanadaPage() {
           </div>
           <p>The photos look nearly identical &mdash; thin tubing, small nozzles, fine fog &mdash; but one is plumbing and the other is a regulated pesticide device. Everything on Amazon.ca under &ldquo;patio misting system&rdquo; or &ldquo;patio mister&rdquo; is the first kind. If you came looking for the second kind, skip to the automated misting section &mdash; the Canadian answer is different from the American one.</p>
 
+          <NextUp path="/blog/patio-misting-system-canada" />
           <h2>How Hose-Fed Misting Kits Work — and What Water Pressure You Really Have</h2>
           <p>A misting kit is beautifully simple: your outdoor tap feeds a filter washer, a length of flexible tubing, and a row of nozzles with pinhole orifices. The pressure squeezing water through those pinholes shatters it into droplets fine enough to start evaporating in the air &mdash; and evaporation absorbs heat, cooling the zone under the line.</p>
           <p>How well that works depends almost entirely on pressure:</p>
@@ -277,6 +280,7 @@ export default function PatioMistingSystemCanadaPage() {
             </div>
           </aside>
 
+          <RelatedLinks path="/blog/patio-misting-system-canada" />
           <h2>Does a Cooling Mist Keep Mosquitoes Off Your Patio?</h2>
           <p>Partially &mdash; and only while it runs. Mosquitoes are weak fliers, and three things about an operating mist line work against them: the falling droplets physically disrupt flight through the misted zone, the evaporative chill lowers the surface temperature and CO&#8322; plume cues they home in on, and the air movement (especially with a fan) exceeds what they comfortably fly through. Sit inside a well-designed mist-plus-fan zone on a July evening and you will genuinely get bitten less.</p>
           <p>But be clear about what it isn&rsquo;t: a repellent, a population reducer, or protection anywhere beyond the mist line. The mosquitoes aren&rsquo;t gone &mdash; they&rsquo;re waiting in the cedars for the mist to stop. And a poorly drained patio can make things worse: mist runoff pooling in saucers or tarp folds becomes larval habitat within days. If your goal is a yard you can use anywhere, any evening, the mist kit is one layer in a bigger system &mdash; source reduction, barrier treatment, and airflow &mdash; which we&rsquo;ve laid out room-by-room in our <Link href="/blog/ultimate-backyard-mosquito-control-guide">ultimate backyard mosquito control guide</Link>.</p>

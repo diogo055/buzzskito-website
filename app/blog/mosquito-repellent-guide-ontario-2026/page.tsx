@@ -9,6 +9,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-repellent-guide-ontario-2026'
 const DATE = '2026-04-26'
@@ -227,6 +229,7 @@ export default function MosquitoRepellentGuidePage() {
           </div>
           <p>Notice the pattern: every pick above protects <em>you</em>, not your yard. To stop reaching for repellent at home, pair any of them with a <Link href="/mosquito-control">professional yard barrier spray</Link> — and if ticks are a concern, our <Link href="/tick-control">tick control program</Link> treats the same visit.</p>
 
+          <NextUp path="/blog/mosquito-repellent-guide-ontario-2026" />
           <h2>The Tier System — Ranked by Evidence</h2>
           <p className="not-prose text-sm text-gray-600 mb-4 border-l-4 border-emerald-300 pl-4 py-2 bg-emerald-50 rounded-r">The actives Health Canada lists as registered for personal insect repellents in Canada are: <strong>DEET, icaridin, permethrin (factory-treated clothing only), soybean oil, metofluthrin, p-menthane-3,8-diol / oil of lemon eucalyptus,</strong> and a specific <strong>mixture of lemon, camphor, geranium, eucalyptus and pine-needle essential oils</strong>. Anything not on that list is not a registered personal repellent here, whatever its status in the United States. Look for a PCP number on the label.</p>
 
@@ -270,6 +273,7 @@ export default function MosquitoRepellentGuidePage() {
           </ul>
           <p>For the under-six-month case in that list, the product doing the actual work is the net, because nothing goes on the baby at all. A fine-mesh cover over the crib, playpen, bassinet or stroller is the barrier Health Canada points parents to, and the ones worth having are elasticated the whole way round so they stay put when the stroller moves rather than draping loose over the hood. Measure the frame before you order &mdash; stroller nets and crib canopies are not the same size. <BuyLink tag={AMZ_TAG} search="stroller mosquito net">Check stroller &amp; crib mosquito nets on Amazon.ca &rarr;</BuyLink></p>
 
+          <RelatedLinks path="/blog/mosquito-repellent-guide-ontario-2026" />
           <h2>The Strategy Most Ontario Homeowners Miss</h2>
           <p>Personal repellent is for outdoor activities <em>away</em> from your property. For your own backyard, a much better strategy is <strong>professional barrier spray</strong> — applied to vegetation perimeters and shrub interiors where mosquitoes rest. It targets the population where it rests in your yard and is re-applied on a schedule, so you are not reaching for repellent every time you step outside. The approach follows from what the treatment is aimed at: every mosquito that bites you is a female needing a blood meal to develop her eggs — males feed on nectar and never bite — and those females spend the day resting in shaded leaf cover rather than out over open lawn, which is why the shrub interiors get sprayed and the grass largely does not. Our explainer on the <Link href="/blog/male-vs-female-mosquito">difference between male and female mosquitoes</Link> lays out the behaviour every repellent and every barrier spray is really working against.</p>
           <p>Most homeowners think the choice is between DIY repellent or nothing. The third option — and usually the best one — is professional yard treatment, so you rely far less on personal repellent at home. That is the model we run across the GTA from our Mississauga base: the same May-to-September programs behind our <Link href="/toronto-mosquito-control">mosquito control in Toronto</Link> and <Link href="/mississauga-mosquito-control">Mississauga mosquito spraying</Link>.</p>

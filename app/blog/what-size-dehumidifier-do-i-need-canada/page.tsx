@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-size-dehumidifier-do-i-need-canada'
 const DATE = '2026-08-22'
@@ -268,6 +270,7 @@ export default function WhatSizeDehumidifierDoINeedCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="crawl space dehumidifier low temperature with pump">Crawl-space unit →</BuyLink>
           </div>
 
+          <NextUp path="/blog/what-size-dehumidifier-do-i-need-canada" />
           <h2>Dampness Beats Square Footage — Always</h2>
           <p>Before you measure anything, classify how damp the space is, because that judgement moves you a class up or down more often than the floor area does. Use four honest categories:</p>
           <ul>
@@ -287,6 +290,7 @@ export default function WhatSizeDehumidifierDoINeedCanadaPage() {
           <p>This is why <strong>auto-defrost</strong> is the spec to check on any unit destined for a basement. A machine with a proper defrost cycle senses the ice, pauses, clears it, and resumes; a machine without one gradually ices over and keeps running while removing almost nothing &mdash; the fans still turn, the lights are still on, and the humidity does not move. If you have ever had a dehumidifier that &ldquo;stopped working&rdquo; in a cool space without any fault code, this is almost always what happened.</p>
           <p>Below about 5 &deg;C, stop looking at compressor units altogether. A <strong>desiccant</strong> dehumidifier passes air over a moisture-absorbing rotor rather than a cold coil, so low temperature does not defeat it. That makes it the correct &mdash; and often only workable &mdash; choice for an unheated garage, a shoulder-season cottage, a cold room, or a workshop. It draws more power for the same water removed, which is exactly why it is the wrong pick for a heated basement and the right pick for a cold one.</p>
 
+          <RelatedLinks path="/blog/what-size-dehumidifier-do-i-need-canada" />
           <h2>Drainage Decides Whether the Right Size Actually Works</h2>
           <p>A correctly sized dehumidifier that is switched off half the time is an incorrectly sized dehumidifier. When the internal bucket fills, the machine stops, and in a genuinely damp basement a bucket can fill in well under a day &mdash; so every purchase decision has a drainage decision hidden inside it.</p>
           <p>Check three things before you order. Is there a <strong>floor drain or sump pit</strong> in the basement, and is it lower than where the unit will stand? If yes, buy the ordinary version and run a garden hose from the drain port &mdash; downhill the entire way, with no loop that can hold water. Is the only drain a laundry tub mounted on the wall, or does the water need to go out a window or up into a stack? Then buy the version with a <strong>built-in condensate pump</strong>; it is the difference between a machine that runs unattended for a season and one you resent. And if you are leaning toward saving money by emptying the bucket, be honest about whether you will still be doing that in week six. Most people are not, and that is the most common way a good machine fails to fix a basement.</p>

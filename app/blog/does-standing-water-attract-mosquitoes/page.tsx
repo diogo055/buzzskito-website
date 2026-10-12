@@ -9,6 +9,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'does-standing-water-attract-mosquitoes'
 const DATE = '2026-07-16'
@@ -246,6 +247,7 @@ export default function StandingWaterMosquitoesPage() {
           </div>
           <p>Dunks are slow-release tablets for long-term water sources; the granular <em>bits</em> version knocks down a larvae outbreak within minutes and suits small or unexpected water. Want the full breakdown of pricing, placement, and the three mistakes people make? See our <Link href="/blog/mosquito-dunks-canada-guide">mosquito dunks Canada guide</Link>.</p>
 
+          <NextUp path="/blog/does-standing-water-attract-mosquitoes" />
           <h2>Why standing water matters for health in Ontario</h2>
           <p>Beyond the nuisance of bites, standing water is a public health issue in Ontario. The stagnant, organic-rich water in clogged catch basins, neglected pools, and forgotten containers is the preferred nursery of <em>Culex</em> mosquitoes — the primary carriers of West Nile virus in the province. Public Health Ontario and the Public Health Agency of Canada both list eliminating standing water as the first line of defence against West Nile virus, which is detected in Ontario mosquito surveillance pools most summers.</p>
           <p>This is general public health information, not medical advice. If you have specific health concerns about mosquito-borne illness, contact your local public health unit or a physician.</p>

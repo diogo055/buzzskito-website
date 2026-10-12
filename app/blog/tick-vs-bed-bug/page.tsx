@@ -10,6 +10,8 @@ import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'tick-vs-bed-bug'
 const DATE = '2026-07-09'
@@ -217,6 +219,7 @@ export default function TickVsBedBugPage() {
             cons={['Only useful once a tick is attached', 'Does nothing to stop the next tick from the yard']}
           />
 
+          <NextUp path="/blog/tick-vs-bed-bug" />
           <h2>Why They Get Confused</h2>
           <p>The confusion is understandable. Both are small, brown, wingless, and both <strong>engorge after a blood meal</strong> — which changes their shape enough that a fed tick and a fed bed bug can look genuinely similar to the naked eye. An unfed blacklegged tick is roughly 3 mm and flat; engorged, it swells to pea-sized and turns a grey-blue. An unfed bed bug is a flat 5 mm lentil; after feeding it rounds out and darkens to deep red. Ticks are only one candidate, though. If you are not yet certain the insect is either one, work through <Link href="/blog/bugs-that-look-like-bed-bugs-canada" className="text-brand-700 underline">the nine insects that get mistaken for bed bugs</Link> first and narrow the field before spending anything.</p>
           <p>The features that never change are the leg count and the behaviour. Ticks are arachnids — eight legs, no antennae — and they stay latched. Bed bugs are insects — six legs, obvious antennae — and they never attach.</p>
@@ -351,6 +354,7 @@ export default function TickVsBedBugPage() {
           </ul>
           <p><strong>What does not work:</strong> bug bombs and total-release foggers, which scatter bed bugs deeper into voids without killing the population; rubbing alcohol, which is a fire risk and kills only on direct contact; and leaving an infested mattress on the curb, which spreads the problem to a neighbour without solving yours. <Link href="/blog/what-kills-bed-bugs-instantly-canada">Our full breakdown of what actually kills bed bugs quickly</Link> goes method by method.</p>
 
+          <RelatedLinks path="/blog/tick-vs-bed-bug" />
           <h2>Flea, Tick, or Bed Bug? The Three-Way Check</h2>
           <p><strong>If you are not certain the bug is a tick or a bed bug, a flea is the third candidate &mdash; and head lice are a distant fourth.</strong> Legs, jumping, and where the bites land separate all four in about ten seconds. Fleas are the one that jumps; ticks are the one that attaches; bed bugs are the one that lives in the bed; lice are the one that never leaves the scalp.</p>
           <div className="not-prose my-6 rounded-xl border border-gray-200 overflow-x-auto">

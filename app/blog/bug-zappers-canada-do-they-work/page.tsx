@@ -10,6 +10,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bug-zappers-canada-do-they-work'
 const DATE = '2026-05-01'
@@ -432,6 +434,7 @@ export default function BugZappersCanadaPage() {
           <p>This means a bug zapper sitting in your backyard at night attracts hundreds or thousands of moths and beetles — but the female mosquito buzzing at your ear is heading TO YOU specifically because she&rsquo;s detecting your CO₂ plume. She&rsquo;ll fly past the bug zapper without noticing it.</p>
           <p>The University of Delaware study (Frick &amp; Tallamy, 1996) is the most-cited research. It examined 13,789 insects killed by residential bug zappers over a season. Mosquitoes were 0.22% of total catches. The other 99.78% were beneficial or harmless insects.</p>
 
+          <NextUp path="/blog/bug-zappers-canada-do-they-work" />
           <h2>The Pollinator Problem</h2>
           <p>Outdoor bug zappers contribute to nighttime pollinator decline. Moths are the unsung pollinators of the night: a global meta-analysis of 139 plant species found no significant difference in pollination success between day and night for about 90% of them, with nocturnal visitors &mdash; overwhelmingly moths &mdash; producing significantly greater seed set. Lacewings (commonly zapped) eat aphids and improve garden health. Beetles play roles in nutrient cycling.</p>
           <p>The Xerces Society for Invertebrate Conservation recommends against residential outdoor UV bug zappers because of the disproportionate impact on beneficial insects relative to the negligible mosquito reduction, calling them &ldquo;ludicrously bad at killing pest insects, instead killing scores of benign and beneficial insects.&rdquo; Xerces also sets out the arithmetic behind the AMCA&rsquo;s billions figure: roughly 4 million zappers running an average of forty nights a year.</p>
@@ -799,6 +802,7 @@ export default function BugZappersCanadaPage() {
           <p>For mosquitoes, none of them &mdash; that is the honest answer. For nuisance moths, midges and beetles, effectiveness tracks UV wattage and coverage area, so the largest unit you can safely site wins. Indoors, the most effective format is a handheld electric racket, because you aim it at the insect you can actually see.</p>
           <p>If &ldquo;most effective&rdquo; means &ldquo;kills the most insects per night,&rdquo; the answer is simply the highest-wattage outdoor unit with the widest rated coverage &mdash; in practice the 80 W class rated for about 1.5 acres. If it means &ldquo;solves my mosquito problem,&rdquo; the effective devices are not zappers at all: a CO&#8322;-baited trap, a repellent zone, or a residual barrier application. The ranked table earlier on this page sorts the zapper field by the job each unit does best; the cost-effectiveness table below it shows why none of those jobs is mosquito reduction.</p>
 
+          <RelatedLinks path="/blog/bug-zappers-canada-do-they-work" />
           <h2>What is the best bug zapper for a screened-in porch?</h2>
           <p>A low-wattage indoor-rated unit &mdash; 15 to 20 watts &mdash; hung 6 to 8 feet up and at least 15 feet from where anyone sits or eats. The screen already excludes most flying insects, so the zapper only has to handle the gnats and midges that slip through. Never hang an outdoor-only unit under a porch roof.</p>
           <p>Screened porches are a standard feature across the American South and Midwest and much rarer in the Greater Toronto Area, so the sizing advice is genuinely different from the open-deck case:</p>

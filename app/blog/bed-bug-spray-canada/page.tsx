@@ -12,6 +12,8 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-spray-canada'
 const DATE = '2026-07-16'
@@ -249,6 +251,7 @@ export default function BedBugSprayCanadaPage() {
           <p>This matters for bed bugs more than almost any other pest, because the internet&rsquo;s bed bug advice is overwhelmingly American. US sites recommend products registered with the US EPA under completely different rules, in concentrations and active-ingredient combinations that Health Canada has never reviewed for Canadian consumer use. The four products above — Doktor Doom Sleep Tight, Doktor Doom Pro Max, Knock Down Bed Bug Killer, and Konk — are the PMRA-registered options you can actually walk out of a Canadian store with (or have shipped from Amazon.ca) without breaking federal law.</p>
           <p>The trade-off is real and we won&rsquo;t hide it: domestic-class products are deliberately limited to lower-risk actives, which for bed bugs means pyrethrins and pyrethroids almost across the board. That has consequences for effectiveness, covered honestly below.</p>
 
+          <NextUp path="/blog/bed-bug-spray-canada" />
           <h2>Which Bed Bug Spray Should You Buy in Canada?</h2>
           <p>Buy Doktor Doom Sleep Tight first — it is the only widely stocked Canadian spray specifically labelled for direct application to mattresses and box springs, which is exactly where the bugs are. Its pyrethrin formulation kills on contact, it&rsquo;s water-based so it won&rsquo;t stain most fabrics, and it dries fast enough to re-make the bed the same day. Note how much work the phrase &ldquo;kills on contact&rdquo; does on that label; <Link href="/blog/what-kills-bed-bugs-instantly-canada" className="text-brand-700 underline">the short list of things that really kill a bed bug immediately</Link> explains why instant kill is the wrong thing to optimise for.</p>
           <p>Add Doktor Doom Pro Max as your second can if the infestation extends beyond the bed. Pro Max is a permethrin residual: sprayed along baseboards, bed frames, headboard backs, and the undersides of furniture, it keeps killing bugs that walk across treated surfaces for weeks — the piece a contact-only spray is missing. Do <em>not</em> use it on the mattress or bedding; that&rsquo;s not what its label permits. The brand runs far wider than these two cans, so <Link href="/blog/doktor-doom-canada-guide" className="text-brand-700 underline">our Doktor Doom buying guide for Canada</Link> is the place to check before you reach for a third.</p>
@@ -379,6 +382,7 @@ export default function BedBugSprayCanadaPage() {
           <p>So the honest answer to &ldquo;what chemical kills bed bugs and their eggs&rdquo; is that among PMRA-registered consumer products, only EcoRaider does both — and only on the eggs its spray directly wets, which in practice means the ones you can see and reach. Everything else on the Canadian shelf kills bugs and leaves eggs.</p>
           <p>The reliable egg-killer is not a chemical at all. It is heat: surface steam or a sustained core temperature near 50&deg;C kills adults, nymphs, and eggs alike, and no resistance gene changes that. This is the entire argument for building your plan around a steamer and treating spray as the residual backstop — and it is why the reapplication schedule below matters more than which can you picked.</p>
 
+          <RelatedLinks path="/blog/bed-bug-spray-canada" />
           <h2>How Do You Use a Bed Bug Spray Properly?</h2>
           <p>The label on your specific can is the final word, but this sequence is how sprays earn their keep instead of just scattering bugs:</p>
           <ol>

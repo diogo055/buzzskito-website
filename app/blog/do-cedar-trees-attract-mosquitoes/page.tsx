@@ -10,6 +10,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'do-cedar-trees-attract-mosquitoes'
 const DATE = '2026-04-26'
@@ -203,6 +204,7 @@ export default function CedarTreesMosquitoesPage() {
           cons={['Covers a defined zone, not the whole yard', 'Wind and open airflow reduce its effect', 'Needs refill mats and fuel over the season']}
         />
 
+        <NextUp path="/blog/do-cedar-trees-attract-mosquitoes" />
         <h2>Are There Plants That Actually Repel Mosquitoes?</h2>
         <p>Yes — but the effect is small and localized. Several <Link href="/blog/mosquito-repellent-plants-ontario" className="text-brand-700 underline">mosquito-repelling plants for Ontario gardens</Link> release low levels of mosquito-deterrent compounds when their leaves are crushed, brushed, or warmed in direct sunlight:</p>
         <ul>

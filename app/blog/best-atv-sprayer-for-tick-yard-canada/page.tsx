@@ -9,6 +9,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-atv-sprayer-for-tick-yard-canada'
 const DATE = '2026-07-21'
@@ -281,6 +283,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="fimco 40 gallon atv sprayer boom">40-gal ATV sprayer &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-atv-sprayer-for-tick-yard-canada" />
           <h2>Where Ticks Actually Live — and Why the Spot Wand Wins</h2>
           <p>Ticks are not lawn insects. The open, sunny, regularly-mowed part of a lawn is hostile to them &mdash; it is hot and dry, and a questing tick left there quickly desiccates and dies. What ticks need is shade and humidity, and they find it in the <strong>transition zone where lawn meets woods or tall grass</strong> &mdash; ecologists call it the ecotone. Add leaf-litter banks, stone walls, wood piles, dense ground-cover beds, shrub borders, and fence lines, and you have a map of nearly every tick in the yard. Study after study of residential properties finds the overwhelming majority of ticks within a few metres of that wooded edge.</p>
           <p>That single fact reshapes what equipment you need. A wide broadcast boom is efficient for covering open lawn, but the open lawn is precisely where the ticks are not. The tool that hits the tick zone is a <strong>handheld spot wand</strong> you can aim into the base of shrubs, along the stone wall, into the leaf litter, and a metre or two into the woodland margin. This is why our top pick pairs a boom with a spot wand, and why the pure <em>spot sprayer</em> earns its own award: for the tick-specific job, precise edge application beats broadcast every time. If you only remember one thing from this guide, remember that you are buying a wand, and the tank and boom are supporting cast.</p>
@@ -306,6 +309,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
           </ul>
           <p>Read that as a spending map: put your dollars into a right-sized tank, a real pump, and a durable tank, and confirm the wand, strainer, and hitch are in the box. Everything else is secondary. If you are cross-shopping smaller tools, our <Link href="/blog/backpack-sprayer-canada">backpack sprayer guide</Link> and <Link href="/blog/best-pump-pressure-sprayer-canada">pump pressure sprayer guide</Link> cover the walk-behind end of the range, and the <Link href="/blog/field-king-backpack-sprayer-review-canada">Field King backpack review</Link> digs into one popular option in detail.</p>
 
+          <RelatedLinks path="/blog/best-atv-sprayer-for-tick-yard-canada" />
           <h2>The Legal Part: What You Can Put in the Tank</h2>
           <p>This is where DIY tick control most often goes wrong, and it has nothing to do with the sprayer. The tow-behind unit itself is just a device and needs no registration. But <strong>whatever you spray is regulated by Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA)</strong>, and only products carrying a Canadian PCP (Pest Control Products) registration number are legal to apply outdoors on a residential property.</p>
           <p>The trap is that many of the most-talked-about US tick concentrates &mdash; bifenthrin products such as Talstar, and various permethrin yard concentrates &mdash; are heavily marketed south of the border and appear on some marketplaces, but are <strong>not registered for domestic outdoor use in Canada</strong>. Importing and spraying them is illegal, can carry real penalties, and is exactly the kind of grey-market shortcut this guide will not recommend. Before anything goes in the tank, read the label, find the PCP number, and confirm the product is registered for your intended use. If you cannot confirm it, do not spray it. This is also a genuine advantage of hiring a licensed applicator: they can legally use commercial-class registered tick products that a homeowner simply cannot buy.</p>

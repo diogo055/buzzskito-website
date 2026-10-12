@@ -8,6 +8,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-long-do-ticks-live'
 const DATE = '2026-07-15'
@@ -201,6 +203,7 @@ export default function HowLongDoTicksLivePage() {
           <p>Ticks live <strong>2 to 3 years</strong>. A blacklegged (deer) tick passes through three feeding stages &mdash; larva, nymph, and adult &mdash; and takes exactly one blood meal at each. The U.S. Centers for Disease Control and Prevention (CDC) describes this as a roughly two-year cycle. A tick that misses a host simply waits months for the next one.</p>
           <p>Most ticks live <strong>2 to 3 years</strong>. That lifespan is stretched across three feeding stages &mdash; larva, nymph, and adult &mdash; with a molt in between each one. In Ontario, the species that matters most for human health is the <strong>blacklegged (deer) tick</strong> (<em>Ixodes scapularis</em>), which can carry the bacterium that causes Lyme disease; the <strong>American dog tick</strong> is also common in grassy areas but is a lower Lyme risk.</p>
           <p>Here is the key to understanding tick lifespan: a tick takes only <strong>one blood meal per stage</strong>. A larva feeds once and molts into a nymph. The nymph feeds once and molts into an adult. The adult female feeds once, mates, lays a single large batch of eggs, and then dies. Because a tick has to find a host to advance to the next stage, and because it can wait a very long time for that host, the calendar of a tick&rsquo;s life is measured in years rather than days. A larva that hatches one summer may not become an egg-laying adult until roughly two years later.</p>
+          <NextUp path="/blog/how-long-do-ticks-live" />
           <p>This slow, patient life cycle is exactly why ticks persist. They do not need to feed often, they do not need to breed quickly, and a single surviving female can seed the next generation with thousands of eggs.</p>
 
           <h2>How Long Do American Dog Ticks Live Compared With Blacklegged Ticks?</h2>
@@ -281,6 +284,7 @@ export default function HowLongDoTicksLivePage() {
           <p>Ticks <em>do</em> die during hard cold snaps &mdash; especially deep, sustained cold with little or no snow cover to insulate the ground. But enough survive every year that the population carries over. That carryover is exactly why tick-habitat reduction matters most in <strong>fall and early spring</strong>: clearing leaf litter and brush removes the sheltered overwintering sites before the next generation gets going. Our <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">guide to keeping ticks out of your yard</Link> walks through the specific steps.</p>
           <p>That winter hardiness is also why the Canadian tick range keeps creeping north rather than resetting each year &mdash; <Link href="/blog/are-there-ticks-in-canada" className="text-brand-700 underline">where ticks are found in Canada, province by province</Link> shows how far it now reaches.</p>
 
+          <RelatedLinks path="/blog/how-long-do-ticks-live" />
           <h2>Will a Hot, Dry Summer Kill Ticks?</h2>
           <p>A hot, dry stretch kills exposed ticks but does not clear a property. Ticks lose water quickly in sun and open lawn, so activity drops sharply there. Shaded woodland edges, ravine slopes, and damp leaf litter stay humid enough for ticks to wait out a heat wave, so the margins remain the risk zone.</p>
           <p>This is the summer mirror of the winter myth. Neither extreme empties a yard, because ticks are not spread evenly across it &mdash; they concentrate exactly where the microclimate stays moist. A drought season can make a lawn feel tick-free while the fence line, the woodpile, and the shaded strip under the cedars are unchanged.</p>

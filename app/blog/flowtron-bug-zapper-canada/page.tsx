@@ -9,6 +9,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'flowtron-bug-zapper-canada'
 const DATE = '2026-07-14'
@@ -237,6 +239,7 @@ export default function FlowtronBugZapperCanadaPage() {
           <p>We fit and service mosquito and tick programs across 19 GTA cities, and homeowners ask us about bug zappers constantly — usually holding a cheap no-name racket-style or dollar-store unit that died after one summer. When someone is set on owning a proper mounted electric zapper, Flowtron is the line we point them to. The BK series has been on the North American market for decades, the housings survive Ontario winters in the garage and Ontario humidity on the fence, and the BK-40D alone carries well over 26,000 ratings on Amazon.ca at a 4.5-star average. That is not a fluke — it is a genuinely well-engineered device for what it does.</p>
           <p>The key phrase is <em>for what it does</em>. A Flowtron is a superb <strong>nuisance flying-insect</strong> trap. If your porch light attracts a blizzard of moths every July night, if June beetles are dive-bombing your patio, if midges cloud around the deck at dusk — a BK-40D will thin those out dramatically and keep doing it for years. Where the marketing (and buyer expectations) go sideways is mosquitoes, so let&rsquo;s deal with that honestly before you spend a dollar.</p>
 
+          <NextUp path="/blog/flowtron-bug-zapper-canada" />
           <h2>Coverage: What the Acre Ratings Really Mean</h2>
           <p>Flowtron rates the three main outdoor models by UV wattage and a headline coverage number:</p>
           <ul>
@@ -255,6 +258,7 @@ export default function FlowtronBugZapperCanadaPage() {
           <p>Flowtron knows light alone misses mosquitoes, which is why every BK model accepts an <strong>octenol cartridge</strong>. Octenol (1-octen-3-ol) is a compound found in human breath and sweat, and it is one of the cues biting insects use to find a host. Clip a cartridge under the zapper and it slowly releases the lure, pulling in mosquitoes, black flies, and biting midges that plain UV would ignore. It meaningfully shifts the mix of the catch toward the bugs you actually care about.</p>
           <p>Two honest caveats. First, octenol turns a zapper from &ldquo;catches almost no mosquitoes&rdquo; into &ldquo;catches some mosquitoes&rdquo; — it is an improvement, not a transformation into a dedicated mosquito trap. Second, it is a monthly consumable: each cartridge lasts roughly 30 days, so budget for one a month across the Ontario season (May through September). If nuisance moths and beetles are your only complaint, skip octenol entirely and save the money. If you want the zapper to help with mosquitoes and biting flies, it is the single most important accessory you can add.</p>
 
+          <RelatedLinks path="/blog/flowtron-bug-zapper-canada" />
           <h2>Placement: Get It Away From Where You Sit</h2>
           <p>The most common mistake is mounting the zapper right on the deck rail beside the seating area. That does the opposite of what you want — you are luring every flying insect within range straight toward the people you are trying to protect. The whole strategy is to pull bugs <em>away</em> from you.</p>
           <ul>

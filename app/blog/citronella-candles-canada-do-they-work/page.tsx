@@ -8,6 +8,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'citronella-candles-canada-do-they-work'
 const DATE = '2026-07-12'
@@ -253,6 +255,7 @@ export default function CitronellaCandlesCanadaPage() {
             <p className="text-sm text-gray-800 leading-relaxed">Yes — as a <em>mild, short-range</em> repellent. Controlled testing (Journal of the American Mosquito Control Association) puts a citronella candle at roughly 40–50% fewer bites for the person sitting right beside it in still air, with the effect dropping to near-zero within about a metre and in any breeze. It is genuinely better than nothing at your chair, but it will never clear a table, a patio, or a yard. For the wider space, pair a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> zone with <Link href="/mosquito-control">professional barrier spray</Link>, which can also target ticks — something citronella never touches.</p>
           </div>
 
+          <NextUp path="/blog/citronella-candles-canada-do-they-work" />
           <h2>How Citronella Actually Works (and Why Range Is the Problem)</h2>
           <p>Female mosquitoes (the only ones that bite) find you by following a trail of carbon dioxide from your breath, plus body heat, lactic acid, and skin scent. Citronella oil works by <strong>masking</strong> those cues — its strong lemony aroma confuses a mosquito&rsquo;s ability to lock onto you. Crucially, it does not kill mosquitoes and it does not repel them the way DEET does; it simply makes you a little harder to detect.</p>
           <p>That mechanism is exactly why range is the fatal flaw. For the scent to work it has to physically fill the space between you and the mosquito, at a high enough concentration, at the moment it approaches. A candle releases only a thin plume of oil, so that concentration is only high enough within a small bubble — under roughly a metre — and the plume is easily blown away by even a light breeze. The instant you lean back, walk to the barbecue, or the wind shifts, the mosquitoes find you again.</p>
@@ -267,6 +270,7 @@ export default function CitronellaCandlesCanadaPage() {
             <li><strong>Short sits</strong> — a quick coffee on the deck rather than a long dinner party</li>
           </ul>
 
+          <RelatedLinks path="/blog/citronella-candles-canada-do-they-work" />
           <h2>When Citronella Will Let You Down</h2>
           <ul>
             <li><strong>Anything windy or open</strong> — the plume blows away and protection drops to near zero</li>

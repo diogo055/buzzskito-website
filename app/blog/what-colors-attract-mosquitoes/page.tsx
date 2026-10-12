@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-colors-attract-mosquitoes'
 const DATE = '2026-07-16'
@@ -113,6 +115,7 @@ export default function WhatColorsAttractMosquitoesPage() {
           <p>The twist that made the study famous: the mosquitoes only cared about colour <strong>after</strong> they smelled carbon dioxide. When the researchers pulsed CO2 into the chamber &mdash; mimicking the breath of a nearby human &mdash; the insects suddenly flew toward red, orange, black, and cyan while ignoring the others. Remove the CO2, and the same mosquitoes drifted past every colour without interest. In other words, scent flips the switch, and colour helps the mosquito finish the hunt.</p>
           <p>Why those colours? They share long-wavelength or high-contrast properties. Reds and oranges sit at the long end of the visible spectrum (roughly 620&ndash;750 nanometres), and the researchers noted that human skin &mdash; regardless of pigmentation &mdash; reflects a strong signal in exactly that red-orange band. To a CO2-primed mosquito, a patch of exposed skin, a red shirt, or a black silhouette all read as &ldquo;host here.&rdquo; If you want the fuller picture of what draws mosquitoes to specific people, see our guide on <Link href="/blog/what-attracts-mosquitoes-to-you">what attracts mosquitoes to you</Link>.</p>
 
+          <NextUp path="/blog/what-colors-attract-mosquitoes" />
           <h2>What colors do mosquitoes hate?</h2>
           <p>Mosquitoes largely ignore <strong>green, blue, purple, and white</strong>. In the 2022 experiment, these colours failed to draw the mosquitoes even after CO2 was introduced, making them the closest thing to &ldquo;mosquito-neutral&rdquo; shades you can wear.</p>
           <p>White is the standout because it reflects nearly the entire visible spectrum rather than concentrating energy in the long-wavelength red-orange range that mosquitoes lock onto. Cool, short-wavelength colours like blue, green, and purple similarly lack the signal the insects are tuned to. This is the scientific backbone behind the age-old advice to wear light, cool-toned clothing on a summer evening.</p>
@@ -128,6 +131,7 @@ export default function WhatColorsAttractMosquitoesPage() {
           <p>Fit and thickness do far more work here than shade does. A mosquito&rsquo;s proboscis reaches roughly 2 mm, so a tight, thin garment stays biteable no matter what colour it is &mdash; our companion guide explains <Link href="/blog/can-mosquitoes-bite-through-clothes">why leggings fail and denim wins</Link>.</p>
           <p>Keep the expectation realistic. Colour is the weakest lever of the three main attractant categories. If you are the person who always gets bitten while everyone else is fine, the cause is far more likely your CO2 output, skin chemistry, or even your blood type than your shirt &mdash; we break that down in <Link href="/blog/what-blood-type-do-mosquitoes-bite">what blood type mosquitoes bite most</Link>.</p>
 
+          <RelatedLinks path="/blog/what-colors-attract-mosquitoes" />
           <h2>Myth vs Fact: Mosquitoes and Colour</h2>
           <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-x-auto shadow-sm">
             <table className="w-full text-sm">

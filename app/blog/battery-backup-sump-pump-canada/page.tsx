@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'battery-backup-sump-pump-canada'
 const DATE = '2026-08-22'
@@ -230,6 +232,7 @@ export default function BatteryBackupSumpPumpCanadaPage() {
           <p>That correlation is why the Insurance Bureau of Canada puts a battery-operated backup pump and a basement water alarm on the same homeowner checklist as backwater valves and downspout extensions. It is also why this search is worth taking seriously rather than skimming: the person reading it usually has a wet spot on a finished floor, or a neighbour who just did.</p>
           <p>Weeping tile makes it worse in older Ontario housing stock. On a lot where the foundation drains discharge into the pit rather than to a storm connection, the pit does not stop filling when the power goes out. It fills faster, because the ground around the footings is saturated. A primary pump with no electricity is not a slow leak &mdash; it is a rising pit with nowhere to go.</p>
 
+          <NextUp path="/blog/battery-backup-sump-pump-canada" />
           <h2>The Specification That Actually Matters (It Is Not GPH)</h2>
           <p>Every backup pump on the shelf leads with a gallons-per-hour figure. Treat that number as marketing until you know two things: what lift it was measured at, and what your battery can actually supply.</p>
           <p><strong>Head height eats the headline.</strong> A pump rated at, say, 1,000 GPH is usually quoted at zero or minimal lift. A real Ontario basement pumps 8 to 10 feet vertically out of the pit, then runs horizontally to a discharge point well clear of the foundation. Every foot of vertical lift and every elbow costs flow. Look for the manufacturer&rsquo;s flow figure at 10 feet, not the number on the front of the box, and compare pumps at the same head.</p>
@@ -260,6 +263,7 @@ export default function BatteryBackupSumpPumpCanadaPage() {
           <p>Two defences. First, slope the exterior discharge so it drains completely between cycles and never terminates in a low spot where meltwater ponds and refreezes. Second, fit a freeze-relief tee near the exit &mdash; a deliberate opening that lets the pump dump water at grade rather than deadheading against an ice plug. It is not elegant, and a plumber will point out that it partly defeats the purpose of routing water away, which is true. It is still better than a seized pump in February.</p>
           <p>While you are out there in spring: extend the discharge well clear of the foundation, and make sure it is not quietly refilling the same weeping tile that feeds the pit. That closed loop is more common in older GTA neighbourhoods than anyone would like.</p>
 
+          <RelatedLinks path="/blog/battery-backup-sump-pump-canada" />
           <h2>The Part Nobody Mentions: A Sump Discharge Is a Mosquito Nursery</h2>
           <p>This is our actual field, so allow us the tangent. A sump discharge ending in a splash block, a low corner of the lawn, or a plastic bin someone set there to stop the erosion is standing water refreshed on a schedule &mdash; which is close to ideal habitat. <em>Culex</em> mosquitoes need only a few days and a container of water to complete a generation, and a chronically wet discharge zone will out-produce anything else on a suburban lot.</p>
           <p>If you are already down there fixing the plumbing, walk the run: <Link href="/blog/does-standing-water-attract-mosquitoes">standing water is the single strongest predictor of mosquito pressure</Link> on a property, and a sump outfall is one of the <Link href="/blog/hidden-mosquito-breeding-spots-backyard">breeding spots homeowners consistently miss</Link>. Getting the water to daylight and away from the house fixes two problems with one trench.</p>

@@ -12,6 +12,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-dehumidifier-for-mold-canada'
 const DATE = '2026-07-21'
@@ -256,6 +258,7 @@ export default function BestDehumidifierForMoldCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="compact dehumidifier energy star humidistat">Compact →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-dehumidifier-for-mold-canada" />
           <h2>The 60% Rule: Why Humidity Control Beats Mould</h2>
           <p>Mould spores are always in the air &mdash; you cannot eliminate them, and you do not need to. What they require to germinate and colonise a surface is moisture, and the practical dividing line is relative humidity. Below roughly 60% RH, the moisture available in the air and on surfaces is generally not enough for common household mould to take hold; above 60% it becomes possible, and above 70% it becomes easy. That is the entire mechanism behind using a dehumidifier against mould: you are not killing anything, you are keeping the humidity under the threshold where the spores can do their work.</p>
           <p>The target most sources converge on is holding indoor humidity in the 45&ndash;50% band &mdash; comfortably under 60%, and low enough to also discourage dust mites, which thrive in the same damp conditions. That connection is why our companion guide to the <Link href="/blog/best-air-purifier-for-dust-mites-canada">best air purifier for dust mites</Link> pairs so naturally with this one: the same humidity that feeds mould feeds mites, and controlling it helps both problems at once. Buy a cheap separate hygrometer to verify the reading, because a built-in sensor can drift over time and you want to know the real number, not the number the display hopes for.</p>
@@ -268,6 +271,7 @@ export default function BestDehumidifierForMoldCanadaPage() {
           <p>Here is a failure mode that quietly defeats good dehumidifiers: the tank fills, the unit stops, and humidity creeps back above the mould threshold for every hour it sits off waiting for you to notice. In a damp basement you check twice a week, that can mean days of mould-friendly conditions between empties. The fix is continuous drainage. Run a hose from the drain port to a floor drain, a sump pit, or a utility sink, and the unit holds your target humidity 24/7 with no bucket to empty and no interruption.</p>
           <p>If gravity drainage is not available &mdash; the drain is higher than the unit, or there is no floor drain at all &mdash; choose a model with a built-in condensate pump, which can push water upward and out a window or into a higher sink. That is exactly the scenario the <em>Best for Wet Basements</em> pick above is built for. Reserve tank-only operation for small, occasional jobs where you are present to empty it. For anything you want running continuously in a basement, continuous drainage is not optional; it is what turns a good machine into a set-and-forget one.</p>
 
+          <RelatedLinks path="/blog/best-dehumidifier-for-mold-canada" />
           <h2>How to Size a Dehumidifier for Mold — What You Are Paying For</h2>
           <p>Sizing is where the money either works or is wasted, and it is worth being precise. Dehumidifiers are rated in pints of water removed per day, and you match that rating to both the square footage and how damp the space actually is. Use this as a working guide:</p>
           <ul>

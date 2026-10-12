@@ -11,6 +11,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-mice-canada'
 const DATE = '2026-07-16'
@@ -243,6 +245,7 @@ export default function HowToGetRidOfMiceCanadaPage() {
           </ul>
           <p>Then leave 2–3 baited sentinel traps in place permanently — behind the stove, in the garage, by the furnace. They cost nothing to maintain and convert next fall&rsquo;s first scout from the start of an infestation into a one-mouse event. When cleaning up droppings afterward, wet-clean with disinfectant and gloves rather than sweeping dry — details in the FAQ below. Read them by the droppings as much as the catches: <Link href="/blog/what-does-mouse-poop-look-like-canada" className="text-brand-700 underline">fresh mouse droppings look different from old ones</Link>, and that difference is what tells you whether the problem is live or historic.</p>
 
+          <NextUp path="/blog/how-to-get-rid-of-mice-canada" />
           <h2>Should You Use Poison for Mice in Canada?</h2>
           <p>Traps first — and in most Canadian homes, traps only. The second-generation anticoagulant rodenticides (brodifacoum, bromadiolone, difethialone) that dominate American advice are <strong>not sold as domestic-class products in Canada</strong>: Health Canada&rsquo;s PMRA restricts them to commercial applicators, and British Columbia has permanently banned most SGAR uses since 2023 over secondary poisoning of owls and hawks. Any US site telling Canadians to &ldquo;just grab d-CON pellets&rdquo; is recommending products you cannot legally buy here — we map the whole legal landscape in <Link href="/blog/rat-poison-canada-what-is-legal">what rat poison is actually legal in Canada</Link>.</p>
           <p>The main PMRA-registered consumer option is the <strong>Tomcat bromethalin disposable bait station</strong> — a sealed, tamper-resistant unit with a legitimate role for exterior pressure and inaccessible voids, covered in our <Link href="/blog/mouse-bait-station-canada">mouse bait station guide</Link>. But even where bait is legal, it is the wrong first move indoors: poisoned mice routinely die inside wall voids, where the smell lasts 2–3 weeks. Traps give you a body count — the only honest metric of progress — with zero secondary risk to pets and raptors.</p>
@@ -250,6 +253,7 @@ export default function HowToGetRidOfMiceCanadaPage() {
           <h2>What About Ultrasonic Repellers, Peppermint Oil, and Other Shortcuts?</h2>
           <p>Skip all of them. Plug-in ultrasonic repellers are the most heavily marketed &ldquo;effortless&rdquo; option in Canada, and the controlled evidence is uniformly poor: mice habituate to the sound within days, ultrasound does not pass through walls or furniture, and regulators — including the US FTC, repeatedly since 2001 — have challenged manufacturers over unsupported claims. We went through the published studies one by one in our <Link href="/blog/ultrasonic-pest-repellers-do-they-work">ultrasonic repeller evidence review</Link>. Peppermint oil and mothballs fail the same way: mice nest happily centimetres from strong odours, and scattering mothballs for rodents is an off-label pesticide use in Canada anyway. Every dollar spent on repellents is a dollar not spent on the traps and steel wool that actually end the problem.</p>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-mice-canada" />
           <h2>When Should You Call a Professional?</h2>
           <p>DIY wins most Canadian mouse problems, but escalate when the evidence says so: fresh droppings or ongoing catches after 3–4 weeks of a properly run 12-trap line with sealed gaps, entry points you cannot find (common with complex brick veneer and attached garages), activity concentrated in wall voids you cannot reach, or droppings over 1 cm long — which means rats and a different toolkit. Licensed operators bring commercial-class rodenticides and structural exclusion experience. For what that service typically costs across Canada, see our <Link href="/pest-control-cost-canada">pest control cost guide</Link>. One caveat on identification: if the animal is stocky with a blunt nose, small ears and a short tail, and the damage is outdoors in the lawn, it is not a mouse at all &mdash; <Link href="/blog/how-to-get-rid-of-voles-canada" className="text-brand-700 underline">vole versus mouse</Link> explains why that changes the entire approach.</p>
 

@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-heater-canada'
 const DATE = '2026-07-21'
@@ -271,6 +273,7 @@ export default function BedBugHeaterCanadaPage() {
           <p>The ZappBug Oven 2 is the best bed bug heater for most Canadian households, because it is the smallest chamber that still swallows the things people actually need to treat — checked luggage, banker boxes, bedding, pillows, shoes, books — while reliably holding the entire load above the lethal threshold long enough to kill eggs. That last clause is the entire product category in one sentence. Anyone can make a warm box. The engineering that matters is holding <em>49°C at the coldest core of a packed suitcase</em>, and doing it without a fire risk, and that is what you are paying for over a homemade rig.</p>
           <p>Heat earns its place at the top of the Canadian bed bug toolkit for a reason that has nothing to do with marketing: it is the only consumer-accessible method that kills adults, nymphs, and eggs in a single pass, works identically on pyrethroid-resistant populations (which now dominate Canadian cities), leaves zero residue, and — because it is a device rather than a pesticide — sits entirely outside the regulatory bottleneck that makes the Canadian bed bug spray aisle so weak. We will come back to that legal angle, because it is the most under-explained fact in this entire category.</p>
 
+          <NextUp path="/blog/bed-bug-heater-canada" />
           <h2>The Physics: 49°C, Hold Time, and Why the Core Temperature Is Everything</h2>
           <p>Bed bugs die of heat the way all insects do — protein denaturation — and the thermal death points are well established in the entomology literature. Adults and nymphs die at about 45°C (113°F) when held there for roughly 90 minutes, and in about 20 minutes at 48°C (118°F). Eggs are meaningfully tougher: they need on the order of 90 minutes at 48°C, though mortality becomes a matter of minutes once temperatures pass 50°C (122°F). The industry convention that falls out of those numbers is a target of <strong>49°C/120°F or above, held for at least an hour, measured at the coldest point of whatever you are treating</strong>.</p>
           <p>That final phrase is where almost every DIY failure lives. The air inside a chamber can read 60°C while the centre of a rolled duvet is still sitting comfortably at 35°C — insulation is precisely what bedding is designed to do. The core of a tightly packed suitcase can lag the air temperature by three or four hours. This is why every credible protocol, and every chamber worth buying, is built around a probe thermometer buried in the densest item of the load: the treatment clock starts when the <em>probe</em> crosses 49°C, not when the chamber does. Loads run 4–8 hours as a result, and a chamber cycle you cut short at &ldquo;the air felt hot&rdquo; is a chamber cycle that hatches survivors two weeks later.</p>
@@ -297,6 +300,7 @@ export default function BedBugHeaterCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater">Check ZappBug Oven 2 on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/bed-bug-heater-canada" />
           <h2>Best Luggage-Size: ThermalStrike Ranger</h2>
           <p>Most Canadian bed bug stories start the same way: a hotel, a hostel, a short-term rental, and a suitcase that came home carrying more than souvenirs. The ThermalStrike Ranger is purpose-built for that exact vector — a fold-flat enclosure sized for a large suitcase, with heating panels on every face rather than a single heat source, which shrinks the cold-spot problem that plagues improvised rigs. Bag goes in at the front door, cycle runs while you unpack nothing, and only heat-treated belongings cross the bedroom threshold.</p>
           <p>For frequent travellers, this is less a pest control product than an insurance policy. A four-figure remediation gets prevented by a habit that costs one heating cycle per trip. The trade-off is scale: it treats one bag at a time and is the wrong tool for an established infestation with rooms full of belongings — that is Oven 2 territory. Densely packed bags also take patience; the core-temperature rule applies with full force, so leave the probe in the middle of the clothes and trust the number, not the clock.</p>

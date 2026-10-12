@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'konk-bed-bug-killer-review-canada'
 const DATE = '2026-07-21'
@@ -254,6 +256,7 @@ export default function KonkBedBugKillerReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug steamer">Bed bug steamer &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/konk-bed-bug-killer-review-canada" />
           <h2>What Konk Does Well: Legal, Available, Fast on Contact</h2>
           <p>Give Konk credit for the things it actually delivers, because they matter. First, contact knockdown: if you can see a bed bug and spray it directly, Konk kills it quickly. For the person who lifts a mattress corner, spots a cluster, and wants them dead <em>now</em>, a fast contact aerosol is the right tool and Konk performs. Second, availability: it is stocked through Canadian retail and hardware channels, so you are not waiting on a cross-border shipment while bugs multiply. Third &mdash; and this is the one that separates it from half the internet&rsquo;s advice &mdash; it is <strong>registered</strong>. You are buying a product whose label and safety directions were reviewed by Health Canada&rsquo;s PMRA, which means when you follow the label you are on solid, legal, reviewed ground.</p>
           <p>That legality is not a small thing dressed up to fill a review. Importing an unregistered pesticide breaches the Pest Control Products Act, and the products Canadians are most often told to smuggle lean on the very pyrethroid chemistry resistant bed bugs already survive &mdash; so the legal risk frequently buys no extra performance. Konk lets you have the legal, labelled option and spend your energy on technique and the wider plan instead of on border roulette.</p>
@@ -279,6 +282,7 @@ export default function KonkBedBugKillerReviewCanadaPage() {
           </ul>
           <p>None of this makes a spray reach the eggs or the deep voids &mdash; it simply makes the contact tool as effective as a contact tool can be. For the jobs it cannot do, you bring other tools.</p>
 
+          <RelatedLinks path="/blog/konk-bed-bug-killer-review-canada" />
           <h2>How to Choose: Which Spray, and When a Spray Is the Wrong Buy</h2>
           <p>Bed bug sprays cost real money by the time you have bought the several cans an infestation demands, so it is worth being clear-eyed about which product to pick and, more importantly, when a spray should not be your main purchase at all. Sort your decision this way:</p>
           <ul>

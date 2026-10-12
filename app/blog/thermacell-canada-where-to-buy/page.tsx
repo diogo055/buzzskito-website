@@ -10,6 +10,8 @@ import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'thermacell-canada-where-to-buy'
 const DATE = '2026-05-01'
@@ -300,6 +302,7 @@ export default function ThermacellCanadaPage() {
           </div>
           <p className="not-prose text-sm text-gray-600 mb-6"><strong>Bottom line:</strong> the <strong>E55</strong> is the best Thermacell for most GTA backyards; step up to the <strong>E90</strong> for longer evenings — our <Link href="/blog/thermacell-e90-canada-review">Thermacell E90 Canada guide</Link> goes deeper on runtime and where it earns the upgrade. Skip searching for the Liv: it is not sold in Canada. Whichever you pick, it covers where you sit — not the whole yard. For full-property coverage, pair it with <Link href="/mosquito-control">professional barrier spray</Link>.</p>
 
+          <NextUp path="/blog/thermacell-canada-where-to-buy" />
           <h2>Thermacell Refills in Canada: What Fits What</h2>
           <p>Every Thermacell model runs on inexpensive refills, but they are not one family and they are not one chemical. The fuel-powered line uses mats — allethrin or prallethrin, with the Canadian units listed under RD2019-03 as 1R-trans prallethrin — plus a separate butane cartridge. The rechargeable E-Series uses a single liquid cartridge whose active is metofluthrin. The form factors match the US versions, so a pack bought at Canadian Tire will fit a device you brought back from the States; buy the Canadian-labelled refill, since that is the one registered for sale and use in Canada. Here is how the families compare:</p>
           <div className="not-prose my-5 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
@@ -342,6 +345,7 @@ export default function ThermacellCanadaPage() {
           <p>Two things matter for performance: <strong>still air and proximity</strong>. The Canadian fuel-powered line is registered for an area &ldquo;up to 4.5 metres from the device for up to 4 hours&rdquo; — that works out to roughly 65 sq m, about 700 sq ft, and only in dead-calm conditions. In a 10–15 km/h breeze, the vapour disperses faster than it can build up, dropping effectiveness by 50% or more.</p>
 
 
+          <RelatedLinks path="/blog/thermacell-canada-where-to-buy" />
           <h2>When Thermacell Is the Right Tool</h2>
           <ul>
             <li><strong>Sheltered patios and decks</strong> — wind-protected by walls or fencing</li>

@@ -11,6 +11,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { NEW_BLOGS, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const POST = NEW_BLOGS[6]
 const UPDATED = POST.date
@@ -137,6 +139,7 @@ export default function IsMosquitoSpraySafePage() {
         <p>BuzzSkito uses only mosquito barrier spray products registered for this use in Canada, applied by a licensed operator ({PROMISES.licence}) according to label directions. After application, the standard re-entry interval is <strong>30 minutes</strong> — the time needed for the spray to dry on plant surfaces, which is what the label direction turns on. Drying takes longer in shade, humidity, or cool weather. Keep children and pets indoors during the application, and let them back onto treated areas once the spray has dried.</p>
         <p>Those re-entry directions are not our marketing language. They come from Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA), which reviews each pest control product&rsquo;s health and environmental data before it can be registered, and writes the resulting precautions into the label.</p>
 
+        <NextUp path="/blog/is-mosquito-spray-safe-kids-pets" />
         <h2>What Pesticide Registration Actually Means</h2>
         <p>In Canada, any pest control product used commercially must be registered under the <em>Pest Control Products Act</em>. Registration requires the manufacturer to submit extensive safety data — toxicological studies, environmental fate data, and application rate testing. The PMRA reviews this data and sets the label requirements (application rates, personal protection equipment requirements, re-entry intervals, and prohibited uses) that licensed applicators must follow.</p>
         <p>Registration is not a government endorsement, and Canadian pesticide advertising rules don&rsquo;t allow it to be presented as one. What BuzzSkito can tell you is exactly what we do: we use only products registered for this use in Canada, each with a PCP registration number on its label, and we apply them according to label directions, which is a legal requirement.</p>
@@ -158,6 +161,7 @@ export default function IsMosquitoSpraySafePage() {
         </ul>
         <p>Permethrin spot-on treatments designed for dogs should <strong>never</strong> be used on cats — that&rsquo;s a direct application at a much higher concentration than barrier spray, and it is genuinely dangerous for cats. Barrier spray applied at label rates and allowed to dry is a very different exposure from a concentrated spot-on, but the caution around cats is real and worth following.</p>
 
+        <RelatedLinks path="/blog/is-mosquito-spray-safe-kids-pets" />
         <h2>Children: What the Research Says</h2>
         <p>Under the <em>Pest Control Products Act</em>, Health Canada&rsquo;s PMRA has to consider the different sensitivities of groups such as infants and children when it assesses a product, and residential assessments look at the ways children are actually exposed: playing on the lawn, touching plants, putting hands in mouths. The label rates and re-entry directions that come out of that review are the rules to follow. In practice that means keeping children off treated areas until the spray has dried, as the label directs.</p>
         <p>Pregnant women should apply the same common-sense approach as with any chemical product: avoid being present during application, and return to treated areas only after the spray has dried, as the label directs.</p>

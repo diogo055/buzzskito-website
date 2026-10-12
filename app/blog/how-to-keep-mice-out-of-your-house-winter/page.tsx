@@ -10,6 +10,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-keep-mice-out-of-your-house-winter'
 const DATE = '2026-07-16'
@@ -180,6 +182,7 @@ export default function HowToKeepMiceOutWinterPage() {
             <BuyLink tag={AMZ_TAG} search="door sweep garage">Rodent-rated door sweeps →</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-keep-mice-out-of-your-house-winter" />
           <h2>What Is the October Exclusion Checklist?</h2>
           <p>One dry Saturday, a pencil, painter&rsquo;s tape, and the materials above — done in this order, before the first frost:</p>
           <ol>
@@ -198,6 +201,7 @@ export default function HowToKeepMiceOutWinterPage() {
           <p>The garage protocol: fix the overhead door&rsquo;s bottom corners and threshold first, sweep the man door, and seal the wall penetrations — especially where pipes and wires pass through the shared house wall, your last line of defence. Then remove the reasons to stay: seed and pet food into sealed steel bins, cardboard off the floor and onto shelving (cardboard is nesting material and insulation in one), clutter pulled 15 cm off the wall so droppings show on the floor line. Finish with a permanent two-trap line along the back wall. If kids or a dog visit the garage, an enclosed station beats open snap traps — our <Link href="/blog/mouse-bait-station-canada">mouse bait station guide</Link> covers the tamper-resistant options, and the <Link href="/blog/victor-electronic-mouse-trap-review-canada">Victor electronic trap review</Link> covers why electronics belong indoors, not in a damp garage.</p>
           <p>One upgrade note: if the droppings in your garage are over 1 cm long or you hear something heavier than scratching, you may be hosting rats, not mice — different traps, different rules, covered in our <Link href="/blog/best-rat-trap-canada">best rat trap guide</Link>.</p>
 
+          <RelatedLinks path="/blog/how-to-keep-mice-out-of-your-house-winter" />
           <h2>How Do You Close a Cottage for Winter Without Feeding Mice?</h2>
           <p>Assume mice will get into an unattended cottage — seasonal buildings on piers or block foundations cannot be sealed to house standard — and make the inside worthless to them instead. The closing weekend protocol used by generations of Muskoka, Kawartha, and Haliburton cottagers:</p>
           <ul>

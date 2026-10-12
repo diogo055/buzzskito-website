@@ -10,6 +10,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'best-tick-repellent-yard-canada'
 const DATE = '2026-04-26'
@@ -187,6 +188,7 @@ export default function BestTickRepellentYardPage() {
             <li><strong>Ultrasonic tick repellers</strong> — Zero evidence.</li>
           </ul>
 
+          <NextUp path="/blog/best-tick-repellent-yard-canada" />
           <h2>The Cedar Oil Question</h2>
           <p>Cedar oil works — peer-reviewed research has confirmed it has tick-repellent and tick-killing properties. But the gap between &ldquo;works in lab&rdquo; and &ldquo;works in your yard&rdquo; is large:</p>
           <ul>

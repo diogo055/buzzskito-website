@@ -11,6 +11,8 @@ import TopPick from '@/components/TopPick'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'rat-poison-canada-what-is-legal'
 const DATE = '2026-07-16'
@@ -180,6 +182,7 @@ export default function RatPoisonCanadaLegalPage() {
             cons={['No antidote for bromethalin', 'Poisoned rat can die out of reach', 'Traps beat it for most interior jobs']}
           />
 
+          <NextUp path="/blog/rat-poison-canada-what-is-legal" />
           <h2>Why Did Canada Restrict Second-Generation Rat Poisons?</h2>
           <p>Because they are single-feeding lethal and persist in tissue — a combination the PMRA concluded was too dangerous for unsupervised residential use. Its rodenticide re-evaluation set risk-mitigation rules that took full effect in 2013: second-generation anticoagulants (SGARs) became commercial-class only, and every remaining domestic-class rodenticide had to be sold as a ready-to-use, tamper-resistant bait station rather than loose pellets or meal.</p>
           <p>The logic explains the whole Canadian market. A first-generation active like warfarin usually needs several feedings to kill and clears from tissue relatively quickly. Brodifacoum kills from one feeding — but the rat keeps eating for the 4–10 days it takes to die, loading its body with many lethal doses. Whatever eats that rat next — an owl, a hawk, a fox, the neighbour&rsquo;s cat — takes the accumulated dose. Scale that across every backyard in the country and you get chronic contamination of the predators that eat rodents for a living, which is exactly what wildlife testing later confirmed.</p>
@@ -198,6 +201,7 @@ export default function RatPoisonCanadaLegalPage() {
             <BuyLink tag={AMZ_TAG} search="tomcat mouse killer disposable station">Tomcat Mouse Killer station →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/rat-poison-canada-what-is-legal" />
           <h2>Why Is Every US &ldquo;Best Rat Poison&rdquo; List Wrong for Canada?</h2>
           <p>Because almost everything those lists recommend is either commercial-class in Canada or not registered here at all. The US market lets ordinary consumers mail-order commercial rodenticides; Canada does not — and that one difference invalidates the entire genre. Products we will <strong>not</strong> recommend, and that you should not buy from US websites or grey-market resellers:</p>
           <ul>

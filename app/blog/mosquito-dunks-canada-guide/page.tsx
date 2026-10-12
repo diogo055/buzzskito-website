@@ -11,6 +11,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-dunks-canada-guide'
 const DATE = '2026-04-28'
@@ -575,6 +577,7 @@ export default function MosquitoDunksPage() {
           <p>Importantly, BTI is highly specific to mosquito and black fly larvae (and a few related species). The U.S. Environmental Protection Agency states that BTI toxins affect only the larvae of mosquitoes, black flies, and fungus gnats, so humans, pets, fish, frogs, dragonflies, water beetles, pollinators, and birds are not on its target list. That narrow target list is why BTI is so widely used in ponds and rain barrels; use it where the label directs.</p>
 
 
+          <NextUp path="/blog/mosquito-dunks-canada-guide" />
           <h2>Where to Use Mosquito Dunks (and Where Not To)</h2>
           <h3>✓ Ideal locations</h3>
           <ul>
@@ -787,6 +790,7 @@ export default function MosquitoDunksPage() {
           <h3>30 days is a ceiling, not a promise</h3>
           <p><strong>NC State Extension</strong> tells homeowners dunks &ldquo;last around 3&ndash;4 weeks before they need to be replaced&rdquo; &mdash; slightly shorter than the 30 days on the label. Heat, heavy rain, and water turnover all shorten it. The practical rule: check at three weeks, and if you see wrigglers, replace early rather than waiting out the calendar month.</p>
 
+          <RelatedLinks path="/blog/mosquito-dunks-canada-guide" />
           <h2>Do mosquito dunks still work after they sink?</h2>
           <p className="speakable"><strong>Yes.</strong> A dunk keeps releasing BTI whether it floats or sits on the bottom, and Summit states this on the label. Mosquito larvae are filter feeders that graze through the whole water column rather than only the surface, so they take up the spores wherever the tablet ends up. Sinking is normal as the tablet absorbs water and starts breaking down.</p>
           <p>The only real drawback is bookkeeping: once a dunk is out of sight you stop noticing it, and &ldquo;I think there&rsquo;s still one in there&rdquo; becomes a month of untreated water. Put the replacement on a calendar reminder instead of relying on spotting the tablet, and if you want a visual check, drop the next one in a mesh bag tied to the barrel handle.</p>

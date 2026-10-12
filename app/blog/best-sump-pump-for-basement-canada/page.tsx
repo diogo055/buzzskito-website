@@ -11,6 +11,8 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-sump-pump-for-basement-canada'
 const DATE = '2026-08-22'
@@ -239,6 +241,7 @@ export default function BestSumpPumpForBasementCanadaPage() {
           <p>Those insects are not attracted to your house, they are attracted to moisture, and they cannot survive long without it. Silverfish need high relative humidity to complete their life cycle; house centipedes are predators following their prey into damp voids; sowbugs are crustaceans that dry out and die in a genuinely dry basement. So when someone runs a dehumidifier flat out and still has silverfish in October, the usual explanation is that water is arriving faster than the appliance can remove it &mdash; and the sump is the reason.</p>
           <p>A dehumidifier treats the symptom in the air. The sump pump decides whether water gets into the slab and the pit in the first place. Get the pump right and the dehumidifier finally wins; get it wrong and you are running an appliance against an open tap. For the appliance half, our <Link href="/blog/best-dehumidifier-for-basement-canada">basement dehumidifier guide</Link> covers pint sizing and the humidity targets that starve those pests, and the <Link href="/blog/best-crawl-space-dehumidifier-canada">crawl space version</Link> handles the harder case.</p>
 
+          <NextUp path="/blog/best-sump-pump-for-basement-canada" />
           <h2>Size by Lift Height, Not Horsepower</h2>
           <p>Horsepower is the number on the box and the number most buyers shop on. It is close to useless on its own, because what a pump delivers is a <em>curve</em>: flow falls as the height it must push against rises. A big gallons-per-hour headline is quoted at or near zero lift &mdash; a condition that exists nowhere in a real basement.</p>
           <p>The figure you need is <strong>total dynamic head</strong>, and you can estimate it with a tape measure in five minutes:</p>
@@ -269,6 +272,7 @@ export default function BestSumpPumpForBasementCanadaPage() {
           <p>A <BuyLink tag={AMZ_TAG} search="sump pump check valve 1.5 inch">check valve</BuyLink> is not optional. Without one, every time the pump shuts off, the column of water standing in the vertical discharge pipe falls straight back into the pit, refills it, and restarts the pump &mdash; a self-inflicted short-cycle on every single run. Fit it in the vertical run <em>above</em> the pit lid, at a height you can actually reach, because check valves wear out and you will replace one. A spring-loaded or &ldquo;silent&rdquo; check valve avoids the water-hammer bang a swing check makes on shutdown, which matters if the pit is under a bedroom.</p>
           <p>Then drill a <strong>3/16 inch weep hole</strong> in the discharge pipe between the pump outlet and the check valve, to let trapped air escape. Without it a pump can air-lock: the impeller spins, the motor sounds perfect, no water moves. Thirty seconds with a drill prevents a failure that is genuinely hard to diagnose. Finally, a <BuyLink tag={AMZ_TAG} search="sump pump quick disconnect union fitting">quick-disconnect union</BuyLink> lets you lift the pump out for service without cutting pipe &mdash; small money, and the difference between a fifteen-minute job and an afternoon.</p>
 
+          <RelatedLinks path="/blog/best-sump-pump-for-basement-canada" />
           <h2>The Canadian Problem: Winter Discharge</h2>
           <p>Everything above applies anywhere. This is the part that makes a Canadian buying guide read differently from an American one, and the failure sequence repeats every year. The outdoor discharge line ices at the outlet during a cold snap and the ice creeps back up the pipe. Then a thaw arrives, groundwater surges, the pit fills, and the pump starts &mdash; against a solid plug of ice. It cannot move water, so it cannot shed heat, and it runs until the thermal cutout trips or the motor burns. The homeowner finds out when the basement floods, in February.</p>
           <p>Three defences, in order of impact:</p>

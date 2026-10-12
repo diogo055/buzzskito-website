@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-magnet-canada'
 const DATE = '2026-05-01'
@@ -415,6 +417,7 @@ export default function MosquitoMagnetCanadaPage() {
           <p>Still comparing propane CO₂ traps before committing to the Mosquito Magnet ecosystem? Our <Link href="/blog/propane-mosquito-trap-canada">propane mosquito trap Canada guide</Link> covers the whole category — Mosquito Magnet alternatives, real running costs, and which units actually earn their keep.</p>
           <p>The other device people cross-shop against a Magnet is the <Link href="/blog/laser-mosquito-killer-photon-matrix-review">mosquito laser</Link>. The photonic-fence concept is real in a lab, but the consumer units are still unproven pre-orders, so it isn&rsquo;t a substitute for a trap you can actually buy and run this season.</p>
 
+          <NextUp path="/blog/mosquito-magnet-canada" />
           <h2>When Mosquito Magnet Is the Right Tool</h2>
           <ul>
             <li><strong>Cottage properties</strong> — Muskoka, Haliburton, Kawarthas — chronic seasonal pressure</li>
@@ -530,6 +533,7 @@ export default function MosquitoMagnetCanadaPage() {
           </ul>
           <p>Of those four, the skin layer is the one you can act on tonight, and in Canada the decision is made on the label: a PCP registration number, an active ingredient from that list, a concentration matched to how long you will actually be outside, and a separate line of products labelled for use on children. <BuyLink tag={AMZ_TAG} search="picaridin insect repellent">Check DEET and picaridin repellents on Amazon.ca &rarr;</BuyLink></p>
 
+          <RelatedLinks path="/blog/mosquito-magnet-canada" />
           <h2>Does Anything Actually Work to Keep Mosquitoes Away?</h2>
           <p className="not-prose text-[15px] leading-relaxed text-gray-900 font-medium border-l-4 border-emerald-400 bg-emerald-50 pl-4 py-3 rounded-r-lg my-4">Yes — three things with real evidence behind them: registered skin repellents, source reduction with BTI in any water you cannot drain, and residual barrier treatment of the shaded vegetation where mosquitoes rest. What does not work: ultrasonic repellers, wristbands, bug zappers, and citronella candles beyond about a metre in still air.</p>
           <p>The reason this question is asked so often is that the category is full of products that fail. It is worth being explicit about both columns.</p>

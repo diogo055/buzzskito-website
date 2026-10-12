@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'doktor-doom-sleep-tight-review-canada'
 const DATE = '2026-07-21'
@@ -222,6 +224,7 @@ export default function DoktorDoomSleepTightReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug steamer">Bed bug steamer →</BuyLink>
           </div>
 
+          <NextUp path="/blog/doktor-doom-sleep-tight-review-canada" />
           <h2>How It Actually Performs: Fast on Contact, Honest About the Rest</h2>
           <p>The single thing Sleep Tight does well is what a contact spray is supposed to do: hit a bed bug directly and it drops fast. That immediate knockdown is genuinely useful and genuinely reassuring &mdash; when you find live bugs in a seam and can watch them die, you have made real progress and bought yourself an immediate population reduction. As a spot-treatment tool for bugs you can see, and as a residual film laid down along known travel routes, it earns its place in the kit.</p>
           <p>But you have to be clear-eyed about the two ceilings every liquid spray hits, and Sleep Tight is no exception. The first is <strong>eggs</strong>. A female bed bug cements her eggs to fabric under a protective coating, and a spray droplet that lands nearby almost never penetrates enough to kill the developing insect inside. So a mattress you have sprayed thoroughly can still be seeded with viable eggs that hatch days later &mdash; which is precisely why heat, not spray, is the egg-killer in any real plan. The second ceiling is <strong>resistance</strong>. Most consumer bed bug sprays, Sleep Tight included, rely on pyrethroid chemistry, and bed bug populations in many regions have developed reduced sensitivity to it. The bugs you directly soak still die; the ones that merely stroll across the dried residue may not. Neither of these is a knock specific to Doktor Doom &mdash; they are the physics and biology of spraying &mdash; but a review that did not tell you would be selling you something.</p>
@@ -237,6 +240,7 @@ export default function DoktorDoomSleepTightReviewCanadaPage() {
           </ul>
           <p>If your problem is beyond a bug or two in one room, resist the urge to just empty the can. Over-spraying does not overcome resistance or reach eggs &mdash; it only spreads residue and, sometimes, scatters the bugs. The win comes from combining tools, not from more of one.</p>
 
+          <RelatedLinks path="/blog/doktor-doom-sleep-tight-review-canada" />
           <h2>How to Choose: What You&rsquo;re Actually Paying For in a Bed Bug Spray</h2>
           <p>Bed bug sprays range from a few dollars to premium multi-packs, and the price gap rarely tracks effectiveness the way you would hope. When you are deciding what to buy, prioritise your money and attention in this order:</p>
           <ul>

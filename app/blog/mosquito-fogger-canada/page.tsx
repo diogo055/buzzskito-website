@@ -11,6 +11,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-fogger-canada'
 const DATE = '2026-07-12'
@@ -275,6 +277,7 @@ export default function MosquitoFoggerCanadaPage() {
           </ul>
           <p><strong>Critical understanding:</strong> a fogger is a <em>space treatment</em>, not a <em>surface treatment</em>. It clears the mosquitoes flying in your yard right now, but once the fog settles and dissipates &mdash; a matter of hours &mdash; there is almost nothing left on the leaves to kill the next wave. That is the single most important thing to understand before buying one.</p>
 
+          <NextUp path="/blog/mosquito-fogger-canada" />
           <h2 id="models">Best Mosquito Foggers in Canada Compared</h2>
           <p>Here are the fogger types most commonly sold in Canada, what each is best at, an approximate 2026 Canadian price, and a live Amazon.ca price check. The three classic propane units (Black Flag, Repel, Burgess) all run on the same principle &mdash; heat an oil-based fogging insecticide into a visible fog &mdash; and differ mostly in tank size, build, and price.</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
@@ -349,6 +352,7 @@ export default function MosquitoFoggerCanadaPage() {
             <li><strong>On-demand control you own</strong> &mdash; no scheduling, no waiting, you fog whenever you want</li>
           </ul>
 
+          <RelatedLinks path="/blog/mosquito-fogger-canada" />
           <h2 id="when-it-fails">When a Fogger Is the Wrong Tool</h2>
           <ul>
             <li><strong>Season-long, hands-off protection</strong> &mdash; the near-zero residual means you would be re-fogging constantly</li>

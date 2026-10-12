@@ -9,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'mosquito-facts'
 const DATE = '2026-07-12'
@@ -224,6 +225,7 @@ export default function MosquitoFactsPage() {
             cons={['Protects only the person wearing it, not the yard', 'Needs reapplication on long days outdoors']}
           />
 
+          <NextUp path="/blog/mosquito-facts" />
           <h2>The One Fact That Matters Most</h2>
           <p>Of every fact on this page, one is worth acting on: mosquitoes cannot complete their life cycle without <strong>standing water</strong>, and container-breeding Aedes need barely a bottle cap&rsquo;s worth. Empty and scrub anything that holds water weekly — plant saucers, clogged gutters, tarps, toys, birdbaths — and you break the cycle before adults ever take flight. Pair that with a barrier treatment of the shaded areas where adults rest, and you address both ends of the mosquito&rsquo;s life at once.</p>
 

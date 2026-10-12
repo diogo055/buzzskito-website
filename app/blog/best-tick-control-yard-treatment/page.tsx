@@ -10,6 +10,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const POST = TICK_BLOGS.supporting[3]
 const UPDATED = '2026-07-16'
@@ -154,6 +155,7 @@ export default function BestTickControlPage() {
           </table>
         </div>
 
+        <NextUp path="/blog/best-tick-control-yard-treatment" />
         <h2>Professional Tick Control: How It Differs From DIY</h2>
         <p>Professional residual insecticides and consumer products differ mainly in who they are labelled for, how much of the yard gets covered, and how the application is scheduled. The specific differences:</p>
         <ul>

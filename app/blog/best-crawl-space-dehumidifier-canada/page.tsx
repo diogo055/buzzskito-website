@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-crawl-space-dehumidifier-canada'
 const DATE = '2026-08-22'
@@ -237,6 +239,7 @@ export default function BestCrawlSpaceDehumidifierCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="condensate pump for dehumidifier continuous drain">Condensate pump &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-crawl-space-dehumidifier-canada" />
           <h2>The Vapour Barrier Comes First, and It Is Not Close</h2>
           <p>A crawl space with an exposed earth floor is not a room with a humidity problem. It is a room sitting on top of an unlimited moisture reservoir. Soil holds water and gives it up to the air above it continuously, and that process does not stop, slow down, or get ahead of itself. Put a dehumidifier over open dirt and it will run essentially forever, pulling water out of the ground one litre at a time, and your hydro bill will pay for the privilege.</p>
           <p>Covering the ground changes the arithmetic completely. A continuous sheet of polyethylene laid across the soil, with the seams overlapped and taped and the edges carried up the foundation wall and sealed there, cuts the evaporation load enormously. It is unpleasant work in a tight space and it is a few hundred dollars of material, but it addresses the source rather than the symptom. Do it, wait a few weeks, and measure again. A meaningful number of Canadian crawl spaces settle below 60% relative humidity on the barrier alone and never need a dehumidifier at all.</p>
@@ -254,6 +257,7 @@ export default function BestCrawlSpaceDehumidifierCanadaPage() {
             <li><strong>You were planning to run the line out through a vent:</strong> do not. An exterior condensate line in Ontario freezes solid for months. The water backs up, the unit faults out on a full-condensate signal or overflows into the space, and you find out in the spring. Terminate indoors &mdash; sump pit, laundry standpipe, or floor drain.</li>
           </ul>
 
+          <RelatedLinks path="/blog/best-crawl-space-dehumidifier-canada" />
           <h2>Sizing: Read the Test Condition, Not the Number on the Box</h2>
           <p>Crawl space dehumidifiers are frequently marketed at a different test condition than the portables sold beside them, and this is where buyers get quietly misled. The same physical machine can be advertised with one pint-per-day figure under the AHAM test condition and a figure roughly twice as large under a saturation condition, because saturation testing runs the unit in hot, extremely humid air where any dehumidifier performs at its best. Neither number is dishonest on its own; comparing one against the other is meaningless. Whenever you see a capacity claim, find the condition printed next to it before you compare it with anything.</p>
           <p>With that caveat, here is a working guide for Canadian crawl spaces, using AHAM-condition ratings:</p>

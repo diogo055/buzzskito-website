@@ -10,6 +10,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { NEW_BLOGS_3, MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const POST = NEW_BLOGS_3[3]
 const UPDATED = POST.date
@@ -144,6 +145,7 @@ export default function NaturalMosquitoControlPage() {
         <p>Professional barrier spray, by contrast, typically uses a synthetic pyrethroid (permethrin or bifenthrin) that is a synthetic analogue of naturally occurring pyrethrins found in chrysanthemum flowers. It is not &ldquo;organic.&rdquo; Products sold for this use in Canada carry a PCP registration number, and the label sets out how, where and at what rate they may be applied, including restrictions near water and flowering plants.</p>
         <p>The honest answer: a layered approach — combining the genuinely effective natural methods with targeted professional treatment where it&apos;s warranted — keeps professional treatment to the places it is actually warranted.</p>
 
+        <NextUp path="/blog/natural-eco-friendly-mosquito-control-ontario" />
         <h2>Natural Mosquito Control Methods: An Honest Assessment</h2>
 
         <h3>1. Bacillus thuringiensis israelensis (BTi) — Highly Effective for Larvae</h3>

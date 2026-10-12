@@ -11,6 +11,8 @@ import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import RelatedProducts from '@/components/RelatedProducts'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'black-flies-ontario-when-they-come-out'
 const DATE = '2026-04-26'
@@ -190,6 +192,7 @@ export default function BlackFliesOntarioPage() {
           </ol>
         </aside>
 
+        <NextUp path="/blog/black-flies-ontario-when-they-come-out" />
         <h2>Where Do Black Flies Breed?</h2>
         <p>This is the single most important fact about black flies, because it determines who is at risk: <strong>black flies breed exclusively in clean, flowing water.</strong> Larvae attach themselves to submerged rocks, branches, and vegetation in streams and rivers, where they filter-feed on organic particles in the current. They cannot develop in standing water — which is the opposite of mosquitoes.</p>
         <p>That means properties near the following waterways see the worst black fly pressure each spring:</p>
@@ -263,6 +266,7 @@ export default function BlackFliesOntarioPage() {
         </ul>
         <p>This resting behaviour is exactly what makes professional barrier spray effective against them. The treatment targets the same surfaces black flies use for cover.</p>
 
+        <RelatedLinks path="/blog/black-flies-ontario-when-they-come-out" />
         <h2>Why Property-Edge Treatment Matters</h2>
         <p>Black flies arrive from outside your property and cannot be eliminated by source reduction the way mosquitoes can. You cannot drain a river. What you can do is treat the rest sites and feeding zones in your immediate yard environment so that the black flies that arrive do not stay long, do not feed in numbers, and do not establish a comfortable population during the peak weeks.</p>
         <p>Professional barrier spray for mosquitoes — applied to vegetation along property edges, treelines, fences, ornamental beds, and the underside of shrubs — collaterally controls black flies during the same May–June window when both insects are pressuring your yard. A properly timed first treatment in mid-to-late May provides peak coverage right when black fly emergence is heaviest.</p>

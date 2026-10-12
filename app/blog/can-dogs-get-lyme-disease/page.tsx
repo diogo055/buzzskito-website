@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'can-dogs-get-lyme-disease'
 const DATE = '2026-07-15'
@@ -120,6 +122,7 @@ export default function CanDogsGetLymeDiseasePage() {
           <p>Not every blacklegged tick carries the bacterium, and not every dog bitten by an infected tick becomes sick. In fact, veterinary consensus is that only about 5&ndash;10% of infected dogs ever develop clinical signs &mdash; the majority mount an immune response and remain outwardly healthy. That is reassuring, but it also means Lyme can quietly infect a dog without any obvious warning. Blacklegged ticks are active any time the temperature is above roughly 4&deg;C, so in the GTA that can mean risk from early spring through late fall, and even on mild winter days.</p>
           <p>If you have just found a tick on your dog, work through <Link href="/blog/i-found-tick-on-my-dog-what-to-do">what to do when you find a tick on your dog</Link> and follow a proper <Link href="/blog/how-to-remove-tick-from-dog-ontario">tick removal technique for dogs in Ontario</Link> &mdash; how you remove it affects infection risk.</p>
 
+          <NextUp path="/blog/can-dogs-get-lyme-disease" />
           <h2>Is Lyme disease in dogs contagious to other pets or people?</h2>
           <p>No &mdash; not directly. Lyme disease spreads through tick bites, not through contact between animals. An infected dog cannot pass Lyme to another dog, to a cat, or to a human by licking, sharing bowls, or being in the same house. The real shared risk is the ticks themselves: if your dog is bringing ticks home from the yard or the trail, the whole household is exposed to those same ticks. An unfed tick that hitches a ride on your dog can later attach to a person. This is why tick control is a household project, not just a pet-care task.</p>
 
@@ -182,6 +185,7 @@ export default function CanDogsGetLymeDiseasePage() {
           <h2>Can dogs die from Lyme disease?</h2>
           <p>Yes, but it is uncommon &mdash; and when it happens, it is almost always due to Lyme nephritis rather than the joint form. The classic arthritis version of canine Lyme disease is rarely life-threatening and usually responds well to treatment. The kidney form is different: once the kidneys are damaged, the condition can progress to kidney failure, which is often fatal even with intensive care. This stark difference in outcomes is exactly why early recognition and veterinary follow-up matter so much. A limping dog caught early has an excellent outlook; a dog in kidney failure does not.</p>
 
+          <RelatedLinks path="/blog/can-dogs-get-lyme-disease" />
           <h2>Is Lyme disease curable in dogs?</h2>
           <p>In most cases, yes &mdash; the clinical signs respond well to a veterinarian-prescribed course of antibiotics, and dogs with joint pain often improve dramatically within a few days of starting treatment. But "cured" deserves an honest caveat. The bacteria are not always completely eliminated from the body, some dogs relapse and need another round of treatment, and antibody blood tests can remain positive for months or years even after a dog feels fine. Dogs that develop Lyme nephritis have a much more guarded prognosis and need ongoing veterinary management. The best results come from catching the disease early and following your veterinarian&rsquo;s plan.</p>
 

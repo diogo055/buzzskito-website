@@ -8,6 +8,8 @@ import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const POST = {
   title: 'Lyme Disease Risk Areas Ontario 2026',
@@ -142,6 +144,7 @@ export default function LymeRiskAreas2026Page() {
         <p>Lyme disease continues to be one of the fastest-growing infectious diseases in Canada, and 2026 marks another year of geographic expansion. The Public Health Agency of Canada and Ontario Public Health have documented a sustained northward migration of blacklegged tick (<em>Ixodes scapularis</em>) populations, driven by warming winters and expanding deer and rodent habitats. The result: more Ontario communities now fall within confirmed Lyme disease risk zones than at any previous point on record.</p>
         <p>For GTA homeowners, the message is straightforward — Lyme disease risk is no longer confined to provincial parks or rural properties. Urban ravines, suburban conservation areas, and backyard gardens throughout Southern Ontario now harbour established blacklegged tick populations capable of transmitting <em>Borrelia burgdorferi</em>, the bacterium that causes Lyme disease.</p>
 
+        <NextUp path="/blog/lyme-disease-risk-areas-ontario-2026" />
         <h2>Confirmed Risk Areas in the GTA (2026)</h2>
         <p>Every major municipality in the Greater Toronto Area is now classified as a Lyme disease risk area. Here is the current risk landscape by region:</p>
 
@@ -187,6 +190,7 @@ export default function LymeRiskAreas2026Page() {
           <li><strong>Ottawa Valley:</strong> Established risk, particularly in the Gatineau Hills and along the Rideau corridor</li>
         </ul>
 
+        <RelatedLinks path="/blog/lyme-disease-risk-areas-ontario-2026" />
         <h2>Why the Risk Zone Keeps Expanding</h2>
         <p>Several factors drive the ongoing expansion of Lyme disease risk in Ontario:</p>
         <ul>

@@ -3,6 +3,8 @@ import Link from 'next/link'
 import AuthorByline from '@/components/AuthorByline'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'where-do-mosquitoes-go-in-winter-ontario'
 const DATE = '2026-07-12'
@@ -163,6 +165,7 @@ export default function WhereDoMosquitoesGoInWinterOntarioPage() {
           <p>People assume the first hard frost ends the mosquito problem for good. It doesn&rsquo;t. The individual mosquitoes biting you in July are gone by October, but the species has three separate survival strategies that carry it through an Ontario winter and straight into next spring.</p>
           <p><strong>1. Hibernating adult females (diapause).</strong> This is the strategy of <em>Culex</em> mosquitoes — including <em>Culex pipiens</em>, the main West Nile virus carrier in Ontario &mdash; and <em>Anopheles</em>. In late summer, mated females stop laying eggs, gorge on plant sugars to build fat, and slip into a protected shelter. Only mated females do this; every male dies in the fall. These females don&rsquo;t breed over winter — they simply survive, then lay the first eggs of the year in spring.</p>
           <p><strong>2. Cold-hardy eggs.</strong> <em>Aedes</em> mosquitoes (including the aggressive daytime-biting floodwater species) take a completely different approach. The female glues her eggs to the dry sides of tree holes, containers, tires, clogged gutters, and low spots in the yard. Those eggs are frost-tolerant — they can survive freezing and months of cold, then hatch the moment spring meltwater or rain floods them. The eggs, not the adults, are what carry the population through winter.</p>
+          <NextUp path="/blog/where-do-mosquitoes-go-in-winter-ontario" />
           <p><strong>3. Overwintering larvae.</strong> A few species ride out winter as larvae, dormant at the bottom of ponds and marshes or attached to plant roots in water that never fully freezes. They resume development once the water warms in late spring.</p>
 
           <h2>Diapause: A Mosquito&rsquo;s Version of Hibernation</h2>
@@ -199,6 +202,7 @@ export default function WhereDoMosquitoesGoInWinterOntarioPage() {
           <p>The spring rebound happens on two fronts at once. First, the overwintered <em>Culex</em> and <em>Anopheles</em> females leave their shelters as the weather warms, take a first blood meal, and lay the season&rsquo;s first batch of eggs. Second, the frost-hardy <em>Aedes</em> eggs that spent winter glued to dry surfaces hatch as soon as snowmelt and spring rain flood the low spots they were laid in.</p>
           <p>Both waves land within a few weeks of each other, which is why mosquitoes seem to appear &ldquo;out of nowhere&rdquo; in late April and May. From there it compounds fast: each female lays 100–300 eggs, a generation completes in as little as 8–10 days in warm weather, and populations climb steadily toward the June–July peak. For the full GTA timeline, see our guide on <Link href="/blog/mosquito-season-gta-when-does-it-start">when mosquito season starts in the GTA</Link>.</p>
 
+          <RelatedLinks path="/blog/where-do-mosquitoes-go-in-winter-ontario" />
           <h2>What Winter Survival Means for Spring Yard Prep</h2>
           <p>If mosquitoes overwinter right in your yard, the smartest thing you can do is deny that first generation the water it needs — before it ever hatches. A little work in April pays off for the entire season:</p>
           <ol>

@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-keep-spiders-out-of-your-house'
 const DATE = '2026-07-21'
@@ -215,6 +217,7 @@ export default function HowToKeepSpidersOutPage() {
           <p>What actually happens is mating season. From late August through October, mature male house spiders reach adulthood, abandon their webs and hiding spots, and start wandering in search of females. A male on a mission covers a lot of floor, and floors are where you notice him. Crucially, most of these spiders did not just arrive from the garden — arachnologists who have studied indoor spider populations consistently find that the species you meet in fall are <em>house</em> spiders that have been living in your basement, wall voids, closets, and window frames all along. The population did not spike; its visibility did.</p>
           <p>This reframing matters for two practical reasons. First, it tells you the fall surge is self-limiting — the wandering males mate and die, and by November the theatre closes on its own. Second, it tells you where to aim your effort: if the spiders are already resident, then squishing the ones you see is trimming leaves, while sealing entry points and cutting off their food supply is pulling roots. That is the plan this guide lays out.</p>
 
+          <NextUp path="/blog/how-to-keep-spiders-out-of-your-house" />
           <h2>First, the Reassuring Part: House Spiders Are Effectively Harmless</h2>
           <p>Before spending a dollar on control, calibrate the threat, because it is smaller than nearly anyone believes. There are <strong>no medically significant spiders established in most of Canada</strong>. The cast you actually meet indoors — cellar spiders (the spindly &ldquo;daddy long-legs&rdquo; type), common house spiders, the occasional wolf spider that hitchhiked in, and charismatic little jumping spiders — either cannot pierce human skin at all or can manage, at absolute worst, something like a mild bee sting. Genuinely dangerous encounters are so rare that Canadian emergency medicine treats &ldquo;spider bite&rdquo; diagnoses with heavy skepticism; most turn out to be infected scratches or other insect bites.</p>
           <p>The two famous villains deserve a sentence each. Black widows exist in Canada only in small pockets of the southern edge of the country, are extremely shy, and live in undisturbed outdoor clutter — woodpiles, sheds, rarely a living room. Brown recluses are <em>not established in Canada at all</em>, decades of misattributed &ldquo;recluse bites&rdquo; notwithstanding. If you are reading this from the southern United States, both species are real where you live, but the same behavioural truth applies: they are reclusive by nature and are found in undisturbed storage and clutter, not patrolling your ceiling.</p>
@@ -320,6 +323,7 @@ export default function HowToKeepSpidersOutPage() {
             <BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray">Check Doktor Doom residual spray →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/how-to-keep-spiders-out-of-your-house" />
           <h2>The Peppermint Oil Question, Answered Honestly</h2>
           <p>Peppermint oil is the internet&rsquo;s favourite spider remedy, so it deserves a straight answer rather than a wink. The best evidence in its favour is a small 2018 study in the <em>Journal of Economic Entomology</em> that found peppermint essential oil repelled spiders in a laboratory arena — a real result, worth taking seriously, and also worth reading closely: it worked on <em>some</em> species and not others, at close range, in a controlled chamber, while the volatile scent was fresh. Translating that to a real house means re-spraying windowsills every day or two, forever, to maybe deter a fraction of the species you host. No field study has ever demonstrated that peppermint oil keeps spiders out of an actual home.</p>
           <p>Our verdict: if you like the smell, a peppermint spray along windowsills and door frames is a pleasant ritual with a possible marginal bonus, and it is completely harmless. Just be clear-eyed that you are buying air freshener with a hypothesis attached, and that a door sweep — a comparable one-time spend — will still be working in five years without a single re-application. The same folk-remedy shelf holds conkers, citrus peel, and cedar blocks, all of which have failed the tests they have been given, and plug-in ultrasonic repellers, which have failed every test across every pest they have been pointed at.</p>

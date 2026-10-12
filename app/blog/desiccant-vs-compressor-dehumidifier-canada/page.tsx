@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'desiccant-vs-compressor-dehumidifier-canada'
 const DATE = '2026-08-22'
@@ -258,6 +260,7 @@ export default function DesiccantVsCompressorDehumidifierCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="digital hygrometer thermometer indoor humidity">Hygrometer →</BuyLink>
           </div>
 
+          <NextUp path="/blog/desiccant-vs-compressor-dehumidifier-canada" />
           <h2>Why a Compressor Unit Frosts in a Cold Room</h2>
           <p>A compressor dehumidifier is a small refrigeration circuit. It pulls room air across an evaporator coil held below the air&rsquo;s dew point, water condenses on the coil and drips into the tank, and the now-dry air is reheated slightly on the way back out. It is an elegant, efficient design, and in a warm humid room nothing beats it for water removed per kilowatt-hour.</p>
           <p>The trouble is that the coil has to be colder than the air for any of it to work. As the room cools, the coil surface is driven toward and then below freezing, and the condensate stops draining and starts building up as ice. A frosted coil is an insulated coil, so airflow drops, heat transfer drops, and water removal falls away. Manufacturers manage this with an auto-defrost cycle: the machine pauses drying, melts the coil, and resumes. That keeps a modern unit nominally functional down to about 5&deg;C, but every minute defrosting is a minute not drying, so useful output falls off sharply below about 15&deg;C and is close to token by 5&deg;C. An older unit without auto-defrost simply ices solid, and can be damaged.</p>
@@ -271,6 +274,7 @@ export default function DesiccantVsCompressorDehumidifierCanadaPage() {
           <p>In a warm room, a compressor wins on efficiency by a wide margin and it is not close. A domestic desiccant typically draws a few hundred watts continuously with no efficient cycling, because the heating element is the process. A compressor with a humidistat reaches its setpoint and coasts. That is why Energy Star ratings exist for compressor units and not for desiccants, and why nobody should put a desiccant in a heated basement to save money.</p>
           <p>In a cold room, that comparison stops meaning anything. A compressor at 5&deg;C is removing almost no water per kilowatt-hour, so it is not the efficient choice &mdash; it is simply not doing the job. Efficiency only counts when both machines can actually do the work. Pick the class that functions in your room first; optimise the hydro bill second. The most expensive dehumidifier in Canada is the cheap one that runs all winter and dries nothing.</p>
 
+          <RelatedLinks path="/blog/desiccant-vs-compressor-dehumidifier-canada" />
           <h2>Room by Room: Which One Belongs Where</h2>
           <ul>
             <li><strong>Heated basement or finished rec room (18&ndash;21&deg;C):</strong> compressor, always. Energy Star, settable humidistat, continuous drain, target 45&ndash;50% RH.</li>

@@ -3,6 +3,8 @@ import Link from 'next/link'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-does-a-spider-bite-look-like'
 const DATE = '2026-07-19'
@@ -187,6 +189,7 @@ export default function WhatDoesASpiderBiteLookLikePage() {
         <p>Context matters as much as appearance. The overwhelming majority of spiders either cannot pierce human skin at all or deliver venom that causes nothing more than brief, local irritation &mdash; Health Canada&rsquo;s pest guidance describes spiders as generally beneficial and reluctant to bite, and the CDC&rsquo;s occupational guidance identifies only <strong>two spider groups of medical concern in North America</strong>: widow spiders and the brown recluse. Everything else on this continent produces, at worst, a bump that behaves like a bee sting and fades within a week to ten days.</p>
         <p>Spiders also do not feed on blood, so they have no reason to bite repeatedly. A genuine spider bite is <strong>almost always a single mark</strong> &mdash; typically from a spider pressed against skin inside clothing, bedding, gloves, or shoes. Multiple bumps, clusters, or lines of bites point strongly toward something else.</p>
 
+        <NextUp path="/blog/what-does-a-spider-bite-look-like" />
         <h2>Is it actually a spider bite? Probably not</h2>
         <p>Statistically, a sore blamed on a spider is <strong>usually not a spider bite</strong> &mdash; and this is the most important fact on this page. Published medical reviews of suspected spider bites have repeatedly found that the large majority, <strong>in some studies more than 80%</strong>, were actually other conditions. The most common true culprit is a bacterial skin infection, especially <strong>MRSA</strong>, whose painful, red, sometimes necrotic-looking abscesses are near-perfect spider-bite impostors.</p>
         <p>Clinicians consider a spider bite confirmed only when the spider was <strong>seen biting and identified</strong> &mdash; a bar almost no self-diagnosed case clears. Common conditions mistaken for spider bites include:</p>
@@ -408,6 +411,7 @@ export default function WhatDoesASpiderBiteLookLikePage() {
           <li><strong>Any bite that becomes infected:</strong> improves within days once the right treatment starts &mdash; which is the argument for getting a worsening sore looked at early rather than waiting it out.</li>
         </ul>
 
+        <RelatedLinks path="/blog/what-does-a-spider-bite-look-like" />
         <h2>How do you treat a spider bite at home?</h2>
         <p>For an ordinary bite with no red-flag signs, home care is simple and the same guidance the CDC gives for suspected spider bites generally:</p>
         <ul>

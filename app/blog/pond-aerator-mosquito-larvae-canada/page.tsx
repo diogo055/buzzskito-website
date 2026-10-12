@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'pond-aerator-mosquito-larvae-canada'
 const DATE = '2026-08-22'
@@ -225,6 +227,7 @@ export default function PondAeratorMosquitoLarvaePage() {
           <p>Mosquito larvae breathe air. That one fact explains everything about pond aeration and mosquitoes, and it is worth being precise about because it is the rare piece of backyard pest advice where the folk wisdom happens to be mechanically correct.</p>
           <p>A <em>Culex</em> larva &mdash; the wriggler you find in a rain barrel or a neglected water feature &mdash; hangs head-down just under the surface with a siphon tube piercing the surface film, drawing atmospheric air. <em>Anopheles</em> larvae lie flat against the film instead. Pupae, the comma-shaped tumblers, use a pair of trumpets at the same interface. Every aquatic stage of a mosquito&rsquo;s life is tethered to an intact, undisturbed surface film, and all of them filter-feed in calm water.</p>
           <p>Take the film away and none of that works. It is the same reason a fast creek never breeds mosquitoes while the still eddy behind a rock does, and the reason a fountain solves a bird bath. Before you spend anything, our <Link href="/blog/mosquito-larvae-identification">mosquito larvae identification guide</Link> shows the difference between wrigglers, tumblers and the harmless invertebrates sharing the water with them.</p>
+          <NextUp path="/blog/pond-aerator-mosquito-larvae-canada" />
           <p>Be clear about the limit, though: <strong>aeration is habitat management, not a larvicide.</strong> It changes the odds in the open water; it does not reach a sheltered pocket behind a clump of pickerelweed, the still ring at the very edge, the underside of lily pads, or the inside of a skimmer box. Those places stay calm and they will keep producing. Circulation plus BTI is the complete answer; circulation alone is most of one.</p>
 
           <h2>An Ornamental Pond Is a Self-Inflicted Breeding Site</h2>
@@ -255,6 +258,7 @@ export default function PondAeratorMosquitoLarvaePage() {
             <BuyLink tag={AMZ_TAG} search="pond air diffuser plate membrane">Diffuser plates &amp; discs &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/pond-aerator-mosquito-larvae-canada" />
           <h2>Winterizing a Pond Aerator in Ontario</h2>
           <p>This is where Canadian pond ownership diverges sharply from the American guides that dominate search results, and getting it wrong kills fish.</p>
           <p>Under ice, a pond stratifies and the fish settle into the slightly warmer, denser water at the bottom. A bottom diffuser running through January destroys that structure &mdash; it drags the whole column into circulation and drops the bottom to near-freezing along with everything else. That is a genuine risk to overwintering koi and goldfish, and it is the reason blanket &ldquo;run your aerator all winter&rdquo; advice is wrong at this latitude.</p>

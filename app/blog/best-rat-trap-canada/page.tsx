@@ -12,6 +12,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-rat-trap-canada'
 const DATE = '2026-07-16'
@@ -282,6 +284,7 @@ export default function BestRatTrapCanadaPage() {
           <p>Because of mass. An adult Norway rat weighs 200–500 grams; a house mouse weighs 15–30 grams. A mouse trap&rsquo;s spring bar is engineered to break the neck of a 20-gram animal — against a rat that&rsquo;s 10–20 times heavier, it delivers a painful pinch instead of a kill. The rat tears free, and now you have a bigger problem than before: a <strong>trap-shy rat</strong>.</p>
           <p>Trap-shyness is the reason sizing matters so much. Rats are intelligent, cautious animals that learn from a single bad experience and transmit avoidance behaviour to the rest of the colony. A rat that survives a mouse-trap strike will refuse to approach anything trap-shaped for weeks — sometimes permanently. Rat traps are built to close the deal the first time: roughly twice the footprint of a mouse trap, with several times the spring force. If you&rsquo;re actually dealing with mice (3–6 mm pointed droppings rather than 12–19 mm blunt capsules), you want our <Link href="/blog/best-mouse-trap-canada">best mouse trap Canada guide</Link> instead — the reverse mistake, rat traps for mice, wastes money and risks a nasty injury to fingers and paws.</p>
 
+          <NextUp path="/blog/best-rat-trap-canada" />
           <h2 id="which-trap">Which Rat Trap Should You Buy in Canada?</h2>
           <p>Three traps cover essentially every home situation, and all three are traps rather than pesticides &mdash; rodent traps are not among the devices prescribed in Schedule 1 of the Pest Control Products Regulations, so no PMRA registration applies &mdash; and they are safe to use in kitchens, basements, and garages when placed sensibly.</p>
 
@@ -432,6 +435,7 @@ export default function BestRatTrapCanadaPage() {
           </ul>
           <p>Two outdoor realities worth naming. First, sustained outdoor pressure often is not coming from your property &mdash; a neighbour&rsquo;s compost, a restaurant bin, or a construction excavation two streets over can supply rats faster than you trap them, and no amount of hardware fixes that alone. Second, garden trapping never ends the way indoor trapping does: outdoors you are managing a population rather than clearing a closed space, so treat the stations as permanent infrastructure to be checked weekly, not a two-week project.</p>
 
+          <RelatedLinks path="/blog/best-rat-trap-canada" />
           <h2 id="victor-vs-tomcat">Victor vs Tomcat vs Electronic — Head to Head</h2>
           <p><strong>The short verdict: Victor for kill force per dollar, Tomcat for ease and safety of setting, electronic for never having to see the rat.</strong> If you want one sentence to act on &mdash; buy several wooden Victor traps, because the tactic that clears a colony is deploying six at once, and only the cheap trap lets you.</p>
           <table className="min-w-[640px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

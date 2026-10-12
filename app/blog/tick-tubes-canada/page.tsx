@@ -9,6 +9,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'tick-tubes-canada'
 const DATE = '2026-07-14'
@@ -182,6 +184,7 @@ export default function TickTubesCanadaPage() {
           <p>The idea sounds strange until you understand the biology. In Ontario, the tick that matters most for human health is the <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged tick (also called the deer tick)</Link>, the species that spreads Lyme disease. This tick has a two-year life cycle with three feeding stages: larva, nymph, and adult. And here is the key fact tick tubes exploit — the larvae and many of the nymphs take their blood meals from <strong>small mammals, especially white-footed mice and deer mice</strong>. Mice are also the main reservoir where young ticks pick up the Lyme bacterium in the first place.</p>
           <p>So if you can treat the mice, you treat the ticks riding on them, before those ticks ever grow up and come looking for you or your dog.</p>
 
+          <NextUp path="/blog/tick-tubes-canada" />
           <h2>How tick tubes break the life cycle</h2>
           <p>Mice are relentless nest-builders. When they find soft cotton, they gather it and carry it back to line their burrows and nests. When a mouse grooms itself and moves through cotton laced with permethrin, a small amount transfers onto its fur and skin. That residue does not meaningfully harm the mouse — but it is lethal to the tiny larval and nymphal ticks attached to it. The ticks die on the host before they can drop off, moult, and continue the cycle.</p>
           <p>Because you are killing ticks at the larval and nymphal stage — before they become the questing nymphs and adults that bite people — the payoff is <strong>preventive and delayed</strong>. A tube you place this summer is reducing the population of infected nymphs you would otherwise face next year. This is the single most important thing to understand about tick tubes: they are not a knock-down tool. They will not clear ticks off your lawn tonight, this weekend, or before your backyard party.</p>
@@ -253,6 +256,7 @@ export default function TickTubesCanadaPage() {
             </tbody>
           </table>
 
+          <RelatedLinks path="/blog/tick-tubes-canada" />
           <h2>Are DIY tick tubes worth it? (Read the PMRA angle first)</h2>
           <p>Plenty of blogs show you how to jam permethrin-soaked cotton balls into toilet-paper rolls. It is cheap, and the mechanism is identical to the commercial version. But there are real reasons the pros lean toward manufactured tubes.</p>
           <p>First, the legal and safety angle. In Canada, permethrin products are regulated by Health Canada&rsquo;s <strong>Pest Management Regulatory Agency (PMRA)</strong>, and the law is that you must use a registered pesticide <strong>only according to its approved label</strong>. Many permethrin products Canadians can buy — clothing treatments, pet spot-ons — are labelled for those specific uses, not for building tick tubes. Repurposing them into homemade tubes is an off-label use. Commercial tubes like Thermacell are formulated, dosed, and labelled specifically for this application, which is exactly why they exist.</p>

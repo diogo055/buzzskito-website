@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-shells-casings-shed-skins-canada'
 const DATE = '2026-07-30'
@@ -362,6 +364,7 @@ export default function BedBugShellsCasingsPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug inspection flashlight magnifier kit">Inspection kit &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/bed-bug-shells-casings-shed-skins-canada" />
           <h2>Reading the Sizes: What Five Different Husks in One Seam Tells You</h2>
           <p>Because each moult produces a larger husk than the last, the size spread in a seam is a readable record. First-stage skins are roughly a millimetre and a half &mdash; near the limit of what an unaided eye resolves &mdash; and the last nymphal skin approaches the size of an adult bed bug, about four and a half millimetres, the familiar apple-seed comparison.</p>
           <ul>
@@ -402,6 +405,7 @@ export default function BedBugShellsCasingsPage() {
           </ul>
           <p>Husks lying loose on open floor in the middle of a room have almost always been moved there &mdash; by a vacuum, a sheet change, or a foot. Do not read them as a harbourage.</p>
 
+          <RelatedLinks path="/blog/bed-bug-shells-casings-shed-skins-canada" />
           <h2>The First 48 Hours: What to Do, and Three Things Never to Do</h2>
           <p><strong>Do:</strong> encase the mattress and box spring; set interceptors; run all bedding and any clothing from the room through a hot wash and, more importantly, a <em>hot dryer cycle</em>, since dryer heat is the reliable killer rather than the wash; bag laundry in sealed bags for transport so you are not seeding the hallway or the car; pull the bed away from the wall and keep the bedding off the floor; and photograph everything you find with something for scale, because dated photographs matter enormously if you are a tenant.</p>
           <p><strong>Never:</strong></p>

@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-larvae-identification'
 const DATE = '2026-04-28'
@@ -700,6 +702,7 @@ export default function MosquitoLarvaePage() {
             <li><strong>Adult</strong> — Emerges from pupa, flies away, mates within 24 hours. Females then seek a blood meal to develop eggs and the cycle repeats.</li>
           </ol>
           <p>Only about half of the adults emerging from your barrel will ever bite you. The blood meal in step 4 is a female requirement — she needs the protein in it to develop each batch of eggs — while males feed on flower nectar and cannot pierce skin at all. So every wriggler you kill is really about stopping a future egg-laying female: <Link href="/blog/male-vs-female-mosquito">only female mosquitoes bite, and here is why</Link>, including how to tell the two apart by their antennae.</p>
+          <NextUp path="/blog/mosquito-larvae-identification" />
           <p>Total egg-to-adult time is about <strong>7–14 days</strong> in typical Ontario summer temperatures. This is why <strong>weekly yard inspection</strong> is the most effective DIY mosquito prevention — you interrupt the cycle before adults emerge.</p>
 
           <h2>Where to Look on Your Property</h2>
@@ -810,6 +813,7 @@ export default function MosquitoLarvaePage() {
           <p><strong>Where to buy.</strong> In Canada the dunks and bits sit in the garden aisle at Canadian Tire, Home Depot, and Rona for $10&ndash;$20. In the United States the same Summit products are stocked at Home Depot, Lowe&rsquo;s, Walmart, Ace Hardware, and Tractor Supply, and the surface films and IGR briquets above are usually a special-order or online item rather than an end-cap product.</p>
           <p>The growth-regulator row is the one worth knowing about if your problem water is a catch basin, a cistern, or a pond you top up all season rather than a barrel you can tip over. A methoprene or pyriproxyfen briquet is a sustained-release ring that sits in the water for weeks and stops the larvae under it from ever emerging as adults, which is a different job from a dunk that has to be eaten and a different job again from a film that suffocates what is already at the surface. Read the label for the water types it is cleared for and the replacement interval before you drop one in. <BuyLink tag={AMZ_TAG} search="mosquito larvicide growth regulator briquets">check IGR larvicide briquets on Amazon.ca &rarr;</BuyLink></p>
 
+          <RelatedLinks path="/blog/mosquito-larvae-identification" />
           <h2>Does BTI Kill Mosquito Pupae? (No &mdash; and Here Is What Does)</h2>
           <p><strong>BTI does not kill pupae.</strong> It has to be swallowed to work, and pupae &mdash; the comma-shaped &ldquo;tumblers&rdquo; &mdash; do not feed at all. They are a sealed transitional stage lasting one to four days before the adult flies off. The CDC is explicit on this point: <strong>mineral oils and monomolecular surface films are the only larvicide class that also kills pupae</strong>, because they work physically, by blocking the breathing trumpets at the surface, rather than by being eaten.</p>
           <p>So if you look into a rain barrel and see tumblers rolling downward rather than wrigglers darting in an S-shape, the reliable moves are: <strong>dump the water</strong> if you can, or <strong>apply a surface film</strong> if you cannot. A BTI dunk added at that moment is still worth adding &mdash; it will kill the larvae behind the pupae and the next batch of eggs to hatch &mdash; but it will not stop the adults that are already pupating from emerging over the next day or two. This is the one place where &ldquo;treat it with BTI&rdquo; is not sufficient on its own.</p>

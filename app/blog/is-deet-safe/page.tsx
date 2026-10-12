@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'is-deet-safe'
 const DATE = '2026-07-15'
@@ -152,6 +154,7 @@ export default function IsDeetSafePage() {
           <p>DEET is the active ingredient in most conventional insect repellents — a synthetic compound that keeps mosquitoes, ticks, and biting flies from landing on and biting you. It has been the benchmark repellent for more than 60 years, and both Health Canada and the U.S. Centers for Disease Control and Prevention (CDC) list it among the ingredients proven to work. Importantly, DEET does not kill insects. It confuses the sensors mosquitoes and ticks use to detect the carbon dioxide, heat, and skin compounds that reveal a nearby host, so they effectively cannot find you.</p>
           <p>In Canada, DEET is one of a small handful of repellent actives that Health Canada has reviewed and registered for use as directed on the label. The others include picaridin (icaridin) and oil of lemon eucalyptus. If you want a side-by-side of the two most popular options, our <Link href="/blog/picaridin-vs-deet">picaridin vs DEET comparison</Link> breaks down which one wins for different Canadian activities.</p>
 
+          <NextUp path="/blog/is-deet-safe" />
           <h2>What does DEET stand for?</h2>
           <p>DEET stands for <strong>N,N-diethyl-meta-toluamide</strong> — sometimes written N,N-diethyl-3-methylbenzamide. It is simply the abbreviation of a long chemical name, not an acronym for anything descriptive. The compound was developed by the U.S. Army in 1946 to protect soldiers in insect-heavy regions and was released for civilian use in 1957. That long track record is a big reason toxicologists regard it as one of the most thoroughly studied repellents available.</p>
 
@@ -171,6 +174,7 @@ export default function IsDeetSafePage() {
           <h2>Is DEET safe for dogs and pets?</h2>
           <p>No — do not put DEET, or any human bug spray, on your dog, cat, or other pets. These products are formulated and labelled for human skin only. A pet will lick treated fur and swallow the repellent, which can cause drooling, vomiting, tremors, or more serious effects depending on the amount. If your animal needs protection from mosquitoes, fleas, or ticks, use a product designed for pets and cleared by your veterinarian. It is also good practice to let repellent dry on your own skin before letting a pet nuzzle you.</p>
 
+          <RelatedLinks path="/blog/is-deet-safe" />
           <h2>Is DEET safe during pregnancy?</h2>
           <p>Health authorities generally consider DEET acceptable during pregnancy and while breastfeeding when it is used as directed, and studies to date have not found harm to the baby. Because mosquito-borne infections can be especially serious in pregnancy, the CDC specifically advises pregnant people in areas with mosquito-borne disease to use an EPA-registered repellent, and DEET is on that list. Apply it only to exposed skin, follow the label, and wash it off indoors. This is general information rather than personal medical advice — talk with your own doctor, midwife, or pharmacist about what is right for you.</p>
 

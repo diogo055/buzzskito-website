@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'zappbug-heater-review-canada'
 const DATE = '2026-07-21'
@@ -248,6 +250,7 @@ export default function ZappBugHeaterReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="thermalstrike bed bug heater">ThermalStrike Ranger (fallback) →</BuyLink>
           </div>
 
+          <NextUp path="/blog/zappbug-heater-review-canada" />
           <h2>Setup: Genuinely a One-Person, Five-Minute Job</h2>
           <p>Out of the box you get the collapsible chamber, the heater unit, and a wireless digital thermometer with a probe. The chamber unfolds the way a pop-up tent does — spring the wire frame open, square it up, and you have the working volume standing on your floor. The heater sits inside at one end, you load your items with air gaps around them, zip the chamber closed with the thermometer probe buried in the middle of your densest item, and plug in. There is no assembly in any meaningful sense, no tools, and no special wiring; the one electrical rule worth respecting is to give the heater its own circuit — 1500 watts is most of what a typical household breaker can supply, so do not share it with a space heater, kettle, or microwave mid-cycle.</p>
           <p>Between uses the chamber folds flat and slides under a bed or into a closet. That matters more than it sounds: bed bug episodes have long tails, and the owners who win are the ones who keep running precautionary cycles — every returning suitcase, every second-hand find — for months after the last bite.</p>
@@ -261,6 +264,7 @@ export default function ZappBugHeaterReviewCanadaPage() {
           </ul>
           <p>The wireless thermometer is what makes those numbers trustworthy: the probe goes in the middle of the worst-case item, and the display sits outside the chamber where you can watch it. You end the cycle when the core has held lethal temperature — not when the air feels hot, not when the timer you guessed at runs out. Improvised alternatives (black bags in the sun, an oven, a car dashboard in July) all fail on exactly this point: no measurement, no even heating, no verified kill.</p>
 
+          <RelatedLinks path="/blog/zappbug-heater-review-canada" />
           <h2>Capacity in Real Items — and the Electronics Question</h2>
           <p>The interior is roughly 38 by 23 by 23 inches, which translates to genuinely useful loads: a carry-on suitcase with its contents plus several pairs of shoes; a complete queen bedding set with pillows; two or three banker boxes of books; a stack of coats and a duvet. For a returning traveller — travel is among the most commonly cited routes bed bugs take into a home — the entire trip&rsquo;s luggage goes in unopened, which is precisely the use case that justifies owning one before you ever see a bug.</p>
           <p>Electronics deserve their own paragraph because they are both a classic harbourage and the item people are most afraid to treat. The good news: most consumer electronics carry manufacturer <em>storage</em> temperature ratings of 60°C or higher — comfortably above the 49–50°C a chamber cycle reaches. A powered-off laptop, phone, console, or router generally comes through a cycle unharmed, and treating them matters because bed bugs love the warm, dark seams of electronics. The rules: device off, check the manufacturer&rsquo;s storage spec first, and never run a cycle with a device powered on.</p>

@@ -4,6 +4,7 @@ import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'ontario-mosquito-tick-diseases'
 const TITLE = 'Mosquito &amp; Tick Diseases in Ontario — West Nile, Lyme, EEE, Anaplasmosis'
@@ -87,6 +88,7 @@ export default function OntarioDiseasesPage() {
             </tbody>
           </table>
 
+          <NextUp path="/learn/ontario-mosquito-tick-diseases" />
           <h2>How to Lower Your Family&rsquo;s Risk</h2>
           <p>Every one of these diseases is transmitted by a bite, so every prevention strategy comes down to the same principle: avoiding bites where your family lives and plays. A layered approach:</p>
           <ul>

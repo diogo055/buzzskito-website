@@ -12,6 +12,8 @@ import AuthorByline from '@/components/AuthorByline'
 import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bugs-that-look-like-bed-bugs-canada'
 const DATE = '2026-07-30'
@@ -383,6 +385,7 @@ export default function BugsThatLookLikeBedBugsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug inspection flashlight magnifier kit">Flashlight + magnifier &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/bugs-that-look-like-bed-bugs-canada" />
           <h2>Carpet Beetles: The Classic Bed Bug Look-Alike</h2>
           <p>If you take one thing from this page, take this: carpet beetles and their larvae are commonly mistaken for bed bugs, and the two problems have almost nothing in common &mdash; different insect, different room, different fix, and nothing in the bed bug aisle applies to either the adult or the larva.</p>
           <p>Adult carpet beetles are small domed ovals with a mottled shell &mdash; the varied carpet beetle looks like a speckled mosaic of white, brown and yellowish scales, and the black carpet beetle is a plain dark oval. They fly, they are drawn to light, and in spring they are commonly found dead on windowsills or crawling on a sunny window frame. Adults outdoors feed on pollen and nectar, which is how they arrive: through an open window, on cut flowers, or through a gap around a window frame.</p>
@@ -408,6 +411,7 @@ export default function BugsThatLookLikeBedBugsCanadaPage() {
           <p><strong>Larder beetles</strong> are larger, dark, and carry a pale band across the wing covers with a few dark spots in it, which is distinctive once you know to look for it. Their larvae are hairy and, like carpet beetle larvae, are often found near a dead animal in a wall void or a forgotten bag of pet food. They are also fond of chewing into wood or insulation to pupate, which is what turns them from a nuisance into a repair.</p>
           <p><strong>Drugstore and cigarette beetles</strong> are small, rounded, uniformly brown pantry beetles that fly to windows in numbers. If small brown ovals keep appearing near your kitchen window in summer, the search should be a pantry inventory rather than a mattress inspection: check flour, cereal, spices, dried pet food and birdseed, and discard anything with fine powder or webbing in it.</p>
 
+          <RelatedLinks path="/blog/bugs-that-look-like-bed-bugs-canada" />
           <h2>Cockroach Nymphs, Fleas, Ticks and Clover Mites</h2>
           <p><strong>Young cockroaches</strong> are dark, oval, wingless and small, and they get mistaken for bed bugs regularly &mdash; but their antennae are enormously long, they run rather than trundle, and German cockroach nymphs carry two dark stripes down the pale shield behind the head. Location helps too: cockroaches are a kitchen and bathroom problem, drawn to food, water and warmth around appliances. If that is where your specimens are, our <Link href="/blog/how-to-get-rid-of-cockroaches-canada">cockroach guide</Link> is the correct next page and the bed bug aisle is a waste of money.</p>
           <p><strong>Fleas</strong> are the classic &ldquo;something is biting me at night&rdquo; alternative, and the physical test is clean: fleas are flattened <em>side to side</em>, like a coin standing on edge, where bed bugs are flattened top to bottom. Fleas also jump &mdash; a distance that startles you &mdash; and bed bugs cannot. Ankle-level bites plus a pet in the house shifts the odds heavily toward fleas.</p>

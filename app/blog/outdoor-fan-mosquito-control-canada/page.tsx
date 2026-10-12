@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'outdoor-fan-mosquito-control-canada'
 const DATE = '2026-08-22'
@@ -229,6 +231,7 @@ export default function OutdoorFanMosquitoControlCanadaPage() {
           <p>There is a second effect that matters just as much. A female mosquito finds you by following a plume — the carbon dioxide you exhale, your body heat, the scent compounds on your skin — upwind from as far as ten metres away. A fan does not just push her back; it tears that plume into turbulence so there is no gradient left to follow. She never gets close enough to be pushed back in the first place.</p>
           <p>That is the whole case for a fan, and it is a real one. Here is the equally honest limit: a fan removes zero mosquitoes from your property. It creates a protected volume of moving air, and outside that volume nothing has changed. Two steps toward the barbecue and you are back in the population. Treat it as a seating-area tool, the same way you would treat <Link href="/blog/mosquito-screens-patio-canada">a patio screen</Link> — excellent where you sit, irrelevant everywhere else.</p>
 
+          <NextUp path="/blog/outdoor-fan-mosquito-control-canada" />
           <h2>The specification that actually matters is not CFM</h2>
           <p>Every fan listing leads with CFM, and buyers dutifully compare the numbers. It is the wrong comparison, because CFM is measured at the blade and a jet of air loses velocity with distance far faster than most people expect. Two fans quoting the same CFM can deliver wildly different air at four metres, depending on blade pitch, hub design and whether the housing focuses the stream or lets it spread.</p>
           <p>Shop on <strong>throw distance</strong> instead, then verify with your own skin. The working rule we use:</p>
@@ -286,6 +289,7 @@ export default function OutdoorFanMosquitoControlCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="weatherproof in use outlet cover outdoor">In-use outlet covers &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/outdoor-fan-mosquito-control-canada" />
           <h2>When the cheaper fan is the right call</h2>
           <p>A page that only ever says “buy the expensive one” is not worth reading, so: on most decks, <strong>a $100 high-velocity floor fan will prevent more bites than a $400 outdoor ceiling fan</strong>. It sits in the ankle zone, it produces far more velocity per dollar, and it needs no electrician. The ceiling fan wins on comfort, silence, appearance and the fact that it is always there, which genuinely matters — the best fan is the one nobody has to fetch. But if the question is strictly bites per dollar, the drum fan wins and we are not going to dress that up.</p>
           <p>Likewise, if your seating area is two chairs on a small balcony, a rechargeable battery fan is the correct purchase and anything larger is wasted. And if you only sit out on the deck a handful of evenings a summer, a fan you already own, dragged out and pointed at your feet, is a perfectly respectable answer.</p>

@@ -9,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'i-found-tick-on-my-dog-what-to-do'
 const DATE = '2026-04-26'
@@ -156,6 +157,7 @@ export default function IFoundTickOnMyDogPage() {
           <p>Worth knowing before that appointment: only a small share of infected dogs ever get sick, and a positive test in a dog with no symptoms is not automatically treated the same way as an ill one. Our guide on <Link href="/blog/can-dogs-get-lyme-disease">whether dogs get Lyme disease from ticks</Link> walks through the signs, the stages, and how vets decide.</p>
           <p>For the bite site itself &mdash; what the lump should look like in the first days, what counts as normal irritation, and the point at which it stops being normal &mdash; see our guide to <Link href="/blog/tick-bite-on-dog-symptoms" className="text-brand-700 underline">tick bite symptoms on a dog</Link>, which lays the whole watch period out as a timeline.</p>
 
+          <NextUp path="/blog/i-found-tick-on-my-dog-what-to-do" />
           <h2>Should You Take the Tick to a Vet or Lab?</h2>
           <p>Two free options exist in Ontario:</p>
           <ol>

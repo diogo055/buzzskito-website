@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-flowers-attract-mosquitoes'
 const DATE = '2026-07-15'
@@ -104,6 +106,7 @@ export default function WhatFlowersAttractMosquitoesPage() {
         <p>Not in the way most people mean. A female mosquito hunting for a blood meal locates you by carbon dioxide from your breath, your body heat, moisture, and hundreds of skin-odour compounds &mdash; not by the colour or scent of your flowers. So a rose bed does not draw biting mosquitoes toward it the way it draws bees.</p>
         <p>There is one genuine connection, though, and it is worth understanding. <strong>Both male and female mosquitoes feed on flower nectar</strong> &mdash; sugar is their primary energy source, and males feed on nothing else. Females only take blood to develop eggs; the rest of the time they, too, run on nectar. So a garden filled with abundant, easy-access nectar can help <em>sustain</em> the adult mosquito population already living in and around your yard. It is a supporting factor, not a magnet. Removing the flowers would not fix a mosquito problem, and no one should tear out a pollinator garden over it. But it explains why lush, heavily-planted yards often feel buggier than sparse ones: the plantings feed and shelter the adults, and usually hold the water that breeds them too.</p>
 
+        <NextUp path="/blog/what-flowers-attract-mosquitoes" />
         <h2>What flowers and plants attract mosquitoes the most?</h2>
         <p>The plants worth knowing about fall into three groups, ranked here by how much they actually matter. Almost all of the real risk is in the first group.</p>
 
@@ -149,6 +152,7 @@ export default function WhatFlowersAttractMosquitoesPage() {
           </div>
         </aside>
 
+        <RelatedLinks path="/blog/what-flowers-attract-mosquitoes" />
         <h2>Do water gardens attract mosquitoes?</h2>
         <p>Yes &mdash; a still, unmanaged water garden is one of the strongest mosquito magnets you can install. Female mosquitoes lay their eggs directly on the surface of calm water, and in the warm water of a summer pond, larvae can complete development in as little as a week. Floating plants make it worse: water lettuce and water hyacinth block surface circulation and give larvae a canopy to hide under, out of reach of any fish.</p>
         <p>The good news is that a water garden is easy to convert from a breeder into a non-issue. You do not have to drain it. You have to make the water unwelcome to larvae:</p>

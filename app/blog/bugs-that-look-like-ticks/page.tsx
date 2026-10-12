@@ -13,6 +13,8 @@ import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import RelatedProducts from '@/components/RelatedProducts'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bugs-that-look-like-ticks'
 const DATE = '2026-04-26'
@@ -229,6 +231,7 @@ export default function BugsThatLookLikeTicksPage() {
           <li><strong>Slow movement</strong> — ticks crawl, they do not run or fly</li>
         </ul>
         <p>Almost every common tick look-alike is an insect with 6 legs and antennae. If you see antennae, it is not a tick. If it has wings or wing-cover shells (elytra), it is not a tick. If it runs or jumps, it is not a tick. Use those simple checks before reading any further — they will resolve most cases in seconds.</p>
+        <NextUp path="/blog/bugs-that-look-like-ticks" />
         <p>For a closer look at what real Ontario ticks actually look like, see our <Link href="/blog/what-ticks-look-like-ontario" className="text-brand-700 underline">full guide to identifying ticks in Ontario</Link>.</p>
 
         <h2>Tick Look-Alikes at a Glance: The Full Comparison Table</h2>
@@ -429,6 +432,7 @@ export default function BugsThatLookLikeTicksPage() {
         <p>A wood tick is the American dog tick, and its nymphs are real ticks rather than look-alikes. A dog tick nymph is roughly 1&ndash;2 mm across (about 1/16 inch), dark, and easily written off as a scab, a freckle or a speck of dirt. If a speck that size has legs and will not brush off, treat it as a tick.</p>
         <p>&ldquo;Wood tick&rdquo; is a common name for the American dog tick, and its young — larvae and nymphs — are so small they are often mistaken for a poppy seed, a freckle, or a scab rather than a tick. Unlike every other entry here, this one <em>is</em> a tick. If a poppy-seed-sized speck has legs and is attached, do not dismiss it as debris: treat it as a real tick, remove it, and monitor the bite.</p>
 
+        <RelatedLinks path="/blog/bugs-that-look-like-ticks" />
         <h2>What Look-Alikes Also Have 8 Legs?</h2>
         <p>Not every 8-legged look-alike is a tick. Clover mites, spider mites, harvestmen (daddy longlegs) and young spiders are all arachnids with 8 legs and no antennae, exactly like ticks. Size, leg length and behaviour separate them, because a tick is the only one of the group that anchors itself to skin and feeds on blood.</p>
         <p>A clover mite is a moving reddish speck smaller than a pinhead, under 1 mm across, with one pair of front legs noticeably longer than the rest; Penn State Extension notes that clover mites leave a red stain when crushed, which no tick does. Harvestmen and spiders have long, obviously jointed legs and a visible waist between two body sections, while a tick has short legs held close to a single flattened, teardrop-shaped body. Spiders and harvestmen also move quickly and drop on silk or run for cover, whereas a tick climbs slowly and waits with its front legs outstretched.</p>

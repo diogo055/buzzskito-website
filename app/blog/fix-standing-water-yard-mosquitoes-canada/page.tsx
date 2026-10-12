@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'fix-standing-water-yard-mosquitoes-canada'
 const DATE = '2026-08-22'
@@ -226,6 +228,7 @@ export default function FixStandingWaterYardPage() {
           <p>In southern Ontario summer temperatures, a mosquito needs roughly seven to ten days of continuous standing water to get from egg to flying adult &mdash; a day or two to hatch, four to ten days as a larva, one to three as a pupa. Water that drains within 48 hours produces nothing. Water still sitting on day four is on the clock. Water that is reliably there a week after every rainfall is a nursery, and that is the spot worth hardware.</p>
           <p>So the first job is a walk with your phone after the next real rain. Photograph every place holding water, then re-shoot the same spots on day two, day four and day seven. Usually two or three of the six puddles you were worried about are gone by Tuesday, and one unglamorous corner behind the shed is still wet on Saturday. That corner is your project. Our guide to <Link href="/blog/hidden-mosquito-breeding-spots-backyard">hidden mosquito breeding spots in a backyard</Link> covers the containers people miss, and <Link href="/blog/mosquito-larvae-identification">mosquito larvae identification</Link> shows what wrigglers look like versus the harmless things sharing the puddle.</p>
 
+          <NextUp path="/blog/fix-standing-water-yard-mosquitoes-canada" />
           <h2>Why Drainage Beats Spraying at the Source End</h2>
           <p>We spray yards for a living, so take this as it is meant: barrier spray and drainage solve different halves of the problem. Spray handles the <em>adults</em> &mdash; the ones resting in shaded shrub interiors during the day, including the ones that flew in from the ravine two streets over. Drainage handles <em>production</em>. It takes your own property out of the mosquito-manufacturing business, which means fewer adults to knock down all season and a lower baseline every year.</p>
           <p>The reason the drainage half gets skipped is price anxiety. Homeowners ask about a wet yard, hear &ldquo;French drain&rdquo;, get a contractor quote in the low-to-mid four figures, and quietly decide to live with it. That quote is not wrong &mdash; it is mostly labour, machine time, disposal and restoration &mdash; but the <em>materials</em> for a residential-length run are a $150 to $500 hardware purchase. If your wet spot is in open lawn with somewhere downhill to send the water, the parts really are most of the job.</p>
@@ -262,6 +265,7 @@ export default function FixStandingWaterYardPage() {
           <p>The test is free. Dig a hole about 30 cm deep where the dry well would go, fill it with water and let it drain to pre-soak the soil, then fill it again and check 24 hours later. Still full? Infiltration is not your answer &mdash; convey the water to daylight instead. Drained in a few hours? A dry well is legitimate, and you can size the kit to the roof area or low spot feeding it.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="dry well drainage kit yard">Dry well kits &rarr;</BuyLink></div>
 
+          <RelatedLinks path="/blog/fix-standing-water-yard-mosquitoes-canada" />
           <h2>When the Cheap Option Is the Right Option</h2>
           <p>A guide that only ever tells you to buy the expensive thing is selling, not advising. Plenty of Canadian yards do not need a drainage project at all:</p>
           <ul>

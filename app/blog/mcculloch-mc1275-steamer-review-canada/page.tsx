@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mcculloch-mc1275-steamer-review-canada'
 const DATE = '2026-07-21'
@@ -213,6 +215,7 @@ export default function MccullochMc1275SteamerReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="handheld steam cleaner bed bugs">Budget handheld →</BuyLink>
           </div>
 
+          <NextUp path="/blog/mcculloch-mc1275-steamer-review-canada" />
           <h2>Why a Steamer Belongs in a Bed-Bug Kit</h2>
           <p>The reason steam matters comes down to a biological fact that trips up most DIY attempts: bed-bug eggs are the hard part. A female cements her eggs to fabric with a coating that ordinary suction cannot break, so even a thorough vacuuming lifts the adults and nymphs while leaving a mattress studded with viable eggs that hatch days later and restart the cycle. Chemical sprays struggle here too, because eggs are relatively resistant and because bed bugs have widespread resistance to many common insecticides. Heat is the honest answer &mdash; sufficiently hot temperatures kill bed bugs at every life stage, eggs included, and they do it by physics rather than chemistry, so there is no resistance to develop and no residue to worry about. Our guide to <Link href="/blog/heat-vs-chemical-bed-bug-treatment-canada">heat vs chemical bed-bug treatment</Link> works through that trade-off in detail.</p>
           <p>That is what a low-moisture boiler steamer delivers: a stream of very hot, dry-ish steam you can drive into the exact seams, folds, and joints where bugs and eggs hide. It reaches into fabric where a vacuum nozzle only skims, and it does so without soaking the mattress the way a wet garment steamer would. In a non-chemical protocol, the sequence is vacuum first to physically remove the live insects, then steam to kill the eggs and hidden bugs the vacuum could not lift &mdash; a combination covered in depth in our <Link href="/blog/best-bed-bug-steamer-canada">best bed-bug steamer guide</Link>. The MC1275 is one specific, budget-friendly machine within that boiler-steamer category.</p>
@@ -226,6 +229,7 @@ export default function MccullochMc1275SteamerReviewCanadaPage() {
           <p>Here is the one thing this review exists to flag clearly, because most US-focused buyer guides never mention it. The McCulloch MC1275 is designed and sold for the US market. On Amazon.ca it frequently shows up through third-party sellers who ship the unit across the border rather than as a domestically-stocked Canadian product. In practical terms that can mean a US-style plug, a warranty that is awkward or effectively impossible to claim from Canada, longer shipping windows, and the occasional customs handling step. To be clear, none of that touches how well the machine kills bed bugs &mdash; the MC1275 is a real workhorse and the electrical spec is compatible with Canadian outlets &mdash; but it does change the ownership experience if something goes wrong a year in.</p>
           <p>So the rule for a Canadian buyer is simple: before you click buy, read the listing carefully. Confirm who the seller is, where it ships from, what plug you will receive, and what the warranty terms actually are for a Canadian address. If those check out and the price is right, the MC1275 is a superb value. If you would rather not do that homework and you want a warranty you can claim locally without friction, a Canadian-made steamer like the <Link href="/blog/dupray-steamer-review-canada">Dupray Neat</Link> removes the entire question &mdash; at a higher price. We put the two head to head in our <Link href="/blog/dupray-vs-mcculloch-steamer-canada">Dupray vs McCulloch comparison</Link> so you can see exactly what the premium buys. It is worth stressing that this caveat is commercial, not regulatory: because a steamer is an appliance and not a pesticide, there is no Health Canada or PMRA registration involved either way, unlike the grey-market imported <em>sprays</em> and concentrates where the compliance stakes are real.</p>
 
+          <RelatedLinks path="/blog/mcculloch-mc1275-steamer-review-canada" />
           <h2>The Technique That Makes or Breaks It</h2>
           <p>Here is the part no spec sheet tells you: even the MC1275 will fail if you wave it around. Steam kills by transferring heat into the fabric, and heat transfer needs contact time. Get the technique right and this steamer is genuinely effective; get it wrong and you have an affordable fabric-dampener.</p>
           <ul>

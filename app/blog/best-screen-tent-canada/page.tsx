@@ -10,6 +10,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-screen-tent-canada'
 const DATE = '2026-07-14'
@@ -260,6 +262,7 @@ export default function BestScreenTentCanadaPage() {
           <p>Every mosquito solution falls into one of two camps: chemical control (repellents, coils, barrier sprays) or physical barriers (mesh). We run a professional mosquito and tick control company in the GTA, so it might surprise you that we recommend screen tents constantly — because a physical barrier is the right tool for a specific set of situations that no spray can serve as well.</p>
           <p>One Canadian wrinkle is worth knowing before you weigh mesh against chemicals: the DIY yard spray many people picture as the alternative is not on the shelf here. The bifenthrin version of Ortho Home Defense that dominates US hardware stores is not registered with Health Canada&rsquo;s Pest Management Regulatory Agency, so it is not legally sold in Canada — our review of <Link href="/blog/ortho-home-defense-canada-review">Ortho Home Defense in Canada</Link> covers what is registered here instead and whether any of it actually touches mosquitoes. A screen house sidesteps the question entirely: mesh needs no registration at all.</p>
           <p>A screen house works the moment the last stake goes in. There is nothing to reapply, no product regulated by Health Canada&rsquo;s PMRA to think about, nothing that washes off in rain, and no waiting period. Mesh with holes around 1.2 mm stops every mosquito species in Ontario, and it stops black flies too — which matters enormously north of Barrie, where <Link href="/blog/black-flies-ontario-when-they-come-out">black-fly season</Link> makes late May and June miserable in cottage country.</p>
+          <NextUp path="/blog/best-screen-tent-canada" />
           <p>The limitation is just as clean-cut: a screen tent protects the 100&ndash;200 square feet it encloses and nothing else. Step outside to tend the barbecue, throw a ball with the kids, or garden, and you&rsquo;re back on the menu. That&rsquo;s the honest framing for the rest of this guide — and it&rsquo;s covered in depth in our <Link href="/blog/mosquito-netting-vs-barrier-spray">mosquito netting vs barrier spray</Link> comparison.</p>
           <p>A screen tent clearly beats spray when:</p>
           <ul>
@@ -338,6 +341,7 @@ export default function BestScreenTentCanadaPage() {
           <p><strong>For camping</strong>, weight the frame above everything else. Every pitch-and-strike cycle is a chance to lose a pole, bend a joint, or tear a sleeve, so the fewer loose parts the better — which is why the hub shelters (Clam Quick-Set Escape, Gazelle G6) are the pick for anyone out most weekends, and why the Coleman Instant 11x11 with its pre-attached poles beats a pole-style tent of the same price for a family that camps a few times a season. A 10x10 or 11x11 footprint also fits more campsite pads than a 15x13 will.</p>
           <p><strong>For a backyard or cottage deck</strong>, weight shape and shade instead. The shelter goes up once in May and comes down in September, so a 10&ndash;15 minute pole assembly costs you nothing and the CAMPROS becomes a genuinely sensible value buy. A rectangular 12x10 fits a patio dining set better than a square, and siting it under partial tree cover buys you seasons of extra fabric life. The one thing you cannot skip either way: drop it before storms.</p>
 
+          <RelatedLinks path="/blog/best-screen-tent-canada" />
           <h2>Setup Speed: Instant vs Pop-Up vs Pole-Style</h2>
           <p>Setup time sounds like a spec-sheet detail until you&rsquo;ve assembled a pole-style screen house in a 20 km/h breeze while the burgers get cold. Our honest field expectations:</p>
           <ul>

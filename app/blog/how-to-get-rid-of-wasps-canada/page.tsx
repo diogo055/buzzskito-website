@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-wasps-canada'
 const DATE = '2026-07-21'
@@ -207,6 +209,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
           </div>
           <p>Two of those rows deserve emphasis. <strong>Aerial bald-faced hornet nests</strong> combine three risk multipliers — a large fast-response colony, work at height, and a species that aims venom at eyes — and a licensed pro with a bee suit and an extension pole handles the whole thing in one short visit. <strong>Wall-void nests</strong> are worse: the nest body can sit metres from the exterior opening, so a can of spray into the hole accomplishes nothing except enraging the colony, and sealing the entrance sends yellowjackets chewing through your drywall into the living room. Professionals treat voids with injected insecticidal dust that workers carry into the nest — equipment and product homeowners cannot buy here. For what professional wasp work typically costs across Canada, see our <Link href="/pest-control-cost-canada">pest control cost guide</Link>. One insect that does not belong on the list at all is the carpenter bee: it bores galleries into bare softwood rather than building paper nests, so <Link href="/blog/how-to-get-rid-of-carpenter-bees-canada" className="text-brand-700 underline">the treat-plug-paint sequence for carpenter bees</Link> is a woodwork job rather than a nest-removal one.</p>
 
+          <NextUp path="/blog/how-to-get-rid-of-wasps-canada" />
           <h2>The Night Treatment Rules (If You Do It Yourself)</h2>
           <p>Every DIY nest treatment happens after dark. Not because it is dramatic — because it is the only time the treatment actually works. During the day, most of the colony is out foraging; kill the nest at 2 p.m. and hundreds of returning workers spend days orbiting the site, agitated and stingy. After dark the entire colony is home, the air is cooler, and wasps are sluggish and slow to mount a defence.</p>
           <ul>
@@ -266,6 +269,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
             </table>
           </div>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-wasps-canada" />
           <h2>The PMRA Line: What Is Legal in Canada (and What Is Not)</h2>
           <p>This is where Canadian and American advice diverge sharply, and where a lot of imported internet wisdom goes wrong. In Canada, any pesticide sold for home use must carry a <strong>Pest Control Products (PCP) registration number</strong> from Health Canada&rsquo;s PMRA on the label. Flip the can over; if there is no PCP number, it is not legal to sell or use here.</p>
           <p>The registered domestic-class options — Raid Max Wasp &amp; Hornet Killer, Ortho Wasp B Gon MAX, Wilson WaspOut, KONK — are all pyrethroid jet or foam aerosols that do the job on exposed nests. What keeps showing up in US forums and grey-market marketplace listings, and does <em>not</em> belong in a Canadian garage:</p>

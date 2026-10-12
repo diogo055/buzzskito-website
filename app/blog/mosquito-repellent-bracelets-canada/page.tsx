@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-repellent-bracelets-canada'
 const DATE = '2026-07-12'
@@ -291,6 +293,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
             <p className="text-sm text-gray-800 leading-relaxed">Yes — for the exact patch of skin under the band. Beyond that, no. A New Mexico State University study (Rodriguez et al., 2017) tested commercial repellent wristbands and found little to no measurable protection more than a few centimetres away. The oils are real repellents, but a passive band cannot coat your body the way a topical does. For evenings in a GTA yard with fewer bites, pair a <Link href="/blog/mosquito-repellent-guide-ontario-2026">proper DEET or icaridin spray</Link> with whole-yard <Link href="/mosquito-control">barrier spray</Link> — which, unlike any bracelet, also targets ticks.</p>
           </div>
 
+          <NextUp path="/blog/mosquito-repellent-bracelets-canada" />
           <h2>How Mosquito Repellent Bracelets Work (and Why the Radius Matters)</h2>
           <p>Repellent bracelets are passive diffusers. Citronella, geraniol, lemongrass, or peppermint oil is impregnated into the band (or into a replaceable pellet on refillable models), and it slowly evaporates into the air immediately around your wrist or ankle. The scent masks the human cues — CO₂, body heat, lactic acid, and skin odour — that female mosquitoes home in on.</p>
           <p>The catch is physics. That scent cloud is tiny and it dissipates within centimetres, especially with any breeze. A mosquito approaching your other arm, your ankle, or your neck never encounters enough repellent vapour to be deterred. This is fundamentally different from a spray, which lays down a repellent layer across every square centimetre it touches. A band protects a <em>point</em>; a spray protects a <em>surface</em>.</p>
@@ -305,6 +308,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
             <li><strong>DEET-free households</strong> — families avoiding synthetic actives entirely for personal reasons</li>
           </ul>
 
+          <RelatedLinks path="/blog/mosquito-repellent-bracelets-canada" />
           <h2>When a Bracelet Is the Wrong Tool</h2>
           <ul>
             <li><strong>A full backyard evening</strong> — dusk-to-dark patio time in a GTA summer needs real coverage, not a wrist band</li>

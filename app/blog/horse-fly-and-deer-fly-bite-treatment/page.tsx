@@ -11,6 +11,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { tagForSlug } from '@/lib/amazon-clusters'
 import RelatedProducts from '@/components/RelatedProducts'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'horse-fly-and-deer-fly-bite-treatment'
 const DATE = '2026-07-13'
@@ -197,6 +199,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
           <p>A mosquito slides a fine, flexible stylet into your skin so smoothly you often do not feel it. Horse flies and deer flies — both members of the fly family <strong>Tabanidae</strong> — do the opposite. The female (only females bite; they need a blood meal to develop eggs) carries a set of short, blade-like mouthparts. She uses them to <strong>slice the skin open like tiny scissors</strong>, creating a small pool of blood that she then sponges up. That cutting action is the whole reason the bite delivers an instant, burning sting and frequently bleeds.</p>
           <p>On top of the mechanical damage, the fly injects saliva loaded with <strong>anticoagulants</strong> to keep the blood flowing. Your immune system reacts to those proteins, which is what drives the itching, redness and swelling in the hours and days that follow. Between the torn skin and the reaction to the saliva, a tabanid bite simply irritates far more tissue than a clean mosquito prick — so it hurts more, swells more, and lingers longer.</p>
 
+          <NextUp path="/blog/horse-fly-and-deer-fly-bite-treatment" />
           <h2>Step-by-Step First Aid for a Fly Bite</h2>
           <ol>
             <li><strong>Clean it immediately.</strong> Wash with soap and water. Because the mouthparts tear the skin, the wound is open — cleaning it early is the single best way to prevent infection.</li>
@@ -239,6 +242,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
           </ul>
           <p>Separately, a <strong>true allergic reaction</strong> is a medical emergency. Hives spreading across the body, swelling of the lips, tongue or throat, wheezing, dizziness or difficulty breathing point to anaphylaxis — call 911 (or your local emergency number) and use an epinephrine auto-injector if one has been prescribed to you.</p>
 
+          <RelatedLinks path="/blog/horse-fly-and-deer-fly-bite-treatment" />
           <h2>Are These Bites Dangerous? The Tularemia Note</h2>
           <p>For the vast majority of people, horse fly and deer fly bites are painful but harmless and clear up on their own. The realistic risks are two: a secondary skin infection from scratching, and — rarely — disease transmission. In parts of North America, <strong>deer flies (genus <em>Chrysops</em>) can transmit tularemia</strong>, a bacterial infection sometimes nicknamed &ldquo;deer fly fever,&rdquo; according to the U.S. Centers for Disease Control and Prevention. Tularemia is uncommon and treatable with antibiotics, but if a fly bite is followed by fever, a skin ulcer at the bite, or swollen glands, mention the bite to your doctor.</p>
           <p className="text-sm text-gray-500">Authority: <a href="https://www.cdc.gov/tularemia/" target="_blank" rel="noopener" className="underline hover:text-brand-700">U.S. Centers for Disease Control and Prevention (CDC) — Tularemia</a>.</p>

@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'diatomaceous-earth-canada-buyers-guide'
 const DATE = '2026-07-16'
@@ -175,6 +177,7 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
           <p>Safer&rsquo;s Diatomaceous Earth insect killer is our top pick because it is the most widely stocked PMRA-registered insecticidal DE in Canada — and registration is the entire question here. Diatomaceous earth is fossilized diatom silica ground into an abrasive, ultra-absorbent powder, and the mineral itself is nearly identical across bags. What differs is legal status and labelling: a registered product carries a Pest Control Products (PCP) number and tested directions for use against listed pests, while a food-grade bag is legally an anti-caking agent that happens to look the same.</p>
           <p>That distinction sounds bureaucratic until you need it. The registered label tells you which pests the product is proven against, where you may apply it indoors, and how to handle it safely — the exact information the &ldquo;sprinkle it everywhere&rdquo; internet advice gets wrong. Knock Down diatomaceous earth and Doktor Doom Be Green crawling insect killer round out the registered trio; any of the three is a correct buy.</p>
 
+          <NextUp path="/blog/diatomaceous-earth-canada-buyers-guide" />
           <h2>Which Diatomaceous Earth Products Are PMRA-Registered in Canada?</h2>
           <p>Three consumer brands dominate the registered category, and two familiar US names are deliberately absent. Here is the field — including what we will <em>not</em> recommend and why:</p>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
@@ -225,6 +228,7 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
           <p>The same logic covers the US specialty dusts. CimeXa (silica gel) and the Harris bed bug powders carry US EPA registrations and impressive US lab data, but neither has a Canadian domestic-class registration — cross-border listings ship with US-only labels, and importing unregistered pesticides for use here is a violation, not a loophole. We flag these deliberately because they are the products a Canadian will most often be told to buy by US content.</p>
           <p>Compliance costs you nothing here: the registered Canadian DE products are the same amorphous silica at nearly the same price, with directions that actually tell you how to get results. The grey-market route offers no upside — only a product with no legal instructions and no recourse if it fails.</p>
 
+          <RelatedLinks path="/blog/diatomaceous-earth-canada-buyers-guide" />
           <h2>Where Does Diatomaceous Earth Work — and Where Does It Fail?</h2>
           <p>DE succeeds in dry, protected, high-traffic insect runways and fails almost everywhere else — knowing the difference is worth more than any brand choice. The mechanism dictates the map: the powder must stay dry and intact, and an insect must physically walk through it.</p>
           <ul>

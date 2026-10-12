@@ -1,6 +1,6 @@
 # Mediavine — where things stand and what is left before launch
 
-Last updated 2026-10-06. Ads are **not serving yet**: Mediavine keeps the site in "launch mode"
+Last updated 2026-10-11. Ads are **not serving yet**: Mediavine keeps the site in "launch mode"
 until Google approves it and you press Launch.
 
 ## Done (live on buzzskito.ca)
@@ -124,7 +124,8 @@ below asks Mediavine to confirm the library fits their policy.
 >    want buttons sitting next to a sticky ad. Desktop adhesion and the desktop player can stay
 >    on. If any of these is a dashboard setting we should change ourselves, tell us which.
 > 6. In-content ads: please do not place a unit directly before or after an element with the
->    class `not-prose`. Those are our product buttons and quote boxes.
+>    class `not-prose`. Those are our product buttons, quote boxes and our "Next article" and
+>    "Related" link blocks inside articles (added Oct 11). Please confirm you can do this.
 > 7. Your content selector `.max-w-3xl.mx-auto.prose-brand` matches our article body. It does not
 >    match /pest-product-guides, the five data pages or the /blog and /learn index pages. Tell us
 >    what you need there.
@@ -151,6 +152,9 @@ below asks Mediavine to confirm the library fits their policy.
 - Swap the one-line ads.txt for Mediavine's full file when they ask for it.
 - Check live on a phone and a desktop: no ad on the homepage or any service page; nothing of
   yours overlaps an ad on article pages; the homepage still loads fast.
+- On a phone, open /blog/best-bed-bug-fogger-canada, /blog/alaska-mosquitoes and
+  /learn/mosquito-life-cycle and confirm no ad sits directly against the "Next" box or the
+  "Related" line. If one does, ask Mediavine to move that placement.
 
 ## One thing for your lawyer
 

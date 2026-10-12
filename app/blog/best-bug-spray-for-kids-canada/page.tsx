@@ -10,6 +10,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'best-bug-spray-for-kids-canada'
 const DATE = '2026-07-12'
@@ -323,6 +324,7 @@ export default function BestBugSprayForKidsCanadaPage() {
             </div>
           </div>
 
+          <NextUp path="/blog/best-bug-spray-for-kids-canada" />
           <h2>How to Apply Bug Spray on Kids Safely</h2>
           <ul>
             <li><strong>Spray your hands, then rub it on</strong> — never spray toward a child&rsquo;s face.</li>

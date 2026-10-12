@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'harris-bed-bug-killer-review-canada'
 const DATE = '2026-07-21'
@@ -245,6 +247,7 @@ export default function HarrisBedBugKillerReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">Silica-gel dust alternative &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/harris-bed-bug-killer-review-canada" />
           <h2>What the Harris &ldquo;Toughest&rdquo; Spray Actually Does</h2>
           <p>Let us be fair to it first. Harris Toughest Bed Bug Killer is a liquid contact insecticide, and used as a contact spray it works: point it at a bed bug, soak the bug thoroughly, and it dies. If you flip a mattress, find a cluster in a seam, and drench them, the spray earns its keep in that moment. That is a legitimate job &mdash; spot knockdown of visible bugs is part of how anyone, professional or homeowner, chips a population down &mdash; and the brand&rsquo;s ubiquity means you can usually find <em>a</em> Harris product without much hunting.</p>
           <p>The trouble starts with the second half of the sales pitch: the <strong>residual</strong>. Sprays like this are sold on the promise that after you apply, the dried film keeps killing bed bugs that walk across it for days or weeks. That residual is the feature that would let a spray do the heavy lifting of an actual treatment &mdash; killing the bugs you never saw, on their nightly trips to feed. And it is precisely the feature that resistance sabotages, which brings us to the single most important thing to understand about any pyrethroid spray in 2026.</p>
@@ -258,6 +261,7 @@ export default function HarrisBedBugKillerReviewCanadaPage() {
           <p>This matters enormously for a US brand like Harris, because the name on the bottle tells you nothing about Canadian legality. Some Harris products carry Canadian registration and sell legitimately through Canadian retail; other Harris SKUs are US-only and are <em>not</em> registered for sale to Canadian consumers. If you order one of those US-only versions from a listing that happens to ship across the border, you are importing an unregistered pesticide, which violates the Pest Control Products Act. The reassuring brand recognition is doing you a disservice: it makes an illegal import feel like a normal purchase.</p>
           <p>The rule to carry away is simple. Before buying any Harris bed bug product &mdash; or any pesticide with a US pedigree &mdash; confirm that the exact SKU is PMRA-registered and sold through a Canadian retailer. Do not assume &ldquo;same brand&rdquo; means &ldquo;same legal product,&rdquo; and do not let a forum talk you into importing a US concentrate because it is supposedly &ldquo;stronger.&rdquo; It is not stronger against a resistant bug, and it is not legal. We walk through the whole registration landscape in the <Link href="/blog/bed-bug-spray-canada">Canadian bed bug spray guide</Link>.</p>
 
+          <RelatedLinks path="/blog/harris-bed-bug-killer-review-canada" />
           <h2>Which Harris Product Do You Actually Have?</h2>
           <p>One more source of confusion worth clearing up: &ldquo;Harris bed bug killer&rdquo; is not a single product. The brand sells, under closely related names, a liquid contact spray, an aerosol, an &ldquo;egg-kill&rdquo; formula, and a diatomaceous-earth desiccant powder. These behave completely differently, and buyers routinely mix them up.</p>
           <ul>

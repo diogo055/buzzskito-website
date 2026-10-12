@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'can-lyme-disease-kill-you'
 const DATE = '2026-07-15'
@@ -132,6 +134,7 @@ export default function CanLymeDiseaseKillYouPage() {
           Lyme disease is the most commonly reported tick-borne illness in Canada, and reported cases have climbed over the past decade as blacklegged tick populations expand across southern Ontario, including the Greater Toronto Area. You can follow local case counts and risk areas on our <Link href="/ontario-lyme-disease-tracker-2026" className="text-brand-700 hover:underline">Ontario Lyme disease tracker for 2026</Link>. Ticks can carry more than Lyme, too &mdash; in parts of North America a tick bite can trigger <Link href="/blog/alpha-gal-syndrome" className="text-brand-700 hover:underline">alpha-gal syndrome</Link>, a delayed allergy to red meat that the CDC links to certain tick bites. Understanding what the disease is &mdash; a treatable bacterial infection, not a mysterious incurable condition &mdash; is the first step to putting the scarier questions in perspective.
         </p>
 
+        <NextUp path="/blog/can-lyme-disease-kill-you" />
         <h2>Can Lyme disease kill you? Is it fatal or deadly?</h2>
         <p>
           Death from Lyme disease is extremely rare. The realistic outcome for almost everyone diagnosed is full recovery after antibiotics. When Lyme disease does become life-threatening, it is nearly always because an infection went untreated long enough to cause <strong>Lyme carditis</strong> &mdash; a condition in which the bacteria interfere with the heart&rsquo;s electrical signalling and slow the heartbeat (heart block).
@@ -199,6 +202,7 @@ export default function CanLymeDiseaseKillYouPage() {
           A few points help keep PTLDS in perspective. First, it is not an active, ongoing infection that antibiotics failed to kill &mdash; studies have not shown a benefit from long-term antibiotic use for these symptoms, and prolonged antibiotics carry their own risks. Second, the term &ldquo;chronic Lyme disease&rdquo; is used loosely online and sometimes applied to people who were never diagnosed with Lyme disease at all; it is a contested label, whereas PTLDS is the term health authorities use for lingering symptoms after confirmed, treated Lyme. Third, and most reassuringly, research indicates most people with PTLDS improve gradually over time. If you have ongoing symptoms after treatment, that is a conversation to have with your healthcare provider, who can rule out other causes and help you manage them.
         </p>
 
+        <RelatedLinks path="/blog/can-lyme-disease-kill-you" />
         <h2>Is Lyme disease contagious?</h2>
         <p>
           No. Lyme disease is not spread from person to person. The CDC states there is no evidence it passes through touching, kissing, sexual contact, coughing, sneezing, or sharing food and drink. You cannot &ldquo;catch&rdquo; Lyme disease from a friend, partner, or family member the way you catch a cold. It is transmitted only by the bite of an infected blacklegged tick.

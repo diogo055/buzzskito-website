@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bugs-on-the-ttc-toronto'
 const DATE = '2026-07-30'
@@ -344,6 +346,7 @@ export default function BedBugsOnTheTTCTorontoPage() {
             <BuyLink tag={AMZ_TAG} search="lidded storage bin with latching lid">Entryway bin &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/bed-bugs-on-the-ttc-toronto" />
           <h2>What to Do If You See One on a Seat</h2>
           <p>In order, and none of it involves buying anything on the way home:</p>
           <ol>
@@ -371,6 +374,7 @@ export default function BedBugsOnTheTTCTorontoPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps climbup">Check interceptor traps on Amazon.ca &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/bed-bugs-on-the-ttc-toronto" />
           <h2>What Not to Buy for a Commute</h2>
           <p>This is the section that keeps the most money in your pocket:</p>
           <ul>

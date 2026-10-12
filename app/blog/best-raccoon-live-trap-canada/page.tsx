@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-raccoon-live-trap-canada'
 const DATE = '2026-07-21'
@@ -265,6 +267,7 @@ export default function BestRaccoonLiveTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="tomahawk rigid professional live trap raccoon">Professional rigid →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-raccoon-live-trap-canada" />
           <h2>Size Is the Spec That Matters Most</h2>
           <p>If you remember nothing else from this guide, remember this: <strong>an undersized trap is the number-one reason a raccoon trap fails.</strong> Raccoons are bigger and heavier than people expect &mdash; a well-fed urban adult can run 7 to 12 kilograms and stretch well over two feet nose to tail. A trap that is only 24 to 28 inches long, which is what a great many &ldquo;small animal&rdquo; and &ldquo;raccoon/cat&rdquo; traps actually measure, leaves a large raccoon standing with its hind feet outside the trip plate. When the door drops it lands on the animal&rsquo;s back or rump, the raccoon lurches, and it backs straight out. You come out in the morning to sprung, empty, bait-stripped trap and a smarter, more cautious raccoon.</p>
           <p>The fix is to buy the <strong>large or extra-large class</strong>: roughly 32 inches or longer, about 10 to 12 inches wide, and about 12 inches tall, with the trip plate set well back from the door. At that size the animal must walk fully inside before it reaches the bait, and the door closes cleanly behind it. This is exactly the kind of high-ticket spec that is worth paying for &mdash; the difference between a $40 undersized box and a proper large trap is small next to the cost of a torn soffit or a second week of raids. When in doubt, size up. A large trap will still catch a small raccoon or a groundhog; a small trap will never reliably catch a big raccoon.</p>
@@ -282,6 +285,7 @@ export default function BestRaccoonLiveTrapCanadaPage() {
           <p>The reasons behind the law are also the reasons the law is good practice. Long-distance relocation spreads disease (raccoons are a rabies-vector species), drops the animal into unfamiliar territory already claimed by other raccoons where it usually starves or is killed, and simply moves the problem to someone else. It also does not solve <em>your</em> problem for long: raccoons are territorial and a vacated niche near a reliable food source is recolonized within weeks. Removing the attraction &mdash; securing garbage, cutting off den access &mdash; is the durable fix; trapping is the acute one.</p>
           <p>Two situations should stop you before you buy a trap. First, if you are not genuinely prepared to release the animal on your own property or within that 1-km radius, trapping is the wrong tool for you. Second, and critically, <strong>from spring through mid-summer a female raccoon in your attic or chimney very likely has dependent young</strong>. Trap and remove the mother and the kits will die where they are hidden &mdash; inhumane, and it leaves you with a far worse problem in your walls. In both cases, and any time the animal is in a structure, the lawful and sane route is a <strong>licensed wildlife control agent</strong> who knows how to reunite or remove young and works within the provincial rules. Rules differ by province and can change, so confirm the current law with your provincial ministry before you set anything.</p>
 
+          <RelatedLinks path="/blog/best-raccoon-live-trap-canada" />
           <h2>How to Choose: What You Are Actually Paying For</h2>
           <p>These traps span a real price range, so it helps to know which features earn their cost and which are optional. Prioritise your money in this order:</p>
           <ul>

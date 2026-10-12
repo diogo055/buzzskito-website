@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS, PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const POST = {
   title: 'Spring Tick Season Ontario — When to Treat',
@@ -91,6 +93,7 @@ export default function SpringTickSeasonPage() {
         <p>Unlike mosquitoes, which require warm temperatures to become active, blacklegged ticks (<em>Ixodes scapularis</em>) have a remarkably low activity threshold. They emerge from dormancy and begin questing (actively seeking a host) on any day that temperatures reach 4°C or above. In the GTA, this means tick activity can begin as early as late March — well before most homeowners are thinking about pest control.</p>
         <p>This early emergence is a key reason blacklegged ticks are so effective as disease vectors. While other insects remain dormant, blacklegged ticks are already active and feeding, giving them a head start on the season.</p>
 
+        <NextUp path="/blog/spring-tick-season-ontario" />
         <h2>Understanding the Spring Tick Timeline in Ontario</h2>
         <p>Spring tick activity in Ontario unfolds in two distinct phases, each with different risk implications:</p>
 
@@ -156,6 +159,7 @@ export default function SpringTickSeasonPage() {
           <li>Block access points under decks and sheds where groundhogs and chipmunks may nest</li>
         </ul>
 
+        <RelatedLinks path="/blog/spring-tick-season-ontario" />
         <h2>How Professional Tick Barrier Spray Works</h2>
         <p><Link href="/tick-control" className="text-brand-700 hover:underline">Professional tick barrier spray</Link> is applied to the zones where ticks are most concentrated — the transition between lawn and wooded or naturalized areas, garden borders, fence lines, shaded vegetation, stone walls, and wood pile surrounds. The product carries a Canadian PCP registration number, is applied according to label directions, and leaves a residual on the treated surfaces that is renewed roughly monthly.</p>
         <p>Key facts about professional tick treatment:</p>

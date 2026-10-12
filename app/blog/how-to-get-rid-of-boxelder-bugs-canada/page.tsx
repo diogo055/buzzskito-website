@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-boxelder-bugs-canada'
 const DATE = '2026-07-27'
@@ -311,6 +313,7 @@ export default function HowToGetRidOfBoxelderBugsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="foam outlet gasket door sweep weatherstrip kit">Interior gaskets + sweeps →</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-boxelder-bugs-canada" />
           <h2>Identification: Is It Actually a Boxelder Bug?</h2>
           <p>The adult is about 12&ndash;14 millimetres long &mdash; roughly half an inch, a little longer than a shirt button is wide &mdash; with a flattened oval body, charcoal to matte black, marked with three orange-red stripes running lengthwise on the pronotum, the shield-shaped plate behind the head. At rest the folded wings are outlined in red-orange along the veins, which reads as a rough <em>V</em> or a narrow X down the back. They move deliberately rather than fast, and they fly perfectly well despite looking like they shouldn&rsquo;t.</p>
           <p>The nymphs throw people badly. Immature boxelder bugs are bright, almost tomato red, wingless, and progressively larger through five moults, so through June and July you can find a Manitoba maple trunk crawling with red specks and be convinced you are looking at something entirely different from the black-and-red adults on your wall in September. Same insect, different chapter.</p>
@@ -370,6 +373,7 @@ export default function HowToGetRidOfBoxelderBugsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="foam outlet gasket door sweep weatherstrip kit">Check interior gaskets and sweeps on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-boxelder-bugs-canada" />
           <h2>Soapy Water: The Exterior Knockdown That Costs Nothing</h2>
           <p>A spray bottle, water, and a squirt of ordinary dish soap kills clustered boxelder bugs on contact. The mechanism is physical rather than toxicological: the surfactant strips the waxy cuticle that keeps the insect watertight and lets water into the breathing pores, so a thoroughly wetted cluster is knocked down quickly. It works the same way on western conifer seed bugs and on the stink bugs basking beside them.</p>
           <p>Use it the way it deserves to be used. Go out on a sunny autumn afternoon when the clusters are at their densest, and wet them thoroughly &mdash; a light misting does not do it; the bugs need to be soaked. Work the south and west walls, the sunny side of the garage, the fence, and any warm rock or retaining wall where they gather. Repeat every few days through the arrival period, because this is the whole limitation: <strong>soapy water has zero residual effect</strong>. It kills what it touches and nothing else. Bugs landing on that same wall an hour later are entirely unaffected.</p>

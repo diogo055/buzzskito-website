@@ -11,6 +11,8 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-mattress-encasement-canada'
 const DATE = '2026-07-16'
@@ -181,6 +183,7 @@ export default function BedBugMattressEncasementCanadaPage() {
           <p>The distinction matters because the products look similar in listings and the words get used interchangeably. Bed bugs don&rsquo;t live <em>in</em> your mattress foam the way dust mites do — they live <em>on</em> it, tucked into piping seams, handles, tufts, and the gauzy dust cover under the box spring. A six-sided encasement takes every one of those hiding spots off the board at once. Anything that leaves a side open leaves the harborage open. A French-language walkthrough of the same mattress evidence &mdash; taches, mues and points noirs &mdash; is available at <Link href="/blog/traces-punaises-de-lit-matelas" className="text-brand-700 underline">traces de punaises de lit sur un matelas</Link>.</p>
           <p>Two checks before you buy: the listing must say <strong>zippered</strong> and <strong>six-sided</strong> (or &ldquo;fully encases&rdquo;), and it should claim independent lab testing for bed bug escape and bite-through. If the photos show elastic corners, you&rsquo;re looking at a fitted protector wearing an encasement&rsquo;s title.</p>
 
+          <NextUp path="/blog/bed-bug-mattress-encasement-canada" />
           <h2>Do Encasements Actually Work Against Bed Bugs?</h2>
           <p>Yes — encasements are one of the few bed bug products with a genuinely strong evidence base, because their job is mechanical rather than chemical. A quality encasement does three things: it traps any bugs and eggs already on the mattress inside, where they cannot feed and eventually starve; it denies new bugs the seams they need to hide in, forcing them onto smooth, light-coloured fabric where you can see them; and it converts a 30-minute mattress inspection into a 30-second glance. An encasement also freezes the evidence in place, which helps &mdash; anything appearing on that white surface afterwards is new, and <Link href="/blog/bed-bug-shells-casings-shed-skins-canada" className="text-brand-700 underline">telling a shed skin from a carpet beetle casing</Link> is the first read to make.</p>
           <p>What an encasement does <em>not</em> do is treat the room. Bed bugs harbor in the bed frame, headboard, baseboards, night stands, and outlet plates too. Field studies of infested homes consistently find the bed system (mattress, box spring, frame) holds the majority of an infestation — which is why encasements are considered a cornerstone of treatment — but the remainder lives beyond the fabric. Pair the encasement with <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor cups under the bed legs</Link>, which stop bugs elsewhere in the room from climbing back up, and a <Link href="/blog/best-bed-bug-steamer-canada">steamer for the frame and baseboards</Link>.</p>
@@ -216,6 +219,7 @@ export default function BedBugMattressEncasementCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="utopia bedding zippered mattress encasement">Check Utopia encasement on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/bed-bug-mattress-encasement-canada" />
           <h2>Don&rsquo;t Forget the Pillows</h2>
           <p>Pillow seams and piping are the same micro-habitat as mattress seams, and pillows are the most mobile object on your bed — they migrate to the couch for movie night, into the car for road trips, to the cottage in July. During an active infestation, unencased pillows are both a harborage and a distribution system. Zippered bed-bug-rated pillow protectors are cheap (usually 2-packs in the $20–$35 range), and they follow the same discipline as the mattress: zip them on, put your normal pillowcase over top, and leave them sealed for the full containment window.</p>
           <div className="not-prose my-4">

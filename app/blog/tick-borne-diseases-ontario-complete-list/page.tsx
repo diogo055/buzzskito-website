@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const POST = {
   title: 'Tick-Borne Diseases Ontario — Full List',
@@ -91,6 +93,7 @@ export default function TickBorneDiseasesPage() {
         <p>When most Ontario residents think about tick-borne disease, Lyme disease comes to mind first — and for good reason. It is by far the most common tick-borne infection in the province. However, Lyme disease is not the only pathogen carried by ticks in Ontario. The expanding range of the blacklegged tick (<em>Ixodes scapularis</em>) has brought a wider spectrum of tick-borne diseases into Southern Ontario, including several that were previously considered rare or absent in the province.</p>
         <p>Understanding the full range of tick-borne diseases helps homeowners appreciate why tick prevention matters and why prompt tick removal after any bite is critical — regardless of whether the tick &quot;looks infected.&quot;</p>
 
+        <NextUp path="/blog/tick-borne-diseases-ontario-complete-list" />
         <h2>1. Lyme Disease (<em>Borrelia burgdorferi</em>)</h2>
         <h3>The Most Common Tick-Borne Disease in Ontario</h3>
         <p>Lyme disease is caused by the spirochete bacterium <em>Borrelia burgdorferi</em>, transmitted by the blacklegged tick. It is the most frequently reported tick-borne disease in Canada and Ontario, with cases increasing significantly each year as tick populations expand northward.</p>
@@ -208,6 +211,7 @@ export default function TickBorneDiseasesPage() {
         <h3>Treatment</h3>
         <p>Doxycycline or amoxicillin, similar to Lyme disease treatment. Diagnosis can be challenging because standard Lyme disease blood tests do not detect <em>B. miyamotoi</em>.</p>
 
+        <RelatedLinks path="/blog/tick-borne-diseases-ontario-complete-list" />
         <h2>Other Tick Species and Associated Diseases in Ontario</h2>
         <p>While the blacklegged tick is the primary disease vector in Ontario, other tick species are present and can cause health issues:</p>
         <ul>

@@ -8,6 +8,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'why-do-mosquitoes-bite-my-ankles'
 const DATE = '2026-07-16'
@@ -169,6 +171,7 @@ export default function WhyMosquitoesBiteAnklesPage() {
           <p>Mosquitoes bite your ankles because they sit at ground level, exactly where a mosquito&rsquo;s strongest tracking cues collect. The carbon dioxide you exhale is about 1.5 times denser than air, so instead of rising it sinks and pools low, forming an invisible scent trail near the ground. Add the concentrated odour of foot-and-ankle bacteria, and your lower legs become the loudest &ldquo;human host&rdquo; signal on your whole body.</p>
           <p>Behaviour reinforces the physics. Many of the mosquitoes you meet in a GTA backyard &mdash; particularly the daytime <em>Aedes</em> species &mdash; are low fliers that naturally hunt close to the ground. They intercept that pooled CO&#8322; and follow it straight to your ankles. Because your ankles are usually bare below shorts, hard to see, and awkward to swat, the mosquito gets an uninterrupted meal before you even register it is there. It is the same host-detection system described in our guide to <Link href="/blog/what-attracts-mosquitoes-to-you">what attracts mosquitoes to you</Link> &mdash; just concentrated at the lowest, most exposed part of your body.</p>
 
+          <NextUp path="/blog/why-do-mosquitoes-bite-my-ankles" />
           <h2>Why do mosquitoes bite feet?</h2>
           <p>Feet get bitten because they are the most bacteria-rich, odour-heavy part of the human body, and mosquitoes home in on those bacterial scents. Your feet have a very high density of sweat glands, and skin bacteria break that sweat down into the compounds that give feet their characteristic smell &mdash; the exact chemistry mosquitoes are tuned to detect.</p>
           <p>The most famous evidence is almost comic. In a 1996 study published in <em>The Lancet</em>, Dutch entomologist Bart Knols found that <em>Anopheles gambiae</em> mosquitoes were drawn to <strong>Limburger cheese</strong> at nearly the same rate as to a smelly human foot. The reason: Limburger is ripened with <em>Brevibacterium linens</em>, a bacterium closely related to the <em>Brevibacterium</em> species that live between human toes and produce foot odour. The cheese and the foot literally share a scent family &mdash; and to a mosquito, both smell like dinner.</p>
@@ -184,6 +187,7 @@ export default function WhyMosquitoesBiteAnklesPage() {
           <p>No other part of your body lines up all three at once. Your face is close to your exhaled CO&#8322; and body heat, but it is in your field of view and quick to defend. Your torso is usually covered. Your ankles, by contrast, are bare, at ground level, bacteria-rich, and out of sight below your eyeline &mdash; a perfect storm. This is also why the same person often gets hammered on the ankles year after year: personal skin chemistry and bacteria are largely fixed, which we cover in <Link href="/blog/why-mosquitoes-bite-some-people-more">why mosquitoes bite some people more than others</Link>.</p>
           <p>It also shapes what the damage looks like. Ankle bites tend to arrive as a tight patch of three or four rather than one tidy welt, because a female knocked off mid-meal relands a centimetre or two away and probes again &mdash; same insect, several marks. That is <Link href="/blog/how-many-times-can-a-mosquito-bite-you">why one mosquito can leave a whole cluster of bites</Link>.</p>
 
+          <RelatedLinks path="/blog/why-do-mosquitoes-bite-my-ankles" />
           <h2>How to stop ankle bites</h2>
           <p>The fastest way to stop ankle bites is to cover and treat the lower legs and cut the mosquito population in your yard. Because ankles are a physics-and-chemistry problem, the fixes are simple and layered:</p>
           <ol>

@@ -7,6 +7,7 @@ import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const POST = TICK_BLOGS.supporting[4]
 
@@ -114,6 +115,7 @@ export default function TickSeasonPage() {
           </div>
         </div>
 
+        <NextUp path="/blog/tick-season-ontario-when-are-ticks-active" />
         <h2>Month-by-Month Tick Activity in Ontario 2026</h2>
         <div className="not-prose overflow-x-auto my-6">
           <table className="min-w-[560px] w-full text-sm border-collapse">

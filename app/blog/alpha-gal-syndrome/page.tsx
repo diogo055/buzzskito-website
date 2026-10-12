@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'alpha-gal-syndrome'
 const DATE = '2026-07-19'
@@ -122,6 +124,7 @@ export default function AlphaGalSyndromePage() {
         <p>Alpha-gal syndrome &mdash; also called the alpha-gal allergy, red meat allergy, or mammalian meat allergy &mdash; is an allergic reaction to <strong>galactose-alpha-1,3-galactose</strong>, a sugar (carbohydrate) molecule usually shortened to &ldquo;alpha-gal.&rdquo; Alpha-gal is present in most mammals &mdash; cows, pigs, sheep, deer, rabbits &mdash; but not in humans, other primates, birds, or fish. According to the U.S. Centers for Disease Control and Prevention (CDC), a bite from certain ticks can transfer alpha-gal into a person&rsquo;s body, prompting the immune system to start producing antibodies against it. After that, eating mammalian meat or products can set off an allergic reaction.</p>
         <p>Two features make AGS unusual among food allergies. First, it is an allergy to a <strong>sugar molecule rather than a protein</strong>, which is rare. Second, the reaction is <strong>delayed</strong> &mdash; typically 2 to 6 hours after eating &mdash; instead of appearing within minutes. Both quirks make it easy to overlook, which is part of why the CDC describes AGS as an emerging and likely underdiagnosed condition.</p>
 
+        <NextUp path="/blog/alpha-gal-syndrome" />
         <h2>What are the symptoms of alpha-gal syndrome?</h2>
         <p>Symptoms usually begin <strong>2 to 6 hours after eating mammalian meat</strong> or another trigger, which is why many people never connect the reaction to the meal. The CDC notes that severity varies widely from person to person, and even from one reaction to the next in the same person. Reported symptoms include:</p>
         <ul>
@@ -186,6 +189,7 @@ export default function AlphaGalSyndromePage() {
         </div>
         <p>The delayed timing and the sugar-versus-protein distinction are the two features clinicians rely on most when they suspect AGS. They are also why a careful history of tick exposure, as the CDC emphasizes, is such a valuable clue.</p>
 
+        <RelatedLinks path="/blog/alpha-gal-syndrome" />
         <h2>Is there a cure for alpha-gal syndrome?</h2>
         <p>There is <strong>no cure</strong> for alpha-gal syndrome at this time. Management rests on three things:</p>
         <ul>

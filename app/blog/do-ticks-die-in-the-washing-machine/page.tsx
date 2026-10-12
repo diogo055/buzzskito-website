@@ -7,6 +7,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'do-ticks-die-in-the-washing-machine'
 const DATE = '2026-07-16'
@@ -161,6 +163,7 @@ export default function DoTicksDieInTheWashingMachinePage() {
           <p><strong>Usually not.</strong> Ticks are remarkably tolerant of water and laundry detergent, so a normal wash cycle &mdash; cold or warm &mdash; frequently leaves them alive and able to crawl out afterward. In a widely cited 2016 experiment published in the <em>Journal of Medical Entomology</em>, researchers put blacklegged (deer) ticks on clothing and ran them through household laundry machines. Ticks survived cold water completely, and only water heated to <strong>54&deg;C (130&deg;F) or above killed all of them</strong>.</p>
           <p>That number is the catch. Most Canadian and U.S. water heaters are deliberately set to around 49&deg;C (120&deg;F) to prevent scald injuries, which is a few crucial degrees below the tick-kill threshold. So even when you select the &ldquo;hot&rdquo; wash, the water arriving in the drum is often not hot enough to guarantee a kill. If your only tool were the washing machine, you would be gambling with a species that spreads Lyme disease.</p>
 
+          <NextUp path="/blog/do-ticks-die-in-the-washing-machine" />
           <h2>Does washing clothes kill ticks?</h2>
           <p><strong>Not dependably, and colder settings barely dent them.</strong> In the same testing, roughly half of the ticks survived a warm-water wash, and survival was essentially total in cold water. Ticks breathe extremely slowly through tiny openings called spiracles and can effectively hold their breath for hours, which is part of why a submerged, agitated wash cycle does not drown them the way it would most insects.</p>
           <p>Washing does have real value &mdash; it removes mud, sweat, and any loose ticks that have not attached &mdash; but treat it as cleaning, not disinfecting. If you want to be confident a tick on your clothes is dead, washing is the wrong tool. The reliable step happens in the dryer, and it works for a reason worth understanding.</p>
@@ -174,6 +177,7 @@ export default function DoTicksDieInTheWashingMachinePage() {
           <h3>Why the dryer works when the washer doesn&rsquo;t</h3>
           <p>Ticks are built to survive moisture; what they cannot survive is drying out. Their soft bodies lose water quickly in hot, dry air, and once they cross a certain point of dehydration they die &mdash; a process called <strong>desiccation</strong>. Wet heat, like hot wash water, actually keeps the tick hydrated even as it warms, which is why a tick can shrug off a warm bath but not a hot dryer. This is also why <strong>damp clothes take far longer to sterilize:</strong> the evaporating moisture holds the fabric temperature down and keeps the tick hydrated until the clothes finally dry, so the CDC notes that damp laundry needs additional time &mdash; commonly on the order of 50 to 60 minutes on top of the 10 minutes dry clothes require.</p>
 
+          <RelatedLinks path="/blog/do-ticks-die-in-the-washing-machine" />
           <h2>Do ticks die in cold water or the freezer?</h2>
           <p><strong>Cold is far less reliable than dry heat.</strong> Ticks tolerate cold water completely &mdash; it was the least effective wash setting in testing &mdash; and blacklegged ticks are cold-hardy by nature, staying active in Ontario on mild days even into late autumn and near freezing. You cannot count on a cold or cool cycle to kill anything.</p>
           <p>Freezing does eventually kill ticks, but it is slow and impractical for laundry. Sustained temperatures well below freezing for many hours to a few days are typically needed, and a brief spell in a home freezer often is not enough because ticks can tolerate short cold snaps. Some people freeze a tick they have removed simply to preserve it for identification, which is fine &mdash; but as a way to sterilize clothing, the dryer is far faster and surer: 10 minutes on high heat versus days in a freezer. Dry cleaning also kills ticks through heat and solvents, so professionally cleaned items are not a concern.</p>

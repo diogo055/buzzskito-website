@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-steam-mop-for-hardwood-floors-canada'
 const DATE = '2026-08-22'
@@ -245,6 +247,7 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="microfiber flat spray mop hardwood floor">Non-steam alternative →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-steam-mop-for-hardwood-floors-canada" />
           <h2>Do the Water-Drop Test Before You Spend Anything</h2>
           <p>Take a glass of water into the room and put three or four drops on the floor somewhere a rug or a chair normally covers. Wait ten minutes, then wipe. If the drops beaded up, sat there, and left nothing behind, you have an intact film finish and a steam mop is on the table. If they soaked in, darkened the wood, or left a dull ring where they sat, the finish is worn through, or the floor is oiled or waxed rather than sealed &mdash; and no steam mop, on any setting, belongs on it.</p>
           <p>Do it in three or four places, not one, because floors do not wear evenly. The strip in front of the kitchen sink, the hallway from the side door, the pivot at the bottom of the stairs &mdash; these wear through years before the middle of a dining room does, and they are exactly where you will be mopping most. Treat the worst result as the answer for the whole floor.</p>
@@ -260,6 +263,7 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
           <p>In a normally dirty house, plan on changing the pad every one to two rooms. In a winter entryway, sooner. This is why the pad multipack is the highest-value thing you can add to the order: four or six pads mean you finish a floor properly instead of talking yourself into &ldquo;it is probably fine.&rdquo; Wash them in the machine without fabric softener &mdash; softener coats the fibres and destroys exactly the absorbency you are paying for &mdash; and air dry or tumble on low. Replace the pads themselves when the pile has gone flat and slick, which for regular household use tends to be a year or two.</p>
           <p>And sweep or vacuum first. Every time, without exception. Grit and winter road salt on a hardwood floor are abrasive, and a mop head presses them into the finish and drags them across it. You are not cleaning at that point; you are sanding. Use a vacuum on its hard-floor setting with the beater bar off, or a dry microfibre sweeper, and get the loose material out of the room before a drop of water touches the floor.</p>
 
+          <RelatedLinks path="/blog/best-steam-mop-for-hardwood-floors-canada" />
           <h2>The Ontario Winter Problem Nobody Mentions</h2>
           <p>Here is the part that is specific to living here, and it is the most useful thing in this guide. Wood is hygroscopic: it takes up moisture from humid air and gives it back to dry air, swelling and shrinking as it does. A GTA house through January and February is a dry box &mdash; forced-air heat running against outdoor air that is holding almost no moisture, with indoor relative humidity commonly falling into the teens or twenties. Solid hardwood responds by shrinking, and shrinking boards open visible gaps along the seams. Those gaps are unfinished wood. The finish was applied to the top face, not the edges.</p>
           <p>So the season when your floors look worst &mdash; salt haze, slush marks, boot grit &mdash; is the same season when the floor is least able to shrug off moisture, because there are now open channels straight down to raw fibre between every second board. This is why a mop that seemed perfectly safe all summer can leave you with slightly cupped or dark-edged boards after a winter of enthusiastic cleaning. The fix is not complicated: in winter, mop drier than feels necessary, change pads more often, and get the grit up mechanically rather than trying to wet it away. Running a humidifier through the heating season closes those gaps, protects the floor, and is worth doing whether or not you own a steam mop. Come summer, when GTA humidity swells the boards tight against each other, the same floor is far more forgiving &mdash; which is also when a <Link href="/blog/best-dehumidifier-for-basement-canada">basement dehumidifier</Link> is doing the opposite job downstairs.</p>

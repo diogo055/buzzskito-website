@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'pantry-moth-traps-canada'
 const DATE = '2026-07-30'
@@ -339,6 +341,7 @@ export default function PantryMothTrapsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="airtight pet food storage container with gasket lid">Sealed feed bins &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/pantry-moth-traps-canada" />
           <h2>How Many Traps, and Where They Go</h2>
           <p>One or two per affected room. This is the opposite of the instinct most people have, which is to blanket the kitchen once they realise there is a problem, and the reason to resist it is that these lures are strong. Saturate a small kitchen with pheromone and every card catches something, which feels productive and tells you nothing about where the source is. A sparse, deliberate trap line is a measuring instrument. A dense one is a fog.</p>
           <p>Placement rules that make the readings usable:</p>
@@ -374,6 +377,7 @@ export default function PantryMothTrapsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="airtight glass food storage containers set">Check airtight container sets on Amazon.ca &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/pantry-moth-traps-canada" />
           <h2>Salvaging Food You Do Not Want to Throw Out</h2>
           <p>The purge does not have to be expensive. Bin anything with visible webbing, clumping, larvae, or a musty smell &mdash; that food is finished, and the calculation is not close. But for undamaged items you are simply unsure about, freezing is the middle path: seal the item and hold it at about &minus;18&deg;C for several days, which kills eggs and larvae, then move it into a rigid airtight container. A standalone chest freezer holds that temperature reliably; a self-defrosting fridge-freezer cycles warmer, so give it extra days if that is what you have.</p>
           <p>Some people run new bulk purchases through the freezer as a matter of routine before they go in the jar. If you buy large bags of flour, rice or birdseed, that habit costs nothing and removes the most likely way this happens to you again.</p>

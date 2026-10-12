@@ -11,6 +11,8 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mouse-bait-station-canada'
 const DATE = '2026-07-16'
@@ -145,6 +147,7 @@ export default function MouseBaitStationCanadaPage() {
           <p>A mouse bait station is a sealed, tamper-resistant plastic housing with a poisoned bait block locked inside — a mouse can enter through a small opening and feed, but a child&rsquo;s fingers or a dog&rsquo;s jaws cannot reach the bait. In Canada, the station is not an optional accessory: since 2013, it is the only legal way a consumer rodenticide can be sold.</p>
           <p>The mouse enters, feeds on the block, leaves, and dies later — usually back near the nest. That last detail matters more than most marketing admits. Unlike a trap, a bait station gives you no confirmed kill and no carcass recovery. What it gives you instead is continuous, unattended control in places you cannot or will not check daily. Understanding that trade-off is the entire decision.</p>
 
+          <NextUp path="/blog/mouse-bait-station-canada" />
           <h2>Are Mouse Bait Stations Legal in Canada?</h2>
           <p>Yes — but Canadian law only permits a narrow slice of what you see recommended in US articles and videos. Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) implemented rodenticide risk-mitigation measures in January 2013 that reshaped the entire consumer market:</p>
           <ul>
@@ -192,6 +195,7 @@ export default function MouseBaitStationCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="electronic mouse trap">Electronic trap (no-touch) &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/mouse-bait-station-canada" />
           <h2>When Do Bait Stations Beat Traps?</h2>
           <p>Bait stations win in the situations where traps physically or practically fail. Four scenarios justify reaching for a bromethalin station:</p>
           <ul>

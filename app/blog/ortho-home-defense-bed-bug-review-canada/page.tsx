@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'ortho-home-defense-bed-bug-review-canada'
 const DATE = '2026-07-21'
@@ -213,6 +215,7 @@ export default function OrthoHomeDefenseBedBugReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="knock down bed bug killer canada">Knock Down (Canadian) &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/ortho-home-defense-bed-bug-review-canada" />
           <h2>The PCP Number Is the Whole Test</h2>
           <p>Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) reviews and registers every pesticide legally sold and used in this country, and it assigns each approved product a <strong>Pest Control Products (PCP) registration number</strong>. That number is printed on the label, and it is your single, unambiguous proof of three things at once: the product is legal to use in Canada, its directions have been vetted for Canadian conditions, and it carries the Canadian-language safety, first-aid, and disposal information the law requires.</p>
           <p>For a US-famous brand, the PCP number is exactly how you separate the legal Canadian can from the near-identical US import. A can that shows only a US EPA registration number is a US product; a can with a PCP number is Canadian-registered. There is no judgment call and no brand loyalty involved &mdash; you look for the number, and if it is not there, you do not spray it inside a Canadian home. Importing the US can across the border or ordering it from a grey-market third-party seller means using an unregistered pesticide indoors, without the vetted Canadian directions that make it safe to use. That is the practical, legal reason to slow down before you click &ldquo;buy&rdquo; on the familiar-looking can.</p>
@@ -221,6 +224,7 @@ export default function OrthoHomeDefenseBedBugReviewCanadaPage() {
           <p>Set the registration question aside for a moment and judge the tool on its merits, because a Canadian-registered pyrethroid bed-bug spray &mdash; Ortho&rsquo;s included &mdash; does have a real job it does competently. It kills the bugs it directly contacts, and it leaves a <strong>residual</strong> film that keeps killing bed bugs that later walk across a treated surface for a period of weeks. That residual is genuinely valuable on the hard travel routes bed bugs use to move between their hiding spots and your bed: frame joints and bolt holes, box-spring edges, baseboards, and the cracks around the bed. A comfort-wand can makes laying that residual along baseboards and frame edges quick and low-effort, which is a real convenience advantage over a plain trigger sprayer.</p>
           <p>So as a <em>perimeter and frame tool</em>, a registered Ortho can pulls its weight. Where it &mdash; and every consumer spray &mdash; runs into hard limits is everywhere the liquid cannot reach and everything the chemistry cannot beat.</p>
 
+          <RelatedLinks path="/blog/ortho-home-defense-bed-bug-review-canada" />
           <h2>Where It Falls Short: Eggs, Depth, and Resistance</h2>
           <p>Three limitations define what a bed-bug spray cannot do, and they apply to Ortho no more and no less than to its competitors.</p>
           <ul>

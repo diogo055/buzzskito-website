@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'dupray-neat-vs-hill-injection-canada'
 const DATE = '2026-08-22'
@@ -165,6 +167,7 @@ export default function DuprayNeatVsHillInjectionCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="dupray commercial steam cleaner">Dupray commercial range &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/dupray-neat-vs-hill-injection-canada" />
           <h2>The three things that genuinely separate them</h2>
           <p>Strip away the marketing and there are exactly three structural differences between a consumer boiler steamer and a commercial one. None of them is &ldquo;hotter&rdquo;.</p>
           <h3>1. Refill architecture — the one that costs you time</h3>
@@ -227,6 +230,7 @@ export default function DuprayNeatVsHillInjectionCanadaPage() {
           </ul>
           <p>And the one to ignore: pressure. A high-velocity jet blows live bugs and loose debris off the seam and redistributes them around the room instead of cooking them where they sit. What you want is a generous volume of hot dry vapour at a controlled velocity, held close, moved at roughly two to three centimetres per second &mdash; about a foot every ten seconds. That pace feels absurdly slow the first time. It is the whole technique. Our <Link href="/blog/best-bed-bug-steamer-canada">bed-bug steamer guide</Link> covers the full slow-pass protocol, and <Link href="/blog/best-steam-cleaner-for-pest-control-canada">the wider steam-cleaner-for-pest-control guide</Link> covers where steam fits against everything else.</p>
 
+          <RelatedLinks path="/blog/dupray-neat-vs-hill-injection-canada" />
           <h2>The mistake Canadian buyers make</h2>
           <p>Two of them, actually, and the second one is the expensive one.</p>
           <p><strong>Tap water.</strong> Much of the Greater Toronto Area drinks Lake Ontario water that runs moderately hard, and scale is what kills boiler steamers. Not the electronics, not the pump &mdash; the mineral crust that builds up inside the boiler and slowly strangles output until the machine &ldquo;just does not steam like it used to&rdquo;. Distilled or demineralised water costs a few dollars a jug at any Canadian grocery store or pharmacy and is the single cheapest piece of insurance you will ever buy on this purchase. Do it from the first fill, not from the day you notice a problem, and still follow the manufacturer&rsquo;s descaling interval.</p>

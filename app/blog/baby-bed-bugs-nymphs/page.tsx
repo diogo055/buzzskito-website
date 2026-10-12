@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'baby-bed-bugs-nymphs'
 const DATE = '2026-07-30'
@@ -394,6 +396,7 @@ export default function BabyBedBugsNymphsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug inspection flashlight magnifier kit">Inspection light &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/baby-bed-bugs-nymphs" />
           <h2>What a Baby Bed Bug Actually Looks Like</h2>
           <p>Start with shape, because shape is the part that does not change. At every stage a bed bug is a <strong>flat, broadly oval insect with six legs and short antennae</strong>, wingless, with no bristles or hairs you can see without magnification. Flat is the operative word: an unfed bed bug is built like a seed that has been stepped on, which is what lets it live inside a seam.</p>
           <p>Then size. A first-stage nymph is around a millimetre, which people invariably describe as a speck or a piece of dirt that moved. By the fifth stage it is around four and a half millimetres and reads as an apple seed &mdash; at which point most people stop calling it a baby.</p>
@@ -421,6 +424,7 @@ export default function BabyBedBugsNymphsCanadaPage() {
           <p>What does not follow is any ability to read the bites. A bed bug bite cannot be reliably distinguished from a nymph bite, and reactions vary so widely between individuals in the same bed that one person can wake covered in welts while their partner has nothing. A meaningful share of people never react visibly at all, which matters most for older adults, and reaction can take days to appear &mdash; so an absence of bites is not an absence of bed bugs, and a sudden appearance of bites does not mean the bugs arrived last night. If you are trying to work out what bit you, our <Link href="/blog/bed-bug-bites">bed bug bites identification guide</Link> covers the pattern and the timeline, and <Link href="/blog/bed-bug-bites-vs-mosquito-bites">bed bug bites vs mosquito bites</Link> covers the comparison most people actually need. Neither will confirm an infestation. Only physical evidence does that.</p>
           <p>On health risk, the reassuring part is worth stating plainly: bed bugs, including nymphs, are not known to transmit disease to humans &mdash; a position held by both the CDC and Health Canada. The real costs are secondary: skin infection from scratching, allergic reactions in sensitised people, and the sleep loss and anxiety that come with the knowledge of what is in the bed. That last one is not trivial and it is the reason to move quickly rather than to panic.</p>
 
+          <RelatedLinks path="/blog/baby-bed-bugs-nymphs" />
           <h2>What to Do in the First 48 Hours</h2>
           <p>The order matters more than the products.</p>
           <ul>

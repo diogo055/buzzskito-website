@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-patio-heater-canada'
 const DATE = '2026-08-22'
@@ -231,6 +233,7 @@ export default function BestPatioHeaterCanadaPage() {
           <p>Every listing in this category shouts a BTU number, and BTU is the wrong thing to shop on first. Heat gets from an appliance to your body one of two ways, and they behave completely differently outdoors in Canada.</p>
           <p><strong>Propane towers heat air.</strong> A mushroom-top heater burns fuel, warms the air around the burner, and the reflector pushes that warm air down and outward. On a still evening it is excellent &mdash; the entire seating circle feels it. Introduce a breeze and the warm air simply leaves. The heater is still producing 48,000 BTU; you are just no longer standing where they end up. Above roughly 15 to 20 km/h many towers also start cutting out, because the flame-failure sensor is doing exactly what it was designed to do when the burner is disturbed.</p>
           <p><strong>Electric infrared heats objects.</strong> A radiant element emits energy that passes through air almost untouched and turns into heat when it strikes something solid &mdash; you, your chair, the table. Wind carries away the small amount of air warming that happens incidentally, but the radiant path is unaffected. This is why a 1,500 W infrared heater, which produces roughly a tenth of a propane tower&rsquo;s output, can feel better on an exposed patio than the tower does.</p>
+          <NextUp path="/blog/best-patio-heater-canada" />
           <p>So before you compare BTU figures, be honest about your site. A sheltered courtyard between two houses in Etobicoke and an exposed deck facing open fields in Caledon are different purchases. If the wind is the problem, the fix is either infrared or a windbreak &mdash; a fence panel, a screen, a row of planters &mdash; and no amount of extra BTU substitutes for it.</p>
 
           <h2>Coverage: What a Warm Circle Actually Measures</h2>
@@ -263,6 +266,7 @@ export default function BestPatioHeaterCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="propane hose regulator kit patio heater">Check hose &amp; regulator kits &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/best-patio-heater-canada" />
           <h2>When the Cheaper Option Is the Right Call</h2>
           <p>A page that only ever says buy the expensive one is not worth reading. Three cases where less money is the better answer:</p>
           <ul>

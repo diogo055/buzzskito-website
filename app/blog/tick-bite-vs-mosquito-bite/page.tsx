@@ -12,6 +12,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { BUSINESS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'tick-bite-vs-mosquito-bite'
 const DATE = '2026-04-07'
@@ -157,6 +159,7 @@ export default function TickBiteVsMosquitoBitePage() {
         <p>The single most reliable way to distinguish a tick bite from a mosquito bite is whether the insect is still attached. <strong>Mosquitoes bite and immediately fly away.</strong> You may notice the bite minutes later as an itchy welt, but the mosquito is gone. <strong>Ticks attach and feed for hours or days.</strong> If you find an insect embedded in your skin, it is a tick — not a mosquito. This distinction matters because the sooner you remove a tick, the lower the risk of Lyme disease transmission. Removing a tick within 24 hours of attachment significantly reduces infection risk. The other comparison people arrive at in the middle of the night is <Link href="/blog/bed-bug-bites-vs-mosquito-bites" className="text-brand-700 underline">bed bug bites versus mosquito bites</Link>, which turns on pattern, timing and season rather than on whether anything is still attached.</p>
         <p>The reason the two behave so differently is that only one of them can travel to you. A mosquito flies in, feeds for seconds and leaves; a tick has no wings at all and has to be collected by something brushing past its perch. If you have heard that they drop from trees or leap onto passers-by, <Link href="/blog/can-ticks-fly-jump-swim" className="text-brand-700 underline">can ticks fly, jump, or swim?</Link> works through each of those claims.</p>
 
+        <NextUp path="/blog/tick-bite-vs-mosquito-bite" />
         <h2>Side-by-Side Symptom Comparison</h2>
         <p>This table compares the two bites symptom by symptom, from the moment of the bite through the following month. Use it to decide whether you&apos;re looking at a harmless mosquito welt or a tick bite that needs watching.</p>
         <div className="not-prose overflow-x-auto mb-6">
@@ -225,6 +228,7 @@ export default function TickBiteVsMosquitoBitePage() {
         </ul>
         <p><strong>If you develop a bull&apos;s-eye rash, see a doctor immediately.</strong> Tell them you had a tick bite or were in tick habitat. Early Lyme disease is treated effectively with antibiotics. Untreated, it can cause joint pain, cardiac issues, and neurological complications. <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="text-brand-700 hover:underline">The Government of Canada&apos;s Lyme disease guidance</a> confirms that prompt tick removal and early treatment sharply reduce the risk of complications.</p>
 
+        <RelatedLinks path="/blog/tick-bite-vs-mosquito-bite" />
         <h2>Removing a Tick Safely (Do This First)</h2>
         <p>If you find an attached tick, remove it right away — the risk of Lyme transmission rises the longer a blacklegged tick stays attached. Grasp the tick with fine-tipped tweezers as close to the skin as possible and pull straight up with steady, even pressure. Do not twist, crush, or burn it. A dedicated tick-removal tool makes the job cleaner, especially for tiny nymphs. For a full walkthrough and product picks, see our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">tick removal tool guide</Link>. Two questions usually follow a removal: whether the tick could have been feeding unnoticed for days, and whether one carried indoors on clothing can survive in the house. Both come down to lifespan — <Link href="/blog/how-long-do-ticks-live" className="text-brand-700 hover:underline">how long ticks live</Link> covers the two-to-three-year outdoor life cycle and why heated indoor air is dry enough that a stray tick usually dies within days.</p>
         <p><BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check tick-removal tools on Amazon.ca →</BuyLink></p>

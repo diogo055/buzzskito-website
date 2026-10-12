@@ -7,6 +7,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'are-there-ticks-in-canada'
 const DATE = '2026-07-15'
@@ -174,6 +176,7 @@ export default function AreThereTicksInCanadaPage() {
             search="tick removal tool tweezers"
           />
 
+          <NextUp path="/blog/are-there-ticks-in-canada" />
           <h2>What kinds of ticks live in Canada?</h2>
           <p>Only a few of Canada&rsquo;s roughly 40 tick species are commonly encountered by people and pets. Knowing which one you are looking at matters, because only the blacklegged group carries Lyme disease. These four account for the vast majority of tick encounters nationally:</p>
           <ul>
@@ -231,6 +234,7 @@ export default function AreThereTicksInCanadaPage() {
             </table>
           </div>
 
+          <RelatedLinks path="/blog/are-there-ticks-in-canada" />
           <h2>Where in Canada are there no ticks?</h2>
           <p>The honest short answer for 2026 is: nowhere populated is truly tick-free, but the far north has no established populations. Nunavut, most of the Northwest Territories, and most of Yukon are too cold and dry for ticks to complete their life cycle year-round. Ticks are occasionally carried in on birds, pets, or travellers&rsquo; clothing, but they do not reproduce there. High-elevation alpine zones and very arid open ground also have far fewer ticks than the humid forest edges ticks depend on. Everywhere else in southern and central Canada now has at least one tick species present, which is why &ldquo;is there anywhere in Canada with no ticks&rdquo; increasingly gets a &ldquo;not really&rdquo; answer from public-health sources.</p>
 

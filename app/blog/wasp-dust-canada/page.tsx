@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'wasp-dust-canada'
 const DATE = '2026-08-31'
@@ -187,6 +189,7 @@ export default function WaspDustCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="beekeeping suit full body hood">Protective suits &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/wasp-dust-canada" />
           <h2>Why Dust Beats Spray for Ground and Void Nests</h2>
           <p>Picture what a yellow jacket ground nest actually is, because the mental image decides the purchase. The hole in the lawn is not the nest &mdash; it is the front door. Behind it, an entrance tunnel runs anywhere from a hand-span to well over 30 centimetres through the soil before opening into a paper colony the size of a football or bigger: stacked brood combs, workers by the thousand at late-summer peak, and the queen at the centre of it. A wall-void nest is the same architecture turned sideways, with the colony sometimes metres of stud bay away from the gap the wasps use.</p>
           <p>Now fire a can of liquid jet spray at the front door. You wet the rim and the first stretch of tunnel; the geometry absorbs the rest. The colony&rsquo;s core &mdash; queen, brood, the night shift &mdash; never meets a droplet, and the survivors rebuild traffic within days. This is the single most common wasp-control disappointment in the field, and it is not the can&rsquo;s fault. It is the wrong physics for the target.</p>
@@ -208,6 +211,7 @@ export default function WaspDustCanadaPage() {
             </p>
           </div>
 
+          <RelatedLinks path="/blog/wasp-dust-canada" />
           <h2>How the Pros Actually Apply Dust (What You Are Paying For)</h2>
           <p>Worth understanding even though you will not be doing it, because it explains both the fee and the technique&rsquo;s reputation. The pattern across professional wasp work is consistent:</p>
           <ul>

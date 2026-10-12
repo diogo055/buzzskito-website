@@ -10,6 +10,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'longray-thermal-fogger-review-canada'
 const DATE = '2026-07-21'
@@ -233,6 +235,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
           <p>The Longray TS35A is a gasoline-powered <strong>pulse-jet thermal fogger</strong> — the flagship of the class of foggers a serious homeowner or small operator can actually buy, and the machine that most closely mirrors what professional mosquito crews carry into the field. When people picture &ldquo;fogging for mosquitoes&rdquo; — the technician walking a treeline trailing a rolling cloud of white fog that hangs in the shrubs — this is the category of tool doing it. Longray is a long-established name in the fogger world, which matters more than it sounds: for a machine you intend to run season after season, the availability of barrels, coils, and spare parts is a real part of the value.</p>
           <p>What separates it from the plug-in electric foggers most homeowners start with is the engine. A pulse-jet has no fog-path pump and no electrical tether. That gives it three advantages that define who should buy it: it is cordless and roams an entire property, it heats fast, and it produces a genuinely large volume of dense fog. Those are acreage advantages. On a small lot near an outlet, they are wasted.</p>
 
+          <NextUp path="/blog/longray-thermal-fogger-review-canada" />
           <h2>How a Pulse-Jet Thermal Fogger Works</h2>
           <p>The physics is genuinely interesting, and understanding it explains both the strengths and the risks. A pulse-jet engine burns a gasoline–air mixture in a rapid series of tiny detonations — dozens per second — inside a resonating combustion chamber, the same principle that powered early pulse-jet aircraft. That combustion superheats a long metal barrel. Fog solution is then metered into the hot barrel, where it flash-vaporizes; the instant that vapour hits cooler outside air it condenses into an ultra-fine mist of roughly <strong>5–30 micron droplets</strong>.</p>
           <p>Two things follow from that. First, the droplets are far smaller than any pump sprayer or backpack unit can make — fine enough to behave almost like smoke, drifting and swirling through vegetation rather than falling straight down. Second, because the fog is created by heat rather than a mechanical pump, there are no moving parts in the fog path to wear out, which is why professional-grade pulse-jets are so durable. The trade-off is right there in the description: gasoline combustion and a barrel hot enough to flash-vaporize liquid means this is a machine with a real fire and burn profile, not a garden gadget.</p>
@@ -248,6 +251,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
           <h2>Oil-Based vs Water-Based Solution</h2>
           <p>This is where many first-time buyers go wrong. Thermal foggers like the TS35A are designed primarily around <strong>oil-based</strong> (petroleum or food-grade carrier) fog solutions, because oil vaporizes cleanly in the hot barrel and produces the dense, long-hanging fog thermal machines are prized for. Some thermal units accept water-based solution with a dedicated water-fog adapter, but water-based fogging is fundamentally the job of a <Link href="/blog/best-ulv-cold-fogger-canada">ULV cold fogger</Link>, not a thermal one. Running the wrong carrier can produce weak fog, clog the barrel, or — more importantly in Canada — constitute an off-label and therefore illegal application. The pesticide label, not the machine manual and not this article, is the legally binding authority on what carrier and method are permitted.</p>
 
+          <RelatedLinks path="/blog/longray-thermal-fogger-review-canada" />
           <h2 id="legality">What You Can Legally Fog in Ontario and Canada</h2>
           <p>This is the section US-based fogger reviews skip entirely, and it is the one that matters most. The fogger itself is unregulated hardware — what you put <em>in</em> it is tightly regulated on two levels:</p>
           <ul>

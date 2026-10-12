@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'crossfire-bed-bug-concentrate-review-canada'
 const DATE = '2026-07-21'
@@ -232,6 +234,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor traps →</BuyLink>
           </div>
 
+          <NextUp path="/blog/crossfire-bed-bug-concentrate-review-canada" />
           <h2>What Crossfire Actually Is</h2>
           <p>Crossfire is a liquid concentrate, meaning it ships as a small bottle of active ingredient that a professional dilutes with water at a label-specified ratio and loads into a sprayer. The reason a concentrate exists at all is economics and precision: a licensed operator treating many units wants to mix exactly the volume needed at exactly the right strength, rather than buying gallons of pre-mixed ready-to-use spray. That is a professional&rsquo;s workflow, not a homeowner&rsquo;s.</p>
           <p>The product&rsquo;s headline feature is that it does not rely on a single mode of action. It pairs a faster-acting knockdown component with a slower, longer-lasting one so that a bed bug which survives the first hit still absorbs a lethal dose over time &mdash; and, crucially, so that insects genetically resistant to one chemical class are still exposed to another. That multi-active approach is the modern answer to resistance, and it is why professionals in the U.S. reach for products like this rather than the old single-ingredient pyrethroid sprays. As a piece of chemistry, it is well designed. The catch is entirely regulatory, and it is not one you can engineer around.</p>
@@ -244,6 +247,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
           <p>Because Crossfire is easy to find on U.S. retail and marketplace sites, Canadians routinely ask whether they can simply order it across the border. The honest answer is no. Concentrated insecticides are regulated at the border precisely because they are pesticides, and bringing an unregistered one into Canada for use violates the same Act that governs their sale. Listings that appear to ship U.S. pro concentrates to Canadian addresses are the definition of a grey-market channel &mdash; the very thing the registration system exists to prevent.</p>
           <p>Beyond the legal exposure, the practical risk is real. A grey-market bottle may arrive with a label you cannot fully rely on for Canadian safety guidance, no local recourse if the product is counterfeit or degraded, and no assurance the dilution instructions match what PMRA would have required. For a chemical you are applying near where you sleep, &ldquo;probably fine&rdquo; is not a standard worth accepting when fully legal, better-suited tools are on the shelf.</p>
 
+          <RelatedLinks path="/blog/crossfire-bed-bug-concentrate-review-canada" />
           <h2>What to Buy in Canada Instead</h2>
           <p>Here is the good news that makes skipping Crossfire painless: for a do-it-yourself bed-bug fight, the Canada-legal toolkit is not a weaker substitute &mdash; for a homeowner it is genuinely <em>better</em> than chasing a liquid concentrate. Bed bugs are one of the few pests where the non-chemical tools out-perform sprays for an untrained user, and where the best legal chemical is one resistance cannot touch.</p>
           <ul>

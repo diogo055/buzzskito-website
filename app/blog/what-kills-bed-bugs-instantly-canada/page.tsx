@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-kills-bed-bugs-instantly-canada'
 const DATE = '2026-07-30'
@@ -363,6 +365,7 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug heater bag luggage heat treatment">Heated chamber &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/what-kills-bed-bugs-instantly-canada" />
           <h2>Steam: The Best Instant Tool, and How to Not Waste It</h2>
           <p>If you want one thing that is lethal on contact to every life stage &mdash; adults, nymphs, and eggs &mdash; and that leaves no chemical residue in a room where somebody sleeps, it is a dry-vapour steamer. The US EPA&rsquo;s <a href="https://www.epa.gov/bedbugs/do-it-yourself-bed-bug-control" className="text-emerald-700 underline">do-it-yourself bed bug control</a> guidance sets a floor of 130&deg;F &mdash; about 54&deg;C &mdash; for steam used against bed bugs, and vapour at a steamer nozzle is well above that, so contact is decisive at every life stage. Nothing can evolve resistance to being cooked, which is why heat remains reliable while chemistry has not.</p>
           <p>Two technique points decide whether you have treated a bed or redecorated it:</p>
@@ -400,6 +403,7 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Check Safer&rsquo;s registered DE on Amazon.ca &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/what-kills-bed-bugs-instantly-canada" />
           <h2>What Never Kills Bed Bugs, No Matter What the Listing Says</h2>
           <ul>
             <li><strong>Foggers and bug bombs.</strong> The aerosol settles on exposed surfaces and does not enter the seams, joints and voids where bed bugs live. The repellent character of some formulations can also drive them deeper into a structure or outward into neighbouring rooms &mdash; in an apartment, into neighbouring units. This is the worst money in the category.</li>

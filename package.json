@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npm run check:amazon && npm run check:registered && npm run check:ads && npm run check:guides && npm run check:article-ctas && npm run check:sitemap",
+    "build": "next build && npm run check:amazon && npm run check:registered && npm run check:ads && npm run check:guides && npm run check:article-ctas && npm run check:recirculation && npm run check:sitemap",
     "check:amazon": "node scripts/check-amazon.mjs",
     "check:registered": "node scripts/check-registered.mjs",
     "check:ads": "node scripts/check-ads.mjs",
@@ -13,7 +13,9 @@
     "lint": "next lint",
     "check:guides": "node scripts/validate-guide.mjs --all --complete --complete-visual",
     "check:article-ctas": "node scripts/check-article-ctas.mjs",
-    "check:sitemap": "node scripts/check-sitemap.mjs"
+    "check:sitemap": "node scripts/check-sitemap.mjs",
+    "recirculation:backfill": "node scripts/backfill-recirculation.mjs",
+    "check:recirculation": "node scripts/check-recirculation.mjs"
   },
   "dependencies": {
     "@vercel/speed-insights": "^2.0.0",

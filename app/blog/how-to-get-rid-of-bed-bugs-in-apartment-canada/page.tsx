@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-bed-bugs-in-apartment-canada'
 const DATE = '2026-07-21'
@@ -252,6 +254,7 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug spray canada">Registered spray →</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada" />
           <h2>Step 1 — Report It in Writing the Same Day (and Know Your Rights)</h2>
           <p>Before you buy a single product, send your landlord or property manager a written notice &mdash; email is ideal because it timestamps itself &mdash; stating that you have found bed bugs and requesting professional treatment. This is not a formality; it is the step that protects you and starts the clock. In most Canadian provinces the landlord is legally required to keep the unit fit for habitation and to arrange and pay for pest extermination, and in a multi-unit building bed bugs are treated as a building-wide issue rather than a tenant&rsquo;s housekeeping problem. Ontario&rsquo;s <em>Residential Tenancies Act</em>, for instance, places maintenance and remediation squarely on the landlord.</p>
           <p>A few rules keep you on solid ground: report promptly and in writing, keep copies of everything, provide reasonable access for inspection and treatment, and prepare your unit as instructed. Do <strong>not</strong> withhold rent, and do not quietly hire your own exterminator without written notice &mdash; both can backfire. If the landlord does not act within a reasonable time, escalate to your provincial residential tenancy board or your local public-health unit, which in many municipalities can order a building to treat. Your containment kit runs in parallel with all of this &mdash; it does not replace the report.</p>
@@ -272,6 +275,7 @@ export default function GetRidOfBedBugsApartmentCanadaPage() {
           <p>In a house you fight one population; in an apartment you fight one population <em>plus</em> a steady trickle of reinforcements from adjoining units. You cannot legally treat next door, but you can make your unit a harder place to enter and leave. Seal the obvious highways: dust and, where appropriate, caulk the gaps around outlet and switch boxes, around pipe and radiator penetrations, along loose baseboards, and under the door. Be cautious around shared laundry &mdash; transport clothes in sealed bags, wash hot, dry hot, and fold at home, not on a shared table. And never bring secondhand furniture in from a curb or a building common area during an infestation; that is how a cleared unit gets re-seeded overnight.</p>
           <p>This is also the argument for pushing your landlord to treat neighbouring units, not just yours. A treatment that clears your apartment while the unit next door stays infested is a treatment with a countdown timer on it. The written report and the tenant-board escalation route from Step 1 exist precisely to get the <em>building</em> treated, which is the only thing that permanently stops the reintroduction pressure.</p>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada" />
           <h2>How to Choose: Sizing and Spending on an Apartment Kit</h2>
           <p>Because a full renter kit is a real (if mid-range) outlay, it is worth being deliberate about where the money goes and how much of each item you actually need. Buy in this priority order:</p>
           <ul>

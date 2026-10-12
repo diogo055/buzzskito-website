@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-bed-bug-trap-canada'
 const DATE = '2026-07-21'
@@ -244,6 +246,7 @@ export default function BestBedBugTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="active bed bug monitor lure trap">Active lure trap →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-bed-bug-trap-canada" />
           <h2>How Passive Interceptors Work — and Why They Come First</h2>
           <p>An interceptor is a small two-ring plastic cup that exploits a hard limit of bed bug physiology: bed bugs cannot fly, cannot jump, and cannot climb smooth vertical plastic. Every bug that wants to feed on a sleeper in an isolated bed has to walk the floor and climb a bed leg &mdash; and the interceptor turns that mandatory climb into a one-way pitfall. The textured outer wall lets the bug climb toward the bed; at the top it drops into a moat with polished, slippery inner walls its tarsal claws can find no purchase on, and there it stays until you find it in the morning.</p>
           <p>The double-well design is the genius part. A second moat rings the bed leg itself, so the cup catches bugs travelling in both directions. That gives you <strong>direction data</strong> no other trap style provides: outer-well catches were walking toward the bed from elsewhere in the room; inner-well catches were coming down off the bed, which means the mattress, box spring, or frame itself is infested. For the full detection protocol &mdash; the 14-night discipline, how to read inner versus outer wells, and how to isolate a bed properly &mdash; our companion deep-dive on <Link href="/blog/bed-bug-interceptor-traps-canada">bed bug interceptor traps in Canada</Link> covers it step by step. This roundup&rsquo;s job is to help you pick the right <em>type</em> of trap; that guide runs the passive protocol in detail.</p>
@@ -263,6 +266,7 @@ export default function BestBedBugTrapCanadaPage() {
           <h2>What About Glue Boards and Sticky Traps?</h2>
           <p>Sticky monitors show up cheap and everywhere, and they are the weakest option for bed bugs specifically. Bed bugs walk over and around adhesive surprisingly well, ordinary household dust kills the tack within days, and in side-by-side comparisons glue boards catch a fraction of what a pitfall cup catches. They are not useless &mdash; a sticky strip along a baseboard can occasionally flag activity &mdash; but they are a crude presence check, not a measurement tool, and they give you no direction data. If you are choosing where to spend, put the money into interceptors first and treat any glue board as a supplement. Save the serious glue boards for mice.</p>
 
+          <RelatedLinks path="/blog/best-bed-bug-trap-canada" />
           <h2>How to Choose: Matching the Trap to Your Situation</h2>
           <p>Bed bug traps span a modest price range, and the right pick is driven less by budget than by the room. Work through these questions in order:</p>
           <ul>

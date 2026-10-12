@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'rescue-why-trap-review-canada'
 const DATE = '2026-07-21'
@@ -158,6 +160,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
           <p>Sterling claims coverage of 19 species across the three groups, and in a southern-Ontario yard that list maps onto exactly the insects that ruin an August dinner: German and common yellowjackets, northern paper wasps on the fence line, bald-faced hornets in the cedar hedge, and the occasional European hornet. It is sold in Canada with bilingual Canadian labelling &mdash; this is not a grey-market import you have to source from a US seller.</p>
           <p>We have tested and researched this trap as part of our wider <Link href="/blog/best-wasp-trap">best wasp trap in Canada</Link> roundup, where it took the top all-round slot. This page is the deep-dive: how the two-chamber system actually works, what the refill economics look like over a real Canadian season, what catch numbers to expect, and where the trap honestly falls short.</p>
 
+          <NextUp path="/blog/rescue-why-trap-review-canada" />
           <h2>How the Two-Chamber Design Works</h2>
           <p>Pick the trap up and you are holding two traps stacked into one lantern-shaped body:</p>
           <ul>
@@ -191,6 +194,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
           <p>Calibrate your expectations by season. In spring, success is boring: a handful of very large wasps &mdash; queens &mdash; over several weeks. Each one is a cancelled colony, which makes those the most valuable catches of the year even though the trap looks nearly empty. In mid-summer, expect steady but moderate catches of foraging workers. In late August and September, when yellowjacket colonies hit peak population and pivot to scavenging sugar, a well-placed WHY Trap in a bad wasp year can fill visibly in days &mdash; owners in heavy-pressure yards report chambers with dozens to hundreds of yellowjackets between refills.</p>
           <p>What a trap can never do is out-recruit a nest. A mature yellowjacket colony fields thousands of workers; a ground nest by your patio (a distinct problem &mdash; see our <Link href="/blog/how-to-get-rid-of-ground-wasps-canada">ground wasp guide</Link>) will not be trapped into surrender. Where the WHY Trap genuinely changes your summer is <em>pressure reduction</em>: fewer foragers finding your barbecue, fewer scouts recruiting nestmates to it, and &mdash; via spring queens &mdash; fewer nests founded on your property in the first place.</p>
 
+          <RelatedLinks path="/blog/rescue-why-trap-review-canada" />
           <h2>WHY Trap vs TrapStik vs Disposable Traps</h2>
           <p>RESCUE! itself sells three different answers to the wasp problem, plus the hardware-store shelf is full of single-use bag traps. Here is how the categories compare for a Canadian yard:</p>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">

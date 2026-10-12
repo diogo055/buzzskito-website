@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-flea-spray-for-home-canada'
 const DATE = '2026-07-28'
@@ -291,6 +293,7 @@ export default function BestFleaSprayForHomeCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="steam cleaner upholstery carpet dry vapour">Upholstery steamer →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-flea-spray-for-home-canada" />
           <h2>IGR vs Adulticide: What Each Ingredient Is Actually For</h2>
           <p>Household flea sprays contain two functionally different kinds of chemistry, and understanding which one is doing what turns a confusing label into a simple decision.</p>
           <p><strong>Adulticides</strong> are the killers. In consumer products these are usually pyrethrins (extracted from chrysanthemums, often paired with piperonyl butoxide to slow the flea&rsquo;s ability to break them down) or a synthetic pyrethroid such as permethrin or tetramethrin. They act on the insect nervous system, they act fast, and they give you the visible result that makes a purchase feel worthwhile. Their weakness is that they are contact and short-residual by nature: they kill what they touch and what walks across the treated surface while it is still active, and they do nothing whatsoever to an egg or to a larva burrowed at the base of the carpet.</p>
@@ -326,6 +329,7 @@ export default function BestFleaSprayForHomeCanadaPage() {
           <h3>Step 7 &mdash; Trap, count, and keep vacuuming</h3>
           <p>Set a plug-in light trap in each affected room and record the weekly catch. That number is your scoreboard: a falling count is real evidence the plan is working, a flat count says you have missed a zone, and four consecutive empty weeks is a defensible all-clear. Meanwhile, vacuum every single day for two to three weeks. This is the discipline that gets abandoned first, and it is the one that shortens the job &mdash; each pass removes newly laid eggs and, critically, the vibration triggers dormant pupae to emerge on your schedule instead of theirs.</p>
 
+          <RelatedLinks path="/blog/best-flea-spray-for-home-canada" />
           <h2>The Pupal Window: Why Fleas Come Back Around Week Two</h2>
           <p>Many one-star reviews of flea products are describing this phenomenon rather than a defective product, so it is worth understanding before it happens to you.</p>
           <p>Roughly a tenth of the population at any moment is in the pupal stage, sealed inside a sticky silk cocoon that picks up carpet fibre and debris as camouflage. That cocoon is a genuinely effective piece of armour: insecticides penetrate it poorly, desiccants do little, and the pre-emergent adult inside can wait &mdash; for weeks, and under the right conditions considerably longer &mdash; until the environment tells it a host has arrived. The triggers are vibration, warmth, and exhaled carbon dioxide. Footsteps, in other words.</p>

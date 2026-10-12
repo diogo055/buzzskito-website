@@ -12,6 +12,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-wasp-nest-spray-canada'
 const DATE = '2026-07-21'
@@ -331,6 +333,7 @@ export default function BestWaspNestSprayCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="">Ortho wasp aerosol →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-wasp-nest-spray-canada" />
           <h2>Why Foam Wins for Most Canadian Wasp Nests</h2>
           <p>A wasp colony is not the dozen wasps you can see on the nest &mdash; it is several hundred to several thousand insects, a laying queen, comb full of brood, and a rotating shift of foragers who are out hunting when you attack. A spray only ends the problem if it handles all four, and this is exactly where format matters. A carpenter bee is the opposite problem &mdash; a solitary female in a single tunnel &mdash; and a jet aerosol aimed at the hole is the wrong tool; <Link href="/blog/how-to-get-rid-of-carpenter-bees-canada" className="text-brand-700 underline">treating a carpenter bee gallery</Link> calls for a dust that stays in the shaft.</p>
           <p><strong>Foaming aerosols</strong> like the Canadian Raid Wasp &amp; Hornet Bug Killer expand on contact into a wet blanket that does three jobs at once: it knocks down the wasps it touches, it physically plugs and coats the nest entrance so wasps inside struggle to boil out at you, and it leaves a treated barrier that returning foragers must crawl through for hours afterward. That third job is the quiet killer &mdash; the foragers who were out at spray time come home overnight, land on the entrance, and pick up a lethal dose. The active ingredients in Canadian-registered cans are typically fast-knockdown pyrethroids (the tetramethrin/d-phenothrin family), which are exactly what you want here: seconds-fast on contact, low toxicity to mammals at label rates, and short-lived in the environment.</p>
@@ -434,6 +437,7 @@ export default function BestWaspNestSprayCanadaPage() {
           <p><strong>4. Residual on the build surfaces.</strong> The only genuine multi-week lever is a residual applied to eaves, soffits and rail undersides in spring, so a prospecting queen cannot establish. In the United States homeowners can buy the concentrates above from pest-control supply retailers; in Canada that class is largely restricted to certified applicators, so the practical homeowner version is a domestic-class residual or an annual spring service visit.</p>
           <p>One regional exception matters: in mild-winter parts of the southern United States, yellowjacket colonies can survive the winter instead of dying off, producing perennial multi-year nests. Where that happens, &ldquo;wait for winter, then seal&rdquo; fails, and the sequence above has to start with professional removal rather than a calendar.</p>
 
+          <RelatedLinks path="/blog/best-wasp-nest-spray-canada" />
           <h2>Why Does WD-40 Kill Wasps?</h2>
           <p><strong>Because it is a petroleum distillate, not because it is an insecticide.</strong> The oil film coats and clogs the spiracles &mdash; the paired breathing openings along an insect&rsquo;s abdomen &mdash; and strips the waxy cuticle layer that holds water in. The wasp dies of suffocation and desiccation over minutes, rather than the seconds-fast neurotoxic knockdown a registered pyrethroid produces.</p>
           <p>So the folk claim is mechanically true, which is why it will not die on the internet. It is still the wrong tool, for four specific reasons rather than a general sneer:</p>

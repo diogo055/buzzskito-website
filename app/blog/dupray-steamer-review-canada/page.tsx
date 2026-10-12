@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'dupray-steamer-review-canada'
 const DATE = '2026-07-21'
@@ -233,6 +235,7 @@ export default function DupraySteamerReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="handheld steam cleaner bed bugs">Budget handheld →</BuyLink>
           </div>
 
+          <NextUp path="/blog/dupray-steamer-review-canada" />
           <h2>Why a Steamer Belongs in a Bed-Bug Kit</h2>
           <p>The reason steam matters comes down to a biological fact that trips up most DIY attempts: bed-bug eggs are the hard part. A female cements her eggs to fabric with a coating that ordinary suction cannot break, so even a thorough vacuuming lifts the adults and nymphs while leaving a mattress studded with viable eggs that hatch days later and restart the cycle. Chemical sprays struggle here too, because eggs are relatively resistant and because bugs have widespread resistance to common insecticides. Heat is the honest answer &mdash; sufficiently hot temperatures kill bed bugs at every life stage, eggs included, and they do it by physics rather than chemistry, so there is no resistance to develop and no residue to worry about.</p>
           <p>That is what a dry-vapour steamer delivers: a stream of very hot, low-moisture steam you can drive into the exact seams, folds, and joints where bugs and eggs hide. It reaches into fabric where a vacuum nozzle only skims, and it does so without soaking the mattress the way a wet garment steamer would. In a non-chemical protocol, the sequence is vacuum first to physically remove the live insects, then steam to kill the eggs and hidden bugs the vacuum could not lift &mdash; a combination covered in depth in our <Link href="/blog/best-bed-bug-steamer-canada">best bed-bug steamer guide</Link> and our <Link href="/blog/best-steam-cleaner-for-pest-control-canada">best steam cleaner for pest control</Link> roundup. The Dupray Neat is one specific, well-regarded machine within that dry-vapour category.</p>
@@ -254,6 +257,7 @@ export default function DupraySteamerReviewCanadaPage() {
           </ul>
           <p>Finish by placing <Link href="/blog/best-pest-control-equipment-canada">the rest of the kit</Link> to work &mdash; interceptor traps under the bed legs let you monitor, week over week, whether the numbers are actually falling. Steam gives you the kill; monitoring tells you whether it worked.</p>
 
+          <RelatedLinks path="/blog/dupray-steamer-review-canada" />
           <h2>The Honest Downsides</h2>
           <p>A review that only lists strengths is an advertisement, so here are the real trade-offs. First, <strong>price</strong>: the Neat sits well above the impulse-buy handhelds, and if your only use is the occasional garment touch-up it is far more machine than you need. Second, <strong>it is a deliberate tool, not grab-and-go</strong>: a boiler unit needs a few minutes to build pressure and keeps you tethered to an outlet, so it rewards planned treatment sessions rather than quick swipes. Third, and most important, <strong>it cannot end an infestation on its own</strong>. Steam reaches only what the nozzle touches &mdash; bugs hidden inside a wall void, deep in a hollow metal frame, or in the room next door are simply out of range. Anyone selling you a steamer as a one-and-done cure is overselling it.</p>
           <p>Those limits are exactly why the steamer lives inside a plan. For whole items you cannot steam into &mdash; a suitcase full of clothes, bedding, soft toys &mdash; a <Link href="/blog/best-bed-bug-heat-chamber-canada">portable heat chamber</Link> or <Link href="/blog/bed-bug-heater-canada">bed-bug heater</Link> brings the entire object up to a lethal temperature and reaches interiors the nozzle never will. The <Link href="/blog/zappbug-heater-review-canada">ZappBug heater</Link> is the best-known consumer example of that category. Steam and heat chambers are complementary, not competing.</p>

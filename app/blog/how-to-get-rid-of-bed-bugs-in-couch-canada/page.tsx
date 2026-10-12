@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-bed-bugs-in-couch-canada'
 const DATE = '2026-07-21'
@@ -246,6 +248,7 @@ export default function BedBugsInCouchCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug cushion encasement zippered">Cushion encasement →</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-bed-bugs-in-couch-canada" />
           <h2>Step 1 — Confirm and Contain Before You Touch Anything</h2>
           <p>Before you treat, verify you are actually dealing with bed bugs and then stop the couch from seeding the rest of the house. Work in good light with a flashlight and a magnifier: remove every cushion, inspect both faces, and run a stiff card along the seams and piping to flush bugs into the open. You are looking for live bugs (flat, reddish-brown, apple-seed sized), pinhead-pale eggs, dark ink-like fecal dots, shed amber skins, and rusty smear stains. Check the arm folds, the underside where fabric meets frame, the staple lines, and any recliner or sofa-bed mechanism. Our <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs</Link> guide walks the full inspection.</p>
           <p>Containment comes next and it matters as much as any spray: stop moving the couch or its cushions between rooms, don&rsquo;t sleep on it and then climb into a clean bed, and set <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor monitors</Link> under the couch legs and the nearest bed legs so you can see whether bugs are travelling. Bag and hot-wash then high-heat-dry every throw, blanket, and removable cover. Vacuum a wide perimeter and seal the vacuum contents in a bag in an outdoor bin immediately.</p>
@@ -272,6 +275,7 @@ export default function BedBugsInCouchCanadaPage() {
           <p>You cannot steam or spray the inside of a foam cushion core or the sealed voids of the frame, so containment finishes what treatment starts. Slip removable cushions into bite-proof, escape-proof <Link href="/blog/bed-bug-mattress-encasement-canada">zippered encasements</Link> (the same design used for mattresses, in cushion sizes) and, where practical, cover the couch body. Anything sealed inside eventually starves; anything outside cannot get back in. Leave encasements on for at least a year, because bed bugs can survive many months without a meal, and inspect the zipper seams for tears.</p>
           <p>For the deep frame voids that resist everything else, a barely-visible film of <Link href="/blog/diatomaceous-earth-for-bed-bugs">diatomaceous earth</Link> or an amorphous-silica powder into the joints and staple lines gives a slow, long-lasting mechanical kill &mdash; apply a film, never a pile, keep it out of the fabric you sit on and away from anyone&rsquo;s lungs. Then <strong>monitor honestly</strong>: interceptor cups under the legs and a weekly magnifier check of the seams tell you whether the numbers are actually dropping.</p>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-bed-bugs-in-couch-canada" />
           <h2>Repeat Weekly — Why One Treatment Never Finishes</h2>
           <p>The single most common reason a couch infestation comes back is treating once and declaring victory. Bed-bug eggs hatch over roughly one to two weeks, and neither a residual spray nor a single steam pass catches every egg on the first attempt. So you repeat the full vacuum-steam-spray sequence <strong>weekly</strong>, re-dusting voids and re-checking monitors, until you have gone two to three consecutive weeks with zero live bugs, zero fresh shed skins, and zero new bites. Plan on three to six weeks of this cycle. It is tedious, and the discipline of showing up every week is exactly what separates a couch that clears from one that limps along for months. The related <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">whole-home bed-bug removal guide</Link> and the <Link href="/blog/bed-bug-heat-treatment-diy-canada">DIY heat-treatment walkthrough</Link> put this couch protocol in the context of the rest of the house.</p>
 

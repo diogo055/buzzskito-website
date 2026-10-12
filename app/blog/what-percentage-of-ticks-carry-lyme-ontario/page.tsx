@@ -7,6 +7,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-percentage-of-ticks-carry-lyme-ontario'
 const DATE = '2026-07-16'
@@ -137,6 +139,7 @@ export default function TicksCarryLymeOntarioPage() {
           <p>The 20% headline hides real variation. In the most endemic pockets of southern and northwestern Ontario, roughly <strong>20-40% of adult blacklegged ticks</strong> test positive for <em>B. burgdorferi</em>, while immature nymphs generally carry lower infection rates, in the range of 10-25%. Local public health units in the highest-risk zones — including parts of Toronto and Northwestern Ontario — have reported infection rates above 20%.</p>
           <p>The trend matters as much as the number. PHO passive surveillance found the infected share of blacklegged ticks rising from <strong>8.4% in 2008 to 19.1% in 2012</strong>, and past 20% in established areas by 2023. As blacklegged ticks spread northward with milder winters, both the infection rate and the size of the at-risk area have grown. For the current local surveillance picture, see our <Link href="/ontario-lyme-disease-tracker-2026">Ontario Lyme disease tracker for 2026</Link> and the full data set on our <Link href="/ticks-in-ontario-statistics">ticks in Ontario statistics page</Link>.</p>
 
+          <NextUp path="/blog/what-percentage-of-ticks-carry-lyme-ontario" />
           <h2>How many ticks have Lyme disease?</h2>
           <p><strong>Roughly 1 in 5 blacklegged ticks in Ontario&rsquo;s established risk areas is infected — so about 4 in 5 are not.</strong> Framed as a fraction, the 20% average means that even in an endemic zone, most blacklegged ticks you encounter are carrying no Lyme bacterium at all. When you also account for American dog ticks (which never carry Lyme) mixed into the population, the share of <em>all</em> ticks that carry Lyme is lower still.</p>
           <p>Here is how Ontario&rsquo;s blacklegged tick infection prevalence has changed over time, drawn from Public Health Ontario passive surveillance:</p>
@@ -178,6 +181,7 @@ export default function TicksCarryLymeOntarioPage() {
             </div>
           </aside>
 
+          <RelatedLinks path="/blog/what-percentage-of-ticks-carry-lyme-ontario" />
           <h2>Are all ticks infected with Lyme disease?</h2>
           <p><strong>No — most ticks are not infected, and most tick species cannot carry Lyme at all.</strong> In Ontario, only the blacklegged tick transmits <em>B. burgdorferi</em>, and only about 20% of blacklegged ticks in established risk areas are actually infected. The American dog tick (<em>Dermacentor variabilis</em>), the second most commonly submitted tick in the province, does not carry Lyme disease.</p>
           <p>This is why correct identification matters so much. A dog tick bite carries no Lyme risk, while a blacklegged tick bite carries a possible — but far from certain — risk. If you find a tick, you can photograph it and submit it to the free <em>eTick.ca</em> public identification service, or contact your local public health unit. Knowing which species bit you, and how long it was attached, tells you far more about your real risk than the raw infection percentage alone. Our guide on whether <Link href="/blog/are-ticks-dangerous-ontario">ticks are dangerous in Ontario</Link> walks through the species and the diseases they can and cannot spread.</p>

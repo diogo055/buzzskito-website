@@ -3,6 +3,7 @@ import Link from 'next/link'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'mosquito-life-cycle'
 const TITLE = 'The Mosquito Life Cycle in Ontario — Egg, Larva, Pupa, Adult'
@@ -75,6 +76,7 @@ export default function MosquitoLifeCyclePage() {
           <h3>4. Adult</h3>
           <p>The adult mosquito emerges onto the water surface, rests while its wings and exoskeleton harden, then flies off to find food and mate. Males feed only on nectar and live about a week; females also drink nectar but seek blood to fuel egg production, living 2-4 weeks and often laying multiple batches. Understanding the difference matters — read our breakdown of the <Link href="/blog/male-vs-female-mosquito">male vs female mosquito</Link> and <Link href="/blog/why-do-mosquitoes-exist">why mosquitoes exist</Link> at all in the ecosystem.</p>
 
+          <NextUp path="/learn/mosquito-life-cycle" />
           <h2>How Fast Is the Cycle in the GTA?</h2>
           <p>Temperature is the throttle. In the peak of a Mississauga or Toronto July, with water sitting at 25-30°C, the entire egg-to-adult journey takes just 8-10 days. In cool spring water or a shaded ravine, it can stretch to three or four weeks because larval development slows dramatically in cold conditions. This temperature sensitivity is exactly why mosquito populations explode in the humid stretch after a summer rainfall — and why the <Link href="/blog/mosquito-season-gta-when-does-it-start">GTA mosquito season</Link> ramps up in June and July. It also explains where they disappear to: read <Link href="/blog/where-do-mosquitoes-go-in-winter-ontario">where mosquitoes go in winter in Ontario</Link>.</p>
 

@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-stop-deer-eating-cedars-ontario'
 const DATE = '2026-08-22'
@@ -167,6 +169,7 @@ export default function HowToStopDeerEatingCedarsOntarioPage() {
           <p>You put something physical between the deer and the foliage, and you do it in autumn. The method that holds through an Ontario winter is burlap on a stake frame &mdash; stakes outside the drip line, breathable jute wrapped around the outside, top left open, protecting to roughly six feet above where the snow will be rather than six feet above where the ground is today. Everything else on this page is either a lighter version of that for smaller plants, or a supporting layer that makes it work better.</p>
           <p>The reason to be blunt about barriers up front is that cedar damage is not like other garden damage. A browsed hosta comes back in June. A browsed cedar largely does not. That asymmetry is what should drive the budget, and it is what most homeowners in the GTA discover in April rather than in October.</p>
 
+          <NextUp path="/blog/how-to-stop-deer-eating-cedars-ontario" />
           <h2>Why Cedar, and Why Only in Winter</h2>
           <p>Eastern white cedar &mdash; and the cultivated arborvitae varieties that make up most Ontario hedges, including the ubiquitous emerald cedar &mdash; is a recognised winter browse for white-tailed deer in this province. Deer congregate in cedar stands through the coldest months for exactly this reason: the foliage is green, it stands above the snow, and it holds usable nutrition at the point in the year when almost nothing else does.</p>
           <p>That is also why a hedge can look perfect for three growing seasons and be destroyed in one February. From May to October a deer walking your property line has far better options: garden growth, field edges, acorns, the neighbour&rsquo;s hostas. Your cedars are not being spared because they are unappealing &mdash; they are being spared because they rank fourth. Come November the first three are finished or buried, and the ranking changes. The worst of it lands in January and February, when the snowpack is deepest and every green thing above snow level is on the menu.</p>
@@ -202,6 +205,7 @@ export default function HowToStopDeerEatingCedarsOntarioPage() {
             <BuyLink tag={AMZ_TAG} search="burlap roll winter plant protection natural jute">Check burlap rolls on Amazon.ca &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/how-to-stop-deer-eating-cedars-ontario" />
           <h2>Buying by the Linear Foot: How Much Do You Actually Need?</h2>
           <p>Measure the hedge run in feet, decide how many sides are exposed, then add for overlap. A one-sided run of a hundred feet needs roughly 110 to 115 feet of burlap once you account for seam overlaps and turning the ends; a hedge deer can reach from both sides needs double. Burlap sells by width and length, so settle your protection height first &mdash; including the snow allowance &mdash; and let that choose the width. Stakes at four-to-six-foot spacing means about twenty stakes for that hundred-foot run, more if it turns corners.</p>
           <p>Buy slightly more of everything than the tape measure says. Offcuts get used at ends and corners, ties and staples vanish, and the alternative is a second trip in mid-November with the forecast turning. Materials are stocked seasonally at Canadian Tire, Home Depot, Rona, and garden centres such as Sheridan Nurseries, though the autumn shelf empties quickly in a cold snap &mdash; Amazon.ca is generally the more reliable source for wide burlap rolls and long netting runs, and the only practical one once the local shelves clear.</p>

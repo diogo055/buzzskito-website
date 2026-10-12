@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'backpack-sprayer-canada'
 const DATE = '2026-07-14'
@@ -216,6 +218,7 @@ export default function BackpackSprayerCanadaPage() {
           </ul>
           <p>That&rsquo;s the lens for every recommendation below: not spec-sheet maximums, but whether the unit holds pressure, carries comfortably, and switches patterns. It&rsquo;s also why every pick is battery-powered — after years of watching people (including our own early crew) fight manual pumps, we consider constant pressure the single biggest upgrade a homeowner can buy.</p>
 
+          <NextUp path="/blog/backpack-sprayer-canada" />
           <h2>The 4 Backpack Sprayers Worth Buying in Canada (2026)</h2>
 
           <h3>1. PetraTools HD4000 ProSeries — Best Overall</h3>
@@ -261,6 +264,7 @@ export default function BackpackSprayerCanadaPage() {
           </ul>
           <p>What homeowners realistically load: domestic-class pyrethrin sprays, malathion domestic formulations, insecticidal soaps, and essential-oil products such as cedar oil that carry a PCP registration number. For tick work specifically, product choice matters even more than hardware — our <Link href="/blog/best-tick-repellent-yard-canada">best tick repellents for Canadian yards</Link> breaks down what&rsquo;s registered and what actually holds up in Ontario field conditions.</p>
 
+          <RelatedLinks path="/blog/backpack-sprayer-canada" />
           <h2>Nozzle &amp; PSI Guide: Set Up Like a Technician</h2>
           <ul>
             <li><strong>Hollow-cone / adjustable cone, 40–60 PSI — mosquito barrier work.</strong> Fine droplets that swirl around foliage and coat leaf undersides. Work bottom-to-top through shrubs, hedges, and the first 3 m (10 ft) of tree canopy, and hit shaded structure: under decks, around sheds, along fence lines.</li>

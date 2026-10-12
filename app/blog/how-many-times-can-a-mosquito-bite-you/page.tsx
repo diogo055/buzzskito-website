@@ -5,6 +5,8 @@ import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-many-times-can-a-mosquito-bite-you'
 const DATE = '2026-07-16'
@@ -190,6 +192,7 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
             priority
           />
           <p>One mosquito can bite you as many times as it takes her to get a full meal &mdash; often several times in a single sitting. A female mosquito does not have a bite budget that runs out; she is driven to keep feeding until her abdomen is stretched full of blood. If she manages that in one undisturbed bite, you get one welt. If she is knocked off, brushed away, or startled by a twitch before she finishes, she simply relands a short distance away and starts a new bite to top up. Each of those restarts can leave its own mark, which is why one persistent mosquito can be responsible for a whole cluster.</p>
+          <NextUp path="/blog/how-many-times-can-a-mosquito-bite-you" />
           <p>Left completely alone, a female drinks roughly 2 to 5 microliters of blood over about 2 to 5 minutes, swelling to as much as three times her own body weight before she is satisfied. That single meal is usually enough to supply the protein she needs to develop a batch of 100 to 300 eggs. The takeaway for anyone counting welts: the number of bites you end up with has far more to do with how many times you disturbed her than with any fixed limit built into the mosquito.</p>
 
           <h2>How many times can a mosquito bite you in one night?</h2>
@@ -241,6 +244,7 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
           <p>A single mosquito can bite more than one person. Most of the time a hungry female fills up on whichever host she reaches first, but if she is interrupted before finishing, she will often move to a different person or animal nearby to complete her meal. Across her life she also takes a series of separate blood meals &mdash; one for each batch of eggs &mdash; and there is nothing stopping those meals from coming from different hosts on different days.</p>
           <p>This is more than a curiosity. It is the entire reason mosquitoes matter for public health. When a female bites someone carrying a pathogen and later bites you, she can pass it along &mdash; which is how a single infected mosquito can transmit a virus to several people. In Ontario, the mosquito-borne illness public-health agencies watch most closely is West Nile virus, carried mainly by <em>Culex</em> mosquitoes that feed around dusk. The Public Health Agency of Canada notes that most people bitten by an infected mosquito never develop symptoms, but the fact that one mosquito can bite several hosts is precisely why reducing the biting population in shared outdoor spaces matters. On tight city lots where backyards adjoin, that shared population is exactly what a yard treatment is aimed at &mdash; the thinking behind our <Link href="/toronto-mosquito-control">mosquito control in Toronto</Link>, where properties sit close enough that the females resting in one shaded hedge are the same ones biting the yards on either side.</p>
 
+          <RelatedLinks path="/blog/how-many-times-can-a-mosquito-bite-you" />
           <h2>Why do I have so many bites from one mosquito?</h2>
           <p>Usually because one female was interrupted repeatedly, not because a swarm found you. Three or four welts in a tight patch is the normal output of a single disturbed mosquito. The bumps then surface together 24 to 48 hours later, which makes one evening&rsquo;s bites look like several nights of them.</p>
           <p>If you are covered in welts but only ever saw one mosquito, interruption is almost always the answer. A feeding female that gets disturbed does not give up &mdash; she lifts off, relands nearby, and probes again, and she may poke the skin several times before she hits a blood vessel she likes. Each of those probes can trigger the small immune reaction that raises a welt, so a single determined mosquito can leave three, four, or more marks in a tight patch. A neat line or cluster of bites in one area is a classic signature of one insect, not a swarm.</p>

@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'when-to-worry-about-a-mosquito-bite'
 const DATE = '2026-07-15'
@@ -116,6 +118,7 @@ export default function WhenToWorryMosquitoBitePage() {
           <p>Worry when a bite is getting worse two or more days after you were bitten, rather than settling down. A normal bite peaks quickly and then fades; an infected or seriously reacting bite trends the other way. The specific red flags below are the ones Health Canada, the CDC, and Public Health Ontario point to as reasons to have a bite assessed.</p>
           <p>The single most useful trick is to <strong>mark the edge of the redness with a pen</strong>. Come back in a few hours. If the redness has clearly grown past your line, that spreading pattern is the classic sign of a developing skin infection (cellulitis) and is worth a call to your provider or a walk-in clinic.</p>
 
+          <NextUp path="/blog/when-to-worry-about-a-mosquito-bite" />
           <h2>Normal reaction vs infected bite: what&rsquo;s the difference?</h2>
           <p>The two look similar at first &mdash; both are red and swollen &mdash; but they behave differently over time. Use this comparison to place your bite.</p>
           <div className="not-prose my-6 overflow-x-auto">
@@ -165,6 +168,7 @@ export default function WhenToWorryMosquitoBitePage() {
           <p>Bites around the eye tend to swell far more than bites elsewhere because the eyelid skin is thin and loose, so it holds fluid easily. Waking up with a puffy, itchy, half-closed eye after a bite is dramatic but often just a normal exaggerated reaction that eases within a day or two. Cool compresses help.</p>
           <p>Treat it as more serious &mdash; and seek care promptly &mdash; if the eye becomes <strong>painful, the redness moves deep into or around the socket, vision changes, the eye is hard to move, or the swelling is hot and clearly spreading</strong>. Those features can indicate an eye-area infection (periorbital or orbital cellulitis), which is treated urgently. When it is your eye, err toward getting it looked at.</p>
 
+          <RelatedLinks path="/blog/when-to-worry-about-a-mosquito-bite" />
           <h2>How many mosquito bites is dangerous?</h2>
           <p>There is no magic number of bites that becomes toxic in a healthy person. Even dozens of bites are usually just intensely itchy. The genuine risks from mosquitoes are two: <strong>disease transmission</strong> (in Ontario, primarily West Nile virus) and <strong>secondary infection</strong> from scratching bites open. A young child or someone covered in fresh bites can occasionally run a low fever from the sheer volume of reaction, which typically passes. Focus your worry on how a bite is behaving and how you feel overall &mdash; fever, spreading redness, or feeling unwell &mdash; not on counting bumps.</p>
 

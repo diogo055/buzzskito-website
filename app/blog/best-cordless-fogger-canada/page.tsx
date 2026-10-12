@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-cordless-fogger-canada'
 const DATE = '2026-07-21'
@@ -252,6 +254,7 @@ export default function BestCordlessFoggerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="rechargeable cordless disinfectant fogger">Budget battery fogger →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-cordless-fogger-canada" />
           <h2>ULV Cold vs Thermal: Why Cordless Almost Always Means ULV</h2>
           <p>Foggers split into two families. A <strong>ULV (ultra-low-volume) cold fogger</strong> uses a fast air stream or a spinning nozzle to shear liquid into a fine mist &mdash; roughly 5 to 50 microns &mdash; with no heat at all. A <strong>thermal fogger</strong> heats a carrier oil into the dense, visible white cloud you have seen drifting across a field at dusk. Both have their place, but the physics is why nearly every genuinely cordless fogger is a cold ULV unit: a ULV fogger runs entirely on a battery-driven motor, while a thermal fogger needs a burner and fuel, which does not lend itself to a clean battery design.</p>
           <p>Cold ULV foggers also handle the water-based solutions and disinfectants that heat would degrade, and they produce almost no visible plume, which makes them the usable choice indoors and around people and animals with proper precautions. If you specifically want the big drifting cloud for dense outdoor vegetation, look at our <Link href="/blog/best-thermal-fogger-canada">best thermal fogger guide</Link> and the <Link href="/blog/longray-thermal-fogger-review-canada">Longray thermal fogger review</Link> instead &mdash; but accept that those are corded or fuel units, not battery. For everything cordless, you are choosing among ULV cold foggers, and our <Link href="/blog/best-ulv-cold-fogger-canada">best ULV cold fogger guide</Link> covers the corded side of that same family.</p>
@@ -264,6 +267,7 @@ export default function BestCordlessFoggerCanadaPage() {
           <p>Droplet size is the single most useful thing to understand about a ULV fogger, because it is what separates a fogger from an ordinary sprayer and it determines whether your treatment does what you want. Smaller droplets &mdash; around 5 to 20 microns &mdash; stay suspended in the air and disperse to fill a space, which is exactly what you want for disinfecting a room or spreading a fine aerosol. Larger droplets &mdash; roughly 30 to 50 microns &mdash; are heavier and land on surfaces and vegetation rather than floating away, which is what you want when the goal is depositing a residual where it needs to stay.</p>
           <p>A good ULV fogger lets you adjust the flow rate or nozzle to shift droplet size for the task, so the same machine can do airborne coverage one day and surface deposition the next. Match the micron to the mission: smaller for suspended, airborne, disinfecting work; larger for landing a residual on a leaf or a wall. And always defer to the label of whatever Canadian-registered product you are applying, because many specify an approved droplet range and application method that you are legally required to follow.</p>
 
+          <RelatedLinks path="/blog/best-cordless-fogger-canada" />
           <h2>How to Choose: Sizing a Cordless Fogger to Your Coverage</h2>
           <p>These machines span a wide price range, and the way to avoid both overspending and under-buying is to size the fogger honestly to the area you actually treat and how often. Work through it in this order:</p>
           <ul>

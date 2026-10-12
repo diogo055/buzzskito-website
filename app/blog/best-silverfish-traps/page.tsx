@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-silverfish-traps'
 const DATE = '2026-07-28'
@@ -364,6 +366,7 @@ export default function BestSilverfishTrapsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="50 pint dehumidifier basement energy star">50-pint dehumidifier &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-silverfish-traps" />
           <h2>What You Are Buying, and What You Are Not</h2>
           <p>The purchase is worth framing correctly, because it changes how much of it you make. <strong>A trap line, on its own, will almost never clear a silverfish infestation.</strong> It is not that traps fail to catch &mdash; they catch well. It is that what they catch is the wrong fraction of the population: the individuals commuting between harbourage and food, never the eggs and never the sheltering population inside wall voids, under sill plates and behind baseboard trim. With adults living somewhere in the range of two to eight years and able to survive months without eating, a trap that removes a few foragers a week is trimming hedges rather than felling a tree. The biology behind that is laid out properly in <Link href="/blog/how-to-get-rid-of-silverfish-canada">how to get rid of silverfish in Canada</Link>.</p>
           <p>The buying consequence is simple, and it is the opposite of what most people do: <strong>cap your trap spending early and put the rest into the dehumidifier.</strong> Ten boards tell you what twenty tell you. Once the catch map is drawn, every additional board adds cost without adding information &mdash; and the machine that dries the room is the item that both ends the infestation and makes the boards you already own last longer. Sizing, drainage and cold-basement models are covered in the <Link href="/blog/best-dehumidifier-for-basement-canada">basement dehumidifier guide</Link>.</p>
@@ -403,6 +406,7 @@ export default function BestSilverfishTrapsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="digital hygrometer indoor humidity monitor 2 pack">Check hygrometer 2-packs on Amazon.ca &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/best-silverfish-traps" />
           <h2>The DIY Jar Trap: the One Free Method That Genuinely Works</h2>
           <p>Most DIY pest traps are folk remedies that underperform the commercial product badly. The silverfish jar trap is the exception, because it exploits a real physical limitation rather than hoping an insect finds sugar water appealing.</p>
           <p>Silverfish cannot climb smooth vertical surfaces. That is why people find them stranded in a bathtub or a porcelain sink in the morning &mdash; they got in, and the walls defeated them. To weaponize that: wrap the outside of a straight-sided glass jar with masking tape or fabric tape so there is something to grip, drop a starchy bait in the bottom (flour, oats, a crust of bread), and stand the jar upright against a wall in a room you suspect. They climb the tape, tip in, and cannot climb back out.</p>

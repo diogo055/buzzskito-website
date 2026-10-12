@@ -9,6 +9,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'what-attracts-mosquitoes-to-you'
 const DATE = '2026-07-13'
@@ -175,6 +176,7 @@ export default function WhatAttractsMosquitoesToYouPage() {
             </div>
           </aside>
 
+          <NextUp path="/blog/what-attracts-mosquitoes-to-you" />
           <h2>What you wear (and how you move) matters more than you think</h2>
           <p>In the final approach a mosquito uses vision, and she is drawn to dark, high-contrast colours. Recent work showed that once mosquitoes smell CO&#8322;, they fly toward specific colours — <strong>red, orange, black, and cyan</strong> — while largely ignoring green, blue, purple, and white. That is why <strong>light, loose clothing</strong> is such an easy win: it is harder to see against the background and harder to bite through. Movement adds to it — waving and swatting can actually flag your location for the final strike.</p>
           <p>If you want the shade-by-shade version of that finding, we charted the full attract-versus-ignore list from the 2022 <em>Nature Communications</em> study in <Link href="/blog/what-colors-attract-mosquitoes">which colours mosquitoes are drawn to</Link>.</p>

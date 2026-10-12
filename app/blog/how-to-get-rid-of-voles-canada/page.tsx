@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-voles-canada'
 const DATE = '2026-07-30'
@@ -349,6 +351,7 @@ export default function HowToGetRidOfVolesCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="wire bulb planting basket cage">Bulb cages &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-voles-canada" />
           <h2>Reading the Damage: Runways, Bark, and Bulbs</h2>
           <p>Voles leave three distinctive signatures, and being able to name which one you have decides where the money goes.</p>
           <p><strong>Surface runways.</strong> The classic snowmelt discovery: winding trails through the turf where the grass has been clipped down to the soil, roughly two to five centimetres wide, connecting small burrow openings. They look like someone has drawn a maze across the lawn with a narrow mower. These are travel corridors that voles use repeatedly, which is exactly why trapping works &mdash; the animal has committed to a route.</p>
@@ -390,6 +393,7 @@ export default function HowToGetRidOfVolesCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="victor wooden mouse trap multi pack">Check mouse snap traps on Amazon.ca &rarr;</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-voles-canada" />
           <h2>Repellents: What They Do and What They Do Not</h2>
           <p>Castor-oil granules and concentrates are the mainstream vole repellent, and the honest description is <em>displacement</em>. The product makes treated turf and soil unpleasant to move through and feed in, and the voles respond by going somewhere else. Whether that is useful depends entirely on where &ldquo;somewhere else&rdquo; is: a treated boundary band along a field edge can genuinely push pressure off your property, while a treated patch in the middle of a lawn mostly relocates runways within the same yard.</p>
           <p>Three practical limits, stated plainly. It has to be watered in to reach the soil and thatch layer where voles actually travel, or it sits on top of the grass doing nothing. It needs re-application after heavy rain and after mowing. And it does nothing whatever about the cover that made your yard attractive, which means a repellent used <em>instead of</em> mowing and guarding is money spent on a symptom. We are not going to put a number on how well it works, because the honest answer is that it varies with the product, the rain, and how badly the voles want your yard.</p>

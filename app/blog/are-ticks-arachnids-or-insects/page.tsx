@@ -9,6 +9,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'are-ticks-arachnids-or-insects'
 const DATE = '2026-07-13'
@@ -152,6 +154,7 @@ export default function AreTicksArachnidsOrInsectsPage() {
 
           <p>Counting legs on a nymph the size of a poppy seed is a job for a magnifier, not the naked eye &mdash; a pocket 10x loupe settles arachnid-or-insect in seconds and doubles as a tick-check tool. <BuyLink tag={AMZ_TAG} search="pocket magnifier 10x loupe">Check price on Amazon.ca &rarr;</BuyLink></p>
 
+          <NextUp path="/blog/are-ticks-arachnids-or-insects" />
           <h2>Ticks Are Really Just Big Mites (Subclass Acari)</h2>
           <p>Here is the part that surprises most people: a tick&rsquo;s closest relatives are not spiders but <strong>mites</strong>. Ticks and mites together make up the subclass <strong>Acari</strong> within the arachnids. Ticks are simply the largest, blood-specialised members of that group — think of a tick as a mite that evolved to feed on the blood of mammals, birds, and reptiles. That is why a swollen, engorged tick looks nothing like a spider: it is behaving like the parasitic mite it fundamentally is.</p>
           <p>Spiders (order <strong>Araneae</strong>) are cousins one branch over on the same arachnid family tree. They share the eight legs and the wingless, antenna-free body, but spiders spin silk, have a two-part body, and hunt or trap prey. Ticks do none of that. So the accurate way to say it: ticks are arachnids, ticks are acarines (mites and ticks), and ticks are related to spiders — but they are not spiders themselves.</p>
@@ -169,6 +172,7 @@ export default function AreTicksArachnidsOrInsectsPage() {
             </div>
           </aside>
 
+          <RelatedLinks path="/blog/are-ticks-arachnids-or-insects" />
           <h2>Why the Arachnid vs Insect Distinction Actually Matters</h2>
           <p>This is not a pedantic taxonomy debate. Whether ticks are arachnids or insects changes how you get rid of them:</p>
           <ol>

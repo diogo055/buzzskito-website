@@ -11,6 +11,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-check-for-bed-bugs-canada'
 const DATE = '2026-07-16'
@@ -175,6 +177,7 @@ export default function HowToCheckForBedBugsCanadaPage() {
           />
           <p>For ongoing monitoring rather than a one-time check, pitfall-style interceptor cups under each bed leg are the evidence-backed option — Rutgers University field research found interceptors detected low-level infestations that visual inspections missed. We cover models, placement, and how to read what you catch in our <Link href="/blog/bed-bug-interceptor-traps-canada">bed bug interceptor traps guide</Link>. Skip ultrasonic &ldquo;repellers&rdquo; entirely: there is no credible evidence they affect bed bugs.</p>
 
+          <NextUp path="/blog/how-to-check-for-bed-bugs-canada" />
           <h2>How Do You Check a Hotel Room for Bed Bugs in 5 Minutes?</h2>
           <p>Park your luggage in the bathtub or on the bathroom tile the moment you walk in, then spend five minutes inspecting the bed zone before you unpack anything. Bathrooms are the least likely harbourage in any hotel room — smooth, cool, and far from sleeping hosts — which makes the tub a safe staging area.</p>
           <ol>
@@ -197,6 +200,7 @@ export default function HowToCheckForBedBugsCanadaPage() {
             <li>For small wooden or fabric items that fit in a dryer, 30+ minutes on high heat sterilizes them.</li>
           </ul>
 
+          <RelatedLinks path="/blog/how-to-check-for-bed-bugs-canada" />
           <h2>How Do You Inspect an Apartment Before Moving In? (Toronto &amp; GTA Renters)</h2>
           <p>Inspect the unit while it is completely empty — ideally at the viewing or on key-pickup day, before the moving truck arrives — because an empty apartment gives you clear sightlines to every baseboard and closet corner, and because bed bugs survive vacancy easily. At room temperature, adults commonly last 2–4 months without a blood meal, and cool-condition laboratory studies have recorded survival approaching a year. &ldquo;Nobody has lived here for two months&rdquo; is not reassurance.</p>
           <p>This matters more in the GTA than almost anywhere in the country: Toronto has placed at or near the top of Orkin Canada&rsquo;s annual bed bug cities list for multiple years, and Toronto Public Health logs thousands of bed bug service requests annually, concentrated in dense multi-unit rental housing where infestations travel through shared walls, hallway carpet, and laundry rooms.</p>

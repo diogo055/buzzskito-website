@@ -6,6 +6,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'how-to-get-rid-of-mosquitoes-in-the-house'
 const DATE = '2026-07-15'
@@ -306,6 +307,7 @@ export default function GetRidOfMosquitoesInHousePage() {
 
           <p className="text-sm text-gray-500 italic">This article is general information for Ontario homeowners, not medical or pest-control advice for a specific infestation. Always follow the label on any registered insecticide or repellent, and consult Health Canada and Public Health Ontario guidance for the current mosquito-borne disease situation in your area.</p>
 
+          <NextUp path="/blog/how-to-get-rid-of-mosquitoes-in-the-house" />
           <h2>Which mosquitoes come inside houses in the United States?</h2>
           <p>In the United States, the two mosquitoes to know indoors are Culex, the night biters, and <em>Aedes aegypti</em>, a day biter that lives inside homes as well as outside. <a href="https://www.cdc.gov/mosquitoes/about/life-cycle-of-culex-mosquitoes.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s page on Culex mosquitoes</a> says Culex are most active from dusk to dawn and, when not active, usually rest in grass, shrubs and other thick vegetation. <a href="https://mosquitosafari.tamu.edu/types/culex-quinquefasciatus/" target="_blank" rel="noopener noreferrer">Texas A&amp;M&rsquo;s Mosquito Safari guide</a> says the southern house mosquito, <em>Culex quinquefasciatus</em>, often enters homes through unscreened windows or open doors. CDC also lists West Nile virus among the viruses Culex spread in US states.</p>
           <p><a href="https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s Aedes life cycle page</a> says <em>Aedes aegypti</em> lives indoors and outdoors and prefers to live near and bite people, and <a href="https://ask.ifas.ufl.edu/publication/IN792" target="_blank" rel="noopener noreferrer">University of Florida IFAS Extension</a> notes that it bites during the day and is common in urban southern Florida and in cities along the Gulf coast of Texas and Louisiana. CDC adds that its eggs stick to the inner walls of containers above the waterline and can survive drying out for up to 8 months, so a vase that is emptied but not scrubbed can still carry them.</p>

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'tick-life-cycle'
 const TITLE = 'The Tick Life Cycle in Ontario — Egg, Larva, Nymph, Adult'
@@ -75,6 +76,7 @@ export default function TickLifeCyclePage() {
           <h3>4. Adult</h3>
           <p>Nymphs that feed successfully moult into adults by fall. Adult females — recognizable by their reddish-orange body and black shield — climb waist-high vegetation to find a large host such as a deer, dog, or human, take their final blood meal, mate, and then overwinter before laying eggs in spring. Adults are large enough to spot and remove more easily than nymphs, but they can still transmit disease. If you find one, follow our step-by-step guide on <Link href="/blog/how-to-remove-tick-safely">how to remove a tick safely</Link>.</p>
 
+          <NextUp path="/learn/tick-life-cycle" />
           <h2>When Each Stage Is Active in Ontario</h2>
           <p>Blacklegged ticks become active whenever the temperature climbs above about 4°C, which in the GTA means from the first spring thaw through late fall — and even on mild winter days. That long window is why <Link href="/blog/spring-tick-season-ontario">spring tick season in Ontario</Link> starts earlier than most people expect. Here is roughly how the stages line up:</p>
 

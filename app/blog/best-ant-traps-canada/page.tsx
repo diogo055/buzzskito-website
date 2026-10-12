@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-ant-traps-canada'
 const DATE = '2026-07-28'
@@ -335,6 +337,7 @@ export default function BestAntTrapsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="terro liquid ant baits">Liquid bait stations →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-ant-traps-canada" />
           <h2>&ldquo;Ant Trap&rdquo; Describes Two Opposite Products</h2>
           <p>The retail category is a mess, and the confusion costs Canadian homeowners entire summers. Two fundamentally different products share the shelf label.</p>
           <p><strong>Bait stations</strong> contain a food matrix mixed with a slow-acting insecticide. They are pesticides: in Canada they must be registered under the federal Pest Control Products Act, which Health Canada&rsquo;s Pest Management Regulatory Agency administers, and carry a PCP registration number on the label. They are designed around delayed action &mdash; a bait that dropped ants on contact would never reach the nest &mdash; so they look ineffective for the first day or two and then quietly dismantle a colony.</p>
@@ -377,6 +380,7 @@ export default function BestAntTrapsCanadaPage() {
             <strong className="text-amber-900">Why there is no buy button in this section.</strong> We link the liquid bait stations on this page because we can point at a brand line stocked here under a Canadian label &mdash; and we do not link outdoor stakes, because the advice in the paragraph above is to buy that category off a shelf in your own province. Selling you an online search result for the one product we just told you to buy in person would make the advice worthless. Pick them up where you can read the label and where the retailer is stocking to your province&rsquo;s rules.
           </p>
 
+          <RelatedLinks path="/blog/best-ant-traps-canada" />
           <h2>Pet and Child Safety: An Honest Assessment</h2>
           <p>This is the question that sends a lot of people to a glue board, and the honest answer is that the glue board is the worse choice on safety grounds too &mdash; it fails to solve the problem, so the ants and the products stay in the house longer.</p>
           <p>Enclosed, child-resistant bait stations are the format designed for occupied homes. The bait is held inside a plastic housing, there is no propellant, nothing to inhale, and no residue coating your counters. Compared with fogging a kitchen or spraying baseboards where a toddler crawls, a sealed station is a substantially more contained way to deliver a very small amount of active ingredient.</p>

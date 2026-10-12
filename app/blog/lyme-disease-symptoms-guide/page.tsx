@@ -8,6 +8,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'lyme-disease-symptoms-guide'
 const DATE = '2026-07-13'
@@ -252,6 +253,7 @@ export default function LymeDiseaseSymptomsGuidePage() {
           <h2>Stage 3: Late Lyme Disease</h2>
           <p>Weeks to months after an untreated bite, Lyme can settle into the joints and nervous system. The hallmark of late Lyme is <strong>Lyme arthritis</strong>: episodes of marked swelling and pain, most often in one large joint such as a knee. Some people also experience continued neurological issues, including numbness, and problems with memory or concentration. The important message here is one of hope, not fear: even late Lyme is treatable with antibiotics, and most people recover — recovery is simply faster the earlier treatment starts.</p>
 
+          <NextUp path="/blog/lyme-disease-symptoms-guide" />
           <h2>When to See a Doctor and Get Tested</h2>
           <p>Contact a healthcare provider or your local public health unit if you notice any of the following, particularly within a few weeks of a tick bite or time in tick habitat:</p>
           <ul>

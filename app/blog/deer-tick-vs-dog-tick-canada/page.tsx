@@ -9,6 +9,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'deer-tick-vs-dog-tick-canada'
 const DATE = '2026-04-28'
@@ -200,6 +202,7 @@ export default function DeerTickVsDogTickPage() {
           <AffiliateDisclosure />
           <p>Whichever it is, it needs to come off the skin now, and a tick-removal kit that includes a small magnifier does double duty: confirm the pattern on the shield, then pull the tick straight out. <BuyLink tag={AMZ_TAG} search="tick removal kit with magnifier">Check price on Amazon.ca &rarr;</BuyLink></p>
 
+          <NextUp path="/blog/deer-tick-vs-dog-tick-canada" />
           <h2>Deer Tick vs Dog Tick: The Three Differences</h2>
           <p><strong>Deer tick vs dog tick comes down to three things: a deer tick is about 3 mm unfed with a plain reddish-black body and transmits Lyme disease in Canada; a dog tick is about 5 mm unfed with a mottled grey-and-brown shield and does not.</strong></p>
           <p><strong>Size.</strong> Unfed, a deer tick is sesame-seed small and a dog tick is apple-seed sized. Deer tick nymphs are poppy-seed tiny and easy to miss.</p>
@@ -249,6 +252,7 @@ export default function DeerTickVsDogTickPage() {
           <p>For a deeper dive into the blacklegged tick&rsquo;s life cycle, Ontario range, and season-by-season activity, see our full <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged (deer) tick Ontario guide</Link>.</p>
           <p>Telling these two apart on a dog is harder than it is on a bare arm — fur hides the shield, and an engorged tick loses the shape and colour you would normally go by. Our photo guide to <Link href="/blog/what-does-tick-look-like-on-dog" className="text-brand-700 underline">what a tick looks like on a dog</Link> covers the fur-parting angles and how to rule out a skin tag or a flea.</p>
 
+          <RelatedLinks path="/blog/deer-tick-vs-dog-tick-canada" />
           <h2>Why the Distinction Matters Medically</h2>
           <p>The deer tick is the entire reason Lyme disease exists in Canada. <strong>About 10–30% of blacklegged ticks in southern Ontario carry <em>Borrelia burgdorferi</em></strong>, the bacterium that causes Lyme. Untreated Lyme can progress to chronic joint pain, neurological symptoms, and cardiac issues. Caught early (within weeks of the bite), it&rsquo;s treatable with a 2–4 week antibiotic course (doxycycline) with full recovery in most cases.</p>
           <p>The dog tick is a much lower medical concern. While theoretically capable of transmitting Rocky Mountain spotted fever and tularemia, both diseases are extraordinarily rare in Canada — fewer than 5 confirmed RMSF cases per year nationwide. The main veterinary concern is tick paralysis in dogs (resolves with prompt tick removal).</p>

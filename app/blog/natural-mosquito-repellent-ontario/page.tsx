@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'natural-mosquito-repellent-ontario'
 const DATE = '2026-04-26'
@@ -234,6 +236,7 @@ export default function NaturalMosquitoRepellentPage() {
           </div>
           <p className="text-sm text-gray-500">Figures reflect published complete-protection-time trials and vary by concentration and formulation. Only oil of lemon eucalyptus (PMD) is recommended by the <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">CDC</a> and registered by the <a href="https://www.epa.gov/insect-repellents" rel="noopener">U.S. EPA</a> as comparable to low-concentration DEET (PMD products sold in Canada carry a PCP registration number); the others need far more frequent re-application. Sources: <a href="https://www.cdc.gov/mosquitoes/" rel="noopener">CDC &mdash; Mosquitoes</a>, <a href="https://www.epa.gov/insect-repellents" rel="noopener">U.S. EPA &mdash; Insect Repellents</a>.</p>
 
+          <NextUp path="/blog/natural-mosquito-repellent-ontario" />
           <h2>The Tier System — What Actually Works</h2>
 
           <h3>🟢 Tier 1: Evidence-backed, comparable to low-concentration DEET</h3>
@@ -316,6 +319,7 @@ export default function NaturalMosquitoRepellentPage() {
           <h2>The Underrated Trick: A Patio Fan</h2>
           <p>Mosquitoes are weak fliers. A standing fan on medium speed in your outdoor seating area drops mosquito landing rates by 60–80% in a 3–5 metre radius. It also disperses the CO<sub>2</sub> plume mosquitoes use to find you. Cost: $30. Effectiveness: comparable to applying repellent.</p>
 
+          <RelatedLinks path="/blog/natural-mosquito-repellent-ontario" />
           <h2>The Honest Truth About Plants</h2>
           <p>Lavender, basil, citronella grass, and bee balm contain real mosquito-repellent oils — but plants release these oils only when the leaves are crushed or brushed. A planted lavender bush at the corner of your patio is mostly decorative. To get the actual repellent benefit, you would need to physically crush leaves and rub them around — at which point a small bottle of OLE-based spray is more practical.</p>
           <p>For Ontario-hardy mosquito-repellent plants worth growing for their <em>combination</em> of mild repellency and aesthetic value, see our <Link href="/blog/mosquito-repellent-plants-ontario">Mosquito Repellent Plants Ontario guide</Link>.</p>

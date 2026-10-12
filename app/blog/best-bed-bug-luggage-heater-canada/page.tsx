@@ -12,6 +12,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-bed-bug-luggage-heater-canada'
 const DATE = '2026-07-21'
@@ -256,6 +258,7 @@ export default function BestBedBugLuggageHeaterCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="zappbug oven bed bug heater">Budget folding chamber →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-bed-bug-luggage-heater-canada" />
           <h2>Why Heat Works When Sprays and Suction Do Not</h2>
           <p>Bed bugs have a hard-won reputation for surviving what you throw at them. Many populations shrug off common insecticides, and their eggs are cemented into fabric seams where a vacuum cannot lift them and a surface spray struggles to reach. Heat is the great equaliser: no bed bug at any life stage has evolved resistance to being cooked. Adults and nymphs die when their tissue is held at roughly <strong>45°C (113°F)</strong> for a sustained period, and the eggs &mdash; always the toughest stage &mdash; are reliably destroyed at about <strong>48&ndash;50°C (118&ndash;122°F)</strong> held long enough. A luggage heater is engineered to reach that egg-killing band and hold it, which is why one clean cycle can decontaminate an entire bag that no amount of spraying would clear.</p>
           <p>That is also why heat is the natural companion to the other non-chemical tools. A <Link href="/blog/best-bed-bug-steamer-canada">bed-bug steamer</Link> delivers lethal heat to seams and tufts on furniture you cannot fit in a chamber; a <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum</Link> physically removes the adults and loose debris first. The luggage heater covers the category those two cannot: portable belongings &mdash; the suitcase, shoes, books, and electronics &mdash; treated whole, in one pass, with the same heat principle.</p>
@@ -268,6 +271,7 @@ export default function BestBedBugLuggageHeaterCanadaPage() {
           <p>A hot wash followed by a full high-heat dryer cycle genuinely kills bed bugs on washable clothing, and if you already own a dryer it costs nothing. For launderable clothes, that is often all you need &mdash; there is no reason to buy a chamber to treat a load of t-shirts. Be honest with yourself about that before you spend.</p>
           <p>Where the heat chamber becomes irreplaceable is everything you <em>cannot</em> put in a machine. The suitcase itself &mdash; wheels, seams, lining, the exact places bed bugs ride home from a hotel. Shoes. Leather goods and belts. Books, papers, and documents. Backpacks and their frames. Electronics and cords. Delicate fabrics a dryer would shrink or ruin. A luggage heater treats all of it as a single load in one cycle, including the bag that carried the problem in the first place. The sensible household approach is both tools: the dryer for washable clothing, the chamber for the luggage and everything that cannot be washed.</p>
 
+          <RelatedLinks path="/blog/best-bed-bug-luggage-heater-canada" />
           <h2>Sizing a Heat Chamber: Match the Largest Load, Not the Smallest</h2>
           <p>Because these are a real investment, sizing is where people most often waste money in both directions &mdash; buying too small and running endless cycles, or buying a room-sized unit for a single carry-on. Match the chamber to your <em>largest realistic</em> load:</p>
           <ul>

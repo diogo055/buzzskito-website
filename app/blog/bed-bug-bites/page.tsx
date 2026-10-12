@@ -12,6 +12,8 @@ import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-bites'
 const DATE = '2026-07-19'
@@ -167,6 +169,7 @@ export default function BedBugBitesPage() {
         />
         <p>Bed bug bites look like <strong>small, raised, itchy welts arranged in a rough line, curve, or tight zigzag cluster</strong> &mdash; most often three to five marks, a pattern so common it earned the nickname <strong>&ldquo;breakfast, lunch, dinner.&rdquo;</strong> Each welt is typically 0.2&ndash;2 cm (about 1/16&ndash;3/4 in) across, red on lighter skin and often purple, plum, or dark brown on deeper skin tones, sometimes with a tiny darker point at the centre where the bug fed.</p>
         <p>The line pattern has a simple mechanical explanation: a single bug often probes several spots in one feeding session &mdash; it gets disturbed when the sleeper shifts, detaches, and reattaches a centimetre or two away. Bugs also feed along the edge where bedding or clothing meets exposed skin, so the row of welts frequently traces a collar line, a waistband, or the edge of a sheet.</p>
+        <NextUp path="/blog/bed-bug-bites" />
         <p>Location is the other half of the picture. Bed bugs cannot bite through fabric, so welts concentrate on <strong>skin that was uncovered during sleep</strong>: the face, neck, shoulders, arms, hands, and lower legs. Bites across areas that were snugly covered all night count as evidence <em>against</em> bed bugs. Reactions vary enormously person to person &mdash; from nothing at all to large hives or small blisters &mdash; which is why two people sharing a bed can wake up looking like they slept in different houses.</p>
 
         <h2>What else could have bitten you?</h2>
@@ -223,6 +226,7 @@ export default function BedBugBitesPage() {
         </div>
         <p>What treatment cannot do is end the problem. As long as the bugs remain, new bites replace healing ones every few days &mdash; so identification and elimination, not creams, are the actual fix. And a caution on the flip side: do not fog or spray your bedroom based on bites alone. Bite marks cannot confirm the species, and <Link href="/blog/do-bed-bug-sprays-actually-work">consumer bed bug sprays have real limits</Link> even when bed bugs are confirmed. Confirm first, then act.</p>
 
+        <RelatedLinks path="/blog/bed-bug-bites" />
         <h2>Does one bed bug bite mean an infestation?</h2>
         <p>Not necessarily &mdash; but it always means <strong>inspect now</strong>. A single welt can be a lone hitchhiker that came home in a bag or on a coat, an introduced bug that has not established, or not a bed bug at all. Remember that no one, dermatologists included, can identify a bed bug bite from the mark alone.</p>
         <p>The reason to take even one suspicious bite seriously is arithmetic. A mated female lays eggs daily and several hundred over her lifetime, and each bug feeds every 3&ndash;7 days &mdash; so a &ldquo;small&rdquo; problem compounds quietly in the weeks you spend waiting to be sure. The correct response to one bite is not panic and not a spray can: it is a focused inspection of the bed, done that week.</p>

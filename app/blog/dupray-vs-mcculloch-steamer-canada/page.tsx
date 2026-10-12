@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'dupray-vs-mcculloch-steamer-canada'
 const DATE = '2026-07-21'
@@ -230,6 +232,7 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="mcculloch mc1275 steam cleaner">McCulloch MC1275 →</BuyLink>
           </div>
 
+          <NextUp path="/blog/dupray-vs-mcculloch-steamer-canada" />
           <h2>The PSI Myth: Why Pressure Does Not Kill Bed Bugs</h2>
           <p>Walk into any steamer comparison and you will find people ranking machines by PSI as if it were horsepower. For bed bugs, that instinct is backwards. Pressure is velocity &mdash; how hard the jet comes out &mdash; and a hard jet is a liability, not an asset, when you are treating a mattress seam. Blast a harbourage with a high-velocity jet and you do not cook the bugs; you <em>launch</em> them, scattering live insects and loose eggs across the room to re-establish somewhere you have not treated yet.</p>
           <p>What actually kills bed bugs is <strong>heat delivered for enough time</strong> &mdash; thermal energy transferred into the fabric until the surface reaches lethal temperature and stays there. That calls for a high <em>volume</em> of hot, dry vapour moving at a gentle, controlled velocity, so you can hold the nozzle over a seam and let the heat soak in without blowing the seam apart. Both the Dupray Neat and the McCulloch MC1275 sit in a sensible pressure range for this; neither is a pressure-washer. So when a spec sheet leads with a big PSI number, read it as marketing, not as a bed-bug ranking. The machines separate on heat retention and dryness, not on how hard they spit.</p>
@@ -242,6 +245,7 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
           <p>&ldquo;Dry steam&rdquo; sounds like a contradiction, but it is the most important phrase in this comparison. It refers to vapour with very low residual moisture &mdash; often described as around five percent water or less. Two things make it matter for bed bugs. First, drier steam carries more of its energy as pure heat, so it transfers a lethal temperature into fabric more efficiently than a wet, droplet-laden jet. Second, it barely dampens the surface, so a mattress or upholstered headboard dries in minutes instead of staying soaked &mdash; and a soaked mattress is both slow to sleep on again and a mould risk.</p>
           <p>The Dupray Neat is engineered around dry-vapour output; it is one of the machine&rsquo;s headline design goals. The McCulloch MC1275 runs noticeably wetter. That does not make the MC1275 bad &mdash; wetter steam is genuinely useful for scrubbing greasy stovetops and grout, which is what it was primarily built for &mdash; but for a mattress it means you must resist the urge to over-steam, keep passes controlled, and let bedding dry completely before it goes back on the bed. If dry, fast-drying output is a priority because you are treating fabric you have to sleep on tonight, the Neat has a clear edge.</p>
 
+          <RelatedLinks path="/blog/dupray-vs-mcculloch-steamer-canada" />
           <h2>Run Time and Refills: Why Continuous Steam Wins Long Jobs</h2>
           <p>Bed-bug steaming is slow, methodical work &mdash; roughly an inch per second along every seam, tuft, fold, and joint. A single bed and frame is a real time investment; a whole room or a multi-room infestation is a marathon. That is where run time quietly decides the experience. The Dupray Neat carries a larger boiler and is built for long, continuous sessions, so you can usually steam an entire bedroom on one fill without stopping. The McCulloch MC1275 has a smaller tank and is not designed for on-the-fly refilling under pressure, so you tend to run it down and let it cool before topping up.</p>
           <p>For a one-off single mattress that is a minor annoyance. For a serious job it is a genuine advantage for the Neat, and not only for convenience: every time you stop, cool, refill, and re-heat, you break the steady rhythm that produces consistent kills, and it is tempting to speed up afterward to make up time &mdash; which is exactly how eggs survive. Uninterrupted steam keeps your passes even and your discipline intact.</p>

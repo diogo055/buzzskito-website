@@ -11,6 +11,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'ultrasonic-pest-repellers-do-they-work'
 const DATE = '2026-07-16'
@@ -124,6 +126,7 @@ export default function UltrasonicPestRepellersPage() {
             <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap">Check price on Amazon.ca →</BuyLink>
           </div>
 
+          <NextUp path="/blog/ultrasonic-pest-repellers-do-they-work" />
           <h2>What Does the Research Say About Ultrasonic Repellers?</h2>
           <p>The research record is unusually one-sided: startle, then habituation, then nothing. The key findings that come up again and again:</p>
           <ul>
@@ -142,6 +145,7 @@ export default function UltrasonicPestRepellersPage() {
           <p>Because ultrasonic repellers slip through a regulatory gap: they contain no pesticide, so they fall outside the Pest Control Products Act, which means <strong>no Canadian agency reviews their efficacy before sale</strong>. A domestic-class rodenticide or insect spray must be registered with Health Canada&rsquo;s PMRA, which reviews safety <em>and</em> supporting data before the product can make claims. An ultrasonic plug-in faces no such review — the &ldquo;covers 1,200 sq ft&rdquo; and &ldquo;drives out mice, rats, roaches and spiders&rdquo; text on the box is checked by nobody.</p>
           <p>Worth internalizing as a Canadian shopper: <strong>no PMRA registration number means the claims are unverified</strong>, not that the product is gentler or greener. Mechanical traps are also unregistered — but a snap trap&rsquo;s mechanism is self-evident, while an ultrasonic device&rsquo;s entire value proposition rests on claims no regulator has tested and the published science contradicts.</p>
 
+          <RelatedLinks path="/blog/ultrasonic-pest-repellers-do-they-work" />
           <h2>Why Does Ultrasound Fail Physically?</h2>
           <p>Even if habituation didn&rsquo;t exist, the physics would sink these devices. Ultrasound — sound above roughly 20 kHz — behaves less like the booming bass that travels through your ceiling and more like light from a lamp:</p>
           <ul>

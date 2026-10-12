@@ -9,6 +9,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'wondercide-canada-review'
 const DATE = '2026-07-12'
@@ -260,6 +262,7 @@ export default function WondercideCanadaReviewPage() {
             <p className="text-sm text-gray-800 leading-relaxed">Yes &mdash; on <em>contact</em>, and for <em>short</em> windows. Cedar and lemongrass oils genuinely kill and repel ticks, fleas, and mosquitoes when they hit them directly, which is why the pet spray earns loyal fans. The catch is duration: essential oils are volatile and wash off in rain, so repellent research consistently shows plant-oil products protecting for far less time than picaridin, DEET, or permethrin. For a GTA yard that means weekly re-treatment to hold any line. For dependable, whole-yard tick relief, pair or replace it with <Link href="/tick-control">professional barrier spray</Link> &mdash; a residual formula that wears down over weeks rather than days and covers mosquitoes too.</p>
           </div>
 
+          <NextUp path="/blog/wondercide-canada-review" />
           <h2>How Wondercide Works (and Why That Matters)</h2>
           <p>Wondercide&rsquo;s active ingredient is cedarwood oil, usually alongside lemongrass and sesame oil. Cedar oil kills and repels insects by interfering with <strong>octopamine</strong>, a neurotransmitter that regulates movement and heart rate in insects, ticks, and fleas. Mammals &mdash; including you, your dog, and your cat &mdash; do not have octopamine receptors, which is the scientific basis for the brand&rsquo;s pet-and-kid marketing. That mechanism is real and is why the sprays do something when they land on a bug.</p>
           <p>The limitation is also chemistry. Essential oils are <strong>volatile</strong> by design &mdash; that is what makes them smell strong and what makes them evaporate. In direct summer sun, heat, and Ontario&rsquo;s frequent rain, the active oils dissipate within days, taking their repellency with them. That is fundamentally different from a residual pesticide engineered to bind to leaf surfaces and keep killing for weeks.</p>
@@ -274,6 +277,7 @@ export default function WondercideCanadaReviewPage() {
             <li><strong>Small, targeted areas</strong> &mdash; a deck rail, a doghouse, a single flower bed you can re-treat easily</li>
           </ul>
 
+          <RelatedLinks path="/blog/wondercide-canada-review" />
           <h2>What Wondercide Is NOT Good For</h2>
           <ul>
             <li><strong>Long-lasting yard protection</strong> &mdash; the short residual means constant reapplication</li>

@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'green-pool-mosquito-breeding-ontario'
 const DATE = '2026-08-22'
@@ -231,6 +233,7 @@ export default function GreenPoolMosquitoBreedingOntarioPage() {
           <p>A working pool breeds nothing: free chlorine in the normal 1&ndash;3 ppm range makes the water hostile, and a running circulation pump keeps the surface too disturbed for a Culex female to lay a raft that survives. Both protections fail together the moment the pump goes off. Sunlight and organic load consume the remaining chlorine within days, algae blooms in warm weather, and the algae becomes the food supply for the larvae. Two or three weeks later you have a warm, green, undisturbed, nutrient-rich body of water with no predators in it. Timing on the ground is fast &mdash; eggs hatch inside 24&ndash;48 hours here and larvae reach biting adults in roughly 7 to 10 days, so a pool that goes still on the first of the month is producing adults before the month is out. Our guide to <Link href="/blog/mosquito-larvae-identification">identifying mosquito larvae</Link> covers what you are actually looking at when you lean over the edge.</p>
           <p>The species that takes it over matters. <em>Culex pipiens</em>, the northern house mosquito, is the primary West Nile virus vector in southern Ontario, and it specifically prefers stagnant, organically enriched water &mdash; the kind other species find unattractive. That is also why the risk profile peaks late: Culex numbers and <Link href="/blog/west-nile-virus-mosquito-risk-ontario">West Nile risk in Ontario</Link> climb through late August and September, well after most homeowners have stopped thinking about mosquito season.</p>
 
+          <NextUp path="/blog/green-pool-mosquito-breeding-ontario" />
           <h2>Option 1: Keep It Circulating — Usually the Cheapest Correct Answer</h2>
           <p>This is still the recommendation we give most often on pool calls, because most green pools are not abandoned &mdash; they belong to someone who went away, got busy, or had a pump failure they have not booked yet. If the pool is sound and it will be opened next May, restoring circulation is cheaper, faster and better than any cover.</p>
           <p>Four to six hours a day of circulation, plus chlorine held in the normal range, removes both conditions the larvae need: moving water is a poor laying surface, and larvae that do hatch get drawn through the skimmer. Where people go wrong is running the pump for an hour and calling it done, or shocking a green pool with no circulation to distribute it. If the water is already green, expect a filter cleaning or two, and keep larviciding until it clears &mdash; the two jobs run in parallel, not in sequence.</p>
@@ -258,6 +261,7 @@ export default function GreenPoolMosquitoBreedingOntarioPage() {
           </ul>
           <p>The professional caveat, and it catches people out: <strong>Bti does not kill pupae.</strong> Pupae have stopped feeding, so they never ingest it. Treat a pool that already has tumblers in it and you will still get a hatch over the next few days &mdash; that is not the product failing, that is the cohort that was already past the vulnerable stage. Dose to the surface area of the pool and re-dose on a calendar rather than by eye; our full <Link href="/blog/mosquito-dunks-canada-guide">mosquito dunks guide for Canada</Link> covers rates and the dunks-versus-bits decision. What Bti cannot do is end the problem &mdash; a treated pool is still stagnant water needing re-dosing every month indefinitely. It is the breathing room you buy while the cover ships.</p>
 
+          <RelatedLinks path="/blog/green-pool-mosquito-breeding-ontario" />
           <h2>Should You Just Drain It?</h2>
           <p>Sometimes yes, but this is the option where a wrong move gets expensive. Two risks:</p>
           <ul>

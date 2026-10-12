@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-cockroach-spray-canada'
 const DATE = '2026-07-28'
@@ -363,6 +365,7 @@ export default function BestCockroachSprayCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">Safer&rsquo;s registered insect dust →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-cockroach-spray-canada" />
           <h2>Read This First: Why Spraying Scatters Roaches</h2>
           <p>Most consumer roach sprays on a Canadian shelf are built on <strong>pyrethroid</strong> chemistry &mdash; the synthetic cousins of pyrethrum. Pyrethroids are fast, cheap, and broadly effective on contact. They are also <em>repellent</em>, and that single property is what wrecks the DIY roach plan.</p>
           <p>Cockroaches detect treated surfaces and avoid them. When you lay a band of repellent residue along your kitchen baseboards and around the cabinet frames, you have not built a kill zone. You have built a fence, and the population responds the way any population responds to a fence: it moves. Roaches push deeper into wall voids, behind the fridge coil housing and the dishwasher motor, up into the soffit of a cabinet run, along plumbing chases into the bathroom, and &mdash; in an apartment &mdash; straight through the shared wall into your neighbour&rsquo;s unit. Some weeks later you see fewer roaches in the kitchen and conclude the spray worked. What actually happened is that a breeding colony relocated somewhere you cannot reach, and it kept breeding.</p>
@@ -398,6 +401,7 @@ export default function BestCockroachSprayCanadaPage() {
           <p><strong>Oriental cockroach</strong> (<em>Blatta orientalis</em>) &mdash; glossy dark brown to nearly black, 25&ndash;30 mm, slow-moving and unable to fly, sometimes called the &ldquo;water bug.&rdquo; Loves cool damp: basements, crawlspaces, floor drains, under porches, in leaf litter and mulch against a foundation. Plan: fix the moisture, pull the mulch and leaf litter back from the foundation, cover or maintain floor drains, and treat the perimeter only with a product whose Canadian label lists that site, and only where your province permits it.</p>
           <p>The pattern is worth stating plainly: for one species the spray aisle is a trap, and for the other two it is a reasonable supporting tool used <em>outside</em>. If you are not sure which you have, put down glue monitors for a week &mdash; you will get a specimen and a location map at the same time. Our <Link href="/blog/how-to-get-rid-of-cockroaches-canada">full get-rid-of-cockroaches playbook</Link> walks the ID and the monitoring routine step by step.</p>
 
+          <RelatedLinks path="/blog/best-cockroach-spray-canada" />
           <h2>Registered Dusts: the Quiet Workhorse Nobody Buys (and the Boric Acid Trap)</h2>
           <p>A thin insecticidal dust is the most under-used tool in DIY roach control. The mechanism is elegant: a roach crosses a thin dust film, picks up particles on its legs and antennae, grooms itself compulsively as roaches do, ingests the dust, and dies over several days &mdash; long enough to return to the harbourage first.</p>
           <p><strong>But the Canadian answer to &ldquo;which dust&rdquo; is not the American one, and this trips up almost every roach guide written for this market.</strong> Boric acid has killed cockroaches longer than most modern actives have existed &mdash; and in Canada it is no longer a consumer dust. In <strong>Re-evaluation Decision RVD2016-01</strong>, Health Canada cancelled the domestic-class boric acid dust, powder and granular formulations over concerns about cumulative exposure from multiple sources; the last date of retail sale was 22 July 2018 and the last date of allowable use was 22 July 2019. What Health Canada kept in the domestic class were <em>enclosed bait stations and spot treatment with gel formulations</em> &mdash; which is exactly what a product like Raid Ant, Roach &amp; Earwig Gel Baits (Reg. No. 25735 P.C.P. Act) is: a registered domestic-class boric acid bait, 2% boric acid, still sold here. So boric acid is not banned in Canada. It is simply a bait, not a powder you puff into a void. If a listing offers you a boric acid roach <em>dust</em> for home use, that is not a product with a current Canadian domestic registration behind it.</p>

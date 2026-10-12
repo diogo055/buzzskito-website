@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'cluster-flies-in-house-canada'
 const DATE = '2026-08-31'
@@ -175,6 +177,7 @@ export default function ClusterFliesInHouseCanadaPage() {
           <p>Before anything else, the fact that defuses the panic: <strong>cluster flies cannot reproduce indoors</strong>. Their larvae are parasites of earthworms &mdash; the female lays eggs in soil, the hatching larvae burrow until they find a worm, develop inside it, and pupate in the ground. The entire nursery is your lawn and every lawn around it. There are no maggots in your walls, no hidden breeding site to hunt down, and nothing about the flies at your window that says anything about your housekeeping. Every cluster fly in your house is an adult that walked in from outside between late August and early October, and the indoor population is a fixed, shrinking number from the day entry stops.</p>
           <p>That one fact reorganizes the whole problem. A house fly problem is a sanitation problem; a fruit fly problem is a source-removal problem; a cluster fly problem is a <strong>building-envelope problem with a nuisance tail</strong>. You manage the tail with a vacuum and some window traps, and you fix the problem with a caulking gun &mdash; in summer, for reasons of timing that this page will keep returning to, because the timing is the part everyone gets wrong.</p>
 
+          <NextUp path="/blog/cluster-flies-in-house-canada" />
           <h2>What You Are Looking At: The Two-Second ID</h2>
           <p>Cluster flies are slightly bigger than house flies, dark grey and nondescript at a glance &mdash; but three features settle it. The thorax carries short, crinkled <strong>golden hairs</strong> that catch the light; the <strong>wings overlap</strong> at rest like closed scissors, where a house fly holds them apart; and above all there is the <strong>behaviour</strong>: cluster flies are slow, heavy, clumsy fliers that bump against window glass, buzz in loud circles when disturbed, and drop to the sill exhausted. If you can catch it with a cup on the first try, it is probably a cluster fly.</p>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6">
@@ -215,6 +218,7 @@ export default function ClusterFliesInHouseCanadaPage() {
           <p>Cluster flies do not distribute themselves evenly down a street; they pile into the same two or three houses every autumn, and the selection is not random. The winning profile: <strong>tall</strong> or prominently exposed above its neighbours, with <strong>broad south- or southwest-facing walls</strong> that hold afternoon sun into the evening &mdash; the staging surface &mdash; often <strong>light-coloured</strong> and quick to warm, and <strong>adjacent to open turf</strong>: backing onto parkland, a golf course, farmland, or simply a big lawn, because turf means earthworms and earthworms mean cluster flies. There is also evidence that flies mark good overwintering sites with chemical cues, which would explain the eeriest part of the pattern &mdash; the same corners of the same houses, year after year, as though the address were written down somewhere. It is; it is just written in scent on your fascia boards.</p>
           <p>The takeaway is liberating for the household that gets hit: this is <strong>position, not cleanliness</strong>, and no amount of indoor effort changes the geography. What changes the outcome is making the winning house harder to enter &mdash; which is a summer job on two or three specific walls, not a whole-house fortification.</p>
 
+          <RelatedLinks path="/blog/cluster-flies-in-house-canada" />
           <h2>What to Do Right Now (When They Are Already Inside)</h2>
           <p>From October to March, the honest toolkit is small and mechanical:</p>
           <ul>

@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-dehumidifier-for-basement-canada'
 const DATE = '2026-07-21'
@@ -191,6 +193,7 @@ export default function BestDehumidifierForBasementCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="midea cube dehumidifier">Midea Cube →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-dehumidifier-for-basement-canada" />
           <h2>How to Size a Basement Dehumidifier (Pints vs Square Feet)</h2>
           <p>Sizing is the decision that makes or breaks the purchase, and it is where most people go wrong &mdash; usually by buying too small to save money, then wondering why the unit runs non-stop and the basement is still damp. Dehumidifier capacity is rated in <strong>pints of water removed per day</strong>. Note that the rating scale changed: under the current U.S. Department of Energy test method (adopted 2019), the same physical machine is now labelled with a lower pint number than it was under the old standard, because the new test runs at a cooler, more realistic temperature. So a modern &ldquo;50-pint&rdquo; unit is roughly as capable as an old &ldquo;70-pint&rdquo; one &mdash; do not compare an old spec sheet to a new one.</p>
           <p>Here is a practical sizing table for Canadian basements under the current rating method. &ldquo;Damp&rdquo; means it feels humid; &ldquo;wet&rdquo; means you can see moisture, smell must, or find condensation on cold surfaces:</p>
@@ -238,6 +241,7 @@ export default function BestDehumidifierForBasementCanadaPage() {
           <p><strong>Compressor (refrigerant) dehumidifiers</strong> are what almost everyone should buy. They pull air across a cold coil, condense the moisture out, and are dramatically more energy-efficient at normal room temperatures. They also come in the large capacities a basement needs. Their weakness is the cold: below about 18&deg;C a compressor unit starts losing efficiency, and in a truly cold space the coil can frost over. The fix is <strong>auto-defrost</strong>, standard on all our picks, which periodically melts the frost so the unit keeps working &mdash; typically reliable down to around 5&deg;C. For a heated or semi-heated basement, this is the correct choice, full stop.</p>
           <p><strong>Desiccant dehumidifiers</strong> use a moisture-absorbing wheel instead of a cold coil, so their performance does <em>not</em> collapse in the cold. That makes them the better tool for genuinely cold spaces: an unheated cellar, a cold crawlspace, a garage, or a cottage you close up for winter. The trade-offs are real, though &mdash; they consume more electricity for the same water removed, and they come in smaller capacities. So the rule is simple: <strong>heated basement &rarr; compressor with auto-defrost; a space that stays near or below 10&deg;C &rarr; desiccant.</strong> Most Canadian basements are the former.</p>
 
+          <RelatedLinks path="/blog/best-dehumidifier-for-basement-canada" />
           <h2>What You&rsquo;re Actually Paying For (and What Justifies the Spend)</h2>
           <p>A good basement dehumidifier is a genuine appliance investment, not an impulse buy, so it is worth being clear about where the money goes:</p>
           <ul>

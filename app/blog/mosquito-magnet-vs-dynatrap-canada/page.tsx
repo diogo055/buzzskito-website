@@ -8,6 +8,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-magnet-vs-dynatrap-canada'
 const DATE = '2026-07-21'
@@ -247,6 +249,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="dynatrap dt2000xl">DynaTrap DT2000XL →</BuyLink>
           </div>
 
+          <NextUp path="/blog/mosquito-magnet-vs-dynatrap-canada" />
           <h2>How the Mosquito Magnet Works</h2>
           <p>The Mosquito Magnet is a propane CO₂ trap. It catalytically burns propane to release a plume of <strong>real carbon dioxide</strong>, along with heat and a little moisture, and pairs that plume with a chemical attractant &mdash; octenol or Lurex &mdash; that mimics the scent of a warm-blooded host. A female mosquito looking for a blood meal follows CO₂ first, then heat and scent as she closes in, so the trap intercepts the very insects that matter: the egg-laying females that would otherwise produce the next generation in your yard.</p>
           <p>Because it removes breeding females rather than random bystander insects, the population declines over weeks. Independent and CDC-referenced testing supports 70&ndash;90% mosquito population reduction within roughly a one-acre radius after 6&ndash;8 weeks of continuous operation. The Mosquito Magnet line spans several models &mdash; Patriot Plus, Independence, and the top-end Executive &mdash; that mostly differ in coverage, power source, and features. Our full <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada guide</Link> breaks down the models and where to buy them. The trade-off is cost and commitment: this is a premium machine that also demands propane tanks and attractant cartridges every season, and it only delivers if you actually run it around the clock.</p>
@@ -264,6 +267,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
           <h2>Head-to-Head: Effectiveness Against Actual Mosquitoes</h2>
           <p>This is the category that sells the Mosquito Magnet. Because it generates the same CO₂-plus-heat signature a human body does, it competes with <em>you</em> for the attention of host-seeking females and wins often enough to bend the population curve down over a season. The DynaTrap, by contrast, is doing something adjacent to mosquito control: it is removing a large volume of flying insects, some fraction of which are mosquitoes. Both statements can be true &mdash; the DynaTrap is a busy, effective insect catcher &mdash; while the Mosquito Magnet is still the better <em>mosquito</em> trap. If your yardstick is fewer bites specifically, weight the CO₂ machine heavily. If your yardstick is &ldquo;fewer bugs flying around the porch light,&rdquo; the DynaTrap holds its own for a fraction of the running cost.</p>
 
+          <RelatedLinks path="/blog/mosquito-magnet-vs-dynatrap-canada" />
           <h2>Head-to-Head: Coverage, Running Cost, and Maintenance</h2>
           <p>On coverage, the spec sheets are close &mdash; both claim up to about an acre &mdash; but the Mosquito Magnet&rsquo;s acre is an acre of <em>mosquito</em> reduction, while the DynaTrap&rsquo;s acre is an acre of general insect catch. On running cost the gap flips hard in the DynaTrap&rsquo;s favour: a seasonal bulb and an optional lure cartridge is inexpensive, whereas the Mosquito Magnet&rsquo;s propane and attractant add a real recurring bill every May-to-September season. Maintenance follows the same pattern &mdash; the DynaTrap is quiet and nearly set-and-forget, while the Mosquito Magnet asks for propane swaps, cartridge changes, and more seasonal fuss. Over three or four years of ownership, the total cost of the Mosquito Magnet is dramatically higher, and that ongoing cost is precisely the price you pay for real-CO₂ performance.</p>
 

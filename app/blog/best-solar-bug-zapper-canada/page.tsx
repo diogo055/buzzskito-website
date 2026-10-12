@@ -9,6 +9,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-solar-bug-zapper-canada'
 const DATE = '2026-07-14'
@@ -212,6 +214,7 @@ export default function BestSolarBugZapperCanadaPage() {
           <p>We treat yards across the GTA all season, and we see these staked in gardens everywhere from Mississauga to Markham. The honest field verdict: they pop moths, midges, and gnats reliably within a few metres, they look great doing it, and the yards that have them get bitten exactly as much as the yards that don&rsquo;t. That&rsquo;s not a scam — it&rsquo;s physics plus entomology. UV light is a weak cue for the female mosquitoes that bite, and a dim UV LED is the weakest version of that weak cue.</p>
           <p>So this guide does two things: picks the solar zappers that are actually worth $30–60 for the job they <em>can</em> do, and is blunt about the job they can&rsquo;t.</p>
 
+          <NextUp path="/blog/best-solar-bug-zapper-canada" />
           <h2>The Best Solar Bug Zappers in Canada (2026)</h2>
           <p>Four formats dominate Amazon.ca listings this season. Brands on the budget end rotate constantly (PALONE, AMUFER, OnBeam and a dozen near-identical labels), so shop by spec sheet, not brand loyalty.</p>
 
@@ -252,6 +255,7 @@ export default function BestSolarBugZapperCanadaPage() {
           </ul>
           <p>Notice what&rsquo;s not on the list: &ldquo;mosquito control for the backyard.&rdquo; If your yard has an outlet and your problem is nuisance flying insects, a plug-in unit is flatly better hardware for similar money — our <Link href="/blog/flowtron-bug-zapper-canada">Flowtron guide for Canada</Link> covers the BK-15D and BK-40D in detail. And if your problem is the insects that <em>bite</em>, no zapper of any wattage is the right tool, which brings us to the uncomfortable part.</p>
 
+          <RelatedLinks path="/blog/best-solar-bug-zapper-canada" />
           <h2>The Mosquito Truth (Again, Because It Matters)</h2>
           <p>Every UV zapper — solar or plug-in — has the same blind spot: female mosquitoes don&rsquo;t hunt by ultraviolet light. They track the CO₂ you exhale, your body heat, and your skin chemistry. University of Delaware researchers famously dissected the catch of residential bug zappers and found mosquitoes made up a fraction of one percent to a few percent of insects killed; the rest were moths, beetles, midges, and beneficial insects. Follow-up work has repeated the finding for decades. We break down the full research in our honest <Link href="/blog/bug-zappers-canada-do-they-work">bug zappers guide for Canada</Link>.</p>
           <p>A solar zapper makes this math worse, not better. Its UV LED is a fraction of the brightness of a plug-in tube, its battery quits partway through the night, and its grid is weaker. If a 40W Flowtron catches 2% mosquitoes, a 2W solar unit catches fewer in absolute numbers — while your family provides the CO₂ plume that actually recruits mosquitoes to the patio.</p>

@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const POST = {
   title: 'Are Ticks Dangerous in Ontario?',
@@ -153,6 +155,7 @@ export default function AreTicksDangerousPage() {
         <p>For GTA homeowners, the days of dismissing ticks as a &quot;cottage country problem&quot; are over. The worst areas for ticks in Ontario are not remote &mdash; they are <strong>edge habitats</strong>: ravine slopes, conservation-land trails, escarpment woodlots, and any lot line where mowed grass meets naturalized growth. Toronto ravines, Mississauga conservation areas, Hamilton escarpment trails, and suburban backyards across the region now harbour established blacklegged tick populations.</p>
         <p>That same logic picks out the highest-risk addresses in our service area. Properties pressed against the Niagara Escarpment and the greenbelt corridors are the reason <Link href="/burlington-tick-spray" className="text-brand-700 hover:underline">tick spray in Burlington</Link> concentrates on those boundary edges, and the Oak Ridges Moraine and Credit River headwaters running through Caledon are why <Link href="/caledon-tick-spray" className="text-brand-700 hover:underline">Caledon tick control</Link> targets woodlot margins and fence rows rather than open lawn.</p>
 
+        <NextUp path="/blog/are-ticks-dangerous-ontario" />
         <h2>Which Ticks in Ontario Are Dangerous?</h2>
         <p>Ontario is home to several tick species, but they carry very different levels of risk:</p>
 
@@ -210,6 +213,7 @@ export default function AreTicksDangerousPage() {
 
         <p>Those factors compounded noticeably this season: activity ran ahead of schedule across Southern Ontario and drew province-wide news coverage. We cover what drove it and the five things to do about it in <Link href="/blog/ontario-tick-surge-2026" className="text-brand-700 underline">the Ontario tick surge of 2026 and its 5-step safety plan</Link>.</p>
 
+        <RelatedLinks path="/blog/are-ticks-dangerous-ontario" />
         <h2>Ticks in Your Own Backyard</h2>
         <p>One of the most important things GTA homeowners need to understand is that tick exposure does not require a hike in a provincial park. Ticks live in:</p>
         <ul>

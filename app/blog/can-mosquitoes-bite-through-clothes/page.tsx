@@ -9,6 +9,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'can-mosquitoes-bite-through-clothes'
 const DATE = '2026-07-16'
@@ -200,6 +201,7 @@ export default function CanMosquitoesBiteThroughClothesPage() {
           />
           <p>For the fully-covered approach, a <Link href="/blog/bug-protective-clothing-canada">bug-protective clothing setup</Link> (treated shirt, pants, and a mesh bug jacket or head net) removes bare skin from the equation almost entirely. In serious mosquito habitat — cottage country, near wetlands — a <Link href="/blog/mosquito-net">mosquito net</Link> over a sleeping area or gazebo adds a physical barrier that no fabric-biting mosquito can cross.</p>
 
+          <NextUp path="/blog/can-mosquitoes-bite-through-clothes" />
           <h2>Why fabric choice only goes so far</h2>
           <p>Dressing well cuts your bites significantly, but it does not shrink the mosquito population around you — and in a heavily infested yard, mosquitoes simply hunt for the gaps: your ankles, wrists, neck, and the spots where thin fabric pulls tight. If you are constantly reaching for long sleeves in your own backyard on a July evening in the GTA, the real problem is the number of mosquitoes breeding nearby, not your wardrobe.</p>
           <p>Mosquitoes in Ontario also matter for health reasons, not just comfort. The Public Health Agency of Canada (PHAC) and local public-health units track <em>Culex</em> mosquitoes as the primary vector for West Nile virus, which is present across southern Ontario in summer. Most bites are harmless nuisance bites, and this article is general information rather than medical advice — but reducing how often you are bitten is a reasonable precaution, and covering skin is one of the standard measures public-health agencies recommend.</p>

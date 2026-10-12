@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-keep-mice-out-of-your-car'
 const DATE = '2026-07-21'
@@ -298,6 +300,7 @@ export default function HowToKeepMiceOutOfYourCarPage() {
           <p>Then there is the wiring. Rodent incisors grow continuously, so mice must gnaw to survive, and harness insulation is exactly the right hardness for the job. Since the 2000s, many automakers have used soy-based and other bio-plastic wire coatings, and the &ldquo;soy wiring&rdquo; story became famous through class-action lawsuits against Toyota, Honda, Subaru, and others alleging the material is tastier to rodents than the old petroleum-based insulation. The automakers&rsquo; defence — that mice chewed distributor caps and cloth-wrapped looms decades before anyone put soy in a wire — is fair, and no peer-reviewed study has settled the palatability question. But notice what the market did while the lawyers argued: manufacturers started selling capsaicin-treated rodent tape through their own parts counters. Whatever the cause, the industry treats chewed harnesses as a routine, expected failure mode. You should too.</p>
           <p>The stakes are what make this the highest-value rodent problem in your life. Your house can absorb a mouse for a week with no permanent damage. Your car cannot: a modern vehicle is a $30,000-and-up asset whose nervous system is copper, and a single night of enthusiastic gnawing can take out sensor circuits that cost more to diagnose than to fix — and harnesses are often replaced as complete units rather than spliced, which is how a mouse turns into a four-figure invoice.</p>
 
+          <NextUp path="/blog/how-to-keep-mice-out-of-your-car" />
           <h2>The Signs: A Two-Minute Weekly Hood Check</h2>
           <p>Every defence on this page works better the earlier you catch activity, and the inspection costs nothing. Pop the hood every week or two — every visit, for a stored vehicle — and scan for:</p>
           <ul>
@@ -351,6 +354,7 @@ export default function HowToKeepMiceOutOfYourCarPage() {
             <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Check snap trap multi-packs on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/how-to-keep-mice-out-of-your-car" />
           <h2>What About Steel Wool and Sealing? (The Honest Limits)</h2>
           <p>Home rodent-proofing gospel says: find every 6 mm gap and seal it with steel wool and sealant. That gospel mostly does not translate to vehicles, and it is worth being clear about why. A car&rsquo;s engine bay is open to the ground by design — it has to breathe, drain, and shed heat — and the cabin connects to it through the fresh-air intake at the base of the windshield, the cabin-filter housing, and a firewall full of deliberate grommet holes. You cannot caulk a car.</p>
           <p>What sealing <em>can</em> do is protect a vehicle in storage: stainless-steel mesh stuffed into the exhaust tips and secured over the fresh-air intake closes the two most inviting tunnels while the car sits. Two rules make it safe: use stainless mesh rather than regular steel wool (which rusts into the exhaust), and make forgetting impossible — a bright tag on the steering wheel and a note taped over the ignition, because starting a car with blocked exhaust is a genuinely expensive mistake. For the house-and-garage side of the same job — which absolutely does reward sealing — our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link> and the <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">winter mouse-proofing playbook</Link> cover materials and technique, and keeping mice out of the garage is, of course, the outermost layer of keeping them out of the car parked in it.</p>

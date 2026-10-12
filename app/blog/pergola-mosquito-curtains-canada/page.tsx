@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'pergola-mosquito-curtains-canada'
 const DATE = '2026-08-22'
@@ -230,6 +232,7 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
           <p>That is also why curtains are such an efficient fix here. The frame is already built, already anchored, and already sized to the space you actually use. All that is missing is the mesh. You are not buying a structure, you are finishing one, and the difference in cost between hanging mesh on an existing pergola and having that pergola permanently screened by a contractor is not small.</p>
           <p>This is a different job from fitting fixed screening, and worth keeping separate in your head. Our guide to <Link href="/blog/mosquito-screens-patio-canada">patio mosquito screens</Link> covers frames, fitted panels and permanent solutions; this page is about hanging curtain systems that go up in May and come down in October.</p>
 
+          <NextUp path="/blog/pergola-mosquito-curtains-canada" />
           <h2>The Specification That Actually Matters: Mesh Opening</h2>
           <p>Everything else on the product page is noise next to the size of the holes. Standard mosquito mesh runs around 1.2 mm, and that is a hard barrier to every mosquito species in Ontario &mdash; the <em>Culex</em> that carry West Nile, the floodwater <em>Aedes</em> that explode three days after a heavy rain, all of them. It also stops black flies, which matters if your pergola is at a cottage rather than in Mississauga.</p>
           <p>No-see-ums are the exception, and they are the reason we flag mesh at all. Biting midges are under a millimetre across and will pass through standard mesh as if it were not there. If your property is on the Lake Ontario shoreline &mdash; Port Credit, Bronte, the Burlington waterfront, Humber Bay &mdash; or backs onto a marsh or a slow creek, you want no-see-um mesh at roughly half the opening size. If you are not sure whether that is your problem, our guide to <Link href="/blog/no-see-ums-biting-midges-ontario">no-see-ums and biting midges in Ontario</Link> covers how to tell the bites apart.</p>
@@ -266,6 +269,7 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
           <p>If your pergola already carries a solid roof panel, a retractable canopy, or a shade sail, curtains finish the enclosure and you are done. If the top is open slats, budget for a canopy or a UV-rated shade cloth fitted over the rafters at the same time. It is not an optional upgrade in this case &mdash; it is the other half of the box. This is also the point at which some homeowners realise they would rather buy a structure that is already enclosed, in which case our comparison of <Link href="/blog/best-gazebo-with-mosquito-net-canada">gazebos with built-in mosquito netting</Link> covers soft-top and hard-top models with the mesh already fitted.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="pergola canopy shade cloth replacement cover">Check pergola canopies &amp; shade cloth &rarr;</BuyLink></div>
 
+          <RelatedLinks path="/blog/pergola-mosquito-curtains-canada" />
           <h2>Sealing the Seams: Magnets, Hem Weights, Tie-Backs</h2>
           <p>Mesh does not fail. Gaps fail. Three cheap parts close the three gaps that matter:</p>
           <ul>

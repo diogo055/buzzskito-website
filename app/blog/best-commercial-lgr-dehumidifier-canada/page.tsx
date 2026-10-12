@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-commercial-lgr-dehumidifier-canada'
 const DATE = '2026-08-22'
@@ -246,6 +248,7 @@ export default function BestCommercialLgrDehumidifierCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="pinless moisture meter drywall wood">Moisture meter →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-commercial-lgr-dehumidifier-canada" />
           <h2>What &ldquo;Low Grain Refrigerant&rdquo; Actually Means</h2>
           <p>A grain is a unit of water weight &mdash; one seven-thousandth of a pound &mdash; and restoration work measures the moisture in air as grains per pound of dry air, written gpp. It is a more useful measure than relative humidity on a drying job, because relative humidity moves when the temperature moves even though the actual water content has not changed. Grains tell you how much water is really in the air.</p>
           <p>A conventional refrigerant dehumidifier drags air across a cold coil, condenses water out of it, and reheats the air on the way out. That works beautifully while the air is wet. As the space dries, the dew point falls, the coil struggles to get the air below it, and somewhere in the mid-50s gpp the machine effectively stalls &mdash; it is still running, still making noise, still costing you power, and barely removing water.</p>
@@ -267,6 +270,7 @@ export default function BestCommercialLgrDehumidifierCanadaPage() {
           <p>Wet material only releases moisture as fast as air carries it off the surface. Leave a saturated floor alone and a still, humid boundary layer sits on top of it; evaporation slows to a crawl and your expensive dehumidifier has nothing to pull out of the air. Air movers break that layer up and keep feeding the dehumidifier, which is why the two are bought together and why a contractor with one LGR and no movers is usually the one complaining that LGRs are overrated.</p>
           <p>The working rule of thumb on site is roughly <strong>one air mover per 40 to 60 square feet of wet floor</strong>, plus one extra per room and one at each inside corner or offset, aimed at a low angle along the surface rather than straight into it. Add movers for stairs and for any cavity you have opened up. And then, before you plug anything in, add the amps.</p>
 
+          <RelatedLinks path="/blog/best-commercial-lgr-dehumidifier-canada" />
           <h2>Power, Circuits, and the Breaker You Are About to Trip</h2>
           <p>A job-site LGR typically draws somewhere between 6 and 9 amps at 115V. A standard 15-amp residential circuit gives you about 12 amps of continuous load once you respect the usual 80% derating convention, so the dehumidifier alone consumes most of it. Add three air movers at roughly 1.5 to 3 amps apiece and you are over the limit &mdash; and in an older Toronto, Hamilton or Mississauga home where the whole finished basement runs off one shared circuit, you will discover that overnight, with the equipment dead and the structure quietly re-wetting itself for six hours.</p>
           <p>Map the panel before you set up. Split the load across at least two circuits, ideally on different legs. Avoid daisy-chained extension cords, use heavy-gauge cord on any run past about 15 metres, and label what you have plugged where so the homeowner does not unplug the dehumidifier to charge a phone. On a large loss, this is the difference between a three-day dry and a five-day one.</p>

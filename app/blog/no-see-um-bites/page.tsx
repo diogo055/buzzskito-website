@@ -10,6 +10,8 @@ import Figure from '@/components/Figure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'no-see-um-bites'
 const DATE = '2026-07-19'
@@ -195,6 +197,7 @@ export default function NoSeeUmBitesPage() {
         </ul>
         <p>Reactions vary widely from person to person. One person might get a barely visible mark while a companion standing beside them develops a spray of intensely itchy welts &mdash; the difference is largely individual immune sensitivity to the midge&rsquo;s saliva, not how many times each person was bitten.</p>
 
+        <NextUp path="/blog/no-see-um-bites" />
         <h2>What does a bite from a noseeum look like? Exact size, and the sand fly mix-up</h2>
         <p>A single noseeum bite is small &mdash; a red dot roughly <strong>1/8 inch (about 3 mm) across</strong> that rises into a firm welt. The giveaway is the grouping: because midges feed in swarms, a dozen bites landing within minutes merge into a <strong>red, blotchy patch one to two inches wide</strong> on exposed skin.</p>
         <p>That patch is what people photograph and mistake for a rash or an allergic breakout. Look closely and it resolves into many separate pinpoint bites rather than one continuous inflamed area &mdash; a useful check, because a true rash spreads as a sheet while a midge patch stays as countable dots with normal skin between them.</p>
@@ -358,6 +361,7 @@ export default function NoSeeUmBitesPage() {
         </p>
         <p>On a porch, though, the finer weave is rarely a single-panel swap &mdash; you are rescreening a whole enclosure, and on that job the mesh grade matters more than the hardware you hang it from, so it is the decision to settle first. Our guide to <Link href="/blog/mosquito-screened-porch-kit-canada">screening an existing porch or deck</Link> compares the curtain-and-track, zip-track, and roll-mesh-under-batten routes and covers where the airflow penalty of no-see-um mesh is worth paying &mdash; essentially any lot backing onto a creek, ravine, stormwater pond, or marsh.</p>
 
+        <RelatedLinks path="/blog/no-see-um-bites" />
         <h2>No-see-ums in the house: getting them out and keeping them out</h2>
         <p>Indoors, no-see-ums are almost always <strong>visitors, not residents</strong>. They drift in through standard screening or an open door at dusk and cannot breed in a dry house, because their larvae need constantly wet organic material. Block the entry points, run a fan, and move the lights they gather around, and an indoor problem usually ends within days.</p>
         <p>That single fact is the most reassuring thing on this page for anyone who has just found a patch of bites and started worrying about an infestation. Biting midge larvae develop in <strong>wet soil, marsh and pond margins, saturated leaf litter, mucky shorelines, and water-filled tree holes</strong> &mdash; not in carpet, not in mattresses, not in bedding. There is no such thing as a house colonised by no-see-ums the way a house is colonised by bed bugs or fleas.</p>

@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { MOSQUITO_BLOGS, CITIES, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const POST = MOSQUITO_BLOGS.pillar
 const UPDATED = POST.date
@@ -156,6 +158,7 @@ export default function MosquitoPillarPage() {
         <p>For the hours you&apos;re actually outside, a <strong>Thermacell repeller</strong> creates a roughly 20-foot zone of protection over a patio or deck without sprays or open flame, and the right skin repellent handles the rest. See how the options compare in our <Link href="/blog/picaridin-vs-deet" className="text-brand-700 underline hover:text-brand-500">picaridin vs. DEET guide</Link> and <Link href="/blog/best-mosquito-trap" className="text-brand-700 underline hover:text-brand-500">best mosquito traps in Canada</Link> — or <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check price on Amazon.ca →</BuyLink></p>
         <p>These tools cut bites in the moment, but they don&apos;t treat the adult mosquitoes resting in your vegetation the way a professional barrier spray does. For season-long control, they work best alongside a treatment plan.</p>
 
+        <NextUp path="/blog/ultimate-backyard-mosquito-control-guide" />
         <h2>Gear &amp; Product Guides: Every Mosquito Device Reviewed</h2>
         <p>Thinking about buying a trap, fogger, or repeller before (or instead of) booking a treatment? We&apos;ve written honest, Canada-specific reviews of the most-searched mosquito gear — what each device actually does, what it can&apos;t do, and which yards it makes sense for:</p>
         <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-3 my-6">
@@ -189,6 +192,7 @@ export default function MosquitoPillarPage() {
         <p>Mosquitoes in Ontario can carry West Nile Virus (WNV), a potentially serious illness transmitted through mosquito bites. Ontario public health agencies monitor WNV-positive mosquito pools throughout the GTA each season. While most people infected with WNV experience no symptoms or a mild illness, a small percentage develop severe neurological disease.</p>
         <p>Public health agencies advise removing standing water and avoiding bites, especially from dusk to dawn. Barrier spray treats the vegetation where mosquitoes rest around your yard; it works alongside repellent and those personal precautions, not in place of them. Learn more: <Link href="/blog/west-nile-virus-mosquito-risk-ontario" className="text-brand-700 underline hover:text-brand-500">West Nile Virus Risk in Ontario</Link></p>
 
+        <RelatedLinks path="/blog/ultimate-backyard-mosquito-control-guide" />
         <h2>Recommended Seasonal Treatment Schedule for GTA Homeowners</h2>
         <div className="not-prose grid grid-cols-5 gap-2 sm:gap-3 my-8">
           {['May','June','July','August','September'].map((m, i) => (

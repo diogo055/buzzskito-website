@@ -10,6 +10,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'carpenter-ants-canada'
 const DATE = '2026-07-27'
@@ -285,6 +287,7 @@ export default function CarpenterAntsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="diatomaceous earth insect duster">DE + duster &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/carpenter-ants-canada" />
           <h2>Confirm It Is a Carpenter Ant — and Not a Termite</h2>
           <p>Carpenter ants (<em>Camponotus</em> species) are among the largest ants found in Ontario, and the two usually identified here are an all-black species and one with a rusty red-brown midsection. Get one under decent light and check three things. The <strong>waist</strong> is sharply pinched, wasp-like, with a single node. The <strong>antennae</strong> are elbowed &mdash; a short first segment, then a distinct bend. And viewed from the side, the <strong>back is a single smooth arch</strong>, not a bumpy or notched profile like most other ants.</p>
           <p>One more tell that surprises people: <strong>size varies within a single colony</strong>. Carpenter ant workers are polymorphic, so a trail can contain small ants around 6 mm walking beside majors well over a centimetre. If you have ants of noticeably different sizes on one trail, that is a carpenter ant signature, not two species meeting.</p>
@@ -338,6 +341,7 @@ export default function CarpenterAntsCanadaPage() {
           <p><strong>They sabotage bait.</strong> This is the expensive one. Bait only works if living foragers carry it home. Spraying kills exactly those foragers and leaves residue that makes ants refuse nearby bait placements. It is easy to spray for a fortnight, switch to bait, and conclude that bait does not work either &mdash; when the bait never had a functioning workforce to exploit.</p>
           <p>Spray has one honest role: a <em>direct</em> treatment into a nest opening you have actually located, applied per the label. That is a completely different act from misting a baseboard because you saw an ant near it. And a note on Canadian rules while we are here &mdash; every pesticide legally sold in Canada carries a PCP registration number on the label from Health Canada&rsquo;s Pest Management Regulatory Agency, and the non-repellent actives professionals rely on for ant work are commercial-class here, which is why a licensed operator has options you simply cannot buy. Ontario&rsquo;s cosmetic pesticide restrictions, incidentally, do not block carpenter ant treatment: structural pest control is not cosmetic lawn-and-garden use.</p>
 
+          <RelatedLinks path="/blog/carpenter-ants-canada" />
           <h2>Baiting: The Consumer Method That Reaches the Queen</h2>
           <p>Bait is the retail option that can reach a colony you cannot see, and it works because of how carpenter ants eat. They are liquid feeders &mdash; outdoors they live substantially on honeydew from aphids &mdash; and they share food by regurgitation, passing it worker to worker and ultimately to larvae and the queen. A slow-acting toxicant in a liquid sugar bait rides that distribution network straight to the target.</p>
           <p>What to buy, honestly: <strong>sugar-based liquid borax or boric acid ant baits</strong> &mdash; the Terro-style liquid stations that Canadian Tire, Home Depot Canada and Rona all stock in ant season. Check the label for a PCP registration number and check that carpenter ants are named. Granular baits, the ones designed to be scattered on soil, are generally a poor match: carpenter ants are not big granule foragers, and most of it just sits there.</p>

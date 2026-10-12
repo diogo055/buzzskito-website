@@ -9,6 +9,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'june-bugs-ontario'
 const DATE = '2026-07-12'
@@ -207,6 +208,7 @@ export default function JuneBugsOntarioPage() {
           />
           <p>Ontario restricts many traditional lawn insecticides for cosmetic use, so nematodes and good lawn husbandry are both the legal and the effective route for most homeowners. Health Canada&rsquo;s Pest Management Regulatory Agency registers the products that are legal to use — you can check current options through <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Health Canada&rsquo;s pesticides and pest management resources</a> before buying anything.</p>
 
+          <NextUp path="/blog/june-bugs-ontario" />
           <h2>How to Keep June Bugs Away From the House</h2>
           <p>You can&rsquo;t stop every beetle in a good flight year, but you can make your patio far less of a magnet:</p>
           <ol>

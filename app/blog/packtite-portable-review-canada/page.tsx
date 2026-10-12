@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'packtite-portable-review-canada'
 const DATE = '2026-07-21'
@@ -213,6 +215,7 @@ export default function PackTitePortableReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="thermalstrike ranger bed bug heater">ThermalStrike Ranger →</BuyLink>
           </div>
 
+          <NextUp path="/blog/packtite-portable-review-canada" />
           <h2>The Temperature Story: Why Heat Kills What Sprays Cannot</h2>
           <p>Bed bugs are remarkably resilient to chemicals &mdash; resistance to common pyrethroid insecticides is now widespread &mdash; but they have no defence against heat. Sustained temperatures above roughly <strong>118&deg;F (48&deg;C)</strong> kill bed bugs, and critically, the same heat range kills the eggs, which are the hardest stage to reach with any spray because of their protective shell and the way females cement them into cracks. The PackTite Portable is built to bring its interior to about <strong>120&ndash;140&deg;F (49&ndash;60&deg;C)</strong>, comfortably inside the lethal window with margin to spare.</p>
           <p>The word to hold onto is <em>sustained</em>. It is not the peak reading on the thermometer that does the killing &mdash; it is holding a lethal temperature long enough for the heat to soak all the way to the core of whatever you loaded. A single shoe reaches temperature quickly; a tightly packed stack of books can hold a cool pocket at its centre for a long time, and a cool pocket is exactly where a bug survives to re-infest you. That is why the chamber ships with a thermometer and why the correct technique is to verify the <em>centre</em> of the load has reached target, not just the air in the bag.</p>
@@ -240,6 +243,7 @@ export default function PackTitePortableReviewCanadaPage() {
           <p>Getting a reliable kill is less about the machine and more about the discipline of the cycle. Set the chamber on a hard, heat-tolerant surface &mdash; not carpet, not a bed &mdash; away from anything flammable, with the vents unobstructed. Load loosely: overpacking is the single most common mistake, because a densely stuffed chamber insulates its own core and leaves a survival pocket in the middle. Place the thermometer probe at the <em>centre</em> of the densest item, since that is the last place to reach temperature.</p>
           <p>Then run a full multi-hour cycle and be patient. From a cold start, expect several hours to bring a load to temperature, and materially longer for dense, insulating items like packed shoes or stacked books. The right stopping rule is not the clock but the thermometer: continue until the core of the load has confirmed target temperature, and then keep holding it so the heat fully penetrates. Rushing &mdash; pulling items the moment the air in the bag feels hot &mdash; is how people leave eggs alive at the centre of a load and wonder why the problem came back.</p>
 
+          <RelatedLinks path="/blog/packtite-portable-review-canada" />
           <h2>PackTite Portable vs ZappBug vs ThermalStrike</h2>
           <p>The Portable does not exist in a vacuum, and honesty demands acknowledging its closest competitors, because in Canada they are often easier to actually buy. <Link href="/blog/zappbug-oven-2-review-canada">ZappBug</Link> makes boxy heat bags in a couple of sizes that do the same job and tend to be more consistently stocked on amazon.ca. The <Link href="/blog/thermalstrike-ranger-review-canada">ThermalStrike Ranger</Link> is a luggage-scale bag built to swallow a suitcase-sized load, which the small PackTite Portable cannot. All three rely on the identical physics &mdash; sustained heat above the lethal threshold &mdash; so the choice comes down to capacity, storability, and what happens to be in stock at a fair Canadian price the week you shop.</p>
           <p>If your problem is contained items and you value a bag that folds truly flat, the PackTite Portable is a strong pick. If you specifically need to treat luggage, step up to the ThermalStrike or a larger unit. If the PackTite is simply unavailable or steeply marked up on import, a comparably sized ZappBug is a fair, in-kind substitute rather than a compromise. For the bigger sibling in the PackTite line, our <Link href="/blog/packtite-closet-review-canada">PackTite Closet review</Link> covers the tall, high-capacity chamber that handles whole wardrobes, and our <Link href="/blog/best-whole-room-bed-bug-heater-canada">whole-room bed-bug heater guide</Link> covers going bigger still.</p>

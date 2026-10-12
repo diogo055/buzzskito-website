@@ -9,6 +9,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'blacklegged-deer-tick-ontario'
 const DATE = '2026-07-12'
@@ -192,6 +194,7 @@ export default function BlackleggedDeerTickOntarioPage() {
 
           <p>If you are reading this with a tick already attached, the one thing worth buying is a fine-tipped remover: it grips a poppy-seed-sized nymph right at the mouthparts and lifts it straight out, where household tweezers slip or squeeze the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
 
+          <NextUp path="/blog/blacklegged-deer-tick-ontario" />
           <h2>How to Recognize an Adult Blacklegged Tick</h2>
           <p>An unfed adult female is roughly the size and shape of a sesame seed. Look for a <strong>reddish-orange to brownish body</strong> behind a smaller, dark, glossy dorsal shield (the scutum) just behind the mouthparts. The eight legs are dark — nearly black — which is where the name comes from. There are <strong>no white or silver markings</strong>; that mottled marbling belongs to the American dog tick, a larger and harmless-for-Lyme species that is common right across the GTA. Males are a little smaller and uniformly dark, and they rarely bite. Once a female has fed for a day or two she swells to the size of a small grape and turns grey-olive, which can make her hard to identify by colour alone.</p>
 
@@ -219,6 +222,7 @@ export default function BlackleggedDeerTickOntarioPage() {
           <h2>When Are They Active?</h2>
           <p>Blacklegged ticks do not disappear in cold weather the way people assume. Adults become active whenever the air temperature climbs above roughly <strong>4&deg;C</strong> and the ground is clear of snow, so the two adult peaks are spring (April&ndash;May) and fall (October&ndash;November). The tiny <strong>nymphs</strong> — the stage responsible for most human Lyme cases because they are so easy to overlook — peak from late May through July, overlapping perfectly with the busiest months in Ontario backyards. In practice, that means tick checks are worth doing on any mild day after you have been in grass, brush, or the woods, not just in mid-summer.</p>
 
+          <RelatedLinks path="/blog/blacklegged-deer-tick-ontario" />
           <h2>Why This Tick Spreads Lyme and the Dog Tick Does Not</h2>
           <p>Lyme disease is caused by a corkscrew-shaped bacterium, <em>Borrelia burgdorferi</em>. Blacklegged ticks pick it up as larvae or nymphs when they feed on infected small mammals — white-footed mice are the main reservoir — and can then pass it to the next host they bite. The American dog tick (<em>Dermacentor variabilis</em>), despite being larger and more often noticed in the GTA, feeds on a different host cycle and does <strong>not</strong> transmit Lyme in Ontario. That is why species identification is the single most useful thing you can do after a bite: a dog tick bite carries essentially no Lyme risk, while a blacklegged tick attached for a day or more does. Health Canada&rsquo;s{' '}
           <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener">pest-management guidance</a>{' '}

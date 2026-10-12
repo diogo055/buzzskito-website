@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-large-capacity-dehumidifier-canada'
 const DATE = '2026-07-21'
@@ -258,6 +260,7 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="desiccant dehumidifier crawlspace">Crawlspace desiccant →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-large-capacity-dehumidifier-canada" />
           <h2>The &ldquo;70-Pint&rdquo; Confusion, Solved</h2>
           <p>The most confusing thing about shopping for a big dehumidifier in 2026 is that the number on the box changed without the machine changing. Before 2019, the U.S. Department of Energy rated dehumidifiers at a warm 80&deg;F and 60% relative humidity, and the flagship units came out at 70 or even 90 pints per day. The current test runs at a cooler, more honest 65&deg;F. Water condenses more slowly at that temperature, so the exact same physical unit now posts a lower number &mdash; roughly 50 pints where it used to say 70.</p>
           <p>Nothing shrank. The compressor, the coil, and the extraction hardware are the same flagship size. This is why a search for &ldquo;70 pint&rdquo; and a search for &ldquo;50 pint&rdquo; surface heavily overlapping products, and why you should <strong>stop treating the pint number as the deciding spec</strong>. Instead, compare the physical dimensions, the manufacturer&rsquo;s stated coverage in square feet, and whether the unit sits in the brand&rsquo;s top capacity tier. If a listing quotes a big square-footage coverage and it is the largest model in the line, it is the &ldquo;70-pint&rdquo; class you are looking for &mdash; whatever the sticker says.</p>
@@ -281,6 +284,7 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           <p><strong>Gravity drainage</strong> is the simple case: run the included hose to a floor drain, sump pit, or standpipe that sits <em>lower</em> than the unit&rsquo;s outlet, and water flows out on its own with no moving parts. If you have a floor drain or sump below the machine, this is all you need, and you can skip a pump entirely.</p>
           <p><strong>A built-in pump</strong> is the answer to the very common basement problem where there is nowhere lower to send the water &mdash; the only drain is a laundry sink up on the wall, or a window well, or a drain across the room. A pump pushes condensate <em>up</em> and out through a thin hose, letting the unit run truly hands-free where gravity alone would leave you emptying a bucket. If your basement has no low drain, the pump is not a luxury; it is what makes continuous operation possible at all. You can also add an external condensate pump to a non-pump unit, but an integrated pump is tidier and one less thing to set up.</p>
 
+          <RelatedLinks path="/blog/best-large-capacity-dehumidifier-canada" />
           <h2>The Moisture-and-Pest Connection</h2>
           <p>A dehumidifier earns a place in a pest-control conversation because moisture is the single environmental lever that governs a whole category of basement pests. Silverfish, cockroaches, and centipedes are all humidity-seekers: they congregate in damp, still air and struggle to reproduce once it dries out. Dust mites &mdash; one of the biggest indoor allergen sources &mdash; cannot sustain their populations below about 50% relative humidity because they absorb water directly from the air rather than drinking it. Mould, which draws its own pests and degrades the air you breathe, needs sustained damp to colonize.</p>
           <p>Drying a large basement to a steady 45&ndash;50% RH does not poison anything &mdash; it simply removes the conditions those pests depend on, which is a slower but far more durable kind of control than any spray. This is why the capacity question matters for pests specifically: an undersized unit that can never pull a big wet basement below 60% leaves the door open to exactly the infestations you were trying to prevent, while a right-sized flagship that holds 45&ndash;50% closes it. Pair the dehumidifier with a <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum</Link> to remove what is already there and an <Link href="/blog/best-air-purifier-for-dust-mites-canada">air purifier for dust-mite allergen</Link>, and you have addressed the root cause rather than chasing symptoms. Our dedicated <Link href="/blog/best-dehumidifier-for-mold-canada">dehumidifier for mould guide</Link> goes deeper on the humidity thresholds mould specifically needs.</p>

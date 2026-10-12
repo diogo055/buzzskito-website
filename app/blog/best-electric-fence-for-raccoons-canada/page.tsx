@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-electric-fence-for-raccoons-canada'
 const DATE = '2026-07-21'
@@ -261,6 +263,7 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="galvanized ground rod electric fence">Ground rods →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-electric-fence-for-raccoons-canada" />
           <h2>Why the Two Low Wires Are the Whole Trick</h2>
           <p>Raccoons are climbers, so people instinctively build tall fences &mdash; and tall fences are exactly what raccoons defeat. In a garden a raccoon does not scale a wall; it noses along the base looking for a way under or through, working at ground level with its paws and snout. That behaviour is the vulnerability an electric fence exploits. The proven layout is two hot strands set low: one at roughly <strong>15 cm (6 inches)</strong> and one at roughly <strong>30 cm (12 inches)</strong> off the ground. The bottom wire catches the animal as it pushes forward at soil level; the second catches it if it rears up to climb. The first time a raccoon&rsquo;s wet nose meets a live wire, it gets a sharp, memorable jolt and leaves &mdash; and raccoons are smart enough to remember and avoid that spot for a long time.</p>
           <p>A single high wire is the classic mistake: the raccoon simply walks underneath it and never touches metal. If you want extra insurance against other animals you can add a third strand higher up, but do not let it distract you from the two low wires that do the actual raccoon work. Keep those strands scrupulously clear of weeds, mulch, and soil, because anything touching a hot wire bleeds the shock away to ground before it ever reaches the animal.</p>
@@ -280,6 +283,7 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
           <p>The three energizer families do the same job with different logistics. A <strong>plug-in (AC) energizer</strong> is the default recommendation whenever you have an outdoor outlet: it delivers the most consistent, powerful shock, never needs charging, and asks nothing of you once installed. A <strong>battery (DC) energizer</strong> runs off a deep-cycle 12V battery and is the answer for a garden with no power nearby &mdash; the catch is that you must recharge or swap the battery on a schedule, and a dead battery is a dead fence. A <strong>solar energizer</strong> bundles a DC unit with a panel that tops up its own battery, which is the elegant solution for a remote plot, cottage garden, or chicken run far from the house.</p>
           <p>Solar deserves one Canada-specific caution: our latitudes and short shoulder-season days mean you should size the panel generously rather than to the bare minimum, and you must brush snow off the panel through late fall or the battery quietly runs down. Performance-wise the ranking is plug-in &gt; solar &gt; battery-only for sustained output, but all three will shock a raccoon effectively when grounded properly. If you are electrifying a spot that also needs watering or spraying gear nearby, our <Link href="/blog/best-pest-control-equipment-canada">equipment hub</Link> maps out how the whole kit fits together.</p>
 
+          <RelatedLinks path="/blog/best-electric-fence-for-raccoons-canada" />
           <h2>Grounding: The Reason Most Fences Fail</h2>
           <p>If you take one thing from this guide, take this: an electric fence is a circuit that only completes when the animal touches a hot wire <em>while standing on the earth</em>, and the current has to return to the energizer through galvanized ground rods driven into moist soil. Skimp on grounding and the circuit never fully closes &mdash; the raccoon feels a faint tickle or nothing, and walks straight into your lettuce. This is the number-one cause of &ldquo;my electric fence does not work&rdquo; complaints, far ahead of any energizer defect.</p>
           <p>The fix is cheap and physical. Drive at least one long galvanized ground rod &mdash; ideally two or three, spaced a few metres apart and wired together &mdash; deep into the ground, choosing the dampest available spot. Dry, sandy, or frozen soil grounds poorly, so in a drought you may need to water the ground-rod area. Then confirm the result: a <strong>fence voltage tester</strong> is a small purchase that turns guessing into knowing, and you want to read several thousand volts on the wire. Test on installation, test after the first hard rain, and test after the first frost. A fence you have not tested is a fence you are hoping works.</p>

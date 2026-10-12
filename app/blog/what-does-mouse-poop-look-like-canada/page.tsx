@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import Figure from '@/components/Figure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-does-mouse-poop-look-like-canada'
 const DATE = '2026-07-30'
@@ -375,6 +377,7 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="stainless steel wool rodent exclusion">Exclusion fill &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/what-does-mouse-poop-look-like-canada" />
           <h2>Fresh or Old? The 48-Hour Test That Beats Guessing</h2>
           <p>Whether the droppings are recent decides everything that follows, and the visual cues &mdash; dark and soft versus grey and crumbly &mdash; are softer evidence than they look. Humidity changes how fast a dropping dries, a pellet in a warm cupboard ages differently from one in a cold garage, and a great many people convince themselves that a two-month-old dropping is fresh because the light was poor.</p>
           <p>So run the test instead. Clean an affected area completely, using the wet-and-wipe protocol above, and write the date on a piece of tape stuck nearby. Check it at 48 hours and again at a week.</p>
@@ -536,6 +539,7 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
           <p><strong>Bat guano is the one where a wrong ID has consequences.</strong> It is close to mouse droppings in size and colour, and the difference is what happens when it crumbles: guano breaks into glittering fragments of insect wing and shell, because bats eat insects. It also accumulates in a discrete pile directly beneath a roost, rather than scattering along a route. If that is what you have, stop cleaning and call a licensed wildlife professional. In Ontario, several bat species are protected and the young are flightless in the roost through the summer, so sealing at the wrong time of year is both illegal and worse than the original problem. <strong>In the United States the same caution applies for the same reasons:</strong> several bat species &mdash; among them the Indiana bat, gray bat and northern long-eared bat &mdash; are federally listed under the Endangered Species Act and administered by the US Fish and Wildlife Service, and most states additionally regulate the season during which a roost may legally be excluded. Neither country lets you handle this as a hardware-store afternoon.</p>
           <p><strong>Ordinary debris is the most common answer of all</strong>, and it is worth ruling out before you buy anything. Coffee grounds under a machine, chia or poppy seeds in a pantry, mouse-sized crumbs of dried potting soil near a plant pot, dried mud tracked in by a back door and the little rubber crumb shed by some floor mats have all sent people looking for an infestation they do not have. The discriminator is uniformity: a mouse produces pellets that are consistently the same size and shape, because they come from the same animal. Debris varies.</p>
 
+          <RelatedLinks path="/blog/what-does-mouse-poop-look-like-canada" />
           <h2>What Is the Difference Between Mouse Droppings and Lizard Droppings?</h2>
           <p><strong>The white cap.</strong> Lizards excrete urine and faeces together through a cloaca, so a house gecko or anole dropping is a dark pellet finished with a distinct chalky white or cream tip at one end. Mouse pellets are uniformly dark, with no white anywhere, and taper to a point at <em>both</em> ends rather than one.</p>
           <p>This question barely arises in Canada, which is exactly why it belongs on this page &mdash; house geckos and anoles are common indoors across Florida, the Gulf Coast, Texas, the Southwest and Hawaii, and in those states they are a far more likely explanation for small dark pellets on a window ledge than mice are. The differences are easy to check once you know what to look at.</p>

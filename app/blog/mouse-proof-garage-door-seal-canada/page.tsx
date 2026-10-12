@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mouse-proof-garage-door-seal-canada'
 const DATE = '2026-08-22'
@@ -292,6 +294,7 @@ export default function MouseProofGarageDoorSealCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="copper mesh rodent control">Copper mesh &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/mouse-proof-garage-door-seal-canada" />
           <h2>Threshold Seal or Bottom Seal? Diagnose Before You Buy</h2>
           <p>These two get shelved next to each other and solve different problems; buying the wrong one is the most common way people spend money without closing the gap.</p>
           <p>A <strong>bottom seal</strong> &mdash; the astragal &mdash; lives in a retainer channel on the underside of the door and travels with it. Replace it when the rubber has gone hard, cracked, torn, or flattened, which on a Canadian door is usually somewhere between year eight and year fifteen. If your concrete is flat and true and the only problem is perished rubber, this is the entire repair, it costs very little, and it is installable in any weather because no adhesive is involved.</p>
@@ -310,6 +313,7 @@ export default function MouseProofGarageDoorSealCanadaPage() {
           <p>What not to do: do not fill the corner with spray foam and call it sealed. Cured polyurethane offers a rodent almost no resistance, and a foamed corner is worse than an open one because you can no longer see the tunnel through the middle of it. Foam is a weather layer applied over a metal core, never a barrier. That rule is the same everywhere on the building, and it is the backbone of our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link>.</p>
           <p>Finish with the sides. Vertical jamb weatherstripping shrinks, tears at the bottom, and pulls away from a settled frame &mdash; and a mouse that cannot get under the door will happily walk around it. <BuyLink tag={AMZ_TAG} search="garage door side jamb brush weather stripping">Brush weatherstrip</BuyLink> is worth the upgrade over rigid vinyl on any older Ontario garage: the bristles conform to a jamb that is no longer plumb, and they do not stiffen in the cold. Then treat the door between the garage and the house like the exterior door it functionally is &mdash; a proper <BuyLink tag={AMZ_TAG} search="door sweep exterior door weatherstrip">door sweep</BuyLink> and intact weatherstripping turn the garage into an airlock rather than a corridor.</p>
 
+          <RelatedLinks path="/blog/mouse-proof-garage-door-seal-canada" />
           <h2>Cold-Weather Materials: What Ontario Does to a Cheap Seal</h2>
           <p>Buy the rubber compound, not the picture on the package. EPDM and thermoplastic rubber stay pliable far below freezing, which means the seal is still conforming to your slab in February. Rigid PVC and cheap vinyl stiffen as temperatures drop, stop following the small irregularities in the concrete, and eventually crack along a fold. The failure mode is quietly perfect: the seal looks intact all winter while the corners have lifted off the floor by a few millimetres &mdash; and a few millimetres is the entire specification a mouse cares about.</p>
           <p>Adhesives carry the same constraint from the other direction. Threshold seals bond to concrete with construction adhesive or a supplied tape system, and those generally want a clean, dry slab above roughly 10&nbsp;&deg;C to cure. A cold, damp, salt-dusted January floor is why so many threshold seals are peeling by spring. If the slab is spalled, fill and cure it with a <BuyLink tag={AMZ_TAG} search="concrete crack filler self leveling">concrete crack filler</BuyLink> first, then bond to a flat surface with <BuyLink tag={AMZ_TAG} search="polyurethane construction adhesive concrete">polyurethane construction adhesive</BuyLink>, and where the frame needs mechanical fixing into masonry use proper <BuyLink tag={AMZ_TAG} search="concrete anchor screws masonry">concrete anchor screws</BuyLink> rather than hoping tape holds through a freeze-thaw cycle.</p>

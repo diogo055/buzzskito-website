@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'hardtop-vs-soft-top-mosquito-gazebo-canada'
 const DATE = '2026-08-22'
@@ -221,6 +223,7 @@ export default function HardtopVsSoftTopMosquitoGazeboCanadaPage() {
           <p>So the hardtop premium does not buy you fewer mosquitoes. It buys you three things: a structure that survives an Ontario winter assembled, a roof that does not degrade in UV, and &mdash; the one people never think of until year two &mdash; a rigid frame that holds the curtain line square. That last one matters more than it sounds. On a fabric-canopy gazebo, the whole assembly flexes; over a couple of seasons the posts settle a few millimetres out of plumb and the curtains stop meeting cleanly at the corners. A gap at a corner post at 9pm is the entire ballgame. On a bolted aluminium frame, the geometry stays where you built it.</p>
           <p>That is the real case for the hardtop, stated honestly. It is a durability and geometry argument, not a bug argument.</p>
 
+          <NextUp path="/blog/hardtop-vs-soft-top-mosquito-gazebo-canada" />
           <h2>Mesh Density: The Spec That Actually Changes Your Evening</h2>
           <p>Netting is sold in broadly two grades. <strong>Standard mosquito mesh</strong> stops mosquitoes and blackflies comfortably &mdash; both are far larger than the openings. <strong>No-see-um mesh</strong> is a finer weave that also stops biting midges, which are small enough to walk straight through standard netting. If you have ever sat inside a properly zipped gazebo and still been bitten at dusk, midges are almost always the answer, and no amount of zipping harder fixes it.</p>
           <p>Where this bites in Ontario: properties backing onto a ravine, a creek, a marsh, a stormwater pond, or anywhere in cottage country. If that is you, buy the finer mesh and accept the trade &mdash; noticeably less airflow on a still August night, and a slightly darker view out. We wrote up what those insects actually are and when they peak in our guide to <Link href="/blog/no-see-ums-biting-midges-ontario">no-see-ums and biting midges in Ontario</Link>.</p>
@@ -256,6 +259,7 @@ export default function HardtopVsSoftTopMosquitoGazeboCanadaPage() {
           <p>Then a habit: <strong>unzip or roll up the mesh walls when weather is coming.</strong> Open walls let wind blow through the structure instead of pushing on it. For a severe thunderstorm watch, drop a soft-top canopy entirely &mdash; two minutes of work against a bent frame.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="gazebo anchor kit ground auger weight bags">Check anchor kits on Amazon.ca &rarr;</BuyLink></div>
 
+          <RelatedLinks path="/blog/hardtop-vs-soft-top-mosquito-gazebo-canada" />
           <h2>The Year-Three Question: Can You Still Buy the Netting?</h2>
           <p>This is the operator&rsquo;s test, and it separates a gazebo that lasts a decade from one that becomes scrap in year three. The mesh always fails before the frame. So the question that decides real cost of ownership is: when it does, can you buy a replacement that fits?</p>
           <p>Two protections. <strong>Buy a common footprint.</strong> Universal replacement mosquito netting and add-on screen wall panels are sold by size &mdash; 10x10, 10x12, 12x12 &mdash; not by model. Anything close to a standard rectangle has options. A gazebo in an unusual size from a brand with no spare-parts listings has none. <strong>And check for spares before you commit</strong>, not after: does the brand list a replacement canopy and a replacement curtain set at all? Two otherwise identical gazebos can differ by hundreds of dollars over five years on that answer alone.</p>

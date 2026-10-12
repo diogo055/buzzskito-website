@@ -9,6 +9,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-gazebo-with-mosquito-net-canada'
 const DATE = '2026-07-21'
@@ -277,6 +279,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="screened gazebo mosquito netting 10x12">Check soft-top screened gazebos on Amazon.ca →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-gazebo-with-mosquito-net-canada" />
           <h2>Best Hard-Top: An Aluminum Gazebo That Stays Up All Year</h2>
           <p>Step up to a hard-top gazebo when you want a permanent outdoor room rather than a seasonal cover. Instead of fabric, the roof is rigid &mdash; typically aluminum panels or polycarbonate on a heavy aluminum or galvanized-steel frame &mdash; so it sheds rain and light-to-moderate snow and can stay assembled for years. Add-on zip screen walls give you the same sealed, mosquito-free interior as a soft-top, but with a finished look and vastly better wind and storm resistance.</p>
           <p>The catch is that a hard-top is a real purchase and a real installation. It costs far more than a soft-top, it wants a level concrete pad or a solidly framed deck, and assembly is a serious two-person, several-hour job with a lot of hardware. You should still confirm the manufacturer&rsquo;s snow-load rating against your region &mdash; a rating fine for coastal BC may not suit an Ontario or Quebec snow belt &mdash; and rake off deep accumulation after big storms. Even though the roof stays up, the fabric screen walls last longest if you remove and store them over winter. For a decade-long outdoor living space you use every summer, a hard-top earns its price; for occasional use it is overkill.</p>
@@ -297,6 +300,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="pop up gazebo with mosquito net 10x10">Check pop-up screen gazebos on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/best-gazebo-with-mosquito-net-canada" />
           <h2>How to Choose: What You Are Actually Paying For</h2>
           <p>A gazebo is a several-hundred-dollar (sometimes four-figure) purchase, so it is worth understanding what separates a good one from a landfill-bound one. Four specs do most of the work.</p>
           <p><strong>1. Mesh density &mdash; the spec people skip and regret.</strong> Netting is rated in holes per square inch, and it decides which bugs you actually keep out. Standard mosquito netting runs roughly 100&ndash;200 holes per square inch: it stops mosquitoes, full stop. It does <em>not</em> stop blackflies, sandflies, or no-see-ums (biting midges) &mdash; the tiny biters that swarm at dawn and dusk near water and in wooded areas. No-see-um mesh is finer, around 300&ndash;600 or more holes per square inch, and blocks those too, at a small cost in airflow. If you live near a lake, marsh, or ravine, or you mostly use the yard at dusk, pay for no-see-um mesh; a standard-mesh gazebo will let the worst dusk biters straight through. In an open suburban yard with mosquitoes only, standard mesh breathes better and is fine.</p>

@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-deer-fence-for-gardens-canada'
 const DATE = '2026-08-22'
@@ -181,6 +183,7 @@ export default function BestDeerFenceForGardensCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="7 ft deer fence netting 100 ft roll">Check price on Amazon.ca →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-deer-fence-for-gardens-canada" />
           <h2>Why 7 ft Is the Number (and the Three Times It Is Not)</h2>
           <p>A healthy white-tailed deer clears a six-foot fence from a standstill. Not a determined deer, not a spooked deer &mdash; an ordinary one, in the course of a normal night. Six-foot netting is sold in volume because six feet is the height people expect a fence to be, and it is the most expensive mistake in this category: it costs nearly what seven-foot netting costs, takes exactly the same weekend to install, and does not work. If your budget only reaches six feet of a premium product, buy seven feet of a cheaper one.</p>
           <p>Eight feet is genuinely better where you can get it, for one Canadian reason that most guides written for milder climates never mention: <strong>snow raises the ground</strong>. Two feet of settled snowpack against a seven-foot fence leaves a five-foot obstacle, and it does so in the exact months when browse pressure is worst and a deer has the strongest reason to try. If the thing you are protecting is a cedar hedge, a young orchard, or shrubs that matter in winter, build to eight.</p>
@@ -281,6 +284,7 @@ export default function BestDeerFenceForGardensCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="landscape staples ground stakes garden anchor pins">Check landscape staples and anchor pins on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/best-deer-fence-for-gardens-canada" />
           <h2>Build It in Autumn — the Ontario Timing Argument</h2>
           <p>The instinct is to fence in spring when the garden goes in. The better window in southern Ontario is <strong>late August through October</strong>, and there are three separate reasons that all point the same way.</p>
           <p>First, browse pressure is a cold-season problem. Deer eat what is available, and what is available collapses through late autumn. Eastern white cedar is the classic Ontario casualty &mdash; a hedge that looked untouched all summer gets stripped to a clean browse line at deer-head height over one winter, and cedars do not regrow from bare wood, so that damage is permanent. Fruit trees, yews and shrub beds go the same way. A fence built in May protects lettuce; a fence built in October protects the expensive plants.</p>

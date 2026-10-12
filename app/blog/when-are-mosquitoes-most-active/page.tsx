@@ -10,6 +10,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'when-are-mosquitoes-most-active'
 const DATE = '2026-07-13'
@@ -349,6 +351,7 @@ export default function WhenAreMosquitoesMostActivePage() {
           />
           <p>For a room-by-room and yard-by-yard plan, see our full guide on <Link href="/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario">how to get rid of mosquitoes in your yard</Link>. To understand how these daily peaks scale up and down across the summer, read <Link href="/blog/mosquito-season-gta-when-does-it-start">when mosquito season starts and how long it lasts</Link>.</p>
 
+          <NextUp path="/blog/when-are-mosquitoes-most-active" />
           <h2>When Are Mosquitoes Most Active in the United States? Season by Region</h2>
           <p>The daily clock above is the same everywhere. The <em>calendar</em> is not. Mosquito season opens when daily temperatures hold above roughly 50&nbsp;&deg;F (10&nbsp;C) and closes at the first hard frost, so the length of the season is really a map of how long your local thermometer stays above that line. In the United States that ranges from about ten months on the Gulf Coast to about six weeks in interior Alaska. The <a href="https://www.cdc.gov/mosquitoes/" target="_blank" rel="noopener">U.S. Centers for Disease Control and Prevention (CDC)</a> notes that more than 200 mosquito species live in the continental United States and its territories, of which only about a dozen spread germs that make people sick &mdash; the rest are nuisance biters.</p>
           <div className="not-prose my-6 rounded-xl border border-gray-200 overflow-x-auto">
@@ -404,6 +407,7 @@ export default function WhenAreMosquitoesMostActivePage() {
           <p><strong>July and August, across most of the United States and Canada.</strong> The exceptions run in both directions: the Gulf Coast, Florida and Hawaii peak from June through September inside a February-to-November season, while Alaska compresses its entire worst stretch into mid-June to mid-July. Southern Ontario peaks from late June through early August.</p>
           <p>The reason July and August win almost everywhere is that two curves overlap there. Temperature sits in or near the 75&ndash;82&nbsp;&deg;F (24&ndash;28&nbsp;C) sweet spot, so egg-to-adult development is at its fastest &mdash; roughly a week in warm weather instead of two or three. At the same time, several generations have already stacked up since spring, so the population is at its largest at exactly the moment it is reproducing fastest. Add the humid, still, overcast evenings typical of late summer and you get the worst biting of the year. For the month-by-month picture in southern Ontario specifically, see <Link href="/blog/mosquito-season-gta-when-does-it-start">when mosquito season starts and how long it lasts</Link>.</p>
 
+          <RelatedLinks path="/blog/when-are-mosquitoes-most-active" />
           <h2>U.S. Mosquito Species and When Each One Bites</h2>
           <p>&ldquo;When are mosquitoes most active&rdquo; has a different answer in Minneapolis than in Miami largely because the species mix is different. The three genera in the table further up are the framework; below are the specific U.S. species that framework resolves into, and the hours each one keeps.</p>
           <div className="not-prose my-6 rounded-xl border border-gray-200 overflow-x-auto">

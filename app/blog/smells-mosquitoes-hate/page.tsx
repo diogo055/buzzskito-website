@@ -10,6 +10,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
 
 const SLUG = 'smells-mosquitoes-hate'
 const DATE = '2026-07-12'
@@ -165,6 +166,7 @@ export default function SmellsMosquitoesHatePage() {
           <p>A female mosquito finds you by following a plume of cues: the carbon dioxide you exhale, the lactic acid and ammonia in your sweat, your body heat, and even the specific bacteria on your skin. Strong aromatic plant oils work by <strong>masking</strong> those signals. When the air around you is thick with citronella or lemongrass, the mosquito&rsquo;s sensors have a harder time locking onto the human-scent trail, so fewer of them land.</p>
           <p>That is the honest mechanism — and it explains the honest limitation. Masking only works while the scent is strong and the air is still. The moment the oil evaporates or a breeze scatters the plume, your CO₂ and sweat cues come right back through, and the mosquitoes follow them. This is why a citronella candle protects only the small cone of scented air immediately around it, and why the numbers in the table above are measured in minutes, not hours.</p>
 
+          <NextUp path="/blog/smells-mosquitoes-hate" />
           <h2>The Six Scents, Ranked by How Much They Actually Help</h2>
           <p><strong>Oil of lemon eucalyptus (OLE)</strong> is the clear standout and the only one that competes with conventional repellents. Its refined active, PMD, is sold in PCP-registered repellents and delivers roughly 2–5 hours of protection at a 30% concentration — comparable to a lower-strength DEET product. Note it is a true skin repellent, not just a scent, and Health Canada advises against use on children under three.</p>
           <p><strong>Citronella and lemongrass</strong> are close botanical cousins and behave alike: a real but short deterrent effect, best delivered as diffused patio scent. Several candles spaced closely together beat a single candle, because you are trying to flood a whole seating area with scent rather than one spot.</p>

@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-flea-bomb-canada'
 const DATE = '2026-07-28'
@@ -313,6 +315,7 @@ export default function BestFleaBombCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="flea trap plug in">Plug-in flea trap →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-flea-bomb-canada" />
           <h2>The 95/5 Rule: Why Life-Stage Coverage Decides Everything</h2>
           <p>If you take one idea from this page, take this one. At any given moment, the adult fleas you can see &mdash; on the pet, jumping onto your ankles, caught in a comb &mdash; represent roughly <strong>5% of the flea population living in your house</strong>. The remaining 95% are eggs, larvae and pupae, and they are not on the pet. They are in the carpet, in the cracks between floorboards, in the seams of the couch, and in the fibres of whatever the animal sleeps on.</p>
           <p className="not-prose text-sm text-gray-600 mb-2">The comb is worth owning before any of this. A fine-tooth flea comb costs almost nothing, confirms in two minutes whether the animal is actually carrying fleas, and gives you flea dirt to test on a wet paper towel &mdash; which is how you tell fleas from an allergy before you spend a dollar on chemistry.</p>
@@ -345,6 +348,7 @@ export default function BestFleaBombCanadaPage() {
           <p>Picking between specific sprays is a longer conversation than this page should have &mdash; active ingredients, residual length, carpet safety, and which ones actually carry an IGR rather than just an adulticide. We work through it product by product in our <Link href="/blog/best-flea-spray-for-home-canada">best flea spray for home in Canada</Link> guide; this page&rsquo;s job is simply to get you out of the fogger aisle and into that one.</p>
           <p>One honest Canadian caveat before you shop. Consumer premise sprays that combine an adulticide with an IGR are far more common in the United States than here, and a lot of the flea advice you will read was written for that market. If you cannot find a Canadian-registered IGR premise product, do not import one &mdash; go harder on the mechanical side (vacuuming, hot washing, steam) and lean on the veterinary route, because several modern pet products either contain an IGR themselves or kill fleas fast enough on the animal to stop viable egg production. That approach breaks the household cycle from the source outward, and it is frequently the cheapest total solution available to a Canadian household.</p>
 
+          <RelatedLinks path="/blog/best-flea-bomb-canada" />
           <h2>The Canadian Legality Trap: PCP Numbers and US Product Names</h2>
           <p>Under Canada&rsquo;s <em>Pest Control Products Act</em>, any insecticide sold or used in Canada must be registered, a system Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) administers, and must carry a <strong>PCP registration number</strong> on its label. That number is the entire test. It is not a formality, and it is not something a marketplace listing can substitute for.</p>
           <p>This matters for fleas specifically because a great deal of the flea advice online is written for the US market. Search any flea forum and you will find confident recommendations for US-market premise sprays, foggers and carpet treatments &mdash; products holding US EPA registrations, which have no legal standing in Canada. Some of those brands also sell separate Canadian-registered products under similar names, which makes the confusion worse rather than better. The rule that survives all of it: <strong>look at the label, find the PCP registration number, and confirm fleas are on the pest list.</strong> If the listing photo does not show a label you can read, treat that as a no.</p>

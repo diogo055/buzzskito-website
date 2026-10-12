@@ -8,6 +8,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // DATA PROVENANCE — read before editing any number on this page.
@@ -167,6 +169,7 @@ export default function LymeCasesOntario2026Page() {
           Public Health Ontario has published its own Ontario counts through a different surveillance product with a different reporting cut: <strong>959 cases in 2017</strong> (an incidence of 6.7 per 100,000, roughly three times the 2012&ndash;2016 average) and <strong>612 cases in 2018</strong>. Those numbers are real, but they should not be plotted as one continuous line with the PHAC series above &mdash; the case definitions and reporting cutoffs differ, and joining them would overstate the slope.
         </p>
 
+        <NextUp path="/blog/lyme-disease-cases-ontario-2026" />
         <h2>What we do not know</h2>
         <p>Two things are worth stating plainly, because both get invented online:</p>
         <ul>
@@ -198,6 +201,7 @@ export default function LymeCasesOntario2026Page() {
           Better clinical recognition and testing also lift the reported count. That is a real effect, but it does not account for the whole trend &mdash; the surveillance signal has been sustained across many years and multiple reporting systems.
         </p>
 
+        <RelatedLinks path="/blog/lyme-disease-cases-ontario-2026" />
         <h2>What this means for your household</h2>
         <p>
           If you have a yard in southern Ontario that borders forest, ravine, conservation land, or any naturalized corridor, the practical question is not whether a tick will ever turn up. It is whether you have a routine that catches it. The single most useful fact: Lyme transmission from a blacklegged tick generally requires 24 to 36 hours of attachment, which is why a daily tick check during the May-to-July nymph window does more than almost anything else.

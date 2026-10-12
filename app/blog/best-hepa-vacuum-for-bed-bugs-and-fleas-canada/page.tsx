@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-hepa-vacuum-for-bed-bugs-and-fleas-canada'
 const DATE = '2026-07-21'
@@ -248,6 +250,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bagged hepa canister vacuum">Budget bagged canister →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada" />
           <h2>Why &ldquo;Sealed HEPA&rdquo; Matters More Than the Filter Grade</h2>
           <p>A HEPA cartridge is only as good as the path the air takes to reach it. Marketing loves the phrase &ldquo;HEPA filter,&rdquo; but on many machines the air can slip around the cartridge through seams and gaps in the plastic body, then exit the exhaust without ever being filtered. When you are vacuuming bed-bug harbourage or a flea-infested carpet, the exhaust stream carries the finest, most mobile material you disturbed: flea allergen, powdery bed-bug fecal debris, shed skins, and the occasional dislodged egg. A leaky machine takes that material and sprays it in a fine mist across the room &mdash; you have not removed the problem, you have redistributed and aerosolized it.</p>
           <p>A true <strong>sealed-HEPA</strong> vacuum &mdash; also sold as a &ldquo;sealed system&rdquo; or &ldquo;whole-machine HEPA&rdquo; &mdash; is engineered so that every bit of air is forced through the filter before it can leave the body. For an allergen-sensitive household, that seal is the difference between a vacuum that improves the air and one that degrades it. When you are shopping, look past the filter grade on the box and look for explicit language about a sealed body or whole-machine filtration. That is the feature you are actually paying for, and it is the feature a cheap &ldquo;HEPA&rdquo; sticker cannot fake.</p>
@@ -267,6 +270,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
           </ul>
           <p>For the fine, repetitive detail work &mdash; piping, bolt holes, headboard seams &mdash; a corded HEPA handheld is genuinely easier to control than dragging a full canister hose around the bed, which is exactly why it earns its own award above. The same machine is the primary tool against carpet beetles, whose larvae live down in the pile rather than on it &mdash; <Link href="/blog/how-to-get-rid-of-carpet-beetles-canada" className="text-brand-700 underline">the vacuum-first carpet beetle plan</Link> sets out the passes that matter.</p>
 
+          <RelatedLinks path="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada" />
           <h2>Fleas Are a Different Problem: Slow Passes and Deep Edges</h2>
           <p>Fleas change the technique because the enemy is mostly invisible. The adults you spot on a pet are a small fraction of the infestation; the rest is eggs, larvae, and pupae buried in the carpet, along baseboards, and under furniture. Flea larvae are photophobic &mdash; they actively wriggle down and away from light toward the base of the carpet fibres &mdash; so a quick surface pass sails right over them.</p>
           <p>Beating fleas with a vacuum means agitating the pile and working the places the life cycle concentrates. Use a beater bar or turbo brush, make slow and <em>repeated</em> passes over the same ground so the bristles reach the base of the fibres, and lavish attention on the edges of rooms, under and around pet bedding, and any shaded low-traffic spot where the animal rests. The mechanical vibration does something chemicals cannot: it can trigger dormant pupae to emerge from their tough, protective cases, which is why consistent vacuuming over several weeks keeps thinning each new wave. For context on why fleas keep coming back and how their bites present on people, our guide to <Link href="/blog/flea-bites-on-humans">flea bites on humans</Link> walks through the full cycle.</p>

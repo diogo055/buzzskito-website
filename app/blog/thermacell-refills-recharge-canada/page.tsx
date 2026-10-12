@@ -10,6 +10,8 @@ import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'thermacell-refills-recharge-canada'
 const DATE = '2026-07-12'
@@ -220,6 +222,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
           <p>Thermacell splits cleanly into two systems, and the refill you buy depends entirely on which one you own. The <strong>rechargeable line</strong> &mdash; the E55 and E90 &mdash; uses a small liquid <strong>E-Series cartridge</strong> that clicks into the top of the unit. There is no fuel and nothing to burn; a USB-rechargeable battery gently warms the cartridge to release a scentless metofluthrin vapour. The older <strong>fuel-powered line</strong> &mdash; the Patio Shield and Backpacker &mdash; uses a flat repellent <strong>mat</strong> (allethrin) heated by a small <strong>butane cartridge</strong>. Refills for those come as combined packs of mats plus fuel.</p>
           <p>Get this right before you check out. The number-one Thermacell complaint online is someone buying an E-Series cartridge for a Patio Shield (or vice versa) and finding it does not fit. If you are still shopping for the device itself, our guide to the <Link href="/blog/best-mosquito-repellent-device-canada">best mosquito repellent device in Canada</Link> compares the rechargeable and fuel lines head to head.</p>
 
+          <NextUp path="/blog/thermacell-refills-recharge-canada" />
           <h2>What Thermacell Refills Cost per Hour in Canada</h2>
           <p>Across all the refill families, Thermacell lands at roughly <strong>$0.35&ndash;$0.50 per hour of protection</strong> in Canada. An E-Series cartridge (about 40 hours) typically runs $15&ndash;$20; an Original 60-hour value pack of 15 mats and 5 fuel cartridges is around $25&ndash;$32; and the 120-hour mega refill can drop the per-hour cost to about $0.38. If you already have fuel on hand, buying <strong>mats only</strong> is the cheapest way to keep a fuel-powered unit running.</p>
           <p>To put that in perspective: running a Thermacell for a couple of hours most evenings across a GTA summer works out to a modest but real ongoing cost, and it only protects the one small zone the device sits in. That is why many homeowners treat a Thermacell as a personal, portable layer on top of &mdash; not instead of &mdash; whole-yard control.</p>
@@ -236,6 +239,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
             </div>
           </aside>
 
+          <RelatedLinks path="/blog/thermacell-refills-recharge-canada" />
           <h2>How to Recharge an E55 or E90</h2>
           <p>The rechargeable models could not be simpler. Plug the unit into any USB power source (current models use USB-C). A full charge takes about <strong>4&ndash;6 hours</strong> and delivers roughly <strong>5.5 hours of runtime on the E55</strong> and about <strong>9 hours on the E90</strong> &mdash; our <Link href="/blog/thermacell-e90-canada-review">Thermacell E90 Canada review</Link> covers how that runtime holds up over a full GTA season. A small status light shows the charge level. For all-evening backyard use, you can leave the device connected to a portable power bank and run it while it charges &mdash; handy for long dinners and gatherings that outlast a single charge.</p>
           <p>Two habits keep a rechargeable Thermacell reliable: charge it the night before you need it (batteries self-discharge slowly in storage), and store it indoors over winter rather than in an unheated shed, since deep cold is hard on lithium batteries.</p>

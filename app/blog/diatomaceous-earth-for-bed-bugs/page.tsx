@@ -11,6 +11,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'diatomaceous-earth-for-bed-bugs'
 const DATE = '2026-07-16'
@@ -170,6 +172,7 @@ export default function DiatomaceousEarthForBedBugsPage() {
           <p>That mechanism is the source of both DE&rsquo;s biggest strength and its biggest weakness. The strength: because the kill is physical, a bed bug cannot develop biochemical resistance to it the way it has to pyrethroids. The weakness: desiccation is slow, and only happens to bugs that pick up enough dust and stay alive long enough to dry out.</p>
           <p><strong>The lab-versus-field gap is the whole story.</strong> In controlled tests, DE applied as a clean, dry, thin layer kills a high proportion of bed bugs forced to walk across it. In real bedrooms &mdash; where dust gets disturbed, humidity varies, and bugs hide in places you never treated &mdash; the same product performs far more modestly. Both facts are true at once: genuinely effective in the exact conditions of a lab, genuinely insufficient as a lone treatment in the messy conditions of a home.</p>
 
+          <NextUp path="/blog/diatomaceous-earth-for-bed-bugs" />
           <h2>How Long Does Diatomaceous Earth Take to Kill Bed Bugs?</h2>
           <p>Roughly 4 to 10 days of exposure in lab conditions, and frequently longer in practice. This is the number that trips people up: they expect a bug to hit the powder and drop, then conclude it doesn&rsquo;t work when bugs are still around the next morning. A bed bug has to accumulate dust on its body and then lose enough water over subsequent days to die.</p>
           <p>Because of that lag, DE functions as constant background pressure rather than a quick knockdown, grinding a population down as bugs repeatedly cross treated runways over weeks. That only helps if the infestation isn&rsquo;t breeding faster than the dust is killing &mdash; which is exactly why DE needs faster-acting partners like steam and a registered spray doing the heavy lifting up front.</p>
@@ -186,6 +189,7 @@ export default function DiatomaceousEarthForBedBugsPage() {
           </ul>
           <p><strong>The rule that matters more than location:</strong> a thin, barely-visible film only. A white line or a pile of powder is too much &mdash; bed bugs sense heavy dust and detour around it, so over-application lowers your kill rate. Tap any visible mound down into a haze.</p>
 
+          <RelatedLinks path="/blog/diatomaceous-earth-for-bed-bugs" />
           <h2>Where Should You Never Put Diatomaceous Earth?</h2>
           <p>The guardrails here are just as important as the application map, because misusing DE is either useless or unsafe:</p>
           <ul>

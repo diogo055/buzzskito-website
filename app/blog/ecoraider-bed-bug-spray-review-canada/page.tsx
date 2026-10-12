@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'ecoraider-bed-bug-spray-review-canada'
 const DATE = '2026-07-21'
@@ -242,6 +244,7 @@ export default function EcoRaiderBedBugSprayReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="ecovenger bed bug killer">EcoVenger (rebrand) &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/ecoraider-bed-bug-spray-review-canada" />
           <h2>The Rutgers Testing: Why This Natural Spray Is Different</h2>
           <p>The bar for a plant-based insecticide should be simple: does an independent lab, with no stake in the sale, find that it kills the target pest? For most natural bed bug sprays the answer is no &mdash; and that is exactly why the EcoRaider result matters. Rutgers researchers who tested a set of consumer bed bug products, including several marketed as natural or green, found that most of the botanical sprays failed to kill bed bugs at meaningful rates, while EcoRaider stood out by reaching high mortality on direct contact against adults and nymphs. In a category defined by overpromising, being one of the few that cleared the efficacy bar is a genuine distinction.</p>
           <p>Two things are worth being precise about, because honesty is the point of an independent review. First, the strong result was for <em>direct contact</em> &mdash; the spray killing bugs it actually wetted &mdash; not for a lingering residual that keeps working for weeks. Second, no single spray, natural or synthetic, cleared an entire infestation on its own in these kinds of tests, because a spray only reaches the bugs you point it at. What the testing establishes is that when EcoRaider hits a bed bug, it reliably kills it, which is more than can be said for most of the bottles sold beside it. That is the foundation the rest of this review builds on.</p>
@@ -258,6 +261,7 @@ export default function EcoRaiderBedBugSprayReviewCanadaPage() {
           <p>Every tool has a boundary, and EcoRaider&rsquo;s is residual. The plant compounds that make it low-toxicity and resistance-beating &mdash; volatile botanical oils &mdash; also break down relatively quickly compared with a synthetic film engineered to persist. In plain terms: EcoRaider is a contact killer, lethal while wet and for a short window after, but it does not lay down the multi-week barrier that a pyrethroid residual or a desiccant dust does. You cannot spray a baseboard once and expect it to keep killing bugs that cross it a month later.</p>
           <p>That is not a dealbreaker &mdash; it is a usage instruction. Because the residual is short, EcoRaider rewards thorough, repeated, direct application: spray the harbourage completely, and repeat every few days to a week while the infestation is active, re-hitting the same seams and cracks each time so you catch newly hatched nymphs and any bugs that were hiding on the previous pass. And it is why the smartest way to use it is not alone but paired with something that <em>does</em> provide long residual. Spray the surfaces you can see and reach with EcoRaider for immediate, egg-killing knockdown; dust the cracks and voids you cannot with a silica gel desiccant like <Link href="/blog/cimexa-bed-bug-review-canada">CimeXa</Link> for a barrier that keeps working for years. Contact killer plus permanent dust is the classic, complementary one-two.</p>
 
+          <RelatedLinks path="/blog/ecoraider-bed-bug-spray-review-canada" />
           <h2>How to Apply EcoRaider Correctly</h2>
           <p>A contact killer only kills what it wets, so application is everything &mdash; a half-hearted mist over open surfaces wastes the bottle. The goal is to actually reach the bugs and eggs in their harbourage with liquid, not to freshen the air. Work methodically:</p>
           <ul>

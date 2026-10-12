@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'zappbug-oven-2-review-canada'
 const DATE = '2026-07-21'
@@ -261,6 +263,7 @@ export default function ZappBugOven2ReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="thermalstrike bed bug heater">ThermalStrike Ranger (fallback) →</BuyLink>
           </div>
 
+          <NextUp path="/blog/zappbug-oven-2-review-canada" />
           <h2>Why Heat Wins Against Bed Bugs in the First Place</h2>
           <p>The Oven 2 is worth understanding because the physics underneath it is the most dependable weapon in the entire bed bug playbook. Bed bugs are extraordinarily good at surviving chemicals and extraordinarily bad at surviving heat. Adults and nymphs die at a sustained 45&deg;C. Eggs &mdash; the life stage that defeats almost every spray on the shelf, because their shells shrug off surface contact &mdash; die at roughly 48&deg;C held for about 90 minutes. At 50&deg;C, every stage dies within minutes. There is no resistance mechanism against being cooked, which is why professional exterminators stake entire whole-home treatments on exactly this thermal window.</p>
           <p>A chamber applies that physics at a scale a homeowner can actually control. Instead of trying to heat a leaky, uninsulated room, you concentrate the output of the heaters inside a sealed, insulated volume, and the bugs riding in your suitcase seams and book spines have nowhere colder to run. The Oven 2&rsquo;s two heaters exist to bring a much larger interior up to that lethal window and hold it there evenly &mdash; the extra element is not about reaching a higher peak temperature, it is about pushing enough heat into a bigger box that the far corners and the centres of dense items catch up.</p>
@@ -286,6 +289,7 @@ export default function ZappBugOven2ReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="zappbug oven 2 bed bug heater">Check ZappBug Oven 2 on Amazon.ca →</BuyLink>
           </div>
 
+          <RelatedLinks path="/blog/zappbug-oven-2-review-canada" />
           <h2>How to Choose Your Size: Oven 2 vs Heater vs Room</h2>
           <p>Buying the right ZappBug is almost entirely a question of matching the box to the volume of belongings you actually need to treat, not to how frightened you are. Here is the honest decision framework:</p>
           <ul>

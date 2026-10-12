@@ -10,6 +10,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-mosquito-repellent-device-canada'
 const DATE = '2026-07-12'
@@ -334,6 +336,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
             <p className="text-sm text-gray-800 leading-relaxed">Buy a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> for the seating area, add a <Link href="/blog/mosquito-magnet-canada">propane trap</Link> only if you have rural acreage, and skip the bug zapper. For the whole yard — and for ticks, which no device here touches — pair any device with <Link href="/mosquito-control">professional barrier spray</Link>.</p>
           </div>
 
+          <NextUp path="/blog/best-mosquito-repellent-device-canada" />
           <h2 id="machine-vs-killer">Mosquito Repellent Machines vs Killer Machines</h2>
           <p>Shoppers use two phrases almost interchangeably, but they describe opposite jobs. A <strong>mosquito repellent machine</strong> pushes mosquitoes away from a space without killing them, while a <strong>mosquito killer machine</strong> tries to trap or electrocute them. Knowing which word matches your goal is the fastest way to stop wasting money on the wrong gadget.</p>
           <ul>
@@ -359,6 +362,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
             </div>
           </aside>
 
+          <RelatedLinks path="/blog/best-mosquito-repellent-device-canada" />
           <h2>Devices vs Professional Barrier Spray for GTA Yards</h2>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">

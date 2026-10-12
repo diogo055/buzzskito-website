@@ -9,6 +9,8 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'diy-outdoor-misting-system-kit-canada'
 const DATE = '2026-07-21'
@@ -277,6 +279,7 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
           <p>The Aootek-class kit earns the top spot because it balances the three things that matter: a long enough tubing run to line a real patio, brass nozzles that survive Ontario&rsquo;s hard water far better than plastic, and low-pressure simplicity that means it just works off the tap. Its one honest limitation is droplet size &mdash; at 40&ndash;60 psi the droplets are larger than a high-pressure fog, so on a still, humid evening you may feel a light dampness on nearby surfaces. Mount it high and angle it inward and that mostly disappears. The HIRALIY kit is the value alternative: a little shorter, a little more plastic in the fittings, but the cheapest way to get a small patio or greenhouse misted, and it upgrades happily with a booster pump later.</p>
           <p><strong>Best for:</strong> covered patios, pergolas, gazebos, and greenhouse runs where you want easy install and low cost, and you accept that the payoff is comfort-and-deterrence rather than mosquito eradication.</p>
 
+          <NextUp path="/blog/diy-outdoor-misting-system-kit-canada" />
           <h2>Step Up: Booster-Pump and High-Pressure Systems</h2>
           <p>If your patio is large, exposed to sun and wind, or you simply cannot tolerate any dampness, the fix is more pressure. Adding a small inline <strong>booster pump</strong> (roughly 100&ndash;160 psi) to a low-pressure kit sharpens the droplets toward a near-dry fog and, just as importantly, lets a single line feed more nozzles evenly without the far end starving. It is the highest-value upgrade for a big deck &mdash; a modest pump cost buys a noticeably better mist and more reach. A dedicated compressor-style backpack or pump sprayer is a different tool entirely; if you are also treating vegetation, see our <Link href="/blog/backpack-sprayer-canada">backpack sprayer guide</Link>.</p>
           <p>At the top sits the true <strong>high-pressure system</strong>: a dedicated pump running 800&ndash;1,000+ psi through stainless nozzles, producing a flash-evaporating dry fog that never wets furniture and cools most aggressively of all. This is what restaurant patios and misting-cooled greenhouses use. It is also several times the price of an entry kit, involves proper fittings and often a permanent mount, and is more machine than a typical backyard needs. Buy it if you want the best possible cooling with zero dampness and do not mind the cost and install; skip it if a covered patio and a low-pressure kit will do.</p>
@@ -292,6 +295,7 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
           </ul>
           <p>Read that as a spending map: put your money into nozzle material, correct sizing, and a filter, and treat extra pressure as an upgrade you buy only if the site demands it. That is how you end up with a kit that still mists cleanly in its fourth summer.</p>
 
+          <RelatedLinks path="/blog/diy-outdoor-misting-system-kit-canada" />
           <h2>The Canadian Compliance Line: Keep It Water-Only</h2>
           <p>There is one place a DIY misting kit can go badly wrong, and it is worth stating plainly. In the United States, &ldquo;mosquito misting systems&rdquo; that automatically spray an insecticide on a timer are a marketed product category, and the concentrates that feed them &mdash; usually permethrin- or pyrethrin-based &mdash; are sold freely to homeowners. In Canada, any pesticide applied through a misting system must be a <strong>PMRA-registered product used exactly as its label directs</strong>, and most of those US misting concentrates are simply not registered for unattended residential misting here. Pouring one into a hose-fed cooling kit is an off-label, grey-market use that we do not recommend and will not link to.</p>
           <p>Keep your DIY kit as a <strong>water-only</strong> cooling-and-deterrence tool &mdash; that is fully legal, needs no registration, and is what the Aootek and HIRALIY kits are designed for. When you want actual insecticide working for you, have a licensed applicator treat the yard according to label directions. That keeps the insecticide on-label and fully compliant. This is the same reason we steer readers away from imported US foggers and concentrates throughout our equipment guides.</p>

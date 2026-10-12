@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-bed-bugs-yourself-diy-canada'
 const DATE = '2026-07-21'
@@ -268,6 +270,7 @@ export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptors →</BuyLink>
           </div>
 
+          <NextUp path="/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada" />
           <h2>Step 1 — Confirm and Contain Before You Treat</h2>
           <p>Do not start spraying or steaming until you have actually confirmed bed bugs and mapped where they are. Look for live bugs and their signs in the classic harbourage: the seams and piping of the mattress, the corners and underside fabric of the box spring, the joints and screw holes of the frame, behind the headboard, and along the seam where carpet meets baseboard. Tell-tale evidence is rusty or dark spotting (digested blood), pale shed skins, and tiny pale eggs in the crevices. Our guide on <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs</Link> walks through a full room inspection, and if you want certainty a <Link href="/blog/best-bed-bug-detector-canada">bed-bug detector or monitor</Link> can confirm activity before you commit.</p>
           <p>Then <strong>contain</strong>. The most damaging mistake at this stage is to abandon the bed and start sleeping on the couch &mdash; the bugs will simply follow you and seed a second infestation in the living room. Instead you will make the treated bed into an island (encasements on, interceptors under the legs, frame pulled a few inches off the wall). Bag up infested linens and clothing in sealed plastic and hold them for a hot dryer cycle. Resist the urge to move mattresses or upholstered furniture into another room &ldquo;to get them out of the way&rdquo; &mdash; that just relocates the problem.</p>
@@ -286,6 +289,7 @@ export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
           <h2>Step 5 — Ring the Legs With Interceptor Traps</h2>
           <p>Place an <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor trap</Link> under every leg of the bed and any upholstered furniture you still use. These shallow cups catch bugs trying to climb up to feed or back down to harbourage, which physically protects the sleeper, but their real value is <em>intelligence</em>. Once the frame is pulled away from the wall and no bedding touches the floor, the only route to you runs through the cups &mdash; so the count you find each morning is a direct readout of the campaign. Steady or falling counts mean you are winning; a sudden rise means you missed a harbourage and need to re-steam and re-dust that area. You cannot manage what you do not measure, and interceptors are how you measure a bed-bug fight.</p>
 
+          <RelatedLinks path="/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada" />
           <h2>Where a Spray Fits — and Where It Doesn&rsquo;t</h2>
           <p>Notice that a spray has not appeared as a headline step. That is deliberate. A labelled contact-and-residual <Link href="/blog/bed-bug-spray-canada">bed-bug spray</Link> has a legitimate supporting role for spot-treating specific harbourage you cannot easily steam, but it is a bit player, not the star. Most consumer sprays only kill on direct contact, leave little lasting residual, and do nothing to the eggs; some pyrethroid formulas actually repel bed bugs and scatter them deeper into the structure, making the problem harder to corner. If you use one, treat it as a targeted supplement inside the full protocol, and in Canada use only products bearing a <strong>PMRA registration number</strong>, applied exactly as the label directs. Skip the grey-market US &ldquo;bed bug killers&rdquo; sold online that carry no Canadian registration &mdash; they are not legal for use here and their claims are unverified. Our honest look at <Link href="/blog/do-bed-bug-sprays-actually-work">whether bed-bug sprays actually work</Link> covers the limits in detail.</p>
 

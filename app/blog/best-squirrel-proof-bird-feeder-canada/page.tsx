@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-squirrel-proof-bird-feeder-canada'
 const DATE = '2026-08-22'
@@ -244,6 +246,7 @@ export default function BestSquirrelProofBirdFeederCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="caged squirrel proof bird feeder metal">Caged feeder →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-squirrel-proof-bird-feeder-canada" />
           <h2>The 5&ndash;7&ndash;9 Rule, and the Fourth Number Canadians Need</h2>
           <p>Everything about squirrel-proofing a feeder comes down to denying the animal a route. The standard placement rule &mdash; used by birders everywhere and worth following exactly &mdash; is <strong>5&ndash;7&ndash;9</strong>: at least five feet off the ground, at least seven feet horizontally from anything the squirrel can launch from, and at least nine feet below any overhanging branch. Those numbers are not arbitrary; they are a grey squirrel&rsquo;s jumping ability with a margin built in. Squirrels are strong vertical jumpers, considerably better horizontal jumpers with a run-up, and remarkably willing to drop a long way onto a target they can see.</p>
           <p>The fourth number is snow, and no American-written guide mentions it because it does not need to. A five-foot pole with three feet of drifted, wind-packed snow at its base in February is a two-foot pole. Every squirrel on the street will discover this before you do, and it explains a lot of &ldquo;my squirrel-proof feeder stopped working in winter&rdquo; complaints. Mount higher than the rule requires &mdash; six or six and a half feet is not excessive in the GTA snowbelt &mdash; and shovel or rake out the base of the pole after significant storms. The same logic applies to snow piled against a fence or a deck rail: your seven-foot horizontal clearance is measured from where the squirrel can actually stand, not from where the ground was in September.</p>
@@ -264,6 +267,7 @@ export default function BestSquirrelProofBirdFeederCanadaPage() {
           <p>The second mistake is nearly as common: putting the pole too close to something. A deck rail, a fence top, an air conditioner cabinet, a garden shed roof, a wood pile, or the lip of a raised bed all count as launch platforms, and seven feet is measured to the nearest one of them, not to the nearest tree trunk. Stand where the squirrel would stand and look at the feeder; if you think you could throw a ball into it, the squirrel can reach it.</p>
           <p>The third is under-sinking the pole. Ontario frost heave will tilt a shallow-set pole through a winter, and a leaning pole with a slipped baffle is an open invitation. Sink it properly, and check the baffle height in spring.</p>
 
+          <RelatedLinks path="/blog/best-squirrel-proof-bird-feeder-canada" />
           <h2>Seed Choice Is a Real Lever</h2>
           <p>You can change the amount of squirrel pressure your yard generates before any hardware is involved, simply by choosing what you put out. Peanuts, cracked corn, and striped sunflower are squirrel magnets; if you are running a peanut feeder and complaining about squirrels, the feeder is not your problem. Black-oil sunflower is the best all-round songbird seed and squirrels love it too, so that is where the hardware has to do the work. Safflower is the useful middle path: bitter enough that many squirrels ignore it, while cardinals, chickadees, house finches and nuthatches take it readily. Nyjer, served in a fine-port finch feeder or a mesh sock, is small and fiddly enough that it often goes untouched by squirrels entirely.</p>
           <p>Hulled sunflower chips are worth a mention for a different reason: no shells means no shell litter under the feeder, which is the debris pile that quietly recruits mice, rats, raccoons and skunks to your yard. They cost more per kilogram and they spoil faster in wet weather, but in a small city garden where ground mess matters, they can be the smarter buy. Add a seed-catcher tray under any feeder and rake the drop zone periodically regardless of what you are using &mdash; if you already have a rodent problem, our guides to <Link href="/blog/how-to-get-rid-of-mice-canada">getting rid of mice</Link> and to <Link href="/blog/best-mouse-trap-canada">choosing a mouse trap</Link> deal with that side of it properly.</p>

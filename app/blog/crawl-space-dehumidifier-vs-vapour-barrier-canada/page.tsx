@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'crawl-space-dehumidifier-vs-vapour-barrier-canada'
 const DATE = '2026-08-22'
@@ -245,6 +247,7 @@ export default function CrawlSpaceDehumidifierVsVapourBarrierCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="condensate pump dehumidifier">Condensate pump &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada" />
           <h2>Where Crawl Space Moisture Actually Comes From</h2>
           <p>There are only three sources worth thinking about, and they need different responses.</p>
           <ul>
@@ -268,6 +271,7 @@ export default function CrawlSpaceDehumidifierVsVapourBarrierCanadaPage() {
           <p>The barrier is simple in concept and easy to do badly. Thickness first: 6-mil polyethylene is the common minimum and is generally accepted as a ground cover, but it tears where it passes over gravel and will not survive anyone crawling on it. If the space will ever be entered &mdash; and someone will eventually need to chase a pipe or a duct &mdash; a reinforced liner in the 10 to 20 mil range is the better buy. The woven scrim between the film layers is the difference between a barrier that lasts decades and one that is in shreds by the second year.</p>
           <p>Then the detailing, which is where DIY jobs fail. Clear the ground of rock and debris before anything goes down. Overlap adjacent sheets generously and tape the full length of every lap with a tape actually formulated for polyethylene &mdash; general-purpose tape lets go in a cool, damp, low-airflow space within a season. Run the liner up the foundation walls rather than stopping at the perimeter, and hold it there with fasteners and a termination strip so it cannot sag back down and reopen the path you just closed. Cut and seal neatly around piers and posts. None of this is skilled work; all of it is the difference between a barrier and a tarp.</p>
 
+          <RelatedLinks path="/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada" />
           <h2>Getting the Dehumidifier Right</h2>
           <p>If the readings say you need one, the specification that matters most is not the pint rating &mdash; it is the <strong>minimum operating temperature</strong>. Crawl spaces run cool, and a standard room dehumidifier condenses moisture on a refrigerated coil that frosts over and stops extracting once the space drops to around 5&deg;C. That is the same physics that decides the purchase in an unheated garage, which we cover in detail in our guide to the <Link href="/blog/best-dehumidifier-for-cold-garage-canada">best dehumidifier for a cold garage</Link>. Purpose-built crawl space units are designed for low-temperature duty and for being left alone for a season, which is what this application demands.</p>
           <p>Plan the drainage before you choose the machine, because it often decides which machine you can use. A bucket is not an option in a space nobody visits; it will sit full and idle for months. If a sump pit or floor drain sits below the unit, a gravity hose with a genuine continuous fall is the most reliable arrangement. In most crawl spaces there is nowhere lower to send water, so a condensate pump that lifts it out to a sump, a standpipe, or outside the foundation is standard practice. Add a remote humidity sensor so you can read the space from indoors and actually notice when something has stopped working. For the broader sizing and drainage logic that carries over from basements, our <Link href="/blog/best-dehumidifier-for-basement-canada">basement dehumidifier guide</Link> and the <Link href="/blog/best-large-capacity-dehumidifier-canada">large-capacity guide</Link> go deeper.</p>

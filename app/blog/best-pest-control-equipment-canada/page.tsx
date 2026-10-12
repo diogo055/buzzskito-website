@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-pest-control-equipment-canada'
 const DATE = '2026-07-21'
@@ -265,6 +267,7 @@ export default function BestPestControlEquipmentCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="sealed hepa air purifier">Air purifier →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-pest-control-equipment-canada" />
           <h2>Sprayers: The Workhorse Every Program Starts With</h2>
           <p>If you buy one piece of pest control equipment, buy a sprayer &mdash; it is the tool that does the largest share of routine work. A sprayer applies liquid product to surfaces: the foliage, fences, foundation perimeter, and structural edges where a residual insecticide needs to sit and keep killing for weeks. The variable that determines whether a treatment works is <strong>even coverage</strong>, and even coverage comes from steady pressure. That is why the battery (lithium) backpack sprayer has largely displaced the old manual-pump unit: a manual sprayer&rsquo;s pressure falls with every stroke, so your spray pattern &mdash; and your coverage &mdash; is uneven by the end of the tank, while a battery unit holds a constant pressure from first squeeze to last.</p>
           <p>For most residential lots a 4-gallon (about 15-litre) backpack is the sweet spot: enough to treat a typical property without refilling, light enough that a full tank does not wreck your back. Spot-treating a small area? A 1&ndash;2 gallon handheld is plenty. Covering acreage? Step up to higher-capacity or gas-powered units. Whatever the size, prioritise adjustable pressure and a good nozzle over raw litres. Our full breakdowns &mdash; the <Link href="/blog/best-battery-backpack-sprayer-canada">best battery backpack sprayers in Canada</Link>, the general <Link href="/blog/backpack-sprayer-canada">backpack sprayer buyer&rsquo;s guide</Link>, and our hands-on <Link href="/blog/chapin-battery-backpack-sprayer-review-canada">Chapin battery backpack sprayer review</Link> &mdash; cover sizing, nozzles, and the models worth owning.</p>
@@ -281,6 +284,7 @@ export default function BestPestControlEquipmentCanadaPage() {
           <p>Not every pest problem is an insect you can spray. Mould spores, dust-mite allergen, and wildfire smoke are air-quality problems, and the equipment that addresses them runs quietly in the background rather than in a single treatment session. A sealed-HEPA <strong>air purifier</strong> pulls fine particulate &mdash; allergen, spores, smoke &mdash; out of the air, and the seal matters as much as the filter grade because a leaky body simply blows the fine stuff back into the room. A <strong>dehumidifier</strong> attacks the root cause of many of these problems: moisture. Mould, dust mites, and a long list of pests depend on humidity to thrive, and pulling a damp basement down to a dry, inhospitable level does more lasting good than any spray.</p>
           <p>Which purifier you need depends on the problem and the space &mdash; our guide to the <Link href="/blog/best-air-purifier-for-dust-mites-canada">best air purifiers for dust mites</Link> covers matching a sealed-HEPA unit to the room it has to clean. On the moisture side, our <Link href="/blog/best-dehumidifier-for-basement-canada">best basement dehumidifier guide</Link> covers sizing a unit to the space and the humidity target worth aiming for.</p>
 
+          <RelatedLinks path="/blog/best-pest-control-equipment-canada" />
           <h2>Yard &amp; Wildlife Deterrent Equipment</h2>
           <p>Rounding out the cluster are the devices that keep pests out rather than kill them. A <Link href="/blog/motion-activated-sprinkler-canada">motion-activated sprinkler</Link> startles deer, raccoons, cats, and other visitors off the lawn with a burst of water, and a well-chosen <Link href="/blog/best-electric-fence-for-raccoons-canada">electric fence for raccoons</Link> protects a garden or coop from persistent night raiders. These are humane, chemical-free deterrents that solve a category of problem &mdash; wildlife pressure &mdash; that no sprayer or fogger touches. They belong in the toolkit for anyone whose &ldquo;pest&rdquo; walks in on four legs.</p>
           <p>On the flying-insect side, outdoor traps deserve a mention as supplemental gear: our comparison of the <Link href="/blog/mosquito-magnet-vs-dynatrap-canada">Mosquito Magnet vs DynaTrap</Link> and our guide to the <Link href="/blog/best-mosquito-trap-for-acreage-canada">best mosquito traps for acreage</Link> cover when a trap earns its place alongside &mdash; not instead of &mdash; the sprayer that does the real work.</p>

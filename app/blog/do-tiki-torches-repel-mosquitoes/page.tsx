@@ -9,6 +9,8 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'do-tiki-torches-repel-mosquitoes'
 const DATE = '2026-07-16'
@@ -156,6 +158,7 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
           <p>Mostly no. A standard tiki torch filled with ordinary lamp oil does essentially nothing to mosquitoes — the flame, the flicker, and the light are not repellents, and mosquitoes do not navigate by light the way moths do. Fill the torch with <strong>citronella</strong> fuel and you get a small, genuine effect: the oil releases a lemony aroma that masks the carbon dioxide and body scent mosquitoes hunt by. But that protective plume is thin, it sits mostly in a bubble under about a metre wide, and any breeze blows it away.</p>
           <p>So the honest answer is that a citronella torch can shave a few bites off the person standing right beside the flame in dead-still air, and a plain oil torch does nothing at all. Neither one clears a patio, and neither reduces the mosquito population in your yard. The reason people keep buying them is that they look wonderful at dusk — which is a fine reason to own tiki torches, as long as you do not mistake them for mosquito control.</p>
 
+          <NextUp path="/blog/do-tiki-torches-repel-mosquitoes" />
           <h2>Do Citronella Torches Work?</h2>
           <p>Citronella torches work exactly like <Link href="/blog/citronella-candles-canada-do-they-work">citronella candles</Link> — same active oil, same mechanism, same fatal weakness. Female mosquitoes (the only ones that bite) find you by following a trail of CO₂ from your breath plus body heat, lactic acid, and skin scent. Citronella oil masks those cues; it does not kill mosquitoes and it does not push them away the way DEET does. It just makes you a little harder to detect, and only where the scent is thick enough.</p>
           <p><strong>What the research shows:</strong> controlled still-air testing (published in the Journal of the American Mosquito Control Association) has measured roughly 40–50% fewer bites for someone seated directly beside a citronella source. That is real but modest, and it is measured in the best-case laboratory-style condition — no wind, sitting right next to it. Move citronella out into an open backyard and several field studies have found little to no statistically significant protection, because the plume simply does not stay put. A torch is actually worse off than a candle here: the flame usually sits at the edge of the patio, farther from where you sit, so its already-tiny protective zone is even less likely to reach you.</p>
@@ -171,6 +174,7 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
           <p>That is also why lining a patio with torches does not solve the problem. Each torch protects only its own little pocket, so four torches around a 3-metre patio still leave the table and everyone sitting in the middle fully exposed. And because torches do nothing about the shaded shrubs, long grass, and damp corners where mosquitoes actually breed and rest during the day, they cannot lower the number of mosquitoes coming into your yard in the first place.</p>
           <p>Those damp corners are where a torch has nothing to offer and a few dollars actually buys something. Any container holding water for more than a week &mdash; a rain barrel, a birdbath, a plant saucer, a blocked eavestrough &mdash; is a nursery, and a BTI larvicide tablet dropped into it kills the larvae there before any of them reach your patio as adults. Follow the label for which water types each format is cleared for. <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Check BTI mosquito dunks on Amazon.ca &rarr;</BuyLink></p>
 
+          <RelatedLinks path="/blog/do-tiki-torches-repel-mosquitoes" />
           <h2>Tiki Torches vs What Actually Works: A Real Comparison</h2>
           <p>Here is how a citronella tiki torch stacks up against the tools that genuinely move the needle in a Canadian backyard:</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">

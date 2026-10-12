@@ -12,6 +12,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-yellow-jacket-trap-canada'
 const DATE = '2026-07-21'
@@ -191,6 +193,7 @@ export default function BestYellowJacketTrapCanadaPage() {
           <p>Start with the single most useful thing in this guide, because almost nobody selling yellow jacket traps in Canada mentions it: <strong>RESCUE! makes two different attractant formulas for its DISPOSABLE traps, and the wrong one barely works east of the Rockies.</strong> (The reusable trap has no regional versions &mdash; RESCUE! sells it nationwide with a single lure that the company itself describes as similar to the Western formula.)</p>
           <p>The trap sold as <strong>YJTD-W</strong> &mdash; the &ldquo;W&rdquo; stands for <em>West of the Rockies</em> &mdash; is built around heptyl butyrate, a lure that western yellowjacket species respond to powerfully. The problem: the species doing the damage in Ontario, Quebec, and the Maritimes are the <em>eastern yellowjacket</em>, the <em>German yellowjacket</em>, and the <em>common yellowjacket</em> &mdash; and they respond poorly to heptyl butyrate. RESCUE! knows this, which is why the company sells a separate East formulation of the DISPOSABLE trap, with a different attractant blend, for everywhere else in North America. Note that this regional split applies to the disposable only — the reusable trap has no East version.</p>
           <p>Amazon.ca listings, marketplace sellers, and even some hardware-store shelves mix the two SKUs freely. The result is a review pattern you can see on every retailer: half the reviewers say the trap filled up in days, the other half say it caught nothing all summer. Much of that gap is not the trap &mdash; it is geography. A -W trap hanging in a Mississauga or Ottawa backyard is advertising to a species that mostly is not there.</p>
+          <NextUp path="/blog/best-yellow-jacket-trap-canada" />
           <p><strong>Before you buy a RESCUE! DISPOSABLE trap:</strong> check the label and the listing photos. If it says &ldquo;West of the Rockies,&rdquo; &ldquo;WYJ,&rdquo; or &ldquo;YJTD-W,&rdquo; it is the wrong trap for eastern Canada &mdash; you want the East version (YJTD-E). The reusable trap is a different decision: there is only one version of it, so the choice there is durability versus species-matched chemistry, not East versus West.</p>
 
           <h2>Know Your Enemy: Why Yellow Jackets Are a Different Problem</h2>
@@ -286,6 +289,7 @@ export default function BestYellowJacketTrapCanadaPage() {
           </ul>
           <p>Commercial attractant cartridges like RESCUE!&rsquo;s are blended to keep working across both phases, which is exactly what you are paying for versus DIY bait: consistency without the every-few-days maintenance. The DIY bottle trap wins only if you actually run the switch &mdash; a bottle of April sugar water hanging untouched in July is a wasp ornament.</p>
 
+          <RelatedLinks path="/blog/best-yellow-jacket-trap-canada" />
           <h2>Placement: The 6-Metre Rule</h2>
           <p>Every attractant trap is, by definition, a wasp magnet &mdash; so the placement question is not &ldquo;where do I want to kill wasps?&rdquo; but &ldquo;where do I want to <em>send</em> them?&rdquo; The rules:</p>
           <ul>

@@ -12,6 +12,7 @@ import ExitIntentPopup from '@/components/ExitIntentPopup'
 import LeadBarGate from '@/components/LeadBarGate'
 import AffiliateClickTracker from '@/components/AffiliateClickTracker'
 import LeadClickTracker from '@/components/LeadClickTracker'
+import RecircClickTracker from '@/components/RecircClickTracker'
 import AttributionBeacon from '@/components/AttributionBeacon'
 import MediavineScript, { MediavinePageSettings, MediavineStickyClearance } from '@/components/MediavineScript'
 import AdNavigationGuard from '@/components/AdNavigationGuard'
@@ -156,6 +157,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <StickyRiskCTA />
         <AffiliateClickTracker />
         <LeadClickTracker />
+        <RecircClickTracker />
         <ExitIntentPopup />
         <Footer />
 

@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bugs-in-a-car-heat-treatment-canada'
 const DATE = '2026-08-22'
@@ -182,6 +184,7 @@ export default function BedBugsInACarHeatTreatmentCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="high temperature probe thermometer">Probe thermometer &rarr;</BuyLink>
           </div>
 
+          <NextUp path="/blog/bed-bugs-in-a-car-heat-treatment-canada" />
           <h2>Why chemicals are a genuine non-starter in a car</h2>
           <p>People reach for a fogger first, and it is wrong on three separate grounds &mdash; any one of which would be enough.</p>
           <p><strong>It is almost certainly off-label, and off-label is illegal.</strong> Pest control products sold to Canadian consumers carry a PMRA domestic-class registration and a label naming the use sites the product was actually assessed for. On domestic bed bug products those sites are household ones &mdash; mattresses, baseboards, cracks and crevices. So read the label in front of you rather than assuming: unless a vehicle interior is named on it, using the product there is off-label, and off-label use is an offence under the federal Pest Control Products Act. The label is also the only thing standing between you and an exposure problem you have no recourse for.</p>
@@ -213,6 +216,7 @@ export default function BedBugsInACarHeatTreatmentCanadaPage() {
             <li><strong>Keep it boring for three weeks.</strong> No soft items living in the car, no bags left overnight, passive sticky monitors under the seats and in the trunk, and a weekly inspection of the seams with a bright light.</li>
           </ol>
 
+          <RelatedLinks path="/blog/bed-bugs-in-a-car-heat-treatment-canada" />
           <h2>The two Canadian shortcuts that do not work</h2>
           <p><strong>Parking it in the sun.</strong> A closed car in direct July sun in southern Ontario genuinely does get very hot near the dash and the upper glass, and that fact is why the advice spreads. The problem is distribution. Heat in a parked vehicle is wildly uneven, and the coolest parts &mdash; the core of the seat foam, the shaded side, the metal under-seat channels, the trunk &mdash; are precisely the harbourages bed bugs choose. Without a probe buried in a seat you have no idea what those places actually reached, and bugs survive comfortably in the cool spots while the dashboard bakes. Then there is the calendar: this is theoretically plausible for a couple of months a year here and completely useless from October through May. Take solar heat as a bonus on top of a real treatment, never as the treatment.</p>
           <p><strong>Waiting for the cold.</strong> This is the same error with the sign flipped. A cold kill requires the item core to hold a sustained low temperature for days, and a vehicle parked outside swings hard &mdash; solar gain through the glass lifts a cabin well above the outside air even on a bright February day, and every warm interval resets the clock on everything you were relying on. A chest freezer with a probe thermometer is a legitimate tool for small bagged items left for several days. A driveway in Mississauga is not a freezer, however cold the week looks.</p>

@@ -12,6 +12,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-wasp-trap'
 const DATE = '2026-07-21'
@@ -337,6 +339,7 @@ export default function BestWaspTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap">Disposable bag traps →</BuyLink>
           </div>
 
+          <NextUp path="/blog/best-wasp-trap" />
           <h2>Why the RESCUE! WHY Trap Wins</h2>
           <p>Mechanically, the WHY Trap is two traps stacked into one. The top chamber uses a hanging attractant cartridge for airborne foragers; the bottom chamber holds a liquid attractant that draws a different feeding profile. Wasps enter through cone openings that are easy to fly into and confusing to exit &mdash; the same one-way principle as a minnow trap &mdash; and exhaust themselves inside. There is no zapping, no propellant, and nothing under pressure: it is pure behavioural engineering.</p>
           <p>In practice, three things separate it from the field. First, coverage: it is the trap you buy when you have not keyed out your species, which is nearly everyone. Second, the refill economics above. Third, longevity &mdash; the housing is rigid plastic that shrugs off Canadian UV and rain for multiple seasons, where bag traps sag and bottle traps cloud over in weeks. The honest cons: the attractant needs refreshing roughly every two weeks (an exhausted lure catches nothing and quietly convinces people traps &ldquo;don&rsquo;t work&rdquo;), and emptying a chamber of dead and dying yellowjackets is a gloves-on job that not every household wants. We push it harder in our standalone <Link href="/blog/rescue-why-trap-review-canada">RESCUE! WHY Trap review</Link>, including refill scheduling and a full season of catch notes.</p>
@@ -362,6 +365,7 @@ export default function BestWaspTrapCanadaPage() {
           <p>Every August, Canadian social feeds fill with the inverted-2L-bottle trap: cut the top off, flip it into the base, add sugar water or juice, done. Does it work? Barely &mdash; and &ldquo;barely&rdquo; is doing real work in that sentence. Sugar water is a weak lure compared with a formulated heptyl butyrate attractant; the wide funnel that lets wasps in also lets a meaningful share walk back out; drowning in syrup is slow enough that a busy trap becomes a wasp rescue platform; and sweet liquid indiscriminately pulls in flies, moths, and occasionally bees, which a formulated yellowjacket lure largely avoids.</p>
           <p>Where it earns a nod: an emergency. If yellowjackets have crashed a picnic <em>right now</em> and the nearest store is thirty minutes away, a bottle trap hung well away from the table beats nothing. Add a drop of dish soap to break surface tension (faster drowning) and a splash of vinegar to reduce bee interest. But as a season strategy it is the weakest option on this page, needs re-brewing every few days, and mostly it teaches people that &ldquo;wasp traps don&rsquo;t work&rdquo; when what does not work is sugar water in a bottle.</p>
 
+          <RelatedLinks path="/blog/best-wasp-trap" />
           <h2>Timing Is Half the Battle: Spring Queens vs the August Worker Spike</h2>
           <p>A wasp trap in Canada has two seasons, and they call for different expectations.</p>
           <p><strong>Spring (mid-April to late May): queen trapping.</strong> Every colony in your yard this summer will be founded by a single overwintered queen who is, right now, flying solo &mdash; foraging, scouting nest sites, and completely unprotected by workers. A trap hung early catches queens, and each queen caught is arithmetically an entire nest that never gets built: potentially thousands of late-summer workers deleted with one catch. Spring trapping catches <em>few</em> insects and prevents <em>many</em>; do not judge it by how full the trap looks.</p>

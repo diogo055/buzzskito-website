@@ -11,6 +11,8 @@ import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'thermacell-e90-canada-review'
 const DATE = '2026-07-14'
@@ -237,6 +239,7 @@ export default function ThermacellE90CanadaReviewPage() {
           <p>The E90 is the flagship of Thermacell&rsquo;s rechargeable E-Series — the generation that replaced the butane-and-mat Patio Shield formula with a lithium-ion battery and a sealed liquid repellent cartridge. Instead of lighting a fuel cartridge and swapping little blue mats every four hours, you press one button, wait 10&ndash;15 minutes for the zone to build, and get a scent-free bubble of protection around your seating area. Nothing goes on your skin, nothing burns, and there&rsquo;s no citronella smell clinging to your clothes.</p>
           <p>We run mosquito and tick control across the GTA all season, and the E-Series units are what we see most often on customers&rsquo; patio tables — usually doing exactly what they should: handling the seating area while something else handles the yard. This review covers what the E90 does well, where the marketing oversells it, and how to decide between it, the cheaper E55, and the rugged EX90 Adventure.</p>
 
+          <NextUp path="/blog/thermacell-e90-canada-review" />
           <h2>How the E90 Works — Metofluthrin, Not Butane</h2>
           <p>The E-Series heats a cartridge of <strong>metofluthrin</strong>, a synthetic pyrethroid modelled on the natural defensive compounds in chrysanthemum flowers. The warmed liquid vapourizes and disperses in a roughly 20-foot (6-metre) zone, and at those airborne concentrations mosquitoes either turn away or become too disoriented to home in on you. It&rsquo;s a spatial repellent — it doesn&rsquo;t kill the mosquito population in your yard, it makes a bubble of air around you unattractive to bite in.</p>
           <p>Three practical consequences of that mechanism matter in Ontario:</p>
@@ -271,6 +274,7 @@ export default function ThermacellE90CanadaReviewPage() {
           </ul>
           <p>If you genuinely do both, buy the EX90 — the ruggedization costs little and never hurts at home. And a note for anyone eyeing Thermacell&rsquo;s smart-home flagship: the <strong>LIV smart system is not sold in Canada</strong> because it hasn&rsquo;t been through PMRA registration for the Canadian market, which makes the E90 the top of the lineup Canadians can actually buy and refill locally.</p>
 
+          <RelatedLinks path="/blog/thermacell-e90-canada-review" />
           <h2>Which Refills to Buy (and Which to Skip)</h2>
           <p>The E90 takes E-Series metofluthrin cartridges in 12-hour, 36-hour, and 72-hour sizes. The 12-hour cartridge that comes in the box is a sampler — fine for your first weekend, expensive as a steady diet. Cost per hour of protection drops meaningfully as the cartridge size goes up, so once you know the device suits your patio, buy the 36-hour packs, or the 72-hour option if you&rsquo;re a most-evenings-outside household.</p>
           <p>Budget honestly for an Ontario season: May through September at three evenings a week &times; 2.5 hours is roughly 100 hours of runtime, call it three 36-hour cartridges or a 72-hour pack plus one spare. Two things Canadian buyers learn the hard way: refills sell down hard at GTA retailers in late June and July, so stock up in spring, and Patio Shield mats do <em>not</em> fit E-Series devices no matter how confidently the seasonal aisle shelves them side by side. Full refill-by-refill compatibility details live in our <Link href="/blog/thermacell-refills-recharge-canada">Thermacell refills and recharge guide for Canada</Link>.</p>

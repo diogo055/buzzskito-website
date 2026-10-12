@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-remove-tick-from-dog-ontario'
 const DATE = '2026-04-26'
@@ -123,6 +125,7 @@ export default function HowToRemoveTickFromDogPage() {
             cons={['Fiddly on very small nymph ticks', 'Still requires a slow, steady pull — no twisting']}
           />
 
+          <NextUp path="/blog/how-to-remove-tick-from-dog-ontario" />
           <h2>Do NOT Do These Things (Old Wives&rsquo; Tales That Cause Harm)</h2>
           <ul>
             <li><strong>Do not</strong> apply Vaseline, nail polish, soap, or oil to suffocate the tick — this makes it regurgitate stomach contents into your dog, increasing disease risk.</li>
@@ -149,6 +152,7 @@ export default function HowToRemoveTickFromDogPage() {
           <p>Many vets offer a 4DX SNAP test that screens for Lyme, ehrlichiosis, anaplasmosis, and heartworm in 8 minutes. If you&rsquo;re in an Ontario tick hotspot, this is a sensible annual test even without a known bite.</p>
           <p>Knowing what to watch for over the following weeks matters as much as the removal itself. Our guide to <Link href="/blog/tick-bite-on-dog-symptoms" className="text-brand-700 underline">tick bite symptoms on dogs</Link> lays the timeline out day by day &mdash; the normal bump, the shifting-leg lameness that shows up much later, and which changes mean picking up the phone.</p>
 
+          <RelatedLinks path="/blog/how-to-remove-tick-from-dog-ontario" />
           <h2>Where Ticks Hide on Dogs (Where to Check Every Walk)</h2>
           <p>Ticks prefer warm, hidden spots where the skin is thin and they won&rsquo;t be groomed off easily. After every walk in tall grass, woods, or anywhere off the paved path, check these zones:</p>
           <ul>

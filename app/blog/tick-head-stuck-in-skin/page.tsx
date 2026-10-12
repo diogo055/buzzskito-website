@@ -8,6 +8,8 @@ import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'tick-head-stuck-in-skin'
 const DATE = '2026-07-16'
@@ -144,6 +146,7 @@ export default function TickHeadStuckInSkinPage() {
           cons={['Very fine tip can be fiddly on tiny nymphs', 'Not a substitute for a doctor if the site gets infected']}
         />
 
+        <NextUp path="/blog/tick-head-stuck-in-skin" />
         <h2>What happens if you leave a tick head in your skin?</h2>
         <p>In most cases, nothing serious happens. Your immune system treats the fragment as foreign material and gradually pushes it toward the surface, usually within a few days to two weeks. You might see a small red bump or feel mild tenderness while it works its way out — that&rsquo;s normal healing, not a warning sign.</p>
         <p>The one outcome worth watching for is a <strong>localized skin infection</strong> at the site — for example cellulitis — which shows up as spreading redness, warmth, swelling, or pus. That&rsquo;s a wound-care problem, not a tick-disease problem, and it&rsquo;s treatable, but it needs a clinician. The good news, echoed by the U.S. CDC, is that trying to dig out a stubborn mouthpart usually causes more skin trauma than simply leaving it alone.</p>
@@ -206,6 +209,7 @@ export default function TickHeadStuckInSkinPage() {
           </table>
         </div>
 
+        <RelatedLinks path="/blog/tick-head-stuck-in-skin" />
         <h2>Is a tick head stuck in your skin dangerous?</h2>
         <p>For the vast majority of people, no — the leftover mouthpart itself is low-risk. Two separate things are worth monitoring, though, and it helps to keep them straight:</p>
         <ul>
