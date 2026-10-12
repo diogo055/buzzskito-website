@@ -46,3 +46,6 @@ data/gsc/*.csv
 
 # Playwright MCP session artifacts (console logs / page snapshots)
 .playwright-mcp/
+
+# Lighthouse reports written by scripts/measure-speed.mjs
+.lighthouse/

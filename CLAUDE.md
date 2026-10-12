@@ -134,3 +134,37 @@
 - **Mediavine:** it is a bar on the bottom edge, never a floating card (a card would sit over the text column and any in-content ad passing through it; the bottom-right corner is Mediavine's video player). Its distance from the edge uses `--mv-adh` / `--mv-vid` / `--mv-gap` like every other fixed bar, and from 1024px it is not shown while Mediavine's video player is floating. Rendered at the top level of the page by `components/ReadNext.tsx` so no ancestor can capture its fixed position.
 - **Guard:** `check:recirculation` fails the build if the bar is missing from a flagged article, appears anywhere else, appears together with the Amazon buy bar, does not link to the page's Next pick, or if the Call / Text / Get price bar is missing from any page outside the three lists the gate knows.
 - **Open decision for the owner:** the note to Mediavine still asks for the phone sticky ad to be OFF. On article pages that ad is probably worth more than our bar. See "One decision before you send the note" in `reports/mediavine_launch_checklist.md`.
+
+## Amazon on the product hubs, and where Amazon must never be (Oct 12, 2026)
+- **All six hubs under `/pest-product-guides/*` now carry Amazon.ca links.** Ant, cockroach, mosquito-gear and rodent gained the pattern bed-bug and tick-gear already had: `<AffiliateDisclosure />` + one "Start Here" `<TopPick>` in `howWeRank.body`, two `<BuyLink>`s in `bottomLine.body`. 16 new links. Every product and `search=` term is one the hub's own lead guide already uses; nothing new was chosen. No fixed Amazon bar was added to those four.
+- **Owner's rule (overrides the brief that started this): Amazon stays on every page that already had it** (4,564 links on 329 posts, real income) **and stays off the 86 North American guides.** Do not strip affiliate links from articles.
+- **`check:amazon` now also fails the build** on a link to any Amazon marketplace other than amazon.ca, and on any Amazon link in the built page of a North American guide. OneLink's script is already blocked (it is served from amazon-adsystem).
+- **GA4:** every Amazon click fires `amazon_click` (`page_slug`, `page_path`, `placement`, `search_term`, `cluster_tag`) in addition to the old `affiliate_click`, which is unchanged because the per-page click-out reports are built on it.
+- Boric acid dust is cancelled for home use in Canada and three older guides still recommend it (`reports/us_pages_product_findings.md`). It was deliberately not used as a hub pick. The owner decides what happens to the three guides.
+
+## Browser notifications (OneSignal) — built, OFF until the app ID is set (Oct 12, 2026)
+- **Switch:** `NEXT_PUBLIC_ONESIGNAL_APP_ID` in Vercel (a public ID, not a secret). `lib/push.ts` treats anything that is not a UUID as "not set". With it unset nothing renders and no OneSignal code loads.
+- **Where:** articles only. `components/ReadNext.tsx` mounts `components/PushPrompt.tsx`, and only articles render ReadNext. Never on service, city, pricing or quote pages, the hubs, or the 33 local posts.
+- **Rules it follows:** our own prompt after 30 seconds or half-way down the article; the browser's permission box only inside the click on "Yes"; never on page load; OneSignal's script is loaded only after the reader allows notifications (or was already a subscriber); no email is asked for; welcome notification off; nothing is sent automatically.
+- **Mediavine:** the prompt is a strip under the sticky header, not at the bottom (our bars, Mediavine's sticky ad and its video player all live there). It checks on every scroll whether an ad slot is underneath it and slides away if one is. It is attached to `<body>` through a portal because the marker sits inside the article.
+- **Privacy policy:** a "Browser Notifications" paragraph appears only while the feature is on. Mediavine's verbatim section is untouched.
+- **Guard:** `npm run check:push` (in `npm run build`): OneSignal's script in no page's HTML, prompt on all articles or none and on nothing else, service worker file exact, policy paragraph matches the switch.
+- **GA4:** `push_prompt_view`, and `push_subscribe` with `outcome` = `accepted` | `dismissed` | `error` and `step` = `prompt` | `browser`.
+- **Mediavine's Grow was checked first:** it has favourites, sharing, search, recommended content and email sign-up, but no browser notifications.
+- **Owner's steps to switch it on** are in `reports/retention_program_report.md`. In OneSignal choose **Custom Code**, not "Typical Site", or OneSignal's own prompts are added on top of ours.
+
+## Pest identifier quiz: /tools/what-bug-is-this (Oct 12, 2026)
+- Five questions, scored (`lib/bug-quiz.ts`), eight results; each result links to two identification guides and one "what to do" guide. `components/BugQuiz.tsx` is the client part; the page resolves the links from `lib/article-index.json` and **fails the build if a linked guide is gone**.
+- **No photographs yet, on purpose.** The brief asked for photos; the site has no pest photographs and nothing may be AI-generated. Every answer has an optional `photo` field (`src`, `width`, `height`, `alt`, `credit`): add real photos there and they show on the buttons. Do not add drawn or generated pictures.
+- Not on the ad allow-list (owner's say-so needed), so it loads no Mediavine script; result links go to ad pages and `AdNavigationGuard` makes those full page loads.
+- The phone Call / Text / Get price bar and the desktop exit popup are off on `/tools/*` (`lib/tool-routes.ts`, `components/ExitIntentPopup.tsx`). The lead tools at the root keep both.
+- **GA4:** `quiz_step` with `step` 1–5 and `choice`, then `step` = `result` and `choice` = the pest named. Result links count as `recirculation_click` with `location` = `quiz_result`.
+- Linked from `/learn`. In the sitemap with its real date.
+
+## Speed of the article template (measured Oct 12, 2026)
+- **Live, simulated mid-range phone on slow 4G, median of 3:** LCP 3.17 to 3.19 s, first paint 1.72 to 1.79 s, blocking time 442 to 616 ms, CLS 0.000, score 77 to 81. The LCP element is the H1 (text, no image). With real throttling LCP is about 2.5 to 2.8 s; unthrottled 0.3 to 0.5 s.
+- **Nothing was changed, on evidence:** blocking every third-party script leaves LCP at 3.22 s (and takes blocking time to about 5 ms); the two display fonts cost 0.14 s; with all site JavaScript removed LCP is still 2.4 to 2.7 s; Google Analytics as a low-priority async tag gave no LCP gain in 12 throttled runs and was reverted. Do not retry that one.
+- **Third-party scripts are all of the main-thread blocking** (Facebook Pixel 230 to 480 ms, Google tag 200 to 380 ms, Clarity 45 to 200 ms). Removing or delaying Facebook Pixel or Clarity is the owner's decision.
+- **Measure with `node scripts/measure-speed.mjs <label> <runs> <url...>`** (`THROTTLE=devtools` for real throttling). It carries four Chrome flags that matter: without them headless Chrome on this machine draws its hidden window about once a second and Lighthouse reported an LCP of 9 s. PageSpeed Insights' API without a key answers "quota exceeded".
+- Field data (real LCP and INP) is in Vercel > Speed Insights, which only the owner can open. Re-measure the week Mediavine ads start: ads change everything here.
+- Full write-up: `reports/retention_program_report.md`.
