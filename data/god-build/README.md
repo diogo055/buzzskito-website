@@ -33,6 +33,13 @@ pushing local work, `git fetch diogo` and merge `diogo/main` first (the usual
 `merge-base --is-ancestor` check will fail otherwise). Never edit a file in
 `content/guides-scheduled/` after its check without re-checking it: the release holds it back.
 
+**Editing a page that is already live** (any `content/guides/*.json`): record its fact-check
+again (`node scripts/us-pages-mark-checked.mjs guide <slug> publish ...`) in the same commit.
+The release run uses `us-pages-register.mjs --checked-only`, which treats an edited, unrecorded
+guide as unpublished: it would drop it from the sitemap and the blog index and put a temporary
+redirect over it. `check:guides` catches the redirect and fails the build, so nothing bad
+deploys, but that morning's release fails until the record is fixed.
+
 ## What every state page carries (from the Oct 14 study of what ranks)
 
 The pages ranking for "ticks in <state>" today are thin: pestworld's ~400-word template with

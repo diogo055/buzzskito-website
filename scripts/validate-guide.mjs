@@ -31,6 +31,8 @@ const PHOTOS_FILE = join(ROOT, 'data', 'god-build', 'photos.json')
 const PHOTOS = existsSync(PHOTOS_FILE) ? Object.fromEntries(JSON.parse(readFileSync(PHOTOS_FILE, 'utf8')).photos.map((x) => [x.file, x])) : {}
 const LICENSES = new Set(['public-domain', 'CC0-1.0', 'CC-BY-2.0', 'CC-BY-2.5', 'CC-BY-3.0', 'CC-BY-4.0', 'CC-BY-SA-2.0', 'CC-BY-SA-2.5', 'CC-BY-SA-3.0', 'CC-BY-SA-4.0'])
 const STATE_CODES = new Set('AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY'.split(' '))
+// map scopes: "us" (states), "ca" (provinces and territories), a state (its counties), a province (its census divisions)
+const MAP_SCOPES = new Set(['us', 'ca', ...STATE_CODES, ...'BC AB SK MB ON QC NB NS PE NL YT NT NU'.split(' ')])
 // pixel size of a WebP, PNG or JPEG file, read from its header
 function imageSize(file) {
   const b = readFileSync(file)
@@ -222,7 +224,7 @@ function validate(file) {
     if (b.type === 'map') {
       const where = `body[${i}] (map ${b.scope})`
       const scope = String(b.scope || '')
-      if (scope !== 'us' && !STATE_CODES.has(scope)) err(`${where}: "scope" must be "us" or a two-letter state code`)
+      if (!MAP_SCOPES.has(scope)) err(`${where}: "scope" must be "us", "ca", a two-letter state code or a province code`)
       const geo = geoFor(scope)
       if (!geo) err(`${where}: no shapes for this map yet (data/geo/${scope.toLowerCase()}.json; run scripts/build-geo.mjs)`)
       if (typeof b.title !== 'string' || b.title.length < 10 || b.title.length > 120) err(`${where}: "title" must be 10 to 120 characters`)
@@ -371,17 +373,25 @@ function validate(file) {
   // ── US reader, honesty and compliance ─────────────────────────────────────────
   const joined = everything.join('\n')
   const visible = strip(joined)
-  const sp = usSpellingProblems(joined)
+  // Canadian pages (audience "ca", the province series) are written for Canadians: Canadian
+  // spelling is fine, Canadian bodies and places are the point, and Celsius / metric come first.
+  const CA = p.audience === 'ca'
+  if (god && CA !== (g.locale === 'en-CA')) err(CA ? '"locale" must be "en-CA" on a Canadian page' : '"locale" must be left out (or "en-US") on a US page')
+  const sp = CA ? [] : usSpellingProblems(joined)
   if (sp.length) err(`non-US spelling: ${sp.join(', ')}`)
-  const hard = visible.match(new RegExp(CANADA_HARD.source, 'g'))
+  const hard = CA ? null : visible.match(new RegExp(CANADA_HARD.source, 'g'))
   if (hard && p.audience !== 'na') err(`Canada-specific reference: ${[...new Set(hard)].join(', ')}`)
   const canad = (visible.match(/Canad/g) || []).length
-  if (canad > 2 && p.audience !== 'na') err(`"Canada/Canadian" appears ${canad} times; these pages are for US readers (a passing range note such as "the northern US and southern Canada" is the limit)`)
+  if (canad > 2 && p.audience !== 'na' && !CA) err(`"Canada/Canadian" appears ${canad} times; these pages are for US readers (a passing range note such as "the northern US and southern Canada" is the limit)`)
   for (const t of everything) {
     const v = strip(t)
-    if (/\d\s?°\s?C\b/.test(v) && !/°\s?F\b/.test(v)) err(`Celsius without Fahrenheit: "${v.slice(0, 90)}…"`)
-    if (/\b\d+(\.\d+)?\s?(mm|cm|millimeters?|centimeters?)\b/.test(v) && !/\binch(es)?\b|\bin\.\s|"/.test(v)) err(`metric size without inches: "${v.slice(0, 90)}…"`)
-    if (/\b\d+(\.\d+)?\s?(km|kilometers?|kg|kilograms?|hectares?)\b/.test(v) && !/\b(miles?|pounds?|lbs?|acres?|feet|ft)\b/.test(v)) err(`metric unit without a US equivalent: "${v.slice(0, 90)}…"`)
+    if (CA) {
+      if (/\d\s?°\s?F\b/.test(v) && !/°\s?C\b/.test(v)) err(`Fahrenheit without Celsius on a Canadian page: "${v.slice(0, 90)}…"`)
+    } else {
+      if (/\d\s?°\s?C\b/.test(v) && !/°\s?F\b/.test(v)) err(`Celsius without Fahrenheit: "${v.slice(0, 90)}…"`)
+      if (/\b\d+(\.\d+)?\s?(mm|cm|millimeters?|centimeters?)\b/.test(v) && !/\binch(es)?\b|\bin\.\s|"/.test(v)) err(`metric size without inches: "${v.slice(0, 90)}…"`)
+      if (/\b\d+(\.\d+)?\s?(km|kilometers?|kg|kilograms?|hectares?)\b/.test(v) && !/\b(miles?|pounds?|lbs?|acres?|feet|ft)\b/.test(v)) err(`metric unit without a US equivalent: "${v.slice(0, 90)}…"`)
+    }
     if (TESTING.test(v)) err(`claims testing that did not happen: "${v.slice(0, 90)}…"`)
     if (ABSOLUTE.test(v)) err(`absolute safety or performance claim (${v.match(ABSOLUTE)[0]}): "${v.slice(0, 90)}…"`)
     if (RETAIL_WORD.test(v)) err(`retail or affiliate language (${v.match(RETAIL_WORD)[0]}): "${v.slice(0, 90)}…"`)

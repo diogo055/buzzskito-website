@@ -119,7 +119,7 @@ if (existsSync(godFile)) {
       slug: v.slug, kind: 'spoke', section, cluster: v.cluster, path: `/${section}/${v.slug}`,
       keyword: v.keyword, alsoTargets: v.alsoTargets || [], ranks: [],
       type: 'informational', flags: v.flags || [], minWords: v.minWords || 1800, datePublished: v.releaseOn,
-      projClicks: 0, batch: 'god', audience: 'us', role: v.role || 'page', series: v.series || null, state: v.state || null,
+      projClicks: 0, batch: 'god', audience: v.audience || 'us', role: v.role || 'page', series: v.series || null, state: v.state || null,
       releaseOn: v.releaseOn, parent: v.parent || null, h1Hint: v.h1Hint || null, scope: v.scope, dataPacket: v.dataPacket || null,
       required: { pillar: null, ring: [], minSiblings: 0, minExisting: v.minExisting ?? 2, category: null, mustLink: v.mustLink || [], neighbors: v.neighbors || [], minNeighbors: v.minNeighbors ?? 2, seriesAll: v.seriesAll || [] },
     })

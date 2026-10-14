@@ -118,6 +118,16 @@
 - `/learn/aphid-control-guide` — how to get rid of aphids naturally
 - `/learn/whitefly-identification-control` — how to get rid of whiteflies
 - `/learn/natural-weed-control` — natural weed killer
+- `/learn/ticks-by-province` — ticks in canada by province
+- `/blog/ticks-in-nova-scotia` — ticks in nova scotia
+- `/blog/ticks-in-new-brunswick` — ticks in new brunswick
+- `/blog/ticks-in-quebec` — ticks in quebec
+- `/blog/ticks-in-british-columbia` — ticks in british columbia
+- `/blog/ticks-in-manitoba` — ticks in manitoba
+- `/blog/ticks-in-prince-edward-island` — ticks in prince edward island
+- `/blog/ticks-in-alberta` — ticks in alberta
+- `/blog/ticks-in-newfoundland-and-labrador` — ticks in newfoundland and labrador
+- `/blog/ticks-in-saskatchewan` — ticks in saskatchewan
 - `/learn/ticks-by-state` — ticks by state
 - `/blog/ticks-in-pennsylvania` — ticks in pennsylvania
 - `/blog/ticks-in-new-york` — ticks in new york
@@ -168,6 +178,16 @@
 - `/blog/ticks-in-south-dakota` — ticks in south dakota
 - `/blog/ticks-in-alaska` — ticks in alaska
 - `/blog/ticks-in-hawaii` — ticks in hawaii
+- `/learn/mosquitoes-by-province` — mosquitoes in canada by province
+- `/blog/mosquitoes-in-manitoba` — mosquitoes in manitoba
+- `/blog/mosquitoes-in-alberta` — mosquitoes in alberta
+- `/blog/mosquitoes-in-saskatchewan` — mosquitoes in saskatchewan
+- `/blog/mosquitoes-in-british-columbia` — mosquitoes in british columbia
+- `/blog/mosquitoes-in-quebec` — mosquitoes in quebec
+- `/blog/mosquitoes-in-nova-scotia` — mosquitoes in nova scotia
+- `/blog/mosquitoes-in-new-brunswick` — mosquitoes in new brunswick
+- `/blog/mosquitoes-in-newfoundland-and-labrador` — mosquitoes in newfoundland and labrador
+- `/blog/mosquitoes-in-prince-edward-island` — mosquitoes in prince edward island
 - `/learn/mosquitoes-by-state` — mosquitoes by state
 - `/blog/mosquitoes-in-florida` — mosquitoes in florida
 - `/blog/mosquitoes-in-texas` — mosquitoes in texas

@@ -1,0 +1,21 @@
+{
+  "_readme": "The ten provinces for the Canadian series (data/god-build/README.md). Territories are left out for now (very few ticks; little search demand). neighbors = provinces sharing a border, plus the Maritime crossings for PEI and the Labrador border for Newfoundland and Labrador. pruid = Statistics Canada province code (for maps). Ontario already has pages that rank (existing): the series links to them instead of competing with them. Ranks = release order, by the province queries already showing in Search Console (Oct 2026) and known tick/mosquito interest.",
+  "provinces": [
+    { "code": "BC", "pruid": "59", "name": "British Columbia", "slug": "british-columbia", "neighbors": ["AB"] },
+    { "code": "AB", "pruid": "48", "name": "Alberta", "slug": "alberta", "neighbors": ["BC", "SK"] },
+    { "code": "SK", "pruid": "47", "name": "Saskatchewan", "slug": "saskatchewan", "neighbors": ["AB", "MB"] },
+    { "code": "MB", "pruid": "46", "name": "Manitoba", "slug": "manitoba", "neighbors": ["SK", "ON"] },
+    { "code": "ON", "pruid": "35", "name": "Ontario", "slug": "ontario", "neighbors": ["MB", "QC"] },
+    { "code": "QC", "pruid": "24", "name": "Quebec", "slug": "quebec", "neighbors": ["ON", "NB", "NL"] },
+    { "code": "NB", "pruid": "13", "name": "New Brunswick", "slug": "new-brunswick", "neighbors": ["QC", "NS", "PE"] },
+    { "code": "NS", "pruid": "12", "name": "Nova Scotia", "slug": "nova-scotia", "neighbors": ["NB", "PE"] },
+    { "code": "PE", "pruid": "11", "name": "Prince Edward Island", "slug": "prince-edward-island", "neighbors": ["NB", "NS"] },
+    { "code": "NL", "pruid": "10", "name": "Newfoundland and Labrador", "slug": "newfoundland-and-labrador", "neighbors": ["QC"] }
+  ],
+  "existing": {
+    "ticks:ON": "/blog/what-ticks-look-like-ontario",
+    "mosquitoes:ON": "/blog/mosquito-season-gta-when-does-it-start"
+  },
+  "tickRank": ["NS", "NB", "QC", "BC", "MB", "PE", "AB", "NL", "SK"],
+  "mosquitoRank": ["MB", "AB", "SK", "BC", "QC", "NS", "NB", "NL", "PE"]
+}

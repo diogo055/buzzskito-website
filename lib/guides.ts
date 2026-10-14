@@ -55,9 +55,10 @@ export type GuideBlock =
    */
   | { type: 'chart'; title: string; x: string[]; series: { name: string; values: (number | null)[] }[]; yLabel?: string; caption?: string; source: string }
   /**
-   * A map shaded from published data: `scope` "us" draws the states, a two-letter state code
-   * draws that state's counties. `values` maps a state code or county FIPS code to a category
-   * key. Geometry comes from data/geo/ (scripts/build-geo.mjs).
+   * A map shaded from published data: `scope` "us" draws the states, "ca" the provinces and
+   * territories, a two-letter state code that state's counties, a province code its census
+   * divisions. `values` maps a place id (state or province code, county FIPS, census division
+   * code) to a category key. Geometry comes from data/geo/ (scripts/build-geo.mjs).
    */
   | { type: 'map'; scope: string; title: string; categories: { key: string; label: string }[]; values: Record<string, string>; links?: Record<string, string>; caption?: string; source: string }
 
@@ -90,6 +91,12 @@ export interface Guide {
    * to /learn/ticks-by-state and /learn/mosquitoes-by-state). Used for the breadcrumb.
    */
   parent?: { href: string; name: string }
+  /**
+   * Who the page is written for. Default en-US (US spelling, Fahrenheit, inches). The Canadian
+   * province pages are en-CA: Canadian spelling, Celsius first, metric first, and "province"
+   * where the US pages say "state".
+   */
+  locale?: 'en-US' | 'en-CA'
   /** The search this page answers, and any near-identical searches folded into it. */
   keyword: string
   alsoTargets?: string[]
@@ -204,7 +211,7 @@ export function guideMetadata(g: Guide): Metadata {
   const hero = guideImage(g)
   // a guide with its own infographic uses it as the share image (this is what a Pinterest pin shows)
   const images = hero ? [{ url: hero.src, width: hero.width, height: hero.height, alt: hero.alt }] : meta.openGraph?.images
-  return withRegionalAlternates({ ...meta, openGraph: { ...meta.openGraph, locale: 'en_US', images }, ...(hero && { twitter: { ...meta.twitter, images: [hero.src] } }) }, path)
+  return withRegionalAlternates({ ...meta, openGraph: { ...meta.openGraph, locale: g.locale === 'en-CA' ? 'en_CA' : 'en_US', images }, ...(hero && { twitter: { ...meta.twitter, images: [hero.src] } }) }, path)
 }
 
 export function guideSchemas(g: Guide): Record<string, unknown>[] {
@@ -233,7 +240,7 @@ export function guideSchemas(g: Guide): Record<string, unknown>[] {
     // with AI assistance, and the page says so. Naming a human author here would misstate
     // who wrote them. (The visible byline handles a human reviewer, when there is one.)
     author: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: BUSINESS.legalName, url: SITE_URL },
-    inLanguage: 'en-US',
+    inLanguage: g.locale ?? 'en-US',
     ...(hero && { image: { '@type': 'ImageObject', url: `${SITE_URL}${hero.src}`, width: hero.width, height: hero.height } }),
     about: { '@type': 'Thing', name: CLUSTER_LABEL[g.cluster] },
     citation: g.sources.map((s) => ({ '@type': 'CreativeWork', name: s.title, publisher: s.publisher, url: s.url })),

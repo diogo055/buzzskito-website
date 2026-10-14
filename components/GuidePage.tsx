@@ -186,6 +186,9 @@ const DISCLAIMER: Record<string, string> = {
     'This guide is general educational information, not medical advice. If you have symptoms or concerns after a bite or exposure, contact a healthcare provider.',
   pesticide:
     'Use any pesticide exactly as its label directs. The label is the law, and what is registered and sold varies by state.',
+  // the Canadian province pages (locale en-CA)
+  'pesticide-ca':
+    'Use any pest control product exactly as its label directs. In Canada, pest control products are registered by Health Canada’s Pest Management Regulatory Agency: look for the PCP registration number on the label. Some provinces restrict certain products further.',
 }
 
 const longDate = (iso: string) => new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })
@@ -405,7 +408,7 @@ export default function GuidePage({ guide }: { guide: Guide }) {
           ))}
 
           {disclaimers.map((d) => (
-            <p key={d} className="text-sm text-gray-500 italic mt-6">{DISCLAIMER[d]}</p>
+            <p key={d} className="text-sm text-gray-500 italic mt-6">{DISCLAIMER[d === 'pesticide' && guide.locale === 'en-CA' ? 'pesticide-ca' : d]}</p>
           ))}
 
           <h2 id="faq" className="scroll-mt-28">Frequently Asked Questions</h2>
