@@ -1,0 +1,4 @@
+{
+  "_readme": "Where every photo on the scheduled pages came from. One entry per file in public/guides/photos/: file (the path the page uses), subject, sourceUrl (the page it was taken from), originalUrl (the file downloaded), license (public-domain, CC0-1.0, CC-BY-x.x or CC-BY-SA-x.x only), credit (exactly as the source asks), downloadedOn, sha256 of the original download. scripts/validate-guide.mjs refuses a figure that is not listed here or whose licence, credit or source differ.",
+  "photos": []
+}

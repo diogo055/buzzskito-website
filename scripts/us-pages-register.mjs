@@ -164,8 +164,9 @@ if (existsSync(cfgPath)) {
   const builtSet = new Set(builtAll)
   // a hub that is itself unpublished cannot be a destination: fall back to the blog index
   const dest = (p) => (HUB[p.cluster].startsWith('/learn') && !builtSet.has(HUB[p.cluster]) ? '/blog' : HUB[p.cluster])
-  // first batch only: nothing links to an unpublished visual guide except other guides, which hold the link themselves
-  const pending = plan.pages.filter((p) => p.batch !== 'visual' && !builtSet.has(p.path) && p.path !== dest(p))
+  // first batch only: nothing links to an unpublished visual or scheduled guide except other
+  // guides, which hold the link themselves until it is published
+  const pending = plan.pages.filter((p) => p.batch !== 'visual' && p.batch !== 'god' && !builtSet.has(p.path) && p.path !== dest(p))
   const cfg = readFileSync(cfgPath, 'utf8')
   const ceol = cfg.includes('\r\n') ? '\r\n' : '\n'
   const cl = cfg.split(/\r?\n/)

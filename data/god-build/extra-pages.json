@@ -1,0 +1,4 @@
+{
+  "_readme": "Scheduled pages outside the state series. Each entry needs: slug, cluster, keyword, flags, minWords, scope, mustLink (array); optional: section (default blog), alsoTargets, h1Hint, releaseOn (else the next free weekly slot), parent, neighbors/minNeighbors, minExisting. Then run node scripts/god-build-plan.mjs and node scripts/us-pages-plan.mjs. Check the head term against existing pages first (ls app/blog, grep lib/constants.ts, and which page already ranks in Search Console): never split a head term against our own ranking page.",
+  "pages": []
+}

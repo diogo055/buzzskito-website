@@ -43,6 +43,39 @@ export type GuideBlock =
   | { type: 'checklist'; title?: string; items: string[] }
   /** The printable: a cheat sheet, recipe card or routine that stands on its own. */
   | { type: 'card'; title: string; intro?: string; items: string[]; note?: string }
+  /**
+   * A real photograph (never AI-generated, never a drawing) with the credit and licence its
+   * source requires. The file lives in public/guides/photos/ and must be listed in
+   * data/god-build/photos.json, the record of where every photo came from.
+   */
+  | { type: 'figure'; src: string; width: number; height: number; alt: string; caption?: string; credit: string; license: GuideLicense; sourceUrl: string }
+  /**
+   * A bar chart of published numbers (e.g. reported cases by year), drawn on the server as
+   * plain HTML so the text stays sharp on a phone. Two or three series are stacked.
+   */
+  | { type: 'chart'; title: string; x: string[]; series: { name: string; values: (number | null)[] }[]; yLabel?: string; caption?: string; source: string }
+  /**
+   * A map shaded from published data: `scope` "us" draws the states, a two-letter state code
+   * draws that state's counties. `values` maps a state code or county FIPS code to a category
+   * key. Geometry comes from data/geo/ (scripts/build-geo.mjs).
+   */
+  | { type: 'map'; scope: string; title: string; categories: { key: string; label: string }[]; values: Record<string, string>; links?: Record<string, string>; caption?: string; source: string }
+
+/** Licences a photo may carry on this site. NonCommercial and NoDerivatives licences are not allowed. */
+export type GuideLicense = 'public-domain' | 'CC0-1.0' | 'CC-BY-2.0' | 'CC-BY-2.5' | 'CC-BY-3.0' | 'CC-BY-4.0' | 'CC-BY-SA-2.0' | 'CC-BY-SA-2.5' | 'CC-BY-SA-3.0' | 'CC-BY-SA-4.0'
+
+export const LICENSE_LABEL: Record<GuideLicense, { name: string; url?: string }> = {
+  'public-domain': { name: 'public domain' },
+  'CC0-1.0': { name: 'CC0 1.0', url: 'https://creativecommons.org/publicdomain/zero/1.0/' },
+  'CC-BY-2.0': { name: 'CC BY 2.0', url: 'https://creativecommons.org/licenses/by/2.0/' },
+  'CC-BY-2.5': { name: 'CC BY 2.5', url: 'https://creativecommons.org/licenses/by/2.5/' },
+  'CC-BY-3.0': { name: 'CC BY 3.0', url: 'https://creativecommons.org/licenses/by/3.0/' },
+  'CC-BY-4.0': { name: 'CC BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/' },
+  'CC-BY-SA-2.0': { name: 'CC BY-SA 2.0', url: 'https://creativecommons.org/licenses/by-sa/2.0/' },
+  'CC-BY-SA-2.5': { name: 'CC BY-SA 2.5', url: 'https://creativecommons.org/licenses/by-sa/2.5/' },
+  'CC-BY-SA-3.0': { name: 'CC BY-SA 3.0', url: 'https://creativecommons.org/licenses/by-sa/3.0/' },
+  'CC-BY-SA-4.0': { name: 'CC BY-SA 4.0', url: 'https://creativecommons.org/licenses/by-sa/4.0/' },
+}
 
 export interface Guide {
   slug: string
@@ -52,6 +85,11 @@ export interface Guide {
   /** Describes the hero infographic for screen readers and search engines (visual guides). */
   heroAlt?: string
   cluster: GuideCluster
+  /**
+   * The hub this page belongs to when it is not the cluster's pillar (the state series report
+   * to /learn/ticks-by-state and /learn/mosquitoes-by-state). Used for the breadcrumb.
+   */
+  parent?: { href: string; name: string }
   /** The search this page answers, and any near-identical searches folded into it. */
   keyword: string
   alsoTargets?: string[]
@@ -142,6 +180,17 @@ export function withRegionalAlternates(meta: Metadata, path: string): Metadata {
   return { ...meta, alternates: { ...meta.alternates, languages } }
 }
 
+/** The page's hub for breadcrumbs: its own parent when it has one, else the cluster's pillar. */
+export const guideParent = (g: Guide) => g.parent ?? CLUSTER_PILLAR[g.cluster]
+
+/** The page's share image: its hero infographic, else its first photograph. */
+export function guideImage(g: Guide): { src: string; width: number; height: number; alt: string } | undefined {
+  const hero = GUIDE_HEROES[guidePath(g)]
+  if (hero) return { ...hero, alt: g.heroAlt || g.h1 }
+  const fig = g.body.find((b): b is Extract<GuideBlock, { type: 'figure' }> => b.type === 'figure')
+  return fig ? { src: fig.src, width: fig.width, height: fig.height, alt: fig.alt } : undefined
+}
+
 export function guideMetadata(g: Guide): Metadata {
   const path = guidePath(g)
   const meta = buildMetadata({
@@ -152,24 +201,24 @@ export function guideMetadata(g: Guide): Metadata {
     publishedTime: g.datePublished,
     modifiedTime: g.dateModified,
   })
-  const hero = GUIDE_HEROES[path]
+  const hero = guideImage(g)
   // a guide with its own infographic uses it as the share image (this is what a Pinterest pin shows)
-  const images = hero ? [{ url: hero.src, width: hero.width, height: hero.height, alt: g.heroAlt || g.h1 }] : meta.openGraph?.images
+  const images = hero ? [{ url: hero.src, width: hero.width, height: hero.height, alt: hero.alt }] : meta.openGraph?.images
   return withRegionalAlternates({ ...meta, openGraph: { ...meta.openGraph, locale: 'en_US', images }, ...(hero && { twitter: { ...meta.twitter, images: [hero.src] } }) }, path)
 }
 
 export function guideSchemas(g: Guide): Record<string, unknown>[] {
   const path = guidePath(g)
-  const pillar = CLUSTER_PILLAR[g.cluster]
+  const pillar = guideParent(g)
   const inLearn = path.startsWith('/learn/')
-  const hub = g.kind === 'pillar' || !pillar || pillar.href === path ? [] : [{ name: pillar.name, url: pillar.href }]
+  const hub = g.kind === 'pillar' || !pillar || pillar.href === path || pillar.href === '/learn' || pillar.href === '/blog' ? [] : [{ name: pillar.name, url: pillar.href }]
   const crumbs = [
     { name: 'Home', url: '/' },
     inLearn ? { name: 'Learning Centre', url: '/learn' } : { name: 'Blog', url: '/blog' },
     ...hub,
     { name: g.breadcrumb, url: path },
   ]
-  const hero = GUIDE_HEROES[path]
+  const hero = guideImage(g)
   const article = {
     ...blogPostingSchema({
       title: g.h1,

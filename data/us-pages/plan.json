@@ -2985,6 +2985,5414 @@
      "/blog/natural-pest-control"
     ]
    }
+  },
+  {
+   "slug": "ticks-by-state",
+   "kind": "spoke",
+   "section": "learn",
+   "cluster": "ticks",
+   "path": "/learn/ticks-by-state",
+   "keyword": "ticks by state",
+   "alsoTargets": [
+    "tick map by state",
+    "lyme disease by state",
+    "where do ticks live in the us"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health"
+   ],
+   "minWords": 1500,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "hub",
+   "series": "ticks-by-state",
+   "state": null,
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Ticks by State: Which Ticks Live Where, and Lyme Disease Across the US",
+   "scope": "The national overview and index for the ticks state series: a US map shaded from CDC data that links every state's page, the national picture (species ranges, disease cases by state and year), how to read the data, and a list of all 50 state pages.",
+   "dataPacket": "data/god-build/packets/ticks/US.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 3,
+    "category": null,
+    "mustLink": [],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": [
+     "/blog/ticks-in-alabama",
+     "/blog/ticks-in-alaska",
+     "/blog/ticks-in-arizona",
+     "/blog/ticks-in-arkansas",
+     "/blog/ticks-in-california",
+     "/blog/ticks-in-colorado",
+     "/blog/ticks-in-connecticut",
+     "/blog/ticks-in-delaware",
+     "/blog/ticks-in-florida",
+     "/blog/ticks-in-georgia",
+     "/blog/ticks-in-hawaii",
+     "/blog/ticks-in-idaho",
+     "/blog/ticks-in-illinois",
+     "/blog/ticks-in-indiana",
+     "/blog/ticks-in-iowa",
+     "/blog/ticks-in-kansas",
+     "/blog/ticks-in-kentucky",
+     "/blog/ticks-in-louisiana",
+     "/blog/ticks-in-maine",
+     "/blog/ticks-in-maryland",
+     "/blog/ticks-in-massachusetts",
+     "/blog/ticks-in-michigan",
+     "/blog/ticks-in-minnesota",
+     "/blog/ticks-in-mississippi",
+     "/blog/ticks-in-missouri",
+     "/blog/ticks-in-montana",
+     "/blog/ticks-in-nebraska",
+     "/blog/ticks-in-nevada",
+     "/blog/ticks-in-new-hampshire",
+     "/blog/ticks-in-new-jersey",
+     "/blog/ticks-in-new-mexico",
+     "/blog/ticks-in-new-york",
+     "/blog/ticks-in-north-carolina",
+     "/blog/ticks-in-north-dakota",
+     "/blog/ticks-in-ohio",
+     "/blog/ticks-in-oklahoma",
+     "/blog/ticks-in-oregon",
+     "/blog/ticks-in-pennsylvania",
+     "/blog/ticks-in-rhode-island",
+     "/blog/ticks-in-south-carolina",
+     "/blog/ticks-in-south-dakota",
+     "/blog/ticks-in-tennessee",
+     "/blog/ticks-in-texas",
+     "/blog/ticks-in-utah",
+     "/blog/ticks-in-vermont",
+     "/blog/ticks-in-virginia",
+     "/blog/ticks-in-washington",
+     "/blog/ticks-in-west-virginia",
+     "/blog/ticks-in-wisconsin",
+     "/blog/ticks-in-wyoming"
+    ]
+   }
+  },
+  {
+   "slug": "ticks-in-pennsylvania",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-pennsylvania",
+   "keyword": "ticks in pennsylvania",
+   "alsoTargets": [
+    "types of ticks in pennsylvania",
+    "tick season pennsylvania",
+    "lyme disease pennsylvania"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "PA",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Pennsylvania: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Pennsylvania and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Pennsylvania's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Pennsylvania, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/PA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-delaware",
+     "/blog/ticks-in-maryland",
+     "/blog/ticks-in-new-jersey",
+     "/blog/ticks-in-new-york",
+     "/blog/ticks-in-ohio",
+     "/blog/ticks-in-west-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-new-york",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-new-york",
+   "keyword": "ticks in new york",
+   "alsoTargets": [
+    "types of ticks in new york",
+    "tick season new york",
+    "lyme disease new york"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "NY",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in New York: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in New York and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; New York's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in New York, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/NY.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-connecticut",
+     "/blog/ticks-in-massachusetts",
+     "/blog/ticks-in-new-jersey",
+     "/blog/ticks-in-pennsylvania",
+     "/blog/ticks-in-vermont"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-new-jersey",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-new-jersey",
+   "keyword": "ticks in new jersey",
+   "alsoTargets": [
+    "types of ticks in new jersey",
+    "tick season new jersey",
+    "lyme disease new jersey"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "NJ",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in New Jersey: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in New Jersey and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; New Jersey's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in New Jersey, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/NJ.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-delaware",
+     "/blog/ticks-in-new-york",
+     "/blog/ticks-in-pennsylvania"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-connecticut",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-connecticut",
+   "keyword": "ticks in connecticut",
+   "alsoTargets": [
+    "types of ticks in connecticut",
+    "tick season connecticut",
+    "lyme disease connecticut"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "CT",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Connecticut: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Connecticut and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Connecticut's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Connecticut, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/CT.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-massachusetts",
+     "/blog/ticks-in-new-york",
+     "/blog/ticks-in-rhode-island"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-massachusetts",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-massachusetts",
+   "keyword": "ticks in massachusetts",
+   "alsoTargets": [
+    "types of ticks in massachusetts",
+    "tick season massachusetts",
+    "lyme disease massachusetts"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "MA",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Massachusetts: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Massachusetts and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Massachusetts's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Massachusetts, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/MA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-connecticut",
+     "/blog/ticks-in-new-hampshire",
+     "/blog/ticks-in-new-york",
+     "/blog/ticks-in-rhode-island",
+     "/blog/ticks-in-vermont"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-wisconsin",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-wisconsin",
+   "keyword": "ticks in wisconsin",
+   "alsoTargets": [
+    "types of ticks in wisconsin",
+    "tick season wisconsin",
+    "lyme disease wisconsin"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "WI",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Wisconsin: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Wisconsin and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Wisconsin's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Wisconsin, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/WI.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-illinois",
+     "/blog/ticks-in-iowa",
+     "/blog/ticks-in-michigan",
+     "/blog/ticks-in-minnesota"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-minnesota",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-minnesota",
+   "keyword": "ticks in minnesota",
+   "alsoTargets": [
+    "types of ticks in minnesota",
+    "tick season minnesota",
+    "lyme disease minnesota"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "MN",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Minnesota: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Minnesota and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Minnesota's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Minnesota, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/MN.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-iowa",
+     "/blog/ticks-in-north-dakota",
+     "/blog/ticks-in-south-dakota",
+     "/blog/ticks-in-wisconsin"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-virginia",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-virginia",
+   "keyword": "ticks in virginia",
+   "alsoTargets": [
+    "types of ticks in virginia",
+    "tick season virginia",
+    "lyme disease virginia"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "VA",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Virginia: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Virginia and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Virginia's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Virginia, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/VA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-kentucky",
+     "/blog/ticks-in-maryland",
+     "/blog/ticks-in-north-carolina",
+     "/blog/ticks-in-tennessee",
+     "/blog/ticks-in-west-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-maryland",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-maryland",
+   "keyword": "ticks in maryland",
+   "alsoTargets": [
+    "types of ticks in maryland",
+    "tick season maryland",
+    "lyme disease maryland"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "MD",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Maryland: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Maryland and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Maryland's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Maryland, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/MD.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-delaware",
+     "/blog/ticks-in-pennsylvania",
+     "/blog/ticks-in-virginia",
+     "/blog/ticks-in-west-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-north-carolina",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-north-carolina",
+   "keyword": "ticks in north carolina",
+   "alsoTargets": [
+    "types of ticks in north carolina",
+    "tick season north carolina",
+    "lyme disease north carolina"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "NC",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in North Carolina: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in North Carolina and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; North Carolina's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in North Carolina, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/NC.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-georgia",
+     "/blog/ticks-in-south-carolina",
+     "/blog/ticks-in-tennessee",
+     "/blog/ticks-in-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-tennessee",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-tennessee",
+   "keyword": "ticks in tennessee",
+   "alsoTargets": [
+    "types of ticks in tennessee",
+    "tick season tennessee",
+    "lyme disease tennessee"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "TN",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Tennessee: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Tennessee and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Tennessee's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Tennessee, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/TN.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-alabama",
+     "/blog/ticks-in-arkansas",
+     "/blog/ticks-in-georgia",
+     "/blog/ticks-in-kentucky",
+     "/blog/ticks-in-mississippi",
+     "/blog/ticks-in-missouri",
+     "/blog/ticks-in-north-carolina",
+     "/blog/ticks-in-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-georgia",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-georgia",
+   "keyword": "ticks in georgia",
+   "alsoTargets": [
+    "types of ticks in georgia",
+    "tick season georgia",
+    "lyme disease georgia"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "GA",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Georgia: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Georgia and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Georgia's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Georgia, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/GA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-alabama",
+     "/blog/ticks-in-florida",
+     "/blog/ticks-in-north-carolina",
+     "/blog/ticks-in-south-carolina",
+     "/blog/ticks-in-tennessee"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-texas",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-texas",
+   "keyword": "ticks in texas",
+   "alsoTargets": [
+    "types of ticks in texas",
+    "tick season texas",
+    "lyme disease texas"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "TX",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Texas: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Texas and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Texas's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Texas, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/TX.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-arkansas",
+     "/blog/ticks-in-louisiana",
+     "/blog/ticks-in-new-mexico",
+     "/blog/ticks-in-oklahoma"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-ohio",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-ohio",
+   "keyword": "ticks in ohio",
+   "alsoTargets": [
+    "types of ticks in ohio",
+    "tick season ohio",
+    "lyme disease ohio"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "OH",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Ohio: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Ohio and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Ohio's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Ohio, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/OH.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-indiana",
+     "/blog/ticks-in-kentucky",
+     "/blog/ticks-in-michigan",
+     "/blog/ticks-in-pennsylvania",
+     "/blog/ticks-in-west-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-indiana",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-indiana",
+   "keyword": "ticks in indiana",
+   "alsoTargets": [
+    "types of ticks in indiana",
+    "tick season indiana",
+    "lyme disease indiana"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "IN",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Indiana: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Indiana and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Indiana's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Indiana, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/IN.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-illinois",
+     "/blog/ticks-in-kentucky",
+     "/blog/ticks-in-michigan",
+     "/blog/ticks-in-ohio"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-illinois",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-illinois",
+   "keyword": "ticks in illinois",
+   "alsoTargets": [
+    "types of ticks in illinois",
+    "tick season illinois",
+    "lyme disease illinois"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "IL",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Illinois: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Illinois and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Illinois's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Illinois, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/IL.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-indiana",
+     "/blog/ticks-in-iowa",
+     "/blog/ticks-in-kentucky",
+     "/blog/ticks-in-missouri",
+     "/blog/ticks-in-wisconsin"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-missouri",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-missouri",
+   "keyword": "ticks in missouri",
+   "alsoTargets": [
+    "types of ticks in missouri",
+    "tick season missouri",
+    "lyme disease missouri"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "MO",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Missouri: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Missouri and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Missouri's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Missouri, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/MO.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-arkansas",
+     "/blog/ticks-in-illinois",
+     "/blog/ticks-in-iowa",
+     "/blog/ticks-in-kansas",
+     "/blog/ticks-in-kentucky",
+     "/blog/ticks-in-nebraska",
+     "/blog/ticks-in-oklahoma",
+     "/blog/ticks-in-tennessee"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-kentucky",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-kentucky",
+   "keyword": "ticks in kentucky",
+   "alsoTargets": [
+    "types of ticks in kentucky",
+    "tick season kentucky",
+    "lyme disease kentucky"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "KY",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Kentucky: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Kentucky and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Kentucky's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Kentucky, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/KY.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-illinois",
+     "/blog/ticks-in-indiana",
+     "/blog/ticks-in-missouri",
+     "/blog/ticks-in-ohio",
+     "/blog/ticks-in-tennessee",
+     "/blog/ticks-in-virginia",
+     "/blog/ticks-in-west-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-maine",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-maine",
+   "keyword": "ticks in maine",
+   "alsoTargets": [
+    "types of ticks in maine",
+    "tick season maine",
+    "lyme disease maine"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "ME",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Maine: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Maine and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Maine's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Maine, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/ME.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-new-hampshire"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-new-hampshire",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-new-hampshire",
+   "keyword": "ticks in new hampshire",
+   "alsoTargets": [
+    "types of ticks in new hampshire",
+    "tick season new hampshire",
+    "lyme disease new hampshire"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "NH",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in New Hampshire: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in New Hampshire and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; New Hampshire's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in New Hampshire, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/NH.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-maine",
+     "/blog/ticks-in-massachusetts",
+     "/blog/ticks-in-vermont"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-vermont",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-vermont",
+   "keyword": "ticks in vermont",
+   "alsoTargets": [
+    "types of ticks in vermont",
+    "tick season vermont",
+    "lyme disease vermont"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "VT",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Vermont: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Vermont and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Vermont's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Vermont, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/VT.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-massachusetts",
+     "/blog/ticks-in-new-hampshire",
+     "/blog/ticks-in-new-york"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-rhode-island",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-rhode-island",
+   "keyword": "ticks in rhode island",
+   "alsoTargets": [
+    "types of ticks in rhode island",
+    "tick season rhode island",
+    "lyme disease rhode island"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "RI",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Rhode Island: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Rhode Island and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Rhode Island's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Rhode Island, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/RI.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-connecticut",
+     "/blog/ticks-in-massachusetts"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-delaware",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-delaware",
+   "keyword": "ticks in delaware",
+   "alsoTargets": [
+    "types of ticks in delaware",
+    "tick season delaware",
+    "lyme disease delaware"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "DE",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Delaware: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Delaware and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Delaware's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Delaware, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/DE.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-maryland",
+     "/blog/ticks-in-new-jersey",
+     "/blog/ticks-in-pennsylvania"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-west-virginia",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-west-virginia",
+   "keyword": "ticks in west virginia",
+   "alsoTargets": [
+    "types of ticks in west virginia",
+    "tick season west virginia",
+    "lyme disease west virginia"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "WV",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in West Virginia: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in West Virginia and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; West Virginia's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in West Virginia, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/WV.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-kentucky",
+     "/blog/ticks-in-maryland",
+     "/blog/ticks-in-ohio",
+     "/blog/ticks-in-pennsylvania",
+     "/blog/ticks-in-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-arkansas",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-arkansas",
+   "keyword": "ticks in arkansas",
+   "alsoTargets": [
+    "types of ticks in arkansas",
+    "tick season arkansas",
+    "lyme disease arkansas"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "AR",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Arkansas: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Arkansas and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Arkansas's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Arkansas, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/AR.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-louisiana",
+     "/blog/ticks-in-missouri",
+     "/blog/ticks-in-mississippi",
+     "/blog/ticks-in-oklahoma",
+     "/blog/ticks-in-tennessee",
+     "/blog/ticks-in-texas"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-oklahoma",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-oklahoma",
+   "keyword": "ticks in oklahoma",
+   "alsoTargets": [
+    "types of ticks in oklahoma",
+    "tick season oklahoma",
+    "lyme disease oklahoma"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "OK",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Oklahoma: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Oklahoma and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Oklahoma's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Oklahoma, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/OK.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-arkansas",
+     "/blog/ticks-in-colorado",
+     "/blog/ticks-in-kansas",
+     "/blog/ticks-in-missouri",
+     "/blog/ticks-in-new-mexico",
+     "/blog/ticks-in-texas"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-alabama",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-alabama",
+   "keyword": "ticks in alabama",
+   "alsoTargets": [
+    "types of ticks in alabama",
+    "tick season alabama",
+    "lyme disease alabama"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "AL",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Alabama: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Alabama and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Alabama's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Alabama, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/AL.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-florida",
+     "/blog/ticks-in-georgia",
+     "/blog/ticks-in-mississippi",
+     "/blog/ticks-in-tennessee"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-mississippi",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-mississippi",
+   "keyword": "ticks in mississippi",
+   "alsoTargets": [
+    "types of ticks in mississippi",
+    "tick season mississippi",
+    "lyme disease mississippi"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "MS",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Mississippi: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Mississippi and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Mississippi's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Mississippi, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/MS.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-alabama",
+     "/blog/ticks-in-arkansas",
+     "/blog/ticks-in-louisiana",
+     "/blog/ticks-in-tennessee"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-south-carolina",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-south-carolina",
+   "keyword": "ticks in south carolina",
+   "alsoTargets": [
+    "types of ticks in south carolina",
+    "tick season south carolina",
+    "lyme disease south carolina"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "SC",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in South Carolina: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in South Carolina and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; South Carolina's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in South Carolina, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/SC.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-georgia",
+     "/blog/ticks-in-north-carolina"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-florida",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-florida",
+   "keyword": "ticks in florida",
+   "alsoTargets": [
+    "types of ticks in florida",
+    "tick season florida",
+    "lyme disease florida"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "FL",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Florida: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Florida and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Florida's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Florida, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/FL.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-alabama",
+     "/blog/ticks-in-georgia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-louisiana",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-louisiana",
+   "keyword": "ticks in louisiana",
+   "alsoTargets": [
+    "types of ticks in louisiana",
+    "tick season louisiana",
+    "lyme disease louisiana"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "LA",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Louisiana: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Louisiana and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Louisiana's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Louisiana, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/LA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-arkansas",
+     "/blog/ticks-in-mississippi",
+     "/blog/ticks-in-texas"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-iowa",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-iowa",
+   "keyword": "ticks in iowa",
+   "alsoTargets": [
+    "types of ticks in iowa",
+    "tick season iowa",
+    "lyme disease iowa"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "IA",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Iowa: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Iowa and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Iowa's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Iowa, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/IA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-illinois",
+     "/blog/ticks-in-minnesota",
+     "/blog/ticks-in-missouri",
+     "/blog/ticks-in-nebraska",
+     "/blog/ticks-in-south-dakota",
+     "/blog/ticks-in-wisconsin"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-kansas",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-kansas",
+   "keyword": "ticks in kansas",
+   "alsoTargets": [
+    "types of ticks in kansas",
+    "tick season kansas",
+    "lyme disease kansas"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "KS",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Kansas: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Kansas and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Kansas's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Kansas, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/KS.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-colorado",
+     "/blog/ticks-in-missouri",
+     "/blog/ticks-in-nebraska",
+     "/blog/ticks-in-oklahoma"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-nebraska",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-nebraska",
+   "keyword": "ticks in nebraska",
+   "alsoTargets": [
+    "types of ticks in nebraska",
+    "tick season nebraska",
+    "lyme disease nebraska"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "NE",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Nebraska: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Nebraska and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Nebraska's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Nebraska, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/NE.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-colorado",
+     "/blog/ticks-in-iowa",
+     "/blog/ticks-in-kansas",
+     "/blog/ticks-in-missouri",
+     "/blog/ticks-in-south-dakota",
+     "/blog/ticks-in-wyoming"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-california",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-california",
+   "keyword": "ticks in california",
+   "alsoTargets": [
+    "types of ticks in california",
+    "tick season california",
+    "lyme disease california"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "CA",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in California: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in California and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; California's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in California, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/CA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-arizona",
+     "/blog/ticks-in-nevada",
+     "/blog/ticks-in-oregon"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-oregon",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-oregon",
+   "keyword": "ticks in oregon",
+   "alsoTargets": [
+    "types of ticks in oregon",
+    "tick season oregon",
+    "lyme disease oregon"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "OR",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Oregon: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Oregon and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Oregon's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Oregon, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/OR.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-california",
+     "/blog/ticks-in-idaho",
+     "/blog/ticks-in-nevada",
+     "/blog/ticks-in-washington"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-washington",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-washington",
+   "keyword": "ticks in washington",
+   "alsoTargets": [
+    "types of ticks in washington",
+    "tick season washington",
+    "lyme disease washington"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "WA",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Washington: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Washington and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Washington's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Washington, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/WA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-idaho",
+     "/blog/ticks-in-oregon"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-colorado",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-colorado",
+   "keyword": "ticks in colorado",
+   "alsoTargets": [
+    "types of ticks in colorado",
+    "tick season colorado",
+    "lyme disease colorado"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "CO",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Colorado: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Colorado and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Colorado's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Colorado, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/CO.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-kansas",
+     "/blog/ticks-in-nebraska",
+     "/blog/ticks-in-new-mexico",
+     "/blog/ticks-in-oklahoma",
+     "/blog/ticks-in-utah",
+     "/blog/ticks-in-wyoming"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-idaho",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-idaho",
+   "keyword": "ticks in idaho",
+   "alsoTargets": [
+    "types of ticks in idaho",
+    "tick season idaho",
+    "lyme disease idaho"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "ID",
+   "releaseOn": "2026-11-16",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Idaho: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Idaho and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Idaho's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Idaho, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/ID.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-montana",
+     "/blog/ticks-in-nevada",
+     "/blog/ticks-in-oregon",
+     "/blog/ticks-in-utah",
+     "/blog/ticks-in-washington",
+     "/blog/ticks-in-wyoming"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-montana",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-montana",
+   "keyword": "ticks in montana",
+   "alsoTargets": [
+    "types of ticks in montana",
+    "tick season montana",
+    "lyme disease montana"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "MT",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Montana: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Montana and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Montana's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Montana, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/MT.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-idaho",
+     "/blog/ticks-in-north-dakota",
+     "/blog/ticks-in-south-dakota",
+     "/blog/ticks-in-wyoming"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-utah",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-utah",
+   "keyword": "ticks in utah",
+   "alsoTargets": [
+    "types of ticks in utah",
+    "tick season utah",
+    "lyme disease utah"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "UT",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Utah: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Utah and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Utah's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Utah, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/UT.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-arizona",
+     "/blog/ticks-in-colorado",
+     "/blog/ticks-in-idaho",
+     "/blog/ticks-in-nevada",
+     "/blog/ticks-in-wyoming"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-arizona",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-arizona",
+   "keyword": "ticks in arizona",
+   "alsoTargets": [
+    "types of ticks in arizona",
+    "tick season arizona",
+    "lyme disease arizona"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "AZ",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Arizona: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Arizona and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Arizona's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Arizona, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/AZ.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-california",
+     "/blog/ticks-in-nevada",
+     "/blog/ticks-in-utah",
+     "/blog/ticks-in-new-mexico"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-new-mexico",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-new-mexico",
+   "keyword": "ticks in new mexico",
+   "alsoTargets": [
+    "types of ticks in new mexico",
+    "tick season new mexico",
+    "lyme disease new mexico"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "NM",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in New Mexico: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in New Mexico and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; New Mexico's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in New Mexico, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/NM.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-arizona",
+     "/blog/ticks-in-colorado",
+     "/blog/ticks-in-oklahoma",
+     "/blog/ticks-in-texas"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-nevada",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-nevada",
+   "keyword": "ticks in nevada",
+   "alsoTargets": [
+    "types of ticks in nevada",
+    "tick season nevada",
+    "lyme disease nevada"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "NV",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Nevada: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Nevada and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Nevada's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Nevada, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/NV.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-arizona",
+     "/blog/ticks-in-california",
+     "/blog/ticks-in-idaho",
+     "/blog/ticks-in-oregon",
+     "/blog/ticks-in-utah"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-wyoming",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-wyoming",
+   "keyword": "ticks in wyoming",
+   "alsoTargets": [
+    "types of ticks in wyoming",
+    "tick season wyoming",
+    "lyme disease wyoming"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "WY",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Wyoming: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Wyoming and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Wyoming's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Wyoming, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/WY.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-colorado",
+     "/blog/ticks-in-idaho",
+     "/blog/ticks-in-montana",
+     "/blog/ticks-in-nebraska",
+     "/blog/ticks-in-south-dakota",
+     "/blog/ticks-in-utah"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-north-dakota",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-north-dakota",
+   "keyword": "ticks in north dakota",
+   "alsoTargets": [
+    "types of ticks in north dakota",
+    "tick season north dakota",
+    "lyme disease north dakota"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "ND",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in North Dakota: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in North Dakota and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; North Dakota's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in North Dakota, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/ND.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-minnesota",
+     "/blog/ticks-in-montana",
+     "/blog/ticks-in-south-dakota"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-south-dakota",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-south-dakota",
+   "keyword": "ticks in south dakota",
+   "alsoTargets": [
+    "types of ticks in south dakota",
+    "tick season south dakota",
+    "lyme disease south dakota"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "SD",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in South Dakota: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in South Dakota and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; South Dakota's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in South Dakota, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/SD.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [
+     "/blog/ticks-in-iowa",
+     "/blog/ticks-in-minnesota",
+     "/blog/ticks-in-montana",
+     "/blog/ticks-in-nebraska",
+     "/blog/ticks-in-north-dakota",
+     "/blog/ticks-in-wyoming"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-alaska",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-alaska",
+   "keyword": "ticks in alaska",
+   "alsoTargets": [
+    "types of ticks in alaska",
+    "tick season alaska",
+    "lyme disease alaska"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "AK",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Alaska: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Alaska and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Alaska's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Alaska, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/AK.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "ticks-in-hawaii",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "ticks",
+   "path": "/blog/ticks-in-hawaii",
+   "keyword": "ticks in hawaii",
+   "alsoTargets": [
+    "types of ticks in hawaii",
+    "tick season hawaii",
+    "lyme disease hawaii"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "ticks-by-state",
+   "state": "HI",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+   },
+   "h1Hint": "Ticks in Hawaii: Species, Where They Are, Disease Data and Tick Season",
+   "scope": "Which ticks live in Hawaii and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Hawaii's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Hawaii, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/ticks/HI.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/ticks-by-state"
+    ],
+    "neighbors": [],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-by-state",
+   "kind": "spoke",
+   "section": "learn",
+   "cluster": "mosquitoes",
+   "path": "/learn/mosquitoes-by-state",
+   "keyword": "mosquitoes by state",
+   "alsoTargets": [
+    "mosquito season by state",
+    "states with the most mosquitoes",
+    "west nile virus by state"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health"
+   ],
+   "minWords": 1500,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "hub",
+   "series": "mosquitoes-by-state",
+   "state": null,
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Mosquitoes by State: Season, Species and West Nile Virus Across the US",
+   "scope": "The national overview and index for the mosquitoes state series: a US map shaded from CDC data that links every state's page, the national picture (species ranges, disease cases by state and year), how to read the data, and a list of all 50 state pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/US.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 3,
+    "category": null,
+    "mustLink": [],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": [
+     "/blog/mosquitoes-in-alabama",
+     "/blog/alaska-mosquitoes",
+     "/blog/mosquitoes-in-arizona",
+     "/blog/mosquitoes-in-arkansas",
+     "/blog/mosquitoes-in-california",
+     "/blog/mosquitoes-in-colorado",
+     "/blog/mosquitoes-in-connecticut",
+     "/blog/mosquitoes-in-delaware",
+     "/blog/mosquitoes-in-florida",
+     "/blog/mosquitoes-in-georgia",
+     "/blog/mosquitoes-in-hawaii",
+     "/blog/mosquitoes-in-idaho",
+     "/blog/mosquitoes-in-illinois",
+     "/blog/mosquitoes-in-indiana",
+     "/blog/mosquitoes-in-iowa",
+     "/blog/mosquitoes-in-kansas",
+     "/blog/mosquitoes-in-kentucky",
+     "/blog/mosquitoes-in-louisiana",
+     "/blog/mosquitoes-in-maine",
+     "/blog/mosquitoes-in-maryland",
+     "/blog/mosquitoes-in-massachusetts",
+     "/blog/mosquitoes-in-michigan",
+     "/blog/mosquitoes-in-minnesota",
+     "/blog/mosquitoes-in-mississippi",
+     "/blog/mosquitoes-in-missouri",
+     "/blog/mosquitoes-in-montana",
+     "/blog/mosquitoes-in-nebraska",
+     "/blog/mosquitoes-in-nevada",
+     "/blog/mosquitoes-in-new-hampshire",
+     "/blog/mosquitoes-in-new-jersey",
+     "/blog/mosquitoes-in-new-mexico",
+     "/blog/mosquitoes-in-new-york",
+     "/blog/mosquitoes-in-north-carolina",
+     "/blog/mosquitoes-in-north-dakota",
+     "/blog/mosquitoes-in-ohio",
+     "/blog/mosquitoes-in-oklahoma",
+     "/blog/mosquitoes-in-oregon",
+     "/blog/mosquitoes-in-pennsylvania",
+     "/blog/mosquitoes-in-rhode-island",
+     "/blog/mosquitoes-in-south-carolina",
+     "/blog/mosquitoes-in-south-dakota",
+     "/blog/mosquitoes-in-tennessee",
+     "/blog/mosquitoes-in-texas",
+     "/blog/mosquitoes-in-utah",
+     "/blog/mosquitoes-in-vermont",
+     "/blog/mosquitoes-in-virginia",
+     "/blog/mosquitoes-in-washington",
+     "/blog/mosquitoes-in-west-virginia",
+     "/blog/mosquitoes-in-wisconsin",
+     "/blog/mosquitoes-in-wyoming"
+    ]
+   }
+  },
+  {
+   "slug": "mosquitoes-in-florida",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-florida",
+   "keyword": "mosquitoes in florida",
+   "alsoTargets": [
+    "mosquito season florida",
+    "when is mosquito season in florida",
+    "west nile virus florida"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "FL",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Florida: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Florida, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Florida (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Florida's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/FL.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-alabama",
+     "/blog/mosquitoes-in-georgia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-texas",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-texas",
+   "keyword": "mosquitoes in texas",
+   "alsoTargets": [
+    "mosquito season texas",
+    "when is mosquito season in texas",
+    "west nile virus texas"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "TX",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Texas: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Texas, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Texas (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Texas's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/TX.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-arkansas",
+     "/blog/mosquitoes-in-louisiana",
+     "/blog/mosquitoes-in-new-mexico",
+     "/blog/mosquitoes-in-oklahoma"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-louisiana",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-louisiana",
+   "keyword": "mosquitoes in louisiana",
+   "alsoTargets": [
+    "mosquito season louisiana",
+    "when is mosquito season in louisiana",
+    "west nile virus louisiana"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "LA",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Louisiana: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Louisiana, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Louisiana (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Louisiana's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/LA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-arkansas",
+     "/blog/mosquitoes-in-mississippi",
+     "/blog/mosquitoes-in-texas"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-georgia",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-georgia",
+   "keyword": "mosquitoes in georgia",
+   "alsoTargets": [
+    "mosquito season georgia",
+    "when is mosquito season in georgia",
+    "west nile virus georgia"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "GA",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Georgia: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Georgia, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Georgia (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Georgia's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/GA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-alabama",
+     "/blog/mosquitoes-in-florida",
+     "/blog/mosquitoes-in-north-carolina",
+     "/blog/mosquitoes-in-south-carolina",
+     "/blog/mosquitoes-in-tennessee"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-california",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-california",
+   "keyword": "mosquitoes in california",
+   "alsoTargets": [
+    "mosquito season california",
+    "when is mosquito season in california",
+    "west nile virus california"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "CA",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in California: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in California, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in California (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; California's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/CA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-arizona",
+     "/blog/mosquitoes-in-nevada",
+     "/blog/mosquitoes-in-oregon"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-arizona",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-arizona",
+   "keyword": "mosquitoes in arizona",
+   "alsoTargets": [
+    "mosquito season arizona",
+    "when is mosquito season in arizona",
+    "west nile virus arizona"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "AZ",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Arizona: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Arizona, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Arizona (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Arizona's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/AZ.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-california",
+     "/blog/mosquitoes-in-nevada",
+     "/blog/mosquitoes-in-utah",
+     "/blog/mosquitoes-in-new-mexico"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-north-carolina",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-north-carolina",
+   "keyword": "mosquitoes in north carolina",
+   "alsoTargets": [
+    "mosquito season north carolina",
+    "when is mosquito season in north carolina",
+    "west nile virus north carolina"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "NC",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in North Carolina: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in North Carolina, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in North Carolina (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; North Carolina's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/NC.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-georgia",
+     "/blog/mosquitoes-in-south-carolina",
+     "/blog/mosquitoes-in-tennessee",
+     "/blog/mosquitoes-in-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-south-carolina",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-south-carolina",
+   "keyword": "mosquitoes in south carolina",
+   "alsoTargets": [
+    "mosquito season south carolina",
+    "when is mosquito season in south carolina",
+    "west nile virus south carolina"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "SC",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in South Carolina: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in South Carolina, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in South Carolina (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; South Carolina's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/SC.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-georgia",
+     "/blog/mosquitoes-in-north-carolina"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-alabama",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-alabama",
+   "keyword": "mosquitoes in alabama",
+   "alsoTargets": [
+    "mosquito season alabama",
+    "when is mosquito season in alabama",
+    "west nile virus alabama"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "AL",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Alabama: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Alabama, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Alabama (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Alabama's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/AL.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-florida",
+     "/blog/mosquitoes-in-georgia",
+     "/blog/mosquitoes-in-mississippi",
+     "/blog/mosquitoes-in-tennessee"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-mississippi",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-mississippi",
+   "keyword": "mosquitoes in mississippi",
+   "alsoTargets": [
+    "mosquito season mississippi",
+    "when is mosquito season in mississippi",
+    "west nile virus mississippi"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "MS",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Mississippi: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Mississippi, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Mississippi (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Mississippi's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/MS.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-alabama",
+     "/blog/mosquitoes-in-arkansas",
+     "/blog/mosquitoes-in-louisiana",
+     "/blog/mosquitoes-in-tennessee"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-tennessee",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-tennessee",
+   "keyword": "mosquitoes in tennessee",
+   "alsoTargets": [
+    "mosquito season tennessee",
+    "when is mosquito season in tennessee",
+    "west nile virus tennessee"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "TN",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Tennessee: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Tennessee, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Tennessee (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Tennessee's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/TN.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-alabama",
+     "/blog/mosquitoes-in-arkansas",
+     "/blog/mosquitoes-in-georgia",
+     "/blog/mosquitoes-in-kentucky",
+     "/blog/mosquitoes-in-mississippi",
+     "/blog/mosquitoes-in-missouri",
+     "/blog/mosquitoes-in-north-carolina",
+     "/blog/mosquitoes-in-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-virginia",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-virginia",
+   "keyword": "mosquitoes in virginia",
+   "alsoTargets": [
+    "mosquito season virginia",
+    "when is mosquito season in virginia",
+    "west nile virus virginia"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "VA",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Virginia: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Virginia, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Virginia (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Virginia's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/VA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-kentucky",
+     "/blog/mosquitoes-in-maryland",
+     "/blog/mosquitoes-in-north-carolina",
+     "/blog/mosquitoes-in-tennessee",
+     "/blog/mosquitoes-in-west-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-new-york",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-new-york",
+   "keyword": "mosquitoes in new york",
+   "alsoTargets": [
+    "mosquito season new york",
+    "when is mosquito season in new york",
+    "west nile virus new york"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "NY",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in New York: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in New York, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in New York (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; New York's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/NY.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-connecticut",
+     "/blog/mosquitoes-in-massachusetts",
+     "/blog/mosquitoes-in-new-jersey",
+     "/blog/mosquitoes-in-pennsylvania",
+     "/blog/mosquitoes-in-vermont"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-new-jersey",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-new-jersey",
+   "keyword": "mosquitoes in new jersey",
+   "alsoTargets": [
+    "mosquito season new jersey",
+    "when is mosquito season in new jersey",
+    "west nile virus new jersey"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "NJ",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in New Jersey: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in New Jersey, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in New Jersey (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; New Jersey's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/NJ.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-delaware",
+     "/blog/mosquitoes-in-new-york",
+     "/blog/mosquitoes-in-pennsylvania"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-pennsylvania",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-pennsylvania",
+   "keyword": "mosquitoes in pennsylvania",
+   "alsoTargets": [
+    "mosquito season pennsylvania",
+    "when is mosquito season in pennsylvania",
+    "west nile virus pennsylvania"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "PA",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Pennsylvania: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Pennsylvania, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Pennsylvania (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Pennsylvania's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/PA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-delaware",
+     "/blog/mosquitoes-in-maryland",
+     "/blog/mosquitoes-in-new-jersey",
+     "/blog/mosquitoes-in-new-york",
+     "/blog/mosquitoes-in-ohio",
+     "/blog/mosquitoes-in-west-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-ohio",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-ohio",
+   "keyword": "mosquitoes in ohio",
+   "alsoTargets": [
+    "mosquito season ohio",
+    "when is mosquito season in ohio",
+    "west nile virus ohio"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "OH",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Ohio: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Ohio, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Ohio (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Ohio's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/OH.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-indiana",
+     "/blog/mosquitoes-in-kentucky",
+     "/blog/mosquitoes-in-michigan",
+     "/blog/mosquitoes-in-pennsylvania",
+     "/blog/mosquitoes-in-west-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-minnesota",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-minnesota",
+   "keyword": "mosquitoes in minnesota",
+   "alsoTargets": [
+    "mosquito season minnesota",
+    "when is mosquito season in minnesota",
+    "west nile virus minnesota"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "MN",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Minnesota: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Minnesota, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Minnesota (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Minnesota's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/MN.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-iowa",
+     "/blog/mosquitoes-in-north-dakota",
+     "/blog/mosquitoes-in-south-dakota",
+     "/blog/mosquitoes-in-wisconsin"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-wisconsin",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-wisconsin",
+   "keyword": "mosquitoes in wisconsin",
+   "alsoTargets": [
+    "mosquito season wisconsin",
+    "when is mosquito season in wisconsin",
+    "west nile virus wisconsin"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "WI",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Wisconsin: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Wisconsin, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Wisconsin (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Wisconsin's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/WI.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-illinois",
+     "/blog/mosquitoes-in-iowa",
+     "/blog/mosquitoes-in-michigan",
+     "/blog/mosquitoes-in-minnesota"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-illinois",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-illinois",
+   "keyword": "mosquitoes in illinois",
+   "alsoTargets": [
+    "mosquito season illinois",
+    "when is mosquito season in illinois",
+    "west nile virus illinois"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "IL",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Illinois: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Illinois, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Illinois (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Illinois's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/IL.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-indiana",
+     "/blog/mosquitoes-in-iowa",
+     "/blog/mosquitoes-in-kentucky",
+     "/blog/mosquitoes-in-missouri",
+     "/blog/mosquitoes-in-wisconsin"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-michigan",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-michigan",
+   "keyword": "mosquitoes in michigan",
+   "alsoTargets": [
+    "mosquito season michigan",
+    "when is mosquito season in michigan",
+    "west nile virus michigan"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "MI",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Michigan: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Michigan, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Michigan (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Michigan's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/MI.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-indiana",
+     "/blog/mosquitoes-in-ohio",
+     "/blog/mosquitoes-in-wisconsin"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-indiana",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-indiana",
+   "keyword": "mosquitoes in indiana",
+   "alsoTargets": [
+    "mosquito season indiana",
+    "when is mosquito season in indiana",
+    "west nile virus indiana"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "IN",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Indiana: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Indiana, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Indiana (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Indiana's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/IN.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-illinois",
+     "/blog/mosquitoes-in-kentucky",
+     "/blog/mosquitoes-in-michigan",
+     "/blog/mosquitoes-in-ohio"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-missouri",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-missouri",
+   "keyword": "mosquitoes in missouri",
+   "alsoTargets": [
+    "mosquito season missouri",
+    "when is mosquito season in missouri",
+    "west nile virus missouri"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "MO",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Missouri: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Missouri, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Missouri (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Missouri's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/MO.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-arkansas",
+     "/blog/mosquitoes-in-illinois",
+     "/blog/mosquitoes-in-iowa",
+     "/blog/mosquitoes-in-kansas",
+     "/blog/mosquitoes-in-kentucky",
+     "/blog/mosquitoes-in-nebraska",
+     "/blog/mosquitoes-in-oklahoma",
+     "/blog/mosquitoes-in-tennessee"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-arkansas",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-arkansas",
+   "keyword": "mosquitoes in arkansas",
+   "alsoTargets": [
+    "mosquito season arkansas",
+    "when is mosquito season in arkansas",
+    "west nile virus arkansas"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "AR",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Arkansas: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Arkansas, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Arkansas (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Arkansas's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/AR.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-louisiana",
+     "/blog/mosquitoes-in-missouri",
+     "/blog/mosquitoes-in-mississippi",
+     "/blog/mosquitoes-in-oklahoma",
+     "/blog/mosquitoes-in-tennessee",
+     "/blog/mosquitoes-in-texas"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-oklahoma",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-oklahoma",
+   "keyword": "mosquitoes in oklahoma",
+   "alsoTargets": [
+    "mosquito season oklahoma",
+    "when is mosquito season in oklahoma",
+    "west nile virus oklahoma"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "OK",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Oklahoma: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Oklahoma, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Oklahoma (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Oklahoma's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/OK.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-arkansas",
+     "/blog/mosquitoes-in-colorado",
+     "/blog/mosquitoes-in-kansas",
+     "/blog/mosquitoes-in-missouri",
+     "/blog/mosquitoes-in-new-mexico",
+     "/blog/mosquitoes-in-texas"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-kentucky",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-kentucky",
+   "keyword": "mosquitoes in kentucky",
+   "alsoTargets": [
+    "mosquito season kentucky",
+    "when is mosquito season in kentucky",
+    "west nile virus kentucky"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "KY",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Kentucky: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Kentucky, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Kentucky (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Kentucky's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/KY.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-illinois",
+     "/blog/mosquitoes-in-indiana",
+     "/blog/mosquitoes-in-missouri",
+     "/blog/mosquitoes-in-ohio",
+     "/blog/mosquitoes-in-tennessee",
+     "/blog/mosquitoes-in-virginia",
+     "/blog/mosquitoes-in-west-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-maryland",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-maryland",
+   "keyword": "mosquitoes in maryland",
+   "alsoTargets": [
+    "mosquito season maryland",
+    "when is mosquito season in maryland",
+    "west nile virus maryland"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "MD",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Maryland: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Maryland, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Maryland (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Maryland's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/MD.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-delaware",
+     "/blog/mosquitoes-in-pennsylvania",
+     "/blog/mosquitoes-in-virginia",
+     "/blog/mosquitoes-in-west-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-massachusetts",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-massachusetts",
+   "keyword": "mosquitoes in massachusetts",
+   "alsoTargets": [
+    "mosquito season massachusetts",
+    "when is mosquito season in massachusetts",
+    "west nile virus massachusetts"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "MA",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Massachusetts: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Massachusetts, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Massachusetts (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Massachusetts's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/MA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-connecticut",
+     "/blog/mosquitoes-in-new-hampshire",
+     "/blog/mosquitoes-in-new-york",
+     "/blog/mosquitoes-in-rhode-island",
+     "/blog/mosquitoes-in-vermont"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-connecticut",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-connecticut",
+   "keyword": "mosquitoes in connecticut",
+   "alsoTargets": [
+    "mosquito season connecticut",
+    "when is mosquito season in connecticut",
+    "west nile virus connecticut"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "CT",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Connecticut: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Connecticut, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Connecticut (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Connecticut's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/CT.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-massachusetts",
+     "/blog/mosquitoes-in-new-york",
+     "/blog/mosquitoes-in-rhode-island"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-north-dakota",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-north-dakota",
+   "keyword": "mosquitoes in north dakota",
+   "alsoTargets": [
+    "mosquito season north dakota",
+    "when is mosquito season in north dakota",
+    "west nile virus north dakota"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-23",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "ND",
+   "releaseOn": "2026-11-23",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in North Dakota: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in North Dakota, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in North Dakota (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; North Dakota's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/ND.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-minnesota",
+     "/blog/mosquitoes-in-montana",
+     "/blog/mosquitoes-in-south-dakota"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-colorado",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-colorado",
+   "keyword": "mosquitoes in colorado",
+   "alsoTargets": [
+    "mosquito season colorado",
+    "when is mosquito season in colorado",
+    "west nile virus colorado"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "CO",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Colorado: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Colorado, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Colorado (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Colorado's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/CO.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-kansas",
+     "/blog/mosquitoes-in-nebraska",
+     "/blog/mosquitoes-in-new-mexico",
+     "/blog/mosquitoes-in-oklahoma",
+     "/blog/mosquitoes-in-utah",
+     "/blog/mosquitoes-in-wyoming"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-washington",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-washington",
+   "keyword": "mosquitoes in washington",
+   "alsoTargets": [
+    "mosquito season washington",
+    "when is mosquito season in washington",
+    "west nile virus washington"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "WA",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Washington: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Washington, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Washington (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Washington's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/WA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-idaho",
+     "/blog/mosquitoes-in-oregon"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-oregon",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-oregon",
+   "keyword": "mosquitoes in oregon",
+   "alsoTargets": [
+    "mosquito season oregon",
+    "when is mosquito season in oregon",
+    "west nile virus oregon"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "OR",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Oregon: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Oregon, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Oregon (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Oregon's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/OR.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-california",
+     "/blog/mosquitoes-in-idaho",
+     "/blog/mosquitoes-in-nevada",
+     "/blog/mosquitoes-in-washington"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-maine",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-maine",
+   "keyword": "mosquitoes in maine",
+   "alsoTargets": [
+    "mosquito season maine",
+    "when is mosquito season in maine",
+    "west nile virus maine"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "ME",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Maine: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Maine, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Maine (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Maine's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/ME.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-new-hampshire"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-new-hampshire",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-new-hampshire",
+   "keyword": "mosquitoes in new hampshire",
+   "alsoTargets": [
+    "mosquito season new hampshire",
+    "when is mosquito season in new hampshire",
+    "west nile virus new hampshire"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "NH",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in New Hampshire: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in New Hampshire, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in New Hampshire (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; New Hampshire's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/NH.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-maine",
+     "/blog/mosquitoes-in-massachusetts",
+     "/blog/mosquitoes-in-vermont"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-vermont",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-vermont",
+   "keyword": "mosquitoes in vermont",
+   "alsoTargets": [
+    "mosquito season vermont",
+    "when is mosquito season in vermont",
+    "west nile virus vermont"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "VT",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Vermont: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Vermont, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Vermont (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Vermont's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/VT.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-massachusetts",
+     "/blog/mosquitoes-in-new-hampshire",
+     "/blog/mosquitoes-in-new-york"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-delaware",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-delaware",
+   "keyword": "mosquitoes in delaware",
+   "alsoTargets": [
+    "mosquito season delaware",
+    "when is mosquito season in delaware",
+    "west nile virus delaware"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "DE",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Delaware: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Delaware, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Delaware (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Delaware's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/DE.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-maryland",
+     "/blog/mosquitoes-in-new-jersey",
+     "/blog/mosquitoes-in-pennsylvania"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-rhode-island",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-rhode-island",
+   "keyword": "mosquitoes in rhode island",
+   "alsoTargets": [
+    "mosquito season rhode island",
+    "when is mosquito season in rhode island",
+    "west nile virus rhode island"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "RI",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Rhode Island: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Rhode Island, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Rhode Island (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Rhode Island's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/RI.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-connecticut",
+     "/blog/mosquitoes-in-massachusetts"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-west-virginia",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-west-virginia",
+   "keyword": "mosquitoes in west virginia",
+   "alsoTargets": [
+    "mosquito season west virginia",
+    "when is mosquito season in west virginia",
+    "west nile virus west virginia"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "WV",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in West Virginia: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in West Virginia, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in West Virginia (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; West Virginia's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/WV.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-kentucky",
+     "/blog/mosquitoes-in-maryland",
+     "/blog/mosquitoes-in-ohio",
+     "/blog/mosquitoes-in-pennsylvania",
+     "/blog/mosquitoes-in-virginia"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-iowa",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-iowa",
+   "keyword": "mosquitoes in iowa",
+   "alsoTargets": [
+    "mosquito season iowa",
+    "when is mosquito season in iowa",
+    "west nile virus iowa"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "IA",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Iowa: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Iowa, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Iowa (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Iowa's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/IA.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-illinois",
+     "/blog/mosquitoes-in-minnesota",
+     "/blog/mosquitoes-in-missouri",
+     "/blog/mosquitoes-in-nebraska",
+     "/blog/mosquitoes-in-south-dakota",
+     "/blog/mosquitoes-in-wisconsin"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-kansas",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-kansas",
+   "keyword": "mosquitoes in kansas",
+   "alsoTargets": [
+    "mosquito season kansas",
+    "when is mosquito season in kansas",
+    "west nile virus kansas"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "KS",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Kansas: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Kansas, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Kansas (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Kansas's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/KS.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-colorado",
+     "/blog/mosquitoes-in-missouri",
+     "/blog/mosquitoes-in-nebraska",
+     "/blog/mosquitoes-in-oklahoma"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-nebraska",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-nebraska",
+   "keyword": "mosquitoes in nebraska",
+   "alsoTargets": [
+    "mosquito season nebraska",
+    "when is mosquito season in nebraska",
+    "west nile virus nebraska"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "NE",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Nebraska: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Nebraska, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Nebraska (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Nebraska's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/NE.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-colorado",
+     "/blog/mosquitoes-in-iowa",
+     "/blog/mosquitoes-in-kansas",
+     "/blog/mosquitoes-in-missouri",
+     "/blog/mosquitoes-in-south-dakota",
+     "/blog/mosquitoes-in-wyoming"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-south-dakota",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-south-dakota",
+   "keyword": "mosquitoes in south dakota",
+   "alsoTargets": [
+    "mosquito season south dakota",
+    "when is mosquito season in south dakota",
+    "west nile virus south dakota"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "SD",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in South Dakota: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in South Dakota, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in South Dakota (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; South Dakota's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/SD.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-iowa",
+     "/blog/mosquitoes-in-minnesota",
+     "/blog/mosquitoes-in-montana",
+     "/blog/mosquitoes-in-nebraska",
+     "/blog/mosquitoes-in-north-dakota",
+     "/blog/mosquitoes-in-wyoming"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-utah",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-utah",
+   "keyword": "mosquitoes in utah",
+   "alsoTargets": [
+    "mosquito season utah",
+    "when is mosquito season in utah",
+    "west nile virus utah"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "UT",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Utah: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Utah, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Utah (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Utah's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/UT.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-arizona",
+     "/blog/mosquitoes-in-colorado",
+     "/blog/mosquitoes-in-idaho",
+     "/blog/mosquitoes-in-nevada",
+     "/blog/mosquitoes-in-wyoming"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-nevada",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-nevada",
+   "keyword": "mosquitoes in nevada",
+   "alsoTargets": [
+    "mosquito season nevada",
+    "when is mosquito season in nevada",
+    "west nile virus nevada"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "NV",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Nevada: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Nevada, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Nevada (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Nevada's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/NV.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-arizona",
+     "/blog/mosquitoes-in-california",
+     "/blog/mosquitoes-in-idaho",
+     "/blog/mosquitoes-in-oregon",
+     "/blog/mosquitoes-in-utah"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-new-mexico",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-new-mexico",
+   "keyword": "mosquitoes in new mexico",
+   "alsoTargets": [
+    "mosquito season new mexico",
+    "when is mosquito season in new mexico",
+    "west nile virus new mexico"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "NM",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in New Mexico: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in New Mexico, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in New Mexico (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; New Mexico's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/NM.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-arizona",
+     "/blog/mosquitoes-in-colorado",
+     "/blog/mosquitoes-in-oklahoma",
+     "/blog/mosquitoes-in-texas"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-idaho",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-idaho",
+   "keyword": "mosquitoes in idaho",
+   "alsoTargets": [
+    "mosquito season idaho",
+    "when is mosquito season in idaho",
+    "west nile virus idaho"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "ID",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Idaho: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Idaho, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Idaho (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Idaho's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/ID.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-montana",
+     "/blog/mosquitoes-in-nevada",
+     "/blog/mosquitoes-in-oregon",
+     "/blog/mosquitoes-in-utah",
+     "/blog/mosquitoes-in-washington",
+     "/blog/mosquitoes-in-wyoming"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-montana",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-montana",
+   "keyword": "mosquitoes in montana",
+   "alsoTargets": [
+    "mosquito season montana",
+    "when is mosquito season in montana",
+    "west nile virus montana"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "MT",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Montana: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Montana, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Montana (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Montana's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/MT.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-idaho",
+     "/blog/mosquitoes-in-north-dakota",
+     "/blog/mosquitoes-in-south-dakota",
+     "/blog/mosquitoes-in-wyoming"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-wyoming",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-wyoming",
+   "keyword": "mosquitoes in wyoming",
+   "alsoTargets": [
+    "mosquito season wyoming",
+    "when is mosquito season in wyoming",
+    "west nile virus wyoming"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "WY",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Wyoming: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Wyoming, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Wyoming (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Wyoming's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/WY.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [
+     "/blog/mosquitoes-in-colorado",
+     "/blog/mosquitoes-in-idaho",
+     "/blog/mosquitoes-in-montana",
+     "/blog/mosquitoes-in-nebraska",
+     "/blog/mosquitoes-in-south-dakota",
+     "/blog/mosquitoes-in-utah"
+    ],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mosquitoes-in-hawaii",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mosquitoes",
+   "path": "/blog/mosquitoes-in-hawaii",
+   "keyword": "mosquitoes in hawaii",
+   "alsoTargets": [
+    "mosquito season hawaii",
+    "when is mosquito season in hawaii",
+    "west nile virus hawaii"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "datePublished": "2026-11-30",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": "mosquitoes-by-state",
+   "state": "HI",
+   "releaseOn": "2026-11-30",
+   "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+   },
+   "h1Hint": "Mosquitoes in Hawaii: Season by Region, Species and West Nile Data",
+   "scope": "When mosquito season starts, peaks and ends in Hawaii, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Hawaii (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Hawaii's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.",
+   "dataPacket": "data/god-build/packets/mosquitoes/HI.json",
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mosquitoes-by-state"
+    ],
+    "neighbors": [],
+    "minNeighbors": 2,
+    "seriesAll": []
+   }
   }
  ],
  "merged": [

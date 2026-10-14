@@ -7,7 +7,9 @@ import { US_GUIDE_BUILT, US_GUIDE_PLANNED } from '@/lib/us-guide-built'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
-import { type Guide, type GuideBlock, CLUSTER_LABEL, CLUSTER_PILLAR, GUIDE_HEROES, guidePath, guideSchemas, regionalPair, slugifyHeading } from '@/lib/guides'
+import GuideChart from '@/components/GuideChart'
+import GuideMap from '@/components/GuideMap'
+import { type Guide, type GuideBlock, CLUSTER_LABEL, GUIDE_HEROES, LICENSE_LABEL, guideParent, guidePath, guideSchemas, regionalPair, slugifyHeading } from '@/lib/guides'
 
 /**
  * Renders one North American pest guide from its JSON file (content/guides/<slug>.json).
@@ -150,6 +152,24 @@ function Block({ block }: { block: GuideBlock }) {
       )
     case 'media':
       return null // a photo or diagram still to be added; see reports/us_pages_media_needed.md
+    case 'figure': {
+      // A real photograph with the credit its licence requires. Pre-sized WebP, so no image optimizer.
+      const lic = LICENSE_LABEL[block.license]
+      return (
+        <figure className="not-prose my-8">
+          <Image src={block.src} alt={block.alt} width={block.width} height={block.height} unoptimized loading="lazy" className="h-auto w-full rounded-xl border border-gray-200 bg-gray-50" />
+          <figcaption className="mt-2 text-xs leading-relaxed text-gray-500">
+            {block.caption && <><Inline text={block.caption} />{' '}</>}
+            Photo: <a href={block.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline">{block.credit}</a>
+            {lic.url ? <>, <a href={lic.url} target="_blank" rel="noopener noreferrer license" className="underline">{lic.name}</a></> : <>, {lic.name}</>}.
+          </figcaption>
+        </figure>
+      )
+    }
+    case 'chart':
+      return <GuideChart chart={block} caption={block.caption ? <Inline text={block.caption} /> : undefined} source={<Inline text={block.source} />} />
+    case 'map':
+      return <GuideMap map={block} caption={block.caption ? <Inline text={block.caption} /> : undefined} source={<Inline text={block.source} />} />
     default:
       return null
   }
@@ -275,8 +295,9 @@ function recircSpots(body: GuideBlock[]): { nextAt: number; relatedAt: number } 
 
 export default function GuidePage({ guide }: { guide: Guide }) {
   const path = guidePath(guide)
-  const hubCrumb = guide.kind === 'spoke' ? CLUSTER_PILLAR[guide.cluster] : undefined
-  const pillar = hubCrumb && hubCrumb.href !== path ? hubCrumb : undefined
+  const hubCrumb = guide.kind === 'spoke' ? guideParent(guide) : undefined
+  // a parent that is the section index itself (/learn or /blog) is already in the breadcrumb
+  const pillar = hubCrumb && hubCrumb.href !== path && hubCrumb.href !== '/learn' && hubCrumb.href !== '/blog' ? hubCrumb : undefined
   const inLearn = path.startsWith('/learn/')
   const hero = GUIDE_HEROES[path]
   const pair = regionalPair(path)

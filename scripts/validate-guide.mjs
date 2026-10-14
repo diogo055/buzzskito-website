@@ -13,12 +13,50 @@
 //   - every internal link resolves; the links the plan requires are present
 //   - length, FAQ and schema inputs are complete
 //   - no invented testing claims and no absolute safety claims
+//   - every photo is a real one whose source, credit and licence are on record
+//     (data/god-build/photos.json), charts add up, and maps have their shapes (data/geo/)
+//
+// Pages of the scheduled "god" batch (data/god-build/plan.src.json) wait in
+// content/guides-scheduled/ until their release date; name them to check them there, or pass
+// --scheduled to check them all.
 import { readFileSync, readdirSync, existsSync } from 'fs'
 import { join } from 'path'
 
 const ROOT = process.cwd()
 const GUIDES = join(ROOT, 'content', 'guides')
+const SCHEDULED = join(ROOT, 'content', 'guides-scheduled')
 const DIR = join(ROOT, 'data', 'us-pages')
+const TODAY = new Date().toISOString().slice(0, 10)
+const PHOTOS_FILE = join(ROOT, 'data', 'god-build', 'photos.json')
+const PHOTOS = existsSync(PHOTOS_FILE) ? Object.fromEntries(JSON.parse(readFileSync(PHOTOS_FILE, 'utf8')).photos.map((x) => [x.file, x])) : {}
+const LICENSES = new Set(['public-domain', 'CC0-1.0', 'CC-BY-2.0', 'CC-BY-2.5', 'CC-BY-3.0', 'CC-BY-4.0', 'CC-BY-SA-2.0', 'CC-BY-SA-2.5', 'CC-BY-SA-3.0', 'CC-BY-SA-4.0'])
+const STATE_CODES = new Set('AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY'.split(' '))
+// pixel size of a WebP, PNG or JPEG file, read from its header
+function imageSize(file) {
+  const b = readFileSync(file)
+  if (b.toString('ascii', 0, 4) === 'RIFF' && b.toString('ascii', 8, 12) === 'WEBP') {
+    const tag = b.toString('ascii', 12, 16)
+    if (tag === 'VP8X') return { width: 1 + b.readUIntLE(24, 3), height: 1 + b.readUIntLE(27, 3) }
+    if (tag === 'VP8 ') return { width: b.readUInt16LE(26) & 0x3fff, height: b.readUInt16LE(28) & 0x3fff }
+    if (tag === 'VP8L') { const n = b.readUInt32LE(21); return { width: (n & 0x3fff) + 1, height: ((n >> 14) & 0x3fff) + 1 } }
+  }
+  if (b.readUInt32BE(0) === 0x89504e47) return { width: b.readUInt32BE(16), height: b.readUInt32BE(20) }
+  if (b[0] === 0xff && b[1] === 0xd8) {
+    for (let i = 2; i < b.length - 9;) {
+      if (b[i] !== 0xff) { i++; continue }
+      const m = b[i + 1]
+      if (m >= 0xc0 && m <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(m)) return { width: b.readUInt16BE(i + 7), height: b.readUInt16BE(i + 5) }
+      i += 2 + b.readUInt16BE(i + 2)
+    }
+  }
+  return null
+}
+const geoCache = {}
+const geoFor = (scope) => {
+  const f = join(ROOT, 'data', 'geo', `${String(scope).toLowerCase()}.json`)
+  if (!(scope in geoCache)) geoCache[scope] = existsSync(f) ? JSON.parse(readFileSync(f, 'utf8')) : null
+  return geoCache[scope]
+}
 const plan = JSON.parse(readFileSync(join(DIR, 'plan.json'), 'utf8'))
 const routes = JSON.parse(readFileSync(join(DIR, 'routes.json'), 'utf8'))
 const EXISTING = new Set(routes.existing), PLANNED = new Set(routes.planned)
@@ -42,6 +80,9 @@ const blockTexts = (b) => {
     case 'recipe': return [b.title, b.makes || '', ...(b.ingredients || []), ...(b.steps || []), b.works || '', b.limits || '', (b.safety && b.safety.pets) || '', (b.safety && b.safety.children) || '', b.source || '']
     case 'checklist': return [b.title || '', ...(b.items || [])]
     case 'card': return [b.title, b.intro || '', ...(b.items || []), b.note || '']
+    case 'figure': return [b.caption || '']
+    case 'chart': return [b.title || '', b.yLabel || '', b.caption || '', b.source || '']
+    case 'map': return [b.title || '', b.caption || '', b.source || '', ...(b.categories || []).map((c) => c.label || '')]
     default: return []
   }
 }
@@ -101,7 +142,16 @@ function validate(file) {
     if (/[<>]/.test(v)) err(`"${k}" contains < or >`)
   }
   str('keyword', 3, 80); str('metaTitle', 25, 48); str('metaDescription', 110, 155); str('h1', 20, 80); str('dek', 60, 230); str('breadcrumb', 3, 42); str('excerpt', 90, 185)
-  if (g.datePublished !== p.datePublished) err(`"datePublished" must be "${p.datePublished}"`)
+  // A scheduled page carries its release date; scripts/release-scheduled.mjs moves the date to
+  // the day it actually goes live if that is later, so a released one may be later, never earlier.
+  const god = p.batch === 'god'
+  const waiting = file.replace(/\\/g, '/').includes('/content/guides-scheduled/')
+  if (!god && g.datePublished !== p.datePublished) err(`"datePublished" must be "${p.datePublished}"`)
+  if (god && waiting && g.datePublished !== p.datePublished) err(`"datePublished" must be the release date "${p.datePublished}" (data/god-build/plan.src.json)`)
+  if (god && !waiting && !(g.datePublished >= p.datePublished && g.datePublished <= TODAY)) err(`"datePublished" ${g.datePublished} must fall between the release date ${p.datePublished} and today`)
+  if (god && waiting && existsSync(join(GUIDES, file.replace(/\\/g, '/').split('/').pop()))) err('this page is in both content/guides and content/guides-scheduled')
+  if (god && p.parent && !(g.parent && g.parent.href === p.parent.href && g.parent.name === p.parent.name)) err(`"parent" must be ${JSON.stringify(p.parent)}`)
+  if (god && g.section !== p.section && !(p.section === 'blog' && g.section === undefined)) err(`"section" must be "${p.section}"`)
   if (typeof g.metaTitle === 'string' && /buzzskito/i.test(g.metaTitle)) err('"metaTitle" must not include the brand; the site appends " | BuzzSkito"')
   if (typeof g.metaTitle === 'string' && /\b20\d\d\b/.test(g.metaTitle)) warn('"metaTitle" contains a year; only keep it if the page is genuinely about that year')
 
@@ -117,7 +167,7 @@ function validate(file) {
   }
 
   // ── body ──────────────────────────────────────────────────────────────────────
-  const TYPES = new Set(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'callout', 'media', 'recipe', 'checklist', 'card'])
+  const TYPES = new Set(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'callout', 'media', 'recipe', 'checklist', 'card', 'figure', 'chart', 'map'])
   const visual = p.batch === 'visual'
   if (!Array.isArray(g.body) || !g.body.length) { err('"body" is missing'); return { errors, warnings, stats: {} } }
   g.body.forEach((b, i) => {
@@ -139,6 +189,57 @@ function validate(file) {
     if (b.type === 'card' && (!b.title || !Array.isArray(b.items) || b.items.length < 6 || b.items.length > 12)) err(`body[${i}] (card) needs a title and 6 to 12 items`)
     if (b.type === 'media' && (typeof b.needed !== 'string' || b.needed.length < 25)) err(`body[${i}] (media) needs a "needed" description of the photo or diagram (25+ characters)`)
     if (b.type === 'callout' && b.tone && !['tip', 'warning', 'note'].includes(b.tone)) err(`body[${i}] (callout) tone must be tip, warning or note`)
+    if (b.type === 'figure') {
+      // a real photograph whose origin is on record; never an AI image or a drawing
+      const where = `body[${i}] (figure ${b.src})`
+      if (typeof b.src !== 'string' || !b.src.startsWith('/guides/photos/') || !/\.(webp|jpe?g|png)$/.test(b.src)) err(`${where}: "src" must be a file under /guides/photos/ (webp, jpg or png)`)
+      else {
+        const f = join(ROOT, 'public', b.src)
+        if (!existsSync(f)) err(`${where}: the file public${b.src} does not exist`)
+        else { const d = imageSize(f); if (!d || d.width !== b.width || d.height !== b.height) err(`${where}: width/height must be the file's real size${d ? ` (${d.width} x ${d.height})` : ''}`) }
+        const rec = PHOTOS[b.src]
+        if (!rec) err(`${where}: not in data/god-build/photos.json, the record of where each photo came from`)
+        else if (rec.license !== b.license || rec.credit !== b.credit || rec.sourceUrl !== b.sourceUrl) err(`${where}: license, credit and sourceUrl must match its record in data/god-build/photos.json`)
+      }
+      if (!LICENSES.has(b.license)) err(`${where}: licence "${b.license}" is not allowed (public domain, CC0, CC BY or CC BY-SA only)`)
+      if (typeof b.credit !== 'string' || b.credit.trim().length < 3) err(`${where}: "credit" is required, exactly as the source asks`)
+      if (typeof b.sourceUrl !== 'string' || !/^https:\/\//.test(b.sourceUrl)) err(`${where}: "sourceUrl" must be the https page the photo came from`)
+      if (typeof b.alt !== 'string' || b.alt.length < 15 || b.alt.length > 220) err(`${where}: "alt" must describe the photo in 15 to 220 characters`)
+      if (/\b(ai|a\.i\.)[- ]generated|illustration|rendering\b/i.test(`${b.alt} ${b.caption || ''}`)) err(`${where}: figures are photographs; generated or drawn images are not allowed`)
+    }
+    if (b.type === 'chart') {
+      const where = `body[${i}] (chart)`
+      const n = Array.isArray(b.x) ? b.x.length : 0
+      if (typeof b.title !== 'string' || b.title.length < 10 || b.title.length > 120) err(`${where}: "title" must be 10 to 120 characters`)
+      if (n < 2 || n > 40 || b.x.some((x) => typeof x !== 'string' || !x)) err(`${where}: "x" needs 2 to 40 labels`)
+      if (!Array.isArray(b.series) || b.series.length < 1 || b.series.length > 3) err(`${where}: "series" needs 1 to 3 series`)
+      else for (const s of b.series) {
+        if (!s.name || !Array.isArray(s.values) || s.values.length !== n) err(`${where}: series "${s.name}" needs a name and exactly ${n} values`)
+        else if (s.values.some((v) => v !== null && !(typeof v === 'number' && Number.isFinite(v) && v >= 0))) err(`${where}: series "${s.name}" values must be numbers of 0 or more, or null for no data`)
+      }
+      if (typeof b.source !== 'string' || b.source.length < 5) err(`${where}: "source" is required (name the publisher; link it if it is one of the page's sources)`)
+    }
+    if (b.type === 'map') {
+      const where = `body[${i}] (map ${b.scope})`
+      const scope = String(b.scope || '')
+      if (scope !== 'us' && !STATE_CODES.has(scope)) err(`${where}: "scope" must be "us" or a two-letter state code`)
+      const geo = geoFor(scope)
+      if (!geo) err(`${where}: no shapes for this map yet (data/geo/${scope.toLowerCase()}.json; run scripts/build-geo.mjs)`)
+      if (typeof b.title !== 'string' || b.title.length < 10 || b.title.length > 120) err(`${where}: "title" must be 10 to 120 characters`)
+      const keys = new Set((b.categories || []).map((c) => c.key))
+      if (!Array.isArray(b.categories) || b.categories.length < 1 || b.categories.length > 4 || b.categories.some((c) => !c.key || !c.label)) err(`${where}: "categories" needs 1 to 4 { key, label } entries`)
+      const ids = geo ? new Set(geo.features.map((f) => f.id)) : null
+      for (const [k, v] of Object.entries(b.values || {})) {
+        if (ids && !ids.has(k)) err(`${where}: "${k}" is not a place on this map`)
+        if (!keys.has(v)) err(`${where}: "${k}" has category "${v}", which is not in "categories"`)
+      }
+      if (!Object.keys(b.values || {}).length) err(`${where}: "values" is empty`)
+      for (const [k, h] of Object.entries(b.links || {})) {
+        if (ids && !ids.has(k)) err(`${where}: link for "${k}", which is not a place on this map`)
+        if (typeof h !== 'string' || !h.startsWith('/') || (!EXISTING.has(h) && !PLANNED.has(h))) err(`${where}: link for "${k}" must be a page on this site: ${h}`)
+      }
+      if (typeof b.source !== 'string' || b.source.length < 5) err(`${where}: "source" is required`)
+    }
     if (['h2', 'h3'].includes(b.type) && /\]\(/.test(b.text)) err(`body[${i}] (${b.type}) must not contain a link`)
     if (b.type === 'p' && words(b.text) > 130) warn(`body[${i}] is a ${words(b.text)}-word paragraph; split it`)
   })
@@ -155,9 +256,12 @@ function validate(file) {
   if (bodyWords < p.minWords) err(`body is ${bodyWords} words; this page needs at least ${p.minWords} (FAQs and the quick answer do not count)`)
   if (bodyWords > p.minWords * 2.2) warn(`body is ${bodyWords} words, more than twice the minimum; make sure it is not padded`)
 
-  const media = g.body.filter((b) => b.type === 'media').length
+  const figures = g.body.filter((b) => b.type === 'figure').length
+  const media = g.body.filter((b) => b.type === 'media').length + figures
   if (p.flags.includes('id') && media < 2) err(`this is an identification page: add at least 2 { "type": "media", "needed": "..." } placeholders where a photo or diagram would help (found ${media})`)
   if (pillar && media < 2) err('a pillar needs at least 2 media placeholders')
+  if (god && p.flags.includes('id') && figures < 2) err(`this page needs at least 2 real photos ("figure" blocks); found ${figures}`)
+  if (god && p.series && p.role !== 'hub' && !g.body.some((b) => b.type === 'chart' || b.type === 'map')) err('a state page needs at least one chart or map drawn from its data')
 
   if (visual) {
     const cards = g.body.filter((b) => b.type === 'card').length
@@ -187,7 +291,7 @@ function validate(file) {
   if (want && g.disclaimer !== want && g.disclaimer !== 'both') err(`"disclaimer" must be "${want}"`)
 
   // ── sources and links ─────────────────────────────────────────────────────────
-  const [sMin, sMax] = pillar ? [5, 8] : visual ? [4, 7] : [3, 6]
+  const [sMin, sMax] = pillar ? [5, 8] : visual ? [4, 7] : god ? [4, 12] : [3, 6]
   const srcUrls = new Set()
   let auth = 0
   if (!Array.isArray(g.sources) || g.sources.length < sMin || g.sources.length > sMax) err(`"sources" must list ${sMin} to ${sMax} sources`)
@@ -219,6 +323,8 @@ function validate(file) {
   if (external.some((l) => /^(here|this|source|link|click here|study|this study)$/i.test(l.text.trim()))) err('a citation link uses a vague anchor ("here", "source", "this study"); name the organisation or the finding instead')
 
   const self = p.path
+  // links drawn into a map count as links from the page (the hubs link every state that way)
+  for (const b of g.body) if (b.type === 'map') for (const h of Object.values(b.links || {})) internal.push({ text: 'map', href: String(h) })
   const hrefs = internal.map((l) => l.href.replace(/[#?].*$/, ''))
   for (const h of hrefs) {
     if (h !== '/' && h.endsWith('/')) err(`internal link has a trailing slash: ${h}`)
@@ -235,6 +341,16 @@ function validate(file) {
     for (const s of p.required.clusterExisting) if (!uniq.has(s)) err(`pillar must link to the existing cluster page ${s}`)
     for (const s of p.required.pillarRing) if (!uniq.has(s)) err(`pillar must link to ${s} (the other hub pages)`)
     if (p.required.category && !uniq.has(p.required.category)) err(`pillar must link to its product guide hub ${p.required.category}`)
+  } else if (god) {
+    for (const s of p.required.mustLink) if (!uniq.has(s)) err(`must link to ${s}`)
+    const nb = p.required.neighbors.filter((h) => uniq.has(h)).length
+    const wantNb = Math.min(p.required.minNeighbors, p.required.neighbors.length)
+    if (nb < wantNb) err(`links to ${nb} of its neighboring states' pages (${p.required.neighbors.join(', ')}); it needs at least ${wantNb}`)
+    for (const s of p.required.seriesAll) if (!uniq.has(s)) err(`a hub must link to every page in its series; missing ${s}`)
+    const ex = [...uniq].filter((h) => EXISTING.has(h) && h !== '/' && (h.startsWith('/blog/') || h.startsWith('/learn') || h.startsWith('/pest-product-guides')))
+    if (ex.length < p.required.minExisting) err(`links to ${ex.length} pre-existing pages; it needs at least ${p.required.minExisting} real topical matches`)
+    const svc = [...uniq].filter((h) => EXISTING.has(h) && !h.startsWith('/blog/') && !h.startsWith('/learn') && !h.startsWith('/pest-product-guides') && h !== '/pest-control-cost-canada' && !/-(statistics|tracker)/.test(h))
+    if (svc.length) err(`do not link to service or city pages from these guides: ${svc.join(', ')}`)
   } else if (visual) {
     for (const s of p.required.mustLink) if (!uniq.has(s)) err(`must link to ${s} in the body text`)
     const svc = [...uniq].filter((h) => EXISTING.has(h) && !h.startsWith('/blog/') && !h.startsWith('/learn') && !h.startsWith('/pest-product-guides') && h !== '/pest-control-cost-canada' && !/-(statistics|tracker)/.test(h))
@@ -286,11 +402,12 @@ function validate(file) {
 
 // ── run ─────────────────────────────────────────────────────────────────────────
 const fileFor = (name) => {
-  const direct = join(GUIDES, `${name}.json`), pil = join(GUIDES, `pillar-${name}.json`)
-  return existsSync(direct) ? direct : existsSync(pil) ? pil : direct
+  const direct = join(GUIDES, `${name}.json`), pil = join(GUIDES, `pillar-${name}.json`), later = join(SCHEDULED, `${name}.json`)
+  return existsSync(direct) ? direct : existsSync(pil) ? pil : existsSync(later) ? later : direct
 }
-const files = ALL ? (existsSync(GUIDES) ? readdirSync(GUIDES).filter((f) => f.endsWith('.json')).map((f) => join(GUIDES, f)) : []) : names.map(fileFor)
-if (!files.length) { console.error('usage: node scripts/validate-guide.mjs <slug> | --all [--report]'); process.exit(1) }
+const jsonIn = (dir) => (existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => join(dir, f)) : [])
+const files = args.includes('--scheduled') ? jsonIn(SCHEDULED) : ALL ? jsonIn(GUIDES) : names.map(fileFor)
+if (!files.length) { console.error(args.includes('--scheduled') ? 'no scheduled pages in content/guides-scheduled' : 'usage: node scripts/validate-guide.mjs <slug> | --all [--report] | --scheduled'); process.exit(args.includes('--scheduled') ? 0 : 1) }
 
 let bad = 0
 const results = {}
@@ -310,14 +427,17 @@ for (const f of files) {
 if (ALL) {
   const built = Object.values(results).filter((r) => r.stats.path)
   const have = new Set(built.map((r) => r.stats.path))
-  // --complete covers the first batch (76 pages); the visual guides are added by --complete-visual
+  // --complete covers the first batch (76 pages); the visual guides are added by --complete-visual.
+  // The scheduled "god" batch is never "missing": its pages go live on their release dates
+  // (scripts/release-scheduled.mjs), and until then they wait in content/guides-scheduled/.
   const wantVisual = args.includes('--complete-visual')
-  const missing = plan.pages.filter((p) => !have.has(p.path) && (p.batch !== 'visual' || wantVisual)).map((p) => p.path)
+  const missing = plan.pages.filter((p) => !have.has(p.path) && p.batch !== 'god' && (p.batch !== 'visual' || wantVisual)).map((p) => p.path)
   // inbound links from OTHER new pages
   const inbound = Object.fromEntries(plan.pages.map((p) => [p.path, 0]))
   for (const r of built) for (const h of r.stats.links) if (h in inbound && h !== r.stats.path) inbound[h]++
   const planByPath = Object.fromEntries(plan.pages.map((p) => [p.path, p]))
-  const need = (path) => (planByPath[path].batch === 'visual' ? 2 : 3)
+  // a scheduled page needs its hub's link (pages released later add more over the weeks)
+  const need = (path) => (planByPath[path].batch === 'god' ? 1 : planByPath[path].batch === 'visual' ? 2 : 3)
   const starved = Object.entries(inbound).filter(([path, n]) => have.has(path) && n < need(path))
   if (REPORT) {
     console.log('\npath | body words | sources (gov/edu) | FAQs | media | inbound from new pages')

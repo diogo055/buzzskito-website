@@ -13,7 +13,11 @@ const ROOT = process.cwd()
 const DIR = join(ROOT, 'data', 'us-pages', 'checked')
 mkdirSync(DIR, { recursive: true })
 const sha = (f) => createHash('sha256').update(readFileSync(f, 'utf8').replace(/\r\n/g, '\n')).digest('hex')
-const guideFile = (id) => join(ROOT, 'content', 'guides', `${id}.json`)
+// a scheduled page is checked where it waits (content/guides-scheduled/); the record moves with it
+const guideFile = (id) => {
+  const live = join(ROOT, 'content', 'guides', `${id}.json`), waiting = join(ROOT, 'content', 'guides-scheduled', `${id}.json`)
+  return existsSync(live) || !existsSync(waiting) ? live : waiting
+}
 const pageFile = (route) => join(ROOT, 'app', route, 'page.tsx')
 const ledger = (kind, id) => join(DIR, `${kind === 'guide' ? '' : 'existing__'}${id.replace(/\//g, '__')}.json`)
 

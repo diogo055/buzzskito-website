@@ -108,6 +108,24 @@ if (existsSync(visualFile)) {
   }
 }
 
+// ── third batch (Nov 2026 on): the scheduled "god build", see data/god-build/README.md ──
+// Each page goes live on its own date (`releaseOn`), so `datePublished` is that date. Until
+// then the page waits in content/guides-scheduled/ and scripts/release-scheduled.mjs moves it.
+const godFile = join(ROOT, 'data', 'god-build', 'plan.src.json')
+if (existsSync(godFile)) {
+  for (const v of JSON.parse(readFileSync(godFile, 'utf8')).pages) {
+    const section = v.section || 'blog'
+    pages.push({
+      slug: v.slug, kind: 'spoke', section, cluster: v.cluster, path: `/${section}/${v.slug}`,
+      keyword: v.keyword, alsoTargets: v.alsoTargets || [], ranks: [],
+      type: 'informational', flags: v.flags || [], minWords: v.minWords || 1800, datePublished: v.releaseOn,
+      projClicks: 0, batch: 'god', audience: 'us', role: v.role || 'page', series: v.series || null, state: v.state || null,
+      releaseOn: v.releaseOn, parent: v.parent || null, h1Hint: v.h1Hint || null, scope: v.scope, dataPacket: v.dataPacket || null,
+      required: { pillar: null, ring: [], minSiblings: 0, minExisting: v.minExisting ?? 2, category: null, mustLink: v.mustLink || [], neighbors: v.neighbors || [], minNeighbors: v.minNeighbors ?? 2, seriesAll: v.seriesAll || [] },
+    })
+  }
+}
+
 // planned addresses that do not exist yet but will by the time the site builds
 const planned = new Set([...pages.map((p) => p.path), '/pest-product-guides/ant-control', '/pest-product-guides/cockroach-control'])
 const clash = [...planned].filter((p) => existing.has(p))

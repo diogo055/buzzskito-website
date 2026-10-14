@@ -1,0 +1,87 @@
+# Publishes the scheduled pages whose release date has come (data/god-build/plan.src.json).
+#
+# Runs every morning. On days with nothing due it stops after a few seconds. When pages are
+# due it moves them live (scripts/release-scheduled.mjs), builds the whole site and runs every
+# guard exactly as Vercel does, and pushes to main only if all of them pass. That push is what
+# makes Vercel deploy. If anything fails, nothing is pushed, the live site stays as it was, and
+# GitHub emails a failure notice; the next morning's run tries again.
+#
+# Run it by hand: GitHub > Actions > "Release scheduled pages" > Run workflow (a date can be
+# given, and "dry run" only reports what would go out).
+name: Release scheduled pages
+
+on:
+  schedule:
+    - cron: '15 12 * * *' # 12:15 UTC: 7:15 am Toronto in winter, 8:15 am in summer
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Release as of this date (YYYY-MM-DD). Leave blank for today.'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Only report what would be released'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-scheduled
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      RELEASE_DATE: ${{ inputs.date }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: What is due?
+        id: due
+        run: node scripts/release-scheduled.mjs --check
+
+      - name: Dry run
+        if: steps.due.outputs.due != '0' && inputs.dry_run == true
+        run: node scripts/release-scheduled.mjs --dry-run
+
+      - name: Move the due pages live
+        id: release
+        if: steps.due.outputs.due != '0' && inputs.dry_run != true
+        run: |
+          echo "start=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          node scripts/release-scheduled.mjs
+
+      - name: Install
+        if: steps.release.outputs.released > 0
+        run: npm ci
+
+      - name: Build the site and run every guard (the same chain Vercel runs)
+        if: steps.release.outputs.released > 0
+        # --ignore-scripts skips "postbuild" (the Google Indexing API submit): the pages are not live yet
+        run: npm run build --ignore-scripts
+
+      - name: Push to main (Vercel deploys from this push)
+        if: steps.release.outputs.released > 0
+        run: |
+          git config user.name "BuzzSkito"
+          git config user.email "diogoaofrancisco@gmail.com"
+          git add -A content data app lib public next.config.mjs scripts/index-urls.mjs new-urls.txt build-manifest.json reports
+          echo "Other changes left out of the commit (should be none):"
+          git status --porcelain
+          git commit -F data/god-build/last-release-commit.txt
+          git fetch origin main
+          if [ "$(git rev-parse origin/main)" != "${{ steps.release.outputs.start }}" ]; then
+            echo "::error::main changed while this release was building; nothing pushed. Run the workflow again."
+            exit 1
+          fi
+          git push origin HEAD:main

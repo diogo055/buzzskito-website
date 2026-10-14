@@ -117,6 +117,106 @@
 - `/learn/aphid-control-guide` — how to get rid of aphids naturally
 - `/learn/whitefly-identification-control` — how to get rid of whiteflies
 - `/learn/natural-weed-control` — natural weed killer
+- `/learn/ticks-by-state` — ticks by state
+- `/blog/ticks-in-pennsylvania` — ticks in pennsylvania
+- `/blog/ticks-in-new-york` — ticks in new york
+- `/blog/ticks-in-new-jersey` — ticks in new jersey
+- `/blog/ticks-in-connecticut` — ticks in connecticut
+- `/blog/ticks-in-massachusetts` — ticks in massachusetts
+- `/blog/ticks-in-wisconsin` — ticks in wisconsin
+- `/blog/ticks-in-minnesota` — ticks in minnesota
+- `/blog/ticks-in-virginia` — ticks in virginia
+- `/blog/ticks-in-maryland` — ticks in maryland
+- `/blog/ticks-in-north-carolina` — ticks in north carolina
+- `/blog/ticks-in-tennessee` — ticks in tennessee
+- `/blog/ticks-in-georgia` — ticks in georgia
+- `/blog/ticks-in-texas` — ticks in texas
+- `/blog/ticks-in-ohio` — ticks in ohio
+- `/blog/ticks-in-indiana` — ticks in indiana
+- `/blog/ticks-in-illinois` — ticks in illinois
+- `/blog/ticks-in-missouri` — ticks in missouri
+- `/blog/ticks-in-kentucky` — ticks in kentucky
+- `/blog/ticks-in-maine` — ticks in maine
+- `/blog/ticks-in-new-hampshire` — ticks in new hampshire
+- `/blog/ticks-in-vermont` — ticks in vermont
+- `/blog/ticks-in-rhode-island` — ticks in rhode island
+- `/blog/ticks-in-delaware` — ticks in delaware
+- `/blog/ticks-in-west-virginia` — ticks in west virginia
+- `/blog/ticks-in-arkansas` — ticks in arkansas
+- `/blog/ticks-in-oklahoma` — ticks in oklahoma
+- `/blog/ticks-in-alabama` — ticks in alabama
+- `/blog/ticks-in-mississippi` — ticks in mississippi
+- `/blog/ticks-in-south-carolina` — ticks in south carolina
+- `/blog/ticks-in-florida` — ticks in florida
+- `/blog/ticks-in-louisiana` — ticks in louisiana
+- `/blog/ticks-in-iowa` — ticks in iowa
+- `/blog/ticks-in-kansas` — ticks in kansas
+- `/blog/ticks-in-nebraska` — ticks in nebraska
+- `/blog/ticks-in-california` — ticks in california
+- `/blog/ticks-in-oregon` — ticks in oregon
+- `/blog/ticks-in-washington` — ticks in washington
+- `/blog/ticks-in-colorado` — ticks in colorado
+- `/blog/ticks-in-idaho` — ticks in idaho
+- `/blog/ticks-in-montana` — ticks in montana
+- `/blog/ticks-in-utah` — ticks in utah
+- `/blog/ticks-in-arizona` — ticks in arizona
+- `/blog/ticks-in-new-mexico` — ticks in new mexico
+- `/blog/ticks-in-nevada` — ticks in nevada
+- `/blog/ticks-in-wyoming` — ticks in wyoming
+- `/blog/ticks-in-north-dakota` — ticks in north dakota
+- `/blog/ticks-in-south-dakota` — ticks in south dakota
+- `/blog/ticks-in-alaska` — ticks in alaska
+- `/blog/ticks-in-hawaii` — ticks in hawaii
+- `/learn/mosquitoes-by-state` — mosquitoes by state
+- `/blog/mosquitoes-in-florida` — mosquitoes in florida
+- `/blog/mosquitoes-in-texas` — mosquitoes in texas
+- `/blog/mosquitoes-in-louisiana` — mosquitoes in louisiana
+- `/blog/mosquitoes-in-georgia` — mosquitoes in georgia
+- `/blog/mosquitoes-in-california` — mosquitoes in california
+- `/blog/mosquitoes-in-arizona` — mosquitoes in arizona
+- `/blog/mosquitoes-in-north-carolina` — mosquitoes in north carolina
+- `/blog/mosquitoes-in-south-carolina` — mosquitoes in south carolina
+- `/blog/mosquitoes-in-alabama` — mosquitoes in alabama
+- `/blog/mosquitoes-in-mississippi` — mosquitoes in mississippi
+- `/blog/mosquitoes-in-tennessee` — mosquitoes in tennessee
+- `/blog/mosquitoes-in-virginia` — mosquitoes in virginia
+- `/blog/mosquitoes-in-new-york` — mosquitoes in new york
+- `/blog/mosquitoes-in-new-jersey` — mosquitoes in new jersey
+- `/blog/mosquitoes-in-pennsylvania` — mosquitoes in pennsylvania
+- `/blog/mosquitoes-in-ohio` — mosquitoes in ohio
+- `/blog/mosquitoes-in-minnesota` — mosquitoes in minnesota
+- `/blog/mosquitoes-in-wisconsin` — mosquitoes in wisconsin
+- `/blog/mosquitoes-in-illinois` — mosquitoes in illinois
+- `/blog/mosquitoes-in-michigan` — mosquitoes in michigan
+- `/blog/mosquitoes-in-indiana` — mosquitoes in indiana
+- `/blog/mosquitoes-in-missouri` — mosquitoes in missouri
+- `/blog/mosquitoes-in-arkansas` — mosquitoes in arkansas
+- `/blog/mosquitoes-in-oklahoma` — mosquitoes in oklahoma
+- `/blog/mosquitoes-in-kentucky` — mosquitoes in kentucky
+- `/blog/mosquitoes-in-maryland` — mosquitoes in maryland
+- `/blog/mosquitoes-in-massachusetts` — mosquitoes in massachusetts
+- `/blog/mosquitoes-in-connecticut` — mosquitoes in connecticut
+- `/blog/mosquitoes-in-north-dakota` — mosquitoes in north dakota
+- `/blog/mosquitoes-in-colorado` — mosquitoes in colorado
+- `/blog/mosquitoes-in-washington` — mosquitoes in washington
+- `/blog/mosquitoes-in-oregon` — mosquitoes in oregon
+- `/blog/mosquitoes-in-maine` — mosquitoes in maine
+- `/blog/mosquitoes-in-new-hampshire` — mosquitoes in new hampshire
+- `/blog/mosquitoes-in-vermont` — mosquitoes in vermont
+- `/blog/mosquitoes-in-delaware` — mosquitoes in delaware
+- `/blog/mosquitoes-in-rhode-island` — mosquitoes in rhode island
+- `/blog/mosquitoes-in-west-virginia` — mosquitoes in west virginia
+- `/blog/mosquitoes-in-iowa` — mosquitoes in iowa
+- `/blog/mosquitoes-in-kansas` — mosquitoes in kansas
+- `/blog/mosquitoes-in-nebraska` — mosquitoes in nebraska
+- `/blog/mosquitoes-in-south-dakota` — mosquitoes in south dakota
+- `/blog/mosquitoes-in-utah` — mosquitoes in utah
+- `/blog/mosquitoes-in-nevada` — mosquitoes in nevada
+- `/blog/mosquitoes-in-new-mexico` — mosquitoes in new mexico
+- `/blog/mosquitoes-in-idaho` — mosquitoes in idaho
+- `/blog/mosquitoes-in-montana` — mosquitoes in montana
+- `/blog/mosquitoes-in-wyoming` — mosquitoes in wyoming
+- `/blog/mosquitoes-in-hawaii` — mosquitoes in hawaii
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 
