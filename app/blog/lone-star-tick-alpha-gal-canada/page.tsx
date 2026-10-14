@@ -230,15 +230,6 @@ export default function LoneStarTickAlphaGalCanadaPage() {
           </ol>
           <p className="not-prose text-gray-700 leading-relaxed">Step two is the one most people under-do: a repellent with a PCP registration number on the label, applied to socks, ankles and lower legs, because ticks climb aboard from the ground up rather than landing from the air. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">See icaridin repellents on Amazon.ca &rarr;</BuyLink></p>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Cut the tick population where bites happen</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians treat lawn edges, fence lines, and shaded perimeters — the exact zones where ticks wait — with a registered residual acaricide applied according to label directions. Serving 19 GTA cities with 150 five-star reviews.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/tick-control" className="btn-primary-sm">See Tick Control →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>The bottom line for Ontario residents</h2>
           <p>The lone star tick is the cause of alpha-gal syndrome, and alpha-gal syndrome is a genuine, sometimes serious red meat allergy. But the lone star tick is not established in Canada — only occasional individuals turn up, and there is no confirmed breeding population in Ontario as of 2026. Your realistic tick risk in the GTA is Lyme disease from the blacklegged tick, which is exactly why the prevention steps above are worth building into every warm-weather outing. Watch the lone star tick as a slow-moving, climate-linked story; act on the ticks Ontario already has.</p>
 

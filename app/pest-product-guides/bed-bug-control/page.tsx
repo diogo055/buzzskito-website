@@ -456,10 +456,6 @@ export default function BedBugControlHubPage() {
           ),
         }}
         faqs={FAQS}
-        cta={{
-          heading: 'We treat mosquitoes and ticks — not bed bugs',
-          subtext: 'BuzzSkito is a GTA mosquito & tick control service. If biting bugs in your yard are the problem, book a free yard assessment.',
-        }}
       />
       <StickyBuyBar tag={AMZ_TAG} name="Vapamore MR-100 Primo dry-vapour steamer" search="vapamore mr-100 steamer" label="Our top pick" />
     </>

@@ -310,15 +310,6 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
           <h2>Where These Fit Alongside Your Other Equipment</h2>
           <p>Professional mosquito control on a large property is a stack of tools, each doing a job the others cannot, and traps sit inside a wider kit. For treating breeding water directly, BTI larvicide handles the pools you <em>can</em> find. For applying a residual yourself over a large area, a <Link href="/blog/backpack-sprayer-canada">backpack sprayer</Link> or a <Link href="/blog/best-gas-backpack-fogger-canada">gas backpack fogger</Link> puts product onto vegetation &mdash; and if you are weighing droplet technology, our <Link href="/blog/thermal-vs-ulv-fogger-canada">thermal vs ULV fogger</Link> and <Link href="/blog/propane-vs-electric-fogger-canada">propane vs electric fogger</Link> comparisons explain which suits acreage. For the tick half of the problem that no trap addresses, an <Link href="/blog/best-atv-sprayer-for-tick-yard-canada">ATV sprayer for a tick yard</Link> covers ground fast. And a <Link href="/blog/motion-activated-sprinkler-canada">motion-activated sprinkler</Link> keeps wildlife (and their ticks) off the lawn edge. The full line-up lives in our <Link href="/blog/best-pest-control-equipment-canada">Canadian pest control equipment hub</Link>.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or skip the hardware entirely</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray treats your whole yard &mdash; mosquitoes <em>and</em> ticks &mdash; from $99, with a rain-back guarantee on every plan, backed by 150 five-star reviews across 19 GTA cities. No propane, no refills, no acre-by-acre placement math.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Professional Traps vs Barrier Spray for Real GTA Properties</h2>
           <p>Traps, stations, and barrier spray are not really rivals &mdash; they solve different problems on different timelines. A trap or station slowly suppresses the population over weeks and shines on large, chronic-problem acreage. A professional barrier spray leaves a residual on the leaves where mosquitoes rest and kills them on contact, is renewed on the plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic), covers the entire yard regardless of shape, and &mdash; uniquely &mdash; controls ticks. Here is how the professional options stack up:</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

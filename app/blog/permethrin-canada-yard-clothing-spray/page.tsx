@@ -506,15 +506,6 @@ export default function PermethrinCanadaPage() {
           <p>If you want yard-wide tick and mosquito treatment (not just clothing), the only legal residential option in Ontario is hiring a licensed pesticide operator. Licensed Ontario applicators use PCP-registered formulations (typically bifenthrin or deltamethrin-based), applied according to label directions and renewed on a schedule through the season.</p>
           <p>BuzzSkito is licensed under Ontario Pesticide Operator Licence #L-240-2436835197 and provides residential mosquito and tick barrier spray across the GTA. Single treatments start at $99; seasonal mosquito plans cover the full May–September season with monthly, every-2-weeks or weekly applications (from $549), and the seasonal tick program runs 5 sprays ($597 on its own, $497 with a mosquito plan). The properties that need it most are the ones backing onto the same escarpment and moraine habitat you would spray your hiking pants for &mdash; our <Link href="/caledon-tick-spray">tick spray in Caledon</Link> and <Link href="/burlington-tick-spray">Burlington tick control</Link> pages show what a yard treatment covers on those lots. <Link href="/mosquito-control">Get a free quote for your property →</Link></p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — backed by 150+ five-star reviews and serving 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Permethrin vs Other Repellents — Side-by-Side</h2>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">

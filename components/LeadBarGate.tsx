@@ -5,6 +5,7 @@ import { ADJACENT_PEST_ROUTES } from '@/lib/adjacent-pest-routes'
 import { US_GUIDE_ADJACENT_ROUTES } from '@/lib/us-guide-routes'
 import { KEEP_READING_BAR_ROUTES } from '@/lib/keep-reading-bar-routes'
 import { READER_TOOL_ROUTES } from '@/lib/tool-routes'
+import { isTrafficPage } from '@/lib/page-roles'
 
 /**
  * Route gate for the mobile lead bar in the root layout.
@@ -45,6 +46,10 @@ export default function LeadBarGate({
   if (path && KEEP_READING_BAR_ROUTES.has(path)) return null
   // Reader tools for a national audience (the pest identifier quiz), see lib/tool-routes.ts.
   if (path && READER_TOOL_ROUTES.has(path)) return null
+  // Every traffic page (owner, Oct 14, 2026): articles, guides, hubs and national data pages
+  // read mostly outside the GTA. Covers the three lists above and the articles that keep the
+  // Amazon bar, so that bar is alone at the bottom there. See lib/page-roles.ts.
+  if (isTrafficPage(path)) return null
   if (path && except?.includes(path)) return null
   return <>{children}</>
 }

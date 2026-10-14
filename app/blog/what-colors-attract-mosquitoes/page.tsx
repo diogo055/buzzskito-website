@@ -197,15 +197,6 @@ export default function WhatColorsAttractMosquitoesPage() {
           <p>The colour story is fascinating, but it is important to keep it in proportion. A female mosquito finding a host works in stages: she detects a plume of CO2 from up to 10 metres away, then follows body heat and skin odours such as lactic acid, ammonia, and the compounds your skin bacteria produce, and only in the final approach does vision &mdash; colour and contrast &mdash; guide her landing. Colour is the last and weakest link in that chain.</p>
           <p>That is why changing your shirt from black to white helps a little, but changing your whole environment helps a lot. In a GTA backyard, the highest-impact moves are eliminating standing water where mosquitoes breed (they can complete a life cycle in as little as 8&ndash;10 days in warm weather), using a registered repellent on exposed skin, and treating the yard&rsquo;s resting vegetation with a residual barrier where mosquitoes spend the day.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Stop dressing around the problem</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">No shirt colour beats a treated yard. BuzzSkito&rsquo;s professional barrier spray covers your whole property from $99 &mdash; treating the shaded vegetation where mosquitoes rest, with products applied according to label directions. Backed by 150+ five-star Google reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>The Bottom Line for GTA Backyards</h2>
           <p>If you take one thing from the 2022 research: mosquitoes hunt <strong>red, orange, black, and cyan</strong> and ignore <strong>green, blue, purple, and white</strong> &mdash; but only after your breath has already given you away. Wear light, cool colours as a small advantage, cover exposed skin, use a repellent with a PCP registration number, and remove standing water. For a yard you can actually enjoy from May through September, pair those habits with a professional <Link href="/mosquito-control">barrier spray program</Link> that treats the places mosquitoes rest rather than just how visible you are to them.</p>
 

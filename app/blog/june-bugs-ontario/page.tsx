@@ -172,15 +172,6 @@ export default function JuneBugsOntarioPage() {
           </ol>
           <p>This is why the beetles at the light in June are, in effect, last year&rsquo;s (or years-ago&rsquo;s) grub damage coming back to breed. Break the grub stage and next summer&rsquo;s swarm shrinks.</p>
 
-          <aside aria-label="Professional yard pest control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Sharing your yard with more than just June bugs?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">June bugs are just a nuisance, but the mosquitoes and ticks in the same yard are not. BuzzSkito&rsquo;s professional barrier spray treats the shaded edges and vegetation where biting pests hide — from $99, backed by 150+ five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Spotting White-Grub Lawn Damage</h2>
           <p>Grub damage tends to peak in late summer and early fall. Watch for:</p>
           <ul>

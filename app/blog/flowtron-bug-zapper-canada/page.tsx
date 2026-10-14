@@ -270,15 +270,6 @@ export default function FlowtronBugZapperCanadaPage() {
           </ul>
           <p>Give a new unit a few nights before you judge it. If it is drawing a crowd of moths to a far corner of the yard instead of your patio, that is it working correctly.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Want fewer mosquitoes biting?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A zapper handles moths; a barrier spray handles the biting. BuzzSkito treats your whole yard&rsquo;s vegetation from $99 for a single visit — and our tick program runs $597/season standalone or $497 bundled with any mosquito plan. Serving 19 GTA cities with 150 five-star reviews.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Maintenance: Bulb and Grid</h2>
           <p>Two simple habits keep a Flowtron catching well, and skipping them is why people wrongly conclude their zapper &ldquo;stopped working.&rdquo;</p>
           <p><strong>Replace the UV bulb roughly once a season.</strong> The bulb keeps glowing to your eye long after its insect-attracting UV output has faded — think 5,000–8,000 hours, which is about one full summer of nightly use. If you run it all season, install a fresh bulb every spring. The BK-40D uses the <strong>Flowtron BF-190 replacement bulb</strong>. A dim, year-old bulb that still looks lit is the number-one reason a zapper underperforms in its second season.</p>

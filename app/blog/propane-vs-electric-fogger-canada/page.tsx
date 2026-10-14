@@ -298,15 +298,6 @@ export default function PropaneVsElectricFoggerCanadaPage() {
           </table>
           <p>Many committed DIYers own both a fogger and a sprayer: the sprayer lays the durable barrier, the fogger delivers the dramatic pre-event knockdown. If you can buy only one and want lasting mosquito-and-tick coverage, the sprayer is usually more versatile; if you want instant wide-area clearing before guests arrive, the fogger wins.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or skip the fuel, the fog, and the guesswork</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray covers your whole GTA yard from $99 &mdash; correctly calibrated equipment, a licensed application according to label directions, a residual renewed on your plan&rsquo;s schedule, and it targets ticks too. Backed by 150 five-star reviews across 19 cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <TopPick tag={AMZ_TAG}
             label="Our Winner: Propane vs Electric"
             name="Burgess Propane Thermal Fogger"

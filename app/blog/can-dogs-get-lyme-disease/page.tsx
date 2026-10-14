@@ -247,15 +247,6 @@ export default function CanDogsGetLymeDiseasePage() {
           </ol>
           <p>Daily checks only help if you know what you are looking at. Our photo guide to <Link href="/blog/what-does-tick-look-like-on-dog" className="text-brand-700 underline">what a tick looks like on a dog</Link> shows unfed beside engorged and sorts out the lookalikes — skin tags, scabs, and fleas.</p>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Fewer ticks in the yard, fewer chances to get bitten</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Your dog picks up most of its ticks right at home. BuzzSkito&rsquo;s professional tick barrier spray targets the lawn edges, shrub lines, and leaf litter where ticks wait &mdash; from $597 for the season, or $497 when bundled with a mosquito plan. It complements (never replaces) your vet&rsquo;s tick preventive.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>When to call your veterinarian</h2>
           <p>Call your veterinarian if your dog develops unexplained lameness, fever, tiredness, or reduced appetite &mdash; particularly if there is any chance of tick exposure in the previous few months. Treat vomiting, increased drinking and urination, or limb swelling as urgent, since these can signal the kidney form. And if you are ever unsure whether a symptom is serious, it is always reasonable to phone your clinic or an emergency animal hospital for advice. Early attention consistently produces the best outcomes with canine Lyme disease.</p>
 

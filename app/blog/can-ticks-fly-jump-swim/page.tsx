@@ -162,15 +162,6 @@ export default function CanTicksFlyJumpSwimPage() {
           <h2>Can Ticks Jump? No — That&rsquo;s Fleas</h2>
           <p>This is the most common tick myth, and it comes from confusing ticks with fleas. Fleas have powerful, spring-loaded back legs and can leap roughly 30 cm — well over 100 times their body length. Ticks have nothing of the kind. A tick cannot launch itself even a millimetre; it can only crawl and cling. So the quickest field test in your yard: if the tiny biting bug jumped away, it was a flea; if you found it crawling slowly or already attached, it was a tick.</p>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Ticks wait in your yard&rsquo;s edges — we treat exactly those zones</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Since ticks quest from grass and leaf litter, a barrier spray applied to lawn edges, fence lines, and shaded borders removes them where they actually wait. BuzzSkito protects GTA yards with seasonal tick programs and single treatments from $99.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Can Ticks Swim? No — But They Survive Water Longer Than You&rsquo;d Think</h2>
           <p>Ticks have no swimming appendages and cannot propel themselves through water, so a tick never swims toward a host. You pick ticks up on land, from vegetation — not from a lake, pool, or puddle. But here is the part that surprises people: a tick is remarkably hard to drown. Ticks breathe extremely slowly through tiny openings on their bodies called <strong>spiracles</strong>, and they can seal them and go dormant. A blacklegged tick can survive full submersion for <strong>two to three days</strong>, and some have been kept alive underwater even longer in the lab.</p>
           <p>That has a practical consequence: <strong>a quick rinse, a swim, or a cold wash cycle will not reliably kill a tick.</strong> If you find a tick after being at the lake or in the pool, do not assume the water killed it — a survivor can still bite and transmit disease. Remove any attached tick promptly and treat it as fully live.</p>

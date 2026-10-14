@@ -23,6 +23,7 @@ import { usePathname } from 'next/navigation'
 import { BUSINESS, PROMISES } from '@/lib/constants'
 import { getGaClientId, getLandingPage, getReferrer, getUtm } from '@/lib/attribution'
 import { track } from '@/lib/track'
+import { isTrafficPage } from '@/lib/page-roles'
 import AddressAutocomplete from './AddressAutocomplete'
 
 const HUB_API_URL = process.env.NEXT_PUBLIC_HUB_API_URL || 'https://app.buzzskito.ca'
@@ -54,6 +55,9 @@ const INPUT_CLASS =
 function isExcluded(pathname: string | null): boolean {
   if (!pathname) return false
   if (pathname.startsWith('/blog/')) return true
+  // Traffic pages (Learning Centre, product hubs, national data pages): their readers are
+  // mostly outside the GTA. Owner, Oct 14, 2026; see lib/page-roles.ts.
+  if (isTrafficPage(pathname)) return true
   return EXCLUDED_PATHS.some((p) => pathname === p || pathname.startsWith(`${p}/`))
 }
 

@@ -193,15 +193,6 @@ export default function DoTicksDieInTheWashingMachinePage() {
           </ol>
           <p>Fewer ticks board in the first place if the ankle layer is treated. Consumer permethrin sprays are not registered for sale in Canada, so the route here is factory-treated socks and pants, the format Canada permits for ages 16 and over. <BuyLink tag={AMZ_TAG} search="permethrin treated socks">Check price on Amazon.ca &rarr;</BuyLink></p>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The best tick on your clothes is the one that never boarded</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Ticks quest from lawn edges, leaf litter, and shaded borders &mdash; then hitch a ride indoors. A seasonal barrier spray removes them where they wait, so far fewer ever reach your clothes or skin. BuzzSkito protects GTA yards with tick programs and single treatments from $99.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Your Post-Hike Clothing Protocol (In Order)</h2>
           <p>Laundry is one link in a chain. To actually keep ticks off your body after time in tall grass, brush, or woods, run this sequence:</p>
           <ol>

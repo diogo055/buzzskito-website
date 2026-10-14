@@ -291,15 +291,6 @@ export default function FixStandingWaterYardPage() {
           <h2>Ponds, Water Features and the Case for Circulation</h2>
           <p>If the standing water you are worried about is an ornamental pond, drainage is the wrong frame entirely &mdash; you want the water, you just do not want it still. Mosquito larvae need a calm surface film to hang from and breathe, so moving water is genuinely hostile to them in a way that has nothing to do with chemistry. We covered the sizing, the winterizing and the reason a fountain nozzle is not the same as aeration in <Link href="/blog/pond-aerator-mosquito-larvae-canada">pond aerators vs mosquito larvae</Link>.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Drain the yard. We&rsquo;ll handle what flies in.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Fixing your own standing water lowers the baseline. Adults arriving from the ravine, the creek and the neighbour&rsquo;s untouched low spot are a different job &mdash; BuzzSkito&rsquo;s licensed barrier spray starts at $99 for a single treatment, with season plans at $549, $994 and $2,049. Tick protection is $597 for the season standalone, or $497 bundled with any mosquito plan. Mississauga-based, serving 19+ GTA cities, May through September.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Where to Buy Drainage Parts in Canada</h2>
           <p>Bulk items &mdash; clear stone, rolls of pipe, bags of triple mix &mdash; are cheapest at Home Depot, Rona and Lowe&rsquo;s Canada, or at a local landscape supply yard if you can get a load delivered. Canadian Tire carries downspout extensions, hand tools, utility pumps and smaller fittings reliably through spring and summer, and is usually the closest option for the part you discovered you needed halfway through Saturday.</p>
           <p>Amazon.ca is the better channel for the pieces the big-box aisle runs out of or never stocked in your size: pre-socked perforated pipe, non-woven geotextile by the roll, pop-up emitters, catch-basin adapters, gravel-free bundles, dry well kits and submersible transfer pumps &mdash; and it is the one that still has all of it in August, which is exactly when a summer of standing water finally forces the decision.</p>

@@ -196,15 +196,6 @@ export default function DoTicksFlyOrJumpPage() {
           <h2>Why People Think Ticks Jump or Fall From Trees</h2>
           <p>Two things fuel the myths. First, ticks are often found on the upper body — the scalp, neck, or behind the ears — which makes it feel like they dropped from above. In reality the tick almost always latched onto a lower leg during questing and then <strong>crawled upward</strong> over several minutes looking for a sheltered place to feed. Second, people confuse ticks with fleas. Fleas genuinely jump, and a bite that came with a visible hop was a flea, not a tick.</p>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Ticks wait in your yard&rsquo;s edges — we treat exactly those zones</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Since ticks quest from grass and leaf litter, a barrier spray applied to lawn edges, fence lines, and shaded borders removes them where they actually wait. BuzzSkito protects GTA yards with seasonal tick programs and single treatments from $99.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>How High Do Ticks Climb?</h2>
           <p>In Ontario, ticks quest low. Nymphs (the poppy-seed-sized immature stage responsible for most Lyme transmission) usually wait within a few centimetres to about ankle height. Adult blacklegged ticks climb a bit higher, to roughly knee height, on taller grass and brush. None of them climb to head height to attack. This is why the classic prevention — <strong>tuck your pants into your socks, wear light colours, and treat footwear and pant legs with permethrin</strong> — works so well: it blocks ticks at the exact height they board.</p>
           <p>Factory pre-treated permethrin clothing (the format sold to Canadian consumers, intended for ages 16 and over) covers exactly that ankle-to-knee boarding band, socks and trouser legs included. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca →</BuyLink></p>

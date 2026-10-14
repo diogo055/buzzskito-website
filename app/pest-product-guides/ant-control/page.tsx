@@ -172,7 +172,6 @@ export default function AntControlHubPage() {
           </>,
         }}
         faqs={FAQS}
-        cta={{ heading: 'While the bait does its work, remember mosquito season', subtext: 'BuzzSkito treats mosquitoes and ticks across 19 GTA cities — book a free yard assessment before the summer bite season starts.' }}
       />
     </>
   )

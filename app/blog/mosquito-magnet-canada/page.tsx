@@ -438,15 +438,6 @@ export default function MosquitoMagnetCanadaPage() {
           </ul>
           <p>The same-day gap has its own tool: <Link href="/blog/mosquito-fogger-canada">mosquito foggers</Link> knock down the adult mosquitoes already in a yard within minutes, but leave almost no residual behind, so new ones drift back in from neighbouring properties within a day or two. That is the opposite trade-off to a Magnet, which does nothing for tonight and a lot by August.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — backed by 150+ five-star reviews and serving 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Mosquito Magnet vs Other Solutions for GTA Properties</h2>
           <div className="not-prose overflow-x-auto my-4">
             <table className="min-w-[560px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">

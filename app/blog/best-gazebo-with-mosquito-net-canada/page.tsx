@@ -313,15 +313,6 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
           <p><strong>Anchoring is not optional.</strong> An un-anchored gazebo is a sail, and a summer thunderstorm gust will fold it or launch it across the yard. On a concrete pad, bolt the post feet down with concrete anchors. On a wooden deck, drive heavy lag screws into the deck <em>framing</em>, not just the surface boards, and add weighted leg plates. On grass or soil, use auger-style ground anchors or spiral stakes plus guy ropes to solid points, backed up with sandbags at each post. For soft-tops, open or remove the canopy ahead of a windstorm so air passes through instead of lifting the whole structure &mdash; and take the top down entirely before a major storm. Wind, not water, is what destroys these.</p>
           <p><strong>Winter is a hard rule, not a suggestion.</strong> Soft-top canopies are not rated to carry snow load; one heavy wet snowfall collapses the frame or tears the fabric. Take the canopy and screen walls off before winter &mdash; many owners leave the bare metal frame standing and store the fabric indoors. Hard-tops with a rigid roof are built to stay up, but you still rake off deep accumulation and honour the snow-load rating. On either type, removing the fabric screen walls over winter roughly doubles their lifespan.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Netting keeps them off the deck. We treat the whole yard.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A screened gazebo protects the table you sit at &mdash; but the lawn, the garden, and the walk from the door are still open season. BuzzSkito&rsquo;s professional barrier spray leaves a residual on the leaves where mosquitoes rest, renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic), and targets ticks where they wait. From $99, backed by 150+ five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Yard Assessment →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Gazebo vs Cheaper Alternatives — the Honest Comparison</h2>
           <p>Before you spend on a full screened gazebo, it is worth knowing when something cheaper does the job &mdash; and when it doesn&rsquo;t. Here is how the realistic options stack up for a Canadian deck.</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

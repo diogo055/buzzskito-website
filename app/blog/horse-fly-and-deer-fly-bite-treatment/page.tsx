@@ -105,9 +105,6 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
           </div>
 
           {/* Service arm first: the lead CTA outranks every affiliate element below it. */}
-          <aside aria-label="Biting-fly and mosquito control across the GTA" className="not-prose my-6 rounded-xl border-l-4 border-amber-400 bg-amber-50 p-5">
-            <p className="text-sm text-gray-800 leading-relaxed"><strong className="text-brand-900">Getting bitten in your own yard?</strong> Horse flies and deer flies rest in the same damp, shaded borders that breed mosquitoes. BuzzSkito treats those edges across 19 GTA cities, from $99 for a single treatment. <Link href="/free-yard-assessment" className="text-brand-700 underline font-semibold">Get a free yard assessment</Link> or call <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600">(289) 216-5030</a>.</p>
-          </aside>
 
           <AffiliateDisclosure />
 
@@ -210,15 +207,6 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
             <li><strong>Manage the pain.</strong> If the bite is genuinely sore, an ordinary pain reliever such as acetaminophen or ibuprofen takes the edge off.</li>
           </ol>
           <p>Keep an after-bite product in your bag or car during fly season so relief is on hand the moment you are bitten. <BuyLink tag={AMZ_TAG} search="after bite itch relief">Check after-bite relief on Amazon →</BuyLink></p>
-
-          <aside aria-label="Professional yard protection" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Biting flies love shaded, damp yard edges</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Horse flies and deer flies rest in the same overgrown, humid borders where mosquitoes breed. A professional barrier treatment on lawn edges, fence lines and shaded borders knocks back the biting-insect pressure around your patio. That edge-and-treeline application matters most on the wooded, wetland-backed lots common in the rural GTA &mdash; the properties we cover with <Link href="/caledon-mosquito-control" className="text-brand-700 underline">mosquito control in Caledon</Link> and <Link href="/halton-hills-mosquito-control" className="text-brand-700 underline">Halton Hills mosquito control</Link>. BuzzSkito protects GTA yards with seasonal programs and <Link href="/mosquito-control-cost" className="text-brand-700 underline">single treatments from $99</Link>.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/mosquito-control" className="btn-primary-sm">Explore Mosquito Control →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
 
           <h2>How Long Does a Horse Fly Bite Take to Heal?</h2>
           <p>For most people the timeline looks like this: a sharp <strong>sting for the first few hours</strong>, then an itchy, swollen red bump that peaks over <strong>2–4 days</strong>, and full healing within about <strong>a week</strong>. Because the skin was cut rather than cleanly pierced, a horse fly bite can stay raised and pink a little longer than a mosquito bite, and a small scab is normal. The key thing to track is <em>direction</em>: a normal bite gets better each day. A bite that gets redder, hotter, more swollen or more painful after the first 48 hours is a warning sign, not part of normal healing.</p>

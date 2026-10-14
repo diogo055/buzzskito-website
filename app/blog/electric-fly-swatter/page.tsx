@@ -269,15 +269,6 @@ export default function ElectricFlySwatterCanadaPage() {
           <p><strong>Moths, fruit flies, cluster flies: good to excellent.</strong> Fruit flies die even at low voltage; big October cluster flies on cottage ceilings are exactly what the Executioner Pro&rsquo;s reach and C-cell zap are for.</p>
           <p><strong>Ticks: zero.</strong> Ticks do not fly. Nothing with a grid, a fan, or a UV bulb touches a tick problem — that requires targeted treatment of the tall grass and leaf-litter edges where ticks quest.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The racket handles the one that got inside. We handle the yard.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray treats the vegetation where mosquitoes actually rest — from $99 per treatment, re-applied through the season, serving 19 GTA cities. Tick protection adds $497/season to any mosquito plan.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Battery vs USB-Rechargeable: Match It to Where the Racket Lives</h2>
           <p>The category splits cleanly. <strong>USB-rechargeable</strong> (Zap It&rsquo;s 4,000V line) means no battery costs ever, roughly 10,000 zaps per two-hour charge, and an LED headlamp — ideal for the racket that lives in the kitchen. Check the specific listing for the port type: newer revisions have moved to USB-C while older stock charges over micro-USB.</p>
           <p><strong>Alkaline-powered</strong> (Executioner, Black Flag) means the racket wakes up instantly after six months in a drawer — which is why it is the correct choice for cottages, trailers, and boats. AA cells keep for years; a lithium pack self-discharges over a winter, and nobody remembers to charge the fly swatter in May. The Executioner Pro&rsquo;s two C cells are the cottage endgame: months of heavy cluster-fly season on one set.</p>

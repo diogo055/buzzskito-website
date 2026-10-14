@@ -296,15 +296,6 @@ export default function BestThermalFoggerCanadaPage() {
           <p>Here is where people get burned: the fogger hardware sold in the United States and in Canada is frequently identical, so it is natural to assume the fluids are interchangeable too. They are not. Many of the most popular US fogging concentrates &mdash; various pyrethrin and permethrin fogging solutions marketed heavily to American homeowners &mdash; have <strong>never been registered in Canada</strong>, and importing or applying an unregistered pesticide is an offence under the Pest Control Products Act. Buying a Longray or a Black Flag is fine. Pouring an American fogging concentrate you ordered across the border into it is not.</p>
           <p>The practical rule is simple: buy the machine wherever you like, then source a <strong>PMRA-registered, oil-based fogging fluid</strong> (or a registered concentrate diluted in the label-specified fogging oil) and confirm the PCP number is on the label before you fog. Note the &ldquo;oil-based&rdquo; part too &mdash; thermal foggers need an oil- or glycol-based fluid built for heat vaporization, whereas most water-based concentrates are formulated for cold <Link href="/blog/best-ulv-cold-fogger-canada">ULV foggers</Link>. Putting the wrong carrier in a hot barrel can flame, clog, or produce an unsafe fog. Match the fluid to both the machine type and Canadian registration, every time.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or skip the machine entirely</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians bring the pro-grade equipment to your door and apply product according to label directions &mdash; whole-yard mosquito coverage from $99 with tick plans available, backed by 150+ five-star reviews across 19 GTA cities. No hardware to buy, store, or maintain, and the licensing and liability are ours, not yours.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>How to Choose: Sizing and What You&rsquo;re Actually Paying For</h2>
           <p>Foggers span a ten-fold price range, so it is worth being clear-eyed about what the premium buys and whether your property justifies it. Work through these in order:</p>
           <ul>

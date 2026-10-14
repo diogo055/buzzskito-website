@@ -286,15 +286,6 @@ export default function BackpackSprayerCanadaPage() {
             <li><strong>Spring wake-up:</strong> silicone grease on seals and O-rings, run a tank of plain water first, and check every fitting under pressure before the first real load.</li>
           </ol>
 
-          <aside aria-label="Professional mosquito and tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or skip the $300 sprayer and your weekends</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians apply commercial-class barrier spray — the product class homeowners can&rsquo;t buy — from $99 for a single treatment, with tick protection at $597/season standalone or $497 bundled with any mosquito plan. Serving 19 GTA cities, backed by 150 five-star Google reviews.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>DIY Sprayer vs Professional Service: The Real Comparison</h2>
           <p>A good battery backpack sprayer plus domestic-class product will genuinely reduce mosquito pressure on a typical GTA lot — if you spray thoroughly, on schedule, every three weeks, all season. The honest failure mode isn&rsquo;t the hardware; it&rsquo;s the fourth weekend in a row. Professionals bring commercial-class residual products, calibrated equipment, and a schedule that doesn&rsquo;t slip because someone had a cottage weekend. We&rsquo;ve laid out the full cost, effort, and results math in our <Link href="/blog/professional-vs-diy-mosquito-control-gta-comparison">professional vs DIY mosquito control comparison</Link> — read it before you commit to either path.</p>
 

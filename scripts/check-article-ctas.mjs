@@ -38,6 +38,12 @@ walk(APP, '')
 
 const isArticle = (p) => /^\/(blog|learn)\/[^/]+$/.test(p)
 const problems = []
+// topic cluster of each article (lib/article-index.json), for the quiet quote line rule below
+const CLUSTER = Object.fromEntries(JSON.parse(readFileSync(join(ROOT, 'lib', 'article-index.json'), 'utf8')).articles.map((a) => [a.path, a.cluster]))
+const QUOTE_LINE_CLUSTERS = new Set(['mosquitoes', 'ticks'])
+// service-side content pages keep the line too (lib/page-roles.ts, same rule)
+const PAGE_ROLES = JSON.parse(readFileSync(join(ROOT, 'lib', 'page-roles.json'), 'utf8'))
+const isTrafficPage = (p) => !PAGE_ROLES.leadPosts.includes(p) && !PAGE_ROLES.localInfo.includes(p) && (PAGE_ROLES.nationalDataPages.includes(p) || ['/blog', '/learn', '/pest-product-guides', '/tools'].some((s) => p === s || p.startsWith(s + '/')))
 const out = { keepReading: [], keepsQuoteCta: [] }
 let others = 0
 for (const { path, file } of pages) {
@@ -59,8 +65,11 @@ for (const { path, file } of pages) {
   if (blocks.length !== 1) { problems.push(`${path}: expected one "Keep reading" block, found ${blocks.length}`); continue }
   const cards = (blocks[0].match(/<li\b/g) || []).length
   if (cards !== 3) problems.push(`${path}: "Keep reading" shows ${cards} cards, expected 3`)
+  // One quiet text link to the quote form on mosquito and tick articles; none on the others,
+  // whose readers cannot become customers (owner, Oct 14, 2026; components/ReadNext.tsx).
   const quoteLinks = (blocks[0].match(/href="\/free-yard-assessment"/g) || []).length
-  if (quoteLinks !== 1) problems.push(`${path}: "Keep reading" should carry exactly one text link to the quote form, found ${quoteLinks}`)
+  const wantQuoteLine = QUOTE_LINE_CLUSTERS.has(CLUSTER[path] || 'general') || !isTrafficPage(path) ? 1 : 0
+  if (quoteLinks !== wantQuoteLine) problems.push(`${path}: "Keep reading" should carry ${wantQuoteLine} text link(s) to the quote form, found ${quoteLinks}`)
   if (quote.length) problems.push(`${path}: still renders a quote CTA component (${quote.join(', ')})`)
   // the three cards must point at real, different articles and never at the page itself
   const hrefs = [...blocks[0].matchAll(/<a[^>]*href="(\/(?:blog|learn)\/[^"#?]+)"/g)].map((m) => m[1])

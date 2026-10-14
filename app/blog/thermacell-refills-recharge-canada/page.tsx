@@ -230,15 +230,6 @@ export default function ThermacellRefillsRechargeCanadaPage() {
           <h2>Where to Buy Thermacell Refills in Canada</h2>
           <p>Refills are widely stocked. <strong>Amazon.ca</strong> carries every refill type year-round with the fastest delivery and the clearest listings. <strong>Canadian Tire</strong>, <strong>Home Depot Canada</strong>, and <strong>Walmart Canada</strong> stock the common E-Series and Original packs in season, and outdoor specialists like <strong>Cabela&rsquo;s Canada</strong> and <strong>Bass Pro Shops</strong> carry the Backpacker mats. In-store stock is seasonal &mdash; shelves fill in May and thin out by August &mdash; so if you rely on your Thermacell all summer, it is worth ordering a multi-pack early. For a full retailer-by-retailer breakdown, see our <Link href="/blog/thermacell-canada-where-to-buy">Thermacell Canada &mdash; where to buy guide</Link>.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">A Thermacell covers the table. We cover the yard.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats the vegetation where mosquitoes rest across your whole property &mdash; from $99 per treatment, with tick treatment as an add-on ($497/season with a mosquito plan), backed by 150+ five-star reviews across 19 GTA cities. Keep the Thermacell for the picnic table.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <RelatedLinks path="/blog/thermacell-refills-recharge-canada" />
           <h2>How to Recharge an E55 or E90</h2>
           <p>The rechargeable models could not be simpler. Plug the unit into any USB power source (current models use USB-C). A full charge takes about <strong>4&ndash;6 hours</strong> and delivers roughly <strong>5.5 hours of runtime on the E55</strong> and about <strong>9 hours on the E90</strong> &mdash; our <Link href="/blog/thermacell-e90-canada-review">Thermacell E90 Canada review</Link> covers how that runtime holds up over a full GTA season. A small status light shows the charge level. For all-evening backyard use, you can leave the device connected to a portable power bank and run it while it charges &mdash; handy for long dinners and gatherings that outlast a single charge.</p>

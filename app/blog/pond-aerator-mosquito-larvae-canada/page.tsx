@@ -303,15 +303,6 @@ export default function PondAeratorMosquitoLarvaePage() {
             <BuyLink tag={AMZ_TAG} search="mosquito bits granules bti">Mosquito bits granules &rarr;</BuyLink>
           </div>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Move the water. We&rsquo;ll handle the air.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Aeration and BTI stop your pond producing mosquitoes. The adults already flying in from the ravine, the creek and the neighbourhood are a separate job &mdash; BuzzSkito&rsquo;s licensed barrier spray starts at $99 for a single treatment, with season plans at $549, $994 and $2,049. Tick protection is $597 for the season standalone, or $497 bundled with any mosquito plan. Mississauga-based, serving 19+ GTA cities, May through September.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Where to Buy Pond Aeration Gear in Canada</h2>
           <p>Pond hardware is a thin category in Canadian big-box retail. Home Depot, Rona and Canadian Tire carry pond pumps, small air pumps, tubing and liner in the garden aisle from roughly April through July, and Canadian Tire is the fastest source for a replacement fountain pump or a de-icer when something quits mid-season. Dedicated aeration gear &mdash; diffuser plates, weighted airline, rebuild kits &mdash; rarely reaches those shelves at all.</p>
           <p>Specialist water-garden and aquaculture suppliers carry the deep-pond systems and will size a unit for you, which is worth a phone call if your pond is genuinely large. For everything in between, Amazon.ca stocks the range year-round &mdash; including in August, when a summer of wrigglers has finally made the decision for you.</p>

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import CTASection from '@/components/CTASection'
 import { buildMetadata, breadcrumbSchema, speakableSchema, itemListSchema } from '@/lib/seo'
 import { SITE_URL, US_GUIDE_LEARN_PAGES } from '@/lib/constants'
 
@@ -164,7 +163,6 @@ export default function LearnHubPage() {
         </div>
       </section>
 
-      <CTASection heading="Learn It. Then Live Bite-Free." subtext="Get a free quote for licensed mosquito and tick barrier spray. From $99. Serving 19 GTA cities." variant="dark" />
     </>
   )
 }

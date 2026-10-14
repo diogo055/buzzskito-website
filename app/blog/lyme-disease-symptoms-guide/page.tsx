@@ -279,15 +279,6 @@ export default function LymeDiseaseSymptomsGuidePage() {
           <p>To recognize the tick that actually spreads Lyme, see our identification guide to the <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged (deer) tick in Ontario</Link>. And if ticks are already a problem around your home, a professional barrier treatment targets the exact shaded edges and leaf litter where they wait.</p>
           <p>Households with a dog have a second exposure route worth understanding, since the same ticks ride indoors on a pet&rsquo;s coat. <Link href="/blog/can-dogs-get-lyme-disease">Dogs can catch Lyme from those bites too</Link>, and their warning signs look nothing like ours &mdash; shifting-leg lameness instead of a rash, appearing months after the bite.</p>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Fewer ticks in your yard means fewer chances to be bitten</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed tick barrier treatment targets the lawn edges, leaf litter, and shaded borders where blacklegged ticks quest — reducing the tick population that puts your family at risk. Serving 19 GTA cities with single treatments from $99 (plus HST).</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Trusted Sources on Lyme Disease</h2>
           <p>For authoritative, regularly updated information, consult:</p>
           <ul>

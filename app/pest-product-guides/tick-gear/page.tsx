@@ -185,12 +185,6 @@ export default function TickGearGuidePage() {
           ],
           attribution: '— BuzzSkito, GTA mosquito & tick control · 150 five-star Google reviews',
         }}
-        serviceTieIn={{
-          heading: 'We actually treat ticks',
-          body: <>Rather handle the DIY yourself? Fair. But if you want it off your plate, BuzzSkito runs a licensed seasonal tick program across 19 GTA cities &mdash; <strong>$597/season standalone, or $497 bundled</strong> with any mosquito plan (plus HST). Five treatments per season, applied by an Ontario-licensed operator according to label directions.</>,
-          primaryHref: '/free-yard-assessment', primaryLabel: 'Get a free yard assessment →',
-          secondaryHref: '/tick-control', secondaryLabel: 'See professional tick control →',
-        }}
         howWeRank={{
           title: 'How we build these tick gear guides',
           body: <>
@@ -216,7 +210,6 @@ export default function TickGearGuidePage() {
           </>,
         }}
         faqs={FAQS}
-        cta={{ heading: 'Tick Season Doesn’t Wait — Neither Should You', subtext: 'Get a free quote for licensed tick barrier spray across the GTA. Tick program from $597/season, or $497 bundled with any mosquito plan. Five treatments per season, plus HST. Rain-back guarantee on every plan.' }}
       />
 
       <StickyBuyBar tag={AMZ_TAG} name="Permethrin-treated clothing (Insect Shield)" search="insect shield permethrin treated clothing" label="Start here" />

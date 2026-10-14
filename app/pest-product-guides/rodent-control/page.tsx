@@ -183,7 +183,6 @@ export default function RodentControlHubPage() {
           </>,
         }}
         faqs={FAQS}
-        cta={{ heading: 'While you rodent-proof, don’t forget mosquito season', subtext: 'BuzzSkito treats mosquitoes and ticks across 19 GTA cities — book a free yard assessment before the summer bite season starts.' }}
       />
     </>
   )

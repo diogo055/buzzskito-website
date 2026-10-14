@@ -282,14 +282,6 @@ export default function MosquitoLarvaePage() {
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
-          <aside aria-label="Professional mosquito control" className="not-prose my-6 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Wrigglers in the barrel usually mean breeding sites you have not found yet</h2>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Larvae you can see are the easy part. If you are being bitten in your own yard across a GTA summer, there is almost always water you have not spotted &mdash; a blocked eavestrough, a tarp fold, a low corner that holds a puddle for a week. BuzzSkito walks the property, finds them, and treats the yard from $99. Serving 19 GTA cities, with 150+ five-star Google reviews.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
 
           <AffiliateDisclosure />
           <div className="not-prose my-6 rounded-xl border border-amber-200 bg-amber-50/60 p-5">
@@ -758,15 +750,6 @@ export default function MosquitoLarvaePage() {
             </table>
           </div>
           <p>Whichever row you are in, the inspection interval is the same everywhere: <strong>every seven days</strong>. The generation time, not the calendar, sets that number.</p>
-
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — backed by 150+ five-star reviews and serving 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
 
           <h2>How to Get Rid of Mosquito Larvae (Ranked by Effectiveness)</h2>
           <ol>

@@ -246,16 +246,6 @@ export default function WhyDoMosquitoBitesItchPage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} />
 
-          {/* Service arm first: the quote CTA and phone number sit above every affiliate element on this page. */}
-          <aside aria-label="Professional mosquito control in the GTA" className="not-prose my-6 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-5 sm:p-6 shadow-sm">
-            <p className="text-lg font-extrabold text-brand-900 mb-2 leading-snug">In the GTA? Treat the yard, not just the bite.</p>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Every timeline on this page is a waiting game that starts after you have been bitten. A barrier treatment works on the other end of it &mdash; the adult females resting through the day in shaded shrubs, under decks and along fence lines. BuzzSkito treats GTA yards from $99 for a single visit, with seasonal plans running May to September.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/mosquito-control" className="btn-primary-sm">Get a Mosquito Control Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <AffiliateDisclosure />
 
           <div className="not-prose my-6 rounded-2xl border border-navy-100 bg-white p-5 shadow-sm">
@@ -395,15 +385,6 @@ export default function WhyDoMosquitoBitesItchPage() {
           <h2>Do mosquito bites itch more the next day?</h2>
           <p>Yes &mdash; for many people the second day is the worst. A mosquito bite produces two waves: an immediate welt within 5 to 20 minutes, then a delayed reaction that peaks 24 to 48 hours later. Mayo Clinic describes that delayed stage as a hard, itchy, reddish-brown bump appearing a day or so after the bite.</p>
           <p>For a lot of people, yes. The mosquito-bite reaction commonly comes in two waves: an <strong>immediate</strong> welt within minutes, driven by the first histamine release, and a <strong>delayed</strong> reaction that builds over the following 24 to 48 hours as immune cells migrate to the site and stir up deeper inflammation. That delayed phase is often the itchiest, which is why a bite that seemed trivial at bedtime can be at its worst the next morning. As you accumulate lifelong exposure to local mosquitoes, the delayed wave tends to shrink, and eventually many people are left with only the brief immediate welt &mdash; or no reaction at all.</p>
-
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The only bite that never itches is the one you never get</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Understanding the itch is useful; having fewer bites to treat is better. A professional barrier spray knocks down the adult mosquitoes resting in your shrubs, shade, and fence lines, and a seasonal plan renews the treatment on schedule (every 2 weeks on Standard, monthly on Basic). BuzzSkito protects GTA yards with single treatments from $99 and seasonal plans.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/mosquito-control" className="btn-primary-sm">Explore Mosquito Control &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
 
           <h2>How soon after a mosquito bite does it start to itch?</h2>
           <p>A mosquito bite usually starts to itch 5 to 20 minutes after the mosquito feeds. The CDC describes a puffy, reddish bump appearing a few minutes after the bite, followed a day or so later by a harder, itchier, reddish-brown one. The bite itself is normally painless, so most people never feel the mosquito and only find the welt afterwards.</p>

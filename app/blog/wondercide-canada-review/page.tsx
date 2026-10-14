@@ -287,15 +287,6 @@ export default function WondercideCanadaReviewPage() {
             <li><strong>Replacing a professional program</strong> &mdash; coverage and duration per dollar do not compete with residual barrier spray</li>
           </ul>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional tick &amp; mosquito barrier spray covers your whole yard from $99 &mdash; a residual treatment that wears down over weeks, not days. Backed by 150+ five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Wondercide vs Real Yard Tick Solutions</h2>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">

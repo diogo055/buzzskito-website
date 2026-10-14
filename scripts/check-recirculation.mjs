@@ -62,6 +62,10 @@ const adjacent = quoted('adjacent-pest-routes.ts')
 const usAdjacent = quoted('us-guide-routes.ts')
 const barRoutes = quoted('keep-reading-bar-routes.ts')
 const toolRoutes = quoted('tool-routes.ts')
+// traffic pages carry no phone quote bar at all (owner, Oct 14, 2026): same rule as lib/page-roles.ts
+const pageRoles = JSON.parse(readFileSync(join(ROOT, 'lib', 'page-roles.json'), 'utf8'))
+const LEAD_POSTS = new Set(pageRoles.leadPosts), LOCAL_INFO = new Set(pageRoles.localInfo), NATIONAL_DATA = new Set(pageRoles.nationalDataPages)
+const isTrafficPage = (p) => !LEAD_POSTS.has(p) && !LOCAL_INFO.has(p) && (NATIONAL_DATA.has(p) || ['/blog', '/learn', '/pest-product-guides', '/tools'].some((s) => p === s || p.startsWith(s + '/')))
 // our own bar can be switched off in lib/recirculation.ts (for example when Mediavine's Grow unit is on)
 const BAR_ON = !/KEEP_READING_BAR_ENABLED\s*=\s*false/.test(readFileSync(join(ROOT, 'lib', 'recirculation.ts'), 'utf8'))
 const seen = { pages: 0, bar: 0, lead: 0 }
@@ -96,7 +100,7 @@ for (const { path, file } of pages) {
   // The Call / Text / Get price bar must be on every page EXCEPT the lists the gate knows (the
   // three article lists and the reader tools in lib/tool-routes.ts).
   // This is what keeps it on service, city, pricing and quote pages and on the local posts.
-  const expectLead = !(adjacent.has(path) || usAdjacent.has(path) || barRoutes.has(path) || toolRoutes.has(path))
+  const expectLead = !(adjacent.has(path) || usAdjacent.has(path) || barRoutes.has(path) || toolRoutes.has(path) || isTrafficPage(path))
   if (hasLeadBar !== expectLead) problems.push(`${path}: the Call / Text / Get price bar is ${hasLeadBar ? 'shown' : 'missing'}, but it should be ${expectLead ? 'shown' : 'hidden'} here`)
   if (hasLeadBar) seen.lead++
   if (barRoutes.has(path) !== Boolean(picks[path] && picks[path].bar)) problems.push(`${path}: lib/keep-reading-bar-routes.ts and lib/recirculation.json disagree about the bar on this page`)

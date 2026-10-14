@@ -311,15 +311,6 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
             <li><strong>Coverage is personal, not area-wide.</strong> One patch protects one small spot on one person, briefly.</li>
           </ul>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Want fewer bites across the whole yard for the kids?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats your entire yard from $99 &mdash; so the whole play area is treated, not just the spot one sticker covers. Applied by an Ontario-licensed operator according to label directions, backed by 150+ five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Stickers vs Other Options for Kids</h2>
           <p>Stickers are one tool in a bigger kit. Here is how they stack up against the other DEET-free approaches Canadian parents reach for:</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

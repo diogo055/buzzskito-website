@@ -201,15 +201,6 @@ export default function WhyMosquitoesBiteAnklesPage() {
           <p>Fabric choice matters more at ankle height than most people expect. A mosquito&rsquo;s proboscis reaches only about 2 mm, so a thin sock pulled tight against the skin is easy to bite through while a thicker or looser one is not &mdash; our ranking of <Link href="/blog/can-mosquitoes-bite-through-clothes">which fabrics mosquitoes can bite through</Link> sorts the everyday materials by bite risk.</p>
           <p>Personal repellent hides you for a few hours; it does not lower how many mosquitoes are cruising your yard at ankle height. For lasting relief, the two approaches work best together &mdash; cover up on your body, and thin out the population at the source.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Fewer mosquitoes at ankle height</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Repellent hides your ankles for a few hours. A professional barrier spray treats the shaded, low-lying leaves and resting spots where mosquitoes wait to attack &mdash; cutting the population before it ever reaches your feet. BuzzSkito is licensed, backed by 150+ five-star reviews, and serves 19 GTA cities. Single treatments from $99, seasonal plans from $549. +HST.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Yard Assessment &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>A quick word on bites and health</h2>
           <p>In Ontario, the vast majority of mosquito bites &mdash; including the itchy ankle clusters &mdash; are harmless nuisances that heal on their own. The main mosquito-borne concern locally is West Nile virus, which Public Health Ontario and the Public Health Agency of Canada (PHAC) monitor each season, though the risk of illness from any single bite is low. Ankle and foot bites can get irritated because socks and shoes rub them, and scratching can break the skin and invite a secondary infection. Keep bites clean, resist scratching, and if you notice spreading redness, worsening pain, fever, or feel unwell after being bitten, contact a healthcare provider. This article is general information, not medical advice.</p>
 

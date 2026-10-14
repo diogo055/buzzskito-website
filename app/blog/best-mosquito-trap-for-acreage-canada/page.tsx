@@ -306,15 +306,6 @@ export default function BestMosquitoTrapForAcreageCanadaPage() {
           <h2>Running Cost: The Number Most Buyers Underestimate</h2>
           <p>The sticker price is the small number. A propane trap burns roughly one 20&nbsp;lb tank every 21 days &mdash; six to eight refills across a May-to-September season &mdash; plus an attractant cartridge swapped every three weeks and the occasional replacement net. That is $400&ndash;$600 per trap, per season, in consumables. On a 3-acre property running three units, budget $1,500&ndash;$2,000 a season on top of the hardware. That figure is exactly why many acreage owners do not try to trap the entire property: they run one or two traps for long-term pressure on the worst zones and use a targeted barrier spray around the areas they actually live in, which is both cheaper and more direct for those spaces.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Big property in the GTA? Let us handle the living areas.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A trap thins the wider property over weeks; BuzzSkito&rsquo;s barrier spray treats the vegetation around your patio, play area, and paths directly &mdash; and it targets ticks where they wait, which traps never touch. From $99, backed by 150 five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Yard Assessment →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>The Complete Acreage Program</h2>
           <p>No single tool clears a large property. The strategy that actually works layers four steps, and traps are only one of them:</p>
           <ol>

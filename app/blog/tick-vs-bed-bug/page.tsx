@@ -224,15 +224,6 @@ export default function TickVsBedBugPage() {
           <p>The confusion is understandable. Both are small, brown, wingless, and both <strong>engorge after a blood meal</strong> — which changes their shape enough that a fed tick and a fed bed bug can look genuinely similar to the naked eye. An unfed blacklegged tick is roughly 3 mm and flat; engorged, it swells to pea-sized and turns a grey-blue. An unfed bed bug is a flat 5 mm lentil; after feeding it rounds out and darkens to deep red. Ticks are only one candidate, though. If you are not yet certain the insect is either one, work through <Link href="/blog/bugs-that-look-like-bed-bugs-canada" className="text-brand-700 underline">the nine insects that get mistaken for bed bugs</Link> first and narrow the field before spending anything.</p>
           <p>The features that never change are the leg count and the behaviour. Ticks are arachnids — eight legs, no antennae — and they stay latched. Bed bugs are insects — six legs, obvious antennae — and they never attach.</p>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Found a tick? Stop the next one.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Ticks come from your yard&rsquo;s edges — grass, leaf litter, fence lines. A professional barrier spray removes them where they wait. BuzzSkito protects GTA yards with seasonal tick programs and single treatments from $99.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           {/* Ticks vs bed bugs — direct-answer section; every fact below restates the ID chart and the sections above and below it on this page */}
           <h2>Ticks vs Bed Bugs: The Four Differences That Never Change</h2>
           <p><strong>A tick has eight legs, no antennae, embeds in your skin for 24 hours to several days, and cannot reproduce indoors (the brown dog tick, covered below, is the one exception); a bed bug has six legs, visible antennae, feeds for 5&ndash;10 minutes and walks away, and lives and breeds indoors in mattress seams and bed frames.</strong> Everything else about the two &mdash; colour, size, how much they swell after a meal &mdash; shifts with age and feeding. These four do not, which is why they are the checks to run.</p>

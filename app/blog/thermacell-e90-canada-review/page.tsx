@@ -300,15 +300,6 @@ export default function ThermacellE90CanadaReviewPage() {
           <h2>Where the E90 Falls Short — and What Fills the Gap</h2>
           <p>Three limits are baked into the category, not flaws of this unit: the E90 protects one zone rather than a yard, it does nothing between sessions (mosquito pressure returns the moment it&rsquo;s off), and it has zero effect on ticks, which quest from grass rather than flying into vapour. A household that only ever needs the patio covered for evening dinners can stop at the E90 and be happy. A household with kids ranging the whole backyard, a pool, a vegetable garden against a fence line, or tick anxiety needs area control underneath the personal zone.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The E90 covers the patio. We cover the yard.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray treats your whole property from $99 per single treatment, and seasonal plans renew the residual on schedule (every 2 weeks on Standard, monthly on Basic) — and our tick program runs $597/season standalone or $497 bundled with any mosquito plan. Serving 19+ GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Verdict: Who Should Buy the Thermacell E90 in 2026</h2>
           <p><strong>Buy the E90 if</strong> you want the best rechargeable spatial repeller available in Canada, you use your patio or deck several evenings a week, and you&rsquo;d rather charge once a week than mid-party. <strong>Buy the E55 instead if</strong> your outdoor sessions are short and the $20&ndash;$30 saving matters. <strong>Buy the EX90 instead if</strong> the unit is going camping or living at the cottage. Whichever you pick, buy 36-hour or 72-hour refills in spring, place the unit upwind, give it 15 minutes of head start — and treat it as the patio layer of a system, not the whole system.</p>
           <div className="not-prose my-6 flex flex-wrap gap-3">

@@ -282,15 +282,6 @@ export default function GutterGuardsMosquitoBreedingPage() {
           <p>Clearing and guarding the gutters before the leaves fall removes the first breeding site of the following season before it forms. It is the rare piece of pest work that is genuinely better done in October than in May, which also means it competes for nobody&rsquo;s attention in June.</p>
           <p>For anything that still holds water after all this &mdash; a flat roof scupper, a window well, a decorative pond &mdash; a Bti dunk is the standing answer; see our <Link href="/blog/mosquito-dunks-canada-guide">mosquito dunks guide for Canada</Link>.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Clear the gutters. We will handle the yard.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Eliminating breeding sites cuts what your own property produces. A barrier spray handles the adults already resting in the shrub line and arriving from next door. BuzzSkito treats from $99 for a single treatment, with season plans at $549, $994 and $2,049. Tick protection is $597 a season standalone, or $497 bundled with any mosquito plan. 19+ GTA cities, May&ndash;September.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>The Bottom Line</h2>
           <p>Mosquitoes absolutely breed in gutters, and a dammed eavestrough is the breeding site most likely to be running unnoticed on a Canadian house all season. Gutter guards prevent it by keeping out the fine debris that forms the dam, and in Ontario conditions that means aluminium-framed micro-mesh &mdash; not foam, not brush, and not plastic. Measure the run rather than the perimeter, confirm your gutter profile, order about ten percent over, and fit it in early autumn before leaf drop. Do it yourself on a bungalow, where a few hundred dollars replaces a few thousand. Do not do it yourself off a two-storey eave, where the saving is not worth the ladder. And if the trough ponds water when it is clean, re-hang it first &mdash; a guard over a sagging gutter just makes standing water harder to see.</p>
 

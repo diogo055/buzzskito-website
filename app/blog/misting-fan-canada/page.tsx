@@ -302,15 +302,6 @@ export default function MistingFanCanadaPage() {
           </table>
           <p>Read that table as a layering guide, not a bracket. The fan owns comfort and close-range deterrence at the table. Barrier spray owns whole-yard treatment and is the only line here that can also target ticks. The zapper, frankly, is the one we would skip &mdash; and we explain why in our <Link href="/blog/ultimate-backyard-mosquito-control-guide">ultimate backyard mosquito control guide</Link>.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">A fan cools the table. We treat the yard.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A misting fan keeps mosquitoes off the spot where you are sitting. BuzzSkito&rsquo;s licensed barrier spray treats your whole property from $99 &mdash; and our tick program runs $597/season standalone or $497 bundled with any mosquito plan. Backed by 150 five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <RelatedLinks path="/blog/misting-fan-canada" />
           <h2>Setting up a misting fan so it cools without soaking</h2>
           <p>The number-one complaint about misting fans &mdash; wet furniture and slippery decking &mdash; is almost always a setup problem, not a product flaw. A few adjustments fix it:</p>

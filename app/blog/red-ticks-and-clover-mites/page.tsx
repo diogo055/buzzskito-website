@@ -135,9 +135,6 @@ export default function RedTicksAndCloverMitesPage() {
           </div>
 
           {/* Service arm first: the lead CTA outranks every affiliate element below it. */}
-          <aside aria-label="Tick control across the GTA" className="not-prose my-6 rounded-xl border-l-4 border-amber-400 bg-amber-50 p-5">
-            <p className="text-sm text-gray-800 leading-relaxed"><strong className="text-brand-900">Finding real ticks, not mites?</strong> BuzzSkito treats the lawn edges, leaf litter and shaded borders where blacklegged ticks actually wait &mdash; 19 GTA cities, single treatments from $99. <Link href="/free-yard-assessment" className="text-brand-700 underline font-semibold">Get a free yard assessment</Link> or call <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600">(289) 216-5030</a>.</p>
-          </aside>
 
           <AffiliateDisclosure />
 
@@ -303,15 +300,6 @@ export default function RedTicksAndCloverMitesPage() {
           <h2>Are Clover Mites Common in Ontario and the GTA?</h2>
           <p>Yes. Clover mites occur throughout Ontario, including Toronto, Mississauga, Brampton, and the rest of the GTA, and they gather most often on south- and west-facing brick or siding that warms early in the day. Ontario homeowners who see swarming red specks on a sunny wall in April or September are almost always looking at clover mites, not ticks.</p>
           <p>Blacklegged ticks in Ontario live in long grass, leaf litter, and woodland edges rather than on house walls, which is why yard-edge treatment is the part of <Link href="/tick-control">tick control</Link> that actually changes your risk.</p>
-
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Worried about real ticks in your yard?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Clover mites are harmless, but blacklegged ticks are not. BuzzSkito&rsquo;s barrier spray targets the lawn edges, leaf litter, and shaded borders where ticks actually wait — single treatments from $99, serving 19 GTA cities with 150+ five-star reviews.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Yard Assessment &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
 
           <h2>Quick Recap</h2>
           <ul>

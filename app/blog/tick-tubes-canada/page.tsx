@@ -208,15 +208,6 @@ export default function TickTubesCanadaPage() {
           </ul>
           <p>In the GTA&rsquo;s May-through-September window, a spring-plus-late-summer rhythm gives you the broadest reach across the tick&rsquo;s feeding stages. For more on the seasonal pattern, see our guide to <Link href="/blog/lyme-disease-tick-prevention-ontario">Lyme disease and tick prevention in Ontario</Link>.</p>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Want the current ticks gone now?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito runs a dedicated tick program — <strong>$597/season standalone, or $497 when bundled with any mosquito plan</strong>. We treat the shaded, brushy edges where ticks quest, and pair perfectly with tick tubes for full-season control across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Thermacell vs generic vs DIY tick tubes</h2>
           <p>Not all tubes are equal. Here is how the realistic Canadian options compare.</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

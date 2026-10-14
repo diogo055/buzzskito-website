@@ -292,15 +292,6 @@ export default function MosquitoScreensPatioCanadaPage() {
           <h3>Window screen kits (seal the leaks)</h3>
           <p>The best patio setup fails if mosquitoes pour in through a torn or missing window screen nearby. Magnetic window screen kits and replacement mesh ($15–$40) are a five-minute fix. If you are near water, choose no-see-um mesh for the tighter weave.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Want the whole yard usable, not just the table?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — backed by 150+ five-star reviews and serving 19 GTA cities. Pair it with a screened seating area for the best of both.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <NextUp path="/blog/mosquito-screens-patio-canada" />
           <h2>Mesh Size: The Detail Most Buyers Miss</h2>
           <p>Standard insect screen — about 18&times;16 mesh, the default on most patio and window products — reliably stops mosquitoes and house flies. It does <strong>not</strong> stop no-see-ums (biting midges) or blackflies, which slip right through. If your yard backs onto a marsh, a creek, or you are heading to cottage country, buy <strong>no-see-um mesh</strong> (roughly 20&times;20 or finer). It blocks the tiny biters at the cost of a little airflow and a few extra dollars. For a typical Mississauga, Brampton, or Oakville suburban patio away from water, standard mosquito mesh is plenty.</p>

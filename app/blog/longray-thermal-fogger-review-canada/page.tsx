@@ -285,15 +285,6 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
           <p>A pulse-jet fogger sits at the top of the price range for consumer-accessible fogging equipment, and the honest question is which parts of that premium earn their cost for <em>your</em> use. You are paying for cordless gasoline mobility (worth a lot on acreage, nothing on a small lot near a plug), for large fog volume and fast heat-up (worth a lot if you treat big or often), and for durable, well-supported professional-grade build (worth a lot if you plan to run it for years). What you are <em>not</em> buying is longer-lasting protection — residual is a product property, not a machine feature — or any advantage indoors, where heat and gasoline have no place and cold ULV is the correct tool.</p>
           <p>Factor in the running costs a spec sheet won&rsquo;t: gasoline, a legal supply of PMRA-registered fog solution, and proper PPE on every single use. For a large-property owner treating frequently, that total still comes out ahead of the alternatives. For a typical suburban homeowner, it rarely does — which is the honest pivot to the comparison below.</p>
 
-          <aside aria-label="Professional mosquito and tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or skip the fogger, the fuel, and the PPE</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians apply commercial-class barrier spray &mdash; the product class homeowners can&rsquo;t buy &mdash; from $99 for a single treatment on a standard lot, with a 5-spray tick season at $597 standalone or $497 bundled with any mosquito plan. Applied according to label directions, and it treats for ticks too. Serving 19 GTA cities, backed by 150 five-star Google reviews.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Fogger vs Professional Barrier Spray for a GTA Property</h2>
           <p>A thermal fogger and a barrier spray solve different problems, and the smartest large-property owners often use both. Fogging delivers fast adult knockdown across a big area — perfect for the evening of an event. Barrier spray deposits a residual film on the vegetation where mosquitoes land, is renewed on a schedule through the season, covers the whole yard, and — unlike any fog — also controls ticks. Here is how the options stack up:</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

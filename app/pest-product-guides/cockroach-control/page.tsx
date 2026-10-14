@@ -167,7 +167,6 @@ export default function CockroachControlHubPage() {
           </>,
         }}
         faqs={FAQS}
-        cta={{ heading: 'While you bait the kitchen, don’t forget mosquito season', subtext: 'BuzzSkito treats mosquitoes and ticks across 19 GTA cities — book a free yard assessment before the summer bite season starts.' }}
       />
     </>
   )

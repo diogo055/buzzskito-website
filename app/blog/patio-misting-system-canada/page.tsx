@@ -271,15 +271,6 @@ export default function PatioMistingSystemCanadaPage() {
           </ul>
           <p>So what should a Canadian with a $2,000 misting-install budget actually do? The honest answer is that the licensed equivalent already exists here, and it&rsquo;s more targeted: <strong>residual barrier spray</strong>. Instead of fogging the air several times a day, a licensed technician applies a commercial-class residual product directly to the vegetation where mosquitoes rest &mdash; shrub lines, hedges, under-deck shade &mdash; and the residual is renewed on a schedule through the season. You get the hands-off yard treatment the misting install promises, without daily fogging over your dinner table. We&rsquo;ve broken down the full cost-and-results math in our <Link href="/blog/professional-vs-diy-mosquito-control-gta-comparison">professional vs DIY mosquito control comparison</Link>.</p>
 
-          <aside aria-label="Professional mosquito and tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The Canadian alternative to a $2,000 misting install</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed technicians apply commercial-class barrier spray across 19 GTA cities &mdash; from $99 per treatment, with tick control (5 sprays a season) at $597 standalone or $497 bundled with any mosquito plan. Backed by 150 five-star Google reviews.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <RelatedLinks path="/blog/patio-misting-system-canada" />
           <h2>Does a Cooling Mist Keep Mosquitoes Off Your Patio?</h2>
           <p>Partially &mdash; and only while it runs. Mosquitoes are weak fliers, and three things about an operating mist line work against them: the falling droplets physically disrupt flight through the misted zone, the evaporative chill lowers the surface temperature and CO&#8322; plume cues they home in on, and the air movement (especially with a fan) exceeds what they comfortably fly through. Sit inside a well-designed mist-plus-fan zone on a July evening and you will genuinely get bitten less.</p>

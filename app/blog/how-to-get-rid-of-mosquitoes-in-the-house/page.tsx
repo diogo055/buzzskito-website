@@ -257,15 +257,6 @@ export default function GetRidOfMosquitoesInHousePage() {
           <p>The durable solution is to lower the outdoor population so far fewer ever reach the house. That means eliminating outdoor standing water and, for a real reduction, treating the vegetation around the home so mosquitoes die on contact before they drift indoors. A professional yard <Link href="/mosquito-control">barrier spray from $99</Link> on a standard lot is applied according to label directions to the shaded leaf surfaces where mosquitoes rest — the outdoor half of the equation this indoor guide can&rsquo;t solve on its own.</p>
           <p>For the full outdoor system — water management, barrier treatment, personal protection and the order to do them in — see our <Link href="/blog/ultimate-backyard-mosquito-control-guide">ultimate backyard mosquito control guide</Link>.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-emerald-300 bg-gradient-to-br from-emerald-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Tired of mosquitoes finding their way inside?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray knocks down the outdoor population feeding your indoor problem — from $99 on a standard lot, backed by 150+ five-star Google reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Indoor mosquito control: quick reference</h2>
           <div className="not-prose my-6 rounded-xl border border-navy-100 overflow-x-auto">
             <table className="w-full text-sm">

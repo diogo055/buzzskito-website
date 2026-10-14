@@ -121,15 +121,6 @@ export default function HowToCombatMosquitoesPage() {
             <li><strong>Ignoring dawn and dusk.</strong> Mosquitoes are most active at these hours — read <Link href="/blog/when-are-mosquitoes-most-active">when mosquitoes are most active</Link> and plan protection accordingly.</li>
           </ul>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Let us handle step 9 for you</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray treats your yard&rsquo;s mosquito resting areas from $99 on a standard lot under 10,000 sq ft, with products applied according to label directions and 150+ five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Keep Learning</h2>
           <ul>
             <li><Link href="/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario">How to Get Rid of Mosquitoes in Your Yard</Link></li>

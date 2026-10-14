@@ -281,15 +281,6 @@ export default function CitronellaCandlesCanadaPage() {
           </ul>
           <p>Expecting a candle to cover a whole yard is one of the classic local errors, and it keeps company with waiting until July to start treating and leaving a rain barrel uncovered. All three appear on our list of <Link href="/blog/mosquito-mistakes-ontario-homeowners-make">the mosquito mistakes Ontario homeowners repeat every summer</Link>.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — backed by 150+ five-star reviews and serving 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Citronella vs What Actually Works in a GTA Backyard</h2>
           <p>Citronella candles sit at the very bottom of the mosquito-control ladder — cheap, pleasant, and short-range. Here is how they stack up against the tools that genuinely move the needle:</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

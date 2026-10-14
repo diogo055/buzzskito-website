@@ -271,15 +271,6 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
           <h2>Head-to-Head: Coverage, Running Cost, and Maintenance</h2>
           <p>On coverage, the spec sheets are close &mdash; both claim up to about an acre &mdash; but the Mosquito Magnet&rsquo;s acre is an acre of <em>mosquito</em> reduction, while the DynaTrap&rsquo;s acre is an acre of general insect catch. On running cost the gap flips hard in the DynaTrap&rsquo;s favour: a seasonal bulb and an optional lure cartridge is inexpensive, whereas the Mosquito Magnet&rsquo;s propane and attractant add a real recurring bill every May-to-September season. Maintenance follows the same pattern &mdash; the DynaTrap is quiet and nearly set-and-forget, while the Mosquito Magnet asks for propane swaps, cartridge changes, and more seasonal fuss. Over three or four years of ownership, the total cost of the Mosquito Magnet is dramatically higher, and that ongoing cost is precisely the price you pay for real-CO₂ performance.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or skip the trap entirely</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats your whole yard from $99 &mdash; the residual sits on the leaves where mosquitoes rest and is renewed on your plan&rsquo;s schedule, and tick treatment is available too. Rain-back guarantee on every plan. Backed by 150 five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>How to Choose: What You Are Actually Paying For</h2>
           <p>These are both high-ticket purchases, and the way to avoid wasting money is to be clear about which machine&rsquo;s premium matches your situation. Work through it in this order:</p>
           <ul>

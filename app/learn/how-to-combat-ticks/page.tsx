@@ -128,15 +128,6 @@ export default function HowToCombatTicksPage() {
             <li><strong>Assuming ticks are only a summer problem.</strong> Blacklegged ticks are active any time it is above about 4°C — read <Link href="/blog/tick-season-ontario-when-are-ticks-active">when ticks are active in Ontario</Link>.</li>
           </ul>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Let us handle step 10 for you</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito treats the exact yard-edge zones where ticks quest — 5 sprays per season, products applied according to label directions, 150+ five-star reviews across the GTA.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Keep Learning</h2>
           <ul>
             <li><Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">How to Keep Ticks Out of Your Yard</Link></li>

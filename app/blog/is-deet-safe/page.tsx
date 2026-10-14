@@ -213,15 +213,6 @@ export default function IsDeetSafePage() {
 
           <p>Curious how DEET performs in an actual product? Our <Link href="/blog/off-deep-woods-deet-bug-spray-canada">OFF! Deep Woods DEET review for Canada</Link> looks at concentration, duration, and where it fits.</p>
 
-          <aside aria-label="Professional mosquito and tick control" className="not-prose my-8 rounded-2xl border-2 border-emerald-300 bg-gradient-to-br from-emerald-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Repellent protects you — not your yard</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">DEET keeps bites off your skin for a few hours. To knock down the mosquitoes and ticks living in your vegetation so you need less spray on your body, BuzzSkito&rsquo;s licensed barrier spray treats your yard from $99 on a standard lot, with a dedicated 5-spray tick season at $597 (or $497 bundled with a mosquito plan).</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <div className="not-prose my-8 rounded-xl bg-gray-50 border border-gray-200 p-5">
             <p className="text-sm text-gray-600 leading-relaxed">
               <strong className="text-gray-800">This article is general information, not medical advice.</strong> It summarizes public guidance from Health Canada, the Public Health Agency of Canada, Public Health Ontario, the U.S. CDC, and the U.S. EPA. It does not diagnose, treat, or replace personalized advice. For any reaction, health concern, or question about your situation, contact your healthcare provider or pharmacist. In an emergency, or if a repellent is swallowed or gets in the eyes, call your local poison control centre or 911.

@@ -31,7 +31,9 @@ export type GuideHubProps = {
   sections: HubSection[]
   bottomLine?: { title: string; body: ReactNode }
   faqs: { question: string; answer: string }[]
-  cta: { heading: string; subtext: string }
+  /** Closing quote section. The six product hubs are traffic pages and pass none (owner,
+   *  Oct 14, 2026: no quote prompts where readers are mostly outside the GTA; lib/page-roles.ts). */
+  cta?: { heading: string; subtext: string }
 }
 
 const anchor = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
@@ -194,7 +196,7 @@ export default function GuideHub(p: GuideHubProps) {
 
       {/* Firewall: adjacent-pest hubs never render the service CTA — they get a
           neutral publishing-arm band pointing back to the master hub instead. */}
-      {p.adjacentPest ? (
+      {p.cta && (p.adjacentPest ? (
         <section className="bg-brand-900 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 text-center">
             <h2 className="text-2xl font-extrabold mb-2 text-white">{p.cta.heading}</h2>
@@ -206,7 +208,7 @@ export default function GuideHub(p: GuideHubProps) {
         </section>
       ) : (
         <CTASection heading={p.cta.heading} subtext={p.cta.subtext} variant="dark" />
-      )}
+      ))}
     </>
   )
 }

@@ -261,15 +261,6 @@ export default function BestSolarBugZapperCanadaPage() {
           <p>A solar zapper makes this math worse, not better. Its UV LED is a fraction of the brightness of a plug-in tube, its battery quits partway through the night, and its grid is weaker. If a 40W Flowtron catches 2% mosquitoes, a 2W solar unit catches fewer in absolute numbers — while your family provides the CO₂ plume that actually recruits mosquitoes to the patio.</p>
           <p>The same logic applies to the viral high-tech alternative: laser-based devices promise mosquito-specific targeting, and we examined the claims in our <Link href="/blog/laser-mosquito-killer-photon-matrix-review">Photon Matrix laser mosquito killer review</Link>. Attraction-based devices that use CO₂ and heat — the cue mosquitoes actually follow — are the only trap category with real field results, and we ranked those in our <Link href="/blog/best-mosquito-trap">best mosquito traps in Canada</Link> guide.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Solar zapper for the moths. Barrier spray for the bites.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed barrier spray treats the vegetation where mosquitoes actually rest, and the residual is renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic). Single treatments from $99, serving 19 GTA cities. Tick protection can be added for $497/season on any mosquito plan.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Solar Zapper vs the Alternatives for Canadian Yards</h2>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">

@@ -287,15 +287,6 @@ export default function BiogentsBgMosquitaireCanadaPage() {
             <li><strong>You have an acre or more, rural.</strong> Lure-only reach is not the answer at that scale. Read the acreage comparison in our <Link href="/blog/best-mosquito-trap">best mosquito traps in Canada</Link> roundup before spending here.</li>
           </ul>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">A trap works over weeks. A treatment is one visit.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">The strongest setup for a GTA backyard is both: a barrier spray on the resting sites now, and a trap quietly pulling the population down between treatments. BuzzSkito starts at $99 for a single treatment, with season plans at $549, $994 and $2,049. Tick protection is $597/season standalone or $497 bundled &mdash; five sprays across the season. 19+ GTA cities, May&ndash;September.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>What It Will and Will Not Catch in Ontario</h2>
           <p>Three groups dominate a GTA backyard, and the trap treats them differently:</p>
           <ul>

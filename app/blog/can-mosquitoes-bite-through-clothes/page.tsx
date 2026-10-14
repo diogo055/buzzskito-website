@@ -206,15 +206,6 @@ export default function CanMosquitoesBiteThroughClothesPage() {
           <p>Dressing well cuts your bites significantly, but it does not shrink the mosquito population around you — and in a heavily infested yard, mosquitoes simply hunt for the gaps: your ankles, wrists, neck, and the spots where thin fabric pulls tight. If you are constantly reaching for long sleeves in your own backyard on a July evening in the GTA, the real problem is the number of mosquitoes breeding nearby, not your wardrobe.</p>
           <p>Mosquitoes in Ontario also matter for health reasons, not just comfort. The Public Health Agency of Canada (PHAC) and local public-health units track <em>Culex</em> mosquitoes as the primary vector for West Nile virus, which is present across southern Ontario in summer. Most bites are harmless nuisance bites, and this article is general information rather than medical advice — but reducing how often you are bitten is a reasonable precaution, and covering skin is one of the standard measures public-health agencies recommend.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Stop dressing around the problem</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">If you are covering up just to sit in your own yard, the fix is fewer mosquitoes. BuzzSkito&rsquo;s professional barrier spray treats your whole yard from $99 — the residual sits on the leaves where mosquitoes rest and is renewed on your plan&rsquo;s schedule. Rain-back guarantee on every plan, and 150 five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>The bottom line</h2>
           <p>Can mosquitoes bite through clothes? Yes — through thin, tight fabric like leggings, thin tees, and thin socks, because their ~2 mm proboscis reaches skin. No — through loose or thick weaves like denim, canvas, and loose long-sleeves, where the fabric or the air gap puts your skin out of reach. The best clothing defence is loose, tightly woven, long, and (for heavy exposure) permethrin-treated. And when the bites keep coming no matter what you wear, the durable answer is knocking down the mosquito population in your yard rather than armouring yourself against it.</p>
 

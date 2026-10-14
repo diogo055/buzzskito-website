@@ -171,15 +171,6 @@ export default function HowToDoATickCheckPage() {
           <p>Once you feel a bump, the next question is what it actually is. Our photo guide to <Link href="/blog/what-does-tick-look-like-on-dog" className="text-brand-700 underline">what a tick looks like on a dog</Link> puts unfed and engorged ticks side by side and covers the lookalikes people mistake them for — skin tags, scabs, and fleas.</p>
           <p>The reason the pet check earns its place in the routine is that dogs are susceptible to the same infection people are, and the signs arrive late and vaguely &mdash; a shifting lameness weeks or months after a bite rather than a rash. <Link href="/blog/can-dogs-get-lyme-disease" className="text-brand-700 underline">Can dogs get Lyme disease from ticks?</Link> walks through the early signs, the stages, and what your vet can do.</p>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Fewer ticks in the yard, fewer to find on you</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Ticks quest from lawn edges, leaf litter, and shaded borders. A seasonal barrier spray targets them where they wait, so fewer reach you. BuzzSkito treats GTA yards with 5-spray tick season plans and single treatments from $99 on a standard lot.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Your After-Hike Routine (In Order)</h2>
           <ol>
             <li><strong>Before you go:</strong> tuck pants into socks, wear light colours so ticks show up, and consider factory permethrin-treated clothing (consumer permethrin sprays for treating your own clothes are not registered for that use in Canada). Use a DEET or icaridin (picaridin) repellent on exposed skin.</li>

@@ -178,15 +178,6 @@ export default function MosquitoPillarPage() {
           ))}
         </div>
 
-        <div className="not-prose my-10 rounded-2xl bg-gradient-to-br from-brand-800 to-brand-950 text-white p-6 sm:p-8 shadow-lg">
-          <p className="text-xs font-extrabold text-brand-300 uppercase tracking-wider mb-2">Prefer the Done-For-You Option?</p>
-          <h3 className="text-2xl font-extrabold mb-3 leading-tight">Let BuzzSkito Handle Your Backyard Mosquito Control</h3>
-          <p className="text-brand-100 leading-relaxed mb-5">DIY prevention keeps breeding down, but professional barrier spray is what treats the adult mosquitoes resting in your vegetation. Our licensed technicians treat every shrub interior, leaf underside, and fence line — starting at just <strong className="text-white">$99 per treatment</strong> on a standard lot under 10,000 sq ft. Backed by our <strong className="text-white">{PROMISES.rainBackShort}</strong> (plus the {PROMISES.biteFreeScope}) and <strong className="text-white">150+ five-star reviews</strong> across the GTA.</p>
-          <div className="flex flex-col sm:flex-row gap-3">
-            <Link href="/free-yard-assessment" className="inline-flex justify-center items-center bg-white text-brand-900 font-bold px-6 py-3 rounded-xl hover:bg-brand-50 transition-colors">Get a Free Yard Assessment →</Link>
-            <Link href="/mosquito-control" className="inline-flex justify-center items-center bg-brand-700 text-white font-bold px-6 py-3 rounded-xl border border-brand-500 hover:bg-brand-600 transition-colors">See Mosquito Control Services</Link>
-          </div>
-        </div>
 
         <h2>Health Risks: West Nile Virus in the GTA</h2>
         <p>Mosquitoes in Ontario can carry West Nile Virus (WNV), a potentially serious illness transmitted through mosquito bites. Ontario public health agencies monitor WNV-positive mosquito pools throughout the GTA each season. While most people infected with WNV experience no symptoms or a mild illness, a small percentage develop severe neurological disease.</p>

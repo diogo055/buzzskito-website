@@ -199,15 +199,6 @@ export default function MosquitoBiteTreatmentReliefPage() {
           />
 
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The best bite treatment is not getting bitten</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Treating bites one by one is a losing battle if your yard is breeding mosquitoes. A professional barrier spray knocks down the adults resting in your shrubs and shade, and a season plan renews the residual on schedule. BuzzSkito protects GTA yards with single treatments from $99 and seasonal plans.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/mosquito-control" className="btn-primary-sm">Explore Mosquito Control &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <NextUp path="/blog/mosquito-bite-treatment-relief" />
           <h2>What Actually Works vs Common Myths</h2>
           <p>Plenty of internet remedies get passed around every summer. Here is the honest split. <strong>Cold, hydrocortisone, and antihistamines</strong> are the workhorses with the best support. <strong>Calamine, baking-soda paste, and after-bite ammonia sticks</strong> help to a mild-to-moderate degree. Brief <strong>heat</strong> &mdash; a warm (not scalding) compress or a purpose-made heat pen around 50&deg;C &mdash; relieves itch for some people, likely by breaking down the irritant proteins; use it carefully to avoid burns.</p>

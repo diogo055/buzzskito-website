@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { SITE_URL, PROMISES } from '@/lib/constants'
+import { SITE_URL } from '@/lib/constants'
 import GuideHub, { type HubSection } from '@/components/GuideHub'
 import Link from 'next/link'
 import BuyLink from '@/components/BuyLink'
@@ -153,12 +153,6 @@ export default function MosquitoGearHubPage() {
           ],
           attribution: '— BuzzSkito, GTA mosquito & tick control · 150 five-star Google reviews',
         }}
-        serviceTieIn={{
-          heading: 'Prefer we just handle it?',
-          body: <>All the gear below works, but it is a job you have to keep doing. BuzzSkito&rsquo;s licensed technicians spray a professional barrier across your whole yard — mosquitoes <em>and</em> ticks — from <strong>$99</strong> per treatment. {PROMISES.rainBackShort}, plus a {PROMISES.biteFreeScope}.</>,
-          primaryHref: '/free-yard-assessment', primaryLabel: 'Get a free yard assessment →',
-          secondaryHref: '/mosquito-control', secondaryLabel: 'See professional mosquito control →',
-        }}
         howWeRank={{
           title: 'How we rank backyard mosquito gear',
           body: <><p>Most &ldquo;best mosquito product&rdquo; lists are written by people who have never watched a population rebound three days after a treatment. We have — BuzzSkito is a licensed mosquito and tick control service across 19 GTA cities, and every product here is judged against what we see work (and fail) in real yards. Three filters decide the rankings: <strong>does the science support it</strong>, <strong>is it genuinely available to Canadian buyers</strong>, and <strong>does it solve a problem worth solving</strong>. That last one is why we praise a $12 pack of dunks and warn you off a $60 zapper.</p>
@@ -182,7 +176,6 @@ export default function MosquitoGearHubPage() {
           </>,
         }}
         faqs={FAQS}
-        cta={{ heading: 'Skip the gadget graveyard — let a pro handle the bugs', subtext: `Free yard assessment. Mosquito & tick barrier spray from $99. ${PROMISES.rainBackShort}. ${PROMISES.biteFreeScope}.` }}
       />
     </>
   )

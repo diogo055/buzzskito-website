@@ -221,15 +221,6 @@ export default function HowLongDoTicksLivePage() {
           <p>That is genuinely reassuring, and it is the opposite of how fleas and bed bugs behave. Fleas and bed bugs are adapted to complete their life cycles inside your home; blacklegged and dog ticks are not. If you keep finding ticks indoors, they are almost always being <strong>carried in fresh</strong> from the yard on people or pets &mdash; not reproducing in the carpet. The fix is therefore outdoors: reduce tick habitat around the property and check pets before they come in. In the GTA that almost always means one narrow strip — the shaded, humid margin where a lawn meets a ravine, woodlot, or fence line. It is the zone <Link href="/north-york-tick-spray">North York tick spray</Link> visits target along the Don valley ravines, and the same one <Link href="/burlington-tick-spray">tick control in Burlington</Link> works through the escarpment woodlots.</p>
           <p>There is one worldwide exception worth naming so you can rule it out: the <strong>brown dog tick</strong> (<em>Rhipicephalus sanguineus</em>) tolerates dry indoor air and <em>can</em> complete its entire life cycle inside homes and kennels, occasionally causing true indoor infestations. It is uncommon in Canada&rsquo;s outdoor climate, and most Ontario households will never encounter it, but if a home has a genuine repeat tick problem tied to a dog, it is worth mentioning to a veterinarian or licensed pest professional.</p>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Ticks live in your yard&rsquo;s edges, not your living room</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Because ticks survive in the humid grass and leaf litter around your property &mdash; not indoors &mdash; the effective control point is the yard. BuzzSkito treats the lawn edges, shaded borders, and fence lines where ticks wait, with a seasonal tick program (from $597/season, or $497 bundled with a mosquito plan) and single treatments from $99.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <AffiliateDisclosure />
           <div className="not-prose my-6 rounded-xl border border-amber-200 bg-amber-50/60 p-5">
             <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700 mb-3">What to do right now, if a tick is attached</p>

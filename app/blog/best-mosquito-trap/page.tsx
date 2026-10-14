@@ -286,15 +286,6 @@ export default function BestMosquitoTrapCanadaPage() {
           <h2>Indoor Mosquito Traps</h2>
           <p>For inside the house, look at small UV-plus-fan-plus-glue traps such as the Katchy Indoor Insect Trap or DynaTrap&rsquo;s indoor units ($40&ndash;$70). They sit quietly by a lamp or window and stick flying insects to a replaceable glue card. Be realistic: they shine against fungus gnats and fruit flies and will grab the occasional stray mosquito, but they will not clear a bedroom full of mosquitoes. The bigger indoor win is prevention — repair window screens, empty water from houseplant saucers, and reduce the outdoor population so fewer mosquitoes reach your door.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 &mdash; backed by 150+ five-star reviews and serving 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Traps vs Professional Barrier Spray for GTA Yards</h2>
           <p>Traps and barrier spray are not really competitors — they solve different problems. A trap slowly thins the mosquito population over weeks and is ideal for large, chronic-problem properties. Barrier spray coats the leaves where mosquitoes rest with a residual that kills on contact and is renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic); it covers the entire yard and can also target ticks where they wait. Here is how the options stack up for a typical GTA property:</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

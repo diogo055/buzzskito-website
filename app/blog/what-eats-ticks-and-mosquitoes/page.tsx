@@ -229,15 +229,6 @@ export default function WhatEatsTicksAndMosquitoesPage() {
             cons={['Field results are inconsistent', 'Live product — apply quickly, reapply often', 'Does nothing for adult mosquitoes']}
           />
 
-          <aside aria-label="Professional mosquito and tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">When nature needs a hand</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Predators thin the wild population, but they cannot protect a family barbecue. BuzzSkito&rsquo;s licensed barrier treatment covers the exact shaded edges where mosquitoes rest and ticks quest — from $99, backed by 150+ five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>The Honest Truth: Predators Alone Won&rsquo;t Clear a Yard</h2>
           <p>It would be nice if hanging a bat house or welcoming an opossum solved the problem. It does not, and it is worth being clear about why:</p>
           <ol>

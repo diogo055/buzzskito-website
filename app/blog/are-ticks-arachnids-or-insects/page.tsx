@@ -163,15 +163,6 @@ export default function AreTicksArachnidsOrInsectsPage() {
           <p>There is exactly one honest exception to the &ldquo;eight legs&rdquo; rule, and it is worth knowing because it trips people up. When a tick first hatches from the egg, it is a <strong>larva</strong> — often called a <strong>seed tick</strong> — and at that stage it has only six legs. After its first blood meal it moults into a nymph and grows a fourth pair, reaching the full eight legs it keeps for the rest of its life as a nymph and adult.</p>
           <p>So a six-legged seed tick is not evidence that ticks are insects — it is just an immature arachnid that has not finished developing. Because seed ticks are barely the size of a poppy seed and cluster in large numbers, they are easy to mistake for tiny insects or specks of dirt. If you want to tell them apart from actual insects and other look-alikes, our guide to <Link href="/blog/bugs-that-look-like-ticks">bugs that look like ticks</Link> walks through the differences with the features to check.</p>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Because ticks are arachnids, they need arachnid-specific control</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Ticks ignore the CO&#8322; traps and zappers built for flying insects — they wait in shaded, humid yard edges. BuzzSkito&rsquo;s barrier treatment targets exactly those zones across the GTA, with single treatments from $99.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <RelatedLinks path="/blog/are-ticks-arachnids-or-insects" />
           <h2>Why the Arachnid vs Insect Distinction Actually Matters</h2>
           <p>This is not a pedantic taxonomy debate. Whether ticks are arachnids or insects changes how you get rid of them:</p>

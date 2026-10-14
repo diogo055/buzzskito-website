@@ -315,15 +315,6 @@ export default function PatioHeaterVsFireTableCanadaPage() {
           <p>Neither appliance needs to come indoors, but both need to be shut down properly. Disconnect the cylinder and leave it outdoors, upright, out of the sun. Cover the appliance with a fitted, breathable cover rather than a tarp, which traps condensation against steel. Make sure the burner pan is dry before the first hard freeze, and if you use lava rock, either bring it in or trust the cover completely.</p>
           <p>Plug or screen the burner opening if the unit will sit all winter. A dark enclosure that smells faintly of gas is exactly the kind of place a mouse decides to spend January, and a nest in a burner tube is a spring problem you will not enjoy diagnosing. Come April, soap-test the connections before the first light.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">A warm patio in September is a patio you sit on later.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Which is lovely, right up until the mosquitoes find you. BuzzSkito&rsquo;s licensed barrier spray treats the vegetation where they rest, from $99 for a single treatment. Tick protection runs $597/season standalone, or $497 bundled with any mosquito plan &mdash; five applications across the season. Serving 19+ GTA cities, May through September.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Where to Buy in Canada</h2>
           <p>Both categories are seasonal in Canadian retail, and the season is short and strange: fire tables and patio heaters land in stores in late spring, sell through summer, and then get discounted hard in September and October &mdash; which is, awkwardly, exactly when you actually want one. Canadian Tire carries the widest range of both, including its own house brands. Home Depot Canada and Rona stock fire tables and tower heaters through the patio season and clear them in the fall. Costco Canada rotates larger fire tables through in late spring, often at strong value, and then they are gone.</p>
           <p>Amazon.ca is the channel that carries the whole range year-round, which matters most in October when in-store selection has already been picked over &mdash; and matters again for the accessories, since covers, wind guards, hideaway tables and hose kits are frequently the parts that no local store has in the size your particular model needs.</p>

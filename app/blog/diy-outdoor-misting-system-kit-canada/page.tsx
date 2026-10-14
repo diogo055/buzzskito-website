@@ -300,15 +300,6 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
           <p>There is one place a DIY misting kit can go badly wrong, and it is worth stating plainly. In the United States, &ldquo;mosquito misting systems&rdquo; that automatically spray an insecticide on a timer are a marketed product category, and the concentrates that feed them &mdash; usually permethrin- or pyrethrin-based &mdash; are sold freely to homeowners. In Canada, any pesticide applied through a misting system must be a <strong>PMRA-registered product used exactly as its label directs</strong>, and most of those US misting concentrates are simply not registered for unattended residential misting here. Pouring one into a hose-fed cooling kit is an off-label, grey-market use that we do not recommend and will not link to.</p>
           <p>Keep your DIY kit as a <strong>water-only</strong> cooling-and-deterrence tool &mdash; that is fully legal, needs no registration, and is what the Aootek and HIRALIY kits are designed for. When you want actual insecticide working for you, have a licensed applicator treat the yard according to label directions. That keeps the insecticide on-label and fully compliant. This is the same reason we steer readers away from imported US foggers and concentrates throughout our equipment guides.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Cool the patio — we&rsquo;ll treat the yard</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A misting kit makes your seating area comfortable; BuzzSkito&rsquo;s licensed barrier spray reduces the adult mosquitoes resting across the whole yard, from $99 &mdash; backed by 150+ five-star reviews across 19 GTA cities, and it targets ticks too.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Misting Kit vs Traps, Foggers, and Barrier Spray</h2>
           <p>A misting kit is one layer of a comfortable backyard, not the whole answer. Each tool solves a different piece of the mosquito problem, and the honest move is to understand what each one buys you:</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

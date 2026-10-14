@@ -5,6 +5,7 @@ import { inContentPicks, storedCards } from '@/lib/recirculation'
 import KeepReadingBar from '@/components/KeepReadingBar'
 import PushPrompt from '@/components/PushPrompt'
 import { PUSH_ENABLED, ONESIGNAL_APP_ID } from '@/lib/push'
+import { isTrafficPage } from '@/lib/page-roles'
 
 /**
  * "Keep reading": three cards from the SAME topic cluster, shown at the end of an article in
@@ -35,6 +36,10 @@ const LABEL: Record<string, string> = {
 }
 
 const hash = (s: string) => { let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0; return h }
+
+// The clusters whose readers could become customers (BuzzSkito treats mosquitoes and ticks).
+const QUOTE_LINE_CLUSTERS = new Set(['mosquitoes', 'ticks'])
+const clusterOf = (path: string) => ARTICLES.find((a) => a.path === path)?.cluster ?? 'general'
 
 export function pickReadNext(path: string, count = 3): Article[] {
   // The three cards are decided once and stored (lib/recirculation.json, written by
@@ -99,10 +104,15 @@ export default function ReadNext({ path, standalone = false }: { path: string; s
           </li>
         ))}
       </ul>
-      <p className="mt-6 text-xs text-gray-500">
-        BuzzSkito treats mosquitoes and ticks in the Greater Toronto Area. Local?{' '}
-        <Link href="/free-yard-assessment" className="underline hover:text-brand-700">Ask for a free yard assessment</Link>.
-      </p>
+      {/* One quiet line for the rare local reader: on mosquito and tick articles, and on every
+          service-side page (the Ontario "local info" pages include biting-fly articles). Readers
+          of other pests cannot become customers (owner, Oct 14, 2026; lib/page-roles.ts). */}
+      {(QUOTE_LINE_CLUSTERS.has(clusterOf(path)) || !isTrafficPage(path)) && (
+        <p className="mt-6 text-xs text-gray-500">
+          BuzzSkito treats mosquitoes and ticks in the Greater Toronto Area. Local?{' '}
+          <Link href="/free-yard-assessment" className="underline hover:text-brand-700">Ask for a free yard assessment</Link>.
+        </p>
+      )}
       {/* Browser-notification prompt: on every article, because every article renders this block.
           Nothing is rendered until the owner sets the OneSignal app ID (lib/push.ts). The prompt
           itself is drawn at the top of the window, not here: see components/PushPrompt.tsx. */}

@@ -336,15 +336,6 @@ export default function OffDeepWoodsDeetPage() {
           </ul>
           <p>Those rules are label directions, not a verdict on the ingredient itself — the U.S. EPA classifies DEET as &ldquo;not classifiable as to human carcinogenicity,&rdquo; and Health Canada caps the concentration rather than banning the ingredient. If that is the part you came to check, <Link href="/blog/is-deet-safe">is DEET safe?</Link> walks through what each agency actually concluded.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Tired of spraying yourself every night?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats your whole yard from $99, targeting mosquitoes where they rest so you reach for the DEET far less (tick treatment is an add-on at $497/season with a mosquito plan) — backed by 150+ five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2 id="verdict">The Bottom Line for Canadian Buyers</h2>
           <p>If you want one can that does almost everything, buy <strong>OFF Deep Woods (25% DEET)</strong> for hikes and the cottage, and keep a cheaper <strong>OFF FamilyCare (15%)</strong> by the door for quick backyard trips. Reserve Sportsmen 30% for genuinely brutal blackfly country. For kids under 12, an all-day gear-friendly option, or anyone who hates the DEET feel, a <Link href="/blog/picaridin-vs-deet">20% icaridin spray</Link> is the smarter modern pick. And remember what no personal spray can do: treat your <em>yard</em>. That is what a <Link href="/mosquito-control">professional barrier treatment</Link> is for — so the spray in your bag is for the trail, not your own patio.</p>
 

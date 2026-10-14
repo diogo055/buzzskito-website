@@ -178,15 +178,6 @@ export default function SmellsMosquitoesHatePage() {
           <p>The clothing half of that advice is the easiest to act on tonight. A loose, light-coloured long-sleeve shirt and an unscented sunscreen give a hunting mosquito far less to lock onto than a dark T-shirt and a fragranced lotion do. <BuyLink tag={AMZ_TAG} search="unscented sunscreen">Check unscented sunscreens on Amazon.ca &rarr;</BuyLink></p>
           <p>One odour source is easy to forget because it is out of sight: foot and ankle bacteria. In a well-known 1996 experiment, malaria mosquitoes were drawn to Limburger cheese and to smelly feet at almost the same rate, which is part of <Link href="/blog/why-do-mosquitoes-bite-my-ankles">why bites cluster around ankles</Link>.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Scents wear off in minutes — a barrier spray treats the whole yard</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Candles and oils only cover the air right around them. BuzzSkito&rsquo;s professional barrier spray coats the shrubs, fence lines, and shaded resting spots where mosquitoes hide and is re-applied on a schedule. Whole-yard treatment from $99, backed by 150+ five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>The Honest Truth: Scents Are the Weakest Layer</h2>
           <p>If you take one thing from this guide, make it this: <strong>smells reduce mosquito pressure, but they are far weaker than a registered repellent or a treated yard.</strong> The Aedes and Culex mosquitoes common in Ontario are persistent, and a determined female will push through a fading scent plume to reach the CO₂ and warmth of a host. Scents are a pleasant, low-effort complement — never the main defence when mosquito pressure is high.</p>
           <p>Here is how the layers stack up, weakest to strongest:</p>

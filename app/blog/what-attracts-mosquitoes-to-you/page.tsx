@@ -207,15 +207,6 @@ export default function WhatAttractsMosquitoesToYouPage() {
             cons={['Needs reapplying every few hours', 'Only protects the skin you cover']}
           />
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">You can&rsquo;t change your genes — but you can change your yard</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">If you are always the one getting eaten, look at the mosquitoes resting in your yard, not just your skin. BuzzSkito&rsquo;s licensed barrier spray treats the shaded resting spots and breeding zones across your property, backed by 150+ five-star reviews across 19 GTA cities. Single treatments from $99, seasonal plans from $549. +HST.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Yard Assessment →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>The bottom line</h2>
           <p>Most of what makes you a mosquito magnet — your CO&#8322; output, blood type, skin microbiome, and genetics — is baked in and roughly 85% heritable. That is genuinely why some people get destroyed and others barely notice. But the levers you <em>can</em> pull add up fast: light clothing, no dusk beer, a rinse after sweating, a good repellent, and cutting the mosquito population in your yard at the source. You will never be invisible to a hungry female, but you can absolutely stop being her first choice.</p>
 

@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { BUSINESS } from '@/lib/constants'
 
 const SLUG = '/lyme-disease-canada-statistics'
 
@@ -606,29 +605,11 @@ export default function LymeDiseaseCanadaStatisticsPage() {
         </div>
       </section>
 
-      {/* SECTION 8: CLOSING CTA */}
-      <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-16 px-4">
+      {/* Closing note. The quote section that stood here was removed on Oct 14, 2026: this is a
+          traffic page, read mostly outside the GTA (lib/page-roles.ts). The disclaimer stays. */}
+      <section className="bg-white px-4 py-8 border-t border-gray-200">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">Protect your yard</p>
-          <h2 className="text-2xl sm:text-4xl font-extrabold mb-4">Deal with the ticks in your own yard</h2>
-          <p className="text-base text-brand-100 max-w-2xl mx-auto mb-7 leading-relaxed">
-            You can&rsquo;t change the climate, but you can change your own backyard. BuzzSkito&rsquo;s tick barrier spray, applied according to label directions, targets the lawn-edge, leaf-litter, and fence-line zones where blacklegged ticks concentrate &mdash; across Mississauga, Toronto, and the wider GTA. Tick plans are 5 sprays per season. Get a free, no-obligation quote.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
-            <Link
-              href="/free-yard-assessment"
-              className="inline-block bg-amber-400 hover:bg-amber-300 text-brand-950 font-extrabold text-base px-8 py-4 rounded-full shadow-lg transition-all"
-            >
-              Get a Free Quote →
-            </Link>
-            <a
-              href={BUSINESS.phoneHref}
-              className="inline-block bg-white/10 hover:bg-white/20 border border-white/30 text-white font-bold text-base px-8 py-4 rounded-full transition-all"
-            >
-              Call {BUSINESS.phone}
-            </a>
-          </div>
-          <p className="text-xs text-brand-300 mt-5">Educational resource &mdash; not medical advice. For a confirmed tick bite or symptoms, contact your doctor or local public health unit.</p>
+          <p className="text-xs text-gray-500">Educational resource &mdash; not medical advice. For a confirmed tick bite or symptoms, contact your doctor or local public health unit.</p>
         </div>
       </section>
 

@@ -285,15 +285,6 @@ export default function HardtopVsSoftTopMosquitoGazeboCanadaPage() {
           </ul>
           <p>Buy the hardtop when you are staying put, the surface is solid, you want it standing in April without a weekend of setup, and you have quietly decided you never want to do the October strip-down again. That is a real reason, and it is worth money &mdash; just not for the reason most listings imply.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">The gazebo covers the table. We cover the rest of the yard.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Netting protects the footprint under the roof &mdash; not the lawn, the play area, or the walk from the back door. BuzzSkito&rsquo;s licensed barrier spray treats the vegetation mosquitoes rest on, from $99 for a single treatment. Season plans run $549, $994 and $2,049; tick protection is $597 standalone or $497 bundled with any mosquito plan, five sprays a season. 19+ GTA cities, May&ndash;September.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Where to Buy in Canada</h2>
           <p>Gazebos are aggressively seasonal in Canadian retail. <strong>Canadian Tire, Home Depot Canada and Rona</strong> put soft-tops and a narrower hardtop selection on the floor from roughly April through July, thinning fast by August. <strong>Costco Canada</strong> runs the sharpest hardtop pricing of the year in its spring outdoor-living sale, and those sell through in weeks. <strong>Amazon.ca</strong> carries the widest year-round range &mdash; and, more usefully, it is where the parts live: universal replacement netting, add-on wall panels, anchor kits, winter covers, replacement canopy tops.</p>
           <p>The practical sequence: buy the structure in spring when big-box selection is deepest and you can look at frame gauge in person, then buy the consumables online whenever you need them. If you are buying in August, the in-store shelves are already picked over and online is effectively the only place with a real choice.</p>

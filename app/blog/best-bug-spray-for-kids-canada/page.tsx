@@ -340,15 +340,6 @@ export default function BestBugSprayForKidsCanadaPage() {
           </div>
           <p>Parents usually want to know whether DEET itself is the problem or just the dose. It is the dose — Health Canada holds children aged 2 to 12 to a maximum of 10% while allowing adults up to 30%, and we explain where those age limits come from in <Link href="/blog/is-deet-safe">our plain-language look at DEET safety</Link>.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Fewer bites means less bug spray</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats the mosquito zones across your whole yard from $99 (tick treatment is an add-on at $497/season with a mosquito plan), with products applied according to label directions, backed by 150+ five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Repellent vs a Treated Yard: Use Both</h2>
           <p>Bug spray protects the child; a treated yard protects the space. Repellent is essential for hikes, cottages, sports, and travel — but reapplying it on a wriggling toddler every couple of hours gets old fast. A whole-yard <Link href="/mosquito-control">barrier treatment</Link> cuts the number of mosquitoes and ticks near the house so your backyard needs less spray in the first place. The two work together: treat the yard for everyday home use, and keep a bottle of icaridin 20% by the door for everywhere else.</p>
           <p>Parents in the GTA regularly ask us whether yard treatment itself is safe around children and pets. Our answer is to follow the product label: kids and pets stay off treated areas until the spray has dried — we cover the details in our guide to <Link href="/blog/is-mosquito-spray-safe-kids-pets">whether mosquito spray is safe for kids and pets</Link>.</p>

@@ -296,15 +296,6 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
             <li><strong>Cut the outdoor population.</strong> The flies and mosquitoes indoors came from outside. A residual <Link href="/mosquito-control">yard barrier spray</Link> knocks the outdoor numbers down so fewer ever reach the door.</li>
           </ol>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Fewer bugs get inside when the yard is treated</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Indoor traps clean up the stragglers — BuzzSkito removes the source. Our licensed barrier spray covers your whole yard from $99, cutting the mosquito population that drifts toward your doors and windows. 150+ five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Indoor Traps vs the Alternatives</h2>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">

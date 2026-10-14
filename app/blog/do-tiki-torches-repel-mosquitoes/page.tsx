@@ -256,15 +256,6 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
           <h3>3. Professional barrier spray for the whole yard</h3>
           <p>Torches, candles, and Thermacells are all personal, short-range tools. To actually cut the number of mosquitoes in your yard, you have to treat the shaded vegetation where they rest during the day. A <Link href="/mosquito-control">professional barrier spray</Link> coats those leaves and shrubs with a residual that kills mosquitoes on contact and is renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic) — and, unlike anything a torch can do, it can target ticks where they wait too. This is the only item on the list that lowers the population rather than just shielding one chair.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — backed by 150+ five-star reviews and serving 19 GTA cities. Light your tiki torches for the ambiance; let us handle the actual mosquitoes.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>A Safety Note on Tiki Torches</h2>
           <p>Because tiki torches keep coming up as a &ldquo;natural&rdquo; option, it is worth remembering they are an <strong>open flame sitting on top of a reservoir of flammable oil</strong>. Every summer, wind-blown flames and knocked-over torches cause deck fires and burns across Ontario. Keep torches well away from the house, railings, umbrellas, and overhanging branches; place them on stable, level ground away from foot traffic; never leave a lit torch unattended; and fully extinguish them before you go inside. Store citronella fuel out of reach of children and pets — concentrated citronella oil is toxic to cats and dogs if ingested. On a wooden deck, keep water or an extinguisher within reach.</p>
           <p>If it is purely the look you are after, the flame is the part you can skip. Flameless solar and LED torches give the same flickering dusk glow on a stake, with no oil reservoir, nothing to extinguish before bed, and nothing a gust can tip over onto decking. They repel exactly as many mosquitoes as a lit oil torch &mdash; none &mdash; but they do it without the open flame. <BuyLink tag={AMZ_TAG} search="solar flickering flame torch lights">Check flameless solar torches on Amazon.ca &rarr;</BuyLink></p>

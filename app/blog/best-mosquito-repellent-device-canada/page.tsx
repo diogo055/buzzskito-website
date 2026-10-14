@@ -353,15 +353,6 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <h2>Repel vs Kill: Which Do You Actually Need?</h2>
           <p>The single most common mistake is buying a &ldquo;killer machine&rdquo; when you actually want a repeller. If your problem is <strong>getting bitten on the patio tonight</strong>, you need a repeller (Thermacell) or a whole-yard treatment — a trap does nothing on that timescale. If your problem is a <strong>chronically buggy acre near a wetland</strong>, you need a killing device (propane CO₂ trap) running all season, plus patience. Zappers and UV traps sit in an awkward middle: they kill insects, just mostly the wrong ones.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or skip the gadgets entirely</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats your whole yard from $99, with products applied according to label directions, and tick treatment can be added. Backed by 150+ five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <RelatedLinks path="/blog/best-mosquito-repellent-device-canada" />
           <h2>Devices vs Professional Barrier Spray for GTA Yards</h2>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

@@ -318,15 +318,6 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
           <p>Because ticks concentrate in the transition zone, a barrier treatment targets a <strong>band roughly three metres wide along the lawn-woods boundary</strong>, the first stretch of adjacent woods, stone walls, wood piles, ground-cover beds, and tall-grass margins &mdash; not the open lawn. Peer-reviewed work on residential tick barriers has found a single well-placed perimeter application can sharply reduce the ticks in a yard for weeks. Treating the whole lawn wastes product, costs more, and needlessly exposes pollinators; a focused perimeter band is both more effective per litre and more responsible.</p>
           <p>Timing matters as much as placement. In most of Canada, tick pressure runs spring through fall with two adult peaks (roughly April&ndash;June and September&ndash;November) and a midsummer nymph peak &mdash; and nymphs are the stage most likely to transmit Lyme. Residual products break down under sun and rain, and deer, rodents, and birds carry fresh ticks in all season, so a full-season plan means <strong>reapplying every few weeks</strong>, not a single spray in May. If you want a same-day physical deterrent to pair with a barrier spray, a <Link href="/blog/motion-activated-sprinkler-canada">motion-activated sprinkler</Link> can help keep deer &mdash; the tick taxi &mdash; off the lawn edge in the first place.</p>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle the perimeter</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s licensed tick program treats the wooded edge and leaf litter with commercial-class registered product &mdash; five perimeter sprays a season, backed by 150 five-star reviews across 19 GTA cities. No rig to buy, tow, or store.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Tow-Behind Sprayer vs Backpack vs Professional Service</h2>
           <p>A tow-behind ATV sprayer is not always the right answer &mdash; it earns its cost on acreage and is overkill on a small lot. Here is how the honest options compare for a tick yard:</p>
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">

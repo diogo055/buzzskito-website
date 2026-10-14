@@ -274,15 +274,6 @@ export default function TypesOfTicksIdentificationPage() {
             <li><strong>Legs &amp; mouthparts.</strong> Adults and nymphs have 8 legs; larvae have 6. Blacklegged ticks have distinctly dark (&ldquo;black&rdquo;) legs. Lone star ticks have noticeably long mouthparts.</li>
           </ol>
 
-          <aside aria-label="Professional tick control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Found ticks in your yard? We treat where they hide.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Ticks wait in tall grass, leaf litter, and shaded yard edges. BuzzSkito&rsquo;s barrier treatment targets those exact zones across 19+ GTA cities, with single treatments from $99 on a standard lot, applied by a licensed operator according to label directions.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/tick-control" className="btn-primary-sm">Explore Tick Control →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <p>All four of those features are easier to read under magnification — a 3 mm adult&rsquo;s scutum marbling, and the leg count on a nymph, are hard to call with the naked eye. A 10x hand lens or jeweller&rsquo;s loupe is the one ID tool worth keeping with the first-aid kit. <BuyLink tag={AMZ_TAG} search="10x magnifying glass hand lens">Check price on Amazon.ca →</BuyLink></p>
 
           <NextUp path="/blog/types-of-ticks-identification" />

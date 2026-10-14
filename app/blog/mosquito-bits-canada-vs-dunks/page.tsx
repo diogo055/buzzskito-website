@@ -9,7 +9,6 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
-import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
@@ -213,12 +212,6 @@ export default function MosquitoBitsCanadaPage() {
             <p className="text-sm text-gray-800 leading-relaxed">
               <strong className="text-amber-900">⚠️ Bits kill larvae in your treated water — not the adult mosquitoes flying onto your property.</strong> For yard-wide control in the GTA, combine bits/dunks (your standing water) with professional barrier spray on vegetation. Bits cost $15/season per water source. Barrier spray treats the vegetation across the whole yard, renewed on a schedule.
             </p>
-            <div className="mt-4 flex flex-col sm:flex-row items-center gap-3">
-              <Link href="/free-yard-assessment" className="inline-flex items-center justify-center bg-amber-500 hover:bg-amber-400 text-white font-extrabold px-6 py-3 rounded-full text-sm shadow-lg transition-colors whitespace-nowrap">
-                Get a free yard quote →
-              </Link>
-              <span className="text-xs text-amber-800">Tired of DIY? We&rsquo;ll handle the whole yard. From $99 · 150+ five-star reviews · GTA only.</span>
-            </div>
           </div>
         </div>
       </section>
@@ -367,15 +360,6 @@ export default function MosquitoBitsCanadaPage() {
             <li><strong>Tree holes and stump cavities</strong></li>
             <li><strong>Any standing water you can&rsquo;t check on weekly</strong></li>
           </ul>
-
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray treats your whole yard from $99 on a standard lot — backed by 150+ five-star Google reviews and serving 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
 
           <h2>The Smart Approach: Use Both</h2>
           <p>Most Canadian homeowners with mosquito issues end up using BOTH. The dunk goes in the rain barrel for set-and-forget protection — drop it in May, forget about it until June. The bits container sits in the garden shed for emergency use whenever you discover larvae somewhere unexpected.</p>

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npm run check:amazon && npm run check:registered && npm run check:ads && npm run check:guides && npm run check:article-ctas && npm run check:recirculation && npm run check:sitemap && npm run check:push",
+    "build": "next build && npm run check:amazon && npm run check:registered && npm run check:ads && npm run check:guides && npm run check:article-ctas && npm run check:recirculation && npm run check:sitemap && npm run check:push && npm run check:page-roles",
     "check:amazon": "node scripts/check-amazon.mjs",
     "check:registered": "node scripts/check-registered.mjs",
     "check:ads": "node scripts/check-ads.mjs",
@@ -16,7 +16,8 @@
     "check:sitemap": "node scripts/check-sitemap.mjs",
     "recirculation:backfill": "node scripts/backfill-recirculation.mjs",
     "check:recirculation": "node scripts/check-recirculation.mjs",
-    "check:push": "node scripts/check-push.mjs"
+    "check:push": "node scripts/check-push.mjs",
+    "check:page-roles": "node scripts/check-page-roles.mjs"
   },
   "dependencies": {
     "@vercel/speed-insights": "^2.0.0",

@@ -185,15 +185,6 @@ export default function MosquitoFactsPage() {
           <p>Here is the key misconception, corrected: female mosquitoes do not drink blood for nourishment. They drink it to <strong>reproduce</strong>. A blood meal delivers the concentrated protein, amino acids, and iron a female needs to build a batch of 100 to 300 eggs. Nectar keeps her alive and flying; blood turns into offspring. After a bite she rests for a couple of days while the eggs develop, then seeks out standing water to lay them — and often repeats the cycle several times.</p>
           <p>Two follow-on questions fall out of that cycle, and both have a counter-intuitive answer. A mosquito does not die after biting you &mdash; that is the honeybee, whose barbed stinger tears out &mdash; and one interrupted female can leave several welts in a single evening rather than a single tidy bump. We settle both in our explainer on <Link href="/blog/how-many-times-can-a-mosquito-bite-you">whether a mosquito dies after it bites you</Link>.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Know the facts — now clear the yard</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Because backyard mosquitoes stay close to where they hatch, treating the shaded resting spots and killing larvae on your property works. BuzzSkito&rsquo;s licensed barrier spray covers GTA yards from $99 — backed by 150+ five-star reviews.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>What Do Mosquitoes Eat?</h2>
           <p>The everyday mosquito diet is <strong>plant sugar</strong>. Both males and females sip flower nectar, tree sap, and honeydew — sugar is the fuel for their whirring flight. Their larvae, which live in water, filter-feed on algae, bacteria, and organic debris. Blood is not food and it is not the diet; it is a reproductive supplement that only females take, and only when they are ready to make eggs. That distinction — nectar for living, blood for eggs — explains almost everything mosquitoes do.</p>
 

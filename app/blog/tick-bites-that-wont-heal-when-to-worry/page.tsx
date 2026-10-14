@@ -4,7 +4,7 @@ import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { MOSQUITO_BLOGS, TICK_BLOGS, PROMISES } from '@/lib/constants'
+import { MOSQUITO_BLOGS, TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
@@ -75,14 +75,6 @@ export default function TickBitesThatWontHealWhenToWorryPage() {
         <AuthorByline datePublished={DATE} />
 
         {/* Service arm first: the quote CTA and phone number sit above every affiliate element on this page. */}
-        <aside aria-label="Tick control in the GTA" className="not-prose my-6 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-5 sm:p-6 shadow-sm">
-          <p className="text-lg font-extrabold text-brand-900 mb-2 leading-snug">In the GTA? Treat the yard, not just the bite.</p>
-          <p className="text-sm text-gray-700 mb-4 leading-relaxed">Ticks wait in the leaf litter along the lawn-to-woods edge and under shrubs &mdash; which is where a tick barrier treatment goes down. A BuzzSkito tick season is 5 applications, May to September.</p>
-          <div className="flex flex-wrap items-center gap-4">
-            <Link href="/tick-control" className="btn-primary-sm">Get a Tick Control Quote &rarr;</Link>
-            <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-          </div>
-        </aside>
 
         <AffiliateDisclosure />
 

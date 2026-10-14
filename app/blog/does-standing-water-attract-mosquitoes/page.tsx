@@ -207,15 +207,6 @@ export default function StandingWaterMosquitoesPage() {
           <p>One useful rule of thumb: mosquitoes do <strong>not</strong> breed in moving or agitated water. A fountain, a pond pump, or a small solar aerator keeps the surface disturbed enough that larvae cannot survive — which is why a running water feature is fine but the still bucket beside it is not.</p>
           <p>Plants belong on that source list too, more often than gardeners expect. Bromeliad cups, taro leaves, cut bamboo stems, and the drainage saucer under a patio pot all hold water the same way a forgotten bucket does — we cover the garden-specific version in <Link href="/blog/what-flowers-attract-mosquitoes">which flowers and plants attract mosquitoes</Link>.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Dumped every container and still getting bitten?</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">That is the adults flying in from off your property. BuzzSkito&rsquo;s barrier spray treats the shaded vegetation they rest on, from $99 — backed by 150 five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>How to stop mosquitoes breeding in standing water</h2>
           <p>The two-part answer: <strong>dump the water you can, and treat the water you cannot</strong>. Everything else is detail. Because the breeding cycle is only 7–10 days, breaking it once a week keeps a yard from ever producing a generation of adults.</p>
           <p>Start with the weekly routine — this covers most of a yard for free:</p>

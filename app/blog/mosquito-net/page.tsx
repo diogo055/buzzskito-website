@@ -252,15 +252,6 @@ export default function MosquitoNetCanadaPage() {
           <h2>Permethrin-treated nets: worth it?</h2>
           <p>Insecticide-treated nets are the reason bed nets are credited with preventing hundreds of millions of malaria cases worldwide &mdash; the permethrin acts on mosquitoes that land on the mesh, so a small hole is less of a weak point than it would be in an untreated net. Treated nets and bug shirts should be used exactly as the product label directs (permethrin bonds to the fabric and is not readily absorbed through skin); look for the Canadian PCP registration number on the label. Two hard rules: <strong>permethrin is highly toxic to cats and fish until it dries</strong>, so keep cats away from freshly treated gear and never apply it near an aquarium or pond. For a crib or a stroller, most Canadian parents just use an untreated fine-mesh net &mdash; the barrier alone is enough. If you are outfitting for hiking or cottage country, our <Link href="/blog/bug-protective-clothing-canada">bug-protective clothing guide</Link> covers permethrin-treated shirts, pants, and full bug suits available in Canada.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">A net protects your bed. We protect your whole yard.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Nets are perfect for sleeping and cottage evenings &mdash; but you cannot net an entire backyard. BuzzSkito&rsquo;s professional barrier spray treats your whole property for mosquitoes from $99 (tick treatment is an add-on at $497/season with a mosquito plan), is applied by an Ontario-licensed operator according to label directions, and is backed by 150+ five-star reviews across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote &rarr;</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Where a mosquito net stops helping</h2>
           <p>A net is a barrier around a bounded space, and that is exactly its limit. Here is what a net cannot do:</p>
           <ul>

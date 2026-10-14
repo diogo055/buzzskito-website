@@ -277,15 +277,6 @@ export default function OrthoHomeDefenseCanadaPage() {
           </table>
           <p className="not-prose text-sm text-gray-600 mb-6">Want personal protection for hikes and yard work rather than a home-perimeter spray? A permethrin clothing-and-gear treatment is a different, legal tool — see our <Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin Canada guide</Link>.</p>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">BuzzSkito&rsquo;s professional barrier spray covers your whole yard from $99 — licensed application according to label directions, backed by 150+ five-star reviews and serving 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>The Honest Verdict for Canadian Buyers</h2>
           <p>Ortho is a solid brand — but a lot of what makes it famous in the US does not cross the border. If you are searching for &ldquo;Ortho Home Defense&rdquo; expecting the bifenthrin barrier, that product is not a legal Canadian yard buy. The Ortho you can actually purchase here, <strong>Bug B Gon ECO</strong>, is a fine, reasonably priced tool for crawling nuisance insects around the house — ants, spiders, earwigs at the door.</p>
           <p>For <strong>mosquitoes and ticks</strong>, no consumer Ortho product sold in Canada is the answer. Handle standing water with BTI dunks, and for whole-yard, season-long relief that also covers ticks, use a licensed <Link href="/mosquito-control">professional barrier treatment</Link>. It is legal, it is applied according to label directions, and it works far better than anything you can spray from a hardware-store bottle.</p>

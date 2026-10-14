@@ -295,15 +295,6 @@ export default function Co2MosquitoTrapCanadaPage() {
             <li><strong>Deploy GATs in clusters</strong> — one GAT is a data point; three or more around the yard perimeter is a control strategy.</li>
           </ul>
 
-          <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Traps thin the population over weeks. Barrier spray is one visit.</h3>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">A CO2 trap works over weeks. When you have a weekend event coming, BuzzSkito&rsquo;s licensed barrier spray treats the resting sites across the whole yard in one visit — from $99 for a single treatment, across 19 GTA cities.</p>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/free-yard-assessment" className="btn-primary-sm">Get a Free Quote →</Link>
-              <a href="tel:+12892165030" className="font-bold text-brand-800 hover:text-brand-600 transition-colors">(289) 216-5030</a>
-            </div>
-          </aside>
-
           <h2>Traps vs professional barrier spray: use both</h2>
           <p>A CO2 trap and a professional barrier spray are not rivals — they cover different timelines. The trap slowly draws the biting-female population down inside its zone and keeps working all season. The barrier spray treats the shaded leaf surfaces where mosquitoes rest and is re-applied through the season. Only one of them has a tick option, and it is the spray — no CO2 trap catches ticks, because ticks do not fly to a plume.</p>
           <p>The strongest real-world setup we see in GTA backyards is a professional barrier spray for whole-yard treatment plus a Biogents trap or a GAT cluster to keep pulling the population down between treatments. If ticks are also on your radar — and in Mississauga and Halton they should be — a trap does nothing for them; that is a job for a permethrin perimeter or a dedicated tick program.</p>

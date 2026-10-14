@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
-import { BUSINESS } from '@/lib/constants'
 
 const SLUG = '/deadliest-animal-in-canada'
 
@@ -500,29 +499,11 @@ export default function DeadliestAnimalInCanadaPage() {
         </div>
       </section>
 
-      {/* SECTION 9: CLOSING CTA */}
-      <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-rose-900 text-white py-16 px-4">
+      {/* Closing note. The quote section that stood here was removed on Oct 14, 2026: this is a
+          traffic page, read mostly outside the GTA (lib/page-roles.ts). The disclaimer stays. */}
+      <section className="bg-white px-4 py-8 border-t border-gray-200">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xs font-extrabold text-amber-400 uppercase tracking-widest mb-3">Protect your yard in the GTA</p>
-          <h2 className="text-2xl sm:text-4xl font-extrabold mb-4">The world&rsquo;s deadliest animal is breeding in your backyard</h2>
-          <p className="text-base text-brand-100 max-w-2xl mx-auto mb-8 leading-relaxed">
-            You can&rsquo;t change the global statistics &mdash; but you can deal with the mosquitoes around your home. BuzzSkito treats the shaded resting areas where adult mosquitoes spend the day, across yards in Mississauga, Toronto, and the wider GTA. Products applied according to label directions, with a rain-back guarantee on every plan.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link
-              href="/free-yard-assessment"
-              className="inline-block bg-amber-400 hover:bg-amber-300 text-brand-950 font-extrabold text-base px-8 py-4 rounded-full shadow-lg transition-all"
-            >
-              Get a Free Quote &rarr;
-            </Link>
-            <a
-              href={BUSINESS.phoneHref}
-              className="inline-block bg-white/10 hover:bg-white/20 text-white font-extrabold text-base px-8 py-4 rounded-full border border-white/20 transition-all"
-            >
-              Call {BUSINESS.phone}
-            </a>
-          </div>
-          <p className="text-xs text-brand-300 mt-5">Educational resource &mdash; not medical advice. For confirmed disease exposure, contact your doctor, Telehealth Ontario, or your local Public Health Unit.</p>
+          <p className="text-xs text-gray-500">Educational resource &mdash; not medical advice. For confirmed disease exposure, contact your doctor, Telehealth Ontario, or your local Public Health Unit.</p>
         </div>
       </section>
 
