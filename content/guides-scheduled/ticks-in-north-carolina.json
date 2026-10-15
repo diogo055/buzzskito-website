@@ -531,7 +531,7 @@
           "55",
           "1.1",
           "0.2",
-          "0"
+          "0†"
         ],
         [
           "[Tennessee](/blog/ticks-in-tennessee)",
@@ -548,7 +548,7 @@
           "1.1"
         ]
       ],
-      "caption": "Cases by state of residence in 2023, the latest year in CDC's national data as of October 2026. Spotted fever and ehrlichiosis (*E. chaffeensis*) rates are our conversion of CDC's per-million figures. Sources: [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html), [CDC spotted fever data](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html) and [CDC ehrlichiosis data](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html)."
+      "caption": "Cases by state of residence in 2023, the latest year in CDC's national data as of October 2026. Spotted fever and ehrlichiosis (*E. chaffeensis*) rates are our conversion of CDC's per-million figures. †South Carolina files its cases as [undetermined ehrlichiosis/anaplasmosis](https://stacks.cdc.gov/view/cdc/251104) (7 in 2023). Sources: [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html), [CDC spotted fever data](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html) and [CDC ehrlichiosis data](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html)."
     },
     {
       "type": "h3",
@@ -1180,6 +1180,11 @@
       "title": "Longhorned Tick Discovered in North Carolina (July 13, 2018; updated October 1, 2024)",
       "publisher": "NC State Extension, Integrated Pest Management",
       "url": "https://ipm.ces.ncsu.edu/news/longhorned-tick-discovered-in-north-carolina/"
+    },
+    {
+      "title": "National Notifiable Diseases: Infectious Annual Tables, 2023, Table 2g: ehrlichiosis and anaplasmosis (South Carolina row)",
+      "publisher": "Centers for Disease Control and Prevention, National Notifiable Diseases Surveillance System (CDC Stacks)",
+      "url": "https://stacks.cdc.gov/view/cdc/251104"
     }
   ],
   "disclaimer": "both"

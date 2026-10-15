@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-alberta",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "e794be1c14a6ebe4d992318fff7e3cb764d41ef2301c950311d11fd2ab99e0ba",
+ "claimsChecked": 560,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-15"
+}
