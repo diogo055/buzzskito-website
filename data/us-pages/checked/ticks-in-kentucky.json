@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-kentucky",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "3270f47ad044e841373cc5d5f586de738b790c44f516a2c75100cbd2e7524f63",
+ "claimsChecked": 310,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-15"
+}
