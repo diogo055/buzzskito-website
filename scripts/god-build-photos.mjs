@@ -77,7 +77,7 @@ const PHOTOS = [
   ['bed-bug-bites-forearm', 'Bed bug bites on a forearm', { commons: 'Bedbugb1.JPG' }],
   ['flea-bites-lower-leg', 'Flea bites on the lower leg', { commons: 'Flea Bites to the Lower Leg of a Human Subject 01.jpg' }],
   ['brown-recluse-bite-necrosis', 'Localized tissue damage (necrosis) on a patient\'s calf four months after a brown recluse spider bite', { phil: 6266 }],
-  ['tick-unfed-vs-engorged', 'Unfed male and engorged female Ixodes ticks side by side', { phil: 23451 }],
+  ['tick-unfed-vs-engorged', 'Male and engorged female Ixodes ticks side by side (the source does not say whether the male has fed)', { phil: 23451 }],
   ['blacklegged-tick-life-stages', 'Blacklegged tick adult, nymph and larva', { phil: 1205 }],
   ['blacklegged-tick-adult-nymph-fingertip', 'Blacklegged tick adult and nymph on a fingertip, for size', { phil: 28383 }],
   // third batch (Oct 15): the planned topic pages (spiders, wasps and bees, biting flies, mites,
