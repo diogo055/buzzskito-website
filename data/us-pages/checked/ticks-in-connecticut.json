@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-connecticut",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "951b8d28b62ca926ce5829fcd29d03f84851699301b946f12703271a92d051bb",
+ "claimsChecked": 390,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-15"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-massachusetts",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "10ed4c917021d3ca41e4e1fed8125fc4caa96ac6a72ae201ba3f66514685e390",
+ "claimsChecked": 479,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-10-15"
+}

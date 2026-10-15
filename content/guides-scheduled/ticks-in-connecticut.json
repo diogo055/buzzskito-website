@@ -1,0 +1,920 @@
+{
+  "slug": "ticks-in-connecticut",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in connecticut",
+  "alsoTargets": [
+    "types of ticks in connecticut",
+    "tick season connecticut",
+    "lyme disease connecticut"
+  ],
+  "metaTitle": "Ticks in Connecticut: Types, Lyme Map, Season",
+  "metaDescription": "Deer ticks are established statewide in Connecticut, which reported 3,239 Lyme cases in 2023. Tick photos, Lyme rates by region, the season and testing.",
+  "h1": "Ticks in Connecticut: Species, Maps, Lyme Data and Tick Season",
+  "dek": "Which ticks live in Connecticut, where Lyme disease is most common region by region, when each tick is active, and how the state's free tick testing works.",
+  "breadcrumb": "Ticks in Connecticut",
+  "excerpt": "Blacklegged ticks are established across Connecticut. Species photos, Lyme rates by region, tick season by month and the state's free tick testing for residents.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**Several tick species bite people in Connecticut, and the blacklegged (deer) tick, which spreads Lyme disease, is established in every part of the state.** Connecticut reported 3,239 Lyme cases in 2023, its most since 2009, according to [CDC surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). In the state's 2025 tick survey, the Lyme bacterium turned up in 55% of adult blacklegged ticks and 25% of nymphs.",
+    "bullets": [
+      "CDC's tick table, which runs through December 2025, lists blacklegged ticks as established in all nine of Connecticut's planning regions, the areas the Census Bureau adopted in place of its eight counties in 2022.",
+      "Relative to population, 2023 Lyme rates were highest in the Northeastern Connecticut, Northwest Hills and Southeastern Connecticut regions, about four times the rate of the Capitol region around Hartford.",
+      "The state health department counted 2,170 Lyme cases in 2024, along with 127 cases of babesiosis, 103 of anaplasmosis and 6 of Powassan virus disease.",
+      "Blacklegged nymphs, the stage behind most Lyme cases, peak from May through July, and adults are active in fall, early spring and on warm winter days.",
+      "As of October 2026, the Connecticut Agricultural Experiment Station (CAES) identifies ticks free for residents and tests blacklegged ticks that have fed on people for five germs.",
+      "Lone star, Gulf Coast and Asian longhorned ticks now have established populations in Connecticut, mainly along the coast in Fairfield and New Haven counties."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Connecticut at a glance",
+    "rows": [
+      [
+        "Tick that spreads Lyme disease",
+        "Blacklegged (deer) tick, *Ixodes scapularis*"
+      ],
+      [
+        "Where blacklegged ticks are established",
+        "All 9 planning regions (CDC, through December 2025)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "3,239 in 2023 (CDC); 2,170 in 2024 (state count)"
+      ],
+      [
+        "Lyme rate",
+        "89.9 per 100,000 in 2023, 10th among states (CDC data)"
+      ],
+      [
+        "Highest regional rate, 2023",
+        "Northeastern Connecticut, 225.5 per 100,000 (BuzzSkito's calculation from CDC and 2020 Census data)"
+      ],
+      [
+        "Lyme germ in blacklegged ticks",
+        "55% of adults and 25% of nymphs (CAES survey, 2025)"
+      ],
+      [
+        "Lone star tick",
+        "Established in Fairfield, New Haven and New London counties; reported in Windham (CDC, through 2025)"
+      ],
+      [
+        "Asian longhorned and Gulf Coast ticks",
+        "Established mainly on the Fairfield and New Haven county coast (CAES, April 2026)"
+      ],
+      [
+        "Powassan virus disease",
+        "35 cases from 2016 through 2025; none reported 2004 to 2015 (CDC)"
+      ],
+      [
+        "Peak tick months",
+        "May to July for nymphs; adults in fall, early spring and on warm winter days (CAES)"
+      ],
+      [
+        "Tick identification and testing",
+        "Free for residents at CAES in New Haven (as of October 2026)"
+      ],
+      [
+        "Where Lyme disease was first recognized",
+        "The Lyme, Connecticut, area in 1975 (CAES handbook; state health department)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Connecticut?"
+    },
+    {
+      "type": "p",
+      "text": "The blacklegged (deer) tick matters most, but Connecticut also has American dog ticks, lone star ticks and two newer arrivals, the Asian longhorned and Gulf Coast ticks. In 2025 the [Connecticut Agricultural Experiment Station (CAES)](https://portal.ct.gov/caes/agency-press-release-results-page/2026-3-23), a state agency that runs statewide tick surveillance and tick testing, collected more than 10,000 ticks from 40 public sites across all eight counties: 4,206 Asian longhorned, 3,459 blacklegged, 2,570 lone star and 331 American dog ticks. CAES says the longhorned and lone star totals came largely from big clusters of larvae at single sites rather than widespread increases, while blacklegged ticks were consistently abundant."
+    },
+    {
+      "type": "p",
+      "text": "The blacklegged tick is the one behind Lyme disease, and the only species CAES tests for disease. The station's 2007 [Tick Management Handbook](https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf) names the white-footed mouse as the main source of the Lyme and babesiosis germs for young ticks, and white-tailed deer as the main host of adults. It estimates that about 98% of Lyme cases follow the bite of a nymph, which is about the size of a pinhead."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where in Connecticut",
+        "When it is active",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in all nine planning regions",
+          "Nymphs peak May to July; adults in fall, early spring and on warm winter days; larvae peak in August",
+          "Lyme disease, anaplasmosis, babesiosis, hard tick relapsing fever, Powassan virus disease"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Collected in the statewide survey (331 in 2025)",
+          "Adults from mid-April or early May, peaking in June and lasting into mid-August",
+          "Rocky Mountain spotted fever and tularemia; not Lyme disease"
+        ],
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Established in Fairfield, New Haven and New London counties",
+          "Adults from mid-April; nymphs from mid-May",
+          "Ehrlichiosis among other infections; bites can trigger alpha-gal syndrome"
+        ],
+        [
+          "Asian longhorned tick, *Haemaphysalis longicornis*, and Gulf Coast tick, *Amblyomma maculatum*",
+          "Established mainly on the Fairfield and New Haven county coast",
+          "Not covered by the CAES seasonal guide, which predates them",
+          "CAES lists germs that cause ehrlichiosis, rickettsiosis and Heartland virus among those the invasive ticks can carry"
+        ]
+      ],
+      "caption": "Where: CDC ArboNET Tick Module (blacklegged and lone star ticks, through 2025) and CAES surveys and its April 2026 alert. When: the [CAES Tick Management Handbook](https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf) (2007). What they spread: the handbook, the CAES tick-testing page and the April 2026 alert."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-female.webp",
+      "width": 1200,
+      "height": 775,
+      "alt": "Adult female blacklegged tick on a green blade of grass, with dark legs, a dark shield behind the head and a reddish-orange body",
+      "caption": "Adult female blacklegged (deer) tick. Dark legs and a plain dark shield behind the head set it apart from the pale-marked American dog tick.",
+      "credit": "CDC/ Michael L. Levin, PhD; photo: Jim Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1669"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "Adult female blacklegged tick and a much smaller nymph side by side on a person's fingertip, showing the difference in size",
+      "caption": "An adult female (left) and a nymph (right) on a fingertip. The 2007 CAES handbook estimates that about 98% of Lyme cases follow a nymph's bite.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "p",
+      "text": "The American dog tick, which some people call the wood tick, is bigger and easier to spot. The CAES handbook says only adults feed on people, that an unfed adult is about a quarter inch long and an engorged female can reach about half an inch, and that this tick does not transmit Lyme disease; it is the main carrier of Rocky Mountain spotted fever in the eastern United States and also carries tularemia. It is most common along roadsides, paths, marshy areas and trails through brushy woods or tall grass. For sizes and markings side by side, see [how to tell the common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale bands on the legs",
+      "caption": "Adult female American dog tick. Its white-marked shield and larger size distinguish it from a blacklegged tick, the CAES handbook notes.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged ticks found in Connecticut?"
+    },
+    {
+      "type": "p",
+      "text": "Everywhere. [CDC's county surveillance table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), drawn from the ArboNET Tick Module and current through December 31, 2025, lists blacklegged ticks as established in all nine of Connecticut's planning regions, the areas that stand in for counties in federal data. Established means six or more ticks of one life stage, or more than one life stage, were collected in an area within 12 months. Connecticut is one of ten states where the table lists every county or county-equivalent as established; [tick maps and Lyme data for every state](/learn/ticks-by-state) show the rest."
+    },
+    {
+      "type": "p",
+      "text": "Density varies. In the [CAES 2025 survey](https://portal.ct.gov/caes/agency-press-release-results-page/2026-3-23), New London County had the highest average density of adult blacklegged ticks, 81 per acre, and Litchfield County the highest density of nymphs, 28 per acre."
+    },
+    {
+      "type": "h3",
+      "text": "Which germs have been found in Connecticut ticks?"
+    },
+    {
+      "type": "p",
+      "text": "All five that CAES screens for. CDC's companion table records where each germ has been found in host-seeking blacklegged ticks, meaning ticks looking for a host rather than feeding on one, and CAES reports what share of the ticks it collects are infected. CDC's table is cumulative, and a region without a record has not been shown to be free of the germ."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Germ",
+        "Illness",
+        "Planning regions with a record (CDC, through 2025)",
+        "Ticks infected in 2025 (CAES): adults / nymphs"
+      ],
+      "rows": [
+        [
+          "*Borrelia burgdorferi*",
+          "Lyme disease",
+          "All 9",
+          "55% / 25%"
+        ],
+        [
+          "*Babesia microti*",
+          "Babesiosis",
+          "All 9",
+          "14% / 13%"
+        ],
+        [
+          "*Anaplasma phagocytophilum*",
+          "Anaplasmosis",
+          "1 (South Central Connecticut), for the variant that infects people",
+          "9% / 5%"
+        ],
+        [
+          "*Borrelia miyamotoi*",
+          "Hard tick relapsing fever",
+          "All 9",
+          "2% / 2%"
+        ],
+        [
+          "Powassan virus",
+          "Powassan virus disease",
+          "8 (all but Lower Connecticut River Valley)",
+          "Under 1% of adults; no nymph figure"
+        ]
+      ],
+      "caption": "Sources: [CDC tick surveillance data sets](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), pathogen table through December 31, 2025; [CAES 2025 statewide tick surveillance results](https://portal.ct.gov/caes/agency-press-release-results-page/2026-3-23), blacklegged ticks only. CDC's anaplasmosis column counts only the variant that infects people; CAES reports *Anaplasma phagocytophilum* without naming a variant."
+    },
+    {
+      "type": "p",
+      "text": "Infection varied by place and life stage. In 2025, Lyme infection was highest in adult female ticks from Fairfield County (68%) and in nymphs from New Haven County (32%). Adults carry germs more often because they have had two chances to pick them up, once as a larva and once as a nymph, CAES explains."
+    },
+    {
+      "type": "h2",
+      "text": "Is the lone star tick in Connecticut?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, mainly near the coast. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html), which combines ArboNET Tick Module reports with published literature, lists it as established in Fairfield, New Haven and New London counties and reported in Windham County, through 2025. The [CAES alert of April 6, 2026](https://portal.ct.gov/caes/agency-press-release-results-page/2026-4-6) says Connecticut has established populations of three invasive ticks, the lone star, Gulf Coast and longhorned, primarily in the coastal areas of Fairfield and New Haven counties. In 2007 the CAES handbook still called the state's lone star populations sparse, with ticks occasionally found on residents, mostly in coastal towns of those two counties."
+    },
+    {
+      "type": "map",
+      "scope": "CT",
+      "title": "Lone star tick status by county, Connecticut, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "09001": "established",
+        "09009": "established",
+        "09011": "established",
+        "09015": "reported"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer were collected. No record does not mean no ticks: it can mean no one has sampled or reported there. Status is cumulative. CDC's lone star table still uses Connecticut's eight historical counties.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick, named for the conspicuous spot on its back. CAES identifies lone star ticks that residents send in but does not test them.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "Lone star ticks bring different illnesses from deer ticks. The CAES handbook names this tick as the carrier of *Ehrlichia chaffeensis*, a cause of ehrlichiosis, and reports that the germ's DNA had been found in Connecticut lone star ticks. The 2026 alert adds that the invasive species can carry germs that cause ehrlichiosis, rickettsiosis and Heartland virus, among others, and that a lone star bite can trigger alpha-gal syndrome, a red meat allergy that can lead to severe allergic reactions. See [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome) for symptoms and diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "Is the Asian longhorned tick in Connecticut?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, on the coast. The [April 2026 CAES alert](https://portal.ct.gov/caes/agency-press-release-results-page/2026-4-6) counts it among the invasive ticks established in coastal Fairfield and New Haven counties and calls the high populations there particularly concerning, because the species reproduces without needing males and so can spread rapidly. It was the most numerous tick in the [2025 statewide survey](https://portal.ct.gov/caes/agency-press-release-results-page/2026-3-23), at 4,206, though CAES attributes most of that total to large clusters of larvae found at single sites."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female, both plain reddish-brown without markings, resting on a U.S. dime for scale",
+      "caption": "An Asian longhorned tick nymph (left) and adult female (right) on a U.S. dime. CAES says the species reproduces without males, which helps it spread.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "The Gulf Coast tick, the third invasive species on CAES's list, is established mainly in the same coastal areas. If you find any of these ticks, CAES will identify it free for residents. It does not test longhorned, Gulf Coast, lone star or American dog ticks, saying they do not carry the diseases on its testing panel; how to send a tick is described below."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does Connecticut have?"
+    },
+    {
+      "type": "p",
+      "text": "Connecticut reported 3,239 Lyme disease cases in 2023, a rate of 89.9 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). That was its most since 2009 and the seventh-highest count among states. By rate it ranked tenth, behind Rhode Island, Vermont, Maine, West Virginia, Massachusetts, Pennsylvania, New Hampshire, New York and Wisconsin."
+    },
+    {
+      "type": "p",
+      "text": "The disease was first recognized here. The [state health department's history of Lyme disease in Connecticut](https://portal.ct.gov/dph/epidemiology-and-emerging-infections/a-brief-history-of-lyme-disease-in-connecticut) traces it to 1975, when a cluster of children and adults in the Lyme, Connecticut, area developed unusual arthritis symptoms. By 1977 the first 51 cases of Lyme arthritis had been described and the blacklegged tick linked to its spread, and in 1987 Lyme disease became a reportable disease in the state."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Connecticut, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            3896,
+            4156,
+            3068,
+            3039,
+            2657,
+            2925,
+            2360,
+            2541,
+            1748,
+            2051,
+            1859,
+            1233,
+            614,
+            541,
+            2022,
+            3239
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "A revised case definition took effect in 2022, so 2022 and 2023 are not directly comparable with earlier years, and CDC says COVID-19 left 2019 and 2020 data from some jurisdictions incomplete. Data through 2023, the latest CDC year as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)"
+    },
+    {
+      "type": "p",
+      "text": "Read the jumps with care. Since 2022, high-incidence states such as Connecticut can count a case on laboratory evidence alone, without collecting clinical information, as CDC's [report on the revised case definition](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) explains, and CDC says the national rise that followed likely reflects the change in surveillance methods rather than a change in disease risk. Connecticut's count rose more slowly at first: its 2022 total was 18.0% above its 2017 to 2019 average of 1,714, compared with 72.9% for high-incidence jurisdictions as a group. Its 2023 count was about 89% above that average."
+    },
+    {
+      "type": "p",
+      "text": "The newest state figure is lower. The Department of Public Health counted 2,170 cases in 2024, according to its [2024 table of reported diseases](https://portal.ct.gov/dph/-/media/dph/infectious-diseases-branch/statistics/id-stats-2024.pdf); CDC's surveillance page still ended at 2023 as of October 2026. Reported cases are an undercount: CAES says the actual number of tick-borne disease cases could be nearly 10 times higher."
+    },
+    {
+      "type": "h3",
+      "text": "How does Connecticut compare with its neighbors?"
+    },
+    {
+      "type": "p",
+      "text": "Its rate is now below all three neighbors'. That is a change: the CAES handbook lists Connecticut first among the 12 states that accounted for 95% of reported US cases, ranked by their 2002 rates."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Cases per 100,000, 2023"
+      ],
+      "rows": [
+        [
+          "[Rhode Island](/blog/ticks-in-rhode-island)",
+          "2,852",
+          "260.0"
+        ],
+        [
+          "[Massachusetts](/blog/ticks-in-massachusetts)",
+          "9,715",
+          "138.9"
+        ],
+        [
+          "[New York](/blog/ticks-in-new-york)",
+          "22,173",
+          "111.7"
+        ],
+        [
+          "Connecticut",
+          "3,239",
+          "89.9"
+        ]
+      ],
+      "caption": "Confirmed and probable cases by state of residence, from [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Data through 2023, the latest year CDC had published as of October 2026."
+    },
+    {
+      "type": "p",
+      "text": "Rhode Island's 2023 rate was nearly three times Connecticut's. Statewide rates also hide large differences inside each state, as the next section shows for Connecticut."
+    },
+    {
+      "type": "h2",
+      "text": "Which parts of Connecticut have the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "The east and the northwest. In 2023 the Northeastern Connecticut, Northwest Hills, Southeastern Connecticut and Lower Connecticut River Valley regions each recorded more than 175 cases per 100,000 residents, around twice the statewide rate or more. Together they had 40% of the cases with a known region but 18% of the population. The Capitol region around Hartford and Greater Bridgeport had the lowest rates, about 52 and 56."
+    },
+    {
+      "type": "p",
+      "text": "These are planning regions, not counties. Connecticut abolished county government in 1960, and in 2022 the Census Bureau adopted the state's nine planning regions as county-equivalents, according to its [Federal Register notice on the change](https://www.govinfo.gov/content/pkg/FR-2022-06-06/pdf/2022-12063.pdf). CDC's 2023 county-level file reports Connecticut by those regions. The table pairs each region with the old county it roughly matches, following the notice's own comparison."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Planning region",
+        "Roughly matches",
+        "Lyme cases, 2023",
+        "Cases per 100,000"
+      ],
+      "rows": [
+        [
+          "Northeastern Connecticut",
+          "Windham County",
+          "215",
+          "225.5"
+        ],
+        [
+          "Northwest Hills",
+          "Litchfield County",
+          "228",
+          "202.7"
+        ],
+        [
+          "Southeastern Connecticut",
+          "New London County",
+          "558",
+          "199.0"
+        ],
+        [
+          "Lower Connecticut River Valley",
+          "Middlesex County",
+          "305",
+          "175.1"
+        ],
+        [
+          "Western Connecticut",
+          "Part of Fairfield County",
+          "534",
+          "86.1"
+        ],
+        [
+          "Naugatuck Valley",
+          "Part of New Haven County",
+          "337",
+          "74.8"
+        ],
+        [
+          "South Central Connecticut",
+          "Part of New Haven County",
+          "362",
+          "63.5"
+        ],
+        [
+          "Greater Bridgeport",
+          "Part of Fairfield County",
+          "184",
+          "56.5"
+        ],
+        [
+          "Capitol",
+          "Hartford and Tolland counties",
+          "507",
+          "51.9"
+        ]
+      ],
+      "caption": "Confirmed and probable cases by planning region of residence; 9 of the state's 3,239 cases had no region. Rates are BuzzSkito's calculation: CDC's 2023 counts divided by the 2020 Census populations published in the Census Bureau's notice, which gives a statewide 89.8, close to CDC's 89.9. Sources: [CDC county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html); [Census Bureau notice on Connecticut's county-equivalents](https://www.govinfo.gov/content/pkg/FR-2022-06-06/pdf/2022-12063.pdf)."
+    },
+    {
+      "type": "p",
+      "text": "The 2022 figures, the last CDC reported by Connecticut's eight old counties, show the same pattern: New London, Litchfield and Windham counties each passed 100 cases per 100,000, while Hartford County had about 24."
+    },
+    {
+      "type": "map",
+      "scope": "CT",
+      "title": "Lyme disease cases per 100,000 residents by county, Connecticut, 2022",
+      "categories": [
+        {
+          "key": "100plus",
+          "label": "100 or more"
+        },
+        {
+          "key": "50to99",
+          "label": "50 to 99"
+        },
+        {
+          "key": "under50",
+          "label": "Under 50"
+        }
+      ],
+      "values": {
+        "09001": "50to99",
+        "09003": "under50",
+        "09005": "100plus",
+        "09007": "50to99",
+        "09009": "under50",
+        "09011": "100plus",
+        "09013": "50to99",
+        "09015": "100plus"
+      },
+      "caption": "Confirmed and probable cases by county of residence in 2022, the last year CDC's file uses Connecticut's eight historical counties; 3 of the 2,022 cases had no county. Rates are BuzzSkito's calculation from CDC's counts and the 2020 Census populations in the Census Bureau's notice: New London 127.3, Litchfield 126.9, Windham 118.5, Tolland 90.8, Middlesex 68.8, Fairfield 52.5, New Haven 38.6 and Hartford 24.2. The 2022 case definition change applies.",
+      "source": "[CDC county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html); [Census Bureau notice on Connecticut's county-equivalents](https://www.govinfo.gov/content/pkg/FR-2022-06-06/pdf/2022-12063.pdf)"
+    },
+    {
+      "type": "p",
+      "text": "Two cautions apply to any local figure. Cases are counted where the patient lives, which may not be where the tick bit, as [CDC's Lyme disease case map page](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) notes. And small populations swing: Northeastern Connecticut's rate rests on 215 cases among about 95,000 people."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in Connecticut?"
+    },
+    {
+      "type": "p",
+      "text": "Babesiosis and anaplasmosis are the most common after Lyme disease. The Department of Public Health's [2024 table](https://portal.ct.gov/dph/-/media/dph/infectious-diseases-branch/statistics/id-stats-2024.pdf) lists 127 babesiosis cases and 103 anaplasmosis cases, both spread by the blacklegged tick, along with a handful of rarer infections. Babesiosis has a long history here: the CAES handbook records the state's first human case, reported from Stonington in 1988."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Tick that spreads it in Connecticut",
+        "Cases reported, 2024"
+      ],
+      "rows": [
+        [
+          "Lyme disease",
+          "Blacklegged tick",
+          "2,170"
+        ],
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "127"
+        ],
+        [
+          "Anaplasmosis",
+          "Blacklegged tick",
+          "103"
+        ],
+        [
+          "Spotted fever rickettsiosis",
+          "American dog tick (Rocky Mountain spotted fever); CAES says the invasive ticks can also carry rickettsial germs",
+          "17"
+        ],
+        [
+          "Ehrlichiosis",
+          "Lone star tick",
+          "9"
+        ],
+        [
+          "Powassan virus disease",
+          "Blacklegged tick",
+          "6"
+        ],
+        [
+          "*Borrelia miyamotoi* disease (hard tick relapsing fever)",
+          "Blacklegged tick",
+          "0"
+        ],
+        [
+          "Tularemia",
+          "American dog tick, among others",
+          "0"
+        ]
+      ],
+      "caption": "Cases: Connecticut Department of Public Health, [total reported cases by disease, 2024](https://portal.ct.gov/dph/-/media/dph/infectious-diseases-branch/statistics/id-stats-2024.pdf), the latest year it had posted as of October 2026. Ticks: the [CAES Tick Management Handbook](https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf), the CAES tick-testing page and the April 2026 CAES alert."
+    },
+    {
+      "type": "p",
+      "text": "Powassan virus is a recent addition to the state's records. [CDC's Powassan virus data](https://www.cdc.gov/powassan/data-maps/historic-data.html) show 35 Connecticut cases from 2016 through 2025 and none from 2004 through 2015; 33 of the 35 were neuroinvasive, the severe form. CAES found the virus in under 1% of the adult blacklegged ticks it tested in 2025."
+    },
+    {
+      "type": "chart",
+      "title": "Powassan virus disease cases in Connecticut, 2010 to 2025",
+      "x": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "All reported cases",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            5,
+            2,
+            3,
+            6,
+            5,
+            6,
+            5
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by place of residence",
+      "caption": "Includes severe (neuroinvasive) and milder cases; 33 of Connecticut's 35 were neuroinvasive. CDC notes that mild cases are more likely to go unreported. None were reported in Connecticut from 2004 through 2015. Data through 2025, finalized as of September 16, 2026.",
+      "source": "[CDC Powassan virus historic data, 2004 to 2025](https://www.cdc.gov/powassan/data-maps/historic-data.html)"
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Connecticut?"
+    },
+    {
+      "type": "p",
+      "text": "Ticks can be active in any month, but the highest Lyme risk runs from May through July. The [CAES handbook](https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf) says May, June and July are the peak months for nymphs in the Northeast and that adult blacklegged ticks do not hibernate: they are active in fall, on warm winter days and again in early spring. Larvae peak in August."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Time of year",
+        "Blacklegged (deer) tick",
+        "American dog and lone star ticks"
+      ],
+      "rows": [
+        [
+          "Winter (December to February)",
+          "Adults active during warm spells; they do not hibernate",
+          "Not listed"
+        ],
+        [
+          "Early spring (March and April)",
+          "Adults reach a second peak",
+          "Adult lone star ticks appear in mid-April and adult dog ticks in late April"
+        ],
+        [
+          "Late spring (May)",
+          "Adults fade; nymphs appear about mid-May",
+          "Lone star nymphs appear in mid-May"
+        ],
+        [
+          "Early summer (June and July)",
+          "Nymphs at peak activity",
+          "Adult dog ticks; lone star nymphs"
+        ],
+        [
+          "Late summer (August and September)",
+          "Larvae peak; a few nymphs remain",
+          "A few adult dog ticks remain"
+        ],
+        [
+          "Fall (October and November)",
+          "Adults active",
+          "Not listed"
+        ]
+      ],
+      "caption": "Source: the seasonal guide to the major ticks affecting humans in Connecticut in the [CAES Tick Management Handbook](https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf) (2007). The guide predates the Asian longhorned and Gulf Coast ticks, and it described lone star ticks as still not common in the state."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-life-stages.webp",
+      "width": 1200,
+      "height": 793,
+      "alt": "Three blacklegged ticks on a blue-green surface: a large adult female with a reddish body at top, a dark nymph at lower left and a tiny pale larva at right",
+      "caption": "Blacklegged tick adult female (top), nymph (lower left) and larva (right). In Connecticut, nymphs peak in early summer and larvae in August.",
+      "credit": "CDC/ Michael L. Levin, Ph. D. (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1205"
+    },
+    {
+      "type": "p",
+      "text": "Spring brings a burst of adult activity. In its [April 6, 2026 alert](https://portal.ct.gov/caes/agency-press-release-results-page/2026-4-6), CAES said the adult blacklegged tick season was just beginning, that it had averaged 30 tick submissions a day for testing over the previous few weeks, and that more than 40% had tested positive for the Lyme spirochete."
+    },
+    {
+      "type": "p",
+      "text": "Much of the risk is close to home. The 2007 CAES handbook estimates that about 75% of Lyme cases are tied to activities around the home, such as play and yard or garden work, so the prevention steps below include the yard."
+    },
+    {
+      "type": "h2",
+      "text": "Where can you get a tick identified or tested in Connecticut?"
+    },
+    {
+      "type": "p",
+      "text": "At CAES, free for residents, as of October 2026. Its [Tick Testing Laboratory](https://portal.ct.gov/caes/tick-office/tick-office/information-on-submitting-ticks) in New Haven accepts ticks only from Connecticut residents, identifies any tick sent in, and tests blacklegged ticks for the germs that cause Lyme disease, anaplasmosis, babesiosis, hard tick relapsing fever and Powassan virus disease. Identification and testing cost nothing, though towns or local health departments may charge a small fee for handling and mailing."
+    },
+    {
+      "type": "p",
+      "text": "There are limits. CAES tests only blacklegged ticks that have fed on a person, and not larvae, unfed ticks or males. Ticks removed from pets are identified, along with how much blood they took, but not tested. To send one:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Fill out the CAES tick submission form completely, and add a note if one form covers more than one tick.",
+        "Put the tick in dry, with no water or alcohol, in a crush-proof container or a sealed plastic bag rather than glass, without tape and without anything else in the package.",
+        "Place the container in a padded envelope, or add bubble wrap to a regular one, and write **Please hand sort** on the envelope.",
+        "Give it to your town or local health department to forward, or mail or deliver it to the Tick Testing Laboratory, Jenkins-Waggoner Building, 123 Huntington Street, New Haven, CT 06511.",
+        "Wait for results by email; CAES asks people not to phone, because calls delay the testing."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Treat a result as information, not a diagnosis. [CDC's guidance on what to do after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) says tick test results should not be used for treatment decisions, that a negative result can give false assurance, and that anyone who becomes ill should not wait for results before starting treatment."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Connecticut?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick right away, then watch for a rash or fever over the next several weeks. [CDC's after-bite guidance](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) describes removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick as close to the skin as you can, with fine-tipped tweezers if you have them.",
+        "Pull it out with steady, even pressure, without twisting or jerking. If the mouthparts break off and do not come out easily, leave them; the body pushes them out over time.",
+        "Clean the bite and your hands with soap and water, rubbing alcohol or hand sanitizer, and check yourself for other ticks.",
+        "Do not use petroleum jelly, heat, nail polish or other substances to make the tick let go, and do not wait to see a provider before removing it."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If you want the tick tested, pack it the way CAES asks; otherwise CDC suggests sealing it in a container, wrapping it tightly in tape, flushing it or putting it in alcohol, and never crushing it with your fingers."
+    },
+    {
+      "type": "p",
+      "text": "Ask about a preventive antibiotic. In areas where Lyme disease is common, a single dose of doxycycline after a tick bite may lower the risk in certain circumstances, [CDC's Lyme prevention page](https://www.cdc.gov/lyme/prevention/index.html) says, and a healthcare provider decides whether it fits. CDC counts Connecticut among its high-incidence states."
+    },
+    {
+      "type": "p",
+      "text": "Then watch for a rash. The 2007 CAES handbook says 70% to 80% of people with Lyme disease develop an expanding red rash called erythema migrans at the bite site, and that the classic bull's-eye look is not common. CDC advises seeing a provider if a rash or fever develops in the weeks after a bite, and telling them when the bite happened and where you likely picked up the tick. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Red rash with a darker red center and an outer red ring separated by paler skin, a bull's-eye pattern, on the back of a person's upper arm",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, here with a bull's-eye pattern. The CAES handbook says rashes can also be evenly red or clear in the center.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a healthcare provider if you feel ill",
+      "text": "A rash, fever or other illness in the weeks after a tick bite or time outdoors is a reason to see a provider and mention the tick. Do not wait for a tick test result. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Connecticut?"
+    },
+    {
+      "type": "p",
+      "text": "Dress for ticks, use repellent and check yourself after every outing. The [CAES 2025 survey release](https://portal.ct.gov/caes/agency-press-release-results-page/2026-3-23) and [CDC's Lyme prevention guidance](https://www.cdc.gov/lyme/prevention/index.html) recommend these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Cover up.** Wear long sleeves and pants in light-colored, tightly woven fabric, and tuck pant legs into socks in tick-prone areas.",
+        "**Wear permethrin-treated clothing.** CAES recommends it to repel and kill ticks; CDC suggests clothing and gear pre-treated with 0.5% permethrin.",
+        "**Use an EPA-registered repellent,** such as one containing DEET, picaridin or IR3535, and follow the label.",
+        "**Check for ticks during and after time outdoors,** including in your own backyard, on your body, clothing, gear and pets, and shower soon after coming in to wash off ticks that have not attached."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "In the April 2026 alert, CAES director Jason C. White called tick repellents when hiking or camping, and tick checks, the best ways to reduce the risk of tick-borne disease."
+    },
+    {
+      "type": "p",
+      "text": "Because so many cases start at home, CDC also suggests changes to the yard: keep grass mowed, remove leaf litter, clear tall grass and brush, put a 3-foot-wide barrier of wood chips or gravel between lawns and wooded areas, and keep play equipment, decks and patios away from wooded edges."
+    },
+    {
+      "type": "p",
+      "text": "Pets can carry ticks into the house, the CAES handbook notes. For dogs, see [where to check a dog for ticks and how to remove one](/blog/ticks-on-dogs)."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are ticks active in Connecticut in the winter?",
+      "answer": "Yes, adult blacklegged (deer) ticks are. The Connecticut Agricultural Experiment Station's Tick Management Handbook says adult deer ticks do not hibernate and can be active on warm winter days, with peaks in fall and early spring. Nymphs, which cause most Lyme cases, are most active from May through July. Check for ticks after time in woods, brush or leaf litter on any mild day, and remove any you find promptly."
+    },
+    {
+      "question": "What percentage of ticks in Connecticut carry Lyme disease?",
+      "answer": "In the Connecticut Agricultural Experiment Station's 2025 statewide survey, 55% of adult blacklegged ticks and 25% of nymphs carried the Lyme bacterium. Infection was highest in adult females from Fairfield County, at 68%, and in nymphs from New Haven County, at 32%. The station does not test American dog, lone star, Gulf Coast or Asian longhorned ticks, saying they do not carry Lyme disease or the other germs on its testing panel."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in Connecticut?",
+      "answer": "Yes. As of October 2026, the Connecticut Agricultural Experiment Station identifies ticks free for state residents and tests blacklegged ticks that have fed on people for the germs behind Lyme disease, anaplasmosis, babesiosis, hard tick relapsing fever and Powassan virus disease. Send the tick dry, through your local health department or directly to the lab in New Haven. CDC says tick test results should not be used for treatment decisions, so see a provider if you feel ill."
+    },
+    {
+      "question": "Which part of Connecticut has the most Lyme disease?",
+      "answer": "Relative to population, the east and the northwest. In 2023 the Northeastern Connecticut planning region, roughly the old Windham County, had more than 225 cases per 100,000 residents, followed by the Northwest Hills and Southeastern Connecticut regions, based on CDC counts and 2020 Census populations. Southeastern Connecticut had the most cases, 558. Cases are counted where patients live, not where they were bitten."
+    },
+    {
+      "question": "Was Lyme disease discovered in Connecticut?",
+      "answer": "It was first recognized there. The Connecticut Department of Public Health traces it to 1975, when a cluster of children and adults in the Lyme, Connecticut, area developed unusual arthritis symptoms. By 1977 the first 51 cases of Lyme arthritis had been described and the blacklegged tick linked to its spread. The bacterium that causes it was discovered in 1982, and Lyme disease became reportable in Connecticut in 1987."
+    },
+    {
+      "question": "Should I see a doctor after a tick bite in Connecticut?",
+      "answer": "See a healthcare provider if a rash or fever develops in the weeks after you remove a tick, and mention when the bite happened and where you likely picked up the tick. CDC also says a single dose of the antibiotic doxycycline after a tick bite may lower the risk of Lyme disease in certain circumstances in areas where the disease is common, as it is in Connecticut, so ask a provider promptly whether it fits your situation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition, United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "Historic Data (2004-2025), Powassan Virus",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET)",
+      "url": "https://www.cdc.gov/powassan/data-maps/historic-data.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "Preventing Lyme Disease",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/prevention/index.html"
+    },
+    {
+      "title": "Change to County-Equivalents in the State of Connecticut, 87 FR 34235 (June 6, 2022)",
+      "publisher": "U.S. Census Bureau, in the Federal Register (GovInfo copy)",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2022-06-06/pdf/2022-12063.pdf"
+    },
+    {
+      "title": "A Brief History of Lyme Disease in Connecticut",
+      "publisher": "Connecticut Department of Public Health",
+      "url": "https://portal.ct.gov/dph/epidemiology-and-emerging-infections/a-brief-history-of-lyme-disease-in-connecticut"
+    },
+    {
+      "title": "Total Reported Cases by Disease, Connecticut, 2024",
+      "publisher": "Connecticut Department of Public Health, Infectious Diseases Branch",
+      "url": "https://portal.ct.gov/dph/-/media/dph/infectious-diseases-branch/statistics/id-stats-2024.pdf"
+    },
+    {
+      "title": "Information on Submitting Ticks",
+      "publisher": "The Connecticut Agricultural Experiment Station",
+      "url": "https://portal.ct.gov/caes/tick-office/tick-office/information-on-submitting-ticks"
+    },
+    {
+      "title": "The Connecticut Agricultural Experiment Station Releases 2025 Statewide Tick Surveillance Results (March 23, 2026)",
+      "publisher": "The Connecticut Agricultural Experiment Station",
+      "url": "https://portal.ct.gov/caes/agency-press-release-results-page/2026-3-23"
+    },
+    {
+      "title": "CAES Alerts Residents of Increased Tick Activity and Emerging Disease Threats in Connecticut (April 6, 2026)",
+      "publisher": "The Connecticut Agricultural Experiment Station",
+      "url": "https://portal.ct.gov/caes/agency-press-release-results-page/2026-4-6"
+    },
+    {
+      "title": "Tick Management Handbook, Bulletin No. 1010 (revised edition, 2007)",
+      "publisher": "The Connecticut Agricultural Experiment Station",
+      "url": "https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf"
+    }
+  ],
+  "disclaimer": "both"
+}
