@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-oklahoma",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "116ff5b78140b291c211dbec762402d7bb7303302bbe49b80b672dc5bc63dcec",
+ "claimsChecked": 616,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-15"
+}
