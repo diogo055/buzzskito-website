@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-virginia",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "c35b11dec8ec3318d40b8d75cec2a1ca44fc73132974e5e6dc1dca84b70b2f6f",
+ "claimsChecked": 444,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-15"
+}
