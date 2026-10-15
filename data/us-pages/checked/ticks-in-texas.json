@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-texas",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "f48f87c1c6d98921636e5ef2e6295dbae10b3c6837d1e52409393e2bbf951ea3",
+ "claimsChecked": 125,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-10-15"
+}
