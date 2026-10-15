@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-mississippi",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "9d2c18b533e43003b67a8c28640fa9fc16dc13aaf6ef884c7cfa5b78616db91d",
+ "claimsChecked": 392,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-15"
+}

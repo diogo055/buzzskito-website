@@ -1,0 +1,1111 @@
+{
+  "slug": "ticks-in-mississippi",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in mississippi",
+  "alsoTargets": [
+    "types of ticks in mississippi",
+    "tick season mississippi",
+    "lyme disease mississippi"
+  ],
+  "metaTitle": "Ticks in Mississippi: Types, Season, Lyme Data",
+  "metaDescription": "The lone star tick is Mississippi's most common tick. Photos of 5 ticks, county maps, spotted fever and Lyme data, tick season and tick ID.",
+  "h1": "Ticks in Mississippi: Species, County Maps, Disease Data and Tick Season",
+  "dek": "Which ticks live in Mississippi, where CDC has recorded them county by county, why spotted fever far outnumbers Lyme disease here, when each tick is active and how to get a tick identified.",
+  "breadcrumb": "Ticks in Mississippi",
+  "excerpt": "Lone star ticks are established in 58 of Mississippi's 82 counties, and spotted fever far outnumbers Lyme disease. Tick photos, county maps, tick season and state tick ID.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**The lone star tick is Mississippi's most common tick, and [CDC's county records](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) list it as established in 58 of the 82 counties; American dog, Gulf Coast, blacklegged (deer) and brown dog ticks also live here.** Lyme disease is rare, with 4 reported cases in 2023. Spotted fever is reported far more often: 187 cases from 2019 to 2022, against 9 for Lyme disease.",
+    "bullets": [
+      "CDC's county tables, which run through 2025, list lone star ticks as established in 58 counties, blacklegged (deer) ticks in 40 and American dog ticks in 18, and every county has at least one blacklegged tick record.",
+      "Mississippi's 2023 Lyme disease rate, 0.1 cases per 100,000 residents, is one of the three lowest in CDC's state table, with Oklahoma and Texas (our reading of the table).",
+      "Its 2023 spotted fever rate, 7.8 cases per million residents, ranked eighth among the 48 states and the District of Columbia where the disease is notifiable (our ranking of CDC figures).",
+      "Ticks bite in every season here: adult deer ticks turn up from fall to early spring, while Gulf Coast ticks peak in late summer, according to Mississippi State University publications.",
+      "As of October 2026, the state health department identifies ticks from emailed photos but does not offer tick testing to the public.",
+      "The invasive Asian longhorned tick had no confirmed Mississippi record as of August 21, 2026, according to MSU Extension."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Mississippi at a glance",
+    "rows": [
+      [
+        "Most common tick",
+        "Lone star tick, the most abundant in the state according to a 2006 Mississippi State University guide"
+      ],
+      [
+        "Lone star tick",
+        "Established in 58 of 82 counties, reported in 23 more (CDC, through 2025)"
+      ],
+      [
+        "Blacklegged (deer) tick",
+        "Established in 40 counties, reported in the other 42 (CDC, through December 2025)"
+      ],
+      [
+        "American dog tick",
+        "Established in 18 counties, reported in 38 (CDC, through 2025)"
+      ],
+      [
+        "Lyme germ in host-seeking ticks",
+        "No county record (CDC, through December 2025)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "4 in 2023, 0.1 per 100,000 residents (CDC, latest year as of October 2026)"
+      ],
+      [
+        "Spotted fever rickettsiosis",
+        "187 cases in 2019 to 2022 (CDC county file); 7.8 per million residents in 2023"
+      ],
+      [
+        "Ehrlichiosis (*E. chaffeensis*)",
+        "20 cases in 2019 to 2022 (CDC county file); 1.0 per million residents in 2023"
+      ],
+      [
+        "Tick season",
+        "All year: adult deer ticks from fall to early spring, Gulf Coast ticks peaking in late summer"
+      ],
+      [
+        "Asian longhorned tick",
+        "No confirmed Mississippi record as of August 21, 2026 (MSU Extension)"
+      ],
+      [
+        "Tick identification",
+        "From emailed photos, by the state health department (as of October 2026)"
+      ],
+      [
+        "Tick testing",
+        "Not offered to the public by the state health department (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Mississippi?"
+    },
+    {
+      "type": "p",
+      "text": "Five ticks are the most common in Mississippi: the lone star, American dog, Gulf Coast, blacklegged (deer) and brown dog ticks, according to [A Guide to the Ticks of Mississippi](https://www.mafes.msstate.edu/publications/bulletins/b1150.pdf), published in 2006 by Mississippi State University's agricultural experiment station. The guide lists 19 species as occurring or having occurred in the state, though three of those records are unverified and the cattle fever tick was eradicated in the early 1900s."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where in Mississippi",
+        "Stages that bite people most",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Established in 58 counties, reported in 23 (CDC)",
+          "Nymphs and adult females",
+          "Ehrlichiosis, tularemia, Heartland and Bourbon viruses; linked to STARI and alpha-gal syndrome"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Established in 18 counties, reported in 38 (CDC)",
+          "Adult females, mostly in spring and summer",
+          "Rocky Mountain spotted fever, tularemia"
+        ],
+        [
+          "Gulf Coast tick, *Amblyomma maculatum*",
+          "Mostly the southern third of the state (2006 guide); dominant at a coastal refuge (2023)",
+          "Adults have been linked to infections in people",
+          "*Rickettsia parkeri* rickettsiosis, a form of spotted fever"
+        ],
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in 40 counties, reported in the other 42 (CDC)",
+          "Nymphs and adult females",
+          "Lyme disease, anaplasmosis, babesiosis"
+        ],
+        [
+          "Brown dog tick, *Rhipicephalus sanguineus*",
+          "Every county (2006 guide)",
+          "Mainly bites dogs; may also bite people",
+          "Rocky Mountain spotted fever, in the southwestern US"
+        ]
+      ],
+      "caption": "Counties: CDC ArboNET Tick Module, through 2025, for the three ticks it covers; other entries: the 2006 state guide and MSU Extension. Biting stages and diseases: [CDC's guide to where ticks live](https://www.cdc.gov/ticks/about/where-ticks-live.html)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts, banded legs and one pale spot in the middle of its back",
+      "caption": "Adult female lone star tick. CDC says the adult female is distinguished by the white dot, or lone star, on her back.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "The 2006 state guide calls the [lone star tick](/blog/lone-star-tick) the most abundant and annoying tick in Mississippi. It says the species often occurs in extremely large numbers, that adults are especially common on white-tailed deer and that it is common in every county."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, reddish-brown with a cream and brown mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. CDC says adult females are the stage most likely to bite people, with the highest risk in spring and summer.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "p",
+      "text": "The same guide calls the American dog tick the primary carrier of Rocky Mountain spotted fever in the East and says it can cause tick paralysis; its lead author investigated two medically documented cases in Mississippi. [CDC's American dog tick table](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html) has no record for 26 counties, many of them in the Delta and the northeast, but the 2006 guide said the species occurs in every county: a missing record is not proof the tick is absent."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gulf-coast-tick-life-stages.webp",
+      "width": 1200,
+      "height": 758,
+      "alt": "Gulf Coast tick larva, nymph, adult male and adult female in a row beside a straight pin with scale bars, each stage larger than the one before",
+      "caption": "Gulf Coast tick larva, nymph, adult male and adult female, left to right, beside a pin. The scale bars mark 2 mm (about 0.08 inch) and 22 mm (about 0.87 inch).",
+      "credit": "CDC/ Dr. Christopher Paddock (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10879"
+    },
+    {
+      "type": "p",
+      "text": "The [Gulf Coast tick](/blog/gulf-coast-tick) lives mainly in the southeastern US, according to CDC. The 2006 guide recorded it in 17 Mississippi counties, mostly in the southern third of the state, and on the coast it can dominate: a year-long survey at Grand Bay National Wildlife Refuge, published by [MSU Extension](https://extension.msstate.edu/publications/facts-about-ticks-and-tick-borne-diseases-grand-bay-national-wildlife-refuge-and-national-estuarine-research-reserve) in 2023, collected 744 adult Gulf Coast ticks against 14 American dog ticks and 4 deer ticks."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "Adult female blacklegged tick and a much smaller nymph crawling on a person's fingertip, showing how tiny the nymph stage is",
+      "caption": "An adult female blacklegged (deer) tick, left, and a nymph, right, on a fingertip. CDC says nymphs are about the size of a poppy seed.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "p",
+      "text": "The blacklegged tick is the one that can spread Lyme disease. In Mississippi, the 2006 guide says, adults are commonly encountered in the winter months, and CDC lists nymphs and adult females as the stages most likely to bite people. For side-by-side photos of the common species, see [how to tell US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/brown-dog-tick-male.webp",
+      "width": 1200,
+      "height": 1167,
+      "alt": "Adult male brown dog tick seen from above under magnification, plain reddish-brown with no white markings, beside a 1 mm (0.04 inch) scale bar",
+      "caption": "Adult male brown dog tick, magnified; the scale bar is 1 mm, about 0.04 inch. CDC says dogs are its primary host at every life stage, though it may also bite people.",
+      "credit": "CDC/ Dr. Gary Alpert; PhD; photo: Anna Kang; Dr. Gary Alpert; PhD (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31722"
+    },
+    {
+      "type": "p",
+      "text": "The brown dog tick is a dog specialist. The 2006 guide says it occurs in every Mississippi county and can build up on dogs in numbers high enough to cause significant blood loss. Checks and removal on pets are covered in [how to find and remove ticks on dogs](/blog/ticks-on-dogs)."
+    },
+    {
+      "type": "h2",
+      "text": "Where are lone star ticks found in Mississippi?"
+    },
+    {
+      "type": "p",
+      "text": "Almost everywhere. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html), with county records through 2025, lists the species as established in 58 of Mississippi's 82 counties and reported in 23 more; only Montgomery County has no record. Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in a county within 12 months."
+    },
+    {
+      "type": "p",
+      "text": "Established counties include Hinds, Madison and Rankin around Jackson, Lafayette, Oktibbeha and Lowndes in the north and east, Bolivar and Washington in the Delta, and Forrest and Jackson counties in the south. Harrison, DeSoto and Lee counties have reported records only."
+    },
+    {
+      "type": "map",
+      "scope": "MS",
+      "title": "Lone star tick status by county, Mississippi, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "28001": "established",
+        "28003": "established",
+        "28005": "reported",
+        "28007": "established",
+        "28009": "reported",
+        "28011": "established",
+        "28013": "reported",
+        "28015": "established",
+        "28017": "established",
+        "28019": "established",
+        "28021": "established",
+        "28023": "established",
+        "28025": "established",
+        "28027": "reported",
+        "28029": "established",
+        "28031": "reported",
+        "28033": "reported",
+        "28035": "established",
+        "28037": "reported",
+        "28039": "established",
+        "28041": "reported",
+        "28043": "established",
+        "28045": "reported",
+        "28047": "reported",
+        "28049": "established",
+        "28051": "established",
+        "28053": "established",
+        "28055": "reported",
+        "28057": "established",
+        "28059": "established",
+        "28061": "reported",
+        "28063": "established",
+        "28065": "reported",
+        "28067": "established",
+        "28069": "established",
+        "28071": "established",
+        "28073": "reported",
+        "28075": "established",
+        "28077": "reported",
+        "28079": "established",
+        "28081": "reported",
+        "28083": "established",
+        "28085": "established",
+        "28087": "established",
+        "28089": "established",
+        "28091": "reported",
+        "28093": "established",
+        "28095": "established",
+        "28099": "established",
+        "28101": "established",
+        "28103": "established",
+        "28105": "established",
+        "28107": "established",
+        "28109": "established",
+        "28111": "established",
+        "28113": "established",
+        "28115": "reported",
+        "28117": "reported",
+        "28119": "established",
+        "28121": "established",
+        "28123": "established",
+        "28125": "reported",
+        "28127": "established",
+        "28129": "established",
+        "28131": "established",
+        "28133": "reported",
+        "28135": "reported",
+        "28137": "established",
+        "28139": "established",
+        "28141": "established",
+        "28143": "established",
+        "28145": "established",
+        "28147": "reported",
+        "28149": "established",
+        "28151": "established",
+        "28153": "established",
+        "28155": "established",
+        "28157": "established",
+        "28159": "established",
+        "28161": "established",
+        "28163": "established"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means ticks were recorded there without meeting that bar. No record does not mean no ticks: it can mean no one has sampled there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "p",
+      "text": "Read Montgomery County's blank with care: CDC says a county with no records may change status once it is sampled, and the 2006 state guide described the species as common in every Mississippi county."
+    },
+    {
+      "type": "p",
+      "text": "CDC also says growing evidence suggests a lone star tick bite may trigger alpha-gal syndrome, an allergy to red meat; see [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome)."
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged (deer) ticks found in Mississippi?"
+    },
+    {
+      "type": "p",
+      "text": "In every county. [CDC's county table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in 40 Mississippi counties and reported in the other 42. To compare other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "p",
+      "text": "The established counties run from all six on the Tennessee line (DeSoto, Marshall, Benton, Tippah, Alcorn and Tishomingo) through Hinds, Madison and Rankin in the middle of the state to Jackson and Perry counties in the south. Harrison, Hancock, Forrest, Lauderdale and Lee counties are among those with reported records."
+    },
+    {
+      "type": "map",
+      "scope": "MS",
+      "title": "Blacklegged (deer) tick status by county, Mississippi, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "28001": "established",
+        "28003": "established",
+        "28005": "reported",
+        "28007": "established",
+        "28009": "established",
+        "28011": "established",
+        "28013": "established",
+        "28015": "reported",
+        "28017": "established",
+        "28019": "reported",
+        "28021": "established",
+        "28023": "reported",
+        "28025": "reported",
+        "28027": "reported",
+        "28029": "established",
+        "28031": "reported",
+        "28033": "established",
+        "28035": "reported",
+        "28037": "reported",
+        "28039": "reported",
+        "28041": "reported",
+        "28043": "established",
+        "28045": "reported",
+        "28047": "reported",
+        "28049": "established",
+        "28051": "established",
+        "28053": "established",
+        "28055": "reported",
+        "28057": "reported",
+        "28059": "established",
+        "28061": "established",
+        "28063": "established",
+        "28065": "reported",
+        "28067": "reported",
+        "28069": "reported",
+        "28071": "established",
+        "28073": "reported",
+        "28075": "reported",
+        "28077": "reported",
+        "28079": "established",
+        "28081": "reported",
+        "28083": "established",
+        "28085": "reported",
+        "28087": "reported",
+        "28089": "established",
+        "28091": "reported",
+        "28093": "established",
+        "28095": "reported",
+        "28097": "reported",
+        "28099": "reported",
+        "28101": "reported",
+        "28103": "established",
+        "28105": "established",
+        "28107": "established",
+        "28109": "reported",
+        "28111": "established",
+        "28113": "reported",
+        "28115": "established",
+        "28117": "reported",
+        "28119": "reported",
+        "28121": "established",
+        "28123": "established",
+        "28125": "reported",
+        "28127": "established",
+        "28129": "established",
+        "28131": "reported",
+        "28133": "reported",
+        "28135": "established",
+        "28137": "established",
+        "28139": "established",
+        "28141": "established",
+        "28143": "established",
+        "28145": "established",
+        "28147": "reported",
+        "28149": "established",
+        "28151": "reported",
+        "28153": "reported",
+        "28155": "reported",
+        "28157": "reported",
+        "28159": "established",
+        "28161": "reported",
+        "28163": "established"
+      },
+      "caption": "Established means six or more blacklegged ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer than six of a single life stage. Every Mississippi county has a record; elsewhere, CDC says no record does not mean no ticks, because it can reflect a lack of sampling. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html)"
+    },
+    {
+      "type": "p",
+      "text": "That is a change from the 2006 state guide, which said the species seemed to be absent from the northern counties bordering Tennessee; CDC now lists all six as established. Because CDC's status is cumulative and depends on sampling effort, the records alone cannot show whether the ticks spread or were simply looked for more."
+    },
+    {
+      "type": "h3",
+      "text": "Do Mississippi's blacklegged ticks carry the Lyme germ?"
+    },
+    {
+      "type": "p",
+      "text": "No Mississippi county has a record of it. CDC's companion table of germs found in host-seeking blacklegged ticks, meaning ticks hunting for a host rather than feeding on one, lists no Mississippi county for the Lyme bacterium, *Borrelia burgdorferi*, or for the six other germs it tracks. CDC cautions that a missing record can reflect a lack of sampling or testing, but its page on [how Lyme disease spreads](https://www.cdc.gov/lyme/causes/index.html) says blacklegged ticks found in most of the southeastern US are almost never infected."
+    },
+    {
+      "type": "h2",
+      "text": "Which tick-borne diseases are most common in Mississippi?"
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever rickettsiosis, by a wide margin. CDC's [county-level file of tick-borne disease cases](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) counts 187 spotted fever cases among Mississippi residents from 2019 to 2022, in 63 of the 82 counties, against 20 *Ehrlichia chaffeensis* ehrlichiosis cases, 9 Lyme disease cases, 5 anaplasmosis cases and 1 tularemia case. The [state health department](https://msdh.ms.gov/page/14,0,384.html), on a page last reviewed in July 2025, says up to 100 probable cases of Rocky Mountain spotted fever, one form of spotted fever, are identified in Mississippi each year."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Tick linked to it",
+        "Mississippi cases, 2019 to 2022"
+      ],
+      "rows": [
+        [
+          "Spotted fever rickettsiosis, including Rocky Mountain spotted fever",
+          "American dog tick; Gulf Coast tick (*Rickettsia parkeri*)",
+          "187"
+        ],
+        [
+          "Ehrlichiosis (*Ehrlichia chaffeensis*)",
+          "Lone star tick",
+          "20"
+        ],
+        [
+          "Lyme disease",
+          "Blacklegged tick",
+          "9"
+        ],
+        [
+          "Anaplasmosis",
+          "Blacklegged tick",
+          "5"
+        ],
+        [
+          "Tularemia",
+          "American dog tick; lone star tick",
+          "1"
+        ],
+        [
+          "Babesiosis; *Ehrlichia ewingii* ehrlichiosis",
+          "Blacklegged tick; lone star tick",
+          "0"
+        ]
+      ],
+      "caption": "Cases by county of residence, 2019 to 2022 (CDC county file; cases with no county on record are left out). Ticks: CDC's guide to where ticks live; the state also names the lone star tick as a carrier of Rocky Mountain spotted fever."
+    },
+    {
+      "type": "chart",
+      "title": "Reported spotted fever and ehrlichiosis rates in Mississippi, 2018 to 2023",
+      "x": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Spotted fever rickettsiosis",
+          "values": [
+            51.6,
+            38.3,
+            7.7,
+            10.4,
+            7.1,
+            7.8
+          ]
+        },
+        {
+          "name": "Ehrlichiosis (E. chaffeensis)",
+          "values": [
+            4.4,
+            3.7,
+            1.7,
+            0.3,
+            1,
+            1
+          ]
+        }
+      ],
+      "yLabel": "Cases per million residents, by state of residence (bars stacked by disease)",
+      "caption": "A revised national case definition for spotted fever took effect in 2020, so compare earlier years with care; CDC says COVID-19 may have left 2019 and 2020 data incomplete in some jurisdictions. Data through 2023, the latest CDC year as of October 2026.",
+      "source": "CDC [spotted fever statistics](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html) and [ehrlichiosis statistics](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html)"
+    },
+    {
+      "type": "p",
+      "text": "In 2023, Mississippi's spotted fever rate was 7.8 reported cases per million residents, according to [CDC's spotted fever statistics](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html), the eighth highest of the 48 states and the District of Columbia where the disease is notifiable (our ranking). Its *E. chaffeensis* ehrlichiosis rate was 1.0 per million, according to [CDC's ehrlichiosis statistics](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html)."
+    },
+    {
+      "type": "p",
+      "text": "The drop after 2019 was national and probably reflects stricter counting (our reading). Reported spotted fever cases fell from 5,207 in 2019 to 1,175 in 2020, by CDC's national counts, the year a revised [national case definition](https://ndc.services.cdc.gov/case-definitions/spotted-fever-rickettsiosis-2020/) took effect. It requires an IgG antibody titer of at least 1:128 for a probable case, and it notes that most cases had been reported as probable on a single antibody result, although antibodies can stay elevated for months to years after an infection."
+    },
+    {
+      "type": "p",
+      "text": "The state's figure of up to 100 a year is higher than CDC's county file, which averages about 47 for 2019 to 2022 (our calculation); this page uses CDC's figures so that years and states can be compared."
+    },
+    {
+      "type": "h3",
+      "text": "What are spotted fever rickettsiosis and Rickettsia parkeri?"
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever rickettsiosis is a group of illnesses caused by spotted fever group *Rickettsia* bacteria; CDC's case definition counts Rocky Mountain spotted fever, the most severe, together with *Rickettsia parkeri* rickettsiosis and others. [CDC](https://www.cdc.gov/rocky-mountain-spotted-fever/about/index.html) says Rocky Mountain spotted fever's most common symptoms are fever, headache and rash, that the rash usually develops 2 to 4 days after the fever begins, and that the disease can be deadly if not treated early with doxycycline. See the [guide to Rocky Mountain spotted fever](/blog/rocky-mountain-spotted-fever)."
+    },
+    {
+      "type": "p",
+      "text": "The state health department names the American dog tick and the lone star tick as its carriers. *Rickettsia parkeri* rickettsiosis comes from the Gulf Coast tick instead; MSU Extension describes it as similar to but milder than Rocky Mountain spotted fever, with a spot of dead tissue on the skin where the tick was attached, and treatable with certain antibiotics, especially when recognized early."
+    },
+    {
+      "type": "h3",
+      "text": "Which Mississippi counties report the most spotted fever?"
+    },
+    {
+      "type": "p",
+      "text": "East-central Mississippi stands out. By our count from CDC's 2019 to 2022 file, five neighboring counties (Lauderdale, Neshoba, Winston, Kemper and Clarke) had 45 of the state's 187 spotted fever cases, about a quarter, while the three counties around Jackson (Hinds, Madison and Rankin) had 18 between them. Lauderdale County led the state with 14."
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Spotted fever cases",
+        "Ehrlichiosis cases",
+        "American dog tick status",
+        "Lone star tick status"
+      ],
+      "rows": [
+        [
+          "Lauderdale",
+          "14",
+          "0",
+          "Established",
+          "Established"
+        ],
+        [
+          "Neshoba",
+          "10",
+          "0",
+          "Reported",
+          "Established"
+        ],
+        [
+          "Winston",
+          "10",
+          "0",
+          "Reported",
+          "Established"
+        ],
+        [
+          "DeSoto",
+          "8",
+          "4",
+          "Reported",
+          "Reported"
+        ],
+        [
+          "Rankin",
+          "7",
+          "3",
+          "Established",
+          "Established"
+        ],
+        [
+          "Clarke",
+          "6",
+          "0",
+          "No record",
+          "Established"
+        ],
+        [
+          "Lowndes",
+          "6",
+          "0",
+          "Reported",
+          "Established"
+        ],
+        [
+          "Madison",
+          "6",
+          "2",
+          "Reported",
+          "Established"
+        ]
+      ],
+      "caption": "Cases among county residents, 2019 to 2022, for the eight counties with six or more spotted fever cases (CDC county file; ehrlichiosis means *E. chaffeensis*). Tick status: CDC ArboNET Tick Module, through 2025."
+    },
+    {
+      "type": "p",
+      "text": "Cases are counted where patients live, not necessarily where they were bitten, and Clarke County's missing American dog tick record does not mean the ticks are absent, CDC says."
+    },
+    {
+      "type": "h3",
+      "text": "How does Mississippi compare with neighboring states?"
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Lyme per 100,000",
+        "Spotted fever per 100,000",
+        "Ehrlichiosis per 100,000"
+      ],
+      "rows": [
+        [
+          "Mississippi",
+          "4",
+          "0.1",
+          "0.8",
+          "0.1"
+        ],
+        [
+          "[Alabama](/blog/ticks-in-alabama)",
+          "36",
+          "0.7",
+          "1.6",
+          "0.1"
+        ],
+        [
+          "[Arkansas](/blog/ticks-in-arkansas)",
+          "5",
+          "0.2",
+          "2.1",
+          "4.1"
+        ],
+        [
+          "[Louisiana](/blog/ticks-in-louisiana)",
+          "15",
+          "0.3",
+          "0.1",
+          "0.1"
+        ],
+        [
+          "[Tennessee](/blog/ticks-in-tennessee)",
+          "50",
+          "0.7",
+          "1.2",
+          "1.5"
+        ]
+      ],
+      "caption": "2023, the latest year in these CDC series as of October 2026, by state of residence. Lyme: [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Spotted fever and *E. chaffeensis* ehrlichiosis: CDC's state tables, converted from rates per million (spotted fever: Mississippi 7.8, Alabama 15.7, Arkansas 20.9, Louisiana 0.9, Tennessee 12.1; ehrlichiosis: 1.0, 0.8, 41.4, 0.9 and 15.0)."
+    },
+    {
+      "type": "h2",
+      "text": "Is Lyme disease common in Mississippi?"
+    },
+    {
+      "type": "p",
+      "text": "No. Mississippi reported 4 confirmed and probable Lyme disease cases in 2023, 0.1 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html): one of the three lowest in CDC's 2023 state table, with [Oklahoma](/blog/ticks-in-oklahoma) and [Texas](/blog/ticks-in-texas) (our reading; Hawaii, where Lyme disease is not reportable, is not listed). CDC's [report on 2022 Lyme disease surveillance](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) does not count Mississippi among its high-incidence states and lists 3 cases that year, the same as the state's 2017 to 2019 average."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Mississippi, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            1,
+            0,
+            0,
+            5,
+            1,
+            0,
+            2,
+            4,
+            1,
+            1,
+            4,
+            4,
+            1,
+            1,
+            3,
+            4
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "A revised national case definition took effect in 2022; in low-incidence states such as Mississippi, cases still require clinical information, but probable cases now need objective signs of infection, according to [CDC](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm). CDC also says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions. Data through 2023, the latest year CDC had published as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)"
+    },
+    {
+      "type": "p",
+      "text": "The counts have stayed tiny, between 0 and 5 cases a year since 2008. CDC's 2019 to 2022 county file lists 9 Lyme cases in 7 counties: Harrison and Madison with 2 each, and Choctaw, Jones, Kemper, Pearl River and Perry with 1 each. Cases are counted by where the patient lives, which may not be where the bite happened."
+    },
+    {
+      "type": "h3",
+      "text": "Why is Lyme disease so rare in Mississippi?"
+    },
+    {
+      "type": "p",
+      "text": "The ticks are the likely reason: CDC says blacklegged ticks found in most of the southeastern US are almost never infected. It also says a tick must usually be attached for more than 24 hours to pass on the Lyme bacterium, and that nymphs, about the size of a poppy seed, pose a particular risk because they are abundant and hard to see. See [the two US ticks that carry Lyme disease](/blog/ticks-that-carry-lyme-disease) and [the stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide)."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Mississippi?"
+    },
+    {
+      "type": "p",
+      "text": "All year, with different ticks in different seasons: the seasonal key in the 2006 state guide, summarized below, has adult ticks biting people in every season. The [state health department](https://msdh.ms.gov/page/14,0,384.html) says Rocky Mountain spotted fever occurs in months when ground temperatures reach 40°F or more and ticks are active."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Season",
+        "Adult ticks most likely to be biting",
+        "Young ticks most likely"
+      ],
+      "rows": [
+        [
+          "Winter (December and January)",
+          "Blacklegged (deer) tick",
+          "None listed"
+        ],
+        [
+          "Early spring (February and March)",
+          "Blacklegged or lone star tick",
+          "Lone star nymphs"
+        ],
+        [
+          "Late spring (April and May)",
+          "Lone star, Gulf Coast or American dog tick",
+          "Lone star nymphs"
+        ],
+        [
+          "Early summer (June and July)",
+          "Lone star, Gulf Coast or American dog tick",
+          "Lone star nymphs"
+        ],
+        [
+          "Late summer (August and September)",
+          "American dog or Gulf Coast tick",
+          "Lone star larvae or nymphs"
+        ],
+        [
+          "Fall (October and November)",
+          "American dog or blacklegged tick",
+          "Lone star larvae"
+        ]
+      ],
+      "caption": "From the seasonal key in [A Guide to the Ticks of Mississippi](https://www.mafes.msstate.edu/publications/bulletins/b1150.pdf) (2006), which covers the state's five most common ticks and is a guide, not definitive identification. In summer, it adds, adult ticks around homes with dogs that are not biting people are probably brown dog ticks."
+    },
+    {
+      "type": "p",
+      "text": "On the coast, one species' season is sharp. In the Grand Bay survey published by [MSU Extension](https://extension.msstate.edu/publications/facts-about-ticks-and-tick-borne-diseases-grand-bay-national-wildlife-refuge-and-national-estuarine-research-reserve), ticks were rare until Gulf Coast ticks emerged in July; activity peaked in early August, when the drag cloth often held 5 to 15 ticks each time it was turned over, and a few turned up as late as early November."
+    },
+    {
+      "type": "chart",
+      "title": "Adult Gulf Coast ticks collected by month at Grand Bay National Wildlife Refuge",
+      "x": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "series": [
+        {
+          "name": "Adult Gulf Coast ticks",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            189,
+            273,
+            233,
+            40,
+            2,
+            0
+          ]
+        }
+      ],
+      "yLabel": "Adult ticks collected per month, sampled every two weeks",
+      "caption": "Sampling along a 1.5-mile trail in the refuge's pine savanna, published in July 2023. The survey's 14 adult American dog ticks came in June, July and September, and its 4 adult deer ticks only in winter or early spring.",
+      "source": "[MSU Extension Publication 3918](https://extension.msstate.edu/publications/facts-about-ticks-and-tick-borne-diseases-grand-bay-national-wildlife-refuge-and-national-estuarine-research-reserve)"
+    },
+    {
+      "type": "p",
+      "text": "Deer ticks run the other way. The 2006 guide says adult blacklegged ticks are commonly encountered in Mississippi in winter, and [CDC](https://www.cdc.gov/ticks/about/where-ticks-live.html) says adults may be out looking for a host any time winter temperatures are above freezing. Larval lone star ticks, the so-called [seed ticks](/blog/seed-ticks), are active in late summer and early fall, according to the guide."
+    },
+    {
+      "type": "p",
+      "text": "Illness follows the warm months. Nationally, reported spotted fever cases peak in June and July, according to [CDC's average counts by month of onset](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html) for 2019 to 2023, which also show cases in every month of the year."
+    },
+    {
+      "type": "h2",
+      "text": "Has the Asian longhorned tick reached Mississippi?"
+    },
+    {
+      "type": "p",
+      "text": "Not as far as anyone has confirmed. As of August 21, 2026, there were no confirmed reports of it in Mississippi, an [MSU Extension](https://extension.msstate.edu/news/feature-story/2026/new-invasive-tick-poses-major-risk-livestock) entomologist said, which does not necessarily mean the tick is not here. It has been confirmed in more than 20 states, including neighboring Arkansas, Alabama and Tennessee. That August report was the latest public update we found as of October 2026."
+    },
+    {
+      "type": "p",
+      "text": "MSU Extension describes a small, reddish-brown tick with no white markings that clusters in large numbers on animals; unfed adults are 3 to 4 mm long (about 0.12 to 0.16 inch), and females can lay up to 2,000 eggs without mating. It is mainly a livestock pest. [CDC](https://www.cdc.gov/ticks/about/where-ticks-live.html) says it appears less attracted to people than native ticks and that it is not yet known whether, or how often, it makes people ill in the US. See [the Asian longhorned tick guide](/blog/asian-longhorned-tick)."
+    },
+    {
+      "type": "h3",
+      "text": "How do you report an Asian longhorned tick in Mississippi?"
+    },
+    {
+      "type": "p",
+      "text": "Send it to the state health department. As of August 2026, MSU Extension asks that suspected Asian longhorned ticks go to the Mississippi State Department of Health's Entomology and Vector Control Program:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Put the ticks in a hard, leakproof container of isopropyl (rubbing) alcohol, inside a zip-close bag.",
+        "Add the date, time and place you found them, the animal they were on and your contact information.",
+        "Mail the package to the Mississippi Public Health Laboratory, Attn: Dr. Wendy Varnado, 570 East Woodrow Wilson Ave., Jackson, MS 39215.",
+        "Report any unusual ticks or abnormally large numbers of ticks, and ask a veterinarian which tick prevention products suit your livestock."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How do you get a tick identified in Mississippi?"
+    },
+    {
+      "type": "p",
+      "text": "Email the state health department a photo. As of October 2026, the [Mississippi State Department of Health's Entomology and Vector Control Program](https://msdh.ms.gov/page/14,0,119.html), which runs an active tick surveillance program, identifies ticks found in the state from photos: remove the tick if it is attached, photograph it and email the photos to Entomology@msdh.ms.gov with where in Mississippi and when you found it. It also identifies specimens in rubbing alcohol delivered in person to its Jackson office, but not live ones."
+    },
+    {
+      "type": "p",
+      "text": "Identification is not testing. The department's [questions-and-answers page](https://msdh.ms.gov/page/14,443,119.html) says it does not routinely test ticks for disease agents or currently offer tick testing to the public, and that identification generally takes a few days. CDC generally advises against testing a removed tick: a negative result can give false reassurance, and symptoms will probably appear before the results would."
+    },
+    {
+      "type": "p",
+      "text": "Knowing the species still helps. To identify a tick yourself first, try this [tick identification chart with photos](/learn/tick-identification-chart)."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Mississippi?"
+    },
+    {
+      "type": "p",
+      "text": "Take the tick off right away, then watch for fever or a rash for several weeks. [CDC's tick-bite guidance](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) describes removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers; regular tweezers or fingers will do, as long as you avoid squeezing its body.",
+        "Pull it away with steady, even pressure, without twisting or jerking. Remove any mouthparts left in the skin with tweezers if they come out easily; otherwise leave them, and the skin will push them out as it heals.",
+        "Dispose of a live tick in a sealed container, wrapped tightly in tape, flushed down the toilet or in alcohol. Never crush it with your fingers.",
+        "Clean the bite and your hands with soap and water, rubbing alcohol or hand sanitizer, and check your body for other ticks."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Skip petroleum jelly, nail polish and heat, which CDC says can agitate the tick and force infected fluid into the skin. The state health department suggests keeping the tick in rubbing alcohol labeled with the date and place of the bite, in case your physician wants it identified. See [the step-by-step guide to removing a tick](/blog/how-to-remove-tick-safely) and [how to check your whole body for ticks](/blog/how-to-do-a-tick-check)."
+    },
+    {
+      "type": "p",
+      "text": "Then watch your health. CDC says to see a doctor if a rash or fever develops within several weeks of removing a tick, and to say when and where you were probably bitten. The state health department adds that Rocky Mountain spotted fever deaths happen mainly when diagnosis is delayed to the second week of illness. Redness at the bite is not necessarily infection: CDC notes that lone star tick saliva can be irritating."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Round red rash on the back of a person's upper arm, with a dark red center, a paler middle ring and a red outer ring",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease. CDC says a circular rash of unknown cause, called STARI, sometimes follows lone star tick bites.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Do not wait for a rash",
+      "text": "CDC says Rocky Mountain spotted fever can be deadly if not treated early, and its rash usually appears only 2 to 4 days after the fever begins. If you get a fever, headache or body aches after a tick bite or time outdoors, see a health care provider and mention the tick."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Mississippi?"
+    },
+    {
+      "type": "p",
+      "text": "Cover up, use repellent, check often and keep the yard trimmed. The [state health department](https://msdh.ms.gov/page/14,0,384.html) and [CDC](https://www.cdc.gov/ticks/prevention/index.html) recommend these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Dress for ticks.** The health department advises light-colored long sleeves and long pants tucked into socks and boots, a hat, and walking in the center of trails so weeds do not brush against you.",
+        "**Use an EPA-registered repellent.** CDC lists DEET, picaridin, IR3535, oil of lemon eucalyptus (OLE), para-menthane-diol (PMD) and 2-undecanone, with no OLE or PMD on children under 3. The health department recommends DEET at 30 percent or less on exposed skin, except the face. Follow the label.",
+        "**Treat clothing and gear with permethrin.** CDC recommends products with 0.5% permethrin for boots, clothing and camping gear; they stay protective through several washings.",
+        "**Check often.** The health department says to check yourself, your children and other family members every two to three hours, and to check pets often, since ticks ride indoors on them.",
+        "**Shower and use the dryer.** CDC says showering within two hours of coming indoors has been shown to reduce the risk of Lyme disease, and 10 minutes in a dryer on high heat kills ticks on dry clothing.",
+        "**Keep the yard trimmed.** The health department says to keep grass mowed and weeds cut; CDC adds clearing leaf litter and brush and a 3-foot barrier of wood chips or gravel between lawn and woods. CDC says not to rely on spraying to reduce infection risk; follow any pesticide label."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Hunters should take the same precautions, since the 2006 state guide says adult lone star ticks are especially common on white-tailed deer. Ask a veterinarian which tick preventive suits your dog."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is there Lyme disease in Mississippi?",
+      "answer": "Yes, but very little. CDC counted 4 Lyme disease cases among Mississippi residents in 2023, a rate of 0.1 per 100,000, and between 0 and 5 cases a year since 2008. Cases are counted where patients live, not necessarily where they were bitten. CDC's tick records list no Mississippi county where the Lyme bacterium has been found in host-seeking blacklegged ticks, though a missing record can mean no testing, and CDC says blacklegged ticks in most of the southeastern US are almost never infected."
+    },
+    {
+      "question": "What is the most common tick in Mississippi?",
+      "answer": "The lone star tick. A 2006 Mississippi State University guide calls it the most abundant and annoying tick in the state and says it is common in every county. CDC's county table, through 2025, lists it as established in 58 of Mississippi's 82 counties, more than the blacklegged tick (40) or the American dog tick (18). The adult female has a single white spot on her back, and CDC calls the species a very aggressive tick that bites people."
+    },
+    {
+      "question": "When is tick season in Mississippi?",
+      "answer": "Ticks can bite in any month here. A 2006 state guide's seasonal key has adult ticks biting people in every season: deer ticks from October through March, lone star ticks from February through July, American dog ticks from April through November and Gulf Coast ticks from April through September. A coastal survey published by MSU Extension in 2023 found Gulf Coast ticks from June to early November, peaking in August. The state health department says Rocky Mountain spotted fever occurs in months when ground temperatures reach 40°F or more."
+    },
+    {
+      "question": "Can I get a tick tested for disease in Mississippi?",
+      "answer": "Not through the state. The Mississippi State Department of Health says it does not currently offer tick testing to the public, though as of October 2026 its entomology program identifies ticks from photos emailed to Entomology@msdh.ms.gov. CDC generally advises against testing a removed tick, because a negative result can give false reassurance and symptoms will probably appear before results would. If you feel ill after a bite, see a health care provider instead of waiting on the tick."
+    },
+    {
+      "question": "What is the most common tick-borne disease in Mississippi?",
+      "answer": "Spotted fever rickettsiosis, which includes Rocky Mountain spotted fever. CDC's county data count 187 spotted fever cases among Mississippi residents from 2019 to 2022, against 20 ehrlichiosis cases and 9 Lyme disease cases. In 2023 the state's spotted fever rate was 7.8 cases per million residents, the eighth highest of the 48 states and the District of Columbia where it is notifiable, by our ranking. CDC says Rocky Mountain spotted fever can be deadly if not treated early, so see a health care provider if you get a fever after a tick bite."
+    },
+    {
+      "question": "Are there Asian longhorned ticks in Mississippi?",
+      "answer": "None had been confirmed as of August 21, 2026, according to MSU Extension, which noted that this does not necessarily mean the tick is absent. It has been confirmed in neighboring Arkansas, Alabama and Tennessee. MSU Extension asks that suspected Asian longhorned ticks be sent to the state health department's Entomology and Vector Control Program in a leakproof container of rubbing alcohol, with the date, place, host animal and your contact details."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "American Dog Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (Reported Tickborne Disease Cases by County of Residence, 2019-2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "Data and Statistics on Spotted Fever Rickettsiosis (state incidence files, 2018 to 2023; national cases, 2000 to 2023; cases by month of onset, 2019 to 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "Ehrlichiosis Epidemiology and Statistics (state incidence files, 2018 to 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "Spotted Fever Rickettsiosis (including Rocky Mountain Spotted Fever) 2020 Case Definition",
+      "publisher": "CDC National Notifiable Diseases Surveillance System",
+      "url": "https://ndc.services.cdc.gov/case-definitions/spotted-fever-rickettsiosis-2020/"
+    },
+    {
+      "title": "Where Ticks Live",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/about/where-ticks-live.html"
+    },
+    {
+      "title": "How Lyme Disease Spreads",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "Preventing Tick Bites",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/prevention/index.html"
+    },
+    {
+      "title": "About Rocky Mountain Spotted Fever",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/about/index.html"
+    },
+    {
+      "title": "Rocky Mountain Spotted Fever (RMSF) (last reviewed July 18, 2025)",
+      "publisher": "Mississippi State Department of Health",
+      "url": "https://msdh.ms.gov/page/14,0,384.html"
+    },
+    {
+      "title": "Entomology and Vector Control Program: Tick Identification (last reviewed September 15, 2025)",
+      "publisher": "Mississippi State Department of Health",
+      "url": "https://msdh.ms.gov/page/14,0,119.html"
+    },
+    {
+      "title": "Questions and Answers: Entomology and Vector Control (last reviewed September 15, 2025)",
+      "publisher": "Mississippi State Department of Health",
+      "url": "https://msdh.ms.gov/page/14,443,119.html"
+    },
+    {
+      "title": "A Guide to the Ticks of Mississippi (Bulletin 1150, September 2006)",
+      "publisher": "Mississippi Agricultural and Forestry Experiment Station, Mississippi State University",
+      "url": "https://www.mafes.msstate.edu/publications/bulletins/b1150.pdf"
+    },
+    {
+      "title": "Watch Out for Ticks! Facts about Ticks and Tick-borne Diseases at Grand Bay National Wildlife Refuge (Publication 3918, July 2023)",
+      "publisher": "Mississippi State University Extension Service",
+      "url": "https://extension.msstate.edu/publications/facts-about-ticks-and-tick-borne-diseases-grand-bay-national-wildlife-refuge-and-national-estuarine-research-reserve"
+    },
+    {
+      "title": "New invasive tick poses major risk to livestock (August 25, 2026)",
+      "publisher": "Mississippi State University Extension Service",
+      "url": "https://extension.msstate.edu/news/feature-story/2026/new-invasive-tick-poses-major-risk-livestock"
+    }
+  ],
+  "disclaimer": "both"
+}
