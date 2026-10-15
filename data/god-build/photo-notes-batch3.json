@@ -1,0 +1,1598 @@
+{
+ "_readme": "Scout notes for the third photo batch (Oct 15, 2026): for each photo, what its source says it shows, which planned pages it serves, confidence in the identification, and caveats (taken outside North America, caption limits, crops). The licence, credit and size of record are in photos.json; write captions from these notes and the record together.",
+ "candidates": [
+  {
+   "id": "brown-widow-spider",
+   "forPages": [
+    "brown-widow-spiders",
+    "spiders-in-california",
+    "spiders-in-florida",
+    "black-widow-spiders",
+    "venomous-spiders"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 4005515 of Latrodectus geometricus (Brown Widow), La Habra, CA 90631, USA, 2016-08-30; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 2048x1715"
+  },
+  {
+   "id": "brown-widow-hourglass",
+   "forPages": [
+    "brown-widow-spiders",
+    "venomous-spiders"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This photograph depicted a close inferior view of a female brown widow spider, Latrodectus geometricus , as she was poised in her web awaiting prey. Note the characteristic orange-colored hourglass, located on her inferior abdominal surface, which can vary in coloration from yellowish, to shades of orange. Drop for drop, the neurotoxic poison produced by Latrodectus geometricus , is as toxic as its cousin, the black widow, Latrodectus mactans .",
+   "note": "Optional extra (second view). Credit: Dr. H.W. Levi; photo: H. Campbell (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 18.35 MB"
+  },
+  {
+   "id": "brown-widow-egg-sacs",
+   "forPages": [
+    "brown-widow-spiders",
+    "black-widow-spiders"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 391056042 of Latrodectus geometricus (Brown Widow), Exo Vrysis, Paphos, Paphos, CY, 2026-08-14; 5 current identifications.",
+   "note": "Optional extra (second view). Photographed in Cyprus (introduced range); the spiky sac is the same everywhere. Credit: no rights reserved Size: 1152x2048"
+  },
+  {
+   "id": "western-black-widow",
+   "forPages": [
+    "spiders-in-california",
+    "spiders-in-arizona",
+    "black-widow-spiders",
+    "venomous-spiders",
+    "black-widow-bite"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 193 of Latrodectus hesperus (Western Black Widow), Strawberry Canyon, Berkeley, CA, 2008-04-26; 7 current identifications. Observer notes: I saw a lot of widows out along the road, building webs in the road barriers and fences. Still not sure what species we have around here. I also saw some very colorful males, but didn't get any decent photos.",
+   "note": "Credit: (c) Ken-ichi Ueda, some rights reserved (CC BY) Size: 2048x2048"
+  },
+  {
+   "id": "northern-black-widow",
+   "forPages": [
+    "black-widow-spiders",
+    "spider-bites",
+    "false-widow-spiders",
+    "black-widow-bite"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 314473590 of Latrodectus variolus (Northern Black Widow), Sister Bay, WI 54234, USA, 2025-09-16; 3 current identifications. Observer notes: Found under steps. Moved to safer location on property.",
+   "note": "Credit: no rights reserved Size: 1733x1638"
+  },
+  {
+   "id": "false-black-widow",
+   "forPages": [
+    "false-widow-spiders",
+    "black-widow-spiders",
+    "house-spiders",
+    "how-to-get-rid-of-spiders"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Adult female false black widow ( Steatoda grossa ) found at Mare Island, California",
+   "note": "Credit: Ryan Kaldari | credit: Own work Size: 1200x900"
+  },
+  {
+   "id": "joro-spider",
+   "forPages": [
+    "joro-spiders",
+    "orb-weaver-spiders"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 403928091 of Trichonephila clavata (Joro Spider), Polkton, NC, US, 2026-09-27; 3 current identifications.",
+   "note": "Credit: no rights reserved Size: 1536x2048"
+  },
+  {
+   "id": "golden-silk-orb-weaver",
+   "forPages": [
+    "orb-weaver-spiders",
+    "spiders-in-florida",
+    "joro-spiders"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 126590005 of Trichonephila clavipes (Golden Silk Spider), Anahuac National Wildlife Refuge, Chambers County, TX, USA, 2022-07-16; 3 current identifications.",
+   "note": "Credit: no rights reserved Size: 2048x1365"
+  },
+  {
+   "id": "yellow-garden-spider",
+   "forPages": [
+    "orb-weaver-spiders",
+    "spiders-in-texas"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Yellow Garden Spider (Argiope aurantia) in Chapel Hill, North Carolina.",
+   "note": "Credit: NCBioTeacher | credit: Own work Size: 1536x2048"
+  },
+  {
+   "id": "spinybacked-orb-weaver",
+   "forPages": [
+    "orb-weaver-spiders",
+    "spiders-in-florida"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Spinybacked Orbweaver ( Gasteracantha cancriformis ) in Florida, United States",
+   "note": "Optional extra (second view). Credit: Zygy | credit: https://www.inaturalist.org/photos/172582232 Size: 900x675"
+  },
+  {
+   "id": "grass-spider",
+   "forPages": [
+    "grass-spiders",
+    "brown-recluse-look-alikes"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 13441933 of Agelenopsis (Grass Spiders), Woodlawn, OH 45215, USA, 2018-06-14; 3 current identifications.",
+   "note": "Genus-level identification (normal for Agelenopsis from photos). Credit: no rights reserved Size: 2048x1365"
+  },
+  {
+   "id": "grass-spider-sheet-web",
+   "forPages": [
+    "grass-spiders"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 216190668 of Agelenopsis (Grass Spiders), Texas, US, 2024-05-15; 3 current identifications. Observer notes: after fog",
+   "note": "Optional extra (second view). Genus-level identification. Credit: (c) dhasdf, some rights reserved (CC BY) Size: 2048x2048"
+  },
+  {
+   "id": "bold-jumping-spider",
+   "forPages": [
+    "jumping-spiders",
+    "spiders-in-texas"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Adult female Phidippus audax jumping spider in Nashville, Tennessee",
+   "note": "Credit: Kaldari | credit: Own work Size: 2000x1500"
+  },
+  {
+   "id": "hobo-spider",
+   "forPages": [
+    "hobo-spiders",
+    "spider-bites",
+    "brown-recluse-look-alikes"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Tegenaria agrestis, female, det. by K.-H. Kielhorn, Berlin",
+   "note": "Photographed in Berlin; species determined by arachnologist K.-H. Kielhorn per the file page. Same species as the introduced Pacific Northwest population. Credit: Rainer Altenkamp, Berlin | credit: Own work Size: 1068x742"
+  },
+  {
+   "id": "giant-house-spider",
+   "forPages": [
+    "hobo-spiders",
+    "house-spiders"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 127929816 of Eratigena duellica (Giant House Spider), Maynard St, Saanich, BC, CA, 2022-07-23; 2 current identifications. Observer notes: Found under a rock is a shaded area of a park (near houses and yards)",
+   "note": "Credit: no rights reserved Size: 1536x2048"
+  },
+  {
+   "id": "yellow-sac-spider",
+   "forPages": [
+    "yellow-sac-spiders",
+    "spider-bites",
+    "brown-recluse-look-alikes"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 135845728 of Cheiracanthium mildei (Northern Yellow Sac Spider), Windermere Ave, Toronto, ON, CA, 2022-09-20; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 2048x1536"
+  },
+  {
+   "id": "dark-fishing-spider",
+   "forPages": [
+    "fishing-spiders"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 4193795 of Dolomedes tenebrosus (Dark Fishing Spider), Beaver County, PA, USA, 2016-09-21; 4 current identifications.",
+   "note": "Credit: no rights reserved Size: 2016x2048"
+  },
+  {
+   "id": "camel-spider-solifuge",
+   "forPages": [
+    "camel-spiders",
+    "spiders-in-arizona"
+   ],
+   "confidence": "high",
+   "sourceDescription": "A solifuge found in Trinidad, Las Animas County, Colorado, U.S. on September 28th, 2026 under a rock in the daytime. Body length including chelicerae is very roughly around 1 inch.",
+   "note": "Order-level identification only (solifuges are unmistakable at that level); do not caption a species. Credit: NathanScientific | credit: Own work Size: 4400x3300"
+  },
+  {
+   "id": "texas-brown-tarantula",
+   "forPages": [
+    "tarantulas",
+    "spiders-in-texas"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 2981542 of Aphonopelma hentzi (Texas Brown Tarantula), Bandera Co., US-TX, US, 2016-04-09; 3 current identifications. Observer notes: Found under a rock after dark, next to 3 narrow-mouthed toads (Gastrophryne). About 8cm. long 18ºC, 60% Humidity, 30% Tree cover USA, TX, Bandera Co.: Bandera Hill Country SNA 9-iv-2016 29.627912ºN, -99.184542ºW",
+   "note": "Credit: no rights reserved Size: 2048x1872"
+  },
+  {
+   "id": "woodlouse-spider",
+   "forPages": [
+    "woodlouse-spiders",
+    "brown-recluse-look-alikes"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 364533454 of Dysdera crocata (Woodlouse Spider), Northwest Philadelphia, Philadelphia, PA, USA, 2026-03-20; 3 current identifications.",
+   "note": "Credit: no rights reserved Size: 2048x1538"
+  },
+  {
+   "id": "cellar-spider",
+   "forPages": [
+    "daddy-long-legs",
+    "brown-recluse-look-alikes",
+    "house-spiders",
+    "how-to-get-rid-of-spiders"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 296194035 of Pholcus phalangioides (Long-bodied Cellar Spider), Foster City, CA 94404, USA, 2025-07-08; 3 current identifications.",
+   "note": "Credit: no rights reserved Size: 1536x2048"
+  },
+  {
+   "id": "harvestman",
+   "forPages": [
+    "daddy-long-legs"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Beltsville, Maryland, Dejen Mengis collector, Leiobunum flavum, graciously determined by Jeff Shultz",
+   "note": "Credit: USGS Bee Inventory and Monitoring Lab | credit: Flickr : Leiobunum flavum, U, Side, MD, PG County_2013-08-05-17.39.03 ZS PMax Size: 5616x3359"
+  },
+  {
+   "id": "crane-fly",
+   "forPages": [
+    "daddy-long-legs"
+   ],
+   "confidence": "medium",
+   "sourceDescription": "Giant Crane Fly ( Tipula abdominalis ) in Pennsylvania",
+   "note": "Species per the photographer; genus Tipula certain. Credit: Kaldari | credit: Own work Size: 2048x1536"
+  },
+  {
+   "id": "desert-recluse",
+   "forPages": [
+    "spiders-in-arizona",
+    "spiders-in-california",
+    "brown-recluse"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 328982725 of Loxosceles deserta (Desert Recluse), Pima County, AZ, USA, 2025-11-29; 2 current identifications. Observer notes: disturbed from moving some equipment around, safely returned to his cozy dark nook",
+   "note": "Spider is small in the frame; crop when used. Credit: no rights reserved Size: 2048x2003"
+  },
+  {
+   "id": "eastern-yellowjacket",
+   "forPages": [
+    "yellow-jackets",
+    "how-to-get-rid-of-wasps",
+    "how-to-get-rid-of-ground-wasps",
+    "bee-sting-vs-wasp-sting"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This image depicts a dorsal view of a yellow jacket worker wasp, Vespula maculifrons . See PHIL 6340 for another view of this wasp compared to its cousin, Vespula squamosa .",
+   "note": "Credit: CDC/ Dr. Henry D. Pratt (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 18.46 MB"
+  },
+  {
+   "id": "yellowjacket-ground-nest",
+   "forPages": [
+    "how-to-get-rid-of-ground-wasps",
+    "yellow-jackets",
+    "wasp-nest-identification",
+    "ground-bees"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 63309210 of Vespula pensylvanica (Western Yellowjacket), Guadalupe River Trail, Santa Clara County, CA, USA, 2020-10-22; 2 current identifications. Observer notes: Yellowjacket nest.",
+   "note": "Credit: no rights reserved Size: 1919x1919"
+  },
+  {
+   "id": "bald-faced-hornet",
+   "forPages": [
+    "bald-faced-hornets"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Bald-faced Hornet - Dolichovespula maculata, Herndon, Virginia",
+   "note": "Credit: Judy Gallagher | credit: https://www.flickr.com/photos/52450054@N04/20779113131/ Size: 5184x3456"
+  },
+  {
+   "id": "bald-faced-hornet-nest",
+   "forPages": [
+    "bald-faced-hornets",
+    "wasp-nest-identification",
+    "how-to-get-rid-of-wasps"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Did you know that the bald-faced hornet isn't a true hornet, but actually a yellowjacket wasp? They build large hanging paper nests that may measure up to 23 inches in length. Workers will aggressively defend nests and repeatedly sting. They prey on flies, caterpillars, spiders and even other wasps. They'll also visit flowers and feed on nectar, providing some pollination. We spotted this nest in St. Louis County, Minnesota. Photo by Courtney Celley/USFWS.",
+   "note": "Credit: U.S. Fish and Wildlife Service - Midwest Region | credit: Bald-faced hornet nest Size: 8800x5866"
+  },
+  {
+   "id": "dark-paper-wasp",
+   "forPages": [
+    "paper-wasps",
+    "how-to-get-rid-of-wasps"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Dark Paper Wasp ( Polistes fuscatus )",
+   "note": "Credit: Zygy | credit: https://www.inaturalist.org/photos/157265190 Size: 2200x1650"
+  },
+  {
+   "id": "european-paper-wasp",
+   "forPages": [
+    "paper-wasps"
+   ],
+   "confidence": "medium",
+   "sourceDescription": "File title: Feldwespe (März 2023) 2. Description: European paper wasp (Polistes dominula) on the flower of a common dandelion (Taraxacum sect. Ruderalia)",
+   "note": "Optional extra (second view). Photographed in Germany; species per the photographer (distinctive yellow antennae and face). Credit: Romzig | credit: Own work Size: 4344x2896"
+  },
+  {
+   "id": "paper-wasp-nest",
+   "forPages": [
+    "paper-wasps",
+    "wasp-nest-identification",
+    "how-to-get-rid-of-wasps"
+   ],
+   "confidence": "high",
+   "sourceDescription": "File title: Paper wasp nest (Vespidae, Polistes apachus). Description: USA, TX, Gonzales Co.: Gonzales Palmetto State Park 16-x-2016",
+   "note": "Insects Unlocked image with a caption strip along the bottom edge; crop it. Credit: Insects Unlocked | credit: Paper wasp nest (Vespidae, Polistes apachus) Size: 4965x3672"
+  },
+  {
+   "id": "european-hornet",
+   "forPages": [
+    "european-hornets",
+    "northern-giant-hornet"
+   ],
+   "confidence": "high",
+   "sourceDescription": "File title: Hornisse (Juni 2024). Description: European hornet (Vespa crabro) on a fruit tree",
+   "note": "Credit: Romzig | credit: Own work Size: 4332x2882"
+  },
+  {
+   "id": "northern-giant-hornet",
+   "forPages": [
+    "northern-giant-hornet"
+   ],
+   "confidence": "high",
+   "sourceDescription": "MURDER HORNET FRIDAY. Shot 2. Here is a lovely side shot of the specimen of Vespa manderinia that Izzy Hill lent us for a mini photo shoot (specimen was purchased online quite a while ago...so not sure of its exact provenance). This species has been recorded over the last 2 years in British Columbia and Washington State. The populations are breeding and everyone up there is scrambling to develop survey techniques, find colonies, and look at strategies for elimination. Because of their predation on European Honeybee colonies, the Bee industry and societies are very worried. Problem is that despite being huge for an insect they are small when compared to vertebrates...Think about all the peopl",
+   "note": "The source says the specimen was bought online and its provenance is unknown; species as identified by the USGS Bee Lab. Credit: USGS Bee Inventory and Monitoring Lab from Beltsville, Maryland, USA | credit: murder hornet, f, side_2020-10-01-18.57.21 ZS PMax UDR Size: 2847x1467"
+  },
+  {
+   "id": "yellow-legged-hornet",
+   "forPages": [
+    "yellow-legged-hornet"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Vespa velutina (Frelon asiatique) sur une feuille de bambou à Poitiers (Union Européenne - FR).",
+   "note": "Credit: Nicolas Y. D. TIREL | credit: Own work Size: 4928x3264"
+  },
+  {
+   "id": "cicada-killer",
+   "forPages": [
+    "cicada-killers",
+    "european-hornets",
+    "northern-giant-hornet"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Sphecius speciosus, dorsal, erbeutet Zikade im Big Stone National Wildlife Refuge in Minnesota, Vereinigte Staaten",
+   "note": "Credit: USFWS Midwest Region | credit: Flickr Size: 6000x4000"
+  },
+  {
+   "id": "cicada-killer-burrow",
+   "forPages": [
+    "cicada-killers",
+    "how-to-get-rid-of-ground-wasps",
+    "ground-bees"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Sphecius speciosus, Vorderansicht, zieht Beute über Erdhügel im Big Stone National Wildlife Refuge in Minnesota, Vereinigte Staaten",
+   "note": "Optional extra (second view). Credit: USFWS Midwest Region | credit: Flickr Size: 6000x4000"
+  },
+  {
+   "id": "black-and-yellow-mud-dauber",
+   "forPages": [
+    "mud-daubers"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Black and Yellow Mud Dauber (Sphecidae, Sceliphron caementarium (Drury)) USA, TX, Travis Co.: Austin Hornsby Bend Bird Observatory 30.22°N 97.65°W 135m aerial Honey mesquite on Chimney Trail, warehouse 23.VI.2017 A. Santillana coll. #ASF1049",
+   "note": "Insects Unlocked caption strip along the bottom edge; crop it. Credit: Insects Unlocked | credit: Black and Yellow Mud Dauber (Sphecidae, Sceliphron caementarium (Drury)) Size: 5184x3972"
+  },
+  {
+   "id": "organ-pipe-mud-dauber-nest",
+   "forPages": [
+    "mud-daubers",
+    "wasp-nest-identification"
+   ],
+   "confidence": "high",
+   "sourceDescription": "File title: Pipe Organ Mud Dauber Nest - Flickr - treegrow. Description: Trypoxylon politum . Rock Creek Park, Washington, DC, USA",
+   "note": "Credit: Katja Schulz from Washington, D. C., USA | credit: Pipe Organ Mud Dauber Nest Size: 2022x2697"
+  },
+  {
+   "id": "blue-mud-dauber-on-nest",
+   "forPages": [
+    "mud-daubers",
+    "wasp-nest-identification"
+   ],
+   "confidence": "high",
+   "sourceDescription": "A female Chalybion californicum repurposing an old Sceliphron caementarium nest. Cheyenne, Oklahoma.",
+   "note": "Optional extra (second view). Credit: Calinsdad | credit: https://www.inaturalist.org/photos/526309709 Size: 1152x2048"
+  },
+  {
+   "id": "carpenter-bee-nest-hole",
+   "forPages": [
+    "how-to-get-rid-of-carpenter-bees",
+    "carpenter-bee-vs-bumble-bee",
+    "wasp-nest-identification"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 238779792 of Xylocopa virginica (Eastern Carpenter Bee), Greenfield, KS 67346, USA, 2024-08-29; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 1638x1391"
+  },
+  {
+   "id": "common-eastern-bumble-bee",
+   "forPages": [
+    "carpenter-bee-vs-bumble-bee"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Bombus impatiens on Zinnia elegans at the Jardin botanique Roger-Van den Hende, Quebec City, Canada.",
+   "note": "Credit: Wilfredor | credit: Own work Size: 4442x3202"
+  },
+  {
+   "id": "honey-bee",
+   "forPages": [
+    "bee-sting-vs-wasp-sting"
+   ],
+   "confidence": "high",
+   "sourceDescription": "The Honey bee, Apis mellifera",
+   "note": "Optional extra (second view). Credit: USGS Bee Inventory and Monitoring Lab from Beltsville, Maryland, USA | credit: Apis mellifera, F, Side, MD, Granite, marian_2014-01-26-11.36.20 ZS PMax Size: 4855x3744"
+  },
+  {
+   "id": "honey-bee-stinging",
+   "forPages": [
+    "bee-sting-vs-wasp-sting"
+   ],
+   "confidence": "high",
+   "sourceDescription": "File title: Stechende Biene 12a. Description: Sting of a honey bee. The barbed stinger is torn off and remains in the skin. Muscles at the stinger continue to pump venom into the wound.",
+   "note": "Credit: Waugsberg | credit: Own work Size: 1455x1091"
+  },
+  {
+   "id": "yellowjacket-sting-swelling",
+   "forPages": [
+    "bee-sting-vs-wasp-sting",
+    "yellow-jackets"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This image depicts the dorsal surface of a woman’s forearms and hands revealing marked swelling of the right hand after having been stung by a yellow jacket, Vespula sp. wasp, 24-hours earlier. The ensuing swelling and erythema subsided 72-hours after beginning oral corticosteroid administration. Note the erythema around the site of the sting on the dorsum of the right hand. The patient had an immediate positive skin test reaction to hornet (H), honey bee (HB), and yellow jacket (YJ) for a period of 24-hours after the introduction of the hymenopteran allergens.",
+   "note": "Credit: CDC/ Margaret A. Parsons (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 18.34 MB"
+  },
+  {
+   "id": "mining-bee",
+   "forPages": [
+    "ground-bees"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Andrena dunningi. A large dark Andrena. This lovely female, in fresh plumage, is relatively easy to identify simply by the orange brown color of its body hairs along with the nearly black hairs located on its hind legs which it uses to carry pollen to its nest. However, after it's been out in the sun for several weeks it can also turn the same off-white coloration that most of the other Andrena bees have in this group. This is a bee of tree flowers. In particular, it favors Willows, but can be found on a wide variety of spring blooming woody plants, though seemingly avoiding the heath family, which has its own specialists. This bee was photographed by Sue Boo and collected in Harford County ",
+   "note": "Credit: USGS Bee Inventory and Monitoring Lab from Beltsville, Maryland, USA | credit: Andrena dunningi, F, side, MD, Harford County_2013-04-29-17.29 Size: 5289x4032"
+  },
+  {
+   "id": "mining-bee-burrow",
+   "forPages": [
+    "ground-bees",
+    "how-to-get-rid-of-ground-wasps"
+   ],
+   "confidence": "medium",
+   "sourceDescription": "A Miner Bee burrow and excavated soil, Andrena species.",
+   "note": "Photographed in Scotland; genus per the photographer. Credit: Rosser1954 | credit: Own work Size: 2187x2412"
+  },
+  {
+   "id": "sweat-bee",
+   "forPages": [
+    "sweat-bees"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Pure Green Sweat Bee ( Augochlora pura )",
+   "note": "Credit: megachile | credit: https://www.inaturalist.org/photos/74743908 Size: 1654x1072"
+  },
+  {
+   "id": "tarantula-hawk",
+   "forPages": [
+    "tarantula-hawks",
+    "tarantulas"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Tarantula hawk (Pepsis sp.). NPS/Lian Law",
+   "note": "Genus-level identification. Credit: Joshua Tree National Park | credit: Tarantula hawk (Pepsis sp.) Size: 7360x4912"
+  },
+  {
+   "id": "velvet-ant",
+   "forPages": [
+    "velvet-ants"
+   ],
+   "confidence": "high",
+   "sourceDescription": "More Velvet Ant pictures...who wouldn't want more shots of this Badass Cowkiller? This one from Arkansas sent live in the mail by our correspondent FT. Its good to have such friends. Photos by Wayne Boo. 03:05, 11 April 2016 (UTC)03:05, 11 April 2016 (UTC){{{{{{0}}}}}}03:05, 11 April 2016 (UTC)03:05, 11 April 2016 (UTC) All photographs are public domain, feel free to download and use as you wish. Photography Information: Canon Mark II 5D, Zerene Stacker, Stackshot Sled, 65mm Canon MP-E 1-5X macro lens, Twin Macro Flash in Styrofoam Cooler, F5.0, ISO 100, Shutter Speed 200 Beauty is truth, truth beauty - that is all Ye know on earth and all ye need to know \" Ode on a Grecian Urn\" John Keats Y",
+   "note": "Credit: USGS Bee Inventory and Monitoring Lab from Beltsville, Maryland, USA | credit: Velvet Ant, F, Side, Hot Springs Village, AR_2015-08-20-15.39.20 ZS PMax UDR copy Size: 3744x4236"
+  },
+  {
+   "id": "cow-killer-velvet-ant",
+   "forPages": [
+    "velvet-ants"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Female Dasymutilla occidentalis .",
+   "note": "Optional extra (second view). Credit: Judy Gallagher | credit: https://www.flickr.com/photos/52450054@N04/14995049675/ Size: 4651x3101"
+  },
+  {
+   "id": "hairy-spider-beetle",
+   "forPages": [
+    "spider-beetles",
+    "pantry-pests"
+   ],
+   "confidence": "high",
+   "sourceDescription": "White-marked Spider-Beetle (‘’Ptinus fur’’) in Bærum, Norway.",
+   "note": "Credit: Ryan Hodnett | credit: Own work Size: 1632x1306"
+  },
+  {
+   "id": "house-centipede",
+   "forPages": [
+    "house-centipedes",
+    "millipedes"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 138657500 of Scutigera coleoptrata (House Centipede), 63065 Offenbach am Main, Deutschland, 2022-10-14; 4 current identifications. Observer notes: rainy, 13°C",
+   "note": "Credit: no rights reserved Size: 1152x2048"
+  },
+  {
+   "id": "silverfish",
+   "forPages": [
+    "how-to-get-rid-of-silverfish"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 154408715 of Lepisma saccharinum (Common Silverfish), Medway, London, ON, Canada, 2023-04-05; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 2048x1365"
+  },
+  {
+   "id": "brown-marmorated-stink-bug",
+   "forPages": [
+    "how-to-get-rid-of-stink-bugs",
+    "kissing-bug-look-alikes"
+   ],
+   "confidence": "high",
+   "sourceDescription": "The brown marmorated stink bug shown here is feeding on an apple on Aug. 29, 2012. This pest is a major economic threat to fruit crops, garden vegetables, and man ornamentals. U.S. Department of Agriculture (USDA) Agricultural Research Service (ARS) scientists are fighting back by developing traps, sequencing the bug’s genome, and testing parasitic wasps as biocontrols. USDA photo by Stephen Ausmus.",
+   "note": "Credit: U.S. Department of Agriculture | credit: d2709-1 Uploaded by January Size: 1800x2700"
+  },
+  {
+   "id": "greenhouse-millipede",
+   "forPages": [
+    "millipedes"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 29949787 of Oxidus gracilis (Greenhouse Millipede), Blendon Woods Metro Park, Columbus, OH, USA, 2019-07-29; 2 current identifications. Observer notes: mating?",
+   "note": "Credit: no rights reserved Size: 1968x1312"
+  },
+  {
+   "id": "asian-lady-beetle",
+   "forPages": [
+    "asian-lady-beetles"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 190510487 of Harmonia axyridis (Asian Lady Beetle), Neptune Township, 2023-11-09; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 1080x1920"
+  },
+  {
+   "id": "asian-lady-beetle-aggregation",
+   "forPages": [
+    "asian-lady-beetles"
+   ],
+   "confidence": "medium",
+   "sourceDescription": "File title: Ladybug meeting I. Description: An aggregation of several Harmonia axyridis individuals on a door frame. 15 aug 2025. Punta Indio, Buenos Aires, Argentina.",
+   "note": "Optional extra (second view). Photographed in Argentina; species per the photographer (multiple colour forms visible). Credit: Chinoaltubedenoia | credit: Own work Size: 1217x2048"
+  },
+  {
+   "id": "camel-cricket",
+   "forPages": [
+    "camel-crickets",
+    "crickets-in-house"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 384357 of Tachycines asynamorus (Greenhouse Camel Cricket), Upper Marlboro, md, 2013-08-25; 4 current identifications. Observer notes: Immature Diestrammena asynamora from my Upper Marlboro Maryland Basement, non-native species now common in many houses",
+   "note": "Credit: no rights reserved Size: 2048x1435"
+  },
+  {
+   "id": "may-june-beetle",
+   "forPages": [
+    "june-bugs"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 353850006 of Phyllophaga (May Beetles), North St, Huntington, IN, US, 2026-04-25; 2 current identifications.",
+   "note": "Genus-level identification. Credit: no rights reserved Size: 1536x2048"
+  },
+  {
+   "id": "green-june-beetle",
+   "forPages": [
+    "june-bugs"
+   ],
+   "confidence": "high",
+   "sourceDescription": "File title: Green June Beetle (Scarabaeidae, Cotinis nitida). Description: USA, VA, Radford Rest stop 15-vii-2016",
+   "note": "Optional extra (second view). Insects Unlocked caption strip along the bottom edge; crop it. Credit: Insects Unlocked | credit: Green June Beetle (Scarabaeidae, Cotinis nitida) Size: 5184x3918"
+  },
+  {
+   "id": "japanese-beetle-grub",
+   "forPages": [
+    "japanese-beetles",
+    "june-bugs"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 109403640 of Popillia japonica (Japanese Beetle), Northbridge, MA, USA, 2022-03-22; 2 current identifications.",
+   "note": "Optional extra (second view). Credit: (c) Betsy Lambert, some rights reserved (CC BY) Size: 2048x1536"
+  },
+  {
+   "id": "boxelder-bug",
+   "forPages": [
+    "how-to-get-rid-of-boxelder-bugs",
+    "kissing-bug-look-alikes"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 156911331 of Boisea trivittata (Eastern Boxelder Bug), San Juan County, US-UT, US, 2023-04-27; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 2048x2048"
+  },
+  {
+   "id": "european-earwig",
+   "forPages": [
+    "how-to-get-rid-of-earwigs"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 187200711 of Forficula auricularia (European Earwig Complex), Luther College, Decorah, IA, US, 2023-10-11; 4 current identifications.",
+   "note": "Credit: no rights reserved Size: 971x1295"
+  },
+  {
+   "id": "indian-meal-moth",
+   "forPages": [
+    "pantry-pests"
+   ],
+   "confidence": "high",
+   "sourceDescription": "An indianmeal moth ( Plodia interpunctella ).",
+   "note": "Credit: Kaldari | credit: Own work Size: 1200x1400"
+  },
+  {
+   "id": "sawtoothed-grain-beetle",
+   "forPages": [
+    "pantry-pests"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Sawtoothed Grain Beetle ( Oryzaephilus surinamensis )",
+   "note": "Credit: Karel Schoonvaere | credit: https://www.inaturalist.org/photos/176670540 Size: 2048x1536"
+  },
+  {
+   "id": "red-flour-beetle",
+   "forPages": [
+    "pantry-pests"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Normal red flour beetle (Tribolium castaneum) (about 1/8-inch long) with black eyes. Photo by Peggy Greb. USDA ARS Image Number D268-1. (File page wikitext; the page has no Information template, so this text is not in the structured description field.)",
+   "note": "Small file (640x426). Size: 640x426"
+  },
+  {
+   "id": "cigarette-beetle",
+   "forPages": [
+    "pantry-pests"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Lasioderma serricorne Tobacco or Cigarette beetles are pests of a wide range of stored products, especially processed foods, tobacco and spices. Occasionally found in grain and grain stores.",
+   "note": "Credit: division, CSIRO | credit: http://www.scienceimage.csiro.au/image/10823 Size: 1200x900"
+  },
+  {
+   "id": "rice-weevil",
+   "forPages": [
+    "pantry-pests"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 200334640 of Sitophilus oryzae (Rice Weevil), Kentucky, US, 2024-02-24; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 785x785"
+  },
+  {
+   "id": "webbing-clothes-moth",
+   "forPages": [
+    "clothes-moths"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 140528256 of Tineola bisselliella (Webbing Clothes Moth), Карпинск, Свердловская обл., Россия, 2022-10-30; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 1552x1552"
+  },
+  {
+   "id": "casemaking-clothes-moth-larva",
+   "forPages": [
+    "clothes-moths"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 53999053 of Tinea pellionella (Case-bearing Clothes Moth), Bertonley Ave, Charlotte, NC 28211, USA, 2020-07-16; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 1280x1024"
+  },
+  {
+   "id": "booklouse",
+   "forPages": [
+    "booklice"
+   ],
+   "confidence": "high",
+   "sourceDescription": "File title: Liposcelis. Description: adult Liposcelis sp.",
+   "note": "Credit: S.E. Thorpe | credit: Self-photographed Size: 791x1377"
+  },
+  {
+   "id": "western-conifer-seed-bug",
+   "forPages": [
+    "western-conifer-seed-bugs",
+    "kissing-bug-look-alikes",
+    "leaf-footed-bugs"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 95008236 of Leptoglossus occidentalis (Western Conifer Seed Bug), Columbia-Shuswap, BC, Canada, 2021-09-13; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 2048x1365"
+  },
+  {
+   "id": "pill-bug",
+   "forPages": [
+    "pill-bugs"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 145857564 of Armadillidium vulgare (Common Pill Woodlouse), North Carolina, US, 2023-01-02; 4 current identifications.",
+   "note": "Credit: no rights reserved Size: 2048x1536"
+  },
+  {
+   "id": "house-cricket",
+   "forPages": [
+    "crickets-in-house"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 200201607 of Acheta domesticus (House Cricket), Indio, CA 92201, USA, 2024-02-23; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 1536x2048"
+  },
+  {
+   "id": "deer-fly",
+   "forPages": [
+    "deer-fly-vs-horse-fly",
+    "biting-flies",
+    "biting-insects"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This image depicted a dorsal view of a female deer fly, Chrysops lateralis , which had been collected at White Pond, in Sudbury, Massachusetts on July 3, 2013. This particular specimen had been feeding on both human beings and canines, who had been occupying a clearing at the edge of a pond. C. lateralis is a typical deer fly, in that it is small and yellow with dark coloration, on otherwise clear wings. The thorax is striped, and the abdomen is yellow with black bands.",
+   "note": "Credit: CDC/ Dr. Gary Alpert - Urban Pests - Integrated Pest Management (IPM); photo: Dr. Gary Alpert (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 5.09 MB"
+  },
+  {
+   "id": "horse-fly",
+   "forPages": [
+    "deer-fly-vs-horse-fly",
+    "biting-flies",
+    "biting-insects"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This image depicts a dorsal view of a female horse-fly, Tabanus stygius , which had been collected at White Pond, in Sudbury, Massachusetts. T. stygius are very large, dark flies found in mid-summer, biting during the day. Their thorax is whitish, displaying several dark longitudinal lines, while their abdomen is black. They often attack both dogs and humans. This one, in particular, was feeding on the canine pictured in PHIL 15999, when it was captured.",
+   "note": "Credit: CDC/ Dr. Gary Alpert - Urban Pests - Integrated Pest Management (IPM) (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 5.09 MB"
+  },
+  {
+   "id": "greenhead-fly",
+   "forPages": [
+    "greenhead-flies",
+    "deer-fly-vs-horse-fly"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Greenhead - Tabanus nigrovittatus, Sapelo Island, Georgia.",
+   "note": "Credit: Judy Gallagher | credit: https://www.flickr.com/photos/52450054@N04/15309528207/ Size: 1466x2178"
+  },
+  {
+   "id": "black-fly",
+   "forPages": [
+    "black-flies",
+    "biting-insects",
+    "gnat-bites",
+    "types-of-gnats"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 319926602 of Simulium (Common Blackflies), 8 Millcroft Road, Woolton, Liverpool, Merseyside, UK, 2025-10-09; 2 current identifications. Observer notes: at 125w M.V. Light-trap",
+   "note": "Genus-level identification; photographed in England. Credit: no rights reserved Size: 2048x1536"
+  },
+  {
+   "id": "stable-fly",
+   "forPages": [
+    "stable-flies",
+    "biting-insects"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 173621522 of Stomoxys calcitrans (Stable Fly), Ithaca, NY, USA, 2023-07-18; 3 current identifications.",
+   "note": "Credit: no rights reserved Size: 2048x2048"
+  },
+  {
+   "id": "stable-fly-feeding",
+   "forPages": [
+    "stable-flies"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Stable fly sucking human blood. Danada Forest Preserve , USA",
+   "note": "Optional extra (second view). Optional second view. Credit: Peterwchen | credit: Own work Size: 1200x900"
+  },
+  {
+   "id": "fungus-gnat",
+   "forPages": [
+    "types-of-gnats",
+    "gnat-bites"
+   ],
+   "confidence": "high",
+   "sourceDescription": "File title: Dark-winged Fungus Gnat. Description: Sciaridae sp. Rock Creek Park, Washington, DC, USA. It looked like her ovpositor was stuck on the wood.",
+   "note": "Family-level identification. Credit: Katja Schulz from Washington, D. C., USA | credit: Dark-winged Fungus Gnat Size: 4000x3000"
+  },
+  {
+   "id": "fruit-fly",
+   "forPages": [
+    "types-of-gnats",
+    "gnat-bites"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 13229956 of Drosophila melanogaster (Common Fruit Fly), La Habra, CA 90631, USA, 2018-06-07; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 1133x971"
+  },
+  {
+   "id": "drain-fly",
+   "forPages": [
+    "how-to-get-rid-of-drain-flies",
+    "types-of-gnats"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 186065028 of Clogmia albipunctata (Bathroom Moth Fly), Kosanin dol, Pancharevo, Bulgaria, 2023-10-03; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 2047x2048"
+  },
+  {
+   "id": "phorid-fly",
+   "forPages": [
+    "types-of-gnats"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 19007477 of Megaselia scalaris (Scaled Hump-backed Fly), La Habra, CA 90631, USA, 2018-12-13; 5 current identifications. Observer notes: Crawling on fruit with fruit flies. Possibly the same individual as the adjacent observation.",
+   "note": "Credit: no rights reserved Size: 1036x917"
+  },
+  {
+   "id": "cluster-fly",
+   "forPages": [
+    "how-to-get-rid-of-cluster-flies"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 160151367 of Pollenia (Cluster Flies), Fayston, VT, USA, 2023-05-06; 3 current identifications.",
+   "note": "Genus-level identification. Credit: no rights reserved Size: 1513x1135"
+  },
+  {
+   "id": "giant-mayfly",
+   "forPages": [
+    "mayflies"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 78246523 of Hexagenia limbata (Giant Mayfly), Tarrant County, US-TX, US, 2021-05-10; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 1536x2048"
+  },
+  {
+   "id": "mayfly-swarm",
+   "forPages": [
+    "mayflies"
+   ],
+   "confidence": "high",
+   "sourceDescription": "photo of thousands of mayflies reflecting white against the black night sky amazing Keywords: buff",
+   "note": "Optional extra (second view). Credit: NPS | credit: NPGallery Size: 900x675"
+  },
+  {
+   "id": "rodent-bot-fly",
+   "forPages": [
+    "bot-flies"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Cuterebra fontinella, mouse bot fly",
+   "note": "Credit: USGS Bee Inventory and Monitoring Lab | credit: USGS Bee Inventory and Monitoring Lab https://www.flickr.com/photos/usgsbiml/25811992271/ Size: 5198x3840"
+  },
+  {
+   "id": "squirrel-warbles",
+   "forPages": [
+    "bot-flies"
+   ],
+   "confidence": "medium",
+   "sourceDescription": "This squirrel is infested with fly larvae of the genus Cuterebrinae, family Oestridae, a condition also known as \"warbles\". The infection is localized, and not (usually) permanently harmful to the squirrel. Once the larvae hatch, the wounds will usually heal, although they can become infected with bacteria and form abscesses. The condition is relatively common, and cannot spread to other animals. Other animals can also become infected with warbles, and it is possible to see cases in domestic animals such as cattle, although nowadays (with more fly and parasite control methods) it doesn't happen very often. Photographed in Midlothian, VA.",
+   "note": "Optional extra (second view). Cause stated by the photographer; not graphic. Credit: Martin Bennett | credit: Own work Size: 1024x768"
+  },
+  {
+   "id": "lovebugs",
+   "forPages": [
+    "lovebugs"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 135449158 of Plecia nearctica (Common Lovebug), Gainesville, FL 32641, USA, 2022-09-17; 3 current identifications.",
+   "note": "Credit: no rights reserved Size: 1625x1873"
+  },
+  {
+   "id": "beach-hopper",
+   "forPages": [
+    "sand-fleas"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 344487227 of Megalorchestia californiana (California Beach Flea), Pacific Rim National Park Reserve, CA-BC-AC, CA-BC, CA, 2026-03-22; 3 current identifications.",
+   "note": "Credit: no rights reserved Size: 1313x2048"
+  },
+  {
+   "id": "atlantic-mole-crab",
+   "forPages": [
+    "sand-fleas"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 8470803 of Emerita talpoida (Atlantic Sand Crab), Assateague Island National Seashore, Assateague Island Ntl SE, MD, US, 2017-09-26; 3 current identifications.",
+   "note": "Credit: no rights reserved Size: 2048x1386"
+  },
+  {
+   "id": "deer-ked",
+   "forPages": [
+    "deer-keds"
+   ],
+   "confidence": "high",
+   "sourceDescription": "File title: Hirschlausfliege (Lipoptena cervi), Quellgebiet der Holzwarche bei Mürringen, Ostbelgien. Description: OLYMPUS DIGITAL CAMERA",
+   "note": "Photographed in Belgium; the same species occurs in the northeastern US. Credit: Frank Vassen from Brussels, Belgium | credit: Hirschlausfliege (Lipoptena cervi), Quellgebiet der Holzwarche bei Mürringen, Ostbelgien Size: 2620x1936"
+  },
+  {
+   "id": "deer-ked-pennsylvania",
+   "forPages": [
+    "deer-keds"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 34138441 of Lipoptena cervi (Deer Ked), Scranton, PA 18510, USA, 2019-10-09; 4 current identifications. Observer notes: I am finding these on me after a day in the woods. Tick-like, but 6 legs.",
+   "note": "Optional extra (second view). Smaller in the frame; offered because it is CC0 (usable as the lead image). Credit: no rights reserved Size: 1536x2048"
+  },
+  {
+   "id": "scabies-mite",
+   "forPages": [
+    "scabies-vs-bed-bugs",
+    "mites"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This micrograph depicts a ventral view of a cleared and mounted human itch mite, Sarcoptes scabiei var. hominis .",
+   "note": "Credit: CDC/ Donated by the World Health Organization, Geneva, Switzerland (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 5.02 MB"
+  },
+  {
+   "id": "scabies-rash-hand",
+   "forPages": [
+    "scabies-vs-bed-bugs",
+    "mites"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Known as scabies, the pimple-like rash in the webbing between the fingers of this adult’s hand, was due to the human itch mite, Sarcoptes scabiei var. hominis .",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 6.56 MB"
+  },
+  {
+   "id": "northern-fowl-mites",
+   "forPages": [
+    "bird-mites"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 331043408 of Ornithonyssus sylviarum (Northern Fowl Mite), Washington, US, 2025-12-16; 2 current identifications. Observer notes: parasitizing domestic chicken",
+   "note": "Credit: no rights reserved Size: 2048x1536"
+  },
+  {
+   "id": "poultry-red-mite",
+   "forPages": [
+    "bird-mites",
+    "mites"
+   ],
+   "confidence": "medium",
+   "sourceDescription": "A parasitic mite of the genus Dermanyssus (probably Dermanyssus gallinae) living on poultry (sucking blood). Scale : Technical settings : - focus stack of 20 images - microscope objective (Nikon achromatic 10x 160/0.25) on bellow",
+   "note": "Optional extra (second view). Photographer gives the species as probable (cfr.). Credit: Gilles San Martin from Namur, Belgium | credit: Dermanyssus cfr gallinae Uploaded by Jacopo Werther Size: 3328x2228"
+  },
+  {
+   "id": "bird-mite-bites",
+   "forPages": [
+    "bird-mites"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Papular dermatitis. A. Person's arm bitten by Ornithonyssus bursa; B. Details of the papular dermatitis on the person's arm. The Black arrows show the areas of papular dermatits.",
+   "note": "Optional extra (second view). Credit: Bassini-Silva, Ricardo; Jacinavicius, Fernando de Castro; Hernandes, Fabio Akashi; Ochoa, Ronald; Bauchan, Gary R.; Dowling, Ashley P. G.; Barros-Battesti, Darci Moraes | credit: https://www.scielo.br Size: 3305x2692"
+  },
+  {
+   "id": "house-dust-mite",
+   "forPages": [
+    "dust-mites",
+    "mites"
+   ],
+   "confidence": "medium",
+   "sourceDescription": "North American House Dust Mite, a major creator of allergens.",
+   "note": "Black-and-white SEM; source names only \"North American House Dust Mite\". Credit: Employee of US Government | credit: http://www.fda.gov/fdac/features/496_alle.html archived Size: 500x384"
+  },
+  {
+   "id": "house-dust-mite-macro",
+   "forPages": [
+    "dust-mites"
+   ],
+   "confidence": "high",
+   "sourceDescription": "House dust mite (Dermatophagoides pteronyssinus) . More information here: news.bbc.co.uk/earth/hi/earth_news/newsid_9290000/9290068...",
+   "note": "Optional extra (second view). Credit: Gilles San Martin from Namur, Belgium | credit: House dust mite Size: 4656x3117"
+  },
+  {
+   "id": "straw-itch-mites",
+   "forPages": [
+    "itch-mites",
+    "mites"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This photomicrograph shows a male (lower right) and female (lower left) straw itch mite, Pyemotes ventricosus . The enlarged abdomen of a gravid female is visible centrally, having become detached as an artifact. See PHIL 24929 for a view of a female mite with the distended abdomen intact. The male demonstrates a prominent dark intestinal mass.",
+   "note": "Credit: CDC/ Dr. Scott (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 27.77 MB"
+  },
+  {
+   "id": "straw-itch-mite-bites",
+   "forPages": [
+    "itch-mites"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This photograph shows a close posterior view of a seated patient’s back, demonstrating inflamed bite lesions caused by the straw itch mite, Pyemotes ventricosus . The image was captured 48 hours after initiation of treatment with the antihistamine Benadryl and the anti-inflammatory agent hydrocortisone. This case was documented in DeKalb County, Georgia, in June 1962. See PHIL 27348 for a view of the inflamed papular rash extending over the patient’s back.",
+   "note": "Optional extra (second view). Credit: CDC/ Harold George Scott, PhD (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 18.34 MB"
+  },
+  {
+   "id": "twospotted-spider-mite",
+   "forPages": [
+    "spider-mites",
+    "mites"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Female of the red form of the spider mite Tetranychus urticae with two silk threads. The substratum is a bean leaf. Keywords : mite acari Tetranychidae \"red spider mite\" \"two spotted spider mite\" \"tetranyche tisserand\" arachnida Tetranychus urticae Scale : mite body length ~0.5 mm Technical settings : - focus stack of 39 images - microscope objective (Nikon achromatic 10x 160/0.25) on bellow (230 mm extension)",
+   "note": "Credit: Gilles San Martin | credit: originally posted to Flickr as Tetranychus urticae with silk threads Size: 3388x2268"
+  },
+  {
+   "id": "spider-mite-webbing",
+   "forPages": [
+    "spider-mites"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 29244553 of Tetranychus urticae (Twospotted Spider Mite), 33400 Talence, France, 2019-07-21; 3 current identifications.",
+   "note": "Optional extra (second view). Credit: no rights reserved Size: 2048x1365"
+  },
+  {
+   "id": "cat-flea-scale-bar",
+   "forPages": [
+    "what-do-fleas-look-like",
+    "fleas",
+    "how-to-get-rid-of-fleas"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This photograph depicts a left lateral view of a cat flea, Ctenocephalides felis .",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 16.2 MB"
+  },
+  {
+   "id": "flea-larva-and-adult",
+   "forPages": [
+    "what-do-fleas-look-like",
+    "fleas",
+    "murine-typhus"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Shown here, was a larva on the left, and an adult female oriental rat flea, Xenopsylla cheopis , which through its bite, is responsible for transmitting the bacterium, Yersinia pestis , the causative agent of plague.",
+   "note": "Credit: World Health Organization (WHO) (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 6.11 MB"
+  },
+  {
+   "id": "flea-egg-and-larva",
+   "forPages": [
+    "what-do-fleas-look-like",
+    "how-to-get-rid-of-fleas"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Larve du premier stade (L1) de la puce du chat et du chien (Ctenocephalides felis)",
+   "note": "Credit: Auguste Le Roux | credit: Own work Size: 624x832"
+  },
+  {
+   "id": "flea-dirt",
+   "forPages": [
+    "what-do-fleas-look-like",
+    "how-to-get-rid-of-fleas"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Excréments de la puce duchat et du chien, adulte",
+   "note": "Credit: Auguste Le Roux | credit: Own work Size: 931x643"
+  },
+  {
+   "id": "oriental-rat-flea",
+   "forPages": [
+    "murine-typhus"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This image depicted a magnified, left lateral view, of a female Oriental rat flea, Xenopsylla cheopis , a well-known bubonic plague vector. This specimen was harvested from the hide of a Malaysian house rat, Rattus rattus diardii , which had been located in a rural village, in the Boyolali Regency District, of the Central Java Province of Indonesia, in March 1968. The collector, by the name of Ogden, was on staff at the U.S. Army-SEATO (Southeast Asia Treaty Organization) Laboratory, APO (Army Post Office) S.F. (San Francisco), 96346.",
+   "note": "Credit: CDC/ Ken Gage; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 41.8 MB"
+  },
+  {
+   "id": "virginia-opossum",
+   "forPages": [
+    "murine-typhus"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Virginia opossum during daytime",
+   "note": "Optional extra (second view). Credit: PookieFugglestein | credit: Own work Size: 4608x3456"
+  },
+  {
+   "id": "engorged-blacklegged-tick",
+   "forPages": [
+    "engorged-ticks"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Its abdomen engorged with a host blood meal, this image depicts a lateral view of a female blacklegged, deer tick, Ixodes scapularis , which transmits Lyme disease, a disease caused by a spiral shaped bacterial microbe, Borrelia burgdorferi . In its larval stage of development, this tick is no bigger than the size of a period at the end of this sentence.",
+   "note": "Credit: CDC/ Dr. Gary Alpert - Urban Pests - Integrated Pest Management (IPM) (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 20.74 MB"
+  },
+  {
+   "id": "engorged-lone-star-tick",
+   "forPages": [
+    "engorged-ticks",
+    "tick-eggs"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This photograph depicts a dorsal view of an engorged female lone star ixodid, or hard tick, Amblyomma americanum , which was sitting atop a clutch of eggs, a number of which are seen peeking out from beneath its body under its head region. An engorged female of this species can lay approximately 2000-2500 amber colored eggs. To view additional images related to this tick species, see PHIL 4407, 8676, 8677, 8678, and 8680 through 8685.",
+   "note": "Credit: CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 12.51 MB"
+  },
+  {
+   "id": "blacklegged-tick-laying-eggs",
+   "forPages": [
+    "tick-eggs",
+    "engorged-ticks"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This female, Ixodes scapularis tick, was in the process of laying her clutch of eggs. After feeding, an adult Ixodes scapularis female lays approximately 2,000–4,000 eggs.",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 22.84 MB"
+  },
+  {
+   "id": "american-dog-tick-egg-mass",
+   "forPages": [
+    "tick-eggs"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This image presents a female American dog tick, Dermacentor variabilis , that has just completed laying an egg mass.",
+   "note": "Optional extra (second view). Credit: CDC/ Dr. Henry D. Pratt (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 25.45 MB"
+  },
+  {
+   "id": "bat-soft-tick",
+   "forPages": [
+    "soft-ticks"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This photograph depicted a close dorsal view of the soft tick, Carios kelleyi , formerly Ornithodoros kelleyi , also known as the bat tick. Though this tick species has been shown to carry both the spotted fever Rickettsia , and relapsing fever Borrelia pathogens, there is no evidence of these diseases having been passed to humans through a tick bite from this arachnid.",
+   "note": "Credit: CDC/ William L. Nicholson, Ph.D.; photo: Jim Gathany (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 12.29 MB"
+  },
+  {
+   "id": "relapsing-fever-soft-tick",
+   "forPages": [
+    "soft-ticks"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Under a magnification of 6.5X, this image depicts a dorsal view of a soft tick, Ornithodoros hermsi , a known vector for the disease tick-borne relapsing fever (TBRF), which is a bacterial infection characterized by recurring episodes of fever, headache, muscle and joint aches, and nausea. It is caused by certain species of Borrelia spirochetes.",
+   "note": "Optional extra (second view). Credit: CDC (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 7.45 MB"
+  },
+  {
+   "id": "winter-tick",
+   "forPages": [
+    "winter-tick"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 271543920 of Dermacentor albipictus (Winter tick), Horsefly, BC V0L 1L0, Canada, 2025-04-19; 2 current identifications. Observer notes: found on dog photo 3—underside in isopropyl alcohol photo 4—bottom of two specimens",
+   "note": "Credit: (c) Megan Dark, some rights reserved (CC BY) Size: 2048x2048"
+  },
+  {
+   "id": "moose-winter-tick-hair-loss",
+   "forPages": [
+    "winter-tick"
+   ],
+   "confidence": "medium",
+   "sourceDescription": "iNaturalist research-grade observation 205521807 of Dermacentor albipictus (Winter tick), Whitemud Creek Ravine Twin Brooks, Edmonton, AB, Canada, 2024-04-02; 2 current identifications. Observer notes: This female moose seems to be suffering from winter ticks. The photos of the tick itself were taken from a close by location where I saw the same moose laying down. It was snowing heavily and I was losing the site of the ticks themselves so was in a hurry.",
+   "note": "Optional extra (second view). Shows the host damage, not the tick itself. Credit: (c) dalebro, some rights reserved (CC BY) Size: 2048x1365"
+  },
+  {
+   "id": "tick-on-cat",
+   "forPages": [
+    "ticks-on-cats"
+   ],
+   "confidence": "high",
+   "sourceDescription": "File title: Kleszcz.. Description: An engorged tick on the head of a cat.",
+   "note": "Tick species not identified. Credit: Stiopa | credit: Own work Size: 1827x1829"
+  },
+  {
+   "id": "brown-dog-ticks-dog-ear",
+   "forPages": [
+    "bug-bites-on-dogs"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This photograph depicts a dog, who’s ear was infested with brown dog ticks, Rhipicephalus sanguineus . The image was captured in September 2024, while in a Rocky Mountain spotted fever (RMSF)-impacted community. RMSF is a serious disease spread through the bite of an infected tick. Ticks can hitch a ride on clothing and pets, then attach to a person later.",
+   "note": "Heavy infestation; not for the lead image. Credit: CDC/ Ann Carpenter, DVM; photo: Ann Carpenter, DVM (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 36.61 MB"
+  },
+  {
+   "id": "western-bat-bug",
+   "forPages": [
+    "bat-bugs"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This photograph depicts a dorsal view of a bat bug, Cimex pilosellus , a species of bed bug found throughout North America. These insects so closely resemble their relatives, the bed bugs, that they’re often mistaken for one another. Though bats are the normal hosts for this insect, they will move on to feed on the blood of human beings as well. This specimen was discovered as it was dropping into an office space from a void above, located in Coconino County, Flagstaff, Arizona, USA.",
+   "note": "Credit: CDC/ Gary D. Alpert, Ph.D., Northern Arizona University, Department of Biological Sciences; photo: Gary D. Alpert, Ph.D., Northern Arizona University, Department of Biological Sciences (CDC Public Hea Size: hi-res 6.24 MB"
+  },
+  {
+   "id": "arizona-bark-scorpion",
+   "forPages": [
+    "bark-scorpions",
+    "scorpions-in-arizona",
+    "scorpion-stings",
+    "scorpions"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 376766853 of Centruroides sculpturatus (Arizona Bark Scorpion), Picacho, AZ 85141, USA, 2026-06-29; 3 current identifications.",
+   "note": "Credit: no rights reserved Size: 1613x2048"
+  },
+  {
+   "id": "bark-scorpion-blacklight",
+   "forPages": [
+    "scorpions",
+    "scorpions-in-arizona",
+    "bark-scorpions"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Arizona Bark Scorpion under blacklight",
+   "note": "Optional extra (second view). Credit: Therringshaw | credit: Own work Size: 5400x7360"
+  },
+  {
+   "id": "striped-bark-scorpion",
+   "forPages": [
+    "scorpions-in-texas",
+    "bark-scorpions",
+    "scorpion-stings"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This photograph depicts a right dorsolateral view of what appeared to be a striped bark scorpion, Centruroides vittatus , poised with its curled tail stinger, and outstretched pincers.",
+   "note": "PHIL caption: \"what appeared to be\" a striped bark scorpion. Credit: CDC/ Margaret A. Parsons (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 18.34 MB"
+  },
+  {
+   "id": "desert-hairy-scorpion",
+   "forPages": [
+    "scorpions-in-arizona",
+    "scorpions"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This image depicts a close view of a desert hairy scorpion, Hadrurus hirsutus , photographed in its natural habitat on a gravelly desert floor.",
+   "note": "Optional extra (second view). Credit: CDC/ Mr. Graham Heid (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 18.47 MB"
+  },
+  {
+   "id": "house-pseudoscorpion",
+   "forPages": [
+    "pseudoscorpions"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 83340006 of Chelifer cancroides (House Pseudoscorpion), Dryden Rd @ Freese, Dryden, NY 14850, USA, 2021-06-16; 3 current identifications. Observer notes: In large plastic tub that's been used for storage for years",
+   "note": "Credit: no rights reserved Size: 1018x1018"
+  },
+  {
+   "id": "eastern-kissing-bug",
+   "forPages": [
+    "kissing-bugs",
+    "kissing-bug-bites",
+    "kissing-bug-look-alikes",
+    "chagas-disease"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This image depicts a dorsal view of the Eastern bloodsucking conenose, or the Mexican bed bug, Triatoma sanguisuga , which is a Triatominae family member of kissing bugs. Some of its key characteristics include orange-red, to yellowish horizontal markings covering approximately ¼ of the abdominal segment; mouthparts that are relatively hairless; a pronotum that is black, with orange-red, to yellowish sides and top margins; the tip of the scutellum is long and narrow; there are distinctive orange-red to yellowish markings on its wings. T. sanguisuga and other kissing bugs are vectors for Chagas disease, which is transmitted during human contact with the feces of an infected Triatomine sp. vec",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 18.48 MB"
+  },
+  {
+   "id": "three-texas-kissing-bugs",
+   "forPages": [
+    "kissing-bugs",
+    "kissing-bug-look-alikes",
+    "chagas-disease"
+   ],
+   "confidence": "high",
+   "sourceDescription": "(Left to right) Triatoma protracta, the most common species in the western U.S.; Triatoma gerstaeckeri, the most common species in Texas; Triatoma sanguisuga, the most common species in the eastern U.S. Scale bar represents 25mm or approximately 1 inch.",
+   "note": "Optional extra (second view). Credit: Curtis-Robles et al. | credit: doi:10.1371/journal.pntd.0004235 Size: 3165x3096"
+  },
+  {
+   "id": "trypanosoma-cruzi",
+   "forPages": [
+    "chagas-disease"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This photomicrograph of a blood smear, revealed the presence of five parasitic, flagellated, Trypanosoma cruzi trypomastigotes.",
+   "note": "Credit: CDC/ Myron G. Schultz, DVM, MD, DCMT (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 18.35 MB"
+  },
+  {
+   "id": "wheel-bug",
+   "forPages": [
+    "wheel-bugs",
+    "kissing-bug-look-alikes"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Wheel bug ( Arilus cristatus ) at Shelby Park in Nashville, Tennessee. Focus stack of two images.",
+   "note": "Credit: Ryan Kaldari | credit: Own work Size: 2400x1600"
+  },
+  {
+   "id": "wheel-bug-nymph",
+   "forPages": [
+    "wheel-bugs"
+   ],
+   "confidence": "medium",
+   "sourceDescription": "Wheel bug nymph on top of a chain link fence. Photo was taken on April 14,2012 in central Florida, USA.",
+   "note": "Optional extra (second view). Species per the photographer (wheel bug nymphs are distinctive). Credit: JoeOfTheWiki at English Wikipedia | credit: Transferred from en.wikipedia to Commons. Size: 1280x800"
+  },
+  {
+   "id": "leaf-footed-bug",
+   "forPages": [
+    "leaf-footed-bugs",
+    "kissing-bug-look-alikes"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 149256403 of Leptoglossus phyllopus (Eastern Leaf-footed Bug), Broward College, Davie, FL, US, 2023-02-20; 3 current identifications.",
+   "note": "Credit: no rights reserved Size: 1536x2048"
+  },
+  {
+   "id": "leaf-footed-bug-nymphs",
+   "forPages": [
+    "leaf-footed-bugs"
+   ],
+   "confidence": "medium",
+   "sourceDescription": "Ninfas de Leptoglossus zonatus (Familiaː Coreidae). Insectos vistos en Dolores Hidalgo, Guanajuato, México.",
+   "note": "Optional extra (second view). Photographed in Mexico; species per the photographer. Credit: Juan Carlos Fonseca Mata | credit: Own work Size: 2048x2048"
+  },
+  {
+   "id": "puss-caterpillar",
+   "forPages": [
+    "stinging-caterpillars"
+   ],
+   "confidence": "medium",
+   "sourceDescription": "File title: Megalopyge opercularis (Larva). Description: Megalopyge opercularis",
+   "note": "Species per the photographer; the puss caterpillar is unmistakable. Credit: Iose | credit: Own work Size: 3096x4128"
+  },
+  {
+   "id": "saddleback-caterpillar",
+   "forPages": [
+    "stinging-caterpillars"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This 2001 photograph depicted a dorsal view of a poisonous saddleback caterpillar, which is actually the instar, or developmental stage through which the saddleback caterpillar moth, Sibine stimulea passes, on its way to becoming an adult, or imago moth. Beware, for the spines, also known as urticating hairs, emanating from its dorsal protuberances, are capable of delivering a very painful sting, due to the irritating venom they secrete. These moths are native to the eastern region of North America. A solitary species, this caterpillar is often found on deciduous trees within its habitats. Note the bright green midsection with its mid-dorsal round brown, white-ringed, saddle-shaped spot.",
+   "note": "PHIL caption uses the older name Sibine stimulea. Credit: CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 18.29 MB"
+  },
+  {
+   "id": "io-moth-caterpillar",
+   "forPages": [
+    "stinging-caterpillars"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This photograph depicts an anterior oblique view of an Io moth, Automeris io , larva. During its developmental stages, or instars, the Io moth larva undergoes changes, becoming a stinging, or urticating caterpillar. The spines on these larvae are extremely sharp, and release their toxin with very little stimulation. Reactions to the toxin range from a stinging pain and swelling, to anaphylactic shock, and death. See PHIL 12063 through 12066, for images depicting the hands of a patient stung by one of these caterpillars.",
+   "note": "Credit: CDC/ M.A. Parsons; Cmdr. W.B. Hull; photo: R.E. Byrd (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 17.69 MB"
+  },
+  {
+   "id": "buck-moth-caterpillar",
+   "forPages": [
+    "stinging-caterpillars"
+   ],
+   "confidence": "medium",
+   "sourceDescription": "This is a Buck moth (Hemileuca maia) caterpillar. The spines are poisonous, so be careful if you encounter one.",
+   "note": "Species per the photographer. Credit: NCBioTeacher | credit: Own work Size: 2048x1536"
+  },
+  {
+   "id": "hag-moth-caterpillar",
+   "forPages": [
+    "stinging-caterpillars"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This image depicted a camouflaged hag moth caterpillar, Phobetron pithecium . For some individuals, the small hairs on the exoskeletal surface can inflict an urticating irritation, and can be quite painful.",
+   "note": "Credit: CDC/ Dr. Frank Shaw; photo: Bob Coffin (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 18.34 MB"
+  },
+  {
+   "id": "io-caterpillar-sting-swelling",
+   "forPages": [
+    "stinging-caterpillars"
+   ],
+   "confidence": "high",
+   "sourceDescription": "The swelling and erythema of this patient’s left hand and wrist, was due to a sting from an Io moth, Automeris io , larva. During its developmental stages, or instars, the Io moth larva undergoes changes, becoming a stinging, or urticating caterpillar. The spines on these larvae are extremely sharp, and release their toxin with very little stimulation. Reactions to the toxin range from a stinging pain and swelling, to anaphylactic shock, and death. See PHIL 12067 and 12068 for images depicting this urticating caterpillar.",
+   "note": "Optional extra (second view). Credit: CDC/ M.A. Parsons; Cmdr. W.B. Hull; photo: R.E. Byrd (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 17.4 MB"
+  },
+  {
+   "id": "striped-blister-beetle",
+   "forPages": [
+    "blister-beetles"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 92525655 of Epicauta vittata (Striped Blister Beetle), Residence, Ozark, MO, USA, 2018-07-14; 2 current identifications.",
+   "note": "Credit: no rights reserved Size: 2037x2048"
+  },
+  {
+   "id": "skeeter-syndrome-leg",
+   "forPages": [
+    "skeeter-syndrome",
+    "bug-bites-on-babies"
+   ],
+   "confidence": "medium",
+   "sourceDescription": "Skeeter Syndrome (allergic reaction to mosquito saliva)",
+   "note": "Diagnosis is the uploader’s; the person’s age is not stated (do not caption as a baby). Credit: Cinder2020 | credit: Own work Size: 960x1280"
+  },
+  {
+   "id": "red-imported-fire-ant",
+   "forPages": [
+    "fire-ant-stings",
+    "crazy-ants"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Portrait of a red imported fire ant, Solenopsis invicta. This species arrived to the southeastern United States from South America in the 1930s. Specimen from Brackenridge Field Laboratory, Austin, Texas, USA. Public domain image by Alex Wild, produced by the University of Texas \"Insects Unlocked\" program.",
+   "note": "Credit: Insects Unlocked | credit: https://www.flickr.com/photos/131104726@N02/16961987090/ Size: 4572x3244"
+  },
+  {
+   "id": "fire-ant-mound",
+   "forPages": [
+    "fire-ant-stings"
+   ],
+   "confidence": "high",
+   "sourceDescription": "A Solenopsis invicta fire ant mound is marked for research at Brackenridge Field Laboratory, Austin, Texas, USA.",
+   "note": "Optional extra (second view). Credit: Alex Wild, produced by the University of Texas \"Insects Unlocked\" program. | credit: https://www.flickr.com/photos/131104726@N02/16371103174/ Size: 3364x4506"
+  },
+  {
+   "id": "fire-ant-sting-pustule",
+   "forPages": [
+    "fire-ant-stings"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This image depicts a close view of the surface of a patient’s leg, on which you’re able to see a pustule surrounded by an erythematous halo. This inflamed lesion resulted from the bite of a fire ant, Solenopsis saevissima , a native to South America, that was introduced to the United States through the importation of agricultural products.",
+   "note": "PHIL caption uses the old name Solenopsis saevissima for the imported fire ant. Credit: CDC/ Dr. Harold G. Scott (CDC Public Health Image Library, phil.cdc.gov) Size: hi-res 6.28 MB"
+  },
+  {
+   "id": "tawny-crazy-ant",
+   "forPages": [
+    "crazy-ants"
+   ],
+   "confidence": "high",
+   "sourceDescription": "File title: Nylanderia fulva - Tawny Crazy Ant. Description: A queen and worker ant in a laboratory colony at The University of Texas at Austin, Brackenridge Field Laboratory, where researchers study the spread of this new pest species across Texas. Public domain image by Alex Wild and Ed LeBrun, produced as part of the Insects Unlocked project at The University of Texas at Austin.",
+   "note": "Insects Unlocked caption strip along the bottom edge; crop it. Credit: Insects Unlocked | credit: Nylanderia fulva - Tawny Crazy Ant Size: 3446x3234"
+  },
+  {
+   "id": "longhorn-crazy-ant",
+   "forPages": [
+    "crazy-ants"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Longhorn Crazy Ant - Paratrechina longicornis, Dagny Johnson State Park, Key Largo, Florida",
+   "note": "Credit: Judy Gallagher | credit: https://www.flickr.com/photos/52450054@N04/16319041595/ Size: 5184x3456"
+  },
+  {
+   "id": "european-fire-ant",
+   "forPages": [
+    "european-fire-ants"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Two Myrmica rubra workers from Cambridge, Massachusetts",
+   "note": "Credit: Gary Alpert at English Wikipedia | credit: Transferred from en.wikipedia to Commons. Size: 900x675"
+  },
+  {
+   "id": "european-fire-ant-worker",
+   "forPages": [
+    "european-fire-ants"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 212186081 of Myrmica rubra (European fire ant), Budweis, Tschechien, 2024-04-29; 5 current identifications. Observer notes: surprisingly small",
+   "note": "Optional extra (second view). Offered because it is CC0 (usable as the lead image). Credit: no rights reserved Size: 2048x1536"
+  },
+  {
+   "id": "spotted-lanternfly-adult",
+   "forPages": [
+    "spotted-lanternfly"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Adult Spotted Lanternfly ( Lycorma delicatula ) in Pittsburgh",
+   "note": "Credit: Cbaile19 | credit: Own work Size: 3426x2284"
+  },
+  {
+   "id": "spotted-lanternfly-egg-masses",
+   "forPages": [
+    "spotted-lanternfly"
+   ],
+   "confidence": "high",
+   "sourceDescription": "SLF-spotted lanternfly (Lycorma delicatula) Egg mass in Pennsylvania, on July 16, 2018. USDA-ARS Photo by Stephen Ausmus.",
+   "note": "Credit: USDAgov | credit: 20180716-ARS-SRA-d4021-02 Size: 3840x4863"
+  },
+  {
+   "id": "spotted-lanternfly-life-stages",
+   "forPages": [
+    "spotted-lanternfly"
+   ],
+   "confidence": "high",
+   "sourceDescription": "This photo of the spotted lanternfly (Lycorma delicatula) in various life stages demonstrates its relative size next to a quarter. The first life stage—not pictured here—is an egg mass. Before becoming adults, the pest develops through the 1st, 2nd, 3rd, and 4th instar stages (shown). Starting in the fall, this invasive pest seeks out outdoor surfaces and lays mud-like egg masses on tree bark, outdoor gear (such as lawnmowers, bikes, and grills), methods of transport, and more. Photo by Andrew Dechaine",
+   "note": "Credit: USDAgov | credit: SLF life stages with quarter Andrew Dechaine[52 ] Size: 965x1049"
+  },
+  {
+   "id": "japanese-beetle",
+   "forPages": [
+    "japanese-beetles"
+   ],
+   "confidence": "high",
+   "sourceDescription": "File title: Japanese beetle (Scarabaeidae, Popillia japonica). Description: USA, VA, Radford Rest stop 15-vii-2016",
+   "note": "Insects Unlocked caption strip along the bottom edge; crop it. Credit: Insects Unlocked | credit: Japanese beetle (Scarabaeidae, Popillia japonica) Size: 3257x2967"
+  },
+  {
+   "id": "japanese-beetle-leaf-damage",
+   "forPages": [
+    "japanese-beetles"
+   ],
+   "confidence": "medium",
+   "sourceDescription": "Japanese beetle damage to a rose leaf",
+   "note": "Optional extra (second view). Cause stated by the photographer. Credit: User:SB_Johnny | credit: Own work Size: 1600x1200"
+  },
+  {
+   "id": "southern-mole-cricket",
+   "forPages": [
+    "mole-crickets"
+   ],
+   "confidence": "high",
+   "sourceDescription": "iNaturalist research-grade observation 182752967 of Neoscapteriscus borellii (Southern Mole Cricket), Florida Gulf Coast University, Fort Myers, FL, US, 2023-09-10; 3 current identifications.",
+   "note": "Credit: no rights reserved Size: 2048x1536"
+  },
+  {
+   "id": "tawny-mole-cricket",
+   "forPages": [
+    "mole-crickets"
+   ],
+   "confidence": "high",
+   "sourceDescription": "Tawny Mole Cricket - Scapteriscus vicinus - Male - Dunedin, FL, USA",
+   "note": "Optional extra (second view). Credit: Ilona Loser | credit: Own work Size: 3272x1978"
+  },
+  {
+   "id": "american-cockroach",
+   "forPages": [
+    "american-cockroaches"
+   ],
+   "confidence": "high",
+   "sourceDescription": "American cockroach - Periplaneta americana USA, TX, Travis Co. Austin 30.33ºN -97.75ºW 210m 17.iii.2016, indoors, A.L.Wild, coll.",
+   "note": "Credit: Insects Unlocked | credit: Periplaneta americana - American cockroach Size: 4198x3566"
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "rat-mites",
+   "why": "Nothing usable. CDC PHIL has no tropical rat mite (Ornithonyssus bacoti) photograph; iNaturalist has only 2 unverified (needs-ID) observations; Commons has only genus-level Ornithonyssus slides from birds, which would mislabel the subject. Page can use text only, or a house-mouse/rodent nest photo if one is sourced later."
+  },
+  {
+   "slug": "black-widow-bite",
+   "why": "Partial: no photograph of a black widow bite or of latrodectism under an allowed licence. Spider photos only (western-black-widow, northern-black-widow, plus black-widow on record)."
+  },
+  {
+   "slug": "kissing-bug-bites",
+   "why": "Partial: no bite photo usable. The CDC PHIL Romana-sign photos (e.g. PHIL 29450, 2617, 15814) show identifiable children’s faces. Bug photos only (eastern-kissing-bug)."
+  },
+  {
+   "slug": "scorpion-stings",
+   "why": "Partial: no sting photograph found; scorpion photos only (arizona-bark-scorpion, striped-bark-scorpion)."
+  },
+  {
+   "slug": "bug-bites-on-babies",
+   "why": "Partial: no photo of bites on an infant without an identifiable face. Only skeeter-syndrome-leg (age of the person not stated) plus mosquito-bite-welts on record."
+  },
+  {
+   "slug": "carpet-beetle-rash",
+   "why": "No new photo: no carpet beetle dermatitis photo found under an allowed licence. Served by carpet-beetle and carpet-beetle-larva already on record."
+  },
+  {
+   "slug": "how-to-get-rid-of-carpet-beetles",
+   "why": "No new photo needed: served by carpet-beetle and carpet-beetle-larva already on record."
+  },
+  {
+   "slug": "wolf-spiders",
+   "why": "No new photo needed: served by wolf-spider (Tigrosa helluo with spiderlings) on record. No usable close-up of the wolf spider eye pattern was found."
+  },
+  {
+   "slug": "brown-recluse-bite",
+   "why": "No new photo: served by brown-recluse and brown-recluse-bite-necrosis on record. PHIL 23314, 23315 and 23317 (PD) show recluse bite lesions but are graphic and were left out."
+  },
+  {
+   "slug": "no-see-ums",
+   "why": "No new photo needed: served by biting-midge-culicoides, biting-midge-on-skin and biting-midge-bites-ankles on record."
+  },
+  {
+   "slug": "how-to-get-rid-of-chiggers",
+   "why": "No new photo needed: served by chigger-and-pinhead and chigger-bites-ruler on record."
+  },
+  {
+   "slug": "chiggers-in-texas",
+   "why": "No new photo needed: served by chigger-and-pinhead and chigger-bites-ruler on record."
+  },
+  {
+   "slug": "chiggers-in-missouri",
+   "why": "No new photo needed: served by chigger-and-pinhead and chigger-bites-ruler on record. No species-level photo of Eutrombicula alfreddugesi or E. splendens found."
+  },
+  {
+   "slug": "what-do-fleas-look-like",
+   "why": "Partial: no clean flea pupa/cocoon photo (the only allowed one, Commons \"Ctenocephalides felis, cocon ouvert..JPG\", carries French labels). Adult, larva, egg and flea dirt are covered."
+  },
+  {
+   "slug": "types-of-gnats",
+   "why": "Partial: no eye gnat (Liohippelates) photo under an allowed licence; the other five gnat types are covered."
+  },
+  {
+   "slug": "bug-bites-on-dogs",
+   "why": "Partial: only brown-dog-ticks-dog-ear (PHIL 30840, heavy infestation, not a lead image). No usable fly-strike, flea or sting photos on dogs were found."
+  },
+  {
+   "slug": "sand-fleas",
+   "why": "Partial: no chigoe flea (Tunga penetrans) photo used; the allowed ones show fleas embedded in feet and are graphic. Beach hopper and mole crab covered; no-see-um photos are on record."
+  }
+ ]
+}
