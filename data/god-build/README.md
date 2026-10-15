@@ -22,6 +22,8 @@ indexes each batch before the next one lands.
    checks it there. The independent fact-check is recorded with
    `node scripts/us-pages-mark-checked.mjs guide <slug> publish ...`; the record is tied to the
    file's exact contents, so any later edit needs a new check.
+   `node scripts/god-build-status.mjs --todo` shows, week by week, what is written, checked and
+   still to write: start there when resuming.
 3. **Released.** Every morning GitHub runs `.github/workflows/release-scheduled.yml`, which runs
    `scripts/release-scheduled.mjs`. Due pages with a fact-check on record (and a live hub) move
    to `content/guides/`, get `datePublished` = the day they go live, and are wired in by
