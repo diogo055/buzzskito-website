@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-missouri",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "c4db5d286bee6a61d28a0792ce2ff9a24774f283322109ead7e5d9fa175859b5",
+ "claimsChecked": 590,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 0,
+ "checkedOn": "2026-10-15"
+}

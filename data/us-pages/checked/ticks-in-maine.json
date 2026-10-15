@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-maine",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "c85560bd2fce2f5831726adaaeabe650494961abe858a49e7c538cb73f7a853b",
+ "claimsChecked": 450,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 3,
+ "checkedOn": "2026-10-15"
+}

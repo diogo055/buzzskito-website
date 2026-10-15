@@ -1,0 +1,1034 @@
+{
+  "slug": "ticks-in-maine",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in maine",
+  "alsoTargets": [
+    "types of ticks in maine",
+    "tick season maine",
+    "lyme disease maine"
+  ],
+  "metaTitle": "Ticks in Maine: Types, Lyme Map, Tick Season",
+  "metaDescription": "Deer ticks live in all 16 Maine counties, and Maine had the third-highest Lyme rate in 2023. Tick photos, a county Lyme map, the season and free tick ID.",
+  "h1": "Ticks in Maine: Species, County Maps, Lyme Data and Tick Season",
+  "dek": "Which ticks live in Maine, where Lyme disease and anaplasmosis are most common county by county, when deer ticks peak, and what the University of Maine's tick lab offers if you find one.",
+  "breadcrumb": "Ticks in Maine",
+  "excerpt": "Deer ticks are established in all 16 Maine counties. Species photos, Lyme rates by county, tick season by month and where to get a tick identified free.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**Blacklegged (deer) ticks are established in all 16 Maine counties, and together with American dog ticks they make up nearly every tick Mainers send in for identification.** Maine reported 2,942 Lyme disease cases in 2023, and its rate was the third highest of any state in [CDC surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). The state's preliminary count for 2025, as of May 2026, is 4,257.",
+    "bullets": [
+      "Relative to population, 2023 Lyme rates were highest in Knox, Waldo, Hancock and Lincoln counties, each above 500 cases per 100,000 residents, and lowest in Aroostook County.",
+      "Anaplasmosis is climbing steeply: Maine CDC counted 185 cases in 2015, 1,318 in 2024 and a preliminary 1,604 in 2025.",
+      "Of 3,780 deer ticks the University of Maine Tick Lab tested in 2025, 41% carried the Lyme bacterium, 12.6% the babesiosis parasite and 9.5% the anaplasmosis bacterium.",
+      "Adult deer ticks peak in April or May and again in late October or early November, nymphs peak in June and early July, and ticks can be active on any day above freezing.",
+      "As of October 2026, the UMaine Tick Lab identifies ticks free and charges Maine residents $20 to test one, but Maine CDC says clinical decisions should not rest on the result.",
+      "Lone star ticks are not known to be established in Maine, and the lab received the state's first Asian longhorned tick, a nymph picked up in Cumberland County, in 2025."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Maine at a glance",
+    "rows": [
+      [
+        "Tick species found in Maine",
+        "About 15 (UMaine Tick Lab, 2025 report)"
+      ],
+      [
+        "Ticks sent to the UMaine Tick Lab, 2025",
+        "5,486, including 4,035 deer ticks and 1,376 American dog ticks"
+      ],
+      [
+        "Counties with established deer ticks",
+        "16 of 16 (CDC, through December 2025)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "2,942 in 2023 (CDC); 3,233 in 2024 and 4,257 in 2025 (state counts, 2025 preliminary)"
+      ],
+      [
+        "Lyme rate",
+        "213.4 per 100,000 in 2023, third among states (CDC data)"
+      ],
+      [
+        "Highest county rate, 2023",
+        "Knox County, about 682 per 100,000 (280 cases; BuzzSkito's calculation from CDC and Census data)"
+      ],
+      [
+        "Most cases by county, 2023",
+        "Cumberland County, 387"
+      ],
+      [
+        "Anaplasmosis cases",
+        "1,318 in 2024; 1,604 in 2025, preliminary (Maine CDC)"
+      ],
+      [
+        "Powassan virus",
+        "41 cases in Maine residents since 2000 (Maine CDC, June 2026)"
+      ],
+      [
+        "Deer ticks carrying the Lyme bacterium",
+        "41% of 3,780 tested by the UMaine Tick Lab in 2025"
+      ],
+      [
+        "Peak tick times",
+        "Adults in April or May and late October or early November; nymphs in June and early July (UMaine, 2025 report)"
+      ],
+      [
+        "Tick identification and testing",
+        "Identification free, testing $20 for Maine residents at the UMaine Tick Lab (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Maine?"
+    },
+    {
+      "type": "p",
+      "text": "About 15 tick species have been found in Maine, and three of them account for most encounters: the blacklegged tick (also called the deer tick), the American dog tick and the woodchuck tick, according to the [University of Maine Cooperative Extension Tick Lab's 2025 annual report](https://extension.umaine.edu/ticks/wp-content/uploads/sites/42/2026/05/Tick-Surveillance-Program-Annual-Report-2025.pdf). Of the 5,486 ticks people sent the lab in 2025, 4,035 were blacklegged ticks and 1,376 American dog ticks, nearly 99% of all submissions by our calculation."
+    },
+    {
+      "type": "p",
+      "text": "The deer tick matters most for health. [Maine CDC's May 2026 advisory to clinicians](https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/health-professionals/advisories/2026-05-Create%20Health%20Advisories/2026PHADV009LymeTickborne.pdf) calls it the primary carrier of most tick-borne diseases reported in Maine, names five illnesses its germs cause (Lyme disease, anaplasmosis, babesiosis, hard tick relapsing fever and Powassan virus disease) and says one bite can pass on more than one infection."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Sent to the UMaine Tick Lab, 2025",
+        "Status in Maine",
+        "Health notes"
+      ],
+      "rows": [
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "4,035",
+          "Established in all 16 counties",
+          "Carries the germs of Lyme disease, anaplasmosis, babesiosis, hard tick relapsing fever and Powassan virus"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "1,376",
+          "One of the three ticks most often encountered",
+          "None of 1,137 tested carried the germs of Rocky Mountain spotted fever, ehrlichiosis or tularemia, or Heartland virus"
+        ],
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "30",
+          "Not known to be established; 6 of the 30 were acquired in Maine without recent travel",
+          "Bites can lead to alpha-gal syndrome; none of the 30 carried the germs listed for the dog tick"
+        ],
+        [
+          "Asian longhorned tick, *Haemaphysalis longicornis*",
+          "1",
+          "Maine's first specimen, a nymph acquired in Cumberland County",
+          "Listed by the lab as an invasive threat to people, wildlife and domestic animals"
+        ]
+      ],
+      "caption": "Counts and test results: the [UMaine Tick Lab's 2025 report](https://extension.umaine.edu/ticks/wp-content/uploads/sites/42/2026/05/Tick-Surveillance-Program-Annual-Report-2025.pdf), ticks the public found and sent in, preliminary as of December 31, 2025. Deer tick status: CDC ArboNET Tick Module. Diseases and the alpha-gal link: Maine CDC."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "Adult female blacklegged tick and a much smaller blacklegged tick nymph resting side by side on a person's index fingertip",
+      "caption": "A deer tick adult female (left) and nymph (right) on a fingertip. The nymph is about the size of a poppy seed, which CDC says makes it hard to see.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "p",
+      "text": "The nymph is the stage to watch for in early summer: [CDC's page on how Lyme disease spreads](https://www.cdc.gov/lyme/causes/index.html) says nymphs pose a particularly high risk because they are abundant and, at about the size of a poppy seed, hard to see. For sizes and markings of the common US ticks side by side, see [how to tell ticks apart by their look](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a green blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick, the tick Mainers send in most often after the deer tick. Its mottled, cream-colored shield sets it apart from the plain dark shield of a deer tick.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "p",
+      "text": "The woodchuck tick, the third of Maine's common ticks, made up only 24 of the lab's 2025 submissions."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/groundhog-tick.webp",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Engorged female woodchuck tick on a wooden surface, its swollen body pale gray behind a small dark reddish-brown shield, with reddish-brown legs",
+      "caption": "An engorged female woodchuck (groundhog) tick, *Ixodes cookei*, one of the three ticks the UMaine Tick Lab says Mainers encounter most often.",
+      "credit": "(c) adamfritz, some rights reserved (CC BY), via iNaturalist",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://www.inaturalist.org/observations/168811425"
+    },
+    {
+      "type": "h2",
+      "text": "Where are deer ticks found in Maine?"
+    },
+    {
+      "type": "p",
+      "text": "In every county. [CDC's tick surveillance data](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which run through December 31, 2025, list the blacklegged tick as established in all 16 Maine counties. Established means six or more ticks of one life stage, or more than one life stage, were collected in a county within 12 months. To compare other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "map",
+      "scope": "ME",
+      "title": "Blacklegged (deer) tick status by county, Maine, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "23001": "established",
+        "23003": "established",
+        "23005": "established",
+        "23007": "established",
+        "23009": "established",
+        "23011": "established",
+        "23013": "established",
+        "23015": "established",
+        "23017": "established",
+        "23019": "established",
+        "23021": "established",
+        "23023": "established",
+        "23025": "established",
+        "23027": "established",
+        "23029": "established",
+        "23031": "established"
+      },
+      "caption": "All 16 counties are established (six or more blacklegged ticks of one life stage, or more than one life stage, collected within 12 months); reported means fewer. On CDC's maps, no record does not mean no ticks: it can mean no one has sampled there. Status is cumulative and depends on sampling effort.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html)"
+    },
+    {
+      "type": "p",
+      "text": "The Tick Lab's 2025 submissions came from all 16 counties and 411 towns, and its report says the deer tick has expanded in both numbers and range in Maine. Because the lab depends on ticks the public chooses to send, a town with no submissions is not evidence that ticks are absent there."
+    },
+    {
+      "type": "h3",
+      "text": "Which germs have been found in Maine ticks?"
+    },
+    {
+      "type": "p",
+      "text": "CDC records the counties where each germ has been found in host-seeking blacklegged ticks, meaning ticks looking for a host rather than feeding on one; its record is cumulative, and a county without one is not proof the germ is absent. The UMaine Tick Lab tests the ticks people send in, most of them partly engorged."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Germ",
+        "Illness",
+        "Maine counties with a record, CDC",
+        "Deer ticks positive, UMaine 2025"
+      ],
+      "rows": [
+        [
+          "*Borrelia burgdorferi*",
+          "Lyme disease",
+          "15 of 16 (all but Aroostook)",
+          "41.0%"
+        ],
+        [
+          "*Babesia microti*",
+          "Babesiosis",
+          "All 16",
+          "12.6%"
+        ],
+        [
+          "*Anaplasma phagocytophilum*",
+          "Anaplasmosis",
+          "14 (all but Aroostook and Piscataquis)",
+          "9.5%"
+        ],
+        [
+          "*Borrelia miyamotoi*",
+          "Hard tick relapsing fever",
+          "14 (all but Aroostook and Kennebec)",
+          "1.4%"
+        ],
+        [
+          "Powassan virus",
+          "Powassan virus disease",
+          "4 (Cumberland, Knox, Sagadahoc and York)",
+          "0.8%"
+        ]
+      ],
+      "caption": "CDC: [ArboNET Tick Module data](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), germs in host-seeking ticks through December 2025 (for anaplasmosis, the variant that infects people); CDC has no Maine record of two rarer germs it tracks, *Borrelia mayonii* and *Ehrlichia muris eauclairensis*. UMaine: 3,780 adult and nymph deer ticks tested in 2025, from the [lab's 2025 report](https://extension.umaine.edu/ticks/wp-content/uploads/sites/42/2026/05/Tick-Surveillance-Program-Annual-Report-2025.pdf)."
+    },
+    {
+      "type": "p",
+      "text": "Adult ticks carry more germs than nymphs: in 2025, 45.2% of tested adults and 25.0% of nymphs had the Lyme bacterium, and 7.1% of all tested ticks carried both the Lyme and babesiosis germs. Since 2019 the share with the Lyme bacterium has stayed between 36% and 44%, while the share carrying *Babesia microti* rose from 6% to 13%, the lab's report shows. [Which US ticks carry Lyme disease](/blog/ticks-that-carry-lyme-disease) covers the species found elsewhere in the country."
+    },
+    {
+      "type": "h2",
+      "text": "Are lone star or Asian longhorned ticks in Maine?"
+    },
+    {
+      "type": "p",
+      "text": "Both have turned up, but in small numbers. Lone star ticks are not known to have established permanent populations in Maine, though they are established in other New England states, the [UMaine Tick Lab's 2025 report](https://extension.umaine.edu/ticks/wp-content/uploads/sites/42/2026/05/Tick-Surveillance-Program-Annual-Report-2025.pdf) says. Of the 149 the lab has received since 2019, 84 were acquired outside Maine and only 25 in Maine by people with no recent out-of-state travel."
+    },
+    {
+      "type": "p",
+      "text": "Maine CDC's May 2026 advisory says lone star ticks are not endemic to Maine but are established in parts of Massachusetts. Their bites matter because they can sensitize people to alpha-gal, a carbohydrate found in red meat, dairy and other products, and some people then react 2 to 10 hours after eating them; see [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome)."
+    },
+    {
+      "type": "p",
+      "text": "The lab received Maine's first Asian longhorned tick in 2025, a nymph acquired in Cumberland County, and its report counts that species, with the lone star tick, among invasive ticks that threaten people, wildlife and domestic animals."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does Maine have?"
+    },
+    {
+      "type": "p",
+      "text": "Maine reported 2,942 Lyme disease cases in 2023, a rate of 213.4 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Only Rhode Island and Vermont had higher rates that year, and by our ranking of CDC's state rates, Maine has placed among the three highest every year from 2012 through 2023."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Maine, 2008 to 2025",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "CDC count, 2008 to 2023",
+          "values": [
+            908,
+            970,
+            751,
+            1006,
+            1111,
+            1373,
+            1401,
+            1201,
+            1487,
+            1850,
+            1405,
+            2167,
+            1128,
+            1510,
+            2653,
+            2942,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "Maine CDC count, 2024 and 2025",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            3233,
+            4257
+          ]
+        }
+      ],
+      "yLabel": "Confirmed and probable cases per year",
+      "caption": "CDC's figures run through 2023, its latest year as of October 2026. 2024 is the state's count as of January 21, 2026, and 2025 its preliminary count as of May 2026 (the state's 2023 count, 2,941, is one below CDC's). A revised case definition took effect in 2022, so 2022 onward is not directly comparable with earlier years; CDC says COVID-19 left 2019 and 2020 data incomplete in some states.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html) through 2023; Maine CDC's [2024 annual report](https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/Maine-CDC-2024-Annual-Report-Online.pdf) and [May 2026 advisory](https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/health-professionals/advisories/2026-05-Create%20Health%20Advisories/2026PHADV009LymeTickborne.pdf) for 2024 and 2025"
+    },
+    {
+      "type": "p",
+      "text": "Read the jumps with care. Under a revised case definition that took effect in 2022, high-incidence states such as Maine can report cases on laboratory evidence alone, and [CDC's report on the change](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) says this precludes detailed comparison with earlier years. Maine's count rose 46.8%, from a 2017 to 2019 average of 1,807 to 2,653 in 2022, the report shows."
+    },
+    {
+      "type": "p",
+      "text": "The state's newer counts are higher still. [Maine CDC's 2024 annual report](https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/Maine-CDC-2024-Annual-Report-Online.pdf) counts 3,233 Lyme cases in 2024, a rate of 230.1 per 100,000, and its May 2026 advisory gives a preliminary 4,257 for 2025, in what the agency calls the most active tick-borne illness season to date. By May 13, 2026, it had received 723 reports of tick-borne illness for the year; it posts near-real-time counts on the Maine Tracking Network."
+    },
+    {
+      "type": "p",
+      "text": "Older Mainers carry much of the burden. In 2024, people 65 and older accounted for 1,342 of the 3,233 Lyme cases, about 42% by our calculation, the annual report shows; children aged 5 to 14 accounted for 267, and males for 1,835."
+    },
+    {
+      "type": "h3",
+      "text": "How does Maine compare with New Hampshire?"
+    },
+    {
+      "type": "p",
+      "text": "Maine's 2023 rate was nearly double that of New Hampshire, its only neighboring state, which reported 1,573 cases, or 113.4 per 100,000, in the same CDC data. The two states with higher rates than Maine were Rhode Island (260.0) and Vermont (223.3). For the picture next door, see [ticks and Lyme disease in New Hampshire](/blog/ticks-in-new-hampshire)."
+    },
+    {
+      "type": "h2",
+      "text": "Which Maine counties have the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Relative to population, four coastal counties lead. In 2023, Knox, Waldo, Hancock and Lincoln counties each recorded more than 500 cases per 100,000 residents, more than twice the state rate. The map shows the 2023 rate for every county, calculated by BuzzSkito from [CDC's county-level Lyme data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) and the [Census Bureau's county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)."
+    },
+    {
+      "type": "map",
+      "scope": "ME",
+      "title": "Lyme disease cases per 100,000 residents by county, Maine, 2023",
+      "categories": [
+        {
+          "key": "500plus",
+          "label": "500 or more"
+        },
+        {
+          "key": "250to499",
+          "label": "250 to 499"
+        },
+        {
+          "key": "100to249",
+          "label": "100 to 249"
+        },
+        {
+          "key": "under100",
+          "label": "Under 100"
+        }
+      ],
+      "values": {
+        "23001": "100to249",
+        "23003": "under100",
+        "23005": "100to249",
+        "23007": "100to249",
+        "23009": "500plus",
+        "23011": "100to249",
+        "23013": "500plus",
+        "23015": "500plus",
+        "23017": "100to249",
+        "23019": "100to249",
+        "23021": "100to249",
+        "23023": "250to499",
+        "23025": "250to499",
+        "23027": "500plus",
+        "23029": "100to249",
+        "23031": "100to249"
+      },
+      "caption": "Confirmed and probable cases by county of residence. Rates are BuzzSkito's calculation: CDC's 2023 county counts divided by the Census Bureau's July 1, 2023 population estimates (Vintage 2025). On this basis the statewide rate is 209.8, a little below CDC's published 213.4.",
+      "source": "[CDC county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html), 2023; [U.S. Census Bureau county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Cases, 2023",
+        "Per 100,000, 2023",
+        "Cases, 2024",
+        "Per 100,000, 2024"
+      ],
+      "rows": [
+        [
+          "Knox",
+          "280",
+          "681.6",
+          "293",
+          "715.0"
+        ],
+        [
+          "Waldo",
+          "256",
+          "632.5",
+          "247",
+          "608.1"
+        ],
+        [
+          "Hancock",
+          "321",
+          "564.5",
+          "382",
+          "670.8"
+        ],
+        [
+          "Lincoln",
+          "183",
+          "502.5",
+          "255",
+          "698.8"
+        ],
+        [
+          "Sagadahoc",
+          "124",
+          "330.0",
+          "139",
+          "369.9"
+        ],
+        [
+          "Somerset",
+          "134",
+          "261.2",
+          "177",
+          "344.8"
+        ],
+        [
+          "Washington",
+          "73",
+          "232.0",
+          "101",
+          "321.8"
+        ],
+        [
+          "Franklin",
+          "70",
+          "227.5",
+          "75",
+          "242.7"
+        ],
+        [
+          "Kennebec",
+          "264",
+          "205.8",
+          "295",
+          "229.6"
+        ],
+        [
+          "Oxford",
+          "102",
+          "169.8",
+          "131",
+          "218.2"
+        ],
+        [
+          "Penobscot",
+          "239",
+          "152.4",
+          "255",
+          "162.6"
+        ],
+        [
+          "York",
+          "331",
+          "150.6",
+          "286",
+          "129.9"
+        ],
+        [
+          "Piscataquis",
+          "25",
+          "143.1",
+          "20",
+          "114.7"
+        ],
+        [
+          "Cumberland",
+          "387",
+          "124.2",
+          "415",
+          "132.2"
+        ],
+        [
+          "Androscoggin",
+          "140",
+          "122.2",
+          "153",
+          "132.7"
+        ],
+        [
+          "Aroostook",
+          "13",
+          "19.3",
+          "9",
+          "13.5"
+        ],
+        [
+          "Maine",
+          "2,942",
+          "213.4",
+          "3,233",
+          "230.1"
+        ]
+      ],
+      "caption": "2023: CDC counts by county of residence; county rates are BuzzSkito's calculation, as for the map, and the statewide 213.4 is CDC's rate. 2024: [Maine CDC's 2024 annual report](https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/Maine-CDC-2024-Annual-Report-Online.pdf), using its own population figures."
+    },
+    {
+      "type": "p",
+      "text": "Raw counts follow population instead. Cumberland County had the most cases in 2023 (387), followed by York (331) and Hancock (321), yet Cumberland's rate of 124.2 per 100,000 was among the lowest. Aroostook County had 13 cases and the lowest rate, 19.3. Maine CDC's 2024 figures put the same four coastal counties on top."
+    },
+    {
+      "type": "p",
+      "text": "Two cautions apply to any county figure. Cases are counted where the patient lives, which may not be where the bite happened, as [CDC's Lyme case map page](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) notes. And small counties swing sharply: Piscataquis County's 25 cases in 2023 came from about 17,500 people."
+    },
+    {
+      "type": "h3",
+      "text": "Has Lyme disease spread across Maine?"
+    },
+    {
+      "type": "p",
+      "text": "Yes. In 2001, 68 of the 108 Maine cases that CDC assigns to a county were in York County, about 63% by our calculation; by 2023, York's share was about 11%. Between 2008 and 2018, both counted under the old case definition, Hancock County's cases rose from 13 to 174, Waldo's from 19 to 78 and Penobscot's from 13 to 77, while York's fell from 288 to 201, CDC's county data show."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in Maine?"
+    },
+    {
+      "type": "p",
+      "text": "Anaplasmosis is the next most common, and it is rising steeply. Maine CDC counted 185 cases in 2015 and 1,318 in 2024, a rate of 93.8 per 100,000, according to its [2024 annual report](https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/Maine-CDC-2024-Annual-Report-Online.pdf), and its [May 2026 advisory](https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/health-professionals/advisories/2026-05-Create%20Health%20Advisories/2026PHADV009LymeTickborne.pdf) puts the preliminary 2025 count at 1,604. Like Lyme disease, it is spread by the deer tick."
+    },
+    {
+      "type": "chart",
+      "title": "Anaplasmosis cases reported in Maine, 2015 to 2025",
+      "x": [
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "Annual count",
+          "values": [
+            185,
+            372,
+            663,
+            476,
+            685,
+            443,
+            841,
+            824,
+            777,
+            1318,
+            null
+          ]
+        },
+        {
+          "name": "Preliminary count, 2025",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1604
+          ]
+        }
+      ],
+      "yLabel": "Confirmed and probable cases per year",
+      "caption": "2015 to 2024: Maine CDC's counts as of January 21, 2026. 2025: preliminary count as of May 2026.",
+      "source": "Maine CDC: [2024 annual report](https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/Maine-CDC-2024-Annual-Report-Online.pdf) and [May 2026 health advisory](https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/health-professionals/advisories/2026-05-Create%20Health%20Advisories/2026PHADV009LymeTickborne.pdf)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Tick that spreads it in Maine",
+        "2023",
+        "2024",
+        "2025 (preliminary)"
+      ],
+      "rows": [
+        [
+          "Anaplasmosis",
+          "Deer tick",
+          "777",
+          "1,318",
+          "1,604"
+        ],
+        [
+          "Babesiosis",
+          "Deer tick",
+          "196",
+          "322",
+          "352"
+        ],
+        [
+          "Hard tick relapsing fever",
+          "Deer tick",
+          "13",
+          "23",
+          "31"
+        ],
+        [
+          "Ehrlichiosis",
+          "Not common in Maine",
+          "3",
+          "2",
+          "2"
+        ],
+        [
+          "Spotted fever rickettsiosis",
+          "Not common in Maine",
+          "0",
+          "4",
+          "1"
+        ]
+      ],
+      "caption": "Maine CDC counts: 2023 and 2024 from its [2024 annual report](https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/Maine-CDC-2024-Annual-Report-Online.pdf) (data as of January 21, 2026), 2025 from its [May 2026 advisory](https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/health-professionals/advisories/2026-05-Create%20Health%20Advisories/2026PHADV009LymeTickborne.pdf), which also names the deer tick as the carrier of the first three. Powassan virus is covered below."
+    },
+    {
+      "type": "p",
+      "text": "Babesiosis rose almost as steeply, from 55 cases in 2015 to 322 in 2024. Both diseases cluster where Lyme does: in 2024, Lincoln County's anaplasmosis rate was 441.2 per 100,000 and Knox County's babesiosis rate 100.0, against statewide rates of 93.8 and 22.9. Hard tick relapsing fever, not reportable in 2015, rose from 2 cases in 2016 to 23 in 2024, 9 of them in Hancock County."
+    },
+    {
+      "type": "p",
+      "text": "Older residents are hit hardest: people 65 and older accounted for 764 of the 1,318 anaplasmosis cases and 188 of the 322 babesiosis cases in 2024, the annual report shows. Ehrlichiosis and spotted fever rickettsiosis are among illnesses Maine CDC says are not common in the state but may be met when traveling outside it."
+    },
+    {
+      "type": "h3",
+      "text": "How common is Powassan virus in Maine?"
+    },
+    {
+      "type": "p",
+      "text": "Rare, but rising and often severe. [CDC's Powassan virus data](https://www.cdc.gov/powassan/data-maps/historic-data.html) count 37 cases in Maine residents from 2004 through 2025, 36 of them neuroinvasive, the severe form, and 27 of the 37 came in 2021 through 2025."
+    },
+    {
+      "type": "chart",
+      "title": "Powassan virus disease cases in Maine residents, 2015 to 2025",
+      "x": [
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "Reported cases",
+          "values": [
+            1,
+            1,
+            3,
+            0,
+            2,
+            1,
+            3,
+            4,
+            8,
+            6,
+            6
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by county of residence",
+      "caption": "CDC's data were finalized on September 16, 2026. CDC's file has no Maine case for 2018, and the state's annual report also shows none. The state's report counts 7 cases in 2023 and 7 in 2024, against CDC's 8 and 6; the chart uses CDC's figures.",
+      "source": "[CDC Powassan virus historic data](https://www.cdc.gov/powassan/data-maps/historic-data.html) (ArboNET)"
+    },
+    {
+      "type": "p",
+      "text": "Maine CDC counts 41 cases in residents since 2000, according to its [June 2026 advisory](https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/health-professionals/advisories/2026-06-Create%20Health%20Advisories/2026PHADV015Powassan.pdf), which reported the first confirmed case of 2026: a Penobscot County resident infected in Maine who fell ill in early June and was not hospitalized. Symptoms most often began in June or November, and 75% of cases reported no recent travel outside Maine. In late 2025 the agency confirmed what its May 2026 advisory calls the first reported arboviral illness in a child in Maine, a Powassan case."
+    },
+    {
+      "type": "p",
+      "text": "The June advisory says the virus can be transmitted in as little as 15 minutes after an infected tick bites, that about 10% of people with severe neuroinvasive illness die and about half of survivors have long-lasting neurologic problems, and that treatment is supportive. About 1% of deer ticks submitted to the UMaine lab test positive for it, the advisory adds; the lab's 2025 figure was 0.8%."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Maine?"
+    },
+    {
+      "type": "p",
+      "text": "All year on mild days, with two peaks for adult deer ticks and one for nymphs. Adults peak in April or May and again in late October or early November, and nymphs usually in June and early July, the UMaine Tick Lab's submissions show. Maine CDC says ticks can be active any time the temperature is above freezing, with most infections in spring and summer and again in late fall."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Time of year",
+        "Deer ticks",
+        "What Maine's data show"
+      ],
+      "rows": [
+        [
+          "Winter (December to February)",
+          "Can be active on any day above freezing",
+          "Maine CDC asks clinicians to consider tick-borne disease year-round"
+        ],
+        [
+          "Spring (March to May)",
+          "First adult peak, in April or May",
+          "Maine CDC had received 723 reports of tick-borne illness by May 13, 2026"
+        ],
+        [
+          "Summer (June to September)",
+          "Nymphs peak in June and early July",
+          "June is one of the two months when Powassan symptoms most often begin"
+        ],
+        [
+          "Fall (October and November)",
+          "Second adult peak, in late October or early November",
+          "November is the other; Maine CDC says infections rise again in late fall"
+        ]
+      ],
+      "caption": "Tick activity: the [UMaine Tick Lab's 2025 report](https://extension.umaine.edu/ticks/wp-content/uploads/sites/42/2026/05/Tick-Surveillance-Program-Annual-Report-2025.pdf). Illness timing: Maine CDC's [May 2026](https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/health-professionals/advisories/2026-05-Create%20Health%20Advisories/2026PHADV009LymeTickborne.pdf) and [June 2026](https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/health-professionals/advisories/2026-06-Create%20Health%20Advisories/2026PHADV015Powassan.pdf) advisories."
+    },
+    {
+      "type": "p",
+      "text": "Protection lags during the adult peaks. Only about 19% of people who sent the lab a tick in 2025 said they had used any personal protection when they met it; that share peaked at 27% in June and stayed between 10% and 20% during the spring and fall peaks in adult deer tick activity."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-life-stages.webp",
+      "width": 1200,
+      "height": 793,
+      "alt": "Three blacklegged ticks on a blue-green surface: a large adult female with a reddish body and dark shield, and two much smaller immature ticks",
+      "caption": "Blacklegged tick adult female (top) and two much smaller immature stages, a nymph and a larva. The UMaine lab found no germs in the 52 larvae it tested in 2025.",
+      "credit": "CDC/ Michael L. Levin, Ph. D. (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1205"
+    },
+    {
+      "type": "h2",
+      "text": "Where do people in Maine pick up ticks?"
+    },
+    {
+      "type": "p",
+      "text": "Mostly at home. About 67% of people who sent the Tick Lab a deer tick in 2025 met it on their own property, and yardwork or gardening was the most common activity at the time (31.3%), followed by playing outside (21.2%), walking (14.5%), pet-related activities (9.6%) and hiking (9.0%), the [lab's 2025 report](https://extension.umaine.edu/ticks/wp-content/uploads/sites/42/2026/05/Tick-Surveillance-Program-Annual-Report-2025.pdf) shows. Hunting and trapping accounted for 1.7%."
+    },
+    {
+      "type": "p",
+      "text": "Of ticks found on people, 94% were already attached and feeding. Deer ticks were found most often on the legs (22%) and the back (17%) and front (16%) of the torso, and nymphs were on the legs more often than adults (31% versus 19%), which the lab says is likely due to the different heights at which each stage waits in vegetation. Nymph submissions were highest for children under 15, and adult tick submissions for people over 45."
+    },
+    {
+      "type": "p",
+      "text": "Yard upkeep helps. [CDC's Lyme prevention page](https://www.cdc.gov/lyme/prevention/index.html) suggests keeping grass mowed, removing leaf litter, clearing tall grass and brush, keeping play equipment, decks and patios away from grassy, brushy or wooded areas, and placing a 3-foot-wide barrier of wood chips or gravel between lawns and wooded areas."
+    },
+    {
+      "type": "h2",
+      "text": "Can you get a tick identified or tested in Maine?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, through the University of Maine. As of October 2026, the [UMaine Tick Lab's submission page](https://extension.umaine.edu/ticks/submit/) offers identification only at no charge, and identification with disease testing for $20; it does not offer testing to people outside Maine. Maine CDC's May 2026 advisory says testing has a three-day turnaround and that deer ticks are tested for the germs of Lyme disease, anaplasmosis, babesiosis and hard tick relapsing fever and for Powassan virus."
+    },
+    {
+      "type": "p",
+      "text": "To send one, fill in the lab's online form and mail the tick to the Tick Lab at 17 Godfrey Drive, Orono, ME 04473, as its annual report explains. To narrow down the species yourself first, compare it with a [tick identification chart with photos of each species](/learn/tick-identification-chart)."
+    },
+    {
+      "type": "p",
+      "text": "Do not wait for the result before seeing a doctor. The lab says its testing is not a medical diagnosis and that consulting a physician should not wait for results, and Maine CDC says clinical decisions should not be based on them. [CDC's guidance on what to do after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) does not generally recommend tick testing and warns that a negative result can give false assurance. The results do help Maine CDC track tick infection rates across the state."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Maine?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick right away, then watch for symptoms over the following weeks. CDC's after-a-bite guidance describes removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers.",
+        "Pull it away from the skin with steady, even pressure; do not twist or jerk it.",
+        "If the mouthparts break off and will not come out easily, leave them; the skin will heal.",
+        "Clean the bite area and your hands with soap and water, rubbing alcohol or hand sanitizer.",
+        "Never crush a tick with your fingers. To have it identified, keep it in a sealed container."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Skip petroleum jelly, heat and nail polish; CDC says they may force infected fluid from the tick into the skin. For more detail, see [the step-by-step tick removal guide](/blog/how-to-remove-tick-safely)."
+    },
+    {
+      "type": "p",
+      "text": "Speed matters. In most cases a tick must be attached for more than 24 hours before it can transmit the Lyme bacterium, and removing it within 24 hours can greatly reduce the chance of Lyme disease, [CDC says](https://www.cdc.gov/lyme/causes/index.html). Powassan virus is the exception: Maine CDC's June 2026 advisory says it can pass in as little as 15 minutes."
+    },
+    {
+      "type": "p",
+      "text": "Ask a provider about a preventive antibiotic. [CDC's Lyme prevention guidance](https://www.cdc.gov/lyme/prevention/index.html) says a single dose of doxycycline after a tick bite where Lyme disease is common may, in certain circumstances, lower the risk, and to ask a health care provider whether it is right for you. Maine CDC's May 2026 advisory tells clinicians the dose is not routinely recommended but can be considered for an engorged deer tick attached at least 24 hours in an area with many infected ticks, started within 72 hours of removal. It adds that the dose will not affect babesiosis or Powassan virus disease, that no data show whether it prevents anaplasmosis, and that patients should watch for symptoms for 30 days either way."
+    },
+    {
+      "type": "p",
+      "text": "Then watch for a rash or fever. CDC says the erythema migrans rash appears in about 70% to 80% of infected people, beginning 3 to 30 days after the bite (about 7 days on average) and spreading over several days to as much as 12 inches across or more; it may feel warm but is rarely itchy or painful, and it does not always look like a bull's-eye, according to [CDC's page on Lyme disease symptoms](https://www.cdc.gov/lyme/signs-symptoms/index.html). Fever, chills, headache, fatigue, muscle and joint aches and swollen lymph nodes can occur without a rash. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow if it goes untreated."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Erythema migrans rash on the back of a person's upper arm: a red center, a paler ring and a red outer ring in a bull's-eye pattern",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, here in a bull's-eye pattern. CDC says the rash does not always take this shape.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you feel ill",
+      "text": "CDC advises seeing a doctor if a rash or fever develops within several weeks of removing a tick, and mentioning the bite and where it happened. Do not wait for a tick test result. This page summarizes public health guidance and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Maine?"
+    },
+    {
+      "type": "p",
+      "text": "Use repellent, treat clothing, check for ticks after every outing, including time in your own yard, and shower soon after coming indoors. [CDC's Lyme prevention page](https://www.cdc.gov/lyme/prevention/index.html) recommends:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**An EPA-registered repellent** containing DEET, picaridin, IR3535, oil of lemon eucalyptus (OLE), para-menthane-diol (PMD) or 2-undecanone, reapplied as the label directs.",
+        "**Clothing and gear pre-treated with 0.5% permethrin**, or long sleeves and long pants.",
+        "**Tick checks** of your body, clothing, gear and pets during and after time outdoors, including your own backyard; a lint roller can pick up unattached ticks you cannot see.",
+        "**A shower soon after being outdoors** to wash off ticks that have not attached."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Few Mainers who found ticks had used these measures: of the people who sent the UMaine lab a tick in 2025, 6.6% reported wearing protective clothing, 3.1% using DEET and 1.9% using permethrin, the lab's report shows."
+    },
+    {
+      "type": "p",
+      "text": "Pets bring ticks home too: 8% of the ticks sent to the lab had been found on dogs. CDC recommends a tick preventive product for dogs and daily tick checks for pets that go outdoors, and says not to use any tick product on a cat without first asking a veterinarian. See [how to check a dog for ticks and remove them](/blog/ticks-on-dogs)."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "When is tick season in Maine?",
+      "answer": "Deer ticks can be active on any day above freezing, so no month is fully tick-free. The University of Maine Tick Lab sees adult deer ticks peak twice, in April or May and again in late October or early November, while the smaller nymphs peak in June and early July. Maine CDC says most infections happen in spring and summer and again in late fall, so tick checks matter in autumn as well as summer."
+    },
+    {
+      "question": "What percentage of ticks in Maine carry Lyme disease?",
+      "answer": "In 2025, 41% of the 3,780 deer ticks the University of Maine Tick Lab tested carried the Lyme bacterium: about 45% of adults and 25% of nymphs. The share has ranged from 36% to 44% since 2019. These were ticks people found and sent in, so they are not a random sample, and the rate varies by county. The lab tests deer ticks and related species for the Lyme bacterium, not American dog ticks."
+    },
+    {
+      "question": "Can I get a tick tested in Maine?",
+      "answer": "Yes. As of October 2026, the University of Maine Tick Lab identifies ticks at no charge and charges $20 to identify and test one; it does not test ticks for people outside Maine. Maine CDC says testing has a three-day turnaround. The lab says its results are not a medical diagnosis, and both Maine CDC and CDC say treatment decisions should not rest on a tick test, so see a health care provider if you feel ill."
+    },
+    {
+      "question": "Which Maine county has the most Lyme disease?",
+      "answer": "Relative to population, Knox County: about 682 cases per 100,000 residents in 2023, by BuzzSkito's calculation from CDC and Census data, and 715 per 100,000 in Maine CDC's 2024 figures. Waldo, Hancock and Lincoln counties were close behind. Cumberland County had the most cases, 387 in 2023, because more people live there. Cases are counted where patients live, not where they were bitten."
+    },
+    {
+      "question": "Are there lone star ticks in Maine?",
+      "answer": "They turn up, but they are not known to have established populations. The University of Maine Tick Lab received 30 lone star ticks in 2025, and only six had been picked up in Maine by someone without recent out-of-state travel. Maine CDC says the species is established in parts of Massachusetts. Its bites can sensitize people to alpha-gal, leading to allergic reactions hours after eating red meat or dairy."
+    },
+    {
+      "question": "Should I see a doctor after a tick bite in Maine?",
+      "answer": "See a provider if a rash or fever develops within several weeks of removing a tick, and mention the bite, CDC advises. You can also ask about a single dose of doxycycline: Maine CDC tells clinicians it can be considered for an engorged deer tick attached at least 24 hours in an area with many infected ticks, started within 72 hours of removal. Maine CDC also advises watching for symptoms for 30 days after a bite."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022 (MMWR, February 15, 2024)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "County Population Totals and Components of Change: 2020-2025",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Powassan Virus Historic Data (2004-2025)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/powassan/data-maps/historic-data.html"
+    },
+    {
+      "title": "How Lyme Disease Spreads",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "Signs and Symptoms of Untreated Lyme Disease",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/signs-symptoms/index.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "Preventing Lyme Disease",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/prevention/index.html"
+    },
+    {
+      "title": "2026 Lyme and Other Tickborne Disease Information, Health Advisory 2026PHADV009 (May 13, 2026)",
+      "publisher": "Maine Center for Disease Control and Prevention",
+      "url": "https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/health-professionals/advisories/2026-05-Create%20Health%20Advisories/2026PHADV009LymeTickborne.pdf"
+    },
+    {
+      "title": "Maine Reportable Infectious Diseases Summary, Annual Report 2024 (data as of January 21, 2026)",
+      "publisher": "Maine Center for Disease Control and Prevention",
+      "url": "https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/Maine-CDC-2024-Annual-Report-Online.pdf"
+    },
+    {
+      "title": "Human Powassan Case in Maine, Health Advisory 2026PHADV015 (June 23, 2026)",
+      "publisher": "Maine Center for Disease Control and Prevention",
+      "url": "https://www.maine.gov/dhhs/mecdc/sites/maine.gov.dhhs.mecdc/files/health-professionals/advisories/2026-06-Create%20Health%20Advisories/2026PHADV015Powassan.pdf"
+    },
+    {
+      "title": "Tick Surveillance Program Annual Report 2025",
+      "publisher": "University of Maine Cooperative Extension Tick Lab",
+      "url": "https://extension.umaine.edu/ticks/wp-content/uploads/sites/42/2026/05/Tick-Surveillance-Program-Annual-Report-2025.pdf"
+    },
+    {
+      "title": "Submit a Tick",
+      "publisher": "University of Maine Cooperative Extension Tick Lab",
+      "url": "https://extension.umaine.edu/ticks/submit/"
+    }
+  ],
+  "disclaimer": "both"
+}
