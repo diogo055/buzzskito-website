@@ -1,0 +1,345 @@
+{
+  "slug": "ticks-in-quebec",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "locale": "en-CA",
+  "keyword": "ticks in quebec",
+  "alsoTargets": [
+    "tick season quebec",
+    "lyme disease quebec",
+    "are there ticks in quebec"
+  ],
+  "metaTitle": "Ticks in Quebec: Lyme Risk Areas, Cases, Season",
+  "metaDescription": "Quebec reported 1,021 Lyme disease cases in 2025. Which ticks live there, the 2026 risk zone, tick season by month and what to do after a bite.",
+  "h1": "Ticks in Quebec: Species, Lyme Risk Areas and Tick Season",
+  "dek": "Which ticks live in Quebec, where the province's widened 2026 Lyme disease zone lies, how many cases each region reports, when ticks are active month by month, and how to get a tick identified or treated after a bite.",
+  "breadcrumb": "Ticks in Quebec",
+  "excerpt": "Quebec's ticks and Lyme disease: species photos, the widened 2026 risk zone, cases by year and region, tick season by month in Celsius, and what to do after a bite.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-province",
+    "name": "Ticks by Province"
+  },
+  "quickAnswer": {
+    "lead": "**Yes. Quebec has about a dozen tick species, and the blacklegged tick, the only one that spreads Lyme disease there, is established in parts of every region except four in the north.** [Quebec's health ministry](https://www.quebec.ca/sante/problemes-de-sante/a-z/maladie-de-lyme/professionnels/tableaux-cas-humains) counted 1,021 Lyme disease cases in 2025 and 850 from January 1 to October 10, 2026, most of them caught in Estrie and Montérégie.",
+    "bullets": [
+      "In 2025, 929 of the 1,021 cases (91%) were acquired in Quebec, against 66 of 125 (53%) in 2014, according to ministry figures.",
+      "Estrie reported nearly 56% of the cases acquired in Quebec in 2024, at an age-standardized rate about seven times the provincial rate, INSPQ says.",
+      "INSPQ widened its Lyme endemic zone in June 2026 to every municipality in Estrie, Montérégie and the Montreal region, plus Laval and 400 more in six regions (our count), so it cannot be compared with earlier maps.",
+      "PHAC says ticks can be active whenever it stays above freezing and the ground is bare; Quebec's March 2026 guide cites about 4 °C, with nymphs more active in spring and summer and adults in fall.",
+      "PHAC says an infected tick usually needs at least 24 hours attached to pass on Lyme disease, and Quebec's protocol allows one preventive antibiotic dose within 72 hours of removal for bites in listed areas.",
+      "eTick names a tick from a photo free of charge, and ticks sent to Quebec's public health lab are tested only for surveillance, without germ results going to patients or doctors."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Quebec at a glance",
+    "rows": [
+      ["Tick species found in Quebec", "About a dozen; only the blacklegged tick spreads Lyme disease (Quebec, March 2026)"],
+      ["Blacklegged ticks established", "Parts of every region except Côte-Nord, Nord-du-Québec, Nunavik and Terres-Cries-de-la-Baie-James"],
+      ["Reported Lyme disease cases", "1,021 in 2025 (counted November 3, 2025); 834 in 2024; 125 in 2014"],
+      ["Acquired in Quebec", "929 of 1,021 in 2025 (91%); 728 of 834 in 2024 (87%)"],
+      ["2026 so far", "850 cases from January 1 to October 10, 2026, 741 of them acquired in Quebec"],
+      ["Most affected region", "Estrie: 477 of the 929 cases acquired in Quebec in 2025"],
+      ["Lyme endemic zone (INSPQ, June 2026)", "All of Estrie, Montérégie, the Montreal region and Laval, plus 400 listed municipalities in six regions (our count); next update 2029"],
+      ["Ticks carrying the Lyme bacterium, 2024", "27% of those sent in from people and animals; about 13% of those collected in the field (INSPQ)"],
+      ["When ticks are active", "Whenever it stays above freezing with no snow on the ground (PHAC); from about 4 °C (Quebec, March 2026)"],
+      ["Free photo identification", "eTick, which aims to reply within 1 to 2 business days; no germ testing"],
+      ["Preventive antibiotic in Quebec", "One dose of doxycycline if bitten in a listed area, the tick was attached 24 hours or more and it came off within 72 hours (INESSS protocol, 2019)"],
+      ["Data through", "Cases: October 10, 2026 (MSSS, extracted October 13, 2026); tick surveillance: 2024 (INSPQ)"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Which ticks live in Quebec?" },
+    { "type": "p", "text": "About a dozen tick species have been found in Quebec, but only one spreads Lyme disease there: the blacklegged tick, *Ixodes scapularis*, also called the deer tick (*tique à pattes noires* in French). Birds carry ticks into almost every region, though not every tick carries the bacterium, says [Quebec's guide to Lyme disease](https://www.quebec.ca/en/health/health-issues/a-z/lyme-disease/about), updated in March 2026." },
+    { "type": "p", "text": "The ticks sent to Quebec's public health laboratory, the LSPQ, show which species people meet. Of the 747 it received in 2024, 585 (78%) were blacklegged ticks, 84 (11%) groundhog ticks and 30 (4%) American dog ticks, according to [INSPQ's 2024 surveillance results](https://www.inspq.qc.ca/zoonoses/tiques/surveillance/2024) (in French); 522 of the blacklegged ticks had bitten a person or an animal in Quebec." },
+    {
+      "type": "table",
+      "head": ["Tick", "Ticks sent to Quebec's lab, 2024", "Where PHAC says it lives", "What PHAC says it can spread"],
+      "rows": [
+        ["Blacklegged (deer) tick, *Ixodes scapularis*", "585 of 747", "Established in southern Quebec", "Lyme disease, anaplasmosis, babesiosis, Powassan virus disease, *Borrelia miyamotoi* disease"],
+        ["Groundhog tick, *Ixodes cookei*", "84", "Established in south-central and southeastern Canada", "Powassan virus disease"],
+        ["American dog tick, *Dermacentor variabilis*", "30", "Established in parts of south-central and southeastern Canada", "Tularemia, Rocky Mountain spotted fever"],
+        ["Squirrel tick, *Ixodes marxi*", "5", "Found in southern Quebec", "Powassan virus disease"],
+        ["Lone star tick, *Amblyomma americanum*", "4, plus 12 *Amblyomma* ticks not identified to species", "Found in southern Quebec; not listed as established anywhere in Canada", "Tularemia, ehrlichiosis, Bourbon and Heartland virus diseases; bites linked to alpha-gal syndrome"]
+      ],
+      "caption": "Counts: [INSPQ, 2024 surveillance results](https://www.inspq.qc.ca/zoonoses/tiques/surveillance/2024); the rest included ticks not identified to species and a few others, such as winter, mouse and rabbit ticks, and not every tick was picked up in Quebec. Range and diseases: [PHAC, Ticks in Canada](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html), August 2026."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-female.webp",
+      "width": 1200,
+      "height": 775,
+      "alt": "Adult female blacklegged tick seen from above on a green grass blade, with a reddish-orange body behind a small dark shield and long dark legs",
+      "caption": "Adult female blacklegged (deer) tick, the only tick Quebec links to Lyme disease. Unfed adults are about the size of a sesame seed.",
+      "credit": "CDC/ Michael L. Levin, PhD; photo: Jim Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1669"
+    },
+    { "type": "p", "text": "Size is the first clue. Quebec says unfed ticks measure 1 to 3 mm and can triple in volume once full of blood; a nymph is about the size of a poppy seed and an adult about the size of a sesame seed. To tell a blacklegged tick from the bigger American dog tick, see [our deer tick and dog tick comparison](/blog/deer-tick-vs-dog-tick-canada)." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a grass blade, a flat reddish-brown body with a cream-coloured mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick, recognizable by the pale, mottled shield behind its head. PHAC lists it as a carrier of tularemia and Rocky Mountain spotted fever, not Lyme disease.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/groundhog-tick.webp",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Engorged female groundhog tick on a wooden surface, its swollen body pale grey, with a small dark brown shield and reddish-brown legs",
+      "caption": "An engorged female groundhog tick, the second most common tick sent to Quebec's lab in 2024 (84 of 747). PHAC lists it as a carrier of Powassan virus.",
+      "credit": "(c) adamfritz, some rights reserved (CC BY), via iNaturalist",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://www.inaturalist.org/observations/168811425"
+    },
+    { "type": "p", "text": "PHAC says lone star ticks have been found in southern Quebec but does not list them as established anywhere in Canada; ticks from outside the country arrive on migrating birds and deer. Their bites are linked to alpha-gal syndrome, a red meat allergy that [our lone star tick guide](/blog/lone-star-tick-alpha-gal-canada) explains." },
+
+    { "type": "h2", "text": "Where are Quebec's Lyme disease risk areas?" },
+    { "type": "p", "text": "Quebec marks risk by municipality. INSPQ, the province's public health institute, lists the municipalities in its Lyme disease endemic zone, and preventive antibiotics after a bite can be offered in the same zone, plus any sectors that regional public health departments add, according to [INSPQ's endemic-zone page](https://www.inspq.qc.ca/zoonoses/tiques/zone-d-endemicite-maladie-de-lyme) (in French)." },
+    { "type": "p", "text": "The 2026 list is wider than earlier ones and should not be compared with them. In June 2026, INSPQ widened the definition of the zone, and a municipality now qualifies in any of three ways, according to the [2026 municipal list](https://www.inspq.qc.ca/sites/default/files/2026-06/Liste_Lyme.pdf) (in French):" },
+    {
+      "type": "ul",
+      "items": [
+        "**Surveillance shows a significant risk:** at least three locally acquired human cases, or at least 23 submissions of blacklegged ticks removed from people, in five years; or field sampling that finds all three life stages, or at least six ticks of one stage, in a year, with at least one infected nymph or adult.",
+        "**It lies within 50 km** of a significant-risk municipality.",
+        "**Its climate suits the tick:** at least 2,800 degree-days above 0 °C (a running total of daily warmth) for three years in a row, where the habitat favours it."
+      ]
+    },
+    { "type": "p", "text": "The result, as of June 2026: every municipality in Estrie, Montérégie and the Montreal region is in the zone, as is Laval, along with 400 listed municipalities in six other regions, by our count: Mauricie and Centre-du-Québec (119), Laurentides (79), Outaouais (70, including Gatineau), Lanaudière (62), Chaudière-Appalaches (54) and the Portneuf area of Capitale-Nationale (16). Quebec City and Lévis are not on the list. Another 11 sectors in Lanaudière and the Laurentides lie outside the zone but have been added for preventive treatment." },
+    { "type": "callout", "tone": "note", "title": "What changed in 2026", "text": "INSPQ widened the zone in June 2026 and plans to keep the new map and list unchanged until the next update in 2029. A municipality that joined the zone this year met the new rules; that alone does not mean it gained ticks." },
+    { "type": "p", "text": "The zone has grown by definition as well as by ticks. It held 117 municipalities in 2023; for 2024, a new definition added 296 and new surveillance data 48 more, according to [INSPQ's 2023 surveillance results](https://www.inspq.qc.ca/zoonoses/tiques/surveillance/2023) (in French), and by 2025 it held 511 ([2024 results](https://www.inspq.qc.ca/zoonoses/tiques/surveillance/2024)). Because the zone is also used to classify reported cases, INSPQ says the 2023 change probably overstated 2024's rise in cases." },
+    { "type": "p", "text": "PHAC's national map of [2025 risk areas](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/prevention-lyme-disease.html) predates the widening; in Quebec it covers Montérégie, Montreal, Laval, large parts of Estrie and of Mauricie and Centre-du-Québec, and parts of the Outaouais, Lanaudière and the Laurentides. Outside any risk area, ticks and Lyme disease remain possible, INSPQ notes, because migrating birds can carry infected ticks there; and inside the zone, risk varies within a municipality." },
+    { "type": "p", "text": "Each province marks risk its own way, and our [Canadian tick map by province](/learn/ticks-by-province) compares them. Quebec's neighbours have their own guides: [the ticks found in Ontario](/blog/what-ticks-look-like-ontario), [ticks in New Brunswick](/blog/ticks-in-new-brunswick) and [ticks in Newfoundland and Labrador](/blog/ticks-in-newfoundland-and-labrador)." },
+
+    { "type": "h2", "text": "How many Lyme disease cases does Quebec report?" },
+    { "type": "p", "text": "[Quebec's health ministry (MSSS)](https://www.quebec.ca/sante/problemes-de-sante/a-z/maladie-de-lyme/professionnels/tableaux-cas-humains) (in French) counted 1,021 confirmed and probable cases in 2025, the first time its 2014 to 2025 series passed 1,000, up from 834 in 2024 and 125 in 2014; the count has risen every year since 2022. The 2025 figure comes from data extracted on November 3, 2025, so later reports are not in it." },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Quebec by year, 2014 to 2025",
+      "x": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
+      "series": [
+        { "name": "Confirmed and probable cases", "values": [125, 160, 177, 329, 304, 500, 274, 709, 586, 652, 834, 1021] }
+      ],
+      "yLabel": "Cases reported per year, including cases acquired outside Quebec",
+      "caption": "INSPQ says changes to the endemic zone definition in 2023 probably overstated the 2024 rise, because the zone is used to classify cases. The ministry's 2019 parts add to 506 against its published total of 500; the chart shows the total. As of October 10, 2026, 850 cases had been reported for 2026.",
+      "source": "[MSSS, Tableaux des cas humains de maladie de Lyme](https://www.quebec.ca/sante/problemes-de-sante/a-z/maladie-de-lyme/professionnels/tableaux-cas-humains) (in French), page updated October 13, 2026"
+    },
+    { "type": "p", "text": "Most cases are now caught close to home. In 2025, 929 of the 1,021 cases (91%) were acquired in Quebec, 73 outside it and 19 in an unknown place, against 66 of 125 (53%) acquired in Quebec in 2014. Cases acquired outside Quebec fell from 119 in 2019 to 10 in 2020, the first year of the COVID-19 pandemic, and local cases then rose to 650 in 2021." },
+    { "type": "p", "text": "Lyme disease has been reportable in Quebec since 2003, but Quebec says the true number of cases is probably higher because the disease can be hard to diagnose, and that milder winters, which let ticks survive and develop more easily, could partly explain the rise." },
+    { "type": "p", "text": "INSPQ put Quebec's 2024 rate at 8.18 cases per 100,000 person-years, up from 6.38 in 2023, and its table pairs that rate with the 728 cases acquired in the province. The [Public Health Agency of Canada (PHAC)](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html) counted the same 834 Quebec cases for 2024: about 14% of Canada's 5,809, third behind Ontario (2,369) and Nova Scotia (2,350)." },
+    { "type": "p", "text": "Most patients are diagnosed early: in 2024, 59% of the cases acquired in Quebec were caught at the localized stage, and 80% had the expanding rash called erythema migrans. Rates peaked in children under 15 and, more sharply, in adults aged 60 to 69, INSPQ reports." },
+    { "type": "h3", "text": "Which regions have the most cases?" },
+    { "type": "p", "text": "Estrie, by a wide margin, followed by Montérégie. In 2024, Estrie accounted for nearly 56% of the cases acquired in Quebec, at an age-standardized rate about seven times the provincial rate, according to [INSPQ](https://www.inspq.qc.ca/zoonoses/tiques/surveillance/2024) (in French). Its share is shrinking as other regions catch up: 51% in 2025 and 45% in 2026 to October 10, by our calculation. Cases are counted where the infection was probably acquired, not where the patient lives." },
+    {
+      "type": "table",
+      "head": ["Region where the infection was acquired", "2024", "2025", "2026, Jan. 1 to Oct. 10"],
+      "rows": [
+        ["Estrie", "406", "477", "336"],
+        ["Montérégie", "196", "218", "150"],
+        ["Montreal", "29", "60", "59"],
+        ["Outaouais", "7", "57", "59"],
+        ["Laurentides", "31", "35", "47"],
+        ["Mauricie and Centre-du-Québec", "29", "35", "41"],
+        ["Lanaudière", "19", "18", "19"],
+        ["Laval", "5", "17", "12"],
+        ["Other regions or region unknown", "6", "12", "18"],
+        ["All cases acquired in Quebec", "728", "929", "741"]
+      ],
+      "caption": "Confirmed and probable cases. Source: [MSSS](https://www.quebec.ca/sante/problemes-de-sante/a-z/maladie-de-lyme/professionnels/tableaux-cas-humains); 2024 and 2025 extracted November 3, 2025, 2026 extracted October 13, 2026. The second-last row is our calculation: cases acquired in Quebec minus the regions listed. The ministry's 2025 region rows total all 1,021 cases, so its unknown-region figure (93) is not used."
+    },
+    { "type": "p", "text": "Smaller regions are climbing fast: the Outaouais went from 7 cases in 2024 to 57 in 2025 and the Montreal region from 29 to 60, and each had reached 59 by October 10, 2026. As INSPQ cautions for 2024, counts move with the zone used to classify cases, not only with ticks." },
+    { "type": "callout", "tone": "note", "title": "This season, as of October 2026", "text": "Quebec reported 850 Lyme disease cases from January 1 to October 10, 2026, 741 of them acquired in the province, led by Estrie (336) and Montérégie (150), according to ministry data extracted October 13, 2026. Later reports are not included." },
+
+    { "type": "h2", "text": "How many Quebec ticks carry the Lyme bacterium?" },
+    { "type": "p", "text": "Between about 13% and 31% of the blacklegged ticks tested in 2023 and 2024, depending on the year and the method. INSPQ's surveillance tests two kinds: ticks that doctors (and, in some regions, veterinarians) send in after removing them from people or animals, and ticks that field teams collect from vegetation. The two measure different things, so compare them by year rather than averaging them." },
+    {
+      "type": "table",
+      "head": ["Year", "Ticks sent in from people and animals", "Ticks collected in the field", "Source"],
+      "rows": [
+        ["2023", "103 of 334 tested (31%)", "96 of 478 tested (just over 20%)", "[INSPQ, 2023 results](https://www.inspq.qc.ca/zoonoses/tiques/surveillance/2023)"],
+        ["2024", "108 of 403 tested (27%)", "31 of 243 tested (about 13%)", "[INSPQ, 2024 results](https://www.inspq.qc.ca/zoonoses/tiques/surveillance/2024)"]
+      ],
+      "caption": "Blacklegged ticks positive for *Borrelia burgdorferi*, the Lyme bacterium. Only ticks from people or animals with no travel in the two weeks before removal are tested. In 2024 the field ticks tested were mostly nymphs (208 of 243), and the sites sampled vary by year."
+    },
+    { "type": "p", "text": "The same ticks carry other germs less often. In 2024, 4% of the ticks tested from people and animals carried *Anaplasma phagocytophilum*, which causes anaplasmosis, one nymph carried *Babesia microti* and one adult *Borrelia miyamotoi*; among field ticks, about 6% carried the anaplasmosis germ and none carried *Babesia microti* or Powassan virus, INSPQ reports." },
+
+    { "type": "h2", "text": "When is tick season in Quebec?" },
+    { "type": "p", "text": "From spring to late fall, and on mild winter days when the ground is bare. [PHAC](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/prevention-lyme-disease.html) says ticks can be active whenever the temperature stays above freezing and there is no snow on the ground, and that people meet them most in spring, summer and fall. [Quebec's guide](https://www.quebec.ca/en/health/health-issues/a-z/lyme-disease/about), updated in March 2026, puts the start at about 4 °C and peak activity near 25 °C." },
+    { "type": "p", "text": "Life stages shift with the season: Quebec says nymphs, which often go unnoticed and stay attached longer, are more active in spring and summer, and adults in fall." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "An adult female blacklegged tick and a far smaller nymph on the pad of a person's index finger, showing how tiny the nymph stage is",
+      "caption": "An adult female blacklegged tick (left) and a nymph (right) on a fingertip. Nymphs, active in spring and summer, are the harder stage to spot.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    { "type": "p", "text": "Our table applies that guidance to [Montreal's 1991 to 2020 climate normals](https://climate.weather.gc.ca/climate_normals/results_1991_2020_e.html?searchType=stnProv&lstProvince=QC&txtCentralLatMin=0&txtCentralLatSec=0&txtCentralLongMin=0&txtCentralLongSec=0&climate_id=7025250&dispBack=0). Averages hide day-to-day swings, and other parts of Quebec run warmer or cooler." },
+    {
+      "type": "table",
+      "head": ["Month", "Average daily temperature, Montreal (°C)", "Average daily high (°C)", "What it means for ticks"],
+      "rows": [
+        ["January", "−9.2", "−5.0", "Snow on the ground (10 cm on average): little or no activity"],
+        ["February", "−8.0", "−3.4", "Deepest snow of the year (14 cm on average): little or no activity"],
+        ["March", "−2.0", "2.4", "Mostly frozen and snowy; a mild day on bare ground can bring ticks out"],
+        ["April", "6.2", "11.3", "Above 4 °C and the snow mostly gone: the season starts"],
+        ["May", "13.9", "19.4", "Nymphs active"],
+        ["June", "19.0", "24.2", "Highs near 25 °C, around peak activity; nymphs active"],
+        ["July", "21.7", "26.7", "Nymphs active through the warmest month"],
+        ["August", "20.6", "25.7", "Highs near 25 °C; ticks active"],
+        ["September", "16.0", "21.1", "Well above 4 °C; ticks active"],
+        ["October", "8.9", "13.2", "Fall: adults more active"],
+        ["November", "2.3", "6.1", "Above freezing but below 4 °C on average: adults out on milder days"],
+        ["December", "−5.0", "−1.2", "Snow returns (7 cm on average): activity mostly ends"]
+      ],
+      "caption": "Temperatures and average snow depth: Canadian Climate Normals 1991 to 2020, Montreal Trudeau airport, based on [Environment and Climate Change Canada data](https://climate.weather.gc.ca/climate_normals/results_1991_2020_e.html?searchType=stnProv&lstProvince=QC&txtCentralLatMin=0&txtCentralLatSec=0&txtCentralLongMin=0&txtCentralLongSec=0&climate_id=7025250&dispBack=0). Activity notes, our illustration, apply PHAC's guidance (active above freezing with no snow) and Quebec's (from about 4 °C, peak near 25 °C; nymphs in spring and summer, adults in fall) to these averages."
+    },
+
+    { "type": "h2", "text": "Which other tick-borne diseases occur in Quebec?" },
+    { "type": "p", "text": "Anaplasmosis is the next most common, while babesiosis and Powassan virus disease are rare but now acquired in the province. PHAC lists all three among the diseases the blacklegged tick can spread, and anaplasmosis has been a reportable disease in Quebec since 2019, according to [Quebec's Lyme disease guide](https://www.quebec.ca/en/health/health-issues/a-z/lyme-disease/about)." },
+    {
+      "type": "table",
+      "head": ["Disease", "2023", "2024"],
+      "rows": [
+        ["Anaplasmosis", "46 cases, 40 acquired in Quebec", "40 cases, 37 acquired in Quebec"],
+        ["Babesiosis", "3 cases, including the first acquired in Quebec", "2 cases, both acquired in Estrie"],
+        ["Powassan virus disease", "The first case acquired in Quebec", "2 cases, both acquired in Mauricie and Centre-du-Québec"]
+      ],
+      "caption": "Cases declared to public health in Quebec. Sources: INSPQ surveillance results for [2023](https://www.inspq.qc.ca/zoonoses/tiques/surveillance/2023) and [2024](https://www.inspq.qc.ca/zoonoses/tiques/surveillance/2024) (in French)."
+    },
+    { "type": "p", "text": "Anaplasmosis can be serious: of the 37 cases acquired in Quebec in 2024, 20 were hospitalized, 4 of them in intensive care, and one death was reported, INSPQ says. Both 2024 babesiosis patients were over 60, and both Powassan patients were over 50 and hospitalized." },
+    { "type": "p", "text": "No human *Borrelia miyamotoi* infections were recorded in 2024, though INSPQ found the germ in two ticks. Nationally, [PHAC's 2024 report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html) lists Quebec among the five provinces that reported babesiosis and, with Ontario, as one of only two that reported Powassan virus disease." },
+
+    { "type": "h2", "text": "How do you get a tick identified in Quebec?" },
+    { "type": "p", "text": "Send a photo to eTick, or bring the tick to a medical appointment. Neither route will tell you whether that tick was infected." },
+    { "type": "p", "text": "[eTick](https://www.etick.ca/en/content/faqs) identifies ticks from photos free of charge and aims to reply within one to two business days. Quebec describes it as run by Bishop's University with the provincial public health lab and PHAC; it gives the species and what to do next, not whether the tick is infected. If eTick asks for the tick by mail, mostly to confirm an identification, you pay the postage, and mailed ticks are not tested for Lyme disease." },
+    { "type": "p", "text": "The provincial lab works through clinicians: the LSPQ analyzes only ticks sent by a hospital microbiology laboratory, identifies the species within 10 working days and reports it to the doctor, according to its [tick analysis page](https://www.inspq.qc.ca/lspq/repertoire-des-analyses/maladie-de-lyme-analyse-des-tiques) (in French). Some blacklegged ticks are then tested for germs, for surveillance only; since 2019 those results have not gone to the patient's doctor, INSPQ says. [PHAC](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/removing-submitting-ticks-testing.html) adds that tick testing is not meant to guide diagnosis or treatment: you may have been bitten by a different tick, or the tick may not have been attached long enough to pass anything on." },
+    { "type": "p", "text": "For pets, the LSPQ accepts animal ticks only from veterinary clinics in eight regions: Bas-Saint-Laurent, Saguenay–Lac-Saint-Jean, Abitibi-Témiscamingue, Côte-Nord, Nord-du-Québec, Gaspésie–Îles-de-la-Madeleine, Nunavik and Terres-Cries-de-la-Baie-James. INSPQ says it has not received animal ticks from the ten southern regions since 2018; there, eTick can name a tick found on a pet from a photo." },
+    { "type": "p", "text": "Keep the tick until you know what it is: PHAC suggests a sealable bag or a container such as a pill bottle, with a note of the date, the part of the body bitten and where you were, and the LSPQ asks that it be kept in the refrigerator at 4 °C until the appointment. To discard a tick, PHAC suggests drowning it in rubbing alcohol or freezing it for several days." },
+
+    { "type": "h2", "text": "What should you do after a tick bite in Quebec?" },
+    { "type": "p", "text": "Remove the tick right away and note when and where you were bitten. PHAC says prompt removal reduces the chance of infection; its [tick removal steps](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/removing-submitting-ticks-testing.html), updated in July 2026, are:" },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick's head with clean, fine-point tweezers, as close to the skin as possible.",
+        "Pull slowly and straight out with firm traction, trying not to twist or squeeze the tick.",
+        "If the mouthparts break off in the skin, remove them with the tweezers; if they do not come out easily, leave them and let the skin heal.",
+        "Wash the bite with soap and water or an alcohol-based sanitizer."
+      ]
+    },
+    { "type": "p", "text": "Do not burn the tick or smother it with nail polish, nail polish remover, petroleum jelly or essential oils, which PHAC warns can make it release possibly infected stomach contents into the bite. See a health care provider as soon as possible if you cannot remove it or feel unwell afterwards. [Our tick removal guide](/blog/how-to-remove-tick-safely) shows the technique step by step." },
+    { "type": "h3", "text": "Can you get a preventive antibiotic in Quebec?" },
+    { "type": "p", "text": "Sometimes. PHAC says a health care provider can consider preventive treatment after a tick bite, without testing the tick. Quebec asks anyone bitten in Canada or the United States to keep the tick and call Info-Santé 811 or consult a pharmacist promptly, says its [Lyme disease guide](https://www.quebec.ca/en/health/health-issues/a-z/lyme-disease/about). A single preventive dose of doxycycline follows a 2019 protocol by [INESSS](https://www.inesss.qc.ca/en/themes/medicaments/medical-protocols-and-related-prescriptions/lyme-disease-pep.html), Quebec's health-care excellence institute, for people without symptoms who meet these conditions:" },
+    {
+      "type": "ul",
+      "items": [
+        "**Where you were bitten.** In a sector covered by preventive treatment, which in 2026 means INSPQ's endemic zone plus any sectors that regional public health has added.",
+        "**How long the tick was on.** It was attached for 24 hours or more.",
+        "**How long ago it came off.** No more than 72 hours have passed since it was removed.",
+        "**What it was.** It can be confirmed that it was a tick, and you have no signs of Lyme disease."
+      ]
+    },
+    { "type": "p", "text": "That 24-hour threshold matches PHAC's guidance that an infected tick usually needs to be attached for at least 24 hours to pass on the Lyme bacterium, with the risk rising the longer it stays on. A pharmacist or doctor decides whether the dose fits your case." },
+    { "type": "h3", "text": "Which symptoms should you watch for?" },
+    { "type": "p", "text": "An expanding rash, erythema migrans, is the most commonly reported sign. [PHAC's guidance for clinicians](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/health-professionals-lyme-disease.html) says it usually appears within 7 days of the bite, though anywhere from 3 to 30 days, and grows past 5 cm; it is usually painless and not itchy, often is not a bull's-eye and can look like a bruise on dark skin. Some people never get one, or miss it on a hard-to-see spot. Quebec's guide, updated in March 2026, puts the rash at 60% to 80% of infections." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Lyme disease rash in a bull's-eye pattern on the back of a person's upper arm: a red centre, a paler ring and a wide outer red ring",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, here in a bull's-eye pattern. PHAC notes that many of these rashes are not bull's-eyes.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    { "type": "p", "text": "A small red patch within a day of a bite can be a reaction to the bite itself: PHAC describes it as under 5 cm, not expanding and usually gone within 48 hours, and says a patch still there after 48 hours should be checked again." },
+    { "type": "p", "text": "Other early signs include fever, chills, fatigue, headache, swollen lymph nodes and muscle and joint aches. Days to months later, [PHAC](https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html) lists more rashes, severe headaches, pain that moves between joints and muscles, arthritis, nerve pain or numbness, facial drooping and heart palpitations among possible symptoms; [our guide to Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers each stage." },
+    {
+      "type": "table",
+      "head": ["What you need", "Where to go in Quebec", "What to expect, as of October 2026"],
+      "rows": [
+        ["Advice after a bite", "Info-Santé 811 or a pharmacist", "Call or consult promptly; a preventive antibiotic may be prescribed depending on the situation"],
+        ["A preventive antibiotic", "A pharmacist or doctor", "One dose of doxycycline if you meet the INESSS conditions above"],
+        ["The tick's species", "eTick, by photo", "Free; eTick aims to reply within 1 to 2 business days; no germ test"],
+        ["Lab identification", "Your doctor, through a hospital lab", "The species within 10 working days, sent to the doctor; germ results are not shared"],
+        ["A rash or other symptoms", "Info-Santé 811 or a doctor", "Go if a rash reaches 5 cm or lasts more than 48 hours, or other symptoms appear in the days to months after time outdoors"]
+      ],
+      "caption": "Sources: [Quebec's Lyme disease guide](https://www.quebec.ca/en/health/health-issues/a-z/lyme-disease/about), [INESSS](https://www.inesss.qc.ca/en/themes/medicaments/medical-protocols-and-related-prescriptions/lyme-disease-pep.html), [eTick](https://www.etick.ca/en/content/faqs) and the [LSPQ](https://www.inspq.qc.ca/lspq/repertoire-des-analyses/maladie-de-lyme-analyse-des-tiques)."
+    },
+    { "type": "callout", "tone": "warning", "title": "See a health care provider if you feel unwell", "text": "PHAC says to see a health care provider right away if symptoms of Lyme disease follow a tick bite, and to say where the tick was attached, for how long and where you were bitten. This page summarizes what public health agencies publish and is not a diagnosis." },
+
+    { "type": "h2", "text": "How do you prevent tick bites in Quebec?" },
+    { "type": "p", "text": "Cover up, use a repellent, keep to cleared paths and check yourself as soon as you come in. [PHAC's advice on preventing tick bites](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/prevent-tick-bites.html), updated in September 2025:" },
+    {
+      "type": "ul",
+      "items": [
+        "**Before you go.** Wear closed-toe shoes and light-coloured long sleeves and pants, with your shirt tucked into your pants and your pants into your socks, wear permethrin-treated clothing, and put a DEET or icaridin repellent on clothing and exposed skin, following the label.",
+        "**On the trail.** Keep to cleared paths, keep children and pets on them, and avoid deer and moose trails, where ticks are often found on the plants alongside.",
+        "**Before going inside.** Check yourself, your clothing, your gear such as backpacks, and your pets.",
+        "**Indoors.** Do a full-body tick check on yourself and on children, shower as soon as possible to help wash off unattached ticks, and remove any attached tick right away.",
+        "**Laundry.** Dry clothes on high heat for at least 10 minutes, longer if damp, or wash them in hot water and dry them on high heat; ticks can survive a cold-warm wash."
+      ]
+    },
+    { "type": "p", "text": "Read the repellent label for ages. [Health Canada](https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html) puts the right DEET concentration at up to 30% for adults and children over 12, and up to 10% for children aged 2 to 12 (up to three applications a day) and 6 months to 2 years (once a day); babies under 6 months should not get DEET or icaridin. Products with oil of lemon eucalyptus or PMD are not for children under 3, permethrin-treated clothing is not available for children under 16, and a product that repels mosquitoes may not work on ticks. During pregnancy, PHAC says repellents containing DEET or icaridin and permethrin-treated clothing can be used, following the label." },
+    { "type": "p", "text": "Ticks cannot survive long in dry, sunny spots, so PHAC suggests mowing often; clearing leaf piles, brush, long grass and weeds from lawn edges, stone walls and woodpiles; pruning shrubs and trees to let sunlight through; and laying a wood-chip, mulch or gravel border at least 1 m wide between the lawn and shrubs, stone walls or woods." },
+    { "type": "p", "text": "Pets that go outdoors can carry ticks into the yard and home, so ask a veterinarian about tick prevention for them, as PHAC suggests. The same clothing and repellent habits help against mosquitoes too; see [mosquitoes in Quebec](/blog/mosquitoes-in-quebec)." }
+  ],
+  "faqs": [
+    {
+      "question": "Are there ticks in Montreal?",
+      "answer": "Yes. As of June 2026, every municipality in the Montreal region is in INSPQ's Lyme disease endemic zone, and Quebec's health ministry counted 60 cases acquired in the region in 2025 and 59 from January 1 to October 10, 2026. Blacklegged ticks live mainly in wooded areas, tall grass, gardens, landscaping and piles of dead leaves, and INSPQ notes that risk varies within a municipality, so it depends on where in the city you spend time. Check yourself after time in green spaces."
+    },
+    {
+      "question": "Is Quebec City in the Lyme disease risk zone?",
+      "answer": "Not as of October 2026. Quebec City and Lévis are not on INSPQ's 2026 list of endemic municipalities, although 16 municipalities in the Portneuf area, west of the city, are. Blacklegged ticks can still turn up outside the zone because migrating birds carry them, and INSPQ says Lyme disease remains possible there. If a tick bites you, remove it promptly, note where you were and call Info-Santé 811 for advice."
+    },
+    {
+      "question": "When is tick season in Quebec?",
+      "answer": "Ticks can be active whenever the temperature stays above freezing and the ground is free of snow, PHAC says, so the main season runs from spring to late fall. Quebec's guide, updated in March 2026, cites about 4 °C as the point where ticks become active and about 25 °C as their most active. Nymphs, the size of a poppy seed, are more active in spring and summer, and adults in fall. In Montreal, average daily temperatures pass 4 °C in April and drop below it in November."
+    },
+    {
+      "question": "How long does a tick have to be attached to pass on Lyme disease?",
+      "answer": "PHAC says that in most cases an infected tick needs to be attached for at least 24 hours to pass on the bacterium that causes Lyme disease, and that the risk rises the longer it stays attached, which is why prompt removal matters. Quebec's protocol for a single preventive dose of doxycycline applies only when the tick was attached for 24 hours or more, came off no more than 72 hours earlier and bit you in a listed area."
+    },
+    {
+      "question": "Does Quebec test ticks for Lyme disease?",
+      "answer": "Only for surveillance. A tick your doctor sends to the provincial public health laboratory through a hospital lab is identified to species within 10 working days, and some blacklegged ticks are tested for germs, but since 2019 those results have not been sent to the patient's doctor. eTick identifies ticks from photos free of charge but does not test them. PHAC says tick testing is not meant to guide diagnosis or treatment, and that a provider can consider preventive treatment without it."
+    },
+    {
+      "question": "Can dogs get Lyme disease in Quebec?",
+      "answer": "Yes. Quebec's guide notes that Lyme disease affects animals as well as people, although an infected animal cannot pass it to a person. Pets that go outdoors can carry ticks into the yard and home, so PHAC suggests checking pets before going indoors and asking a veterinarian about tick prevention. Quebec's public health lab accepts ticks from animals only through veterinary clinics in eight northern and eastern regions; elsewhere, a photo sent to eTick will name the species."
+    }
+  ],
+  "sources": [
+    { "title": "Tableaux des cas humains de maladie de Lyme (in French)", "publisher": "Ministère de la Santé et des Services sociaux (MSSS), Gouvernement du Québec", "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/maladie-de-lyme/professionnels/tableaux-cas-humains" },
+    { "title": "About Lyme disease and other tick-borne illnesses", "publisher": "Gouvernement du Québec", "url": "https://www.quebec.ca/en/health/health-issues/a-z/lyme-disease/about" },
+    { "title": "Résultats annuels de surveillance des maladies transmises par les tiques : 2024 (in French)", "publisher": "Institut national de santé publique du Québec (INSPQ)", "url": "https://www.inspq.qc.ca/zoonoses/tiques/surveillance/2024" },
+    { "title": "Résultats annuels de surveillance des maladies transmises par les tiques : 2023 (in French)", "publisher": "Institut national de santé publique du Québec (INSPQ)", "url": "https://www.inspq.qc.ca/zoonoses/tiques/surveillance/2023" },
+    { "title": "Zone d'endémicité de la maladie de Lyme au Québec et des secteurs visés par la prophylaxie postexposition (in French)", "publisher": "Institut national de santé publique du Québec (INSPQ)", "url": "https://www.inspq.qc.ca/zoonoses/tiques/zone-d-endemicite-maladie-de-lyme" },
+    { "title": "Liste des municipalités situées dans la zone d'endémicité de la maladie de Lyme au Québec et des secteurs visés par la prophylaxie postexposition (PPE), juin 2026 (in French)", "publisher": "Institut national de santé publique du Québec (INSPQ)", "url": "https://www.inspq.qc.ca/sites/default/files/2026-06/Liste_Lyme.pdf" },
+    { "title": "Analyse des tiques au Laboratoire de santé publique du Québec (in French)", "publisher": "INSPQ, Laboratoire de santé publique du Québec (LSPQ)", "url": "https://www.inspq.qc.ca/lspq/repertoire-des-analyses/maladie-de-lyme-analyse-des-tiques" },
+    { "title": "eTick: Frequently asked questions", "publisher": "eTick.ca (public tick identification platform; Bishop's University and partners)", "url": "https://www.etick.ca/en/content/faqs" },
+    { "title": "Ticks in Canada", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html" },
+    { "title": "Annual report: Tick-borne disease surveillance in Canada (2024 data)", "publisher": "Public Health Agency of Canada, Health Infobase", "url": "https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" },
+    { "title": "Lyme disease: Symptoms and treatment", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" },
+    { "title": "Lyme disease: For health professionals", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/health-professionals-lyme-disease.html" },
+    { "title": "Lyme disease: Spread, prevention and risks", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/prevention-lyme-disease.html" },
+    { "title": "Lyme disease: How to remove a tick", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/removing-submitting-ticks-testing.html" },
+    { "title": "How to prevent tick bites", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/prevent-tick-bites.html" },
+    { "title": "Insect repellents", "publisher": "Health Canada", "url": "https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html" },
+    { "title": "Lyme Disease - PEP (national medical protocol and supporting documents)", "publisher": "Institut national d'excellence en santé et en services sociaux (INESSS), Quebec", "url": "https://www.inesss.qc.ca/en/themes/medicaments/medical-protocols-and-related-prescriptions/lyme-disease-pep.html", "kind": "government" },
+    { "title": "Canadian Climate Normals 1991-2020: Montreal Trudeau (Airport)", "publisher": "Environment and Climate Change Canada", "url": "https://climate.weather.gc.ca/climate_normals/results_1991_2020_e.html?searchType=stnProv&lstProvince=QC&txtCentralLatMin=0&txtCentralLatSec=0&txtCentralLongMin=0&txtCentralLongSec=0&climate_id=7025250&dispBack=0" }
+  ],
+  "disclaimer": "both"
+}
