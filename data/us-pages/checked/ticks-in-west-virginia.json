@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-west-virginia",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "3342b2002962b45bb1712c3b0f549776867296acf6f08fc56f0d730983e6bd83",
+ "claimsChecked": 370,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-10-15"
+}

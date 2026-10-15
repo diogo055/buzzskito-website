@@ -37,8 +37,9 @@ citing it. Licence lines are what each source asks for.
 - ON: Public Health Ontario's tool only. **PHO terms: personal non-commercial use; adapting
   needs written permission. Do not redraw PHO maps.** (Ontario links to our existing pages.)
 - MB: "established throughout much of southern Manitoba". SK: none established, risk "very low,
-  not zero"; ~95% of submitted ticks are American dog ticks. AB: 1,332 Alberta-acquired ticks to
-  end of 2025, 167 Ixodes, 20 of 100 tested positive; 184 Lyme cases 1991-2023, all acquired
+  not zero"; ~95% of submitted ticks are American dog ticks. AB: 1,332 Alberta-acquired ticks in
+  2025 alone (corrected Oct 15: these are 2025 figures, not totals; the yearly series runs from
+  1,729 in 2016), 167 Ixodes, 20 of 100 tested positive; 184 Lyme cases 1991-2023, all acquired
   outside Alberta. NL: not endemic; 12 travel cases 1996-2023. PEI: page behind a check; "low
   risk"; eTick 2025: 76 submissions, 51 I. scapularis.
 
