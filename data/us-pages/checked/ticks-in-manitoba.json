@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-manitoba",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "d7697f0d006dd0b381422a32448ff209539e2dffc66fbe8255ef19b930445f6c",
+ "claimsChecked": 500,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-15"
+}

@@ -1,0 +1,331 @@
+{
+  "slug": "ticks-in-manitoba",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "locale": "en-CA",
+  "keyword": "ticks in manitoba",
+  "alsoTargets": [
+    "tick season manitoba",
+    "lyme disease manitoba",
+    "are there ticks in manitoba"
+  ],
+  "metaTitle": "Ticks in Manitoba: Lyme Risk, Season and Species",
+  "metaDescription": "Deer ticks are established across much of southern Manitoba, and Lyme cases reached 135 in 2025. Tick photos, risk areas, the season and what to do.",
+  "h1": "Ticks in Manitoba: Species, Lyme Risk Areas and Tick Season",
+  "dek": "Which ticks Manitobans meet, where the province says blacklegged ticks are established, Lyme disease cases by year, when ticks are active month by month, and what to do with a tick or a bite.",
+  "breadcrumb": "Ticks in Manitoba",
+  "excerpt": "Wood ticks are the ticks most Manitobans find, but Lyme-carrying deer ticks are established across much of the south. Cases by year, risk areas, the season and what to do.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-province",
+    "name": "Ticks by Province"
+  },
+  "quickAnswer": {
+    "lead": "**Yes. Several tick species live in Manitoba, and the blacklegged (deer) tick, which spreads Lyme disease, is established throughout much of southern Manitoba, south of the 53rd parallel.** The province counted 135 confirmed and probable Lyme disease cases in 2025, up from 84 in 2024, according to [Manitoba Health](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/index.html). The tick most Manitobans find is the larger wood tick, which does not spread Lyme disease.",
+    "bullets": [
+      "Manitoba's Lyme count more than tripled in three years, from 43 cases in 2022 to 135 in 2025 (provincial figures dated June 1, 2026, and subject to change).",
+      "Blacklegged ticks are active from April to November, and May to July is the highest-risk period for Lyme disease, when their nymphs peak.",
+      "In the province's 2018 tick surveillance, wood ticks, properly American dog ticks, turned up mostly in May and June and rarely after July.",
+      "For preventive antibiotics, Manitoba counts anywhere south of the 53rd parallel with suitable tick habitat as a risk area, and PHAC's 2025 risk-area list includes Winnipeg and Brandon.",
+      "eTick, which Manitoba adopted in April 2021, names a tick from a photo free of charge; it does not test ticks for Lyme disease.",
+      "The blacklegged tick also spreads anaplasmosis and babesiosis; Manitoba reported 4 and 2 cases of them in 2024."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Manitoba at a glance",
+    "rows": [
+      ["Tick that spreads disease to people", "Only the blacklegged (deer) tick, *Ixodes scapularis*, according to Manitoba Health"],
+      ["Most common tick", "American dog tick (wood tick): 289 of 540 tick submissions in 2018, the latest annual report"],
+      ["Where blacklegged ticks are established", "Much of southern Manitoba, south of the 53rd parallel, wherever suitable habitat is found (as of October 2026)"],
+      ["Lyme disease cases, 2025", "135 (120 confirmed, 15 probable), in a table dated June 1, 2026"],
+      ["Lyme disease cases, 2024", "84 (77 confirmed, 7 probable); PHAC also reports 84"],
+      ["Anaplasmosis and babesiosis, 2024", "4 anaplasmosis cases and 2 babesiosis cases"],
+      ["Blacklegged ticks carrying the Lyme bacterium", "30.3% of 119 collected in the field in 2021 (PHAC); 20.7% of 145 sent in by the public in 2018 (minimum rate)"],
+      ["Tick season", "April to November; highest risk May to July, when nymphs peak"],
+      ["Risk area for preventive antibiotics", "Southern Manitoba, south of the 53rd parallel, with suitable tick habitat"],
+      ["Tick identification", "eTick photo service since April 2021: free, aims to reply in 1 to 2 business days, does not test ticks for Lyme disease"],
+      ["Advice by phone", "Health Links–Info Santé, 204-788-8200 or 1-888-315-9257"],
+      ["Data through", "Lyme cases: 2025 (no 2026 figures as of October 2026)"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Which ticks live in Manitoba?" },
+    { "type": "p", "text": "Several species turn up, but two account for almost every tick Manitobans find: the American dog tick, often called the wood tick, and the blacklegged tick, also called the deer tick. [Manitoba Health's tick-borne disease page](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/index.html) says the blacklegged tick is the only species that spreads tick-borne diseases to people in the province, and that the more common wood tick is not an effective carrier of disease-causing germs there." },
+    { "type": "p", "text": "The province's last annual surveillance report shows the balance. Of 540 tick submissions Manitoba received in 2018, 289 were American dog ticks and 175 were blacklegged ticks, according to the [Manitoba Annual Tick-Borne Disease Report 2018](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/docs/tbd_report2018.pdf)." },
+    {
+      "type": "table",
+      "head": ["Tick", "In Manitoba", "What it can spread"],
+      "rows": [
+        ["American dog tick (wood tick), *Dermacentor variabilis*", "The most common tick: 289 submissions in 2018", "Not Lyme disease, anaplasmosis or babesiosis, Manitoba says; PHAC says it can spread tularemia and Rocky Mountain spotted fever"],
+        ["Blacklegged (deer) tick, *Ixodes scapularis*", "Established throughout much of southern Manitoba; 175 submissions in 2018", "Lyme disease, anaplasmosis and babesiosis, the province's three reportable tick-borne diseases; PHAC adds Powassan virus disease and *Borrelia miyamotoi* disease"],
+        ["Lone star tick, *Amblyomma americanum*", "One submission in 2018; PHAC lists it as found, not established, in southern Manitoba", "Tularemia, ehrlichiosis and two viral diseases; bites are linked to alpha-gal syndrome, a red meat allergy (PHAC)"],
+        ["Groundhog tick, *Ixodes cookei*", "One submission in 2018", "Powassan virus disease (PHAC)"],
+        ["Brown dog tick, *Rhipicephalus sanguineus*", "Three submissions in 2018; PHAC says that in Canada it has been reported in kennels and indoor places with dogs, not in natural outdoor settings", "Rocky Mountain spotted fever (PHAC)"]
+      ],
+      "caption": "Manitoba: [Manitoba Health](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/index.html) and its [2018 surveillance report](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/docs/tbd_report2018.pdf), the latest annual report. Diseases: [PHAC's guide to ticks in Canada](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a green blade of grass, with a reddish-brown body, a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick, the wood tick Manitobans find most often. Manitoba Health says the white markings on its back set it apart from a blacklegged tick.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    { "type": "p", "text": "Manitoba says wood ticks do not transmit the germs behind anaplasmosis, babesiosis or Lyme disease. Nationally, [PHAC's guide to ticks in Canada](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html) lists the American dog tick as established in parts of south-central and southeastern Canada and able to transmit the bacteria behind tularemia and Rocky Mountain spotted fever. For its size, markings and habits, see [our American dog tick identification guide](/blog/american-dog-tick-canada)." },
+
+    { "type": "h2", "text": "How can you tell a wood tick from a deer tick?" },
+    { "type": "p", "text": "By size and markings. [Manitoba's guide to blacklegged ticks](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/about.html) says an unfed adult female blacklegged tick is about 3 to 5 mm long and bright red and dark brown, while adult males are smaller and uniformly dark brown. Adult blacklegged ticks are smaller than American dog ticks, and dog ticks have white markings on their backs that blacklegged ticks lack." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-female.webp",
+      "width": 1200,
+      "height": 775,
+      "alt": "Adult female blacklegged tick on a green leaf against a blue background, with a dark brown shield behind the head, black legs and a reddish-orange body",
+      "caption": "Adult female blacklegged (deer) tick: a plain dark shield, dark legs and a reddish body, with no white markings.",
+      "credit": "CDC/ Michael L. Levin, PhD; photo: Jim Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1669"
+    },
+    { "type": "p", "text": "The young stages are harder to spot. Blacklegged ticks pass through larva, nymph and adult stages, and unfed larvae and nymphs are light in colour and very difficult to see, the province says. It adds that larvae do not pass on Lyme disease, anaplasmosis or babesiosis, because they must first pick up the germs by feeding on an infected animal; nymphs and adults can." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "An adult female blacklegged tick and a much smaller nymph crawling on the tip of a person's index finger, tiny against the fingerprint ridges",
+      "caption": "A blacklegged tick adult female (left) and nymph (right) on a fingertip. Nymphs peak from May to July, Manitoba's highest-risk months.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    { "type": "p", "text": "Feeding changes a tick's shape too. Blacklegged ticks drink blood slowly over a period of days, and their bodies expand as they fill, so a swollen, engorged tick can look very different from an unfed one. When in doubt, send a photo to eTick (see below), or compare the two species side by side in [our guide to telling a deer tick from a dog tick](/blog/deer-tick-vs-dog-tick-canada)." },
+
+    { "type": "h2", "text": "Where are blacklegged ticks established in Manitoba?" },
+    { "type": "p", "text": "Across much of the south. [Manitoba Health's surveillance page](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/surveillance.html) says the range of blacklegged ticks continues to expand and that they are now established throughout much of southern Manitoba, south of the 53rd parallel, wherever suitable tick habitat is found. [PHAC's description of the 2025 risk areas](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/prevention-lyme-disease.html) matches it: risk areas run across Manitoba wherever there is suitable habitat below the 53rd parallel, and along the western Ontario border." },
+    { "type": "p", "text": "Habitat decides where you meet them. The province says blacklegged ticks are most often found in and along the edges of woods and forests, especially of leaf-shedding trees, and in thick, woody shrubs with high humidity. They are much less likely in open grassland, farmland, bogs, wetlands and very dry areas. Treed riverbanks can carry ticks into otherwise unsuitable prairie, and shelter belts around farmsteads can also hold them, [the province's blacklegged tick guide](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/about.html) adds." },
+    { "type": "p", "text": "PHAC's 2025 list of Lyme disease risk areas, which you can search on the same page by municipality or by the first three characters of a postal code, has 61 entries with Manitoba postal codes, by our count. They include Winnipeg, Brandon, Portage la Prairie, Selkirk, Dauphin, Morden, Winkler and Pinawa. For preventive antibiotics, though, the province's rule is broader than any list: anywhere in southern Manitoba, south of the 53rd parallel, with suitable habitat." },
+    { "type": "p", "text": "North of that line the chance is small but not zero. Ticks can attach to migrating birds and be carried long distances, so blacklegged ticks can turn up outside southern Manitoba, but the province says the disease risk there is relatively low. To see how Manitoba compares with the rest of the country, read [our guide to ticks and Lyme risk areas province by province](/learn/ticks-by-province)." },
+    { "type": "h3", "text": "How quickly did the tick spread?" },
+    { "type": "p", "text": "In about twelve years. When Manitoba began field surveys for risk areas in 2006, it found only one, in the extreme southeast corner of the province, the surveillance page says. By 2018, risk areas stretched across most of southern Manitoba, from the Ontario border to the Saskatchewan border and from the US border to north of Swan River, according to the [2018 report](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/docs/tbd_report2018.pdf). The surveys ended in 2018. The province has collected ticks reported by the public since 1995, and since April 2021 those reports come in as eTick photos." },
+
+    { "type": "h2", "text": "When is tick season in Manitoba?" },
+    { "type": "p", "text": "From April to November, with the highest risk from May to July. [Manitoba's blacklegged tick guide](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/about.html) says people can meet blacklegged ticks from April through November, with nymphs active in late spring and early summer and adults in spring and fall, and that the ticks stay active until the first permanent snowfall or until air temperatures stay below 4 °C. [Manitoba's Lyme disease page](https://www.gov.mb.ca/health/publichealth/diseases/lyme.html) puts the highest-risk period at May to July, when nymphs peak." },
+    { "type": "p", "text": "Wood ticks keep a shorter calendar. In the province's 2018 surveillance, American dog tick submissions came almost entirely from May to July and peaked in May and June, while blacklegged tick submissions rose in spring and again in October, a month-by-month chart in the [2018 report](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/docs/tbd_report2018.pdf) shows. Nearly 60% of that year's blacklegged ticks came in May and June, though fall has historically been their bigger peak." },
+    {
+      "type": "table",
+      "head": ["Month", "Winnipeg average daily temperature, 1991–2020", "Blacklegged (deer) ticks", "American dog (wood) ticks"],
+      "rows": [
+        ["January to March", "−16.3 °C to −6.1 °C", "Inactive under snow", "Inactive"],
+        ["April", "3.8 °C", "Season opens; adults active", "A few"],
+        ["May", "11.1 °C", "Adults and nymphs; highest-risk period begins", "Peak"],
+        ["June", "17.1 °C", "Nymphs active; highest-risk period", "Peak"],
+        ["July", "19.5 °C", "Nymphs active; highest-risk period ends", "Fewer"],
+        ["August", "18.7 °C", "Few found", "Rare"],
+        ["September", "13.3 °C", "Adults return", "Rarely found"],
+        ["October", "5.1 °C", "Adults' fall peak", "Rarely found"],
+        ["November", "−4.4 °C", "Active until lasting snow, or until temperatures stay below 4 °C", "Rarely found"],
+        ["December", "−12.7 °C", "Inactive", "Inactive"]
+      ],
+      "caption": "Temperatures: [Environment and Climate Change Canada, Canadian Climate Normals 1991–2020](https://climate.weather.gc.ca/climate_normals/results_1991_2020_e.html?searchType=stnName_1991&txtStationName_1991=Winnipeg&searchMethod=contains&txtCentralLatMin=0&txtCentralLatSec=0&txtCentralLongMin=0&txtCentralLongSec=0&climate_id=5023222&dispBack=1), Winnipeg Richardson (Airport), daily average for each month; based on Environment and Climate Change Canada data. Tick activity: Manitoba Health and the province's 2018 report, which counts ticks by month of collection, a measure that also reflects when people are outdoors."
+    },
+    { "type": "p", "text": "Winnipeg's average daily temperature is 3.8 °C in April and 5.1 °C in October, close to the 4 °C mark the province uses, and below freezing from November through March. [PHAC](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html) notes that ticks can be active whenever the temperature stays above freezing and the ground is free of snow, so a mild spell can bring them out early or late. Mosquitoes keep their own calendar; see [when mosquitoes peak in Manitoba](/blog/mosquitoes-in-manitoba)." },
+
+    { "type": "h2", "text": "How many Lyme disease cases does Manitoba have?" },
+    { "type": "p", "text": "Manitoba reported 135 confirmed and probable Lyme disease cases in 2025, up from 84 in 2024 and 58 in 2023, according to [Manitoba Health's case table](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/index.html), dated June 1, 2026. The 2023 and 2024 totals match the [Public Health Agency of Canada's annual report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html), which runs to 2024. For 2025, PHAC's [Lyme disease monitoring page](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html) gives only a preliminary national total, 7,105 cases." },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Manitoba, 2017 to 2025",
+      "x": ["2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
+      "series": [
+        { "name": "Confirmed", "values": [34, 29, 58, 42, 24, 33, 47, 77, 120] },
+        { "name": "Probable", "values": [13, 25, 1, 3, 19, 10, 11, 7, 15] }
+      ],
+      "yLabel": "Confirmed and probable cases reported per year",
+      "caption": "Counts include Manitobans infected while travelling, and the province notes they are subject to change. PHAC revised the national case definition in 2016 and 2024. PHAC's annual report shows the same totals for 2023 (58) and 2024 (84). Data through December 31, 2025.",
+      "source": "[Manitoba Health, reported cases of Lyme disease in Manitoba](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/index.html), table dated June 1, 2026"
+    },
+    { "type": "p", "text": "Read the chart with three cautions. The counting rules changed in 2016 and 2024, and PHAC warns the revisions may have affected the data. The figures move: the province's 2018 report counted 43 cases for 2017, where the current table shows 47, and [PHAC's annual edition for 2022](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2022.html), a snapshot taken when the data were extracted, counted 38 Manitoba cases that year, where the table now shows 43. And the counts cover Manitoba residents, including some infected elsewhere: in 2018, 93% of cases were likely acquired in Manitoba, and half of the 40 cases from 2013 to 2018 with exposure outside the province were linked to travel to northwestern Ontario, the report says." },
+    { "type": "p", "text": "The rise is long-running: the province's 2018 report counted 5 confirmed and probable cases in 2009 and 54 in 2018, then a record. The 2025 count was two and a half times that." },
+    { "type": "p", "text": "Among its neighbours, Manitoba sits in between: PHAC counted 2 cases in Saskatchewan in 2024 and 2,369 in Ontario, out of 5,809 across Canada. PHAC lists blacklegged ticks as established in western, southern and southeastern Ontario ([how to identify the ticks found in Ontario](/blog/what-ticks-look-like-ontario)) but not in Saskatchewan ([ticks and Lyme disease in Saskatchewan](/blog/ticks-in-saskatchewan))." },
+    { "type": "callout", "tone": "note", "title": "What changed since last year (as of October 2026)", "text": "Manitoba's 2025 count, 135 Lyme disease cases, was 61% above 2024's 84 and the highest in any year the province has published. Nationally, PHAC's preliminary 2025 total of 7,105 was 22% above 2024's 5,809. Manitoba's table had no 2026 figures yet." },
+    { "type": "h3", "text": "Who gets Lyme disease in Manitoba?" },
+    { "type": "p", "text": "The province's most detailed breakdown is in its 2018 report. Males made up more than 60% of confirmed and probable cases that year, and rates were highest among men aged 60 and older. By home region, Southern Health–Santé Sud had the highest rate, 10.77 cases per 100,000 people, which the report links to the region's many risk areas and longer history of established ticks. About 83% of 2018 cases were likely exposed between May and July." },
+    { "type": "p", "text": "Many never saw the tick. From 2013 to 2018, only 39.6% of Manitoba's Lyme disease cases recalled a tick bite, while nearly 90% of Lyme disease and anaplasmosis cases reported time in suitable tick habitat, and nearly 70% of locally acquired cases reported outdoor recreation such as golfing, hiking or gardening, the report says. A tick you never noticed can still make you sick." },
+
+    { "type": "h2", "text": "How many Manitoba ticks carry the Lyme bacterium?" },
+    { "type": "p", "text": "About one in five to one in three of those tested, depending on the year and how the ticks were collected, and adults more often than nymphs. The [2018 report](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/docs/tbd_report2018.pdf) says the share of blacklegged ticks sent in by the public that carried *Borrelia burgdorferi*, the Lyme bacterium, has hovered around 20% since 2013: it was 20.7% in 2018, up from 16.7% in 2017, and about 1 in 4 adult ticks carried it. When several adult ticks came in from one pet, they were tested in pools of up to five, so the province reports these as minimum rates." },
+    {
+      "type": "table",
+      "head": ["Year", "How the ticks were collected", "Ticks tested", "Lyme bacterium", "Anaplasmosis germ"],
+      "rows": [
+        ["2018", "Sent in by the public: adults", "112", "25.0%", "8.0%"],
+        ["2018", "Sent in by the public: nymphs", "32", "6.3%", "0%"],
+        ["2018", "Sent in by the public: all stages", "145", "20.7%", "6.2%"],
+        ["2021", "Collected in the field at nine sites", "119", "30.3%", "5.0%"]
+      ],
+      "caption": "2018: [Manitoba Annual Tick-Borne Disease Report 2018](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/docs/tbd_report2018.pdf), minimum infection rates. 2021: [PHAC's tick surveillance report for 2021](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2021.html), published in early 2026. The methods differ and rates depend on where ticks were sampled, so the years are not averaged."
+    },
+    { "type": "p", "text": "Fewer ticks reach a lab now that Manitobans send photos. Of the 90 Manitoba blacklegged ticks in PHAC's 2021 national count, 85 were eTick photos and only 5 were physical ticks, too few for PHAC to report germ results, according to its [2021 tick surveillance report](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2021.html). Field sampling that year also found one Manitoba tick each carrying *Babesia microti*, *Borrelia miyamotoi* and Powassan virus." },
+
+    { "type": "h2", "text": "Which other tick-borne diseases occur in Manitoba?" },
+    { "type": "p", "text": "Anaplasmosis and babesiosis, both spread by the blacklegged tick. With Lyme disease, they are Manitoba's three reportable tick-borne diseases, and the province's [case tables](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/index.html) show both are far less common than Lyme disease." },
+    {
+      "type": "table",
+      "head": ["Year", "Anaplasmosis cases", "Babesiosis cases"],
+      "rows": [
+        ["2017", "10", "0"],
+        ["2018", "21", "0"],
+        ["2019", "7", "1"],
+        ["2020", "2", "0"],
+        ["2021", "7", "0"],
+        ["2022", "2", "0"],
+        ["2023", "4", "2"],
+        ["2024", "4", "2"],
+        ["2025", "12 (table dated June 22, 2025)", "4 (table dated June 22, 2025)"]
+      ],
+      "caption": "Confirmed and probable cases from [Manitoba Health](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/index.html). Both tables carry the date June 22, 2025, so the 2025 figures may cover only part of that year; the province notes the counts are subject to change."
+    },
+    { "type": "p", "text": "Anaplasmosis symptoms can appear within 5 to 21 days of the bite and include fever, chills, headache, muscle aches, joint pain, nausea and generally feeling unwell, according to [PHAC's anaplasmosis page](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/anaplasmosis.html). Most people have mild or moderate illness; older age, a weakened immune system and other health conditions raise the risk of severe illness. It is treated with antibiotics, and PHAC says the earlier the treatment, the greater the chance of a successful recovery." },
+    { "type": "p", "text": "Babesiosis symptoms can appear within 1 to 4 weeks, and many people have none or only mild to moderate ones, such as chills, fever, sweats and fatigue, [PHAC's babesiosis page](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/babesiosis.html) says. Older people, people without a spleen and those with a weakened immune system face a higher risk of severe illness." },
+    { "type": "p", "text": "Manitoba made anaplasmosis reportable in 2015, the [2018 report](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/docs/tbd_report2018.pdf) says; the national count began in January 2024. That year, PHAC's [annual report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html) counted 673 anaplasmosis cases across Canada, 93% of them from Nova Scotia and Ontario, and 10 babesiosis cases from five provinces, Manitoba among them. Powassan virus disease is tracked nationally too: the 3 cases in 2024 came from Quebec and Ontario." },
+
+    { "type": "h2", "text": "How do you get a tick identified in Manitoba?" },
+    { "type": "p", "text": "Send a photo to eTick. Manitoba adopted the eTick platform, developed by researchers at Bishop's University and funded by PHAC, in April 2021; residents can submit photos of ticks found on people, animals or outdoors through the website or the free app, and trained experts identify them, according to the [province's surveillance page](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/surveillance.html). [eTick's FAQ](https://www.etick.ca/en/content/faqs) says the service is free and aims to name the species within one to two business days." },
+    { "type": "p", "text": "eTick does not test ticks for Lyme disease, and as of October 2026 Manitoba's tick pages describe no tick-testing service for the public. [PHAC](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/remove-tick.html) says tick testing is not intended to guide the diagnosis or treatment of tick-borne diseases, and Manitoba says its blacklegged tick surveillance is not meant to inform diagnosis in people or pets. The province's [guide for health care providers](https://www.gov.mb.ca/health/publichealth/diseases/docs/tickborne_quick_reference.pdf) also says testing people without symptoms after a tick bite is not recommended. What identification does tell you is the species, which decides whether a preventive antibiotic is even an option." },
+    { "type": "p", "text": "If eTick asks you to mail the tick, the reason is mostly to confirm the identification, and the postage is yours, the FAQ says. Either way, note the date and place of the bite on a calendar, as [the province suggests](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/prevention.html), in case symptoms follow." },
+
+    { "type": "h2", "text": "What should you do after a tick bite in Manitoba?" },
+    { "type": "p", "text": "Remove an attached tick as soon as possible; [PHAC's tick-removal guide](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/remove-tick.html) says that reduces the chance of infection. Its steps:" },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick's head as close to the skin as possible with clean, fine-point tweezers.",
+        "Pull slowly straight out, trying not to twist or squeeze the tick.",
+        "If the mouthparts break off, remove them with the tweezers; if they do not come out easily, leave them and let the skin heal.",
+        "Wash the bite with soap and water or an alcohol-based sanitizer."
+      ]
+    },
+    { "type": "p", "text": "Do not burn the tick or smother it with nail polish, nail polish remover, essential oils or petroleum jelly: PHAC says that can make it release its stomach contents, which can be infected, into the bite. Photograph the tick for eTick. If you plan to show it to a health care provider, PHAC suggests keeping it in a sealable bag or a container such as a pill bottle and writing down the date, the part of the body bitten and where you were. [Our step-by-step tick removal guide](/blog/how-to-remove-tick-safely) goes through it in more detail." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/tick-unfed-vs-engorged.webp",
+      "width": 1200,
+      "height": 790,
+      "alt": "Two Ixodes ticks on a pale blue background labelled male and female: a small, flat, dark brown male beside a much larger engorged female with a swollen cream-coloured body",
+      "caption": "A male *Ixodes* tick (left) beside an engorged female. Manitoba's preventive-antibiotic criteria include a tick attached at least 36 hours, or engorged.",
+      "credit": "CDC/ Margaret A. Parsons; photo: Dr. George Anastos; Dept. of Zoology; Univ. of Maryland (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23451"
+    },
+    { "type": "h3", "text": "When is a preventive antibiotic offered?" },
+    { "type": "p", "text": "PHAC says a health care provider can consider preventive treatment after a tick bite, without the tick being tested. Manitoba sets out when: its [Lyme disease page](https://www.gov.mb.ca/health/publichealth/diseases/lyme.html) asks providers to consider it when all four of these conditions are met:" },
+    {
+      "type": "ul",
+      "items": [
+        "**The tick is reliably identified as a blacklegged tick.** A wood tick does not qualify.",
+        "**It was attached for at least 36 hours, or it is engorged.**",
+        "**It was picked up in southern Manitoba, south of the 53rd parallel,** or in another known Lyme disease risk area outside the province.",
+        "**There is no known allergy to doxycycline,** the antibiotic used."
+      ]
+    },
+    { "type": "p", "text": "The province's [provider guide](https://www.gov.mb.ca/health/publichealth/diseases/docs/tickborne_quick_reference.pdf) describes the preventive treatment as a single dose of doxycycline given within 72 hours of removing the tick; the same four criteria appear in a May 2021 update for providers that the Lyme disease page still links as of October 2026. Even after a preventive dose, the province advises watching for symptoms in the months after the bite. Speed matters everywhere: [PHAC](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/prevention-lyme-disease.html) says that in most cases an infected tick needs to be attached for at least 24 hours to pass on the bacterium that causes Lyme disease." },
+    { "type": "h3", "text": "What symptoms should you watch for?" },
+    { "type": "p", "text": "Early Lyme disease develops 3 to 30 days after an infected bite, according to [PHAC's guidance for health professionals](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/health-professionals-lyme-disease.html). Most people get erythema migrans, an expanding rash more than 5 cm across at the site of the bite. It usually appears within 7 days, is usually painless and not itchy, often lacks the classic bull's-eye look and can look like a bruise on dark skin. Other early signs include fever, feeling generally unwell, headache, muscle aches, joint pain that moves from joint to joint and swollen lymph nodes. Untreated, the infection can spread through the body, most often affecting the nerves and joints, and sometimes the heart. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow." },
+    { "type": "p", "text": "Not every red mark is Lyme disease. PHAC describes a simple reaction to the bite as a red patch under 5 cm that appears within 24 hours, does not grow and usually fades within 48 hours, and says a patch that has not cleared after 48 hours should be reassessed for erythema migrans." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Large round red rash on the back of a person's upper arm, with a darker red centre, a paler band and an outer red ring in a bull's-eye pattern",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, here in a bull's-eye pattern. PHAC says the rash is usually painless and not itchy, and many cases lack the bull's-eye look.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    { "type": "p", "text": "Physicians observed the rash in 68.5% of Manitoba's 2018 cases, the [2018 report](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/docs/tbd_report2018.pdf) says. Most cases of Lyme disease can be managed successfully with timely diagnosis and antibiotic treatment, and PHAC tells health professionals not to delay treatment while waiting for lab results." },
+    {
+      "type": "table",
+      "head": ["What you need", "Where to go in Manitoba", "What to know"],
+      "rows": [
+        ["A name for the tick", "eTick, by photo", "Free; aims to reply in 1 to 2 business days; no Lyme testing"],
+        ["Advice by phone", "Health Links–Info Santé: 204-788-8200 or 1-888-315-9257", "Listed on Manitoba Health's tick pages"],
+        ["A preventive antibiotic", "A health care provider, within 72 hours of removing the tick", "Considered for a blacklegged tick attached at least 36 hours, or engorged, from a risk area"],
+        ["Care for a rash, fever or other symptoms", "A health care provider, as soon as possible", "Say where the tick was attached, how long it was on and where you were (PHAC)"],
+        ["Possible late Lyme disease or another emerging tick-borne disease", "Tick Collaborative Care Service (TiCCS)", "A provincial service; a referral is required"]
+      ],
+      "caption": "Sources: [eTick's FAQ](https://www.etick.ca/en/content/faqs); [PHAC's tick-removal guide](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/remove-tick.html); Manitoba Health's [Lyme disease page](https://www.gov.mb.ca/health/publichealth/diseases/lyme.html), [tick-borne disease page](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/index.html) and [provider guide](https://www.gov.mb.ca/health/publichealth/diseases/docs/tickborne_quick_reference.pdf). As of October 2026."
+    },
+    { "type": "callout", "tone": "warning", "title": "See a health care provider if you feel unwell", "text": "PHAC says to see a health care provider as soon as possible if you have concerns after a tick bite, feel unwell or have symptoms such as a rash or fever, and to say where the tick was attached, how long it was on and where you were. This page summarizes what public health agencies publish and is not a diagnosis." },
+
+    { "type": "h2", "text": "How can you avoid tick bites in Manitoba?" },
+    { "type": "p", "text": "Cover up, use a repellent labelled for ticks, and check everyone after time outdoors. [Manitoba's prevention page](https://www.gov.mb.ca/health/publichealth/cdc/tickborne/prevention.html) recommends:" },
+    {
+      "type": "ul",
+      "items": [
+        "**Stay on trails.** Keep to the centre of hiking trails and paths where you can.",
+        "**Dress for it.** Wear light-coloured long pants and a long-sleeved shirt, and tuck the shirt into the pants and the pants into your socks.",
+        "**Use a repellent made for ticks.** Its label should say it is for use against ticks; apply it to clothing and exposed skin, and follow the directions.",
+        "**Check thoroughly.** In good light, check yourself, children and pets, including armpits, belly button, groin, behind the knees, where clothing is tight and in hair; keep looking after you find one, and bathe soon after coming indoors.",
+        "**Use the dryer.** A hot dryer cycle kills ticks on clothes worn outdoors; check backpacks and towels as well."
+      ]
+    },
+    { "type": "p", "text": "Health Canada's [guide to personal insect repellents](https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html) says icaridin repels mosquitoes and ticks and should not be used on babies under 6 months. It caps DEET at 30% for adults and children over 12, and at 10% for children 2 to 12 (up to three times a day) and 6 months to 2 years (once a day), with no DEET for babies under 6 months and no daily use for more than a month in children under 12. Permethrin-treated clothing protects against mosquitoes and ticks for adults, including pregnant women, but is not available for children under 16." },
+    { "type": "p", "text": "Registered repellents carry a PCP number on the label, and Health Canada notes that a product that repels mosquitoes might not work on ticks, so check that the label lists ticks." },
+    { "type": "p", "text": "Around the home, the province suggests cutting back the shade and cover ticks need where people spend time: keep grass short, clear leaf litter, trim shrubs and trees, and consider drier surfaces such as mulch, gravel, decks or cement." },
+    { "type": "p", "text": "Pets that go outdoors can carry ticks into your yard and home, [PHAC](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/prevention-lyme-disease.html) notes, and it advises talking to your veterinarian about tick prevention. Manitoba says many dogs exposed to tick-borne diseases do not get sick and that Lyme disease vaccines are available for dogs. It warns that tick products made for dogs can sicken or kill cats, so use veterinary products as the label and your veterinarian direct." }
+  ],
+  "faqs": [
+    {
+      "question": "Do wood ticks carry Lyme disease in Manitoba?",
+      "answer": "No. Manitoba Health says the American dog tick, the wood tick most Manitobans find, does not transmit the germs that cause Lyme disease, anaplasmosis or babesiosis, and that only the blacklegged tick spreads tick-borne diseases to people in the province. Nationally, the Public Health Agency of Canada notes that American dog ticks can transmit the bacteria behind tularemia and Rocky Mountain spotted fever. Wood ticks are larger than blacklegged ticks and have white markings on their backs, which blacklegged ticks lack."
+    },
+    {
+      "question": "When does tick season start in Manitoba?",
+      "answer": "Usually in April, as the snow goes. Manitoba Health says people can meet blacklegged ticks from April to November, until the first lasting snowfall or until air temperatures stay below 4 °C. The highest-risk months for Lyme disease are May to July, when the tiny nymphs are most active. Wood ticks have a shorter season: in the province's 2018 surveillance they were found mostly in May and June and rarely after July."
+    },
+    {
+      "question": "Is Winnipeg a Lyme disease risk area?",
+      "answer": "Yes. Winnipeg is on the Public Health Agency of Canada's 2025 list of Lyme disease risk areas, and Manitoba treats all of southern Manitoba, south of the 53rd parallel, as a risk location when deciding on a preventive antibiotic. Within and around the city, the risk is concentrated where blacklegged ticks live: woods, their edges, thick shrubs and treed riverbanks, rather than open grassland or short-mown grass."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in Manitoba?",
+      "answer": "Not through the province's public programs, as of October 2026. Manitoba sends residents to eTick, a free photo service that aims to name the species within one to two business days, but eTick does not test ticks for Lyme disease. The Public Health Agency of Canada says tick testing is not intended to guide diagnosis or treatment, and Manitoba's guidance for providers says testing people without symptoms after a bite is not recommended. If you develop a rash, fever or other symptoms, see a health care provider."
+    },
+    {
+      "question": "Do I need antibiotics after a tick bite in Manitoba?",
+      "answer": "It depends on the tick and where you were bitten. The Public Health Agency of Canada says a health care provider can consider preventive treatment after a tick bite. Manitoba asks providers to consider it when the tick is reliably identified as a blacklegged tick, was attached at least 36 hours or is engorged, was picked up south of the 53rd parallel or in another known risk area, and the person has no allergy to doxycycline. Its provider guide describes a single dose of doxycycline within 72 hours of removing the tick. Call Health Links–Info Santé or a provider if you are unsure."
+    },
+    {
+      "question": "Are there deer ticks in northern Manitoba?",
+      "answer": "Blacklegged ticks can turn up there, but rarely. Manitoba Health says migrating birds can carry blacklegged ticks long distances, so they can appear outside southern Manitoba, but the chance of meeting an infected tick there is lower and the disease risk is relatively low. The province's surveillance places established blacklegged ticks in southern Manitoba, and both its Lyme risk area and the Public Health Agency of Canada's description of risk areas stop at the 53rd parallel."
+    }
+  ],
+  "sources": [
+    { "title": "Tick-Borne Diseases (reported cases of anaplasmosis, babesiosis and Lyme disease in Manitoba)", "publisher": "Manitoba Health, Communicable Disease Control", "url": "https://www.gov.mb.ca/health/publichealth/cdc/tickborne/index.html" },
+    { "title": "About Blacklegged Ticks", "publisher": "Manitoba Health, Communicable Disease Control", "url": "https://www.gov.mb.ca/health/publichealth/cdc/tickborne/about.html" },
+    { "title": "Surveillance: Blacklegged Tick Risk Areas in Manitoba", "publisher": "Manitoba Health, Communicable Disease Control", "url": "https://www.gov.mb.ca/health/publichealth/cdc/tickborne/surveillance.html" },
+    { "title": "Prevention of Tick-Borne Diseases", "publisher": "Manitoba Health, Communicable Disease Control", "url": "https://www.gov.mb.ca/health/publichealth/cdc/tickborne/prevention.html" },
+    { "title": "Lyme Disease", "publisher": "Manitoba Health, Public Health", "url": "https://www.gov.mb.ca/health/publichealth/diseases/lyme.html" },
+    { "title": "Tick-Borne Disease Quick Reference Guide for Health Care Providers", "publisher": "Manitoba Health", "url": "https://www.gov.mb.ca/health/publichealth/diseases/docs/tickborne_quick_reference.pdf" },
+    { "title": "Manitoba Annual Tick-Borne Disease Report 2018 (released February 2020)", "publisher": "Manitoba Health, Seniors and Active Living, Communicable Disease Control", "url": "https://www.gov.mb.ca/health/publichealth/cdc/tickborne/docs/tbd_report2018.pdf" },
+    { "title": "Annual report: Tick-borne disease surveillance in Canada (2024 data)", "publisher": "Public Health Agency of Canada, Health Infobase", "url": "https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" },
+    { "title": "Lyme disease surveillance in Canada: Annual edition 2022 (published April 2024)", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2022.html" },
+    { "title": "Lyme disease: Monitoring", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html" },
+    { "title": "Lyme disease: Spread, prevention and risks (including Lyme disease risk areas, 2025)", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/prevention-lyme-disease.html" },
+    { "title": "Ticks in Canada", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html" },
+    { "title": "How to remove a tick (page dated July 29, 2025)", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/remove-tick.html" },
+    { "title": "Lyme disease: For health professionals (page dated July 3, 2026)", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/health-professionals-lyme-disease.html" },
+    { "title": "Anaplasmosis: Symptoms and treatment", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/anaplasmosis.html" },
+    { "title": "Babesiosis: Symptoms and treatment", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/babesiosis.html" },
+    { "title": "Surveillance for Ixodes scapularis and Ixodes pacificus ticks and their associated pathogens in Canada, 2021", "publisher": "Canada Communicable Disease Report 52(1/2), Public Health Agency of Canada, 2026 (CC BY 4.0)", "url": "https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2021.html" },
+    { "title": "eTick: Frequently asked questions", "publisher": "eTick.ca (public tick identification platform; Bishop's University and partners)", "url": "https://www.etick.ca/en/content/faqs" },
+    { "title": "Personal insect repellents", "publisher": "Health Canada", "url": "https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html" },
+    { "title": "Canadian Climate Normals 1991–2020 Data: Winnipeg Richardson (Airport)", "publisher": "Environment and Climate Change Canada", "url": "https://climate.weather.gc.ca/climate_normals/results_1991_2020_e.html?searchType=stnName_1991&txtStationName_1991=Winnipeg&searchMethod=contains&txtCentralLatMin=0&txtCentralLatSec=0&txtCentralLongMin=0&txtCentralLongSec=0&climate_id=5023222&dispBack=1" }
+  ],
+  "disclaimer": "both"
+}
