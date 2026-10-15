@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-wisconsin",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "6566ab16693a4463944e3868afa33fae78cebd8e05e8239b620b64132137e9dc",
+ "claimsChecked": 300,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-15"
+}
