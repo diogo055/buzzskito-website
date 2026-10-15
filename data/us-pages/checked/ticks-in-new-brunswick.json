@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-new-brunswick",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "494718dc2055f4287cd8146cf86c2ff5bdeec7dae50eb2b0f7d0a050e3addb30",
+ "claimsChecked": 320,
+ "claimsCorrected": 15,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-10-15"
+}
