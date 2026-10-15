@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-vermont",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "cf9a4e24be1b2c1f0ff595dffd54b16c33d7ded03cf09322ac00a9d4b376ee33",
+ "claimsChecked": 480,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-15"
+}
