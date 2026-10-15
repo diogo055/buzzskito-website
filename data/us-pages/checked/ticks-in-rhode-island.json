@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-rhode-island",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "018a0442f8083ac18bffa15e98afc0de319a5c11489cfd0db90abcd6ad844031",
+ "claimsChecked": 260,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-15"
+}
