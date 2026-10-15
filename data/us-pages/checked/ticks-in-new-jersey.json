@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-new-jersey",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "062b2044bc595dfb6db641ce8c9004a1c65588a3e1ecabbc0b5ce8ca810e272d",
+ "claimsChecked": 456,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 8,
+ "checkedOn": "2026-10-15"
+}

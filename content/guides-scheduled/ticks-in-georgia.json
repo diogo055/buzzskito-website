@@ -1,0 +1,1002 @@
+{
+  "slug": "ticks-in-georgia",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in georgia",
+  "alsoTargets": [
+    "types of ticks in georgia",
+    "tick season georgia",
+    "lyme disease georgia"
+  ],
+  "metaTitle": "Ticks in Georgia: Types, Season and Lyme Data",
+  "metaDescription": "The lone star tick is Georgia's most common tick. Photos of 4 common ticks, county maps, Lyme and spotted fever data, tick season and free tick ID.",
+  "h1": "Ticks in Georgia: Species, County Maps, Disease Data and Tick Season",
+  "dek": "Which ticks live in Georgia, where each one is established county by county, how much Lyme disease and spotted fever the state reports, when ticks are active, and where to get a tick identified.",
+  "breadcrumb": "Ticks in Georgia",
+  "excerpt": "The lone star tick is Georgia's most common tick, and spotted fever is reported slightly more often than Lyme disease. Species photos, county maps, tick season and free tick ID.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**The lone star tick is the most common tick in Georgia and the American dog tick the second, according to [the state health department](https://dph.georgia.gov/vector-surveillance-facts-faqs); blacklegged (deer) ticks and Gulf Coast ticks also bite people here.** Lyme disease is rare: CDC counted 18 Georgia cases in 2023. Spotted fever is reported slightly more often than Lyme.",
+    "bullets": [
+      "CDC's county tables, which run through 2025, list lone star ticks as established in 60 of Georgia's 159 counties, blacklegged ticks in 39 and American dog ticks in 36.",
+      "Georgia's 2023 Lyme rate, 0.2 cases per 100,000 residents, was among the lowest in the country: only Mississippi, Oklahoma and Texas published lower rates.",
+      "The state health department counted 143 spotted fever rickettsiosis cases among Georgia residents from 2020 to 2024, against 130 Lyme disease cases.",
+      "Tick-borne illness spreads most often from early spring to late fall, but cases have been reported year-round, and the state's tick collections find blacklegged ticks mostly from October to January.",
+      "As of October 2026, Georgia residents can get a tick identified free from a photo, but the health department does not generally recommend testing ticks for germs.",
+      "The invasive Asian longhorned tick was confirmed in Pickens County in September 2021 and has since been found in three more north Georgia counties."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Georgia at a glance",
+    "rows": [
+      [
+        "Most common tick",
+        "Lone star tick, then the American dog tick (Georgia Department of Public Health)"
+      ],
+      [
+        "Tick that spreads Lyme disease",
+        "Blacklegged (deer) tick, *Ixodes scapularis*"
+      ],
+      [
+        "Lone star tick",
+        "Established in 60 of 159 counties, reported in 59 more (CDC, through 2025)"
+      ],
+      [
+        "Blacklegged (deer) tick",
+        "Established in 39 counties, reported in 43 (CDC, through December 2025)"
+      ],
+      [
+        "American dog tick",
+        "Established in 36 counties, reported in 87 (CDC, through 2025)"
+      ],
+      [
+        "Lyme germ in host-seeking ticks",
+        "Recorded in 2 counties, Liberty and McIntosh (CDC, through December 2025)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "18 in 2023, 0.2 per 100,000 residents (CDC, latest year as of October 2026)"
+      ],
+      [
+        "Spotted fever rickettsiosis",
+        "143 cases in 2020 to 2024, vs. 130 for Lyme (state count); 3.0 per million residents in 2023 (CDC)"
+      ],
+      [
+        "Riskiest months",
+        "Early spring to late fall; cases reported year-round (state health department)"
+      ],
+      [
+        "Asian longhorned tick",
+        "Confirmed in Pickens County in September 2021; 4 north Georgia counties as of October 2026"
+      ],
+      [
+        "Tick identification",
+        "Free from a photo for Georgia residents (as of October 2026)"
+      ],
+      [
+        "Tick testing",
+        "Not generally recommended by the state health department (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Georgia?"
+    },
+    {
+      "type": "p",
+      "text": "Four ticks turn up most often in Georgia: the lone star tick, the American dog tick, the blacklegged (deer) tick and the Gulf Coast tick. The [Georgia Department of Public Health's tick facts](https://dph.georgia.gov/vector-surveillance-facts-faqs) rank the lone star tick as the most common in the state and the American dog tick second, and the same four species are the ones the state's tick collections from 2005 to 2023 found most often, according to the [health department's 2024 surveillance presentation](https://www.gamosquito.org/resources/2024meeting/Session3/Kelly.pdf). A fifth, the invasive Asian longhorned tick, has reached north Georgia."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where in Georgia",
+        "Stages that bite people most",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "The most common tick in the state; established in 60 counties, reported in 59",
+          "Nymphs and adult females",
+          "Ehrlichiosis, tularemia, Heartland and Bourbon viruses; linked to STARI and alpha-gal syndrome"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Second most common; established in 36 counties, reported in 87",
+          "Adult females, with the highest risk in spring and summer",
+          "Rocky Mountain spotted fever, tularemia"
+        ],
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in 39 counties, reported in 43",
+          "Nymphs and adult females",
+          "Lyme disease, anaplasmosis, babesiosis, Powassan virus"
+        ],
+        [
+          "Gulf Coast tick, *Amblyomma maculatum*",
+          "One of the four species the state's surveillance collects most often",
+          "Adults have been linked to infections in people",
+          "*Rickettsia parkeri* rickettsiosis, a form of spotted fever"
+        ],
+        [
+          "Asian longhorned tick, *Haemaphysalis longicornis*",
+          "Invasive; listed in four north Georgia counties",
+          "CDC says it appears less attracted to people than native ticks",
+          "Not yet known whether, or how often, it makes people ill in the US"
+        ]
+      ],
+      "caption": "Ranking: Georgia Department of Public Health. Counties: CDC tick surveillance, through 2025. Biting stages and diseases: [CDC's guide to where ticks live](https://www.cdc.gov/ticks/about/where-ticks-live.html). Asian longhorned tick counties: Georgia Department of Agriculture, as of October 2026."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts, banded legs and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick. UGA Extension says the female has a single white spot in the middle of her back; on the male, the white markings are diffuse.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "[UGA Extension's circular on ticks](https://fieldreport.caes.uga.edu/publications/C937/protect-yourself-from-ticks) says the lone star tick has unusually long mouthparts and is particularly common in brushy, bottomland areas where deer are plentiful. CDC describes it as a very aggressive tick that bites humans, and says its nymphs and adult females bite most often. The [lone star tick guide](/blog/lone-star-tick) covers its life cycle and range in more detail."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, reddish-brown with a cream-and-brown mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. CDC's image library records that this specimen was found in Panola Park near Atlanta.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "p",
+      "text": "The American dog tick is the state's second most common tick. The health department links it to Rocky Mountain spotted fever and says it must be attached for at least 4 hours to cause illness. UGA Extension notes that it has shorter mouthparts than the lone star tick and that both males and females have diffuse white markings on the back, and [CDC's American dog tick surveillance page](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html) says adult females are the most likely to bite people, with the highest risk in spring and summer."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-female.webp",
+      "width": 1200,
+      "height": 775,
+      "alt": "Adult female blacklegged tick on a blade of grass: small, with a dark shield behind the head, dark legs and a reddish-orange body without white markings",
+      "caption": "Adult female blacklegged (deer) tick: smaller than the lone star and American dog ticks, with no white markings on its back.",
+      "credit": "CDC/ Michael L. Levin, PhD; photo: Jim Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1669"
+    },
+    {
+      "type": "p",
+      "text": "The blacklegged tick is the one that spreads Lyme disease in Georgia, as it does across the eastern US. UGA Extension says it is smaller than the other two common ticks and has no white markings on its back, and the health department says it must be attached for at least 24 hours to cause illness. For side-by-side photos of the species and their life stages, see [how to tell common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gulf-coast-tick-female.webp",
+      "width": 1200,
+      "height": 807,
+      "alt": "Adult female Gulf Coast tick on a leaf, reddish-brown with pale orange legs and a silvery, ornate shield streaked with dark lines behind the head",
+      "caption": "Adult female Gulf Coast tick. CDC links adult Gulf Coast ticks to *Rickettsia parkeri* rickettsiosis, a form of spotted fever.",
+      "credit": "CDC/ Dr. Christopher Paddock (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10876"
+    },
+    {
+      "type": "p",
+      "text": "The Gulf Coast tick lives mainly in the southeastern US, according to [CDC's guide to where ticks live](https://www.cdc.gov/ticks/about/where-ticks-live.html), and adults have been linked to *Rickettsia parkeri* rickettsiosis, a form of spotted fever. In Georgia's tick collections it turns up mostly in summer. The [Gulf Coast tick guide](/blog/gulf-coast-tick) has more on the species."
+    },
+    {
+      "type": "h2",
+      "text": "Where are lone star ticks found in Georgia?"
+    },
+    {
+      "type": "p",
+      "text": "Across most of the state. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html), with county records through 2025, lists the species as established in 60 of Georgia's 159 counties and reported in 59 more; 40 counties have no record. Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in a county within 12 months."
+    },
+    {
+      "type": "p",
+      "text": "The established counties run from Floyd and Bartow in the northwest to Chatham, Glynn and Camden on the coast and Thomas and Grady on the Florida line. In metro Atlanta, Gwinnett, Henry, Fayette, Douglas, Rockdale and Newton counties are established, and Fulton, DeKalb, Cobb and Clayton are reported."
+    },
+    {
+      "type": "map",
+      "scope": "GA",
+      "title": "Lone star tick status by county, Georgia, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "13001": "reported",
+        "13005": "established",
+        "13007": "reported",
+        "13009": "established",
+        "13011": "reported",
+        "13013": "reported",
+        "13015": "established",
+        "13017": "reported",
+        "13021": "established",
+        "13023": "reported",
+        "13025": "established",
+        "13027": "reported",
+        "13029": "established",
+        "13031": "established",
+        "13035": "established",
+        "13039": "established",
+        "13043": "reported",
+        "13045": "reported",
+        "13047": "reported",
+        "13049": "reported",
+        "13051": "established",
+        "13053": "established",
+        "13055": "reported",
+        "13057": "reported",
+        "13059": "established",
+        "13063": "reported",
+        "13065": "reported",
+        "13067": "reported",
+        "13069": "established",
+        "13073": "established",
+        "13075": "reported",
+        "13077": "established",
+        "13079": "reported",
+        "13083": "reported",
+        "13087": "reported",
+        "13089": "reported",
+        "13095": "reported",
+        "13097": "established",
+        "13101": "reported",
+        "13105": "reported",
+        "13107": "established",
+        "13109": "reported",
+        "13111": "reported",
+        "13113": "established",
+        "13115": "established",
+        "13117": "reported",
+        "13119": "reported",
+        "13121": "reported",
+        "13123": "reported",
+        "13125": "reported",
+        "13127": "established",
+        "13129": "established",
+        "13131": "established",
+        "13133": "established",
+        "13135": "established",
+        "13139": "established",
+        "13141": "established",
+        "13145": "reported",
+        "13147": "established",
+        "13151": "established",
+        "13153": "established",
+        "13155": "reported",
+        "13157": "reported",
+        "13159": "established",
+        "13161": "reported",
+        "13163": "established",
+        "13165": "established",
+        "13167": "reported",
+        "13169": "established",
+        "13171": "established",
+        "13175": "established",
+        "13179": "established",
+        "13181": "established",
+        "13185": "reported",
+        "13187": "reported",
+        "13189": "established",
+        "13191": "established",
+        "13195": "established",
+        "13197": "reported",
+        "13199": "reported",
+        "13207": "established",
+        "13211": "established",
+        "13213": "reported",
+        "13215": "established",
+        "13217": "established",
+        "13219": "established",
+        "13221": "established",
+        "13223": "reported",
+        "13225": "reported",
+        "13229": "reported",
+        "13231": "established",
+        "13235": "reported",
+        "13237": "established",
+        "13241": "reported",
+        "13245": "established",
+        "13247": "established",
+        "13249": "reported",
+        "13251": "reported",
+        "13255": "reported",
+        "13257": "reported",
+        "13259": "reported",
+        "13263": "established",
+        "13265": "established",
+        "13267": "established",
+        "13269": "reported",
+        "13271": "established",
+        "13275": "established",
+        "13285": "reported",
+        "13287": "reported",
+        "13291": "reported",
+        "13293": "established",
+        "13295": "reported",
+        "13297": "reported",
+        "13299": "established",
+        "13301": "established",
+        "13303": "established",
+        "13313": "reported",
+        "13317": "established",
+        "13319": "reported"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means ticks were recorded there without meeting that bar. No record does not mean no ticks: it can mean no one has sampled there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "p",
+      "text": "Many of the 40 counties without a record are in southwest Georgia, among them Early, Miller, Seminole, Clay, Quitman and Randolph. CDC says a county that is not labeled established does not mean the ticks are absent, and that a county often gains a record when it is sampled for the first time."
+    },
+    {
+      "type": "p",
+      "text": "American dog ticks are recorded in even more counties. [CDC's American dog tick table](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html), also through 2025, lists them as established in 36 counties and reported in 87, from Chattooga and Floyd in the northwest to Camden, Glynn and Lowndes in the south, and including Fulton and Gwinnett. To compare Georgia with other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged (deer) ticks found in Georgia?"
+    },
+    {
+      "type": "p",
+      "text": "Mostly in central, south and coastal Georgia. [CDC's county table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in 39 counties and reported in 43, with no record in the other 77. Established means six or more ticks of one life stage, or more than one life stage, were collected in a county within 12 months; reported means fewer than six."
+    },
+    {
+      "type": "p",
+      "text": "The established counties include four of the six coastal counties (Chatham, Liberty, McIntosh and Glynn), much of the southeast from Effingham and Bulloch to Ware and Charlton, and inland counties such as Houston, Laurens, Lowndes and Dougherty. Among the core metro Atlanta counties, Fulton has a reported record, while Cobb, DeKalb, Gwinnett, Clayton and Henry have none. The north Georgia mountain counties of Rabun, Towns, Union and Fannin have none either."
+    },
+    {
+      "type": "map",
+      "scope": "GA",
+      "title": "Blacklegged (deer) tick status by county, Georgia, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "13001": "reported",
+        "13003": "reported",
+        "13005": "reported",
+        "13007": "reported",
+        "13009": "reported",
+        "13013": "established",
+        "13021": "reported",
+        "13023": "established",
+        "13025": "established",
+        "13027": "reported",
+        "13029": "reported",
+        "13031": "established",
+        "13033": "established",
+        "13035": "reported",
+        "13037": "reported",
+        "13039": "reported",
+        "13043": "established",
+        "13047": "reported",
+        "13049": "established",
+        "13051": "established",
+        "13053": "reported",
+        "13059": "reported",
+        "13065": "established",
+        "13069": "reported",
+        "13073": "reported",
+        "13075": "reported",
+        "13077": "reported",
+        "13081": "reported",
+        "13087": "reported",
+        "13095": "established",
+        "13101": "reported",
+        "13103": "established",
+        "13105": "reported",
+        "13107": "established",
+        "13109": "established",
+        "13115": "established",
+        "13117": "reported",
+        "13121": "reported",
+        "13127": "established",
+        "13131": "established",
+        "13141": "reported",
+        "13145": "established",
+        "13153": "established",
+        "13155": "established",
+        "13159": "established",
+        "13161": "reported",
+        "13163": "established",
+        "13165": "established",
+        "13167": "established",
+        "13169": "reported",
+        "13171": "reported",
+        "13175": "established",
+        "13179": "established",
+        "13183": "reported",
+        "13185": "established",
+        "13189": "established",
+        "13191": "established",
+        "13199": "established",
+        "13207": "established",
+        "13209": "established",
+        "13211": "reported",
+        "13215": "reported",
+        "13223": "reported",
+        "13229": "reported",
+        "13235": "reported",
+        "13237": "established",
+        "13259": "reported",
+        "13263": "established",
+        "13265": "reported",
+        "13267": "reported",
+        "13271": "established",
+        "13273": "reported",
+        "13275": "established",
+        "13277": "reported",
+        "13279": "established",
+        "13283": "established",
+        "13289": "reported",
+        "13299": "established",
+        "13303": "established",
+        "13305": "reported",
+        "13317": "reported",
+        "13319": "reported"
+      },
+      "caption": "Established means six or more blacklegged ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer than six. No record does not mean no ticks: CDC says it can reflect a lack of sampling. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html)"
+    },
+    {
+      "type": "p",
+      "text": "Read the map as a record of where people have looked. CDC says a county without records should not be read as the tick being absent, and that once a county is established it keeps that label in later years."
+    },
+    {
+      "type": "h3",
+      "text": "Do Georgia's blacklegged ticks carry the Lyme germ?"
+    },
+    {
+      "type": "p",
+      "text": "Only two counties have a record. CDC's companion table of germs found in host-seeking blacklegged ticks, meaning ticks hunting for a host rather than feeding on one, lists the Lyme bacterium, *Borrelia burgdorferi*, in Liberty and McIntosh counties, both on the coast. It has no Georgia record for the germs behind anaplasmosis, babesiosis, hard tick relapsing fever or Powassan virus disease. CDC notes that a county without a record may simply not have been tested."
+    },
+    {
+      "type": "h2",
+      "text": "Is Lyme disease common in Georgia?"
+    },
+    {
+      "type": "p",
+      "text": "No. Georgia reported 18 Lyme disease cases in 2023, a rate of 0.2 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html); only Mississippi, Oklahoma and Texas published a lower rate. CDC counts Georgia among its low-incidence states, and its [report on 2022 Lyme disease surveillance](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) lists 31 Georgia cases that year, against an average of 15 a year from 2017 to 2019."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Georgia, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            35,
+            40,
+            10,
+            32,
+            31,
+            8,
+            4,
+            8,
+            4,
+            8,
+            19,
+            18,
+            32,
+            35,
+            31,
+            18
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "A revised case definition took effect in 2022. In low-incidence states such as Georgia it still requires clinical information, unlike high-incidence states that can count lab results alone, but [CDC](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) says the changes rule out detailed comparisons with earlier years. CDC also says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions. Georgia's health department counts 136 cases for 2019 to 2023 where CDC's table adds up to 134; this page uses CDC's figures. Data through 2023, the latest year CDC had published as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html); 2019 to 2023 state count: [Georgia Department of Public Health](https://dph.georgia.gov/lyme)"
+    },
+    {
+      "type": "p",
+      "text": "The counts have stayed small for years, between 4 and 40 cases a year since 2008. Local cases do happen. The [state health department's Lyme disease page](https://dph.georgia.gov/lyme) says Lyme disease is not as common in Georgia but that local cases are reported every year, and that some of the cases counted among Georgia residents may have been acquired out of state. UGA Extension says Lyme disease was first recognized in Georgia in 1987 and that, while cases occur all over the state, the largest numbers are in the northern half."
+    },
+    {
+      "type": "h3",
+      "text": "Why is Lyme disease rare in Georgia?"
+    },
+    {
+      "type": "p",
+      "text": "Mostly because of how southern blacklegged ticks behave and what they feed on. A [2021 study in PLOS Biology](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001066) compared eight sites from Wisconsin and Massachusetts south to Florida, including sites in South Carolina and Alabama but none in Georgia. The share of ticks carrying the Lyme germ fell steeply south of roughly Virginia's latitude."
+    },
+    {
+      "type": "p",
+      "text": "The authors point to host choice, host-seeking behavior and tick density. Southern nymphs rarely climb above the leaf litter to hunt, so they seldom meet people, and young ticks in the South feed mostly on lizards such as skinks, which are poor carriers of the Lyme germ, rather than on the mice and shrews they favor in the North. That matters because CDC lists nymphs, along with adult females, as the blacklegged stages most likely to bite people."
+    },
+    {
+      "type": "h3",
+      "text": "How does Georgia compare with its neighbors?"
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Lyme cases per 100,000, 2023",
+        "Spotted fever cases per 100,000, 2023"
+      ],
+      "rows": [
+        [
+          "Georgia",
+          "18",
+          "0.2",
+          "0.3"
+        ],
+        [
+          "[Alabama](/blog/ticks-in-alabama)",
+          "36",
+          "0.7",
+          "1.6"
+        ],
+        [
+          "[Florida](/blog/ticks-in-florida)",
+          "271",
+          "1.2",
+          "0.1"
+        ],
+        [
+          "[North Carolina](/blog/ticks-in-north-carolina)",
+          "228",
+          "2.2",
+          "2.1"
+        ],
+        [
+          "[South Carolina](/blog/ticks-in-south-carolina)",
+          "55",
+          "1.1",
+          "0.2"
+        ],
+        [
+          "[Tennessee](/blog/ticks-in-tennessee)",
+          "50",
+          "0.7",
+          "1.2"
+        ]
+      ],
+      "caption": "Lyme: confirmed and probable cases by state of residence, from [CDC's Lyme surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Spotted fever: [CDC's 2023 state incidence table](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html), which gives rates per million residents, converted here to per 100,000 (per million: Georgia 3.0, Alabama 15.7, Florida 1.2, North Carolina 21.1, South Carolina 2.2, Tennessee 12.1). 2023 was the latest year in both CDC series as of October 2026."
+    },
+    {
+      "type": "p",
+      "text": "Georgia had the lowest Lyme rate of the six states in 2023. Its spotted fever rate was far below Alabama's, Tennessee's and North Carolina's, though above Florida's and South Carolina's, and it was higher than Georgia's own Lyme rate."
+    },
+    {
+      "type": "h3",
+      "text": "Which Georgia counties report Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Cases are spread thinly, with the most in populous counties. [CDC's county file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) counts 116 Georgia cases from 2019 to 2022 across 49 counties, led by Fulton County with 14, then Houston (11), Gwinnett (7) and Cobb (6). Cases are counted where the patient lives, not necessarily where the bite happened, and setting the top counties beside the tick map shows why that matters."
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Lyme cases, 2019 to 2022",
+        "Blacklegged tick status"
+      ],
+      "rows": [
+        [
+          "Fulton",
+          "14",
+          "Reported"
+        ],
+        [
+          "Houston",
+          "11",
+          "Established"
+        ],
+        [
+          "Gwinnett",
+          "7",
+          "No record"
+        ],
+        [
+          "Cobb",
+          "6",
+          "No record"
+        ],
+        [
+          "Chatham",
+          "5",
+          "Established"
+        ],
+        [
+          "Hall",
+          "5",
+          "No record"
+        ],
+        [
+          "Forsyth",
+          "4",
+          "Reported"
+        ],
+        [
+          "Monroe",
+          "4",
+          "Established"
+        ]
+      ],
+      "caption": "Cases by county of residence, from CDC's 2019 to 2022 county file. Tick status from CDC's blacklegged tick table, through December 31, 2025."
+    },
+    {
+      "type": "p",
+      "text": "Three of these eight counties have no blacklegged tick record at all, which fits the health department's caution that some Georgia cases may have been acquired elsewhere. A county's count shows where patients live, not necessarily where they were bitten."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in Georgia?"
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever rickettsiosis, which includes Rocky Mountain spotted fever, is reported as often as Lyme disease or slightly more. The [state health department](https://dph.georgia.gov/tick-borne-diseases) counted 143 spotted fever cases among Georgia residents from 2020 to 2024, against 130 Lyme disease cases and 50 cases of anaplasmosis and ehrlichiosis combined. CDC's county file for 2019 to 2022 shows the same pattern, with 118 spotted fever cases from 66 counties, led by Newton County with 7. In 2023, the latest year in [CDC's state tables](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html), Georgia's spotted fever rate was 3.0 reported cases per million residents."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Tick linked to it",
+        "Georgia cases, 2019 to 2022"
+      ],
+      "rows": [
+        [
+          "Spotted fever rickettsiosis, including Rocky Mountain spotted fever",
+          "American dog tick; Gulf Coast tick (*Rickettsia parkeri*)",
+          "118"
+        ],
+        [
+          "Lyme disease",
+          "Blacklegged tick",
+          "116"
+        ],
+        [
+          "Ehrlichiosis (*Ehrlichia chaffeensis*)",
+          "Lone star tick",
+          "31"
+        ],
+        [
+          "Anaplasmosis",
+          "Blacklegged tick",
+          "3"
+        ],
+        [
+          "Tularemia",
+          "American dog tick; lone star tick",
+          "2"
+        ],
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "1"
+        ],
+        [
+          "Alpha-gal syndrome; Heartland, Bourbon and Powassan viruses",
+          "Lone star tick (Powassan: blacklegged tick)",
+          "Rarely reported; the state watches for them"
+        ]
+      ],
+      "caption": "Cases by county of residence, summed over 2019 to 2022, from [CDC's county-level file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html), which leaves out cases with no county on record. Ticks: CDC's guide to where ticks live. Last row: Georgia Department of Public Health."
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever deserves particular attention. UGA Extension calls Rocky Mountain spotted fever the most important tick-borne disease in the southeastern US and notes that it can be fatal, though antibiotics treat it effectively, and [CDC](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html) says early treatment is vital to prevent severe complications. UGA describes a sudden onset of chills, fever and headache, and a rash that appears 2 to 4 days after the fever starts, typically beginning on the hands and feet as small, flat, pink spots that do not itch."
+    },
+    {
+      "type": "p",
+      "text": "The lone star tick brings illnesses of its own. The health department's tick facts link it to human monocytic ehrlichiosis and to southern tick-associated rash illness (STARI), a circular rash that CDC says has an unknown cause. CDC adds that growing evidence suggests the tick's bite may trigger alpha-gal syndrome, an allergy to red meat and other products from mammals; the state says symptoms commonly appear 2 to 6 hours after eating meat or dairy and can be severe or even life-threatening. See [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome) for symptoms and diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Georgia?"
+    },
+    {
+      "type": "p",
+      "text": "All year, with the most risk from early spring to late fall. The [state health department](https://dph.georgia.gov/tick-borne-diseases) says tick-borne illnesses are most often transmitted between early spring and late fall, but that cases have been reported year-round in Georgia. Each tick keeps its own calendar, as the state's collections from 2005 to 2023 show."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "When found most often in Georgia, 2005 to 2023",
+        "Stages that bite people most"
+      ],
+      "rows": [
+        [
+          "Blacklegged (deer) tick",
+          "October to January, with far more in November than in any other month",
+          "Nymphs and adult females (CDC)"
+        ],
+        [
+          "Lone star tick",
+          "Spring through fall, with the most in May, August and October",
+          "Nymphs and adult females (CDC)"
+        ],
+        [
+          "Gulf Coast tick",
+          "June to August",
+          "Adults, which CDC links to *Rickettsia parkeri* infections"
+        ],
+        [
+          "American dog tick",
+          "May to August, peaking in June",
+          "Adult females, with the highest risk in spring and summer (CDC)"
+        ]
+      ],
+      "caption": "Months read from the state's chart of ticks collected by month, 2005 to 2023, in the [health department's 2024 surveillance presentation](https://www.gamosquito.org/resources/2024meeting/Session3/Kelly.pdf). The chart leaves out 2,000 larval blacklegged ticks found on one animal in January 2012. The collections come largely from ticks found on animals, including deer and bears checked at hunts, so the months show when ticks were found, not exactly when they bite people."
+    },
+    {
+      "type": "p",
+      "text": "The blacklegged tick runs against the others. On the state's chart it peaked in November, when lone star, Gulf Coast and American dog ticks were scarce, so the woods are not tick-free in late fall or winter. Gulf Coast and American dog ticks peaked in June, and lone star ticks were found from spring well into fall."
+    },
+    {
+      "type": "p",
+      "text": "Those collections also show how Georgia watches ticks. The health department's 2024 presentation describes surveillance built largely on animals: a Georgia Department of Agriculture survey of ticks attached to animals that has run since at least 2005, and checks of deer brought in at quota hunts on Wildlife Management Areas since 2020, and of bears since 2021, which reached 22 hunts at 15 areas in 2022 and 2023. A survey of ticks attached to people ran only in 2005 and 2006, when its funding ran out."
+    },
+    {
+      "type": "h2",
+      "text": "Has the Asian longhorned tick reached Georgia?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, in north Georgia. The Georgia Department of Agriculture confirmed the tick in Pickens County in September 2021, and it has since been found in Habersham, Hall and White counties, according to the [health department's 2024 surveillance presentation](https://www.gamosquito.org/resources/2024meeting/Session3/Kelly.pdf). As of October 2026, the [agriculture department's Asian longhorned tick page](https://agr.georgia.gov/asian-longhorned-tick) lists those four counties."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female on a U.S. dime, both plain reddish-brown with no white markings",
+      "caption": "An Asian longhorned tick nymph (left) and adult female (right) on a U.S. dime, for size.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "The species is native to eastern Asia. The agriculture department says it spends part of its time on an animal and part in the environment and will feed on many hosts, including people, and UGA Extension notes that it can reproduce without males. [CDC](https://www.cdc.gov/ticks/about/where-ticks-live.html) says it appears less attracted to people than native ticks and that it is not yet known whether, or how often, it passes germs to people in the US and makes them ill. More on the species is in [the Asian longhorned tick guide](/blog/asian-longhorned-tick)."
+    },
+    {
+      "type": "h3",
+      "text": "How do you report an Asian longhorned tick in Georgia?"
+    },
+    {
+      "type": "p",
+      "text": "Report heavy infestations on animals. As of October 2026, the agriculture department asks anyone who finds a large number of ticks on an animal to call a veterinarian and report it to the Office of the State Veterinarian at (404) 656-3667 or AnimalHealth@agr.georgia.gov, weekdays from 8:00 a.m. to 4:30 p.m. UGA Extension also says animals with unusually high tick numbers should be reported to the department."
+    },
+    {
+      "type": "p",
+      "text": "The department says no insecticide is approved specifically for this tick in the US, but that many common permethrin preparations are effective. Follow the product label, and livestock producers must observe withdrawal times for anything used on food animals."
+    },
+    {
+      "type": "h2",
+      "text": "How do you get a tick identified in Georgia?"
+    },
+    {
+      "type": "p",
+      "text": "Send the state a photo. As of October 2026, the [Georgia Department of Public Health](https://dph.georgia.gov/tick-borne-diseases) identifies ticks from photos and a brief description submitted online, at no charge, for Georgia residents only. Knowing the species narrows down which illnesses to watch for and gives a health care provider something concrete to work with."
+    },
+    {
+      "type": "p",
+      "text": "Identification is not testing. The department does not generally recommend testing ticks for germs: it says tick results should not be used for treatment decisions, a negative result can give false reassurance, and a person who was infected will probably develop symptoms before the results arrive. For questions about local tick-borne disease surveillance, the [department's Lyme disease page](https://dph.georgia.gov/lyme) lists its Epidemiology Section at 404-657-2588; ask for the Vectorborne Disease Team."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Georgia?"
+    },
+    {
+      "type": "p",
+      "text": "Take the tick off right away, then watch for fever or a rash for several weeks. The [state health department](https://dph.georgia.gov/tick-borne-diseases) describes removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick with clean, fine-tipped tweezers as close to the skin's surface as possible.",
+        "Pull upward with steady, even pressure. Twisting or jerking can break off the mouthparts; remove them with tweezers if you easily can, or leave them and let the skin heal.",
+        "Clean the bite and your hands with rubbing alcohol or soap and water.",
+        "Never crush a tick with your fingers. Dispose of a live one in alcohol, in a sealed bag or container, wrapped tightly in tape, or by flushing it."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Speed matters. UGA Extension says there is evidence that the longer an infected tick feeds, the greater the chance it passes on a disease, and calls early removal good prevention. For a fuller walk-through, see [how to remove a tick safely](/blog/how-to-remove-tick-safely)."
+    },
+    {
+      "type": "p",
+      "text": "Then watch your health. The health department says to see a doctor if a rash or fever develops within several weeks of removing a tick, and to tell the doctor about the bite, when it happened and where you probably picked up the tick. It also says fever, rash, fatigue, muscle aches or other flu-like symptoms after a tick bite are reasons to seek care promptly. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) describes the expanding rash of early Lyme disease, but in Georgia, spotted fever is reported at least as often as Lyme."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Round red rash on the back of a person's upper arm, with a dark red center, a paler middle ring and a red outer ring",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease. CDC says a circular rash of unknown cause, called STARI, sometimes follows lone star tick bites; the spotted fever rash usually appears 2 to 4 days after a fever starts.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Do not wait for a rash",
+      "text": "CDC says early treatment of Rocky Mountain spotted fever is vital to prevent severe complications, and its rash usually appears only 2 to 4 days after the fever starts. If you develop a fever, fatigue or muscle aches in the weeks after a tick bite or time outdoors, see a health care provider and mention the tick. This page summarizes public health guidance and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Georgia?"
+    },
+    {
+      "type": "p",
+      "text": "Stay out of brush, cover up, use repellent and check yourself after time outdoors. The [state health department](https://dph.georgia.gov/tick-borne-diseases) and [UGA Extension](https://fieldreport.caes.uga.edu/publications/C937/protect-yourself-from-ticks) recommend these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Stay in the open.** UGA Extension says the best way to avoid tick bites is to stay where vegetation is open or kept below ankle height, and to avoid plants that brush against the body, especially the legs.",
+        "**Dress for ticks.** The health department advises light-colored clothing so crawling ticks are easy to see, long pants and sleeves, and tucking pants into socks and shirts into pants.",
+        "**Use a repellent on skin.** The department recommends repellent containing DEET on exposed skin, and UGA Extension says liquid DEET normally protects for several hours. Follow the label.",
+        "**Treat clothing, not skin, with permethrin.** The department recommends permethrin on clothing, and UGA Extension says the permethrin clothing spray it describes kills ticks as well as repelling them and is approved for use on clothing only.",
+        "**Check often.** After time outdoors, inspect your body for crawling or attached ticks; UGA Extension advises checking at least twice a day.",
+        "**Manage the yard.** The health department says ticks can be controlled with pesticides along trails and by keeping grass mowed, and UGA Extension suggests keeping grass short, fencing the yard to keep out deer and other dogs that bring in ticks, and using a yard pesticide as needed. Follow the label."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Hunters spend time where ticks gather: UGA Extension says lone star ticks are particularly common in brushy bottomlands where deer are plentiful, and deer and bears brought in at hunts are part of the state's own tick surveillance. The same precautions apply in the field."
+    },
+    {
+      "type": "p",
+      "text": "Dogs can bring ticks into yards, as UGA Extension notes, and it suggests treating dogs with an approved tick product. Ask a veterinarian which one suits your dog."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can you get Lyme disease in Georgia?",
+      "answer": "Yes, but it is rare. CDC counted 18 Lyme disease cases among Georgia residents in 2023, a rate of 0.2 per 100,000, and the state health department says local cases are reported every year, though some cases counted in Georgia may have been acquired out of state. CDC records show the Lyme bacterium in host-seeking blacklegged ticks from two coastal counties, Liberty and McIntosh. A 2021 study found that southern blacklegged tick nymphs rarely climb above the leaf litter, so they seldom meet people."
+    },
+    {
+      "question": "What is the most common tick in Georgia?",
+      "answer": "The lone star tick. The Georgia Department of Public Health calls it the most common tick in the state and the American dog tick the second most common. UGA Extension says the adult female lone star tick has a single white spot in the middle of her back and unusually long mouthparts. CDC's county table, through 2025, lists lone star ticks as established in 60 of Georgia's 159 counties and reported in 59 more."
+    },
+    {
+      "question": "Are ticks active in Georgia in the winter?",
+      "answer": "Some are. The state health department says tick-borne illnesses are most often transmitted between early spring and late fall, but that cases have been reported year-round in Georgia. On the state's chart of ticks collected from 2005 to 2023, blacklegged (deer) ticks turned up mostly from October through January, with far more in November than in any other month. Check yourself after time in woods or brush in winter, as you would in summer."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in Georgia?",
+      "answer": "The state health department does not generally recommend it. It says tick test results should not be used to make treatment decisions, a negative result can give false reassurance, and a person who was infected will probably develop symptoms before the results arrive. As of October 2026, the department does identify ticks from photos submitted online, free for Georgia residents. If you feel ill after a bite, see a health care provider instead of waiting on a tick."
+    },
+    {
+      "question": "Which tick-borne disease is most common in Georgia?",
+      "answer": "Spotted fever rickettsiosis, which includes Rocky Mountain spotted fever, by a small margin. The Georgia Department of Public Health counted 143 spotted fever cases among residents from 2020 to 2024, compared with 130 Lyme disease cases and 50 cases of anaplasmosis and ehrlichiosis combined. CDC county data for 2019 to 2022 show 118 spotted fever cases against 116 for Lyme disease, and in 2023 CDC put Georgia's spotted fever rate at 3.0 cases per million residents. The American dog tick spreads Rocky Mountain spotted fever, and adult Gulf Coast ticks have been linked to a related germ, Rickettsia parkeri."
+    },
+    {
+      "question": "What should I do if I find an Asian longhorned tick in Georgia?",
+      "answer": "If you find a large number of ticks on an animal, call your veterinarian and report it to the Georgia Department of Agriculture's Office of the State Veterinarian at (404) 656-3667 or AnimalHealth@agr.georgia.gov. The tick was confirmed in Pickens County in September 2021, and as of October 2026 the department lists it in Habersham, Hall, Pickens and White counties. CDC says the species appears less attracted to people than native ticks."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "American Dog Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (Reported Tickborne Disease Cases by County of Residence, 2019-2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "Where Ticks Live",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/about/where-ticks-live.html"
+    },
+    {
+      "title": "Data and Statistics on Spotted Fever Rickettsiosis (annual incidence of reported SFR by state, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "Tick-borne Diseases",
+      "publisher": "Georgia Department of Public Health",
+      "url": "https://dph.georgia.gov/tick-borne-diseases"
+    },
+    {
+      "title": "Lyme Disease",
+      "publisher": "Georgia Department of Public Health",
+      "url": "https://dph.georgia.gov/lyme"
+    },
+    {
+      "title": "Vector Surveillance Facts & FAQs (Common Ticks of Georgia)",
+      "publisher": "Georgia Department of Public Health",
+      "url": "https://dph.georgia.gov/vector-surveillance-facts-faqs"
+    },
+    {
+      "title": "Georgia Arboviral State Report, 2024 (presentation by a state public health entomologist, October 17, 2024)",
+      "publisher": "Georgia Department of Public Health (slides hosted by the Georgia Mosquito Control Association)",
+      "url": "https://www.gamosquito.org/resources/2024meeting/Session3/Kelly.pdf",
+      "kind": "government"
+    },
+    {
+      "title": "Asian Longhorned Tick",
+      "publisher": "Georgia Department of Agriculture",
+      "url": "https://agr.georgia.gov/asian-longhorned-tick"
+    },
+    {
+      "title": "Protect Yourself from Ticks (Circular 937, revised October 2022)",
+      "publisher": "University of Georgia Cooperative Extension",
+      "url": "https://fieldreport.caes.uga.edu/publications/C937/protect-yourself-from-ticks"
+    },
+    {
+      "title": "Why Lyme disease is common in the northern US, but rare in the south: The roles of host choice, host-seeking behavior, and tick density",
+      "publisher": "PLOS Biology (Ginsberg et al., January 2021)",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001066"
+    }
+  ],
+  "disclaimer": "both"
+}

@@ -1,0 +1,901 @@
+{
+  "slug": "ticks-in-new-jersey",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in new jersey",
+  "alsoTargets": [
+    "types of ticks in new jersey",
+    "tick season new jersey",
+    "lyme disease new jersey"
+  ],
+  "metaTitle": "Ticks in New Jersey: Types, Lyme Map, Season",
+  "metaDescription": "Deer ticks live in all 21 New Jersey counties, and the state reported 7,224 Lyme cases in 2023. Tick photos, county maps, the season and free testing.",
+  "h1": "Ticks in New Jersey: Species, County Maps, Lyme Data and Tick Season",
+  "dek": "Which ticks live in New Jersey, where Lyme disease is most common county by county, when each tick is active, and where to get a tick identified or tested at no cost.",
+  "breadcrumb": "Ticks in New Jersey",
+  "excerpt": "Blacklegged ticks are established in all 21 New Jersey counties. Tick photos, Lyme rates by county, the season month by month and where to get a tick tested free.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**New Jersey has at least 11 tick species, and the blacklegged (deer) tick, which spreads Lyme disease, is established in all 21 counties.** The state had 7,224 reported Lyme cases in 2023, according to [CDC surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html), and its own preliminary count for 2026 reached 5,280 by October 3. Blacklegged, lone star and American dog ticks are the ones residents meet most.",
+    "bullets": [
+      "CDC's county table, which runs through December 2025, lists blacklegged ticks as established in every county, and the Lyme bacterium has been found in host-seeking ticks in 20 of the 21.",
+      "Relative to population, 2023 Lyme rates were highest in the northwest: Hunterdon County's, about 564 per 100,000 residents, was more than seven times the state rate.",
+      "The lone star tick is established in 14 counties, and New Jersey's preliminary count for 2025 was 539 cases of alpha-gal syndrome, the meat allergy linked to its bites.",
+      "The invasive Asian longhorned tick was first identified in Hunterdon County in 2017 and had been confirmed in all 21 counties by September 2024.",
+      "Ticks can bite in any month: Rutgers says at least one biting species is typically active whenever it is above freezing, though most Lyme cases occur from May to October.",
+      "As of October 2026, Rutgers identifies ticks and tests some species free for residents, but the state health department says testing an individual tick is not useful and treatment should not wait for a result."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in New Jersey at a glance",
+    "rows": [
+      [
+        "Tick species in New Jersey",
+        "11 hard tick species confirmed with museum specimens (2019 review)"
+      ],
+      [
+        "Ticks residents meet most",
+        "Blacklegged (deer), lone star and American dog ticks"
+      ],
+      [
+        "Counties with established blacklegged ticks",
+        "21 of 21 (CDC, through December 2025)"
+      ],
+      [
+        "Lone star tick",
+        "Established in 14 counties, reported in 5 (CDC, through 2025)"
+      ],
+      [
+        "Asian longhorned tick",
+        "Confirmed in all 21 counties (USDA, as of September 2024)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "7,224 in 2023 (CDC); 6,595 in 2025 (state, preliminary)"
+      ],
+      [
+        "Lyme cases in 2026",
+        "5,280 reported through October 3 (state, preliminary)"
+      ],
+      [
+        "Lyme rate",
+        "77.9 per 100,000 in 2023, 11th among states (CDC data)"
+      ],
+      [
+        "Highest county rate, 2023",
+        "Hunterdon County, about 564 per 100,000 (735 cases; BuzzSkito's calculation from CDC and Census data)"
+      ],
+      [
+        "Alpha-gal syndrome",
+        "539 cases in 2025, the most of any tick-related condition after Lyme disease (state, preliminary)"
+      ],
+      [
+        "Riskiest months",
+        "May to October for Lyme disease; nymphs most abundant May to July (state health department)"
+      ],
+      [
+        "Free tick testing",
+        "NJ Ticks 4 Science at Rutgers tests blacklegged and Gulf Coast ticks for New Jersey residents (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in New Jersey?"
+    },
+    {
+      "type": "p",
+      "text": "New Jersey has 11 hard tick species confirmed by museum specimens, but three of them are the ones residents meet most: the blacklegged tick, the lone star tick and the American dog tick. The count comes from a [2019 review of the state's ticks by Rutgers and Smithsonian researchers](https://www.nj.gov/dep/fgw/pdf/ticksofnj.pdf), which also lists the invasive Asian longhorned tick. Most of the rest live mainly on raccoons, rabbits, birds or groundhogs and seldom meet people."
+    },
+    {
+      "type": "p",
+      "text": "The blacklegged tick, often called the deer tick, matters most for health. In New Jersey it spreads the germs of Lyme disease, anaplasmosis, babesiosis and *Borrelia miyamotoi* disease, and it has been found infected with deer tick virus, a close relative of Powassan virus, the review says. Deer feed adult ticks but do not pass on the Lyme germ. The [state health department's Lyme disease guidance](https://www.nj.gov/health/cd/documents/chapters/lyme_ch.pdf) says ticks pick it up as larvae or nymphs feeding on infected animals, especially white-footed mice."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where in New Jersey",
+        "When it is active",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in all 21 counties",
+          "Nymphs April to July; larvae August and September; adults from fall through spring, peaking in November",
+          "Lyme disease, anaplasmosis, babesiosis, *Borrelia miyamotoi* disease, Powassan virus"
+        ],
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Established in 14 counties, reported in 5",
+          "Adults and nymphs April to early August, most in June and July; larvae again August to October",
+          "Ehrlichiosis; bites linked to alpha-gal syndrome"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Established in 20 counties, reported in Camden County",
+          "Adults mid-March to late August",
+          "Rocky Mountain spotted fever and tularemia; females can cause tick paralysis"
+        ],
+        [
+          "Asian longhorned tick, *Haemaphysalis longicornis*",
+          "Invasive; confirmed in all 21 counties by 2024",
+          "March to October or early November",
+          "*Theileria orientalis* Ikeda in cattle; no human disease agents found in Rutgers' testing so far"
+        ]
+      ],
+      "caption": "Counties: [CDC](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), through 2025; Asian longhorned tick: [USDA, as of September 2024](https://www.nj.gov/agriculture/divisions/ah/pdf/AsianLonghornedTickSitRep.pdf). Seasons (1980s studies) and diseases: the [2019 review](https://www.nj.gov/dep/fgw/pdf/ticksofnj.pdf) and [Rutgers' NJ Ticks 4 Science](https://njticks4science.rutgers.edu/faq/) (as of October 2026), except the Asian longhorned tick's season and cattle disease ([state agriculture department](https://www.nj.gov/agriculture/divisions/ah/pdf/T_orientalis_Producer_Handout_04_2026.pdf), April 2026)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "An adult female blacklegged tick and a much smaller blacklegged tick nymph side by side on a person's fingertip",
+      "caption": "An adult female blacklegged (deer) tick, left, and a nymph on a fingertip. The state health department says nymphs pose the greatest threat because they are so small they may go unnoticed.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "p",
+      "text": "CDC's [American dog tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html) lists this tick as established in 20 of the 21 counties and reported in Camden County, through 2025. The 2019 review calls it an important carrier of the Rocky Mountain spotted fever germ, though recent US studies have not found that germ in a high share of these ticks. Rutgers' [NJ Ticks 4 Science program](https://njticks4science.rutgers.edu/faq/) stopped testing American dog and Asian longhorned ticks after thousands were tested without finding a human disease agent. To compare markings, see [how to tell the common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. Its pale, mottled shield sets it apart from the plain dark shield of a blacklegged tick.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "p",
+      "text": "The review describes two less common residents worth knowing. The brown dog tick, first recorded in Atlantic City in 1936, can complete its whole life cycle indoors, in homes and kennels. The groundhog tick lives mainly on woodchucks, rarely bites people and can carry Powassan virus."
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged ticks found in New Jersey?"
+    },
+    {
+      "type": "p",
+      "text": "In every county. [CDC's county surveillance table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in all 21 New Jersey counties, meaning six or more ticks of one life stage, or more than one life stage, were collected in a county within 12 months. The 2019 review says the tick spread into the northern third of the state during the 1980s. To compare other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "p",
+      "text": "The state health department's [Lyme disease guidance for local health departments](https://www.nj.gov/health/cd/documents/chapters/lyme_ch.pdf) says every part of New Jersey is considered endemic for Lyme disease, human cases have been reported from every county, and the highest risk is in wooded rural and suburban settings. Nymphs are typically found in woods, brush and grassy areas near woodland edges."
+    },
+    {
+      "type": "p",
+      "text": "How many ticks carry germs varies by place and year. At three forested sites in Hunterdon County in 2020 and 2021, [researchers found the Lyme bacterium](https://pmc.ncbi.nlm.nih.gov/articles/PMC10481180/) in 16.8% of 232 blacklegged nymphs and 48.6% of 430 adults. About one in four nymphs and more than half of the adults carried at least one of the five germs tested, and infection was lower in 2021 than in 2020 for every germ."
+    },
+    {
+      "type": "h3",
+      "text": "Which germs have been found in New Jersey ticks?"
+    },
+    {
+      "type": "p",
+      "text": "CDC's companion table records where each germ has been found in host-seeking blacklegged ticks, meaning ticks hunting for a host rather than feeding on one. It is cumulative, and a county without a record is not proof the germ is absent."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Germ",
+        "Illness",
+        "New Jersey counties with a record"
+      ],
+      "rows": [
+        [
+          "*Borrelia burgdorferi*",
+          "Lyme disease",
+          "20 of 21 (all but Hudson)"
+        ],
+        [
+          "*Babesia microti*",
+          "Babesiosis",
+          "20 of 21 (all but Hudson)"
+        ],
+        [
+          "*Borrelia miyamotoi*",
+          "Hard tick relapsing fever",
+          "20 of 21 (all but Hudson)"
+        ],
+        [
+          "Powassan virus",
+          "Powassan virus disease",
+          "9: Bergen, Camden, Hunterdon, Mercer, Middlesex, Morris, Somerset, Sussex and Warren"
+        ],
+        [
+          "*Anaplasma phagocytophilum*, human-active variant",
+          "Anaplasmosis",
+          "None in CDC's table; the Hunterdon County study found the human-infective variant in 2020"
+        ],
+        [
+          "*Borrelia mayonii*",
+          "A rarer cause of Lyme disease",
+          "None"
+        ]
+      ],
+      "caption": "Source: [CDC tick surveillance data sets](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) (ArboNET Tick Module), pathogen table through December 2025. The anaplasmosis note comes from the [2020 to 2021 Hunterdon County study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10481180/)."
+    },
+    {
+      "type": "h2",
+      "text": "Is the lone star tick in New Jersey?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, and its range now reaches the north of the state. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) lists it as established in 14 New Jersey counties, from Cape May in the south to Passaic in the north, and reported in five more (Hudson, Hunterdon, Morris, Sussex and Warren), through 2025. Only Bergen and Essex counties have no record. The 2019 review described it as established in the southern counties, with signs that it was spreading north."
+    },
+    {
+      "type": "map",
+      "scope": "NJ",
+      "title": "Lone star tick status by county, New Jersey, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "34001": "established",
+        "34005": "established",
+        "34007": "established",
+        "34009": "established",
+        "34011": "established",
+        "34015": "established",
+        "34017": "reported",
+        "34019": "reported",
+        "34021": "established",
+        "34023": "established",
+        "34025": "established",
+        "34027": "reported",
+        "34029": "established",
+        "34031": "established",
+        "34033": "established",
+        "34035": "established",
+        "34037": "reported",
+        "34039": "established",
+        "34041": "reported"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer. No record does not mean no ticks: it can mean no one has sampled there. Status is cumulative and depends on how much sampling a county has had.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick, named for the single pale spot on its back.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "It readily feeds on people and pets, and in Monmouth County it is the species residents most often submit to the county's tick identification program, the 2019 review notes. It does not spread Lyme disease, which only the blacklegged tick transmits in the eastern United States, according to Rutgers. It does spread ehrlichiosis, and its bites are linked to alpha-gal syndrome, an allergy to a sugar found in most mammal meat. New Jersey counted 539 alpha-gal cases in 2025, more than any other tick-related condition except Lyme disease, according to the [health department's report for the week ending October 3, 2026](https://www.nj.gov/health/cd/documents/topics/vectorborne/Reports/Vector-borne-report-week-39-2026.pdf). See [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome) for symptoms."
+    },
+    {
+      "type": "h2",
+      "text": "When did the Asian longhorned tick reach New Jersey?"
+    },
+    {
+      "type": "p",
+      "text": "It was first identified there in 2017. According to the [2019 review](https://www.nj.gov/dep/fgw/pdf/ticksofnj.pdf), several life stages were found on an Icelandic sheep and in its paddock in Hunterdon County in August 2017, the species' first detection outside quarantine in the United States. It had been intercepted earlier, on a horse during a USDA quarantine inspection in New Jersey in 1969, and a [USDA situation report as of September 5, 2024](https://www.nj.gov/agriculture/divisions/ah/pdf/AsianLonghornedTickSitRep.pdf) lists a New Jersey specimen collected in 2013 but identified in 2018."
+    },
+    {
+      "type": "p",
+      "text": "That report confirms the tick, native to eastern Asia, in all 21 New Jersey counties and notes it can reproduce without a male, so a single fed female can start a population. In April 2026 the [state agriculture department](https://www.nj.gov/agriculture/divisions/ah/pdf/T_orientalis_Producer_Handout_04_2026.pdf) said it is widespread in New Jersey, is found in 23 other states and is active in New Jersey from March through October or early November."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-female.webp",
+      "width": 1200,
+      "height": 1680,
+      "alt": "Adult female Asian longhorned tick climbing a blade of grass, plain reddish-brown with no markings on its back",
+      "caption": "Adult female Asian longhorned tick. It is plain reddish-brown, without the pale spot of a lone star tick or the mottled shield of an American dog tick.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22886"
+    },
+    {
+      "type": "p",
+      "text": "It can be abundant: at the Hunterdon County forest sites sampled in 2020 and 2021, researchers collected more Asian longhorned ticks (1,034) than blacklegged ticks (662). So far its known harm in New Jersey is to livestock: it is an emerging carrier of *Theileria orientalis* Ikeda, a blood parasite that can cause anemia and death in cattle. The state agriculture department says the parasite was first detected in New Jersey cattle in Warren County in November 2024, has since been found in more herds, and is not a threat to human health."
+    },
+    {
+      "type": "h3",
+      "text": "How do you report an Asian longhorned tick in New Jersey?"
+    },
+    {
+      "type": "p",
+      "text": "It depends on where you found it:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**On a person or a pet:** submit it to Rutgers' [NJ Ticks 4 Science program](https://njticks4science.rutgers.edu/faq/), which identifies New Jersey ticks free of charge for residents, though it no longer tests this species for germs.",
+        "**On cattle or other livestock:** call your herd veterinarian. For the 2026 tick season the New Jersey Department of Agriculture offers free testing of sick cattle for *Theileria* and *Anaplasma* through herd veterinarians, while grant funds last; its Division of Animal Health is at 609-671-6400."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does New Jersey have?"
+    },
+    {
+      "type": "p",
+      "text": "New Jersey reported 7,224 Lyme disease cases in 2023, a rate of 77.9 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). That was the fourth-highest count among states, behind New York, Pennsylvania and Massachusetts, and the 11th-highest rate. It was also the highest yearly count for New Jersey in CDC's state table, which goes back to 2008."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in New Jersey, 2008 to 2025",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "CDC: confirmed and probable cases",
+          "values": [
+            3485,
+            4973,
+            3712,
+            4262,
+            3576,
+            3766,
+            3286,
+            4855,
+            4350,
+            5092,
+            4000,
+            3619,
+            2566,
+            3518,
+            5897,
+            7224,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "State health department: preliminary count",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            6258,
+            6595
+          ]
+        }
+      ],
+      "yLabel": "Cases per year",
+      "caption": "A revised case definition took effect in 2022: New Jersey now counts cases from laboratory reports alone, so 2022 onward is not directly comparable with earlier years. CDC says COVID-19 left 2019 and 2020 data incomplete in some states. CDC counts are by state of residence and run through 2023, its latest year as of October 2026; the 2024 and 2025 bars are the state's preliminary counts and may change.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html) (2008 to 2023); New Jersey Department of Health weekly reports for [November 2025](https://www.nj.gov/health/cd/documents/topics/vectorborne/Reports/Vector-borne_Report_Week_45_2025.pdf) (2024) and [October 2026](https://www.nj.gov/health/cd/documents/topics/vectorborne/Reports/Vector-borne-report-week-39-2026.pdf) (2025)"
+    },
+    {
+      "type": "p",
+      "text": "Read the jump after 2021 with care. Under the 2022 national case definition, a high-incidence state such as New Jersey counts cases from laboratory evidence alone, without gathering clinical details, and reports them all as probable. The state's [Lyme disease guidance](https://www.nj.gov/health/cd/documents/chapters/lyme_ch.pdf) says New Jersey switched to laboratory-only surveillance for routine cases in 2022, and cites a preliminary analysis suggesting this approach yields counts about 20% higher than the 2012 to 2018 average reported to CDC."
+    },
+    {
+      "type": "p",
+      "text": "The state's own preliminary counts show the level has stayed high: 6,258 cases in 2024, 6,595 in 2025 and 5,280 in 2026 through October 3, according to the health department's weekly reports for [November 2025](https://www.nj.gov/health/cd/documents/topics/vectorborne/Reports/Vector-borne_Report_Week_45_2025.pdf) and [October 2026](https://www.nj.gov/health/cd/documents/topics/vectorborne/Reports/Vector-borne-report-week-39-2026.pdf). Reported cases are only part of the picture: the state's guidance cites national estimates that about 476,000 people may get Lyme disease each year in the United States."
+    },
+    {
+      "type": "h3",
+      "text": "How does New Jersey compare with its neighbors?"
+    },
+    {
+      "type": "p",
+      "text": "New Jersey sits between the two states that reported the most Lyme disease in 2023. Its rate was lower than New York's or Pennsylvania's but more than double Delaware's."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Cases per 100,000, 2023"
+      ],
+      "rows": [
+        [
+          "[New York](/blog/ticks-in-new-york)",
+          "22,173",
+          "111.7"
+        ],
+        [
+          "[Pennsylvania](/blog/ticks-in-pennsylvania)",
+          "16,671",
+          "128.1"
+        ],
+        [
+          "New Jersey",
+          "7,224",
+          "77.9"
+        ],
+        [
+          "[Delaware](/blog/ticks-in-delaware)",
+          "349",
+          "34.7"
+        ]
+      ],
+      "caption": "Confirmed and probable cases by state of residence, from [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Data through 2023, the latest year CDC had published as of October 2026."
+    },
+    {
+      "type": "h2",
+      "text": "Which New Jersey counties have the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Relative to population, the three northwestern counties: Hunterdon, Warren and Sussex. In 2023 each recorded more than 360 cases per 100,000 residents, and Hunterdon's rate, about 564, was more than seven times the statewide rate. The map shows the 2023 rate for every county, calculated by BuzzSkito from [CDC's county-level Lyme data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) and the [Census Bureau's county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)."
+    },
+    {
+      "type": "map",
+      "scope": "NJ",
+      "title": "Lyme disease cases per 100,000 residents by county, New Jersey, 2023",
+      "categories": [
+        {
+          "key": "300plus",
+          "label": "300 or more"
+        },
+        {
+          "key": "100to299",
+          "label": "100 to 299"
+        },
+        {
+          "key": "50to99",
+          "label": "50 to 99"
+        },
+        {
+          "key": "under50",
+          "label": "Under 50"
+        }
+      ],
+      "values": {
+        "34001": "50to99",
+        "34003": "50to99",
+        "34005": "under50",
+        "34007": "under50",
+        "34009": "50to99",
+        "34011": "50to99",
+        "34013": "under50",
+        "34015": "under50",
+        "34017": "under50",
+        "34019": "300plus",
+        "34021": "50to99",
+        "34023": "50to99",
+        "34025": "100to299",
+        "34027": "100to299",
+        "34029": "50to99",
+        "34031": "50to99",
+        "34033": "50to99",
+        "34035": "100to299",
+        "34037": "300plus",
+        "34039": "under50",
+        "34041": "300plus"
+      },
+      "caption": "Confirmed and probable cases by county of residence. Rates are BuzzSkito's calculation: CDC's 2023 county counts divided by the Census Bureau's July 1, 2023 population estimates (Vintage 2025). CDC places cases in a county only where the county of residence is known, and its New Jersey counties add up to 7,106 of the state's 7,224 cases.",
+      "source": "[CDC county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html), 2023; [U.S. Census Bureau county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Lyme cases, 2023",
+        "Cases per 100,000"
+      ],
+      "rows": [
+        [
+          "Hunterdon",
+          "735",
+          "564.0"
+        ],
+        [
+          "Warren",
+          "413",
+          "369.9"
+        ],
+        [
+          "Sussex",
+          "530",
+          "362.2"
+        ],
+        [
+          "Morris",
+          "674",
+          "130.4"
+        ],
+        [
+          "Somerset",
+          "390",
+          "111.1"
+        ],
+        [
+          "Monmouth",
+          "674",
+          "104.4"
+        ]
+      ],
+      "caption": "The six counties above 100 cases per 100,000 residents in 2023. Sources as for the map."
+    },
+    {
+      "type": "p",
+      "text": "Raw counts follow population as well as risk: after Hunterdon (735 cases) came Monmouth and Morris (674 each) and Ocean (611). The lowest rates were in the urban northeast: Hudson (20.4 per 100,000), Essex (24.5) and Union (25.4). As of early October 2026, the state's reports showed the same pattern, with most cases in Hunterdon, Morris, Sussex, Ocean and Monmouth counties."
+    },
+    {
+      "type": "p",
+      "text": "Two cautions apply. Cases are counted where the patient lives, which may not be where the bite happened, as [CDC's Lyme case map page](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) notes. And ticks alone do not explain the gap: the Hunterdon researchers found that nymphs in coastal Monmouth County were more often infected in most comparisons, and adult ticks were denser at Monmouth sites in 2021, yet Hunterdon's reported rates of Lyme disease, babesiosis and anaplasmosis were several times higher. They recommended studying causes beyond the ticks."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in New Jersey?"
+    },
+    {
+      "type": "p",
+      "text": "After Lyme disease, the tick-related conditions New Jersey reports most are alpha-gal syndrome, babesiosis and anaplasmosis. The health department warns that counts other than Lyme may be much lower than the true numbers, because each case needs a public health investigation, and that all recent figures are preliminary."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease or condition",
+        "Tick linked to it",
+        "2024",
+        "2025",
+        "2026, to October 3"
+      ],
+      "rows": [
+        [
+          "Alpha-gal syndrome",
+          "Lone star tick",
+          "374",
+          "539",
+          "498"
+        ],
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "276",
+          "373",
+          "171"
+        ],
+        [
+          "Anaplasmosis",
+          "Blacklegged tick",
+          "175",
+          "312",
+          "208"
+        ],
+        [
+          "Ehrlichiosis",
+          "Lone star tick",
+          "78",
+          "98",
+          "95"
+        ],
+        [
+          "Spotted fever group rickettsioses",
+          "Not well understood in New Jersey (Rutgers)",
+          "27",
+          "25",
+          "31"
+        ],
+        [
+          "Hard tick relapsing fever",
+          "Blacklegged tick",
+          "13",
+          "14",
+          "6"
+        ],
+        [
+          "Powassan virus disease",
+          "Blacklegged tick; groundhog tick",
+          "2",
+          "2",
+          "None reported"
+        ],
+        [
+          "Tularemia",
+          "American dog tick",
+          "2",
+          "1",
+          "3"
+        ]
+      ],
+      "caption": "Preliminary counts from the New Jersey Department of Health's weekly reports for [November 2025](https://www.nj.gov/health/cd/documents/topics/vectorborne/Reports/Vector-borne_Report_Week_45_2025.pdf) (2024 totals) and [the week ending October 3, 2026](https://www.nj.gov/health/cd/documents/topics/vectorborne/Reports/Vector-borne-report-week-39-2026.pdf) (2025 totals and 2026 to date). Ticks: the [2019 review](https://www.nj.gov/dep/fgw/pdf/ticksofnj.pdf). Data through October 3, 2026."
+    },
+    {
+      "type": "p",
+      "text": "Anaplasmosis set a record in 2025: the state's [2025 season summary](https://www.nj.gov/health/cd/documents/topics/vectorborne/Reports/Vector_EOY_2025.pdf) called it the most ever reported, above the previous high of 203 cases in 2021, with the most cases in Hunterdon, Sussex, Morris and Warren counties. Cases ran high from late May, the peak nymph season, and rose again in the fall, when adult ticks are active. Powassan virus disease stays rare; one of the two 2025 cases was the first ever reported from Monmouth County."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in New Jersey?"
+    },
+    {
+      "type": "p",
+      "text": "All year, with the most risk from spring through summer. The state's [Lyme disease guidance](https://www.nj.gov/health/cd/documents/chapters/lyme_ch.pdf) says most Lyme cases in New Jersey occur between May and October, and that blacklegged nymphs, the riskiest stage, are most abundant from May to July. Rutgers' [NJ Ticks 4 Science program](https://njticks4science.rutgers.edu/faq/) adds that whenever the temperature is above freezing (32°F), at least one tick species that bites people is typically active."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Time of year",
+        "Blacklegged (deer) tick",
+        "Other ticks",
+        "What New Jersey's data show"
+      ],
+      "rows": [
+        [
+          "Winter (December to February)",
+          "Adults seek hosts during mild spells",
+          "Brown dog ticks can be active indoors all year",
+          "Biting ticks typically active on any day above freezing (Rutgers)"
+        ],
+        [
+          "Early spring (March and April)",
+          "Adults active again; nymphs emerge in April",
+          "Dog tick adults from mid-March; Asian longhorned from March; lone star from April",
+          "Tick-bite emergency visits start rising in March"
+        ],
+        [
+          "Late spring and early summer (May to July)",
+          "Nymphs most abundant",
+          "Lone star adults and nymphs busiest in June and July",
+          "Tick-bite emergency visits peak in May and June"
+        ],
+        [
+          "Late summer (August and September)",
+          "Larvae hatch",
+          "Lone star larvae peak in September; dog tick adults stop after late August",
+          "Within the May to October window for most Lyme cases"
+        ],
+        [
+          "Fall (October and November)",
+          "Adults emerge, peaking in November",
+          "Lone star larvae gone by the end of October; Asian longhorned active until October or early November",
+          "A second, smaller rise in tick-bite visits and anaplasmosis cases"
+        ]
+      ],
+      "caption": "Life stages: the [2019 review](https://www.nj.gov/dep/fgw/pdf/ticksofnj.pdf) (mostly 1980s field studies) and, for the Asian longhorned tick, the [state agriculture department](https://www.nj.gov/agriculture/divisions/ah/pdf/T_orientalis_Producer_Handout_04_2026.pdf). Emergency visits and anaplasmosis: the [2025 season summary](https://www.nj.gov/health/cd/documents/topics/vectorborne/Reports/Vector_EOY_2025.pdf). Lyme months and the nymph peak: the state's [Lyme disease guidance](https://www.nj.gov/health/cd/documents/chapters/lyme_ch.pdf)."
+    },
+    {
+      "type": "p",
+      "text": "The state's emergency department data trace the same curve. In 2025, visits for tick bites began climbing in March, peaked in May and June and rose again in late October and November, the [2025 season summary](https://www.nj.gov/health/cd/documents/topics/vectorborne/Reports/Vector_EOY_2025.pdf) shows. Winter is not tick-free either: the [2019 review](https://www.nj.gov/dep/fgw/pdf/ticksofnj.pdf) says adult blacklegged ticks stay active all winter, seeking large hosts such as deer during spells of moderate weather, and become active again in April and May."
+    },
+    {
+      "type": "h2",
+      "text": "Where can you get a tick identified or tested in New Jersey?"
+    },
+    {
+      "type": "p",
+      "text": "As of October 2026, Rutgers' NJ Ticks 4 Science program identifies ticks and tests some of them for germs at no cost to New Jersey residents. Its [answers to common questions](https://njticks4science.rutgers.edu/faq/) say blacklegged ticks are tested for the Lyme bacterium, *Borrelia miyamotoi*, *Babesia microti* and *Anaplasma phagocytophilum*, and Gulf Coast ticks, a southern species the 2019 review said could become established here, for *Rickettsia parkeri*. The program has stopped testing lone star, Asian longhorned and American dog ticks. Results typically take one to two weeks, not counting weekends, after the tick arrives."
+    },
+    {
+      "type": "p",
+      "text": "The program is clear about what a result means. A positive test shows a germ was in the tick, not that it reached you, and a negative result cannot rule out illness, partly because other ticks may have bitten unnoticed. It cannot test a tick for alpha-gal syndrome, because alpha-gal is a sugar, not a germ."
+    },
+    {
+      "type": "p",
+      "text": "The state health department is more skeptical. Its [Lyme disease guidance](https://www.nj.gov/health/cd/documents/chapters/lyme_ch.pdf) says testing an individual tick is not useful: a positive tick does not prove the person was infected, symptoms usually appear before results arrive, and a negative result can falsely reassure someone bitten by a different tick. Treatment should not wait for a result. Identifying the tick, rather than testing it, can help in a talk with a health care provider, the department says, and county mosquito control agencies or extension offices may offer identification. To narrow it down yourself, use [a chart comparing deer, dog and lone star ticks](/learn/tick-identification-chart)."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in New Jersey?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick as soon as you find it, call a health care provider promptly if it may have been a deer tick, and watch for symptoms over the next month. The [state health department's guidance](https://www.nj.gov/health/cd/documents/chapters/lyme_ch.pdf) describes removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick with fine-tipped tweezers as close to the skin as possible.",
+        "Pull the body away from the skin with a steady motion; do not twist or jerk it, which can leave the mouthparts behind.",
+        "If mouthparts stay in the skin, remove them with tweezers if you can. If you cannot, the department says it is not a cause for concern.",
+        "Clean the bite with rubbing alcohol, an iodine scrub, or soap and water, and write down the date."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Do not use petroleum jelly, a hot match or nail polish, and never crush a tick with your fingers. Redness that appears within several hours of a bite is a reaction to the bite, not the Lyme rash, the department says. For more detail, see [the step-by-step tick removal guide](/blog/how-to-remove-tick-safely)."
+    },
+    {
+      "type": "p",
+      "text": "A single dose of the antibiotic doxycycline may be used to lower the risk of Lyme disease after a high-risk bite. The state's guidance says the benefits may outweigh the risks when the tick is an adult or nymph blacklegged tick attached for an estimated 36 hours or more, the dose can start within 72 hours of removal and doxycycline is not ruled out for the patient; New Jersey qualifies as a place where Lyme disease is common. A provider decides whether it fits your case."
+    },
+    {
+      "type": "p",
+      "text": "How fast germs pass varies. The state says the tick usually must be attached for 36 to 48 hours or more to pass the Lyme bacterium; Rutgers puts it at about 24 to 48 hours. Powassan virus can pass within minutes, and the germs of anaplasmosis and one form of ehrlichiosis within a few hours, Rutgers adds, so even quick removal may not always prevent infection."
+    },
+    {
+      "type": "p",
+      "text": "Then watch for a rash. About 60% to 80% of people with Lyme disease develop the erythema migrans rash, the state's guidance says. It begins at the bite 3 to 30 days later (about 7 days on average), expands over several days (up to 12 inches or more across) and sometimes clears in the middle into a bull's-eye. Fever, chills, headache, fatigue, muscle and joint aches, a stiff neck and swollen lymph nodes are other early signs. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow without treatment."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Expanding red rash on the back of a person's upper arm, with a darker red center and a wide red outer ring in a bull's-eye pattern",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, on an upper arm. Only some of these rashes clear in the middle into a bull's-eye like this one.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you feel ill",
+      "text": "A rash, fever, headache or body aches in the weeks after a tick bite or time outdoors is a reason to see a provider and mention the tick. Do not wait for a tick test result. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in New Jersey?"
+    },
+    {
+      "type": "p",
+      "text": "Use repellent, treat your clothes, stay out of high grass and check yourself after every outing. The [state health department's guidance](https://www.nj.gov/health/cd/documents/chapters/lyme_ch.pdf) lists these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Stay on trails.** Keep to trails when walking or hiking, and avoid high grass.",
+        "**Cover up.** Wear long sleeves and long, light-colored pants tucked into socks or boots.",
+        "**Use repellent on skin.** Products with 20% or more DEET, picaridin or IR3535 protect for several hours. Follow the label, and apply it to children yourself, avoiding their hands, eyes and mouth.",
+        "**Treat clothing and gear with 0.5% permethrin.** Boots, pants, socks and tents stay protected through several washings.",
+        "**Shower and check.** Bathe within 2 hours of coming indoors and do a full-body tick check with a mirror. On children, check the hair, ears, underarms, belly button, waist and backs of the knees.",
+        "**Use the dryer.** Ten minutes on high heat kills ticks on dry clothing."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Around the home, the department suggests clearing tall grass and brush, mowing often, raking leaves, and laying a 3-foot strip of wood chips or gravel between lawns and woods. Rutgers' [NJ Ticks 4 Science program](https://njticks4science.rutgers.edu/faq/) adds that Japanese barberry, an invasive shrub, creates the dense, humid cover ticks need, and recommends removing it where possible."
+    },
+    {
+      "type": "p",
+      "text": "Pets carry ticks home. The state says dogs and cats can get Lyme disease but there is no evidence that they spread it directly to people, and it recommends a tick preventive for dogs. See [where to check a dog for ticks and how to remove one](/blog/ticks-on-dogs)."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are ticks active in New Jersey in the winter?",
+      "answer": "Yes. Rutgers' NJ Ticks 4 Science program says that whenever the temperature is above freezing, at least one tick species that bites people is typically active. A 2019 review of New Jersey's ticks, drawing on 1980s field studies, says adult blacklegged ticks peak in November and stay active through the winter, looking for hosts during mild weather. Most Lyme disease cases in the state occur between May and October, but a mild winter day in woods or leaf litter still calls for a tick check."
+    },
+    {
+      "question": "What percentage of ticks in New Jersey carry Lyme disease?",
+      "answer": "It varies by place, year and life stage. At three forested sites in Hunterdon County in 2020 and 2021, researchers found the Lyme bacterium in 16.8% of blacklegged nymphs and 48.6% of adults, and infection was lower in 2021 than in 2020. Only the blacklegged tick spreads Lyme disease in the eastern United States, so lone star, American dog and Asian longhorned ticks do not carry that risk, although some of them carry other diseases."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in New Jersey?",
+      "answer": "Yes. As of October 2026, Rutgers' NJ Ticks 4 Science program tests blacklegged ticks free for New Jersey residents, for the Lyme bacterium and three other germs, with results typically in one to two weeks, not counting weekends. The state health department says testing an individual tick is not useful: a positive tick does not prove you were infected, and a negative one can falsely reassure you. If you feel ill, see a health care provider rather than waiting for a result."
+    },
+    {
+      "question": "Which New Jersey county has the most Lyme disease?",
+      "answer": "Hunterdon County, by both measures. It had the most cases in 2023, 735, and the highest rate, about 564 per 100,000 residents, followed by Warren and Sussex counties, based on CDC county counts and Census population estimates. Monmouth and Morris counties had 674 cases each. Cases are counted where patients live, not where they were bitten, so a county's rate does not show exactly where infections happen."
+    },
+    {
+      "question": "Is the Asian longhorned tick dangerous to people in New Jersey?",
+      "answer": "So far it has mainly been a livestock problem. Rutgers' tick program stopped testing Asian longhorned ticks after thousands of them and American dog ticks were tested without finding a germ that causes human disease. In cattle it carries Theileria orientalis Ikeda, a blood parasite first detected in New Jersey cattle in 2024, which the state agriculture department says is not a threat to human health. The tick, first identified in the state in 2017, has been confirmed in all 21 counties."
+    },
+    {
+      "question": "Should I see a doctor after a tick bite in New Jersey?",
+      "answer": "Call a provider promptly if the tick may have been an adult or nymph deer tick that was attached for 36 hours or more: the state health department says a single dose of doxycycline started within 72 hours of removal may be used to lower the risk of Lyme disease. Also see a provider if a rash, fever, chills, headache, fatigue, or muscle and joint aches appear in the weeks after a bite, and mention the tick."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "American Dog Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html"
+    },
+    {
+      "title": "County Population Totals and Components of Change: 2020-2025",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html"
+    },
+    {
+      "title": "Vector-borne Surveillance Report, CDC Week 39: September 27 to October 3, 2026",
+      "publisher": "New Jersey Department of Health",
+      "url": "https://www.nj.gov/health/cd/documents/topics/vectorborne/Reports/Vector-borne-report-week-39-2026.pdf"
+    },
+    {
+      "title": "Vector-borne Surveillance Report, CDC Week 45: November 2 to 8, 2025",
+      "publisher": "New Jersey Department of Health",
+      "url": "https://www.nj.gov/health/cd/documents/topics/vectorborne/Reports/Vector-borne_Report_Week_45_2025.pdf"
+    },
+    {
+      "title": "Vector-borne Surveillance Report: 2025 Season Summary",
+      "publisher": "New Jersey Department of Health",
+      "url": "https://www.nj.gov/health/cd/documents/topics/vectorborne/Reports/Vector_EOY_2025.pdf"
+    },
+    {
+      "title": "Lyme Disease (Communicable Disease Service Manual chapter, March 2026)",
+      "publisher": "New Jersey Department of Health",
+      "url": "https://www.nj.gov/health/cd/documents/chapters/lyme_ch.pdf"
+    },
+    {
+      "title": "FAQ",
+      "publisher": "NJ Ticks 4 Science, Rutgers University",
+      "url": "https://njticks4science.rutgers.edu/faq/"
+    },
+    {
+      "title": "Annotated List of the Hard Ticks (Acari: Ixodida: Ixodidae) of New Jersey (Occi, Egizi, Robbins and Fonseca, 2019)",
+      "publisher": "Journal of Medical Entomology (copy hosted by the New Jersey Division of Fish and Wildlife)",
+      "url": "https://www.nj.gov/dep/fgw/pdf/ticksofnj.pdf"
+    },
+    {
+      "title": "Detection of multiple tick-borne pathogens in Ixodes scapularis from Hunterdon County, NJ, USA (Narvaez and others, 2023)",
+      "publisher": "Current Research in Parasitology and Vector-Borne Diseases (via PubMed Central)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10481180/"
+    },
+    {
+      "title": "National Haemaphysalis longicornis (Asian Longhorned Tick) Situation Report, as of September 5, 2024",
+      "publisher": "USDA Animal and Plant Health Inspection Service (copy hosted by the New Jersey Department of Agriculture)",
+      "url": "https://www.nj.gov/agriculture/divisions/ah/pdf/AsianLonghornedTickSitRep.pdf"
+    },
+    {
+      "title": "Free Tick Disease Testing for NJ Cattle Through 2026 (April 2026)",
+      "publisher": "New Jersey Department of Agriculture, Division of Animal Health",
+      "url": "https://www.nj.gov/agriculture/divisions/ah/pdf/T_orientalis_Producer_Handout_04_2026.pdf"
+    }
+  ],
+  "disclaimer": "both"
+}
