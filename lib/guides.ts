@@ -55,9 +55,9 @@ export type GuideBlock =
    */
   | { type: 'chart'; title: string; x: string[]; series: { name: string; values: (number | null)[] }[]; yLabel?: string; caption?: string; source: string }
   /**
-   * A map shaded from published data: `scope` "us" draws the states, "ca" the provinces and
-   * territories, a two-letter state code that state's counties, a province code its census
-   * divisions. `values` maps a place id (state or province code, county FIPS, census division
+   * A map shaded from published data: `scope` "us" draws the states, "canada" the provinces and
+   * territories ("ca" is California), a two-letter state code that state's counties, a province
+   * code its census divisions. `values` maps a place id (state or province code, county FIPS, census division
    * code) to a category key. Geometry comes from data/geo/ (scripts/build-geo.mjs).
    */
   | { type: 'map'; scope: string; title: string; categories: { key: string; label: string }[]; values: Record<string, string>; links?: Record<string, string>; caption?: string; source: string }

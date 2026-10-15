@@ -83,6 +83,80 @@
    "releaseOn": "2026-11-16"
   },
   {
+   "slug": "ticks-in-manitoba",
+   "section": "blog",
+   "role": "page",
+   "cluster": "ticks",
+   "series": "ticks-by-province",
+   "state": "MB",
+   "audience": "ca",
+   "keyword": "ticks in manitoba",
+   "alsoTargets": [
+    "tick season manitoba",
+    "lyme disease manitoba",
+    "are there ticks in manitoba"
+   ],
+   "h1Hint": "Ticks in Manitoba: Species, Lyme Risk Areas and Tick Season",
+   "scope": "For Canadian readers: which ticks live in Manitoba and which bite people most; where the province's own surveillance places blacklegged ticks and its published Lyme disease risk areas; Manitoba's reported Lyme disease cases by year (provincial and Public Health Agency of Canada figures, with their caveats); when ticks are active in Manitoba, by month, in Celsius; how to get a tick identified (eTick or the provincial program) and whether ticks are tested; prevention and what to do after a bite. Built from the province's data packet (dataPacket) plus the provincial health ministry pages.",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/ticks-by-province",
+    "name": "Ticks by Province"
+   },
+   "mustLink": [
+    "/learn/ticks-by-province"
+   ],
+   "neighbors": [
+    "/blog/ticks-in-saskatchewan",
+    "/blog/what-ticks-look-like-ontario"
+   ],
+   "minNeighbors": 2,
+   "dataPacket": "data/god-build/packets/ticks-ca/MB.json",
+   "releaseOn": "2026-11-16"
+  },
+  {
+   "slug": "ticks-in-alberta",
+   "section": "blog",
+   "role": "page",
+   "cluster": "ticks",
+   "series": "ticks-by-province",
+   "state": "AB",
+   "audience": "ca",
+   "keyword": "ticks in alberta",
+   "alsoTargets": [
+    "tick season alberta",
+    "lyme disease alberta",
+    "are there ticks in alberta"
+   ],
+   "h1Hint": "Ticks in Alberta: Species, Lyme Risk Areas and Tick Season",
+   "scope": "For Canadian readers: which ticks live in Alberta and which bite people most; where the province's own surveillance places blacklegged ticks and its published Lyme disease risk areas; Alberta's reported Lyme disease cases by year (provincial and Public Health Agency of Canada figures, with their caveats); when ticks are active in Alberta, by month, in Celsius; how to get a tick identified (eTick or the provincial program) and whether ticks are tested; prevention and what to do after a bite. Built from the province's data packet (dataPacket) plus the provincial health ministry pages.",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/ticks-by-province",
+    "name": "Ticks by Province"
+   },
+   "mustLink": [
+    "/learn/ticks-by-province"
+   ],
+   "neighbors": [
+    "/blog/ticks-in-british-columbia",
+    "/blog/ticks-in-saskatchewan"
+   ],
+   "minNeighbors": 2,
+   "dataPacket": "data/god-build/packets/ticks-ca/AB.json",
+   "releaseOn": "2026-11-16"
+  },
+  {
    "slug": "ticks-in-new-brunswick",
    "section": "blog",
    "role": "page",
@@ -195,21 +269,21 @@
    "releaseOn": "2026-11-16"
   },
   {
-   "slug": "ticks-in-manitoba",
+   "slug": "ticks-in-newfoundland-and-labrador",
    "section": "blog",
    "role": "page",
    "cluster": "ticks",
    "series": "ticks-by-province",
-   "state": "MB",
+   "state": "NL",
    "audience": "ca",
-   "keyword": "ticks in manitoba",
+   "keyword": "ticks in newfoundland and labrador",
    "alsoTargets": [
-    "tick season manitoba",
-    "lyme disease manitoba",
-    "are there ticks in manitoba"
+    "tick season newfoundland and labrador",
+    "lyme disease newfoundland and labrador",
+    "are there ticks in newfoundland and labrador"
    ],
-   "h1Hint": "Ticks in Manitoba: Species, Lyme Risk Areas and Tick Season",
-   "scope": "For Canadian readers: which ticks live in Manitoba and which bite people most; where the province's own surveillance places blacklegged ticks and its published Lyme disease risk areas; Manitoba's reported Lyme disease cases by year (provincial and Public Health Agency of Canada figures, with their caveats); when ticks are active in Manitoba, by month, in Celsius; how to get a tick identified (eTick or the provincial program) and whether ticks are tested; prevention and what to do after a bite. Built from the province's data packet (dataPacket) plus the provincial health ministry pages.",
+   "h1Hint": "Ticks in Newfoundland and Labrador: Species, Lyme Risk Areas and Tick Season",
+   "scope": "For Canadian readers: which ticks live in Newfoundland and Labrador and which bite people most; where the province's own surveillance places blacklegged ticks and its published Lyme disease risk areas; Newfoundland and Labrador's reported Lyme disease cases by year (provincial and Public Health Agency of Canada figures, with their caveats); when ticks are active in Newfoundland and Labrador, by month, in Celsius; how to get a tick identified (eTick or the provincial program) and whether ticks are tested; prevention and what to do after a bite. Built from the province's data packet (dataPacket) plus the provincial health ministry pages.",
    "flags": [
     "health",
     "id"
@@ -224,11 +298,10 @@
     "/learn/ticks-by-province"
    ],
    "neighbors": [
-    "/blog/ticks-in-saskatchewan",
-    "/blog/what-ticks-look-like-ontario"
+    "/blog/ticks-in-quebec"
    ],
-   "minNeighbors": 2,
-   "dataPacket": "data/god-build/packets/ticks-ca/MB.json",
+   "minNeighbors": 1,
+   "dataPacket": "data/god-build/packets/ticks-ca/NL.json",
    "releaseOn": "2026-11-16"
   },
   {
@@ -266,79 +339,6 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-ca/PE.json",
-   "releaseOn": "2026-11-16"
-  },
-  {
-   "slug": "ticks-in-alberta",
-   "section": "blog",
-   "role": "page",
-   "cluster": "ticks",
-   "series": "ticks-by-province",
-   "state": "AB",
-   "audience": "ca",
-   "keyword": "ticks in alberta",
-   "alsoTargets": [
-    "tick season alberta",
-    "lyme disease alberta",
-    "are there ticks in alberta"
-   ],
-   "h1Hint": "Ticks in Alberta: Species, Lyme Risk Areas and Tick Season",
-   "scope": "For Canadian readers: which ticks live in Alberta and which bite people most; where the province's own surveillance places blacklegged ticks and its published Lyme disease risk areas; Alberta's reported Lyme disease cases by year (provincial and Public Health Agency of Canada figures, with their caveats); when ticks are active in Alberta, by month, in Celsius; how to get a tick identified (eTick or the provincial program) and whether ticks are tested; prevention and what to do after a bite. Built from the province's data packet (dataPacket) plus the provincial health ministry pages.",
-   "flags": [
-    "health",
-    "id"
-   ],
-   "minWords": 1800,
-   "minExisting": 2,
-   "parent": {
-    "href": "/learn/ticks-by-province",
-    "name": "Ticks by Province"
-   },
-   "mustLink": [
-    "/learn/ticks-by-province"
-   ],
-   "neighbors": [
-    "/blog/ticks-in-british-columbia",
-    "/blog/ticks-in-saskatchewan"
-   ],
-   "minNeighbors": 2,
-   "dataPacket": "data/god-build/packets/ticks-ca/AB.json",
-   "releaseOn": "2026-11-16"
-  },
-  {
-   "slug": "ticks-in-newfoundland-and-labrador",
-   "section": "blog",
-   "role": "page",
-   "cluster": "ticks",
-   "series": "ticks-by-province",
-   "state": "NL",
-   "audience": "ca",
-   "keyword": "ticks in newfoundland and labrador",
-   "alsoTargets": [
-    "tick season newfoundland and labrador",
-    "lyme disease newfoundland and labrador",
-    "are there ticks in newfoundland and labrador"
-   ],
-   "h1Hint": "Ticks in Newfoundland and Labrador: Species, Lyme Risk Areas and Tick Season",
-   "scope": "For Canadian readers: which ticks live in Newfoundland and Labrador and which bite people most; where the province's own surveillance places blacklegged ticks and its published Lyme disease risk areas; Newfoundland and Labrador's reported Lyme disease cases by year (provincial and Public Health Agency of Canada figures, with their caveats); when ticks are active in Newfoundland and Labrador, by month, in Celsius; how to get a tick identified (eTick or the provincial program) and whether ticks are tested; prevention and what to do after a bite. Built from the province's data packet (dataPacket) plus the provincial health ministry pages.",
-   "flags": [
-    "health",
-    "id"
-   ],
-   "minWords": 1800,
-   "minExisting": 2,
-   "parent": {
-    "href": "/learn/ticks-by-province",
-    "name": "Ticks by Province"
-   },
-   "mustLink": [
-    "/learn/ticks-by-province"
-   ],
-   "neighbors": [
-    "/blog/ticks-in-quebec"
-   ],
-   "minNeighbors": 1,
-   "dataPacket": "data/god-build/packets/ticks-ca/NL.json",
    "releaseOn": "2026-11-16"
   },
   {
@@ -2447,6 +2447,42 @@
    "releaseOn": "2026-11-23"
   },
   {
+   "slug": "mosquitoes-in-british-columbia",
+   "section": "blog",
+   "role": "page",
+   "cluster": "mosquitoes",
+   "series": "mosquitoes-by-province",
+   "state": "BC",
+   "audience": "ca",
+   "keyword": "mosquitoes in british columbia",
+   "alsoTargets": [
+    "mosquito season british columbia",
+    "when is mosquito season in british columbia",
+    "west nile virus british columbia"
+   ],
+   "h1Hint": "Mosquitoes in British Columbia: Season, Species and West Nile Data",
+   "scope": "For Canadian readers: when mosquito season starts, peaks and ends in British Columbia, region by region, from Environment and Climate Change Canada temperature normals and provincial or city mosquito programs; which mosquitoes live in British Columbia and when they bite; West Nile virus in British Columbia by year (provincial and Public Health Agency of Canada figures); city mosquito control and trap counts where they are published; how to cut mosquitoes around a home. Built from the province's data packet (dataPacket) plus the provincial health ministry pages.",
+   "flags": [
+    "health",
+    "id"
+   ],
+   "minWords": 1800,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/mosquitoes-by-province",
+    "name": "Mosquitoes by Province"
+   },
+   "mustLink": [
+    "/learn/mosquitoes-by-province"
+   ],
+   "neighbors": [
+    "/blog/mosquitoes-in-alberta"
+   ],
+   "minNeighbors": 1,
+   "dataPacket": "data/god-build/packets/mosquitoes-ca/BC.json",
+   "releaseOn": "2026-11-23"
+  },
+  {
    "slug": "mosquitoes-in-saskatchewan",
    "section": "blog",
    "role": "page",
@@ -2481,42 +2517,6 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-ca/SK.json",
-   "releaseOn": "2026-11-23"
-  },
-  {
-   "slug": "mosquitoes-in-british-columbia",
-   "section": "blog",
-   "role": "page",
-   "cluster": "mosquitoes",
-   "series": "mosquitoes-by-province",
-   "state": "BC",
-   "audience": "ca",
-   "keyword": "mosquitoes in british columbia",
-   "alsoTargets": [
-    "mosquito season british columbia",
-    "when is mosquito season in british columbia",
-    "west nile virus british columbia"
-   ],
-   "h1Hint": "Mosquitoes in British Columbia: Season, Species and West Nile Data",
-   "scope": "For Canadian readers: when mosquito season starts, peaks and ends in British Columbia, region by region, from Environment and Climate Change Canada temperature normals and provincial or city mosquito programs; which mosquitoes live in British Columbia and when they bite; West Nile virus in British Columbia by year (provincial and Public Health Agency of Canada figures); city mosquito control and trap counts where they are published; how to cut mosquitoes around a home. Built from the province's data packet (dataPacket) plus the provincial health ministry pages.",
-   "flags": [
-    "health",
-    "id"
-   ],
-   "minWords": 1800,
-   "minExisting": 2,
-   "parent": {
-    "href": "/learn/mosquitoes-by-province",
-    "name": "Mosquitoes by Province"
-   },
-   "mustLink": [
-    "/learn/mosquitoes-by-province"
-   ],
-   "neighbors": [
-    "/blog/mosquitoes-in-alberta"
-   ],
-   "minNeighbors": 1,
-   "dataPacket": "data/god-build/packets/mosquitoes-ca/BC.json",
    "releaseOn": "2026-11-23"
   },
   {

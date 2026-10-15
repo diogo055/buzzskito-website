@@ -1,0 +1,268 @@
+{
+ "state": "CT",
+ "name": "Connecticut",
+ "fips": "09",
+ "population2025": 3688496,
+ "lyme": {
+  "highIncidenceState": true,
+  "casesByYear": {
+   "2008": 3896,
+   "2009": 4156,
+   "2010": 3068,
+   "2011": 3039,
+   "2012": 2657,
+   "2013": 2925,
+   "2014": 2360,
+   "2015": 2541,
+   "2016": 1748,
+   "2017": 2051,
+   "2018": 1859,
+   "2019": 1233,
+   "2020": 614,
+   "2021": 541,
+   "2022": 2022,
+   "2023": 3239
+  },
+  "ratePer100kByYear": {
+   "2010": 85.7,
+   "2011": 84.7,
+   "2012": 73.9,
+   "2013": 81.3,
+   "2014": 65.6,
+   "2015": 70.8,
+   "2016": 48.8,
+   "2017": 57.4,
+   "2018": 52,
+   "2019": 34.6,
+   "2020": 17.3,
+   "2021": 15,
+   "2022": 55.8,
+   "2023": 89.9
+  },
+  "latestYear": 2023,
+  "latest": 3239,
+  "average2017to2019": 1714,
+  "countiesWithCases2023": 0,
+  "countyCount": 8,
+  "topCounties2023": [],
+  "note": "Confirmed and probable cases, by county or state of residence (not necessarily where the bite happened). A revised case definition took effect in 2022: high-incidence states count laboratory evidence alone, so 2022-2023 are not directly comparable with earlier years. 2019-2020 reporting was affected by COVID-19.",
+  "countyCases2023": {
+   "09001": 0,
+   "09003": 0,
+   "09005": 0,
+   "09007": 0,
+   "09009": 0,
+   "09011": 0,
+   "09013": 0,
+   "09015": 0
+  }
+ },
+ "blackleggedTick": {
+  "counts": {
+   "Established": 9,
+   "Reported": 0,
+   "No records": 0
+  },
+  "note": "CDC ArboNET Tick Module, county status through Dec 31, 2025. Established = six or more ticks of one life stage, or more than one life stage, collected in a county within 12 months; Reported = fewer than six of one life stage; \"No records\" does not mean absent. Status is cumulative; reporting effort varies by county and state. Reference the ArboNET Tick Module wherever these data are used.",
+  "countyDetail": "data/god-build/raw/derived/ticks-county/CT.json (not committed)"
+ },
+ "westernBlackleggedTick": {
+  "counts": {
+   "Established": 0,
+   "Reported": 0,
+   "No records": 9
+  },
+  "countyDetail": "data/god-build/raw/derived/ticks-county/CT.json (not committed)"
+ },
+ "loneStarTick": {
+  "counts": {
+   "Established": 3,
+   "Reported": 1,
+   "No records": 4
+  },
+  "countyDetail": "data/god-build/raw/derived/ticks-county/CT.json (not committed)"
+ },
+ "americanDogTick": {
+  "counts": {
+   "Established": 8,
+   "Reported": 0,
+   "No records": 0
+  },
+  "countyDetail": "data/god-build/raw/derived/ticks-county/CT.json (not committed)"
+ },
+ "pathogensInTicks": {
+  "Borrelia burgdorferi (Lyme disease)": {
+   "countiesPresent": 9
+  },
+  "Borrelia mayonii (Lyme disease)": {
+   "countiesPresent": 0
+  },
+  "Borrelia miyamotoi (hard tick relapsing fever)": {
+   "countiesPresent": 9
+  },
+  "Anaplasma phagocytophilum, human-active variant (anaplasmosis)": {
+   "countiesPresent": 1
+  },
+  "Ehrlichia muris eauclairensis (ehrlichiosis)": {
+   "countiesPresent": 0
+  },
+  "Babesia microti (babesiosis)": {
+   "countiesPresent": 9
+  },
+  "Powassan virus": {
+   "countiesPresent": 8
+  }
+ },
+ "otherDiseases": {
+  "countyTotals2019to2022": {
+   "Lyme disease": 4396,
+   "Tularemia": 0,
+   "Babesiosis": 474,
+   "Anaplasmosis": 628,
+   "Ehrlichia ewingii ehrlichiosis": 0,
+   "Ehrlichia chaffeensis ehrlichiosis": 22,
+   "Spotted fever rickettsiosis": 17,
+   "Undetermined ehrlichiosis/ anaplasmosis": 0
+  },
+  "note2019to2022": "Cases summed over 2019-2022, by county of residence (CDC). Lyme here is the 2019-2022 sum.",
+  "anaplasmosisPerMillion2023": 17.969819549836668,
+  "ehrlichiosisChaffeensisPerMillion2023": null,
+  "spottedFeverRickettsiosisPerMillion2023": null,
+  "noteIncidence": "Annual incidence per million population, 2023 (CDC); -1 means not notifiable in that state.",
+  "tularemiaCases2023": 0,
+  "powassanCasesByYear": {
+   "2004": 0,
+   "2005": 0,
+   "2006": 0,
+   "2007": 0,
+   "2008": 0,
+   "2009": 0,
+   "2010": 0,
+   "2011": 0,
+   "2012": 0,
+   "2013": 0,
+   "2014": 0,
+   "2015": 0,
+   "2016": 1,
+   "2017": 0,
+   "2018": 2,
+   "2019": 5,
+   "2020": 2,
+   "2021": 3,
+   "2022": 6,
+   "2023": 5,
+   "2024": 6,
+   "2025": 5
+  }
+ },
+ "climate": {
+  "period": "1991-2020",
+  "monthlyMeanF": [
+   27.2,
+   29.4,
+   36.8,
+   47.7,
+   58,
+   66.8,
+   72.4,
+   70.6,
+   63.4,
+   52.1,
+   41.8,
+   32.7
+  ]
+ },
+ "climateNote": "NOAA NCEI Climate at a Glance, statewide monthly mean temperature in degrees Fahrenheit, averaged over 1991-2020 (state averages hide big regional differences).",
+ "sources": [
+  {
+   "publisher": "CDC",
+   "title": "Lyme disease cases by state, 2008-2023 (confirmed + probable)",
+   "url": "https://www.cdc.gov/lyme/media/files/2025/02/2023_CaseIncid-Lyme-Disease-Cases-by-State-or-Locality.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "Lyme disease incidence per 100,000 by state, 2010-2023",
+   "url": "https://www.cdc.gov/lyme/media/files/2025/02/2023_CaseIncid-Lyme-Disease-Rates-by-State-or-Locality.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "Lyme disease cases by county of residence, 2001-2023",
+   "url": "https://www.cdc.gov/lyme/media/files/2025/02/LD_Case_Counts_by_County_2023_updated.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET Tick Module)",
+   "title": "Blacklegged and western blacklegged tick status by county, through Dec 2025",
+   "url": "https://www.cdc.gov/ticks/media/files/2026/04/Public_Use_Ixodes_County_Table_2026_03252026.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET Tick Module)",
+   "title": "Pathogens found in host-seeking Ixodes ticks by county, through Dec 2025",
+   "url": "https://www.cdc.gov/ticks/media/files/2026/04/Public_Use_Ixodes_Pathogens_County_Table_2026_04292026.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "Lone star tick status by county, through 2025",
+   "url": "https://www.cdc.gov/ticks/media/files/2026/05/2025-lone-star-tick-surveillance-map-data.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "American dog tick status by county, through 2025",
+   "url": "https://www.cdc.gov/ticks/media/files/2026/07/DVA-Surv-Map-Data-2025_Final.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "Seven tickborne diseases by county of residence, 2019-2022 summed",
+   "url": "https://www.cdc.gov/ticks/media/files/2024/05/AllTBD2022_Public.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "Anaplasmosis incidence per million by state, 2023",
+   "url": "https://www.cdc.gov/anaplasmosis/media/files/2025/06/Annual-incidence-per-million-population-of-reported-anaplasmosis-geography-US-2023.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "E. chaffeensis ehrlichiosis incidence per million by state, 2023",
+   "url": "https://www.cdc.gov/ehrlichiosis/media/files/2025/06/Annual-incidence-per-million-reported-E.-chaffeensis-ehrlichiosis-geography-US-2023.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "Spotted fever rickettsiosis incidence per million by state, 2023",
+   "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/media/files/2025/06/Annual-incidence-of-reported-spotted-fever-rickettsiosis-geography-United-States-2023.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "Tularemia cases by state, 2023",
+   "url": "https://www.cdc.gov/tularemia/media/files/2025/03/Tularemia-cases-by-state_2023.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "Powassan virus by state and year, 2004-2025",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/POW/pow_hum_historic%20-%20Historic%20Sta.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "title": "Statewide monthly mean temperature, CT",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/6/tavg/1/0/1895-2026/data.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "US Census Bureau",
+   "title": "State population estimates, Vintage 2025",
+   "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+   "downloadedOn": "2026-10-15"
+  }
+ ]
+}

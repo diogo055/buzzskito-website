@@ -103,13 +103,13 @@
 - `/learn/natural-weed-control` — natural weed killer
 - `/learn/ticks-by-province` — ticks in canada by province
 - `/blog/ticks-in-nova-scotia` — ticks in nova scotia
+- `/blog/ticks-in-manitoba` — ticks in manitoba
+- `/blog/ticks-in-alberta` — ticks in alberta
 - `/blog/ticks-in-new-brunswick` — ticks in new brunswick
 - `/blog/ticks-in-quebec` — ticks in quebec
 - `/blog/ticks-in-british-columbia` — ticks in british columbia
-- `/blog/ticks-in-manitoba` — ticks in manitoba
-- `/blog/ticks-in-prince-edward-island` — ticks in prince edward island
-- `/blog/ticks-in-alberta` — ticks in alberta
 - `/blog/ticks-in-newfoundland-and-labrador` — ticks in newfoundland and labrador
+- `/blog/ticks-in-prince-edward-island` — ticks in prince edward island
 - `/blog/ticks-in-saskatchewan` — ticks in saskatchewan
 - `/learn/ticks-by-state` — ticks by state
 - `/blog/ticks-in-pennsylvania` — ticks in pennsylvania
@@ -164,8 +164,8 @@
 - `/learn/mosquitoes-by-province` — mosquitoes in canada by province
 - `/blog/mosquitoes-in-manitoba` — mosquitoes in manitoba
 - `/blog/mosquitoes-in-alberta` — mosquitoes in alberta
-- `/blog/mosquitoes-in-saskatchewan` — mosquitoes in saskatchewan
 - `/blog/mosquitoes-in-british-columbia` — mosquitoes in british columbia
+- `/blog/mosquitoes-in-saskatchewan` — mosquitoes in saskatchewan
 - `/blog/mosquitoes-in-quebec` — mosquitoes in quebec
 - `/blog/mosquitoes-in-nova-scotia` — mosquitoes in nova scotia
 - `/blog/mosquitoes-in-new-brunswick` — mosquitoes in new brunswick

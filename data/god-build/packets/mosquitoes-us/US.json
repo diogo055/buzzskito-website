@@ -1,0 +1,505 @@
+{
+ "note": "CDC ArboNET West Nile virus human cases by state; Aedes county records to about 2016; NOAA 1991-2020 statewide normals.",
+ "states": [
+  {
+   "state": "AL",
+   "name": "Alabama",
+   "wnv2025": 30,
+   "wnv2024": 34,
+   "wnvCumulative": 485,
+   "aegyptiCounties": 6,
+   "albopictusCounties": 67,
+   "monthsAtOrAbove50F": 9
+  },
+  {
+   "state": "AK",
+   "name": "Alaska",
+   "wnv2025": 0,
+   "wnv2024": 0,
+   "wnvCumulative": 3,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 0,
+   "monthsAtOrAbove50F": 3
+  },
+  {
+   "state": "AZ",
+   "name": "Arizona",
+   "wnv2025": 64,
+   "wnv2024": 33,
+   "wnvCumulative": 3887,
+   "aegyptiCounties": 10,
+   "albopictusCounties": 2,
+   "monthsAtOrAbove50F": 9
+  },
+  {
+   "state": "AR",
+   "name": "Arkansas",
+   "wnv2025": 25,
+   "wnv2024": 13,
+   "wnvCumulative": 414,
+   "aegyptiCounties": 4,
+   "albopictusCounties": 41,
+   "monthsAtOrAbove50F": 9
+  },
+  {
+   "state": "CA",
+   "name": "California",
+   "wnv2025": 117,
+   "wnv2024": 132,
+   "wnvCumulative": 8280,
+   "aegyptiCounties": 12,
+   "albopictusCounties": 8,
+   "monthsAtOrAbove50F": 9
+  },
+  {
+   "state": "CO",
+   "name": "Colorado",
+   "wnv2025": 285,
+   "wnv2024": 77,
+   "wnvCumulative": 7060,
+   "aegyptiCounties": 1,
+   "albopictusCounties": 2,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "CT",
+   "name": "Connecticut",
+   "wnv2025": 6,
+   "wnv2024": 12,
+   "wnvCumulative": 205,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 3,
+   "monthsAtOrAbove50F": 6
+  },
+  {
+   "state": "DE",
+   "name": "Delaware",
+   "wnv2025": 3,
+   "wnv2024": 2,
+   "wnvCumulative": 65,
+   "aegyptiCounties": 2,
+   "albopictusCounties": 3,
+   "monthsAtOrAbove50F": 7
+  },
+  {
+   "state": "FL",
+   "name": "Florida",
+   "wnv2025": 7,
+   "wnv2024": 19,
+   "wnvCumulative": 505,
+   "aegyptiCounties": 44,
+   "albopictusCounties": 67,
+   "monthsAtOrAbove50F": 12
+  },
+  {
+   "state": "GA",
+   "name": "Georgia",
+   "wnv2025": 18,
+   "wnv2024": 53,
+   "wnvCumulative": 608,
+   "aegyptiCounties": 8,
+   "albopictusCounties": 159,
+   "monthsAtOrAbove50F": 10
+  },
+  {
+   "state": "HI",
+   "name": "Hawaii",
+   "wnv2025": 0,
+   "wnv2024": 1,
+   "wnvCumulative": 2,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 0,
+   "monthsAtOrAbove50F": 12
+  },
+  {
+   "state": "ID",
+   "name": "Idaho",
+   "wnv2025": 9,
+   "wnv2024": 6,
+   "wnvCumulative": 1454,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 0,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "IL",
+   "name": "Illinois",
+   "wnv2025": 150,
+   "wnv2024": 69,
+   "wnvCumulative": 3139,
+   "aegyptiCounties": 2,
+   "albopictusCounties": 43,
+   "monthsAtOrAbove50F": 7
+  },
+  {
+   "state": "IN",
+   "name": "Indiana",
+   "wnv2025": 39,
+   "wnv2024": 11,
+   "wnvCumulative": 810,
+   "aegyptiCounties": 1,
+   "albopictusCounties": 64,
+   "monthsAtOrAbove50F": 7
+  },
+  {
+   "state": "IA",
+   "name": "Iowa",
+   "wnv2025": 57,
+   "wnv2024": 21,
+   "wnvCumulative": 732,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 3,
+   "monthsAtOrAbove50F": 6
+  },
+  {
+   "state": "KS",
+   "name": "Kansas",
+   "wnv2025": 36,
+   "wnv2024": 23,
+   "wnvCumulative": 841,
+   "aegyptiCounties": 9,
+   "albopictusCounties": 65,
+   "monthsAtOrAbove50F": 7
+  },
+  {
+   "state": "KY",
+   "name": "Kentucky",
+   "wnv2025": 38,
+   "wnv2024": 9,
+   "wnvCumulative": 261,
+   "aegyptiCounties": 5,
+   "albopictusCounties": 90,
+   "monthsAtOrAbove50F": 7
+  },
+  {
+   "state": "LA",
+   "name": "Louisiana",
+   "wnv2025": 72,
+   "wnv2024": 53,
+   "wnvCumulative": 2107,
+   "aegyptiCounties": 17,
+   "albopictusCounties": 58,
+   "monthsAtOrAbove50F": 11
+  },
+  {
+   "state": "ME",
+   "name": "Maine",
+   "wnv2025": 1,
+   "wnv2024": 2,
+   "wnvCumulative": 8,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 0,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "MD",
+   "name": "Maryland",
+   "wnv2025": 31,
+   "wnv2024": 28,
+   "wnvCumulative": 478,
+   "aegyptiCounties": 11,
+   "albopictusCounties": 23,
+   "monthsAtOrAbove50F": 7
+  },
+  {
+   "state": "MA",
+   "name": "Massachusetts",
+   "wnv2025": 9,
+   "wnv2024": 19,
+   "wnvCumulative": 271,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 6,
+   "monthsAtOrAbove50F": 6
+  },
+  {
+   "state": "MI",
+   "name": "Michigan",
+   "wnv2025": 49,
+   "wnv2024": 31,
+   "wnvCumulative": 1514,
+   "aegyptiCounties": 2,
+   "albopictusCounties": 1,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "MN",
+   "name": "Minnesota",
+   "wnv2025": 136,
+   "wnv2024": 35,
+   "wnvCumulative": 1117,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 3,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "MS",
+   "name": "Mississippi",
+   "wnv2025": 33,
+   "wnv2024": 59,
+   "wnvCumulative": 1592,
+   "aegyptiCounties": 8,
+   "albopictusCounties": 82,
+   "monthsAtOrAbove50F": 9
+  },
+  {
+   "state": "MO",
+   "name": "Missouri",
+   "wnv2025": 45,
+   "wnv2024": 15,
+   "wnvCumulative": 740,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 31,
+   "monthsAtOrAbove50F": 7
+  },
+  {
+   "state": "MT",
+   "name": "Montana",
+   "wnv2025": 20,
+   "wnv2024": 5,
+   "wnvCumulative": 691,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 0,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "NE",
+   "name": "Nebraska",
+   "wnv2025": 54,
+   "wnv2024": 92,
+   "wnvCumulative": 4482,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 4,
+   "monthsAtOrAbove50F": 6
+  },
+  {
+   "state": "NV",
+   "name": "Nevada",
+   "wnv2025": 2,
+   "wnv2024": 27,
+   "wnvCumulative": 460,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 0,
+   "monthsAtOrAbove50F": 6
+  },
+  {
+   "state": "NH",
+   "name": "New Hampshire",
+   "wnv2025": 0,
+   "wnv2024": 1,
+   "wnvCumulative": 10,
+   "aegyptiCounties": 1,
+   "albopictusCounties": 4,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "NJ",
+   "name": "New Jersey",
+   "wnv2025": 23,
+   "wnv2024": 41,
+   "wnvCumulative": 458,
+   "aegyptiCounties": 4,
+   "albopictusCounties": 21,
+   "monthsAtOrAbove50F": 7
+  },
+  {
+   "state": "NM",
+   "name": "New Mexico",
+   "wnv2025": 51,
+   "wnv2024": 27,
+   "wnvCumulative": 863,
+   "aegyptiCounties": 3,
+   "albopictusCounties": 2,
+   "monthsAtOrAbove50F": 7
+  },
+  {
+   "state": "NY",
+   "name": "New York",
+   "wnv2025": 60,
+   "wnv2024": 100,
+   "wnvCumulative": 1353,
+   "aegyptiCounties": 1,
+   "albopictusCounties": 14,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "NC",
+   "name": "North Carolina",
+   "wnv2025": 11,
+   "wnv2024": 27,
+   "wnvCumulative": 156,
+   "aegyptiCounties": 6,
+   "albopictusCounties": 100,
+   "monthsAtOrAbove50F": 9
+  },
+  {
+   "state": "ND",
+   "name": "North Dakota",
+   "wnv2025": 86,
+   "wnv2024": 38,
+   "wnvCumulative": 2162,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 0,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "OH",
+   "name": "Ohio",
+   "wnv2025": 45,
+   "wnv2024": 14,
+   "wnvCumulative": 1146,
+   "aegyptiCounties": 2,
+   "albopictusCounties": 24,
+   "monthsAtOrAbove50F": 7
+  },
+  {
+   "state": "OK",
+   "name": "Oklahoma",
+   "wnv2025": 59,
+   "wnv2024": 42,
+   "wnvCumulative": 1007,
+   "aegyptiCounties": 2,
+   "albopictusCounties": 69,
+   "monthsAtOrAbove50F": 8
+  },
+  {
+   "state": "OR",
+   "name": "Oregon",
+   "wnv2025": 2,
+   "wnv2024": 0,
+   "wnvCumulative": 219,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 1,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "PA",
+   "name": "Pennsylvania",
+   "wnv2025": 80,
+   "wnv2024": 59,
+   "wnvCumulative": 929,
+   "aegyptiCounties": 1,
+   "albopictusCounties": 39,
+   "monthsAtOrAbove50F": 6
+  },
+  {
+   "state": "RI",
+   "name": "Rhode Island",
+   "wnv2025": 2,
+   "wnv2024": 6,
+   "wnvCumulative": 34,
+   "aegyptiCounties": 1,
+   "albopictusCounties": 3,
+   "monthsAtOrAbove50F": 6
+  },
+  {
+   "state": "SC",
+   "name": "South Carolina",
+   "wnv2025": 4,
+   "wnv2024": 18,
+   "wnvCumulative": 167,
+   "aegyptiCounties": 9,
+   "albopictusCounties": 46,
+   "monthsAtOrAbove50F": 9
+  },
+  {
+   "state": "SD",
+   "name": "South Dakota",
+   "wnv2025": 88,
+   "wnv2024": 21,
+   "wnvCumulative": 2954,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 0,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "TN",
+   "name": "Tennessee",
+   "wnv2025": 19,
+   "wnv2024": 12,
+   "wnvCumulative": 386,
+   "aegyptiCounties": 4,
+   "albopictusCounties": 95,
+   "monthsAtOrAbove50F": 7
+  },
+  {
+   "state": "TX",
+   "name": "Texas",
+   "wnv2025": 168,
+   "wnv2024": 456,
+   "wnvCumulative": 6688,
+   "aegyptiCounties": 102,
+   "albopictusCounties": 150,
+   "monthsAtOrAbove50F": 10
+  },
+  {
+   "state": "UT",
+   "name": "Utah",
+   "wnv2025": 50,
+   "wnv2024": 14,
+   "wnvCumulative": 561,
+   "aegyptiCounties": 1,
+   "albopictusCounties": 1,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "VT",
+   "name": "Vermont",
+   "wnv2025": 0,
+   "wnv2024": 1,
+   "wnvCumulative": 18,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 0,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "VA",
+   "name": "Virginia",
+   "wnv2025": 30,
+   "wnv2024": 9,
+   "wnvCumulative": 294,
+   "aegyptiCounties": 11,
+   "albopictusCounties": 134,
+   "monthsAtOrAbove50F": 7
+  },
+  {
+   "state": "WA",
+   "name": "Washington",
+   "wnv2025": 3,
+   "wnv2024": 1,
+   "wnvCumulative": 135,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 1,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "WV",
+   "name": "West Virginia",
+   "wnv2025": 4,
+   "wnv2024": 2,
+   "wnvCumulative": 32,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 38,
+   "monthsAtOrAbove50F": 7
+  },
+  {
+   "state": "WI",
+   "name": "Wisconsin",
+   "wnv2025": 27,
+   "wnv2024": 32,
+   "wnvCumulative": 441,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 0,
+   "monthsAtOrAbove50F": 5
+  },
+  {
+   "state": "WY",
+   "name": "Wyoming",
+   "wnv2025": 15,
+   "wnv2024": 2,
+   "wnvCumulative": 810,
+   "aegyptiCounties": 0,
+   "albopictusCounties": 0,
+   "monthsAtOrAbove50F": 4
+  }
+ ]
+}

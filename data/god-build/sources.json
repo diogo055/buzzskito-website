@@ -1,0 +1,725 @@
+{
+ "_readme": "Every public data file the scheduled pages are built from: where it came from, when, its size and SHA-256, and its terms. Written by scripts/god-build-fetch.mjs; the files themselves are in data/god-build/raw/ (not committed).",
+ "files": [
+  {
+   "file": "aedes-aegypti-by-county.csv",
+   "url": "https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=10.1371/journal.pcbi.1007369.s006",
+   "publisher": "Monaghan et al. 2019, PLOS Computational Biology",
+   "what": "Aedes aegypti county records (to about 2016) and model",
+   "terms": "CC0",
+   "bytes": 294943,
+   "sha256": "684cd5d92fafcc22ed49c1c1f1156297b5d73ae02358affef23ea1ccd478c012",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "aedes-albopictus-by-county.csv",
+   "url": "https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=10.1371/journal.pcbi.1007369.s007",
+   "publisher": "Monaghan et al. 2019, PLOS Computational Biology",
+   "what": "Aedes albopictus county records (to about 2016) and model",
+   "terms": "CC0",
+   "bytes": 315528,
+   "sha256": "b44455d2d9e55fa772ce566318b1b855100fc5ceb124aaa94e218d5fc5e3b402",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "anaplasmosis-incidence-by-state-2023.xlsx",
+   "url": "https://www.cdc.gov/anaplasmosis/media/files/2025/06/Annual-incidence-per-million-population-of-reported-anaplasmosis-geography-US-2023.xlsx",
+   "publisher": "CDC",
+   "what": "Anaplasmosis incidence per million by state, 2023",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 16957,
+   "sha256": "68975666fc5dd9988aed68f16cfa5393c6c98bff6cf3fa62eb0bbf419c17718c",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "eee-by-state.csv",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/EEE/eee_hum_historic%20-%20Historic%20Sta.csv",
+   "publisher": "CDC (ArboNET)",
+   "what": "Eastern equine encephalitis by state and year, 2003-2025",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 11338,
+   "sha256": "4e7262fce487a09b1c884f1ffcb062331a334da66dd60a2889cfb10441d2b670",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "ehrlichiosis-incidence-by-state-2023.xlsx",
+   "url": "https://www.cdc.gov/ehrlichiosis/media/files/2025/06/Annual-incidence-per-million-reported-E.-chaffeensis-ehrlichiosis-geography-US-2023.xlsx",
+   "publisher": "CDC",
+   "what": "E. chaffeensis ehrlichiosis incidence per million by state, 2023",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 18259,
+   "sha256": "3d166810eaa9ef0fa020d45b99b544c1b8b5acd8fcde3f1ed1ef845244b66240",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "jcv-by-state.csv",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/JCV/jcv_hum_historic%20-%20Historic%20Sta.csv",
+   "publisher": "CDC (ArboNET)",
+   "what": "Jamestown Canyon virus by state and year, 2011-2025",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 8795,
+   "sha256": "65d968ded836630a3bd6d2b3ba746541c8b46c7a3a8cd87bd308e4456e1053cb",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "lac-by-state.csv",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/LAC/lac_hum_historic%20-%20Historic%20Sta.csv",
+   "publisher": "CDC (ArboNET)",
+   "what": "La Crosse encephalitis by state and year, 2003-2025",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 20857,
+   "sha256": "ef27726a233995744fee8ab042508ee3f5172e93d849979b3c4866caaf9d6339",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "lyme-cases-by-county.csv",
+   "url": "https://www.cdc.gov/lyme/media/files/2025/02/LD_Case_Counts_by_County_2023_updated.csv",
+   "publisher": "CDC",
+   "what": "Lyme disease cases by county of residence, 2001-2023",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 297617,
+   "sha256": "e2fe2d71dbce065d7c89430bc3c9fede9392831d9856b636339aac00655fae45",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "lyme-cases-by-state.csv",
+   "url": "https://www.cdc.gov/lyme/media/files/2025/02/2023_CaseIncid-Lyme-Disease-Cases-by-State-or-Locality.csv",
+   "publisher": "CDC",
+   "what": "Lyme disease cases by state, 2008-2023 (confirmed + probable)",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 3977,
+   "sha256": "ecc6b60823cb32c7c0b9c0522817beca967a771f29cf29a11f970d5bb19e8e61",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "lyme-rates-by-state.csv",
+   "url": "https://www.cdc.gov/lyme/media/files/2025/02/2023_CaseIncid-Lyme-Disease-Rates-by-State-or-Locality.csv",
+   "publisher": "CDC",
+   "what": "Lyme disease incidence per 100,000 by state, 2010-2023",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 14739,
+   "sha256": "1b12baba495bc96d412ac96fa6176b265de26e65106681b74ab29cc3d4dc0488",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-AK.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/50/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, AK",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 14206,
+   "sha256": "a3af4ce80bbb2e156eba8a5bc1e1ddba1b06a7fffffec88ded80013228307dd8",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-AL.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/1/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, AL",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18693,
+   "sha256": "04cbc4b305a863360384802ec167709be324a0ff39dc9f809d6f32fd70660dc0",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-AR.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/3/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, AR",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18680,
+   "sha256": "46be35af10d2e4294a4bb718dda47610172c20edbcf15be95a706c7c812fc9b5",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-AZ.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/2/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, AZ",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18697,
+   "sha256": "9cd0e63e63216f3f5d4809fb1c50ebc60dc8270892a79332d9ef0fc3ba5d498b",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-CA.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/4/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, CA",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18694,
+   "sha256": "a9d0c6365be285e7f862ee7fe3a6c5a0d3c9fb39d053201b722d5b3d707761a4",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-CO.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/5/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, CO",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18724,
+   "sha256": "2116619bc83a08e72f2047b0e49e5937cfd2c90b480f26b5610b0171452d40ff",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-CT.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/6/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, CT",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18667,
+   "sha256": "35b3880a4b500046f794e7dd54c3d30864de414e6ee9faf94941dcded26600e6",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-DE.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/7/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, DE",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18706,
+   "sha256": "0976feebc83659785ce87561997c1becc3e4ea51a22ab552cf6c08d1914563c8",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-FL.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/8/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, FL",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18703,
+   "sha256": "f659126b2844a3711cce516e952266855cbe9773149a042369127dec39cfd4ea",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-GA.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/9/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, GA",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18729,
+   "sha256": "831dceaaca11cca1b50bb9bc51dc401b3becb08a69f87cebb9f5091944d08a1e",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-HI.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/51/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, HI",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 5142,
+   "sha256": "2771b289698ab9892765b48a7c4ee20a32481f911717775debce12503f65fc86",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-IA.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/13/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, IA",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18663,
+   "sha256": "b382acd88e59fdb23440db66a1888f72e7be37a041c027f21ad0d29bcf2826b0",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-ID.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/10/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, ID",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18737,
+   "sha256": "793a1cd27766b4acf303594066b258d416d18e0a09a89513f581afb183c1d529",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-IL.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/11/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, IL",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18728,
+   "sha256": "2643803394e02bafa82e83a110e0f21015b66ab1a3683795dbd08d311bed479c",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-IN.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/12/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, IN",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18725,
+   "sha256": "120f93b0ad0a55bbaf2089503eeb7d513c7aa4de8ab1a7e153ba7de9fe9ff09b",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-KS.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/14/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, KS",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18674,
+   "sha256": "718331a1092c3b30587b21a1ad91574da940988b64a2cfef4450b37e78dfeba2",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-KY.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/15/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, KY",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18658,
+   "sha256": "7e721da34cc9e90b0771b5350cbc357b4782ee1cf2fa20f5d8c4c981082f7def",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-LA.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/16/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, LA",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18683,
+   "sha256": "1253255070bb44b984ba98902957217b94141d3b125611ffe95a47f7dea09ac6",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-MA.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/19/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, MA",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18701,
+   "sha256": "ac8b65e0cbf962396ba1c1ac0c57a37eaeebb57a698ef1edcde9df941b10f6dd",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-MD.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/18/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, MD",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18702,
+   "sha256": "69fac999f196a4532366b5d15a2729e311eefdf3f00abed74c8a35e55c34647f",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-ME.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/17/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, ME",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18636,
+   "sha256": "1efde51205842e328a307606d34afd7376afdf1ac2df9027582b40ad4be492c6",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-MI.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/20/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, MI",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18692,
+   "sha256": "d2080936d4ef3bd429da2f13871ea0bfd62f894650d339ea9e811e7044837891",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-MN.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/21/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, MN",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18597,
+   "sha256": "8399e333e135a586dbd50ed9e9c7dbc6901e59e53257ecc36ffbaaa3d6296abb",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-MO.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/23/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, MO",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18680,
+   "sha256": "01580aaa53568653f0c14ed3ef31140587be8c0051d6e63c72be43676cb32632",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-MS.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/22/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, MS",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18687,
+   "sha256": "509640dbd6bfeec3242d3d0c2191ab3ec57f564ebd4e86897e95ec37420f2102",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-MT.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/24/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, MT",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18712,
+   "sha256": "f8273da23a041cf3013b0ba1c7b409fd7028bcc643895183132f777c9f580781",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-NC.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/31/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, NC",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18718,
+   "sha256": "ca1fdec7455d082f3847dcaec5fb118d6b99e979a974f00214acc5f5c191ef52",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-ND.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/32/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, ND",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18551,
+   "sha256": "04d90f8108c6535818cbadc9ceb4bf540afbd97eb9fb6d82a403f9e6c31066ce",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-NE.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/25/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, NE",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18694,
+   "sha256": "eb59cf6859872ef3d75e10d8918a5c7194da4f02e3195384f2f785d002da6ec5",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-NH.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/27/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, NH",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18652,
+   "sha256": "b7ca58c467552fe6011223ff945e9a29046cb1ddf56ffaa8d60d968e351c7ae5",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-NJ.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/28/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, NJ",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18666,
+   "sha256": "5731e3cb199b1eb4dee073218e2d66aa40ac0aca024f906630c07b58f12229fb",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-NM.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/29/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, NM",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18720,
+   "sha256": "bf88a7885cbb7fd1a85028d8391d7690af6ce40609f01e691e2226b1acbbb547",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-NV.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/26/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, NV",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18734,
+   "sha256": "f5ee07a2f615f6b588e4ae9df77dd1f4a862ac246ec57c62745211c9aa20bbb2",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-NY.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/30/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, NY",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18669,
+   "sha256": "41fce5f6a6368393440819a0971edb7b9259c1481a82cb8e293bfbe19cc04ecb",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-OH.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/33/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, OH",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18680,
+   "sha256": "d1d17ae27e388d7309e7741d7389a25a64304f4a94f646b7e9ffdb26e5b43f50",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-OK.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/34/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, OK",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18722,
+   "sha256": "d9e7afcee82c1e6608f88753bcc845dc8dac9a9d1e2e46a56fe3b47aa5f2a893",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-OR.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/35/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, OR",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18694,
+   "sha256": "470a4beff18f6158ea0f5aee9e04501cf1d19cd40da6769b0ae3483352ff8a48",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-PA.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/36/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, PA",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18692,
+   "sha256": "9c07e8416e40ed4b903e0b29dc9fee51053bdea56d6f8efd637cf65f553b8968",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-RI.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/37/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, RI",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18722,
+   "sha256": "0a98f70cfd0c2740052fd020e8bb4af1e3268375792336ebdbd67bf6774e113d",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-SC.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/38/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, SC",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18678,
+   "sha256": "47d879ce03fb73e8ba1a7eed0d0170ce4158f97e8e881ca28175b7c681072d53",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-SD.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/39/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, SD",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18664,
+   "sha256": "74da48ea809e9ec20bd92e067c9a831dd38a87f7db9de8796601c98658ef003f",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-TN.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/40/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, TN",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18717,
+   "sha256": "e67346902bf7e9fbdd2cd772a8a0b6feb818388cb546c686139ac5b57352353a",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-TX.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/41/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, TX",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18719,
+   "sha256": "332db67261eabfae56487d9b449b10c02777a2009274c1dc2f8d7a28826ca5bb",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-UT.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/42/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, UT",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18725,
+   "sha256": "d8dbe574b364359418d91ab20ccbf698ec861c82a97f48fcf60081a92e974982",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-VA.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/44/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, VA",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18698,
+   "sha256": "e54b5371ec39667c7205f088a22b5a3155429212db56159563cf98ba000a3cc2",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-VT.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/43/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, VT",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18709,
+   "sha256": "f32ff1b1b38b67e800de7a4d29ae7be0b58fffd938b081542eda6b45d5e92597",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-WA.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/45/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, WA",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18688,
+   "sha256": "da6714f31a9ede463a91ff34c947c86e81420b8276866800495c0f7b3a003509",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-WI.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/47/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, WI",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18658,
+   "sha256": "c3fc038c88ff4e96c74db6a9dcebd1b68b7b74936561fbaac14b8f9a2951c0b1",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-WV.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/46/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, WV",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18707,
+   "sha256": "dee3e03f5ce0bb7053ff6d922616817c4569861d883e4ca507ac9740f791a9d4",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "noaa-tavg-WY.csv",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/48/tavg/1/0/1895-2026/data.csv",
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "what": "Statewide monthly mean temperature, WY",
+   "terms": "Public domain (NCEI open data policy)",
+   "bytes": 18669,
+   "sha256": "90625b2fe1a9ef790b9422f4de2e8407a2bada3387b199103a64a81e23411402",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "population-by-state-2025.csv",
+   "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+   "publisher": "US Census Bureau",
+   "what": "State population estimates, Vintage 2025",
+   "terms": "US federal work",
+   "bytes": 53555,
+   "sha256": "92188e29cb0a67dcf95afa7d6c47359409782f086478b70ea4128eb70e223ca9",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "pow-by-state.csv",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/POW/pow_hum_historic%20-%20Historic%20Sta.csv",
+   "publisher": "CDC (ArboNET)",
+   "what": "Powassan virus by state and year, 2004-2025",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 12181,
+   "sha256": "7a74dcaa0110ec462ddb22f0a3fce7549d93739104f84e99fa649d9887471919",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "sfr-incidence-by-state-2023.xlsx",
+   "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/media/files/2025/06/Annual-incidence-of-reported-spotted-fever-rickettsiosis-geography-United-States-2023.xlsx",
+   "publisher": "CDC",
+   "what": "Spotted fever rickettsiosis incidence per million by state, 2023",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 18329,
+   "sha256": "06e91f2f70cd18dadfc6bf80d7cc516811d42669a26c984e23c784f2083de51e",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "sle-by-state.csv",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/SLE/sle_hum_historic%20-%20Historic%20Sta.csv",
+   "publisher": "CDC (ArboNET)",
+   "what": "St. Louis encephalitis by state and year, 2003-2025",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 9566,
+   "sha256": "a90303d389f4dde309b4fe3ee40f00ad94a76878c6386db41c889a9df2b0cf72",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "tickborne-by-county-2019-2022.xlsx",
+   "url": "https://www.cdc.gov/ticks/media/files/2024/05/AllTBD2022_Public.xlsx",
+   "publisher": "CDC",
+   "what": "Seven tickborne diseases by county of residence, 2019-2022 summed",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 175457,
+   "sha256": "2368973bae062df40e7815815917ed9311de52873e1e31820cb7d36d885e8584",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "ticks-american-dog-by-county.xlsx",
+   "url": "https://www.cdc.gov/ticks/media/files/2026/07/DVA-Surv-Map-Data-2025_Final.xlsx",
+   "publisher": "CDC",
+   "what": "American dog tick status by county, through 2025",
+   "terms": "check the workbook for a data use sheet",
+   "bytes": 118061,
+   "sha256": "493e27fc91a5668b750b0541259f358bba79ceb2f3c65ea41edb4e6e8440d05f",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "ticks-ixodes-by-county.xlsx",
+   "url": "https://www.cdc.gov/ticks/media/files/2026/04/Public_Use_Ixodes_County_Table_2026_03252026.xlsx",
+   "publisher": "CDC (ArboNET Tick Module)",
+   "what": "Blacklegged and western blacklegged tick status by county, through Dec 2025",
+   "terms": "CDC data use agreement sheet inside the workbook: read before publishing derived tables",
+   "bytes": 151450,
+   "sha256": "e35a5066a7c77b2e79c50f315a18e042405ab7baa8a414a1a907792bb25d2adc",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "ticks-ixodes-pathogens-by-county.xlsx",
+   "url": "https://www.cdc.gov/ticks/media/files/2026/04/Public_Use_Ixodes_Pathogens_County_Table_2026_04292026.xlsx",
+   "publisher": "CDC (ArboNET Tick Module)",
+   "what": "Pathogens found in host-seeking Ixodes ticks by county, through Dec 2025",
+   "terms": "CDC data use agreement sheet inside the workbook: read before publishing derived tables",
+   "bytes": 240016,
+   "sha256": "68baef5f20b1e41821d0e6955cbb1809262e0f3624e387e88c04f6ddb0266f2f",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "ticks-lone-star-by-county.xlsx",
+   "url": "https://www.cdc.gov/ticks/media/files/2026/05/2025-lone-star-tick-surveillance-map-data.xlsx",
+   "publisher": "CDC",
+   "what": "Lone star tick status by county, through 2025",
+   "terms": "check the workbook for a data use sheet",
+   "bytes": 135217,
+   "sha256": "441397418f30af907213ebcbb36e12aeb8ed7b404f02d58ed5efca18819fc231",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "tularemia-by-state-2023.csv",
+   "url": "https://www.cdc.gov/tularemia/media/files/2025/03/Tularemia-cases-by-state_2023.csv",
+   "publisher": "CDC",
+   "what": "Tularemia cases by state, 2023",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 671,
+   "sha256": "c6d1423dab51ac47bf9fd7fed2a7528b46c6c3eadd926b6eb03dcf3a75344bc8",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "wnv-by-county-yearly.csv",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/WNV/wnv_hist_hum_nonhum_yearly.csv",
+   "publisher": "CDC (ArboNET)",
+   "what": "West Nile virus human and non-human activity by county and year",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 1235899,
+   "sha256": "dde802203a7cb3460a4c879dab50812df05a8f939844b6e8cef8095a2b4691be",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "file": "wnv-by-state.csv",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/WNV/wnv_hum_historic%20-%20Historic%20Sta.csv",
+   "publisher": "CDC (ArboNET)",
+   "what": "West Nile virus human disease by state and year, 1999-2025",
+   "terms": "CDC web content, mostly public domain; credit CDC, no endorsement implied, do not change the substance (cdc.gov/other/agencymaterials.html)",
+   "bytes": 93461,
+   "sha256": "f39f52775f27a4f8f221205750b262a280140612788169a8fae0327b1c543b1e",
+   "downloadedOn": "2026-10-15"
+  }
+ ]
+}

@@ -1,0 +1,455 @@
+{
+ "note": "CDC ArboNET Tick Module, county status through Dec 31, 2025. Established = six or more ticks of one life stage, or more than one life stage, collected in a county within 12 months; Reported = fewer than six of one life stage; \"No records\" does not mean absent. Status is cumulative; reporting effort varies by county and state. Reference the ArboNET Tick Module wherever these data are used. Confirmed and probable cases, by county or state of residence (not necessarily where the bite happened). A revised case definition took effect in 2022: high-incidence states count laboratory evidence alone, so 2022-2023 are not directly comparable with earlier years. 2019-2020 reporting was affected by COVID-19.",
+ "states": [
+  {
+   "state": "AL",
+   "name": "Alabama",
+   "lyme2023": 36,
+   "ratePer100k2023": 0.7,
+   "blackleggedEstablished": 36,
+   "loneStarEstablished": 42,
+   "counties": 67
+  },
+  {
+   "state": "AK",
+   "name": "Alaska",
+   "lyme2023": 2,
+   "ratePer100k2023": 0.3,
+   "blackleggedEstablished": 0,
+   "loneStarEstablished": 0,
+   "counties": 0
+  },
+  {
+   "state": "AZ",
+   "name": "Arizona",
+   "lyme2023": 16,
+   "ratePer100k2023": 0.2,
+   "blackleggedEstablished": 0,
+   "loneStarEstablished": 0,
+   "counties": 15
+  },
+  {
+   "state": "AR",
+   "name": "Arkansas",
+   "lyme2023": 5,
+   "ratePer100k2023": 0.2,
+   "blackleggedEstablished": 31,
+   "loneStarEstablished": 73,
+   "counties": 75
+  },
+  {
+   "state": "CA",
+   "name": "California",
+   "lyme2023": 109,
+   "ratePer100k2023": 0.3,
+   "blackleggedEstablished": 0,
+   "loneStarEstablished": 0,
+   "counties": 58
+  },
+  {
+   "state": "CO",
+   "name": "Colorado",
+   "lyme2023": 32,
+   "ratePer100k2023": 0.6,
+   "blackleggedEstablished": 0,
+   "loneStarEstablished": 0,
+   "counties": 64
+  },
+  {
+   "state": "CT",
+   "name": "Connecticut",
+   "lyme2023": 3239,
+   "ratePer100k2023": 89.9,
+   "blackleggedEstablished": 9,
+   "loneStarEstablished": 3,
+   "counties": 9
+  },
+  {
+   "state": "DE",
+   "name": "Delaware",
+   "lyme2023": 349,
+   "ratePer100k2023": 34.7,
+   "blackleggedEstablished": 3,
+   "loneStarEstablished": 2,
+   "counties": 3
+  },
+  {
+   "state": "FL",
+   "name": "Florida",
+   "lyme2023": 271,
+   "ratePer100k2023": 1.2,
+   "blackleggedEstablished": 55,
+   "loneStarEstablished": 48,
+   "counties": 67
+  },
+  {
+   "state": "GA",
+   "name": "Georgia",
+   "lyme2023": 18,
+   "ratePer100k2023": 0.2,
+   "blackleggedEstablished": 39,
+   "loneStarEstablished": 60,
+   "counties": 159
+  },
+  {
+   "state": "HI",
+   "name": "Hawaii",
+   "lyme2023": null,
+   "ratePer100k2023": null,
+   "blackleggedEstablished": 0,
+   "loneStarEstablished": 0,
+   "counties": 0
+  },
+  {
+   "state": "ID",
+   "name": "Idaho",
+   "lyme2023": 11,
+   "ratePer100k2023": 0.6,
+   "blackleggedEstablished": 0,
+   "loneStarEstablished": 0,
+   "counties": 44
+  },
+  {
+   "state": "IL",
+   "name": "Illinois",
+   "lyme2023": 372,
+   "ratePer100k2023": 2.9,
+   "blackleggedEstablished": 63,
+   "loneStarEstablished": 68,
+   "counties": 102
+  },
+  {
+   "state": "IN",
+   "name": "Indiana",
+   "lyme2023": 257,
+   "ratePer100k2023": 3.8,
+   "blackleggedEstablished": 90,
+   "loneStarEstablished": 49,
+   "counties": 92
+  },
+  {
+   "state": "IA",
+   "name": "Iowa",
+   "lyme2023": 212,
+   "ratePer100k2023": 6.6,
+   "blackleggedEstablished": 51,
+   "loneStarEstablished": 28,
+   "counties": 99
+  },
+  {
+   "state": "KS",
+   "name": "Kansas",
+   "lyme2023": 12,
+   "ratePer100k2023": 0.4,
+   "blackleggedEstablished": 4,
+   "loneStarEstablished": 32,
+   "counties": 105
+  },
+  {
+   "state": "KY",
+   "name": "Kentucky",
+   "lyme2023": 120,
+   "ratePer100k2023": 2.7,
+   "blackleggedEstablished": 50,
+   "loneStarEstablished": 86,
+   "counties": 120
+  },
+  {
+   "state": "LA",
+   "name": "Louisiana",
+   "lyme2023": 15,
+   "ratePer100k2023": 0.3,
+   "blackleggedEstablished": 19,
+   "loneStarEstablished": 19,
+   "counties": 64
+  },
+  {
+   "state": "ME",
+   "name": "Maine",
+   "lyme2023": 2942,
+   "ratePer100k2023": 213.4,
+   "blackleggedEstablished": 16,
+   "loneStarEstablished": 0,
+   "counties": 16
+  },
+  {
+   "state": "MD",
+   "name": "Maryland",
+   "lyme2023": 2470,
+   "ratePer100k2023": 40,
+   "blackleggedEstablished": 22,
+   "loneStarEstablished": 18,
+   "counties": 24
+  },
+  {
+   "state": "MA",
+   "name": "Massachusetts",
+   "lyme2023": 9715,
+   "ratePer100k2023": 138.9,
+   "blackleggedEstablished": 14,
+   "loneStarEstablished": 1,
+   "counties": 14
+  },
+  {
+   "state": "MI",
+   "name": "Michigan",
+   "lyme2023": 1152,
+   "ratePer100k2023": 11.5,
+   "blackleggedEstablished": 56,
+   "loneStarEstablished": 5,
+   "counties": 83
+  },
+  {
+   "state": "MN",
+   "name": "Minnesota",
+   "lyme2023": 2938,
+   "ratePer100k2023": 51.4,
+   "blackleggedEstablished": 66,
+   "loneStarEstablished": 0,
+   "counties": 87
+  },
+  {
+   "state": "MS",
+   "name": "Mississippi",
+   "lyme2023": 4,
+   "ratePer100k2023": 0.1,
+   "blackleggedEstablished": 40,
+   "loneStarEstablished": 58,
+   "counties": 82
+  },
+  {
+   "state": "MO",
+   "name": "Missouri",
+   "lyme2023": 16,
+   "ratePer100k2023": 0.3,
+   "blackleggedEstablished": 23,
+   "loneStarEstablished": 63,
+   "counties": 115
+  },
+  {
+   "state": "MT",
+   "name": "Montana",
+   "lyme2023": 11,
+   "ratePer100k2023": 1,
+   "blackleggedEstablished": 0,
+   "loneStarEstablished": 0,
+   "counties": 56
+  },
+  {
+   "state": "NE",
+   "name": "Nebraska",
+   "lyme2023": 5,
+   "ratePer100k2023": 0.3,
+   "blackleggedEstablished": 3,
+   "loneStarEstablished": 27,
+   "counties": 93
+  },
+  {
+   "state": "NV",
+   "name": "Nevada",
+   "lyme2023": 14,
+   "ratePer100k2023": 0.4,
+   "blackleggedEstablished": 0,
+   "loneStarEstablished": 0,
+   "counties": 17
+  },
+  {
+   "state": "NH",
+   "name": "New Hampshire",
+   "lyme2023": 1573,
+   "ratePer100k2023": 113.4,
+   "blackleggedEstablished": 10,
+   "loneStarEstablished": 1,
+   "counties": 10
+  },
+  {
+   "state": "NJ",
+   "name": "New Jersey",
+   "lyme2023": 7224,
+   "ratePer100k2023": 77.9,
+   "blackleggedEstablished": 21,
+   "loneStarEstablished": 14,
+   "counties": 21
+  },
+  {
+   "state": "NM",
+   "name": "New Mexico",
+   "lyme2023": 11,
+   "ratePer100k2023": 0.5,
+   "blackleggedEstablished": 0,
+   "loneStarEstablished": 0,
+   "counties": 33
+  },
+  {
+   "state": "NY",
+   "name": "New York",
+   "lyme2023": 22173,
+   "ratePer100k2023": 111.7,
+   "blackleggedEstablished": 62,
+   "loneStarEstablished": 19,
+   "counties": 62
+  },
+  {
+   "state": "NC",
+   "name": "North Carolina",
+   "lyme2023": 228,
+   "ratePer100k2023": 2.2,
+   "blackleggedEstablished": 63,
+   "loneStarEstablished": 48,
+   "counties": 100
+  },
+  {
+   "state": "ND",
+   "name": "North Dakota",
+   "lyme2023": 15,
+   "ratePer100k2023": 1.9,
+   "blackleggedEstablished": 7,
+   "loneStarEstablished": 0,
+   "counties": 53
+  },
+  {
+   "state": "OH",
+   "name": "Ohio",
+   "lyme2023": 1307,
+   "ratePer100k2023": 11.1,
+   "blackleggedEstablished": 76,
+   "loneStarEstablished": 19,
+   "counties": 88
+  },
+  {
+   "state": "OK",
+   "name": "Oklahoma",
+   "lyme2023": 3,
+   "ratePer100k2023": 0.1,
+   "blackleggedEstablished": 28,
+   "loneStarEstablished": 69,
+   "counties": 77
+  },
+  {
+   "state": "OR",
+   "name": "Oregon",
+   "lyme2023": 61,
+   "ratePer100k2023": 1.4,
+   "blackleggedEstablished": 0,
+   "loneStarEstablished": 0,
+   "counties": 36
+  },
+  {
+   "state": "PA",
+   "name": "Pennsylvania",
+   "lyme2023": 16671,
+   "ratePer100k2023": 128.1,
+   "blackleggedEstablished": 67,
+   "loneStarEstablished": 8,
+   "counties": 67
+  },
+  {
+   "state": "RI",
+   "name": "Rhode Island",
+   "lyme2023": 2852,
+   "ratePer100k2023": 260,
+   "blackleggedEstablished": 5,
+   "loneStarEstablished": 2,
+   "counties": 5
+  },
+  {
+   "state": "SC",
+   "name": "South Carolina",
+   "lyme2023": 55,
+   "ratePer100k2023": 1.1,
+   "blackleggedEstablished": 23,
+   "loneStarEstablished": 25,
+   "counties": 46
+  },
+  {
+   "state": "SD",
+   "name": "South Dakota",
+   "lyme2023": 7,
+   "ratePer100k2023": 0.8,
+   "blackleggedEstablished": 4,
+   "loneStarEstablished": 4,
+   "counties": 67
+  },
+  {
+   "state": "TN",
+   "name": "Tennessee",
+   "lyme2023": 50,
+   "ratePer100k2023": 0.7,
+   "blackleggedEstablished": 29,
+   "loneStarEstablished": 45,
+   "counties": 95
+  },
+  {
+   "state": "TX",
+   "name": "Texas",
+   "lyme2023": 27,
+   "ratePer100k2023": 0.1,
+   "blackleggedEstablished": 28,
+   "loneStarEstablished": 118,
+   "counties": 254
+  },
+  {
+   "state": "UT",
+   "name": "Utah",
+   "lyme2023": 16,
+   "ratePer100k2023": 0.5,
+   "blackleggedEstablished": 0,
+   "loneStarEstablished": 0,
+   "counties": 29
+  },
+  {
+   "state": "VT",
+   "name": "Vermont",
+   "lyme2023": 1445,
+   "ratePer100k2023": 223.3,
+   "blackleggedEstablished": 14,
+   "loneStarEstablished": 0,
+   "counties": 14
+  },
+  {
+   "state": "VA",
+   "name": "Virginia",
+   "lyme2023": 1747,
+   "ratePer100k2023": 20.2,
+   "blackleggedEstablished": 70,
+   "loneStarEstablished": 70,
+   "counties": 134
+  },
+  {
+   "state": "WA",
+   "name": "Washington",
+   "lyme2023": 25,
+   "ratePer100k2023": 0.3,
+   "blackleggedEstablished": 0,
+   "loneStarEstablished": 0,
+   "counties": 39
+  },
+  {
+   "state": "WV",
+   "name": "West Virginia",
+   "lyme2023": 3242,
+   "ratePer100k2023": 181.6,
+   "blackleggedEstablished": 48,
+   "loneStarEstablished": 13,
+   "counties": 55
+  },
+  {
+   "state": "WI",
+   "name": "Wisconsin",
+   "lyme2023": 6283,
+   "ratePer100k2023": 106.9,
+   "blackleggedEstablished": 61,
+   "loneStarEstablished": 1,
+   "counties": 72
+  },
+  {
+   "state": "WY",
+   "name": "Wyoming",
+   "lyme2023": 2,
+   "ratePer100k2023": 0.3,
+   "blackleggedEstablished": 0,
+   "loneStarEstablished": 0,
+   "counties": 23
+  }
+ ]
+}

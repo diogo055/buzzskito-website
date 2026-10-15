@@ -18,9 +18,9 @@
 
 - `/blog/mosquitoes-in-alberta` — **mosquitoes in alberta** (also: mosquito season alberta; when is mosquito season in alberta; west nile virus alberta). For Canadian readers: when mosquito season starts, peaks and ends in Alberta, region by region, from Environment and Climate Change Canada temperature normals and provincial or city mosquito programs; which mosquitoes live in Alberta and when they bite; West Nile virus in Alberta by year (provincial and Public Health Agency of Canada figures); city mosquito control and trap counts where they are published; how to cut mosquitoes around a home. Built from the province's data packet (dataPacket) plus the provincial health ministry pages.
 
-- `/blog/mosquitoes-in-saskatchewan` — **mosquitoes in saskatchewan** (also: mosquito season saskatchewan; when is mosquito season in saskatchewan; west nile virus saskatchewan). For Canadian readers: when mosquito season starts, peaks and ends in Saskatchewan, region by region, from Environment and Climate Change Canada temperature normals and provincial or city mosquito programs; which mosquitoes live in Saskatchewan and when they bite; West Nile virus in Saskatchewan by year (provincial and Public Health Agency of Canada figures); city mosquito control and trap counts where they are published; how to cut mosquitoes around a home. Built from the province's data packet (dataPacket) plus the provincial health ministry pages.
-
 - `/blog/mosquitoes-in-british-columbia` — **mosquitoes in british columbia** (also: mosquito season british columbia; when is mosquito season in british columbia; west nile virus british columbia). For Canadian readers: when mosquito season starts, peaks and ends in British Columbia, region by region, from Environment and Climate Change Canada temperature normals and provincial or city mosquito programs; which mosquitoes live in British Columbia and when they bite; West Nile virus in British Columbia by year (provincial and Public Health Agency of Canada figures); city mosquito control and trap counts where they are published; how to cut mosquitoes around a home. Built from the province's data packet (dataPacket) plus the provincial health ministry pages.
+
+- `/blog/mosquitoes-in-saskatchewan` — **mosquitoes in saskatchewan** (also: mosquito season saskatchewan; when is mosquito season in saskatchewan; west nile virus saskatchewan). For Canadian readers: when mosquito season starts, peaks and ends in Saskatchewan, region by region, from Environment and Climate Change Canada temperature normals and provincial or city mosquito programs; which mosquitoes live in Saskatchewan and when they bite; West Nile virus in Saskatchewan by year (provincial and Public Health Agency of Canada figures); city mosquito control and trap counts where they are published; how to cut mosquitoes around a home. Built from the province's data packet (dataPacket) plus the provincial health ministry pages.
 
 - `/blog/mosquitoes-in-quebec` — **mosquitoes in quebec** (also: mosquito season quebec; when is mosquito season in quebec; west nile virus quebec). For Canadian readers: when mosquito season starts, peaks and ends in Quebec, region by region, from Environment and Climate Change Canada temperature normals and provincial or city mosquito programs; which mosquitoes live in Quebec and when they bite; West Nile virus in Quebec by year (provincial and Public Health Agency of Canada figures); city mosquito control and trap counts where they are published; how to cut mosquitoes around a home. Built from the province's data packet (dataPacket) plus the provincial health ministry pages.
 
@@ -222,13 +222,13 @@
 - `/learn/natural-weed-control` — natural weed killer
 - `/learn/ticks-by-province` — ticks in canada by province
 - `/blog/ticks-in-nova-scotia` — ticks in nova scotia
+- `/blog/ticks-in-manitoba` — ticks in manitoba
+- `/blog/ticks-in-alberta` — ticks in alberta
 - `/blog/ticks-in-new-brunswick` — ticks in new brunswick
 - `/blog/ticks-in-quebec` — ticks in quebec
 - `/blog/ticks-in-british-columbia` — ticks in british columbia
-- `/blog/ticks-in-manitoba` — ticks in manitoba
-- `/blog/ticks-in-prince-edward-island` — ticks in prince edward island
-- `/blog/ticks-in-alberta` — ticks in alberta
 - `/blog/ticks-in-newfoundland-and-labrador` — ticks in newfoundland and labrador
+- `/blog/ticks-in-prince-edward-island` — ticks in prince edward island
 - `/blog/ticks-in-saskatchewan` — ticks in saskatchewan
 - `/learn/ticks-by-state` — ticks by state
 - `/blog/ticks-in-pennsylvania` — ticks in pennsylvania

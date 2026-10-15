@@ -1,0 +1,1236 @@
+{
+ "state": "IN",
+ "name": "Indiana",
+ "fips": "18",
+ "population2025": 6973333,
+ "climate": {
+  "period": "1991-2020",
+  "monthlyMeanF": [
+   27.7,
+   31.4,
+   41,
+   52.1,
+   62.5,
+   71.2,
+   74.2,
+   72.6,
+   66,
+   54.5,
+   42.4,
+   32.5
+  ]
+ },
+ "climateNote": "NOAA NCEI Climate at a Glance, statewide monthly mean temperature in degrees Fahrenheit, averaged over 1991-2020 (state averages hide big regional differences).",
+ "monthsAtOrAbove50F": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "mosquitoBorneDisease": {
+  "West Nile virus": {
+   "casesByYear": {
+    "1999": 0,
+    "2000": 0,
+    "2001": 0,
+    "2002": 293,
+    "2003": 47,
+    "2004": 13,
+    "2005": 23,
+    "2006": 80,
+    "2007": 24,
+    "2008": 4,
+    "2009": 4,
+    "2010": 13,
+    "2011": 9,
+    "2012": 77,
+    "2013": 23,
+    "2014": 10,
+    "2015": 21,
+    "2016": 18,
+    "2017": 26,
+    "2018": 35,
+    "2019": 4,
+    "2020": 3,
+    "2021": 14,
+    "2022": 6,
+    "2023": 13,
+    "2024": 11,
+    "2025": 39
+   },
+   "neuroinvasiveByYear": {
+    "1999": 0,
+    "2000": 0,
+    "2001": 0,
+    "2002": 180,
+    "2003": 15,
+    "2004": 8,
+    "2005": 11,
+    "2006": 27,
+    "2007": 14,
+    "2008": 3,
+    "2009": 2,
+    "2010": 6,
+    "2011": 7,
+    "2012": 46,
+    "2013": 19,
+    "2014": 9,
+    "2015": 16,
+    "2016": 15,
+    "2017": 18,
+    "2018": 26,
+    "2019": 4,
+    "2020": 3,
+    "2021": 11,
+    "2022": 6,
+    "2023": 9,
+    "2024": 10,
+    "2025": 35
+   }
+  },
+  "Eastern equine encephalitis": {
+   "casesByYear": {
+    "2003": 0,
+    "2004": 0,
+    "2005": 0,
+    "2006": 0,
+    "2007": 0,
+    "2008": 0,
+    "2009": 0,
+    "2010": 0,
+    "2011": 0,
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 0,
+    "2018": 0,
+    "2019": 1,
+    "2020": 1,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+   },
+   "neuroinvasiveByYear": {
+    "2003": 0,
+    "2004": 0,
+    "2005": 0,
+    "2006": 0,
+    "2007": 0,
+    "2008": 0,
+    "2009": 0,
+    "2010": 0,
+    "2011": 0,
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 0,
+    "2018": 0,
+    "2019": 1,
+    "2020": 1,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+   }
+  },
+  "La Crosse encephalitis": {
+   "casesByYear": {
+    "2003": 0,
+    "2004": 2,
+    "2005": 1,
+    "2006": 3,
+    "2007": 0,
+    "2008": 0,
+    "2009": 1,
+    "2010": 0,
+    "2011": 2,
+    "2012": 3,
+    "2013": 1,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 0,
+    "2018": 0,
+    "2019": 0,
+    "2020": 1,
+    "2021": 1,
+    "2022": 0,
+    "2023": 1,
+    "2024": 0,
+    "2025": 4
+   },
+   "neuroinvasiveByYear": {
+    "2003": 0,
+    "2004": 2,
+    "2005": 0,
+    "2006": 3,
+    "2007": 0,
+    "2008": 0,
+    "2009": 1,
+    "2010": 0,
+    "2011": 2,
+    "2012": 2,
+    "2013": 1,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 0,
+    "2018": 0,
+    "2019": 0,
+    "2020": 1,
+    "2021": 1,
+    "2022": 0,
+    "2023": 1,
+    "2024": 0,
+    "2025": 4
+   }
+  },
+  "St. Louis encephalitis": {
+   "casesByYear": {
+    "2003": 0,
+    "2004": 0,
+    "2005": 0,
+    "2006": 0,
+    "2007": 0,
+    "2008": 0,
+    "2009": 1,
+    "2010": 0,
+    "2011": 0,
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 0,
+    "2018": 0,
+    "2019": 0,
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+   },
+   "neuroinvasiveByYear": {
+    "2003": 0,
+    "2004": 0,
+    "2005": 0,
+    "2006": 0,
+    "2007": 0,
+    "2008": 0,
+    "2009": 1,
+    "2010": 0,
+    "2011": 0,
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 0,
+    "2018": 0,
+    "2019": 0,
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+   }
+  },
+  "Jamestown Canyon virus": {
+   "casesByYear": {
+    "2011": 0,
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 0,
+    "2018": 0,
+    "2019": 0,
+    "2020": 0,
+    "2021": 1,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+   },
+   "neuroinvasiveByYear": {
+    "2011": 0,
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 0,
+    "2018": 0,
+    "2019": 0,
+    "2020": 0,
+    "2021": 1,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+   }
+  },
+  "Powassan virus": {
+   "casesByYear": {
+    "2004": 0,
+    "2005": 0,
+    "2006": 0,
+    "2007": 0,
+    "2008": 0,
+    "2009": 0,
+    "2010": 0,
+    "2011": 0,
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 0,
+    "2018": 1,
+    "2019": 0,
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+   },
+   "neuroinvasiveByYear": {
+    "2004": 0,
+    "2005": 0,
+    "2006": 0,
+    "2007": 0,
+    "2008": 0,
+    "2009": 0,
+    "2010": 0,
+    "2011": 0,
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 0,
+    "2018": 1,
+    "2019": 0,
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+   }
+  }
+ },
+ "arboNote": "CDC ArboNET, human disease cases by state of residence; 1999-2025 for West Nile (2025 final as of Sep 2026). Non-neuroinvasive cases are under-reported. Years with no reported cases are 0.",
+ "westNileCounties": {
+  "cumulativeHumanCasesByCounty": {
+   "18001": 17,
+   "18003": 122,
+   "18005": 7,
+   "18007": 1,
+   "18009": 5,
+   "18011": 3,
+   "18013": 0,
+   "18015": 1,
+   "18017": 0,
+   "18019": 7,
+   "18021": 2,
+   "18023": 4,
+   "18025": 1,
+   "18027": 2,
+   "18029": 5,
+   "18031": 0,
+   "18033": 4,
+   "18035": 18,
+   "18037": 2,
+   "18039": 42,
+   "18041": 0,
+   "18043": 6,
+   "18045": 1,
+   "18047": 0,
+   "18049": 4,
+   "18051": 7,
+   "18053": 11,
+   "18055": 1,
+   "18057": 21,
+   "18059": 8,
+   "18061": 0,
+   "18063": 3,
+   "18065": 2,
+   "18067": 9,
+   "18069": 9,
+   "18071": 7,
+   "18073": 5,
+   "18075": 4,
+   "18077": 3,
+   "18079": 2,
+   "18081": 4,
+   "18083": 6,
+   "18085": 14,
+   "18087": 7,
+   "18089": 118,
+   "18091": 11,
+   "18093": 1,
+   "18095": 12,
+   "18097": 97,
+   "18099": 4,
+   "18101": 0,
+   "18103": 5,
+   "18105": 4,
+   "18107": 2,
+   "18109": 5,
+   "18111": 0,
+   "18113": 4,
+   "18115": 2,
+   "18117": 1,
+   "18119": 1,
+   "18121": 3,
+   "18123": 2,
+   "18125": 0,
+   "18127": 45,
+   "18129": 2,
+   "18131": 0,
+   "18133": 1,
+   "18135": 3,
+   "18137": 3,
+   "18139": 1,
+   "18141": 13,
+   "18143": 1,
+   "18145": 1,
+   "18147": 1,
+   "18149": 0,
+   "18151": 2,
+   "18153": 2,
+   "18155": 1,
+   "18157": 9,
+   "18159": 2,
+   "18161": 0,
+   "18163": 38,
+   "18165": 1,
+   "18167": 1,
+   "18169": 5,
+   "18171": 0,
+   "18173": 3,
+   "18175": 0,
+   "18177": 3,
+   "18179": 9,
+   "18181": 3,
+   "18183": 11
+  },
+  "latestYearWithActivity": 2025,
+  "countiesWithActivityLatestYear": [
+   {
+    "fips": "18001",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18003",
+    "activity": "Human infections and non-human activity",
+    "human": 2
+   },
+   {
+    "fips": "18005",
+    "activity": "Human infections and non-human activity",
+    "human": 2
+   },
+   {
+    "fips": "18007",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18009",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18011",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "18013",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18015",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18017",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18019",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "18021",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18023",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18025",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18027",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18029",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18031",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18033",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18035",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18037",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18039",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "18041",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18043",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18045",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18047",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18049",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18051",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18053",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18055",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18057",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "18059",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "18061",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18063",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18065",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18067",
+    "activity": "Human infections and non-human activity",
+    "human": 4
+   },
+   {
+    "fips": "18069",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18071",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18073",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18075",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "18077",
+    "activity": "Human infections and non-human activity",
+    "human": 2
+   },
+   {
+    "fips": "18079",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18081",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18083",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18085",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18087",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18089",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "18091",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18093",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18095",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "18097",
+    "activity": "Human infections and non-human activity",
+    "human": 6
+   },
+   {
+    "fips": "18099",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18101",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18103",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18105",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18107",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18109",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18111",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18113",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18115",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "18117",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18119",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18121",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18123",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18125",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18127",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "18129",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18131",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18133",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18135",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18137",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18139",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18141",
+    "activity": "Human infections and non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18143",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18145",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "18147",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18149",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18151",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18153",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18155",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18157",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18159",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "18161",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18163",
+    "activity": "Human infections and non-human activity",
+    "human": 10
+   },
+   {
+    "fips": "18165",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18167",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18169",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18171",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18173",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18175",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18177",
+    "activity": "Human infections and non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18179",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "18181",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "18183",
+    "activity": "Non-human activity",
+    "human": 0
+   }
+  ]
+ },
+ "aedesAegypti": {
+  "countiesWithRecords": 1,
+  "counties": [
+   {
+    "fips": "18163",
+    "name": "Vanderburgh"
+   }
+  ]
+ },
+ "aedesAlbopictus": {
+  "countiesWithRecords": 64,
+  "counties": [
+   {
+    "fips": "18003",
+    "name": "Allen"
+   },
+   {
+    "fips": "18005",
+    "name": "Bartholomew"
+   },
+   {
+    "fips": "18011",
+    "name": "Boone"
+   },
+   {
+    "fips": "18013",
+    "name": "Brown"
+   },
+   {
+    "fips": "18019",
+    "name": "Clark"
+   },
+   {
+    "fips": "18021",
+    "name": "Clay"
+   },
+   {
+    "fips": "18025",
+    "name": "Crawford"
+   },
+   {
+    "fips": "18027",
+    "name": "Daviess"
+   },
+   {
+    "fips": "18029",
+    "name": "Dearborn"
+   },
+   {
+    "fips": "18031",
+    "name": "Decatur"
+   },
+   {
+    "fips": "18033",
+    "name": "De Kalb"
+   },
+   {
+    "fips": "18035",
+    "name": "Delaware"
+   },
+   {
+    "fips": "18037",
+    "name": "Dubois"
+   },
+   {
+    "fips": "18041",
+    "name": "Fayette"
+   },
+   {
+    "fips": "18043",
+    "name": "Floyd"
+   },
+   {
+    "fips": "18047",
+    "name": "Franklin"
+   },
+   {
+    "fips": "18049",
+    "name": "Fulton"
+   },
+   {
+    "fips": "18051",
+    "name": "Gibson"
+   },
+   {
+    "fips": "18055",
+    "name": "Greene"
+   },
+   {
+    "fips": "18057",
+    "name": "Hamilton"
+   },
+   {
+    "fips": "18059",
+    "name": "Hancock"
+   },
+   {
+    "fips": "18061",
+    "name": "Harrison"
+   },
+   {
+    "fips": "18063",
+    "name": "Hendricks"
+   },
+   {
+    "fips": "18069",
+    "name": "Huntington"
+   },
+   {
+    "fips": "18071",
+    "name": "Jackson"
+   },
+   {
+    "fips": "18075",
+    "name": "Jay"
+   },
+   {
+    "fips": "18077",
+    "name": "Jefferson"
+   },
+   {
+    "fips": "18079",
+    "name": "Jennings"
+   },
+   {
+    "fips": "18081",
+    "name": "Johnson"
+   },
+   {
+    "fips": "18083",
+    "name": "Knox"
+   },
+   {
+    "fips": "18091",
+    "name": "La Porte"
+   },
+   {
+    "fips": "18093",
+    "name": "Lawrence"
+   },
+   {
+    "fips": "18095",
+    "name": "Madison"
+   },
+   {
+    "fips": "18097",
+    "name": "Marion"
+   },
+   {
+    "fips": "18101",
+    "name": "Martin"
+   },
+   {
+    "fips": "18105",
+    "name": "Monroe"
+   },
+   {
+    "fips": "18107",
+    "name": "Montgomery"
+   },
+   {
+    "fips": "18109",
+    "name": "Morgan"
+   },
+   {
+    "fips": "18115",
+    "name": "Ohio"
+   },
+   {
+    "fips": "18117",
+    "name": "Orange"
+   },
+   {
+    "fips": "18119",
+    "name": "Owen"
+   },
+   {
+    "fips": "18121",
+    "name": "Parke"
+   },
+   {
+    "fips": "18123",
+    "name": "Perry"
+   },
+   {
+    "fips": "18125",
+    "name": "Pike"
+   },
+   {
+    "fips": "18129",
+    "name": "Posey"
+   },
+   {
+    "fips": "18133",
+    "name": "Putnam"
+   },
+   {
+    "fips": "18135",
+    "name": "Randolph"
+   },
+   {
+    "fips": "18137",
+    "name": "Ripley"
+   },
+   {
+    "fips": "18139",
+    "name": "Rush"
+   },
+   {
+    "fips": "18141",
+    "name": "Saint Joseph"
+   },
+   {
+    "fips": "18143",
+    "name": "Scott"
+   },
+   {
+    "fips": "18145",
+    "name": "Shelby"
+   },
+   {
+    "fips": "18147",
+    "name": "Spencer"
+   },
+   {
+    "fips": "18153",
+    "name": "Sullivan"
+   },
+   {
+    "fips": "18155",
+    "name": "Switzerland"
+   },
+   {
+    "fips": "18157",
+    "name": "Tippecanoe"
+   },
+   {
+    "fips": "18159",
+    "name": "Tipton"
+   },
+   {
+    "fips": "18163",
+    "name": "Vanderburgh"
+   },
+   {
+    "fips": "18165",
+    "name": "Vermillion"
+   },
+   {
+    "fips": "18167",
+    "name": "Vigo"
+   },
+   {
+    "fips": "18171",
+    "name": "Warren"
+   },
+   {
+    "fips": "18173",
+    "name": "Warrick"
+   },
+   {
+    "fips": "18175",
+    "name": "Washington"
+   },
+   {
+    "fips": "18177",
+    "name": "Wayne"
+   }
+  ]
+ },
+ "aedesNote": "County records of Aedes aegypti and Aedes albopictus compiled to about 2016 (Monaghan et al. 2019, PLOS Computational Biology, CC0; from the county records CDC published with Hahn et al.). A county with no record may still have the mosquito.",
+ "sources": [
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "West Nile virus human disease by state and year, 1999-2025",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/WNV/wnv_hum_historic%20-%20Historic%20Sta.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "Eastern equine encephalitis by state and year, 2003-2025",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/EEE/eee_hum_historic%20-%20Historic%20Sta.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "La Crosse encephalitis by state and year, 2003-2025",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/LAC/lac_hum_historic%20-%20Historic%20Sta.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "St. Louis encephalitis by state and year, 2003-2025",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/SLE/sle_hum_historic%20-%20Historic%20Sta.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "Jamestown Canyon virus by state and year, 2011-2025",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/JCV/jcv_hum_historic%20-%20Historic%20Sta.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "Powassan virus by state and year, 2004-2025",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/POW/pow_hum_historic%20-%20Historic%20Sta.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "West Nile virus human and non-human activity by county and year",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/WNV/wnv_hist_hum_nonhum_yearly.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "Monaghan et al. 2019, PLOS Computational Biology",
+   "title": "Aedes aegypti county records (to about 2016) and model",
+   "url": "https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=10.1371/journal.pcbi.1007369.s006",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "Monaghan et al. 2019, PLOS Computational Biology",
+   "title": "Aedes albopictus county records (to about 2016) and model",
+   "url": "https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=10.1371/journal.pcbi.1007369.s007",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "title": "Statewide monthly mean temperature, IN",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/12/tavg/1/0/1895-2026/data.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "US Census Bureau",
+   "title": "State population estimates, Vintage 2025",
+   "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+   "downloadedOn": "2026-10-15"
+  }
+ ]
+}

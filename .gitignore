@@ -49,3 +49,6 @@ data/gsc/*.csv
 
 # Lighthouse reports written by scripts/measure-speed.mjs
 .lighthouse/
+
+# god build: raw government downloads and original photos (sources are listed in data/god-build/sources.json and photos.json)
+data/god-build/raw/

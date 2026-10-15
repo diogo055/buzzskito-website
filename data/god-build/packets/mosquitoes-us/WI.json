@@ -1,0 +1,622 @@
+{
+ "state": "WI",
+ "name": "Wisconsin",
+ "fips": "55",
+ "population2025": 5972787,
+ "climate": {
+  "period": "1991-2020",
+  "monthlyMeanF": [
+   15.3,
+   19.2,
+   30.5,
+   43.1,
+   55.4,
+   65.1,
+   69.2,
+   67.2,
+   59.5,
+   46.8,
+   33.4,
+   21.4
+  ]
+ },
+ "climateNote": "NOAA NCEI Climate at a Glance, statewide monthly mean temperature in degrees Fahrenheit, averaged over 1991-2020 (state averages hide big regional differences).",
+ "monthsAtOrAbove50F": [
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "mosquitoBorneDisease": {
+  "West Nile virus": {
+   "casesByYear": {
+    "1999": 0,
+    "2000": 0,
+    "2001": 0,
+    "2002": 52,
+    "2003": 17,
+    "2004": 12,
+    "2005": 17,
+    "2006": 21,
+    "2007": 13,
+    "2008": 8,
+    "2009": 1,
+    "2010": 2,
+    "2011": 3,
+    "2012": 57,
+    "2013": 21,
+    "2014": 6,
+    "2015": 9,
+    "2016": 13,
+    "2017": 51,
+    "2018": 33,
+    "2019": 2,
+    "2020": 5,
+    "2021": 8,
+    "2022": 6,
+    "2023": 25,
+    "2024": 32,
+    "2025": 27
+   },
+   "neuroinvasiveByYear": {
+    "1999": 0,
+    "2000": 0,
+    "2001": 0,
+    "2002": 22,
+    "2003": 7,
+    "2004": 5,
+    "2005": 11,
+    "2006": 11,
+    "2007": 7,
+    "2008": 4,
+    "2009": 1,
+    "2010": 0,
+    "2011": 2,
+    "2012": 44,
+    "2013": 17,
+    "2014": 3,
+    "2015": 6,
+    "2016": 10,
+    "2017": 47,
+    "2018": 29,
+    "2019": 0,
+    "2020": 5,
+    "2021": 7,
+    "2022": 6,
+    "2023": 24,
+    "2024": 26,
+    "2025": 25
+   }
+  },
+  "Eastern equine encephalitis": {
+   "casesByYear": {
+    "2003": 0,
+    "2004": 0,
+    "2005": 0,
+    "2006": 0,
+    "2007": 0,
+    "2008": 0,
+    "2009": 0,
+    "2010": 0,
+    "2011": 1,
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 1,
+    "2018": 0,
+    "2019": 0,
+    "2020": 2,
+    "2021": 1,
+    "2022": 1,
+    "2023": 0,
+    "2024": 1,
+    "2025": 0
+   },
+   "neuroinvasiveByYear": {
+    "2003": 0,
+    "2004": 0,
+    "2005": 0,
+    "2006": 0,
+    "2007": 0,
+    "2008": 0,
+    "2009": 0,
+    "2010": 0,
+    "2011": 1,
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 1,
+    "2018": 0,
+    "2019": 0,
+    "2020": 2,
+    "2021": 1,
+    "2022": 1,
+    "2023": 0,
+    "2024": 1,
+    "2025": 0
+   }
+  },
+  "La Crosse encephalitis": {
+   "casesByYear": {
+    "2003": 15,
+    "2004": 7,
+    "2005": 4,
+    "2006": 3,
+    "2007": 4,
+    "2008": 4,
+    "2009": 1,
+    "2010": 0,
+    "2011": 5,
+    "2012": 2,
+    "2013": 8,
+    "2014": 4,
+    "2015": 6,
+    "2016": 4,
+    "2017": 2,
+    "2018": 0,
+    "2019": 3,
+    "2020": 2,
+    "2021": 2,
+    "2022": 0,
+    "2023": 1,
+    "2024": 0,
+    "2025": 0
+   },
+   "neuroinvasiveByYear": {
+    "2003": 9,
+    "2004": 4,
+    "2005": 3,
+    "2006": 2,
+    "2007": 2,
+    "2008": 3,
+    "2009": 1,
+    "2010": 0,
+    "2011": 2,
+    "2012": 2,
+    "2013": 5,
+    "2014": 3,
+    "2015": 6,
+    "2016": 3,
+    "2017": 2,
+    "2018": 0,
+    "2019": 3,
+    "2020": 2,
+    "2021": 2,
+    "2022": 0,
+    "2023": 1,
+    "2024": 0,
+    "2025": 0
+   }
+  },
+  "St. Louis encephalitis": {
+   "casesByYear": {
+    "2003": 0,
+    "2004": 0,
+    "2005": 0,
+    "2006": 0,
+    "2007": 0,
+    "2008": 0,
+    "2009": 0,
+    "2010": 0,
+    "2011": 0,
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 0,
+    "2018": 1,
+    "2019": 0,
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+   },
+   "neuroinvasiveByYear": {
+    "2003": 0,
+    "2004": 0,
+    "2005": 0,
+    "2006": 0,
+    "2007": 0,
+    "2008": 0,
+    "2009": 0,
+    "2010": 0,
+    "2011": 0,
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 0,
+    "2018": 1,
+    "2019": 0,
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+   }
+  },
+  "Jamestown Canyon virus": {
+   "casesByYear": {
+    "2011": 2,
+    "2012": 1,
+    "2013": 11,
+    "2014": 5,
+    "2015": 4,
+    "2016": 7,
+    "2017": 43,
+    "2018": 23,
+    "2019": 15,
+    "2020": 5,
+    "2021": 10,
+    "2022": 5,
+    "2023": 13,
+    "2024": 10,
+    "2025": 7
+   },
+   "neuroinvasiveByYear": {
+    "2011": 1,
+    "2012": 0,
+    "2013": 7,
+    "2014": 2,
+    "2015": 2,
+    "2016": 5,
+    "2017": 36,
+    "2018": 13,
+    "2019": 6,
+    "2020": 4,
+    "2021": 4,
+    "2022": 4,
+    "2023": 11,
+    "2024": 6,
+    "2025": 1
+   }
+  },
+  "Powassan virus": {
+   "casesByYear": {
+    "2004": 0,
+    "2005": 0,
+    "2006": 1,
+    "2007": 1,
+    "2008": 0,
+    "2009": 0,
+    "2010": 4,
+    "2011": 4,
+    "2012": 2,
+    "2013": 5,
+    "2014": 2,
+    "2015": 1,
+    "2016": 5,
+    "2017": 3,
+    "2018": 3,
+    "2019": 7,
+    "2020": 4,
+    "2021": 3,
+    "2022": 8,
+    "2023": 2,
+    "2024": 12,
+    "2025": 18
+   },
+   "neuroinvasiveByYear": {
+    "2004": 0,
+    "2005": 0,
+    "2006": 1,
+    "2007": 1,
+    "2008": 0,
+    "2009": 0,
+    "2010": 4,
+    "2011": 2,
+    "2012": 2,
+    "2013": 3,
+    "2014": 2,
+    "2015": 1,
+    "2016": 5,
+    "2017": 3,
+    "2018": 3,
+    "2019": 5,
+    "2020": 4,
+    "2021": 2,
+    "2022": 8,
+    "2023": 2,
+    "2024": 12,
+    "2025": 16
+   }
+  }
+ },
+ "arboNote": "CDC ArboNET, human disease cases by state of residence; 1999-2025 for West Nile (2025 final as of Sep 2026). Non-neuroinvasive cases are under-reported. Years with no reported cases are 0.",
+ "westNileCounties": {
+  "cumulativeHumanCasesByCounty": {
+   "55001": 2,
+   "55003": 1,
+   "55005": 11,
+   "55007": 1,
+   "55009": 17,
+   "55011": 2,
+   "55013": 1,
+   "55015": 5,
+   "55017": 5,
+   "55019": 2,
+   "55021": 0,
+   "55023": 2,
+   "55025": 60,
+   "55027": 7,
+   "55029": 0,
+   "55031": 4,
+   "55033": 2,
+   "55035": 5,
+   "55037": 0,
+   "55039": 7,
+   "55041": 0,
+   "55043": 5,
+   "55045": 3,
+   "55047": 0,
+   "55049": 3,
+   "55051": 0,
+   "55053": 0,
+   "55055": 16,
+   "55057": 3,
+   "55059": 10,
+   "55061": 2,
+   "55063": 7,
+   "55065": 3,
+   "55067": 1,
+   "55069": 2,
+   "55071": 6,
+   "55073": 7,
+   "55075": 2,
+   "55077": 1,
+   "55078": 0,
+   "55079": 89,
+   "55081": 2,
+   "55083": 3,
+   "55085": 1,
+   "55087": 10,
+   "55089": 3,
+   "55091": 1,
+   "55093": 1,
+   "55095": 3,
+   "55097": 4,
+   "55099": 1,
+   "55101": 12,
+   "55103": 1,
+   "55105": 13,
+   "55107": 4,
+   "55109": 5,
+   "55111": 1,
+   "55113": 2,
+   "55115": 5,
+   "55117": 4,
+   "55119": 0,
+   "55121": 7,
+   "55123": 1,
+   "55125": 1,
+   "55127": 13,
+   "55129": 0,
+   "55131": 5,
+   "55133": 29,
+   "55135": 0,
+   "55137": 0,
+   "55139": 8,
+   "55141": 7
+  },
+  "latestYearWithActivity": 2025,
+  "countiesWithActivityLatestYear": [
+   {
+    "fips": "55005",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "55017",
+    "activity": "Human infections",
+    "human": 1
+   },
+   {
+    "fips": "55019",
+    "activity": "Human infections and non-human activity",
+    "human": 1
+   },
+   {
+    "fips": "55025",
+    "activity": "Human infections",
+    "human": 3
+   },
+   {
+    "fips": "55033",
+    "activity": "Human infections",
+    "human": 0
+   },
+   {
+    "fips": "55035",
+    "activity": "Human infections",
+    "human": 1
+   },
+   {
+    "fips": "55043",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "55047",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "55055",
+    "activity": "Human infections",
+    "human": 0
+   },
+   {
+    "fips": "55057",
+    "activity": "Human infections",
+    "human": 1
+   },
+   {
+    "fips": "55063",
+    "activity": "Human infections",
+    "human": 1
+   },
+   {
+    "fips": "55065",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "55079",
+    "activity": "Human infections and non-human activity",
+    "human": 2
+   },
+   {
+    "fips": "55089",
+    "activity": "Human infections",
+    "human": 1
+   },
+   {
+    "fips": "55091",
+    "activity": "Human infections",
+    "human": 1
+   },
+   {
+    "fips": "55095",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "55097",
+    "activity": "Human infections",
+    "human": 1
+   },
+   {
+    "fips": "55105",
+    "activity": "Non-human activity",
+    "human": 0
+   },
+   {
+    "fips": "55107",
+    "activity": "Human infections",
+    "human": 1
+   },
+   {
+    "fips": "55109",
+    "activity": "Human infections and non-human activity",
+    "human": 3
+   },
+   {
+    "fips": "55115",
+    "activity": "Human infections",
+    "human": 0
+   },
+   {
+    "fips": "55121",
+    "activity": "Human infections",
+    "human": 3
+   },
+   {
+    "fips": "55127",
+    "activity": "Human infections",
+    "human": 1
+   },
+   {
+    "fips": "55133",
+    "activity": "Human infections",
+    "human": 2
+   },
+   {
+    "fips": "55139",
+    "activity": "Human infections",
+    "human": 1
+   },
+   {
+    "fips": "55141",
+    "activity": "Human infections",
+    "human": 2
+   }
+  ]
+ },
+ "aedesAegypti": {
+  "countiesWithRecords": 0,
+  "counties": []
+ },
+ "aedesAlbopictus": {
+  "countiesWithRecords": 0,
+  "counties": []
+ },
+ "aedesNote": "County records of Aedes aegypti and Aedes albopictus compiled to about 2016 (Monaghan et al. 2019, PLOS Computational Biology, CC0; from the county records CDC published with Hahn et al.). A county with no record may still have the mosquito.",
+ "sources": [
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "West Nile virus human disease by state and year, 1999-2025",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/WNV/wnv_hum_historic%20-%20Historic%20Sta.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "Eastern equine encephalitis by state and year, 2003-2025",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/EEE/eee_hum_historic%20-%20Historic%20Sta.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "La Crosse encephalitis by state and year, 2003-2025",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/LAC/lac_hum_historic%20-%20Historic%20Sta.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "St. Louis encephalitis by state and year, 2003-2025",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/SLE/sle_hum_historic%20-%20Historic%20Sta.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "Jamestown Canyon virus by state and year, 2011-2025",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/JCV/jcv_hum_historic%20-%20Historic%20Sta.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "Powassan virus by state and year, 2004-2025",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/POW/pow_hum_historic%20-%20Historic%20Sta.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "West Nile virus human and non-human activity by county and year",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/WNV/wnv_hist_hum_nonhum_yearly.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "Monaghan et al. 2019, PLOS Computational Biology",
+   "title": "Aedes aegypti county records (to about 2016) and model",
+   "url": "https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=10.1371/journal.pcbi.1007369.s006",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "Monaghan et al. 2019, PLOS Computational Biology",
+   "title": "Aedes albopictus county records (to about 2016) and model",
+   "url": "https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=10.1371/journal.pcbi.1007369.s007",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "title": "Statewide monthly mean temperature, WI",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/47/tavg/1/0/1895-2026/data.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "US Census Bureau",
+   "title": "State population estimates, Vintage 2025",
+   "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+   "downloadedOn": "2026-10-15"
+  }
+ ]
+}

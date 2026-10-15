@@ -1,0 +1,357 @@
+{
+ "state": "SD",
+ "name": "South Dakota",
+ "fips": "46",
+ "population2025": 935094,
+ "lyme": {
+  "highIncidenceState": false,
+  "casesByYear": {
+   "2008": 3,
+   "2009": 1,
+   "2010": 1,
+   "2011": 4,
+   "2012": 4,
+   "2013": 4,
+   "2014": 2,
+   "2015": 5,
+   "2016": 11,
+   "2017": 12,
+   "2018": 7,
+   "2019": 10,
+   "2020": 8,
+   "2021": 16,
+   "2022": 12,
+   "2023": 7
+  },
+  "ratePer100kByYear": {
+   "2010": 0.1,
+   "2011": 0.5,
+   "2012": 0.5,
+   "2013": 0.5,
+   "2014": 0.2,
+   "2015": 0.6,
+   "2016": 1.3,
+   "2017": 1.4,
+   "2018": 0.8,
+   "2019": 1.1,
+   "2020": 0.9,
+   "2021": 1.8,
+   "2022": 1.3,
+   "2023": 0.8
+  },
+  "latestYear": 2023,
+  "latest": 7,
+  "average2017to2019": 10,
+  "countiesWithCases2023": 6,
+  "countyCount": 66,
+  "topCounties2023": [
+   {
+    "county": "Pennington County",
+    "fips": "46103",
+    "cases2023": 2
+   },
+   {
+    "county": "Day County",
+    "fips": "46037",
+    "cases2023": 1
+   },
+   {
+    "county": "Hamlin County",
+    "fips": "46057",
+    "cases2023": 1
+   },
+   {
+    "county": "Hughes County",
+    "fips": "46065",
+    "cases2023": 1
+   },
+   {
+    "county": "Minnehaha County",
+    "fips": "46099",
+    "cases2023": 1
+   },
+   {
+    "county": "Perkins County",
+    "fips": "46105",
+    "cases2023": 1
+   }
+  ],
+  "note": "Confirmed and probable cases, by county or state of residence (not necessarily where the bite happened). A revised case definition took effect in 2022: high-incidence states count laboratory evidence alone, so 2022-2023 are not directly comparable with earlier years. 2019-2020 reporting was affected by COVID-19.",
+  "countyCases2023": {
+   "46003": 0,
+   "46005": 0,
+   "46007": 0,
+   "46009": 0,
+   "46011": 0,
+   "46013": 0,
+   "46015": 0,
+   "46017": 0,
+   "46019": 0,
+   "46021": 0,
+   "46023": 0,
+   "46025": 0,
+   "46027": 0,
+   "46029": 0,
+   "46031": 0,
+   "46033": 0,
+   "46035": 0,
+   "46037": 1,
+   "46039": 0,
+   "46041": 0,
+   "46043": 0,
+   "46045": 0,
+   "46047": 0,
+   "46049": 0,
+   "46051": 0,
+   "46053": 0,
+   "46055": 0,
+   "46057": 1,
+   "46059": 0,
+   "46061": 0,
+   "46063": 0,
+   "46065": 1,
+   "46067": 0,
+   "46069": 0,
+   "46071": 0,
+   "46073": 0,
+   "46075": 0,
+   "46077": 0,
+   "46079": 0,
+   "46081": 0,
+   "46083": 0,
+   "46085": 0,
+   "46087": 0,
+   "46089": 0,
+   "46091": 0,
+   "46093": 0,
+   "46095": 0,
+   "46097": 0,
+   "46099": 1,
+   "46101": 0,
+   "46102": 0,
+   "46103": 2,
+   "46105": 1,
+   "46107": 0,
+   "46109": 0,
+   "46111": 0,
+   "46115": 0,
+   "46117": 0,
+   "46119": 0,
+   "46121": 0,
+   "46123": 0,
+   "46125": 0,
+   "46127": 0,
+   "46129": 0,
+   "46135": 0,
+   "46137": 0
+  }
+ },
+ "blackleggedTick": {
+  "counts": {
+   "Established": 4,
+   "Reported": 4,
+   "No records": 59
+  },
+  "note": "CDC ArboNET Tick Module, county status through Dec 31, 2025. Established = six or more ticks of one life stage, or more than one life stage, collected in a county within 12 months; Reported = fewer than six of one life stage; \"No records\" does not mean absent. Status is cumulative; reporting effort varies by county and state. Reference the ArboNET Tick Module wherever these data are used.",
+  "countyDetail": "data/god-build/raw/derived/ticks-county/SD.json (not committed)"
+ },
+ "westernBlackleggedTick": {
+  "counts": {
+   "Established": 0,
+   "Reported": 0,
+   "No records": 67
+  },
+  "countyDetail": "data/god-build/raw/derived/ticks-county/SD.json (not committed)"
+ },
+ "loneStarTick": {
+  "counts": {
+   "Established": 4,
+   "Reported": 2,
+   "No records": 61
+  },
+  "countyDetail": "data/god-build/raw/derived/ticks-county/SD.json (not committed)"
+ },
+ "americanDogTick": {
+  "counts": {
+   "Established": 19,
+   "Reported": 20,
+   "No records": 28
+  },
+  "countyDetail": "data/god-build/raw/derived/ticks-county/SD.json (not committed)"
+ },
+ "pathogensInTicks": {
+  "Borrelia burgdorferi (Lyme disease)": {
+   "countiesPresent": 1
+  },
+  "Borrelia mayonii (Lyme disease)": {
+   "countiesPresent": 0
+  },
+  "Borrelia miyamotoi (hard tick relapsing fever)": {
+   "countiesPresent": 0
+  },
+  "Anaplasma phagocytophilum, human-active variant (anaplasmosis)": {
+   "countiesPresent": 0
+  },
+  "Ehrlichia muris eauclairensis (ehrlichiosis)": {
+   "countiesPresent": 0
+  },
+  "Babesia microti (babesiosis)": {
+   "countiesPresent": 0
+  },
+  "Powassan virus": {
+   "countiesPresent": 0
+  }
+ },
+ "otherDiseases": {
+  "countyTotals2019to2022": {
+   "Lyme disease": 46,
+   "Tularemia": 31,
+   "Babesiosis": 1,
+   "Anaplasmosis": 4,
+   "Ehrlichia ewingii ehrlichiosis": 0,
+   "Ehrlichia chaffeensis ehrlichiosis": 2,
+   "Spotted fever rickettsiosis": 25,
+   "Undetermined ehrlichiosis/ anaplasmosis": 0
+  },
+  "note2019to2022": "Cases summed over 2019-2022, by county of residence (CDC). Lyme here is the 2019-2022 sum.",
+  "anaplasmosisPerMillion2023": 1.0877628850952554,
+  "ehrlichiosisChaffeensisPerMillion2023": null,
+  "spottedFeverRickettsiosisPerMillion2023": null,
+  "noteIncidence": "Annual incidence per million population, 2023 (CDC); -1 means not notifiable in that state.",
+  "tularemiaCases2023": 8,
+  "powassanCasesByYear": {
+   "2004": 0,
+   "2005": 0,
+   "2006": 0,
+   "2007": 0,
+   "2008": 0,
+   "2009": 0,
+   "2010": 0,
+   "2011": 0,
+   "2012": 0,
+   "2013": 0,
+   "2014": 0,
+   "2015": 0,
+   "2016": 0,
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 0
+  }
+ },
+ "climate": {
+  "period": "1991-2020",
+  "monthlyMeanF": [
+   18.4,
+   22.2,
+   33.3,
+   44.5,
+   55.9,
+   66.4,
+   72.6,
+   70.6,
+   61.5,
+   47.2,
+   33.1,
+   22
+  ]
+ },
+ "climateNote": "NOAA NCEI Climate at a Glance, statewide monthly mean temperature in degrees Fahrenheit, averaged over 1991-2020 (state averages hide big regional differences).",
+ "sources": [
+  {
+   "publisher": "CDC",
+   "title": "Lyme disease cases by state, 2008-2023 (confirmed + probable)",
+   "url": "https://www.cdc.gov/lyme/media/files/2025/02/2023_CaseIncid-Lyme-Disease-Cases-by-State-or-Locality.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "Lyme disease incidence per 100,000 by state, 2010-2023",
+   "url": "https://www.cdc.gov/lyme/media/files/2025/02/2023_CaseIncid-Lyme-Disease-Rates-by-State-or-Locality.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "Lyme disease cases by county of residence, 2001-2023",
+   "url": "https://www.cdc.gov/lyme/media/files/2025/02/LD_Case_Counts_by_County_2023_updated.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET Tick Module)",
+   "title": "Blacklegged and western blacklegged tick status by county, through Dec 2025",
+   "url": "https://www.cdc.gov/ticks/media/files/2026/04/Public_Use_Ixodes_County_Table_2026_03252026.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET Tick Module)",
+   "title": "Pathogens found in host-seeking Ixodes ticks by county, through Dec 2025",
+   "url": "https://www.cdc.gov/ticks/media/files/2026/04/Public_Use_Ixodes_Pathogens_County_Table_2026_04292026.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "Lone star tick status by county, through 2025",
+   "url": "https://www.cdc.gov/ticks/media/files/2026/05/2025-lone-star-tick-surveillance-map-data.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "American dog tick status by county, through 2025",
+   "url": "https://www.cdc.gov/ticks/media/files/2026/07/DVA-Surv-Map-Data-2025_Final.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "Seven tickborne diseases by county of residence, 2019-2022 summed",
+   "url": "https://www.cdc.gov/ticks/media/files/2024/05/AllTBD2022_Public.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "Anaplasmosis incidence per million by state, 2023",
+   "url": "https://www.cdc.gov/anaplasmosis/media/files/2025/06/Annual-incidence-per-million-population-of-reported-anaplasmosis-geography-US-2023.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "E. chaffeensis ehrlichiosis incidence per million by state, 2023",
+   "url": "https://www.cdc.gov/ehrlichiosis/media/files/2025/06/Annual-incidence-per-million-reported-E.-chaffeensis-ehrlichiosis-geography-US-2023.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "Spotted fever rickettsiosis incidence per million by state, 2023",
+   "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/media/files/2025/06/Annual-incidence-of-reported-spotted-fever-rickettsiosis-geography-United-States-2023.xlsx",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC",
+   "title": "Tularemia cases by state, 2023",
+   "url": "https://www.cdc.gov/tularemia/media/files/2025/03/Tularemia-cases-by-state_2023.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "CDC (ArboNET)",
+   "title": "Powassan virus by state and year, 2004-2025",
+   "url": "https://www.cdc.gov/wcms/vizdata/live/ncezid_dvbd/POW/pow_hum_historic%20-%20Historic%20Sta.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "NOAA NCEI Climate at a Glance",
+   "title": "Statewide monthly mean temperature, SD",
+   "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/39/tavg/1/0/1895-2026/data.csv",
+   "downloadedOn": "2026-10-15"
+  },
+  {
+   "publisher": "US Census Bureau",
+   "title": "State population estimates, Vintage 2025",
+   "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+   "downloadedOn": "2026-10-15"
+  }
+ ]
+}

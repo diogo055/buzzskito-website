@@ -31,8 +31,9 @@ const PHOTOS_FILE = join(ROOT, 'data', 'god-build', 'photos.json')
 const PHOTOS = existsSync(PHOTOS_FILE) ? Object.fromEntries(JSON.parse(readFileSync(PHOTOS_FILE, 'utf8')).photos.map((x) => [x.file, x])) : {}
 const LICENSES = new Set(['public-domain', 'CC0-1.0', 'CC-BY-2.0', 'CC-BY-2.5', 'CC-BY-3.0', 'CC-BY-4.0', 'CC-BY-SA-2.0', 'CC-BY-SA-2.5', 'CC-BY-SA-3.0', 'CC-BY-SA-4.0'])
 const STATE_CODES = new Set('AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY'.split(' '))
-// map scopes: "us" (states), "ca" (provinces and territories), a state (its counties), a province (its census divisions)
-const MAP_SCOPES = new Set(['us', 'ca', ...STATE_CODES, ...'BC AB SK MB ON QC NB NS PE NL YT NT NU'.split(' ')])
+// map scopes: "us" (states), "canada" (provinces and territories; not "ca", which is California),
+// a state code (its counties), a province code (its census divisions)
+const MAP_SCOPES = new Set(['us', 'canada', ...STATE_CODES, ...'BC AB SK MB ON QC NB NS PE NL YT NT NU'.split(' ')])
 // pixel size of a WebP, PNG or JPEG file, read from its header
 function imageSize(file) {
   const b = readFileSync(file)
@@ -224,7 +225,7 @@ function validate(file) {
     if (b.type === 'map') {
       const where = `body[${i}] (map ${b.scope})`
       const scope = String(b.scope || '')
-      if (!MAP_SCOPES.has(scope)) err(`${where}: "scope" must be "us", "ca", a two-letter state code or a province code`)
+      if (!MAP_SCOPES.has(scope)) err(`${where}: "scope" must be "us", "canada", a two-letter state code or a province code`)
       const geo = geoFor(scope)
       if (!geo) err(`${where}: no shapes for this map yet (data/geo/${scope.toLowerCase()}.json; run scripts/build-geo.mjs)`)
       if (typeof b.title !== 'string' || b.title.length < 10 || b.title.length > 120) err(`${where}: "title" must be 10 to 120 characters`)
