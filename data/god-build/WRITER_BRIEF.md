@@ -82,7 +82,11 @@ page, plus:
 - A secondary site (news, pest company) may be cited only for news events, marked
   `"kind": "news"`.
 - **Credit "CDC ArboNET Tick Module"** on every table, map or caption built from CDC's tick
-  status or pathogen tables (the data-use terms require the name).
+  status or pathogen tables (the data-use terms require the name). Strictly, the data-use sheet
+  is in the blacklegged (Ixodes) county workbook and the pathogen workbook, which label every
+  record ArboNET Tick Module data. The lone star and American dog workbooks have no data-use
+  sheet and mark each record "ArboNET Data" or "Literature"; where a state's records for those
+  species are all literature, credit "CDC" for them (found Oct 15 on Arkansas).
 - **Photo captions say only what the photo record supports** (found Oct 15): the CDC life-stages
   photo (blacklegged-tick-life-stages, PHIL 1205) does not say which small tick is the nymph and
   which the larva, so describe "an adult and two much smaller immature ticks"; the male in
