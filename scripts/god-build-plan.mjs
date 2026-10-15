@@ -33,7 +33,10 @@ const MOSQ_SCOPE_CA = (n) => `For Canadian readers: when mosquito season starts,
 
 const SERIES = [
   { key: 'ticks:ca', cluster: 'ticks', country: 'ca', hub: { slug: 'ticks-by-province', name: 'Ticks by Province' }, regions: caByCode, rank: CA.tickRank, prefix: 'ticks-in-',
-    hubPage: { keyword: 'ticks in canada by province', alsoTargets: ['lyme disease by province', 'tick map canada', 'where are ticks in canada'], h1Hint: 'Ticks by Province: Where Ticks and Lyme Disease Are in Canada', scope: 'The Canadian overview and index for the province series: a map of Canada shaded by reported Lyme disease, how each province tracks ticks, the national picture from the Public Health Agency of Canada, and a link to every province page (Ontario links to our existing Ontario pages).' },
+    // Two existing pages own nearby searches: /blog/are-there-ticks-in-canada ("where are ticks in
+    // canada") and /lyme-disease-canada-statistics ("lyme disease by province", national counts).
+    // The hub is the province index and map: it summarises and links to both, it does not compete.
+    hubPage: { keyword: 'ticks in canada by province', alsoTargets: ['ticks by province', 'tick map canada', 'tick map by province'], h1Hint: 'Ticks by Province: Canada’s Tick Map, Province by Province', mustLink: ['/blog/are-there-ticks-in-canada', '/lyme-disease-canada-statistics'], scope: 'The Canadian index for the province series: a map of Canada shaded by reported Lyme disease, how each province tracks ticks, and a link to every province page (Ontario links to our existing Ontario pages). The general question of where ticks live in Canada belongs to /blog/are-there-ticks-in-canada and national Lyme case counts to /lyme-disease-canada-statistics: summarise each in a sentence or two and link, do not repeat them.' },
     page: (r) => ({ keyword: `ticks in ${lower(r.name)}`, alsoTargets: [`tick season ${lower(r.name)}`, `lyme disease ${lower(r.name)}`, `are there ticks in ${lower(r.name)}`], h1Hint: `Ticks in ${r.name}: Species, Lyme Risk Areas and Tick Season`, scope: TICK_SCOPE_CA(r.name) }) },
   { key: 'ticks:us', cluster: 'ticks', country: 'us', hub: { slug: 'ticks-by-state', name: 'Ticks by State' }, regions: usByCode, rank: US.tickRank, prefix: 'ticks-in-',
     hubPage: { keyword: 'ticks by state', alsoTargets: ['tick map by state', 'lyme disease by state', 'where do ticks live in the us'], h1Hint: 'Ticks by State: Which Ticks Live Where, and Lyme Disease Across the US', scope: 'The national overview and index for the US state series: a US map shaded from CDC data that links every state page, the national picture (species ranges, disease cases by state and year), how to read the data, and a list of all 50 state pages.' },
@@ -55,7 +58,7 @@ for (const se of SERIES) {
     slug: se.hub.slug, section: 'learn', role: 'hub', cluster: se.cluster, series: se.hub.slug, ...(ca && { audience: 'ca' }),
     ...se.hubPage, flags: ['health'], minWords: 1500, minExisting: 3,
     parent: { href: '/learn', name: 'Learning Centre' },
-    mustLink: [], neighbors: [], minNeighbors: 0, seriesAll: all,
+    mustLink: se.hubPage.mustLink || [], neighbors: [], minNeighbors: 0, seriesAll: all,
     dataPacket: `data/god-build/packets/${se.cluster}-${se.country}/${ca ? 'CA' : 'US'}.json`,
   })
   for (const code of se.rank) {

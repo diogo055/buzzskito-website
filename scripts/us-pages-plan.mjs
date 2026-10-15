@@ -121,6 +121,8 @@ if (existsSync(godFile)) {
       type: 'informational', flags: v.flags || [], minWords: v.minWords || 1800, datePublished: v.releaseOn,
       projClicks: 0, batch: 'god', audience: v.audience || 'us', role: v.role || 'page', series: v.series || null, state: v.state || null,
       releaseOn: v.releaseOn, parent: v.parent || null, h1Hint: v.h1Hint || null, scope: v.scope, dataPacket: v.dataPacket || null,
+      // pages from the page map (data/god-build/taxonomy.src.json) carry these too
+      metaTitleHint: v.metaTitleHint || null, pageType: v.pageType || null, pairWith: v.pairWith || null, collisions: v.collisions || [],
       required: { pillar: null, ring: [], minSiblings: 0, minExisting: v.minExisting ?? 2, category: null, mustLink: v.mustLink || [], neighbors: v.neighbors || [], minNeighbors: v.minNeighbors ?? 2, seriesAll: v.seriesAll || [] },
     })
   }

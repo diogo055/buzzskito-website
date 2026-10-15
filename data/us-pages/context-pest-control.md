@@ -221,6 +221,174 @@
 - `/blog/mosquitoes-in-montana` — mosquitoes in montana
 - `/blog/mosquitoes-in-wyoming` — mosquitoes in wyoming
 - `/blog/mosquitoes-in-hawaii` — mosquitoes in hawaii
+- `/blog/deer-tick-vs-dog-tick` — deer tick vs dog tick
+- `/blog/deer-tick` — deer tick
+- `/blog/american-dog-tick` — american dog tick
+- `/blog/lone-star-tick` — lone star tick
+- `/learn/biting-flies` — biting flies
+- `/blog/no-see-ums` — no see ums
+- `/learn/spiders` — spider identification
+- `/blog/spider-bites` — spider bites ontario
+- `/learn/bug-bites` — bug bite identification
+- `/blog/skeeter-syndrome` — skeeter syndrome
+- `/blog/biting-insects` — biting insects in ontario
+- `/blog/deer-fly-vs-horse-fly` — horse fly vs deer fly
+- `/blog/deer-keds` — deer ked
+- `/learn/household-bugs` — common household bugs
+- `/blog/spider-beetles` — spider beetle
+- `/blog/permethrin-for-clothing` — permethrin spray for clothes
+- `/blog/tick-season` — when is tick season
+- `/learn/tick-borne-diseases` — tick borne diseases
+- `/learn/types-of-mosquitoes` — types of mosquitoes
+- `/blog/what-percentage-of-ticks-carry-lyme-disease` — what percentage of ticks carry lyme disease
+- `/blog/asian-tiger-mosquito` — asian tiger mosquito
+- `/blog/tick-bite-what-to-do` — what to do after a tick bite
+- `/blog/gallinipper` — gallinipper
+- `/learn/mosquito-borne-diseases` — mosquito borne diseases
+- `/blog/brown-dog-tick` — brown dog tick
+- `/blog/culex-mosquitoes` — culex mosquito
+- `/blog/tick-borne-diseases-in-dogs` — tick diseases in dogs
+- `/blog/dengue` — dengue in the us
+- `/blog/yellow-fever-mosquito` — aedes aegypti
+- `/blog/anaplasmosis` — anaplasmosis
+- `/blog/powassan-virus` — powassan virus
+- `/blog/rocky-mountain-spotted-fever` — rocky mountain spotted fever
+- `/blog/rocky-mountain-wood-tick` — rocky mountain wood tick
+- `/blog/western-blacklegged-tick` — western blacklegged tick
+- `/blog/asian-longhorned-tick` — asian longhorned tick
+- `/blog/eastern-equine-encephalitis` — eastern equine encephalitis
+- `/blog/gulf-coast-tick` — gulf coast tick
+- `/blog/engorged-ticks` — engorged tick
+- `/blog/black-flies` — black flies
+- `/learn/chiggers-by-province` — chiggers in canada
+- `/learn/chiggers-by-state` — are there chiggers in <state>
+- `/learn/mites` — mite bites
+- `/learn/fleas` — fleas
+- `/blog/what-do-fleas-look-like` — what do fleas look like
+- `/blog/how-to-get-rid-of-fleas` — how to get rid of fleas
+- `/blog/venomous-spiders` — venomous spiders in the us
+- `/blog/scabies-vs-bed-bugs` — scabies vs bed bugs
+- `/blog/black-widow-bite` — black widow bite
+- `/blog/gnat-bites` — gnat bites
+- `/blog/brown-recluse-bite` — brown recluse bite
+- `/blog/black-widow-spiders` — black widow spider
+- `/blog/bat-bugs` — bat bugs
+- `/blog/daddy-long-legs` — daddy long legs
+- `/blog/joro-spiders` — joro spider
+- `/blog/wolf-spiders` — wolf spider
+- `/blog/brown-recluse` — brown recluse
+- `/blog/bird-mites` — bird mites
+- `/blog/brown-recluse-look-alikes` — spiders that look like brown recluse
+- `/blog/carpet-beetle-rash` — carpet beetle rash
+- `/learn/wasps-and-bees` — wasp vs hornet vs yellow jacket
+- `/blog/how-to-get-rid-of-ground-wasps` — how to get rid of ground wasps
+- `/blog/house-centipedes` — house centipede
+- `/blog/how-to-get-rid-of-silverfish` — how to get rid of silverfish
+- `/blog/yellow-jackets` — yellow jacket
+- `/blog/how-to-get-rid-of-wasps` — how to get rid of wasps
+- `/blog/how-to-get-rid-of-carpet-beetles` — how to get rid of carpet beetles
+- `/blog/how-to-get-rid-of-carpenter-bees` — how to get rid of carpenter bees
+- `/blog/how-to-get-rid-of-stink-bugs` — how to get rid of stink bugs
+- `/blog/bee-sting-vs-wasp-sting` — wasp sting vs bee sting
+- `/blog/types-of-gnats` — types of gnats
+- `/blog/bald-faced-hornets` — bald faced hornet
+- `/learn/scorpions` — scorpions in the us
+- `/learn/kissing-bugs` — kissing bugs
+- `/blog/wasp-nest-identification` — what does a wasp nest look like
+- `/blog/millipedes` — millipedes in house
+- `/blog/cicada-killers` — cicada killer
+- `/blog/asian-lady-beetles` — asian lady beetle
+- `/blog/carpenter-bee-vs-bumble-bee` — carpenter bee vs bumble bee
+- `/blog/fire-ant-stings` — fire ant bite
+- `/blog/camel-crickets` — camel cricket
+- `/blog/kissing-bug-bites` — kissing bug bite
+- `/blog/kissing-bug-look-alikes` — kissing bug look alikes
+- `/blog/scorpion-stings` — scorpion sting
+- `/blog/stinging-caterpillars` — stinging caterpillars
+- `/blog/natural-mosquito-repellent` — natural mosquito repellent
+- `/blog/heartland-and-bourbon-viruses` — heartland virus
+- `/blog/anopheles-mosquitoes` — anopheles mosquito
+- `/blog/floodwater-mosquitoes` — floodwater mosquito
+- `/blog/chikungunya` — chikungunya
+- `/blog/ehrlichiosis` — ehrlichiosis
+- `/blog/tularemia` — tularemia
+- `/blog/la-crosse-encephalitis` — la crosse virus
+- `/blog/tick-paralysis` — tick paralysis
+- `/blog/jamestown-canyon-virus` — jamestown canyon virus
+- `/blog/st-louis-encephalitis` — st louis encephalitis
+- `/blog/groundhog-tick` — groundhog tick
+- `/blog/babesiosis` — babesiosis
+- `/blog/how-to-get-rid-of-spiders` — how to get rid of spiders
+- `/blog/how-to-get-rid-of-chiggers` — how to get rid of chiggers
+- `/blog/house-spiders` — house spider
+- `/blog/spiders-in-california` — spiders in california
+- `/blog/bug-bites-on-babies` — bug bites on babies
+- `/blog/dust-mites` — dust mites
+- `/blog/orb-weaver-spiders` — orb weaver spider
+- `/blog/chiggers-in-texas` — chiggers in texas
+- `/blog/spiders-in-florida` — spiders in florida
+- `/blog/grass-spiders` — grass spider
+- `/blog/jumping-spiders` — jumping spider
+- `/blog/spiders-in-arizona` — spiders in arizona
+- `/blog/hobo-spiders` — hobo spider
+- `/blog/yellow-sac-spiders` — yellow sac spider
+- `/blog/fishing-spiders` — fishing spider
+- `/blog/camel-spiders` — camel spider
+- `/blog/spiders-in-texas` — spiders in texas
+- `/blog/chiggers-in-missouri` — chiggers in missouri
+- `/blog/murine-typhus` — murine typhus
+- `/blog/false-widow-spiders` — false widow spider
+- `/blog/brown-widow-spiders` — brown widow spider
+- `/blog/tarantulas` — tarantula migration
+- `/blog/woodlouse-spiders` — woodlouse spider
+- `/blog/rat-mites` — rat mites
+- `/blog/itch-mites` — oak mites
+- `/blog/how-to-get-rid-of-drain-flies` — how to get rid of drain flies
+- `/blog/june-bugs` — june bug
+- `/blog/how-to-get-rid-of-cluster-flies` — how to get rid of cluster flies
+- `/blog/how-to-get-rid-of-boxelder-bugs` — how to get rid of boxelder bugs
+- `/blog/how-to-get-rid-of-earwigs` — how to get rid of earwigs
+- `/blog/pantry-pests` — pantry pests
+- `/blog/stable-flies` — stable fly
+- `/blog/paper-wasps` — paper wasp
+- `/blog/ground-bees` — ground bees
+- `/blog/greenhead-flies` — greenhead fly
+- `/blog/sand-fleas` — sand fleas
+- `/blog/tick-eggs` — tick eggs
+- `/blog/mayflies` — mayflies
+- `/blog/european-hornets` — european hornet
+- `/blog/wheel-bugs` — wheel bug
+- `/blog/american-cockroaches` — american cockroach
+- `/blog/spotted-lanternfly` — spotted lanternfly
+- `/blog/bot-flies` — bot fly
+- `/blog/leaf-footed-bugs` — leaf footed bug
+- `/blog/clothes-moths` — clothes moths
+- `/blog/japanese-beetles` — japanese beetle
+- `/blog/ticks-on-cats` — ticks on cats
+- `/blog/soft-ticks` — soft tick
+- `/blog/booklice` — booklice
+- `/blog/pseudoscorpions` — pseudoscorpion
+- `/blog/mud-daubers` — mud dauber
+- `/blog/sweat-bees` — sweat bees
+- `/blog/bug-bites-on-dogs` — bug bites on dogs
+- `/blog/spider-mites` — spider mites
+- `/blog/lovebugs` — love bugs
+- `/blog/winter-tick` — winter tick
+- `/blog/tarantula-hawks` — tarantula hawk
+- `/blog/western-conifer-seed-bugs` — western conifer seed bug
+- `/blog/pill-bugs` — pill bugs
+- `/blog/scorpions-in-arizona` — scorpions in arizona
+- `/blog/scorpions-in-texas` — scorpions in texas
+- `/blog/northern-giant-hornet` — northern giant hornet
+- `/blog/yellow-legged-hornet` — yellow legged hornet
+- `/blog/velvet-ants` — velvet ant
+- `/blog/blister-beetles` — blister beetle
+- `/blog/crazy-ants` — crazy ants
+- `/blog/european-fire-ants` — european fire ant
+- `/blog/crickets-in-house` — crickets in house
+- `/blog/chagas-disease` — chagas disease
+- `/blog/bark-scorpions` — bark scorpion
+- `/blog/mole-crickets` — mole crickets
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

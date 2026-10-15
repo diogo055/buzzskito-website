@@ -33,6 +33,7 @@ const LABEL: Record<string, string> = {
   mosquitoes: 'Mosquitoes', ticks: 'Ticks', 'bed-bugs': 'Bed bugs', mice: 'Mice and rats', ants: 'Ants', cockroaches: 'Cockroaches',
   garden: 'Garden pests', wasps: 'Wasps and bees', flies: 'Flies and biting midges', moisture: 'Damp and humidity', equipment: 'Sprayers and foggers',
   wildlife: 'Wildlife', crawlers: 'Crawling pests', 'pest-control': 'Pest control', general: 'Pest guides',
+  spiders: 'Spiders and scorpions', mites: 'Mites and chiggers', household: 'Household bugs', bites: 'Bites and stings',
 }
 
 const hash = (s: string) => { let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0; return h }

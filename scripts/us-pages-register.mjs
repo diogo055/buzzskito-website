@@ -43,7 +43,7 @@ const guides = readdirSync(GUIDES).filter((f) => f.endsWith('.json')).map((f) =>
   // --checked-only: publish only guides whose independent fact-check is on record for the
   // file exactly as it is now (data/us-pages/checked/<name>.json holds the file's hash)
   .filter((x) => !CHECKED_ONLY || isChecked(x.file))
-const CLUSTER_ORDER = ['bed-bugs', 'ants', 'mice', 'cockroaches', 'mosquitoes', 'ticks', 'pest-control', 'garden']
+const CLUSTER_ORDER = ['bed-bugs', 'ants', 'mice', 'cockroaches', 'mosquitoes', 'ticks', 'spiders', 'wasps', 'flies', 'mites', 'household', 'bites', 'pest-control', 'garden']
 guides.sort((a, b) => CLUSTER_ORDER.indexOf(a.g.cluster) - CLUSTER_ORDER.indexOf(b.g.cluster) || plan.pages.indexOf(planByPath[a.path]) - plan.pages.indexOf(planByPath[b.path]))
 
 // ── 1. route files ──────────────────────────────────────────────────────────────
@@ -235,7 +235,7 @@ if (existsSync(llmsPath)) {
   const leol = llms.includes('\r\n') ? '\r\n' : '\n'
   const at = llms.indexOf(HEAD)
   if (at >= 0) { const next = llms.indexOf(`${leol}## `, at + HEAD.length); llms = llms.slice(0, at) + (next >= 0 ? llms.slice(next + leol.length) : '') }
-  const NAMES = { 'bed-bugs': 'Bed bugs', ants: 'Ants', mice: 'Mice', cockroaches: 'Cockroaches', mosquitoes: 'Mosquitoes', ticks: 'Ticks', 'pest-control': 'Hiring and DIY pest control', garden: 'Garden and houseplant pests' }
+  const NAMES = { 'bed-bugs': 'Bed bugs', ants: 'Ants', mice: 'Mice', cockroaches: 'Cockroaches', mosquitoes: 'Mosquitoes', ticks: 'Ticks', spiders: 'Spiders and scorpions', wasps: 'Wasps, hornets and bees', flies: 'Biting flies', mites: 'Mites and chiggers', household: 'Household bugs', bites: 'Bug bites and stings', 'pest-control': 'Hiring and DIY pest control', garden: 'Garden and houseplant pests' }
   const section = [HEAD, 'Source-cited identification and how-to guides written for readers in the United States and Canada. No product links. Each guide lists its government and university sources. BuzzSkito treats mosquitoes and ticks only; the guides on other pests are research, not a service.', '',
     ...pillars.map(({ g, path }) => `- ${g.h1}: ${SITE}${path} — complete reference (hub page)`),
     ...CLUSTER_ORDER.flatMap((c) => { const list = [...spokes, ...learnGuides].filter((x) => x.g.cluster === c); return list.length ? ['', `### ${NAMES[c]}`, ...list.map(({ g, path }) => `- ${g.h1}: ${SITE}${path}`)] : [] }), '', ''].join(leol)

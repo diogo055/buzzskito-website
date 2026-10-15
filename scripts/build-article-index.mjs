@@ -39,7 +39,7 @@ const CLUSTERS = [
   ['pest-control', /pest-control|ultrasonic|diatomaceous|ortho-home|wondercide|doktor-doom|natural|diy/],
 ]
 // a cluster too small to fill three cards borrows from its nearest relative
-const FALLBACK = { cockroaches: 'crawlers', crawlers: 'cockroaches', wasps: 'flies', flies: 'mosquitoes', garden: 'pest-control', 'pest-control': 'mice', wildlife: 'mice', moisture: 'equipment', equipment: 'mosquitoes', ants: 'cockroaches', general: 'mosquitoes' }
+const FALLBACK = { cockroaches: 'crawlers', crawlers: 'cockroaches', wasps: 'flies', flies: 'mosquitoes', garden: 'pest-control', 'pest-control': 'mice', wildlife: 'mice', moisture: 'equipment', equipment: 'mosquitoes', ants: 'cockroaches', general: 'mosquitoes', spiders: 'crawlers', household: 'crawlers', mites: 'crawlers', bites: 'mosquitoes' }
 const clusterOf = (slug) => (CLUSTERS.find(([, re]) => re.test(slug)) || ['general'])[0]
 
 const strConst = (src, name) => {

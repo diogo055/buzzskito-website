@@ -6,10 +6,15 @@ indexes each batch before the next one lands.
 
 ## How a page goes from idea to live
 
-1. **Planned.** `data/god-build/states.json` (the 50 states, neighbors, release order) and
-   `data/god-build/extra-pages.json` (anything outside the state series) feed
-   `node scripts/god-build-plan.mjs`, which writes `plan.src.json` with a `releaseOn` date for
-   every page (40 per Monday from Nov 16, 2026). Then `node scripts/us-pages-plan.mjs` folds
+1. **Planned.** `data/god-build/states.json` (the 50 states, neighbors, release order),
+   `provinces.json` (the 10 provinces) and `extra-pages.json` (anything outside the series)
+   feed `node scripts/god-build-plan.mjs`, which writes `plan.src.json` with a `releaseOn` date
+   for every page (40 per Monday from Nov 16, 2026). `extra-pages.json` is generated: the page
+   map `taxonomy.src.json` (173 pages beyond the series, each with its Search Console evidence,
+   the existing pages it overlaps and how that is resolved, and a release order) goes through
+   `node scripts/god-build-taxonomy.mjs`, which maps its topic families onto the site's topic
+   categories (spiders, wasps, flies, mites, household, bites, ticks, mosquitoes ...), drops
+   gated pages and tools, and moves every hub ahead of the pages under it. Then `node scripts/us-pages-plan.mjs` folds
    them into `data/us-pages/plan.json` as batch `god`, which the validator and the register
    script read. Re-running the generator never moves a page that is already live.
 2. **Written and checked.** The page is `content/guides-scheduled/<slug>.json` (same format as
@@ -65,6 +70,20 @@ Real photographs only: public domain (CDC PHIL, USDA, USGS), CC0, CC BY or CC BY
 NonCommercial or NoDerivatives licences are not allowed on this ad-supported site. Every photo
 is listed in `data/god-build/photos.json` with its source page, credit and licence; the
 validator refuses a `figure` that is not in that record or whose details differ.
+
+- **Adding photos:** add a line to `PHOTOS` in `scripts/god-build-photos.mjs` (a CDC PHIL id, a
+  Commons file name or an iNaturalist observation + photo id) and run it. It checks the licence
+  at the source, downloads, converts to WebP and writes the record. Then look at every new photo
+  against its `sourceDescription` before using it (a contact sheet is quickest): a photo labelled
+  as something it does not show is a false claim on an identification page.
+- **On hand-written pages** (the TSX articles) a photo goes in with `<Photo id="..." caption="..." />`
+  (`components/Photo.tsx`), which takes the credit, licence and size from the record. A page's
+  share card and BlogPosting image can use `shareImage(id)` from `lib/photos.ts`, which accepts
+  only public-domain or CC0 photos because a share card shows no credit line. How to add photos
+  to an existing article without touching its affiliate links: `PHOTO_UPGRADE_BRIEF.md`.
+- `npm run check:photos` (in the build) fails if a page uses a photo the record does not list, a
+  file sits in `public/guides/photos/` without a record, or a credit-requiring photo is used as a
+  share image.
 
 ## Charts and maps
 

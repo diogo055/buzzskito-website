@@ -132,6 +132,38 @@
 
 - `/blog/mosquitoes-in-hawaii` — **mosquitoes in hawaii** (also: mosquito season hawaii; when is mosquito season in hawaii; west nile virus hawaii). When mosquito season starts, peaks and ends in Hawaii, region by region, from NOAA temperature normals and state or county vector-control sources; which mosquito species live in Hawaii (including Aedes aegypti and Aedes albopictus where CDC records them) and when each bites; Hawaii's West Nile and other mosquito-borne disease cases by year; local mosquito control programs and how residents report problems; how to cut mosquitoes around a home. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.
 
+- `/blog/skeeter-syndrome` — **skeeter syndrome** (also: mosquito bite allergy; swollen mosquito bite; skeeter syndrome treatment). Large local reactions to mosquito bites: what skeeter syndrome is, who gets it (young children, new arrivals), pictures and timeline, how to tell it from cellulitis, antihistamines and other care, when to see a doctor.
+
+- `/learn/types-of-mosquitoes` — **types of mosquitoes** (also: mosquito species; types of mosquitoes in the us; mosquito identification). The mosquito groups that bite people in the US and Canada (Aedes, Culex, Anopheles, Psorophora, floodwater and snow-pool Aedes), how to tell them apart with real photos, when each bites, what each spreads, and a link to each species page and the state pages.
+
+- `/blog/asian-tiger-mosquito` — **asian tiger mosquito** (also: tiger mosquito; aedes albopictus; asian tiger mosquito map). Aedes albopictus: the white stripe, daytime and ankle biting, container breeding, the US county range and its northern edge (including southern Ontario detections), diseases it can spread, and container control.
+
+- `/blog/gallinipper` — **gallinipper** (also: gallinipper mosquito; giant mosquito; psorophora ciliata). Psorophora ciliata: size, the painful bite, floodwater egg hatches after heavy rain and hurricanes in the South and Midwest, how it differs from crane flies, and whether it spreads disease.
+
+- `/learn/mosquito-borne-diseases` — **mosquito borne diseases** (also: diseases from mosquitoes; mosquito borne diseases in us; mosquito diseases map). Every mosquito-borne disease with local US transmission (West Nile, EEE, St. Louis, La Crosse, Jamestown Canyon, dengue; travel-linked chikungunya, Zika and malaria): cases by state and year from CDC ArboNET, the mosquito behind each, symptoms and links.
+
+- `/blog/culex-mosquitoes` — **culex mosquito** (also: house mosquito; culex pipiens; culex tarsalis). Culex pipiens, quinquefasciatus, tarsalis and restuans: identification, night biting, egg rafts in dirty water, the bird-mosquito West Nile cycle, where each species dominates (including the Prairie provinces), and source control.
+
+- `/blog/dengue` — **dengue in the us** (also: dengue in florida; dengue fever symptoms; dengue mosquito). Locally acquired dengue in Florida, Texas, California and Puerto Rico versus travel cases, the Aedes aegypti link, symptoms and warning signs, the current year from CDC, and prevention when traveling.
+
+- `/blog/yellow-fever-mosquito` — **aedes aegypti** (also: yellow fever mosquito; aedes aegypti vs aedes albopictus; aedes aegypti location). Aedes aegypti: the lyre marking, where it lives in the US (county records, California spread), why it drives local dengue and Zika transmission in Florida and Texas, and how it differs from the Asian tiger mosquito.
+
+- `/blog/eastern-equine-encephalitis` — **eastern equine encephalitis** (also: eee virus; eee symptoms; eee map). The rare, severe mosquito virus: cases by state and year 2003-2025 (CDC ArboNET), the swamp bird cycle, outbreak years in Massachusetts and Michigan, horse cases and vaccine, Ontario and Quebec horse detections, prevention.
+
+- `/blog/natural-mosquito-repellent` — **natural mosquito repellent** (also: natural mosquito repellent for skin; oil of lemon eucalyptus; homemade mosquito repellent). US edition: EPA-registered plant-based actives (oil of lemon eucalyptus/PMD, 2-undecanone), 25(b) minimum-risk products and why they are not evaluated, evidence for essential oils, age limits, and what to avoid.
+
+- `/blog/anopheles-mosquitoes` — **anopheles mosquito** (also: malaria mosquito; anopheles quadrimaculatus; malaria in the us). Anopheles in the US and Canada: identification (resting angle, palps), where they breed, why malaria is not established but local cases occurred in 2023, and the larvae that lie flat.
+
+- `/blog/floodwater-mosquitoes` — **floodwater mosquito** (also: aedes vexans; inland floodwater mosquito; mosquitoes after rain). Aedes vexans and relatives: eggs that wait years in dry ground, hatch after flooding, the 7-10 day lag to biting swarms, why the Prairies and the Midwest see nuisance peaks, and what does and does not help.
+
+- `/blog/chikungunya` — **chikungunya** (also: chikungunya symptoms; chikungunya vaccine; chikungunya virus). Travel-associated cases, the brief local transmission in Florida in 2014, joint-pain symptoms, the vaccines and their current US status (check FDA and CDC on the day of writing), the Aedes vectors.
+
+- `/blog/la-crosse-encephalitis` — **la crosse virus** (also: la crosse encephalitis; la crosse virus map; la crosse virus symptoms). Cases by state 2003-2025 (CDC ArboNET), the tree-hole mosquito, why children are most affected, Appalachian and upper Midwest hot spots.
+
+- `/blog/jamestown-canyon-virus` — **jamestown canyon virus** (also: jamestown canyon virus symptoms; jamestown canyon virus map). Cases by state 2011-2025 (CDC ArboNET), the spring snow-melt Aedes link, northern US and Canadian presence, symptoms.
+
+- `/blog/st-louis-encephalitis` — **st louis encephalitis** (also: st louis encephalitis symptoms; st louis encephalitis mosquito). Cases by state 2003-2025 (CDC ArboNET), the Culex link shared with West Nile, recent Arizona and Texas outbreaks, symptoms in older adults.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -280,6 +312,158 @@
 - `/blog/ticks-in-south-dakota` — ticks in south dakota
 - `/blog/ticks-in-alaska` — ticks in alaska
 - `/blog/ticks-in-hawaii` — ticks in hawaii
+- `/blog/deer-tick-vs-dog-tick` — deer tick vs dog tick
+- `/blog/deer-tick` — deer tick
+- `/blog/american-dog-tick` — american dog tick
+- `/blog/lone-star-tick` — lone star tick
+- `/learn/biting-flies` — biting flies
+- `/blog/no-see-ums` — no see ums
+- `/learn/spiders` — spider identification
+- `/blog/spider-bites` — spider bites ontario
+- `/learn/bug-bites` — bug bite identification
+- `/blog/biting-insects` — biting insects in ontario
+- `/blog/deer-fly-vs-horse-fly` — horse fly vs deer fly
+- `/blog/deer-keds` — deer ked
+- `/learn/household-bugs` — common household bugs
+- `/blog/spider-beetles` — spider beetle
+- `/blog/permethrin-for-clothing` — permethrin spray for clothes
+- `/blog/tick-season` — when is tick season
+- `/learn/tick-borne-diseases` — tick borne diseases
+- `/blog/what-percentage-of-ticks-carry-lyme-disease` — what percentage of ticks carry lyme disease
+- `/blog/tick-bite-what-to-do` — what to do after a tick bite
+- `/blog/brown-dog-tick` — brown dog tick
+- `/blog/tick-borne-diseases-in-dogs` — tick diseases in dogs
+- `/blog/anaplasmosis` — anaplasmosis
+- `/blog/powassan-virus` — powassan virus
+- `/blog/rocky-mountain-spotted-fever` — rocky mountain spotted fever
+- `/blog/rocky-mountain-wood-tick` — rocky mountain wood tick
+- `/blog/western-blacklegged-tick` — western blacklegged tick
+- `/blog/asian-longhorned-tick` — asian longhorned tick
+- `/blog/gulf-coast-tick` — gulf coast tick
+- `/blog/engorged-ticks` — engorged tick
+- `/blog/black-flies` — black flies
+- `/learn/chiggers-by-province` — chiggers in canada
+- `/learn/chiggers-by-state` — are there chiggers in <state>
+- `/learn/mites` — mite bites
+- `/learn/fleas` — fleas
+- `/blog/what-do-fleas-look-like` — what do fleas look like
+- `/blog/how-to-get-rid-of-fleas` — how to get rid of fleas
+- `/blog/venomous-spiders` — venomous spiders in the us
+- `/blog/scabies-vs-bed-bugs` — scabies vs bed bugs
+- `/blog/black-widow-bite` — black widow bite
+- `/blog/gnat-bites` — gnat bites
+- `/blog/brown-recluse-bite` — brown recluse bite
+- `/blog/black-widow-spiders` — black widow spider
+- `/blog/bat-bugs` — bat bugs
+- `/blog/daddy-long-legs` — daddy long legs
+- `/blog/joro-spiders` — joro spider
+- `/blog/wolf-spiders` — wolf spider
+- `/blog/brown-recluse` — brown recluse
+- `/blog/bird-mites` — bird mites
+- `/blog/brown-recluse-look-alikes` — spiders that look like brown recluse
+- `/blog/carpet-beetle-rash` — carpet beetle rash
+- `/learn/wasps-and-bees` — wasp vs hornet vs yellow jacket
+- `/blog/how-to-get-rid-of-ground-wasps` — how to get rid of ground wasps
+- `/blog/house-centipedes` — house centipede
+- `/blog/how-to-get-rid-of-silverfish` — how to get rid of silverfish
+- `/blog/yellow-jackets` — yellow jacket
+- `/blog/how-to-get-rid-of-wasps` — how to get rid of wasps
+- `/blog/how-to-get-rid-of-carpet-beetles` — how to get rid of carpet beetles
+- `/blog/how-to-get-rid-of-carpenter-bees` — how to get rid of carpenter bees
+- `/blog/how-to-get-rid-of-stink-bugs` — how to get rid of stink bugs
+- `/blog/bee-sting-vs-wasp-sting` — wasp sting vs bee sting
+- `/blog/types-of-gnats` — types of gnats
+- `/blog/bald-faced-hornets` — bald faced hornet
+- `/learn/scorpions` — scorpions in the us
+- `/learn/kissing-bugs` — kissing bugs
+- `/blog/wasp-nest-identification` — what does a wasp nest look like
+- `/blog/millipedes` — millipedes in house
+- `/blog/cicada-killers` — cicada killer
+- `/blog/asian-lady-beetles` — asian lady beetle
+- `/blog/carpenter-bee-vs-bumble-bee` — carpenter bee vs bumble bee
+- `/blog/fire-ant-stings` — fire ant bite
+- `/blog/camel-crickets` — camel cricket
+- `/blog/kissing-bug-bites` — kissing bug bite
+- `/blog/kissing-bug-look-alikes` — kissing bug look alikes
+- `/blog/scorpion-stings` — scorpion sting
+- `/blog/stinging-caterpillars` — stinging caterpillars
+- `/blog/heartland-and-bourbon-viruses` — heartland virus
+- `/blog/ehrlichiosis` — ehrlichiosis
+- `/blog/tularemia` — tularemia
+- `/blog/tick-paralysis` — tick paralysis
+- `/blog/groundhog-tick` — groundhog tick
+- `/blog/babesiosis` — babesiosis
+- `/blog/how-to-get-rid-of-spiders` — how to get rid of spiders
+- `/blog/how-to-get-rid-of-chiggers` — how to get rid of chiggers
+- `/blog/house-spiders` — house spider
+- `/blog/spiders-in-california` — spiders in california
+- `/blog/bug-bites-on-babies` — bug bites on babies
+- `/blog/dust-mites` — dust mites
+- `/blog/orb-weaver-spiders` — orb weaver spider
+- `/blog/chiggers-in-texas` — chiggers in texas
+- `/blog/spiders-in-florida` — spiders in florida
+- `/blog/grass-spiders` — grass spider
+- `/blog/jumping-spiders` — jumping spider
+- `/blog/spiders-in-arizona` — spiders in arizona
+- `/blog/hobo-spiders` — hobo spider
+- `/blog/yellow-sac-spiders` — yellow sac spider
+- `/blog/fishing-spiders` — fishing spider
+- `/blog/camel-spiders` — camel spider
+- `/blog/spiders-in-texas` — spiders in texas
+- `/blog/chiggers-in-missouri` — chiggers in missouri
+- `/blog/murine-typhus` — murine typhus
+- `/blog/false-widow-spiders` — false widow spider
+- `/blog/brown-widow-spiders` — brown widow spider
+- `/blog/tarantulas` — tarantula migration
+- `/blog/woodlouse-spiders` — woodlouse spider
+- `/blog/rat-mites` — rat mites
+- `/blog/itch-mites` — oak mites
+- `/blog/how-to-get-rid-of-drain-flies` — how to get rid of drain flies
+- `/blog/june-bugs` — june bug
+- `/blog/how-to-get-rid-of-cluster-flies` — how to get rid of cluster flies
+- `/blog/how-to-get-rid-of-boxelder-bugs` — how to get rid of boxelder bugs
+- `/blog/how-to-get-rid-of-earwigs` — how to get rid of earwigs
+- `/blog/pantry-pests` — pantry pests
+- `/blog/stable-flies` — stable fly
+- `/blog/paper-wasps` — paper wasp
+- `/blog/ground-bees` — ground bees
+- `/blog/greenhead-flies` — greenhead fly
+- `/blog/sand-fleas` — sand fleas
+- `/blog/tick-eggs` — tick eggs
+- `/blog/mayflies` — mayflies
+- `/blog/european-hornets` — european hornet
+- `/blog/wheel-bugs` — wheel bug
+- `/blog/american-cockroaches` — american cockroach
+- `/blog/spotted-lanternfly` — spotted lanternfly
+- `/blog/bot-flies` — bot fly
+- `/blog/leaf-footed-bugs` — leaf footed bug
+- `/blog/clothes-moths` — clothes moths
+- `/blog/japanese-beetles` — japanese beetle
+- `/blog/ticks-on-cats` — ticks on cats
+- `/blog/soft-ticks` — soft tick
+- `/blog/booklice` — booklice
+- `/blog/pseudoscorpions` — pseudoscorpion
+- `/blog/mud-daubers` — mud dauber
+- `/blog/sweat-bees` — sweat bees
+- `/blog/bug-bites-on-dogs` — bug bites on dogs
+- `/blog/spider-mites` — spider mites
+- `/blog/lovebugs` — love bugs
+- `/blog/winter-tick` — winter tick
+- `/blog/tarantula-hawks` — tarantula hawk
+- `/blog/western-conifer-seed-bugs` — western conifer seed bug
+- `/blog/pill-bugs` — pill bugs
+- `/blog/scorpions-in-arizona` — scorpions in arizona
+- `/blog/scorpions-in-texas` — scorpions in texas
+- `/blog/northern-giant-hornet` — northern giant hornet
+- `/blog/yellow-legged-hornet` — yellow legged hornet
+- `/blog/velvet-ants` — velvet ant
+- `/blog/blister-beetles` — blister beetle
+- `/blog/crazy-ants` — crazy ants
+- `/blog/european-fire-ants` — european fire ant
+- `/blog/crickets-in-house` — crickets in house
+- `/blog/chagas-disease` — chagas disease
+- `/blog/bark-scorpions` — bark scorpion
+- `/blog/mole-crickets` — mole crickets
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

@@ -20,7 +20,7 @@
 
 - `/learn/tick-identification-chart` — **tick identification chart**. A comparison chart of the three ticks people most need to tell apart: the blacklegged (deer) tick, the American dog tick and the lone star tick. For each: adult female, adult male and nymph size with an everyday size comparison and inches, the markings that identify it, the diseases CDC says it can transmit, where it lives in the United States, and its range in Ontario and the rest of Canada (cite the Government of Canada or Public Health Ontario for the Canadian range). A size-scale table by life stage. What to do with a tick you have removed, and how to get it identified. A printable tick-check routine card: where on the body to look, in order. This page may name Ontario and Canada: it serves both countries.
 
-- `/learn/ticks-by-province` — **ticks in canada by province** (also: lyme disease by province; tick map canada; where are ticks in canada). The Canadian overview and index for the province series: a map of Canada shaded by reported Lyme disease, how each province tracks ticks, the national picture from the Public Health Agency of Canada, and a link to every province page (Ontario links to our existing Ontario pages).
+- `/learn/ticks-by-province` — **ticks in canada by province** (also: ticks by province; tick map canada; tick map by province). The Canadian index for the province series: a map of Canada shaded by reported Lyme disease, how each province tracks ticks, and a link to every province page (Ontario links to our existing Ontario pages). The general question of where ticks live in Canada belongs to /blog/are-there-ticks-in-canada and national Lyme case counts to /lyme-disease-canada-statistics: summarise each in a sentence or two and link, do not repeat them.
 
 - `/blog/ticks-in-nova-scotia` — **ticks in nova scotia** (also: tick season nova scotia; lyme disease nova scotia; are there ticks in nova scotia). For Canadian readers: which ticks live in Nova Scotia and which bite people most; where the province's own surveillance places blacklegged ticks and its published Lyme disease risk areas; Nova Scotia's reported Lyme disease cases by year (provincial and Public Health Agency of Canada figures, with their caveats); when ticks are active in Nova Scotia, by month, in Celsius; how to get a tick identified (eTick or the provincial program) and whether ticks are tested; prevention and what to do after a bite. Built from the province's data packet (dataPacket) plus the provincial health ministry pages.
 
@@ -139,6 +139,66 @@
 - `/blog/ticks-in-alaska` — **ticks in alaska** (also: types of ticks in alaska; tick season alaska; lyme disease alaska). Which ticks live in Alaska and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Alaska's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Alaska, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.
 
 - `/blog/ticks-in-hawaii` — **ticks in hawaii** (also: types of ticks in hawaii; tick season hawaii; lyme disease hawaii). Which ticks live in Hawaii and which bite people most; where blacklegged (and other) ticks are established, county by county, from CDC's tick surveillance tables; Hawaii's reported Lyme disease and other tick-borne disease cases by year and county (with the residence-versus-exposure and 2022 case-definition caveats); when tick season runs in Hawaii, by month and species; what the state offers (tick identification, testing, reporting Asian longhorned ticks); prevention and what to do after a bite. Built from the state's data packet (dataPacket) plus the state health department and land-grant extension pages.
+
+- `/blog/deer-tick-vs-dog-tick` — **deer tick vs dog tick** (also: dog tick vs deer tick; deer tick vs wood tick; deer tick vs dog tick engorged). Side by side for US readers: size by stage, the scutum and leg colour test, engorged versions, where each lives (CDC county data), which diseases each carries (Lyme versus Rocky Mountain spotted fever), and what to do after either bite.
+
+- `/blog/deer-tick` — **deer tick** (also: blacklegged tick; deer tick nymph; deer tick size; deer tick bite). Ixodes scapularis for US readers: every life stage beside a ruler (real photos), how to tell it from dog and lone star ticks, the CDC county map of where it is established, activity by stage and month, what it transmits (Lyme, anaplasmosis, babesiosis, Powassan, Borrelia miyamotoi), attachment time and what to do after a bite.
+
+- `/blog/american-dog-tick` — **american dog tick** (also: dog tick; wood tick; american dog tick diseases; american dog tick bite). Dermacentor variabilis for US readers: markings by sex, the "wood tick" name, the CDC county range, season, what it carries (Rocky Mountain spotted fever, tularemia, tick paralysis) and why it does not carry Lyme, plus dogs.
+
+- `/blog/lone-star-tick` — **lone star tick** (also: lone star tick map; lone star tick bite; lone star tick range; lone star tick vs deer tick). Amblyomma americanum for US readers: the female white dot and male markings, life stages, the county range map and its spread north, aggressive host-seeking, the diseases it carries (ehrlichiosis, tularemia, STARI, Heartland and Bourbon viruses) and alpha-gal syndrome, season, removal and prevention.
+
+- `/blog/deer-keds` — **deer ked** (also: flying tick; bug that looks like a tick with wings; louse fly). Deer keds and other louse flies: what they are (flies that shed their wings on a host), when hunters and hikers meet them in fall, the bite and skin reaction, whether they carry disease, and the five-second test that separates a ked from a tick.
+
+- `/blog/permethrin-for-clothing` — **permethrin spray for clothes** (also: permethrin treated clothing; permethrin for ticks; is permethrin safe). US edition: how EPA-registered clothing treatments work, how to apply and how long they last through washes, factory-treated clothing, the danger to cats, and what permethrin is not for (skin).
+
+- `/blog/tick-season` — **when is tick season** (also: tick season; when does tick season end; is it tick season). When each US tick species is active by month and region (Northeast, Midwest, South, West), the temperature threshold, why nymphs in late spring cause most Lyme, winter activity on warm days, and links to every state page.
+
+- `/learn/tick-borne-diseases` — **tick borne diseases** (also: tick-borne illness; diseases from ticks; tick borne diseases symptoms). Every tick-borne disease reported in the US with the tick that spreads it, where cases occur (CDC state data), the main symptoms and the incubation period, with links to each disease page and the state pages.
+
+- `/blog/what-percentage-of-ticks-carry-lyme-disease` — **what percentage of ticks carry lyme disease** (also: how many ticks carry lyme disease; percentage of deer ticks with lyme; what percentage of ticks carry lyme disease in <state>). Infection rates in blacklegged ticks by life stage and state from CDC pathogen surveillance and state programs, why nymph rates matter more, why the western blacklegged tick rate is far lower, and why a positive tick does not equal infection.
+
+- `/blog/tick-bite-what-to-do` — **what to do after a tick bite** (also: tick bite what to do; tick bite treatment; should i see a doctor after a tick bite). The US decision sequence after a bite: remove, identify and save the tick, when CDC guidance supports a single preventive dose of doxycycline, whether to test the tick, the 30-day symptom watch-list by disease, and when to see a clinician.
+
+- `/blog/brown-dog-tick` — **brown dog tick** (also: brown dog tick infestation; brown dog tick in house; brown dog tick diseases). Rhipicephalus sanguineus: identification, why it completes its life cycle indoors (kennels, homes), signs of an infestation, the Rocky Mountain spotted fever outbreaks it drives in the Southwest, and how an indoor infestation is ended (vet plus home treatment).
+
+- `/blog/tick-borne-diseases-in-dogs` — **tick diseases in dogs** (also: tick borne diseases in dogs; ehrlichiosis in dogs; anaplasmosis in dogs). Lyme, anaplasmosis, ehrlichiosis, babesiosis, Rocky Mountain spotted fever and tick paralysis in dogs: signs, the in-clinic screening tests vets use, regional risk, and prevention to discuss with a vet.
+
+- `/blog/anaplasmosis` — **anaplasmosis** (also: anaplasmosis symptoms; anaplasmosis in humans; anaplasmosis tick). Anaplasma phagocytophilum: symptoms and timing, the blacklegged tick link, US incidence by state (CDC 2023) and the Canadian picture (nationally notifiable since 2024; most cases in Nova Scotia), testing and treatment basics, dogs.
+
+- `/blog/powassan-virus` — **powassan virus** (also: powassan virus symptoms; powassan virus map; powassan tick). Why Powassan transmits in minutes rather than days, symptoms and outcomes, cases by state and year (CDC ArboNET) and in Canada, the deer tick and groundhog tick vectors, prevention.
+
+- `/blog/rocky-mountain-spotted-fever` — **rocky mountain spotted fever** (also: rmsf symptoms; rocky mountain spotted fever rash; spotted fever rickettsiosis). Why early treatment matters, the rash timeline (often late or absent), the three tick vectors (American dog, Rocky Mountain wood, brown dog), spotted fever rickettsiosis incidence by state, the Arizona brown dog tick outbreaks.
+
+- `/blog/rocky-mountain-wood-tick` — **rocky mountain wood tick** (also: rocky mountain wood tick range; rocky mountain wood tick vs american dog tick; colorado tick fever). Dermacentor andersoni across the Rocky Mountain states and western Canada (British Columbia, Alberta, Saskatchewan): identification, the spring season, Colorado tick fever, spotted fever and tick paralysis, and how it differs from the American dog tick.
+
+- `/blog/western-blacklegged-tick` — **western blacklegged tick** (also: ixodes pacificus; western blacklegged tick range; lyme disease california). Ixodes pacificus in California, Oregon, Washington, Nevada, Utah, Arizona and British Columbia: identification, why Lyme rates are lower in the West (lizard hosts), where it is established (CDC county data), the winter-spring season and prevention.
+
+- `/blog/asian-longhorned-tick` — **asian longhorned tick** (also: asian longhorned tick map; asian longhorned tick diseases; asian longhorned tick cattle). Haemaphysalis longicornis: how to recognize it (small, plain brown, many nymphs at once), the clonal females, the states and counties with confirmed detections (USDA), the cattle Theileria risk, what is and is not known about human disease, and how to report one.
+
+- `/blog/gulf-coast-tick` — **gulf coast tick** (also: gulf coast tick range; gulf coast tick vs dog tick; gulf coast tick diseases). Amblyomma maculatum: markings and life stages, the range CDC maps along the Gulf and southern Atlantic coasts and the inland spread reported since, Rickettsia parkeri rickettsiosis (the eschar), season and prevention.
+
+- `/blog/engorged-ticks` — **engorged tick** (also: engorged tick identification; engorged tick on dog; engorged deer tick; engorged tick on human). Fed ticks look alike (grey, bean-shaped): how to tell species by legs, mouthparts and scutum, how size tracks hours attached, what attachment time means for Lyme, what to do with one on a person or dog, and whether a fed female lays eggs indoors.
+
+- `/blog/heartland-and-bourbon-viruses` — **heartland virus** (also: bourbon virus; bourbon virus ticks; heartland virus symptoms). Two rare viruses linked to the lone star tick: how many cases CDC has recorded and where, symptoms, testing, and why the risk is low but the illness can be serious.
+
+- `/blog/ehrlichiosis` — **ehrlichiosis** (also: ehrlichiosis symptoms; ehrlichiosis in humans; ehrlichiosis vs anaplasmosis). Ehrlichia chaffeensis and E. ewingii: symptoms, the lone star tick, incidence by state (CDC 2023), how it differs from anaplasmosis, dogs.
+
+- `/blog/tularemia` — **tularemia** (also: tularemia symptoms; rabbit fever; tularemia tick bite). Francisella tularensis: the forms of illness, the tick, deer fly and rabbit routes (including lawn mowing), cases by state (CDC 2023), pets.
+
+- `/blog/tick-paralysis` — **tick paralysis** (also: tick paralysis in dogs; tick paralysis symptoms; tick paralysis in humans). The ascending weakness caused by a feeding Dermacentor tick, who is at risk (children, dogs; British Columbia and the western US), how fast removal reverses it, where to look for the tick.
+
+- `/blog/groundhog-tick` — **groundhog tick** (also: woodchuck tick; ixodes cookei; groundhog tick vs deer tick). Ixodes cookei in eastern North America (Ontario, Quebec, the Maritimes, the eastern US): identification, hosts (groundhogs, skunks, pets), the Powassan virus link and how often it bites people.
+
+- `/blog/babesiosis` — **babesiosis** (also: babesia; babesiosis symptoms; babesiosis treatment). Babesia microti: who gets seriously ill, the blacklegged tick and blood-transfusion routes, where it is reported (Northeast and upper Midwest; Canadian notifiable since 2024), coinfection with Lyme.
+
+- `/blog/tick-eggs` — **tick eggs** (also: what do tick eggs look like; tick eggs in house; tick nest). The egg mass (thousands of amber eggs), where females lay them outdoors, the brown dog tick exception indoors, hatching time, what hatches (seed ticks) and look-alikes.
+
+- `/blog/ticks-on-cats` — **ticks on cats** (also: tick on cat; ticks on cats ears; what kills ticks on cats). Where ticks attach on cats, removal, why dog products containing permethrin are dangerous to cats, cat-labelled preventives (vet), and diseases relevant to cats (cytauxzoonosis in the South, tularemia).
+
+- `/blog/soft-ticks` — **soft tick** (also: soft tick vs hard tick; tick-borne relapsing fever; bat ticks). Argasid ticks: how soft ticks differ from hard ticks, rustic cabins and tick-borne relapsing fever in the western US and British Columbia, bat and bird ticks that enter homes after animals are removed.
+
+- `/blog/winter-tick` — **winter tick** (also: moose tick; winter tick moose; winter tick vs deer tick). Dermacentor albipictus: the one-host tick of moose, deer and horses, why it is active in fall and winter, its effect on moose populations, whether it bites people and pets, and how it differs from deer ticks.
 
 ## Pillars (hub pages)
 
@@ -284,6 +344,144 @@
 - `/blog/mosquitoes-in-montana` — mosquitoes in montana
 - `/blog/mosquitoes-in-wyoming` — mosquitoes in wyoming
 - `/blog/mosquitoes-in-hawaii` — mosquitoes in hawaii
+- `/learn/biting-flies` — biting flies
+- `/blog/no-see-ums` — no see ums
+- `/learn/spiders` — spider identification
+- `/blog/spider-bites` — spider bites ontario
+- `/learn/bug-bites` — bug bite identification
+- `/blog/skeeter-syndrome` — skeeter syndrome
+- `/blog/biting-insects` — biting insects in ontario
+- `/blog/deer-fly-vs-horse-fly` — horse fly vs deer fly
+- `/learn/household-bugs` — common household bugs
+- `/blog/spider-beetles` — spider beetle
+- `/learn/types-of-mosquitoes` — types of mosquitoes
+- `/blog/asian-tiger-mosquito` — asian tiger mosquito
+- `/blog/gallinipper` — gallinipper
+- `/learn/mosquito-borne-diseases` — mosquito borne diseases
+- `/blog/culex-mosquitoes` — culex mosquito
+- `/blog/dengue` — dengue in the us
+- `/blog/yellow-fever-mosquito` — aedes aegypti
+- `/blog/eastern-equine-encephalitis` — eastern equine encephalitis
+- `/blog/black-flies` — black flies
+- `/learn/chiggers-by-province` — chiggers in canada
+- `/learn/chiggers-by-state` — are there chiggers in <state>
+- `/learn/mites` — mite bites
+- `/learn/fleas` — fleas
+- `/blog/what-do-fleas-look-like` — what do fleas look like
+- `/blog/how-to-get-rid-of-fleas` — how to get rid of fleas
+- `/blog/venomous-spiders` — venomous spiders in the us
+- `/blog/scabies-vs-bed-bugs` — scabies vs bed bugs
+- `/blog/black-widow-bite` — black widow bite
+- `/blog/gnat-bites` — gnat bites
+- `/blog/brown-recluse-bite` — brown recluse bite
+- `/blog/black-widow-spiders` — black widow spider
+- `/blog/bat-bugs` — bat bugs
+- `/blog/daddy-long-legs` — daddy long legs
+- `/blog/joro-spiders` — joro spider
+- `/blog/wolf-spiders` — wolf spider
+- `/blog/brown-recluse` — brown recluse
+- `/blog/bird-mites` — bird mites
+- `/blog/brown-recluse-look-alikes` — spiders that look like brown recluse
+- `/blog/carpet-beetle-rash` — carpet beetle rash
+- `/learn/wasps-and-bees` — wasp vs hornet vs yellow jacket
+- `/blog/how-to-get-rid-of-ground-wasps` — how to get rid of ground wasps
+- `/blog/house-centipedes` — house centipede
+- `/blog/how-to-get-rid-of-silverfish` — how to get rid of silverfish
+- `/blog/yellow-jackets` — yellow jacket
+- `/blog/how-to-get-rid-of-wasps` — how to get rid of wasps
+- `/blog/how-to-get-rid-of-carpet-beetles` — how to get rid of carpet beetles
+- `/blog/how-to-get-rid-of-carpenter-bees` — how to get rid of carpenter bees
+- `/blog/how-to-get-rid-of-stink-bugs` — how to get rid of stink bugs
+- `/blog/bee-sting-vs-wasp-sting` — wasp sting vs bee sting
+- `/blog/types-of-gnats` — types of gnats
+- `/blog/bald-faced-hornets` — bald faced hornet
+- `/learn/scorpions` — scorpions in the us
+- `/learn/kissing-bugs` — kissing bugs
+- `/blog/wasp-nest-identification` — what does a wasp nest look like
+- `/blog/millipedes` — millipedes in house
+- `/blog/cicada-killers` — cicada killer
+- `/blog/asian-lady-beetles` — asian lady beetle
+- `/blog/carpenter-bee-vs-bumble-bee` — carpenter bee vs bumble bee
+- `/blog/fire-ant-stings` — fire ant bite
+- `/blog/camel-crickets` — camel cricket
+- `/blog/kissing-bug-bites` — kissing bug bite
+- `/blog/kissing-bug-look-alikes` — kissing bug look alikes
+- `/blog/scorpion-stings` — scorpion sting
+- `/blog/stinging-caterpillars` — stinging caterpillars
+- `/blog/natural-mosquito-repellent` — natural mosquito repellent
+- `/blog/anopheles-mosquitoes` — anopheles mosquito
+- `/blog/floodwater-mosquitoes` — floodwater mosquito
+- `/blog/chikungunya` — chikungunya
+- `/blog/la-crosse-encephalitis` — la crosse virus
+- `/blog/jamestown-canyon-virus` — jamestown canyon virus
+- `/blog/st-louis-encephalitis` — st louis encephalitis
+- `/blog/how-to-get-rid-of-spiders` — how to get rid of spiders
+- `/blog/how-to-get-rid-of-chiggers` — how to get rid of chiggers
+- `/blog/house-spiders` — house spider
+- `/blog/spiders-in-california` — spiders in california
+- `/blog/bug-bites-on-babies` — bug bites on babies
+- `/blog/dust-mites` — dust mites
+- `/blog/orb-weaver-spiders` — orb weaver spider
+- `/blog/chiggers-in-texas` — chiggers in texas
+- `/blog/spiders-in-florida` — spiders in florida
+- `/blog/grass-spiders` — grass spider
+- `/blog/jumping-spiders` — jumping spider
+- `/blog/spiders-in-arizona` — spiders in arizona
+- `/blog/hobo-spiders` — hobo spider
+- `/blog/yellow-sac-spiders` — yellow sac spider
+- `/blog/fishing-spiders` — fishing spider
+- `/blog/camel-spiders` — camel spider
+- `/blog/spiders-in-texas` — spiders in texas
+- `/blog/chiggers-in-missouri` — chiggers in missouri
+- `/blog/murine-typhus` — murine typhus
+- `/blog/false-widow-spiders` — false widow spider
+- `/blog/brown-widow-spiders` — brown widow spider
+- `/blog/tarantulas` — tarantula migration
+- `/blog/woodlouse-spiders` — woodlouse spider
+- `/blog/rat-mites` — rat mites
+- `/blog/itch-mites` — oak mites
+- `/blog/how-to-get-rid-of-drain-flies` — how to get rid of drain flies
+- `/blog/june-bugs` — june bug
+- `/blog/how-to-get-rid-of-cluster-flies` — how to get rid of cluster flies
+- `/blog/how-to-get-rid-of-boxelder-bugs` — how to get rid of boxelder bugs
+- `/blog/how-to-get-rid-of-earwigs` — how to get rid of earwigs
+- `/blog/pantry-pests` — pantry pests
+- `/blog/stable-flies` — stable fly
+- `/blog/paper-wasps` — paper wasp
+- `/blog/ground-bees` — ground bees
+- `/blog/greenhead-flies` — greenhead fly
+- `/blog/sand-fleas` — sand fleas
+- `/blog/mayflies` — mayflies
+- `/blog/european-hornets` — european hornet
+- `/blog/wheel-bugs` — wheel bug
+- `/blog/american-cockroaches` — american cockroach
+- `/blog/spotted-lanternfly` — spotted lanternfly
+- `/blog/bot-flies` — bot fly
+- `/blog/leaf-footed-bugs` — leaf footed bug
+- `/blog/clothes-moths` — clothes moths
+- `/blog/japanese-beetles` — japanese beetle
+- `/blog/booklice` — booklice
+- `/blog/pseudoscorpions` — pseudoscorpion
+- `/blog/mud-daubers` — mud dauber
+- `/blog/sweat-bees` — sweat bees
+- `/blog/bug-bites-on-dogs` — bug bites on dogs
+- `/blog/spider-mites` — spider mites
+- `/blog/lovebugs` — love bugs
+- `/blog/tarantula-hawks` — tarantula hawk
+- `/blog/western-conifer-seed-bugs` — western conifer seed bug
+- `/blog/pill-bugs` — pill bugs
+- `/blog/scorpions-in-arizona` — scorpions in arizona
+- `/blog/scorpions-in-texas` — scorpions in texas
+- `/blog/northern-giant-hornet` — northern giant hornet
+- `/blog/yellow-legged-hornet` — yellow legged hornet
+- `/blog/velvet-ants` — velvet ant
+- `/blog/blister-beetles` — blister beetle
+- `/blog/crazy-ants` — crazy ants
+- `/blog/european-fire-ants` — european fire ant
+- `/blog/crickets-in-house` — crickets in house
+- `/blog/chagas-disease` — chagas disease
+- `/blog/bark-scorpions` — bark scorpion
+- `/blog/mole-crickets` — mole crickets
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 
