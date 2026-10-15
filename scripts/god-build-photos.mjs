@@ -52,7 +52,7 @@ const PHOTOS = [
   ['bed-bug-signs', 'Bed bug signs: cast skins and fecal spots on fabric', { inat: { obs: 9978781, photo: 13712297 } }],
   ['clover-mite', 'Clover mite, Bryobia praetiosa, under a digital microscope', { commons: 'Clover mite (Bryobia praetiosa) viewed with digital microscope.jpg' }],
   ['red-velvet-mite', 'Red velvet mite (Trombidiidae) on bark', { commons: 'Huge Red Velvet Mite - Flickr - treegrow.jpg' }],
-  ['chigger-and-pinhead', 'Chigger larva and adult mite beside a pin head, for size', { phil: 14763 }],
+  ['chigger-and-pinhead', 'Chigger larva and adult mite on the head of a pin, for size', { phil: 14763 }],
   ['chigger-bites-ruler', 'Three chigger bites on an arm about 10 days after the bites, beside a ruler (each welt about 3 to 4 mm)', { phil: 12069 }],
   ['spider-beetle', 'Spider beetle, Gibbium psylloides', { commons: 'Gibbium psylloides (Czenpinski, 1778) (28038744750).png' }],
   ['carpet-beetle', 'Carpet beetle adult beside a 1 mm scale bar', { inat: { obs: 10606651, photo: 14791086 } }],

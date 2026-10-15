@@ -8,6 +8,8 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import Figure from '@/components/Figure'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -17,7 +19,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'tick-bite-vs-mosquito-bite'
 const DATE = '2026-04-07'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-10-15'
 
 export const metadata: Metadata = buildMetadata({
   // TITLE NOTE (Sep 16 2026): was 'Tick Bite vs Mosquito Bite: Ticks Stay Attached'
@@ -33,6 +35,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('blacklegged-tick-adult-nymph-fingertip'),
 })
 
 const FAQS = [
@@ -71,7 +74,7 @@ const AMZ_TAG = tagForSlug('tick-bite-vs-mosquito-bite')
 export default function TickBiteVsMosquitoBitePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: 'Tick Bite vs Mosquito Bite: How to Tell the Difference', description: 'What does a tick bite look like vs a mosquito bite? Symptoms, warning signs, and Lyme disease indicators for Ontario homeowners.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: 'Tick Bite vs Mosquito Bite: How to Tell the Difference', description: 'What does a tick bite look like vs a mosquito bite? Symptoms, warning signs, and Lyme disease indicators for Ontario homeowners.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('blacklegged-tick-adult-nymph-fingertip') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Tick Bite vs Mosquito Bite', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -157,6 +160,11 @@ export default function TickBiteVsMosquitoBitePage() {
           priority
         />
         <p>The single most reliable way to distinguish a tick bite from a mosquito bite is whether the insect is still attached. <strong>Mosquitoes bite and immediately fly away.</strong> You may notice the bite minutes later as an itchy welt, but the mosquito is gone. <strong>Ticks attach and feed for hours or days.</strong> If you find an insect embedded in your skin, it is a tick — not a mosquito. This distinction matters because the sooner you remove a tick, the lower the risk of Lyme disease transmission. Removing a tick within 24 hours of attachment significantly reduces infection risk. The other comparison people arrive at in the middle of the night is <Link href="/blog/bed-bug-bites-vs-mosquito-bites" className="text-brand-700 underline">bed bug bites versus mosquito bites</Link>, which turns on pattern, timing and season rather than on whether anything is still attached.</p>
+        <Photo
+          id="blacklegged-tick-adult-nymph-fingertip"
+          alt="Blacklegged ticks on a fingertip: an adult female and a much smaller nymph"
+          caption="Two blacklegged ticks on a person's index finger: an adult female on the left and a nymph on the right. If you find something like this embedded in your skin, it is a tick, not a mosquito."
+        />
         <p>The reason the two behave so differently is that only one of them can travel to you. A mosquito flies in, feeds for seconds and leaves; a tick has no wings at all and has to be collected by something brushing past its perch. If you have heard that they drop from trees or leap onto passers-by, <Link href="/blog/can-ticks-fly-jump-swim" className="text-brand-700 underline">can ticks fly, jump, or swim?</Link> works through each of those claims.</p>
 
         <NextUp path="/blog/tick-bite-vs-mosquito-bite" />
@@ -203,12 +211,22 @@ export default function TickBiteVsMosquitoBitePage() {
           <li>Fades within 24–48 hours in most people</li>
           <li>May be larger and more inflamed in people with mosquito saliva sensitivities</li>
         </ul>
+        <Photo
+          id="mosquito-bite-welts"
+          alt="Two mosquito bites on a leg: round, pink, raised welts"
+          caption="Two mosquito bites on a leg, photographed and described by the person who was bitten. Each is the typical mosquito bite: a small, round, raised welt, pale pink to red and slightly puffy."
+        />
         <p>In Ontario, mosquito bites carry a small risk of <strong>West Nile Virus</strong>, monitored annually by Toronto Public Health and Peel Region Health. Most infected people have no symptoms. Rarely, West Nile Fever develops: headache, body aches, joint pain, rash, and fatigue. Seek medical attention if you develop these symptoms after mosquito exposure.</p>
         <p>For the itch itself, a cool compress and an over-the-counter anti-itch cream (hydrocortisone or an antihistamine gel) usually settle a mosquito welt within a day. The reason an antihistamine helps at all is that the itch is a histamine reaction to proteins in the saliva rather than the puncture itself — which is also why the itch often peaks a day or so after the bite and why scratching keeps it going. Our guide to <Link href="/blog/why-do-mosquito-bites-itch" className="text-brand-700 underline">why mosquito bites itch and how long they last</Link> walks through that reaction stage by stage.</p>
         <p><BuyLink tag={AMZ_TAG} search="anti itch bite relief">Check anti-itch bite relief on Amazon.ca →</BuyLink></p>
 
         <h2>What a Tick Bite Looks Like</h2>
         <p>While the tick is attached, the bite is often <strong>painless</strong> — ticks secrete a numbing compound in their saliva that prevents you from feeling them. This is why tick checks after being outdoors are important: you may never feel the bite.</p>
+        <Photo
+          id="blacklegged-tick-nymph-fingernail"
+          alt="A tiny blacklegged tick nymph on a fingertip beside the fingernail"
+          caption="A blacklegged tick nymph crawling beside a person's index fingernail. At the size of a poppy seed, a nymph is the hardest stage to see, which is why a tick check after being outdoors matters."
+        />
         <p>After tick removal, the bite site typically shows:</p>
         <ul>
           <li>A small red bump — similar in appearance to a mosquito bite</li>
@@ -226,6 +244,11 @@ export default function TickBiteVsMosquitoBitePage() {
           <li>Develops 3 to 30 days after the bite</li>
           <li>Can appear anywhere on the body — not just the bite site</li>
         </ul>
+        <Photo
+          id="erythema-migrans-rash"
+          alt="Bull's-eye rash (erythema migrans) from a tick bite on the back of an upper arm"
+          caption="Erythema migrans, the bull's-eye rash of Lyme disease, at the site of a tick bite on the back of a woman's upper arm. Look for a red outer ring with a clearer or redder center, spreading outward from the bite site over days."
+        />
         <p><strong>If you develop a bull&apos;s-eye rash, see a doctor immediately.</strong> Tell them you had a tick bite or were in tick habitat. Early Lyme disease is treated effectively with antibiotics. Untreated, it can cause joint pain, cardiac issues, and neurological complications. <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="text-brand-700 hover:underline">The Government of Canada&apos;s Lyme disease guidance</a> confirms that prompt tick removal and early treatment sharply reduce the risk of complications.</p>
 
         <RelatedLinks path="/blog/tick-bite-vs-mosquito-bite" />

@@ -7,7 +7,9 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import Figure from '@/components/Figure'
+import Photo from '@/components/Photo'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { shareImage } from '@/lib/photos'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -15,9 +17,13 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'tick-vs-bed-bug'
 const DATE = '2026-07-09'
-const UPDATED = '2026-09-02'
+const UPDATED = '2026-10-15'
 const TITLE = 'Tick vs Bed Bug: How to Tell Them Apart (ID Chart)'
-const META_TITLE = 'Tick vs Bed Bug: Count the Legs (ID Chart)'
+// TITLE NOTE (Oct 15 2026): was 'Tick vs Bed Bug: Count the Legs (ID Chart)'. "tick vs bed bug"
+// (2,679 impressions in 90 days) sat at position 9.6 with 0.19% CTR and "bed bug vs tick" (1,230)
+// at 0.08%: a visual comparison search, and the page now has real photos of both side by side.
+// 48 chars; 60 rendered.
+const META_TITLE = 'Tick vs Bed Bug: Photos & How to Tell Them Apart'
 
 const FAQS = [
   {
@@ -101,6 +107,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bug-adult-ruler'),
 })
 
 const AMZ_TAG = tagForSlug('tick-vs-bed-bug')
@@ -108,7 +115,7 @@ const AMZ_TAG = tagForSlug('tick-vs-bed-bug')
 export default function TickVsBedBugPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Tick vs bed bug identification comparison.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Tick vs bed bug identification comparison.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bug-adult-ruler') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Tick vs Bed Bug', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -223,6 +230,11 @@ export default function TickVsBedBugPage() {
           <h2>Why They Get Confused</h2>
           <p>The confusion is understandable. Both are small, brown, wingless, and both <strong>engorge after a blood meal</strong> — which changes their shape enough that a fed tick and a fed bed bug can look genuinely similar to the naked eye. An unfed blacklegged tick is roughly 3 mm and flat; engorged, it swells to pea-sized and turns a grey-blue. An unfed bed bug is a flat 5 mm lentil; after feeding it rounds out and darkens to deep red. Ticks are only one candidate, though. If you are not yet certain the insect is either one, work through <Link href="/blog/bugs-that-look-like-bed-bugs-canada" className="text-brand-700 underline">the nine insects that get mistaken for bed bugs</Link> first and narrow the field before spending anything.</p>
           <p>The features that never change are the leg count and the behaviour. Ticks are arachnids — eight legs, no antennae — and they stay latched. Bed bugs are insects — six legs, obvious antennae — and they never attach.</p>
+          <Photo
+            id="bed-bug-adult-ruler"
+            alt="Adult bed bug seen from above beside a millimetre scale, with two antennae and a flat, oval, banded body about 5 mm long"
+            caption="An adult bed bug, Cimex lectularius, seen from above beside a millimetre scale: oval, flat and about 5 mm long, the average for an adult. Look for the two antennae at the front; a tick has none."
+          />
 
           {/* Ticks vs bed bugs — direct-answer section; every fact below restates the ID chart and the sections above and below it on this page */}
           <h2>Ticks vs Bed Bugs: The Four Differences That Never Change</h2>
@@ -253,6 +265,11 @@ export default function TickVsBedBugPage() {
             </table>
           </div>
           <p>Colour is the least reliable signal: both are some shade of reddish-brown, and both darken after feeding. Size overlaps too &mdash; an unfed tick is roughly 3&ndash;5 mm and an unfed bed bug 4&ndash;5 mm &mdash; and the tick nymph that bites people most often is closer to a poppy seed. If your specimen is small, dark and flat, work through the four checks above before you decide. For a stage-by-stage description of each blacklegged tick at the size you will actually meet it in this province, see <Link href="/blog/what-ticks-look-like-ontario">what ticks look like in Ontario</Link>; if the bug is six-legged and you found it in the bed, the bed bug signs further down this page are the next stop.</p>
+          <Photo
+            id="blacklegged-tick-adult-nymph-fingertip"
+            alt="Adult female blacklegged tick and a much smaller tick nymph on a fingertip, showing how small ticks are"
+            caption="Two blacklegged ticks, Ixodes scapularis, on a person’s index finger: an adult female on the left and a nymph on the right. The nymph is the stage that bites people most often, and the one easily mistaken for a speck of dirt or a very small bed bug."
+          />
 
           <h2>How Do You Know if It&rsquo;s a Tick or a Bed Bug?</h2>
           <p><strong>Count the legs and watch the behaviour.</strong> Ticks have eight legs, no antennae, and stay firmly attached to skin for days. Bed bugs have six legs, visible antennae, and feed for five to ten minutes before walking away to hide. Context settles most cases: outdoors in grass or leaf litter points to a tick; itchy welts that appear overnight in bed point to bed bugs.</p>
@@ -262,6 +279,11 @@ export default function TickVsBedBugPage() {
 
           <h2>Could a Tick Be Mistaken for a Bed Bug?</h2>
           <p><strong>Yes, easily &mdash; and it happens most often after either one has fed.</strong> Both are small, brown, wingless arthropods, and both engorge on blood, which blurs the shape difference that separates them when they are empty. Both inject saliva that numbs and thins the blood, and neither one can jump or fly. Leg count is what never changes.</p>
+          <Photo
+            id="tick-unfed-vs-engorged"
+            alt="Small male Ixodes tick beside a much larger female tick swollen after a blood meal"
+            caption="Two hard ticks of the genus Ixodes seen from above: a male on the left, and on the right a female made larger by a recent blood meal, her abdomen swollen and engorged. Feeding changes the size and shape, but both still have eight legs and no antennae."
+          />
           <p>It is worth being precise about how much these two genuinely share, because the overlap is what makes the mistake so common:</p>
           <ul>
             <li><strong>Both engorge dramatically.</strong> An unfed blacklegged tick is a flat 3 mm; engorged it swells to pea-sized and turns grey-blue. An unfed bed bug is a flat 5 mm lentil; fed, it rounds out into a dark red barrel. A fed bed bug and a partly fed tick really do look alike.</li>
@@ -305,6 +327,11 @@ export default function TickVsBedBugPage() {
           </div>
           <p className="text-sm text-gray-600">Species ranges and disease associations follow CDC tick surveillance guidance; Canadian distribution follows the Public Health Agency of Canada.</p>
           <p><strong>Why the size column matters.</strong> An adult bed bug is 4&ndash;5 mm. An unfed adult American dog tick is about the same, and an unfed lone star tick is close. Put either one on a bedsheet and the size test collapses entirely &mdash; you are back to legs and antennae. In Ontario the mix-up runs the other way: the blacklegged tick is small enough that people mistake the <em>nymph</em> for a bed bug nymph or a freckle.</p>
+          <Photo
+            id="american-dog-tick-female"
+            alt="Adult female American dog tick seen from above, with eight legs and a mottled pale shield behind its head"
+            caption="An adult female American dog tick, Dermacentor variabilis, found in Panola Park near Atlanta, Georgia. An unfed adult of this species is about the size of an adult bed bug, so count the legs: eight, and no antennae."
+          />
           <p>For deeper reading by species we have dedicated pages: <Link href="/blog/american-dog-tick-canada">the American dog tick</Link>, <Link href="/blog/lone-star-tick-alpha-gal-canada">the lone star tick and alpha-gal syndrome</Link>, <Link href="/blog/blacklegged-deer-tick-ontario">the blacklegged deer tick</Link>, <Link href="/blog/deer-tick-vs-dog-tick-canada">deer tick versus dog tick</Link>, and a broader <Link href="/blog/types-of-ticks-identification">tick identification guide</Link>.</p>
 
           <h2>Can Ticks Live in My Mattress?</h2>

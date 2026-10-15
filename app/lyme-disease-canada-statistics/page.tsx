@@ -5,32 +5,42 @@ import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/l
 const SLUG = '/lyme-disease-canada-statistics'
 
 // ── CANADA LYME DISEASE — REPORTED CASES BY YEAR ──────────────────────────────
-// Source: Public Health Agency of Canada (PHAC) — Lyme disease: Monitoring +
-// Health Infobase annual surveillance report + Canadian LDES (PLOS One / PMC).
-// Only the verified anchor years are charted (2009, 2019–2024). Intervening
-// single-year values 2010–2018 exist in PHAC annual editions but were not
-// individually pinned in source research, so they are intentionally omitted.
+// Source: Public Health Agency of Canada (PHAC), "Lyme disease: Monitoring" (canada.ca,
+// modified July 27, 2026): the national series 2009-2024 and a preliminary 2025 count.
+// The notes on 2009, 2019, 2020 and 2021 come from the Health Infobase annual reports and
+// the Canadian LDES study (PLOS One / PMC).
 interface YearPoint {
   year: number
   cases: number
   note: string
+  /** Not final: PHAC revises preliminary counts as late reports arrive. */
+  preliminary?: boolean
 }
 
 const CANADA_CASES_BY_YEAR: YearPoint[] = [
   { year: 2009, cases: 144,   note: 'First full year of national surveillance; 65.3% locally acquired' },
-  { year: 2019, cases: 2636,  note: '93.6% locally acquired; end of the 2009–2019 enhanced-surveillance study' },
+  { year: 2010, cases: 143,   note: 'Reported cases' },
+  { year: 2011, cases: 266,   note: 'Reported cases' },
+  { year: 2012, cases: 338,   note: 'Reported cases' },
+  { year: 2013, cases: 682,   note: 'Reported cases' },
+  { year: 2014, cases: 522,   note: 'Reported cases' },
+  { year: 2015, cases: 917,   note: 'Reported cases' },
+  { year: 2016, cases: 992,   note: 'National case definition revised this year' },
+  { year: 2017, cases: 2025,  note: 'Reported cases' },
+  { year: 2018, cases: 1487,  note: 'Reported cases' },
+  { year: 2019, cases: 2634,  note: '93.6% locally acquired; end of the 2009–2019 enhanced-surveillance study' },
   { year: 2020, cases: 1617,  note: '1,204 confirmed + 413 probable; dip attributed to reduced COVID-19-era testing' },
   { year: 2021, cases: 3147,  note: '2,595 confirmed + 552 probable; +94.6% vs 2020 — a record annual high at the time' },
   { year: 2022, cases: 2525,  note: 'Reported cases' },
   { year: 2023, cases: 4785,  note: 'Incidence 11.9 per 100,000' },
-  { year: 2024, cases: 5239,  note: 'Preliminary; incidence 14.1 per 100,000 (fuller dashboard figure: 5,809)' },
+  { year: 2024, cases: 5809,  note: 'Incidence 14.1 per 100,000; national case definition revised this year' },
+  { year: 2025, cases: 7105,  note: 'Preliminary count published by PHAC in July 2026', preliminary: true },
 ]
 
 // ── CANADA LYME DISEASE — CASES BY PROVINCE / TERRITORY (2024) ─────────────────
 // Source: PHAC Health Infobase annual surveillance dashboard, 2024 data.
-// Absolute counts sum close to the fuller 5,809 figure rather than the
-// preliminary 5,239 total — another reason to treat the larger value as the
-// fuller 2024 count. Quebec & Saskatchewan report via CNDSS (less detailed).
+// The province and territory counts add up exactly to the national 5,809.
+// Quebec & Saskatchewan report via CNDSS (less detailed).
 type ProvinceTier = 'highest' | 'high' | 'moderate' | 'low' | 'none'
 
 interface ProvincePoint {
@@ -101,9 +111,9 @@ interface ComparisonPoint {
 
 const CANADA_US_COMPARISON: ComparisonPoint[] = [
   {
-    label: 'Canada — reported cases (2024, preliminary)',
-    value: '~5,239',
-    detail: 'PHAC preliminary surveillance count; the Health Infobase dashboard publishes a fuller 2024 figure of 5,809 (50% confirmed, 50% probable).',
+    label: 'Canada — reported cases (2024)',
+    value: '5,809',
+    detail: 'PHAC national surveillance count (50% confirmed, 50% probable). A preliminary 7,105 cases were reported for 2025.',
     source: 'PHAC Health Infobase — annual report',
     sourceUrl: 'https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html',
   },
@@ -191,7 +201,7 @@ const SOURCES: SourceRef[] = [
 const FAQS = [
   {
     question: 'How many Lyme disease cases are there in Canada?',
-    answer: 'Canada recorded approximately 5,239 reported Lyme disease cases in 2024 (the latest year), according to the Public Health Agency of Canada (PHAC) surveillance dashboard. A fuller, updated figure of 5,809 cases also appears in the same dashboard, because preliminary surveillance counts are routinely revised upward as late lab and clinical reports arrive. 2024 is the most recent year PHAC has published — there is no 2025 national or provincial total yet. Important caveat: these are reported cases only — the true number of infections is believed to be several times higher, because many cases are never diagnosed, lab-confirmed, or reported to public health.',
+    answer: 'Canada reported 5,809 Lyme disease cases in 2024, the latest full year, according to the Public Health Agency of Canada (PHAC). PHAC’s preliminary count for 2025 is 7,105 cases; preliminary counts are revised as late lab and clinical reports arrive, and PHAC has not yet published its 2025 figures by province. Important caveat: these are reported cases only — the true number of infections is believed to be several times higher, because many cases are never diagnosed, lab-confirmed, or reported to public health.',
   },
   {
     question: 'Which province has the most Lyme disease?',
@@ -199,11 +209,11 @@ const FAQS = [
   },
   {
     question: 'How many people get Lyme disease each year in Canada?',
-    answer: 'In 2024, Canada reported approximately 5,239 Lyme disease cases — a national incidence rate of 14.1 per 100,000 population, up from 11.9 per 100,000 in 2023, according to PHAC. Annual reported cases have climbed steeply, from just 144 in 2009 to 2,636 in 2019 (a roughly 18-fold increase in a decade) and into the 4,000–5,800 range in 2023–2024. These figures count only diagnosed and reported cases, so the actual number of people infected each year is widely believed to be substantially higher.',
+    answer: 'In 2024, Canada reported 5,809 Lyme disease cases — a national incidence rate of 14.1 per 100,000 population, up from 11.9 per 100,000 in 2023, according to PHAC — and the preliminary count for 2025 is 7,105. Annual reported cases have climbed steeply, from just 144 in 2009 to 2,634 in 2019 (a roughly 18-fold increase in a decade) and 4,785 in 2023. These figures count only diagnosed and reported cases, so the actual number of people infected each year is widely believed to be substantially higher.',
   },
   {
     question: 'Is Lyme disease increasing in Canada?',
-    answer: 'Yes — Lyme disease is increasing sharply in Canada. Reported cases rose from 144 in 2009 to 2,636 in 2019 (about an 18-fold increase), then to roughly 5,239 in 2024, according to PHAC. The national incidence rate climbed from 11.9 per 100,000 in 2023 to 14.1 per 100,000 in 2024. Crucially, the share of cases acquired locally in Canada (rather than during travel) rose from 65.3% in 2009 to 93.6% in 2019 — clear evidence the blacklegged tick is now firmly established domestically rather than merely imported.',
+    answer: 'Yes — Lyme disease is increasing sharply in Canada. Reported cases rose from 144 in 2009 to 2,634 in 2019 (about an 18-fold increase), then to 5,809 in 2024 and a preliminary 7,105 in 2025, according to PHAC. The national incidence rate climbed from 11.9 per 100,000 in 2023 to 14.1 per 100,000 in 2024. PHAC notes that the national case definition was revised in 2016 and again in 2024, which can affect comparisons between years. Crucially, the share of cases acquired locally in Canada (rather than during travel) rose from 65.3% in 2009 to 93.6% in 2019 — clear evidence the blacklegged tick is now firmly established domestically rather than merely imported.',
   },
   {
     question: 'Where are the Lyme disease risk areas in Canada?',
@@ -211,7 +221,7 @@ const FAQS = [
   },
   {
     question: 'How does Canada compare to the US for Lyme disease?',
-    answer: 'The United States reports far more Lyme disease than Canada in absolute terms. The U.S. CDC recorded over 89,000 reported cases in 2023 and estimates approximately 476,000 cases are actually diagnosed and treated each year (based on health-insurance claims, 2010–2018), compared with Canada’s roughly 5,239 reported cases in 2024. The gap reflects both the larger U.S. population and longer-established tick range. The CDC comparison also reveals that true Lyme burden runs several times higher than routine surveillance captures — underreporting that researchers say applies to Canada as well.',
+    answer: 'The United States reports far more Lyme disease than Canada in absolute terms. The U.S. CDC recorded over 89,000 reported cases in 2023 and estimates approximately 476,000 cases are actually diagnosed and treated each year (based on health-insurance claims, 2010–2018), compared with Canada’s 5,809 reported cases in 2024. The gap reflects both the larger U.S. population and longer-established tick range. The CDC comparison also reveals that true Lyme burden runs several times higher than routine surveillance captures — underreporting that researchers say applies to Canada as well.',
   },
   {
     question: 'Are reported Lyme disease cases the same as total infections?',
@@ -221,16 +231,18 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: `Lyme Disease Canada: Cases by Province, Ranked`,
-  description: `Lyme disease cases in Canada reached 5,239 in 2024, up from 144 in 2009. Every province and territory ranked: Ontario leads on count, Nova Scotia on rate.`,
+  description: `Canada reported 5,809 Lyme disease cases in 2024 and 7,105 (preliminary) in 2025, up from 144 in 2009. Every province ranked by count and by rate.`,
   canonical: SLUG,
 })
 
 export default function LymeDiseaseCanadaStatisticsPage() {
-  const cases2024 = 5239
+  const cases2024 = 5809
+  const cases2025Preliminary = 7105
   const cases2023 = 4785
   const cases2009 = 144
-  const cases2019 = 2636
-  const cumulativeAllTime = 28033
+  const cases2019 = 2634
+  // final years only (2009-2024); the preliminary 2025 count is shown separately
+  const cumulativeAllTime = CANADA_CASES_BY_YEAR.filter((y) => !y.preliminary).reduce((sum, y) => sum + y.cases, 0)
   const foldIncrease = Math.round(cases2019 / cases2009) // ~18×
   const maxYearCases = Math.max(...CANADA_CASES_BY_YEAR.map((y) => y.cases))
   const maxProvinceCases = Math.max(...CANADA_CASES_BY_PROVINCE.map((p) => p.cases))
@@ -245,10 +257,10 @@ export default function LymeDiseaseCanadaStatisticsPage() {
         '@context': 'https://schema.org',
         '@type': 'Dataset',
         name: 'Lyme Disease in Canada: Reported Cases by Province (2026)',
-        description: 'Aggregated reported Lyme disease case counts for Canada by year (2009–2024) and by province/territory (2024), national incidence rates, climate-driven tick range-expansion estimates, and a Canada-versus-United-States comparison. Compiled from Public Health Agency of Canada surveillance and U.S. CDC data.',
+        description: 'Aggregated reported Lyme disease case counts for Canada by year (2009–2024, with the preliminary 2025 count) and by province/territory (2024), national incidence rates, climate-driven tick range-expansion estimates, and a Canada-versus-United-States comparison. Compiled from Public Health Agency of Canada surveillance and U.S. CDC data.',
         url: `https://buzzskito.ca${SLUG}`,
         datePublished: '2026-06-19',
-        dateModified: '2026-07-01',
+        dateModified: '2026-10-15',
         distribution: { '@type': 'DataDownload', encodingFormat: 'text/html', contentUrl: `https://buzzskito.ca${SLUG}` },
         license: 'https://creativecommons.org/licenses/by/4.0/',
         creator: {
@@ -257,7 +269,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
           url: 'https://buzzskito.ca',
         },
         spatialCoverage: { '@type': 'Place', name: 'Canada' },
-        temporalCoverage: '2009-01-01/2024-12-31',
+        temporalCoverage: '2009-01-01/2025-12-31',
         keywords: ['Lyme disease', 'Canada', 'cases by province', 'tick', 'public health', 'epidemiology', 'borreliosis', 'Ixodes scapularis', 'PHAC', 'surveillance'],
         isBasedOn: [
           'https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html',
@@ -275,7 +287,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
             Lyme Disease in Canada:<br className="hidden sm:block" /> <span className="text-amber-400">Cases by Province</span> (2026 Statistics)
           </h1>
           <p className="text-lg text-brand-100 max-w-3xl mx-auto leading-relaxed mb-6">
-            How many Lyme disease cases does Canada report, which provinces carry the most, and how fast is the disease spreading? This page compiles the latest reported case counts from the Public Health Agency of Canada &mdash; by year (2009&ndash;2024) and by province (2024) &mdash; alongside national incidence rates, climate-driven tick range expansion, and a Canada-versus-United-States comparison. All figures are sourced and free to cite.
+            How many Lyme disease cases does Canada report, which provinces carry the most, and how fast is the disease spreading? This page compiles the latest reported case counts from the Public Health Agency of Canada &mdash; by year (2009&ndash;2024, plus PHAC&rsquo;s preliminary 2025 count) and by province (2024) &mdash; alongside national incidence rates, climate-driven tick range expansion, and a Canada-versus-United-States comparison. All figures are sourced and free to cite.
           </p>
           <div className="flex flex-wrap gap-2 justify-center text-xs">
             <span className="bg-white/10 px-3 py-1 rounded-full">🇨🇦 Public Health Agency of Canada</span>
@@ -292,10 +304,10 @@ export default function LymeDiseaseCanadaStatisticsPage() {
           <p className="text-xs font-extrabold text-amber-700 uppercase tracking-wider mb-2">Quick Answer</p>
           <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-3">How many Lyme disease cases are there in Canada?</h2>
           <p className="text-base text-gray-800 leading-relaxed">
-            <span className="speakable"><strong>Canada reported approximately {cases2024.toLocaleString()} Lyme disease cases in 2024 &mdash; the latest year &mdash; a national incidence of 14.1 per 100,000 people, and an 18-fold increase from just 144 cases in 2009, according to the <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline">Public Health Agency of Canada</a>.</strong></span>{' '}
+            <span className="speakable"><strong>Canada reported {cases2024.toLocaleString()} Lyme disease cases in 2024 &mdash; the latest full year &mdash; a national incidence of 14.1 per 100,000 people, and the preliminary count for 2025 is {cases2025Preliminary.toLocaleString()}. That is up from just 144 cases in 2009, according to the <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline">Public Health Agency of Canada</a>.</strong></span>{' '}
             By province, Ontario had the most reported cases (2,369, about 41% of the national total), with Nova Scotia a very close second (2,350, roughly 40%) and Quebec third (834, about 14%). Note that these are reported cases only: the true number of infections is believed to be several times higher, because many cases are never diagnosed or reported &mdash; the same underreporting the U.S. CDC documents, where an estimated 476,000 cases occur each year versus about 89,000 reported.
           </p>
-          <p className="text-xs text-gray-500 mt-3 italic">A fuller, revised 2024 figure of 5,809 cases (50% confirmed, 50% probable) appears in <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline">PHAC&rsquo;s Health Infobase dashboard</a>; preliminary counts are updated upward as late reports arrive. We use 5,239 as the conservative number throughout.</p>
+          <p className="text-xs text-gray-500 mt-3 italic">The 2024 figure of 5,809 cases (50% confirmed, 50% probable) and the province counts are from <a href="https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" target="_blank" rel="noopener" className="underline">PHAC&rsquo;s Health Infobase annual report</a>; the year-by-year series and the preliminary 2025 count are from <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html" target="_blank" rel="noopener" className="underline">PHAC&rsquo;s Lyme disease monitoring page</a> (updated July 27, 2026). Preliminary counts are revised as late reports arrive.</p>
         </div>
       </section>
 
@@ -310,7 +322,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
             <div className="rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-700 text-white p-5 shadow-lg">
               <p className="text-[11px] font-bold uppercase tracking-widest opacity-90">2024 reported cases</p>
               <p className="text-4xl sm:text-5xl font-black mt-2">{cases2024.toLocaleString()}</p>
-              <p className="text-xs mt-2 opacity-90">Preliminary (PHAC) · latest year</p>
+              <p className="text-xs mt-2 opacity-90">PHAC · latest full year</p>
             </div>
             <div className="rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 text-white p-5 shadow-lg">
               <p className="text-[11px] font-bold uppercase tracking-widest opacity-90">National incidence 2024</p>
@@ -320,10 +332,10 @@ export default function LymeDiseaseCanadaStatisticsPage() {
             <div className="rounded-2xl bg-gradient-to-br from-rose-500 to-red-700 text-white p-5 shadow-lg">
               <p className="text-[11px] font-bold uppercase tracking-widest opacity-90">Growth 2009 → 2019</p>
               <p className="text-4xl sm:text-5xl font-black mt-2">{foldIncrease}×</p>
-              <p className="text-xs mt-2 opacity-90">144 → 2,636 cases / year</p>
+              <p className="text-xs mt-2 opacity-90">144 → 2,634 cases / year</p>
             </div>
             <div className="rounded-2xl bg-gradient-to-br from-purple-600 to-indigo-700 text-white p-5 shadow-lg">
-              <p className="text-[11px] font-bold uppercase tracking-widest opacity-90">Cumulative 2009&ndash;2025</p>
+              <p className="text-[11px] font-bold uppercase tracking-widest opacity-90">Cumulative 2009&ndash;2024</p>
               <p className="text-4xl sm:text-5xl font-black mt-2">{(cumulativeAllTime / 1000).toFixed(1)}K</p>
               <p className="text-xs mt-2 opacity-90">{cumulativeAllTime.toLocaleString()} reported (PHAC)</p>
             </div>
@@ -339,15 +351,15 @@ export default function LymeDiseaseCanadaStatisticsPage() {
                   <span className="text-xs font-bold text-gray-600 w-12 shrink-0">{y.year}</span>
                   <div className="flex-1 h-7 bg-gray-100 rounded-md overflow-hidden relative">
                     <div
-                      className={`h-full rounded-md ${y.year >= 2023 ? 'bg-gradient-to-r from-emerald-500 to-teal-600' : y.year >= 2020 ? 'bg-gradient-to-r from-amber-400 to-orange-500' : 'bg-gradient-to-r from-rose-400 to-rose-500'}`}
+                      className={`h-full rounded-md ${y.preliminary ? 'bg-gradient-to-r from-emerald-300 to-teal-400' : y.year >= 2023 ? 'bg-gradient-to-r from-emerald-500 to-teal-600' : y.year >= 2020 ? 'bg-gradient-to-r from-amber-400 to-orange-500' : 'bg-gradient-to-r from-rose-400 to-rose-500'}`}
                       style={{ width: `${(y.cases / maxYearCases) * 100}%` }}
                     />
-                    <span className="absolute inset-0 flex items-center pl-3 text-xs font-bold text-white drop-shadow">{y.cases.toLocaleString()}</span>
+                    <span className="absolute inset-0 flex items-center pl-3 text-xs font-bold text-white drop-shadow">{y.cases.toLocaleString()}{y.preliminary ? ' (preliminary)' : ''}</span>
                   </div>
                 </div>
               ))}
             </div>
-            <p className="text-xs text-gray-500 mt-5 italic">Reported cases climbed from 144 (2009) to 2,636 (2019) &mdash; roughly an 18&times; increase &mdash; and into the 4,800&ndash;5,800 range by 2023&ndash;2024. The 2020 dip (1,617) is widely attributed to reduced COVID-19-era testing and reporting, not a real decline; cases rebounded +94.6% in 2021. The 2024 bar uses the conservative preliminary count of 5,239 (PHAC&rsquo;s fuller revised figure is 5,809).</p>
+            <p className="text-xs text-gray-500 mt-5 italic">Reported cases climbed from 144 (2009) to 2,634 (2019) &mdash; roughly an 18&times; increase &mdash; then to 4,785 in 2023, 5,809 in 2024 and a preliminary 7,105 in 2025 (the lighter bar). The 2020 dip (1,617) is widely attributed to reduced COVID-19-era testing and reporting, not a real decline; cases rebounded +94.6% in 2021. PHAC revised the national case definition in 2016 and again in 2024, so compare years with care.</p>
           </div>
         </div>
       </section>
@@ -387,7 +399,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
                 )
               })}
             </div>
-            <p className="text-xs text-gray-500 mt-5 italic">Provincial counts sum close to PHAC&rsquo;s fuller 5,809 figure rather than the preliminary 5,239 total &mdash; a further reason to treat the larger value as the more complete 2024 count. Quebec and Saskatchewan report through the CNDSS system (less detailed) rather than the enhanced LDES program.</p>
+            <p className="text-xs text-gray-500 mt-5 italic">The province and territory counts add up exactly to PHAC&rsquo;s national 2024 total of 5,809. Quebec and Saskatchewan report through the CNDSS system (less detailed) rather than the enhanced LDES program.</p>
           </div>
 
           {/* Highest-count vs highest-incidence callout */}
@@ -506,7 +518,7 @@ export default function LymeDiseaseCanadaStatisticsPage() {
           <div className="rounded-2xl bg-amber-400/10 border border-amber-400/30 p-6">
             <h3 className="text-lg font-extrabold text-amber-400 mb-2">The reported-vs-true-burden gap</h3>
             <p className="text-sm text-brand-100 leading-relaxed">
-              In the United States, <a href="https://www.cdc.gov/lyme/data-research/facts-stats/index.html" target="_blank" rel="noopener" className="underline text-amber-300">the CDC estimates approximately 476,000 Lyme cases are diagnosed and treated each year</a> (from health-insurance claims, 2010&ndash;2018), versus the 89,000+ reported through routine surveillance in 2023 &mdash; meaning roughly one in five true cases is captured by surveillance. Canadian researchers note the same underreporting applies here. So while Canada&rsquo;s ~5,239 reported cases (2024) look modest beside the U.S. total, the real number of Canadian infections is almost certainly several times higher. Treat every figure on this page as <strong className="text-white">reported cases</strong>, not a complete count of infections.
+              In the United States, <a href="https://www.cdc.gov/lyme/data-research/facts-stats/index.html" target="_blank" rel="noopener" className="underline text-amber-300">the CDC estimates approximately 476,000 Lyme cases are diagnosed and treated each year</a> (from health-insurance claims, 2010&ndash;2018), versus the 89,000+ reported through routine surveillance in 2023 &mdash; meaning roughly one in five true cases is captured by surveillance. Canadian researchers note the same underreporting applies here. So while Canada&rsquo;s 5,809 reported cases (2024) look modest beside the U.S. total, the real number of Canadian infections is almost certainly several times higher. Treat every figure on this page as <strong className="text-white">reported cases</strong>, not a complete count of infections.
             </p>
           </div>
         </div>
@@ -551,16 +563,16 @@ export default function LymeDiseaseCanadaStatisticsPage() {
               <div className="rounded-lg bg-white border border-amber-200 p-4">
                 <p className="font-extrabold text-brand-900 mb-1">Key figures to quote</p>
                 <ul className="space-y-1 text-gray-700 text-xs">
-                  <li>• ~5,239 reported cases in Canada (2024, PHAC)</li>
+                  <li>• 5,809 reported cases in Canada (2024, PHAC); 7,105 preliminary for 2025</li>
                   <li>• 14.1 per 100,000 national incidence (2024)</li>
                   <li>• Ontario 2,369 (41%) · Nova Scotia 2,350 (40%) · Quebec 834 (14%)</li>
-                  <li>• 18× growth, 2009 (144) → 2019 (2,636)</li>
-                  <li>• 2024 is the latest published year &mdash; <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html" target="_blank" rel="noopener" className="underline">no 2025 national or provincial total exists yet (PHAC)</a></li>
+                  <li>• 18× growth, 2009 (144) → 2019 (2,634)</li>
+                  <li>• 2024 is the latest full year; <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html" target="_blank" rel="noopener" className="underline">PHAC&rsquo;s preliminary national count for 2025 is 7,105</a> (no PHAC province totals for 2025 yet)</li>
                 </ul>
               </div>
               <div className="rounded-lg bg-white border border-amber-200 p-4">
                 <p className="font-extrabold text-brand-900 mb-1">Always note</p>
-                <p className="text-gray-700 text-xs leading-relaxed">These are <strong>reported</strong> cases, not total infections. PHAC&rsquo;s 2024 count appears as both 5,239 (preliminary) and 5,809 (revised). Re-check the live PHAC dashboard before publishing.</p>
+                <p className="text-gray-700 text-xs leading-relaxed">These are <strong>reported</strong> cases, not total infections. The 2025 count (7,105) is preliminary and will be revised. Re-check the live PHAC pages before publishing.</p>
               </div>
             </div>
           </div>

@@ -5,6 +5,8 @@ import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
@@ -13,7 +15,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-long-do-ticks-live'
 const DATE = '2026-07-15'
-const UPDATED = '2026-07-15'
+const UPDATED = '2026-10-15'
 const TITLE = 'How Long Do Ticks Live — and Can They Live in Your House? (Ontario)'
 // TITLE NOTE (Sep 16 2026): was 'How Long Do Ticks Live? 2–3 Years, Days Indoors'
 // (47 chars) — no geo token against 15,441 impressions at position 7.6 but only 36
@@ -106,12 +108,13 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('blacklegged-tick-life-stages'),
 })
 
 export default function HowLongDoTicksLivePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How long ticks live, whether they can live in your house, survival without a host, winter survival, and how long ticks stay on dogs — Ontario guide.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How long ticks live, whether they can live in your house, survival without a host, winter survival, and how long ticks stay on dogs — Ontario guide.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('blacklegged-tick-life-stages') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How Long Do Ticks Live?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -202,6 +205,11 @@ export default function HowLongDoTicksLivePage() {
           <h2>How Long Do Ticks Live?</h2>
           <p>Ticks live <strong>2 to 3 years</strong>. A blacklegged (deer) tick passes through three feeding stages &mdash; larva, nymph, and adult &mdash; and takes exactly one blood meal at each. The U.S. Centers for Disease Control and Prevention (CDC) describes this as a roughly two-year cycle. A tick that misses a host simply waits months for the next one.</p>
           <p>Most ticks live <strong>2 to 3 years</strong>. That lifespan is stretched across three feeding stages &mdash; larva, nymph, and adult &mdash; with a molt in between each one. In Ontario, the species that matters most for human health is the <strong>blacklegged (deer) tick</strong> (<em>Ixodes scapularis</em>), which can carry the bacterium that causes Lyme disease; the <strong>American dog tick</strong> is also common in grassy areas but is a lower Lyme risk.</p>
+          <Photo
+            id="blacklegged-tick-life-stages"
+            alt="Blacklegged tick adult, nymph and larva photographed together, showing how much smaller the young stages are"
+            caption="Blacklegged ticks, Ixodes scapularis, at three life stages: a large adult, a nymph and a much smaller larva. Each stage takes one blood meal before it molts or, for an adult female, lays eggs."
+          />
           <p>Here is the key to understanding tick lifespan: a tick takes only <strong>one blood meal per stage</strong>. A larva feeds once and molts into a nymph. The nymph feeds once and molts into an adult. The adult female feeds once, mates, lays a single large batch of eggs, and then dies. Because a tick has to find a host to advance to the next stage, and because it can wait a very long time for that host, the calendar of a tick&rsquo;s life is measured in years rather than days. A larva that hatches one summer may not become an egg-laying adult until roughly two years later.</p>
           <NextUp path="/blog/how-long-do-ticks-live" />
           <p>This slow, patient life cycle is exactly why ticks persist. They do not need to feed often, they do not need to breed quickly, and a single surviving female can seed the next generation with thousands of eggs.</p>
@@ -209,6 +217,11 @@ export default function HowLongDoTicksLivePage() {
           <h2>How Long Do American Dog Ticks Live Compared With Blacklegged Ticks?</h2>
           <p>Both live for years, but on different clocks. A blacklegged (deer) tick usually completes its cycle in about <strong>two years</strong> in shaded, humid woodland edges, while an American dog tick more often takes <strong>two to three years</strong> and prefers open, grassy ground. The CDC describes both as multi-year life cycles built on one blood meal per stage.</p>
           <p>The practical difference is disease, not longevity. The blacklegged tick is the species that transmits the bacterium causing Lyme disease; the American dog tick does not, though the CDC associates it with other illnesses such as Rocky Mountain spotted fever and tularemia. Unfed adults of either species can wait many months for a host, which is why both species keep turning up season after season in the same shaded property edges.</p>
+          <Photo
+            id="american-dog-tick-female"
+            alt="Adult female American dog tick seen from above, with eight legs and a mottled pale shield behind its head"
+            caption="An adult female American dog tick, Dermacentor variabilis, found in Panola Park near Atlanta, Georgia. The species can spread Rocky Mountain spotted fever and tularemia."
+          />
 
           <h2>How Long Can a Tick Live Without a Host?</h2>
           <p>An unfed blacklegged tick can live <strong>several months to well over a year</strong> without a blood meal, as long as the air around it stays cool and humid. Hunger is not what kills a host-less tick &mdash; dehydration is. In dry indoor air, that same tick survives only <strong>days to about two weeks</strong>.</p>
@@ -220,6 +233,11 @@ export default function HowLongDoTicksLivePage() {
           <p><strong>For Ontario&rsquo;s common ticks, the answer is essentially no.</strong> Blacklegged ticks and American dog ticks need relative humidity of roughly 80% or higher to survive for long. Heated, air-conditioned indoor air typically sits far below that &mdash; often 30–50% &mdash; which is a desert to a tick. A tick carried inside on a pant leg or a dog will usually dehydrate and die within a few days to a couple of weeks, and it cannot breed or establish a population indoors.</p>
           <p>That is genuinely reassuring, and it is the opposite of how fleas and bed bugs behave. Fleas and bed bugs are adapted to complete their life cycles inside your home; blacklegged and dog ticks are not. If you keep finding ticks indoors, they are almost always being <strong>carried in fresh</strong> from the yard on people or pets &mdash; not reproducing in the carpet. The fix is therefore outdoors: reduce tick habitat around the property and check pets before they come in. In the GTA that almost always means one narrow strip — the shaded, humid margin where a lawn meets a ravine, woodlot, or fence line. It is the zone <Link href="/north-york-tick-spray">North York tick spray</Link> visits target along the Don valley ravines, and the same one <Link href="/burlington-tick-spray">tick control in Burlington</Link> works through the escarpment woodlots.</p>
           <p>There is one worldwide exception worth naming so you can rule it out: the <strong>brown dog tick</strong> (<em>Rhipicephalus sanguineus</em>) tolerates dry indoor air and <em>can</em> complete its entire life cycle inside homes and kennels, occasionally causing true indoor infestations. It is uncommon in Canada&rsquo;s outdoor climate, and most Ontario households will never encounter it, but if a home has a genuine repeat tick problem tied to a dog, it is worth mentioning to a veterinarian or licensed pest professional.</p>
+          <Photo
+            id="brown-dog-tick-male"
+            alt="Adult male brown dog tick seen from above beside a 1 mm scale bar"
+            caption="An adult male brown dog tick, Rhipicephalus sanguineus, collected from a dog at a veterinary clinic in Flagstaff, Arizona; the scale bar marks 1 mm. A repeat tick problem tied to a dog is the sign to raise this species with a veterinarian or licensed pest professional."
+          />
 
           <AffiliateDisclosure />
           <div className="not-prose my-6 rounded-xl border border-amber-200 bg-amber-50/60 p-5">
@@ -302,6 +320,11 @@ export default function HowLongDoTicksLivePage() {
 
           <h2>How Long Does a Tick Live After Feeding?</h2>
           <p>An engorged tick drops off its host within hours of finishing its meal and does not feed again at that stage. A fed larva or nymph spends the following weeks molting into the next stage. A fed adult female lays a single batch of roughly <strong>1,000 to 3,000 eggs</strong> and dies soon after, usually within a few weeks.</p>
+          <Photo
+            id="tick-unfed-vs-engorged"
+            alt="Small male Ixodes tick beside a much larger female tick swollen after a blood meal"
+            caption="Two hard ticks of the genus Ixodes seen from above: a male on the left, and on the right a female made larger by a recent blood meal, her abdomen swollen and engorged. For an adult female, a full meal comes at the end of her life: she lays a single batch of eggs and dies."
+          />
           <p>So a full blood meal is not the start of a long life &mdash; for an adult female it is the end of one. That is also why finding an engorged tick that has already detached is not a sign of an indoor population. It is a tick at the end of a stage, looking for leaf litter it will not find inside a house.</p>
 
           <h2>How Do Ticks Die Naturally?</h2>

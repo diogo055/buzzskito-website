@@ -5,11 +5,18 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'what-does-a-spider-bite-look-like'
 const DATE = '2026-07-19'
+const UPDATED = '2026-10-15'
 const TITLE = 'What Does a Spider Bite Look Like? Identification, Look-Alikes & When to Worry'
-const META_TITLE = "Is It a Spider Bite? How to Tell (Most Aren't)"
+// TITLE NOTE (Oct 15 2026): was "Is It a Spider Bite? How to Tell (Most Aren't)". The page's
+// head query "what does a spider bite look like" (6,549 impressions in 90 days, position 7.8,
+// 0.52% CTR) was not in the title at all, and the page now carries six real photos.
+// 43 chars; 55 rendered with the " | BuzzSkito" template.
+const META_TITLE = 'What Does a Spider Bite Look Like? (Photos)'
 
 const FAQS = [
   {
@@ -117,16 +124,17 @@ const FAQS = [
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
   description:
-    'Most suspected spider bites are something else, often a skin infection. How to tell one from mosquito, bed bug and tick bites, and when to see a doctor.',
+    'Photos of the spiders that matter and of the bites mistaken for theirs. Most suspected spider bites are something else; when to see a doctor.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('brown-recluse'),
 })
 
 export default function WhatDoesASpiderBiteLookLikePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A visual identification guide to spider bites: what they look like at each stage, how they differ from mosquito, bed bug, and tick bites, brown recluse and black widow warning signs, and when to seek urgent medical care.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A visual identification guide to spider bites: what they look like at each stage, how they differ from mosquito, bed bug, and tick bites, brown recluse and black widow warning signs, and when to seek urgent medical care.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('brown-recluse') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'What Does a Spider Bite Look Like?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -187,6 +195,11 @@ export default function WhatDoesASpiderBiteLookLikePage() {
         <h2>What does a spider bite look like?</h2>
         <p>Most spider bites look surprisingly ordinary: a <strong>single red bump, roughly 0.5&ndash;2 cm (about 1/4&ndash;3/4 in) across</strong>, sometimes with mild swelling, itching, or tenderness &mdash; close enough to a mosquito bite or bee sting that the three are routinely confused. Two tiny puncture marks are occasionally visible where the fangs entered, but the fangs sit so close together that they usually leave what reads as one point.</p>
         <p>Context matters as much as appearance. The overwhelming majority of spiders either cannot pierce human skin at all or deliver venom that causes nothing more than brief, local irritation &mdash; Health Canada&rsquo;s pest guidance describes spiders as generally beneficial and reluctant to bite, and the CDC&rsquo;s occupational guidance identifies only <strong>two spider groups of medical concern in North America</strong>: widow spiders and the brown recluse. Everything else on this continent produces, at worst, a bump that behaves like a bee sting and fades within a week to ten days.</p>
+        <Photo
+          id="brown-recluse"
+          alt="Brown recluse spider seen from above, with a dark violin-shaped marking on the front part of its body"
+          caption="A brown recluse spider, Loxosceles reclusa, seen from above, with the violin-shaped marking on the front part of its body. That marking is faint and variable, and harmless species mimic it."
+        />
         <p>Spiders also do not feed on blood, so they have no reason to bite repeatedly. A genuine spider bite is <strong>almost always a single mark</strong> &mdash; typically from a spider pressed against skin inside clothing, bedding, gloves, or shoes. Multiple bumps, clusters, or lines of bites point strongly toward something else.</p>
 
         <NextUp path="/blog/what-does-a-spider-bite-look-like" />
@@ -230,6 +243,16 @@ export default function WhatDoesASpiderBiteLookLikePage() {
             </tbody>
           </table>
         </div>
+        <Photo
+          id="bed-bug-bites-forearm"
+          alt="Several raised red bed bug bites in small groups on a forearm"
+          caption="Bed bug bites on a forearm. Several welts at once, in lines or clusters, point away from a spider, whose bite is almost always a single mark."
+        />
+        <Photo
+          id="flea-bites-lower-leg"
+          alt="Many small red flea bite spots on a person's lower leg"
+          caption="Flea bites on a person's lower leg. Bites in groups on the lower legs, with a pet in the household, point to fleas rather than a spider."
+        />
         <p>Two of those are regional in a way that matters for US readers. <strong>Chiggers</strong> (larval trombiculid mites) are a summer fixture from Kansas and Missouri through the Southeast and are responsible for a large share of &ldquo;something bit me in the yard&rdquo; complaints below roughly the 40th parallel; they are far less of a factor across most of Canada. <strong>Fire ant</strong> stings, which leave a sterile pustule within 24 hours, are another southern-US impostor with no Canadian equivalent. In Canada the impostor list skews toward <Link href="/blog/bed-bug-bites">bed bugs</Link>, blackfly bites and ordinary bacterial infection.</p>
 
         <h2>How can you tell a spider bite from other bites?</h2>
@@ -309,6 +332,11 @@ export default function WhatDoesASpiderBiteLookLikePage() {
           <li><strong>Days 3&ndash;7:</strong> In the minority of bites that turn necrotic, the centre darkens to purple-black and forms a dry, sunken scab (eschar), typically 1&ndash;2 cm (about 3/8&ndash;3/4 in) across, occasionally larger.</li>
           <li><strong>Weeks 2&ndash;8:</strong> The scab sloughs to leave a slow-healing open ulcer that can take 6&ndash;8 weeks or longer to close and may scar.</li>
         </ul>
+        <Photo
+          id="brown-recluse-bite-necrosis"
+          alt="Round patch of dark, damaged skin on a patient's calf four months after a brown recluse spider bite"
+          caption="Localized tissue damage (necrosis) on the skin of a patient's calf four months after a brown recluse spider bite. Only a minority of recluse bites progress to damage like this; most verified recluse bites heal uneventfully."
+        />
         <p>Three hedges matter enormously here. First, <strong>range</strong>: brown recluse spiders occupy a limited region of central and southern North America; across the rest of the continent, established populations are rare to absent, and studies have documented far more &ldquo;recluse bite&rdquo; diagnoses than recluse spiders in such areas. Second, <strong>identification</strong>: the famous violin marking is faint, variable, and mimicked by harmless species &mdash; the more reliable trait, six eyes in three pairs rather than the usual eight, is not something most people can check. Third, <strong>diagnosis</strong>: no lab test confirms a recluse bite, and clinicians cannot reliably diagnose one from the wound alone. A dark, ulcerating sore &mdash; especially outside recluse range &mdash; is statistically far more likely to be an infection, and either way it needs medical assessment, not home treatment.</p>
 
         <h2>What does a black widow bite look like?</h2>
@@ -320,9 +348,19 @@ export default function WhatDoesASpiderBiteLookLikePage() {
           <li>In more pronounced cases: tremors, weakness, and difficulty breathing.</li>
         </ul>
         <p>Adult female widows are glossy black with a red hourglass under a body about 1.5 cm (roughly 1/2 in) long &mdash; leg span up to about 4 cm (1.5 in) &mdash; and bite almost exclusively when pressed against skin. Deaths are extremely rare with modern medical care, but the cramping-after-a-pinprick pattern is a clear signal to <strong>seek medical care promptly</strong> rather than wait at home; antivenom and effective pain management exist, and children, older adults, and pregnant people warrant the most caution.</p>
+        <Photo
+          id="black-widow"
+          alt="Glossy black female black widow spider hanging under a branch, with a red hourglass marking on her abdomen"
+          caption="A female black widow spider, Latrodectus mactans, spinning her web on a tree branch, with the red hourglass marking on her abdomen. Glossy black spiders with any red marking get called widows constantly, so have a spider that matters identified by someone qualified."
+        />
 
         <h2>Which spiders actually bite in the United States?</h2>
         <p>Only two groups are medically significant in the United States under CDC guidance: <strong>widow spiders</strong> and the <strong>brown recluse</strong>. Americans are far more likely to be bitten by a wolf spider, yellow sac spider, jumping spider, hobo spider or a tarantula &mdash; all of which cause a painful but self-limited local reaction, not a dangerous one.</p>
+        <Photo
+          id="wolf-spider"
+          alt="Brown wolf spider carrying a mass of spiderlings on its back"
+          caption="A wolf spider, Tigrosa helluo, carrying spiderlings on its back. Wolf spiders are big enough that their bite hurts, but they are not among the spiders the CDC flags as medically significant."
+        />
         <p>That distinction gets lost because the two famous spiders absorb all the attention while the common ones do most of the biting. Here is the wider field, with where each one lives on both sides of the border:</p>
         <div className="overflow-x-auto not-prose my-6">
           <table className="min-w-[720px] w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden">

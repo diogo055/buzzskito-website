@@ -8,7 +8,9 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import Figure from '@/components/Figure'
+import Photo from '@/components/Photo'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { shareImage } from '@/lib/photos'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import RelatedProducts from '@/components/RelatedProducts'
@@ -18,7 +20,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bugs-that-look-like-ticks'
 const DATE = '2026-04-26'
-const UPDATED = '2026-10-08'
+const UPDATED = '2026-10-15'
 const TITLE = '7 Bugs That Look Like Ticks — And Where Each One Turns Up'
 const EXCERPT = 'Bed bugs, spider beetles, weevils, carpet beetles, bat bugs, booklice, and stink bug nymphs — plus poppy seeds and deer-tick vs dog-tick ID. A visual look-alike guide for Ontario homeowners, and why misidentification matters for Lyme disease risk.'
 
@@ -136,6 +138,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('blacklegged-tick-female'),
 })
 
 const AMZ_TAG = tagForSlug('bugs-that-look-like-ticks')
@@ -143,7 +146,7 @@ const AMZ_TAG = tagForSlug('bugs-that-look-like-ticks')
 export default function BugsThatLookLikeTicksPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('blacklegged-tick-female') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Bugs That Look Like Ticks', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -233,6 +236,11 @@ export default function BugsThatLookLikeTicksPage() {
         <p>Almost every common tick look-alike is an insect with 6 legs and antennae. If you see antennae, it is not a tick. If it has wings or wing-cover shells (elytra), it is not a tick. If it runs or jumps, it is not a tick. Use those simple checks before reading any further — they will resolve most cases in seconds.</p>
         <NextUp path="/blog/bugs-that-look-like-ticks" />
         <p>For a closer look at what real Ontario ticks actually look like, see our <Link href="/blog/what-ticks-look-like-ontario" className="text-brand-700 underline">full guide to identifying ticks in Ontario</Link>.</p>
+        <Photo
+          id="blacklegged-tick-female"
+          alt="Adult female blacklegged (deer) tick seen from above, with eight dark legs, no antennae and a reddish-brown body"
+          caption="An adult female blacklegged (deer) tick, Ixodes scapularis, seen from above. Count eight legs and look for antennae: a tick has none, while every insect look-alike on this page does."
+        />
 
         <h2>Tick Look-Alikes at a Glance: The Full Comparison Table</h2>
         <p>The seven bugs most often mistaken for ticks are bed bugs, spider beetles, weevils, carpet beetles, bat bugs, booklice and brown marmorated stink bug nymphs. Every one of them is an insect with 6 legs and visible antennae, and none of them attaches to skin. A tick has 8 legs, no antennae, and stays anchored in one spot once it starts feeding.</p>
@@ -317,6 +325,11 @@ export default function BugsThatLookLikeTicksPage() {
         <h2>1. Bed Bugs</h2>
         <p>A bed bug is an insect with 6 legs and two obvious antennae, and a tick is an arachnid with 8 legs and none. Adult bed bugs are about 5 mm long (roughly 3/16 inch), flat and apple-seed shaped, and they live indoors in mattress seams. Ticks live outdoors on vegetation and attach to skin for hours or days.</p>
         <p>The most common tick look-alike found indoors. Bed bugs (<em>Cimex lectularius</em>) are reddish-brown insects about the size of an apple seed when unfed, and they swell to a darker, balloon-like shape after feeding. Engorged bed bugs and engorged ticks can look very similar at a glance. If the insect turned up in a mattress seam rather than on a trouser leg after a walk, the tick question is probably the wrong one &mdash; our guide to <Link href="/blog/bugs-that-look-like-bed-bugs-canada" className="text-brand-700 underline">bugs commonly mistaken for bed bugs in Canada</Link> runs the same elimination process across the nine indoor look-alikes.</p>
+        <Photo
+          id="bed-bug-adult-ruler"
+          alt="Bed bug, a common bug that looks like a tick, seen from above beside a millimetre scale, with two antennae and a flat oval body"
+          caption="An adult bed bug, Cimex lectularius, seen from above beside a millimetre scale: oval, flat and about 5 mm long, the average for an adult. The two antennae at the front rule out a tick, which has none."
+        />
 
         <h3>How to tell them apart</h3>
         <ul>
@@ -344,6 +357,11 @@ export default function BugsThatLookLikeTicksPage() {
         <h2>3. Spider Beetles</h2>
         <p>A spider beetle has 6 legs and long antennae, often longer than its own body, and a tick has 8 legs and no antennae at all. Spider beetles measure 1.5&ndash;4 mm (up to about 1/8 inch), carry a hard shiny shell with a narrow neck-like waist, and run quickly. Ticks are soft-bodied, have no waist, and crawl slowly.</p>
         <p>Spider beetles (<em>Ptinidae</em> family, especially the American spider beetle and shiny spider beetle) are one of the most convincing tick look-alikes. They are 1.5–4 mm long, reddish-brown to dark brown, with a humped, oval body and long legs that give them a vaguely spider-like silhouette. Found in homes, especially older ones, near stored food, attics, basements, and old bird nests.</p>
+        <Photo
+          id="spider-beetle"
+          alt="Spider beetle, a beetle that looks like a tick, with a shiny rounded reddish-brown body, six legs and long antennae"
+          caption="A spider beetle, Gibbium psylloides (family Ptinidae), a scavenger found mainly in old houses. Count six legs and two long antennae, where a tick has eight legs and no antennae."
+        />
 
         <h3>How to tell them apart</h3>
         <ul>
@@ -382,6 +400,11 @@ export default function BugsThatLookLikeTicksPage() {
         <h2>6. Carpet Beetles</h2>
         <p>A carpet beetle is an insect 2&ndash;4 mm long (about 1/8 inch) with 6 legs, short clubbed antennae and a hard mottled shell, and it can fly. An unfed adult tick is 3&ndash;5 mm long, has 8 legs, has no antennae and cannot fly at all. Carpet beetles collect on windowsills and baseboards; ticks are found on skin, pets or vegetation.</p>
         <p>Carpet beetles (family <em>Dermestidae</em>) are one of the most common &ldquo;is this a tick?&rdquo; finds indoors. Adults are only 2&ndash;4 mm, rounded and domed, and patterned with black, white, and orange scales — a shape and size that reads as a small unfed tick on a windowsill or baseboard. They are also the single most common bed-bug misidentification, so if you are finding them repeatedly rather than once, <Link href="/blog/how-to-get-rid-of-carpet-beetles-canada" className="text-brand-700 underline">how to get rid of carpet beetles in Canada</Link> covers the larvae doing the actual damage.</p>
+        <Photo
+          id="carpet-beetle"
+          alt="Adult carpet beetle beside a 1 mm scale bar, its rounded shell mottled with black, white and orange scales"
+          caption="An adult carpet beetle, Anthrenus verbasci, beside a 1 mm scale bar. A rounded shell mottled with black, white and orange scales means carpet beetle, not tick."
+        />
 
         <h3>How to tell them apart</h3>
         <ul>
@@ -416,6 +439,11 @@ export default function BugsThatLookLikeTicksPage() {
         <h2>Is It a Poppy Seed, a Sesame Seed, or a Tick?</h2>
         <p>Legs and grip settle it. A poppy or sesame seed has no legs, does not move and brushes straight off, while a nymph tick of the same size has 8 legs and holds on. The Centers for Disease Control and Prevention describes blacklegged tick nymphs as roughly poppy-seed sized, under 2 mm across (about 1/16 inch).</p>
         <p>This is one of the most-searched tick questions, and for good reason: an unfed blacklegged (deer) tick nymph really is about the size and colour of a poppy seed, and a well-fed one resembles a sesame seed. People routinely spot a dark speck on their skin or scalp and cannot tell whether it is a seed, a fleck of dirt, or a tick.</p>
+        <Photo
+          id="blacklegged-tick-nymph-fingernail"
+          alt="Poppy-seed-sized blacklegged tick nymph crawling beside a person’s fingernail"
+          caption="A blacklegged tick nymph, Ixodes scapularis, crawling beside a person’s fingernail. A seed this size has no legs and brushes off; a nymph has eight legs and grips the skin."
+        />
         <p>The test is quick. A <strong>poppy or sesame seed has no legs, does not move, and brushes off easily.</strong> A <strong>nymph tick that size has 8 legs, grips the skin, and stays put</strong> when you try to wipe it away. If the &ldquo;seed&rdquo; has legs or will not brush off, treat it as a tick, remove it carefully, and save it. A pointed tick-removal tool or fine-tipped tweezers grips a poppy-seed-sized nymph far better than fingernails do &mdash; <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">check tick-removal tools on Amazon.ca &rarr;</BuyLink> When you are unsure, our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick removal tool guide</Link> walks through the right tools and technique.</p>
 
         <TopPick tag={AMZ_TAG}
@@ -436,6 +464,11 @@ export default function BugsThatLookLikeTicksPage() {
         <h2>What Look-Alikes Also Have 8 Legs?</h2>
         <p>Not every 8-legged look-alike is a tick. Clover mites, spider mites, harvestmen (daddy longlegs) and young spiders are all arachnids with 8 legs and no antennae, exactly like ticks. Size, leg length and behaviour separate them, because a tick is the only one of the group that anchors itself to skin and feeds on blood.</p>
         <p>A clover mite is a moving reddish speck smaller than a pinhead, under 1 mm across, with one pair of front legs noticeably longer than the rest; Penn State Extension notes that clover mites leave a red stain when crushed, which no tick does. Harvestmen and spiders have long, obviously jointed legs and a visible waist between two body sections, while a tick has short legs held close to a single flattened, teardrop-shaped body. Spiders and harvestmen also move quickly and drop on silk or run for cover, whereas a tick climbs slowly and waits with its front legs outstretched.</p>
+        <Photo
+          id="clover-mite"
+          alt="Tiny reddish-brown mite with eight legs, magnified under a digital microscope"
+          caption="A mite its photographer identified as a clover mite, Bryobia praetiosa, viewed under a digital microscope. It has eight legs like a tick, but a clover mite is a speck under 1 mm across, with front legs noticeably longer than the rest."
+        />
         <p>The reddish specks are the version of this question that comes up most, because clover mites arrive in numbers rather than one at a time and a scatter of them across a sunny windowsill or a warm patio slab genuinely reads as &ldquo;tiny red ticks&rdquo; at arm&rsquo;s length. If that is what you are looking at, our guide to <Link href="/blog/red-ticks-and-clover-mites" className="text-brand-700 underline">red ticks and clover mites</Link> covers what the red specks actually are, why they show up in spring and autumn, and how to clear them without staining the paint.</p>
 
         <h2>The Most Important Comparison: Deer Tick vs Dog Tick</h2>

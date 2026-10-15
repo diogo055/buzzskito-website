@@ -23,13 +23,15 @@ import { useCallback, useEffect, useRef, useState } from 'react'
  */
 
 export default function FigureZoom({
-  src, alt, width, height, priority = false,
+  src, alt, width, height, priority = false, unoptimized = false,
 }: {
   src: string
   alt: string
   width: number
   height: number
   priority?: boolean
+  /** Photos in /guides/photos are pre-sized WebP: serve the file as it is, no image optimizer. */
+  unoptimized?: boolean
 }) {
   const [open, setOpen] = useState(false)
   const closeRef = useRef<HTMLButtonElement>(null)
@@ -65,6 +67,7 @@ export default function FigureZoom({
           height={height}
           priority={priority}
           loading={priority ? undefined : 'lazy'}
+          unoptimized={unoptimized}
           sizes="(max-width: 768px) 100vw, 720px"
           className="w-full h-auto"
         />

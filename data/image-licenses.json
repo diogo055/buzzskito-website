@@ -1,6 +1,7 @@
 {
   "policy": {
     "rule": "Every image on this site MUST have a row here before it ships. An unlicensed medical or identification image is a legal problem, not a style problem.",
+    "photographs": "Photographs (public/guides/photos/*.webp) are recorded in data/god-build/photos.json instead: source page, licence, required credit, size and the checksum of the original, written by scripts/god-build-photos.mjs. Pages place them with <Photo id> (components/Photo.tsx) or a guide figure block, which render the credit and licence from that record; npm run check:photos fails the build if a photo is used or stored without one.",
     "never": [
       "Use an image to depict a condition it does not actually show.",
       "Hotlink. Download, optimise, self-host.",

@@ -27,6 +27,14 @@ const ARTICLES_EXTENDED_OCT8 = new Set([
   'mosquito-facts', 'do-ticks-fly-or-jump', 'bugs-that-look-like-ticks', 'how-to-get-rid-of-mosquitoes-in-the-house',
   'can-mosquitoes-bite-through-clothes', 'bed-bug-bites',
 ])
+// Oct 15, 2026: nine identification articles gained real, credited photographs (their first),
+// and /lyme-disease-canada-statistics was corrected to PHAC's current series (2024 = 5,809,
+// preliminary 2025 = 7,105).
+const UPDATED_OCT15 = '2026-10-15T12:00:00.000Z'
+const ARTICLES_PHOTOS_OCT15 = new Set([
+  'mosquito-larvae-identification', 'red-ticks-and-clover-mites', 'tick-vs-bed-bug', 'tick-bite-vs-mosquito-bite',
+  'what-does-a-spider-bite-look-like', 'bugs-that-look-like-ticks', 'no-see-um-bites', 'chigger-bites', 'how-long-do-ticks-live',
+])
 
 // Static lastModified date — update this only when making real content changes.
 // Using new Date() on every request makes Google distrust the lastmod signal.
@@ -56,7 +64,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/west-nile-virus-ontario-tracker`,   lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${SITE_URL}/deadliest-animal-in-canada`,        lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${SITE_URL}/pest-control-cost-canada`,          lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${SITE_URL}/lyme-disease-canada-statistics`,    lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${SITE_URL}/lyme-disease-canada-statistics`,    lastModified: UPDATED_OCT15, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${SITE_URL}/estate-property-mosquito-control`,         lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${SITE_URL}/pool-backyard-mosquito-control`,           lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${SITE_URL}/hoa-condo-community-mosquito-control`,     lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'monthly', priority: 0.9 },
@@ -301,7 +309,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add blog posts from constants
   const blogPosts: MetadataRoute.Sitemap = allBlogArrays.map((post) => ({
     url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: ARTICLES_EXTENDED_OCT8.has(post.slug) ? HUBS_UPDATED_OCT8 : new Date(post.date).toISOString(),
+    lastModified: ARTICLES_PHOTOS_OCT15.has(post.slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(post.slug) ? HUBS_UPDATED_OCT8 : new Date(post.date).toISOString(),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }))
@@ -343,7 +351,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter(slug => !registeredSlugs.has(slug))
     .map((slug) => ({
       url: `${SITE_URL}/blog/${slug}`,
-      lastModified: ARTICLES_EXTENDED_OCT8.has(slug) ? HUBS_UPDATED_OCT8 : LAST_CONTENT_UPDATE,
+      lastModified: ARTICLES_PHOTOS_OCT15.has(slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(slug) ? HUBS_UPDATED_OCT8 : LAST_CONTENT_UPDATE,
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     }))

@@ -7,6 +7,8 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import Figure from '@/components/Figure'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -15,9 +17,12 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'no-see-um-bites'
 const DATE = '2026-07-19'
-const UPDATED = '2026-07-19'
+const UPDATED = '2026-10-15'
 const TITLE = 'No-See-Um Bites: What They Look Like, How Long They Last & How to Treat Them'
-const META_TITLE = 'No-See-Um Bites in Canada: Look & How Long'
+// TITLE NOTE (Oct 15 2026): was 'No-See-Um Bites in Canada: Look & How Long'. US searchers are
+// 61% of the US + Canadian impressions for no-see-um searches (9,620 of 15,651 in 90 days); the page now has
+// real photos of the midge and its bites. 44 chars; 56 rendered.
+const META_TITLE = 'No-See-Um Bites: Photos & How Long They Last'
 
 const FAQS = [
   {
@@ -101,6 +106,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('biting-midge-bites-ankles'),
 })
 
 const AMZ_TAG = tagForSlug('no-see-um-bites')
@@ -108,7 +114,7 @@ const AMZ_TAG = tagForSlug('no-see-um-bites')
 export default function NoSeeUmBitesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A bite-identification guide to what no-see-um (biting midge) bites look like, why they itch so intensely, how they compare to mosquito, flea, and chigger bites, and how to treat and prevent them.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A bite-identification guide to what no-see-um (biting midge) bites look like, why they itch so intensely, how they compare to mosquito, flea, and chigger bites, and how to treat and prevent them.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('biting-midge-bites-ankles') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'No-See-Um Bites', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -195,6 +201,11 @@ export default function NoSeeUmBitesPage() {
           <li><strong>Clusters on exposed skin</strong> &mdash; ankles, feet, wrists, the neck, and the hairline are classic targets.</li>
           <li><strong>Sometimes small fluid-filled blisters</strong> or hard, persistent welts in people who react strongly.</li>
         </ul>
+        <Photo
+          id="biting-midge-bites-ankles"
+          alt="No-see-um bites on a man's ankles: red bumps above his rolled-down socks"
+          caption="A man's ankles, socks rolled down, showing red bumps left by biting midges (no-see-ums), photographed in Costa Rica. Look for the pattern: several bites around the ankles, one of the classic targets, rather than one isolated bump."
+        />
         <p>Reactions vary widely from person to person. One person might get a barely visible mark while a companion standing beside them develops a spray of intensely itchy welts &mdash; the difference is largely individual immune sensitivity to the midge&rsquo;s saliva, not how many times each person was bitten.</p>
 
         <NextUp path="/blog/no-see-um-bites" />
@@ -202,6 +213,11 @@ export default function NoSeeUmBitesPage() {
         <p>A single noseeum bite is small &mdash; a red dot roughly <strong>1/8 inch (about 3 mm) across</strong> that rises into a firm welt. The giveaway is the grouping: because midges feed in swarms, a dozen bites landing within minutes merge into a <strong>red, blotchy patch one to two inches wide</strong> on exposed skin.</p>
         <p>That patch is what people photograph and mistake for a rash or an allergic breakout. Look closely and it resolves into many separate pinpoint bites rather than one continuous inflamed area &mdash; a useful check, because a true rash spreads as a sheet while a midge patch stays as countable dots with normal skin between them.</p>
         <p>You will also see the insect&rsquo;s name spelled several ways. <strong>No-see-um</strong>, <strong>noseeum</strong>, and <strong>no see um</strong> all describe the same animal: a biting midge in the family <em>Ceratopogonidae</em>, most often the genus <em>Culicoides</em>.</p>
+        <Photo
+          id="biting-midge-on-skin"
+          alt="A tiny no-see-um (biting midge) on human skin among the hairs"
+          caption="A biting midge on human skin. Look at its size next to the hairs: at only about 1 to 3 mm long, a no-see-um is often felt long before it is seen."
+        />
 
         <h3>Sand fly, sand flea, punkie &mdash; which of these actually mean &ldquo;no-see-um&rdquo;?</h3>
         <p>Regional nicknames cause real confusion, and two of them point at completely different animals:</p>
@@ -240,6 +256,11 @@ export default function NoSeeUmBitesPage() {
           </table>
         </div>
         <p>The single most useful tell for no-see-ums is the combination of a <strong>burning first sting, tight clusters on exposed skin, and being outdoors near water at dawn or dusk</strong>. For a full breakdown of the two most-confused everyday bites, our companion guide compares <Link href="/blog/no-see-ums-biting-midges-ontario">no-see-um and mosquito bites</Link> in more detail.</p>
+        <Photo
+          id="mosquito-bite-welts"
+          alt="Two mosquito bites on a leg: round, pink, raised welts spread apart"
+          caption="Two mosquito bites on a leg, photographed and described by the person who was bitten. Compare them with the no-see-um bites above: a mosquito leaves single puffy raised bumps, one or a few spread out, not a tight cluster."
+        />
         <p>One biter is easy to rule out on pain alone. A horse fly or deer fly slices the skin with blade-like mouthparts instead of piercing it, so the bite lands as a single hard sting that often bleeds and raises one large welt rather than a patch of small ones &mdash; and the <Link href="/blog/horse-fly-and-deer-fly-bite-treatment">first aid and healing timeline for tabanid bites</Link> differs accordingly, because you are caring for an open cut.</p>
         <p>The other two columns in that table have their own picture guides. If the marks sit at your sock line or waistband, compare them with <Link href="/blog/chigger-bites">what chigger bites look like and how long they last</Link>; if they are grouped around your ankles and there is a pet in the house, see <Link href="/blog/flea-bites-on-humans">how to tell flea bites on people</Link>.</p>
 

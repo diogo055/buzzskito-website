@@ -6,6 +6,8 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import Figure from '@/components/Figure'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
@@ -15,7 +17,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-larvae-identification'
 const DATE = '2026-04-28'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-10-15'
 const TITLE = 'Mosquito Larvae — Identification, Look-Alikes & Removal'
 
 const FAQS = [
@@ -187,6 +189,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('culex-larvae'),
 })
 
 const AMZ_TAG = tagForSlug('mosquito-larvae-identification')
@@ -243,7 +246,7 @@ const HOWTO_SCHEMA = {
 export default function MosquitoLarvaePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Visual identification and removal guide for mosquito larvae.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Visual identification and removal guide for mosquito larvae.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('culex-larvae') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Larvae', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -370,6 +373,11 @@ export default function MosquitoLarvaePage() {
           <p className="text-base text-gray-800 leading-relaxed mb-5">
             The U.S. Centers for Disease Control and Prevention describes larvae as very active and shedding their skin several times as they grow, so what you scoop out is usually a mix of sizes: freshly hatched larvae are about 1 mm and nearly transparent, while a third instar at 4&ndash;5 mm shows an obvious head, thorax, abdomen and siphon.
           </p>
+          <Photo
+            id="culex-larvae"
+            alt="Four mosquito larvae of increasing size, each head-down with its breathing siphon pointing up"
+            caption="Southern house mosquito (Culex quinquefasciatus) larvae at each of the four larval stages, or instars, smallest on the left. Look for the breathing siphon on the tail, the end that pokes through the surface film while the larva hangs head-down."
+          />
           <ul className="text-base text-gray-800 leading-relaxed mb-4 space-y-2 list-disc pl-5">
             <li><strong>Comma-shaped &ldquo;tumblers&rdquo; that roll instead of wiggling?</strong> Pupae &mdash; the next stage, and they do not feed.</li>
             <li><strong>Lying flat under the surface with no obvious siphon?</strong> Still a mosquito &mdash; <em>Anopheles</em> larvae lie parallel to the surface film.</li>
@@ -468,6 +476,11 @@ export default function MosquitoLarvaePage() {
           <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
             <strong>No &mdash; and this is the most common identification mistake in the United States.</strong> <em>Anopheles</em> larvae have no prominent siphon and lie <strong>flat and parallel</strong> just under the surface film instead of hanging head-down. <em>Anopheles quadrimaculatus</em> is a routine backyard species across the eastern U.S., so a flat-lying larva is still a mosquito larva. <em>Coquillettidia</em> and <em>Mansonia</em> go further still: their modified siphons pierce the stems and roots of cattails and other aquatic plants, so they never come to the surface at all and you will not see them from the bank.
           </p>
+          <Photo
+            id="anopheles-larvae"
+            alt="Four Anopheles mosquito larvae, which have no long breathing siphon on the tail"
+            caption="Four Anopheles quadrimaculatus larvae, which breathe through special organs called spiracles on the abdomen. Compare them with the Culex larvae above: there is no prominent siphon, and in the water they lie flat and parallel just under the surface film instead of hanging head-down."
+          />
           <p className="text-base text-gray-800 leading-relaxed mb-5">
             Which species you are looking at matters for what the adults will do. <strong>In Canada</strong>, <em>Culex pipiens</em> is the mosquito behind most West Nile virus surveillance detections, and Public Health Ontario and the Public Health Agency of Canada both treat eliminating standing water as the first line of defence. <strong>In the United States</strong>, the U.S. Centers for Disease Control and Prevention identifies <em>Culex</em> as the primary West Nile virus vector nationally, and publishes estimated potential range maps for the two container-breeding <em>Aedes</em> species below.
           </p>
@@ -526,6 +539,11 @@ export default function MosquitoLarvaePage() {
           <p className="speakable text-base text-gray-800 leading-relaxed mb-5">
             <strong>Yes, if the container is yours and you do not need the water.</strong> Dumping kills 100% of the larvae instantly, needs no product, and takes seconds. Pour it onto dry lawn, gravel, or a garden bed rather than into another container or a storm drain, then scrub the inside walls &mdash; container-breeding species glue eggs above the waterline, and those eggs hatch when it refills.
           </p>
+          <Photo
+            id="aedes-albopictus-eggs"
+            alt="Mosquito eggs close up: black, cigar-shaped eggs of the Asian tiger mosquito"
+            caption="Elongated, cigar-shaped eggs laid by a female Asian tiger mosquito (Aedes albopictus). The species breeds in containers: look for eggs like these glued to the inside walls above the waterline, where they hatch when the container refills."
+          />
           <p className="text-base text-gray-800 leading-relaxed mb-8">
             Two things people get wrong. First, tipping one container into another just relocates the problem. Second, dumping into a storm drain moves live larvae into catch-basin water that nobody inspects &mdash; in the U.S. that is exactly the water a mosquito abatement district would rather treat than inherit. Empty onto dry ground, scrub, and store the container upside down or under cover so it cannot refill.
           </p>
@@ -693,6 +711,11 @@ export default function MosquitoLarvaePage() {
             <li><strong>Pupa (1–4 days)</strong> — &ldquo;Tumblers.&rdquo; Comma-shaped, don&rsquo;t feed but still in water. Transitioning into adult form.</li>
             <li><strong>Adult</strong> — Emerges from pupa, flies away, mates within 24 hours. Females then seek a blood meal to develop eggs and the cycle repeats.</li>
           </ol>
+          <Photo
+            id="culex-egg-raft"
+            alt="A mosquito egg raft close up: many brown eggs packed together side by side"
+            caption="An egg raft laid by a female southern house mosquito (Culex quinquefasciatus), seen close up. To the naked eye, a raft like this looks like a small speck of dirt or soot on still water."
+          />
           <p>Only about half of the adults emerging from your barrel will ever bite you. The blood meal in step 4 is a female requirement — she needs the protein in it to develop each batch of eggs — while males feed on flower nectar and cannot pierce skin at all. So every wriggler you kill is really about stopping a future egg-laying female: <Link href="/blog/male-vs-female-mosquito">only female mosquitoes bite, and here is why</Link>, including how to tell the two apart by their antennae.</p>
           <NextUp path="/blog/mosquito-larvae-identification" />
           <p>Total egg-to-adult time is about <strong>7–14 days</strong> in typical Ontario summer temperatures. This is why <strong>weekly yard inspection</strong> is the most effective DIY mosquito prevention — you interrupt the cycle before adults emerge.</p>
@@ -799,6 +822,11 @@ export default function MosquitoLarvaePage() {
           <RelatedLinks path="/blog/mosquito-larvae-identification" />
           <h2>Does BTI Kill Mosquito Pupae? (No &mdash; and Here Is What Does)</h2>
           <p><strong>BTI does not kill pupae.</strong> It has to be swallowed to work, and pupae &mdash; the comma-shaped &ldquo;tumblers&rdquo; &mdash; do not feed at all. They are a sealed transitional stage lasting one to four days before the adult flies off. The CDC is explicit on this point: <strong>mineral oils and monomolecular surface films are the only larvicide class that also kills pupae</strong>, because they work physically, by blocking the breathing trumpets at the surface, rather than by being eaten.</p>
+          <Photo
+            id="aedes-aegypti-pupae"
+            alt="Mosquito pupae, or tumblers, hanging comma-shaped from the water surface"
+            caption="Yellow fever mosquito (Aedes aegypti) pupae suspended in standing water, the last stage of the life cycle before the adult. Look for the comma shape: a bulbous head-and-thorax section and a curled tail."
+          />
           <p>So if you look into a rain barrel and see tumblers rolling downward rather than wrigglers darting in an S-shape, the reliable moves are: <strong>dump the water</strong> if you can, or <strong>apply a surface film</strong> if you cannot. A BTI dunk added at that moment is still worth adding &mdash; it will kill the larvae behind the pupae and the next batch of eggs to hatch &mdash; but it will not stop the adults that are already pupating from emerging over the next day or two. This is the one place where &ldquo;treat it with BTI&rdquo; is not sufficient on its own.</p>
           <p>The awkward part is supply. Dunks and bits sit on the end cap of every garden aisle; the surface films and mineral-oil larvicides that actually handle pupae are usually an order-it item rather than a drive-to-the-store one, on both sides of the border. If you have a pond or a cistern that regularly gets to the tumbler stage before you notice, it is worth having one on the shelf before you need it &mdash; and worth reading the label first, since the water types a film is cleared for are narrower than a dunk&rsquo;s. <BuyLink tag={AMZ_TAG} search="mosquito larvicide surface film">check surface-film larvicides on Amazon.ca &rarr;</BuyLink></p>
 

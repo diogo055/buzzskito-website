@@ -14,12 +14,19 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'chigger-bites'
 const DATE = '2026-07-19'
-const UPDATED = '2026-07-19'
+const UPDATED = '2026-10-15'
 const TITLE = 'Chiggers and Chigger Bites: What They Look Like, Whether They Burrow, and How to Treat the Itch'
-const META_TITLE = 'Chigger Bites in Canada: Or Is It a Look-Alike?'
+// TITLE NOTE (Oct 15 2026): was 'Chigger Bites in Canada: Or Is It a Look-Alike?'. 74% of the
+// US + Canadian impressions for chigger searches are US (11,237 of 15,142 in 90 days), where this page sat at
+// position 10.4 against 6.5 in Canada; the geo token was costing the larger market. Country-
+// neutral, and it names what the page now shows (real photos, size, how long bites last).
+// 48 chars; 60 rendered.
+const META_TITLE = 'Chigger Bites: Photos, Size & How Long They Last'
 
 const FAQS = [
   {
@@ -186,6 +193,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('chigger-bites-ruler'),
 })
 
 const AMZ_TAG = tagForSlug('chigger-bites')
@@ -193,7 +201,7 @@ const AMZ_TAG = tagForSlug('chigger-bites')
 export default function ChiggerBitesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'An identification and treatment guide to chigger bites: what the welts look like, where they cluster on the body, how they compare to mosquito and bed bug bites, and how to calm the itch.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'An identification and treatment guide to chigger bites: what the welts look like, where they cluster on the body, how they compare to mosquito and bed bug bites, and how to calm the itch.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('chigger-bites-ruler') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Chigger Bites', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -279,6 +287,11 @@ export default function ChiggerBitesPage() {
 
         <NextUp path="/blog/chigger-bites" />
         <h2>What do chigger bites look like?</h2>
+        <Photo
+          id="chigger-bites-ruler"
+          alt="Three small, raised red chigger bites on an arm beside a ruler"
+          caption="Three chigger bites on a patient's arm about 10 days after the bites, shown beside a ruler: red welts with a blister-like look, each about 3 to 4 mm across. On the body, look for clusters of welts like these where clothing presses against skin, such as the sock line or waistband."
+        />
         <p>Chigger bites usually appear as <strong>clusters of small red welts, pimple-like bumps, or hive-like patches</strong>, each often 1&ndash;10 mm (up to about 3/8 in) across, sometimes with a tiny central blister or a bright red dot &mdash; the stylostome &mdash; at the middle. Because the larvae wander until something stops them, the distribution on your body is the single best identification clue. Chiggers pile up where clothing presses against skin or where skin touches skin:</p>
         <ul>
           <li><strong>Ankles and sock lines</strong> &mdash; the classic location, since larvae climb aboard from grass at ground level.</li>
@@ -319,6 +332,11 @@ export default function ChiggerBitesPage() {
         <h2>How big are chiggers, and can you see them?</h2>
         <p>A chigger larva is 0.15&ndash;0.3 mm long &mdash; smaller than a grain of table salt, and about 70 of them end to end would span a thumbnail. You can occasionally see them as reddish-orange specks moving on pale skin, particularly in a cluster, but most people never spot one before it drops off.</p>
         <p>For calibration: a credit card is about 0.76 mm thick, so three chigger larvae stacked would still not match it. That is why a magnifying glass, good light, and pale skin are the only realistic way to see one &mdash; and why so many people conclude the biter must be invisible or under the skin.</p>
+        <Photo
+          id="chigger-and-pinhead"
+          alt="Black-and-white close-up of an adult chigger and a much smaller larval chigger, both labelled, on the head of a pin"
+          caption="An adult chigger (left) and a larval chigger (the tiny speck at right) on the head of a pin. The six-legged larva is the only stage that feeds on people, and it is effectively invisible on skin without magnification."
+        />
         <h3>The six-legs versus eight-legs test</h3>
         <p>If you do catch a mite, count its legs. It is the quickest way to know whether you are looking at the thing that bit you:</p>
         <ul>
@@ -350,6 +368,16 @@ export default function ChiggerBitesPage() {
             </tbody>
           </table>
         </div>
+        <Photo
+          id="mosquito-bite-welts"
+          alt="Two puffy, pinkish mosquito bite welts on a leg"
+          caption="Two mosquito bites on a leg. Mosquito bites are puffy, raised welts on exposed skin that itch within minutes and are scattered at random, not clustered at clothing lines."
+        />
+        <Photo
+          id="bed-bug-bites-forearm"
+          alt="Several raised red bed bug bites in small groups on a forearm"
+          caption="Bed bug bites on a forearm. They turn up on skin left uncovered in bed, with new bites most mornings."
+        />
         <p>Two more lookalikes are worth ruling out. <Link href="/blog/flea-bites-on-humans">Flea bites</Link> also cluster at the ankles but come from an indoor source (usually a pet) and continue appearing without any time outdoors. <Link href="/blog/no-see-um-bites">No-see-um bites</Link> come from a biting midge you also cannot see, but they hit exposed skin at dusk rather than under your waistband. And if the bites keep arriving overnight, work through our <Link href="/blog/bed-bug-bites">bed bug bites guide</Link> &mdash; the response to bed bugs is completely different and time-sensitive.</p>
 
         <h2>What could be mistaken for chigger bites?</h2>
@@ -378,6 +406,11 @@ export default function ChiggerBitesPage() {
         </div>
         <h3>Chigger bites vs flea bites &mdash; the closest call</h3>
         <p>This is the pair worth slowing down on, because both land on the ankles and both itch out of proportion to their size. Three things separate them. <strong>Distribution above the ankle:</strong> fleas rarely get past the lower legs, while chiggers keep climbing to the waistband, underwear line, and armpits. <strong>Persistence:</strong> a chigger crop appears once after one outdoor exposure and then stops; flea bites keep arriving day after day because the source is living in the house. <strong>Corroborating evidence:</strong> a pet scratching, and gritty black &ldquo;flea dirt&rdquo; in pet bedding, settle it immediately. Our <Link href="/blog/flea-bites-on-humans">flea bites on humans guide</Link> walks the indoor checklist; if the bites are arriving overnight instead, use the <Link href="/blog/bed-bug-bites">bed bug bites guide</Link>.</p>
+        <Photo
+          id="flea-bites-lower-leg"
+          alt="Many small red flea bite spots on a person's lower leg"
+          caption="Flea bites on a person's lower leg. Fleas rarely get past the lower legs, and their bites keep arriving day after day because the source is living in the house."
+        />
 
         <h2>How long do chigger bites last?</h2>
         <p>Most chigger bites <strong>itch hardest for the first 24&ndash;48 hours and heal within 1&ndash;2 weeks</strong>. Bites that trigger a stronger immune response, and bites scratched open, can take up to 3 weeks to settle fully. The stylostome &mdash; the feeding tube the larva leaves behind &mdash; keeps provoking the immune system until the skin breaks it down, which is why chigger bites outlast a typical mosquito welt many times over.</p>

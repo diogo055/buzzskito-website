@@ -11,8 +11,10 @@ export function buildMetadata(opts: {
   type?: 'website' | 'article'
   publishedTime?: string
   modifiedTime?: string
+  /** A real photo for the share card, from shareImage() in lib/photos.ts. Default: the sitewide og-image.jpg. */
+  image?: { url: string; width: number; height: number; alt: string }
 }): Metadata {
-  const { title, description, canonical, noIndex, type = 'website', publishedTime, modifiedTime } = opts
+  const { title, description, canonical, noIndex, type = 'website', publishedTime, modifiedTime, image } = opts
   const url = `${SITE_URL}${canonical}`
   return {
     title,
@@ -25,7 +27,7 @@ export function buildMetadata(opts: {
       siteName: BUSINESS.name,
       locale: 'en_CA',
       type,
-      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: title }],
+      images: [image ?? { url: '/og-image.jpg', width: 1200, height: 630, alt: title }],
       ...(publishedTime && { publishedTime }),
       ...(modifiedTime && { modifiedTime }),
     },
@@ -287,6 +289,8 @@ export function blogPostingSchema(opts: {
   slug: string
   datePublished: string
   dateModified?: string
+  /** The page's lead photo, from shareImage() in lib/photos.ts. Default: the sitewide og-image.jpg. */
+  image?: { url: string; width: number; height: number }
 }) {
   return {
     '@context': 'https://schema.org',
@@ -317,7 +321,9 @@ export function blogPostingSchema(opts: {
       url: SITE_URL,
       logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo.png` },
     },
-    image: { '@type': 'ImageObject', url: `${SITE_URL}/og-image.jpg` },
+    image: opts.image
+      ? { '@type': 'ImageObject', url: `${SITE_URL}${opts.image.url}`, width: opts.image.width, height: opts.image.height }
+      : { '@type': 'ImageObject', url: `${SITE_URL}/og-image.jpg` },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/blog/${opts.slug}` },
     inLanguage: 'en-CA',
     about: { '@type': 'Thing', name: 'Pest Control' },

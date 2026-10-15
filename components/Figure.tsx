@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import FigureZoom from './FigureZoom'
 
 /**
@@ -40,12 +41,24 @@ type Props = {
   priority?: boolean
   /** Absolute site URL, used for ImageObject schema. */
   siteUrl?: string
+  /**
+   * The licence a third-party photo is used under, shown after the credit and linked when it
+   * has a deed (CC BY asks for a link to the licence). In the schema it becomes `license`, and
+   * creditHref becomes `acquireLicensePage`. Set by <Photo>; omit for original diagrams.
+   */
+  license?: { name: string; href?: string }
+  /** Serve the file as it is (pre-sized WebP photos), skipping the image optimizer. */
+  unoptimized?: boolean
+  /** A caption that needs links or emphasis. Rendered instead of `caption`, which stays the schema text. */
+  captionNode?: ReactNode
 }
 
 export default function Figure({
   src, alt, caption, width, height, credit, creditHref, priority = false,
-  siteUrl = 'https://buzzskito.ca',
+  siteUrl = 'https://buzzskito.ca', license, unoptimized = false, captionNode,
 }: Props) {
+  // A portrait photo at full column width is taller than a phone screen: keep it narrower.
+  const portrait = height > width * 1.1
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'ImageObject',
@@ -56,20 +69,22 @@ export default function Figure({
     width,
     height,
     ...(credit
-      ? { creditText: credit, ...(creditHref && { license: creditHref }) }
+      ? license
+        ? { creditText: credit, ...(license.href && { license: license.href }), ...(creditHref && { acquireLicensePage: creditHref }) }
+        : { creditText: credit, ...(creditHref && { license: creditHref }) }
       : { creator: { '@type': 'Organization', '@id': `${siteUrl}/#organization` } }),
   }
 
   return (
-    <figure className="not-prose my-8">
+    <figure className={portrait ? 'not-prose my-8 mx-auto max-w-sm' : 'not-prose my-8'}>
       <div className="rounded-xl border border-navy-100 bg-white overflow-hidden">
-        <FigureZoom src={src} alt={alt} width={width} height={height} priority={priority} />
+        <FigureZoom src={src} alt={alt} width={width} height={height} priority={priority} unoptimized={unoptimized} />
       </div>
       <figcaption className="mt-2 text-sm text-gray-600 leading-relaxed">
-        {caption}
+        {captionNode ?? caption}
         {credit && (
           <span className="block mt-1 text-xs text-gray-500">
-            Image:{' '}
+            {license ? 'Photo' : 'Image'}:{' '}
             {creditHref ? (
               <a href={creditHref} rel="nofollow noopener noreferrer" target="_blank" className="underline hover:text-gray-700">
                 {credit}
@@ -77,6 +92,11 @@ export default function Figure({
             ) : (
               credit
             )}
+            {license && (license.href ? (
+              <>, <a href={license.href} rel="license nofollow noopener noreferrer" target="_blank" className="underline hover:text-gray-700">{license.name}</a></>
+            ) : (
+              <>, {license.name}</>
+            ))}
           </span>
         )}
       </figcaption>
