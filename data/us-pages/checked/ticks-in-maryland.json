@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-maryland",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "89791400e9bfae4599642c45a022b3f5211a42b999a4fd693b85375527c847ad",
+ "claimsChecked": 480,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-15"
+}
