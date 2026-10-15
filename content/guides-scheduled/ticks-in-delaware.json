@@ -1,0 +1,845 @@
+{
+  "slug": "ticks-in-delaware",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in delaware",
+  "alsoTargets": [
+    "types of ticks in delaware",
+    "tick season delaware",
+    "lyme disease delaware"
+  ],
+  "metaTitle": "Ticks in Delaware: Types, Lyme Data and Season",
+  "metaDescription": "Lone star ticks are Delaware's most common, and deer ticks are established in all three counties. Tick photos, Lyme data by county, season and ID help.",
+  "h1": "Ticks in Delaware: Species, Where They Are, Disease Data and Tick Season",
+  "dek": "Which ticks Delawareans meet most, where lone star and blacklegged ticks are established, how much Lyme disease and ehrlichiosis each county reports, when each tick is active, and how to get a tick identified.",
+  "breadcrumb": "Ticks in Delaware",
+  "excerpt": "Lone star ticks are Delaware's most common, and deer ticks are established in all three counties. Species photos, Lyme rates by county, tick season and ID help.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**Delaware has 19 identified tick species, and most human bites come from a handful of them, including the lone star, blacklegged (deer) and American dog ticks.** The lone star tick is the most common, and the blacklegged tick, which spreads Lyme disease, is established in all three counties. Delaware reported 349 Lyme cases in 2023, according to [CDC surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html).",
+    "bullets": [
+      "CDC's county table, which runs through December 2025, lists blacklegged ticks as established in all three counties; the state's 2025 tick checklist describes lone star ticks as abundant statewide and densest in Kent and Sussex.",
+      "Relative to population, New Castle County had the highest Lyme rate in 2023, about 35 cases per 100,000 residents by our calculation, ahead of Sussex (about 30) and Kent (about 23).",
+      "The state counted 344 Lyme cases in 2024 and more than 350 in 2025; CDC's published state figures run through 2023 as of October 2026.",
+      "Ehrlichiosis, spread by lone star ticks, was Delaware's second most common tick-borne disease in 2023, and the state's *E. chaffeensis* rate that year was the fifth-highest of any state, by our ranking of CDC's figures.",
+      "In the state tick program's collections, deer tick and lone star tick nymphs are most numerous from May through July, while adult deer ticks peak in November and March.",
+      "As of October 2026, DNREC identifies ticks from photos sent through its online form, but the state does not test ticks for germs."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Delaware at a glance",
+    "rows": [
+      [
+        "Tick species identified",
+        "19, most of little concern to people (state release, April 2026); 15 established hard ticks in the state's 2025 checklist"
+      ],
+      [
+        "Most common tick",
+        "Lone star tick; 69.7% of the Delaware ticks sent to a university testing lab, 2008 to 2020"
+      ],
+      [
+        "Counties with established blacklegged ticks",
+        "3 of 3 (CDC ArboNET Tick Module, through December 2025)"
+      ],
+      [
+        "Lone star tick",
+        "Established in Kent and Sussex, reported in New Castle (CDC ArboNET Tick Module, through 2025); abundant in all three counties (state checklist, 2025)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "349 in 2023 (CDC); 344 in 2024 and more than 350 in 2025 (state counts)"
+      ],
+      [
+        "Lyme rate",
+        "34.7 per 100,000 in 2023 (CDC), 14th among states by our ranking"
+      ],
+      [
+        "Highest county Lyme rate, 2023",
+        "New Castle, about 34.9 per 100,000 (203 cases; BuzzSkito's calculation from CDC and Census data)"
+      ],
+      [
+        "Deer ticks carrying the Lyme germ",
+        "30.2% of 500 tested statewide: 37.7% of adults, 13.9% of nymphs (2025 study)"
+      ],
+      [
+        "Ehrlichiosis",
+        "26 cases in 2024 (state count); Sussex residents accounted for 48 of 71 *E. chaffeensis* cases in 2019 to 2022 (CDC)"
+      ],
+      [
+        "Alpha-gal syndrome",
+        "119 cases reported in 2024, the year it became reportable (DNREC; state release)"
+      ],
+      [
+        "Tick season",
+        "Year-round; tick-bite emergency visits peaked in late May in 2023, with a smaller rise in November"
+      ],
+      [
+        "Tick identification",
+        "From photos, through DNREC's online form; the state does not test ticks for germs (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Delaware?"
+    },
+    {
+      "type": "p",
+      "text": "Nineteen tick species have been identified in Delaware, most of little concern to people, the state's environment and health departments said in [their April 2026 tick-season release](https://news.delaware.gov/2026/04/27/dnrec-dph-call-for-heightened-tick-awareness-in-delaware/); a handful, including the blacklegged, lone star and American dog ticks, account for most human bites. The state tick program's [2025 checklist of Delaware ticks](https://pmc.ncbi.nlm.nih.gov/articles/PMC12271736), published in the *Journal of Medical Entomology*, lists 15 established hard tick species, plus two hard ticks and two soft ticks not yet confirmed as established."
+    },
+    {
+      "type": "p",
+      "text": "It was the first statewide checklist since 1945, when the American dog tick was considered the only significant tick threat to people in Delaware. The authors now name four species of considerable medical concern: the blacklegged, lone star, American dog and Gulf Coast ticks."
+    },
+    {
+      "type": "p",
+      "text": "The Delaware Department of Natural Resources and Environmental Control (DNREC), which runs the state's tick program, [describes five common species](https://dnrec.delaware.gov/fish-wildlife/ticks/of-delaware/) and calls the lone star tick the most common, especially in Kent and Sussex counties."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where DNREC says it lives",
+        "When people meet it",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Many habitats; most common in Kent and Sussex",
+          "Spring, summer and early fall",
+          "Ehrlichiosis, tularemia; linked to alpha-gal syndrome (meat allergy)"
+        ],
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Forests and wooded edges statewide",
+          "Adults fall to early spring; nymphs late spring and early summer",
+          "Lyme disease, anaplasmosis, babesiosis, Powassan virus, *Borrelia miyamotoi* relapsing fever"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Meadows and tall grass",
+          "Late spring and summer; only adults bite people",
+          "Rocky Mountain spotted fever, tularemia"
+        ],
+        [
+          "Gulf Coast tick, *Amblyomma maculatum*",
+          "Meadows and wetlands",
+          "Late spring and summer",
+          "Tidewater spotted fever (*Rickettsia parkeri*)"
+        ],
+        [
+          "Asian longhorned tick, *Haemaphysalis longicornis*",
+          "Many habitats in New Castle and Kent",
+          "Spring and summer; bites people infrequently",
+          "No medical condition in the US to date, DNREC says"
+        ]
+      ],
+      "caption": "Habitats and seasons: [DNREC's species page](https://dnrec.delaware.gov/fish-wildlife/ticks/of-delaware/); diseases: [DNREC's tick disease page](https://dnrec.delaware.gov/fish-wildlife/ticks/diseases/), both read in October 2026."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick, with the single pale spot that gives the species its name. DNREC calls it the most common tick in Delaware.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "Each count cited here puts the lone star tick first. A [2021 Delaware Journal of Public Health article](https://pmc.ncbi.nlm.nih.gov/articles/PMC8352541) by the state's tick biologist and a state epidemiologist reported that lone star ticks made up 69.7% of the Delaware ticks sent to a University of Massachusetts testing lab from January 2008 to September 2020 and 62.3% of 430 sent to an Army tick lab from 1998 to 2019; most of those lone star ticks came from Sussex County and Kent County, respectively. In the state's own field sampling it was 94.7% of the ticks collected in 2020 through early December, though 92.1% of those were larvae."
+    },
+    {
+      "type": "p",
+      "text": "The blacklegged tick is the one that spreads Lyme disease. DNREC describes a small, teardrop-shaped tick with long mouthparts and a dark brown shield. For sizes and markings side by side, see [how to tell the common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "An adult female blacklegged tick and a far smaller nymph side by side on a person's fingertip",
+      "caption": "An adult female blacklegged tick (left) and a nymph (right) on a fingertip. Nymphs are about the size of a poppy seed, according to [CDC's page on how Lyme disease spreads](https://www.cdc.gov/lyme/causes/index.html).",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "p",
+      "text": "The American dog tick is a large tick with a pale, marbled shield. DNREC says only adults bite people, while larvae and nymphs feed only on wildlife, and the 2025 checklist lists the species as established in all three counties."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a green blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. Its pale, marbled shield sets it apart from the plain dark shield of a blacklegged tick.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "p",
+      "text": "DNREC lists 11 other species that rarely bite people. They include the winter tick, which the checklist says feeds mostly on deer; the groundhog tick, the main US carrier of one lineage of Powassan virus; and the brown dog tick, which lives mainly in homes and kennels."
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged ticks found in Delaware?"
+    },
+    {
+      "type": "p",
+      "text": "In all three counties. [CDC's county surveillance table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in New Castle, Kent and Sussex, putting Delaware among the states where every county has them; to compare, see [tick maps and Lyme data for every state](/learn/ticks-by-state). Established means six or more ticks of one life stage, or more than one life stage, were collected in a county within 12 months."
+    },
+    {
+      "type": "p",
+      "text": "The tick has been there for decades. The [2025 checklist](https://pmc.ncbi.nlm.nih.gov/articles/PMC12271736) dates the first Delaware specimens in the national tick collection to 1982 and says the species was established statewide by 1988; ticks collected in Delaware have tested positive for the Lyme and anaplasmosis germs since 1998."
+    },
+    {
+      "type": "h3",
+      "text": "How many Delaware deer ticks carry the Lyme germ?"
+    },
+    {
+      "type": "p",
+      "text": "About three in ten. A [2025 study of ticks collected by DNREC's tick program](https://pmc.ncbi.nlm.nih.gov/articles/PMC11992402) at 24 sites in all three counties found the Lyme bacterium, *Borrelia burgdorferi*, in 30.2% of 500 blacklegged ticks: 37.7% of adults and 13.9% of nymphs. The share was highest in Kent County (38.0%), then Sussex (29.3%) and New Castle (23.7%)."
+    },
+    {
+      "type": "p",
+      "text": "The study also found the babesiosis parasite, *Babesia microti*, in 2.6% of these ticks and the anaplasmosis germ, *Anaplasma phagocytophilum*, in 1.0%, though its test did not separate the strain that makes people sick from a variant carried by deer."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Germ",
+        "Illness",
+        "Delaware counties in CDC's table",
+        "Blacklegged ticks positive, 2025 study"
+      ],
+      "rows": [
+        [
+          "*Borrelia burgdorferi*",
+          "Lyme disease",
+          "All 3",
+          "30.2%"
+        ],
+        [
+          "*Babesia microti*",
+          "Babesiosis",
+          "All 3",
+          "2.6% (none in the Kent County sample)"
+        ],
+        [
+          "*Anaplasma phagocytophilum*",
+          "Anaplasmosis",
+          "New Castle (the variant that infects people)",
+          "1.0% (variant not determined)"
+        ],
+        [
+          "*Borrelia miyamotoi*",
+          "Hard tick relapsing fever",
+          "New Castle, Sussex",
+          "Not tested"
+        ],
+        [
+          "*Borrelia mayonii*, *Ehrlichia muris eauclairensis*, Powassan virus",
+          "A rarer cause of Lyme disease; ehrlichiosis; Powassan virus disease",
+          "None recorded through 2025",
+          "Not tested"
+        ]
+      ],
+      "caption": "Counties: [CDC ArboNET Tick Module](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) pathogen table, dated April 2026, which records germs found in host-seeking ticks; it is cumulative, and a blank is not proof the germ is absent. Shares: [Buoni and colleagues, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11992402)."
+    },
+    {
+      "type": "p",
+      "text": "Powassan virus is the newest entry. CDC's table has no record of it in Delaware ticks through 2025, but the state announced its first confirmed detection of the virus in a tick in [its April 2026 release](https://news.delaware.gov/2026/04/27/dnrec-dph-call-for-heightened-tick-awareness-in-delaware/), without saying where the tick was found. As of October 2026, [DNREC's disease page](https://dnrec.delaware.gov/fish-wildlife/ticks/diseases/) says no human case has been reported in Delaware."
+    },
+    {
+      "type": "h2",
+      "text": "Where are lone star ticks in Delaware?"
+    },
+    {
+      "type": "p",
+      "text": "Statewide, by the state's count. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html), with data through 2025, lists the species as established in Kent and Sussex and only reported in New Castle, while the state's [2025 checklist](https://pmc.ncbi.nlm.nih.gov/articles/PMC12271736) calls it abundant in all three counties, with higher densities in Kent and Sussex."
+    },
+    {
+      "type": "map",
+      "scope": "DE",
+      "title": "Lone star tick status by county, Delaware, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "10001": "established",
+        "10003": "reported",
+        "10005": "established"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means recorded, but not at that level. Status is cumulative, and no record would not mean no ticks. The state's 2025 checklist calls the tick abundant in all three counties.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "p",
+      "text": "The thresholds are similar but the scale differs: CDC counts a county once six ticks of one life stage, or more than one stage, are collected there within 12 months, while the checklist applies a six-tick or two-life-stage test within a year to the state as a whole. The gap is likely in the records: CDC says a county not labeled established does not mean the tick is absent, and that status can change once a county is sampled and documented."
+    },
+    {
+      "type": "p",
+      "text": "The state's survey shows the north-south gap. In 2019 and 2020, DNREC's program collected lone star ticks at all 20 of its survey sites, and the average density of host-seeking lone star ticks was about 5.7 times New Castle County's in Sussex and 4.6 times in Kent, by our calculation from the [2021 article](https://pmc.ncbi.nlm.nih.gov/articles/PMC8352541). Its authors expected the tick to become more established in New Castle County in the coming decades."
+    },
+    {
+      "type": "p",
+      "text": "The lone star tick does not spread Lyme disease, but it is behind ehrlichiosis and alpha-gal syndrome, the red meat allergy. In the [2025 pathogen study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11992402), 4.74% of 527 lone star ticks carried *Ehrlichia chaffeensis*, 14.0% of adults but 0.8% of nymphs, mostly in Sussex County (6.2%, against 1.8% in New Castle and none in the Kent sample); *Ehrlichia ewingii* turned up in 1.1%, only in Sussex. For the meat allergy, see [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome)."
+    },
+    {
+      "type": "h2",
+      "text": "Are Gulf Coast and Asian longhorned ticks in Delaware?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, and both are now established. The Gulf Coast tick was first collected in Delaware in 1939, a single specimen thought to have arrived on a migratory bird; it was established in Kent County by 2013 and in all three counties by 2019, with the most collected in Sussex, the [2025 checklist](https://pmc.ncbi.nlm.nih.gov/articles/PMC12271736) says."
+    },
+    {
+      "type": "p",
+      "text": "It carries *Rickettsia parkeri*, the cause of Tidewater spotted fever. The checklist records the first infected Gulf Coast tick in Delaware at Bombay Hook National Wildlife Refuge in 2012; in 2019, 25 of 119 adults tested from Delaware (21%) carried the germ, the [2025 pathogen study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11992402) notes. Its bite can also cause tick paralysis, which, the checklist says, eases quickly once the tick is removed."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gulf-coast-tick-female.webp",
+      "width": 1200,
+      "height": 807,
+      "alt": "Adult female Gulf Coast tick on a green leaf, with a reddish-brown body, a pale marbled shield behind the head and long orange-brown legs",
+      "caption": "Adult female Gulf Coast tick. DNREC describes a pale, marbled shield against a red-brown body.",
+      "credit": "CDC/ Dr. Christopher Paddock (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10876"
+    },
+    {
+      "type": "p",
+      "text": "The Asian longhorned tick, first detected in the United States in 2017, was first detected in Delaware in 2019, in New Castle and Kent counties; the 2025 checklist calls it established statewide, while DNREC's species page lists its habitat in those two counties. Only females have been found in Delaware, and they reproduce without mating, which lets infestations on animals grow very large."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female, both plain reddish-brown, resting on a U.S. dime for scale",
+      "caption": "An Asian longhorned tick nymph (left) and adult female (right) on a U.S. dime. DNREC describes the species as a solid color, with no contrast between the shield and the body.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "DNREC says it bites people infrequently, is more likely to be seen on pets or livestock, and has not been associated with any medical condition in the United States to date, though the checklist notes several Delaware records of it biting people. Its main threat is to cattle: it spreads *Theileria orientalis*, a parasite that causes theileriosis, and that cycle is under way in the US."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does Delaware have?"
+    },
+    {
+      "type": "p",
+      "text": "Delaware reported 349 Lyme disease cases in 2023, a rate of 34.7 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). By our ranking of those figures, that was the 18th-highest count and the 14th-highest rate among states. The [state's 2023 surveillance report](https://dhss.delaware.gov/wp-content/uploads/sites/10/dph/pdf/DEVBDReport2023FINAL.pdf) counts the same 349 cases, a 17% rise from 2022, and puts the rate at 33.8 using its own population figure."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Delaware, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            772,
+            984,
+            656,
+            873,
+            669,
+            509,
+            417,
+            435,
+            506,
+            608,
+            520,
+            641,
+            355,
+            140,
+            298,
+            349
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "A revised case definition took effect in 2022, so 2022 and 2023 are not directly comparable with earlier years, and CDC says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions. Data through 2023, the latest year on CDC's Lyme data page as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)"
+    },
+    {
+      "type": "p",
+      "text": "Delaware's counts stayed below pre-pandemic levels when the definition changed. Under the 2022 definition, high-incidence states such as Delaware can count a case on laboratory evidence alone, and [CDC's report on the first year](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) found cases in that group 72.9% above their 2017 to 2019 average. Delaware's 298 cases in 2022 were 49.5% below its own average of 590, and the report cautions against detailed comparison with earlier years."
+    },
+    {
+      "type": "p",
+      "text": "Counts were higher in the past, peaking at 984 cases in 2009 in CDC's state file. That history is hard to read: CDC's [page on tick-borne disease cases by county](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) notes that many high-incidence states changed surveillance practices in ways that notably lowered case counts, so the data may not reflect true trends."
+    },
+    {
+      "type": "p",
+      "text": "The newest state figures are similar: [DNREC's tick disease page](https://dnrec.delaware.gov/fish-wildlife/ticks/diseases/) lists 344 cases in 2024, and the April 2026 release says more than 350 were reported in 2025. CDC's state figures run through 2023 as of October 2026, so this page compares 2023."
+    },
+    {
+      "type": "h3",
+      "text": "How does Delaware compare with its neighbors?"
+    },
+    {
+      "type": "p",
+      "text": "Lyme disease is much more common to the north. In 2023, Pennsylvania's rate was more than three times Delaware's and New Jersey's more than twice, while Maryland's was a little higher."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Cases per 100,000, 2023"
+      ],
+      "rows": [
+        [
+          "[Pennsylvania](/blog/ticks-in-pennsylvania)",
+          "16,671",
+          "128.1"
+        ],
+        [
+          "[New Jersey](/blog/ticks-in-new-jersey)",
+          "7,224",
+          "77.9"
+        ],
+        [
+          "[Maryland](/blog/ticks-in-maryland)",
+          "2,470",
+          "40.0"
+        ],
+        [
+          "Delaware",
+          "349",
+          "34.7"
+        ]
+      ],
+      "caption": "Confirmed and probable cases by state of residence, from [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Data through 2023, the latest year CDC had published as of October 2026."
+    },
+    {
+      "type": "h2",
+      "text": "Which Delaware county has the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "New Castle County, by both count and rate. In 2023, CDC's county file records 203 cases among New Castle residents, about 34.9 per 100,000, against 78 in Sussex (about 29.5) and 44 in Kent (about 23.1). The rates are BuzzSkito's calculation from [CDC's county-level Lyme data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) and the [Census Bureau's county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Lyme cases, 2019 to 2022",
+        "Lyme cases, 2023",
+        "Cases per 100,000, 2023",
+        "Deer ticks carrying the Lyme germ"
+      ],
+      "rows": [
+        [
+          "New Castle (north)",
+          "909",
+          "203",
+          "34.9",
+          "23.7%"
+        ],
+        [
+          "Sussex (south)",
+          "258",
+          "78",
+          "29.5",
+          "29.3%"
+        ],
+        [
+          "Kent (center)",
+          "175",
+          "44",
+          "23.1",
+          "38.0%"
+        ]
+      ],
+      "caption": "Cases by county of residence, from CDC's county Lyme file; 2023 rates are BuzzSkito's calculation with the Census Bureau's July 1, 2023 estimates (Vintage 2025). Last column: blacklegged ticks positive for *Borrelia burgdorferi* in the [2025 statewide study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11992402), roughly 160 to 180 ticks per county by our calculation. Case data through 2023."
+    },
+    {
+      "type": "p",
+      "text": "Two cautions apply. Cases are counted where the patient lives, not necessarily where the bite happened, as [CDC's Lyme case map page](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) notes; Kent had the highest share of infected ticks in the 2025 study but the lowest human rate. And CDC's file places a case only where the county is known, 325 of the 349 in 2023, while the [state's 2023 report](https://dhss.delaware.gov/wp-content/uploads/sites/10/dph/pdf/DEVBDReport2023FINAL.pdf) assigns all 349: 213 in New Castle, 83 in Sussex and 53 in Kent. The order is the same; this page uses CDC's figures."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in Delaware?"
+    },
+    {
+      "type": "p",
+      "text": "Ehrlichiosis comes next, and it follows the lone star tick south. The [state's 2023 report](https://dhss.delaware.gov/wp-content/uploads/sites/10/dph/pdf/DEVBDReport2023FINAL.pdf) calls it Delaware's second most common tick-borne disease that year, says every case was caused by *Ehrlichia chaffeensis*, and notes that most were in Sussex County. Delaware's 2023 *E. chaffeensis* rate, 17.4 cases per million residents, was the fifth-highest of any state, behind Missouri, Arkansas, Kentucky and Kansas, by our ranking of [CDC's state figures](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html). That rate works out to about 18 cases by our calculation; the state's report counted 19."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Tick that spreads it in Delaware",
+        "Cases, 2019 to 2022 (CDC)",
+        "Cases in 2024 (state)"
+      ],
+      "rows": [
+        [
+          "Ehrlichiosis",
+          "Lone star tick",
+          "71 *E. chaffeensis* (Sussex 48, New Castle 18, Kent 5) and 1 *E. ewingii*",
+          "26"
+        ],
+        [
+          "Spotted fever rickettsiosis",
+          "American dog tick; Gulf Coast tick",
+          "40 (Sussex 20, New Castle 15, Kent 5)",
+          "1"
+        ],
+        [
+          "Anaplasmosis",
+          "Blacklegged tick",
+          "22 (Sussex 12, New Castle 9, Kent 1)",
+          "5"
+        ],
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "7 (New Castle 3, Sussex 3, Kent 1)",
+          "6"
+        ],
+        [
+          "Alpha-gal syndrome",
+          "Lone star tick",
+          "Not in CDC's file; reportable in Delaware since 2024",
+          "119"
+        ],
+        [
+          "Tularemia",
+          "American dog and lone star ticks",
+          "1 (Sussex)",
+          "None in recent years"
+        ]
+      ],
+      "caption": "2019 to 2022: cases by county of residence, summed, from [CDC's county-level tick-borne disease file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html), which omits cases with no county reported and notes that not every disease is reportable everywhere every year. 2024 and the ticks: [DNREC's tick disease page](https://dnrec.delaware.gov/fish-wildlife/ticks/diseases/), read in October 2026."
+    },
+    {
+      "type": "p",
+      "text": "Sussex County, home to about a quarter of Delawareans by Census estimates, accounted for 48 of the 71 *E. chaffeensis* cases and half the spotted fever cases in 2019 to 2022, and it is where the state's surveys find the most lone star and Gulf Coast ticks. Anaplasmosis and babesiosis, spread by the deer tick, stayed uncommon."
+    },
+    {
+      "type": "p",
+      "text": "Alpha-gal syndrome had the second-highest count of any tick-related condition in 2024. It is not an infection: after a tick bite, a person can react to mammal meat or products such as dairy and gelatin, typically two to eight hours after eating, DNREC says. It became reportable in 2024; DNREC lists 119 cases that year, and the April 2026 release says more than 200 had been reported since."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Delaware?"
+    },
+    {
+      "type": "p",
+      "text": "All year, busiest from late spring into midsummer. The April 2026 release says ticks are active in Delaware year-round, and the [state's 2023 report](https://dhss.delaware.gov/wp-content/uploads/sites/10/dph/pdf/DEVBDReport2023FINAL.pdf) found tick-related emergency department visits in every season: they peaked at the end of May, stayed high until mid-July and rose slightly in November. The report ties that to deer tick nymphs, most active in spring and early summer, and adults, active in fall and winter whenever it is above freezing (32°F)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Adults",
+        "Nymphs",
+        "Larvae"
+      ],
+      "rows": [
+        [
+          "Blacklegged (deer) tick",
+          "Peak in November and March",
+          "Peak May to July",
+          "Peak July to September"
+        ],
+        [
+          "Lone star tick",
+          "Peak April to June",
+          "Peak May to July",
+          "Peak July and August"
+        ],
+        [
+          "American dog tick",
+          "Peak May to July",
+          "Rarely collected",
+          "Collected July to October"
+        ],
+        [
+          "Gulf Coast tick",
+          "Peak May to July",
+          "Infrequent; May to September",
+          "Infrequent; August to October"
+        ],
+        [
+          "Asian longhorned tick",
+          "Peak June and July",
+          "Peak May to July",
+          "Peak August to October"
+        ]
+      ],
+      "caption": "Months when DNREC's tick program finds each stage of host-seeking ticks, from the [2025 checklist](https://pmc.ncbi.nlm.nih.gov/articles/PMC12271736). The winter tick, which feeds mostly on deer, is the exception: its larvae peak in October and November."
+    },
+    {
+      "type": "p",
+      "text": "Lone star ticks have a long season. The state program collected them in every month from April through November in 2019 and 2020, and Delaware lone star ticks sent to the Massachusetts lab arrived from March to October, peaking in June, the [2021 article](https://pmc.ncbi.nlm.nih.gov/articles/PMC8352541) reports; most were nymphs, which are harder to spot than adults."
+    },
+    {
+      "type": "h2",
+      "text": "Where can you get a tick identified in Delaware?"
+    },
+    {
+      "type": "p",
+      "text": "Through DNREC's online Tick Information Form, which the April 2026 release calls the Tick Interaction Report. As of October 2026, [DNREC's identification page](https://dnrec.delaware.gov/fish-wildlife/ticks/reporting/) asks for a photo, ideally of the top of the tick and under 9 MB, plus where and when you found it, whether it was attached and for how long, and what it was on. Staff reply with what kind of tick it was; the page lists no fee or turnaround time."
+    },
+    {
+      "type": "p",
+      "text": "The state does not test ticks for germs. A test would not settle much anyway: [CDC's after-bite guidance](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) says tick test results should not be used for treatment decisions, that a negative result can give false reassurance, and that anyone who becomes ill should not wait for results before starting treatment."
+    },
+    {
+      "type": "p",
+      "text": "Identification still helps after a deer tick bite. CDC's [guidance for clinicians](https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf) asks that the tick be saved, in rubbing alcohol or a sealed bag or container, so its species and how engorged it is can be judged, because both bear on whether a preventive antibiotic fits. Photograph it for DNREC, and keep the tick itself for a health care provider."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Delaware?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick right away, keep it, and ask a health care provider about a preventive antibiotic if it may have been a deer tick. [CDC's after-bite guidance](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) describes removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick with clean, fine-tipped tweezers as close to the skin's surface as possible.",
+        "Pull the tick away from the skin with steady, even pressure; do not twist or jerk it, which can leave mouthparts in the skin. If they stay in and will not come out easily with tweezers, leave them; your body will push them out as the skin heals.",
+        "Do not use petroleum jelly, heat, nail polish or other substances to make the tick let go, and do not crush it with your fingers.",
+        "Clean the bite and your hands with soap and water, rubbing alcohol or hand sanitizer, and check your body for other ticks."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For more detail, see [the step-by-step tick removal guide](/blog/how-to-remove-tick-safely)."
+    },
+    {
+      "type": "p",
+      "text": "Speed matters. CDC's page on [how Lyme disease spreads](https://www.cdc.gov/lyme/causes/index.html) says a tick usually has to be attached for more than 24 hours to pass on the Lyme bacterium, and removing it within 24 hours greatly lowers the risk. Powassan virus can pass in as little as 15 minutes of attachment, DNREC says."
+    },
+    {
+      "type": "p",
+      "text": "Delaware is on CDC's list of high-incidence Lyme states, so a preventive antibiotic may be an option. CDC's [clinician guidance](https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf) says a single dose of doxycycline can lower the risk of Lyme disease when the bite happened in such a state, the tick is an adult or nymphal blacklegged tick attached for an estimated 36 hours or more, the dose can start within 72 hours of removal, and the patient has no reason to avoid doxycycline. It has not been shown to prevent other tick-borne diseases, ehrlichiosis among them. A provider decides whether it fits."
+    },
+    {
+      "type": "p",
+      "text": "Then watch for symptoms for a month. CDC's page on [the signs and symptoms of Lyme disease](https://www.cdc.gov/lyme/signs-symptoms/index.html) says early signs appear 3 to 30 days after a bite and can include fever, chills, headache, fatigue, muscle and joint aches and swollen lymph nodes. The erythema migrans rash appears in roughly 70% to 80% of infected people, about 7 days after the bite on average, and can expand to 12 inches or more across; it may clear in the center as it grows, though not every rash has the bull's-eye look."
+    },
+    {
+      "type": "p",
+      "text": "The state's April 2026 release says anyone who develops a fever, rash or flu-like symptoms within 30 days of a tick bite should contact a health care provider. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) explains what can follow."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Erythema migrans rash on the back of an upper arm: a dark red center, a paler middle band and a red outer ring, the bull's-eye pattern",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, in its bull's-eye form on the back of a woman's upper arm. CDC notes that the rash's appearance can vary widely.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Contact a health care provider if you feel ill",
+      "text": "Fever, rash or flu-like symptoms within 30 days of a tick bite are a reason to contact a provider and mention the tick; do not wait for an identification reply. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Delaware?"
+    },
+    {
+      "type": "p",
+      "text": "Cover up, use repellent, stay out of tall grass and leaf litter, and check everyone afterward. The [April 2026 state release](https://news.delaware.gov/2026/04/27/dnrec-dph-call-for-heightened-tick-awareness-in-delaware/) recommends these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Dress for it.** Wear long pants and long sleeves, tuck your pants into your socks, and choose light colors so ticks are easier to see.",
+        "**Stay on the path.** Avoid tall grass, leaf litter and wooded or brushy areas, and walk in the center of trails.",
+        "**Use repellent.** Apply an EPA-registered repellent with at least 20% DEET, picaridin or oil of lemon eucalyptus to skin and clothing, follow the label, and generally keep it off a child's face and hands and away from the eyes and mouth.",
+        "**Check, then bathe.** Check yourself, your children and your pets, including the armpits, groin and behind the knees, then bathe or shower promptly; a [full-body tick check](/blog/how-to-do-a-tick-check) covers the rest.",
+        "**Protect pets.** Use tick prevention products year-round on pets that spend time outdoors; [ticks on dogs](/blog/ticks-on-dogs) covers checks, removal and preventives."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For lone star ticks in particular, the [2021 article](https://pmc.ncbi.nlm.nih.gov/articles/PMC8352541) notes that permethrin-treated clothing and DEET sprays protect against them in the field. Among the lone star ticks Delawareans sent to the Massachusetts lab, the most common attachment sites were the upper leg and groin (19.2% each), followed by the lower leg and back (11.5% each)."
+    },
+    {
+      "type": "p",
+      "text": "Around the house, the release suggests mowing regularly, removing leaf piles and laying a gravel or wood-chip buffer between lawn and woods. Clearing leaf litter can also help against lone star ticks, which need humid spots to survive winter, but products aimed at mice, such as treated nesting tubes and bait boxes, are ill-suited to them, the 2021 article warns, because they do not prefer rodents as hosts."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the most common tick in Delaware?",
+      "answer": "The lone star tick. DNREC calls it the most common tick species in the state, especially in Kent and Sussex counties, and it made up 69.7% of the Delaware ticks sent to a University of Massachusetts testing lab from 2008 to 2020. It does not spread Lyme disease, but it is linked to ehrlichiosis and alpha-gal syndrome. The blacklegged, or deer, tick is the one that spreads Lyme disease, and CDC lists it as established in all three Delaware counties."
+    },
+    {
+      "question": "Are ticks active in Delaware in the winter?",
+      "answer": "Yes. The state says ticks are active in Delaware year-round, not just in warmer months. Adult blacklegged ticks are most numerous in November and March in the state tick program's collections, and the state health department says they are active in fall and winter whenever the temperature is above freezing. In 2023, tick-related emergency visits occurred in every season, with a small rise in November. Check for ticks after time in woods, brush or leaf litter on mild winter days."
+    },
+    {
+      "question": "Which Delaware county has the most Lyme disease?",
+      "answer": "New Castle County, by both count and rate. CDC's county file records 203 cases among New Castle residents in 2023, about 34.9 per 100,000 by BuzzSkito's calculation, ahead of Sussex at about 29.5 and Kent at about 23.1. The state's own report, which places all 349 cases in a county, gives 213, 83 and 53 in the same order. Cases are counted where patients live, not necessarily where they were bitten, so a county's rate is not a map of where the infected ticks are."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in Delaware?",
+      "answer": "Not through the state. As of October 2026, DNREC identifies ticks from photos sent through its online form, but Delaware does not provide tick pathogen testing. CDC advises against using tick test results to make treatment decisions, because a positive tick does not mean you were infected and a negative one can give false reassurance. If a deer tick may have bitten you, keep the tick and call a health care provider, since a preventive antibiotic dose has to start within 72 hours of removal."
+    },
+    {
+      "question": "Is the Asian longhorned tick in Delaware?",
+      "answer": "Yes. It was first detected in Delaware in 2019, in New Castle and Kent counties, and the state tick program's 2025 checklist calls it established statewide. Only females have been found in the state. DNREC says it bites people infrequently, is more likely to be seen on pets or livestock, and has not been associated with any medical condition in the United States to date. Its main threat is to cattle, which it can infect with a parasite that causes theileriosis."
+    },
+    {
+      "question": "How common is alpha-gal syndrome in Delaware?",
+      "answer": "Among the tick-related conditions DNREC counted for 2024, only Lyme disease had more cases. Alpha-gal syndrome, an allergy to mammal meat and some other mammal products, became reportable in Delaware in 2024, and DNREC lists 119 reported cases that year, more than four times the 26 ehrlichiosis cases. The state said in April 2026 that more than 200 cases had been reported since. The lone star tick, Delaware's most common tick, is the main species associated with it in the United States."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "County Population Totals and Components of Change: 2020-2025",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (cases by county of residence, 2019-2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "Ehrlichiosis Epidemiology and Statistics (E. chaffeensis incidence by state, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "How Lyme Disease Spreads",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "Signs and Symptoms of Untreated Lyme Disease",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/signs-symptoms/index.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "Guidance for Clinicians: Caring for Patients after a Tick Bite (December 2021)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf"
+    },
+    {
+      "title": "Ticks of Delaware",
+      "publisher": "Delaware Department of Natural Resources and Environmental Control, Division of Fish and Wildlife (Tick Program)",
+      "url": "https://dnrec.delaware.gov/fish-wildlife/ticks/of-delaware/"
+    },
+    {
+      "title": "Get Your Tick Identified (Tick Information Form)",
+      "publisher": "Delaware Department of Natural Resources and Environmental Control, Division of Fish and Wildlife (Tick Program)",
+      "url": "https://dnrec.delaware.gov/fish-wildlife/ticks/reporting/"
+    },
+    {
+      "title": "Tick-Associated Diseases",
+      "publisher": "Delaware Department of Natural Resources and Environmental Control, Division of Fish and Wildlife (Tick Program)",
+      "url": "https://dnrec.delaware.gov/fish-wildlife/ticks/diseases/"
+    },
+    {
+      "title": "Ticks of Delaware revisited: an updated checklist of hard ticks (Ixodidae) and first records of soft ticks (Argasidae) in the First State (Kennedy et al., 2025)",
+      "publisher": "Journal of Medical Entomology (Entomological Society of America and Oxford University Press), via PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12271736"
+    },
+    {
+      "title": "Lone Star Ticks (Amblyomma americanum): An Emerging Threat in Delaware (Kennedy and Marshall, 2021)",
+      "publisher": "Delaware Journal of Public Health (Delaware Academy of Medicine and Delaware Public Health Association), via PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8352541"
+    },
+    {
+      "title": "Statewide surveillance of tick-borne pathogens in ticks collected in Delaware using novel multiplex PCR assays (Buoni et al., 2025)",
+      "publisher": "International Journal for Parasitology: Parasites and Wildlife (Elsevier), via PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11992402"
+    },
+    {
+      "title": "Delaware Vector-borne Disease Surveillance Annual Report, January 1 - December 31, 2023 (April 2024)",
+      "publisher": "Delaware Department of Health and Social Services, Division of Public Health, Office of Infectious Disease Epidemiology",
+      "url": "https://dhss.delaware.gov/wp-content/uploads/sites/10/dph/pdf/DEVBDReport2023FINAL.pdf"
+    },
+    {
+      "title": "DNREC, DPH Call for Heightened Tick Awareness in Delaware (April 27, 2026)",
+      "publisher": "State of Delaware News (Department of Natural Resources and Environmental Control and Division of Public Health)",
+      "url": "https://news.delaware.gov/2026/04/27/dnrec-dph-call-for-heightened-tick-awareness-in-delaware/"
+    }
+  ],
+  "disclaimer": "both"
+}

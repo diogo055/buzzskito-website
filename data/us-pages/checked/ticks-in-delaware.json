@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-delaware",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "d7a7c52dcccfd0cd34421c58197755357d4c65ab364671d6adb11f2bd361abc3",
+ "claimsChecked": 330,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-15"
+}
