@@ -1,0 +1,309 @@
+{
+  "slug": "ticks-in-british-columbia",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "locale": "en-CA",
+  "keyword": "ticks in british columbia",
+  "alsoTargets": [
+    "tick season british columbia",
+    "lyme disease british columbia",
+    "are there ticks in british columbia"
+  ],
+  "metaTitle": "Ticks in British Columbia: Lyme Risk and Season",
+  "metaDescription": "Few of BC's western blacklegged ticks carry Lyme: 42 confirmed cases in 2025, 12 acquired in BC. Tick photos, risk areas, the season and after-bite steps.",
+  "h1": "Ticks in British Columbia: Species, Lyme Risk Areas and Tick Season",
+  "dek": "Which ticks live in BC and where, how few carry the Lyme bacterium, cases by year and place of infection, when ticks bite, tick paralysis in the interior, and what to do with a tick or a bite.",
+  "breadcrumb": "Ticks in British Columbia",
+  "excerpt": "Few of BC's western blacklegged ticks carry Lyme, and the interior's wood ticks can cause tick paralysis. Cases by year, risk areas, the season and what to do.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-province",
+    "name": "Ticks by Province"
+  },
+  "quickAnswer": {
+    "lead": "**Yes. Several tick species live in British Columbia, and the western blacklegged tick, which can carry Lyme disease, is established on the coast and in the southern interior, but very few BC ticks carry the bacterium.** The [BC Centre for Disease Control](https://www.bccdc.ca/resource-gallery/Documents/Lyme_Disease_and_Tick_Surveillance_BC_2026.pdf) counted 42 confirmed Lyme disease cases in 2025, 12 of them likely acquired in BC, and found the bacterium in 0.7% of the *Ixodes* ticks its lab tested.",
+    "bullets": [
+      "Ticks can be found year-round in BC but are most likely to bite from March to June, BCCDC says, and May is the peak month for ticks sent in for identification and testing.",
+      "The Rocky Mountain wood tick of the interior can cause tick paralysis, which reverses once the tick is removed; BCCDC's lab is consulted on 0 to 2 human cases a year.",
+      "PHAC's 2025 list of Lyme disease risk areas covers much of Vancouver Island, the mainland coast facing it and river valleys across southern BC: 249 entries with BC postal codes, by our count.",
+      "Most cases are picked up elsewhere: from 2016 to 2024, BC reported 9 to 39 confirmed cases a year, of which 1 to 8 were acquired in the province.",
+      "eTick names a tick from a photo free of charge, and BCCDC's lab tests ticks found on residents free of charge when a physician submits them.",
+      "Because so few BC ticks carry the bacterium, BCCDC says a preventive antibiotic is usually not necessary after a bite from a BC tick."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in British Columbia at a glance",
+    "rows": [
+      ["Tick species in BC", "More than 20; only a few commonly bite people (Province of BC, page updated May 22, 2026)"],
+      ["Tick that can spread Lyme disease", "Western blacklegged tick, established in coastal and southern interior BC (PHAC, page dated August 7, 2026)"],
+      ["Main tick of the interior", "Rocky Mountain wood tick, mainly east of the Coast Mountains; can cause tick paralysis"],
+      ["Lyme disease cases, 2025", "42 confirmed, 12 likely acquired in BC (BCCDC)"],
+      ["Lyme disease cases, 2024", "17 confirmed, 3 acquired in BC (BCCDC); 21 confirmed and probable (PHAC)"],
+      ["Ticks carrying the Lyme bacterium", "6 of 816 Ixodes ticks tested in 2025 (0.7%); 1 of 753 in 2024 (0.1%), at BCCDC's lab"],
+      ["Lyme disease risk areas, 2025", "Much of Vancouver Island, the mainland coast facing it and river valleys across southern BC (PHAC); BCCDC also maps risk online"],
+      ["Tick season", "Year-round, but bites are most likely from March to June; May is the peak month for ticks sent in (BCCDC)"],
+      ["Tick identification", "eTick, by photo: free; aims to reply within 1 to 2 business days; no Lyme testing"],
+      ["Tick testing", "Free at BCCDC's lab when a physician submits the tick; ticks are not accepted from the public"],
+      ["Advice by phone", "HealthLink BC at 8-1-1, or 7-1-1 for the deaf and hard of hearing; nurses 24 hours a day"],
+      ["Data through", "BCCDC cases and tick tests: December 31, 2025; PHAC comparison: December 31, 2024"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Are there ticks in British Columbia?" },
+    { "type": "p", "text": "Yes, across the province. The [Province of British Columbia's guide to ticks](https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/animals-and-crops/plant-health/insects-and-plant-diseases/home-garden/ticks), last updated May 22, 2026, says more than 20 species live in BC but only a few commonly bite people. Two groups matter most for health, according to the [BC Centre for Disease Control (BCCDC)](https://www.bccdc.ca/health-info/diseases-conditions/tick-borne-diseases): *Ixodes* ticks, mainly the western blacklegged tick, found throughout BC but most common on the south coast, and *Dermacentor* ticks, mainly the Rocky Mountain wood tick, more common in the interior and the north." },
+    { "type": "p", "text": "The western blacklegged tick is BC's main Lyme disease carrier, and it seldom carries the bacterium: fewer than 1 in 100 of the ticks BCCDC tests do, its [Lyme disease page](https://www.bccdc.ca/health-info/diseases-conditions/tick-borne-diseases/lyme-disease-borrelia-burgdorferi-infection) says. The [Public Health Agency of Canada (PHAC)](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html) lists it as established in coastal and southern interior British Columbia, and does not list BC among the places where the blacklegged (deer) tick of central and eastern Canada is established." },
+    { "type": "p", "text": "For how BC compares with the rest of the country, see [our guide to ticks and Lyme disease province by province](/learn/ticks-by-province), or take a quicker tour of [where ticks are found across Canada](/blog/are-there-ticks-in-canada)." },
+
+    { "type": "h2", "text": "Which ticks live in British Columbia?" },
+    { "type": "p", "text": "Two species make up most of the ticks found on people. Of 13,881 ticks removed from people and sent to BCCDC's lab from 2002 to 2021, 52% were western blacklegged ticks, 36% Rocky Mountain wood ticks and 4% *Ixodes angustus*, a tick with no common name, according to BCCDC's [2023 tick surveillance report](https://www.bccdc.ca/resource-gallery/Documents/Ticks%20and%20Tick-Borne%20Disease%20Surveillance%20in%20British%20Columbia_June%202023_Final%20%28Up-to-Date%20Version%29.pdf). Photos show the same two groups: of 1,556 BC tick photos sent to eTick in 2025 without reported travel, 58% showed *Dermacentor* ticks and 38% western blacklegged ticks, BCCDC's [2026 surveillance update](https://www.bccdc.ca/resource-gallery/Documents/Lyme_Disease_and_Tick_Surveillance_BC_2026.pdf) shows." },
+    {
+      "type": "table",
+      "head": ["Tick", "Where in BC", "What it can spread or cause"],
+      "rows": [
+        ["Western blacklegged tick, *Ixodes pacificus*", "Coast and southern interior; common on Vancouver Island, the Gulf Islands, the mainland coast to Powell River and up the Fraser River to Yale and Boston Bar", "Lyme disease, anaplasmosis and *Borrelia miyamotoi* disease (PHAC)"],
+        ["Rocky Mountain wood tick, *Dermacentor andersoni*", "Mainly the dry interior east of the Coast Mountains, north toward Williams Lake", "Tick paralysis; also Rocky Mountain spotted fever and tularemia (PHAC), both rare in BC"],
+        ["*Ixodes angustus* (no common name)", "Throughout BC, most often on the southern coast", "Has carried the Lyme bacterium in BC, and a babesiosis parasite in Metro Vancouver"],
+        ["Winter (moose) tick, *Dermacentor albipictus*", "On moose, deer, horses and cattle", "The province says it does not bite people"],
+        ["Soft tick, *Ornithodoros hermsi*", "Rodent burrows and rodent-infested cabins", "Tick-borne relapsing fever"]
+      ],
+      "caption": "Sources: [PHAC](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html), the [province](https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/animals-and-crops/plant-health/insects-and-plant-diseases/home-garden/ticks) and BCCDC's [tick-borne diseases page](https://www.bccdc.ca/health-info/diseases-conditions/tick-borne-diseases), [2023 report](https://www.bccdc.ca/resource-gallery/Documents/Ticks%20and%20Tick-Borne%20Disease%20Surveillance%20in%20British%20Columbia_June%202023_Final%20%28Up-to-Date%20Version%29.pdf) and [relapsing fever page](https://www.bccdc.ca/health-info/diseases-conditions/tick-borne-diseases/tick-borne-relapsing-fever), as of October 2026."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/western-blacklegged-tick-female.webp",
+      "width": 1200,
+      "height": 1541,
+      "alt": "Adult female western blacklegged tick seen from above on a black background, with a dark brown shield behind the head, a reddish-brown body and long, hairy reddish legs",
+      "caption": "Adult female western blacklegged tick, BC's main Lyme disease carrier. The province says it turns grey and bean-shaped as it feeds.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8687"
+    },
+    { "type": "p", "text": "The western blacklegged tick lives on low plants in forests, along trails and in brushy areas, regularly bites people and pets, and is active mainly in spring and early summer, the province says. Most of those found are adult females: 89.7% of the western blacklegged ticks submitted in 2022 with a recorded life stage, according to [PHAC's 2022 tick surveillance report](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2022.html), which also shows that 909 of the 911 submitted in Canada that year came from BC. See [our western blacklegged tick guide](/blog/western-blacklegged-tick) for more on the species." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/rocky-mountain-wood-tick-female.webp",
+      "width": 1200,
+      "height": 807,
+      "alt": "Adult female Rocky Mountain wood tick on a green plant stem, with a cream-coloured shield behind the head, a dark red body and reddish legs",
+      "caption": "Adult female Rocky Mountain wood tick. The province describes females as reddish-brown with a light-coloured shield near the head; males are grey and mottled.",
+      "credit": "CDC/ Dr. Christopher Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10865"
+    },
+    { "type": "p", "text": "The Rocky Mountain wood tick waits in open, grassy and rocky areas and feeds on rodents, wildlife, pets, livestock and people, the province says. PHAC lists it as established in Alberta and parts of western Saskatchewan as well as BC; see [ticks in Alberta](/blog/ticks-in-alberta) and [our Rocky Mountain wood tick guide](/blog/rocky-mountain-wood-tick)." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/winter-tick.webp",
+      "width": 1200,
+      "height": 1200,
+      "alt": "Adult winter tick seen from above on a white surface, with an ornate cream and dark brown pattern on its back and reddish-brown legs",
+      "caption": "An adult winter tick photographed in British Columbia. The province says this tick feeds on moose, deer, horses and cattle and does not bite people.",
+      "credit": "(c) Megan Dark, some rights reserved (CC BY), via iNaturalist",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://www.inaturalist.org/observations/271543920"
+    },
+    { "type": "p", "text": "The brown dog tick, which the province says feeds mainly on dogs and can live indoors, is not known to be established in Canada but has been found on dogs brought into BC, BCCDC's 2023 report says." },
+
+    { "type": "h2", "text": "Where in British Columbia is the Lyme disease risk?" },
+    { "type": "p", "text": "Mainly in the southwest. BCCDC's Lyme disease page says the ticks that can carry the bacterium live throughout BC but are most common in southwestern BC, including Vancouver Island, the Gulf Islands, the Sunshine Coast, Greater Vancouver and the Fraser Valley, and that the pattern in both people and ticks has stayed the same over time." },
+    { "type": "p", "text": "[PHAC's list of Lyme disease risk areas for 2025](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/prevention-lyme-disease.html), drawn up with provincial public health authorities from tick surveillance and reported cases, places BC's risk areas in much of Vancouver Island, on the mainland coast facing it and in river valleys across southern BC. The list, searchable by municipality or postal code, has 249 entries with BC postal codes by our count, from Victoria, Nanaimo, Vancouver, Surrey and Abbotsford to Kamloops, Kelowna, Penticton, Vernon, Cranbrook and Trail." },
+    { "type": "p", "text": "BCCDC keeps its own [Lyme disease risk map](https://maps.bccdc.ca/lyme/), searchable by address. Red areas are where ticks able to carry the Lyme bacterium are known to live or could live, modelled from field sampling, clinical submissions and ten layers of vegetation, temperature and precipitation data. The map's undated note says the risk is low even there: under 0.5 cases per 100,000 people and a 0.2% tick infection rate, against 29 cases per 100,000 and 40% of ticks in the northeastern United States." },
+    { "type": "p", "text": "Ticks also turn up well north of the risk areas. In 2024, eTick photos submitted without reported travel showed *Ixodes* ticks from northern places including Prince George and Haida Gwaii, and *Dermacentor* ticks from as far north as Fort Nelson, BCCDC's 2025 surveillance update says." },
+    { "type": "p", "text": "Locally acquired Lyme disease follows the ticks. Of the 99 confirmed cases acquired in BC from 2006 to 2022, Vancouver Coastal Health reported 35, Island Health 29, Interior Health 17, Fraser Health 12 and Northern Health 6, according to the revised edition of BCCDC's 2023 report; Northern Health had reported none since 2017." },
+
+    { "type": "h2", "text": "How many Lyme disease cases does British Columbia have?" },
+    { "type": "p", "text": "Few, and most are picked up outside the province. BCCDC counted 42 confirmed cases in 2025 and, from the exposure information available, judged that 12 of those people were infected in BC, its [2026 surveillance update](https://www.bccdc.ca/resource-gallery/Documents/Lyme_Disease_and_Tick_Surveillance_BC_2026.pdf) says. Both figures were higher than in any of the previous nine years: from 2016 to 2024, BC reported 9 to 39 confirmed cases a year (median 17), of which 1 to 8 (median 3) were acquired in the province." },
+    {
+      "type": "chart",
+      "title": "Confirmed Lyme disease cases in British Columbia by likely place of infection, 2016 to 2025",
+      "x": ["2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
+      "series": [
+        { "name": "Acquired in BC", "values": [8, 4, 3, 3, 1, 4, 2, 4, 3, 12] },
+        { "name": "Travel outside BC", "values": [31, 14, 6, 11, 9, 14, 9, 23, 11, 30] },
+        { "name": "Unknown", "values": [0, 0, 0, 0, 1, 0, 1, 1, 3, 0] }
+      ],
+      "yLabel": "Confirmed cases reported per year",
+      "caption": "Values read from BCCDC's Figure 1; they match BCCDC's published totals for 2023, 2024 and 2025 and the 2026 update's ranges for 2016 to 2024. Confirmed cases only: PHAC's count, which includes probable cases, gives 21 for BC in 2024. Place of infection is judged from the exposure information available. Data through December 31, 2025.",
+      "source": "BCCDC, [Lyme Disease in Humans and Tick Surveillance in British Columbia: 2026 Update](https://www.bccdc.ca/resource-gallery/Documents/Lyme_Disease_and_Tick_Surveillance_BC_2026.pdf), Figure 1"
+    },
+    { "type": "p", "text": "The split rests on what each person reported: 3 of the 17 cases in 2024 lacked enough exposure information to place, BCCDC's [2025 surveillance update](https://www.bccdc.ca/resource-gallery/Documents/Lyme%20Disease%20and%20Tick%20Surveillance%20in%20British%20Columbia%20-%202025%20Update.pdf) notes." },
+    { "type": "p", "text": "The longer record looks the same. From 2006 to 2022, BCCDC counted 214 confirmed cases: 99 (46%) acquired in BC, 113 (53%) linked to travel to tick areas outside the province and 2 without travel information, according to the revised edition of its [2023 tick surveillance report](https://www.bccdc.ca/resource-gallery/Documents/Ticks%20and%20Tick-Borne%20Disease%20Surveillance%20in%20British%20Columbia_June%202023_Final%20%28Up-to-Date%20Version%29.pdf). Locally acquired cases ran at 0.02 to 0.33 per 100,000 people a year." },
+    { "type": "p", "text": "National figures differ slightly. [PHAC's annual report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html), updated January 16, 2026, counts confirmed and probable cases and lists 28 for BC in 2023 and 21 in 2024, against BCCDC's 28 and 17 confirmed cases. BC's 21 were about 0.4% of Canada's 5,809 cases in 2024. PHAC's provincial counts run to 2024." },
+    { "type": "callout", "tone": "note", "title": "What changed since last year (as of October 2026)", "text": "BCCDC's figures for 2025 rose on every measure: 42 confirmed Lyme disease cases, up from 17 in 2024; 12 acquired in BC, up from 3; and 6 of 816 Ixodes ticks carrying the Lyme bacterium (0.7%), up from 1 of 753 (0.1%). BCCDC still rates the risk of catching Lyme disease in BC as low. It had published no figures for 2026." },
+
+    { "type": "h2", "text": "How many BC ticks carry the Lyme bacterium?" },
+    { "type": "p", "text": "Very few. Fewer than 1 in 100 of the ticks BCCDC tests carry *Borrelia burgdorferi*, the Lyme bacterium, and the share has stayed low even as more ticks are sent in, its Lyme disease page says. Each figure below comes from different sampling, so they are listed rather than averaged." },
+    {
+      "type": "table",
+      "head": ["Year", "Ticks tested", "Carrying the Lyme bacterium", "Source"],
+      "rows": [
+        ["2025", "816 *Ixodes* ticks from people and animals, BCCDC's lab", "6 (0.7%)", "[BCCDC, 2026 update](https://www.bccdc.ca/resource-gallery/Documents/Lyme_Disease_and_Tick_Surveillance_BC_2026.pdf)"],
+        ["2024", "753 *Ixodes* ticks, BCCDC's lab", "1 (0.1%), a blacklegged tick from a traveller", "[BCCDC, 2025 update](https://www.bccdc.ca/resource-gallery/Documents/Lyme%20Disease%20and%20Tick%20Surveillance%20in%20British%20Columbia%20-%202025%20Update.pdf)"],
+        ["2022", "624 western blacklegged ticks, BCCDC's lab", "7 (1.1%)", "[PHAC, 2022 report](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2022.html)"],
+        ["2022", "Western blacklegged ticks from vegetation at 22 BC sites", "1.2%", "[PHAC, 2022 report](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2022.html)"],
+        ["Undated", "Province-wide estimate on BCCDC's risk map", "0.2%", "[BCCDC risk map](https://maps.bccdc.ca/lyme/)"]
+      ],
+      "caption": "Lab ticks are submitted by physicians and veterinarians, and BCCDC's 2023 report notes that some positive ticks may have been picked up outside BC. BCCDC's own count for 2022, across all Ixodes species, was 10 positive ticks."
+    },
+    { "type": "p", "text": "BCCDC gives three reasons the risk is lower and steadier than in central and eastern Canada. BC's Lyme carriers, the western blacklegged tick and *Ixodes angustus*, pass on the bacterium less readily than the eastern blacklegged tick. They feed on different animals, such as deer mice, dusky-footed woodrats and lizards like the northern alligator lizard, which BCCDC says may have an antibacterial property. And BC's mostly coniferous forests and its climate differ from the leafy forests of the east." },
+    { "type": "p", "text": "Other germs have started to appear. *Babesia microti*, a babesiosis parasite, was first found in a BC tick in 2019, and the anaplasmosis bacterium and *Babesia odocoilei* were first detected in BC ticks in 2022, BCCDC's 2023 report says. In the 2022 field sampling summarized by PHAC, 3.0% of the western blacklegged ticks tested carried the anaplasmosis bacterium." },
+
+    { "type": "h2", "text": "When is tick season in British Columbia?" },
+    { "type": "p", "text": "All year on the coast, but mostly March to June. BCCDC's [tick-borne diseases page](https://www.bccdc.ca/health-info/diseases-conditions/tick-borne-diseases) says ticks can be found year-round in BC but are most likely to bite in spring, from March to June. [PHAC](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html) gives the rule behind it: ticks can be active whenever the temperature stays above freezing and the ground is not covered by snow." },
+    {
+      "type": "table",
+      "head": ["Month", "Vancouver average daily temperature, 1991–2020", "What BCCDC's records show"],
+      "rows": [
+        ["January", "4.1 °C", "Ticks can be found year-round; few are sent in"],
+        ["February", "4.7 °C", "Few ticks sent in"],
+        ["March", "6.7 °C", "Main biting season begins; interior wood ticks enter their most active months"],
+        ["April", "9.4 °C", "Second-busiest month for ticks sent to BCCDC's lab"],
+        ["May", "13.0 °C", "Peak month for *Ixodes* ticks sent to BCCDC's lab and to eTick"],
+        ["June", "15.8 °C", "Still busy; nymphs active from late spring into summer"],
+        ["July", "18.2 °C", "Submissions fall away"],
+        ["August", "18.2 °C", "Few ticks sent in, but reports of locally acquired Lyme disease peak"],
+        ["September", "15.2 °C", "Fewest ticks sent to BCCDC's lab"],
+        ["October", "10.3 °C", "Adults active again; a small second rise"],
+        ["November", "6.4 °C", "Small second peak for eTick and for adult western blacklegged ticks"],
+        ["December", "3.9 °C", "Few ticks sent in"]
+      ],
+      "caption": "Temperatures: [Canadian Climate Normals 1991–2020](https://climate.weather.gc.ca/climate_normals/results_1991_2020_e.html?searchType=stnName_1991&txtStationName_1991=Vancouver&searchMethod=contains&txtCentralLatMin=0&txtCentralLatSec=0&txtCentralLongMin=0&txtCentralLongSec=0&climate_id=1108447&dispBack=1), Vancouver International (Airport), daily average; based on Environment and Climate Change Canada data. Ticks: BCCDC's 2023 report (lab submissions, 2002 to 2021; eTick, 2021 and 2022; case reports, 2006 to 2022), PHAC's 2022 report and the province. Submissions also track when people are outdoors."
+    },
+    { "type": "p", "text": "The averages explain why the coast never fully closes for ticks: at Vancouver's airport even the average daily low stays above freezing in every month, dipping to 1.2 °C in December. In the interior, the Rocky Mountain wood tick is most active from March to June, the province says, and most tick paralysis cases there occur in spring and summer, according to BCCDC." },
+    { "type": "p", "text": "Disease reports trail the ticks: *Ixodes* submissions peak in May, but reports of locally acquired Lyme disease tend to peak in August, a gap BCCDC's 2023 report links to the incubation period and the time taken to test and report. Mosquitoes keep their own calendar: see [mosquito season in British Columbia](/blog/mosquitoes-in-british-columbia)." },
+
+    { "type": "h2", "text": "What is tick paralysis, and who gets it in BC?" },
+    { "type": "p", "text": "It is a rare paralysis caused by a toxin in tick saliva, and it reverses once the tick is removed. [BCCDC's tick paralysis page](https://www.bccdc.ca/health-info/diseases-conditions/tick-borne-diseases/tick-paralysis) says the Rocky Mountain wood tick and the American dog tick cause most human cases in Canada, that *Ixodes* ticks can cause it but very rarely, and that it affects animals as well as people. The wood tick is found throughout BC but is most common in the interior, and for that tick the province says the main concern in BC is tick paralysis rather than disease." },
+    { "type": "p", "text": "Tick paralysis is not a reportable disease, so there are no official counts, but BCCDC's lab is consulted on 0 to 2 human cases a year in BC. Most occur in the interior in spring and summer, and children are affected more often than adults." },
+    { "type": "p", "text": "Symptoms begin after a female tick has fed for 5 to 7 days: numbness and tingling in the face and limbs, tiredness, weakness, irritability, restlessness or muscle pains. Over hours or days, unsteady balance can give way to paralysis that climbs from the legs, or that affects one part of the body such as an arm or a leg, sometimes with double vision and trouble swallowing or speaking. Rarely, if the tick is not removed quickly, paralysis of the breathing muscles can be fatal, BCCDC says." },
+    { "type": "p", "text": "Treatment is removing the tick, and most people recover or improve substantially within a few hours. Because the tick can be hidden, BCCDC advises searching the scalp, neck, ears and the spaces between the fingers, combing through the hair with a fine-toothed comb. The province says to get medical help if weakness or paralysis begins, or if there is any trouble swallowing, speaking or breathing. [Our guide to tick paralysis](/blog/tick-paralysis) covers it in depth." },
+
+    { "type": "h2", "text": "Which other tick-borne diseases occur in British Columbia?" },
+    { "type": "p", "text": "A few, all rare. BCCDC's 2023 report puts tick-borne Rocky Mountain spotted fever at 0 to 3 cases a year in BC and tick-borne tularemia at 0 to 2, and BCCDC's tick-borne diseases page names *Dermacentor* ticks as carriers of both. The anaplasmosis and babesiosis germs have been found in BC ticks, but the 2023 report says no human case of either had been reported in BC." },
+    { "type": "p", "text": "Tick-borne relapsing fever is the odd one out, with 0 to 7 cases a year in BC, according to BCCDC's [relapsing fever page](https://www.bccdc.ca/health-info/diseases-conditions/tick-borne-diseases/tick-borne-relapsing-fever). It is spread by a soft tick, *Ornithodoros hermsi*, that lives in rodent burrows, and people usually meet it while sleeping in rodent-infested cabins. Unlike the hard ticks above, it feeds for less than half an hour, usually while its host sleeps, so most people never find it." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/relapsing-fever-soft-tick.webp",
+      "width": 1200,
+      "height": 794,
+      "alt": "Magnified soft tick Ornithodoros hermsi seen from above, with a pale, rounded, granular body and short pale legs against a dark blue background",
+      "caption": "The soft tick *Ornithodoros hermsi*, magnified. In BC it lives in rodent burrows and can carry the bacterium behind tick-borne relapsing fever.",
+      "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=14477"
+    },
+    { "type": "p", "text": "Symptoms usually begin 3 to 12 days after the bite: bouts of high fever, 39 °C to 43 °C, lasting 1 to 3 days and separated by fever-free spells of 4 to 14 days, with headache, muscle and joint aches, shaking chills and abdominal pain. BCCDC recommends antibiotic treatment." },
+
+    { "type": "h2", "text": "How do you get a tick identified or tested in BC?" },
+    { "type": "p", "text": "Start with a photo. BCCDC's tick-borne diseases page calls eTick, free for BC residents through its website or app, the preferred way to have a tick identified quickly. If it is a kind that can carry disease, you will be told to keep the tick in a freezer for 30 days, watch for signs of illness and see a health care provider immediately if any appear. [eTick's FAQ](https://www.etick.ca/en/content/faqs) says it aims to name the species within one to two business days, and that a tick mailed to it will not be tested for Lyme disease." },
+    { "type": "p", "text": "Testing goes through a professional. BCCDC's Public Health Laboratory tests ticks found on BC residents free of charge when a physician submits them, but does not accept ticks from the public, and BCCDC does not recommend commercial tick tests. As of October 2026, veterinarians pay $75 a tick for identification and Lyme testing of an animal's tick, or $30 for identification alone if it is not a kind that carries Lyme disease; rates can change." },
+    { "type": "p", "text": "A tick result is not a diagnosis: [PHAC](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/remove-tick.html) says tick testing is not intended to guide diagnosis or treatment, which rest on symptoms, travel history, tick exposure and, when needed, blood tests." },
+    {
+      "type": "table",
+      "head": ["What you need", "Where to go in BC", "What to know"],
+      "rows": [
+        ["A name for the tick", "eTick, by photo", "Free; aims to reply within 1 to 2 business days; no Lyme testing"],
+        ["A tick tested", "A physician; for a pet, a veterinarian", "Free when a physician submits a tick from a person; $75 or $30 for an animal's tick"],
+        ["Advice by phone", "HealthLink BC at 8-1-1, or 7-1-1 for the deaf and hard of hearing", "Free; nurses 24 hours a day; translation in over 130 languages"],
+        ["Care for a rash, fever or other symptoms within 30 days", "A health care provider", "Say when and where you were bitten"],
+        ["Help with signs of tick paralysis", "Medical help as soon as possible", "Weakness spreading up from the legs, or trouble swallowing, speaking or breathing"]
+      ],
+      "caption": "As of October 2026. Sources: BCCDC's tick-borne diseases and Lyme disease pages, eTick's FAQ, [HealthLink BC's 8-1-1 services](https://www.healthlinkbc.ca/find-care/healthlink-bc-8-1-1-services) and the province."
+    },
+
+    { "type": "h2", "text": "What should you do after a tick bite in BC?" },
+    { "type": "p", "text": "Remove the tick as soon as possible; [PHAC's tick removal guide](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/remove-tick.html) says that reduces the chance of infection. Its steps:" },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick's head as close to the skin as possible with clean, fine-point tweezers and pull slowly straight out, trying not to twist or squeeze it.",
+        "If the mouthparts break off, remove them with the tweezers; if they do not come out easily, leave them and let the skin heal.",
+        "Wash the bite with soap and water or an alcohol-based sanitizer."
+      ]
+    },
+    { "type": "p", "text": "Do not burn the tick or smother it with nail polish, nail polish remover, essential oils or petroleum jelly, which PHAC says can make it release possibly infected stomach contents into the bite. Note the date, the part of the body bitten and where you were. [Our tick removal guide](/blog/how-to-remove-tick-safely) shows the technique step by step." },
+    { "type": "p", "text": "See a doctor to remove a tick buried deep in the skin, BCCDC says, since pulling it out can leave mouthparts behind and cause infection. Speed matters: [PHAC's guidance for health professionals](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/health-professionals-lyme-disease.html) says infected blacklegged and western blacklegged ticks typically need to be attached for at least 24 hours to pass on the Lyme bacterium." },
+    { "type": "h3", "text": "Do you need an antibiotic after a tick bite in BC?" },
+    { "type": "p", "text": "Usually not. Because fewer than 1% of the ticks submitted to BCCDC carry the Lyme bacterium, BCCDC's [Lyme disease page](https://www.bccdc.ca/health-info/diseases-conditions/tick-borne-diseases/lyme-disease-borrelia-burgdorferi-infection) says a preventive antibiotic is usually not necessary after a bite from a BC tick. After a bite outside BC, a health care provider may recommend one, weighing the kind of tick, how often ticks carry the bacterium where the bite happened, how long the tick was attached and the benefits and harms." },
+    { "type": "h3", "text": "What symptoms should you watch for?" },
+    { "type": "p", "text": "Early Lyme disease develops 3 to 30 days after an infected bite, PHAC's guidance says. Most people get erythema migrans, a rash more than 5 cm across at the bite, usually within 7 days; it is usually painless and not itchy, often lacks the bull's-eye look and can look like a bruise on dark skin. Fever, feeling unwell, headache, muscle aches, joint pain that moves from joint to joint and swollen lymph nodes can come with it; untreated, the infection can spread to the nerves, the heart and the joints. [Our guide to Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers each stage." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Round red rash on the back of a person's upper arm, with a darker red centre, a paler ring and a wider red outer ring, above a blue sleeve",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, here in a bull's-eye pattern. PHAC says many such rashes lack the bull's-eye look.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    { "type": "p", "text": "Not every red mark is Lyme disease. PHAC describes a simple reaction to the bite itself: a red patch under 5 cm that appears within 24 hours, does not spread and usually fades within 48 hours; a patch still there after 48 hours should be checked again for erythema migrans." },
+    { "type": "callout", "tone": "warning", "title": "See a health care provider if you feel unwell", "text": "BCCDC advises seeing a health care provider if you get symptoms within 30 days of a tick bite and telling them when and where you were bitten; 8-1-1 reaches a nurse at any hour. This page summarizes what public health agencies publish and is not a diagnosis." },
+
+    { "type": "h2", "text": "How can you avoid tick bites in BC?" },
+    { "type": "p", "text": "Cover up, use a repellent and check for ticks after time outdoors. BCCDC's advice for hikes and walks:" },
+    {
+      "type": "ul",
+      "items": [
+        "**Dress for it.** Wear long pants and a long-sleeved shirt in light colours, so ticks are easier to spot, with your pants tucked into your socks, your shirt tucked into your pants and closed-toe shoes.",
+        "**Use a repellent.** Apply one with DEET or icaridin, and reapply as the product directs.",
+        "**Stay in the middle of the trail.** Avoid brushing against plants and bushes: ticks do not jump, fly or drop from trees, the province says, but grab on as people and animals brush past.",
+        "**Check everyone.** Check your whole body, including the scalp, skin folds, underarms and the backs of the knees, and check children, pets and gear.",
+        "**Use the dryer and the shower.** Put the clothes you wore in a hot dryer for at least 10 minutes, and shower to wash off any loose ticks."
+      ]
+    },
+    { "type": "p", "text": "[Health Canada's guide to personal insect repellents](https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html) sets the age rules. DEET products of up to 30% are for adults and children over 12. Children aged 2 to 12 can use up to 10%, up to three times a day, and children aged 6 months to 2 years up to 10%, once a day; do not use DEET on babies under 6 months, or every day for more than a month on children under 12. Icaridin repels mosquitoes and ticks but should not be used on babies under 6 months. Permethrin-treated clothing protects against mosquitoes and ticks for adults, including pregnant women, but is not available for children under 16." },
+    { "type": "p", "text": "A registered repellent carries a PCP number on its label, and Health Canada notes that a product that repels mosquitoes might not work for ticks, so check that the label lists ticks. There is no vaccine in Canada against any tick-borne infection, BCCDC says." },
+    { "type": "p", "text": "Pets need checks too. Dogs are particularly susceptible to Lyme disease, and signs can take 7 to 21 days or longer to appear, so BCCDC advises checking pets after time outdoors, removing any tick right away and asking your veterinarian about tick checks and preventives. [Can dogs get Lyme disease?](/blog/can-dogs-get-lyme-disease) explains the signs to watch for." }
+  ],
+  "faqs": [
+    {
+      "question": "Do ticks in BC carry Lyme disease?",
+      "answer": "Some do, but very few. The western blacklegged tick, found mostly on the south coast, can carry the Lyme bacterium, yet fewer than 1% of the ticks the BC Centre for Disease Control tests carry it; in 2025, 6 of the 816 Ixodes ticks its lab tested were positive. BCCDC rates the risk of Lyme disease in BC as low. It counted 42 confirmed cases in 2025, and only 12 of those people were likely infected in the province."
+    },
+    {
+      "question": "Are there ticks in Vancouver and on Vancouver Island?",
+      "answer": "Yes. The BC Centre for Disease Control says the ticks that can carry Lyme disease are most common in southwestern BC, including Vancouver Island, the Gulf Islands, the Sunshine Coast, Greater Vancouver and the Fraser Valley. Vancouver, Victoria and Nanaimo are among the places on the Public Health Agency of Canada's 2025 list of Lyme disease risk areas. Even there the chance of infection is low, because so few ticks carry the bacterium."
+    },
+    {
+      "question": "Are there ticks in northern BC?",
+      "answer": "Yes, though fewer are reported. Most tick photos sent to eTick come from the south coast and the southern interior, but in 2024 BC residents sent photos of Ixodes ticks from places including Prince George and Haida Gwaii, and of Dermacentor ticks from as far north as Fort Nelson, the BC Centre for Disease Control reports. Northern Health reported 6 of BC's 99 locally acquired Lyme disease cases from 2006 to 2022, and none after 2017."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in BC?",
+      "answer": "Yes, through a physician or a veterinarian. The BC Centre for Disease Control's lab tests ticks found on BC residents free of charge when a physician submits them, and tests ticks from animals for a fee when a veterinarian submits them, but it does not accept ticks directly from the public. For identification alone, send a free photo to eTick. The Public Health Agency of Canada notes that tick testing is not meant to guide diagnosis or treatment."
+    },
+    {
+      "question": "Do I need antibiotics after a tick bite in BC?",
+      "answer": "Usually not. The BC Centre for Disease Control says a preventive antibiotic is usually not necessary after a bite from a BC tick, because fewer than 1% of the ticks submitted to it carry the Lyme bacterium. After a bite outside BC, a health care provider may recommend one based on the kind of tick, where you were and how long it was attached. See a provider if a rash, fever or other symptoms appear within 30 days of a bite."
+    },
+    {
+      "question": "When is tick season in BC?",
+      "answer": "Ticks can be found all year in BC, but they are most likely to bite from March to June, according to the BC Centre for Disease Control. May is the peak month for ticks sent to its lab and to eTick, with a small second rise in October and November. In the interior, the Rocky Mountain wood tick is most active from March to June, the province says."
+    }
+  ],
+  "sources": [
+    { "title": "Lyme Disease (Borrelia burgdorferi infection)", "publisher": "BC Centre for Disease Control", "url": "https://www.bccdc.ca/health-info/diseases-conditions/tick-borne-diseases/lyme-disease-borrelia-burgdorferi-infection" },
+    { "title": "Tick-borne diseases (species in BC, prevention, removal, identification and testing)", "publisher": "BC Centre for Disease Control", "url": "https://www.bccdc.ca/health-info/diseases-conditions/tick-borne-diseases" },
+    { "title": "Lyme Disease in Humans and Tick Surveillance in British Columbia: 2026 Update (2025 data)", "publisher": "BC Centre for Disease Control", "url": "https://www.bccdc.ca/resource-gallery/Documents/Lyme_Disease_and_Tick_Surveillance_BC_2026.pdf" },
+    { "title": "Lyme Disease in Humans and Tick Surveillance in British Columbia: 2025 Update (2024 data)", "publisher": "BC Centre for Disease Control", "url": "https://www.bccdc.ca/resource-gallery/Documents/Lyme%20Disease%20and%20Tick%20Surveillance%20in%20British%20Columbia%20-%202025%20Update.pdf" },
+    { "title": "Ticks and Tick-Borne Disease Surveillance in British Columbia, June 2023 (up-to-date version)", "publisher": "BC Centre for Disease Control", "url": "https://www.bccdc.ca/resource-gallery/Documents/Ticks%20and%20Tick-Borne%20Disease%20Surveillance%20in%20British%20Columbia_June%202023_Final%20%28Up-to-Date%20Version%29.pdf" },
+    { "title": "Tick Paralysis", "publisher": "BC Centre for Disease Control", "url": "https://www.bccdc.ca/health-info/diseases-conditions/tick-borne-diseases/tick-paralysis" },
+    { "title": "Tick-borne Relapsing Fever", "publisher": "BC Centre for Disease Control", "url": "https://www.bccdc.ca/health-info/diseases-conditions/tick-borne-diseases/tick-borne-relapsing-fever" },
+    { "title": "Lyme Risk Areas in BC (interactive map)", "publisher": "BC Centre for Disease Control", "url": "https://maps.bccdc.ca/lyme/" },
+    { "title": "Ticks in British Columbia (last updated May 22, 2026)", "publisher": "Government of British Columbia", "url": "https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/animals-and-crops/plant-health/insects-and-plant-diseases/home-garden/ticks" },
+    { "title": "HealthLink BC 8-1-1 Services (last updated January 23, 2026)", "publisher": "HealthLink BC, BC Ministry of Health", "url": "https://www.healthlinkbc.ca/find-care/healthlink-bc-8-1-1-services", "kind": "government" },
+    { "title": "Annual report: Tick-borne disease surveillance in Canada (2024 data)", "publisher": "Public Health Agency of Canada, Health Infobase", "url": "https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" },
+    { "title": "Ticks in Canada", "publisher": "Public Health Agency of Canada (page dated August 7, 2026)", "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html" },
+    { "title": "Lyme disease: Spread, prevention and risks (including Lyme disease risk areas, 2025)", "publisher": "Public Health Agency of Canada (page dated July 3, 2026)", "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/prevention-lyme-disease.html" },
+    { "title": "Surveillance for Ixodes scapularis and Ixodes pacificus ticks and their associated pathogens in Canada, 2022", "publisher": "Canada Communicable Disease Report 52(1/2), Public Health Agency of Canada, February 2026 (CC BY 4.0)", "url": "https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2022.html" },
+    { "title": "Lyme disease: For health professionals", "publisher": "Public Health Agency of Canada (page dated July 3, 2026)", "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/health-professionals-lyme-disease.html" },
+    { "title": "How to remove a tick", "publisher": "Public Health Agency of Canada (page dated July 29, 2025)", "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/remove-tick.html" },
+    { "title": "Personal insect repellents", "publisher": "Health Canada", "url": "https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html" },
+    { "title": "eTick: Frequently asked questions", "publisher": "eTick.ca (public tick identification platform; Bishop's University and partners, including BCCDC)", "url": "https://www.etick.ca/en/content/faqs" },
+    { "title": "Canadian Climate Normals 1991–2020 Data: Vancouver International (Airport)", "publisher": "Environment and Climate Change Canada", "url": "https://climate.weather.gc.ca/climate_normals/results_1991_2020_e.html?searchType=stnName_1991&txtStationName_1991=Vancouver&searchMethod=contains&txtCentralLatMin=0&txtCentralLatSec=0&txtCentralLongMin=0&txtCentralLongSec=0&climate_id=1108447&dispBack=1" }
+  ],
+  "disclaimer": "both"
+}

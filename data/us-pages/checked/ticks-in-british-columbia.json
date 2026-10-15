@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-british-columbia",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "d214d40d0ee9118f83d71d4da11b2ea27a313f311ca66980681803c93bc9288d",
+ "claimsChecked": 240,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 3,
+ "checkedOn": "2026-10-15"
+}
