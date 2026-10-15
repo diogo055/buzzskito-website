@@ -75,6 +75,12 @@ page, plus:
   page, and cite it. If a service cannot be confirmed, leave it out.
 - A secondary site (news, pest company) may be cited only for news events, marked
   `"kind": "news"`.
+- **Connecticut** (found Oct 15): since 2022, CDC and the Census report Connecticut by its 9
+  planning regions (FIPS 09110 to 09190), not the 8 old counties. The packets were built on the
+  old counties, so Connecticut's county-level figures from 2022 on (and the 2019-2022 totals for
+  other tick-borne diseases) are missing or understated there. Read the region rows straight
+  from the files in `data/god-build/raw/`, show region data as a table (the map shapes in
+  `data/geo/ct.json` are the old counties), and say which geography each figure uses.
 
 ## Style
 

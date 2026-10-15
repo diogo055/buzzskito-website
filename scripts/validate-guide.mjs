@@ -391,7 +391,10 @@ function validate(file) {
   if (god && CA !== (g.locale === 'en-CA')) err(CA ? '"locale" must be "en-CA" on a Canadian page' : '"locale" must be left out (or "en-US") on a US page')
   const sp = CA ? [] : usSpellingProblems(joined)
   if (sp.length) err(`non-US spelling: ${sp.join(', ')}`)
-  const hard = CA ? null : visible.match(new RegExp(CANADA_HARD.source, 'g'))
+  // US places that share a Canadian name are not Canadian references (Oct 15: the New York page
+  // could not name Lake Ontario or Ontario County)
+  const US_NAMESAKES = /\b(Lake Ontario|Ontario County|Ontario, (California|Oregon))\b/g
+  const hard = CA ? null : visible.replace(US_NAMESAKES, '').match(new RegExp(CANADA_HARD.source, 'g'))
   if (hard && p.audience !== 'na') err(`Canada-specific reference: ${[...new Set(hard)].join(', ')}`)
   const canad = (visible.match(/Canad/g) || []).length
   if (canad > 2 && p.audience !== 'na' && !CA) err(`"Canada/Canadian" appears ${canad} times; these pages are for US readers (a passing range note such as "the northern US and southern Canada" is the limit)`)
