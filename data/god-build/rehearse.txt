@@ -1,0 +1,4 @@
+2026-11-16
+The first line is the release date that .github/workflows/release-rehearsal.yml rehearses when
+this file changes on main. The rehearsal builds the site exactly as the real release would and
+publishes nothing.

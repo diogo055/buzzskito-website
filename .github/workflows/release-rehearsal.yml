@@ -1,0 +1,60 @@
+# Dress rehearsal of a scheduled release: runs everything the real release does for a given date
+# (moves the due, fact-checked pages live inside the runner, wires them in, builds the whole site
+# and runs every guard) and then stops. It cannot publish: it has read-only access and no push
+# step. Use it to prove a release date will go through before the day comes.
+#
+# Start it by changing the date in data/god-build/rehearse.txt and pushing, or from
+# GitHub > Actions > "Rehearse a scheduled release" > Run workflow.
+name: Rehearse a scheduled release
+
+on:
+  push:
+    branches: [main]
+    paths: ['data/god-build/rehearse.txt']
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Rehearse the release of this date (YYYY-MM-DD)'
+        required: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-rehearsal
+  cancel-in-progress: true
+
+jobs:
+  rehearse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Which date?
+        run: |
+          D="${{ inputs.date }}"
+          if [ -z "$D" ]; then D=$(grep -m1 -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}' data/god-build/rehearse.txt); fi
+          echo "RELEASE_DATE=$D" >> "$GITHUB_ENV"
+          echo "Rehearsing the release of $D"
+
+      - name: Move the due pages live (inside this runner only)
+        id: release
+        run: node scripts/release-scheduled.mjs
+
+      - name: Install
+        run: npm ci
+
+      - name: Build the site and run every guard (the same chain Vercel runs)
+        run: npm run build --ignore-scripts
+
+      - name: Result
+        run: |
+          echo "Rehearsal passed for $RELEASE_DATE: ${{ steps.release.outputs.released }} page(s) would go live."
+          cat data/god-build/last-release-commit.txt || true
