@@ -304,7 +304,7 @@ function validate(file) {
   if (want && g.disclaimer !== want && g.disclaimer !== 'both') err(`"disclaimer" must be "${want}"`)
 
   // ── sources and links ─────────────────────────────────────────────────────────
-  const [sMin, sMax] = pillar ? [5, 8] : visual ? [4, 7] : god ? [4, 12] : [3, 6]
+  const [sMin, sMax] = pillar ? [5, 8] : visual ? [4, 7] : god ? [4, 15] : [3, 6]
   const srcUrls = new Set()
   let auth = 0
   if (!Array.isArray(g.sources) || g.sources.length < sMin || g.sources.length > sMax) err(`"sources" must list ${sMin} to ${sMax} sources`)

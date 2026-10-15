@@ -44,8 +44,12 @@ page, plus:
   existing pages (`data/us-pages/routes.json` lists them; e.g. /blog/what-do-ticks-look-like,
   /blog/how-to-remove-tick-safely, /learn/tick-identification-chart, /blog/ticks-on-dogs,
   /blog/how-to-get-rid-of-mosquitoes). Never link service or city pages.
-- 4 to 6 FAQs (35 to 120 words each, plain text), 4 to 12 sources (at least 3 government,
-  university or scientific), each linked inline where it is used.
+- 4 to 6 FAQs (35 to 120 words each, plain text), 4 to 15 sources (at least 3 government,
+  university or scientific), each linked inline where it is used. Official government sites
+  on non-.gov domains (a county on .org) take `"kind": "government"`.
+- Anything that changes during a season (this year's case count so far, a city's current
+  ZIP codes) is dated in the text ("as of October 2026"), because pages are written weeks
+  before they go live.
 
 ## Data rules
 
