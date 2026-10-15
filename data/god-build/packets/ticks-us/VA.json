@@ -502,8 +502,8 @@
   },
   "note2019to2022": "Cases summed over 2019-2022, by county of residence (CDC). Lyme here is the 2019-2022 sum.",
   "anaplasmosisPerMillion2023": 3.5568006142479924,
-  "ehrlichiosisChaffeensisPerMillion2023": null,
-  "spottedFeverRickettsiosisPerMillion2023": null,
+  "ehrlichiosisChaffeensisPerMillion2023": 11.24407936,
+  "spottedFeverRickettsiosisPerMillion2023": 10.55566634,
   "noteIncidence": "Annual incidence per million population, 2023 (CDC); -1 means not notifiable in that state.",
   "tularemiaCases2023": 4,
   "powassanCasesByYear": {

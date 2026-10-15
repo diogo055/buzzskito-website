@@ -121,10 +121,15 @@ const tbdCounty = {}
     ;(tbdCounty[s.code] ||= []).push(rec)
   }
 }
+// CDC's three incidence exports order their columns differently (anaplasmosis puts the state
+// third, ehrlichiosis and spotted fever first), so find the columns by name. Until Oct 15 this
+// read the anaplasmosis layout everywhere and left the other two rates null in every packet.
 const incidence = (file) => {
   const rows = readXlsx(join(RAW, file)).Export
+  const col = (re) => { const i = rows[0].findIndex((h) => re.test(h)); if (i < 0) throw new Error(`${file}: no column matching ${re}`); return i }
+  const [si, vi] = [col(/State_Name/), col(/SumIncidencePerMillion/)]
   const out = {}
-  for (const r of rows.slice(1)) { const s = byName[cleanName(r[2])]; if (s) out[s.code] = num(r[3]) }
+  for (const r of rows.slice(1)) { const s = byName[cleanName(r[si])]; if (s) out[s.code] = num(r[vi]) }
   return out
 }
 const anaplasmosis = incidence('anaplasmosis-incidence-by-state-2023.xlsx')
