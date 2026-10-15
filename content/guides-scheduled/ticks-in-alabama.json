@@ -1,0 +1,1161 @@
+{
+  "slug": "ticks-in-alabama",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in alabama",
+  "alsoTargets": [
+    "types of ticks in alabama",
+    "tick season alabama",
+    "lyme disease alabama"
+  ],
+  "metaTitle": "Ticks in Alabama: Types, County Maps and Season",
+  "metaDescription": "The lone star tick is Alabama's most abundant tick, and spotted fever outnumbers Lyme disease. Tick photos, county maps, case data, season and tick ID.",
+  "h1": "Ticks in Alabama: Species, County Maps, Disease Data and Tick Season",
+  "dek": "Which ticks live in Alabama, where CDC and the state have recorded them county by county, why spotted fever outnumbers Lyme disease here, when ticks are active and where to get a tick identified.",
+  "breadcrumb": "Ticks in Alabama",
+  "excerpt": "Lone star ticks are established in 42 of Alabama's 67 counties, and spotted fever is reported far more often than Lyme disease. County maps, case data, tick season and tick ID.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**The lone star tick is the most abundant tick in Alabama, according to [Alabama Extension](https://www.aces.edu/blog/topics/home-family/ticks-tick-borne-illnesses-in-alabama/), and the American dog, blacklegged (deer), Gulf Coast and brown dog ticks live here too.** Spotted fever rickettsiosis, not Lyme disease, is the state's most reported tick-borne illness: the [state health department](https://www.alabamapublichealth.gov/tick/data.html) counted 71 spotted fever cases and 38 Lyme cases in 2024.",
+    "bullets": [
+      "CDC's county tables, which run through 2025, list lone star ticks as established in 42 of Alabama's 67 counties, blacklegged (deer) ticks in 36 and American dog ticks in 17.",
+      "Alabama's 2023 spotted fever rate, 15.7 reported cases per million residents, was the fifth highest of any state in CDC's table, by our ranking; its Lyme rate was 0.7 per 100,000.",
+      "CDC's table of germs found in host-seeking blacklegged ticks lists no Alabama county with the Lyme bacterium, through December 2025.",
+      "Ticks can be active year-round in Alabama, most of all from April to September, and the state's spotted fever cases usually peak from May through August.",
+      "The invasive Asian longhorned tick was detected in Alabama in April 2026, on a dog in DeKalb County.",
+      "The state health department's 2025 newsletter says a tick can be sent to the University of South Alabama for identification."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Alabama at a glance",
+    "rows": [
+      [
+        "Most abundant tick",
+        "Lone star tick (Alabama Extension)"
+      ],
+      [
+        "Other ticks that bite people or pets",
+        "American dog, blacklegged (deer), Gulf Coast and brown dog ticks (Alabama Extension)"
+      ],
+      [
+        "Lone star tick",
+        "Established in 42 of 67 counties, reported in 18 (CDC, through 2025)"
+      ],
+      [
+        "Blacklegged (deer) tick",
+        "Established in 36 counties, reported in 19 (CDC, through December 2025)"
+      ],
+      [
+        "American dog tick",
+        "Established in 17 counties, reported in 46 (CDC, through 2025)"
+      ],
+      [
+        "Gulf Coast tick",
+        "Detected in 36 counties in 2022 to 2025 (state health department records, our count)"
+      ],
+      [
+        "Most reported tick-borne disease",
+        "Spotted fever rickettsiosis: 71 cases in 2024 (state count); 15.7 per million residents in 2023 (CDC)"
+      ],
+      [
+        "Lyme disease",
+        "36 cases in 2023, 0.7 per 100,000 (CDC); 38 in 2024 (state count)"
+      ],
+      [
+        "Lyme germ in Alabama ticks",
+        "No county on record in CDC's table of host-seeking ticks (through December 2025)"
+      ],
+      [
+        "Most active months",
+        "April to September; ticks can be active year-round (state health department)"
+      ],
+      [
+        "Asian longhorned tick",
+        "Detected on a dog in DeKalb County, April 2026 (state agriculture department)"
+      ],
+      [
+        "Tick identification",
+        "University of South Alabama, by mail (state health department, 2025)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Alabama?"
+    },
+    {
+      "type": "p",
+      "text": "[Alabama Extension's guide to ticks and tick-borne illnesses](https://www.aces.edu/blog/topics/home-family/ticks-tick-borne-illnesses-in-alabama/) describes five ticks that bite people or pets in the state: the lone star, blacklegged (deer), American dog, brown dog and Gulf Coast ticks, with the lone star the most abundant. The [Alabama Department of Public Health](https://www.alabamapublichealth.gov/tick/) names the blacklegged, American dog and lone star ticks as common, and the invasive Asian longhorned tick was detected in 2026."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Recorded in Alabama",
+        "Bites people most as",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Most abundant; established in 42 counties, reported in 18",
+          "Nymphs and adult females",
+          "Ehrlichiosis, tularemia, Heartland and Bourbon viruses; linked to STARI and alpha-gal syndrome"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Established in 17 counties, reported in 46",
+          "Adult females; highest risk in spring and summer",
+          "Rocky Mountain spotted fever, tularemia"
+        ],
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in 36 counties, reported in 19",
+          "Nymphs and adult females",
+          "Lyme disease, anaplasmosis, babesiosis, Powassan virus"
+        ],
+        [
+          "Gulf Coast tick, *Amblyomma maculatum*",
+          "Detected in 36 counties, 2022 to 2025 (state records, our count)",
+          "Adults have been linked to infections in people",
+          "*Rickettsia parkeri* rickettsiosis, a form of spotted fever"
+        ],
+        [
+          "Brown dog tick, *Rhipicephalus sanguineus*",
+          "Throughout the state, including indoors in homes and kennels",
+          "Mainly dogs, at every stage; may bite people",
+          "Rocky Mountain spotted fever in the southwestern US and along the Mexico border"
+        ]
+      ],
+      "caption": "Abundance and brown dog tick range: Alabama Extension. Counties: CDC ArboNET Tick Module, through 2025, except the Gulf Coast tick. Biting stages and diseases: [CDC's guide to where ticks live](https://www.cdc.gov/ticks/about/where-ticks-live.html), which describes each tick nationally."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts, pale-banded legs and a single pale yellowish spot in the middle of its back",
+      "caption": "Adult female lone star tick. Alabama Extension says adult females are easy to identify by the single white dot on the back.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "The lone star tick aggressively seeks people and pets, Alabama Extension says. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) calls it a very aggressive tick that bites humans, most often as nymphs and adult females. The [lone star tick guide](/blog/lone-star-tick) covers its life cycle and range."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, reddish-brown with a cream-and-brown mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick, with the pale, mottled shield behind the head.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "p",
+      "text": "The American dog tick commonly attaches to people and pets, Alabama Extension says, and [CDC's American dog tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html) says adult females are the stage most likely to bite people. It matters here because it spreads Rocky Mountain spotted fever, the most serious form of Alabama's most reported tick-borne disease."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "Adult female blacklegged tick and a much smaller nymph crawling on a person's fingertip, showing how tiny the nymph stage is",
+      "caption": "An adult female blacklegged (deer) tick, left, and a nymph, right, on a fingertip.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "p",
+      "text": "The blacklegged tick spreads Lyme disease, the [state health department's Lyme disease page](https://www.alabamapublichealth.gov/tick/lyme-disease.html) says. Alabama Extension notes that adult females have a reddish-brown body and that the name deer tick does not mean it feeds only on deer. For side-by-side photos, see [how to tell common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gulf-coast-tick-life-stages.webp",
+      "width": 1200,
+      "height": 758,
+      "alt": "Four Gulf Coast ticks in a row on a black background, from a tiny larva and a nymph to an adult male and a larger adult female, above a long pin for scale",
+      "caption": "Gulf Coast tick larva, nymph, adult male and adult female, left to right. The head of the pin is just under 2 mm (about 0.08 inch) across.",
+      "credit": "CDC/ Dr. Christopher Paddock (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10879"
+    },
+    {
+      "type": "p",
+      "text": "The Gulf Coast tick looks like the American dog tick and prefers large hosts such as livestock, deer and coyotes, but may bite people and pets given the chance, Alabama Extension says. CDC links the adults to *Rickettsia parkeri* rickettsiosis. The [Gulf Coast tick guide](/blog/gulf-coast-tick) has more on the species."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/brown-dog-tick-male.webp",
+      "width": 1200,
+      "height": 1167,
+      "alt": "Adult male brown dog tick seen from above under magnification, plain reddish-brown with no white markings, beside a 1 mm (0.04 inch) scale bar",
+      "caption": "Adult male brown dog tick, magnified; the scale bar is 1 mm (about 0.04 inch).",
+      "credit": "CDC/ Dr. Gary Alpert; PhD; photo: Anna Kang; Dr. Gary Alpert; PhD (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31722"
+    },
+    {
+      "type": "p",
+      "text": "The brown dog tick commonly infests homes, animal pens and dog kennels and can spend its entire life cycle indoors, Alabama Extension says; it prefers dogs but will feed on people. Dog owners can learn [how to check a dog for ticks and protect it](/blog/ticks-on-dogs)."
+    },
+    {
+      "type": "h2",
+      "text": "Where are lone star ticks found in Alabama?"
+    },
+    {
+      "type": "p",
+      "text": "Almost everywhere. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html), with county records through 2025, lists the species as established in 42 of Alabama's 67 counties and reported in 18 more; 7 have no record."
+    },
+    {
+      "type": "p",
+      "text": "The established counties include Jefferson, Madison, Shelby, Tuscaloosa, Lee and Baldwin, while Mobile and Montgomery counties have reported records. The seven without a record are Autauga, Crenshaw, Etowah, Geneva, Pike, Talladega and Walker, though the state's own 2022 to 2025 records, described below, show lone star ticks in Autauga."
+    },
+    {
+      "type": "map",
+      "scope": "AL",
+      "title": "Lone star tick status by county, Alabama, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "01003": "established",
+        "01005": "reported",
+        "01007": "established",
+        "01009": "established",
+        "01011": "reported",
+        "01013": "established",
+        "01015": "established",
+        "01017": "established",
+        "01019": "reported",
+        "01021": "reported",
+        "01023": "established",
+        "01025": "established",
+        "01027": "reported",
+        "01029": "established",
+        "01031": "reported",
+        "01033": "established",
+        "01035": "reported",
+        "01037": "established",
+        "01039": "reported",
+        "01043": "established",
+        "01045": "reported",
+        "01047": "established",
+        "01049": "established",
+        "01051": "established",
+        "01053": "established",
+        "01057": "established",
+        "01059": "reported",
+        "01063": "established",
+        "01065": "established",
+        "01067": "reported",
+        "01069": "established",
+        "01071": "established",
+        "01073": "established",
+        "01075": "established",
+        "01077": "established",
+        "01079": "established",
+        "01081": "established",
+        "01083": "established",
+        "01085": "reported",
+        "01087": "established",
+        "01089": "established",
+        "01091": "established",
+        "01093": "established",
+        "01095": "established",
+        "01097": "reported",
+        "01099": "established",
+        "01101": "reported",
+        "01103": "reported",
+        "01105": "reported",
+        "01107": "established",
+        "01111": "reported",
+        "01113": "established",
+        "01115": "reported",
+        "01117": "established",
+        "01119": "established",
+        "01123": "established",
+        "01125": "established",
+        "01129": "established",
+        "01131": "established",
+        "01133": "established"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means ticks were recorded there without meeting that bar. No record does not mean no ticks: it can mean no one has sampled or reported there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "p",
+      "text": "American dog ticks are recorded almost everywhere too. [CDC's American dog tick table](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html), also through 2025, lists them as established in 17 counties and reported in 46; only Conecuh, Crenshaw, Geneva and Pickens counties have no record. To compare Alabama with other states, see [tick maps and disease data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged (deer) ticks found in Alabama?"
+    },
+    {
+      "type": "p",
+      "text": "Across most of the state. [CDC's county table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in 36 counties and reported in 19, with no record in the other 12."
+    },
+    {
+      "type": "p",
+      "text": "The established counties run from Lauderdale, Colbert and Jackson in the north to Mobile and Baldwin on the coast, and include Jefferson, Shelby, Tuscaloosa, Lee and Houston. Madison and Montgomery counties have reported records. The 12 without a record are Blount, Cherokee, Cullman, Etowah, Limestone, Macon, Marion, Morgan, Perry, Pike, St. Clair and Walker."
+    },
+    {
+      "type": "map",
+      "scope": "AL",
+      "title": "Blacklegged (deer) tick status by county, Alabama, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "01001": "established",
+        "01003": "established",
+        "01005": "established",
+        "01007": "established",
+        "01011": "established",
+        "01013": "established",
+        "01015": "reported",
+        "01017": "established",
+        "01021": "reported",
+        "01023": "established",
+        "01025": "established",
+        "01027": "reported",
+        "01029": "reported",
+        "01031": "reported",
+        "01033": "established",
+        "01035": "established",
+        "01037": "established",
+        "01039": "established",
+        "01041": "established",
+        "01045": "reported",
+        "01047": "established",
+        "01049": "reported",
+        "01051": "established",
+        "01053": "established",
+        "01057": "established",
+        "01059": "established",
+        "01061": "reported",
+        "01063": "reported",
+        "01065": "established",
+        "01067": "established",
+        "01069": "established",
+        "01071": "established",
+        "01073": "established",
+        "01075": "established",
+        "01077": "established",
+        "01079": "reported",
+        "01081": "established",
+        "01085": "reported",
+        "01089": "reported",
+        "01091": "reported",
+        "01095": "reported",
+        "01097": "established",
+        "01099": "established",
+        "01101": "reported",
+        "01107": "established",
+        "01111": "reported",
+        "01113": "established",
+        "01117": "established",
+        "01119": "reported",
+        "01121": "reported",
+        "01123": "established",
+        "01125": "established",
+        "01129": "established",
+        "01131": "reported",
+        "01133": "established"
+      },
+      "caption": "Established means six or more blacklegged ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer than six of a single life stage. No record does not mean no ticks: CDC says it can reflect a lack of sampling or reporting. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html)"
+    },
+    {
+      "type": "p",
+      "text": "The state's own records fill some of those gaps. The health department's [2025 vector-borne disease newsletter](https://www.alabamapublichealth.gov/tick/assets/vbd_newsletter2025.pdf) has a county table of four tick species detected from 2022 to 2025 by its entomologist, the University of South Alabama and community observations on iNaturalist. By our count, it shows blacklegged ticks in 8 of the 12 counties with no CDC record (Blount, Cullman, Limestone, Macon, Morgan, Perry, Pike and St. Clair) and American dog ticks in Conecuh, Geneva and Pickens."
+    },
+    {
+      "type": "p",
+      "text": "The two measure different things. CDC's status is cumulative and depends on how many ticks were collected; the state's table marks any county where a species was detected in those four years, without separating established from reported populations."
+    },
+    {
+      "type": "h3",
+      "text": "Do Alabama's blacklegged ticks carry the Lyme germ?"
+    },
+    {
+      "type": "p",
+      "text": "None is on record. CDC's companion table of germs in host-seeking blacklegged ticks (ticks hunting for a host, not feeding) lists no Alabama county for any of the seven germs it tracks, including the Lyme bacterium, *Borrelia burgdorferi*. CDC notes that no record can mean no ticks were collected or tested."
+    },
+    {
+      "type": "h2",
+      "text": "Which tick-borne disease is most common in Alabama?"
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever rickettsiosis. The state health department's [2025 newsletter](https://www.alabamapublichealth.gov/tick/assets/vbd_newsletter2025.pdf) calls it Alabama's most common tick-borne disease, and its [table of cases by year](https://www.alabamapublichealth.gov/tick/data.html) counts 71 cases among residents in 2024, against 38 for Lyme disease. In CDC's 2019 to 2022 county file, Alabama residents had 805 spotted fever cases, the third most of any state after Arkansas and North Carolina and about 10% of the file's total, by our count."
+    },
+    {
+      "type": "p",
+      "text": "[CDC's spotted fever statistics](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html) put Alabama's 2023 rate at 15.7 reported cases per million residents, fifth highest in CDC's state table by our ranking, behind North Carolina, Arkansas, Kentucky and Missouri."
+    },
+    {
+      "type": "chart",
+      "title": "Reported spotted fever rickettsiosis cases in Alabama, 2008 to 2024",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "series": [
+        {
+          "name": "Cases among Alabama residents",
+          "values": [
+            93,
+            68,
+            83,
+            79,
+            167,
+            255,
+            214,
+            288,
+            453,
+            671,
+            673,
+            476,
+            90,
+            123,
+            118,
+            81,
+            71
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by residence (state count)",
+      "caption": "Cases that met CDC's case definitions among people living in Alabama, which does not necessarily show where they were infected. CDC's county file has 805 cases for 2019 to 2022 (the state: 807), and CDC's 2023 rate works out to about 80 cases (our calculation; the state: 81). Data through 2024, the latest year the state had posted as of October 2026.",
+      "source": "[Alabama Department of Public Health, tick-borne disease cases by year](https://www.alabamapublichealth.gov/tick/data.html)"
+    },
+    {
+      "type": "p",
+      "text": "Reports climbed to 671 cases in 2017 and 673 in 2018, then fell to 90 in 2020. The state says the drop could reflect shifts in surveillance and reporting or changes in people's activity during the COVID-19 pandemic; a summer rise still shows each year, but a much smaller one."
+    },
+    {
+      "type": "h3",
+      "text": "What is spotted fever rickettsiosis?"
+    },
+    {
+      "type": "p",
+      "text": "A group of infections caused by related *Rickettsia* bacteria, including *Rickettsia rickettsii*, which causes Rocky Mountain spotted fever, the most serious form in the US, and *Rickettsia parkeri*, the [state health department explains](https://www.alabamapublichealth.gov/tick/sfr.html). The department names the American dog tick and the Gulf Coast tick as ticks that spread them."
+    },
+    {
+      "type": "p",
+      "text": "Rocky Mountain spotted fever brings fever, headache, muscle pain and chills, and a rash that usually appears 2 to 4 days after the fever begins. *R. parkeri* rickettsiosis is usually milder and typically leaves an eschar, a dry, dark scab at the bite. Untreated Rocky Mountain spotted fever can be fatal; doxycycline is the recommended treatment for adults and children of all ages. Our [Rocky Mountain spotted fever guide](/blog/rocky-mountain-spotted-fever) has more."
+    },
+    {
+      "type": "h3",
+      "text": "Where in Alabama is spotted fever reported?"
+    },
+    {
+      "type": "p",
+      "text": "Nearly everywhere, with the highest counts in the north and west. In [CDC's county file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) for 2019 to 2022, 58 of the 67 counties had at least one case and 13 had 20 or more, led by Walker (56), Tuscaloosa (44), Jefferson (42) and Lamar (40). Barbour, Bullock, Conecuh, Coosa, Dale, Escambia, Henry, Houston and Macon reported none."
+    },
+    {
+      "type": "map",
+      "scope": "AL",
+      "title": "Reported spotted fever cases by county of residence, Alabama, 2019 to 2022",
+      "categories": [
+        {
+          "key": "c20",
+          "label": "20 or more cases"
+        },
+        {
+          "key": "c10",
+          "label": "10 to 19 cases"
+        },
+        {
+          "key": "c1",
+          "label": "1 to 9 cases"
+        },
+        {
+          "key": "c0",
+          "label": "No cases reported"
+        }
+      ],
+      "values": {
+        "01001": "c1",
+        "01003": "c1",
+        "01005": "c0",
+        "01007": "c10",
+        "01009": "c1",
+        "01011": "c0",
+        "01013": "c1",
+        "01015": "c20",
+        "01017": "c1",
+        "01019": "c1",
+        "01021": "c10",
+        "01023": "c10",
+        "01025": "c10",
+        "01027": "c1",
+        "01029": "c1",
+        "01031": "c1",
+        "01033": "c10",
+        "01035": "c0",
+        "01037": "c0",
+        "01039": "c1",
+        "01041": "c1",
+        "01043": "c20",
+        "01045": "c0",
+        "01047": "c10",
+        "01049": "c10",
+        "01051": "c1",
+        "01053": "c0",
+        "01055": "c10",
+        "01057": "c20",
+        "01059": "c10",
+        "01061": "c1",
+        "01063": "c1",
+        "01065": "c10",
+        "01067": "c0",
+        "01069": "c0",
+        "01071": "c20",
+        "01073": "c20",
+        "01075": "c20",
+        "01077": "c10",
+        "01079": "c10",
+        "01081": "c1",
+        "01083": "c10",
+        "01085": "c1",
+        "01087": "c0",
+        "01089": "c20",
+        "01091": "c20",
+        "01093": "c20",
+        "01095": "c10",
+        "01097": "c1",
+        "01099": "c1",
+        "01101": "c1",
+        "01103": "c10",
+        "01105": "c1",
+        "01107": "c20",
+        "01109": "c1",
+        "01111": "c1",
+        "01113": "c1",
+        "01115": "c20",
+        "01117": "c10",
+        "01119": "c10",
+        "01121": "c10",
+        "01123": "c1",
+        "01125": "c20",
+        "01127": "c20",
+        "01129": "c1",
+        "01131": "c1",
+        "01133": "c10"
+      },
+      "caption": "Cases among county residents, 2019 to 2022 combined. Counties are where patients live, not necessarily where they were bitten, and CDC's file leaves out cases with no county on record.",
+      "source": "[CDC, reported tickborne disease cases by county of residence, 2019 to 2022](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html)"
+    },
+    {
+      "type": "p",
+      "text": "By our calculation, Lamar County's 40 cases among about 13,700 residents equal roughly 73 cases per 100,000 people a year, about 18 times the statewide average of 4; Fayette and Marengo were near 50, and Jefferson, the most populous county, under 2."
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Cases, 2019 to 2022",
+        "Yearly rate per 100,000 (our calculation)",
+        "American dog tick (CDC)"
+      ],
+      "rows": [
+        [
+          "Walker",
+          "56",
+          "21.7",
+          "Reported"
+        ],
+        [
+          "Tuscaloosa",
+          "44",
+          "4.6",
+          "Established"
+        ],
+        [
+          "Jefferson",
+          "42",
+          "1.6",
+          "Established"
+        ],
+        [
+          "Lamar",
+          "40",
+          "72.9",
+          "Established"
+        ],
+        [
+          "Calhoun",
+          "37",
+          "8.0",
+          "Established"
+        ],
+        [
+          "Marengo",
+          "37",
+          "48.8",
+          "Reported"
+        ],
+        [
+          "Cullman",
+          "36",
+          "10.0",
+          "Reported"
+        ],
+        [
+          "Madison",
+          "36",
+          "2.3",
+          "Reported"
+        ],
+        [
+          "Fayette",
+          "32",
+          "49.6",
+          "Established"
+        ],
+        [
+          "Marion",
+          "32",
+          "27.6",
+          "Established"
+        ]
+      ],
+      "caption": "CDC's 2019 to 2022 county file; these ten counties had 392 of the state's 805 cases. Rates are our calculation: cases divided by four and by the Census Bureau's July 1, 2021 county estimate (Vintage 2025); small counties' rates swing widely. Tick status: CDC ArboNET Tick Module, through 2025."
+    },
+    {
+      "type": "p",
+      "text": "Cases do not line up neatly with tick records: Walker County, with the most cases, has none of the four species in the state's 2022 to 2025 tick table, though CDC lists American dog ticks as reported there."
+    },
+    {
+      "type": "h2",
+      "text": "Is Lyme disease common in Alabama?"
+    },
+    {
+      "type": "p",
+      "text": "No. CDC counted 36 cases among Alabama residents in 2023, a rate of 0.7 per 100,000, according to its [Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). The [state health department](https://www.alabamapublichealth.gov/tick/lyme-disease.html) says Alabama has few cases because it is considered a low-incidence state, and that cases occur more often between March and October."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Alabama, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            9,
+            3,
+            2,
+            24,
+            25,
+            24,
+            64,
+            25,
+            38,
+            41,
+            36,
+            66,
+            14,
+            51,
+            32,
+            36
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "A revised case definition took effect in 2022, and CDC says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions. The state health department's table differs in four years (2011: 25; 2014: 17; 2017: 39; 2020: 15); this page uses CDC's figures. The state counts 38 cases for 2024, a year CDC had not published as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html); state counts: [Alabama Department of Public Health](https://www.alabamapublichealth.gov/tick/data.html)"
+    },
+    {
+      "type": "p",
+      "text": "Yearly counts since 2008 have ranged from 2 in 2010 to 66 in 2019. Compare recent years with care: under the 2022 definition, a case in a low-incidence state such as Alabama still needs clinical information, and a probable case now needs objective signs of infection. CDC's [report on 2022](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) lists 32 Alabama cases, a third below the 2017 to 2019 average of 48, and says the changes rule out robust comparisons with earlier years."
+    },
+    {
+      "type": "h3",
+      "text": "Why is Lyme disease rare in Alabama?"
+    },
+    {
+      "type": "p",
+      "text": "Southern blacklegged ticks behave differently. A [2021 study in PLOS Biology](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001066), which sampled sites from Wisconsin to Florida, including one in Alabama's Talladega National Forest, found that young blacklegged ticks in the South attach mostly to lizards such as skinks, which are poor carriers of the Lyme germ, rather than to mice and shrews, and that southern nymphs rarely climb above the leaf litter to seek hosts, so they seldom meet people."
+    },
+    {
+      "type": "p",
+      "text": "The Alabama site fit the pattern: only 21 host-seeking adult blacklegged ticks were collected there, and none of the 17 tested carried the Lyme bacterium, according to the study's data, while about two-thirds of those tested at the Massachusetts site did."
+    },
+    {
+      "type": "h3",
+      "text": "Which Alabama counties report Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Cases are spread thinly. [CDC's county file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) counts 163 Alabama cases from 2019 to 2022 across 49 counties, led by Tuscaloosa (16), Madison (13) and Jefferson (10). Walker County had 7 cases but no blacklegged tick record; cases are counted where patients live, not necessarily where they were bitten."
+    },
+    {
+      "type": "h3",
+      "text": "How does Alabama compare with its neighbors?"
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Lyme cases per 100,000, 2023",
+        "Spotted fever cases per 100,000, 2023"
+      ],
+      "rows": [
+        [
+          "Alabama",
+          "36",
+          "0.7",
+          "1.6"
+        ],
+        [
+          "[Florida](/blog/ticks-in-florida)",
+          "271",
+          "1.2",
+          "0.1"
+        ],
+        [
+          "[Georgia](/blog/ticks-in-georgia)",
+          "18",
+          "0.2",
+          "0.3"
+        ],
+        [
+          "[Mississippi](/blog/ticks-in-mississippi)",
+          "4",
+          "0.1",
+          "0.8"
+        ],
+        [
+          "[Tennessee](/blog/ticks-in-tennessee)",
+          "50",
+          "0.7",
+          "1.2"
+        ]
+      ],
+      "caption": "Lyme: [CDC's Lyme surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html), by state of residence. Spotted fever: [CDC's 2023 state incidence table](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html), converted from rates per million (Alabama 15.7, Florida 1.2, Georgia 3.0, Mississippi 7.8, Tennessee 12.1). 2023 was the latest year in both series as of October 2026."
+    },
+    {
+      "type": "p",
+      "text": "Among Alabama and its four neighbors, Alabama had the highest spotted fever rate in 2023, and its Lyme rate tied Tennessee's for second, behind Florida (our comparison)."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne illnesses occur in Alabama?"
+    },
+    {
+      "type": "p",
+      "text": "Several, in small numbers. The [state health department](https://www.alabamapublichealth.gov/tick/) lists ehrlichiosis and anaplasmosis with spotted fever and Lyme disease as the most common tick-borne diseases it tracks, and tularemia, babesiosis and alpha-gal syndrome among rarer ones."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Tick linked to it",
+        "Alabama cases, 2019 to 2022 (CDC)",
+        "Alabama cases, 2024 (state)"
+      ],
+      "rows": [
+        [
+          "Spotted fever rickettsiosis, including Rocky Mountain spotted fever",
+          "American dog tick; Gulf Coast tick",
+          "805",
+          "71"
+        ],
+        [
+          "Lyme disease",
+          "Blacklegged tick",
+          "163",
+          "38"
+        ],
+        [
+          "Ehrlichiosis",
+          "Lone star tick",
+          "60",
+          "9"
+        ],
+        [
+          "Anaplasmosis",
+          "Blacklegged tick",
+          "24",
+          "5"
+        ],
+        [
+          "Tularemia",
+          "American dog tick; lone star tick",
+          "8",
+          "1"
+        ],
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "0",
+          "4"
+        ]
+      ],
+      "caption": "2019 to 2022: [CDC's county file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html); ehrlichiosis is 59 *E. chaffeensis* cases and 1 *E. ewingii*. For those years the state's table has 807 spotted fever, 164 Lyme and 2 babesiosis cases; this page uses CDC's figures. 2024: the state's case table, the latest year posted as of October 2026. Both count cases by residence."
+    },
+    {
+      "type": "p",
+      "text": "Ehrlichiosis comes next. The state counted 31 cases in 2019 and 9 in 2024, and CDC's county file puts the most *E. chaffeensis* cases in Madison (9), Lauderdale (8) and Cullman (6) counties. CDC links it to the lone star tick. Read about [ehrlichiosis symptoms and treatment](/blog/ehrlichiosis)."
+    },
+    {
+      "type": "p",
+      "text": "CDC also links the lone star tick to southern tick-associated rash illness (STARI), a circular rash of unknown cause, and says growing evidence suggests its bite may trigger alpha-gal syndrome, an allergy to red meat and other mammal products; neither appears in the state's case table. See [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome)."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Alabama?"
+    },
+    {
+      "type": "p",
+      "text": "All year, with the most activity in warm months. [Alabama Extension](https://www.aces.edu/blog/topics/home-family/ticks-tick-borne-illnesses-in-alabama/) says ticks in every life stage may be active year-round in Alabama, and the state health department's [2025 newsletter](https://www.alabamapublichealth.gov/tick/assets/vbd_newsletter2025.pdf) says they are most active from April to September. The [department](https://www.alabamapublichealth.gov/tick/) adds that tick-borne illnesses have been reported year-round."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Alabama Extension: months active",
+        "State health department (2025): season"
+      ],
+      "rows": [
+        [
+          "Lone star",
+          "Nymphs and adults: March to October",
+          "Early spring to late summer (March to August)"
+        ],
+        [
+          "American dog",
+          "Nymphs and adults: April to September",
+          "Spring to early fall (March to September)"
+        ],
+        [
+          "Blacklegged (deer)",
+          "Nymphs: March to June; adults: September to March",
+          "Year-round, peaking in spring and fall"
+        ],
+        [
+          "Gulf Coast",
+          "Nymphs: December to April; adults: May to August",
+          "Late spring to fall (April to October)"
+        ],
+        [
+          "Brown dog",
+          "Nymphs and adults: all year",
+          "Not listed"
+        ]
+      ],
+      "caption": "Alabama Extension's guide (2018, reviewed January 2024) and the state health department's 2025 newsletter. Ticks can turn up outside these months."
+    },
+    {
+      "type": "p",
+      "text": "Illness follows the ticks. The state's spotted fever cases usually peak from May through August, and the department says spotted fever and Lyme cases occur most often between March and October. Adult blacklegged ticks run the other way: Alabama Extension puts them from September to March, and the state calls the species cold-tolerant, so winter woods are not tick-free."
+    },
+    {
+      "type": "h2",
+      "text": "Has the Asian longhorned tick reached Alabama?"
+    },
+    {
+      "type": "p",
+      "text": "Yes. The [Alabama Department of Agriculture and Industries](https://agi.alabama.gov/animalindustries/2026/04/asian-longhorned-tick-detected-in-alabama/) reported in April 2026 that the tick had been detected on a dog in DeKalb County; its announcement names no other county. The species is native to eastern Asia and was first confirmed in the US in 2017."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female, both plain reddish-brown with no white markings, resting on a US dime for scale",
+      "caption": "An Asian longhorned tick nymph, left, and adult female, right, on a US dime, for size.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "The department's announcement focuses on livestock: the tick spreads *Theileria orientalis*, a significant livestock pathogen, and heavy infestations can stress animals or, in extreme cases, kill them through blood loss. Females can reproduce without mating and lay 1,000 to 2,000 eggs at a time, so a single tick can start a population."
+    },
+    {
+      "type": "p",
+      "text": "On human health the sources differ. The agriculture department says the tick can also transmit the bacterium behind Rocky Mountain spotted fever and Heartland virus. [CDC](https://www.cdc.gov/ticks/about/where-ticks-live.html) says a laboratory study found it can carry and spread that bacterium, which has not yet been found in these ticks in nature, that it appears less attracted to people than native ticks, and that it is not yet known whether, or how often, ticks in the US make people ill. See [the Asian longhorned tick guide](/blog/asian-longhorned-tick)."
+    },
+    {
+      "type": "h3",
+      "text": "How do you report an Asian longhorned tick in Alabama?"
+    },
+    {
+      "type": "p",
+      "text": "Report unusual or heavy infestations on animals. As of October 2026, the agriculture department asks people to tell their veterinarian, their local Extension agent, a diagnostic lab for species identification and the State Veterinarian's Office (334-240-7255), and advises farmers to check livestock regularly, especially the head, neck, flanks, back, armpits, groin and under the tail."
+    },
+    {
+      "type": "h2",
+      "text": "How do you get a tick identified in Alabama?"
+    },
+    {
+      "type": "p",
+      "text": "Send it to the University of South Alabama. The state health department's [2025 newsletter](https://www.alabamapublichealth.gov/tick/assets/vbd_newsletter2025.pdf) says ticks can be sent there for identification, and suggests keeping a removed tick in a sealed plastic bag in the freezer to bring to your healthcare provider."
+    },
+    {
+      "type": "p",
+      "text": "The university's 2021 instructions, posted with its [statewide tick survey](https://www.southalabama.edu/colleges/artsandsci/biology/news/mccreadie_tick_grant.html), are to tape the tick to a piece of paper, seal it in an envelope and mail it to Dr. John McCreadie, Department of Biology, 5871 USA Drive North, LSCB Room 124, University of South Alabama, Mobile, AL 36688, with the date and place it was found. The university identifies the species and passes the result back. Confirm the instructions at (251) 460-6332 before mailing."
+    },
+    {
+      "type": "p",
+      "text": "Identification is not testing. [CDC](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) generally does not recommend testing a removed tick for germs: results should not be used for treatment decisions, a positive result does not necessarily mean you were infected, and a negative one can give false reassurance. To try identifying a tick yourself first, use this [tick identification chart with photos](/learn/tick-identification-chart)."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Alabama?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick right away, then watch for fever or a rash for several weeks. [CDC's after-a-bite guidance](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) describes the steps, and the state health department's are nearly identical:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick as close to the skin as possible with clean, fine-tipped tweezers.",
+        "Pull upward with steady, even pressure, without twisting or jerking. Leave mouthparts that do not come out easily; the skin usually pushes them out.",
+        "Clean the bite and your hands with soap and water, rubbing alcohol or hand sanitizer.",
+        "Put a live tick in a sealed container or alcohol, wrap it tightly in tape or flush it, and never crush it with your fingers. Skip petroleum jelly, heat and nail polish, which CDC says can force infected fluid into the skin."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Speed matters. CDC's page on [how Lyme disease spreads](https://www.cdc.gov/lyme/causes/index.html) says a tick usually must be attached for more than 24 hours to pass on the Lyme bacterium, and the state health department says spotted fever bacteria may need several hours of attachment. For a fuller walk-through, see [how to remove a tick safely](/blog/how-to-remove-tick-safely)."
+    },
+    {
+      "type": "p",
+      "text": "Then watch your health. CDC says to see a doctor if a rash or fever develops within several weeks and to say when and where you were probably bitten; the state's 2025 newsletter goes further, advising anyone bitten to keep the tick and contact a healthcare provider. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) describes Lyme disease's expanding rash."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Round red rash on the back of a person's upper arm, with a dark red center, a paler middle ring and a red outer ring",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, on a person's upper arm.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "p",
+      "text": "A single dose of the antibiotic doxycycline after a bite is meant to prevent Lyme disease in high-risk places. CDC's [guidance for clinicians](https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf) says it can lower Lyme risk when the bite happened in a high-incidence state or where more than 20% of ticks are infected, the tick was an adult or nymphal blacklegged tick attached an estimated 36 hours or more, and the dose can start within 72 hours of removal. Alabama is a low-incidence state, and CDC does not recommend such antibiotics to prevent ehrlichiosis or Rocky Mountain spotted fever."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "Do not wait for a rash",
+      "text": "The state health department says to see a doctor immediately if you think you may have a tick-borne disease, and that early doxycycline can be lifesaving in Rocky Mountain spotted fever, whose rash usually appears only 2 to 4 days after the fever starts. CDC tells clinicians not to wait for lab results before treating a suspected tick-borne disease. This page summarizes public health guidance and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Alabama?"
+    },
+    {
+      "type": "p",
+      "text": "Keep out of brush, use repellent, treat clothing and check yourself soon after coming in. The [state health department](https://www.alabamapublichealth.gov/tick/) and [Alabama Extension](https://www.aces.edu/blog/topics/home-family/ticks-tick-borne-illnesses-in-alabama/) recommend these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Keep to open ground.** Avoid wooded and brushy areas and walk in the center of trails; Alabama Extension adds, do not sit on rotten logs or stumps.",
+        "**Use a repellent on skin.** The department recommends at least 20% DEET, picaridin or IR3535 on exposed skin. Follow the label.",
+        "**Treat clothing and gear.** The department recommends 0.5% permethrin on clothes, and Alabama Extension calls treating clothing and gear the most effective preventive step when used according to the label.",
+        "**Dress for ticks.** Alabama Extension suggests light-colored long pants and sleeves, with the shirt tucked into the pants and the pants into socks.",
+        "**Check within 2 hours.** The department advises finding and removing ticks on your body and clothing within 2 hours of coming indoors.",
+        "**Mind the yard and the dogs.** The department says yards next to brush or with tall grass or leaf litter can harbor ticks, and Alabama Extension advises asking a veterinarian about tick control for pets, which can carry ticks indoors."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Farmers, landscapers and people who regularly hike, camp, hunt or garden in or near wooded areas may be at increased risk of a bite from an infected tick, the state health department says, and Alabama Extension advises wearing gloves when handling dead animals."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is Lyme disease common in Alabama?",
+      "answer": "No. CDC counted 36 Lyme disease cases among Alabama residents in 2023, a rate of 0.7 per 100,000, and the state health department, which counted 38 in 2024, says Alabama has few cases because it is considered a low-incidence state. Spotted fever rickettsiosis is reported far more often. CDC has no Alabama county record of the Lyme bacterium in host-seeking ticks, and a 2021 study found that southern blacklegged tick nymphs rarely climb above the leaf litter, so they seldom meet people."
+    },
+    {
+      "question": "What is the most common tick in Alabama?",
+      "answer": "The lone star tick. Alabama Extension calls it the most abundant tick species in the state, and CDC's county table, through 2025, lists it as established in 42 of Alabama's 67 counties and reported in 18 more. Adult females have a single white dot on the back. The American dog, blacklegged (deer), Gulf Coast and brown dog ticks also live in Alabama, and the invasive Asian longhorned tick was detected in DeKalb County in April 2026."
+    },
+    {
+      "question": "When is tick season in Alabama?",
+      "answer": "Ticks can be active all year in Alabama. The state health department says they are most active in the warmer months, April to September, and that the state's spotted fever cases usually peak from May through August. Alabama Extension puts lone star tick nymphs and adults at March to October and adult blacklegged ticks at September to March, so winter woods are not tick-free. Check for ticks after time outdoors in any month."
+    },
+    {
+      "question": "What is the most common tick-borne disease in Alabama?",
+      "answer": "Spotted fever rickettsiosis, which includes Rocky Mountain spotted fever. The state health department counted 71 cases among residents in 2024, against 38 Lyme disease cases, and CDC's county file shows 805 spotted fever cases in Alabama from 2019 to 2022, the third most of any state by our count. The department names the American dog tick and the Gulf Coast tick as ticks that spread the bacteria, and says early treatment with doxycycline can be lifesaving."
+    },
+    {
+      "question": "Where can I get a tick identified in Alabama?",
+      "answer": "The state health department's 2025 newsletter says a tick can be sent to the University of South Alabama for identification. The university's 2021 instructions say to tape the tick to a piece of paper, seal it in an envelope and mail it to its Department of Biology in Mobile with the date and place it was found. CDC does not generally recommend testing ticks for germs; if you feel ill after a bite, see a healthcare provider."
+    },
+    {
+      "question": "Is the Asian longhorned tick in Alabama?",
+      "answer": "Yes. The Alabama Department of Agriculture and Industries reported in April 2026 that the tick had been detected on a dog in DeKalb County, and its announcement names no other county. The department says the tick spreads Theileria orientalis, a significant livestock pathogen, and CDC says it appears less attracted to people than native ticks. Report unusual or heavy infestations on animals to a veterinarian, an Extension agent or the State Veterinarian's Office at 334-240-7255."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "American Dog Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (Reported Tickborne Disease Cases by County of Residence, 2019-2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "Data and Statistics on Spotted Fever Rickettsiosis (annual incidence of reported SFR by state, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "Where Ticks Live",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/about/where-ticks-live.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "How Lyme Disease Spreads",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "Guidance for Clinicians: Caring for Patients after a Tick Bite (December 2021)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf"
+    },
+    {
+      "title": "Tick-borne Diseases (page updated August 26, 2026)",
+      "publisher": "Alabama Department of Public Health",
+      "url": "https://www.alabamapublichealth.gov/tick/"
+    },
+    {
+      "title": "Tick-borne Disease Cases in Alabama by Year (Data page, through 2024)",
+      "publisher": "Alabama Department of Public Health",
+      "url": "https://www.alabamapublichealth.gov/tick/data.html"
+    },
+    {
+      "title": "Spotted Fever Rickettsiosis",
+      "publisher": "Alabama Department of Public Health",
+      "url": "https://www.alabamapublichealth.gov/tick/sfr.html"
+    },
+    {
+      "title": "Lyme Disease",
+      "publisher": "Alabama Department of Public Health",
+      "url": "https://www.alabamapublichealth.gov/tick/lyme-disease.html"
+    },
+    {
+      "title": "Vector-Borne Diseases (VBD) Newsletter: 2025 Edition",
+      "publisher": "Alabama Department of Public Health, Infectious Diseases & Outbreaks Division",
+      "url": "https://www.alabamapublichealth.gov/tick/assets/vbd_newsletter2025.pdf"
+    },
+    {
+      "title": "Ticks & Tick-borne Illnesses in Alabama (ANR-2315, reviewed January 2024)",
+      "publisher": "Alabama Cooperative Extension System (Alabama A&M University and Auburn University)",
+      "url": "https://www.aces.edu/blog/topics/home-family/ticks-tick-borne-illnesses-in-alabama/"
+    },
+    {
+      "title": "Asian Longhorned Tick Detected in Alabama (April 23, 2026)",
+      "publisher": "Alabama Department of Agriculture and Industries, Animal Industries",
+      "url": "https://agi.alabama.gov/animalindustries/2026/04/asian-longhorned-tick-detected-in-alabama/"
+    },
+    {
+      "title": "The State of Alabama Funds More Tick Research at South (April 14, 2021)",
+      "publisher": "University of South Alabama, Department of Biology",
+      "url": "https://www.southalabama.edu/colleges/artsandsci/biology/news/mccreadie_tick_grant.html"
+    },
+    {
+      "title": "Why Lyme disease is common in the northern US, but rare in the south: The roles of host choice, host-seeking behavior, and tick density",
+      "publisher": "PLOS Biology (Ginsberg et al., January 2021)",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001066"
+    }
+  ],
+  "disclaimer": "both"
+}

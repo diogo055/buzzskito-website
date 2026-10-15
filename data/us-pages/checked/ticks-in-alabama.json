@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-alabama",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "01332d536ac1290df5f8042bc9f3437a7439433c9c3c2e58e9c074853bf9b293",
+ "claimsChecked": 517,
+ "claimsCorrected": 2,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-15"
+}
