@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-new-york",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "80ad169c1112ccf7d0f8b85ce977eba6e92a5019bc01e65b2e961277d433d22b",
+ "claimsChecked": 591,
+ "claimsCorrected": 22,
+ "claimsRemovedOrSoftened": 14,
+ "checkedOn": "2026-10-15"
+}

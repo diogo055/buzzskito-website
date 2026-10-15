@@ -2,9 +2,9 @@
  "id": "ticks-in-connecticut",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "951b8d28b62ca926ce5829fcd29d03f84851699301b946f12703271a92d051bb",
- "claimsChecked": 390,
- "claimsCorrected": 3,
- "claimsRemovedOrSoftened": 5,
+ "sha": "57168461303eed9fe508e9641b851c467c999747c2ce68da01597defce13f360",
+ "claimsChecked": 426,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 7,
  "checkedOn": "2026-10-15"
 }

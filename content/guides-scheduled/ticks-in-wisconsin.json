@@ -143,8 +143,8 @@
       "src": "/guides/photos/blacklegged-tick-life-stages.webp",
       "width": 1200,
       "height": 793,
-      "alt": "Three blacklegged ticks on a blue-green surface: a large adult female with a reddish-orange body and dark shield, a smaller dark nymph and a tiny pale larva",
-      "caption": "Blacklegged tick adult female (top), nymph (lower left) and larva (lower right). DHS says that usually only nymphs and adult females spread illness.",
+      "alt": "Three blacklegged ticks on a blue-green surface: a large adult female with a reddish-orange body and dark shield, and two much smaller immature ticks",
+      "caption": "Blacklegged tick adult female (top) and two immature ticks, a nymph and a larva. DHS says that usually only nymphs and adult females spread illness.",
       "credit": "CDC/ Michael L. Levin, Ph. D. (CDC Public Health Image Library, phil.cdc.gov)",
       "license": "public-domain",
       "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1205"
@@ -843,11 +843,11 @@
     },
     {
       "type": "p",
-      "text": "[DHS's tick data page](https://www.dhs.wisconsin.gov/tick/wisconsin.htm) suggests that anyone bitten who lives in Wisconsin, where Lyme disease is common, consider contacting a health care provider right away to see whether a single dose of antibiotics may be appropriate. Its [Lyme disease page](https://www.dhs.wisconsin.gov/tick/lyme-about.htm) says preventive treatment must be taken within 72 hours of removing the tick, and that a tick must be attached for at least 24 to 36 hours to spread Lyme disease, so quick removal counts. A provider decides whether the dose fits your case."
+      "text": "[DHS's tick data page](https://www.dhs.wisconsin.gov/tick/wisconsin.htm) suggests that anyone bitten who lives in Wisconsin, where Lyme disease is common, consider contacting a health care provider right away to see whether a single dose of antibiotics may be appropriate. Its [Lyme disease page](https://www.dhs.wisconsin.gov/tick/lyme-about.htm) says preventive treatment must be taken within 72 hours of removing the tick, and [CDC says](https://www.cdc.gov/lyme/causes/index.html) a tick usually must be attached for more than 24 hours to spread Lyme disease, so quick removal counts. A provider decides whether the dose fits your case."
     },
     {
       "type": "p",
-      "text": "Then watch for symptoms. DHS asks people to monitor themselves for a rash, fever, new muscle and joint pain and new fatigue for 30 days after a bite, and to call a provider at once if any appear. Early Lyme symptoms can show up 3 to 30 days after the bite and include fever, chills, headache, fatigue, a stiff neck and muscle or joint pain."
+      "text": "Then watch for symptoms. DHS asks people to monitor themselves for a rash, fever, new muscle and joint pain and new fatigue for 30 days after a bite, and to call a provider at once if any appear. [CDC](https://www.cdc.gov/lyme/signs-symptoms/index.html) lists early Lyme symptoms 3 to 30 days after the bite: fever, chills, headache, fatigue, muscle and joint aches and swollen lymph nodes."
     },
     {
       "type": "p",
@@ -933,6 +933,16 @@
       "title": "Lyme Disease Case Maps (county-level data, 2023)",
       "publisher": "Centers for Disease Control and Prevention",
       "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "How Lyme Disease Spreads (September 24, 2024)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "Signs and Symptoms of Untreated Lyme Disease (May 15, 2024)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/signs-symptoms/index.html"
     },
     {
       "title": "Tick Surveillance Data Sets",

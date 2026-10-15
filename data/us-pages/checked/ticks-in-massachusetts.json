@@ -2,9 +2,9 @@
  "id": "ticks-in-massachusetts",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "10ed4c917021d3ca41e4e1fed8125fc4caa96ac6a72ae201ba3f66514685e390",
- "claimsChecked": 479,
- "claimsCorrected": 4,
- "claimsRemovedOrSoftened": 2,
+ "sha": "e0f5fe16b4b5c63f61cfa01cda829934928b5b8cd7b59687a7a728861718de79",
+ "claimsChecked": 512,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 4,
  "checkedOn": "2026-10-15"
 }

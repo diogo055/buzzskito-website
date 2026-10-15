@@ -2,9 +2,9 @@
  "id": "ticks-in-wisconsin",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "6566ab16693a4463944e3868afa33fae78cebd8e05e8239b620b64132137e9dc",
- "claimsChecked": 300,
- "claimsCorrected": 8,
- "claimsRemovedOrSoftened": 5,
+ "sha": "dd198bf9c5219efd3e751c98481ca908fecd97f8ca2a596a3a115486ecd2cf3e",
+ "claimsChecked": 336,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 7,
  "checkedOn": "2026-10-15"
 }

@@ -743,8 +743,8 @@
       "src": "/guides/photos/blacklegged-tick-life-stages.webp",
       "width": 1200,
       "height": 793,
-      "alt": "Three blacklegged ticks on a blue-green surface: a large adult with a reddish body and black legs, a smaller dark nymph at lower left and a tiny pale larva at right",
-      "caption": "Blacklegged tick adult, nymph (lower left) and larva (right). The state says nymphs are most active from May through July, and adults in spring and fall.",
+      "alt": "Three blacklegged ticks on a blue-green surface: a large adult with a reddish body and black legs, and two much smaller immature ticks",
+      "caption": "A blacklegged tick adult and two much smaller immature ticks. The state says nymphs are most active from May through July, and adults in spring and fall.",
       "credit": "CDC/ Michael L. Levin, Ph. D. (CDC Public Health Image Library, phil.cdc.gov)",
       "license": "public-domain",
       "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1205"
@@ -806,7 +806,7 @@
     },
     {
       "type": "p",
-      "text": "Then watch for symptoms. Early Lyme disease usually begins 3 to 30 days after the bite, most often with a rash called erythema migrans where the tick was attached; it often, but not always, starts as a small red area that spreads outward and clears in the center. Fever, headache, stiff neck, sore and aching muscles and joints, fatigue and swollen glands can come with it. Untreated, Lyme disease can affect the joints, nerves and heart, and the fact sheet says about 60% of untreated people develop arthritis. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what each stage looks like."
+      "text": "Then watch for symptoms. Early Lyme disease usually begins 3 to 30 days after the bite. [CDC](https://www.cdc.gov/lyme/signs-symptoms/index.html) says about 70% to 80% of infected people get a rash called erythema migrans where the tick was attached; it expands over several days, up to 12 inches or more across, and only sometimes clears in the center. Fever, chills, headache, fatigue, muscle and joint aches and swollen lymph nodes can come with it, or without a rash. Untreated, Lyme disease can affect the joints, nerves and heart, and the state's fact sheet says about 60% of untreated people develop arthritis. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what each stage looks like."
     },
     {
       "type": "figure",
@@ -884,6 +884,11 @@
       "title": "Lyme Disease Case Map (county-level data, 2023)",
       "publisher": "Centers for Disease Control and Prevention",
       "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Signs and Symptoms of Untreated Lyme Disease (May 15, 2024)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/signs-symptoms/index.html"
     },
     {
       "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022",

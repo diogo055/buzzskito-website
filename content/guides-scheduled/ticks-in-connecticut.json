@@ -649,7 +649,7 @@
     },
     {
       "type": "p",
-      "text": "Ticks can be active in any month, but the highest Lyme risk runs from May through July. The [CAES handbook](https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf) says May, June and July are the peak months for nymphs in the Northeast and that adult blacklegged ticks do not hibernate: they are active in fall, on warm winter days and again in early spring. Larvae peak in August."
+      "text": "Ticks can be active in any month, but the highest Lyme risk runs from May through July. The [CAES handbook](https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf) says May, June and July are the peak months for nymphs in the Northeast and that adult blacklegged ticks do not hibernate: they are active in fall, on warm winter days and again in early spring. Larvae peak in August. [CDC](https://www.cdc.gov/lyme/causes/index.html) says nymphs seek hosts from April through July where Lyme disease is common in the eastern US, and [its Lyme prevention page](https://www.cdc.gov/lyme/prevention/index.html) says blacklegged ticks can bite any time winter temperatures are above freezing."
     },
     {
       "type": "table",
@@ -690,15 +690,15 @@
           "Not listed"
         ]
       ],
-      "caption": "Source: the seasonal guide to the major ticks affecting humans in Connecticut in the [CAES Tick Management Handbook](https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf) (2007). The guide predates the Asian longhorned and Gulf Coast ticks, and it described lone star ticks as still not common in the state."
+      "caption": "Source: the seasonal guide to the major ticks affecting humans in Connecticut in the [CAES Tick Management Handbook](https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf) (2007). The guide predates the Asian longhorned and Gulf Coast ticks, and it described lone star ticks as still not common in the state. CDC's current guidance has nymphs seeking hosts from April."
     },
     {
       "type": "figure",
       "src": "/guides/photos/blacklegged-tick-life-stages.webp",
       "width": 1200,
       "height": 793,
-      "alt": "Three blacklegged ticks on a blue-green surface: a large adult female with a reddish body at top, a dark nymph at lower left and a tiny pale larva at right",
-      "caption": "Blacklegged tick adult female (top), nymph (lower left) and larva (right). In Connecticut, nymphs peak in early summer and larvae in August.",
+      "alt": "Three blacklegged ticks on a blue-green surface: a large adult female with a reddish body at top and two much smaller immature ticks",
+      "caption": "Blacklegged tick adult female (top) and two much smaller immature ticks, a nymph and a larva. In Connecticut, nymphs peak in early summer and larvae in August.",
       "credit": "CDC/ Michael L. Levin, Ph. D. (CDC Public Health Image Library, phil.cdc.gov)",
       "license": "public-domain",
       "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1205"
@@ -764,7 +764,7 @@
     },
     {
       "type": "p",
-      "text": "Then watch for a rash. The 2007 CAES handbook says 70% to 80% of people with Lyme disease develop an expanding red rash called erythema migrans at the bite site, and that the classic bull's-eye look is not common. CDC advises seeing a provider if a rash or fever develops in the weeks after a bite, and telling them when the bite happened and where you likely picked up the tick. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow."
+      "text": "Then watch for a rash. [CDC's Lyme symptoms page](https://www.cdc.gov/lyme/signs-symptoms/index.html) says about 70% to 80% of infected people develop an expanding rash called erythema migrans at the bite site, 3 to 30 days after the bite (about 7 days on average), and that it only sometimes looks like a bull's-eye. CDC advises seeing a provider if a rash or fever develops in the weeks after a bite, and telling them when the bite happened and where you likely picked up the tick. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow."
     },
     {
       "type": "figure",
@@ -816,7 +816,7 @@
   "faqs": [
     {
       "question": "Are ticks active in Connecticut in the winter?",
-      "answer": "Yes, adult blacklegged (deer) ticks are. The Connecticut Agricultural Experiment Station's Tick Management Handbook says adult deer ticks do not hibernate and can be active on warm winter days, with peaks in fall and early spring. Nymphs, which cause most Lyme cases, are most active from May through July. Check for ticks after time in woods, brush or leaf litter on any mild day, and remove any you find promptly."
+      "answer": "Yes, adult blacklegged (deer) ticks are. CDC says blacklegged ticks can be active and bite any time winter temperatures are above freezing, and the Connecticut Agricultural Experiment Station's 2007 Tick Management Handbook says adult deer ticks do not hibernate, with peaks in fall and early spring. Nymphs, which cause most Lyme cases, are most active from May through July. Check for ticks after time in woods, brush or leaf litter on any mild day, and remove any you find promptly."
     },
     {
       "question": "What percentage of ticks in Connecticut carry Lyme disease?",
@@ -849,6 +849,16 @@
       "title": "Lyme Disease Case Maps (county-level data, 2023)",
       "publisher": "Centers for Disease Control and Prevention",
       "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "How Lyme Disease Spreads (September 24, 2024)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "Signs and Symptoms of Untreated Lyme Disease (May 15, 2024)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/signs-symptoms/index.html"
     },
     {
       "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition, United States, 2022",

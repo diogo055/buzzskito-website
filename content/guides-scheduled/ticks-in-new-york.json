@@ -1,0 +1,1024 @@
+{
+  "slug": "ticks-in-new-york",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in new york",
+  "alsoTargets": [
+    "types of ticks in new york",
+    "tick season new york",
+    "lyme disease new york"
+  ],
+  "metaTitle": "Ticks in New York: Types, Lyme Map and Season",
+  "metaDescription": "Deer ticks live in all 62 New York counties, and the state reported 22,173 Lyme cases in 2023, the most in the US. Tick photos, county maps and the season.",
+  "h1": "Ticks in New York: Species, County Maps, Lyme Data and Tick Season",
+  "dek": "Which ticks live in New York, where Lyme disease is most common county by county, what New York City's own surveillance shows, when each tick is active, and what to do after a bite.",
+  "breadcrumb": "Ticks in New York",
+  "excerpt": "Blacklegged ticks are established in all 62 New York counties. Tick photos, Lyme rates by county, the state's tick test results, the season and bite advice.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**Blacklegged (deer) ticks, which spread Lyme disease, are established in all 62 New York counties, and New York reported 22,173 Lyme cases in 2023, more than any other state**, according to CDC's [tick surveillance data](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) and [Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Lone star, American dog and Asian longhorned ticks also live in the state.",
+    "bullets": [
+      "CDC's county table, which runs through December 2025, lists blacklegged ticks as established in every county, and the Lyme bacterium has been found in host-seeking ticks in 59 of the 62.",
+      "Relative to population, 2023 Lyme rates were highest in Otsego, Delaware, Schoharie and Washington counties, each above 500 cases per 100,000 residents (BuzzSkito's calculation from CDC and Census data); Suffolk County had the most cases.",
+      "The state health department counted 18,704 Lyme cases in 2024 in the 57 counties outside New York City, a rate of 164.8 per 100,000.",
+      "In the state's 2025 tick testing, about 1 in 4 deer tick nymphs carried the Lyme bacterium, and the share carrying the babesiosis parasite rose from about 2% in 2015 to about 10% (BuzzSkito's tally of the state's county results).",
+      "CDC says deer tick nymphs seek hosts from April through July and adults are most active in early spring and fall, and that blacklegged ticks can bite on any winter day above freezing.",
+      "In 2025 New York recorded its first detection of *Borrelia mayonii*, a rarer Lyme bacterium, in a Herkimer County resident and ticks from the patient's property."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in New York at a glance",
+    "rows": [
+      [
+        "Counties with established blacklegged ticks",
+        "62 of 62 (CDC, through December 2025)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "22,173 in 2023, the most of any state (CDC); 18,704 in 2024 outside New York City (state count)"
+      ],
+      [
+        "Lyme rate",
+        "111.7 per 100,000 in 2023, eighth among states (CDC data)"
+      ],
+      [
+        "Highest county rate, 2023",
+        "Otsego County, about 591 per 100,000 (358 cases; BuzzSkito's calculation from CDC and Census data)"
+      ],
+      [
+        "Most cases by county, 2023",
+        "Suffolk County, 3,262"
+      ],
+      [
+        "Deer tick nymphs carrying the Lyme bacterium",
+        "About 26% of 3,914 tested in 2025 (BuzzSkito's tally of state surveillance results)"
+      ],
+      [
+        "Lone star tick",
+        "Established in 19 counties, reported in 32 (CDC, through 2025)"
+      ],
+      [
+        "Asian longhorned tick",
+        "All five New York City boroughs (NYC Health); established as far north as Columbia County (state agriculture department, June 2026)"
+      ],
+      [
+        "Other tick-borne diseases, 2024",
+        "1,960 anaplasmosis, 670 babesiosis and 110 ehrlichiosis cases outside New York City (state report)"
+      ],
+      [
+        "Most active months",
+        "Nymphs April to July (CDC); adults March to mid-May and mid-August to November (state fact sheet, last reviewed 2017)"
+      ],
+      [
+        "Rarer Lyme germ",
+        "*Borrelia mayonii*, first detected in New York in 2025, in Herkimer County (CDC MMWR, June 2026)"
+      ],
+      [
+        "Tick identification",
+        "Cornell University's Insect Diagnostic Lab, $30 per personal submission (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in New York?"
+    },
+    {
+      "type": "p",
+      "text": "The ticks New York's health agencies name are the blacklegged (deer) tick, the lone star tick, the American dog tick, the invasive Asian longhorned tick and, on Staten Island, the Gulf Coast tick. The blacklegged tick dominates the state's own sampling: of the 33,882 ticks state teams collected from public recreation areas in 2024, 26,285 were blacklegged ticks, according to the [state health department's 2025 surveillance report](https://www.health.ny.gov/diseases/communicable/lyme/docs/tbd_report_2025.pdf). The [department's tick page](https://www.health.ny.gov/diseases/communicable/lyme/) links the blacklegged tick to Lyme disease, anaplasmosis and babesiosis, the lone star tick to ehrlichiosis and alpha-gal syndrome, and the American dog tick to Rocky Mountain spotted fever."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where in New York",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in all 62 counties",
+          "Lyme disease, anaplasmosis, babesiosis, Powassan virus disease, hard tick relapsing fever"
+        ],
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Established in 19 counties from Long Island to Lake Erie; reported in 32 more",
+          "Ehrlichiosis; bites linked to alpha-gal syndrome"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "All five New York City boroughs; residents of 8 counties outside the city had spotted fever in 2024",
+          "Rocky Mountain spotted fever"
+        ],
+        [
+          "Asian longhorned tick, *Haemaphysalis longicornis*",
+          "All five boroughs; the Hudson Valley, as far north as Columbia County",
+          "Not found to spread disease to people in the US; a threat to livestock"
+        ],
+        [
+          "Gulf Coast tick, *Amblyomma maculatum*",
+          "Found on Staten Island",
+          "*Rickettsia parkeri* rickettsiosis"
+        ]
+      ],
+      "caption": "Sources: the [state health department](https://www.health.ny.gov/diseases/communicable/lyme/) and its 2025 report; CDC's county and pathogen records; [NYC Health](https://www.nyc.gov/site/doh/health/health-topics/ticks.page) for the city; the state agriculture department (June 2026) for the Asian longhorned tick upstate."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-life-stages.webp",
+      "width": 1200,
+      "height": 793,
+      "alt": "Three blacklegged ticks on a blue-green surface: a large adult female with a reddish body and dark shield, and two much smaller immature ticks",
+      "caption": "Blacklegged tick adult female (top) and two much smaller immature ticks, a nymph and a larva: the three blood-feeding stages.",
+      "credit": "CDC/ Michael L. Levin, Ph. D. (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1205"
+    },
+    {
+      "type": "p",
+      "text": "Size is what makes the blacklegged tick hard to catch. New York's [Lyme disease fact sheet](https://www.health.ny.gov/diseases/communicable/lyme/fact_sheet.htm) compares nymphs, the young stage, to poppy seeds and adults to sesame seeds, and says both can spread Lyme disease. For the markings and sizes of every common US tick side by side, see [how to tell the common ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "An adult female blacklegged tick and a much smaller nymph side by side on a person's fingertip, showing how small both stages are",
+      "caption": "An adult female blacklegged tick (left) and a nymph on a fingertip. A nymph this size is easy to miss during a tick check.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a green grass blade, reddish-brown with a cream-mottled shield behind the head and banded legs",
+      "caption": "Adult female American dog tick. Its cream-marked shield sets it apart from the plain dark shield of a blacklegged tick. The state links it to Rocky Mountain spotted fever, with 10 cases outside New York City in 2024.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged ticks found in New York?"
+    },
+    {
+      "type": "p",
+      "text": "In every county. [CDC's tick surveillance data sets](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which run through December 31, 2025, list blacklegged ticks as established in all 62 New York counties. Established means six or more ticks of one life stage, or more than one life stage, were collected in a county within 12 months, and the status is cumulative: once listed, a county stays listed. To compare other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "p",
+      "text": "Within a county they keep to particular spots. The [state health department](https://www.health.ny.gov/diseases/communicable/lyme/) says blacklegged ticks live in shady, moist places at ground level and cling to grass, brush and shrubs, usually no more than 18 to 24 inches off the ground. They also live in lawns and gardens, especially at the edges of woods and around old stone walls."
+    },
+    {
+      "type": "p",
+      "text": "The state samples them every year outside New York City, which runs its own surveillance. In 2024 its teams visited 263 public sites in 56 counties, the [2025 report](https://www.health.ny.gov/diseases/communicable/lyme/docs/tbd_report_2025.pdf) says, and from 2020 through 2024 nymph density was highest in the region the state calls the Metropolitan Area, which on the report's maps takes in Long Island and the lower Hudson Valley."
+    },
+    {
+      "type": "h3",
+      "text": "Which germs do New York's deer ticks carry?"
+    },
+    {
+      "type": "p",
+      "text": "Mainly the Lyme bacterium, with the babesiosis parasite on the rise. CDC also records each county where a germ has been found in host-seeking blacklegged ticks, meaning ticks hunting for a host rather than feeding on one. That table is cumulative too, and a county without a record is not proof the germ is absent."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Germ",
+        "Illness",
+        "New York counties with a record"
+      ],
+      "rows": [
+        [
+          "*Borrelia burgdorferi*",
+          "Lyme disease",
+          "59 of 62; none recorded in Brooklyn, Manhattan or Queens"
+        ],
+        [
+          "*Borrelia miyamotoi*",
+          "Hard tick relapsing fever",
+          "54"
+        ],
+        [
+          "*Babesia microti*",
+          "Babesiosis",
+          "52"
+        ],
+        [
+          "*Anaplasma phagocytophilum* (human-active variant)",
+          "Anaplasmosis",
+          "51"
+        ],
+        [
+          "Powassan virus",
+          "Powassan virus disease",
+          "28"
+        ],
+        [
+          "*Borrelia mayonii*",
+          "A rarer cause of Lyme disease",
+          "1 (Herkimer County)"
+        ]
+      ],
+      "caption": "Source: [CDC tick surveillance data sets](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), pathogen table from the ArboNET Tick Module, through Dec 31, 2025 (file dated April 2026). Brooklyn, Manhattan and Queens are Kings, New York and Queens counties. No New York county has a record of *Ehrlichia muris eauclairensis*, the other germ in the table."
+    },
+    {
+      "type": "p",
+      "text": "The state's own testing puts numbers on it. In 2025 it tested 3,914 deer tick nymphs from 50 counties: about 26% carried the Lyme bacterium, 10% the babesiosis parasite, 6% the anaplasmosis germ and 1.5% *Borrelia miyamotoi*, by BuzzSkito's tally of the county results in the [state's nymph surveillance data](https://health.data.ny.gov/Health/Deer-Tick-Surveillance-Nymphs-May-to-Sept-excludin/kibp-u2ip). Among counties with at least 50 nymphs tested, the Lyme share ran from about 10% in Sullivan County to 54% in Tompkins County. The state cautions that infection rates vary over short distances and should not be used to predict risk for a whole county."
+    },
+    {
+      "type": "chart",
+      "title": "Share of deer tick nymphs carrying the babesiosis parasite in New York State surveillance, 2015 to 2025",
+      "x": [
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "Nymphs positive for Babesia microti (%)",
+          "values": [
+            2,
+            5.2,
+            4.8,
+            8.7,
+            5.3,
+            8.3,
+            7.4,
+            8.5,
+            7,
+            8,
+            9.9
+          ]
+        }
+      ],
+      "yLabel": "Percent of nymphs tested, May to September",
+      "caption": "BuzzSkito's tally: each county's percentage times the nymphs it tested, pooled across the counties sampled that year, outside New York City. Sampling sites change yearly, but the rise holds with Long Island left out (1.4% to 7.9%) or with every county weighted equally (1.2% to 7.8%). The Lyme bacterium share stayed between about 24% and 28%. Data through 2025.",
+      "source": "New York State Department of Health, [Deer Tick Surveillance: Nymphs](https://health.data.ny.gov/Health/Deer-Tick-Surveillance-Nymphs-May-to-Sept-excludin/kibp-u2ip)"
+    },
+    {
+      "type": "p",
+      "text": "One germ is new to the state. A Herkimer County resident who fell ill in late June 2025 had Lyme disease caused by *Borrelia mayonii*, plus anaplasmosis, and recovered after doxycycline. State scientists found *B. mayonii* in 10 ticks from the patient's property and in none of 1,309 ticks from 23 other counties collected in 2021 to 2025, a [June 2026 report in CDC's MMWR](https://www.cdc.gov/mmwr/volumes/75/wr/mm7521a2.htm) says. The species had been reported only in Minnesota and Wisconsin, and the authors concluded it was being transmitted locally, around the home."
+    },
+    {
+      "type": "h2",
+      "text": "Are ticks a problem in New York City?"
+    },
+    {
+      "type": "p",
+      "text": "Less than upstate, but they are there. [NYC Health](https://www.nyc.gov/site/doh/health/health-topics/ticks.page) says blacklegged ticks are found most often on Staten Island and in the north Bronx, in small numbers in eastern Queens, and only on rare occasions in parts of Brooklyn and northern Manhattan. Lone star ticks live on Staten Island and turn up at times in the north Bronx and Queens. American dog ticks and Asian longhorned ticks live in all five boroughs, and Gulf Coast ticks, which can spread *Rickettsia parkeri* rickettsiosis, have been found on Staten Island."
+    },
+    {
+      "type": "p",
+      "text": "That is a sharper picture than CDC's table gives. CDC lists blacklegged ticks as established in all five boroughs, but its bar is low: six ticks of one life stage, or more than one life stage, collected within 12 months. Its pathogen table has no record of the Lyme bacterium in host-seeking ticks from Brooklyn, Manhattan or Queens. The city samples ticks in selected parks, mainly on Staten Island and in the north Bronx."
+    },
+    {
+      "type": "p",
+      "text": "Most city residents with a tick-borne disease caught it elsewhere. CDC's county data counted 3,261 Lyme cases among residents of the five boroughs in 2023, including 1,200 in Brooklyn and 1,114 in Manhattan, but cases are recorded where patients live. The city says most New Yorkers diagnosed with a tick-borne disease were infected while visiting grassy, wooded areas upstate, on Long Island or in surrounding states."
+    },
+    {
+      "type": "h2",
+      "text": "Is the lone star tick in New York?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, across much of the state. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) lists it as established in 19 New York counties and reported in 32 more, through 2025. The established counties are Albany, Broome, Cattaraugus, Chautauqua, Columbia, Delaware, Erie, Monroe, Nassau, Otsego, Rensselaer, Richmond (Staten Island), Saratoga, Schenectady, Suffolk, Sullivan, Ulster, Warren and Westchester."
+    },
+    {
+      "type": "map",
+      "scope": "NY",
+      "title": "Lone star tick status by county, New York, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "36001": "established",
+        "36005": "reported",
+        "36007": "established",
+        "36009": "established",
+        "36013": "established",
+        "36015": "reported",
+        "36017": "reported",
+        "36019": "reported",
+        "36021": "established",
+        "36023": "reported",
+        "36025": "established",
+        "36027": "reported",
+        "36029": "established",
+        "36031": "reported",
+        "36037": "reported",
+        "36039": "reported",
+        "36041": "reported",
+        "36043": "reported",
+        "36045": "reported",
+        "36047": "reported",
+        "36051": "reported",
+        "36053": "reported",
+        "36055": "established",
+        "36057": "reported",
+        "36059": "established",
+        "36061": "reported",
+        "36063": "reported",
+        "36065": "reported",
+        "36069": "reported",
+        "36071": "reported",
+        "36075": "reported",
+        "36077": "established",
+        "36081": "reported",
+        "36083": "established",
+        "36085": "established",
+        "36087": "reported",
+        "36089": "reported",
+        "36091": "established",
+        "36093": "established",
+        "36095": "reported",
+        "36097": "reported",
+        "36101": "reported",
+        "36103": "established",
+        "36105": "established",
+        "36107": "reported",
+        "36109": "reported",
+        "36111": "established",
+        "36113": "established",
+        "36115": "reported",
+        "36119": "established",
+        "36121": "reported"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means the tick has been recorded there without meeting that bar. No record does not mean no ticks: it can mean no one has sampled there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and one cream-colored spot in the center of its back",
+      "caption": "Adult female lone star tick. The single pale spot on the female's back gives the species its name.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "The state attributes Lyme disease to the blacklegged tick; it links the lone star tick to ehrlichiosis and alpha-gal syndrome. Ehrlichiosis is uncommon but growing: the [state's 2025 report](https://www.health.ny.gov/diseases/communicable/lyme/docs/tbd_report_2025.pdf) counted 110 cases in 2024 in 19 counties outside New York City, and the rate there rose from 0.3 to 1.0 per 100,000 between 2020 and 2024, a period that includes a 2024 change in how cases are defined. The Western region had the state's highest ehrlichiosis rates in 2022 and 2023, and three far-western counties, Erie, Chautauqua and Cattaraugus, are among those where CDC lists the lone star tick as established."
+    },
+    {
+      "type": "p",
+      "text": "Alpha-gal syndrome is an allergy to foods containing alpha-gal that, the state says, follows tick bites, especially lone star bites. See [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome) for symptoms and diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "Where is the Asian longhorned tick in New York?"
+    },
+    {
+      "type": "p",
+      "text": "In New York City and spreading through the Hudson Valley. [NYC Health](https://www.nyc.gov/site/doh/health/health-topics/ticks.page) says the invasive tick lives in all five boroughs and has not been found to spread disease to people in the US. Upstate, the [state agriculture department warned in June 2026](https://agriculture.ny.gov/node/36666) that established populations had been confirmed as far north as the Kinderhook area of Columbia County. Theileriosis, a parasite infection of cattle that the tick can transmit, has been detected in Hudson Valley herds, and at least one livestock death linked to it has been confirmed in the region."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "A small Asian longhorned tick nymph and a larger adult female on a U.S. dime, both plain reddish-brown with no markings",
+      "caption": "Asian longhorned tick nymph (left) and adult female (right) on a dime. Both are plain reddish-brown, with no pale spots or mottling.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "[Cornell Integrated Pest Management](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/asian-longhorned-tick) explains why it spreads so easily: a female can lay up to 2,000 eggs without mating, so a single tick can start a new population. It prefers pastures, meadows and cattle, and while it does not usually bite people, Cornell notes it could amplify tick-borne germs by passing them to other ticks. The species was first found in the US on sheep in New Jersey in 2017."
+    },
+    {
+      "type": "h3",
+      "text": "How do you report an Asian longhorned tick in New York?"
+    },
+    {
+      "type": "p",
+      "text": "Cornell IPM asks people to report large infestations or unusual-looking ticks to its tick IPM coordinator, whose contact details are on its Asian longhorned tick page. For livestock, the state agriculture department's June 2026 advice includes:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Make sure incoming animals are tick-free, and screen new cattle for theileriosis before they join the herd.",
+        "Work with a veterinarian to learn whether the herd is infected, especially before buying or introducing new animals and in areas where the tick is established.",
+        "Mow pasture edges, clear shrubs along fence lines, and keep areas around gates, water and feeding sites mowed.",
+        "Treat animals directly with an approved acaricide, following the label; the department says spraying whole pastures is generally not effective."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does New York have?"
+    },
+    {
+      "type": "p",
+      "text": "More than any other state. New York reported 22,173 Lyme disease cases in 2023, a rate of 111.7 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html), and it also led the country in 2022, with 16,798. Its rate ranked eighth among the states, held down by New York City, where every borough's rate was below 70 per 100,000."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in New York, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            7794,
+            5651,
+            3425,
+            4490,
+            2998,
+            4615,
+            3736,
+            4314,
+            3882,
+            5155,
+            3638,
+            4243,
+            2240,
+            3006,
+            16798,
+            22173
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "A revised case definition took effect in 2022, and New York has since counted Lyme cases on positive lab results alone, so 2022 and 2023 are not directly comparable with earlier years. CDC says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions. CDC's figures for 2011 to 2015 also run below the state's own estimates (see below). Data through 2023, the latest CDC year as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)"
+    },
+    {
+      "type": "p",
+      "text": "Two reporting changes matter when reading that line. After the national case definition changed in 2022, New York began counting Lyme cases on positive lab results alone, without clinical evidence, and the [state's 2025 report](https://www.health.ny.gov/diseases/communicable/lyme/docs/tbd_report_2025.pdf) says the change contributed to the sharp rise. Earlier, from 2011 to 2015, between 14 and 25 counties outside New York City investigated only a sample of positive lab results and estimated their totals from it, the [state's 2011 to 2015 Lyme summary](https://www.health.ny.gov/statistics/diseases/communicable/surveillance_summaries/docs/lyme_2015.pdf) explains. Its estimate for 2015 was 7,332 cases outside the city alone; CDC's file shows 4,314 for the whole state. The chart above uses CDC's figures."
+    },
+    {
+      "type": "p",
+      "text": "The newest figures come from the state. Its 2025 report counted 18,704 confirmed and probable cases in 2024 in the 57 counties outside New York City, with cases in every one of them, and the rate in those counties rose from 37.2 per 100,000 in 2020 to 164.8 in 2024. The Capital District region, in eastern New York, generally had the highest rates from 2020 through 2024, as it did in the state's 2011 to 2015 summary."
+    },
+    {
+      "type": "h3",
+      "text": "How does New York compare with its neighbors?"
+    },
+    {
+      "type": "p",
+      "text": "All five neighboring states reported Lyme disease in 2023, and three of them had higher rates than New York."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Cases per 100,000, 2023"
+      ],
+      "rows": [
+        [
+          "New York",
+          "22,173",
+          "111.7"
+        ],
+        [
+          "[Pennsylvania](/blog/ticks-in-pennsylvania)",
+          "16,671",
+          "128.1"
+        ],
+        [
+          "[Massachusetts](/blog/ticks-in-massachusetts)",
+          "9,715",
+          "138.9"
+        ],
+        [
+          "[New Jersey](/blog/ticks-in-new-jersey)",
+          "7,224",
+          "77.9"
+        ],
+        [
+          "[Connecticut](/blog/ticks-in-connecticut)",
+          "3,239",
+          "89.9"
+        ],
+        [
+          "[Vermont](/blog/ticks-in-vermont)",
+          "1,445",
+          "223.3"
+        ]
+      ],
+      "caption": "Confirmed and probable cases by state of residence, from [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Data through 2023, the latest year CDC had published as of October 2026."
+    },
+    {
+      "type": "h2",
+      "text": "Which New York counties have the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Relative to population, rural counties upstate. In 2023, Otsego, Delaware, Schoharie and Washington counties each recorded more than 500 cases per 100,000 residents, over four times the state rate, and 22 of the 62 counties topped 250. The map shows every county's 2023 rate, calculated by BuzzSkito from [CDC's county-level Lyme data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) and the [Census Bureau's county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)."
+    },
+    {
+      "type": "map",
+      "scope": "NY",
+      "title": "Lyme disease cases per 100,000 residents by county, New York, 2023",
+      "categories": [
+        {
+          "key": "500plus",
+          "label": "500 or more"
+        },
+        {
+          "key": "250to499",
+          "label": "250 to 499"
+        },
+        {
+          "key": "100to249",
+          "label": "100 to 249"
+        },
+        {
+          "key": "under100",
+          "label": "Under 100"
+        }
+      ],
+      "values": {
+        "36001": "100to249",
+        "36003": "250to499",
+        "36005": "under100",
+        "36007": "100to249",
+        "36009": "100to249",
+        "36011": "100to249",
+        "36013": "100to249",
+        "36015": "100to249",
+        "36017": "250to499",
+        "36019": "100to249",
+        "36021": "250to499",
+        "36023": "100to249",
+        "36025": "500plus",
+        "36027": "250to499",
+        "36029": "under100",
+        "36031": "250to499",
+        "36033": "under100",
+        "36035": "100to249",
+        "36037": "under100",
+        "36039": "250to499",
+        "36041": "100to249",
+        "36043": "250to499",
+        "36045": "100to249",
+        "36047": "under100",
+        "36049": "100to249",
+        "36051": "100to249",
+        "36053": "100to249",
+        "36055": "under100",
+        "36057": "100to249",
+        "36059": "under100",
+        "36061": "under100",
+        "36063": "under100",
+        "36065": "100to249",
+        "36067": "100to249",
+        "36069": "100to249",
+        "36071": "250to499",
+        "36073": "under100",
+        "36075": "100to249",
+        "36077": "500plus",
+        "36079": "250to499",
+        "36081": "under100",
+        "36083": "250to499",
+        "36085": "under100",
+        "36087": "100to249",
+        "36089": "100to249",
+        "36091": "100to249",
+        "36093": "under100",
+        "36095": "500plus",
+        "36097": "250to499",
+        "36099": "100to249",
+        "36101": "250to499",
+        "36103": "100to249",
+        "36105": "250to499",
+        "36107": "250to499",
+        "36109": "250to499",
+        "36111": "250to499",
+        "36113": "250to499",
+        "36115": "500plus",
+        "36117": "under100",
+        "36119": "100to249",
+        "36121": "100to249",
+        "36123": "250to499"
+      },
+      "caption": "Confirmed and probable cases by county of residence. Rates are BuzzSkito's calculation: CDC's 2023 county counts divided by the Census Bureau's July 1, 2023 population estimates (Vintage 2025), which gives a statewide 111.8 against CDC's 111.7. Small counties swing sharply: Schuyler County's rate of about 350 rests on 61 cases.",
+      "source": "[CDC county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html), 2023; [U.S. Census Bureau county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Lyme cases, 2023",
+        "Cases per 100,000"
+      ],
+      "rows": [
+        [
+          "Otsego",
+          "358",
+          "590.9"
+        ],
+        [
+          "Delaware",
+          "244",
+          "547.9"
+        ],
+        [
+          "Schoharie",
+          "152",
+          "504.3"
+        ],
+        [
+          "Washington",
+          "301",
+          "501.2"
+        ],
+        [
+          "Ulster",
+          "893",
+          "488.1"
+        ],
+        [
+          "Sullivan",
+          "360",
+          "447.7"
+        ],
+        [
+          "Chenango",
+          "203",
+          "442.2"
+        ],
+        [
+          "Allegany",
+          "185",
+          "396.2"
+        ],
+        [
+          "Tompkins",
+          "399",
+          "382.0"
+        ],
+        [
+          "Essex",
+          "138",
+          "376.2"
+        ]
+      ],
+      "caption": "The ten highest county rates in 2023. Sources as for the map."
+    },
+    {
+      "type": "p",
+      "text": "Raw counts follow population instead. Suffolk County, on eastern Long Island, had the most cases in 2023 (3,262), followed by Westchester (1,317), Orange (1,201), Kings, which is Brooklyn (1,200), and New York County, which is Manhattan (1,114). The lowest rates were in the Bronx (16.1), Niagara County (19.1) and Queens (20.6)."
+    },
+    {
+      "type": "p",
+      "text": "Read county figures with one caution in mind: cases are counted where the patient lives, which may not be where the bite happened, as [CDC's case map page](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) notes. Brooklyn and Manhattan rank high on counts even though the city finds blacklegged ticks there only rarely."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in New York?"
+    },
+    {
+      "type": "p",
+      "text": "Anaplasmosis and babesiosis, both spread by the same blacklegged tick, come next. The [state's 2025 report](https://www.health.ny.gov/diseases/communicable/lyme/docs/tbd_report_2025.pdf) counted 1,960 anaplasmosis cases and 670 babesiosis cases in 2024 outside New York City. Between 2020 and 2024 the anaplasmosis rate there rose from 9.5 to 17.3 per 100,000 and the babesiosis rate from 3.4 to 5.9, with the Capital District generally highest for both. The report adds that the babesiosis parasite is more common in nymphs from the Metropolitan Area region than elsewhere."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Tick that spreads it",
+        "Cases in 2024, outside NYC",
+        "Counties with cases (of 57)"
+      ],
+      "rows": [
+        [
+          "Lyme disease",
+          "Blacklegged tick",
+          "18,704",
+          "57"
+        ],
+        [
+          "Anaplasmosis",
+          "Blacklegged tick",
+          "1,960",
+          "51"
+        ],
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "670",
+          "46"
+        ],
+        [
+          "Ehrlichiosis",
+          "Lone star tick",
+          "110",
+          "19"
+        ],
+        [
+          "Rocky Mountain spotted fever",
+          "American dog tick",
+          "10",
+          "8"
+        ],
+        [
+          "Powassan virus disease",
+          "Blacklegged tick",
+          "3",
+          "3"
+        ]
+      ],
+      "caption": "Source: New York State Department of Health, [Tick-Borne Disease Surveillance Report, 2025](https://www.health.ny.gov/diseases/communicable/lyme/docs/tbd_report_2025.pdf), which covers the 57 counties outside New York City and counts only confirmed and probable cases. Case definitions changed for anaplasmosis and ehrlichiosis in 2024 and for babesiosis in 2025."
+    },
+    {
+      "type": "p",
+      "text": "Powassan virus disease is rare but often serious, the state says, with symptoms ranging from flu-like illness to encephalitis. Outside the city it stayed under 10 cases a year from 2020 through 2024, with the most, 9, in 2022, six of them in the Capital District. In 2024 the state found the virus in adult deer ticks from the Metropolitan Area and Capital District regions, and CDC's pathogen table records it in ticks from 28 counties."
+    },
+    {
+      "type": "p",
+      "text": "Two tick-linked conditions fall outside those counts: hard tick relapsing fever, caused by *Borrelia miyamotoi*, and alpha-gal syndrome. The state's tick page lists both, but neither is among the six diseases its surveillance report covers."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in New York?"
+    },
+    {
+      "type": "p",
+      "text": "Mainly from March through November, though ticks can turn up on any mild day. Where Lyme disease is common in the eastern US, blacklegged nymphs seek hosts from April through July and adults are most active in early spring and fall, [CDC says](https://www.cdc.gov/lyme/causes/index.html); blacklegged ticks can bite any time winter temperatures are above freezing, according to [CDC's Lyme prevention page](https://www.cdc.gov/lyme/prevention/index.html)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Months",
+        "Blacklegged tick stage most active",
+        "What to expect"
+      ],
+      "rows": [
+        [
+          "March to mid-May",
+          "Adults",
+          "Adults about the size of a sesame seed, out on spring days"
+        ],
+        [
+          "April to July",
+          "Nymphs",
+          "Poppy-seed-size nymphs; the state samples them from May to September, when they are most commonly seen"
+        ],
+        [
+          "Mid-August to November",
+          "Adults",
+          "The second adult peak, through the fall hunting and hiking season"
+        ],
+        [
+          "December to February",
+          "No peak",
+          "Ticks can bite whenever it is above freezing"
+        ]
+      ],
+      "caption": "Sources: CDC's Lyme pages for nymphs and winter; the state's [Lyme disease fact sheet](https://www.health.ny.gov/diseases/communicable/lyme/fact_sheet.htm) (last reviewed July 2017) for the adult months, and its [nymph surveillance data](https://health.data.ny.gov/Health/Deer-Tick-Surveillance-Nymphs-May-to-Sept-excludin/kibp-u2ip)."
+    },
+    {
+      "type": "h2",
+      "text": "Where can you get a tick identified or tested in New York?"
+    },
+    {
+      "type": "p",
+      "text": "For identification, Cornell University's [Insect Diagnostic Lab](https://cals.cornell.edu/insect-diagnostic-laboratory/submit-sample-or-photo) accepts emailed photos and mailed samples. As of October 2026 it charges $30 per personal submission, and one fee covers a photo and a sample of the same specimen. Its instructions say a sample thought to be a parasite or taken from a human body must come through a physician, so email the lab before mailing a tick, or send a clear photo with its submission form."
+    },
+    {
+      "type": "p",
+      "text": "Testing the tick for germs is a different question. The state tests ticks it collects itself, to map where people are at risk, its [tick page](https://www.health.ny.gov/diseases/communicable/lyme/) explains. [NYC Health](https://www.nyc.gov/site/doh/health/health-topics/ticks.page) advises against testing a tick for disease: symptoms can start before results arrive, a positive tick may not have been attached long enough to infect you, and a negative result does not rule out a bite from another tick. To show a tick to a provider, the city suggests a sealed bag or container, preferably with a little rubbing alcohol."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in New York?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick promptly, watch the bite for a month and call a provider if a rash or flu-like symptoms appear. The [state health department](https://www.health.ny.gov/diseases/communicable/lyme/) and [NYC Health](https://www.nyc.gov/site/doh/health/health-topics/ticks.page) describe removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Use pointed tweezers and grasp the tick by the head or mouth, right where it enters the skin, not by its body.",
+        "Pull upward firmly and steadily, without twisting.",
+        "Do not use petroleum jelly, nail polish remover or heat; the city says these methods can raise the risk of infection.",
+        "Put the tick in a small container of rubbing alcohol, then clean the bite with rubbing alcohol, hydrogen peroxide or soap and water."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For more detail, see [the step-by-step tick removal guide](/blog/how-to-remove-tick-safely)."
+    },
+    {
+      "type": "p",
+      "text": "Speed matters for Lyme disease. In most cases a tick must be attached for more than 24 hours to pass on the Lyme bacterium, [CDC says](https://www.cdc.gov/lyme/causes/index.html). If a deer tick fed for more than a day in an area where Lyme disease is common, the state says antibiotics may help some people, although it does not recommend them routinely; NYC Health says a provider may prescribe a single dose of doxycycline, and [CDC's guidance for clinicians](https://www.cdc.gov/lyme/resources/pdfs/lyme-pep-low-ink-p.pdf) says that dose is most effective within 72 hours of removing the tick. Either way, it is a provider's decision."
+    },
+    {
+      "type": "p",
+      "text": "Then watch the bite for 30 days, as the state advises. [CDC](https://www.cdc.gov/lyme/signs-symptoms/index.html) says early signs appear 3 to 30 days after the bite. In about 70% to 80% of infected people, a rash called erythema migrans starts at the bite and expands over several days, up to 12 inches or more across; it does not always look like a bull's-eye. Fever, chills, headache, fatigue, muscle and joint aches and swollen lymph nodes are other early signs. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow if it is not treated."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "A bull's-eye rash on the back of a person's upper arm: a dark red center surrounded by a pale band and a wider pink outer ring",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, on an upper arm. CDC says it appears in about 70% to 80% of infected people.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you feel ill",
+      "text": "A rash, fever, headache or flu-like symptoms in the weeks after a tick bite or time outdoors is a reason to see a provider and mention the tick. Do not wait for a tick test result. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in New York?"
+    },
+    {
+      "type": "p",
+      "text": "Dress for ticks, use a repellent, keep to the middle of trails and check yourself after every outing. The [state health department](https://www.health.ny.gov/diseases/communicable/lyme/) and [NYC Health](https://www.nyc.gov/site/doh/health/health-topics/ticks.page) recommend these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Dress to spot them.** Wear light-colored, tightly woven clothing, long pants and long sleeves, and tuck pant legs into socks and your shirt into your pants.",
+        "**Use an EPA-registered repellent** with DEET, picaridin, IR3535 or oil of lemon eucalyptus, following the label; spray it outdoors and wash it off when you come inside.",
+        "**Treat clothing, not skin, with permethrin.** The city says permethrin products can be used on clothing and shoes to kill ticks, but not on skin.",
+        "**Keep to the trail.** Walk in the center of cleared trails, and avoid sitting on the ground, on fallen logs or on stone walls.",
+        "**Shower and check.** Bathe within two hours of coming indoors, then check your whole body, children and pets, including the hairline, behind the ears and knees, and the waist.",
+        "**Use the dryer.** Ten minutes on high heat kills ticks on dry clothes; damp clothes need longer, the city says."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Around the house, the city suggests keeping grass short, clearing piles of leaves and brush, trimming shrubs and branches to let in sunlight, keeping play equipment in sunny spots away from yard edges, and not leaving out food that draws deer and other wildlife."
+    },
+    {
+      "type": "p",
+      "text": "Pets bring ticks home and can get sick from them too. The city advises asking a veterinarian which flea and tick products suit your dog or cat."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are ticks active in New York in the winter?",
+      "answer": "They can be. CDC says blacklegged ticks can be active and bite any time winter temperatures are above freezing. New York's Lyme disease fact sheet, last reviewed in 2017, says adult blacklegged ticks are most active from March to mid-May and from mid-August to November, so mild days in late fall, winter and early spring still carry some risk. Check yourself, children and pets after time in woods, brush or leaf litter in any month, and remove any tick promptly."
+    },
+    {
+      "question": "What percentage of ticks in New York carry Lyme disease?",
+      "answer": "About one in four nymphs in recent state testing. In 2025 the state health department tested 3,914 blacklegged tick nymphs from 50 counties, and about 26% carried the Lyme bacterium, by BuzzSkito's tally of the county results; the share has stayed between about 24% and 28% since 2015. County results ranged from about 10% to 54%. The state warns that infection rates vary over short distances, so a county figure does not measure the risk at any one park or yard."
+    },
+    {
+      "question": "Which county in New York has the most Lyme disease?",
+      "answer": "It depends on whether you count cases or rates. Suffolk County had the most cases in 2023, 3,262, according to CDC's county data. Relative to population, Otsego County was highest, at about 591 cases per 100,000 residents, followed by Delaware, Schoharie and Washington counties, each above 500, based on CDC counts and Census population estimates. Cases are counted where patients live, not where they were bitten, and small counties can swing sharply from year to year."
+    },
+    {
+      "question": "Are there ticks in New York City?",
+      "answer": "Yes. The city health department finds blacklegged ticks most often on Staten Island and in the north Bronx; they turn up in small numbers in eastern Queens and only rarely in parts of Brooklyn and northern Manhattan. Lone star ticks live on Staten Island, and American dog ticks and Asian longhorned ticks live in all five boroughs. Most city residents diagnosed with a tick-borne disease were infected while visiting grassy, wooded areas upstate, on Long Island or in surrounding states."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in New York?",
+      "answer": "New York City's health department advises against testing a tick for disease: symptoms can begin before results come back, a positive tick may not have been attached long enough to infect you, and a negative result does not rule out a bite from another tick. The state tests ticks it collects itself to map risk. Cornell University's Insect Diagnostic Lab can identify the species from a photo or sample for a fee. If you feel ill after a bite, see a health care provider."
+    },
+    {
+      "question": "Should I see a doctor after a tick bite in New York?",
+      "answer": "Call a provider promptly if a deer tick may have been attached for more than a day, especially in an area where Lyme disease is common. The state says antibiotics may help some people after such a bite, though they are not routinely recommended, and New York City's health department says a provider may prescribe a single dose of doxycycline; CDC says that dose is most effective within 72 hours of removing the tick. Also see a provider if a rash, fever or flu-like symptoms appear in the weeks after a bite, and mention the tick."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "How Lyme Disease Spreads (September 24, 2024)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "Signs and Symptoms of Untreated Lyme Disease (May 15, 2024)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/signs-symptoms/index.html"
+    },
+    {
+      "title": "Preventing Lyme Disease (May 21, 2026)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/prevention/index.html"
+    },
+    {
+      "title": "Lyme Disease Prophylaxis After Tick Bite (clinician guidance, PDF)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/resources/pdfs/lyme-pep-low-ink-p.pdf"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "County Population Totals and Components of Change: 2020-2025",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html"
+    },
+    {
+      "title": "Tick-Borne Disease Surveillance Report, 2025",
+      "publisher": "New York State Department of Health, Bureau of Communicable Disease Control",
+      "url": "https://www.health.ny.gov/diseases/communicable/lyme/docs/tbd_report_2025.pdf"
+    },
+    {
+      "title": "Lyme Disease and Other Diseases Carried by Ticks (revised July 2026)",
+      "publisher": "New York State Department of Health",
+      "url": "https://www.health.ny.gov/diseases/communicable/lyme/"
+    },
+    {
+      "title": "Lyme Disease (Tick-borne borreliosis, Lyme arthritis) Fact Sheet",
+      "publisher": "New York State Department of Health",
+      "url": "https://www.health.ny.gov/diseases/communicable/lyme/fact_sheet.htm"
+    },
+    {
+      "title": "Lyme Disease Annual Incidence Rate by Year and Region, NYS (excluding NYC), 2011-2015",
+      "publisher": "New York State Department of Health",
+      "url": "https://www.health.ny.gov/statistics/diseases/communicable/surveillance_summaries/docs/lyme_2015.pdf"
+    },
+    {
+      "title": "Deer Tick Surveillance: Nymphs (May to Sept) excluding Powassan virus: Beginning 2008",
+      "publisher": "New York State Department of Health (Health Data NY)",
+      "url": "https://health.data.ny.gov/Health/Deer-Tick-Surveillance-Nymphs-May-to-Sept-excludin/kibp-u2ip"
+    },
+    {
+      "title": "Ticks",
+      "publisher": "New York City Department of Health and Mental Hygiene",
+      "url": "https://www.nyc.gov/site/doh/health/health-topics/ticks.page"
+    },
+    {
+      "title": "Notes from the Field: Borrelia mayonii Lyme Disease - New York, 2025 (MMWR, June 4, 2026)",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/75/wr/mm7521a2.htm"
+    },
+    {
+      "title": "State Agriculture Department and Cornell Integrated Pest Management Urge Livestock Producers to be Vigilant Against Asian Longhorned Ticks (June 15, 2026)",
+      "publisher": "New York State Department of Agriculture and Markets",
+      "url": "https://agriculture.ny.gov/node/36666"
+    },
+    {
+      "title": "Asian Longhorned Tick",
+      "publisher": "Cornell Integrated Pest Management",
+      "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/asian-longhorned-tick"
+    },
+    {
+      "title": "How to send a sample or photo to the IDL for identification",
+      "publisher": "Cornell University Insect Diagnostic Laboratory",
+      "url": "https://cals.cornell.edu/insect-diagnostic-laboratory/submit-sample-or-photo"
+    }
+  ],
+  "disclaimer": "both"
+}

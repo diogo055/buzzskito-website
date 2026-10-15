@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-minnesota",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "ccc71d24677db2aef175f0d8170632003599fcb108731125048ba0aa82165225",
+ "claimsChecked": 595,
+ "claimsCorrected": 12,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-15"
+}
