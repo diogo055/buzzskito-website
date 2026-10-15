@@ -103,7 +103,34 @@
    "04023": 0,
    "04025": 2,
    "04027": 1
-  }
+  },
+  "countyRatePer100k2023": {
+   "04001": 0,
+   "04003": 0.8,
+   "04005": 0.7,
+   "04007": 1.9,
+   "04009": 0,
+   "04011": 0,
+   "04012": 0,
+   "04013": 0,
+   "04015": 0.4,
+   "04017": 0,
+   "04019": 0.6,
+   "04021": 0.6,
+   "04023": 0,
+   "04025": 0.8,
+   "04027": 0.5
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "Pima County",
+    "fips": "04019",
+    "cases2023": 6,
+    "ratePer100k": 0.6
+   }
+  ],
+  "statewideRateFromCounties2023": 0.2
  },
  "blackleggedTick": {
   "counts": {

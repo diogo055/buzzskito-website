@@ -41,6 +41,7 @@ const FILES = [
   ['pow-by-state.csv', `${VIZ}/POW/pow_hum_historic%20-%20Historic%20Sta.csv`, 'CDC (ArboNET)', 'Powassan virus by state and year, 2004-2025', CDC_TERMS],
   ['wnv-by-county-yearly.csv', `${VIZ}/WNV/wnv_hist_hum_nonhum_yearly.csv`, 'CDC (ArboNET)', 'West Nile virus human and non-human activity by county and year', CDC_TERMS],
   ['population-by-state-2025.csv', 'https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv', 'US Census Bureau', 'State population estimates, Vintage 2025', 'US federal work'],
+  ['population-by-county-2025.csv', 'https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv', 'US Census Bureau', 'County population estimates, July 1 2020-2025 (Vintage 2025)', 'US federal work'],
   ['aedes-aegypti-by-county.csv', 'https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=10.1371/journal.pcbi.1007369.s006', 'Monaghan et al. 2019, PLOS Computational Biology', 'Aedes aegypti county records (to about 2016) and model', 'CC0'],
   ['aedes-albopictus-by-county.csv', 'https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=10.1371/journal.pcbi.1007369.s007', 'Monaghan et al. 2019, PLOS Computational Biology', 'Aedes albopictus county records (to about 2016) and model', 'CC0'],
 ]

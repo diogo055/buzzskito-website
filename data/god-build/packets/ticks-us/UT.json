@@ -102,7 +102,48 @@
    "49053": 0,
    "49055": 0,
    "49057": 1
-  }
+  },
+  "countyRatePer100k2023": {
+   "49001": 0,
+   "49003": 0,
+   "49005": 0,
+   "49007": 0,
+   "49009": 0,
+   "49011": 0.8,
+   "49013": 0,
+   "49015": 0,
+   "49017": 0,
+   "49019": 0,
+   "49021": 0,
+   "49023": 0,
+   "49025": 0,
+   "49027": 0,
+   "49029": 0,
+   "49031": 0,
+   "49033": 0,
+   "49035": 0.7,
+   "49037": 0,
+   "49039": 0,
+   "49041": 0,
+   "49043": 0,
+   "49045": 1.2,
+   "49047": 0,
+   "49049": 0.3,
+   "49051": 0,
+   "49053": 0,
+   "49055": 0,
+   "49057": 0.4
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "Salt Lake County",
+    "fips": "49035",
+    "cases2023": 9,
+    "ratePer100k": 0.7
+   }
+  ],
+  "statewideRateFromCounties2023": 0.5
  },
  "blackleggedTick": {
   "counts": {

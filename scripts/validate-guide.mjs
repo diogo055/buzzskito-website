@@ -100,7 +100,15 @@ const AUTH_HOSTS = [
   'lymedisease.org', 'globallymealliance.org', 'mosquito.org', 'naccho.org', 'nfpa.org', 'aapcc.org', 'poisonhelp.org', 'healthychildren.org', 'aap.org',
   'ipminstitute.org', 'ecoipm.org', 'stoppests.org', 'ncipmc.org', 'neipmc.org', 'npirspublic.ceris.purdue.edu',
 ]
-const isAuth = (host) => /\.(gov|edu|mil)$/.test(host) || /\.(gov|edu)\.[a-z]{2}$/.test(host) || AUTH_HOSTS.some((h) => host === h || host.endsWith(`.${h}`))
+// Canadian governments and universities do not use .gov / .edu (the province pages cite them)
+const CA_AUTH = [
+  'canada.ca', 'gc.ca', 'novascotia.ca', 'alberta.ca', 'saskatchewan.ca', 'quebec.ca', 'gnb.ca', 'princeedwardisland.ca', 'ontario.ca',
+  'publichealthontario.ca', 'inspq.qc.ca', 'bccdc.ca', 'gov.bc.ca', 'gov.mb.ca', 'gov.nl.ca', 'gov.pe.ca', 'gov.yk.ca', 'gov.nt.ca', 'gov.nu.ca',
+  'donneesquebec.ca', 'winnipeg.ca', 'edmonton.ca', 'calgary.ca', 'regina.ca', 'saskatoon.ca', 'etick.ca', 'ubishops.ca', 'mun.ca', 'mta.ca',
+  'dal.ca', 'unb.ca', 'upei.ca', 'mcgill.ca', 'umontreal.ca', 'ulaval.ca', 'utoronto.ca', 'uoguelph.ca', 'uwaterloo.ca', 'yorku.ca', 'umanitoba.ca',
+  'usask.ca', 'ualberta.ca', 'ucalgary.ca', 'ubc.ca', 'sfu.ca', 'uvic.ca', 'climate.weather.gc.ca', 'statcan.gc.ca',
+]
+const isAuth = (host) => /\.(gov|edu|mil)$/.test(host) || /\.(gov|edu)\.[a-z]{2}$/.test(host) || AUTH_HOSTS.some((h) => host === h || host.endsWith(`.${h}`)) || CA_AUTH.some((h) => host === h || host.endsWith(`.${h}`))
 const RETAIL = /amazon\.|amzn\.|walmart\.|homedepot\.|lowes\.|target\.com|chewy\.|ebay\.|domyown|doyourownpestcontrol|acehardware|tractorsupply|petco\.|petsmart\.|costco\.|menards\.|wayfair\./i
 
 // Canadian regulators and places, invented testing, absolute claims, retail language.
@@ -121,7 +129,9 @@ function usSpellingProblems(text) {
     'recognise', 'recognised', 'organise', 'organised', 'organisation', 'minimise', 'minimised', 'specialise', 'specialised', 'licence', 'practise', 'storey',
     'kerb', 'tyre', 'tyres', 'plough', 'cosy', 'draught', 'draughts', 'skilful', 'fulfil', 'enrol', 'sceptical', 'manoeuvre', 'whilst', 'eavestrough', 'eavestroughs']
   const set = new Set(BAD)
-  for (const w of strip(text).toLowerCase().match(/[a-z]+/g) || []) if (set.has(w)) out.push(w)
+  // proper nouns that happen to use a British form (Centre County and Centre Hall, Pennsylvania)
+  const PROPER = /\bCentre (County|Hall|Region)\b/g
+  for (const w of strip(text).replace(PROPER, '').toLowerCase().match(/[a-z]+/g) || []) if (set.has(w)) out.push(w)
   return [...new Set(out)]
 }
 
@@ -306,7 +316,8 @@ function validate(file) {
     if (srcUrls.has(s.url)) err(`duplicate source: ${s.url}`)
     srcUrls.add(s.url)
     if (isAuth(host)) auth++
-    else if (!['manufacturer', 'cost-survey', 'industry', 'news'].includes(s.kind)) err(`source ${host} is not a government, university or recognised scientific/medical source. If it is the product maker's own page or a published cost survey, add "kind": "manufacturer" or "cost-survey"; otherwise replace it.`)
+    else if (s.kind === 'government') auth++ // an official government site on a non-.gov domain (e.g. a county on .org); the fact-check confirms it
+    else if (!['manufacturer', 'cost-survey', 'industry', 'news'].includes(s.kind)) err(`source ${host} is not a government, university or recognised scientific/medical source. If it is an official government site on another domain, add "kind": "government"; if it is the product maker's own page or a published cost survey, add "kind": "manufacturer" or "cost-survey"; otherwise replace it.`)
   }
   if (auth < 3) err(`only ${auth} government / university / scientific sources; at least 3 are required`)
 

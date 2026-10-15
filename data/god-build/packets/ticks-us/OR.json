@@ -134,7 +134,67 @@
    "41067": 2,
    "41069": 0,
    "41071": 0
-  }
+  },
+  "countyRatePer100k2023": {
+   "41001": 0,
+   "41003": 2,
+   "41005": 0.7,
+   "41007": 4.9,
+   "41009": 0,
+   "41011": 4.6,
+   "41013": 0,
+   "41015": 0,
+   "41017": 1.9,
+   "41019": 1.8,
+   "41021": 0,
+   "41023": 0,
+   "41025": 0,
+   "41027": 8.4,
+   "41029": 0.5,
+   "41031": 3.9,
+   "41033": 13.6,
+   "41035": 5.7,
+   "41037": 12,
+   "41039": 0.3,
+   "41041": 0,
+   "41043": 2.3,
+   "41045": 0,
+   "41047": 1.7,
+   "41049": 0,
+   "41051": 1.1,
+   "41053": 1.1,
+   "41055": 0,
+   "41057": 7.3,
+   "41059": 0,
+   "41061": 0,
+   "41063": 0,
+   "41065": 0,
+   "41067": 0.3,
+   "41069": 0,
+   "41071": 0
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "Josephine County",
+    "fips": "41033",
+    "cases2023": 12,
+    "ratePer100k": 13.6
+   },
+   {
+    "county": "Marion County",
+    "fips": "41047",
+    "cases2023": 6,
+    "ratePer100k": 1.7
+   },
+   {
+    "county": "Multnomah County",
+    "fips": "41051",
+    "cases2023": 9,
+    "ratePer100k": 1.1
+   }
+  ],
+  "statewideRateFromCounties2023": 1.4
  },
  "blackleggedTick": {
   "counts": {

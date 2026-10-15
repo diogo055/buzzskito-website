@@ -114,7 +114,89 @@
    "23027": 256,
    "23029": 73,
    "23031": 331
-  }
+  },
+  "countyRatePer100k2023": {
+   "23001": 122.2,
+   "23003": 19.3,
+   "23005": 124.2,
+   "23007": 227.5,
+   "23009": 564.5,
+   "23011": 205.8,
+   "23013": 681.6,
+   "23015": 502.5,
+   "23017": 169.8,
+   "23019": 152.4,
+   "23021": 143.1,
+   "23023": 330,
+   "23025": 261.2,
+   "23027": 632.5,
+   "23029": 232,
+   "23031": 150.6
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "Knox County",
+    "fips": "23013",
+    "cases2023": 280,
+    "ratePer100k": 681.6
+   },
+   {
+    "county": "Waldo County",
+    "fips": "23027",
+    "cases2023": 256,
+    "ratePer100k": 632.5
+   },
+   {
+    "county": "Hancock County",
+    "fips": "23009",
+    "cases2023": 321,
+    "ratePer100k": 564.5
+   },
+   {
+    "county": "Lincoln County",
+    "fips": "23015",
+    "cases2023": 183,
+    "ratePer100k": 502.5
+   },
+   {
+    "county": "Sagadahoc County",
+    "fips": "23023",
+    "cases2023": 124,
+    "ratePer100k": 330
+   },
+   {
+    "county": "Somerset County",
+    "fips": "23025",
+    "cases2023": 134,
+    "ratePer100k": 261.2
+   },
+   {
+    "county": "Washington County",
+    "fips": "23029",
+    "cases2023": 73,
+    "ratePer100k": 232
+   },
+   {
+    "county": "Franklin County",
+    "fips": "23007",
+    "cases2023": 70,
+    "ratePer100k": 227.5
+   },
+   {
+    "county": "Kennebec County",
+    "fips": "23011",
+    "cases2023": 264,
+    "ratePer100k": 205.8
+   },
+   {
+    "county": "Oxford County",
+    "fips": "23017",
+    "cases2023": 102,
+    "ratePer100k": 169.8
+   }
+  ],
+  "statewideRateFromCounties2023": 209.8
  },
  "blackleggedTick": {
   "counts": {

@@ -122,7 +122,97 @@
    "24045": 29,
    "24047": 30,
    "24510": 54
-  }
+  },
+  "countyRatePer100k2023": {
+   "24001": 228.1,
+   "24003": 27,
+   "24005": 48.9,
+   "24009": 54.9,
+   "24011": 47.4,
+   "24013": 129.1,
+   "24015": 98.3,
+   "24017": 24.4,
+   "24019": 27.3,
+   "24021": 74.9,
+   "24023": 305.4,
+   "24025": 55.5,
+   "24027": 62.7,
+   "24029": 138.8,
+   "24031": 11.7,
+   "24033": 6.4,
+   "24035": 76,
+   "24037": 56.4,
+   "24039": 40.7,
+   "24041": 28.9,
+   "24043": 68.8,
+   "24045": 27.4,
+   "24047": 55.3,
+   "24510": 9.5
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "Garrett County",
+    "fips": "24023",
+    "cases2023": 87,
+    "ratePer100k": 305.4
+   },
+   {
+    "county": "Allegany County",
+    "fips": "24001",
+    "cases2023": 153,
+    "ratePer100k": 228.1
+   },
+   {
+    "county": "Kent County",
+    "fips": "24029",
+    "cases2023": 27,
+    "ratePer100k": 138.8
+   },
+   {
+    "county": "Carroll County",
+    "fips": "24013",
+    "cases2023": 228,
+    "ratePer100k": 129.1
+   },
+   {
+    "county": "Cecil County",
+    "fips": "24015",
+    "cases2023": 104,
+    "ratePer100k": 98.3
+   },
+   {
+    "county": "Queen Anne's County",
+    "fips": "24035",
+    "cases2023": 40,
+    "ratePer100k": 76
+   },
+   {
+    "county": "Frederick County",
+    "fips": "24021",
+    "cases2023": 220,
+    "ratePer100k": 74.9
+   },
+   {
+    "county": "Washington County",
+    "fips": "24043",
+    "cases2023": 107,
+    "ratePer100k": 68.8
+   },
+   {
+    "county": "Howard County",
+    "fips": "24027",
+    "cases2023": 211,
+    "ratePer100k": 62.7
+   },
+   {
+    "county": "St. Mary's County",
+    "fips": "24037",
+    "cases2023": 65,
+    "ratePer100k": 56.4
+   }
+  ],
+  "statewideRateFromCounties2023": 38.7
  },
  "blackleggedTick": {
   "counts": {

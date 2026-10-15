@@ -137,7 +137,58 @@
    "53073": 0,
    "53075": 0,
    "53077": 0
-  }
+  },
+  "countyRatePer100k2023": {
+   "53001": 0,
+   "53003": 0,
+   "53005": 0.9,
+   "53007": 1.2,
+   "53009": 2.6,
+   "53011": 0,
+   "53013": 0,
+   "53015": 0,
+   "53017": 0,
+   "53019": 0,
+   "53021": 0,
+   "53023": 0,
+   "53025": 0,
+   "53027": 0,
+   "53029": 1.2,
+   "53031": 0,
+   "53033": 0.2,
+   "53035": 0.4,
+   "53037": 0,
+   "53039": 0,
+   "53041": 0,
+   "53043": 0,
+   "53045": 0,
+   "53047": 0,
+   "53049": 0,
+   "53051": 0,
+   "53053": 0.6,
+   "53055": 5.4,
+   "53057": 0.8,
+   "53059": 0,
+   "53061": 0.2,
+   "53063": 0.4,
+   "53065": 0,
+   "53067": 0.3,
+   "53069": 0,
+   "53071": 1.6,
+   "53073": 0,
+   "53075": 0,
+   "53077": 0
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "Pierce County",
+    "fips": "53053",
+    "cases2023": 6,
+    "ratePer100k": 0.6
+   }
+  ],
+  "statewideRateFromCounties2023": 0.3
  },
  "blackleggedTick": {
   "counts": {

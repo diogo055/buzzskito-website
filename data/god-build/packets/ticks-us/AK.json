@@ -88,7 +88,41 @@
    "02275": 0,
    "02282": 0,
    "02290": 0
-  }
+  },
+  "countyRatePer100k2023": {
+   "02013": 0,
+   "02016": 0,
+   "02020": 0,
+   "02050": 0,
+   "02060": 0,
+   "02063": 14.9,
+   "02068": 0,
+   "02070": 0,
+   "02090": 0,
+   "02100": 0,
+   "02105": 0,
+   "02110": 0,
+   "02122": 0,
+   "02130": 0,
+   "02150": 0,
+   "02158": 0,
+   "02164": 0,
+   "02170": 0,
+   "02180": 0,
+   "02185": 0,
+   "02188": 0,
+   "02195": 0,
+   "02198": 0,
+   "02220": 12,
+   "02230": 0,
+   "02240": 0,
+   "02275": 0,
+   "02282": 0,
+   "02290": 0
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [],
+  "statewideRateFromCounties2023": 0.3
  },
  "blackleggedTick": {
   "counts": {

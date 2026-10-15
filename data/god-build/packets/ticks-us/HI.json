@@ -20,7 +20,17 @@
    "15005": 0,
    "15007": 0,
    "15009": 0
-  }
+  },
+  "countyRatePer100k2023": {
+   "15001": 0,
+   "15003": 0,
+   "15005": 0,
+   "15007": 0,
+   "15009": 0
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [],
+  "statewideRateFromCounties2023": 0
  },
  "blackleggedTick": {
   "counts": {

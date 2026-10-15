@@ -108,7 +108,83 @@
    "33015": 259,
    "33017": 169,
    "33019": 89
-  }
+  },
+  "countyRatePer100k2023": {
+   "33001": 121.5,
+   "33003": 101.1,
+   "33005": 154.5,
+   "33007": 32,
+   "33009": 159.5,
+   "33011": 95.9,
+   "33013": 144.7,
+   "33015": 80.8,
+   "33017": 126.5,
+   "33019": 202.2
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "Sullivan County",
+    "fips": "33019",
+    "cases2023": 89,
+    "ratePer100k": 202.2
+   },
+   {
+    "county": "Grafton County",
+    "fips": "33009",
+    "cases2023": 148,
+    "ratePer100k": 159.5
+   },
+   {
+    "county": "Cheshire County",
+    "fips": "33005",
+    "cases2023": 120,
+    "ratePer100k": 154.5
+   },
+   {
+    "county": "Merrimack County",
+    "fips": "33013",
+    "cases2023": 227,
+    "ratePer100k": 144.7
+   },
+   {
+    "county": "Strafford County",
+    "fips": "33017",
+    "cases2023": 169,
+    "ratePer100k": 126.5
+   },
+   {
+    "county": "Belknap County",
+    "fips": "33001",
+    "cases2023": 79,
+    "ratePer100k": 121.5
+   },
+   {
+    "county": "Carroll County",
+    "fips": "33003",
+    "cases2023": 53,
+    "ratePer100k": 101.1
+   },
+   {
+    "county": "Hillsborough County",
+    "fips": "33011",
+    "cases2023": 410,
+    "ratePer100k": 95.9
+   },
+   {
+    "county": "Rockingham County",
+    "fips": "33015",
+    "cases2023": 259,
+    "ratePer100k": 80.8
+   },
+   {
+    "county": "Coos County",
+    "fips": "33007",
+    "cases2023": 10,
+    "ratePer100k": 32
+   }
+  ],
+  "statewideRateFromCounties2023": 111.6
  },
  "blackleggedTick": {
   "counts": {

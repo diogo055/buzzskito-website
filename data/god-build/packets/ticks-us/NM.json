@@ -106,7 +106,52 @@
    "35057": 0,
    "35059": 0,
    "35061": 0
-  }
+  },
+  "countyRatePer100k2023": {
+   "35001": 0.7,
+   "35003": 0,
+   "35005": 0,
+   "35006": 0,
+   "35007": 0,
+   "35009": 0,
+   "35011": 0,
+   "35013": 0,
+   "35015": 0,
+   "35017": 0,
+   "35019": 0,
+   "35021": 0,
+   "35023": 0,
+   "35025": 0,
+   "35027": 0,
+   "35028": 10.4,
+   "35029": 0,
+   "35031": 0,
+   "35033": 0,
+   "35035": 0,
+   "35037": 0,
+   "35039": 0,
+   "35041": 0,
+   "35043": 0.6,
+   "35045": 0,
+   "35047": 0,
+   "35049": 0.6,
+   "35051": 17.3,
+   "35053": 0,
+   "35055": 0,
+   "35057": 0,
+   "35059": 0,
+   "35061": 0
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "Bernalillo County",
+    "fips": "35001",
+    "cases2023": 5,
+    "ratePer100k": 0.7
+   }
+  ],
+  "statewideRateFromCounties2023": 0.5
  },
  "blackleggedTick": {
   "counts": {

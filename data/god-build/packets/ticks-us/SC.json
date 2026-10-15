@@ -144,7 +144,83 @@
    "45087": 0,
    "45089": 0,
    "45091": 3
-  }
+  },
+  "countyRatePer100k2023": {
+   "45001": 0,
+   "45003": 0.6,
+   "45005": 0,
+   "45007": 0.5,
+   "45009": 0,
+   "45011": 0,
+   "45013": 4,
+   "45015": 0.8,
+   "45017": 7,
+   "45019": 1.6,
+   "45021": 0,
+   "45023": 0,
+   "45025": 0,
+   "45027": 3.2,
+   "45029": 0,
+   "45031": 0,
+   "45033": 0,
+   "45035": 1.2,
+   "45037": 0,
+   "45039": 0,
+   "45041": 0.7,
+   "45043": 1.5,
+   "45045": 0.9,
+   "45047": 0,
+   "45049": 0,
+   "45051": 1.5,
+   "45053": 5.9,
+   "45055": 1.4,
+   "45057": 0,
+   "45059": 0,
+   "45061": 0,
+   "45063": 1.3,
+   "45065": 10.2,
+   "45067": 0,
+   "45069": 0,
+   "45071": 0,
+   "45073": 0,
+   "45075": 1.2,
+   "45077": 0.7,
+   "45079": 0.9,
+   "45081": 0,
+   "45083": 0.3,
+   "45085": 1,
+   "45087": 0,
+   "45089": 0,
+   "45091": 1
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "Beaufort County",
+    "fips": "45013",
+    "cases2023": 8,
+    "ratePer100k": 4
+   },
+   {
+    "county": "Charleston County",
+    "fips": "45019",
+    "cases2023": 7,
+    "ratePer100k": 1.6
+   },
+   {
+    "county": "Horry County",
+    "fips": "45051",
+    "cases2023": 6,
+    "ratePer100k": 1.5
+   },
+   {
+    "county": "Greenville County",
+    "fips": "45045",
+    "cases2023": 5,
+    "ratePer100k": 0.9
+   }
+  ],
+  "statewideRateFromCounties2023": 1
  },
  "blackleggedTick": {
   "counts": {

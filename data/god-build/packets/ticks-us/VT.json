@@ -112,7 +112,87 @@
    "50023": 117,
    "50025": 180,
    "50027": 229
-  }
+  },
+  "countyRatePer100k2023": {
+   "50001": 338.1,
+   "50003": 400.8,
+   "50005": 225.4,
+   "50007": 174.6,
+   "50009": 100.4,
+   "50011": 139.6,
+   "50013": 253.6,
+   "50015": 130,
+   "50017": 257.5,
+   "50019": 68.6,
+   "50021": 84.5,
+   "50023": 194.2,
+   "50025": 392,
+   "50027": 395.3
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "Bennington County",
+    "fips": "50003",
+    "cases2023": 149,
+    "ratePer100k": 400.8
+   },
+   {
+    "county": "Windsor County",
+    "fips": "50027",
+    "cases2023": 229,
+    "ratePer100k": 395.3
+   },
+   {
+    "county": "Windham County",
+    "fips": "50025",
+    "cases2023": 180,
+    "ratePer100k": 392
+   },
+   {
+    "county": "Addison County",
+    "fips": "50001",
+    "cases2023": 128,
+    "ratePer100k": 338.1
+   },
+   {
+    "county": "Orange County",
+    "fips": "50017",
+    "cases2023": 77,
+    "ratePer100k": 257.5
+   },
+   {
+    "county": "Grand Isle County",
+    "fips": "50013",
+    "cases2023": 19,
+    "ratePer100k": 253.6
+   },
+   {
+    "county": "Caledonia County",
+    "fips": "50005",
+    "cases2023": 69,
+    "ratePer100k": 225.4
+   },
+   {
+    "county": "Washington County",
+    "fips": "50023",
+    "cases2023": 117,
+    "ratePer100k": 194.2
+   },
+   {
+    "county": "Chittenden County",
+    "fips": "50007",
+    "cases2023": 296,
+    "ratePer100k": 174.6
+   },
+   {
+    "county": "Franklin County",
+    "fips": "50011",
+    "cases2023": 71,
+    "ratePer100k": 139.6
+   }
+  ],
+  "statewideRateFromCounties2023": 223.1
  },
  "blackleggedTick": {
   "counts": {

@@ -119,7 +119,94 @@
    "34037": 530,
    "34039": 149,
    "34041": 413
-  }
+  },
+  "countyRatePer100k2023": {
+   "34001": 62.5,
+   "34003": 50.4,
+   "34005": 48.1,
+   "34007": 33.4,
+   "34009": 55,
+   "34011": 65.4,
+   "34013": 24.5,
+   "34015": 46.6,
+   "34017": 20.4,
+   "34019": 564,
+   "34021": 99.4,
+   "34023": 51,
+   "34025": 104.4,
+   "34027": 130.4,
+   "34029": 92.4,
+   "34031": 61.8,
+   "34033": 79.4,
+   "34035": 111.1,
+   "34037": 362.2,
+   "34039": 25.4,
+   "34041": 369.9
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "Hunterdon County",
+    "fips": "34019",
+    "cases2023": 735,
+    "ratePer100k": 564
+   },
+   {
+    "county": "Warren County",
+    "fips": "34041",
+    "cases2023": 413,
+    "ratePer100k": 369.9
+   },
+   {
+    "county": "Sussex County",
+    "fips": "34037",
+    "cases2023": 530,
+    "ratePer100k": 362.2
+   },
+   {
+    "county": "Morris County",
+    "fips": "34027",
+    "cases2023": 674,
+    "ratePer100k": 130.4
+   },
+   {
+    "county": "Somerset County",
+    "fips": "34035",
+    "cases2023": 390,
+    "ratePer100k": 111.1
+   },
+   {
+    "county": "Monmouth County",
+    "fips": "34025",
+    "cases2023": 674,
+    "ratePer100k": 104.4
+   },
+   {
+    "county": "Mercer County",
+    "fips": "34021",
+    "cases2023": 389,
+    "ratePer100k": 99.4
+   },
+   {
+    "county": "Ocean County",
+    "fips": "34029",
+    "cases2023": 611,
+    "ratePer100k": 92.4
+   },
+   {
+    "county": "Salem County",
+    "fips": "34033",
+    "cases2023": 52,
+    "ratePer100k": 79.4
+   },
+   {
+    "county": "Cumberland County",
+    "fips": "34011",
+    "cases2023": 101,
+    "ratePer100k": 65.4
+   }
+  ],
+  "statewideRateFromCounties2023": 75.6
  },
  "blackleggedTick": {
   "counts": {

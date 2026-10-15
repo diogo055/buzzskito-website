@@ -66,7 +66,34 @@
    "10001": 44,
    "10003": 203,
    "10005": 78
-  }
+  },
+  "countyRatePer100k2023": {
+   "10001": 23.1,
+   "10003": 34.9,
+   "10005": 29.5
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "New Castle County",
+    "fips": "10003",
+    "cases2023": 203,
+    "ratePer100k": 34.9
+   },
+   {
+    "county": "Sussex County",
+    "fips": "10005",
+    "cases2023": 78,
+    "ratePer100k": 29.5
+   },
+   {
+    "county": "Kent County",
+    "fips": "10001",
+    "cases2023": 44,
+    "ratePer100k": 23.1
+   }
+  ],
+  "statewideRateFromCounties2023": 31.4
  },
  "blackleggedTick": {
   "counts": {

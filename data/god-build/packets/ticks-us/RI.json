@@ -78,7 +78,48 @@
    "44005": 378,
    "44007": 1000,
    "44009": 954
-  }
+  },
+  "countyRatePer100k2023": {
+   "44001": 284.1,
+   "44003": 219.7,
+   "44005": 451.4,
+   "44007": 150.3,
+   "44009": 733
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "Washington County",
+    "fips": "44009",
+    "cases2023": 954,
+    "ratePer100k": 733
+   },
+   {
+    "county": "Newport County",
+    "fips": "44005",
+    "cases2023": 378,
+    "ratePer100k": 451.4
+   },
+   {
+    "county": "Bristol County",
+    "fips": "44001",
+    "cases2023": 143,
+    "ratePer100k": 284.1
+   },
+   {
+    "county": "Kent County",
+    "fips": "44003",
+    "cases2023": 377,
+    "ratePer100k": 219.7
+   },
+   {
+    "county": "Providence County",
+    "fips": "44007",
+    "cases2023": 1000,
+    "ratePer100k": 150.3
+   }
+  ],
+  "statewideRateFromCounties2023": 259
  },
  "blackleggedTick": {
   "counts": {

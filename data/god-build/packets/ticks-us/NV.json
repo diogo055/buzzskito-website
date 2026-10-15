@@ -90,7 +90,42 @@
    "32031": 5,
    "32033": 0,
    "32510": 0
-  }
+  },
+  "countyRatePer100k2023": {
+   "32001": 0,
+   "32003": 0.3,
+   "32005": 2,
+   "32007": 0,
+   "32009": 0,
+   "32011": 0,
+   "32013": 0,
+   "32015": 0,
+   "32017": 22.5,
+   "32019": 1.6,
+   "32021": 0,
+   "32023": 0,
+   "32027": 0,
+   "32029": 0,
+   "32031": 1,
+   "32033": 0,
+   "32510": 0
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "Washoe County",
+    "fips": "32031",
+    "cases2023": 5,
+    "ratePer100k": 1
+   },
+   {
+    "county": "Clark County",
+    "fips": "32003",
+    "cases2023": 6,
+    "ratePer100k": 0.3
+   }
+  ],
+  "statewideRateFromCounties2023": 0.4
  },
  "blackleggedTick": {
   "counts": {

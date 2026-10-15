@@ -156,7 +156,113 @@
    "06111": 1,
    "06113": 0,
    "06115": 0
-  }
+  },
+  "countyRatePer100k2023": {
+   "06001": 0.4,
+   "06003": 0,
+   "06005": 0,
+   "06007": 0.5,
+   "06009": 4.3,
+   "06011": 0,
+   "06013": 0.2,
+   "06015": 0,
+   "06017": 0.5,
+   "06019": 0,
+   "06021": 0,
+   "06023": 4.5,
+   "06025": 0,
+   "06027": 0,
+   "06029": 0.1,
+   "06031": 0,
+   "06033": 0,
+   "06035": 0,
+   "06037": 0.2,
+   "06039": 0,
+   "06041": 0,
+   "06043": 0,
+   "06045": 2.2,
+   "06047": 0,
+   "06049": 0,
+   "06051": 0,
+   "06053": 0,
+   "06055": 0.7,
+   "06057": 1,
+   "06059": 0,
+   "06061": 0.2,
+   "06063": 0,
+   "06065": 0.2,
+   "06067": 0.3,
+   "06069": 1.5,
+   "06071": 0,
+   "06073": 0.3,
+   "06075": 0.5,
+   "06077": 0.2,
+   "06079": 0,
+   "06081": 0,
+   "06083": 0.9,
+   "06085": 0.6,
+   "06087": 4.6,
+   "06089": 1.1,
+   "06091": 0,
+   "06093": 0,
+   "06095": 0,
+   "06097": 2.3,
+   "06099": 0,
+   "06101": 0,
+   "06103": 0,
+   "06105": 0,
+   "06107": 0.4,
+   "06109": 0,
+   "06111": 0.1,
+   "06113": 0,
+   "06115": 0
+  },
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [
+   {
+    "county": "Santa Cruz County",
+    "fips": "06087",
+    "cases2023": 12,
+    "ratePer100k": 4.6
+   },
+   {
+    "county": "Humboldt County",
+    "fips": "06023",
+    "cases2023": 6,
+    "ratePer100k": 4.5
+   },
+   {
+    "county": "Sonoma County",
+    "fips": "06097",
+    "cases2023": 11,
+    "ratePer100k": 2.3
+   },
+   {
+    "county": "Santa Clara County",
+    "fips": "06085",
+    "cases2023": 12,
+    "ratePer100k": 0.6
+   },
+   {
+    "county": "Alameda County",
+    "fips": "06001",
+    "cases2023": 6,
+    "ratePer100k": 0.4
+   },
+   {
+    "county": "San Diego County",
+    "fips": "06073",
+    "cases2023": 11,
+    "ratePer100k": 0.3
+   },
+   {
+    "county": "Los Angeles County",
+    "fips": "06037",
+    "cases2023": 15,
+    "ratePer100k": 0.2
+   }
+  ],
+  "statewideRateFromCounties2023": 0.3
  },
  "blackleggedTick": {
   "counts": {

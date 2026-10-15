@@ -602,6 +602,16 @@
    "downloadedOn": "2026-10-15"
   },
   {
+   "file": "population-by-county-2025.csv",
+   "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv",
+   "publisher": "US Census Bureau",
+   "what": "County population estimates, July 1 2020-2025 (Vintage 2025)",
+   "terms": "US federal work",
+   "bytes": 2071735,
+   "sha256": "4f5a499d851e2cb48fd7a5405e5a9235453a8a66933657aacd10df0e264f35d5",
+   "downloadedOn": "2026-10-15"
+  },
+  {
    "file": "population-by-state-2025.csv",
    "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
    "publisher": "US Census Bureau",

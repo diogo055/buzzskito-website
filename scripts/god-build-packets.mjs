@@ -167,6 +167,9 @@ function aedes(file) {
 const aegypti = aedes('aedes-aegypti-by-county.csv'), albopictus = aedes('aedes-albopictus-by-county.csv')
 
 // ── population and climate ─────────────────────────────────────────────────────
+// county populations, July 1, 2023 (Census Vintage 2025), to turn county case counts into rates
+const countyPop2023 = {}
+{ const rows = csv('population-by-county-2025.csv', 'latin1'); const h = rows[0]; for (const r of rows.slice(1)) if (r[h.indexOf('SUMLEV')] === '050') countyPop2023[pad(r[h.indexOf('STATE')], 2) + pad(r[h.indexOf('COUNTY')], 3)] = num(r[h.indexOf('POPESTIMATE2023')]) }
 const pop = {}
 { const rows = csv('population-by-state-2025.csv'); const h = rows[0]; for (const r of rows.slice(1)) { const s = byFips[pad(r[h.indexOf('STATE')], 2)]; if (s && r[h.indexOf('SUMLEV')] === '040') pop[s.code] = num(r[h.indexOf('POPESTIMATE2025')]) } }
 function normals(code) {
@@ -201,6 +204,11 @@ for (const s of states) {
       latestYear: 2023, latest: L.byYear[2023] ?? null, average2017to2019: base.length ? Math.round(base.reduce((a, b) => a + b, 0) / base.length) : null,
       countiesWithCases2023: counties.filter((c) => c.byYear['2023'] > 0).length, countyCount: counties.length, topCounties2023: top2023, note: LYME_NOTE,
       countyCases2023: Object.fromEntries(counties.map((c) => [c.fips, c.byYear['2023']])),
+      // our calculation: CDC 2023 county cases / Census July 1, 2023 county population x 100,000
+      countyRatePer100k2023: Object.fromEntries(counties.filter((c) => countyPop2023[c.fips] > 0).map((c) => [c.fips, Math.round((c.byYear['2023'] / countyPop2023[c.fips]) * 1e6) / 10])),
+      countyRateNote: 'County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.',
+      topCountiesByRate2023: counties.filter((c) => countyPop2023[c.fips] > 0 && c.byYear['2023'] >= 5).map((c) => ({ county: c.name, fips: c.fips, cases2023: c.byYear['2023'], ratePer100k: Math.round((c.byYear['2023'] / countyPop2023[c.fips]) * 1e6) / 10 })).sort((a, b) => b.ratePer100k - a.ratePer100k).slice(0, 10),
+      statewideRateFromCounties2023: (() => { const withPop = counties.filter((c) => countyPop2023[c.fips] > 0); const p = withPop.reduce((s, c) => s + countyPop2023[c.fips], 0); return p ? Math.round((withPop.reduce((s, c) => s + c.byYear['2023'], 0) / p) * 1e6) / 10 : null })(),
     },
     blackleggedTick: { counts: tally(ix.scapularis), county: Object.fromEntries(Object.entries(ix.scapularis || {}).map(([f, v]) => [f, statusKey(v)]).filter(([, v]) => v)), note: TICK_NOTE },
     westernBlackleggedTick: { counts: tally(ix.pacificus), county: Object.fromEntries(Object.entries(ix.pacificus || {}).map(([f, v]) => [f, statusKey(v)]).filter(([, v]) => v)) },

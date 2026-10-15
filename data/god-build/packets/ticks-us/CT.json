@@ -55,7 +55,11 @@
    "09011": 0,
    "09013": 0,
    "09015": 0
-  }
+  },
+  "countyRatePer100k2023": {},
+  "countyRateNote": "County rates are BuzzSkito calculations: CDC 2023 cases by county of residence divided by Census Bureau July 1, 2023 county population estimates (Vintage 2025). Counties with few cases have unstable rates.",
+  "topCountiesByRate2023": [],
+  "statewideRateFromCounties2023": null
  },
  "blackleggedTick": {
   "counts": {
