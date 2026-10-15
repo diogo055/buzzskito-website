@@ -81,6 +81,12 @@ page, plus:
   page, and cite it. If a service cannot be confirmed, leave it out.
 - A secondary site (news, pest company) may be cited only for news events, marked
   `"kind": "news"`.
+- **Credit "CDC ArboNET Tick Module"** on every table, map or caption built from CDC's tick
+  status or pathogen tables (the data-use terms require the name).
+- **Photo captions say only what the photo record supports** (found Oct 15): the CDC life-stages
+  photo (blacklegged-tick-life-stages, PHIL 1205) does not say which small tick is the nymph and
+  which the larva, so describe "an adult and two much smaller immature ticks"; the male in
+  tick-unfed-vs-engorged (PHIL 23451) must not be called "unfed".
 - **A year missing from a CDC file shows as 0 in the packet** (found Oct 15 on Minnesota's
   Powassan series): it can mean no cases or not reported (2020 especially). Check the state's
   own data before charting a 0, and show "not reported" years as gaps with a caption.

@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-illinois",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "a44397221c744b67db1bdeb1e980e13e205aea0d707548b6facad4c544b7a228",
+ "claimsChecked": 850,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-15"
+}
