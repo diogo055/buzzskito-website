@@ -18,6 +18,9 @@ import { join } from 'path'
 const ROOT = process.cwd()
 const APP = join(ROOT, '.next', 'server', 'app')
 const SITE = 'https://buzzskito.ca'
+// REHEARSAL_DATE is set only by .github/workflows/release-rehearsal.yml: "now" is the end of that
+// release day, so the pages released that day do not count as dated in the future.
+const NOW = /^\d{4}-\d{2}-\d{2}$/.test(process.env.REHEARSAL_DATE || '') ? Date.parse(`${process.env.REHEARSAL_DATE}T23:59:59Z`) : Date.now()
 const body = join(APP, 'sitemap.xml.body')
 if (!existsSync(body)) { console.log('check:sitemap: no built sitemap found, run `next build` first'); process.exit(1) }
 
@@ -43,7 +46,7 @@ for (const { loc, lastmod } of entries) {
   if (!(loc === SITE || loc.startsWith(`${SITE}/`))) { problems.push(`${loc}: not an https://buzzskito.ca address`); continue }
   if (/[?#]/.test(loc) || (loc.endsWith('/') && loc !== `${SITE}/`)) problems.push(`${loc}: has a query, a # or a trailing slash`)
   if (!lastmod || Number.isNaN(Date.parse(lastmod))) problems.push(`${loc}: no valid lastmod`)
-  else if (Date.parse(lastmod) > Date.now() + 36e5 * 24) problems.push(`${loc}: lastmod ${lastmod} is in the future`)
+  else if (Date.parse(lastmod) > NOW + 36e5 * 24) problems.push(`${loc}: lastmod ${lastmod} is in the future`)
   const path = pathOf(loc)
   if (redirected.has(path)) { problems.push(`${loc}: listed, but next.config.mjs redirects it`); continue }
   const file = fileOf(path)

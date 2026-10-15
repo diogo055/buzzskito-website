@@ -42,6 +42,8 @@ jobs:
           D="${{ inputs.date }}"
           if [ -z "$D" ]; then D=$(grep -m1 -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}' data/god-build/rehearse.txt); fi
           echo "RELEASE_DATE=$D" >> "$GITHUB_ENV"
+          # the date checks (validate-guide, check-sitemap) then judge the site as of that day
+          echo "REHEARSAL_DATE=$D" >> "$GITHUB_ENV"
           echo "Rehearsing the release of $D"
 
       - name: Move the due pages live (inside this runner only)

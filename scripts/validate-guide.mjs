@@ -26,7 +26,10 @@ const ROOT = process.cwd()
 const GUIDES = join(ROOT, 'content', 'guides')
 const SCHEDULED = join(ROOT, 'content', 'guides-scheduled')
 const DIR = join(ROOT, 'data', 'us-pages')
-const TODAY = new Date().toISOString().slice(0, 10)
+// REHEARSAL_DATE is set only by .github/workflows/release-rehearsal.yml: it checks the site as it
+// will stand on that release day, so pages dated for that day are not "in the future" yet.
+const REHEARSAL = /^\d{4}-\d{2}-\d{2}$/.test(process.env.REHEARSAL_DATE || '') ? process.env.REHEARSAL_DATE : ''
+const TODAY = REHEARSAL || new Date().toISOString().slice(0, 10)
 const PHOTOS_FILE = join(ROOT, 'data', 'god-build', 'photos.json')
 const PHOTOS = existsSync(PHOTOS_FILE) ? Object.fromEntries(JSON.parse(readFileSync(PHOTOS_FILE, 'utf8')).photos.map((x) => [x.file, x])) : {}
 const LICENSES = new Set(['public-domain', 'CC0-1.0', 'CC-BY-2.0', 'CC-BY-2.5', 'CC-BY-3.0', 'CC-BY-4.0', 'CC-BY-SA-2.0', 'CC-BY-SA-2.5', 'CC-BY-SA-3.0', 'CC-BY-SA-4.0'])
