@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-tennessee",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "e5cfd63e5c5654641270be69fc17cc6c2a6c93a96210866f1f9df18a71af6b8d",
+ "claimsChecked": 350,
+ "claimsCorrected": 12,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-10-15"
+}

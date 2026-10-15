@@ -1,0 +1,1006 @@
+{
+  "slug": "ticks-in-tennessee",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in tennessee",
+  "alsoTargets": [
+    "types of ticks in tennessee",
+    "tick season tennessee",
+    "lyme disease tennessee"
+  ],
+  "metaTitle": "Ticks in Tennessee: Types, County Maps, Season",
+  "metaDescription": "Lone star ticks are established in 45 Tennessee counties. Photos, county tick maps, ehrlichiosis, spotted fever and Lyme data, tick season and ID help.",
+  "h1": "Ticks in Tennessee: Species, County Maps, Disease Data and Tick Season",
+  "dek": "Which ticks live in Tennessee, where CDC has recorded them county by county, why ehrlichiosis and spotted fever outnumber Lyme disease here, when each tick is active and where to get a tick identified.",
+  "breadcrumb": "Ticks in Tennessee",
+  "excerpt": "Lone star ticks are established in 45 of Tennessee's 95 counties. Tick photos, county maps, ehrlichiosis and spotted fever data, tick season by month and tick ID help.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**Six medically important tick species live in Tennessee, and in CDC's county records the lone star tick is the most widely established, in 45 of the 95 counties.** The tick-borne illnesses reported most here are ehrlichiosis and spotted fever rickettsiosis, not Lyme disease: Tennessee's 2023 rates for both ranked sixth in the US, while [CDC surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html) show 50 Lyme cases that year.",
+    "bullets": [
+      "CDC's county tables, which run through December 2025, list lone star ticks as established in 45 counties, American dog ticks in 33 and blacklegged (deer) ticks in 29.",
+      "Ehrlichiosis was the most reported tick-borne disease in Tennessee in 2023, and about 56% of that year's cases were hospitalized, the state health department says.",
+      "In CDC's county-level data for 2019 to 2022, Tennessee residents had 441 spotted fever rickettsiosis cases and 316 *E. chaffeensis* ehrlichiosis cases, against 128 Lyme disease cases.",
+      "Reported spotted fever, ehrlichiosis and Lyme cases peak between May and September, while adult deer ticks are active from October through April.",
+      "The invasive Asian longhorned tick was first found in Tennessee in May 2019, on a dog at a Union County animal shelter.",
+      "As of October 2026, the University of Tennessee identifies ticks mailed in by the public but does not test them for germs."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Tennessee at a glance",
+    "rows": [
+      [
+        "Medically important tick species",
+        "Six (Tennessee Department of Health, as of October 2026)"
+      ],
+      [
+        "Most widely established tick",
+        "Lone star tick: established in 45 of 95 counties (CDC, through 2025)"
+      ],
+      [
+        "American dog tick",
+        "Established in 33 counties, reported in 37 (CDC, through 2025)"
+      ],
+      [
+        "Blacklegged (deer) tick",
+        "Established in 29 counties, reported in 27 (CDC, through December 2025)"
+      ],
+      [
+        "Most reported tick-borne disease",
+        "Ehrlichiosis, in 2023 (state health department)"
+      ],
+      [
+        "Ehrlichiosis rate",
+        "15.0 per million (1.5 per 100,000) in 2023, sixth highest in the US (CDC)"
+      ],
+      [
+        "Spotted fever rickettsiosis rate",
+        "12.1 per million (1.2 per 100,000) in 2023, sixth highest in the US (CDC)"
+      ],
+      [
+        "Lyme disease",
+        "50 cases in 2023, 0.7 per 100,000 (CDC); the state's own count is 39"
+      ],
+      [
+        "Peak months for illness",
+        "May to September, by date of illness onset (state health department, 2013 to 2023)"
+      ],
+      [
+        "Asian longhorned tick",
+        "First found May 2019 in Union County; in eight counties by February 2020"
+      ],
+      [
+        "Tick identification",
+        "University of Tennessee, by mail; no germ testing (as of October 2026)"
+      ],
+      [
+        "Alpha-gal syndrome",
+        "Reportable to the state since July 1, 2025 (UT Extension)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Tennessee?"
+    },
+    {
+      "type": "p",
+      "text": "Six medically important tick species live in Tennessee, according to the [Tennessee Department of Health's vector-borne disease page](https://www.tn.gov/health/vector.html): the lone star, American dog, blacklegged (deer), brown dog, Gulf Coast and Asian longhorned ticks. The department says their populations have grown in recent decades and that many people meet ticks in their own yard or neighborhood."
+    },
+    {
+      "type": "p",
+      "text": "Five of them are the common human-biting ticks in the state, according to [UT Extension's guide to managing ticks on school grounds](https://solutions.tennessee.edu/?view_pub_pdf=803): the lone star, Gulf Coast, American dog, blacklegged and Asian longhorned ticks. Of the three Tennessee ticks in CDC's county tables, the lone star tick is the most widely established, in 45 counties, ahead of the American dog tick in 33, according to [CDC's American dog tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html), and the blacklegged tick in 29."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where it is recorded in Tennessee",
+        "How to recognize it",
+        "What it can spread in Tennessee"
+      ],
+      "rows": [
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Established in 45 counties, reported in 32",
+          "Adult females have one white spot on the back",
+          "Ehrlichiosis, tularemia, Heartland virus and STARI; linked to alpha-gal syndrome"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Established in 33 counties, reported in 37",
+          "Dark brown; females have a white shield behind the head, males white markings",
+          "Rocky Mountain spotted fever and tularemia"
+        ],
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in 29 counties, reported in 27",
+          "Black legs; females have a reddish-orange body and a black shield",
+          "Lyme disease, anaplasmosis, babesiosis and Powassan virus"
+        ],
+        [
+          "Gulf Coast tick, *Amblyomma maculatum*",
+          "Becoming more widespread and abundant (UT Extension, 2021)",
+          "Red-brown; females have a white shield, males white lines",
+          "Rocky Mountain spotted fever"
+        ],
+        [
+          "Brown dog tick, *Rhipicephalus sanguineus*",
+          "Found worldwide; mainly bites dogs but can bite people",
+          "Plain reddish-brown (CDC photo below)",
+          "Rocky Mountain spotted fever"
+        ],
+        [
+          "Asian longhorned tick, *Haemaphysalis longicornis*",
+          "Mostly eastern Tennessee; first found in 2019",
+          "Small and reddish-brown, with no markings on the back",
+          "No known human diseases in the US; spreads a cattle parasite"
+        ]
+      ],
+      "caption": "Counties: CDC, through 2025 (its county tables cover the lone star, American dog and blacklegged ticks). Diseases: Tennessee Department of Health; the cattle parasite is from the University of Tennessee. Appearance: UT Extension's school-grounds guide and UT's longhorned tick page."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and one pale yellowish spot in the middle of its back",
+      "caption": "Adult female lone star tick. The single white spot gives the species its name, and CDC says nymphs and adult females are the stages that bite people most often.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick: brown with a whitish shield behind the head. CDC says adult females are the stage most likely to bite people, with the highest risk in spring and summer.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "Adult female blacklegged tick and a much smaller nymph crawling on a person's fingertip, showing how tiny the nymph stage is",
+      "caption": "An adult female blacklegged (deer) tick, left, and a nymph, right, on a fingertip. UT Extension says nymphs can look like a poppy seed or a freckle.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gulf-coast-tick-female.webp",
+      "width": 1200,
+      "height": 807,
+      "alt": "Adult female Gulf Coast tick on a green leaf, with a dark reddish-brown body, a pale silvery shield behind the head and long orange-brown legs",
+      "caption": "Adult female Gulf Coast tick, with its pale shield behind the head. UT Extension says this species is becoming more widespread and abundant in Tennessee.",
+      "credit": "CDC/ Dr. Christopher Paddock (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10876"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/brown-dog-tick-male.webp",
+      "width": 1200,
+      "height": 1167,
+      "alt": "Adult male brown dog tick seen from above under magnification, plain reddish-brown with no white markings, beside a 1 mm (0.04 inch) scale bar",
+      "caption": "Adult male brown dog tick, magnified; the scale bar is 1 mm, about 0.04 inch. The health department says this tick mainly bites dogs but can bite people.",
+      "credit": "CDC/ Dr. Gary Alpert; PhD; photo: Anna Kang; Dr. Gary Alpert; PhD (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31722"
+    },
+    {
+      "type": "p",
+      "text": "A University of Tennessee surveillance network shows the mix. From March 2019 to February 2020 it gathered 8,057 ticks of eight species from 67 counties, taken mostly from dogs, cattle, deer and other animals: 3,151 blacklegged ticks, 2,246 lone star ticks, 1,730 American dog ticks, 400 brown dog ticks, 190 Gulf Coast ticks, 150 winter ticks, 144 Asian longhorned ticks and 46 rabbit ticks, according to the [network's 2021 report](https://pmc.ncbi.nlm.nih.gov/articles/PMC8345789/). Many of the blacklegged ticks came from deer checked during hunting season, so the tally is not a ranking of bites on people. One dead deer in Cumberland County carried 795 lone star ticks on its ears alone."
+    },
+    {
+      "type": "p",
+      "text": "For the sizes and markings of these and other US ticks side by side, see [what the common US ticks look like](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "h2",
+      "text": "Where are lone star ticks found in Tennessee?"
+    },
+    {
+      "type": "p",
+      "text": "Across most of the state. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) lists the species as established in 45 Tennessee counties and reported in 32 more, through 2025, and has no record for the other 18. Established means six or more ticks of one life stage, or more than one life stage, were collected in a county within 12 months. CDC calls it a very aggressive tick that bites humans."
+    },
+    {
+      "type": "map",
+      "scope": "TN",
+      "title": "Lone star tick status by county, Tennessee, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "47001": "established",
+        "47003": "established",
+        "47005": "established",
+        "47007": "reported",
+        "47009": "reported",
+        "47011": "reported",
+        "47013": "reported",
+        "47015": "established",
+        "47017": "established",
+        "47021": "established",
+        "47023": "reported",
+        "47025": "established",
+        "47029": "reported",
+        "47031": "established",
+        "47033": "reported",
+        "47035": "established",
+        "47037": "established",
+        "47039": "established",
+        "47041": "established",
+        "47043": "established",
+        "47047": "established",
+        "47049": "reported",
+        "47051": "established",
+        "47055": "established",
+        "47065": "established",
+        "47069": "established",
+        "47071": "established",
+        "47075": "established",
+        "47077": "established",
+        "47079": "established",
+        "47081": "reported",
+        "47083": "reported",
+        "47085": "established",
+        "47087": "reported",
+        "47091": "reported",
+        "47093": "reported",
+        "47099": "reported",
+        "47101": "established",
+        "47103": "established",
+        "47105": "reported",
+        "47107": "reported",
+        "47109": "reported",
+        "47113": "established",
+        "47115": "established",
+        "47117": "established",
+        "47119": "established",
+        "47121": "established",
+        "47123": "reported",
+        "47125": "established",
+        "47129": "reported",
+        "47131": "reported",
+        "47133": "reported",
+        "47135": "reported",
+        "47139": "reported",
+        "47141": "reported",
+        "47143": "established",
+        "47145": "established",
+        "47147": "established",
+        "47149": "established",
+        "47151": "established",
+        "47153": "established",
+        "47155": "established",
+        "47157": "established",
+        "47159": "established",
+        "47161": "established",
+        "47163": "reported",
+        "47165": "established",
+        "47167": "reported",
+        "47169": "reported",
+        "47173": "established",
+        "47175": "reported",
+        "47177": "reported",
+        "47181": "reported",
+        "47183": "reported",
+        "47185": "reported",
+        "47187": "established",
+        "47189": "established"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer. No record does not mean no ticks: it can mean no one has sampled or reported there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "p",
+      "text": "By our count, nine of the 18 counties without a record are in the northeast: Carter, Grainger, Greene, Hamblen, Hancock, Hawkins, Jefferson, Unicoi and Washington. That gap shows where lone star ticks have not been collected and reported, not where they are missing. CDC says a county not labeled established does not mean ticks are absent, and that a county with no record may become established once it is sampled for the first time."
+    },
+    {
+      "type": "p",
+      "text": "The lone star tick carries several illnesses. The health department links it to ehrlichiosis, tularemia, Heartland virus and STARI (southern tick-associated rash illness), and to alpha-gal syndrome, an allergy to red meat. In the US it is thought to be the main tick behind alpha-gal, according to [UT Extension's alpha-gal fact sheet](https://solutions.tennessee.edu/?view_pub_pdf=3131), which says a state law made the syndrome reportable to the health department on July 1, 2025. Read more about [alpha-gal syndrome and how it is diagnosed](/blog/alpha-gal-syndrome)."
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged (deer) ticks established in Tennessee?"
+    },
+    {
+      "type": "p",
+      "text": "In 29 counties spread across the state, from Shelby County in the far west to Washington and Carter counties in the northeast. [CDC's county table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in those 29 counties and reported in 27 more, and has no record for the other 39. To compare other states, see [tick maps and disease data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "map",
+      "scope": "TN",
+      "title": "Blacklegged (deer) tick status by county, Tennessee, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "47001": "established",
+        "47003": "established",
+        "47005": "reported",
+        "47007": "reported",
+        "47013": "established",
+        "47019": "established",
+        "47021": "established",
+        "47025": "established",
+        "47027": "reported",
+        "47031": "established",
+        "47035": "established",
+        "47037": "established",
+        "47041": "established",
+        "47047": "established",
+        "47049": "reported",
+        "47051": "established",
+        "47055": "reported",
+        "47057": "reported",
+        "47065": "established",
+        "47069": "established",
+        "47075": "reported",
+        "47077": "established",
+        "47079": "reported",
+        "47085": "reported",
+        "47087": "established",
+        "47093": "established",
+        "47095": "reported",
+        "47097": "reported",
+        "47099": "established",
+        "47105": "established",
+        "47113": "established",
+        "47115": "established",
+        "47117": "established",
+        "47119": "reported",
+        "47125": "established",
+        "47129": "reported",
+        "47131": "reported",
+        "47137": "reported",
+        "47143": "established",
+        "47145": "reported",
+        "47147": "reported",
+        "47149": "reported",
+        "47151": "established",
+        "47153": "reported",
+        "47155": "reported",
+        "47157": "established",
+        "47161": "reported",
+        "47165": "reported",
+        "47167": "reported",
+        "47171": "reported",
+        "47177": "reported",
+        "47179": "established",
+        "47181": "reported",
+        "47185": "reported",
+        "47187": "established",
+        "47189": "established"
+      },
+      "caption": "Established means six or more blacklegged ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer than six of a single life stage. No record does not mean no ticks: it can reflect a lack of sampling or reporting. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html)"
+    },
+    {
+      "type": "p",
+      "text": "The health department's own map, for 2018 and 2019, showed established populations concentrated in Middle and East Tennessee, around Nashville and east toward the Appalachians, with reported counties scattered across West Tennessee. CDC's status is cumulative, so a county once listed as established stays that way, and the totals depend on how much sampling each county has had."
+    },
+    {
+      "type": "h3",
+      "text": "Do Tennessee deer ticks carry Lyme disease bacteria?"
+    },
+    {
+      "type": "p",
+      "text": "Some do. [CDC's ArboNET Tick Module pathogen table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) records *Borrelia burgdorferi*, the bacterium behind Lyme disease, in host-seeking blacklegged ticks from six Tennessee counties: Anderson, Claiborne, Davidson, Hamilton, Scott and Union. It also records *Borrelia miyamotoi*, which causes hard tick relapsing fever, in Scott County. It has no Tennessee records for the human-active variant of the anaplasmosis germ, for *Babesia microti* or for Powassan virus, and a missing record does not prove a germ is absent. [UT Extension's school-grounds guide](https://solutions.tennessee.edu/?view_pub_pdf=803) describes the Lyme bacterium's arrival in Tennessee as fairly recent."
+    },
+    {
+      "type": "h2",
+      "text": "Which tick-borne diseases are most common in Tennessee?"
+    },
+    {
+      "type": "p",
+      "text": "Ehrlichiosis and spotted fever rickettsiosis, not Lyme disease. The health department says ehrlichiosis was the most reported tick-borne disease in Tennessee in 2023, and it ranks Lyme disease third. In CDC's 2023 tables, Tennessee's rates of *Ehrlichia chaffeensis* ehrlichiosis, 15.0 cases per million residents, and spotted fever rickettsiosis, 12.1 per million, each ranked sixth in the country, according to [CDC's ehrlichiosis statistics](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html) and [CDC's spotted fever statistics](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html). Tennessee's Lyme disease rate that year was 0.7 per 100,000, or about 7 per million."
+    },
+    {
+      "type": "chart",
+      "title": "Reported tick-borne disease rates in Tennessee, by disease, 2018 to 2023",
+      "x": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Spotted fever rickettsiosis",
+          "values": [
+            7.9,
+            4.9,
+            1.6,
+            1.7,
+            1.3,
+            1.2
+          ]
+        },
+        {
+          "name": "Ehrlichiosis (E. chaffeensis)",
+          "values": [
+            1.8,
+            1.8,
+            0.9,
+            1.6,
+            1.1,
+            1.5
+          ]
+        },
+        {
+          "name": "Lyme disease",
+          "values": [
+            0.4,
+            0.7,
+            0.6,
+            0.8,
+            0.5,
+            0.7
+          ]
+        }
+      ],
+      "yLabel": "Cases per 100,000 residents, by state of residence (bars stacked by disease)",
+      "caption": "CDC publishes spotted fever and ehrlichiosis rates per million residents; they are shown here per 100,000 (divided by 10) to match its Lyme disease rates. CDC says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions, and the state health department says a 2020 change in the spotted fever case definition likely lowered counts too. Lyme disease figures from 2022 on follow a revised case definition. Data through 2023, the latest CDC year as of October 2026.",
+      "source": "CDC [ehrlichiosis statistics](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html), [spotted fever statistics](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html) and [Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)"
+    },
+    {
+      "type": "p",
+      "text": "A longer window shows the same gap. CDC's [county-level tick-borne disease file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) for 2019 to 2022 adds up to 441 spotted fever rickettsiosis cases and 316 *E. chaffeensis* ehrlichiosis cases among Tennessee residents, against 128 Lyme disease cases. It also lists 33 anaplasmosis, 22 tularemia and 2 babesiosis cases. The file leaves out cases with no county of residence, which is why its Lyme total is lower than the 172 we count in CDC's state table for the same years."
+    },
+    {
+      "type": "h3",
+      "text": "What are spotted fever rickettsiosis and ehrlichiosis?"
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever rickettsiosis is a group of infections caused by *Rickettsia* bacteria. [Rocky Mountain spotted fever](/blog/rocky-mountain-spotted-fever), caused by *Rickettsia rickettsii*, is the most severe, and in Tennessee these bacteria are spread by the American dog tick and other ticks, the [health department says](https://www.tn.gov/health/vector.html). By the department's count, Tennessee often reported more than 600 cases a year before 2019, and it is one of five states that together account for more than half of US cases. The department says COVID-19 and a 2020 change in the case definition likely reduced the counts reported since then."
+    },
+    {
+      "type": "p",
+      "text": "Ehrlichiosis in Tennessee is spread by the lone star tick and is caused mostly by *Ehrlichia chaffeensis*, less often by *Ehrlichia ewingii*. Reports have generally risen since 2015, and the 2023 count was 22% higher than 2022's. Unlike the state's other reportable tick-borne diseases, it puts 35% to 65% of patients in the hospital; in 2023, about 56% of probable and confirmed cases were hospitalized. Read more about [what ehrlichiosis is and how it is treated](/blog/ehrlichiosis)."
+    },
+    {
+      "type": "p",
+      "text": "The health department adds that alpha-gal syndrome, babesiosis, Heartland virus and Powassan virus also exist in Tennessee but are reported too rarely to draw state-level conclusions."
+    },
+    {
+      "type": "h3",
+      "text": "Which counties report the most spotted fever and ehrlichiosis?"
+    },
+    {
+      "type": "p",
+      "text": "Counts are highest in the Nashville area. By our count from CDC's 2019 to 2022 file, Davidson and Williamson counties alone had 99 of the state's 316 *E. chaffeensis* ehrlichiosis cases, and six Middle Tennessee counties (Davidson, Williamson, Sumner, Wilson, Cheatham and Dickson) had nearly half. The health department reports the same pattern for 2023, when Davidson and Williamson counties accounted for 27% of ehrlichiosis cases."
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Spotted fever rickettsiosis",
+        "Ehrlichiosis (*E. chaffeensis*)",
+        "Lyme disease"
+      ],
+      "rows": [
+        [
+          "Davidson",
+          "39",
+          "50",
+          "15"
+        ],
+        [
+          "Williamson",
+          "25",
+          "49",
+          "4"
+        ],
+        [
+          "Shelby",
+          "28",
+          "20",
+          "6"
+        ],
+        [
+          "Dickson",
+          "27",
+          "15",
+          "4"
+        ],
+        [
+          "Sumner",
+          "20",
+          "15",
+          "6"
+        ],
+        [
+          "Cumberland",
+          "25",
+          "9",
+          "7"
+        ],
+        [
+          "Hamilton",
+          "15",
+          "13",
+          "2"
+        ],
+        [
+          "Wilson",
+          "11",
+          "13",
+          "1"
+        ],
+        [
+          "Putnam",
+          "17",
+          "6",
+          "1"
+        ],
+        [
+          "Cheatham",
+          "10",
+          "12",
+          "1"
+        ]
+      ],
+      "caption": "Cases among county residents, 2019 to 2022 combined, for the ten counties with the most spotted fever and ehrlichiosis cases together, from [CDC's county-level tick-borne disease file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html). Cases are counted where patients live, not necessarily where they were bitten, and counties with more people tend to report more cases."
+    },
+    {
+      "type": "p",
+      "text": "Rates, which adjust for population, are a better guide to risk. The health department's county maps of average yearly rates for 2013 to 2023 show higher spotted fever and ehrlichiosis rates across many counties in western and middle Tennessee, and in parts of the east."
+    },
+    {
+      "type": "h3",
+      "text": "How does Tennessee compare with neighboring states?"
+    },
+    {
+      "type": "p",
+      "text": "Several neighbors report more of one disease or the other per person. In 2023, Missouri's ehrlichiosis rate was about five times Tennessee's, Arkansas and Kentucky also had higher ehrlichiosis rates, and Virginia's Lyme disease rate was nearly 30 times Tennessee's."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Ehrlichiosis",
+        "Spotted fever rickettsiosis",
+        "Lyme disease"
+      ],
+      "rows": [
+        [
+          "[Missouri](/blog/ticks-in-missouri)",
+          "7.6",
+          "1.8",
+          "0.3"
+        ],
+        [
+          "[Arkansas](/blog/ticks-in-arkansas)",
+          "4.1",
+          "2.1",
+          "0.2"
+        ],
+        [
+          "[Kentucky](/blog/ticks-in-kentucky)",
+          "2.9",
+          "2.1",
+          "2.7"
+        ],
+        [
+          "Tennessee",
+          "1.5",
+          "1.2",
+          "0.7"
+        ],
+        [
+          "[Virginia](/blog/ticks-in-virginia)",
+          "1.1",
+          "1.1",
+          "20.2"
+        ],
+        [
+          "[North Carolina](/blog/ticks-in-north-carolina)",
+          "1.0",
+          "2.1",
+          "2.2"
+        ],
+        [
+          "[Georgia](/blog/ticks-in-georgia)",
+          "0.1",
+          "0.3",
+          "0.2"
+        ],
+        [
+          "[Mississippi](/blog/ticks-in-mississippi)",
+          "0.1",
+          "0.8",
+          "0.1"
+        ],
+        [
+          "[Alabama](/blog/ticks-in-alabama)",
+          "0.1",
+          "1.6",
+          "0.7"
+        ]
+      ],
+      "caption": "Cases per 100,000 residents by state of residence, 2023, the latest year CDC had published as of October 2026; ehrlichiosis means *E. chaffeensis* ehrlichiosis. CDC publishes ehrlichiosis and spotted fever rates per million, shown here divided by 10. Sources: [CDC ehrlichiosis statistics](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html), [CDC spotted fever statistics](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html) and [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does Tennessee have?"
+    },
+    {
+      "type": "p",
+      "text": "Very little by national standards. Tennessee reported 50 confirmed and probable Lyme disease cases in 2023, a rate of 0.7 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Yearly counts since 2008 range from 17 in 2014 to 57 in 2021. The health department's page gives 39 cases for 2023; this page uses CDC's figures throughout so that states can be compared."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Tennessee, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            31,
+            37,
+            36,
+            37,
+            30,
+            25,
+            17,
+            26,
+            25,
+            47,
+            29,
+            45,
+            38,
+            57,
+            32,
+            50
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "A revised case definition took effect in 2022; in low-incidence states such as Tennessee it tightened the probable category, so compare 2022 and 2023 with earlier years with care. CDC says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions. The state health department's own count for 2023 is 39. Data through 2023, the latest CDC year as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)"
+    },
+    {
+      "type": "p",
+      "text": "Read the recent years with care. A revised national case definition took effect in 2022. In low-incidence states such as Tennessee, cases still require clinical information, but a probable case now needs objective signs of infection, and CDC's [report on the first year of the change](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) says counts fell in many such states. Tennessee averaged 40 cases a year in 2017 to 2019 and reported 32 in 2022. CDC also says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions."
+    },
+    {
+      "type": "p",
+      "text": "The health department says reported cases have been increasing since 2014 and attributes the rise to the spread of blacklegged ticks from the northeastern US into the Southeast, which it says has raised concern in northern and eastern Tennessee."
+    },
+    {
+      "type": "h3",
+      "text": "Which Tennessee counties report Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Northeastern counties stand out. In 2023, 22 of Tennessee's 95 counties reported at least one case, and five northeastern counties (Washington with 8, Johnson with 4, Sullivan with 3, Unicoi with 3 and Carter with 2) accounted for 20 of the state's 50, based on [CDC's county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html). Knox County had 5 and Cumberland County 4. For 2013 to 2023, the health department says 94% of cases were in residents of Middle and East Tennessee, and 9 of the 15 counties with the highest rates were in the northeast region bordering Virginia and North Carolina; others with high rates tend to lie along the Kentucky line."
+    },
+    {
+      "type": "p",
+      "text": "Cases are counted where patients live, which may not be where they were bitten. With so few cases, one or two can move a county up or down the list from year to year."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Tennessee?"
+    },
+    {
+      "type": "p",
+      "text": "Ticks can bite in any month, but most illness begins from late spring through summer. [UT Extension's alpha-gal fact sheet](https://solutions.tennessee.edu/?view_pub_pdf=3131) says lone star ticks are mainly active in spring and summer and blacklegged ticks in fall and winter, and the health department warns that blacklegged ticks can bite whenever the temperature is above freezing (32°F)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Larvae",
+        "Nymphs",
+        "Adults"
+      ],
+      "rows": [
+        [
+          "Lone star",
+          "June to October",
+          "March to September",
+          "February to July"
+        ],
+        [
+          "American dog",
+          "March to April; July to August",
+          "March to April; July to August",
+          "April to August"
+        ],
+        [
+          "Blacklegged (deer)",
+          "July",
+          "April to June",
+          "October to April"
+        ],
+        [
+          "Gulf Coast",
+          "May to July",
+          "May to July",
+          "April to September"
+        ],
+        [
+          "Asian longhorned",
+          "April to November",
+          "March to September",
+          "April to September"
+        ]
+      ],
+      "caption": "General months of activity in Tennessee. Native ticks: [UT Extension's guide to ticks on school grounds](https://solutions.tennessee.edu/?view_pub_pdf=803) (2021). Asian longhorned tick: University of Tennessee data on [UT's longhorned tick page](https://vectorvbdwatch.tennessee.edu/longhorned_tick_and_theileria/), where nymphs peak in spring, adults in summer and larvae in fall. Ticks can turn up outside these months."
+    },
+    {
+      "type": "p",
+      "text": "Illness follows the ticks. By the health department's account of illness onset for 2013 to 2023, spotted fever rickettsiosis peaks from May to September, ehrlichiosis from May to July and Lyme disease from June to August, and 67% of anaplasmosis cases began between June and September. Because ehrlichiosis symptoms usually start 5 to 14 days after a bite, the department says April through June is when Tennesseans are most at risk of catching it."
+    },
+    {
+      "type": "p",
+      "text": "The university's statewide tick survey saw two peaks in 2019: submissions rose from May to August, the usual peak for lone star ticks, and again in October and November, deer hunting season, when many blacklegged ticks were collected."
+    },
+    {
+      "type": "h2",
+      "text": "Is the Asian longhorned tick in Tennessee?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, since 2019. The first Tennessee records were two nymphs found on a dog at a Union County animal shelter on May 13, 2019, and five adult females collected from a Roane County heifer on May 22, according to the [2021 study that documented the tick's arrival](https://pmc.ncbi.nlm.nih.gov/articles/PMC8345789/). By February 2020 it had been found in eight counties and was established in four of them: Union, Roane, Jefferson and Cocke. The other four were Knox, Claiborne, Putnam and Sevier."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female, both plain reddish-brown, resting on a US dime for scale",
+      "caption": "An Asian longhorned tick nymph, left, and adult female, right, on a US dime. The University of Tennessee describes the species as small and reddish-brown, with no markings on its back.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "It is mainly a livestock pest. The health department says it carries no known human diseases in the US. [UT's longhorned tick page](https://vectorvbdwatch.tennessee.edu/longhorned_tick_and_theileria/) explains why it spreads quickly: females reproduce without mating and lay up to 2,000 eggs, so a single tick can start a population, and the tick can complete its life cycle in as little as six months, against two to three years for native Tennessee ticks. It spreads *Theileria orientalis* Ikeda, a blood parasite of cattle with no approved treatment or commercial vaccine in the US. The first Tennessee specimens all tested negative for the animal germs the 2021 study screened for."
+    },
+    {
+      "type": "h3",
+      "text": "How do you report an Asian longhorned tick in Tennessee?"
+    },
+    {
+      "type": "p",
+      "text": "The University of Tennessee tracks the tick county by county and asks for reports:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Use the reporting form on UT's longhorned tick page to tell the university about a find; each new county record needs its own submission.",
+        "Keep the tick if you can: put it in a sealable bag labeled with the host animal, the date and the place, and store it in the freezer.",
+        "Send it for identification to your county Extension office or to UT's Medical and Veterinary Entomology Laboratory, using the university's tick intake form.",
+        "If cattle look ill, call your veterinarian. UT's page also lists the Tennessee Department of Agriculture, its Kord Animal Health Diagnostic Lab and USDA's Animal and Plant Health Inspection Service as contacts."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Where can you get a tick identified in Tennessee?"
+    },
+    {
+      "type": "p",
+      "text": "At the University of Tennessee, which identifies ticks but, as of October 2026, does not test them for germs. Its [tick intake form](https://vectorvbdwatch.tennessee.edu/wp-content/uploads/sites/314/2026/03/Tick_Intake_Form2.pdf) offers identification for public use in research and education and says ticks are not tested for pathogens or for human or animal health diagnosis. Print the form, put the tick in a vial or sealable bag with a little ethanol-based hand sanitizer, note who or what it was found on and where, and send it to the Medical and Veterinary Entomology Laboratory, 2505 EJ Chapman Drive, 370 Plant Biotechnology Building, Knoxville, TN 37996-4560. County Extension offices also take ticks for identification, UT's longhorned tick page says."
+    },
+    {
+      "type": "p",
+      "text": "Knowing the species still helps. [UT Extension's school-grounds guide](https://solutions.tennessee.edu/?view_pub_pdf=803) notes that a tick can be taken to the doctor's office to narrow the list of possible illnesses, because some species transmit certain germs better than others. To try identifying a tick yourself first, use this [tick identification chart with photos](/learn/tick-identification-chart)."
+    },
+    {
+      "type": "p",
+      "text": "Do not wait for an answer before seeking care. The health department says blood test results for spotted fever, ehrlichiosis and Lyme disease can take several weeks, and that a provider who is concerned may start antibiotics before they come back."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Tennessee?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick right away, keep it, and watch your health for the next few weeks. The [health department](https://www.tn.gov/health/vector.html) and the University of Tennessee advise:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick with tweezers as close to the skin as possible and pull straight out, without using bare hands.",
+        "Wash the bite with soap and water.",
+        "Save the tick in a labeled, sealed bag in the freezer, or at least note what it looked like.",
+        "Watch for a rash or fever in the days and weeks after the bite, and contact a health care provider if either appears."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For more detail, see the [step-by-step guide to removing a tick](/blog/how-to-remove-tick-safely)."
+    },
+    {
+      "type": "p",
+      "text": "Know the symptoms of Tennessee's common tick-borne illnesses. The health department says ehrlichiosis usually starts 1 to 2 weeks after a bite with fever or chills, a severe headache, muscle aches, nausea, vomiting, diarrhea or loss of appetite, and sometimes confusion; a rash is more common in children than adults. Spotted fever rickettsiosis begins with fever and headache and can bring a rash of red splotches or pinpoint dots; left untreated, it can quickly become life-threatening. Lyme disease usually begins 3 to 30 days after a bite, and 70% to 80% of patients get the expanding erythema migrans rash. See [the stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide)."
+    },
+    {
+      "type": "p",
+      "text": "Alpha-gal syndrome works differently. [UT Extension says](https://solutions.tennessee.edu/?view_pub_pdf=3131) its symptoms, such as hives, swelling of the lips or tongue, or severe stomach pain, can be delayed two to six hours after eating red meat and often appear weeks to a month after a known tick bite."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you feel ill",
+      "text": "Fever, headache, rash or body aches in the weeks after a tick bite or time outdoors are reasons to see a provider and mention the tick. Do not wait for a tick to be identified. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Tennessee?"
+    },
+    {
+      "type": "p",
+      "text": "Treat clothing, use repellent, check yourself and shower soon after coming indoors. The [health department's prevention advice](https://www.tn.gov/health/vector.html) covers each step:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Treat clothing and gear with permethrin.** The department recommends 0.5% permethrin on clothing and gear, or buying pretreated items. Cats are sensitive to permethrin, UT Extension notes, so keep them away from items being treated or stored.",
+        "**Use an EPA-registered repellent** with DEET, picaridin, IR3535, oil of lemon eucalyptus (OLE), PMD or 2-undecanone, as the label directs. Do not use repellent on babies under 2 months, or OLE or PMD on children under 3.",
+        "**Check, then shower.** After coming indoors, check your clothing, your body (use a mirror) and your children, and shower within two hours.",
+        "**Use the dryer.** Tumble dry clothes on high heat for 10 minutes, or use hot water if you wash them first.",
+        "**Make the yard less welcoming.** Remove leaf litter, clear tall grass and brush, put gravel or wood chips between lawns and wooded areas, and keep play areas away from vegetation.",
+        "**Protect pets** with a tick preventive your veterinarian recommends; see [how to check dogs for ticks and protect them](/blog/ticks-on-dogs)."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Some people face more exposure than others. The health department says farmers, landscapers and anyone who regularly hikes, camps, hunts or gardens in or near wooded areas may be at higher risk of a bite from an infected tick."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the most common tick in Tennessee?",
+      "answer": "By how widely it has been found, the lone star tick. CDC's county tables through 2025 list it as established in 45 of Tennessee's 95 counties, more than the American dog tick (33) or the blacklegged tick (29), and CDC describes it as a very aggressive tick that bites humans. Adult females have a single white spot on the back. In a 2019 to 2020 University of Tennessee survey of ticks taken mostly from animals, blacklegged ticks were the most numerous, and many of those were collected from deer during hunting season."
+    },
+    {
+      "question": "Is Lyme disease common in Tennessee?",
+      "answer": "No. CDC counted 50 Lyme disease cases among Tennessee residents in 2023, a rate of 0.7 per 100,000, compared with 20.2 per 100,000 in neighboring Virginia. The state health department ranks Lyme disease third among reported tick-borne diseases, behind ehrlichiosis, the most reported in 2023. Most cases are in residents of Middle and East Tennessee, especially the northeast near Virginia and North Carolina. Cases are counted where patients live, which is not always where they were bitten."
+    },
+    {
+      "question": "When is tick season in Tennessee?",
+      "answer": "Ticks can bite in any month, but risk is highest from spring through summer. UT Extension says lone star ticks are mainly active in spring and summer, while adult blacklegged ticks are active from October through April, and the health department says blacklegged ticks can bite whenever temperatures are above freezing. By date of illness onset, reported spotted fever cases peak from May to September, ehrlichiosis from May to July and Lyme disease from June to August."
+    },
+    {
+      "question": "Can I get a tick tested for diseases in Tennessee?",
+      "answer": "Not for diagnosis, as of October 2026. The University of Tennessee's Medical and Veterinary Entomology Laboratory in Knoxville identifies ticks sent in with its intake form, and county Extension offices also accept ticks, but the form says ticks are not tested for germs or for human or animal health diagnosis. If you feel ill after a bite, see a health care provider; the health department notes that a provider may start antibiotics before blood test results come back."
+    },
+    {
+      "question": "Do Asian longhorned ticks in Tennessee make people sick?",
+      "answer": "The state health department says the Asian longhorned tick has no known human diseases in the United States. Its main threat in Tennessee is to cattle: it spreads Theileria orientalis Ikeda, a blood parasite with no approved treatment or commercial vaccine in the US, according to the University of Tennessee. The tick was first found in the state in May 2019. Report a find to the university through its online form or send the tick to a county Extension office."
+    },
+    {
+      "question": "Is alpha-gal syndrome reportable in Tennessee?",
+      "answer": "Yes. UT Extension says a state law making alpha-gal syndrome reportable to the Tennessee Department of Health took effect on July 1, 2025. The condition is an allergy to red meat and other mammal products, and in the United States the lone star tick is thought to be the main tick behind it. Symptoms such as hives, swelling or severe stomach pain can be delayed two to six hours after eating red meat."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "American Dog Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html"
+    },
+    {
+      "title": "Ehrlichiosis Epidemiology and Statistics (state incidence files, 2018 to 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "Data and Statistics on Spotted Fever Rickettsiosis (state incidence files, 2018 to 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (county file, 2019 to 2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "Vector-Borne Diseases (tick species, tick-borne disease data and prevention; updated July 22, 2026)",
+      "publisher": "Tennessee Department of Health",
+      "url": "https://www.tn.gov/health/vector.html"
+    },
+    {
+      "title": "Managing Ticks on School Grounds (PB1895, 2021)",
+      "publisher": "University of Tennessee Extension",
+      "url": "https://solutions.tennessee.edu/?view_pub_pdf=803"
+    },
+    {
+      "title": "Alpha-gal Syndrome: The Red Meat Allergy (W1388, 2026)",
+      "publisher": "University of Tennessee Extension",
+      "url": "https://solutions.tennessee.edu/?view_pub_pdf=3131"
+    },
+    {
+      "title": "Haemaphysalis longicornis and Theileria",
+      "publisher": "University of Tennessee Institute of Agriculture",
+      "url": "https://vectorvbdwatch.tennessee.edu/longhorned_tick_and_theileria/"
+    },
+    {
+      "title": "University of Tennessee Tick Intake Form",
+      "publisher": "University of Tennessee Medical and Veterinary Entomology Laboratory",
+      "url": "https://vectorvbdwatch.tennessee.edu/wp-content/uploads/sites/314/2026/03/Tick_Intake_Form2.pdf"
+    },
+    {
+      "title": "Rapid Discovery and Detection of Haemaphysalis longicornis through the Use of Passive Surveillance and Collaboration: Building a State Tick-Surveillance Network (2021)",
+      "publisher": "International Journal of Environmental Research and Public Health, via PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8345789/"
+    }
+  ],
+  "disclaimer": "both"
+}
