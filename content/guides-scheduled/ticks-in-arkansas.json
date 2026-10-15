@@ -1,0 +1,1086 @@
+{
+  "slug": "ticks-in-arkansas",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in arkansas",
+  "alsoTargets": [
+    "types of ticks in arkansas",
+    "tick season arkansas",
+    "lyme disease arkansas"
+  ],
+  "metaTitle": "Ticks in Arkansas: Types, County Maps, Season",
+  "metaDescription": "Lone star ticks are established in 73 of 75 Arkansas counties. Tick photos, county maps, spotted fever, ehrlichiosis and Lyme data, and tick season.",
+  "h1": "Ticks in Arkansas: Species, County Maps, Disease Data and Tick Season",
+  "dek": "Which ticks live in Arkansas, where CDC has recorded them county by county, why spotted fever, ehrlichiosis and alpha-gal syndrome matter far more here than Lyme disease, and when ticks are most active.",
+  "breadcrumb": "Ticks in Arkansas",
+  "excerpt": "Lone star ticks are established in 73 of Arkansas's 75 counties. Tick photos, county maps, spotted fever, ehrlichiosis and alpha-gal data, and tick season by month.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**The lone star tick is the tick Arkansans are most likely to meet, and the illnesses spread by it and the American dog tick, ehrlichiosis and spotted fever, far outnumber Lyme disease.** By our ranking of CDC's 2023 state figures for [spotted fever](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html) and [ehrlichiosis](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html), Arkansas had the second-highest reported rates of both, while CDC counted 5 Lyme cases there that year.",
+    "bullets": [
+      "CDC's county tables, which run through 2025, list the lone star tick as established in 73 of Arkansas's 75 counties, the American dog tick in 59 and the blacklegged (deer) tick in 31.",
+      "By our ranking of CDC's yearly state files, Arkansas had the highest reported spotted fever rate of any state every year from 2018 through 2022, and the second highest in 2023.",
+      "In the state health department's counts, ehrlichiosis has outnumbered spotted fever every year since 2022: 129 cases against 42 in 2025, as of October 2026.",
+      "Arkansas was the first state to make alpha-gal syndrome, the red meat allergy linked to lone star tick bites, reportable, and it counted 399 confirmed or probable cases in 2025.",
+      "Ticks are most active from April to September, but bites can happen year-round, the University of Arkansas System Division of Agriculture says.",
+      "The invasive Asian longhorned tick, first confirmed in Arkansas in 2018, had been found in 10 north Arkansas counties by September 2025."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Arkansas at a glance",
+    "rows": [
+      [
+        "Most widely established tick",
+        "Lone star tick: established in 73 of 75 counties (CDC, through 2025)"
+      ],
+      [
+        "American dog tick",
+        "Established in 59 counties, reported in 10 (CDC, through 2025)"
+      ],
+      [
+        "Blacklegged (deer) tick",
+        "Established in 31 counties, reported in 22 (CDC ArboNET Tick Module, through December 2025)"
+      ],
+      [
+        "Spotted fever rickettsiosis",
+        "20.9 per million (2.1 per 100,000) in 2023, second highest among states (our ranking of CDC data); 42 cases in 2025 (state count)"
+      ],
+      [
+        "Ehrlichiosis",
+        "41.4 per million (4.1 per 100,000) in 2023, second highest among states (our ranking of CDC data); 129 cases in 2025 (state count)"
+      ],
+      [
+        "Lyme disease",
+        "5 cases in 2023, 0.2 per 100,000 (CDC); a low-incidence state (state health department)"
+      ],
+      [
+        "Alpha-gal syndrome",
+        "Reportable since September 2023, the first state to do so; 399 confirmed or probable cases in 2025"
+      ],
+      [
+        "Tularemia",
+        "159 cases among residents, 2019 to 2022 combined (CDC county file)"
+      ],
+      [
+        "Peak months for illness",
+        "June and July for spotted fever and ehrlichiosis (state data, 2021 to 2025)"
+      ],
+      [
+        "Asian longhorned tick",
+        "First confirmed in 2018; in 10 counties as of September 2025 (Division of Agriculture)"
+      ],
+      [
+        "State tick testing",
+        "The health department does not diagnose or test for tick-borne diseases (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Arkansas?"
+    },
+    {
+      "type": "p",
+      "text": "Many tick species live in Arkansas, but only a few spread disease to people, the [Arkansas Department of Health's tickborne disease dashboard](https://experience.arcgis.com/experience/8d5f6076b9094fb1853b27726ed6df12/page/Tickborne) notes. The department's disease pages and dashboard name five: the lone star, American dog, blacklegged (deer), brown dog and Gulf Coast ticks. A sixth, the invasive Asian longhorned tick, was first confirmed in the state in 2018 and is mainly a threat to cattle."
+    },
+    {
+      "type": "p",
+      "text": "The lone star tick is the one Arkansans are most likely to meet. A [2012 study of Arkansas ticks, dogs and deer](https://pmc.ncbi.nlm.nih.gov/articles/PMC3419661/) notes that it is the tick people encounter most often in the Southeast, and [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) lists it as established in 73 of Arkansas's 75 counties, through 2025. CDC calls it a very aggressive tick that bites humans, and says nymphs and adult females bite people most often."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where it is recorded in Arkansas",
+        "What it can spread to people in Arkansas"
+      ],
+      "rows": [
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Established in 73 of 75 counties",
+          "Ehrlichiosis, tularemia, STARI, Heartland virus and spotted fever group bacteria; the main cause of alpha-gal syndrome"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Established in 59 counties, reported in 10",
+          "Rocky Mountain spotted fever (its main carrier in Arkansas) and tularemia"
+        ],
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in 31 counties, reported in 22",
+          "Anaplasmosis and Lyme disease, both rarely reported in Arkansas"
+        ],
+        [
+          "Gulf Coast tick, *Amblyomma maculatum*",
+          "Collected from Arkansas dogs and deer in a 2012 study",
+          "Spotted fever group bacteria"
+        ],
+        [
+          "Brown dog tick, *Rhipicephalus sanguineus*",
+          "Collected from Arkansas dogs and deer in a 2012 study",
+          "Rocky Mountain spotted fever, as a second carrier"
+        ],
+        [
+          "Asian longhorned tick, *Haemaphysalis longicornis*",
+          "Confirmed in 10 north Arkansas counties as of September 2025",
+          "A cattle parasite, *Theileria orientalis*, which currently poses no health risk to people"
+        ]
+      ],
+      "caption": "Counties: CDC, through 2025 (blacklegged tick: ArboNET Tick Module). Diseases: the [state health department's disease page](https://healthy.arkansas.gov/programs-services/diseases-conditions/diseases-from-animals-insects/tickborne-disease/tickborne-diseases-in-arkansas/) and dashboard. Gulf Coast and brown dog ticks: the 2012 study. Asian longhorned tick: the [Division of Agriculture's April 2026 update](https://www.uaex.uada.edu/media-resources/news/2026/april/04-02-2026-ark-alt-research-update.aspx)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts, pale-banded legs and one pale yellowish spot in the middle of its back",
+      "caption": "Adult female lone star tick, with the single pale spot that gives the species its name.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "The lone star tick's young are harder to identify. A [University of Arkansas fact sheet on cattle ticks](https://www.uaex.uada.edu/publications/PDF/FSA-7027.pdf) says adult females carry a single white spot and males several white spots scattered over the back, while larvae, often called [seed ticks](/blog/seed-ticks), and nymphs are plain brown."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick, with its pale, mottled shield behind the head.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gulf-coast-tick-female.webp",
+      "width": 1200,
+      "height": 807,
+      "alt": "Adult female Gulf Coast tick on a green leaf, with a dark reddish-brown body, a pale silvery shield behind the head and long orange-brown legs",
+      "caption": "Adult female Gulf Coast tick, with a pale, silvery shield behind the head. The state health department lists it among the ticks that can spread spotted fever group bacteria.",
+      "credit": "CDC/ Dr. Christopher Paddock (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10876"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/brown-dog-tick-male.webp",
+      "width": 1200,
+      "height": 1167,
+      "alt": "Adult male brown dog tick seen from above under magnification, plain reddish-brown with no white markings, beside a 1 mm (0.04 inch) scale bar",
+      "caption": "Adult male brown dog tick, magnified; the scale bar is 1 mm, about 0.04 inch.",
+      "credit": "CDC/ Dr. Gary Alpert; PhD; photo: Anna Kang; Dr. Gary Alpert; PhD (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31722"
+    },
+    {
+      "type": "p",
+      "text": "To compare sizes and markings side by side, see [what the common US ticks look like](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "h2",
+      "text": "Where are lone star and American dog ticks found in Arkansas?"
+    },
+    {
+      "type": "p",
+      "text": "Nearly everywhere. CDC lists the lone star tick as established in 73 of the 75 counties; the only two without a record are Crittenden and Cross, in eastern Arkansas. [CDC's American dog tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html) lists that tick as established in 59 counties and reported in 10 more, with no record for Chicot, Desha, Fulton, Little River, St. Francis and Woodruff counties. Both tables run through 2025."
+    },
+    {
+      "type": "p",
+      "text": "Established means six or more ticks of one life stage, or more than one life stage, were collected in a county within 12 months; CDC says a county without that label may still have ticks. Adult female American dog ticks bite people most, with the highest risk in spring and summer, CDC adds. The University of Arkansas cattle-tick fact sheet, dated 2001, describes large lone star tick populations in the Ozark and western regions of the state."
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged (deer) ticks found in Arkansas?"
+    },
+    {
+      "type": "p",
+      "text": "In more than two-thirds of Arkansas's counties. [CDC's county table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in 31 counties and reported in 22 more, and has no record for the other 22. To compare other states, see [tick maps and disease data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "map",
+      "scope": "AR",
+      "title": "Blacklegged (deer) tick status by county, Arkansas, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "05003": "established",
+        "05005": "established",
+        "05007": "established",
+        "05009": "established",
+        "05011": "established",
+        "05013": "reported",
+        "05015": "reported",
+        "05019": "established",
+        "05023": "established",
+        "05027": "reported",
+        "05029": "reported",
+        "05033": "established",
+        "05039": "reported",
+        "05043": "established",
+        "05045": "established",
+        "05047": "established",
+        "05049": "established",
+        "05051": "established",
+        "05053": "established",
+        "05057": "established",
+        "05061": "reported",
+        "05065": "reported",
+        "05069": "reported",
+        "05071": "reported",
+        "05073": "reported",
+        "05075": "established",
+        "05079": "established",
+        "05083": "reported",
+        "05087": "established",
+        "05089": "established",
+        "05097": "reported",
+        "05099": "reported",
+        "05101": "established",
+        "05103": "reported",
+        "05105": "reported",
+        "05109": "reported",
+        "05111": "established",
+        "05113": "established",
+        "05115": "established",
+        "05117": "established",
+        "05119": "reported",
+        "05121": "reported",
+        "05125": "established",
+        "05127": "reported",
+        "05129": "established",
+        "05131": "established",
+        "05133": "established",
+        "05135": "reported",
+        "05137": "established",
+        "05139": "established",
+        "05141": "reported",
+        "05143": "established",
+        "05149": "reported"
+      },
+      "caption": "Established means six or more blacklegged ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer than six of a single life stage. No record does not mean no ticks: CDC says it can reflect a lack of sampling, collection or reporting. Status is cumulative, so a county keeps the established label once it has earned it.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html)"
+    },
+    {
+      "type": "p",
+      "text": "Established counties run from Benton and Washington in the northwest through the Ozarks and the Ouachita Mountains to Union and Ashley counties on the Louisiana line. Many counties without a record lie in eastern Arkansas, among them Mississippi, Crittenden, Lee, Phillips, Desha and Chicot counties along the Mississippi River."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "Adult female blacklegged tick and a much smaller nymph crawling on a person's fingertip, showing how tiny the nymph stage is",
+      "caption": "An adult female blacklegged (deer) tick, left, and a much smaller nymph, right, on a fingertip.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "h3",
+      "text": "Do Arkansas blacklegged ticks carry the Lyme disease bacterium?"
+    },
+    {
+      "type": "p",
+      "text": "CDC has no record of it, as of October 2026. Its pathogen table for host-seeking blacklegged ticks, meaning ticks out looking for a host rather than ticks taken off animals, lists no Arkansas county where *Borrelia burgdorferi*, the Lyme disease bacterium, or any of the six other germs it tracks has been found. CDC says a missing record can reflect a lack of sampling or testing, not proof the germ is absent."
+    },
+    {
+      "type": "p",
+      "text": "Researchers have found it, though rarely. The 2012 study, which screened ticks taken from Arkansas dogs and hunter-killed deer, matched the Lyme bacterium in 15 ticks (12 of them blacklegged ticks), 7 dogs and 22 deer. A related germ, *Borrelia lonestari*, which the authors note is not considered to cause disease, matched 281 of the 296 tick samples they sequenced. They suggested that most tick-borne illness in Arkansas is not caused by the Lyme bacterium."
+    },
+    {
+      "type": "h2",
+      "text": "Which tick-borne diseases are most common in Arkansas?"
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever rickettsiosis and ehrlichiosis, by a wide margin. By our ranking of [CDC's spotted fever statistics](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html), Arkansas had the highest reported spotted fever rate of any state every year from 2018 through 2022, and in 2018 and 2019 its rate was more than two and a half times that of the next state (our calculation). In 2023 it was second, at 20.9 cases per million residents against 21.1 in [North Carolina](/blog/ticks-in-north-carolina)."
+    },
+    {
+      "type": "p",
+      "text": "Ehrlichiosis tells the same story. By our ranking of [CDC's ehrlichiosis statistics](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html), Arkansas had the highest or second-highest rate of *Ehrlichia chaffeensis* ehrlichiosis, the species behind nearly all of the state's cases, every year from 2018 through 2023; Missouri led in 2023. In Arkansas, ticks cause more human disease than any other arthropod or insect, the state's dashboard says."
+    },
+    {
+      "type": "chart",
+      "title": "Reported tick-borne disease rates in Arkansas, by disease, 2018 to 2023",
+      "x": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Spotted fever rickettsiosis",
+          "values": [
+            35.4,
+            35.8,
+            7.0,
+            5.6,
+            4.4,
+            2.1
+          ]
+        },
+        {
+          "name": "Ehrlichiosis (E. chaffeensis)",
+          "values": [
+            5.6,
+            8.0,
+            5.3,
+            3.9,
+            4.8,
+            4.1
+          ]
+        },
+        {
+          "name": "Lyme disease",
+          "values": [
+            0.1,
+            0.6,
+            0.4,
+            0.4,
+            0.1,
+            0.2
+          ]
+        }
+      ],
+      "yLabel": "Cases per 100,000 residents, by state of residence (bars stacked by disease)",
+      "caption": "CDC publishes spotted fever and ehrlichiosis rates per million; they are shown per 100,000 (divided by 10) to match its Lyme rates. Case definitions changed in 2020 for spotted fever and in 2022 for Lyme disease, and CDC says COVID-19 left 2019 and 2020 data incomplete in some states. Data through 2023, CDC's latest year as of October 2026.",
+      "source": "CDC [spotted fever statistics](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html), [ehrlichiosis statistics](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html) and [Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)"
+    },
+    {
+      "type": "p",
+      "text": "Read the 2020 drop with care. The [state health department's surveillance table](https://healthy.arkansas.gov/programs-services/diseases-conditions/diseases-from-animals-insects/data-from-animals-insects/) counts 1,085 spotted fever cases in 2019 and 215 in 2020, and says a revised case definition that year meant fewer reports qualified. Before the change, the state counted 488 to 1,216 cases a year from 2011 to 2019. Many reports still fall short: in 2023 the department received 1,038 reports of spotted fever group infections and counted 62 as confirmed or probable cases, its dashboard shows."
+    },
+    {
+      "type": "h3",
+      "text": "What do the newest state counts show?"
+    },
+    {
+      "type": "p",
+      "text": "Ehrlichiosis now leads. As of October 2026, the [state's tickborne disease dashboard](https://experience.arcgis.com/experience/8d5f6076b9094fb1853b27726ed6df12/page/Tickborne) counts 129 confirmed or probable ehrlichiosis cases and 42 spotted fever cases among Arkansas residents in 2025, after 160 and 63 in 2024. By its counts, ehrlichiosis has outnumbered spotted fever every year since 2022, although the department's disease page still calls Rocky Mountain spotted fever the state's most common tick-borne disease. A new national ehrlichiosis case definition took effect in 2024, the dashboard notes."
+    },
+    {
+      "type": "p",
+      "text": "Other tick-borne infections are less common. [CDC's county-level file for 2019 to 2022](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) counts 1,566 spotted fever cases, 665 *E. chaffeensis* ehrlichiosis cases, 159 tularemia cases, 44 anaplasmosis cases, 43 Lyme disease cases, 10 *Ehrlichia ewingii* ehrlichiosis cases and 1 babesiosis case among Arkansas residents. The state's surveillance table also records two Heartland virus disease cases in 2017 and one each in 2018 and 2019, and one Bourbon virus disease case in 2019."
+    },
+    {
+      "type": "h3",
+      "text": "What are spotted fever, ehrlichiosis and tularemia?"
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever rickettsiosis is a group of infections caused by related *Rickettsia* bacteria; Rocky Mountain spotted fever, caused by *Rickettsia rickettsii*, is the most serious, the dashboard explains. The [health department's disease page](https://healthy.arkansas.gov/programs-services/diseases-conditions/diseases-from-animals-insects/tickborne-disease/tickborne-diseases-in-arkansas/) says the American dog tick carries most of it in Arkansas, and the brown dog tick some. Read more about [Rocky Mountain spotted fever](/blog/rocky-mountain-spotted-fever)."
+    },
+    {
+      "type": "p",
+      "text": "Ehrlichiosis is spread by the lone star tick, and both *Ehrlichia chaffeensis* and *Ehrlichia ewingii* are endemic in Arkansas, the dashboard says. *E. chaffeensis* was first recognized in 1986 in a patient infected at Fort Chaffee, Arkansas, the disease page adds. See [ehrlichiosis and its symptoms](/blog/ehrlichiosis)."
+    },
+    {
+      "type": "p",
+      "text": "Tularemia, or rabbit fever, spreads through lone star and American dog tick bites, deer fly bites and contact with infected animals, the health department says. Heartland virus, which recent studies show the lone star tick can transmit, causes a flu-like illness from May to September, and most patients have needed hospital care."
+    },
+    {
+      "type": "h3",
+      "text": "How does Arkansas compare with neighboring states?"
+    },
+    {
+      "type": "p",
+      "text": "No neighbor reported more spotted fever per person in 2023, but Missouri's ehrlichiosis rate was nearly twice Arkansas's (our comparison). Lyme disease rates were low across the region, from 0.1 to 0.7 cases per 100,000."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Spotted fever rickettsiosis",
+        "Ehrlichiosis",
+        "Lyme disease"
+      ],
+      "rows": [
+        [
+          "Arkansas",
+          "2.1",
+          "4.1",
+          "0.2"
+        ],
+        [
+          "[Missouri](/blog/ticks-in-missouri)",
+          "1.8",
+          "7.6",
+          "0.3"
+        ],
+        [
+          "[Tennessee](/blog/ticks-in-tennessee)",
+          "1.2",
+          "1.5",
+          "0.7"
+        ],
+        [
+          "[Mississippi](/blog/ticks-in-mississippi)",
+          "0.8",
+          "0.1",
+          "0.1"
+        ],
+        [
+          "[Oklahoma](/blog/ticks-in-oklahoma)",
+          "0.7",
+          "0.5",
+          "0.1"
+        ],
+        [
+          "[Louisiana](/blog/ticks-in-louisiana)",
+          "0.1",
+          "0.1",
+          "0.3"
+        ],
+        [
+          "[Texas](/blog/ticks-in-texas)",
+          "Under 0.1",
+          "Under 0.1",
+          "0.1"
+        ]
+      ],
+      "caption": "Cases per 100,000 residents by state of residence, 2023, CDC's latest year as of October 2026; ehrlichiosis means *E. chaffeensis* ehrlichiosis, and CDC's per-million rates are divided by 10. Sources: the CDC data linked above."
+    },
+    {
+      "type": "h2",
+      "text": "Where in Arkansas are spotted fever and ehrlichiosis most common?"
+    },
+    {
+      "type": "p",
+      "text": "Per person, in rural counties of the Ozarks and the Ouachita Mountains. Averaging the state dashboard's yearly county rates for 2021 to 2025 (our calculation), Stone County had the highest combined rate for the two diseases, about 37 cases per 100,000 residents a year, followed by Sharp, Montgomery and Madison counties at 27 to 29. The statewide figure over the same years was about 7 (our calculation)."
+    },
+    {
+      "type": "map",
+      "scope": "AR",
+      "title": "Spotted fever and ehrlichiosis cases per 100,000 residents by county, Arkansas, 2021 to 2025 average",
+      "categories": [
+        {
+          "key": "15plus",
+          "label": "15 or more"
+        },
+        {
+          "key": "mid",
+          "label": "7.5 to 14.9"
+        },
+        {
+          "key": "low",
+          "label": "Under 7.5"
+        },
+        {
+          "key": "none",
+          "label": "No cases reported"
+        }
+      ],
+      "values": {
+        "05001": "low",
+        "05003": "mid",
+        "05005": "low",
+        "05007": "mid",
+        "05009": "low",
+        "05011": "mid",
+        "05013": "low",
+        "05015": "15plus",
+        "05017": "low",
+        "05019": "mid",
+        "05021": "15plus",
+        "05023": "mid",
+        "05025": "15plus",
+        "05027": "low",
+        "05029": "mid",
+        "05031": "low",
+        "05033": "mid",
+        "05035": "low",
+        "05037": "low",
+        "05039": "mid",
+        "05041": "low",
+        "05043": "low",
+        "05045": "low",
+        "05047": "mid",
+        "05049": "mid",
+        "05051": "mid",
+        "05053": "low",
+        "05055": "low",
+        "05057": "low",
+        "05059": "mid",
+        "05061": "low",
+        "05063": "mid",
+        "05065": "15plus",
+        "05067": "none",
+        "05069": "low",
+        "05071": "low",
+        "05073": "low",
+        "05075": "mid",
+        "05077": "none",
+        "05079": "mid",
+        "05081": "low",
+        "05083": "low",
+        "05085": "low",
+        "05087": "15plus",
+        "05089": "mid",
+        "05091": "low",
+        "05093": "low",
+        "05095": "low",
+        "05097": "15plus",
+        "05099": "mid",
+        "05101": "mid",
+        "05103": "mid",
+        "05105": "15plus",
+        "05107": "none",
+        "05109": "15plus",
+        "05111": "low",
+        "05113": "low",
+        "05115": "mid",
+        "05117": "low",
+        "05119": "low",
+        "05121": "mid",
+        "05123": "low",
+        "05125": "low",
+        "05127": "low",
+        "05129": "15plus",
+        "05131": "low",
+        "05133": "low",
+        "05135": "15plus",
+        "05137": "15plus",
+        "05139": "low",
+        "05141": "mid",
+        "05143": "mid",
+        "05145": "mid",
+        "05147": "mid",
+        "05149": "mid"
+      },
+      "caption": "Confirmed and probable cases of the two diseases combined, by county: BuzzSkito's average of the state health department's yearly county rates for 2021 to 2025, which use 2020 census populations. Small counties' rates rest on a handful of cases; the department says counties may reflect where a case was collected or reported, not where it occurred.",
+      "source": "Arkansas Department of Health, [tickborne disease dashboard](https://experience.arcgis.com/experience/8d5f6076b9094fb1853b27726ed6df12/page/Tickborne) (yearly county rates, as of October 2026)"
+    },
+    {
+      "type": "p",
+      "text": "The lowest rates are mostly in eastern Arkansas, where Jackson, Lee and Phillips counties reported no cases of either disease in those five years. Raw counts follow population instead: in CDC's 2019 to 2022 county file, Benton County had the most spotted fever and ehrlichiosis cases, followed by Washington and Garland counties, and spotted fever was reported in 74 of the 75 counties, all but Phillips."
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Spotted fever rickettsiosis",
+        "Ehrlichiosis (*E. chaffeensis*)",
+        "Tularemia"
+      ],
+      "rows": [
+        [
+          "Benton",
+          "146",
+          "90",
+          "0"
+        ],
+        [
+          "Washington",
+          "105",
+          "56",
+          "8"
+        ],
+        [
+          "Garland",
+          "100",
+          "42",
+          "5"
+        ],
+        [
+          "Pulaski",
+          "85",
+          "30",
+          "7"
+        ],
+        [
+          "White",
+          "86",
+          "17",
+          "7"
+        ],
+        [
+          "Faulkner",
+          "51",
+          "40",
+          "13"
+        ],
+        [
+          "Pope",
+          "56",
+          "23",
+          "6"
+        ],
+        [
+          "Saline",
+          "47",
+          "13",
+          "3"
+        ],
+        [
+          "Crawford",
+          "31",
+          "23",
+          "5"
+        ],
+        [
+          "Sebastian",
+          "32",
+          "20",
+          "1"
+        ]
+      ],
+      "caption": "Cases among county residents, 2019 to 2022 combined, for the ten counties with the most spotted fever and ehrlichiosis cases together, from [CDC's county-level tick-borne disease file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html). The period straddles the 2020 change in the spotted fever case definition."
+    },
+    {
+      "type": "h2",
+      "text": "Is there Lyme disease in Arkansas?"
+    },
+    {
+      "type": "p",
+      "text": "Very little is reported. [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html) count 5 confirmed and probable cases among Arkansas residents in 2023, a rate of 0.2 per 100,000, and no more than 18 in any year since 2008. The health department calls Arkansas a low-incidence state, with fewer than 10 confirmed cases per 100,000 people over the previous three reporting years, and says verified cases in such states are usually linked to travel to states with high rates of infection."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Arkansas, 2011 to 2023",
+      "x": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases (CDC)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            0,
+            2,
+            6,
+            4,
+            18,
+            12,
+            11,
+            2,
+            5
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "CDC's table lists zero Arkansas cases for 2011 to 2014, but the state health department's own table has no Lyme figure for those years, so they are left blank rather than shown as zero. The state's counts differ in some years (1 case in 2015 and 7 in 2016, against CDC's 0 and 2); this chart uses CDC's. Data through 2023, CDC's latest year as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html); Arkansas Department of Health [surveillance table](https://healthy.arkansas.gov/programs-services/diseases-conditions/diseases-from-animals-insects/data-from-animals-insects/) for the blank years"
+    },
+    {
+      "type": "p",
+      "text": "A revised national case definition took effect in 2022; in low-incidence states such as Arkansas, cases still need supporting clinical information, and probable cases now need objective signs of infection, [CDC's report on the change](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) explains. Arkansas averaged 9 cases a year in 2017 to 2019 and reported 2 in 2022, and CDC says COVID-19 left 2019 and 2020 data incomplete in some states."
+    },
+    {
+      "type": "p",
+      "text": "The cases are spread thinly. CDC's county file counts 43 Lyme cases among Arkansas residents in 2019 to 2022, and no county had more than four. Cases are counted where patients live, which may not be where they were bitten."
+    },
+    {
+      "type": "p",
+      "text": "A rash after a lone star tick bite is not necessarily Lyme disease. The health department links the lone star tick to southern tick-associated rash illness (STARI), which causes a rash like Lyme disease's, sometimes with fatigue, fever, headache and muscle and joint pain; its cause is unknown. For the course of Lyme disease itself, see [the stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Red bull's-eye rash with a dark red center and a wide pink outer ring on the back of a person's upper arm",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, on a person's upper arm. The state health department says STARI, linked to lone star tick bites, causes a similar rash.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "h2",
+      "text": "How common is alpha-gal syndrome in Arkansas?"
+    },
+    {
+      "type": "p",
+      "text": "In the state's 2024 and 2025 counts, more common than any tick-borne infection. Arkansas was the first state to make alpha-gal syndrome reportable, in September 2023, according to the state's dashboard. It counted 345 confirmed or probable cases in 2024 and 399 in 2025, more than its ehrlichiosis and spotted fever cases combined in either year (our comparison). A confirmed case needs both a positive lab test and clinical evidence; positive lab reports without clinical information count as suspect cases, 3,222 of them in 2025."
+    },
+    {
+      "type": "p",
+      "text": "Alpha-gal syndrome is an allergy to alpha-gal, a sugar found in red meat and other mammal products, and lone star tick bites are its main cause, the dashboard says. Symptoms usually appear 2 to 6 hours after eating red meat or dairy products and can include hives, nausea or vomiting, severe stomach pain and swelling of the lips, throat or tongue, and reactions can be severe and even life-threatening, according to [CDC's alpha-gal syndrome symptoms page](https://www.cdc.gov/alpha-gal-syndrome/signs-symptoms/index.html)."
+    },
+    {
+      "type": "p",
+      "text": "Rates are highest in the Ozarks. Averaging the dashboard's county rates for 2024 and 2025 (our calculation), Searcy, Izard, Carroll, Sharp and Madison counties each had about 39 to 45 confirmed or probable cases per 100,000 residents a year, more than three times the statewide rate of about 12. Read more about [alpha-gal syndrome and how it is diagnosed](/blog/alpha-gal-syndrome)."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Arkansas?"
+    },
+    {
+      "type": "p",
+      "text": "Ticks are most active from April to September, but bites can happen in any month, the [University of Arkansas System Division of Agriculture says](https://uaex.uada.edu/media-resources/news/2026/july/07-10-2026-ark-tick-prevention.aspx). Illness peaks in early summer: the health department says most Rocky Mountain spotted fever cases occur from June through August, when tick numbers and outdoor activity are highest."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick or illness",
+        "When in Arkansas"
+      ],
+      "rows": [
+        [
+          "Ticks in general",
+          "Most active April to September; bites can happen year-round"
+        ],
+        [
+          "Lone star tick adults",
+          "Usually most abundant in May, June and July"
+        ],
+        [
+          "Lone star tick larvae (seed ticks)",
+          "Appear later in the summer"
+        ],
+        [
+          "American dog tick adults",
+          "Active from May until September"
+        ],
+        [
+          "Asian longhorned tick",
+          "Less active in winter, but populations survive in leaf litter"
+        ],
+        [
+          "Rocky Mountain spotted fever",
+          "Most cases June to August"
+        ],
+        [
+          "Heartland virus disease",
+          "Illness from May to September"
+        ]
+      ],
+      "caption": "General patterns; ticks and illness can turn up outside these months. Sources: the Division of Agriculture (2026); the University of Arkansas [cattle-tick fact sheet](https://www.uaex.uada.edu/publications/PDF/FSA-7027.pdf), dated 2001, for the lone star and American dog tick rows; the state health department for the illnesses."
+    },
+    {
+      "type": "chart",
+      "title": "Spotted fever and ehrlichiosis cases in Arkansas by month, 2021 to 2025 combined",
+      "x": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "series": [
+        {
+          "name": "Spotted fever rickettsiosis",
+          "values": [
+            8,
+            7,
+            5,
+            23,
+            59,
+            90,
+            60,
+            50,
+            46,
+            45,
+            21,
+            20
+          ]
+        },
+        {
+          "name": "Ehrlichiosis",
+          "values": [
+            12,
+            2,
+            2,
+            24,
+            80,
+            178,
+            187,
+            83,
+            61,
+            25,
+            12,
+            13
+          ]
+        }
+      ],
+      "yLabel": "Confirmed and probable cases among Arkansas residents, five years added together (bars stacked)",
+      "caption": "The monthly totals add up to the department's yearly counts for 2021 to 2025. Its dashboard does not say whether a case is placed in the month the illness began or the month it was reported, and the ehrlichiosis case definition changed in 2024.",
+      "source": "Arkansas Department of Health, [tickborne disease dashboard](https://experience.arcgis.com/experience/8d5f6076b9094fb1853b27726ed6df12/page/Tickborne), monthly table (as of October 2026)"
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever peaks in June and ehrlichiosis in July in the state's data, and the two months together account for nearly half of the five years' cases (our calculation). Cases turn up in every month, though, including 20 in January across the five years."
+    },
+    {
+      "type": "h2",
+      "text": "Is the Asian longhorned tick in Arkansas?"
+    },
+    {
+      "type": "p",
+      "text": "Yes. The tick was first confirmed in Arkansas in 2018, and as of September 2025 it had been confirmed in 10 north Arkansas counties: Benton, Boone, Independence, Searcy and Washington, plus Baxter, Carroll, Madison, Marion and Newton, according to the [Division of Agriculture's April 2026 update](https://www.uaex.uada.edu/media-resources/news/2026/april/04-02-2026-ark-alt-research-update.aspx)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female, both plain reddish-brown, resting on a US dime for scale",
+      "caption": "An Asian longhorned tick nymph, left, and adult female, right, photographed on a US dime for scale.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "It is mainly a livestock problem. The tick spreads *Theileria orientalis*, a blood parasite of cattle that the update says had been confirmed in 17 Arkansas counties, plus Faulkner County without a determined genotype. Cattle deaths typically run 1% to 5%, though USDA has recorded up to 50%, and there is no treatment; the Division says the parasite currently poses no health risk to people."
+    },
+    {
+      "type": "h3",
+      "text": "What should cattle owners do about Asian longhorned ticks?"
+    },
+    {
+      "type": "p",
+      "text": "Control ticks and test sick animals. The Division recommends a herd tick control program and keeping animal stress low, and for cattle suspected of theileriosis a PCR blood test that identifies the genotype, which the Division, the Arkansas Department of Agriculture's Veterinary Diagnostics Lab and Kansas State University's lab can run. Its researchers, including extension entomologist Kelly Loftin, answered calls from producers and extension agents in 2025, collecting ticks and testing for *Theileria*."
+    },
+    {
+      "type": "h2",
+      "text": "Can you get a tick identified or tested in Arkansas?"
+    },
+    {
+      "type": "p",
+      "text": "Not through the state health department. As of October 2026, the department's [surveillance page](https://healthy.arkansas.gov/programs-services/diseases-conditions/diseases-from-animals-insects/data-from-animals-insects/) says it does not diagnose or test for tick-borne diseases; its main role is counting the cases that laboratories and health care providers report."
+    },
+    {
+      "type": "p",
+      "text": "Testing the tick would not settle much anyway. [CDC advises](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) that tick test results should not be used to make treatment decisions, that a negative result can give false reassurance, and that anyone who becomes ill should not wait for tick test results before starting treatment."
+    },
+    {
+      "type": "p",
+      "text": "Identification still helps your doctor. The Division of Agriculture suggests photographing a tick before you dispose of it, and telling your doctor when and where you were likely bitten. To compare it yourself, use this [tick identification chart](/learn/tick-identification-chart)."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Arkansas?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick right away, then watch for fever or a rash over the following weeks. [CDC's advice on what to do after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) describes removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick as close to the skin as possible with clean, fine-tipped tweezers.",
+        "Pull it away from the skin with steady, even pressure; do not twist or jerk it.",
+        "Clean the bite and your hands with soap and water, rubbing alcohol or hand sanitizer, then check for other ticks.",
+        "Do not use petroleum jelly, heat, nail polish or other substances to make the tick let go.",
+        "Get rid of a live tick by sealing it in a container, wrapping it tightly in tape, flushing it down the toilet or putting it in alcohol; do not crush it with your fingers."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For more detail, see [the step-by-step guide to removing a tick](/blog/how-to-remove-tick-safely), and use [a full-body tick check](/blog/how-to-do-a-tick-check) to find any others."
+    },
+    {
+      "type": "p",
+      "text": "Know the early signs of Arkansas's two most common tick-borne infections. Rocky Mountain spotted fever begins 3 to 12 days after a bite with fever, headache, nausea or vomiting, stomach pain or muscle pain, and its rash typically appears 2 to 4 days after the fever starts; without early treatment with the antibiotic doxycycline it can be fatal within days, according to [CDC's clinical guidance](https://www.cdc.gov/rocky-mountain-spotted-fever/hcp/signs-symptoms/index.html). Ehrlichiosis typically begins 1 to 2 weeks after a bite with fever, chills, severe headache, muscle aches or stomach upset, and up to 1 in 3 people get a rash, more often children, [CDC says](https://www.cdc.gov/ehrlichiosis/signs-symptoms/index.html)."
+    },
+    {
+      "type": "p",
+      "text": "Do not count on remembering a bite: the health department says half of all people with Rocky Mountain spotted fever do not remember being bitten by a tick."
+    },
+    {
+      "type": "p",
+      "text": "Preventive antibiotics have a narrow role. [CDC's guidance for clinicians](https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf) says a single dose of doxycycline can lower the risk of Lyme disease when an identified blacklegged tick was attached for 36 hours or more, in a high-incidence state or an area where more than 20% of ticks carry the Lyme bacterium, and the dose can start within 72 hours of removal. Preventive antibiotics are not recommended for ehrlichiosis or Rocky Mountain spotted fever, it says, and a suspected tick-borne illness should be treated as soon as possible rather than after lab results."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you feel ill",
+      "text": "Fever, headache, a rash or body aches in the weeks after a tick bite or time outdoors are reasons to see a provider promptly and mention the tick. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Arkansas?"
+    },
+    {
+      "type": "p",
+      "text": "Use repellent, treat your clothes, check for ticks and make the yard less inviting. The Division of Agriculture's July 2026 advice covers each step:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Repellent on skin.** Use an EPA-registered repellent containing DEET, picaridin, IR3535, oil of lemon eucalyptus, para-menthane-diol or 2-undecanone, as the label directs; put on sunscreen first, then repellent.",
+        "**Permethrin on clothing.** Treat clothing and gear with products containing 0.5% permethrin, used as the label directs.",
+        "**Trails.** Avoid wooded and brushy areas with high grass and leaf litter, and walk in the center of trails.",
+        "**Tick checks.** Check yourself for ticks regularly after time outdoors.",
+        "**The yard.** Reduce leaf litter, clear tall grass and brush, mow often, keep play areas away from yard edges and trees, and lay a 3-foot barrier of wood chips or gravel between lawn and woods.",
+        "**Sprays.** Do not rely on spraying, the Division says; ask your county extension office or local health department about timing and products."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For pets, ask a veterinarian which tick preventive suits your animal, and see [how to check a dog for ticks and protect it](/blog/ticks-on-dogs)."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the most common tick in Arkansas?",
+      "answer": "The lone star tick. CDC's county tables through 2025 list it as established in 73 of Arkansas's 75 counties, more than the American dog tick (59) or the blacklegged tick (31), and CDC describes it as a very aggressive tick that bites people. Adult females have a single white spot on the back, males several white spots, and the young are plain brown. Lone star ticks spread ehrlichiosis in Arkansas and are the main cause of alpha-gal syndrome, the red meat allergy."
+    },
+    {
+      "question": "Is Lyme disease common in Arkansas?",
+      "answer": "No. CDC counted 5 Lyme disease cases among Arkansas residents in 2023, a rate of 0.2 per 100,000, and its yearly counts have not topped 18 since 2008. The state health department considers Arkansas a low-incidence state and says verified cases in such states are usually linked to travel. CDC's tick tables have no record of the Lyme bacterium in host-seeking Arkansas ticks, although a 2012 study found it in a few ticks taken from deer. Spotted fever and ehrlichiosis are far more common here."
+    },
+    {
+      "question": "When is tick season in Arkansas?",
+      "answer": "Ticks are most active from April to September, the University of Arkansas System Division of Agriculture says, but bites can happen year-round. Adult lone star ticks are usually most abundant in May, June and July, and adult American dog ticks are active from May to September. The state health department says most Rocky Mountain spotted fever cases occur from June through August, and in its 2021 to 2025 data spotted fever peaked in June and ehrlichiosis in July."
+    },
+    {
+      "question": "Is Rocky Mountain spotted fever common in Arkansas?",
+      "answer": "Yes, by national standards. By our ranking of CDC's state figures, Arkansas had the highest reported spotted fever rickettsiosis rate of any state every year from 2018 through 2022, and the second highest in 2023. The state counted 1,216 spotted fever cases in 2017; counts fell after a revised case definition took effect in 2020, and the state counted 42 cases in 2025. Early treatment with the antibiotic doxycycline matters, so see a provider promptly about fever, headache or a rash after a tick bite."
+    },
+    {
+      "question": "Can I get a tick tested for diseases in Arkansas?",
+      "answer": "Not through the state health department. The Arkansas Department of Health says it does not diagnose or test for tick-borne diseases; its main role is counting the cases that laboratories and health care providers report. CDC advises that tick test results should not be used for treatment decisions, that a negative result can falsely reassure, and that an ill person should not wait for tick test results before starting treatment. Photograph the tick before disposing of it, and tell your provider when and where you were bitten."
+    },
+    {
+      "question": "Is alpha-gal syndrome reportable in Arkansas?",
+      "answer": "Yes. Arkansas was the first state to make alpha-gal syndrome reportable, in September 2023, according to the state health department's dashboard, which counted 399 confirmed or probable cases in 2025, more than its ehrlichiosis and spotted fever cases combined. The condition is an allergy to alpha-gal, a sugar found in red meat and other mammal products, and lone star tick bites are its main cause. CDC says symptoms usually appear 2 to 6 hours after eating red meat or dairy products."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "American Dog Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (cases by county of residence, 2019 to 2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "Data and Statistics on Spotted Fever Rickettsiosis (state incidence files, 2018 to 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "Ehrlichiosis Epidemiology and Statistics (state incidence files, 2018 to 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "Clinical Signs and Symptoms (Rocky Mountain Spotted Fever, for health care providers)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/hcp/signs-symptoms/index.html"
+    },
+    {
+      "title": "Signs and Symptoms of Ehrlichiosis",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ehrlichiosis/signs-symptoms/index.html"
+    },
+    {
+      "title": "Symptoms of Alpha-gal Syndrome",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/alpha-gal-syndrome/signs-symptoms/index.html"
+    },
+    {
+      "title": "Guidance for Clinicians: Caring for Patients after a Tick Bite (December 14, 2021)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf"
+    },
+    {
+      "title": "Tickborne Diseases in Arkansas",
+      "publisher": "Arkansas Department of Health",
+      "url": "https://healthy.arkansas.gov/programs-services/diseases-conditions/diseases-from-animals-insects/tickborne-disease/tickborne-diseases-in-arkansas/"
+    },
+    {
+      "title": "Data from Animals & Insects (tick-related illness by year, 2011 to 2021)",
+      "publisher": "Arkansas Department of Health",
+      "url": "https://healthy.arkansas.gov/programs-services/diseases-conditions/diseases-from-animals-insects/data-from-animals-insects/"
+    },
+    {
+      "title": "ADH Health Data: Zoonotic dashboard, tickborne disease pages (state, county and monthly data, 2021 to 2025)",
+      "publisher": "Arkansas Department of Health",
+      "url": "https://experience.arcgis.com/experience/8d5f6076b9094fb1853b27726ed6df12/page/Tickborne",
+      "kind": "government"
+    },
+    {
+      "title": "UADA researchers track Asian longhorned tick, first confirmed in Arkansas in 2018, as it spreads to 10 counties (April 2, 2026)",
+      "publisher": "University of Arkansas System Division of Agriculture",
+      "url": "https://www.uaex.uada.edu/media-resources/news/2026/april/04-02-2026-ark-alt-research-update.aspx"
+    },
+    {
+      "title": "Tips for preventing tick-borne diseases this summer (July 10, 2026)",
+      "publisher": "University of Arkansas System Division of Agriculture",
+      "url": "https://uaex.uada.edu/media-resources/news/2026/july/07-10-2026-ark-tick-prevention.aspx"
+    },
+    {
+      "title": "Ticks on Beef Cattle (FSA7027, Livestock Insect Series)",
+      "publisher": "University of Arkansas System Division of Agriculture, Cooperative Extension Service",
+      "url": "https://www.uaex.uada.edu/publications/PDF/FSA-7027.pdf"
+    },
+    {
+      "title": "Survey of Borreliae in ticks, canines, and white-tailed deer from Arkansas, U.S.A. (2012)",
+      "publisher": "Parasites & Vectors, via PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3419661/"
+    }
+  ],
+  "disclaimer": "both"
+}
