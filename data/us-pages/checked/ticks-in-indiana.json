@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-indiana",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "59123891e7baa8d005f62a2bfcf4084654c5a8e663c6d7832537a6ba1076827d",
+ "claimsChecked": 280,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-15"
+}

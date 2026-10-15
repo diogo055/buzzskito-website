@@ -1,0 +1,1086 @@
+{
+  "slug": "ticks-in-indiana",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in indiana",
+  "alsoTargets": [
+    "types of ticks in indiana",
+    "tick season indiana",
+    "lyme disease indiana"
+  ],
+  "metaTitle": "Ticks in Indiana: Species, Lyme Map and Season",
+  "metaDescription": "Deer ticks are established in 90 of Indiana's 92 counties, and the state reported 257 Lyme cases in 2023. Tick photos, county maps, season and ID help.",
+  "h1": "Ticks in Indiana: Species, County Maps, Lyme Data and Tick Season",
+  "dek": "Which ticks live in Indiana, where deer ticks and lone star ticks are found county by county, how much Lyme disease the state reports, when ticks are active, and where to get a tick identified.",
+  "breadcrumb": "Ticks in Indiana",
+  "excerpt": "Blacklegged ticks are established in 90 of Indiana's 92 counties. Species photos, Lyme cases by county, the lone star tick's range, tick season and state ID help.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**About 15 tick species have been documented in Indiana, and the blacklegged (deer) tick, which spreads Lyme disease, is established in 90 of the state's 92 counties.** Indiana reported 257 Lyme disease cases in 2023, according to [CDC surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). The American dog tick is the one people find most often, and the lone star tick is most common in the south.",
+    "bullets": [
+      "CDC's county table, which runs through December 2025, lists blacklegged ticks as established in 90 counties and reported in the other two, Adams and Shelby; the Lyme bacterium has been found in host-seeking ticks in 88 counties.",
+      "Indiana's 257 Lyme cases in 2023 came to 3.8 per 100,000 residents, against 11.5 in Michigan and 11.1 in Ohio; the highest count in CDC's series was 314, in 2021.",
+      "In CDC's county file, which counts cases where patients live, St. Joseph County had the most every year from 2014 through 2023 by our tally, including 19 in 2023.",
+      "The state health department says the lone star tick is most common in the southern two-thirds of Indiana and its northwest corner; it spreads ehrlichiosis, and its bite is linked to alpha-gal syndrome.",
+      "Ticks are most active from early April into July, Purdue Extension says, but adult deer ticks are out in fall and early spring and may be active on winter days above freezing.",
+      "As of October 2026, state medical entomologists identify ticks on a limited basis but do not test them for disease; the invasive Asian longhorned tick was first detected in Indiana in April 2023."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Indiana at a glance",
+    "rows": [
+      [
+        "Tick species documented in Indiana",
+        "About 15 (Purdue Extension, 2013)"
+      ],
+      [
+        "Ticks most often found on people",
+        "American dog tick, then lone star tick (Purdue Extension, 2013)"
+      ],
+      [
+        "Counties with established blacklegged ticks",
+        "90 of 92; reported in the other 2 (CDC, through December 2025)"
+      ],
+      [
+        "Lyme bacterium found in host-seeking ticks",
+        "88 of 92 counties (CDC, through 2025)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "257 in 2023, or 3.8 per 100,000 (CDC); highest year 2021, with 314"
+      ],
+      [
+        "Most Lyme cases by county, 2023",
+        "St. Joseph County, 19 (county of residence)"
+      ],
+      [
+        "Highest county Lyme rate, 2023",
+        "Jasper County, 14.9 per 100,000 (5 cases; BuzzSkito's calculation from CDC and Census data)"
+      ],
+      [
+        "Lone star tick",
+        "Established in 49 counties, reported in 14 (CDC, through 2025)"
+      ],
+      [
+        "Next most reported tick-borne diseases",
+        "Ehrlichiosis, 149 *E. chaffeensis* cases, and spotted fever rickettsiosis, 88 (CDC, 2019 to 2022 combined)"
+      ],
+      [
+        "Asian longhorned tick",
+        "First detected in April 2023; Indiana was the 19th state to find it (state health department)"
+      ],
+      [
+        "Peak tick season",
+        "Early April into July (Purdue Extension, 2013); adult deer ticks also in fall and early spring"
+      ],
+      [
+        "Tick identification",
+        "State medical entomologists, on a limited basis; no disease testing (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Indiana?"
+    },
+    {
+      "type": "p",
+      "text": "About 15 tick species have been documented in Indiana, according to [Purdue Extension's guide to the biology and medical importance of Indiana ticks](https://extension.entm.purdue.edu/publications/E-243.pdf), published in 2013. Only a few matter for health: the guide names four of public health significance, the American dog, lone star, blacklegged and brown dog ticks. The [Indiana Department of Health's tick-borne disease pages](https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/tick-borne-diseases/) now profile six, adding the Gulf Coast tick and the invasive Asian longhorned tick."
+    },
+    {
+      "type": "p",
+      "text": "The tick you are most likely to find on yourself is the American dog tick, which Purdue calls the most common tick on people and dogs in the state; the lone star tick is second, especially in southern Indiana. The blacklegged (deer) tick matters most for Lyme disease, yet Purdue says its adults are rarely found on people and its nymphs, about the size of a poppy seed, are almost never seen."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where in Indiana",
+        "Most active",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in 90 of 92 counties",
+          "Nymphs in spring and summer; adults in fall and early spring",
+          "Lyme disease, anaplasmosis, babesiosis, Powassan virus"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "All 92 counties",
+          "Adults from April to early July, peaking in June",
+          "Rocky Mountain spotted fever, tularemia"
+        ],
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Most common in the southern two-thirds and the northwest corner; established in 49 counties",
+          "Spring and summer",
+          "Ehrlichiosis, tularemia, Heartland virus, Bourbon virus, southern tick-associated rash illness; linked to alpha-gal syndrome"
+        ],
+        [
+          "Gulf Coast tick, *Amblyomma maculatum*",
+          "Mostly southern counties",
+          "Bites most likely in spring and summer",
+          "*Rickettsia parkeri*, a spotted fever germ, found in the ticks; no human cases reported in Indiana"
+        ]
+      ],
+      "caption": "Counties: CDC, through 2025, and Purdue Extension, 2013 (American dog tick). Ranges, seasons and associated diseases: the state health department, except the American dog tick (Purdue Extension)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-life-stages.webp",
+      "width": 1200,
+      "height": 793,
+      "alt": "Three blacklegged ticks on a blue background: a large adult female with a reddish body and dark shield, and two much smaller immature ticks",
+      "caption": "Blacklegged (deer) tick adult female (top), a nymph and a larva. CDC says nymphs are about the size of a poppy seed.",
+      "credit": "CDC/ Michael L. Levin, Ph. D. (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1205"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. Purdue Extension calls it the tick most often found on people and dogs in Indiana.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "p",
+      "text": "The American dog tick is a brown tick with creamy-gray markings on the shield behind its head, and it is larger than the blacklegged tick. Purdue says it occurs in all 92 Indiana counties and can be very abundant in certain habitats in some years; its larvae and nymphs feed on small mammals, especially meadow mice, and are seldom seen by people. CDC's page on [how Lyme disease spreads](https://www.cdc.gov/lyme/causes/index.html) says American dog ticks and lone star ticks cannot transmit the Lyme bacterium. For sizes and markings side by side, see [how to tell the common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "p",
+      "text": "Two more round out the list. The brown dog tick is not native to Indiana but has been brought in repeatedly on dogs, and Purdue says it is the only Indiana tick that can reproduce indoors and colonize homes and heated kennels, though it rarely bites people. Indiana's only soft tick, *Carios kelleyi*, lives with bats and occasionally turns up in buildings they have roosted in."
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged ticks found in Indiana?"
+    },
+    {
+      "type": "p",
+      "text": "Almost everywhere. [CDC's county surveillance table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in 90 of Indiana's 92 counties and as reported in the other two, Adams and Shelby. Established means six or more ticks of one life stage, or more than one life stage, were collected in a county within 12 months; reported means fewer than six of one stage. The [state's blacklegged tick page](https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/tick-borne-diseases/ixodes-scapularis) says they are most often met in wooded areas. To compare other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "p",
+      "text": "Read the table as a record of where ticks have been found, not of how many there are. CDC says county status is cumulative, so a county stays established once it qualifies, and that a county with no record may simply not have been sampled or reported."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "An adult female blacklegged tick and a much smaller blacklegged nymph sitting on the tip of a person's index finger",
+      "caption": "A blacklegged tick adult female (left) and nymph on a fingertip. CDC says nymphs pose a particularly high risk because they are abundant and small.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "h3",
+      "text": "How fast did blacklegged ticks spread across Indiana?"
+    },
+    {
+      "type": "p",
+      "text": "From a few northwestern counties to nearly the whole state in under four decades. The first blacklegged ticks found in Indiana were taken from deer in northwestern counties in 1987, according to the [state's 1999 tick surveillance report](https://www.in.gov/health/reports/disease/1999/app_b.htm), written by a Ball State University researcher for the Indiana State Department of Health; Purdue places that first collection in Porter County."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Year",
+        "What was on record",
+        "Source"
+      ],
+      "rows": [
+        [
+          "1987",
+          "First blacklegged ticks collected in Indiana, from deer in northwestern counties",
+          "State 1999 report; Purdue Extension"
+        ],
+        [
+          "1993",
+          "First established population of ticks carrying the Lyme bacterium, in Jasper County",
+          "State 1999 report"
+        ],
+        [
+          "1999",
+          "At least one blacklegged tick recorded in 47 of 92 counties; infected populations known in Newton, Jasper, Pulaski and Porter counties",
+          "State 1999 report"
+        ],
+        [
+          "2025",
+          "Established in 90 counties and reported in the other 2; Lyme bacterium found in host-seeking ticks in 88",
+          "CDC"
+        ]
+      ],
+      "caption": "The 1999 count includes any county with a single tick on record, a looser test than CDC's established status, so the two are not directly comparable. The four infected counties are as of July 1999."
+    },
+    {
+      "type": "p",
+      "text": "The spread ran from the northwest outward. The 1999 report describes the tick spreading east and south from the northwestern counties, and Purdue's 2013 guide said it still appeared much more abundant in the northwest quadrant of the state than in eastern and southern counties. In people, the 1999 report counts 209 Lyme disease cases reported in Indiana from 1983 through 1999, 13 of them in 1999 (a provisional figure). Case definitions and reporting have changed since, so compare those numbers with today's only roughly."
+    },
+    {
+      "type": "h3",
+      "text": "Which germs have been found in Indiana deer ticks?"
+    },
+    {
+      "type": "p",
+      "text": "The Lyme bacterium in almost every county, a relapsing-fever germ in about half of them, and a few rarer germs, mostly in the north. CDC's companion table records where each germ has been found in host-seeking blacklegged ticks, meaning ticks collected while looking for a host rather than taken off one. Its county status is cumulative too, and a county without a record is not proof the germ is absent."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Germ",
+        "Illness",
+        "Indiana counties with a record"
+      ],
+      "rows": [
+        [
+          "*Borrelia burgdorferi*",
+          "Lyme disease",
+          "88 of 92; no record in Adams, Blackford, Shelby or Vanderburgh"
+        ],
+        [
+          "*Borrelia miyamotoi*",
+          "Hard tick relapsing fever",
+          "48"
+        ],
+        [
+          "*Anaplasma phagocytophilum* (human-active variant)",
+          "Anaplasmosis",
+          "7: Jasper, Newton, Porter, Pulaski, St. Joseph, Starke, Tipton"
+        ],
+        [
+          "*Ehrlichia muris eauclairensis*",
+          "Ehrlichiosis",
+          "2: Pulaski, St. Joseph"
+        ],
+        [
+          "*Babesia microti*",
+          "Babesiosis",
+          "1: St. Joseph"
+        ],
+        [
+          "*Borrelia mayonii*",
+          "Lyme disease",
+          "1: Jasper"
+        ],
+        [
+          "Powassan virus",
+          "Powassan virus disease",
+          "None"
+        ]
+      ],
+      "caption": "Source: [CDC ArboNET Tick Module pathogen table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), data through 2025."
+    },
+    {
+      "type": "p",
+      "text": "The anaplasmosis, babesiosis and *E. muris* germs, along with *B. mayonii*, have so far been recorded in ticks from only seven counties in all, every one except Tipton in the northern third of the state by latitude. CDC's table has no record of Powassan virus in host-seeking blacklegged ticks anywhere in Indiana."
+    },
+    {
+      "type": "h2",
+      "text": "Where is the lone star tick found in Indiana?"
+    },
+    {
+      "type": "p",
+      "text": "Mostly in the south and the northwest. The [state health department's alpha-gal syndrome page](https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/alpha-gal-syndrome) says the lone star tick is most common in the southern two-thirds of Indiana and its northwest corner. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) lists it as established in 49 counties and reported in 14 more, through 2025, including established populations in Lake, Porter, LaPorte and Jasper counties in the northwest."
+    },
+    {
+      "type": "map",
+      "scope": "IN",
+      "title": "Lone star tick status by county, Indiana, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "18005": "established",
+        "18007": "reported",
+        "18013": "established",
+        "18015": "reported",
+        "18019": "established",
+        "18021": "established",
+        "18025": "established",
+        "18027": "established",
+        "18029": "established",
+        "18031": "reported",
+        "18037": "established",
+        "18043": "established",
+        "18045": "reported",
+        "18049": "reported",
+        "18051": "established",
+        "18055": "established",
+        "18059": "reported",
+        "18061": "established",
+        "18063": "established",
+        "18067": "reported",
+        "18071": "established",
+        "18073": "established",
+        "18075": "reported",
+        "18077": "established",
+        "18079": "established",
+        "18081": "established",
+        "18083": "established",
+        "18089": "established",
+        "18091": "established",
+        "18093": "established",
+        "18097": "reported",
+        "18101": "established",
+        "18103": "reported",
+        "18105": "established",
+        "18109": "established",
+        "18111": "established",
+        "18115": "established",
+        "18117": "established",
+        "18119": "established",
+        "18121": "established",
+        "18123": "established",
+        "18125": "established",
+        "18127": "established",
+        "18129": "established",
+        "18131": "established",
+        "18133": "established",
+        "18137": "established",
+        "18139": "established",
+        "18141": "reported",
+        "18143": "established",
+        "18145": "reported",
+        "18147": "established",
+        "18149": "established",
+        "18151": "reported",
+        "18153": "established",
+        "18155": "established",
+        "18157": "reported",
+        "18163": "established",
+        "18165": "established",
+        "18167": "established",
+        "18173": "established",
+        "18175": "established",
+        "18177": "established"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer. No record does not mean no ticks: it can mean no one has sampled there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "p",
+      "text": "Its known range has grown over four decades. In 1986 it was known from only 12 southern counties, with an occasional record farther north, and by 1999 there were records from more than 50 counties, the state's 1999 report says. Purdue's 2013 guide describes it as most common in southern Indiana but found throughout the state."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick, named for the pale spot on its back. Purdue Extension says all of its life stages feed readily on people.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "It brings illnesses of its own. The [state's lone star tick page](https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/tick-borne-diseases/amblyomma-americanum) lists ehrlichiosis, tularemia, Heartland virus, Bourbon virus and southern tick-associated rash illness (STARI) as diseases associated with it, and ties its bite to alpha-gal syndrome, an allergic condition set off by red meat and other products containing alpha-gal, a sugar found in most mammals. The state notes that alpha-gal syndrome is not a reportable condition in Indiana. Read more about [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome)."
+    },
+    {
+      "type": "h2",
+      "text": "Are Gulf Coast and Asian longhorned ticks in Indiana?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, both have been found in the state. The [state's Gulf Coast tick page](https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/tick-borne-diseases/amblyomma-maculatum-gulf-coast-tick) says the species is present mostly in southern Indiana counties and that *Rickettsia parkeri*, the cause of a spotted fever, has been detected in Gulf Coast ticks collected mostly in southern counties, although no human cases have been reported in Indiana. The risk of a bite is greatest in spring and summer."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gulf-coast-tick-female.webp",
+      "width": 1200,
+      "height": 807,
+      "alt": "Adult female Gulf Coast tick on a green leaf, with a dark reddish-brown body, pale silvery markings on the shield behind the head and pale orange legs",
+      "caption": "Adult female Gulf Coast tick. The state says it lives mostly in southern Indiana counties.",
+      "credit": "CDC/ Dr. Christopher Paddock (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10876"
+    },
+    {
+      "type": "p",
+      "text": "The Asian longhorned tick is not native to the United States and has been here since at least 2017. It was first detected in Indiana in April 2023, making Indiana the 19th state to find it, according to the [state's Asian longhorned tick page](https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/tick-borne-diseases/haemaphysalis-longicornis), and state medical entomologists now survey for it. Females can reproduce without mating and lay up to 2,000 eggs at a time, and the life cycle can take as little as six months, which lets the tick spread and build up numbers quickly."
+    },
+    {
+      "type": "p",
+      "text": "It is mainly a livestock pest. Laboratory studies show it can carry the germs behind Rocky Mountain spotted fever, Heartland virus and Powassan virus, but the state says there is no evidence it has passed them to people in the U.S., and it appears less attracted to people than American dog or lone star ticks. Heavy infestations can stress livestock, cut growth and milk or meat production, and kill animals through blood loss, and the tick can carry *Theileria orientalis*, a parasite that causes theileriosis in cattle."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female, both plain reddish-brown, resting on a U.S. dime for scale",
+      "caption": "An Asian longhorned tick nymph (left) and adult female on a U.S. dime. The state describes the tick as about the size of a sesame seed.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "h3",
+      "text": "How do you report an Asian longhorned tick in Indiana?"
+    },
+    {
+      "type": "p",
+      "text": "Through your veterinarian or the state's animal health board. The state health department asks people to:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Save the tick in a plastic bag if you find one you suspect is an Asian longhorned tick on a pet, horse or livestock animal.",
+        "Call your veterinarian to request a consultation.",
+        "Report unusual-looking ticks or large infestations to the Indiana State Board of Animal Health at 317-544-2400."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For livestock, the same page recommends tick treatments chosen with a veterinarian, trimmed grass and cleared brush on pastures and feedlots, and regular tick checks."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does Indiana have?"
+    },
+    {
+      "type": "p",
+      "text": "Less than its northern and eastern neighbors, but far more than 15 years ago. Indiana reported 257 Lyme disease cases in 2023, or 3.8 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html), up from 42 in 2008. The highest year in CDC's series was 2021, with 314 cases. It is still, by far, the tick-borne illness reported most often among Indiana residents (see the table further down)."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Indiana, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            42,
+            83,
+            78,
+            94,
+            74,
+            110,
+            110,
+            138,
+            152,
+            142,
+            155,
+            189,
+            212,
+            314,
+            236,
+            257
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "A revised case definition took effect in 2022, so compare years across that change with care, and CDC says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions. Data through 2023, the latest CDC year as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)"
+    },
+    {
+      "type": "p",
+      "text": "Read the year-to-year changes with care. The Lyme disease case definition was revised in 2022 so that high-incidence states can count cases from laboratory evidence alone, but cases from low-incidence states such as Indiana still require supporting clinical information, [CDC's 2022 surveillance report](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) explains. By that report's count, Indiana's 236 cases in 2022 were 45.7% above its 2017 to 2019 average of 162, while low-incidence states as a group rose 10.0%. CDC also notes that because of the COVID-19 pandemic, 2019 and 2020 data from some jurisdictions are incomplete."
+    },
+    {
+      "type": "h3",
+      "text": "How does Indiana compare with its neighbors?"
+    },
+    {
+      "type": "p",
+      "text": "Indiana sits in between. In 2023, Michigan's and Ohio's Lyme rates were about three times Indiana's (our calculation from the table), while Illinois and Kentucky reported lower rates."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Cases per 100,000, 2023"
+      ],
+      "rows": [
+        [
+          "[Michigan](/blog/ticks-in-michigan)",
+          "1,152",
+          "11.5"
+        ],
+        [
+          "[Ohio](/blog/ticks-in-ohio)",
+          "1,307",
+          "11.1"
+        ],
+        [
+          "Indiana",
+          "257",
+          "3.8"
+        ],
+        [
+          "[Illinois](/blog/ticks-in-illinois)",
+          "372",
+          "2.9"
+        ],
+        [
+          "[Kentucky](/blog/ticks-in-kentucky)",
+          "120",
+          "2.7"
+        ]
+      ],
+      "caption": "Confirmed and probable cases by state of residence, from [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Data through 2023, the latest year CDC had published as of October 2026."
+    },
+    {
+      "type": "h2",
+      "text": "Which Indiana counties have the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "The northern ones, whether you count cases or rates. Relative to population, the highest 2023 rates were in Jasper (14.9 per 100,000), Fulton (14.8), Owen (13.9), Marshall (13.0), Starke (12.9), Kosciusko (11.2) and Cass (10.5) counties, and all but Owen are in the northern third of the state by latitude. The map shows the 2023 rate for every county, calculated by BuzzSkito from [CDC's county-level Lyme data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) and the [Census Bureau's county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)."
+    },
+    {
+      "type": "map",
+      "scope": "IN",
+      "title": "Lyme disease cases per 100,000 residents by county, Indiana, 2023",
+      "categories": [
+        {
+          "key": "r10",
+          "label": "10 or more"
+        },
+        {
+          "key": "r5",
+          "label": "5 to 9.9"
+        },
+        {
+          "key": "r0",
+          "label": "Under 5"
+        },
+        {
+          "key": "none",
+          "label": "0 in CDC's county file"
+        }
+      ],
+      "values": {
+        "18001": "none",
+        "18003": "r0",
+        "18005": "r0",
+        "18007": "none",
+        "18009": "none",
+        "18011": "r0",
+        "18013": "r5",
+        "18015": "none",
+        "18017": "r10",
+        "18019": "r0",
+        "18021": "r5",
+        "18023": "r0",
+        "18025": "none",
+        "18027": "none",
+        "18029": "r0",
+        "18031": "r0",
+        "18033": "none",
+        "18035": "r0",
+        "18037": "r0",
+        "18039": "r0",
+        "18041": "r0",
+        "18043": "r0",
+        "18045": "r5",
+        "18047": "r5",
+        "18049": "r10",
+        "18051": "none",
+        "18053": "none",
+        "18055": "r0",
+        "18057": "r0",
+        "18059": "r0",
+        "18061": "r0",
+        "18063": "r0",
+        "18065": "none",
+        "18067": "none",
+        "18069": "none",
+        "18071": "none",
+        "18073": "r10",
+        "18075": "none",
+        "18077": "none",
+        "18079": "none",
+        "18081": "none",
+        "18083": "r0",
+        "18085": "r10",
+        "18087": "r0",
+        "18089": "r0",
+        "18091": "r5",
+        "18093": "r0",
+        "18095": "none",
+        "18097": "r0",
+        "18099": "r10",
+        "18101": "none",
+        "18103": "r5",
+        "18105": "none",
+        "18107": "none",
+        "18109": "r0",
+        "18111": "r5",
+        "18113": "none",
+        "18115": "none",
+        "18117": "none",
+        "18119": "r10",
+        "18121": "r5",
+        "18123": "none",
+        "18125": "none",
+        "18127": "r5",
+        "18129": "none",
+        "18131": "none",
+        "18133": "r5",
+        "18135": "none",
+        "18137": "r5",
+        "18139": "none",
+        "18141": "r5",
+        "18143": "r0",
+        "18145": "none",
+        "18147": "none",
+        "18149": "r10",
+        "18151": "none",
+        "18153": "none",
+        "18155": "none",
+        "18157": "r0",
+        "18159": "none",
+        "18161": "none",
+        "18163": "r0",
+        "18165": "none",
+        "18167": "r0",
+        "18169": "r0",
+        "18171": "none",
+        "18173": "none",
+        "18175": "r0",
+        "18177": "r0",
+        "18179": "r0",
+        "18181": "none",
+        "18183": "none"
+      },
+      "caption": "Confirmed and probable cases by county of residence. Rates are BuzzSkito's calculation: CDC's 2023 county counts divided by the Census Bureau's July 1, 2023 population estimates (Vintage 2025). CDC's county file places only 167 of Indiana's 257 cases in a county, so these rates run low: together they come to 2.4 per 100,000 statewide, against CDC's 3.8.",
+      "source": "[CDC county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html), 2023; [U.S. Census Bureau county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Lyme cases, 2023",
+        "Cases per 100,000"
+      ],
+      "rows": [
+        [
+          "St. Joseph",
+          "19",
+          "7.0"
+        ],
+        [
+          "Lake",
+          "16",
+          "3.2"
+        ],
+        [
+          "Porter",
+          "13",
+          "7.4"
+        ],
+        [
+          "Marion",
+          "12",
+          "1.2"
+        ],
+        [
+          "Kosciusko",
+          "9",
+          "11.2"
+        ],
+        [
+          "LaPorte",
+          "8",
+          "7.2"
+        ],
+        [
+          "Elkhart",
+          "6",
+          "2.9"
+        ],
+        [
+          "Marshall",
+          "6",
+          "13.0"
+        ],
+        [
+          "Jasper",
+          "5",
+          "14.9"
+        ],
+        [
+          "Tippecanoe",
+          "5",
+          "2.6"
+        ]
+      ],
+      "caption": "The ten counties with the most cases in CDC's 2023 county file, by county of residence. Rates: BuzzSkito's calculation, as for the map."
+    },
+    {
+      "type": "p",
+      "text": "Raw counts follow population. St. Joseph County, home to South Bend, had the most cases in 2023, 19, and by our count it has led every year from 2014 through 2023 in CDC's county file. Lake (16), Porter (13) and Marion (12), which includes Indianapolis, came next in 2023, but Marion's rate was just 1.2 per 100,000."
+    },
+    {
+      "type": "p",
+      "text": "Three cautions apply to any county figure. Cases are counted where the patient lives, which may not be where the bite happened, as [CDC's Lyme case map page](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) notes. CDC places cases in a county only where the county of residence is known, and 90 of Indiana's 257 cases for 2023, about a third (our calculation), are not placed in any county, so true county numbers are higher. And small counties swing: Fulton, Owen and Starke each made the top seven rates with just 3 cases."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in Indiana?"
+    },
+    {
+      "type": "p",
+      "text": "Ehrlichiosis and spotted fever rickettsiosis come next, and they are concentrated in the south, the opposite of Lyme disease. [CDC's county data for 2019 to 2022](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) count 149 cases of ehrlichiosis caused by *Ehrlichia chaffeensis* among Indiana residents, an illness the state links to the lone star tick, and 88 cases of spotted fever rickettsiosis; the most cases of each were among residents of southern counties such as Monroe, Clark, Dubois, Lawrence and Vanderburgh."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Tick linked to it",
+        "Indiana cases, 2019 to 2022",
+        "Counties with the most cases"
+      ],
+      "rows": [
+        [
+          "Lyme disease",
+          "Blacklegged tick",
+          "676",
+          "St. Joseph (101), Porter (54), Elkhart (41), LaPorte (38)"
+        ],
+        [
+          "Ehrlichiosis (*E. chaffeensis*)",
+          "Lone star tick",
+          "149",
+          "Monroe (22), Clark (14), Dubois (10), Lawrence (10)"
+        ],
+        [
+          "Spotted fever rickettsiosis",
+          "American dog tick",
+          "88",
+          "Vanderburgh (16), Clark (13), Dubois (7)"
+        ],
+        [
+          "Anaplasmosis",
+          "Blacklegged tick",
+          "12",
+          "St. Joseph (4); 1 each in 8 other counties"
+        ],
+        [
+          "Tularemia",
+          "American dog and lone star ticks",
+          "9",
+          "Marion and Vanderburgh (2 each)"
+        ],
+        [
+          "Ehrlichiosis (*E. ewingii*)",
+          "Lone star tick",
+          "4",
+          "Monroe (2), Dubois (1), Lawrence (1)"
+        ],
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "1",
+          "St. Joseph (1)"
+        ]
+      ],
+      "caption": "Cases summed over 2019 to 2022 by county of residence, from [CDC's county workbook](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html), which leaves out cases with no county of residence: it holds 676 of the 951 Lyme cases CDC counted for Indiana in those years (our calculation). Tick pairings: the state health department's species pages, and Purdue Extension for the American dog tick."
+    },
+    {
+      "type": "p",
+      "text": "The [state's tick-borne disease page](https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/tick-borne-diseases/) also lists Heartland virus among the tick-borne diseases in Indiana and names Bourbon and Powassan viruses as emerging; the state associates both Heartland and Bourbon viruses with the lone star tick. Babesiosis and anaplasmosis, spread by blacklegged ticks, remain rare here: 13 cases between them over the four years, the largest share in St. Joseph County."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Indiana?"
+    },
+    {
+      "type": "p",
+      "text": "Mainly from early April into July, [Purdue Extension](https://extension.entm.purdue.edu/publications/E-243.pdf) says, with a second risk period in fall. The [state health department](https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/tick-borne-diseases/ixodes-scapularis) says blacklegged nymphs, which Purdue says appear to be the main carriers of Lyme disease to people and pets, are most active in spring and summer, while adults are most active in fall and early spring and may be active any time winter temperatures are above freezing (32°F)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Larvae",
+        "Nymphs",
+        "Adults"
+      ],
+      "rows": [
+        [
+          "Blacklegged (deer) tick",
+          "July to September",
+          "Late spring into early summer",
+          "Late summer into fall, and again in early spring"
+        ],
+        [
+          "American dog tick",
+          "Feed on small mammals and are seldom seen",
+          "Feed on small mammals and are seldom seen",
+          "April to early July, peaking in June"
+        ],
+        [
+          "Lone star tick",
+          "Spring, and again in fall",
+          "April into July",
+          "Late March into June"
+        ]
+      ],
+      "caption": "Source: [Purdue Extension](https://extension.entm.purdue.edu/publications/E-243.pdf), 2013. The state health department adds that adult blacklegged ticks may be active on winter days above freezing."
+    },
+    {
+      "type": "p",
+      "text": "CDC's national guidance on [how Lyme disease spreads](https://www.cdc.gov/lyme/causes/index.html) agrees: blacklegged nymphs quest for hosts from April through July, and adults are most active in early spring and fall. A mild day in October, November or even January is not tick-free in Indiana's woods."
+    },
+    {
+      "type": "h2",
+      "text": "Where can you get a tick identified in Indiana?"
+    },
+    {
+      "type": "p",
+      "text": "From the state's medical entomologists, on a limited basis. As of October 2026, the Indiana Department of Health's [medical entomology team](https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/arthropod-identification) identifies arthropods such as ticks for health care providers, veterinarians, local health departments and members of the public, on a limited basis. The page asks you to start by contacting your regional medical entomologist."
+    },
+    {
+      "type": "p",
+      "text": "The team does not test ticks for disease: the state says it does not recommend, and will not perform, testing of submitted specimens for causes of human disease. It accepts only specimens collected from the environment, not clinical samples such as skin scrapings, scabs, blood or other body fluids, so check with the entomologist before mailing a tick removed from a person. CDC's [advice on what to do after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) is similar for commercial tick testing: it is not generally recommended, results should not be used for treatment decisions, and a negative result can give false assurance."
+    },
+    {
+      "type": "p",
+      "text": "Identification still helps. CDC says blacklegged ticks are the ones that spread Lyme disease in this part of the country, so knowing the species tells you whether Lyme disease is a concern. Pictures of each species and life stage are in [our guide to identifying ticks by size, color and markings](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Indiana?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick right away, check for others and watch for a rash or fever over the following weeks. [CDC's steps for what to do after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) are:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers.",
+        "Pull it away from the skin with steady, even pressure. Do not twist or jerk it, which can leave the mouthparts in the skin; if that happens, remove them with tweezers if you easily can, or leave them for the skin to push out as it heals.",
+        "Dispose of the live tick by sealing it in a container, wrapping it tightly in tape, flushing it down the toilet or putting it in alcohol, and do not crush it with your fingers.",
+        "Clean the bite and your hands with soap and water, rubbing alcohol or hand sanitizer, then check your body for other ticks."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Do not use petroleum jelly, heat, nail polish or other substances to make a tick let go, CDC adds. For more detail, see [the step-by-step tick removal guide](/blog/how-to-remove-tick-safely)."
+    },
+    {
+      "type": "p",
+      "text": "Speed matters. CDC's page on [how Lyme disease spreads](https://www.cdc.gov/lyme/causes/index.html) says that in most cases a tick must be attached for more than 24 hours before it can pass on the Lyme bacterium."
+    },
+    {
+      "type": "p",
+      "text": "Ask about a preventive antibiotic. [CDC's Lyme prevention guidance](https://www.cdc.gov/lyme/prevention/index.html) says that in certain circumstances, a single dose of the antibiotic doxycycline after a tick bite in an area where Lyme disease is common may lower the risk of Lyme disease, and to ask your health care provider whether antibiotics after a bite are appropriate for you. CDC counts Indiana among its low-incidence states, so whether that applies can depend on where the bite happened; a provider makes the call."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Expanding red erythema migrans rash with a darker red center and an outer red ring on the back of a person's upper arm",
+      "caption": "The expanding rash of early Lyme disease, erythema migrans. This one forms a bull's-eye; CDC notes the rash does not always look like one.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "p",
+      "text": "Then watch for a rash. CDC's [Lyme disease symptoms page](https://www.cdc.gov/lyme/signs-symptoms/index.html) says the erythema migrans rash appears in about 70% to 80% of infected people, starting at the bite 3 to 30 days later (about 7 days on average) and expanding up to 12 inches or more across; it does not always look like a bull's-eye. Fever, chills, headache, fatigue, muscle and joint aches, and swollen lymph nodes can occur even without a rash. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow if it goes untreated."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you get sick",
+      "text": "CDC says to see a doctor if you develop a rash or fever within several weeks of removing a tick, and to mention the bite, when it happened and where you most likely picked up the tick. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Indiana?"
+    },
+    {
+      "type": "p",
+      "text": "Use repellent, cover up, stay out of brushy edges and check yourself after every outing. [CDC's Lyme prevention guidance](https://www.cdc.gov/lyme/prevention/index.html) lists these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Use an EPA-registered repellent** containing DEET, picaridin, IR3535, oil of lemon eucalyptus (OLE), para-menthane-diol (PMD) or 2-undecanone, as the label directs.",
+        "**Cover up.** Wear long-sleeved shirts and long pants, or clothing and gear pre-treated with 0.5% permethrin.",
+        "**Avoid tick habitat.** Stay out of grassy, brushy and wooded areas where ticks live when you can.",
+        "**Check everything.** Check your body, clothing, gear and pets during and after time outdoors, including in your own backyard; a lint roller can pick up unattached ticks you cannot see.",
+        "**Shower soon after coming in** to wash off ticks that have not attached."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Where you walk matters in Indiana. The state says blacklegged ticks are most often met in wooded areas and lone star ticks in brushy areas. Purdue's guide names moist woodlands, the vegetation along forest edges and trails, and grassy fields among the most productive tick habitats, and adds power-line cuts through forests, campgrounds, abandoned grassy yards and the tall grass at interstate rest areas where pets are walked."
+    },
+    {
+      "type": "p",
+      "text": "Pets carry ticks indoors too. Check them after time outdoors, as CDC advises, and ask a veterinarian which tick preventive suits your dog or cat."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are ticks active in Indiana in the winter?",
+      "answer": "Some are. The state health department says adult blacklegged ticks are most active in fall and early spring and may be active any time winter temperatures are above freezing. Most other tick activity runs from early April into July, according to Purdue Extension, which says lone star ticks survive the winter as nymphs and adults and become active again from late March. Check for ticks after time in woods, brush or leaf litter on any mild winter day."
+    },
+    {
+      "question": "Is Lyme disease common in Indiana?",
+      "answer": "Less common than in neighboring Michigan and Ohio, but much more common than it was. Indiana reported 257 cases in 2023, or 3.8 per 100,000 residents, and CDC classes it as a low-incidence state; Michigan reported 11.5 per 100,000 and Ohio 11.1 that year. Indiana counted 42 cases in 2008 and a high of 314 in 2021. Blacklegged ticks are established in 90 of its 92 counties, and the Lyme bacterium has been found in host-seeking ticks in 88."
+    },
+    {
+      "question": "Which Indiana county has the most Lyme disease?",
+      "answer": "By number of cases, St. Joseph County, home to South Bend, which by our count had the most cases in CDC's county file every year from 2014 through 2023, including 19 in 2023. Relative to population, Jasper County was highest in 2023, at about 14.9 cases per 100,000 residents, followed by Fulton and Owen counties, based on CDC county counts and Census estimates. Cases are counted where patients live, 90 of the state's 257 cases that year are not placed in any county, and small counties swing from year to year."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in Indiana?",
+      "answer": "Not through the state. As of October 2026, the Indiana Department of Health's medical entomologists identify ticks and other arthropods on a limited basis but do not test them for disease, and the department does not recommend tick testing. CDC says commercial tick testing is not generally recommended, that results should not be used for treatment decisions, and that a negative result can give false assurance. If you feel ill after a bite, see a health care provider."
+    },
+    {
+      "question": "How long does a tick have to be attached to spread Lyme disease?",
+      "answer": "CDC says that in most cases a tick must be attached for more than 24 hours before it can transmit the Lyme disease bacterium. Because it is hard to know how long a tick has been feeding, remove any tick as soon as you find it and watch for a rash or fever over the next several weeks. In Indiana's part of the country, CDC says, Lyme disease is spread by blacklegged ticks, whose nymphs are about the size of a poppy seed."
+    },
+    {
+      "question": "What should I do if I find an Asian longhorned tick in Indiana?",
+      "answer": "If the tick is on a pet, horse or livestock animal, the state health department asks you to save it in a plastic bag and call your veterinarian to request a consultation. Unusual-looking ticks or large infestations can be reported to the Indiana State Board of Animal Health at 317-544-2400. The species was first detected in Indiana in April 2023 and is mainly a livestock pest; the state says there is no evidence it has passed disease germs to people in the U.S."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition, United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (county workbook, 2019-2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "County Population Totals and Components of Change: 2020-2025",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html"
+    },
+    {
+      "title": "How Lyme Disease Spreads",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "Signs and Symptoms of Lyme Disease",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/signs-symptoms/index.html"
+    },
+    {
+      "title": "Preventing Lyme Disease",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/prevention/index.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "Tick-Borne Diseases",
+      "publisher": "Indiana Department of Health",
+      "url": "https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/tick-borne-diseases/"
+    },
+    {
+      "title": "Ixodes scapularis (blacklegged tick)",
+      "publisher": "Indiana Department of Health",
+      "url": "https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/tick-borne-diseases/ixodes-scapularis"
+    },
+    {
+      "title": "Amblyomma americanum (lone star tick)",
+      "publisher": "Indiana Department of Health",
+      "url": "https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/tick-borne-diseases/amblyomma-americanum"
+    },
+    {
+      "title": "Alpha-gal Syndrome",
+      "publisher": "Indiana Department of Health",
+      "url": "https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/alpha-gal-syndrome"
+    },
+    {
+      "title": "Amblyomma maculatum (Gulf Coast tick)",
+      "publisher": "Indiana Department of Health",
+      "url": "https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/tick-borne-diseases/amblyomma-maculatum-gulf-coast-tick"
+    },
+    {
+      "title": "Haemaphysalis longicornis (Asian longhorned tick)",
+      "publisher": "Indiana Department of Health",
+      "url": "https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/tick-borne-diseases/haemaphysalis-longicornis"
+    },
+    {
+      "title": "Arthropod Identification",
+      "publisher": "Indiana Department of Health",
+      "url": "https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/arthropod-identification"
+    },
+    {
+      "title": "The Biology and Medical Importance of Ticks in Indiana (E-243-W, August 2013)",
+      "publisher": "Purdue Extension, Department of Entomology",
+      "url": "https://extension.entm.purdue.edu/publications/E-243.pdf"
+    },
+    {
+      "title": "Rocky Mountain Spotted Fever and Lyme Disease Surveillance Program in Indiana: Final Report, 1999 (Indiana Report of Diseases, Appendix B)",
+      "publisher": "Indiana State Department of Health and Ball State University",
+      "url": "https://www.in.gov/health/reports/disease/1999/app_b.htm"
+    }
+  ],
+  "disclaimer": "both"
+}
