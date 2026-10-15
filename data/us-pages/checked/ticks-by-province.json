@@ -1,0 +1,10 @@
+{
+ "id": "ticks-by-province",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "139976213785618ea4952b50ebe0d59924cd1d578f770e9af98deaadfcc5f780",
+ "claimsChecked": 378,
+ "claimsCorrected": 12,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-15"
+}

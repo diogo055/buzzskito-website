@@ -1,0 +1,1143 @@
+{
+  "slug": "ticks-by-state",
+  "kind": "spoke",
+  "section": "learn",
+  "cluster": "ticks",
+  "keyword": "ticks by state",
+  "alsoTargets": [
+    "tick map by state",
+    "lyme disease by state",
+    "where do ticks live in the us"
+  ],
+  "metaTitle": "Ticks by State: Tick Map and Lyme Disease Rates",
+  "metaDescription": "Deer ticks are established in 1,306 US counties, and the 50 states reported 89,360 Lyme cases in 2023. Maps, all 50 states and 8 tick species.",
+  "h1": "Ticks by State: Which Ticks Live Where, and Lyme Disease Across the US",
+  "dek": "Which ticks live in each part of the country, how much Lyme disease every state reports, maps and a table linking all 50 state guides, and what CDC's numbers can and cannot tell you.",
+  "breadcrumb": "Ticks by State",
+  "excerpt": "Tick and Lyme disease maps for all 50 states from CDC data, where eight tick species live, with photos, and 2023 cases and rates by state.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+  },
+  "quickAnswer": {
+    "lead": "**Which ticks live near you depends on the region: CDC maps blacklegged (deer) ticks across the East, western blacklegged ticks on the Pacific coast, lone star ticks in the South, Midwest and Northeast, and American dog ticks east of the Rockies.** Lyme disease is concentrated in the Northeast, mid-Atlantic and upper Midwest: in 2023, 15 states there reported about 95% of the 89,360 cases in the 50 states, according to [CDC data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html).",
+    "bullets": [
+      "New York reported the most Lyme disease cases in 2023, 22,173, and Rhode Island had the highest rate, 260 per 100,000 residents.",
+      "CDC's county tables, which run through December 2025, list blacklegged ticks as established in 1,306 counties in 37 states, including every county in 10 states from Delaware and Pennsylvania to Maine.",
+      "Lone star ticks are established in 1,138 counties in 33 states, more of them in Texas (118) than in any other state.",
+      "Reported cases jumped in 2022, which CDC says likely reflects a revised case definition rather than a change in risk, so recent years are not directly comparable with earlier ones.",
+      "CDC says none of the ticks it maps has naturally occurring populations in Alaska, while the brown dog tick does occur in Hawaii."
+    ]
+  },
+  "facts": {
+    "title": "Ticks and Lyme disease in the US at a glance",
+    "rows": [
+      [
+        "Lyme disease cases reported, 2023",
+        "89,468 nationally (CDC), 89,360 of them in the 50 states"
+      ],
+      [
+        "National Lyme disease rate, 2023",
+        "26.9 per 100,000 residents"
+      ],
+      [
+        "Most cases, 2023",
+        "New York, 22,173"
+      ],
+      [
+        "Highest rate, 2023",
+        "Rhode Island, 260 per 100,000 residents"
+      ],
+      [
+        "High-incidence states' share of cases, 2023",
+        "About 95%, from 15 states"
+      ],
+      [
+        "Counties with established blacklegged (deer) ticks",
+        "1,306 in 37 states (CDC, through December 2025)"
+      ],
+      [
+        "Counties with established lone star ticks",
+        "1,138 in 33 states (CDC, through 2025)"
+      ],
+      [
+        "Counties with established western blacklegged ticks",
+        "97 in 5 western states (CDC, through December 2025)"
+      ],
+      [
+        "Asian longhorned tick",
+        "Found in 20 states as of April 2024 (CDC)"
+      ],
+      [
+        "Estimated Lyme disease diagnoses a year",
+        "About 476,000 (CDC estimate)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Where do ticks live in the United States?"
+    },
+    {
+      "type": "p",
+      "text": "Disease-carrying ticks are found across the lower 48 states, but each species has its own range. [CDC's guide to where ticks live](https://www.cdc.gov/ticks/about/where-ticks-live.html) covers eight species, with two cautions: populations may turn up outside the shaded areas, and a tick living in a region does not mean it spreads a given disease there."
+    },
+    {
+      "type": "p",
+      "text": "For a state-by-state view, CDC keeps county surveillance tables for four species that record where each is established. Through December 2025 they list the blacklegged (deer) tick, which spreads Lyme disease in the East, as established in 1,306 counties in 37 states. The map shows what share of each state's counties that is."
+    },
+    {
+      "type": "map",
+      "scope": "us",
+      "title": "Blacklegged (deer) tick: share of each state's counties with an established population, through 2025",
+      "categories": [
+        {
+          "key": "all",
+          "label": "Every county"
+        },
+        {
+          "key": "half",
+          "label": "Half or more"
+        },
+        {
+          "key": "some",
+          "label": "Fewer than half"
+        },
+        {
+          "key": "none",
+          "label": "None established"
+        }
+      ],
+      "values": {
+        "AL": "half",
+        "AZ": "none",
+        "AR": "some",
+        "CA": "none",
+        "CO": "none",
+        "CT": "all",
+        "DE": "all",
+        "FL": "half",
+        "GA": "some",
+        "ID": "none",
+        "IL": "half",
+        "IN": "half",
+        "IA": "half",
+        "KS": "some",
+        "KY": "some",
+        "LA": "some",
+        "ME": "all",
+        "MD": "half",
+        "MA": "all",
+        "MI": "half",
+        "MN": "half",
+        "MS": "some",
+        "MO": "some",
+        "MT": "none",
+        "NE": "some",
+        "NV": "none",
+        "NH": "all",
+        "NJ": "all",
+        "NM": "none",
+        "NY": "all",
+        "NC": "half",
+        "ND": "some",
+        "OH": "half",
+        "OK": "some",
+        "OR": "none",
+        "PA": "all",
+        "RI": "all",
+        "SC": "half",
+        "SD": "some",
+        "TN": "some",
+        "TX": "some",
+        "UT": "none",
+        "VT": "all",
+        "VA": "half",
+        "WA": "none",
+        "WV": "half",
+        "WI": "half",
+        "WY": "none",
+        "DC": "all"
+      },
+      "links": {
+        "AL": "/blog/ticks-in-alabama",
+        "AK": "/blog/ticks-in-alaska",
+        "AZ": "/blog/ticks-in-arizona",
+        "AR": "/blog/ticks-in-arkansas",
+        "CA": "/blog/ticks-in-california",
+        "CO": "/blog/ticks-in-colorado",
+        "CT": "/blog/ticks-in-connecticut",
+        "DE": "/blog/ticks-in-delaware",
+        "FL": "/blog/ticks-in-florida",
+        "GA": "/blog/ticks-in-georgia",
+        "HI": "/blog/ticks-in-hawaii",
+        "ID": "/blog/ticks-in-idaho",
+        "IL": "/blog/ticks-in-illinois",
+        "IN": "/blog/ticks-in-indiana",
+        "IA": "/blog/ticks-in-iowa",
+        "KS": "/blog/ticks-in-kansas",
+        "KY": "/blog/ticks-in-kentucky",
+        "LA": "/blog/ticks-in-louisiana",
+        "ME": "/blog/ticks-in-maine",
+        "MD": "/blog/ticks-in-maryland",
+        "MA": "/blog/ticks-in-massachusetts",
+        "MI": "/blog/ticks-in-michigan",
+        "MN": "/blog/ticks-in-minnesota",
+        "MS": "/blog/ticks-in-mississippi",
+        "MO": "/blog/ticks-in-missouri",
+        "MT": "/blog/ticks-in-montana",
+        "NE": "/blog/ticks-in-nebraska",
+        "NV": "/blog/ticks-in-nevada",
+        "NH": "/blog/ticks-in-new-hampshire",
+        "NJ": "/blog/ticks-in-new-jersey",
+        "NM": "/blog/ticks-in-new-mexico",
+        "NY": "/blog/ticks-in-new-york",
+        "NC": "/blog/ticks-in-north-carolina",
+        "ND": "/blog/ticks-in-north-dakota",
+        "OH": "/blog/ticks-in-ohio",
+        "OK": "/blog/ticks-in-oklahoma",
+        "OR": "/blog/ticks-in-oregon",
+        "PA": "/blog/ticks-in-pennsylvania",
+        "RI": "/blog/ticks-in-rhode-island",
+        "SC": "/blog/ticks-in-south-carolina",
+        "SD": "/blog/ticks-in-south-dakota",
+        "TN": "/blog/ticks-in-tennessee",
+        "TX": "/blog/ticks-in-texas",
+        "UT": "/blog/ticks-in-utah",
+        "VT": "/blog/ticks-in-vermont",
+        "VA": "/blog/ticks-in-virginia",
+        "WA": "/blog/ticks-in-washington",
+        "WV": "/blog/ticks-in-west-virginia",
+        "WI": "/blog/ticks-in-wisconsin",
+        "WY": "/blog/ticks-in-wyoming"
+      },
+      "caption": "Established means six or more ticks of one life stage, or more than one life stage, were collected in a county within 12 months. Status is cumulative and reflects where people have sampled, so a state with no established county is not proof the tick is absent. CDC's county tables cover the lower 48 states and the District of Columbia, where the tick is established, but not Alaska or Hawaii.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html); shares of counties calculated by BuzzSkito"
+    },
+    {
+      "type": "p",
+      "text": "Ten states have blacklegged ticks established in every county: Connecticut, Delaware, Maine, Massachusetts, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island and Vermont. Indiana is close behind, at 90 of 92 counties. None is established in 11 western states, from Washington and California to Colorado and New Mexico, though Montana has one county where the tick has been reported. In five of those western states the related western blacklegged tick is established instead."
+    },
+    {
+      "type": "p",
+      "text": "Alaska and Hawaii are outside both the range maps and the county tables. CDC says none of the ticks it maps has naturally occurring populations in Alaska, and that the brown dog tick occurs in Hawaii."
+    },
+    {
+      "type": "h2",
+      "text": "Which tick species live in which regions?"
+    },
+    {
+      "type": "p",
+      "text": "Each region has its own mix. CDC places the blacklegged tick in the East, the lone star tick in the Northeast, South and Midwest, the American dog tick east of the Rockies, the western blacklegged tick on the Pacific coast, the Rocky Mountain wood tick in the Rocky Mountain states and the Gulf Coast tick mainly in the Southeast, while the brown dog tick is found worldwide. The eighth species on its list, the invasive Asian longhorned tick, is a newcomer whose risk to people is still being studied. For sizes and markings side by side, see [how to tell the common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "h3",
+      "text": "Blacklegged (deer) tick: the eastern US"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-female.webp",
+      "width": 1200,
+      "height": 775,
+      "alt": "Adult female blacklegged tick on a green blade of grass, with a dark shield behind the head, dark legs and a reddish-orange body",
+      "caption": "Adult female blacklegged (deer) tick: dark shield, dark legs and a reddish body.",
+      "credit": "CDC/ Michael L. Levin, PhD; photo: Jim Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1669"
+    },
+    {
+      "type": "p",
+      "text": "The blacklegged tick, *Ixodes scapularis*, is widely distributed across the eastern United States. CDC links it to Lyme disease, anaplasmosis, babesiosis, hard tick relapsing fever, an ehrlichiosis caused by *Ehrlichia muris eauclairensis*, and Powassan virus disease. Its established counties run from Maine to Florida and west to the Dakotas, Kansas, Oklahoma and Texas, and it has been reported in 476 more."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-nymph-fingernail.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "Tiny blacklegged tick nymph crawling on a fingertip next to the fingernail, showing how small the nymph stage is",
+      "caption": "A blacklegged tick nymph beside a fingernail, for size.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28382"
+    },
+    {
+      "type": "p",
+      "text": "Nymphs and adult females are the stages most likely to bite people, CDC says. [The picture guide to the two US ticks that carry Lyme disease](/blog/ticks-that-carry-lyme-disease) describes the blacklegged tick at each life stage."
+    },
+    {
+      "type": "h3",
+      "text": "Western blacklegged tick: the Pacific coast"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/western-blacklegged-tick-female.webp",
+      "width": 1200,
+      "height": 1541,
+      "alt": "Adult female western blacklegged tick seen from above against a black background, with a dark shield behind the head and a reddish-brown body and legs",
+      "caption": "Adult female western blacklegged tick, the tick that spreads Lyme disease along the Pacific coast.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8687"
+    },
+    {
+      "type": "p",
+      "text": "The western blacklegged tick, *Ixodes pacificus*, lives along the Pacific coast, particularly in northern California, and spreads Lyme disease, anaplasmosis and hard tick relapsing fever, according to CDC. All of its life stages bite people, though nymphs and adult females are reported on people more often. CDC's [western blacklegged tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/western-blacklegged-tick-surveillance.html) lists it as established in 97 counties in five states: California (55 of 58 counties), Oregon (18), Washington (17), Utah (6) and Arizona (1)."
+    },
+    {
+      "type": "p",
+      "text": "Lyme disease is far less common there than in the Northeast: [California](/blog/ticks-in-california) reported 109 cases in 2023 (0.3 per 100,000 residents) and Oregon 61 (1.4)."
+    },
+    {
+      "type": "h3",
+      "text": "Lone star tick: the South, Midwest and Northeast"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick, named for the single pale spot on its back.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "The lone star tick, *Amblyomma americanum*, is widely distributed in the Northeast, South and Midwest. CDC links it to ehrlichiosis, tularemia, Heartland virus and Bourbon virus, says a circular rash of unknown cause called STARI sometimes follows its bite, and notes growing evidence that the bite may trigger [alpha-gal syndrome, a red meat allergy](/blog/alpha-gal-syndrome). Lyme disease is not on CDC's list for this tick. Nymphs and adult females bite people most often."
+    },
+    {
+      "type": "p",
+      "text": "Through 2025, [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) lists it as established in 1,138 counties in 33 states. Texas leads with 118 counties, followed by Kentucky (86), Arkansas (73), Virginia (70) and Oklahoma (69). It has been reported, but not established, in parts of Maine, Colorado, Vermont, Minnesota, New Mexico and Wyoming. CDC cautions that a change in a county's status often reflects first-time sampling and does not necessarily mean the tick has moved. The tick's larvae are often called [seed ticks](/blog/seed-ticks)."
+    },
+    {
+      "type": "h3",
+      "text": "American dog tick: east of the Rockies"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a green blade of grass, brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. Its pale, mottled shield sets it apart from the plain dark shield of a blacklegged tick.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "p",
+      "text": "The American dog tick, *Dermacentor variabilis*, is widely distributed east of the Rocky Mountains and occurs in limited areas to the west, where CDC says a newly described species, *Dermacentor similis*, is found. CDC links American dog ticks to Rocky Mountain spotted fever and tularemia, and adult females are the stage most likely to bite people. Its [American dog tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html), which maps *D. variabilis* only, lists it as established in 1,148 counties in 39 states through 2025, with no records in Arizona, California, Idaho, Nevada, Oregon, Utah or Washington. The [deer tick, dog tick and lone star tick identification chart](/learn/tick-identification-chart) compares it with the other two."
+    },
+    {
+      "type": "h3",
+      "text": "Rocky Mountain wood tick: the Rocky Mountain states"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/rocky-mountain-wood-tick-female.webp",
+      "width": 1200,
+      "height": 807,
+      "alt": "Adult female Rocky Mountain wood tick on a blade of grass, with a large cream-colored shield behind the head and a dark reddish body and legs",
+      "caption": "Adult female Rocky Mountain wood tick, with the large pale shield behind its head.",
+      "credit": "CDC/ Dr. Christopher Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10865"
+    },
+    {
+      "type": "p",
+      "text": "The Rocky Mountain wood tick, *Dermacentor andersoni*, lives in the Rocky Mountain states at elevations of 4,000 to 10,500 feet, according to CDC, and can spread Rocky Mountain spotted fever, Colorado tick fever and tularemia. Adults are the stage CDC associates with passing germs to people. CDC has no county map for it, so start with your state's guide, such as [Colorado](/blog/ticks-in-colorado) or [Montana](/blog/ticks-in-montana); [this chart of common North American ticks](/blog/types-of-ticks-identification) includes it."
+    },
+    {
+      "type": "h3",
+      "text": "Gulf Coast tick: mainly the Southeast"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gulf-coast-tick-female.webp",
+      "width": 1200,
+      "height": 807,
+      "alt": "Adult female Gulf Coast tick on a green leaf, with long orange legs, long mouthparts and pale, silvery markings on the shield behind the head",
+      "caption": "Adult female Gulf Coast tick. CDC associates adult ticks with passing *Rickettsia parkeri* to people.",
+      "credit": "CDC/ Dr. Christopher Paddock (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10876"
+    },
+    {
+      "type": "p",
+      "text": "The Gulf Coast tick, *Amblyomma maculatum*, lives primarily in the southeastern United States, with localized populations in the Northeast, Midwest and Southwest, according to CDC. It spreads *Rickettsia parkeri* rickettsiosis, a form of spotted fever, and adults are the stage associated with passing it to people. CDC's county-level maps do not include it."
+    },
+    {
+      "type": "h3",
+      "text": "Brown dog tick: worldwide, including Hawaii"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/brown-dog-tick-male.webp",
+      "width": 1200,
+      "height": 1167,
+      "alt": "Adult male brown dog tick seen from above on a white background, evenly reddish-brown with no pale markings, next to a small scale bar",
+      "caption": "Adult male brown dog tick, plain reddish-brown, beside a scale bar marking 1 millimeter (about 0.04 inch).",
+      "credit": "CDC/ Dr. Gary Alpert; PhD; photo: Anna Kang; Dr. Gary Alpert; PhD (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31722"
+    },
+    {
+      "type": "p",
+      "text": "The brown dog tick, *Rhipicephalus sanguineus*, is found worldwide, and CDC notes that it occurs in Hawaii. Dogs are its main host at every life stage, but it may also bite people and other mammals. In the United States, CDC links it to Rocky Mountain spotted fever in the Southwest and along the US-Mexico border. [Our guide to ticks on dogs](/blog/ticks-on-dogs) covers checking a dog and removal."
+    },
+    {
+      "type": "h3",
+      "text": "Asian longhorned tick: first reported in 2017"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female, both plain reddish-brown, resting on a US dime for scale",
+      "caption": "An Asian longhorned tick nymph (left) and adult female (right) on a US dime, for size.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "The Asian longhorned tick, *Haemaphysalis longicornis*, is not normally found in the Western Hemisphere and was first reported in the United States in 2017. As of April 12, 2024, CDC listed it in 20 states: Arkansas, Connecticut, Delaware, Georgia, Illinois, Indiana, Kentucky, Maryland, Massachusetts, Missouri, New Jersey, New York, North Carolina, Ohio, Pennsylvania, Rhode Island, South Carolina, Tennessee, Virginia and West Virginia."
+    },
+    {
+      "type": "p",
+      "text": "It has been found on pets, livestock, wildlife and people. Females can lay eggs without mating, and thousands of ticks may turn up at once in grass or on an animal. CDC says it appears less attracted to people than native ticks, and that it is not yet known whether, or how often, it passes germs to people and makes them ill. The [Pennsylvania guide](/blog/ticks-in-pennsylvania) explains how to report one there."
+    },
+    {
+      "type": "h2",
+      "text": "Which states have the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "New York reported the most Lyme disease cases in 2023, 22,173, followed by Pennsylvania (16,671), Massachusetts (9,715), New Jersey (7,224) and Wisconsin (6,283), according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Relative to population the order changes: Rhode Island had the highest rate, 260 cases per 100,000 residents, ahead of Vermont (223.3), Maine (213.4), West Virginia (181.6) and Massachusetts (138.9). The national rate was 26.9 per 100,000."
+    },
+    {
+      "type": "map",
+      "scope": "us",
+      "title": "Lyme disease cases per 100,000 residents by state, 2023",
+      "categories": [
+        {
+          "key": "100plus",
+          "label": "100 or more"
+        },
+        {
+          "key": "10to99",
+          "label": "10 to 99.9"
+        },
+        {
+          "key": "1to9",
+          "label": "1 to 9.9"
+        },
+        {
+          "key": "under1",
+          "label": "Under 1"
+        }
+      ],
+      "values": {
+        "AL": "under1",
+        "AK": "under1",
+        "AZ": "under1",
+        "AR": "under1",
+        "CA": "under1",
+        "CO": "under1",
+        "CT": "10to99",
+        "DE": "10to99",
+        "FL": "1to9",
+        "GA": "under1",
+        "ID": "under1",
+        "IL": "1to9",
+        "IN": "1to9",
+        "IA": "1to9",
+        "KS": "under1",
+        "KY": "1to9",
+        "LA": "under1",
+        "ME": "100plus",
+        "MD": "10to99",
+        "MA": "100plus",
+        "MI": "10to99",
+        "MN": "10to99",
+        "MS": "under1",
+        "MO": "under1",
+        "MT": "1to9",
+        "NE": "under1",
+        "NV": "under1",
+        "NH": "100plus",
+        "NJ": "10to99",
+        "NM": "under1",
+        "NY": "100plus",
+        "NC": "1to9",
+        "ND": "1to9",
+        "OH": "10to99",
+        "OK": "under1",
+        "OR": "1to9",
+        "PA": "100plus",
+        "RI": "100plus",
+        "SC": "1to9",
+        "SD": "under1",
+        "TN": "under1",
+        "TX": "under1",
+        "UT": "under1",
+        "VT": "100plus",
+        "VA": "10to99",
+        "WA": "under1",
+        "WV": "100plus",
+        "WI": "100plus",
+        "WY": "under1",
+        "DC": "10to99"
+      },
+      "links": {
+        "AL": "/blog/ticks-in-alabama",
+        "AK": "/blog/ticks-in-alaska",
+        "AZ": "/blog/ticks-in-arizona",
+        "AR": "/blog/ticks-in-arkansas",
+        "CA": "/blog/ticks-in-california",
+        "CO": "/blog/ticks-in-colorado",
+        "CT": "/blog/ticks-in-connecticut",
+        "DE": "/blog/ticks-in-delaware",
+        "FL": "/blog/ticks-in-florida",
+        "GA": "/blog/ticks-in-georgia",
+        "HI": "/blog/ticks-in-hawaii",
+        "ID": "/blog/ticks-in-idaho",
+        "IL": "/blog/ticks-in-illinois",
+        "IN": "/blog/ticks-in-indiana",
+        "IA": "/blog/ticks-in-iowa",
+        "KS": "/blog/ticks-in-kansas",
+        "KY": "/blog/ticks-in-kentucky",
+        "LA": "/blog/ticks-in-louisiana",
+        "ME": "/blog/ticks-in-maine",
+        "MD": "/blog/ticks-in-maryland",
+        "MA": "/blog/ticks-in-massachusetts",
+        "MI": "/blog/ticks-in-michigan",
+        "MN": "/blog/ticks-in-minnesota",
+        "MS": "/blog/ticks-in-mississippi",
+        "MO": "/blog/ticks-in-missouri",
+        "MT": "/blog/ticks-in-montana",
+        "NE": "/blog/ticks-in-nebraska",
+        "NV": "/blog/ticks-in-nevada",
+        "NH": "/blog/ticks-in-new-hampshire",
+        "NJ": "/blog/ticks-in-new-jersey",
+        "NM": "/blog/ticks-in-new-mexico",
+        "NY": "/blog/ticks-in-new-york",
+        "NC": "/blog/ticks-in-north-carolina",
+        "ND": "/blog/ticks-in-north-dakota",
+        "OH": "/blog/ticks-in-ohio",
+        "OK": "/blog/ticks-in-oklahoma",
+        "OR": "/blog/ticks-in-oregon",
+        "PA": "/blog/ticks-in-pennsylvania",
+        "RI": "/blog/ticks-in-rhode-island",
+        "SC": "/blog/ticks-in-south-carolina",
+        "SD": "/blog/ticks-in-south-dakota",
+        "TN": "/blog/ticks-in-tennessee",
+        "TX": "/blog/ticks-in-texas",
+        "UT": "/blog/ticks-in-utah",
+        "VT": "/blog/ticks-in-vermont",
+        "VA": "/blog/ticks-in-virginia",
+        "WA": "/blog/ticks-in-washington",
+        "WV": "/blog/ticks-in-west-virginia",
+        "WI": "/blog/ticks-in-wisconsin",
+        "WY": "/blog/ticks-in-wyoming"
+      },
+      "caption": "Confirmed and probable cases by state of residence. The District of Columbia (16.1 per 100,000) is shaded from the same CDC file. Hawaii, where Lyme disease is not reportable according to CDC's 2022 report, has no rate. Because of a case definition revised in 2022, these rates are not directly comparable with earlier years.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html), 2023, the latest year CDC had published as of October 2026"
+    },
+    {
+      "type": "p",
+      "text": "All nine states above 100 cases per 100,000 are on CDC's list of high-incidence states. Its [2022 surveillance report](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) names 15 states, plus the District of Columbia, that had reported at least 10 confirmed cases per 100,000 people for three years: Connecticut, Delaware, Maine, Maryland, Massachusetts, Minnesota, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, Vermont, Virginia, West Virginia and Wisconsin. In 2023 those 15 states reported 84,863 of the 89,360 cases in the 50 states, about 95%."
+    },
+    {
+      "type": "p",
+      "text": "Ohio (1,307 cases, 11.1 per 100,000) and Michigan (1,152 cases, 11.5) are not on that list, but both passed 10 per 100,000 in 2023, a first in CDC's rate data, which begin in 2010. By our count from CDC's state table, the 34 other states that report Lyme disease went from an average of 2,561 cases a year in 2017 to 2019 to 4,497 in 2023, and Ohio and Michigan account for about 93% of that rise. Those states still need clinical information to count a case. The [Michigan guide](/blog/ticks-in-michigan) traces how the deer tick spread there county by county."
+    },
+    {
+      "type": "h2",
+      "text": "How many Lyme disease cases are reported each year?"
+    },
+    {
+      "type": "p",
+      "text": "The 50 states reported 89,360 Lyme disease cases in 2023. CDC's national total, which also counts the District of Columbia, was 89,468, the highest in its national series, which begins in 1996. The chart splits each year's state total between the 15 high-incidence states and the rest."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in the 50 states, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "15 high-incidence states",
+          "values": [
+            34072,
+            37035,
+            29011,
+            31854,
+            29510,
+            34399,
+            31850,
+            36016,
+            34174,
+            40185,
+            31363,
+            31860,
+            15450,
+            20642,
+            59657,
+            84863
+          ]
+        },
+        {
+          "name": "Other states",
+          "values": [
+            1052,
+            1372,
+            1105,
+            1243,
+            1321,
+            1873,
+            1571,
+            1932,
+            2152,
+            2474,
+            2224,
+            2985,
+            2430,
+            3877,
+            2817,
+            4497
+          ]
+        }
+      ],
+      "yLabel": "Confirmed and probable cases per year, by state of residence",
+      "caption": "Each bar adds up the 49 states in CDC's state table; Lyme disease is not reportable in Hawaii. CDC's national series also counts the District of Columbia (108 cases in 2023, for 89,468) and otherwise matches these sums in every year except 2021, when it is one case higher. The 15 high-incidence states are those listed in CDC's 2022 report, grouped the same way for every year. A revised case definition took effect in 2022, so 2022 and 2023 are not directly comparable with earlier years, and CDC says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions. Data through 2023, the latest CDC year as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html), cases by state, 2008 to 2023; high-incidence states from [CDC's 2022 surveillance report](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm)"
+    },
+    {
+      "type": "p",
+      "text": "The jump in 2022 likely reflects a change in counting rather than in risk, CDC says. Under a case definition revised that year, high-incidence states may report cases on laboratory evidence alone, while low-incidence states still need clinical information, according to [CDC's 2022 report](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm). The 62,551 cases reported nationally in 2022 were 1.7 times the 2017 to 2019 average, and CDC cautions that the new definition rules out detailed comparison with earlier years."
+    },
+    {
+      "type": "p",
+      "text": "Some earlier dips also come from reporting. CDC says the COVID-19 pandemic left 2019 and 2020 data incomplete in some jurisdictions, and its state table shows 0 cases for Minnesota in 2020. Before 2022, some high-incidence states, including New York and Massachusetts, had adopted their own surveillance practices, which CDC says often kept cases from being reported to it. In CDC's table, Massachusetts went from 2,476 to 5,304 cases a year in 2008 to 2015 to between 7 and 410 a year in 2016 to 2021."
+    },
+    {
+      "type": "p",
+      "text": "Reported cases are only part of the picture: CDC's 2022 report cites an estimate of about 476,000 Lyme disease diagnoses a year in the United States."
+    },
+    {
+      "type": "h2",
+      "text": "How does each state compare?"
+    },
+    {
+      "type": "p",
+      "text": "The table lists every state's 2023 Lyme disease count and rate, its counties with established blacklegged ticks and a link to its guide, which covers that state's ticks in more detail."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Cases per 100,000, 2023",
+        "Counties with established blacklegged ticks",
+        "State guide"
+      ],
+      "rows": [
+        [
+          "Alabama",
+          "36",
+          "0.7",
+          "36 of 67",
+          "[Ticks in Alabama](/blog/ticks-in-alabama)"
+        ],
+        [
+          "Alaska",
+          "2",
+          "0.3",
+          "Not in CDC's tables",
+          "[Ticks in Alaska](/blog/ticks-in-alaska)"
+        ],
+        [
+          "Arizona",
+          "16",
+          "0.2",
+          "0 of 15",
+          "[Ticks in Arizona](/blog/ticks-in-arizona)"
+        ],
+        [
+          "Arkansas",
+          "5",
+          "0.2",
+          "31 of 75",
+          "[Ticks in Arkansas](/blog/ticks-in-arkansas)"
+        ],
+        [
+          "California",
+          "109",
+          "0.3",
+          "0 of 58",
+          "[Ticks in California](/blog/ticks-in-california)"
+        ],
+        [
+          "Colorado",
+          "32",
+          "0.6",
+          "0 of 64",
+          "[Ticks in Colorado](/blog/ticks-in-colorado)"
+        ],
+        [
+          "Connecticut",
+          "3,239",
+          "89.9",
+          "9 of 9 planning regions",
+          "[Ticks in Connecticut](/blog/ticks-in-connecticut)"
+        ],
+        [
+          "Delaware",
+          "349",
+          "34.7",
+          "3 of 3",
+          "[Ticks in Delaware](/blog/ticks-in-delaware)"
+        ],
+        [
+          "Florida",
+          "271",
+          "1.2",
+          "55 of 67",
+          "[Ticks in Florida](/blog/ticks-in-florida)"
+        ],
+        [
+          "Georgia",
+          "18",
+          "0.2",
+          "39 of 159",
+          "[Ticks in Georgia](/blog/ticks-in-georgia)"
+        ],
+        [
+          "Hawaii",
+          "Not reportable",
+          "Not reportable",
+          "Not in CDC's tables",
+          "[Ticks in Hawaii](/blog/ticks-in-hawaii)"
+        ],
+        [
+          "Idaho",
+          "11",
+          "0.6",
+          "0 of 44",
+          "[Ticks in Idaho](/blog/ticks-in-idaho)"
+        ],
+        [
+          "Illinois",
+          "372",
+          "2.9",
+          "63 of 102",
+          "[Ticks in Illinois](/blog/ticks-in-illinois)"
+        ],
+        [
+          "Indiana",
+          "257",
+          "3.8",
+          "90 of 92",
+          "[Ticks in Indiana](/blog/ticks-in-indiana)"
+        ],
+        [
+          "Iowa",
+          "212",
+          "6.6",
+          "51 of 99",
+          "[Ticks in Iowa](/blog/ticks-in-iowa)"
+        ],
+        [
+          "Kansas",
+          "12",
+          "0.4",
+          "4 of 105",
+          "[Ticks in Kansas](/blog/ticks-in-kansas)"
+        ],
+        [
+          "Kentucky",
+          "120",
+          "2.7",
+          "50 of 120",
+          "[Ticks in Kentucky](/blog/ticks-in-kentucky)"
+        ],
+        [
+          "Louisiana",
+          "15",
+          "0.3",
+          "19 of 64",
+          "[Ticks in Louisiana](/blog/ticks-in-louisiana)"
+        ],
+        [
+          "Maine",
+          "2,942",
+          "213.4",
+          "16 of 16",
+          "[Ticks in Maine](/blog/ticks-in-maine)"
+        ],
+        [
+          "Maryland",
+          "2,470",
+          "40.0",
+          "22 of 24",
+          "[Ticks in Maryland](/blog/ticks-in-maryland)"
+        ],
+        [
+          "Massachusetts",
+          "9,715",
+          "138.9",
+          "14 of 14",
+          "[Ticks in Massachusetts](/blog/ticks-in-massachusetts)"
+        ],
+        [
+          "Michigan",
+          "1,152",
+          "11.5",
+          "56 of 83",
+          "[Ticks in Michigan](/blog/ticks-in-michigan)"
+        ],
+        [
+          "Minnesota",
+          "2,938",
+          "51.4",
+          "66 of 87",
+          "[Ticks in Minnesota](/blog/ticks-in-minnesota)"
+        ],
+        [
+          "Mississippi",
+          "4",
+          "0.1",
+          "40 of 82",
+          "[Ticks in Mississippi](/blog/ticks-in-mississippi)"
+        ],
+        [
+          "Missouri",
+          "16",
+          "0.3",
+          "23 of 115",
+          "[Ticks in Missouri](/blog/ticks-in-missouri)"
+        ],
+        [
+          "Montana",
+          "11",
+          "1.0",
+          "0 of 56",
+          "[Ticks in Montana](/blog/ticks-in-montana)"
+        ],
+        [
+          "Nebraska",
+          "5",
+          "0.3",
+          "3 of 93",
+          "[Ticks in Nebraska](/blog/ticks-in-nebraska)"
+        ],
+        [
+          "Nevada",
+          "14",
+          "0.4",
+          "0 of 17",
+          "[Ticks in Nevada](/blog/ticks-in-nevada)"
+        ],
+        [
+          "New Hampshire",
+          "1,573",
+          "113.4",
+          "10 of 10",
+          "[Ticks in New Hampshire](/blog/ticks-in-new-hampshire)"
+        ],
+        [
+          "New Jersey",
+          "7,224",
+          "77.9",
+          "21 of 21",
+          "[Ticks in New Jersey](/blog/ticks-in-new-jersey)"
+        ],
+        [
+          "New Mexico",
+          "11",
+          "0.5",
+          "0 of 33",
+          "[Ticks in New Mexico](/blog/ticks-in-new-mexico)"
+        ],
+        [
+          "New York",
+          "22,173",
+          "111.7",
+          "62 of 62",
+          "[Ticks in New York](/blog/ticks-in-new-york)"
+        ],
+        [
+          "North Carolina",
+          "228",
+          "2.2",
+          "63 of 100",
+          "[Ticks in North Carolina](/blog/ticks-in-north-carolina)"
+        ],
+        [
+          "North Dakota",
+          "15",
+          "1.9",
+          "7 of 53",
+          "[Ticks in North Dakota](/blog/ticks-in-north-dakota)"
+        ],
+        [
+          "Ohio",
+          "1,307",
+          "11.1",
+          "76 of 88",
+          "[Ticks in Ohio](/blog/ticks-in-ohio)"
+        ],
+        [
+          "Oklahoma",
+          "3",
+          "0.1",
+          "28 of 77",
+          "[Ticks in Oklahoma](/blog/ticks-in-oklahoma)"
+        ],
+        [
+          "Oregon",
+          "61",
+          "1.4",
+          "0 of 36",
+          "[Ticks in Oregon](/blog/ticks-in-oregon)"
+        ],
+        [
+          "Pennsylvania",
+          "16,671",
+          "128.1",
+          "67 of 67",
+          "[Ticks in Pennsylvania](/blog/ticks-in-pennsylvania)"
+        ],
+        [
+          "Rhode Island",
+          "2,852",
+          "260.0",
+          "5 of 5",
+          "[Ticks in Rhode Island](/blog/ticks-in-rhode-island)"
+        ],
+        [
+          "South Carolina",
+          "55",
+          "1.1",
+          "23 of 46",
+          "[Ticks in South Carolina](/blog/ticks-in-south-carolina)"
+        ],
+        [
+          "South Dakota",
+          "7",
+          "0.8",
+          "4 of 67",
+          "[Ticks in South Dakota](/blog/ticks-in-south-dakota)"
+        ],
+        [
+          "Tennessee",
+          "50",
+          "0.7",
+          "29 of 95",
+          "[Ticks in Tennessee](/blog/ticks-in-tennessee)"
+        ],
+        [
+          "Texas",
+          "27",
+          "0.1",
+          "28 of 254",
+          "[Ticks in Texas](/blog/ticks-in-texas)"
+        ],
+        [
+          "Utah",
+          "16",
+          "0.5",
+          "0 of 29",
+          "[Ticks in Utah](/blog/ticks-in-utah)"
+        ],
+        [
+          "Vermont",
+          "1,445",
+          "223.3",
+          "14 of 14",
+          "[Ticks in Vermont](/blog/ticks-in-vermont)"
+        ],
+        [
+          "Virginia",
+          "1,747",
+          "20.2",
+          "70 of 134",
+          "[Ticks in Virginia](/blog/ticks-in-virginia)"
+        ],
+        [
+          "Washington",
+          "25",
+          "0.3",
+          "0 of 39",
+          "[Ticks in Washington](/blog/ticks-in-washington)"
+        ],
+        [
+          "West Virginia",
+          "3,242",
+          "181.6",
+          "48 of 55",
+          "[Ticks in West Virginia](/blog/ticks-in-west-virginia)"
+        ],
+        [
+          "Wisconsin",
+          "6,283",
+          "106.9",
+          "61 of 72",
+          "[Ticks in Wisconsin](/blog/ticks-in-wisconsin)"
+        ],
+        [
+          "Wyoming",
+          "2",
+          "0.3",
+          "0 of 23",
+          "[Ticks in Wyoming](/blog/ticks-in-wyoming)"
+        ]
+      ],
+      "caption": "Lyme disease: confirmed and probable cases by state of residence, 2023, from [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html); Lyme disease is not reportable in Hawaii, according to [CDC's 2022 report](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm). Blacklegged ticks: [CDC ArboNET Tick Module, county status through Dec 31, 2025](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html); the county tables do not cover Alaska or Hawaii. Totals are the places in CDC's table, which counts Connecticut's nine planning regions, Virginia's independent cities and the former city of Bedford, and one South Dakota county twice, under two names."
+    },
+    {
+      "type": "h2",
+      "text": "How should you read tick and Lyme data by state?"
+    },
+    {
+      "type": "p",
+      "text": "Read the tick tables as a record of where ticks have been collected, and the case counts as a record of where patients live, with these limits:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Cases count where patients live.** CDC records each case in the patient's county of residence where known, which is not necessarily where the infection happened, as its [Lyme disease case maps](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) note.",
+        "**No record does not mean no ticks.** CDC's [tick surveillance data sets](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) call a county established when six or more ticks of one life stage, or more than one life stage, were collected there within 12 months, and reported when fewer than six of one life stage were. A county with no records may never have been sampled, or its results never reported.",
+        "**Established status only accumulates.** Once a county is established it stays established. CDC's American dog tick page adds that new records may reflect better surveillance rather than a change in where ticks live or how common they are.",
+        "**The tick tables come from the ArboNET Tick Module.** National tick surveillance began in 2018, and its records, along with older data, are collected in CDC's ArboNET Tick Module database, as [a 2024 study of that database](https://stacks.cdc.gov/view/cdc/159489) explains. The same study found that efforts to measure the density of blacklegged tick nymphs were unevenly spread, with the largest share of counties sampled in the Northeast and upper Midwest.",
+        "**The 2022 definition splits the Lyme record.** Since 2022, high-incidence states count cases on laboratory evidence alone, so compare 2022 and 2023 with each other rather than with earlier years, and allow for the COVID-19 gaps in 2019 and 2020."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite?"
+    },
+    {
+      "type": "p",
+      "text": "Take the tick off with clean, fine-tipped tweezers, grasping it as close to the skin as possible and pulling it away with steady, even pressure, without twisting or jerking, then clean the bite and your hands. That is [CDC's advice after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html), which also warns against petroleum jelly, heat, nail polish and similar remedies. [Our step-by-step tick removal guide](/blog/how-to-remove-tick-safely) has the details."
+    },
+    {
+      "type": "p",
+      "text": "Then watch your health. CDC says to see a doctor if a rash or fever develops within several days to weeks after removing a tick, and to tell the doctor about the bite, when it happened and where you most likely picked up the tick. [The early and late signs of Lyme disease](/blog/lyme-disease-symptoms-guide) explains what to watch for."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a healthcare provider if you feel ill",
+      "text": "A rash or fever in the days or weeks after a tick bite is a reason to see a doctor and mention the tick, CDC advises. This page summarizes public health data and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "Where can you find tick data by province?"
+    },
+    {
+      "type": "p",
+      "text": "Readers in Canada can use [ticks by province](/learn/ticks-by-province), the Canadian edition of this guide, which maps reported Lyme disease by province and links a page for each one. This page covers the 50 states only."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which state has the most Lyme disease?",
+      "answer": "It depends on the measure. New York reported the most cases in 2023, 22,173, followed by Pennsylvania with 16,671. Relative to population, Rhode Island was highest at 260 cases per 100,000 residents, ahead of Vermont and Maine. These CDC figures count cases where patients live, not necessarily where they were bitten. Because a revised case definition took effect in 2022, compare 2023 with 2022 rather than with earlier years."
+    },
+    {
+      "question": "Which state has the most ticks?",
+      "answer": "CDC's county tables, the national tick surveillance record, show whether a tick population is established in a county, not how many ticks live there. By that measure, blacklegged ticks are established in every county of 10 states from Delaware and Pennsylvania to Maine, Indiana has them in 90 of its 92 counties, and Texas has the most counties with established lone star ticks, 118. A county without a record may simply not have been sampled."
+    },
+    {
+      "question": "Are there ticks in Alaska and Hawaii?",
+      "answer": "CDC says none of the ticks it maps has naturally occurring populations in Alaska, and that the brown dog tick, which feeds mainly on dogs, does occur in Hawaii. Neither state is covered by CDC's county tick tables, which are limited to the lower 48 states and the District of Columbia. Alaska reported 2 Lyme disease cases in 2023, counted by where the patients live, and CDC's 2022 report lists Lyme disease as not reportable in Hawaii."
+    },
+    {
+      "question": "Why did Lyme disease cases jump in 2022 and 2023?",
+      "answer": "For 2022, CDC points to a change in counting. Under the case definition revised that year, high-incidence states may report cases on laboratory evidence alone, while low-incidence states still need clinical information. CDC's report on 2022, when 62,551 cases were reported nationally, says the increase likely reflects the new surveillance method rather than a change in risk. The 50 states then reported 89,360 cases in 2023. CDC cautions against detailed comparisons between these years and earlier ones."
+    },
+    {
+      "question": "Can you get Lyme disease outside the Northeast and upper Midwest?",
+      "answer": "Yes. In 2023 the 34 reporting states outside CDC's high-incidence list counted 4,497 cases between them, led by Ohio with 1,307 and Michigan with 1,152. Along the Pacific coast the western blacklegged tick spreads Lyme disease, and California reported 109 cases that year. Because cases are counted where patients live, some may have been infected while traveling, but blacklegged ticks are established well beyond the high-incidence states, from Florida to Texas and the Dakotas."
+    },
+    {
+      "question": "What does established mean on a CDC tick map?",
+      "answer": "CDC calls a county established when six or more ticks of a single life stage, or more than one life stage, were collected there within a 12-month period, and reported when fewer than six of a single life stage were collected. The status is cumulative, so an established county stays established. A county with no records should not be read as tick-free, because CDC says the gap can come from a lack of sampling, collection or reporting."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Where Ticks Live",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/about/where-ticks-live.html"
+    },
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "Lyme Disease Case Maps",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "American Dog Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html"
+    },
+    {
+      "title": "Western Blacklegged Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/western-blacklegged-tick-surveillance.html"
+    },
+    {
+      "title": "Density of host-seeking Ixodes scapularis nymphs by region, state, and county in the contiguous United States generated through national tick surveillance",
+      "publisher": "Ticks and Tick-borne Diseases (2024), via CDC Stacks",
+      "url": "https://stacks.cdc.gov/view/cdc/159489"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    }
+  ],
+  "disclaimer": "health"
+}

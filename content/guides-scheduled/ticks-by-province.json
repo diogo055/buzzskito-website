@@ -1,0 +1,314 @@
+{
+  "slug": "ticks-by-province",
+  "kind": "spoke",
+  "section": "learn",
+  "cluster": "ticks",
+  "locale": "en-CA",
+  "keyword": "ticks in canada by province",
+  "alsoTargets": [
+    "ticks by province",
+    "tick map canada",
+    "tick map by province"
+  ],
+  "metaTitle": "Ticks in Canada by Province: Map, Species, Tests",
+  "metaDescription": "Canada's ticks province by province: a map shaded by 2024 Lyme rates, each province's risk-area rules, photos of the main ticks and how tick testing works.",
+  "h1": "Ticks by Province: Canada’s Tick Map, Province by Province",
+  "dek": "A province-by-province map shaded by reported Lyme disease, how each province marks risk areas, photos of the main tick species, and how identification and testing work where you live.",
+  "breadcrumb": "Ticks by Province",
+  "excerpt": "Canada's ticks by province: a map shaded by 2024 Lyme rates, each province's risk-area rules, photos of the main ticks, and how tick identification and testing differ.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+  },
+  "quickAnswer": {
+    "lead": "**Every province has ticks, but reported Lyme disease rates differ more than a hundredfold between them.** In 2024, Nova Scotia reported 217 cases per 100,000 people, according to the [Public Health Agency of Canada](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html), while British Columbia, Alberta, Saskatchewan and Newfoundland and Labrador were each under 1 by our calculation. The map below links to a guide for each province.",
+    "bullets": [
+      "By our calculation from PHAC and Statistics Canada data, Ontario (14.7 per 100,000) and New Brunswick (13.0) followed Nova Scotia in 2024, and Ontario and Nova Scotia together reported about 81% of Canada's 5,809 cases.",
+      "PHAC lists blacklegged ticks as established in southern Manitoba, western, southern and southeastern Ontario, southern Quebec, mid to southern New Brunswick and Nova Scotia, and western blacklegged ticks in coastal and southern interior British Columbia.",
+      "Each province marks risk its own way: Nova Scotia treats the whole province as higher risk, New Brunswick uses health zones, Quebec lists municipalities and Manitoba uses the 53rd parallel.",
+      "eTick names a tick from a photo free of charge but does not test it for germs, and lab testing of ticks exists in only some provinces.",
+      "PHAC revised its Lyme case definition in 2016 and 2024, and Nova Scotia changed its own in 2023, so compare years with care."
+    ]
+  },
+  "facts": {
+    "title": "Ticks by province at a glance",
+    "rows": [
+      ["Highest provincial Lyme rate, 2024", "Nova Scotia, 217 per 100,000 (PHAC)"],
+      ["Most reported cases, 2024", "Ontario 2,369; Nova Scotia 2,350"],
+      ["Provinces under 1 case per 100,000, 2024", "British Columbia, Alberta, Saskatchewan, Newfoundland and Labrador (our calculation)"],
+      ["Canada, 2024", "5,809 cases, 14.1 per 100,000 (PHAC)"],
+      ["Ticks that can spread Lyme disease", "Blacklegged tick; western blacklegged tick (British Columbia)"],
+      ["Established blacklegged tick areas (PHAC, August 2026)", "Southern Manitoba; western, southern and southeastern Ontario; southern Quebec; mid to southern New Brunswick; Nova Scotia"],
+      ["How provinces mark risk", "Whole province (NS), health zones (NB), municipalities (QC), 53rd parallel for antibiotics (MB), established risk areas (ON), modelled map (BC)"],
+      ["Free photo identification", "eTick, usually within 1 to 2 business days; no germ testing"],
+      ["Lab testing of ticks", "Only in some provinces, such as Alberta (when eTick asks for the tick) and Saskatchewan (when researchers ask for it)"],
+      ["Data through", "Cases: December 31, 2024 (PHAC, updated January 2026); provincial rules: October 2026"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What does the province map show?" },
+    { "type": "p", "text": "It shades each province and territory by its rate of reported Lyme disease in 2024, the latest full year in the [Public Health Agency of Canada (PHAC) annual report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html). We divided PHAC's 2024 counts by [Statistics Canada's July 1, 2024 population estimates](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901): Nova Scotia's rate was 217.5 per 100,000 people, about 15 times the national 14.1. Ontario (14.7) and New Brunswick (13.0) came next, then Quebec (9.3) and Manitoba (5.6). Every province west of Manitoba was under 1 per 100,000." },
+    {
+      "type": "map",
+      "scope": "canada",
+      "title": "Reported Lyme disease cases per 100,000 people by province and territory, 2024",
+      "categories": [
+        { "key": "100plus", "label": "100 or more" },
+        { "key": "10to99", "label": "10 to 99" },
+        { "key": "1to9", "label": "1 to 9.9" },
+        { "key": "under1", "label": "Under 1" }
+      ],
+      "values": {
+        "NS": "100plus",
+        "ON": "10to99",
+        "NB": "10to99",
+        "QC": "1to9",
+        "MB": "1to9",
+        "PE": "1to9",
+        "AB": "under1",
+        "NL": "under1",
+        "BC": "under1",
+        "SK": "under1",
+        "YT": "under1",
+        "NT": "under1",
+        "NU": "under1"
+      },
+      "links": {
+        "BC": "/blog/ticks-in-british-columbia",
+        "AB": "/blog/ticks-in-alberta",
+        "SK": "/blog/ticks-in-saskatchewan",
+        "MB": "/blog/ticks-in-manitoba",
+        "ON": "/blog/what-ticks-look-like-ontario",
+        "QC": "/blog/ticks-in-quebec",
+        "NB": "/blog/ticks-in-new-brunswick",
+        "NS": "/blog/ticks-in-nova-scotia",
+        "PE": "/blog/ticks-in-prince-edward-island",
+        "NL": "/blog/ticks-in-newfoundland-and-labrador"
+      },
+      "caption": "Rates are BuzzSkito's calculation: PHAC's 2024 counts of confirmed and probable cases divided by Statistics Canada's July 1, 2024 population estimates. The method reproduces PHAC's national rate of 14.1 and gives 217.5 for Nova Scotia, where PHAC reports 217. Counts include people infected while travelling, and small provinces swing sharply: Prince Edward Island's rate rests on four cases. The three territories reported no cases.",
+      "source": "[PHAC annual report on tick-borne disease surveillance](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html) (cases, data through December 31, 2024); adapted from [Statistics Canada, Table 17-10-0009-01, Population estimates, quarterly](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901), released September 23, 2026. This does not constitute an endorsement by Statistics Canada."
+    },
+    { "type": "p", "text": "Rates matter because counts follow population. Ontario (2,369 cases) and Nova Scotia (2,350) reported almost the same number in 2024, together about 81% of the national total, but Ontario has about 15 times as many people. Read the map with three cautions. A province's count includes residents infected elsewhere: [Alberta](https://www.alberta.ca/lyme-disease-tick-surveillance) says all 184 cases reported there from 1991 to 2023 were acquired while travelling outside the province. Small provinces swing from year to year, as Prince Edward Island's four cases show. And PHAC estimates that only about 3% of 2024 cases with a recorded travel history were likely acquired outside Canada." },
+    { "type": "p", "text": "Each province on the map links to its own guide, and so does the table in the next section. Reading from the United States? The US edition covers [ticks and Lyme disease state by state](/learn/ticks-by-state)." },
+
+    { "type": "h2", "text": "How does each province track ticks and mark risk areas?" },
+    { "type": "p", "text": "Each province decides for itself what counts as a risk area, and the units differ: Nova Scotia treats the whole province as higher risk, New Brunswick uses health zones, Quebec lists municipalities, and Manitoba draws a line at the 53rd parallel for preventive-antibiotic decisions. None of these is a map of every place a tick can live." },
+    {
+      "type": "table",
+      "head": ["Province or territory", "Lyme cases, 2024", "Cases per 100,000, 2024 (our calculation)", "How it marks risk areas (as of October 2026)"],
+      "rows": [
+        ["[British Columbia](/blog/ticks-in-british-columbia)", "21", "0.4", "[BCCDC's online risk map](https://maps.bccdc.ca/lyme/) shows where ticks able to carry the Lyme bacterium are known to live or could live, modelled from tick finds and climate and vegetation data; BCCDC rates the risk as low."],
+        ["[Alberta](/blog/ticks-in-alberta)", "31", "0.6", "Rates the risk of Lyme disease from a tick bite in Alberta as very low and points to the federal government for risk-area information."],
+        ["[Saskatchewan](/blog/ticks-in-saskatchewan)", "2", "0.2", "No established blacklegged tick populations found; [Saskatchewan](https://www.saskatchewan.ca/residents/health/diseases-and-conditions/lyme-disease) calls the Lyme risk very low but not zero."],
+        ["[Manitoba](/blog/ticks-in-manitoba)", "84", "5.6", "Risk areas where surveillance has found established blacklegged ticks; for preventive-antibiotic decisions, [Manitoba](https://www.gov.mb.ca/health/publichealth/diseases/lyme.html) treats all of southern Manitoba, south of the 53rd parallel, as a risk location."],
+        ["[Ontario](/blog/what-ticks-look-like-ontario)", "2,369", "14.7", "[Public Health Ontario](https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool) publishes blacklegged tick established risk areas; its 2026 map adds newly identified or expanded areas from 2025 data."],
+        ["[Quebec](/blog/ticks-in-quebec)", "834", "9.3", "[INSPQ](https://www.inspq.qc.ca/zoonoses/tiques/zone-d-endemicite-maladie-de-lyme) lists the municipalities in its Lyme endemic zone, redefined in 2026 and due for its next update in 2029; the same zone guides preventive treatment."],
+        ["[New Brunswick](/blog/ticks-in-new-brunswick)", "111", "13.0", "[Risk areas by health zone](https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/vectorborne_andzoonotic/tick-borne-diseases.html), based on provincial tick surveillance; the page's data are updated on the 15th of each month."],
+        ["[Nova Scotia](/blog/ticks-in-nova-scotia)", "2,350", "217.5", "[The whole province](https://novascotia.ca/dhw/cdpc/lyme.asp) is considered higher risk; the estimated risk-areas map on that page, dated July 2023, puts all 18 counties in the higher category."],
+        ["[Prince Edward Island](/blog/ticks-in-prince-edward-island)", "4", "2.2", "Not on PHAC's list of areas with established blacklegged ticks; all 51 of its blacklegged tick records in PHAC's 2022 count came from eTick photos."],
+        ["[Newfoundland and Labrador](/blog/ticks-in-newfoundland-and-labrador)", "3", "0.6", "Not on PHAC's list of established blacklegged tick areas; [the province](https://www.gov.nl.ca/fal/programs-and-funding/programs/animals/health/lymedisease/) says it has fewer ticks than many parts of North America and lists where *Ixodes* ticks were found from 2001 to 2015."],
+        ["Territories (Yukon, Northwest Territories, Nunavut)", "0", "0", "None on PHAC's list of established areas; 2 western blacklegged ticks were reported from Yukon in 2022."]
+      ],
+      "caption": "Cases: confirmed and probable, from the [PHAC annual report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html), data through December 31, 2024. Rates: BuzzSkito's calculation with [Statistics Canada's July 1, 2024 estimates](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901). Established tick areas: [PHAC's guide to ticks in Canada](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html). Tick records for 2022: [PHAC's tick surveillance report](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2022.html)."
+    },
+    { "type": "p", "text": "A risk area marks where the chance of meeting an infected tick is highest, not the edge of tick country. [Manitoba](https://www.gov.mb.ca/health/publichealth/diseases/lyme.html) says the likelihood of encountering blacklegged ticks is significantly lower outside its risk areas, [New Brunswick](https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/vectorborne_andzoonotic/tick-borne-diseases.html) says a bite is possible anywhere in the province, and [Quebec's public health institute (INSPQ)](https://www.inspq.qc.ca/zoonoses/tiques/zone-d-endemicite-maladie-de-lyme) says ticks and Lyme disease remain possible outside its endemic zone because migrating birds can carry ticks there." },
+    { "type": "p", "text": "Ontario's established risk areas sit in Public Health Ontario's online tool, which we link to rather than redraw. For the province in detail, see [our Ontario tick statistics](/ticks-in-ontario-statistics), including the share of ticks that carry the Lyme bacterium, and [the 2026 Ontario Lyme disease tracker](/ontario-lyme-disease-tracker-2026)." },
+
+    { "type": "h2", "text": "Why do Lyme case numbers jump from year to year?" },
+    { "type": "p", "text": "Partly because the counting rules changed. [PHAC's Lyme disease monitoring page](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html) shows national counts rising from 144 in 2009 to 5,809 in 2024, with a preliminary 7,105 for 2025 that may still change; [our Canadian Lyme disease statistics](/lyme-disease-canada-statistics) cover the national trend in detail. PHAC revised the national case definition in 2016 and again in 2024 and warns that the updates may have affected the counts." },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Canada by year, 2009 to 2024",
+      "x": ["2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "series": [
+        { "name": "Reported cases", "values": [144, 143, 266, 338, 682, 522, 917, 992, 2025, 1487, 2634, 1617, 3147, 2525, 4785, 5809] }
+      ],
+      "yLabel": "Cases reported per year, all provinces and territories",
+      "caption": "PHAC revised the national case definition in 2016 and 2024 and says the changes may have affected the counts. Nova Scotia also broadened its own definition in 2023. Counts include travel-related cases. PHAC's preliminary figure for 2025, 7,105, is not charted. Data through 2024, the latest full year as of October 2026.",
+      "source": "[PHAC, Lyme disease: Monitoring](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html), page dated July 27, 2026"
+    },
+    { "type": "p", "text": "Provincial rules matter as well. Nova Scotia widened its own definition in 2023 to include laboratory-confirmed cases that do not meet clinical criteria, which PHAC says partly explains that province's rise; under the 2024 national definition, those cases count as probable. In 2024, half of the national cases were confirmed and half probable, so compare provinces and years with these changes in mind." },
+
+    { "type": "h2", "text": "What do Canada's main ticks look like, and what can they carry?" },
+    { "type": "p", "text": "Several ticks bite people in Canada, but [PHAC's guide to ticks in Canada](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html) names only two that can spread Lyme disease: the blacklegged (deer) tick and, in British Columbia, the western blacklegged tick. The others carry different germs. For a region-by-region answer to whether ticks live near you, see [where ticks are found in Canada](/blog/are-there-ticks-in-canada)." },
+    {
+      "type": "table",
+      "head": ["Tick", "Where PHAC says it is established", "What PHAC says it can spread"],
+      "rows": [
+        ["Blacklegged (deer) tick, *Ixodes scapularis*", "Southern Manitoba; western, southern and southeastern Ontario; southern Quebec; mid to southern New Brunswick; Nova Scotia", "Lyme disease, anaplasmosis, babesiosis, Powassan virus disease, *Borrelia miyamotoi* disease"],
+        ["Western blacklegged tick, *Ixodes pacificus*", "Coastal and southern interior British Columbia", "Lyme disease, anaplasmosis, *Borrelia miyamotoi* disease"],
+        ["American dog tick, *Dermacentor variabilis*", "Parts of south-central and southeastern Canada", "Tularemia, Rocky Mountain spotted fever"],
+        ["Rocky Mountain wood tick, *Dermacentor andersoni*", "Alberta, British Columbia and some western areas of Saskatchewan", "Tularemia, Rocky Mountain spotted fever"],
+        ["Groundhog tick, *Ixodes cookei*", "South-central and southeastern Canada", "Powassan virus disease"],
+        ["Lone star tick, *Amblyomma americanum*", "Not listed as established; found in southern Alberta, Manitoba, Nova Scotia, Ontario, Quebec and Saskatchewan", "Tularemia, ehrlichiosis, Bourbon and Heartland virus diseases; bites linked to alpha-gal syndrome"]
+      ],
+      "caption": "Source: [PHAC, Ticks in Canada](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html), page dated August 2026. Ticks also turn up outside these areas: PHAC says some are carried in from outside Canada by migrating birds and deer."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-female.webp",
+      "width": 1200,
+      "height": 775,
+      "alt": "Adult female blacklegged tick on a green blade of grass, with a dark shield behind the head, dark legs and a reddish-orange body",
+      "caption": "Adult female blacklegged (deer) tick, one of the two ticks PHAC lists as able to spread Lyme disease in Canada.",
+      "credit": "CDC/ Michael L. Levin, PhD; photo: Jim Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1669"
+    },
+    { "type": "p", "text": "Blacklegged ticks also turn up outside their established areas, because migrating birds carry ticks; [Alberta](https://www.alberta.ca/lyme-disease-tick-surveillance) says birds bring ticks into that province each spring. To tell a blacklegged tick from the bigger, mottled dog tick, see [our deer tick versus dog tick guide](/blog/deer-tick-vs-dog-tick-canada)." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/western-blacklegged-tick-female.webp",
+      "width": 1200,
+      "height": 1541,
+      "alt": "Adult female western blacklegged tick seen from above on a black background, with a dark brown shield behind the head, a reddish-brown body and long legs",
+      "caption": "Adult female western blacklegged tick, the Lyme carrier of coastal and southern interior British Columbia.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8687"
+    },
+    { "type": "p", "text": "The western blacklegged tick is British Columbia's Lyme carrier, and few of these ticks carry the bacterium: [BCCDC's risk map](https://maps.bccdc.ca/lyme/), in an undated note, puts the province's tick infection rate at 0.2%, against 40% in the northeastern United States, and its Lyme risk at under 0.5 cases per 100,000 people. In 2022, 909 of the 911 western blacklegged ticks submitted through passive surveillance in Canada came from British Columbia and 2 from Yukon, and 7 of the 624 that BCCDC tested (1.1%) carried the Lyme bacterium, according to [PHAC's tick surveillance report](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2022.html)." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. Its pale, mottled shield sets it apart from the plain dark shield of a blacklegged tick.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    { "type": "p", "text": "The American dog tick is established in parts of south-central and southeastern Canada and can spread tularemia and Rocky Mountain spotted fever, but PHAC does not list it as a Lyme carrier. In [Saskatchewan](https://www.saskatchewan.ca/residents/health/diseases-and-conditions/lyme-disease) it is the tick people meet most: the province says about 95 per cent of ticks found there are American dog ticks, which cannot transmit Lyme disease. For identification tips, see [our American dog tick guide](/blog/american-dog-tick-canada)." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/rocky-mountain-wood-tick-female.webp",
+      "width": 1200,
+      "height": 807,
+      "alt": "Adult female Rocky Mountain wood tick on a green plant stem, with a cream-coloured shield behind the head, a dark red body and reddish legs",
+      "caption": "Adult female Rocky Mountain wood tick, established in Alberta, British Columbia and parts of western Saskatchewan.",
+      "credit": "CDC/ Dr. Christopher Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10865"
+    },
+    { "type": "p", "text": "The Rocky Mountain wood tick is established in Alberta, British Columbia and some western areas of Saskatchewan, and PHAC links it to the same two diseases as the American dog tick. Saskatchewan also lists the winter tick, or moose tick, among the ticks found in the province." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/groundhog-tick.webp",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Engorged female groundhog tick on a wooden surface, with a swollen pale grey body, a small dark brown shield and dark reddish-brown legs",
+      "caption": "An engorged female groundhog tick. PHAC lists it as a carrier of the virus behind Powassan virus disease.",
+      "credit": "(c) adamfritz, some rights reserved (CC BY), via iNaturalist",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://www.inaturalist.org/observations/168811425"
+    },
+    { "type": "p", "text": "The groundhog tick is established in south-central and southeastern Canada and can transmit the virus that causes Powassan virus disease. PHAC lists one more Powassan carrier, the squirrel tick, found in the southern regions of New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, Prince Edward Island and Quebec. It also says the brown dog tick is not found in natural outdoor settings in Canada but has been reported in kennels and indoor places with dogs." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick, named for the white dot on its back. PHAC lists it as found in six provinces, not as established.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    { "type": "p", "text": "PHAC does not list the lone star tick as established anywhere in Canada. It says lone star ticks have been found in southern Alberta, Manitoba, Nova Scotia, Ontario, Quebec and Saskatchewan, and that ticks from outside Canada arrive on migrating birds and deer, so treat this one as an occasional traveller. PHAC links its bite to alpha-gal syndrome, a red meat allergy, covered in [our lone star tick and alpha-gal guide](/blog/lone-star-tick-alpha-gal-canada)." },
+
+    { "type": "h2", "text": "How do you get a tick identified or tested in your province?" },
+    { "type": "p", "text": "Start with a photo, then expect the next step to depend on your province. [eTick](https://www.etick.ca/en/content/faqs) identifies ticks from photos free of charge and aims to reply within one to two business days. Its FAQ says a mailed tick will not be tested for Lyme disease; when it asks for the tick itself, the reason is mostly to confirm the identification, and the sender pays the postage." },
+    { "type": "p", "text": "Not every province handles the tick itself. In PHAC's latest national tick report, for 2022, only British Columbia, Ontario and Quebec reported physical ticks; every record from the other seven provinces came from eTick photos, although Saskatchewan also tested seven ticks first reported through eTick. The same PHAC surveillance report adds that ticks submitted through eTick were not routinely tested for germs and that ticks submitted to Public Health Ontario were not tested for germs. Province by province, as of October 2026:" },
+    {
+      "type": "ul",
+      "items": [
+        "**British Columbia.** About two-thirds of the province's 2022 tick records were physical ticks (628 of 912), and BCCDC tested its western blacklegged ticks for the Lyme bacterium, according to the PHAC report.",
+        "**Alberta.** Send a photo to eTick first. If eTick asks for the tick, mail or drop it off with the provincial form; Alberta Precision Laboratories tests it for the Lyme bacterium only. [Alberta](https://www.alberta.ca/lyme-disease-tick-surveillance) says the photo answer typically comes within 2 business days and the lab result by mail within 2 to 3 weeks, and asks you to keep the tick in a sealed container for at least 10 days.",
+        "**Saskatchewan.** Photos go through eTick to researchers at the University of Saskatchewan, who may ask you to mail the tick. Since 2009, [the province](https://www.saskatchewan.ca/residents/health/diseases-and-conditions/lyme-disease) has had 166 blacklegged ticks mailed in for testing, and 19 tested positive for the Lyme bacterium.",
+        "**Manitoba.** [The province's Lyme page](https://www.gov.mb.ca/health/publichealth/diseases/lyme.html) sends residents to eTick for identification and does not describe a tick-testing service for the public.",
+        "**Ontario.** In 2022, Ontario's records were split between physical ticks sent to Public Health Ontario (2,211) and eTick photos (2,127), and the PHO ticks were not tested for germs. [Our Ontario tick identification guide](/blog/what-ticks-look-like-ontario) covers the province's species.",
+        "**Quebec.** Quebec's 2022 records were also split, 778 physical ticks and 851 eTick photos, and the ticks submitted through INSPQ were tested for four germs, including the Lyme bacterium, as part of surveillance.",
+        "**New Brunswick.** [The province](https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/vectorborne_andzoonotic/tick-borne-diseases.html) points residents to eTick and says that testing a tick that has bitten someone does not help guide the diagnosis.",
+        "**Nova Scotia.** [The province](https://novascotia.ca/dhw/cdpc/lyme.asp) directs residents to eTick for identification.",
+        "**Prince Edward Island.** All 51 blacklegged tick records from the province in 2022 came through eTick photos, the PHAC report shows.",
+        "**Newfoundland and Labrador.** [The province's animal health program](https://www.gov.nl.ca/fal/programs-and-funding/programs/animals/health/lymedisease/) says it tests *Ixodes* ticks, the group that includes the blacklegged tick, for the germs that cause Lyme disease and anaplasmosis, and its page links a form for submitting ticks. The results it publishes end in 2015, and all 12 of the province's 2022 records in the PHAC report came from eTick photos."
+      ]
+    },
+    { "type": "p", "text": "A tick result is not a diagnosis. [Alberta](https://www.alberta.ca/lyme-disease-tick-surveillance) says a health care provider does not need the tick to make a diagnosis, and [New Brunswick](https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/vectorborne_andzoonotic/tick-borne-diseases.html) says testing a tick that has bitten someone does not help guide it. What a tick can tell you is its species, which is why a clear photo is worth taking before the tick is thrown away." },
+
+    { "type": "h2", "text": "When are ticks active in Canada?" },
+    { "type": "p", "text": "Whenever it is mild. [PHAC](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html) says ticks can be active whenever the temperature stays above freezing (0 °C) and the ground is free of snow, so most encounters happen in spring, summer and fall, although favourable conditions can bring ticks out at any time of year. [Manitoba](https://www.gov.mb.ca/health/publichealth/diseases/lyme.html) puts its highest-risk period at May to July, when blacklegged tick nymphs are most active." },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-nymph-fingernail.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "Tiny blacklegged tick nymph crawling on a fingertip next to the fingernail, showing how small the nymph stage is",
+      "caption": "A blacklegged tick nymph on a fingertip. Manitoba says its highest-risk period, May to July, matches the peak of nymph activity.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28382"
+    },
+    { "type": "p", "text": "Lyme disease follows the same calendar. In 2024, among cases with a known onset date, symptoms began in June for 28%, in July for 26% and in August for 13%, according to [PHAC's annual report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html); among locally acquired cases with a known onset date, about 67% began in those three summer months." },
+
+    { "type": "h2", "text": "Which other tick-borne diseases does Canada track?" },
+    { "type": "p", "text": "Three more became nationally notifiable in January 2024: anaplasmosis, babesiosis and Powassan virus disease. For that year, [PHAC's annual report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html) counted 673 anaplasmosis cases, a rate of 1.63 per 100,000, with Nova Scotia reporting 69% and Ontario 24%. It counted 10 babesiosis cases, from Manitoba, Ontario, Quebec, New Brunswick and Nova Scotia, and 3 cases of Powassan virus disease, from Quebec and Ontario." },
+    { "type": "p", "text": "Each germ travels with particular ticks. PHAC's [species guide](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html) ties anaplasmosis, babesiosis and Powassan virus disease to the blacklegged tick, Powassan virus also to the groundhog and squirrel ticks, and tularemia and Rocky Mountain spotted fever to the American dog tick and the Rocky Mountain wood tick. For what an infection can look like, see [the early and late symptoms of Lyme disease](/blog/lyme-disease-symptoms-guide)." },
+
+    { "type": "h2", "text": "What should you do after a tick bite in Canada?" },
+    { "type": "p", "text": "Remove the tick as soon as you find it, photograph it for identification, note where you picked it up and watch your health for the next month. [Alberta](https://www.alberta.ca/lyme-disease-tick-surveillance) says removing a tick within 24 hours can greatly reduce the chance of getting Lyme disease, and [our tick removal guide](/blog/how-to-remove-tick-safely) walks through the steps." },
+    { "type": "p", "text": "Whether a preventive antibiotic is offered depends on where the bite happened, and each province sets its own rules:" },
+    {
+      "type": "ul",
+      "items": [
+        "**Manitoba** asks providers to consider one when four conditions are met: the tick is reliably identified as a blacklegged tick, it was attached for at least 36 hours or was engorged, it was picked up south of the 53rd parallel or in another known risk area, and the person has no known allergy to doxycycline, according to [Manitoba's Lyme disease page](https://www.gov.mb.ca/health/publichealth/diseases/lyme.html).",
+        "**Quebec** ties preventive treatment to its endemic zone: [INSPQ](https://www.inspq.qc.ca/zoonoses/tiques/zone-d-endemicite-maladie-de-lyme) says the area where it applies matches the zone, and regional public health departments can add areas.",
+        "**Nova Scotia** lets a pharmacist or a primary care provider assess whether you need medication to prevent Lyme disease, and since May 1, 2024, [pharmacists can also assess and prescribe treatment for early Lyme disease](https://novascotia.ca/dhw/cdpc/lyme.asp)."
+      ]
+    },
+    { "type": "p", "text": "For advice by phone, Albertans can call [Health Link at 811](https://www.alberta.ca/lyme-disease-tick-surveillance), and Manitobans can call [Health Links–Info Santé](https://www.gov.mb.ca/health/publichealth/diseases/lyme.html) at 204-788-8200 or 1-888-315-9257." },
+    { "type": "callout", "tone": "warning", "title": "See a health care provider if you feel unwell", "text": "A rash, fever or flu-like symptoms within 30 days of a tick bite are a reason to see a health care provider and mention the bite. This page summarizes what public health agencies publish and is not a diagnosis." }
+  ],
+  "faqs": [
+    {
+      "question": "Why does the map use rates instead of case counts?",
+      "answer": "Because case counts mostly follow population. Ontario and Nova Scotia reported almost the same number of Lyme disease cases in 2024, 2,369 and 2,350, but Ontario has about 15 times as many people, so a Nova Scotia resident was far more likely to be a reported case. The rates are our calculation from PHAC's counts and Statistics Canada's population estimates, and they closely match PHAC's own figures of 14.1 per 100,000 for Canada and 217 for Nova Scotia."
+    },
+    {
+      "question": "Which provinces test ticks for Lyme disease?",
+      "answer": "Only some, and a tick result does not diagnose you. In Alberta, the provincial lab tests a tick for the Lyme bacterium when eTick asks for it. Saskatchewan researchers may ask for a tick by mail, and Newfoundland and Labrador's animal health program says it tests Ixodes ticks for the Lyme and anaplasmosis germs, though its published results end in 2015. In 2022, ticks sent to the public health labs in British Columbia and Quebec were tested for surveillance, while Public Health Ontario's were not. Elsewhere, identification runs through eTick photos."
+    },
+    {
+      "question": "Does eTick test ticks for Lyme disease?",
+      "answer": "No. eTick identifies ticks from photos free of charge and aims to reply within one to two business days, but its FAQ says a mailed tick will not be tested for Lyme disease. When it asks for a tick to be mailed, the reason is mostly to confirm the identification, and the sender pays the postage. Knowing the species still helps: PHAC names only the blacklegged tick and the western blacklegged tick as able to spread Lyme disease in Canada."
+    },
+    {
+      "question": "Can you get Lyme disease outside a province's risk areas?",
+      "answer": "It is less likely but possible. Manitoba says the chance of encountering blacklegged ticks is significantly lower outside its risk areas, New Brunswick says a bite is possible anywhere in the province, and Quebec's public health institute says ticks and Lyme disease remain possible outside its endemic zone because migrating birds can carry ticks there. Take any tick bite seriously, note where it happened, and see a health care provider if a rash or fever follows."
+    },
+    {
+      "question": "Should I keep a tick after it bites me?",
+      "answer": "Keep it, or at least photograph it, until you know what it is. Alberta asks people who send a photo to eTick to keep the tick in a sealed container for at least 10 days in case more photos are needed to identify it, and eTick sometimes asks for a tick to confirm an identification. Your own care does not depend on the tick: Alberta says a health care provider does not need it to make a diagnosis, so see one if you feel unwell."
+    }
+  ],
+  "sources": [
+    { "title": "Annual report: Tick-borne disease surveillance in Canada (2024 data)", "publisher": "Public Health Agency of Canada, Health Infobase", "url": "https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html" },
+    { "title": "Lyme disease: Monitoring", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html" },
+    { "title": "Population estimates, quarterly (Table 17-10-0009-01)", "publisher": "Statistics Canada", "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901" },
+    { "title": "Ticks in Canada", "publisher": "Public Health Agency of Canada", "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html" },
+    { "title": "Surveillance for Ixodes scapularis and Ixodes pacificus ticks and their associated pathogens in Canada, 2022", "publisher": "Canada Communicable Disease Report 52(1/2), Public Health Agency of Canada, February 2026 (CC BY 4.0)", "url": "https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2022.html" },
+    { "title": "eTick: Frequently asked questions", "publisher": "eTick.ca (public tick identification platform; Bishop's University and partners)", "url": "https://www.etick.ca/en/content/faqs" },
+    { "title": "Lyme disease and tick surveillance", "publisher": "Government of Alberta", "url": "https://www.alberta.ca/lyme-disease-tick-surveillance" },
+    { "title": "Lyme Disease", "publisher": "Government of Saskatchewan", "url": "https://www.saskatchewan.ca/residents/health/diseases-and-conditions/lyme-disease" },
+    { "title": "Lyme Disease", "publisher": "Manitoba Health, Public Health", "url": "https://www.gov.mb.ca/health/publichealth/diseases/lyme.html" },
+    { "title": "Lyme Risk Areas in BC", "publisher": "BC Centre for Disease Control", "url": "https://maps.bccdc.ca/lyme/" },
+    { "title": "Ontario Vector-Borne Disease Tool", "publisher": "Public Health Ontario", "url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/vbd-tool" },
+    { "title": "Zone d'endémicité de la maladie de Lyme au Québec et des secteurs visés par la prophylaxie postexposition (in French)", "publisher": "Institut national de santé publique du Québec (INSPQ)", "url": "https://www.inspq.qc.ca/zoonoses/tiques/zone-d-endemicite-maladie-de-lyme" },
+    { "title": "Be Tick Smart", "publisher": "Government of New Brunswick, Office of the Chief Medical Officer of Health", "url": "https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/vectorborne_andzoonotic/tick-borne-diseases.html" },
+    { "title": "Communicable Diseases: Lyme Disease", "publisher": "Nova Scotia Department of Health and Wellness", "url": "https://novascotia.ca/dhw/cdpc/lyme.asp" },
+    { "title": "Ticks and Lyme Disease", "publisher": "Government of Newfoundland and Labrador, Department of Forestry, Agriculture and Lands", "url": "https://www.gov.nl.ca/fal/programs-and-funding/programs/animals/health/lymedisease/" }
+  ],
+  "disclaimer": "health"
+}
