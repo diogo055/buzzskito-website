@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-new-hampshire",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "fe8c6799be5e785c835be9228dcd3e6e7b7a192c8dd256e96ad2abfa26aaf5a9",
+ "claimsChecked": 330,
+ "claimsCorrected": 12,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-15"
+}
