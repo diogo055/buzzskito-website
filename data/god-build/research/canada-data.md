@@ -28,7 +28,9 @@ citing it. Licence lines are what each source asks for.
 - NS: county risk map PDF (labelled July 2023; file 2025-09-24); the page says all of NS is
   higher risk. Resolve the conflict in the text.
 - NB: risk by health zone (map refreshed monthly); open tick dataset 2019-2025 (gnb.socrata.com
-  kwzw-w4dh, OGL-NB): 1,767 ticks mailed in, species, stage, 9 pathogens, health unit.
+  kwzw-w4dh, OGL-NB): 947 ticks mailed in (the file has 1,767 rows, but rows 820-1639 repeat
+  rows 0-819; found Oct 15), species, stage, 9 pathogens, health unit. The ticks were sent to
+  Geneticks and Mount Allison University, so they are not provincial surveillance.
 - QC: INSPQ endemic-zone municipal list (2026; next update 2029); widened in 2026, not
   comparable year on year. Historical CSV of municipalities with established ticks 2009-2021
   (Données Québec, CC BY).
