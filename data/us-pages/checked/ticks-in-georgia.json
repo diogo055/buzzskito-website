@@ -2,9 +2,9 @@
  "id": "ticks-in-georgia",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "62cefc4a17efc4718ef7e32ad0fc9c315d7e62cce500c5c2b6147ba3c5de1c18",
+ "sha": "30a905e84c713b1cb8a2c6e393c8fb61781b7c1b273f7d85b700be19f4a32a8f",
  "claimsChecked": 175,
- "claimsCorrected": 3,
+ "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 3,
  "checkedOn": "2026-10-15"
 }

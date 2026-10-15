@@ -2,9 +2,9 @@
  "id": "ticks-in-indiana",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "59123891e7baa8d005f62a2bfcf4084654c5a8e663c6d7832537a6ba1076827d",
+ "sha": "8edb3ef0ef4c29225c4d4cd12637ae72b43073b5e937fc6d2fc02d3a69894199",
  "claimsChecked": 280,
- "claimsCorrected": 6,
+ "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 6,
  "checkedOn": "2026-10-15"
 }

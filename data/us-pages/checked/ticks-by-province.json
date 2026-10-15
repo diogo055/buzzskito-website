@@ -2,9 +2,9 @@
  "id": "ticks-by-province",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "139976213785618ea4952b50ebe0d59924cd1d578f770e9af98deaadfcc5f780",
+ "sha": "66814b4e301843b04318772174f6e7bfd4483eb35edf7d3d82f55ca3f8a3e050",
  "claimsChecked": 378,
- "claimsCorrected": 12,
+ "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 6,
  "checkedOn": "2026-10-15"
 }

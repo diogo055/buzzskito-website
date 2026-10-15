@@ -2,9 +2,9 @@
  "id": "ticks-in-vermont",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "cf9a4e24be1b2c1f0ff595dffd54b16c33d7ded03cf09322ac00a9d4b376ee33",
+ "sha": "4e24e551de424b561805b02baf51d7cc0349e443a3a0d07edb09ddc3c5ea4212",
  "claimsChecked": 480,
- "claimsCorrected": 6,
+ "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 7,
  "checkedOn": "2026-10-15"
 }

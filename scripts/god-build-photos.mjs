@@ -38,7 +38,7 @@ const PHOTOS = [
   ['brown-dog-tick-male', 'Brown dog tick, Rhipicephalus sanguineus, adult male', { phil: 31722 }],
   ['asian-longhorned-tick-female', 'Asian longhorned tick, Haemaphysalis longicornis, adult female', { phil: 22886 }],
   ['asian-longhorned-tick-on-dime', 'Asian longhorned tick nymph and adult female on a US dime, for size', { phil: 22872 }],
-  ['groundhog-tick', 'Groundhog (woodchuck) tick, Ixodes cookei, engorged female', { inat: { obs: 168811425, photo: 292607194 } }],
+  ['groundhog-tick', 'Groundhog (woodchuck) tick, Ixodes cookei, engorged (the source records no sex or life stage)', { inat: { obs: 168811425, photo: 292607194 } }],
   ['aedes-aegypti-female', 'Yellow fever mosquito, Aedes aegypti, female', { phil: 26042 }],
   ['aedes-albopictus', 'Asian tiger mosquito, Aedes albopictus', { phil: 26043 }],
   ['culex-quinquefasciatus-female', 'Southern house mosquito, Culex quinquefasciatus, female', { phil: 26026 }],

@@ -2,9 +2,9 @@
  "id": "ticks-in-new-hampshire",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "fe8c6799be5e785c835be9228dcd3e6e7b7a192c8dd256e96ad2abfa26aaf5a9",
+ "sha": "33ca87059b00984c180c998a1098296e2d4ff9b2847a89c76e80f7f4d0b18676",
  "claimsChecked": 330,
- "claimsCorrected": 12,
+ "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 4,
  "checkedOn": "2026-10-15"
 }

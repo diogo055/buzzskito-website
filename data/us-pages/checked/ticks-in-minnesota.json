@@ -2,9 +2,9 @@
  "id": "ticks-in-minnesota",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ccc71d24677db2aef175f0d8170632003599fcb108731125048ba0aa82165225",
+ "sha": "01eb5690700e60f9e2bf09d185f5b04e90f28d01a4d1447f57e4def7a3693c4a",
  "claimsChecked": 595,
- "claimsCorrected": 12,
+ "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 7,
  "checkedOn": "2026-10-15"
 }

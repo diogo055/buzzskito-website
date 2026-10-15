@@ -2,9 +2,9 @@
  "id": "ticks-in-new-jersey",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "062b2044bc595dfb6db641ce8c9004a1c65588a3e1ecabbc0b5ce8ca810e272d",
+ "sha": "cc3e3c570ee42da94ffb1c8900f55acb32d2840fd60faa6f712feab260379a11",
  "claimsChecked": 456,
- "claimsCorrected": 6,
+ "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 8,
  "checkedOn": "2026-10-15"
 }

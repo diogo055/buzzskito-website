@@ -136,7 +136,7 @@
           "Can complete its life cycle indoors, in homes or kennels"
         ]
       ],
-      "caption": "Sources: UW–Madison Department of Entomology pages on the [American dog tick](https://wisconsin-ticks.russell.wisc.edu/wisconsin-ticks/dermacentor-variabilis/), the [lone star tick](https://wisconsin-ticks.russell.wisc.edu/wisconsin-ticks/amblyomma-americanum-lone-star-tick/) and other species; county status: CDC, through December 2025; deer tick notes: the [DHS Lyme disease page](https://www.dhs.wisconsin.gov/tick/lyme-about.htm); germs found in deer ticks: CDC's pathogen table, below."
+      "caption": "Sources: UW–Madison Department of Entomology pages on the [American dog tick](https://wisconsin-ticks.russell.wisc.edu/wisconsin-ticks/dermacentor-variabilis/), the [lone star tick](https://wisconsin-ticks.russell.wisc.edu/wisconsin-ticks/amblyomma-americanum-lone-star-tick/) and other species; county status: CDC ArboNET Tick Module, through December 2025; deer tick notes: the [DHS Lyme disease page](https://www.dhs.wisconsin.gov/tick/lyme-about.htm); germs found in deer ticks: CDC's pathogen table, below."
     },
     {
       "type": "figure",
@@ -177,8 +177,8 @@
       "src": "/guides/photos/groundhog-tick.webp",
       "width": 1200,
       "height": 1600,
-      "alt": "Engorged female Ixodes cookei tick on a wooden surface, its swollen body pale blue-gray behind a small reddish-brown shield and reddish-brown legs",
-      "caption": "An engorged female *Ixodes cookei*, often called the groundhog or woodchuck tick. UW–Madison says it is not very common in Wisconsin but occasionally bites people.",
+      "alt": "Engorged Ixodes cookei tick on a wooden surface, its swollen body pale blue-gray behind a small reddish-brown shield and reddish-brown legs",
+      "caption": "An engorged *Ixodes cookei*, often called the groundhog or woodchuck tick. UW–Madison says it is not very common in Wisconsin but occasionally bites people.",
       "credit": "(c) adamfritz, some rights reserved (CC BY), via iNaturalist",
       "license": "CC-BY-4.0",
       "sourceUrl": "https://www.inaturalist.org/observations/168811425"
@@ -345,7 +345,7 @@
           "6"
         ]
       ],
-      "caption": "Source: [CDC tick surveillance data sets](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), pathogen table through December 2025."
+      "caption": "Source: [CDC ArboNET Tick Module](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), pathogen table through December 2025."
     },
     {
       "type": "p",

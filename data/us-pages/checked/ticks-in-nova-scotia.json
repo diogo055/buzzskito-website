@@ -2,9 +2,9 @@
  "id": "ticks-in-nova-scotia",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "d0f0f1c175ef856c18746471cbfd4882487767a83b08a6f328f11e7906486ca0",
+ "sha": "e22f8a4e989e628947f596841b17aa37435439a1b194cc6a497743b52c8b496e",
  "claimsChecked": 532,
- "claimsCorrected": 5,
+ "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 2,
  "checkedOn": "2026-10-15"
 }

@@ -132,7 +132,7 @@
           "Not yet known whether, or how often, it makes people ill in the US"
         ]
       ],
-      "caption": "Ranking: Georgia Department of Public Health. Counties: CDC tick surveillance, through 2025. Biting stages and diseases: [CDC's guide to where ticks live](https://www.cdc.gov/ticks/about/where-ticks-live.html). Asian longhorned tick counties: Georgia Department of Agriculture, as of October 2026."
+      "caption": "Ranking: Georgia Department of Public Health. Counties: CDC ArboNET Tick Module, through 2025. Biting stages and diseases: [CDC's guide to where ticks live](https://www.cdc.gov/ticks/about/where-ticks-live.html). Asian longhorned tick counties: Georgia Department of Agriculture, as of October 2026."
     },
     {
       "type": "figure",
@@ -662,7 +662,7 @@
           "Established"
         ]
       ],
-      "caption": "Cases by county of residence, from CDC's 2019 to 2022 county file. Tick status from CDC's blacklegged tick table, through December 31, 2025."
+      "caption": "Cases by county of residence, from CDC's 2019 to 2022 county file. Tick status from CDC's blacklegged tick table (ArboNET Tick Module), through December 31, 2025."
     },
     {
       "type": "p",

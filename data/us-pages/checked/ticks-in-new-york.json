@@ -2,9 +2,9 @@
  "id": "ticks-in-new-york",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "80ad169c1112ccf7d0f8b85ce977eba6e92a5019bc01e65b2e961277d433d22b",
+ "sha": "359fb8beb47bb470c73d9894223ea638ade3352fbbbb8e22319470b2483c4680",
  "claimsChecked": 591,
- "claimsCorrected": 22,
+ "claimsCorrected": 23,
  "claimsRemovedOrSoftened": 14,
  "checkedOn": "2026-10-15"
 }

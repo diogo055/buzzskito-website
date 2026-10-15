@@ -86,7 +86,9 @@ page, plus:
 - **Photo captions say only what the photo record supports** (found Oct 15): the CDC life-stages
   photo (blacklegged-tick-life-stages, PHIL 1205) does not say which small tick is the nymph and
   which the larva, so describe "an adult and two much smaller immature ticks"; the male in
-  tick-unfed-vs-engorged (PHIL 23451) must not be called "unfed".
+  tick-unfed-vs-engorged (PHIL 23451) must not be called "unfed"; the groundhog-tick photo
+  (iNaturalist 168811425) records no sex or life stage, so it is an "engorged groundhog tick",
+  not an "engorged female".
 - **A year missing from a CDC file shows as 0 in the packet** (found Oct 15 on Minnesota's
   Powassan series): it can mean no cases or not reported (2020 especially). Check the state's
   own data before charting a 0, and show "not reported" years as gaps with a caption.

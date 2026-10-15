@@ -2,9 +2,9 @@
  "id": "ticks-in-north-carolina",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "2ffe23778cdfdea46eb0ff76f4da881dd418db4a3c897a1dbe3a764140a16d52",
+ "sha": "06977cd2f1839cc6ee389dbc5ec60c9c71bc0a9020f5ab6af36f9d8ac52b8f32",
  "claimsChecked": 390,
- "claimsCorrected": 4,
+ "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 11,
  "checkedOn": "2026-10-15"
 }

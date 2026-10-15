@@ -119,7 +119,7 @@
           "Tularemia, ehrlichiosis and southern tick-associated rash illness (STARI); bites are linked to alpha-gal syndrome"
         ]
       ],
-      "caption": "Sources: the state health department's [prevention page](https://www.mass.gov/info-details/tick-borne-disease-prevention), [Lyme disease fact sheet](https://www.mass.gov/info-details/lyme-disease) and [alpha-gal syndrome fact sheet](https://www.mass.gov/info-details/alpha-gal-syndrome-ags); county status from [CDC's tick surveillance data](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), through December 2025."
+      "caption": "Sources: the state health department's [prevention page](https://www.mass.gov/info-details/tick-borne-disease-prevention), [Lyme disease fact sheet](https://www.mass.gov/info-details/lyme-disease) and [alpha-gal syndrome fact sheet](https://www.mass.gov/info-details/alpha-gal-syndrome-ags); county status from the [CDC ArboNET Tick Module](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), through December 2025."
     },
     {
       "type": "figure",
@@ -206,7 +206,7 @@
           "None"
         ]
       ],
-      "caption": "Source: [CDC tick surveillance data sets](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), pathogen table through December 31, 2025."
+      "caption": "Source: [CDC ArboNET Tick Module](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), pathogen table through December 31, 2025."
     },
     {
       "type": "p",
