@@ -44,7 +44,13 @@ page, plus:
   existing pages (`data/us-pages/routes.json` lists them; e.g. /blog/what-do-ticks-look-like,
   /blog/how-to-remove-tick-safely, /learn/tick-identification-chart, /blog/ticks-on-dogs,
   /blog/how-to-get-rid-of-mosquitoes). Never link service or city pages.
-- 4 to 6 FAQs (35 to 120 words each, plain text), 4 to 15 sources (at least 3 government,
+- **Health facts that hold everywhere** (how long a tick must be attached, the rash and other
+  symptoms, the single preventive antibiotic dose, how to remove a tick) come from CDC's current
+  pages (for Canadian pages, PHAC / Health Canada), not from an older state fact sheet; if a
+  state's sheet differs, give CDC's current figure and date the state's. State sources are for
+  state data, state services and state advice. Quote advice at the source's own strength:
+  "consider contacting a provider" must not become "call right away".
+- 4 to 6 FAQs (35 to 120 words each, plain text), 4 to 20 sources (prefer fewer; at least 3 government,
   university or scientific), each linked inline where it is used. Official government sites
   on non-.gov domains (a county on .org) take `"kind": "government"`.
 - Anything that changes during a season (this year's case count so far, a city's current
@@ -75,6 +81,9 @@ page, plus:
   page, and cite it. If a service cannot be confirmed, leave it out.
 - A secondary site (news, pest company) may be cited only for news events, marked
   `"kind": "news"`.
+- **A year missing from a CDC file shows as 0 in the packet** (found Oct 15 on Minnesota's
+  Powassan series): it can mean no cases or not reported (2020 especially). Check the state's
+  own data before charting a 0, and show "not reported" years as gaps with a caption.
 - **Connecticut** (found Oct 15): since 2022, CDC and the Census report Connecticut by its 9
   planning regions (FIPS 09110 to 09190), not the 8 old counties. The packets were built on the
   old counties, so Connecticut's county-level figures from 2022 on (and the 2019-2022 totals for
