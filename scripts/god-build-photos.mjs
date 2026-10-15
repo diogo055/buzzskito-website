@@ -18,7 +18,10 @@ const OUT = join(ROOT, 'public', 'guides', 'photos')
 const LEDGER = join(ROOT, 'data', 'god-build', 'photos.json')
 mkdirSync(RAW, { recursive: true }); mkdirSync(OUT, { recursive: true })
 
-const PHIL_FILE = { 1669: 'https://wwwn.cdc.gov/phil/phil_images/20040209/2/039.tif', 170: 'https://wwwn.cdc.gov/phil/phil_images/20030131/1/PHIL_170.tif' }
+const PHIL_FILE = {
+  1669: 'https://wwwn.cdc.gov/phil/phil_images/20040209/2/039.tif', 170: 'https://wwwn.cdc.gov/phil/phil_images/20030131/1/PHIL_170.tif',
+  6351: 'https://wwwn.cdc.gov/phil/PHIL_Images/20041008/bfb184113dfd48569886cb369d49709e/6351.tif', 1205: 'https://wwwn.cdc.gov/phil/phil_images/20040122/2/phil_1205.tif',
+}
 // [our file name, subject, source]
 const PHOTOS = [
   ['blacklegged-tick-female', 'Blacklegged (deer) tick, Ixodes scapularis, adult female', { phil: 1669 }],
@@ -43,6 +46,38 @@ const PHOTOS = [
   ['aedes-vexans', 'Inland floodwater mosquito, Aedes vexans', { commons: 'Inland_Floodwater_Mosquito_(48453823681).jpg' }],
   ['psorophora-ciliata', 'Gallinipper, Psorophora ciliata', { commons: 'Gallinipper_(Culicidae,_Psorophora_ciliata)_(30015323241).jpg' }],
   ['culex-larvae', 'Culex mosquito larvae in water', { phil: 26020 }],
+  // second batch (Oct 15): identification pages and their upgrades
+  ['bed-bug-adult-ruler', 'Bed bug, Cimex lectularius, unfed adult beside a millimetre ruler', { phil: 12704 }],
+  ['bed-bug-nymph', 'Bed bug nymph on fabric', { inat: { obs: 325824918, photo: 589997406 } }],
+  ['bed-bug-signs', 'Bed bug signs: cast skins and fecal spots on fabric', { inat: { obs: 9978781, photo: 13712297 } }],
+  ['clover-mite', 'Clover mite, Bryobia praetiosa, under a digital microscope', { commons: 'Clover mite (Bryobia praetiosa) viewed with digital microscope.jpg' }],
+  ['red-velvet-mite', 'Red velvet mite (Trombidiidae) on bark', { commons: 'Huge Red Velvet Mite - Flickr - treegrow.jpg' }],
+  ['chigger-and-pinhead', 'Chigger larva and adult mite beside a pin head, for size', { phil: 14763 }],
+  ['chigger-bites-ruler', 'Three chigger bites on an arm about 10 days after the bites, beside a ruler (each welt about 3 to 4 mm)', { phil: 12069 }],
+  ['spider-beetle', 'Spider beetle, Gibbium psylloides', { commons: 'Gibbium psylloides (Czenpinski, 1778) (28038744750).png' }],
+  ['carpet-beetle', 'Carpet beetle adult beside a 1 mm scale bar', { inat: { obs: 10606651, photo: 14791086 } }],
+  ['carpet-beetle-larva', 'Carpet beetle larva', { inat: { obs: 22181694, photo: 34343615 } }],
+  ['brown-recluse', 'Brown recluse spider, Loxosceles reclusa', { phil: 1125 }],
+  ['brown-recluse-penny', 'Brown recluse spider beside a US penny, for size', { commons: 'Brown-recluse-coin.jpg' }],
+  ['black-widow', 'Southern black widow, Latrodectus mactans, showing the red hourglass', { phil: 9854 }],
+  ['wolf-spider', 'Wolf spider (Tigrosa helluo) carrying spiderlings', { inat: { obs: 122321677, photo: 207089662 } }],
+  ['common-house-spider', 'Common house spider, Parasteatoda tepidariorum', { inat: { obs: 229533845, photo: 407445900 } }],
+  ['biting-midge-culicoides', 'Biting midge (no-see-um), Culicoides sp., under a microscope', { inat: { obs: 334176083, photo: 606804973 } }],
+  ['biting-midge-on-skin', 'Biting midge on human skin', { commons: 'CSIRO ScienceImage 11052 Biting midge on human skin.jpg' }],
+  ['cat-flea', 'Cat flea, Ctenocephalides felis', { commons: 'Ctenocephalides felis ZSM.jpg' }],
+  ['aedes-aegypti-pupae', 'Aedes aegypti mosquito pupae in water', { phil: 26035 }],
+  ['anopheles-larvae', 'Anopheles quadrimaculatus larvae lying flat at the water surface', { phil: 27576 }],
+  ['culex-egg-raft', 'Culex mosquito egg raft on water', { phil: 12549 }],
+  ['aedes-albopictus-eggs', 'Asian tiger mosquito eggs on paper', { phil: 21723 }],
+  ['erythema-migrans-rash', 'Erythema migrans, the expanding rash of early Lyme disease, on an upper arm', { phil: 9875 }],
+  ['biting-midge-bites-ankles', 'Biting midge (no-see-um) bites on the ankles', { phil: 6351 }],
+  ['mosquito-bite-welts', 'Mosquito bite welts on a leg', { commons: 'Aedes mosquito bites.jpg' }],
+  ['bed-bug-bites-forearm', 'Bed bug bites on a forearm', { commons: 'Bedbugb1.JPG' }],
+  ['flea-bites-lower-leg', 'Flea bites on the lower leg', { commons: 'Flea Bites to the Lower Leg of a Human Subject 01.jpg' }],
+  ['brown-recluse-bite-necrosis', 'Localized tissue damage (necrosis) on a patient\'s calf four months after a brown recluse spider bite', { phil: 6266 }],
+  ['tick-unfed-vs-engorged', 'Unfed male and engorged female Ixodes ticks side by side', { phil: 23451 }],
+  ['blacklegged-tick-life-stages', 'Blacklegged tick adult, nymph and larva', { phil: 1205 }],
+  ['blacklegged-tick-adult-nymph-fingertip', 'Blacklegged tick adult and nymph on a fingertip, for size', { phil: 28383 }],
 ]
 
 const UA = { 'User-Agent': 'BuzzSkitoSiteBuilder/1.0 (photo credits recorded; support@buzzskito.ca)' }
@@ -84,7 +119,8 @@ const ledger = JSON.parse(readFileSync(LEDGER, 'utf8'))
 const have = Object.fromEntries(ledger.photos.map((p) => [p.file, p]))
 for (const [name, subject, src] of PHOTOS) {
   const file = `/guides/photos/${name}.webp`
-  if (have[file] && existsSync(join(OUT, `${name}.webp`))) { console.log(`have ${name}`); continue }
+  // a corrected subject line in PHOTOS reaches the ledger without downloading again
+  if (have[file] && existsSync(join(OUT, `${name}.webp`))) { have[file].subject = subject; console.log(`have ${name}`); continue }
   try {
     const meta = src.phil ? await phil(src.phil) : src.commons ? await commons(src.commons) : await inat(src.inat)
     const res = await fetch(meta.originalUrl, { headers: UA })
