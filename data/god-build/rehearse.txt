@@ -4,4 +4,5 @@ this file changes on main. The rehearsal builds the site exactly as the real rel
 publishes nothing.
 
 Oct 15, 2026: rehearsed again after the date checks learned REHEARSAL_DATE (the first rehearsal
-failed only because "today" was Oct 15 while the pages were dated Nov 16).
+failed only because "today" was Oct 15 while the pages were dated Nov 16). Passed with 25 pages.
+Oct 15, 2026 (later): rehearsed with 36 checked pages for Nov 16.
