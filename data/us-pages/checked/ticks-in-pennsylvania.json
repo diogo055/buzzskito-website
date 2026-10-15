@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-pennsylvania",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "a0e0bcd943615557dd6f4db696c75d726dec891b3c994484ab714cbe2fddbf8f",
+ "claimsChecked": 460,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 3,
+ "checkedOn": "2026-10-15"
+}

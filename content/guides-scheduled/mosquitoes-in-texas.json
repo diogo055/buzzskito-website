@@ -1,0 +1,1101 @@
+{
+  "slug": "mosquitoes-in-texas",
+  "kind": "spoke",
+  "cluster": "mosquitoes",
+  "keyword": "mosquitoes in texas",
+  "alsoTargets": [
+    "mosquito season texas",
+    "when is mosquito season in texas",
+    "west nile virus texas"
+  ],
+  "metaTitle": "Mosquitoes in Texas: Season, Species, West Nile",
+  "metaDescription": "Texas has at least 85 mosquito species. See the season in each region, which mosquitoes bite when, and West Nile cases by year and county.",
+  "h1": "Mosquitoes in Texas: Season by Region, Species and West Nile Data",
+  "dek": "When mosquitoes bite in each part of Texas, the species behind West Nile and dengue, West Nile cases by year and county through 2025, and who to call about mosquitoes where you live.",
+  "breadcrumb": "Mosquitoes in Texas",
+  "excerpt": "Mosquito season in each Texas region, the species that bite by day and by night, West Nile cases by year and county through 2025, and the local programs to call.",
+  "datePublished": "2026-11-23",
+  "parent": {
+    "href": "/learn/mosquitoes-by-state",
+    "name": "Mosquitoes by State"
+  },
+  "quickAnswer": {
+    "lead": "**Texas has at least 85 mosquito species, and in most of the state they bite from spring into late fall; around Houston they are present all year.** West Nile virus causes far more illness than any other mosquito-borne disease caught in Texas: the state reported 168 cases in 2025 after a 2024 surge to 456, the most since 2012, according to [CDC](https://www.cdc.gov/west-nile-virus/data-maps/historic-data.html).",
+    "bullets": [
+      "Texas residents have reported 6,688 West Nile cases since the first ones in 2002, and Dallas, Harris and Tarrant counties account for 37% of them.",
+      "DSHS counted 57 West Nile deaths in 2024, the most of any year from 2021 to 2025, and 9 in 2025 (both figures provisional).",
+      "From 2002 to 2011, West Nile transmission in Texas ran from April to December and peaked in August.",
+      "Tarrant County considers its season to run April through November, Austin says mosquitoes are active most of the year, and Harris County found infected mosquitoes in January 2026.",
+      "The dengue mosquito, Aedes aegypti, has been recorded in 102 of 254 counties (records through about 2016), and all 40 locally acquired dengue cases DSHS counted from 2013 to November 2024 were in six Rio Grande Valley and border counties."
+    ]
+  },
+  "facts": {
+    "title": "Mosquitoes in Texas at a glance",
+    "rows": [
+      [
+        "Mosquito species in Texas",
+        "At least 85 (Texas A&M AgriLife Extension)"
+      ],
+      [
+        "West Nile cases in 2025",
+        "168, including 127 neuroinvasive (CDC, final as of September 2026)"
+      ],
+      [
+        "West Nile cases in 2024",
+        "456 (CDC), the most since 2012; 57 deaths (DSHS, provisional)"
+      ],
+      [
+        "Record year",
+        "2012: 1,868 cases and 89 deaths"
+      ],
+      [
+        "West Nile cases, 2002 to 2025",
+        "6,688, in 218 of the 254 counties"
+      ],
+      [
+        "Counties with the most cases, 2002 to 2025",
+        "Dallas 929, Harris 824, Tarrant 716"
+      ],
+      [
+        "Historic West Nile season",
+        "April to December, peaking in August (cases from 2002 to 2011)"
+      ],
+      [
+        "First human West Nile case of 2026",
+        "Harris County, announced by DSHS on May 19, 2026"
+      ],
+      [
+        "Counties with Aedes aegypti records",
+        "102 of 254 (records through about 2016)"
+      ],
+      [
+        "Counties with Aedes albopictus records",
+        "150 of 254 (records through about 2016)"
+      ],
+      [
+        "Locally acquired dengue since 2013",
+        "40 cases, all in six Rio Grande Valley and border counties (DSHS, as of November 2024)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "When is mosquito season in Texas?"
+    },
+    {
+      "type": "p",
+      "text": "Mosquito season in most of Texas starts in spring and runs into late fall, and in the warmest parts of the state it may not fully stop. [Tarrant County Public Health](https://www.tarrantcountytx.gov/en/public-health/health-protection-and-response/environmental-health-promotion/vector/mosquito-surveillance.html), whose surveillance relies on traps kept by most cities in the county around Fort Worth, considers its season to run from April through November but tests mosquitoes all year. The [Texas Department of State Health Services (DSHS)](https://www.dshs.texas.gov/west-nile-virus) says West Nile disease is more common in the warmer months, yet there may be a year-round risk of infection in the warmer parts of the state."
+    },
+    {
+      "type": "p",
+      "text": "Human illness follows the same arc. A study of every West Nile case reported to DSHS from 2002 to 2011, [published in CDC's journal Emerging Infectious Diseases](https://wwwnc.cdc.gov/eid/article/19/1/12-1135_article), found that the transmission season ran from April to December and that cases peaked in August. Late summer has been the riskiest stretch of the year."
+    },
+    {
+      "type": "chart",
+      "title": "Texas statewide average temperature by month, 1991 to 2020",
+      "yLabel": "Degrees Fahrenheit",
+      "x": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "series": [
+        {
+          "name": "Statewide average (°F)",
+          "values": [
+            47.1,
+            51.3,
+            58.5,
+            65.5,
+            73.6,
+            80.5,
+            83,
+            82.6,
+            76.3,
+            66.8,
+            56,
+            48.3
+          ]
+        }
+      ],
+      "caption": "Even January, the coldest month, averages 47.1°F statewide, and July is the warmest at 83.0°F. One statewide figure blends the Panhandle with the Rio Grande Valley, so use it for the shape of the year, not to time the season in your own county.",
+      "source": "[NOAA National Centers for Environmental Information, Climate at a Glance](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/41/tavg/1/0/1895-2026), statewide monthly average temperature, averaged over 1991 to 2020."
+    },
+    {
+      "type": "p",
+      "text": "Weather moves the season from year to year, and rain matters as much as heat. [Texas A&M AgriLife Extension](https://agrilifeextension.tamu.edu/wp-content/uploads/2025/07/mosquitos-and-the-diseases-they-transmit-1.pdf) explains that floodwater mosquitoes, a group that includes *Psorophora* and some *Aedes* species, lay their eggs in dry spots that flood from time to time. Some eggs survive dry spells for many months to 2 years, eggs in warm water can hatch in 2 to 3 days, and under favorable conditions some mosquitoes go from egg to adult in 8 to 10 days. A soaking rain in warm weather can therefore produce a new generation of biters in little more than a week. The stages are laid out in [the mosquito life cycle from egg to adult](/learn/mosquito-life-cycle)."
+    },
+    {
+      "type": "p",
+      "text": "Warm winters stretch the season at the other end. In January 2026, [Harris County Public Health](https://publichealth.harriscountytx.gov/Portals/hcph/Documents/Press_Releases/NR_WNVFirstSample2026_January2026_WEB.pdf) found West Nile virus in mosquito samples from two ZIP codes in north and northwest Harris County, said virus-positive samples are unusual that early in the year, and pointed to an unseasonably warm winter. NOAA's statewide figures fit: December 2025 averaged 53.8°F across Texas, 5.5°F above the 1991 to 2020 average for December, according to [NOAA's Climate at a Glance series](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/41/tavg/1/0/1895-2026)."
+    },
+    {
+      "type": "h2",
+      "text": "How does mosquito season differ across Texas regions?"
+    },
+    {
+      "type": "p",
+      "text": "Local agencies describe the season differently, and not every program publishes months. Houston-area officials say mosquitoes are present all year, Fort Worth's county health department counts April through November, and Austin's says they are active most of the year. The table sets out what each region's agencies say next to that region's largest West Nile county totals since 2002. For the same comparison elsewhere, see [mosquito seasons and disease data for every US state](/learn/mosquitoes-by-state)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Region",
+        "Main cities",
+        "What health agencies say about the season",
+        "West Nile cases since 2002, largest counties"
+      ],
+      "rows": [
+        [
+          "Upper Gulf Coast",
+          "Houston, Beaumont",
+          "Mosquitoes present all year, with more activity in warm months; virus found in mosquitoes in January 2026 (Harris County Public Health)",
+          "Harris 824, Montgomery 210, Jefferson 83"
+        ],
+        [
+          "North Texas",
+          "Dallas, Fort Worth, Denton",
+          "Season considered April through November, with testing all year (Tarrant County Public Health)",
+          "Dallas 929, Tarrant 716, Denton 320, Collin 174"
+        ],
+        [
+          "Central Texas and Hill Country",
+          "Austin, San Antonio, Waco",
+          "Mosquitoes active most of the year, with risk rising in warm months (Austin Public Health)",
+          "Travis 257, Bexar 105, McLennan 72"
+        ],
+        [
+          "Panhandle and South Plains",
+          "Amarillo, Lubbock",
+          "Local season dates not confirmed for this page; per person, West Nile rates in this part of the state were the highest in Texas from 2002 to 2011 (EID study)",
+          "Lubbock 188, Randall 146, Hale 66, Potter 59"
+        ],
+        [
+          "West Texas",
+          "El Paso",
+          "City health department said the community was entering peak mosquito season in early August 2025",
+          "El Paso 371"
+        ],
+        [
+          "Rio Grande Valley and border",
+          "Brownsville, McAllen, Laredo",
+          "Local season dates not confirmed for this page; statewide, DSHS says West Nile risk may run year-round in the warmer parts of Texas, and all 40 locally acquired dengue cases it counted from 2013 to November 2024 were in this area",
+          "Hidalgo 60, Cameron 39, Webb 10"
+        ]
+      ],
+      "caption": "Case counts are CDC totals by county of residence, 2002 to 2025. Montgomery County is just north of Houston; Amarillo spans Potter and Randall counties."
+    },
+    {
+      "type": "p",
+      "text": "Four North Texas counties carry almost a third of the state's West Nile cases: Dallas, Tarrant, Denton and Collin account for 2,139 of the 6,688 cases reported since 2002, according to [CDC's county counts](https://www.cdc.gov/west-nile-virus/data-maps/historic-data.html). In the record year, 2012, those four counties reported 902 of the state's 1,868 cases."
+    },
+    {
+      "type": "p",
+      "text": "On the Upper Gulf Coast, Harris County Public Health says more than 50 mosquito species live locally, though only a small number can carry diseases such as West Nile, dengue, Zika and chikungunya. When the January 2026 positives turned up, its crews sent truck-mounted ultra-low-volume sprayers into the affected neighborhoods in the evening, when mosquitoes are most active."
+    },
+    {
+      "type": "p",
+      "text": "In Central Texas, [Austin Public Health](https://www.austintexas.gov/health/mosquito) says it monitors mosquito populations and tests them for disease throughout the season. As of mid-October 2026, its page listed West Nile-positive mosquito pools in five Austin ZIP codes that year: 78701, 78703, 78726, 78733 and 78757."
+    },
+    {
+      "type": "p",
+      "text": "Measured per person, the northwest was the hardest-hit part of Texas in the [2002 to 2011 study](https://wwwnc.cdc.gov/eid/article/19/1/12-1135_article), which found the highest West Nile rates in mostly rural counties there: Castro County led at 34.2 cases per 100,000 people, followed by King, Crosby, Swisher and Parmer, while Dallas County's rate was 1.1. The authors pointed to *Culex tarsalis*, the predominant mosquito of rural western Texas, but incomplete mosquito surveillance kept them from testing that link. The area is still active: Lubbock County residents had 13 of the state's 168 cases in 2025, and Randall County, part of Amarillo, had 7."
+    },
+    {
+      "type": "p",
+      "text": "In far West Texas, [El Paso's Department of Public Health](https://www.elpasotexas.gov/assets/Press-Releases/2025.08.07-NEWS-RELEASE_City-Advises-Community-to-Prepare-for-Mosquito-Borne-Disease-Season.pdf) warned on August 7, 2025, that the community was entering peak mosquito season and that mosquitoes in the Upper Valley had tested positive for West Nile. El Paso County residents have reported 371 cases since 2002, the fourth-highest county total in Texas. In the Rio Grande Valley and the border counties, the concern widens to dengue, which the yellow fever mosquito can spread; the dengue section below has the numbers."
+    },
+    {
+      "type": "h2",
+      "text": "Which mosquitoes live in Texas, and when do they bite?"
+    },
+    {
+      "type": "p",
+      "text": "At least 85 mosquito species occur in Texas, according to AgriLife, but Harris County's health department notes that only a small number of the species found there can carry disease. They differ in where their larvae grow, when they bite and how far they fly, and those three traits decide whether emptying a bucket in your yard will help. AgriLife's table of common Texas mosquitoes gives the details for the ones that matter most:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mosquito",
+        "Where larvae grow",
+        "When it bites",
+        "How far it flies"
+      ],
+      "rows": [
+        [
+          "Southern house mosquito, *Culex quinquefasciatus*",
+          "Containers, sewage catch basins, ground pools",
+          "Dusk, dawn and night",
+          "0.25 to 0.5 mile"
+        ],
+        [
+          "Yellow fever mosquito, *Aedes aegypti*",
+          "Artificial containers",
+          "Day, dusk and dawn",
+          "Under 100 yards"
+        ],
+        [
+          "Asian tiger mosquito, *Aedes albopictus*",
+          "Containers and tree holes",
+          "Day, dusk and dawn",
+          "100 to 300 yards"
+        ],
+        [
+          "*Aedes vexans*, a floodwater mosquito",
+          "Floodwater, grassland pools, irrigated pastures",
+          "Dusk, dawn and night",
+          "10 to 25 miles or more"
+        ],
+        [
+          "Salt marsh mosquitoes, *Aedes taeniorhynchus* and *Aedes sollicitans*",
+          "Salt marshes",
+          "Day, dusk, dawn and night",
+          "5 to 40 miles"
+        ],
+        [
+          "Gallinipper, *Psorophora ciliata*",
+          "Irrigated pastures, rice fields, ground pools",
+          "Dusk, dawn and night",
+          "5 to 10 miles"
+        ],
+        [
+          "Dark rice field mosquito, *Psorophora columbiae*",
+          "Irrigated pastures, rice fields, ground pools",
+          "Dusk, dawn and night",
+          "5 to 10 miles"
+        ]
+      ],
+      "caption": "Source: Texas A&M AgriLife Extension, table of 20 common Texas mosquitoes. Treat the flight ranges as rough guides: the same publication's text says both container *Aedes* usually fly only about 200 yards. *Culex tarsalis*, important in rural western Texas, is not in that table."
+    },
+    {
+      "type": "h3",
+      "text": "Southern house mosquito: the West Nile mosquito of Texas cities"
+    },
+    {
+      "type": "p",
+      "text": "AgriLife identifies the southern house mosquito as the West Nile carrier in urban Texas, and as the St. Louis encephalitis carrier that causes concern in Texas. The 2002 to 2011 study describes it as the predominant species in eastern Texas, associated with urban areas. Its larvae grow in containers, sewage catch basins and ground pools, and it bites at dusk, at dawn and through the night. Austin Public Health says the species that spread West Nile are most active between dusk and dawn, and El Paso's health department tells residents to take extra care in those hours. For an hour-by-hour picture, see [how biting times shift with the time of day and temperature](/blog/when-are-mosquitoes-most-active)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/culex-quinquefasciatus-female.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Female southern house mosquito, Culex quinquefasciatus, a light brown mosquito with pale bands across its abdomen, resting on skin against a yellow-green background",
+      "caption": "Southern house mosquito, the West Nile carrier AgriLife names for urban Texas.",
+      "license": "public-domain",
+      "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26026"
+    },
+    {
+      "type": "h3",
+      "text": "Culex tarsalis: the West Nile mosquito of rural western Texas"
+    },
+    {
+      "type": "p",
+      "text": "Away from the eastern cities, the main suspect changes. The 2002 to 2011 study describes *Culex tarsalis* as the predominant mosquito of western Texas, associated with rural areas. AgriLife lists it, with *Aedes dorsalis*, as a main carrier of western equine encephalitis west of the Mississippi River. In the Fort Worth area, Tarrant County Public Health lists *Culex tarsalis* among the four *Culex* species it tests for West Nile and St. Louis encephalitis viruses."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/culex-tarsalis-female.webp",
+      "width": 1200,
+      "height": 788,
+      "alt": "Female Culex tarsalis mosquito resting on dark fabric, with a white arrowhead pointing to the pale band around the middle of its dark proboscis",
+      "caption": "Culex tarsalis. The arrowhead marks the pale band around its proboscis.",
+      "license": "public-domain",
+      "credit": "CDC; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=7955"
+    },
+    {
+      "type": "h3",
+      "text": "Aedes aegypti and Aedes albopictus: daytime biters that breed in containers"
+    },
+    {
+      "type": "p",
+      "text": "The yellow fever mosquito and the Asian tiger mosquito are the main daytime biters around homes. AgriLife's table lists both as biting by day as well as at dusk and dawn, and the publication says both breed mainly in and around homes and fly only short distances, though its figures differ: usually about 200 yards for both in its text, but under 100 yards for *Aedes aegypti* and 100 to 300 yards for *Aedes albopictus* in its table. The containers producing them are usually close to where you are being bitten. AgriLife names *Aedes aegypti* as the mosquito mainly responsible for spreading dengue to people in Texas, and both species as the main carriers of chikungunya."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/aedes-aegypti-female.webp",
+      "width": 1200,
+      "height": 767,
+      "alt": "Female yellow fever mosquito, Aedes aegypti, standing on a green surface, with white bands on its black legs and white markings on its thorax",
+      "caption": "Yellow fever mosquito, the main dengue carrier in Texas. It bites by day as well as at dusk and dawn.",
+      "license": "public-domain",
+      "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop; Brandon Clifton (CDC Public Health Image Library, phil.cdc.gov)",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26042"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/aedes-albopictus.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Male Asian tiger mosquito, Aedes albopictus, resting on skin, its black body and long legs marked with bright white bands and spots",
+      "caption": "Asian tiger mosquito. This one is a male; males feed on nectar and plant juices, and only females take blood.",
+      "license": "public-domain",
+      "credit": "CDC/ Amy E. Lockwood, MS (CDC Public Health Image Library, phil.cdc.gov)",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26043"
+    },
+    {
+      "type": "p",
+      "text": "A 2019 study by Monaghan and colleagues, [published in PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007369), compiled county records that place *Aedes aegypti* in 102 of Texas's 254 counties and *Aedes albopictus* in 150, with both recorded in 84. The records run through about 2016, and a county counts as recorded once at least one mosquito of the species, at any life stage, was collected and reported there."
+    },
+    {
+      "type": "map",
+      "scope": "TX",
+      "title": "Texas counties with records of Aedes aegypti and Aedes albopictus, through about 2016",
+      "categories": [
+        {
+          "key": "both",
+          "label": "Both species recorded"
+        },
+        {
+          "key": "aegypti",
+          "label": "Aedes aegypti only"
+        },
+        {
+          "key": "albopictus",
+          "label": "Aedes albopictus only"
+        }
+      ],
+      "values": {
+        "48001": "both",
+        "48005": "both",
+        "48007": "both",
+        "48013": "albopictus",
+        "48015": "both",
+        "48017": "albopictus",
+        "48019": "both",
+        "48021": "albopictus",
+        "48023": "aegypti",
+        "48025": "both",
+        "48027": "both",
+        "48029": "both",
+        "48031": "albopictus",
+        "48033": "both",
+        "48037": "both",
+        "48039": "both",
+        "48041": "both",
+        "48043": "aegypti",
+        "48045": "albopictus",
+        "48047": "both",
+        "48051": "albopictus",
+        "48055": "albopictus",
+        "48061": "both",
+        "48071": "both",
+        "48073": "both",
+        "48075": "aegypti",
+        "48079": "albopictus",
+        "48085": "both",
+        "48089": "albopictus",
+        "48091": "both",
+        "48093": "albopictus",
+        "48095": "albopictus",
+        "48097": "both",
+        "48099": "albopictus",
+        "48101": "aegypti",
+        "48113": "both",
+        "48121": "both",
+        "48123": "albopictus",
+        "48125": "aegypti",
+        "48127": "both",
+        "48129": "aegypti",
+        "48131": "both",
+        "48133": "both",
+        "48137": "both",
+        "48139": "both",
+        "48141": "both",
+        "48143": "both",
+        "48145": "albopictus",
+        "48149": "albopictus",
+        "48151": "albopictus",
+        "48157": "both",
+        "48161": "albopictus",
+        "48163": "both",
+        "48167": "both",
+        "48171": "albopictus",
+        "48175": "albopictus",
+        "48177": "albopictus",
+        "48181": "both",
+        "48183": "albopictus",
+        "48187": "both",
+        "48189": "aegypti",
+        "48191": "both",
+        "48193": "both",
+        "48197": "albopictus",
+        "48199": "albopictus",
+        "48201": "both",
+        "48203": "both",
+        "48209": "both",
+        "48213": "albopictus",
+        "48215": "both",
+        "48217": "both",
+        "48221": "both",
+        "48223": "both",
+        "48225": "albopictus",
+        "48227": "aegypti",
+        "48229": "aegypti",
+        "48231": "both",
+        "48237": "aegypti",
+        "48239": "albopictus",
+        "48241": "albopictus",
+        "48245": "both",
+        "48247": "both",
+        "48249": "both",
+        "48251": "both",
+        "48255": "albopictus",
+        "48257": "both",
+        "48259": "albopictus",
+        "48261": "aegypti",
+        "48265": "albopictus",
+        "48267": "albopictus",
+        "48271": "both",
+        "48273": "both",
+        "48277": "albopictus",
+        "48283": "both",
+        "48285": "albopictus",
+        "48289": "albopictus",
+        "48291": "both",
+        "48293": "albopictus",
+        "48297": "albopictus",
+        "48303": "both",
+        "48309": "both",
+        "48311": "both",
+        "48315": "albopictus",
+        "48321": "albopictus",
+        "48323": "both",
+        "48325": "both",
+        "48327": "albopictus",
+        "48329": "both",
+        "48331": "aegypti",
+        "48337": "both",
+        "48339": "both",
+        "48345": "aegypti",
+        "48347": "both",
+        "48349": "both",
+        "48351": "albopictus",
+        "48353": "albopictus",
+        "48355": "both",
+        "48359": "albopictus",
+        "48361": "both",
+        "48363": "both",
+        "48367": "both",
+        "48373": "albopictus",
+        "48375": "albopictus",
+        "48377": "aegypti",
+        "48379": "albopictus",
+        "48381": "albopictus",
+        "48385": "albopictus",
+        "48387": "both",
+        "48389": "aegypti",
+        "48391": "albopictus",
+        "48397": "both",
+        "48399": "albopictus",
+        "48401": "albopictus",
+        "48405": "albopictus",
+        "48407": "albopictus",
+        "48409": "both",
+        "48415": "aegypti",
+        "48419": "albopictus",
+        "48423": "both",
+        "48427": "both",
+        "48431": "albopictus",
+        "48435": "both",
+        "48437": "albopictus",
+        "48439": "both",
+        "48441": "both",
+        "48445": "both",
+        "48447": "aegypti",
+        "48451": "both",
+        "48453": "both",
+        "48455": "albopictus",
+        "48457": "albopictus",
+        "48459": "albopictus",
+        "48463": "both",
+        "48465": "both",
+        "48467": "albopictus",
+        "48469": "albopictus",
+        "48471": "albopictus",
+        "48473": "albopictus",
+        "48479": "both",
+        "48481": "albopictus",
+        "48485": "both",
+        "48489": "both",
+        "48491": "both",
+        "48493": "albopictus",
+        "48497": "albopictus",
+        "48499": "albopictus",
+        "48505": "aegypti",
+        "48507": "both"
+      },
+      "caption": "No record does not mean the mosquito is absent there; it may only mean that no one collected and reported one.",
+      "source": "County records compiled by [Monaghan et al., PLOS Computational Biology, 2019](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007369), through about 2016."
+    },
+    {
+      "type": "p",
+      "text": "Read the map as a record of where people looked. The study's authors note that ruling out a species would take extremely intense and thorough surveillance, so a county without a record may still have these mosquitoes. One overlap stands out: all six counties where DSHS counted locally acquired dengue from 2013 to November 2024 have records of both species."
+    },
+    {
+      "type": "h3",
+      "text": "Floodwater mosquitoes: gallinippers and other after-the-rain biters"
+    },
+    {
+      "type": "p",
+      "text": "After heavy rain, a different crowd arrives. AgriLife's floodwater group, *Psorophora* and some *Aedes* species, breeds in flood plains, salt marshes and even water-filled animal footprints, and AgriLife's table gives the gallinipper and the dark rice field mosquito flight ranges of 5 to 10 miles. When mosquitoes come from that far away, AgriLife says, neighbors may have to work together to control them, and an area-wide program can bring relief from problems that start miles from your home. The dark rice field mosquito, *Psorophora columbiae*, is the only mosquito confirmed to spread Venezuelan equine encephalitis from horse to mosquito to horse in Texas, according to AgriLife."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/psorophora-ciliata.webp",
+      "width": 1200,
+      "height": 890,
+      "alt": "Gallinipper mosquito, Psorophora ciliata, standing on white grid paper, with long legs banded in black and white, photographed at Davis Mountains State Park in Texas",
+      "caption": "Gallinipper photographed in Jeff Davis County, Texas, in September 2016. AgriLife says this floodwater mosquito can fly 5 to 10 miles.",
+      "license": "CC0-1.0",
+      "credit": "Insects Unlocked, CC0, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gallinipper_(Culicidae,_Psorophora_ciliata)_(30015323241).jpg"
+    },
+    {
+      "type": "h2",
+      "text": "How many West Nile cases does Texas have each year?"
+    },
+    {
+      "type": "p",
+      "text": "Texas reported 168 West Nile cases in 2025, 127 of them neuroinvasive, according to [CDC's final ArboNET figures](https://www.cdc.gov/west-nile-virus/data-maps/historic-data.html), down 63% from 456 in 2024. Texas residents have reported 6,688 cases since the first ones in 2002, 4,272 of them neuroinvasive, and every year since 2002 has had cases. Neuroinvasive disease is the severe form, which can affect the brain and spinal cord. DSHS says about 1 in 150 infected people develop it, while about 80% of infected people never get sick."
+    },
+    {
+      "type": "chart",
+      "title": "West Nile virus cases in Texas by year, 2002 to 2025",
+      "yLabel": "Reported human cases, by state of residence",
+      "x": [
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "Neuroinvasive disease",
+          "values": [
+            202,
+            431,
+            119,
+            128,
+            233,
+            170,
+            40,
+            93,
+            77,
+            20,
+            844,
+            113,
+            253,
+            196,
+            252,
+            87,
+            108,
+            24,
+            101,
+            130,
+            39,
+            122,
+            363,
+            127
+          ]
+        },
+        {
+          "name": "Milder illness (non-neuroinvasive)",
+          "values": [
+            0,
+            289,
+            57,
+            67,
+            121,
+            90,
+            24,
+            22,
+            12,
+            7,
+            1024,
+            70,
+            126,
+            79,
+            118,
+            48,
+            38,
+            8,
+            21,
+            13,
+            7,
+            41,
+            93,
+            41
+          ]
+        }
+      ],
+      "caption": "Neuroinvasive cases are the steadier measure: CDC says milder cases are more likely to go unreported and should not be used to compare years. Texas reported no cases from 1999 to 2001.",
+      "source": "[CDC ArboNET historic data](https://www.cdc.gov/west-nile-virus/data-maps/historic-data.html), human disease cases by state of residence; data final as of September 16, 2026."
+    },
+    {
+      "type": "p",
+      "text": "The record year was 2012, when Texas reported 1,868 cases and 89 deaths, according to AgriLife's summary of DSHS figures. The 2002 to 2011 study noted that case counts peaked every three years starting in 2003. Since 2012 the pattern has been less regular: the largest years were 2014 (379 cases), 2016 (370) and 2024 (456)."
+    },
+    {
+      "type": "h3",
+      "text": "How big was the 2024 surge?"
+    },
+    {
+      "type": "p",
+      "text": "Texas reported 456 cases in 2024, 2.8 times the 163 of 2023 and the most since 2012. In a [May 2026 release](https://www.dshs.texas.gov/news-alerts/dshs-confirms-first-west-nile-case-texas-2026), DSHS counted 57 West Nile deaths in 2024, the most of any year from 2021 to 2025, against 9 in 2025; across those five years it recorded 976 cases and 106 deaths, with the 2024 and 2025 figures still provisional. By county of residence, Harris (77 cases) and Tarrant (71) led in 2024, followed by Dallas (35), Travis (33), Montgomery (25) and Denton (24). The sources behind this page do not say why 2024 was so much bigger than the years around it."
+    },
+    {
+      "type": "p",
+      "text": "Rates of reported illness rise with age. The 2002 to 2011 study found that the rate among people over 65 was 23 times that among children aged 5 to 15. For what the illness looks like, see [the full range of West Nile symptoms and when they appear](/blog/west-nile-virus-symptoms)."
+    },
+    {
+      "type": "h3",
+      "text": "What has 2026 looked like so far?"
+    },
+    {
+      "type": "p",
+      "text": "DSHS announced the first human West Nile case of 2026 on May 19, in a Harris County resident with neuroinvasive disease, four months after Harris County found the virus in mosquito samples. CDC finalized its 2025 numbers in September 2026, so complete 2026 counts will come later; until then, the DSHS West Nile page links to weekly reports with preliminary figures."
+    },
+    {
+      "type": "h2",
+      "text": "Where in Texas is West Nile most common?"
+    },
+    {
+      "type": "p",
+      "text": "By raw count, West Nile is most common in the big metro counties: Dallas (929 cases), Harris (824) and Tarrant (716) account for 37% of the state's West Nile cases since 2002, and 218 of Texas's 254 counties have reported at least one. CDC counts each case in the county where the patient lives, not where the bite happened, so a Dallas County case may come from a bite somewhere else."
+    },
+    {
+      "type": "map",
+      "scope": "TX",
+      "title": "Reported West Nile virus cases by Texas county of residence, 2002 to 2025",
+      "categories": [
+        {
+          "key": "c100",
+          "label": "100 or more cases"
+        },
+        {
+          "key": "c20",
+          "label": "20 to 99 cases"
+        },
+        {
+          "key": "c1",
+          "label": "1 to 19 cases"
+        }
+      ],
+      "values": {
+        "48001": "c1",
+        "48003": "c20",
+        "48005": "c20",
+        "48009": "c1",
+        "48011": "c1",
+        "48015": "c1",
+        "48017": "c20",
+        "48021": "c1",
+        "48023": "c1",
+        "48025": "c1",
+        "48027": "c20",
+        "48029": "c100",
+        "48031": "c1",
+        "48035": "c1",
+        "48037": "c20",
+        "48039": "c20",
+        "48041": "c20",
+        "48043": "c1",
+        "48045": "c1",
+        "48049": "c1",
+        "48051": "c1",
+        "48053": "c1",
+        "48055": "c1",
+        "48057": "c1",
+        "48059": "c1",
+        "48061": "c20",
+        "48063": "c1",
+        "48065": "c1",
+        "48067": "c1",
+        "48069": "c20",
+        "48071": "c1",
+        "48073": "c1",
+        "48075": "c1",
+        "48077": "c1",
+        "48079": "c1",
+        "48081": "c1",
+        "48083": "c1",
+        "48085": "c100",
+        "48087": "c1",
+        "48089": "c1",
+        "48091": "c1",
+        "48093": "c1",
+        "48095": "c1",
+        "48097": "c20",
+        "48099": "c1",
+        "48101": "c1",
+        "48107": "c20",
+        "48111": "c1",
+        "48113": "c100",
+        "48115": "c1",
+        "48117": "c20",
+        "48121": "c100",
+        "48123": "c1",
+        "48125": "c1",
+        "48127": "c1",
+        "48129": "c1",
+        "48133": "c1",
+        "48135": "c20",
+        "48139": "c20",
+        "48141": "c100",
+        "48143": "c1",
+        "48145": "c1",
+        "48147": "c1",
+        "48149": "c1",
+        "48151": "c1",
+        "48153": "c20",
+        "48155": "c1",
+        "48157": "c20",
+        "48159": "c1",
+        "48161": "c1",
+        "48163": "c1",
+        "48165": "c1",
+        "48167": "c20",
+        "48169": "c1",
+        "48173": "c1",
+        "48177": "c1",
+        "48179": "c1",
+        "48181": "c20",
+        "48183": "c20",
+        "48185": "c1",
+        "48187": "c1",
+        "48189": "c20",
+        "48191": "c1",
+        "48193": "c1",
+        "48195": "c1",
+        "48197": "c1",
+        "48199": "c1",
+        "48201": "c100",
+        "48203": "c1",
+        "48205": "c1",
+        "48207": "c1",
+        "48209": "c1",
+        "48211": "c1",
+        "48213": "c1",
+        "48215": "c20",
+        "48217": "c1",
+        "48219": "c20",
+        "48221": "c1",
+        "48223": "c1",
+        "48225": "c1",
+        "48227": "c1",
+        "48229": "c1",
+        "48231": "c20",
+        "48233": "c1",
+        "48235": "c1",
+        "48237": "c1",
+        "48239": "c1",
+        "48241": "c1",
+        "48243": "c1",
+        "48245": "c20",
+        "48247": "c1",
+        "48249": "c1",
+        "48251": "c20",
+        "48253": "c1",
+        "48255": "c1",
+        "48257": "c20",
+        "48259": "c1",
+        "48265": "c1",
+        "48269": "c1",
+        "48273": "c1",
+        "48275": "c1",
+        "48277": "c1",
+        "48279": "c20",
+        "48285": "c1",
+        "48287": "c1",
+        "48289": "c1",
+        "48291": "c1",
+        "48293": "c1",
+        "48295": "c1",
+        "48303": "c100",
+        "48305": "c1",
+        "48307": "c1",
+        "48309": "c20",
+        "48313": "c1",
+        "48317": "c1",
+        "48321": "c1",
+        "48323": "c1",
+        "48325": "c1",
+        "48329": "c20",
+        "48331": "c1",
+        "48333": "c1",
+        "48335": "c1",
+        "48337": "c1",
+        "48339": "c100",
+        "48341": "c1",
+        "48345": "c1",
+        "48347": "c1",
+        "48349": "c20",
+        "48351": "c1",
+        "48353": "c1",
+        "48355": "c20",
+        "48357": "c1",
+        "48359": "c1",
+        "48361": "c20",
+        "48363": "c1",
+        "48365": "c1",
+        "48367": "c1",
+        "48369": "c20",
+        "48371": "c1",
+        "48373": "c1",
+        "48375": "c20",
+        "48377": "c1",
+        "48379": "c1",
+        "48381": "c100",
+        "48387": "c1",
+        "48389": "c1",
+        "48393": "c1",
+        "48395": "c1",
+        "48397": "c1",
+        "48399": "c1",
+        "48401": "c20",
+        "48403": "c1",
+        "48405": "c1",
+        "48407": "c1",
+        "48409": "c1",
+        "48413": "c1",
+        "48415": "c1",
+        "48417": "c1",
+        "48419": "c1",
+        "48421": "c1",
+        "48423": "c20",
+        "48425": "c1",
+        "48427": "c1",
+        "48429": "c1",
+        "48431": "c1",
+        "48433": "c1",
+        "48437": "c20",
+        "48439": "c100",
+        "48441": "c20",
+        "48443": "c1",
+        "48445": "c1",
+        "48449": "c1",
+        "48451": "c20",
+        "48453": "c100",
+        "48455": "c1",
+        "48457": "c1",
+        "48459": "c1",
+        "48463": "c1",
+        "48465": "c1",
+        "48467": "c1",
+        "48469": "c1",
+        "48471": "c1",
+        "48473": "c1",
+        "48477": "c1",
+        "48479": "c1",
+        "48481": "c1",
+        "48483": "c1",
+        "48485": "c20",
+        "48487": "c1",
+        "48489": "c1",
+        "48491": "c20",
+        "48493": "c1",
+        "48497": "c1",
+        "48499": "c1",
+        "48501": "c1",
+        "48503": "c1",
+        "48505": "c1",
+        "48507": "c1"
+      },
+      "caption": "No record means no human case was reported for residents of that county. Per person, the highest rates from 2002 to 2011 were in small rural counties of the northwest, such as Castro and King.",
+      "source": "[CDC ArboNET historic data](https://www.cdc.gov/west-nile-virus/data-maps/historic-data.html), county data final as of September 16, 2026; rates from the 2002 to 2011 study in Emerging Infectious Diseases."
+    },
+    {
+      "type": "p",
+      "text": "The latest year shows how widespread the virus is. In 2025, CDC recorded West Nile activity in 101 Texas counties and human cases in 63 of them, led by Tarrant (17), Lubbock (13), Montgomery (13), Harris (12) and Dallas (10). CDC also cautions that surveillance in mosquitoes and animals varies from place to place, so a county with no reported activity is not necessarily free of risk."
+    },
+    {
+      "type": "h2",
+      "text": "What other mosquito-borne diseases occur in Texas?"
+    },
+    {
+      "type": "p",
+      "text": "Dengue is the one to watch in the Rio Grande Valley and along the border. From 2013 to November 2024, Texas recorded 665 dengue cases, 40 of them acquired locally in Cameron, Hidalgo, Starr, Val Verde, Webb and Willacy counties, according to a [DSHS release from November 2024](https://www.dshs.texas.gov/news-alerts/texas-public-health-officials-announce-first-locally-acquired-case-dengue-virus-2024) that announced that year's first locally acquired case, in a Cameron County resident. Most Texas dengue is caught abroad: by late November the same release had counted 106 travel-associated cases in 2024, including one death, the highest yearly count since 2002."
+    },
+    {
+      "type": "p",
+      "text": "DSHS says about 25% of people infected with dengue develop symptoms, which can start 3 to 14 days after infection, and about 1 in 20 people with symptoms develop a severe infection that can be fatal without treatment. AgriLife names *Aedes aegypti* as the mosquito mainly responsible for spreading dengue to people in Texas, and records a 1999 outbreak in the state with 62 cases and one death."
+    },
+    {
+      "type": "p",
+      "text": "Other mosquito-borne viruses are rare. CDC's ArboNET historic data, which CDC publishes on a separate page for each virus, show 43 cases of St. Louis encephalitis among Texas residents from 2003 to 2025 (18 of them in 2003 and 1 in 2024), 6 cases of La Crosse encephalitis and no cases of eastern equine encephalitis. AgriLife singles out the southern house mosquito as the St. Louis encephalitis carrier of concern in Texas and names the tree-hole mosquito, *Aedes triseriatus*, as the main carrier of the California encephalitis viruses, the group that includes La Crosse."
+    },
+    {
+      "type": "p",
+      "text": "Dogs and cats are at risk too. AgriLife says mosquitoes commonly transmit heartworm to dogs and cats, especially in the humid parts of Texas, and that veterinarians can prescribe preventive drugs for the mosquito season, which it describes as year-round in Texas. For more, see [how mosquitoes affect dogs, from bites to heartworm](/blog/do-mosquitoes-bite-dogs)."
+    },
+    {
+      "type": "h2",
+      "text": "Who controls mosquitoes where you live, and how do you report a problem?"
+    },
+    {
+      "type": "p",
+      "text": "Mosquito control in Texas is local: cities, counties and mosquito control districts do the trapping and spraying, while DSHS tracks mosquito-borne disease statewide. AgriLife notes that Texas law lets groups form mosquito control districts and that DSHS monitors the mosquito-borne diseases affecting people and horses. Here is what four large programs say they do and how to reach them:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Harris County (Houston area).** Harris County Public Health's Mosquito and Vector Control Division runs mosquito surveillance, sends spray trucks into neighborhoods where the virus turns up, and posts a live map of positive mosquito pools and treatments that it updates daily.",
+        "**Tarrant County (Fort Worth area).** Most cities in the county keep mosquito traps for Tarrant County Public Health, which sorts the females by species into groups of up to 50, tests them for West Nile and St. Louis encephalitis viruses, and publishes weekly arbovirus reports and a dashboard map of results by city.",
+        "**Austin and Travis County.** Austin Public Health asks residents to report standing water, drainage concerns or mosquito problems through 3-1-1, and says it adds surveillance and posts signs in areas where mosquitoes test positive for West Nile.",
+        "**El Paso.** The city's Department of Public Health asks residents to report standing water and mosquito breeding by calling (915) 212-6000.",
+        "**Everywhere else.** Ask your city or county health department who handles mosquito control where you live."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How can you cut down on mosquitoes around a Texas home?"
+    },
+    {
+      "type": "p",
+      "text": "Empty anything that holds water every week, keep mosquitoes out of the house, and wear repellent outdoors at dusk and dawn and, where *Aedes* mosquitoes live, during the day. Container breeders such as the yellow fever and Asian tiger mosquitoes fly only short distances, so the water producing them is usually nearby. DSHS, Harris County and AgriLife recommend these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Tip out water every week.** The [November 2024 DSHS release](https://www.dshs.texas.gov/news-alerts/texas-public-health-officials-announce-first-locally-acquired-case-dengue-virus-2024) lists toys, tires, buckets, clogged gutters and plant pots as places to empty, and Harris County says to change birdbath water every three to five days. AgriLife calls the larvae wigglers; this guide shows [how to recognize mosquito larvae in standing water](/blog/mosquito-larvae-identification).",
+        "**Clear hidden water.** Harris County advises cleaning out clogged gutters, keeping outdoor trash bins closed, fixing leaky outdoor faucets and keeping lawn clippings and leaves out of storm drains, where they block the flow and leave standing water. AgriLife suggests filling tree holes with sand or drilling a drain hole.",
+        "**Treat water you cannot drain.** Harris County suggests a larvicide where water cannot be covered, emptied or removed and will not be used for drinking, applied as the label directs. AgriLife lists *Bacillus thuringiensis israelensis* (Bti) for ponds and suggests stocking ponds and watering troughs with fish, and Austin Public Health suggests Bti dunks for rain barrels.",
+        "**Use an EPA-registered repellent.** DSHS lists repellents containing DEET, picaridin, IR3535, oil of lemon eucalyptus, para-menthane-diol or 2-undecanone. Harris County adds two cautions: no repellent on babies younger than 2 months, and no oil of lemon eucalyptus or para-menthane-diol on children under 3.",
+        "**Cover up at the right times.** Wear long sleeves and long pants outdoors. West Nile mosquitoes are most active between dusk and dawn, and the *Aedes* container mosquitoes also bite in daylight.",
+        "**Keep them outdoors.** DSHS recommends air conditioning and window and door screens in good repair."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For a fuller yard plan, see [a step-by-step plan for getting rid of mosquitoes](/blog/how-to-get-rid-of-mosquitoes), and for personal protection, [repellents and other ways to keep mosquitoes away](/blog/how-to-keep-mosquitoes-away). Mosquitoes do not stop at state lines, so if you live near one, compare [mosquitoes in Louisiana](/blog/mosquitoes-in-louisiana), [Oklahoma's mosquito season](/blog/mosquitoes-in-oklahoma), [mosquitoes in New Mexico](/blog/mosquitoes-in-new-mexico) and [West Nile and mosquito data for Arkansas](/blog/mosquitoes-in-arkansas)."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "When to contact a healthcare provider",
+      "text": "Contact a healthcare provider if you develop a high fever with a headache, a stiff neck, confusion or muscle weakness after mosquito bites. DSHS lists these among the symptoms of severe West Nile disease, which usually begins 2 to 14 days after infection, and says there is no specific treatment for the virus. This page summarizes what public health agencies publish and is not a diagnosis."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is mosquito season year-round in Texas?",
+      "answer": "In parts of the state, nearly. Harris County Public Health says mosquitoes are present in the Houston area throughout the year, and it found West Nile virus in mosquito samples in January 2026, during an unseasonably warm winter. DSHS says West Nile risk may run year-round in the warmer parts of Texas. Elsewhere the season is shorter: Tarrant County, around Fort Worth, considers its season to run from April through November, although it tests mosquitoes all year."
+    },
+    {
+      "question": "What month is West Nile worst in Texas?",
+      "answer": "August. A study of every West Nile case reported to the Texas Department of State Health Services from 2002 to 2011 found that the transmission season ran from April to December and that cases peaked in August. El Paso said its community was entering peak mosquito season in early August 2025. Late summer is the time to be most careful with repellent, clothing and standing water, but cases have occurred as late as December."
+    },
+    {
+      "question": "How many people die of West Nile virus in Texas?",
+      "answer": "DSHS counted 106 West Nile deaths in Texas from 2021 through 2025, including 57 in 2024 and 9 in 2025; the figures for those two years are provisional. The worst year on record, 2012, brought 1,868 cases and 89 deaths, according to Texas A&M AgriLife Extension. El Paso health officials say about 1 in 150 infected people develop severe illness affecting the central nervous system, and about 1 in 10 of those severe cases are fatal."
+    },
+    {
+      "question": "Does dengue spread locally in Texas?",
+      "answer": "Occasionally. DSHS reported in November 2024 that 40 of the 665 dengue cases recorded in Texas since 2013 were acquired locally, all in Cameron, Hidalgo, Starr, Val Verde, Webb and Willacy counties, and announced the first locally acquired case of 2024, in a Cameron County resident. Most Texas dengue is caught while traveling: the state counted 106 travel-associated cases in 2024 by late November. Texas A&M AgriLife Extension names the yellow fever mosquito, Aedes aegypti, as the main local carrier."
+    },
+    {
+      "question": "Which mosquitoes bite during the day in Texas?",
+      "answer": "Mainly the container breeders. Texas A&M AgriLife Extension lists the yellow fever mosquito (Aedes aegypti) and the Asian tiger mosquito (Aedes albopictus) as biting during the day as well as at dusk and dawn, and the coastal salt marsh mosquitoes as biting day and night. The southern house mosquito, the main West Nile carrier in Texas cities, bites at dusk, dawn and night, as do the gallinipper and other Psorophora floodwater mosquitoes."
+    },
+    {
+      "question": "How do I report mosquitoes or standing water in Texas?",
+      "answer": "Contact your city or county. In Austin and Travis County, Austin Public Health takes reports of standing water, drainage concerns and mosquito problems through 3-1-1. In El Paso, the city health department asks residents to call (915) 212-6000 about standing water and mosquito breeding. Harris County Public Health runs mosquito control for the Houston area and posts a daily-updated map of positive mosquito pools and spraying, and Tarrant County Public Health posts weekly mosquito test results."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Historic Data (1999-2025): West Nile Virus",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET)",
+      "url": "https://www.cdc.gov/west-nile-virus/data-maps/historic-data.html"
+    },
+    {
+      "title": "Climate at a Glance: Statewide Time Series, Texas Average Temperature",
+      "publisher": "NOAA National Centers for Environmental Information",
+      "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/41/tavg/1/0/1895-2026"
+    },
+    {
+      "title": "Consensus and uncertainty in the geographic range of Aedes aegypti and Aedes albopictus in the contiguous United States: Multi-model assessment and synthesis",
+      "publisher": "PLOS Computational Biology (Monaghan et al., 2019)",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007369"
+    },
+    {
+      "title": "West Nile Virus",
+      "publisher": "Texas Department of State Health Services",
+      "url": "https://www.dshs.texas.gov/west-nile-virus"
+    },
+    {
+      "title": "DSHS confirms first West Nile case in Texas in 2026 (news release, May 19, 2026)",
+      "publisher": "Texas Department of State Health Services",
+      "url": "https://www.dshs.texas.gov/news-alerts/dshs-confirms-first-west-nile-case-texas-2026"
+    },
+    {
+      "title": "Texas public health officials announce first locally acquired case of dengue virus in 2024 (news release, November 25, 2024)",
+      "publisher": "Texas Department of State Health Services",
+      "url": "https://www.dshs.texas.gov/news-alerts/texas-public-health-officials-announce-first-locally-acquired-case-dengue-virus-2024"
+    },
+    {
+      "title": "Mosquitoes and the Diseases They Transmit (ENTO-040)",
+      "publisher": "Texas A&M AgriLife Extension Service",
+      "url": "https://agrilifeextension.tamu.edu/wp-content/uploads/2025/07/mosquitos-and-the-diseases-they-transmit-1.pdf"
+    },
+    {
+      "title": "West Nile Virus Infection among Humans, Texas, USA, 2002-2011",
+      "publisher": "Emerging Infectious Diseases (CDC), Nolan, Schuermann and Murray, 2013",
+      "url": "https://wwwnc.cdc.gov/eid/article/19/1/12-1135_article"
+    },
+    {
+      "title": "Harris County Confirms Positive West Nile Virus Mosquito Samples (news release, January 14, 2026)",
+      "publisher": "Harris County Public Health",
+      "url": "https://publichealth.harriscountytx.gov/Portals/hcph/Documents/Press_Releases/NR_WNVFirstSample2026_January2026_WEB.pdf"
+    },
+    {
+      "title": "Mosquito Surveillance",
+      "publisher": "Tarrant County Public Health",
+      "url": "https://www.tarrantcountytx.gov/en/public-health/health-protection-and-response/environmental-health-promotion/vector/mosquito-surveillance.html"
+    },
+    {
+      "title": "Mosquito",
+      "publisher": "Austin Public Health",
+      "url": "https://www.austintexas.gov/health/mosquito"
+    },
+    {
+      "title": "City Advises Community to Prepare for Mosquito-Borne Disease Season (news release, August 7, 2025)",
+      "publisher": "City of El Paso Department of Public Health",
+      "url": "https://www.elpasotexas.gov/assets/Press-Releases/2025.08.07-NEWS-RELEASE_City-Advises-Community-to-Prepare-for-Mosquito-Borne-Disease-Season.pdf"
+    }
+  ],
+  "disclaimer": "both"
+}

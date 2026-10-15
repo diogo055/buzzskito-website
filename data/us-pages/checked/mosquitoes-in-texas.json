@@ -1,0 +1,10 @@
+{
+ "id": "mosquitoes-in-texas",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "855cf8e82a38baf408b42ea373a4d02dea2e3a0f85208889917b3a47b0dc2f87",
+ "claimsChecked": 254,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-15"
+}

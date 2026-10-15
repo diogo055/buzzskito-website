@@ -1,0 +1,954 @@
+{
+  "slug": "ticks-in-pennsylvania",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in pennsylvania",
+  "alsoTargets": [
+    "types of ticks in pennsylvania",
+    "tick season pennsylvania",
+    "lyme disease pennsylvania"
+  ],
+  "metaTitle": "Ticks in Pennsylvania: Types, Lyme Map, Season",
+  "metaDescription": "Deer ticks live in all 67 Pennsylvania counties, and the state reported 16,671 Lyme cases in 2023. Tick photos, a county Lyme map, the season and ID help.",
+  "h1": "Ticks in Pennsylvania: Species, County Maps, Lyme Data and Tick Season",
+  "dek": "Which ticks live in Pennsylvania, where Lyme disease is most common county by county, when each tick is active, and what the state and Penn State offer if you find one.",
+  "breadcrumb": "Ticks in Pennsylvania",
+  "excerpt": "Blacklegged ticks are established in all 67 Pennsylvania counties. Species photos, Lyme rates by county, tick season by month and where to get a tick identified.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**At least 25 tick species occur in Pennsylvania, and the blacklegged (deer) tick, which spreads Lyme disease, is established in all 67 counties.** The state reported 16,671 Lyme cases in 2023, second only to New York, according to [CDC surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Blacklegged and American dog ticks account for more than 90% of the identification requests Penn State receives.",
+    "bullets": [
+      "CDC's county table, which runs through December 2025, lists blacklegged ticks as established in all 67 counties, and the Lyme bacterium has been found in host-seeking ticks in every one of them.",
+      "Relative to population, 2023 Lyme rates were highest in north-central and northwestern counties such as Cameron, Jefferson and Potter, and lowest in Lehigh County and Philadelphia.",
+      "The state health department counted 16,624 Lyme cases in 2024, a rate of 128.3 per 100,000 residents.",
+      "Tick-bite emergency visits rise each April, 61.2% of 2023 Lyme cases were reported from May through August, and adult deer ticks seek hosts on winter days above freezing.",
+      "As of October 2026, Penn State identifies ticks to species and the Tick Research Lab of Pennsylvania tests them free for residents, but the health department says a tick result should never decide treatment.",
+      "The invasive Asian longhorned tick was first found in Pennsylvania on a white-tailed deer in July 2018."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Pennsylvania at a glance",
+    "rows": [
+      [
+        "Tick species in Pennsylvania",
+        "At least 25 (Penn State Extension, November 2025)"
+      ],
+      [
+        "Most common ticks sent for identification",
+        "Blacklegged and American dog ticks, more than 90% of requests to Penn State (2025 guide)"
+      ],
+      [
+        "Counties with established blacklegged ticks",
+        "67 of 67 (CDC, through December 2025)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "16,671 in 2023 (CDC); 16,624 in 2024 (state count)"
+      ],
+      [
+        "Lyme rate",
+        "128.1 per 100,000 in 2023, sixth among states (CDC data)"
+      ],
+      [
+        "Highest county rate, 2023",
+        "Cameron County, about 845 per 100,000 (37 cases; BuzzSkito's calculation from CDC and Census data)"
+      ],
+      [
+        "Most cases by county, 2023",
+        "Allegheny County, 1,485"
+      ],
+      [
+        "Lone star tick",
+        "Established in 8 counties, reported in 11 (CDC, through 2025)"
+      ],
+      [
+        "Asian longhorned tick",
+        "First found on a white-tailed deer in July 2018 (USDA)"
+      ],
+      [
+        "Riskiest months",
+        "April to August; 61.2% of 2023 Lyme cases were reported May to August"
+      ],
+      [
+        "Tick identification",
+        "Penn State Department of Entomology (species only, no germ testing)"
+      ],
+      [
+        "Tick testing for residents",
+        "Free at the Tick Research Lab of Pennsylvania, according to Penn State (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Pennsylvania?"
+    },
+    {
+      "type": "p",
+      "text": "At least 25 tick species occur in Pennsylvania, but two of them account for more than 90% of the identification requests Penn State receives: the blacklegged tick and the American dog tick. Those figures come from [Penn State Extension's guide to common ticks in Pennsylvania](https://extension.psu.edu/common-ticks-and-tick-borne-diseases-in-pennsylvania), updated in November 2025. The lone star tick and the invasive Asian longhorned tick are less common but worth knowing."
+    },
+    {
+      "type": "p",
+      "text": "The blacklegged tick, also called the deer tick, matters most for health. The [state health department's 2023 surveillance report](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/diseases-and-conditions/vectorborne/Lyme%20Disease%20Annual%20Report%202023.pdf) ties five illnesses to it in Pennsylvania: Lyme disease, anaplasmosis, babesiosis, hard tick relapsing fever and Powassan virus. Despite the name, Penn State notes that deer do not carry the Lyme germ; the state report names white-footed mice as a carrier."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where in Pennsylvania",
+        "When it is active",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in all 67 counties",
+          "Adults fall to early spring; nymphs late spring and summer; larvae late summer",
+          "Lyme disease, anaplasmosis, babesiosis, hard tick relapsing fever, Powassan virus"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "All of Pennsylvania",
+          "Larvae spring and fall; nymphs and adults through summer",
+          "Spotted fever rickettsiosis, including Rocky Mountain spotted fever"
+        ],
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Mostly southern counties near cities; established in 8 counties",
+          "Nymphs and adults spring and summer; larvae late summer and fall",
+          "Ehrlichiosis and Heartland virus; bites are linked to alpha-gal syndrome"
+        ],
+        [
+          "Asian longhorned tick, *Haemaphysalis longicornis*",
+          "Invasive; first found in 2018",
+          "Nymphs in spring, adults in midsummer, larvae in late summer",
+          "Bovine theileriosis and *Babesia* infections in animals"
+        ]
+      ],
+      "caption": "Where and when: Penn State Extension (the 2018 Asian longhorned tick find: USDA). Diseases: the state health department's 2023 report, except the Asian longhorned tick (Penn State Extension). Counties: CDC, data through 2025."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-female.webp",
+      "width": 1200,
+      "height": 775,
+      "alt": "Adult female blacklegged tick on a green blade of grass, with a dark shield behind the head, dark legs and a reddish-orange body",
+      "caption": "Adult female blacklegged (deer) tick: dark shield, dark legs, reddish body. It is the only Pennsylvania tick the state links to Lyme disease.",
+      "credit": "CDC/ Michael L. Levin, PhD; photo: Jim Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1669"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-nymph-fingernail.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "Tiny blacklegged tick nymph crawling on a fingertip next to the fingernail, showing how small the nymph stage is",
+      "caption": "A blacklegged tick nymph on a fingertip. The state report says nymphs cause most Lyme cases because they are so hard to spot in time.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28382"
+    },
+    {
+      "type": "p",
+      "text": "The American dog tick lives across the whole state and is much larger: Penn State says an engorged female can reach the size of a grape, and that this tick does not transmit the Lyme germ; the state links it to spotted fever rickettsiosis instead. For sizes and markings side by side, see [how to tell the common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. Its pale, mottled shield sets it apart from the plain dark shield of a blacklegged tick.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "p",
+      "text": "Two others deserve a mention. Groundhog ticks were the tick Pennsylvanians met most often before 1990 and have declined since, according to Penn State, which notes they can transmit Powassan virus. The state report also lists the Gulf Coast tick, which can spread *Rickettsia parkeri*, a cause of spotted fever."
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged ticks found in Pennsylvania?"
+    },
+    {
+      "type": "p",
+      "text": "Everywhere. [CDC's county surveillance table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in all 67 Pennsylvania counties, and the [state health department's Lyme disease page](https://www.pa.gov/agencies/health/diseases-conditions/infectious-disease/vectorborne-diseases/tick-diseases/lyme) says deer ticks turn up even in green spaces in urban areas. Established means six or more ticks of one life stage, or more than one life stage, were collected in a county within 12 months. To compare other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "p",
+      "text": "The state knows because it samples every county. Its Department of Environmental Protection (DEP) began statewide tick surveillance in fall 2018, aiming for at least 50 blacklegged ticks from each county, from at least two sites, every season. In the 2023 nymph season, from late April through late July, DEP collected 3,053 nymphs from all 67 counties and found the Lyme bacterium in 29.2% of them, the [state's 2023 report](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/diseases-and-conditions/vectorborne/Lyme%20Disease%20Annual%20Report%202023.pdf) says. Penn State puts the share at 20% to 40% of blacklegged ticks, depending on location."
+    },
+    {
+      "type": "h3",
+      "text": "Which germs have been found in Pennsylvania ticks?"
+    },
+    {
+      "type": "p",
+      "text": "CDC's companion table records where each germ has been found in host-seeking blacklegged ticks, meaning ticks hunting for a host rather than feeding on one. It is cumulative, and a county without a record is not proof the germ is absent."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Germ",
+        "Illness",
+        "Pennsylvania counties with a record"
+      ],
+      "rows": [
+        [
+          "*Borrelia burgdorferi*",
+          "Lyme disease",
+          "All 67"
+        ],
+        [
+          "*Babesia microti*",
+          "Babesiosis",
+          "63"
+        ],
+        [
+          "*Borrelia miyamotoi*",
+          "Hard tick relapsing fever",
+          "61"
+        ],
+        [
+          "Powassan virus",
+          "Powassan virus disease",
+          "31"
+        ],
+        [
+          "*Anaplasma phagocytophilum*",
+          "Anaplasmosis",
+          "None for the human-active variant CDC tracks; state testing has found the species in deer ticks in every county"
+        ],
+        [
+          "*Borrelia mayonii*",
+          "A rarer cause of Lyme disease",
+          "None; the state says it has not been documented as established in Pennsylvania"
+        ]
+      ],
+      "caption": "Source: [CDC tick surveillance data sets](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), pathogen table through December 2025. The anaplasmosis and *B. mayonii* notes come from the [state's April 2026 health advisory](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/2026%20HAN/2026%20-%20PAHAN%20-%20821-04-22-Ticks.pdf)."
+    },
+    {
+      "type": "p",
+      "text": "Adult ticks fill in the rarer germs. Of 4,629 adult blacklegged ticks DEP collected from October 2023 through April 2024, 9.6% carried the anaplasmosis germ, 4.8% *Babesia microti*, 1.4% *Borrelia miyamotoi* and 0.4% Powassan virus, according to the state report."
+    },
+    {
+      "type": "h2",
+      "text": "Is the lone star tick in Pennsylvania?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, mostly in the southeast and south-central counties, and still in small numbers. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) lists it as established in 8 Pennsylvania counties (Bucks, Chester, Dauphin, Delaware, Erie, Franklin, Lebanon and Philadelphia) and reported in 11 more, through 2025. Penn State says it is found most often in southern counties near urbanized areas, and the [health department's April 2026 advisory](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/2026%20HAN/2026%20-%20PAHAN%20-%20821-04-22-Ticks.pdf) describes the state's lone star populations as low for now."
+    },
+    {
+      "type": "map",
+      "scope": "PA",
+      "title": "Lone star tick status by county, Pennsylvania, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "42001": "reported",
+        "42003": "reported",
+        "42009": "reported",
+        "42017": "established",
+        "42021": "reported",
+        "42029": "established",
+        "42041": "reported",
+        "42043": "established",
+        "42045": "established",
+        "42049": "established",
+        "42055": "established",
+        "42063": "reported",
+        "42075": "established",
+        "42077": "reported",
+        "42091": "reported",
+        "42101": "established",
+        "42103": "reported",
+        "42109": "reported",
+        "42133": "reported"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer. No record does not mean no ticks: it can mean no one has sampled there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick, named for the single pale spot on its back.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "The state does not link the lone star tick to Lyme disease, but it brings illnesses of its own. It spreads ehrlichiosis, and Pennsylvania's 63 ehrlichiosis cases in 2023 were the most on record; the state report says that may reflect the tick's growing range or more awareness among doctors. The state's first human case of Heartland virus, also spread by lone star ticks, was reported in 2022."
+    },
+    {
+      "type": "p",
+      "text": "Lone star bites are also associated with alpha-gal syndrome, an allergy to meat from mammals. Since 2026 the health department has asked labs to report positive alpha-gal tests voluntarily; labs that do so show more than 300 people a year testing positive, though the advisory, citing other states' data, notes that many who test positive may have no symptoms. See [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome) for symptoms and diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "When did the Asian longhorned tick reach Pennsylvania?"
+    },
+    {
+      "type": "p",
+      "text": "In July 2018. A longhorned tick collected on July 10, 2018, from a white-tailed deer in Centre County, in central Pennsylvania, was identified on July 26 and confirmed by the federal National Veterinary Services Laboratories, according to a [USDA situation report from August 2018](https://www.nj.gov/dep/fgw/pdf/2018/longhorntickupdate8-18usda.pdf). It was the first detection of the species in Pennsylvania."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female, both plain reddish-brown, resting on a U.S. dime for scale",
+      "caption": "An Asian longhorned tick nymph (left) and adult female (right) on a U.S. dime. Adults are plain brown, about 0.1 inch long and without markings.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "Penn State Extension describes the species as native to East and Central Asia, and its [Asian longhorned tick fact sheet](https://extension.psu.edu/asian-longhorned-tick-haemaphysalis-longicornis), updated in May 2026, says it has now been identified in 18 states, including Pennsylvania. North American populations are entirely female, and a fed female can lay up to 2,000 eggs without mating. Its young can be mistaken for immature lone star ticks. The fact sheet focuses on livestock: it says the tick transmits bovine theileriosis, which can cut milk production and occasionally kill calves, and that heavy infestations can cause anemia in animals."
+    },
+    {
+      "type": "h3",
+      "text": "How do you report an Asian longhorned tick?"
+    },
+    {
+      "type": "p",
+      "text": "Send Penn State the tick itself; its fact sheet asks for specimens, not photos:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Collect a few ticks from the animal if you can, but do not approach or try to collect ticks from wildlife.",
+        "Remove ticks from a pet or farm animal with fine-point tweezers, gripping close to the skin and pulling back slowly.",
+        "Place them in 70% ethanol, or bag and freeze them, and note the address where they were found, the host animal and the date.",
+        "Mail them to the Insect Identification Laboratory, 501 Agricultural Sciences and Industries Building, University Park, PA 16802. Veterinarians can use the PennVet Diagnostic Laboratories in Philadelphia."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does Pennsylvania have?"
+    },
+    {
+      "type": "p",
+      "text": "Pennsylvania reported 16,671 Lyme disease cases in 2023, a rate of 128.1 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Only New York reported more that year, and the same CDC data show Pennsylvania reporting more cases than any other state every year from 2013 through 2020. Its 2023 rate ranked sixth, behind Rhode Island, Vermont, Maine, West Virginia and Massachusetts, as the [state's 2023 report](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/diseases-and-conditions/vectorborne/Lyme%20Disease%20Annual%20Report%202023.pdf) notes; that report, using its own population figure, puts the 2023 rate at 128.6."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Pennsylvania, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            3818,
+            5722,
+            3805,
+            5362,
+            5033,
+            5758,
+            7487,
+            9048,
+            11443,
+            11900,
+            10208,
+            8998,
+            3334,
+            2900,
+            8413,
+            16671
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "A revised case definition took effect in 2022, so 2022 and 2023 are not directly comparable with earlier years. CDC says COVID-19 left 2019 and 2020 data incomplete in some states, and the state health department says the pandemic also lowered 2020 and 2021 counts. For 2015 the state's own report gives 9,427 cases; its other years from 2014 to 2023 match. Data through 2023, the latest CDC year as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)"
+    },
+    {
+      "type": "p",
+      "text": "Read the jumps with care. Under the 2022 definition, a high-incidence state such as Pennsylvania counts a case on positive lab reports alone, without a public health investigation, so the state now classes every case as probable rather than confirmed. Its report says the near doubling in 2023 came as it received more countable lab reports, with more labs reporting the full two-step blood test, and that counts fell in many states in 2020 and 2021 because of the COVID-19 pandemic."
+    },
+    {
+      "type": "p",
+      "text": "The newest state figure is just as high: 16,624 cases in 2024, a rate of 128.3 per 100,000, according to the health department's [April 2026 advisory](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/2026%20HAN/2026%20-%20PAHAN%20-%20821-04-22-Ticks.pdf). Reported cases are also an undercount; the state's Lyme disease page passes on CDC's estimate that the true number is about ten times higher. In 2023, 59.2% of cases were male, and rates were highest in children aged 5 to 9 and adults aged 55 to 84, the state report says."
+    },
+    {
+      "type": "h3",
+      "text": "How does Pennsylvania compare with its neighbors?"
+    },
+    {
+      "type": "p",
+      "text": "Lyme disease is concentrated in the Northeast and upper Midwest: in 2023, just 14 states reported 94.5% of US cases, the state report notes. All six of Pennsylvania's neighbors reported cases that year."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Cases per 100,000, 2023"
+      ],
+      "rows": [
+        [
+          "[New York](/blog/ticks-in-new-york)",
+          "22,173",
+          "111.7"
+        ],
+        [
+          "Pennsylvania",
+          "16,671",
+          "128.1"
+        ],
+        [
+          "[New Jersey](/blog/ticks-in-new-jersey)",
+          "7,224",
+          "77.9"
+        ],
+        [
+          "[West Virginia](/blog/ticks-in-west-virginia)",
+          "3,242",
+          "181.6"
+        ],
+        [
+          "[Maryland](/blog/ticks-in-maryland)",
+          "2,470",
+          "40.0"
+        ],
+        [
+          "[Ohio](/blog/ticks-in-ohio)",
+          "1,307",
+          "11.1"
+        ],
+        [
+          "[Delaware](/blog/ticks-in-delaware)",
+          "349",
+          "34.7"
+        ]
+      ],
+      "caption": "Confirmed and probable cases by state of residence, from [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Data through 2023, the latest year CDC had published as of October 2026."
+    },
+    {
+      "type": "p",
+      "text": "West Virginia's rate was higher than Pennsylvania's, while Ohio's was less than a tenth of it."
+    },
+    {
+      "type": "h2",
+      "text": "Which Pennsylvania counties have the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Relative to population, the north-central and northwestern counties. In 2023, Cameron, Jefferson, Potter, Forest, Warren and Venango counties each recorded more than 590 cases per 100,000 residents, over four times the state rate. The map shows the 2023 rate for every county, calculated by BuzzSkito from [CDC's county-level Lyme data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) and the [Census Bureau's county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)."
+    },
+    {
+      "type": "map",
+      "scope": "PA",
+      "title": "Lyme disease cases per 100,000 residents by county, Pennsylvania, 2023",
+      "categories": [
+        {
+          "key": "500plus",
+          "label": "500 or more"
+        },
+        {
+          "key": "250to499",
+          "label": "250 to 499"
+        },
+        {
+          "key": "100to249",
+          "label": "100 to 249"
+        },
+        {
+          "key": "under100",
+          "label": "Under 100"
+        }
+      ],
+      "values": {
+        "42001": "100to249",
+        "42003": "100to249",
+        "42005": "250to499",
+        "42007": "100to249",
+        "42009": "100to249",
+        "42011": "100to249",
+        "42013": "100to249",
+        "42015": "250to499",
+        "42017": "100to249",
+        "42019": "250to499",
+        "42021": "100to249",
+        "42023": "500plus",
+        "42025": "under100",
+        "42027": "100to249",
+        "42029": "100to249",
+        "42031": "500plus",
+        "42033": "250to499",
+        "42035": "100to249",
+        "42037": "under100",
+        "42039": "500plus",
+        "42041": "under100",
+        "42043": "under100",
+        "42045": "under100",
+        "42047": "250to499",
+        "42049": "100to249",
+        "42051": "100to249",
+        "42053": "500plus",
+        "42055": "under100",
+        "42057": "100to249",
+        "42059": "250to499",
+        "42061": "250to499",
+        "42063": "250to499",
+        "42065": "500plus",
+        "42067": "100to249",
+        "42069": "under100",
+        "42071": "under100",
+        "42073": "100to249",
+        "42075": "100to249",
+        "42077": "under100",
+        "42079": "under100",
+        "42081": "100to249",
+        "42083": "250to499",
+        "42085": "100to249",
+        "42087": "under100",
+        "42089": "under100",
+        "42091": "under100",
+        "42093": "under100",
+        "42095": "under100",
+        "42097": "under100",
+        "42099": "100to249",
+        "42101": "under100",
+        "42103": "250to499",
+        "42105": "500plus",
+        "42107": "under100",
+        "42109": "under100",
+        "42111": "250to499",
+        "42113": "100to249",
+        "42115": "250to499",
+        "42117": "250to499",
+        "42119": "under100",
+        "42121": "500plus",
+        "42123": "500plus",
+        "42125": "100to249",
+        "42127": "500plus",
+        "42129": "250to499",
+        "42131": "100to249",
+        "42133": "100to249"
+      },
+      "caption": "Confirmed and probable cases by county of residence. Rates are BuzzSkito's calculation: CDC's 2023 county counts divided by the Census Bureau's July 1, 2023 population estimates (Vintage 2025), which reproduces CDC's statewide 128.1. Small counties swing sharply: Cameron County's 37 cases came from about 4,400 people.",
+      "source": "[CDC county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html), 2023; [U.S. Census Bureau county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Lyme cases, 2023",
+        "Cases per 100,000"
+      ],
+      "rows": [
+        [
+          "Cameron",
+          "37",
+          "844.6"
+        ],
+        [
+          "Jefferson",
+          "326",
+          "747.1"
+        ],
+        [
+          "Potter",
+          "106",
+          "660.4"
+        ],
+        [
+          "Forest",
+          "40",
+          "617.9"
+        ],
+        [
+          "Warren",
+          "231",
+          "613.9"
+        ],
+        [
+          "Venango",
+          "296",
+          "598.1"
+        ],
+        [
+          "Clarion",
+          "200",
+          "541.4"
+        ],
+        [
+          "Crawford",
+          "440",
+          "536.5"
+        ],
+        [
+          "Wayne",
+          "260",
+          "506.0"
+        ]
+      ],
+      "caption": "The nine counties at 500 or more cases per 100,000 residents in 2023. Sources as for the map."
+    },
+    {
+      "type": "p",
+      "text": "Raw counts follow population instead. Allegheny County, home to Pittsburgh, had the most cases in 2023 (1,485), followed by Westmoreland (982) and Chester (934), yet Allegheny's rate of 120.8 per 100,000 was close to the state's. The lowest rates were in Lehigh County (15.5) and Philadelphia (22.7). The state's 2026 advisory shows the same shape for 2024: Allegheny had the most cases, 2,628, and Cameron the highest rate, 776.3 per 100,000."
+    },
+    {
+      "type": "p",
+      "text": "Two cautions apply to any county figure. Cases are counted where the patient lives, which may not be where the bite happened, as [CDC's Lyme case map page](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) notes. And a case now counts only when a lab reports the full two-step test: the state's advisory says a significant share of Pennsylvania's Lyme tests are reported as a single antibody blot, which does not count. Where labs report that way, cases can go uncounted, so a low county rate is not proof of low risk."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in Pennsylvania?"
+    },
+    {
+      "type": "p",
+      "text": "Anaplasmosis is the next biggest. Pennsylvania reported 1,292 cases in 2023, up from 25 in 2014, and 1,071 in 2024, according to the [state's 2023 report](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/diseases-and-conditions/vectorborne/Lyme%20Disease%20Annual%20Report%202023.pdf) and its [April 2026 advisory](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/2026%20HAN/2026%20-%20PAHAN%20-%20821-04-22-Ticks.pdf). The same blacklegged tick spreads it, and DEP found the germ in 9.6% of nymphs in 2023, nearly double the 5.4% of 2022, which the report says may account for the doubling of human cases between those years."
+    },
+    {
+      "type": "chart",
+      "title": "Anaplasmosis cases reported in Pennsylvania, 2014 to 2024",
+      "x": [
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "series": [
+        {
+          "name": "Anaplasmosis cases",
+          "values": [
+            25,
+            21,
+            58,
+            94,
+            108,
+            214,
+            216,
+            683,
+            581,
+            1292,
+            1071
+          ]
+        }
+      ],
+      "yLabel": "Cases per year",
+      "caption": "The state report links the rise to the spread and growing density of blacklegged ticks in Pennsylvania. Data through 2024.",
+      "source": "Pennsylvania Department of Health: [2023 surveillance report](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/diseases-and-conditions/vectorborne/Lyme%20Disease%20Annual%20Report%202023.pdf) for 2014 to 2023, [April 2026 health advisory](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/2026%20HAN/2026%20-%20PAHAN%20-%20821-04-22-Ticks.pdf) for 2024"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Tick that spreads it",
+        "Pennsylvania cases"
+      ],
+      "rows": [
+        [
+          "Anaplasmosis",
+          "Blacklegged tick",
+          "1,292 in 2023; 1,071 in 2024"
+        ],
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "224 in 2023, from voluntary reports"
+        ],
+        [
+          "Ehrlichiosis",
+          "Lone star tick",
+          "63 in 2023, the most on record"
+        ],
+        [
+          "Spotted fever rickettsiosis",
+          "American dog tick",
+          "12 in 2023"
+        ],
+        [
+          "Hard tick relapsing fever",
+          "Blacklegged tick",
+          "13 from 2020 to 2023; fewer than 35 through 2024"
+        ],
+        [
+          "Powassan virus disease",
+          "Blacklegged tick; groundhog tick",
+          "Human cases documented in 2011 and in several years since 2017"
+        ],
+        [
+          "Heartland virus disease",
+          "Lone star tick",
+          "First case reported in 2022"
+        ]
+      ],
+      "caption": "Sources: the [state's 2023 report](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/diseases-and-conditions/vectorborne/Lyme%20Disease%20Annual%20Report%202023.pdf) and [2026 advisory](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/2026%20HAN/2026%20-%20PAHAN%20-%20821-04-22-Ticks.pdf); groundhog tick and Powassan from [Penn State Extension](https://extension.psu.edu/common-ticks-and-tick-borne-diseases-in-pennsylvania). Babesiosis and hard tick relapsing fever are not reportable in Pennsylvania, so their counts rely on voluntary reports and are likely too low. Data through 2024."
+    },
+    {
+      "type": "p",
+      "text": "Babesiosis follows the deer tick, the state report shows: most cases begin in June and July, and in 2023, 48 of the 67 counties reported at least one, with the most in the southeast. Spotted fever rickettsiosis is also reported mostly from southeastern counties. Hard tick relapsing fever, first reported in a Pennsylvania resident in 2020, was reported from seven counties through 2023: Bucks, Delaware, Indiana, Lackawanna, Northampton, Pike and Westmoreland."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Pennsylvania?"
+    },
+    {
+      "type": "p",
+      "text": "All year, with the heaviest risk from April through August. The [state's 2023 report](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/diseases-and-conditions/vectorborne/Lyme%20Disease%20Annual%20Report%202023.pdf) says emergency department visits for tick bites rise every April, that blacklegged nymphs are active from late May to mid-July, and that 61.2% of 2023 Lyme cases were reported from May through August. A second rise in tick-bite visits comes in October and November, when adult blacklegged ticks are looking for hosts."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Time of year",
+        "Blacklegged (deer) tick",
+        "Other ticks",
+        "What Pennsylvania's data show"
+      ],
+      "rows": [
+        [
+          "Winter (December to February)",
+          "Adults seek hosts on any day above freezing (32°F)",
+          "Unfed dog ticks of any stage can turn up year-round",
+          "Lyme disease can be caught in any month"
+        ],
+        [
+          "Spring (March to May)",
+          "Adults into early spring; nymphs from late spring",
+          "Dog tick larvae; lone star nymphs and adults",
+          "Tick-bite emergency visits rise each April, mostly from adult deer and dog ticks"
+        ],
+        [
+          "Early summer (June and July)",
+          "Nymphs most active, late May to mid-July",
+          "Dog tick and lone star nymphs and adults",
+          "Peak onset of Lyme and other deer tick illnesses, late May to early August"
+        ],
+        [
+          "Late summer (August and September)",
+          "Larvae",
+          "Lone star and Asian longhorned larvae",
+          "Babesiosis cases still high in August"
+        ],
+        [
+          "Fall (October and November)",
+          "Adults return",
+          "Dog tick and lone star larvae",
+          "A second rise in tick-bite visits; a smaller second anaplasmosis peak"
+        ]
+      ],
+      "caption": "Life stages: [Penn State Extension](https://extension.psu.edu/common-ticks-and-tick-borne-diseases-in-pennsylvania) and its [Asian longhorned tick fact sheet](https://extension.psu.edu/asian-longhorned-tick-haemaphysalis-longicornis). Emergency visits and case timing: the [state's 2023 report](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/diseases-and-conditions/vectorborne/Lyme%20Disease%20Annual%20Report%202023.pdf) and [2026 advisory](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/2026%20HAN/2026%20-%20PAHAN%20-%20821-04-22-Ticks.pdf)."
+    },
+    {
+      "type": "p",
+      "text": "Winter is not tick-free. [Penn State](https://extension.psu.edu/common-ticks-and-tick-borne-diseases-in-pennsylvania) says adult blacklegged ticks can seek hosts on any winter day above freezing, and that unfed American dog ticks survive long enough between hosts to be met in any month. Since 2022 the state dates Lyme cases by when they were reported rather than when symptoms began, which is likely to shift its monthly figures a little later."
+    },
+    {
+      "type": "h2",
+      "text": "Where can you get a tick identified or tested in Pennsylvania?"
+    },
+    {
+      "type": "p",
+      "text": "As of October 2026, Penn State identifies ticks but does not test them. Its [Department of Entomology](https://ento.psu.edu/about/contact/instructions-for-insect-identification-requests) identifies submitted ticks to species, typically handles emailed photos within one business day and mailed specimens within up to five, and gives Pennsylvania residents priority; its instructions list no fee. Mailed specimens go in 70% alcohol in a sealed container inside a rigid box. The lab asks people not to send samples removed from the body or containing bodily fluids, so read its instructions before mailing a tick taken off a person."
+    },
+    {
+      "type": "p",
+      "text": "For testing, Penn State refers people to the Tick Research Lab of Pennsylvania, which it says tests ticks for Pennsylvania residents free of charge. The health department discourages relying on it. Its [April 2026 advisory](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/2026%20HAN/2026%20-%20PAHAN%20-%20821-04-22-Ticks.pdf) says a positive tick does not mean the person was infected, symptoms usually appear before results arrive, and a negative result can falsely reassure someone bitten by a different tick. A 2024 state survey of providers suggested tick testing may be driving antibiotic overuse, and the department says treatment should rest on a patient's symptoms and own tests, never on a tick result."
+    },
+    {
+      "type": "p",
+      "text": "The state does help with testing people: the same advisory says its Bureau of Laboratories can run Lyme blood tests for uninsured or underinsured residents when a health care provider orders them. The department's line for questions is 1-877-PA-HEALTH (1-877-724-3258)."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Pennsylvania?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick right away, ask a provider about a preventive antibiotic dose if it may have been a deer tick, and watch for symptoms for the next few weeks. The [health department's advisory](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/2026%20HAN/2026%20-%20PAHAN%20-%20821-04-22-Ticks.pdf) and Penn State describe removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick with fine-tipped tweezers as close to the skin as possible.",
+        "Pull upward with steady, even pressure.",
+        "Do not grab the tick by the middle of its body or use heat or petroleum jelly; Penn State says these can make it expel its gut contents into the skin."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For more detail and what to do with the tick afterward, see [the step-by-step tick removal guide](/blog/how-to-remove-tick-safely)."
+    },
+    {
+      "type": "p",
+      "text": "In Pennsylvania, a single dose of the antibiotic doxycycline may be advised after a deer tick bite to help prevent Lyme disease. The [health department's Lyme disease page](https://www.pa.gov/agencies/health/diseases-conditions/infectious-disease/vectorborne-diseases/tick-diseases/lyme) says it has been shown to be up to 90% effective, and that you may be eligible if the tick was (or may have been) a deer tick, was at least semi-engorged and was removed within the last 72 hours. The advisory adds that it does not prevent every case and has not been shown to prevent anaplasmosis, ehrlichiosis or other tick-borne infections. A provider decides whether it fits your case."
+    },
+    {
+      "type": "p",
+      "text": "How quickly an infected tick passes on the Lyme germ is still debated, but Penn State says blacklegged ticks typically need to feed for about 24 hours first. Powassan virus is different: it can be transmitted in as little as 15 minutes."
+    },
+    {
+      "type": "p",
+      "text": "Then watch for a rash. The health department says the erythema migrans rash appears in some form in 70% to 80% of Lyme cases, usually 3 to 30 days after the bite (about 7 days on average), and can spread to around 12 inches; the classic bull's-eye look is less common. Fever, chills, headache, muscle and joint pain, and swollen lymph nodes are other early signs. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow if it goes untreated."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you feel ill",
+      "text": "A rash, fever, headache or body aches in the weeks after a tick bite or time outdoors is a reason to see a provider and mention the tick. Do not wait for a tick test result. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Pennsylvania?"
+    },
+    {
+      "type": "p",
+      "text": "Treat your clothes, use repellent, stay out of the brush and check yourself after every outing. The [health department's April 2026 advisory](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/2026%20HAN/2026%20-%20PAHAN%20-%20821-04-22-Ticks.pdf) lists these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Stay on the trail.** Walk in the center of trails and avoid high grass and leaf litter; people who spend time in wooded, brushy areas face the most exposure.",
+        "**Use an EPA-registered repellent** on exposed skin and over clothing, following the label.",
+        "**Treat clothing, not skin, with permethrin.** The state recommends 0.5% permethrin products on shoes, clothing and gear, and Penn State notes permethrin is not approved for use on skin.",
+        "**Check and shower.** Do a full-body tick check, including pets, after time in tick habitat, and bathe or shower within 2 hours of coming indoors.",
+        "**Use the dryer.** Ten minutes on high heat kills ticks on clothes worn outdoors."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Hunters and hikers take on extra risk. [Penn State](https://extension.psu.edu/common-ticks-and-tick-borne-diseases-in-pennsylvania) says following deer trails and resting on the forest floor raise the chance of meeting ticks, and recommends long sleeves and long pants tucked into socks, plus light-colored clothing that makes dark ticks easier to spot."
+    },
+    {
+      "type": "p",
+      "text": "Pets carry ticks home and can get sick too. The state's Lyme disease page says dogs can be vaccinated against Lyme disease, so ask a veterinarian which vaccine and tick preventive suit your dog."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are ticks active in Pennsylvania in the winter?",
+      "answer": "Yes, the blacklegged tick is. Penn State Extension says adult blacklegged ticks are present from fall through early spring and can seek hosts on any winter day when the temperature is above freezing. The state health department says Lyme disease can be acquired year-round in Pennsylvania, although most cases are reported from May through August. Check for ticks after time outdoors on a mild winter day, especially in woods, brush and leaf litter."
+    },
+    {
+      "question": "What percentage of ticks in Pennsylvania carry Lyme disease?",
+      "answer": "It depends on the place and the life stage. Penn State Extension says 20% to 40% of blacklegged ticks in Pennsylvania test positive for the Lyme bacterium, depending on location. In the state's 2023 surveillance, 29.2% of 3,053 blacklegged nymphs collected from all 67 counties carried it. The state links Lyme disease only to the blacklegged tick; American dog ticks and lone star ticks carry other diseases."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in Pennsylvania?",
+      "answer": "Yes, but the state advises against relying on it. Penn State's entomology department identifies ticks but does not test them, and it refers people to the Tick Research Lab of Pennsylvania, which it says tests ticks free for state residents. The health department says a positive tick does not mean you were infected and a negative one can falsely reassure you. If you feel ill, see a health care provider rather than waiting for a result."
+    },
+    {
+      "question": "Which Pennsylvania county has the most Lyme disease?",
+      "answer": "It depends on whether you count cases or rates. Allegheny County had the most cases in 2023, 1,485, because so many people live there. Relative to population, Cameron County was highest, at about 845 cases per 100,000 residents, followed by Jefferson and Potter counties, based on CDC county counts and Census population estimates. Cases are counted where patients live, not where they were bitten, and small counties can swing sharply from year to year."
+    },
+    {
+      "question": "What should I do if I find an Asian longhorned tick in Pennsylvania?",
+      "answer": "Penn State Extension asks for the tick itself rather than a photo. Collect a few from the animal if you can, but leave wildlife alone; put them in 70% ethanol or bag and freeze them; note where, when and from what host they came; and mail them to Penn State's Insect Identification Laboratory at University Park. The species was first found in the state on a white-tailed deer in July 2018, and the fact sheet's main concern is livestock disease."
+    },
+    {
+      "question": "Should I see a doctor after a tick bite in Pennsylvania?",
+      "answer": "Call a provider promptly if the tick may have been a deer tick, looked at least semi-engorged and was removed within the last 72 hours: the state health department says a single dose of doxycycline can then help prevent Lyme disease. Also see a provider if a rash, fever, chills, headache, or muscle and joint pain appear in the weeks after a bite, and mention the tick."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "County Population Totals and Components of Change: 2020-2025",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html"
+    },
+    {
+      "title": "2023 Lyme and Other Tickborne Diseases Surveillance Report (May 2025)",
+      "publisher": "Pennsylvania Department of Health",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/diseases-and-conditions/vectorborne/Lyme%20Disease%20Annual%20Report%202023.pdf"
+    },
+    {
+      "title": "Lyme Disease and Other Tickborne Diseases in Pennsylvania, Health Advisory 821 (April 22, 2026)",
+      "publisher": "Pennsylvania Department of Health",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/2026%20HAN/2026%20-%20PAHAN%20-%20821-04-22-Ticks.pdf"
+    },
+    {
+      "title": "Lyme Disease",
+      "publisher": "Pennsylvania Department of Health",
+      "url": "https://www.pa.gov/agencies/health/diseases-conditions/infectious-disease/vectorborne-diseases/tick-diseases/lyme"
+    },
+    {
+      "title": "Common Ticks and Tick-borne Diseases in Pennsylvania",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/common-ticks-and-tick-borne-diseases-in-pennsylvania"
+    },
+    {
+      "title": "Insect ID Request Form and Instructions",
+      "publisher": "Penn State Department of Entomology",
+      "url": "https://ento.psu.edu/about/contact/instructions-for-insect-identification-requests"
+    },
+    {
+      "title": "Asian Longhorned Tick (Haemaphysalis longicornis)",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/asian-longhorned-tick-haemaphysalis-longicornis"
+    },
+    {
+      "title": "National Haemaphysalis longicornis (Longhorned Tick) Situation Report, August 29, 2018",
+      "publisher": "USDA Animal and Plant Health Inspection Service (copy hosted by the New Jersey Division of Fish and Wildlife)",
+      "url": "https://www.nj.gov/dep/fgw/pdf/2018/longhorntickupdate8-18usda.pdf"
+    }
+  ],
+  "disclaimer": "both"
+}
