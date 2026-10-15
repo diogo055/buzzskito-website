@@ -1,0 +1,972 @@
+{
+  "slug": "ticks-in-ohio",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in ohio",
+  "alsoTargets": [
+    "types of ticks in ohio",
+    "tick season ohio",
+    "lyme disease ohio"
+  ],
+  "metaTitle": "Ticks in Ohio: Types, Lyme Map and Tick Season",
+  "metaDescription": "Deer ticks are established in 76 of Ohio's 88 counties, and Lyme cases rose from 45 in 2008 to 1,307 in 2023. Tick photos, county maps, season and ID help.",
+  "h1": "Ticks in Ohio: Species, Where They Are, Lyme Data and Tick Season",
+  "dek": "Which ticks live in Ohio, how fast Lyme disease has risen county by county, when each tick is active, and where Ohioans can get a tick identified or tested.",
+  "breadcrumb": "Ticks in Ohio",
+  "excerpt": "Blacklegged ticks are established in 76 of Ohio's 88 counties, and Lyme cases are rising fast. Species photos, county maps, tick season by month and where to get a tick checked.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**About a dozen tick species have been found in Ohio, and three of them, the American dog tick, the blacklegged (deer) tick and the lone star tick, cause nearly all tick-borne illness reported to the state.** Lyme disease, spread by the blacklegged tick, has risen fast: Ohio reported 1,307 cases in 2023, up from 45 in 2008, according to [CDC surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html).",
+    "bullets": [
+      "CDC's county table, which runs through December 2025, lists blacklegged ticks as established in 76 of Ohio's 88 counties, and the state health department says the first known established population was found in 2010.",
+      "By our count from CDC's state table, Ohio accounts for about half of the increase in Lyme cases from the 2017 to 2019 average to 2023 in the 34 states outside CDC's high-incidence list, and Ohio and Michigan together for about 93%.",
+      "Relative to population, 2023 Lyme rates were highest in east-central and eastern counties such as Harrison, Coshocton, Carroll and Columbiana.",
+      "As of October 8, 2026, the state health department had counted 1,957 Lyme cases for 2026, led by Belmont, Jefferson and Columbiana counties.",
+      "Blacklegged tick nymphs peak in May and June and adults return in October and November, and the state says these ticks can be met on any day above freezing.",
+      "The state does not test ticks from the public or recommend testing a tick removed from a person; as of October 2026, Ohio State's Buckeye Tick Test offers paid testing, and local health departments may identify a tick for free."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Ohio at a glance",
+    "rows": [
+      [
+        "Tick species found in Ohio",
+        "About a dozen (Ohio Department of Health)"
+      ],
+      [
+        "Ticks people meet most",
+        "American dog, blacklegged and lone star ticks"
+      ],
+      [
+        "Counties with established blacklegged ticks",
+        "76 of 88 (CDC, through December 2025)"
+      ],
+      [
+        "First established blacklegged tick population",
+        "Found in 2010 (state health department)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "1,307 in 2023 (CDC); 1,957 in 2026 as of October 8 (state's running count)"
+      ],
+      [
+        "Lyme rate",
+        "11.1 per 100,000 in 2023, up from 0.4 in 2010 (CDC)"
+      ],
+      [
+        "Highest county rate, 2023",
+        "Harrison County, about 190 per 100,000 (27 cases; our calculation from CDC and Census data)"
+      ],
+      [
+        "Most cases by county, 2023",
+        "Columbiana County, 122"
+      ],
+      [
+        "Lone star tick",
+        "Established in 19 counties, reported in 29 (CDC, through 2025)"
+      ],
+      [
+        "Asian longhorned tick",
+        "First confirmed in Gallia County in 2020 (Ohio Department of Agriculture)"
+      ],
+      [
+        "Riskiest time for Lyme disease",
+        "Late spring through mid-summer (state health department)"
+      ],
+      [
+        "Tick testing",
+        "Not offered or recommended by the state; paid testing at Ohio State (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Ohio?"
+    },
+    {
+      "type": "p",
+      "text": "About a dozen tick species have been identified in Ohio, but most live on wild animals and rarely meet people. Three are the ones Ohioans and their pets are most likely to find: the American dog tick, the blacklegged tick and the lone star tick, according to [the Ohio Department of Health's (ODH) page on ticks in Ohio](https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/animals/ticks-in-ohio). Those three cause nearly all of the tick-borne illness reported to the department."
+    },
+    {
+      "type": "p",
+      "text": "In ODH's 2026 tick surveillance through October 8, American dog ticks were identified most often (2,429), ahead of blacklegged ticks (1,679) and lone star ticks (354), its [weekly vector-borne disease surveillance update](https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/news/vectorborne-disease-update) shows."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where in Ohio",
+        "When it is active",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Throughout Ohio, in grassy fields and clearings with little tree cover",
+          "April through September",
+          "Rocky Mountain spotted fever and, rarely, tularemia"
+        ],
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in 76 of 88 counties; most common in the east and south, in woods and brush",
+          "Nymphs peak in May and June, adults in October and November; any day above freezing",
+          "Lyme disease, anaplasmosis, babesiosis, Powassan virus disease; bites can be associated with alpha-gal syndrome"
+        ],
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Throughout Ohio, more common in the southern half; established in 19 counties",
+          "April through September",
+          "Ehrlichiosis and southern tick-associated rash illness (STARI); bites can be associated with alpha-gal syndrome"
+        ]
+      ],
+      "caption": "Habitat, season and diseases: [ODH's page on ticks in Ohio](https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/animals/ticks-in-ohio), dated February 10, 2025. County counts: CDC, through 2025."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "An adult female blacklegged tick with a reddish body and a much smaller blacklegged tick nymph on a person's fingertip, showing the difference in size",
+      "caption": "A blacklegged (deer) tick adult female and a nymph on a fingertip. ODH says most people who get Lyme disease are infected by nymphs, which are tiny and hard to see.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "p",
+      "text": "The blacklegged tick matters most for health: it is the tick that spreads Lyme disease in Ohio. ODH says most people are infected by nymphs, which feed in spring and summer, and [CDC says](https://www.cdc.gov/lyme/causes/index.html) a nymph is about the size of a poppy seed; adults are larger and more likely to be found and removed in time. Young ticks pick up the Lyme bacterium from white-footed mice and deer mice, while deer feed the adults but are not directly involved in spreading the disease, according to [ODH's Lyme disease page](https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/diseases/lyme-disease)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a green blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. ODH says adult females are the stage most likely to bite people.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "p",
+      "text": "ODH ties the American dog tick to Rocky Mountain spotted fever, not Lyme disease. [Ohio State's Buckeye Tick Test](https://buckeyeticktest.osu.edu/faq) checks only blacklegged ticks for the Lyme bacterium, because it says American dog and lone star ticks cannot transmit it. For sizes and markings side by side, see [how to tell the common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged ticks found in Ohio?"
+    },
+    {
+      "type": "p",
+      "text": "In most of the state. [CDC's county surveillance table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in 76 of Ohio's 88 counties and reported in 6 more: Auglaize, Crawford, Lorain, Marion, Miami and Paulding. The other six, Allen, Defiance, Hancock, Henry, Putnam and Van Wert, all in northwestern Ohio, have no record. ODH's own July 2026 map records the tick in all 88 counties: 77 established, 11 reported. To compare other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "map",
+      "scope": "OH",
+      "title": "Blacklegged (deer) tick status by county, Ohio, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {"39001":"established","39005":"established","39007":"established","39009":"established","39011":"reported","39013":"established","39015":"established","39017":"established","39019":"established","39021":"established","39023":"established","39025":"established","39027":"established","39029":"established","39031":"established","39033":"reported","39035":"established","39037":"established","39041":"established","39043":"established","39045":"established","39047":"established","39049":"established","39051":"established","39053":"established","39055":"established","39057":"established","39059":"established","39061":"established","39065":"established","39067":"established","39071":"established","39073":"established","39075":"established","39077":"established","39079":"established","39081":"established","39083":"established","39085":"established","39087":"established","39089":"established","39091":"established","39093":"reported","39095":"established","39097":"established","39099":"established","39101":"reported","39103":"established","39105":"established","39107":"established","39109":"reported","39111":"established","39113":"established","39115":"established","39117":"established","39119":"established","39121":"established","39123":"established","39125":"reported","39127":"established","39129":"established","39131":"established","39133":"established","39135":"established","39139":"established","39141":"established","39143":"established","39145":"established","39147":"established","39149":"established","39151":"established","39153":"established","39155":"established","39157":"established","39159":"established","39163":"established","39165":"established","39167":"established","39169":"established","39171":"established","39173":"established","39175":"established"},
+      "caption": "Established means six or more blacklegged ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer than six of one life stage. No record does not mean no ticks: CDC says it can reflect a lack of sampling, collection or reporting. Status is cumulative, so a county stays established once listed.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html)"
+    },
+    {
+      "type": "p",
+      "text": "Established populations are recent. ODH's [2026 Lyme disease update for clinicians](https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/news/lyme-disease-awareness-month) says the first known established population of blacklegged ticks in Ohio was discovered in 2010, and that the tick's range has expanded since. ODH describes the tick as most common in the eastern and southern counties but likely to turn up in suitable wooded, brushy habitat throughout the state."
+    },
+    {
+      "type": "p",
+      "text": "Ticks also turn up close to home: in the first year of Ohio State University's Buckeye Tick Test, just over 44% of submissions indicated ticks met in residential spaces such as backyards, and another 12.5% elsewhere in the neighborhood, [a May 2026 university news story reported](https://impact.research.osu.edu/story/buckeye-tick-test-helps-ohioans-understand-growing-disease-risk). ODH warns that yards next to woods or brush, or with tall grass or leaf litter, can hold ticks."
+    },
+    {
+      "type": "h3",
+      "text": "Which germs have been found in Ohio's blacklegged ticks?"
+    },
+    {
+      "type": "p",
+      "text": "The Lyme bacterium is the most widespread. CDC's companion table records the counties where each germ has been found in host-seeking blacklegged ticks, that is, ticks out looking for a host rather than ones already feeding."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Germ",
+        "Illness",
+        "Ohio counties with a record"
+      ],
+      "rows": [
+        [
+          "*Borrelia burgdorferi*",
+          "Lyme disease",
+          "49"
+        ],
+        [
+          "*Borrelia miyamotoi*",
+          "Hard tick relapsing fever",
+          "11"
+        ],
+        [
+          "*Anaplasma phagocytophilum*, human-active variant",
+          "Anaplasmosis",
+          "5: Columbiana, Coshocton, Harrison, Holmes, Vinton"
+        ],
+        [
+          "*Babesia microti*",
+          "Babesiosis",
+          "1: Licking"
+        ],
+        [
+          "Powassan virus",
+          "Powassan virus disease",
+          "None"
+        ],
+        [
+          "*Borrelia mayonii* and *Ehrlichia muris eauclairensis*",
+          "A rarer cause of Lyme disease; ehrlichiosis",
+          "None"
+        ]
+      ],
+      "caption": "Source: [CDC tick surveillance data sets](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) (ArboNET Tick Module), pathogen table through December 2025. A county without a record may simply not have been tested."
+    },
+    {
+      "type": "p",
+      "text": "ODH says blacklegged ticks collected since 2019 have been tested by CDC and Ohio State's Infectious Diseases Institute, and that the Lyme and anaplasmosis germs could be present beyond the counties where they were found. Among ticks sent to the Buckeye Tick Test in its first year, about 20.5% of adult blacklegged ticks and roughly 15.8% of nymphs carried the Lyme bacterium, [Ohio State's news story](https://impact.research.osu.edu/story/buckeye-tick-test-helps-ohioans-understand-growing-disease-risk) said, with significantly higher rates in some areas."
+    },
+    {
+      "type": "h2",
+      "text": "Is the lone star tick in Ohio?"
+    },
+    {
+      "type": "p",
+      "text": "Yes. ODH says it lives throughout Ohio but is encountered more often in the southern half. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html), which runs through 2025, lists it as established in 19 Ohio counties and reported in 29; the other 40 have no record, which CDC says does not mean the tick is absent. Most established counties are in the south, such as Adams, Gallia, Jackson, Lawrence, Pike and Scioto, but the list also includes Cuyahoga, Delaware, Franklin and Stark. ODH's own July 2026 map counts 28 established counties."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick, named for the single pale spot on its back. ODH calls it a very aggressive tick that bites humans.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "Its nymphs and adult females bite people most often, and ODH says that in Ohio it transmits ehrlichiosis and southern tick-associated rash illness (STARI); its larvae cannot transmit disease. It does not spread Lyme disease, but ODH says the bite of a lone star tick, like that of a blacklegged tick, can be associated with alpha-gal syndrome; see [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome)."
+    },
+    {
+      "type": "p",
+      "text": "Ehrlichiosis cases cluster in the south too. [CDC's county counts of tick-borne disease](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) include 64 Ohio cases of *Ehrlichia chaffeensis* ehrlichiosis from 2019 through 2022, the most in Gallia (9), Scioto (8) and Clermont (5) counties, and ODH's 2026 tally had reached 39 ehrlichiosis cases from 20 counties by October 8."
+    },
+    {
+      "type": "h2",
+      "text": "Is the Asian longhorned tick in Ohio?"
+    },
+    {
+      "type": "p",
+      "text": "Yes. The Ohio Department of Agriculture (ODA) [announced on August 3, 2020](https://agri.ohio.gov/home/news-and-events/all-news/07312020+-+asian+-longhorned-tick) that the invasive tick had been confirmed in Gallia County, on a stray dog from the county that was later taken to a shelter in Canal Winchester. Ohio State identified the tick on May 28, and the U.S. Department of Agriculture's National Veterinary Services Laboratory in Ames, Iowa, confirmed it. The species was first confirmed in the United States in New Jersey in 2017."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female, both plain reddish-brown without markings, resting on a U.S. dime for scale",
+      "caption": "An Asian longhorned tick nymph (left) and adult female (right) on a U.S. dime. ODA describes the ticks as light brown and often smaller than a sesame seed.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "ODA treats it mainly as a livestock threat: females can reproduce without a male, so a single tick can start a population, and the ticks can distress an animal by feeding in large numbers. When it announced the find, ODA asked livestock producers and owners to call its Division of Animal Health at 614-728-6220, or their local veterinarian, about unusual ticks or large numbers of ticks on an animal. The tick has kept turning up: Buckeye Tick Test submissions led to its identification in a new Ohio county, Ohio State said in May 2026."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does Ohio have?"
+    },
+    {
+      "type": "p",
+      "text": "Ohio reported 1,307 Lyme disease cases in 2023, a rate of 11.1 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). That is 29 times the 45 cases reported in 2008, by our calculation. It was also the first year Ohio's rate passed 10 per 100,000 in CDC's rate data, which begin in 2010, when the rate was 0.4."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Ohio, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            45,
+            58,
+            44,
+            53,
+            67,
+            93,
+            119,
+            154,
+            160,
+            270,
+            293,
+            467,
+            409,
+            590,
+            553,
+            1307
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "A revised case definition took effect in 2022, so 2022 and 2023 are not directly comparable with earlier years. CDC says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions. Data through 2023, the latest CDC year as of October 2026; the state's newer counts are discussed below.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)"
+    },
+    {
+      "type": "p",
+      "text": "Read the jumps with care. Ohio is not one of the 15 states that [CDC's 2022 surveillance report](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) classes as high-incidence. Under the case definition revised that year, high-incidence states may count cases on laboratory evidence alone, while low-incidence states such as Ohio still need supporting clinical information, and the report cautions that the change rules out detailed comparison with earlier years. It put Ohio's 553 cases in 2022 at 61.2% above its 2017 to 2019 average of 343; cases in the low-incidence jurisdictions as a group rose 10.0%."
+    },
+    {
+      "type": "p",
+      "text": "The state's newer counts keep climbing. ODH's 2026 update for clinicians charts reported cases from 2010 through 2025 and describes a 74-fold increase since 2010. Its weekly surveillance update had counted 1,957 Lyme cases for 2026 as of October 8, from 73 counties, a running total it updates through the summer and fall. In the early 1990s, by contrast, ODH reported one to two dozen cases in Ohio residents, its Lyme disease page says; its data also suggest males, especially boys aged 5 to 9, are at higher risk."
+    },
+    {
+      "type": "h3",
+      "text": "How does Ohio compare with other states?"
+    },
+    {
+      "type": "p",
+      "text": "Ohio accounts for more of the recent growth in Lyme disease outside the high-incidence states than any other state. By our count from CDC's state table, the 34 states in that table outside CDC's high-incidence list went from an average of 2,561 cases a year in 2017 to 2019 to 4,497 in 2023. Ohio's own rise, from an average of 343 to 1,307, is about half of that increase, and Ohio and Michigan together account for about 93% of it. No other state outside the high-incidence list reported as many cases in 2023."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Cases per 100,000, 2023",
+        "On CDC's high-incidence list?"
+      ],
+      "rows": [
+        [
+          "[Pennsylvania](/blog/ticks-in-pennsylvania)",
+          "16,671",
+          "128.1",
+          "Yes"
+        ],
+        [
+          "[West Virginia](/blog/ticks-in-west-virginia)",
+          "3,242",
+          "181.6",
+          "Yes"
+        ],
+        [
+          "Ohio",
+          "1,307",
+          "11.1",
+          "No"
+        ],
+        [
+          "[Michigan](/blog/ticks-in-michigan)",
+          "1,152",
+          "11.5",
+          "No"
+        ],
+        [
+          "[Indiana](/blog/ticks-in-indiana)",
+          "257",
+          "3.8",
+          "No"
+        ],
+        [
+          "[Kentucky](/blog/ticks-in-kentucky)",
+          "120",
+          "2.7",
+          "No"
+        ]
+      ],
+      "caption": "Confirmed and probable cases by state of residence, from [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html); high-incidence list from [CDC's 2022 surveillance report](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm). Data through 2023, the latest year CDC had published as of October 2026."
+    },
+    {
+      "type": "h2",
+      "text": "Which Ohio counties have the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Relative to population, the east-central and eastern counties. In 2023, seven counties recorded 100 or more cases per 100,000 residents: Harrison (189.6), Coshocton (141.1), Carroll (123.1), Columbiana (121.9), Guernsey (112.8), Muskingum (110.2) and Holmes (101.3), each at least nine times the state rate. The map shows the 2023 rate for every county, calculated by BuzzSkito from [CDC's county-level Lyme data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) and the [Census Bureau's county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)."
+    },
+    {
+      "type": "map",
+      "scope": "OH",
+      "title": "Lyme disease cases per 100,000 residents by county, Ohio, 2023",
+      "categories": [
+        {
+          "key": "100plus",
+          "label": "100 or more"
+        },
+        {
+          "key": "50to99",
+          "label": "50 to 99"
+        },
+        {
+          "key": "10to49",
+          "label": "10 to 49"
+        },
+        {
+          "key": "under10",
+          "label": "Under 10"
+        }
+      ],
+      "values": {"39001":"under10","39003":"under10","39005":"10to49","39007":"under10","39009":"10to49","39011":"under10","39013":"10to49","39015":"under10","39017":"under10","39019":"100plus","39021":"under10","39023":"under10","39025":"under10","39027":"under10","39029":"100plus","39031":"100plus","39033":"under10","39035":"under10","39037":"under10","39039":"under10","39041":"under10","39043":"under10","39045":"10to49","39047":"under10","39049":"under10","39051":"under10","39053":"10to49","39055":"under10","39057":"under10","39059":"100plus","39061":"under10","39063":"under10","39065":"under10","39067":"100plus","39069":"under10","39071":"under10","39073":"50to99","39075":"100plus","39077":"under10","39079":"50to99","39081":"10to49","39083":"50to99","39085":"under10","39087":"under10","39089":"10to49","39091":"under10","39093":"under10","39095":"under10","39097":"under10","39099":"10to49","39101":"under10","39103":"under10","39105":"10to49","39107":"under10","39109":"under10","39111":"10to49","39113":"under10","39115":"50to99","39117":"under10","39119":"100plus","39121":"10to49","39123":"under10","39125":"under10","39127":"10to49","39129":"under10","39131":"under10","39133":"under10","39135":"under10","39137":"under10","39139":"10to49","39141":"10to49","39143":"under10","39145":"under10","39147":"under10","39149":"under10","39151":"10to49","39153":"under10","39155":"10to49","39157":"50to99","39159":"under10","39161":"under10","39163":"under10","39165":"under10","39167":"10to49","39169":"10to49","39171":"under10","39173":"under10","39175":"under10"},
+      "caption": "Confirmed and probable cases by county of residence. Rates are BuzzSkito's calculation: CDC's 2023 county counts divided by the Census Bureau's July 1, 2023 population estimates (Vintage 2025), which reproduces CDC's statewide 11.1. Eighteen counties reported no cases and are included under 10. Small counties swing sharply: Harrison County's 27 cases came from about 14,200 people.",
+      "source": "[CDC county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html), 2023; [U.S. Census Bureau county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Lyme cases, 2023",
+        "Cases per 100,000"
+      ],
+      "rows": [
+        [
+          "Harrison",
+          "27",
+          "189.6"
+        ],
+        [
+          "Coshocton",
+          "52",
+          "141.1"
+        ],
+        [
+          "Carroll",
+          "33",
+          "123.1"
+        ],
+        [
+          "Columbiana",
+          "122",
+          "121.9"
+        ],
+        [
+          "Guernsey",
+          "43",
+          "112.8"
+        ],
+        [
+          "Muskingum",
+          "95",
+          "110.2"
+        ],
+        [
+          "Holmes",
+          "45",
+          "101.3"
+        ],
+        [
+          "Knox",
+          "59",
+          "93.4"
+        ],
+        [
+          "Tuscarawas",
+          "78",
+          "84.8"
+        ],
+        [
+          "Jackson",
+          "25",
+          "76.6"
+        ],
+        [
+          "Hocking",
+          "21",
+          "76.2"
+        ],
+        [
+          "Morgan",
+          "9",
+          "66.1"
+        ]
+      ],
+      "caption": "The 12 counties at 50 or more cases per 100,000 residents in 2023. Sources and method as for the map."
+    },
+    {
+      "type": "p",
+      "text": "Raw counts follow population more closely. Columbiana County had the most cases in 2023 (122), followed by Muskingum (95) and Stark (89). The big-city counties had low rates: 3.1 per 100,000 in Franklin County and 2.3 in both Cuyahoga and Hamilton. Eighteen counties, many of them in western and northwestern Ohio, reported none."
+    },
+    {
+      "type": "h3",
+      "text": "How did Lyme disease spread across Ohio's counties?"
+    },
+    {
+      "type": "p",
+      "text": "Into most of the state within about a decade, with the heaviest counts shifting to eastern Ohio. From 2001 through 2015, the county reporting the most cases each year in CDC's county file was Cuyahoga, Franklin or Hamilton, sometimes tied with another. Since 2016 it has been an eastern county every year but 2018, when Cuyahoga led: Jefferson, Harrison, Tuscarawas, Belmont and, in 2023, Columbiana."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Year",
+        "Ohio cases",
+        "Counties with at least one case",
+        "Counties with 10 or more",
+        "County with the most cases"
+      ],
+      "rows": [
+        [
+          "2008",
+          "45",
+          "28",
+          "0",
+          "Cuyahoga (8)"
+        ],
+        [
+          "2013",
+          "93",
+          "34",
+          "1",
+          "Franklin (16)"
+        ],
+        [
+          "2016",
+          "160",
+          "40",
+          "3",
+          "Jefferson (20)"
+        ],
+        [
+          "2019",
+          "467",
+          "66",
+          "18",
+          "Jefferson (32)"
+        ],
+        [
+          "2021",
+          "590",
+          "60",
+          "20",
+          "Belmont (46)"
+        ],
+        [
+          "2023",
+          "1,307",
+          "70",
+          "31",
+          "Columbiana (122)"
+        ]
+      ],
+      "caption": "Our count from [CDC's county-level Lyme data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html): confirmed and probable cases by county of residence, out of 88 counties. CDC says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions, and a revised case definition took effect in 2022."
+    },
+    {
+      "type": "p",
+      "text": "Eastern counties also lead the 2026 count so far. As of October 8, 2026, the counties with the most cases in ODH's weekly update were Belmont (190), Jefferson (133), Columbiana (125), Stark (104), Licking (99) and Tuscarawas (95)."
+    },
+    {
+      "type": "p",
+      "text": "Two cautions apply to any county figure. Cases are counted where the patient lives, not necessarily where the bite happened, as [CDC's Lyme case maps page](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) and ODH both note. And these are reported cases only: a county with few reports can still have infected ticks."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in Ohio?"
+    },
+    {
+      "type": "p",
+      "text": "Lyme disease and Rocky Mountain spotted fever are the most common, and anaplasmosis, babesiosis and ehrlichiosis are on the rise, according to [ODH's page on tick-borne diseases in Ohio](https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/diseases/tickborne-diseases), which calls tularemia, southern tick-associated rash illness and Powassan virus rare. The table compares CDC's county counts for 2019 to 2022 with ODH's running count for 2026, in which anaplasmosis and ehrlichiosis have each passed Rocky Mountain spotted fever."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Tick that spreads it in Ohio",
+        "Ohio cases, 2019 to 2022 (CDC)",
+        "2026 as of October 8 (ODH)"
+      ],
+      "rows": [
+        [
+          "Spotted fever rickettsiosis, including Rocky Mountain spotted fever",
+          "American dog tick",
+          "140",
+          "31 Rocky Mountain spotted fever cases"
+        ],
+        [
+          "Ehrlichiosis",
+          "Lone star tick",
+          "65 (64 *Ehrlichia chaffeensis*, 1 *E. ewingii*)",
+          "39"
+        ],
+        [
+          "Anaplasmosis",
+          "Blacklegged tick",
+          "22",
+          "40"
+        ],
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "5",
+          "3"
+        ],
+        [
+          "Tularemia",
+          "American dog tick (rarely)",
+          "2",
+          "Not listed"
+        ]
+      ],
+      "caption": "CDC: cases by county of residence summed over 2019 to 2022, from [CDC's county counts of tick-borne disease](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html), which leave out cases without a reported county. 2026: [ODH's weekly surveillance update](https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/news/vectorborne-disease-update), a running count. Ticks: [ODH's page on ticks in Ohio](https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/animals/ticks-in-ohio)."
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever is concentrated in southern Ohio. Of the 140 cases CDC counted for 2019 to 2022, Jackson County reported 32, Gallia 15 and Pike 12, and ODH's 2026 list is again led by Jackson (7) and Gallia (5). Anaplasmosis, spread by the blacklegged tick, stands out for its growth: ODH's 40 cases for 2026 through October 8 already exceed the 22 that CDC counted for 2019 through 2022 combined."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Ohio?"
+    },
+    {
+      "type": "p",
+      "text": "Mostly from early spring to late fall, when [ODH's tick-borne disease page](https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/diseases/tickborne-diseases) says most tick-borne illness is transmitted, but the blacklegged tick never fully stops. According to [ODH's page on Ohio's ticks](https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/animals/ticks-in-ohio), American dog and lone star ticks are active from April through September. Blacklegged ticks usually become active in late March or early April, peak in May and June when nymphs seek hosts, and pick up again in October and November when adults do; they can be met any time the temperature is above freezing."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-life-stages.webp",
+      "width": 1200,
+      "height": 793,
+      "alt": "Three blacklegged ticks of different sizes on a blue-green surface: a large adult with a reddish body and dark legs, and two much smaller immature ticks",
+      "caption": "Blacklegged tick adult and two much smaller immature ticks, a nymph and a larva. In Ohio's records, each stage peaks at a different time of year.",
+      "credit": "CDC/ Michael L. Levin, Ph. D. (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1205"
+    },
+    {
+      "type": "p",
+      "text": "ODH's records show how differently the life stages behave, placing most nymphs in late spring and early summer, most larvae in midsummer and most adults from October through December."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Month",
+        "Adults",
+        "Nymphs",
+        "Larvae"
+      ],
+      "rows": [
+        [
+          "January",
+          "1.1%",
+          "0.2%",
+          "0.0%"
+        ],
+        [
+          "February",
+          "1.6%",
+          "0.0%",
+          "0.0%"
+        ],
+        [
+          "March",
+          "7.1%",
+          "0.2%",
+          "0.0%"
+        ],
+        [
+          "April",
+          "9.0%",
+          "1.2%",
+          "0.4%"
+        ],
+        [
+          "May",
+          "4.4%",
+          "26.0%",
+          "2.3%"
+        ],
+        [
+          "June",
+          "0.4%",
+          "45.5%",
+          "2.0%"
+        ],
+        [
+          "July",
+          "0.1%",
+          "15.6%",
+          "59.6%"
+        ],
+        [
+          "August",
+          "0.1%",
+          "4.7%",
+          "23.4%"
+        ],
+        [
+          "September",
+          "0.3%",
+          "3.5%",
+          "10.1%"
+        ],
+        [
+          "October",
+          "23.3%",
+          "2.7%",
+          "2.2%"
+        ],
+        [
+          "November",
+          "26.4%",
+          "0.4%",
+          "0.0%"
+        ],
+        [
+          "December",
+          "26.2%",
+          "0.0%",
+          "0.0%"
+        ]
+      ],
+      "caption": "Share of each life stage's Ohio records in each month (12,796 adults, 1,714 nymphs, 11,723 larvae). ODH publishes weekly shares; BuzzSkito summed them by the month ODH assigns each week to, so some months cover five weeks. Records show when ticks were found, which also depends on when people looked. Source: [ODH's observed seasonal abundance of blacklegged ticks](https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/media/blacklegged-ticks-seasonal-activity-figure), updated July 16, 2026."
+    },
+    {
+      "type": "p",
+      "text": "By our sums, about 87% of nymph records fall from May through July, and about three-quarters of adult records from October through December. Lyme cases follow the nymphs. ODH's Lyme disease page says cases are reported in every month but peak in summer: most patients fall ill in July and August after bites in June and July, so late spring through mid-summer is when Ohioans are most at risk."
+    },
+    {
+      "type": "h2",
+      "text": "Where can you get a tick identified or tested in Ohio?"
+    },
+    {
+      "type": "p",
+      "text": "As of October 2026, your local health department may identify a tick for free, and Ohio State University's Buckeye Tick Test identifies and tests ticks for a fee; ODH does not collect ticks from the public or test them. The [Buckeye Tick Test's FAQ](https://buckeyeticktest.osu.edu/faq) says a local health department may be able to examine a tick under a microscope, the most accurate way to identify one. The service, which Ohio State says launched in 2025, tests each tick for the germs its species can spread and returns results within 72 business hours of the tick's arrival; it offers no identification-only option and knows of no insurance that covers the cost."
+    },
+    {
+      "type": "p",
+      "text": "ODH does not recommend testing a tick removed from yourself or a family member, its [tick-borne disease page](https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/diseases/tickborne-diseases) says: a tick that tests positive may not have passed on the infection, results take several days and can delay care, most infected people do not recall a bite, and tests on ticks can give false results. [CDC adds](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) that tick results should not be used for treatment decisions and that a negative result can give false assurance. To compare a tick against pictures, use a [visual tick identification chart](/learn/tick-identification-chart)."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Ohio?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick as soon as you can, ask a healthcare provider whether a preventive antibiotic fits your case, and watch for a rash or fever over the following weeks. [CDC's after-a-bite guidance](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) describes removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers.",
+        "Pull it away from the skin with steady, even pressure, without twisting or jerking; if the mouthparts stay in and will not come out easily, leave them alone.",
+        "Clean the bite area and your hands with soap and water, rubbing alcohol or hand sanitizer.",
+        "Dispose of a live tick in a sealed container, wrapped tightly in tape, flushed down the toilet or in alcohol, and never crush it with your fingers.",
+        "Skip petroleum jelly, heat, nail polish and other substances meant to make the tick detach."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For more detail, see [the step-by-step tick removal guide](/blog/how-to-remove-tick-safely). Speed matters: [CDC says](https://www.cdc.gov/lyme/causes/index.html) that in most cases a tick must be attached for more than 24 hours before it can transmit the Lyme bacterium."
+    },
+    {
+      "type": "p",
+      "text": "In certain circumstances, a single dose of doxycycline after a tick bite in an area where Lyme disease is common may lower the risk of Lyme disease, [CDC says](https://www.cdc.gov/lyme/prevention/index.html); ask your healthcare provider whether antibiotics after a bite are appropriate for you. [ODH's tick-borne disease page](https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/diseases/tickborne-diseases) adds an Ohio note: the state has not historically met the threshold at which CDC and other medical groups recommend such treatment, but Lyme activity has increased substantially, and in areas with more Lyme disease, such as eastern Ohio, timely preventive treatment should be considered after a blacklegged tick that has fed (is engorged) has been identified. It is recommended only for blacklegged tick bites."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Red erythema migrans rash with a darker center and a wide outer ring on the back of a person's upper arm, a sign of early Lyme disease",
+      "caption": "An erythema migrans rash on an upper arm. CDC says the rash sometimes clears as it grows, giving a target or bull's-eye look like this one.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "p",
+      "text": "Then watch for symptoms. CDC says the erythema migrans rash occurs in about 70% to 80% of infected people, starting at the bite 3 to 30 days later (about 7 days on average), and can expand to 12 inches or more across; it may feel warm but is rarely itchy or painful. Fever, chills, headache, fatigue, muscle and joint aches and swollen lymph nodes can appear in the same window, with or without a rash, according to [CDC's page on Lyme disease signs and symptoms](https://www.cdc.gov/lyme/signs-symptoms/index.html). [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow if it goes untreated."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a healthcare provider if you feel ill",
+      "text": "CDC says to see a doctor if you develop a rash or fever within several weeks of removing a tick, and to mention the bite, when it happened and where you likely picked up the tick. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Ohio?"
+    },
+    {
+      "type": "p",
+      "text": "Avoid tick habitat where you can, use a repellent, cover up and check for ticks after every outing. [ODH's tick-borne disease page](https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/diseases/tickborne-diseases) lists these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Stay out of the brush.** Avoid wooded and brushy areas with high grass and leaf litter, walk in the center of trails, and take extra care in spring, summer and fall.",
+        "**Use an EPA-registered repellent** labeled for use against ticks on exposed skin, and follow the label; parents should apply it to their children, avoiding the hands, eyes and mouth.",
+        "**Treat clothing and gear with 0.5% permethrin.** ODH says treated boots, pants, socks and tents stay protective through several washings; always follow the label.",
+        "**Cover up.** Wear long pants, long sleeves and long socks, tuck pant legs into socks or boots and shirts into pants, and choose light colors so ticks are easier to spot.",
+        "**Dry, shower and check.** Tumble dry clothes on high heat for 10 minutes after coming indoors (longer if they are damp), shower as soon as possible, preferably within two hours, and check your whole body with a mirror; on children, check especially the hair, plus the ears, underarms, belly button, waist and backs of the knees."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For a routine to follow every time, see [how to do a full-body tick check](/blog/how-to-do-a-tick-check). ODH says ticks also ride indoors on clothing and pets and attach later, so check pets, coats and day packs too, and, as the Buckeye Tick Test suggests, ask a veterinarian about tick prevention for pets; see [what to do about ticks on dogs](/blog/ticks-on-dogs)."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are ticks active in Ohio in the winter?",
+      "answer": "Blacklegged ticks can be. The Ohio Department of Health says they may be encountered at any time of year when the temperature is above freezing, and by our count about three-quarters of its adult blacklegged tick records fall in October through December. American dog and lone star ticks are active from April through September. Lyme disease cases are reported in every month in Ohio, although the fewest come in winter, so check for ticks after time in woods or brush on mild winter days."
+    },
+    {
+      "question": "What percentage of ticks in Ohio carry Lyme disease?",
+      "answer": "It varies by place and life stage. In the first year of Ohio State University's Buckeye Tick Test, about 20.5% of adult blacklegged ticks and roughly 15.8% of nymphs that were sent in carried the Lyme bacterium, the university said in a news story, with higher rates in some areas. CDC's county table records the bacterium in host-seeking blacklegged ticks in 49 of Ohio's 88 counties. Only the blacklegged tick spreads Lyme disease in Ohio; American dog and lone star ticks carry other germs."
+    },
+    {
+      "question": "Which Ohio county has the most Lyme disease?",
+      "answer": "It depends on how you count. In CDC's 2023 data, Columbiana County had the most cases, 122, while Harrison County had the highest rate, about 190 cases per 100,000 residents by our calculation, followed by Coshocton and Carroll counties. In the state's running count for 2026, Belmont County led with 190 cases as of October 8. Cases are counted where patients live, not where they were bitten, and small counties can swing sharply from year to year."
+    },
+    {
+      "question": "Is Lyme disease increasing in Ohio?",
+      "answer": "Yes. CDC counted 45 Ohio cases in 2008 and 1,307 in 2023, when the state's rate passed 10 per 100,000 for the first time in CDC's rate data. The Ohio Department of Health says cases are increasing as blacklegged tick populations expand, after the first known established population was found in 2010, and its running count for 2026 had reached 1,957 by October 8. A 2022 change in how cases are counted limits comparisons with earlier years."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in Ohio?",
+      "answer": "Yes, but not by the state, and CDC says the result should not guide treatment. The Ohio Department of Health does not test ticks from the public and does not recommend tick testing, because a positive tick may not have infected you and a negative one says nothing about bites you missed. Ohio State's Buckeye Tick Test identifies and tests ticks for a fee, and your local health department may identify a tick for free. If you feel ill, see a healthcare provider."
+    },
+    {
+      "question": "Should I take antibiotics after a tick bite in Ohio?",
+      "answer": "Ask a healthcare provider. CDC says that in certain circumstances, a single dose of doxycycline after a tick bite in an area where Lyme disease is common may lower the risk of Lyme disease. The Ohio Department of Health says that in parts of Ohio with more Lyme disease, such as eastern Ohio, timely preventive treatment should be considered after a fed blacklegged tick has been identified, and that it is not recommended for bites from other kinds of ticks."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (cases by county of residence, 2019-2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "Signs and Symptoms of Untreated Lyme Disease",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/signs-symptoms/index.html"
+    },
+    {
+      "title": "How Lyme Disease Spreads",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "Preventing Lyme Disease",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/prevention/index.html"
+    },
+    {
+      "title": "County Population Totals and Components of Change: 2020-2025",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html"
+    },
+    {
+      "title": "Ticks in Ohio",
+      "publisher": "Ohio Department of Health",
+      "url": "https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/animals/ticks-in-ohio"
+    },
+    {
+      "title": "Lyme Disease",
+      "publisher": "Ohio Department of Health",
+      "url": "https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/diseases/lyme-disease"
+    },
+    {
+      "title": "Tickborne Diseases in Ohio",
+      "publisher": "Ohio Department of Health",
+      "url": "https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/diseases/tickborne-diseases"
+    },
+    {
+      "title": "Ohio Vector-borne Disease Surveillance Update (2026 numbers as of October 8, 2026)",
+      "publisher": "Ohio Department of Health",
+      "url": "https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/news/vectorborne-disease-update"
+    },
+    {
+      "title": "Lyme Disease Awareness: 2026 Updates for Healthcare Providers",
+      "publisher": "Ohio Department of Health",
+      "url": "https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/news/lyme-disease-awareness-month"
+    },
+    {
+      "title": "Observed Seasonal Abundance of Blacklegged Ticks (Ixodes scapularis) in Ohio",
+      "publisher": "Ohio Department of Health",
+      "url": "https://odh.ohio.gov/know-our-programs/zoonotic-vector-borne-diseases/media/blacklegged-ticks-seasonal-activity-figure"
+    },
+    {
+      "title": "Buckeye Tick Test: Frequently Asked Questions",
+      "publisher": "The Ohio State University",
+      "url": "https://buckeyeticktest.osu.edu/faq"
+    },
+    {
+      "title": "Buckeye Tick Test helps Ohioans better understand growing disease risk (May 5, 2026)",
+      "publisher": "The Ohio State University, Enterprise for Research, Innovation and Knowledge",
+      "url": "https://impact.research.osu.edu/story/buckeye-tick-test-helps-ohioans-understand-growing-disease-risk"
+    },
+    {
+      "title": "Asian Longhorned Tick Confirmed in Gallia County (news release, August 3, 2020)",
+      "publisher": "Ohio Department of Agriculture",
+      "url": "https://agri.ohio.gov/home/news-and-events/all-news/07312020+-+asian+-longhorned-tick"
+    }
+  ],
+  "disclaimer": "both"
+}

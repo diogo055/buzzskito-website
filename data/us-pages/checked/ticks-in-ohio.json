@@ -1,0 +1,10 @@
+{
+ "id": "ticks-in-ohio",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "cde0dca0e76960e959fd61408bf91cef448a5acc5585ff10c4dd8967e72c9aa1",
+ "claimsChecked": 580,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 3,
+ "checkedOn": "2026-10-15"
+}
