@@ -1,0 +1,991 @@
+{
+  "slug": "ticks-in-south-carolina",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in south carolina",
+  "alsoTargets": [
+    "types of ticks in south carolina",
+    "tick season south carolina",
+    "lyme disease south carolina"
+  ],
+  "metaTitle": "Ticks in South Carolina: Types, Season and Maps",
+  "metaDescription": "Lone star and Gulf Coast ticks are the ones South Carolinians report most. County tick maps, Lyme and spotted fever data, tick season and what to do.",
+  "h1": "Ticks in South Carolina: Species, County Maps, Disease Data and Tick Season",
+  "dek": "Which ticks are found on South Carolinians most often, where each is established county by county, how much Lyme disease and spotted fever the state reports, when ticks bite, and how to send one to the state.",
+  "breadcrumb": "Ticks in South Carolina",
+  "excerpt": "Lone star and Gulf Coast ticks top South Carolina's list of ticks found on people. Species photos, county maps, Lyme and spotted fever data, tick season and state help.",
+  "datePublished": "2026-11-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**The lone star tick is the tick most often reported on people in South Carolina, followed by the Gulf Coast tick, the American dog tick, the blacklegged (deer) tick and the brown dog tick, according to the [state health department](https://dph.sc.gov/sites/scdph/files/Library/00075-ENG-CR.pdf).** Lyme disease is uncommon: CDC counted 55 cases among residents in 2023. The state says ticks are in season all year.",
+    "bullets": [
+      "CDC's county tables, which run through 2025, list lone star ticks as established in 25 of South Carolina's 46 counties, blacklegged (deer) ticks in 23 and American dog ticks in 14.",
+      "South Carolina's 2023 Lyme rate, 1.1 cases per 100,000 residents, sat between North Carolina's 2.2 and Georgia's 0.2.",
+      "Spotted fever rickettsiosis, which includes Rocky Mountain spotted fever, is the state's other common tick-borne illness: CDC's county data count 131 cases among residents from 2019 to 2022, against 215 for Lyme disease.",
+      "South Carolina reports few ehrlichiosis cases and files them with CDC as undetermined ehrlichiosis or anaplasmosis: 7 in 2023.",
+      "The invasive Asian longhorned tick was first found in South Carolina in 2020, on shelter dogs in Pickens and Lancaster counties.",
+      "As of October 2026, the state collects ticks found on people and animals for a surveillance program run with the University of South Carolina and Clemson University."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in South Carolina at a glance",
+    "rows": [
+      [
+        "Ticks reported most on people",
+        "Lone star, Gulf Coast, American dog, blacklegged and brown dog ticks, in that order (state health department, August 2024)"
+      ],
+      [
+        "Lone star tick",
+        "Established in 25 of 46 counties, reported in 12 (CDC, through 2025)"
+      ],
+      [
+        "Blacklegged (deer) tick",
+        "Established in 23 counties, reported in 16 (CDC, through December 2025)"
+      ],
+      [
+        "American dog tick",
+        "Established in 14 counties, reported in 16 (CDC, through 2025)"
+      ],
+      [
+        "Lyme germ in host-seeking ticks",
+        "Recorded in 3 counties: Charleston, Georgetown and Richland (CDC, through December 2025)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "55 in 2023, 1.1 per 100,000 residents (CDC, latest year as of October 2026)"
+      ],
+      [
+        "Spotted fever rickettsiosis",
+        "12 cases in 2023, all probable; 131 in 2019 to 2022 (CDC)"
+      ],
+      [
+        "Ehrlichiosis or anaplasmosis",
+        "7 cases in 2023, all filed with species undetermined (CDC)"
+      ],
+      [
+        "Peak months for illness",
+        "June to August for Lyme disease (state, 2026); June and July for spotted fever (state, 2021)"
+      ],
+      [
+        "Tick season",
+        "All year, the state health department says (August 2024)"
+      ],
+      [
+        "Asian longhorned tick",
+        "First found in 2020 in Pickens and Lancaster counties; on York County cattle in June 2022"
+      ],
+      [
+        "Tick surveillance",
+        "The state collects ticks from people and animals with the University of South Carolina and Clemson (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in South Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Five species top the list of ticks reported on people in South Carolina. The state health department's [Ticks in South Carolina sheet](https://dph.sc.gov/sites/scdph/files/Library/00075-ENG-CR.pdf), dated August 2024, names them in this order: the lone star tick, the Gulf Coast tick, the American dog tick, the blacklegged (deer) tick and the brown dog tick. The department's [tick page](https://dph.sc.gov/diseases-conditions/infectious-diseases/insects-and-vector-borne-diseases/ticks-can-spread-diseases) adds a sixth species that people often encounter, the invasive Asian longhorned tick."
+    },
+    {
+      "type": "p",
+      "text": "The lone star tick is the one people meet most. [Clemson University Livestock Poultry Health](https://www.clemson.edu/public/lph/sc-ticks.html) calls it the most collected species in the state, and [CDC's guide to where ticks live](https://www.cdc.gov/ticks/about/where-ticks-live.html) describes it as a very aggressive tick that bites humans, most often as a nymph or adult female. Clemson says the blacklegged tick, the species that spreads Lyme disease, is found across South Carolina but in low numbers."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where in South Carolina",
+        "Stages that bite people most",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Reported on people most often; established in 25 counties, reported in 12",
+          "Nymphs and adult females",
+          "Ehrlichiosis, tularemia, Heartland and Bourbon viruses; linked to STARI and alpha-gal syndrome"
+        ],
+        [
+          "Gulf Coast tick, *Amblyomma maculatum*",
+          "Second most reported on people",
+          "Adults, which have been linked to infections in people",
+          "*Rickettsia parkeri* rickettsiosis, a form of spotted fever"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Third most reported; established in 14 counties, reported in 16",
+          "Adult females, with the highest risk in spring and summer",
+          "Rocky Mountain spotted fever, tularemia"
+        ],
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Found statewide in low numbers; established in 23 counties, reported in 16",
+          "Nymphs and adult females",
+          "Lyme disease, anaplasmosis, babesiosis, Powassan virus disease and others"
+        ],
+        [
+          "Brown dog tick, *Rhipicephalus sanguineus*",
+          "Fifth most reported on people",
+          "Feeds mainly on dogs at every stage but may bite people",
+          "Rocky Mountain spotted fever; CDC ties it to the Southwest and Mexican border"
+        ],
+        [
+          "Asian longhorned tick, *Haemaphysalis longicornis*",
+          "Invasive; first found in 2020",
+          "Appears less attracted to people than native ticks",
+          "Not yet known whether, or how often, it makes people ill in the US"
+        ]
+      ],
+      "caption": "Ranking: the state health department's August 2024 sheet. County counts: CDC ArboNET Tick Module, through 2025. Biting stages and illnesses: CDC's guide to where ticks live. First Asian longhorned tick record: Clemson University Livestock Poultry Health."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green blade of grass: reddish-brown body, long mouthparts, pale-banded legs and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick. CDC says the white dot on her back, the lone star, is what distinguishes the adult female.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "The Gulf Coast tick comes second on the state's list. Clemson calls it an important tick in South Carolina that can cause *Rickettsia parkeri* rickettsiosis, which it describes as a recently identified and emerging disease, and CDC says adult Gulf Coast ticks have been associated with passing *R. parkeri*, a form of spotted fever, to people. The [Gulf Coast tick guide](/blog/gulf-coast-tick) has more on the species, and [how to tell common US ticks apart](/blog/what-do-ticks-look-like) shows each species and life stage side by side."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gulf-coast-tick-life-stages.webp",
+      "width": 1200,
+      "height": 758,
+      "alt": "Four Gulf Coast ticks on a black background beside a pin: a tiny larva, a slightly larger nymph, an adult male with pale streaks across its back and a larger adult female",
+      "caption": "Gulf Coast tick life stages, from left: larva, nymph, adult male and adult female. The pin's head is just under 2 mm (about 0.08 inch) across.",
+      "credit": "CDC/ Dr. Christopher Paddock (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10879"
+    },
+    {
+      "type": "h2",
+      "text": "Where are lone star ticks found in South Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "In most of the state. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html), with county records through 2025, lists the species as established in 25 of South Carolina's 46 counties and reported in 12 more. Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in a county within 12 months."
+    },
+    {
+      "type": "map",
+      "scope": "SC",
+      "title": "Lone star tick status by county, South Carolina, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "45001": "reported",
+        "45003": "established",
+        "45005": "established",
+        "45011": "reported",
+        "45013": "established",
+        "45015": "established",
+        "45019": "established",
+        "45021": "established",
+        "45023": "established",
+        "45025": "established",
+        "45027": "reported",
+        "45029": "established",
+        "45035": "established",
+        "45037": "established",
+        "45039": "reported",
+        "45041": "reported",
+        "45043": "established",
+        "45045": "reported",
+        "45047": "established",
+        "45049": "established",
+        "45051": "established",
+        "45053": "established",
+        "45055": "established",
+        "45059": "reported",
+        "45061": "established",
+        "45063": "reported",
+        "45065": "reported",
+        "45067": "established",
+        "45071": "reported",
+        "45075": "established",
+        "45077": "established",
+        "45079": "established",
+        "45083": "established",
+        "45085": "established",
+        "45087": "reported",
+        "45089": "established",
+        "45091": "reported"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer were. No record does not mean no ticks: it can mean no one has sampled there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "p",
+      "text": "The nine counties without a record are Anderson, Bamberg, Calhoun, Darlington, Dillon, Lancaster, Marlboro, Oconee and Saluda. CDC says a county that is not labeled established does not mean the ticks are absent there, and that changes in a county's status do not necessarily mean the ticks have moved or grown more common. To compare South Carolina with other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "p",
+      "text": "CDC says the lone star tick has repopulated its historical range in the eastern US as white-tailed deer populations grew. It spreads ehrlichiosis and tularemia, and its bite is linked to more than infection: a circular rash of unknown cause, called STARI, sometimes follows it, and growing evidence suggests the bite may trigger alpha-gal syndrome, a red meat allergy. See [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome) for how the allergy shows up."
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged (deer) ticks found in South Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Across most of the state, but in low numbers. [CDC's county table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in 23 counties and reported in 16, leaving 7 without a record. Reported means fewer than six ticks of a single life stage were collected in a county within 12 months."
+    },
+    {
+      "type": "map",
+      "scope": "SC",
+      "title": "Blacklegged (deer) tick status by county, South Carolina, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "45001": "reported",
+        "45003": "established",
+        "45005": "reported",
+        "45007": "reported",
+        "45009": "established",
+        "45011": "established",
+        "45013": "established",
+        "45015": "established",
+        "45017": "reported",
+        "45019": "established",
+        "45023": "established",
+        "45025": "reported",
+        "45029": "established",
+        "45031": "reported",
+        "45033": "established",
+        "45035": "established",
+        "45037": "established",
+        "45039": "reported",
+        "45041": "established",
+        "45043": "established",
+        "45045": "reported",
+        "45047": "established",
+        "45049": "established",
+        "45051": "reported",
+        "45053": "established",
+        "45055": "reported",
+        "45059": "reported",
+        "45061": "reported",
+        "45063": "reported",
+        "45065": "established",
+        "45071": "established",
+        "45075": "established",
+        "45077": "reported",
+        "45079": "established",
+        "45081": "reported",
+        "45083": "reported",
+        "45085": "established",
+        "45087": "established",
+        "45089": "established"
+      },
+      "caption": "Established and reported are defined as for the lone star map above. No record does not mean no ticks: CDC says it can reflect a lack of sampling, collections or reporting. Status is cumulative, and it depends on how much sampling each county has had.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html)"
+    },
+    {
+      "type": "p",
+      "text": "The seven counties without a record are Cherokee, Clarendon, Lancaster, Marion, Marlboro, Oconee and York. CDC says once a county is listed as established, it keeps that status in later years."
+    },
+    {
+      "type": "h3",
+      "text": "Do South Carolina's blacklegged ticks carry the Lyme germ?"
+    },
+    {
+      "type": "p",
+      "text": "Some do, but the records are sparse. CDC's companion table of germs found in host-seeking blacklegged ticks, meaning ticks out hunting for a host rather than feeding on one, lists the Lyme bacterium, *Borrelia burgdorferi*, in three counties through December 2025: Charleston and Georgetown on the coast, from older records, and Richland, from a 2023 submission. It has no South Carolina record for the germs behind anaplasmosis, babesiosis, hard tick relapsing fever or Powassan virus disease, and a county without a record may simply have had no ticks tested."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "An adult female blacklegged tick and a much smaller blacklegged nymph on a person's fingertip, both tiny next to the ridges of the fingerprint",
+      "caption": "An adult female blacklegged tick (left) and a much smaller nymph on a fingertip. CDC says these two stages bite people most.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "p",
+      "text": "Southern blacklegged ticks also behave differently. A [2021 study in PLOS Biology](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001066) that sampled the Savannah River Site in South Carolina from 2010 to 2012, alongside sites from Wisconsin to Florida, found the vast majority of young blacklegged ticks there on skinks rather than mice; lizards are poor carriers of the Lyme germ, so infection in ticks stayed low. The authors also note, citing earlier work, that southern nymphs rarely climb above the leaf litter to wait for a host, which may mean fewer bites on people."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does South Carolina have?"
+    },
+    {
+      "type": "p",
+      "text": "Little by national standards, though more than it once did. [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html) count 55 cases among South Carolina residents in 2023, a rate of 1.1 per 100,000, up from 29 in 2008. CDC's [report on 2022 Lyme disease surveillance](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) classes South Carolina as a low-incidence state."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in South Carolina, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            29,
+            42,
+            29,
+            37,
+            44,
+            42,
+            37,
+            42,
+            51,
+            21,
+            39,
+            47,
+            48,
+            76,
+            44,
+            55
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "Cases are counted where the patient lives, not necessarily where the bite happened. A revised case definition took effect in 2022; in low-incidence states such as South Carolina it still requires clinical information, but CDC says the changes rule out detailed comparisons with earlier years, and that COVID-19 left 2019 and 2020 data incomplete in some jurisdictions. The state's 2021 morbidity report gives different counts for most years, above all 2017 (79, against CDC's 21); this chart uses CDC's figures. Data through 2023, CDC's latest year as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html); case definition: [CDC Morbidity and Mortality Weekly Report](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm)"
+    },
+    {
+      "type": "p",
+      "text": "The high point came in 2021, with 76 cases in CDC's data. The state's [2021 morbidity report](https://dph.sc.gov/sites/scdph/files/Library/CR-012452.pdf) says South Carolina had record high temperatures in summer and winter that year, which likely prolonged tick activity and increased contact with people."
+    },
+    {
+      "type": "p",
+      "text": "The state's own Lyme figures use a different measure. The health department's [Lyme disease infographic](https://dph.sc.gov/sites/scdph/files/2026-01/Lyme_Disease_Infographic.pdf), from January 2026, gives an age-adjusted rate of 4.1 per 100,000 for confirmed cases from its 2020 to 2024 data, up 115.8% from 1.9 in 2015. That is not CDC's yearly rate of confirmed and probable cases, so the two cannot be compared; this page uses CDC's figures. The infographic says white residents, adults 65 and older, and males have the highest confirmed rates."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Round red rash with a darker red center and a wide red outer ring on the back of a person's upper arm",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, on the back of a woman's upper arm.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "h3",
+      "text": "How does South Carolina compare with nearby states?"
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Lyme cases per 100,000, 2023",
+        "Spotted fever cases per 100,000, 2023"
+      ],
+      "rows": [
+        [
+          "South Carolina",
+          "55",
+          "1.1",
+          "0.2"
+        ],
+        [
+          "[Georgia](/blog/ticks-in-georgia)",
+          "18",
+          "0.2",
+          "0.3"
+        ],
+        [
+          "[North Carolina](/blog/ticks-in-north-carolina)",
+          "228",
+          "2.2",
+          "2.1"
+        ],
+        [
+          "[Alabama](/blog/ticks-in-alabama)",
+          "36",
+          "0.7",
+          "1.6"
+        ],
+        [
+          "[Florida](/blog/ticks-in-florida)",
+          "271",
+          "1.2",
+          "0.1"
+        ],
+        [
+          "[Tennessee](/blog/ticks-in-tennessee)",
+          "50",
+          "0.7",
+          "1.2"
+        ]
+      ],
+      "caption": "Lyme: confirmed and probable cases by state of residence, from CDC's Lyme surveillance data. Spotted fever: [CDC's 2023 state incidence table](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html), which gives rates per million residents, converted here to per 100,000 (per million: South Carolina 2.2, Georgia 3.0, North Carolina 21.1, Alabama 15.7, Florida 1.2, Tennessee 12.1). 2023 was the latest year in both CDC series as of October 2026."
+    },
+    {
+      "type": "p",
+      "text": "South Carolina sits in the middle of this group for Lyme disease and near the bottom for spotted fever. By our ranking of CDC's 2023 figures, its spotted fever rate placed 21st among the 48 states and the District of Columbia where the disease was reportable that year, while North Carolina's was the highest."
+    },
+    {
+      "type": "h3",
+      "text": "Which South Carolina counties report the most tick-borne disease?"
+    },
+    {
+      "type": "p",
+      "text": "Lyme disease and spotted fever cases come from somewhat different places. [CDC's county file for 2019 to 2022](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) counts 215 Lyme cases across 36 counties, led by Horry (32), Beaufort (22) and Greenville (18), and 131 spotted fever cases across 34 counties, led by York (20), Beaufort (16) and Lexington (14)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Lyme cases, 2019 to 2022",
+        "Spotted fever cases, 2019 to 2022",
+        "Blacklegged tick status",
+        "American dog tick status"
+      ],
+      "rows": [
+        [
+          "Horry",
+          "32",
+          "5",
+          "Reported",
+          "Established"
+        ],
+        [
+          "Beaufort",
+          "22",
+          "16",
+          "Established",
+          "Established"
+        ],
+        [
+          "Greenville",
+          "18",
+          "8",
+          "Reported",
+          "Established"
+        ],
+        [
+          "Charleston",
+          "15",
+          "7",
+          "Established",
+          "Established"
+        ],
+        [
+          "York",
+          "15",
+          "20",
+          "No record",
+          "Reported"
+        ],
+        [
+          "Richland",
+          "10",
+          "2",
+          "Established",
+          "Reported"
+        ],
+        [
+          "Lexington",
+          "9",
+          "14",
+          "Reported",
+          "Reported"
+        ]
+      ],
+      "caption": "The seven counties with 10 or more cases of either disease, counted by county of residence, 2019 to 2022 combined, from CDC's county file; cases with no county on record are left out. The spotted fever total spans the 2020 change in that disease's case definition. Tick status: CDC ArboNET Tick Module, through 2025."
+    },
+    {
+      "type": "p",
+      "text": "York County had 15 Lyme cases in those four years but no blacklegged tick record. CDC counts cases by county of residence, not necessarily where people were bitten, and a county without a tick record may simply not have been sampled."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in South Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever rickettsiosis is the main one. The category takes in Rocky Mountain spotted fever and other spotted fevers, such as *Rickettsia parkeri* rickettsiosis from the Gulf Coast tick. Since 2020 it has ranked second to Lyme disease, but before then it was often the more common of the two: in eight of the nine years from 2011 to 2019, South Carolina recorded more spotted fever cases than Lyme cases (our comparison of the two charts' counts)."
+    },
+    {
+      "type": "chart",
+      "title": "Reported spotted fever rickettsiosis cases in South Carolina, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "State count, 2021 morbidity report",
+          "values": [
+            56,
+            23,
+            20,
+            39,
+            65,
+            59,
+            33,
+            48,
+            53,
+            100,
+            54,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "CDC count",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            77,
+            10,
+            23,
+            21,
+            12
+          ]
+        }
+      ],
+      "yLabel": "Confirmed and probable cases per year among South Carolina residents",
+      "caption": "Spotted fever rickettsiosis includes Rocky Mountain spotted fever. State counts to 2018, CDC's from 2019; the state's report has 78 for 2019 and agrees for 2020 and 2021. A [revised national case definition](https://ndc.services.cdc.gov/case-definitions/spotted-fever-rickettsiosis-2020/) took effect in 2020, the year the count fell from 77 to 10, so earlier years are not directly comparable with later ones, and [CDC](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html) says COVID-19 may have left some 2019 and 2020 data incomplete. 2023 is CDC's latest year as of October 2026.",
+      "source": "South Carolina DHEC, [2021 Annual Morbidity Report on Reportable Conditions](https://dph.sc.gov/sites/scdph/files/Library/CR-012452.pdf), for 2008 to 2018; [CDC's annual notifiable disease tables](https://stacks.cdc.gov/gsearch?related_series=National+Notifiable+Diseases%3A+Infectious+Annual+Tables), Tables 2p (2019 to 2022) and 2q (2023)"
+    },
+    {
+      "type": "p",
+      "text": "Two of the state's common ticks can carry Rocky Mountain spotted fever, Clemson's page says: the American dog tick and the brown dog tick. CDC lists the American dog tick as a carrier of Rocky Mountain spotted fever and tularemia, and ties the brown dog tick to Rocky Mountain spotted fever in the southwestern US and along the Mexican border. [CDC's American dog tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html) lists the species as established in 14 South Carolina counties, including Charleston, Greenville, Horry and Spartanburg, and reported in 16 more, through 2025."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, reddish-brown with a cream-and-brown mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. CDC says adult females are the stage most likely to bite people.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/brown-dog-tick-male.webp",
+      "width": 1200,
+      "height": 1167,
+      "alt": "Adult male brown dog tick seen from above: a plain, glossy reddish-brown body and legs with no pale markings, shown with a small scale bar",
+      "caption": "Adult male brown dog tick. CDC says dogs are its main host at every life stage, though it may also bite people.",
+      "credit": "CDC/ Dr. Gary Alpert; PhD; photo: Anna Kang; Dr. Gary Alpert; PhD (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31722"
+    },
+    {
+      "type": "p",
+      "text": "Almost all South Carolina spotted fever cases are classed as probable: in 2023, all 12 were, according to [CDC's annual notifiable disease tables](https://stacks.cdc.gov/gsearch?related_series=National+Notifiable+Diseases%3A+Infectious+Annual+Tables). Under the [2020 national case definition](https://ndc.services.cdc.gov/case-definitions/spotted-fever-rickettsiosis-2020/), a probable case is an illness with fever and other compatible signs plus one elevated antibody result. The definition notes that these antibodies can stay elevated for months to years after an infection, and that only about 3% of cases nationally were being reported as confirmed."
+    },
+    {
+      "type": "p",
+      "text": "Most cases come in early summer: the state's 2021 report says spotted fever can occur in any month but is reported most in June and July, when ticks are most active, and that the most 2021 cases came from central South Carolina. See [the Rocky Mountain spotted fever guide](/blog/rocky-mountain-spotted-fever) for more on the illness."
+    },
+    {
+      "type": "h3",
+      "text": "Does South Carolina have ehrlichiosis?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, but it is rarely reported and shows up oddly in national data. CDC says the lone star tick spreads ehrlichiosis, yet South Carolina files its few cases with CDC as undetermined ehrlichiosis or anaplasmosis rather than under a named species: [CDC's national tables](https://stacks.cdc.gov/gsearch?related_series=National+Notifiable+Diseases%3A+Infectious+Annual+Tables) list 5 such cases in 2022 and 7 in 2023, and no *Ehrlichia chaffeensis* infections, one of the forms lone star ticks spread. The state's 2021 report counted 12 ehrlichiosis or anaplasmosis cases in 2019, 6 in 2020 and 3 in 2021. A zero for South Carolina in national counts of *E. chaffeensis* ehrlichiosis therefore reflects how cases are filed, not proof the illness is absent."
+    },
+    {
+      "type": "h3",
+      "text": "How common is each tick-borne illness in South Carolina?"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Illness",
+        "Tick linked to it",
+        "South Carolina cases, 2019 to 2022"
+      ],
+      "rows": [
+        [
+          "Lyme disease",
+          "Blacklegged tick",
+          "215"
+        ],
+        [
+          "Spotted fever rickettsiosis, including Rocky Mountain spotted fever",
+          "American dog tick; Gulf Coast tick (*R. parkeri*)",
+          "131"
+        ],
+        [
+          "Ehrlichiosis or anaplasmosis, species undetermined",
+          "Lone star tick (ehrlichiosis); blacklegged tick (anaplasmosis)",
+          "26"
+        ],
+        [
+          "Tularemia",
+          "Lone star tick; American dog tick",
+          "0"
+        ],
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "6"
+        ],
+        [
+          "Alpha-gal syndrome",
+          "Lone star tick bites are linked to it",
+          "Not counted in this file"
+        ]
+      ],
+      "caption": "Cases among residents, summed from CDC's county file, which leaves out cases with no county on record; babesiosis is from [CDC's annual tables](https://stacks.cdc.gov/gsearch?related_series=National+Notifiable+Diseases%3A+Infectious+Annual+Tables). Ticks: CDC's guide to where ticks live."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in South Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "All year, with illness peaking in summer. The state health department's tick sheet says ticks are always in season in South Carolina because the life cycles of different species overlap, and its tick page says tick bites and tick-borne disease can occur year-round."
+    },
+    {
+      "type": "table",
+      "head": [
+        "What",
+        "When it peaks",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Lyme disease cases",
+          "June to August",
+          "Infection is possible year-round (state Lyme infographic, January 2026)"
+        ],
+        [
+          "Spotted fever cases",
+          "June and July",
+          "Cases can occur in any month (state morbidity report, 2021)"
+        ],
+        [
+          "Blacklegged (deer) tick bites",
+          "Spring, summer and fall",
+          "Adults may look for a host any time winter temperatures are above freezing (CDC)"
+        ],
+        [
+          "American dog tick bites",
+          "Spring and summer",
+          "Adult females bite people most (CDC)"
+        ]
+      ],
+      "caption": "Sources: the state's Lyme disease infographic and 2021 morbidity report, and CDC's guide to where ticks live. A mild winter day can bring adult blacklegged ticks out, so check for ticks after time outdoors in any month."
+    },
+    {
+      "type": "h2",
+      "text": "Has the Asian longhorned tick reached South Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Yes. Clemson University Livestock Poultry Health says it was first found in South Carolina in 2020, on dogs at an animal shelter, in Pickens and Lancaster counties, and that in June 2022 it was found on pastured cattle in York County. CDC lists South Carolina among the 20 states where it had been found as of April 12, 2024."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female on a U.S. dime, both plain reddish-brown with no white markings",
+      "caption": "An Asian longhorned tick nymph (left) and adult female on a U.S. dime, for size.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "Its threat so far is mainly to animals. Clemson says females can multiply without males and infest an area quickly, and that high numbers on an animal can cause anemia. CDC says the species appears less attracted to people than native ticks, that the germ behind Rocky Mountain spotted fever has not yet been found in these ticks in nature, and that it is not yet known whether, or how often, they pass germs to people and make them ill. More on the species is in [the Asian longhorned tick guide](/blog/asian-longhorned-tick)."
+    },
+    {
+      "type": "h3",
+      "text": "How do you report an Asian longhorned tick in South Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Send it to the state's tick surveillance program, described below; Clemson asks people to help track the species by sending ticks found on pets and livestock. Clemson says permethrin and other products approved for other ticks work against it, and that keeping pasture grass low, controlling weeds and brush, and leaving 9 feet between pasture or lawn and wooded edges can lower the risk of tick contact. It asks animal owners to work with a veterinarian and their county Extension agent; use any product as its label directs."
+    },
+    {
+      "type": "h2",
+      "text": "How do you get a tick identified in South Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Send it to the state's tick surveillance program. As of October 2026, the health department's tick page says its Vector-Borne Diseases Division is collecting ticks with the University of South Carolina and Clemson University Livestock and Poultry Health to learn which species occur where and when, and what disease risks they pose. Its instructions:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Put the tick in any sealable vial or zippered storage bag.",
+        "Fill in the state's passive tick submission form with your contact information, the address where the tick was collected (or directions from nearby road intersections), the date, and the animal or person it was found on.",
+        "Mail the tick and form to one of the two addresses on the department's tick page: the Laboratory of Vector-borne and Zoonotic Diseases or the department's medical entomology staff."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The page does not say whether results are sent back, so do not wait on it if you feel ill. Testing a tick would not settle much anyway: [CDC's advice after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) says tick test results should not be used to make treatment decisions, that a positive result does not necessarily mean you were infected, and that a negative one can falsely reassure if a different tick was infected. For a first look at home, compare yours with [a chart of the common US ticks](/learn/tick-identification-chart)."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in South Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick right away, then watch for fever or a rash for several weeks. CDC says not to wait for a health care provider to remove it, because delay could raise the risk of infection, and describes removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick as close to the skin as you can with clean, fine-tipped tweezers.",
+        "Pull straight away from the skin with steady, even pressure; do not twist or jerk it. If the mouthparts break off and will not come out easily, leave them; the skin usually pushes them out as it heals.",
+        "Put a live tick in a sealed bag or container or in alcohol, wrap it tightly in tape, or flush it; never crush it with your fingers.",
+        "Clean the bite and your hands with soap and water, rubbing alcohol or hand sanitizer, and check your body for other ticks.",
+        "Skip petroleum jelly, nail polish, heat and other substances: CDC says they may agitate the tick and force infected fluid into the skin."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For a fuller walk-through, see [how to remove a tick safely](/blog/how-to-remove-tick-safely). If a rash or fever develops within several weeks of removing a tick, CDC says to see a doctor and mention the bite, when it happened and where you probably picked up the tick."
+    },
+    {
+      "type": "p",
+      "text": "Prompt removal matters most for Lyme disease. CDC says that in most cases a tick must be attached for more than 24 hours before it can pass on the Lyme bacterium, and that lone star, American dog and brown dog ticks cannot transmit it at all ([how Lyme disease spreads](https://www.cdc.gov/lyme/causes/index.html)). [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) describes the rash and what can follow."
+    },
+    {
+      "type": "p",
+      "text": "CDC's [guidance for clinicians](https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf) says a single dose of the antibiotic doxycycline can lower the risk of Lyme disease when an adult or nymphal blacklegged tick was attached for at least 36 hours, the dose can start within 72 hours of removal, and the bite happened in a state with high Lyme incidence or an area where more than 20% of ticks carry the germ. South Carolina is not one of the high-incidence states, so ask a provider whether it applies to your bite, particularly one picked up while traveling."
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever calls for speed. CDC's [Rocky Mountain spotted fever page](https://www.cdc.gov/rocky-mountain-spotted-fever/about/index.html) says the illness can be deadly if not treated early, that its rash usually develops 2 to 4 days after the fever begins, and that doxycycline, the recommended antibiotic, is approved for adults and children of all ages. The clinician guidance adds that treatment for a suspected tick-borne illness should start without waiting for lab results, which can miss early illness, and that antibiotics after a bite are not recommended to prevent Rocky Mountain spotted fever or ehrlichiosis."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you feel ill",
+      "text": "Fever, rash, headache, or joint or muscle pain in the weeks after a tick bite are reasons to see a provider and mention the tick, as both CDC and the state advise. Do not wait for a rash to appear or for a tick test result. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in South Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Use repellent, treat clothing, check for ticks every day and keep grass and weeds cut. The health department's tick page recommends these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**An EPA-registered repellent.** Choose one containing DEET, picaridin, IR3535, oil of lemon eucalyptus, para-menthane-diol or 2-undecanone, and follow the label. The state's tick sheet advises a product with 20% or more of an EPA-approved tick repellent ingredient, such as DEET, year-round.",
+        "**Permethrin on clothing and gear.** Treat boots, pants, socks and tents with products containing 0.5% permethrin.",
+        "**Covered skin.** Wear protective clothing tucked in at the ankles and waist.",
+        "**A shower soon after coming in.** Use soap and shampoo to reduce the chance of a tick attaching.",
+        "**Daily tick checks.** Look under the arms, in and around the ears, inside the belly button, behind the knees, between the legs, around the waist, and along the hairline and scalp.",
+        "**Trimmed yards and centered paths.** Keep weeds and tall grass cut, avoid grassy and marshy woodland when you can, and stay in the center of trails.",
+        "**Protected pets.** Check pets daily and treat dogs and cats for ticks as a veterinarian recommends."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Dogs need the same attention as people: CDC says dogs are the brown dog tick's main host at every life stage. See [how to check a dog for ticks and remove one](/blog/ticks-on-dogs)."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the most common tick in South Carolina?",
+      "answer": "The lone star tick. The state health department lists it first among the ticks most often reported on people in South Carolina, ahead of the Gulf Coast tick, the American dog tick, the blacklegged tick and the brown dog tick, and Clemson University calls it the most collected species in the state. CDC says the adult female has a white dot on her back. Lone star ticks spread ehrlichiosis, and growing evidence suggests their bites may trigger alpha-gal syndrome, a red meat allergy."
+    },
+    {
+      "question": "Is Lyme disease common in South Carolina?",
+      "answer": "Not by national standards. CDC counted 55 cases among South Carolina residents in 2023, a rate of 1.1 per 100,000, compared with 2.2 in North Carolina and 0.2 in Georgia, and classes South Carolina as a low-incidence state. Blacklegged ticks, which spread Lyme disease, are established in 23 of the state's 46 counties, but CDC's tick records show the Lyme germ in only three: Charleston, Georgetown and Richland. A 2021 study found that southern blacklegged ticks feed largely on lizards, which are poor carriers of the germ."
+    },
+    {
+      "question": "Are ticks active in the winter in South Carolina?",
+      "answer": "Yes. The state health department says ticks are always in season in South Carolina because the life cycles of different species overlap, and that tick bites and tick-borne disease can occur year-round. CDC says adult blacklegged ticks may look for a host any time winter temperatures are above freezing. Illness still peaks in summer: the state says most Lyme cases occur from June to August and most spotted fever cases are reported in June and July. Check for ticks after time outdoors in any month."
+    },
+    {
+      "question": "Can I get a tick tested in South Carolina?",
+      "answer": "The state's tick program is run for surveillance. As of October 2026, the health department collects ticks with the University of South Carolina and Clemson University to learn which species occur where and what disease risks they pose, and its tick page does not say whether results go back to the sender. CDC advises against using tick test results to make treatment decisions, because a negative result can give false reassurance if a different tick was infected. If you feel ill after a bite, see a health care provider."
+    },
+    {
+      "question": "Is Rocky Mountain spotted fever found in South Carolina?",
+      "answer": "Yes. It is counted under spotted fever rickettsiosis, a category that also includes related infections such as Rickettsia parkeri rickettsiosis from the Gulf Coast tick. CDC counted 12 cases among South Carolina residents in 2023 and 131 from 2019 to 2022, and the state's own count reached 100 in 2017, under an earlier case definition. CDC says the illness can be deadly if not treated early and that doxycycline, the recommended antibiotic, is approved for adults and children of all ages, so see a provider promptly about fever, headache or rash after a bite."
+    },
+    {
+      "question": "What should I do if I find an Asian longhorned tick in South Carolina?",
+      "answer": "Send it to the state's tick surveillance program, run by the health department with the University of South Carolina and Clemson University. Seal the tick in a vial or zippered bag and mail it with the passive tick submission form, giving your contact details, where and when it was collected, and the animal or person it was found on; the addresses are on the department's tick page. Livestock owners should also talk with their veterinarian and county Extension agent. The tick was first found in South Carolina in 2020."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "Tick Surveillance Data Sets (blacklegged tick status and pathogens in host-seeking ticks by county, through Dec. 31, 2025)",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "American Dog Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (Reported Tickborne Disease Cases by County of Residence, 2019-2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "Data and Statistics on Spotted Fever Rickettsiosis (annual incidence by state, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "National Notifiable Diseases: Infectious Annual Tables (South Carolina rows: spotted fever rickettsiosis, Table 2p for 2019-2022 and Table 2q for 2023; ehrlichiosis and anaplasmosis, Table 2f for 2022 and Table 2g for 2023; babesiosis, Table 2c for 2019-2022)",
+      "publisher": "Centers for Disease Control and Prevention, National Notifiable Diseases Surveillance System (CDC Stacks)",
+      "url": "https://stacks.cdc.gov/gsearch?related_series=National+Notifiable+Diseases%3A+Infectious+Annual+Tables"
+    },
+    {
+      "title": "Spotted Fever Rickettsiosis (including Rocky Mountain Spotted Fever) 2020 Case Definition",
+      "publisher": "Centers for Disease Control and Prevention, National Notifiable Diseases Surveillance System",
+      "url": "https://ndc.services.cdc.gov/case-definitions/spotted-fever-rickettsiosis-2020/"
+    },
+    {
+      "title": "Where Ticks Live",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/about/where-ticks-live.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "How Lyme Disease Spreads",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "Guidance for Clinicians: Caring for Patients after a Tick Bite (December 14, 2021)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf"
+    },
+    {
+      "title": "About Rocky Mountain Spotted Fever",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/about/index.html"
+    },
+    {
+      "title": "Ticks Can Spread Diseases (Ticks in South Carolina)",
+      "publisher": "South Carolina Department of Public Health",
+      "url": "https://dph.sc.gov/diseases-conditions/infectious-diseases/insects-and-vector-borne-diseases/ticks-can-spread-diseases"
+    },
+    {
+      "title": "Ticks in South Carolina (fact sheet 00075-ENG-CR, August 2024)",
+      "publisher": "South Carolina Department of Public Health",
+      "url": "https://dph.sc.gov/sites/scdph/files/Library/00075-ENG-CR.pdf"
+    },
+    {
+      "title": "Lyme Disease in South Carolina (infographic, January 2026)",
+      "publisher": "South Carolina Department of Public Health, SC Tracking",
+      "url": "https://dph.sc.gov/sites/scdph/files/2026-01/Lyme_Disease_Infographic.pdf"
+    },
+    {
+      "title": "The South Carolina Annual Morbidity Report on Reportable Conditions, 2021",
+      "publisher": "South Carolina Department of Health and Environmental Control (now the Department of Public Health)",
+      "url": "https://dph.sc.gov/sites/scdph/files/Library/CR-012452.pdf"
+    },
+    {
+      "title": "South Carolina Ticks and Animal Health",
+      "publisher": "Clemson University Livestock Poultry Health",
+      "url": "https://www.clemson.edu/public/lph/sc-ticks.html"
+    },
+    {
+      "title": "Why Lyme disease is common in the northern US, but rare in the south: The roles of host choice, host-seeking behavior, and tick density",
+      "publisher": "PLOS Biology (Ginsberg et al., January 2021)",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001066"
+    }
+  ],
+  "disclaimer": "both"
+}
