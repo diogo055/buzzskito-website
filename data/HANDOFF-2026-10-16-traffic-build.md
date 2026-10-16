@@ -52,6 +52,18 @@ with SendUserFile.
   income-forecast.json (12 months Dec 2026-Nov 2027 ~$6.9K middle, $3.6K-$15.7K). bettertermite.com
   teardown running -> data/god-build/bettertermite-teardown.md: fold its lessons into
   WRITER_BRIEF_PHOTO_ID.md before the 18 winter writers start (after the Oct 20 usage reset).
+- **Owner, Oct 16 evening:** snakes approved; "follow what that small site's winning formulas are";
+  up to 100 pages/week allowed if quality holds (advised: 40/week from Oct 20 -> 60 -> 100 while
+  Google keeps indexing new pages within ~a week; 100/week ~ his whole weekly Claude allowance).
+  Teardown: data/god-build/bettertermite-teardown.md. TEMPLATE UPGRADE LIVE (0e3e42e8, full build
+  passed): `confused` photo-card block, quick-ID `facts.head` table, 8-10 FAQs for releases from
+  2026-10-20, briefs rewritten (WRITER_BRIEF_PHOTO_ID.md = the formula + snakes; CHECKER_BRIEF.md).
+  MONDAY OCT 20 (after the 06:00 UTC usage reset): read photo-notes-batch6.json (photo scout batch 6
+  was still running at handoff; commit its files first), then writers for the 18 winter pages in
+  families (flies/gnats/drain flies; moths/beetles/tiny brown bugs/houseplant bugs; attic animals/
+  droppings/holes in yard; millipedes/earwigs/silverfish; roaches; termite damage; kissing-bug and
+  red-and-black look-alikes; black spiders), each with a confused-card row and >= 1 live guide linking
+  it; checkers; hand releases; link-in round. Then a family topic planner with Ahrefs after Oct 26.
 - **NEXT (needs the owner's go, or start after the Oct 20 reset):** next-50 waves 3 (13 pages) and 4
   (12 pages): millipedes, earwigs, drain flies, types of gnats, brown recluse, silverfish, dust mites,
   bird mites, black widow spiders, rat droppings, brown widow spiders, no-see-ums, mouse nest;
