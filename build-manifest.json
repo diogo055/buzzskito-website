@@ -8,7 +8,7 @@
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 251,
+  "notBuilt": 264,
   "internalLinksInNewPages": 1563
  },
  "pages": [
@@ -2566,6 +2566,97 @@
    "rank": null,
    "keyword": "mole crickets",
    "url": "/blog/mole-crickets",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "tiny black bugs in house",
+   "url": "/blog/tiny-black-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "what do flea eggs look like",
+   "url": "/blog/flea-eggs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "rat vs mouse",
+   "url": "/blog/rat-vs-mouse",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "roof rat vs norway rat",
+   "url": "/blog/roof-rat-vs-norway-rat",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs in house in winter",
+   "url": "/blog/bugs-in-house-in-winter",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs that look like fleas",
+   "url": "/blog/bugs-that-look-like-fleas",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "spider egg sac",
+   "url": "/blog/spider-egg-sacs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "palmetto bug",
+   "url": "/blog/palmetto-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "what do cockroach eggs look like",
+   "url": "/blog/cockroach-eggs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "rat droppings",
+   "url": "/blog/rat-droppings",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "what does a mouse nest look like",
+   "url": "/blog/mouse-nest",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "springtails",
+   "url": "/blog/springtails",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "cockroach poop",
+   "url": "/blog/cockroach-droppings",
    "action": "new",
    "status": "not built"
   },

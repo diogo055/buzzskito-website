@@ -57,7 +57,20 @@ if (cmd === 'status') {
   if (!['publish', 'publish-after-my-fixes', 'needs-rewrite'].includes(verdict)) { console.error('verdict must be publish, publish-after-my-fixes or needs-rewrite'); process.exit(1) }
   writeFileSync(ledger(cmd, id), JSON.stringify({ id, kind: cmd, verdict, sha: sha(f), claimsChecked: Number(c1) || 0, claimsCorrected: Number(c2) || 0, claimsRemovedOrSoftened: Number(c3) || 0, checkedOn: new Date().toISOString().slice(0, 10) }, null, 1))
   console.log(`recorded: ${id} ${verdict}`)
+} else if (cmd === 'amend' && id && verdict) {
+  // A small, verified correction to a page that already passed its fact-check (a wrong unit
+  // conversion, a link to a page that went live). The release job re-registers only guides
+  // whose record matches the file, so an edited live guide without this step would break the
+  // next morning's release. Keeps the original verdict, counts and date; logs what changed.
+  //   node scripts/us-pages-mark-checked.mjs amend <id> "<what changed and the source for it>"
+  const f = guideFile(id), l = ledger('guide', id)
+  if (!existsSync(f) || !existsSync(l)) { console.error(`no checked guide ${id} (needs ${f} and ${l})`); process.exit(1) }
+  const rec = JSON.parse(readFileSync(l, 'utf8'))
+  if (rec.verdict === 'needs-rewrite') { console.error(`${id} was never passed (needs-rewrite): run a full check instead`); process.exit(1) }
+  const amendments = [...(rec.amendments || []), { on: new Date().toISOString().slice(0, 10), note: verdict, previousSha: rec.sha }]
+  writeFileSync(l, JSON.stringify({ ...rec, sha: sha(f), amendments }, null, 1))
+  console.log(`amended: ${id} (${amendments.length} amendment(s) on record)`)
 } else if (cmd) {
-  console.error('usage: node scripts/us-pages-mark-checked.mjs guide|existing <id> <verdict> [checked corrected removed] | status [--json]')
+  console.error('usage: node scripts/us-pages-mark-checked.mjs guide|existing <id> <verdict> [checked corrected removed] | amend <id> "<note>" | status [--json]')
   process.exit(1)
 }

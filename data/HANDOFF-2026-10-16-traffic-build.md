@@ -157,6 +157,33 @@ with SendUserFile.
 - **Do NOT push to diogo/main between 12:15 and ~12:45 UTC**: the release workflow refuses to push
   if main moved while it was building ("main changed while this release was building"). After it
   runs, `git fetch diogo` and merge diogo/main before the next push (the Action's commit is on main).
+- Oct 16 07:00-07:20 UTC: bugs-in-house-in-winter CHECKED (420/8/1, disclaimer both, 57e22f7e) and
+  brown-recluse-look-alikes CHECKED (359/3/4, 2e34a994), both pushed. WAVE 1 COMPLETE: all 12
+  checked + on GitHub; `--dry-run` says all 12 go out at today's 12:15 UTC Action.
+- REHEARSAL CAUGHT A RELEASE-BREAKER (fixed, 69bcc49b): the build's guide check needs >= 1 link in
+  from another live guide for every scheduled page; with hubs deferred, venomous-spiders had none
+  and the WHOLE release would have failed. Now scripts/release-scheduled.mjs holds back such a page
+  (warning in the log) until a page linking to it is live; link rules shared with the validator in
+  scripts/guide-links.mjs. Rehearsal = sync scratchpad ci-repro, `node scripts/release-scheduled.mjs`,
+  `npm run build --ignore-scripts` (exit 0 with 10 pages; a 12-page rehearsal was started 07:15).
+  For every new page, make sure some other new guide links it (writers are told which siblings).
+- Wave 2 (13 pages) dated releaseOn 2026-10-16 (35269f10). Started 07:10-07:20 UTC: photo scout
+  batch 5 (cockroach species + egg cases, wolf spider views, spider egg sacs, recluse eyes and early
+  bite, FL/TX/CA spiders, stink bugs; then group B gaps) -> data/god-build/photo-notes-batch5.json;
+  writers: how-to-get-rid-of-stink-bugs (US edition, pair with -canada), how-to-get-rid-of-fleas,
+  house-centipedes (US edition, pair with how-to-get-rid-of-centipedes-canada),
+  what-do-fleas-look-like, house-spiders. WAITING FOR PHOTOS: brown-recluse-bite, wolf-spiders,
+  spider-egg-sacs, palmetto-bugs, cockroach-eggs, spiders-in-florida/-texas/-california.
+  palmetto-bugs and cockroach-eggs have no inbound links yet: their writers must link each other,
+  or add the links from /learn/cockroaches (pillar JSON) at release.
+- brown-recluse-bite SERP read on Google (Oct 16): Poison Control, Cleveland Clinic, Univ. of
+  Kentucky entomology, Reddit x2, Quora, ColumbiaDoctors, WebMD, an Army hospital, Illinois DPH;
+  image pack + "Things to know". Mostly medical but NOT all (forums + a university), so it stays
+  in wave 2 per next-50's rule; needs early-stage bite photos (scout) before writing.
+- REGIONAL PAIRS at release (add `{ us, ca }` to REGIONAL_PAIRS in lib/guides.ts, then
+  `node scripts/us-pages-regional.mjs` wraps the Canadian page's metadata + adds the visible
+  "See the US edition" line; check affiliate tokens on that page are unchanged; build; push):
+  carpet beetles (live today), stink bugs, house centipedes (when they release).
 - flea-eggs checker owner notes: larva max left at 3/16 inch (Ohio State/Texas A&M say 1/4); the
   University of Florida source prints ~1/64 in for a 0.5 mm egg (its own error); the page's
   "step-by-step guide to getting rid of fleas" link waits for how-to-get-rid-of-fleas (wave 2).

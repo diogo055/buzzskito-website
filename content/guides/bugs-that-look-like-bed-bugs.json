@@ -17,7 +17,7 @@
       "An adult bed bug is 3/16 to 1/4 inch (5 to 7 mm) long and does not jump or fly, so a bug that hops or flies is something else.",
       "A bed bug has 6 legs and a tick has 8, so a leg count separates the two.",
       "Bat bugs have fringe hairs behind the head that are longer than the width of the eyes, while a bed bug's hairs are shorter.",
-      "Spider beetles are about 1/16 to 1/8 inch (2 to 4 mm) long with a globe-shaped abdomen.",
+      "Spider beetles are about 1/12 to 1/6 inch (2 to 4 mm) long with a globe-shaped abdomen.",
       "Bat bugs and bird-feeding bugs can bite people but cannot reproduce on human blood.",
       "Bites alone cannot confirm or rule out bed bugs, so an identified specimen is the reliable check."
     ]
@@ -29,7 +29,7 @@
       ["Bed bug legs", "6 (ticks have 8)"],
       ["Closest relatives", "Bat bugs and swallow bugs, separated by hairs and antennae"],
       ["Look-alike groups covered", "8: bat bugs, swallow bugs, carpet beetles and larvae, spider beetles, booklice, cockroach nymphs, fleas, ticks"],
-      ["Spider beetle size", "About 1/16 to 1/8 inch (2 to 4 mm)"],
+      ["Spider beetle size", "About 1/12 to 1/6 inch (2 to 4 mm)"],
       ["Bites as an ID tool", "Not reliable either way"],
       ["Best confirmation", "A specimen sent to a state extension diagnostic lab"]
     ]
@@ -80,7 +80,7 @@
     { "type": "h2", "text": "How do spider beetles, booklice and cockroach nymphs compare?" },
     { "type": "p", "text": "Spider beetles have a globe-shaped rear and some species fly, booklice are soft-bodied with a bulging face, and cockroach nymphs have their own identification guides. All three get brought in as suspected bed bugs." },
     { "type": "h3", "text": "Spider beetles" },
-    { "type": "p", "text": "Spider beetles are about 1/16 to 1/8 inch (2 to 4 mm) long, smaller than an adult bed bug, with a globular abdomen, a head turned down so it is hidden from above, and thin legs and antennae. [Colorado State University Extension's spider beetle fact sheet](https://wci.extension.colostate.edu/wp-content/uploads/sites/14/2017/03/SpiderBeetlesJan42010.pdf) says most species are brown to reddish-brown and covered in fine hairs or scales, and that the family name comes from the most globe-shaped, least hairy species, which superficially resemble spiders." },
+    { "type": "p", "text": "Spider beetles are about 1/12 to 1/6 inch (2 to 4 mm) long, smaller than an adult bed bug, with a globular abdomen, a head turned down so it is hidden from above, and thin legs and antennae. [Colorado State University Extension's spider beetle fact sheet](https://wci.extension.colostate.edu/wp-content/uploads/sites/14/2017/03/SpiderBeetlesJan42010.pdf) says most species are brown to reddish-brown and covered in fine hairs or scales, and that the family name comes from the most globe-shaped, least hairy species, which superficially resemble spiders." },
     { "type": "p", "text": "They are scavengers. The fact sheet lists seeds, grain debris, herbs, dried fruit and fungi, along with feathers and dead insects, and says they may develop in rodent nest refuse; it does not describe them feeding on blood or biting people. In Colorado, most species need fairly high humidity, so they turn up in damp basements and crawl spaces. Flight is another separator: males of the whitemarked spider beetle can fly, and in some other species both sexes can, while the EPA says bed bug wings are not used for flying." },
     { "type": "p", "text": "Two relatives, the drugstore beetle and the cigarette beetle, share the downturned head and humped body. The fact sheet says they have serrated or clubbed antennae and are good fliers that are drawn to lights." },
     { "type": "media", "needed": "Close-up of a whitemarked spider beetle and an adult bed bug side by side next to a US penny, showing the globe-shaped abdomen and long thin legs against the flat oval bed bug" },
