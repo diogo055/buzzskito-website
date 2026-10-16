@@ -1,0 +1,182 @@
+{
+  "slug": "bugs-in-house-in-winter",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "bugs in house in winter",
+  "alsoTargets": [
+    "winter bugs in house",
+    "beetles in house in winter",
+    "stink bugs in house in winter",
+    "lady bugs in house in winter",
+    "small bugs in house in winter",
+    "boxelder bugs in house in winter"
+  ],
+  "metaTitle": "Bugs in House in Winter: What They Are (Photos)",
+  "metaDescription": "Stink bugs, lady beetles, boxelder bugs and cluster flies move into walls in fall. Photos and clues that sort them from bugs that live indoors all year.",
+  "h1": "Bugs in the House in Winter: What They Are and Why They Came Inside",
+  "dek": "Bugs at windows on mild winter days usually moved into the walls last fall and do not breed indoors. Photos, sizes and the clue that identifies each, plus the centipedes, spiders and silverfish that live inside all year.",
+  "breadcrumb": "Bugs in the House in Winter",
+  "excerpt": "Stink bugs, lady beetles, boxelder bugs, cluster flies and more: photos and clues to identify the bugs found indoors in winter, and which ones breed inside.",
+  "datePublished": "2026-10-16",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Bugs that show up at windows on mild winter days usually moved into the walls last fall and do not breed indoors, and shape tells them apart: an oval, domed beetle is an Asian lady beetle, a shield-shaped brown bug a stink bug, a black bug with red-orange lines a boxelder bug and a sluggish fly a cluster fly.** House centipedes and silverfish in damp basements live and breed indoors all year.",
+    "bullets": [
+      "[Penn State Extension](https://extension.psu.edu/brown-marmorated-stink-bug) gives brown marmorated stink bugs as about 2/3 inch (17 mm) long, shield-shaped and almost as wide as they are long, with lighter bands on the antennae.",
+      "[University of Minnesota Extension](https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/multicolored-asian-lady-beetles) gives Asian lady beetles as about 1/3 inch long, orange, yellow or red with up to 19 spots or none, and marked with a black M behind the head.",
+      "Boxelder bugs are about 1/2 inch long and black with orange or red markings, and cluster flies are 3/8 to 1/2 inch long with short yellow hairs on the thorax, according to University of Minnesota Extension.",
+      "Western conifer seed bugs are 3/4 inch (19 mm) long, reddish brown to dark brown, and buzz loudly in flight, Penn State says.",
+      "House centipedes have a body 1 to 1 1/2 inches long and 15 pairs of legs, and silverfish grow to about 1/2 inch (12 mm).",
+      "University of Minnesota Extension says every boxelder bug and Asian lady beetle seen indoors in winter and spring entered the building the previous fall."
+    ]
+  },
+  "facts": {
+    "title": "Winter house bugs at a glance",
+    "rows": [
+      ["Brown marmorated stink bug", "Shield-shaped and brown, about 2/3 inch; lighter bands on the antennae"],
+      ["Asian lady beetle", "Oval and domed, about 1/4 to 1/3 inch, orange to red with 0 to 19 spots; black M behind the head"],
+      ["Boxelder bug", "About 1/2 inch, black with orange or red lines; wings lie flat in an X"],
+      ["Cluster fly", "3/8 to 1/2 inch; short yellow hairs on the thorax; slow at windows"],
+      ["Western conifer seed bug", "3/4 inch, reddish brown; leaf-like flare on the hind legs; loud buzz in flight"],
+      ["House centipede", "Body 1 to 1 1/2 inches; 15 pairs of long, banded legs"],
+      ["Cellar spider", "Small, pale body on very long, thin legs; loose webs in corners"],
+      ["Silverfish", "Up to about 1/2 inch; flat, scaly body with three tail-like appendages"],
+      ["Fungus gnat", "1/16 to 1/8 inch dark fly around damp houseplant soil"],
+      ["Carpet beetle (adult)", "About 1/10 to 1/8 inch, round, drawn to sunny windows"],
+      ["Breeds indoors?", "Not the five overwintering bugs; house centipedes, silverfish, fungus gnats and carpet beetles can"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What are the bugs in my house in winter?" },
+    { "type": "p", "text": "Bugs found indoors in winter fall into two groups. The first is made up of outdoor insects that crawled into the walls and attic in fall to spend the winter: brown marmorated stink bugs, Asian lady beetles, boxelder bugs, cluster flies and western conifer seed bugs. [South Dakota State University (SDSU) Extension's guide to fall household pests](https://extension.sdstate.edu/fall-household-pests) says insects that spend the winter as adults start looking for shelter in fall and are the ones most commonly finding their way inside. The second group lives in the house all year: house centipedes, cellar spiders and silverfish, plus small pests such as fungus gnats and carpet beetles." },
+    { "type": "figure", "src": "/guides/photos/brown-marmorated-stink-bug.webp", "width": 1200, "height": 1800, "alt": "Brown marmorated stink bug facing the camera on a red apple, showing its mottled brown, shield-shaped body and banded antennae", "caption": "A brown marmorated stink bug feeding on an apple. Look for the shield shape and the light bands on the antennae.", "license": "public-domain", "credit": "U.S. Department of Agriculture, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown_marmorated_stink_bug_feeding_on_apple.jpg" },
+    { "type": "p", "text": "The group tells you what to do. [University of Minnesota (UMN) Extension's boxelder bug page](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/boxelder-bugs) says boxelder bugs do not reproduce in homes and that every one seen inside in winter and spring came in the previous fall, and the other four overwintering bugs do not breed indoors either. Clear them out now and seal them out before next fall. House centipedes and silverfish, by contrast, do breed indoors." },
+
+    { "type": "h2", "text": "How can you tell which winter bug you have?" },
+    { "type": "p", "text": "Start with where and when you found it, then check shape, size and legs. Trap it in a clear jar rather than crushing it: UMN says stink bugs and boxelder bugs smell bad when crushed, and lady beetles release a yellowish fluid that can stain." },
+    { "type": "checklist", "title": "Checks to run with the bug in a jar", "items": [
+      "**Where and when.** At a sunny window on a mild day, or after the heat comes on: an overwintering bug. At night in a damp basement or crawl space: a year-round resident.",
+      "**Shape.** Oval and domed: a lady beetle. A broad shield: a stink bug. Black with orange or red lines: a boxelder bug. Brown, with a leaf-like flare on each hind leg: a western conifer seed bug.",
+      "**Size against a ruler.** The overwintering bugs run from about 1/4 to 1/3 inch (lady beetle) up to 3/4 inch (western conifer seed bug). Fungus gnats and adult carpet beetles are 1/8 inch or less.",
+      "**Legs.** Six legs: an insect. Eight very long, thin legs on a small, pale body: a cellar spider. Fifteen pairs: a house centipede.",
+      "**Flight.** A fly slow enough to swat easily suggests a cluster fly; a loud buzz in flight suggests a western conifer seed bug."
+    ] },
+    { "type": "table", "head": ["Bug", "Breeds indoors?", "Main nuisance", "First step"], "rows": [
+      ["Brown marmorated stink bug", "No", "Odor when crushed", "Vacuum; seal gaps before next fall"],
+      ["Asian lady beetle", "No", "Stains, odor, occasional bites", "Vacuum with a stocking in the hose"],
+      ["Boxelder bug", "No", "Stains; odor when crushed", "Vacuum or sweep up"],
+      ["Cluster fly", "No", "Numbers at windows", "Vacuum or swat at a bright window"],
+      ["Western conifer seed bug", "No", "Annoyance only", "Vacuum or sweep up"],
+      ["House centipede", "Yes", "Startling; a sign of prey insects", "Lower humidity; seal cracks"],
+      ["Cellar spider", "Lives indoors all year", "Messy webs", "Vacuum webs and egg sacs"],
+      ["Silverfish", "Yes", "Damages paper and starchy items", "Dehumidify; store food sealed"]
+    ], "caption": "The first five are overwintering bugs. Sources: University of Minnesota Extension, Penn State Extension, SDSU Extension and the University of Kentucky, each linked in the sections below." },
+
+    { "type": "h2", "text": "Why are stink bugs in my house in winter?" },
+    { "type": "p", "text": "Brown marmorated stink bugs move into houses in fall to spend the winter, then show up in rooms on warm days or when the heat is turned up. [UMN Extension's stink bug page](https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/brown-marmorated-stink-bug) says that through the winter they often stay hidden where we cannot see them, and that they do not lay eggs, reproduce, damage homes or bite." },
+    { "type": "p", "text": "[Penn State Extension's fact sheet](https://extension.psu.edu/brown-marmorated-stink-bug) gives adults as about 2/3 inch (17 mm) long, shield-shaped and almost as wide as they are long, and brown above and below. To tell them from other stink bugs, it says, look for lighter bands on the antennae and darker bands on the overlapping rear part of the front wings; UMN adds alternating light and dark bands on the abdomen." },
+    { "type": "p", "text": "Penn State says adults look for winter shelter from September through October and later emerge into rooms from cracks under or behind baseboards, around window and door trim, and around exhaust fans and ceiling lights. Crushing or vacuuming many of them leaves a noticeable smell, and the odor can cause allergic reactions (rhinitis or conjunctivitis) in sensitive people. Sealing and removal are covered in [a stink bug control guide](/blog/how-to-get-rid-of-stink-bugs-canada) and [the US edition of that guide](/blog/how-to-get-rid-of-stink-bugs)." },
+
+    { "type": "h2", "text": "Why are there ladybugs in my house in winter?" },
+    { "type": "figure", "src": "/guides/photos/asian-lady-beetle.webp", "width": 1080, "height": 1920, "alt": "Asian lady beetle seen from above on gray concrete, with plain orange-tan wing covers, no spots, and black marks on the pale plate behind its head", "caption": "An Asian lady beetle photographed in New Jersey. Like some of its species, it has no spots on its wing covers, so check the black marks on the pale plate behind the head.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/190510487" },
+    { "type": "p", "text": "They moved in last fall to spend the winter, and they are most likely multicolored Asian lady beetles, an introduced species that [UMN Extension's Asian lady beetle page](https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/multicolored-asian-lady-beetles) says clusters around buildings in large numbers each fall, looking for protected places to spend the winter. [A guide to telling Asian lady beetles from native ladybugs](/blog/asian-lady-beetles) covers the look-alikes." },
+    { "type": "p", "text": "UMN describes adults as about 1/3 inch long and orange, yellow or red, rarely black, usually with 19 black spots but sometimes fewer or none. [Penn State Extension's lady beetle fact sheet](https://extension.psu.edu/multicolored-asian-lady-beetle) calls them oval and convex, like other lady beetles, and larger than most native species at 9/32 inch (7 mm) long. The mark to check is the black M-shaped marking on the pale area behind the head, which UMN says can look thick, thin or broken; SDSU notes it can also read as a W." },
+    { "type": "p", "text": "In Minnesota, UMN says, they fly to buildings between late September and late October on days above 65°F (18°C) and crawl into cracks; most die quickly, but some spend the winter in wall voids and attics. They do not reproduce indoors, so every lady beetle seen inside in winter or spring came in the previous fall. They do not damage wood, fabric or food and cannot sting, but some bite hard enough to break the skin, causing minor, short-lived discomfort, and dead beetles in a building can cause allergic reactions in some people." },
+
+    { "type": "h2", "text": "Are the black and red bugs in my house boxelder bugs?" },
+    { "type": "figure", "src": "/guides/photos/boxelder-bug.webp", "width": 1200, "height": 1200, "alt": "Eastern boxelder bug on a twig beside small yellow-green flowers, with a black body edged in orange-red lines and red eyes", "caption": "An eastern boxelder bug. Look for the black body edged with orange-red lines.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/156911331" },
+    { "type": "p", "text": "Probably, if they are about 1/2 inch long and black with orange or red markings, including three stripes just behind the head. That is how UMN Extension's boxelder bug page describes adults; it adds that the wings lie flat and overlap to form an X, and that newly hatched young are bright red." },
+    { "type": "p", "text": "UMN says boxelder bugs favor buildings with a lot of southern or western exposure and spend the winter inactive in walls and attics. Mild, sunny days bring some into living areas, where they head for windows or gather around houseplants looking for water. Once active, they live no more than a few days indoors, and they do not reproduce in homes." },
+    { "type": "p", "text": "SDSU Extension calls them harmless, but UMN warns that their droppings can stain walls and curtains and that they smell bad when crushed. Adults can fly as far as about two miles, so a house does not need a boxelder tree nearby to get them. Sealing and timing are covered in [a boxelder bug control guide](/blog/how-to-get-rid-of-boxelder-bugs-canada) and [its US edition](/blog/how-to-get-rid-of-boxelder-bugs)." },
+
+    { "type": "h2", "text": "Why are there slow flies at my windows in winter?" },
+    { "type": "figure", "src": "/guides/photos/cluster-fly.webp", "width": 1200, "height": 900, "alt": "Cluster fly with a dark, bristly body and clear wings resting on a bright yellow flower", "caption": "A cluster fly, identified only to its genus, Pollenia. Cluster flies are a little larger than house flies.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/160151367" },
+    { "type": "p", "text": "Large, sluggish flies at the windows on a warm winter day are most likely cluster flies. [Penn State Extension's cluster fly page](https://extension.psu.edu/cluster-flies) says they gather in large numbers at windows inside homes on warm winter days and fly so sluggishly that they are easy to swat or catch, and SDSU Extension says they survive the winter indoors but do not reproduce there." },
+    { "type": "p", "text": "[UMN Extension's page on household flies](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/flies) describes cluster flies as black and a little larger than house flies, 3/8 to 1/2 inch long, with short yellow hairs on the thorax and wings that overlap at rest. Their maggots develop inside earthworms. In August and September the year's last generation looks for winter shelter on the sunny south and west sides of buildings and spends the winter in clusters in attics and upper walls." },
+    { "type": "p", "text": "Penn State says cluster flies will not damage a house and are not known to carry diseases of medical importance to people. House flies are a different problem: SDSU says they can keep breeding indoors all winter on decaying organic matter, and that regular trash removal and drain cleaning are the best way to handle a small population. For cluster flies, see [why cluster flies turn up in houses](/blog/cluster-flies-in-house-canada) and [how to get rid of cluster flies](/blog/how-to-get-rid-of-cluster-flies)." },
+
+    { "type": "h2", "text": "What is the large brown bug that buzzes when it flies?" },
+    { "type": "figure", "src": "/guides/photos/western-conifer-seed-bug.webp", "width": 1200, "height": 800, "alt": "Western conifer seed bug, a long reddish-brown bug with long antennae and long legs, standing beside the keys of a black computer keyboard", "caption": "A western conifer seed bug beside the keys of a computer keyboard. At about 3/4 inch, it is the largest of the five overwintering bugs on this page.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/95008236" },
+    { "type": "media", "needed": "Public domain or CC0 close-up of a western conifer seed bug's hind leg showing the flattened, leaf-like expansion, beside a ruler marked in inches" },
+    { "type": "p", "text": "In a house in winter, it is probably a western conifer seed bug. [Penn State Extension's western conifer seed bug page](https://extension.psu.edu/western-conifer-seed-bug) gives adults as 3/4 inch (19 mm) long and reddish brown to dark brown, with a yellow-orange and black abdomen that shows fully only when the wings are open, as in flight, and says flying adults make a loud buzz. SDSU Extension says the leaf-like look of the hind legs sets them apart, and that many people mistake them for kissing bugs, the insects that can spread Chagas disease." },
+    { "type": "p", "text": "The species is native to western North America and has spread east since the 1950s, Penn State says. A few may emerge indoors through the winter, and large numbers may come out and fly around on warm fall and spring days. They do not generally bite people and are not considered a medical risk, and SDSU says they do not feed or reproduce indoors. Penn State's advice is to keep them out: replace loose screens, caulk gaps around door and window frames, soffits and chimneys, and screen attic and wall vents." },
+
+    { "type": "h2", "text": "Which bugs live in the house all winter?" },
+    { "type": "p", "text": "House centipedes, cellar spiders and silverfish live in the house all year rather than moving in for the winter. [UMN Extension's spider page](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/spiders) draws the same line among spiders: some web-building spiders survive and reproduce well indoors, while hunting spiders, such as wolf spiders, wander in mostly in fall and usually do not reproduce indoors. SDSU says millipedes, another common fall wanderer, often die quickly indoors because they need moisture; see [the wolf spider guide](/blog/wolf-spiders) and [a guide to millipedes in the house](/blog/millipedes)." },
+    { "type": "h3", "text": "How do you recognize a house centipede?" },
+    { "type": "figure", "src": "/guides/photos/house-centipede.webp", "width": 1152, "height": 2048, "alt": "House centipede seen from above on a textured surface, its striped body fringed with many long, banded legs and very long antennae", "caption": "A house centipede seen from above. Look for the long, banded legs along the whole body and the very long antennae.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/138657500" },
+    { "type": "p", "text": "By its legs. [Penn State Extension's house centipede page](https://extension.psu.edu/house-centipedes) says adults have 15 pairs of long legs banded light and dark, on a dirty-yellow body 1 to 1 1/2 inches long with three dark stripes, so that with legs and antennae they look 3 to 4 inches long. By day they hide in dark, damp places such as crawl spaces, cement block walls and floor drains, and at night they hunt silverfish, carpet beetle larvae, cockroaches, spiders and other small arthropods." },
+    { "type": "p", "text": "House centipedes do not survive winters outdoors in Pennsylvania but readily reproduce in heated buildings, Penn State says, and females can live several years and produce up to 150 young. They are harmless, and frequent sightings suggest that something they eat is plentiful. Penn State's steps start with cutting down their prey, running a dehumidifier and sealing cracks; more is in [a house centipede guide](/blog/how-to-get-rid-of-centipedes-canada) and [its US edition](/blog/house-centipedes)." },
+    { "type": "h3", "text": "How do you recognize a cellar spider?" },
+    { "type": "figure", "src": "/guides/photos/cellar-spider.webp", "width": 1200, "height": 1600, "alt": "Long-bodied cellar spider on a white textured wall, with a small pale tan body, an elongated abdomen and very long, thin legs", "caption": "A long-bodied cellar spider. Look for the small, pale body on very long, thin legs.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/296194035" },
+    { "type": "p", "text": "By the very long, thin legs on a small, pale body. UMN describes cellar spiders as 1/4 to 1/3 inch long and pale gray to light tan, with long, delicate legs that resemble a daddy longlegs. They live in dark, secluded places such as crawl spaces, basements and cellars and build loose, irregular webs in corners near the ceiling or floor. [The University of Kentucky's cellar spider page](https://www.uky.edu/Ag/CritterFiles/casefile/spiders/cellar/cellar.htm) says that in Kentucky they are usually present year-round in or near most buildings, that females wrap a few dozen eggs at a time in webbing, and that they are not known to bite." },
+    { "type": "p", "text": "[A guide to daddy longlegs](/blog/daddy-long-legs) explains which animals go by that name, and [a guide to common house spiders](/blog/house-spiders) covers other indoor species. UMN advises removing webs and egg sacs with a broom or vacuum; [a guide to getting rid of spiders in the house](/blog/how-to-get-rid-of-spiders-in-house-canada) goes further." },
+    { "type": "h3", "text": "How do you recognize a silverfish?" },
+    { "type": "figure", "src": "/guides/photos/silverfish.webp", "width": 1200, "height": 800, "alt": "Common silverfish on a beige surface, showing its flat, tapering, segmented body, long antennae and long tail appendages", "caption": "A common silverfish. Look for the tapering body, the long antennae and the three tail appendages.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/154408715" },
+    { "type": "p", "text": "By its flat, scaly body and three tails. [Penn State Extension's silverfish and firebrat page](https://extension.psu.edu/bristletails-silverfish-and-firebrats) describes silverfish as flat insects up to about 1/2 inch (12 mm) long, covered in silvery-metallic scales, with antennae as long as the body and three tail-like appendages at the rear. Silverfish prefer cooler temperatures and are usually found in basements, while their relative the firebrat, with mottled brown scales, prefers places above 90°F; both like high humidity." },
+    { "type": "p", "text": "Penn State says silverfish can live at least two to three years and produce more than 50 offspring, and that they can damage cereals, books, papers, wallpaper and other starchy items. It advises running a dehumidifier in damp basements and keeping cereals, flour, pasta and pet food in airtight containers. More is in [a silverfish guide](/blog/how-to-get-rid-of-silverfish-canada) and [its US edition](/blog/how-to-get-rid-of-silverfish)." },
+
+    { "type": "h2", "text": "What are the small bugs in my house in winter?" },
+    { "type": "p", "text": "Tiny dark flies around houseplants fit the description of fungus gnats, and tiny round beetles at a window may be adult carpet beetles. [UMN Extension's guide to insects on indoor plants](https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/insects-on-indoor-plants) describes adult fungus gnats as 1/16 to 1/8 inch long and dark, with clear wings folded behind the back, and says their larvae live in damp potting soil. Overwatering encourages them, and letting the surface soil dry between waterings is the first step; UMN calls them mostly a nuisance. See [how to get rid of fungus gnats in houseplants](/blog/how-to-get-rid-of-fungus-gnats-houseplants)." },
+    { "type": "p", "text": "[UC IPM's carpet beetle page](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) describes adults as about 1/10 to 1/8 inch long and round, with short antennae, drawn to sunlight and usually seen in spring or early summer near windows. Their larvae do the damage, feeding on wool, fur, feathers, lint and dead insects, and Penn State warns that carpet beetles can feed on dead stink bugs inside walls and then attack woolens and stored dry goods. [The carpet beetle guide](/blog/how-to-get-rid-of-carpet-beetles) covers the larvae; [a guide to tiny black bugs in the house](/blog/tiny-black-bugs) and [a pantry pest guide](/blog/pantry-pests) sort other small finds." },
+
+    { "type": "h2", "text": "Why do winter bugs come out on warm days?" },
+    { "type": "p", "text": "Warmth wakes them. The overwintering bugs spend the cold months inactive in wall voids and attics, and UMN explains that on mild, sunny days the warmth reaches some of them, which then follow it into living areas and toward windows and other sunny spots. They do not all wake at once, because the warmth does not reach every hiding place. UMN's stink bug page adds that turning up the thermostat can bring them out too." },
+    { "type": "media", "needed": "Public domain or CC0 photo of overwintering insects such as Asian lady beetles, boxelder bugs or cluster flies gathered on the inside of a sunny window or windowsill in winter, showing how they collect at the glass, ideally with a ruler marked in inches for scale" },
+    { "type": "p", "text": "By spring the survivors become active and try to get outdoors, but many end up trapped inside, UMN says of both boxelder bugs and lady beetles. Once these insects are in the walls, it says, there is no practical way to stop them from emerging, and Penn State says spraying insecticide into cracks does not prevent it." },
+
+    { "type": "h2", "text": "How did the bugs get into the house?" },
+    { "type": "p", "text": "Through small gaps in the outside of the house, mostly in fall. Penn State points to cracks around windows, doors, siding and utility pipes, behind chimneys and under wood fascia boards. UMN adds damaged window and door screens, roof and soffit vents, bathroom and kitchen fan vents, and the places where cables, pipes, outdoor faucets and dryer vents pass through the wall, and says lady beetles can squeeze through openings as small as 1/8 inch." },
+    { "type": "p", "text": "Timing is the other half. UMN advises making repairs before the end of August against boxelder bugs and by the end of September against lady beetles, and SDSU says finding and fixing the point of entry is the best way to prevent more fall invaders. If what you are finding is droppings rather than bugs, [keeping mice out of a house in winter](/blog/how-to-keep-mice-out-of-your-house-winter) covers the openings mice use." },
+
+    { "type": "h2", "text": "What should you do once you know what it is?" },
+    { "type": "p", "text": "Vacuum up the overwintering bugs, seal the gaps before next fall, and fix the damp spots and food sources that keep the year-round residents going." },
+    { "type": "ul", "items": [
+      "**Overwintering bugs.** Vacuum them or sweep them up rather than crushing them. UMN suggests a knee-high nylon stocking held in the vacuum hose with a rubber band to catch lady beetles, and emptying a vacuum full of stink bugs into a bucket of soapy water; cluster flies drawn to a bright window in a darkened room are easier to catch.",
+      "**Sprays and foggers.** UMN says pesticides are not recommended indoors for stink bugs and that spraying indoors is not effective against lady beetles, and Penn State says foggers will not stop cluster flies from emerging from wall voids.",
+      "**Dead bugs.** Vacuum them off windowsills; UC IPM lists dead insects among the debris that feeds carpet beetles.",
+      "**Year-round residents.** Dry out damp basements and store food sealed, as Penn State advises for house centipedes and silverfish, and let houseplant soil dry between waterings for fungus gnats."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Save the specimen", "text": "Put the bug in a sealed jar, photograph it beside a ruler marked in inches, and note where and when you found it. Your state's cooperative extension office or a pest professional can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Are bugs coming out of my walls in winter a sign of an infestation?",
+      "answer": "Not if they are overwintering bugs. University of Minnesota Extension says boxelder bugs and Asian lady beetles do not reproduce indoors, so every one seen inside in winter and spring entered the building the previous fall, and it says stink bugs do not lay eggs or reproduce in winter either. SDSU Extension says the same of cluster flies and western conifer seed bugs, and Penn State Extension says it of cluster flies. House centipedes and silverfish are different: they breed indoors, and frequent house centipede sightings suggest that the insects they eat are plentiful."
+    },
+    {
+      "question": "Do the bugs that come inside for winter bite?",
+      "answer": "Most do not. University of Minnesota Extension says brown marmorated stink bugs do not bite in winter, and Penn State Extension says western conifer seed bugs do not generally bite people and are not considered a medical risk. Asian lady beetles are the exception: University of Minnesota Extension says some bite hard enough to break the skin, causing minor, short-lived discomfort, usually when they are searching for moisture or food, and SDSU Extension says they may bite if handled."
+    },
+    {
+      "question": "Should I spray insecticide for bugs coming out of the walls?",
+      "answer": "Usually not. University of Minnesota Extension says pesticides are not recommended indoors for stink bugs, that spraying indoors does not work against Asian lady beetles, and that once these insects are in the walls nothing practical stops them from emerging. Penn State Extension adds that dust treatments inside wall voids can leave dead stink bugs for carpet beetles to feed on before they move to woolens and stored foods. SDSU Extension says that in most cases an insecticide is not necessary and a vacuum or broom will do."
+    },
+    {
+      "question": "Why are there dead bugs on my windowsills in spring?",
+      "answer": "They are usually overwintering bugs that woke up and could not get out. University of Minnesota Extension says that by spring the surviving boxelder bugs and lady beetles become active and try to move outdoors, but many remain trapped inside, and that active boxelder bugs live only a few days indoors. It also notes that piles of dead cluster flies are often found in late spring in vacation homes left empty over the winter. Vacuum them up, since UC IPM says dead insects are among the debris that feeds carpet beetles."
+    },
+    {
+      "question": "Why does my house get these bugs every year?",
+      "answer": "Exposure and setting play a part. University of Minnesota Extension says boxelder bugs are attracted to buildings with a large southern or western exposure, and to buildings that stand taller than those around them or alone on flat ground, while the color of the building does not matter. Asian lady beetles favor the sunny sides of tall or prominent buildings, buildings with dark and light contrast, and buildings near wooded areas. The same gaps will let them in again each fall until they are sealed."
+    }
+  ],
+  "sources": [
+    { "title": "Boxelder bugs", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/boxelder-bugs" },
+    { "title": "Multicolored Asian lady beetles", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/multicolored-asian-lady-beetles" },
+    { "title": "Brown marmorated stink bug", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/brown-marmorated-stink-bug" },
+    { "title": "Flies", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/flies" },
+    { "title": "Spiders", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/spiders" },
+    { "title": "Managing insects on indoor plants", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/insects-on-indoor-plants" },
+    { "title": "Brown Marmorated Stink Bug", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/brown-marmorated-stink-bug" },
+    { "title": "Multicolored Asian Lady Beetle", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/multicolored-asian-lady-beetle" },
+    { "title": "Cluster Flies", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/cluster-flies" },
+    { "title": "Western Conifer Seed Bug", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/western-conifer-seed-bug" },
+    { "title": "House Centipedes", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/house-centipedes" },
+    { "title": "Bristletails (Silverfish and Firebrats)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/bristletails-silverfish-and-firebrats" },
+    { "title": "Fall Household Pests", "publisher": "SDSU Extension, South Dakota State University", "url": "https://extension.sdstate.edu/fall-household-pests" },
+    { "title": "Cellar Spiders (Kentucky Critter Files)", "publisher": "University of Kentucky Department of Entomology", "url": "https://www.uky.edu/Ag/CritterFiles/casefile/spiders/cellar/cellar.htm" },
+    { "title": "Pest Notes: Carpet Beetles (UC ANR Publication 7436)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/" }
+  ],
+  "disclaimer": "both"
+}

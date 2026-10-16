@@ -1,0 +1,10 @@
+{
+ "id": "bugs-in-house-in-winter",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "92779a7a7e979009fa0e6519ca57d1ae47d20393b92cd8a7881d22ea0a597e02",
+ "claimsChecked": 420,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-16"
+}
