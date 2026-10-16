@@ -2,9 +2,16 @@
  "id": "pillar-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "0d4e3f111db48c01713da771d964adbfac17d9e8b1064d034c9eb1a6eb7b032c",
+ "sha": "66ee9f1763a61e8c9c7c7d06a4ddb7cd08f1b84829b5b2880d277dbe22a48692",
  "claimsChecked": 224,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 14,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-16",
+   "note": "Added two link paragraphs (no new facts): after the American cockroach paragraph -> /blog/palmetto-bugs; after the life-cycle paragraph -> /blog/cockroach-eggs (both planned pages, shown as text until live).",
+   "previousSha": "0d4e3f111db48c01713da771d964adbfac17d9e8b1064d034c9eb1a6eb7b032c"
+  }
+ ]
 }
