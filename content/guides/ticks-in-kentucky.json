@@ -1,0 +1,1154 @@
+{
+  "slug": "ticks-in-kentucky",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in kentucky",
+  "alsoTargets": [
+    "types of ticks in kentucky",
+    "tick season kentucky",
+    "lyme disease kentucky"
+  ],
+  "metaTitle": "Ticks in Kentucky: Types, County Maps, Season",
+  "metaDescription": "Lone star ticks are established in 86 of Kentucky's 120 counties, and its 2023 ehrlichiosis rate ranked third in the US. Maps, disease data, season.",
+  "h1": "Ticks in Kentucky: Species, County Maps, Disease Data and Tick Season",
+  "dek": "Which ticks live in Kentucky, where lone star and deer ticks are established county by county, why ehrlichiosis and spotted fever matter as much as Lyme disease here, when ticks are active, and where to send a tick.",
+  "breadcrumb": "Ticks in Kentucky",
+  "excerpt": "Lone star ticks are established in 86 of Kentucky's 120 counties. Species photos, county maps, ehrlichiosis, spotted fever and Lyme data, tick season and where to send a tick.",
+  "datePublished": "2026-10-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**The lone star tick is the most widely established tick in Kentucky: [CDC's county records](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) list it as established in 86 of the state's 120 counties.** It spreads ehrlichiosis, which with spotted fever sets Kentucky apart: in 2023 Kentucky's rates of both were the third-highest among US states, by our ranking of CDC's state tables. Kentucky is still a low-incidence Lyme disease state, though cases have climbed since 2022.",
+    "bullets": [
+      "CDC's county tables, which run through 2025, list lone star ticks as established in 86 counties, blacklegged (deer) ticks in 50 and American dog ticks in 37; a county with no record is not proof there are no ticks.",
+      "The state health department's preliminary counts for 2025, as of October 2026, are 184 ehrlichiosis, 156 Lyme disease and 131 spotted fever cases, and ehrlichiosis has risen every year since 2020.",
+      "From 2011 to 2025 the state recorded 1,856 spotted fever, 1,221 ehrlichiosis and 845 Lyme disease cases, and about half of the ehrlichiosis cases fell in June and July (our tally).",
+      "Kentucky reported 120 Lyme disease cases in 2023, up from an average of 21 a year in 2017 to 2019, though a revised case definition from 2022 limits the comparison.",
+      "The invasive Asian longhorned tick had been found in Kentucky by July 2020 and in at least 10 counties by July 2023, mostly in connection with cattle.",
+      "As of October 2026, the University of Kentucky accepts ticks mailed in by Kentucky residents for identification and, where applicable, germ testing; it is not a medical diagnostic service."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Kentucky at a glance",
+    "rows": [
+      [
+        "Species in UK's Kentucky tick guide",
+        "Seven: lone star, American dog, blacklegged, Gulf Coast, brown dog, winter and Asian longhorned (March 2026)"
+      ],
+      [
+        "Most widely established tick",
+        "Lone star tick: established in 86 of 120 counties, reported in 19 (CDC, through 2025)"
+      ],
+      [
+        "Blacklegged (deer) tick",
+        "Established in 50 counties, reported in 30 (CDC, through December 2025)"
+      ],
+      [
+        "American dog tick",
+        "Established in 37 counties, reported in 54 (CDC, through 2025)"
+      ],
+      [
+        "Ehrlichiosis",
+        "130 cases in 2023; 184 in 2025, preliminary (state health department)"
+      ],
+      [
+        "Ehrlichiosis rate",
+        "28.5 per million in 2023, third-highest among states (CDC data; our ranking)"
+      ],
+      [
+        "Spotted fever rickettsiosis",
+        "94 cases in 2023 and 131 in 2025, preliminary (state); 20.8 per million in 2023, third-highest among states (CDC data; our ranking)"
+      ],
+      [
+        "Lyme disease",
+        "120 cases in 2023, 2.7 per 100,000 (CDC); 156 in 2025, preliminary (state)"
+      ],
+      [
+        "Peak months for illness",
+        "June and July (state case records, 2011 to 2025)"
+      ],
+      [
+        "Asian longhorned tick",
+        "Found by July 2020; in at least 10 counties by July 2023 (University of Kentucky)"
+      ],
+      [
+        "Tick identification",
+        "University of Kentucky, by mail, Kentucky residents only (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Kentucky?"
+    },
+    {
+      "type": "p",
+      "text": "Seven tick species are described in [the University of Kentucky's guide to ticks and disease in Kentucky](https://entomology.mgcafe.uky.edu/ef618), revised in March 2026: the lone star, American dog, blacklegged (deer), Gulf Coast, brown dog, winter and Asian longhorned ticks. The guide calls the lone star tick very common in Kentucky and often present in large numbers."
+    },
+    {
+      "type": "p",
+      "text": "The [state health department's tickborne disease story map](https://storymaps.arcgis.com/stories/d6d2533ab2cf4e30b037eb4e9e3838c4) calls the lone star, American dog and blacklegged ticks common in Kentucky, and names Rocky Mountain spotted fever, ehrlichiosis and Lyme disease as the most common tick-borne diseases in the state."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where in Kentucky",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Established in 86 counties; woods, forest and open areas with dense vegetation",
+          "Ehrlichiosis, tularemia, Heartland and Bourbon viruses, southern tick-associated rash illness (STARI); bites linked to alpha-gal syndrome"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Established in 37 counties; forest and trail edges, fields and meadows",
+          "Rocky Mountain spotted fever, tularemia"
+        ],
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in 50 counties; woods with dense leaf litter",
+          "Lyme disease, anaplasmosis, babesiosis, Powassan virus, relapsing fever"
+        ],
+        [
+          "Gulf Coast tick, *Amblyomma maculatum*",
+          "Tall grass and meadows",
+          "*Rickettsia parkeri*, a form of spotted fever"
+        ],
+        [
+          "Brown dog tick, *Rhipicephalus sanguineus*",
+          "Can live its whole life indoors; its preferred host is the dog",
+          "Rocky Mountain spotted fever; canine babesiosis and canine ehrlichiosis"
+        ],
+        [
+          "Asian longhorned tick, *Haemaphysalis longicornis*",
+          "Invasive; in at least 10 counties by July 2023",
+          "Possibly *Theileria orientalis*, which causes anemia in cattle"
+        ],
+        [
+          "Winter tick, *Dermacentor albipictus*",
+          "Woods; spends its whole life on one host, so people rarely meet it",
+          "No diseases of medical concern; can cause major hair loss in its hosts"
+        ]
+      ],
+      "caption": "Habitat and diseases: [UK's guide](https://entomology.mgcafe.uky.edu/ef618), which also lists Rocky Mountain spotted fever for the lone star tick, unlike [CDC](https://www.cdc.gov/rocky-mountain-spotted-fever/about/index.html); the state names the American dog and brown dog ticks as its Kentucky carriers. Counties: CDC ArboNET Tick Module ([lone star](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html), [American dog](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html), [blacklegged](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html)), through 2025, and [UK's longhorned tick fact sheet](https://entomology.mgcafe.uky.edu/ef518). Months of activity are in the tick season section below."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green blade of grass, reddish-brown with long mouthparts and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick, with the single white spot of the female.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-male.webp",
+      "width": 1200,
+      "height": 981,
+      "alt": "Adult male lone star tick seen from above on a black background, reddish-brown with no central spot, only small pale marks near the edges and rear of its back",
+      "caption": "Adult male lone star tick: no single spot, only small pale marks along the edges.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8685"
+    },
+    {
+      "type": "p",
+      "text": "Adult female lone star ticks have one white dot on the back, males only smaller white markings at the rear of the shield, and both have long mouthparts, the guide says. American dog ticks are brown with a complex white pattern and short mouthparts."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a green blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick, one of the two ticks the state links with Rocky Mountain spotted fever in Kentucky.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "Adult female blacklegged tick and a much smaller blacklegged nymph on a person's fingertip, showing how tiny the nymph stage is",
+      "caption": "Adult female blacklegged (deer) tick, left, and a nymph on a fingertip.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "p",
+      "text": "Blacklegged adults are reddish-orange with black legs and a black shield; their nymphs are translucent with a black shield and legs. For sizes and markings side by side, see [how to tell the common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gulf-coast-tick-female.webp",
+      "width": 1200,
+      "height": 807,
+      "alt": "Adult female Gulf Coast tick on a green leaf, reddish-brown with long mouthparts and a pale silvery pattern on the shield behind its head",
+      "caption": "Adult female Gulf Coast tick, found in tall grass and meadows in Kentucky, UK says.",
+      "credit": "CDC/ Dr. Christopher Paddock (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10876"
+    },
+    {
+      "type": "h2",
+      "text": "Where are lone star ticks found in Kentucky?"
+    },
+    {
+      "type": "p",
+      "text": "Nearly everywhere. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) lists the species as established in 86 Kentucky counties and reported in 19 more, through 2025, and has no record for the other 15. That is more established counties than any state except Texas, by our count of CDC's table. For other states, see [tick maps and disease data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "map",
+      "scope": "KY",
+      "title": "Lone star tick status by county, Kentucky, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "21001": "established",
+        "21003": "established",
+        "21005": "established",
+        "21007": "established",
+        "21009": "reported",
+        "21011": "reported",
+        "21013": "established",
+        "21015": "reported",
+        "21017": "reported",
+        "21019": "reported",
+        "21023": "established",
+        "21025": "established",
+        "21027": "established",
+        "21029": "established",
+        "21031": "established",
+        "21033": "established",
+        "21035": "established",
+        "21037": "established",
+        "21039": "established",
+        "21041": "reported",
+        "21043": "reported",
+        "21045": "reported",
+        "21047": "established",
+        "21049": "established",
+        "21051": "established",
+        "21053": "established",
+        "21055": "established",
+        "21057": "established",
+        "21059": "established",
+        "21061": "established",
+        "21063": "established",
+        "21065": "established",
+        "21067": "established",
+        "21069": "reported",
+        "21073": "established",
+        "21077": "established",
+        "21079": "reported",
+        "21083": "reported",
+        "21085": "established",
+        "21087": "established",
+        "21089": "established",
+        "21091": "established",
+        "21093": "established",
+        "21097": "established",
+        "21099": "reported",
+        "21103": "established",
+        "21105": "established",
+        "21107": "established",
+        "21109": "established",
+        "21111": "established",
+        "21113": "reported",
+        "21115": "established",
+        "21119": "established",
+        "21123": "reported",
+        "21129": "established",
+        "21133": "reported",
+        "21135": "established",
+        "21137": "established",
+        "21139": "established",
+        "21141": "established",
+        "21143": "established",
+        "21145": "established",
+        "21147": "established",
+        "21149": "established",
+        "21151": "established",
+        "21153": "established",
+        "21157": "established",
+        "21159": "established",
+        "21163": "established",
+        "21165": "reported",
+        "21167": "established",
+        "21169": "established",
+        "21171": "established",
+        "21173": "established",
+        "21175": "established",
+        "21177": "established",
+        "21179": "established",
+        "21181": "reported",
+        "21183": "established",
+        "21185": "established",
+        "21187": "established",
+        "21189": "established",
+        "21191": "established",
+        "21193": "established",
+        "21195": "reported",
+        "21197": "established",
+        "21199": "established",
+        "21201": "established",
+        "21203": "reported",
+        "21205": "established",
+        "21207": "established",
+        "21209": "established",
+        "21211": "established",
+        "21215": "established",
+        "21217": "established",
+        "21219": "established",
+        "21221": "established",
+        "21223": "established",
+        "21225": "established",
+        "21227": "established",
+        "21229": "established",
+        "21233": "established",
+        "21235": "established",
+        "21237": "established",
+        "21239": "established"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer were found. No record does not mean no ticks: it can mean no one has sampled or reported there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "p",
+      "text": "The 15 counties without a record are scattered across the state: Boyle, Floyd, Fulton, Grant, Harlan, Henderson, Kenton, Knox, Laurel, Lawrence, Leslie, Marion, Mason, Simpson and Wayne. CDC notes that counties often become established once they are sampled and documented for the first time."
+    },
+    {
+      "type": "p",
+      "text": "Knox and Laurel counties, for instance, have no lone star record, yet the state's case records assign 26 and 22 ehrlichiosis cases to them from 2011 to 2025. Cases are filed by county, not necessarily where the bite happened, but no record can simply mean no sampling."
+    },
+    {
+      "type": "p",
+      "text": "Some of these ticks carry ehrlichiosis. A University of Kentucky survey collected 5,726 lone star ticks in 77 counties in 2019 and 2020, partly through a statewide tick submission program set up with the state health department, and found *Ehrlichia chaffeensis*, the main cause of ehrlichiosis, in ticks from 32 counties, according to [the 2023 study](https://pubmed.ncbi.nlm.nih.gov/36379171/). It put the minimum infection rate at 1.8%, a lower-bound estimate of the share of ticks carrying the germ."
+    },
+    {
+      "type": "p",
+      "text": "The lone star tick does not spread Lyme disease, UK's guide says, but it links the tick's bites to alpha-gal syndrome, an allergy to red meat, and says the antibody behind it has been found in up to 20% of people tested who live where the lone star tick is common. Symptoms and diagnosis are covered in [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome)."
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged (deer) ticks established in Kentucky?"
+    },
+    {
+      "type": "p",
+      "text": "In 50 counties spread across the state. [CDC's county table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in 50 Kentucky counties and reported in 30 more, and has no record for the other 40."
+    },
+    {
+      "type": "map",
+      "scope": "KY",
+      "title": "Blacklegged (deer) tick status by county, Kentucky, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "21001": "established",
+        "21007": "established",
+        "21011": "reported",
+        "21013": "established",
+        "21015": "established",
+        "21019": "established",
+        "21021": "reported",
+        "21025": "established",
+        "21029": "established",
+        "21031": "reported",
+        "21033": "established",
+        "21037": "reported",
+        "21041": "established",
+        "21043": "established",
+        "21045": "established",
+        "21047": "reported",
+        "21049": "reported",
+        "21051": "established",
+        "21053": "reported",
+        "21055": "reported",
+        "21057": "reported",
+        "21059": "reported",
+        "21061": "established",
+        "21065": "established",
+        "21067": "established",
+        "21071": "established",
+        "21073": "established",
+        "21077": "reported",
+        "21089": "established",
+        "21091": "established",
+        "21093": "established",
+        "21095": "reported",
+        "21097": "reported",
+        "21099": "reported",
+        "21103": "established",
+        "21107": "established",
+        "21109": "established",
+        "21111": "reported",
+        "21113": "established",
+        "21115": "established",
+        "21121": "established",
+        "21125": "established",
+        "21129": "established",
+        "21131": "reported",
+        "21135": "established",
+        "21137": "established",
+        "21143": "established",
+        "21147": "established",
+        "21151": "established",
+        "21155": "reported",
+        "21157": "reported",
+        "21163": "established",
+        "21167": "reported",
+        "21169": "reported",
+        "21171": "reported",
+        "21173": "reported",
+        "21175": "reported",
+        "21177": "established",
+        "21181": "established",
+        "21183": "established",
+        "21185": "reported",
+        "21187": "established",
+        "21189": "established",
+        "21191": "established",
+        "21195": "established",
+        "21199": "established",
+        "21201": "reported",
+        "21203": "established",
+        "21205": "reported",
+        "21207": "established",
+        "21209": "established",
+        "21217": "reported",
+        "21219": "reported",
+        "21221": "established",
+        "21223": "established",
+        "21227": "reported",
+        "21233": "established",
+        "21235": "reported",
+        "21237": "established",
+        "21239": "established"
+      },
+      "caption": "Established means six or more blacklegged ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer than six of a single life stage. No record does not mean no ticks: CDC says it can reflect a lack of sampling, collection or reporting. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html)"
+    },
+    {
+      "type": "p",
+      "text": "The no-record list includes Mason and McCracken counties, which each reported 5 Lyme cases in 2023. Lyme cases are counted where patients live, so some of those bites may have happened elsewhere."
+    },
+    {
+      "type": "h3",
+      "text": "Do Kentucky deer ticks carry Lyme disease bacteria?"
+    },
+    {
+      "type": "p",
+      "text": "Some do. [CDC's ArboNET Tick Module pathogen table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) records *Borrelia burgdorferi*, the bacterium behind Lyme disease, in host-seeking blacklegged ticks from 15 Kentucky counties: Boone, Carter, Christian, Clinton, Edmonson, Greenup, Jackson, Jefferson, Laurel, Marshall, Mercer, Pendleton, Pulaski, Rockcastle and Russell. It also records *Borrelia miyamotoi*, the cause of hard tick relapsing fever, in Edmonson and Greenup counties."
+    },
+    {
+      "type": "p",
+      "text": "It has no Kentucky records for *Borrelia mayonii*, the human-active variant of the anaplasmosis germ, *Ehrlichia muris eauclairensis*, *Babesia microti* or Powassan virus. Host-seeking means the ticks were collected while looking for a host rather than feeding on one, and a missing record is not proof a germ is absent."
+    },
+    {
+      "type": "h2",
+      "text": "Which tick-borne diseases are most common in Kentucky?"
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever rickettsiosis and ehrlichiosis, with Lyme disease catching up. The [state health department's tickborne disease dashboard](https://storymaps.arcgis.com/stories/d6d2533ab2cf4e30b037eb4e9e3838c4) recorded 1,856 spotted fever cases, 1,221 ehrlichiosis cases and 845 Lyme disease cases from 2011 to 2025, confirmed and probable combined (our total of its yearly counts). In the preliminary 2025 figures (as of October 2026), ehrlichiosis leads with 184 cases, ahead of Lyme disease (156) and spotted fever (131)."
+    },
+    {
+      "type": "p",
+      "text": "In CDC's 2023 state tables, Kentucky's rate of *Ehrlichia chaffeensis* ehrlichiosis, 28.5 cases per million residents, was the third-highest of any state after Missouri and Arkansas, and its spotted fever rickettsiosis rate, 20.8 per million, was third after North Carolina and Arkansas, by our ranking of [CDC's ehrlichiosis data](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html) and [CDC's spotted fever data](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html)."
+    },
+    {
+      "type": "chart",
+      "title": "Ehrlichiosis and spotted fever cases reported in Kentucky, 2012 to 2025",
+      "x": [
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "Ehrlichiosis",
+          "values": [
+            32,
+            67,
+            62,
+            57,
+            43,
+            76,
+            75,
+            103,
+            63,
+            69,
+            99,
+            130,
+            160,
+            184
+          ]
+        },
+        {
+          "name": "Spotted fever rickettsiosis",
+          "values": [
+            64,
+            70,
+            53,
+            142,
+            167,
+            250,
+            219,
+            349,
+            55,
+            96,
+            96,
+            94,
+            70,
+            131
+          ]
+        }
+      ],
+      "yLabel": "Confirmed and probable cases per year (bars stacked by disease)",
+      "caption": "Counts recorded by the Kentucky Department for Public Health as of October 2026; the state calls its data preliminary and subject to change, and the dashboard's 2011, a single case, is left out. For 2018 to 2023 these counts closely match the rates CDC published (our comparison), which cover *E. chaffeensis* ehrlichiosis only. CDC says COVID-19 may have left 2019 and 2020 data incomplete in some jurisdictions.",
+      "source": "[Kentucky Department for Public Health, Tickborne Disease Dashboard 2011-2025](https://storymaps.arcgis.com/stories/d6d2533ab2cf4e30b037eb4e9e3838c4)"
+    },
+    {
+      "type": "p",
+      "text": "The two diseases have moved in different directions. Ehrlichiosis has risen every year since 2020, from 63 cases to 184 in 2025. Spotted fever peaked at 349 cases in 2019; the state attributes the 2020 drop to a change in the case definition."
+    },
+    {
+      "type": "h3",
+      "text": "Is spotted fever in Kentucky really Rocky Mountain spotted fever?"
+    },
+    {
+      "type": "p",
+      "text": "Not necessarily, and the records often cannot say. In the state's data, 92 of Kentucky's 94 spotted fever cases in 2023 were probable rather than confirmed, and a [2026 University of Kentucky study](https://pmc.ncbi.nlm.nih.gov/articles/PMC12929685/) notes that clinical antibody tests cannot tell infections with different *Rickettsia* species apart, so it is hard to know whether Rocky Mountain spotted fever or another rickettsial germ was involved."
+    },
+    {
+      "type": "p",
+      "text": "The ticks point the same way. The study tested American dog ticks, the main North American carrier of the Rocky Mountain spotted fever germ, from 114 Kentucky counties between 2019 and 2024. It found *Rickettsia* species in 1% of them, most often *R. montanensis*, whose ability to cause human illness is not well established, and did not detect *R. rickettsii*, the cause of Rocky Mountain spotted fever. It did find *R. parkeri* (0.13%), which causes a similar but typically milder illness and is spread mainly by the Gulf Coast tick. None of this makes a fever after a tick bite less urgent; see the symptoms below."
+    },
+    {
+      "type": "h3",
+      "text": "Which Kentucky counties report the most ehrlichiosis and spotted fever?"
+    },
+    {
+      "type": "p",
+      "text": "By rate, ehrlichiosis is highest in western and southeastern counties; for spotted fever, the state's and CDC's county figures disagree. The [state's story map](https://storymaps.arcgis.com/stories/d6d2533ab2cf4e30b037eb4e9e3838c4) says ehrlichiosis is more common in western Kentucky, with another cluster of higher-rate counties in the southern Appalachian region, and spotted fever in the southern and western regions. Its county maps add up cases from 2011 to 2025 per 100,000 residents."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Rank",
+        "Ehrlichiosis, cases per 100,000"
+      ],
+      "rows": [
+        [
+          "1",
+          "Livingston, 236.9"
+        ],
+        [
+          "2",
+          "Clay, 128.4"
+        ],
+        [
+          "3",
+          "Marshall, 116.9"
+        ],
+        [
+          "4",
+          "Muhlenberg, 104.5"
+        ],
+        [
+          "5",
+          "Hart, 104.4"
+        ],
+        [
+          "6",
+          "Whitley, 101.9"
+        ],
+        [
+          "Kentucky overall",
+          "26.5"
+        ]
+      ],
+      "caption": "Confirmed and probable cases from 2011 to 2025 added together, per 100,000 residents (2025 population), from the [state's county maps](https://storymaps.arcgis.com/stories/d6d2533ab2cf4e30b037eb4e9e3838c4), leaving out rates the state flags as unreliable because of small numbers; Kentucky overall is our calculation on the same basis. Cases are filed by county, not necessarily where the bite happened. Spotted fever is left out: for 2019 to 2022, [CDC's county file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) has 57 cases in Crittenden County and 8 in Grayson, against the state's 6 and 52."
+    },
+    {
+      "type": "p",
+      "text": "Raw counts follow population instead: Jefferson County, home to Louisville, has the most ehrlichiosis cases in the state's records, 100 from 2011 to 2025, but a rate of 12.6 per 100,000."
+    },
+    {
+      "type": "h3",
+      "text": "How does Kentucky compare with its neighbors?"
+    },
+    {
+      "type": "p",
+      "text": "Among Kentucky's seven neighbors, only Missouri had a higher ehrlichiosis rate in 2023, and none had a higher spotted fever rate. Lyme disease runs the other way: West Virginia and Virginia, both high-incidence Lyme states in CDC's classification, had far higher rates."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Ehrlichiosis",
+        "Spotted fever rickettsiosis",
+        "Lyme disease"
+      ],
+      "rows": [
+        [
+          "[Missouri](/blog/ticks-in-missouri)",
+          "7.6",
+          "1.8",
+          "0.3"
+        ],
+        [
+          "Kentucky",
+          "2.9",
+          "2.1",
+          "2.7"
+        ],
+        [
+          "[Tennessee](/blog/ticks-in-tennessee)",
+          "1.5",
+          "1.2",
+          "0.7"
+        ],
+        [
+          "[West Virginia](/blog/ticks-in-west-virginia)",
+          "1.1",
+          "0.6",
+          "181.6"
+        ],
+        [
+          "[Virginia](/blog/ticks-in-virginia)",
+          "1.1",
+          "1.1",
+          "20.2"
+        ],
+        [
+          "[Indiana](/blog/ticks-in-indiana)",
+          "0.9",
+          "0.2",
+          "3.8"
+        ],
+        [
+          "[Illinois](/blog/ticks-in-illinois)",
+          "0.4",
+          "0.2",
+          "2.9"
+        ],
+        [
+          "[Ohio](/blog/ticks-in-ohio)",
+          "0.1",
+          "0.2",
+          "11.1"
+        ]
+      ],
+      "caption": "Cases per 100,000 residents by state of residence, 2023, the latest CDC year as of October 2026. CDC's per-million rates for ehrlichiosis (*E. chaffeensis*) and spotted fever are shown divided by 10. Sources: CDC [ehrlichiosis](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html), [spotted fever](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html) and [Lyme disease](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html) data; high-incidence states as mapped in [CDC's guidance for clinicians](https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf)."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does Kentucky have?"
+    },
+    {
+      "type": "p",
+      "text": "Far less than West Virginia or Virginia, but more than it used to. Kentucky reported 120 confirmed and probable Lyme disease cases in 2023, a rate of 2.7 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). The state health department's preliminary counts are 176 for 2024 and 156 for 2025."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Kentucky, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            5,
+            1,
+            5,
+            3,
+            14,
+            40,
+            44,
+            49,
+            33,
+            20,
+            22,
+            22,
+            32,
+            41,
+            72,
+            120
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "A revised case definition took effect in 2022, so 2022 and 2023 are not directly comparable with earlier years, and CDC says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions. Data through 2023, the latest CDC year as of October 2026; the state health department's preliminary counts are 176 for 2024 and 156 for 2025.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)"
+    },
+    {
+      "type": "p",
+      "text": "Read the recent rise with care. [CDC's report on the first year of the revised definition](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) lists Kentucky as a low-incidence state, where a case still requires supporting clinical information and a probable case now needs objective signs of infection. In that report, Kentucky's 72 cases in 2022 were 242.9% above its 2017 to 2019 average of 21, while low-incidence jurisdictions as a group rose 10.0%; CDC cautions that the change precludes robust comparison with earlier years."
+    },
+    {
+      "type": "p",
+      "text": "The state health department's story map says Lyme disease was thought to be rare in Kentucky, but that changes in the blacklegged tick's range may be contributing to more cases across the state. For what the illness looks like, see [the early and late symptoms of Lyme disease](/blog/lyme-disease-symptoms-guide)."
+    },
+    {
+      "type": "h3",
+      "text": "Which Kentucky counties report Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Cases are thinly spread. In 2023, 49 of Kentucky's 120 counties reported at least one case and none more than seven, based on [CDC's county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html). Boone County in Northern Kentucky had the most, 7, followed by Fayette, Laurel, McCracken and Mason counties with 5 each."
+    },
+    {
+      "type": "p",
+      "text": "CDC counts cases in the county where the patient lives, where known, which is not necessarily where the bite happened, and its county file places 103 of the state's 120 cases for 2023 in a county (our count)."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Kentucky?"
+    },
+    {
+      "type": "p",
+      "text": "March through September for lone star and American dog ticks, with illness peaking in June and July. Blacklegged ticks are active year-round, and [UK's guide](https://entomology.mgcafe.uky.edu/ef618) says their adults stay active on winter days above 40°F."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "When it is active in Kentucky"
+      ],
+      "rows": [
+        [
+          "Lone star tick",
+          "Adults and nymphs March to September; larvae in later summer and fall"
+        ],
+        [
+          "American dog tick",
+          "Adults and nymphs March to September; UK's 2019 to 2024 survey found the species active from March to October, peaking in May and June"
+        ],
+        [
+          "Blacklegged (deer) tick",
+          "Adults October to June, and on winter days above 40°F; nymphs May to August"
+        ],
+        [
+          "Gulf Coast tick",
+          "Still under study; March to November in other states"
+        ],
+        [
+          "Asian longhorned tick",
+          "Still under study; March to September in other eastern states"
+        ],
+        [
+          "Brown dog tick",
+          "Still under study; year-round in other states"
+        ]
+      ],
+      "caption": "Activity: the [University of Kentucky guide](https://entomology.mgcafe.uky.edu/ef618), March 2026; American dog tick survey: [the 2026 University of Kentucky study](https://pmc.ncbi.nlm.nih.gov/articles/PMC12929685/). Ticks can turn up outside these months."
+    },
+    {
+      "type": "chart",
+      "title": "Tick-borne disease cases in Kentucky by month, 2011 to 2025 combined",
+      "x": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "series": [
+        {
+          "name": "Ehrlichiosis",
+          "values": [
+            4,
+            2,
+            5,
+            44,
+            167,
+            313,
+            318,
+            176,
+            118,
+            46,
+            15,
+            13
+          ]
+        },
+        {
+          "name": "Spotted fever rickettsiosis",
+          "values": [
+            30,
+            22,
+            39,
+            97,
+            203,
+            403,
+            353,
+            290,
+            211,
+            107,
+            57,
+            44
+          ]
+        },
+        {
+          "name": "Lyme disease",
+          "values": [
+            20,
+            21,
+            23,
+            54,
+            88,
+            191,
+            151,
+            95,
+            79,
+            58,
+            35,
+            30
+          ]
+        }
+      ],
+      "yLabel": "Confirmed and probable cases, all 15 years added together (bars stacked by disease)",
+      "caption": "By the month of the surveillance week the state assigned to each case, which comes after the bite itself. The state calls its data preliminary and subject to change.",
+      "source": "[Kentucky Department for Public Health, Tickborne Disease Dashboard 2011-2025](https://storymaps.arcgis.com/stories/d6d2533ab2cf4e30b037eb4e9e3838c4)"
+    },
+    {
+      "type": "p",
+      "text": "Of 1,221 ehrlichiosis cases from 2011 to 2025, 51.7% fell in June and July and 93.0% between April and September, by our tally of the state dashboard. Spotted fever and Lyme disease also peak in June but tail off more slowly: 10.3% of spotted fever cases and 15.3% of Lyme cases fell between November and March, and Lyme cases appear in every month of the state's records."
+    },
+    {
+      "type": "h2",
+      "text": "Is the Asian longhorned tick in Kentucky?"
+    },
+    {
+      "type": "p",
+      "text": "Yes. By July 2020 it had been found in small numbers on elk in Martin County and on black bear in Floyd County, and in large numbers on a bull in Metcalfe County in south-central Kentucky, according to a [University of Kentucky news release](https://news.mgcafe.uky.edu/article/asian-longhorned-tick-found-kentucky); the Metcalfe County ticks reached the UK Veterinary Diagnostic Laboratory through a veterinarian."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female, both plain reddish-brown without markings, resting on a U.S. dime for scale",
+      "caption": "An Asian longhorned tick nymph (left) and adult female on a U.S. dime. Adults are about 0.1 inch long and have no markings, UK says.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "It has spread since. [UK's Asian longhorned tick fact sheet](https://entomology.mgcafe.uky.edu/ef518), revised in July 2023, lists 10 Kentucky counties: Floyd, Martin, Metcalfe, Madison, Breathitt, Perry, Boone, Garrard, Barren and Laurel. It says Kentucky finds tend to be associated with cattle, with reports from bear, elk and people as well, and that *Theileria*, a cattle disease the tick can carry, was found in Kentucky in 2022. The tick has bitten people, the fact sheet says, but *Theileria* does not infect humans."
+    },
+    {
+      "type": "p",
+      "text": "Every Asian longhorned tick caught in the United States by 2023 was female, the fact sheet notes; females reproduce without mating, and a single female can produce hundreds more ticks."
+    },
+    {
+      "type": "h3",
+      "text": "How do you report an Asian longhorned tick in Kentucky?"
+    },
+    {
+      "type": "p",
+      "text": "UK's 2020 release gives two routes:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "If you find an unusually large number of ticks on a pet or on livestock, contact your local veterinarian.",
+        "If you find a single tick you suspect is an Asian longhorned tick, work with your county extension agent for agriculture and natural resources, who can send it to UK entomologists for identification."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Where can you get a tick identified or tested in Kentucky?"
+    },
+    {
+      "type": "p",
+      "text": "At the University of Kentucky. The [state health department's story map](https://storymaps.arcgis.com/stories/d6d2533ab2cf4e30b037eb4e9e3838c4) says UK's Department of Entomology accepts ticks from the public for identification and, where applicable, germ testing, and stresses that this is not a medical diagnostic service. As of October 2026, [UK's shipping guide](https://entomology.mgcafe.uky.edu/ticksurveillance2022) limits the service to Kentucky residents and will not process samples sent without its online submission form. Its steps:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Fill in UK's online tick submission form before you mail anything.",
+        "Leave the tick in 91% isopropyl alcohol in a hard plastic container for 24 hours, then pour off the alcohol so no liquid remains, add a plain cotton ball and close it.",
+        "Seal the container in a zip-top bag, seal that inside a second bag, and mail it in a padded envelope to the address in the guide.",
+        "Do not mail live ticks, ticks loose in a paper envelope, ticks squashed between pieces of tape, or samples still in liquid alcohol."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Your county extension office is the other route: UK's guide to ticks and disease says identification is available through local Cooperative Extension Service offices. Knowing the species helps, because the lone star, American dog and blacklegged ticks carry different diseases."
+    },
+    {
+      "type": "p",
+      "text": "A tick result is not a diagnosis. [CDC's guidance on what to do after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) says tick testing results should not be used for treatment decisions, that a positive result does not necessarily mean you were infected, and that if you become ill you should not wait for a tick result before starting treatment."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Kentucky?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick as soon as possible, clean the bite, and watch for a rash or fever in the following weeks. [CDC](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) gives these steps:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick as close to the skin's surface as possible using clean, fine-tipped tweezers.",
+        "Pull it away from the skin with steady, even pressure; do not twist or jerk it.",
+        "If the mouthparts break off, remove them with the tweezers if you can; if not, leave them alone.",
+        "Do not crush the tick with your fingers. Put it in alcohol or a sealed container, wrap it tightly in tape, or flush it.",
+        "Clean the bite and your hands with soap and water, rubbing alcohol or hand sanitizer, then check for other ticks."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Skip folk remedies: CDC says petroleum jelly, heat or nail polish may agitate the tick and force infected fluid into the skin. For a longer walk-through, see [the step-by-step tick removal guide](/blog/how-to-remove-tick-safely)."
+    },
+    {
+      "type": "p",
+      "text": "Then watch your health. CDC says to see a doctor if you develop a rash or fever within several days to weeks after removing a tick, and to tell them about the bite, when it happened and where you most likely picked up the tick. Its [guidance for clinicians](https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf) adds a reason to keep the tick: its species and how engorged it is matter in deciding on a preventive antibiotic."
+    },
+    {
+      "type": "h3",
+      "text": "What are the symptoms of ehrlichiosis and Rocky Mountain spotted fever?"
+    },
+    {
+      "type": "p",
+      "text": "Ehrlichiosis symptoms typically begin within 1 to 2 weeks of a bite and can include fever, chills, severe headache, muscle aches, nausea, vomiting, diarrhea, loss of appetite and confusion, according to [CDC's ehrlichiosis symptoms page](https://www.cdc.gov/ehrlichiosis/signs-symptoms/index.html). Up to 1 in 3 people report a rash, more often children. Delayed treatment can lead to severe illness, and children under 5, adults over 65 and people with weakened immune systems are at higher risk."
+    },
+    {
+      "type": "p",
+      "text": "Rocky Mountain spotted fever begins with signs that are not specific to it, such as fever, headache, nausea or vomiting, stomach pain and muscle pain. Its rash usually appears 2 to 4 days after the fever starts and can look like red splotches or pinpoint dots, according to [CDC's overview of the disease](https://www.cdc.gov/rocky-mountain-spotted-fever/about/index.html), and it can be deadly if not treated early with doxycycline."
+    },
+    {
+      "type": "h3",
+      "text": "Should you take an antibiotic after a tick bite?"
+    },
+    {
+      "type": "p",
+      "text": "Only a healthcare provider can decide, and the usual preventive dose covers just one of Kentucky's three main tick-borne diseases. [CDC's guidance for clinicians](https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf) says a single dose of doxycycline can lower the risk of Lyme disease when the bite happened in a state where Lyme disease incidence is high or in an area where more than 20% of ticks carry the Lyme bacterium; the tick was an adult or nymphal blacklegged tick attached for an estimated 36 hours or more; the dose can start within 72 hours of removal; and the person can take doxycycline."
+    },
+    {
+      "type": "p",
+      "text": "The same guidance shows Kentucky as a low-incidence state, and says antibiotic prophylaxis has not been shown to prevent tick-borne diseases other than Lyme disease and is not recommended for preventing ehrlichiosis or Rocky Mountain spotted fever. Ask your healthcare provider whether it fits your bite."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a healthcare provider if you feel ill",
+      "text": "A fever, rash, headache or body aches in the weeks after a tick bite or time in grassy, brushy or wooded areas is a reason to see a provider and mention the tick. Do not wait for a tick test result. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Kentucky?"
+    },
+    {
+      "type": "p",
+      "text": "Use repellent, treat your clothes, check yourself often and shower soon after coming indoors. The [state health department's story map](https://storymaps.arcgis.com/stories/d6d2533ab2cf4e30b037eb4e9e3838c4) passes on CDC's advice, and [UK's guide](https://entomology.mgcafe.uky.edu/ef618) adds its own:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Keep to the middle of the trail.** The state advises walking in the center of trails and avoiding wooded and brushy areas with high grass and leaf litter; UK suggests staying out of uncut fields and brush.",
+        "**Use an EPA-registered repellent.** The state lists products with DEET, picaridin or other approved ingredients, and UK recommends 20 to 30 percent DEET on exposed skin. Follow the label.",
+        "**Treat clothing and gear with permethrin.** The state recommends products with 0.5% permethrin for clothes, and UK suggests treating boots, pants (especially the cuffs), socks and tents.",
+        "**Dress for it.** UK suggests tucking long pants into socks and boots; light-colored pants make ticks easier to see.",
+        "**Check often.** UK advises checking yourself and your family every 2 to 3 hours in tick areas and after outdoor activities; the state adds a full-body check with a mirror or partner and a shower within two hours of coming indoors.",
+        "**Use the dryer.** Tumble-drying clothes on high heat for 10 minutes kills any remaining ticks, the state says.",
+        "**Protect pets.** Ask your veterinarian about tick prevention medication; the state notes that having pets with ticks can raise your own chances of having ticks. For dogs, see [how to find and deal with ticks on dogs](/blog/ticks-on-dogs)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the most common tick in Kentucky?",
+      "answer": "The lone star tick is the most widely established. CDC's county records, which run through 2025, list it as established in 86 of Kentucky's 120 counties, against 50 for the blacklegged (deer) tick and 37 for the American dog tick, and University of Kentucky entomologists call it very common in the state and often present in large numbers. American dog ticks are widespread too: a University of Kentucky survey collected them in 114 counties between 2019 and 2024."
+    },
+    {
+      "question": "Is Lyme disease common in Kentucky?",
+      "answer": "Less common than in high-incidence states, but rising. Kentucky reported 120 confirmed and probable cases in 2023, a rate of 2.7 per 100,000 residents, and CDC classes it as a low-incidence state. The state health department's preliminary counts are 176 for 2024 and 156 for 2025. A revised national case definition took effect in 2022, so recent years are not directly comparable with earlier ones. Spotted fever and ehrlichiosis have historically been reported more often in Kentucky."
+    },
+    {
+      "question": "When is tick season in Kentucky?",
+      "answer": "Ticks are most active from March through September. University of Kentucky entomologists say lone star and American dog tick adults and nymphs are active in those months, lone star larvae in the later summer and fall, and blacklegged nymphs from May through August. Blacklegged adults are active from October through June and stay active in winter whenever it is above 40 degrees Fahrenheit. In the state's 2011 to 2025 case records, illness peaks in June and July."
+    },
+    {
+      "question": "Can I get a tick tested for diseases in Kentucky?",
+      "answer": "Kentucky residents can mail ticks to the University of Kentucky, which, the state health department says, identifies them and tests them for germs where applicable. The university says it is not a medical diagnostic service, and CDC says tick test results should not be used for treatment decisions and that a positive result does not necessarily mean you were infected. If you feel ill after a bite, see a healthcare provider rather than waiting for a result."
+    },
+    {
+      "question": "Does a single dose of doxycycline after a tick bite prevent ehrlichiosis or Rocky Mountain spotted fever?",
+      "answer": "No. CDC's guidance for clinicians says antibiotic prophylaxis has not been shown to prevent tick-borne diseases other than Lyme disease and is not recommended for preventing ehrlichiosis or Rocky Mountain spotted fever. For Lyme disease, a single dose can lower the risk in specific circumstances, such as a blacklegged tick attached for an estimated 36 hours or more in a high-incidence area. Kentucky is a low-incidence state, so ask a healthcare provider whether it fits your bite."
+    },
+    {
+      "question": "Where has the Asian longhorned tick been found in Kentucky?",
+      "answer": "By July 2020 it had been found on elk in Martin County, on black bear in Floyd County and on a bull in Metcalfe County, according to the University of Kentucky. A UK fact sheet revised in July 2023 lists 10 counties: Floyd, Martin, Metcalfe, Madison, Breathitt, Perry, Boone, Garrard, Barren and Laurel, with finds tending to involve cattle. Report heavy infestations on pets or livestock to a veterinarian, and a single suspect tick to your county extension agent."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "American Dog Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (county of residence, 2019 to 2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "Ehrlichiosis Epidemiology and Statistics (state incidence files, 2018 to 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "Data and Statistics on Spotted Fever Rickettsiosis (state incidence files, 2018 to 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "Tickborne Disease in Kentucky (story map, with the Tickborne Disease Dashboard 2011-2025 and county rate maps)",
+      "publisher": "Kentucky Department for Public Health",
+      "url": "https://storymaps.arcgis.com/stories/d6d2533ab2cf4e30b037eb4e9e3838c4",
+      "kind": "government"
+    },
+    {
+      "title": "Ticks and Disease in Kentucky (ENTFACT-618, revised March 2026)",
+      "publisher": "University of Kentucky Department of Entomology",
+      "url": "https://entomology.mgcafe.uky.edu/ef618"
+    },
+    {
+      "title": "Preparing for Asian Longhorned Tick in Kentucky (ENTFACT-518, revised July 2023)",
+      "publisher": "University of Kentucky Department of Entomology",
+      "url": "https://entomology.mgcafe.uky.edu/ef518"
+    },
+    {
+      "title": "Asian longhorned tick found in Kentucky (news release, July 21, 2020)",
+      "publisher": "University of Kentucky Martin-Gatton College of Agriculture, Food and Environment",
+      "url": "https://news.mgcafe.uky.edu/article/asian-longhorned-tick-found-kentucky"
+    },
+    {
+      "title": "Guide to Shipping Ticks for Identification and Testing",
+      "publisher": "University of Kentucky Department of Entomology",
+      "url": "https://entomology.mgcafe.uky.edu/ticksurveillance2022"
+    },
+    {
+      "title": "County-level surveillance for the lone star tick, Amblyomma americanum, and its associated pathogen, Ehrlichia chaffeensis, in Kentucky (2023)",
+      "publisher": "Ticks and Tick-borne Diseases, via PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36379171/"
+    },
+    {
+      "title": "County-level surveillance for the American dog tick (Dermacentor variabilis) and Rickettsia species in Kentucky (2026)",
+      "publisher": "Scientific Reports, via PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12929685/"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "Signs and Symptoms of Ehrlichiosis",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ehrlichiosis/signs-symptoms/index.html"
+    },
+    {
+      "title": "About Rocky Mountain Spotted Fever",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/about/index.html"
+    },
+    {
+      "title": "Guidance for Clinicians: Caring for Patients after a Tick Bite (December 2021)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf"
+    }
+  ],
+  "disclaimer": "both"
+}

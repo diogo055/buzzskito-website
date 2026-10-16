@@ -1,0 +1,912 @@
+{
+  "slug": "ticks-in-rhode-island",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in rhode island",
+  "alsoTargets": [
+    "types of ticks in rhode island",
+    "tick season rhode island",
+    "lyme disease rhode island"
+  ],
+  "metaTitle": "Ticks in Rhode Island: Types, Lyme Map, Season",
+  "metaDescription": "Deer ticks live in all 5 Rhode Island counties, and the state had the top US Lyme rate in 2023. Tick photos, a county Lyme map, the season and tick ID.",
+  "h1": "Ticks in Rhode Island: Species, County Maps, Lyme Data and Tick Season",
+  "dek": "Which ticks live in Rhode Island, where Lyme disease is most common county by county, when each tick is active, and where to get a tick identified.",
+  "breadcrumb": "Ticks in Rhode Island",
+  "excerpt": "Deer ticks are established in all five Rhode Island counties. Species photos, Lyme rates by county, tick season by month and free tick identification from URI.",
+  "datePublished": "2026-10-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**Blacklegged (deer) ticks, the ticks that spread Lyme disease, are established in all five Rhode Island counties.** Rhode Island residents reported 2,852 Lyme disease cases in 2023, or 260 per 100,000 people, the highest rate of any state, according to [CDC surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). American dog ticks are recorded in every county and lone star ticks in three.",
+    "bullets": [
+      "The state health department counted 2,563 Lyme cases in 2024, a rate of 233.6 per 100,000, and says Washington County consistently has the state's highest rate.",
+      "Relative to population, 2023 Lyme rates ranged from about 150 per 100,000 in Providence County to about 733 in Washington County, BuzzSkito's calculation from CDC and Census data.",
+      "Babesiosis (161 cases) and anaplasmosis (86) followed Lyme disease in 2024, while Powassan virus is rare, with 8 cases from 2016 through 2025.",
+      "The risk of a bite is greatest from spring through fall and Lyme reports peak in July, but ticks can look for hosts on winter days above freezing.",
+      "Lone star ticks are established in two counties, and the invasive Asian longhorned tick had been confirmed in three counties by April 2025.",
+      "As of October 2026, the University of Rhode Island's TickSpotters service identifies a tick from a photo for free, usually within 24 hours."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Rhode Island at a glance",
+    "rows": [
+      [
+        "Ticks recorded in Rhode Island",
+        "Blacklegged (deer), American dog and lone star ticks; the invasive Asian longhorned tick in 3 counties"
+      ],
+      [
+        "Counties with established blacklegged ticks",
+        "5 of 5 (CDC, through December 2025)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "2,852 in 2023 (CDC); 2,563 in 2024 (state count)"
+      ],
+      [
+        "Lyme rate",
+        "260.0 per 100,000 in 2023, the highest of any state (CDC data)"
+      ],
+      [
+        "Highest county rate, 2023",
+        "Washington County, about 733 per 100,000 (954 cases; BuzzSkito's calculation from CDC and Census data)"
+      ],
+      [
+        "Most cases by county, 2023",
+        "Providence County, 1,000"
+      ],
+      [
+        "Lone star tick",
+        "Established in Bristol and Newport counties, reported in Washington County (CDC, through 2025)"
+      ],
+      [
+        "Asian longhorned tick",
+        "Confirmed in Washington, Providence and Newport counties (USDA report, April 2025)"
+      ],
+      [
+        "Next most reported tick-borne diseases",
+        "Babesiosis, 161 cases, and anaplasmosis, 86, in 2024 (state count)"
+      ],
+      [
+        "Powassan virus",
+        "8 cases from 2016 through 2025, none before 2016 (CDC)"
+      ],
+      [
+        "Riskiest months",
+        "Spring through fall; Lyme reports peak in July (state health department)"
+      ],
+      [
+        "Tick identification",
+        "Free photo ID from URI's TickSpotters, usually within 24 hours (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Rhode Island?"
+    },
+    {
+      "type": "p",
+      "text": "Three ticks that bite people are on record in Rhode Island: the blacklegged tick, also called the deer tick, the American dog tick and the lone star tick. [CDC's tick surveillance data](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) list the blacklegged tick as established in all five counties, CDC's [American dog tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html) records the dog tick in all five, and its [lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) records the lone star tick in three. The invasive Asian longhorned tick is covered further down."
+    },
+    {
+      "type": "p",
+      "text": "The deer tick matters most for health. It spreads Lyme disease, anaplasmosis and babesiosis, the three tick-borne diseases reported most often in Rhode Island, as well as Powassan virus, according to the state health department's [tick-borne disease page](https://health.ri.gov/tick-borne-diseases). The same page names the lone star tick as the carrier of ehrlichiosis and the American dog tick as one of the carriers of Rocky Mountain spotted fever."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where in Rhode Island",
+        "When it is active",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in all 5 counties",
+          "Nymphs in spring and summer; adults in the cooler months, including winter days above freezing",
+          "Lyme disease, anaplasmosis, babesiosis, Powassan virus"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Recorded in all 5 counties; established in Newport and Washington",
+          "Adults April to early August; mostly adults bite people",
+          "Rocky Mountain spotted fever, tularemia"
+        ],
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Established in Bristol and Newport counties; reported in Washington",
+          "Adults April to late August",
+          "Ehrlichiosis, tularemia; bites are linked to alpha-gal syndrome"
+        ]
+      ],
+      "caption": "Where: CDC ArboNET Tick Module, through 2025. When and what: the state health department's [tick-borne disease](https://health.ri.gov/tick-borne-diseases) and [Lyme disease](https://health.ri.gov/tick-borne-diseases/lyme-disease) pages, and URI TickEncounter's [American dog tick](https://web.uri.edu/tickencounter/species/dog-tick/) and [lone star tick](https://web.uri.edu/tickencounter/species/lone-star-tick/) pages, whose adult seasons are general, not Rhode Island's own."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "An adult female blacklegged tick with a reddish body and dark legs beside a much smaller nymph on a person's fingertip",
+      "caption": "An adult female blacklegged (deer) tick and a nymph, right, on a fingertip. CDC says nymphs, about the size of a poppy seed, pose a particularly high risk because they are abundant and hard to see.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "p",
+      "text": "Most people are infected through the bites of nymphs, the state's [Lyme disease page](https://health.ri.gov/tick-borne-diseases/lyme-disease) explains: they are tiny and difficult to see, while the much larger adults may be found and removed sooner. For sizes and markings side by side, see [how to tell the common US ticks apart](/blog/what-do-ticks-look-like) or the [tick identification chart](/learn/tick-identification-chart)."
+    },
+    {
+      "type": "p",
+      "text": "The American dog tick favors different ground. URI's TickEncounter Resource Center says on its [dog tick page](https://web.uri.edu/tickencounter/species/dog-tick/) that the species lives mainly along forest edges and in open areas such as grassy fields and scrubland, and that adults commonly bite people, typically climbing toward the top of the head, while larvae and nymphs rarely attach to people or pets."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. Its pale, mottled shield sets it apart from the plain dark shield of an adult female deer tick.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "h2",
+      "text": "Where are deer ticks found in Rhode Island?"
+    },
+    {
+      "type": "p",
+      "text": "In every county. [CDC's county surveillance table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) lists blacklegged ticks as established in all five Rhode Island counties: Bristol, Kent, Newport, Providence and Washington. Established means six or more ticks of one life stage, or more than one life stage, were collected in a county within 12 months, and the status is cumulative, so a county that qualifies stays on the list. To compare other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "p",
+      "text": "Ticks wait in brush and tall grass for people passing through, the state says, and [CDC's Lyme prevention page](https://www.cdc.gov/lyme/prevention/index.html) advises checking for ticks after time outdoors, including in your own backyard."
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Blacklegged (deer) tick",
+        "Lone star tick",
+        "American dog tick"
+      ],
+      "rows": [
+        [
+          "Bristol",
+          "Established",
+          "Established",
+          "Reported"
+        ],
+        [
+          "Kent",
+          "Established",
+          "No record",
+          "Reported"
+        ],
+        [
+          "Newport",
+          "Established",
+          "Established",
+          "Established"
+        ],
+        [
+          "Providence",
+          "Established",
+          "No record",
+          "Reported"
+        ],
+        [
+          "Washington",
+          "Established",
+          "Reported",
+          "Established"
+        ]
+      ],
+      "caption": "Status by county from CDC's ArboNET Tick Module: blacklegged ticks through December 31, 2025, and [lone star](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) and [American dog ticks](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html) through 2025. Reported means fewer ticks than the established threshold. No record does not mean no ticks, and a change in status can reflect new sampling rather than new ticks."
+    },
+    {
+      "type": "h3",
+      "text": "Which germs have been found in Rhode Island ticks?"
+    },
+    {
+      "type": "p",
+      "text": "CDC's companion table records where each germ has been found in host-seeking blacklegged ticks, meaning ticks looking for a host rather than feeding on one. For Rhode Island it holds only a handful of records."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Germ",
+        "Illness",
+        "Rhode Island counties with a record"
+      ],
+      "rows": [
+        [
+          "*Borrelia burgdorferi*",
+          "Lyme disease",
+          "Kent"
+        ],
+        [
+          "*Babesia microti*",
+          "Babesiosis",
+          "Washington"
+        ],
+        [
+          "*Borrelia miyamotoi*",
+          "Hard tick relapsing fever",
+          "Washington"
+        ],
+        [
+          "*Anaplasma phagocytophilum* (human-active variant)",
+          "Anaplasmosis",
+          "None"
+        ],
+        [
+          "Powassan virus",
+          "Powassan virus disease",
+          "None"
+        ]
+      ],
+      "caption": "Source: [CDC tick surveillance data sets](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) (ArboNET Tick Module), pathogen table through December 31, 2025. The table is cumulative, and CDC says a county with no record may simply not have been sampled, tested or reported."
+    },
+    {
+      "type": "p",
+      "text": "Treat the blanks as gaps in sampling, not as low risk. All five counties reported Lyme disease cases in 2023, yet the table records the Lyme germ in ticks from Kent County alone, and it has no Rhode Island record of Powassan virus in ticks although residents have been diagnosed with Powassan virus disease since 2016."
+    },
+    {
+      "type": "h2",
+      "text": "Is the lone star tick in Rhode Island?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, in a few places. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html), which runs through 2025, lists the species as established in Bristol and Newport counties and reported in Washington County; CDC's data file credits all three records to published studies. The state health department's [tickborne disease data page](https://health.ri.gov/data/tickborne-disease-data) says the lone star tick's range has been expanding and that it has been found in Rhode Island and other Northeast states."
+    },
+    {
+      "type": "map",
+      "scope": "RI",
+      "title": "Lone star tick status by county, Rhode Island, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "44001": "established",
+        "44005": "established",
+        "44009": "reported"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means the tick was recorded there in smaller numbers. No record does not mean no ticks: it can mean no one has sampled there or reported the result. Once a county is listed as established, it stays established.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick. URI's TickEncounter says females are easy to recognize by the single white dot in the center of the brown body.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "The lone star tick brings different illnesses. The state names it as the carrier of ehrlichiosis, and [TickEncounter's lone star tick page](https://web.uri.edu/tickencounter/species/lone-star-tick/) lists ehrlichiosis and tularemia as the infections its nymphs and adults can transmit in New England. Its bite is also associated with alpha-gal syndrome, a red meat allergy, in some people, and Rhode Island requires health care providers to report positive tick-borne lab results, alpha-gal syndrome included. See [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome) for symptoms and diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "Has the Asian longhorned tick reached Rhode Island?"
+    },
+    {
+      "type": "p",
+      "text": "Yes. The [national longhorned tick situation report](https://tickapp.tamu.edu/wp-content/uploads/sites/30/2025/05/Longhorned-Tick-SitRep-2025-04-22.pdf) from USDA's Animal and Plant Health Inspection Service, dated April 22, 2025, lists Rhode Island among the states with confirmed local populations and counts confirmed records in 3 of its 5 counties: Washington, Providence and Newport."
+    },
+    {
+      "type": "p",
+      "text": "Block Island came first. The state Department of Environmental Management (DEM) [announced in September 2020](https://www.ri.gov/press/view/39443) that two exotic ticks had been found there for the first time: the Asian longhorned tick and *Haemaphysalis punctata*, a European species DEM said had not previously been detected in a natural setting in North America. A Columbia University researcher found them and, checking island samples from 2010 to 2020, concluded both had been present for many years. USDA's table dates the first confirmed Washington County record to August 2020, and lists Providence and Newport county records from ticks collected in the environment in June 2023."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female, both plain reddish-brown, resting on a U.S. dime for scale",
+      "caption": "An Asian longhorned tick nymph (left) and adult female (right) on a U.S. dime. DEM says the larvae and nymphs are very small and hard to see with the naked eye.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "USDA's report describes a serious livestock pest that bites aggressively, builds heavy infestations and can reproduce without a male, so a single fed female can start a population. DEM warned that if too many attach to one animal, the blood loss can kill it, and said in 2020 that only one disease had been found in these ticks in the United States at that time. To recognize the species, see [the Asian longhorned tick guide](/blog/asian-longhorned-tick)."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does Rhode Island have?"
+    },
+    {
+      "type": "p",
+      "text": "More per person than any other state. Rhode Island residents reported 2,852 Lyme disease cases in 2023, a rate of 260.0 per 100,000, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html), and the state's rate was the highest in the country in both 2022 and 2023. By raw count it ranked 10th among states in 2023."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Rhode Island, 2008 to 2024",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "series": [
+        {
+          "name": "CDC count, 2008 to 2023",
+          "values": [
+            210,
+            235,
+            181,
+            159,
+            217,
+            724,
+            904,
+            904,
+            903,
+            1132,
+            1111,
+            971,
+            839,
+            980,
+            2326,
+            2852,
+            null
+          ]
+        },
+        {
+          "name": "State count, 2024",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            2563
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by place of residence",
+      "caption": "Confirmed and probable cases. CDC's figures run through 2023, its latest year as of October 2026; 2024 is the state health department's count, by MMWR year. Two jumps reflect changes in counting: in 2013 the state gained resources to follow up positive lab reports, and since 2022 a revised case definition has let high-incidence states count cases from laboratory results, so 2022 onward is not directly comparable with earlier years. CDC says COVID-19 left 2019 and 2020 data incomplete in some states.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html) through 2023; [Rhode Island Department of Health tickborne disease data](https://health.ri.gov/data/tickborne-disease-data) for 2024"
+    },
+    {
+      "type": "p",
+      "text": "The 2013 jump came with a change in counting. Labs send the state health department thousands of positive Lyme test results a year, but a new case cannot be told from an old one without asking the patient's provider, which is costly, a [2012 to 2013 surveillance summary by department epidemiologists](https://health.ri.gov/node/45656) explains. Extra resources in 2013 let the department follow up those reports fully. It counted 723 cases that year, where CDC's file shows 724, and the authors say the counts for 2009 to 2012 underestimated the true burden."
+    },
+    {
+      "type": "p",
+      "text": "The 2022 jump is a definition change. Starting that year, the national case definition let high-incidence states such as Rhode Island count Lyme cases from laboratory results, and the state's [data page](https://health.ri.gov/data/tickborne-disease-data) calls the 2022 increase a direct result of that change. It compares newer figures with the 2017 to 2021 average rate, 92 cases per 100,000, the last years counted the old way."
+    },
+    {
+      "type": "p",
+      "text": "The state's 2024 count is lower than CDC's 2023 figure: 2,563 cases, or 233.6 per 100,000, still well over double the 2017 to 2021 average. The state reports by MMWR year, which differs slightly from the calendar year, and says most cases are reported in summer, with a peak in July."
+    },
+    {
+      "type": "h3",
+      "text": "How does Rhode Island compare with other states?"
+    },
+    {
+      "type": "p",
+      "text": "Its rate led the country in 2023, ahead of Vermont and Maine, while neighboring Massachusetts reported more than three times as many cases."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Cases per 100,000, 2023"
+      ],
+      "rows": [
+        [
+          "Rhode Island",
+          "2,852",
+          "260.0"
+        ],
+        [
+          "[Vermont](/blog/ticks-in-vermont)",
+          "1,445",
+          "223.3"
+        ],
+        [
+          "[Maine](/blog/ticks-in-maine)",
+          "2,942",
+          "213.4"
+        ],
+        [
+          "[West Virginia](/blog/ticks-in-west-virginia)",
+          "3,242",
+          "181.6"
+        ],
+        [
+          "[Massachusetts](/blog/ticks-in-massachusetts)",
+          "9,715",
+          "138.9"
+        ],
+        [
+          "[Connecticut](/blog/ticks-in-connecticut)",
+          "3,239",
+          "89.9"
+        ]
+      ],
+      "caption": "The five highest state rates in 2023, plus Connecticut, Rhode Island's other neighbor. Confirmed and probable cases by state of residence, from [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Data through 2023, the latest year CDC had published as of October 2026."
+    },
+    {
+      "type": "h2",
+      "text": "Which Rhode Island counties have the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Relative to population, Washington County, which includes Block Island. In 2023 it recorded about 733 Lyme cases per 100,000 residents, nearly three times the statewide rate, and the state health department says the county consistently has Rhode Island's highest rate, which it put at 723 per 100,000 in 2024. The map shows the 2023 rate for every county, calculated by BuzzSkito from [CDC's county-level Lyme data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) and the [Census Bureau's county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)."
+    },
+    {
+      "type": "map",
+      "scope": "RI",
+      "title": "Lyme disease cases per 100,000 residents by county, Rhode Island, 2023",
+      "categories": [
+        {
+          "key": "500plus",
+          "label": "500 or more"
+        },
+        {
+          "key": "250to499",
+          "label": "250 to 499"
+        },
+        {
+          "key": "100to249",
+          "label": "100 to 249"
+        }
+      ],
+      "values": {
+        "44001": "250to499",
+        "44003": "100to249",
+        "44005": "250to499",
+        "44007": "100to249",
+        "44009": "500plus"
+      },
+      "caption": "Confirmed and probable cases by county of residence. Rates are BuzzSkito's calculation: CDC's 2023 county counts divided by the Census Bureau's July 1, 2023 population estimates (Vintage 2025). CDC's county file places all 2,852 of the state's 2023 cases in a county; calculated this way, the statewide rate is 259.0, close to CDC's 260.0.",
+      "source": "[CDC county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html), 2023; [U.S. Census Bureau county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Lyme cases, 2023",
+        "Cases per 100,000"
+      ],
+      "rows": [
+        [
+          "Washington (includes Block Island)",
+          "954",
+          "733.0"
+        ],
+        [
+          "Newport",
+          "378",
+          "451.4"
+        ],
+        [
+          "Bristol",
+          "143",
+          "284.1"
+        ],
+        [
+          "Kent",
+          "377",
+          "219.7"
+        ],
+        [
+          "Providence",
+          "1,000",
+          "150.3"
+        ]
+      ],
+      "caption": "All five counties, highest rate first. Sources and method as for the map."
+    },
+    {
+      "type": "p",
+      "text": "Raw counts follow population instead. Providence County, home to about six in ten Rhode Islanders by Census estimates, had the most cases in 2023, 1,000, but the lowest rate, 150.3 per 100,000. Newport County had the second-highest rate, 451.4."
+    },
+    {
+      "type": "p",
+      "text": "Two cautions apply. Cases are counted where the patient lives, not necessarily where the tick bit, as [CDC's Lyme case map page](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) notes, so a summer visitor bitten on Block Island is counted in their home state, and a Providence County resident bitten in Washington County counts in Providence County. And small counties swing: Bristol County's rate rests on 143 cases among about 50,000 people."
+    },
+    {
+      "type": "p",
+      "text": "Town figures are older. The department's 2012 to 2013 surveillance summary found that in 2013, New Shoreham, which covers Block Island, had the highest Lyme rate of any Rhode Island town, almost 3% of residents, followed by Foster and Little Compton."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in Rhode Island?"
+    },
+    {
+      "type": "p",
+      "text": "Babesiosis and anaplasmosis, both spread by the deer tick, are the most common after Lyme disease. The state's [tickborne disease data page](https://health.ri.gov/data/tickborne-disease-data) counted 161 babesiosis cases in 2024 (14.7 per 100,000) and 86 anaplasmosis cases (7.8 per 100,000). For symptoms and treatment, see the guides to [babesiosis](/blog/babesiosis) and [anaplasmosis](/blog/anaplasmosis)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Tick that spreads it",
+        "Rhode Island cases",
+        "What the state reports"
+      ],
+      "rows": [
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "161 in 2024",
+          "Most common in older men; 80% of 2024 cases occurred June to August; highest rate in Washington County, 38.5 per 100,000"
+        ],
+        [
+          "Anaplasmosis",
+          "Blacklegged tick",
+          "86 in 2024",
+          "Peaks in June and July; highest rate in Washington County"
+        ],
+        [
+          "Ehrlichiosis",
+          "Lone star tick",
+          "With anaplasmosis, 126.2 a year on average, 2019 to 2023",
+          "Peaks in June and July; highest rate in Washington County"
+        ],
+        [
+          "Powassan virus disease",
+          "Blacklegged tick",
+          "8 from 2016 through 2025 (CDC)",
+          "First Rhode Island case in 2016"
+        ],
+        [
+          "Rocky Mountain spotted fever",
+          "American dog tick",
+          "Not displayed",
+          "Withheld under the state's small-numbers reporting policy"
+        ]
+      ],
+      "caption": "Counts: the state health department's [tickborne disease data page](https://health.ri.gov/data/tickborne-disease-data), 2024 by MMWR year, which displays a count only when it reaches 5, and [CDC's Powassan virus data](https://www.cdc.gov/powassan/data-maps/historic-data.html) through 2025. Ticks: the state's [tick-borne disease page](https://health.ri.gov/tick-borne-diseases)."
+    },
+    {
+      "type": "p",
+      "text": "The state also requires health care providers to report positive lab results for rarer tick-borne conditions, including *Borrelia miyamotoi* infection, a germ CDC's tick data place in Washington County deer ticks."
+    },
+    {
+      "type": "h3",
+      "text": "How common is Powassan virus in Rhode Island?"
+    },
+    {
+      "type": "p",
+      "text": "Rare, and recent. [CDC's Powassan virus data](https://www.cdc.gov/powassan/data-maps/historic-data.html), finalized in September 2026, show no Rhode Island cases from 2004 through 2015 and 8 from 2016 through 2025: 1 in 2016, 2 in 2017, 1 each in 2019, 2021 and 2023, and 2 in 2024. All 8 were neuroinvasive, the more severe form; CDC notes that milder cases are more likely to go unreported. The state health department says Powassan cases have been increasing in the Northeast and that Rhode Island's first was identified in 2016. The [Powassan virus guide](/blog/powassan-virus) covers symptoms."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Rhode Island?"
+    },
+    {
+      "type": "p",
+      "text": "Spring through fall, with Lyme disease peaking in summer, but winter is not tick-free. The state's [tick-borne disease page](https://health.ri.gov/tick-borne-diseases) says the greatest risk of being bitten is in spring, summer and fall, and that ticks may also look for a host in winter any time the temperature is above freezing. Its [data page](https://health.ri.gov/data/tickborne-disease-data) says Lyme disease reports peak in July, anaplasmosis and ehrlichiosis reports in June and July, and that 80% of babesiosis cases in 2024 occurred from June through August."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Time of year",
+        "Blacklegged (deer) tick",
+        "American dog and lone star ticks"
+      ],
+      "rows": [
+        [
+          "Winter (December to February)",
+          "Adults, most active in the cooler months, may look for hosts on any day above freezing",
+          "Outside their adult season, which TickEncounter puts at April to August"
+        ],
+        [
+          "Spring (March to May)",
+          "Adults active in the cool weeks; nymphs begin feeding",
+          "Adults active from April"
+        ],
+        [
+          "Summer (June to August)",
+          "Nymphs feeding; Lyme reports peak in July",
+          "Adults active; dog tick adults until early August, lone star adults until late August"
+        ],
+        [
+          "Fall (September to November)",
+          "Adults active again as the weather cools",
+          "Past their adult season"
+        ]
+      ],
+      "caption": "Sources: the state health department's [tick-borne disease](https://health.ri.gov/tick-borne-diseases), [Lyme disease](https://health.ri.gov/tick-borne-diseases/lyme-disease) and [data](https://health.ri.gov/data/tickborne-disease-data) pages; URI TickEncounter's [American dog tick](https://web.uri.edu/tickencounter/species/dog-tick/) and [lone star tick](https://web.uri.edu/tickencounter/species/lone-star-tick/) pages (general adult seasons)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-life-stages.webp",
+      "width": 1200,
+      "height": 793,
+      "alt": "Three blacklegged ticks on a blue-green surface: a large adult female with a reddish body and black legs, and two much smaller immature ticks",
+      "caption": "Blacklegged tick adult female (top) and two much smaller immature ticks. The state says nymphs, which feed in spring and summer, cause most human infections.",
+      "credit": "CDC/ Michael L. Levin, Ph. D. (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1205"
+    },
+    {
+      "type": "p",
+      "text": "Because adult deer ticks are most active in the cooler months, a mild winter day in the woods still calls for a tick check. Other regions differ: see [when tick season starts and ends across the US](/blog/tick-season)."
+    },
+    {
+      "type": "h2",
+      "text": "Can you get a tick identified or tested in Rhode Island?"
+    },
+    {
+      "type": "p",
+      "text": "Identified, yes, for free. As of October 2026, the University of Rhode Island's [TickSpotters](https://web.uri.edu/tickencounter/tickspotters/) service accepts a photo of a tick from anyone in North America, one tick per submission as a .jpg file, along with answers to a few questions about the encounter. A tick expert replies by email, usually within 24 hours, confirming what the tick is and how risky it is likely to be, with prevention tips. TickSpotters cautions that identification from a photo depends on the photo's quality and where the tick was found."
+    },
+    {
+      "type": "p",
+      "text": "TickSpotters is run by URI's TickEncounter Resource Center, which the state health department lists as its partner on tick-borne disease and recommends for more information."
+    },
+    {
+      "type": "p",
+      "text": "Testing a tick for germs is another matter. The state's tick pages do not describe a state tick-testing service, and [CDC's after-bite guidance](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) says that although some commercial groups test ticks, it generally does not recommend it: those labs need not meet the quality standards of clinical labs, a positive tick does not necessarily mean you were infected, a negative result can give false assurance, and results should not be used for treatment decisions. If you become ill, do not wait for a tick test result."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Rhode Island?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick as soon as you find it, then watch for a rash or fever over the next several weeks. [CDC's guidance on what to do after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) describes removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers.",
+        "Pull it away from the skin with steady, even pressure, without twisting or jerking it. If the mouthparts stay in the skin and will not come out easily, leave them alone.",
+        "Clean the bite and your hands with soap and water, rubbing alcohol or hand sanitizer, and check for other ticks on your body.",
+        "Do not use petroleum jelly, heat, nail polish or other substances to make the tick let go; CDC says they can force infected fluid into the skin. Never crush a tick with your fingers."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "To dispose of a live tick, CDC suggests putting it in a sealed container or in alcohol, wrapping it tightly in tape, or flushing it. A fuller walk-through is in [the step-by-step tick removal guide](/blog/how-to-remove-tick-safely), and [a full-body tick check](/blog/how-to-do-a-tick-check) shows where ticks hide."
+    },
+    {
+      "type": "p",
+      "text": "Speed matters. In most cases a tick must be attached for more than 24 hours before it can pass on the Lyme bacterium, according to [CDC's page on how Lyme disease spreads](https://www.cdc.gov/lyme/causes/index.html). Rhode Island's own Lyme disease page gave a longer estimate as of April 2026: 36 to 48 hours or more. The state advises removing a tick as soon as it is discovered and checking for attached ticks every two or three hours while you are outdoors."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/engorged-blacklegged-tick.webp",
+      "width": 1200,
+      "height": 920,
+      "alt": "Adult female blacklegged tick swollen with blood into a smooth brown oval, with a small dark shield and dark legs at the front end",
+      "caption": "A female blacklegged tick swollen with blood after feeding. Note the date you remove a tick and where you had been.",
+      "credit": "CDC/ Dr. Gary Alpert - Urban Pests - Integrated Pest Management (IPM) (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=15993"
+    },
+    {
+      "type": "p",
+      "text": "Ask about a preventive antibiotic. In certain circumstances, a single dose of the antibiotic doxycycline after a tick bite in an area where Lyme disease is common may lower the risk of Lyme disease, according to [CDC's Lyme prevention page](https://www.cdc.gov/lyme/prevention/index.html), which advises asking a health care provider whether it is appropriate. The state health department describes Rhode Island as a high-incidence state for Lyme disease. For what a tick looks like after it has fed, see [how to recognize an engorged tick](/blog/engorged-ticks)."
+    },
+    {
+      "type": "p",
+      "text": "Then watch for symptoms. CDC's [Lyme disease symptoms page](https://www.cdc.gov/lyme/signs-symptoms/index.html) says the erythema migrans rash appears in about 70% to 80% of infected people, 3 to 30 days after the bite (about 7 days on average), and can expand to 12 inches or more across; it does not always look like a bull's-eye. Fever, chills, headache, fatigue, muscle and joint aches and swollen lymph nodes can occur with or without the rash. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow if it goes untreated."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Expanding red rash with a darker red center and a paler outer ring on the back of a person's upper arm, the erythema migrans rash of early Lyme disease",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, here in a bull's-eye pattern. CDC notes that the rash does not always look like this.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "p",
+      "text": "If a rash or fever develops within several weeks of removing a tick, CDC advises seeing a doctor and saying when the bite happened and where you most likely picked up the tick."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you feel ill",
+      "text": "A rash, fever, headache, fatigue or aching muscles and joints in the weeks after a tick bite or time outdoors is a reason to see a provider and mention the tick. Do not wait for a tick test result. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Rhode Island?"
+    },
+    {
+      "type": "p",
+      "text": "Repel ticks, check for them and remove them quickly. The state's [tick-borne disease page](https://health.ri.gov/tick-borne-diseases) recommends these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Avoid tick habitat.** Stay out of wooded and brushy areas with high grass and leaf litter, and walk in the center of trails.",
+        "**Use a repellent.** The state recommends products with 20% to 30% DEET on exposed skin and clothing, with parents applying it for children and avoiding the hands, eyes and mouth. [CDC's Lyme prevention page](https://www.cdc.gov/lyme/prevention/index.html) also lists EPA-registered repellents containing picaridin, IR3535, oil of lemon eucalyptus, para-menthane-diol or 2-undecanone. Follow the label.",
+        "**Treat clothing and gear with permethrin, not skin.** The state recommends 0.5% permethrin products for boots, pants, socks and tents and says the treatment lasts through several washings; DEM's [2020 tick announcement](https://www.ri.gov/press/view/39443) warns not to use permethrin directly on skin.",
+        "**Shower, then check.** Bathe or shower as soon as you can after coming indoors, preferably within two hours, and do a full-body check with a mirror. On children, check under the arms, in and around the ears, inside the belly button, behind the knees, between the legs, around the waist and in the hair.",
+        "**Check gear and pets.** Ticks can ride indoors on clothing, packs and pets and attach to someone later.",
+        "**Use the dryer.** Ten minutes on high heat kills ticks on dry clothes, and damp clothes need longer. If clothes need washing first, use hot water, because cold and medium water will not kill ticks effectively; clothes that cannot be washed hot need 90 minutes on low heat or 60 minutes on high."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Around homes, CDC suggests a 3-foot-wide barrier of wood chips or gravel between lawns and wooded areas, and the state advises athletic programs to keep field lawns and paths well mowed and to create a tick-free zone around fields."
+    },
+    {
+      "type": "p",
+      "text": "Pets carry ticks indoors, so check them after outings. DEM advises hunters to ask a veterinarian about a suitable topical or systemic tick-control treatment for their dogs. See [where to check a dog for ticks and how to remove one](/blog/ticks-on-dogs)."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does Rhode Island have the highest rate of Lyme disease?",
+      "answer": "Yes, in CDC's most recent data. Rhode Island reported 2,852 Lyme disease cases in 2023, or 260 per 100,000 residents, the highest rate of any state, ahead of Vermont and Maine, and it also had the highest rate in 2022. Part of the rise since 2022 reflects a national change that lets high-incidence states count cases from laboratory results. The state health department counted 2,563 cases in 2024, a rate of 233.6 per 100,000."
+    },
+    {
+      "question": "Are ticks active in Rhode Island in the winter?",
+      "answer": "They can be. The Rhode Island Department of Health says the greatest risk of being bitten is in spring, summer and fall, but that ticks may also look for a host in winter any time the temperature is above freezing. Adult deer ticks, which can carry Lyme disease, are most active in the cooler months. After a walk in the woods or brush on a mild winter day, check yourself, your children and your pets for ticks."
+    },
+    {
+      "question": "Which Rhode Island county has the most Lyme disease?",
+      "answer": "Washington County, relative to population. In 2023 it had about 733 cases per 100,000 residents, based on CDC county counts and Census population estimates, and the state health department says it consistently has the highest rate, 723 per 100,000 in 2024. Providence County had the most cases, 1,000 in 2023, but the lowest rate because so many people live there. Cases are counted where patients live, not necessarily where they were bitten."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in Rhode Island?",
+      "answer": "The state health department's tick pages do not describe a state tick-testing service, though some commercial labs test ticks. CDC generally does not recommend tick testing: a positive tick does not prove you were infected, a negative result can give false assurance, and results should not guide treatment. For identification, the University of Rhode Island's TickSpotters service identifies ticks from photos for free, usually within 24 hours. If you feel ill after a bite, see a health care provider."
+    },
+    {
+      "question": "Are lone star ticks in Rhode Island?",
+      "answer": "Yes, in a few places. CDC's surveillance, which runs through 2025, lists lone star ticks as established in Bristol and Newport counties and reported in Washington County, and the Rhode Island Department of Health says the tick's range has been expanding and that it has been found in the state. The state names the lone star tick as the carrier of ehrlichiosis, and its bite is associated with alpha-gal syndrome, an allergy to red meat, in some people."
+    },
+    {
+      "question": "Should I see a doctor after a tick bite in Rhode Island?",
+      "answer": "See a health care provider if a rash, fever or other symptoms appear within several weeks of a tick bite, and say when the bite happened and where you probably picked up the tick, CDC advises. Because Lyme disease is common in Rhode Island, you can also ask a provider whether a single preventive dose of doxycycline makes sense; CDC says it may lower the risk in certain circumstances. Remove the tick right away with fine-tipped tweezers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Map (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "American Dog Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html"
+    },
+    {
+      "title": "Powassan Virus Historic Data (2004-2025)",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET)",
+      "url": "https://www.cdc.gov/powassan/data-maps/historic-data.html"
+    },
+    {
+      "title": "County Population Totals and Components of Change: 2020-2025",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "Preventing Lyme Disease",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/prevention/index.html"
+    },
+    {
+      "title": "Signs and Symptoms of Untreated Lyme Disease",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/signs-symptoms/index.html"
+    },
+    {
+      "title": "How Lyme Disease Spreads",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "Tick Borne Diseases",
+      "publisher": "Rhode Island Department of Health",
+      "url": "https://health.ri.gov/tick-borne-diseases"
+    },
+    {
+      "title": "Tickborne Disease Data (2018-2024)",
+      "publisher": "Rhode Island Department of Health",
+      "url": "https://health.ri.gov/data/tickborne-disease-data"
+    },
+    {
+      "title": "Lyme Disease",
+      "publisher": "Rhode Island Department of Health",
+      "url": "https://health.ri.gov/tick-borne-diseases/lyme-disease"
+    },
+    {
+      "title": "Rhode Island Tick-Borne Disease Surveillance Summary, 2012-2013 (Health by Numbers, Rhode Island Medical Journal, September 2014)",
+      "publisher": "Rhode Island Department of Health",
+      "url": "https://health.ri.gov/node/45656"
+    },
+    {
+      "title": "Found A Tick? (TickSpotters)",
+      "publisher": "University of Rhode Island TickEncounter Resource Center",
+      "url": "https://web.uri.edu/tickencounter/tickspotters/"
+    },
+    {
+      "title": "American Dog Tick",
+      "publisher": "University of Rhode Island TickEncounter Resource Center",
+      "url": "https://web.uri.edu/tickencounter/species/dog-tick/"
+    },
+    {
+      "title": "Lone Star Tick",
+      "publisher": "University of Rhode Island TickEncounter Resource Center",
+      "url": "https://web.uri.edu/tickencounter/species/lone-star-tick/"
+    },
+    {
+      "title": "National Haemaphysalis longicornis (Asian Longhorned Tick) Situation Report, as of April 22, 2025",
+      "publisher": "USDA Animal and Plant Health Inspection Service (copy hosted by Texas A&M AgriLife's Tick App)",
+      "url": "https://tickapp.tamu.edu/wp-content/uploads/sites/30/2025/05/Longhorned-Tick-SitRep-2025-04-22.pdf"
+    },
+    {
+      "title": "Two Species of Exotic Ticks Found on Block Island (September 28, 2020)",
+      "publisher": "Rhode Island Department of Environmental Management (RI.gov press release)",
+      "url": "https://www.ri.gov/press/view/39443"
+    }
+  ],
+  "disclaimer": "both"
+}

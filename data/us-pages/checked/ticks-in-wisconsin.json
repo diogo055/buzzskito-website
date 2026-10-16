@@ -2,9 +2,14 @@
  "id": "ticks-in-wisconsin",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "907dc618ac4ab7f5405704274c52d27ddee9f090a3f5dd6dcd539cf5ee8e6102",
+ "sha": "260fbacc08b7a197210d5737a0ea7f60c15b18ea4182ef0351cc38a9d1d9c032",
  "claimsChecked": 336,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 7,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

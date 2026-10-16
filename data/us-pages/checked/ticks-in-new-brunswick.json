@@ -2,9 +2,14 @@
  "id": "ticks-in-new-brunswick",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "494718dc2055f4287cd8146cf86c2ff5bdeec7dae50eb2b0f7d0a050e3addb30",
+ "sha": "1542c7b5200c82365704fcc031a0c26c7c8277ffa37fced516e1b71ccc24c1de",
  "claimsChecked": 320,
  "claimsCorrected": 15,
  "claimsRemovedOrSoftened": 2,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

@@ -2,9 +2,14 @@
  "id": "ticks-in-pennsylvania",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "cf8bebebc676e3b71e2dbb76366202da3bf4d3d5c6c401c598114c3ca17a1db6",
+ "sha": "254b323e6c22cc0bdc29d91fce0593a42262cf5833ae03e1f2b3ef2cc1f3cdd1",
  "claimsChecked": 460,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 3,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

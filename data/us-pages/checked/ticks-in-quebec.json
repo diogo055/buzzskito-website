@@ -2,9 +2,14 @@
  "id": "ticks-in-quebec",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "60507d059e318e4a24fc9ee9c9d920be1ddf14d4f66694880265322214565160",
+ "sha": "5fb072a6bec2c70accfd7b82a79d20b9e9f8f8008130ad571d1e9c09cd7957dd",
  "claimsChecked": 452,
  "claimsCorrected": 15,
  "claimsRemovedOrSoftened": 2,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

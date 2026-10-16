@@ -2,9 +2,14 @@
  "id": "ticks-in-south-carolina",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5963c6f4a79c50c3da2c2aae1ae8c9a98afbde9bf0d724b00165661b887b47f6",
+ "sha": "7eecd425a76f4f413336acab8b2dd281e06a3dd0d3037d51c9097400e4291a11",
  "claimsChecked": 385,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 3,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

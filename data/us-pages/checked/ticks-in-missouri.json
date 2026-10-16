@@ -2,9 +2,14 @@
  "id": "ticks-in-missouri",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "c4db5d286bee6a61d28a0792ce2ff9a24774f283322109ead7e5d9fa175859b5",
+ "sha": "1456f493d0668229d941ef6c7b111cf4c75e18c76c6320813207e33dbc2a516f",
  "claimsChecked": 590,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 0,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

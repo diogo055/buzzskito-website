@@ -1,0 +1,1033 @@
+{
+  "slug": "ticks-in-vermont",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in vermont",
+  "alsoTargets": [
+    "types of ticks in vermont",
+    "tick season vermont",
+    "lyme disease vermont"
+  ],
+  "metaTitle": "Ticks in Vermont: Types, Lyme Map, Season",
+  "metaDescription": "Deer ticks live in all 14 Vermont counties, and Vermont had the second-highest Lyme rate in the US in 2023. Tick photos, county maps and the season.",
+  "h1": "Ticks in Vermont: Species, County Maps, Disease Data and Tick Season",
+  "dek": "Which ticks live in Vermont, where Lyme disease and anaplasmosis are most common county by county, when ticks are active, and what the state advises if one bites you.",
+  "breadcrumb": "Ticks in Vermont",
+  "excerpt": "Deer ticks are established in all 14 Vermont counties. Tick photos, Lyme and anaplasmosis data by county and year, tick season by month and the state's bite advice.",
+  "datePublished": "2026-10-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**Six tick species are known to bite people in Vermont, and the blacklegged (deer) tick, which spreads Lyme disease and anaplasmosis, is established in all 14 counties.** Vermont reported 1,445 Lyme cases in 2023, the second-highest rate of any state, according to [CDC surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html), and the state's preliminary count for 2025, 2,226, is its highest yet.",
+    "bullets": [
+      "CDC's county table, which runs through December 2025, lists blacklegged ticks as established in every Vermont county, and the Lyme bacterium has been recorded in host-seeking ticks in 13 of the 14.",
+      "The state health department says Vermont has had the highest anaplasmosis rate in the country since 2015; CDC's 2023 figures put it at 712 cases per million residents, ahead of Maine's 557.",
+      "Relative to population, 2023 Lyme rates were highest in Bennington, Windsor and Windham counties, each about 390 to 400 cases per 100,000 (BuzzSkito's calculation from CDC and Census data); Chittenden County had the most cases.",
+      "In the state agriculture agency's 2020 to 2024 survey, 50.9% of 1,760 deer ticks tested carried the Lyme bacterium and 10.5% the germ that causes anaplasmosis.",
+      "Ticks can be out on any day above freezing; deer tick activity peaks in May and June and again in October and November, the health department says.",
+      "As of October 2026, neither the health department nor the agriculture agency tests ticks from the public, and the department does not recommend tick testing."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Vermont at a glance",
+    "rows": [
+      [
+        "Ticks known to bite people",
+        "Six species; five can transmit disease (state health department)"
+      ],
+      [
+        "Counties with established blacklegged ticks",
+        "14 of 14 (CDC, through December 2025)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "1,445 in 2023 (CDC); 1,745 in 2024 and 2,226 in 2025 (state counts; 2025 preliminary)"
+      ],
+      [
+        "Lyme rate",
+        "223.3 per 100,000 in 2023, second among states after Rhode Island (CDC data)"
+      ],
+      [
+        "Highest county Lyme rate, 2023",
+        "Bennington County, about 401 per 100,000 (149 cases; BuzzSkito's calculation from CDC and Census data)"
+      ],
+      [
+        "Anaplasmosis",
+        "712 cases per million in 2023, the highest state rate (CDC); 762 cases in 2025 (state, preliminary)"
+      ],
+      [
+        "Deer ticks carrying the Lyme bacterium",
+        "50.9% of 1,760 tested, 2020 to 2024 (state agriculture agency)"
+      ],
+      [
+        "American dog tick",
+        "Established in 9 counties, reported in 4 (CDC, through 2025)"
+      ],
+      [
+        "Lone star tick",
+        "Reported in 4 counties but not established (CDC and the state)"
+      ],
+      [
+        "Asian longhorned tick",
+        "Not among the states with confirmed populations in USDA's April 2025 report"
+      ],
+      [
+        "Peak deer tick activity",
+        "May and June (nymphs); October and November (adult females)"
+      ],
+      [
+        "Tick testing",
+        "Not offered by the state, which advises against it (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Vermont?"
+    },
+    {
+      "type": "p",
+      "text": "Six tick species are known to bite people in Vermont, and five of them can transmit disease, according to the [Vermont Department of Health](https://www.healthvermont.gov/disease-control/tick-bite-illnesses). One matters far more than the rest. The department's [guide to tick activity in Vermont](https://www.healthvermont.gov/disease-control/tick-bite-illnesses/tick-activity-vermont) says blacklegged ticks, also called deer ticks, cause 99% of the tick bite illnesses reported to it, and 94% of the ticks collected in state surveillance from 2018 to 2022 were blacklegged ticks."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where in Vermont",
+        "When it is active",
+        "What it can carry"
+      ],
+      "rows": [
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Woods and tall grass statewide; established in all 14 counties",
+          "Any day above freezing; peaks May to June and October to November",
+          "Lyme disease, anaplasmosis, babesiosis, hard tick relapsing fever, Powassan virus"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Statewide, mostly grassy fields with little tree cover",
+          "April through September",
+          "Rocky Mountain spotted fever and tularemia; human cases extremely rare in Vermont"
+        ],
+        [
+          "Brown dog tick, *Rhipicephalus sanguineus*",
+          "Statewide, including indoors where dogs live",
+          "Year-round",
+          "Rocky Mountain spotted fever in the Southwest; no evidence of transmission in Vermont"
+        ],
+        [
+          "Woodchuck tick, *Ixodes cookei*",
+          "Statewide, mostly in animal burrows; rarely bites people",
+          "Mainly summer",
+          "Powassan virus, extremely rare in Vermont"
+        ],
+        [
+          "Squirrel tick, *Ixodes marxi*",
+          "Statewide, mostly on squirrels; rarely bites people",
+          "Warmer months",
+          "Powassan virus, extremely rare in Vermont"
+        ],
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Not established; reported in 4 counties",
+          "April through September",
+          "Ehrlichiosis and tularemia; linked to alpha-gal syndrome"
+        ]
+      ],
+      "caption": "Source: the state health department's [guide to tick activity in Vermont](https://www.healthvermont.gov/disease-control/tick-bite-illnesses/tick-activity-vermont); county status from CDC's ArboNET Tick Module, through 2025."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "An adult female blacklegged tick and a much smaller nymph side by side on a person's fingertip, showing how small both stages are",
+      "caption": "An adult female blacklegged (deer) tick, left, and a nymph on a fingertip. CDC compares nymphs to a poppy seed and adults to a sesame seed.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "p",
+      "text": "The American dog tick is the other common biter. It can carry the bacteria behind Rocky Mountain spotted fever and tularemia, but the department says human cases are extremely rare in Vermont: all 1,341 American dog ticks collected in the state from 2018 to 2023 and tested at CDC were negative for the spotted fever germ. For sizes and markings side by side, see [how to tell the common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a green blade of grass, reddish-brown with a cream-mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. Its pale, mottled shield sets it apart from the plain dark shield of a blacklegged tick.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "p",
+      "text": "Two more *Ixodes* ticks seldom meet people. Woodchuck ticks live mostly in animal burrows and squirrel ticks mostly on squirrels, and the department says both rarely bite humans. Both can carry Powassan virus, which it calls extremely rare in Vermont."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/groundhog-tick.webp",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Engorged woodchuck tick on a wooden surface, its swollen gray body behind a small dark reddish-brown shield and reddish-brown legs",
+      "caption": "An engorged woodchuck (groundhog) tick. The state says this tick lives mostly in animal burrows and rarely bites people.",
+      "credit": "(c) adamfritz, some rights reserved (CC BY), via iNaturalist",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://www.inaturalist.org/observations/168811425"
+    },
+    {
+      "type": "h3",
+      "text": "What about winter ticks on moose?"
+    },
+    {
+      "type": "p",
+      "text": "Winter ticks are a wildlife problem rather than a people problem. [Vermont Fish and Wildlife](https://www.vtfishandwildlife.com/hunt/hunting-and-trapping-opportunities/moose/moose-management-faqs) says the species is native and completes its life cycle on a single host, and that as many as 90,000 have been found on one moose. In Wildlife Management Unit E, essentially Essex County in the Northeast Kingdom, winter ticks have been the main factor limiting moose since 2010, and heavy loads can kill more than half of the calves in late winter and early spring."
+    },
+    {
+      "type": "p",
+      "text": "They are not a disease risk to people. The department says winter ticks do not transmit any diseases that affect humans, and that larvae a person picks up in the fall wash off in the shower or drop off on their own. More on the species is in [the guide to winter ticks](/blog/winter-tick)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/winter-tick.webp",
+      "width": 1200,
+      "height": 1200,
+      "alt": "Adult winter tick seen from above on a white surface, its flat oval back patterned in cream and dark reddish-brown, with reddish-brown legs",
+      "caption": "An adult winter tick. Vermont Fish and Wildlife says the species does not transmit any diseases that affect humans.",
+      "credit": "(c) Megan Dark, some rights reserved (CC BY), via iNaturalist",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://www.inaturalist.org/observations/271543920"
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged ticks found in Vermont?"
+    },
+    {
+      "type": "p",
+      "text": "In every county. [CDC's tick surveillance data sets](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which run through December 31, 2025, list blacklegged ticks as established in all 14 Vermont counties, from Grand Isle in Lake Champlain to Windham on the Massachusetts line. Established means six or more ticks of one life stage, or more than one life stage, were collected in a county within 12 months, and once a county is listed it stays listed. To compare other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "p",
+      "text": "The state samples ticks itself. From 2020 to 2024 the Vermont Agency of Agriculture, Food and Markets surveyed one site in 254 towns and gores and collected 2,553 ticks, its [2020 to 2024 cumulative report](https://agriculture.vermont.gov/sites/agriculture/files/MosquitoTick/AGR%20Tick%202020-2024%20Cumulative%20Report.pdf) says. [Health department surveillance](https://www.healthvermont.gov/disease-control/tick-bite-illnesses/tick-activity-vermont) from 2018 to 2022 found the highest infection rates and densities of infected ticks in southwestern Vermont, with the densest nymphs in Rutland County and the densest adults in Addison County."
+    },
+    {
+      "type": "h3",
+      "text": "Which germs do Vermont's deer ticks carry?"
+    },
+    {
+      "type": "p",
+      "text": "Mostly the Lyme bacterium. CDC records each county where a germ has been found in host-seeking blacklegged ticks, meaning ticks looking for a host rather than feeding, and the state's survey reports the share that tested positive."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Germ",
+        "Illness",
+        "Counties with a CDC record (of 14)",
+        "Ticks positive, state survey 2020 to 2024"
+      ],
+      "rows": [
+        [
+          "*Borrelia burgdorferi*",
+          "Lyme disease",
+          "13 (none recorded in Essex)",
+          "50.9%"
+        ],
+        [
+          "*Anaplasma phagocytophilum*",
+          "Anaplasmosis",
+          "12 (human-active variant)",
+          "10.5%"
+        ],
+        [
+          "*Babesia microti*",
+          "Babesiosis",
+          "11",
+          "4.5%"
+        ],
+        [
+          "*Borrelia miyamotoi*",
+          "Hard tick relapsing fever",
+          "9",
+          "1.7%"
+        ],
+        [
+          "Powassan virus (deer tick virus)",
+          "Powassan virus disease",
+          "None",
+          "0.3% (6 ticks)"
+        ]
+      ],
+      "caption": "CDC: [ArboNET Tick Module data](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), pathogen table, cumulative through December 2025; no record is not proof the germ is absent. State: the [Agency of Agriculture survey](https://agriculture.vermont.gov/sites/agriculture/files/MosquitoTick/AGR%20Tick%202020-2024%20Cumulative%20Report.pdf) of 1,760 blacklegged ticks, most of them adults. CDC has no Vermont record of *Borrelia mayonii* or *Ehrlichia muris eauclairensis*."
+    },
+    {
+      "type": "p",
+      "text": "The two sources disagree on one germ. The state's survey found deer tick virus, a form of Powassan virus, in 6 of the 1,760 ticks, while CDC's table has no Vermont record of Powassan virus in host-seeking ticks. CDC says a missing record can reflect a lack of sampling, testing, reporting or publishing, so the blank does not mean the virus is absent."
+    },
+    {
+      "type": "p",
+      "text": "Adult ticks carry the Lyme bacterium more often, but nymphs are the bigger worry. The health department's 2018 to 2022 testing found it in 56.7% of adults and 24% of nymphs, and [CDC](https://www.cdc.gov/lyme/causes/index.html) says nymphs pose a particularly high risk because they are abundant and small, about the size of a poppy seed, while adults are more likely to be noticed and removed."
+    },
+    {
+      "type": "h2",
+      "text": "Where are American dog ticks found in Vermont?"
+    },
+    {
+      "type": "p",
+      "text": "Across most of the state. The health department says they live throughout Vermont, while [CDC's American dog tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html), which runs through 2025, lists the tick as established in 9 of the 14 counties, reported in 4 more and without a record in Grand Isle County. The two measure different things: CDC's established label requires a set number of ticks collected in a county within a year, and CDC says a county without it does not mean ticks are absent."
+    },
+    {
+      "type": "map",
+      "scope": "VT",
+      "title": "American dog tick status by county, Vermont, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "50001": "established",
+        "50003": "reported",
+        "50005": "established",
+        "50007": "reported",
+        "50009": "established",
+        "50011": "reported",
+        "50015": "reported",
+        "50017": "established",
+        "50019": "established",
+        "50021": "established",
+        "50023": "established",
+        "50025": "established",
+        "50027": "established"
+      },
+      "caption": "Established means six or more American dog ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means the tick has been recorded there without meeting that bar. No record, as in Grand Isle County, does not mean no ticks: it can mean no one has sampled there.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html)"
+    },
+    {
+      "type": "p",
+      "text": "The state's own sampling shows how common the tick is. The agriculture agency's 2020 to 2024 survey collected 260 adult American dog ticks but did not test them, saying the species is not known to readily spread disease in Vermont."
+    },
+    {
+      "type": "h2",
+      "text": "Are there lone star ticks in Vermont?"
+    },
+    {
+      "type": "p",
+      "text": "A few have been found, but the species has not settled in. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html), through 2025, lists the tick as reported, not established, in four Vermont counties: Addison, Bennington, Rutland and Windsor. The health department agrees it is not established, meaning it is not considered able to complete its entire life cycle in the state, and says state agencies keep looking for it. CDC notes that ticks at the edge of their range may not establish."
+    },
+    {
+      "type": "p",
+      "text": "That matters because lone star ticks carry different illnesses from deer ticks. The department lists ehrlichiosis, tularemia and alpha-gal syndrome, and says the four lone star ticks collected in Vermont and tested from 2018 to 2023 were negative for *Ehrlichia* bacteria. For what alpha-gal syndrome is and how it is diagnosed, see [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome)."
+    },
+    {
+      "type": "h2",
+      "text": "Has the Asian longhorned tick reached Vermont?"
+    },
+    {
+      "type": "p",
+      "text": "Not according to federal surveillance as of April 2025. The [national longhorned tick situation report](https://tickapp.tamu.edu/wp-content/uploads/sites/30/2025/05/Longhorned-Tick-SitRep-2025-04-22.pdf) from USDA's Animal and Plant Health Inspection Service, dated April 22, 2025, lists 21 states and the District of Columbia with confirmed local populations, and Vermont is not among them, though neighboring New York and Massachusetts are. New Hampshire is not listed."
+    },
+    {
+      "type": "p",
+      "text": "The report describes a serious livestock pest from East Asia that can reproduce without a male, so a single fed female can start a population. For how to recognize it, see [the Asian longhorned tick guide](/blog/asian-longhorned-tick)."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does Vermont have?"
+    },
+    {
+      "type": "p",
+      "text": "Vermont reported 1,445 Lyme disease cases in 2023, a rate of 223.3 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Only Rhode Island, at 260.0, had a higher rate that year. By BuzzSkito's ranking of CDC's state rates, Vermont had the highest rate in the country in six of the nine years from 2011 to 2019, and the second highest in 2022 and 2023."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Vermont, 2008 to 2025",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "CDC count, 2008 to 2023",
+          "values": [
+            404,
+            408,
+            356,
+            623,
+            522,
+            893,
+            599,
+            710,
+            761,
+            1092,
+            576,
+            1064,
+            59,
+            115,
+            1312,
+            1445,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "State count, 2024 and 2025",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1745,
+            2226
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "Confirmed and probable cases. A revised case definition took effect in 2022, so later years are not directly comparable with earlier ones, and COVID-19 cut reporting in 2020 and 2021 (see below). The state's dashboard matches CDC in most years; the largest gap is 2018 (state 614, CDC 576). CDC figures through 2023, its latest year; state counts for 2024 and 2025, as of October 2026, with 2025 preliminary.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html) through 2023; [Vermont Department of Health tick bite illness dashboard](https://www.healthvermont.gov/disease-control/tick-bite-illnesses) for 2024 and 2025"
+    },
+    {
+      "type": "p",
+      "text": "Two reporting changes shape that chart. The state says COVID-19 disrupted routine surveillance in 2020 and 2021, and CDC says 2019 and 2020 data from some jurisdictions are incomplete. Since 2022, high-incidence states such as Vermont count Lyme cases from laboratory results alone. In a [February 2022 advisory](https://www.healthvermont.gov/sites/default/files/documents/pdf/HAN-Lyme%20Disease%20Case%20Definition-2022_FINAL.pdf), the health department told providers to report only severe cases, such as Lyme carditis, and said it expected lab-based counting to raise annual case estimates by about 20%. Cases are now all reported as probable."
+    },
+    {
+      "type": "p",
+      "text": "Measures differ, too: the advisory, counting confirmed cases only, ranked Vermont second in 2019, at about 113 per 100,000, while CDC's figures, which add probable cases, rank it first."
+    },
+    {
+      "type": "p",
+      "text": "The state's own counts keep climbing: 1,745 cases in 2024 and 2,226 in 2025, rates of 268.9 and 342.8 per 100,000, according to the [health department's tick bite illness dashboard](https://www.healthvermont.gov/disease-control/tick-bite-illnesses) as of October 2026. The 2025 figure is preliminary and may change."
+    },
+    {
+      "type": "h3",
+      "text": "How does Vermont compare with its neighbors?"
+    },
+    {
+      "type": "p",
+      "text": "Vermont's 2023 rate was about twice New Hampshire's and New York's, by BuzzSkito's arithmetic from CDC's rates, although each of its neighbors reported more cases."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Cases per 100,000, 2023"
+      ],
+      "rows": [
+        [
+          "Vermont",
+          "1,445",
+          "223.3"
+        ],
+        [
+          "[New Hampshire](/blog/ticks-in-new-hampshire)",
+          "1,573",
+          "113.4"
+        ],
+        [
+          "[Massachusetts](/blog/ticks-in-massachusetts)",
+          "9,715",
+          "138.9"
+        ],
+        [
+          "[New York](/blog/ticks-in-new-york)",
+          "22,173",
+          "111.7"
+        ]
+      ],
+      "caption": "Confirmed and probable cases by state of residence, from [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Data through 2023, the latest year CDC had published as of October 2026."
+    },
+    {
+      "type": "h2",
+      "text": "Which Vermont counties have the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Relative to population, the southern counties. In 2023, Bennington, Windsor and Windham counties each recorded about 390 to 400 cases per 100,000 residents, against 223 statewide. The map shows every county's 2023 rate, calculated by BuzzSkito from [CDC's county-level Lyme data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) and the [Census Bureau's county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)."
+    },
+    {
+      "type": "map",
+      "scope": "VT",
+      "title": "Lyme disease cases per 100,000 residents by county, Vermont, 2023",
+      "categories": [
+        {
+          "key": "350plus",
+          "label": "350 or more"
+        },
+        {
+          "key": "250to349",
+          "label": "250 to 349"
+        },
+        {
+          "key": "150to249",
+          "label": "150 to 249"
+        },
+        {
+          "key": "under150",
+          "label": "Under 150"
+        }
+      ],
+      "values": {
+        "50001": "250to349",
+        "50003": "350plus",
+        "50005": "150to249",
+        "50007": "150to249",
+        "50009": "under150",
+        "50011": "under150",
+        "50013": "250to349",
+        "50015": "under150",
+        "50017": "250to349",
+        "50019": "under150",
+        "50021": "under150",
+        "50023": "150to249",
+        "50025": "350plus",
+        "50027": "350plus"
+      },
+      "caption": "Confirmed and probable cases by county of residence. Rates are BuzzSkito's calculation: CDC's 2023 county counts divided by the Census Bureau's July 1, 2023 estimates (Vintage 2025), which gives 223.1 statewide against CDC's 223.3. Small counties swing sharply: Essex County's 6 cases came from about 6,000 residents.",
+      "source": "[CDC county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html), 2023; [U.S. Census Bureau county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Lyme cases, 2023",
+        "Cases per 100,000"
+      ],
+      "rows": [
+        [
+          "Bennington",
+          "149",
+          "400.8"
+        ],
+        [
+          "Windsor",
+          "229",
+          "395.3"
+        ],
+        [
+          "Windham",
+          "180",
+          "392.0"
+        ],
+        [
+          "Addison",
+          "128",
+          "338.1"
+        ],
+        [
+          "Orange",
+          "77",
+          "257.5"
+        ],
+        [
+          "Grand Isle",
+          "19",
+          "253.6"
+        ],
+        [
+          "Caledonia",
+          "69",
+          "225.4"
+        ],
+        [
+          "Washington",
+          "117",
+          "194.2"
+        ],
+        [
+          "Chittenden",
+          "296",
+          "174.6"
+        ],
+        [
+          "Franklin",
+          "71",
+          "139.6"
+        ],
+        [
+          "Lamoille",
+          "34",
+          "130.0"
+        ],
+        [
+          "Essex",
+          "6",
+          "100.4"
+        ],
+        [
+          "Rutland",
+          "51",
+          "84.5"
+        ],
+        [
+          "Orleans",
+          "19",
+          "68.6"
+        ]
+      ],
+      "caption": "All 14 counties, highest rate first. Sources as for the map."
+    },
+    {
+      "type": "p",
+      "text": "Raw counts follow population instead. Chittenden County, the most populous and home to Burlington, had the most cases in 2023 (296), followed by Windsor (229) and Windham (180), yet Chittenden's rate of 174.6 was below the statewide figure. Orleans County, on the northern border, had the lowest rate (68.6)."
+    },
+    {
+      "type": "p",
+      "text": "Two cautions apply. Cases are counted where the patient lives, not necessarily where the bite happened, as [CDC's case map page](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) notes. And single years can mislead: Rutland County's count fell from 121 in 2022 to 51 in 2023, even though state surveillance has found the highest density of nymphal ticks there, so a low county rate is not proof of low risk."
+    },
+    {
+      "type": "h2",
+      "text": "How fast is anaplasmosis rising in Vermont?"
+    },
+    {
+      "type": "p",
+      "text": "Fast enough that Vermont now leads the country. The [health department](https://www.healthvermont.gov/disease-control/tick-bite-illnesses/anaplasmosis) says Vermont has had the highest annual incidence of anaplasmosis in the United States since 2015, and [CDC's 2023 state figures](https://www.cdc.gov/anaplasmosis/hcp/statistics/index.html) bear that out: 712 cases per million residents, ahead of Maine's 557 and roughly seven times the rates in Massachusetts, New York and New Hampshire, by BuzzSkito's arithmetic. The state's count went from 3 cases in 2008 to a preliminary 762 in 2025, a rate of 117.3 per 100,000. The blacklegged tick spreads it."
+    },
+    {
+      "type": "chart",
+      "title": "Reported anaplasmosis cases in Vermont, 2008 to 2025",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            3,
+            2,
+            3,
+            10,
+            17,
+            37,
+            67,
+            139,
+            201,
+            399,
+            244,
+            535,
+            192,
+            10,
+            572,
+            461,
+            465,
+            762
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "The state's counts. It says 2020 and 2021 counts are low because COVID-19 cut reporting. Its yearly figures for 2019 to 2022 add up to 1,309 cases, one more than the 1,308 in CDC's county file for those years; its 2023 rate, 71.2 per 100,000, matches CDC's 712 per million. Data as of October 2026; 2025 is preliminary.",
+      "source": "[Vermont Department of Health tick bite illness dashboard](https://www.healthvermont.gov/disease-control/tick-bite-illnesses)"
+    },
+    {
+      "type": "p",
+      "text": "Most cases come from the south. Bennington, Rutland and Windsor counties, home to about a quarter of Vermonters, accounted for 782 of Vermont's 1,308 anaplasmosis cases from 2019 to 2022, about 60%, by BuzzSkito's tally of [CDC's county-level tick-borne disease file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) and Census population estimates. That file counts patients by county of residence."
+    },
+    {
+      "type": "p",
+      "text": "Anaplasmosis can be serious. The department says 36% of Vermont cases are hospitalized, that it affects older adults and men more often, and that only 9% of Vermont patients report a rash; fever, a general feeling of illness, muscle aches, chills and headaches are the most common symptoms in the state. The [anaplasmosis guide](/blog/anaplasmosis) covers symptoms and treatment."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in Vermont?"
+    },
+    {
+      "type": "p",
+      "text": "After Lyme disease and anaplasmosis, babesiosis is the most common. The [health department](https://www.healthvermont.gov/disease-control/tick-bite-illnesses) counts five tick bite illnesses in the state, adding hard tick relapsing fever and Powassan virus disease, and says anaplasmosis and babesiosis cases have increased over the last ten years; its [tick activity guide](https://www.healthvermont.gov/disease-control/tick-bite-illnesses/tick-activity-vermont) ties all five to the blacklegged tick. Its 2022 advisory adds that ehrlichiosis and spotted fever rickettsiosis are less common because they are acquired outside Vermont and spread by other ticks."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Tick that spreads it",
+        "Vermont cases"
+      ],
+      "rows": [
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "101 in 2025 (state, preliminary)"
+        ],
+        [
+          "Hard tick relapsing fever",
+          "Blacklegged tick",
+          "Fewer than 85 since it emerged in 2016 (state)"
+        ],
+        [
+          "Powassan virus disease",
+          "Blacklegged tick; woodchuck and squirrel ticks",
+          "3 in residents since 1999 (state)"
+        ],
+        [
+          "Ehrlichiosis (*Ehrlichia chaffeensis*)",
+          "Lone star tick",
+          "48 from 2019 to 2022 (CDC)"
+        ],
+        [
+          "Spotted fever rickettsiosis",
+          "American dog and brown dog ticks",
+          "11 from 2019 to 2022 (CDC)"
+        ]
+      ],
+      "caption": "Sources: the state's dashboard (babesiosis, as of October 2026) and [tick activity guide](https://www.healthvermont.gov/disease-control/tick-bite-illnesses/tick-activity-vermont); [CDC's county-level file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) for 2019 to 2022, by county of residence."
+    },
+    {
+      "type": "p",
+      "text": "Powassan virus is the rarest. Beyond the three human cases, the state's tick survey found deer tick virus, a form of Powassan virus, in 6 of 1,760 ticks tested from 2020 to 2024. The guides to [babesiosis](/blog/babesiosis) and [Powassan virus](/blog/powassan-virus) cover symptoms."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Vermont?"
+    },
+    {
+      "type": "p",
+      "text": "Any day above freezing, with two peaks. The [health department](https://www.healthvermont.gov/disease-control/tick-bite-illnesses) says ticks can be found throughout Vermont whenever temperatures are above freezing, most commonly from spring through fall. Blacklegged tick activity typically peaks in May and June, when nymphs are looking for a host, and rises again in October and November, when adult females look for another host before winter. Tick-related emergency room visits follow the same pattern and are most common in spring and fall, its [tick activity guide](https://www.healthvermont.gov/disease-control/tick-bite-illnesses/tick-activity-vermont) says."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Time of year",
+        "Blacklegged (deer) tick",
+        "Other ticks",
+        "What Vermont's data show"
+      ],
+      "rows": [
+        [
+          "Winter (December to February)",
+          "Any day above freezing",
+          "Brown dog ticks year-round, mostly on dogs",
+          "Ticks are found whenever it is above freezing"
+        ],
+        [
+          "Spring (March to May)",
+          "Nymphs out from April (CDC); peak begins in May",
+          "American dog and lone star ticks from April",
+          "Tick-related emergency room visits rise"
+        ],
+        [
+          "Summer (June to August)",
+          "Nymph peak continues in June; nymphs active through July",
+          "American dog ticks active",
+          "Highest risk of anaplasmosis"
+        ],
+        [
+          "Fall (September to November)",
+          "Adult females seek hosts in October and November",
+          "Dog and lone star ticks through September; winter tick larvae",
+          "Emergency room visits and anaplasmosis risk rise again"
+        ]
+      ],
+      "caption": "Sources: the state health department's tick activity guide and [anaplasmosis page](https://www.healthvermont.gov/disease-control/tick-bite-illnesses/anaplasmosis); [CDC](https://www.cdc.gov/lyme/causes/index.html) for nymphs; Vermont Fish and Wildlife for winter ticks."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-life-stages.webp",
+      "width": 1200,
+      "height": 793,
+      "alt": "Three blacklegged ticks on a blue-green surface: a large adult with a reddish body and dark shield, and two much smaller immature ticks, one dark and one paler",
+      "caption": "Blacklegged tick adult, nymph and larva, the three stages that feed on blood.",
+      "credit": "CDC/ Michael L. Levin, Ph. D. (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1205"
+    },
+    {
+      "type": "p",
+      "text": "A mild winter day still calls for a tick check. For how the season differs in other parts of the country, see [when tick season starts and ends in each US region](/blog/tick-season)."
+    },
+    {
+      "type": "h2",
+      "text": "Can you get a tick tested in Vermont?"
+    },
+    {
+      "type": "p",
+      "text": "Not through the state. As of October 2026, the health department's [prevention page](https://www.healthvermont.gov/disease-control/tick-bite-illnesses/prevent-tick-bites-tickborne-diseases) says neither it nor the Agency of Agriculture, Food and Markets tests ticks submitted by the public, and it does not recommend testing ticks. Some private labs offer tick testing; the department gives these reasons for caution:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**A positive result does not prove you were infected.**",
+        "**A negative result can falsely reassure you**, since another infected tick may have bitten you.",
+        "**Results take days**, which can delay decisions about treatment.",
+        "**Tick tests are not held to the standards of human tests**, so they should not guide treatment."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "[CDC's after-bite guidance](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) agrees that tick testing is generally not recommended, and says not to wait for a tick result before starting treatment if you become ill. To work out which tick you found, compare it with the photos in [the tick identification chart](/learn/tick-identification-chart)."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Vermont?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick right away, ask a provider whether a preventive antibiotic dose fits your case, and watch for symptoms for 30 days. [CDC's after-bite guidance](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) describes removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers.",
+        "Pull it away from the skin with steady, even pressure, without twisting or jerking. If the mouthparts break off and do not come out easily, leave them; the body usually pushes them out as the skin heals.",
+        "Clean the bite and your hands with soap and water, rubbing alcohol or hand sanitizer.",
+        "Do not use petroleum jelly, heat, nail polish or other substances to make the tick let go, and do not wait to see a provider before removing it.",
+        "Dispose of the tick by sealing it in a container, wrapping it tightly in tape, flushing it or putting it in alcohol, and never crush it with your fingers."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A fuller walk-through is in [the step-by-step tick removal guide](/blog/how-to-remove-tick-safely), and [a full-body tick check](/blog/how-to-do-a-tick-check) shows where ticks hide."
+    },
+    {
+      "type": "p",
+      "text": "Speed matters. In most cases a tick must be attached for more than 24 hours before it can pass on the Lyme bacterium, [CDC](https://www.cdc.gov/lyme/causes/index.html) says, and removing it within 24 hours greatly reduces the risk."
+    },
+    {
+      "type": "p",
+      "text": "A single dose of the antibiotic doxycycline after a tick bite in an area where Lyme disease is common may lower the risk of the disease in certain circumstances, [CDC's prevention page](https://www.cdc.gov/lyme/prevention/index.html) says, and it advises asking a provider whether that is appropriate. The health department lists the conditions: the tick was a blacklegged tick, it was attached for 36 hours or longer, the dose can start within 72 hours of removal, you have no reason to avoid the antibiotic, and the bite happened where Lyme disease is common, which generally includes Vermont and its neighboring states. The dose is not recommended for anaplasmosis, babesiosis or ehrlichiosis."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/engorged-blacklegged-tick.webp",
+      "width": 1200,
+      "height": 920,
+      "alt": "Side view of a female blacklegged tick swollen with blood into a smooth brown oval, with a small dark shield and dark legs at the front end",
+      "caption": "A female blacklegged tick swollen after feeding. Ticks feed for several days, the state says.",
+      "credit": "CDC/ Dr. Gary Alpert - Urban Pests - Integrated Pest Management (IPM) (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=15993"
+    },
+    {
+      "type": "p",
+      "text": "Then watch for symptoms for 30 days, as the health department advises. According to [CDC](https://www.cdc.gov/lyme/signs-symptoms/index.html), the erythema migrans rash appears in about 70% to 80% of infected people, 3 to 30 days after the bite (about 7 days on average), and can expand to 12 inches or more across; it may feel warm but is rarely itchy or painful, and it does not always look like a bull's-eye. Fever, chills, headache, fatigue, muscle and joint aches and swollen lymph nodes can occur even without a rash. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow if it is not treated."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Oval red rash on the back of a person's upper arm with a darker red center, a paler ring and a pink outer ring, above a blue sleeve",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, here with a bull's-eye pattern. CDC says the rash does not always look like this.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you feel ill",
+      "text": "A rash, fever, chills, headache or body aches in the weeks after a tick bite or time outdoors is a reason to see a provider; tell them when the bite happened and where you likely picked up the tick. Do not wait for a tick test result. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Vermont?"
+    },
+    {
+      "type": "p",
+      "text": "Dress for ticks, use repellent, check yourself after every outing and put your clothes in a hot dryer. The health department's [prevention page](https://www.healthvermont.gov/disease-control/tick-bite-illnesses/prevent-tick-bites-tickborne-diseases) recommends these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Stay in the center of trails** and avoid brushing against tall grass.",
+        "**Cover up in light colors.** Long pants, long sleeves, long socks and boots, in colors that make ticks easy to spot.",
+        "**Treat clothing, not skin, with 0.5% permethrin.** It kills ticks on contact and lasts through several washes.",
+        "**Use an EPA-registered repellent** with DEET, picaridin, IR3535, oil of lemon eucalyptus, para-menthane-diol or 2-undecanone, following the label. The department says not to use oil of lemon eucalyptus or para-menthane-diol on children under 3.",
+        "**Check and shower.** Check clothing, gear and pets before going indoors, check your whole body, including underarms, ears, waist, backs of the knees and hairline, and shower within two hours.",
+        "**Use the dryer.** At least 10 minutes on high heat kills ticks on dry clothes; damp clothes may need longer, and if clothes need washing first, use hot water."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Around the house, the department suggests mowing grass, trimming brush, removing leaf litter, keeping the yard sunny and dry, stacking wood away from the house, and discouraging wildlife by fencing the yard and cleaning up birdseed, berries and fallen apples."
+    },
+    {
+      "type": "p",
+      "text": "Dogs bring ticks indoors and can get sick too. The department advises asking a veterinarian about oral, topical or collar products and checking pets after time outdoors; [ticks on dogs](/blog/ticks-on-dogs) shows where to look."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are ticks active in Vermont in the winter?",
+      "answer": "They can be. The Vermont Department of Health says ticks can be found throughout the state whenever temperatures are above freezing, most commonly from spring through fall. Blacklegged tick activity peaks in May and June and again in October and November, when adult females look for another host before winter, and brown dog ticks, which live mostly on dogs, are active year-round. Check yourself and your pets after time in woods or tall grass in any month."
+    },
+    {
+      "question": "What percentage of ticks in Vermont carry Lyme disease?",
+      "answer": "About half of those the state has tested. In the Vermont Agency of Agriculture's 2020 to 2024 survey, 50.9% of 1,760 blacklegged ticks, most of them adults, carried the Lyme bacterium. The health department's 2018 to 2022 testing found it in 56.7% of adults and 24% of nymphs. Nymphs carry it less often but pose a particularly high risk, CDC says, because they are abundant and about the size of a poppy seed."
+    },
+    {
+      "question": "Which Vermont county has the most Lyme disease?",
+      "answer": "It depends on whether you count cases or rates. Chittenden County, the most populous, had the most cases in 2023, 296, according to CDC's county data. Relative to population, Bennington County was highest, at about 401 cases per 100,000 residents, followed closely by Windsor and Windham counties, based on CDC counts and Census estimates. Cases are counted where patients live, not necessarily where they were bitten, and small counties can swing sharply from year to year."
+    },
+    {
+      "question": "How common is anaplasmosis in Vermont?",
+      "answer": "More common than in any other state. The Vermont Department of Health says Vermont has had the highest annual anaplasmosis incidence in the country since 2015, and CDC's 2023 figures put it at 712 cases per million residents. The state counted a preliminary 762 cases in 2025, up from 3 in 2008. The same blacklegged tick that spreads Lyme disease spreads it, it rarely causes a rash, and the state says 36% of Vermont cases are hospitalized."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in Vermont?",
+      "answer": "Not through the state. As of October 2026, the Vermont Department of Health says neither it nor the Agency of Agriculture, Food and Markets tests ticks from the public, and it does not recommend tick testing: a positive tick does not prove you were infected, a negative one can falsely reassure you, and waiting for results can delay treatment decisions. If you feel ill after a bite, see a health care provider rather than waiting for any tick result."
+    },
+    {
+      "question": "Are there lone star ticks in Vermont?",
+      "answer": "Only a few, and the species is not established. CDC's surveillance, which runs through 2025, lists the lone star tick as reported in Addison, Bennington, Rutland and Windsor counties but established in none, and the Vermont Department of Health says it is not considered able to complete its life cycle in the state. Lone star ticks can spread ehrlichiosis and tularemia and are linked to alpha-gal syndrome; the four collected in Vermont and tested from 2018 to 2023 were negative for Ehrlichia bacteria."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "County Population Totals and Components of Change: 2020-2025",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "American Dog Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (cases by county of residence, 2019-2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "Epidemiology and Statistics: Anaplasmosis (annual incidence by state, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/anaplasmosis/hcp/statistics/index.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "Lyme Disease Signs and Symptoms",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/signs-symptoms/index.html"
+    },
+    {
+      "title": "Lyme Disease Causes and How It Spreads",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "Preventing Lyme Disease",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/prevention/index.html"
+    },
+    {
+      "title": "Tick Bite Illnesses (with the tick bite illness data dashboard)",
+      "publisher": "Vermont Department of Health",
+      "url": "https://www.healthvermont.gov/disease-control/tick-bite-illnesses"
+    },
+    {
+      "title": "Tick Activity in Vermont",
+      "publisher": "Vermont Department of Health",
+      "url": "https://www.healthvermont.gov/disease-control/tick-bite-illnesses/tick-activity-vermont"
+    },
+    {
+      "title": "Anaplasmosis",
+      "publisher": "Vermont Department of Health",
+      "url": "https://www.healthvermont.gov/disease-control/tick-bite-illnesses/anaplasmosis"
+    },
+    {
+      "title": "Prevent Tick Bites and Tick Bite Illnesses",
+      "publisher": "Vermont Department of Health",
+      "url": "https://www.healthvermont.gov/disease-control/tick-bite-illnesses/prevent-tick-bites-tickborne-diseases"
+    },
+    {
+      "title": "Health Advisory: Changes to Lyme Disease Reporting for Surveillance Purposes (February 10, 2022)",
+      "publisher": "Vermont Department of Health",
+      "url": "https://www.healthvermont.gov/sites/default/files/documents/pdf/HAN-Lyme%20Disease%20Case%20Definition-2022_FINAL.pdf"
+    },
+    {
+      "title": "Vermont Survey for Tick-Borne Diseases: Cumulative Report, 2020-2024",
+      "publisher": "Vermont Agency of Agriculture, Food and Markets",
+      "url": "https://agriculture.vermont.gov/sites/agriculture/files/MosquitoTick/AGR%20Tick%202020-2024%20Cumulative%20Report.pdf"
+    },
+    {
+      "title": "National Haemaphysalis longicornis (Asian Longhorned Tick) Situation Report, as of April 22, 2025",
+      "publisher": "USDA Animal and Plant Health Inspection Service (copy hosted by Texas A&M AgriLife's Tick App)",
+      "url": "https://tickapp.tamu.edu/wp-content/uploads/sites/30/2025/05/Longhorned-Tick-SitRep-2025-04-22.pdf"
+    },
+    {
+      "title": "Moose Management FAQs",
+      "publisher": "Vermont Fish and Wildlife Department",
+      "url": "https://www.vtfishandwildlife.com/hunt/hunting-and-trapping-opportunities/moose/moose-management-faqs",
+      "kind": "government"
+    }
+  ],
+  "disclaimer": "both"
+}

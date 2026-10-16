@@ -2,9 +2,14 @@
  "id": "ticks-in-kentucky",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "2a5c2c379de869e9572494f9d96508a0dfa023774b65057a8ef53f289e80159f",
+ "sha": "cec1a81a910b081a68c2d14fb76906e2a54753ad344a8ab51b3a2c7bae70fa09",
  "claimsChecked": 310,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 5,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

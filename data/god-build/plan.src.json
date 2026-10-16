@@ -46,7 +46,7 @@
     "/blog/ticks-in-newfoundland-and-labrador"
    ],
    "dataPacket": "data/god-build/packets/ticks-ca/CA.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-nova-scotia",
@@ -83,7 +83,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-ca/NS.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-manitoba",
@@ -120,7 +120,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-ca/MB.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-alberta",
@@ -157,7 +157,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-ca/AB.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-new-brunswick",
@@ -195,7 +195,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-ca/NB.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-quebec",
@@ -233,7 +233,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-ca/QC.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-british-columbia",
@@ -269,7 +269,7 @@
    ],
    "minNeighbors": 1,
    "dataPacket": "data/god-build/packets/ticks-ca/BC.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-newfoundland-and-labrador",
@@ -460,7 +460,7 @@
     "/blog/ticks-in-wyoming"
    ],
    "dataPacket": "data/god-build/packets/ticks-us/US.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-pennsylvania",
@@ -500,7 +500,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/PA.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-new-york",
@@ -539,7 +539,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/NY.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-new-jersey",
@@ -576,7 +576,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/NJ.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-connecticut",
@@ -613,7 +613,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/CT.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-massachusetts",
@@ -652,7 +652,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/MA.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-wisconsin",
@@ -690,7 +690,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/WI.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-minnesota",
@@ -728,7 +728,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/MN.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-virginia",
@@ -767,7 +767,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/VA.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-maryland",
@@ -805,7 +805,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/MD.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-north-carolina",
@@ -843,7 +843,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/NC.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-tennessee",
@@ -885,7 +885,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/TN.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-georgia",
@@ -924,7 +924,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/GA.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-texas",
@@ -962,7 +962,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/TX.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-ohio",
@@ -1001,7 +1001,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/OH.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-indiana",
@@ -1039,7 +1039,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/IN.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-illinois",
@@ -1078,7 +1078,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/IL.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-missouri",
@@ -1120,7 +1120,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/MO.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-kentucky",
@@ -1161,7 +1161,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/KY.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-maine",
@@ -1196,7 +1196,7 @@
    ],
    "minNeighbors": 1,
    "dataPacket": "data/god-build/packets/ticks-us/ME.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-new-hampshire",
@@ -1233,7 +1233,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/NH.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-vermont",
@@ -1270,7 +1270,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/VT.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-rhode-island",
@@ -1306,7 +1306,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/RI.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-delaware",
@@ -1343,7 +1343,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/DE.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-west-virginia",
@@ -1382,7 +1382,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/WV.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-arkansas",
@@ -1422,7 +1422,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/AR.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-oklahoma",
@@ -1462,7 +1462,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/OK.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-alabama",
@@ -1500,7 +1500,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/AL.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-mississippi",
@@ -1538,7 +1538,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/MS.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-south-carolina",
@@ -1574,7 +1574,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/SC.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2026-10-16"
   },
   {
    "slug": "ticks-in-florida",

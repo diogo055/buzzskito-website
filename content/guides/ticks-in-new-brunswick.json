@@ -1,0 +1,300 @@
+{
+  "slug": "ticks-in-new-brunswick",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "locale": "en-CA",
+  "keyword": "ticks in new brunswick",
+  "alsoTargets": [
+    "tick season new brunswick",
+    "lyme disease new brunswick",
+    "are there ticks in new brunswick"
+  ],
+  "metaTitle": "Ticks in New Brunswick: Lyme Risk Zones, Season",
+  "metaDescription": "Blacklegged ticks are established in mid to southern New Brunswick. Risk by health zone, Lyme cases by year, tick photos, the season and after-bite steps.",
+  "h1": "Ticks in New Brunswick: Species, Lyme Disease Risk and Tick Season",
+  "dek": "Which ticks live in New Brunswick, which health zones the province rates as higher risk for Lyme disease, how cases have grown since 2009, when ticks are active, and what to do after a bite.",
+  "breadcrumb": "Ticks in New Brunswick",
+  "excerpt": "Blacklegged ticks are established in mid to southern New Brunswick. Risk by health zone, Lyme cases by year, tick photos, the season in °C and after-bite steps.",
+  "datePublished": "2026-10-16",
+  "parent": {
+    "href": "/learn/ticks-by-province",
+    "name": "Ticks by Province"
+  },
+  "quickAnswer": {
+    "lead": "**Yes. Blacklegged ticks, which spread Lyme disease, are established in mid to southern New Brunswick, and the province says a bite is possible anywhere.** New Brunswick reported 111 Lyme disease cases in 2024, up from 101 in 2023, according to the [Public Health Agency of Canada](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html), and as of October 2026 the province rates its Fundy Shore and Saint John health zone as the highest-risk area.",
+    "bullets": [
+      "As of October 2026, the province's risk map rates Zone 2 (Fundy Shore / Saint John) higher risk, Zones 1 (Moncton / South-East) and 3 (Fredericton / River Valley) moderate risk, and its four other health zones lower risk.",
+      "A June 2026 CHCO-TV report citing the Department of Health put New Brunswick's preliminary 2025 rate at 23.5 cases per 100,000 people, the highest it has recorded.",
+      "In 2022 surveillance, 24 of 56 blacklegged ticks (42.9%) collected from vegetation at 10 New Brunswick sites carried the Lyme bacterium.",
+      "The province says ticks are most active above 4 °C and nymphs in spring and summer; PHAC finds adults peak in spring and fall, and 46% of the ticks in the province's open tick data were recorded in October and November.",
+      "eTick identifies a tick from a photo free of charge, and a pharmacist can assess a bite within 72 hours of removing the tick and may prescribe a single preventive dose of doxycycline."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in New Brunswick at a glance",
+    "rows": [
+      ["Tick that spreads Lyme disease", "Blacklegged (deer) tick, established in mid to southern New Brunswick (PHAC, August 2026)"],
+      ["Other common ticks", "American dog tick, groundhog tick, and moose or winter tick (province, as of October 2026)"],
+      ["Lyme disease risk areas", "By health zone, October 2026: higher in Zone 2 (Fundy Shore / Saint John); moderate in Zones 1 and 3 (Moncton / South-East, Fredericton / River Valley); lower in Zones 4 to 7"],
+      ["Reported Lyme disease cases", "111 in 2024 and 101 in 2023, against 0 in 2009 (PHAC)"],
+      ["Latest rate", "23.5 per 100,000 in 2025, preliminary, the province's highest (Department of Health via CHCO-TV, June 2026)"],
+      ["Blacklegged ticks carrying the Lyme bacterium", "24 of 56 (42.9%) collected from vegetation at 10 sites in 2022 (PHAC); 21 of 116 (18.1%) sent in for testing in 2025 (provincial open data)"],
+      ["High-risk tick bites seen by a pharmacist, physician or nurse practitioner", "1,979 in the past 12 months, as of October 15, 2026 (provincial tick bite tracker)"],
+      ["Tick season", "Most active above 4 °C; nymphs in spring and summer (province); adults peak in spring and fall (PHAC, 2022); active whenever it stays above freezing with no snow (PHAC)"],
+      ["Tick identification", "eTick, from a photo, free; aims to reply within 1 to 2 business days; no germ testing (as of October 2026)"],
+      ["After a bite", "Pharmacist assessment within 72 hours of removing the tick, covered for eligible residents with a valid Medicare card (since May 15, 2023)"],
+      ["Data through", "PHAC case counts to December 31, 2024; tracker as read in October 2026; open tick data 2019 to 2025, updated September 8, 2026"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Are there ticks in New Brunswick?" },
+    { "type": "p", "text": "Yes. [The Public Health Agency of Canada (PHAC)](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html) lists New Brunswick, mid to south, among the places where blacklegged ticks, the ticks that spread Lyme disease, are established, meaning they live and reproduce there. The province's [Be Tick Smart page](https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/vectorborne_andzoonotic/tick-borne-diseases.html) says a bite is possible anywhere in New Brunswick, but the risk is highest where tick populations are established or could become established." },
+    { "type": "p", "text": "Lyme disease has risen with them. New Brunswick reported 111 cases in 2024, about 2% of Canada's 5,809, according to [PHAC's annual report on tick-borne disease](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html), and our [province-by-province guide to ticks](/learn/ticks-by-province) compares it with the rest of the country. The same report counts 2,350 cases in neighbouring Nova Scotia, 834 in Quebec and 4 on Prince Edward Island; if you travel, see [ticks in Nova Scotia](/blog/ticks-in-nova-scotia), [ticks in Quebec](/blog/ticks-in-quebec) and [ticks on Prince Edward Island](/blog/ticks-in-prince-edward-island)." },
+
+    { "type": "h2", "text": "Which ticks live in New Brunswick?" },
+    { "type": "p", "text": "Four ticks are common in the province, and only one of them spreads Lyme disease. The province's [tick facts page](https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/vectorborne_andzoonotic/tick-borne-diseases/facts.html) names the blacklegged tick, the groundhog tick, the American dog tick and the moose or winter tick, and rates each of them as common in New Brunswick. PHAC adds the squirrel tick, which it says is found in southern New Brunswick. Of these, PHAC lists only the blacklegged tick as able to transmit the bacteria that cause Lyme disease." },
+    { "type": "table", "head": ["Tick", "In New Brunswick", "Size (province)", "What PHAC says it can spread"], "rows": [
+      ["Blacklegged (deer) tick, *Ixodes scapularis*", "Established mid to south (PHAC); common (province)", "3 to 5 mm; up to 10 mm after feeding", "Lyme disease, anaplasmosis, babesiosis, Powassan virus disease, *Borrelia miyamotoi* disease"],
+      ["American dog tick, *Dermacentor variabilis*", "Common; adults most active in spring and summer (province)", "3 to 7 mm; larger after feeding", "Tularemia, Rocky Mountain spotted fever"],
+      ["Groundhog tick, *Ixodes cookei*", "Common; feeds on small animals and people; adults most active in summer (province)", "3 to 5 mm; larger after feeding", "Powassan virus disease"],
+      ["Moose or winter tick, *Dermacentor albipictus*", "Common; spends its life cycle on moose or deer; many larvae may be met in fall where moose live (province)", "3 to 7 mm; up to 10 mm after feeding", "Not on PHAC's list"],
+      ["Squirrel tick, *Ixodes marxi*", "Found in southern New Brunswick (PHAC)", "Not given", "Powassan virus disease"]
+    ], "caption": "Sources: the province's [tick facts page](https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/vectorborne_andzoonotic/tick-borne-diseases/facts.html), as read in October 2026, and [PHAC, Ticks in Canada](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html), page dated August 7, 2026. Sizes are the province's." },
+    { "type": "figure", "src": "/guides/photos/blacklegged-tick-life-stages.webp", "width": 1200, "height": 793, "alt": "Three blacklegged ticks on a blue-green surface: a large adult with a reddish body, dark shield and dark legs, and two much smaller ticks below it", "caption": "A blacklegged tick adult (top) and two much smaller immature ticks. The province compares a nymph to a poppy seed and an adult to a sesame seed.", "credit": "CDC/ Michael L. Levin, Ph. D. (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1205" },
+    { "type": "p", "text": "Telling them apart takes a close look. The province's notes describe the blacklegged and groundhog ticks as having long mouthparts and a darker shield behind the head, and the American dog tick and the winter tick as having short mouthparts and white markings on the shield; it says those two look like each other. [Our deer tick versus dog tick guide](/blog/deer-tick-vs-dog-tick-canada) compares the pair people most often mix up." },
+    { "type": "figure", "src": "/guides/photos/american-dog-tick-female.webp", "width": 1200, "height": 816, "alt": "Adult female American dog tick on a green blade of grass, reddish-brown with cream and white markings on the shield behind its head and pale bands on its legs", "caption": "An adult female American dog tick, with the white markings on its shield that the province describes. PHAC does not list Lyme disease among the infections it can spread.", "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170" },
+    { "type": "figure", "src": "/guides/photos/groundhog-tick.webp", "width": 1200, "height": 1600, "alt": "Engorged groundhog tick on a wooden surface, with a swollen pale grey body, a small dark reddish-brown shield and dark legs", "caption": "An engorged groundhog tick. The province rates it as common in New Brunswick, and PHAC lists it as a carrier of the virus that causes Powassan virus disease.", "credit": "(c) adamfritz, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/168811425" },
+    { "type": "figure", "src": "/guides/photos/winter-tick.webp", "width": 1200, "height": 1200, "alt": "Adult winter tick seen from above on a white surface, with a rounded brown body covered in cream and silver markings and reddish-brown legs", "caption": "An adult winter tick, photographed in British Columbia. New Brunswick calls it the moose or winter tick and says large numbers of its larvae may be met in fall where moose live.", "credit": "(c) Megan Dark, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/271543920" },
+    { "type": "p", "text": "Ticks sent in for testing are mostly blacklegged ticks. Of the 947 ticks in the province's [open tick data](https://gnb.socrata.com/Health-and-Wellness/Tick-Data-2019-2025-Donn-es-relatives-aux-tiques-2/kwzw-w4dh) that people sent to Geneticks and Mount Allison University from 2019 to 2025, 841 were blacklegged ticks, 62 groundhog ticks, 27 American dog ticks, 5 squirrel ticks and 3 winter ticks, and 9 were not identified to species. They show what people chose to send in, not how common each species is outdoors." },
+
+    { "type": "h2", "text": "Where in New Brunswick is the Lyme disease risk highest?" },
+    { "type": "p", "text": "In the south. The province rates risk by health zone: its [Be Tick Smart page](https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/vectorborne_andzoonotic/tick-borne-diseases.html) bases blacklegged tick risk areas on provincial tick surveillance and draws them by health zone because the limits of tick populations are hard to define, noting that ticks are not spread evenly within a risk area. Its map, which it describes as an estimate of Lyme disease risk from tick surveillance and reported human cases, rated the seven zones as follows when we read it in October 2026." },
+    { "type": "table", "head": ["Health zone", "Area", "Risk category, October 2026"], "rows": [
+      ["Zone 2", "Fundy Shore / Saint John", "Higher"],
+      ["Zone 1", "Moncton / South-East", "Moderate"],
+      ["Zone 3", "Fredericton / River Valley", "Moderate"],
+      ["Zone 4", "Madawaska / North West", "Lower"],
+      ["Zone 5", "Restigouche", "Lower"],
+      ["Zone 6", "Bathurst / Acadian Peninsula", "Lower"],
+      ["Zone 7", "Miramichi", "Lower"]
+    ], "caption": "From the risk map on the province's [Be Tick Smart page](https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/vectorborne_andzoonotic/tick-borne-diseases.html), whose data are updated on the 15th of each month, so a zone's category can change. A lower-risk zone is not tick-free: the province says a bite is possible anywhere in New Brunswick." },
+    { "type": "p", "text": "The category matters after a bite. Under the province's [pharmacist program rules](https://www2.gnb.ca/content/gnb/en/departments/health/DrugPlans/content/drugplans/InformationForHealthCareProfessionals/pharmacy_services/lyme_disease.html), a pharmacist may prescribe medication to prevent Lyme disease only if the bite was likely acquired in an area of moderate or high risk on the Department of Health's risk map, among other conditions set out in the after-bite section below." },
+    { "type": "p", "text": "The same page carries the province's tick bite tracker. When we read it on October 15, 2026, it counted 1,979 visits to a pharmacist, physician or nurse practitioner for high-risk tick bites in the previous 12 months, meaning blacklegged tick bites judged potentially able to transmit Lyme disease, and 567 visits for other suspected tick bites. Its count of tick types reported from people and animals over the same 12 months was 2,212 blacklegged ticks, 38 American dog ticks, 16 groundhog ticks and 318 other ticks." },
+    { "type": "p", "text": "The open tick data point the same way: 875 of the 947 ticks sent in from 2019 to 2025, or 92%, were recorded in the Saint John, Moncton and Fredericton public health areas." },
+
+    { "type": "h2", "text": "How many Lyme disease cases does New Brunswick report?" },
+    { "type": "p", "text": "More than 100 a year now, against a handful a decade ago. New Brunswick reported no cases in 2009, 13 in 2015 and 36 in 2019, according to [PHAC's surveillance report for 2009 to 2019](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/lyme-disease-canada-2009-2019.html), then 59 in 2022, PHAC's [annual edition for 2022](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2022.html) shows. PHAC's annual report puts the 2023 count at 101, 71% more than in 2022, and the 2024 count at 111." },
+    { "type": "chart", "title": "Reported Lyme disease cases in New Brunswick, 2009 to 2024", "x": ["2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"], "series": [
+      { "name": "Reported cases", "values": [0, 2, 5, 7, 5, 5, 13, 11, 30, 20, 36, 19, 52, 59, 101, 111] }
+    ], "yLabel": "Confirmed and probable cases reported per year", "caption": "Cases New Brunswick reported to PHAC, including people infected while travelling. PHAC revised the national case definition in 2016, its latest annual report applies a 2024 definition, and it says the COVID-19 pandemic may have affected 2020 and 2021 through time spent outdoors and health care seeking. PHAC's figures can differ from the province's. Data through 2024.", "source": "PHAC: [2009 to 2019 surveillance report](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/lyme-disease-canada-2009-2019.html), Table A2; annual editions for [2020](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2020.html), [2021](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2021.html) and [2022](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2022.html); [annual report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html) for 2023 and 2024" },
+    { "type": "p", "text": "Per person, New Brunswick has recently been close to the national rate. PHAC put the province's rate at 4.6 cases per 100,000 people in 2019, or 3.1 counting only cases acquired in the province of residence, at 2.43 in 2020 and 6.58 in 2021, and at 7.27 in 2022. The 111 cases of 2024 come to about 13.0 per 100,000 by our calculation from [Statistics Canada's population estimates](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901), against 14.1 for Canada and 217 for Nova Scotia in PHAC's annual report. [Our Canadian Lyme disease statistics](/lyme-disease-canada-statistics) follow the national trend year by year." },
+    { "type": "p", "text": "The latest figure is higher still. A [June 2026 CHCO-TV report](https://chco.tv/an-engorged-problem-tick-population-expands-in-n-b/) citing the province's Department of Health put New Brunswick's 2025 rate at 23.5 cases per 100,000 people, its highest to date, against an average of 12.3 a year over the five years ending in 2025; the government said the figure is preliminary and could change. The department also said more reported cases do not necessarily mean more exposure to blacklegged ticks, because awareness and testing have improved and more people seek testing and report cases." },
+    { "type": "p", "text": "Counting rules matter when you compare years. PHAC revised the national case definition in 2016, and its 2009-to-2019 report says the revision could have affected the reporting of some cases; its latest annual report classifies cases under a 2024 national definition. Counts are by where people live, not where they were bitten, and include cases picked up while travelling." },
+
+    { "type": "h2", "text": "How many ticks in New Brunswick carry Lyme disease?" },
+    { "type": "p", "text": "A sizeable share, though the figure depends on how the ticks were collected. In PHAC's [2022 national tick surveillance report](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2022.html), researchers collected 56 blacklegged ticks from vegetation by drag sampling at 10 New Brunswick sites, and 24 of them (42.9%) carried *Borrelia burgdorferi*, the Lyme bacterium: 7 of 16 adults and 17 of 40 nymphs. The report cautions that infection rates should be read with care because the number of ticks tested varies between provinces and years." },
+    { "type": "p", "text": "Ticks that people send in for testing show lower shares. In the province's open tick data, the share of blacklegged ticks carrying the Lyme bacterium ranged from 10.8% in 2020 to 23.8% in 2024, as the table shows." },
+    { "type": "table", "head": ["Year", "Blacklegged ticks tested", "Carrying the Lyme bacterium", "Share"], "rows": [
+      ["2020", "93", "10", "10.8%"],
+      ["2021", "162", "22", "13.6%"],
+      ["2022", "177", "24", "13.6%"],
+      ["2023", "142", "30", "21.1%"],
+      ["2024", "147", "35", "23.8%"],
+      ["2025", "116", "21", "18.1%"]
+    ], "caption": "Ticks sent to Geneticks and Mount Allison University, tested for *Borrelia burgdorferi* sensu stricto, by year recorded; 2019, with 3 ticks, is left out. The dataset lists every 2019 to 2024 record twice, so each tick is counted once here. Source: [Tick Data 2019 - 2025](https://gnb.socrata.com/Health-and-Wellness/Tick-Data-2019-2025-Donn-es-relatives-aux-tiques-2/kwzw-w4dh), New Brunswick open data, updated September 8, 2026. Contains information licensed under the [Open Government Licence – New Brunswick](https://www.gnb.ca/en/campaign/geonb/open-government-license.html)." },
+    { "type": "p", "text": "The two sources measure different things. PHAC's ticks were collected from vegetation at study sites, while the open data cover ticks that people chose to send to a laboratory, 661 of the 947 of them found on animals. Neither tells you whether a particular tick was infected; under the province's rules, preventive treatment depends instead on the type of tick, how long it fed and where the bite happened." },
+
+    { "type": "h2", "text": "When is tick season in New Brunswick?" },
+    { "type": "p", "text": "From spring to late fall, with two peaks for adult ticks. The province's [tick facts page](https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/vectorborne_andzoonotic/tick-borne-diseases/facts.html) says ticks are mostly inactive through the winter and most active when temperatures rise above 4 °C, and that nymphs are usually active in spring and summer while adults are most active in spring and fall, though its blacklegged tick card says spring and summer. [PHAC](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html) adds that ticks can be active whenever the temperature is consistently above freezing and the ground is not covered by snow, and that climate change is lengthening the season when people may be exposed." },
+    { "type": "chart", "title": "Ticks in New Brunswick's open tick data by month recorded, 2019 to 2025", "x": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "series": [
+      { "name": "Blacklegged ticks, adults", "values": [2, 0, 11, 96, 126, 87, 33, 5, 8, 201, 216, 7] },
+      { "name": "Blacklegged ticks, nymphs", "values": [0, 0, 0, 0, 2, 12, 21, 6, 3, 4, 0, 0] },
+      { "name": "Other or unidentified ticks", "values": [2, 0, 1, 3, 18, 22, 20, 11, 10, 9, 8, 2] }
+    ], "yLabel": "Ticks recorded in each month, all seven years combined", "caption": "946 of the 947 ticks people sent to Geneticks and Mount Allison University, most of them found on animals; one blacklegged tick of undetermined life stage is left out. The dataset's 1,767 rows list every 2019 to 2024 record twice, so each tick is counted once. Counts reflect ticks people sent in, not how many ticks were active outdoors. Contains information licensed under the Open Government Licence – New Brunswick.", "source": "Geneticks and Mount Allison University, [Tick Data 2019 - 2025](https://gnb.socrata.com/Health-and-Wellness/Tick-Data-2019-2025-Donn-es-relatives-aux-tiques-2/kwzw-w4dh), New Brunswick open data, updated September 8, 2026, under the [Open Government Licence – New Brunswick](https://www.gnb.ca/en/campaign/geonb/open-government-license.html)" },
+    { "type": "p", "text": "The two peaks stand out: 438 of the 947 ticks (46%) were recorded in October and November and 367 (39%) from April to June, nine in ten of them adult blacklegged ticks, while the 48 nymphs turned up from May to October, the largest number in July. PHAC's [2022 tick surveillance report](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2022.html) found the same pattern across central and eastern Canada, with adult blacklegged tick submissions peaking in May and again in October, and says the peaks reflect when weather makes ticks most active." },
+    { "type": "callout", "tone": "note", "title": "This season (as of October 2026)", "text": "The province's tick bite tracker counted 189 blacklegged tick exposures in people and animals in April 2026, 448 in May, 442 in June, 230 in July, 83 in August and 61 in September. The May and June counts were more than double the tracker's average for the previous three years." },
+    { "type": "p", "text": "Lyme disease itself peaks in summer. Across Canada in 2024, symptoms began in June for 28% of cases with a known onset date, in July for 26% and in August for 13%, [PHAC's annual report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html) shows, a pattern it links to tick activity and time spent outdoors." },
+    { "type": "figure", "src": "/guides/photos/blacklegged-tick-nymph-fingernail.webp", "width": 1200, "height": 799, "alt": "A tiny blacklegged tick nymph crawling on a fingertip just below the fingernail, only a small fraction of the nail's width", "caption": "A blacklegged tick nymph beside a fingernail. The province compares a nymph to a poppy seed and says nymphs are usually active in spring and summer.", "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28382" },
+    { "type": "p", "text": "Winter is quieter but not tick-free. The open data include 25 ticks recorded from December to March, 20 of them adult blacklegged ticks, and the province says large numbers of winter tick larvae may be met in fall, particularly where moose live." },
+
+    { "type": "h2", "text": "How do you get a tick identified in New Brunswick?" },
+    { "type": "p", "text": "Photograph it and send the photo to eTick, the service the province points residents to. The province's tick facts page suggests identifying a tick by sending a photo to eTick, an image-based identification platform, and [eTick](https://www.etick.ca/en/content/faqs) says it identifies ticks free of charge and aims to reply within one to two business days with the species and any steps worth taking. New Brunswick's Department of Health is one of its partners." },
+    { "type": "p", "text": "Photos are how New Brunswick's ticks reach the national count: in PHAC's 2022 tick surveillance report, all 146 blacklegged tick records from the province came from eTick photos. eTick's FAQ says a tick it asks you to mail in is wanted mainly to confirm the identification and will not be tested for Lyme disease, and that the sender pays the postage." },
+    { "type": "p", "text": "Identification is not testing. As of October 2026, the province's tick pages describe no tick-testing service for the public. The province says testing a tick that has bitten someone does not help guide the diagnosis or treatment of Lyme disease, because a person may have been bitten by another infected tick that was not found, and [PHAC](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/removing-submitting-ticks-testing.html) adds that a health care provider can consider preventive treatment without the tick being tested. The test results in the province's open data come only from ticks sent to Geneticks and Mount Allison University." },
+
+    { "type": "h2", "text": "What should you do after a tick bite in New Brunswick?" },
+    { "type": "p", "text": "Remove the tick as soon as you find it, keep it or a clear photo, and if it may be a blacklegged tick, remember that preventive treatment depends on an assessment within 72 hours of removing it. [PHAC's tick removal steps](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/removing-submitting-ticks-testing.html) are:" },
+    { "type": "ol", "items": [
+      "Use clean, fine-point tweezers to grasp the tick's head as close to the skin as possible and pull slowly straight out, trying not to twist or squeeze it.",
+      "If the mouthparts break off and stay in the skin, remove them with the tweezers; if that is not easy, leave them and let the skin heal.",
+      "Wash the bite with soap and water or an alcohol-based sanitizer.",
+      "Do not burn the tick or smother it with nail polish, nail polish remover, essential oils or petroleum jelly, which can make it release its possibly infected stomach contents into the bite.",
+      "If you plan to see a health care provider, put the tick in a sealable plastic bag or a container such as a pill bottle, and note the date, the part of your body bitten and where you were."
+    ] },
+    { "type": "p", "text": "[Our step-by-step tick removal guide](/blog/how-to-remove-tick-safely) shows the technique in more detail." },
+    { "type": "p", "text": "Pharmacists can assess a tick bite and prescribe preventive treatment. Since May 15, 2023, the Department of Health has covered the assessment, the [province's program rules](https://www2.gnb.ca/content/gnb/en/departments/health/DrugPlans/content/drugplans/InformationForHealthCareProfessionals/pharmacy_services/lyme_disease.html) say, for residents with a valid Medicare card who have no symptoms, do not live in a nursing home or correctional facility, and come in within 72 hours of removing the tick, up to twice a year. A participating pharmacy may not charge an extra fee for a covered assessment; the drug itself is not covered." },
+    { "type": "p", "text": "A pharmacist may prescribe only if the bite was likely acquired in a moderate- or high-risk area on the province's map, the treatment can be given within 72 hours of removing the tick, the tick is reliably identified as a blacklegged tick nymph or adult female, it was attached for an estimated 36 hours or more, judged from how engorged it is or the time of exposure, and doxycycline is suitable for the patient. The prescription is a single dose of doxycycline." },
+    { "type": "figure", "src": "/guides/photos/tick-unfed-vs-engorged.webp", "width": 1200, "height": 790, "alt": "Two Ixodes ticks side by side on a pale blue background, labelled male and female: a small dark brown male and a much larger, swollen cream-coloured female with a reddish shield", "caption": "A male *Ixodes* tick (left) beside a female swollen with blood after feeding (right). New Brunswick's pharmacist rules estimate how long a tick was attached partly from how engorged it is.", "credit": "CDC/ Margaret A. Parsons; photo: Dr. George Anastos; Dept. of Zoology; Univ. of Maryland (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23451" },
+    { "type": "p", "text": "Prompt removal matters. [PHAC's guidance for health professionals](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/health-professionals-lyme-disease.html) says infected blacklegged ticks typically need to be attached for at least 24 hours to transmit the Lyme bacterium and that the risk rises the longer a tick stays on. You may not notice the bite at all, since ticks are tiny and their bites are usually painless, PHAC says." },
+    { "type": "table", "head": ["You need", "Where to go in New Brunswick", "What to know"], "rows": [
+      ["To know what kind of tick it was", "[eTick](https://www.etick.ca/en/content/faqs), by photo", "Free; aims to reply within 1 to 2 business days; no germ testing"],
+      ["Preventive treatment", "A participating pharmacist, or a physician or nurse practitioner", "The pharmacist program requires no symptoms and a visit within 72 hours of removing the tick"],
+      ["Health advice by phone", "Tele-Care 811", "Listed on the province's [Lyme disease page](https://www.gnb.ca/en/topic/health-wellness/info-health-professional/communicable-diseases/lyme-disease.html)"],
+      ["Help if symptoms appear", "A health care provider, right away", "The province's advice after a bite or time where blacklegged ticks may be found"]
+    ], "caption": "As of October 2026, from eTick, the province's [pharmacist program rules](https://www2.gnb.ca/content/gnb/en/departments/health/DrugPlans/content/drugplans/InformationForHealthCareProfessionals/pharmacy_services/lyme_disease.html), its Lyme disease page and its [Be Tick Smart page](https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/vectorborne_andzoonotic/tick-borne-diseases.html)." },
+    { "type": "h3", "text": "Which symptoms should you watch for?" },
+    { "type": "p", "text": "Early Lyme disease usually begins 3 to 30 days after the bite, according to PHAC's guidance for health professionals. Most people develop an expanding rash, erythema migrans, more than 5 cm across at the site of the bite, usually within 7 days. It is usually painless and not itchy, often lacks the classic bull's-eye look and on dark skin can look like a bruise. Fever, headache, muscle and joint aches, swollen lymph nodes and feeling generally unwell can come with it." },
+    { "type": "figure", "src": "/guides/photos/erythema-migrans-rash.webp", "width": 1200, "height": 1785, "alt": "Red bull's-eye rash on the back of a person's upper arm, with a darker red centre, a paler ring and a wider red outer ring, above a blue sleeve", "caption": "Erythema migrans, the expanding rash of early Lyme disease, here in a bull's-eye pattern. PHAC notes that in many cases the rash does not have this classic look.", "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875" },
+    { "type": "p", "text": "Not every red mark is Lyme disease. PHAC says a reaction to the bite itself can appear within 24 hours as a red patch under 5 cm that does not spread and usually fades within 48 hours, and that a patch still there after 48 hours should be checked again. Untreated, the infection can spread over the following weeks and months, causing more rashes, facial paralysis, meningitis or heart rhythm problems, and later arthritis, most often in the knees and other large joints. [Our guide to Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) describes each stage." },
+    { "type": "callout", "tone": "warning", "title": "See a health care provider if symptoms appear", "text": "New Brunswick advises consulting a health care provider right away if you develop symptoms of Lyme disease after a tick bite, or after time in an area where blacklegged ticks may be found. This page summarizes what public health agencies publish and is not a diagnosis." },
+
+    { "type": "h2", "text": "Which other tick-borne diseases occur in New Brunswick?" },
+    { "type": "p", "text": "The blacklegged tick can also transmit anaplasmosis, babesiosis and Powassan virus disease, the province's Be Tick Smart page says, and all three became nationally notifiable in January 2024. For 2024, [PHAC's annual report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html) counted 673 anaplasmosis cases across Canada, 93% of them from Nova Scotia and Ontario; 10 babesiosis cases, reported by five provinces including New Brunswick; and 3 cases of Powassan virus disease, all reported by Quebec and Ontario." },
+    { "type": "p", "text": "Tests of New Brunswick ticks find these germs far less often than the Lyme bacterium. In PHAC's 2022 field sample, 5 of the 56 blacklegged ticks carried the anaplasmosis bacterium, and none carried *Babesia microti*, *Borrelia miyamotoi* or Powassan virus. In the open data, 9 of 841 blacklegged ticks carried *Borrelia miyamotoi*, 3 of 161 tested carried the anaplasmosis bacterium and 1 of 154 carried *Babesia microti*, a babesiosis parasite; none of the 14 ticks tested for Powassan virus carried it." },
+    { "type": "p", "text": "Powassan virus has more than one carrier: PHAC lists the groundhog and squirrel ticks as well as the blacklegged tick, and the province rates the groundhog tick as common. PHAC asks health professionals investigating Lyme disease to consider co-infection with babesiosis, anaplasmosis or Powassan virus, since a tick may carry several germs and pass them on in a single bite." },
+
+    { "type": "h2", "text": "How do you prevent tick bites in New Brunswick?" },
+    { "type": "p", "text": "Cover up, use a repellent, stay on cleared trails and check for ticks every day you have been outdoors. [PHAC's advice on preventing tick bites](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/prevent-tick-bites.html) includes these steps:" },
+    { "type": "ul", "items": [
+      "**Dress for it.** Wear closed-toe shoes and light-coloured long sleeves and pants so ticks are easier to spot, and tuck your shirt into your pants and your pants into your socks.",
+      "**Use repellent and treated clothing.** Apply an insect repellent containing DEET or icaridin to clothing and exposed skin, and wear permethrin-treated clothing, always following the label directions.",
+      "**Stay on cleared paths.** Keep children and pets from wandering off the trail, and avoid trails made by animals such as deer and moose, where ticks are often found on the grass and plants alongside.",
+      "**Check before you go in.** Check yourself, your clothing, your gear and your pets, then do a full-body tick check on yourself and your children and shower as soon as possible.",
+      "**Use the dryer.** Put dry clothes in a dryer on high heat for at least 10 minutes, longer if they are damp, or wash them in hot water and dry them on high heat; ticks can survive a cold or warm wash."
+    ] },
+    { "type": "p", "text": "The province asks for a daily full-body tick check after time outdoors, and notes that ticks shelter from drying out in forest leaf litter and in shrubs at forest edges." },
+    { "type": "p", "text": "[Health Canada's guidance on personal insect repellents](https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html) sets limits by age: DEET up to 30% for adults and children over 12; up to 10% for children aged 2 to 12, up to three times a day; up to 10% for children from 6 months to 2 years, once a day at most; and no DEET for babies under 6 months. Icaridin repels mosquitoes and ticks but should not be used on infants under 6 months, and permethrin-treated clothing is not available for children under 16. Check that the label lists ticks, and look for the PCP registration number that marks a product registered by Health Canada." },
+    { "type": "p", "text": "Around the home, PHAC suggests mowing often, clearing leaf piles, brush and weeds from lawn edges, pruning to let in sunlight, and keeping a wood chip, mulch or gravel border at least 1 metre wide between the lawn and woods, shrubs or stone walls. Put play sets, decks and patios in sunny spots away from yard edges, and ask a veterinarian about tick prevention for pets, which can carry ticks into the yard or home." }
+  ],
+  "faqs": [
+    {
+      "question": "Is all of New Brunswick a Lyme disease risk area?",
+      "answer": "No, but a bite is possible anywhere. As of October 2026, the province's risk map rates Zone 2, Fundy Shore and Saint John, as higher risk; Zones 1 and 3, Moncton and the South-East and Fredericton and the River Valley, as moderate risk; and the four other health zones as lower risk. The province says the risk of a blacklegged tick bite is highest where tick populations are established, but that a bite can happen anywhere in New Brunswick. The map's data are updated each month."
+    },
+    {
+      "question": "Do dog ticks carry Lyme disease in New Brunswick?",
+      "answer": "Not according to the Public Health Agency of Canada, which lists tularemia and Rocky Mountain spotted fever, not Lyme disease, among the infections the American dog tick can spread. None of the 27 American dog ticks in the province's open tick data carried the Lyme bacterium. The province names the blacklegged tick as the tick that spreads Lyme disease. The two can look alike at a glance, so if you are unsure, eTick can identify a tick from a photo free of charge."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in New Brunswick?",
+      "answer": "As of October 2026, the province's tick pages describe no tick-testing service for the public. They point residents to eTick, which identifies ticks from photos free of charge but does not test them for Lyme disease. The province says testing a tick that has bitten someone does not help guide diagnosis or treatment, partly because a person may have been bitten by another infected tick that was not found. What matters for preventive treatment is the type of tick, how long it was attached and when it was removed."
+    },
+    {
+      "question": "Can a pharmacist prescribe antibiotics after a tick bite in New Brunswick?",
+      "answer": "Yes, a single preventive dose. Since May 15, 2023, the province has covered a pharmacist's assessment for residents with a valid Medicare card who have no symptoms, do not live in a nursing home or correctional facility, and come in within 72 hours of removing the tick, up to twice a year. The pharmacist may prescribe one dose of doxycycline only if the tick was a blacklegged tick nymph or adult female, attached for an estimated 36 hours or more, and likely picked up in a moderate- or high-risk area. The program does not cover the drug."
+    },
+    {
+      "question": "Are ticks active in winter in New Brunswick?",
+      "answer": "Less often, but they can be. The province says ticks are mostly inactive in winter and most active when temperatures rise above 4 °C, while the Public Health Agency of Canada says ticks can be active whenever the temperature stays above freezing and the ground is free of snow. The province's open tick data include 25 ticks recorded from December to March between 2019 and 2025, most of them adult blacklegged ticks, against 438 in October and November."
+    },
+    {
+      "question": "Why are Lyme disease cases rising in New Brunswick?",
+      "answer": "Partly because of the ticks and partly because of how cases are found. A Department of Health spokesperson told CHCO-TV in June 2026 that warmer temperatures and changing weather are helping blacklegged ticks spread and survive, and the Public Health Agency of Canada links rising cases nationally to tick habitat expanding with climate change. The department also said more reported cases do not necessarily mean more exposure, because awareness and testing have improved and more people seek testing and report cases."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Be Tick Smart (Tick-Borne Diseases), with the Lyme disease risk map and tick bite tracker",
+      "publisher": "Government of New Brunswick, Office of the Chief Medical Officer of Health",
+      "url": "https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/vectorborne_andzoonotic/tick-borne-diseases.html"
+    },
+    {
+      "title": "Facts about ticks",
+      "publisher": "Government of New Brunswick, Office of the Chief Medical Officer of Health",
+      "url": "https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/vectorborne_andzoonotic/tick-borne-diseases/facts.html"
+    },
+    {
+      "title": "Assessment and Prescribing for Lyme Disease Prophylaxis by Pharmacists",
+      "publisher": "Government of New Brunswick, Department of Health, New Brunswick Drug Plans",
+      "url": "https://www2.gnb.ca/content/gnb/en/departments/health/DrugPlans/content/drugplans/InformationForHealthCareProfessionals/pharmacy_services/lyme_disease.html"
+    },
+    {
+      "title": "Lyme disease",
+      "publisher": "Government of New Brunswick (fact sheet revised June 2026)",
+      "url": "https://www.gnb.ca/en/topic/health-wellness/info-health-professional/communicable-diseases/lyme-disease.html"
+    },
+    {
+      "title": "Tick Data 2019 - 2025 / Données relatives aux tiques 2019 - 2025 (open data, updated September 8, 2026)",
+      "publisher": "Open Data NB, Government of New Brunswick; data collected by Geneticks and Mount Allison University; Open Government Licence – New Brunswick",
+      "url": "https://gnb.socrata.com/Health-and-Wellness/Tick-Data-2019-2025-Donn-es-relatives-aux-tiques-2/kwzw-w4dh",
+      "kind": "government"
+    },
+    {
+      "title": "New Brunswick Open Government Licence",
+      "publisher": "Government of New Brunswick",
+      "url": "https://www.gnb.ca/en/campaign/geonb/open-government-license.html"
+    },
+    {
+      "title": "Ticks in Canada",
+      "publisher": "Public Health Agency of Canada (page dated August 7, 2026)",
+      "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html"
+    },
+    {
+      "title": "Annual report: Tick-borne disease surveillance in Canada (2024 data)",
+      "publisher": "Public Health Agency of Canada, Health Infobase (updated January 16, 2026)",
+      "url": "https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html"
+    },
+    {
+      "title": "Surveillance for Lyme disease in Canada, 2009 to 2019 (Gasmi S, et al.)",
+      "publisher": "Canada Communicable Disease Report 48(5), Public Health Agency of Canada, May 2022 (CC BY 4.0)",
+      "url": "https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/lyme-disease-canada-2009-2019.html"
+    },
+    {
+      "title": "Lyme disease surveillance in Canada: Annual edition 2020",
+      "publisher": "Public Health Agency of Canada",
+      "url": "https://www.canada.ca/en/public-health/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2020.html"
+    },
+    {
+      "title": "Lyme disease surveillance in Canada: Annual edition 2021",
+      "publisher": "Public Health Agency of Canada",
+      "url": "https://www.canada.ca/en/public-health/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2021.html"
+    },
+    {
+      "title": "Lyme disease surveillance in Canada: Annual edition 2022",
+      "publisher": "Public Health Agency of Canada",
+      "url": "https://www.canada.ca/en/public-health/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2022.html"
+    },
+    {
+      "title": "Surveillance for Ixodes scapularis and Ixodes pacificus ticks and their associated pathogens in Canada, 2022",
+      "publisher": "Canada Communicable Disease Report 52(1/2), Public Health Agency of Canada, February 2026 (CC BY 4.0)",
+      "url": "https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2022.html"
+    },
+    {
+      "title": "Lyme disease: How to remove a tick",
+      "publisher": "Public Health Agency of Canada (page dated July 3, 2026)",
+      "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/removing-submitting-ticks-testing.html"
+    },
+    {
+      "title": "Lyme disease: For health professionals",
+      "publisher": "Public Health Agency of Canada (page dated July 3, 2026)",
+      "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/health-professionals-lyme-disease.html"
+    },
+    {
+      "title": "How to prevent tick bites",
+      "publisher": "Public Health Agency of Canada (page dated September 9, 2025)",
+      "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/prevent-tick-bites.html"
+    },
+    {
+      "title": "Personal insect repellents",
+      "publisher": "Health Canada",
+      "url": "https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html"
+    },
+    {
+      "title": "eTick: Frequently asked questions",
+      "publisher": "eTick.ca (public tick identification platform; Bishop's University and partners)",
+      "url": "https://www.etick.ca/en/content/faqs"
+    },
+    {
+      "title": "Population estimates, quarterly (Table 17-10-0009-01), July 1, 2024 estimate for New Brunswick",
+      "publisher": "Statistics Canada (adapted by BuzzSkito; this does not constitute an endorsement by Statistics Canada)",
+      "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901"
+    },
+    {
+      "title": "An engorged problem: tick population expands in N.B. (Lukas Kohler, June 16, 2026)",
+      "publisher": "CHCO-TV (news report citing the New Brunswick Department of Health)",
+      "url": "https://chco.tv/an-engorged-problem-tick-population-expands-in-n-b/",
+      "kind": "news"
+    }
+  ],
+  "disclaimer": "both"
+}

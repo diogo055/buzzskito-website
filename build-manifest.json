@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-11",
+ "generated": "2026-10-16",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 86,
+  "newPagesBuilt": 123,
   "hubPages": 4,
-  "guides": 74,
+  "guides": 109,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 0,
-  "internalLinksInNewPages": 1035
+  "notBuilt": 251,
+  "internalLinksInNewPages": 1563
  },
  "pages": [
   {
@@ -120,8 +120,600 @@
    "wordCount": 3443,
    "faqs": 6,
    "sources": 7,
+   "inboundFromNewPages": 16,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in canada by province",
+   "us_volume": null,
+   "url": "/learn/ticks-by-province",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Canada by Province: Map, Species, Tests",
+   "wordCount": 2677,
+   "faqs": 5,
+   "sources": 15,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 20,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in nova scotia",
+   "us_volume": null,
+   "url": "/blog/ticks-in-nova-scotia",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Nova Scotia: Types, Lyme Cases, Season",
+   "wordCount": 3559,
+   "faqs": 6,
+   "sources": 19,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 7,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in manitoba",
+   "us_volume": null,
+   "url": "/blog/ticks-in-manitoba",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Manitoba: Lyme Risk, Season and Species",
+   "wordCount": 3792,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 8,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in alberta",
+   "us_volume": null,
+   "url": "/blog/ticks-in-alberta",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Alberta: Species, Lyme Risk and Season",
+   "wordCount": 3535,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in new brunswick",
+   "us_volume": null,
+   "url": "/blog/ticks-in-new-brunswick",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in New Brunswick: Lyme Risk Zones, Season",
+   "wordCount": 3493,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 8,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in quebec",
+   "us_volume": null,
+   "url": "/blog/ticks-in-quebec",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Quebec: Lyme Risk Areas, Cases, Season",
+   "wordCount": 3745,
+   "faqs": 6,
+   "sources": 18,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in british columbia",
+   "us_volume": null,
+   "url": "/blog/ticks-in-british-columbia",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in British Columbia: Lyme Risk and Season",
+   "wordCount": 3663,
+   "faqs": 6,
+   "sources": 19,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks by state",
+   "us_volume": null,
+   "url": "/learn/ticks-by-state",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks by State: Tick Map and Lyme Disease Rates",
+   "wordCount": 2825,
+   "faqs": 6,
+   "sources": 10,
+   "inboundFromNewPages": 30,
+   "outboundInternalLinks": 60,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in pennsylvania",
+   "us_volume": null,
+   "url": "/blog/ticks-in-pennsylvania",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Pennsylvania: Types, Lyme Map, Season",
+   "wordCount": 3369,
+   "faqs": 6,
+   "sources": 12,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in new york",
+   "us_volume": null,
+   "url": "/blog/ticks-in-new-york",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in New York: Types, Lyme Map and Season",
+   "wordCount": 3462,
+   "faqs": 6,
+   "sources": 19,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in new jersey",
+   "us_volume": null,
+   "url": "/blog/ticks-in-new-jersey",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in New Jersey: Types, Lyme Map, Season",
+   "wordCount": 3572,
+   "faqs": 6,
+   "sources": 15,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in connecticut",
+   "us_volume": null,
+   "url": "/blog/ticks-in-connecticut",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Connecticut: Types, Lyme Map, Season",
+   "wordCount": 3445,
+   "faqs": 6,
+   "sources": 17,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 8,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in massachusetts",
+   "us_volume": null,
+   "url": "/blog/ticks-in-massachusetts",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Massachusetts: Types, Lyme Map, Season",
+   "wordCount": 3313,
+   "faqs": 6,
+   "sources": 16,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 17,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in wisconsin",
+   "us_volume": null,
+   "url": "/blog/ticks-in-wisconsin",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Wisconsin: Types, Lyme Map, Season",
+   "wordCount": 3558,
+   "faqs": 6,
+   "sources": 17,
    "inboundFromNewPages": 3,
    "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in minnesota",
+   "us_volume": null,
+   "url": "/blog/ticks-in-minnesota",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Minnesota: Types, Lyme Map, Season",
+   "wordCount": 3435,
+   "faqs": 6,
+   "sources": 17,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in virginia",
+   "us_volume": null,
+   "url": "/blog/ticks-in-virginia",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Virginia: Types, Lyme Map, Tick Season",
+   "wordCount": 3453,
+   "faqs": 6,
+   "sources": 16,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in maryland",
+   "us_volume": null,
+   "url": "/blog/ticks-in-maryland",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Maryland: Species, Lyme Map and Season",
+   "wordCount": 3257,
+   "faqs": 6,
+   "sources": 15,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in north carolina",
+   "us_volume": null,
+   "url": "/blog/ticks-in-north-carolina",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in North Carolina: Types, Maps and Season",
+   "wordCount": 3436,
+   "faqs": 6,
+   "sources": 16,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in tennessee",
+   "us_volume": null,
+   "url": "/blog/ticks-in-tennessee",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Tennessee: Types, County Maps, Season",
+   "wordCount": 3416,
+   "faqs": 6,
+   "sources": 15,
+   "inboundFromNewPages": 10,
+   "outboundInternalLinks": 17,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in georgia",
+   "us_volume": null,
+   "url": "/blog/ticks-in-georgia",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Georgia: Types, Season and Lyme Data",
+   "wordCount": 3489,
+   "faqs": 6,
+   "sources": 15,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 13,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in texas",
+   "us_volume": null,
+   "url": "/blog/ticks-in-texas",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Texas: Types, Maps, Lyme and Season",
+   "wordCount": 3368,
+   "faqs": 6,
+   "sources": 15,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 18,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in ohio",
+   "us_volume": null,
+   "url": "/blog/ticks-in-ohio",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Ohio: Types, Lyme Map and Tick Season",
+   "wordCount": 3570,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 13,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in indiana",
+   "us_volume": null,
+   "url": "/blog/ticks-in-indiana",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Indiana: Species, Lyme Map and Season",
+   "wordCount": 3591,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in illinois",
+   "us_volume": null,
+   "url": "/blog/ticks-in-illinois",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Illinois: Types, Lyme Map, Season",
+   "wordCount": 3461,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in missouri",
+   "us_volume": null,
+   "url": "/blog/ticks-in-missouri",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Missouri: Types, County Maps, Season",
+   "wordCount": 3431,
+   "faqs": 6,
+   "sources": 19,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 19,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in kentucky",
+   "us_volume": null,
+   "url": "/blog/ticks-in-kentucky",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Kentucky: Types, County Maps, Season",
+   "wordCount": 3482,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 13,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in maine",
+   "us_volume": null,
+   "url": "/blog/ticks-in-maine",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Maine: Types, Lyme Map, Tick Season",
+   "wordCount": 3463,
+   "faqs": 6,
+   "sources": 15,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in new hampshire",
+   "us_volume": null,
+   "url": "/blog/ticks-in-new-hampshire",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in New Hampshire: Types, Lyme Map, Season",
+   "wordCount": 3534,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 18,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in vermont",
+   "us_volume": null,
+   "url": "/blog/ticks-in-vermont",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Vermont: Types, Lyme Map, Season",
+   "wordCount": 3465,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 17,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in rhode island",
+   "us_volume": null,
+   "url": "/blog/ticks-in-rhode-island",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Rhode Island: Types, Lyme Map, Season",
+   "wordCount": 3489,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 19,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in delaware",
+   "us_volume": null,
+   "url": "/blog/ticks-in-delaware",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Delaware: Types, Lyme Data and Season",
+   "wordCount": 3662,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in west virginia",
+   "us_volume": null,
+   "url": "/blog/ticks-in-west-virginia",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in West Virginia: Types, Lyme Map, Season",
+   "wordCount": 3500,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in arkansas",
+   "us_volume": null,
+   "url": "/blog/ticks-in-arkansas",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Arkansas: Types, County Maps, Season",
+   "wordCount": 3372,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 18,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in oklahoma",
+   "us_volume": null,
+   "url": "/blog/ticks-in-oklahoma",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Oklahoma: Types, County Maps, Season",
+   "wordCount": 3341,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 20,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in alabama",
+   "us_volume": null,
+   "url": "/blog/ticks-in-alabama",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Alabama: Types, County Maps and Season",
+   "wordCount": 3448,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 16,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in mississippi",
+   "us_volume": null,
+   "url": "/blog/ticks-in-mississippi",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in Mississippi: Types, Season, Lyme Data",
+   "wordCount": 3431,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 20,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in south carolina",
+   "us_volume": null,
+   "url": "/blog/ticks-in-south-carolina",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Ticks in South Carolina: Types, Season and Maps",
+   "wordCount": 3445,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -219,6 +811,1763 @@
    "inboundFromNewPages": 4,
    "outboundInternalLinks": 6,
    "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in newfoundland and labrador",
+   "url": "/blog/ticks-in-newfoundland-and-labrador",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in prince edward island",
+   "url": "/blog/ticks-in-prince-edward-island",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in saskatchewan",
+   "url": "/blog/ticks-in-saskatchewan",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in florida",
+   "url": "/blog/ticks-in-florida",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in louisiana",
+   "url": "/blog/ticks-in-louisiana",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in iowa",
+   "url": "/blog/ticks-in-iowa",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in kansas",
+   "url": "/blog/ticks-in-kansas",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in nebraska",
+   "url": "/blog/ticks-in-nebraska",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in california",
+   "url": "/blog/ticks-in-california",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in oregon",
+   "url": "/blog/ticks-in-oregon",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in washington",
+   "url": "/blog/ticks-in-washington",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in colorado",
+   "url": "/blog/ticks-in-colorado",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in idaho",
+   "url": "/blog/ticks-in-idaho",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in montana",
+   "url": "/blog/ticks-in-montana",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in utah",
+   "url": "/blog/ticks-in-utah",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in arizona",
+   "url": "/blog/ticks-in-arizona",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in new mexico",
+   "url": "/blog/ticks-in-new-mexico",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in nevada",
+   "url": "/blog/ticks-in-nevada",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in wyoming",
+   "url": "/blog/ticks-in-wyoming",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in north dakota",
+   "url": "/blog/ticks-in-north-dakota",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in south dakota",
+   "url": "/blog/ticks-in-south-dakota",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in alaska",
+   "url": "/blog/ticks-in-alaska",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks in hawaii",
+   "url": "/blog/ticks-in-hawaii",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in canada by province",
+   "url": "/learn/mosquitoes-by-province",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in manitoba",
+   "url": "/blog/mosquitoes-in-manitoba",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in alberta",
+   "url": "/blog/mosquitoes-in-alberta",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in british columbia",
+   "url": "/blog/mosquitoes-in-british-columbia",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in saskatchewan",
+   "url": "/blog/mosquitoes-in-saskatchewan",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in quebec",
+   "url": "/blog/mosquitoes-in-quebec",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in nova scotia",
+   "url": "/blog/mosquitoes-in-nova-scotia",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in new brunswick",
+   "url": "/blog/mosquitoes-in-new-brunswick",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in newfoundland and labrador",
+   "url": "/blog/mosquitoes-in-newfoundland-and-labrador",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in prince edward island",
+   "url": "/blog/mosquitoes-in-prince-edward-island",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes by state",
+   "url": "/learn/mosquitoes-by-state",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in florida",
+   "url": "/blog/mosquitoes-in-florida",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in texas",
+   "url": "/blog/mosquitoes-in-texas",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in louisiana",
+   "url": "/blog/mosquitoes-in-louisiana",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in georgia",
+   "url": "/blog/mosquitoes-in-georgia",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in california",
+   "url": "/blog/mosquitoes-in-california",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in arizona",
+   "url": "/blog/mosquitoes-in-arizona",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in north carolina",
+   "url": "/blog/mosquitoes-in-north-carolina",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in south carolina",
+   "url": "/blog/mosquitoes-in-south-carolina",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in alabama",
+   "url": "/blog/mosquitoes-in-alabama",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in mississippi",
+   "url": "/blog/mosquitoes-in-mississippi",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in tennessee",
+   "url": "/blog/mosquitoes-in-tennessee",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in virginia",
+   "url": "/blog/mosquitoes-in-virginia",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in new york",
+   "url": "/blog/mosquitoes-in-new-york",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in new jersey",
+   "url": "/blog/mosquitoes-in-new-jersey",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in pennsylvania",
+   "url": "/blog/mosquitoes-in-pennsylvania",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in ohio",
+   "url": "/blog/mosquitoes-in-ohio",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in minnesota",
+   "url": "/blog/mosquitoes-in-minnesota",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in wisconsin",
+   "url": "/blog/mosquitoes-in-wisconsin",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in illinois",
+   "url": "/blog/mosquitoes-in-illinois",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in michigan",
+   "url": "/blog/mosquitoes-in-michigan",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in indiana",
+   "url": "/blog/mosquitoes-in-indiana",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in missouri",
+   "url": "/blog/mosquitoes-in-missouri",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in arkansas",
+   "url": "/blog/mosquitoes-in-arkansas",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in oklahoma",
+   "url": "/blog/mosquitoes-in-oklahoma",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in kentucky",
+   "url": "/blog/mosquitoes-in-kentucky",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in maryland",
+   "url": "/blog/mosquitoes-in-maryland",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in massachusetts",
+   "url": "/blog/mosquitoes-in-massachusetts",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in connecticut",
+   "url": "/blog/mosquitoes-in-connecticut",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in north dakota",
+   "url": "/blog/mosquitoes-in-north-dakota",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in colorado",
+   "url": "/blog/mosquitoes-in-colorado",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in washington",
+   "url": "/blog/mosquitoes-in-washington",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in oregon",
+   "url": "/blog/mosquitoes-in-oregon",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in maine",
+   "url": "/blog/mosquitoes-in-maine",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in new hampshire",
+   "url": "/blog/mosquitoes-in-new-hampshire",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in vermont",
+   "url": "/blog/mosquitoes-in-vermont",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in delaware",
+   "url": "/blog/mosquitoes-in-delaware",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in rhode island",
+   "url": "/blog/mosquitoes-in-rhode-island",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in west virginia",
+   "url": "/blog/mosquitoes-in-west-virginia",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in iowa",
+   "url": "/blog/mosquitoes-in-iowa",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in kansas",
+   "url": "/blog/mosquitoes-in-kansas",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in nebraska",
+   "url": "/blog/mosquitoes-in-nebraska",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in south dakota",
+   "url": "/blog/mosquitoes-in-south-dakota",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in utah",
+   "url": "/blog/mosquitoes-in-utah",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in nevada",
+   "url": "/blog/mosquitoes-in-nevada",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in new mexico",
+   "url": "/blog/mosquitoes-in-new-mexico",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in idaho",
+   "url": "/blog/mosquitoes-in-idaho",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in montana",
+   "url": "/blog/mosquitoes-in-montana",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in wyoming",
+   "url": "/blog/mosquitoes-in-wyoming",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquitoes in hawaii",
+   "url": "/blog/mosquitoes-in-hawaii",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "deer tick vs dog tick",
+   "url": "/blog/deer-tick-vs-dog-tick",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "deer tick",
+   "url": "/blog/deer-tick",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "american dog tick",
+   "url": "/blog/american-dog-tick",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "lone star tick",
+   "url": "/blog/lone-star-tick",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "biting flies",
+   "url": "/learn/biting-flies",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "no see ums",
+   "url": "/blog/no-see-ums",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "spider identification",
+   "url": "/learn/spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "spider bites ontario",
+   "url": "/blog/spider-bites",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bug bite identification",
+   "url": "/learn/bug-bites",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "skeeter syndrome",
+   "url": "/blog/skeeter-syndrome",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "biting insects in ontario",
+   "url": "/blog/biting-insects",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "horse fly vs deer fly",
+   "url": "/blog/deer-fly-vs-horse-fly",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "deer ked",
+   "url": "/blog/deer-keds",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "common household bugs",
+   "url": "/learn/household-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "spider beetle",
+   "url": "/blog/spider-beetles",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "permethrin spray for clothes",
+   "url": "/blog/permethrin-for-clothing",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "when is tick season",
+   "url": "/blog/tick-season",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "tick borne diseases",
+   "url": "/learn/tick-borne-diseases",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "types of mosquitoes",
+   "url": "/learn/types-of-mosquitoes",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "what percentage of ticks carry lyme disease",
+   "url": "/blog/what-percentage-of-ticks-carry-lyme-disease",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "asian tiger mosquito",
+   "url": "/blog/asian-tiger-mosquito",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "what to do after a tick bite",
+   "url": "/blog/tick-bite-what-to-do",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "gallinipper",
+   "url": "/blog/gallinipper",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mosquito borne diseases",
+   "url": "/learn/mosquito-borne-diseases",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "brown dog tick",
+   "url": "/blog/brown-dog-tick",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "culex mosquito",
+   "url": "/blog/culex-mosquitoes",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "tick diseases in dogs",
+   "url": "/blog/tick-borne-diseases-in-dogs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "dengue in the us",
+   "url": "/blog/dengue",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "aedes aegypti",
+   "url": "/blog/yellow-fever-mosquito",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "anaplasmosis",
+   "url": "/blog/anaplasmosis",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "powassan virus",
+   "url": "/blog/powassan-virus",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "rocky mountain spotted fever",
+   "url": "/blog/rocky-mountain-spotted-fever",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "rocky mountain wood tick",
+   "url": "/blog/rocky-mountain-wood-tick",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "western blacklegged tick",
+   "url": "/blog/western-blacklegged-tick",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "asian longhorned tick",
+   "url": "/blog/asian-longhorned-tick",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "eastern equine encephalitis",
+   "url": "/blog/eastern-equine-encephalitis",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "gulf coast tick",
+   "url": "/blog/gulf-coast-tick",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "engorged tick",
+   "url": "/blog/engorged-ticks",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "black flies",
+   "url": "/blog/black-flies",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "chiggers in canada",
+   "url": "/learn/chiggers-by-province",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "are there chiggers in <state>",
+   "url": "/learn/chiggers-by-state",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mite bites",
+   "url": "/learn/mites",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "fleas",
+   "url": "/learn/fleas",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "what do fleas look like",
+   "url": "/blog/what-do-fleas-look-like",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of fleas",
+   "url": "/blog/how-to-get-rid-of-fleas",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "venomous spiders in the us",
+   "url": "/blog/venomous-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "scabies vs bed bugs",
+   "url": "/blog/scabies-vs-bed-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "black widow bite",
+   "url": "/blog/black-widow-bite",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "gnat bites",
+   "url": "/blog/gnat-bites",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "brown recluse bite",
+   "url": "/blog/brown-recluse-bite",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "black widow spider",
+   "url": "/blog/black-widow-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bat bugs",
+   "url": "/blog/bat-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "daddy long legs",
+   "url": "/blog/daddy-long-legs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "joro spider",
+   "url": "/blog/joro-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "wolf spider",
+   "url": "/blog/wolf-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "brown recluse",
+   "url": "/blog/brown-recluse",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bird mites",
+   "url": "/blog/bird-mites",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "spiders that look like brown recluse",
+   "url": "/blog/brown-recluse-look-alikes",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "carpet beetle rash",
+   "url": "/blog/carpet-beetle-rash",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "wasp vs hornet vs yellow jacket",
+   "url": "/learn/wasps-and-bees",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of ground wasps",
+   "url": "/blog/how-to-get-rid-of-ground-wasps",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "house centipede",
+   "url": "/blog/house-centipedes",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of silverfish",
+   "url": "/blog/how-to-get-rid-of-silverfish",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "yellow jacket",
+   "url": "/blog/yellow-jackets",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of wasps",
+   "url": "/blog/how-to-get-rid-of-wasps",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of carpet beetles",
+   "url": "/blog/how-to-get-rid-of-carpet-beetles",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of carpenter bees",
+   "url": "/blog/how-to-get-rid-of-carpenter-bees",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of stink bugs",
+   "url": "/blog/how-to-get-rid-of-stink-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "wasp sting vs bee sting",
+   "url": "/blog/bee-sting-vs-wasp-sting",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "types of gnats",
+   "url": "/blog/types-of-gnats",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bald faced hornet",
+   "url": "/blog/bald-faced-hornets",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "scorpions in the us",
+   "url": "/learn/scorpions",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "kissing bugs",
+   "url": "/learn/kissing-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "what does a wasp nest look like",
+   "url": "/blog/wasp-nest-identification",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "millipedes in house",
+   "url": "/blog/millipedes",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "cicada killer",
+   "url": "/blog/cicada-killers",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "asian lady beetle",
+   "url": "/blog/asian-lady-beetles",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "carpenter bee vs bumble bee",
+   "url": "/blog/carpenter-bee-vs-bumble-bee",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "fire ant bite",
+   "url": "/blog/fire-ant-stings",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "camel cricket",
+   "url": "/blog/camel-crickets",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "kissing bug bite",
+   "url": "/blog/kissing-bug-bites",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "kissing bug look alikes",
+   "url": "/blog/kissing-bug-look-alikes",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "scorpion sting",
+   "url": "/blog/scorpion-stings",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "stinging caterpillars",
+   "url": "/blog/stinging-caterpillars",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "natural mosquito repellent",
+   "url": "/blog/natural-mosquito-repellent",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "heartland virus",
+   "url": "/blog/heartland-and-bourbon-viruses",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "anopheles mosquito",
+   "url": "/blog/anopheles-mosquitoes",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "floodwater mosquito",
+   "url": "/blog/floodwater-mosquitoes",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "chikungunya",
+   "url": "/blog/chikungunya",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ehrlichiosis",
+   "url": "/blog/ehrlichiosis",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "tularemia",
+   "url": "/blog/tularemia",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "la crosse virus",
+   "url": "/blog/la-crosse-encephalitis",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "tick paralysis",
+   "url": "/blog/tick-paralysis",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "jamestown canyon virus",
+   "url": "/blog/jamestown-canyon-virus",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "st louis encephalitis",
+   "url": "/blog/st-louis-encephalitis",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "groundhog tick",
+   "url": "/blog/groundhog-tick",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "babesiosis",
+   "url": "/blog/babesiosis",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of spiders",
+   "url": "/blog/how-to-get-rid-of-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of chiggers",
+   "url": "/blog/how-to-get-rid-of-chiggers",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "house spider",
+   "url": "/blog/house-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "spiders in california",
+   "url": "/blog/spiders-in-california",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bug bites on babies",
+   "url": "/blog/bug-bites-on-babies",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "dust mites",
+   "url": "/blog/dust-mites",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "orb weaver spider",
+   "url": "/blog/orb-weaver-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "chiggers in texas",
+   "url": "/blog/chiggers-in-texas",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "spiders in florida",
+   "url": "/blog/spiders-in-florida",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "grass spider",
+   "url": "/blog/grass-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "jumping spider",
+   "url": "/blog/jumping-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "spiders in arizona",
+   "url": "/blog/spiders-in-arizona",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "hobo spider",
+   "url": "/blog/hobo-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "yellow sac spider",
+   "url": "/blog/yellow-sac-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "fishing spider",
+   "url": "/blog/fishing-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "camel spider",
+   "url": "/blog/camel-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "spiders in texas",
+   "url": "/blog/spiders-in-texas",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "chiggers in missouri",
+   "url": "/blog/chiggers-in-missouri",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "murine typhus",
+   "url": "/blog/murine-typhus",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "false widow spider",
+   "url": "/blog/false-widow-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "brown widow spider",
+   "url": "/blog/brown-widow-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "tarantula migration",
+   "url": "/blog/tarantulas",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "woodlouse spider",
+   "url": "/blog/woodlouse-spiders",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "rat mites",
+   "url": "/blog/rat-mites",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "oak mites",
+   "url": "/blog/itch-mites",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of drain flies",
+   "url": "/blog/how-to-get-rid-of-drain-flies",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "june bug",
+   "url": "/blog/june-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of cluster flies",
+   "url": "/blog/how-to-get-rid-of-cluster-flies",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of boxelder bugs",
+   "url": "/blog/how-to-get-rid-of-boxelder-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of earwigs",
+   "url": "/blog/how-to-get-rid-of-earwigs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "pantry pests",
+   "url": "/blog/pantry-pests",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "stable fly",
+   "url": "/blog/stable-flies",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "paper wasp",
+   "url": "/blog/paper-wasps",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ground bees",
+   "url": "/blog/ground-bees",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "greenhead fly",
+   "url": "/blog/greenhead-flies",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "sand fleas",
+   "url": "/blog/sand-fleas",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "tick eggs",
+   "url": "/blog/tick-eggs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mayflies",
+   "url": "/blog/mayflies",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "european hornet",
+   "url": "/blog/european-hornets",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "wheel bug",
+   "url": "/blog/wheel-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "american cockroach",
+   "url": "/blog/american-cockroaches",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "spotted lanternfly",
+   "url": "/blog/spotted-lanternfly",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bot fly",
+   "url": "/blog/bot-flies",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "leaf footed bug",
+   "url": "/blog/leaf-footed-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "clothes moths",
+   "url": "/blog/clothes-moths",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "japanese beetle",
+   "url": "/blog/japanese-beetles",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "ticks on cats",
+   "url": "/blog/ticks-on-cats",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "soft tick",
+   "url": "/blog/soft-ticks",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "booklice",
+   "url": "/blog/booklice",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "pseudoscorpion",
+   "url": "/blog/pseudoscorpions",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mud dauber",
+   "url": "/blog/mud-daubers",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "sweat bees",
+   "url": "/blog/sweat-bees",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bug bites on dogs",
+   "url": "/blog/bug-bites-on-dogs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "spider mites",
+   "url": "/blog/spider-mites",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "love bugs",
+   "url": "/blog/lovebugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "winter tick",
+   "url": "/blog/winter-tick",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "tarantula hawk",
+   "url": "/blog/tarantula-hawks",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "western conifer seed bug",
+   "url": "/blog/western-conifer-seed-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "pill bugs",
+   "url": "/blog/pill-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "scorpions in arizona",
+   "url": "/blog/scorpions-in-arizona",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "scorpions in texas",
+   "url": "/blog/scorpions-in-texas",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "northern giant hornet",
+   "url": "/blog/northern-giant-hornet",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "yellow legged hornet",
+   "url": "/blog/yellow-legged-hornet",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "velvet ant",
+   "url": "/blog/velvet-ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "blister beetle",
+   "url": "/blog/blister-beetles",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "crazy ants",
+   "url": "/blog/crazy-ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "european fire ant",
+   "url": "/blog/european-fire-ants",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "crickets in house",
+   "url": "/blog/crickets-in-house",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "chagas disease",
+   "url": "/blog/chagas-disease",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bark scorpion",
+   "url": "/blog/bark-scorpions",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mole crickets",
+   "url": "/blog/mole-crickets",
+   "action": "new",
+   "status": "not built"
   },
   {
    "rank": 1,
@@ -346,7 +2695,7 @@
    "wordCount": 2745,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -764,7 +3113,7 @@
    "wordCount": 2213,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 39,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1148,7 +3497,7 @@
    "wordCount": 3069,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1304,7 +3653,7 @@
    "wordCount": 3495,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 35,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -1402,7 +3751,7 @@
    "wordCount": 2745,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1634,7 +3983,7 @@
    "wordCount": 3150,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 11,
    "status": "built"
   },

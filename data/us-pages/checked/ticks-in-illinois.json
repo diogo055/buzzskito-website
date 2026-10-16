@@ -2,9 +2,14 @@
  "id": "ticks-in-illinois",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a44397221c744b67db1bdeb1e980e13e205aea0d707548b6facad4c544b7a228",
+ "sha": "1c1c538658639e64c0f8964ec2d36f47eab30cb1b28441a9546ba6d1e449f8f9",
  "claimsChecked": 850,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 1,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

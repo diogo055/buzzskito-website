@@ -1,0 +1,1191 @@
+{
+  "slug": "ticks-in-north-carolina",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in north carolina",
+  "alsoTargets": [
+    "types of ticks in north carolina",
+    "tick season north carolina",
+    "lyme disease north carolina"
+  ],
+  "metaTitle": "Ticks in North Carolina: Types, Maps and Season",
+  "metaDescription": "Lone star ticks bite North Carolinians most, and spotted fever rivals Lyme disease. County tick maps, case data by year, tick season and ID help.",
+  "h1": "Ticks in North Carolina: Species, County Maps, Disease Data and Tick Season",
+  "dek": "Which ticks live in North Carolina, where they and the illnesses they carry are most common county by county, when each is active, and how to get a tick identified by the state.",
+  "breadcrumb": "Ticks in North Carolina",
+  "excerpt": "Lone star ticks bite North Carolinians most, and spotted fever is as common as Lyme. Species photos, county maps, case data, tick season and state ID help.",
+  "datePublished": "2026-10-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**The lone star tick bites people more often than any other tick in North Carolina, and spotted fever, Lyme disease and ehrlichiosis each made up about a third of the state's tick-borne illness cases in 2025.** The state counted 369 spotted fever rickettsiosis cases, 366 Lyme cases and 318 ehrlichiosis cases that year, according to its [2025 tickborne disease report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open).",
+    "bullets": [
+      "NC State University's tick guide calls the lone star tick the most common tick that attacks people in the state, and it made up 72% of the ticks collected in the state's field sampling through 2025.",
+      "CDC's county tables, which run through 2025, list blacklegged (deer) ticks as established in 63 of North Carolina's 100 counties and lone star ticks in 48.",
+      "By our ranking of CDC's 2023 state figures, North Carolina had the highest reported spotted fever rickettsiosis rate of any state, about 21 cases per million residents.",
+      "Lyme disease clusters in the northwestern mountains: in 2023, Mitchell and Yancey counties had about 87 and 79 cases per 100,000 residents, against 2.2 statewide.",
+      "In 2025, reported cases of Lyme disease, spotted fever and ehrlichiosis all peaked in July.",
+      "As of October 2026, the state's NC Tick Identification Program identifies ticks that people mail in but does not test them for germs."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in North Carolina at a glance",
+    "rows": [
+      [
+        "Tick that bites people most",
+        "Lone star tick (NC State University, 2023)"
+      ],
+      [
+        "Tick species identified by the state since 2018",
+        "13, from about 4,500 ticks (state report, data through 2025)"
+      ],
+      [
+        "Counties with established blacklegged ticks",
+        "63 of 100 (CDC, through December 2025)"
+      ],
+      [
+        "Counties with established lone star ticks",
+        "48 of 100 (CDC, through 2025)"
+      ],
+      [
+        "Lyme disease cases",
+        "228 in 2023, 2.2 per 100,000 (CDC); 366 in 2025 (state count)"
+      ],
+      [
+        "Spotted fever rickettsiosis",
+        "369 cases in 2025 (state count); highest state rate in 2023, about 21 per million (our ranking of CDC figures)"
+      ],
+      [
+        "Ehrlichiosis",
+        "318 cases in 2025, up from 278 in 2024 (state counts)"
+      ],
+      [
+        "Highest county Lyme rate, 2023",
+        "Mitchell County, 86.6 per 100,000 (13 cases; BuzzSkito's calculation from CDC and Census data)"
+      ],
+      [
+        "Peak month for tick-borne illness",
+        "July, for Lyme, spotted fever and ehrlichiosis in 2025"
+      ],
+      [
+        "Asian longhorned tick",
+        "Confirmed in June 2018 on an opossum in Polk County; submitted to the state from 26 counties by 2025"
+      ],
+      [
+        "Lyme preventive antibiotics advised",
+        "In 10 western and northwestern counties (state memo, May 2025)"
+      ],
+      [
+        "Tick identification",
+        "NC Tick Identification Program: species only, no germ testing (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in North Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Thirteen species have turned up in the state's tick identification program since it began in 2018, but the [state's 2025 tickborne disease report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open) names four as medically important: the lone star tick, the American dog tick, the blacklegged (deer) tick and the Gulf Coast tick. The invasive Asian longhorned tick, first found in the state in 2018, has made up more than a quarter of the ticks people have submitted since then."
+    },
+    {
+      "type": "p",
+      "text": "The lone star tick is the one people meet most. [NC State University's tick identification guide](https://pdic.ces.ncsu.edu/documents/930310/NC_Tick_Guide_v1.0_April_14_2023.pdf) calls it the most common tick that attacks humans in North Carolina and says all of its life stages feed on people. It also dominates the state's field sampling, in which teams drag a cloth across the forest floor: through 2025, lone star ticks made up 72% of the ticks collected, ahead of American dog ticks (10%), Asian longhorned ticks (7.3%) and blacklegged ticks (6.7%), the state report says."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where in North Carolina",
+        "When it is active",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Widespread; established in 48 counties, with most submissions from the Piedmont and coast",
+          "All life stages, late spring through summer",
+          "Ehrlichiosis; bites are linked to alpha-gal syndrome and STARI"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Widespread; most concentrated in the central Piedmont and coastal regions",
+          "All life stages, late spring through summer; adults bite people most",
+          "Spotted fever rickettsiosis, mainly Rocky Mountain spotted fever"
+        ],
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Frequent in western North Carolina, also found elsewhere; established in 63 counties",
+          "Adults in fall and spring; nymphs all summer; larvae mid to late summer",
+          "Lyme disease, anaplasmosis, babesiosis"
+        ],
+        [
+          "Gulf Coast tick, *Amblyomma maculatum*",
+          "Most common in coastal counties, spreading inland",
+          "Adults June to October",
+          "*Rickettsia parkeri* rickettsiosis, a usually milder spotted fever"
+        ]
+      ],
+      "caption": "Ranges, seasons and illnesses: the [state's 2025 report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open), except STARI (Southern tick-associated rash illness), which comes from [NC State University's tick guide](https://pdic.ces.ncsu.edu/documents/930310/NC_Tick_Guide_v1.0_April_14_2023.pdf). County counts: CDC, data through 2025."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts, pale-banded legs and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick, named for the single pale spot on its back.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. The state says it is likely the main carrier of Rocky Mountain spotted fever in North Carolina.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "p",
+      "text": "Blacklegged ticks are smaller and plainer. NC State's guide puts adults at about 1/10 inch (3 mm) long, with dark legs and no markings, and says that although several *Ixodes* species live in North Carolina, only the blacklegged tick commonly bites people. The Gulf Coast tick, a close relative of the lone star tick, carries pale markings that in males spread across the whole back; NC State says its adults feed mostly on large mammals, livestock and people, while the state report says its young rarely bite people. For sizes and markings side by side, see [how to tell the common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gulf-coast-tick-female.webp",
+      "width": 1200,
+      "height": 807,
+      "alt": "Adult female Gulf Coast tick on a green leaf, dark reddish-brown with long orange legs and a pale, silvery patterned shield behind the head",
+      "caption": "Adult female Gulf Coast tick. It can pass on *Rickettsia parkeri*, which the state says usually leaves a dark scab at the bite and causes a milder spotted fever.",
+      "credit": "CDC/ Dr. Christopher Paddock (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10876"
+    },
+    {
+      "type": "h2",
+      "text": "Where are lone star ticks found in North Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Across most of the state. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) lists the species as established in 48 of North Carolina's 100 counties and reported in 23 more, through 2025. Many of the 29 counties without a record are in the mountains, among them Ashe, Watauga, Buncombe and Yancey, and a county without a record may simply not have been sampled."
+    },
+    {
+      "type": "map",
+      "scope": "NC",
+      "title": "Lone star tick status by county, North Carolina, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "37001": "established",
+        "37003": "established",
+        "37007": "established",
+        "37013": "established",
+        "37015": "established",
+        "37017": "established",
+        "37019": "established",
+        "37023": "established",
+        "37027": "established",
+        "37031": "reported",
+        "37033": "reported",
+        "37037": "established",
+        "37039": "reported",
+        "37041": "established",
+        "37047": "established",
+        "37049": "established",
+        "37051": "established",
+        "37053": "established",
+        "37055": "established",
+        "37057": "reported",
+        "37061": "reported",
+        "37063": "established",
+        "37065": "reported",
+        "37067": "established",
+        "37069": "established",
+        "37073": "established",
+        "37077": "established",
+        "37079": "reported",
+        "37081": "established",
+        "37083": "reported",
+        "37085": "established",
+        "37087": "reported",
+        "37089": "reported",
+        "37091": "reported",
+        "37093": "established",
+        "37095": "established",
+        "37097": "established",
+        "37101": "reported",
+        "37103": "established",
+        "37105": "established",
+        "37107": "reported",
+        "37117": "established",
+        "37119": "established",
+        "37123": "reported",
+        "37125": "established",
+        "37127": "reported",
+        "37129": "established",
+        "37131": "established",
+        "37133": "established",
+        "37135": "reported",
+        "37137": "reported",
+        "37139": "established",
+        "37141": "established",
+        "37143": "established",
+        "37147": "reported",
+        "37151": "established",
+        "37155": "established",
+        "37161": "established",
+        "37163": "established",
+        "37167": "established",
+        "37171": "established",
+        "37173": "established",
+        "37177": "reported",
+        "37179": "reported",
+        "37181": "established",
+        "37183": "established",
+        "37185": "reported",
+        "37187": "established",
+        "37191": "established",
+        "37193": "reported",
+        "37197": "reported"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer. No record does not mean no ticks: it can mean no one has sampled there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "p",
+      "text": "The state sees the same pattern in what people mail in. Lone star ticks were the species submitted most often to its tick identification program from 2018 to 2025, mostly from the Piedmont and coastal regions, and 72% of them had been found on cats and dogs, the [state report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open) says."
+    },
+    {
+      "type": "p",
+      "text": "Lone star ticks spread ehrlichiosis statewide, according to the [state's May 2025 memo to clinicians](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickborneclinicianmemofinalpdf/open). Their bites are also linked to alpha-gal syndrome, an allergy to red meat, and NC State's guide adds Southern tick-associated rash illness (STARI). See [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome) for how the allergy shows up."
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged ticks found in North Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Throughout much of the state, though most often in the west. [CDC's county surveillance table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in 63 of North Carolina's 100 counties and reported in 14 more, leaving 23 without a record. The state report says it is frequently found in western North Carolina but also occurs elsewhere, commonly in shady woods with abundant leaf litter. To compare other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "map",
+      "scope": "NC",
+      "title": "Blacklegged (deer) tick status by county, North Carolina, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "37001": "established",
+        "37003": "established",
+        "37005": "established",
+        "37007": "reported",
+        "37009": "established",
+        "37011": "reported",
+        "37013": "established",
+        "37015": "established",
+        "37017": "established",
+        "37019": "established",
+        "37021": "established",
+        "37023": "established",
+        "37027": "established",
+        "37029": "established",
+        "37031": "established",
+        "37035": "reported",
+        "37037": "established",
+        "37041": "established",
+        "37047": "established",
+        "37049": "established",
+        "37051": "established",
+        "37053": "reported",
+        "37055": "established",
+        "37057": "established",
+        "37061": "established",
+        "37063": "established",
+        "37065": "established",
+        "37067": "established",
+        "37073": "established",
+        "37077": "reported",
+        "37079": "established",
+        "37081": "established",
+        "37083": "established",
+        "37085": "established",
+        "37087": "established",
+        "37089": "reported",
+        "37091": "established",
+        "37093": "established",
+        "37095": "established",
+        "37097": "reported",
+        "37101": "established",
+        "37103": "established",
+        "37107": "established",
+        "37111": "reported",
+        "37115": "established",
+        "37117": "established",
+        "37119": "reported",
+        "37121": "established",
+        "37125": "reported",
+        "37127": "established",
+        "37129": "established",
+        "37133": "established",
+        "37135": "established",
+        "37137": "established",
+        "37139": "established",
+        "37141": "established",
+        "37143": "established",
+        "37147": "reported",
+        "37151": "reported",
+        "37155": "established",
+        "37157": "established",
+        "37159": "established",
+        "37161": "reported",
+        "37163": "established",
+        "37165": "established",
+        "37169": "established",
+        "37171": "established",
+        "37177": "established",
+        "37181": "established",
+        "37183": "established",
+        "37185": "established",
+        "37187": "established",
+        "37189": "established",
+        "37191": "established",
+        "37193": "established",
+        "37197": "reported",
+        "37199": "established"
+      },
+      "caption": "Established and reported are defined as for the lone star map above. No record does not mean no ticks: it can mean no one has sampled there. Status is cumulative and depends on how much sampling each county has had.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html)"
+    },
+    {
+      "type": "p",
+      "text": "The counties without a record include the far southwestern mountain counties, such as Cherokee, Clay, Graham, Jackson, Macon and Swain, and several Piedmont counties. That does not prove the tick is absent: the state's own 2025 sampling found an established population in Cleveland County and the first blacklegged ticks in Cabarrus County, two counties CDC's table still lists without a record."
+    },
+    {
+      "type": "h3",
+      "text": "Do North Carolina's blacklegged ticks carry Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Some do. CDC's companion table records the Lyme bacterium, *Borrelia burgdorferi*, in host-seeking blacklegged ticks (ticks out hunting for a host) from 18 North Carolina counties, from Ashe and Buncombe in the mountains to Currituck, Dare and Gates in the northeast. The [state's memo to clinicians](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickborneclinicianmemofinalpdf/open) says testing has found the bacterium in more than 20% of blacklegged ticks in several counties, and that the state now considers Lyme disease endemic to northwestern North Carolina."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Germ",
+        "Illness",
+        "North Carolina counties with a record"
+      ],
+      "rows": [
+        [
+          "*Borrelia burgdorferi*",
+          "Lyme disease",
+          "18"
+        ],
+        [
+          "*Borrelia miyamotoi*",
+          "Hard tick relapsing fever",
+          "5: Alleghany, Ashe, Buncombe, Rockingham and Surry"
+        ],
+        [
+          "*Anaplasma phagocytophilum* (human-active variant)",
+          "Anaplasmosis",
+          "1: Alleghany"
+        ],
+        [
+          "*Babesia microti*",
+          "Babesiosis",
+          "None"
+        ],
+        [
+          "Powassan virus",
+          "Powassan virus disease",
+          "None"
+        ],
+        [
+          "*Borrelia mayonii*",
+          "A rarer cause of Lyme disease",
+          "None"
+        ]
+      ],
+      "caption": "Source: [CDC ArboNET Tick Module](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), pathogen table for host-seeking ticks through December 2025. A county without a record is not proof the germ is absent. The state's own testing of 1,511 blacklegged ticks from 2004 to 2025 never found *Babesia microti*, its [2025 report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open) says."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "Adult female blacklegged tick and a much smaller blacklegged nymph on a person's fingertip, showing how tiny both stages are",
+      "caption": "An adult female blacklegged tick (left) and a much smaller nymph on a fingertip.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "h2",
+      "text": "Which tick-borne diseases are most common in North Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever rickettsiosis, Lyme disease and ehrlichiosis, in nearly equal numbers. Each accounted for about a third of the tick-borne illness cases reported in 2025, according to a [May 2026 state health department release](https://www.ncdhhs.gov/news/press-releases/2026/05/05/ncdhhs-urges-north-carolinians-fight-bite-prevent-tick-and-mosquito-borne-diseases). The [state's 2025 report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open) counted 369 spotted fever cases, 366 Lyme cases and 318 ehrlichiosis cases; anaplasmosis (31 cases) and babesiosis (3) were far rarer."
+    },
+    {
+      "type": "chart",
+      "title": "Spotted fever rickettsiosis and ehrlichiosis cases in North Carolina, 2020 to 2025",
+      "x": [
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "Spotted fever rickettsiosis",
+          "values": [
+            186,
+            188,
+            202,
+            229,
+            195,
+            369
+          ]
+        },
+        {
+          "name": "Ehrlichiosis",
+          "values": [
+            107,
+            135,
+            90,
+            115,
+            278,
+            318
+          ]
+        }
+      ],
+      "yLabel": "Confirmed and probable cases per year among North Carolina residents (bars stacked)",
+      "caption": "State counts, dated by the earliest date of illness, usually when symptoms began. A less stringent ehrlichiosis case definition took effect in 2024, which the state says is likely linked to the sharp rise since. Spotted fever counts fell in 2020 after a change in its case definition, so earlier years are left out.",
+      "source": "North Carolina Department of Health and Human Services, [Tickborne Disease Annual Report 2025](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open)"
+    },
+    {
+      "type": "p",
+      "text": "Both rose in 2025, spotted fever sharply. The state says the spotted fever increase may reflect more transmission or better recognition by doctors. Most cases of both illnesses are classed as probable rather than confirmed, the [clinicians' memo](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickborneclinicianmemofinalpdf/open) explains, because the follow-up blood test needed to confirm them is usually missing. Both can be serious: in 2025, 28% of ehrlichiosis patients and about 21% of spotted fever patients were hospitalized, and two people died of ehrlichiosis."
+    },
+    {
+      "type": "h3",
+      "text": "How does North Carolina compare with other states?"
+    },
+    {
+      "type": "p",
+      "text": "On spotted fever, it led the country in 2023. [CDC's 2023 state figures for spotted fever](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html) put North Carolina's rate at about 21 reported cases per million residents, the highest of any state that year by our ranking, just ahead of Arkansas and Kentucky. Its 2023 ehrlichiosis rate, about 10 per million, ranked tenth among states (our ranking) in [CDC's ehrlichiosis data](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html), and the state report notes that North Carolina has historically been among the top five states for spotted fever cases."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Lyme per 100,000",
+        "Spotted fever per 100,000",
+        "Ehrlichiosis per 100,000"
+      ],
+      "rows": [
+        [
+          "North Carolina",
+          "228",
+          "2.2",
+          "2.1",
+          "1.0"
+        ],
+        [
+          "[Georgia](/blog/ticks-in-georgia)",
+          "18",
+          "0.2",
+          "0.3",
+          "0.1"
+        ],
+        [
+          "[South Carolina](/blog/ticks-in-south-carolina)",
+          "55",
+          "1.1",
+          "0.2",
+          "0†"
+        ],
+        [
+          "[Tennessee](/blog/ticks-in-tennessee)",
+          "50",
+          "0.7",
+          "1.2",
+          "1.5"
+        ],
+        [
+          "[Virginia](/blog/ticks-in-virginia)",
+          "1,747",
+          "20.2",
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "caption": "Cases by state of residence in 2023, the latest year in CDC's national data as of October 2026. Spotted fever and ehrlichiosis (*E. chaffeensis*) rates are our conversion of CDC's per-million figures. †South Carolina files its cases as [undetermined ehrlichiosis/anaplasmosis](https://stacks.cdc.gov/view/cdc/251104) (7 in 2023). Sources: [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html), [CDC spotted fever data](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html) and [CDC ehrlichiosis data](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html)."
+    },
+    {
+      "type": "h3",
+      "text": "Where in North Carolina is spotted fever most common?"
+    },
+    {
+      "type": "p",
+      "text": "Cases turn up in every region; the most come from the central Piedmont. In 2025, as in 2024, the highest rates were in Chatham, Avery, Watauga, Orange and Gates counties, up to 39.3 cases per 100,000 residents in Chatham, the [state report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open) says. [CDC's county file for 2019 to 2022](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) records spotted fever in 92 of the 100 counties and ehrlichiosis in 62, with the most cases of both in Orange, Wake, Chatham and Durham counties, around Raleigh, Durham and Chapel Hill."
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Spotted fever cases, 2019 to 2022",
+        "Ehrlichiosis cases, 2019 to 2022"
+      ],
+      "rows": [
+        [
+          "Orange",
+          "106",
+          "79"
+        ],
+        [
+          "Wake",
+          "84",
+          "43"
+        ],
+        [
+          "Chatham",
+          "73",
+          "55"
+        ],
+        [
+          "Durham",
+          "63",
+          "41"
+        ],
+        [
+          "Alamance",
+          "47",
+          "34"
+        ],
+        [
+          "Johnston",
+          "46",
+          "12"
+        ],
+        [
+          "Craven",
+          "36",
+          "0"
+        ],
+        [
+          "Granville",
+          "35",
+          "14"
+        ]
+      ],
+      "caption": "The eight counties with the most spotted fever cases, counted by county of residence (not necessarily where people were bitten), 2019 to 2022 combined, from [CDC's county file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html). The period straddles the 2020 change in the spotted fever case definition, after which the state's yearly counts fell, so compare counties with each other rather than with later years."
+    },
+    {
+      "type": "p",
+      "text": "Counts follow population, so the smaller counties are the striking ones. Chatham County, with about 78,000 residents in 2021, reported nearly as many spotted fever cases as Wake County, which had about 15 times as many people, according to Census Bureau estimates."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does North Carolina have?"
+    },
+    {
+      "type": "p",
+      "text": "Much less than the Northeast and Midwest, the historical hotspots, but more than it used to. North Carolina reported 228 Lyme disease cases in 2023, a rate of 2.2 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html), up from 47 cases in 2008; Pennsylvania's rate that year was 128.1. The state's own count reached 366 in 2025, the most in the six years its latest report covers, a rate of 3.3 per 100,000."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in North Carolina, 2008 to 2025",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "CDC count",
+          "values": [
+            47,
+            96,
+            82,
+            88,
+            122,
+            180,
+            170,
+            230,
+            272,
+            295,
+            212,
+            334,
+            264,
+            338,
+            279,
+            228,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "State count, not in CDC data as of October 2026",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            257,
+            366
+          ]
+        }
+      ],
+      "yLabel": "Confirmed and probable cases per year, by state of residence",
+      "caption": "2008 to 2023 from CDC; 2024 and 2025 from the state health department, which dates cases by the earliest date of illness and counted slightly more than CDC for 2023 (234 against 228). The 2025 figure is 366 in the state report's tables and 365 in its summary text. A revised case definition took effect in 2022, so later years are not directly comparable with earlier ones, and CDC says COVID-19 left 2019 and 2020 data incomplete in some states.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html) for 2008 to 2023; North Carolina DHHS [Tickborne Disease Annual Report 2025](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open) for 2024 and 2025"
+    },
+    {
+      "type": "p",
+      "text": "Read the ups and downs with care. The state says the drop in reported cases from 2021 to 2024 was likely due to a new surveillance case definition in 2022, and that since then most cases have been classed as confirmed rather than probable, as more labs use the modified two-tier blood test. It says the 2025 jump may reflect more recognition and testing, but could also mean more transmission."
+    },
+    {
+      "type": "p",
+      "text": "The rash is not a reliable signal. The expanding rash of early Lyme disease, erythema migrans, usually appears in 70% to 80% of cases, but it was reported in only about 48% of North Carolina's 2025 cases, which the state says may mean it was absent or went unrecognized."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Red bull's-eye rash with a dark red center and a wide pink outer ring on the back of a person's upper arm",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, on an upper arm.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "h2",
+      "text": "Which North Carolina counties have the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "The northwestern mountains, by a wide margin. In 2023, seven mountain counties had 25 or more cases per 100,000 residents, led by Mitchell (86.6) and Yancey (79.3), against 2.2 statewide. The map shows the 2023 rate for every county, calculated by BuzzSkito from [CDC's county-level Lyme data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) and the [Census Bureau's county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)."
+    },
+    {
+      "type": "map",
+      "scope": "NC",
+      "title": "Lyme disease cases per 100,000 residents by county, North Carolina, 2023",
+      "categories": [
+        {
+          "key": "25plus",
+          "label": "25 or more"
+        },
+        {
+          "key": "10to24",
+          "label": "10 to 24.9"
+        },
+        {
+          "key": "under10",
+          "label": "Under 10"
+        },
+        {
+          "key": "none",
+          "label": "No cases reported"
+        }
+      ],
+      "values": {
+        "37001": "under10",
+        "37003": "under10",
+        "37005": "25plus",
+        "37007": "none",
+        "37009": "25plus",
+        "37011": "25plus",
+        "37013": "none",
+        "37015": "none",
+        "37017": "none",
+        "37019": "under10",
+        "37021": "10to24",
+        "37023": "under10",
+        "37025": "under10",
+        "37027": "under10",
+        "37029": "none",
+        "37031": "none",
+        "37033": "none",
+        "37035": "under10",
+        "37037": "none",
+        "37039": "under10",
+        "37041": "under10",
+        "37043": "none",
+        "37045": "none",
+        "37047": "none",
+        "37049": "under10",
+        "37051": "under10",
+        "37053": "none",
+        "37055": "under10",
+        "37057": "under10",
+        "37059": "under10",
+        "37061": "none",
+        "37063": "under10",
+        "37065": "none",
+        "37067": "under10",
+        "37069": "none",
+        "37071": "under10",
+        "37073": "under10",
+        "37075": "none",
+        "37077": "none",
+        "37079": "none",
+        "37081": "under10",
+        "37083": "none",
+        "37085": "under10",
+        "37087": "under10",
+        "37089": "under10",
+        "37091": "none",
+        "37093": "none",
+        "37095": "none",
+        "37097": "under10",
+        "37099": "none",
+        "37101": "under10",
+        "37103": "none",
+        "37105": "none",
+        "37107": "none",
+        "37109": "under10",
+        "37111": "none",
+        "37113": "none",
+        "37115": "25plus",
+        "37117": "none",
+        "37119": "under10",
+        "37121": "25plus",
+        "37123": "none",
+        "37125": "under10",
+        "37127": "under10",
+        "37129": "under10",
+        "37131": "none",
+        "37133": "under10",
+        "37135": "under10",
+        "37137": "none",
+        "37139": "none",
+        "37141": "under10",
+        "37143": "under10",
+        "37145": "none",
+        "37147": "none",
+        "37149": "under10",
+        "37151": "none",
+        "37153": "under10",
+        "37155": "none",
+        "37157": "under10",
+        "37159": "under10",
+        "37161": "none",
+        "37163": "none",
+        "37165": "none",
+        "37167": "none",
+        "37169": "under10",
+        "37171": "under10",
+        "37173": "none",
+        "37175": "under10",
+        "37177": "none",
+        "37179": "under10",
+        "37181": "under10",
+        "37183": "under10",
+        "37185": "none",
+        "37187": "none",
+        "37189": "25plus",
+        "37191": "under10",
+        "37193": "under10",
+        "37195": "none",
+        "37197": "none",
+        "37199": "25plus"
+      },
+      "caption": "Confirmed and probable cases by county of residence. Rates are BuzzSkito's calculation: CDC's 2023 county counts divided by the Census Bureau's July 1, 2023 estimates (Vintage 2025), which gives 2.1 statewide against CDC's published 2.2. Small counties swing sharply: Alleghany County's rate of 35.3 came from four cases.",
+      "source": "[CDC county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html), 2023; [U.S. Census Bureau county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Lyme cases, 2023",
+        "Cases per 100,000"
+      ],
+      "rows": [
+        [
+          "Mitchell",
+          "13",
+          "86.6"
+        ],
+        [
+          "Yancey",
+          "15",
+          "79.3"
+        ],
+        [
+          "Watauga",
+          "21",
+          "37.9"
+        ],
+        [
+          "Madison",
+          "8",
+          "36.3"
+        ],
+        [
+          "Alleghany",
+          "4",
+          "35.3"
+        ],
+        [
+          "Avery",
+          "6",
+          "33.8"
+        ],
+        [
+          "Ashe",
+          "9",
+          "33.2"
+        ],
+        [
+          "Buncombe",
+          "37",
+          "13.4"
+        ]
+      ],
+      "caption": "The eight counties at 10 or more cases per 100,000 residents in 2023. Sources as for the map."
+    },
+    {
+      "type": "p",
+      "text": "Raw counts look different. Buncombe County, home to Asheville, had the most cases in 2023 (37), followed by Watauga (21), Yancey (15) and Mecklenburg (14), home to Charlotte, where the rate was just 1.2. Over 2019 to 2022, Ashe (154 cases) and Buncombe (149) led [CDC's county file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html)."
+    },
+    {
+      "type": "p",
+      "text": "The newest state figures point mostly to the same corner. In 2025, Yancey, Alleghany, Mitchell, Martin and Watauga counties had the highest rates, Yancey's reaching 305.4 per 100,000, and Yancey, Alleghany, Watauga and Ashe more than doubled their case counts from 2024, the [state report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open) says. Most of the 290 cases it judged to be locally acquired were among mountain residents, though it says locally acquired cases occur in every region."
+    },
+    {
+      "type": "p",
+      "text": "The state uses county incidence to decide where preventive antibiotics make sense after a bite. Its [May 2025 memo to clinicians](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickborneclinicianmemofinalpdf/open), still the version it posts as of October 2026, recommends Lyme post-exposure prophylaxis, in line with CDC recommendations, for people who live in or travel to counties that had a high Lyme incidence (which it puts at 16 cases per 100,000 residents) in the previous five years, or that sit between two such counties: Buncombe, Madison, Yancey, Mitchell, Avery, Watauga, Ashe, Alleghany, Surry and Stokes."
+    },
+    {
+      "type": "p",
+      "text": "One caution applies to every county figure: cases are counted where the patient lives, which may not be where the bite happened, as [CDC's Lyme case map page](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) notes. The state judged about 6% of its 2025 cases to have been caught in another state and 1.1% abroad."
+    },
+    {
+      "type": "h2",
+      "text": "Has the Asian longhorned tick reached North Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Yes. A longhorned tick found on an opossum in Polk County was confirmed by the federal National Veterinary Services Laboratory on June 25, 2018, making North Carolina the fifth state to report the species, according to [NC State Extension](https://ipm.ces.ncsu.edu/news/longhorned-tick-discovered-in-north-carolina/). The state's [2025 report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open) says its tick identification program first found it in neighboring Rutherford County. It can reproduce without mating, so a single fed female can start a local population."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female, both plain reddish-brown, resting on a U.S. dime for scale",
+      "caption": "An Asian longhorned tick nymph (left) and adult female (right) on a U.S. dime. NC State's guide says every Asian longhorned tick in the US is female.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "It has spread since. The state's tick identification program has recorded it in 26 counties, four of them new in 2025, and field sampling has found it in eight. From 2018 to 2025 it made up 28% of the ticks people submitted, second only to the lone star tick, the [state report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open) says. [NC State's tick guide](https://pdic.ces.ncsu.edu/documents/930310/NC_Tick_Guide_v1.0_April_14_2023.pdf) says it rarely feeds on people, mostly biting wildlife, pets and livestock, and the state report says there is so far no evidence it transmits disease to people in the US, though it threatens cattle by passing on parasites."
+    },
+    {
+      "type": "h3",
+      "text": "How do you report an Asian longhorned tick in North Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Mail it to the state's NC Tick Identification Program, which identifies ticks found on people or animals through separate submission forms, the [state report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open) says. The steps are below."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in North Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Late spring through summer for most ticks, with July the peak month for illness. In 2025, reported cases of Lyme disease, spotted fever rickettsiosis and ehrlichiosis all peaked in July, the [state's 2025 report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open) says, though Lyme and spotted fever cases were reported throughout the year. Adult blacklegged ticks break the summer pattern: the state says they are most active in fall and spring."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Time of year",
+        "Blacklegged (deer) tick",
+        "Lone star and American dog ticks",
+        "Gulf Coast tick"
+      ],
+      "rows": [
+        [
+          "Winter (December to February)",
+          "Adults can still bite; low risk (regional estimate)",
+          "Not expected to be active",
+          "Larvae and nymphs active, but they rarely bite people"
+        ],
+        [
+          "Spring (March to May)",
+          "Adults most active",
+          "Activity begins in late spring",
+          "Larvae and nymphs through March; adults mostly from June"
+        ],
+        [
+          "Summer (June to August)",
+          "Nymphs active all summer; larvae from mid to late summer",
+          "All life stages active; adult dog ticks bite people most",
+          "Adults active"
+        ],
+        [
+          "Fall (September to November)",
+          "Adults most active again",
+          "Activity tapers; low risk (regional estimate)",
+          "Adults active through October"
+        ]
+      ],
+      "caption": "Activity by species: the [state's 2025 report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open). Winter and fall risk levels come from the report's estimate of tick-bite risk for the Southeast, which it says is not specific to North Carolina."
+    },
+    {
+      "type": "p",
+      "text": "Warm days matter more than the calendar. The state report says ticks can be active whenever temperatures rise above about 58°F (14°C), depending also on humidity and vegetation, and its regional estimate rates winter bite risk from adult blacklegged ticks as low rather than absent. A mild winter afternoon in the woods still calls for a tick check."
+    },
+    {
+      "type": "h2",
+      "text": "Where can you get a tick identified in North Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Through the state's NC Tick Identification Program, run by the Division of Public Health's Communicable Disease Branch. As of October 2026, its [submission form for ticks found on people](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/nctickidentificationformhumansubmissionspdf/open), updated May 1, 2026, asks you to:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Seal the tick in a watertight container, such as a plastic bag or vial, with a paper towel or cotton ball dampened with alcohol so it does not dry out.",
+        "Fill in one form for each person the ticks came from, including the date and where on the body the tick was found.",
+        "Mail the tick and form to the program in Raleigh at the address on the form. Results come back by email, and the form lists no fee."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A separate form covers ticks found on animals. Identification is all the program offers: the form says the service is for surveillance rather than diagnosis and that ticks are not tested for germs. Since 2018 the program has identified about 4,500 ticks of 13 species from 71 counties, the [state report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open) says. For a first look at home, compare your tick with [a chart comparing deer, dog and lone star ticks](/learn/tick-identification-chart); NC State's tick guide also points readers with identification questions to the university's Plant Disease and Insect Clinic."
+    },
+    {
+      "type": "p",
+      "text": "Testing a tick would not settle much anyway. [CDC's advice on what to do after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) says tick test results should not be used to make treatment decisions, and that a negative result can give false reassurance, since a different tick may have been the infected one."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in North Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick promptly, watch for fever or a rash over the following weeks, and see a health care provider as soon as you feel ill. [CDC's tick-bite guidance](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) describes removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Use clean, fine-tipped tweezers to grip the tick as close to the skin as you can.",
+        "Pull it out with steady, even pressure; do not twist or jerk it.",
+        "If the mouthparts break off and do not come out easily, leave them; the skin will push them out over time.",
+        "Clean the bite and your hands with soap and water, rubbing alcohol or hand sanitizer, and check your body for more ticks.",
+        "Do not use petroleum jelly, nail polish, heat or other substances to make the tick let go."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For more detail, see [the step-by-step tick removal guide](/blog/how-to-remove-tick-safely). If the tick may have been a blacklegged tick and you live in or visited one of the ten counties listed above, ask a provider about preventive antibiotics, which the state recommends there."
+    },
+    {
+      "type": "p",
+      "text": "Anywhere in North Carolina, spotted fever and ehrlichiosis call for speed. The [state's memo to clinicians](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickborneclinicianmemofinalpdf/open) says both can be severe or fatal, so treatment should start on suspicion rather than wait for lab results, and that the antibiotic doxycycline given in the first five days of illness minimizes the chance of severe illness. It adds that the short doxycycline courses used for these infections do not stain the teeth of children under 8 and should be used for them."
+    },
+    {
+      "type": "p",
+      "text": "Know the early signs, which the [state report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open) lists for each illness. Rocky Mountain spotted fever starts with fever, headache and muscle pain, and its rash often begins on the wrists and ankles before spreading, though a rash was reported in only 39% of North Carolina's 2025 spotted fever cases. The milder *Rickettsia parkeri* infection usually leaves a dark scab at the bite. Ehrlichiosis can start with fever, chills, muscle aches and a rash, and Lyme disease with fever, headache, chills, muscle and joint pain and the bull's-eye rash. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow if Lyme goes untreated."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you feel ill",
+      "text": "Fever, headache, a rash or body aches in the weeks after a tick bite or time outdoors are reasons to see a provider promptly and mention the tick. Do not wait for a rash to appear or for a tick test result. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in North Carolina?"
+    },
+    {
+      "type": "p",
+      "text": "Use repellent, treat your clothes, check for ticks and make your yard less inviting to them. The [state's May 2026 Fight the Bite release](https://www.ncdhhs.gov/news/press-releases/2026/05/05/ncdhhs-urges-north-carolinians-fight-bite-prevent-tick-and-mosquito-borne-diseases) recommends these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Repellent on exposed skin.** Use an EPA-registered repellent, such as one containing DEET or picaridin, following the label.",
+        "**Permethrin on clothing.** Treat clothing with 0.5% permethrin, a pesticide, used as the label directs.",
+        "**Tick checks.** Check yourself and your children after time in wooded, grassy or brushy areas, and remove any tick promptly.",
+        "**Yard upkeep.** Prune shrubs and bushes, remove leaf litter and keep grass cut short to reduce tick habitat around the house.",
+        "**A shower after coming in.** The state's memo to clinicians also advises showering right after returning indoors."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Pets carry ticks home. About 70% of the blacklegged ticks and 72% of the lone star ticks submitted to the state were found on cats and dogs, the [state report](https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open) says, so ask a veterinarian which tick preventive suits your pet, and see [how to check a dog for ticks and remove one](/blog/ticks-on-dogs)."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the most common tick in North Carolina?",
+      "answer": "The lone star tick. NC State University's tick identification guide calls it the most common tick that attacks people in North Carolina, and it made up 72% of the ticks collected in the state's field sampling through 2025. Adult females have a single pale spot on the back. Lone star ticks spread ehrlichiosis and are linked to alpha-gal syndrome. American dog ticks and blacklegged ticks are also widespread, and the blacklegged tick is the one that carries Lyme disease."
+    },
+    {
+      "question": "Is Lyme disease common in North Carolina?",
+      "answer": "Less common than in the Northeast, but well established in the northwestern mountains. CDC counted 228 North Carolina cases in 2023, a rate of 2.2 per 100,000 residents, and the state counted 366 in 2025. In 2023, Mitchell County had about 87 cases per 100,000 residents and Yancey County about 79. The state health department considers Lyme disease endemic to northwestern North Carolina and recommends preventive antibiotics after some tick bites in ten western and northwestern counties."
+    },
+    {
+      "question": "Are ticks active in the winter in North Carolina?",
+      "answer": "Some are. The state's 2025 tickborne disease report says adult blacklegged ticks are most active in fall and spring, and its regional estimate rates winter bite risk from them as low rather than absent, while lone star and American dog ticks are not expected to be active. The report says ticks can be active whenever temperatures rise above about 58°F, and Lyme and spotted fever cases were reported throughout 2025. Check for ticks after time outdoors on mild winter days."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in North Carolina?",
+      "answer": "Not through the state. North Carolina's Tick Identification Program identifies the species of ticks mailed to it, but its submission form says the ticks are not tested for germs and the service is for surveillance, not diagnosis. CDC says tick test results should not be used to make treatment decisions, and a negative result can falsely reassure you if a different tick was infected. If you feel ill after a tick bite, see a health care provider."
+    },
+    {
+      "question": "How common is Rocky Mountain spotted fever in North Carolina?",
+      "answer": "Common by national standards. Rocky Mountain spotted fever is the most severe of the spotted fever rickettsioses, and the state counted 369 spotted fever rickettsiosis cases in 2025, slightly more than its Lyme count. By our ranking of CDC's 2023 state figures, North Carolina had the highest spotted fever rate of any state. The state says the American dog tick is likely the main carrier of the Rocky Mountain spotted fever germ there. Early treatment with doxycycline matters, so see a provider promptly about fever, headache or rash after a tick bite."
+    },
+    {
+      "question": "What should I do if I find an Asian longhorned tick in North Carolina?",
+      "answer": "Send it to the state's NC Tick Identification Program, which identifies ticks found on people or animals using separate submission forms. Seal the tick in a watertight bag or vial with a paper towel or cotton ball dampened with alcohol, fill in the form and mail both to the address on the form; results come back by email. The species was first confirmed in North Carolina in June 2018 on an opossum in Polk County. It rarely bites people and mainly threatens livestock."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (cases by county of residence, 2019-2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "Data and Statistics on Spotted Fever Rickettsiosis (state incidence, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "Ehrlichiosis Epidemiology and Statistics (E. chaffeensis incidence, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "County Population Totals and Components of Change: 2020-2025",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html"
+    },
+    {
+      "title": "North Carolina Tickborne Disease Annual Report 2025",
+      "publisher": "North Carolina Department of Health and Human Services, Division of Public Health",
+      "url": "https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickbornesurveillancesummary2025finalpdf/open"
+    },
+    {
+      "title": "Annual Update on Diagnosis and Surveillance of Tickborne Diseases (memo to North Carolina clinicians, May 5, 2025)",
+      "publisher": "North Carolina Department of Health and Human Services, Division of Public Health",
+      "url": "https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/tickborneclinicianmemofinalpdf/open"
+    },
+    {
+      "title": "NC Tick Identification Program Submission Form: Human Submissions (updated May 1, 2026)",
+      "publisher": "North Carolina Division of Public Health, Communicable Disease Branch",
+      "url": "https://www.dph.ncdhhs.gov/epidemiology/communicable-disease/nctickidentificationformhumansubmissionspdf/open"
+    },
+    {
+      "title": "NCDHHS Urges North Carolinians to Fight the Bite to Prevent Tick- and Mosquito-Borne Diseases (May 5, 2026)",
+      "publisher": "North Carolina Department of Health and Human Services",
+      "url": "https://www.ncdhhs.gov/news/press-releases/2026/05/05/ncdhhs-urges-north-carolinians-fight-bite-prevent-tick-and-mosquito-borne-diseases"
+    },
+    {
+      "title": "Common Ticks of North Carolina: An Identification Guide (version 1.1, April 14, 2023)",
+      "publisher": "NC State University, Department of Entomology and Plant Pathology",
+      "url": "https://pdic.ces.ncsu.edu/documents/930310/NC_Tick_Guide_v1.0_April_14_2023.pdf"
+    },
+    {
+      "title": "Longhorned Tick Discovered in North Carolina (July 13, 2018; updated October 1, 2024)",
+      "publisher": "NC State Extension, Integrated Pest Management",
+      "url": "https://ipm.ces.ncsu.edu/news/longhorned-tick-discovered-in-north-carolina/"
+    },
+    {
+      "title": "National Notifiable Diseases: Infectious Annual Tables, 2023, Table 2g: ehrlichiosis and anaplasmosis (South Carolina row)",
+      "publisher": "Centers for Disease Control and Prevention, National Notifiable Diseases Surveillance System (CDC Stacks)",
+      "url": "https://stacks.cdc.gov/view/cdc/251104"
+    }
+  ],
+  "disclaimer": "both"
+}

@@ -81,15 +81,19 @@ const extraFile = join(DIR, 'extra-pages.json')
 if (existsSync(extraFile)) for (const e of JSON.parse(readFileSync(extraFile, 'utf8')).pages) pages.push({ section: 'blog', role: 'page', minExisting: 2, mustLink: [], neighbors: [], minNeighbors: 0, ...e })
 
 // dates: PER_WEEK pages every Monday from START, in the order above, unless a page has its own
-// date or is already live (its date then stays what it was)
+// date or is already live (its date then stays what it was). data/god-build/release-overrides.json
+// moves single pages to another day (the owner's call); an overridden page still uses its slot, so
+// every other page keeps its date.
 const prev = existsSync(join(DIR, 'plan.src.json')) ? Object.fromEntries(JSON.parse(readFileSync(join(DIR, 'plan.src.json'), 'utf8')).pages.map((p) => [p.slug, p.releaseOn])) : {}
+const ovrFile = join(DIR, 'release-overrides.json')
+const OVR = existsSync(ovrFile) ? JSON.parse(readFileSync(ovrFile, 'utf8')).releaseOn || {} : {}
 const addDays = (iso, n) => new Date(Date.parse(`${iso}T00:00:00Z`) + n * 864e5).toISOString().slice(0, 10)
 let slot = 0
 for (const p of pages) {
   const live = existsSync(join(ROOT, 'content', 'guides', `${p.slug}.json`))
   if (live && prev[p.slug]) { p.releaseOn = prev[p.slug]; continue }
   if (p.releaseOn) continue
-  p.releaseOn = addDays(START, 7 * Math.floor(slot / PER_WEEK))
+  p.releaseOn = OVR[p.slug] || addDays(START, 7 * Math.floor(slot / PER_WEEK))
   slot++
 }
 

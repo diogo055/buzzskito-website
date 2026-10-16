@@ -2,9 +2,14 @@
  "id": "ticks-in-west-virginia",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "3342b2002962b45bb1712c3b0f549776867296acf6f08fc56f0d730983e6bd83",
+ "sha": "2412eba2a4ab4d5a5854449e7a26b8efe0748d6b0d21455f4c5b03fbb33cea6f",
  "claimsChecked": 370,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 9,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

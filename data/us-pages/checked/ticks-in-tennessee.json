@@ -2,9 +2,14 @@
  "id": "ticks-in-tennessee",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "e5cfd63e5c5654641270be69fc17cc6c2a6c93a96210866f1f9df18a71af6b8d",
+ "sha": "76ba13d6fcfaccb84a98bea8502026a763e5dec4c7da708dc05a9e47e726db39",
  "claimsChecked": 350,
  "claimsCorrected": 12,
  "claimsRemovedOrSoftened": 2,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

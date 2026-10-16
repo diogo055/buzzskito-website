@@ -1,0 +1,1044 @@
+{
+  "slug": "ticks-in-west-virginia",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in west virginia",
+  "alsoTargets": [
+    "types of ticks in west virginia",
+    "tick season west virginia",
+    "lyme disease west virginia"
+  ],
+  "metaTitle": "Ticks in West Virginia: Types, Lyme Map, Season",
+  "metaDescription": "Deer ticks are established in 48 of West Virginia's 55 counties, which reported 3,242 Lyme cases in 2023. Photos, county maps, tick season and ID help.",
+  "h1": "Ticks in West Virginia: Species, Where They Are, Disease Data and Tick Season",
+  "dek": "Which ticks live in West Virginia, where blacklegged and lone star ticks are established county by county, where Lyme disease is highest, when ticks are active, and how to get a tick identified.",
+  "breadcrumb": "Ticks in West Virginia",
+  "excerpt": "Blacklegged ticks are established in 48 of West Virginia's 55 counties. Species photos, Lyme rates by county, tick season and how to get a tick identified.",
+  "datePublished": "2026-10-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**West Virginia's health department lists seven ticks that can carry disease in the state, and CDC lists the blacklegged (deer) tick, which spreads Lyme disease, as established in 48 of its 55 counties.** The state reported 3,242 Lyme cases in 2023, according to [CDC surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html); by our ranking of CDC's figures, only five states reported more.",
+    "bullets": [
+      "Lyme cases rose from 136 in 2014 to 1,792 in 2021, before a 2022 change in how cases are counted, and the state's provisional count for 2025 reached 4,019 by November 14.",
+      "Relative to population (our calculation from CDC and Census data), 2023 Lyme rates were highest in Tucker, Webster, Marshall and Upshur counties and lowest in Logan and Wyoming counties in the south.",
+      "CDC calls April to September the peak months and says adult deer ticks can seek hosts on winter days above freezing; the state says most Lyme infections happen in June.",
+      "The invasive Asian longhorned tick was confirmed in 35 of the 55 counties as of April 2025, more counties than in any state but Virginia in USDA's report.",
+      "Anaplasmosis cases rose from 17 in 2023 to 29 in 2024, and the state's provisional 2026 count reached 99 by September 24.",
+      "The state's 2021-2023 tick report describes local health departments forwarding residents' ticks to the state for identification, not germ testing."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in West Virginia at a glance",
+    "rows": [
+      [
+        "Tick species the state lists",
+        "Seven that can carry disease (state tick surveillance report, 2025)"
+      ],
+      [
+        "Tick met most often",
+        "American dog tick, according to WVU Extension"
+      ],
+      [
+        "Counties with established blacklegged ticks",
+        "48 of 55; 4 more reported (CDC, through December 2025)"
+      ],
+      [
+        "Counties with established lone star ticks",
+        "13 of 55, mostly in the west and southwest; 14 more reported (CDC, through 2025)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "3,242 in 2023 (CDC); 4,019 in 2025 through November 14 (state, provisional)"
+      ],
+      [
+        "Lyme rate",
+        "181.6 per 100,000 in 2023, fourth among states (our ranking of CDC data)"
+      ],
+      [
+        "Highest county rate, 2023",
+        "Tucker County, about 742 per 100,000 (49 cases; BuzzSkito's calculation from CDC and Census data)"
+      ],
+      [
+        "Most cases by county, 2023",
+        "Monongalia County, 196"
+      ],
+      [
+        "Asian longhorned tick",
+        "Confirmed in 35 of 55 counties as of April 22, 2025 (USDA)"
+      ],
+      [
+        "Anaplasmosis cases",
+        "17 in 2023, 29 in 2024, 99 in 2026 through September 24 (state; 2026 provisional)"
+      ],
+      [
+        "Riskiest months",
+        "April to September (CDC); the state says most Lyme infections happen in June"
+      ],
+      [
+        "Tick identification",
+        "Through local health departments to the state entomologist, not tested for germs (state tick report, 2021-2023 data)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in West Virginia?"
+    },
+    {
+      "type": "p",
+      "text": "Seven ticks that can carry disease are listed as present in West Virginia by the state's [2021-2023 tick surveillance report](https://oeps.wv.gov/media/71/download?inline): the blacklegged (deer), lone star, American dog, Gulf Coast, brown dog, groundhog and invasive Asian longhorned ticks. [WVU Extension's guide to ticks](https://extension.wvu.edu/lawn-gardening-pests/pests/tick) names the American dog, blacklegged and lone star ticks as the common ones, and calls the American dog tick the one West Virginians encounter most often."
+    },
+    {
+      "type": "p",
+      "text": "Ticks sent to the state are a convenience sample, not a census. Of 1,567 sent in by veterinarians, health care providers and residents, or found on animals sent for rabies testing, from 2021 through 2023, 596 were Asian longhorned ticks and 527 blacklegged ticks, by our tally of the report's yearly tables, and many came off cats and dogs."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where in West Virginia",
+        "What it can spread here",
+        "Ticks sent to the state, 2021 to 2023"
+      ],
+      "rows": [
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in 48 of 55 counties",
+          "Lyme disease, anaplasmosis, babesiosis",
+          "527"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Sent in from 20 counties in each of 2021 and 2022",
+          "Rocky Mountain spotted fever, tularemia",
+          "359"
+        ],
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Mostly the west and southwest; established in 13 counties",
+          "Ehrlichiosis, tularemia, Rocky Mountain spotted fever; bites linked to alpha-gal syndrome",
+          "71"
+        ],
+        [
+          "Asian longhorned tick, *Haemaphysalis longicornis*",
+          "Invasive; confirmed in 35 of 55 counties as of April 2025",
+          "Not yet known to make people sick in the US; a livestock pest",
+          "596"
+        ],
+        [
+          "Groundhog tick, *Ixodes cookei*",
+          "Listed by the state",
+          "Powassan virus (not detected in the state)",
+          "10"
+        ],
+        [
+          "Gulf Coast tick, *Amblyomma maculatum*",
+          "Listed by the state; one found on a dog in 2021",
+          "*Rickettsia parkeri* spotted fever (not detected in the state)",
+          "1"
+        ]
+      ],
+      "caption": "Diseases as listed in the state's tick report, which also lists the brown dog tick (Rocky Mountain spotted fever); none was submitted. Alpha-gal: the state's 2025 advisory; Asian longhorned: CDC, USDA. Counties: CDC ArboNET Tick Module (through 2025) and USDA (April 2025). Submissions: our tally of the report's tables, which also count 3 *Ixodes* ticks not identified to species."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-female.webp",
+      "width": 1200,
+      "height": 775,
+      "alt": "Adult female blacklegged tick on a green blade of grass against a blue background, with a dark shield behind the head, dark legs and a reddish-orange body",
+      "caption": "Adult female blacklegged (deer) tick. WVU Extension describes the species as chocolate brown, the adult female's body orange to red around the dark shield.",
+      "credit": "CDC/ Michael L. Levin, PhD; photo: Jim Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1669"
+    },
+    {
+      "type": "p",
+      "text": "The blacklegged tick spreads Lyme disease. WVU Extension says it lives in mixed forests and along woodland edges; larvae and nymphs feed mostly on small rodents, the white-footed mouse above all, and adults mainly on deer. Deer are not the source of the germ: [CDC says](https://www.cdc.gov/lyme/causes/index.html) they are not infected and do not infect ticks, though they help ticks survive and spread."
+    },
+    {
+      "type": "p",
+      "text": "The American dog tick is brown to reddish-brown with cream or grayish markings on its shield and feeds readily on many animals besides dogs, WVU Extension says. For sizes and markings side by side, see [how to tell the common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick, the tick WVU Extension says West Virginians encounter most often. Note the pale markings on its shield.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged ticks found in West Virginia?"
+    },
+    {
+      "type": "p",
+      "text": "In nearly every county. [CDC's county surveillance table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in 48 of the 55 counties and reported in Clay, Lincoln, Mason and Wayne; McDowell, Pendleton and Wyoming have no record. Established means six or more ticks of one life stage, or more than one stage, collected in a county within 12 months; reported means fewer. For other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "map",
+      "scope": "WV",
+      "title": "Blacklegged (deer) tick status by county, West Virginia, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "54001": "established",
+        "54003": "established",
+        "54005": "established",
+        "54007": "established",
+        "54009": "established",
+        "54011": "established",
+        "54013": "established",
+        "54015": "reported",
+        "54017": "established",
+        "54019": "established",
+        "54021": "established",
+        "54023": "established",
+        "54025": "established",
+        "54027": "established",
+        "54029": "established",
+        "54031": "established",
+        "54033": "established",
+        "54035": "established",
+        "54037": "established",
+        "54039": "established",
+        "54041": "established",
+        "54043": "reported",
+        "54045": "established",
+        "54049": "established",
+        "54051": "established",
+        "54053": "reported",
+        "54055": "established",
+        "54057": "established",
+        "54059": "established",
+        "54061": "established",
+        "54063": "established",
+        "54065": "established",
+        "54067": "established",
+        "54069": "established",
+        "54073": "established",
+        "54075": "established",
+        "54077": "established",
+        "54079": "established",
+        "54081": "established",
+        "54083": "established",
+        "54085": "established",
+        "54087": "established",
+        "54089": "established",
+        "54091": "established",
+        "54093": "established",
+        "54095": "established",
+        "54097": "established",
+        "54099": "reported",
+        "54101": "established",
+        "54103": "established",
+        "54105": "established",
+        "54107": "established"
+      },
+      "caption": "Established: six or more blacklegged ticks of one life stage, or more than one stage, collected within 12 months; reported: fewer. No record does not mean no ticks; CDC says gaps can reflect limited sampling or unreported results. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html)"
+    },
+    {
+      "type": "p",
+      "text": "The state goes further: its [2023 health advisory](https://oeps.wv.gov/media/321/download?inline) says blacklegged tick populations are established throughout West Virginia. CDC's status depends on how many ticks have been collected and reported from each county, so it lags where sampling is thin. Pendleton County has no CDC record, yet 18 of its residents were reported with Lyme disease in 2023, about 300 per 100,000 (our calculation), though cases are counted where people live, not where they were bitten."
+    },
+    {
+      "type": "p",
+      "text": "The state's field surveys show where the gaps are real. In 2021 its teams focused on the southwest to learn whether the region's very low Lyme incidence reflected low tick numbers; five of the eight sites with no blacklegged nymphs were there, including sites in Wayne and Boone counties. That may be changing: nymph numbers rose from 2021 to 2023 at sites near South Charleston, Huntington and Evans, in Jackson County, and the [state's tick report](https://oeps.wv.gov/media/71/download?inline) calls the southwest a possible emerging front for the tick."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "An adult female blacklegged tick and a much smaller nymph side by side on a person's index fingertip",
+      "caption": "An adult female blacklegged tick (left) and a nymph (right) on a fingertip. CDC compares a nymph to a poppy seed and an adult female to a sesame seed.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "h3",
+      "text": "Which germs have been found in West Virginia ticks?"
+    },
+    {
+      "type": "p",
+      "text": "The Lyme germ turns up in roughly one nymph in eight. In the state's testing, 35 of 278 blacklegged nymphs (12.6%) carried *Borrelia burgdorferi* in 2021 and 40 of 301 (13.3%) in 2023, and a Pleasants County site topped 20% in 2021. The report cites that 20%-plus level when it encourages providers to offer a preventive antibiotic after a bite from a blood-engorged deer tick."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Germ",
+        "Illness",
+        "West Virginia counties with a record"
+      ],
+      "rows": [
+        [
+          "*Borrelia burgdorferi*",
+          "Lyme disease",
+          "26 of 55"
+        ],
+        [
+          "*Borrelia miyamotoi*",
+          "Hard tick relapsing fever",
+          "3: Kanawha, Mercer, Ritchie"
+        ],
+        [
+          "*Anaplasma phagocytophilum*, human-active variant",
+          "Anaplasmosis",
+          "1: Monongalia"
+        ],
+        [
+          "*Babesia microti*",
+          "Babesiosis",
+          "1: Tucker"
+        ],
+        [
+          "*Borrelia mayonii*, *Ehrlichia muris eauclairensis*, Powassan virus",
+          "A rarer cause of Lyme disease; ehrlichiosis; Powassan virus disease",
+          "None recorded"
+        ]
+      ],
+      "caption": "Germs found in host-seeking blacklegged ticks, from [CDC's tick surveillance data sets](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) (ArboNET Tick Module), pathogen table dated April 2026. Cumulative; a county without a record is not proof the germ is absent."
+    },
+    {
+      "type": "p",
+      "text": "A germ in ticks is not illness in people. Most of the state's anaplasmosis findings were a variant that does not make people ill (9 of 301 nymphs in 2023, none with the human variant), and its report says hard tick relapsing fever and Powassan virus disease had not been detected in West Virginia."
+    },
+    {
+      "type": "h2",
+      "text": "Where are lone star ticks in West Virginia?"
+    },
+    {
+      "type": "p",
+      "text": "Mainly in the west and southwest. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html), with data through 2025, lists it as established in 13 counties and reported in 14; 28 have no record. Eleven of the 13 run from Wood County on the Ohio River south to Mingo and Logan; the other two, Grant and Hampshire, are in the east."
+    },
+    {
+      "type": "map",
+      "scope": "WV",
+      "title": "Lone star tick status by county, West Virginia, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "54003": "reported",
+        "54005": "established",
+        "54007": "reported",
+        "54009": "reported",
+        "54011": "established",
+        "54023": "established",
+        "54025": "reported",
+        "54027": "established",
+        "54031": "reported",
+        "54035": "established",
+        "54037": "reported",
+        "54039": "established",
+        "54043": "established",
+        "54045": "established",
+        "54053": "established",
+        "54059": "established",
+        "54061": "reported",
+        "54063": "reported",
+        "54065": "reported",
+        "54067": "reported",
+        "54071": "reported",
+        "54079": "established",
+        "54093": "reported",
+        "54095": "reported",
+        "54097": "reported",
+        "54099": "established",
+        "54107": "established"
+      },
+      "caption": "Established: six or more lone star ticks of one life stage, or more than one stage, collected within 12 months; reported: recorded in smaller numbers. No record does not mean no ticks; it can mean no one has sampled there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "p",
+      "text": "The state's field surveys agree: from 2021 through 2023 they found lone star ticks predominantly confined to the southwest, with the most nymphs at sites in Kanawha, Putnam, Jackson and Cabell counties and none at sites in northern, central or southeastern counties. Nymph numbers fell over those years at the sites revisited near Huntington, Eleanor and Evans."
+    },
+    {
+      "type": "p",
+      "text": "Not every state source puts it that way: the health department's [2025 alpha-gal advisory](https://oeps.wv.gov/media/269/download?inline) calls the lone star tick common in West Virginia. Part of the gap is definitional, since CDC's established label requires a minimum number of ticks collected within 12 months, and the state's teams sample a limited number of sites each year."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick. WVU Extension identifies adult females by the single white spot on the shield.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "The lone star tick does not spread Lyme disease; [CDC's guidance for clinicians](https://www.cdc.gov/lyme/resources/pdfs/lyme-pep-low-ink-p.pdf) says only *Ixodes* ticks such as the blacklegged tick do in the United States. The state's report found that human ehrlichiosis cases followed this tick's range, in counties such as Kanawha, Cabell, Wayne, Jackson and Putnam. Its bite is also linked to alpha-gal syndrome, an allergy to red meat; see [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome)."
+    },
+    {
+      "type": "h2",
+      "text": "Is the Asian longhorned tick in West Virginia?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, in most counties. The [USDA's national situation report](https://tickapp.tamu.edu/wp-content/uploads/sites/30/2025/05/Longhorned-Tick-SitRep-2025-04-22.pdf), as of April 22, 2025, lists confirmed local populations in 35 of West Virginia's 55 counties, second only to Virginia's 51 of 134. West Virginia also has the earliest collection date in USDA's national table: ticks taken from a white-tailed deer in Tyler County on August 31, 2010, confirmed as longhorned ticks only in June 2018. The state's first confirmation came on May 21, 2018, from ticks found on a cow in Hardy County."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "A small Asian longhorned tick nymph and a larger adult female, both plain reddish-brown, resting on a U.S. dime",
+      "caption": "An Asian longhorned tick nymph (left) and adult female (right), photographed on a U.S. dime for scale.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "Its risk to people is unclear. [CDC's guide to where ticks live](https://www.cdc.gov/ticks/about/where-ticks-live.html) says it is not yet known whether, or how often, these ticks pass germs to people; in a laboratory study the tick could carry and spread the bacteria that cause Rocky Mountain spotted fever, which have not been found in these ticks in nature. USDA calls it a serious livestock pest elsewhere that builds heavy infestations, causing stress, poor growth and severe blood loss, and a single fed female can start a population without a male. In the state's 2021 to 2023 submissions, longhorned ticks came from animals, mostly cats and dogs, and never from a person."
+    },
+    {
+      "type": "h3",
+      "text": "How do you report an Asian longhorned tick in West Virginia?"
+    },
+    {
+      "type": "p",
+      "text": "Through a veterinarian or your local health department. Veterinarians send ticks from animal patients to the state's Zoonotic Disease Program through the West Virginia Veterinary Tick Submission Project; residents can give a dead tick, noting where and when it was found, to the local health department, which forwards it to the state public health entomologist, the [state's 2021-2023 tick report](https://oeps.wv.gov/media/71/download?inline) says."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does West Virginia have?"
+    },
+    {
+      "type": "p",
+      "text": "West Virginia reported 3,242 Lyme disease cases in 2023, a rate of 181.6 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). By our ranking of CDC's state figures, that was the sixth-highest count, 3 above Connecticut's 3,239, and the fourth-highest rate, behind Rhode Island, Vermont and Maine. It was also the state's largest count in CDC's file, which begins in 2008."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in West Virginia, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            135,
+            201,
+            145,
+            118,
+            97,
+            143,
+            136,
+            289,
+            368,
+            648,
+            671,
+            885,
+            1065,
+            1792,
+            2470,
+            3242
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "A revised case definition took effect in 2022, so 2022 and 2023 are not directly comparable with earlier years; CDC says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions. Data through 2023, the latest CDC year as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)"
+    },
+    {
+      "type": "p",
+      "text": "The climb began well before counting changed. Cases rose from 136 in 2014 to 1,792 in 2021, about 13 times as many (our calculation), and kept rising through 2020, a year in which CDC's counts for Pennsylvania, Maryland and Virginia fell. The state's [2023 health advisory](https://oeps.wv.gov/media/321/download?inline) says it became a high-incidence Lyme state in 2017 and gives the 2021 rate as 100.14 per 100,000; CDC's file has 100.5, and this page uses CDC's figures."
+    },
+    {
+      "type": "p",
+      "text": "Read 2022 and 2023 with care. Under a case definition revised in 2022, high-incidence states such as West Virginia may report cases on laboratory evidence alone, and [CDC's report on the change](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) says this rules out robust comparison with earlier years. West Virginia's 2,470 cases in 2022 were 236.1% above its 2017 to 2019 average of 735, against a 72.9% rise across all high-incidence jurisdictions. The state's advisory adds that its Lyme counts rest entirely on laboratory reports, not on reports from clinicians."
+    },
+    {
+      "type": "p",
+      "text": "The state's newer counts are provisional: 4,019 Lyme cases in 2025 by November 14, already above CDC's 2023 figure, and 2,897 in 2026 as of September 24, with cases in all 55 counties, according to its [2025 surveillance report](https://oeps.wv.gov/media/21/download?inline) and [2026 surveillance report](https://oeps.wv.gov/media/1989/download?inline). CDC's state figures run through 2023 as of October 2026, so comparisons here use 2023."
+    },
+    {
+      "type": "h3",
+      "text": "How does West Virginia compare with its neighbors?"
+    },
+    {
+      "type": "p",
+      "text": "It has the highest rate in its region. In 2023 West Virginia's rate was about 1.4 times Pennsylvania's, 4.5 times Maryland's, 9 times Virginia's, 16 times Ohio's and 67 times Kentucky's (our calculation from CDC's rates)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Cases per 100,000, 2023"
+      ],
+      "rows": [
+        [
+          "West Virginia",
+          "3,242",
+          "181.6"
+        ],
+        [
+          "[Pennsylvania](/blog/ticks-in-pennsylvania)",
+          "16,671",
+          "128.1"
+        ],
+        [
+          "[Maryland](/blog/ticks-in-maryland)",
+          "2,470",
+          "40.0"
+        ],
+        [
+          "[Virginia](/blog/ticks-in-virginia)",
+          "1,747",
+          "20.2"
+        ],
+        [
+          "[Ohio](/blog/ticks-in-ohio)",
+          "1,307",
+          "11.1"
+        ],
+        [
+          "[Kentucky](/blog/ticks-in-kentucky)",
+          "120",
+          "2.7"
+        ]
+      ],
+      "caption": "Confirmed and probable cases by state of residence, from [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Pennsylvania, Maryland and Virginia are CDC high-incidence states; Ohio and Kentucky are not. Data through 2023."
+    },
+    {
+      "type": "h2",
+      "text": "Which West Virginia counties have the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Relative to population, counties in the north, center and southeast; rates are lowest in the south and southwest. In 2023 Tucker County recorded about 742 cases per 100,000 residents, Webster 697, Marshall 553 and Upshur 501, roughly three to four times the state rate. The map shows every county's rate, calculated by BuzzSkito from [CDC's county-level Lyme data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) and [Census Bureau population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)."
+    },
+    {
+      "type": "map",
+      "scope": "WV",
+      "title": "Lyme disease cases per 100,000 residents by county, West Virginia, 2023",
+      "categories": [
+        {
+          "key": "500plus",
+          "label": "500 or more"
+        },
+        {
+          "key": "250to499",
+          "label": "250 to 499"
+        },
+        {
+          "key": "100to249",
+          "label": "100 to 249"
+        },
+        {
+          "key": "under100",
+          "label": "Under 100"
+        }
+      ],
+      "values": {
+        "54001": "250to499",
+        "54003": "under100",
+        "54005": "under100",
+        "54007": "250to499",
+        "54009": "250to499",
+        "54011": "under100",
+        "54013": "250to499",
+        "54015": "100to249",
+        "54017": "250to499",
+        "54019": "100to249",
+        "54021": "250to499",
+        "54023": "250to499",
+        "54025": "100to249",
+        "54027": "100to249",
+        "54029": "250to499",
+        "54031": "100to249",
+        "54033": "100to249",
+        "54035": "100to249",
+        "54037": "under100",
+        "54039": "under100",
+        "54041": "250to499",
+        "54043": "100to249",
+        "54045": "under100",
+        "54047": "under100",
+        "54049": "250to499",
+        "54051": "500plus",
+        "54053": "under100",
+        "54055": "100to249",
+        "54057": "100to249",
+        "54059": "under100",
+        "54061": "100to249",
+        "54063": "250to499",
+        "54065": "100to249",
+        "54067": "100to249",
+        "54069": "250to499",
+        "54071": "250to499",
+        "54073": "100to249",
+        "54075": "250to499",
+        "54077": "250to499",
+        "54079": "under100",
+        "54081": "under100",
+        "54083": "250to499",
+        "54085": "250to499",
+        "54087": "100to249",
+        "54089": "250to499",
+        "54091": "100to249",
+        "54093": "500plus",
+        "54095": "250to499",
+        "54097": "500plus",
+        "54099": "under100",
+        "54101": "500plus",
+        "54103": "250to499",
+        "54105": "250to499",
+        "54107": "100to249",
+        "54109": "under100"
+      },
+      "caption": "Cases by county of residence. Rates are BuzzSkito's calculation: CDC's 2023 county counts divided by Census Bureau July 1, 2023 estimates (Vintage 2025). CDC's county file places 3,233 of the state's 3,242 cases, and CDC's statewide 181.6 uses a different population estimate. Small counties swing: Tucker's 49 cases came from about 6,600 people.",
+      "source": "[CDC county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html), 2023; [U.S. Census Bureau county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Lyme cases, 2023",
+        "Cases per 100,000"
+      ],
+      "rows": [
+        [
+          "Tucker",
+          "49",
+          "741.7"
+        ],
+        [
+          "Webster",
+          "56",
+          "697.2"
+        ],
+        [
+          "Marshall",
+          "163",
+          "552.9"
+        ],
+        [
+          "Upshur",
+          "118",
+          "500.6"
+        ],
+        [
+          "Tyler",
+          "37",
+          "467.8"
+        ],
+        [
+          "Preston",
+          "155",
+          "455.1"
+        ],
+        [
+          "Monroe",
+          "56",
+          "451.8"
+        ],
+        [
+          "Barbour",
+          "66",
+          "427.2"
+        ],
+        [
+          "Summers",
+          "49",
+          "422.6"
+        ],
+        [
+          "Calhoun",
+          "25",
+          "418.4"
+        ]
+      ],
+      "caption": "The ten highest county rates in 2023, BuzzSkito's calculation. Sources as for the map."
+    },
+    {
+      "type": "p",
+      "text": "Raw counts follow population instead. Monongalia County, home to Morgantown, had the most cases in 2023 (196), followed by Marion (179), Kanawha and Marshall (163 each) and Ohio County (160). Kanawha's rate of 93.4 was about half the state's, and the lowest rates were in Logan (16.2), Wyoming (19.7), McDowell (40.1) and Mingo (40.9) counties."
+    },
+    {
+      "type": "p",
+      "text": "The map has turned around in a decade. In 2013, four eastern counties, Berkeley, Morgan, Jefferson and Hampshire, had 108 of the 137 cases CDC's county file places in a West Virginia county, and only 23 counties recorded any. All 55 recorded cases in 2021 and again in 2023, when those four eastern counties had 243 of 3,233, about 7.5% (our calculation from CDC's county data; 7.7% in 2021, before the 2022 definition change)."
+    },
+    {
+      "type": "p",
+      "text": "Two cautions apply to any county figure. Cases are counted where the patient lives, not necessarily where the bite happened, as [CDC's Lyme case map page](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) notes. And single years swing: Hancock County reported 76 cases in 2021, 38 in 2022 and 81 in 2023."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in West Virginia?"
+    },
+    {
+      "type": "p",
+      "text": "Anaplasmosis, ehrlichiosis and spotted fever rickettsiosis, all far rarer than Lyme disease but rising. In [CDC's county-level file for 2019 to 2022](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html), West Virginia residents had 41 cases of spotted fever rickettsiosis, 27 of *Ehrlichia chaffeensis* ehrlichiosis, 10 of anaplasmosis, 2 of tularemia and no babesiosis over the four years, against 5,618 Lyme cases."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Ticks that spread it here",
+        "Cases, 2019 to 2022 (CDC)",
+        "2026 through September 24 (state, provisional)"
+      ],
+      "rows": [
+        [
+          "Anaplasmosis",
+          "Blacklegged tick",
+          "10",
+          "99, in 32 counties"
+        ],
+        [
+          "Ehrlichiosis",
+          "Lone star tick",
+          "27 (*E. chaffeensis*)",
+          "81, in 20 counties"
+        ],
+        [
+          "Spotted fever rickettsiosis (includes Rocky Mountain spotted fever)",
+          "American dog, lone star and brown dog ticks",
+          "41",
+          "35, in 9 counties"
+        ],
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "0",
+          "3, in 3 counties"
+        ],
+        [
+          "Alpha-gal syndrome",
+          "Lone star tick",
+          "Not reportable until June 2025",
+          "107, in 17 counties"
+        ],
+        [
+          "Tularemia",
+          "American dog and lone star ticks",
+          "2",
+          "Not listed"
+        ]
+      ],
+      "caption": "CDC counts are by county of residence, and not every disease is reportable everywhere every year. 2026: confirmed and probable cases in the state's [September 2026 surveillance report](https://oeps.wv.gov/media/1989/download?inline), which lists ehrlichiosis without naming the species. Ticks: the state's tick report and alpha-gal advisory."
+    },
+    {
+      "type": "p",
+      "text": "Anaplasmosis has the steepest documented climb. The state's [May 2025 health advisory](https://oeps.wv.gov/media/267/download?inline) counted 17 cases in 2023 and 29 in 2024, said 62% of 2024 patients were hospitalized and that the disease is spreading west from eastern West Virginia; the provisional count reached 51 by November 14, 2025. Babesiosis is emerging too: four of the state's eight cases since 2017 came in 2024."
+    },
+    {
+      "type": "p",
+      "text": "Ehrlichiosis follows the lone star tick. Of the 27 *E. chaffeensis* cases in CDC's 2019 to 2022 file, 24 were among residents of the 13 counties where CDC lists that tick as established, led by Cabell (6), Kanawha (5) and Mason (4), by our tally. Spotted fever was more scattered, across 20 counties, with Raleigh's 7 the most."
+    },
+    {
+      "type": "p",
+      "text": "Alpha-gal syndrome, an allergy to a sugar in red meat and other mammal products, became reportable in June 2025, the state's [September 2025 advisory](https://oeps.wv.gov/media/269/download?inline) says; symptoms typically begin 2 to 6 hours after eating them. Some illnesses found in neighboring states, including hard tick relapsing fever and Powassan, Heartland and Bourbon virus diseases, had not been detected in West Virginia as of the state's tick report."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in West Virginia?"
+    },
+    {
+      "type": "p",
+      "text": "Spring through fall, with the riskiest weeks in late spring and early summer. The state's [2023 health advisory](https://oeps.wv.gov/media/321/download?inline) says blacklegged nymphs begin to emerge in mid-May and most people who get Lyme disease are infected in June. CDC's prevention advice, repeated in the [state's tick report](https://oeps.wv.gov/media/71/download?inline), treats April through September as the months when ticks and people are most active."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Time of year",
+        "Blacklegged (deer) tick",
+        "What else to know"
+      ],
+      "rows": [
+        [
+          "Winter (December to February)",
+          "Adults may seek hosts whenever temperatures are above freezing",
+          "American dog tick risk peaks in spring and summer instead"
+        ],
+        [
+          "Early spring (March and April)",
+          "Adults most active; nymphs start seeking hosts in April",
+          "CDC's April to September peak begins"
+        ],
+        [
+          "Late spring and summer (May to August)",
+          "Nymphs active through July; here they emerge in mid-May",
+          "Most Lyme infections happen in June, the state says"
+        ],
+        [
+          "Fall (September to November)",
+          "Adults active again",
+          "The peak ends in September; the state warns of risk into early fall"
+        ]
+      ],
+      "caption": "Life stages: CDC on [how Lyme disease spreads](https://www.cdc.gov/lyme/causes/index.html) and [where ticks live](https://www.cdc.gov/ticks/about/where-ticks-live.html). West Virginia timing: the state's 2023 advisory and tick report."
+    },
+    {
+      "type": "h2",
+      "text": "Where can you get a tick identified in West Virginia?"
+    },
+    {
+      "type": "p",
+      "text": "The [state's 2021-2023 tick surveillance report](https://oeps.wv.gov/media/71/download?inline) describes the route: you give the dead tick, with where and when it was found and your contact details, to your local health department, which sends it to the state public health entomologist, who returns the species and a list of germs that species can carry. The state's September 2026 report still counts public submissions. Questions about its tick surveillance go to the Zoonotic Disease Program at 304-558-5358."
+    },
+    {
+      "type": "p",
+      "text": "The report says these ticks were not tested for germs, and testing would settle little. [CDC's tick-bite guidance](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) says tick testing is generally not recommended: tick-testing labs are not held to clinical standards, a positive tick does not mean you were infected, a negative result can falsely reassure, and an ill person should not wait for results before treatment."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in West Virginia?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick right away, then watch for a rash or fever over the next several weeks. [CDC's guidance on what to do after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) describes removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grip the tick with clean, fine-tipped tweezers as close to the skin as you can.",
+        "Pull it away with steady, even pressure, without twisting or jerking. If mouthparts break off and will not come out easily, leave them; the skin usually pushes them out.",
+        "Do not use petroleum jelly, heat, nail polish or other substances to make the tick let go.",
+        "Clean the bite and your hands with soap and water, rubbing alcohol or hand sanitizer, and check for other ticks.",
+        "Do not crush the tick with your fingers; seal it in a container, wrap it in tape, put it in alcohol or flush it."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For more detail, see [the step-by-step tick removal guide](/blog/how-to-remove-tick-safely). Speed matters: [CDC says](https://www.cdc.gov/lyme/causes/index.html) that in most cases a tick must be attached for more than 24 hours before it can pass on the Lyme germ, so removing it within a day greatly lowers the risk."
+    },
+    {
+      "type": "p",
+      "text": "A single preventive dose of antibiotic may be an option in a high-incidence state like West Virginia. [CDC's guidance for clinicians](https://www.cdc.gov/lyme/resources/pdfs/lyme-pep-low-ink-p.pdf) says one dose of doxycycline can be considered when the bite happened where Lyme disease is common, the tick was removed within the last 72 hours, it was engorged rather than flat, it was or may have been a blacklegged tick, and the patient has no reason to avoid doxycycline. The state's 2023 advisory encourages providers to consider following that guidance and notes the dose has been shown to help prevent only Lyme disease, not anaplasmosis, Rocky Mountain spotted fever or ehrlichiosis. A provider decides whether it fits."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/tick-unfed-vs-engorged.webp",
+      "width": 1200,
+      "height": 790,
+      "alt": "Two Ixodes ticks on a pale blue background: a small, dark brown male on the left and a much larger, swollen, cream-colored female on the right",
+      "caption": "A male (left) and a female swollen by a recent blood meal (right), both of the genus *Ixodes*, which includes the blacklegged tick. CDC's guidance treats a deer tick engorged like this female as a higher Lyme risk than a flat one.",
+      "credit": "CDC/ Margaret A. Parsons; photo: Dr. George Anastos; Dept. of Zoology; Univ. of Maryland (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23451"
+    },
+    {
+      "type": "p",
+      "text": "Then watch for a rash. [CDC says](https://www.cdc.gov/lyme/signs-symptoms/index.html) the erythema migrans rash appears in about 70% to 80% of infected people, starts at the bite 3 to 30 days later (about 7 days on average) and can grow to 12 inches or more across; it may feel warm but is rarely itchy or painful, and only sometimes looks like a bull's-eye. Fever, chills, headache, fatigue, muscle and joint aches and swollen lymph nodes can come with or without it. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Large oval red rash with a darker red center and a fainter outer ring on the back of a woman's upper arm",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease. CDC's image library describes this 2007 photograph as a bull's-eye rash at a tick bite on a woman's upper arm.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "p",
+      "text": "Other tick-borne illnesses here often start like the flu: the state's May 2025 advisory warns that anaplasmosis can rapidly worsen if untreated and urges prompt care for flu-like symptoms after tick exposure."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you feel ill",
+      "text": "A rash, fever, chills, headache or body aches in the weeks after a tick bite or time outdoors is a reason to see a provider and mention the tick. Do not wait for a tick identification. This page summarizes public health guidance and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in West Virginia?"
+    },
+    {
+      "type": "p",
+      "text": "Use repellent or treated clothing, stay out of brush and check everyone after time outdoors. The state's [alpha-gal advisory](https://oeps.wv.gov/media/269/download?inline) lists the steps providers are asked to teach:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Avoid tick habitat.** Stay out of wooded and brushy areas with tall grass and leaf litter.",
+        "**Use treated clothing or repellent.** Wear clothing treated with 0.5% permethrin, or use an EPA-registered repellent such as DEET, following the label.",
+        "**Check for ticks.** Check yourself, children and pets after outdoor activity.",
+        "**Shower and dry.** Shower within 2 hours of being outdoors and tumble-dry clothing on high heat.",
+        "**Protect pets.** Keep pets on a tick preventive your veterinarian recommends."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "WVU Extension calls regular tick checks the most effective protection, and advises hikers to keep to the center of trails, away from weeds and tall grass, and to wear light-colored clothing that makes ticks easier to spot. For pets, [ticks on dogs](/blog/ticks-on-dogs) covers where ticks hide and how preventives work."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are ticks active in West Virginia in the winter?",
+      "answer": "Adult blacklegged ticks can be. CDC says adults may search for a host any time winter temperatures are above freezing, and that they are most active in early spring and fall. Most tick-borne illness in West Virginia still comes in the warmer months: the state says blacklegged nymphs begin to emerge in mid-May and that most people who get Lyme disease are infected in June. A tick check after a mild winter day in the woods is still worthwhile."
+    },
+    {
+      "question": "Which West Virginia county has the most Lyme disease?",
+      "answer": "It depends on whether you count cases or rates. Monongalia County had the most cases in 2023, 196, followed by Marion County with 179. Relative to population, Tucker County was highest at about 742 cases per 100,000 residents, followed by Webster and Marshall counties, by our calculation from CDC county counts and Census population estimates. The lowest rates were in Logan and Wyoming counties. Cases are counted where patients live, not where they were bitten."
+    },
+    {
+      "question": "Can a tick bite in West Virginia cause a red meat allergy?",
+      "answer": "Yes. Alpha-gal syndrome, an allergy to a sugar found in red meat and other mammal products, is linked mainly to lone star tick bites, and West Virginia made it a reportable condition in June 2025. By September 24, 2026, the state had counted 107 confirmed and probable cases for the year, in 17 counties. Symptoms typically begin 2 to 6 hours after eating mammal products. CDC lists the lone star tick as established in 13 West Virginia counties, mostly in the west and southwest."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in West Virginia?",
+      "answer": "The state's 2021-2023 tick report describes identification, not germ testing: residents give a dead tick to their local health department, which forwards it to the state public health entomologist, who returns the species and the germs that species can carry. CDC says tick testing is generally not recommended, because a positive tick does not mean you were infected and a negative result can give false assurance. If you feel ill after a bite, see a health care provider rather than waiting."
+    },
+    {
+      "question": "What should I do if I find an Asian longhorned tick in West Virginia?",
+      "answer": "Remove an attached tick with fine-tipped tweezers and keep it. The state's 2021-2023 tick report describes two routes: veterinarians send ticks from animals through the West Virginia Veterinary Tick Submission Project, and residents give a dead tick to their local health department to forward to the state entomologist. USDA listed confirmed longhorned tick populations in 35 of the state's 55 counties as of April 2025. CDC says it is not yet known whether, or how often, these ticks make people sick."
+    },
+    {
+      "question": "Should I see a doctor after a tick bite in West Virginia?",
+      "answer": "Ask a provider if the tick may have been a deer tick, was engorged with blood and was removed within the last 72 hours: CDC's guidance says a single dose of doxycycline can then be considered, and West Virginia's health department encourages providers to consider following it. Also see a provider if a rash, fever, chills, headache or body aches appear in the weeks after a bite, and mention the tick."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (cases by county of residence, 2019-2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "Where Ticks Live",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/about/where-ticks-live.html"
+    },
+    {
+      "title": "How Lyme Disease Spreads",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "Signs and Symptoms of Untreated Lyme Disease",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/signs-symptoms/index.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "Lyme Disease Prophylaxis After Tick Bite (guidance for clinicians)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/resources/pdfs/lyme-pep-low-ink-p.pdf"
+    },
+    {
+      "title": "County Population Totals and Components of Change: 2020-2025",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html"
+    },
+    {
+      "title": "National Haemaphysalis longicornis (Asian longhorned tick) Situation Report, as of April 22, 2025",
+      "publisher": "USDA Animal and Plant Health Inspection Service (copy hosted by Texas A&M AgriLife's TickApp)",
+      "url": "https://tickapp.tamu.edu/wp-content/uploads/sites/30/2025/05/Longhorned-Tick-SitRep-2025-04-22.pdf"
+    },
+    {
+      "title": "2021-2023 West Virginia Tick Surveillance Report (2025)",
+      "publisher": "West Virginia Office of Epidemiology and Prevention Services, Zoonotic Disease Program",
+      "url": "https://oeps.wv.gov/media/71/download?inline"
+    },
+    {
+      "title": "Health Advisory #213: Lyme Disease and Other Tickborne Diseases in West Virginia (May 3, 2023)",
+      "publisher": "West Virginia Department of Health and Human Resources, Bureau for Public Health",
+      "url": "https://oeps.wv.gov/media/321/download?inline"
+    },
+    {
+      "title": "Health Advisory #227: Increase in Emerging Tickborne Disease Cases in West Virginia (May 20, 2025)",
+      "publisher": "West Virginia Bureau for Public Health",
+      "url": "https://oeps.wv.gov/media/267/download?inline"
+    },
+    {
+      "title": "Health Advisory #229: Alpha-gal Syndrome is Now Reportable in West Virginia (September 11, 2025)",
+      "publisher": "West Virginia Department of Health, Bureau for Public Health",
+      "url": "https://oeps.wv.gov/media/269/download?inline"
+    },
+    {
+      "title": "West Virginia Vectorborne Disease Surveillance Report, January 1 - September 24, 2026 (provisional)",
+      "publisher": "West Virginia Office of Epidemiology and Prevention Services, Zoonotic Disease Program",
+      "url": "https://oeps.wv.gov/media/1989/download?inline"
+    },
+    {
+      "title": "West Virginia Vectorborne Disease Surveillance Report, January 1 - November 14, 2025 (provisional)",
+      "publisher": "West Virginia Office of Epidemiology and Prevention Services, Zoonotic Disease Program",
+      "url": "https://oeps.wv.gov/media/21/download?inline"
+    },
+    {
+      "title": "Ticks (page last updated May 14, 2026)",
+      "publisher": "West Virginia University Extension",
+      "url": "https://extension.wvu.edu/lawn-gardening-pests/pests/tick"
+    }
+  ],
+  "disclaimer": "both"
+}

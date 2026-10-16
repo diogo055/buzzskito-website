@@ -1,0 +1,899 @@
+{
+  "slug": "ticks-in-maryland",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in maryland",
+  "alsoTargets": [
+    "types of ticks in maryland",
+    "tick season maryland",
+    "lyme disease maryland"
+  ],
+  "metaTitle": "Ticks in Maryland: Species, Lyme Map and Season",
+  "metaDescription": "Deer ticks are established in 22 of Maryland's 23 counties, and the state reported 2,470 Lyme cases in 2023. Tick photos, county maps, season and ID help.",
+  "h1": "Ticks in Maryland: Species, Where They Are, Disease Data and Tick Season",
+  "dek": "Which ticks Marylanders meet most, where blacklegged and lone star ticks are established county by county, where Lyme disease is highest, when each tick is active, and where to get a tick identified.",
+  "breadcrumb": "Ticks in Maryland",
+  "excerpt": "Blacklegged ticks are established in 22 of Maryland's 23 counties. Species photos, Lyme rates by county, tick season by month and where to get a tick identified.",
+  "datePublished": "2026-10-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**University of Maryland Extension lists six tick species in Maryland, and the blacklegged (deer) tick, which spreads Lyme disease, is established in 22 of the state's 23 counties.** Maryland reported 2,470 Lyme cases in 2023, according to [CDC surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Lone star ticks made up 56% of the ticks residents mailed to the state for identification in 2009 to 2011.",
+    "bullets": [
+      "CDC's county tables, which run through 2025, list lone star ticks as established in 18 counties and reported in 3 more and in Baltimore City; Garrett and Allegany, the two westernmost counties, have no record.",
+      "Relative to population, 2023 Lyme rates were highest in Garrett (about 305 per 100,000) and Allegany (about 228) counties and lowest in Prince George's County and Baltimore City.",
+      "The state health department says more than 3,000 Lyme cases were reported in 2024; CDC's published state figures run through 2023 as of October 2026.",
+      "Ehrlichiosis, which lone star ticks spread, was the next most reported tick-borne disease in 2019 to 2022, mostly among residents of Anne Arundel County, Southern Maryland and the Eastern Shore.",
+      "University of Maryland Extension lists adult deer ticks as active all year and nymphs from May through August, and says ticks are active on any day above freezing.",
+      "As of October 2026, the state health department (through Johns Hopkins) and the Maryland Department of Agriculture identify mailed-in ticks; neither says it tests them for germs."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Maryland at a glance",
+    "rows": [
+      [
+        "Tick species in Maryland",
+        "Six (University of Maryland Extension, October 2024)"
+      ],
+      [
+        "Most common tick mailed in for identification",
+        "Lone star tick, 56% of submitted ticks, ahead of American dog (17%) and blacklegged (16%), 2009 to 2011"
+      ],
+      [
+        "Counties with established blacklegged ticks",
+        "22 of 23; Allegany reported, Baltimore City no record (CDC, through December 2025)"
+      ],
+      [
+        "Counties with established lone star ticks",
+        "18 of 23; reported in 3 more and in Baltimore City (CDC, through 2025)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "2,470 in 2023 (CDC); more than 3,000 in 2024 (state count)"
+      ],
+      [
+        "Lyme rate",
+        "40.0 per 100,000 in 2023, 13th among states (CDC data)"
+      ],
+      [
+        "Highest county rate, 2023",
+        "Garrett County, about 305 per 100,000 (87 cases; BuzzSkito's calculation from CDC and Census data)"
+      ],
+      [
+        "Most cases by county, 2023",
+        "Baltimore County, 414"
+      ],
+      [
+        "Next most reported tick-borne disease",
+        "Ehrlichiosis (*E. chaffeensis*): 254 cases in 2019 to 2022 (CDC, by county of residence)"
+      ],
+      [
+        "Asian longhorned tick",
+        "First found in 2018, in Washington County (UMD Extension; CDC)"
+      ],
+      [
+        "Tick season",
+        "Spring through fall; adult deer ticks are active on winter days above freezing"
+      ],
+      [
+        "Tick identification",
+        "By mail through the state health department (Johns Hopkins) or the Maryland Department of Agriculture; neither says it tests ticks for germs (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Maryland?"
+    },
+    {
+      "type": "p",
+      "text": "University of Maryland Extension lists six tick species in the state and says most of them can transmit disease: the blacklegged (deer) tick, the lone star tick, the American dog tick, the brown dog tick, the Gulf Coast tick and the invasive Asian longhorned tick. Its [guide to ticks in Maryland](https://extension.umd.edu/resource/ticks-maryland), updated in October 2024, tells them apart by the shape, color and pattern of the shield, or scutum, behind the head."
+    },
+    {
+      "type": "p",
+      "text": "Which ones do people actually find? One published count comes from ticks Marylanders mailed to the Maryland Department of Agriculture for identification. In 2009 to 2011, lone star ticks made up 56% of those submissions, American dog ticks 17% and blacklegged ticks 16%, according to a [study of the agriculture department's records](https://cste.confex.com/cste/2013/webprogram/Paper1228.html) by researchers from the state health and agriculture departments and Johns Hopkins, presented in 2013. The authors note that mailed-in ticks are a convenience sample, not representative of all the ticks in the state."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where it lives in Maryland",
+        "When adults are active",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Mostly deciduous forest; established in 22 of 23 counties",
+          "All year",
+          "Lyme disease, anaplasmosis, babesiosis, Powassan disease"
+        ],
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Woodlands with dense undergrowth and around animal resting areas; established in 18 counties",
+          "April to late August",
+          "Human ehrlichiosis, tularemia, southern tick-associated rash illness, meat allergy"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Areas with little or no tree cover",
+          "April to early August",
+          "Rocky Mountain spotted fever, tularemia, tick paralysis"
+        ],
+        [
+          "Brown dog tick, *Rhipicephalus sanguineus*",
+          "Mainly on dogs; sometimes found in homes",
+          "All year",
+          "Rocky Mountain spotted fever; canine ehrlichiosis and canine babesiosis"
+        ],
+        [
+          "Gulf Coast tick, *Amblyomma maculatum*",
+          "Grass prairies and coastal uplands; not very common in Maryland",
+          "Not listed",
+          "*Rickettsia parkeri* spotted fever"
+        ],
+        [
+          "Asian longhorned tick, *Haemaphysalis longicornis*",
+          "Invasive; first found in Maryland in 2018; prefers wildlife and livestock",
+          "Not listed",
+          "Bovine theileriosis and babesiosis in livestock"
+        ]
+      ],
+      "caption": "Habitats, seasons and diseases as listed by [University of Maryland Extension](https://extension.umd.edu/resource/ticks-maryland); livestock diseases from its [Asian longhorned tick fact sheet](https://extension.umd.edu/resource/asian-longhorned-tick). County counts: CDC, data through 2025."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-life-stages.webp",
+      "width": 1200,
+      "height": 793,
+      "alt": "Three blacklegged ticks on a blue-green surface: a large adult female with a reddish body behind a dark shield, and two much smaller immature ticks",
+      "caption": "Blacklegged (deer) ticks at different life stages. The adult female (top) has a reddish body behind a dark shield; the immature stages are far smaller.",
+      "credit": "CDC/ Michael L. Levin, Ph. D. (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1205"
+    },
+    {
+      "type": "p",
+      "text": "The blacklegged tick is the one that spreads Lyme disease. UMD Extension calls it the primary carrier and says its range follows that of its reproductive host, the white-tailed deer: adults feed on deer during the winter, while larvae and nymphs feed through the summer on small mammals such as chipmunks, voles and their preferred host, the white-footed mouse. For a side-by-side look at sizes and markings, see [how to tell the common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "p",
+      "text": "The American dog tick is easier to recognize: UMD Extension describes large whitish markings on its oval shield and says it commonly feeds on dogs and people. The brown dog tick prefers dogs and is sometimes found in homes, and the Gulf Coast tick is not very common in the state."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a green blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. The pale markings on its shield set it apart from the plain dark shield of a blacklegged tick.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged ticks found in Maryland?"
+    },
+    {
+      "type": "p",
+      "text": "Nearly everywhere. [CDC's county surveillance table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in 22 of Maryland's 23 counties. Allegany County is listed as reported, and Baltimore City has no record. Established means six or more ticks of one life stage, or more than one life stage, were collected in a county within 12 months; reported means fewer than six of one life stage. To compare other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "p",
+      "text": "Treat the table as a record of where ticks have been collected, not a risk map. Allegany County had the second-highest Lyme rate in the state in 2023, yet the table lists the tick there only as reported. CDC says a county without a record should not be read as tick-free, because gaps can reflect limited sampling or results that were never reported or published, and status is cumulative: once a county is established, it stays established. In the state's 2009 to 2011 records of mailed-in ticks, most blacklegged ticks came from counties west of the Chesapeake Bay."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "An adult female blacklegged tick and a far smaller nymph side by side on a person's index fingertip",
+      "caption": "An adult female blacklegged tick (left) and a nymph (right) on a fingertip, for scale.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "h3",
+      "text": "Which germs have been found in Maryland ticks?"
+    },
+    {
+      "type": "p",
+      "text": "CDC's companion table records where each germ has been found in host-seeking blacklegged ticks, meaning ticks hunting for a host rather than feeding on one. It is cumulative too, and a county without a record is not proof the germ is absent."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Germ",
+        "Illness",
+        "Maryland counties with a record"
+      ],
+      "rows": [
+        [
+          "*Borrelia burgdorferi*",
+          "Lyme disease",
+          "10: Caroline, Cecil, Frederick, Garrett, Howard, Kent, Montgomery, Queen Anne's, Somerset, Wicomico"
+        ],
+        [
+          "*Borrelia miyamotoi*",
+          "Hard tick relapsing fever",
+          "7: Anne Arundel, Cecil, Frederick, Garrett, Howard, Montgomery, Prince George's"
+        ],
+        [
+          "*Babesia microti*",
+          "Babesiosis",
+          "3: Garrett, Howard, Prince George's"
+        ],
+        [
+          "*Anaplasma phagocytophilum*, human-active variant",
+          "Anaplasmosis",
+          "2: Frederick, Garrett"
+        ],
+        [
+          "*Borrelia mayonii*, *Ehrlichia muris eauclairensis*, Powassan virus",
+          "A rarer cause of Lyme disease; ehrlichiosis; Powassan virus disease",
+          "None recorded"
+        ]
+      ],
+      "caption": "Source: [CDC tick surveillance data sets](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html) (ArboNET Tick Module), pathogen table dated April 2026."
+    },
+    {
+      "type": "p",
+      "text": "Read the blanks with care. Baltimore County reported more Lyme cases than any other Maryland county in 2023, yet the table has no record of the Lyme germ in its ticks, while Garrett County, with the state's highest Lyme rate, has records for four of the germs."
+    },
+    {
+      "type": "h2",
+      "text": "Where are lone star ticks in Maryland?"
+    },
+    {
+      "type": "p",
+      "text": "Across central, southern and eastern Maryland, but not yet on record in the far west. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html), with data through 2025, lists the species as established in 18 of the 23 counties and reported in Carroll, Talbot and Washington counties and in Baltimore City. Garrett and Allegany counties have no record."
+    },
+    {
+      "type": "map",
+      "scope": "MD",
+      "title": "Lone star tick status by county, Maryland, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "24003": "established",
+        "24005": "established",
+        "24009": "established",
+        "24011": "established",
+        "24013": "reported",
+        "24015": "established",
+        "24017": "established",
+        "24019": "established",
+        "24021": "established",
+        "24025": "established",
+        "24027": "established",
+        "24029": "established",
+        "24031": "established",
+        "24033": "established",
+        "24035": "established",
+        "24037": "established",
+        "24039": "established",
+        "24041": "reported",
+        "24043": "reported",
+        "24045": "established",
+        "24047": "established",
+        "24510": "reported"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means the tick was recorded there in smaller numbers. No record does not mean no ticks: it can mean no one has sampled there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "p",
+      "text": "The species looks to be moving north. In the state's study of mailed-in ticks, lone star ticks came in 2009 from counties on both sides of the Chesapeake Bay south of Baltimore City; in 2010 and 2011 they also came from counties farther north, which the authors read as range expansion."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick, with the single pale spot that gives the species its name.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "UMD Extension does not list Lyme disease among the lone star tick's illnesses. It links the tick to human ehrlichiosis, tularemia, southern tick-associated rash illness and meat allergy, the condition also called alpha-gal syndrome; see [alpha-gal syndrome and the tick bites linked to it](/blog/alpha-gal-syndrome) for symptoms and diagnosis. Maryland's ehrlichiosis cases, covered below, come mostly from counties where CDC lists the tick as established."
+    },
+    {
+      "type": "h2",
+      "text": "When did the Asian longhorned tick reach Maryland?"
+    },
+    {
+      "type": "p",
+      "text": "It was first found in 2018. University of Maryland Extension says the tick, native to East Asia, was discovered in Maryland that year, and a [CDC report from November 2018](https://www.cdc.gov/mmwr/volumes/67/wr/mm6747a3.htm) counted one Maryland county with the tick by September 2018: Washington County, in western Maryland. The report found it in nine states at the time."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-female.webp",
+      "width": 1200,
+      "height": 1680,
+      "alt": "Adult female Asian longhorned tick climbing a blade of grass, plain reddish-brown with no markings on its back",
+      "caption": "Adult female Asian longhorned tick. UMD Extension describes adults as reddish-brown, about 0.1 inch long and unmarked.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22886"
+    },
+    {
+      "type": "p",
+      "text": "Its [UMD Extension fact sheet](https://extension.umd.edu/resource/asian-longhorned-tick) describes adults as reddish-brown and about 0.1 inch (2.5 mm) long, about the size of a pea when fully fed, without the markings native ticks carry. Females reproduce without mating and can lay up to 2,500 eggs, and larvae have been seen waiting in groups of 50 to 100 on a single blade of grass. The tick is more common in tall grass and pasture than in forest and prefers wildlife and livestock, though it also feeds on pets and people."
+    },
+    {
+      "type": "p",
+      "text": "The fact sheet's main concern is livestock: it says the tick can transmit bovine theileriosis and babesiosis to farm animals, which can cut milk and wool production and kill animals. To confirm a suspected longhorned tick, mail it to one of the state's identification services described below; the health department's submission form lists the longhorned tick among the species its lab records."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does Maryland have?"
+    },
+    {
+      "type": "p",
+      "text": "Maryland reported 2,470 Lyme disease cases in 2023, a rate of 40.0 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). That ranked 11th among states for cases and 13th for the rate, and it was the highest count in CDC's state-level file, which runs from 2008."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Maryland, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            2218,
+            2024,
+            1617,
+            1351,
+            1651,
+            1197,
+            1373,
+            1728,
+            1866,
+            1891,
+            1382,
+            1417,
+            842,
+            916,
+            2035,
+            2470
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "A revised case definition took effect in 2022, so 2022 and 2023 are not directly comparable with earlier years, and CDC says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions. Data through 2023, the latest year on CDC's Lyme data page as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)"
+    },
+    {
+      "type": "p",
+      "text": "Read the rise after 2021 with care. Under the 2022 definition, high-incidence jurisdictions such as Maryland can report Lyme cases on laboratory evidence alone, without a case investigation, and [CDC's report on the first year of the change](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm) says this rules out robust comparison with earlier years. Even so, Maryland's increase was well below its group's: its 2,035 cases in 2022 were 30.2% above its 2017 to 2019 average of 1,563, while cases across all high-incidence jurisdictions rose 72.9%."
+    },
+    {
+      "type": "p",
+      "text": "The newest state figure is higher still. In [its May 2026 tick-season release](https://health.maryland.gov/newsroom/Pages/Maryland%20Department%20of%20Health%20urges%20Marylanders%20to%20protect%20against%20tickborne%20diseases.aspx), the Maryland Department of Health said more than 3,000 Lyme cases were reported statewide in 2024 and called Lyme the most common tick-borne disease in Maryland. CDC's state figures run through 2023 as of October 2026, so the comparisons on this page use 2023."
+    },
+    {
+      "type": "h3",
+      "text": "How does Maryland compare with its neighbors?"
+    },
+    {
+      "type": "p",
+      "text": "Lyme disease is more common to the north and west. In 2023, West Virginia's rate was more than four times Maryland's and Pennsylvania's more than three times, while Virginia's was about half."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Cases per 100,000, 2023"
+      ],
+      "rows": [
+        [
+          "[Pennsylvania](/blog/ticks-in-pennsylvania)",
+          "16,671",
+          "128.1"
+        ],
+        [
+          "[West Virginia](/blog/ticks-in-west-virginia)",
+          "3,242",
+          "181.6"
+        ],
+        [
+          "Maryland",
+          "2,470",
+          "40.0"
+        ],
+        [
+          "[Virginia](/blog/ticks-in-virginia)",
+          "1,747",
+          "20.2"
+        ],
+        [
+          "[Delaware](/blog/ticks-in-delaware)",
+          "349",
+          "34.7"
+        ],
+        [
+          "District of Columbia",
+          "108",
+          "16.1"
+        ]
+      ],
+      "caption": "Confirmed and probable cases by state of residence, from [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Data through 2023."
+    },
+    {
+      "type": "h2",
+      "text": "Which Maryland counties have the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Relative to population, the two westernmost counties, by a wide margin. In 2023 Garrett County recorded about 305 cases per 100,000 residents and Allegany County about 228, more than seven and five times the state rate, followed by Kent (139) and Carroll (129). The map shows every county's 2023 rate, calculated by BuzzSkito from [CDC's county-level Lyme data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) and the [Census Bureau's county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)."
+    },
+    {
+      "type": "map",
+      "scope": "MD",
+      "title": "Lyme disease cases per 100,000 residents by county, Maryland, 2023",
+      "categories": [
+        {
+          "key": "100plus",
+          "label": "100 or more"
+        },
+        {
+          "key": "50to99",
+          "label": "50 to 99"
+        },
+        {
+          "key": "25to49",
+          "label": "25 to 49"
+        },
+        {
+          "key": "under25",
+          "label": "Under 25"
+        }
+      ],
+      "values": {
+        "24001": "100plus",
+        "24003": "25to49",
+        "24005": "25to49",
+        "24009": "50to99",
+        "24011": "25to49",
+        "24013": "100plus",
+        "24015": "50to99",
+        "24017": "under25",
+        "24019": "25to49",
+        "24021": "50to99",
+        "24023": "100plus",
+        "24025": "50to99",
+        "24027": "50to99",
+        "24029": "100plus",
+        "24031": "under25",
+        "24033": "under25",
+        "24035": "50to99",
+        "24037": "50to99",
+        "24039": "25to49",
+        "24041": "25to49",
+        "24043": "50to99",
+        "24045": "25to49",
+        "24047": "50to99",
+        "24510": "under25"
+      },
+      "caption": "Confirmed and probable cases by county of residence. Rates are BuzzSkito's calculation: CDC's 2023 county counts divided by the Census Bureau's July 1, 2023 population estimates (Vintage 2025). CDC's county file places 2,404 of the state's 2,470 cases in a county, so county rates run slightly below the statewide 40.0. Small counties swing sharply: Kent County's 27 cases came from about 19,400 people.",
+      "source": "[CDC county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html), 2023; [U.S. Census Bureau county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Lyme cases, 2023",
+        "Cases per 100,000"
+      ],
+      "rows": [
+        [
+          "Garrett",
+          "87",
+          "305.4"
+        ],
+        [
+          "Allegany",
+          "153",
+          "228.1"
+        ],
+        [
+          "Kent",
+          "27",
+          "138.8"
+        ],
+        [
+          "Carroll",
+          "228",
+          "129.1"
+        ],
+        [
+          "Cecil",
+          "104",
+          "98.3"
+        ],
+        [
+          "Queen Anne's",
+          "40",
+          "76.0"
+        ],
+        [
+          "Frederick",
+          "220",
+          "74.9"
+        ],
+        [
+          "Washington",
+          "107",
+          "68.8"
+        ],
+        [
+          "Howard",
+          "211",
+          "62.7"
+        ],
+        [
+          "St. Mary's",
+          "65",
+          "56.4"
+        ]
+      ],
+      "caption": "The ten highest county rates in 2023. Sources as for the map."
+    },
+    {
+      "type": "p",
+      "text": "Raw counts rank the counties differently. Baltimore County had the most cases in 2023 (414), followed by Carroll (228), Frederick (220) and Howard (211), yet Baltimore County's rate of 48.9 per 100,000 was close to the state's. The lowest rates were in Prince George's County (6.4), Baltimore City (9.5) and Montgomery County (11.7), three of Maryland's five most populous jurisdictions."
+    },
+    {
+      "type": "p",
+      "text": "Two cautions apply to every county figure. Cases are counted where the patient lives, which is not necessarily where the bite happened, as [CDC's Lyme case map page](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) notes. And single years swing: Montgomery County reported 328 cases in 2022 and 125 in 2023, and Washington County went from none in 2022 to 107, so compare several years before reading much into one."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in Maryland?"
+    },
+    {
+      "type": "p",
+      "text": "Ehrlichiosis comes next, then spotted fever rickettsiosis. In [CDC's county-level file for 2019 to 2022](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html), Maryland residents accounted for 254 cases of ehrlichiosis caused by *Ehrlichia chaffeensis*, 187 of spotted fever rickettsiosis, 65 of anaplasmosis, 16 of babesiosis and 3 of tularemia over the four years, against 5,125 Lyme cases in the same file. The state health department's list of tick-borne diseases in Maryland covers the same ground: babesiosis, ehrlichiosis, anaplasmosis, Rocky Mountain spotted fever and tularemia."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Ticks that can spread it",
+        "Cases, 2019 to 2022",
+        "Counties with the most cases"
+      ],
+      "rows": [
+        [
+          "Ehrlichiosis (*E. chaffeensis*)",
+          "Lone star tick",
+          "254",
+          "Anne Arundel 62, Calvert 28, St. Mary's 20, Prince George's 19"
+        ],
+        [
+          "Spotted fever rickettsiosis",
+          "American dog and brown dog ticks (Rocky Mountain spotted fever); Gulf Coast tick (*Rickettsia parkeri*)",
+          "187",
+          "Talbot 24, Queen Anne's 19, Anne Arundel 18, St. Mary's 18"
+        ],
+        [
+          "Anaplasmosis",
+          "Blacklegged tick",
+          "65",
+          "Montgomery 18, Baltimore County 9, Baltimore City 6"
+        ],
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "16",
+          "Montgomery 7"
+        ],
+        [
+          "Tularemia",
+          "American dog tick; lone star tick",
+          "3",
+          "One each in Baltimore, Montgomery and Worcester counties"
+        ]
+      ],
+      "caption": "Cases by county of residence, summed over 2019 to 2022, from [CDC's county-level tick-borne disease file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html); CDC notes that not every disease is reportable in every jurisdiction every year. Ticks as listed by [University of Maryland Extension](https://extension.umd.edu/resource/ticks-maryland)."
+    },
+    {
+      "type": "p",
+      "text": "These illnesses follow different ticks, so their map differs from Lyme disease. Residents of Anne Arundel, Calvert, St. Mary's and Prince George's counties accounted for about half of the ehrlichiosis cases, while Garrett, Allegany and Washington counties, where CDC has the lone star tick unrecorded or only reported, had 1 between them. Spotted fever centered on the Eastern Shore: its nine counties, home to about 7.5% of Marylanders in 2023, accounted for 90 of the 187 cases, led by Talbot County with 24."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Maryland?"
+    },
+    {
+      "type": "p",
+      "text": "Spring through fall, with the blacklegged tick active in every month. The Maryland Department of Health says spring marks the start of tick season and that residents should keep checking for ticks after outdoor activities through the fall. [University of Maryland Extension](https://extension.umd.edu/resource/ticks-maryland) lists adult blacklegged ticks as active all year, adding that ticks are not killed by freezing temperatures and are active on days above freezing (32°F)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Months",
+        "Blacklegged (deer) tick",
+        "Lone star tick",
+        "American dog tick"
+      ],
+      "rows": [
+        [
+          "January to March",
+          "Adults",
+          "Not listed",
+          "Not listed"
+        ],
+        [
+          "April",
+          "Adults",
+          "Adults",
+          "Adults, larvae"
+        ],
+        [
+          "May and June",
+          "Adults, nymphs",
+          "Adults, nymphs",
+          "Adults, nymphs, larvae"
+        ],
+        [
+          "July",
+          "Adults, nymphs, larvae",
+          "Adults, nymphs, larvae",
+          "Adults, nymphs, larvae"
+        ],
+        [
+          "August",
+          "Adults, nymphs, larvae",
+          "Adults to late August, nymphs to early August, larvae",
+          "Adults to early August, larvae"
+        ],
+        [
+          "September",
+          "Adults, larvae",
+          "Larvae to late September",
+          "Larvae"
+        ],
+        [
+          "October to December",
+          "Adults",
+          "Not listed",
+          "Not listed"
+        ]
+      ],
+      "caption": "Active life stages by month as listed by [University of Maryland Extension](https://extension.umd.edu/resource/ticks-maryland), updated October 2024. It lists brown dog ticks, which live mainly on dogs and sometimes indoors, as active at every stage all year."
+    },
+    {
+      "type": "p",
+      "text": "Mailed-in ticks suggest the season can start earlier than the table shows. In the state's 2009 to 2011 records, blacklegged nymphs began arriving in March and lone star nymphs in April, blacklegged adults came in during the fall, and lone star adults from March to August, according to the [state study](https://cste.confex.com/cste/2013/webprogram/Paper1228.html). The health department adds that ticks prefer humid places and turn up in leaf litter, weeds, tall grass, shrubs and woods."
+    },
+    {
+      "type": "h2",
+      "text": "Where can you get a tick identified in Maryland?"
+    },
+    {
+      "type": "p",
+      "text": "As of October 2026, two state routes identify ticks sent by mail, and neither says it tests them for germs:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**State health department, through Johns Hopkins.** The [Maryland Department of Health's tick identification page](https://health.maryland.gov/phpa/OIDEOR/CZVBD/Pages/Tick-Identification.aspx) directs ticks to the Johns Hopkins Lyme and Tickborne Diseases Research and Education Institute. Trap the tick on clear tape (the form itself says masking tape), wrap it in a slightly damp paper towel, seal it in a plastic bag, and mail it with form MDH 4814 and a self-addressed envelope to Dr. Douglas Norris, Johns Hopkins Bloomberg School of Public Health, 615 N. Wolfe St., Room 5132, Baltimore, MD 21205. A letter identifying the tick comes back.",
+        "**Maryland Department of Agriculture.** Its tick identification service, [listed on the state's OneStop portal](https://onestop.md.gov/licenses/tick-identification-651c414b84a71202415c4b67), is for Maryland residents who send the tick itself; it cannot make an identification without the specimen. Mail the tick with the department's form, packed as the form directs, to 50 Harry S. Truman Parkway, Annapolis, MD 21401, and the state mails back a letter with the result. Questions go to (410) 841-5920."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Neither lists a fee or a turnaround time, and that matters after a bite. [CDC's guidance for clinicians](https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf) asks that the tick be saved so its species and how engorged it is can be judged, because both bear on whether a preventive antibiotic fits, and that antibiotic has to start within 72 hours of removal. If a deer tick may have bitten you, take the tick to a health care provider rather than waiting for a letter."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Maryland?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick at once, save it, and call a health care provider if it may have been a deer tick or if you feel ill in the weeks that follow. University of Maryland Extension and CDC describe removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick with fine-tipped tweezers or forceps as close to the skin as possible, with the tips on or just behind the mouthparts.",
+        "Pull slowly and steadily straight away from the skin, without twisting or jerking.",
+        "Do not use petroleum jelly, liquid soap, a cotton ball or a match. If the mouthparts stay in the skin, UMD Extension says that is okay.",
+        "Clean the bite and your hands with rubbing alcohol or soap and water.",
+        "Save the tick on a piece of clear tape in the freezer, with the date you removed it."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For more detail, see [the step-by-step tick removal guide](/blog/how-to-remove-tick-safely)."
+    },
+    {
+      "type": "p",
+      "text": "Because [CDC classes Maryland as a high-incidence Lyme state](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm), a preventive antibiotic may be an option. CDC's guidance for clinicians says a single dose of doxycycline can lower the risk of Lyme disease when the bite happened in a high-incidence state, the tick is an adult or nymphal blacklegged tick, it was attached for an estimated 36 hours or more, the dose can start within 72 hours of removal, and the patient has no reason to avoid doxycycline. It adds that this has not been shown to prevent anaplasmosis, babesiosis, ehrlichiosis or Rocky Mountain spotted fever. A provider decides whether it fits your case."
+    },
+    {
+      "type": "p",
+      "text": "Speed helps: UMD Extension says an infected tick takes 24 to 48 hours of attachment to pass on a germ. Then watch for symptoms. The state health department lists rash, fever, headache, joint pain and fatigue for Lyme disease and says untreated infection can spread to the joints and nervous system, while CDC asks clinicians to have patients watch for fever, rash or flu-like illness in the weeks after a bite. Most Lyme cases can be cured with antibiotics, the department says. [The stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) explains what can follow."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Large oval red rash with a darker red center and a fainter outer ring on the back of a woman's upper arm",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease. CDC's image library describes this bull's-eye rash at a tick bite on a Maryland woman's upper arm, photographed in 2007.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you feel ill",
+      "text": "A rash, fever, headache, joint pain or fatigue in the weeks after a tick bite or time outdoors is a reason to see a provider and mention the tick. Do not wait for an identification letter. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Maryland?"
+    },
+    {
+      "type": "p",
+      "text": "Use repellent, treat clothing, stay on the trail and check everyone after time outdoors. The [Maryland Department of Health's May 2026 release](https://health.maryland.gov/newsroom/Pages/Maryland%20Department%20of%20Health%20urges%20Marylanders%20to%20protect%20against%20tickborne%20diseases.aspx) recommends these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Use an EPA-approved repellent** such as DEET, picaridin or IR3535, following the label. UMD Extension adds: apply sunscreen first, and never use DEET under clothing or on pets.",
+        "**Treat clothing and gear with 0.5% permethrin**, or buy permethrin-treated items. UMD Extension says permethrin kills ticks on contact with the clothing.",
+        "**Dress for it.** Light-colored clothing makes ticks easier to spot; wear long sleeves and long pants tucked into socks or boots.",
+        "**Stay on the trail.** When hiking, keep to a marked path and the center of the trail.",
+        "**Shower and dry.** Shower as soon as you can after coming indoors, and dry clothes on high heat for 10 minutes to kill any ticks on them.",
+        "**Check everyone.** Do a tick check on yourself, children and pets after time in tick habitat, and ask a veterinarian how to protect pets."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Around the house, [University of Maryland Extension](https://extension.umd.edu/resource/ticks-maryland) suggests concentrating on the parts of the yard people use: trim vegetation along paths and yard edges, clear leaf litter around buildings and forest edges, keep bird feeders at the edge of the yard, stack wood neatly in a dry spot, and deter deer with less appealing plants, repellents or fencing. For pets, [ticks on dogs](/blog/ticks-on-dogs) covers where ticks hide, how to remove them and how preventives work."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the most common tick in Maryland?",
+      "answer": "It depends on how you count. In a published count of ticks Marylanders mailed to the state agriculture department for identification, from 2009 to 2011, 56% were lone star ticks, 17% American dog ticks and 16% blacklegged ticks. CDC's county tables, with data through 2025, list blacklegged ticks as established in 22 of 23 counties and lone star ticks in 18. The blacklegged, or deer, tick is the one that spreads Lyme disease."
+    },
+    {
+      "question": "Are ticks active in Maryland in the winter?",
+      "answer": "Yes, the blacklegged tick is. University of Maryland Extension lists adult blacklegged ticks as active all year and says ticks are not killed by freezing temperatures and are active on days above freezing. The state health department says spring marks the start of tick season and advises checking for ticks after outdoor activities through the fall. After a walk in the woods on a mild winter day, a tick check is still worthwhile."
+    },
+    {
+      "question": "Which Maryland county has the most Lyme disease?",
+      "answer": "It depends on whether you count cases or rates. Baltimore County had the most cases in 2023, 414, because so many people live there. Relative to population, Garrett County was highest at about 305 cases per 100,000 residents, followed by Allegany County at about 228, based on CDC county counts and Census population estimates. Cases are counted where patients live, not where they were bitten, and small counties can swing sharply from year to year."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in Maryland?",
+      "answer": "The state's two services identify ticks. The Maryland Department of Health routes mailed ticks to a Johns Hopkins institute, and the Maryland Department of Agriculture identifies ticks for residents; both return a letter naming the tick, and neither says it tests ticks for germs. If a deer tick may have bitten you, call a health care provider promptly, because CDC guidance says a preventive antibiotic has to start within 72 hours of removal."
+    },
+    {
+      "question": "Is the lone star tick in western Maryland?",
+      "answer": "Barely, on CDC's record so far. Its county table, with data through 2025, has no lone star tick record for Garrett or Allegany County and lists the species only as reported in Washington County, while it is established in 18 counties to the east and south. No record does not prove the tick is absent. A state study of mailed-in ticks found lone star ticks arriving from counties farther north in 2010 and 2011 than in 2009."
+    },
+    {
+      "question": "What should I do if I find an Asian longhorned tick in Maryland?",
+      "answer": "Remove an attached tick with fine-tipped tweezers, then mail it to one of the state's identification services; the health department's form lists the longhorned tick among the species its lab records. University of Maryland Extension says this invasive tick, first found in the state in 2018, prefers wildlife and livestock but also feeds on pets and people. Adults are plain reddish-brown and about a tenth of an inch long. Ask a veterinarian about tick control for pets."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "County Population Totals and Components of Change: 2020-2025",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (cases by county of residence, 2019-2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "Guidance for Clinicians: Caring for Patients after a Tick Bite (December 2021)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/media/pdfs/Caring-for-Patients-after-a-Tick-Bite.pdf"
+    },
+    {
+      "title": "Multistate Infestation with the Exotic Disease-Vector Tick Haemaphysalis longicornis - United States, August 2017-September 2018",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/67/wr/mm6747a3.htm"
+    },
+    {
+      "title": "Ticks in Maryland (updated October 17, 2024)",
+      "publisher": "University of Maryland Extension, Home and Garden Information Center",
+      "url": "https://extension.umd.edu/resource/ticks-maryland"
+    },
+    {
+      "title": "Asian Longhorned Tick (updated October 17, 2024)",
+      "publisher": "University of Maryland Extension",
+      "url": "https://extension.umd.edu/resource/asian-longhorned-tick"
+    },
+    {
+      "title": "Tick Identification",
+      "publisher": "Maryland Department of Health, Center for Zoonotic and Vector-borne Diseases",
+      "url": "https://health.maryland.gov/phpa/OIDEOR/CZVBD/Pages/Tick-Identification.aspx"
+    },
+    {
+      "title": "Maryland Department of Health urges Marylanders to protect against tickborne diseases (May 5, 2026)",
+      "publisher": "Maryland Department of Health",
+      "url": "https://health.maryland.gov/newsroom/Pages/Maryland%20Department%20of%20Health%20urges%20Marylanders%20to%20protect%20against%20tickborne%20diseases.aspx"
+    },
+    {
+      "title": "Tick Identification (Maryland Department of Agriculture service listing)",
+      "publisher": "Maryland OneStop, State of Maryland",
+      "url": "https://onestop.md.gov/licenses/tick-identification-651c414b84a71202415c4b67"
+    },
+    {
+      "title": "Geographic and Seasonal Characterization of Tick Populations in Maryland Using Tick Identification Data Collected by the Maryland Department of Agriculture (poster abstract, 2013 CSTE Annual Conference)",
+      "publisher": "Maryland Department of Health and Mental Hygiene, Johns Hopkins Bloomberg School of Public Health and Maryland Department of Agriculture (abstract hosted by the Council of State and Territorial Epidemiologists)",
+      "url": "https://cste.confex.com/cste/2013/webprogram/Paper1228.html",
+      "kind": "government"
+    }
+  ],
+  "disclaimer": "both"
+}

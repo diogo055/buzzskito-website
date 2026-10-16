@@ -2,9 +2,14 @@
  "id": "ticks-in-rhode-island",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "018a0442f8083ac18bffa15e98afc0de319a5c11489cfd0db90abcd6ad844031",
+ "sha": "b2c36e4e5cb6b858c832c6177c3fba9b3a3d6330dcb7dbf84652dca68d955bf3",
  "claimsChecked": 260,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 1,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

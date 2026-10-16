@@ -2,9 +2,14 @@
  "id": "ticks-in-connecticut",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "57108849f73b3fc14fd81dcf765c2b8599361199994f4009f3e86b0203959b24",
+ "sha": "91e922a81e8cd4e360a9b286c816d77044f916a00af255d74988e8d1b13acf4f",
  "claimsChecked": 426,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 7,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

@@ -1,0 +1,293 @@
+{
+  "slug": "ticks-in-nova-scotia",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "locale": "en-CA",
+  "keyword": "ticks in nova scotia",
+  "alsoTargets": [
+    "tick season nova scotia",
+    "lyme disease nova scotia",
+    "are there ticks in nova scotia"
+  ],
+  "metaTitle": "Ticks in Nova Scotia: Types, Lyme Cases, Season",
+  "metaDescription": "Blacklegged ticks live across Nova Scotia, which reported 2,788 Lyme cases in 2025. Tick photos, cases by year and zone, the season and after-bite steps.",
+  "h1": "Ticks in Nova Scotia: Species, Lyme Disease Risk and Tick Season",
+  "dek": "Which ticks live in Nova Scotia, where Lyme disease is most common by health zone, why the case counts jumped in 2023, when ticks are active, and what to do after a bite.",
+  "breadcrumb": "Ticks in Nova Scotia",
+  "excerpt": "Blacklegged ticks live throughout Nova Scotia. Lyme cases by year and health zone, tick photos, the season in °C, eTick identification and what to do after a bite.",
+  "datePublished": "2026-10-16",
+  "parent": {
+    "href": "/learn/ticks-by-province",
+    "name": "Ticks by Province"
+  },
+  "quickAnswer": {
+    "lead": "**Yes. Blacklegged ticks, the ticks that spread Lyme disease, live throughout Nova Scotia, and the province treats all of it as a higher-risk area.** Nova Scotia reported 2,788 Lyme disease cases in 2025, its [2025 surveillance data](https://novascotia.ca/dhw/populationhealth/documents/notifiable-disease-surveillance-report-2025.pdf) show, and in 2024 it had the highest rate of any province, 217 per 100,000 people, according to the [Public Health Agency of Canada](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html).",
+    "bullets": [
+      "The Western Zone (Annapolis, Digby, Kings, Lunenburg, Queens, Shelburne and Yarmouth counties) reported 1,612 of the 2,788 cases in 2025, a rate of 752.7 per 100,000 residents.",
+      "Since January 1, 2023, Nova Scotia has counted Lyme disease from laboratory results alone, so 2023 and later counts are not comparable with earlier years.",
+      "Ticks can be active whenever it stays above freezing and the ground is bare, PHAC says; in Nova Scotia, adults are most active in spring and fall, and nymphs and larvae in spring and summer.",
+      "In 2022 surveillance, 68 of 236 blacklegged ticks (28.8%) collected from vegetation at 24 Nova Scotia sites carried the Lyme bacterium.",
+      "eTick identifies a tick from a photo free of charge but does not test it for Lyme disease, and a pharmacist can assess a recent bite and prescribe an antibiotic to prevent it.",
+      "Anaplasmosis, spread by the same tick, more than doubled from 317 cases in 2023 to 681 in 2025."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Nova Scotia at a glance",
+    "rows": [
+      ["Tick that spreads Lyme disease", "Blacklegged (deer) tick, found throughout the province (provincial Lyme page, October 2026)"],
+      ["Main ticks found on people", "American dog tick and blacklegged tick (provincial clinical guidance, revised May 2025)"],
+      ["Lyme disease risk area", "The whole province; the county map, labelled July 2023, puts all 18 counties in the higher-risk category"],
+      ["Reported Lyme disease cases", "2,788 in 2025, 255.0 per 100,000 (provincial data as of May 20, 2026)"],
+      ["Highest-rate health zone, 2025", "Western Zone: 1,612 cases, 752.7 per 100,000"],
+      ["Compared with Canada, 2024", "217 per 100,000, the highest of any province (Canada 14.1); 40% of Canada's 5,809 cases (PHAC)"],
+      ["Blacklegged ticks carrying the Lyme bacterium", "28.8% of 236 tested, collected from vegetation at 24 sites in 2022 (PHAC)"],
+      ["Anaplasmosis cases", "317 in 2023, 466 in 2024, 681 in 2025 (provincial data)"],
+      ["Tick season", "Active whenever it stays above freezing with no snow (PHAC); adults peak in spring and fall, nymphs in spring and summer (province)"],
+      ["Tick identification", "eTick, from a photo, free; aims to reply within 1 to 2 business days; no germ testing (as of October 2026)"],
+      ["After a bite", "Pharmacist or primary care provider; in Nova Scotia a preventive antibiotic is considered only within 72 hours of removing the tick"],
+      ["Data through", "Provincial counts to December 31, 2025; national comparison to December 31, 2024 (PHAC, updated January 16, 2026)"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Are there ticks in Nova Scotia?" },
+    { "type": "p", "text": "Yes, and the one that matters most for health lives everywhere in the province. [Nova Scotia's Lyme disease page](https://novascotia.ca/dhw/cdpc/lyme.asp) says blacklegged ticks are found throughout the province and that tick populations are growing. It also says Lyme disease is now established here, meaning the province does not expect it to go away. [The Public Health Agency of Canada (PHAC)](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html) lists Nova Scotia with no regional qualifier among the places where blacklegged ticks are established, while the other four provinces on its list are limited to regions such as southern Manitoba and southern Quebec." },
+    { "type": "p", "text": "The spread has been quick. Lyme disease cases have grown in Nova Scotia since 2002, and in 2017 the Department of Health and Wellness declared the entire province an area at risk, according to [a 2026 analysis by department staff](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/analysis-impact-lyme-disease-surveillance-nova-scotia.html) published in PHAC's Canada Communicable Disease Report. In 2024, the province reported 2,350 of Canada's 5,809 cases, about 40%, [PHAC's annual report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html) shows." },
+    { "type": "p", "text": "Our province-by-province guide shows [how Nova Scotia compares with the rest of Canada](/learn/ticks-by-province). Next door, New Brunswick reported 111 cases in 2024 and Prince Edward Island 4, according to the same [PHAC annual report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html); if you travel there, see [ticks in New Brunswick](/blog/ticks-in-new-brunswick) and [ticks on Prince Edward Island](/blog/ticks-in-prince-edward-island)." },
+
+    { "type": "h2", "text": "Which ticks live in Nova Scotia?" },
+    { "type": "p", "text": "Two ticks are the main ones found on people. The province's [clinical guidance for doctors](https://novascotia.ca/dhw/cdpc/documents/statement-management-ld-hga-b-pvi.pdf), last revised in May 2025, names the American dog tick and the blacklegged (deer) tick as the two main ticks commonly found on people in Nova Scotia, and its Lyme page says the two look alike. Only the blacklegged tick carries the Lyme bacterium here, the province says, and not every blacklegged tick is infected. The table lists the species PHAC and the province name for Nova Scotia." },
+    { "type": "table", "head": ["Tick", "In Nova Scotia", "What it can spread"], "rows": [
+      ["Blacklegged (deer) tick, *Ixodes scapularis*", "Established throughout the province; one of the two main ticks found on people", "Lyme disease, anaplasmosis, babesiosis, Powassan virus disease, *Borrelia miyamotoi* disease"],
+      ["American dog tick, *Dermacentor variabilis*", "One of the two main ticks found on people; PHAC lists it as established in parts of south-central and southeastern Canada", "Tularemia and Rocky Mountain spotted fever; not Lyme disease"],
+      ["Groundhog tick, *Ixodes cookei*", "Present, but less common than the blacklegged tick; seldom bites people", "Powassan virus disease"],
+      ["Squirrel tick, *Ixodes marxi*", "Found in the southern part of the province; seldom bites people", "Powassan virus disease"],
+      ["Lone star tick, *Amblyomma americanum*", "Found in southern Nova Scotia, but not listed as established", "Tularemia, ehrlichiosis, Bourbon and Heartland virus diseases; bites linked to alpha-gal syndrome"]
+    ], "caption": "Sources: [PHAC, Ticks in Canada](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html) (August 7, 2026), the province's [Lyme disease page](https://novascotia.ca/dhw/cdpc/lyme.asp) and its [clinical guidance](https://novascotia.ca/dhw/cdpc/documents/statement-management-ld-hga-b-pvi.pdf)." },
+    { "type": "figure", "src": "/guides/photos/blacklegged-tick-life-stages.webp", "width": 1200, "height": 793, "alt": "Three blacklegged ticks on a blue-green surface: a large adult female with a reddish body and dark shield, and two much smaller immature ticks", "caption": "Blacklegged tick adult female (top) and two much smaller immature ticks, a nymph and a larva. The province says adults are most active in spring and fall, and nymphs and larvae in spring and summer.", "credit": "CDC/ Michael L. Levin, Ph. D. (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1205" },
+    { "type": "p", "text": "Telling the two apart matters, because only one of them carries Lyme disease here. The province's notes say a blacklegged tick does not always have black legs and that dog ticks usually have white or silver markings. Its clinical guidance adds a check on the tick's back: a dog tick has a scalloped edge along the rear of its body, like the crimping on a pie crust, and a blacklegged tick does not. [Our deer tick versus dog tick guide](/blog/deer-tick-vs-dog-tick-canada) compares the two side by side." },
+    { "type": "figure", "src": "/guides/photos/american-dog-tick-female.webp", "width": 1200, "height": 816, "alt": "Adult female American dog tick on a green blade of grass, reddish-brown with cream and white markings on the shield behind its head and pale bands on its legs", "caption": "Adult female American dog tick, with the white or silver markings the province says dog ticks usually have. It does not carry the Lyme bacterium in Nova Scotia.", "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170" },
+    { "type": "figure", "src": "/guides/photos/groundhog-tick.webp", "width": 1200, "height": 1600, "alt": "Engorged groundhog tick on a wooden surface, with a swollen pale grey body, a small dark brown shield and reddish-brown legs", "caption": "An engorged groundhog tick. With the squirrel tick and the blacklegged tick, it is one of the three ticks the province lists as able to carry Powassan virus.", "credit": "(c) adamfritz, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/168811425" },
+
+    { "type": "h2", "text": "Where in Nova Scotia is the Lyme disease risk highest?" },
+    { "type": "p", "text": "The whole province counts as higher risk, but cases are concentrated in the southwest. The [province's Lyme disease page](https://novascotia.ca/dhw/cdpc/lyme.asp), as read in October 2026, says all areas of Nova Scotia are considered higher risk. The estimated risk-areas map linked from that page, labelled July 2023, has three categories, higher, moderate and lower, and shades all 18 counties in the highest, so the page and the map agree. The map is built from past Lyme disease cases and from ticks collected in the field or submitted by the public." },
+    { "type": "p", "text": "Case counts show where people diagnosed with Lyme disease live. In 2025, the Western Zone reported 1,612 of the province's 2,788 cases, a rate of 752.7 per 100,000 residents, nearly three times the provincial rate of 255.0, according to the province's [2025 surveillance data](https://novascotia.ca/dhw/populationhealth/documents/notifiable-disease-surveillance-report-2025.pdf). The Eastern Zone, which includes Cape Breton, reported 53 cases, a rate of 29.9." },
+    { "type": "table", "head": ["Health zone", "Counties", "Cases, 2023", "Cases, 2024", "Cases, 2025"], "rows": [
+      ["Western", "Annapolis, Digby, Kings, Lunenburg, Queens, Shelburne, Yarmouth", "1,192", "1,359", "1,612"],
+      ["Central", "Halifax, West Hants", "523", "571", "709"],
+      ["Northern", "Colchester, Cumberland, Pictou, East Hants", "296", "382", "414"],
+      ["Eastern", "Antigonish, Cape Breton, Guysborough, Inverness, Richmond, Victoria", "47", "38", "53"],
+      ["Nova Scotia", "All 18 counties", "2,058", "2,350", "2,788"]
+    ], "caption": "Cases counted from laboratory results (the method since 2023), by zone of residence. 2023 and 2024: [Nova Scotia open data by zone](https://data.novascotia.ca/Health-and-Wellness/Notifiable-Diseases-Counts-and-Rates-By-Zone/36ek-n7n8), updated June 2026; 2025: the province's [2025 surveillance data](https://novascotia.ca/dhw/populationhealth/documents/notifiable-disease-surveillance-report-2025.pdf), current to May 20, 2026, which revise the totals to 2,057 for 2023 and 2,351 for 2024. Zones: [health authority regulations](https://novascotia.ca/just/regulations/regs/hageneral.htm). Contains information licensed under the Open Government Licence – Nova Scotia." },
+    { "type": "chart", "title": "Lyme disease cases per 100,000 residents by health zone, Nova Scotia, 2025", "x": ["Western", "Northern", "Central", "Eastern", "Nova Scotia"], "series": [
+      { "name": "Cases per 100,000", "values": [752.7, 255.0, 131.4, 29.9, 255.0] }
+    ], "yLabel": "Reported cases per 100,000 residents, by zone of residence", "caption": "Rates are the province's own. Cases are counted where the patient lived when diagnosed, which may not be where the tick bite happened. Data for 2025, current as of May 20, 2026.", "source": "Nova Scotia Department of Health and Wellness, [Notifiable Diseases in Nova Scotia: 2025 Surveillance Data](https://novascotia.ca/dhw/populationhealth/documents/notifiable-disease-surveillance-report-2025.pdf), Table 4" },
+    { "type": "p", "text": "The pattern is not new. When department staff applied the current case definition to earlier years, the Western Zone had the highest rate in every year from 2019 to 2023, with the Northern Zone next, and their analysis notes that southwestern Nova Scotia was the province's earliest Lyme disease area." },
+
+    { "type": "h2", "text": "How many Lyme disease cases does Nova Scotia report?" },
+    { "type": "p", "text": "Thousands a year now, against a handful two decades ago. The province's [open data on notifiable diseases](https://data.novascotia.ca/Health-and-Wellness/Notifiable-Diseases-Counts-and-Rates/mdfn-jkdg) records 2 confirmed cases in 2005 and 2,350 in 2024, and its 2025 surveillance data add 2,788 for 2025. In the 2025 release, which counts all three years the same way, cases rose from 2,057 in 2023 to 2,351 in 2024 and 2,788 in 2025, an increase of about 36% in two years." },
+    { "type": "chart", "title": "Reported Lyme disease cases in Nova Scotia, 2005 to 2024", "x": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"], "series": [
+      { "name": "Confirmed", "values": [2, 4, 6, 9, 12, 13, 35, 35, 121, 68, 119, 165, 307, 244, 434, 233, 506, 310, 2058, 2350] },
+      { "name": "Probable", "values": [0, 0, 0, 4, 5, 4, 22, 17, 35, 47, 128, 161, 279, 207, 396, 212, 88, 23, 0, 0] }
+    ], "yLabel": "Cases reported per year", "caption": "From 2009 to 2022, a confirmed case needed both clinical and laboratory evidence, and a rash diagnosed by a clinician without a test counted as probable. From January 1, 2023, cases are counted from laboratory results alone and untested rash cases are not counted, so 2023 and 2024 are not comparable with earlier years. Disrupted public health follow-up during the COVID-19 pandemic lowered the 2020 count and may have lowered 2021 and 2022 as well. The province's 2025 release revises 2023 and 2024 slightly (see the zone table). Data through 2024.", "source": "Nova Scotia Department of Health and Wellness, [Notifiable Diseases Counts and Rates](https://data.novascotia.ca/Health-and-Wellness/Notifiable-Diseases-Counts-and-Rates/mdfn-jkdg), open data updated June 2026. Contains information licensed under the Open Government Licence – Nova Scotia." },
+    { "type": "p", "text": "Nationally, Nova Scotia stands out. [PHAC's annual report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html), updated January 16, 2026, puts the province's 2024 rate at 217 per 100,000, the highest of any province and about 15 times Canada's 14.1. Ontario reported slightly more cases, 2,369, at a lower rate. [Our Canadian Lyme disease statistics](/lyme-disease-canada-statistics) follow the national trend year by year." },
+    { "type": "h3", "text": "Why did Lyme disease cases jump in 2023?" },
+    { "type": "p", "text": "Mostly because the counting rules changed. On January 1, 2023, Nova Scotia switched to a case definition that relies on laboratory evidence alone, the [2026 analysis](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/analysis-impact-lyme-disease-surveillance-nova-scotia.html) by Nsitem and colleagues explains. Before, a confirmed case also needed clinical information from a health care provider, and the authors suggest that this reporting burden led to under-reporting. Applied to 2018 to 2022, the new definition finds 4,238 cases instead of the 1,745 confirmed cases reported at the time." },
+    { "type": "p", "text": "The change cuts both ways. A positive blood test now counts without a clinical report. But the province's guidance advises against a blood test for the typical Lyme disease rash, which is diagnosed from the rash alone and treated, so rash cases that are never tested no longer appear in the counts at all. Under the national case definition revised in 2024, PHAC classes the province's laboratory-confirmed cases that do not meet clinical criteria as probable, which is why the provincial and national figures label the same cases differently." },
+    { "type": "p", "text": "Other changes add to the rise. Since April 1, 2021, the province has used a modified two-tier blood test that the analysis puts at about 25% more sensitive for early Lyme disease, testing volumes have grown, and a warming climate has added days when ticks can be active. The authors conclude that the new definition limits direct comparisons with earlier years and with provinces that count differently." },
+    { "type": "callout", "tone": "note", "title": "What changed since last season (as of October 2026)", "text": "The province's 2025 surveillance data, current to May 20, 2026, count 2,788 Lyme disease cases, 681 anaplasmosis cases and 6 babesiosis cases for 2025, each the highest in its published figures, and one case of Powassan virus disease, the first since that disease became reportable in May 2023." },
+
+    { "type": "h2", "text": "How many ticks in Nova Scotia carry Lyme disease?" },
+    { "type": "p", "text": "Not all of them, but a large share. In PHAC's [2022 national tick surveillance report](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2022.html), researchers collected 242 blacklegged ticks from vegetation by drag sampling at 24 Nova Scotia sites. Of the 236 tested, 68 (28.8%) carried *Borrelia burgdorferi*, the Lyme bacterium. Adults were more often infected than nymphs: 41.1% against 23.3%." },
+    { "type": "p", "text": "Other germs turned up less often. Three of the 236 ticks (1.3%) carried the anaplasmosis bacterium and one carried *Babesia microti*, a parasite that causes babesiosis, while none carried Powassan virus or *Borrelia miyamotoi*. An earlier provincial survey, in 2016, found the anaplasmosis germ in 3.6% to 11.6% of blacklegged ticks, with the infected ticks on the South Shore, the province's clinical guidance says." },
+
+    { "type": "h2", "text": "When is tick season in Nova Scotia?" },
+    { "type": "p", "text": "From spring to late fall, but ticks can be out whenever it is mild. [PHAC](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html) says ticks can be active whenever the temperature stays above freezing and the ground is free of snow, and that people are most likely to meet them in spring, summer and fall. Nova Scotia's Lyme page, as read in October 2026, says adult blacklegged ticks are most active in spring and fall and stay active until it is consistently below 4 °C, while larvae and nymphs are most active in spring and summer." },
+    { "type": "table", "head": ["Season", "Blacklegged ticks most active", "What the records show"], "rows": [
+      ["Winter (December to February)", "Fewest encounters", "Ticks can be active whenever it stays above freezing and the ground is bare (PHAC)"],
+      ["Spring (March to May)", "Adults, nymphs and larvae", "Adult blacklegged tick submissions across Canada peaked in May 2022"],
+      ["Summer (June to August)", "Nymphs and larvae", "Nova Scotia's Lyme case reports peak from June to September; the province puts the greatest risk in summer"],
+      ["Fall (September to November)", "Adults, until it stays below about 4 °C (province)", "Adult submissions across Canada peaked again in October 2022, slightly above May"]
+    ], "caption": "Sources: [PHAC](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html); the province's [Lyme disease page](https://novascotia.ca/dhw/cdpc/lyme.asp) and [clinical guidance](https://novascotia.ca/dhw/cdpc/documents/statement-management-ld-hga-b-pvi.pdf); [the 2026 provincial analysis](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/analysis-impact-lyme-disease-surveillance-nova-scotia.html) (case reports, 2018 to 2022); [PHAC's 2022 tick surveillance report](https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2022.html) (submissions, all provinces)." },
+    { "type": "figure", "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp", "width": 1200, "height": 799, "alt": "An adult female blacklegged tick and a much smaller nymph resting on the tip of a person's index finger", "caption": "An adult female blacklegged tick (left) and a nymph (right) on a fingertip. Nymphs are most active in spring and summer, and PHAC notes that tick bites are usually painless.", "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383" },
+    { "type": "p", "text": "The season is getting longer: the 2026 provincial analysis notes that average temperatures in Nova Scotia were higher in every month of the year from 1990 to 2020 than from 1961 to 1990, and that frost days declined in spring and autumn, adding days when ticks can be active." },
+
+    { "type": "h2", "text": "How do you get a tick identified in Nova Scotia?" },
+    { "type": "p", "text": "Photograph it and submit the photo to eTick, the service the province points residents to. [eTick](https://www.etick.ca/en/content/faqs) identifies ticks from photos free of charge and aims to reply within one to two business days with the species and any steps worth taking. Nova Scotia's Department of Health and Wellness is one of its partners." },
+    { "type": "p", "text": "Identification is not testing. eTick's FAQ says a tick it asks you to mail in is wanted mainly to confirm the identification and will not be tested for Lyme disease, and the sender pays the postage. As of October 2026, the province's Lyme page describes no tick-testing service for the public. Nationally, [PHAC says](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/removing-submitting-ticks-testing.html) tick testing is not meant to guide diagnosis or treatment: a health care provider can consider preventive treatment without it, you may have been bitten by a different tick, and the tick may not have been attached long enough to pass on an infection." },
+
+    { "type": "h2", "text": "What should you do after a tick bite in Nova Scotia?" },
+    { "type": "p", "text": "Remove the tick as soon as possible, note the details, and if it was a blacklegged tick, ask a pharmacist or your primary care provider about medication to prevent Lyme disease. [PHAC's tick removal steps](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/removing-submitting-ticks-testing.html) are:" },
+    { "type": "ol", "items": [
+      "Use clean, fine-point tweezers to grasp the tick's head as close to the skin as possible and pull slowly straight out, without twisting or squeezing it.",
+      "If the mouthparts break off, remove them with the tweezers; if that is not easy, leave them and let the skin heal.",
+      "Wash the bite with soap and water or an alcohol-based sanitizer.",
+      "Do not burn the tick or smother it with nail polish, essential oils or petroleum jelly, which can make it release possibly infected stomach contents into the bite.",
+      "Note the date, the part of the body bitten and where you were, and send a photo to eTick if you are unsure of the species."
+    ] },
+    { "type": "p", "text": "The province's [Lyme disease page](https://novascotia.ca/dhw/cdpc/lyme.asp) adds one step: contact a pharmacist or your primary care provider to be assessed for medication to prevent Lyme disease. [Our step-by-step tick removal guide](/blog/how-to-remove-tick-safely) shows the technique in more detail." },
+    { "type": "figure", "src": "/guides/photos/tick-unfed-vs-engorged.webp", "width": 1200, "height": 790, "alt": "Two Ixodes ticks side by side on a pale blue background: a small dark brown male on the left and a much larger, swollen cream-coloured engorged female on the right", "caption": "A male *Ixodes* tick (left) beside a female swollen with blood (right). Nova Scotia's clinical guidance judges feeding time by how swollen a tick is: a perfectly flat tick has probably fed for less than 24 hours.", "credit": "CDC/ Margaret A. Parsons; photo: Dr. George Anastos; Dept. of Zoology; Univ. of Maryland (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23451" },
+    { "type": "p", "text": "Pharmacists across the province can assess a tick bite and prescribe an antibiotic to prevent Lyme disease, and since May 1, 2024 they can also treat early Lyme disease, the [province's page on pharmacy services](https://novascotia.ca/dhw/pharmacare/healthcare-services.asp) and its [Lyme disease page](https://novascotia.ca/dhw/cdpc/lyme.asp) say. The assessment is free with a valid Nova Scotia health card, though you may pay for the prescription; the table below lists what it checks." },
+    { "type": "p", "text": "Prompt removal matters. [PHAC's guidance for health professionals](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/health-professionals-lyme-disease.html) says infected blacklegged ticks typically need to be attached for at least 24 hours to pass on the Lyme bacterium and that the risk rises the longer a tick stays on, while [Powassan virus](https://www.canada.ca/en/public-health/services/diseases/powassan-virus/health-professionals.html) can pass in as little as 15 minutes. Studies cited in the province's [clinical guidance](https://novascotia.ca/dhw/cdpc/documents/statement-management-ld-hga-b-pvi.pdf), revised May 13, 2025, put the risk of Lyme disease after a blacklegged tick bite at 1.2% to 3.2%, possibly above 20% when a tick stays attached for 72 hours or more." },
+    { "type": "p", "text": "PHAC says a health care provider can consider preventive treatment after a tick bite without the tick being tested. In Nova Scotia, the clinical guidance recommends a single dose of the antibiotic doxycycline for adults whose bite meets its criteria, when it can be given within 72 hours of removing the tick, and for children either a preventive dose or watching closely for symptoms. It notes that there is no preventive treatment for anaplasmosis or babesiosis." },
+    { "type": "table", "head": ["You need", "Where to go in Nova Scotia", "What to know"], "rows": [
+      ["To know what kind of tick it was", "[eTick](https://www.etick.ca/en/content/faqs), by photo", "Free; aims to reply within 1 to 2 business days; no germ testing"],
+      ["Medication to prevent Lyme disease", "A community pharmacist or your primary care provider", "The tick was removed within the previous 72 hours and attached at least 36 hours; the assessment is free with a Nova Scotia health card"],
+      ["Treatment for early Lyme disease", "A pharmacist (since May 1, 2024) or a primary care provider", "Early symptoms usually begin 3 to 30 days after a bite (PHAC)"],
+      ["Advice by phone, day or night", "[811 Nova Scotia](https://811.novascotia.ca/)", "Registered nurses around the clock, seven days a week, free of charge"],
+      ["Help if you feel unwell after a bite", "A health care provider, as soon as possible", "Say where on your body the tick was, how long it was attached and where you were"]
+    ], "caption": "As of October 2026. Sources: [eTick](https://www.etick.ca/en/content/faqs), the [province's pharmacy services page](https://novascotia.ca/dhw/pharmacare/healthcare-services.asp) and [Lyme disease page](https://novascotia.ca/dhw/cdpc/lyme.asp), [811 Nova Scotia](https://811.novascotia.ca/) and PHAC's [tick removal page](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/removing-submitting-ticks-testing.html) and [guidance for health professionals](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/health-professionals-lyme-disease.html)." },
+    { "type": "h3", "text": "Which symptoms should you watch for?" },
+    { "type": "p", "text": "Early Lyme disease usually begins 3 to 30 days after the bite, according to PHAC's guidance for health professionals. Most people develop an expanding rash, erythema migrans, more than 5 cm across at the site of the bite, usually within 7 days. It is usually painless and not itchy, often lacks the classic bull's-eye look, and on dark skin can look like a bruise. Fever, feeling generally unwell, headache, muscle and joint aches and swollen lymph nodes can come with it, and because tick bites are usually painless, people may not remember being bitten." },
+    { "type": "figure", "src": "/guides/photos/erythema-migrans-rash.webp", "width": 1200, "height": 1785, "alt": "Red bull's-eye rash on the back of a person's upper arm, with a darker red centre, a pale ring and a wider red outer ring, above a blue sleeve", "caption": "Erythema migrans, the expanding rash of early Lyme disease, here in a bull's-eye pattern. PHAC notes that in many cases the rash does not have this classic look.", "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875" },
+    { "type": "p", "text": "Not every red mark is Lyme disease. PHAC says a reaction to the bite itself can appear within 24 hours as a red patch under 5 cm that does not spread and usually fades within 48 hours; a patch that has not faded after 48 hours should be checked again. Untreated, the infection can spread over the following weeks and months, causing multiple rashes, facial paralysis, meningitis or heart rhythm problems, and later arthritis, most often in the knees and other large joints. [Our guide to Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) describes each stage." },
+    { "type": "callout", "tone": "warning", "title": "See a health care provider if you feel unwell", "text": "PHAC advises seeing a health care provider as soon as possible if you feel unwell or have symptoms of a tick-borne disease after a bite; in Nova Scotia, a pharmacist can also treat early Lyme disease. This page summarizes what public health agencies publish and is not a diagnosis." },
+
+    { "type": "h2", "text": "Which other tick-borne diseases occur in Nova Scotia?" },
+    { "type": "p", "text": "Anaplasmosis is the second most common, and it is rising fast. It became reportable in Nova Scotia in May 2023, and cases rose from 317 that year to 466 in 2024 and 681 in 2025, the province's [2025 surveillance data](https://novascotia.ca/dhw/populationhealth/documents/notifiable-disease-surveillance-report-2025.pdf) show; 490 of the 2025 cases were in the Western Zone. In 2024, Nova Scotia reported 69% of Canada's 673 anaplasmosis cases and had the highest rate of any province, 43.04 per 100,000, according to [PHAC's annual report](https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html)." },
+    { "type": "p", "text": "[PHAC says](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/anaplasmosis.html) anaplasmosis symptoms, such as fever, chills, headache and muscle aches, can appear within 5 to 21 days of a bite; most people have mild or moderate illness, and older age and a weakened immune system can raise the risk of severe disease. The province's clinical guidance says Nova Scotia's first human case was confirmed in 2017, and that since late July 2022 the QEII Health Sciences Centre laboratory has tested every Lyme disease blood sample for anaplasmosis as well." },
+    { "type": "table", "head": ["Disease", "Spread by", "Cases in Nova Scotia", "Notes"], "rows": [
+      ["Lyme disease", "Blacklegged tick", "2,351 in 2024; 2,788 in 2025", "Counted from laboratory results since 2023"],
+      ["Anaplasmosis", "Blacklegged tick", "466 in 2024; 681 in 2025", "Reportable since May 2023; symptoms can appear within 5 to 21 days of a bite"],
+      ["Babesiosis", "Blacklegged tick", "2 in 2024; 6 in 2025", "Reportable since May 2023; five of the six 2025 cases were in the Western Zone"],
+      ["Powassan virus disease", "Blacklegged, groundhog and squirrel ticks", "0 in 2024; 1 in 2025", "Reportable since May 2023; can pass in as little as 15 minutes; up to 10% of cases that reach the nervous system have been fatal"]
+    ], "caption": "Cases: the province's [2025 surveillance data](https://novascotia.ca/dhw/populationhealth/documents/notifiable-disease-surveillance-report-2025.pdf), counted by place of residence, current as of May 20, 2026. Reportable dates: the province's [Lyme disease page](https://novascotia.ca/dhw/cdpc/lyme.asp). Notes: PHAC on [anaplasmosis](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/anaplasmosis.html) and [Powassan virus disease](https://www.canada.ca/en/public-health/services/diseases/powassan-virus/health-professionals.html)." },
+    { "type": "p", "text": "Babesiosis, a parasite infection carried by the same tick, remains rare, and Powassan virus rarer still. The 2025 data list one case of Powassan virus disease, in a Western Zone resident; the tables count cases by residence and do not say where the infection was acquired. The province's Lyme page, as read in October 2026, still says no human cases have been identified and that the virus has been found in two blacklegged ticks, in 2016 and 2019." },
+
+    { "type": "h2", "text": "How do you prevent tick bites in Nova Scotia?" },
+    { "type": "p", "text": "Cover up, use a repellent, stay on cleared trails and check for ticks when you come in. [PHAC's advice on preventing tick bites](https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/prevent-tick-bites.html) includes these steps:" },
+    { "type": "ul", "items": [
+      "**Dress for it.** Wear closed-toe shoes and light-coloured long sleeves and pants so ticks are easier to spot, and tuck your shirt into your pants and your pants into your socks.",
+      "**Use repellent and treated clothing.** Apply an insect repellent containing DEET or icaridin to clothing and exposed skin, and wear permethrin-treated clothing, always following the label directions.",
+      "**Stay on cleared paths.** Keep children and pets from wandering off the trail, and avoid trails made by deer and moose, where ticks are often found on the grass and plants alongside.",
+      "**Check before you go in.** Check yourself, your clothing, your gear and your pets, then do a full-body tick check on yourself and your children and shower as soon as possible.",
+      "**Use the dryer.** Put dry clothes in a dryer on high heat for at least 10 minutes, longer if they are damp, or wash them in hot water and dry them on high heat; ticks can survive a cold or warm wash."
+    ] },
+    { "type": "p", "text": "Nova Scotia's Lyme disease page, as read in October 2026, gives similar advice, with a bath or shower within two hours of being outdoors, when possible. It also asks people to choose a repellent whose label says it is for use against ticks, and notes that permethrin-treated clothing is registered in Canada for people 16 and older." },
+    { "type": "p", "text": "[Health Canada's guidance on personal insect repellents](https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html) sets limits by age. DEET products of up to 30% are for adults and children over 12. Children aged 2 to 12 can use up to 10%, up to three times a day, and children from 6 months to 2 years up to 10%, no more than once a day; do not use DEET on babies under 6 months. Icaridin repels mosquitoes and ticks but should not be used on infants under 6 months. A registered product carries a PCP registration number on its label." },
+    { "type": "p", "text": "Around the home, PHAC suggests mowing often, clearing leaf piles, brush and weeds from lawn edges, pruning to let in sunlight, and keeping a wood chip, mulch or gravel border at least 1 metre wide between the lawn and woods, shrubs or stone walls. Put play sets, decks and patios in sunny spots away from yard edges, and ask a veterinarian about tick prevention for pets, which can carry ticks into the yard or home. The province's Lyme page also links a landscape management handbook." }
+  ],
+  "faqs": [
+    {
+      "question": "Is all of Nova Scotia a Lyme disease risk area?",
+      "answer": "Yes. The province's Lyme disease page says blacklegged ticks are found throughout Nova Scotia and all areas are considered higher risk, and its county risk map, labelled July 2023, places all 18 counties in the highest of three categories. Reported cases still vary: in 2025 the Western Zone, from Kings and Lunenburg counties to Yarmouth, reported 752.7 cases per 100,000 residents, against 29.9 in the Eastern Zone, which includes Cape Breton. Cases are counted where people live, not where they were bitten."
+    },
+    {
+      "question": "Do dog ticks carry Lyme disease in Nova Scotia?",
+      "answer": "No. The province says only the blacklegged tick carries the bacteria that cause Lyme disease in Nova Scotia, and not every blacklegged tick is infected. The American dog tick, which is also commonly found on people and looks similar, can carry tularemia and Rocky Mountain spotted fever, according to the Public Health Agency of Canada. Dog ticks usually have white or silver markings and blacklegged ticks do not always have black legs, so if you are unsure, submit a photo to eTick for a free identification."
+    },
+    {
+      "question": "Can I get a tick tested for Lyme disease in Nova Scotia?",
+      "answer": "The province does not describe a tick-testing service for the public. It directs residents to eTick, which identifies ticks from photos free of charge but does not test them for Lyme disease. The Public Health Agency of Canada says tick testing is not meant to guide diagnosis or treatment, partly because a health care provider can consider preventive treatment without it. What matters is the species, how long it was attached and when it was removed, which a pharmacist or primary care provider can assess."
+    },
+    {
+      "question": "Are ticks active in winter in Nova Scotia?",
+      "answer": "Less often, but they can be. The Public Health Agency of Canada says ticks can be active whenever the temperature stays above freezing and the ground is free of snow, and that people meet them most in spring, summer and fall. Nova Scotia's Lyme page says adult blacklegged ticks stay active until it is consistently below 4 °C. A 2026 analysis by provincial health staff notes that frost days have declined in spring and autumn, adding days when ticks can be active."
+    },
+    {
+      "question": "Can a pharmacist prescribe antibiotics after a tick bite in Nova Scotia?",
+      "answer": "Yes. Pharmacists can assess a tick bite and prescribe an antibiotic to prevent Lyme disease, and since May 1, 2024 they can also treat early Lyme disease. The assessment looks at whether the tick was a blacklegged tick, whether it was removed within the previous 72 hours and whether it was attached for at least 36 hours. Seeing the pharmacist costs nothing for residents with a valid Nova Scotia health card, though you may have to pay for the medication."
+    },
+    {
+      "question": "Why did Lyme disease cases in Nova Scotia jump in 2023?",
+      "answer": "Mainly because the province changed how it counts them. Since January 1, 2023, Nova Scotia has counted Lyme disease from laboratory results alone, without the clinical information a health care provider previously had to supply, and a 2026 analysis found the new method would have counted 4,238 cases from 2018 to 2022 instead of 1,745. Rash cases diagnosed without a blood test are no longer counted. Numbers from 2023 on are therefore not comparable with earlier years."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Communicable Diseases: Lyme Disease (with the linked Lyme Disease Estimated Risk Areas map, labelled July 2023)",
+      "publisher": "Nova Scotia Department of Health and Wellness",
+      "url": "https://novascotia.ca/dhw/cdpc/lyme.asp"
+    },
+    {
+      "title": "Notifiable Diseases Counts and Rates (open data, 2005 to 2024)",
+      "publisher": "Nova Scotia Department of Health and Wellness, Open Government Licence – Nova Scotia",
+      "url": "https://data.novascotia.ca/Health-and-Wellness/Notifiable-Diseases-Counts-and-Rates/mdfn-jkdg"
+    },
+    {
+      "title": "Notifiable Diseases Counts and Rates By Zone (open data, 2014 to 2024)",
+      "publisher": "Nova Scotia Department of Health and Wellness, Open Government Licence – Nova Scotia",
+      "url": "https://data.novascotia.ca/Health-and-Wellness/Notifiable-Diseases-Counts-and-Rates-By-Zone/36ek-n7n8"
+    },
+    {
+      "title": "Notifiable Diseases in Nova Scotia: 2025 Surveillance Data",
+      "publisher": "Nova Scotia Department of Health and Wellness, data current as of May 20, 2026",
+      "url": "https://novascotia.ca/dhw/populationhealth/documents/notifiable-disease-surveillance-report-2025.pdf"
+    },
+    {
+      "title": "Changing case definition: An analysis of its impact on Lyme disease surveillance in Nova Scotia (Nsitem K, et al.)",
+      "publisher": "Canada Communicable Disease Report 52(1/2), Public Health Agency of Canada, February 2026 (CC BY 4.0)",
+      "url": "https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/analysis-impact-lyme-disease-surveillance-nova-scotia.html"
+    },
+    {
+      "title": "Guidance for Primary Care and Emergency Medicine Providers in the Management of Lyme Disease, Human Granulocytic Anaplasmosis, Babesiosis and Powassan Virus Infection in Nova Scotia",
+      "publisher": "Nova Scotia Infectious Diseases Expert Group, Department of Health and Wellness (revised May 13, 2025)",
+      "url": "https://novascotia.ca/dhw/cdpc/documents/statement-management-ld-hga-b-pvi.pdf"
+    },
+    {
+      "title": "Healthcare services available from pharmacists",
+      "publisher": "Nova Scotia Department of Health and Wellness, Pharmacare",
+      "url": "https://novascotia.ca/dhw/pharmacare/healthcare-services.asp"
+    },
+    {
+      "title": "811: Trusted health advice from a registered nurse",
+      "publisher": "Government of Nova Scotia",
+      "url": "https://811.novascotia.ca/"
+    },
+    {
+      "title": "Health Authorities Act General Regulations, section 4: management zones",
+      "publisher": "Province of Nova Scotia",
+      "url": "https://novascotia.ca/just/regulations/regs/hageneral.htm"
+    },
+    {
+      "title": "Annual report: Tick-borne disease surveillance in Canada (2024 data)",
+      "publisher": "Public Health Agency of Canada, Health Infobase",
+      "url": "https://health-infobase.canada.ca/zoonoses/ticks/annual-report.html"
+    },
+    {
+      "title": "Ticks in Canada",
+      "publisher": "Public Health Agency of Canada",
+      "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html"
+    },
+    {
+      "title": "Surveillance for Ixodes scapularis and Ixodes pacificus ticks and their associated pathogens in Canada, 2022",
+      "publisher": "Canada Communicable Disease Report 52(1/2), Public Health Agency of Canada, February 2026 (CC BY 4.0)",
+      "url": "https://www.canada.ca/en/public-health/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2026-52/issue-1-2-january-february-2026/surveillance-ixodes-scapularis-ixodes-pacificus-ticks-associated-pathogens-canada-2022.html"
+    },
+    {
+      "title": "Lyme disease: For health professionals",
+      "publisher": "Public Health Agency of Canada (page dated July 3, 2026)",
+      "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/health-professionals-lyme-disease.html"
+    },
+    {
+      "title": "Lyme disease: How to remove a tick",
+      "publisher": "Public Health Agency of Canada (page dated July 3, 2026)",
+      "url": "https://www.canada.ca/en/public-health/services/diseases/lyme-disease/removing-submitting-ticks-testing.html"
+    },
+    {
+      "title": "How to prevent tick bites",
+      "publisher": "Public Health Agency of Canada (page dated September 9, 2025)",
+      "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/prevent-tick-bites.html"
+    },
+    {
+      "title": "Anaplasmosis: Symptoms and treatment",
+      "publisher": "Public Health Agency of Canada (page dated July 3, 2026)",
+      "url": "https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/anaplasmosis.html"
+    },
+    {
+      "title": "Powassan virus disease: For health professionals",
+      "publisher": "Public Health Agency of Canada (page dated July 3, 2026)",
+      "url": "https://www.canada.ca/en/public-health/services/diseases/powassan-virus/health-professionals.html"
+    },
+    {
+      "title": "eTick: Frequently asked questions",
+      "publisher": "eTick.ca (public tick identification platform; Bishop's University and partners)",
+      "url": "https://www.etick.ca/en/content/faqs"
+    },
+    {
+      "title": "Personal insect repellents",
+      "publisher": "Health Canada",
+      "url": "https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html"
+    }
+  ],
+  "disclaimer": "both"
+}

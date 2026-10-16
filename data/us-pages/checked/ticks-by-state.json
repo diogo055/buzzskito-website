@@ -2,9 +2,14 @@
  "id": "ticks-by-state",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "da939acea49dabc62d1b5a0e3727e7a14b4795a6431c1a2ce881db8dcfcb03ec",
+ "sha": "1d04e014cd1a1737284e3948b2ac0bb08af455ad14d0c9331085015909776386",
  "claimsChecked": 560,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 3,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

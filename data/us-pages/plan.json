@@ -3004,14 +3004,14 @@
     "health"
    ],
    "minWords": 1500,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "ca",
    "role": "hub",
    "series": "ticks-by-province",
    "state": null,
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn",
     "name": "Learning Centre"
@@ -3068,14 +3068,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "ca",
    "role": "page",
    "series": "ticks-by-province",
    "state": "NS",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-province",
     "name": "Ticks by Province"
@@ -3123,14 +3123,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "ca",
    "role": "page",
    "series": "ticks-by-province",
    "state": "MB",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-province",
     "name": "Ticks by Province"
@@ -3178,14 +3178,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "ca",
    "role": "page",
    "series": "ticks-by-province",
    "state": "AB",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-province",
     "name": "Ticks by Province"
@@ -3233,14 +3233,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "ca",
    "role": "page",
    "series": "ticks-by-province",
    "state": "NB",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-province",
     "name": "Ticks by Province"
@@ -3289,14 +3289,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "ca",
    "role": "page",
    "series": "ticks-by-province",
    "state": "QC",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-province",
     "name": "Ticks by Province"
@@ -3345,14 +3345,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "ca",
    "role": "page",
    "series": "ticks-by-province",
    "state": "BC",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-province",
     "name": "Ticks by Province"
@@ -3562,14 +3562,14 @@
     "health"
    ],
    "minWords": 1500,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "hub",
    "series": "ticks-by-state",
    "state": null,
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn",
     "name": "Learning Centre"
@@ -3663,14 +3663,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "PA",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -3722,14 +3722,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "NY",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -3780,14 +3780,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "NJ",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -3836,14 +3836,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "CT",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -3892,14 +3892,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "MA",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -3950,14 +3950,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "WI",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4007,14 +4007,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "MN",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4064,14 +4064,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "VA",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4122,14 +4122,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "MD",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4179,14 +4179,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "NC",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4236,14 +4236,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "TN",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4297,14 +4297,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "GA",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4355,14 +4355,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "TX",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4412,14 +4412,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "OH",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4470,14 +4470,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "IN",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4527,14 +4527,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "IL",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4585,14 +4585,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "MO",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4646,14 +4646,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "KY",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4706,14 +4706,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "ME",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4760,14 +4760,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "NH",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4816,14 +4816,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "VT",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4872,14 +4872,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "RI",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4927,14 +4927,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "DE",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -4983,14 +4983,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "WV",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -5041,14 +5041,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "AR",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -5100,14 +5100,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "OK",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -5159,14 +5159,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "AL",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -5216,14 +5216,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "MS",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"
@@ -5273,14 +5273,14 @@
     "id"
    ],
    "minWords": 1800,
-   "datePublished": "2026-11-16",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": "ticks-by-state",
    "state": "SC",
-   "releaseOn": "2026-11-16",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn/ticks-by-state",
     "name": "Ticks by State"

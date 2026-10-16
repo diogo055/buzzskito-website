@@ -2,9 +2,14 @@
  "id": "ticks-in-alabama",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "01332d536ac1290df5f8042bc9f3437a7439433c9c3c2e58e9c074853bf9b293",
+ "sha": "3e00108e97110a7aeaf9a418a33d74741acc2ca4fd4927f89d99205767ddb064",
  "claimsChecked": 517,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 1,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

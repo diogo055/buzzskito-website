@@ -1,0 +1,1118 @@
+{
+  "slug": "ticks-in-oklahoma",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in oklahoma",
+  "alsoTargets": [
+    "types of ticks in oklahoma",
+    "tick season oklahoma",
+    "lyme disease oklahoma"
+  ],
+  "metaTitle": "Ticks in Oklahoma: Types, County Maps, Season",
+  "metaDescription": "Lone star ticks are established in 69 of Oklahoma's 77 counties. County tick maps, spotted fever, ehrlichiosis and Lyme data, tick season and photos.",
+  "h1": "Ticks in Oklahoma: Species, County Maps, Disease Data and Tick Season",
+  "dek": "Which ticks live in Oklahoma, where CDC has recorded them county by county, why spotted fever, ehrlichiosis and tularemia outnumber Lyme disease here, and when each tick is active.",
+  "breadcrumb": "Ticks in Oklahoma",
+  "excerpt": "Lone star ticks are established in 69 of Oklahoma's 77 counties. Tick photos, county maps, spotted fever and ehrlichiosis data, Lyme facts and tick season by month.",
+  "datePublished": "2026-10-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**The lone star tick is the one Oklahomans most often meet during outdoor recreation, and CDC's county records list it as established in 69 of the state's 77 counties.** Spotted fever rickettsiosis, ehrlichiosis and tularemia, not Lyme disease, are the tick-borne illnesses reported most: the state counted 29, 22 and 13 cases in 2023, against 3 Lyme cases, in its [historical disease table](https://oklahoma.gov/content/dam/ok/en/health/health2/aem-documents/prevention-and-preparedness/acute-disease-service/history-table.pdf).",
+    "bullets": [
+      "CDC's county tables, which run through 2025, list lone star ticks as established in 69 counties, blacklegged (deer) ticks in 28 and American dog ticks in 21.",
+      "By our count of CDC's 2023 state table, Oklahoma had the third-most tularemia cases of any state (13 of 196), behind Missouri and Kansas.",
+      "Reported spotted fever cases peaked at 409 in 2012 in the state's table and have stayed under 30 a year since 2020, the year a revised national case definition took effect.",
+      "Oklahoma State University Extension says the state's blacklegged ticks are not known to transmit Lyme disease; the state health department says catching it in Oklahoma is rare but appears possible.",
+      "The invasive Asian longhorned tick was first found in Oklahoma in July 2024, on cattle in Craig County, and on the same ranch in neighboring Mayes County in August.",
+      "A 2026 state law makes alpha-gal syndrome, the red meat allergy linked to lone star tick bites, reportable to the state health department, effective November 1, 2026."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Oklahoma at a glance",
+    "rows": [
+      [
+        "Tick people meet most",
+        "Lone star tick (OSU Extension, 2024)"
+      ],
+      [
+        "Lone star tick",
+        "Established in 69 of 77 counties (CDC ArboNET Tick Module, through 2025)"
+      ],
+      [
+        "American dog tick",
+        "Established in 21 counties, reported in 32 (CDC ArboNET Tick Module, through 2025)"
+      ],
+      [
+        "Blacklegged (deer) tick",
+        "Established in 28 counties, reported in 27 (CDC ArboNET Tick Module, through December 2025)"
+      ],
+      [
+        "Spotted fever rickettsiosis",
+        "29 cases in 2023, 7.2 per million residents (state table; CDC rate)"
+      ],
+      [
+        "Ehrlichiosis",
+        "22 cases in 2023; 5.4 per million for *E. chaffeensis* (state table; CDC rate)"
+      ],
+      [
+        "Tularemia",
+        "13 cases in 2023, third-most of any state (our count of CDC data)"
+      ],
+      [
+        "Lyme disease",
+        "3 cases in 2023, 0.1 per 100,000 (CDC)"
+      ],
+      [
+        "Peak months for Rocky Mountain spotted fever",
+        "May to July; most cases April to September (OSU Extension, 2024)"
+      ],
+      [
+        "Asian longhorned tick",
+        "First found July 2024 in Craig County; two counties as of July 2026"
+      ],
+      [
+        "Alpha-gal syndrome",
+        "Reportable to the state from November 1, 2026 (Senate Bill 1644)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Oklahoma?"
+    },
+    {
+      "type": "p",
+      "text": "[Oklahoma State University (OSU) Extension's guide to the state's common ticks](https://extension.okstate.edu/fact-sheets/common-ticks-of-oklahoma-and-tick-borne-diseases.html) covers six of Oklahoma's more important hard ticks: the lone star, American dog, Gulf Coast, blacklegged (deer), brown dog and winter ticks. The guide adds two soft ticks that mainly concern poultry and livestock producers, the fowl tick and the spinose ear tick. The invasive Asian longhorned tick was first found in the state in 2024."
+    },
+    {
+      "type": "p",
+      "text": "The lone star tick is the one people meet most. OSU Extension calls it the tick most commonly encountered during outdoor recreation in Oklahoma and says its larvae, nymphs and adults all readily feed on humans. [CDC's lone star tick surveillance page](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) describes it as a very aggressive tick that bites humans, with nymphs and adult females biting people most often."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "Where it is recorded in Oklahoma",
+        "How to recognize it",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Established in 69 of 77 counties",
+          "Females have one white spot on the back; males have white markings around the rear edge",
+          "Ehrlichiosis, tularemia, STARI and Heartland virus; the main tick linked to red meat allergy"
+        ],
+        [
+          "American dog tick, *Dermacentor variabilis*",
+          "Established in 21 counties, reported in 32",
+          "Brown and black with scattered white, gray or silver spots",
+          "Rocky Mountain spotted fever (its only known carrier in Oklahoma); tick paralysis"
+        ],
+        [
+          "Blacklegged (deer) tick, *Ixodes scapularis*",
+          "Established in 28 counties, reported in 27",
+          "No colorful markings",
+          "Can carry the germs of anaplasmosis, babesiosis and Lyme disease; not known to spread Lyme disease in Oklahoma"
+        ],
+        [
+          "Gulf Coast tick, *Amblyomma maculatum*",
+          "Not in CDC county tables; increasingly abundant over the past 20 years",
+          "Female shown below: pale, silvery shield behind the head",
+          "*Hepatozoon americanum* in dogs and coyotes; possibly *Rickettsia parkeri* in people; reportedly tick paralysis"
+        ],
+        [
+          "Brown dog tick, *Rhipicephalus sanguineus*",
+          "Very common; can become established in homes and kennels with dogs",
+          "Male shown below: plain reddish-brown, no white markings",
+          "Mainly dog diseases, including the germ that causes Rocky Mountain spotted fever"
+        ],
+        [
+          "Winter tick, *Dermacentor albipictus*",
+          "A pest of horses, cattle, deer and elk",
+          "Shield ranges from no white to almost entirely white",
+          "Anaplasmosis in cattle"
+        ],
+        [
+          "Asian longhorned tick, *Haemaphysalis longicornis*",
+          "Craig and Mayes counties, first found in 2024",
+          "Nymph and female shown below: small, plain reddish-brown",
+          "*Theileria orientalis*, a blood parasite of cattle"
+        ]
+      ],
+      "caption": "Counties: CDC ArboNET Tick Module, through 2025 (its county tables cover the lone star, American dog and blacklegged ticks). Other columns: [OSU Extension's fact sheet](https://extension.okstate.edu/fact-sheets/common-ticks-of-oklahoma-and-tick-borne-diseases.html), April 2024, except the Asian longhorned tick row, from the [2024 report of its discovery in Oklahoma](https://pmc.ncbi.nlm.nih.gov/articles/PMC11510514/); the photo descriptions are ours."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick. OSU Extension says the species is named for the large white spot on the female's back.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-male.webp",
+      "width": 1200,
+      "height": 981,
+      "alt": "Adult male lone star tick seen from above on a black background, reddish-brown with faint pale streaks along the sides and rear edge of its back",
+      "caption": "Adult male lone star tick. OSU Extension says males have white markings around the rear edge of the body rather than the female's single spot.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8685"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick. OSU Extension calls it the only known carrier of Rocky Mountain spotted fever in Oklahoma.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/gulf-coast-tick-female.webp",
+      "width": 1200,
+      "height": 807,
+      "alt": "Adult female Gulf Coast tick on a green leaf, dark reddish-brown with long orange-brown legs and a pale, silvery patterned shield behind the head",
+      "caption": "Adult female Gulf Coast tick. OSU Extension says the species has become increasingly abundant in Oklahoma over the past 20 years and is an important pest of cattle.",
+      "credit": "CDC/ Dr. Christopher Paddock (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10876"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/brown-dog-tick-male.webp",
+      "width": 1200,
+      "height": 1167,
+      "alt": "Adult male brown dog tick seen from above under magnification, plain reddish-brown with no pale markings, beside a 1 mm (0.04 inch) scale bar",
+      "caption": "Adult male brown dog tick, magnified; the scale bar is 1 mm, about 0.04 inch. OSU Extension says this tick can become established in houses and kennels where dogs live.",
+      "credit": "CDC/ Dr. Gary Alpert; PhD; photo: Anna Kang; Dr. Gary Alpert; PhD (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31722"
+    },
+    {
+      "type": "p",
+      "text": "Lone star larvae quest for hosts together in a mass, OSU says, and larvae are sometimes called seed ticks; see [what to do when a cluster of seed ticks climbs on](/blog/seed-ticks). To compare sizes and markings, see [what the common US ticks look like](/blog/what-do-ticks-look-like) or [a tick identification chart with photos](/learn/tick-identification-chart)."
+    },
+    {
+      "type": "h2",
+      "text": "Where are lone star ticks found in Oklahoma?"
+    },
+    {
+      "type": "p",
+      "text": "Almost everywhere except parts of western Oklahoma. [CDC's lone star tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html) lists the species as established in 69 of the state's 77 counties through 2025. By our count of CDC's table, that is the fifth-highest total of any state, behind Texas, Kentucky, Arkansas and Virginia, and the second-highest share of a state's counties, after Arkansas."
+    },
+    {
+      "type": "map",
+      "scope": "OK",
+      "title": "Lone star tick status by county, Oklahoma, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "40001": "established",
+        "40003": "established",
+        "40005": "established",
+        "40011": "established",
+        "40013": "established",
+        "40015": "established",
+        "40017": "established",
+        "40019": "established",
+        "40021": "established",
+        "40023": "established",
+        "40025": "established",
+        "40027": "established",
+        "40029": "established",
+        "40031": "established",
+        "40033": "established",
+        "40035": "established",
+        "40037": "established",
+        "40039": "established",
+        "40041": "established",
+        "40043": "established",
+        "40047": "established",
+        "40049": "established",
+        "40051": "established",
+        "40053": "established",
+        "40057": "established",
+        "40061": "established",
+        "40063": "established",
+        "40065": "established",
+        "40067": "established",
+        "40069": "established",
+        "40071": "established",
+        "40073": "established",
+        "40077": "established",
+        "40079": "established",
+        "40081": "established",
+        "40083": "established",
+        "40085": "established",
+        "40087": "established",
+        "40089": "established",
+        "40091": "established",
+        "40093": "established",
+        "40095": "established",
+        "40097": "established",
+        "40099": "established",
+        "40101": "established",
+        "40103": "established",
+        "40105": "established",
+        "40107": "established",
+        "40109": "established",
+        "40111": "established",
+        "40113": "established",
+        "40115": "established",
+        "40117": "established",
+        "40119": "established",
+        "40121": "established",
+        "40123": "established",
+        "40125": "established",
+        "40127": "established",
+        "40129": "established",
+        "40131": "established",
+        "40133": "established",
+        "40135": "established",
+        "40137": "established",
+        "40141": "established",
+        "40143": "established",
+        "40145": "established",
+        "40147": "established",
+        "40149": "established",
+        "40153": "established"
+      },
+      "caption": "Established means six or more lone star ticks of one life stage, or more than one life stage, were collected in the county within 12 months; CDC's table puts no Oklahoma county in the reported category. No record does not mean no ticks: it can mean no one has sampled or reported there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html)"
+    },
+    {
+      "type": "p",
+      "text": "The eight counties without a record are all in western Oklahoma: Beaver and Texas counties in the Panhandle, plus Beckham, Ellis, Greer, Harper, Kiowa and Woods. CDC says a county not labeled established does not mean the tick is absent, and that a county with no record may become established once it is sampled for the first time."
+    },
+    {
+      "type": "h2",
+      "text": "Where are American dog ticks found in Oklahoma?"
+    },
+    {
+      "type": "p",
+      "text": "In scattered counties across the state, though the records are patchier than for the lone star tick. [CDC's American dog tick surveillance](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html) lists the species as established in 21 Oklahoma counties and reported in 32 more through 2025, with no record for the other 24. CDC says adult females are the stage most likely to bite people, with the highest risk in spring and summer."
+    },
+    {
+      "type": "map",
+      "scope": "OK",
+      "title": "American dog tick status by county, Oklahoma, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "40005": "established",
+        "40009": "reported",
+        "40011": "reported",
+        "40013": "established",
+        "40015": "established",
+        "40019": "reported",
+        "40021": "established",
+        "40023": "reported",
+        "40027": "established",
+        "40029": "reported",
+        "40031": "established",
+        "40033": "reported",
+        "40039": "reported",
+        "40041": "reported",
+        "40043": "reported",
+        "40045": "reported",
+        "40047": "established",
+        "40049": "reported",
+        "40051": "established",
+        "40053": "reported",
+        "40055": "reported",
+        "40057": "reported",
+        "40059": "established",
+        "40063": "reported",
+        "40065": "established",
+        "40067": "reported",
+        "40069": "established",
+        "40073": "reported",
+        "40075": "reported",
+        "40079": "established",
+        "40081": "established",
+        "40085": "reported",
+        "40087": "established",
+        "40089": "established",
+        "40093": "reported",
+        "40097": "reported",
+        "40099": "reported",
+        "40101": "reported",
+        "40105": "established",
+        "40109": "established",
+        "40113": "established",
+        "40117": "established",
+        "40119": "established",
+        "40121": "reported",
+        "40123": "reported",
+        "40125": "reported",
+        "40129": "reported",
+        "40137": "reported",
+        "40143": "reported",
+        "40145": "reported",
+        "40147": "reported",
+        "40149": "established",
+        "40153": "reported"
+      },
+      "caption": "Established means six or more American dog ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported counties have records that fall short of that. No record does not mean no ticks: it can mean no one has sampled or reported there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html)"
+    },
+    {
+      "type": "p",
+      "text": "Blank counties may be gaps in sampling or reporting, not proof of absence. Adair, Creek, Ottawa and Sequoyah counties have no American dog tick record, yet their residents reported spotted fever cases from 2019 to 2022 in CDC's county file. OSU Extension says this tick is the only known carrier of Rocky Mountain spotted fever in Oklahoma and is most abundant in the eastern half of the state."
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged (deer) ticks established in Oklahoma?"
+    },
+    {
+      "type": "p",
+      "text": "Mostly in central and eastern counties, with outposts as far west as Custer and Dewey counties. [CDC's county table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in 28 Oklahoma counties and reported in 27, and has no record for the other 22, most of them in the west and southwest. To compare other states, see [tick maps and disease data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "map",
+      "scope": "OK",
+      "title": "Blacklegged (deer) tick status by county, Oklahoma, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "40001": "reported",
+        "40003": "reported",
+        "40005": "established",
+        "40011": "established",
+        "40013": "reported",
+        "40015": "reported",
+        "40019": "established",
+        "40021": "established",
+        "40027": "established",
+        "40029": "reported",
+        "40031": "established",
+        "40035": "reported",
+        "40037": "established",
+        "40039": "established",
+        "40041": "reported",
+        "40043": "established",
+        "40047": "reported",
+        "40049": "established",
+        "40051": "reported",
+        "40061": "reported",
+        "40063": "reported",
+        "40069": "reported",
+        "40077": "established",
+        "40079": "established",
+        "40081": "established",
+        "40083": "reported",
+        "40085": "reported",
+        "40087": "established",
+        "40089": "reported",
+        "40091": "reported",
+        "40093": "established",
+        "40097": "established",
+        "40099": "established",
+        "40101": "reported",
+        "40103": "established",
+        "40105": "reported",
+        "40107": "established",
+        "40109": "established",
+        "40111": "established",
+        "40113": "established",
+        "40115": "reported",
+        "40117": "reported",
+        "40119": "established",
+        "40121": "established",
+        "40123": "reported",
+        "40125": "established",
+        "40127": "reported",
+        "40131": "established",
+        "40133": "reported",
+        "40135": "established",
+        "40137": "reported",
+        "40143": "established",
+        "40145": "reported",
+        "40147": "reported",
+        "40149": "reported"
+      },
+      "caption": "Established means six or more blacklegged ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer than six of a single life stage. No record does not mean no ticks: it can reflect a lack of sampling or reporting. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html)"
+    },
+    {
+      "type": "p",
+      "text": "The map grows with sampling. CDC's table credits 10 of the 28 established counties to a 2021 submission and the rest to historical records (our count), and CDC notes that gaps can reflect limited sampling."
+    },
+    {
+      "type": "p",
+      "text": "Oklahoma's blacklegged ticks also feed differently. In the Northeast the nymphs are the main carriers of Lyme disease, OSU Extension says, but in Oklahoma the larvae and nymphs, active in spring and summer, normally feed on lizards and snakes rather than mice. Adults are active from late September or October to March or April, often as the most common tick on deer and cattle in early fall."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "Adult female blacklegged tick and a much smaller nymph on a person's fingertip, showing how small both stages are",
+      "caption": "An adult female blacklegged (deer) tick, left, and a nymph, right, on a fingertip.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "h3",
+      "text": "Do Oklahoma's deer ticks carry Lyme disease bacteria?"
+    },
+    {
+      "type": "p",
+      "text": "No Oklahoma county has a record in CDC's pathogen table for host-seeking blacklegged ticks, which covers the Lyme disease bacterium *Borrelia burgdorferi* and six other germs, through 2025. A missing record is not proof a germ is absent: CDC says it can mean no sampling, no testing or no published results. For a closer look at the two US ticks that spread it, see [the ticks that carry Lyme disease](/blog/ticks-that-carry-lyme-disease)."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Oklahoma?"
+    },
+    {
+      "type": "p",
+      "text": "Spring through fall for most ticks, with blacklegged and winter ticks active through the cooler months. [OSU Extension](https://extension.okstate.edu/fact-sheets/common-ticks-of-oklahoma-and-tick-borne-diseases.html) says lone star ticks are active from early spring to late fall and American dog ticks are most active in spring and early summer, and that most Rocky Mountain spotted fever cases in Oklahoma occur between April and September, peaking in May, June and July."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "When it is most active in Oklahoma"
+      ],
+      "rows": [
+        [
+          "Lone star",
+          "Early spring to late fall; larvae, nymphs and adults all bite people"
+        ],
+        [
+          "American dog",
+          "Spring and early summer; adults often bite people"
+        ],
+        [
+          "Gulf Coast",
+          "Adults on cattle most abundant from early April to mid-June"
+        ],
+        [
+          "Blacklegged (deer)",
+          "Adults from late September or October to March or April; larvae and nymphs in spring and summer, mostly on lizards and snakes"
+        ],
+        [
+          "Winter tick",
+          "Larvae from early October; nymphs and adults in late fall, winter and early spring, on one host, usually deer or cattle"
+        ]
+      ],
+      "caption": "Source: [OSU Extension's fact sheet](https://extension.okstate.edu/fact-sheets/common-ticks-of-oklahoma-and-tick-borne-diseases.html), April 2024. Ticks can turn up outside these months."
+    },
+    {
+      "type": "p",
+      "text": "Nationally, CDC says tick exposure can happen year-round but ticks are most active from April to September, in its [overview of Rocky Mountain spotted fever](https://www.cdc.gov/rocky-mountain-spotted-fever/about/index.html). Tularemia follows a similar calendar: [CDC's tularemia data page](https://www.cdc.gov/tularemia/data-research/index.html) says it is more common from May through September, and that tick and deer fly bites mostly happen in summer."
+    },
+    {
+      "type": "h2",
+      "text": "Which tick-borne diseases are most common in Oklahoma?"
+    },
+    {
+      "type": "p",
+      "text": "Spotted fever rickettsiosis, ehrlichiosis and tularemia. The [state health department's historical table](https://oklahoma.gov/content/dam/ok/en/health/health2/aem-documents/prevention-and-preparedness/acute-disease-service/history-table.pdf) counted 29 spotted fever, 22 ehrlichiosis and 13 tularemia cases in 2023, against 3 anaplasmosis and 3 Lyme disease cases. OSU Extension calls Rocky Mountain spotted fever the most important tick-borne disease in Oklahoma."
+    },
+    {
+      "type": "chart",
+      "title": "Reported spotted fever, ehrlichiosis and tularemia cases in Oklahoma, 2008 to 2024",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "series": [
+        {
+          "name": "Spotted fever rickettsiosis",
+          "values": [
+            267,
+            342,
+            244,
+            337,
+            409,
+            244,
+            219,
+            307,
+            124,
+            349,
+            80,
+            null,
+            12,
+            19,
+            25,
+            29,
+            24
+          ]
+        },
+        {
+          "name": "Ehrlichiosis",
+          "values": [
+            121,
+            147,
+            111,
+            123,
+            145,
+            107,
+            77,
+            63,
+            63,
+            82,
+            92,
+            6,
+            1,
+            16,
+            21,
+            22,
+            14
+          ]
+        },
+        {
+          "name": "Tularemia",
+          "values": [
+            7,
+            7,
+            8,
+            15,
+            17,
+            10,
+            17,
+            23,
+            26,
+            41,
+            44,
+            25,
+            6,
+            6,
+            17,
+            13,
+            8
+          ]
+        }
+      ],
+      "yLabel": "Reported cases per year (bars stacked by disease)",
+      "caption": "The state's table lists spotted fever as Rocky Mountain spotted fever; for 2019 to 2023 its spotted fever and ehrlichiosis counts match the rates CDC publishes for Oklahoma (our check). The 2019 spotted fever count, 0 in both, is shown as a gap: Oklahoma submitted no cases to CDC, which lists the state's 2019 data as possibly incomplete (COVID-19). Ehrlichiosis counts before 2013 include anaplasmosis, which the state has counted separately since then. A revised national spotted fever case definition took effect in 2020. 2024 counts are provisional.",
+      "source": "Oklahoma State Department of Health, [historical table of reported communicable diseases, 1990 to 2024](https://oklahoma.gov/content/dam/ok/en/health/health2/aem-documents/prevention-and-preparedness/acute-disease-service/history-table.pdf)"
+    },
+    {
+      "type": "p",
+      "text": "Reported cases have fallen a long way. In the state's table, spotted fever peaked at 409 cases in 2012 and was still at 349 in 2017, then dropped to 80 in 2018 and has stayed below 30 a year since 2020. Ehrlichiosis fell from 92 cases in 2018 to 22 in 2023, while [CDC's national count of *E. chaffeensis* ehrlichiosis](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html) dipped from 2,093 in 2019 to 1,178 in 2020 and was back to 1,907 by 2023."
+    },
+    {
+      "type": "p",
+      "text": "Changes in how cases are counted cloud the trend. A revised national case definition for spotted fever took effect in January 2020, according to [CDC's 2020 notifiable disease tables](https://stacks.cdc.gov/view/cdc/175644), and [CDC's spotted fever statistics](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html) show national reports falling from 5,207 in 2019 to 1,175 in 2020. For 2019, Oklahoma submitted no spotted fever cases to CDC at all, and [CDC's 2019 tables](https://stacks.cdc.gov/view/cdc/106490) list the state among 24 jurisdictions whose data may be incomplete because of the COVID-19 pandemic. The state's table gives no reason for the decline that began in 2018."
+    },
+    {
+      "type": "h3",
+      "text": "How does Oklahoma compare with other states?"
+    },
+    {
+      "type": "p",
+      "text": "In 2023, Oklahoma reported less spotted fever and ehrlichiosis per person than Arkansas, Missouri or Kansas. By our ranking of CDC's 2023 rates, Oklahoma was tenth among states for spotted fever and 17th for ehrlichiosis; in 2018 its ehrlichiosis rate, 22.8 per million, ranked sixth. Tularemia is the exception: only Missouri and Kansas reported more cases in 2023."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Spotted fever per million",
+        "Ehrlichiosis per million",
+        "Tularemia cases",
+        "Lyme disease cases"
+      ],
+      "rows": [
+        [
+          "Oklahoma",
+          "7.2",
+          "5.4",
+          "13",
+          "3"
+        ],
+        [
+          "[Arkansas](/blog/ticks-in-arkansas)",
+          "20.9",
+          "41.4",
+          "12",
+          "5"
+        ],
+        [
+          "[Missouri](/blog/ticks-in-missouri)",
+          "18.1",
+          "76.5",
+          "24",
+          "16"
+        ],
+        [
+          "[Kansas](/blog/ticks-in-kansas)",
+          "7.5",
+          "18.7",
+          "20",
+          "12"
+        ],
+        [
+          "[Texas](/blog/ticks-in-texas)",
+          "0.5",
+          "0.5",
+          "0",
+          "27"
+        ],
+        [
+          "[New Mexico](/blog/ticks-in-new-mexico)",
+          "1.4",
+          "0",
+          "0",
+          "11"
+        ],
+        [
+          "[Colorado](/blog/ticks-in-colorado)",
+          "0.3",
+          "Not notifiable",
+          "11",
+          "32"
+        ]
+      ],
+      "caption": "Cases by state of residence in 2023, the latest year in CDC's national data as of October 2026. Rates are CDC's, per million residents, rounded; ehrlichiosis means *E. chaffeensis* ehrlichiosis, which was not a notifiable condition in Colorado. Sources: [CDC spotted fever statistics](https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html), [CDC ehrlichiosis statistics](https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html), [CDC tularemia data](https://www.cdc.gov/tularemia/data-research/index.html) and [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)."
+    },
+    {
+      "type": "h3",
+      "text": "Which Oklahoma counties report the most cases?"
+    },
+    {
+      "type": "p",
+      "text": "Eastern counties and the two biggest metro counties. [CDC's county-level file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html) for 2019 to 2022 records spotted fever among residents of 21 Oklahoma counties, ehrlichiosis in 20 and tularemia in 27. Cherokee County, in the northeast, had 15 cases of the three combined, one fewer than Oklahoma County, home to Oklahoma City."
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Spotted fever rickettsiosis",
+        "Ehrlichiosis (*E. chaffeensis*)",
+        "Tularemia"
+      ],
+      "rows": [
+        [
+          "Oklahoma",
+          "8",
+          "7",
+          "1"
+        ],
+        [
+          "Cherokee",
+          "8",
+          "1",
+          "6"
+        ],
+        [
+          "Tulsa",
+          "2",
+          "8",
+          "5"
+        ],
+        [
+          "Sequoyah",
+          "4",
+          "4",
+          "4"
+        ],
+        [
+          "Creek",
+          "3",
+          "2",
+          "3"
+        ],
+        [
+          "Muskogee",
+          "4",
+          "1",
+          "3"
+        ],
+        [
+          "Adair",
+          "3",
+          "1",
+          "3"
+        ],
+        [
+          "Delaware",
+          "3",
+          "2",
+          "2"
+        ],
+        [
+          "Cleveland",
+          "4",
+          "1",
+          "1"
+        ]
+      ],
+      "caption": "Cases among county residents, 2019 to 2022 combined, for the nine counties with six or more cases of the three illnesses together, from [CDC's county-level tick-borne disease file](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html). Cases are counted where patients live, not necessarily where they were bitten, and cases with no county of residence are left out. The period includes 2019, when Oklahoma submitted no spotted fever cases to CDC."
+    },
+    {
+      "type": "p",
+      "text": "Outside Oklahoma, Tulsa and Cleveland counties, the list leans east, as OSU Extension describes: it says most Rocky Mountain spotted fever cases occur in the eastern half of the state, where American dog ticks are most abundant, and that most tularemia cases, known in Oklahoma since the 1920s, are in eastern Oklahoma."
+    },
+    {
+      "type": "h3",
+      "text": "What are spotted fever, ehrlichiosis and tularemia?"
+    },
+    {
+      "type": "p",
+      "text": "Rocky Mountain spotted fever is a serious illness that can be deadly if not treated early with the antibiotic doxycycline, and its most common symptoms are fever, headache and rash, according to [CDC's overview](https://www.cdc.gov/rocky-mountain-spotted-fever/about/index.html). Read more about [Rocky Mountain spotted fever and how it is treated](/blog/rocky-mountain-spotted-fever). Ehrlichiosis is spread by the lone star tick, which OSU says transmits *Ehrlichia chaffeensis*, the cause of human monocytic ehrlichiosis; see [what ehrlichiosis is and how it is treated](/blog/ehrlichiosis)."
+    },
+    {
+      "type": "p",
+      "text": "Tularemia is a bacterial disease of many wild animals, especially rodents and rabbits. People can also catch it by handling infected carcasses or drinking contaminated water, but OSU says most Oklahoma cases are thought to come from tick bites. More on [how tularemia spreads](/blog/tularemia)."
+    },
+    {
+      "type": "h3",
+      "text": "What else do lone star ticks spread?"
+    },
+    {
+      "type": "p",
+      "text": "Alpha-gal syndrome, an allergy to red meat: OSU Extension calls the lone star tick the main tick involved in it. [Senate Bill 1644](https://www.oklegislature.gov/BillInfo.aspx?Bill=SB1644&Session=2600), approved by the governor on May 6, 2026, requires the state health commissioner to add alpha-gal syndrome to Oklahoma's list of reportable diseases, with cases reported by health care providers and clinical laboratories under rules the commissioner sets; the enrolled bill takes effect November 1, 2026. See [how alpha-gal syndrome is diagnosed](/blog/alpha-gal-syndrome)."
+    },
+    {
+      "type": "p",
+      "text": "OSU also links the lone star tick to southern tick-associated rash illness (STARI), a Lyme-like rash illness whose cause is unknown, and to Heartland virus. It says Heartland virus appears to be spread only by lone star ticks, that CDC had recorded more than 60 cases in 14 states, including Oklahoma, as of November 2022, and that no medicine is approved to treat or prevent it."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does Oklahoma have?"
+    },
+    {
+      "type": "p",
+      "text": "Very little. [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html) count 3 confirmed and probable cases among Oklahoma residents in 2023, a rate of 0.1 per 100,000, and none in each year from 2018 to 2022. Yearly counts since 2008 have never been higher than 4."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Oklahoma, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            2,
+            2,
+            0,
+            2,
+            4,
+            3,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "Zeros are years with no reported cases; CDC says COVID-19 left 2019 and 2020 data incomplete in some jurisdictions. A revised case definition took effect in 2022, so compare later years with earlier ones with care. The state's own table gives 6 cases for 2012 and 2 for 2013, against CDC's 4 and 3; this chart uses CDC's figures. Data through 2023, the latest CDC year as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html)"
+    },
+    {
+      "type": "p",
+      "text": "Read the small numbers with care. Cases are counted where patients live, which may not be where they were bitten, and with so few cases one or two can change the picture. A revised case definition took effect in 2022: in low-incidence states such as Oklahoma, cases still need supporting clinical information, and probable cases now need objective signs of infection, according to [CDC's report on the first year of the change](https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm)."
+    },
+    {
+      "type": "h3",
+      "text": "Can you catch Lyme disease in Oklahoma?"
+    },
+    {
+      "type": "p",
+      "text": "Rarely, if at all, and Oklahoma's experts read the evidence differently. [OSU Extension](https://extension.okstate.edu/fact-sheets/common-ticks-of-oklahoma-and-tick-borne-diseases.html) says the state's blacklegged ticks are not known to transmit Lyme disease, because their young feed on lizards rather than on the mice that carry the bacteria. The [state health department's Lyme fact sheet](https://oklahoma.gov/content/dam/ok/en/health/health2/aem-documents/prevention-and-preparedness/infectious-disease-prevention-and-response/fact-sheets/Lyme%20Disease.pdf), updated in August 2023, calls Lyme disease in southern states controversial, since the bacterium has never been cultured from a southern US resident with Lyme symptoms, but says studies have found it in a small percentage of Oklahoma's blacklegged ticks and that catching it in Oklahoma, though rare, appears possible."
+    },
+    {
+      "type": "p",
+      "text": "A bull's-eye rash does not settle the question. The fact sheet cites medical reports of people in southeastern and south-central states, including Oklahoma, who had the rash but tested negative for Lyme disease, an illness now called STARI that appears to be spread by lone star ticks. For what early Lyme disease looks like, see [the stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide)."
+    },
+    {
+      "type": "h2",
+      "text": "Is the Asian longhorned tick in Oklahoma?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, since 2024, in the northeastern corner of the state. On July 31, 2024, a veterinarian reported heifers in Craig County carrying heavy loads of unfamiliar-looking ticks, and a second batch from the same ranch, in neighboring Mayes County, followed on August 9, according to the [2024 report of the state's first finds](https://pmc.ncbi.nlm.nih.gov/articles/PMC11510514/). The Oklahoma Animal Disease Diagnostic Laboratory identified them, DNA testing confirmed the species, and the report counted both counties as having established populations, the farthest west the tick had been found in the US at the time."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/asian-longhorned-tick-on-dime.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Asian longhorned tick nymph and a larger adult female, both plain reddish-brown, resting on a US dime for scale",
+      "caption": "An Asian longhorned tick nymph, left, and adult female, right, on a US dime. Every tick in Oklahoma's first two submissions was an adult female, the 2024 report says.",
+      "credit": "CDC/ DVBD; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=22872"
+    },
+    {
+      "type": "p",
+      "text": "The latest national update still showed two Oklahoma counties. A [University of Tennessee summary of the July 2026 national stakeholder call](https://vectorvbdwatch.tennessee.edu/national-exotic-and-invasive-vector-species-stakeholder-call-july-2026/), with data as of July 18, 2026, listed Oklahoma among 27 states with active detections, and its next steps included following up on reported positive counties in Oklahoma to verify them. We found no published confirmation from any other Oklahoma county as of October 2026."
+    },
+    {
+      "type": "p",
+      "text": "The main known threat is to cattle. The tick spreads *Theileria orientalis* Ikeda, a blood parasite of cattle, though the first Oklahoma cattle and ticks tested negative for it. Its females can reproduce without mating, and it readily feeds on pets, other animals and people. Germs that cause human illness have been found in the tick in the US, but whether it can spread them is still largely undetermined, the report says. Learn [how to recognize an Asian longhorned tick](/blog/asian-longhorned-tick)."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Oklahoma?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick right away, save it, and watch your health for the next few weeks. [CDC's tick-bite guidance](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) describes removal this way:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers.",
+        "Pull it away from the skin with steady, even pressure, without twisting or jerking. If the mouthparts break off and do not come out easily, leave them alone.",
+        "Clean the bite and your hands with soap and water, rubbing alcohol or hand sanitizer, and check your body for other ticks.",
+        "Do not crush the tick with your fingers, and do not use petroleum jelly, heat, nail polish or other substances to make it let go."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "OSU Extension adds a step worth taking: record the date of the bite and freeze the tick in a sealed plastic bag in case you become ill. CDC advises against relying on tick testing, which some commercial groups offer: results should not be used for treatment decisions, and a negative result can give false reassurance. For more detail, see [a step-by-step guide to removing a tick](/blog/how-to-remove-tick-safely)."
+    },
+    {
+      "type": "p",
+      "text": "See a doctor if you develop a rash or fever within several weeks of removing a tick, and say when and where you were bitten, CDC says. [CDC's overview of Rocky Mountain spotted fever](https://www.cdc.gov/rocky-mountain-spotted-fever/about/index.html) names fever, headache and rash as its most common symptoms; the rash, which can look like red splotches or pinpoint dots, usually appears 2 to 4 days after the fever starts. CDC says a provider who suspects it should recommend antibiotics before test results come back, and that doxycycline is approved for adults and children of all ages."
+    },
+    {
+      "type": "p",
+      "text": "Ehrlichiosis usually begins within 1 to 2 weeks of a bite, with fever, chills, severe headache, muscle aches, nausea, vomiting, diarrhea, loss of appetite or confusion, according to [CDC's ehrlichiosis symptom page](https://www.cdc.gov/ehrlichiosis/signs-symptoms/index.html). Up to 1 in 3 people get a rash, more often children than adults, and delayed treatment can lead to severe illness, especially in children under 5, adults over 65 and people with weakened immune systems."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you feel ill",
+      "text": "Fever, headache, rash or muscle aches in the weeks after a tick bite or time in grassy or wooded areas are reasons to see a provider and mention the tick. Do not wait for a tick test result. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Oklahoma?"
+    },
+    {
+      "type": "p",
+      "text": "Dress for ticks, use repellent, stay on the trail and check yourself every day. The [state health department's Lyme fact sheet](https://oklahoma.gov/content/dam/ok/en/health/health2/aem-documents/prevention-and-preparedness/infectious-disease-prevention-and-response/fact-sheets/Lyme%20Disease.pdf) lists these precautions:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Cover up.** Wear light-colored clothing so ticks are easier to see, long sleeves, long pants tucked into socks, and closed-toe shoes rather than sandals.",
+        "**Stay in the middle of the trail** when hiking, biking or walking, away from grass and brush.",
+        "**Use repellent as the label directs.** The department advises a repellent with DEET on skin and clothing, and permethrin on clothing only.",
+        "**Check for ticks at least once a day**, especially along waistbands, in the armpits and groin, on the back and in the hair; a [full-body tick check](/blog/how-to-do-a-tick-check) walks through the routine."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Make the yard less inviting. [OSU Extension](https://extension.okstate.edu/fact-sheets/common-ticks-of-oklahoma-and-tick-borne-diseases.html) suggests keeping the lawn mowed, clearing leaf litter, tall grass and brush around the house and at the edges of the lawn, putting a strip of wood chips or gravel between lawns and wooded areas, and keeping play equipment, decks and patios away from yard edges and trees."
+    },
+    {
+      "type": "p",
+      "text": "Protect pets too. OSU advises inspecting pets often and removing or treating any ticks, since brown dog ticks can become established indoors where dogs live and dogs are a preferred host of adult American dog ticks. Ask a veterinarian which tick preventive suits your pet, and see [how to check a dog for ticks](/blog/ticks-on-dogs)."
+    },
+    {
+      "type": "p",
+      "text": "Some outings carry more risk than others. OSU says lone star ticks wait for hosts along trails and pathways, and that most people meet American dog ticks in heavily wooded areas, including many recreation areas in eastern Oklahoma."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the most common tick in Oklahoma?",
+      "answer": "The lone star tick. Oklahoma State University Extension calls it the tick people most commonly encounter during outdoor recreation in Oklahoma, and CDC's county records list it as established in 69 of the state's 77 counties, more than any other tick CDC tracks there. Adult females have a single white spot on the back. Lone star ticks can spread ehrlichiosis and tularemia and are considered the main tick behind alpha-gal syndrome, the red meat allergy. American dog, blacklegged, Gulf Coast, brown dog and winter ticks also live in Oklahoma."
+    },
+    {
+      "question": "Is Lyme disease common in Oklahoma?",
+      "answer": "No. CDC counted 3 Lyme disease cases among Oklahoma residents in 2023, a rate of 0.1 per 100,000, and none in each year from 2018 to 2022. Oklahoma State University Extension says the state's blacklegged ticks are not known to transmit Lyme disease because their young feed on lizards rather than mice, while the state health department says catching Lyme disease in Oklahoma is rare but appears possible. A bull's-eye rash after a tick bite here can be a different illness, STARI, which is linked to lone star ticks."
+    },
+    {
+      "question": "When is tick season in Oklahoma?",
+      "answer": "Ticks can turn up in any season, but risk peaks from spring through summer. Oklahoma State University Extension says lone star ticks are active from early spring to late fall and American dog ticks are most active in spring and early summer, while adult blacklegged ticks are active from late September or October to March or April. It says most Rocky Mountain spotted fever cases in Oklahoma occur from April to September, peaking in May, June and July."
+    },
+    {
+      "question": "Can I get a tick tested for disease in Oklahoma?",
+      "answer": "Some commercial groups offer tick testing, but CDC does not recommend relying on it: results should not be used to make treatment decisions, a positive result does not necessarily mean you were infected, and a negative result can give false reassurance. Oklahoma State University Extension suggests recording the date of the bite and freezing the tick in a sealed plastic bag in case you become ill. If you develop a rash or fever within several weeks of a bite, see a doctor and mention the tick."
+    },
+    {
+      "question": "Is the Asian longhorned tick in Oklahoma?",
+      "answer": "Yes. It was first found in July 2024 on cattle in Craig County, in northeastern Oklahoma, and in August on the same ranch in neighboring Mayes County, according to a 2024 scientific report. A national tracker's July 2026 update still showed two Oklahoma counties with detections and listed a follow-up to verify the counties reported in Oklahoma. The tick mainly threatens cattle by spreading a blood parasite, Theileria orientalis, and the first Oklahoma cattle tested negative for it."
+    },
+    {
+      "question": "Is alpha-gal syndrome reportable in Oklahoma?",
+      "answer": "Yes, from November 1, 2026. Senate Bill 1644, approved by the governor on May 6, 2026, requires the state health commissioner to add alpha-gal syndrome to Oklahoma's list of reportable diseases, with cases reported by health care providers and clinical laboratories under rules the commissioner sets. Alpha-gal syndrome is an allergy to red meat, and Oklahoma State University Extension says the lone star tick is considered the main tick involved in it."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Surveillance for Lyme Disease After Implementation of a Revised Case Definition - United States, 2022",
+      "publisher": "CDC Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+    },
+    {
+      "title": "Tick Surveillance Data Sets (blacklegged tick county table and pathogen table, through December 2025)",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Lone Star Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/lone-star-tick-surveillance.html"
+    },
+    {
+      "title": "American Dog Tick Surveillance",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html"
+    },
+    {
+      "title": "Data and Statistics on Spotted Fever Rickettsiosis (state incidence files, 2018 to 2023, and national counts)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "Ehrlichiosis Epidemiology and Statistics (state incidence files, 2018 to 2023, and national counts)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ehrlichiosis/data-research/facts-stats/index.html"
+    },
+    {
+      "title": "Geographic Distribution of Tickborne Disease Cases (cases by county of residence, 2019-2022)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html"
+    },
+    {
+      "title": "Tularemia Data and Statistics (reported cases by state, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/tularemia/data-research/index.html"
+    },
+    {
+      "title": "What to Do After a Tick Bite",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+    },
+    {
+      "title": "About Rocky Mountain Spotted Fever",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/about/index.html"
+    },
+    {
+      "title": "Signs and Symptoms of Ehrlichiosis",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/ehrlichiosis/signs-symptoms/index.html"
+    },
+    {
+      "title": "Nationally Notifiable Infectious Diseases and Conditions, United States: Annual Tables, 2019, Table 2p (spotted fever rickettsiosis)",
+      "publisher": "CDC National Notifiable Diseases Surveillance System",
+      "url": "https://stacks.cdc.gov/view/cdc/106490"
+    },
+    {
+      "title": "Nationally Notifiable Infectious Diseases and Conditions, United States: Annual Tables, 2020, Table 2p (spotted fever rickettsiosis)",
+      "publisher": "CDC National Notifiable Diseases Surveillance System",
+      "url": "https://stacks.cdc.gov/view/cdc/175644"
+    },
+    {
+      "title": "Number of Reported Cases of Communicable Diseases, Oklahoma, 1990 - 2024 (historical table; 2024 provisional)",
+      "publisher": "Oklahoma State Department of Health",
+      "url": "https://oklahoma.gov/content/dam/ok/en/health/health2/aem-documents/prevention-and-preparedness/acute-disease-service/history-table.pdf"
+    },
+    {
+      "title": "Lyme Disease (fact sheet, updated August 1, 2023)",
+      "publisher": "Oklahoma State Department of Health",
+      "url": "https://oklahoma.gov/content/dam/ok/en/health/health2/aem-documents/prevention-and-preparedness/infectious-disease-prevention-and-response/fact-sheets/Lyme%20Disease.pdf"
+    },
+    {
+      "title": "Common Ticks of Oklahoma and Tick-Borne Diseases (EPP-7001, April 2024)",
+      "publisher": "Oklahoma State University Extension",
+      "url": "https://extension.okstate.edu/fact-sheets/common-ticks-of-oklahoma-and-tick-borne-diseases.html"
+    },
+    {
+      "title": "First Report of Haemaphysalis longicornis (Neumann) in Oklahoma, USA (2024)",
+      "publisher": "Pathogens (MDPI), via PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11510514/"
+    },
+    {
+      "title": "National Exotic and Invasive Vector Species Stakeholder Call - July 2026",
+      "publisher": "University of Tennessee, Exotic and Invasive Vector and Vector-borne Disease Watch",
+      "url": "https://vectorvbdwatch.tennessee.edu/national-exotic-and-invasive-vector-species-stakeholder-call-july-2026/"
+    },
+    {
+      "title": "Bill Information for SB 1644, 2026 Regular Session (alpha-gal syndrome reporting; enrolled text effective November 1, 2026)",
+      "publisher": "Oklahoma Legislature",
+      "url": "https://www.oklegislature.gov/BillInfo.aspx?Bill=SB1644&Session=2600"
+    }
+  ],
+  "disclaimer": "both"
+}

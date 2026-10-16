@@ -2,9 +2,14 @@
  "id": "ticks-in-arkansas",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "894b29c4e89773542b0c3f2b491b21f937373f2b2193df5840d625b7e2a7c17e",
+ "sha": "0e13f4e48ed305e7e17db19fc8c2f310bf7f8046c98c8e36f7b6dfd63b72fae4",
  "claimsChecked": 570,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 2,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

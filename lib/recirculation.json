@@ -4543,6 +4543,202 @@
     "/blog/best-bed-bug-detector-canada"
    ]
   },
+  "/blog/ticks-in-alabama": {
+   "next": "/blog/ticks-in-arkansas",
+   "related": [
+    "/blog/ticks-in-georgia",
+    "/blog/ticks-in-kentucky",
+    "/blog/ticks-in-minnesota"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/ticks-in-rhode-island",
+    "/blog/best-tick-repellent-yard-canada"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-alberta": {
+   "next": "/blog/ticks-in-new-brunswick",
+   "related": [
+    "/blog/ticks-in-nova-scotia",
+    "/blog/ticks-in-manitoba",
+    "/blog/ticks-in-quebec"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/ontario-tick-surge-2026",
+    "/blog/ticks-in-michigan"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-arkansas": {
+   "next": "/blog/ticks-in-georgia",
+   "related": [
+    "/blog/ticks-in-alabama",
+    "/blog/ticks-in-kentucky",
+    "/blog/ticks-in-minnesota"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/spring-tick-season-ontario",
+    "/blog/ticks-in-missouri"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-british-columbia": {
+   "next": "/blog/ticks-in-manitoba",
+   "related": [
+    "/blog/ticks-in-quebec",
+    "/blog/ticks-in-alberta",
+    "/blog/ticks-in-new-brunswick"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/ticks-in-delaware",
+    "/blog/types-of-ticks-identification"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-connecticut": {
+   "next": "/blog/ticks-in-maine",
+   "related": [
+    "/blog/ticks-in-massachusetts",
+    "/blog/ticks-in-pennsylvania",
+    "/blog/ticks-in-wisconsin"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/lone-star-tick-alpha-gal-canada",
+    "/blog/ticks-in-indiana"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-delaware": {
+   "next": "/blog/ticks-in-maryland",
+   "related": [
+    "/blog/ticks-in-west-virginia",
+    "/blog/ticks-in-mississippi",
+    "/blog/ticks-in-missouri"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/deer-tick-vs-dog-tick-canada",
+    "/blog/tick-season-oakville-when-are-ticks-active"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-georgia": {
+   "next": "/blog/ticks-in-alabama",
+   "related": [
+    "/blog/ticks-in-arkansas",
+    "/blog/ticks-in-kentucky",
+    "/blog/ticks-in-minnesota"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/ticks-in-virginia",
+    "/blog/can-ticks-fly-jump-swim"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-illinois": {
+   "next": "/blog/ticks-in-virginia",
+   "related": [
+    "/blog/ticks-in-indiana",
+    "/blog/ticks-in-maine",
+    "/blog/ticks-in-massachusetts"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/how-to-remove-tick-safely",
+    "/blog/ticks-in-delaware"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-indiana": {
+   "next": "/blog/ticks-in-virginia",
+   "related": [
+    "/blog/ticks-in-illinois",
+    "/blog/ticks-in-maine",
+    "/blog/ticks-in-massachusetts"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/ticks-that-carry-lyme-disease",
+    "/blog/do-ticks-fly-or-jump"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-kentucky": {
+   "next": "/blog/ticks-in-alabama",
+   "related": [
+    "/blog/ticks-in-arkansas",
+    "/blog/ticks-in-georgia",
+    "/blog/ticks-in-minnesota"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/learn/ticks-by-state",
+    "/blog/spring-tick-season-ontario"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-maine": {
+   "next": "/blog/ticks-in-virginia",
+   "related": [
+    "/blog/ticks-in-illinois",
+    "/blog/ticks-in-massachusetts",
+    "/blog/ticks-in-pennsylvania"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/lyme-disease-cases-mississauga-oakville-2026",
+    "/blog/ticks-in-indiana"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-manitoba": {
+   "next": "/blog/ticks-in-quebec",
+   "related": [
+    "/blog/ticks-in-british-columbia",
+    "/blog/ticks-in-alberta",
+    "/blog/ticks-in-new-brunswick"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/ticks-in-west-virginia",
+    "/blog/deer-tick-vs-dog-tick-canada"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-maryland": {
+   "next": "/blog/ticks-in-west-virginia",
+   "related": [
+    "/blog/ticks-in-delaware",
+    "/blog/ticks-in-mississippi",
+    "/blog/ticks-in-missouri"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/ticks-in-texas",
+    "/blog/can-dogs-get-lyme-disease"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-massachusetts": {
+   "next": "/blog/ticks-in-illinois",
+   "related": [
+    "/blog/ticks-in-virginia",
+    "/blog/ticks-in-indiana",
+    "/blog/ticks-in-maine"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/how-to-do-a-tick-check",
+    "/blog/ticks-in-arkansas"
+   ],
+   "bar": true
+  },
   "/blog/ticks-in-michigan": {
    "next": "/blog/ticks-that-carry-lyme-disease",
    "related": [
@@ -4554,6 +4750,300 @@
     "/learn/tick-identification-chart",
     "/blog/how-to-do-a-tick-check",
     "/blog/tick-hot-spots-mississauga-2026"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-minnesota": {
+   "next": "/blog/ticks-in-alabama",
+   "related": [
+    "/blog/ticks-in-arkansas",
+    "/blog/ticks-in-georgia",
+    "/blog/ticks-in-kentucky"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/do-chickens-eat-ticks",
+    "/blog/tick-season-ontario-when-are-ticks-active"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-mississippi": {
+   "next": "/blog/ticks-in-arkansas",
+   "related": [
+    "/blog/ticks-in-alabama",
+    "/blog/ticks-in-georgia",
+    "/blog/ticks-in-kentucky"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/how-long-do-ticks-live",
+    "/blog/ticks-in-alberta"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-missouri": {
+   "next": "/blog/ticks-in-arkansas",
+   "related": [
+    "/blog/ticks-in-alabama",
+    "/blog/ticks-in-georgia",
+    "/blog/ticks-in-kentucky"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/tick-removal-tool-guide",
+    "/blog/ticks-in-rhode-island"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-new-brunswick": {
+   "next": "/blog/ticks-in-new-hampshire",
+   "related": [
+    "/blog/ticks-in-alberta",
+    "/blog/ticks-in-new-jersey",
+    "/blog/ticks-in-new-york"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/are-ticks-dangerous-ontario",
+    "/blog/tick-borne-diseases-ontario-complete-list"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-new-hampshire": {
+   "next": "/blog/ticks-in-new-jersey",
+   "related": [
+    "/blog/ticks-in-new-york",
+    "/blog/ticks-in-illinois",
+    "/blog/ticks-in-indiana"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/ticks-in-virginia",
+    "/blog/can-ticks-fly-jump-swim"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-new-jersey": {
+   "next": "/blog/ticks-in-new-york",
+   "related": [
+    "/blog/ticks-in-new-hampshire",
+    "/blog/ticks-in-virginia",
+    "/blog/ticks-in-illinois"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/tick-season-oakville-when-are-ticks-active",
+    "/blog/ticks-in-vermont"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-new-york": {
+   "next": "/blog/ticks-in-new-hampshire",
+   "related": [
+    "/blog/ticks-in-new-jersey",
+    "/blog/ticks-in-virginia",
+    "/blog/ticks-in-illinois"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/i-found-tick-on-my-dog-what-to-do",
+    "/blog/ticks-in-georgia"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-north-carolina": {
+   "next": "/blog/ticks-in-south-carolina",
+   "related": [
+    "/blog/ticks-in-mississippi",
+    "/blog/ticks-in-missouri",
+    "/blog/ticks-in-oklahoma"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/ticks-in-manitoba",
+    "/blog/what-kills-ticks-on-dogs-instantly"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-nova-scotia": {
+   "next": "/blog/ticks-in-alberta",
+   "related": [
+    "/blog/ticks-in-new-brunswick",
+    "/blog/ticks-in-manitoba",
+    "/blog/ticks-in-quebec"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/learn/how-to-combat-ticks",
+    "/blog/lyme-disease-tick-prevention-ontario"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-ohio": {
+   "next": "/blog/ticks-in-connecticut",
+   "related": [
+    "/blog/ticks-in-massachusetts",
+    "/blog/ticks-in-pennsylvania",
+    "/blog/ticks-in-wisconsin"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/ticks-in-vermont",
+    "/blog/can-lyme-disease-kill-you"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-oklahoma": {
+   "next": "/blog/ticks-in-georgia",
+   "related": [
+    "/blog/ticks-in-alabama",
+    "/blog/ticks-in-arkansas",
+    "/blog/ticks-in-minnesota"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/tick-head-stuck-in-skin",
+    "/blog/ticks-in-north-carolina"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-pennsylvania": {
+   "next": "/blog/ticks-in-illinois",
+   "related": [
+    "/blog/ticks-in-virginia",
+    "/blog/ticks-in-indiana",
+    "/blog/ticks-in-maine"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/ticks-in-new-jersey"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-quebec": {
+   "next": "/blog/ticks-in-british-columbia",
+   "related": [
+    "/blog/ticks-in-manitoba",
+    "/blog/ticks-in-alberta",
+    "/blog/ticks-in-new-brunswick"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/tick-prevention-caledon-halton-hills",
+    "/blog/ticks-in-oklahoma"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-rhode-island": {
+   "next": "/blog/ticks-in-indiana",
+   "related": [
+    "/blog/ticks-in-massachusetts",
+    "/blog/ticks-in-pennsylvania",
+    "/blog/ticks-in-wisconsin"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/ticks-in-virginia",
+    "/blog/can-ticks-fly-jump-swim"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-south-carolina": {
+   "next": "/blog/ticks-in-kentucky",
+   "related": [
+    "/blog/ticks-in-north-carolina",
+    "/blog/ticks-in-mississippi",
+    "/blog/ticks-in-missouri"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/what-eats-ticks-and-mosquitoes",
+    "/blog/lone-star-tick-alpha-gal-canada"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-tennessee": {
+   "next": "/blog/ticks-in-georgia",
+   "related": [
+    "/blog/ticks-in-alabama",
+    "/blog/ticks-in-arkansas",
+    "/blog/ticks-in-minnesota"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/tick-hot-spots-oakville-burlington-2026",
+    "/blog/ticks-in-ohio"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-texas": {
+   "next": "/blog/ticks-in-kentucky",
+   "related": [
+    "/blog/ticks-in-alabama",
+    "/blog/ticks-in-arkansas",
+    "/blog/ticks-in-georgia"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/learn/ticks-by-province",
+    "/blog/seed-ticks"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-vermont": {
+   "next": "/blog/ticks-in-kentucky",
+   "related": [
+    "/blog/ticks-in-mississippi",
+    "/blog/ticks-in-missouri",
+    "/blog/ticks-in-oklahoma"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/tick-hot-spots-mississauga-2026",
+    "/blog/ticks-in-nova-scotia"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-virginia": {
+   "next": "/blog/ticks-in-west-virginia",
+   "related": [
+    "/blog/ticks-in-illinois",
+    "/blog/ticks-in-indiana",
+    "/blog/ticks-in-maine"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/ticks-in-massachusetts",
+    "/blog/what-ticks-look-like-ontario"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-west-virginia": {
+   "next": "/blog/ticks-in-delaware",
+   "related": [
+    "/blog/ticks-in-virginia",
+    "/blog/ticks-in-maryland",
+    "/blog/ticks-in-mississippi"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/tick-hot-spots-mississauga-2026",
+    "/blog/ticks-in-nova-scotia"
+   ],
+   "bar": true
+  },
+  "/blog/ticks-in-wisconsin": {
+   "next": "/blog/ticks-in-illinois",
+   "related": [
+    "/blog/ticks-in-virginia",
+    "/blog/ticks-in-indiana",
+    "/blog/ticks-in-maine"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/ticks-in-oklahoma",
+    "/blog/best-atv-sprayer-for-tick-yard-canada"
    ],
    "bar": true
   },
@@ -5506,6 +5996,34 @@
     "/learn/tick-identification-chart",
     "/blog/how-to-do-a-tick-check",
     "/blog/tick-hot-spots-mississauga-2026"
+   ],
+   "bar": true
+  },
+  "/learn/ticks-by-province": {
+   "next": "/blog/are-there-ticks-in-canada",
+   "related": [
+    "/blog/ticks-in-connecticut",
+    "/blog/ticks-in-missouri",
+    "/blog/ticks-in-oklahoma"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/lyme-disease-tick-prevention-ontario",
+    "/blog/ticks-in-maryland"
+   ],
+   "bar": true
+  },
+  "/learn/ticks-by-state": {
+   "next": "/blog/ticks-in-alberta",
+   "related": [
+    "/blog/how-long-do-ticks-live",
+    "/blog/ticks-in-new-brunswick",
+    "/blog/ticks-that-carry-lyme-disease"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/how-to-keep-ticks-out-of-yard-ontario",
+    "/blog/ticks-in-british-columbia"
    ],
    "bar": true
   },

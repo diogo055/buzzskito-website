@@ -1,0 +1,1045 @@
+{
+  "slug": "ticks-in-minnesota",
+  "kind": "spoke",
+  "cluster": "ticks",
+  "keyword": "ticks in minnesota",
+  "alsoTargets": [
+    "types of ticks in minnesota",
+    "tick season minnesota",
+    "lyme disease minnesota"
+  ],
+  "metaTitle": "Ticks in Minnesota: Types, Lyme Map, Season",
+  "metaDescription": "Deer ticks are established in 66 of Minnesota's 87 counties, and the state reported 2,938 Lyme cases in 2023. Tick photos, county maps, season and ID help.",
+  "h1": "Ticks in Minnesota: Species, County Maps, Disease Data and Tick Season",
+  "dek": "Which ticks live in Minnesota, where deer ticks and Lyme disease are most common county by county, why the state has reported more Powassan virus cases than any other, when each tick is active, and how to get one identified.",
+  "breadcrumb": "Ticks in Minnesota",
+  "excerpt": "Blacklegged ticks are established in 66 of Minnesota's 87 counties. Species photos, Lyme rates by county, Powassan data, tick season by month and the state ID service.",
+  "datePublished": "2026-10-16",
+  "parent": {
+    "href": "/learn/ticks-by-state",
+    "name": "Ticks by State"
+  },
+  "quickAnswer": {
+    "lead": "**About a dozen tick species live in Minnesota, and the blacklegged (deer) tick, which spreads Lyme disease, is established in 66 of the state's 87 counties.** Minnesota reported 2,938 Lyme cases in 2023, according to [CDC surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html), and the state counted 3,551 in 2024. The American dog tick, or wood tick, often bites people but rarely spreads disease.",
+    "bullets": [
+      "CDC's county table, which runs through December 2025, lists blacklegged ticks as established in 66 counties and reported in 5 more, and the Lyme bacterium has been found in host-seeking ticks in 34 counties.",
+      "Relative to population, by our calculation, 2023 Lyme rates were highest in north-central counties such as Cass, Hubbard and Aitkin, and lowest across much of southern and western Minnesota, where 12 counties reported no cases.",
+      "CDC counts 89 Powassan virus disease cases in Minnesota residents from 2004 through 2025, including a record 14 in 2024; by our comparison of its state totals, that is more than any other state.",
+      "Blacklegged tick nymphs are most active from mid-May through mid-July, and adults come out after snowmelt and again in the fall, according to the state health department.",
+      "As of October 2026, the state health department identifies ticks mailed in with its submission form, for surveillance rather than to diagnose illness."
+    ]
+  },
+  "facts": {
+    "title": "Ticks in Minnesota at a glance",
+    "rows": [
+      [
+        "Tick species in Minnesota",
+        "About a dozen (Minnesota Department of Health)"
+      ],
+      [
+        "Tick behind most illness",
+        "Blacklegged (deer) tick; the American dog (wood) tick often bites but rarely spreads disease"
+      ],
+      [
+        "Counties with established blacklegged ticks",
+        "66 of 87, plus 5 reported (CDC, through December 2025)"
+      ],
+      [
+        "Reported Lyme disease cases",
+        "2,938 in 2023 (CDC); 3,551 in 2024 (state count)"
+      ],
+      [
+        "Lyme rate",
+        "51.4 per 100,000 in 2023 (CDC); 12th among states by our ranking"
+      ],
+      [
+        "Highest county rate, 2023",
+        "Cass County, about 274 per 100,000 (86 cases; BuzzSkito's calculation from CDC and Census data)"
+      ],
+      [
+        "Most cases by county, 2023",
+        "Hennepin County, 397"
+      ],
+      [
+        "Powassan virus disease",
+        "89 cases from 2004 to 2025 (CDC), the most of any state by our comparison; a record 14 in 2024"
+      ],
+      [
+        "Other tick-borne diseases, 2024",
+        "627 anaplasmosis cases; a record 89 babesiosis cases (state count)"
+      ],
+      [
+        "State risk map",
+        "44 of 87 counties rated high risk for tick-borne disease (April 2026)"
+      ],
+      [
+        "Peak tick activity",
+        "Nymphs mid-May to mid-July; adults in spring and fall (state health department)"
+      ],
+      [
+        "Tick identification",
+        "By mail from the state's Vectorborne Diseases Unit, for surveillance rather than diagnosis (as of October 2026)"
+      ]
+    ]
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which ticks live in Minnesota?"
+    },
+    {
+      "type": "p",
+      "text": "About a dozen kinds of ticks live in Minnesota, and one of them causes most of the illness. [The Minnesota Department of Health's (MDH) guide to the state's ticks](https://www.health.state.mn.us/diseases/tickborne/ticks.html) says not all of them spread disease, and it describes three: the blacklegged tick, the American dog tick and the lone star tick, which is rarely found in the state."
+    },
+    {
+      "type": "p",
+      "text": "The blacklegged tick, also known as the deer tick or bear tick according to [MDH's Lyme disease overview](https://www.health.state.mn.us/diseases/lyme/basics.html), is the one that matters most: MDH says it causes by far the most tickborne disease in Minnesota. It lives in wooded, brushy areas that give food and cover to white-footed mice, deer and other mammals. White-tailed deer live throughout Minnesota, MDH notes, but blacklegged ticks are not found everywhere deer do."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick",
+        "How common in Minnesota",
+        "What it can spread"
+      ],
+      "rows": [
+        [
+          "Blacklegged (deer or bear) tick, *Ixodes scapularis*",
+          "Causes by far the most tick-borne disease in the state; established in 66 of 87 counties",
+          "Lyme disease (from *Borrelia burgdorferi* and *Borrelia mayonii*), anaplasmosis, babesiosis, ehrlichiosis and hard tick relapsing fever; Powassan virus has also been found in Minnesota blacklegged ticks"
+        ],
+        [
+          "American dog tick (wood tick), *Dermacentor variabilis*",
+          "Often bites people in Minnesota but rarely spreads disease",
+          "Rocky Mountain spotted fever, extremely rare in the state, and tularemia, rarely reported in people"
+        ],
+        [
+          "Lone star tick, *Amblyomma americanum*",
+          "Rarely found in Minnesota",
+          "Ehrlichiosis and tularemia; alpha-gal syndrome is mainly associated with this tick"
+        ]
+      ],
+      "caption": "Sources: MDH's [tick](https://www.health.state.mn.us/diseases/tickborne/ticks.html) and [tickborne disease](https://www.health.state.mn.us/diseases/tickborne/diseases.html) pages. Counties: CDC ArboNET Tick Module, through December 2025. Powassan virus and *B. mayonii* in ticks: CDC's pathogen table, shown below."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-life-stages.webp",
+      "width": 1200,
+      "height": 793,
+      "alt": "Three blacklegged ticks on a blue-green surface: a large adult female with a reddish body, dark shield and black legs, and two much smaller immature ticks",
+      "caption": "Blacklegged ticks at three life stages: the adult female (top) and two much smaller immature stages, a nymph and a larva.",
+      "credit": "CDC/ Michael L. Levin, Ph. D. (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1205"
+    },
+    {
+      "type": "p",
+      "text": "Size is the problem. MDH compares an adult blacklegged tick to a sesame seed and a nymph, the stage before adulthood, to a poppy seed; larvae are smaller still. On average, about 1 in 3 adult blacklegged ticks and 1 in 5 nymphs carry the bacterium that causes Lyme disease, MDH says. For sizes and markings side by side, see [how to tell the common US ticks apart](/blog/what-do-ticks-look-like)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "Adult female blacklegged tick and a much smaller blacklegged tick nymph side by side on a person's index fingertip",
+      "caption": "A blacklegged tick adult female (left) and nymph (right) on a fingertip. MDH warns that ticks can look like a speck of dirt or a freckle on skin.",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
+      "type": "p",
+      "text": "A blacklegged tick lives about two to three years and takes no more than three blood meals. Larvae feed on small animals such as mice and birds and can pick up a germ, such as the Lyme bacterium, from a white-footed mouse during that first meal. The next spring the nymph feeds on small or large mammals, deer and people included, and can pass the germ on, MDH explains."
+    },
+    {
+      "type": "p",
+      "text": "The American dog tick, also known as the wood tick, is much larger than the blacklegged tick. MDH says people in Minnesota are often bitten by it but that it rarely spreads disease. It may spread Rocky Mountain spotted fever, which [MDH's list of tickborne diseases](https://www.health.state.mn.us/diseases/tickborne/diseases.html) calls extremely rare in Minnesota, and tularemia, which the same list says is rarely reported in people here."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Adult female American dog tick on a blade of grass, reddish-brown with a cream and white mottled shield behind the head and pale-banded legs",
+      "caption": "Adult female American dog tick, or wood tick. Its pale, mottled shield sets it apart from the plain dark shield of a blacklegged tick.",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
+      "type": "h2",
+      "text": "Where are blacklegged ticks found in Minnesota?"
+    },
+    {
+      "type": "p",
+      "text": "In most of the state. [CDC's county surveillance table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), which runs through December 31, 2025, lists blacklegged ticks as established in 66 of Minnesota's 87 counties and reported in 5 more: Faribault, McLeod, Renville, Rock and Steele. Established means six or more ticks of one life stage, or more than one life stage, were collected in a county within 12 months. The 16 counties with no record are all in southern and western Minnesota. To compare other states, see [tick maps and Lyme data for every state](/learn/ticks-by-state)."
+    },
+    {
+      "type": "map",
+      "scope": "MN",
+      "title": "Blacklegged (deer) tick status by county, Minnesota, through 2025",
+      "categories": [
+        {
+          "key": "established",
+          "label": "Established"
+        },
+        {
+          "key": "reported",
+          "label": "Reported"
+        }
+      ],
+      "values": {
+        "27001": "established",
+        "27003": "established",
+        "27005": "established",
+        "27007": "established",
+        "27009": "established",
+        "27011": "established",
+        "27013": "established",
+        "27015": "established",
+        "27017": "established",
+        "27019": "established",
+        "27021": "established",
+        "27023": "established",
+        "27025": "established",
+        "27027": "established",
+        "27029": "established",
+        "27031": "established",
+        "27035": "established",
+        "27037": "established",
+        "27041": "established",
+        "27043": "reported",
+        "27045": "established",
+        "27049": "established",
+        "27051": "established",
+        "27053": "established",
+        "27055": "established",
+        "27057": "established",
+        "27059": "established",
+        "27061": "established",
+        "27065": "established",
+        "27067": "established",
+        "27069": "established",
+        "27071": "established",
+        "27075": "established",
+        "27077": "established",
+        "27079": "established",
+        "27083": "established",
+        "27085": "reported",
+        "27087": "established",
+        "27089": "established",
+        "27093": "established",
+        "27095": "established",
+        "27097": "established",
+        "27103": "established",
+        "27107": "established",
+        "27109": "established",
+        "27111": "established",
+        "27113": "established",
+        "27115": "established",
+        "27119": "established",
+        "27121": "established",
+        "27123": "established",
+        "27125": "established",
+        "27127": "established",
+        "27129": "reported",
+        "27131": "established",
+        "27133": "reported",
+        "27135": "established",
+        "27137": "established",
+        "27139": "established",
+        "27141": "established",
+        "27143": "established",
+        "27145": "established",
+        "27147": "reported",
+        "27149": "established",
+        "27153": "established",
+        "27157": "established",
+        "27159": "established",
+        "27163": "established",
+        "27169": "established",
+        "27171": "established",
+        "27173": "established"
+      },
+      "caption": "Established means six or more blacklegged ticks of one life stage, or more than one life stage, were collected in the county within 12 months; reported means fewer. No record does not mean no ticks: it can mean no one has sampled there. Status is cumulative.",
+      "source": "[CDC ArboNET Tick Module (county status through Dec 31, 2025)](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html)"
+    },
+    {
+      "type": "p",
+      "text": "Read the gaps with care. CDC says a county with no record should not be taken to mean the tick is absent, because the gap can come from a lack of sampling, and once a county is classed as established it stays that way. The table shows where ticks have been found, not how many live there."
+    },
+    {
+      "type": "h3",
+      "text": "Which germs have been found in Minnesota ticks?"
+    },
+    {
+      "type": "p",
+      "text": "All seven that CDC tracks. Its companion table records where each germ has been identified in host-seeking blacklegged ticks, meaning ticks hunting for a host rather than feeding on one. It is cumulative too, and a county without a record is not proof the germ is absent."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Germ",
+        "Illness",
+        "Minnesota counties with a record"
+      ],
+      "rows": [
+        [
+          "*Borrelia burgdorferi*",
+          "Lyme disease",
+          "34"
+        ],
+        [
+          "*Babesia microti*",
+          "Babesiosis",
+          "20"
+        ],
+        [
+          "*Anaplasma phagocytophilum* (human-active variant)",
+          "Anaplasmosis",
+          "18"
+        ],
+        [
+          "*Borrelia miyamotoi*",
+          "Hard tick relapsing fever",
+          "14"
+        ],
+        [
+          "*Ehrlichia muris eauclairensis*",
+          "Ehrlichiosis",
+          "11"
+        ],
+        [
+          "*Borrelia mayonii*",
+          "Lyme disease",
+          "10"
+        ],
+        [
+          "Powassan virus",
+          "Powassan virus disease",
+          "8"
+        ]
+      ],
+      "caption": "Source: [CDC ArboNET Tick Module, tickborne pathogen table](https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html), data through December 2025."
+    },
+    {
+      "type": "p",
+      "text": "Two of these germs were first found in people from this region. [MDH's Lyme disease overview](https://www.health.state.mn.us/diseases/lyme/basics.html) says *Borrelia mayonii* was identified in patients from Minnesota and Wisconsin in 2013 and was determined in 2016 to be another cause of Lyme disease. The *Ehrlichia muris eauclairensis* form of ehrlichiosis was first reported in 2009, and [MDH's list of tickborne diseases](https://www.health.state.mn.us/diseases/tickborne/diseases.html) says its cases have been identified only in Minnesota and Wisconsin."
+    },
+    {
+      "type": "h2",
+      "text": "Are lone star ticks or Asian longhorned ticks in Minnesota?"
+    },
+    {
+      "type": "p",
+      "text": "Lone star ticks turn up only rarely, and as of October 2026 neither MDH nor USDA places the invasive Asian longhorned tick in the state. [MDH's tick page](https://www.health.state.mn.us/diseases/tickborne/ticks.html) says lone star ticks are rarely found in Minnesota but can spread ehrlichiosis and tularemia. They are a little smaller than the American dog tick and larger than the blacklegged tick."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Adult female lone star tick on a green leaf, reddish-brown with long mouthparts and a single pale spot in the middle of its back",
+      "caption": "Adult female lone star tick, named for the single pale spot on its back. MDH says this tick is rarely found in Minnesota.",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "p",
+      "text": "Lone star ticks are also linked to alpha-gal syndrome. [MDH's list of tickborne diseases](https://www.health.state.mn.us/diseases/tickborne/diseases.html) says this allergic condition, which can follow a tick bite, is mainly associated with lone star ticks, and that only a small number of cases of the ehrlichiosis they spread, caused by *Ehrlichia chaffeensis*, have been reported in Minnesota. For symptoms and diagnosis, see [the tick-bite red meat allergy explained](/blog/alpha-gal-syndrome)."
+    },
+    {
+      "type": "h3",
+      "text": "Has the Asian longhorned tick reached Minnesota?"
+    },
+    {
+      "type": "p",
+      "text": "Not as far as state and federal agencies report, as of October 2026. MDH's tick pages do not list it among Minnesota's ticks, and [USDA's page on the species](https://www.aphis.usda.gov/livestock-poultry-disease/cattle/ticks/asian-longhorned), updated in May 2026, says it has been collected in many areas of the eastern half of the country, from New York south to Georgia and west to Missouri. USDA calls it a serious threat to livestock: it can form large infestations on a single animal and spread diseases that affect both animals and people. If you find a tick you suspect is one, USDA advises sealing it in a zip-top bag and giving it to your veterinarian for identification; MDH's mail-in service, described below, also identifies ticks found in Minnesota."
+    },
+    {
+      "type": "h2",
+      "text": "How much Lyme disease does Minnesota have?"
+    },
+    {
+      "type": "p",
+      "text": "Minnesota reported 2,938 Lyme disease cases in 2023, a rate of 51.4 per 100,000 residents, according to [CDC's Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). By our ranking of CDC's state figures, that was the ninth-highest count and the 12th-highest rate among states, and in the Midwest only Wisconsin ranked higher on either measure. [MDH's overview](https://www.health.state.mn.us/diseases/lyme/basics.html) says the disease is now endemic in most of the state and affects thousands of Minnesotans a year."
+    },
+    {
+      "type": "p",
+      "text": "The state's newest count is higher still. MDH identified 3,551 cases in 2024, a rate of 60.8 per 100,000, its [annual Lyme disease summary](https://www.health.state.mn.us/diseases/reportable/dcn/lyme.html) says: about 21% more than in 2023, by our calculation. For 2023 that summary lists the same 2,938 cases but a rate of 46 per 100,000; this page uses CDC's rate. Of the 2024 cases, 56% were male and the median age was 53, according to [MDH's Lyme disease statistics](https://www.health.state.mn.us/diseases/lyme/statistics.html)."
+    },
+    {
+      "type": "chart",
+      "title": "Reported Lyme disease cases in Minnesota, 2008 to 2023",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Confirmed and probable cases",
+          "values": [
+            1282,
+            1543,
+            1960,
+            2124,
+            1515,
+            2340,
+            1416,
+            1805,
+            2126,
+            2318,
+            1541,
+            1528,
+            null,
+            1902,
+            2685,
+            2938
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "CDC's file lists 0 for 2020; MDH says its 2020 data are not available because of surveillance changes during the COVID-19 pandemic, so that year is left blank. A revised case definition took effect in 2022, so 2022 and 2023 are not directly comparable with earlier years, and CDC says the pandemic left 2019 and 2020 data incomplete in some states. Data through 2023, the latest CDC year as of October 2026.",
+      "source": "[CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html); 2020 note: [MDH annual Lyme disease summary](https://www.health.state.mn.us/diseases/reportable/dcn/lyme.html)"
+    },
+    {
+      "type": "p",
+      "text": "Read the jump in 2022 with care. Minnesota is classed as a high-incidence state, so under the national case definition that took effect that year it no longer collects clinical information to classify each case; it reports totals based on the number of people with confirmatory lab testing, the [annual summary](https://www.health.state.mn.us/diseases/reportable/dcn/lyme.html) explains. MDH cautions that the change made 2022 look like a sharp rise, while saying the numbers are comparable to prior years."
+    },
+    {
+      "type": "p",
+      "text": "There is no 2020 figure at all: MDH says those data are not available because of surveillance changes made during the COVID-19 pandemic, and CDC's file lists 0 for the year. The state has tracked the disease for decades. MDH began collecting information on people diagnosed with Lyme disease in 1982, and the disease became reportable in Minnesota in 1985. Lyme disease caused by *Borrelia mayonii* is still uncommon: MDH's summaries count 13 cases in Minnesota residents from 2013 through 2022, none in 2023 and one in 2024."
+    },
+    {
+      "type": "h3",
+      "text": "How does Minnesota compare with its neighbors?"
+    },
+    {
+      "type": "p",
+      "text": "Wisconsin reported more than twice Minnesota's cases in 2023, and its rate, about twice Minnesota's, was among the ten highest in the country by our ranking. Iowa's rate was about an eighth of Minnesota's, and North Dakota and South Dakota reported 15 and 7 cases."
+    },
+    {
+      "type": "table",
+      "head": [
+        "State",
+        "Lyme cases, 2023",
+        "Cases per 100,000, 2023"
+      ],
+      "rows": [
+        [
+          "[Wisconsin](/blog/ticks-in-wisconsin)",
+          "6,283",
+          "106.9"
+        ],
+        [
+          "Minnesota",
+          "2,938",
+          "51.4"
+        ],
+        [
+          "[Iowa](/blog/ticks-in-iowa)",
+          "212",
+          "6.6"
+        ],
+        [
+          "[North Dakota](/blog/ticks-in-north-dakota)",
+          "15",
+          "1.9"
+        ],
+        [
+          "[South Dakota](/blog/ticks-in-south-dakota)",
+          "7",
+          "0.8"
+        ]
+      ],
+      "caption": "Confirmed and probable cases by state of residence, from [CDC Lyme disease surveillance data](https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html). Data through 2023, the latest year CDC had published as of October 2026."
+    },
+    {
+      "type": "h2",
+      "text": "Which Minnesota counties have the most Lyme disease?"
+    },
+    {
+      "type": "p",
+      "text": "Relative to population, counties in north-central and east-central Minnesota, along Lake Superior and in the southeast. In 2023, nine counties recorded 150 or more cases per 100,000 residents, roughly three to five times the state rate: Cass, Hubbard, Pine, Aitkin, Houston, Crow Wing, Lake, Cook and Winona. The map shows the 2023 rate for every county, calculated by BuzzSkito from [CDC's county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) and the [Census Bureau's county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)."
+    },
+    {
+      "type": "map",
+      "scope": "MN",
+      "title": "Lyme disease cases per 100,000 residents by county, Minnesota, 2023",
+      "categories": [
+        {
+          "key": "150plus",
+          "label": "150 or more"
+        },
+        {
+          "key": "75to149",
+          "label": "75 to 149"
+        },
+        {
+          "key": "25to74",
+          "label": "25 to 74"
+        },
+        {
+          "key": "under25",
+          "label": "Under 25"
+        }
+      ],
+      "values": {
+        "27001": "150plus",
+        "27003": "25to74",
+        "27005": "75to149",
+        "27007": "75to149",
+        "27009": "25to74",
+        "27011": "under25",
+        "27013": "under25",
+        "27015": "under25",
+        "27017": "75to149",
+        "27019": "25to74",
+        "27021": "150plus",
+        "27023": "under25",
+        "27025": "75to149",
+        "27027": "under25",
+        "27029": "75to149",
+        "27031": "150plus",
+        "27033": "under25",
+        "27035": "150plus",
+        "27037": "25to74",
+        "27039": "under25",
+        "27041": "under25",
+        "27043": "under25",
+        "27045": "25to74",
+        "27047": "under25",
+        "27049": "75to149",
+        "27051": "25to74",
+        "27053": "25to74",
+        "27055": "150plus",
+        "27057": "150plus",
+        "27059": "25to74",
+        "27061": "75to149",
+        "27063": "under25",
+        "27065": "75to149",
+        "27067": "under25",
+        "27069": "under25",
+        "27071": "25to74",
+        "27073": "under25",
+        "27075": "150plus",
+        "27077": "25to74",
+        "27079": "under25",
+        "27081": "under25",
+        "27083": "under25",
+        "27085": "under25",
+        "27087": "75to149",
+        "27089": "25to74",
+        "27091": "under25",
+        "27093": "25to74",
+        "27095": "25to74",
+        "27097": "75to149",
+        "27099": "under25",
+        "27101": "under25",
+        "27103": "under25",
+        "27105": "under25",
+        "27107": "25to74",
+        "27109": "25to74",
+        "27111": "25to74",
+        "27113": "25to74",
+        "27115": "150plus",
+        "27117": "under25",
+        "27119": "25to74",
+        "27121": "25to74",
+        "27123": "25to74",
+        "27125": "75to149",
+        "27127": "under25",
+        "27129": "under25",
+        "27131": "25to74",
+        "27133": "under25",
+        "27135": "25to74",
+        "27137": "25to74",
+        "27139": "under25",
+        "27141": "75to149",
+        "27143": "under25",
+        "27145": "25to74",
+        "27147": "under25",
+        "27149": "under25",
+        "27151": "under25",
+        "27153": "25to74",
+        "27155": "under25",
+        "27157": "75to149",
+        "27159": "75to149",
+        "27161": "under25",
+        "27163": "75to149",
+        "27165": "under25",
+        "27167": "under25",
+        "27169": "150plus",
+        "27171": "25to74",
+        "27173": "under25"
+      },
+      "caption": "Confirmed and probable cases by county of residence. Rates are BuzzSkito's calculation: CDC's 2023 county counts divided by the Census Bureau's July 1, 2023 population estimates (Vintage 2025). Summed this way the state comes to 51.1 per 100,000, a little under CDC's published 51.4 for the same 2,938 cases, because the population figures differ slightly. The 12 counties with no cases in 2023 are shown under 25. Small counties swing sharply: Cook County's 9 cases came from about 5,600 people.",
+      "source": "[CDC county-level Lyme disease data](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html), 2023; [U.S. Census Bureau county population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "County",
+        "Lyme cases, 2023",
+        "Cases per 100,000"
+      ],
+      "rows": [
+        [
+          "Cass",
+          "86",
+          "274.4"
+        ],
+        [
+          "Hubbard",
+          "54",
+          "244.8"
+        ],
+        [
+          "Pine",
+          "66",
+          "218.6"
+        ],
+        [
+          "Aitkin",
+          "35",
+          "217.0"
+        ],
+        [
+          "Houston",
+          "38",
+          "203.4"
+        ],
+        [
+          "Crow Wing",
+          "129",
+          "188.8"
+        ],
+        [
+          "Lake",
+          "18",
+          "165.4"
+        ],
+        [
+          "Cook",
+          "9",
+          "160.1"
+        ],
+        [
+          "Winona",
+          "76",
+          "152.3"
+        ]
+      ],
+      "caption": "The nine counties at 150 or more cases per 100,000 residents in 2023, all of them rated high risk on MDH's April 2026 risk map. Sources as for the map."
+    },
+    {
+      "type": "p",
+      "text": "Raw counts follow population instead. Hennepin County, home to Minneapolis, had the most cases in 2023 (397), followed by Washington (251) and Ramsey (248), yet Hennepin's rate of 31.4 per 100,000 was well below the state's. By our calculation, the seven Twin Cities metro counties (Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington) together accounted for 1,313 cases, about 45% of Minnesota's total, at a combined rate of about 41 per 100,000."
+    },
+    {
+      "type": "p",
+      "text": "Those counts show where patients live, not where they were bitten. [CDC's Lyme case map page](https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html) notes that cases are reported from a patient's county of residence, which is not necessarily where the infection happened, and [MDH's Lyme disease statistics](https://www.health.state.mn.us/diseases/lyme/statistics.html) say most Minnesota cases report likely exposure to blacklegged ticks in east-central, north-central and southeast Minnesota. A Hennepin County resident bitten in Crow Wing County, for example, is counted in Hennepin."
+    },
+    {
+      "type": "p",
+      "text": "The state's own map takes a longer view. [MDH's tickborne disease risk map](https://www.health.state.mn.us/diseases/lyme/highrisk.pdf), dated April 2026, rates each county by its average incidence of Lyme disease, anaplasmosis and babesiosis from 2007 to 2024: 44 counties are high risk, 14 moderate and 29 low. All 29 low-risk counties are in southern and western Minnesota. Because it averages 18 years and three diseases, it does not always match one year's Lyme rate: Hennepin County is rated moderate and neighboring Dakota County high, although their 2023 rates were similar, about 31 and 36 per 100,000 by our calculation."
+    },
+    {
+      "type": "h2",
+      "text": "Which other tick-borne diseases occur in Minnesota?"
+    },
+    {
+      "type": "p",
+      "text": "Anaplasmosis comes next after Lyme disease, then babesiosis, and the blacklegged tick spreads both, according to [MDH's list of tickborne diseases](https://www.health.state.mn.us/diseases/tickborne/diseases.html). Anaplasmosis was first recognized in Minnesota in the early 1990s, and the state counted 627 cases in 2024. Babesiosis set a record for the second year running, with 89 cases in 2024 after 73 in 2023, the state's [vectorborne disease summary](https://www.health.state.mn.us/diseases/reportable/dcn/vector.html) reports."
+    },
+    {
+      "type": "p",
+      "text": "Powassan virus disease is uncommon but serious, and Minnesota has reported more of it than any other state. [CDC's historic Powassan data](https://www.cdc.gov/powassan/data-maps/historic-data.html) count 89 cases in Minnesota residents from 2004 through 2025, ahead of Wisconsin (85) and Massachusetts (83), out of 476 nationwide, by our tally of CDC's state totals; CDC classed 84 of Minnesota's cases as neuroinvasive, its term for the more severe form. MDH reported a record 14 cases in 2024, surpassing the previous high of 11 in 2011, and three of those patients died. The first case in a Minnesota resident was reported in 2008."
+    },
+    {
+      "type": "chart",
+      "title": "Powassan virus disease cases in Minnesota residents, 2008 to 2025",
+      "x": [
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "All cases",
+          "values": [
+            1,
+            2,
+            3,
+            11,
+            4,
+            1,
+            0,
+            0,
+            5,
+            7,
+            3,
+            7,
+            null,
+            5,
+            8,
+            8,
+            14,
+            10
+          ]
+        }
+      ],
+      "yLabel": "Cases per year, by state of residence",
+      "caption": "Neuroinvasive and milder cases combined. CDC's file has no Minnesota cases for 2020, but MDH's own chart of Minnesota Powassan cases marks 2020 as not available (and 2014 and 2015 as 0), so 2020 is left blank rather than shown as zero. MDH's 2020 Lyme disease data are not available either, which it attributes to surveillance changes during the COVID-19 pandemic. Data through 2025, which CDC finalized on September 16, 2026.",
+      "source": "[CDC Powassan virus historic data](https://www.cdc.gov/powassan/data-maps/historic-data.html); 2020 note: Minnesota Department of Health, Reported Cases of Powassan Virus Disease in Minnesota by Year, 2008-2022 (PDF), and its [annual Lyme disease summary](https://www.health.state.mn.us/diseases/reportable/dcn/lyme.html)"
+    },
+    {
+      "type": "p",
+      "text": "In ticks, CDC's table records Powassan virus in host-seeking blacklegged ticks from eight counties: Anoka, Cass, Crow Wing, Dakota, Hubbard, Kanabec, Morrison and Washington. As with Lyme disease, CDC counts Powassan cases by county of residence, not where the bite happened."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Disease",
+        "Tick that spreads it",
+        "Minnesota cases or status"
+      ],
+      "rows": [
+        [
+          "Anaplasmosis",
+          "Blacklegged tick",
+          "627 in 2024; first recognized in Minnesota in the early 1990s"
+        ],
+        [
+          "Babesiosis",
+          "Blacklegged tick",
+          "89 in 2024, a record; 73 in 2023"
+        ],
+        [
+          "Powassan virus disease",
+          "Virus found in Minnesota blacklegged ticks",
+          "14 in 2024, a record, with three deaths; 10 in 2025"
+        ],
+        [
+          "Ehrlichiosis (*Ehrlichia muris eauclairensis*)",
+          "Blacklegged tick",
+          "First reported in 2009; cases identified only in Minnesota and Wisconsin"
+        ],
+        [
+          "Hard tick relapsing fever",
+          "Blacklegged tick",
+          "Small numbers of cases reported in the Upper Midwest and Northeast"
+        ],
+        [
+          "Rocky Mountain spotted fever",
+          "American dog tick",
+          "Extremely rare; isolated cases reported"
+        ],
+        [
+          "Tularemia",
+          "American dog tick; also biting flies and infected animals",
+          "Rarely reported in people"
+        ],
+        [
+          "Ehrlichiosis (*Ehrlichia chaffeensis*)",
+          "Lone star tick",
+          "Not common; a small number of cases reported"
+        ]
+      ],
+      "caption": "Sources: [MDH's list of tickborne diseases](https://www.health.state.mn.us/diseases/tickborne/diseases.html), its [vectorborne disease summary](https://www.health.state.mn.us/diseases/reportable/dcn/vector.html) for 2023 and 2024 counts, and [CDC](https://www.cdc.gov/powassan/data-maps/historic-data.html) for Powassan virus disease in 2025. Data through 2025."
+    },
+    {
+      "type": "h2",
+      "text": "When is tick season in Minnesota?"
+    },
+    {
+      "type": "p",
+      "text": "From snowmelt to freeze-up, with blacklegged tick nymphs most active from mid-May through mid-July. [MDH's prevention page](https://www.health.state.mn.us/diseases/tickborne/prevention.html) says blacklegged tick adults are most active in spring and fall and American dog tick adults in spring and early summer, and that ticks may be active whenever it is warm outside. Its [tick page](https://www.health.state.mn.us/diseases/tickborne/ticks.html) gives the blacklegged tick's calendar in more detail."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tick and life stage",
+        "When it is most active in Minnesota",
+        "Why it matters"
+      ],
+      "rows": [
+        [
+          "Blacklegged tick adults",
+          "Right after snowmelt, peaking in May and staying active through June; again from about late September through October, until it freezes or snow covers the ground",
+          "About 1 in 3 carries the Lyme bacterium, on average"
+        ],
+        [
+          "Blacklegged tick nymphs",
+          "From mid-May, peaking from late May through June; much less active by the end of July",
+          "About 1 in 5 carries the Lyme bacterium, and nymphs are about the size of a poppy seed"
+        ],
+        [
+          "Blacklegged tick larvae",
+          "Most active in June",
+          "Can pick up a germ during their first meal, from a small mammal such as a white-footed mouse"
+        ],
+        [
+          "American dog tick adults",
+          "Spring and early summer",
+          "Often bite people but rarely spread disease"
+        ]
+      ],
+      "caption": "Sources: MDH's [tick](https://www.health.state.mn.us/diseases/tickborne/ticks.html) and [prevention](https://www.health.state.mn.us/diseases/tickborne/prevention.html) pages, as of October 2026."
+    },
+    {
+      "type": "p",
+      "text": "Winter is not always tick-free. Some adult blacklegged ticks that do not feed in the fall survive the winter, and MDH says that with little or no snow cover and temperatures above freezing (32°F), an adult can be out looking for a host on a warm winter day."
+    },
+    {
+      "type": "p",
+      "text": "Illness follows the same calendar. Among the Lyme cases MDH still investigates in detail, those in emerging and low-incidence counties, onsets of symptoms peaked from May through September in both 2023 and 2024, which the [state's annual summary](https://www.health.state.mn.us/diseases/reportable/dcn/lyme.html) says matches the usual peaks in tick activity in spring and early summer."
+    },
+    {
+      "type": "h2",
+      "text": "Where can you get a tick identified in Minnesota?"
+    },
+    {
+      "type": "p",
+      "text": "From MDH, by mail. As of October 2026, the department's Vectorborne Diseases Unit identifies ticks sent in with its [submission form for tick identification](https://www.health.state.mn.us/diseases/tickborne/ticksubform.pdf). The form says the service is only for surveillance, not for diagnosis: it tells you the tick's species, not whether you were infected. The form lists no fee."
+    },
+    {
+      "type": "p",
+      "text": "The form asks when the tick was collected, the home county of the person or animal it was found on, and whether they traveled outside that county in the previous two weeks, especially to wooded, brushy or grassy areas. To send a tick:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Place the tick in a water-tight container, such as a sealed plastic bag, with a paper towel or cotton ball for padding.",
+        "Fill out one form for each person or animal the ticks came from, and attach it to the specimens.",
+        "Copy, scan or photograph the form for your records.",
+        "Mail the sealed specimens and the form to the Minnesota Department of Health, Vectorborne Diseases Unit, 625 North Robert Street, P.O. Box 64975, Saint Paul, MN 55164-0975."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "MDH emails the identification, or calls if no email address is given. For questions about ticks and tick-borne diseases, the form lists 651-201-5414 and health.bugbites@state.mn.us. Knowing the species helps when you talk to a provider, but do not wait for a result if you feel ill."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do after a tick bite in Minnesota?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the tick right away, consider whether a preventive antibiotic dose fits your case, and watch for symptoms. [MDH's prevention page](https://www.health.state.mn.us/diseases/tickborne/prevention.html) gives these removal steps:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Use tweezers or your fingers to grasp the tick by the head, close to the skin.",
+        "Pull the tick outward slowly, gently and steadily.",
+        "Clean the area with soap and water.",
+        "Skip folk remedies such as petroleum jelly, nail polish remover or burning matches; MDH warns against them as a way to remove ticks."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For more detail and what to do with the tick afterward, see [the step-by-step tick removal guide](/blog/how-to-remove-tick-safely). Speed matters: [CDC says](https://www.cdc.gov/lyme/causes/index.html) a tick usually must be attached for more than 24 hours to transmit the Lyme bacterium."
+    },
+    {
+      "type": "p",
+      "text": "In some cases a single preventive dose of the antibiotic doxycycline is an option. [CDC's guidance for clinicians](https://www.cdc.gov/lyme/resources/pdfs/lyme-pep-low-ink-p.pdf) says it might help after a bite where Lyme disease is common, should be considered if the tick was engorged with blood, and is most effective within 72 hours of removing the tick. For Minnesota, MDH's criteria point to the high-risk areas on its [tickborne disease risk map](https://www.health.state.mn.us/diseases/lyme/highrisk.pdf). If that describes your bite, talk to your doctor; the alternative MDH describes is to wait and watch for symptoms."
+    },
+    {
+      "type": "p",
+      "text": "Then watch for symptoms. MDH lists a distinctive rash, fever, chills, headache, muscle and joint pain, and fatigue 3 to 30 days after a blacklegged tick bite. Later signs can include multiple rashes, paralysis on one side of the face, an irregular heartbeat and, weeks to months after the illness begins, swollen joints, usually the knees. Lyme disease is treated with antibiotics, MDH says; [the stages of Lyme disease symptoms](/blog/lyme-disease-symptoms-guide) covers what can follow if it goes untreated."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/erythema-migrans-rash.webp",
+      "width": 1200,
+      "height": 1785,
+      "alt": "Expanding red rash on the back of a person's upper arm, with a darker red center, a paler ring and an outer red ring, above a blue sleeve",
+      "caption": "Erythema migrans, the expanding rash of early Lyme disease, here in a bull's-eye pattern. MDH lists a distinctive rash among the first signs, 3 to 30 days after a bite.",
+      "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "license": "public-domain",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9875"
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "See a health care provider if you feel ill",
+      "text": "A rash, fever, headache or body aches in the weeks after a tick bite or time outdoors is a reason to see a provider and mention the tick. Do not wait for a tick identification result. This page summarizes what public health agencies publish and is not a diagnosis."
+    },
+    {
+      "type": "h2",
+      "text": "How do you prevent tick bites in Minnesota?"
+    },
+    {
+      "type": "p",
+      "text": "Use repellent, check yourself every day and keep the edge of your yard clear. [MDH's prevention page](https://www.health.state.mn.us/diseases/tickborne/prevention.html) recommends these steps:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Choose an EPA-registered repellent.** MDH especially recommends permethrin products on clothing and gear for people who spend a lot of time in wooded areas, and never on skin. DEET products are another option, at no more than 30% for adults; MDH says up to 30% DEET can also be used on children, citing the American Academy of Pediatrics, but not on infants under 2 months. Follow the label.",
+        "**Check every day.** Search your whole body at least once a day, especially behind the knees, the groin and the armpits, using a mirror or another person's help. See [a full-body tick check](/blog/how-to-do-a-tick-check) for an order to follow.",
+        "**Shower after coming indoors.** It washes off crawling ticks and makes attached ones easier to find.",
+        "**Use the dryer.** At least 10 minutes on high heat kills blacklegged ticks on clothes and gear. Damp or freshly washed clothes may need longer, 90 minutes on low or 60 minutes on high, and ticks may survive a wash, especially without hot water.",
+        "**Shape the yard.** If you live near the woods, keep lawns and trails mowed short, clear leaves and brush around the house and at the yard's edges, keep play sets in a sunny, dry spot and lay a three-foot-wide border of wood chips between lawn and woods."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Dogs bring ticks home too. MDH says a Lyme disease vaccine is available for dogs, but that it does not protect against other tick-borne diseases or stop a dog from carrying ticks indoors. Ask a veterinarian about topical or oral tick products, follow the label, and check pets daily; [ticks on dogs](/blog/ticks-on-dogs) covers where to look and how to remove them."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are ticks active in Minnesota in the winter?",
+      "answer": "Sometimes. The Minnesota Department of Health says adult blacklegged ticks that did not feed in the fall can survive the winter, and on a warm winter day with little or no snow cover and temperatures above freezing, an adult can be out looking for a host. Most activity comes later: adults usually emerge right after the snow melts and peak in May, and nymphs are most active from mid-May through mid-July."
+    },
+    {
+      "question": "What percentage of deer ticks in Minnesota carry Lyme disease?",
+      "answer": "On average, about 1 in 3 adult blacklegged ticks and 1 in 5 nymphs in Minnesota carry the bacterium that causes Lyme disease, according to the Minnesota Department of Health. CDC's county table records the Lyme bacterium in host-seeking blacklegged ticks from 34 of the state's 87 counties, but a county without a record may simply not have been sampled."
+    },
+    {
+      "question": "Can I send a tick to the Minnesota Department of Health?",
+      "answer": "Yes. As of October 2026, the department's Vectorborne Diseases Unit identifies ticks mailed in with its submission form: put the tick in a sealed, water-tight container with a paper towel or cotton ball, fill out one form per person or animal, and mail both to the unit in Saint Paul. The form says the service is for surveillance, not diagnosis, so it tells you the species, not whether you were infected. If you feel ill, see a health care provider."
+    },
+    {
+      "question": "Which Minnesota county has the most Lyme disease?",
+      "answer": "It depends on whether you count cases or rates. Hennepin County had the most cases in 2023, 397, because so many people live there. Relative to population, Cass County was highest, at about 274 cases per 100,000 residents, followed by Hubbard and Pine counties, by our calculation from CDC county counts and Census population estimates. Cases are counted where patients live, and the state health department says most report likely exposure in east-central, north-central and southeast Minnesota."
+    },
+    {
+      "question": "What is the difference between a wood tick and a deer tick?",
+      "answer": "The wood tick is the American dog tick, and the deer tick is the blacklegged tick. The deer tick is much smaller: the Minnesota Department of Health compares an adult to a sesame seed and a nymph to a poppy seed. The difference matters for health. The department says the blacklegged tick causes by far the most tick-borne disease in Minnesota, while the American dog tick often bites people but rarely spreads disease."
+    },
+    {
+      "question": "Should I see a doctor after a tick bite in Minnesota?",
+      "answer": "Talk to a provider promptly if a blacklegged (deer) tick bit you, especially if it was engorged with blood. CDC says a single dose of the antibiotic doxycycline might help after a bite where Lyme disease is common, as the Minnesota Department of Health says it is in most of the state, and is most effective within 72 hours of removing the tick. Also see a provider if a rash, fever, chills, headache, or muscle and joint pain appear in the following weeks, and mention the tick."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lyme Disease Surveillance Data",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/surveillance-data-1.html"
+    },
+    {
+      "title": "Lyme Disease Case Maps (county-level data, 2023)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/lyme-disease-case-map.html"
+    },
+    {
+      "title": "How Lyme Disease Spreads (September 24, 2024)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/causes/index.html"
+    },
+    {
+      "title": "Lyme Disease Prophylaxis After Tick Bite (clinician guidance, PDF)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/resources/pdfs/lyme-pep-low-ink-p.pdf"
+    },
+    {
+      "title": "Tick Surveillance Data Sets",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET Tick Module)",
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html"
+    },
+    {
+      "title": "Historic Data (2004-2025), Powassan Virus",
+      "publisher": "Centers for Disease Control and Prevention (ArboNET)",
+      "url": "https://www.cdc.gov/powassan/data-maps/historic-data.html"
+    },
+    {
+      "title": "County Population Totals and Components of Change: 2020-2025",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html"
+    },
+    {
+      "title": "Ticks",
+      "publisher": "Minnesota Department of Health",
+      "url": "https://www.health.state.mn.us/diseases/tickborne/ticks.html",
+      "kind": "government"
+    },
+    {
+      "title": "Submission Form for Tick Identification",
+      "publisher": "Minnesota Department of Health, Vectorborne Diseases Unit",
+      "url": "https://www.health.state.mn.us/diseases/tickborne/ticksubform.pdf",
+      "kind": "government"
+    },
+    {
+      "title": "Lyme Disease: Annual Summary of Reportable Diseases",
+      "publisher": "Minnesota Department of Health",
+      "url": "https://www.health.state.mn.us/diseases/reportable/dcn/lyme.html",
+      "kind": "government"
+    },
+    {
+      "title": "Lyme Disease Statistics",
+      "publisher": "Minnesota Department of Health",
+      "url": "https://www.health.state.mn.us/diseases/lyme/statistics.html",
+      "kind": "government"
+    },
+    {
+      "title": "About Lyme Disease",
+      "publisher": "Minnesota Department of Health",
+      "url": "https://www.health.state.mn.us/diseases/lyme/basics.html",
+      "kind": "government"
+    },
+    {
+      "title": "Minnesota Tickborne Disease Risk (county map, April 2026)",
+      "publisher": "Minnesota Department of Health",
+      "url": "https://www.health.state.mn.us/diseases/lyme/highrisk.pdf",
+      "kind": "government"
+    },
+    {
+      "title": "Diseases that can be Transmitted by Ticks",
+      "publisher": "Minnesota Department of Health",
+      "url": "https://www.health.state.mn.us/diseases/tickborne/diseases.html",
+      "kind": "government"
+    },
+    {
+      "title": "Preventing Tickborne Disease",
+      "publisher": "Minnesota Department of Health",
+      "url": "https://www.health.state.mn.us/diseases/tickborne/prevention.html",
+      "kind": "government"
+    },
+    {
+      "title": "Vectorborne Diseases: Annual Summary of Reportable Diseases",
+      "publisher": "Minnesota Department of Health",
+      "url": "https://www.health.state.mn.us/diseases/reportable/dcn/vector.html",
+      "kind": "government"
+    },
+    {
+      "title": "Asian Longhorned Ticks",
+      "publisher": "USDA Animal and Plant Health Inspection Service",
+      "url": "https://www.aphis.usda.gov/livestock-poultry-disease/cattle/ticks/asian-longhorned"
+    }
+  ],
+  "disclaimer": "both"
+}

@@ -2,9 +2,14 @@
  "id": "ticks-in-british-columbia",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "d214d40d0ee9118f83d71d4da11b2ea27a313f311ca66980681803c93bc9288d",
+ "sha": "be60291ea69fc899417949195e575bdd8d57281578625bb94d79d28749f90ce3",
  "claimsChecked": 240,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 3,
- "checkedOn": "2026-10-15"
+ "checkedOn": "2026-10-15",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }
