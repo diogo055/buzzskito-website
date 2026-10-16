@@ -1,0 +1,204 @@
+{
+  "slug": "venomous-spiders",
+  "kind": "spoke",
+  "cluster": "spiders",
+  "keyword": "venomous spiders in the us",
+  "alsoTargets": ["poisonous spiders in the us", "dangerous spiders in the us", "venomous spiders by state"],
+  "metaTitle": "Venomous Spiders in the US by State (Photos)",
+  "metaDescription": "Only widows and recluses are medically important in the US. Photos of each, the feature that identifies it, and which ones live in your state.",
+  "h1": "Venomous Spiders in the US: The Few That Matter, State by State",
+  "dek": "Black widows, the brown widow and the brown recluse are the spiders worth knowing. Here is how to recognize each one, where it lives state by state, and what to do after a bite.",
+  "breadcrumb": "Venomous Spiders in the US",
+  "excerpt": "Only widows and recluses are medically important in the US. Photos, the features that identify each one, a state-by-state range map and what to do after a bite.",
+  "datePublished": "2026-10-16",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Only widows and recluses are medically important in the US: a red or orange hourglass, or two red marks, under a round abdomen means a widow, and six eyes in three pairs on a plain brown spider with spineless legs means a possible recluse.** [CDC's page on venomous spiders at work](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html) names only the black widow and the brown recluse.",
+    "bullets": [
+      "Female black widows are about 1/2 inch long, and three black widow species live in the US: the southern, northern and western.",
+      "The brown widow is about 3/8 inch long with an orange hourglass and spiky egg sacs, and its bite is much milder than a black widow's.",
+      "A brown recluse's body is about 3/8 inch long, and Penn State Extension lists established populations in 16 states, from Nebraska and Ohio south to Texas and Georgia.",
+      "About 90 percent of brown recluse bites cause no reaction or a small red bump that heals on its own, according to Penn State Extension.",
+      "Poison Control reports no deaths in a review of more than 15,000 black widow exposures reported to US poison centers.",
+      "Hobo spiders, yellow sac spiders, wolf spiders and daddy longlegs are blamed for far more harm than the evidence shows."
+    ]
+  },
+  "facts": {
+    "title": "At a glance",
+    "rows": [
+      ["The two groups that matter", "Widows and recluses; CDC names the black widow and the brown recluse"],
+      ["Black widows", "Shiny black female, body about 1/2 inch, red hourglass or two red marks underneath"],
+      ["Brown widow", "Mottled tan to gray, about 3/8 inch, orange hourglass, spiky egg sacs; much milder bite"],
+      ["Red widow", "Red legs; mainly central and southeastern Florida"],
+      ["Brown recluse", "Six eyes in three pairs, plain legs without spines or bands, body about 3/8 inch"],
+      ["Where brown recluses live", "Established in 16 states, from southeastern Nebraska and southwestern Ohio to Texas and northwestern Georgia"],
+      ["Other US recluses", "Ten more native species, five of them widespread in the Southwest, such as the desert and Arizona recluses"],
+      ["Hobo spider", "A 2004 review found one verified bite followed by a dying-tissue wound, in a patient with a prior condition"],
+      ["Yellow sac spider", "No necrosis in 20 verified US and Australian bites"],
+      ["Wolf spider", "Bites of North American wolf spiders are harmless"],
+      ["Daddy longlegs", "Harvestmen have no venom glands; no evidence that cellar spiders are deadly"],
+      ["Poison Control", "1-800-222-1222"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "Which spiders in the US are actually dangerous?" },
+    { "type": "p", "text": "Only two groups matter medically: the widow spiders and the recluse spiders. [CDC's guidance on venomous spiders at work](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html) names the black widow and the brown recluse. It says black widows live throughout North America but are most common in the southern and western United States, while brown recluses live in the midwestern and southern states." },
+    { "type": "figure", "src": "/guides/photos/black-widow.webp", "width": 1200, "height": 807, "alt": "Glossy black female black widow hanging beneath a brown branch, with a red hourglass marking on her round abdomen", "caption": "Female southern black widow, *Latrodectus mactans*, spinning her web. The red hourglass under the abdomen is the mark to look for.", "credit": "CDC/ Paula Smith; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9854" },
+    { "type": "p", "text": "Nearly every other spider you meet is harmless to people. Most spiders have venom for their prey, but many could not bite a person if they tried, and only a handful of the thousands of species are considered harmful to humans, says the [University of Arizona Cooperative Extension](https://extension.arizona.edu/sites/extension.arizona.edu/files/attachment/Spiders.pdf)." },
+    { "type": "p", "text": "Even the dangerous ones rarely bite. [UC IPM's guide to widow spiders](https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/) calls black widow bites quite rare even where the spiders are very common, and [a 2018 review of brown recluse management by Richard Vetter and Stoy Hedges](https://academic.oup.com/jipm/article/doi/10.1093/jipm/pmx031/4818303) says recluses are reluctant to bite, so confirmed bites are uncommon even in heavily infested homes." },
+    { "type": "table", "head": ["Spider", "The feature that settles it", "How serious a bite is"], "rows": [
+      ["Southern black widow", "Shiny black female, body about 1/2 inch, with a red hourglass under the abdomen", "Medically significant; deaths are very rare"],
+      ["Northern black widow", "Hourglass often split into two red marks; may have red or orange spots on top", "Medically significant; deaths are very rare"],
+      ["Western black widow", "Jet black female, body about 1/2 inch; red hourglass that varies and is rarely missing", "Medically significant; deaths are very rare"],
+      ["Brown widow", "Mottled tan, brown and gray, about 3/8 inch; orange hourglass; spiky egg sacs", "Much milder than a black widow bite"],
+      ["Brown recluse", "Six eyes in three pairs; plain legs with no spines, stripes or bands; body about 3/8 inch", "Usually no reaction or a small bump; about 1 in 10 forms an open wound"],
+      ["Southwestern recluses (desert, Arizona and others)", "Six eyes in three pairs; the Arizona recluse is tan to brown with a violin-shaped mark", "California's native recluses are not considered as dangerous as the brown recluse"]
+    ], "caption": "Sources: CDC, UC IPM, Clemson Cooperative Extension, the U.S. Army Public Health Center, UC Riverside, the University of Arizona, Penn State Extension and Poison Control, each linked on this page." },
+
+    { "type": "h2", "text": "How do you recognize a black widow?" },
+    { "type": "p", "text": "Look at the underside: an adult female black widow is shiny black, with a red hourglass or a split hourglass of two red marks under a large, round abdomen. The [U.S. Army Public Health Center's widow spider fact sheet](https://ph.health.mil/PHC%20Resource%20Library/WidowSpiders_FS_18-030-0818.pdf) puts mature female widows at about 1/2 inch long and describes three black widows in the US, each with its own range." },
+    { "type": "ul", "items": [
+      "**Southern black widow** (*Latrodectus mactans*) carries a red hourglass underneath. It ranges as far north as New York, south to Florida and west into Texas, Oklahoma and Kansas.",
+      "**Northern black widow** (*Latrodectus variolus*) has two red dots or a broken hourglass underneath and can also have red or orange spots and white markings on top of the abdomen, according to [Clemson Cooperative Extension's widow spider fact sheet](https://hgic.clemson.edu/factsheet/widow-spiders/). It is mainly an eastern spider, from northern Florida to southeastern Canada, most common in the northern part of that range.",
+      "**Western black widow** (*Latrodectus hesperus*) is jet black with a red hourglass that varies and is rarely missing. UC IPM says it is the only black widow species in the western United States, common outside California in urban Colorado and central and eastern Washington; the Army fact sheet traces its range from west Texas, Oklahoma and Kansas to the Pacific coast states."
+    ] },
+    { "type": "figure", "src": "/guides/photos/northern-black-widow.webp", "width": 1200, "height": 1134, "alt": "Northern black widow seen through clear plastic, a black spider with two separate red marks on its round abdomen", "caption": "Female northern black widow, *Latrodectus variolus*, with red marks on the abdomen.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/314473590" },
+    { "type": "p", "text": "Males look different and matter far less: UC IPM says they are much smaller than females and that almost all medically important black widow bites come from adult females. Males and young widows tend to show orange, red and white markings on the back and sides, the University of Arizona notes, and the Army fact sheet says males can be hard to tell from other house spiders." },
+    { "type": "figure", "src": "/guides/photos/western-black-widow.webp", "width": 1200, "height": 1200, "alt": "Female western black widow hanging in a tangled web, a jet black spider with an orange-red hourglass on her abdomen", "caption": "Female western black widow, *Latrodectus hesperus*, in her web in Berkeley, California, showing the red hourglass.", "credit": "(c) Ken-ichi Ueda, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/193" },
+    { "type": "p", "text": "Black widows build webs between objects in undisturbed spots such as woodpiles, eaves, fences, debris piles and outdoor toilets with lots of flies, per CDC. A chocolate-brown spider of the same build with no red at all is more likely a false black widow, which UC IPM says is not a true widow. Separate guides cover [black widow spiders](/blog/black-widow-spiders) in depth and [false widows and other black widow look-alikes](/blog/false-widow-spiders)." },
+
+    { "type": "h2", "text": "What does a brown widow look like, and is it as dangerous?" },
+    { "type": "p", "text": "A brown widow is a mottled tan, brown and gray widow about 3/8 inch long with an orange hourglass, and its bite is much milder than a black widow's. UC IPM gives the size and colors and notes that individuals range from almost white to almost black. Clemson says the hourglass is usually orange or red-orange, and the Army fact sheet adds banded legs." },
+    { "type": "figure", "src": "/guides/photos/brown-widow-hourglass.webp", "width": 1200, "height": 1822, "alt": "Underside of a tan female brown widow hanging in her web, showing an orange hourglass on her abdomen", "caption": "Female brown widow, *Latrodectus geometricus*, seen from below with its characteristic orange hourglass.", "credit": "Dr. H.W. Levi; photo: H. Campbell (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=20850" },
+    { "type": "p", "text": "The egg sac is often the easiest sign. Clemson describes brown widow egg sacs as tan and rounded with several small points, while southern black widow egg sacs are rounded with a single small point. UC IPM calls the brown widow's sac distinctive for the silk bumps all over its surface. [The guide to spider egg sacs](/blog/spider-egg-sacs) compares others you may find." },
+    { "type": "figure", "src": "/guides/photos/brown-widow-egg-sacs.webp", "width": 1152, "height": 2048, "alt": "Two pale cream, spiky brown widow egg sacs held in a cobweb among green leaves", "caption": "Brown widow egg sacs among leaves. The spiky surface is the giveaway.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/391056042" },
+    { "type": "p", "text": "The brown widow is not native. UC IPM says it was found only in Florida for many decades before spreading from Texas through the Gulf Coast states and up the Atlantic coast into South Carolina, and it became established in Southern California in the 2000s. Drop for drop, its venom is at least as potent as a black widow's in mouse tests, but the spider is smaller, likely injects much less and usually drops from its web and plays dead when disturbed. Clemson says brown widows rarely inject enough venom to cause more than a minor reaction. More is in [the brown widow guide](/blog/brown-widow-spiders)." },
+    { "type": "p", "text": "Florida has a fourth widow, the red widow (*Latrodectus bishopi*), which has red legs and lives mainly in sand pine scrub in central and southeastern Florida, according to the Army fact sheet." },
+    { "type": "media", "needed": "Adult female red widow (Latrodectus bishopi) photographed in central Florida, side or top view showing the red legs, public domain or CC0" },
+
+    { "type": "h2", "text": "How do you recognize a brown recluse?" },
+    { "type": "p", "text": "Check the eyes and legs, not just the violin. A brown recluse has six eyes in three pairs with a space between each pair, where most spiders have eight, according to Vetter and Hedges. Rick Vetter's [guide to identifying and misidentifying the brown recluse](https://spiders.ucr.edu/how-identify-and-misidentify-brown-recluse-spider) at UC Riverside adds three more checks: legs of one light color with no stripes, bands or spines, only fine hairs; an abdomen of one uniform color, from cream to dark brown; and a body about 3/8 inch long." },
+    { "type": "figure", "src": "/guides/photos/brown-recluse.webp", "width": 1200, "height": 788, "alt": "Brown recluse seen from above on green paper, with a dark violin-shaped mark on the front body section and plain brown legs", "caption": "Brown recluse, *Loxosceles reclusa*, from above, with the violin-shaped mark on the front body section. Confirm with the eyes and legs, because the mark alone is not a reliable test.", "credit": "CDC/ Margaret Parsons (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1125" },
+    { "type": "p", "text": "The violin-shaped mark on the front body section is real but not reliable on its own: Vetter says non-arachnologists read violins into all sorts of markings, and Vetter and Hedges call the eye pattern the more accurate test. You will likely need a hand lens to see the eyes, the University of Arizona notes." },
+    { "type": "media", "needed": "Macro photo of a brown recluse's head from above or the front, sharp enough to show the six eyes in three separated pairs, public domain or CC0" },
+    { "type": "p", "text": "Recluses hide in dry, sheltered places: under logs and in piles of rocks or leaves outdoors, and in dark closets, shoes and attics indoors, per CDC. They seldom bite even where they are plentiful. In [Myth of the Brown Recluse](https://spiders.ucr.edu/myth-brown-recluse-fact-fear-and-loathing), Vetter describes a woman in Lenexa, Kansas, who collected 2,055 brown recluses in her home in six months; her family of four had lived there eight years without one evident bite." },
+    { "type": "p", "text": "Wolf spiders, fishing spiders and male southern house spiders are often mistaken for recluses, says [the University of Florida's introduction to Florida spiders](https://ask.ifas.ufl.edu/publication/IN1366). [The brown recluse look-alikes guide](/blog/brown-recluse-look-alikes) shows how to tell them apart, and [the brown recluse guide](/blog/brown-recluse) covers its habits." },
+
+    { "type": "h2", "text": "Where do brown recluses live?" },
+    { "type": "p", "text": "The brown recluse is established in 16 states: Alabama, Arkansas, Georgia, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Mississippi, Missouri, Nebraska, Ohio, Oklahoma, Tennessee and Texas, according to [Penn State Extension](https://extension.psu.edu/brown-recluse-spiders). Vetter and Hedges trace the range from southeastern Nebraska to southwestern Ohio, south to northwestern Georgia and into Texas." },
+    { "type": "map", "scope": "us", "title": "Brown recluse by state: established populations and isolated finds", "categories": [
+      { "key": "established", "label": "Established populations" },
+      { "key": "isolated", "label": "Isolated finds only" }
+    ], "values": {
+      "AL": "established", "AR": "established", "GA": "established", "IL": "established", "IN": "established", "IA": "established", "KS": "established", "KY": "established",
+      "LA": "established", "MS": "established", "MO": "established", "NE": "established", "OH": "established", "OK": "established", "TN": "established", "TX": "established",
+      "AZ": "isolated", "CA": "isolated", "DC": "isolated", "FL": "isolated", "NC": "isolated", "NJ": "isolated", "PA": "isolated", "WA": "isolated", "WY": "isolated"
+    }, "caption": "Shading is by whole state; in several of the 16, the spider lives in only part of the state. Gray (no record) means Penn State names the state in neither list, not that a spider carried in with belongings could never turn up there.", "source": "[Penn State Extension, Brown Recluse Spiders](https://extension.psu.edu/brown-recluse-spiders), updated September 2025" },
+    { "type": "p", "text": "Several of those states hold the spider in only part of their area. [A 2011 study in PLOS ONE](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0017731) places it from southern Illinois south to Texas, centered from Kansas east to Kentucky and from southern Iowa south to Louisiana. Penn State lists isolated finds in the nine places shaded lighter on the map, notes that the spiders can travel in boxes, and says recluses outside the 16 states are rare and almost always confined to buildings." },
+    { "type": "p", "text": "Range matters when a sore is blamed on a recluse. The study's authors say the spider is widely and wrongly believed to live across the whole country, including by medical professionals, which leads to misdiagnosis of conditions such as Lyme disease, lymphoma, squamous cell carcinoma and fungal infections. They conclude that bite diagnoses outside its range should be treated with skepticism." },
+    { "type": "h3", "text": "What other recluses live in the US?" },
+    { "type": "p", "text": "Ten more recluse species are native to the US, five of them widespread in the Southwest, including the desert, Arizona, Apache and Texas recluses, according to Vetter and Hedges. The University of Arizona names the Arizona recluse and the western black widow as that state's two most common venomous spiders. California has no brown recluse populations; its most common native recluse, the desert recluse, lives in the thinly populated eastern deserts, and Vetter writes that the native species are not considered as dangerous as the brown recluse." },
+    { "type": "figure", "src": "/guides/photos/desert-recluse.webp", "width": 1200, "height": 1174, "alt": "Pale tan desert recluse with long, thin legs on sandy, gravelly ground beside a rock", "caption": "Desert recluse, *Loxosceles deserta*, photographed in Pima County, Arizona.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/328982725" },
+    { "type": "p", "text": "Two recluses came from abroad. The Chilean recluse is limited to a few urban areas of Southern California, which Vetter names as Sierra Madre, Alhambra, San Gabriel and Monterey Park. The Mediterranean recluse has turned up in many states and on the National Mall in Washington, DC, usually as single spiders or in one building. Penn State says it lives in the university's steam tunnels and other Northeast sites and that its bites do not produce the severe reactions typical of the brown recluse." },
+
+    { "type": "h2", "text": "Which venomous spiders live in your state?" },
+    { "type": "p", "text": "Black widows live across the country, so where you live mostly decides which widow you will meet and whether a brown recluse is possible. The table applies the sources' regional ranges state by state, so treat it as a guide, not a record of every find; the map above shows the brown recluse for every state." },
+    { "type": "table", "head": ["Where you live", "Widows", "Recluses"], "rows": [
+      ["Florida", "Southern, northern, brown and red widows", "None established; brown, Chilean and Mediterranean recluses occasionally intercepted"],
+      ["Texas", "Southern and western black widows; brown widow", "Brown recluse established"],
+      ["California", "Western black widow almost everywhere; brown widow established in Southern California", "No brown recluse populations; desert recluse in the eastern deserts; Chilean recluse in a few Los Angeles County cities"],
+      ["Arizona", "Western black widow", "Arizona recluse, one of the state's two most common venomous spiders; isolated brown recluse finds"],
+      ["Alabama, Arkansas, Kansas, Kentucky, Louisiana, Mississippi, Missouri, Oklahoma, Tennessee", "Southern black widow; western black widow in western Kansas and Oklahoma; brown widow in Alabama, Louisiana and Mississippi", "Brown recluse established; in its native range it is a very common house spider"],
+      ["Georgia", "Southern and northern black widows; brown widow", "Brown recluse established in the northwest of the state"],
+      ["Nebraska, Iowa, Illinois, Indiana, Ohio", "Black widows, which CDC places throughout North America", "Brown recluse established in part of each state, such as southeastern Nebraska, southern Iowa and Illinois, and southwestern Ohio"],
+      ["Michigan", "Northern black widow, recorded from many localities by a [1967 paper in The Great Lakes Entomologist](https://scholar.valpo.edu/tgle/vol1/iss5/1), most abundantly in the northwestern Lower Peninsula", "Brown recluse not established"],
+      ["The Carolinas and Virginia", "Southern and northern black widows; brown widow in South Carolina", "Brown recluse not established; isolated finds in North Carolina"],
+      ["New York, New England, New Jersey, Pennsylvania", "Northern black widow; southern black widow north to New York", "Brown recluse not established; isolated finds in New Jersey and Pennsylvania; Mediterranean recluse in a few Northeast buildings"],
+      ["Washington, Oregon, Idaho, Montana, Wyoming, Colorado", "Western black widow, the only black widow species in the western US", "Brown recluse not established; isolated finds in Washington and Wyoming"]
+    ], "caption": "Sources: University of Florida, UC IPM, UC Riverside, University of Arizona, Penn State Extension, Clemson Cooperative Extension, U.S. Army Public Health Center, CDC, Vetter and Hedges (2018), the 2011 PLOS ONE study and Wilson (1967). Ranges are regional: a listed species may be missing from parts of a region, and an unlisted one may turn up." },
+    { "type": "p", "text": "Separate guides to [spiders in Florida](/blog/spiders-in-florida), [spiders in Texas](/blog/spiders-in-texas) and [spiders in California](/blog/spiders-in-california) cover the harmless species too." },
+
+    { "type": "h2", "text": "Which spiders bite but are not dangerous?" },
+    { "type": "p", "text": "Wolf spiders and yellow sac spiders are the usual suspects, and neither is medically significant. Most spiders that live in houses are generally not harmful to people, the University of Arizona notes." },
+    { "type": "p", "text": "**Wolf spiders** are wandering ground hunters, 1/4 inch to 1 inch long and usually gray, brown, black or tan with dark stripes. The female carries her egg sac on her spinnerets and then her spiderlings on her abdomen. They can bite if provoked, but the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/wolf-spiders) says the bites of North American wolf spiders are harmless. Photos of the common species are in [the wolf spider identification guide](/blog/wolf-spiders)." },
+    { "type": "p", "text": "**Yellow sac spiders** are often blamed for wounds the evidence does not support. In [a study of 20 verified yellow sac spider bites](https://scholars.duke.edu/display/pub1548363) from the United States and Australia, none caused necrosis, and the authors' review of 39 verified bites worldwide found one case of mild necrosis, from a European species. [What yellow sac spiders look like](/blog/yellow-sac-spiders) is covered separately." },
+
+    { "type": "h2", "text": "Are hobo spiders and daddy longlegs dangerous?" },
+    { "type": "p", "text": "Neither has been shown to be dangerous to people. The hobo spider, a European species that by 2004 ranged from the Pacific Northwest east to Montana and Colorado, was blamed for dying-tissue wounds after a 1987 study that forced bites on rabbits. Reviewing the evidence in [the Annals of Emergency Medicine](https://extension.usu.edu/planthealth/uppdl/files/ezplug/uploads/HoboSpiderDermonecroticLesions.pdf), Richard Vetter and Geoffrey Isbister found one verified bite followed by such a wound, in a patient with a prior condition known to cause ulcers. In its native Europe the spider is not considered medically significant, and no difference was found between the venom of European and American hobo spiders." },
+    { "type": "figure", "src": "/guides/photos/hobo-spider.webp", "width": 1068, "height": 742, "alt": "Brown female hobo spider on dry pine needles, with darker chevron markings on the abdomen and hairy legs", "caption": "Female hobo spider, *Eratigena agrestis* (formerly *Tegenaria agrestis*). Its color pattern alone cannot identify it; experts check microscopic features.", "credit": "Rainer Altenkamp, Berlin, CC BY-SA 3.0, via Wikimedia Commons", "license": "CC-BY-SA-3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tegenaria_agrestis_070903.jpg" },
+    { "type": "p", "text": "CDC's current page on venomous spiders names only the black widow and the brown recluse. Hobo spiders also cannot be identified by color, because experts must examine microscopic structures, Vetter and Isbister note. [The hobo spider guide](/blog/hobo-spiders) has more." },
+    { "type": "p", "text": "**Daddy longlegs** pose no known danger either. The old tale that they carry deadly venom but have fangs too short to bite does not hold up, UC Riverside explains in [its page on the daddy longlegs myth](https://spiders.ucr.edu/daddy-long-legs): harvestmen, which are not spiders, have no venom glands or fangs, and the claim that long-legged cellar spiders are deadly has no scientific basis. [The daddy longlegs guide](/blog/daddy-long-legs) shows the difference." },
+
+    { "type": "h2", "text": "What should you do if a widow or recluse bites you?" },
+    { "type": "p", "text": "Wash the bite, cool it and seek medical attention. CDC lists these first-aid steps:" },
+    { "type": "ul", "items": [
+      "Stay calm, and identify the spider only if you can do so safely.",
+      "Wash the bite with soap and water.",
+      "Apply a cloth dampened with cold water or filled with ice to reduce swelling, and raise the area if you can.",
+      "Do not try to remove venom.",
+      "Seek professional medical attention right away."
+    ] },
+    { "type": "p", "text": "**Black widow.** The venom is a neurotoxin, and the pain can spread from the bite to the chest, abdomen or whole body, CDC says. UC IPM advises seeking medical attention immediately after a bite. [Poison Control](https://www.poison.org/articles/black-widow-spiders) says cramps can begin within 15 to 60 minutes and recovery usually takes 24 to 48 hours. It considers emergency evaluation appropriate when oral pain relievers do not control the pain, and it says to call your poison center at 1-800-222-1222." },
+    { "type": "p", "text": "In a review of over 15,000 black widow exposures reported to US poison centers, cited by Poison Control, none was fatal and about 10 percent led to a hospital admission. The Army fact sheet says widow bites are most dangerous to very small children, older adults and people with serious health problems." },
+    { "type": "p", "text": "**Brown recluse.** The bite can sting, a small white blister usually forms, and the venom can destroy skin tissue, leaving a lesion that needs professional medical attention, CDC says. Penn State Extension says about 90 percent of bites cause no reaction or a small red bump that heals on its own and about 10 percent an open wound of dying tissue. Fewer than 1 percent cause illness through the whole body, most often in children, which is a true medical emergency, so Penn State advises that confirmed bites be monitored and treated with caution." },
+    { "type": "p", "text": "Many sores blamed on spiders are something else. The University of Florida says wounds and bacterial infections are commonly misdiagnosed as recluse bites, and the University of Arizona notes that bites from blood-feeding insects such as bed bugs are often mistaken for spider bites. [What spider bites look like](/blog/what-does-a-spider-bite-look-like) walks through the look-alikes, and separate guides cover the [black widow bite](/blog/black-widow-bite) and the [brown recluse bite](/blog/brown-recluse-bite)." },
+
+    { "type": "h2", "text": "How do you check a spider you have caught?" },
+    { "type": "p", "text": "Trap it in a jar instead of handling it, then run these checks in order, using the sizes and features above." },
+    { "type": "checklist", "title": "Five checks for a spider in a jar", "items": [
+      "**Underside.** A red or orange hourglass, or two red marks, under a round abdomen means a widow.",
+      "**Color.** Shiny black points to a black widow; mottled tan, brown or gray with an orange hourglass to a brown widow; chocolate brown with no red to a false black widow.",
+      "**Eyes.** Six eyes in three pairs is the recluse pattern; most spiders have eight. Use a magnifying glass.",
+      "**Legs and abdomen.** A recluse has plain legs of one light color with no spines, stripes or bands, and an abdomen of one uniform color. Spiny or banded legs rule it out.",
+      "**Size and place.** Lay a ruler alongside: female black widows are about 1/2 inch long, brown widows and brown recluses about 3/8 inch. Then check the map: outside the 16 states, a recluse is rare."
+    ] },
+    { "type": "p", "text": "Prevention is the same for widows and recluses. CDC advises shaking out clothing, shoes, towels and equipment before use, wearing gloves, long sleeves and long pants when handling stacked materials, clearing debris and tall grass, and storing clothing and outdoor gear in tightly closed plastic bags. [Keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house) covers sealing gaps and vacuuming, and [the guide to getting rid of spiders](/blog/how-to-get-rid-of-spiders) covers control." },
+    { "type": "callout", "tone": "tip", "title": "Save the spider for an expert", "text": "Put the spider in a sealed jar, or photograph it beside a ruler marked in inches, and note where you found it; even a crushed spider helps, the University of Arizona says. If someone was bitten, bring the spider or its photo to the doctor. Otherwise, your state's cooperative extension office can help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "What is the most venomous spider in the US?",
+      "answer": "For people, the ones that matter are the black widow and the brown recluse, the two venomous spiders CDC names. Venom strength alone can mislead: UC IPM says brown widow venom is at least as potent as black widow venom drop for drop in mouse tests, yet the brown widow is smaller, likely injects much less and gives a much milder bite. Most other spiders have venom too, but only a handful of species are considered harmful to people."
+    },
+    {
+      "question": "Can a spider bite kill you in the US?",
+      "answer": "It is possible but very rare. CDC says death from a venomous spider bite is extremely rare but can occur in the most severe cases. Poison Control reports no deaths in a review of more than 15,000 black widow exposures reported to US poison centers. Penn State Extension says fewer than 1 percent of brown recluse bites cause whole-body symptoms, which are most common in children, can be fatal within 12 to 36 hours and are a true medical emergency."
+    },
+    {
+      "question": "Are male black widows dangerous?",
+      "answer": "Rarely. UC IPM says almost all medically important black widow bites come from adult females, which are larger, with stronger biting muscles and more venom. Males are much smaller, and Poison Control says their fangs are too short to harm people. Males and young widows also look different from adult females: they tend to show orange, red and white markings on the back and sides, according to the University of Arizona."
+    },
+    {
+      "question": "Are there venomous spiders in Florida?",
+      "answer": "Yes, but only widows. The University of Florida says the only spiders native to or established in Florida with medically significant venom are its four widows: the southern black widow, northern black widow, brown widow and red widow. It found no scientific evidence that any recluse spider is established in the state, although brown, Chilean and Mediterranean recluses have occasionally been intercepted there. The red widow lives mainly in sand pine scrub in central and southeastern Florida."
+    },
+    {
+      "question": "Are there brown recluses in Michigan?",
+      "answer": "Michigan is outside the brown recluse's native range. Penn State Extension lists 16 states with established populations, and Michigan is not one of them; it says recluses outside those states are rare and almost always confined to buildings. The venomous spider Michigan does have is the northern black widow, which a 1967 paper in The Great Lakes Entomologist recorded from many localities in the state, most abundantly in the northwestern Lower Peninsula."
+    },
+    {
+      "question": "Should you bring the spider to the doctor?",
+      "answer": "If you can do it safely, yes. The U.S. Army Public Health Center advises containing the spider and bringing it to the hospital for identification, and Clemson Cooperative Extension suggests taking a photo of it. The University of Arizona says even a crushed spider helps. The University of Florida notes that unless someone sees the spider bite, it is hard to tell whether a spider caused an injury at all. That makes the spider itself the best evidence."
+    }
+  ],
+  "sources": [
+    { "title": "Venomous Spiders at Work", "publisher": "CDC, National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html" },
+    { "title": "Integrated Pest Management of the Brown Recluse Spider", "publisher": "Journal of Integrated Pest Management (Vetter and Hedges, 2018)", "url": "https://academic.oup.com/jipm/article/doi/10.1093/jipm/pmx031/4818303" },
+    { "title": "Tracking a Medically Important Spider: Climate Change, Ecological Niche Modeling, and the Brown Recluse (Loxosceles reclusa)", "publisher": "PLOS ONE (Saupe, Papes, Selden and Vetter, 2011)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0017731" },
+    { "title": "Brown Recluse Spiders", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/brown-recluse-spiders" },
+    { "title": "How to Identify and Misidentify a Brown Recluse Spider", "publisher": "UC Riverside Department of Entomology", "url": "https://spiders.ucr.edu/how-identify-and-misidentify-brown-recluse-spider" },
+    { "title": "Myth of the Brown Recluse: Fact, Fear, and Loathing", "publisher": "UC Riverside Department of Entomology", "url": "https://spiders.ucr.edu/myth-brown-recluse-fact-fear-and-loathing" },
+    { "title": "Daddy Long Legs", "publisher": "UC Riverside Department of Entomology", "url": "https://spiders.ucr.edu/daddy-long-legs" },
+    { "title": "Widow Spiders and Their Relatives (Pest Notes Publication 74149)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/" },
+    { "title": "Widow Spiders (Fact Sheet 18-030-0818)", "publisher": "U.S. Army Public Health Center", "url": "https://ph.health.mil/PHC%20Resource%20Library/WidowSpiders_FS_18-030-0818.pdf" },
+    { "title": "Widow Spiders in South Carolina (HGIC 2518)", "publisher": "Clemson Cooperative Extension, Home and Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/widow-spiders/" },
+    { "title": "An Introduction to Some Common and Charismatic Florida Spiders (ENY2080)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN1366" },
+    { "title": "Spiders (Backyard Gardener #177)", "publisher": "University of Arizona Cooperative Extension", "url": "https://extension.arizona.edu/sites/extension.arizona.edu/files/attachment/Spiders.pdf" },
+    { "title": "The Northern Widow Spider, Latrodectus variolus (Araneae: Theridiidae), in Michigan", "publisher": "The Great Lakes Entomologist (Wilson, 1967)", "url": "https://scholar.valpo.edu/tgle/vol1/iss5/1" },
+    { "title": "Do Hobo Spider Bites Cause Dermonecrotic Injuries?", "publisher": "Annals of Emergency Medicine (Vetter and Isbister, 2004), copy hosted by Utah State University Extension", "url": "https://extension.usu.edu/planthealth/uppdl/files/ezplug/uploads/HoboSpiderDermonecroticLesions.pdf" },
+    { "title": "Verified bites by yellow sac spiders (genus Cheiracanthium) in the United States and Australia: where is the necrosis?", "publisher": "American Journal of Tropical Medicine and Hygiene (Vetter, Isbister, Bush and Boutin, 2006), record at Duke Scholars", "url": "https://scholars.duke.edu/display/pub1548363" },
+    { "title": "Wolf Spiders", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/wolf-spiders" },
+    { "title": "How dangerous is a black widow spider bite?", "publisher": "Poison Control (National Capital Poison Center)", "url": "https://www.poison.org/articles/black-widow-spiders" }
+  ],
+  "disclaimer": "health"
+}

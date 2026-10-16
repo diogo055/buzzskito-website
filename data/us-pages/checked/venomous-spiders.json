@@ -1,0 +1,10 @@
+{
+ "id": "venomous-spiders",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "fb3bd3a94779bc7b64f5d30d05f02103faf7cebd41acee1849aa038f40bef95c",
+ "claimsChecked": 354,
+ "claimsCorrected": 13,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-16"
+}
