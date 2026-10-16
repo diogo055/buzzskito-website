@@ -100,6 +100,20 @@
    "sha256Original": "afe208f9e3ebf35e01e183393a80ab5b8127a271614de702b94fbe9919353499"
   },
   {
+   "file": "/guides/photos/american-cockroach-ootheca.webp",
+   "subject": "American cockroach, Periplaneta americana, egg case (ootheca) on white paper (Sabaneta, Dominican Republic)",
+   "sourceUrl": "https://www.inaturalist.org/observations/306466708",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/552679767/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1222,
+   "bytes": 135176,
+   "sourceDescription": "Periplaneta americana",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "bbead13d0890d424d8db118b7af4ca684e0d228e0867e96260d61a9c17a702aa"
+  },
+  {
    "file": "/guides/photos/american-cockroach.webp",
    "subject": "American cockroach, Periplaneta americana (Austin, Texas)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Periplaneta_americana_-_American_cockroach_(25859665686)_(cropped).jpg",
@@ -252,6 +266,34 @@
    "sourceDescription": "Emerita talpoida",
    "downloadedOn": "2026-10-15",
    "sha256Original": "5f6ec72e0d8de768c773f76dfe941a4944be722db8a426559be796436b359ae1"
+  },
+  {
+   "file": "/guides/photos/australian-cockroach-nymph-and-female.webp",
+   "subject": "Australian cockroach, Periplaneta australasiae: third-instar nymph (left) and adult female (right), dorsal view (names printed on the photo)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26936",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26936/26936.tif",
+   "license": "public-domain",
+   "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 790,
+   "bytes": 53790,
+   "sourceDescription": "This photograph depicts a dorsal view of two Australian cockroaches, Periplaneta australasiae. On the left is a third-instar nymph, while on the right is an adult female P. australasiae.",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "72f66bb22c662f753244ca21fbaaf6d3639c09bc4fe3777475c0610eb1306d31"
+  },
+  {
+   "file": "/guides/photos/australian-cockroach.webp",
+   "subject": "Australian cockroach, Periplaneta australasiae (filed on iNaturalist as Validiblatta australasiae), on a white surface (Jacksonville, Florida)",
+   "sourceUrl": "https://www.inaturalist.org/observations/225723260",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/400227021/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 793,
+   "bytes": 111888,
+   "sourceDescription": "Validiblatta australasiae",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "36fa5983c9f0fb7f534377b1ba3f09f8b486139acc3e57ab5d4731577db39002"
   },
   {
    "file": "/guides/photos/bald-faced-hornet-nest.webp",
@@ -479,6 +521,20 @@
    "sha256Original": "166f1eecf729d42f0bd57f49b664e71dc27cb9cd607ec943ed35144b07eea394"
   },
   {
+   "file": "/guides/photos/black-carpet-beetle.webp",
+   "subject": "Black carpet beetle, Attagenus unicolor, adult male, on a paper towel indoors (Campbell County, Wyoming)",
+   "sourceUrl": "https://www.inaturalist.org/observations/369801950",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/675520736/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 801,
+   "bytes": 160978,
+   "sourceDescription": "Attagenus unicolor",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "4b7929e1519da5afe95cb5125429e7a2c1bf4f518ed5c139dea9749cc891e4a8"
+  },
+  {
    "file": "/guides/photos/black-fly.webp",
    "subject": "Black fly, Simulium sp., male",
    "sourceUrl": "https://www.inaturalist.org/observations/319926602",
@@ -633,6 +689,20 @@
    "sha256Original": "1ba7ed47d303027ede2fb9957e09a074fbd2836940a818c02d65e65ad25f41de"
   },
   {
+   "file": "/guides/photos/brown-banded-cockroach-egg-cases.webp",
+   "subject": "Brown-banded cockroach, Supella longipalpa: four egg capsules (oothecae) attached to a wooden surface",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26935",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26935/26935.tif",
+   "license": "public-domain",
+   "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 790,
+   "bytes": 79174,
+   "sourceDescription": "This photograph depicts a close view of four brown-banded cockroach, Supella longipalpa, egg capsules attached to what appears to be a stationary wooden surface.",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "60015daf6d7a158beabedeb13d48b3735c45cd3b5d552fb4a9d283430b93dc9f"
+  },
+  {
    "file": "/guides/photos/brown-banded-cockroach-male-female.webp",
    "subject": "Brown-banded cockroach, Supella longipalpa, male (left) and female (right), labelled on the photo",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=6330",
@@ -689,6 +759,34 @@
    "sha256Original": "d74b6aadb8a56a08df28cb0f4e32316e80498258d2621317bd7bdf8378817266"
   },
   {
+   "file": "/guides/photos/brown-marmorated-stink-bug-eggs-nymphs.webp",
+   "subject": "Brown marmorated stink bug, Halyomorpha halys: young nymphs clustered on their egg mass (Birmingham, Alabama)",
+   "sourceUrl": "https://www.inaturalist.org/observations/241199068",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/429835710/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1470,
+   "bytes": 117574,
+   "sourceDescription": "Halyomorpha halys",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "304d4f91295d3462868e58ae1739c2b50fd37f3aa57c339a172a34aac3e5f9cb"
+  },
+  {
+   "file": "/guides/photos/brown-marmorated-stink-bug-nymph.webp",
+   "subject": "Brown marmorated stink bug, Halyomorpha halys, older nymph on a corn stalk, with white bands on its legs and antennae (New Jersey)",
+   "sourceUrl": "https://www.inaturalist.org/observations/7639126",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/9990929/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1799,
+   "bytes": 205910,
+   "sourceDescription": "Halyomorpha halys",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "e244f4eff8316d4ca46ec6bc11d3e2a1851015a7e09ced10c359987ae0748370"
+  },
+  {
    "file": "/guides/photos/brown-marmorated-stink-bug.webp",
    "subject": "Brown marmorated stink bug, Halyomorpha halys, feeding on an apple",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown_marmorated_stink_bug_feeding_on_apple.jpg",
@@ -703,6 +801,20 @@
    "sha256Original": "7722ce9ab6f3dd71db2454173fc4346439df376289465d3af641c9de14864fa1"
   },
   {
+   "file": "/guides/photos/brown-recluse-bite-early.webp",
+   "subject": "Red (erythematous) skin reaction around a brown recluse spider bite, before tissue necrosis developed",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23317",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/23317/23317.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Margaret A. Parsons (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 790,
+   "bytes": 64306,
+   "sourceDescription": "This image depicted a close view of what had been the aftermath of a brown recluse, Loxosceles reclusa spider bite. Note the resultant localized erythematous reaction, which would subsequently evolve into an area of frank tissue necrosis, resembling that seen in other cases depicted in PHIL 23314 an",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "cad891ec32b40df6e97e899cf272133b41a601a66c73e827c2e7d0779b74ef1e"
+  },
+  {
    "file": "/guides/photos/brown-recluse-bite-necrosis.webp",
    "subject": "Localized tissue damage (necrosis) on a patient's calf four months after a brown recluse spider bite",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=6266",
@@ -715,6 +827,35 @@
    "sourceDescription": "4-months after having been bitten by a brown recluse spider, Loxosceles reclusa, this patient displayed localized tissue necrosis, as can be seen on the skin of her medial right calf. Sometimes a bite from a brown recluse spider can go unnoticed, or feel as slight as a pinprick. However, usually, af",
    "downloadedOn": "2026-10-15",
    "sha256Original": "ec0bf02f45f0a33a99a1209eb153aa11a15e611c815bec7c978f27d1c35b2ec9"
+  },
+  {
+   "file": "/guides/photos/brown-recluse-eyes.webp",
+   "subject": "Brown recluse, Loxosceles reclusa: close-up from above of the front of the head (eyes and fangs), specimen from Austin, Texas",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dorsal_view_of_Loxosceles_reclusa_(Brown_Recluse_Spider)_(22235181003).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Dorsal_view_of_Loxosceles_reclusa_%28Brown_Recluse_Spider%29_%2822235181003%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC0-1.0",
+   "credit": "Insects Unlocked, CC0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 858,
+   "bytes": 65770,
+   "sourceDescription": "Dorsal view of Loxosceles reclusa (Brown Recluse Spider) 6841 Raccoon Run, Austin, Travis Co., Texas July 8th, 2011 Public Domain Image by Christopher Johnson Part of the \"Insects Unlocked\" Project University of Texas at Austin",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "e3ab8d46e06fa1b3ae9ce77c618858b110ea3c72170e4fa826777a3200a1b5da"
+  },
+  {
+   "file": "/guides/photos/brown-recluse-female.webp",
+   "subject": "Brown recluse, Loxosceles reclusa, living female, dorsal view on white (Austin, Texas)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loxosceles_reclusa_-_brown_recluse_(25823605780).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Loxosceles_reclusa_-_brown_recluse_%2825823605780%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC0-1.0",
+   "credit": "Insects Unlocked, CC0, via Wikimedia Commons",
+   "edited": "bottom 13% cropped (caption strip)",
+   "width": 1200,
+   "height": 1104,
+   "bytes": 19418,
+   "sourceDescription": "Loxosceles reclusa, living female - brown recluse USA, TX, Travis Co.: Austin 28.iii.2016 J. T. Lapp, collector Public domain image by Alex Wild for the Insects Unlocked project at the University of Texas at Austin.",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "f6176d9334f3fce150187c719fbc08cb244a9a3b1b614b98af20a7bdc5c466a8"
   },
   {
    "file": "/guides/photos/brown-recluse-penny.webp",
@@ -743,6 +884,20 @@
    "sourceDescription": "This image depicts a dorsal view of a highly venomous brown recluse spider, Loxosceles reclusa. Note the characteristic violin-shaped marking visible on its dorsal cephalothorax.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "b0bcbfe89214f5d7e46eee7610e0cbafabfa55d1c72dd4326f05891c32b3ec90"
+  },
+  {
+   "file": "/guides/photos/brown-stink-bug.webp",
+   "subject": "Brown stink bug, Euschistus servus, dorsal view on a leaf (Arlington, Texas)",
+   "sourceUrl": "https://www.inaturalist.org/observations/156483269",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/270592683/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 676,
+   "bytes": 50092,
+   "sourceDescription": "Euschistus servus",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "273b94919db2f522f3eaae2eec62418093c309a40cf35e32fcdd93f0d6a48c27"
   },
   {
    "file": "/guides/photos/brown-widow-egg-sacs.webp",
@@ -829,6 +984,20 @@
    "sha256Original": "ae471e9e9ba6022cec67e0a165b51b23848e429f41fafead144fe3874771bd90"
   },
   {
+   "file": "/guides/photos/carolina-wolf-spider.webp",
+   "subject": "Carolina wolf spider, Hogna carolinensis, dorsal view (Oglala Lakota County, South Dakota)",
+   "sourceUrl": "https://www.inaturalist.org/observations/201595180",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/355888016/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 274440,
+   "sourceDescription": "Hogna carolinensis",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "aad2399bd2a1148d471046f2805e49dc2cc583fe508d186c5dd75c4460769481"
+  },
+  {
    "file": "/guides/photos/carpenter-bee-nest-hole.webp",
    "subject": "Eastern carpenter bee, Xylocopa virginica, at its nest hole in a wooden beam",
    "sourceUrl": "https://www.inaturalist.org/observations/238779792",
@@ -911,6 +1080,20 @@
    "sourceDescription": "Ctenocephalides felis, female, stored in ZSM collection (insecta varia)",
    "downloadedOn": "2026-10-15",
    "sha256Original": "bca40a0f56f728089fb785b394f8809b26eaba259bd82b6d804a217a24b249aa"
+  },
+  {
+   "file": "/guides/photos/cellar-spider-carrying-eggs.webp",
+   "subject": "Manuel’s cellar spider, Pholcus manueli, adult female holding her eggs in her jaws (Ohio)",
+   "sourceUrl": "https://www.inaturalist.org/observations/271762266",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/488855253/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Timothy Lindsey, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 780,
+   "bytes": 63320,
+   "sourceDescription": "Pholcus manueli",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "be4ebfdedb4eb5a138d5f35896ad4186c1991c497c35e0bc16ddab3200770cd5"
   },
   {
    "file": "/guides/photos/cellar-spider.webp",
@@ -1039,6 +1222,20 @@
    "sha256Original": "69f93ecaa55e972595ad5a8b4bad84631322404b6ae27449232b5f5dab208938"
   },
   {
+   "file": "/guides/photos/common-house-spider-egg-sac.webp",
+   "subject": "Common house spider, Parasteatoda tepidariorum, adult female beside an egg sac in her web (Logan, Ohio)",
+   "sourceUrl": "https://www.inaturalist.org/observations/291856092",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/525146241/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Joey M, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1006,
+   "bytes": 33654,
+   "sourceDescription": "Parasteatoda tepidariorum",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "1fe50290ff3c5a36260cb55e47c6fea4daf3914e73c13c7105ef3fa8c34be17c"
+  },
+  {
    "file": "/guides/photos/common-house-spider.webp",
    "subject": "Common house spider, Parasteatoda tepidariorum",
    "sourceUrl": "https://www.inaturalist.org/observations/229533845",
@@ -1065,6 +1262,20 @@
    "sourceDescription": "This image depicts a close dorsal view of two adult and three larval confused flour beetles, Tribolium confusum, a known granary pest that infests stored grain.",
    "downloadedOn": "2026-10-16",
    "sha256Original": "4b74ffe84c9bec1dea749a3a98f0a177a7c4c5074f266943d32e6d151d5fbe70"
+  },
+  {
+   "file": "/guides/photos/convergent-lady-beetle.webp",
+   "subject": "Convergent lady beetle, Hippodamia convergens, with a 1 mm scale bar (Santa Fe, New Mexico)",
+   "sourceUrl": "https://www.inaturalist.org/observations/94288985",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/156395003/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1155,
+   "bytes": 38226,
+   "sourceDescription": "Hippodamia convergens",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "56612a96c1ce24584c8c4643566f84779007fc92c4fdac5842ae016be10fa09a"
   },
   {
    "file": "/guides/photos/cow-killer-velvet-ant.webp",
@@ -1305,6 +1516,20 @@
    "sha256Original": "cddfd3e689f742dc28424c24d12dd0017b9c3d6b5b2177c631d149f720bccc54"
   },
   {
+   "file": "/guides/photos/dog-flea.webp",
+   "subject": "Dog flea, Ctenocephalides canis, female, side view (museum specimen, Zoologische Staatssammlung München)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ctenocephalides_canis_female_ZSM.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ctenocephalides_canis_female_ZSM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-3.0",
+   "credit": "Katja ZSM, CC BY-SA 3.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1039,
+   "bytes": 51592,
+   "sourceDescription": "Ctenocephalides canis, female, stored in ZSM collection (insecta varia)",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "a3c7c37b15414ac4283c42725fad16f9ccb197908d288aac4123eefdeffdd37d"
+  },
+  {
    "file": "/guides/photos/drain-fly.webp",
    "subject": "Drain fly (bathroom moth fly), Clogmia albipunctata",
    "sourceUrl": "https://www.inaturalist.org/observations/186065028",
@@ -1317,6 +1542,20 @@
    "sourceDescription": "Clogmia albipunctata",
    "downloadedOn": "2026-10-15",
    "sha256Original": "75326e9b1b9ba5e9846b39d3eeb2ea4c35ab24d2866fd26cee06e523d71e811c"
+  },
+  {
+   "file": "/guides/photos/drugstore-beetle.webp",
+   "subject": "Drugstore beetle, Stegobium paniceum, with a 1 mm scale bar (La Habra, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/33637223",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/52851325/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1088,
+   "height": 870,
+   "bytes": 120188,
+   "sourceDescription": "Stegobium paniceum",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "cca23c46493825aa7b542fe0eb47167bc95d791f79a1e3a0a37e1fde571bc1d2"
   },
   {
    "file": "/guides/photos/eastern-kissing-bug.webp",
@@ -1557,6 +1796,34 @@
    "sha256Original": "aa5ae3821e436cf419f29da76e039285d750d0af281a98244b5e6a38fa0c321a"
   },
   {
+   "file": "/guides/photos/florida-woods-cockroach-nymph-and-male.webp",
+   "subject": "Florida woods cockroach, Eurycotis floridana: nymph (left) and adult male (right), dorsal view (names printed on the photo)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26937",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26937/26937.tif",
+   "license": "public-domain",
+   "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 790,
+   "bytes": 56224,
+   "sourceDescription": "This photograph depicts a dorsal view of two Florida woods cockroaches, Eurycotis floridana. On the left is a nymph, while on the right is an adult male E. floridana.",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "227ed48d9cca228dfbecd702879558769c9d5a40fcafb503f8a681f7564331df"
+  },
+  {
+   "file": "/guides/photos/florida-woods-cockroach.webp",
+   "subject": "Florida woods cockroach, Eurycotis floridana, adult male, dorsal view (Lake Placid, Florida)",
+   "sourceUrl": "https://www.inaturalist.org/observations/336103542",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/610708752/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1464,
+   "bytes": 248666,
+   "sourceDescription": "Eurycotis floridana",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "b4c747667d6d844e15461df88d61e0d03d4652f361df123ab8fbbf29b735ea1e"
+  },
+  {
    "file": "/guides/photos/fruit-fly.webp",
    "subject": "Common fruit fly, Drosophila melanogaster, male, with a 1 mm scale bar",
    "sourceUrl": "https://www.inaturalist.org/observations/13229956",
@@ -1740,6 +2007,48 @@
    "sha256Original": "4218df2dcff6f64966afcbe86ab9f68ba3b9ec8e8dfcc3a353a977a81dff94ad"
   },
   {
+   "file": "/guides/photos/green-lynx-spider-egg-sac.webp",
+   "subject": "Green lynx spider, Peucetia viridans, adult with its egg sac (Jonesville, Louisiana)",
+   "sourceUrl": "https://www.inaturalist.org/observations/137763840",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/235347302/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 242026,
+   "sourceDescription": "Peucetia viridans",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "0c7e608f5059272d579f0d57451a98761864982bd8ff74e8b0572a989e86cb85"
+  },
+  {
+   "file": "/guides/photos/green-lynx-spider.webp",
+   "subject": "Green lynx spider, Peucetia viridans (Putnam County, Florida)",
+   "sourceUrl": "https://www.inaturalist.org/observations/186731001",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/326387967/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 118904,
+   "sourceDescription": "Peucetia viridans",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "0d4a31effb84379ffb51cb9d63fd345018ace4304c38cca48a6317c9592979fe"
+  },
+  {
+   "file": "/guides/photos/green-stink-bug.webp",
+   "subject": "Green stink bug, Chinavia hilaris, adult (Rock Creek Park, Washington, DC)",
+   "sourceUrl": "https://www.inaturalist.org/observations/230795129",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/409829350/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 228138,
+   "sourceDescription": "Chinavia hilaris",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "9a739de8ee28df548ea809ba4f2970dcf295317e473d9ed0f67f95998d5909a0"
+  },
+  {
    "file": "/guides/photos/greenhead-fly.webp",
    "subject": "Greenhead (salt marsh horse fly), Tabanus nigrovittatus (Sapelo Island, Georgia)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greenhead_-_Tabanus_nigrovittatus,_Sapelo_Island,_Georgia.jpg",
@@ -1906,6 +2215,20 @@
    "sourceDescription": "This image depicts a dorsal view of a female horse-fly, Tabanus stygius, which had been collected at White Pond, in Sudbury, Massachusetts. T. stygius are very large, dark flies found in mid-summer, biting during the day. Their thorax is whitish, displaying several dark longitudinal lines, while the",
    "downloadedOn": "2026-10-15",
    "sha256Original": "98c15432747fa695587fd95c4f4a46453cef4ecbe14f3d6ee15f33e9f3a23eb7"
+  },
+  {
+   "file": "/guides/photos/house-centipede-on-wall.webp",
+   "subject": "House centipede, Scutigera coleoptrata, adult on a wall (Sandusky, Ohio)",
+   "sourceUrl": "https://www.inaturalist.org/observations/331736980",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/601868375/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 850,
+   "bytes": 52674,
+   "sourceDescription": "Scutigera coleoptrata",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "7456cf22dd14accaff41addf660db666e364b076c3a9f48eaa334ccff1795888"
   },
   {
    "file": "/guides/photos/house-centipede.webp",
@@ -2175,6 +2498,20 @@
    "sha256Original": "1b5db5f408a6045e5ce57b766522f300dabafb318f3aa1bfe004b0fc1747c3df"
   },
   {
+   "file": "/guides/photos/johnson-jumping-spider.webp",
+   "subject": "Johnson’s jumping spider, Phidippus johnsoni, on a grass blade (Sebastopol, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/44200934",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/70079820/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 936,
+   "bytes": 90856,
+   "sourceDescription": "Phidippus johnsoni",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "92e5d56b881e3f0f031247e688ac22f855442e2a1d6c582083b5b3ec7241ba07"
+  },
+  {
    "file": "/guides/photos/joro-spider.webp",
    "subject": "Joro spider, Trichonephila clavata, female in her web (North Carolina)",
    "sourceUrl": "https://www.inaturalist.org/observations/403928091",
@@ -2385,6 +2722,20 @@
    "sha256Original": "68076b8875d916d67eea3a9dc62a393650a7ebb5bb790285f859f63c2a4bf163"
   },
   {
+   "file": "/guides/photos/northern-black-widow-egg-sac.webp",
+   "subject": "Northern black widow, Latrodectus variolus, adult female in front of an egg sac (Maryland)",
+   "sourceUrl": "https://www.inaturalist.org/observations/292913939",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/527163380/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 208040,
+   "sourceDescription": "Latrodectus variolus",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "7be2d446db1103ac7123935b25b5668518ba1a205189bbe1aad119c9171361ad"
+  },
+  {
    "file": "/guides/photos/northern-black-widow.webp",
    "subject": "Northern black widow, Latrodectus variolus, female (red marks on the back of the abdomen)",
    "sourceUrl": "https://www.inaturalist.org/observations/314473590",
@@ -2427,6 +2778,20 @@
    "sha256Original": "cd64c82689b4c94700ae3ceaf1afb2d7d881a7ce3c2f98538c3e6b3f4144c9ac"
   },
   {
+   "file": "/guides/photos/norway-rat-burrows.webp",
+   "subject": "Burrow entrances identified on iNaturalist as Norway rat, Rattus norvegicus, in mossy soil at the base of a street tree beside a building (Seattle)",
+   "sourceUrl": "https://www.inaturalist.org/observations/114324321",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/193064449/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 335294,
+   "sourceDescription": "Rattus norvegicus",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "b37681b588e5ef05b48e71a3cfa2c6da1660d0e6c38a202bc39c7a0f1c96388b"
+  },
+  {
    "file": "/guides/photos/norway-rat-face.webp",
    "subject": "Norway (brown) rat, Rattus norvegicus, face-on (King County, Washington)",
    "sourceUrl": "https://www.inaturalist.org/observations/379572541",
@@ -2467,6 +2832,20 @@
    "sourceDescription": "Trypoxylon politum. Rock Creek Park, Washington, DC, USA",
    "downloadedOn": "2026-10-15",
    "sha256Original": "66d28fcc51cf4dad94316a0e0e534beab9c683d3c962f3bc1f82bed9cd34d589"
+  },
+  {
+   "file": "/guides/photos/oriental-cockroach-female-ootheca.webp",
+   "subject": "Oriental cockroach, Blatta orientalis, adult female carrying her egg case (ootheca) (Lyon, France)",
+   "sourceUrl": "https://www.inaturalist.org/observations/366524522",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/669275495/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Mario Garofano, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 131194,
+   "sourceDescription": "Blatta orientalis",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "936d6d98b3d7e2895bdd3d19c7d82c9efbb886df3ab0660781652cfbd86951ca"
   },
   {
    "file": "/guides/photos/oriental-cockroach-male-female.webp",
@@ -2554,6 +2933,20 @@
    "sha256Original": "beae1d537c179d10386872176c3e5bbed8bcb3009a40afcdf1199e3e2e4e1a6a"
   },
   {
+   "file": "/guides/photos/potato-flea-beetle.webp",
+   "subject": "Potato flea beetle, Epitrix cucumeris, dorsal view on white (found on a garden tomato plant, Mayes County, Oklahoma)",
+   "sourceUrl": "https://www.inaturalist.org/observations/45285817",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/71803435/original.jpg",
+   "license": "CC-BY-SA-4.0",
+   "credit": "(c) Robert Webster, some rights reserved (CC BY-SA), via iNaturalist",
+   "width": 1190,
+   "height": 1060,
+   "bytes": 66284,
+   "sourceDescription": "Epitrix cucumeris",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "aba31d1c30a6fb945b2e9d6e53a2e1275e98ea80b70a3494c96059ad58e475a7"
+  },
+  {
    "file": "/guides/photos/poultry-red-mite.webp",
    "subject": "Poultry red mite (chicken mite), probably Dermanyssus gallinae, magnified",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dermanyssus_cfr_gallinae_(5021757436).jpg",
@@ -2594,6 +2987,20 @@
    "sourceDescription": "Megalopyge opercularis",
    "downloadedOn": "2026-10-15",
    "sha256Original": "db37b18d94a7c22428b06e2b28d73343754a7f080ab6f6ed7889762df0be5dc9"
+  },
+  {
+   "file": "/guides/photos/rabid-wolf-spider.webp",
+   "subject": "Rabid wolf spider, Rabidosa rabida, dorsal view on grass leaves (Rockbridge County, Virginia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/292461853",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/526303261/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 55064,
+   "sourceDescription": "Rabidosa rabida",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "650cb8950efb21d92cc140657c510f1084af511151a30ad8b50a8ceda50797b1"
   },
   {
    "file": "/guides/photos/rat-droppings-table.webp",
@@ -2638,6 +3045,20 @@
    "sha256Original": "1e35efde56a5a63b0380598065ce2b71014c92a347f5bf59b522345b268be234"
   },
   {
+   "file": "/guides/photos/recluse-bite-first-days.webp",
+   "subject": "Recluse spider (Loxosceles sp.) bites in Brazil 18, 24, 72 and 120 hours after the bite: pale and purplish (marbled) patches, some with a red halo (four panels from a published clinical study)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loxoscelism_-_05.png",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Loxoscelism_-_05.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-4.0",
+   "credit": "Ceila M. S. Malaque, Christina T. G. Novaes, Roberta O. Piorelli, Jose Y. Risk,Jefferson C. Murad, Amanda N. Lara, Cristiana C. Virgulino, Karina T. Miyaji, Marcelo L. Santoro, CC BY 4.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 734,
+   "bytes": 39172,
+   "sourceDescription": "Marbled macula, with and without erythematous halo, after a Loxosceles sp. bite. (a) 18 h after the bite; (b) 24 h after the bite; (c) 72 h after the bite; (d) 120 h after the bite.",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "7c2c08cef417a692763f2b8eaad89533546f810b0a5ab135819fd728981e58c0"
+  },
+  {
    "file": "/guides/photos/red-flour-beetle.webp",
    "subject": "Red flour beetle, Tribolium castaneum (about 1/8 inch long)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tribolium_castaneum.jpg",
@@ -2678,6 +3099,20 @@
    "sourceDescription": "Trombiidae sp. Rock Creek Park, Washington, DC, USA",
    "downloadedOn": "2026-10-15",
    "sha256Original": "1b35a219ff9221b1ca2d274fa2273f93c4ec35cf4c76185809e39a6e80f9c522"
+  },
+  {
+   "file": "/guides/photos/red-widow.webp",
+   "subject": "Red widow, Latrodectus bishopi, adult female, on a person’s finger (Jonathan Dickinson State Park, Florida)",
+   "sourceUrl": "https://www.inaturalist.org/observations/220037947",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/389531137/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 113358,
+   "sourceDescription": "Latrodectus bishopi",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "eacbb03bbffa2cbd84d3cfe6bd1c8ae47c1c61cdbfb4569125391aa8c30fd277"
   },
   {
    "file": "/guides/photos/relapsing-fever-soft-tick.webp",
@@ -2862,6 +3297,62 @@
    "sha256Original": "4cf9d6bccf952e3f9979465cc8be6e9e2f234222063b0a41b1dca64afbce2d4c"
   },
   {
+   "file": "/guides/photos/smokybrown-cockroach-dorsal.webp",
+   "subject": "Smokybrown cockroach, Periplaneta fuliginosa, dorsal view (name printed on the photo)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26939",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26939/26939.tif",
+   "license": "public-domain",
+   "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 801,
+   "bytes": 44420,
+   "sourceDescription": "This photograph depicts a dorsal view of a smoky brown cockroach, Periplaneta fuliginosa.",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "a488e179ad45e884d981875fb3a86b38d5b4f9bc220e41cf980d68b29f0fe104"
+  },
+  {
+   "file": "/guides/photos/smokybrown-cockroach.webp",
+   "subject": "Smokybrown cockroach, Periplaneta fuliginosa (filed on iNaturalist as Validiblatta fuliginosa), on a wooden rail (Jacksonville, Florida)",
+   "sourceUrl": "https://www.inaturalist.org/observations/231013746",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/410239807/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 717,
+   "bytes": 144778,
+   "sourceDescription": "Validiblatta fuliginosa",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "6c3e11312636247c9f9decd7372e30a25f3e07d18c1ad7ef2bacf4b5c0589d0b"
+  },
+  {
+   "file": "/guides/photos/southern-house-spider-female-web.webp",
+   "subject": "Southern house spider, Kukulcania hibernalis, female on her woolly web, beside a large insect wrapped in silk (Tallahassee, Florida)",
+   "sourceUrl": "https://www.inaturalist.org/observations/28653824",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/44681894/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 150588,
+   "sourceDescription": "Kukulcania hibernalis",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "883717a038734efcff0a0415c8051060d5d8d99256ae48c141ccc46d15f78b5f"
+  },
+  {
+   "file": "/guides/photos/southern-house-spider-male.webp",
+   "subject": "Southern house spider, Kukulcania hibernalis, adult male, dorsal view, found inside a building (Augusta, Georgia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/107352227",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/180534291/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Celeste Ray, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1804,
+   "bytes": 67402,
+   "sourceDescription": "Kukulcania hibernalis",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "0eaf7bf819194d49f18131d8931a4b8c2af0583e25ab121a26adc49b3704eb90"
+  },
+  {
    "file": "/guides/photos/southern-mole-cricket.webp",
    "subject": "Southern mole cricket, Neoscapteriscus borellii (Fort Myers, Florida)",
    "sourceUrl": "https://www.inaturalist.org/observations/182752967",
@@ -2958,6 +3449,20 @@
    "sourceDescription": "This photo of the spotted lanternfly (Lycorma delicatula) in various life stages demonstrates its relative size next to a quarter. The first life stage—not pictured here—is an egg mass. Before becoming adults, the pest develops through the 1st, 2nd, 3rd, and 4th instar stages (shown). Starting in th",
    "downloadedOn": "2026-10-15",
    "sha256Original": "f8df917e60f13b2dd8f15c5debcf4fb7947c6fbb7f325260d49f19cd5dfc66a5"
+  },
+  {
+   "file": "/guides/photos/springtail.webp",
+   "subject": "Springtail, Entomobrya atrocincta, on a leaf, with a 1 mm scale bar (Orange, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/10397241",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/14434648/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 949,
+   "bytes": 91566,
+   "sourceDescription": "Entomobrya atrocincta",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "6b09661b7fac04edde7f85911c45e8c74c080a8aa351871183ac359f8ae9237e"
   },
   {
    "file": "/guides/photos/squirrel-warbles.webp",
@@ -3255,6 +3760,20 @@
    "sha256Original": "8dc63b00be9171ed0dfffc33c0a563ded2353baaf0d1c37c1c610f1bee7ab502"
   },
   {
+   "file": "/guides/photos/western-black-widow-egg-sacs.webp",
+   "subject": "Western black widow, Latrodectus hesperus, adult beside two egg sacs (Riverside, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/309876963",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/559229581/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 46452,
+   "sourceDescription": "Latrodectus hesperus",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "7d619fbb1b5440eea25cf31e9b249ea5d8385d1ccd1cafca5451baf2fa5cb212"
+  },
+  {
    "file": "/guides/photos/western-black-widow.webp",
    "subject": "Western black widow, Latrodectus hesperus, female in her web showing the red hourglass (Berkeley, California)",
    "sourceUrl": "https://www.inaturalist.org/observations/193",
@@ -3367,6 +3886,48 @@
    "sha256Original": "63103dc5ae8c0b76ffcfb5ef8db50a23e8c269266f9dd52e53a592283c005a18"
   },
   {
+   "file": "/guides/photos/wolf-spider-egg-sac-side.webp",
+   "subject": "Wolf spider, Hogna antelucana, adult female carrying her egg sac under her abdomen (Travis County, Texas)",
+   "sourceUrl": "https://www.inaturalist.org/observations/205066701",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/362541841/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Eric Schmidt, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 675,
+   "bytes": 133560,
+   "sourceDescription": "Hogna antelucana",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "a38a430f7c23033a86d65662b5333c3c46149ea426b1afbd4ce04abb79cd3289"
+  },
+  {
+   "file": "/guides/photos/wolf-spider-egg-sac.webp",
+   "subject": "Wolf spider, Allocosa subparva, adult female carrying her egg sac (Turlock, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/184904708",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/322826670/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 168034,
+   "sourceDescription": "Allocosa subparva",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "f0b5c4eab59018a5482b81d27bce78b6f8042348fdf9b57dad2b7c9f8ed12cdc"
+  },
+  {
+   "file": "/guides/photos/wolf-spider-eyes.webp",
+   "subject": "Wetland giant wolf spider, Tigrosa helluo, juvenile: face-on close-up of the head and eyes (Chester County, Pennsylvania)",
+   "sourceUrl": "https://www.inaturalist.org/observations/44850401",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/71102537/original.jpg",
+   "license": "CC-BY-SA-4.0",
+   "credit": "(c) Meghan Cassidy, some rights reserved (CC BY-SA), via iNaturalist",
+   "width": 1200,
+   "height": 960,
+   "bytes": 125236,
+   "sourceDescription": "Tigrosa helluo",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "c6be3b4651ed5d637312791902f22dbd3e1a30bae4caa2b5a373d4bc3bd06cb4"
+  },
+  {
    "file": "/guides/photos/wolf-spider.webp",
    "subject": "Wolf spider (Tigrosa helluo) carrying spiderlings",
    "sourceUrl": "https://www.inaturalist.org/observations/122321677",
@@ -3393,6 +3954,34 @@
    "sourceDescription": "Dysdera crocata",
    "downloadedOn": "2026-10-15",
    "sha256Original": "9b7a7b8372570fe8e795421eeaa5eb5cb6200de38fdfd6010a9bb9bdc34750e6"
+  },
+  {
+   "file": "/guides/photos/yellow-garden-spider-egg-sac.webp",
+   "subject": "Yellow garden spider, Argiope aurantia, egg sac hanging among wildflowers (Kentucky)",
+   "sourceUrl": "https://www.inaturalist.org/observations/250477923",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/447979375/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 213604,
+   "sourceDescription": "Argiope aurantia",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "2cfae55626adf82b588453d0605385eab2958d4e8d73f6a28a09ce5b617deada"
+  },
+  {
+   "file": "/guides/photos/yellow-garden-spider-with-egg-sac.webp",
+   "subject": "Yellow garden spider, Argiope aurantia, adult female beside an egg sac on a wall (Cameron, Texas)",
+   "sourceUrl": "https://www.inaturalist.org/observations/244191355",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/435553684/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 140332,
+   "sourceDescription": "Argiope aurantia",
+   "downloadedOn": "2026-10-16",
+   "sha256Original": "cb19d739591b5e9d0cc9e23fcf26bdb9595d0dd76a01acf3898744904f790066"
   },
   {
    "file": "/guides/photos/yellow-garden-spider.webp",

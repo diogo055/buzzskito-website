@@ -1,0 +1,604 @@
+{
+ "_readme": "Scout notes for the fifth photo batch (Oct 16, 2026): next-50 wave 2 (palmetto bugs, cockroach egg cases, wolf spiders, spider egg sacs, brown recluse ID details and bites, Florida / Texas / California spiders, stink bugs, house centipedes, fleas) and earlier gaps (springtail, native lady beetle, black carpet beetle, drugstore beetle, red widow, southern house spider, flea beetle, Norway rat burrows). For each photo: what its source says it shows (sourceDescription), the pages it serves (forPages: a bare slug is /blog/<slug> or a planned page in plan.src.json; learn/<slug> is a Learning Centre page), confidence in the identification, whether its licence lets it be a page's lead/share image (leadEligible: public domain or CC0 only), and caveats (who made the identification, where it was taken, labels printed on the photo, caption limits). The licence, credit and size of record are in photos.json; write captions from these notes and the record together. Every image was looked at after conversion. Gaps (what was looked for and not found) are at the end.",
+ "candidates": [
+  {
+   "id": "smokybrown-cockroach",
+   "forPages": [
+    "palmetto-bugs",
+    "can-cockroaches-fly",
+    "bugs-that-look-like-cockroaches",
+    "learn/cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 231013746 of Validiblatta fuliginosa (Smokybrown Cockroach), Arboretum, Jacksonville, FL, USA, 2024-07-20; 2 current identifications.",
+   "caveats": "iNaturalist now files this species as Validiblatta fuliginosa; CDC and extension sources still call it Periplaneta fuliginosa (the subject of record uses Periplaneta and names the iNaturalist genus). Use one name consistently on a page. Oblique side view of a glossy, evenly dark mahogany cockroach on a wooden rail outdoors at night. It is fully winged, but the record carries no life-stage annotation, so do not caption it as an adult. No scale object. For a straight top-down view use smokybrown-cockroach-dorsal (CDC).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x717."
+  },
+  {
+   "id": "smokybrown-cockroach-dorsal",
+   "forPages": [
+    "palmetto-bugs",
+    "can-cockroaches-fly",
+    "bugs-that-look-like-cockroaches",
+    "learn/cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 26939: This photograph depicts a dorsal view of a smoky brown cockroach, Periplaneta fuliginosa.",
+   "caveats": "Studio photo on a blue background from the same undated CDC series as PHIL 26936 (australian-cockroach-nymph-and-female) and PHIL 26937 (florida-woods-cockroach-nymph-and-male): the three make a matched set for palmetto-bugs. The name is printed on the photo as 'Smokey Brown Cockroach (Periplaneta fuliginosa)' (note the spelling). PHIL gives no sex or life stage. Better in the article than as a share image because of the printed label.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x801."
+  },
+  {
+   "id": "florida-woods-cockroach",
+   "forPages": [
+    "palmetto-bugs",
+    "bugs-that-look-like-cockroaches",
+    "can-cockroaches-fly",
+    "learn/cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 336103542 of Eurycotis floridana (Florida Woods Cockroach), Concert Dr, Lake Placid, FL, US, 2026-01-25; 2 current identifications; annotated adult and male by another iNaturalist user (insulindian_phasmid), not the observer.",
+   "caveats": "Top-down view of a dark reddish-black cockroach on a stucco wall beside a window frame; the short wing pads leave most of the abdomen bare. Sex and life stage come from the other user's annotation. No scale object.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1464."
+  },
+  {
+   "id": "florida-woods-cockroach-nymph-and-male",
+   "forPages": [
+    "palmetto-bugs",
+    "what-do-baby-cockroaches-look-like",
+    "learn/cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 26937: This photograph depicts a dorsal view of two Florida woods cockroaches, Eurycotis floridana. On the left is a nymph, while on the right is an adult male E. floridana.",
+   "caveats": "Names printed on the photo (Florida Woods Cockroach (Eurycotis floridana), Nymph, Male); the male symbol is drawn non-standard, with the word Male printed under it. Same CDC series as smokybrown-cockroach-dorsal. No scale object. Better in the article than as a share image.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x790."
+  },
+  {
+   "id": "australian-cockroach",
+   "forPages": [
+    "palmetto-bugs",
+    "bugs-that-look-like-cockroaches",
+    "learn/cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 225723260 of Validiblatta australasiae (Australian Cockroach), St. Nicholas, Jacksonville, FL 32207, USA, 2024-06-27; 2 current identifications.",
+   "caveats": "iNaturalist files it as Validiblatta australasiae; CDC and extension sources use Periplaneta australasiae (the subject of record uses Periplaneta and names the iNaturalist genus). Top-down view on a pale cloth or paper surface showing the yellow ring on the plate behind the head and the pale streak along the front edge of each wing. Fully winged, but no life stage is recorded: do not caption it as an adult. No scale object.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x793."
+  },
+  {
+   "id": "australian-cockroach-nymph-and-female",
+   "forPages": [
+    "palmetto-bugs",
+    "what-do-baby-cockroaches-look-like",
+    "learn/cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 26936: This photograph depicts a dorsal view of two Australian cockroaches, Periplaneta australasiae. On the left is a third-instar nymph, while on the right is an adult female P. australasiae.",
+   "caveats": "Names printed on the photo (Australian cockroach (Periplaneta australasiae), Third instar nymph, Female); the female symbol is drawn non-standard, with the word Female printed under it. Same CDC series as smokybrown-cockroach-dorsal. No scale object.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x790."
+  },
+  {
+   "id": "american-cockroach-ootheca",
+   "forPages": [
+    "cockroach-eggs",
+    "palmetto-bugs",
+    "what-do-baby-cockroaches-look-like",
+    "learn/cockroaches"
+   ],
+   "confidence": "medium",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 306466708 of Periplaneta americana (American Cockroach), Sabaneta, Dominican Republic, 2025-08-15; 2 current identifications; annotated Life Stage: Egg by a third user. The observer's only note: 'Huevo' (egg).",
+   "caveats": "One dark reddish-brown, purse-shaped egg case on white paper (all four photos in the observation show the same egg case; no adult). The species rests on two iNaturalist identifications made from the egg case alone, and the egg cases of the large Periplaneta-type cockroaches look much alike, so do not use it to teach how to tell them apart. Taken in the Dominican Republic: leave the place out of US captions. No scale object: do not state a size from the photo. No public-domain or CC0 American cockroach egg case beside a coin or ruler was found (see gaps).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1222."
+  },
+  {
+   "id": "brown-banded-cockroach-egg-cases",
+   "forPages": [
+    "cockroach-eggs",
+    "what-do-baby-cockroaches-look-like",
+    "learn/cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 26935: This photograph depicts a close view of four brown-banded cockroach, Supella longipalpa, egg capsules attached to what appears to be a stationary wooden surface.",
+   "caveats": "Four small reddish-brown egg capsules stuck to pale wood, with a few dark specks nearby; PHIL says only 'what appears to be a stationary wooden surface', so do not name the furniture. No scale object. Same CDC series as the palmetto-bugs photos. Pairs with german-cockroach-egg-case (female carrying her capsule, PHIL 26931) already on record; state any contrast between the species only from the page's sources.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x790."
+  },
+  {
+   "id": "oriental-cockroach-female-ootheca",
+   "forPages": [
+    "cockroach-eggs",
+    "water-bugs-vs-cockroaches",
+    "learn/cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 366524522 of Blatta orientalis (Oriental Cockroach), Lyon, France, 2026-05-30; 2 current identifications. Observer's note: 'Brachypterous, wider body, with ootheca in middle stage of development. Female.'",
+   "caveats": "Adult female on rough stone with a reddish-brown egg case protruding from the tip of her abdomen. Taken in France: leave the place out of US captions. CC BY, so it needs its visible credit and cannot be a lead/share image. No usable photo of a loose oriental cockroach egg case was found (see gaps).",
+   "note": "Credit: (c) Mario Garofano, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "rabid-wolf-spider",
+   "forPages": [
+    "wolf-spiders",
+    "spiders",
+    "brown-recluse-look-alikes"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 292461853 of Rabidosa rabida (Rabid Wolf Spider), Rockbridge County, VA, USA, 2025-06-17; 3 current identifications (the observer to genus, two others to species).",
+   "caveats": "Plain top-down view on grass blades, sharp enough to show the striped carapace and the dark band down the abdomen: the plain dorsal view of a US wolf spider the wolf-spiders page needed. No sex or life stage recorded. No scale object.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x800."
+  },
+  {
+   "id": "wolf-spider-eyes",
+   "forPages": [
+    "wolf-spiders",
+    "brown-recluse-look-alikes",
+    "spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 44850401 of Tigrosa helluo (Wetland Giant Wolf Spider), Chester County, PA, USA, 2019-07-26; 2 current identifications; annotated juvenile by another user.",
+   "caveats": "Face-on macro of the head: two large eyes above a row of four small ones, and two more eyes set back at the upper sides; the hairy fangs and palps show below. A juvenile (annotation), so do not caption it as an adult. CC BY-SA: needs its visible credit and cannot be a lead/share image. No public-domain or CC0 close-up of wolf spider eyes was found; Commons 'Eye Arrangement of a Hogna Wolf Spider.png' (CC BY 2.0, Thomas Shahan) is an alternative but rests on the photographer's genus-level identification.",
+   "note": "Credit: (c) Meghan Cassidy, some rights reserved (CC BY-SA), via iNaturalist. Licence: CC-BY-SA-4.0. Size: 1200x960."
+  },
+  {
+   "id": "wolf-spider-egg-sac",
+   "forPages": [
+    "spider-egg-sacs",
+    "wolf-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 184904708 of Allocosa subparva, a wolf spider, Turlock, CA, US, 2023-09-19; 2 current identifications. Observer's note: 'Carrying egg sac.' Annotated adult, female and egg by the observer.",
+   "caveats": "Small gray wolf spider on gravel, from above, with a round white egg sac held under the rear of her body. Allocosa subparva has no common name on iNaturalist: caption it as a wolf spider (Allocosa subparva) and do not present it as one of the large wolf spiders. No scale object. For a side view showing the sac attached at the spinnerets use wolf-spider-egg-sac-side.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "wolf-spider-egg-sac-side",
+   "forPages": [
+    "spider-egg-sacs",
+    "wolf-spiders",
+    "spiders-in-texas"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 205066701 of Hogna antelucana, a wolf spider, Travis County, TX, USA, 2024-03-11; 2 current identifications; annotated adult and female by another user.",
+   "caveats": "Side view on concrete: a white egg sac held at the spinnerets under the abdomen, the clearest view of the attachment in the batch. Hogna antelucana has no common name on iNaturalist. CC BY: needs its visible credit and cannot be a lead/share image.",
+   "note": "Credit: (c) Eric Schmidt, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x675."
+  },
+  {
+   "id": "common-house-spider-egg-sac",
+   "forPages": [
+    "spider-egg-sacs",
+    "house-spiders",
+    "how-to-get-rid-of-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 291856092 of Parasteatoda tepidariorum (Common House Spider), Logan, OH, US, 2025-06-20; 2 current identifications; annotated adult, female, egg and construction by another user.",
+   "caveats": "Female hanging in her web beside a tan, papery, pear-shaped egg sac; a second egg sac shows out of focus below. The source does not say whether indoors or out. CC BY: needs its visible credit and cannot be a lead/share image. Already placed on the scheduled house-spiders page.",
+   "note": "Credit: (c) Joey M, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1006."
+  },
+  {
+   "id": "cellar-spider-carrying-eggs",
+   "forPages": [
+    "spider-egg-sacs",
+    "house-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 271762266 of Pholcus manueli (Manuel's Cellar Spider), Ohio, US, 2024-08-05; 3 current identifications (the observer to genus, two others to species); annotated adult, female, egg and construction by another user.",
+   "caveats": "Female standing over a loose, see-through bundle of eggs held in her jaws, with almost no silk around them. This is Manuel's cellar spider, not the long-bodied cellar spider (Pholcus phalangioides) on record as cellar-spider: caption it as a cellar spider (Pholcus manueli). CC BY: needs its visible credit and cannot be a lead/share image.",
+   "note": "Credit: (c) Timothy Lindsey, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x780."
+  },
+  {
+   "id": "western-black-widow-egg-sacs",
+   "forPages": [
+    "spider-egg-sacs",
+    "spiders-in-california",
+    "black-widow-spiders",
+    "venomous-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 309876963 of Latrodectus hesperus (Western Black Widow), Riverside, CA, US, 2025-08-28; 2 current identifications; annotated adult and egg by the observer.",
+   "caveats": "Glossy black widow, underside showing the red hourglass, hanging beside two smooth, cream, papery egg sacs in a corner. The record annotates adult but not sex. Compare with brown-widow-egg-sacs on record (spiky sacs) only using the page's sources.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1200."
+  },
+  {
+   "id": "northern-black-widow-egg-sac",
+   "forPages": [
+    "spider-egg-sacs",
+    "black-widow-spiders",
+    "venomous-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 292913939 of Latrodectus variolus (Northern Black Widow), Maryland, US, 2025-06-26; 2 current identifications; annotated adult, female, egg and construction by another user.",
+   "caveats": "Female from above on a stone or concrete block, in front of a round, tan egg sac, with the red mark on top of her abdomen showing. Outdoors.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "yellow-garden-spider-egg-sac",
+   "forPages": [
+    "spider-egg-sacs",
+    "orb-weaver-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 250477923 of Argiope aurantia (Yellow Garden Spider), Kentucky, US, 2024-11-04; 3 current identifications. Observer's note: 'Next to web.' Annotated egg by the observer.",
+   "caveats": "A brown, papery, pear-shaped egg sac with a narrow neck at the top, hung in silk among white asters. No spider in the frame: the identification rests on the sac and the web next to it (three identifiers agreed).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1200."
+  },
+  {
+   "id": "yellow-garden-spider-with-egg-sac",
+   "forPages": [
+    "spider-egg-sacs",
+    "orb-weaver-spiders",
+    "spiders-in-texas"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 244191355 of Argiope aurantia (Yellow Garden Spider), County Road 202, Cameron, TX, US, 2024-09-25; 4 current identifications; annotated adult, female, egg and construction by another user.",
+   "caveats": "Female (yellow and black abdomen) in her web on the siding of a building, beside a brown, papery egg sac. Taken in Texas.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "brown-recluse-eyes",
+   "forPages": [
+    "brown-recluse-look-alikes",
+    "brown-recluse",
+    "brown-recluse-bite",
+    "venomous-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons copy of an Insects Unlocked (University of Texas at Austin) Flickr image: 'Dorsal view of Loxosceles reclusa (Brown Recluse Spider) 6841 Raccoon Run, Austin, Travis Co., Texas July 8th, 2011 Public Domain Image by Christopher Johnson Part of the Insects Unlocked Project University of Texas at Austin.'",
+   "caveats": "Extreme close-up from above of the front of the carapace: three separated pairs of eyes (one pair at the front, one pair on each side), with the fangs below. The species rests on the Insects Unlocked project (a university imaging project); the source does not say who identified it. This file has no caption band (the Commons copy marked '(2)' carries one). Suits the six-eyes test the brown-recluse-look-alikes writer asked for.",
+   "note": "Credit: Insects Unlocked, CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 1200x858."
+  },
+  {
+   "id": "brown-recluse-female",
+   "forPages": [
+    "brown-recluse-look-alikes",
+    "brown-recluse",
+    "spiders-in-texas",
+    "venomous-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons copy of an Insects Unlocked (University of Texas at Austin) Flickr image: 'Loxosceles reclusa, living female - brown recluse USA, TX, Travis Co.: Austin 28.iii.2016 J. T. Lapp, collector Public domain image by Alex Wild for the Insects Unlocked project at the University of Texas at Austin.'",
+   "caveats": "Edited: the bottom 13% (the project's black caption band) was cropped off; the record says so. Living female from above on white, legs spread. Better documented than brown-recluse-penny (uploader's identification only): photographer, collector, place and date are given. The violin on the carapace is visible but faint on this pale spider, so pair it with brown-recluse (CDC PHIL 1125, darker violin) rather than using it alone to show the violin. No scale object; no brown recluse beside a ruler in inches turned up in the Commons category or the CC0 iNaturalist photos reviewed.",
+   "note": "Credit: Insects Unlocked, CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 1200x1104."
+  },
+  {
+   "id": "brown-recluse-bite-early",
+   "forPages": [
+    "brown-recluse-bite",
+    "bug-bites"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 23317 (CDC/ Margaret A. Parsons; PHIL date 1965): This image depicted a close view of what had been the aftermath of a brown recluse, Loxosceles reclusa spider bite. Note the resultant localized erythematous reaction, which would subsequently evolve into an area of frank tissue necrosis, resembling that seen in other cases depicted in PHIL 23314 and 23315.",
+   "caveats": "Historic slide: a red, mottled patch of skin with darker spots at its center, before the tissue died. PHIL gives no time since the bite, no body site and nothing on how the spider was identified, so caption it only as redness around a brown recluse bite before necrosis developed (CDC), never with a number of hours or days. Mildly graphic: place it low on the page and do not use it as the share image even though the licence would allow it. The later stage is PHIL 23314 and 23315 (open necrosis, very graphic, not added) and brown-recluse-bite-necrosis (PHIL 6266) already on record.",
+   "note": "Credit: CDC/ Margaret A. Parsons (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x790."
+  },
+  {
+   "id": "recluse-bite-first-days",
+   "forPages": [
+    "brown-recluse-bite",
+    "bug-bites"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons copy of Figure 2 of Malaque CMS, Novaes CTG, Piorelli RO, et al. (2022), 'Impact of antivenom administration on the evolution of cutaneous lesions in loxoscelism: A prospective observational study', PLOS Neglected Tropical Diseases 16(10): e0010842, doi 10.1371/journal.pntd.0010842 (CC BY 4.0): 'Marbled macula, with and without erythematous halo, after a Loxosceles sp. bite. (a) 18 h after the bite; (b) 24 h after the bite; (c) 72 h after the bite; (d) 120 h after the bite.'",
+   "caveats": "The only photos found of recluse-spider bites in the first days with the timing documented by a clinical source. The patients were treated in Brazil (Hospital Vital Brazil, Instituto Butantan, Sao Paulo) and were bitten by South American Loxosceles species, not the brown recluse: caption it as recluse spider (Loxosceles) bites in a Brazilian clinical study, never as brown recluse bites. In that study the spider was identified in only 29 of 146 patients; the rest were presumptive diagnoses from the history and the lesion, so it shows what the lesions looked like, not proof of the spider in each panel. Panels a to d are lettered on the image; the hours are in the source caption only. Mildly graphic (panel d): place it low on the page. CC BY 4.0: the visible credit must name the authors as recorded.",
+   "note": "Credit: Ceila M. S. Malaque, Christina T. G. Novaes, Roberta O. Piorelli, Jose Y. Risk,Jefferson C. Murad, Amanda N. Lara, Cristiana C. Virgulino, Karina T. Miyaji, Marcelo L. Santoro, CC BY 4.0, via Wikimedia Commons (copied exactly from the record, including the missing space after 'Risk,', which is how Commons gives it). Licence: CC-BY-4.0. Size: 1200x734."
+  },
+  {
+   "id": "green-lynx-spider",
+   "forPages": [
+    "spiders-in-florida",
+    "spiders-in-texas",
+    "spiders-in-california",
+    "spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 186731001 of Peucetia viridans (Green Lynx Spider), Putnam County, FL, USA, 2023-10-08; 4 current identifications.",
+   "caveats": "Bright green spider with long, black-spined legs on a plant stem among pink flowers, seen from above. No sex or life stage recorded. Taken in Florida.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "green-lynx-spider-egg-sac",
+   "forPages": [
+    "spider-egg-sacs",
+    "spiders-in-florida",
+    "spiders-in-texas"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 137763840 of Peucetia viridans (Green Lynx Spider), Jonesville, LA, US, 2022-10-06; 3 current identifications. Observer's note: 'adult with eggs.' Annotated egg by the observer.",
+   "caveats": "The spider clings beside a tan, bumpy egg sac tied among green seed heads. Taken in Louisiana, not one of the state pages' states: leave the place out of their captions. The observer calls it an adult; no sex is recorded.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "carolina-wolf-spider",
+   "forPages": [
+    "wolf-spiders",
+    "spiders-in-texas",
+    "spiders-in-florida",
+    "spiders-in-california",
+    "brown-recluse-look-alikes"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 201595180 of Hogna carolinensis (Carolina Wolf Spider), Oglala Lakota County, SD, USA, 2023-07-18; 2 current identifications.",
+   "caveats": "Large, pale gray wolf spider from above on dry ground and plant debris, sharp. Taken in South Dakota, not in Florida, Texas or California: leave the place out of those pages' captions (a softer Texas photo, observation 189442605 from Alpine, TX, CC0, was the alternative). No sex or life stage recorded. No scale object.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "johnson-jumping-spider",
+   "forPages": [
+    "spiders-in-california",
+    "jumping-spiders",
+    "spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 44200934 of Phidippus johnsoni (Johnson's Jumping Spider), Sebastopol, CA 95472, USA, 2020-04-26; 5 current identifications (three to genus Phidippus, two to species).",
+   "caveats": "Black jumping spider with a red-orange abdomen marked in black, on a grass blade. The species rests on two of the five identifiers (the other three stopped at the genus, which does not count against it). No sex or life stage recorded. A common California species the ledger lacked.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x936."
+  },
+  {
+   "id": "green-stink-bug",
+   "forPages": [
+    "how-to-get-rid-of-stink-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 230795129 of Chinavia hilaris (Green Stink Bug), Rock Creek Park, District of Columbia, US, 2024-07-21; 3 current identifications; annotated adult by another user.",
+   "caveats": "Bright green, shield-shaped adult from above on mossy wood, with a thin yellowish edge. Outdoors. No scale object.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "brown-stink-bug",
+   "forPages": [
+    "how-to-get-rid-of-stink-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 156483269 of Euschistus servus (Brown Stink Bug), Southwest Arlington, Arlington, TX, USA, 2023-04-22; 2 current identifications.",
+   "caveats": "Top-down view on a gray-green leaf; the antennae are plain (no white bands). State any feature that tells it from the brown marmorated stink bug only from the page's sources. No sex or life stage recorded. Already placed on the scheduled how-to-get-rid-of-stink-bugs page.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x676."
+  },
+  {
+   "id": "brown-marmorated-stink-bug-eggs-nymphs",
+   "forPages": [
+    "how-to-get-rid-of-stink-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 241199068 of Halyomorpha halys (Brown Marmorated Stink Bug), Redmont Park, Birmingham, AL, USA, 2024-09-11; 2 current identifications; annotated nymph and egg by the observer.",
+   "caveats": "Young orange-and-black striped nymphs clustered on and around their pale, barrel-shaped egg shells on the underside of a leaf. They look nothing like the adult; the record does not give the instar. Already placed on the scheduled how-to-get-rid-of-stink-bugs page.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1470."
+  },
+  {
+   "id": "brown-marmorated-stink-bug-nymph",
+   "forPages": [
+    "how-to-get-rid-of-stink-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 7639126 of Halyomorpha halys (Brown Marmorated Stink Bug), New Jersey, US, 2017-08-24; 5 current identifications (four to species); annotated nymph by the observer.",
+   "caveats": "Older nymph from above on a corn stalk: the white bands on the legs and antennae show clearly, as the how-to-get-rid-of-stink-bugs writer asked. The record does not give the instar.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1799."
+  },
+  {
+   "id": "house-centipede-on-wall",
+   "forPages": [
+    "house-centipedes"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 331736980 of Scutigera coleoptrata (House Centipede), Sandusky, OH 44870, USA, 2025-12-22; 4 current identifications; annotated adult by the observer.",
+   "caveats": "Whole adult on a painted wall, showing the long legs, long antennae and striped body; landscape shape, a clearer whole-body view than house-centipede on record (portrait, on blue). The source does not say whether indoors. No scale object. Already placed on the scheduled house-centipedes page.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x850."
+  },
+  {
+   "id": "dog-flea",
+   "forPages": [
+    "what-do-fleas-look-like",
+    "how-to-get-rid-of-fleas",
+    "fleas",
+    "bugs-that-look-like-fleas"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons own work by Katja ZSM (Zoologische Staatssammlung Muenchen), 2015-03-12: 'Ctenocephalides canis, female, stored in ZSM collection (insecta varia).'",
+   "caveats": "Cleared museum specimen in side view on a pale background, by the same photographer and in the same style as cat-flea (Ctenocephalides felis, ZSM) on record: the pair suits the dog flea vs cat flea side views the what-do-fleas-look-like writer asked for. The identification rests on the museum specimen as labeled by its photographer. Neither photo has a scale bar and they are not at a known common magnification, so do not compare sizes from them; point only to head shape and the combs if the page's sources describe them. CC BY-SA 3.0: needs its visible credit and cannot be a lead/share image.",
+   "note": "Credit: Katja ZSM, CC BY-SA 3.0, via Wikimedia Commons. Licence: CC-BY-SA-3.0. Size: 1200x1039."
+  },
+  {
+   "id": "springtail",
+   "forPages": [
+    "springtails",
+    "bugs-that-look-like-fleas",
+    "what-do-fleas-look-like"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 10397241 of Entomobrya atrocincta (Dimorphic Springtail), Orange, California, 2018-03-24; 2 current identifications.",
+   "caveats": "Pale springtail with dark bands, on a leaf, with a 1 mm scale bar printed in the lower left by the observer. Outdoors. Not the gray springtail beside a flea that the bugs-that-look-like-fleas writer asked for; no springtail photo indoors or beside a ruler in inches was found under an allowed licence.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x949."
+  },
+  {
+   "id": "convergent-lady-beetle",
+   "forPages": [
+    "asian-lady-beetles"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 94288985 of Hippodamia convergens (Convergent Lady Beetle), Santa Fe, New Mexico, 2021-07-17; 2 current identifications.",
+   "caveats": "Orange lady beetle with black spots on a plant stem, with a 1 mm scale bar printed in the lower left by the observer; the black plate behind the head with its two short white lines angled toward each other shows clearly, the native beetle the asian-lady-beetles writer wanted to compare. The scale is metric: no photo with a ruler in inches was found.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1155."
+  },
+  {
+   "id": "black-carpet-beetle",
+   "forPages": [
+    "how-to-get-rid-of-carpet-beetles",
+    "carpet-beetle-rash",
+    "black-bed-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 369801950 of Attagenus unicolor (Black Carpet Beetle), Campbell County, Wyoming, 2026-05-02; 2 current identifications. Observer's note: 'Found indoors.' Annotated adult by the observer and male by another user.",
+   "caveats": "Small, shiny, dark brown oval beetle on a white paper towel; it fills only part of the frame, so use it at body width. No scale object. No allowed photo of the black carpet beetle larva was found (see gaps).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x801."
+  },
+  {
+   "id": "drugstore-beetle",
+   "forPages": [
+    "pantry-pests"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 33637223 of Stegobium paniceum (Drugstore Beetle), La Habra, CA 90631, USA, 2019-09-23; 4 current identifications (two to species, two at higher levels).",
+   "caveats": "Reddish-brown beetle seen from above and the side on a dark perforated surface, with a 1 mm scale bar printed in the lower left by the observer; the rows of lines on the wing covers show clearly. Pairs with cigarette-beetle on record. The source does not say where the beetle was found. Slightly under 1200 wide (original 1088x870).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1088x870."
+  },
+  {
+   "id": "red-widow",
+   "forPages": [
+    "spiders-in-florida",
+    "venomous-spiders",
+    "black-widow-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 220037947 of Latrodectus bishopi (Red Widow), Jonathan Dickinson State Park, Hobe Sound, FL, US, 2024-06-02; 9 current identifications; annotated female by another user.",
+   "caveats": "Sharp top view of the red legs and front body and the black abdomen with yellow-ringed red spots, but the spider is sitting on a person's finger: never imply that handling widow spiders is safe, and prefer another lead image on a page about venomous spiders. The same observation has a photo of the spider in its web on palm fronds (iNaturalist photo 389531205, CC0) if a habitat view is wanted later.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "southern-house-spider-male",
+   "forPages": [
+    "brown-recluse-look-alikes",
+    "house-spiders",
+    "spiders-in-texas",
+    "spiders-in-florida"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 107352227 of Kukulcania hibernalis (Southern House Spider), Medical District, Augusta, GA, USA, 2022-02-23; 2 current identifications. Observer's note: 'Found inside the building.' Annotated adult and male by the observer.",
+   "caveats": "Long-legged, tan male from above in a white container, showing the long palps: the recluse look-alike the brown-recluse-look-alikes and house-spiders writers asked for. CC BY, so it needs its visible credit and cannot be a lead/share image; the CC0 male photos found were tiny in the frame, blurred, or showed a brand name printed on a jar.",
+   "note": "Credit: (c) Celeste Ray, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1804."
+  },
+  {
+   "id": "southern-house-spider-female-web",
+   "forPages": [
+    "house-spiders",
+    "spiders-in-florida",
+    "spiders-in-texas"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 28653824 of Kukulcania hibernalis (Southern House Spider), Blairstone Forest, Tallahassee, FL 32301, USA, 2019-07-11; 2 current identifications; annotated female by the observer.",
+   "caveats": "Dark gray, velvety female on her tangled, woolly web over a rough surface, beside a large insect wrapped in silk; the source does not say what the insect is or that it is prey, so do not name it. Phone photo with heavy processing: use it at body width. Added because the house-spiders writer asked for the female at her web.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "potato-flea-beetle",
+   "forPages": [
+    "bugs-that-look-like-fleas",
+    "what-do-fleas-look-like"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 45285817 of Epitrix cucumeris (Potato Flea Beetle), Mayes County, Oklahoma, 2020-05-08; 2 current identifications. Observer's note: 'Size: 1.7 mm Epitrix cucumeris? It was on a garden tomato plant.'",
+   "caveats": "Shiny black flea beetle from above on a white surface; the thick hind legs are partly hidden. No leaf damage in the frame (see gaps for shot-hole photos). The 1.7 mm is the observer's own measurement, not a published size. Photographer Robert Webster (iNaturalist user xpda). CC BY-SA 4.0: needs its visible credit and cannot be a lead/share image.",
+   "note": "Credit: (c) Robert Webster, some rights reserved (CC BY-SA), via iNaturalist. Licence: CC-BY-SA-4.0. Size: 1190x1060."
+  },
+  {
+   "id": "norway-rat-burrows",
+   "forPages": [
+    "roof-rat-vs-norway-rat",
+    "rat-vs-mouse"
+   ],
+   "confidence": "medium",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 114324321 of Rattus norvegicus (Brown Rat), E Pine St & 10th Ave, Seattle, WA 98122, USA, 2022-05-01; 2 current identifications. Observer's only note: 'Burrows'; annotated construction by another user.",
+   "caveats": "Several burrow openings in mossy soil around the base of a street tree, a few feet from a building's concrete wall. No rat is in the photo: the species rests on two iNaturalist identifiers judging the burrows, so caption it as burrows identified on iNaturalist as Norway rat burrows, not as proof. No ruler or scale object. Large file (327 KB) because of the moss texture. Not a good share image (no animal).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "cockroach-eggs",
+   "why": "Partial. No public-domain or CC0 American cockroach egg case beside a coin or ruler was found: CDC PHIL has none (PHIL 5468, 1972, is an unnamed cockroach's egg case and its hi-res file is not at the usual address; PHIL 26941 is a brown cockroach, P. brunnea, carrying one); iNaturalist has only two research-grade P. americana observations annotated as eggs with an allowed licence (one from Brazil, CC BY; the other used here as american-cockroach-ootheca, no scale) and one more annotated as egg evidence (Ecuador, CC BY). Commons alternatives are CC BY-SA ('Periplaneta americana, Egg capsule - D8-10-3664Crop.JPG'; 'Periplaneta-americana-Eier.jpg', two egg cases from Brazil) or an 1896 drawing. Oriental cockroach: no loose egg case with a reliable identification (Commons 'Ooteques 316.JPG' rests on its uploader; 'Cockroach & Oothecae.jpg' is 288x211), so a female carrying one was added (oriental-cockroach-female-ootheca, CC BY, France)."
+  },
+  {
+   "slug": "wolf-spiders",
+   "why": "Filled except the lead-eligible eye close-up: no public-domain or CC0 photo of wolf spider eyes was found; wolf-spider-eyes is CC BY-SA. A web search of CDC PHIL found no wolf spider photograph."
+  },
+  {
+   "slug": "brown-recluse-bite",
+   "why": "Partial, by design. Added CDC PHIL 23317 (redness before necrosis, no timing given) and the Brazilian clinical figure recluse-bite-first-days (Loxosceles sp., 18 to 120 hours, mostly presumptive diagnoses). Not used: CDC PHIL 23314 and 23315 (open necrosis, very graphic); Commons 'BrownRecuse1.jpg' (CDC, a Brazilian patient 31 hours after a Loxosceles bite on the face: identifiable face); Commons 'Brown recluse spider bite Q-IMG 4936.jpg' (CC BY-SA 4.0, by the bitten person, '2 days after bite', with the spider photographed beside a dime in 'Brown recluse spider with dime IMG 4934.jpg'): documented by the person bitten, not by a clinical or government source, so it does not meet the rule; the owner may choose to allow it. No photo of a US brown recluse bite in its first days from a clinical or government source was found."
+  },
+  {
+   "slug": "brown-recluse-look-alikes",
+   "why": "Partial: eyes close-up (brown-recluse-eyes, CC0) and the male southern house spider (southern-house-spider-male, CC BY; no sharp CC0 one) added. No brown recluse identified by an arachnologist beside a ruler marked in inches was found; brown-recluse-female (CC0, collector and photographer named, no scale) and brown-recluse-penny (uploader's identification) are the closest."
+  },
+  {
+   "slug": "spiders-in-texas",
+   "why": "No gap: the next-50 note asks for a tarantula, but texas-brown-tarantula (Bandera County, TX) is already on record. Added yellow-garden-spider-with-egg-sac and wolf-spider-egg-sac-side (both taken in Texas), plus green lynx, Carolina wolf spider, southern house spider and the brown recluse photos."
+  },
+  {
+   "slug": "spiders-in-florida",
+   "why": "No gap: the spinybacked orb weaver asked for is already on record (spinybacked-orb-weaver, CC0, Florida) and was not duplicated. Added green-lynx-spider (Florida), red-widow (Florida), southern-house-spider-female-web (Tallahassee) and the male, plus the Carolina wolf spider."
+  },
+  {
+   "slug": "spiders-in-california",
+   "why": "Added johnson-jumping-spider (Sebastopol, CA), a common species the ledger lacked; western spotted orb weaver (Neoscona oaxacensis) CC0 photos exist on iNaturalist if a second one is wanted."
+  },
+  {
+   "slug": "roof-rat-vs-norway-rat",
+   "why": "Partial: Norway rat burrows added (norway-rat-burrows, CC0, identification from the burrows). No roof rat droppings photo with a reliable identification: the iNaturalist Rattus rattus records annotated as scat with allowed licences are droppings from New Zealand resting on one or two identifiers (one carries a dissenting Norway rat identification), a dead rat in Australia and an owl pellet in California. No side-by-side photo of the two species' droppings and no photo of roof rat fruit damage (the latter was not searched)."
+  },
+  {
+   "slug": "rat-droppings",
+   "why": "No new photo: same finding as roof-rat-vs-norway-rat for roof rat droppings. On record: rat-droppings-thumb, rat-droppings-table, rodent-droppings-drawer, mouse-droppings-ruler."
+  },
+  {
+   "slug": "pantry-pests",
+   "why": "Partial: drugstore-beetle added (CC0, 1 mm scale bar). Still no public-domain or CC0 photo of Indian meal moth webbing in food: iNaturalist's two research-grade 'construction' observations are CC BY (indian-meal-moth-silk on record comes from one of them), and Commons has no public-domain webbing photo (its USDA Plodia images show a larva and an adult on cereal, no webbing). Grain mites were not searched (not in this brief)."
+  },
+  {
+   "slug": "how-to-get-rid-of-carpet-beetles",
+   "why": "Partial: black-carpet-beetle adult added. No allowed photo of the black carpet beetle larva (Attagenus unicolor) was found; iNaturalist larva records under allowed licences are other Attagenus species (A. brunneus, A. pellio)."
+  },
+  {
+   "slug": "springtails",
+   "why": "Partial: springtail added (CC0, outdoors on a leaf, 1 mm scale bar). No photo of springtails indoors (sink, tub, potted plant) or beside a ruler in inches was found under an allowed licence with a good identification; a web search of CDC PHIL found none."
+  },
+  {
+   "slug": "bugs-that-look-like-fleas",
+   "why": "Partial: springtail and potato-flea-beetle added. No flea beetle beside shot-hole leaf damage under a licence the photo script accepts: the Bugwood shot-hole photos on Commons ('Phyllotreta cruciferae (02).jpg', '(03).jpg') are CC BY 3.0 US, a licence string the script does not map, so they were not used. The CC0 potato flea beetle photos found were 454 px wide or the beetle was a dot in the frame."
+  },
+  {
+   "slug": "what-do-fleas-look-like",
+   "why": "Dog flea added (dog-flea, matched with cat-flea). No other well-identified dog flea photo with an allowed licence was found (iNaturalist has three research-grade dog flea observations with allowed licences, all CC BY-SA, from Argentina and Mexico). Life-size flea on a sock and fleas in fur were not searched (not in this brief)."
+  },
+  {
+   "slug": "how-to-get-rid-of-stink-bugs",
+   "why": "Older nymph (brown-marmorated-stink-bug-nymph) and eggs with young nymphs added, both CC0. Rough stink bug (Brochymena), a homemade light trap and stink bugs on house siding were not searched (not in this brief)."
+  }
+ ]
+}
