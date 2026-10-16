@@ -34,6 +34,12 @@ with SendUserFile.
   (f7e31831). Brief for link-ins: data/god-build/LINK_IN_BRIEF.md.
 - Usage: weekly 75% at 09:40 UTC Oct 16 (resets Oct 20 06:00 UTC). Wave 2 cost ~10% for 13 pages
   (writer + checker ~0.75% per page, plus photo scout and link agents).
+- **SUPERSEDES the wave 3-4 list below (Oct 16 afternoon):** the owner set a goal of 50,000 Google
+  visitors a month by July 2027. Read data/god-build/path-to-50k.md (the program: 500 new US photo-ID
+  pages by Mar 15, 150-250 real links by April, 60 pages to the top 3, title/photo upgrades; middle
+  ~36K) and data/god-build/next-wave-research.md (the next 30 pages in build order, 18 winter + 12
+  for summer, and keep/replace/drop verdicts on waves 3-4). The Ahrefs key cap is now 200,000 units
+  (~37K used Oct 16; resets on the 26th).
 - **NEXT (needs the owner's go, or start after the Oct 20 reset):** next-50 waves 3 (13 pages) and 4
   (12 pages): millipedes, earwigs, drain flies, types of gnats, brown recluse, silverfish, dust mites,
   bird mites, black widow spiders, rat droppings, brown widow spiders, no-see-ums, mouse nest;
