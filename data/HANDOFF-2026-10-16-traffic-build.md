@@ -17,6 +17,45 @@ with SendUserFile.
 - Real data only (Search Console, GA4, Ahrefs). Do not pay for Ahrefs upgrades.
 - Mediavine is not approved/live yet: "We're still waiting for the AdSense code in the mail."
 
+## 1b. WHERE THINGS STAND (end of Oct 16, 09:45 UTC) - start here
+
+- **Live today: 62 new pages** = 37 tick pages + all 25 next-50 pages of build waves 1 and 2, in four
+  hand releases (5d3b024d 12 pages, 1c7fa33f 3, b6725e7a 8, 19bc56ee 2), each built with every guard
+  first and checked live (200 + title). diogo/main = 19bc56ee. Nothing is due or waiting in
+  content/guides-scheduled/ from waves 1-2; the 12:15 UTC Action will find nothing due today.
+- Regional pairs added: carpet beetles (71f79e0a), house centipedes (d64c56dc), stink bugs (c018b843).
+- 57 links from strong older pages to the new ones (288a827e: 32; d5f58512: 17; 678f51b2 + cf98a233:
+  8 cockroach-guide links). 79 photos added today (batch 4: 37, batch 5: 42; 289 on record).
+- 8 fact errors fixed on live pages (spider beetle size f7e31831, "wrong fifth" 2f41b5a5, winter
+  centipede line b14c4759, silverfish speed 0273b70d, stink bug shoulders e4e4a67d, flea jump
+  656b4f7d, recluse 3/8-inch credit 0daefec5, desert recluse venom c47944be).
+- Pipeline fixes: release job holds back a page no guide links to (69bcc49b, scripts/guide-links.mjs);
+  same-day release notes append (80b7209c); `us-pages-mark-checked.mjs amend` for edited live guides
+  (f7e31831). Brief for link-ins: data/god-build/LINK_IN_BRIEF.md.
+- Usage: weekly 75% at 09:40 UTC Oct 16 (resets Oct 20 06:00 UTC). Wave 2 cost ~10% for 13 pages
+  (writer + checker ~0.75% per page, plus photo scout and link agents).
+- **NEXT (needs the owner's go, or start after the Oct 20 reset):** next-50 waves 3 (13 pages) and 4
+  (12 pages): millipedes, earwigs, drain flies, types of gnats, brown recluse, silverfish, dust mites,
+  bird mites, black widow spiders, rat droppings, brown widow spiders, no-see-ums, mouse nest;
+  springtails, daddy long legs, boxelder bugs, mites, camel crickets, clothes moths, cluster flies,
+  bat bugs, hobo spiders, yellow sac spiders, cockroach droppings, booklice. Steps: add their slugs to
+  release-overrides.json (releaseOn = the day you start), `node scripts/god-build-plan.mjs` +
+  `node scripts/us-pages-plan.mjs`, photo scout for gaps first (photo-notes-batch5.json "gaps"), then
+  writers (WRITER_BRIEF_PHOTO_ID.md; tell each writer which live siblings to agree with and link, and
+  make sure some live guide links each new page), checkers (CHECKER_BRIEF.md + the writer's flags),
+  commit page + record, hand release from the scratchpad ci-repro clone (section "Oct 16 07:18 UTC" in
+  the log), link-in agent (LINK_IN_BRIEF.md), live check.
+- **Open follow-ups (small):** venomous-spiders Texas row lacks the northern black widow (needs Texas
+  A&M E-408 as a new source); texasinsects.tamu.edu retired, 3 pages cite it (do-ants-bite.json,
+  mosquito-hawk-explained, what-temperature-kills-mosquitoes); flea-bites-on-humans unsourced claims
+  (96% vacuuming, 60°C, 2-8 weeks) and its recluse timeline vs what-does-a-spider-bite-look-like (owner's
+  call on trimming); photo gaps listed in the wave reports (spitting spider, noble false widow, brown
+  recluse egg sac, nursery web spider, mantid egg case, MRSA abscess PD/CC0, regal jumper,
+  pantropical huntsman, American cockroach ootheca with scale, roof rat droppings).
+- **Measure Oct 29-30:** the 21 Oct 16 photo upgrades + 9 Oct 15 upgrades (titles/CTR), the 25 photo-ID
+  pages and 37 tick pages (indexing, impressions), via GSC (owner must re-auth the API first, or read
+  GSC in his Chrome). Spiders-by-state pilot verdict Jan 15-31.
+
 ## 2. State on Oct 16, 2026
 
 | Item | State |
@@ -199,6 +238,79 @@ with SendUserFile.
   link from ~18 strong existing articles to the 12 new pages, incl. the stink bug "rather than at
   their own page" sentence and asian-lady-beetles' carpet beetle link -> US page. Review its diff
   (affiliate loop, removed lines), build, commit, push.
+- 07:42 UTC pushed: 32 links from 17 strong articles + 3 guide JSONs to the 12 new pages (288a827e;
+  build verified; affiliate tokens unchanged; asian-lady-beetles now links the US carpet beetle
+  page); "the wrong fifth" -> "the wrong 5%" on best-flea-spray-for-home-canada (2f41b5a5). Note:
+  data/us-pages/checked/existing__* records for bed-bug-bites, what-does-mouse-poop-look-like-canada
+  and how-to-get-rid-of-mice-canada no longer match their (link-edited) files; nothing in the build
+  or release reads them (only `us-pages-mark-checked.mjs status`). The stink bug TSX page's code
+  comment (lines 19-22) still says lady beetles have no page of their own (not shown on the site).
+- At house-centipedes' release: REGIONAL_PAIRS { us: '/blog/house-centipedes', ca:
+  '/blog/how-to-get-rid-of-centipedes-canada' } + `node scripts/us-pages-regional.mjs` (as 71f79e0a).
+  It uses the scout's new photo house-centipede-on-wall: commit photo batch 5 BEFORE the page.
+- Wave 2 checked so far: what-do-fleas-look-like (116/2/4, 581a461c), how-to-get-rid-of-fleas
+  (195/7/2, disclaimer both, 9fa1a624) pushed; house-centipedes (208/7/4) checked but NOT committed
+  until photo batch 5 is (it uses house-centipede-on-wall; house-spiders and stink bugs also use
+  new photos). Never push a page whose figure is not in the pushed photos.json: the release build
+  would fail.
+- ~08:00 UTC: photo batch 5 committed (9f246064: 42 photos, 289 on record; caption limits in
+  photo-notes-batch5.json; gaps: Indian meal moth webbing PD/CC0, roof rat droppings, American
+  cockroach ootheca with scale). house-centipedes committed (eec7b084). Fixes committed: winter
+  roundup centipede line softened + amended (b14c4759); Canadian centipede page silverfish "run
+  quickly" (0273b70d). Writers launched: brown-recluse-bite, wolf-spiders, spider-egg-sacs,
+  palmetto-bugs. Still to launch: cockroach-eggs, spiders-in-florida, -texas, -california.
+  Second release of the day being built in ci-repro: what-do-fleas-look-like,
+  how-to-get-rid-of-fleas, house-centipedes + the centipede regional pair (lib/guides.ts +
+  us-pages-regional.mjs on the Canadian page) in the same build.
+- 08:02 UTC RELEASE 2 pushed + verified live (1c7fa33f + pairing d64c56dc): what-do-fleas-look-like,
+  how-to-get-rid-of-fleas, house-centipedes (paired with the Canadian page, hreflang live). Checked
+  + pushed, waiting for the next release: house-spiders (390/10/7, e0d70d66), how-to-get-rid-of-
+  stink-bugs (160/7/3, b6586198). Local, not pushed: e4e4a67d (Canadian stink bug page: toothed
+  shoulders belong to the rough stink bug). At the stink bug release: REGIONAL_PAIRS { us:
+  '/blog/how-to-get-rid-of-stink-bugs', ca: '/blog/how-to-get-rid-of-stink-bugs-canada' } +
+  us-pages-regional.mjs, in the clone after the release step (as d64c56dc). Writers running (08:05):
+  brown-recluse-bite, wolf-spiders, spider-egg-sacs, palmetto-bugs, cockroach-eggs,
+  spiders-in-florida. To launch: spiders-in-texas, spiders-in-california. palmetto-bugs and
+  cockroach-eggs need an inbound link from a live page (each other + /learn/cockroaches pillar or
+  bugs-that-look-like-cockroaches) or the release holds them back.
+- 09:06 UTC RELEASE 3 pushed (b6725e7a + stink bug pairing c018b843): brown-recluse-bite (300/7/4),
+  wolf-spiders (340/6/8), how-to-get-rid-of-stink-bugs (160/7/3), house-spiders (390/10/7),
+  spiders-in-florida (324/7/4; iNaturalist chart re-pulled by the checker), spider-egg-sacs
+  (352/11/6), palmetto-bugs (320/10/5), cockroach-eggs (284/14/9). Same push: fixes e4e4a67d (stink
+  bug shoulders), 656b4f7d (flea jump), 0daefec5 (recluse look-alikes credits UC IPM's 3/8 inch),
+  /learn/cockroaches + 5 cockroach guides link palmetto-bugs and cockroach-eggs (678f51b2, cf98a233).
+  Link-in round 2 agent running (scratchpad link-in-oct16b.md): ~20 links from strong pages to the 11
+  wave-2 pages. Writers still running: spiders-in-texas, spiders-in-california (then checkers,
+  release 4). WAVE 2 = 13 pages; 11 live after release 3.
+- Flagged by the spiders-in-texas writer (open): live venomous-spiders.json's Texas row omits the
+  northern black widow (Texas A&M E-408 lists it; 166 research-grade iNaturalist Texas records).
+  texasinsects.tamu.edu (Texas A&M's Field Guide to Common Texas Insects) now redirects every page to
+  the Extension Entomology home page: 3 live pages still cite it (content/guides/do-ants-bite.json,
+  app/blog/mosquito-hawk-explained/page.tsx, app/blog/what-temperature-kills-mosquitoes/page.tsx):
+  replace with a current source (guide JSON: validate + amend; TSX: affiliate loop).
+  Flagged by the spiders-in-california writer: live venomous-spiders.json says California's native
+  recluses are "not as dangerous" as the brown recluse (older undated UC Riverside Myth page); UC IPM's
+  2018 Pest Note says treat desert recluse venom as equally potent but a minor concern. Fix both
+  venomous-spiders items together after the TX and CA checks (validate + amend).
+- To check after brown-recluse-bite is fact-checked: live /blog/what-does-a-spider-bite-look-like
+  has its own unsourced recluse timeline (e.g. a dark scab at days 3 to 7); the checked page uses
+  Illinois DPH / Mayo / MedlinePlus (scab sloughs off after about 2 to 5 weeks). Align the live
+  page's numbers with sourced ones (TSX, affiliate loop; no trimming).
+- Also committed locally, not yet pushed (go with the next release build): 656b4f7d flea jump height
+  on flea-bites-on-humans (15-18 cm / 6-7 in, Kentucky + Ohio State).
+- To fix (from the house-centipedes checker): Canadian /blog/how-to-get-rid-of-centipedes-canada
+  calls silverfish "slow-wiggling rather than sprinting" (text + caption); Missouri says they "run
+  quickly": fix it in the same commit as the centipede regional pairing. Live
+  /blog/bugs-in-house-in-winter says house centipedes "live in the house all year rather than
+  moving in for the winter" vs Missouri's "especially in winter, when they move indoors": soften
+  (guide JSON: validate + `amend`).
+- To fix (flagged by the what-do-fleas-look-like writer): live /blog/flea-bites-on-humans gives a cat
+  flea's vertical jump as 20 cm (8 in); Kentucky says about 6 inches, Ohio State 7. Verify and fix
+  after the link-in agent's edit to that file is committed (TSX page: affiliate loop applies).
+  Same page, "How do you get rid of fleas at home?" section: claims the fleas how-to writer could
+  not source ("vacuuming kills 96% of adult fleas" - probably the 2008 Ohio State study, find it;
+  "60°C (140°F)" washing; "2 to 8 weeks"). Source or soften; do NOT trim the section (it holds
+  Amazon BuyLinks; next-50's "trim to a summary" is the owner's call).
 - what-does-a-spider-bite-look-like: next-50 said "trim to a summary that links here"; NOT trimmed
   (owner's rule: never remove content he did not ask to remove; it is a 43K-impression page). Links
   added instead. Trimming is the owner's call.
