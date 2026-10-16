@@ -1,0 +1,10 @@
+{
+ "id": "tiny-black-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "7d1d7ae7c3b26971fe382236942d7477652f3570c6f5f3f5ddbcf8f5cc9f95dc",
+ "claimsChecked": 241,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-16"
+}

@@ -1,0 +1,192 @@
+{
+  "slug": "tiny-black-bugs",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "tiny black bugs in house",
+  "alsoTargets": [
+    "tiny black bugs",
+    "little black bugs in house",
+    "tiny black bugs that bite",
+    "tiny black bugs that jump",
+    "tiny black bugs in bathroom",
+    "tiny black bugs in bed"
+  ],
+  "metaTitle": "Tiny Black Bugs in the House? ID Them (Photos)",
+  "metaDescription": "Tiny black bugs indoors are usually small beetles, ants, fleas, springtails or small flies. Sort yours by where you found it, with photos and sizes.",
+  "h1": "Tiny Black Bugs in the House: What They Are, by Where You Found Them",
+  "dek": "Where you found it, and whether it crawls, jumps or flies, narrows a tiny black bug to a few suspects. Photos, sizes in inches and the features that tell each apart, from university extension guides.",
+  "breadcrumb": "Tiny Black Bugs in the House",
+  "excerpt": "Carpet beetle, pantry beetle, ant, flea, springtail or small fly? Sort a tiny black bug by where you found it, with photos and sizes.",
+  "datePublished": "2026-10-16",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Tiny black bugs in a house are usually small beetles, ants, fleas, springtails or small flies, and two clues sort them: where you found the bug, and whether it crawls, jumps or flies.** A round beetle on a windowsill is likely a carpet beetle, which [UC IPM](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) says is drawn to sunlight. A jumper is probably a flea or a springtail, and a tiny fly points to a drain, a houseplant or food.",
+    "bullets": [
+      "UC IPM gives adult carpet beetles as about 1/10 to 1/8 inch with round bodies; the black carpet beetle, 1/8 to 3/16 inch, is shiny black and dark brown.",
+      "The University of Kentucky lists rice weevils at 1/8 to 1/4 inch, reddish brown to black, with a snout, and flour beetles at about 1/8 inch.",
+      "UC IPM says adult fleas are wingless, flattened from side to side and no longer than 1/8 inch.",
+      "Penn State Extension says most household springtails are 1/25 to 1/12 inch (1 to 2 mm) long, and Colorado State says they jump with a forked appendage folded under the body.",
+      "Texas A&M AgriLife Extension puts fungus gnats at 1/16 to 1/8 inch, phorid flies at about 1/8 inch and drain flies at 1/16 to 1/5 inch.",
+      "Colorado State University Extension describes spider beetles as about 1/12 to 1/6 inch (2 to 4 mm), with a round body on thin legs."
+    ]
+  },
+  "facts": {
+    "title": "Tiny black bugs at a glance",
+    "rows": [
+      ["Carpet beetle (adult)", "About 1/10 to 3/16 inch; round body, short antennae; shiny black, or black with white, brown and yellowish scales; often on windowsills"],
+      ["Flour beetle", "About 1/8 inch; flat, oval, shiny reddish brown; in flour, cereal and other processed grain foods"],
+      ["Rice weevil", "1/8 to 1/4 inch; reddish brown to black; a snout in front of the head; develops inside whole grains"],
+      ["Spider beetle", "About 1/12 to 1/6 inch; round body on thin legs, head hidden from above; stored food, damp basements"],
+      ["Ant", "A pinched waist and elbowed antennae; walks in trails to food"],
+      ["Flea", "No longer than 1/8 inch; wingless, flattened from side to side, jumps; where pets sleep"],
+      ["Springtail", "1/25 to 1/12 inch; jumps with a forked appendage; tubs, sinks, drains, houseplant soil"],
+      ["Drain fly", "1/16 to 1/5 inch; fuzzy and moth-like, wings held flat or roof-like; sink and floor drains"],
+      ["Phorid fly", "About 1/8 inch; humped back; runs and stops before it flies; drains, garbage"],
+      ["Fungus gnat", "1/16 to 1/8 inch; dark, delicate and long-legged; near potted plants"],
+      ["Clover mite", "About 1/32 inch; red or greenish, not black; sunny windowsills"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What are the tiny black bugs in my house?" },
+    { "type": "p", "text": "A tiny black bug indoors is usually a small beetle (a carpet beetle, a pantry beetle or weevil, or a spider beetle), an ant, a flea, a springtail or a small fly (a fungus gnat, drain fly or phorid fly), and where you found it narrows the list fast. Many are not truly black: under a magnifier, fleas, flour beetles and most spider beetles are reddish brown." },
+    { "type": "figure", "src": "/guides/photos/carpet-beetle.webp", "width": 1200, "height": 1027, "alt": "Close-up of a small, round varied carpet beetle, black with patches of white and orange-brown scales, beside a 1 mm scale bar", "caption": "Varied carpet beetle (Anthrenus verbasci) beside a scale bar of 1 mm, about 1/25 inch: a round black beetle with a patchy pattern of white, brown and yellowish scales.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/10606651" },
+    { "type": "p", "text": "Carpet beetles come first because the adults are tiny, round, often dark and easy to spot. [UC IPM's carpet beetle guide](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) puts adults at about 1/10 to 1/8 inch, with round bodies and short antennae, and says that indoors they are usually seen near windows, on sills, drapes or panes, because they are attracted to sunlight." },
+    { "type": "p", "text": "The black carpet beetle is dark all over: shiny black and dark brown with brownish legs, 1/8 to 3/16 inch long. The varied carpet beetle in the photo is black with an irregular pattern of white, brown and dark yellow scales, which wear off older adults until they look solid brown or black." },
+    { "type": "media", "needed": "Top-down photo of an adult black carpet beetle (Attagenus), shiny black with brownish legs, beside a ruler marked in inches, so readers can see the solid black species next to the patterned varied carpet beetle" },
+
+    { "type": "h2", "text": "How do you tell which tiny black bug you have?" },
+    { "type": "p", "text": "Catch one in a clear jar or press it onto clear tape, then work through the checks below. A magnifying glass helps: many of these insects are 1/8 inch long or less." },
+    { "type": "checklist", "title": "Checks to run with the bug in a jar", "items": [
+      "**Does it fly?** It is a small fly or a beetle that flies to light. Drain flies are fuzzy, phorid flies humpbacked, fungus gnats delicate and long-legged.",
+      "**Does it jump?** Of the bugs here, only fleas and springtails jump. Springtails stay near damp spots; fleas turn up where pets rest.",
+      "**Does it have a hard shell?** It is a beetle. A snout means a weevil; otherwise, a flat oval body suggests a flour beetle; a round body with short antennae, a carpet beetle; a round body on thin legs with the head hidden from above, a spider beetle.",
+      "**Pinched waist, elbowed antennae, walking in a line?** It is an ant.",
+      "**How big is it?** Lay it beside a ruler marked in inches. Most of the adult insects here are 1/16 to 1/4 inch long; springtails, no-see-ums and clover mites can be smaller.",
+      "**What color is it up close?** Reddish brown suggests a flea, a flour beetle, a spider beetle or a bed bug; shiny black with brownish legs fits a black carpet beetle.",
+      "**Where was it?** Find that place in the table below."
+    ] },
+    { "type": "table", "head": ["Where you found it", "If it crawls", "If it flies", "If it jumps"], "rows": [
+      ["Kitchen or pantry", "Flour beetles, weevils, spider beetles, ants", "Cigarette, drugstore or confused flour beetles; phorid flies", "Springtails at the sink"],
+      ["Bathroom or drain", "Springtails between jumps", "Drain flies, phorid flies", "Springtails"],
+      ["Bed, rug or pet bedding", "Carpet beetles and their fuzzy larvae; bed bugs, which are brown", "No-see-ums at dusk, if they get through the screens", "Fleas"],
+      ["Windowsill", "Carpet beetles; clover mites, which are red or greenish", "Fungus gnats, carpet beetles, pantry beetles drawn to light", "Springtails, which can get in around windows"],
+      ["Houseplant soil", "Springtails, often right after watering", "Fungus gnats, phorid flies", "Springtails"]
+    ], "caption": "Compiled from the university extension and EPA sources linked in the sections below." },
+
+    { "type": "h2", "text": "What are the tiny black bugs in the kitchen or pantry?" },
+    { "type": "p", "text": "Small dark beetles in or near stored food are usually flour beetles, weevils, cigarette or drugstore beetles, or spider beetles; a line of tiny black insects walking to a crumb is usually ants. The [University of Kentucky's pantry pest fact sheet](https://entomology.mgcafe.uky.edu/ef612) groups flour beetles, cigarette and drugstore beetles and sawtoothed grain beetles together as red-brown insects about 1/8 inch long, so go by shape, not color. [The pantry pest guide](/blog/pantry-pests) goes food by food." },
+    { "type": "h3", "text": "Flour beetles" },
+    { "type": "figure", "src": "/guides/photos/confused-flour-beetles.webp", "width": 1200, "height": 817, "alt": "Two dark reddish-brown confused flour beetles and three pale, segmented larvae seen from above on a light background", "caption": "Confused flour beetles (Tribolium confusum), two adults and three larvae, seen from above. Flour beetles are flat, oval and reddish brown, about 1/8 inch long.", "credit": "CDC/ Margaret A. Parsons (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28852" },
+    { "type": "p", "text": "Flour beetles are flat, oval and shiny reddish brown, according to [UC IPM's pantry pest guide](https://ipm.ucanr.edu/home-and-landscape/pantry-pests/), which lists cereals, grain products, shelled nuts, dried fruit and chocolate among their foods. Kentucky adds that they cannot attack whole, undamaged grain. The two common species act differently: confused flour beetles fly and are attracted to lights, while red flour beetles crawl toward light but apparently do not fly." },
+    { "type": "h3", "text": "Weevils" },
+    { "type": "figure", "src": "/guides/photos/rice-weevil.webp", "width": 785, "height": 785, "alt": "Reddish-brown rice weevil with a long, narrow snout and a pitted back, resting on skin", "caption": "Rice weevil (Sitophilus oryzae). The snout sticking out in front of the head is the mark of a weevil.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/200334640" },
+    { "type": "p", "text": "A weevil is the easy one to name, because it has a snout. Kentucky describes rice weevils as snout beetles 1/8 to 1/4 inch long, reddish brown to black, whose larvae develop inside whole kernels of wheat, corn and other grains. Adults can live 6 to 8 months and may be found some distance from the food they came from." },
+    { "type": "h3", "text": "Cigarette and drugstore beetles" },
+    { "type": "p", "text": "UC IPM describes both as about 1/8 inch long and uniformly light brown, with smooth wing covers on the cigarette beetle and lengthwise grooves on the drugstore beetle. [Colorado State University Extension's spider beetle fact sheet](https://wci.extension.colostate.edu/wp-content/uploads/sites/14/2017/03/SpiderBeetlesJan42010.pdf) notes that both carry the head turned down under a somewhat humped body and fly well and can be strongly attracted to lights. Kentucky says cigarette beetles turn up most often in dry dog food and paprika." },
+    { "type": "h3", "text": "Spider beetles" },
+    { "type": "figure", "src": "/guides/photos/spider-beetle.webp", "width": 1200, "height": 941, "alt": "Top view of a spider beetle with a round, glossy reddish-brown body, long thin legs and long antennae on a white background", "caption": "Spider beetle (Gibbium psylloides): a round, glossy body on thin legs, the shape that gives spider beetles their name.", "credit": "Udo Schmidt from Deutschland, CC BY-SA 2.0, via Wikimedia Commons", "license": "CC-BY-SA-2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gibbium_psylloides_(Czenpinski,_1778)_(28038744750).png" },
+    { "type": "p", "text": "Spider beetles can pass for tiny spiders, hence the name. Colorado State describes adults as about 1/12 to 1/6 inch (2 to 4 mm) long, mostly brown to reddish brown, with thin legs and antennae, a globular abdomen and the head turned down so it is hidden from above. They scavenge seeds, grain debris, dried fruit and dead insects, and because most need fairly high humidity, in Colorado they are typically found in damp basements and crawl spaces." },
+    { "type": "h3", "text": "Ants" },
+    { "type": "p", "text": "A pinched waist and elbowed antennae mean an ant, not a beetle. [UC IPM's ant guide](https://ipm.ucanr.edu/home-and-landscape/ants/) uses those two features to tell ants from termites and describes trails running from nests to food; it lists the odorous house ant at 1/8 inch, dark brown to shiny black, and the pavement ant at 3/16 inch, dark brown to black. [The key to tiny house ants](/blog/tiny-ants) separates the small species by color, size and smell." },
+    { "type": "h3", "text": "Fruit flies" },
+    { "type": "p", "text": "Tiny flies hovering over fruit are a different problem: [Texas A&M AgriLife Extension](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control) describes fruit flies as about 1/8 inch long with usually reddish eyes, and [the fruit fly guide](/blog/how-to-get-rid-of-fruit-flies) covers them." },
+
+    { "type": "h2", "text": "What are the tiny black bugs in the bathroom?" },
+    { "type": "p", "text": "Tiny bugs in a bathroom are usually drain flies, phorid flies or springtails, drawn by water or by the film inside drains. The flies breed in the drains; springtails gather where water collects, around tubs, sinks and drains, and jump when disturbed." },
+    { "type": "h3", "text": "Drain flies" },
+    { "type": "figure", "src": "/guides/photos/drain-fly.webp", "width": 1200, "height": 1201, "alt": "Fuzzy grayish-brown drain fly resting on a white wall with its broad, hairy wings spread flat", "caption": "Drain fly (Clogmia albipunctata), also called a moth fly: fuzzy, with broad, hairy wings held flat at rest.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/186065028" },
+    { "type": "p", "text": "A drain fly looks like a tiny fuzzy moth. [Texas A&M's guide to indoor flies](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control) describes adults as 1/16 to 1/5 inch long, grayish and densely hairy, holding their broad wings flat or like a roof over the body at rest and usually flying only a few feet at a time. They breed in the thin microbial film inside floor and sink drains and in the condensate pans of air conditioners and refrigerators." },
+    { "type": "h3", "text": "Phorid flies" },
+    { "type": "figure", "src": "/guides/photos/phorid-fly.webp", "width": 1036, "height": 917, "alt": "Side view of a small tan phorid fly with a humped back and clear wings, standing on fruit beside a 1 mm scale bar", "caption": "Phorid fly (Megaselia scalaris) beside a scale bar of 1 mm, about 1/25 inch. Look for the humped back.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/19007477" },
+    { "type": "p", "text": "A phorid fly is about 1/8 inch long, tan to dark brown or black, with a humped back, and Texas A&M notes that it often runs and stops repeatedly before taking off, hence its other name, scuttle fly. The larvae live in moist, decaying material such as garbage, drains, broken garbage disposals and wet potting soil. A few indoors is not unusual; large numbers usually point to unsanitary conditions, and soil contaminated by a leaking sewer line can breed them under a building." },
+    { "type": "h3", "text": "Springtails" },
+    { "type": "media", "needed": "Top-down macro photo of a dark gray or black springtail on a white bathroom surface beside a ruler marked in inches, ideally with a second side view showing the forked jumping appendage folded under the body" },
+    { "type": "p", "text": "Springtails are the jumpers of the bathroom. [Colorado State University Extension's springtail fact sheet](https://extension.colostate.edu/resource/springtails/) describes them as pinhead-sized and mostly gray or purplish, with a fork-like structure at the hind end that folds under the body and pushes the springtail into a short jump when released. [Penn State Extension's springtail page](https://extension.psu.edu/springtails) says household species are mostly 1/25 to 1/12 inch (1 to 2 mm) long, in colors from white to black, and that indoor problems are most common in bathrooms and basements." },
+    { "type": "p", "text": "They feed on mold, mildew, fungi and decaying plant matter. Colorado State says they cannot bite, do not feed on household items or cause significant damage, and soon die once trapped indoors; their migrations usually last less than a week." },
+
+    { "type": "h2", "text": "What are the tiny black bugs in my bed or carpet?" },
+    { "type": "p", "text": "In a bed, a rug or a pet's bedding, the usual tiny dark bugs are carpet beetles and, in homes with pets, fleas. Bed bugs are the common fear, but they are brown, not black." },
+    { "type": "h3", "text": "Carpet beetles and their larvae" },
+    { "type": "p", "text": "The adults feed on pollen and nectar; the larvae eat fabric. UC IPM describes the larvae as slightly longer than the adults and like fuzzy or hairy maggots; black carpet beetle larvae reach 5/16 inch and range from light brown to almost black. They feed on wool, silk, leather, fur, hair, feathers and pet hair, not synthetic fibers, in dark, undisturbed places, and UC IPM notes that some mattresses and pillows are stuffed with hair or feathers." },
+    { "type": "h3", "text": "Fleas" },
+    { "type": "figure", "src": "/guides/photos/cat-flea-scale-bar.webp", "width": 1200, "height": 1215, "alt": "Magnified side view of an amber, see-through cat flea with bristly legs, shown under a 3 mm scale bar", "caption": "Cat flea (Ctenocephalides felis), side view, with a scale bar of 3 mm, about 1/8 inch. Adult fleas are wingless and no longer than about 1/8 inch.", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25575" },
+    { "type": "p", "text": "Fleas jump, and they gather where pets sleep. [UC IPM's flea guide](https://ipm.ucanr.edu/home-and-landscape/fleas/) describes adults as reddish brown and wingless, no longer than 1/8 inch, and so flattened from side to side that they seem to walk on their edges. It calls the cat flea the most common external parasite of pet cats and dogs and says flea numbers are highest where pets regularly sleep." },
+    { "type": "p", "text": "UC IPM's check: walk through the pets' resting areas in white socks pulled up to the knee, and any fleas there will jump onto the socks, where they are easy to see." },
+    { "type": "h3", "text": "Bed bugs and tick look-alikes" },
+    { "type": "p", "text": "A bed bug is not black. [The EPA's bed bug identification page](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle) describes an unfed adult as about the size of an apple seed, 3/16 to 1/4 inch, brown and flat with an oval body, turning reddish brown and swollen after feeding; young ones are translucent or whitish yellow. [Why bed bugs can look black](/blog/black-bed-bugs) has its own guide, and [a side-by-side guide to bugs that look like bed bugs](/blog/bugs-that-look-like-bed-bugs) covers carpet beetles, spider beetles, fleas and others." },
+    { "type": "p", "text": "A small, dark, roundish bug on bedding or a pet can also pass for a tick; [the guide to bugs that look like ticks](/blog/bugs-that-look-like-ticks) sets spider beetles, carpet beetles, weevils, bed bugs and booklice against real ticks." },
+
+    { "type": "h2", "text": "What are the tiny black bugs on windowsills?" },
+    { "type": "p", "text": "Small round beetles on a windowsill are often adult carpet beetles, which UC IPM says are attracted to sunlight and frequently fly in from flowers outdoors or arrive on cut flowers. Larvae are the better sign of a problem: indoors the beetles lay eggs on or near wool rugs, woolens and furs, so larvae in a closet or under furniture mean they are breeding inside." },
+    { "type": "p", "text": "Other window bugs start elsewhere in the house. UC IPM says fungus gnats are attracted to light, so they may first be noticed at windows, and Kentucky says cigarette, drugstore and confused flour beetles fly to lights, which can bring a pantry problem to the sill." },
+    { "type": "p", "text": "Specks on a sunny sill that are red or greenish rather than black may be clover mites. [Penn State Extension's clover mite page](https://extension.psu.edu/clover-mites) puts adults at about 1/32 inch (0.75 mm), says they are often found on windowsills on the sunny side of a house and are the biggest nuisance in spring, and states that they do not attack people or reproduce indoors. [A guide to tiny red bugs and clover mites](/blog/red-ticks-and-clover-mites) covers them." },
+
+    { "type": "h2", "text": "What are the tiny black flies around houseplants?" },
+    { "type": "p", "text": "Tiny dark flies around potted plants are usually fungus gnats, which breed in moist potting mix. [UC IPM's fungus gnat guide](https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/) describes the adults as dark, delicate-looking flies about 1/16 to 1/8 inch long that resemble small mosquitoes, with slender legs and antennae longer than the head. They are weak fliers that tend to stay near the plants, and the adults do not bite people or damage plants." },
+    { "type": "figure", "src": "/guides/photos/fungus-gnat.webp", "width": 1200, "height": 900, "alt": "Dark fungus gnat with long antennae, long thin legs and clear wings, standing on a piece of wood", "caption": "Dark-winged fungus gnat (family Sciaridae): a dark, delicate fly with long legs, built much like a small mosquito.", "credit": "Katja Schulz from Washington, D. C., USA, CC BY 2.0, via Wikimedia Commons", "license": "CC-BY-2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dark-winged_Fungus_Gnat_(28778903446).jpg" },
+    { "type": "p", "text": "In the pot, look for the larvae: UC IPM describes them as legless, with a shiny black head and a whitish to clear body. Texas A&M says fungus gnat infestations are most common in winter. Two other tiny bugs can come out of potting soil: springtails, which Colorado State says occasionally develop in houseplant soil and are often seen just after watering, and phorid flies, whose larvae can live in wet potting soil. [The fungus gnat control plan](/learn/how-to-get-rid-of-fungus-gnats) starts with letting the soil dry between waterings." },
+
+    { "type": "h2", "text": "Which tiny black bugs jump, and which ones bite?" },
+    { "type": "p", "text": "Of the bugs on this page, fleas and springtails are the jumpers, and of those two only fleas bite. A flea is flattened from side to side and turns up where pets rest, while a springtail stays near moisture and, according to Colorado State, cannot bite. [The guide to bugs that look like fleas](/blog/bugs-that-look-like-fleas) compares the two." },
+    { "type": "p", "text": "Fleas feed on blood. [The CDC's flea page](https://www.cdc.gov/fleas/about/index.html) says they prefer animal hosts but will bite people when animals are unavailable, and that the bites can cause discomfort, itchiness and irritation. UC IPM describes a flea bite as a small red spot with a red halo, usually without much swelling." },
+    { "type": "p", "text": "Two other tiny biters are worth ruling out. Bed bugs bite, but they are brown. No-see-ums, or biting midges, are tiny flies that come in from outdoors: [Montana State University Extension](https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201205ag_biology_and_impact_of_biting_midges_in_mt.pdf) gives adults as about 1/25 to 1/10 inch (1 to 2.5 mm), small enough to fly through window screens, with females most active at dusk and dawn. Their bites can cause stinging or burning and are often mistaken for mosquito bites; [the guide to no-see-um bites](/blog/no-see-um-bites) shows what they look like." },
+    { "type": "p", "text": "UC IPM says adult fungus gnats do not bite people, and Penn State says clover mites do not attack people. Carpet beetles are a special case: [Penn State Extension's page on carpet beetle dermatitis](https://extension.psu.edu/carpet-beetle-dermatitis) describes people who felt they were being bitten when the itchy rash was an allergic reaction to the hairs of carpet beetle larvae, which it says apparently develops only in people exposed to the hairs for years. [The carpet beetle rash guide](/blog/carpet-beetle-rash) explains more. Since marks on the skin are a poor guide to the culprit, catch the insect if you can. Contact a healthcare provider about any bite or rash that worries you." },
+
+    { "type": "h2", "text": "What should you do once you know what it is?" },
+    { "type": "p", "text": "Take away what the bug lives on: for most of these insects, the extension sources favor removing the source over spraying." },
+    { "type": "ul", "items": [
+      "**Pantry beetles and weevils.** Throw out infested food, wash the shelves and store dry goods in containers with tight lids, since plastic bags are not adequate; UC IPM does not recommend insecticides for any pantry pest.",
+      "**Carpet beetles.** Vacuum thoroughly, launder or dry-clean infested washables and clear out lint and pet hair; UC IPM says insecticides are often unnecessary once the food is gone. See [how to get rid of carpet beetles](/blog/how-to-get-rid-of-carpet-beetles).",
+      "**Fleas.** Vacuum and launder where your pet rests, and ask a veterinarian which flea product suits the animal, as UC IPM advises; [the flea control plan](/blog/how-to-get-rid-of-fleas) goes step by step.",
+      "**Drain and phorid flies.** Clean out the wet, decaying source. Texas A&M says to scrub drain pipes and traps with a stiff brush, since bleach and drain cleaner do little against the film, and that insecticides alone rarely solve an indoor fly problem. See [how to clear drain flies](/blog/how-to-get-rid-of-drain-flies).",
+      "**Springtails.** Dry things out: Colorado State suggests fixing leaks, ventilating bathrooms, running a dehumidifier and avoiding indoor insecticides where possible. [The springtail guide](/blog/springtails) has more.",
+      "**Fungus gnats.** Let the surface of the potting mix dry between waterings and trap adults on yellow sticky cards, as UC IPM advises.",
+      "**Ants.** Use baits rather than sprays, clean up crumbs and spills and caulk entry points, as UC IPM recommends; [the kitchen ant guide](/blog/how-to-get-rid-of-ants-in-the-kitchen) covers baits."
+    ] },
+    { "type": "p", "text": "If the bugs showed up as the weather turned cold, [the guide to bugs that come indoors in winter](/blog/bugs-in-house-in-winter) covers the seasonal invaders." },
+    { "type": "callout", "tone": "tip", "title": "Save a specimen", "text": "Seal the bug in a small jar or press it onto clear tape, photograph it beside a ruler marked in inches, and note where you found it. Your state's cooperative extension office or a pest professional can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Why did tiny black bugs appear in my house all of a sudden?",
+      "answer": "A sudden crowd usually has a nearby source or follows the weather. Penn State Extension says springtail problems tend to come with long droughts or soaking rains, and Colorado State says their migrations usually last less than a week. UC IPM says carpet beetles often fly in from flowers or arrive on cut flowers, and that fleas can wait in their cocoons for up to 12 months in cool conditions, then emerge when warmth or footsteps on the carpet trigger them. A burst of pantry beetles usually means an infested food package somewhere, so search the whole pantry."
+    },
+    {
+      "question": "Should I spray insecticide for tiny black bugs?",
+      "answer": "Usually not as the first step. UC IPM does not recommend insecticides for pantry pests and says carpet beetles often need none once their food is removed. Texas A&M says insecticides alone rarely clear an indoor fly problem because the breeding site remains, and Colorado State advises avoiding indoor insecticides for springtails where possible. UC IPM recommends baits rather than sprays for ants. If you do use a pesticide, choose one labeled for that pest and follow the label exactly."
+    },
+    {
+      "question": "Can tiny black bugs come in on groceries or flowers?",
+      "answer": "Yes. Pantry beetles and weevils live in stored dry foods, which is why UC IPM advises inspecting packages, especially ones that have been opened, and moving dry foods into containers with tight lids. Carpet beetle adults feed on pollen and nectar, and UC IPM says people often carry them indoors on cut flowers from the garden, so inspect bouquets before bringing them inside."
+    },
+    {
+      "question": "Do tiny black bugs in the bathroom mean a plumbing problem?",
+      "answer": "Sometimes. Drain flies breed in the film that coats the inside of sink and floor drains, and Texas A&M says the pipes and traps have to be scrubbed with a stiff brush to remove it. Phorid flies also breed in drains, and Texas A&M notes that soil contaminated by leaks around sewer lines can produce them under a building. Springtails point to dampness rather than plumbing, and Colorado State suggests fixing leaks, ventilating the bathroom and running a dehumidifier."
+    },
+    {
+      "question": "Are tiny black bugs on a windowsill a sign of an infestation?",
+      "answer": "Not always. UC IPM says adult carpet beetles are drawn to sunlight and often fly in from flowers outdoors, but their larvae feed indoors on wool, fur, feathers and pet hair, so check closets and the carpet under heavy furniture. Fungus gnats at a window have usually come from a potted plant nearby. Clover mites on a sunny sill will not reproduce indoors and die within a few days, according to Penn State Extension."
+    },
+    {
+      "question": "What causes tiny black bugs in the house?",
+      "answer": "Moisture, light and food explain most of them. Springtails, drain flies and phorid flies follow water and the decaying film in drains, according to Colorado State and Texas A&M. Carpet beetle adults, fungus gnats and several pantry beetles are drawn to light, which is why they turn up at windows and lamps. Pantry beetles and weevils come for stored grain products, and carpet beetle larvae for wool, fur, feathers and pet hair, as UC IPM and the University of Kentucky describe."
+    }
+  ],
+  "sources": [
+    { "title": "Carpet Beetles (Pest Notes, Publication 7436)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/" },
+    { "title": "Pantry Pests (Pest Notes, Publication 7452)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/pantry-pests/" },
+    { "title": "Stored Product Pests in the Pantry (ENTFACT-612)", "publisher": "University of Kentucky Entomology", "url": "https://entomology.mgcafe.uky.edu/ef612" },
+    { "title": "Colorado Insects of Interest: Spider Beetles", "publisher": "Colorado State University Extension", "url": "https://wci.extension.colostate.edu/wp-content/uploads/sites/14/2017/03/SpiderBeetlesJan42010.pdf" },
+    { "title": "Ants (Pest Notes, Publication 7411)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/ants/" },
+    { "title": "Indoor Flies and Their Control", "publisher": "Texas A&M AgriLife Extension", "url": "https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control" },
+    { "title": "Springtails (Fact Sheet 5.602)", "publisher": "Colorado State University Extension", "url": "https://extension.colostate.edu/resource/springtails/" },
+    { "title": "Springtails", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/springtails" },
+    { "title": "Fleas (Pest Notes, Publication 7419)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fleas/" },
+    { "title": "Bed Bugs Appearance and Life Cycle", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle" },
+    { "title": "Clover Mites", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/clover-mites" },
+    { "title": "Fungus Gnats (Pest Notes, Publication 7448)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/" },
+    { "title": "About Fleas", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/fleas/about/index.html" },
+    { "title": "Biology and Impact of Biting Midges in Montana (MontGuide MT201205AG)", "publisher": "Montana State University Extension", "url": "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201205ag_biology_and_impact_of_biting_midges_in_mt.pdf" },
+    { "title": "Carpet Beetle Dermatitis", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/carpet-beetle-dermatitis" }
+  ]
+}
