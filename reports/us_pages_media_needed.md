@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-266 images across 108 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+270 images across 110 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -459,11 +459,21 @@
 - Barn funnel weaver (Tegenaria domestica), identified to species, photographed from above to show the two dark stripes behind the head and the mottled abdomen, ideally beside a ruler marked in inches; public domain or CC0
 - Southern house spider (Kukulcania hibernalis), identified to species: the charcoal-gray female at her flat, woolly web around a crevice, and the long-legged khaki male; public domain or CC0
 
+## /blog/spiders-in-california
+
+- Noble false widow (Steatoda nobilis) photographed in California, identified to species, top view showing the pale house-shaped pattern on the abdomen and the tan band on its front edge; public domain or CC0
+- Silver garden spider (Argiope argentata) or western spotted orbweaver (Neoscona oaxacensis) photographed in California, identified to species, sitting in its orb web; public domain or CC0
+- Native California tarantula (Aphonopelma), ideally a wandering male photographed in California in fall, or a California trapdoor spider (Bothriocyrtum californicum) beside its open burrow lid, identified to genus or species; public domain or CC0
+
 ## /blog/spiders-in-florida
 
 - Regal jumping spider (Phidippus regius) photographed in Florida: a black adult male with white markings, or an orange or gray female, showing the iridescent jaws; public domain or CC0
 - Pantropical huntsman spider (Heteropoda venatoria) photographed in Florida, top view on a wall or floor, showing the flat brown body, the pale band around the front body section and the black spots at the bases of the leg bristles; public domain or CC0
 - Wolf spider photographed in Florida, top view, ideally a female carrying her egg sac at her spinnerets or her spiderlings on her back, beside a ruler marked in inches; public domain or CC0
+
+## /blog/spiders-in-texas
+
+- Spitting spider (Scytodes) photographed in Texas, top view, showing the banded legs and the spotted, domed front body section that separate it from a recluse; public domain or CC0
 
 ## /blog/spider-egg-sacs
 

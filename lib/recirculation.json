@@ -1476,23 +1476,23 @@
     "/blog/spider-egg-sacs"
    ],
    "cards": [
-    "/blog/best-centipede-killer-canada",
-    "/blog/how-to-get-rid-of-boxelder-bugs-canada",
-    "/blog/pantry-moth-traps-canada"
+    "/blog/spiders-in-california",
+    "/blog/spiders-in-texas",
+    "/blog/spiders-in-florida"
    ],
    "bar": true
   },
   "/blog/brown-recluse-look-alikes": {
    "next": "/blog/venomous-spiders",
    "related": [
-    "/blog/how-to-keep-spiders-out-of-your-house",
-    "/blog/what-does-a-spider-bite-look-like",
-    "/blog/how-to-get-rid-of-spiders-in-house-canada"
+    "/blog/spiders-in-california",
+    "/blog/brown-recluse-bite",
+    "/blog/spiders-in-texas"
    ],
    "cards": [
-    "/blog/pantry-moth-traps-canada",
-    "/blog/best-flea-bomb-canada",
-    "/blog/how-to-get-rid-of-boxelder-bugs-canada"
+    "/blog/spider-egg-sacs",
+    "/blog/spiders-in-florida",
+    "/blog/wolf-spiders"
    ],
    "bar": true
   },
@@ -2603,8 +2603,8 @@
    ],
    "cards": [
     "/blog/brown-recluse-look-alikes",
-    "/blog/best-flea-bomb-canada",
-    "/blog/how-to-get-rid-of-centipedes-canada"
+    "/blog/spiders-in-california",
+    "/blog/spiders-in-texas"
    ],
    "bar": true
   },
@@ -4485,8 +4485,22 @@
    ],
    "cards": [
     "/blog/spiders-in-florida",
-    "/blog/best-silverfish-traps",
-    "/blog/how-to-get-rid-of-silverfish-canada"
+    "/blog/brown-recluse-bite",
+    "/blog/spiders-in-california"
+   ],
+   "bar": true
+  },
+  "/blog/spiders-in-california": {
+   "next": "/blog/brown-recluse-look-alikes",
+   "related": [
+    "/blog/brown-recluse-bite",
+    "/blog/house-spiders",
+    "/blog/spiders-in-florida"
+   ],
+   "cards": [
+    "/blog/spider-egg-sacs",
+    "/blog/spiders-in-texas",
+    "/blog/wolf-spiders"
    ],
    "bar": true
   },
@@ -4498,9 +4512,23 @@
     "/blog/wolf-spiders"
    ],
    "cards": [
-    "/blog/how-to-get-rid-of-centipedes-canada",
     "/blog/brown-recluse-bite",
-    "/blog/best-earwig-killer-canada"
+    "/blog/spiders-in-california",
+    "/blog/venomous-spiders"
+   ],
+   "bar": true
+  },
+  "/blog/spiders-in-texas": {
+   "next": "/blog/spiders-in-california",
+   "related": [
+    "/blog/brown-recluse-look-alikes",
+    "/blog/spiders-in-florida",
+    "/blog/wolf-spiders"
+   ],
+   "cards": [
+    "/blog/venomous-spiders",
+    "/blog/brown-recluse-bite",
+    "/blog/house-spiders"
    ],
    "bar": true
   },
@@ -5459,16 +5487,16 @@
    ]
   },
   "/blog/venomous-spiders": {
-   "next": "/blog/how-to-keep-spiders-out-of-your-house",
+   "next": "/blog/spider-egg-sacs",
    "related": [
     "/blog/brown-recluse-look-alikes",
-    "/blog/how-to-get-rid-of-spiders-in-house-canada",
-    "/blog/best-flea-spray-for-home-canada"
+    "/blog/house-spiders",
+    "/blog/wolf-spiders"
    ],
    "cards": [
-    "/blog/best-spider-spray-canada",
-    "/blog/how-to-get-rid-of-earwigs-canada",
-    "/blog/what-does-a-spider-bite-look-like"
+    "/blog/spiders-in-florida",
+    "/blog/brown-recluse-bite",
+    "/blog/spiders-in-california"
    ],
    "bar": true
   },
@@ -6011,9 +6039,9 @@
     "/blog/spiders-in-florida"
    ],
    "cards": [
-    "/blog/best-flea-spray-for-home-canada",
-    "/blog/how-to-get-rid-of-earwigs-canada",
-    "/blog/brown-recluse-look-alikes"
+    "/blog/brown-recluse-look-alikes",
+    "/blog/spiders-in-california",
+    "/blog/spiders-in-texas"
    ],
    "bar": true
   },

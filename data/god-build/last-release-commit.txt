@@ -1,10 +1,4 @@
-release: 8 scheduled page(s) go live (2026-10-16)
+release: 2 scheduled page(s) go live (2026-10-16)
 
-- /blog/brown-recluse-bite
-- /blog/wolf-spiders
-- /blog/how-to-get-rid-of-stink-bugs
-- /blog/house-spiders
-- /blog/spiders-in-florida
-- /blog/spider-egg-sacs
-- /blog/palmetto-bugs
-- /blog/cockroach-eggs
+- /blog/spiders-in-california
+- /blog/spiders-in-texas

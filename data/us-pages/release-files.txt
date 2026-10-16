@@ -361,9 +361,15 @@ app/blog/brown-recluse-look-alikes/page.tsx
 content/guides/house-spiders.json
 data/us-pages/checked/house-spiders.json
 app/blog/house-spiders/page.tsx
+content/guides/spiders-in-california.json
+data/us-pages/checked/spiders-in-california.json
+app/blog/spiders-in-california/page.tsx
 content/guides/spiders-in-florida.json
 data/us-pages/checked/spiders-in-florida.json
 app/blog/spiders-in-florida/page.tsx
+content/guides/spiders-in-texas.json
+data/us-pages/checked/spiders-in-texas.json
+app/blog/spiders-in-texas/page.tsx
 content/guides/spider-egg-sacs.json
 data/us-pages/checked/spider-egg-sacs.json
 app/blog/spider-egg-sacs/page.tsx

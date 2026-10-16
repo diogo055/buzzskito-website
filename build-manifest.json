@@ -2,14 +2,14 @@
  "generated": "2026-10-16",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 146,
+  "newPagesBuilt": 148,
   "hubPages": 4,
-  "guides": 131,
+  "guides": 133,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 240,
-  "internalLinksInNewPages": 1867
+  "notBuilt": 238,
+  "internalLinksInNewPages": 1912
  },
  "pages": [
   {
@@ -520,7 +520,7 @@
    "wordCount": 3368,
    "faqs": 6,
    "sources": 15,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -789,10 +789,10 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Venomous Spiders in the US by State (Photos)",
-   "wordCount": 3109,
+   "wordCount": 3140,
    "faqs": 6,
-   "sources": 17,
-   "inboundFromNewPages": 6,
+   "sources": 18,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -808,7 +808,7 @@
    "wordCount": 2514,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -824,7 +824,7 @@
    "wordCount": 2741,
    "faqs": 6,
    "sources": 11,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -840,7 +840,7 @@
    "wordCount": 2701,
    "faqs": 5,
    "sources": 16,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -856,8 +856,24 @@
    "wordCount": 3349,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "spiders in california",
+   "us_volume": null,
+   "url": "/blog/spiders-in-california",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Spiders in California: Common Species (Photos)",
+   "wordCount": 3198,
+   "faqs": 6,
+   "sources": 19,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 23,
    "status": "built"
   },
   {
@@ -872,8 +888,24 @@
    "wordCount": 3010,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 17,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "spiders in texas",
+   "us_volume": null,
+   "url": "/blog/spiders-in-texas",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Spiders in Texas: Common Species (Photos)",
+   "wordCount": 3050,
+   "faqs": 5,
+   "sources": 20,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 22,
    "status": "built"
   },
   {
@@ -888,7 +920,7 @@
    "wordCount": 2203,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -1080,7 +1112,7 @@
    "wordCount": 3921,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 43,
    "status": "built"
   },
@@ -2379,13 +2411,6 @@
   },
   {
    "rank": null,
-   "keyword": "spiders in california",
-   "url": "/blog/spiders-in-california",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "bug bites on babies",
    "url": "/blog/bug-bites-on-babies",
    "action": "new",
@@ -2458,13 +2483,6 @@
    "rank": null,
    "keyword": "camel spider",
    "url": "/blog/camel-spiders",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "spiders in texas",
-   "url": "/blog/spiders-in-texas",
    "action": "new",
    "status": "not built"
   },
