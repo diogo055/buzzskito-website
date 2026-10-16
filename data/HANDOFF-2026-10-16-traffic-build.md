@@ -64,6 +64,15 @@ with SendUserFile.
   droppings/holes in yard; millipedes/earwigs/silverfish; roaches; termite damage; kissing-bug and
   red-and-black look-alikes; black spiders), each with a confused-card row and >= 1 live guide linking
   it; checkers; hand releases; link-in round. Then a family topic planner with Ahrefs after Oct 26.
+- **OWNER OVERRIDE, Oct 16 late: retrofit existing pages NOW (no wait for Oct 29-30), additive only,
+  nothing detrimental; new pages 50-60/week; research more comparable sites.** Search Console API
+  works again (owner re-authed; last 7 days to Oct 15: 1,569 clicks, 210,692 impressions, pos 7.0).
+  Running at handoff: comparables research (-> data/god-build/comparables-research.md, Ahrefs <=15K
+  units) and retrofit prep (-> RETROFIT_BRIEF.md, retrofit-order.json from fresh GSC, TSX
+  ConfusedWith/QuickIdTable components shared with GuidePage, 2 pilot retrofits; uncommitted: review
+  the diff, affiliate loop, full build in ci-repro, then commit + push). Weekly usage 87% on Oct 16;
+  from Oct 20: retrofit batches of ~20 pages (GSC-monitored; roll back a page that drops) + the 18
+  winter pages, then ~50-60 new pages/week.
 - **RETROFIT PROGRAM (owner agreed in principle, Oct 16):** existing pages get the winning structure
   too. Order: (1) before Oct 29, build drop-in TSX components for hand-written articles mirroring the
   guide blocks (ConfusedWith photo cards, QuickIdTable) + a RETROFIT brief (additive only, affiliate
