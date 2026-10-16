@@ -20,6 +20,12 @@
 
 - `/blog/american-cockroaches` — **american cockroach** (also: palmetto bug; american cockroach vs german cockroach; palmetto bug vs roach). Periplaneta americana: size and markings, the palmetto bug and water bug names, sewer and outdoor populations in the South, gliding flight, why sightings indoors do not always mean an infestation, and exclusion.
 
+- `/blog/palmetto-bugs` — **palmetto bug** (also: palmetto bug vs cockroach; palmetto bug vs american cockroach; palmetto bug vs german cockroach; palmetto bugs florida; do palmetto bugs fly; american cockroach). What people mean by "palmetto bug" (a regional name for large cockroaches, above all the American cockroach; check which other species the sources include), how it compares with the smokybrown, Florida woods and German cockroaches by photo (size, color, markings, wings and flight), why these roaches come indoors in the South, and whether one sighting means an infestation. Folds in the taxonomy's american-cockroaches page: build this one, not both. /blog/bugs-that-look-like-cockroaches trims its palmetto bug section to a summary that links here; /learn/cockroaches keeps its American cockroach section and links here; /blog/water-bugs-vs-cockroaches keeps the giant water bug angle (link both ways).
+
+- `/blog/cockroach-eggs` — **what do cockroach eggs look like** (also: cockroach eggs; roach eggs; cockroach egg case; ootheca; german cockroach eggs; american cockroach eggs). What cockroach egg cases (oothecae) look like, species by species: the German cockroach's case, which the female carries, against the cases American and other cockroaches drop or glue down; size, color, shape and egg count from the sources; where to look; what hatched and empty cases look like. Photo on record: a female German cockroach carrying her egg case; American and brown-banded egg cases are still needed. /blog/german-cockroaches keeps its short egg case section and links here; link /blog/what-do-baby-cockroaches-look-like both ways.
+
+- `/blog/cockroach-droppings` — **cockroach poop** (also: cockroach droppings; cockroach poop vs mouse poop; cockroach poop on walls; cockroach poop vs eggs; roach droppings). What cockroach droppings look like for small and large species, smear marks, how they differ from mouse droppings and egg cases, where they collect and what they say about an infestation, and the allergy and asthma link from health sources. Conditional (next-50): build last, only if cockroach-eggs and rat-droppings are drawing US impressions by then. No cockroach-droppings photo is on record yet.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -393,6 +399,16 @@
 - `/blog/chagas-disease` — chagas disease
 - `/blog/bark-scorpions` — bark scorpion
 - `/blog/mole-crickets` — mole crickets
+- `/blog/tiny-black-bugs` — tiny black bugs in house
+- `/blog/flea-eggs` — what do flea eggs look like
+- `/blog/rat-vs-mouse` — rat vs mouse
+- `/blog/roof-rat-vs-norway-rat` — roof rat vs norway rat
+- `/blog/bugs-in-house-in-winter` — bugs in house in winter
+- `/blog/bugs-that-look-like-fleas` — bugs that look like fleas
+- `/blog/spider-egg-sacs` — spider egg sac
+- `/blog/rat-droppings` — rat droppings
+- `/blog/mouse-nest` — what does a mouse nest look like
+- `/blog/springtails` — springtails
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

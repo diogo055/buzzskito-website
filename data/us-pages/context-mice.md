@@ -44,6 +44,14 @@
 
 - `/blog/fall-mouse-proofing-checklist` — **how to mouse proof your house**. A fall exclusion guide. The 7 entry points mice use most (write them as a numbered list that matches a house diagram: utility and pipe penetrations, gaps under exterior doors, the garage door corners, dryer and other vents, the foundation and sill plate, weep holes and siding gaps, the roofline and soffits), with the gap size that lets a mouse through in inches. A step-by-step steel wool and caulk how-to for small holes and what to use for larger ones (hardware cloth, metal flashing, cement), following CDC's seal-up guidance. A trap placement guide for the mice already inside. Why fall is the season. A printable exclusion checklist as a card block. Pet and child safety for traps and for any bait.
 
+- `/blog/rat-vs-mouse` — **rat vs mouse** (also: mouse vs rat; rat vs mouse droppings; rat vs mouse size; rat vs mouse pictures; baby rat vs mouse; rat or mouse). Adult rats and mice side by side for US readers: body and tail length, head, ears and snout, droppings, gnaw marks and entry holes, and the young rat that gets mistaken for an adult mouse. Photo comparison first, then a trait table. /blog/types-of-mice keeps a two-sentence young-rat summary and /blog/baby-mice its baby rat or mouse section: link both. Droppings appear here as one trait; /blog/what-does-mouse-poop-look-like-canada and rat-droppings (planned) carry the detail. Disease and cleanup statements follow CDC.
+
+- `/blog/roof-rat-vs-norway-rat` — **roof rat vs norway rat** (also: norway rat vs roof rat; roof rat; norway rat; types of rats; roof rat vs norway rat droppings; roof rat vs norway rat pictures). The two rats that live in US buildings, told apart by photo: tail length against head and body, ears, snout and build, droppings, where each nests in a building, and their US ranges. Identification only: control stays on /blog/how-to-get-rid-of-rats-canada (link both ways) and the rat-or-mouse question on rat-vs-mouse (planned).
+
+- `/blog/rat-droppings` — **rat droppings** (also: rat poop; what does rat poop look like; rat droppings vs mouse droppings; rat droppings pictures; rat droppings vs squirrel droppings). What rat droppings look like (size, shape, color, fresh against old), how they differ from mouse droppings and other look-alikes, where they collect, and how to clean them up by CDC's guidance. Scoped to rats: /blog/what-does-mouse-poop-look-like-canada keeps mouse droppings, so link it for mice. Photos on record: rat droppings on a tabletop and rodent droppings in a drawer (both public domain), mouse droppings beside a ruler; a rat-droppings photo with a scale is still wanted.
+
+- `/blog/mouse-nest` — **what does a mouse nest look like** (also: mouse nest; mouse nest in car; rat nest vs mouse nest; mouse nest in wall; mouse nest in attic). What a mouse nest looks like (the materials, shape and size), where mice build them in a house or a car, how to tell an active nest from an old one, and how a rat nest differs. Appearance and location only: /blog/baby-mice keeps what finding baby mice means and /blog/mice-removal the cleanup steps; link both instead of repeating them. Any cleanup or disease statement follows CDC. Photo on record: a deer mouse in its nest (public domain); a house mouse nest is still needed.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -405,6 +413,15 @@
 - `/blog/chagas-disease` — chagas disease
 - `/blog/bark-scorpions` — bark scorpion
 - `/blog/mole-crickets` — mole crickets
+- `/blog/tiny-black-bugs` — tiny black bugs in house
+- `/blog/flea-eggs` — what do flea eggs look like
+- `/blog/bugs-in-house-in-winter` — bugs in house in winter
+- `/blog/bugs-that-look-like-fleas` — bugs that look like fleas
+- `/blog/spider-egg-sacs` — spider egg sac
+- `/blog/palmetto-bugs` — palmetto bug
+- `/blog/cockroach-eggs` — what do cockroach eggs look like
+- `/blog/springtails` — springtails
+- `/blog/cockroach-droppings` — cockroach poop
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

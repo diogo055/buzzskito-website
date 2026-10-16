@@ -10270,8 +10270,8 @@
    "state": null,
    "releaseOn": "2026-12-07",
    "parent": {
-    "href": "/learn/biting-flies",
-    "name": "Biting Flies"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "No-See-Ums (Biting Midges): Where They Live, When They Bite and How to Keep Them Out",
    "scope": "US edition: Culicoides along coasts, marshes and lakes (Florida, the Carolinas, the Gulf, the Great Lakes), season and time of day, mesh size that stops them, fans, repellents, and why yard spraying does little.",
@@ -10297,9 +10297,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/biting-flies"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -10397,8 +10395,8 @@
    "state": null,
    "releaseOn": "2026-12-07",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Spider Bites in Canada: Which Spiders Bite and What the Bites Look Like",
    "scope": "For Canadian readers: the few spiders that bite in Canada (northern black widow in the south, yellow sac, wolf, hobo in British Columbia), why there are no established brown recluses, what most \"spider bites\" turn out to be, pictures, care and 811 / Health Link guidance.",
@@ -10424,9 +10422,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -10451,14 +10447,14 @@
     "id"
    ],
    "minWords": 2000,
-   "datePublished": "2026-12-07",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "na",
    "role": "hub",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-07",
+   "releaseOn": "2026-10-16",
    "parent": {
     "href": "/learn",
     "name": "Learning Centre"
@@ -10603,8 +10599,8 @@
    "state": null,
    "releaseOn": "2026-12-07",
    "parent": {
-    "href": "/learn/biting-flies",
-    "name": "Biting Flies"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Biting Insects in Canada: What Bites When, From Black Flies to Deer Flies",
    "scope": "For Canadian readers: a month-by-month calendar of the insects that bite in Canada (black flies, mosquitoes, deer and horse flies, no-see-ums, stable flies, ticks), by region, with what each bite looks like and Health Canada repellent rules.",
@@ -10625,9 +10621,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/biting-flies"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -10660,8 +10654,8 @@
    "state": null,
    "releaseOn": "2026-12-07",
    "parent": {
-    "href": "/learn/biting-flies",
-    "name": "Biting Flies"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Horse Fly vs Deer Fly: How to Tell Them Apart in the US",
    "scope": "US edition: size, wing pattern and eye colour, greenheads and other regional tabanids, when and where each bites, the circling behaviour, traps that work, and the bite.",
@@ -10687,9 +10681,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/biting-flies"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -10845,8 +10837,8 @@
    "state": null,
    "releaseOn": "2026-12-07",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Spider Beetles: The Tick Look-Alikes in Pantries and Beds",
    "scope": "Smooth and hairy spider beetles: the six-legs test against ticks, why they turn up in pantries, beds and old houses, what they eat, and how to find and remove the source.",
@@ -10872,9 +10864,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -12302,8 +12292,8 @@
    "state": null,
    "releaseOn": "2026-12-07",
    "parent": {
-    "href": "/learn/biting-flies",
-    "name": "Biting Flies"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Black Flies (Buffalo Gnats): Season, Bites and How to Avoid Them",
    "scope": "US edition: black flies in the Northeast and upper Midwest, buffalo gnats in the South (and the livestock die-offs), flowing-water breeding, season by region, bites and reactions, repellents and head nets, and Bti programs.",
@@ -12329,9 +12319,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/biting-flies"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -12604,8 +12592,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/fleas",
-    "name": "Fleas"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "What Do Fleas Look Like? Adults, Eggs, Larvae and Flea Dirt",
    "scope": "Real photos of adults, eggs, larvae, pupae and flea dirt, the wet paper towel test, size against a grain of rice, and the look-alikes (springtails, bed bug nymphs, bird mites).",
@@ -12626,9 +12614,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/fleas"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -12661,8 +12647,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/fleas",
-    "name": "Fleas"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "How to Get Rid of Fleas in the House: The Order That Breaks the Life Cycle",
    "scope": "Treat every pet (vet-prescribed products), vacuum daily, wash bedding hot, use an IGR-containing home product per label (EPA in the US, PMRA in Canada), the pupal window and why it takes several weeks, yards, and homes with no pets.",
@@ -12688,9 +12674,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/fleas"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -12715,17 +12699,17 @@
     "health"
    ],
    "minWords": 1500,
-   "datePublished": "2026-12-14",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-14",
+   "releaseOn": "2026-10-16",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Venomous Spiders in the US: The Few That Matter, State by State",
    "scope": "Only widows and recluses are medically important in the US: a state-by-state table of which of them live where (from extension and published range data), the species that cause painful but minor bites, and the myths (hobo, daddy long legs).",
@@ -12746,9 +12730,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -12781,8 +12763,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/mites",
-    "name": "Mites"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Scabies vs Bed Bugs (and Chiggers): How to Tell the Rashes Apart",
    "scope": "Where on the body each appears, burrows versus bite clusters, night itch, household spread, how scabies is diagnosed and treated (clinician), and why bed bug sprays do nothing for scabies.",
@@ -12808,9 +12790,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/mites"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -12843,8 +12823,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Black Widow Bite: Symptoms Timeline, Treatment and When It Is an Emergency",
    "scope": "Latrodectism: the small bite mark, cramping and sweating hours later, who is at higher risk, emergency care and antivenom basics, pets.",
@@ -12865,9 +12845,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -12957,8 +12935,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Brown Recluse Bite: Pictures by Stage, Symptoms and When to Get Care",
    "scope": "What the bite does day by day (most heal without scarring), necrosis and the rare systemic reaction, why most \"recluse bites\" outside the range are something else (MRSA), first aid and when to get urgent care.",
@@ -12979,9 +12957,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -13014,8 +12990,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Black Widow Spiders: Identification, Range and Look-Alikes",
    "scope": "Southern, northern and western black widows: the hourglass and its variations, males and juveniles, where each lives (including southern Canada), webs and egg sacs, and the false widows and brown widows people mistake for them.",
@@ -13030,9 +13006,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -13132,8 +13106,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Daddy Long Legs: Harvestmen vs Cellar Spiders and the Venom Myth",
    "scope": "Three animals share the name (harvestmen, cellar spiders, crane flies): how to tell them apart, the \"most venomous spider\" myth and what the evidence says, and why cellar spiders are useful indoors.",
@@ -13148,9 +13122,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -13183,8 +13155,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Joro Spiders: Where the Invasive Orb Weaver Has Spread and Is It Dangerous?",
    "scope": "Trichonephila clavata in the Southeast: identification against native orb weavers, the counties and states with published records, ballooning spread, the harmless bite and what it means for native spiders.",
@@ -13199,9 +13171,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -13234,8 +13204,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Wolf Spiders: Identification, Bites and the Babies on Their Backs",
    "scope": "The big hunting spiders of yards and basements: eye pattern, size, egg sacs and spiderlings carried on the back, the bite (painful, not dangerous), and how to tell one from a brown recluse.",
@@ -13256,9 +13226,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -13291,8 +13259,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Brown Recluse Spiders: How to Identify One and Where They Actually Live",
    "scope": "Loxosceles reclusa: the six eyes in pairs and the violin, uniform leg colour, the native range state by state (and the states where it is not), how infestations look indoors, sticky-trap monitoring, and the Canada answer.",
@@ -13313,9 +13281,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -13349,8 +13315,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/mites",
-    "name": "Mites"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Bird Mites: Bites After a Nest Is Removed, and How to End Them",
    "scope": "Northern fowl mites and chicken mites: why bites start after fledglings leave or a nest is removed, what the bites look like, how long the mites survive without birds, cleanup, and backyard chickens.",
@@ -13365,9 +13331,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/mites"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -13391,17 +13355,17 @@
     "id"
    ],
    "minWords": 1300,
-   "datePublished": "2026-12-14",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-14",
+   "releaseOn": "2026-10-16",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Spiders That Look Like Brown Recluses (and How to Tell for Sure)",
    "scope": "Wolf, grass, cellar, house, yellow sac, woodlouse and hobo spiders side by side with the recluse: the eye test, the violin that misleads, leg spines and colour, and where recluses cannot be.",
@@ -13422,9 +13386,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -13632,8 +13594,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "House Centipedes: Why They Are Indoors, Do They Bite, and How to Get Rid of Them",
    "scope": "US edition: identification, the prey they follow, humidity, the rare bite, sticky traps and sealing, and the EPA-registered options with their limits.",
@@ -13659,9 +13621,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -13694,8 +13654,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "How to Get Rid of Silverfish: Humidity First, Then Baits and Dusts",
    "scope": "US edition: humidity under 50 percent, sticky traps to locate, EPA-registered baits and dusts (including boric acid, which is legal in the US), paper and starch sources, and firebrats.",
@@ -13721,9 +13681,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -13871,17 +13829,17 @@
     "pesticide"
    ],
    "minWords": 1400,
-   "datePublished": "2026-12-14",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-14",
+   "releaseOn": "2026-10-16",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "How to Get Rid of Carpet Beetles: Find the Larvae, Then Clean, Freeze or Heat",
    "scope": "US edition: find the keratin source, vacuum, heat, freeze or dry-clean, sealed storage, EPA-registered products and their label limits, and when to call a professional.",
@@ -13902,9 +13860,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -13994,8 +13950,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "How to Get Rid of Stink Bugs: Get Them Out Without the Smell, Then Seal",
    "scope": "US edition: the brown marmorated stink bug (in most states since the 2000s), getting them out without the smell, sealing in late summer, light traps, why indoor sprays backfire, and garden damage.",
@@ -14016,9 +13972,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -14102,8 +14056,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Types of Gnats: Fungus Gnats, Fruit Flies, Drain Flies and the Ones That Bite",
    "scope": "A picture key to small flies indoors and out: fungus gnats, fruit flies, drain (moth) flies, phorid flies, no-see-ums and black flies, where each comes from, and the one fix for each.",
@@ -14134,9 +14088,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -14382,8 +14334,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Millipedes in the House: Why They Invade After Rain and How to Stop Them",
    "scope": "Why millipedes migrate indoors after rain or drought, how to tell them from centipedes, why they die indoors, the defensive fluid, and mulch, moisture and sealing.",
@@ -14398,9 +14350,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -14481,17 +14431,17 @@
     "id"
    ],
    "minWords": 1100,
-   "datePublished": "2026-12-14",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "na",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-14",
+   "releaseOn": "2026-10-16",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Asian Lady Beetles: How to Tell Them From Ladybugs, Bites and Fall Swarms",
    "scope": "Harmonia axyridis: the M marking, colour variation, why they swarm sunny walls in October, the pinching bite and yellow reflex fluid, dogs, and sealing and vacuuming.",
@@ -14512,9 +14462,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -14666,8 +14614,8 @@
    "state": null,
    "releaseOn": "2026-12-14",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Camel Crickets (Spider Crickets): Why They Jump at You in the Basement",
    "scope": "Greenhouse and native camel crickets: identification, why they jump toward you, damp basements and crawl spaces, whether they bite or damage anything, and drying and sealing.",
@@ -14688,9 +14636,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -15634,8 +15580,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "How to Get Rid of Spiders in the House: What Works, What Does Not",
    "scope": "US edition: vacuum and sticky-trap first, sealing, humidity, the role (and limits) of EPA-registered perimeter sprays, what does not work (ultrasonic, peppermint), and when a recluse or widow problem needs a professional.",
@@ -15661,9 +15607,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -15753,8 +15697,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "House Spiders: The Common Indoor Species and Why They Come Inside",
    "scope": "The American house spider, giant house spider and barn funnel weaver: identification, why males wander indoors in late summer, bites, and what to do.",
@@ -15775,9 +15719,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -15810,8 +15752,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Spiders in California: Common Species and the Brown Recluse Myth",
    "scope": "California species from UC IPM: western black widow, brown widow, desert recluse (and why the brown recluse is not established), wolf, cellar and sac spiders; which bite.",
@@ -15826,9 +15768,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -15913,8 +15853,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/mites",
-    "name": "Mites"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Dust Mites: Do They Bite? What They Are and How to Cut Them Down",
    "scope": "Microscopic mites that do not bite: the allergy they cause, humidity thresholds, encasements and washing temperatures from allergy guidance, and what the itchy bumps really are.",
@@ -15935,9 +15875,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/mites"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -15970,8 +15908,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Orb Weaver Spiders: Garden Spiders, Banana Spiders and Their Webs",
    "scope": "Yellow garden spiders, cross and barn orb weavers, golden silk (banana) spiders and spiny orb weavers: identification, the late-summer webs, whether they bite, and the Joro spider newcomer.",
@@ -15986,9 +15924,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16079,8 +16015,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Spiders in Florida: The Common Species, Which Bite and Photos",
    "scope": "Florida species from UF/IFAS records: golden silk and spiny orb weavers, brown and red widows, southern black widow, huntsman, wolf spiders; which bite; the recluse question in Florida.",
@@ -16095,9 +16031,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16130,8 +16064,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Grass Spiders: Funnel Webs in the Lawn and the Wolf Spider Mix-Up",
    "scope": "Agelenopsis funnel weavers: the dew-covered sheet webs, the striped body that gets mistaken for wolf spiders and recluses, bites, and late-summer indoor visits.",
@@ -16146,9 +16080,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16181,8 +16113,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Jumping Spiders: Identification, Common Species and Whether They Bite",
    "scope": "The big-eyed hunters on windowsills and decks: the bold jumper and other common species, why they are harmless, and how to move one outside.",
@@ -16197,9 +16129,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16232,8 +16162,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Spiders in Arizona: Desert Recluses, Widows, Tarantulas and More",
    "scope": "Arizona species from University of Arizona records: Arizona brown spider and desert recluse, western black widow, tarantulas, camel spiders; season and which bite.",
@@ -16248,9 +16178,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16283,8 +16211,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Hobo Spiders: Identification, Range and the Bite Myth",
    "scope": "Eratigena agrestis in the Pacific Northwest and British Columbia: identification against giant house spiders and wolf spiders, why CDC no longer lists it as medically important, and the bite evidence.",
@@ -16299,9 +16227,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16335,8 +16261,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Yellow Sac Spiders: The Spider Behind Many Real Bites",
    "scope": "Cheiracanthium: pale wandering spiders that hide in silk sacs on walls and ceilings, why they account for many confirmed bites, what the bite does, and how to tell them from recluses.",
@@ -16351,9 +16277,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16386,8 +16310,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Fishing Spiders and Dock Spiders: The Big Spiders by the Water",
    "scope": "Dolomedes at docks, cottages and basements near water in the US and Canada: identification, size, behaviour on water, the bite, and how they differ from wolf spiders.",
@@ -16402,9 +16326,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16437,8 +16359,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Camel Spiders (Solifugids): Facts, Myths and Where They Live in the US",
    "scope": "Solifugids in the desert Southwest: what they are (not true spiders), size and speed myths, the bite, and why they come to porch lights.",
@@ -16453,9 +16375,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16488,8 +16408,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Spiders in Texas: Common Species, Recluses, Tarantulas and Which Bite",
    "scope": "Texas species from AgriLife records: brown recluse, black widows, tarantulas, orb weavers, wolf and jumping spiders; regional differences; which bite.",
@@ -16504,9 +16424,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16596,8 +16514,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/fleas",
-    "name": "Fleas"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Murine Typhus: The Flea-Borne Illness Rising in Texas and California",
    "scope": "Rickettsia typhi: the opossum, cat and rat flea cycle, rising case counts in Texas and Southern California from state health departments, symptoms, and prevention.",
@@ -16612,9 +16530,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/fleas"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16647,8 +16563,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "False Widow Spiders (Steatoda): Identification and Bite Facts",
    "scope": "The cobweb spiders mistaken for black widows in houses across the US and Canada: identification, why their bites are usually minor, and the look-alike test.",
@@ -16663,9 +16579,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16698,8 +16612,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Brown Widow Spiders: ID, Spiky Egg Sacs and How They Compare to Black Widows",
    "scope": "Latrodectus geometricus in the southern US and California: the orange hourglass and spiky egg sacs, the reports that it is displacing black widows in parts of its range, and its milder bite.",
@@ -16714,9 +16628,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16749,8 +16661,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Tarantulas in the US: Where They Live and the Fall Mating Migration",
    "scope": "Native US tarantulas in the Southwest and southern Plains: where they live, the late-summer and fall male wandering (Colorado, Texas, Arizona, New Mexico, Oklahoma), bites and urticating hairs, and why they are not a house pest.",
@@ -16765,9 +16677,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16800,8 +16710,8 @@
    "state": null,
    "releaseOn": "2026-12-21",
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Woodlouse Spiders: The Red Spider With Big Fangs in Basements",
    "scope": "Dysdera crocata: the red-orange spider with long fangs found in damp basements, what it eats (pill bugs), its bite, and the recluse confusion.",
@@ -16816,9 +16726,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/spiders"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16852,8 +16760,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/mites",
-    "name": "Mites"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Rat Mites: Itchy Bites After a Rodent Problem",
    "scope": "Tropical rat mites: bites that begin after rodents are trapped or poisoned, how to confirm them (tape samples), and why removing the nest matters more than spraying.",
@@ -16868,9 +16776,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/mites"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16904,8 +16810,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/mites",
-    "name": "Mites"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Oak Leaf Itch Mites and Straw Itch Mites: The Invisible Biters",
    "scope": "Pyemotes mites: the late-summer oak mite outbreaks in the Midwest, straw and hay sources, bites on the neck and shoulders, why repellents barely help, and relief.",
@@ -16920,9 +16826,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/mites"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -16955,8 +16859,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "How to Get Rid of Drain Flies: Clean the Biofilm, Not Just the Drain",
    "scope": "US edition: the tape test to find the source, brushing out the biofilm, enzyme cleaners, hidden sources (floor drains, broken pipes), and why bleach fails.",
@@ -16977,9 +16881,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -17012,8 +16914,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "June Bugs: The Beetles at Your Porch Light and the Grubs in Your Lawn",
    "scope": "US edition: May/June beetles, green June beetles and figeaters in the South and West, the white grub life cycle, lawn damage and when to treat, and porch lights.",
@@ -17034,9 +16936,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -17069,8 +16969,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "How to Get Rid of Cluster Flies: Why They Fill Windows Every Fall",
    "scope": "US edition: the earthworm life cycle, why they pick south and west walls, sealing before September, indoor removal, and the EPA-registered exterior options.",
@@ -17096,9 +16996,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -17131,8 +17029,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "How to Get Rid of Boxelder Bugs: The Sealing Window and What Works Indoors",
    "scope": "US edition: eastern and western boxelder bugs, host trees, the late-summer sealing window, soapy water outdoors, vacuuming indoors, and EPA-registered exterior options.",
@@ -17153,9 +17051,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -17188,8 +17084,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "How to Get Rid of Earwigs: Traps, Moisture and the Ear Myth",
    "scope": "US edition: moisture and mulch, oil and rolled-newspaper traps, garden damage, the pinch, and EPA-registered options.",
@@ -17220,9 +17116,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -17246,17 +17140,17 @@
     "id"
    ],
    "minWords": 1300,
-   "datePublished": "2026-12-28",
+   "datePublished": "2026-10-16",
    "projClicks": 0,
    "batch": "god",
    "audience": "na",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-12-28",
+   "releaseOn": "2026-10-16",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Pantry Pests: Identify the Moths, Beetles and Weevils in Your Food",
    "scope": "Indian meal moths, sawtoothed grain beetles, flour beetles, drugstore and cigarette beetles, rice and granary weevils and spider beetles: identification, the source hunt, freezing and disposal, storage.",
@@ -17277,9 +17171,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -17312,8 +17204,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/biting-flies",
-    "name": "Biting Flies"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Stable Flies: The Biting 'House Flies' at the Beach and the Barn",
    "scope": "Stomoxys calcitrans: the house-fly look-alike that bites ankles, beach outbreaks on Lake Michigan and the Florida Panhandle, rotting seaweed and livestock breeding, and protection.",
@@ -17328,9 +17220,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/biting-flies"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -17471,8 +17361,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/biting-flies",
-    "name": "Biting Flies"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Greenhead Flies: The Salt Marsh Horse Flies of the Atlantic Coast",
    "scope": "Tabanus nigrovittatus from Massachusetts to New Jersey and the Carolinas: the July peak, the salt marsh breeding, the box traps used by mosquito commissions, and the bite.",
@@ -17493,9 +17383,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/biting-flies"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -17648,8 +17536,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Mayflies ('Fish Flies'): Why They Swarm by the Lake and Whether They Bite",
    "scope": "The mass emergences on the Great Lakes and the Mississippi (radar-visible swarms), why they do not bite and live a day, what they say about water quality, and lights that draw them.",
@@ -17664,9 +17552,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -17927,8 +17813,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/biting-flies",
-    "name": "Biting Flies"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Bot Flies: Larvae in Pets and People, and How They Are Removed",
    "scope": "Cuterebra in North American rodents, cats and dogs (the warble), the human bot fly of Central and South America in travelers, signs, why removal is a vet or clinician job, and deer and horse bot flies.",
@@ -17943,9 +17829,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/biting-flies"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -18030,8 +17914,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Clothes Moths: How to Spot the Larvae and Save Your Wool",
    "scope": "Webbing and casemaking clothes moths: identification, the larvae that do the damage, pheromone monitoring, freezing and cleaning, and storage.",
@@ -18046,9 +17930,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -18260,8 +18142,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Booklice (Psocids): Tiny Pale Bugs in Damp Rooms and Pantries",
    "scope": "Psocids: identification, the mould and humidity link, new-house and pantry outbreaks, why they do not bite, and how drying the room ends them.",
@@ -18276,9 +18158,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -18584,8 +18464,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Lovebugs: Why They Swarm Twice a Year and How to Protect Your Car",
    "scope": "Plecia nearctica across the Gulf states: the May and September flights, why they mate in flight, car paint damage and cleanup, and the myths about their origin.",
@@ -18600,9 +18480,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -18736,8 +18614,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Western Conifer Seed Bugs: The Fall Invader Mistaken for Kissing Bugs",
    "scope": "Leptoglossus occidentalis in the US and Canada: identification, the pine smell, why it comes indoors in fall, the kissing bug mix-up, and why it is harmless.",
@@ -18752,9 +18630,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -18787,8 +18663,8 @@
    "state": null,
    "releaseOn": "2026-12-28",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Pill Bugs and Sow Bugs: Why Roly-Polies Come Indoors",
    "scope": "Terrestrial isopods: identification, why they need moisture, garden seedling damage, why they die indoors, and the moisture fixes.",
@@ -18803,9 +18679,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -19274,8 +19148,8 @@
    "state": null,
    "releaseOn": "2027-01-04",
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "h1Hint": "Crickets in the House: Why They Get In and How to Quiet Them",
    "scope": "Field and house crickets: why they come in during late summer, finding a chirping cricket, damage to fabric, lights and sealing, and sticky traps.",
@@ -19290,9 +19164,7 @@
     "minSiblings": 0,
     "minExisting": 2,
     "category": null,
-    "mustLink": [
-     "/learn/household-bugs"
-    ],
+    "mustLink": [],
     "neighbors": [],
     "minNeighbors": 0,
     "seriesAll": []
@@ -19453,6 +19325,825 @@
     "category": null,
     "mustLink": [
      "/learn/natural-garden-pest-control"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "tiny-black-bugs",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "household",
+   "path": "/blog/tiny-black-bugs",
+   "keyword": "tiny black bugs in house",
+   "alsoTargets": [
+    "tiny black bugs",
+    "little black bugs in house",
+    "tiny black bugs that bite",
+    "tiny black bugs that jump",
+    "tiny black bugs in bathroom",
+    "tiny black bugs in bed"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1300,
+   "datePublished": "2026-10-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-10-16",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Tiny Black Bugs in the House: What They Are, by Where You Found Them",
+   "scope": "A \"where did you find it\" sorter for tiny black bugs indoors: kitchen and pantry, bathroom and drains, bed and carpet, windows, houseplants. Candidates with photos on record: carpet beetle, spider beetle, red flour beetle, cigarette beetle, rice weevil, fungus gnat, phorid fly and cat flea (a springtail photo is still needed). Each gets a photo, its size and the one feature that settles it, then the next step. The tick angle stays on /blog/bugs-that-look-like-ticks, which Google already shows for most tiny-black-bug searches: summarize and link, do not repeat it.",
+   "dataPacket": null,
+   "metaTitleHint": "Tiny Black Bugs in the House? ID Them (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/bugs-that-look-like-ticks",
+     "overlap": "small black bugs that look like ticks (carpet beetles, spider beetles); Google shows it for 688 of the 762 tiny-black-bug impressions in 90 days",
+     "resolution": "keeps the tick angle; this page is the location-first entry point and links to it"
+    },
+    {
+     "path": "/blog/bugs-that-look-like-bed-bugs",
+     "overlap": "carpet beetles, spider beetles",
+     "resolution": "link"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "flea-eggs",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "household",
+   "path": "/blog/flea-eggs",
+   "keyword": "what do flea eggs look like",
+   "alsoTargets": [
+    "flea eggs",
+    "flea eggs vs dandruff",
+    "flea eggs on dog",
+    "flea eggs in carpet",
+    "flea dirt vs flea eggs",
+    "flea larvae"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1000,
+   "datePublished": "2026-10-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-10-16",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "What Do Flea Eggs Look Like? Eggs, Larvae and Flea Dirt Compared",
+   "scope": "Flea eggs, flea larvae and flea dirt: what each looks like at life size and magnified, where they collect (pet bedding, carpet, resting spots), how to tell them from dandruff, sand and household dirt, and what finding them means. Split with what-do-fleas-look-like (planned): that page is the adult flea on pets, people and furniture, this one the eggs, larvae and flea dirt; say so on both and link. Treatment belongs to how-to-get-rid-of-fleas (planned): link it, no product advice here.",
+   "dataPacket": null,
+   "metaTitleHint": "What Do Flea Eggs Look Like? (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "what-do-fleas-look-like (new)",
+     "overlap": "flea life stages",
+     "resolution": "that page is the adult flea on pets, people and furniture; this page is eggs, larvae and flea dirt; the split is stated on both"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "rat-vs-mouse",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mice",
+   "path": "/blog/rat-vs-mouse",
+   "keyword": "rat vs mouse",
+   "alsoTargets": [
+    "mouse vs rat",
+    "rat vs mouse droppings",
+    "rat vs mouse size",
+    "rat vs mouse pictures",
+    "baby rat vs mouse",
+    "rat or mouse"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1200,
+   "datePublished": "2026-10-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-10-16",
+   "parent": {
+    "href": "/learn/mice",
+    "name": "Mice"
+   },
+   "h1Hint": "Rat vs Mouse: How to Tell Them Apart by Size, Tail, Ears and Droppings",
+   "scope": "Adult rats and mice side by side for US readers: body and tail length, head, ears and snout, droppings, gnaw marks and entry holes, and the young rat that gets mistaken for an adult mouse. Photo comparison first, then a trait table. /blog/types-of-mice keeps a two-sentence young-rat summary and /blog/baby-mice its baby rat or mouse section: link both. Droppings appear here as one trait; /blog/what-does-mouse-poop-look-like-canada and rat-droppings (planned) carry the detail. Disease and cleanup statements follow CDC.",
+   "dataPacket": null,
+   "metaTitleHint": "Rat vs Mouse: How to Tell Them Apart (Photos)",
+   "pageType": "comparison",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/types-of-mice",
+     "overlap": "section \"Young rats\" (a look-alike of a mouse)",
+     "resolution": "keeps a two-sentence summary and links here"
+    },
+    {
+     "path": "/blog/baby-mice",
+     "overlap": "section \"Is it a baby mouse or a baby rat?\"",
+     "resolution": "keeps it; links here for adults"
+    },
+    {
+     "path": "/blog/what-does-mouse-poop-look-like-canada",
+     "overlap": "droppings comparison",
+     "resolution": "link; this page shows droppings only as one trait"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mice"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "roof-rat-vs-norway-rat",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mice",
+   "path": "/blog/roof-rat-vs-norway-rat",
+   "keyword": "roof rat vs norway rat",
+   "alsoTargets": [
+    "norway rat vs roof rat",
+    "roof rat",
+    "norway rat",
+    "types of rats",
+    "roof rat vs norway rat droppings",
+    "roof rat vs norway rat pictures"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1100,
+   "datePublished": "2026-10-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-10-16",
+   "parent": {
+    "href": "/learn/mice",
+    "name": "Mice"
+   },
+   "h1Hint": "Roof Rat vs Norway Rat: Tail, Ears, Droppings and Where Each Lives",
+   "scope": "The two rats that live in US buildings, told apart by photo: tail length against head and body, ears, snout and build, droppings, where each nests in a building, and their US ranges. Identification only: control stays on /blog/how-to-get-rid-of-rats-canada (link both ways) and the rat-or-mouse question on rat-vs-mouse (planned).",
+   "dataPacket": null,
+   "metaTitleHint": "Roof Rat vs Norway Rat: How to Tell (Photos)",
+   "pageType": "comparison",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/how-to-get-rid-of-rats-canada",
+     "overlap": "Canadian control page that names both species",
+     "resolution": "link both ways; identification here, control there"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mice"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "bugs-in-house-in-winter",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "household",
+   "path": "/blog/bugs-in-house-in-winter",
+   "keyword": "bugs in house in winter",
+   "alsoTargets": [
+    "winter bugs in house",
+    "beetles in house in winter",
+    "stink bugs in house in winter",
+    "lady bugs in house in winter",
+    "small bugs in house in winter",
+    "boxelder bugs in house in winter"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1300,
+   "datePublished": "2026-10-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-10-16",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Bugs in the House in Winter: What They Are and Why They Came Inside",
+   "scope": "The insects people find indoors from November to March and why they are there: overwintering invaders (Asian lady beetles, brown marmorated stink bugs, boxelder bugs, cluster flies, western conifer seed bugs) and the indoor regulars noticed more in winter (house centipedes, cellar spiders, silverfish). A photo for each, how it got in, whether it can breed indoors, and the one thing to do. The entry point for the overwintering pages: link the Canadian control pages (stink bugs, boxelder bugs, cluster flies) and the US editions once they are live.",
+   "dataPacket": null,
+   "metaTitleHint": "Bugs in the House in Winter: What They Are",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/how-to-get-rid-of-stink-bugs-canada",
+     "overlap": "overwintering invaders, Canadian control pages",
+     "resolution": "link to the Canadian pages, and to the US editions once they exist"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "bugs-that-look-like-fleas",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "household",
+   "path": "/blog/bugs-that-look-like-fleas",
+   "keyword": "bugs that look like fleas",
+   "alsoTargets": [
+    "bugs that look like fleas and jump",
+    "bugs that look like fleas and bite",
+    "springtails vs fleas",
+    "what are the little bugs that look like fleas",
+    "flea vs bed bug"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1300,
+   "datePublished": "2026-10-16",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-10-16",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Bugs That Look Like Fleas: How to Tell Each One From a Real Flea",
+   "scope": "Insects and mites mistaken for fleas, each set against a real flea: springtails, flea beetles, bat bugs, carpet beetle larvae and bird mites, with the jump, body shape and where-found clues that separate them, and which of them bite. The same format as /blog/bugs-that-look-like-ticks and /blog/bugs-that-look-like-cockroaches. /blog/bugs-that-look-like-bed-bugs keeps its flea section and /blog/flea-bites-on-humans keeps the bites: link both.",
+   "dataPacket": null,
+   "metaTitleHint": "Bugs That Look Like Fleas: How to Tell (Photos)",
+   "pageType": "comparison",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/bugs-that-look-like-bed-bugs",
+     "overlap": "a fleas section",
+     "resolution": "keeps it; links here"
+    },
+    {
+     "path": "/blog/flea-bites-on-humans",
+     "overlap": "bites, not the insects",
+     "resolution": "link both ways"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "spider-egg-sacs",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "spiders",
+   "path": "/blog/spider-egg-sacs",
+   "keyword": "spider egg sac",
+   "alsoTargets": [
+    "spider egg sac identification",
+    "spider egg sac in house",
+    "spider egg sac on wall",
+    "spider egg sac with spikes",
+    "spider egg sac pictures",
+    "how long do spider eggs take to hatch"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1100,
+   "datePublished": "2027-01-04",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2027-01-04",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Spider Egg Sacs: Which Spider Made It, and What to Do About It",
+   "scope": "Which spider made this egg sac: a photo sorter by shape and place (the brown widow's spiky sacs, round papery sacs in house spider webs, sacs on orb weaver webs, sacs a female wolf spider carries), whether a sac indoors means more spiders, how long hatching takes and how to remove one. Photos on record: brown widow egg sacs and a wolf spider carrying spiderlings (spiderlings, not an egg sac); house spider and orb weaver egg sacs are still needed. Link /blog/how-to-keep-spiders-out-of-your-house for prevention.",
+   "dataPacket": null,
+   "metaTitleHint": "Spider Egg Sacs: Which Spider Made It? (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/how-to-keep-spiders-out-of-your-house",
+     "overlap": "a mention of egg sacs",
+     "resolution": "link"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "palmetto-bugs",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "cockroaches",
+   "path": "/blog/palmetto-bugs",
+   "keyword": "palmetto bug",
+   "alsoTargets": [
+    "palmetto bug vs cockroach",
+    "palmetto bug vs american cockroach",
+    "palmetto bug vs german cockroach",
+    "palmetto bugs florida",
+    "do palmetto bugs fly",
+    "american cockroach"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1200,
+   "datePublished": "2027-01-04",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2027-01-04",
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "h1Hint": "Palmetto Bugs: What They Are and How They Compare With Other Roaches",
+   "scope": "What people mean by \"palmetto bug\" (a regional name for large cockroaches, above all the American cockroach; check which other species the sources include), how it compares with the smokybrown, Florida woods and German cockroaches by photo (size, color, markings, wings and flight), why these roaches come indoors in the South, and whether one sighting means an infestation. Folds in the taxonomy's american-cockroaches page: build this one, not both. /blog/bugs-that-look-like-cockroaches trims its palmetto bug section to a summary that links here; /learn/cockroaches keeps its American cockroach section and links here; /blog/water-bugs-vs-cockroaches keeps the giant water bug angle (link both ways).",
+   "dataPacket": null,
+   "metaTitleHint": "Palmetto Bug or Cockroach? How to Tell (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/bugs-that-look-like-cockroaches",
+     "overlap": "section \"Is a palmetto bug a different insect from a cockroach?\"",
+     "resolution": "trim to a two-sentence summary that links here"
+    },
+    {
+     "path": "/learn/cockroaches",
+     "overlap": "American cockroach section",
+     "resolution": "keeps it; links here"
+    },
+    {
+     "path": "/blog/water-bugs-vs-cockroaches",
+     "overlap": "which cockroaches people call water bugs",
+     "resolution": "link both ways; water bugs keep the giant water bug angle"
+    },
+    {
+     "path": "american-cockroaches (new)",
+     "overlap": "the taxonomy's American cockroach species page (priority 3)",
+     "resolution": "folded into this page (next-50, Oct 16): build one, not both"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/cockroaches"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "cockroach-eggs",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "cockroaches",
+   "path": "/blog/cockroach-eggs",
+   "keyword": "what do cockroach eggs look like",
+   "alsoTargets": [
+    "cockroach eggs",
+    "roach eggs",
+    "cockroach egg case",
+    "ootheca",
+    "german cockroach eggs",
+    "american cockroach eggs"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1000,
+   "datePublished": "2027-01-04",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2027-01-04",
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "h1Hint": "What Do Cockroach Eggs Look Like? Egg Cases Species by Species",
+   "scope": "What cockroach egg cases (oothecae) look like, species by species: the German cockroach's case, which the female carries, against the cases American and other cockroaches drop or glue down; size, color, shape and egg count from the sources; where to look; what hatched and empty cases look like. Photo on record: a female German cockroach carrying her egg case; American and brown-banded egg cases are still needed. /blog/german-cockroaches keeps its short egg case section and links here; link /blog/what-do-baby-cockroaches-look-like both ways.",
+   "dataPacket": null,
+   "metaTitleHint": "What Do Cockroach Eggs Look Like? (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/german-cockroaches",
+     "overlap": "short section on nymphs and egg cases",
+     "resolution": "keeps the short section; links here"
+    },
+    {
+     "path": "/blog/what-do-baby-cockroaches-look-like",
+     "overlap": "what hatches from the egg case",
+     "resolution": "link both ways"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/cockroaches"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "rat-droppings",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mice",
+   "path": "/blog/rat-droppings",
+   "keyword": "rat droppings",
+   "alsoTargets": [
+    "rat poop",
+    "what does rat poop look like",
+    "rat droppings vs mouse droppings",
+    "rat droppings pictures",
+    "rat droppings vs squirrel droppings"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1000,
+   "datePublished": "2027-01-04",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2027-01-04",
+   "parent": {
+    "href": "/learn/mice",
+    "name": "Mice"
+   },
+   "h1Hint": "Rat Droppings: What Rat Poop Looks Like and How to Clean It Up Safely",
+   "scope": "What rat droppings look like (size, shape, color, fresh against old), how they differ from mouse droppings and other look-alikes, where they collect, and how to clean them up by CDC's guidance. Scoped to rats: /blog/what-does-mouse-poop-look-like-canada keeps mouse droppings, so link it for mice. Photos on record: rat droppings on a tabletop and rodent droppings in a drawer (both public domain), mouse droppings beside a ruler; a rat-droppings photo with a scale is still wanted.",
+   "dataPacket": null,
+   "metaTitleHint": "Rat Droppings: What Rat Poop Looks Like (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/what-does-mouse-poop-look-like-canada",
+     "overlap": "mouse droppings with a short rat comparison (17,248 impressions in 90 days, CTR 0.28%)",
+     "resolution": "keeps mice; this page owns rat droppings and links back for mice"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mice"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "mouse-nest",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "mice",
+   "path": "/blog/mouse-nest",
+   "keyword": "what does a mouse nest look like",
+   "alsoTargets": [
+    "mouse nest",
+    "mouse nest in car",
+    "rat nest vs mouse nest",
+    "mouse nest in wall",
+    "mouse nest in attic"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1000,
+   "datePublished": "2027-01-04",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2027-01-04",
+   "parent": {
+    "href": "/learn/mice",
+    "name": "Mice"
+   },
+   "h1Hint": "What Does a Mouse Nest Look Like? Materials, Size and Where to Look",
+   "scope": "What a mouse nest looks like (the materials, shape and size), where mice build them in a house or a car, how to tell an active nest from an old one, and how a rat nest differs. Appearance and location only: /blog/baby-mice keeps what finding baby mice means and /blog/mice-removal the cleanup steps; link both instead of repeating them. Any cleanup or disease statement follows CDC. Photo on record: a deer mouse in its nest (public domain); a house mouse nest is still needed.",
+   "dataPacket": null,
+   "metaTitleHint": "What Does a Mouse Nest Look Like? (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/baby-mice",
+     "overlap": "section \"What does finding a nest of baby mice mean?\"",
+     "resolution": "keeps the baby-mice angle; this page owns what a nest looks like and where it is"
+    },
+    {
+     "path": "/blog/mice-removal",
+     "overlap": "nest cleanup steps",
+     "resolution": "link for cleanup instead of repeating it"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/mice"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "springtails",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "household",
+   "path": "/blog/springtails",
+   "keyword": "springtails",
+   "alsoTargets": [
+    "springtails in house",
+    "springtails vs fleas",
+    "tiny jumping bugs",
+    "springtails in bathroom",
+    "springtails in plant soil"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 900,
+   "datePublished": "2027-01-04",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "us",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2027-01-04",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Springtails: The Tiny Jumping Bugs That Get Mistaken for Fleas",
+   "scope": "Springtails for US readers: what they look like, how they jump, why they gather in damp bathrooms, basements and houseplant soil, how to tell them from fleas, and what the sources advise (moisture first). Conditional (next-50): build only once /blog/bugs-that-look-like-fleas shows springtail impressions in the US. No springtail photo is on record yet.",
+   "dataPacket": null,
+   "metaTitleHint": "Springtails: Tiny Jumping Bugs, Not Fleas",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "bugs-that-look-like-fleas (new)",
+     "overlap": "springtail section",
+     "resolution": "link"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "cockroach-droppings",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "cockroaches",
+   "path": "/blog/cockroach-droppings",
+   "keyword": "cockroach poop",
+   "alsoTargets": [
+    "cockroach droppings",
+    "cockroach poop vs mouse poop",
+    "cockroach poop on walls",
+    "cockroach poop vs eggs",
+    "roach droppings"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 900,
+   "datePublished": "2027-01-04",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2027-01-04",
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "h1Hint": "Cockroach Poop: What Roach Droppings Look Like and What They Mean",
+   "scope": "What cockroach droppings look like for small and large species, smear marks, how they differ from mouse droppings and egg cases, where they collect and what they say about an infestation, and the allergy and asthma link from health sources. Conditional (next-50): build last, only if cockroach-eggs and rat-droppings are drawing US impressions by then. No cockroach-droppings photo is on record yet.",
+   "dataPacket": null,
+   "metaTitleHint": "Cockroach Poop: What Roach Droppings Look Like",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/learn/cockroaches",
+     "overlap": "signs of an infestation section",
+     "resolution": "link"
+    },
+    {
+     "path": "rat-droppings (new)",
+     "overlap": "droppings comparison",
+     "resolution": "link"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/cockroaches"
     ],
     "neighbors": [],
     "minNeighbors": 0,

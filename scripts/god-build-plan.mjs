@@ -80,18 +80,34 @@ for (const se of SERIES) {
 const extraFile = join(DIR, 'extra-pages.json')
 if (existsSync(extraFile)) for (const e of JSON.parse(readFileSync(extraFile, 'utf8')).pages) pages.push({ section: 'blog', role: 'page', minExisting: 2, mustLink: [], neighbors: [], minNeighbors: 0, ...e })
 
+// hubs that are not being built for now: "deferredHubs" in data/god-build/release-overrides.json
+// (Oct 16, 2026: hub pages earn almost no search traffic here, see data/god-build/next-50.md). A
+// page under one goes out under the Learning Centre and no longer has to link the hub, so the
+// release job does not hold it back for a hub that is not coming. Taking a hub off the list moves
+// its pages back under it, live ones included: update and re-check their files in the same commit
+// (the validator compares each page's parent with this plan).
+const ovrFile = join(DIR, 'release-overrides.json')
+const OVERRIDES = existsSync(ovrFile) ? JSON.parse(readFileSync(ovrFile, 'utf8')) : {}
+const DEFERRED = new Set(OVERRIDES.deferredHubs || [])
+for (const p of pages) {
+  if (!p.parent || !DEFERRED.has(p.parent.href)) continue
+  p.mustLink = (p.mustLink || []).filter((href) => href !== p.parent.href)
+  p.parent = { href: '/learn', name: 'Learning Centre' }
+}
+
 // dates: PER_WEEK pages every Monday from START, in the order above, unless a page has its own
 // date or is already live (its date then stays what it was). data/god-build/release-overrides.json
 // moves single pages to another day (the owner's call); an overridden page still uses its slot, so
 // every other page keeps its date.
 const prev = existsSync(join(DIR, 'plan.src.json')) ? Object.fromEntries(JSON.parse(readFileSync(join(DIR, 'plan.src.json'), 'utf8')).pages.map((p) => [p.slug, p.releaseOn])) : {}
-const ovrFile = join(DIR, 'release-overrides.json')
-const OVR = existsSync(ovrFile) ? JSON.parse(readFileSync(ovrFile, 'utf8')).releaseOn || {} : {}
+const OVR = OVERRIDES.releaseOn || {}
 const addDays = (iso, n) => new Date(Date.parse(`${iso}T00:00:00Z`) + n * 864e5).toISOString().slice(0, 10)
 let slot = 0
 for (const p of pages) {
   const live = existsSync(join(ROOT, 'content', 'guides', `${p.slug}.json`))
-  if (live && prev[p.slug]) { p.releaseOn = prev[p.slug]; continue }
+  // a live page keeps its slot as well as its date (Oct 16, 2026): without this, the 37 pages
+  // released early moved 230 later pages a week earlier on the next run
+  if (live && prev[p.slug]) { if (!p.releaseOn) slot++; p.releaseOn = prev[p.slug]; continue }
   if (p.releaseOn) continue
   p.releaseOn = OVR[p.slug] || addDays(START, 7 * Math.floor(slot / PER_WEEK))
   slot++

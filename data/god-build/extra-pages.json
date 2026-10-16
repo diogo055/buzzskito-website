@@ -6447,6 +6447,596 @@
    ],
    "family": "garden",
    "priority": 3
+  },
+  {
+   "slug": "tiny-black-bugs",
+   "section": "blog",
+   "role": "page",
+   "cluster": "household",
+   "audience": "na",
+   "keyword": "tiny black bugs in house",
+   "alsoTargets": [
+    "tiny black bugs",
+    "little black bugs in house",
+    "tiny black bugs that bite",
+    "tiny black bugs that jump",
+    "tiny black bugs in bathroom",
+    "tiny black bugs in bed"
+   ],
+   "h1Hint": "Tiny Black Bugs in the House: What They Are, by Where You Found Them",
+   "metaTitleHint": "Tiny Black Bugs in the House? ID Them (Photos)",
+   "scope": "A \"where did you find it\" sorter for tiny black bugs indoors: kitchen and pantry, bathroom and drains, bed and carpet, windows, houseplants. Candidates with photos on record: carpet beetle, spider beetle, red flour beetle, cigarette beetle, rice weevil, fungus gnat, phorid fly and cat flea (a springtail photo is still needed). Each gets a photo, its size and the one feature that settles it, then the next step. The tick angle stays on /blog/bugs-that-look-like-ticks, which Google already shows for most tiny-black-bug searches: summarize and link, do not repeat it.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1300,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/household-bugs",
+    "name": "Household Bugs"
+   },
+   "mustLink": [
+    "/learn/household-bugs"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/bugs-that-look-like-ticks",
+     "overlap": "small black bugs that look like ticks (carpet beetles, spider beetles); Google shows it for 688 of the 762 tiny-black-bug impressions in 90 days",
+     "resolution": "keeps the tick angle; this page is the location-first entry point and links to it"
+    },
+    {
+     "path": "/blog/bugs-that-look-like-bed-bugs",
+     "overlap": "carpet beetles, spider beetles",
+     "resolution": "link"
+    }
+   ],
+   "family": "household",
+   "priority": 2
+  },
+  {
+   "slug": "flea-eggs",
+   "section": "blog",
+   "role": "page",
+   "cluster": "household",
+   "audience": "na",
+   "keyword": "what do flea eggs look like",
+   "alsoTargets": [
+    "flea eggs",
+    "flea eggs vs dandruff",
+    "flea eggs on dog",
+    "flea eggs in carpet",
+    "flea dirt vs flea eggs",
+    "flea larvae"
+   ],
+   "h1Hint": "What Do Flea Eggs Look Like? Eggs, Larvae and Flea Dirt Compared",
+   "metaTitleHint": "What Do Flea Eggs Look Like? (Photos)",
+   "scope": "Flea eggs, flea larvae and flea dirt: what each looks like at life size and magnified, where they collect (pet bedding, carpet, resting spots), how to tell them from dandruff, sand and household dirt, and what finding them means. Split with what-do-fleas-look-like (planned): that page is the adult flea on pets, people and furniture, this one the eggs, larvae and flea dirt; say so on both and link. Treatment belongs to how-to-get-rid-of-fleas (planned): link it, no product advice here.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1000,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/fleas",
+    "name": "Fleas"
+   },
+   "mustLink": [
+    "/learn/fleas"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "what-do-fleas-look-like (new)",
+     "overlap": "flea life stages",
+     "resolution": "that page is the adult flea on pets, people and furniture; this page is eggs, larvae and flea dirt; the split is stated on both"
+    }
+   ],
+   "family": "fleas",
+   "priority": 2
+  },
+  {
+   "slug": "rat-vs-mouse",
+   "section": "blog",
+   "role": "page",
+   "cluster": "mice",
+   "keyword": "rat vs mouse",
+   "alsoTargets": [
+    "mouse vs rat",
+    "rat vs mouse droppings",
+    "rat vs mouse size",
+    "rat vs mouse pictures",
+    "baby rat vs mouse",
+    "rat or mouse"
+   ],
+   "h1Hint": "Rat vs Mouse: How to Tell Them Apart by Size, Tail, Ears and Droppings",
+   "metaTitleHint": "Rat vs Mouse: How to Tell Them Apart (Photos)",
+   "scope": "Adult rats and mice side by side for US readers: body and tail length, head, ears and snout, droppings, gnaw marks and entry holes, and the young rat that gets mistaken for an adult mouse. Photo comparison first, then a trait table. /blog/types-of-mice keeps a two-sentence young-rat summary and /blog/baby-mice its baby rat or mouse section: link both. Droppings appear here as one trait; /blog/what-does-mouse-poop-look-like-canada and rat-droppings (planned) carry the detail. Disease and cleanup statements follow CDC.",
+   "pageType": "comparison",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1200,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/mice",
+    "name": "Mice"
+   },
+   "mustLink": [
+    "/learn/mice"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/types-of-mice",
+     "overlap": "section \"Young rats\" (a look-alike of a mouse)",
+     "resolution": "keeps a two-sentence summary and links here"
+    },
+    {
+     "path": "/blog/baby-mice",
+     "overlap": "section \"Is it a baby mouse or a baby rat?\"",
+     "resolution": "keeps it; links here for adults"
+    },
+    {
+     "path": "/blog/what-does-mouse-poop-look-like-canada",
+     "overlap": "droppings comparison",
+     "resolution": "link; this page shows droppings only as one trait"
+    }
+   ],
+   "family": "look-alikes",
+   "priority": 2
+  },
+  {
+   "slug": "roof-rat-vs-norway-rat",
+   "section": "blog",
+   "role": "page",
+   "cluster": "mice",
+   "keyword": "roof rat vs norway rat",
+   "alsoTargets": [
+    "norway rat vs roof rat",
+    "roof rat",
+    "norway rat",
+    "types of rats",
+    "roof rat vs norway rat droppings",
+    "roof rat vs norway rat pictures"
+   ],
+   "h1Hint": "Roof Rat vs Norway Rat: Tail, Ears, Droppings and Where Each Lives",
+   "metaTitleHint": "Roof Rat vs Norway Rat: How to Tell (Photos)",
+   "scope": "The two rats that live in US buildings, told apart by photo: tail length against head and body, ears, snout and build, droppings, where each nests in a building, and their US ranges. Identification only: control stays on /blog/how-to-get-rid-of-rats-canada (link both ways) and the rat-or-mouse question on rat-vs-mouse (planned).",
+   "pageType": "comparison",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1100,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/mice",
+    "name": "Mice"
+   },
+   "mustLink": [
+    "/learn/mice"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/how-to-get-rid-of-rats-canada",
+     "overlap": "Canadian control page that names both species",
+     "resolution": "link both ways; identification here, control there"
+    }
+   ],
+   "family": "look-alikes",
+   "priority": 2
+  },
+  {
+   "slug": "bugs-in-house-in-winter",
+   "section": "blog",
+   "role": "page",
+   "cluster": "household",
+   "audience": "na",
+   "keyword": "bugs in house in winter",
+   "alsoTargets": [
+    "winter bugs in house",
+    "beetles in house in winter",
+    "stink bugs in house in winter",
+    "lady bugs in house in winter",
+    "small bugs in house in winter",
+    "boxelder bugs in house in winter"
+   ],
+   "h1Hint": "Bugs in the House in Winter: What They Are and Why They Came Inside",
+   "metaTitleHint": "Bugs in the House in Winter: What They Are",
+   "scope": "The insects people find indoors from November to March and why they are there: overwintering invaders (Asian lady beetles, brown marmorated stink bugs, boxelder bugs, cluster flies, western conifer seed bugs) and the indoor regulars noticed more in winter (house centipedes, cellar spiders, silverfish). A photo for each, how it got in, whether it can breed indoors, and the one thing to do. The entry point for the overwintering pages: link the Canadian control pages (stink bugs, boxelder bugs, cluster flies) and the US editions once they are live.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1300,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/household-bugs",
+    "name": "Household Bugs"
+   },
+   "mustLink": [
+    "/learn/household-bugs"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/how-to-get-rid-of-stink-bugs-canada",
+     "overlap": "overwintering invaders, Canadian control pages",
+     "resolution": "link to the Canadian pages, and to the US editions once they exist"
+    }
+   ],
+   "family": "household",
+   "priority": 2
+  },
+  {
+   "slug": "bugs-that-look-like-fleas",
+   "section": "blog",
+   "role": "page",
+   "cluster": "household",
+   "audience": "na",
+   "keyword": "bugs that look like fleas",
+   "alsoTargets": [
+    "bugs that look like fleas and jump",
+    "bugs that look like fleas and bite",
+    "springtails vs fleas",
+    "what are the little bugs that look like fleas",
+    "flea vs bed bug"
+   ],
+   "h1Hint": "Bugs That Look Like Fleas: How to Tell Each One From a Real Flea",
+   "metaTitleHint": "Bugs That Look Like Fleas: How to Tell (Photos)",
+   "scope": "Insects and mites mistaken for fleas, each set against a real flea: springtails, flea beetles, bat bugs, carpet beetle larvae and bird mites, with the jump, body shape and where-found clues that separate them, and which of them bite. The same format as /blog/bugs-that-look-like-ticks and /blog/bugs-that-look-like-cockroaches. /blog/bugs-that-look-like-bed-bugs keeps its flea section and /blog/flea-bites-on-humans keeps the bites: link both.",
+   "pageType": "comparison",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1300,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/fleas",
+    "name": "Fleas"
+   },
+   "mustLink": [
+    "/learn/fleas"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/bugs-that-look-like-bed-bugs",
+     "overlap": "a fleas section",
+     "resolution": "keeps it; links here"
+    },
+    {
+     "path": "/blog/flea-bites-on-humans",
+     "overlap": "bites, not the insects",
+     "resolution": "link both ways"
+    }
+   ],
+   "family": "look-alikes",
+   "priority": 2
+  },
+  {
+   "slug": "spider-egg-sacs",
+   "section": "blog",
+   "role": "page",
+   "cluster": "spiders",
+   "audience": "na",
+   "keyword": "spider egg sac",
+   "alsoTargets": [
+    "spider egg sac identification",
+    "spider egg sac in house",
+    "spider egg sac on wall",
+    "spider egg sac with spikes",
+    "spider egg sac pictures",
+    "how long do spider eggs take to hatch"
+   ],
+   "h1Hint": "Spider Egg Sacs: Which Spider Made It, and What to Do About It",
+   "metaTitleHint": "Spider Egg Sacs: Which Spider Made It? (Photos)",
+   "scope": "Which spider made this egg sac: a photo sorter by shape and place (the brown widow's spiky sacs, round papery sacs in house spider webs, sacs on orb weaver webs, sacs a female wolf spider carries), whether a sac indoors means more spiders, how long hatching takes and how to remove one. Photos on record: brown widow egg sacs and a wolf spider carrying spiderlings (spiderlings, not an egg sac); house spider and orb weaver egg sacs are still needed. Link /blog/how-to-keep-spiders-out-of-your-house for prevention.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1100,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/spiders",
+    "name": "Spiders"
+   },
+   "mustLink": [
+    "/learn/spiders"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/how-to-keep-spiders-out-of-your-house",
+     "overlap": "a mention of egg sacs",
+     "resolution": "link"
+    }
+   ],
+   "family": "spider-id",
+   "priority": 2
+  },
+  {
+   "slug": "palmetto-bugs",
+   "section": "blog",
+   "role": "page",
+   "cluster": "cockroaches",
+   "keyword": "palmetto bug",
+   "alsoTargets": [
+    "palmetto bug vs cockroach",
+    "palmetto bug vs american cockroach",
+    "palmetto bug vs german cockroach",
+    "palmetto bugs florida",
+    "do palmetto bugs fly",
+    "american cockroach"
+   ],
+   "h1Hint": "Palmetto Bugs: What They Are and How They Compare With Other Roaches",
+   "metaTitleHint": "Palmetto Bug or Cockroach? How to Tell (Photos)",
+   "scope": "What people mean by \"palmetto bug\" (a regional name for large cockroaches, above all the American cockroach; check which other species the sources include), how it compares with the smokybrown, Florida woods and German cockroaches by photo (size, color, markings, wings and flight), why these roaches come indoors in the South, and whether one sighting means an infestation. Folds in the taxonomy's american-cockroaches page: build this one, not both. /blog/bugs-that-look-like-cockroaches trims its palmetto bug section to a summary that links here; /learn/cockroaches keeps its American cockroach section and links here; /blog/water-bugs-vs-cockroaches keeps the giant water bug angle (link both ways).",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1200,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "mustLink": [
+    "/learn/cockroaches"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/bugs-that-look-like-cockroaches",
+     "overlap": "section \"Is a palmetto bug a different insect from a cockroach?\"",
+     "resolution": "trim to a two-sentence summary that links here"
+    },
+    {
+     "path": "/learn/cockroaches",
+     "overlap": "American cockroach section",
+     "resolution": "keeps it; links here"
+    },
+    {
+     "path": "/blog/water-bugs-vs-cockroaches",
+     "overlap": "which cockroaches people call water bugs",
+     "resolution": "link both ways; water bugs keep the giant water bug angle"
+    },
+    {
+     "path": "american-cockroaches (new)",
+     "overlap": "the taxonomy's American cockroach species page (priority 3)",
+     "resolution": "folded into this page (next-50, Oct 16): build one, not both"
+    }
+   ],
+   "family": "household",
+   "priority": 2
+  },
+  {
+   "slug": "cockroach-eggs",
+   "section": "blog",
+   "role": "page",
+   "cluster": "cockroaches",
+   "keyword": "what do cockroach eggs look like",
+   "alsoTargets": [
+    "cockroach eggs",
+    "roach eggs",
+    "cockroach egg case",
+    "ootheca",
+    "german cockroach eggs",
+    "american cockroach eggs"
+   ],
+   "h1Hint": "What Do Cockroach Eggs Look Like? Egg Cases Species by Species",
+   "metaTitleHint": "What Do Cockroach Eggs Look Like? (Photos)",
+   "scope": "What cockroach egg cases (oothecae) look like, species by species: the German cockroach's case, which the female carries, against the cases American and other cockroaches drop or glue down; size, color, shape and egg count from the sources; where to look; what hatched and empty cases look like. Photo on record: a female German cockroach carrying her egg case; American and brown-banded egg cases are still needed. /blog/german-cockroaches keeps its short egg case section and links here; link /blog/what-do-baby-cockroaches-look-like both ways.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1000,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "mustLink": [
+    "/learn/cockroaches"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/german-cockroaches",
+     "overlap": "short section on nymphs and egg cases",
+     "resolution": "keeps the short section; links here"
+    },
+    {
+     "path": "/blog/what-do-baby-cockroaches-look-like",
+     "overlap": "what hatches from the egg case",
+     "resolution": "link both ways"
+    }
+   ],
+   "family": "household",
+   "priority": 2
+  },
+  {
+   "slug": "rat-droppings",
+   "section": "blog",
+   "role": "page",
+   "cluster": "mice",
+   "keyword": "rat droppings",
+   "alsoTargets": [
+    "rat poop",
+    "what does rat poop look like",
+    "rat droppings vs mouse droppings",
+    "rat droppings pictures",
+    "rat droppings vs squirrel droppings"
+   ],
+   "h1Hint": "Rat Droppings: What Rat Poop Looks Like and How to Clean It Up Safely",
+   "metaTitleHint": "Rat Droppings: What Rat Poop Looks Like (Photos)",
+   "scope": "What rat droppings look like (size, shape, color, fresh against old), how they differ from mouse droppings and other look-alikes, where they collect, and how to clean them up by CDC's guidance. Scoped to rats: /blog/what-does-mouse-poop-look-like-canada keeps mouse droppings, so link it for mice. Photos on record: rat droppings on a tabletop and rodent droppings in a drawer (both public domain), mouse droppings beside a ruler; a rat-droppings photo with a scale is still wanted.",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1000,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/mice",
+    "name": "Mice"
+   },
+   "mustLink": [
+    "/learn/mice"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/what-does-mouse-poop-look-like-canada",
+     "overlap": "mouse droppings with a short rat comparison (17,248 impressions in 90 days, CTR 0.28%)",
+     "resolution": "keeps mice; this page owns rat droppings and links back for mice"
+    }
+   ],
+   "family": "household",
+   "priority": 2
+  },
+  {
+   "slug": "mouse-nest",
+   "section": "blog",
+   "role": "page",
+   "cluster": "mice",
+   "keyword": "what does a mouse nest look like",
+   "alsoTargets": [
+    "mouse nest",
+    "mouse nest in car",
+    "rat nest vs mouse nest",
+    "mouse nest in wall",
+    "mouse nest in attic"
+   ],
+   "h1Hint": "What Does a Mouse Nest Look Like? Materials, Size and Where to Look",
+   "metaTitleHint": "What Does a Mouse Nest Look Like? (Photos)",
+   "scope": "What a mouse nest looks like (the materials, shape and size), where mice build them in a house or a car, how to tell an active nest from an old one, and how a rat nest differs. Appearance and location only: /blog/baby-mice keeps what finding baby mice means and /blog/mice-removal the cleanup steps; link both instead of repeating them. Any cleanup or disease statement follows CDC. Photo on record: a deer mouse in its nest (public domain); a house mouse nest is still needed.",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1000,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/mice",
+    "name": "Mice"
+   },
+   "mustLink": [
+    "/learn/mice"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/baby-mice",
+     "overlap": "section \"What does finding a nest of baby mice mean?\"",
+     "resolution": "keeps the baby-mice angle; this page owns what a nest looks like and where it is"
+    },
+    {
+     "path": "/blog/mice-removal",
+     "overlap": "nest cleanup steps",
+     "resolution": "link for cleanup instead of repeating it"
+    }
+   ],
+   "family": "household",
+   "priority": 3
+  },
+  {
+   "slug": "springtails",
+   "section": "blog",
+   "role": "page",
+   "cluster": "household",
+   "keyword": "springtails",
+   "alsoTargets": [
+    "springtails in house",
+    "springtails vs fleas",
+    "tiny jumping bugs",
+    "springtails in bathroom",
+    "springtails in plant soil"
+   ],
+   "h1Hint": "Springtails: The Tiny Jumping Bugs That Get Mistaken for Fleas",
+   "metaTitleHint": "Springtails: Tiny Jumping Bugs, Not Fleas",
+   "scope": "Springtails for US readers: what they look like, how they jump, why they gather in damp bathrooms, basements and houseplant soil, how to tell them from fleas, and what the sources advise (moisture first). Conditional (next-50): build only once /blog/bugs-that-look-like-fleas shows springtail impressions in the US. No springtail photo is on record yet.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 900,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/household-bugs",
+    "name": "Household Bugs"
+   },
+   "mustLink": [
+    "/learn/household-bugs"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "bugs-that-look-like-fleas (new)",
+     "overlap": "springtail section",
+     "resolution": "link"
+    }
+   ],
+   "family": "household",
+   "priority": 3
+  },
+  {
+   "slug": "cockroach-droppings",
+   "section": "blog",
+   "role": "page",
+   "cluster": "cockroaches",
+   "audience": "na",
+   "keyword": "cockroach poop",
+   "alsoTargets": [
+    "cockroach droppings",
+    "cockroach poop vs mouse poop",
+    "cockroach poop on walls",
+    "cockroach poop vs eggs",
+    "roach droppings"
+   ],
+   "h1Hint": "Cockroach Poop: What Roach Droppings Look Like and What They Mean",
+   "metaTitleHint": "Cockroach Poop: What Roach Droppings Look Like",
+   "scope": "What cockroach droppings look like for small and large species, smear marks, how they differ from mouse droppings and egg cases, where they collect and what they say about an infestation, and the allergy and asthma link from health sources. Conditional (next-50): build last, only if cockroach-eggs and rat-droppings are drawing US impressions by then. No cockroach-droppings photo is on record yet.",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 900,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "mustLink": [
+    "/learn/cockroaches"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/learn/cockroaches",
+     "overlap": "signs of an infestation section",
+     "resolution": "link"
+    },
+    {
+     "path": "rat-droppings (new)",
+     "overlap": "droppings comparison",
+     "resolution": "link"
+    }
+   ],
+   "family": "household",
+   "priority": 3
   }
  ]
 }

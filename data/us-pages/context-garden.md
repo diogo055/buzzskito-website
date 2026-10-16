@@ -393,6 +393,19 @@
 - `/blog/crickets-in-house` — crickets in house
 - `/blog/chagas-disease` — chagas disease
 - `/blog/bark-scorpions` — bark scorpion
+- `/blog/tiny-black-bugs` — tiny black bugs in house
+- `/blog/flea-eggs` — what do flea eggs look like
+- `/blog/rat-vs-mouse` — rat vs mouse
+- `/blog/roof-rat-vs-norway-rat` — roof rat vs norway rat
+- `/blog/bugs-in-house-in-winter` — bugs in house in winter
+- `/blog/bugs-that-look-like-fleas` — bugs that look like fleas
+- `/blog/spider-egg-sacs` — spider egg sac
+- `/blog/palmetto-bugs` — palmetto bug
+- `/blog/cockroach-eggs` — what do cockroach eggs look like
+- `/blog/rat-droppings` — rat droppings
+- `/blog/mouse-nest` — what does a mouse nest look like
+- `/blog/springtails` — springtails
+- `/blog/cockroach-droppings` — cockroach poop
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

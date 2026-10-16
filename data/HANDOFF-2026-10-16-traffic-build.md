@@ -30,6 +30,61 @@ with SendUserFile.
 | Ahrefs | Key capped at 100,000 units (used up until Oct 26); workspace allows 200,000, so raising the key cap is FREE. Website: owner must sign in himself (one login at a time) |
 | Weekly usage | 49% on Oct 16 (resets Oct 20, 06:00 UTC). Run 5-6 agents at a time; ~0.5% of the week per page (writer + checker) |
 
+### Progress log
+
+- Oct 16: 37 tick pages live (5c04606c); 7 recrawl requests done.
+- Oct 16: photo upgrade wave 1 committed (17b50ae4): 50 credited photos on 14 pages (flea bites,
+  bed bug poop/shells/look-alikes/instant kill, centipedes, boxelder bugs, drain flies, carpet
+  beetles, cluster flies, fruit flies, spider vs mosquito bite, types of ticks, baby ticks); new
+  search titles on 12 from their top GSC queries (TITLE NOTE comments), UPDATED 2026-10-16,
+  sitemap set ARTICLES_PHOTOS_OCT16; black widow fact fixed (two species in Canada);
+  /pest-product-guides counts now computed at build time (lib/product-guide-counts.ts: 329).
+  Scratch scripts: session scratchpad titles-oct16.mjs (titles + dates + sitemap in one pass).
+- Waiting: photo scout batch 4 (mice, rats, droppings, cockroach species, male mosquito, pantry
+  pests) -> then wave 2: what-does-mouse-poop-look-like-canada (505+423+193 impressions, ~1 click),
+  male-vs-female-mosquito (~4,000 impressions, 5 clicks), how-to-get-rid-of-cockroaches-canada,
+  mice pages. Fix the bed-bug-signs ledger subject (its source does not say cast skins/fecal spots).
+- Oct 16 research DONE: `data/god-build/next-50.md` + `.json` (50 pages ranked by expected Google
+  clicks Nov-Mar, 4 build waves, fields: targetQuery, variants, format, evidence, overlap
+  decision, photos, estimate, confidence, buildWave). Expected ~638 clicks/month Nov-Mar
+  (255-1,907). CTR by format on this site: look-alike 1.0-1.5%, bite pages up to ~2%,
+  single-answer pages 0.15-0.36% even with photos. Single-species head terms show a knowledge
+  panel + Wikipedia (out of reach); comparison / look-alike / "bugs in my house" SERPs are
+  winnable. Verdicts: spiders-in-<state> = PILOT 3 (TX, FL, CA; judge Jan 15-31: 300+ impressions
+  in 28 days and position <= 12 on 2 of 3 -> build 10 more Feb-Jun); US pest-ID hub = NO (hubs get
+  12-34 impressions in 5 days vs 372-665 for spokes); defer all 83 remaining tick/mosquito series
+  pages (write Jan 5-Feb 20, release Feb 2-Mar 16).
+- Wave 1 (12): pantry-pests, tiny-black-bugs*, how-to-get-rid-of-carpet-beetles (US edition),
+  /learn/bug-bites (photo bite chart), venomous-spiders, asian-lady-beetles, flea-eggs*,
+  rat-vs-mouse*, roof-rat-vs-norway-rat*, bugs-in-house-in-winter*, brown-recluse-look-alikes,
+  bugs-that-look-like-fleas* (*new, not yet in taxonomy.src.json). Waves 2-4 in next-50.json.
+- DECIDED plumbing (Oct 16): do NOT build topic hubs just to unblock children; pages whose parent
+  hub is not being built (/learn/household-bugs, /learn/spiders, ...) get parent /learn and no
+  hub mustLink via a deferred-hubs rule in the planner; new pages go into taxonomy.src.json;
+  wave-1 slugs get releaseOn = today in release-overrides.json so each goes live the morning
+  after its fact-check is committed and pushed. A photo-ID writer brief is needed (state-page
+  WRITER_BRIEF does not fit): photo-led roundup/comparison/bite formats, ledger photos only,
+  US spelling for audience na, no retailer links, sources inline, validator + checker as usual.
+- Context note: this session reached 82% context at ~05:10 UTC Oct 16.
+- Oct 16 ~05:30 UTC: photo batch 4 committed (51c4fc1d): 37 photos, 247 on record (mice, rats,
+  droppings, German/Oriental/brown-banded cockroaches, aedes-aegypti-male +
+  culex-quinquefasciatus-male, pantry pests, bed bug cast skins); caveats per photo in
+  data/god-build/photo-notes-batch4.json. NOT PUSHED YET: 17b50ae4 + 51c4fc1d (+ what follows).
+- Running at that time: (1) integration agent: deferredHubs rule in god-build-plan.mjs, 13 new
+  pages into taxonomy.src.json, wave-1 releaseOn 2026-10-16 in release-overrides.json, regenerated
+  plans, new brief data/god-build/WRITER_BRIEF_PHOTO_ID.md; (2) upgrade wave 2 agent:
+  what-does-mouse-poop-look-like-canada, male-vs-female-mosquito, how-to-get-rid-of-cockroaches-canada,
+  how-to-keep-mice-out-of-your-car, mouse-repellent-canada, mouse-bait-station-canada,
+  bed-bug-shells (cast-skin photos), plus the bed-bug-signs ledger subject fix.
+- NEXT, in order: (a) when wave 2 is back: run the session scratchpad script titles-oct16.mjs for
+  what-does-mouse-poop-look-like-canada + male-vs-female-mosquito (titles already in it; add
+  null-title entries for the cockroach and mice pages so they get UPDATED + sitemap set), verify
+  affiliate tokens (loop in section 5 of PHOTO_UPGRADE_BRIEF), commit; (b) review the integration
+  agent's diff, commit; (c) npm run build --ignore-scripts (all guards), push `git push diogo
+  HEAD:main`, check Vercel + live pages; (d) launch wave-1 writers (6 at a time) with
+  WRITER_BRIEF_PHOTO_ID.md + the page's next-50 entry, then checkers (CHECKER_BRIEF.md), commit
+  page + data/us-pages/checked record, push; the daily Action releases them (releaseOn 2026-10-16).
+
 ## 3. Measured facts (do not re-derive)
 
 - GSC, 28 days to Oct 15: 749 pages, 837,759 impressions, 7,284 clicks (0.87%). 97% of

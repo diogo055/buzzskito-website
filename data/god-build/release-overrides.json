@@ -1,5 +1,5 @@
 {
- "_readme": "Pages moved off their computed release day (read by scripts/god-build-plan.mjs). Oct 16, 2026: the owner asked to publish the 37 fact-checked tick pages now instead of Nov 16, after the 86 North American guides reached 85% indexed in their first week.",
+ "_readme": "Pages moved off their computed release day, and hubs that are not being built (both read by scripts/god-build-plan.mjs). Oct 16, 2026: the owner asked to publish the 37 fact-checked tick pages now instead of Nov 16, after the 86 North American guides reached 85% indexed in their first week. Later on Oct 16: the 12 build-wave-1 pages of data/god-build/next-50.json are dated that day, so each goes live the morning after its fact-check is committed and pushed. deferredHubs: topic hubs we are not building for now (hub pages earn almost no search traffic here, see next-50.md); pages under them go out with the Learning Centre (/learn) as their parent and do not have to link the hub.",
  "releaseOn": {
   "ticks-by-province": "2026-10-16",
   "ticks-in-nova-scotia": "2026-10-16",
@@ -37,6 +37,25 @@
   "ticks-in-oklahoma": "2026-10-16",
   "ticks-in-alabama": "2026-10-16",
   "ticks-in-mississippi": "2026-10-16",
-  "ticks-in-south-carolina": "2026-10-16"
- }
+  "ticks-in-south-carolina": "2026-10-16",
+  "pantry-pests": "2026-10-16",
+  "tiny-black-bugs": "2026-10-16",
+  "bug-bites": "2026-10-16",
+  "how-to-get-rid-of-carpet-beetles": "2026-10-16",
+  "asian-lady-beetles": "2026-10-16",
+  "bugs-in-house-in-winter": "2026-10-16",
+  "rat-vs-mouse": "2026-10-16",
+  "roof-rat-vs-norway-rat": "2026-10-16",
+  "venomous-spiders": "2026-10-16",
+  "brown-recluse-look-alikes": "2026-10-16",
+  "bugs-that-look-like-fleas": "2026-10-16",
+  "flea-eggs": "2026-10-16"
+ },
+ "deferredHubs": [
+  "/learn/household-bugs",
+  "/learn/spiders",
+  "/learn/fleas",
+  "/learn/mites",
+  "/learn/biting-flies"
+ ]
 }

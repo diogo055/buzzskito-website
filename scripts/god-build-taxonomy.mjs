@@ -19,6 +19,7 @@ const CLUSTER = {
   spiders: 'spiders', scorpions: 'spiders', 'stinging-insects': 'wasps', flies: 'flies', mites: 'mites',
   household: 'household', fleas: 'household', 'kissing-bugs': 'household', bites: 'bites',
   ticks: 'ticks', mosquitoes: 'mosquitoes', 'bed-bugs': 'bed-bugs', ants: 'ants', cockroaches: 'cockroaches', garden: 'garden',
+  mice: 'mice', // the rat and mouse pages added from data/god-build/next-50.json (Oct 16, 2026)
 }
 
 const keep = tax.pages.filter((p) => !p.gate && (p.role === 'page' || p.role === 'hub'))
