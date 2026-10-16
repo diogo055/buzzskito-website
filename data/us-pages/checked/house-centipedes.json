@@ -6,5 +6,10 @@
  "claimsChecked": 208,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 4,
- "checkedOn": "2026-10-16"
+ "checkedOn": "2026-10-16",
+ "released": {
+  "on": "2026-10-16",
+  "scheduledFor": "2026-10-16",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

@@ -144,9 +144,9 @@
     "/blog/flea-eggs"
    ],
    "cards": [
-    "/blog/how-to-get-rid-of-stink-bugs-canada",
     "/blog/pantry-pests",
-    "/blog/best-spider-spray-canada"
+    "/blog/house-centipedes",
+    "/blog/how-to-get-rid-of-fleas"
    ],
    "bar": true
   },
@@ -1530,8 +1530,8 @@
    ],
    "cards": [
     "/blog/asian-lady-beetles",
-    "/blog/best-earwig-killer-canada",
-    "/blog/how-to-get-rid-of-carpet-beetles-canada"
+    "/blog/what-do-fleas-look-like",
+    "/blog/how-to-get-rid-of-fleas"
    ],
    "bar": true
   },
@@ -1584,9 +1584,9 @@
     "/blog/asian-lady-beetles"
    ],
    "cards": [
-    "/blog/how-to-get-rid-of-earwigs-canada",
     "/blog/bugs-in-house-in-winter",
-    "/blog/best-flea-bomb-canada"
+    "/blog/house-centipedes",
+    "/blog/how-to-get-rid-of-carpet-beetles"
    ],
    "bar": true
   },
@@ -2359,9 +2359,9 @@
     "/blog/pantry-pests"
    ],
    "cards": [
-    "/blog/best-flea-spray-for-home-canada",
-    "/blog/how-to-get-rid-of-earwigs-canada",
-    "/blog/bugs-in-house-in-winter"
+    "/blog/bugs-in-house-in-winter",
+    "/blog/tiny-black-bugs",
+    "/blog/what-do-fleas-look-like"
    ],
    "bar": true
   },
@@ -2551,6 +2551,20 @@
     "/blog/black-flies-ontario-when-they-come-out",
     "/blog/electric-fly-swatter"
    ]
+  },
+  "/blog/house-centipedes": {
+   "next": "/blog/tiny-black-bugs",
+   "related": [
+    "/blog/bugs-in-house-in-winter",
+    "/blog/how-to-get-rid-of-fleas",
+    "/blog/bugs-that-look-like-fleas"
+   ],
+   "cards": [
+    "/blog/asian-lady-beetles",
+    "/blog/flea-eggs",
+    "/blog/pantry-pests"
+   ],
+   "bar": true
   },
   "/blog/how-long-do-ants-live": {
    "next": "/blog/honeypot-ants",
@@ -2815,9 +2829,9 @@
     "/blog/bugs-in-house-in-winter"
    ],
    "cards": [
-    "/blog/flea-bites-on-humans",
-    "/blog/how-to-keep-spiders-out-of-your-house",
-    "/blog/tiny-black-bugs"
+    "/blog/tiny-black-bugs",
+    "/blog/house-centipedes",
+    "/blog/what-do-fleas-look-like"
    ],
    "bar": true
   },
@@ -2898,6 +2912,20 @@
     "/blog/earwig-traps-indoor-canada",
     "/blog/how-to-get-rid-of-spiders-in-house-canada"
    ]
+  },
+  "/blog/how-to-get-rid-of-fleas": {
+   "next": "/blog/flea-eggs",
+   "related": [
+    "/blog/tiny-black-bugs",
+    "/blog/house-centipedes",
+    "/blog/bugs-in-house-in-winter"
+   ],
+   "cards": [
+    "/blog/what-do-fleas-look-like",
+    "/blog/bugs-that-look-like-fleas",
+    "/blog/how-to-get-rid-of-carpet-beetles"
+   ],
+   "bar": true
   },
   "/blog/how-to-get-rid-of-fruit-flies": {
    "next": "/blog/best-fruit-fly-trap-canada",
@@ -4054,9 +4082,9 @@
     "/blog/bugs-in-house-in-winter"
    ],
    "cards": [
-    "/blog/how-to-get-rid-of-boxelder-bugs-canada",
-    "/blog/pantry-moth-traps-canada",
-    "/blog/best-air-purifier-for-dust-mites-canada"
+    "/blog/what-do-fleas-look-like",
+    "/blog/how-to-get-rid-of-fleas",
+    "/blog/asian-lady-beetles"
    ],
    "bar": true
   },
@@ -5223,9 +5251,9 @@
     "/blog/asian-lady-beetles"
    ],
    "cards": [
-    "/blog/how-to-get-rid-of-carpet-beetles-canada",
-    "/blog/what-does-a-spider-bite-look-like",
-    "/blog/best-centipede-killer-canada"
+    "/blog/how-to-get-rid-of-fleas",
+    "/blog/flea-eggs",
+    "/blog/what-do-fleas-look-like"
    ],
    "bar": true
   },
@@ -5508,6 +5536,20 @@
     "/blog/signs-of-bed-bugs-checklist",
     "/blog/dupray-vs-mcculloch-steamer-canada",
     "/blog/what-kills-bed-bugs-instantly-canada"
+   ],
+   "bar": true
+  },
+  "/blog/what-do-fleas-look-like": {
+   "next": "/blog/bugs-that-look-like-fleas",
+   "related": [
+    "/blog/house-centipedes",
+    "/blog/how-to-get-rid-of-carpet-beetles",
+    "/blog/pantry-pests"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-fleas",
+    "/blog/asian-lady-beetles",
+    "/blog/flea-eggs"
    ],
    "bar": true
   },

@@ -1,14 +1,5 @@
-release: 12 scheduled page(s) go live (2026-10-16)
+release: 3 scheduled page(s) go live (2026-10-16)
 
-- /learn/bug-bites
-- /blog/venomous-spiders
-- /blog/brown-recluse-look-alikes
-- /blog/how-to-get-rid-of-carpet-beetles
-- /blog/asian-lady-beetles
-- /blog/pantry-pests
-- /blog/tiny-black-bugs
-- /blog/flea-eggs
-- /blog/rat-vs-mouse
-- /blog/roof-rat-vs-norway-rat
-- /blog/bugs-in-house-in-winter
-- /blog/bugs-that-look-like-fleas
+- /blog/what-do-fleas-look-like
+- /blog/how-to-get-rid-of-fleas
+- /blog/house-centipedes

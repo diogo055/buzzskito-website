@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-239 images across 97 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+246 images across 100 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -433,6 +433,22 @@
 - Macro photo of a brown recluse's head from the front or above, identified by an arachnologist, sharp enough to show the six eyes in three separated pairs; public domain or CC0
 - Male southern house spider (Kukulcania hibernalis), identified to species, photographed from above to show its khaki color, long slender legs and the eight eyes grouped on a raised bump; public domain or CC0
 - Brown recluse identified by an arachnologist, photographed from above beside a ruler marked in inches, so readers can compare body length and leg span; public domain or CC0
+
+## /blog/what-do-fleas-look-like
+
+- Life-size photo, without magnification, of an adult cat flea on a white sock or white paper beside a ruler marked in inches, showing how small and dark a flea looks to the naked eye
+- Life-size photo of live adult fleas in a dog's or cat's parted fur near the base of the tail, with specks of flea dirt on the skin, beside a ruler marked in inches
+- Magnified side views of an adult dog flea (Ctenocephalides canis) and an adult cat flea at the same scale, showing the dog flea's rounder head and the short first spine of its cheek comb
+
+## /blog/how-to-get-rid-of-fleas
+
+- Photo of a fine-toothed flea comb pulled through a dog's or cat's coat over a white sink, with adult fleas and black flea dirt caught in its teeth, beside a ruler marked in inches
+- Magnified photo of cat flea cocoons tangled in carpet fibers, the silk coated with lint and pet hair, beside a ruler marked in inches
+
+## /blog/house-centipedes
+
+- Close-up photo of a young house centipede with fewer than 15 pairs of legs next to an adult, on a white surface beside a ruler marked in inches, so the leg count and the size difference are both visible
+- Side-by-side photos on a white background beside a ruler marked in inches: a house centipede, a giant redheaded centipede (Scolopendra heros) and a soil centipede, showing the differences in leg length, leg count and size
 
 ## /blog/how-to-get-rid-of-carpet-beetles
 

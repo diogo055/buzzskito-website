@@ -2,14 +2,14 @@
  "generated": "2026-10-16",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 135,
+  "newPagesBuilt": 138,
   "hubPages": 4,
-  "guides": 120,
+  "guides": 123,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 251,
-  "internalLinksInNewPages": 1736
+  "notBuilt": 248,
+  "internalLinksInNewPages": 1767
  },
  "pages": [
   {
@@ -104,7 +104,7 @@
    "wordCount": 2348,
    "faqs": 5,
    "sources": 11,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -136,7 +136,7 @@
    "wordCount": 5042,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -782,6 +782,54 @@
   },
   {
    "rank": null,
+   "keyword": "what do fleas look like",
+   "us_volume": null,
+   "url": "/blog/what-do-fleas-look-like",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "What Do Fleas Look Like? Up Close (Photos)",
+   "wordCount": 2281,
+   "faqs": 5,
+   "sources": 13,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of fleas",
+   "us_volume": null,
+   "url": "/blog/how-to-get-rid-of-fleas",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "How to Get Rid of Fleas in the House and Yard",
+   "wordCount": 3180,
+   "faqs": 6,
+   "sources": 11,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 8,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "house centipede",
+   "us_volume": null,
+   "url": "/blog/house-centipedes",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "House Centipede: Bites, ID and Control (Photos)",
+   "wordCount": 2843,
+   "faqs": 5,
+   "sources": 13,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "how to get rid of carpet beetles",
    "us_volume": null,
    "url": "/blog/how-to-get-rid-of-carpet-beetles",
@@ -792,7 +840,7 @@
    "wordCount": 2898,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -840,7 +888,7 @@
    "wordCount": 2698,
    "faqs": 6,
    "sources": 15,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -856,7 +904,7 @@
    "wordCount": 2030,
    "faqs": 6,
    "sources": 9,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 7,
    "status": "built"
   },
@@ -869,10 +917,10 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Bugs in House in Winter: What They Are (Photos)",
-   "wordCount": 2847,
+   "wordCount": 2849,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 21,
    "status": "built"
   },
@@ -888,7 +936,7 @@
    "wordCount": 2571,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -904,7 +952,7 @@
    "wordCount": 3921,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 43,
    "status": "built"
   },
@@ -920,7 +968,7 @@
    "wordCount": 4530,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1881,20 +1929,6 @@
   },
   {
    "rank": null,
-   "keyword": "what do fleas look like",
-   "url": "/blog/what-do-fleas-look-like",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "how to get rid of fleas",
-   "url": "/blog/how-to-get-rid-of-fleas",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "scabies vs bed bugs",
    "url": "/blog/scabies-vs-bed-bugs",
    "action": "new",
@@ -1988,13 +2022,6 @@
    "rank": null,
    "keyword": "how to get rid of ground wasps",
    "url": "/blog/how-to-get-rid-of-ground-wasps",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "house centipede",
-   "url": "/blog/house-centipedes",
    "action": "new",
    "status": "not built"
   },
@@ -3318,11 +3345,11 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "Bugs That Look Like Bed Bugs: How to Tell Apart",
-   "wordCount": 2497,
+   "wordCount": 2554,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 14,
-   "outboundInternalLinks": 13,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -3768,11 +3795,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Types of Mice: House, Deer and White-Footed",
-   "wordCount": 2780,
+   "wordCount": 2810,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 14,
-   "outboundInternalLinks": 11,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {

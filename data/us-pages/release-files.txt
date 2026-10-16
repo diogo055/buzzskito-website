@@ -346,6 +346,15 @@ app/blog/venomous-spiders/page.tsx
 content/guides/brown-recluse-look-alikes.json
 data/us-pages/checked/brown-recluse-look-alikes.json
 app/blog/brown-recluse-look-alikes/page.tsx
+content/guides/what-do-fleas-look-like.json
+data/us-pages/checked/what-do-fleas-look-like.json
+app/blog/what-do-fleas-look-like/page.tsx
+content/guides/how-to-get-rid-of-fleas.json
+data/us-pages/checked/how-to-get-rid-of-fleas.json
+app/blog/how-to-get-rid-of-fleas/page.tsx
+content/guides/house-centipedes.json
+data/us-pages/checked/house-centipedes.json
+app/blog/house-centipedes/page.tsx
 content/guides/how-to-get-rid-of-carpet-beetles.json
 data/us-pages/checked/how-to-get-rid-of-carpet-beetles.json
 app/blog/how-to-get-rid-of-carpet-beetles/page.tsx
