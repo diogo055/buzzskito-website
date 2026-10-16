@@ -1,0 +1,10 @@
+{
+ "id": "flea-eggs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "f18f026a556a0f59912dd519e10be86456e979820be1b54678e3a7397db6b8fd",
+ "claimsChecked": 281,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-16"
+}
