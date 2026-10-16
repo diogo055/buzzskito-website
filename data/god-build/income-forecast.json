@@ -1,0 +1,690 @@
+{
+ "_about": "Mediavine income forecast Nov 2026 - Dec 2027 for the God plan (scratchpad income-forecast.mjs, Oct 16, 2026). Model estimates, not measurements. Assumes ads start Dec 1, 2026, the full program in data/god-build/path-to-50k.md, session RPM US $22/$30/$40 with Mediavine seasonality, 1.30 sessions per Google click.",
+ "low": {
+  "rows": [
+   {
+    "month": "2026-11",
+    "clicks": 5178,
+    "sessions": 6732,
+    "pageviews": 7607,
+    "income": 0,
+    "parts": {
+     "existing": 4852,
+     "upgrades": 0,
+     "guides": 183,
+     "ticks": 49,
+     "photoId": 57,
+     "planned": 0,
+     "new500": 37
+    }
+   },
+   {
+    "month": "2026-12",
+    "clicks": 4569,
+    "sessions": 5940,
+    "pageviews": 6712,
+    "income": 112,
+    "parts": {
+     "existing": 3905,
+     "upgrades": 0,
+     "guides": 344,
+     "ticks": 54,
+     "photoId": 98,
+     "planned": 0,
+     "new500": 167
+    }
+   },
+   {
+    "month": "2027-01",
+    "clicks": 5306,
+    "sessions": 6898,
+    "pageviews": 7795,
+    "income": 69,
+    "parts": {
+     "existing": 4008,
+     "upgrades": 95,
+     "guides": 548,
+     "ticks": 71,
+     "photoId": 129,
+     "planned": 0,
+     "new500": 456
+    }
+   },
+   {
+    "month": "2027-02",
+    "clicks": 6469,
+    "sessions": 8409,
+    "pageviews": 9502,
+    "income": 93,
+    "parts": {
+     "existing": 4240,
+     "upgrades": 252,
+     "guides": 774,
+     "ticks": 111,
+     "photoId": 156,
+     "planned": 0,
+     "new500": 935
+    }
+   },
+   {
+    "month": "2027-03",
+    "clicks": 8997,
+    "sessions": 11697,
+    "pageviews": 13217,
+    "income": 159,
+    "parts": {
+     "existing": 5149,
+     "upgrades": 552,
+     "guides": 860,
+     "ticks": 250,
+     "photoId": 176,
+     "planned": 27,
+     "new500": 1984
+    }
+   },
+   {
+    "month": "2027-04",
+    "clicks": 13731,
+    "sessions": 17850,
+    "pageviews": 20170,
+    "income": 261,
+    "parts": {
+     "existing": 6905,
+     "upgrades": 1151,
+     "guides": 989,
+     "ticks": 444,
+     "photoId": 202,
+     "planned": 170,
+     "new500": 3870
+    }
+   },
+   {
+    "month": "2027-05",
+    "clicks": 20163,
+    "sessions": 26212,
+    "pageviews": 29620,
+    "income": 405,
+    "parts": {
+     "existing": 9614,
+     "upgrades": 2060,
+     "guides": 1118,
+     "ticks": 638,
+     "photoId": 227,
+     "planned": 489,
+     "new500": 6017
+    }
+   },
+   {
+    "month": "2027-06",
+    "clicks": 24489,
+    "sessions": 31835,
+    "pageviews": 35974,
+    "income": 516,
+    "parts": {
+     "existing": 11645,
+     "upgrades": 2773,
+     "guides": 1118,
+     "ticks": 638,
+     "photoId": 239,
+     "planned": 752,
+     "new500": 7323
+    }
+   },
+   {
+    "month": "2027-07",
+    "clicks": 25861,
+    "sessions": 33619,
+    "pageviews": 37990,
+    "income": 519,
+    "parts": {
+     "existing": 12180,
+     "upgrades": 2900,
+     "guides": 1118,
+     "ticks": 555,
+     "photoId": 252,
+     "planned": 885,
+     "new500": 7971
+    }
+   },
+   {
+    "month": "2027-08",
+    "clicks": 24207,
+    "sessions": 31469,
+    "pageviews": 35560,
+    "income": 485,
+    "parts": {
+     "existing": 11398,
+     "upgrades": 2714,
+     "guides": 1075,
+     "ticks": 416,
+     "photoId": 252,
+     "planned": 752,
+     "new500": 7600
+    }
+   },
+   {
+    "month": "2027-09",
+    "clicks": 19129,
+    "sessions": 24868,
+    "pageviews": 28100,
+    "income": 404,
+    "parts": {
+     "existing": 8981,
+     "upgrades": 2138,
+     "guides": 946,
+     "ticks": 305,
+     "photoId": 227,
+     "planned": 531,
+     "new500": 6000
+    }
+   },
+   {
+    "month": "2027-10",
+    "clicks": 14484,
+    "sessions": 18830,
+    "pageviews": 21278,
+    "income": 336,
+    "parts": {
+     "existing": 6800,
+     "upgrades": 1619,
+     "guides": 860,
+     "ticks": 250,
+     "photoId": 202,
+     "planned": 354,
+     "new500": 4400
+    }
+   },
+   {
+    "month": "2027-11",
+    "clicks": 10503,
+    "sessions": 13654,
+    "pageviews": 15429,
+    "income": 289,
+    "parts": {
+     "existing": 4852,
+     "upgrades": 1155,
+     "guides": 731,
+     "ticks": 167,
+     "photoId": 176,
+     "planned": 221,
+     "new500": 3200
+    }
+   },
+   {
+    "month": "2027-12",
+    "clicks": 8714,
+    "sessions": 11328,
+    "pageviews": 12801,
+    "income": 232,
+    "parts": {
+     "existing": 3905,
+     "upgrades": 930,
+     "guides": 688,
+     "ticks": 94,
+     "photoId": 164,
+     "planned": 133,
+     "new500": 2800
+    }
+   }
+  ],
+  "twelveMonthIncome": 3648
+ },
+ "middle": {
+  "rows": [
+   {
+    "month": "2026-11",
+    "clicks": 5358,
+    "sessions": 6965,
+    "pageviews": 7871,
+    "income": 0,
+    "parts": {
+     "existing": 4852,
+     "upgrades": 0,
+     "guides": 219,
+     "ticks": 84,
+     "photoId": 144,
+     "planned": 0,
+     "new500": 58
+    }
+   },
+   {
+    "month": "2026-12",
+    "clicks": 4920,
+    "sessions": 6396,
+    "pageviews": 7227,
+    "income": 168,
+    "parts": {
+     "existing": 3905,
+     "upgrades": 0,
+     "guides": 413,
+     "ticks": 94,
+     "photoId": 246,
+     "planned": 0,
+     "new500": 262
+    }
+   },
+   {
+    "month": "2027-01",
+    "clicks": 6037,
+    "sessions": 7847,
+    "pageviews": 8868,
+    "income": 110,
+    "parts": {
+     "existing": 4008,
+     "upgrades": 214,
+     "guides": 658,
+     "ticks": 123,
+     "photoId": 322,
+     "planned": 0,
+     "new500": 712
+    }
+   },
+   {
+    "month": "2027-02",
+    "clicks": 7780,
+    "sessions": 10113,
+    "pageviews": 11428,
+    "income": 155,
+    "parts": {
+     "existing": 4240,
+     "upgrades": 566,
+     "guides": 929,
+     "ticks": 192,
+     "photoId": 392,
+     "planned": 0,
+     "new500": 1461
+    }
+   },
+   {
+    "month": "2027-03",
+    "clicks": 11460,
+    "sessions": 14899,
+    "pageviews": 16835,
+    "income": 282,
+    "parts": {
+     "existing": 5149,
+     "upgrades": 1236,
+     "guides": 1032,
+     "ticks": 433,
+     "photoId": 442,
+     "planned": 68,
+     "new500": 3100
+    }
+   },
+   {
+    "month": "2027-04",
+    "clicks": 18427,
+    "sessions": 23955,
+    "pageviews": 27069,
+    "income": 486,
+    "parts": {
+     "existing": 6905,
+     "upgrades": 2579,
+     "guides": 1187,
+     "ticks": 770,
+     "photoId": 506,
+     "planned": 434,
+     "new500": 6047
+    }
+   },
+   {
+    "month": "2027-05",
+    "clicks": 27895,
+    "sessions": 36263,
+    "pageviews": 40977,
+    "income": 777,
+    "parts": {
+     "existing": 9614,
+     "upgrades": 4618,
+     "guides": 1342,
+     "ticks": 1106,
+     "photoId": 569,
+     "planned": 1245,
+     "new500": 9401
+    }
+   },
+   {
+    "month": "2027-06",
+    "clicks": 34265,
+    "sessions": 44544,
+    "pageviews": 50335,
+    "income": 1002,
+    "parts": {
+     "existing": 11645,
+     "upgrades": 6215,
+     "guides": 1342,
+     "ticks": 1106,
+     "photoId": 600,
+     "planned": 1915,
+     "new500": 11442
+    }
+   },
+   {
+    "month": "2027-07",
+    "clicks": 36323,
+    "sessions": 47220,
+    "pageviews": 53359,
+    "income": 1010,
+    "parts": {
+     "existing": 12180,
+     "upgrades": 6500,
+     "guides": 1342,
+     "ticks": 962,
+     "photoId": 632,
+     "planned": 2253,
+     "new500": 12455
+    }
+   },
+   {
+    "month": "2027-08",
+    "clicks": 33914,
+    "sessions": 44088,
+    "pageviews": 49819,
+    "income": 943,
+    "parts": {
+     "existing": 11398,
+     "upgrades": 6083,
+     "guides": 1290,
+     "ticks": 722,
+     "photoId": 632,
+     "planned": 1915,
+     "new500": 11875
+    }
+   },
+   {
+    "month": "2027-09",
+    "clicks": 26734,
+    "sessions": 34755,
+    "pageviews": 39273,
+    "income": 783,
+    "parts": {
+     "existing": 8981,
+     "upgrades": 4793,
+     "guides": 1135,
+     "ticks": 529,
+     "photoId": 569,
+     "planned": 1352,
+     "new500": 9375
+    }
+   },
+   {
+    "month": "2027-10",
+    "clicks": 20176,
+    "sessions": 26228,
+    "pageviews": 29638,
+    "income": 649,
+    "parts": {
+     "existing": 6800,
+     "upgrades": 3629,
+     "guides": 1032,
+     "ticks": 433,
+     "photoId": 506,
+     "planned": 901,
+     "new500": 6875
+    }
+   },
+   {
+    "month": "2027-11",
+    "clicks": 14613,
+    "sessions": 18998,
+    "pageviews": 21467,
+    "income": 557,
+    "parts": {
+     "existing": 4852,
+     "upgrades": 2590,
+     "guides": 877,
+     "ticks": 289,
+     "photoId": 442,
+     "planned": 563,
+     "new500": 5000
+    }
+   },
+   {
+    "month": "2027-12",
+    "clicks": 12102,
+    "sessions": 15733,
+    "pageviews": 17778,
+    "income": 445,
+    "parts": {
+     "existing": 3905,
+     "upgrades": 2084,
+     "guides": 826,
+     "ticks": 164,
+     "photoId": 411,
+     "planned": 338,
+     "new500": 4375
+    }
+   }
+  ],
+  "twelveMonthIncome": 6922
+ },
+ "high": {
+  "rows": [
+   {
+    "month": "2026-11",
+    "clicks": 6273,
+    "sessions": 8155,
+    "pageviews": 9215,
+    "income": 0,
+    "parts": {
+     "existing": 5095,
+     "upgrades": 0,
+     "guides": 457,
+     "ticks": 168,
+     "photoId": 431,
+     "planned": 0,
+     "new500": 121
+    }
+   },
+   {
+    "month": "2026-12",
+    "clicks": 6431,
+    "sessions": 8361,
+    "pageviews": 9448,
+    "income": 304,
+    "parts": {
+     "existing": 4101,
+     "upgrades": 0,
+     "guides": 860,
+     "ticks": 188,
+     "photoId": 739,
+     "planned": 0,
+     "new500": 544
+    }
+   },
+   {
+    "month": "2027-01",
+    "clicks": 8601,
+    "sessions": 11181,
+    "pageviews": 12634,
+    "income": 218,
+    "parts": {
+     "existing": 4208,
+     "upgrades": 329,
+     "guides": 1371,
+     "ticks": 245,
+     "photoId": 966,
+     "planned": 0,
+     "new500": 1481
+    }
+   },
+   {
+    "month": "2027-02",
+    "clicks": 11855,
+    "sessions": 15412,
+    "pageviews": 17416,
+    "income": 329,
+    "parts": {
+     "existing": 4452,
+     "upgrades": 870,
+     "guides": 1935,
+     "ticks": 385,
+     "photoId": 1175,
+     "planned": 0,
+     "new500": 3038
+    }
+   },
+   {
+    "month": "2027-03",
+    "clicks": 18247,
+    "sessions": 23721,
+    "pageviews": 26805,
+    "income": 623,
+    "parts": {
+     "existing": 5406,
+     "upgrades": 1902,
+     "guides": 2150,
+     "ticks": 866,
+     "photoId": 1327,
+     "planned": 148,
+     "new500": 6448
+    }
+   },
+   {
+    "month": "2027-04",
+    "clicks": 30272,
+    "sessions": 39353,
+    "pageviews": 44469,
+    "income": 1102,
+    "parts": {
+     "existing": 7250,
+     "upgrades": 3968,
+     "guides": 2473,
+     "ticks": 1539,
+     "photoId": 1516,
+     "planned": 948,
+     "new500": 12578
+    }
+   },
+   {
+    "month": "2027-05",
+    "clicks": 46189,
+    "sessions": 60045,
+    "pageviews": 67851,
+    "income": 1774,
+    "parts": {
+     "existing": 10095,
+     "upgrades": 7104,
+     "guides": 2795,
+     "ticks": 2213,
+     "photoId": 1706,
+     "planned": 2722,
+     "new500": 19555
+    }
+   },
+   {
+    "month": "2027-06",
+    "clicks": 56582,
+    "sessions": 73556,
+    "pageviews": 83119,
+    "income": 2280,
+    "parts": {
+     "existing": 12228,
+     "upgrades": 9561,
+     "guides": 2795,
+     "ticks": 2213,
+     "photoId": 1800,
+     "planned": 4187,
+     "new500": 23798
+    }
+   },
+   {
+    "month": "2027-07",
+    "clicks": 60235,
+    "sessions": 78305,
+    "pageviews": 88485,
+    "income": 2310,
+    "parts": {
+     "existing": 12789,
+     "upgrades": 10000,
+     "guides": 2795,
+     "ticks": 1924,
+     "photoId": 1895,
+     "planned": 4926,
+     "new500": 25906
+    }
+   },
+   {
+    "month": "2027-08",
+    "clicks": 56238,
+    "sessions": 73109,
+    "pageviews": 82614,
+    "income": 2156,
+    "parts": {
+     "existing": 11968,
+     "upgrades": 9358,
+     "guides": 2688,
+     "ticks": 1443,
+     "photoId": 1895,
+     "planned": 4187,
+     "new500": 24700
+    }
+   },
+   {
+    "month": "2027-09",
+    "clicks": 44389,
+    "sessions": 57705,
+    "pageviews": 65207,
+    "income": 1792,
+    "parts": {
+     "existing": 9431,
+     "upgrades": 7374,
+     "guides": 2365,
+     "ticks": 1058,
+     "photoId": 1706,
+     "planned": 2956,
+     "new500": 19500
+    }
+   },
+   {
+    "month": "2027-10",
+    "clicks": 33525,
+    "sessions": 43583,
+    "pageviews": 49248,
+    "income": 1488,
+    "parts": {
+     "existing": 7140,
+     "upgrades": 5583,
+     "guides": 2150,
+     "ticks": 866,
+     "photoId": 1516,
+     "planned": 1970,
+     "new500": 14300
+    }
+   },
+   {
+    "month": "2027-11",
+    "clicks": 24442,
+    "sessions": 31774,
+    "pageviews": 35905,
+    "income": 1285,
+    "parts": {
+     "existing": 5095,
+     "upgrades": 3984,
+     "guides": 1828,
+     "ticks": 577,
+     "photoId": 1327,
+     "planned": 1232,
+     "new500": 10400
+    }
+   },
+   {
+    "month": "2027-12",
+    "clicks": 20424,
+    "sessions": 26552,
+    "pageviews": 30004,
+    "income": 1036,
+    "parts": {
+     "existing": 4101,
+     "upgrades": 3206,
+     "guides": 1720,
+     "ticks": 327,
+     "photoId": 1232,
+     "planned": 739,
+     "new500": 9100
+    }
+   }
+  ],
+  "twelveMonthIncome": 15661
+ }
+}
