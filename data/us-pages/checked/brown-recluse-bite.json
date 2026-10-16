@@ -1,0 +1,10 @@
+{
+ "id": "brown-recluse-bite",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "2144561de5aab0df3a319cf1f3343a64fbe0a8dfd48615b65b3545163a778994",
+ "claimsChecked": 300,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-16"
+}

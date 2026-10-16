@@ -1,0 +1,177 @@
+{
+  "slug": "brown-recluse-bite",
+  "kind": "spoke",
+  "cluster": "spiders",
+  "keyword": "brown recluse bite",
+  "alsoTargets": [
+    "brown recluse bite stages",
+    "brown recluse bite pictures",
+    "brown recluse bite treatment",
+    "what does a brown recluse bite look like",
+    "brown recluse bite symptoms"
+  ],
+  "metaTitle": "Brown Recluse Bite: Stages and Symptoms (Photos)",
+  "metaDescription": "Most brown recluse bites heal without serious damage. See photos, the stages a bite can go through, what gets mistaken for one and when to get care.",
+  "h1": "Brown Recluse Bite: Pictures, Stages, Symptoms and When to Get Care",
+  "dek": "What a brown recluse bite looks like from the first hours to the rare open wound, the infections most often mistaken for one, and when medical sources say to get care, with photos and what each one proves.",
+  "breadcrumb": "Brown Recluse Bite",
+  "excerpt": "Most brown recluse bites heal on their own. Photos, the stages a bite can go through, what is often mistaken for one and when to get medical care.",
+  "datePublished": "2026-10-16",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A brown recluse bite often starts as a small red mark you never felt, most heal without serious damage, and a bite is hard or impossible to confirm unless the spider is seen biting, caught and identified.** The [Illinois Department of Public Health](https://dph.illinois.gov/topics-services/environmental-health-protection/structural-pest-control/brown-recluse-black-widow-spiders.html) says many bites cause only redness and swelling, and severe tissue damage probably follows fewer than 10 percent.",
+    "bullets": [
+      "The bite is usually painless; redness, swelling and burning can develop around it within an hour, and the red area may spread over the next eight hours, according to the Illinois Department of Public Health.",
+      "Mayo Clinic lists increasing pain over the first eight hours, fever, chills and body aches, and a pale center that turns dark blue or purple inside a red ring.",
+      "When tissue dies, MedlinePlus says a black scab forms and sloughs off after about 2 to 5 weeks, leaving an ulcer that may take many months to heal.",
+      "Of 182 emergency department patients who said a spider had bitten them, 156 were diagnosed with an infection and 7 with a spider bite, a 2011 study found.",
+      "The brown recluse, whose body is about 3/8 inch long, is established in 16 central and southern states, from Nebraska and Ohio south to Texas and Georgia, per Penn State Extension.",
+      "Poison Control says there is no antidote; after a suspected bite, wash it with soap and water and call your poison center at 1-800-222-1222."
+    ]
+  },
+  "facts": {
+    "title": "At a glance",
+    "rows": [
+      ["How it starts", "Usually painless; redness, swelling and burning within an hour (Illinois) or redness after about 3 to 8 hours (Cleveland Clinic)"],
+      ["First 8 hours", "Pain may increase; the red area may spread and blister"],
+      ["Sign of tissue damage", "Skin around the bite turning purplish; tissue death, if it happens, usually begins within four days"],
+      ["How often it turns severe", "Severe tissue damage in probably fewer than 10 percent of bites"],
+      ["Body-wide symptoms", "Chills, fever, nausea, body aches; rarely blood in the urine, jaundice or kidney failure"],
+      ["Healing", "Most bites within weeks; an ulcer may take many months and leave a deep scar"],
+      ["How a bite is confirmed", "Someone saw the spider bite, it was caught, and someone familiar with the species identified it"],
+      ["Often mistaken for one", "MRSA and other skin infections, other bites, diabetes-related sores, Lyme disease"],
+      ["Antidote", "None; care treats the wound and prevents infection"],
+      ["Poison Help line", "1-800-222-1222, free, 24 hours a day"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What does a brown recluse bite look like?" },
+    { "type": "p", "text": "At first, usually like any other bug bite: [Poison Control's guide to brown recluse bites](https://www.poison.org/articles/brown-recluse-spider-bites) says the spot may look a little red, itchy and inflamed, and that the bite itself often goes unnoticed. CDC's [page on venomous spiders](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html) adds that a bite may sting, with pain at the spot, and that a small white blister usually develops there. Most bites go no further: the [Illinois Department of Public Health](https://dph.illinois.gov/topics-services/environmental-health-protection/structural-pest-control/brown-recluse-black-widow-spiders.html) says many cause only redness and swelling, no more serious than a bee sting, and that severe tissue damage probably follows fewer than 10 percent of bites." },
+    { "type": "figure", "src": "/guides/photos/brown-recluse-female.webp", "width": 1200, "height": 1104, "alt": "Living female brown recluse seen from above on a white background: a pale orange-brown spider with long, thin legs of one color, a plain oval abdomen and a faint dark mark behind the eyes", "caption": "A living female brown recluse, *Loxosceles reclusa*, collected in Austin, Texas, and photographed from above for the University of Texas at Austin's Insects Unlocked project. Its legs and abdomen are each one plain color, and the violin mark is faint on this pale spider.", "credit": "Insects Unlocked, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loxosceles_reclusa_-_brown_recluse_(25823605780).jpg" },
+    { "type": "p", "text": "Bites happen when the spider is pressed against skin. CDC says a brown recluse cannot bite without counterpressure, such as being accidentally trapped against the skin, and the Illinois health department says bites typically occur when the spider is caught between the skin and clothing or bedding. [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/spider-bites/symptoms-causes/syc-20352371) notes that recluses sometimes get mixed up in bed linens and clothing, which is why many bites happen in the early morning." },
+    { "type": "p", "text": "A bite that does react changes over hours and days, and only a minority become the dark open wounds the spider is known for. The stages are set out below. To work out whether a spider was involved at all, [what spider bites look like](/blog/what-does-a-spider-bite-look-like) compares the common ones, and the [bug bite identification chart](/learn/bug-bites) sorts bites by pattern, place on the body and timing." },
+
+    { "type": "h2", "text": "What are the stages of a brown recluse bite?" },
+    { "type": "p", "text": "When a bite reacts, it usually reddens, swells and burns within the first hours, may blister and spread over the first day, and in a minority of cases darkens over the next few days into dead tissue, a black scab and an open sore that can take weeks to months to heal. Many bites stop at the first stage. The table follows the course the medical sources describe and names the source of each timing, because they do not all agree." },
+    { "type": "table", "head": ["Time after the bite", "What can happen", "What it means"], "rows": [
+      ["At the bite", "Usually nothing is felt; some people feel a sharp sting", "Many bites are noticed only later"],
+      ["Within about an hour", "Redness, swelling and a burning feeling around the bite", "The usual first sign when a bite reacts, per Illinois; Cleveland Clinic says the area turns sensitive and red about 3 to 8 hours after the bite"],
+      ["First 8 hours", "Pain that grows; the red area may spread, and the bite may blister like a bad pimple", "Illinois says the red area may spread over the next eight hours and the bite may blister; Mayo Clinic lists pain increasing over the first eight hours as a recluse bite sign"],
+      ["First day", "The wound can harden into a lump up to 2 inches across, and a scab can form", "Part of the general course Illinois describes; bites vary"],
+      ["First few days", "A pale center may turn dark blue or purple inside a red ring; the wound may grow, hurt more and darken", "Mayo Clinic and Poison Control describe these changes. Illinois says purplish skin around the bite means tissue damage is likely, and that if it happens it usually begins within four days"],
+      ["About 2 to 5 weeks", "A black scab (eschar) of dead tissue sloughs off, leaving an ulcer", "MedlinePlus gives this timing for serious cases, in which the tissue dies"],
+      ["Weeks to months", "Most wounds heal; an ulcer may take many months and leave a deep scar", "Illinois says a wound typically heals within eight weeks; MedlinePlus says an ulcer may take many months and leaves a deep scar"]
+    ], "caption": "Timing varies, and many bites never pass the first rows. Sources: Illinois Department of Public Health, Mayo Clinic, Poison Control, MedlinePlus (National Library of Medicine) and Cleveland Clinic, each linked on this page." },
+    { "type": "p", "text": "How far a bite goes depends partly on the dose. The Illinois Department of Public Health says severity may depend on how much venom was injected, and that males, which roam more and probably account for most bites, carry about half as much venom as females and may give less severe bites. It also depends on the person: [MedlinePlus](https://medlineplus.gov/ency/article/002859.htm), the National Library of Medicine's consumer health site, says pain usually develops within the first several hours and may become severe, and that children may have more serious reactions." },
+    { "type": "p", "text": "For the bites that turn severe, Poison Control describes tissue that ulcerates, turns black and forms a crust that eventually falls off, venom that can sometimes reach fat and muscle, and a wound that infection can easily set into, slowing healing. It says such a bite often leaves a crater-like scar even after it has fully healed. Most bites never get there: [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/22946-brown-recluse-spider-bite) says bites that are not severe mostly heal in about three weeks." },
+
+    { "type": "h2", "text": "What are the symptoms of a brown recluse bite?" },
+    { "type": "p", "text": "Pain, redness, itching and a blister or sore at the bite are the usual ones, and some people feel ill with chills, fever or nausea. MedlinePlus lists these symptoms:" },
+    { "type": "ul", "items": [
+      "**At the bite.** Pain that may become severe, itching, a reddish or purplish color in a circle around the bite and, in some cases, a large open sore (ulcer).",
+      "**Through the body.** Chills, fever, nausea, sweating and a general ill feeling. Mayo Clinic also lists body aches.",
+      "**Rarely.** Blood in the urine, yellowing of the skin and the whites of the eyes (jaundice), kidney failure, seizures and coma."
+    ] },
+    { "type": "p", "text": "Serious whole-body illness and death are rare, according to Poison Control. The Illinois Department of Public Health calls deaths extremely rare and probably limited to very young or infirm people, and MedlinePlus says death from these bites is more common in children than in adults. Fever, chills and nausea are also among the signs for which Cleveland Clinic says to call a doctor or go to the emergency room right away, as set out further down." },
+
+    { "type": "h2", "text": "How can you tell if a brown recluse really bit you?" },
+    { "type": "p", "text": "Reliably, only by seeing the spider bite and having it identified. The Illinois Department of Public Health says diagnosis is difficult or impossible without a witness to the bite, the spider collected and an identification by someone familiar with the species. Poison Control says a recluse bite is very hard to diagnose unless the person felt the bite and saw and correctly identified the spider, and Cleveland Clinic notes that no test can identify a brown recluse bite, although a doctor may test for skin infections and other conditions." },
+    { "type": "figure", "src": "/guides/photos/brown-recluse-eyes.webp", "width": 1200, "height": 858, "alt": "Extreme close-up of the front of a brown recluse's head, with six small eyes in three widely spaced pairs, one pair in the middle and one on each side, above hairy reddish-brown jaws", "caption": "The front of a brown recluse's head from above, with six eyes in three separated pairs: one pair in front and one on each side. The specimen, from Austin, Texas, was labeled a brown recluse by the University of Texas at Austin's Insects Unlocked imaging project.", "credit": "Insects Unlocked, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dorsal_view_of_Loxosceles_reclusa_(Brown_Recluse_Spider)_(22235181003).jpg" },
+    { "type": "p", "text": "Identifying the spider means checking its eyes, not just its violin. CDC describes the brown recluse as brown with a dark violin-shaped mark and six equal-sized eyes, where most spiders have eight. [UC IPM's Pest Note on recluse spiders](https://ipm.ucanr.edu/home-and-landscape/brown-recluse-and-other-recluse-spiders/) calls the eyes the most definitive feature and the violin unreliable, and says a recluse must have all five of these traits: six eyes in pairs, an abdomen of one color with fine hairs, legs of one color, no spines on the legs, and a body no more than 3/8 inch long. [The guide to brown recluse look-alikes](/blog/brown-recluse-look-alikes) shows the wolf, house, grass and other spiders that fail those checks." },
+    { "type": "p", "text": "Where you live matters as much. [Penn State Extension](https://extension.psu.edu/brown-recluse-spiders) lists established brown recluse populations in 16 states: Alabama, Arkansas, Georgia, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Mississippi, Missouri, Nebraska, Ohio, Oklahoma, Tennessee and Texas. Outside the native range, it says, the spiders live only in buildings, are almost always brought in by people, and the risk of a bite is virtually nonexistent. [The state-by-state map of where brown recluses live](/blog/venomous-spiders) shows the range." },
+    { "type": "p", "text": "Diagnoses still run far ahead of the spiders. [A study of South Carolina physicians](https://pubmed.ncbi.nlm.nih.gov/17823466/) found they diagnosed 478 brown recluse bites in 1990 and 738 in 2004, while only 44 brown recluse specimens had been verified in the state since 1953, from 6 locations. The authors note that the same pattern has been reported in other areas outside the spider's known range." },
+
+    { "type": "h2", "text": "What else looks like a brown recluse bite?" },
+    { "type": "p", "text": "Skin infections, above all. CDC's [page on MRSA](https://www.cdc.gov/mrsa/about/index.html) says people sometimes confuse MRSA skin infections with a spider bite, and that unless you actually see the spider, the irritation is likely not a spider bite. It describes most staph skin infections, MRSA included, as a bump or infected area that may be red, swollen, painful, warm to the touch, full of pus or other drainage, and accompanied by a fever." },
+    { "type": "media", "needed": "Photo of a MRSA skin abscess (a red, swollen, pus-filled bump on skin), public domain from CDC's Public Health Image Library or CC0, for comparison with the recluse bite photos lower on the page; no identifiable face" },
+    { "type": "p", "text": "In [a 2011 emergency department study](https://pubmed.ncbi.nlm.nih.gov/19939602/), 182 patients said their problem came from a spider bite. Of those, 156 (85.7 percent) were diagnosed with infections and 7 (3.8 percent) with spider bites, and where the species could be identified, the confirmed bites came from black widows, not recluses." },
+    { "type": "p", "text": "Many other conditions can produce a sore that resembles a recluse wound. The Illinois Department of Public Health lists diabetes, impetigo, Lyme disease, tularemia, cutaneous anthrax, necrotizing fasciitis and *Staphylococcus aureus* infection, and Poison Control adds viral and fungal infections, other insect bites and conditions that affect blood circulation. For bites from other pests, see [how a mosquito bite differs from a spider bite](/blog/mosquito-bite-vs-spider-bite) and [what bed bug bites look like](/blog/bed-bug-bites)." },
+    { "type": "callout", "tone": "warning", "title": "A sore you never saw a spider cause", "text": "CDC's advice for a bump that may be a MRSA infection is to contact a healthcare provider, especially if you have a fever or it does not improve within 48 hours, not to pick at it or pop it, and to keep it covered with clean, dry bandages until you are seen." },
+
+    { "type": "h2", "text": "What should you do right after a suspected brown recluse bite?" },
+    { "type": "p", "text": "Wash it, cool it, keep the spider if you safely can, and get medical help. CDC's first aid for a spider bite, written for workers, runs in this order:" },
+    { "type": "ol", "items": [
+      "Stay calm.",
+      "Identify the spider if you can do so safely; it helps with medical treatment.",
+      "Wash the bite area with soap and water.",
+      "Apply a cloth dampened with cold water or filled with ice to reduce swelling.",
+      "Raise the bitten area if possible.",
+      "Do not try to remove venom.",
+      "Seek professional medical attention immediately."
+    ] },
+    { "type": "p", "text": "Poison Control's steps for a suspected bite are to wash the area with soap and water and then call your poison center at 1-800-222-1222 or use its webPOISONCONTROL online tool; the help is free, confidential and available 24 hours a day. For the wound itself, it advises not touching or scratching the bite and covering it with a fresh, non-stick bandage." },
+    { "type": "p", "text": "If you caught the spider, keep it whole: UC IPM warns that a crushed specimen may be difficult to identify, and MedlinePlus advises taking the spider to the emergency room in a secure container. MedlinePlus also lists what to have ready when you call for help:" },
+    { "type": "checklist", "title": "Have this ready when you call", "items": [
+      "The person's age, weight and condition.",
+      "The part of the body that was bitten.",
+      "The time the bite happened.",
+      "The type of spider, if known."
+    ] },
+    { "type": "p", "text": "There is no antidote for brown recluse venom, Poison Control says, so treatment is aimed at the symptoms: cleaning and bandaging the wound, antibiotics to prevent or treat infection, surgery if needed for deep or infected wounds, and an up-to-date tetanus vaccination. CDC notes that spider bites can become infected with tetanus spores." },
+
+    { "type": "h2", "text": "When should you see a doctor for a brown recluse bite?" },
+    { "type": "p", "text": "CDC, Mayo Clinic, MedlinePlus and Cleveland Clinic all say to get medical care after a bite you believe came from a brown recluse, and CDC, Mayo Clinic and MedlinePlus say to do it right away; Poison Control says to call a poison center. Each puts it in its own words:" },
+    { "type": "ul", "items": [
+      "**Mayo Clinic** says to seek medical care immediately if a dangerous spider such as a recluse bit you, if you are unsure whether the spider was dangerous, if you have severe pain, abdominal cramping or a growing wound at the bite, if you have problems breathing or swallowing, or if the area has spreading redness or red streaks.",
+      "**MedlinePlus** advises seeking emergency medical treatment right away after a brown recluse bite, by calling 911, your local emergency number or poison control, and warns that a bite may not look serious at first but can take time to become severe.",
+      "**Cleveland Clinic** says to call your doctor or go to the emergency room immediately for fever, dizziness, chills, nausea or a wound that looks infected: red, swollen, draining cloudy fluid or painful to the touch.",
+      "**CDC** says the skin lesion a recluse bite can cause requires professional medical attention, and its first aid for any spider bite, written for workers, ends with seeking it immediately."
+    ] },
+    { "type": "p", "text": "If you are unsure what to do, a poison center can advise at any hour, free, at 1-800-222-1222. Bring the spider with you if you can, as both MedlinePlus and Cleveland Clinic suggest." },
+
+    { "type": "h2", "text": "What do brown recluse bite pictures show?" },
+    { "type": "p", "text": "Real photos of recluse bites show how varied the wounds are, and each comes with limits on what it proves. The three below come from CDC and a peer-reviewed clinical study, and the timing given is only what each source states." },
+    { "type": "figure", "src": "/guides/photos/brown-recluse-bite-early.webp", "width": 1200, "height": 790, "alt": "Irregular patch of red, blotchy skin with darker red and purplish spots, mostly along its upper edge, around a brown recluse bite", "caption": "Redness around a brown recluse bite before the tissue died, from CDC's Public Health Image Library. CDC does not say how long after the bite it was taken.", "credit": "CDC/ Margaret A. Parsons (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23317" },
+    { "type": "p", "text": "[A 2022 clinical study in Brazil](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0010842) followed bites by South American recluse species at a hospital that specializes in venomous bites. Its authors describe the typical early sign as a painful patch mixing violet and pale areas, often ringed with redness, that usually appears within the first three days and in some patients goes on to dead tissue and an ulcer. Only 29 of the study's 146 patients had the spider identified; the rest were diagnosed from their account, the wound and any body-wide symptoms." },
+    { "type": "figure", "src": "/guides/photos/recluse-bite-first-days.webp", "width": 1200, "height": 734, "alt": "Four lettered clinical photos of recluse bites: a faint pink patch with a pale center, a round red area with a small dark mark, a red thigh patch with a purple blotch, and a gray-purple patch on a forearm", "caption": "Recluse spider (*Loxosceles*) bites 18, 24, 72 and 120 hours after the bite (panels a to d) in that Brazilian study. These were South American recluse species, not the brown recluse, and most of the study's patients were diagnosed from the wound, not the spider.", "credit": "Ceila M. S. Malaque, Christina T. G. Novaes, Roberta O. Piorelli, Jose Y. Risk,Jefferson C. Murad, Amanda N. Lara, Cristiana C. Virgulino, Karina T. Miyaji, Marcelo L. Santoro, CC BY 4.0, via Wikimedia Commons", "license": "CC-BY-4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loxoscelism_-_05.png" },
+    { "type": "figure", "src": "/guides/photos/brown-recluse-bite-necrosis.webp", "width": 1200, "height": 808, "alt": "Round patch of dark reddish-brown, damaged skin on the inside of a person's calf, with a few smaller dark spots on the skin around it", "caption": "Tissue damage (necrosis) on a patient's calf four months after a brown recluse bite, from CDC. Damage like this follows only a minority of bites.", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=6266" },
+    { "type": "media", "needed": "Clinical photo of a verified brown recluse bite in the United States (spider seen biting and identified) in its first 24 to 72 hours, with the timing documented by a clinical or government source; public domain or CC0, no identifiable face" },
+    { "type": "p", "text": "A bite that grows or darkens like these needs a doctor whatever caused it: a growing wound is one of the signs for which Mayo Clinic advises immediate care." },
+
+    { "type": "h2", "text": "How do you avoid brown recluse bites?" },
+    { "type": "p", "text": "Keep the spider from being pressed against your skin. CDC advises shaking out clothing, shoes, towels and equipment before use, wearing gloves, long sleeves and long pants when handling stacked or undisturbed materials, and storing clothing and outdoor gear in tightly closed plastic bags. In homes with recluses, the Illinois Department of Public Health says to inspect clothing and bedding before use, especially items that have not been used for a while." },
+    { "type": "p", "text": "Mayo Clinic adds advice for the bed: keep it away from the wall so only its legs touch the floor, store nothing under it, and keep bedding from dragging on the floor. It also suggests flicking a spider off your skin rather than crushing it against you. Poison Control suggests making noise before entering basements, attics and storage areas, cutting clutter and using glue traps. [The brown recluse guide](/blog/brown-recluse) covers finding an infestation, and [keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house) covers sealing the gaps they use." },
+    { "type": "callout", "tone": "tip", "title": "Keep the spider", "text": "If you can do it safely, trap the spider in a jar without crushing it, photograph it beside a ruler marked in inches and note where you found it. Bring the jar or the photo to the doctor; if no one was bitten, your state's cooperative extension office can help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "How long does a brown recluse bite take to heal?",
+      "answer": "Most bites heal within weeks. Cleveland Clinic says bites that are not severe mostly heal in about three weeks, and the Illinois Department of Public Health says a wound typically heals within eight weeks. Bites that destroy tissue take longer: MedlinePlus says the black scab sloughs off after about 2 to 5 weeks, leaving an ulcer that may take many months to heal and leaves a deep scar. Mayo Clinic says a severe recluse wound can take weeks or months to heal."
+    },
+    {
+      "question": "Does a brown recluse bite hurt when it happens?",
+      "answer": "Often not. The Illinois Department of Public Health says the bite is usually painless and not felt, and Poison Control says it often goes unnoticed. MedlinePlus says you may feel a sharp sting or nothing at all, with pain usually developing over the first several hours and sometimes becoming severe. Mayo Clinic lists increasing pain over the first eight hours as a sign of a recluse bite. Not having felt a bite neither confirms nor rules out a recluse."
+    },
+    {
+      "question": "Can a brown recluse bite you in a state where they don't live?",
+      "answer": "It is very unlikely. Penn State Extension lists established populations in 16 central and southern states and says that outside the native range the spiders live only in buildings, are almost always brought in by people, and the risk of a bite is virtually nonexistent. Diagnoses outside the range still happen: South Carolina, which is not on that list, had 738 brown recluse bites diagnosed by its physicians in 2004, while only 44 specimens had been verified there since 1953."
+    },
+    {
+      "question": "Can a brown recluse bite you while you sleep?",
+      "answer": "Yes, if one ends up trapped against your skin. Mayo Clinic says recluses sometimes get mixed up in bed linens and clothing, which is why many bites happen in the early morning, and the Illinois Department of Public Health says bites typically occur when the spider is caught between skin and clothing or bedding. Mayo suggests keeping the bed away from the wall so only its legs touch the floor, storing nothing under it and keeping bedding off the floor."
+    },
+    {
+      "question": "Is there an antivenom for brown recluse bites?",
+      "answer": "Poison Control says there is no antidote for brown recluse venom and that treatment targets the symptoms, with wound care, antibiotics to prevent or treat infection, surgery if needed for deep or infected wounds and an up-to-date tetanus vaccination. Antivenom does exist for some South American recluse species: a 2022 study from Brazil says some countries there produce and use one, and its patients who received it within 48 hours of the bite were less likely to develop dead tissue. That study involved South American species treated in Brazil, so it is not treatment advice for brown recluse bites."
+    },
+    {
+      "question": "Can a brown recluse bite kill you?",
+      "answer": "It is possible but rare. Poison Control says serious illness and death are rare, and the Illinois Department of Public Health calls deaths extremely rare and probably limited to very young or infirm people. MedlinePlus says death from these bites is more common in children than in adults, and it lists rare complications such as blood in the urine, jaundice, kidney failure and seizures. Mayo Clinic says that, rarely, a recluse bite is deadly, particularly in small children."
+    }
+  ],
+  "sources": [
+    { "title": "Brown Recluse and Black Widow Spiders", "publisher": "Illinois Department of Public Health", "url": "https://dph.illinois.gov/topics-services/environmental-health-protection/structural-pest-control/brown-recluse-black-widow-spiders.html" },
+    { "title": "Venomous Spiders at Work", "publisher": "CDC, National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html" },
+    { "title": "Methicillin-resistant Staphylococcus aureus (MRSA) Basics", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mrsa/about/index.html" },
+    { "title": "Brown recluse spider bites: Know the signs, reduce the risks", "publisher": "Poison Control (National Capital Poison Center)", "url": "https://www.poison.org/articles/brown-recluse-spider-bites" },
+    { "title": "Brown recluse spider (Medical Encyclopedia)", "publisher": "MedlinePlus, National Library of Medicine", "url": "https://medlineplus.gov/ency/article/002859.htm" },
+    { "title": "Spider bites: Symptoms and causes", "publisher": "Mayo Clinic", "url": "https://www.mayoclinic.org/diseases-conditions/spider-bites/symptoms-causes/syc-20352371" },
+    { "title": "Brown Recluse Spider Bite", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/22946-brown-recluse-spider-bite" },
+    { "title": "Spider bite lesions are usually diagnosed as skin and soft-tissue infections", "publisher": "Journal of Emergency Medicine (Suchard, 2011), PubMed record", "url": "https://pubmed.ncbi.nlm.nih.gov/19939602/" },
+    { "title": "Reports of envenomation by brown recluse spiders exceed verified specimens of Loxosceles spiders in South Carolina", "publisher": "Journal of the American Board of Family Medicine (Frithsen, Vetter and Stocks, 2007), PubMed record", "url": "https://pubmed.ncbi.nlm.nih.gov/17823466/" },
+    { "title": "Impact of antivenom administration on the evolution of cutaneous lesions in loxoscelism: A prospective observational study", "publisher": "PLOS Neglected Tropical Diseases (Malaque and others, 2022)", "url": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0010842" },
+    { "title": "Brown Recluse Spiders", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/brown-recluse-spiders" },
+    { "title": "Brown Recluse and Other Recluse Spiders (Pest Notes Publication 7468)", "publisher": "University of California Statewide IPM Program (R. S. Vetter, UC Riverside)", "url": "https://ipm.ucanr.edu/home-and-landscape/brown-recluse-and-other-recluse-spiders/" }
+  ],
+  "disclaimer": "health"
+}
