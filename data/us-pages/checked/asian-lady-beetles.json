@@ -1,0 +1,10 @@
+{
+ "id": "asian-lady-beetles",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "b47f21c4fcafa7e40ef7830f9950e95ff00e4b2fbf7d3ff28f6a93dca71c60ee",
+ "claimsChecked": 126,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-16"
+}

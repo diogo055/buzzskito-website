@@ -1,0 +1,154 @@
+{
+  "slug": "asian-lady-beetles",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "asian lady beetle",
+  "alsoTargets": ["asian lady beetle vs ladybug", "ladybugs in house", "asian lady beetle bite"],
+  "metaTitle": "Asian Lady Beetle vs Ladybug: ID and Bites",
+  "metaDescription": "Look for a black M or W on the white plate behind the head. How to tell an Asian lady beetle from native ladybugs, why it swarms in fall, and if it bites.",
+  "h1": "Asian Lady Beetle vs Ladybug: How to Tell Them Apart, Bites and Fall Swarms",
+  "dek": "The lady beetles that crowd sunny walls and slip indoors in fall are usually Asian lady beetles. Here is the check that separates them from native ladybugs, what their pinch and yellow fluid mean, and how to keep them out.",
+  "breadcrumb": "Asian Lady Beetle vs Ladybug",
+  "excerpt": "Asian lady beetles usually have a white plate behind the head marked with a black M or W. How to tell them from native ladybugs, why they swarm in fall, and whether they bite.",
+  "datePublished": "2026-10-16",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Check the plate behind the head: an Asian lady beetle's is usually white with a black M or W, while the convergent lady beetle, a common native ladybug, has a black plate with two short white lines.** The Asian species is also the one that crowds sunny walls in fall; [Ohio State University](https://cfaes.osu.edu/fact-sheet/multicolored-asian-lady-beetle) says native lady beetles typically spend the winter outdoors.",
+    "bullets": [
+      "Adults are oval, domed and about 1/4 inch long; [Penn State Extension](https://extension.psu.edu/multicolored-asian-lady-beetle) gives 9/32 inch (7 mm) and says that is larger than most native lady beetles.",
+      "Their wing covers are usually tan, orange or red, with anywhere from no spots to 19, the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/asian-lady-beetle) says, so color and spot count do not settle the ID.",
+      "Swarms fly to buildings from September through November, most heavily on sunny days after a cool spell once temperatures return to at least the mid-60s °F, according to the [University of Kentucky](https://entomology.mgcafe.uky.edu/ef416).",
+      "They can pinch, but they have no venom and do not transmit disease; the real nuisances are a foul-smelling yellow fluid that stains and allergies in some people.",
+      "They do not reproduce indoors or attack wood, food or clothing, so beetles that appear in late winter are ones that moved in during the fall.",
+      "Penn State warns that pets that eat the beetles may get chemical burns inside the mouth."
+    ]
+  },
+  "facts": {
+    "title": "Asian lady beetle and look-alikes at a glance",
+    "rows": [
+      ["Asian lady beetle", "White plate behind the head with a black M or W; tan, orange or red wing covers with no spots up to 19; about 1/4 inch long"],
+      ["Convergent lady beetle (native)", "Black plate behind the head with two short white lines that angle toward each other; a few spots up to 13"],
+      ["Seven-spotted lady beetle (from Eurasia)", "A white spot on either side of the head and 7 black spots on the wing covers"],
+      ["Asian lady beetle larva", "Alligator-like, dark gray with rows of orange markings and double-branched spines"],
+      ["Asian lady beetle pupa", "Orange with black spots, often attached to plants, walls and other structures"],
+      ["Boxelder bug", "About 1/2 inch long, black with orange or red markings"],
+      ["Brown marmorated stink bug", "Shield-shaped and mottled brown, with white bands on the antennae"],
+      ["Fall flights", "September to November, heaviest on sunny days once it is back to the mid-60s °F after a cool spell"],
+      ["Bite", "An occasional pinch that feels like a pinprick; no venom"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "How do you tell an Asian lady beetle from a ladybug?" },
+    { "type": "p", "text": "Look at the plate just behind the head, called the pronotum. On an Asian lady beetle (*Harmonia axyridis*) it is usually white with a black M or W, depending on whether you view the beetle from the front or the back, and [Ohio State University's fact sheet on the multicolored Asian lady beetle](https://cfaes.osu.edu/fact-sheet/multicolored-asian-lady-beetle) names that mark as an important feature for telling it from other lady beetles found in Ohio, native species included. [Ohio State's general guide to lady beetles](https://ohioline.osu.edu/factsheet/ENT-45) says the pattern behind the head is typically more consistent within a species than the spots are." },
+    { "type": "figure", "src": "/guides/photos/asian-lady-beetle.webp", "width": 1080, "height": 1920, "alt": "Orange Asian lady beetle seen from above on gray concrete, with no black spots on its wing covers and black marks on the cream plate behind its head", "caption": "An Asian lady beetle photographed in New Jersey. It has no black spots on its wing covers, so the black marks on the pale plate behind its head are the feature to check.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/190510487" },
+    { "type": "p", "text": "Ladybug is not a separate kind of insect: [Penn State Extension's guide to the multicolored Asian lady beetle](https://extension.psu.edu/multicolored-asian-lady-beetle) says lady beetle and ladybug are common names for every species in the lady beetle family, and the [Missouri Department of Conservation's Asian lady beetle page](https://mdc.mo.gov/discover-nature/field-guide/asian-lady-beetle) counts nearly 500 other lady beetle species in North America north of Mexico. Penn State puts the Asian species at 9/32 inch (7 mm), larger than most natives, but behavior is the better clue: Ohio State says native lady beetles typically overwinter outdoors, not in walls and attics." },
+    { "type": "checklist", "title": "Check the beetle in a jar", "items": [
+      "**The plate behind the head.** White with a black M or W points to an Asian lady beetle. Black with two short white lines angled toward each other points to the native convergent lady beetle. A white spot on each side of the head points to the seven-spotted lady beetle.",
+      "**Size against a ruler.** About 1/4 inch fits an Asian lady beetle. A black bug with orange or red markings about 1/2 inch long is more likely a boxelder bug.",
+      "**Shape.** Domed and round to oval is a lady beetle; shield-shaped and mottled brown is a brown marmorated stink bug.",
+      "**Where and when.** Dozens on a sunny wall in fall, or a few near windows and lights on warm days in late winter, fits the Asian species."
+    ] },
+    { "type": "table", "head": ["Insect", "Check first", "Other clues", "Fall and winter"], "rows": [
+      ["Asian lady beetle", "White plate behind the head with a black M or W", "Tan to red; no spots up to 19; about 1/4 inch", "Gathers on sunlit walls; overwinters in attics and wall voids"],
+      ["Convergent lady beetle (native)", "Black plate with two short white lines angled toward each other", "A few spots up to 13", "Native lady beetles typically overwinter outdoors"],
+      ["Seven-spotted lady beetle (from Eurasia)", "A white spot on either side of the head", "7 black spots", "Like most lady beetles, normally lives outdoors"],
+      ["Boxelder bug", "About 1/2 inch, black with orange or red markings", "Often near boxelder trees", "Drawn to buildings with large south or west exposures"],
+      ["Brown marmorated stink bug", "Shield-shaped, white bands on the antennae", "Mottled brown, smooth shoulders", "Congregates on buildings looking for a place to overwinter"]
+    ], "caption": "Sources: Ohio State University, Missouri Department of Conservation, University of Kentucky, University of Illinois Extension." },
+    { "type": "media", "needed": "Top-down photo of a native convergent lady beetle beside a ruler marked in inches, sharp enough to show the black plate behind the head with its two short white lines angled toward each other, for side-by-side comparison with the Asian lady beetle" },
+
+    { "type": "h2", "text": "What does an Asian lady beetle look like?" },
+    { "type": "p", "text": "An adult is oval, convex and about 1/4 inch long, says the [University of Kentucky's fact sheet on Asian lady beetles in buildings](https://entomology.mgcafe.uky.edu/ef416), and tan, orange or red. The Missouri Department of Conservation says it may have many black spots (up to 19), some, or none, and Kentucky notes that heavily spotted beetles tend to be females and those with few or no spots males. [Colorado State University Extension](https://extension.colostate.edu/resource/lady-beetles/) says that variety in color and pattern is where the name multicolored comes from." },
+    { "type": "p", "text": "The mark behind the head is the steadier clue. The Missouri Department of Conservation describes it as four black spots that sometimes join to form a W, and Penn State says the W can be filled in to a solid black patch on dark beetles; it also lists darker forms with black wing covers carrying two, four or twelve orange to red spots. Ohio State says spots can wear away with age until they almost disappear, while the M or W usually stays visible." },
+    { "type": "media", "needed": "Close-up, top-down photo of an adult Asian lady beetle's head and the white plate behind it, showing a clear black M or W, with a ruler marked in inches in the frame" },
+    { "type": "h3", "text": "What do Asian lady beetle larvae and pupae look like?" },
+    { "type": "p", "text": "The larvae look like small, spiny alligators: Penn State describes them as dark gray with rows of orange markings and double-branched spines. Ohio State's lady beetle guide says lady beetle larvae in general look like tiny black alligators with orange spots, so the shape alone does not mark a larva as the Asian species. The pupa is orange with black spots and is often found attached to plants, walls and other structures, Penn State says." },
+    { "type": "media", "needed": "Photo of an Asian lady beetle larva and a pupa on a leaf beside a ruler marked in inches, showing the larva's dark body with orange markings and branched spines and the orange pupa with its black spots" },
+
+    { "type": "h2", "text": "Which ladybugs get mistaken for Asian lady beetles?" },
+    { "type": "p", "text": "The two worth ruling out first are the native convergent lady beetle and the exotic seven-spotted lady beetle, both among the common lady beetles in Ohio State's guide. The Asian lady beetle is an import too: a 2000 fact sheet from the [USDA's Agricultural Research Service](https://www.ars.usda.gov/oc/br/lbeetle/index) says it was imported and released as early as 1916 in attempts to control insect pests, but the first populations were not found in this country until 1988, in Louisiana. Kentucky says it has since spread to much of the U.S. and parts of Canada." },
+    { "type": "h3", "text": "How do you recognize a convergent lady beetle?" },
+    { "type": "p", "text": "The convergent lady beetle (*Hippodamia convergens*) is named for two short white lines on the black plate behind its head that angle toward each other. The [Missouri Department of Conservation's convergent lady beetle page](https://mdc.mo.gov/discover-nature/field-guide/convergent-lady-beetle) says its spots range from just a few up to 13, but those two white lines are always present, which makes the plate nearly the reverse of the Asian beetle's white plate with a black M. Colorado State calls it a native species and the most abundant lady beetle in Colorado." },
+    { "type": "h3", "text": "How do you recognize a seven-spotted lady beetle?" },
+    { "type": "p", "text": "The seven-spotted lady beetle (*Coccinella septempunctata*) has a white spot on either side of the head and 7 black spots on its wing covers, according to the [Missouri Department of Conservation's seven-spotted lady beetle page](https://mdc.mo.gov/discover-nature/field-guide/seven-spotted-lady-beetle). It is native to Eurasia and was introduced to North America on purpose in the mid-1900s to fight aphids. Kentucky's entomologists name only one lady beetle, the Asian species, as the one that becomes a nuisance." },
+    { "type": "media", "needed": "Top-down photo of a seven-spotted lady beetle beside a ruler marked in inches, showing the white spot on either side of the head and the 7 black spots on its wing covers" },
+    { "type": "h3", "text": "Do native ladybugs swarm too?" },
+    { "type": "p", "text": "Some do, but typically outdoors rather than on houses. Colorado State says convergent lady beetles in parts of Colorado make mass migrations in late summer to overwintering sites at high elevations, often gathering in large groups above 9,000 feet. So a crowd of lady beetles on your siding or in your attic in October is probably the Asian species, but check the plate behind the head." },
+
+    { "type": "h2", "text": "Why do Asian lady beetles swarm houses in the fall?" },
+    { "type": "p", "text": "They are looking for a sheltered place to spend the winter. Kentucky says swarms typically fly to buildings from September through November and are heaviest on sunny days after cooler weather once temperatures return to at least the mid-60s °F. Ohio State puts the trigger at the first day over 64°F after a significant drop in temperature, usually to near freezing, which in Ohio comes in mid- to late October." },
+    { "type": "p", "text": "Kentucky says they congregate on the sunnier, southwest sides of buildings, that contrasting light and dark features tend to attract them, and that homes near woods or fields are especially prone; the 2000 USDA fact sheet says they are attracted to lighter colors such as white, gray and yellow, but Kentucky says house color matters less than that contrast. From the wall they squeeze behind fascia boards and siding and into soffits, attics and wall voids, where Penn State says it is not uncommon for tens of thousands to congregate." },
+    { "type": "figure", "src": "/guides/photos/asian-lady-beetle-aggregation.webp", "width": 1200, "height": 2019, "alt": "Dozens of orange and red Asian lady beetles with black spots packed together on a wooden door frame beside a white textured wall", "caption": "Asian lady beetles clustered on a door frame, photographed in Argentina. Colors in one cluster can run from orange to red, so color alone does not identify them.", "license": "CC-BY-SA-4.0", "credit": "Chinoaltubedenoia, CC BY-SA 4.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ladybug_meeting_I.png" },
+    { "type": "p", "text": "Warmth is not the goal. Ohio State calls that a common misconception and says beetles that end up in heated rooms are doomed by the high temperatures. Colorado State notes that their large fall masses earned them the popular name Halloween beetles." },
+
+    { "type": "h2", "text": "Why are there ladybugs in my house in winter?" },
+    { "type": "p", "text": "They moved into the walls and attic in fall, and warm spells wake them up. Kentucky says they become active again as temperatures warm in late winter and early spring and some wander inward; because they are drawn to light, they are often seen around windows and light fixtures. Ohio State says beetles that spent the winter in exterior wall voids and attics may crawl into a building rather than out of it." },
+    { "type": "p", "text": "They are not breeding there: Kentucky says they do not reproduce indoors. Penn State adds that in warm areas without freezing temperatures, including the southern United States, adults are active year-round. Not lady beetles? The [roundup of bugs found indoors in winter](/blog/bugs-in-house-in-winter) covers the rest." },
+
+    { "type": "h2", "text": "Do Asian lady beetles bite?" },
+    { "type": "p", "text": "Occasionally, but it is a pinch. Kentucky says the bite feels like a pinprick and is seldom serious, and that the beetles do not transmit diseases. Ohio State says lady beetle bites are rare but that the Asian species appears more aggressive than native ones, biting particularly when a beetle is trapped between skin and clothing, such as under a shirt collar. Penn State says bites range from slightly annoying to painful, and the Missouri Department of Conservation says the beetles have no venom." },
+    { "type": "p", "text": "Allergy is the bigger health issue. Ohio State lists rhinoconjunctivitis (inflamed nose and eyes), asthma, hives and swelling known as angioedema among the documented reactions, and says sensitivity is not related to a person's age or tendency toward allergies. A [case series in an allergy journal](https://pubmed.ncbi.nlm.nih.gov/17069108/) describes rhinitis, wheezing and hives in people exposed to beetles sheltering in homes, and found allergy antibodies (IgE) to beetle proteins in eight such patients." },
+    { "type": "p", "text": "[Mayo Clinic's first-aid guidance on insect bites and stings](https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593) says most bites are mild, with itching or swelling that goes away in a day or two. It advises seeing a healthcare professional if the swelling gets worse, the site shows signs of infection or you don't feel well, and calling 911 for signs of a serious allergic reaction such as trouble breathing or swelling of the lips, face, eyelids or throat. A [bug bite identification chart](/learn/bug-bites) covers other insects." },
+
+    { "type": "h2", "text": "What is the yellow liquid Asian lady beetles leave behind?" },
+    { "type": "p", "text": "It is the beetle's blood. Ohio State says disturbed beetles exude a yellow-orange body fluid, their hemolymph, from joints in their legs, and that it has a foul odor and can permanently stain walls, drapes and carpeting. That is why Kentucky says a broom is more likely than a vacuum to leave stains. Ohio State adds that beetles harvested along with grape clusters can give grape juice and wine a distinctly unpleasant taste." },
+
+    { "type": "h2", "text": "Can Asian lady beetles hurt dogs?" },
+    { "type": "p", "text": "They can if a dog eats them: Penn State says pets that eat the beetles may get chemical burns inside the mouth. In a [published veterinary case report](https://pubmed.ncbi.nlm.nih.gov/18582484/), a six-year-old dog had sixteen of the beetles embedded in the tissue covering the hard palate; they had to be removed by hand, and the authors diagnosed a chemical burn consistent with the chemicals in the beetles' blood. Neither source gives first-aid advice, but if beetles are stuck in a dog's mouth, or its mouth seems sore after eating them, call your veterinarian." },
+
+    { "type": "h2", "text": "Which other bugs gather on sunny walls in the fall?" },
+    { "type": "p", "text": "Boxelder bugs and brown marmorated stink bugs are the usual two: [University of Illinois Extension's guide to fall house guests](https://extension.illinois.edu/blogs/good-growing/2019-10-01-fall-house-guests) names them, with Asian lady beetles, among the most frequent. It describes the boxelder bug as about 1/2 inch long and black with orange or red markings, commonly found trying to get into houses, especially near a boxelder tree, and drawn to buildings with large southern or western exposures. A [boxelder bug guide](/blog/how-to-get-rid-of-boxelder-bugs-canada) covers it." },
+    { "type": "figure", "src": "/guides/photos/boxelder-bug.webp", "width": 1200, "height": 1200, "alt": "Eastern boxelder bug on a twig with small yellow flowers, a long black bug with orange lines along the edges of its body and wings, red eyes and long black antennae", "caption": "An eastern boxelder bug. At about 1/2 inch long and black with orange or red markings, it is roughly twice the length of an Asian lady beetle.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/156911331" },
+    { "type": "p", "text": "Illinois Extension describes the brown marmorated stink bug as shield-shaped and mottled brown, with white bands on its antennae and smooth shoulders, and says it also congregates on buildings looking for somewhere to overwinter. If that matches, [a guide to keeping stink bugs out of a house](/blog/how-to-get-rid-of-stink-bugs-canada) covers removal and sealing. Flies rather than beetles? [A cluster fly guide](/blog/how-to-get-rid-of-cluster-flies-canada) covers those." },
+    { "type": "figure", "src": "/guides/photos/brown-marmorated-stink-bug.webp", "width": 1200, "height": 1800, "alt": "Brown marmorated stink bug seen head-on while feeding on a red apple, a mottled brown shield-shaped bug with banded antennae and speckled legs", "caption": "A brown marmorated stink bug feeding on an apple. Look for the shield shape, the mottled brown color and the banded antennae.", "license": "public-domain", "credit": "U.S. Department of Agriculture, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown_marmorated_stink_bug_feeding_on_apple.jpg" },
+
+    { "type": "h2", "text": "How do you get rid of Asian lady beetles in the house?" },
+    { "type": "p", "text": "Vacuum the beetles you can reach and seal the gaps they use; Kentucky's entomologists say there is no quick fix. Penn State calls vacuuming the most efficient way to remove clusters: remove the bag after each use, or secure a nylon stocking inside the hose of a bagless machine. Ohio State recommends a fan-bypass vacuum such as a shop vacuum, not a direct-fan machine that pulls debris through the impeller before collecting it." },
+    { "type": "p", "text": "Sealing lasts longer, and Kentucky says to do it in late spring or summer: seal cracks around windows, doors, soffits, fascia boards, utility pipes and wires with caulk or another suitable sealant, and plug larger holes with cement, urethane foam or copper mesh, because gaps of 1/8 inch or less let lady beetles in. Penn State adds that attics, fireplace chimneys and exhaust vents should be covered with number 20 (or smaller) screen mesh." },
+    { "type": "p", "text": "Skip foggers. Ohio State says not to use an aerosol fogger or bug bomb against these beetles and warns that such treatments can draw scavenging pests to the dead insects, and Penn State says carpet beetles are likely to feed on beetles killed inside wall voids, a [carpet beetle problem](/blog/how-to-get-rid-of-carpet-beetles-canada) you do not want to start. Kentucky says light traps catch lady beetles in dark spaces such as attics but relatively few in living spaces, and that ladybug houses have no effect in keeping the beetles out." },
+    { "type": "p", "text": "Exterior insecticide sprays are a partial measure. Penn State says a licensed pest control operator should apply them in late September or early October, just before the beetles congregate, and that sunlight breaks them down. Ohio State adds that beetles already inside are unaffected and that the label is the law." },
+    { "type": "callout", "tone": "tip", "title": "Save the specimen", "text": "Put the beetle in a sealed jar, photograph it from above beside a ruler marked in inches with the plate behind its head in focus, and note where and when you found it. Your state's cooperative extension office or a pest professional can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Are orange ladybugs poisonous?",
+      "answer": "Orange lady beetles found indoors in fall are usually Asian lady beetles, and they are not venomous: the Missouri Department of Conservation says they have no venom and do not transmit diseases. Their defensive fluid is the problem. It smells, stains and has been linked to allergy symptoms in some people, and Penn State Extension says pets that eat the beetles may get chemical burns inside the mouth. The Missouri Department of Conservation also advises against touching your eyes or nose after handling them."
+    },
+    {
+      "question": "Will Asian lady beetles lay eggs in my house?",
+      "answer": "No. The University of Kentucky says they do not reproduce indoors, and the USDA's Agricultural Research Service says they do not lay their eggs in homes. Kentucky says the yellow, oval eggs are typically laid in clusters on the undersides of leaves. The beetles you find in late winter or early spring are adults that moved into the walls or attic the previous fall and became active again as temperatures warmed."
+    },
+    {
+      "question": "Do Asian lady beetles damage houses?",
+      "answer": "Not structurally. The USDA's Agricultural Research Service says lady beetles do not chew or bore holes in walls or eat carpet or furniture, and the University of Kentucky says they do not attack wood, food or clothing. The damage is cosmetic: Ohio State says the yellow-orange fluid they release when disturbed can permanently stain walls, drapes and carpeting. Penn State also warns that carpet beetles are likely to feed on dead beetles left in wall voids after an insecticide treatment there."
+    },
+    {
+      "question": "Are Asian lady beetles good or bad?",
+      "answer": "Both. Penn State Extension says the larvae and adults are voracious predators of soft-bodied insects, particularly aphids, and the USDA's Agricultural Research Service says the beetle was released in attempts to control insect pests. On the other side, the Missouri Department of Conservation says it can outcompete native lady beetles for food, and Ohio State calls it a more serious pest of fruit products, particularly grape juice and wine, which beetles harvested with the grapes can taint. Indoors it is a seasonal nuisance rather than a structural pest."
+    },
+    {
+      "question": "How long do Asian lady beetles live?",
+      "answer": "It varies widely. Penn State says adults typically live 30 to 90 days but can live up to three years, and Ohio State says beetles that reach 2 or 3 years old look dull, with spots worn down until they almost disappear, while the M or W behind the head usually stays visible. Penn State says the whole life cycle from egg to adult takes three to six weeks, depending on temperature and food, and that there are usually four to six generations a year."
+    },
+    {
+      "question": "Do ladybug houses keep Asian lady beetles away?",
+      "answer": "No. The University of Kentucky says ladybug houses will have no effect in keeping the beetles out of your home. What keeps them out is sealing: Kentucky recommends sealing cracks around windows, doors, soffits, fascia boards and utility pipes in late spring or summer, and Penn State recommends covering attic, chimney and exhaust vents with fine screen mesh. Beetles that are already inside are best removed with a vacuum, which Penn State calls the most efficient method."
+    }
+  ],
+  "sources": [
+    { "title": "Asian Lady Beetle Infestation of Structures (ENTFACT-416)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef416" },
+    { "title": "Multicolored Asian Lady Beetle", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/multicolored-asian-lady-beetle" },
+    { "title": "Multicolored Asian Lady Beetle (ENT-44)", "publisher": "The Ohio State University College of Food, Agricultural, and Environmental Sciences", "url": "https://cfaes.osu.edu/fact-sheet/multicolored-asian-lady-beetle" },
+    { "title": "Lady Beetles (ENT-45)", "publisher": "Ohio State University Extension", "url": "https://ohioline.osu.edu/factsheet/ENT-45" },
+    { "title": "Asian Lady Beetle", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/asian-lady-beetle" },
+    { "title": "Convergent Lady Beetle", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/convergent-lady-beetle" },
+    { "title": "Seven-Spotted Lady Beetle", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/seven-spotted-lady-beetle" },
+    { "title": "The Multicolored Asian Lady Beetle", "publisher": "USDA Agricultural Research Service", "url": "https://www.ars.usda.gov/oc/br/lbeetle/index" },
+    { "title": "Lady Beetles (Fact Sheet 5.594)", "publisher": "Colorado State University Extension", "url": "https://extension.colostate.edu/resource/lady-beetles/" },
+    { "title": "Fall House Guests", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/blogs/good-growing/2019-10-01-fall-house-guests" },
+    { "title": "Acute corrosion of the oral mucosa in a dog due to ingestion of Multicolored Asian Lady Beetles (Harmonia axyridis: Coccinellidae)", "publisher": "Toxicon, via PubMed (National Library of Medicine)", "url": "https://pubmed.ncbi.nlm.nih.gov/18582484/" },
+    { "title": "Multicolored Asian lady beetle hypersensitivity: a case series and allergist survey", "publisher": "Annals of Allergy, Asthma & Immunology, via PubMed (National Library of Medicine)", "url": "https://pubmed.ncbi.nlm.nih.gov/17069108/" },
+    { "title": "Insect bites and stings: First aid", "publisher": "Mayo Clinic", "url": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593" }
+  ],
+  "disclaimer": "both"
+}
