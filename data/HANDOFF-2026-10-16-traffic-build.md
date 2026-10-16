@@ -64,6 +64,11 @@ with SendUserFile.
   droppings/holes in yard; millipedes/earwigs/silverfish; roaches; termite damage; kissing-bug and
   red-and-black look-alikes; black spiders), each with a confused-card row and >= 1 live guide linking
   it; checkers; hand releases; link-in round. Then a family topic planner with Ahrefs after Oct 26.
+- **RETROFIT TOOLING LIVE (07506590, full build passed, pushed):** ConfusedWith + QuickIdTable
+  components, RETROFIT_BRIEF.md, retrofit-order.json (93 pages; pilots done: why-do-mosquito-bites-itch,
+  bugs-that-look-like-cockroaches). From Oct 20: retrofit agents take ~20 pages each batch in order
+  (skip the 2 pilots), affiliate loop + build + push per batch, then a link-in round; GSC check of each
+  batch after 2-3 weeks (roll back a page whose clicks drop while impressions hold).
 - **OWNER OVERRIDE, Oct 16 late: retrofit existing pages NOW (no wait for Oct 29-30), additive only,
   nothing detrimental; new pages 50-60/week; research more comparable sites.** Search Console API
   works again (owner re-authed; last 7 days to Oct 15: 1,569 clicks, 210,692 impressions, pos 7.0).
