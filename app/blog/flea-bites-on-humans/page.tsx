@@ -153,7 +153,7 @@ export default function FleaBitesOnHumansPage() {
           </p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>Individual flea bites are small &mdash; about 1&ndash;3 mm (roughly 1/8 in) &mdash; with a tiny central puncture point.</li>
-            <li>Bites concentrate below the knee because a cat flea jumps up to about 20 cm (8 in) vertically from floor level.</li>
+            <li>Bites concentrate below the knee because a cat flea jumps up to about 15&ndash;18 cm (6&ndash;7 in) vertically from floor level.</li>
             <li>Fleas cannot live or breed on humans &mdash; they bite a few times and return to carpets, pet bedding, and floor cracks.</li>
             <li>Most bites fade in a few days to 2 weeks; new bites appearing daily means the home infestation is still active.</li>
             <li>Adult fleas are only about 5% of an infestation &mdash; the other ~95% are eggs, larvae, and pupae hidden in the environment.</li>
@@ -210,7 +210,7 @@ export default function FleaBitesOnHumansPage() {
         <ul>
           <li><strong>Grouping.</strong> Bites come in clusters or short lines of two to three, because a single flea probes and feeds more than once before leaving.</li>
           <li><strong>The halo.</strong> A reddened ring around a central point is typical of flea bites and less common with mosquito bites.</li>
-          <li><strong>Low placement.</strong> Fleas launch from carpets and floor-level bedding, and a cat flea&rsquo;s vertical jump tops out around 20 cm (8 in) &mdash; so bites concentrate on ankles, shins, and calves. Bites around the waist, behind the knees, or on forearms usually mean floor-sitting or close pet contact.</li>
+          <li><strong>Low placement.</strong> Fleas launch from carpets and floor-level bedding, and a cat flea&rsquo;s vertical jump tops out around 15&ndash;18 cm (6&ndash;7 in) &mdash; so bites concentrate on ankles, shins, and calves. Bites around the waist, behind the knees, or on forearms usually mean floor-sitting or close pet contact.</li>
         </ul>
         <Photo
           id="cat-flea-scale-bar"
